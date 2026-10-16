@@ -106,3 +106,37 @@
 - official in-app purchase / Stripe;
 - rate limiting and abuse protection;
 - UK GDPR compliance and the ICO Children's Code (age-appropriate design: high privacy by default for under-18s, no nudge techniques, no profiling of children).
+
+---
+
+## Positioning: the only truly British English app
+
+**Core differentiator.** Duolingo and most of the big apps teach American English, or a neutral English that leans American. The Toms teaches British English all the way through: the vocabulary, the spelling, the accents (Received Pronunciation plus friendly regional voices), and real daily life in a British family home.
+
+### Content rules (non-negotiable)
+- Always use British spelling: colour, favourite, mum, organise, centre, programme, cosy, pyjamas, grey, tyre.
+- Always use British words: flat, queue, chemist, biscuit, crisps, chips, jumper, trousers, trainers, mobile, rubbish/bin, lift, loo, post, holiday, garden, car park, motorway, GP, A&E, term, maths.
+- Every voice is British (edge-tts en-GB). Never use an en-US voice.
+- Put **British vs American** mini-notes (`C:` culture notes) in roughly 1 in 3 lessons. Practice includes a "Which is British?" item type.
+- Pairs to cover in Level 1–2: queue/line, flat/apartment, chemist/pharmacy, biscuit/cookie, crisps/chips, chips/fries, jumper/sweater, trousers/pants, trainers/sneakers, mobile/cell phone, bin/trash can, lift/elevator, holiday/vacation, garden/yard, loo/restroom, autumn/fall, post/mail, mum/mom, car park/parking lot, rubber/eraser, film/movie, football/soccer.
+
+### Store listing / ASO
+- **Title:** The Toms: British English Life
+- **Subtitle (30 chars):** Speak real British English
+- **Keywords:** british english, uk english, learn english uk, british accent, english for uk, ielts, life in the uk, move to uk, english farsi, persian english, british pronunciation, english conversation, esol
+- **First screenshot caption:** "Not American. Not textbook. Real British English, at home with the Toms."
+- Localised listings for Farsi, Arabic, Urdu, Ukrainian, Polish and Turkish speakers moving to the UK.
+
+### Tagline ideas
+- "Learn English the way Britain speaks it."
+- "Cuppa, queue, cheers — English, the British way."
+- "Your British family, in your pocket."
+- "Move to the UK sounding like you already live here."
+- "Duolingo says 'cookie'. Nana says 'biscuit'."
+
+### Marketing
+- Short videos: "British vs American in 10 seconds" (queue/line…), Nana's tea rules, "Words Americans get wrong in the UK".
+- Partner with relocation services, UK universities' international offices, ESOL colleges, NHS international-recruitment teams, and IELTS/Life in the UK prep.
+- Find the communities where people talk about moving to the UK (Farsi, Arabic and Ukrainian Telegram and Instagram groups).
+- In-app share card: "I'm learning British English with the Toms".
+- B2B pitch: "Onboard staff into British workplace English."
