@@ -23,9 +23,9 @@
      "keywords": [
       "everyone",
       "minutes",
-      "shoes",
       "right",
-      "coats"
+      "shoes",
+      "leave"
      ],
      "suggestion": "Right, everyone! Shoes on! Coats on! We leave in five minutes!",
      "suggestionFa": "خب همه! کفش‌ها پا! کت‌ها تن! پنج دقیقه دیگه راه می‌افتیم!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "nicola",
+      "please",
       "coat",
-      "cold",
-      "help"
+      "help",
+      "cold"
      ],
      "suggestion": "Can you help Nicola? Put her coat on, please. Zip it up — it's cold.",
      "suggestionFa": "به نیکولا کمک می‌کنی؟ لطفاً کتش را تنش کن. زیپش را بکش — سرده.",
@@ -130,8 +130,8 @@
      "keywords": [
       "brilliant",
       "forget",
-      "lunch",
       "don't",
+      "lunch",
       "ryan"
      ],
      "suggestion": "Brilliant. Ryan! Don't forget your PE kit! And don't forget your lunch!",
@@ -219,8 +219,8 @@
       "william",
       "don't",
       "down",
-      "has",
-      "eat"
+      "eat",
+      "got"
      ],
      "suggestion": "William, don't eat that! Put it down! What has he got?",
      "suggestionFa": "ویلیام، اونو نخور! بذارش زمین! چی دستشه؟",
@@ -242,10 +242,10 @@
     {
      "keywords": [
       "behind",
-      "let's",
-      "close",
       "check",
-      "bags"
+      "close",
+      "let's",
+      "phew"
      ],
      "suggestion": "Phew. OK — bags? Check. Keys? Check. Let's go! Close the door behind you!",
      "suggestionFa": "آخیش. خب — کیف‌ها؟ هست. کلیدها؟ هست. بریم! در را پشت سرت ببند!",

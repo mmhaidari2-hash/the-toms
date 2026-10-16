@@ -3,10 +3,10 @@
  "characterId": "leslie",
  "title": "(As Leslie) Weekend invitations",
  "titleFa": "(در نقش Leslie) دعوت آخر هفته",
- "setting": "Making plans · Level 1",
+ "setting": "Making plans · Level 2",
  "settingFa": "برنامه‌ریزی",
  "requires": null,
- "level": "A1",
+ "level": "A2",
  "baseId": "l2_u3_4",
  "playAs": "leslie",
  "start": "r1",
@@ -25,7 +25,7 @@
       "barbecue",
       "o'clock",
       "having",
-      "about"
+      "would"
      ],
      "suggestion": "We're having a barbecue on Saturday. Would you like to come? About two o'clock?",
      "suggestionFa": "شنبه کباب‌پزی داریم. دوست داری بیای؟ حدود ساعت دو؟",
@@ -49,8 +49,8 @@
       "instead",
       "that's",
       "sunday",
-      "about",
-      "going"
+      "shame",
+      "roast"
      ],
      "suggestion": "Oh, that's a shame. What about Sunday lunch instead? We're going to do a roast.",
      "suggestionFa": "آه، حیف شد. ناهار یکشنبه چطوره؟ قراره کباب یکشنبه درست کنیم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "merrier",
+      "o'clock",
       "invite",
       "friend",
       "shall"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "calendar",
-      "problem",
-      "o'clock",
       "chicken",
+      "o'clock",
+      "problem",
       "sunday"
      ],
      "suggestion": "No problem — we'll do chicken. Shall I write it in the calendar? Sunday, one o'clock.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "yourself",
-      "crumble",
       "pudding",
-      "recipe",
-      "lovely"
+      "crumble",
+      "lovely",
+      "recipe"
      ],
      "suggestion": "Just bring yourself! Well, maybe a pudding. Nana makes a lovely crumble, but she won't share the recipe!",
      "suggestionFa": "فقط خودت را بیار! خب، شاید یه دسر. نانا کرامبل خیلی خوبی درست می‌کنه، ولی دستورش را به کسی نمی‌ده!",

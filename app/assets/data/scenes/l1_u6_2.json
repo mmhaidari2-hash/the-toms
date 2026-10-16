@@ -20,8 +20,8 @@
     {
      "keywords": [
       "blue",
-      "hat",
-      "big"
+      "big",
+      "hat"
      ],
      "suggestion": "I've got a big blue hat.",
      "suggestionFa": "من یه کلاه آبی بزرگ دارم.",
@@ -76,8 +76,8 @@
      "keywords": [
       "little",
       "here",
-      "him",
-      "red"
+      "red",
+      "him"
      ],
      "suggestion": "Here — a little red hat for him.",
      "suggestionFa": "بیا — یه کلاه قرمز کوچولو براش.",
@@ -87,8 +87,8 @@
     },
     {
      "keywords": [
-      "looks",
       "funny",
+      "looks",
       "he"
      ],
      "suggestion": "He looks so funny in a hat!",
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "wait",
+      "let",
       "fix",
-      "hat",
-      "let"
+      "hat"
      ],
      "suggestion": "Wait, let me fix my hat.",
      "suggestionFa": "صبر کن، کلاهم را درست کنم.",

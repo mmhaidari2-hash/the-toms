@@ -25,7 +25,7 @@
       "weather",
       "what's",
       "today",
-      "seen"
+      "like"
      ],
      "suggestion": "Have you seen outside? What's the weather like today?",
      "suggestionFa": "بیرون را دیدی؟ امروز هوا چطوره؟",
@@ -74,8 +74,8 @@
       "umbrella",
       "pretty",
       "windy",
-      "coat",
-      "much"
+      "take",
+      "coat"
      ],
      "suggestion": "Pretty much! Take an umbrella. And put your coat on. It's windy too.",
      "suggestionFa": "تقریباً! چتر بردار. و کتت را بپوش. باد هم میاد.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "october",
       "degrees",
+      "october",
       "that's",
       "eight",
       "trust"
@@ -124,8 +124,8 @@
       "october",
       "march",
       "lucky",
-      "like",
-      "here"
+      "here",
+      "like"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
      "suggestionFa": "خوش به حالت! اینجا از اکتبر تا مارس خیسه. بارون دوست داری؟",
@@ -174,8 +174,8 @@
       "wellies",
       "means",
       "heavy",
-      "wear",
-      "stay"
+      "stay",
+      "wear"
      ],
      "suggestion": "It means very heavy rain. Stay dry! And wear your wellies!",
      "suggestionFa": "یعنی بارون خیلی شدید. خشک بمونی! و چکمه‌های لاستیکیت را بپوش!",

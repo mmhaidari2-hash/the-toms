@@ -3,11 +3,11 @@
  "characterId": "ryan",
  "title": "What did you do?",
  "titleFa": "چی کار کردی؟",
- "setting": "Last weekend · Level 1",
+ "setting": "Last weekend · Level 2",
  "settingFa": "آخر هفتهٔ گذشته",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -206,10 +206,10 @@
     },
     {
      "keywords": [
-      "that's",
       "lovely",
-      "band",
-      "play"
+      "that's",
+      "play",
+      "band"
      ],
      "suggestion": "That's lovely. Did he use to play in a band?",
      "suggestionFa": "چه قشنگ. قبلاً تو گروه موسیقی می‌زد؟",
@@ -296,8 +296,8 @@
    "branches": [
     {
      "keywords": [
-      "typical",
       "british",
+      "typical",
       "weekend"
      ],
      "suggestion": "Typical British weekend!",

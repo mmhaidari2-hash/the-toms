@@ -3,11 +3,11 @@
  "characterId": "leslie",
  "title": "Weekend invitations",
  "titleFa": "دعوت آخر هفته",
- "setting": "Making plans · Level 1",
+ "setting": "Making plans · Level 2",
  "settingFa": "برنامه‌ریزی",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -118,8 +118,8 @@
     {
      "keywords": [
       "please",
-      "he'd",
-      "love"
+      "love",
+      "he'd"
      ],
      "suggestion": "Yes, please! He'd love that.",
      "suggestionFa": "آره لطفاً! خیلی خوشش میاد.",

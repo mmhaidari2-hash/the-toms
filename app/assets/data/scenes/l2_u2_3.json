@@ -3,11 +3,11 @@
  "characterId": "doris",
  "title": "Which bus?",
  "titleFa": "کدام اتوبوس؟",
- "setting": "Finding your way · Level 1",
+ "setting": "Finding your way · Level 2",
  "settingFa": "پیدا کردن راه",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -20,8 +20,8 @@
     {
      "keywords": [
       "hospital",
-      "which",
       "going",
+      "which",
       "best"
      ],
      "suggestion": "I'm going to the hospital. Which bus is best?",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "getting",
-      "thing",
       "older",
+      "thing",
       "about"
      ],
      "suggestion": "Free? That's the best thing about getting older!",

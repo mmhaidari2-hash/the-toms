@@ -3,10 +3,10 @@
  "characterId": "ryan",
  "title": "(As Ryan) What did you do?",
  "titleFa": "(در نقش Ryan) چی کار کردی؟",
- "setting": "Last weekend · Level 1",
+ "setting": "Last weekend · Level 2",
  "settingFa": "آخر هفتهٔ گذشته",
  "requires": null,
- "level": "A1",
+ "level": "A2",
  "baseId": "l2_u1_1",
  "playAs": "ryan",
  "start": "r1",
@@ -50,7 +50,7 @@
       "played",
       "enjoy",
       "twice",
-      "till"
+      "fifa"
      ],
      "suggestion": "Same. I played FIFA till two. Mum shouted at me twice! Did you enjoy your film?",
      "suggestionFa": "منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "saturday",
-      "cleaned",
       "minging",
+      "cleaned",
       "garden",
       "helped"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "guitar",
       "played",
+      "guitar",
       "really",
-      "dad's",
-      "dirty"
+      "dirty",
+      "badly"
      ],
      "suggestion": "It means really dirty. We found Dad's old guitar! He played it for us. Badly.",
      "suggestionFa": "یعنی خیلی کثیف. گیتار قدیمی بابا را پیدا کردیم! برامون زد. افتضاح.",
@@ -123,8 +123,8 @@
      "keywords": [
       "covered",
       "visited",
-      "nicola",
       "sunday",
+      "nicola",
       "tried"
      ],
      "suggestion": "He tried! Nicola covered her ears. Then on Sunday I visited my mate Josh.",
@@ -149,8 +149,8 @@
       "football",
       "watched",
       "played",
-      "walked",
-      "rained"
+      "rained",
+      "walked"
      ],
      "suggestion": "We walked to the park and played football. Then it rained, so we watched telly at his.",
      "suggestionFa": "پیاده رفتیم پارک و فوتبال بازی کردیم. بعد بارون اومد، پس خونه‌اش تلویزیون دیدیم.",
@@ -174,8 +174,8 @@
       "homework",
       "started",
       "don't",
-      "yeah",
-      "tell"
+      "tell",
+      "yeah"
      ],
      "suggestion": "Homework? Er… I started it. Don't tell Mum, yeah?",
      "suggestionFa": "تکلیف؟ اِم… شروعش کردم. به مامان نگی، باشه؟",

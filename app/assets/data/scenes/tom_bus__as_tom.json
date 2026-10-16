@@ -48,8 +48,8 @@
      "keywords": [
       "roadworks",
       "upstairs",
-      "minutes",
       "there's",
+      "minutes",
       "running"
      ],
      "suggestion": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "upstairs",
-      "let's",
       "front",
+      "let's",
       "view",
-      "town"
+      "beep"
      ],
      "suggestion": "Beep — you're in. Let's go upstairs, best view in town from the front seat.",
      "suggestionFa": "بیپ — رفتی تو. بریم طبقهٔ بالا، بهترین منظرهٔ شهر از صندلی جلو.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
+      "wasn't",
       "gutted",
       "leslie",
-      "wasn't",
       "first",
       "don't"
      ],
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "that's",
       "driver",
-      "press",
-      "would"
+      "cheers",
+      "would",
+      "press"
      ],
      "suggestion": "Ding! That's us — press the bell, would you? And say cheers to the driver.",
      "suggestionFa": "دینگ! رسیدیم — زنگ را بزن، می‌شه؟ و به راننده بگو مرسی.",
@@ -198,9 +198,9 @@
      "keywords": [
       "quicker",
       "angel",
-      "mind",
+      "tell",
       "tube",
-      "tell"
+      "mind"
      ],
      "suggestion": "Tell you what — hop off at Angel and get the Tube, it's quicker. Mind the gap!",
      "suggestionFa": "ببین — توی ایستگاه انجل پیاده شو و مترو بگیر، سریع‌تره. مراقب فاصله باش!",

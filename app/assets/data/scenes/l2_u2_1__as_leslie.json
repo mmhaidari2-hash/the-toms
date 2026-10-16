@@ -3,10 +3,10 @@
  "characterId": "leslie",
  "title": "(As Leslie) Excuse me, where's…?",
  "titleFa": "(در نقش Leslie) ببخشید، … کجاست؟",
- "setting": "Finding your way · Level 1",
+ "setting": "Finding your way · Level 2",
  "settingFa": "پیدا کردن راه",
  "requires": null,
- "level": "A1",
+ "level": "A2",
  "baseId": "l2_u2_1",
  "playAs": "leslie",
  "start": "r1",
@@ -23,9 +23,9 @@
      "keywords": [
       "office",
       "parcel",
-      "let's",
       "right",
-      "test"
+      "let's",
+      "need"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
      "suggestionFa": "خب، بیا امتحانت کنیم! باید یه بسته پست کنی. چطوری راه اداره پست را می‌پرسی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "straight",
-      "traffic",
       "perfect",
-      "lights",
-      "bakery"
+      "traffic",
+      "bakery",
+      "lights"
      ],
      "suggestion": "Perfect. And I say: go straight on, past the bakery, then turn left at the traffic lights.",
      "suggestionFa": "عالیه. و من می‌گم: مستقیم برو، از نونوایی رد شو، بعد سر چراغ راهنمایی بپیچ چپ.",
@@ -74,8 +74,8 @@
       "opposite",
       "chemist",
       "church",
-      "can't",
-      "right"
+      "right",
+      "can't"
      ],
      "suggestion": "Good! It's on the right, opposite the church, next to the chemist. You can't miss it.",
      "suggestionFa": "خوبه! سمت راسته، روبروی کلیسا، کنار داروخونه. نمی‌شه نبینیش.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "brits",
       "means",
-      "find",
+      "brits",
+      "even",
       "when",
-      "miss"
+      "easy"
      ],
      "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
      "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
@@ -123,8 +123,8 @@
      "keywords": [
       "station",
       "minutes",
-      "tourist",
       "where's",
+      "tourist",
       "about"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
@@ -149,8 +149,8 @@
       "brilliant",
       "round",
       "sorry",
-      "sure",
-      "just"
+      "just",
+      "here"
      ],
      "suggestion": "Brilliant! And if you're not sure, just say \"Sorry, I'm not from round here.\"",
      "suggestionFa": "عالی! و اگه مطمئن نیستی، فقط بگو «ببخشید، من اهل اینجا نیستم.»",
@@ -175,7 +175,7 @@
       "natural",
       "office",
       "let's",
-      "come"
+      "post"
      ],
      "suggestion": "You're a natural. Come on, let's actually go to the post office now!",
      "suggestionFa": "تو استعدادشو داری. بیا، حالا واقعاً بریم اداره پست!",

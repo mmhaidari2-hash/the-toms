@@ -49,8 +49,8 @@
       "thank",
       "want",
       "love",
-      "now",
-      "ask"
+      "ask",
+      "now"
      ],
      "suggestion": "Thank you, love. Now you ask me. What do you want?",
      "suggestionFa": "ممنون عزیزم. حالا تو از من بخواه. چی می‌خوای؟",
@@ -210,9 +210,9 @@
      "keywords": [
       "need",
       "past",
+      "get",
       "say",
-      "now",
-      "get"
+      "now"
      ],
      "suggestion": "Ha! Now, I need to get past you. What do I say?",
      "suggestionFa": "ها! حالا باید از کنارت رد شم. چی بگم؟",
@@ -311,11 +311,11 @@
    "branches": [
     {
      "keywords": [
-      "exactly",
       "learner",
+      "exactly",
       "cheers",
       "thanks",
-      "quick"
+      "thank"
      ],
      "suggestion": "Exactly. Cheers, ta, thanks — all mean thank you. You're a quick learner!",
      "suggestionFa": "دقیقاً. cheers، ta، thanks — همه یعنی ممنون. تو سریع یاد می‌گیری!",

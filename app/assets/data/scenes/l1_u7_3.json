@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "those",
       "nicer",
+      "those",
       "ones"
      ],
      "suggestion": "Those ones are nicer.",
@@ -175,8 +175,8 @@
     },
     {
      "keywords": [
-      "size",
-      "nine"
+      "nine",
+      "size"
      ],
      "suggestion": "Is nine your size?",
      "suggestionFa": "سایزت نهه؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "comfortable",
       "around",
-      "walk",
-      "they"
+      "they",
+      "walk"
      ],
      "suggestion": "Walk around. Are they comfortable?",
      "suggestionFa": "یه کم راه برو. راحتن؟",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "better",
-      "size",
       "then",
+      "size",
       "ten"
      ],
      "suggestion": "Size ten is better, then.",

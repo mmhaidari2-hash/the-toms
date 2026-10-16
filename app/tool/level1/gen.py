@@ -17,9 +17,9 @@ def words(s):
     if '=' in p: w,f=p.split('=',1); out.append({'word':w.strip(),'fa':f.strip()})
   return out
 units=[];scenes={};errs=[]
-FILES=sorted(glob.glob(os.path.join(H,'..','level*','u*.txt')),key=lambda f:(int(re.search(r'level(\d+)',f).group(1)),f))
+FILES=sorted(glob.glob(os.path.join(H,'..','level*','u*.txt')),key=lambda f:(int(re.search(r'level(\d+)',os.path.basename(os.path.dirname(f))).group(1)),f))
 for f in FILES:
-  LV=int(re.search(r'level(\d+)',f).group(1))
+  LV=int(re.search(r'level(\d+)',os.path.basename(os.path.dirname(f))).group(1))
   unit=None;les=None;node=None
   for raw in open(f,encoding='utf-8'):
     l=raw.rstrip('\n').strip()

@@ -3,11 +3,11 @@
  "characterId": "tom",
  "title": "The big match",
  "titleFa": "مسابقهٔ بزرگ",
- "setting": "Last weekend · Level 1",
+ "setting": "Last weekend · Level 2",
  "settingFa": "آخر هفتهٔ گذشته",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -72,8 +72,8 @@
      "keywords": [
       "that's",
       "enjoy",
-      "luck",
-      "ryan"
+      "ryan",
+      "luck"
      ],
      "suggestion": "That's bad luck. Did Ryan enjoy it?",
      "suggestionFa": "بدشانسی بود. رایان لذت برد؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "cold",
-      "did",
       "get",
+      "did",
       "he"
      ],
      "suggestion": "Did he get cold?",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "teenagers",
+      "coats",
       "bring",
-      "never",
-      "coats"
+      "never"
      ],
      "suggestion": "Teenagers never bring coats!",
      "suggestionFa": "نوجوون‌ها هیچ‌وقت کت نمیارن!",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "wash",
-      "did",
       "out",
+      "did",
       "oh"
      ],
      "suggestion": "Oh no! Did it wash out?",
@@ -228,10 +228,10 @@
    "branches": [
     {
      "keywords": [
+      "didn't",
       "stayed",
       "rested",
-      "didn't",
-      "much"
+      "home"
      ],
      "suggestion": "I didn't do much. I stayed at home and rested.",
      "suggestionFa": "کار زیادی نکردم. خونه موندم و استراحت کردم.",

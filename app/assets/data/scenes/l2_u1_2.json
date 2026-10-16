@@ -3,11 +3,11 @@
  "characterId": "leslie",
  "title": "A day off",
  "titleFa": "یک روز تعطیل",
- "setting": "Last weekend · Level 1",
+ "setting": "Last weekend · Level 2",
  "settingFa": "آخر هفتهٔ گذشته",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -34,8 +34,8 @@
      "keywords": [
       "every",
       "work",
-      "went",
-      "busy"
+      "busy",
+      "went"
      ],
      "suggestion": "It was busy. I went to work every day.",
      "suggestionFa": "شلوغ بود. هر روز رفتم سر کار.",
@@ -193,8 +193,8 @@
      "keywords": [
       "shoes",
       "like",
-      "she",
-      "did"
+      "did",
+      "she"
      ],
      "suggestion": "Did she like the shoes?",
      "suggestionFa": "از کفش‌ها خوشش اومد؟",
@@ -235,7 +235,7 @@
       "market",
       "bought",
       "fruit",
-      "went"
+      "some"
      ],
      "suggestion": "I went to the market and bought some fruit.",
      "suggestionFa": "رفتم بازار و یه کم میوه خریدم.",
@@ -247,8 +247,8 @@
      "keywords": [
       "friend",
       "lunch",
-      "had",
-      "met"
+      "met",
+      "had"
      ],
      "suggestion": "I met a friend and we had lunch.",
      "suggestionFa": "یه دوست را دیدم و ناهار خوردیم.",
@@ -331,8 +331,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
-      "lovely"
+      "lovely",
+      "thanks"
      ],
      "suggestion": "Yes, thanks. It was lovely.",
      "suggestionFa": "آره، ممنون. خیلی خوب بود.",
@@ -343,8 +343,8 @@
     {
      "keywords": [
       "yours",
-      "how",
-      "bad"
+      "bad",
+      "how"
      ],
      "suggestion": "Not bad. How was yours?",
      "suggestionFa": "بد نبود. مال تو چطور بود؟",
