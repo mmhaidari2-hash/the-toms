@@ -1,0 +1,337 @@
+{
+ "id": "l1_u7_1",
+ "characterId": "baker",
+ "title": "At the bakery",
+ "titleFa": "در نانوایی",
+ "setting": "At the shops · Level 1",
+ "settingFa": "در مغازه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Morning! What can I get you, love?",
+   "translations": {
+    "fa": "صبح بخیر! چی میل دارید عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "bread",
+      "have",
+      "loaf"
+     ],
+     "suggestion": "Can I have a loaf of bread, please?",
+     "suggestionFa": "می‌شه یه قرص نون بدید لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "looking",
+      "thanks",
+      "just"
+     ],
+     "suggestion": "Morning! Just looking, thanks.",
+     "suggestionFa": "صبح بخیر! فقط دارم نگاه می‌کنم، ممنون.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loaf",
+     "fa": "قرص نان"
+    },
+    {
+     "word": "bread",
+     "fa": "نان"
+    },
+    {
+     "word": "just looking",
+     "fa": "فقط نگاه می‌کنم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "White or brown? This one's fresh from the oven.",
+   "translations": {
+    "fa": "سفید یا سبوس‌دار؟ این یکی تازه از فر دراومده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "brown"
+     ],
+     "suggestion": "This one, please. The brown one.",
+     "suggestionFa": "این یکی لطفاً. سبوس‌داره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looks",
+      "white",
+      "nice"
+     ],
+     "suggestion": "That white one looks nice.",
+     "suggestionFa": "اون سفیده خوب به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fresh",
+     "fa": "تازه"
+    },
+    {
+     "word": "oven",
+     "fa": "فر"
+    },
+    {
+     "word": "brown bread",
+     "fa": "نان سبوس‌دار"
+    },
+    {
+     "word": "white",
+     "fa": "سفید"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "Lovely choice. Anything else? The sausage rolls are still warm.",
+   "translations": {
+    "fa": "انتخاب خوبیه. چیز دیگه؟ رول سوسیس‌ها هنوز گرمن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sausage",
+      "rolls",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much are the sausage rolls?",
+     "suggestionFa": "رول سوسیس‌ها چنده؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "cakes",
+      "next"
+     ],
+     "suggestion": "What's that, next to the cakes?",
+     "suggestionFa": "اون چیه، کنار کیک‌ها؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anything else",
+     "fa": "چیز دیگری"
+    },
+    {
+     "word": "sausage roll",
+     "fa": "رول سوسیس"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "cakes",
+     "fa": "کیک‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "Sausage rolls are one pound twenty. Those are Eccles cakes — currants inside.",
+   "translations": {
+    "fa": "رول سوسیس یک پوند و بیسته. اونا کیک اکلزن — توشون کشمش داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sausage",
+      "please",
+      "rolls",
+      "two"
+     ],
+     "suggestion": "Two sausage rolls, please.",
+     "suggestionFa": "دوتا رول سوسیس لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eccles",
+      "i'll",
+      "cake",
+      "try"
+     ],
+     "suggestion": "I'll try an Eccles cake.",
+     "suggestionFa": "یه کیک اکلز امتحان می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "currants",
+     "fa": "کشمش ریز"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Bakeries like Greggs sell sausage rolls — a very popular British snack.",
+    "fa": "نانوایی‌هایی مثل گرگز رول سوسیس می‌فروشند — یک خوراکی محبوب بریتانیایی."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Good stuff. Would you like a bag? It's ten p for a bag.",
+   "translations": {
+    "fa": "عالیه. کیسه می‌خواید؟ کیسه ده پنیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "i've",
+      "got",
+      "own"
+     ],
+     "suggestion": "No thanks, I've got my own bag.",
+     "suggestionFa": "نه ممنون، کیسهٔ خودم را دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "one"
+     ],
+     "suggestion": "Yes, please. One bag.",
+     "suggestionFa": "بله لطفاً. یه کیسه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bag",
+     "fa": "کیسه"
+    },
+    {
+     "word": "own",
+     "fa": "خودم"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK shops charge for plastic bags, so people bring their own \"bag for life\".",
+    "fa": "فروشگاه‌های بریتانیا برای کیسه پول می‌گیرند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "That's four pounds thirty altogether. Card or cash?",
+   "translations": {
+    "fa": "روی هم چهار پوند و سی میشه. کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "card",
+      "tap",
+      "can"
+     ],
+     "suggestion": "Card, please. Can I tap?",
+     "suggestionFa": "کارت لطفاً. می‌شه بزنم (بدون تماس)؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "pound",
+      "note",
+      "five"
+     ],
+     "suggestion": "Cash. Here's a five-pound note.",
+     "suggestionFa": "نقد. بفرمایید یه اسکناس پنج پوندی.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "روی هم"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "cash",
+     "fa": "نقد"
+    },
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    },
+    {
+     "word": "tap",
+     "fa": "پرداخت بدون تماس"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Lovely, thanks. Seventy p change. Have a nice day! See you tomorrow!",
+   "translations": {
+    "fa": "عالیه، ممنون. هفتاد پنی باقی‌مونده. روز خوش! فردا می‌بینمتون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

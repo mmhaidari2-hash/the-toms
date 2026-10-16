@@ -1,0 +1,307 @@
+{
+ "id": "l1_u6_4",
+ "characterId": "weda",
+ "title": "Knitting with Nana",
+ "titleFa": "بافتنی با نانا",
+ "setting": "Weather & clothes · Level 1",
+ "settingFa": "هوا و لباس",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Come and sit with me, dear. I'm knitting a scarf for William.",
+   "translations": {
+    "fa": "بیا پیش من بشین عزیزم. دارم برای ویلیام شال‌گردن می‌بافم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "colour"
+     ],
+     "suggestion": "It's lovely! What colour is it?",
+     "suggestionFa": "قشنگه! چه رنگیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difficult",
+      "can't",
+      "knit"
+     ],
+     "suggestion": "I can't knit. Is it difficult?",
+     "suggestionFa": "من بافتنی بلد نیستم. سخته؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "knitting",
+     "fa": "بافتنی"
+    },
+    {
+     "word": "scarf",
+     "fa": "شال‌گردن"
+    },
+    {
+     "word": "difficult",
+     "fa": "سخت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "It's red and white stripes. Which colour do you like, the red or the white?",
+   "translations": {
+    "fa": "راه‌راه قرمز و سفیده. کدوم رنگ را دوست داری، قرمز یا سفید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "red"
+     ],
+     "suggestion": "I like the red one.",
+     "suggestionFa": "قرمزه را دوست دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "white",
+      "think"
+     ],
+     "suggestion": "The white one, I think.",
+     "suggestionFa": "سفیده، فکر کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stripes",
+     "fa": "راه‌راه"
+    },
+    {
+     "word": "white",
+     "fa": "سفید"
+    },
+    {
+     "word": "which",
+     "fa": "کدام"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Good choice. Next I'll make a hat and some mittens. It gets very cold in winter.",
+   "translations": {
+    "fa": "انتخاب خوبیه. بعد یه کلاه و دستکش بی‌انگشت می‌بافم. زمستون خیلی سرد می‌شه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "snow"
+     ],
+     "suggestion": "Does it snow here?",
+     "suggestionFa": "اینجا برف میاد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mittens"
+     ],
+     "suggestion": "What are mittens?",
+     "suggestionFa": "mittens چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "winter",
+     "fa": "زمستان"
+    },
+    {
+     "word": "mittens",
+     "fa": "دستکش بی‌انگشت"
+    },
+    {
+     "word": "snow",
+     "fa": "برف"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Sometimes it snows, but not much. Mostly it's just cold, wet and dark.",
+   "translations": {
+    "fa": "گاهی برف میاد، ولی نه زیاد. بیشتر فقط سرد، خیس و تاریکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dark",
+      "when",
+      "get"
+     ],
+     "suggestion": "When does it get dark?",
+     "suggestionFa": "کِی تاریک می‌شه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sounds",
+      "bit",
+      "sad"
+     ],
+     "suggestion": "That sounds a bit sad.",
+     "suggestionFa": "یه کم غم‌انگیز به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    },
+    {
+     "word": "mostly",
+     "fa": "بیشتر"
+    },
+    {
+     "word": "not much",
+     "fa": "نه زیاد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Around four o'clock in December! But we have cosy jumpers and hot chocolate.",
+   "translations": {
+    "fa": "حدود ساعت چهار تو دسامبر! ولی ژاکت‌های گرم و شکلات داغ داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "love",
+      "hot"
+     ],
+     "suggestion": "I love hot chocolate!",
+     "suggestionFa": "عاشق شکلات داغم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "o'clock",
+      "that's",
+      "early",
+      "four"
+     ],
+     "suggestion": "Four o'clock? That's early!",
+     "suggestionFa": "ساعت چهار؟ زوده!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "December",
+     "fa": "دسامبر"
+    },
+    {
+     "word": "hot chocolate",
+     "fa": "شکلات داغ"
+    },
+    {
+     "word": "around",
+     "fa": "حدوداً"
+    }
+   ],
+   "cultureNote": {
+    "en": "In winter British people say \"Wrap up warm!\" — wear lots of warm clothes.",
+    "fa": "در زمستان بریتانیایی‌ها می‌گویند «Wrap up warm!»."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Here, hold the wool for me. Hold it up, like this. That's it!",
+   "translations": {
+    "fa": "بیا، کاموا را برام نگه دار. بالا نگهش دار، اینجوری. همینه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "اینجوری؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dropped",
+      "oops"
+     ],
+     "suggestion": "Oops, I dropped it!",
+     "suggestionFa": "اوه، انداختمش!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "wool",
+     "fa": "کاموا/پشم"
+    },
+    {
+     "word": "dropped",
+     "fa": "انداختم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Perfect. One day I'll teach you. Wrap up warm when you go out, dear!",
+   "translations": {
+    "fa": "عالیه. یه روز بهت یاد می‌دم. وقتی بیرون می‌ری خودت را گرم بپوشون عزیزم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

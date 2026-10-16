@@ -147,6 +147,13 @@ class ProgressController extends Notifier<UserProgress> {
     return unitOpen(c, ui) && (state.unlockAll || li == 0 || lessonDone(u.lessons[li - 1]));
   }
 
+  // Ambient motion preference (optional; default on). Stored in missionsDone under 'pref:motion'.
+  bool get motionOn => state.missionsDone['pref:motion'] != 'off';
+  void setMotion(bool on) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:motion': on ? 'on' : 'off'});
+    _save();
+  }
+
   void setUnlockAll(bool v) {
     state = state.copyWith(unlockAll: v);
     _save();

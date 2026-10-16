@@ -15,8 +15,8 @@ void main() {
   setUp(() => BL.useGoogleFonts = false);
   testWidgets('home renders family and locked birthday story', (t) async {
     await t.pumpWidget(ProviderScope(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore()..data = const UserProgress(onboarded: true).encode())], child: const BritishLifeApp()));
-    await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));
-    await t.pumpAndSettle();
+    for (var i = 0; i < 40 && find.text('The Toms').evaluate().isEmpty; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250))); await t.pump(const Duration(milliseconds: 100)); }
+    await t.pump(const Duration(milliseconds: 500));
     expect(find.text('The Toms'), findsOneWidget);
     expect(find.text('Play'), findsOneWidget);
   });

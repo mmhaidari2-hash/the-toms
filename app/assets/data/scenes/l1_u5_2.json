@@ -1,0 +1,334 @@
+{
+ "id": "l1_u5_2",
+ "characterId": "ryan",
+ "title": "Ryan's week",
+ "titleFa": "هفتهٔ رایان",
+ "setting": "My day · Level 1",
+ "settingFa": "روز من",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Ugh, Monday. I hate Mondays. What day do you like best?",
+   "translations": {
+    "fa": "اه، دوشنبه. از دوشنبه بدم میاد. کدوم روز را بیشتر دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridays"
+     ],
+     "suggestion": "I like Fridays best.",
+     "suggestionFa": "جمعه‌ها را بیشتر دوست دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "saturday",
+      "work"
+     ],
+     "suggestion": "I like Saturday best. No work!",
+     "suggestionFa": "شنبه را بیشتر دوست دارم. کار نیست!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Monday",
+     "fa": "دوشنبه"
+    },
+    {
+     "word": "Friday",
+     "fa": "جمعه"
+    },
+    {
+     "word": "Saturday",
+     "fa": "شنبه"
+    },
+    {
+     "word": "hate",
+     "fa": "متنفر بودن"
+    },
+    {
+     "word": "best",
+     "fa": "بیشتر از همه"
+    }
+   ],
+   "cultureNote": {
+    "en": "The British week starts on Monday. Saturday and Sunday are \"the weekend\".",
+    "fa": "هفتهٔ بریتانیایی از دوشنبه شروع می‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
+   "translations": {
+    "fa": "منم. سه‌شنبه‌ها فوتبال دارم. چهارشنبه‌ها نیکولا می‌ره شنا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "well",
+      "swim",
+      "she"
+     ],
+     "suggestion": "Does she swim well?",
+     "suggestionFa": "خوب شنا می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william"
+     ],
+     "suggestion": "And what does William do?",
+     "suggestionFa": "ویلیام چی کار می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Tuesday",
+     "fa": "سه‌شنبه"
+    },
+    {
+     "word": "Wednesday",
+     "fa": "چهارشنبه"
+    },
+    {
+     "word": "swimming",
+     "fa": "شنا"
+    },
+    {
+     "word": "goes",
+     "fa": "می‌رود"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "William goes to nursery. He plays with sand all day. Lucky him!",
+   "translations": {
+    "fa": "ویلیام می‌ره مهدکودک. کل روز با شن بازی می‌کنه. خوش به حالش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "loves",
+      "sand",
+      "he"
+     ],
+     "suggestion": "He loves sand!",
+     "suggestionFa": "عاشق شنه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nursery",
+      "sounds",
+      "fun"
+     ],
+     "suggestion": "Nursery sounds fun.",
+     "suggestionFa": "مهدکودک باحال به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nursery",
+     "fa": "مهدکودک"
+    },
+    {
+     "word": "plays",
+     "fa": "بازی می‌کند"
+    },
+    {
+     "word": "sand",
+     "fa": "شن"
+    },
+    {
+     "word": "all day",
+     "fa": "کل روز"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Mum works at the hospital. She starts at eight and finishes at four.",
+   "translations": {
+    "fa": "مامان توی بیمارستان کار می‌کنه. ساعت هشت شروع می‌کنه و چهار تموم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nurse",
+      "she"
+     ],
+     "suggestion": "Is she a nurse?",
+     "suggestionFa": "پرستاره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "long",
+      "day"
+     ],
+     "suggestion": "That's a long day.",
+     "suggestionFa": "روز طولانی‌ایه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "works",
+     "fa": "کار می‌کند"
+    },
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    },
+    {
+     "word": "starts",
+     "fa": "شروع می‌کند"
+    },
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Yeah, she's a nurse. Dad works in an office. He drinks about ten cups of tea a day.",
+   "translations": {
+    "fa": "آره، پرستاره. بابا توی دفتر کار می‌کنه. روزی حدود ده لیوان چای می‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "cups",
+      "lot",
+      "ten"
+     ],
+     "suggestion": "Ten cups? That's a lot!",
+     "suggestionFa": "ده لیوان؟ خیلیه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "loves",
+      "tea",
+      "he"
+     ],
+     "suggestion": "He really loves tea.",
+     "suggestionFa": "واقعاً عاشق چاییه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "office",
+     "fa": "دفتر/اداره"
+    },
+    {
+     "word": "drinks",
+     "fa": "می‌نوشد"
+    },
+    {
+     "word": "a lot",
+     "fa": "زیاد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "On Thursdays Nana comes for tea. On Sundays we have a roast. Best day!",
+   "translations": {
+    "fa": "پنجشنبه‌ها نانا برای شام میاد. یکشنبه‌ها کباب یکشنبه داریم. بهترین روز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "roast"
+     ],
+     "suggestion": "What's a roast?",
+     "suggestionFa": "roast چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinner",
+      "sunday",
+      "love"
+     ],
+     "suggestion": "I love Sunday dinner too!",
+     "suggestionFa": "منم عاشق شام یکشنبه‌ام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Thursday",
+     "fa": "پنجشنبه"
+    },
+    {
+     "word": "Sunday",
+     "fa": "یکشنبه"
+    },
+    {
+     "word": "roast",
+     "fa": "گوشت کبابی (ناهار یکشنبه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sunday roast: roast meat, potatoes, vegetables, Yorkshire puddings and gravy. A big British tradition.",
+    "fa": "ناهار یکشنبه: گوشت کبابی، سیب‌زمینی، سبزیجات و سس. سنت بزرگ بریتانیایی."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Roast chicken, roast potatoes, gravy. Come this Sunday. Mum won't mind!",
+   "translations": {
+    "fa": "مرغ کبابی، سیب‌زمینی تنوری، سس. این یکشنبه بیا. مامان ناراحت نمی‌شه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

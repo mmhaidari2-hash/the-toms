@@ -1,0 +1,261 @@
+{
+ "id": "l1_u8_3",
+ "characterId": "leslie",
+ "title": "What are you doing?",
+ "titleFa": "داری چی کار می‌کنی؟",
+ "setting": "Right now! · Level 1",
+ "settingFa": "همین الان!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Hi love, it's me. Are you at home? What are you doing?",
+   "translations": {
+    "fa": "سلام عزیزم، منم. خونه‌ای؟ داری چی کار می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watching",
+      "telly"
+     ],
+     "suggestion": "I'm watching telly.",
+     "suggestionFa": "دارم تلویزیون می‌بینم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cooking",
+      "dinner"
+     ],
+     "suggestion": "I'm cooking dinner.",
+     "suggestionFa": "دارم شام درست می‌کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "watching",
+     "fa": "تماشا کردن"
+    },
+    {
+     "word": "cooking",
+     "fa": "آشپزی کردن"
+    },
+    {
+     "word": "it's me",
+     "fa": "منم (پشت تلفن)"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Lovely. Is Ryan doing his homework? Can you check?",
+   "translations": {
+    "fa": "چه خوب. رایان داره تکلیفش را انجام می‌ده؟ می‌تونی چک کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playing",
+      "video",
+      "games"
+     ],
+     "suggestion": "No, he's playing video games.",
+     "suggestionFa": "نه، داره بازی ویدیویی می‌کنه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "room",
+      "his"
+     ],
+     "suggestion": "Yes, he's working in his room.",
+     "suggestionFa": "آره، داره توی اتاقش کار می‌کنه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "homework",
+     "fa": "تکلیف مدرسه"
+    },
+    {
+     "word": "video games",
+     "fa": "بازی‌های ویدیویی"
+    },
+    {
+     "word": "working",
+     "fa": "کار کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "I knew it! Tell him to turn it off. What's Nicola doing?",
+   "translations": {
+    "fa": "می‌دونستم! بهش بگو خاموشش کنه. نیکولا چی کار می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "picture",
+      "drawing"
+     ],
+     "suggestion": "She's drawing a picture.",
+     "suggestionFa": "داره نقاشی می‌کشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reading",
+      "nana"
+     ],
+     "suggestion": "She's reading with Nana.",
+     "suggestionFa": "داره با نانا کتاب می‌خونه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn off",
+     "fa": "خاموش کردن"
+    },
+    {
+     "word": "drawing",
+     "fa": "نقاشی کشیدن"
+    },
+    {
+     "word": "picture",
+     "fa": "تصویر"
+    },
+    {
+     "word": "reading",
+     "fa": "خواندن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Aw. And William? He's being very quiet. Too quiet…",
+   "translations": {
+    "fa": "آخی. ویلیام چی؟ خیلی ساکته. زیادی ساکت…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeping",
+      "sofa"
+     ],
+     "suggestion": "He's sleeping on the sofa.",
+     "suggestionFa": "داره روی مبل می‌خوابه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "painting",
+      "wall",
+      "oh"
+     ],
+     "suggestion": "Oh no. He's painting the wall!",
+     "suggestionFa": "ای وای. داره دیوار را رنگ می‌کنه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    },
+    {
+     "word": "sleeping",
+     "fa": "خوابیدن"
+    },
+    {
+     "word": "painting",
+     "fa": "رنگ کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Oh, he's sleeping! Thank goodness. I'm waiting for the bus now. It's late, as usual.",
+   "translations": {
+    "fa": "آه، خوابیده! خدا را شکر. الان منتظر اتوبوسم. طبق معمول دیر کرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raining",
+      "there"
+     ],
+     "suggestion": "Is it raining there?",
+     "suggestionFa": "اونجا بارون میاد؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kettle",
+      "shall",
+      "put"
+     ],
+     "suggestion": "Shall I put the kettle on?",
+     "suggestionFa": "کتری را بذارم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waiting for",
+     "fa": "منتظر بودن"
+    },
+    {
+     "word": "as usual",
+     "fa": "طبق معمول"
+    },
+    {
+     "word": "thank goodness",
+     "fa": "خدا را شکر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Yes please, love! I'm getting on the bus now. See you in twenty minutes!",
+   "translations": {
+    "fa": "آره لطفاً عزیزم! الان دارم سوار اتوبوس می‌شم. بیست دقیقه دیگه می‌بینمت!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

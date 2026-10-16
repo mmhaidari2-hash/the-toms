@@ -1,0 +1,327 @@
+{
+ "id": "l1_u4_3",
+ "characterId": "tom",
+ "title": "What time is it?",
+ "titleFa": "ساعت چنده؟",
+ "setting": "Numbers & time · Level 1",
+ "settingFa": "اعداد و زمان",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning! What time is it? I can't find my watch.",
+   "translations": {
+    "fa": "صبح بخیر! ساعت چنده؟ ساعتم را پیدا نمی‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock"
+     ],
+     "suggestion": "It's seven o'clock.",
+     "suggestionFa": "ساعت هفته.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "past",
+      "half"
+     ],
+     "suggestion": "It's half past seven.",
+     "suggestionFa": "ساعت هفت و نیمه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what time",
+     "fa": "چه ساعتی"
+    },
+    {
+     "word": "o'clock",
+     "fa": "(ساعت) کامل"
+    },
+    {
+     "word": "half past",
+     "fa": "و نیم"
+    },
+    {
+     "word": "watch",
+     "fa": "ساعت مچی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Half past? I'm late! My train is at quarter to eight.",
+   "translations": {
+    "fa": "هفت و نیم؟ دیرم شده! قطارم یک‌ربع به هشته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "fifteen",
+      "you've",
+      "hurry"
+     ],
+     "suggestion": "Hurry up! You've got fifteen minutes.",
+     "suggestionFa": "عجله کن! پونزده دقیقه وقت داری.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "station",
+      "worry",
+      "close",
+      "don't"
+     ],
+     "suggestion": "Don't worry, the station is close.",
+     "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "late",
+     "fa": "دیر"
+    },
+    {
+     "word": "train",
+     "fa": "قطار"
+    },
+    {
+     "word": "quarter to",
+     "fa": "یک‌ربع به"
+    },
+    {
+     "word": "minutes",
+     "fa": "دقیقه‌ها"
+    },
+    {
+     "word": "station",
+     "fa": "ایستگاه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British trains are often late, so Brits always check the app! People say \"Is it running on time?\"",
+    "fa": "قطارهای بریتانیا اغلب دیر می‌کنند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Where are my keys? Quick — are they on the table?",
+   "translations": {
+    "fa": "کلیدهام کجان؟ زود — روی میزن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle",
+      "next",
+      "keys"
+     ],
+     "suggestion": "Your keys are next to the kettle.",
+     "suggestionFa": "کلیدهات کنار کتری‌ان.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "pocket",
+      "coat"
+     ],
+     "suggestion": "They're in your coat pocket.",
+     "suggestionFa": "توی جیب کتت‌ان.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keys",
+     "fa": "کلیدها"
+    },
+    {
+     "word": "quick",
+     "fa": "زود/سریع"
+    },
+    {
+     "word": "pocket",
+     "fa": "جیب"
+    },
+    {
+     "word": "coat",
+     "fa": "کت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Got them, thanks! What time do you finish today?",
+   "translations": {
+    "fa": "پیداشون کردم، مرسی! امروز کِی تموم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "finish",
+      "five"
+     ],
+     "suggestion": "I finish at five o'clock.",
+     "suggestionFa": "ساعت پنج تموم می‌کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quarter",
+      "past",
+      "four"
+     ],
+     "suggestion": "At quarter past four.",
+     "suggestionFa": "چهار و ربع.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    },
+    {
+     "word": "quarter past",
+     "fa": "و ربع"
+    },
+    {
+     "word": "today",
+     "fa": "امروز"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Lovely. Tea is at six, then. Don't be late — Nana's making shepherd's pie!",
+   "translations": {
+    "fa": "عالیه. پس شام ساعت شیشه. دیر نکنی — نانا پای چوپان درست می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "promise",
+      "won't",
+      "late"
+     ],
+     "suggestion": "I won't be late. I promise!",
+     "suggestionFa": "دیر نمی‌کنم. قول می‌دم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shepherd's",
+      "pie",
+      "yum"
+     ],
+     "suggestion": "Shepherd's pie? Yum!",
+     "suggestionFa": "پای چوپان؟ به‌به!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    },
+    {
+     "word": "shepherd's pie",
+     "fa": "پای گوشت و پوره"
+    }
+   ],
+   "cultureNote": {
+    "en": "In many British homes \"tea\" in the evening means dinner, the main meal!",
+    "fa": "در بسیاری از خانه‌ها «tea» عصر یعنی شام!"
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Right, I'm off. See you at six! Bye!",
+   "translations": {
+    "fa": "خب، من رفتم. ساعت شش می‌بینمت! خداحافظ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "have",
+      "bye",
+      "day"
+     ],
+     "suggestion": "Bye! Have a good day!",
+     "suggestionFa": "خداحافظ! روز خوبی داشته باشی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "later",
+      "see",
+      "tom"
+     ],
+     "suggestion": "See you later, Tom!",
+     "suggestionFa": "بعداً می‌بینمت، تام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm off",
+     "fa": "من رفتم"
+    },
+    {
+     "word": "see you later",
+     "fa": "بعداً می‌بینمت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Oh — the time's on the oven clock! Silly me. Cheers!",
+   "translations": {
+    "fa": "آه — ساعت روی ساعت فره! چه گیجم. مرسی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

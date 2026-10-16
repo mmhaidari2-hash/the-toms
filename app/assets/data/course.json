@@ -1249,6 +1249,2700 @@
      "turns": 15
     }
    ]
+  },
+  {
+   "id": "U4",
+   "title": "Numbers & time",
+   "titleFa": "اعداد و زمان",
+   "place": "kitchen",
+   "canDo": "Count, give your age and phone number, tell the time",
+   "canDoFa": "بشماری، سن و شماره تلفن بگویی، ساعت را بگویی",
+   "lessons": [
+    {
+     "id": "l1_u4_1",
+     "title": "Counting with Nicola",
+     "titleFa": "شمردن با نیکولا",
+     "lead": "nicola",
+     "place": "kitchen",
+     "grammar": "Numbers 1–20 + How many…?",
+     "grammarFa": "اعداد ۱ تا ۲۰ + چندتا؟",
+     "sceneIds": [
+      "l1_u4_1"
+     ],
+     "words": [
+      {
+       "word": "count",
+       "fa": "شمردن"
+      },
+      {
+       "word": "eggs",
+       "fa": "تخم‌مرغ‌ها"
+      },
+      {
+       "word": "how many",
+       "fa": "چندتا"
+      },
+      {
+       "word": "six",
+       "fa": "شش"
+      },
+      {
+       "word": "twelve",
+       "fa": "دوازده"
+      },
+      {
+       "word": "spoons",
+       "fa": "قاشق‌ها"
+      },
+      {
+       "word": "seven",
+       "fa": "هفت"
+      },
+      {
+       "word": "ten",
+       "fa": "ده"
+      },
+      {
+       "word": "twenty",
+       "fa": "بیست"
+      },
+      {
+       "word": "thirteen",
+       "fa": "سیزده"
+      },
+      {
+       "word": "fifteen",
+       "fa": "پانزده"
+      },
+      {
+       "word": "next",
+       "fa": "بعدی"
+      },
+      {
+       "word": "tin",
+       "fa": "قوطی"
+      },
+      {
+       "word": "empty",
+       "fa": "خالی"
+      },
+      {
+       "word": "none",
+       "fa": "هیچ"
+      },
+      {
+       "word": "bake",
+       "fa": "پختن (در فر)"
+      },
+      {
+       "word": "more",
+       "fa": "بیشتر"
+      },
+      {
+       "word": "first",
+       "fa": "اول"
+      },
+      {
+       "word": "hundred",
+       "fa": "صد"
+      },
+      {
+       "word": "million",
+       "fa": "میلیون"
+      },
+      {
+       "word": "enough",
+       "fa": "کافی"
+      },
+      {
+       "word": "too many",
+       "fa": "خیلی زیاد"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u4_2",
+     "title": "How old are you?",
+     "titleFa": "چند سالته؟",
+     "lead": "ryan",
+     "place": "kitchen",
+     "grammar": "How old…? I'm … years old + phone numbers",
+     "grammarFa": "چند سالته؟ + شماره تلفن",
+     "sceneIds": [
+      "l1_u4_2"
+     ],
+     "words": [
+      {
+       "word": "how old",
+       "fa": "چند ساله"
+      },
+      {
+       "word": "years old",
+       "fa": "ساله"
+      },
+      {
+       "word": "older",
+       "fa": "بزرگ‌تر"
+      },
+      {
+       "word": "forever",
+       "fa": "برای همیشه"
+      },
+      {
+       "word": "thirty-nine",
+       "fa": "سی‌ونه"
+      },
+      {
+       "word": "mobile",
+       "fa": "موبایل"
+      },
+      {
+       "word": "forty",
+       "fa": "چهل"
+      },
+      {
+       "word": "number",
+       "fa": "شماره"
+      },
+      {
+       "word": "double",
+       "fa": "دوتا/دوبل"
+      },
+      {
+       "word": "write down",
+       "fa": "یادداشت کردن"
+      },
+      {
+       "word": "group chat",
+       "fa": "گروه پیام"
+      },
+      {
+       "word": "warning",
+       "fa": "هشدار"
+      },
+      {
+       "word": "message",
+       "fa": "پیام"
+      },
+      {
+       "word": "a day",
+       "fa": "در روز"
+      },
+      {
+       "word": "password",
+       "fa": "رمز عبور"
+      },
+      {
+       "word": "changed",
+       "fa": "عوض کرد"
+      },
+      {
+       "word": "fridge",
+       "fa": "یخچال"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u4_3",
+     "title": "What time is it?",
+     "titleFa": "ساعت چنده؟",
+     "lead": "tom",
+     "place": "kitchen",
+     "grammar": "What time is it? It's … o'clock / half past / quarter to",
+     "grammarFa": "ساعت چنده؟ + ساعت کامل / نیم / یک‌ربع",
+     "sceneIds": [
+      "l1_u4_3"
+     ],
+     "words": [
+      {
+       "word": "what time",
+       "fa": "چه ساعتی"
+      },
+      {
+       "word": "o'clock",
+       "fa": "(ساعت) کامل"
+      },
+      {
+       "word": "half past",
+       "fa": "و نیم"
+      },
+      {
+       "word": "watch",
+       "fa": "ساعت مچی"
+      },
+      {
+       "word": "late",
+       "fa": "دیر"
+      },
+      {
+       "word": "train",
+       "fa": "قطار"
+      },
+      {
+       "word": "quarter to",
+       "fa": "یک‌ربع به"
+      },
+      {
+       "word": "minutes",
+       "fa": "دقیقه‌ها"
+      },
+      {
+       "word": "station",
+       "fa": "ایستگاه"
+      },
+      {
+       "word": "keys",
+       "fa": "کلیدها"
+      },
+      {
+       "word": "quick",
+       "fa": "زود/سریع"
+      },
+      {
+       "word": "pocket",
+       "fa": "جیب"
+      },
+      {
+       "word": "coat",
+       "fa": "کت"
+      },
+      {
+       "word": "finish",
+       "fa": "تمام کردن"
+      },
+      {
+       "word": "quarter past",
+       "fa": "و ربع"
+      },
+      {
+       "word": "today",
+       "fa": "امروز"
+      },
+      {
+       "word": "promise",
+       "fa": "قول دادن"
+      },
+      {
+       "word": "shepherd's pie",
+       "fa": "پای گوشت و پوره"
+      },
+      {
+       "word": "I'm off",
+       "fa": "من رفتم"
+      },
+      {
+       "word": "see you later",
+       "fa": "بعداً می‌بینمت"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u4_4",
+     "title": "On the bus",
+     "titleFa": "در اتوبوس",
+     "lead": "doris",
+     "place": "bus",
+     "grammar": "Numbers for money and buses + When's the next…?",
+     "grammarFa": "اعداد پول و اتوبوس + بعدی کِیه؟",
+     "sceneIds": [
+      "l1_u4_4"
+     ],
+     "words": [
+      {
+       "word": "bus",
+       "fa": "اتوبوس"
+      },
+      {
+       "word": "number",
+       "fa": "شماره"
+      },
+      {
+       "word": "eyes",
+       "fa": "چشم‌ها"
+      },
+      {
+       "word": "how much",
+       "fa": "چقدر (قیمت)"
+      },
+      {
+       "word": "ticket",
+       "fa": "بلیت"
+      },
+      {
+       "word": "pounds",
+       "fa": "پوند"
+      },
+      {
+       "word": "town",
+       "fa": "مرکز شهر"
+      },
+      {
+       "word": "next stop",
+       "fa": "ایستگاه بعدی"
+      },
+      {
+       "word": "get off",
+       "fa": "پیاده شدن"
+      },
+      {
+       "word": "library",
+       "fa": "کتابخانه"
+      },
+      {
+       "word": "driver",
+       "fa": "راننده"
+      },
+      {
+       "word": "going",
+       "fa": "رفتن"
+      },
+      {
+       "word": "kind",
+       "fa": "مهربان"
+      },
+      {
+       "word": "friend",
+       "fa": "دوست"
+      },
+      {
+       "word": "pence",
+       "fa": "پنی"
+      },
+      {
+       "word": "cheap",
+       "fa": "ارزان"
+      },
+      {
+       "word": "expensive",
+       "fa": "گران"
+      },
+      {
+       "word": "in my day",
+       "fa": "زمان ما"
+      },
+      {
+       "word": "press",
+       "fa": "فشار دادن"
+      },
+      {
+       "word": "bell",
+       "fa": "زنگ"
+      },
+      {
+       "word": "button",
+       "fa": "دکمه"
+      },
+      {
+       "word": "mind the step",
+       "fa": "مواظب پله باش"
+      }
+     ],
+     "turns": 13
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "title": "My day",
+   "titleFa": "روز من",
+   "place": "bedroom",
+   "canDo": "Talk about your daily routine with the present simple",
+   "canDoFa": "با زمان حال ساده دربارهٔ کارهای روزانه‌ات حرف بزنی",
+   "lessons": [
+    {
+     "id": "l1_u5_1",
+     "title": "Wake up, sleepyhead!",
+     "titleFa": "بیدار شو، خوابالو!",
+     "lead": "nicola",
+     "place": "bedroom",
+     "grammar": "I get up / I brush… — present simple (I / you)",
+     "grammarFa": "حال ساده (I / you)",
+     "sceneIds": [
+      "l1_u5_1"
+     ],
+     "words": [
+      {
+       "word": "wake up",
+       "fa": "بیدار شدن"
+      },
+      {
+       "word": "get up",
+       "fa": "از رختخواب بلند شدن"
+      },
+      {
+       "word": "sleepyhead",
+       "fa": "خوابالو"
+      },
+      {
+       "word": "usually",
+       "fa": "معمولاً"
+      },
+      {
+       "word": "early",
+       "fa": "زود"
+      },
+      {
+       "word": "don't like",
+       "fa": "دوست ندارند"
+      },
+      {
+       "word": "brush teeth",
+       "fa": "مسواک زدن"
+      },
+      {
+       "word": "every",
+       "fa": "هر"
+      },
+      {
+       "word": "morning",
+       "fa": "صبح"
+      },
+      {
+       "word": "night",
+       "fa": "شب"
+      },
+      {
+       "word": "get dressed",
+       "fa": "لباس پوشیدن"
+      },
+      {
+       "word": "wear",
+       "fa": "پوشیدن"
+      },
+      {
+       "word": "school uniform",
+       "fa": "لباس مدرسه"
+      },
+      {
+       "word": "jumper",
+       "fa": "ژاکت"
+      },
+      {
+       "word": "have breakfast",
+       "fa": "صبحانه خوردن"
+      },
+      {
+       "word": "cereal",
+       "fa": "غلات صبحانه"
+      },
+      {
+       "word": "itchy",
+       "fa": "خارش‌دار"
+      },
+      {
+       "word": "important",
+       "fa": "مهم"
+      },
+      {
+       "word": "meal",
+       "fa": "وعدهٔ غذایی"
+      },
+      {
+       "word": "right",
+       "fa": "درست"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u5_2",
+     "title": "Ryan's week",
+     "titleFa": "هفتهٔ رایان",
+     "lead": "ryan",
+     "place": "living",
+     "grammar": "He plays / she goes — present simple (he / she) + days",
+     "grammarFa": "حال ساده (he / she) + روزهای هفته",
+     "sceneIds": [
+      "l1_u5_2"
+     ],
+     "words": [
+      {
+       "word": "Monday",
+       "fa": "دوشنبه"
+      },
+      {
+       "word": "Friday",
+       "fa": "جمعه"
+      },
+      {
+       "word": "Saturday",
+       "fa": "شنبه"
+      },
+      {
+       "word": "hate",
+       "fa": "متنفر بودن"
+      },
+      {
+       "word": "best",
+       "fa": "بیشتر از همه"
+      },
+      {
+       "word": "Tuesday",
+       "fa": "سه‌شنبه"
+      },
+      {
+       "word": "Wednesday",
+       "fa": "چهارشنبه"
+      },
+      {
+       "word": "swimming",
+       "fa": "شنا"
+      },
+      {
+       "word": "goes",
+       "fa": "می‌رود"
+      },
+      {
+       "word": "nursery",
+       "fa": "مهدکودک"
+      },
+      {
+       "word": "plays",
+       "fa": "بازی می‌کند"
+      },
+      {
+       "word": "sand",
+       "fa": "شن"
+      },
+      {
+       "word": "all day",
+       "fa": "کل روز"
+      },
+      {
+       "word": "works",
+       "fa": "کار می‌کند"
+      },
+      {
+       "word": "hospital",
+       "fa": "بیمارستان"
+      },
+      {
+       "word": "starts",
+       "fa": "شروع می‌کند"
+      },
+      {
+       "word": "nurse",
+       "fa": "پرستار"
+      },
+      {
+       "word": "office",
+       "fa": "دفتر/اداره"
+      },
+      {
+       "word": "drinks",
+       "fa": "می‌نوشد"
+      },
+      {
+       "word": "a lot",
+       "fa": "زیاد"
+      },
+      {
+       "word": "Thursday",
+       "fa": "پنجشنبه"
+      },
+      {
+       "word": "Sunday",
+       "fa": "یکشنبه"
+      },
+      {
+       "word": "roast",
+       "fa": "گوشت کبابی (ناهار یکشنبه)"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u5_3",
+     "title": "Bath time",
+     "titleFa": "وقت حمام",
+     "lead": "leslie",
+     "place": "bathroom",
+     "grammar": "Do you…? / Does he…? — questions + bathroom words",
+     "grammarFa": "سؤال با Do / Does + واژه‌های حمام",
+     "sceneIds": [
+      "l1_u5_3"
+     ],
+     "words": [
+      {
+       "word": "bath",
+       "fa": "وان/حمام"
+      },
+      {
+       "word": "towel",
+       "fa": "حوله"
+      },
+      {
+       "word": "pass",
+       "fa": "دادن"
+      },
+      {
+       "word": "duck",
+       "fa": "اردک"
+      },
+      {
+       "word": "rubber duck",
+       "fa": "اردک پلاستیکی"
+      },
+      {
+       "word": "shower",
+       "fa": "دوش"
+      },
+      {
+       "word": "prefer",
+       "fa": "ترجیح دادن"
+      },
+      {
+       "word": "water",
+       "fa": "آب"
+      },
+      {
+       "word": "too hot",
+       "fa": "خیلی داغ"
+      },
+      {
+       "word": "cold",
+       "fa": "سرد"
+      },
+      {
+       "word": "tap",
+       "fa": "شیر آب"
+      },
+      {
+       "word": "hot water",
+       "fa": "آب گرم"
+      },
+      {
+       "word": "turn on",
+       "fa": "باز کردن"
+      },
+      {
+       "word": "shampoo",
+       "fa": "شامپو"
+      },
+      {
+       "word": "soap",
+       "fa": "صابون"
+      },
+      {
+       "word": "closed",
+       "fa": "بسته"
+      },
+      {
+       "word": "hard work",
+       "fa": "کار سخت"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l1_u5_4",
+     "title": "Nana's routine",
+     "titleFa": "کارهای روزانهٔ نانا",
+     "lead": "weda",
+     "place": "kitchen",
+     "grammar": "always / usually / sometimes / never",
+     "grammarFa": "always / usually / sometimes / never",
+     "sceneIds": [
+      "l1_u5_4"
+     ],
+     "words": [
+      {
+       "word": "early bird",
+       "fa": "سحرخیز"
+      },
+      {
+       "word": "always",
+       "fa": "همیشه"
+      },
+      {
+       "word": "never",
+       "fa": "هیچ‌وقت"
+      },
+      {
+       "word": "newspaper",
+       "fa": "روزنامه"
+      },
+      {
+       "word": "usually",
+       "fa": "معمولاً"
+      },
+      {
+       "word": "news",
+       "fa": "اخبار"
+      },
+      {
+       "word": "sometimes",
+       "fa": "گاهی"
+      },
+      {
+       "word": "go for a walk",
+       "fa": "پیاده‌روی رفتن"
+      },
+      {
+       "word": "park",
+       "fa": "پارک"
+      },
+      {
+       "word": "market",
+       "fa": "بازار"
+      },
+      {
+       "word": "buy",
+       "fa": "خریدن"
+      },
+      {
+       "word": "round",
+       "fa": "دور"
+      },
+      {
+       "word": "telly",
+       "fa": "تلویزیون (محاوره)"
+      },
+      {
+       "word": "afternoon",
+       "fa": "بعدازظهر"
+      },
+      {
+       "word": "fruit",
+       "fa": "میوه"
+      },
+      {
+       "word": "vegetables",
+       "fa": "سبزیجات"
+      },
+      {
+       "word": "gossip",
+       "fa": "غیبت"
+      },
+      {
+       "word": "miss",
+       "fa": "از دست دادن"
+      },
+      {
+       "word": "quiz",
+       "fa": "مسابقه"
+      },
+      {
+       "word": "go to bed",
+       "fa": "به رختخواب رفتن"
+      }
+     ],
+     "turns": 13
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "title": "Weather & clothes",
+   "titleFa": "هوا و لباس",
+   "place": "hallway",
+   "canDo": "Talk about the weather, clothes and colours; give simple instructions",
+   "canDoFa": "دربارهٔ هوا، لباس و رنگ حرف بزنی؛ دستور ساده بدهی",
+   "lessons": [
+    {
+     "id": "l1_u6_1",
+     "title": "What's the weather like?",
+     "titleFa": "هوا چطوره؟",
+     "lead": "tom",
+     "place": "hallway",
+     "grammar": "It's raining / sunny / cold + What's the weather like?",
+     "grammarFa": "هوا چطوره؟",
+     "sceneIds": [
+      "l1_u6_1"
+     ],
+     "words": [
+      {
+       "word": "weather",
+       "fa": "هوا"
+      },
+      {
+       "word": "raining",
+       "fa": "بارانی"
+      },
+      {
+       "word": "grey",
+       "fa": "خاکستری"
+      },
+      {
+       "word": "cloudy",
+       "fa": "ابری"
+      },
+      {
+       "word": "again",
+       "fa": "دوباره"
+      },
+      {
+       "word": "typical",
+       "fa": "طبق معمول"
+      },
+      {
+       "word": "sunny",
+       "fa": "آفتابی"
+      },
+      {
+       "word": "seasons",
+       "fa": "فصل‌ها"
+      },
+      {
+       "word": "hour ago",
+       "fa": "یک ساعت پیش"
+      },
+      {
+       "word": "umbrella",
+       "fa": "چتر"
+      },
+      {
+       "word": "put on",
+       "fa": "پوشیدن"
+      },
+      {
+       "word": "windy",
+       "fa": "بادی"
+      },
+      {
+       "word": "coat",
+       "fa": "کت"
+      },
+      {
+       "word": "degrees",
+       "fa": "درجه"
+      },
+      {
+       "word": "cold",
+       "fa": "سرد"
+      },
+      {
+       "word": "October",
+       "fa": "اکتبر"
+      },
+      {
+       "word": "country",
+       "fa": "کشور"
+      },
+      {
+       "word": "hot",
+       "fa": "گرم"
+      },
+      {
+       "word": "wet",
+       "fa": "خیس"
+      },
+      {
+       "word": "rain",
+       "fa": "باران"
+      },
+      {
+       "word": "sun",
+       "fa": "خورشید"
+      },
+      {
+       "word": "sound",
+       "fa": "صدا"
+      },
+      {
+       "word": "heavy",
+       "fa": "شدید/سنگین"
+      },
+      {
+       "word": "chucking it down",
+       "fa": "باران شدید (محاوره)"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u6_2",
+     "title": "Dressing up",
+     "titleFa": "لباس پوشیدن",
+     "lead": "nicola",
+     "place": "bedroom",
+     "grammar": "I've got… / Has she got…? + clothes + colours",
+     "grammarFa": "I've got / Has she got + لباس + رنگ",
+     "sceneIds": [
+      "l1_u6_2"
+     ],
+     "words": [
+      {
+       "word": "dressing up",
+       "fa": "لباس‌بازی"
+      },
+      {
+       "word": "pink",
+       "fa": "صورتی"
+      },
+      {
+       "word": "dress",
+       "fa": "پیراهن زنانه"
+      },
+      {
+       "word": "hat",
+       "fa": "کلاه"
+      },
+      {
+       "word": "scarf",
+       "fa": "شال‌گردن"
+      },
+      {
+       "word": "little",
+       "fa": "کوچولو"
+      },
+      {
+       "word": "has got",
+       "fa": "دارد"
+      },
+      {
+       "word": "give",
+       "fa": "دادن"
+      },
+      {
+       "word": "wellies",
+       "fa": "چکمهٔ لاستیکی"
+      },
+      {
+       "word": "purple",
+       "fa": "بنفش"
+      },
+      {
+       "word": "spots",
+       "fa": "خال‌ها"
+      },
+      {
+       "word": "trainers",
+       "fa": "کفش ورزشی/کتونی"
+      },
+      {
+       "word": "brown",
+       "fa": "قهوه‌ای"
+      },
+      {
+       "word": "big",
+       "fa": "بزرگ"
+      },
+      {
+       "word": "silly",
+       "fa": "مسخره/بامزه"
+      },
+      {
+       "word": "trousers",
+       "fa": "شلوار"
+      },
+      {
+       "word": "orange",
+       "fa": "نارنجی"
+      },
+      {
+       "word": "bear",
+       "fa": "خرس"
+      },
+      {
+       "word": "no way",
+       "fa": "عمراً"
+      },
+      {
+       "word": "photo",
+       "fa": "عکس"
+      },
+      {
+       "word": "smile",
+       "fa": "لبخند"
+      },
+      {
+       "word": "fix",
+       "fa": "درست کردن"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u6_3",
+     "title": "Getting ready for school",
+     "titleFa": "آماده شدن برای مدرسه",
+     "lead": "leslie",
+     "place": "hallway",
+     "grammar": "Imperatives: Put on…, Don't forget…, Hurry up!",
+     "grammarFa": "امری: بپوش، فراموش نکن، عجله کن",
+     "sceneIds": [
+      "l1_u6_3"
+     ],
+     "words": [
+      {
+       "word": "everyone",
+       "fa": "همه"
+      },
+      {
+       "word": "leave",
+       "fa": "رفتن/ترک کردن"
+      },
+      {
+       "word": "ready",
+       "fa": "آماده"
+      },
+      {
+       "word": "hurry up",
+       "fa": "عجله کن"
+      },
+      {
+       "word": "zip up",
+       "fa": "زیپ را بستن"
+      },
+      {
+       "word": "arms",
+       "fa": "دست‌ها/بازوها"
+      },
+      {
+       "word": "stand still",
+       "fa": "تکان نخور"
+      },
+      {
+       "word": "glove",
+       "fa": "دستکش"
+      },
+      {
+       "word": "stairs",
+       "fa": "پله‌ها"
+      },
+      {
+       "word": "other",
+       "fa": "دیگر"
+      },
+      {
+       "word": "don't forget",
+       "fa": "فراموش نکن"
+      },
+      {
+       "word": "PE kit",
+       "fa": "لباس ورزش مدرسه"
+      },
+      {
+       "word": "lunch box",
+       "fa": "ظرف ناهار"
+      },
+      {
+       "word": "by the door",
+       "fa": "کنار در"
+      },
+      {
+       "word": "put down",
+       "fa": "زمین گذاشتن"
+      },
+      {
+       "word": "crayon",
+       "fa": "مداد شمعی"
+      },
+      {
+       "word": "give",
+       "fa": "بده"
+      },
+      {
+       "word": "check",
+       "fa": "بررسی/هست"
+      },
+      {
+       "word": "close",
+       "fa": "بستن"
+      },
+      {
+       "word": "locked",
+       "fa": "قفل"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l1_u6_4",
+     "title": "Knitting with Nana",
+     "titleFa": "بافتنی با نانا",
+     "lead": "weda",
+     "place": "living",
+     "grammar": "What colour is…? + Which one…? + clothes for winter",
+     "grammarFa": "چه رنگیه؟ + کدوم؟ + لباس زمستونی",
+     "sceneIds": [
+      "l1_u6_4"
+     ],
+     "words": [
+      {
+       "word": "knitting",
+       "fa": "بافتنی"
+      },
+      {
+       "word": "scarf",
+       "fa": "شال‌گردن"
+      },
+      {
+       "word": "difficult",
+       "fa": "سخت"
+      },
+      {
+       "word": "stripes",
+       "fa": "راه‌راه"
+      },
+      {
+       "word": "white",
+       "fa": "سفید"
+      },
+      {
+       "word": "which",
+       "fa": "کدام"
+      },
+      {
+       "word": "winter",
+       "fa": "زمستان"
+      },
+      {
+       "word": "mittens",
+       "fa": "دستکش بی‌انگشت"
+      },
+      {
+       "word": "snow",
+       "fa": "برف"
+      },
+      {
+       "word": "dark",
+       "fa": "تاریک"
+      },
+      {
+       "word": "mostly",
+       "fa": "بیشتر"
+      },
+      {
+       "word": "not much",
+       "fa": "نه زیاد"
+      },
+      {
+       "word": "December",
+       "fa": "دسامبر"
+      },
+      {
+       "word": "hot chocolate",
+       "fa": "شکلات داغ"
+      },
+      {
+       "word": "around",
+       "fa": "حدوداً"
+      },
+      {
+       "word": "hold",
+       "fa": "نگه داشتن"
+      },
+      {
+       "word": "wool",
+       "fa": "کاموا/پشم"
+      },
+      {
+       "word": "dropped",
+       "fa": "انداختم"
+      }
+     ],
+     "turns": 13
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "title": "At the shops",
+   "titleFa": "در مغازه‌ها",
+   "place": "bakery",
+   "canDo": "Buy things, ask prices, choose with this / that",
+   "canDoFa": "خرید کنی، قیمت بپرسی، با this / that انتخاب کنی",
+   "lessons": [
+    {
+     "id": "l1_u7_1",
+     "title": "At the bakery",
+     "titleFa": "در نانوایی",
+     "lead": "baker",
+     "place": "bakery",
+     "grammar": "Can I have…? How much is…? + this / that one",
+     "grammarFa": "می‌شه … بدید؟ چنده؟ + این / اون",
+     "sceneIds": [
+      "l1_u7_1"
+     ],
+     "words": [
+      {
+       "word": "loaf",
+       "fa": "قرص نان"
+      },
+      {
+       "word": "bread",
+       "fa": "نان"
+      },
+      {
+       "word": "just looking",
+       "fa": "فقط نگاه می‌کنم"
+      },
+      {
+       "word": "fresh",
+       "fa": "تازه"
+      },
+      {
+       "word": "oven",
+       "fa": "فر"
+      },
+      {
+       "word": "brown bread",
+       "fa": "نان سبوس‌دار"
+      },
+      {
+       "word": "white",
+       "fa": "سفید"
+      },
+      {
+       "word": "anything else",
+       "fa": "چیز دیگری"
+      },
+      {
+       "word": "sausage roll",
+       "fa": "رول سوسیس"
+      },
+      {
+       "word": "still",
+       "fa": "هنوز"
+      },
+      {
+       "word": "cakes",
+       "fa": "کیک‌ها"
+      },
+      {
+       "word": "currants",
+       "fa": "کشمش ریز"
+      },
+      {
+       "word": "inside",
+       "fa": "داخل"
+      },
+      {
+       "word": "try",
+       "fa": "امتحان کردن"
+      },
+      {
+       "word": "bag",
+       "fa": "کیسه"
+      },
+      {
+       "word": "own",
+       "fa": "خودم"
+      },
+      {
+       "word": "altogether",
+       "fa": "روی هم"
+      },
+      {
+       "word": "card",
+       "fa": "کارت"
+      },
+      {
+       "word": "cash",
+       "fa": "نقد"
+      },
+      {
+       "word": "note",
+       "fa": "اسکناس"
+      },
+      {
+       "word": "tap",
+       "fa": "پرداخت بدون تماس"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u7_2",
+     "title": "The supermarket",
+     "titleFa": "سوپرمارکت",
+     "lead": "priya",
+     "place": "supermarket",
+     "grammar": "Is there any…? / Are there any…? + some / any",
+     "grammarFa": "some / any در سؤال",
+     "sceneIds": [
+      "l1_u7_2"
+     ],
+     "words": [
+      {
+       "word": "list",
+       "fa": "فهرست"
+      },
+      {
+       "word": "milk",
+       "fa": "شیر"
+      },
+      {
+       "word": "apples",
+       "fa": "سیب‌ها"
+      },
+      {
+       "word": "washing-up liquid",
+       "fa": "مایع ظرفشویی"
+      },
+      {
+       "word": "aisle",
+       "fa": "راهرو (فروشگاه)"
+      },
+      {
+       "word": "back",
+       "fa": "ته/پشت"
+      },
+      {
+       "word": "pint",
+       "fa": "پاینت (حدود ۰.۶ لیتر)"
+      },
+      {
+       "word": "lost",
+       "fa": "گم‌شده"
+      },
+      {
+       "word": "any",
+       "fa": "هیچ/مقداری (در سؤال)"
+      },
+      {
+       "word": "free-range",
+       "fa": "(مرغ) آزاد/محلی"
+      },
+      {
+       "word": "left",
+       "fa": "باقی‌مانده"
+      },
+      {
+       "word": "fine",
+       "fa": "خوب/اشکالی نداره"
+      },
+      {
+       "word": "some",
+       "fa": "مقداری"
+      },
+      {
+       "word": "bin bags",
+       "fa": "کیسه زباله"
+      },
+      {
+       "word": "everything",
+       "fa": "همه چیز"
+      },
+      {
+       "word": "crisps",
+       "fa": "چیپس"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u7_3",
+     "title": "Buying trainers",
+     "titleFa": "خرید کتونی",
+     "lead": "ryan",
+     "place": "supermarket",
+     "grammar": "Comparisons: bigger / cheaper / better + Can I try…?",
+     "grammarFa": "مقایسه + می‌شه امتحان کنم؟",
+     "sceneIds": [
+      "l1_u7_3"
+     ],
+     "words": [
+      {
+       "word": "quid",
+       "fa": "پوند (محاوره)"
+      },
+      {
+       "word": "choose",
+       "fa": "انتخاب کردن"
+      },
+      {
+       "word": "new",
+       "fa": "نو"
+      },
+      {
+       "word": "nicer",
+       "fa": "قشنگ‌تر"
+      },
+      {
+       "word": "cheaper",
+       "fa": "ارزان‌تر"
+      },
+      {
+       "word": "those ones",
+       "fa": "آن‌ها"
+      },
+      {
+       "word": "try on",
+       "fa": "پوشیدن برای امتحان"
+      },
+      {
+       "word": "look good",
+       "fa": "خوب به نظر رسیدن"
+      },
+      {
+       "word": "size",
+       "fa": "اندازه/سایز"
+      },
+      {
+       "word": "excuse me",
+       "fa": "ببخشید"
+      },
+      {
+       "word": "small",
+       "fa": "کوچک"
+      },
+      {
+       "word": "bigger",
+       "fa": "بزرگ‌تر"
+      },
+      {
+       "word": "comfortable",
+       "fa": "راحت"
+      },
+      {
+       "word": "better",
+       "fa": "بهتر"
+      },
+      {
+       "word": "comfy",
+       "fa": "راحت (محاوره)"
+      },
+      {
+       "word": "chips",
+       "fa": "سیب‌زمینی سرخ‌کرده"
+      },
+      {
+       "word": "salt",
+       "fa": "نمک"
+      },
+      {
+       "word": "vinegar",
+       "fa": "سرکه"
+      },
+      {
+       "word": "save",
+       "fa": "پس‌انداز کردن"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u7_4",
+     "title": "The chemist",
+     "titleFa": "داروخانه",
+     "lead": "weda",
+     "place": "pharmacy",
+     "grammar": "I need something for… + Can you recommend…?",
+     "grammarFa": "چیزی برای … لازم دارم",
+     "sceneIds": [
+      "l1_u7_4"
+     ],
+     "words": [
+      {
+       "word": "pop into",
+       "fa": "سر زدن"
+      },
+      {
+       "word": "chemist",
+       "fa": "داروخانه"
+      },
+      {
+       "word": "plasters",
+       "fa": "چسب زخم"
+      },
+      {
+       "word": "cough",
+       "fa": "سرفه"
+      },
+      {
+       "word": "something for",
+       "fa": "چیزی برای"
+      },
+      {
+       "word": "recommend",
+       "fa": "پیشنهاد کردن"
+      },
+      {
+       "word": "medicine",
+       "fa": "دارو"
+      },
+      {
+       "word": "lady",
+       "fa": "خانم"
+      },
+      {
+       "word": "syrup",
+       "fa": "شربت"
+      },
+      {
+       "word": "three times",
+       "fa": "سه بار"
+      },
+      {
+       "word": "taste",
+       "fa": "مزه دادن"
+      },
+      {
+       "word": "horrible",
+       "fa": "افتضاح"
+      },
+      {
+       "word": "throat",
+       "fa": "گلو"
+      },
+      {
+       "word": "honey",
+       "fa": "عسل"
+      },
+      {
+       "word": "lemon",
+       "fa": "لیمو"
+      },
+      {
+       "word": "feel better",
+       "fa": "بهتر شدن"
+      }
+     ],
+     "turns": 11
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "title": "Right now!",
+   "titleFa": "همین الان!",
+   "place": "park",
+   "canDo": "Say what's happening now and what you can do",
+   "canDoFa": "بگویی الان چه اتفاقی می‌افتد و چه کاری می‌توانی بکنی",
+   "lessons": [
+    {
+     "id": "l1_u8_1",
+     "title": "At the park",
+     "titleFa": "در پارک",
+     "lead": "nicola",
+     "place": "park",
+     "grammar": "Present continuous: I'm running / he's playing",
+     "grammarFa": "حال استمراری",
+     "sceneIds": [
+      "l1_u8_1"
+     ],
+     "words": [
+      {
+       "word": "running",
+       "fa": "در حال دویدن"
+      },
+      {
+       "word": "fast",
+       "fa": "سریع"
+      },
+      {
+       "word": "fall over",
+       "fa": "زمین خوردن"
+      },
+      {
+       "word": "look at me",
+       "fa": "منو ببین"
+      },
+      {
+       "word": "doing",
+       "fa": "انجام دادن"
+      },
+      {
+       "word": "playing",
+       "fa": "در حال بازی"
+      },
+      {
+       "word": "slide",
+       "fa": "سرسره"
+      },
+      {
+       "word": "sandpit",
+       "fa": "گودال شن بازی"
+      },
+      {
+       "word": "again",
+       "fa": "دوباره"
+      },
+      {
+       "word": "fun",
+       "fa": "سرگرمی/خوشی"
+      },
+      {
+       "word": "one more time",
+       "fa": "یک بار دیگر"
+      },
+      {
+       "word": "push",
+       "fa": "هل دادن"
+      },
+      {
+       "word": "swings",
+       "fa": "تاب"
+      },
+      {
+       "word": "higher",
+       "fa": "بالاتر"
+      },
+      {
+       "word": "hold on tight",
+       "fa": "محکم بگیر"
+      },
+      {
+       "word": "flying",
+       "fa": "پرواز دادن/کردن"
+      },
+      {
+       "word": "kite",
+       "fa": "بادبادک"
+      },
+      {
+       "word": "chasing",
+       "fa": "دنبال کردن"
+      },
+      {
+       "word": "pond",
+       "fa": "برکه"
+      },
+      {
+       "word": "dog",
+       "fa": "سگ"
+      },
+      {
+       "word": "owner",
+       "fa": "صاحب"
+      },
+      {
+       "word": "shouting",
+       "fa": "داد زدن"
+      },
+      {
+       "word": "come here",
+       "fa": "بیا اینجا"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u8_2",
+     "title": "Can you…?",
+     "titleFa": "می‌تونی…؟",
+     "lead": "ryan",
+     "place": "park",
+     "grammar": "can / can't for ability",
+     "grammarFa": "can / can't برای توانایی",
+     "sceneIds": [
+      "l1_u8_2"
+     ],
+     "words": [
+      {
+       "word": "can",
+       "fa": "می‌توانم"
+      },
+      {
+       "word": "can't",
+       "fa": "نمی‌توانم"
+      },
+      {
+       "word": "player",
+       "fa": "بازیکن"
+      },
+      {
+       "word": "try",
+       "fa": "امتحان کردن"
+      },
+      {
+       "word": "goal",
+       "fa": "دروازه"
+      },
+      {
+       "word": "keeper",
+       "fa": "دروازه‌بان"
+      },
+      {
+       "word": "rubbish",
+       "fa": "افتضاح (محاوره)/زباله"
+      },
+      {
+       "word": "catch",
+       "fa": "گرفتن"
+      },
+      {
+       "word": "quite",
+       "fa": "نسبتاً"
+      },
+      {
+       "word": "fewer",
+       "fa": "کمتر"
+      },
+      {
+       "word": "speak",
+       "fa": "صحبت کردن"
+      },
+      {
+       "word": "languages",
+       "fa": "زبان‌ها"
+      },
+      {
+       "word": "a little",
+       "fa": "کمی"
+      },
+      {
+       "word": "sick",
+       "fa": "عالی (عامیانه)"
+      },
+      {
+       "word": "slang",
+       "fa": "زبان عامیانه"
+      },
+      {
+       "word": "teach",
+       "fa": "یاد دادن"
+      },
+      {
+       "word": "score",
+       "fa": "گل زدن"
+      },
+      {
+       "word": "ball",
+       "fa": "توپ"
+      },
+      {
+       "word": "deal",
+       "fa": "قبول/معامله"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u8_3",
+     "title": "What are you doing?",
+     "titleFa": "داری چی کار می‌کنی؟",
+     "lead": "leslie",
+     "place": "living",
+     "grammar": "Present continuous questions on the phone",
+     "grammarFa": "سؤال‌های حال استمراری پشت تلفن",
+     "sceneIds": [
+      "l1_u8_3"
+     ],
+     "words": [
+      {
+       "word": "watching",
+       "fa": "تماشا کردن"
+      },
+      {
+       "word": "cooking",
+       "fa": "آشپزی کردن"
+      },
+      {
+       "word": "it's me",
+       "fa": "منم (پشت تلفن)"
+      },
+      {
+       "word": "homework",
+       "fa": "تکلیف مدرسه"
+      },
+      {
+       "word": "video games",
+       "fa": "بازی‌های ویدیویی"
+      },
+      {
+       "word": "working",
+       "fa": "کار کردن"
+      },
+      {
+       "word": "turn off",
+       "fa": "خاموش کردن"
+      },
+      {
+       "word": "drawing",
+       "fa": "نقاشی کشیدن"
+      },
+      {
+       "word": "picture",
+       "fa": "تصویر"
+      },
+      {
+       "word": "reading",
+       "fa": "خواندن"
+      },
+      {
+       "word": "quiet",
+       "fa": "ساکت"
+      },
+      {
+       "word": "sleeping",
+       "fa": "خوابیدن"
+      },
+      {
+       "word": "painting",
+       "fa": "رنگ کردن"
+      },
+      {
+       "word": "waiting for",
+       "fa": "منتظر بودن"
+      },
+      {
+       "word": "as usual",
+       "fa": "طبق معمول"
+      },
+      {
+       "word": "thank goodness",
+       "fa": "خدا را شکر"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l1_u8_4",
+     "title": "DIY with Tom",
+     "titleFa": "تعمیرات با تام",
+     "lead": "tom",
+     "place": "hallway",
+     "grammar": "can / can't for requests + present continuous",
+     "grammarFa": "can برای درخواست + حال استمراری",
+     "sceneIds": [
+      "l1_u8_4"
+     ],
+     "words": [
+      {
+       "word": "give me a hand",
+       "fa": "کمکم کن"
+      },
+      {
+       "word": "putting up",
+       "fa": "نصب کردن"
+      },
+      {
+       "word": "shelf",
+       "fa": "قفسه"
+      },
+      {
+       "word": "hold",
+       "fa": "نگه داشتن"
+      },
+      {
+       "word": "end",
+       "fa": "سر/انتها"
+      },
+      {
+       "word": "straight",
+       "fa": "صاف"
+      },
+      {
+       "word": "left",
+       "fa": "چپ"
+      },
+      {
+       "word": "drill",
+       "fa": "دریل"
+      },
+      {
+       "word": "toolbox",
+       "fa": "جعبه ابزار"
+      },
+      {
+       "word": "hammer",
+       "fa": "چکش"
+      },
+      {
+       "word": "cover",
+       "fa": "پوشاندن"
+      },
+      {
+       "word": "ears",
+       "fa": "گوش‌ها"
+      },
+      {
+       "word": "loud",
+       "fa": "بلند (صدا)"
+      },
+      {
+       "word": "nearby",
+       "fa": "نزدیک"
+      },
+      {
+       "word": "screws",
+       "fa": "پیچ‌ها"
+      },
+      {
+       "word": "garden",
+       "fa": "باغچه"
+      },
+      {
+       "word": "falling down",
+       "fa": "افتادن"
+      },
+      {
+       "word": "moving",
+       "fa": "تکان خوردن"
+      },
+      {
+       "word": "perfect",
+       "fa": "بی‌نقص"
+      }
+     ],
+     "turns": 13
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "title": "Body & feeling poorly",
+   "titleFa": "بدن و بیماری",
+   "place": "poorly",
+   "canDo": "Name body parts, say what's wrong, see the doctor",
+   "canDoFa": "اعضای بدن را نام ببری، بگویی چه مشکلی داری، پیش دکتر بروی",
+   "lessons": [
+    {
+     "id": "l1_u9_1",
+     "title": "Head, shoulders, knees and toes",
+     "titleFa": "سر، شانه، زانو، انگشت پا",
+     "lead": "nicola",
+     "place": "living",
+     "grammar": "Body parts + my / your",
+     "grammarFa": "اعضای بدن + my / your",
+     "sceneIds": [
+      "l1_u9_1"
+     ],
+     "words": [
+      {
+       "word": "head",
+       "fa": "سر"
+      },
+      {
+       "word": "shoulders",
+       "fa": "شانه‌ها"
+      },
+      {
+       "word": "knees",
+       "fa": "زانوها"
+      },
+      {
+       "word": "toes",
+       "fa": "انگشتان پا"
+      },
+      {
+       "word": "touch",
+       "fa": "لمس کردن"
+      },
+      {
+       "word": "nose",
+       "fa": "بینی"
+      },
+      {
+       "word": "ears",
+       "fa": "گوش‌ها"
+      },
+      {
+       "word": "mouth",
+       "fa": "دهان"
+      },
+      {
+       "word": "faster",
+       "fa": "سریع‌تر"
+      },
+      {
+       "word": "slow",
+       "fa": "کند"
+      },
+      {
+       "word": "fingers",
+       "fa": "انگشتان دست"
+      },
+      {
+       "word": "hands",
+       "fa": "دست‌ها"
+      },
+      {
+       "word": "gently",
+       "fa": "آرام"
+      },
+      {
+       "word": "tummy",
+       "fa": "شکم (کودکانه)"
+      },
+      {
+       "word": "tickle",
+       "fa": "قلقلک"
+      },
+      {
+       "word": "feet",
+       "fa": "پاها"
+      },
+      {
+       "word": "laughing",
+       "fa": "خندیدن"
+      },
+      {
+       "word": "banged",
+       "fa": "خورد/کوبید"
+      },
+      {
+       "word": "hurts",
+       "fa": "درد می‌کند"
+      },
+      {
+       "word": "ow",
+       "fa": "آخ"
+      },
+      {
+       "word": "dinosaur",
+       "fa": "دایناسور"
+      },
+      {
+       "word": "ice",
+       "fa": "یخ"
+      },
+      {
+       "word": "better",
+       "fa": "بهتر"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l1_u9_2",
+     "title": "Feeling poorly",
+     "titleFa": "حال بد",
+     "lead": "leslie",
+     "place": "poorly",
+     "grammar": "I've got a headache / a cold / a temperature",
+     "grammarFa": "سردرد / سرماخوردگی / تب دارم",
+     "sceneIds": [
+      "l1_u9_2"
+     ],
+     "words": [
+      {
+       "word": "pale",
+       "fa": "رنگ‌پریده"
+      },
+      {
+       "word": "poorly",
+       "fa": "بیمار/ناخوش"
+      },
+      {
+       "word": "terrible",
+       "fa": "افتضاح"
+      },
+      {
+       "word": "tired",
+       "fa": "خسته"
+      },
+      {
+       "word": "what's the matter",
+       "fa": "چی شده"
+      },
+      {
+       "word": "headache",
+       "fa": "سردرد"
+      },
+      {
+       "word": "sore throat",
+       "fa": "گلودرد"
+      },
+      {
+       "word": "bad",
+       "fa": "بد"
+      },
+      {
+       "word": "forehead",
+       "fa": "پیشانی"
+      },
+      {
+       "word": "temperature",
+       "fa": "تب/دما"
+      },
+      {
+       "word": "thermometer",
+       "fa": "دماسنج"
+      },
+      {
+       "word": "runny nose",
+       "fa": "آبریزش بینی"
+      },
+      {
+       "word": "aches",
+       "fa": "درد می‌کند"
+      },
+      {
+       "word": "cough",
+       "fa": "سرفه"
+      },
+      {
+       "word": "flu",
+       "fa": "آنفولانزا"
+      },
+      {
+       "word": "paracetamol",
+       "fa": "پاراستامول"
+      },
+      {
+       "word": "hot drink",
+       "fa": "نوشیدنی گرم"
+      },
+      {
+       "word": "rest",
+       "fa": "استراحت کردن"
+      },
+      {
+       "word": "worse",
+       "fa": "بدتر"
+      },
+      {
+       "word": "GP",
+       "fa": "پزشک عمومی"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u9_3",
+     "title": "At the GP",
+     "titleFa": "در مطب پزشک عمومی",
+     "lead": "okafor",
+     "place": "gp",
+     "grammar": "How long…? Since / for + describing symptoms",
+     "grammarFa": "از کِی؟ + توصیف علائم",
+     "sceneIds": [
+      "l1_u9_3"
+     ],
+     "words": [
+      {
+       "word": "take a seat",
+       "fa": "بنشینید"
+      },
+      {
+       "word": "problem",
+       "fa": "مشکل"
+      },
+      {
+       "word": "chest",
+       "fa": "سینه"
+      },
+      {
+       "word": "breathe",
+       "fa": "نفس کشیدن"
+      },
+      {
+       "word": "how long",
+       "fa": "چه مدت"
+      },
+      {
+       "word": "for",
+       "fa": "به مدت"
+      },
+      {
+       "word": "since",
+       "fa": "از (زمان)"
+      },
+      {
+       "word": "week",
+       "fa": "هفته"
+      },
+      {
+       "word": "pain",
+       "fa": "درد"
+      },
+      {
+       "word": "anywhere else",
+       "fa": "جای دیگری"
+      },
+      {
+       "word": "back",
+       "fa": "کمر/پشت"
+      },
+      {
+       "word": "breathe in",
+       "fa": "دم"
+      },
+      {
+       "word": "breathe out",
+       "fa": "بازدم"
+      },
+      {
+       "word": "listen",
+       "fa": "گوش دادن"
+      },
+      {
+       "word": "infection",
+       "fa": "عفونت"
+      },
+      {
+       "word": "serious",
+       "fa": "جدی"
+      },
+      {
+       "word": "prescription",
+       "fa": "نسخه"
+      },
+      {
+       "word": "antibiotics",
+       "fa": "آنتی‌بیوتیک"
+      },
+      {
+       "word": "after food",
+       "fa": "بعد از غذا"
+      },
+      {
+       "word": "pay",
+       "fa": "پرداخت کردن"
+      },
+      {
+       "word": "how often",
+       "fa": "هر چند وقت"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u9_4",
+     "title": "Nana's remedies",
+     "titleFa": "درمان‌های نانا",
+     "lead": "weda",
+     "place": "kitchen",
+     "grammar": "should / shouldn't for advice",
+     "grammarFa": "should / shouldn't برای توصیه",
+     "sceneIds": [
+      "l1_u9_4"
+     ],
+     "words": [
+      {
+       "word": "poor thing",
+       "fa": "بیچاره"
+      },
+      {
+       "word": "cold",
+       "fa": "سرماخوردگی"
+      },
+      {
+       "word": "should",
+       "fa": "باید (توصیه)"
+      },
+      {
+       "word": "soup",
+       "fa": "سوپ"
+      },
+      {
+       "word": "shouldn't",
+       "fa": "نباید"
+      },
+      {
+       "word": "stay inside",
+       "fa": "داخل ماندن"
+      },
+      {
+       "word": "go out",
+       "fa": "بیرون رفتن"
+      },
+      {
+       "word": "ginger",
+       "fa": "زنجبیل"
+      },
+      {
+       "word": "garlic",
+       "fa": "سیر"
+      },
+      {
+       "word": "wait",
+       "fa": "صبر کردن"
+      },
+      {
+       "word": "sleepy",
+       "fa": "خواب‌آلود"
+      },
+      {
+       "word": "early",
+       "fa": "زود"
+      },
+      {
+       "word": "advice",
+       "fa": "توصیه"
+      },
+      {
+       "word": "helpful",
+       "fa": "مفید/کمک‌کننده"
+      },
+      {
+       "word": "too much",
+       "fa": "خیلی زیاد"
+      }
+     ],
+     "turns": 11
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "title": "Evening tea & weekends",
+   "titleFa": "شام و آخر هفته",
+   "place": "eveningtea",
+   "canDo": "Say what you like, talk about family things and weekend plans",
+   "canDoFa": "بگویی چه دوست داری، از چیزهای خانواده و برنامهٔ آخر هفته حرف بزنی",
+   "lessons": [
+    {
+     "id": "l1_u10_1",
+     "title": "Teatime at six",
+     "titleFa": "شام ساعت شش",
+     "lead": "weda",
+     "place": "eveningtea",
+     "grammar": "I like / love / don't like + -ing",
+     "grammarFa": "دوست دارم / ندارم + ing",
+     "sceneIds": [
+      "l1_u10_1"
+     ],
+     "words": [
+      {
+       "word": "fish pie",
+       "fa": "پای ماهی"
+      },
+      {
+       "word": "love",
+       "fa": "عاشق بودن"
+      },
+      {
+       "word": "don't like",
+       "fa": "دوست نداشتن"
+      },
+      {
+       "word": "tonight",
+       "fa": "امشب"
+      },
+      {
+       "word": "plenty of",
+       "fa": "زیاد"
+      },
+      {
+       "word": "mash",
+       "fa": "پوره سیب‌زمینی"
+      },
+      {
+       "word": "peas",
+       "fa": "نخودفرنگی"
+      },
+      {
+       "word": "rice",
+       "fa": "برنج"
+      },
+      {
+       "word": "spicy",
+       "fa": "تند"
+      },
+      {
+       "word": "cooking",
+       "fa": "آشپزی کردن"
+      },
+      {
+       "word": "eating",
+       "fa": "خوردن"
+      },
+      {
+       "word": "one day",
+       "fa": "یه روز"
+      },
+      {
+       "word": "pass",
+       "fa": "دادن"
+      },
+      {
+       "word": "evenings",
+       "fa": "عصرها"
+      },
+      {
+       "word": "listening to music",
+       "fa": "گوش دادن به موسیقی"
+      },
+      {
+       "word": "enjoy",
+       "fa": "لذت بردن"
+      },
+      {
+       "word": "nothing",
+       "fa": "هیچ چیز"
+      },
+      {
+       "word": "hobby",
+       "fa": "سرگرمی"
+      },
+      {
+       "word": "at all",
+       "fa": "اصلاً"
+      },
+      {
+       "word": "wash up",
+       "fa": "ظرف شستن"
+      },
+      {
+       "word": "who's",
+       "fa": "چه کسی"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u10_2",
+     "title": "Whose is this?",
+     "titleFa": "این مال کیه؟",
+     "lead": "ryan",
+     "place": "living",
+     "grammar": "Possessive 's + whose / mine / yours",
+     "grammarFa": "مالکیت 's + whose / mine / yours",
+     "sceneIds": [
+      "l1_u10_2"
+     ],
+     "words": [
+      {
+       "word": "whose",
+       "fa": "مال چه کسی"
+      },
+      {
+       "word": "ringing",
+       "fa": "زنگ زدن"
+      },
+      {
+       "word": "yours",
+       "fa": "مال تو"
+      },
+      {
+       "word": "mine",
+       "fa": "مال من"
+      },
+      {
+       "word": "dad's",
+       "fa": "مال بابا"
+      },
+      {
+       "word": "same",
+       "fa": "همان"
+      },
+      {
+       "word": "coat",
+       "fa": "کت"
+      },
+      {
+       "word": "pink",
+       "fa": "صورتی"
+      },
+      {
+       "word": "too big",
+       "fa": "خیلی بزرگ"
+      },
+      {
+       "word": "tiny",
+       "fa": "خیلی کوچک"
+      },
+      {
+       "word": "definitely",
+       "fa": "قطعاً"
+      },
+      {
+       "word": "cute",
+       "fa": "بامزه"
+      },
+      {
+       "word": "isn't it",
+       "fa": "نه؟ (سؤال تأییدی)"
+      },
+      {
+       "word": "scarf",
+       "fa": "شال‌گردن"
+      },
+      {
+       "word": "chuffed",
+       "fa": "خیلی خوشحال (عامیانه)"
+      },
+      {
+       "word": "well",
+       "fa": "خیلی (عامیانه)"
+      },
+      {
+       "word": "tidy",
+       "fa": "مرتب"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u10_3",
+     "title": "Nicola's birthday",
+     "titleFa": "تولد نیکولا",
+     "lead": "nicola",
+     "place": "birthday",
+     "grammar": "Dates, months + Happy birthday! + I'm going to…",
+     "grammarFa": "تاریخ، ماه‌ها + تولدت مبارک + قرار است",
+     "sceneIds": [
+      "l1_u10_3"
+     ],
+     "words": [
+      {
+       "word": "birthday",
+       "fa": "تولد"
+      },
+      {
+       "word": "happy birthday",
+       "fa": "تولدت مبارک"
+      },
+      {
+       "word": "seven",
+       "fa": "هفت"
+      },
+      {
+       "word": "March",
+       "fa": "مارس"
+      },
+      {
+       "word": "June",
+       "fa": "ژوئن"
+      },
+      {
+       "word": "November",
+       "fa": "نوامبر"
+      },
+      {
+       "word": "tenth",
+       "fa": "دهم"
+      },
+      {
+       "word": "second",
+       "fa": "دوم"
+      },
+      {
+       "word": "cake",
+       "fa": "کیک"
+      },
+      {
+       "word": "candles",
+       "fa": "شمع‌ها"
+      },
+      {
+       "word": "unicorn",
+       "fa": "اسب تکشاخ"
+      },
+      {
+       "word": "make a wish",
+       "fa": "آرزو کردن"
+      },
+      {
+       "word": "blow",
+       "fa": "فوت کردن"
+      },
+      {
+       "word": "secret",
+       "fa": "راز"
+      },
+      {
+       "word": "present",
+       "fa": "کادو/هدیه"
+      },
+      {
+       "word": "keep",
+       "fa": "نگه داشتن"
+      },
+      {
+       "word": "open",
+       "fa": "باز کردن"
+      },
+      {
+       "word": "surprise",
+       "fa": "غافلگیری"
+      },
+      {
+       "word": "going to",
+       "fa": "قرار است"
+      },
+      {
+       "word": "glad",
+       "fa": "خوشحال"
+      },
+      {
+       "word": "book",
+       "fa": "کتاب"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l1_u10_4",
+     "title": "Weekend plans",
+     "titleFa": "برنامه‌های آخر هفته",
+     "lead": "tom",
+     "place": "living",
+     "grammar": "What are you doing at the weekend? + going to",
+     "grammarFa": "آخر هفته چی کار می‌کنی؟ + going to",
+     "sceneIds": [
+      "l1_u10_4"
+     ],
+     "words": [
+      {
+       "word": "finally",
+       "fa": "بالاخره"
+      },
+      {
+       "word": "at the weekend",
+       "fa": "آخر هفته"
+      },
+      {
+       "word": "visit",
+       "fa": "دیدن کردن"
+      },
+      {
+       "word": "relaxing",
+       "fa": "استراحت کردن"
+      },
+      {
+       "word": "seaside",
+       "fa": "کنار دریا"
+      },
+      {
+       "word": "beach",
+       "fa": "ساحل"
+      },
+      {
+       "word": "busy",
+       "fa": "مشغول"
+      },
+      {
+       "word": "I'd love to",
+       "fa": "خیلی دوست دارم"
+      },
+      {
+       "word": "fish and chips",
+       "fa": "ماهی و سیب‌زمینی سرخ‌کرده"
+      },
+      {
+       "word": "pier",
+       "fa": "اسکله"
+      },
+      {
+       "word": "sea",
+       "fa": "دریا"
+      },
+      {
+       "word": "seagulls",
+       "fa": "مرغان دریایی"
+      },
+      {
+       "word": "steal",
+       "fa": "دزدیدن"
+      },
+      {
+       "word": "watch out",
+       "fa": "مواظب باش"
+      },
+      {
+       "word": "anyway",
+       "fa": "به هر حال"
+      },
+      {
+       "word": "bring",
+       "fa": "آوردن"
+      },
+      {
+       "word": "any weather",
+       "fa": "هر هوایی"
+      },
+      {
+       "word": "lie-in",
+       "fa": "دیر بیدار شدن"
+      },
+      {
+       "word": "leaving",
+       "fa": "راه افتادن"
+      }
+     ],
+     "turns": 13
+    }
+   ]
   }
  ]
 }

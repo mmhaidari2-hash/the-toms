@@ -1,0 +1,324 @@
+{
+ "id": "l1_u7_3",
+ "characterId": "ryan",
+ "title": "Buying trainers",
+ "titleFa": "خرید کتونی",
+ "setting": "At the shops · Level 1",
+ "settingFa": "در مغازه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum gave me forty quid for new trainers. Can you help me choose?",
+   "translations": {
+    "fa": "مامان چهل پوند داد برای کتونی نو. کمکم می‌کنی انتخاب کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "colour",
+      "course",
+      "want"
+     ],
+     "suggestion": "Of course! What colour do you want?",
+     "suggestionFa": "حتماً! چه رنگی می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lucky",
+      "forty",
+      "quid"
+     ],
+     "suggestion": "Forty quid? Lucky you!",
+     "suggestionFa": "چهل پوند؟ خوش به حالت!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (محاوره)"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    },
+    {
+     "word": "new",
+     "fa": "نو"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Quid\" is slang for pounds: \"ten quid\" = £10. It never takes an s!",
+    "fa": "quid یعنی پوند در محاوره؛ هیچ‌وقت s نمی‌گیرد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "White, I think. These ones or those ones over there?",
+   "translations": {
+    "fa": "سفید، فکر کنم. این‌ها یا اون‌هایی که اونجان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicer",
+      "those",
+      "ones"
+     ],
+     "suggestion": "Those ones are nicer.",
+     "suggestionFa": "اون‌ها قشنگ‌ترن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheaper",
+      "these"
+     ],
+     "suggestion": "These are cheaper.",
+     "suggestionFa": "این‌ها ارزون‌ترن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nicer",
+     "fa": "قشنگ‌تر"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    },
+    {
+     "word": "those ones",
+     "fa": "آن‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Those are forty-five pounds. These are thirty-five. Hmm.",
+   "translations": {
+    "fa": "اون‌ها چهل‌وپنج پوندن. این‌ها سی‌وپنج. هوم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheaper",
+      "these",
+      "look",
+      "they"
+     ],
+     "suggestion": "These are cheaper and they look good.",
+     "suggestionFa": "این‌ها ارزون‌ترن و خوب به نظر میان.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "those",
+      "try"
+     ],
+     "suggestion": "Try those on first.",
+     "suggestionFa": "اول اون‌ها را بپوش امتحان کن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "try on",
+     "fa": "پوشیدن برای امتحان"
+    },
+    {
+     "word": "look good",
+     "fa": "خوب به نظر رسیدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Excuse me, can I try these in a size nine, please?",
+   "translations": {
+    "fa": "ببخشید، می‌شه این‌ها را سایز نه امتحان کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "politely",
+      "asked",
+      "good"
+     ],
+     "suggestion": "Good — you asked politely!",
+     "suggestionFa": "خوبه — مؤدبانه پرسیدی!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nine",
+      "size"
+     ],
+     "suggestion": "Is nine your size?",
+     "suggestionFa": "سایزت نهه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "size",
+     "fa": "اندازه/سایز"
+    },
+    {
+     "word": "excuse me",
+     "fa": "ببخشید"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK shoe sizes are different: UK 9 is about EU 43 or US 10.",
+    "fa": "سایز کفش بریتانیا فرق دارد: ۹ بریتانیا حدود ۴۳ اروپاست."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "They're a bit small. Have you got a bigger size? Ah, the tens are better.",
+   "translations": {
+    "fa": "یه کم کوچیکن. سایز بزرگ‌تر دارید؟ آه، ده بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "comfortable",
+      "around",
+      "walk",
+      "they"
+     ],
+     "suggestion": "Walk around. Are they comfortable?",
+     "suggestionFa": "یه کم راه برو. راحتن؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "then",
+      "size",
+      "ten"
+     ],
+     "suggestion": "Size ten is better, then.",
+     "suggestionFa": "پس سایز ده بهتره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "small",
+     "fa": "کوچک"
+    },
+    {
+     "word": "bigger",
+     "fa": "بزرگ‌تر"
+    },
+    {
+     "word": "comfortable",
+     "fa": "راحت"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Really comfy. And I've got five quid left for chips! Want some?",
+   "translations": {
+    "fa": "خیلی راحتن. و پنج پوند هم برای سیب‌زمینی سرخ‌کرده موند! می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vinegar",
+      "chips",
+      "salt"
+     ],
+     "suggestion": "Yes! Chips with salt and vinegar!",
+     "suggestionFa": "آره! چیپس با نمک و سرکه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "money",
+      "save",
+      "ryan"
+     ],
+     "suggestion": "Save your money, Ryan!",
+     "suggestionFa": "پولت را نگه دار رایان!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comfy",
+     "fa": "راحت (محاوره)"
+    },
+    {
+     "word": "chips",
+     "fa": "سیب‌زمینی سرخ‌کرده"
+    },
+    {
+     "word": "salt",
+     "fa": "نمک"
+    },
+    {
+     "word": "vinegar",
+     "fa": "سرکه"
+    },
+    {
+     "word": "save",
+     "fa": "پس‌انداز کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Nah, chips are life. Come on, the chippy's round the corner!",
+   "translations": {
+    "fa": "نه بابا، چیپس زندگیه. بیا، مغازهٔ فیش‌اند‌چیپس سر کوچه‌ست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

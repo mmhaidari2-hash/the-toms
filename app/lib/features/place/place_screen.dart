@@ -14,6 +14,7 @@ import '../../core/models/place.dart';
 import '../home/home_screen.dart';
 import '../../core/i18n/strings.dart';
 import '../shared/widgets.dart';
+import 'ambient.dart';
 import 'place_widgets.dart';
 
 class PlaceScreen extends ConsumerWidget {
@@ -137,6 +138,13 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                     ],
                   ),
                 ),
+                if (ambientSpecs[place.id] != null)
+                  IconButton(
+                    tooltip: 'Motion',
+                    onPressed: () => ref.read(progressProvider.notifier).setMotion(!ref.read(progressProvider.notifier).motionOn),
+                    style: IconButton.styleFrom(backgroundColor: Colors.white.withValues(alpha: .18)),
+                    icon: Icon(ref.watch(progressProvider).missionsDone['pref:motion'] != 'off' ? Icons.motion_photos_on_rounded : Icons.motion_photos_off_rounded, color: Colors.white, size: 18),
+                  ),
                 LevelChip(tier.id, dark: true),
               ],
             ),
@@ -408,6 +416,14 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                       child: Image.asset(place.image!, fit: BoxFit.fill),
                     ),
                   ),
+                  if (ambientSpecs[place.id] != null && ambientAllowed(context, ref.watch(progressProvider).missionsDone['pref:motion'] != 'off'))
+                    Positioned(
+                      top: (box.maxHeight - h) / 2,
+                      left: 0,
+                      width: w,
+                      height: h,
+                      child: AmbientLayer(image: place.image!, spec: ambientSpecs[place.id]!),
+                    ),
                   // One tap target over the whole painting: map the tap to image space and test polygons.
                   // (Per-hotspot ClipPath detectors missed taps on iOS Safari; this is robust and pan-friendly.)
                   Positioned(

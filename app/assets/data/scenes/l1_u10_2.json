@@ -1,0 +1,308 @@
+{
+ "id": "l1_u10_2",
+ "characterId": "ryan",
+ "title": "Whose is this?",
+ "titleFa": "این مال کیه؟",
+ "setting": "Evening tea & weekends · Level 1",
+ "settingFa": "شام و آخر هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Whose phone is this? It's been ringing all evening.",
+   "translations": {
+    "fa": "این گوشی مال کیه؟ کل عصر داره زنگ می‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phone",
+      "tom's"
+     ],
+     "suggestion": "It's Tom's phone.",
+     "suggestionFa": "گوشی تامه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yours",
+      "think",
+      "ryan"
+     ],
+     "suggestion": "I think it's yours, Ryan!",
+     "suggestionFa": "فکر کنم مال توئه، رایان!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whose",
+     "fa": "مال چه کسی"
+    },
+    {
+     "word": "ringing",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "yours",
+     "fa": "مال تو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Not mine. Mine's in my pocket. Ah, it's Dad's. Mum's calling him!",
+   "translations": {
+    "fa": "مال من نیست. مال من توی جیبمه. آه، مال باباست. مامان داره بهش زنگ می‌زنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "give",
+      "dad"
+     ],
+     "suggestion": "Give it to your dad.",
+     "suggestionFa": "بدش به بابات.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "funny",
+      "house",
+      "same"
+     ],
+     "suggestion": "Funny — they're in the same house!",
+     "suggestionFa": "جالبه — هر دو تو یه خونه‌ان!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mine",
+     "fa": "مال من"
+    },
+    {
+     "word": "dad's",
+     "fa": "مال بابا"
+    },
+    {
+     "word": "same",
+     "fa": "همان"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Classic. And whose is this pink coat? Nicola's or Nana's?",
+   "translations": {
+    "fa": "کلاسیکه. این کت صورتی مال کیه؟ نیکولا یا نانا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nana's",
+      "nicola",
+      "big"
+     ],
+     "suggestion": "It's too big for Nicola. It's Nana's.",
+     "suggestionFa": "برای نیکولا خیلی بزرگه. مال ناناست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola's",
+      "school",
+      "coat"
+     ],
+     "suggestion": "It's Nicola's school coat.",
+     "suggestionFa": "کت مدرسهٔ نیکولاست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coat",
+     "fa": "کت"
+    },
+    {
+     "word": "pink",
+     "fa": "صورتی"
+    },
+    {
+     "word": "too big",
+     "fa": "خیلی بزرگ"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Yeah, Nana's. And these tiny socks are definitely William's.",
+   "translations": {
+    "fa": "آره، مال نانا. و این جوراب‌های کوچولو قطعاً مال ویلیامه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "small",
+      "cute"
+     ],
+     "suggestion": "They're so small and cute!",
+     "suggestionFa": "خیلی کوچیک و بامزه‌ان!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william's",
+      "drawer",
+      "them",
+      "put"
+     ],
+     "suggestion": "Put them in William's drawer.",
+     "suggestionFa": "بذارشون توی کشوی ویلیام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tiny",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "definitely",
+     "fa": "قطعاً"
+    },
+    {
+     "word": "cute",
+     "fa": "بامزه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "And this is your scarf, isn't it? The blue one.",
+   "translations": {
+    "fa": "و این شال‌گردن توئه، نه؟ آبیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks"
+     ],
+     "suggestion": "Yes, it's mine. Thanks!",
+     "suggestionFa": "آره، مال منه. ممنون!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie's",
+      "that's",
+      "red"
+     ],
+     "suggestion": "No, mine is red. That's Leslie's.",
+     "suggestionFa": "نه، مال من قرمزه. اون مال لزلیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "isn't it",
+     "fa": "نه؟ (سؤال تأییدی)"
+    },
+    {
+     "word": "scarf",
+     "fa": "شال‌گردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits often add \"isn't it?\" or \"aren't you?\" at the end — question tags. \"Lovely day, isn't it?\"",
+    "fa": "بریتانیایی‌ها اغلب «isn't it?» به آخر جمله اضافه می‌کنند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Sorted. The hallway is tidy. Mum's going to be well chuffed.",
+   "translations": {
+    "fa": "ردیف شد. راهرو مرتبه. مامان خیلی کیف می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chuffed",
+      "mean"
+     ],
+     "suggestion": "What does \"chuffed\" mean?",
+     "suggestionFa": "«chuffed» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "happy",
+      "mum's"
+     ],
+     "suggestion": "Your mum's going to be very happy!",
+     "suggestionFa": "مامانت خیلی خوشحال می‌شه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chuffed",
+     "fa": "خیلی خوشحال (عامیانه)"
+    },
+    {
+     "word": "well",
+     "fa": "خیلی (عامیانه)"
+    },
+    {
+     "word": "tidy",
+     "fa": "مرتب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Chuffed means really pleased. Well chuffed means really, really pleased!",
+   "translations": {
+    "fa": "chuffed یعنی خیلی راضی. well chuffed یعنی خیلی خیلی راضی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,329 @@
+{
+ "id": "l1_u4_1",
+ "characterId": "nicola",
+ "title": "Counting with Nicola",
+ "titleFa": "شمردن با نیکولا",
+ "setting": "Numbers & time · Level 1",
+ "settingFa": "اعداد و زمان",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Let's count the eggs! One, two, three… how many are there?",
+   "translations": {
+    "fa": "بیا تخم‌مرغ‌ها را بشمریم! یک، دو، سه… چندتاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eggs",
+      "six"
+     ],
+     "suggestion": "There are six eggs.",
+     "suggestionFa": "شش‌تا تخم‌مرغ هست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twelve",
+      "think"
+     ],
+     "suggestion": "I think there are twelve.",
+     "suggestionFa": "فکر کنم دوازده‌تاست.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "eggs",
+     "fa": "تخم‌مرغ‌ها"
+    },
+    {
+     "word": "how many",
+     "fa": "چندتا"
+    },
+    {
+     "word": "six",
+     "fa": "شش"
+    },
+    {
+     "word": "twelve",
+     "fa": "دوازده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Yes! Six eggs. Now the spoons. Seven, eight, nine, ten!",
+   "translations": {
+    "fa": "آره! شش‌تا تخم‌مرغ. حالا قاشق‌ها. هفت، هشت، نه، ده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spoons",
+      "done",
+      "well",
+      "ten"
+     ],
+     "suggestion": "Ten spoons. Well done!",
+     "suggestionFa": "ده‌تا قاشق. آفرین!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "count",
+      "can"
+     ],
+     "suggestion": "Can you count to twenty?",
+     "suggestionFa": "تا بیست می‌تونی بشمری؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spoons",
+     "fa": "قاشق‌ها"
+    },
+    {
+     "word": "seven",
+     "fa": "هفت"
+    },
+    {
+     "word": "ten",
+     "fa": "ده"
+    },
+    {
+     "word": "twenty",
+     "fa": "بیست"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Eleven, twelve, thirteen, fourteen, fifteen… what comes next?",
+   "translations": {
+    "fa": "یازده، دوازده، سیزده، چهارده، پانزده… بعدش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seventeen",
+      "eighteen"
+     ],
+     "suggestion": "Sixteen, seventeen, eighteen!",
+     "suggestionFa": "شانزده، هفده، هجده!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "next"
+     ],
+     "suggestion": "Next is sixteen.",
+     "suggestionFa": "بعدی شانزدهه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thirteen",
+     "fa": "سیزده"
+    },
+    {
+     "word": "fifteen",
+     "fa": "پانزده"
+    },
+    {
+     "word": "next",
+     "fa": "بعدی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Careful: thirTEEN (stress at the end) vs THIRty (stress at the start). Listen for it!",
+    "fa": "دقت کن: thirteen (تأکید آخر) و thirty (تأکید اول)."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Nineteen, twenty! I did it! How many biscuits are in the tin?",
+   "translations": {
+    "fa": "نوزده، بیست! تونستم! چندتا بیسکویت توی قوطیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuits",
+      "there",
+      "only",
+      "two"
+     ],
+     "suggestion": "There are only two biscuits.",
+     "suggestionFa": "فقط دوتا بیسکویت هست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "empty",
+      "none",
+      "tin"
+     ],
+     "suggestion": "None! The tin is empty!",
+     "suggestionFa": "هیچی! قوطی خالیه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tin",
+     "fa": "قوطی"
+    },
+    {
+     "word": "empty",
+     "fa": "خالی"
+    },
+    {
+     "word": "none",
+     "fa": "هیچ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Ryan ate them! Ryan always eats the biscuits. Can we bake some more?",
+   "translations": {
+    "fa": "رایان خوردشون! رایان همیشه بیسکویت‌ها را می‌خوره. می‌شه بیشتر بپزیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "let's",
+      "mum",
+      "ask"
+     ],
+     "suggestion": "Let's ask your mum first.",
+     "suggestionFa": "بیا اول از مامانت بپرسیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "make",
+      "idea",
+      "many"
+     ],
+     "suggestion": "Good idea! How many shall we make?",
+     "suggestionFa": "فکر خوبیه! چندتا درست کنیم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bake",
+     "fa": "پختن (در فر)"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    },
+    {
+     "word": "first",
+     "fa": "اول"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Twenty! No, a hundred! A million biscuits!",
+   "translations": {
+    "fa": "بیست‌تا! نه، صدتا! یه میلیون بیسکویت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "million",
+      "many"
+     ],
+     "suggestion": "A million is too many!",
+     "suggestionFa": "یه میلیون خیلی زیاده!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twelve",
+      "enough",
+      "maybe"
+     ],
+     "suggestion": "Maybe twelve is enough.",
+     "suggestionFa": "شاید دوازده‌تا کافی باشه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hundred",
+     "fa": "صد"
+    },
+    {
+     "word": "million",
+     "fa": "میلیون"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    },
+    {
+     "word": "too many",
+     "fa": "خیلی زیاد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "OK, twelve. One for me, one for you, one for Mr Buttons…",
+   "translations": {
+    "fa": "باشه، دوازده‌تا. یکی برای من، یکی برای تو، یکی برای آقای دکمه…"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
