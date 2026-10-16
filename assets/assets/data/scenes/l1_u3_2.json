@@ -22,7 +22,7 @@
       "worry",
       "don't",
       "find",
-      "can"
+      "him"
      ],
      "suggestion": "Don't worry, we can find him.",
      "suggestionFa": "نگران نباش، پیداش می‌کنیم.",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "sock",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "I can see a sock under the sofa!",
      "suggestionFa": "یه جوراب زیر مبل می‌بینم!",
@@ -170,8 +170,8 @@
     },
     {
      "keywords": [
-      "books",
       "there",
+      "books",
       "only"
      ],
      "suggestion": "No, only books are there.",
@@ -210,8 +210,8 @@
    "branches": [
     {
      "keywords": [
-      "smiling",
       "william",
+      "smiling",
       "look"
      ],
      "suggestion": "Look — William is smiling.",
@@ -224,8 +224,8 @@
      "keywords": [
       "maybe",
       "he's",
-      "box",
-      "toy"
+      "toy",
+      "box"
      ],
      "suggestion": "Maybe he's in the toy box.",
      "suggestionFa": "شاید توی جعبهٔ اسباب‌بازیه.",
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "welcome",
-      "he's",
       "safe",
+      "he's",
       "now"
      ],
      "suggestion": "You're welcome. He's safe now.",
@@ -313,9 +313,9 @@
     {
      "keywords": [
       "tonight",
-      "bed",
       "him",
-      "put"
+      "put",
+      "bed"
      ],
      "suggestion": "Put him on your bed tonight.",
      "suggestionFa": "امشب بذارش روی تختت.",

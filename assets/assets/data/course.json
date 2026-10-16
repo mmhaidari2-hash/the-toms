@@ -696,7 +696,7 @@
      "title": "Cooking with Nana",
      "titleFa": "آشپزی با مادربزرگ",
      "lead": "weda",
-     "place": "kitchen",
+     "place": "christmas",
      "grammar": "I've got / We need… + kitchen words",
      "grammarFa": "داریم / لازم داریم + واژه‌های آشپزخانه",
      "sceneIds": [
@@ -932,7 +932,7 @@
      "title": "Where's Mr Buttons?",
      "titleFa": "آقای دکمه کجاست؟",
      "lead": "nicola",
-     "place": "living",
+     "place": "playdate",
      "grammar": "Prepositions: in, on, under, behind, next to",
      "grammarFa": "حروف اضافهٔ مکان",
      "sceneIds": [
@@ -1138,7 +1138,7 @@
      "title": "In the garden",
      "titleFa": "در باغچه",
      "lead": "weda",
-     "place": "park",
+     "place": "birthday",
      "grammar": "There is / are + colours + nature words",
      "grammarFa": "There is / are + رنگ‌ها + طبیعت",
      "sceneIds": [
@@ -1657,7 +1657,7 @@
      "title": "Wake up, sleepyhead!",
      "titleFa": "بیدار شو، خوابالو!",
      "lead": "nicola",
-     "place": "bedroom",
+     "place": "firstday",
      "grammar": "I get up / I brush… — present simple (I / you)",
      "grammarFa": "حال ساده (I / you)",
      "sceneIds": [
@@ -1752,7 +1752,7 @@
      "title": "Ryan's week",
      "titleFa": "هفتهٔ رایان",
      "lead": "ryan",
-     "place": "living",
+     "place": "hallway",
      "grammar": "He plays / she goes — present simple (he / she) + days",
      "grammarFa": "حال ساده (he / she) + روزهای هفته",
      "sceneIds": [
@@ -1858,7 +1858,7 @@
      "id": "l1_u5_3",
      "title": "Bath time",
      "titleFa": "وقت حمام",
-     "lead": "leslie",
+     "lead": "william",
      "place": "bathroom",
      "grammar": "Do you…? / Does he…? — questions + bathroom words",
      "grammarFa": "سؤال با Do / Does + واژه‌های حمام",
@@ -1942,7 +1942,7 @@
      "title": "Nana's routine",
      "titleFa": "کارهای روزانهٔ نانا",
      "lead": "weda",
-     "place": "kitchen",
+     "place": "library",
      "grammar": "always / usually / sometimes / never",
      "grammarFa": "always / usually / sometimes / never",
      "sceneIds": [
@@ -2158,7 +2158,7 @@
      "title": "Dressing up",
      "titleFa": "لباس پوشیدن",
      "lead": "nicola",
-     "place": "bedroom",
+     "place": "playdate",
      "grammar": "I've got… / Has she got…? + clothes + colours",
      "grammarFa": "I've got / Has she got + لباس + رنگ",
      "sceneIds": [
@@ -2356,7 +2356,7 @@
      "title": "Knitting with Nana",
      "titleFa": "بافتنی با نانا",
      "lead": "weda",
-     "place": "living",
+     "place": "poorly",
      "grammar": "What colour is…? + Which one…? + clothes for winter",
      "grammarFa": "چه رنگیه؟ + کدوم؟ + لباس زمستونی",
      "sceneIds": [
@@ -2918,7 +2918,7 @@
      "title": "Can you…?",
      "titleFa": "می‌تونی…؟",
      "lead": "ryan",
-     "place": "park",
+     "place": "sportsday",
      "grammar": "can / can't for ability",
      "grammarFa": "can / can't برای توانایی",
      "sceneIds": [
@@ -3189,7 +3189,7 @@
      "title": "Head, shoulders, knees and toes",
      "titleFa": "سر، شانه، زانو، انگشت پا",
      "lead": "nicola",
-     "place": "living",
+     "place": "kitchen",
      "grammar": "Body parts + my / your",
      "grammarFa": "اعضای بدن + my / your",
      "sceneIds": [
@@ -3490,7 +3490,7 @@
      "title": "Nana's remedies",
      "titleFa": "درمان‌های نانا",
      "lead": "weda",
-     "place": "kitchen",
+     "place": "poorly",
      "grammar": "should / shouldn't for advice",
      "grammarFa": "should / shouldn't برای توصیه",
      "sceneIds": [
@@ -3574,7 +3574,7 @@
      "id": "l1_u10_1",
      "title": "Teatime at six",
      "titleFa": "شام ساعت شش",
-     "lead": "weda",
+     "lead": "tom",
      "place": "eveningtea",
      "grammar": "I like / love / don't like + -ing",
      "grammarFa": "دوست دارم / ندارم + ing",
@@ -3674,7 +3674,7 @@
      "title": "Whose is this?",
      "titleFa": "این مال کیه؟",
      "lead": "ryan",
-     "place": "living",
+     "place": "hallway",
      "grammar": "Possessive 's + whose / mine / yours",
      "grammarFa": "مالکیت 's + whose / mine / yours",
      "sceneIds": [
@@ -3856,7 +3856,7 @@
      "title": "Weekend plans",
      "titleFa": "برنامه‌های آخر هفته",
      "lead": "tom",
-     "place": "living",
+     "place": "kitchen",
      "grammar": "What are you doing at the weekend? + going to",
      "grammarFa": "آخر هفته چی کار می‌کنی؟ + going to",
      "sceneIds": [

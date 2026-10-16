@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "phone",
-      "tom's"
+      "tom's",
+      "phone"
      ],
      "suggestion": "It's Tom's phone.",
      "suggestionFa": "گوشی تامه.",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "nana's",
       "nicola",
+      "nana's",
       "big"
      ],
      "suggestion": "It's too big for Nicola. It's Nana's.",
@@ -268,9 +268,9 @@
     },
     {
      "keywords": [
-      "going",
       "happy",
-      "mum's"
+      "mum's",
+      "going"
      ],
      "suggestion": "Your mum's going to be very happy!",
      "suggestionFa": "مامانت خیلی خوشحال می‌شه!",
