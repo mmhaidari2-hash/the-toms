@@ -8,16 +8,16 @@ import 'package:flutter/material.dart';
 /// Shown only when [enabled] and the OS does not ask for reduced motion.
 class AmbientSpec {
   final List<Offset> steam; // cup/teapot mouths, normalised image coords
-  final Rect? window; // glass area for rain
+  final List<Rect> windows; // glass areas for rain (kept clear of people)
   final Offset? light; // light source for the warm flicker
   final List<Rect> breathe; // torso boxes (normalised) that rise and fall
-  const AmbientSpec({this.steam = const [], this.window, this.light, this.breathe = const []});
+  const AmbientSpec({this.steam = const [], this.windows = const [], this.light, this.breathe = const []});
 }
 
 const ambientSpecs = <String, AmbientSpec>{
   'kitchen': AmbientSpec(
     steam: [Offset(.455, .50), Offset(.36, .575), Offset(.54, .655), Offset(.73, .77)],
-    window: Rect.fromLTRB(.04, .0, .25, .46),
+    windows: [Rect.fromLTRB(.04, .0, .25, .26), Rect.fromLTRB(.035, .26, .075, .46), Rect.fromLTRB(.225, .26, .25, .46)],
     light: Offset(.14, .2),
     breathe: [
       Rect.fromLTRB(.0, .28, .24, .78), // leslie
@@ -111,18 +111,17 @@ class _AmbientPainter extends CustomPainter {
             ..shader = ui.Gradient.radial(p, z.width * .45, [const Color(0xFFFFE2A8).withValues(alpha: a.clamp(0, 1) * 4), const Color(0x00FFE2A8)]));
     }
     // 3. Rain on the window.
-    final w = s.window;
-    if (w != null) {
+    for (final w in s.windows) {
       final r = Rect.fromLTRB(w.left * z.width, w.top * z.height, w.right * z.width, w.bottom * z.height);
       c.save();
       c.clipRect(r);
       c.drawRect(r, Paint()..color = const Color(0x1A5A6E80));
       final rain = Paint()
-        ..color = const Color(0x66E8F0F8)
-        ..strokeWidth = 1
+        ..color = const Color(0x70E8F0F8)
+        ..strokeWidth = 1.3
         ..strokeCap = StrokeCap.round;
       final rnd = math.Random(7);
-      for (var i = 0; i < 70; i++) {
+      for (var i = 0; i < (r.width * r.height / 900).clamp(6, 60).toInt(); i++) {
         final x0 = rnd.nextDouble(), sp = .55 + rnd.nextDouble() * .5, ph = rnd.nextDouble();
         final y = ((sec * sp + ph) % 1.0) * (r.height + 30) - 15;
         final x = r.left + x0 * r.width - y * .08;
@@ -140,19 +139,15 @@ class _AmbientPainter extends CustomPainter {
     // 4. Tea steam: soft wisps rising and swaying.
     for (var i = 0; i < s.steam.length; i++) {
       final o = Offset(s.steam[i].dx * z.width, s.steam[i].dy * z.height);
-      final h = z.height * .16;
-      for (var j = 0; j < 5; j++) {
-        final life = ((sec * .33 + j / 5 + i * .27) % 1.0);
+      final h = z.height * .085;
+      for (var j = 0; j < 7; j++) {
+        final life = ((sec * .28 + j / 7 + i * .27) % 1.0);
         final y = o.dy - life * h;
-        final x = o.dx + math.sin(life * 5 + sec * 1.3 + i + j) * z.width * .008 * (1 + life * 2);
-        final rad = z.width * (.006 + life * .016);
-        final alpha = (math.sin(life * math.pi) * .26).clamp(0.0, 1.0);
-        c.drawCircle(
-            Offset(x, y),
-            rad,
-            Paint()
-              ..color = Colors.white.withValues(alpha: alpha)
-              ..maskFilter = MaskFilter.blur(BlurStyle.normal, rad * .9));
+        final x = o.dx + math.sin(life * 5 + sec * 1.3 + i + j) * z.width * .01 * (1 + life * 2);
+        final rad = z.width * (.008 + life * .02);
+        final alpha = (math.sin(life * math.pi) * .24).clamp(0.0, 1.0);
+        final p = Offset(x, y);
+        c.drawCircle(p, rad, Paint()..shader = ui.Gradient.radial(p, rad, [Colors.white.withValues(alpha: alpha), Colors.white.withValues(alpha: 0)]));
       }
     }
   }
