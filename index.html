@@ -32,7 +32,10 @@
   </script>
   <script>
     // Offline: cache the app shell + assets (no network needed after first load).
-    if ('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js'); });
+    if ('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){ r.update(); }); });
+    // A new deploy's worker takes over → reload once so the fresh app code runs (never stale JS).
+    if ('serviceWorker' in navigator) { var hadController = !!navigator.serviceWorker.controller, reloaded = false;
+      navigator.serviceWorker.addEventListener('controllerchange', function(){ if (hadController && !reloaded) { reloaded = true; location.reload(); } }); }
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
