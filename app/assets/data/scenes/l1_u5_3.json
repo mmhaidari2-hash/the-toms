@@ -1,6 +1,6 @@
 {
  "id": "l1_u5_3",
- "characterId": "leslie",
+ "characterId": "william",
  "title": "Bath time",
  "titleFa": "وقت حمام",
  "setting": "My day · Level 1",
@@ -66,8 +66,8 @@
     {
      "keywords": [
       "william",
-      "rubber",
       "here's",
+      "rubber",
       "duck"
      ],
      "suggestion": "Here's your rubber duck, William.",
@@ -153,8 +153,8 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "check",
+      "water",
       "let"
      ],
      "suggestion": "Let me check the water.",
@@ -265,8 +265,8 @@
      "keywords": [
       "only",
       "soap",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "I can only see the soap.",
      "suggestionFa": "فقط صابون را می‌بینم.",

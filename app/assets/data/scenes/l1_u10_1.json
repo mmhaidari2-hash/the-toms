@@ -1,6 +1,6 @@
 {
  "id": "l1_u10_1",
- "characterId": "weda",
+ "characterId": "tom",
  "title": "Teatime at six",
  "titleFa": "شام ساعت شش",
  "setting": "Evening tea & weekends · Level 1",
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "saffron",
-      "love",
-      "rice"
+      "rice",
+      "love"
      ],
      "suggestion": "I love rice with saffron.",
      "suggestionFa": "عاشق برنج با زعفرانم.",
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "spicy",
-      "food",
       "like",
+      "food",
       "lot"
      ],
      "suggestion": "I like spicy food a lot.",
@@ -140,8 +140,8 @@
      "keywords": [
       "eating",
       "than",
-      "more",
-      "like"
+      "like",
+      "more"
      ],
      "suggestion": "I like eating more than cooking!",
      "suggestionFa": "خوردن را بیشتر از آشپزی دوست دارم!",
@@ -234,9 +234,9 @@
     {
      "keywords": [
       "nothing",
+      "hobby",
       "isn't",
-      "doing",
-      "hobby"
+      "doing"
      ],
      "suggestion": "Doing nothing isn't a hobby, Ryan!",
      "suggestionFa": "هیچ کاری نکردن سرگرمی نیست، رایان!",

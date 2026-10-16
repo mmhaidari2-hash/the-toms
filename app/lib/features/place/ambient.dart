@@ -11,7 +11,8 @@ class AmbientSpec {
   final List<Rect> windows; // glass areas for rain (kept clear of people)
   final Offset? light; // light source for the warm flicker
   final List<Rect> breathe; // torso boxes (normalised) that rise and fall
-  const AmbientSpec({this.steam = const [], this.windows = const [], this.light, this.breathe = const []});
+  final String? video; // looping image-to-video clip of the painting itself (preferred over procedural layers)
+  const AmbientSpec({this.video, this.steam = const [], this.windows = const [], this.light, this.breathe = const []});
 }
 
 const ambientSpecs = <String, AmbientSpec>{

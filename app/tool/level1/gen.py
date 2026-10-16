@@ -64,6 +64,11 @@ for ui,u in enumerate(units):
     scenes[sid]=scene
     cu['lessons'].append({'id':sid,'title':les['title'],'titleFa':les['titleFa'],'lead':les['lead'],'place':les['place'],'grammar':les['grammar'],'grammarFa':les['grammarFa'],'sceneIds':[sid],'words':allw,'turns':2*len(ns)-1})
   course['units'].append(cu)
+PL={p['id']:p for t in json.load(open(os.path.join(A,'places.json'))) for p in t['places']}
+for u in course['units']:
+  for l in u['lessons']:
+    if l['place'] not in PL: errs.append(f"{l['id']} unknown place {l['place']}")
+    elif l['lead'] not in {h['characterId'] for h in PL[l['place']].get('hotspots',[])}: errs.append(f"{l['id']}: lead {l['lead']} is not in the {l['place']} painting")
 if errs: print('\n'.join(errs)); sys.exit(1)
 for sid,s in scenes.items(): json.dump(s,open(os.path.join(A,'scenes',sid+'.json'),'w'),ensure_ascii=False,indent=1)
 idx=[i for i in json.load(open(os.path.join(A,'scenes_index.json'))) if not i.startswith('l1_')]+list(scenes)

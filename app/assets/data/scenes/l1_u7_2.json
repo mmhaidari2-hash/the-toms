@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "where's",
       "washing",
-      "liquid",
-      "please"
+      "where's",
+      "please",
+      "liquid"
      ],
      "suggestion": "Yes, please. Where's the washing-up liquid?",
      "suggestionFa": "بله لطفاً. مایع ظرفشویی کجاست؟",
@@ -170,8 +170,8 @@
      "keywords": [
       "normal",
       "that's",
-      "eggs",
-      "fine"
+      "fine",
+      "eggs"
      ],
      "suggestion": "That's OK. Normal eggs are fine.",
      "suggestionFa": "اشکال نداره. تخم‌مرغ معمولی خوبه.",
@@ -183,8 +183,8 @@
      "keywords": [
       "boxes",
       "there",
-      "any",
-      "big"
+      "big",
+      "any"
      ],
      "suggestion": "Are there any big boxes?",
      "suggestionFa": "جعبهٔ بزرگ هست؟",

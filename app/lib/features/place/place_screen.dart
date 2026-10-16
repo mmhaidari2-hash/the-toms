@@ -14,6 +14,7 @@ import '../../core/models/place.dart';
 import '../home/home_screen.dart';
 import '../../core/i18n/strings.dart';
 import '../shared/widgets.dart';
+import '../../core/platform/loop_video.dart';
 import 'ambient.dart';
 import 'place_widgets.dart';
 
@@ -138,7 +139,7 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                     ],
                   ),
                 ),
-                if (ambientSpecs[place.id] != null)
+                if (ambientSpecs[place.id]?.video != null)
                   IconButton(
                     tooltip: 'Motion',
                     onPressed: () => ref.read(progressProvider.notifier).setMotion(!ref.read(progressProvider.notifier).motionOn),
@@ -416,13 +417,15 @@ class _ExplorerState extends ConsumerState<_Explorer> {
                       child: Image.asset(place.image!, fit: BoxFit.fill),
                     ),
                   ),
-                  if (ambientSpecs[place.id] != null && ambientAllowed(context, ref.watch(progressProvider).missionsDone['pref:motion'] != 'off'))
+                  if (ambientSpecs[place.id]?.video != null && ambientAllowed(context, ref.watch(progressProvider).missionsDone['pref:motion'] != 'off'))
                     Positioned(
                       top: (box.maxHeight - h) / 2,
                       left: 0,
                       width: w,
                       height: h,
-                      child: AmbientLayer(image: place.image!, spec: ambientSpecs[place.id]!),
+                      child: ambientSpecs[place.id]!.video != null
+                          ? LoopVideo(asset: ambientSpecs[place.id]!.video!, poster: place.image!.replaceFirst('assets/', ''))
+                          : AmbientLayer(image: place.image!, spec: ambientSpecs[place.id]!),
                     ),
                   // One tap target over the whole painting: map the tap to image space and test polygons.
                   // (Per-hotspot ClipPath detectors missed taps on iOS Safari; this is robust and pan-friendly.)
