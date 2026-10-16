@@ -1,0 +1,283 @@
+{
+ "id": "l3_u6_3",
+ "characterId": "callum",
+ "title": "Talking about films",
+ "titleFa": "صحبت دربارهٔ فیلم",
+ "setting": "Social life · Level 3",
+ "settingFa": "زندگی اجتماعی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Did you end up seeing that new British film at the weekend? Everyone's talking about it.",
+   "translations": {
+    "fa": "بالاخره اون فیلم جدید بریتانیایی را آخر هفته دیدی؟ همه دربارهٔ اون حرف می‌زنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "opinion",
+      "was"
+     ],
+     "suggestion": "Yes! In my opinion, it was brilliant.",
+     "suggestionFa": "آره! به نظر من، عالی بود.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ending",
+      "about",
+      "sure",
+      "did"
+     ],
+     "suggestion": "I did, but I'm not sure about the ending.",
+     "suggestionFa": "دیدم، ولی دربارهٔ پایانش مطمئن نیستم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "end up",
+     "fa": "بالاخره … کردن"
+    },
+    {
+     "word": "in my opinion",
+     "fa": "به نظر من"
+    },
+    {
+     "word": "ending",
+     "fa": "پایان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Really? I reckon it was a bit too long. Two and a half hours!",
+   "translations": {
+    "fa": "واقعاً؟ من فکر می‌کنم یه کم زیادی طولانی بود. دو ساعت و نیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "bored",
+      "mean",
+      "get"
+     ],
+     "suggestion": "I see what you mean, but I didn't get bored.",
+     "suggestionFa": "منظورت را می‌فهمم، ولی خسته نشدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "completely",
+      "middle",
+      "agree",
+      "slow"
+     ],
+     "suggestion": "I completely agree. The middle was slow.",
+     "suggestionFa": "کاملاً موافقم. وسطش کند بود.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I reckon",
+     "fa": "فکر می‌کنم (غیررسمی)"
+    },
+    {
+     "word": "I see what you mean",
+     "fa": "منظورت را می‌فهمم"
+    },
+    {
+     "word": "completely",
+     "fa": "کاملاً"
+    },
+    {
+     "word": "slow",
+     "fa": "کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"I reckon\" is a common informal British way to say \"I think\".",
+    "fa": "I reckon یعنی فکر می‌کنم."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "But the acting was amazing, wasn't it? The lead actress was from round here, you know — Salford.",
+   "translations": {
+    "fa": "ولی بازیگری عالی بود، نه؟ بازیگر نقش اول اهل همین اطراف بود، می‌دونستی — سالفورد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accent",
+      "didn't",
+      "great",
+      "know"
+     ],
+     "suggestion": "I didn't know that! Her accent was great.",
+     "suggestionFa": "نمی‌دونستم! لهجه‌اش عالی بود.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "personally",
+      "thought",
+      "music",
+      "part"
+     ],
+     "suggestion": "Personally, I thought the music was the best part.",
+     "suggestionFa": "من شخصاً فکر کردم موسیقی بهترین قسمتش بود.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "acting",
+     "fa": "بازیگری"
+    },
+    {
+     "word": "lead actress",
+     "fa": "بازیگر نقش اول"
+    },
+    {
+     "word": "round here",
+     "fa": "این اطراف"
+    },
+    {
+     "word": "personally",
+     "fa": "شخصاً"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Fair enough. The music was by a Manchester band, actually. So, would you recommend it to Leslie?",
+   "translations": {
+    "fa": "منصفانه‌ست. راستش موسیقی مال یه گروه منچستری بود. خب، به لزلی پیشنهادش می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "think",
+      "she'd",
+      "love"
+     ],
+     "suggestion": "Definitely. I think she'd love it.",
+     "suggestionFa": "قطعاً. فکر کنم عاشقش میشه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "swearing",
+      "there's",
+      "maybe",
+      "quite"
+     ],
+     "suggestion": "Maybe not. There's quite a lot of swearing!",
+     "suggestionFa": "شاید نه. کلی فحش داره!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair enough",
+     "fa": "منصفانه است"
+    },
+    {
+     "word": "recommend",
+     "fa": "پیشنهاد کردن"
+    },
+    {
+     "word": "swearing",
+     "fa": "فحش دادن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Ha! Good point. Right, what can I get you? The usual flat white?",
+   "translations": {
+    "fa": "ها! نکتهٔ خوبیه. خب، چی برات بیارم؟ همون فلت وایت همیشگی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "well",
+      "know"
+     ],
+     "suggestion": "Yes, please. You know me too well!",
+     "suggestionFa": "آره لطفاً. خیلی خوب منو می‌شناسی!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "different",
+      "actually",
+      "today"
+     ],
+     "suggestion": "Actually, I'll try something different today.",
+     "suggestionFa": "راستش امروز یه چیز متفاوت امتحان می‌کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the usual",
+     "fa": "همیشگی"
+    },
+    {
+     "word": "flat white",
+     "fa": "فلت وایت"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "Coming right up. And next time, you're picking the film — no more three-hour dramas!",
+   "translations": {
+    "fa": "الان آماده‌ست. و دفعهٔ بعد تو فیلم را انتخاب می‌کنی — دیگه درام سه‌ساعته نداریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

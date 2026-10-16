@@ -1,0 +1,226 @@
+{
+ "id": "l3_u6_1",
+ "characterId": "dave",
+ "title": "Pub quiz night",
+ "titleFa": "شب مسابقهٔ پاب",
+ "setting": "Social life · Level 3",
+ "settingFa": "زندگی اجتماعی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dave",
+   "text": "Evening! Are you lot doing the quiz tonight? Top prize is a hundred quid.",
+   "translations": {
+    "fa": "عصر بخیر! شماها امشب تو مسابقه شرکت می‌کنید؟ جایزهٔ اول صد پونده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "hundred",
+      "pounds",
+      "would"
+     ],
+     "suggestion": "Definitely! What would we do with a hundred pounds?",
+     "suggestionFa": "قطعاً! با صد پوند چی کار می‌کردیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "terrible",
+      "quizzes",
+      "we're",
+      "but"
+     ],
+     "suggestion": "We're terrible at quizzes, but why not?",
+     "suggestionFa": "ما تو مسابقه افتضاحیم، ولی چرا که نه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you lot",
+     "fa": "شماها"
+    },
+    {
+     "word": "quiz",
+     "fa": "مسابقهٔ اطلاعات عمومی"
+    },
+    {
+     "word": "prize",
+     "fa": "جایزه"
+    },
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Quid\" is informal British for pound(s). It never takes an \"s\": ten quid.",
+    "fa": "quid یعنی پوند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dave",
+   "text": "If I won, I'd buy a round for the whole pub! What would you do with it?",
+   "translations": {
+    "fa": "اگه من می‌بردم، برای کل پاب یه دور نوشیدنی می‌خریدم! تو باهاش چی کار می‌کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "send",
+      "won",
+      "if"
+     ],
+     "suggestion": "If I won, I'd send it to my family.",
+     "suggestionFa": "اگه می‌بردم، برای خانواده‌ام می‌فرستادم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "curry",
+      "take",
+      "out"
+     ],
+     "suggestion": "I'd take everyone out for a curry.",
+     "suggestionFa": "همه را برای کاری بیرون می‌بردم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "if I won",
+     "fa": "اگر می‌بردم"
+    },
+    {
+     "word": "I'd",
+     "fa": "من … می‌کردم"
+    },
+    {
+     "word": "buy a round",
+     "fa": "نوشیدنی برای جمع خریدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Buying a round\" means paying for drinks for everyone in your group. It's an important British pub custom.",
+    "fa": "buying a round یعنی برای همهٔ گروه نوشیدنی خریدن."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dave",
+   "text": "Lovely. Right, what's your team name? It has to be funny — that's the rule.",
+   "translations": {
+    "fa": "عالیه. خب، اسم تیمتون چیه؟ باید بامزه باشه — قانونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "aguilera",
+      "about",
+      "team",
+      "quiz"
+     ],
+     "suggestion": "How about \"Quiz Team Aguilera\"?",
+     "suggestionFa": "«کوییز تیم آگیلرا» چطوره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "think",
+      "we'd",
+      "more"
+     ],
+     "suggestion": "If we had more time, we'd think of a better one!",
+     "suggestionFa": "اگه وقت بیشتری داشتیم، یه بهترش پیدا می‌کردیم!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "team name",
+     "fa": "نام تیم"
+    },
+    {
+     "word": "rule",
+     "fa": "قانون"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dave",
+   "text": "Ha! Brilliant. First question: if you could live in any British city, where would it be? That's not a quiz question — I'm just nosy.",
+   "translations": {
+    "fa": "ها! عالیه. سؤال اول: اگه می‌تونستی تو هر شهر بریتانیا زندگی کنی، کجا بود؟ سؤال مسابقه نیست — فقط فضولم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "edinburgh",
+      "beautiful",
+      "live"
+     ],
+     "suggestion": "I'd live in Edinburgh. It's so beautiful.",
+     "suggestionFa": "ادینبرو زندگی می‌کردم. خیلی قشنگه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "manchester",
+      "honest",
+      "here",
+      "stay"
+     ],
+     "suggestion": "I'd stay here in Manchester, to be honest.",
+     "suggestionFa": "راستش همین‌جا منچستر می‌موندم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "could live",
+     "fa": "می‌توانستی زندگی کنی"
+    },
+    {
+     "word": "nosy",
+     "fa": "فضول"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dave",
+   "text": "Good answer! Right, the quiz is starting. If you need more crisps, just shout. Good luck!",
+   "translations": {
+    "fa": "جواب خوبیه! خب، مسابقه داره شروع میشه. اگه چیپس بیشتر لازم داشتید، صدام کنید. موفق باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

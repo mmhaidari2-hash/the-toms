@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "staying",
+      "morning",
       "toms",
       "good"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "things",
-      "says",
-      "nice",
-      "hope"
+      "hope",
+      "meet",
+      "says"
      ],
      "suggestion": "Nice to meet you. I hope she says nice things!",
      "suggestionFa": "از آشنایی‌تون خوشبختم. امیدوارم چیزهای خوبی بگه!",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "need",
-      "pay",
-      "she"
+      "she",
+      "pay"
      ],
      "suggestion": "Does she need to pay for it?",
      "suggestionFa": "باید پولش را بده؟",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "haven't",
-      "look",
       "i'll",
-      "home"
+      "seen",
+      "look"
      ],
      "suggestion": "No, I haven't seen it. I'll look for it at home.",
      "suggestionFa": "نه، ندیدمش. تو خونه دنبالش می‌گردم.",
@@ -298,9 +298,9 @@
     {
      "keywords": [
       "i'll",
+      "put",
       "her",
-      "bag",
-      "put"
+      "now"
      ],
      "suggestion": "I'll put it in her bag now.",
      "suggestionFa": "الان می‌ذارمش تو کیفش.",

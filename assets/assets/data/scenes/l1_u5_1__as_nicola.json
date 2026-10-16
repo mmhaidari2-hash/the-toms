@@ -23,8 +23,8 @@
      "keywords": [
       "sleepyhead",
       "morning",
-      "wake",
       "time",
+      "wake",
       "get"
      ],
      "suggestion": "Wake up, sleepyhead! It's morning! What time do you get up?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "don't",
-      "mummy",
       "daddy",
+      "mummy",
       "they",
-      "wake"
+      "like"
      ],
      "suggestion": "I get up at six! I wake up Mummy and Daddy. They don't like it!",
      "suggestionFa": "من ساعت شش پا می‌شم! مامان و بابا را بیدار می‌کنم. خوششون نمیاد!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "uniform",
       "dressed",
+      "uniform",
       "school",
       "green",
-      "wear"
+      "then"
      ],
      "suggestion": "Then I get dressed. I wear my school uniform. It's green!",
      "suggestionFa": "بعد لباس می‌پوشم. یونیفرم مدرسه‌ام را می‌پوشم. سبزه!",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "breakfast",
       "important",
+      "breakfast",
       "meal",
-      "need",
+      "most",
       "nana"
      ],
      "suggestion": "You need breakfast! Nana says it's the most important meal.",
@@ -173,8 +173,8 @@
      "keywords": [
       "school",
       "daddy",
-      "then",
       "walk",
+      "then",
       "bye"
      ],
      "suggestion": "Then I go to school with Daddy. We walk. Bye bye!",

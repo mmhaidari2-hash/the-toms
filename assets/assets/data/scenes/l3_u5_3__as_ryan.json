@@ -1,0 +1,150 @@
+{
+ "id": "l3_u5_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Choosing GCSE options",
+ "titleFa": "(در نقش Ryan) انتخاب درس‌های GCSE",
+ "setting": "School life · Level 3",
+ "settingFa": "زندگی مدرسه",
+ "requires": null,
+ "level": "B1",
+ "baseId": "l3_u5_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "options",
+      "friday",
+      "advice",
+      "choose",
+      "i've"
+     ],
+     "suggestion": "I've got to choose my GCSE options by Friday and I've got no idea. Can I ask your advice?",
+     "suggestionFa": "باید تا جمعه درس‌های GCSE‌ام را انتخاب کنم و هیچ ایده‌ای ندارم. می‌تونم ازت مشورت بگیرم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. What are you interested in?",
+   "translations": {
+    "fa": "حتماً. به چی علاقه داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "compulsory",
+      "computing",
+      "choices",
+      "science",
+      "english"
+     ],
+     "suggestion": "Maths, English and science are compulsory. Then I get four choices. I like computing and PE, but Mum wants me to do French.",
+     "suggestionFa": "ریاضی، انگلیسی و علوم اجباریه. بعد چهارتا انتخاب دارم. کامپیوتر و ورزش را دوست دارم، ولی مامان می‌خواد فرانسوی بخونم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "If I were you, I'd definitely choose computing.",
+   "translations": {
+    "fa": "اگه جای تو بودم، قطعاً کامپیوتر را انتخاب می‌کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "university",
+      "languages",
+      "rubbish",
+      "french",
+      "look"
+     ],
+     "suggestion": "She says languages look good for university. But I'm rubbish at French.",
+     "suggestionFa": "می‌گه زبان برای دانشگاه خوبه. ولی من تو فرانسوی افتضاحم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "You're learning fast, though. Look at me with English!",
+   "translations": {
+    "fa": "ولی سریع یاد می‌گیری. منو با انگلیسی ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineering",
+      "language",
+      "subjects",
+      "learned",
+      "french"
+     ],
+     "suggestion": "Fair point. You learned a whole new language. Maybe French isn't so bad. What about engineering — does it matter which subjects I choose?",
+     "suggestionFa": "حرف درستیه. تو یه زبان کامل یاد گرفتی. شاید فرانسوی اون‌قدر بد نباشه. مهندسی چی — فرق می‌کنه کدوم درس‌ها را بردارم؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "If I were you, I'd do design and technology.",
+   "translations": {
+    "fa": "اگه جای تو بودم، طراحی و فناوری برمی‌داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "computing",
+      "french",
+      "three",
+      "happy",
+      "hours"
+     ],
+     "suggestion": "Dad will talk for three hours! OK — computing, D&T, PE and… fine, French. Happy now, Mum?",
+     "suggestionFa": "بابا سه ساعت حرف می‌زنه! باشه — کامپیوتر، طراحی، ورزش و… باشه، فرانسوی. حالا خوشحالی مامان؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

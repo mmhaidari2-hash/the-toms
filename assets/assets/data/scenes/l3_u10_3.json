@@ -1,0 +1,299 @@
+{
+ "id": "l3_u10_3",
+ "characterId": "tom",
+ "title": "A neighbourhood problem",
+ "titleFa": "مشکل محله",
+ "setting": "Speaking your mind · Level 3",
+ "settingFa": "نظرت را گفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Have you seen this leaflet? The council wants to close the library on Saturdays to save money.",
+   "translations": {
+    "fa": "این بروشور را دیدی؟ شورای شهر می‌خواد برای صرفه‌جویی، کتابخونه را شنبه‌ها ببنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weekends",
+      "terrible",
+      "families",
+      "that's"
+     ],
+     "suggestion": "That's terrible! Lots of families use it at weekends.",
+     "suggestionFa": "افتضاحه! کلی خانواده آخر هفته‌ها ازش استفاده می‌کنن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "about",
+      "can",
+      "we"
+     ],
+     "suggestion": "Can we do anything about it?",
+     "suggestionFa": "کاری می‌تونیم بکنیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leaflet",
+     "fa": "بروشور"
+    },
+    {
+     "word": "council",
+     "fa": "شورای شهر"
+    },
+    {
+     "word": "save money",
+     "fa": "صرفه‌جویی"
+    },
+    {
+     "word": "weekends",
+     "fa": "آخر هفته‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "There's a public consultation. We can write to our local councillor. Will you help me draft an email?",
+   "translations": {
+    "fa": "یه نظرخواهی عمومی هست. می‌تونیم به نمایندهٔ محلی‌مون نامه بنویسیم. کمکم می‌کنی یه ایمیل پیش‌نویس کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "start",
+      "sure",
+      "how"
+     ],
+     "suggestion": "Sure. How should we start it?",
+     "suggestionFa": "حتماً. چطور شروعش کنیم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "matters",
+      "let's",
+      "say",
+      "why"
+     ],
+     "suggestion": "Yes. Let's say why it matters.",
+     "suggestionFa": "آره. بگیم چرا مهمه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "consultation",
+     "fa": "نظرخواهی"
+    },
+    {
+     "word": "councillor",
+     "fa": "عضو شورای شهر"
+    },
+    {
+     "word": "draft",
+     "fa": "پیش‌نویس کردن"
+    },
+    {
+     "word": "matters",
+     "fa": "مهم است"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "\"Dear Councillor Shah, I am writing to express my concern about the proposed library closures.\" Too formal?",
+   "translations": {
+    "fa": "«عضو محترم شورا، آقای شاه، برای ابراز نگرانی دربارهٔ تعطیلی‌های پیشنهادی کتابخانه می‌نویسم.» زیادی رسمیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "councillor",
+      "perfect"
+     ],
+     "suggestion": "No, it's perfect for a councillor.",
+     "suggestionFa": "نه، برای عضو شورا عالیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "you've",
+      "lived",
+      "years",
+      "maybe"
+     ],
+     "suggestion": "Maybe add that you've lived here for years.",
+     "suggestionFa": "شاید اضافه کنی که سال‌هاست اینجا زندگی می‌کنی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "express",
+     "fa": "ابراز کردن"
+    },
+    {
+     "word": "concern",
+     "fa": "نگرانی"
+    },
+    {
+     "word": "proposed",
+     "fa": "پیشنهادی"
+    },
+    {
+     "word": "closures",
+     "fa": "تعطیلی‌ها"
+    },
+    {
+     "word": "formal",
+     "fa": "رسمی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Good. \"As a resident of fifteen years, I believe the library is vital for families, students and older people.\"",
+   "translations": {
+    "fa": "خوبه. «به عنوان ساکن پانزده‌ساله، معتقدم کتابخانه برای خانواده‌ها، دانشجویان و سالمندان حیاتی است.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "classes",
+      "english",
+      "mention",
+      "there"
+     ],
+     "suggestion": "You could mention the English classes there.",
+     "suggestionFa": "می‌تونی کلاس‌های انگلیسی اونجا را هم بگی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "another",
+      "suggest",
+      "should",
+      "money"
+     ],
+     "suggestion": "Should we suggest another way to save money?",
+     "suggestionFa": "یه راه دیگه برای صرفه‌جویی پیشنهاد بدیم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "resident",
+     "fa": "ساکن"
+    },
+    {
+     "word": "vital",
+     "fa": "حیاتی"
+    },
+    {
+     "word": "older people",
+     "fa": "سالمندان"
+    },
+    {
+     "word": "mention",
+     "fa": "اشاره کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Both great points. \"I would like to suggest that volunteers could help to keep it open.\" That's constructive, isn't it?",
+   "translations": {
+    "fa": "هر دو نکتهٔ عالی. «مایلم پیشنهاد کنم که داوطلبان می‌توانند به باز ماندن آن کمک کنند.» سازنده‌ست، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forward",
+      "hearing",
+      "look",
+      "from"
+     ],
+     "suggestion": "Very. And end with \"I look forward to hearing from you.\"",
+     "suggestionFa": "خیلی. و با «منتظر پاسخ شما هستم» تمومش کن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "volunteer",
+      "down",
+      "name",
+      "i'd"
+     ],
+     "suggestion": "I'd volunteer! Put my name down.",
+     "suggestionFa": "من داوطلب میشم! اسمم را بنویس.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "constructive",
+     "fa": "سازنده"
+    },
+    {
+     "word": "volunteers",
+     "fa": "داوطلبان"
+    },
+    {
+     "word": "look forward to",
+     "fa": "مشتاق بودن"
+    },
+    {
+     "word": "put my name down",
+     "fa": "اسمم را بنویس"
+    }
+   ],
+   "cultureNote": {
+    "en": "Formal British emails often end \"Yours sincerely\" (if you know the name) or \"Yours faithfully\" (if you don't).",
+    "fa": "نامهٔ رسمی با Yours sincerely پایان می‌یابد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "\"Yours sincerely, Tom Toms.\" Done. Right — let's get Doris and Weda to sign it too. Nobody says no to Doris!",
+   "translations": {
+    "fa": "«با احترام، تام تامز.» تموم شد. خب — بیا دوریس و ودا هم امضا کنن. هیچ‌کس به دوریس نه نمی‌گه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

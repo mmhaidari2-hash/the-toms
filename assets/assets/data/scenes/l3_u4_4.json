@@ -1,0 +1,279 @@
+{
+ "id": "l3_u4_4",
+ "characterId": "arthur",
+ "title": "Official letters",
+ "titleFa": "نامه‌های رسمی",
+ "setting": "Money and paperwork · Level 3",
+ "settingFa": "پول و کاغذبازی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Hello again! You look puzzled. Is that a brown envelope? They're never good news!",
+   "translations": {
+    "fa": "دوباره سلام! گیج به نظر میاید. اون پاکت قهوه‌ایه؟ هیچ‌وقت خبر خوبی نیستن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understand",
+      "don't",
+      "hmrc",
+      "from"
+     ],
+     "suggestion": "It's from HMRC. I don't understand all of it.",
+     "suggestionFa": "از HMRC ـه. همه‌ش را نمی‌فهمم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "letter",
+      "could",
+      "help",
+      "read"
+     ],
+     "suggestion": "Could you help me read this letter?",
+     "suggestionFa": "می‌تونید کمکم کنید این نامه را بخونم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "puzzled",
+     "fa": "گیج"
+    },
+    {
+     "word": "envelope",
+     "fa": "پاکت"
+    },
+    {
+     "word": "HMRC",
+     "fa": "ادارهٔ مالیات بریتانیا"
+    }
+   ],
+   "cultureNote": {
+    "en": "HMRC is the UK tax office. Official letters often come in brown envelopes, hence the joke.",
+    "fa": "HMRC ادارهٔ مالیات است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Let me see. \"Regarding your tax return…\" — that just means \"about your tax return\".",
+   "translations": {
+    "fa": "بذارید ببینم. «Regarding your tax return…» — یعنی فقط «دربارهٔ اظهارنامهٔ مالیاتیتون»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "return",
+      "tax"
+     ],
+     "suggestion": "What's a tax return?",
+     "suggestionFa": "اظهارنامهٔ مالیاتی چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "order",
+      "here",
+      "mean"
+     ],
+     "suggestion": "And what does \"in order to\" mean here?",
+     "suggestionFa": "و اینجا «in order to» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "regarding",
+     "fa": "دربارهٔ"
+    },
+    {
+     "word": "tax return",
+     "fa": "اظهارنامهٔ مالیاتی"
+    },
+    {
+     "word": "in order to",
+     "fa": "برای اینکه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "\"In order to process your claim, please complete the enclosed form.\" So — they need you to fill in the form that's inside the envelope.",
+   "translations": {
+    "fa": "«برای رسیدگی به درخواستتون، لطفاً فرم پیوست را تکمیل کنید.» پس — لازمه فرمی که تو پاکته را پر کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "envelope",
+      "enclosed",
+      "means",
+      "oh"
+     ],
+     "suggestion": "Oh, so \"enclosed\" means it's in the envelope.",
+     "suggestionFa": "آه، پس enclosed یعنی تو پاکته.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "deadline",
+      "there"
+     ],
+     "suggestion": "Is there a deadline?",
+     "suggestionFa": "مهلت داره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "process",
+     "fa": "رسیدگی کردن"
+    },
+    {
+     "word": "claim",
+     "fa": "درخواست"
+    },
+    {
+     "word": "complete",
+     "fa": "تکمیل کردن"
+    },
+    {
+     "word": "enclosed",
+     "fa": "پیوست"
+    },
+    {
+     "word": "deadline",
+     "fa": "مهلت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "\"No later than the thirty-first of January.\" That's the deadline — after that there's a fine.",
+   "translations": {
+    "fa": "«حداکثر تا سی و یکم ژانویه.» این مهلته — بعدش جریمه داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fine",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is the fine?",
+     "suggestionFa": "جریمه چقدره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weekend",
+      "then",
+      "i'll"
+     ],
+     "suggestion": "I'll do it this weekend then.",
+     "suggestionFa": "پس این آخر هفته انجامش می‌دم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no later than",
+     "fa": "حداکثر تا"
+    },
+    {
+     "word": "fine",
+     "fa": "جریمه"
+    }
+   ],
+   "cultureNote": {
+    "en": "31 January is the UK deadline for online Self Assessment tax returns. Late returns get a £100 penalty.",
+    "fa": "۳۱ ژانویه مهلت اظهارنامهٔ مالیاتی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "A hundred pounds, I think, so don't leave it! And \"should you require assistance\" just means \"if you need help\".",
+   "translations": {
+    "fa": "فکر کنم صد پوند، پس عقب نندازید! و «should you require assistance» یعنی فقط «اگه کمک لازم دارید»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "just",
+      "they",
+      "why"
+     ],
+     "suggestion": "Why don't they just say that?",
+     "suggestionFa": "چرا همون را نمی‌گن؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clearer",
+      "arthur",
+      "that's",
+      "thank"
+     ],
+     "suggestion": "Thank you, Arthur. That's much clearer now.",
+     "suggestionFa": "ممنون آرتور. الان خیلی واضح‌تره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "require",
+     "fa": "نیاز داشتن"
+    },
+    {
+     "word": "assistance",
+     "fa": "کمک"
+    },
+    {
+     "word": "clearer",
+     "fa": "واضح‌تر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "Ha! That, my friend, is the great mystery of British paperwork. Good luck!",
+   "translations": {
+    "fa": "ها! این، دوست من، راز بزرگ کاغذبازی بریتانیاییه. موفق باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

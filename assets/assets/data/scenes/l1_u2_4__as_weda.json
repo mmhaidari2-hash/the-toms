@@ -49,8 +49,8 @@
       "butter",
       "fridge",
       "sugar",
-      "need",
-      "milk"
+      "milk",
+      "need"
      ],
      "suggestion": "The one by the fridge. Now we need butter, sugar and milk.",
      "suggestionFa": "همونی که کنار یخچاله. حالا کره، شکر و شیر لازم داریم.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "lovely",
+      "please",
       "spoon",
       "bowl",
-      "big"
+      "now"
      ],
      "suggestion": "Lovely. Now, a bowl and a big spoon, please.",
      "suggestionFa": "عالی. حالا یه کاسه و یه قاشق بزرگ، لطفاً.",
@@ -122,8 +122,8 @@
      "keywords": [
       "circles",
       "little",
-      "milk",
       "more",
+      "milk",
       "good"
      ],
      "suggestion": "Add a little more milk. Good! Now we cut circles.",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "careful",
-      "minutes",
       "fifteen",
+      "minutes",
       "think",
       "eight"
      ],
@@ -172,9 +172,9 @@
      "keywords": [
       "they're",
       "golden",
-      "ready",
       "smell",
-      "warm"
+      "ready",
+      "them"
      ],
      "suggestion": "Mmm, can you smell them? They're ready! Golden and warm.",
      "suggestionFa": "ممم، بوشون را حس می‌کنی؟ آماده‌اند! طلایی و گرم.",
@@ -197,9 +197,9 @@
      "keywords": [
       "cornish",
       "that's",
-      "cream",
       "first",
-      "then"
+      "cream",
+      "dear"
      ],
      "suggestion": "Jam first, then cream. That's the Cornish way. Try one, dear.",
      "suggestionFa": "اول مربا، بعد خامه. این روش کورنوالیه. یکی امتحان کن عزیزم.",
@@ -224,7 +224,7 @@
       "nicola",
       "teach",
       "next",
-      "dear"
+      "time"
      ],
      "suggestion": "You're a natural, dear. Next time, you can teach Nicola!",
      "suggestionFa": "تو ذاتاً بلدی عزیزم. دفعهٔ بعد می‌تونی به نیکولا یاد بدی!",

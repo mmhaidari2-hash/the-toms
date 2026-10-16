@@ -1,0 +1,299 @@
+{
+ "id": "l3_u1_2",
+ "characterId": "al",
+ "title": "Part-time jobs",
+ "titleFa": "کار پاره‌وقت",
+ "setting": "Work and careers · Level 3",
+ "settingFa": "کار و شغل",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "Have you ever had a part-time job? I've just started one at the campus café.",
+   "translations": {
+    "fa": "تا حالا کار پاره‌وقت داشتی؟ من تازه تو کافهٔ دانشگاه شروع کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "restaurant",
+      "worked",
+      "years",
+      "back"
+     ],
+     "suggestion": "Yes, I worked in a restaurant back home for two years.",
+     "suggestionFa": "آره، تو کشور خودم دو سال تو یه رستوران کار کردم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "how",
+      "get",
+      "did"
+     ],
+     "suggestion": "No, never. How did you get it?",
+     "suggestionFa": "نه، هیچ‌وقت. چطوری گرفتیش؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "part-time",
+     "fa": "پاره‌وقت"
+    },
+    {
+     "word": "just started",
+     "fa": "تازه شروع کرده"
+    },
+    {
+     "word": "campus",
+     "fa": "محوطهٔ دانشگاه"
+    },
+    {
+     "word": "back home",
+     "fa": "در وطن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "I saw an advert on the noticeboard last week. I've already done three shifts!",
+   "translations": {
+    "fa": "هفتهٔ پیش یه آگهی رو تابلوی اعلانات دیدم. تا حالا سه شیفت کار کردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "found",
+      "have",
+      "how",
+      "far"
+     ],
+     "suggestion": "How have you found it so far?",
+     "suggestionFa": "تا حالا چطور بوده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anyone",
+      "they",
+      "need",
+      "else"
+     ],
+     "suggestion": "Do they need anyone else?",
+     "suggestionFa": "کس دیگه‌ای هم لازم دارن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "advert",
+     "fa": "آگهی"
+    },
+    {
+     "word": "noticeboard",
+     "fa": "تابلوی اعلانات"
+    },
+    {
+     "word": "already",
+     "fa": "تا الان"
+    },
+    {
+     "word": "shifts",
+     "fa": "شیفت‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: advert / ad (UK) = commercial / ad (US). \"Noticeboard\" (UK) = bulletin board (US).",
+    "fa": "advert و noticeboard بریتانیایی‌اند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Busy but fun. Yesterday I made about two hundred coffees. I've never been so tired!",
+   "translations": {
+    "fa": "شلوغ ولی باحال. دیروز حدود دویست تا قهوه درست کردم. تا حالا این‌قدر خسته نشده بودم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "barista",
+      "worked",
+      "before"
+     ],
+     "suggestion": "I've worked as a barista before, actually.",
+     "suggestionFa": "راستش قبلاً باریستا بودم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "have",
+      "they",
+      "paid",
+      "yet"
+     ],
+     "suggestion": "Have they paid you yet?",
+     "suggestionFa": "تا حالا حقوقت را دادن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "busy",
+     "fa": "پرمشغله"
+    },
+    {
+     "word": "never been so",
+     "fa": "هرگز این‌قدر … نبوده"
+    },
+    {
+     "word": "barista",
+     "fa": "باریستا"
+    },
+    {
+     "word": "paid",
+     "fa": "پرداخت کرد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Not yet — we get paid monthly. They're still looking for someone for weekends. Have you got a National Insurance number?",
+   "translations": {
+    "fa": "هنوز نه — ماهانه حقوق می‌گیریم. هنوز دنبال یه نفر برای آخر هفته‌ان. شمارهٔ بیمهٔ ملی داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "month",
+      "last",
+      "got"
+     ],
+     "suggestion": "Yes, I got it last month.",
+     "suggestionFa": "آره، ماه پیش گرفتمش.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "get",
+      "how",
+      "one"
+     ],
+     "suggestion": "No. What is it, and how do I get one?",
+     "suggestionFa": "نه. چیه و چطوری بگیرمش؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "monthly",
+     "fa": "ماهانه"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "National Insurance number",
+     "fa": "شمارهٔ بیمهٔ ملی"
+    }
+   ],
+   "cultureNote": {
+    "en": "You need a National Insurance (NI) number to work in the UK. It's used for tax and the State Pension.",
+    "fa": "برای کار در بریتانیا شمارهٔ NI لازم است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "You need it for tax. Anyway, I've told the manager about you — she's free at three if you want a chat.",
+   "translations": {
+    "fa": "برای مالیات لازمه. به هر حال، دربارهٔ تو به مدیر گفتم — ساعت سه وقتش آزاده اگه بخوای گپ بزنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "bring",
+      "i'll",
+      "cv"
+     ],
+     "suggestion": "Brilliant! I'll bring my CV.",
+     "suggestionFa": "عالی! رزومه‌ام را میارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "one",
+      "owe",
+      "al"
+     ],
+     "suggestion": "Thanks, Al. I owe you one.",
+     "suggestionFa": "ممنون ال. یکی طلبت.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tax",
+     "fa": "مالیات"
+    },
+    {
+     "word": "manager",
+     "fa": "مدیر"
+    },
+    {
+     "word": "CV",
+     "fa": "رزومه"
+    },
+    {
+     "word": "I owe you one",
+     "fa": "جبران می‌کنم"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: CV (UK) = résumé (US).",
+    "fa": "CV در بریتانیا یعنی رزومه."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "al",
+   "text": "No worries. Just don't steal my best shifts!",
+   "translations": {
+    "fa": "خواهش. فقط بهترین شیفت‌هام را ازم نگیر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

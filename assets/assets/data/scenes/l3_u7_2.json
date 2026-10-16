@@ -1,0 +1,283 @@
+{
+ "id": "l3_u7_2",
+ "characterId": "coach",
+ "title": "Sports day volunteer",
+ "titleFa": "داوطلب روز ورزش",
+ "setting": "Hobbies and fitness · Level 3",
+ "settingFa": "سرگرمی و تناسب اندام",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "coach",
+   "text": "Thanks for volunteering! I need you on the egg-and-spoon race. Have you seen one before?",
+   "translations": {
+    "fa": "ممنون که داوطلب شدید! برای مسابقهٔ تخم‌مرغ و قاشق لازمتون دارم. تا حالا دیدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "never",
+      "work",
+      "how"
+     ],
+     "suggestion": "No, never! How does it work?",
+     "suggestionFa": "نه، هیچ‌وقت! چطوری کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "about",
+      "told",
+      "all"
+     ],
+     "suggestion": "Yes, Nicola told me all about it.",
+     "suggestionFa": "آره، نیکولا همه چی را بهم گفت.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "volunteering",
+     "fa": "داوطلب شدن"
+    },
+    {
+     "word": "egg-and-spoon race",
+     "fa": "مسابقهٔ تخم‌مرغ و قاشق"
+    },
+    {
+     "word": "how does it work",
+     "fa": "چطور کار می‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sports day is a British school tradition, with races like egg-and-spoon, sack race and the three-legged race.",
+    "fa": "روز ورزش یک سنت مدارس بریتانیایی است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "coach",
+   "text": "First, give each child a spoon and an egg — they're plastic, don't worry. Then line them up behind the white line.",
+   "translations": {
+    "fa": "اول، به هر بچه یه قاشق و یه تخم‌مرغ بدید — پلاستیکی‌ان، نگران نباشید. بعد پشت خط سفید ردیفشون کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "drop",
+      "they",
+      "egg"
+     ],
+     "suggestion": "Got it. What happens if they drop the egg?",
+     "suggestionFa": "فهمیدم. اگه تخم‌مرغ بیفته چی میشه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "race",
+      "each",
+      "many"
+     ],
+     "suggestion": "How many children are in each race?",
+     "suggestionFa": "تو هر مسابقه چند تا بچه‌ست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "each",
+     "fa": "هر"
+    },
+    {
+     "word": "plastic",
+     "fa": "پلاستیکی"
+    },
+    {
+     "word": "line up",
+     "fa": "ردیف کردن"
+    },
+    {
+     "word": "drop",
+     "fa": "انداختن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "coach",
+   "text": "Eight per race. If they drop it, they have to stop, pick it up and carry on. No hands allowed!",
+   "translations": {
+    "fa": "هر مسابقه هشت‌تا. اگه انداختن، باید وایسن، برش دارن و ادامه بدن. استفاده از دست ممنوعه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finish",
+      "line"
+     ],
+     "suggestion": "What do I do at the finish line?",
+     "suggestionFa": "سر خط پایان چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "start",
+      "race"
+     ],
+     "suggestion": "Do I start the race?",
+     "suggestionFa": "من مسابقه را شروع کنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "per",
+     "fa": "در هر"
+    },
+    {
+     "word": "pick up",
+     "fa": "برداشتن"
+    },
+    {
+     "word": "carry on",
+     "fa": "ادامه دادن"
+    },
+    {
+     "word": "finish line",
+     "fa": "خط پایان"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "coach",
+   "text": "I'll blow the whistle to start. You stand at the finish and give out stickers — gold, silver, bronze. Everyone else gets a \"well done\" sticker.",
+   "translations": {
+    "fa": "من سوت را برای شروع می‌زنم. شما سر خط پایان وایسید و برچسب بدید — طلا، نقره، برنز. بقیه برچسب «آفرین» می‌گیرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "everyone",
+      "gets",
+      "love"
+     ],
+     "suggestion": "I love that everyone gets something.",
+     "suggestionFa": "خوشم میاد که همه یه چیزی می‌گیرن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "together",
+      "finish",
+      "two"
+     ],
+     "suggestion": "What if two children finish together?",
+     "suggestionFa": "اگه دوتا بچه با هم برسن چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blow the whistle",
+     "fa": "سوت زدن"
+    },
+    {
+     "word": "give out",
+     "fa": "پخش کردن"
+    },
+    {
+     "word": "stickers",
+     "fa": "برچسب‌ها"
+    },
+    {
+     "word": "bronze",
+     "fa": "برنز"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "coach",
+   "text": "Then they both get gold. We don't do tears on sports day! Oh — and after that, it's the parents' race. You're running in it.",
+   "translations": {
+    "fa": "اون‌وقت هر دو طلا می‌گیرن. روز ورزش گریه نداریم! آه — و بعدش، مسابقهٔ والدینه. شما هم توش می‌دوید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "have",
+      "wait",
+      "run"
+     ],
+     "suggestion": "Wait — I have to run too?",
+     "suggestionFa": "صبر کنید — من هم باید بدوم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "best",
+      "over",
+      "fall",
+      "i'll"
+     ],
+     "suggestion": "I'll try my best not to fall over!",
+     "suggestionFa": "تمام تلاشم را می‌کنم زمین نخورم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tears",
+     "fa": "اشک"
+    },
+    {
+     "word": "parents' race",
+     "fa": "مسابقهٔ والدین"
+    },
+    {
+     "word": "fall over",
+     "fa": "زمین خوردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "coach",
+   "text": "Everyone does! Tom fell over last year — Nicola still talks about it. Right, positions please!",
+   "translations": {
+    "fa": "همه می‌دوند! پارسال تام زمین خورد — نیکولا هنوز دربارهٔ اون حرف می‌زنه. خب، سر جاهاتون لطفاً!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

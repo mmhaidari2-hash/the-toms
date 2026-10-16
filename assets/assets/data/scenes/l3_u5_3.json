@@ -1,0 +1,241 @@
+{
+ "id": "l3_u5_3",
+ "characterId": "ryan",
+ "title": "Choosing GCSE options",
+ "titleFa": "انتخاب درس‌های GCSE",
+ "setting": "School life · Level 3",
+ "settingFa": "زندگی مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "I've got to choose my GCSE options by Friday and I've got no idea. Can I ask your advice?",
+   "translations": {
+    "fa": "باید تا جمعه درس‌های GCSE‌ام را انتخاب کنم و هیچ ایده‌ای ندارم. می‌تونم ازت مشورت بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "interested",
+      "course"
+     ],
+     "suggestion": "Of course. What are you interested in?",
+     "suggestionFa": "حتماً. به چی علاقه داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "subjects",
+      "which",
+      "sure",
+      "take"
+     ],
+     "suggestion": "Sure. Which subjects do you have to take?",
+     "suggestionFa": "حتماً. کدوم درس‌ها اجباریه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "GCSE",
+     "fa": "امتحانات پایان دورهٔ متوسطه"
+    },
+    {
+     "word": "options",
+     "fa": "درس‌های انتخابی"
+    },
+    {
+     "word": "advice",
+     "fa": "توصیه"
+    },
+    {
+     "word": "subjects",
+     "fa": "درس‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "GCSEs are exams English students take at about 16. Maths, English and science are compulsory.",
+    "fa": "GCSE امتحان‌های ۱۶ سالگی در انگلستان است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Maths, English and science are compulsory. Then I get four choices. I like computing and PE, but Mum wants me to do French.",
+   "translations": {
+    "fa": "ریاضی، انگلیسی و علوم اجباریه. بعد چهارتا انتخاب دارم. کامپیوتر و ورزش را دوست دارم، ولی مامان می‌خواد فرانسوی بخونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "computing",
+      "choose",
+      "were"
+     ],
+     "suggestion": "If I were you, I'd definitely choose computing.",
+     "suggestionFa": "اگه جای تو بودم، قطعاً کامپیوتر را انتخاب می‌کردم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "french",
+      "want",
+      "she",
+      "why"
+     ],
+     "suggestion": "Why does she want you to do French?",
+     "suggestionFa": "چرا می‌خواد فرانسوی بخونی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "compulsory",
+     "fa": "اجباری"
+    },
+    {
+     "word": "choices",
+     "fa": "انتخاب‌ها"
+    },
+    {
+     "word": "computing",
+     "fa": "کامپیوتر"
+    },
+    {
+     "word": "PE",
+     "fa": "تربیت بدنی"
+    },
+    {
+     "word": "if I were you",
+     "fa": "اگر جای تو بودم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "She says languages look good for university. But I'm rubbish at French.",
+   "translations": {
+    "fa": "می‌گه زبان برای دانشگاه خوبه. ولی من تو فرانسوی افتضاحم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learning",
+      "english",
+      "though",
+      "look"
+     ],
+     "suggestion": "You're learning fast, though. Look at me with English!",
+     "suggestionFa": "ولی سریع یاد می‌گیری. منو با انگلیسی ببین!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "better",
+      "you'd",
+      "first"
+     ],
+     "suggestion": "You'd better talk to your teacher first.",
+     "suggestionFa": "بهتره اول با معلمت صحبت کنی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "languages",
+     "fa": "زبان‌ها"
+    },
+    {
+     "word": "rubbish at",
+     "fa": "افتضاح در"
+    },
+    {
+     "word": "you'd better",
+     "fa": "بهتر است"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Rubbish\" is very British: rubbish (UK) = trash/garbage (US), and \"I'm rubbish at…\" = \"I'm bad at…\".",
+    "fa": "rubbish یعنی آشغال، یا «افتضاح بودن در»."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Fair point. You learned a whole new language. Maybe French isn't so bad. What about engineering — does it matter which subjects I choose?",
+   "translations": {
+    "fa": "حرف درستیه. تو یه زبان کامل یاد گرفتی. شاید فرانسوی اون‌قدر بد نباشه. مهندسی چی — فرق می‌کنه کدوم درس‌ها را بردارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "technology",
+      "design",
+      "were",
+      "i'd"
+     ],
+     "suggestion": "If I were you, I'd do design and technology.",
+     "suggestionFa": "اگه جای تو بودم، طراحی و فناوری برمی‌داشتم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "engineer",
+      "better",
+      "you'd",
+      "he's"
+     ],
+     "suggestion": "You'd better ask your dad. He's the engineer!",
+     "suggestionFa": "بهتره از بابات بپرسی. اون مهندسه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair point",
+     "fa": "حرف درستی است"
+    },
+    {
+     "word": "matter",
+     "fa": "اهمیت داشتن"
+    },
+    {
+     "word": "design and technology",
+     "fa": "طراحی و فناوری"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Dad will talk for three hours! OK — computing, D&T, PE and… fine, French. Happy now, Mum?",
+   "translations": {
+    "fa": "بابا سه ساعت حرف می‌زنه! باشه — کامپیوتر، طراحی، ورزش و… باشه، فرانسوی. حالا خوشحالی مامان؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

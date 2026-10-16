@@ -20,8 +20,8 @@
     {
      "keywords": [
       "toast",
-      "like",
       "some",
+      "like",
       "i'd"
      ],
      "suggestion": "I'd like some toast, please.",
@@ -87,8 +87,8 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "please",
+      "butter",
       "jam"
      ],
      "suggestion": "Butter and jam, please.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "yucky",
-      "let",
-      "try"
+      "try",
+      "let"
      ],
      "suggestion": "Yucky? Let me try it!",
      "suggestionFa": "بدمزه؟ بذار امتحانش کنم!",
@@ -227,8 +227,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
-      "here's"
+      "here's",
+      "nicola"
      ],
      "suggestion": "Here's a spoon, Nicola.",
      "suggestionFa": "این قاشق، نیکولا.",
@@ -287,8 +287,8 @@
     },
     {
      "keywords": [
-      "really",
       "prefer",
+      "really",
       "eggs"
      ],
      "suggestion": "Not really. I prefer eggs.",

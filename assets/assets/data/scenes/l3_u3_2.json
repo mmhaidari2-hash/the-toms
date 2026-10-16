@@ -1,0 +1,288 @@
+{
+ "id": "l3_u3_2",
+ "characterId": "ryan",
+ "title": "Learning to drive",
+ "titleFa": "یادگیری رانندگی",
+ "setting": "Getting around · Level 3",
+ "settingFa": "رفت‌وآمد",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Dad says I can start lessons when I'm seventeen. Do you have to take a test to drive in the UK?",
+   "translations": {
+    "fa": "بابا می‌گه وقتی هفده سالم شد می‌تونم کلاس شروع کنم. تو بریتانیا برای رانندگی باید امتحان بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practical",
+      "theory",
+      "test",
+      "pass"
+     ],
+     "suggestion": "Yes, you have to pass a theory test and a practical test.",
+     "suggestionFa": "آره، باید امتحان تئوری و عملی را قبول بشی.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "again",
+      "take",
+      "here",
+      "mine"
+     ],
+     "suggestion": "Yes. I have to take mine again here.",
+     "suggestionFa": "آره. من هم اینجا باید دوباره امتحان بدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lessons",
+     "fa": "کلاس‌ها"
+    },
+    {
+     "word": "theory test",
+     "fa": "امتحان تئوری"
+    },
+    {
+     "word": "practical test",
+     "fa": "امتحان عملی"
+    },
+    {
+     "word": "pass",
+     "fa": "قبول شدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Really? Can't you just use your licence from home?",
+   "translations": {
+    "fa": "واقعاً؟ نمی‌تونی از گواهی‌نامهٔ کشورت استفاده کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "months",
+      "twelve",
+      "after",
+      "only"
+     ],
+     "suggestion": "Only for twelve months. After that, I need to get a UK one.",
+     "suggestionFa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "country",
+      "doesn't",
+      "depends",
+      "count"
+     ],
+     "suggestion": "It depends on the country. Mine doesn't count.",
+     "suggestionFa": "بستگی به کشور داره. مال من حساب نمیشه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "licence",
+     "fa": "گواهی‌نامه"
+    },
+    {
+     "word": "twelve months",
+     "fa": "دوازده ماه"
+    },
+    {
+     "word": "count",
+     "fa": "حساب شدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: licence (noun), license (verb). Americans use \"license\" for both.",
+    "fa": "licence اسم است، license فعل."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Harsh. What's the theory test like?",
+   "translations": {
+    "fa": "سخته. امتحان تئوری چطوریه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "questions",
+      "answer",
+      "hazard",
+      "fifty"
+     ],
+     "suggestion": "You have to answer fifty questions and do a hazard test.",
+     "suggestionFa": "باید به پنجاه سؤال جواب بدی و یه امتحان خطرشناسی بدی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "computer",
+      "drive",
+      "don't"
+     ],
+     "suggestion": "You don't have to drive — it's on a computer.",
+     "suggestionFa": "لازم نیست رانندگی کنی — رو کامپیوتره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "harsh",
+     "fa": "سخت‌گیرانه"
+    },
+    {
+     "word": "hazard",
+     "fa": "خطر"
+    },
+    {
+     "word": "don't have to",
+     "fa": "لازم نیست"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Easy. And do you need to know how to drive a manual? Most cars here have gears.",
+   "translations": {
+    "fa": "آسونه. و لازمه بلد باشی دنده‌ای برونی؟ بیشتر ماشین‌های اینجا دنده دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "automatic",
+      "manual",
+      "can't",
+      "drive"
+     ],
+     "suggestion": "If you pass in an automatic, you can't drive a manual.",
+     "suggestionFa": "اگه با اتومات قبول بشی، نمی‌تونی دنده‌ای برونی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "useful",
+      "don't",
+      "have",
+      "but"
+     ],
+     "suggestion": "You don't have to, but it's useful.",
+     "suggestionFa": "لازم نیست، ولی مفیده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "manual",
+     "fa": "دنده‌ای"
+    },
+    {
+     "word": "gears",
+     "fa": "دنده"
+    },
+    {
+     "word": "automatic",
+     "fa": "اتوماتیک"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most British cars are manual (\"stick shift\" in the US). An automatic-only licence is common but restricts you.",
+    "fa": "بیشتر ماشین‌های بریتانیا دنده‌ای‌اند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Right. I'm learning in Dad's car then. He'll have to stay calm, though!",
+   "translations": {
+    "fa": "باشه. پس با ماشین بابا یاد می‌گیرم. ولی بابا باید آروم بمونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "you'll",
+      "drive",
+      "left"
+     ],
+     "suggestion": "You'll have to remember to drive on the left!",
+     "suggestionFa": "باید یادت باشه از سمت چپ برونی!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instructor",
+      "proper",
+      "maybe",
+      "need"
+     ],
+     "suggestion": "Maybe you need a proper instructor.",
+     "suggestionFa": "شاید یه مربی واقعی لازم داری.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stay calm",
+     "fa": "آرام ماندن"
+    },
+    {
+     "word": "on the left",
+     "fa": "سمت چپ"
+    },
+    {
+     "word": "instructor",
+     "fa": "مربی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Good point. Dad shouts at the satnav, so imagine him with me!",
+   "translations": {
+    "fa": "نکتهٔ خوبیه. بابا سر مسیریاب داد می‌زنه، حالا تصور کن با من!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -72,9 +72,9 @@
     },
     {
      "keywords": [
-      "boots",
       "muddy",
-      "those"
+      "those",
+      "boots"
      ],
      "suggestion": "Those boots are very muddy!",
      "suggestionFa": "اون کفش‌ها خیلی گِلی‌اند!",
@@ -167,8 +167,8 @@
     {
      "keywords": [
       "clothes",
-      "these",
       "where",
+      "these",
       "sure"
      ],
      "suggestion": "Sure. Where do these clothes go?",
@@ -216,8 +216,8 @@
    "branches": [
     {
      "keywords": [
-      "books",
       "about",
+      "books",
       "these",
       "done"
      ],

@@ -167,10 +167,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "number",
-      "again",
-      "could"
+      "please",
+      "could",
+      "again"
      ],
      "suggestion": "Could you say the number again, please?",
      "suggestionFa": "میشه شماره را دوباره بگید؟",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "message",
-      "helen",
       "thank",
+      "helen",
       "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
@@ -235,9 +235,9 @@
     {
      "keywords": [
       "thanks",
-      "he'll",
       "today",
-      "back"
+      "he'll",
+      "ring"
      ],
      "suggestion": "Thanks. He'll ring you back today.",
      "suggestionFa": "ممنون. امروز بهتون زنگ می‌زنه.",

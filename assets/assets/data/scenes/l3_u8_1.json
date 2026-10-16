@@ -1,0 +1,290 @@
+{
+ "id": "l3_u8_1",
+ "characterId": "tom",
+ "title": "The boiler's broken",
+ "titleFa": "پکیج خراب شده",
+ "setting": "Problems at home · Level 3",
+ "settingFa": "مشکلات خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Bad news — the boiler's stopped working again. No hot water, no heating.",
+   "translations": {
+    "fa": "خبر بد — پکیج دوباره از کار افتاده. نه آب گرم، نه گرمایش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yourself",
+      "can",
+      "fix",
+      "oh"
+     ],
+     "suggestion": "Oh no! Can you fix it yourself?",
+     "suggestionFa": "ای وای! خودت می‌تونی درستش کنی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "properly",
+      "fixed",
+      "again",
+      "need"
+     ],
+     "suggestion": "Again? We need to get it fixed properly.",
+     "suggestionFa": "دوباره؟ باید درست و حسابی تعمیرش کنیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boiler",
+     "fa": "پکیج/دیگ آب گرم"
+    },
+    {
+     "word": "stopped working",
+     "fa": "از کار افتاد"
+    },
+    {
+     "word": "get it fixed",
+     "fa": "تعمیرش کردن"
+    },
+    {
+     "word": "properly",
+     "fa": "درست و حسابی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most British homes have a gas \"combi boiler\" for both hot water and central heating.",
+    "fa": "بیشتر خانه‌های بریتانیا پکیج گازی دارند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "I'm an engineer, not a plumber! I'm going to have it looked at by a Gas Safe engineer. It's the law.",
+   "translations": {
+    "fa": "من مهندسم، نه لوله‌کش! می‌خوام بدم یه متخصص Gas Safe نگاهش کنه. قانونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "come",
+      "soon",
+      "can"
+     ],
+     "suggestion": "How soon can someone come?",
+     "suggestionFa": "کی زودتر می‌تونه یکی بیاد؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "safe",
+      "gas"
+     ],
+     "suggestion": "What's Gas Safe?",
+     "suggestionFa": "Gas Safe چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plumber",
+     "fa": "لوله‌کش"
+    },
+    {
+     "word": "have it looked at",
+     "fa": "بدهیم نگاهش کنند"
+    },
+    {
+     "word": "law",
+     "fa": "قانون"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK only Gas Safe registered engineers can legally work on gas boilers.",
+    "fa": "فقط متخصصان Gas Safe مجاز به کار روی پکیج گازی‌اند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "They're registered for gas work. I've rung one — he's coming at two. Meanwhile, we'll have to boil the kettle for washing.",
+   "translations": {
+    "fa": "برای کار گاز ثبت شدن. به یکی زنگ زدم — ساعت دو میاد. تا اون موقع، باید برای شستشو کتری را جوش بیاریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blankets",
+      "extra",
+      "some",
+      "i'll"
+     ],
+     "suggestion": "I'll get some extra blankets out.",
+     "suggestionFa": "چندتا پتوی اضافه میارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "shall",
+      "tell"
+     ],
+     "suggestion": "Shall I tell Leslie?",
+     "suggestionFa": "به لزلی بگم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "registered",
+     "fa": "ثبت‌شده"
+    },
+    {
+     "word": "meanwhile",
+     "fa": "در این فاصله"
+    },
+    {
+     "word": "boil the kettle",
+     "fa": "کتری را جوش آوردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
+   "translations": {
+    "fa": "آره لطفاً. و تا اینجاست، می‌خوام بدم هوای رادیاتورها را بگیرن. مال اتاق تو یه صدای عجیب می‌ده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knocking",
+      "someone",
+      "sounds",
+      "like"
+     ],
+     "suggestion": "It does! It sounds like someone knocking.",
+     "suggestionFa": "آره! صداش مثل در زدن یکیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "radiator",
+      "bleed",
+      "mean"
+     ],
+     "suggestion": "What does \"bleed a radiator\" mean?",
+     "suggestionFa": "«bleed a radiator» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "radiators",
+     "fa": "رادیاتورها"
+    },
+    {
+     "word": "bled",
+     "fa": "هواگیری شده"
+    },
+    {
+     "word": "funny noise",
+     "fa": "صدای عجیب"
+    },
+    {
+     "word": "knocking",
+     "fa": "در زدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "You let the air out, so it heats properly. Easy. Oh — and remind me to get the smoke alarm checked too.",
+   "translations": {
+    "fa": "هوا را خالی می‌کنی، تا درست گرم کنه. آسونه. آه — و یادم بنداز آژیر دود را هم بدم چک کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reminder",
+      "phone",
+      "i'll",
+      "put"
+     ],
+     "suggestion": "I'll put a reminder on my phone.",
+     "suggestionFa": "یه یادآور رو گوشیم می‌ذارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "safety",
+      "first",
+      "good",
+      "idea"
+     ],
+     "suggestion": "Good idea. Safety first.",
+     "suggestionFa": "فکر خوبیه. اول ایمنی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "let out",
+     "fa": "خارج کردن"
+    },
+    {
+     "word": "heats",
+     "fa": "گرم می‌کند"
+    },
+    {
+     "word": "smoke alarm",
+     "fa": "آژیر دود"
+    },
+    {
+     "word": "reminder",
+     "fa": "یادآور"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Cheers. Right — I'm going to put the kettle on. If we can't have a shower, at least we can have a brew!",
+   "translations": {
+    "fa": "مرسی. خب — می‌رم کتری را بذارم. اگه نمی‌تونیم دوش بگیریم، حداقل می‌تونیم یه چای بخوریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

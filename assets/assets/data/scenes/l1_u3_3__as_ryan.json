@@ -23,8 +23,8 @@
      "keywords": [
       "alright",
       "room's",
-      "messy",
       "sorry",
+      "messy",
       "come"
      ],
      "suggestion": "Alright? Sorry, my room's a bit messy. Come in.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "football",
-      "that's",
       "laptop",
+      "that's",
       "these",
       "boots"
      ],
@@ -74,8 +74,8 @@
       "liverpool",
       "saturday",
       "posters",
-      "every",
-      "those"
+      "those",
+      "every"
      ],
      "suggestion": "Every Saturday. Those posters on the wall are my team. Liverpool!",
      "suggestionFa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!",
@@ -98,9 +98,9 @@
      "keywords": [
       "that's",
       "salah",
-      "yeah",
-      "need",
-      "tidy"
+      "tidy",
+      "help",
+      "yeah"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -124,7 +124,7 @@
       "wardrobe",
       "drawer",
       "shirts",
-      "these",
+      "jeans",
       "those"
      ],
      "suggestion": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "shelf",
       "books",
+      "shelf",
       "gross",
       "from",
       "week"
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "legend",
       "cheers",
+      "legend",
       "wanna",
-      "mate",
+      "play",
       "fifa"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",

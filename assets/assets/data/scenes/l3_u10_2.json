@@ -1,0 +1,301 @@
+{
+ "id": "l3_u10_2",
+ "characterId": "ryan",
+ "title": "Presenting a project",
+ "titleFa": "ارائهٔ پروژه",
+ "setting": "Speaking your mind · Level 3",
+ "settingFa": "نظرت را گفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "I've got to present my engineering project at the young engineers' fair. Can I practise on you?",
+   "translations": {
+    "fa": "باید پروژهٔ مهندسیم را تو نمایشگاه مهندسان جوان ارائه بدم. می‌تونم روی تو تمرین کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "listening",
+      "course",
+      "ahead",
+      "go"
+     ],
+     "suggestion": "Of course. Go ahead — I'm listening.",
+     "suggestionFa": "حتماً. شروع کن — گوش می‌دم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "presentation",
+      "sure",
+      "long",
+      "how"
+     ],
+     "suggestion": "Sure. How long is your presentation?",
+     "suggestionFa": "حتماً. ارائه‌ات چقدره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "present",
+     "fa": "ارائه دادن"
+    },
+    {
+     "word": "fair",
+     "fa": "نمایشگاه"
+    },
+    {
+     "word": "practise",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "presentation",
+     "fa": "ارائه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: practise (verb), practice (noun). Americans use \"practice\" for both.",
+    "fa": "practise فعل است، practice اسم."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Five minutes. OK… \"Good morning, everyone. First of all, thank you for coming. Today I'm going to talk about my solar-powered phone charger.\"",
+   "translations": {
+    "fa": "پنج دقیقه. خب… «صبح بخیر همگی. اول از همه، ممنون که اومدید. امروز می‌خوام دربارهٔ شارژر گوشی خورشیدیم صحبت کنم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slowly",
+      "though",
+      "start",
+      "speak"
+     ],
+     "suggestion": "Great start. Speak a bit more slowly, though.",
+     "suggestionFa": "شروع عالی. ولی یه کم آهسته‌تر حرف بزن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "explain",
+      "good",
+      "made",
+      "why"
+     ],
+     "suggestion": "Good. Now explain why you made it.",
+     "suggestionFa": "خوبه. حالا توضیح بده چرا ساختیش.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first of all",
+     "fa": "اول از همه"
+    },
+    {
+     "word": "solar-powered",
+     "fa": "خورشیدی"
+    },
+    {
+     "word": "charger",
+     "fa": "شارژر"
+    },
+    {
+     "word": "slowly",
+     "fa": "آهسته"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "\"The reason I made it is that my phone always dies at festivals. Secondly, it's better for the environment.\"",
+   "translations": {
+    "fa": "«دلیل ساختنش اینه که گوشیم همیشه تو جشنواره‌ها خاموش میشه. دوم اینکه برای محیط زیست بهتره.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "works",
+      "nice",
+      "show",
+      "them"
+     ],
+     "suggestion": "Nice. Can you show them how it works?",
+     "suggestionFa": "خوبه. می‌تونی نشونشون بدی چطور کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "charge",
+      "maybe",
+      "long"
+     ],
+     "suggestion": "Maybe give a number — how long does it take to charge?",
+     "suggestionFa": "شاید یه عدد بدی — شارژ کردن چقدر طول می‌کشه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the reason",
+     "fa": "دلیل"
+    },
+    {
+     "word": "dies",
+     "fa": "خاموش می‌شود"
+    },
+    {
+     "word": "secondly",
+     "fa": "دوم"
+    },
+    {
+     "word": "environment",
+     "fa": "محیط زیست"
+    },
+    {
+     "word": "charge",
+     "fa": "شارژ کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Good idea. \"As you can see, it charges a phone in about three hours of sunlight — or six hours in Manchester!\"",
+   "translations": {
+    "fa": "فکر خوبیه. «همون‌طور که می‌بینید، تو حدود سه ساعت آفتاب گوشی را شارژ می‌کنه — یا شش ساعت تو منچستر!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "judges",
+      "joke",
+      "will",
+      "love"
+     ],
+     "suggestion": "Ha! The judges will love that joke.",
+     "suggestionFa": "ها! داورها عاشق این شوخی میشن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finish",
+      "going",
+      "now",
+      "how"
+     ],
+     "suggestion": "Now, how are you going to finish?",
+     "suggestionFa": "حالا، چطوری می‌خوای تمومش کنی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "as you can see",
+     "fa": "همان‌طور که می‌بینید"
+    },
+    {
+     "word": "sunlight",
+     "fa": "نور خورشید"
+    },
+    {
+     "word": "judges",
+     "fa": "داوران"
+    },
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "\"To conclude, I think small inventions can make a big difference. Thank you for listening. Any questions?\"",
+   "translations": {
+    "fa": "«در پایان، فکر می‌کنم اختراع‌های کوچیک می‌تونن تفاوت بزرگی ایجاد کنن. ممنون که گوش دادید. سؤالی هست؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "about",
+      "will",
+      "cost"
+     ],
+     "suggestion": "Brilliant! What will you say if they ask about the cost?",
+     "suggestionFa": "عالی! اگه دربارهٔ هزینه بپرسن چی می‌گی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "you'll",
+      "really",
+      "great",
+      "ryan"
+     ],
+     "suggestion": "That was really good, Ryan. You'll be great.",
+     "suggestionFa": "خیلی خوب بود رایان. عالی میشی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "to conclude",
+     "fa": "در پایان"
+    },
+    {
+     "word": "inventions",
+     "fa": "اختراعات"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    },
+    {
+     "word": "cost",
+     "fa": "هزینه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Twelve quid in parts! Cheers. Dad's going to be proper proud. Right — one more time from the top?",
+   "translations": {
+    "fa": "دوازده پوند قطعه! مرسی. بابا حسابی افتخار می‌کنه. خب — یه بار دیگه از اول؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
