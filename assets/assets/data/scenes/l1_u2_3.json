@@ -31,8 +31,8 @@
     {
      "keywords": [
       "buttons",
-      "again",
       "hello",
+      "again",
       "mr"
      ],
      "suggestion": "Hello again, Mr Buttons!",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "pink",
-      "cake"
+      "cake",
+      "pink"
      ],
      "suggestion": "Pink cake, please!",
      "suggestionFa": "کیک صورتی، لطفاً!",
@@ -293,8 +293,8 @@
     {
      "keywords": [
       "apple",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "An apple is a good idea.",
      "suggestionFa": "سیب فکر خوبیه.",
@@ -340,8 +340,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "lovely",
+      "nicola",
       "thank"
      ],
      "suggestion": "Thank you for the lovely party, Nicola.",
@@ -352,8 +352,8 @@
     },
     {
      "keywords": [
-      "ever",
       "best",
+      "ever",
       "tea"
      ],
      "suggestion": "It's the best tea party ever!",

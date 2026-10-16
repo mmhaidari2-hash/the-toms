@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "free",
       "down",
+      "free",
       "sit"
      ],
      "suggestion": "No, it's free. Please sit down.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "where",
-      "going",
       "ahead",
+      "going",
+      "where",
       "go"
      ],
      "suggestion": "No, go ahead. Where are you going?",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "should",
-      "there",
-      "visit"
+      "visit",
+      "there"
      ],
      "suggestion": "What should I visit there?",
      "suggestionFa": "اونجا کجا را ببینم؟",
@@ -229,9 +229,9 @@
     {
      "keywords": [
       "love",
-      "one",
+      "day",
       "i'd",
-      "day"
+      "one"
      ],
      "suggestion": "I'd love to go one day.",
      "suggestionFa": "دوست دارم یه روز برم.",

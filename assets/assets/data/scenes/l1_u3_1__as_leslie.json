@@ -97,9 +97,9 @@
     {
      "keywords": [
       "downstairs",
-      "bedrooms",
-      "bathroom",
       "upstairs",
+      "bathroom",
+      "bedrooms",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -150,7 +150,7 @@
       "lovely",
       "under",
       "let's",
-      "room"
+      "roof"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
      "suggestionFa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "anything",
       "wardrobe",
+      "anything",
       "there's",
       "there",
-      "desk"
+      "need"
      ],
      "suggestion": "There's a bed, a desk and a wardrobe. Is there anything you need?",
      "suggestionFa": "یه تخت، یه میز تحریر و یه کمد لباس هست. چیزی لازم داری؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "yourself",
       "course",
-      "make",
+      "love",
       "home",
-      "love"
+      "make"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",

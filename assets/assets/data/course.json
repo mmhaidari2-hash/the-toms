@@ -9857,6 +9857,1470 @@
      "turns": 9
     }
    ]
+  },
+  {
+   "level": 3,
+   "id": "U27",
+   "title": "Hobbies and fitness",
+   "titleFa": "سرگرمی و تناسب اندام",
+   "place": "gym",
+   "canDo": "Talk about likes, habits and goals",
+   "canDoFa": "دربارهٔ علایق، عادت‌ها و اهداف صحبت کنی",
+   "lessons": [
+    {
+     "id": "l3_u7_1",
+     "title": "Joining the gym",
+     "titleFa": "عضویت در باشگاه",
+     "lead": "jade",
+     "place": "gym",
+     "grammar": "Verb + -ing / to: enjoy doing, want to do",
+     "grammarFa": "فعل + ing یا to",
+     "sceneIds": [
+      "l3_u7_1"
+     ],
+     "words": [
+      {
+       "word": "decide to",
+       "fa": "تصمیم گرفتن"
+      },
+      {
+       "word": "join",
+       "fa": "عضو شدن"
+      },
+      {
+       "word": "fitter",
+       "fa": "رو فرم‌تر"
+      },
+      {
+       "word": "stopped doing",
+       "fa": "دست کشیدن از"
+      },
+      {
+       "word": "lifting weights",
+       "fa": "وزنه زدن"
+      },
+      {
+       "word": "enjoy",
+       "fa": "لذت بردن"
+      },
+      {
+       "word": "prefer",
+       "fa": "ترجیح دادن"
+      },
+      {
+       "word": "hate",
+       "fa": "متنفر بودن"
+      },
+      {
+       "word": "classes",
+       "fa": "کلاس‌ها"
+      },
+      {
+       "word": "pool",
+       "fa": "استخر"
+      },
+      {
+       "word": "recommend trying",
+       "fa": "پیشنهاد امتحان کردن"
+      },
+      {
+       "word": "spin",
+       "fa": "دوچرخهٔ ثابت گروهی"
+      },
+      {
+       "word": "involve",
+       "fa": "شامل شدن"
+      },
+      {
+       "word": "either … or",
+       "fa": "یا … یا"
+      },
+      {
+       "word": "avoid going",
+       "fa": "اجتناب از رفتن"
+      },
+      {
+       "word": "give it a go",
+       "fa": "امتحان کردن"
+      },
+      {
+       "word": "goal",
+       "fa": "هدف"
+      },
+      {
+       "word": "lose weight",
+       "fa": "کاهش وزن"
+      },
+      {
+       "word": "hoping to",
+       "fa": "امیدوار بودن"
+      },
+      {
+       "word": "build muscle",
+       "fa": "عضله‌سازی"
+      },
+      {
+       "word": "stressed",
+       "fa": "پراسترس"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u7_2",
+     "title": "Sports day volunteer",
+     "titleFa": "داوطلب روز ورزش",
+     "lead": "coach",
+     "place": "sportsday",
+     "grammar": "Instructions and imperatives with sequencing",
+     "grammarFa": "دستورالعمل با ترتیب",
+     "sceneIds": [
+      "l3_u7_2"
+     ],
+     "words": [
+      {
+       "word": "volunteering",
+       "fa": "داوطلب شدن"
+      },
+      {
+       "word": "egg-and-spoon race",
+       "fa": "مسابقهٔ تخم‌مرغ و قاشق"
+      },
+      {
+       "word": "how does it work",
+       "fa": "چطور کار می‌کند"
+      },
+      {
+       "word": "each",
+       "fa": "هر"
+      },
+      {
+       "word": "plastic",
+       "fa": "پلاستیکی"
+      },
+      {
+       "word": "line up",
+       "fa": "ردیف کردن"
+      },
+      {
+       "word": "drop",
+       "fa": "انداختن"
+      },
+      {
+       "word": "per",
+       "fa": "در هر"
+      },
+      {
+       "word": "pick up",
+       "fa": "برداشتن"
+      },
+      {
+       "word": "carry on",
+       "fa": "ادامه دادن"
+      },
+      {
+       "word": "finish line",
+       "fa": "خط پایان"
+      },
+      {
+       "word": "blow the whistle",
+       "fa": "سوت زدن"
+      },
+      {
+       "word": "give out",
+       "fa": "پخش کردن"
+      },
+      {
+       "word": "stickers",
+       "fa": "برچسب‌ها"
+      },
+      {
+       "word": "bronze",
+       "fa": "برنز"
+      },
+      {
+       "word": "tears",
+       "fa": "اشک"
+      },
+      {
+       "word": "parents' race",
+       "fa": "مسابقهٔ والدین"
+      },
+      {
+       "word": "fall over",
+       "fa": "زمین خوردن"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u7_3",
+     "title": "The book club",
+     "titleFa": "باشگاه کتاب",
+     "lead": "bennett",
+     "place": "library",
+     "grammar": "Describing a book: It's about… / It's set in…",
+     "grammarFa": "توصیف کتاب",
+     "sceneIds": [
+      "l3_u7_3"
+     ],
+     "words": [
+      {
+       "word": "book club",
+       "fa": "باشگاه کتاب"
+      },
+      {
+       "word": "manage to",
+       "fa": "موفق شدن"
+      },
+      {
+       "word": "couldn't put it down",
+       "fa": "نمی‌توانستم زمین بگذارم"
+      },
+      {
+       "word": "chapters",
+       "fa": "فصل‌ها"
+      },
+      {
+       "word": "what's it about",
+       "fa": "دربارهٔ چیست"
+      },
+      {
+       "word": "set in",
+       "fa": "در … اتفاق می‌افتد"
+      },
+      {
+       "word": "pensioners",
+       "fa": "بازنشستگان"
+      },
+      {
+       "word": "solve",
+       "fa": "حل کردن"
+      },
+      {
+       "word": "retirement village",
+       "fa": "دهکدهٔ بازنشستگان"
+      },
+      {
+       "word": "favourite",
+       "fa": "مورد علاقه"
+      },
+      {
+       "word": "character",
+       "fa": "شخصیت"
+      },
+      {
+       "word": "reminded me of",
+       "fa": "مرا یاد … انداخت"
+      },
+      {
+       "word": "clever",
+       "fa": "باهوش"
+      },
+      {
+       "word": "detective",
+       "fa": "کارآگاه"
+      },
+      {
+       "word": "spoilers",
+       "fa": "لو دادن داستان"
+      },
+      {
+       "word": "expect",
+       "fa": "انتظار داشتن"
+      },
+      {
+       "word": "halfway through",
+       "fa": "وسط‌های کار"
+      },
+      {
+       "word": "recommend",
+       "fa": "توصیه کردن"
+      },
+      {
+       "word": "humour",
+       "fa": "طنز"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u7_4",
+     "title": "Nicola's new hobby",
+     "titleFa": "سرگرمی جدید نیکولا",
+     "lead": "nicola",
+     "place": "park",
+     "grammar": "Can / could / be able to for ability",
+     "grammarFa": "توانایی",
+     "sceneIds": [
+      "l3_u7_4"
+     ],
+     "words": [
+      {
+       "word": "ride",
+       "fa": "راندن"
+      },
+      {
+       "word": "stabilisers",
+       "fa": "چرخ‌های کمکی"
+      },
+      {
+       "word": "took off",
+       "fa": "درآورد"
+      },
+      {
+       "word": "couldn't",
+       "fa": "نمی‌توانست"
+      },
+      {
+       "word": "fell off",
+       "fa": "افتاد"
+      },
+      {
+       "word": "give up",
+       "fa": "تسلیم شدن"
+      },
+      {
+       "word": "without",
+       "fa": "بدون"
+      },
+      {
+       "word": "sort of",
+       "fa": "یه جورایی"
+      },
+      {
+       "word": "feet",
+       "fa": "پاها"
+      },
+      {
+       "word": "when you were little",
+       "fa": "وقتی کوچک بودی"
+      },
+      {
+       "word": "wasn't able to",
+       "fa": "نتوانست"
+      },
+      {
+       "word": "will be able to",
+       "fa": "خواهد توانست"
+      },
+      {
+       "word": "helmets",
+       "fa": "کلاه ایمنی"
+      },
+      {
+       "word": "bigger",
+       "fa": "بزرگ‌تر"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 3,
+   "id": "U28",
+   "title": "Problems at home",
+   "titleFa": "مشکلات خانه",
+   "place": "hallway",
+   "canDo": "Report problems and arrange repairs",
+   "canDoFa": "مشکلات را گزارش دهی و تعمیر هماهنگ کنی",
+   "lessons": [
+    {
+     "id": "l3_u8_1",
+     "title": "The boiler's broken",
+     "titleFa": "پکیج خراب شده",
+     "lead": "tom",
+     "place": "hallway",
+     "grammar": "have something done / get something fixed",
+     "grammarFa": "have something done",
+     "sceneIds": [
+      "l3_u8_1"
+     ],
+     "words": [
+      {
+       "word": "boiler",
+       "fa": "پکیج/دیگ آب گرم"
+      },
+      {
+       "word": "stopped working",
+       "fa": "از کار افتاد"
+      },
+      {
+       "word": "get it fixed",
+       "fa": "تعمیرش کردن"
+      },
+      {
+       "word": "properly",
+       "fa": "درست و حسابی"
+      },
+      {
+       "word": "plumber",
+       "fa": "لوله‌کش"
+      },
+      {
+       "word": "have it looked at",
+       "fa": "بدهیم نگاهش کنند"
+      },
+      {
+       "word": "law",
+       "fa": "قانون"
+      },
+      {
+       "word": "registered",
+       "fa": "ثبت‌شده"
+      },
+      {
+       "word": "meanwhile",
+       "fa": "در این فاصله"
+      },
+      {
+       "word": "boil the kettle",
+       "fa": "کتری را جوش آوردن"
+      },
+      {
+       "word": "radiators",
+       "fa": "رادیاتورها"
+      },
+      {
+       "word": "bled",
+       "fa": "هواگیری شده"
+      },
+      {
+       "word": "funny noise",
+       "fa": "صدای عجیب"
+      },
+      {
+       "word": "knocking",
+       "fa": "در زدن"
+      },
+      {
+       "word": "let out",
+       "fa": "خارج کردن"
+      },
+      {
+       "word": "heats",
+       "fa": "گرم می‌کند"
+      },
+      {
+       "word": "smoke alarm",
+       "fa": "آژیر دود"
+      },
+      {
+       "word": "reminder",
+       "fa": "یادآور"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u8_2",
+     "title": "The plumber's visit",
+     "titleFa": "آمدن لوله‌کش",
+     "lead": "tom",
+     "place": "hallway",
+     "grammar": "Relative clauses: who / which / that / where",
+     "grammarFa": "جمله‌های وصفی",
+     "sceneIds": [
+      "l3_u8_2"
+     ],
+     "words": [
+      {
+       "word": "engineer",
+       "fa": "متخصص"
+      },
+      {
+       "word": "who",
+       "fa": "که (برای افراد)"
+      },
+      {
+       "word": "cupboard",
+       "fa": "کمد"
+      },
+      {
+       "word": "which",
+       "fa": "که (برای اشیا)"
+      },
+      {
+       "word": "pressure gauge",
+       "fa": "فشارسنج"
+      },
+      {
+       "word": "showing",
+       "fa": "نشان می‌داد"
+      },
+      {
+       "word": "worried about",
+       "fa": "نگران"
+      },
+      {
+       "word": "leak",
+       "fa": "نشتی"
+      },
+      {
+       "word": "pipe",
+       "fa": "لوله"
+      },
+      {
+       "word": "under the floor",
+       "fa": "زیر کف"
+      },
+      {
+       "word": "dropped",
+       "fa": "افت کرد"
+      },
+      {
+       "word": "wet",
+       "fa": "خیس"
+      },
+      {
+       "word": "spot on",
+       "fa": "دقیقاً"
+      },
+      {
+       "word": "part",
+       "fa": "قطعه"
+      },
+      {
+       "word": "van",
+       "fa": "ون"
+      },
+      {
+       "word": "roughly",
+       "fa": "تقریباً"
+      },
+      {
+       "word": "go on then",
+       "fa": "باشه پس"
+      },
+      {
+       "word": "including",
+       "fa": "شامل"
+      },
+      {
+       "word": "receipt",
+       "fa": "رسید"
+      },
+      {
+       "word": "shout",
+       "fa": "صدا زدن"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u8_3",
+     "title": "The messy room deal",
+     "titleFa": "قرار اتاق نامرتب",
+     "lead": "ryan",
+     "place": "bedroom",
+     "grammar": "Negotiating: If you…, I'll… / How about if…?",
+     "grammarFa": "مذاکره",
+     "sceneIds": [
+      "l3_u8_3"
+     ],
+     "words": [
+      {
+       "word": "unless",
+       "fa": "مگر اینکه"
+      },
+      {
+       "word": "tidy",
+       "fa": "مرتب کردن"
+      },
+      {
+       "word": "impossible",
+       "fa": "غیرممکن"
+      },
+      {
+       "word": "bomb",
+       "fa": "بمب"
+      },
+      {
+       "word": "legend",
+       "fa": "اسطوره (تحسین غیررسمی)"
+      },
+      {
+       "word": "deal",
+       "fa": "قبول"
+      },
+      {
+       "word": "dirty socks",
+       "fa": "جوراب‌های کثیف"
+      },
+      {
+       "word": "how about if",
+       "fa": "چطور است اگر"
+      },
+      {
+       "word": "everywhere",
+       "fa": "همه‌جا"
+      },
+      {
+       "word": "wash basket",
+       "fa": "سبد رخت‌چرک"
+      },
+      {
+       "word": "floor",
+       "fa": "کف"
+      },
+      {
+       "word": "found",
+       "fa": "پیدا کرد"
+      },
+      {
+       "word": "headphones",
+       "fa": "هدفون"
+      },
+      {
+       "word": "benefits",
+       "fa": "فواید"
+      },
+      {
+       "word": "smell",
+       "fa": "بو"
+      },
+      {
+       "word": "keep it secret",
+       "fa": "مخفی نگه داشتن"
+      },
+      {
+       "word": "washing up",
+       "fa": "ظرف‌شستن"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u8_4",
+     "title": "A leaky tap",
+     "titleFa": "شیر آب چکه‌کن",
+     "lead": "weda",
+     "place": "bathroom",
+     "grammar": "Describing problems: It keeps… / It won't…",
+     "grammarFa": "توصیف مشکل",
+     "sceneIds": [
+      "l3_u8_4"
+     ],
+     "words": [
+      {
+       "word": "drip",
+       "fa": "چکه"
+      },
+      {
+       "word": "tap",
+       "fa": "شیر آب"
+      },
+      {
+       "word": "keeps dripping",
+       "fa": "مدام چکه می‌کند"
+      },
+      {
+       "word": "driving me mad",
+       "fa": "دیوانه‌ام می‌کند"
+      },
+      {
+       "word": "won't turn off",
+       "fa": "بسته نمی‌شود"
+      },
+      {
+       "word": "push hard",
+       "fa": "محکم فشار دادن"
+      },
+      {
+       "word": "washer",
+       "fa": "واشر"
+      },
+      {
+       "word": "used to",
+       "fa": "قبلاً … می‌کرد"
+      },
+      {
+       "word": "jobs",
+       "fa": "کارها"
+      },
+      {
+       "word": "aren't what they were",
+       "fa": "مثل قبل نیستند"
+      },
+      {
+       "word": "DIY shop",
+       "fa": "فروشگاه ابزار"
+      },
+      {
+       "word": "gem",
+       "fa": "جواهر"
+      },
+      {
+       "word": "plug",
+       "fa": "درپوش"
+      },
+      {
+       "word": "disappearing",
+       "fa": "ناپدید شدن"
+      },
+      {
+       "word": "spare",
+       "fa": "یدکی"
+      },
+      {
+       "word": "just in case",
+       "fa": "محض احتیاط"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 3,
+   "id": "U29",
+   "title": "Traditions",
+   "titleFa": "سنت‌ها",
+   "place": "christmas",
+   "canDo": "Talk about customs, past habits and celebrations",
+   "canDoFa": "دربارهٔ رسوم، عادت‌های گذشته و جشن‌ها صحبت کنی",
+   "lessons": [
+    {
+     "id": "l3_u9_1",
+     "title": "Christmas preparations",
+     "titleFa": "تدارکات کریسمس",
+     "lead": "leslie",
+     "place": "christmas",
+     "grammar": "used to / would for past habits",
+     "grammarFa": "used to و would",
+     "sceneIds": [
+      "l3_u9_1"
+     ],
+     "words": [
+      {
+       "word": "Christmas Eve",
+       "fa": "شب کریسمس"
+      },
+      {
+       "word": "used to",
+       "fa": "قبلاً … می‌کردیم"
+      },
+      {
+       "word": "mince pie",
+       "fa": "کلوچهٔ میوهٔ خشک"
+      },
+      {
+       "word": "Father Christmas",
+       "fa": "بابانوئل"
+      },
+      {
+       "word": "dried fruit",
+       "fa": "میوهٔ خشک"
+      },
+      {
+       "word": "reindeer",
+       "fa": "گوزن شمالی"
+      },
+      {
+       "word": "would always",
+       "fa": "همیشه … می‌کرد"
+      },
+      {
+       "word": "crumbs",
+       "fa": "خرده‌ها"
+      },
+      {
+       "word": "celebrations",
+       "fa": "جشن‌ها"
+      },
+      {
+       "word": "back home",
+       "fa": "در وطن"
+      },
+      {
+       "word": "relative",
+       "fa": "فامیل"
+      },
+      {
+       "word": "sweets",
+       "fa": "شیرینی"
+      },
+      {
+       "word": "similar",
+       "fa": "مشابه"
+      },
+      {
+       "word": "wrap",
+       "fa": "کادو کردن"
+      },
+      {
+       "word": "presents",
+       "fa": "هدیه‌ها"
+      },
+      {
+       "word": "sellotape",
+       "fa": "چسب نواری"
+      },
+      {
+       "word": "trainers",
+       "fa": "کفش ورزشی"
+      },
+      {
+       "word": "grow up",
+       "fa": "بزرگ شدن"
+      },
+      {
+       "word": "hide",
+       "fa": "قایم کردن"
+      },
+      {
+       "word": "stairs",
+       "fa": "پله‌ها"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u9_2",
+     "title": "Bonfire Night treats",
+     "titleFa": "خوراکی‌های شب آتش‌بازی",
+     "lead": "baker",
+     "place": "bakery",
+     "grammar": "Explaining history: It started when… / It's because…",
+     "grammarFa": "توضیح تاریخچه",
+     "sceneIds": [
+      "l3_u9_2"
+     ],
+     "words": [
+      {
+       "word": "fancy",
+       "fa": "میل داشتن"
+      },
+      {
+       "word": "parkin",
+       "fa": "کیک زنجبیلی شمالی"
+      },
+      {
+       "word": "Bonfire Night",
+       "fa": "شب آتش‌بازی"
+      },
+      {
+       "word": "this time of year",
+       "fa": "این موقع سال"
+      },
+      {
+       "word": "sticky",
+       "fa": "چسبناک"
+      },
+      {
+       "word": "ginger",
+       "fa": "زنجبیل"
+      },
+      {
+       "word": "blow up",
+       "fa": "منفجر کردن"
+      },
+      {
+       "word": "Parliament",
+       "fa": "پارلمان"
+      },
+      {
+       "word": "succeed",
+       "fa": "موفق شدن"
+      },
+      {
+       "word": "caught",
+       "fa": "دستگیر شد"
+      },
+      {
+       "word": "lit",
+       "fa": "روشن کرد"
+      },
+      {
+       "word": "bonfires",
+       "fa": "آتش بزرگ"
+      },
+      {
+       "word": "mainly",
+       "fa": "عمدتاً"
+      },
+      {
+       "word": "fireworks",
+       "fa": "آتش‌بازی"
+      },
+      {
+       "word": "display",
+       "fa": "نمایش"
+      },
+      {
+       "word": "busy",
+       "fa": "شلوغ"
+      },
+      {
+       "word": "early",
+       "fa": "زود"
+      },
+      {
+       "word": "sparklers",
+       "fa": "فشفشه"
+      },
+      {
+       "word": "slice",
+       "fa": "تکه"
+      },
+      {
+       "word": "tray",
+       "fa": "سینی"
+      },
+      {
+       "word": "stickier",
+       "fa": "چسبناک‌تر"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u9_3",
+     "title": "Nicola's birthday wishes",
+     "titleFa": "آرزوهای تولد نیکولا",
+     "lead": "nicola",
+     "place": "birthday",
+     "grammar": "wish / hope: I hope… / I wish I could…",
+     "grammarFa": "آرزو و امید",
+     "sceneIds": [
+      "l3_u9_3"
+     ],
+     "words": [
+      {
+       "word": "present",
+       "fa": "کادو"
+      },
+      {
+       "word": "I hope",
+       "fa": "امیدوارم"
+      },
+      {
+       "word": "I wish I could",
+       "fa": "کاش می‌توانستم"
+      },
+      {
+       "word": "real",
+       "fa": "واقعی"
+      },
+      {
+       "word": "fit",
+       "fa": "جا شدن"
+      },
+      {
+       "word": "museum",
+       "fa": "موزه"
+      },
+      {
+       "word": "Natural History Museum",
+       "fa": "موزهٔ تاریخ طبیعی"
+      },
+      {
+       "word": "soon",
+       "fa": "به زودی"
+      },
+      {
+       "word": "whale",
+       "fa": "نهنگ"
+      },
+      {
+       "word": "last forever",
+       "fa": "تا ابد ادامه داشتن"
+      },
+      {
+       "word": "perfect",
+       "fa": "بی‌نقص"
+      },
+      {
+       "word": "scientist",
+       "fa": "دانشمند"
+      },
+      {
+       "word": "palaeontologist",
+       "fa": "دیرین‌شناس"
+      },
+      {
+       "word": "make a wish",
+       "fa": "آرزو کردن"
+      },
+      {
+       "word": "blow out",
+       "fa": "فوت کردن"
+      },
+      {
+       "word": "candles",
+       "fa": "شمع‌ها"
+      }
+     ],
+     "turns": 13
+    },
+    {
+     "id": "l3_u9_4",
+     "title": "Remembrance Sunday",
+     "titleFa": "یکشنبهٔ یادبود",
+     "lead": "william",
+     "place": "eveningtea",
+     "grammar": "Respectful language and past events",
+     "grammarFa": "زبان محترمانه و رویدادهای گذشته",
+     "sceneIds": [
+      "l3_u9_4"
+     ],
+     "words": [
+      {
+       "word": "poppy",
+       "fa": "گل شقایق"
+      },
+      {
+       "word": "Remembrance Sunday",
+       "fa": "یکشنبهٔ یادبود"
+      },
+      {
+       "word": "everywhere",
+       "fa": "همه‌جا"
+      },
+      {
+       "word": "remember",
+       "fa": "به یاد آوردن"
+      },
+      {
+       "word": "died",
+       "fa": "مرد"
+      },
+      {
+       "word": "wars",
+       "fa": "جنگ‌ها"
+      },
+      {
+       "word": "battlefields",
+       "fa": "میدان‌های نبرد"
+      },
+      {
+       "word": "moving",
+       "fa": "تأثیرگذار"
+      },
+      {
+       "word": "Royal Navy",
+       "fa": "نیروی دریایی سلطنتی"
+      },
+      {
+       "word": "brave",
+       "fa": "شجاع"
+      },
+      {
+       "word": "must have been",
+       "fa": "حتماً بوده"
+      },
+      {
+       "word": "generation",
+       "fa": "نسل"
+      },
+      {
+       "word": "service",
+       "fa": "مراسم"
+      },
+      {
+       "word": "memories",
+       "fa": "خاطرات"
+      },
+      {
+       "word": "painful",
+       "fa": "دردناک"
+      },
+      {
+       "word": "honoured",
+       "fa": "مفتخر"
+      }
+     ],
+     "turns": 11
+    }
+   ]
+  },
+  {
+   "level": 3,
+   "id": "U30",
+   "title": "Speaking your mind",
+   "titleFa": "نظرت را گفتن",
+   "place": "university",
+   "canDo": "Agree, disagree and discuss issues politely",
+   "canDoFa": "مؤدبانه موافقت، مخالفت و بحث کنی",
+   "lessons": [
+    {
+     "id": "l3_u10_1",
+     "title": "A seminar debate",
+     "titleFa": "بحث در سمینار",
+     "lead": "al",
+     "place": "university",
+     "grammar": "Agreeing and disagreeing politely",
+     "grammarFa": "موافقت و مخالفت مؤدبانه",
+     "sceneIds": [
+      "l3_u10_1"
+     ],
+     "words": [
+      {
+       "word": "seminar",
+       "fa": "سمینار"
+      },
+      {
+       "word": "should",
+       "fa": "باید"
+      },
+      {
+       "word": "education",
+       "fa": "آموزش"
+      },
+      {
+       "word": "right",
+       "fa": "حق"
+      },
+      {
+       "word": "in my view",
+       "fa": "به نظر من"
+      },
+      {
+       "word": "interesting",
+       "fa": "جالب"
+      },
+      {
+       "word": "somebody",
+       "fa": "کسی"
+      },
+      {
+       "word": "higher taxes",
+       "fa": "مالیات بیشتر"
+      },
+      {
+       "word": "educated",
+       "fa": "تحصیل‌کرده"
+      },
+      {
+       "word": "I see your point",
+       "fa": "منظورت را می‌فهمم"
+      },
+      {
+       "word": "argument",
+       "fa": "استدلال"
+      },
+      {
+       "word": "degree",
+       "fa": "مدرک"
+      },
+      {
+       "word": "apprenticeships",
+       "fa": "کارآموزی"
+      },
+      {
+       "word": "partly",
+       "fa": "تا حدی"
+      },
+      {
+       "word": "open doors",
+       "fa": "فرصت ایجاد کردن"
+      },
+      {
+       "word": "to sum up",
+       "fa": "جمع‌بندی"
+      },
+      {
+       "word": "improve",
+       "fa": "بهبود دادن"
+      },
+      {
+       "word": "more or less",
+       "fa": "کم و بیش"
+      },
+      {
+       "word": "choice",
+       "fa": "انتخاب"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l3_u10_2",
+     "title": "Presenting a project",
+     "titleFa": "ارائهٔ پروژه",
+     "lead": "ryan",
+     "place": "conference",
+     "grammar": "Presentation language: First of all… / To conclude…",
+     "grammarFa": "زبان ارائه",
+     "sceneIds": [
+      "l3_u10_2"
+     ],
+     "words": [
+      {
+       "word": "present",
+       "fa": "ارائه دادن"
+      },
+      {
+       "word": "fair",
+       "fa": "نمایشگاه"
+      },
+      {
+       "word": "practise",
+       "fa": "تمرین کردن"
+      },
+      {
+       "word": "presentation",
+       "fa": "ارائه"
+      },
+      {
+       "word": "first of all",
+       "fa": "اول از همه"
+      },
+      {
+       "word": "solar-powered",
+       "fa": "خورشیدی"
+      },
+      {
+       "word": "charger",
+       "fa": "شارژر"
+      },
+      {
+       "word": "slowly",
+       "fa": "آهسته"
+      },
+      {
+       "word": "the reason",
+       "fa": "دلیل"
+      },
+      {
+       "word": "dies",
+       "fa": "خاموش می‌شود"
+      },
+      {
+       "word": "secondly",
+       "fa": "دوم"
+      },
+      {
+       "word": "environment",
+       "fa": "محیط زیست"
+      },
+      {
+       "word": "charge",
+       "fa": "شارژ کردن"
+      },
+      {
+       "word": "as you can see",
+       "fa": "همان‌طور که می‌بینید"
+      },
+      {
+       "word": "sunlight",
+       "fa": "نور خورشید"
+      },
+      {
+       "word": "judges",
+       "fa": "داوران"
+      },
+      {
+       "word": "finish",
+       "fa": "تمام کردن"
+      },
+      {
+       "word": "to conclude",
+       "fa": "در پایان"
+      },
+      {
+       "word": "inventions",
+       "fa": "اختراعات"
+      },
+      {
+       "word": "difference",
+       "fa": "تفاوت"
+      },
+      {
+       "word": "cost",
+       "fa": "هزینه"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u10_3",
+     "title": "A neighbourhood problem",
+     "titleFa": "مشکل محله",
+     "lead": "tom",
+     "place": "hallway",
+     "grammar": "Making complaints and suggestions formally",
+     "grammarFa": "شکایت و پیشنهاد رسمی",
+     "sceneIds": [
+      "l3_u10_3"
+     ],
+     "words": [
+      {
+       "word": "leaflet",
+       "fa": "بروشور"
+      },
+      {
+       "word": "council",
+       "fa": "شورای شهر"
+      },
+      {
+       "word": "save money",
+       "fa": "صرفه‌جویی"
+      },
+      {
+       "word": "weekends",
+       "fa": "آخر هفته‌ها"
+      },
+      {
+       "word": "consultation",
+       "fa": "نظرخواهی"
+      },
+      {
+       "word": "councillor",
+       "fa": "عضو شورای شهر"
+      },
+      {
+       "word": "draft",
+       "fa": "پیش‌نویس کردن"
+      },
+      {
+       "word": "matters",
+       "fa": "مهم است"
+      },
+      {
+       "word": "express",
+       "fa": "ابراز کردن"
+      },
+      {
+       "word": "concern",
+       "fa": "نگرانی"
+      },
+      {
+       "word": "proposed",
+       "fa": "پیشنهادی"
+      },
+      {
+       "word": "closures",
+       "fa": "تعطیلی‌ها"
+      },
+      {
+       "word": "formal",
+       "fa": "رسمی"
+      },
+      {
+       "word": "resident",
+       "fa": "ساکن"
+      },
+      {
+       "word": "vital",
+       "fa": "حیاتی"
+      },
+      {
+       "word": "older people",
+       "fa": "سالمندان"
+      },
+      {
+       "word": "mention",
+       "fa": "اشاره کردن"
+      },
+      {
+       "word": "constructive",
+       "fa": "سازنده"
+      },
+      {
+       "word": "volunteers",
+       "fa": "داوطلبان"
+      },
+      {
+       "word": "look forward to",
+       "fa": "مشتاق بودن"
+      },
+      {
+       "word": "put my name down",
+       "fa": "اسمم را بنویس"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l3_u10_4",
+     "title": "Looking back",
+     "titleFa": "نگاهی به گذشته",
+     "lead": "dave",
+     "place": "pub",
+     "grammar": "Review: present perfect, past, conditionals and opinions",
+     "grammarFa": "مرور",
+     "sceneIds": [
+      "l3_u10_4"
+     ],
+     "words": [
+      {
+       "word": "here's to you",
+       "fa": "به سلامتی تو"
+      },
+      {
+       "word": "exactly",
+       "fa": "دقیقاً"
+      },
+      {
+       "word": "since",
+       "fa": "از وقتی"
+      },
+      {
+       "word": "feel at home",
+       "fa": "احساس راحتی کردن"
+      },
+      {
+       "word": "hardest",
+       "fa": "سخت‌ترین"
+      },
+      {
+       "word": "definitely",
+       "fa": "قطعاً"
+      },
+      {
+       "word": "dry humour",
+       "fa": "طنز خشک"
+      },
+      {
+       "word": "go back",
+       "fa": "برگشتن"
+      },
+      {
+       "word": "piece of advice",
+       "fa": "یک توصیه"
+      },
+      {
+       "word": "afraid",
+       "fa": "ترسیده"
+      },
+      {
+       "word": "mistakes",
+       "fa": "اشتباهات"
+      },
+      {
+       "word": "umbrella",
+       "fa": "چتر"
+      },
+      {
+       "word": "wise",
+       "fa": "حکیمانه"
+      },
+      {
+       "word": "what's next",
+       "fa": "بعدش چه"
+      },
+      {
+       "word": "applied for",
+       "fa": "درخواست داد"
+      },
+      {
+       "word": "cross",
+       "fa": "عصبانی"
+      },
+      {
+       "word": "study partner",
+       "fa": "هم‌درس"
+      },
+      {
+       "word": "not going anywhere",
+       "fa": "جایی نمی‌روم"
+      }
+     ],
+     "turns": 11
+    }
+   ]
   }
  ]
 }

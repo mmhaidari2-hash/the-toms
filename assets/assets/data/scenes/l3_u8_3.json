@@ -20,8 +20,8 @@
     {
      "keywords": [
       "looks",
-      "bomb",
       "like",
+      "bomb",
       "hit"
      ],
      "suggestion": "Wow. It looks like a bomb hit it!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "impossible",
-      "i'll",
-      "help"
+      "help",
+      "i'll"
      ],
      "suggestion": "It's not impossible. I'll help you.",
      "suggestionFa": "غیرممکن نیست. کمکت می‌کنم.",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
+      "doing",
       "dirty",
       "socks",
-      "doing",
       "deal"
      ],
      "suggestion": "Deal. But you're doing the dirty socks!",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "about",
-      "make",
       "also",
+      "make",
       "how"
      ],
      "suggestion": "How about if you also make me a cup of tea?",
@@ -132,8 +132,8 @@
      "keywords": [
       "clothes",
       "basket",
-      "dirty",
-      "first"
+      "first",
+      "dirty"
      ],
      "suggestion": "First, let's put the dirty clothes in the wash basket.",
      "suggestionFa": "اول، بیا لباس‌های کثیف را بذاریم تو سبد رخت‌چرک.",
@@ -143,9 +143,9 @@
     },
     {
      "keywords": [
-      "start",
       "can't",
       "floor",
+      "start",
       "see"
      ],
      "suggestion": "Let's start with the floor. I can't see it!",

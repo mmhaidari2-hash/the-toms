@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "like"
+      "book"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -91,8 +91,8 @@
      "keywords": [
       "toothache",
       "i've",
-      "got",
-      "yet"
+      "yet",
+      "got"
      ],
      "suggestion": "I'm not registered yet. I've got toothache.",
      "suggestionFa": "هنوز ثبت‌نام نکردم. دندون‌درد دارم.",
@@ -183,7 +183,7 @@
       "thursday",
       "perfect",
       "past",
-      "two"
+      "ten"
      ],
      "suggestion": "Thursday at ten past two is perfect.",
      "suggestionFa": "پنجشنبه دو و ده دقیقه عالیه.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "morning",
-      "please",
       "friday",
+      "please",
       "could"
      ],
      "suggestion": "Could I have Friday morning, please?",
@@ -233,7 +233,7 @@
       "double",
       "seven",
       "nine",
-      "one"
+      "two"
      ],
      "suggestion": "It's oh-seven-seven-double-oh, nine-one-two…",
      "suggestionFa": "صفر-هفت-هفت-دو صفر، نه-یک-دو…",
