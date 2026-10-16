@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "bread",
-      "loaf",
-      "have"
+      "have",
+      "loaf"
      ],
      "suggestion": "Can I have a loaf of bread, please?",
      "suggestionFa": "می‌شه یه قرص نون بدید لطفاً؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "morning",
       "looking",
+      "morning",
       "thanks",
       "just"
      ],
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "white",
       "looks",
+      "white",
       "nice"
      ],
      "suggestion": "That white one looks nice.",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "eccles",
-      "i'll",
       "cake",
+      "i'll",
       "try"
      ],
      "suggestion": "I'll try an Eccles cake.",
@@ -290,7 +290,7 @@
      "keywords": [
       "here's",
       "pound",
-      "cash",
+      "note",
       "five"
      ],
      "suggestion": "Cash. Here's a five-pound note.",

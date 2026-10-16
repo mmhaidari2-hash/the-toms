@@ -1,0 +1,295 @@
+{
+ "id": "l3_u2_1",
+ "characterId": "okafor",
+ "title": "Describing symptoms",
+ "titleFa": "توصیف علائم",
+ "setting": "The NHS and you · Level 3",
+ "settingFa": "شما و NHS",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "Come in and take a seat. What seems to be the problem today?",
+   "translations": {
+    "fa": "بفرمایید بنشینید. امروز مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "headaches",
+      "getting",
+      "about",
+      "weeks"
+     ],
+     "suggestion": "I've been getting headaches for about two weeks.",
+     "suggestionFa": "حدود دو هفته‌ست سردرد می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hurting",
+      "moved",
+      "since",
+      "sofa"
+     ],
+     "suggestion": "My back has been hurting since I moved a sofa.",
+     "suggestionFa": "از وقتی یه مبل جابه‌جا کردم کمرم درد می‌کنه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what seems to be the problem",
+     "fa": "مشکل چیست"
+    },
+    {
+     "word": "headaches",
+     "fa": "سردردها"
+    },
+    {
+     "word": "back",
+     "fa": "کمر"
+    },
+    {
+     "word": "hurting",
+     "fa": "درد کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "okafor",
+   "text": "I see. Is the pain worse at a particular time of day?",
+   "translations": {
+    "fa": "متوجهم. درد تو زمان خاصی از روز بدتره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "evening",
+      "usually",
+      "after",
+      "worse"
+     ],
+     "suggestion": "It's usually worse in the evening, after work.",
+     "suggestionFa": "معمولاً عصرها، بعد از کار، بدتره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "worst",
+      "thing",
+      "first"
+     ],
+     "suggestion": "It's worst first thing in the morning.",
+     "suggestionFa": "اول صبح از همه بدتره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pain",
+     "fa": "درد"
+    },
+    {
+     "word": "worse",
+     "fa": "بدتر"
+    },
+    {
+     "word": "particular",
+     "fa": "خاص"
+    },
+    {
+     "word": "first thing in the morning",
+     "fa": "اول صبح"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "And how many hours a day do you spend looking at a screen?",
+   "translations": {
+    "fa": "و روزی چند ساعت به صفحه‌نمایش نگاه می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "probably",
+      "honest",
+      "eight",
+      "nine"
+     ],
+     "suggestion": "Probably eight or nine, to be honest.",
+     "suggestionFa": "راستش احتمالاً هشت نه ساعت.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "outside",
+      "mostly",
+      "work",
+      "many"
+     ],
+     "suggestion": "Not many. I work outside mostly.",
+     "suggestionFa": "زیاد نه. بیشتر بیرون کار می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spend",
+     "fa": "گذراندن"
+    },
+    {
+     "word": "screen",
+     "fa": "صفحه‌نمایش"
+    },
+    {
+     "word": "to be honest",
+     "fa": "راستش"
+    },
+    {
+     "word": "mostly",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "okafor",
+   "text": "That could be it. If you take regular breaks, the headaches will probably improve. If they don't, we'll do some tests.",
+   "translations": {
+    "fa": "ممکنه همین باشه. اگه مرتب استراحت کنید، سردردها احتمالاً بهتر میشن. اگه نشدن، چندتا آزمایش می‌گیریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "happen",
+      "them",
+      "will"
+     ],
+     "suggestion": "What will happen if I keep getting them?",
+     "suggestionFa": "اگه همچنان ادامه پیدا کنه چی میشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tested",
+      "should",
+      "eyes",
+      "get"
+     ],
+     "suggestion": "Should I get my eyes tested too?",
+     "suggestionFa": "چشمم را هم معاینه کنم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "regular breaks",
+     "fa": "استراحت منظم"
+    },
+    {
+     "word": "improve",
+     "fa": "بهتر شدن"
+    },
+    {
+     "word": "tests",
+     "fa": "آزمایش‌ها"
+    },
+    {
+     "word": "keep getting",
+     "fa": "مدام گرفتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "Good idea. An optician can test your eyes for about twenty pounds. If you need glasses, that'll make a big difference.",
+   "translations": {
+    "fa": "فکر خوبیه. بینایی‌سنج با حدود بیست پوند چشمتون را معاینه می‌کنه. اگه عینک لازم باشه، خیلی فرق می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i'll",
+      "week",
+      "test",
+      "book"
+     ],
+     "suggestion": "I'll book an eye test this week.",
+     "suggestionFa": "این هفته وقت معاینهٔ چشم می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "optician",
+      "what's"
+     ],
+     "suggestion": "What's an optician?",
+     "suggestionFa": "optician چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "optician",
+     "fa": "بینایی‌سنج/عینک‌ساز"
+    },
+    {
+     "word": "test",
+     "fa": "معاینه کردن"
+    },
+    {
+     "word": "glasses",
+     "fa": "عینک"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you go to an optician (on the high street) for eye tests, not to your GP.",
+    "fa": "برای معاینهٔ چشم به optician بروید."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "An eye specialist on the high street. Come back in a month if you're not feeling better, and drink more water!",
+   "translations": {
+    "fa": "یه متخصص چشم تو خیابون اصلی. اگه حالتون بهتر نشد یه ماه دیگه برگردید، و بیشتر آب بخورید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

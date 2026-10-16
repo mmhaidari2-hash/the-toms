@@ -1,0 +1,342 @@
+{
+ "id": "l3_u5_1",
+ "characterId": "patel",
+ "title": "Parents' evening",
+ "titleFa": "جلسهٔ اولیا",
+ "setting": "School life · Level 3",
+ "settingFa": "زندگی مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "patel",
+   "text": "Welcome, both of you. Nicola tells me you help her with her reading every night.",
+   "translations": {
+    "fa": "به هر دوتون خوش اومدید. نیکولا بهم می‌گه هر شب تو خوندن کمکش می‌کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reading",
+      "thank",
+      "loves",
+      "she"
+     ],
+     "suggestion": "Thank you. She loves reading with us.",
+     "suggestionFa": "ممنون. عاشق کتاب خوندن با ماست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "her",
+      "ask",
+      "go"
+     ],
+     "suggestion": "We do! Leslie, go on, ask her.",
+     "suggestionFa": "آره! لزلی، بپرس.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "We try! Before we start — Nicola asked if she could move to the top reading group.",
+   "translations": {
+    "fa": "سعی می‌کنیم! قبل از شروع — نیکولا پرسید که آیا می‌تونه بره گروه خوندن بالاتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "wants"
+     ],
+     "suggestion": "Yes, she really wants to.",
+     "suggestionFa": "آره، خیلی دلش می‌خواد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "asked",
+      "ask"
+     ],
+     "suggestion": "She asked me to ask you too!",
+     "suggestionFa": "از من هم خواست ازتون بپرسم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reading",
+     "fa": "خواندن"
+    },
+    {
+     "word": "asked if",
+     "fa": "پرسید آیا"
+    },
+    {
+     "word": "top group",
+     "fa": "گروه بالاتر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "patel",
+   "text": "That's sweet. She's made great progress. I've been wondering whether she's ready, and I think she is.",
+   "translations": {
+    "fa": "چه بامزه. خیلی پیشرفت کرده. داشتم فکر می‌کردم آیا آماده‌ست، و فکر می‌کنم هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "that's",
+      "news"
+     ],
+     "suggestion": "That's wonderful news.",
+     "suggestionFa": "خبر فوق‌العاده‌ایه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "homework",
+      "extra",
+      "need",
+      "she"
+     ],
+     "suggestion": "Does she need to do extra homework?",
+     "suggestionFa": "باید تکلیف اضافه انجام بده؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "progress",
+     "fa": "پیشرفت"
+    },
+    {
+     "word": "wondering whether",
+     "fa": "فکر می‌کردم آیا"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "patel",
+   "text": "Just keep reading with her. Now, Tom wanted to know how she gets on with the other children.",
+   "translations": {
+    "fa": "فقط به خوندن باهاش ادامه بدید. حالا، تام می‌خواست بدونه با بچه‌های دیگه چطوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ahead",
+      "tom",
+      "go"
+     ],
+     "suggestion": "Tom, go ahead.",
+     "suggestionFa": "تام، بپرس.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "worried",
+      "were",
+      "bit",
+      "we"
+     ],
+     "suggestion": "Yes, we were a bit worried.",
+     "suggestionFa": "آره، یه کم نگران بودیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Yes — she said someone was being unkind at lunchtime.",
+   "translations": {
+    "fa": "آره — گفت یکی سر ناهار باهاش بدرفتاری می‌کرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thing",
+      "same",
+      "told",
+      "she"
+     ],
+     "suggestion": "She told me the same thing.",
+     "suggestionFa": "به من هم همینو گفت.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happened",
+      "wanted",
+      "ask",
+      "we"
+     ],
+     "suggestion": "We wanted to ask what happened.",
+     "suggestionFa": "می‌خواستیم بپرسیم چی شد.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wanted to know",
+     "fa": "می‌خواست بداند"
+    },
+    {
+     "word": "gets on with",
+     "fa": "کنار آمدن با"
+    },
+    {
+     "word": "unkind",
+     "fa": "نامهربان"
+    },
+    {
+     "word": "lunchtime",
+     "fa": "وقت ناهار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "patel",
+   "text": "I'm glad you mentioned it. A boy took her crisps a few times. We spoke to him, and his parents apologised.",
+   "translations": {
+    "fa": "خوشحالم که گفتید. یه پسر چند بار چیپس‌هاش را برداشت. باهاش صحبت کردیم و والدینش عذرخواهی کردن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quickly",
+      "dealing",
+      "thank"
+     ],
+     "suggestion": "Thank you for dealing with it so quickly.",
+     "suggestionFa": "ممنون که این‌قدر سریع رسیدگی کردید.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lunchtime",
+      "happy",
+      "now",
+      "she"
+     ],
+     "suggestion": "Is she happy at lunchtime now?",
+     "suggestionFa": "الان سر ناهار خوشحاله؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mentioned",
+     "fa": "اشاره کرد"
+    },
+    {
+     "word": "crisps",
+     "fa": "چیپس"
+    },
+    {
+     "word": "apologised",
+     "fa": "عذرخواهی کرد"
+    },
+    {
+     "word": "dealing with",
+     "fa": "رسیدگی کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: crisps (UK) = chips (US); chips (UK) = fries (US).",
+    "fa": "crisps در بریتانیا یعنی چیپس بسته‌ای."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "patel",
+   "text": "Very. She sits with Mia every day now. They asked me if they could start a \"dinosaur club\"!",
+   "translations": {
+    "fa": "خیلی. الان هر روز با میا می‌شینه. ازم پرسیدن می‌تونن یه «باشگاه دایناسور» راه بندازن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "sounds",
+      "like",
+      "ha"
+     ],
+     "suggestion": "Ha! That sounds like Nicola.",
+     "suggestionFa": "ها! این خیلی نیکولاییه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "did",
+      "say"
+     ],
+     "suggestion": "Did you say yes?",
+     "suggestionFa": "گفتید آره؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "club",
+     "fa": "باشگاه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "patel",
+   "text": "Of course. Wednesdays at break time. Thank you both — and keep up the reading!",
+   "translations": {
+    "fa": "معلومه. چهارشنبه‌ها زنگ تفریح. ممنون از هر دوتون — و به خوندن ادامه بدید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

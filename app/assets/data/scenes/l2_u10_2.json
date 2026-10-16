@@ -70,8 +70,8 @@
      "keywords": [
       "o'clock",
       "booked",
-      "table",
-      "seven"
+      "seven",
+      "table"
      ],
      "suggestion": "We booked a table for seven o'clock.",
      "suggestionFa": "برای ساعت هفت میز رزرو کردیم.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "mistake",
       "there's",
+      "mistake",
       "think",
       "been"
      ],
@@ -206,7 +206,7 @@
       "possible",
       "that's",
       "would",
-      "wait"
+      "fine"
      ],
      "suggestion": "That's fine. Would it be possible to wait at the bar?",
      "suggestionFa": "اشکالی نداره. ممکنه کنار بار منتظر بمونیم؟",
@@ -219,7 +219,7 @@
       "anything",
       "little",
       "sooner",
-      "there"
+      "we've"
      ],
      "suggestion": "We've got a little girl. Is there anything sooner?",
      "suggestionFa": "یه دختر کوچولو داریم. زودتر نمیشه؟",

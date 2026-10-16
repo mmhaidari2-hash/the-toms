@@ -1,0 +1,293 @@
+{
+ "id": "l3_u7_3",
+ "characterId": "bennett",
+ "title": "The book club",
+ "titleFa": "باشگاه کتاب",
+ "setting": "Hobbies and fitness · Level 3",
+ "settingFa": "سرگرمی و تناسب اندام",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "Welcome to the book club! We've all been reading \"The Thursday Murder Club\". Did you manage to finish it?",
+   "translations": {
+    "fa": "به باشگاه کتاب خوش اومدید! همه داشتیم «باشگاه قتل پنجشنبه» را می‌خوندیم. تونستید تمومش کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finished",
+      "couldn't",
+      "night",
+      "last"
+     ],
+     "suggestion": "Yes, I finished it last night. I couldn't put it down!",
+     "suggestionFa": "آره، دیشب تمومش کردم. نمی‌تونستم زمینش بذارم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chapters",
+      "almost",
+      "left",
+      "i've"
+     ],
+     "suggestion": "Almost. I've got two chapters left.",
+     "suggestionFa": "تقریباً. دو فصل مونده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "book club",
+     "fa": "باشگاه کتاب"
+    },
+    {
+     "word": "manage to",
+     "fa": "موفق شدن"
+    },
+    {
+     "word": "couldn't put it down",
+     "fa": "نمی‌توانستم زمین بگذارم"
+    },
+    {
+     "word": "chapters",
+     "fa": "فصل‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "Wonderful. For anyone new — what's it about, and where is it set?",
+   "translations": {
+    "fa": "عالیه. برای تازه‌واردها — دربارهٔ چیه و کجا اتفاق میفته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pensioners",
+      "murders",
+      "solve",
+      "about"
+     ],
+     "suggestion": "It's about four pensioners who solve murders.",
+     "suggestionFa": "دربارهٔ چهار بازنشسته‌ست که قتل‌ها را حل می‌کنن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "retirement",
+      "village",
+      "kent",
+      "set"
+     ],
+     "suggestion": "It's set in a retirement village in Kent.",
+     "suggestionFa": "تو یه دهکدهٔ بازنشستگان تو کنت اتفاق میفته.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what's it about",
+     "fa": "دربارهٔ چیست"
+    },
+    {
+     "word": "set in",
+     "fa": "در … اتفاق می‌افتد"
+    },
+    {
+     "word": "pensioners",
+     "fa": "بازنشستگان"
+    },
+    {
+     "word": "solve",
+     "fa": "حل کردن"
+    },
+    {
+     "word": "retirement village",
+     "fa": "دهکدهٔ بازنشستگان"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bennett",
+   "text": "Exactly. Who was your favourite character?",
+   "translations": {
+    "fa": "دقیقاً. شخصیت مورد علاقه‌تون کی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reminded",
+      "joyce",
+      "weda",
+      "she"
+     ],
+     "suggestion": "Joyce. She reminded me of Weda!",
+     "suggestionFa": "جویس. منو یاد ودا انداخت!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "elizabeth",
+      "clever",
+      "scary",
+      "she's"
+     ],
+     "suggestion": "Elizabeth. She's clever and a bit scary.",
+     "suggestionFa": "الیزابت. باهوشه و یه کم ترسناک.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    },
+    {
+     "word": "character",
+     "fa": "شخصیت"
+    },
+    {
+     "word": "reminded me of",
+     "fa": "مرا یاد … انداخت"
+    },
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: favourite, colour, humour. American: favorite, color, humor.",
+    "fa": "املای بریتانیایی favourite است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bennett",
+   "text": "Ha! Weda would be a brilliant detective. What did you think of the ending? No spoilers for Margaret — she's on chapter ten!",
+   "translations": {
+    "fa": "ها! ودا کارآگاه فوق‌العاده‌ای میشه. نظرتون دربارهٔ پایانش چی بود؟ برای مارگارت لو ندید — فصل ده‌ـه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surprise",
+      "didn't",
+      "expect",
+      "real"
+     ],
+     "suggestion": "I didn't expect it at all. It was a real surprise.",
+     "suggestionFa": "اصلاً انتظارش را نداشتم. واقعاً غافلگیرکننده بود.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "guessed",
+      "halfway",
+      "through",
+      "did"
+     ],
+     "suggestion": "I guessed who did it halfway through.",
+     "suggestionFa": "وسطاش حدس زدم کی کرده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "detective",
+     "fa": "کارآگاه"
+    },
+    {
+     "word": "spoilers",
+     "fa": "لو دادن داستان"
+    },
+    {
+     "word": "expect",
+     "fa": "انتظار داشتن"
+    },
+    {
+     "word": "halfway through",
+     "fa": "وسط‌های کار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Impressive! Would you recommend it to someone learning English?",
+   "translations": {
+    "fa": "تحسین‌برانگیزه! به کسی که انگلیسی یاد می‌گیره پیشنهادش می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "language",
+      "funny",
+      "quite",
+      "easy"
+     ],
+     "suggestion": "Yes. The language is quite easy, and it's very funny.",
+     "suggestionFa": "آره. زبانش نسبتاً ساده‌ست، و خیلی بامزه‌ست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "there's",
+      "british",
+      "humour"
+     ],
+     "suggestion": "Yes, but there's a lot of British humour to understand!",
+     "suggestionFa": "آره، ولی کلی طنز بریتانیایی داره که باید فهمید!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recommend",
+     "fa": "توصیه کردن"
+    },
+    {
+     "word": "humour",
+     "fa": "طنز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "bennett",
+   "text": "Good point. Next month we're reading something shorter. Tea and biscuits are in the corner — help yourself!",
+   "translations": {
+    "fa": "نکتهٔ خوبیه. ماه بعد یه چیز کوتاه‌تر می‌خونیم. چای و بیسکویت تو گوشه‌ست — از خودتون پذیرایی کنید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

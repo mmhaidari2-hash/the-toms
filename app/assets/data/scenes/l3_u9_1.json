@@ -1,0 +1,299 @@
+{
+ "id": "l3_u9_1",
+ "characterId": "leslie",
+ "title": "Christmas preparations",
+ "titleFa": "تدارکات کریسمس",
+ "setting": "Traditions · Level 3",
+ "settingFa": "سنت‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "I can't believe it's Christmas Eve already! When I was little, we used to put out a mince pie for Father Christmas.",
+   "translations": {
+    "fa": "باورم نمیشه دیگه شب کریسمسه! وقتی کوچیک بودم، برای بابانوئل یه مینس‌پای می‌ذاشتیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "mince",
+      "pie"
+     ],
+     "suggestion": "What's a mince pie?",
+     "suggestionFa": "مینس‌پای چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "lovely",
+      "still"
+     ],
+     "suggestion": "That's lovely. Do you still do that?",
+     "suggestionFa": "چه قشنگ. هنوز این کار را می‌کنید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Christmas Eve",
+     "fa": "شب کریسمس"
+    },
+    {
+     "word": "used to",
+     "fa": "قبلاً … می‌کردیم"
+    },
+    {
+     "word": "mince pie",
+     "fa": "کلوچهٔ میوهٔ خشک"
+    },
+    {
+     "word": "Father Christmas",
+     "fa": "بابانوئل"
+    }
+   ],
+   "cultureNote": {
+    "en": "Mince pies are small sweet pies filled with dried fruit and spices. Britons say \"Father Christmas\" as well as \"Santa\".",
+    "fa": "مینس‌پای شیرینی کریسمس بریتانیایی است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "A little sweet pie with dried fruit. And a carrot for the reindeer! My dad would always eat the pie and leave crumbs, so we'd believe Santa came.",
+   "translations": {
+    "fa": "یه پای شیرین کوچیک با میوهٔ خشک. و یه هویج برای گوزن! بابام همیشه پای را می‌خورد و خرده‌هاش را جا می‌ذاشت، تا باور کنیم بابانوئل اومده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "sweet",
+      "ha"
+     ],
+     "suggestion": "Ha! That's so sweet.",
+     "suggestionFa": "ها! چه بامزه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "now",
+      "tom"
+     ],
+     "suggestion": "Does Tom do that for Nicola now?",
+     "suggestionFa": "الان تام برای نیکولا این کار را می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dried fruit",
+     "fa": "میوهٔ خشک"
+    },
+    {
+     "word": "reindeer",
+     "fa": "گوزن شمالی"
+    },
+    {
+     "word": "would always",
+     "fa": "همیشه … می‌کرد"
+    },
+    {
+     "word": "crumbs",
+     "fa": "خرده‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Every year — and he eats the carrot too! What did you use to do for celebrations back home?",
+   "translations": {
+    "fa": "هر سال — و هویج را هم می‌خوره! تو کشورت برای جشن‌ها چی کار می‌کردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "relative",
+      "sweets",
+      "nowruz",
+      "every"
+     ],
+     "suggestion": "At Nowruz we'd visit every relative and eat sweets all day.",
+     "suggestionFa": "تو نوروز همهٔ فامیل را می‌دیدیم و کل روز شیرینی می‌خوردیم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinners",
+      "family",
+      "have",
+      "used"
+     ],
+     "suggestion": "We used to have big family dinners at Eid.",
+     "suggestionFa": "تو عید شام‌های خانوادگی بزرگ داشتیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "celebrations",
+     "fa": "جشن‌ها"
+    },
+    {
+     "word": "back home",
+     "fa": "در وطن"
+    },
+    {
+     "word": "relative",
+     "fa": "فامیل"
+    },
+    {
+     "word": "sweets",
+     "fa": "شیرینی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "That sounds wonderful. Christmas here is similar — too much food and too many relatives! Can you help me wrap the last presents?",
+   "translations": {
+    "fa": "خیلی قشنگه. کریسمس اینجا هم مشابهه — غذای زیادی و فامیل زیادی! می‌تونی کمکم کنی آخرین هدیه‌ها را کادو کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sellotape",
+      "where's",
+      "course"
+     ],
+     "suggestion": "Of course. Where's the sellotape?",
+     "suggestionFa": "حتماً. چسب کجاست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "these",
+      "sure",
+      "who"
+     ],
+     "suggestion": "Sure. Who are these for?",
+     "suggestionFa": "حتماً. اینا برای کیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "similar",
+     "fa": "مشابه"
+    },
+    {
+     "word": "wrap",
+     "fa": "کادو کردن"
+    },
+    {
+     "word": "presents",
+     "fa": "هدیه‌ها"
+    },
+    {
+     "word": "sellotape",
+     "fa": "چسب نواری"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Sellotape\" is a British brand name used for any sticky tape — Americans say \"Scotch tape\".",
+    "fa": "Sellotape یعنی چسب نواری."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Nicola's dinosaur and Ryan's trainers. We used to buy Ryan toys, but now it's all expensive trainers!",
+   "translations": {
+    "fa": "دایناسور نیکولا و کفش ورزشی رایان. قبلاً برای رایان اسباب‌بازی می‌خریدیم، ولی الان همه‌ش کفش ورزشی گرونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fast",
+      "they",
+      "grow",
+      "up"
+     ],
+     "suggestion": "They grow up so fast.",
+     "suggestionFa": "خیلی زود بزرگ میشن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stairs",
+      "shall",
+      "under",
+      "them"
+     ],
+     "suggestion": "Shall I hide them under the stairs?",
+     "suggestionFa": "زیر پله‌ها قایمشون کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "trainers",
+     "fa": "کفش ورزشی"
+    },
+    {
+     "word": "grow up",
+     "fa": "بزرگ شدن"
+    },
+    {
+     "word": "hide",
+     "fa": "قایم کردن"
+    },
+    {
+     "word": "stairs",
+     "fa": "پله‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: trainers (UK) = sneakers (US).",
+    "fa": "trainers یعنی کفش ورزشی."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Perfect hiding place. And tomorrow we'll pull crackers and wear the silly paper hats. It's tradition!",
+   "translations": {
+    "fa": "جای قایم کردن عالیه. و فردا کراکر می‌کشیم و کلاه کاغذی مسخره سر می‌ذاریم. سنته!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

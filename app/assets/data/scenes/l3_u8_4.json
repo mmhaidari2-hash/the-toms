@@ -1,0 +1,245 @@
+{
+ "id": "l3_u8_4",
+ "characterId": "weda",
+ "title": "A leaky tap",
+ "titleFa": "شیر آب چکه‌کن",
+ "setting": "Problems at home · Level 3",
+ "settingFa": "مشکلات خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Can you hear that drip, love? The bathroom tap keeps dripping all night. It's driving me mad!",
+   "translations": {
+    "fa": "اون چکه را می‌شنوی عزیزم؟ شیر حموم تمام شب مدام چکه می‌کنه. داره دیوونه‌م می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "heard",
+      "night",
+      "last"
+     ],
+     "suggestion": "Yes, I heard it last night too.",
+     "suggestionFa": "آره، دیشب هم شنیدمش.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "have",
+      "look",
+      "let"
+     ],
+     "suggestion": "Let me have a look at it.",
+     "suggestionFa": "بذار یه نگاهی بهش بندازم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drip",
+     "fa": "چکه"
+    },
+    {
+     "word": "tap",
+     "fa": "شیر آب"
+    },
+    {
+     "word": "keeps dripping",
+     "fa": "مدام چکه می‌کند"
+    },
+    {
+     "word": "driving me mad",
+     "fa": "دیوانه‌ام می‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: tap (UK) = faucet (US).",
+    "fa": "tap یعنی شیر آب."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "And the hot tap won't turn off properly. I have to push really hard.",
+   "translations": {
+    "fa": "و شیر آب گرم درست بسته نمیشه. باید خیلی محکم فشار بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "probably",
+      "washer",
+      "needs",
+      "new"
+     ],
+     "suggestion": "It probably needs a new washer.",
+     "suggestionFa": "احتمالاً یه واشر جدید لازم داره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "might",
+      "break",
+      "don't",
+      "push"
+     ],
+     "suggestion": "Don't push too hard — you might break it.",
+     "suggestionFa": "زیاد فشار ندید — ممکنه بشکنه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "won't turn off",
+     "fa": "بسته نمی‌شود"
+    },
+    {
+     "word": "push hard",
+     "fa": "محکم فشار دادن"
+    },
+    {
+     "word": "washer",
+     "fa": "واشر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "William used to do all these jobs. But his hands aren't what they were.",
+   "translations": {
+    "fa": "ویلیام قبلاً همهٔ این کارها را می‌کرد. ولی دستاش دیگه مثل قبل نیستن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washer",
+      "from",
+      "shop",
+      "i'll"
+     ],
+     "suggestion": "I'll ask Tom to buy a washer from the DIY shop.",
+     "suggestionFa": "به تام می‌گم از فروشگاه ابزار یه واشر بخره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "watched",
+      "about",
+      "video",
+      "can"
+     ],
+     "suggestion": "I can do it. I watched a video about it.",
+     "suggestionFa": "من می‌تونم انجامش بدم. یه ویدیو دربارهٔ اون دیدم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "used to",
+     "fa": "قبلاً … می‌کرد"
+    },
+    {
+     "word": "jobs",
+     "fa": "کارها"
+    },
+    {
+     "word": "aren't what they were",
+     "fa": "مثل قبل نیستند"
+    },
+    {
+     "word": "DIY shop",
+     "fa": "فروشگاه ابزار"
+    }
+   ],
+   "cultureNote": {
+    "en": "DIY (do it yourself) means home repairs you do yourself. Big DIY shops are popular in Britain.",
+    "fa": "DIY یعنی تعمیرات خودت‌انجام."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Would you? You're a gem. Oh, and the bath plug keeps disappearing. I think Nicola takes it for her teddy's bath!",
+   "translations": {
+    "fa": "واقعاً؟ تو جواهری. آه، و درپوش وان مدام گم میشه. فکر کنم نیکولا برای حموم خرسش برمی‌داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "check",
+      "box",
+      "toy",
+      "her"
+     ],
+     "suggestion": "Ha! I'll check her toy box.",
+     "suggestionFa": "ها! جعبهٔ اسباب‌بازیش را نگاه می‌کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spare",
+      "case",
+      "just",
+      "one"
+     ],
+     "suggestion": "I'll buy a spare one, just in case.",
+     "suggestionFa": "یه یدکی می‌خرم، محض احتیاط.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gem",
+     "fa": "جواهر"
+    },
+    {
+     "word": "plug",
+     "fa": "درپوش"
+    },
+    {
+     "word": "disappearing",
+     "fa": "ناپدید شدن"
+    },
+    {
+     "word": "spare",
+     "fa": "یدکی"
+    },
+    {
+     "word": "just in case",
+     "fa": "محض احتیاط"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Clever thinking. Right — while you're the handyman, I'll make the tea. Fair's fair!",
+   "translations": {
+    "fa": "فکر هوشمندانه‌ایه. خب — تا تو تعمیرکاری، من چای درست می‌کنم. منصفانه‌ست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

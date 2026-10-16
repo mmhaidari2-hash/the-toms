@@ -1,0 +1,175 @@
+{
+ "id": "l3_u4_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) The household budget",
+ "titleFa": "(در نقش Leslie) بودجهٔ خانه",
+ "setting": "Money and paperwork · Level 3",
+ "settingFa": "پول و کاغذبازی",
+ "requires": null,
+ "level": "B1",
+ "baseId": "l3_u4_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calculator",
+      "energy",
+      "right",
+      "bills",
+      "would"
+     ],
+     "suggestion": "Right, bills day. Pass me that calculator, would you? The energy bill has gone up again.",
+     "suggestionFa": "خب، روز قبض‌ها. اون ماشین‌حساب را بده، می‌شه؟ قبض انرژی دوباره رفته بالا.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "How much is it this month?",
+   "translations": {
+    "fa": "این ماه چقدره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "heating",
+      "showers",
+      "hundred",
+      "pounds",
+      "ryan's"
+     ],
+     "suggestion": "A hundred and eighty pounds! We're using too much heating, I think. And Ryan's showers are far too long.",
+     "suggestionFa": "صد و هشتاد پوند! فکر کنم زیادی شوفاژ مصرف می‌کنیم. و دوش‌های رایان خیلی زیادی طولانیه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Maybe we could turn the thermostat down a bit.",
+   "translations": {
+    "fa": "شاید بتونیم ترموستات را یه کم پایین بیاریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "takeaways",
+      "spending",
+      "cooking",
+      "enough",
+      "money"
+     ],
+     "suggestion": "Good idea. And we're spending a lot of money on takeaways. Not enough cooking at home!",
+     "suggestionFa": "فکر خوبیه. و داریم کلی پول خرج غذای بیرون‌بر می‌کنیم. به اندازهٔ کافی تو خونه آشپزی نمی‌کنیم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I could cook a few times a week.",
+   "translations": {
+    "fa": "می‌تونم هفته‌ای چند بار آشپزی کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mortgage",
+      "hundred",
+      "council",
+      "after",
+      "isn't"
+     ],
+     "suggestion": "About four hundred a month on the big shop. There isn't much left after the mortgage and council tax.",
+     "suggestionFa": "ماهی حدود چهارصد تا برای خرید اصلی. بعد از قسط خونه و مالیات شهرداری چیز زیادی نمی‌مونه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What's council tax exactly?",
+   "translations": {
+    "fa": "مالیات شهرداری دقیقاً چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket",
+      "already",
+      "cheaper",
+      "that's",
+      "lights"
+     ],
+     "suggestion": "That's very kind, but you already help a lot. Let's just shop at the cheaper supermarket and use fewer lights.",
+     "suggestionFa": "خیلی لطف داری، ولی همین الانش خیلی کمک می‌کنی. بیا فقط از سوپرمارکت ارزون‌تر خرید کنیم و چراغ کمتر روشن کنیم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Deal. I'll make a meal plan for next week.",
+   "translations": {
+    "fa": "قبول. برای هفتهٔ بعد برنامهٔ غذایی می‌نویسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "takeaway",
+      "landing",
+      "whoever",
+      "leaves"
+     ],
+     "suggestion": "Brilliant. And whoever leaves the landing light on all night is buying the next takeaway!",
+     "suggestionFa": "عالی. و هر کی چراغ راهرو را تمام شب روشن بذاره، غذای بیرون‌بر بعدی را می‌خره!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

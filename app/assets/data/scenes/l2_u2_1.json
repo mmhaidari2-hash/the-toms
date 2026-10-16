@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "how",
-      "get"
+      "get",
+      "how"
      ],
      "suggestion": "Excuse me, how do I get to the post office?",
      "suggestionFa": "ببخشید، چطوری برم اداره پست؟",
@@ -71,8 +71,8 @@
      "keywords": [
       "straight",
       "bakery",
-      "past",
-      "then"
+      "then",
+      "left"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
      "suggestionFa": "مستقیم، رد شدن از نونوایی، بعد چپ.",
@@ -84,8 +84,8 @@
      "keywords": [
       "please",
       "again",
-      "sorry",
-      "could"
+      "could",
+      "sorry"
      ],
      "suggestion": "Sorry, could you say that again, please?",
      "suggestionFa": "ببخشید، می‌شه دوباره بگید؟",
@@ -276,8 +276,8 @@
    "branches": [
     {
      "keywords": [
-      "round",
       "sorry",
+      "round",
       "here",
       "from"
      ],
@@ -289,10 +289,10 @@
     },
     {
      "keywords": [
-      "that's",
-      "useful",
+      "phrase",
       "thanks",
-      "phrase"
+      "useful",
+      "that's"
      ],
      "suggestion": "That's a useful phrase. Thanks!",
      "suggestionFa": "جملهٔ مفیدیه. ممنون!",

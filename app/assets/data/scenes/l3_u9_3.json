@@ -1,0 +1,312 @@
+{
+ "id": "l3_u9_3",
+ "characterId": "nicola",
+ "title": "Nicola's birthday wishes",
+ "titleFa": "آرزوهای تولد نیکولا",
+ "setting": "Traditions · Level 3",
+ "settingFa": "سنت‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "It's my birthday! I'm seven! Did you bring me a present?",
+   "translations": {
+    "fa": "تولدمه! هفت سالمه! برام کادو آوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "nicola",
+      "course",
+      "happy"
+     ],
+     "suggestion": "Happy birthday, Nicola! Of course I did.",
+     "suggestionFa": "تولدت مبارک نیکولا! معلومه که آوردم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "open",
+      "hope",
+      "like"
+     ],
+     "suggestion": "I hope you like it. Open it!",
+     "suggestionFa": "امیدوارم خوشت بیاد. بازش کن!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "present",
+     "fa": "کادو"
+    },
+    {
+     "word": "I hope",
+     "fa": "امیدوارم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "A dinosaur book! I love it! I wish I could have a real dinosaur.",
+   "translations": {
+    "fa": "کتاب دایناسور! عاشقشم! کاش می‌تونستم یه دایناسور واقعی داشته باشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wouldn't",
+      "could",
+      "house",
+      "wish"
+     ],
+     "suggestion": "I wish you could too! But it wouldn't fit in the house.",
+     "suggestionFa": "کاش می‌تونستی! ولی تو خونه جا نمیشد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "museum",
+      "visit",
+      "maybe",
+      "can"
+     ],
+     "suggestion": "Maybe we can visit the museum to see one.",
+     "suggestionFa": "شاید بتونیم بریم موزه یکی ببینیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I wish I could",
+     "fa": "کاش می‌توانستم"
+    },
+    {
+     "word": "real",
+     "fa": "واقعی"
+    },
+    {
+     "word": "fit",
+     "fa": "جا شدن"
+    },
+    {
+     "word": "museum",
+     "fa": "موزه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "The Natural History Museum! Mummy says it's in London. I hope we can go soon.",
+   "translations": {
+    "fa": "موزهٔ تاریخ طبیعی! مامان می‌گه تو لندنه. امیدوارم زود بریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "train",
+      "could",
+      "hope",
+      "we"
+     ],
+     "suggestion": "I hope so too. We could go on the train.",
+     "suggestionFa": "من هم امیدوارم. می‌تونیم با قطار بریم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "would",
+      "want",
+      "see"
+     ],
+     "suggestion": "What would you want to see first?",
+     "suggestionFa": "اول چی را می‌خوای ببینی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Natural History Museum",
+     "fa": "موزهٔ تاریخ طبیعی"
+    },
+    {
+     "word": "soon",
+     "fa": "به زودی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "The big blue whale! And the T-rex that moves. I wish today could last forever.",
+   "translations": {
+    "fa": "نهنگ آبی بزرگ! و تی‌رکسی که تکون می‌خوره. کاش امروز تا ابد طول می‌کشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "day"
+     ],
+     "suggestion": "Me too. It's a perfect day.",
+     "suggestionFa": "من هم. روز بی‌نقصیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "older",
+      "when",
+      "hope"
+     ],
+     "suggestion": "What do you hope to do when you're older?",
+     "suggestionFa": "وقتی بزرگ‌تر شدی امیدواری چی کار کنی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whale",
+     "fa": "نهنگ"
+    },
+    {
+     "word": "last forever",
+     "fa": "تا ابد ادامه داشتن"
+    },
+    {
+     "word": "perfect",
+     "fa": "بی‌نقص"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "I want to be a dinosaur scientist. A palae… palaeo… a dinosaur doctor!",
+   "translations": {
+    "fa": "می‌خوام دانشمند دایناسور بشم. یه دیرین… دیرین… دکتر دایناسور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "palaeontologist",
+      "become",
+      "hope",
+      "one"
+     ],
+     "suggestion": "A palaeontologist! I hope you become one.",
+     "suggestionFa": "دیرین‌شناس! امیدوارم بشی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "you'll"
+     ],
+     "suggestion": "You'll be brilliant at it.",
+     "suggestionFa": "توش عالی میشی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scientist",
+     "fa": "دانشمند"
+    },
+    {
+     "word": "palaeontologist",
+     "fa": "دیرین‌شناس"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: palaeontologist, encyclopaedia. American: paleontologist, encyclopedia.",
+    "fa": "املای بریتانیایی palaeontologist است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Yes! Now it's time for cake. Can I make a wish when I blow out my candles?",
+   "translations": {
+    "fa": "آره! حالا وقت کیکه. وقتی شمع‌هام را فوت می‌کنم می‌تونم آرزو کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "anyone",
+      "don't",
+      "tell"
+     ],
+     "suggestion": "Of course. But don't tell anyone!",
+     "suggestionFa": "حتماً. ولی به کسی نگو!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wish",
+      "make",
+      "big"
+     ],
+     "suggestion": "Make a big wish!",
+     "suggestionFa": "یه آرزوی بزرگ کن!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "make a wish",
+     "fa": "آرزو کردن"
+    },
+    {
+     "word": "blow out",
+     "fa": "فوت کردن"
+    },
+    {
+     "word": "candles",
+     "fa": "شمع‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "I wished for a dinosaur… oops! I said it. Does it still count?",
+   "translations": {
+    "fa": "آرزو کردم یه دایناسور… اوه! گفتمش. هنوز حساب میشه؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

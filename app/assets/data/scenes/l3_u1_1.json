@@ -1,0 +1,329 @@
+{
+ "id": "l3_u1_1",
+ "characterId": "clarke",
+ "title": "The second interview",
+ "titleFa": "مصاحبهٔ دوم",
+ "setting": "Work and careers · Level 3",
+ "settingFa": "کار و شغل",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "clarke",
+   "text": "Thanks for coming back, Tom. Before we start — how long have you been working in engineering now?",
+   "translations": {
+    "fa": "ممنون که دوباره اومدی تام. قبل از شروع — الان چند وقته تو مهندسی کار می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "experience",
+      "about",
+      "tell",
+      "tom"
+     ],
+     "suggestion": "Tom, tell her about your experience.",
+     "suggestionFa": "تام، از تجربه‌ات بگو.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "engineering",
+      "years",
+      "been",
+      "he's"
+     ],
+     "suggestion": "He's been in engineering for years.",
+     "suggestionFa": "سال‌هاست تو مهندسیه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "I've been working in engineering for nearly twenty years. Mostly bridges and railways.",
+   "translations": {
+    "fa": "نزدیک بیست ساله تو مهندسی کار می‌کنم. بیشتر پل و راه‌آهن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "experience",
+      "twenty",
+      "that's",
+      "years"
+     ],
+     "suggestion": "Twenty years! That's a lot of experience.",
+     "suggestionFa": "بیست سال! تجربهٔ زیادیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "tom's",
+      "been",
+      "tram"
+     ],
+     "suggestion": "Tom's been working on the new tram line too.",
+     "suggestionFa": "تام روی خط تراموای جدید هم کار کرده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how long have you been…",
+     "fa": "چند وقت است که…"
+    },
+    {
+     "word": "nearly",
+     "fa": "تقریباً"
+    },
+    {
+     "word": "bridges",
+     "fa": "پل‌ها"
+    },
+    {
+     "word": "railways",
+     "fa": "راه‌آهن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "clarke",
+   "text": "Impressive. And what have you been doing in your current role?",
+   "translations": {
+    "fa": "تحسین‌برانگیزه. و تو نقش فعلیت چی کار می‌کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leading",
+      "people",
+      "eight",
+      "team"
+     ],
+     "suggestion": "He's been leading a team of eight people.",
+     "suggestionFa": "داره یه تیم هشت‌نفره را رهبری می‌کنه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "projects",
+      "managing",
+      "since"
+     ],
+     "suggestion": "He's been managing projects since 2019.",
+     "suggestionFa": "از ۲۰۱۹ داره پروژه‌ها را مدیریت می‌کنه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "impressive",
+     "fa": "چشمگیر"
+    },
+    {
+     "word": "current role",
+     "fa": "نقش فعلی"
+    },
+    {
+     "word": "leading",
+     "fa": "رهبری کردن"
+    },
+    {
+     "word": "managing",
+     "fa": "مدیریت کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "clarke",
+   "text": "That's exactly what we're looking for. Why do you want to leave your current company?",
+   "translations": {
+    "fa": "دقیقاً همونیه که دنبالشیم. چرا می‌خوای شرکت فعلیت را ترک کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "challenge",
+      "looking",
+      "while",
+      "been"
+     ],
+     "suggestion": "I've been looking for a new challenge for a while.",
+     "suggestionFa": "مدتیه دنبال یه چالش جدیدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "closer",
+      "family",
+      "like",
+      "work"
+     ],
+     "suggestion": "I'd like to work closer to home and see my family more.",
+     "suggestionFa": "دوست دارم نزدیک‌تر به خونه کار کنم و خانواده‌ام را بیشتر ببینم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    },
+    {
+     "word": "looking for",
+     "fa": "دنبال … بودن"
+    },
+    {
+     "word": "challenge",
+     "fa": "چالش"
+    },
+    {
+     "word": "for a while",
+     "fa": "مدتی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British interviews it's polite to stay positive about your old employer — avoid complaining.",
+    "fa": "در مصاحبه‌های بریتانیایی از کارفرمای قبلی بد نگویید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "clarke",
+   "text": "Understandable. What would you say is your biggest weakness?",
+   "translations": {
+    "fa": "قابل درکه. به نظرت بزرگ‌ترین نقطه‌ضعفت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "extra",
+      "find",
+      "hard"
+     ],
+     "suggestion": "I sometimes find it hard to say no to extra work.",
+     "suggestionFa": "گاهی سخته که به کار اضافه نه بگم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "presentation",
+      "working",
+      "skills",
+      "been"
+     ],
+     "suggestion": "I've been working on my presentation skills.",
+     "suggestionFa": "دارم روی مهارت‌های ارائه‌ام کار می‌کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "understandable",
+     "fa": "قابل درک"
+    },
+    {
+     "word": "weakness",
+     "fa": "نقطه‌ضعف"
+    },
+    {
+     "word": "find it hard",
+     "fa": "برایم سخت است"
+    },
+    {
+     "word": "skills",
+     "fa": "مهارت‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "clarke",
+   "text": "Honest answer — I like that. Have you got any questions for us?",
+   "translations": {
+    "fa": "جواب صادقانه — خوشم میاد. سؤالی از ما داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "typical",
+      "like",
+      "look",
+      "day"
+     ],
+     "suggestion": "What does a typical day look like?",
+     "suggestionFa": "یه روز معمولی چه شکلیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "decision",
+      "when",
+      "will",
+      "make"
+     ],
+     "suggestion": "When will you make a decision?",
+     "suggestionFa": "کی تصمیم می‌گیرید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "honest",
+     "fa": "صادقانه"
+    },
+    {
+     "word": "typical",
+     "fa": "معمولی"
+    },
+    {
+     "word": "decision",
+     "fa": "تصمیم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "clarke",
+   "text": "We'll let you know by Friday. Off the record, Tom — it's looking very good.",
+   "translations": {
+    "fa": "تا جمعه خبرت می‌کنیم. بین خودمون باشه تام — اوضاع خیلی خوب به نظر میاد."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "id": "l3_u6_4",
+ "characterId": "al",
+ "title": "Making friends in a new city",
+ "titleFa": "دوست پیدا کردن در شهر جدید",
+ "setting": "Social life · Level 3",
+ "settingFa": "زندگی اجتماعی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "It's mad to think that a year ago you didn't know anyone here. Was it hard at the beginning?",
+   "translations": {
+    "fa": "دیوونگیه که فکر کنی یه سال پیش اینجا هیچ‌کس را نمی‌شناختی. اولش سخت بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lonely",
+      "months",
+      "really",
+      "felt"
+     ],
+     "suggestion": "Really hard. I felt lonely for the first few months.",
+     "suggestionFa": "خیلی سخت. چند ماه اول احساس تنهایی می‌کردم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "accents",
+      "was"
+     ],
+     "suggestion": "It was hard to understand the accents at first.",
+     "suggestionFa": "اولش فهمیدن لهجه‌ها سخت بود.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mad",
+     "fa": "دیوانه‌وار"
+    },
+    {
+     "word": "at the beginning",
+     "fa": "در ابتدا"
+    },
+    {
+     "word": "lonely",
+     "fa": "تنها"
+    },
+    {
+     "word": "accents",
+     "fa": "لهجه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "I can imagine. What helped you most?",
+   "translations": {
+    "fa": "می‌تونم تصور کنم. چی بیشتر از همه کمکت کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "living",
+      "family",
+      "like",
+      "they"
+     ],
+     "suggestion": "Living with the Toms. They made me feel like family.",
+     "suggestionFa": "زندگی با تامزها. باعث شدن احساس کنم جزو خانواده‌ام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "volunteering",
+      "joining",
+      "library",
+      "clubs"
+     ],
+     "suggestion": "Joining clubs and volunteering at the library.",
+     "suggestionFa": "عضو شدن تو باشگاه‌ها و داوطلبی تو کتابخونه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "imagine",
+     "fa": "تصور کردن"
+    },
+    {
+     "word": "helped most",
+     "fa": "بیشتر از همه کمک کرد"
+    },
+    {
+     "word": "feel like family",
+     "fa": "احساس خانوادگی"
+    },
+    {
+     "word": "volunteering",
+     "fa": "داوطلبی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "That's lovely. I felt the same when I moved here from Glasgow. People seemed quite reserved at first.",
+   "translations": {
+    "fa": "چه خوب. من هم وقتی از گلاسگو اومدم همین حس را داشتم. مردم اولش خیلی تودار به نظر می‌رسیدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "nobody",
+      "talked",
+      "bus"
+     ],
+     "suggestion": "Exactly! Nobody talked on the bus!",
+     "suggestionFa": "دقیقاً! تو اتوبوس هیچ‌کس حرف نمی‌زد!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "really",
+      "them",
+      "warm"
+     ],
+     "suggestion": "But once you know them, they're really warm.",
+     "suggestionFa": "ولی وقتی بشناسیشون، خیلی گرم هستن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moved",
+     "fa": "نقل مکان کرد"
+    },
+    {
+     "word": "seemed",
+     "fa": "به نظر می‌رسید"
+    },
+    {
+     "word": "reserved",
+     "fa": "تودار"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم و صمیمی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people can seem reserved with strangers. Small talk about the weather is the usual way to break the ice.",
+    "fa": "بریتانیایی‌ها با غریبه‌ها تودارند؛ با حرف هوا یخ را می‌شکنند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Too right. The weather is the key. What advice would you give someone who's just arrived?",
+   "translations": {
+    "fa": "دقیقاً. هوا کلیدشه. به کسی که تازه رسیده چه توصیه‌ای می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "invitation",
+      "nervous",
+      "every",
+      "even"
+     ],
+     "suggestion": "Say yes to every invitation, even if you're nervous.",
+     "suggestionFa": "به هر دعوتی آره بگو، حتی اگه استرس داری.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learn",
+      "good",
+      "make",
+      "tea"
+     ],
+     "suggestion": "Learn to make a good cup of tea!",
+     "suggestionFa": "یاد بگیر یه چای خوب درست کنی!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "advice",
+     "fa": "توصیه"
+    },
+    {
+     "word": "just arrived",
+     "fa": "تازه رسیده"
+    },
+    {
+     "word": "invitation",
+     "fa": "دعوت"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "Ha! Both excellent. Honestly, mate, you've done brilliantly. Come on — the next talk is starting.",
+   "translations": {
+    "fa": "ها! هر دو عالی. راستش رفیق، فوق‌العاده عمل کردی. بیا — سخنرانی بعدی داره شروع میشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

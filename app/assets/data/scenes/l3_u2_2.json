@@ -1,0 +1,295 @@
+{
+ "id": "l3_u2_2",
+ "characterId": "dawson",
+ "title": "Prescription questions",
+ "titleFa": "سؤال‌های نسخه",
+ "setting": "The NHS and you · Level 3",
+ "settingFa": "شما و NHS",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dawson",
+   "text": "Hello again! Have you brought a prescription in, or is it something over the counter today?",
+   "translations": {
+    "fa": "دوباره سلام! نسخه آوردید یا امروز یه چیز بدون نسخه می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescription",
+      "okafor",
+      "i've",
+      "from"
+     ],
+     "suggestion": "I've got a prescription from Dr Okafor.",
+     "suggestionFa": "یه نسخه از دکتر اوکافور دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "please",
+      "fever",
+      "just"
+     ],
+     "suggestion": "Just something for hay fever, please.",
+     "suggestionFa": "فقط یه چیزی برای تب یونجه، لطفاً.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prescription",
+     "fa": "نسخه"
+    },
+    {
+     "word": "over the counter",
+     "fa": "بدون نسخه"
+    },
+    {
+     "word": "hay fever",
+     "fa": "حساسیت فصلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Over the counter\" medicine can be bought without a prescription. Hay fever is the British name for pollen allergy.",
+    "fa": "hay fever یعنی حساسیت فصلی به گرده."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dawson",
+   "text": "Right, these are antibiotics. You need to take one three times a day, with food, for seven days.",
+   "translations": {
+    "fa": "خب، اینا آنتی‌بیوتیکن. باید روزی سه بار یکی با غذا بخورید، به مدت هفت روز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "forget",
+      "one",
+      "if"
+     ],
+     "suggestion": "What happens if I forget one?",
+     "suggestionFa": "اگه یکی را یادم بره چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "when",
+      "stop",
+      "feel"
+     ],
+     "suggestion": "Can I stop when I feel better?",
+     "suggestionFa": "وقتی بهتر شدم می‌تونم قطع کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "antibiotics",
+     "fa": "آنتی‌بیوتیک"
+    },
+    {
+     "word": "three times a day",
+     "fa": "روزی سه بار"
+    },
+    {
+     "word": "with food",
+     "fa": "با غذا"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dawson",
+   "text": "Don't stop early, even if you feel better. If you forget one, take it when you remember, unless it's nearly time for the next one.",
+   "translations": {
+    "fa": "زود قطع نکنید، حتی اگه بهتر شدید. اگه یکی یادتون رفت، هر وقت یادتون اومد بخورید، مگر اینکه نزدیک وقت بعدی باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "take",
+      "once",
+      "two"
+     ],
+     "suggestion": "So I shouldn't take two at once?",
+     "suggestionFa": "پس نباید دوتا با هم بخورم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understood",
+      "course",
+      "whole"
+     ],
+     "suggestion": "Understood. The whole course.",
+     "suggestionFa": "فهمیدم. کل دوره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "even if",
+     "fa": "حتی اگر"
+    },
+    {
+     "word": "whole course",
+     "fa": "کل دوره"
+    },
+    {
+     "word": "unless",
+     "fa": "مگر اینکه"
+    },
+    {
+     "word": "at once",
+     "fa": "همزمان"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dawson",
+   "text": "Exactly — never take two together. And avoid alcohol until you've finished them.",
+   "translations": {
+    "fa": "دقیقاً — هیچ‌وقت دوتا با هم نخورید. و تا تمومشون نکردید الکل نخورید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "drink",
+      "don't",
+      "fine"
+     ],
+     "suggestion": "I don't drink, so that's fine.",
+     "suggestionFa": "الکل نمی‌خورم، پس مشکلی نیست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "effects",
+      "there",
+      "side",
+      "any"
+     ],
+     "suggestion": "Are there any side effects?",
+     "suggestionFa": "عوارض جانبی داره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "avoid",
+     "fa": "پرهیز کردن"
+    },
+    {
+     "word": "alcohol",
+     "fa": "الکل"
+    },
+    {
+     "word": "side effects",
+     "fa": "عوارض جانبی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dawson",
+   "text": "Some people get an upset stomach. Unless it's severe, just carry on. If you get a rash, stop and ring 111.",
+   "translations": {
+    "fa": "بعضی‌ها دل‌درد می‌گیرن. مگر اینکه شدید باشه، ادامه بدید. اگه جوش زدید، قطع کنید و به ۱۱۱ زنگ بزنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "owe",
+      "how"
+     ],
+     "suggestion": "How much do I owe you?",
+     "suggestionFa": "چقدر بدهکارم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "really",
+      "clear",
+      "thank"
+     ],
+     "suggestion": "Thank you. That's really clear.",
+     "suggestionFa": "ممنون. خیلی واضح بود.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upset stomach",
+     "fa": "دل‌درد"
+    },
+    {
+     "word": "severe",
+     "fa": "شدید"
+    },
+    {
+     "word": "carry on",
+     "fa": "ادامه دادن"
+    },
+    {
+     "word": "rash",
+     "fa": "جوش"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dawson",
+   "text": "That's the standard prescription charge. Pop your card on the machine. Get well soon!",
+   "translations": {
+    "fa": "همون هزینهٔ استاندارد نسخه‌ست. کارتتون را بذارید رو دستگاه. زود خوب شید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

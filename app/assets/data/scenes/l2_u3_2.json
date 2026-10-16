@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "book"
+      "like"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "surname",
-      "shall",
       "spell",
+      "shall",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "minutes",
-      "early",
       "thank",
+      "early",
       "much"
      ],
      "suggestion": "Ten minutes early. Thank you very much.",

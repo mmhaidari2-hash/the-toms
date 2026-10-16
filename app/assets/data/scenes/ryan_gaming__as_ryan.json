@@ -50,7 +50,7 @@
       "support",
       "don't",
       "d'you",
-      "then"
+      "talk"
      ],
      "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
      "suggestionFa": "حرف گنده! خب طرفدار کدوم تیمی؟ نگی چلسی.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "rematch",
       "calling",
+      "rematch",
       "dinner",
-      "mum's",
-      "later"
+      "later",
+      "mum's"
      ],
      "suggestion": "GOAL! Get in! That was well good. Mum's calling — dinner. Rematch later, yeah?",
      "suggestionFa": "گل! ایول! خیلی خوب بود. مامان صدامون می‌کنه — شام. بعداً دوباره بازی کنیم، باشه؟",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "actually",
+      "three",
       "wanna",
       "again",
-      "three",
-      "mate"
+      "best"
      ],
      "suggestion": "Mate, you're actually not bad. Wanna go again? Best of three.",
      "suggestionFa": "رفیق، واقعاً بد نیستی. یه دست دیگه؟ دو از سه.",
@@ -125,7 +125,7 @@
       "cheers",
       "footy",
       "pass",
-      "sick"
+      "play"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
      "suggestionFa": "عالیه. اون دسته را بده، مرسی. تو وطنت فوتبال بازی می‌کنی؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "support",
       "friends",
+      "support",
       "united",
       "don't",
-      "can't"
+      "d'you"
      ],
      "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
      "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم.",

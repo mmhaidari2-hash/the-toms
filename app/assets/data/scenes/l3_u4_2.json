@@ -1,0 +1,300 @@
+{
+ "id": "l3_u4_2",
+ "characterId": "leslie",
+ "title": "The household budget",
+ "titleFa": "بودجهٔ خانه",
+ "setting": "Money and paperwork · Level 3",
+ "settingFa": "پول و کاغذبازی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Right, bills day. Pass me that calculator, would you? The energy bill has gone up again.",
+   "translations": {
+    "fa": "خب، روز قبض‌ها. اون ماشین‌حساب را بده، می‌شه؟ قبض انرژی دوباره رفته بالا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "month",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is it this month?",
+     "suggestionFa": "این ماه چقدره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "more",
+      "lot",
+      "go"
+     ],
+     "suggestion": "Here you go. Is it a lot more?",
+     "suggestionFa": "بفرمایید. خیلی بیشتر شده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bills",
+     "fa": "قبض‌ها"
+    },
+    {
+     "word": "calculator",
+     "fa": "ماشین‌حساب"
+    },
+    {
+     "word": "energy bill",
+     "fa": "قبض گاز و برق"
+    },
+    {
+     "word": "gone up",
+     "fa": "بالا رفته"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "A hundred and eighty pounds! We're using too much heating, I think. And Ryan's showers are far too long.",
+   "translations": {
+    "fa": "صد و هشتاد پوند! فکر کنم زیادی شوفاژ مصرف می‌کنیم. و دوش‌های رایان خیلی زیادی طولانیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thermostat",
+      "could",
+      "maybe",
+      "turn"
+     ],
+     "suggestion": "Maybe we could turn the thermostat down a bit.",
+     "suggestionFa": "شاید بتونیم ترموستات را یه کم پایین بیاریم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shorter",
+      "showers",
+      "i'll",
+      "have"
+     ],
+     "suggestion": "I'll try to have shorter showers too.",
+     "suggestionFa": "من هم سعی می‌کنم دوش کوتاه‌تر بگیرم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "heating",
+     "fa": "گرمایش"
+    },
+    {
+     "word": "far too",
+     "fa": "خیلی زیادی"
+    },
+    {
+     "word": "thermostat",
+     "fa": "ترموستات"
+    },
+    {
+     "word": "turn down",
+     "fa": "کم کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Good idea. And we're spending a lot of money on takeaways. Not enough cooking at home!",
+   "translations": {
+    "fa": "فکر خوبیه. و داریم کلی پول خرج غذای بیرون‌بر می‌کنیم. به اندازهٔ کافی تو خونه آشپزی نمی‌کنیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "could",
+      "times",
+      "cook",
+      "week"
+     ],
+     "suggestion": "I could cook a few times a week.",
+     "suggestionFa": "می‌تونم هفته‌ای چند بار آشپزی کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spend",
+      "much",
+      "food",
+      "how"
+     ],
+     "suggestion": "How much do we spend on food?",
+     "suggestionFa": "چقدر خرج غذا می‌کنیم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spending",
+     "fa": "خرج کردن"
+    },
+    {
+     "word": "a lot of",
+     "fa": "مقدار زیادی"
+    },
+    {
+     "word": "not enough",
+     "fa": "نه به اندازهٔ کافی"
+    },
+    {
+     "word": "a few",
+     "fa": "چند"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "About four hundred a month on the big shop. There isn't much left after the mortgage and council tax.",
+   "translations": {
+    "fa": "ماهی حدود چهارصد تا برای خرید اصلی. بعد از قسط خونه و مالیات شهرداری چیز زیادی نمی‌مونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "council",
+      "what's",
+      "tax"
+     ],
+     "suggestion": "What's council tax exactly?",
+     "suggestionFa": "مالیات شهرداری دقیقاً چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "like",
+      "rent",
+      "more"
+     ],
+     "suggestion": "I'd like to pay a bit more rent to help.",
+     "suggestionFa": "دوست دارم یه کم اجارهٔ بیشتری بدم کمک کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big shop",
+     "fa": "خرید عمدهٔ هفتگی"
+    },
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    },
+    {
+     "word": "mortgage",
+     "fa": "وام مسکن"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شهرداری"
+    },
+    {
+     "word": "rent",
+     "fa": "اجاره"
+    }
+   ],
+   "cultureNote": {
+    "en": "Council tax is paid to the local council for services like bins, schools and street lights. Single adults get 25% off.",
+    "fa": "council tax برای خدمات شهری پرداخت می‌شود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "That's very kind, but you already help a lot. Let's just shop at the cheaper supermarket and use fewer lights.",
+   "translations": {
+    "fa": "خیلی لطف داری، ولی همین الانش خیلی کمک می‌کنی. بیا فقط از سوپرمارکت ارزون‌تر خرید کنیم و چراغ کمتر روشن کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i'll",
+      "meal",
+      "week",
+      "deal"
+     ],
+     "suggestion": "Deal. I'll make a meal plan for next week.",
+     "suggestionFa": "قبول. برای هفتهٔ بعد برنامهٔ غذایی می‌نویسم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "changes",
+      "small",
+      "will"
+     ],
+     "suggestion": "A few small changes will make a big difference.",
+     "suggestionFa": "چندتا تغییر کوچیک خیلی فرق می‌کنه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fewer",
+     "fa": "کمتر (شمردنی)"
+    },
+    {
+     "word": "deal",
+     "fa": "قبول"
+    },
+    {
+     "word": "meal plan",
+     "fa": "برنامهٔ غذایی"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Brilliant. And whoever leaves the landing light on all night is buying the next takeaway!",
+   "translations": {
+    "fa": "عالی. و هر کی چراغ راهرو را تمام شب روشن بذاره، غذای بیرون‌بر بعدی را می‌خره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

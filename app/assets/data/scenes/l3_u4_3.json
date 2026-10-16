@@ -1,0 +1,292 @@
+{
+ "id": "l3_u4_3",
+ "characterId": "priya",
+ "title": "Self-checkout trouble",
+ "titleFa": "مشکل صندوق سلف‌سرویس",
+ "setting": "Money and paperwork · Level 3",
+ "settingFa": "پول و کاغذبازی",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Unexpected item in the bagging area, is it? Don't worry, it happens to everyone.",
+   "translations": {
+    "fa": "«کالای غیرمنتظره در قسمت کیسه»، آره؟ نگران نباشید، برای همه پیش میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saying",
+      "bother",
+      "keeps",
+      "but"
+     ],
+     "suggestion": "Sorry to bother you, but it keeps saying that!",
+     "suggestionFa": "ببخشید مزاحم میشم، ولی مدام همینو میگه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "think",
+      "wrong",
+      "i've"
+     ],
+     "suggestion": "I'm sorry — I think I've done something wrong.",
+     "suggestionFa": "ببخشید — فکر کنم یه کار اشتباه کردم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unexpected",
+     "fa": "غیرمنتظره"
+    },
+    {
+     "word": "bagging area",
+     "fa": "قسمت کیسه"
+    },
+    {
+     "word": "bother",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "keeps saying",
+     "fa": "مدام می‌گوید"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Unexpected item in the bagging area\" is a famous (and much-joked-about) British self-checkout message.",
+    "fa": "این پیام معروف صندوق‌های سلف‌سرویس بریتانیاست."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Did you put your own bag down before you started? That confuses it.",
+   "translations": {
+    "fa": "قبل از شروع کیسهٔ خودتون را گذاشتید؟ گیجش می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "waited",
+      "have",
+      "did",
+      "oh"
+     ],
+     "suggestion": "Oh, yes, I did. Should I have waited?",
+     "suggestionFa": "آه، آره، گذاشتم. باید صبر می‌کردم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "know"
+     ],
+     "suggestion": "I didn't know that. What should I do?",
+     "suggestionFa": "نمی‌دونستم. چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "own bag",
+     "fa": "کیسهٔ خود"
+    },
+    {
+     "word": "confuses",
+     "fa": "گیج می‌کند"
+    },
+    {
+     "word": "should have waited",
+     "fa": "باید صبر می‌کرد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Press \"I'm using my own bag\" first. I'll reset it for you… there. Now, the bananas — you need to weigh those.",
+   "translations": {
+    "fa": "اول «از کیسهٔ خودم استفاده می‌کنم» را بزنید. براتون ریستش می‌کنم… بفرمایید. حالا موزها — باید وزنشون کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barcode",
+      "can't",
+      "find",
+      "how"
+     ],
+     "suggestion": "How do I do that? I can't find a barcode.",
+     "suggestionFa": "چطوری؟ بارکد پیدا نمی‌کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "patient",
+      "thanks",
+      "much"
+     ],
+     "suggestion": "Thanks so much. You're very patient.",
+     "suggestionFa": "خیلی ممنون. خیلی صبورید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "reset",
+     "fa": "بازنشانی"
+    },
+    {
+     "word": "weigh",
+     "fa": "وزن کردن"
+    },
+    {
+     "word": "barcode",
+     "fa": "بارکد"
+    },
+    {
+     "word": "patient",
+     "fa": "صبور"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Tap \"Look up item\", then \"Fruit\", then \"Bananas\". And would you like to use your Clubcard? You'll save on the wine.",
+   "translations": {
+    "fa": "«جستجوی کالا» را بزنید، بعد «میوه»، بعد «موز». کارت عضویت دارید؟ روی شراب صرفه‌جویی می‌کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "isn't",
+      "left",
+      "here"
+     ],
+     "suggestion": "The wine isn't mine! Someone left it here.",
+     "suggestionFa": "شراب مال من نیست! یکی اینجا جا گذاشته.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "loyalty",
+      "don't",
+      "free",
+      "card"
+     ],
+     "suggestion": "I don't have a loyalty card. Is it free?",
+     "suggestionFa": "کارت وفاداری ندارم. رایگانه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "ضربه زدن"
+    },
+    {
+     "word": "look up",
+     "fa": "جستجو"
+    },
+    {
+     "word": "save",
+     "fa": "صرفه‌جویی"
+    },
+    {
+     "word": "loyalty card",
+     "fa": "کارت وفاداری"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Ah, that explains the unexpected item! I'll take it off. And yes, the card's free — I'll get you a form.",
+   "translations": {
+    "fa": "آه، پس کالای غیرمنتظره همین بود! برش می‌دارم. و آره، کارت رایگانه — یه فرم براتون میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "trouble",
+      "sorry",
+      "all"
+     ],
+     "suggestion": "Brilliant. Sorry for all the trouble!",
+     "suggestionFa": "عالی. ببخشید بابت زحمت!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mystery",
+      "solved"
+     ],
+     "suggestion": "Mystery solved!",
+     "suggestionFa": "معما حل شد!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "explains",
+     "fa": "توضیح می‌دهد"
+    },
+    {
+     "word": "take off",
+     "fa": "برداشتن"
+    },
+    {
+     "word": "trouble",
+     "fa": "زحمت"
+    },
+    {
+     "word": "mystery solved",
+     "fa": "معما حل شد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "No trouble at all. That's what I'm here for. Have a good evening!",
+   "translations": {
+    "fa": "اصلاً زحمتی نیست. کارم همینه. عصر خوبی داشته باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
