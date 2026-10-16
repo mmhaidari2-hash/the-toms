@@ -1,0 +1,346 @@
+{
+ "id": "nicola_school",
+ "characterId": "nicola",
+ "level": "A1",
+ "title": "First day at school",
+ "titleFa": "روز اول مدرسه",
+ "setting": "School gate, 8:45am",
+ "settingFa": "در مدرسه، ساعت ۸:۴۵",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M2"
+ },
+ "start": "a1",
+ "nodes": {
+  "a1": {
+   "id": "a1",
+   "speaker": "nicola",
+   "text": "My tummy feels funny. What if nobody likes me?",
+   "translations": {
+    "fa": "دلم یه جوری می‌شه. اگه هیچ‌کس دوستم نداشته باشه چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "normal",
+      "okay",
+      "fine",
+      "everyone",
+      "like",
+      "brave"
+     ],
+     "suggestion": "It's normal to feel nervous. Everyone will like you!",
+     "suggestionFa": "نگران بودن طبیعی است. همه دوستت خواهند داشت!",
+     "trustDelta": 8,
+     "next": "a2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tummy",
+     "fa": "شکم (بچگانه)"
+    },
+    {
+     "word": "nervous",
+     "fa": "نگران / مضطرب"
+    }
+   ],
+   "cultureNote": null
+  },
+  "a2": {
+   "id": "a2",
+   "speaker": "nicola",
+   "text": "Will you pick me up at half three?",
+   "translations": {
+    "fa": "ساعت سه و نیم میای دنبالم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "promise",
+      "half three",
+      "course",
+      "pick"
+     ],
+     "suggestion": "Yes, I'll pick you up at half three. I promise.",
+     "suggestionFa": "آره، ساعت سه و نیم میام دنبالت. قول می‌دم.",
+     "trustDelta": 8,
+     "next": "x0",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half three",
+     "fa": "سه و نیم"
+    },
+    {
+     "word": "pick up",
+     "fa": "دنبال کسی رفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say 'half three' for 3:30 — not 'half past three' in casual speech.",
+    "fa": "بریتانیایی‌ها در گفتار خودمانی ۳:۳۰ را «half three» می‌گویند."
+   }
+  },
+  "a3": {
+   "id": "a3",
+   "speaker": "nicola",
+   "text": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
+   "translations": {
+    "fa": "باشه. خرسی هم میاد، تو کیف کتابم. بای‌بای!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب مدرسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children start 'Reception' class at 4–5 in England, and most wear a school uniform.",
+    "fa": "بچه‌ها در انگلیس از ۴–۵ سالگی کلاس «Reception» را شروع می‌کنند و بیشترشان لباس فرم می‌پوشند."
+   }
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "nicola",
+   "text": "We did a painting of autumn leaves today. Mine's orange and gold.",
+   "translations": {
+    "fa": "امروز نقاشی برگ‌های پاییزی کشیدیم. مال من نارنجی و طلاییه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "lovely",
+      "sounds"
+     ],
+     "suggestion": "That sounds beautiful!",
+     "suggestionFa": "خیلی قشنگ به نظر میاد!",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "see",
+      "show"
+     ],
+     "suggestion": "Can I see it?",
+     "suggestionFa": "می‌تونم ببینمش؟",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "autumn",
+     "fa": "پاییز (در آمریکا fall)"
+    },
+    {
+     "word": "leaves",
+     "fa": "برگ‌ها"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "nicola",
+   "text": "It's on the fridge! And guess what — I got a gold star.",
+   "translations": {
+    "fa": "روی یخچاله! حدس بزن چی — یه ستارهٔ طلایی گرفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gold",
+      "star",
+      "well done"
+     ],
+     "suggestion": "A gold star? Well done you!",
+     "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
+     "trustDelta": 8,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what",
+      "for",
+      "why"
+     ],
+     "suggestion": "What did you get it for?",
+     "suggestionFa": "برای چی گرفتیش؟",
+     "trustDelta": 7,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gold star",
+     "fa": "ستارهٔ طلایی (تشویق)"
+    },
+    {
+     "word": "well done you",
+     "fa": "آفرین به تو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you are good girl"
+     ],
+     "echo": "Good girl? Thank youuu!",
+     "better": "Well done you!",
+     "betterFa": "آفرین به تو!"
+    }
+   ]
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "nicola",
+   "text": "For sharing my crayons with Mia. She's my best friend now.",
+   "translations": {
+    "fa": "برای این‌که مداد شمعی‌هام را با میا شریک شدم. الان بهترین دوستمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kind",
+      "sharing",
+      "nice"
+     ],
+     "suggestion": "Sharing is so kind!",
+     "suggestionFa": "شریک شدن خیلی مهربونیه!",
+     "trustDelta": 8,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "mia",
+      "what"
+     ],
+     "suggestion": "What do you like about Mia?",
+     "suggestionFa": "چی میا را دوست داری؟",
+     "trustDelta": 7,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crayons",
+     "fa": "مداد شمعی"
+    },
+    {
+     "word": "best friend",
+     "fa": "بهترین دوست"
+    }
+   ]
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "nicola",
+   "text": "She does funny voices. Miss Hart says we're a bit too giggly sometimes.",
+   "translations": {
+    "fa": "صداهای بامزه درمیاره. خانم هارت می‌گه گاهی زیادی ریزریز می‌خندیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "okay",
+      "little",
+      "fine"
+     ],
+     "suggestion": "A little giggling is okay!",
+     "suggestionFa": "یه کم خندیدن اشکالی نداره!",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "listen",
+      "try",
+      "though"
+     ],
+     "suggestion": "Try to listen to Miss Hart, though.",
+     "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "giggly",
+     "fa": "خنده‌رو"
+    },
+    {
+     "word": "Miss",
+     "fa": "خانم (خطاب به معلم زن)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children call teachers 'Miss' or 'Sir' — even 'Miss' for married women teachers.",
+    "fa": "بچه‌ها معلم‌ها را «Miss» یا «Sir» صدا می‌زنند."
+   }
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "nicola",
+   "text": "I will. Can we have fish fingers for tea? It's Friday!",
+   "translations": {
+    "fa": "باشه. می‌شه شام ماهی سوخاری بخوریم؟ جمعه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ask",
+      "mum"
+     ],
+     "suggestion": "Let's ask your mum!",
+     "suggestionFa": "بیا از مامانت بپرسیم!",
+     "trustDelta": 7,
+     "next": "a3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fish",
+      "it is",
+      "yes"
+     ],
+     "suggestion": "Fish fingers it is!",
+     "suggestionFa": "پس ماهی سوخاری!",
+     "trustDelta": 7,
+     "next": "a3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tea",
+     "fa": "شام (در گفتار شمال و خانواده‌ها)"
+    },
+    {
+     "word": "fish fingers",
+     "fa": "ماهی سوخاری انگشتی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In many British homes 'tea' means the evening meal, not just a drink.",
+    "fa": "در خیلی از خانه‌های بریتانیایی «tea» یعنی شام، نه فقط نوشیدنی."
+   }
+  }
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "ryan_driving",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "Ryan's first driving lesson",
+ "titleFa": "اولین جلسهٔ رانندگی رایان",
+ "setting": "Supermarket car park, Sunday morning — three years later",
+ "settingFa": "پارکینگ سوپرمارکت، صبح یکشنبه — سه سال بعد",
+ "requires": {
+  "characterId": "ryan",
+  "milestone": "M2"
+ },
+ "start": "d1",
+ "nodes": {
+  "d1": {
+   "id": "d1",
+   "speaker": "tom",
+   "text": "Right, you're in the back seat as moral support. Ryan's got his provisional licence — tell him to check his mirrors.",
+   "translations": {
+    "fa": "خب، تو صندلی عقب برای پشتیبانی روحی نشستی. رایان گواهینامهٔ موقت گرفته — بهش بگو آینه‌ها رو چک کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mirror",
+      "mirrors",
+      "check",
+      "signal",
+      "look"
+     ],
+     "suggestion": "Ryan, check your mirrors and signal before you pull out.",
+     "suggestionFa": "رایان، قبل از حرکت آینه‌ها رو چک کن و راهنما بزن.",
+     "trustDelta": 9,
+     "next": "d2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "provisional licence",
+     "fa": "گواهینامهٔ موقت"
+    },
+    {
+     "word": "pull out",
+     "fa": "حرکت کردن (از پارک)"
+    },
+    {
+     "word": "signal",
+     "fa": "راهنما زدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK learners get a provisional licence and must show 'L' plates on the car.",
+    "fa": "هنرجوها در بریتانیا گواهینامهٔ موقت می‌گیرند و باید پلاک «L» روی ماشین بزنند."
+   }
+  },
+  "d2": {
+   "id": "d2",
+   "speaker": "tom",
+   "text": "Easy… easy on the clutch! He's stalled it again. Say something encouraging, would you?",
+   "translations": {
+    "fa": "آروم… آروم کلاچ! باز خاموش کرد. یه چیز دلگرم‌کننده بگو، می‌شه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't worry",
+      "happens",
+      "everyone",
+      "again",
+      "no worries",
+      "fine"
+     ],
+     "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
+     "suggestionFa": "نگران نباش رایان — همه اولش خاموش می‌کنن. دوباره امتحان کن.",
+     "trustDelta": 9,
+     "next": "d3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stalled",
+     "fa": "خاموش کردن ماشین (کلاچ)"
+    },
+    {
+     "word": "clutch",
+     "fa": "کلاچ"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most UK learners drive manual cars — stalling is a rite of passage.",
+    "fa": "بیشتر هنرجوهای بریتانیایی با ماشین دنده‌دستی یاد می‌گیرند — خاموش کردن مرحلهٔ ناگزیر است."
+   }
+  },
+  "d3": {
+   "id": "d3",
+   "speaker": "tom",
+   "text": "There he goes! Look at him — my boy, driving. Where did the time go, eh?",
+   "translations": {
+    "fa": "رفت! نگاش کن — پسرم داره رانندگی می‌کنه. زمان کجا رفت، ها؟"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "where did the time go",
+     "fa": "زمان کجا رفت (حسرت)"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

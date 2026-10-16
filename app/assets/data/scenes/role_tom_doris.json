@@ -1,0 +1,99 @@
+{
+ "id": "role_tom_doris",
+ "characterId": "doris",
+ "level": "B1",
+ "title": "(As Tom) Doris's Tuesday",
+ "titleFa": "(در نقش تام) سه‌شنبهٔ دوریس",
+ "setting": "Driver's cab, the 38",
+ "settingFa": "کابین راننده، اتوبوس ۳۸",
+ "requires": null,
+ "start": "t1",
+ "nodes": {
+  "t1": {
+   "id": "t1",
+   "speaker": "doris",
+   "text": "Morning, Tom love! Here's your flapjack. How's that wife of yours?",
+   "translations": {
+    "fa": "صبح بخیر تام عزیزم! این فلپ‌جکت. همسرت چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fine",
+      "good",
+      "well",
+      "thanks",
+      "cheers",
+      "leslie"
+     ],
+     "suggestion": "Cheers, Doris! She's very well, thanks. How are your knees?",
+     "suggestionFa": "مرسی دوریس! خیلی خوبه، ممنون. زانوهات چطوره؟",
+     "trustDelta": 8,
+     "next": "t2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "love",
+     "fa": "عزیزم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "t2": {
+   "id": "t2",
+   "speaker": "doris",
+   "text": "Oh, don't get me started. Mustn't grumble, though. Is there a seat at the front?",
+   "translations": {
+    "fa": "وای، اصلاً نپرس. ولی نباید غر بزنم. جلو صندلی هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seat",
+      "front",
+      "sit",
+      "save",
+      "course"
+     ],
+     "suggestion": "I've saved you the front seat as always.",
+     "suggestionFa": "مثل همیشه صندلی جلو رو برات نگه داشتم.",
+     "trustDelta": 9,
+     "next": "t3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "don't get me started",
+     "fa": "اصلاً نپرس (شروع کنم تمومی نداره)"
+    },
+    {
+     "word": "mustn't grumble",
+     "fa": "نباید غر بزنم"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Mustn't grumble' is peak British understatement — said even when things are dreadful.",
+    "fa": "«Mustn't grumble» اوج کم‌گویی بریتانیایی است — حتی وقتی اوضاع افتضاح است گفته می‌شود."
+   }
+  },
+  "t3": {
+   "id": "t3",
+   "speaker": "doris",
+   "text": "You're a diamond. Right, off we go — Dalston, driver!",
+   "translations": {
+    "fa": "تو یه تیکه جواهری. خب، بریم — دالستون، راننده!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "off we go",
+     "fa": "بریم"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

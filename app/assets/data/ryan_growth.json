@@ -1,0 +1,36 @@
+{
+ "characterId": "ryan",
+ "milestones": [
+  {
+   "id": "M0",
+   "title": "Awkward teen",
+   "titleFa": "نوجوان معذب",
+   "threshold": 0,
+   "description": "One-word answers.",
+   "descriptionFa": "جواب‌های یک‌کلمه‌ای.",
+   "unlocks": []
+  },
+  {
+   "id": "M1",
+   "title": "Report card",
+   "titleFa": "کارنامه",
+   "threshold": 25,
+   "description": "End-of-year report day. Ryan's nervous.",
+   "descriptionFa": "روز کارنامهٔ آخر سال. رایان نگران است.",
+   "unlocks": [
+    "ryan_report"
+   ]
+  },
+  {
+   "id": "M2",
+   "title": "Learner driver",
+   "titleFa": "رانندهٔ تازه‌کار",
+   "threshold": 50,
+   "description": "Three years on: Ryan's first driving lesson with Tom.",
+   "descriptionFa": "سه سال بعد: اولین جلسهٔ رانندگی رایان با تام.",
+   "unlocks": [
+    "ryan_driving"
+   ]
+  }
+ ]
+}

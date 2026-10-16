@@ -1,0 +1,163 @@
+{
+ "id": "clarke_interview",
+ "characterId": "clarke",
+ "level": "B2",
+ "title": "The job interview",
+ "titleFa": "مصاحبهٔ کاری",
+ "setting": "Logistics depot, Stratford",
+ "settingFa": "انبار لجستیک، استراتفورد",
+ "requires": null,
+ "start": "j1",
+ "nodes": {
+  "j1": {
+   "id": "j1",
+   "speaker": "clarke",
+   "text": "Thanks for coming in. So, tell me a bit about yourself and why you've applied.",
+   "translations": {
+    "fa": "ممنون که آمدید. خب، کمی از خودتان بگویید و اینکه چرا درخواست داده‌اید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "experience",
+      "worked",
+      "years",
+      "team",
+      "background"
+     ],
+     "suggestion": "I've got five years' experience in warehouse work, and I enjoy leading a team.",
+     "suggestionFa": "پنج سال سابقهٔ کار انبار دارم و از رهبری تیم لذت می‌برم.",
+     "trustDelta": 8,
+     "next": "j2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learn",
+      "grow",
+      "opportunity",
+      "develop",
+      "career"
+     ],
+     "suggestion": "I'm keen to develop my career, and this role is a great opportunity.",
+     "suggestionFa": "مشتاقم شغلم را پیش ببرم و این موقعیت فرصت خوبی است.",
+     "trustDelta": 8,
+     "next": "j2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "applied",
+     "fa": "درخواست داده"
+    },
+    {
+     "word": "keen",
+     "fa": "مشتاق"
+    }
+   ],
+   "cultureNote": null
+  },
+  "j2": {
+   "id": "j2",
+   "speaker": "clarke",
+   "text": "Tell me about a time you had to deal with a difficult situation at work.",
+   "translations": {
+    "fa": "از زمانی بگویید که در کار با موقعیت سختی روبه‌رو شدید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "once",
+      "time",
+      "situation",
+      "customer",
+      "colleague",
+      "problem",
+      "solved",
+      "deadline"
+     ],
+     "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
+     "suggestionFa": "یک بار یک تحویل عقب افتاد، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
+     "trustDelta": 9,
+     "next": "j3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deal with",
+     "fa": "از پس چیزی برآمدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK interviewers love the STAR method: Situation, Task, Action, Result.",
+    "fa": "مصاحبه‌گرهای بریتانیایی عاشق روش STAR هستند: موقعیت، وظیفه، اقدام، نتیجه."
+   }
+  },
+  "j3": {
+   "id": "j3",
+   "speaker": "clarke",
+   "text": "Good answer. Do you have any questions for us?",
+   "translations": {
+    "fa": "جواب خوبی بود. سؤالی از ما دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "training",
+      "team",
+      "progression",
+      "day",
+      "start",
+      "question",
+      "when"
+     ],
+     "suggestion": "Yes — what does a typical day look like, and is there training?",
+     "suggestionFa": "بله — یک روز معمولی چطور است و آموزش هم دارید؟",
+     "trustDelta": 8,
+     "next": "j4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "think",
+      "covered"
+     ],
+     "suggestion": "I think you've covered everything, thank you.",
+     "suggestionFa": "فکر می‌کنم همه را گفتید، ممنون.",
+     "trustDelta": 4,
+     "next": "j4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "typical day",
+     "fa": "یک روز معمولی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "j4": {
+   "id": "j4",
+   "speaker": "clarke",
+   "text": "Thanks, that's all from me. We'll be in touch by the end of the week.",
+   "translations": {
+    "fa": "ممنون، از طرف من همین بود. تا آخر هفته با شما تماس می‌گیریم."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "be in touch",
+     "fa": "تماس گرفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'We'll be in touch' is polite and neutral — it doesn't mean yes or no.",
+    "fa": "«We'll be in touch» مؤدبانه و خنثی است — به معنی بله یا نه نیست."
+   }
+  }
+ }
+}

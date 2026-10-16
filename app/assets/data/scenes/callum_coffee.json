@@ -1,0 +1,161 @@
+{
+ "id": "callum_coffee",
+ "characterId": "callum",
+ "level": "A2",
+ "title": "Flat white, please",
+ "titleFa": "یک فلت‌وایت لطفاً",
+ "setting": "The Daily Grind café",
+ "settingFa": "کافه دیلی گرایند",
+ "requires": null,
+ "start": "c1",
+ "nodes": {
+  "c1": {
+   "id": "c1",
+   "speaker": "callum",
+   "text": "Morning! What can I get you?",
+   "translations": {
+    "fa": "صبح بخیر! چی برات بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flat white",
+      "latte",
+      "cappuccino",
+      "coffee",
+      "tea",
+      "americano"
+     ],
+     "suggestion": "Could I have a flat white, please?",
+     "suggestionFa": "می‌شود یک فلت‌وایت بدهید لطفاً؟",
+     "trustDelta": 6,
+     "next": "c2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what can I get you?",
+     "fa": "چی برات بیارم؟"
+    }
+   ],
+   "cultureNote": null
+  },
+  "c2": {
+   "id": "c2",
+   "speaker": "callum",
+   "text": "Lovely. Eat in or take away? And would you like oat milk with that?",
+   "translations": {
+    "fa": "عالی. همین‌جا میل می‌کنید یا می‌برید؟ شیر جو دوسر هم می‌خواهید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "take away",
+      "takeaway",
+      "go"
+     ],
+     "suggestion": "Take away, please — regular milk is fine.",
+     "suggestionFa": "برای بیرون لطفاً — شیر معمولی خوب است.",
+     "trustDelta": 6,
+     "next": "c3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eat in",
+      "here",
+      "stay",
+      "oat"
+     ],
+     "suggestion": "Eat in, please, with oat milk.",
+     "suggestionFa": "همین‌جا لطفاً، با شیر جو دوسر.",
+     "trustDelta": 6,
+     "next": "c3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take away",
+     "fa": "بیرون‌بر"
+    },
+    {
+     "word": "eat in",
+     "fa": "سرِ جا میل کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say 'take away'; Americans say 'to go'.",
+    "fa": "بریتانیایی‌ها «take away» می‌گویند؛ آمریکایی‌ها «to go»."
+   }
+  },
+  "c3": {
+   "id": "c3",
+   "speaker": "callum",
+   "text": "Grand. It's £3.20. Anything else — a pastry, maybe? The croissants are proper good today.",
+   "translations": {
+    "fa": "عالی. ۳ پوند و ۲۰ پنی. چیز دیگه — شاید یک شیرینی؟ کروسان‌ها امروز واقعاً خوبن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "croissant",
+      "yes",
+      "go on",
+      "pastry",
+      "why not"
+     ],
+     "suggestion": "Go on then, I'll have a croissant.",
+     "suggestionFa": "باشه پس، یک کروسان می‌خورم.",
+     "trustDelta": 7,
+     "next": "c4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "that's all",
+      "just",
+      "fine"
+     ],
+     "suggestion": "No thanks, that's all.",
+     "suggestionFa": "نه ممنون، همین.",
+     "trustDelta": 5,
+     "next": "c4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "proper good",
+     "fa": "واقعاً خوب (لهجهٔ شمالی)"
+    },
+    {
+     "word": "go on then",
+     "fa": "باشه پس"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Proper' as 'really' is very common in the North of England.",
+    "fa": "«proper» به معنی «واقعاً» در شمال انگلیس خیلی رایج است."
+   }
+  },
+  "c4": {
+   "id": "c4",
+   "speaker": "callum",
+   "text": "Sorted. I'll bring it over. Have a good one!",
+   "translations": {
+    "fa": "ردیفه. برات میارم. روز خوبی داشته باشی!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "sorted",
+     "fa": "ردیف / حل شد"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

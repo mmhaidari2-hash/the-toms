@@ -1,0 +1,101 @@
+{
+ "id": "role_leslie_parents",
+ "characterId": "patel",
+ "level": "A2",
+ "title": "(As Leslie) Parents' evening",
+ "titleFa": "(در نقش لزلی) جلسهٔ اولیا",
+ "setting": "School hall, 6pm",
+ "settingFa": "سالن مدرسه، ساعت ۶",
+ "requires": null,
+ "start": "l1",
+ "nodes": {
+  "l1": {
+   "id": "l1",
+   "speaker": "patel",
+   "text": "Mrs Thompson, thanks for coming. I'm afraid Ryan's been late four times this term.",
+   "translations": {
+    "fa": "خانم تامسون، ممنون که اومدید. متأسفانه رایان این ترم چهار بار دیر اومده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "bus",
+      "talk",
+      "speak",
+      "know",
+      "didn't"
+     ],
+     "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
+     "suggestionFa": "متأسفم — نمی‌دانستم. امشب باهاش صحبت می‌کنم.",
+     "trustDelta": 8,
+     "next": "l2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "this term",
+     "fa": "این ترم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "l2": {
+   "id": "l2",
+   "speaker": "patel",
+   "text": "Thank you. Otherwise, he's doing well. Do you have any questions?",
+   "translations": {
+    "fa": "ممنون. جدا از این، خوب پیش می‌ره. سؤالی دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "team",
+      "maths",
+      "friends",
+      "settled",
+      "how is"
+     ],
+     "suggestion": "How's he getting on with his friends?",
+     "suggestionFa": "با دوست‌هاش چطوره؟",
+     "trustDelta": 8,
+     "next": "l3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "getting on with",
+     "fa": "رابطه داشتن با"
+    },
+    {
+     "word": "otherwise",
+     "fa": "جدا از این"
+    }
+   ],
+   "cultureNote": null
+  },
+  "l3": {
+   "id": "l3",
+   "speaker": "patel",
+   "text": "He's very popular — a bit too chatty in lessons, if anything!",
+   "translations": {
+    "fa": "خیلی محبوبه — اگه بخوام ایرادی بگیرم، سر کلاس کمی زیادی پرحرفه!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "chatty",
+     "fa": "پرحرف"
+    },
+    {
+     "word": "if anything",
+     "fa": "اگر ایرادی باشد"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

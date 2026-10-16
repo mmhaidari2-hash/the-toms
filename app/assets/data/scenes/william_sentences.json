@@ -1,0 +1,95 @@
+{
+ "id": "william_sentences",
+ "characterId": "william",
+ "level": "A0",
+ "title": "Daddy bus!",
+ "titleFa": "بابا اتوبوس!",
+ "setting": "The front window",
+ "settingFa": "پنجرهٔ جلو",
+ "requires": {
+  "characterId": "william",
+  "milestone": "M3"
+ },
+ "start": "u1",
+ "nodes": {
+  "u1": {
+   "id": "u1",
+   "speaker": "william",
+   "text": "Daddy bus! Red bus!",
+   "translations": {
+    "fa": "بابا اتوبوس! اتوبوس قرمز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "daddy",
+      "bus",
+      "red",
+      "drives",
+      "big"
+     ],
+     "suggestion": "Yes! Daddy drives the big red bus!",
+     "suggestionFa": "آره! بابا اتوبوس بزرگ قرمز رو می‌رونه!",
+     "trustDelta": 8,
+     "next": "u2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drives",
+     "fa": "رانندگی می‌کند"
+    }
+   ],
+   "cultureNote": null
+  },
+  "u2": {
+   "id": "u2",
+   "speaker": "william",
+   "text": "Beep beep! Me drive!",
+   "translations": {
+    "fa": "بوق بوق! من برونم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "when",
+      "bigger",
+      "grow",
+      "one day",
+      "beep"
+     ],
+     "suggestion": "One day, when you're bigger!",
+     "suggestionFa": "یه روز، وقتی بزرگ‌تر شدی!",
+     "trustDelta": 8,
+     "next": "u3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one day",
+     "fa": "یک روز"
+    }
+   ],
+   "cultureNote": null
+  },
+  "u3": {
+   "id": "u3",
+   "speaker": "william",
+   "text": "Me bigger! Love you!",
+   "translations": {
+    "fa": "من بزرگ‌تر! دوستت دارم!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "love you",
+     "fa": "دوستت دارم"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

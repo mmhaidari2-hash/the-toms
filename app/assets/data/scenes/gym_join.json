@@ -1,0 +1,189 @@
+{
+ "id": "gym_join",
+ "characterId": "jade",
+ "level": "B1",
+ "title": "Joining the gym",
+ "titleFa": "عضویت در باشگاه",
+ "setting": "FitHub, Hackney Wick",
+ "settingFa": "باشگاه فیت‌هاب، هاکنی ویک",
+ "requires": null,
+ "start": "y1",
+ "nodes": {
+  "y1": {
+   "id": "y1",
+   "speaker": "jade",
+   "text": "Hiya! Welcome to FitHub. Are you looking to sign up, or just after a day pass?",
+   "translations": {
+    "fa": "سلام! به فیت‌هاب خوش آمدی. می‌خواهی ثبت‌نام کنی یا فقط بلیت یک‌روزه می‌خواهی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sign up",
+      "join",
+      "membership",
+      "member",
+      "monthly"
+     ],
+     "suggestion": "I'm looking to sign up — what memberships do you offer?",
+     "suggestionFa": "می‌خواهم ثبت‌نام کنم — چه نوع عضویت‌هایی دارید؟",
+     "trustDelta": 8,
+     "next": "y2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "day pass",
+      "try",
+      "today",
+      "trial",
+      "just"
+     ],
+     "suggestion": "Just a day pass for now — I'd like to try it out first.",
+     "suggestionFa": "فعلاً فقط یک‌روزه — اول می‌خواهم امتحان کنم.",
+     "trustDelta": 7,
+     "next": "y2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign up",
+     "fa": "ثبت‌نام کردن"
+    },
+    {
+     "word": "day pass",
+     "fa": "بلیت یک‌روزه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "y2": {
+   "id": "y2",
+   "speaker": "jade",
+   "text": "We've got a rolling monthly at £35 with no contract, or £29 a month if you commit to twelve months.",
+   "translations": {
+    "fa": "یک عضویت ماهانهٔ بدون قرارداد ۳۵ پوندی داریم، یا اگر برای دوازده ماه تعهد بدهی ماهی ۲۹ پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rolling",
+      "no contract",
+      "flexible",
+      "cancel",
+      "monthly"
+     ],
+     "suggestion": "I'd prefer the rolling one — can I cancel any time?",
+     "suggestionFa": "ترجیح می‌دهم ماهانه باشد — هر وقت خواستم می‌توانم لغو کنم؟",
+     "trustDelta": 8,
+     "next": "y3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twelve",
+      "year",
+      "commit",
+      "cheaper",
+      "29"
+     ],
+     "suggestion": "The twelve-month one works out cheaper, so I'll go for that.",
+     "suggestionFa": "دوازده‌ماهه ارزان‌تر درمی‌آید، پس همان را انتخاب می‌کنم.",
+     "trustDelta": 8,
+     "next": "y3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rolling monthly",
+     "fa": "ماهانهٔ قابل‌تمدید"
+    },
+    {
+     "word": "commit to",
+     "fa": "متعهد شدن به"
+    },
+    {
+     "word": "works out cheaper",
+     "fa": "ارزان‌تر درمی‌آید"
+    }
+   ],
+   "cultureNote": null
+  },
+  "y3": {
+   "id": "y3",
+   "speaker": "jade",
+   "text": "Yep, just give us a month's notice. Would you like to book a free induction so a trainer can show you round the kit?",
+   "translations": {
+    "fa": "آره، فقط یک ماه قبل خبر بده. می‌خواهی یک جلسهٔ آشنایی رایگان رزرو کنی تا مربی دستگاه‌ها را نشانت بدهد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "book",
+      "induction",
+      "please",
+      "great",
+      "tomorrow"
+     ],
+     "suggestion": "Yes, that'd be great — is tomorrow morning free?",
+     "suggestionFa": "بله، عالی است — فردا صبح وقت خالی دارید؟",
+     "trustDelta": 8,
+     "next": "y4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "fine",
+      "used",
+      "experience",
+      "myself"
+     ],
+     "suggestion": "I'm alright, thanks — I've used gyms before.",
+     "suggestionFa": "لازم نیست، ممنون — قبلاً باشگاه رفته‌ام.",
+     "trustDelta": 6,
+     "next": "y4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a month's notice",
+     "fa": "یک ماه اطلاع قبلی"
+    },
+    {
+     "word": "induction",
+     "fa": "جلسهٔ آشنایی"
+    },
+    {
+     "word": "kit",
+     "fa": "وسایل / تجهیزات"
+    }
+   ],
+   "cultureNote": null
+  },
+  "y4": {
+   "id": "y4",
+   "speaker": "jade",
+   "text": "Sorted! Here's your fob for the turnstile. Smash it!",
+   "translations": {
+    "fa": "ردیفه! این هم کارت ورود گیت. بترکون!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "fob",
+     "fa": "کارت/جاکلیدی ورود"
+    },
+    {
+     "word": "smash it",
+     "fa": "عالی انجام بده / بترکون"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

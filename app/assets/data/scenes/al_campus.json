@@ -1,0 +1,129 @@
+{
+ "id": "al_campus",
+ "characterId": "al",
+ "level": "C1",
+ "title": "Seminar with Alastair",
+ "titleFa": "سمینار با آلستر",
+ "setting": "UCL, Bartlett School",
+ "settingFa": "دانشگاه UCL، دانشکدهٔ بارتلت",
+ "requires": null,
+ "start": "a1",
+ "nodes": {
+  "a1": {
+   "id": "a1",
+   "speaker": "al",
+   "text": "Right, folks — the question on the table: should central London scrap cars altogether? I'd like you to make a case, either way.",
+   "translations": {
+    "fa": "خب بچه‌ها — سؤال امروز: آیا مرکز لندن باید ماشین‌ها را کاملاً حذف کند؟ می‌خواهم استدلال کنید، موافق یا مخالف."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pollution",
+      "air",
+      "health",
+      "cleaner",
+      "emissions",
+      "walk",
+      "cycle"
+     ],
+     "suggestion": "I'd argue it should — the air quality and health benefits would be substantial.",
+     "suggestionFa": "من استدلال می‌کنم که باید — منافع کیفیت هوا و سلامتی چشمگیر خواهد بود.",
+     "trustDelta": 9,
+     "next": "a2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "business",
+      "deliveries",
+      "disabled",
+      "access",
+      "jobs",
+      "economy",
+      "convinced",
+      "businesses",
+      "mobility",
+      "not convinced"
+     ],
+     "suggestion": "I'm not convinced — it could hit businesses and people with limited mobility.",
+     "suggestionFa": "قانع نیستم — ممکن است به کسب‌وکارها و افراد کم‌تحرک آسیب بزند.",
+     "trustDelta": 9,
+     "next": "a2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "make a case",
+     "fa": "استدلال کردن"
+    },
+    {
+     "word": "scrap",
+     "fa": "کنار گذاشتن / حذف"
+    }
+   ],
+   "cultureNote": null
+  },
+  "a2": {
+   "id": "a2",
+   "speaker": "al",
+   "text": "Good. Now play devil's advocate — what's the strongest argument against your own position?",
+   "translations": {
+    "fa": "خوب. حالا وکیل مدافع شیطان باش — قوی‌ترین استدلال علیه نظر خودت چیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "however",
+      "although",
+      "admittedly",
+      "on the other hand",
+      "fair",
+      "cost",
+      "trade"
+     ],
+     "suggestion": "Admittedly, the transition would be costly, and on the other hand some people genuinely depend on cars.",
+     "suggestionFa": "البته، این گذار پرهزینه خواهد بود، و از طرف دیگر بعضی واقعاً به ماشین وابسته‌اند.",
+     "trustDelta": 10,
+     "next": "a3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "devil's advocate",
+     "fa": "وکیل مدافع شیطان (مخالف‌خوانی برای بحث)"
+    },
+    {
+     "word": "admittedly",
+     "fa": "البته / باید پذیرفت"
+    }
+   ],
+   "cultureNote": {
+    "en": "British seminars reward hedging: 'arguably', 'to some extent', 'admittedly'.",
+    "fa": "سمینارهای بریتانیایی محتاط‌گویی را ارج می‌گذارند: «arguably»، «to some extent»."
+   }
+  },
+  "a3": {
+   "id": "a3",
+   "speaker": "al",
+   "text": "Spot on — that's nuance, that is. Tom said you were sharp. Pint later?",
+   "translations": {
+    "fa": "دقیقاً — این یعنی ظرافت. تام گفته بود تیزی. بعداً یه آبجو؟"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "spot on",
+     "fa": "دقیقاً درست"
+    },
+    {
+     "word": "nuance",
+     "fa": "ظرافت / جزئیات دقیق"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

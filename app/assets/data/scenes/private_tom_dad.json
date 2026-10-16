@@ -1,0 +1,96 @@
+{
+ "id": "private_tom_dad",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "Tom's dad's bus",
+ "titleFa": "اتوبوس پدر تام",
+ "setting": "The garden bench, late evening",
+ "settingFa": "نیمکت باغ، اواخر شب",
+ "requires": null,
+ "start": "pt1",
+ "nodes": {
+  "pt1": {
+   "id": "pt1",
+   "speaker": "tom",
+   "text": "Never told many people this. My dad drove the 38 too. Thirty-one years. I took his route when he retired.",
+   "translations": {
+    "fa": "اینو به خیلیا نگفتم. بابام هم راننده‌ی ۳۸ بود. سی‌ویک سال. وقتی بازنشسته شد مسیرش رو گرفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "proud",
+      "lovely",
+      "special",
+      "must",
+      "miss"
+     ],
+     "suggestion": "He must be so proud of you.",
+     "suggestionFa": "حتماً خیلی بهت افتخار می‌کنه.",
+     "trustDelta": 10,
+     "next": "pt2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "retired",
+     "fa": "بازنشسته شد"
+    },
+    {
+     "word": "route",
+     "fa": "مسیر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "pt2": {
+   "id": "pt2",
+   "speaker": "tom",
+   "text": "He was. Lost him two winters back. Some mornings I still wave at the depot like he's there. Daft, eh?",
+   "translations": {
+    "fa": "افتخار می‌کرد. دو زمستون پیش از دستش دادم. بعضی صبح‌ها هنوز برای پایانه دست تکون می‌دم انگار اون‌جاست. احمقانه‌ست، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "not daft",
+      "sorry",
+      "not silly",
+      "lovely",
+      "beautiful",
+      "understand"
+     ],
+     "suggestion": "It's not daft at all. I'm so sorry.",
+     "suggestionFa": "اصلاً احمقانه نیست. خیلی متأسفم.",
+     "trustDelta": 10,
+     "next": "pt3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "daft",
+     "fa": "احمقانه (خودمانی)"
+    },
+    {
+     "word": "two winters back",
+     "fa": "دو زمستان پیش"
+    }
+   ],
+   "cultureNote": null
+  },
+  "pt3": {
+   "id": "pt3",
+   "speaker": "tom",
+   "text": "Cheers, mate. You're family now — that's why I told you.",
+   "translations": {
+    "fa": "مرسی رفیق. تو حالا خانواده‌ای — واسه همین بهت گفتم."
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": null
+  }
+ },
+ "requiresTrust": 60
+}

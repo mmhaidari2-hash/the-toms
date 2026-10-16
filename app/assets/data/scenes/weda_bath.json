@@ -1,0 +1,417 @@
+{
+ "id": "weda_bath",
+ "characterId": "weda",
+ "level": "A0",
+ "title": "Bath time",
+ "titleFa": "وقت حمام",
+ "setting": "The bathroom, 7pm",
+ "settingFa": "حمام، ساعت ۷ عصر",
+ "requires": null,
+ "start": "h1",
+ "nodes": {
+  "h1": {
+   "id": "h1",
+   "speaker": "weda",
+   "text": "Bath time, William! Is the water too hot?",
+   "translations": {
+    "fa": "وقت حمام است ویلیام! آب خیلی داغ است؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "fine",
+      "good",
+      "warm",
+      "ok",
+      "okay"
+     ],
+     "suggestion": "No, it's nice and warm.",
+     "suggestionFa": "نه، خوب و ولرم است.",
+     "trustDelta": 6,
+     "next": "h2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hot",
+      "yes",
+      "cold"
+     ],
+     "suggestion": "It's a bit hot. More cold water.",
+     "suggestionFa": "کمی داغ است. آب سرد بیشتر.",
+     "trustDelta": 6,
+     "next": "h2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bath time",
+     "fa": "وقت حمام"
+    },
+    {
+     "word": "warm",
+     "fa": "ولرم / گرم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h2": {
+   "id": "h2",
+   "speaker": "weda",
+   "text": "Now — bubbles or the rubber duck?",
+   "translations": {
+    "fa": "حالا — حباب یا اردک پلاستیکی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bubbles",
+      "bubble"
+     ],
+     "suggestion": "Bubbles, please!",
+     "suggestionFa": "حباب، لطفاً!",
+     "trustDelta": 6,
+     "next": "x0",
+     "success": true
+    },
+    {
+     "keywords": [
+      "duck",
+      "rubber"
+     ],
+     "suggestion": "The rubber duck!",
+     "suggestionFa": "اردک پلاستیکی!",
+     "trustDelta": 6,
+     "next": "x0",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bubbles",
+     "fa": "حباب"
+    },
+    {
+     "word": "rubber duck",
+     "fa": "اردک پلاستیکی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h3": {
+   "id": "h3",
+   "speaker": "weda",
+   "text": "Lovely. Now, towel, pyjamas and teeth. Night night!",
+   "translations": {
+    "fa": "عالی. حالا حوله، پیژامه و مسواک. شب بخیر!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "towel",
+     "fa": "حوله"
+    },
+    {
+     "word": "pyjamas",
+     "fa": "پیژامه"
+    },
+    {
+     "word": "night night",
+     "fa": "شب بخیر (بچگانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling is 'pyjamas'; Americans write 'pajamas'.",
+    "fa": "املای بریتانیایی «pyjamas» است؛ آمریکایی‌ها «pajamas» می‌نویسند."
+   }
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "weda",
+   "text": "Now, while William splashes — did you have a nana back home?",
+   "translations": {
+    "fa": "حالا که ویلیام آب‌بازی می‌کنه — تو هم مادربزرگ داشتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "bread",
+      "she",
+      "grandma"
+     ],
+     "suggestion": "Yes, she made the best bread.",
+     "suggestionFa": "بله، بهترین نان را می‌پخت.",
+     "trustDelta": 8,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "sadly",
+      "didn't"
+     ],
+     "suggestion": "I never met mine, sadly.",
+     "suggestionFa": "متأسفانه هیچ‌وقت ندیدمش.",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nana",
+     "fa": "مادربزرگ (خودمانی)"
+    },
+    {
+     "word": "back home",
+     "fa": "در وطن"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "weda",
+   "text": "Ah, bless. Pass me the flannel, would you? It's the blue one.",
+   "translations": {
+    "fa": "آخی. اون حوله‌دستی را بده، می‌شه؟ آبیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "blue",
+      "flannel"
+     ],
+     "suggestion": "Here you are, the blue flannel.",
+     "suggestionFa": "بفرمایید، حولهٔ آبی.",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "sorry",
+      "what"
+     ],
+     "suggestion": "Sorry, which one is the flannel?",
+     "suggestionFa": "ببخشید، حوله‌دستی کدومه؟",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flannel",
+     "fa": "حوله‌دستی کوچک صورت"
+    },
+    {
+     "word": "bless",
+     "fa": "آخی/خدا حفظش کنه"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Bless' or 'bless him' is said warmly about children or anything sweet.",
+    "fa": "«bless» یا «bless him» با محبت دربارهٔ بچه‌ها یا هر چیز شیرین گفته می‌شود."
+   },
+   "recasts": [
+    {
+     "match": [
+      "give flannel",
+      "flannel give me"
+     ],
+     "echo": "The flannel? Here it is, pet.",
+     "better": "Could you pass me the flannel, please?",
+     "betterFa": "می‌شه حوله‌دستی را بدی، لطفاً؟"
+    }
+   ]
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "weda",
+   "text": "He hates his hair washed. We sing to distract him. Know any songs?",
+   "translations": {
+    "fa": "از شستن موهاش متنفره. براش آواز می‌خونیم که حواسش پرت شه. آهنگی بلدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "row",
+      "boat",
+      "sing",
+      "let's"
+     ],
+     "suggestion": "Let's sing 'Row, row, row your boat'!",
+     "suggestionFa": "بیا «پارو بزن قایقت را» بخونیم!",
+     "trustDelta": 8,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "language",
+      "only",
+      "my"
+     ],
+     "suggestion": "Only songs in my language.",
+     "suggestionFa": "فقط آهنگ‌های زبان خودم.",
+     "trustDelta": 7,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "distract",
+     "fa": "حواس پرت کردن"
+    },
+    {
+     "word": "nursery rhyme",
+     "fa": "شعر کودکانه"
+    }
+   ]
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "weda",
+   "text": "Sing him one of yours — babies love any tune. Oh look, he's giggling!",
+   "translations": {
+    "fa": "یکی از آهنگ‌های خودت را بخون — بچه‌ها هر آهنگی را دوست دارن. ببین، داره می‌خنده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cute",
+      "giggle",
+      "sweet",
+      "lovely"
+     ],
+     "suggestion": "He's so cute when he giggles!",
+     "suggestionFa": "وقتی می‌خنده خیلی بامزه‌ست!",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "likes",
+      "think",
+      "enjoy"
+     ],
+     "suggestion": "I think he likes it!",
+     "suggestionFa": "فکر کنم خوشش اومده!",
+     "trustDelta": 6,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "giggle",
+     "fa": "ریز خندیدن"
+    },
+    {
+     "word": "tune",
+     "fa": "آهنگ"
+    }
+   ]
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "weda",
+   "text": "Right, out you come, little one. Can you hold the towel open for me, dear?",
+   "translations": {
+    "fa": "خب، بیا بیرون کوچولو. می‌تونی حوله را برام باز نگه داری عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "ready",
+      "sure"
+     ],
+     "suggestion": "Of course — ready when you are.",
+     "suggestionFa": "حتماً — هر وقت آماده‌ای.",
+     "trustDelta": 7,
+     "next": "x5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like this",
+      "this"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌طوری؟",
+     "trustDelta": 6,
+     "next": "x5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ready when you are",
+     "fa": "هر وقت آماده‌ای"
+    },
+    {
+     "word": "out you come",
+     "fa": "بیا بیرون"
+    }
+   ],
+   "cultureNote": {
+    "en": "Older Brits often use 'dear', 'pet' or 'duck' (in the Midlands) as affectionate names.",
+    "fa": "بریتانیایی‌های مسن‌تر اغلب از «dear»، «pet» یا «duck» به‌عنوان خطاب محبت‌آمیز استفاده می‌کنند."
+   }
+  },
+  "x5": {
+   "id": "x5",
+   "speaker": "weda",
+   "text": "Lovely. Snug as a bug in a rug. You're a natural, you know.",
+   "translations": {
+    "fa": "عالی. گرم و نرم مثل حشره توی فرش. می‌دونی، تو ذاتاً بلدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "means",
+      "weda"
+     ],
+     "suggestion": "Thank you, Weda — that means a lot.",
+     "suggestionFa": "ممنون ویدا — خیلی برام ارزش داره.",
+     "trustDelta": 9,
+     "next": "h3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learnt",
+      "learned",
+      "watching",
+      "you"
+     ],
+     "suggestion": "I learnt from watching you!",
+     "suggestionFa": "از تماشای تو یاد گرفتم!",
+     "trustDelta": 8,
+     "next": "h3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snug as a bug in a rug",
+     "fa": "گرم و راحت"
+    },
+    {
+     "word": "a natural",
+     "fa": "استعداد ذاتی"
+    }
+   ]
+  }
+ }
+}

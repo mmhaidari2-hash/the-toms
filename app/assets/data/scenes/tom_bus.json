@@ -1,0 +1,351 @@
+{
+ "id": "tom_bus",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "On the number 38",
+ "titleFa": "در اتوبوس ۳۸",
+ "setting": "Tom's bus, Dalston Junction",
+ "settingFa": "اتوبوس تام، دالستون جانکشن",
+ "requires": null,
+ "start": "u1",
+ "nodes": {
+  "u1": {
+   "id": "u1",
+   "speaker": "tom",
+   "text": "Alright? Tap your card on the reader, mate. Where you headed?",
+   "translations": {
+    "fa": "چطوری؟ کارتت را روی دستگاه بزن رفیق. کجا می‌ری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "piccadilly",
+      "victoria",
+      "angel",
+      "centre",
+      "town",
+      "station",
+      "going"
+     ],
+     "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
+     "suggestionFa": "می‌روم پیکادیلی سیرکس. این اتوبوس آن‌جا می‌ایستد؟",
+     "trustDelta": 7,
+     "next": "u2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "زدن کارت"
+    },
+    {
+     "word": "where you headed?",
+     "fa": "کجا می‌ری؟"
+    }
+   ],
+   "cultureNote": {
+    "en": "London buses don't take cash — tap a contactless card or Oyster.",
+    "fa": "اتوبوس‌های لندن پول نقد نمی‌گیرند — کارت بدون تماس یا اویستر بزن."
+   }
+  },
+  "u2": {
+   "id": "u2",
+   "speaker": "tom",
+   "text": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
+   "translations": {
+    "fa": "می‌ایستد، ولی جادهٔ اسکس تعمیرات دارد، پس حدود ده دقیقه عقبیم. برو طبقهٔ بالا بنشین — بهترین منظرهٔ لندن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "upstairs",
+      "front",
+      "view",
+      "thanks",
+      "cheers"
+     ],
+     "suggestion": "Cheers, I'll sit at the front upstairs.",
+     "suggestionFa": "مرسی، طبقهٔ بالا جلو می‌نشینم.",
+     "trustDelta": 7,
+     "next": "x0",
+     "success": true
+    },
+    {
+     "keywords": [
+      "late",
+      "hurry",
+      "meeting",
+      "appointment"
+     ],
+     "suggestion": "Oh no, I've got a meeting. Is there a quicker way?",
+     "suggestionFa": "ای وای، جلسه دارم. راه سریع‌تری هست؟",
+     "trustDelta": 6,
+     "next": "x0",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roadworks",
+     "fa": "تعمیرات جاده"
+    },
+    {
+     "word": "running behind",
+     "fa": "عقب بودن از برنامه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "u3": {
+   "id": "u3",
+   "speaker": "tom",
+   "text": "Tell you what — hop off at Angel and get the Tube, it's quicker. Mind the gap!",
+   "translations": {
+    "fa": "ببین — توی ایستگاه انجل پیاده شو و مترو بگیر، سریع‌تره. مراقب فاصله باش!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "hop off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "the Tube",
+     "fa": "مترو لندن"
+    },
+    {
+     "word": "mind the gap",
+     "fa": "مراقب فاصلهٔ سکو باش"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Mind the gap' is the famous Tube warning about the space between train and platform.",
+    "fa": "«Mind the gap» هشدار معروف مترو دربارهٔ فاصلهٔ قطار و سکو است."
+   }
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "tom",
+   "text": "Here's the 38. Tap your card on the reader — the yellow thing.",
+   "translations": {
+    "fa": "اینم ۳۸. کارتت را روی دستگاه بزن — اون زرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like this",
+      "work",
+      "did"
+     ],
+     "suggestion": "Like this? Did it work?",
+     "suggestionFa": "این‌طوری؟ کار کرد؟",
+     "trustDelta": 6,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "pay"
+     ],
+     "suggestion": "Can I pay with my phone?",
+     "suggestionFa": "می‌تونم با گوشی پرداخت کنم؟",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "کارت زدن"
+    },
+    {
+     "word": "reader",
+     "fa": "دستگاه کارت‌خوان"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "tom",
+   "text": "Beep — you're in. Let's go upstairs, best view in town from the front seat.",
+   "translations": {
+    "fa": "بیپ — رفتی تو. بریم طبقهٔ بالا، بهترین منظرهٔ شهر از صندلی جلو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "love",
+      "top",
+      "upstairs"
+     ],
+     "suggestion": "Brilliant, I love the top deck!",
+     "suggestionFa": "عالی، طبقهٔ بالا را دوست دارم!",
+     "trustDelta": 7,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rather",
+      "downstairs"
+     ],
+     "suggestion": "I'd rather sit downstairs.",
+     "suggestionFa": "ترجیح می‌دم پایین بشینم.",
+     "trustDelta": 5,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "top deck",
+     "fa": "طبقهٔ بالای اتوبوس"
+    },
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Front seat on the top deck of a double-decker is every child's (and secret adult's) dream.",
+    "fa": "صندلی جلو در طبقهٔ بالای اتوبوس دوطبقه آرزوی هر بچه (و پنهانی بزرگ‌ترها) است."
+   }
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "tom",
+   "text": "That's the old cinema — it's flats now. Everything's flats now.",
+   "translations": {
+    "fa": "اون سینمای قدیمیه — الان آپارتمانه. همه‌چیز الان آپارتمانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shame",
+      "sad",
+      "closed"
+     ],
+     "suggestion": "Shame! Were you sad when it closed?",
+     "suggestionFa": "حیف! وقتی بسته شد ناراحت شدی؟",
+     "trustDelta": 8,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what",
+      "flat"
+     ],
+     "suggestion": "What's a flat?",
+     "suggestionFa": "flat چیه؟",
+     "trustDelta": 6,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flats",
+     "fa": "آپارتمان‌ها"
+    },
+    {
+     "word": "shame",
+     "fa": "حیف"
+    }
+   ]
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "tom",
+   "text": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
+   "translations": {
+    "fa": "خیلی ناراحت. اولین قرارم اونجا بود. به لزلی نگو که با اون نبود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lips",
+      "sealed",
+      "haha"
+     ],
+     "suggestion": "Haha, my lips are sealed!",
+     "suggestionFa": "هاها، لبام قفله!",
+     "trustDelta": 9,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "who"
+     ],
+     "suggestion": "Who was it with?",
+     "suggestionFa": "با کی بود؟",
+     "trustDelta": 6,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gutted",
+     "fa": "خیلی ناراحت"
+    },
+    {
+     "word": "my lips are sealed",
+     "fa": "لبام قفله"
+    }
+   ]
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "tom",
+   "text": "Ding! That's us — press the bell, would you? And say cheers to the driver.",
+   "translations": {
+    "fa": "دینگ! رسیدیم — زنگ را بزن، می‌شه؟ و به راننده بگو مرسی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheers",
+      "driver",
+      "thanks"
+     ],
+     "suggestion": "Cheers, driver!",
+     "suggestionFa": "مرسی، آقای راننده!",
+     "trustDelta": 8,
+     "next": "u3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "button"
+     ],
+     "suggestion": "Which button is the bell?",
+     "suggestionFa": "کدوم دکمه زنگه؟",
+     "trustDelta": 5,
+     "next": "u3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "that's us",
+     "fa": "ایستگاه ماست"
+    },
+    {
+     "word": "press the bell",
+     "fa": "زنگ را بزن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Saying 'cheers' or 'thank you' to the bus driver when you get off is very common — and noticed.",
+    "fa": "گفتن «cheers» به راننده موقع پیاده شدن خیلی رایج است — و دیده می‌شود."
+   }
+  }
+ }
+}

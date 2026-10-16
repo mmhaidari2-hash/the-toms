@@ -1,0 +1,146 @@
+{
+ "id": "sian_bank",
+ "characterId": "sian",
+ "level": "B1",
+ "title": "Opening a bank account",
+ "titleFa": "باز کردن حساب بانکی",
+ "setting": "Barclays, Mare Street",
+ "settingFa": "بانک بارکلیز، خیابان مِر",
+ "requires": null,
+ "start": "n1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "Good morning. I understand you'd like to open a current account?",
+   "translations": {
+    "fa": "صبح بخیر. متوجه شدم که می‌خواهید یک حساب جاری باز کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "current",
+      "account",
+      "open",
+      "that's right"
+     ],
+     "suggestion": "Yes, that's right. I've just started a new job.",
+     "suggestionFa": "بله، درست است. تازه کار جدیدی شروع کرده‌ام.",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "current account",
+     "fa": "حساب جاری"
+    }
+   ],
+   "cultureNote": {
+    "en": "A 'current account' is the UK term for a checking account.",
+    "fa": "«current account» اصطلاح بریتانیایی برای حساب جاری است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Congratulations! Would you like an arranged overdraft, or would you rather avoid borrowing for now?",
+   "translations": {
+    "fa": "تبریک! اضافه‌برداشت توافقی می‌خواهید یا ترجیح می‌دهید فعلاً قرض نگیرید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "avoid",
+      "rather not",
+      "don't",
+      "without"
+     ],
+     "suggestion": "I'd rather avoid an overdraft for now, thanks.",
+     "suggestionFa": "ترجیح می‌دهم فعلاً اضافه‌برداشت نداشته باشم، ممنون.",
+     "trustDelta": 8,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what",
+      "explain",
+      "mean",
+      "overdraft"
+     ],
+     "suggestion": "Sorry, could you explain what an overdraft is?",
+     "suggestionFa": "ببخشید، می‌شود توضیح بدهید اضافه‌برداشت چیست؟",
+     "trustDelta": 8,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "overdraft",
+     "fa": "اضافه‌برداشت"
+    },
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "Of course. It lets you spend a little more than you have, but you pay interest. Your debit card will arrive by post in five working days.",
+   "translations": {
+    "fa": "حتماً. اجازه می‌دهد کمی بیشتر از موجودی خرج کنید، ولی بهره می‌دهید. کارت نقدی‌تان ظرف پنج روز کاری با پست می‌رسد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "great",
+      "perfect",
+      "thanks",
+      "brilliant"
+     ],
+     "suggestion": "Brilliant, thank you for your help.",
+     "suggestionFa": "عالی، ممنون از کمکتان.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "interest",
+     "fa": "بهره / سود"
+    },
+    {
+     "word": "working days",
+     "fa": "روز کاری"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "My pleasure. Diolch — that's 'thank you' in Welsh!",
+   "translations": {
+    "fa": "خواهش می‌کنم. «دیولخ» — یعنی «ممنون» به ولزی!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "my pleasure",
+     "fa": "خواهش می‌کنم"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "id": "restaurant_order",
+ "characterId": "sophie",
+ "level": "A2",
+ "title": "Sunday lunch",
+ "titleFa": "ناهار یکشنبه",
+ "setting": "The Copper Kettle, Sunday 1pm",
+ "settingFa": "رستوران کاپر کتل، یکشنبه ساعت ۱",
+ "requires": null,
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "sophie",
+   "text": "Hiya, are you ready to order, or do you need a few more minutes?",
+   "translations": {
+    "fa": "سلام، آماده‌اید سفارش بدید یا چند دقیقهٔ دیگه وقت لازم دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ready",
+      "roast",
+      "beef",
+      "chicken",
+      "order",
+      "could i have",
+      "i'll have"
+     ],
+     "suggestion": "We're ready. Could I have the roast beef, please?",
+     "suggestionFa": "آماده‌ایم. می‌شه رست‌بیف بیارید لطفاً؟",
+     "trustDelta": 7,
+     "next": "r2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "more time",
+      "not yet",
+      "few"
+     ],
+     "suggestion": "Could we have a few more minutes, please?",
+     "suggestionFa": "می‌شه چند دقیقهٔ دیگه وقت بدید لطفاً؟",
+     "trustDelta": 5,
+     "next": "r1b",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ready to order",
+     "fa": "آمادهٔ سفارش"
+    },
+    {
+     "word": "roast",
+     "fa": "کباب تنوری / رست"
+    }
+   ],
+   "cultureNote": {
+    "en": "A Sunday roast — meat, roast potatoes, veg and gravy — is a beloved British tradition.",
+    "fa": "«Sunday roast» — گوشت، سیب‌زمینی تنوری، سبزی و سس گریوی — سنتی محبوب در بریتانیاست."
+   }
+  },
+  "r1b": {
+   "id": "r1b",
+   "speaker": "sophie",
+   "text": "No rush at all. … Right, what can I get you?",
+   "translations": {
+    "fa": "اصلاً عجله‌ای نیست. … خب، چی براتون بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "roast",
+      "beef",
+      "chicken",
+      "have",
+      "please",
+      "fish"
+     ],
+     "suggestion": "I'll have the roast chicken, please.",
+     "suggestionFa": "مرغ تنوری می‌خورم، لطفاً.",
+     "trustDelta": 6,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no rush",
+     "fa": "عجله‌ای نیست"
+    }
+   ],
+   "cultureNote": null
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "sophie",
+   "text": "Lovely choice. Does anyone have any allergies I should know about?",
+   "translations": {
+    "fa": "انتخاب خوبیه. کسی حساسیت غذایی داره که باید بدونم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nuts",
+      "allergic",
+      "allergy",
+      "gluten",
+      "dairy"
+     ],
+     "suggestion": "Yes, my daughter is allergic to nuts.",
+     "suggestionFa": "بله، دخترم به آجیل حساسیت دارد.",
+     "trustDelta": 8,
+     "next": "r3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "none",
+      "nobody",
+      "fine"
+     ],
+     "suggestion": "No, no allergies, thanks.",
+     "suggestionFa": "نه، حساسیتی نداریم، ممنون.",
+     "trustDelta": 6,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allergic to",
+     "fa": "حساسیت داشتن به"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK restaurants must tell you about 14 major allergens — always ask.",
+    "fa": "رستوران‌های بریتانیا باید دربارهٔ ۱۴ آلرژن اصلی اطلاع بدهند — حتماً بپرس."
+   }
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "sophie",
+   "text": "Noted. And for the little one — would she like the kids' menu? It comes with a pudding.",
+   "translations": {
+    "fa": "یادداشت کردم. و برای کوچولو — منوی بچه‌ها می‌خواد؟ با دسر میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "kids",
+      "please",
+      "lovely",
+      "pudding"
+     ],
+     "suggestion": "Yes please, she'd love that.",
+     "suggestionFa": "بله لطفاً، خیلی دوست دارد.",
+     "trustDelta": 7,
+     "next": "r4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "share",
+      "no",
+      "small"
+     ],
+     "suggestion": "No thanks, she'll share with me.",
+     "suggestionFa": "نه ممنون، با من شریک می‌شود.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pudding",
+     "fa": "دسر (بریتانیایی)"
+    },
+    {
+     "word": "the little one",
+     "fa": "کوچولو"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain 'pudding' (or 'pud') often just means dessert.",
+    "fa": "در بریتانیا «pudding» اغلب فقط یعنی دسر."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "sophie",
+   "text": "Perfect. I'll bring some water over. Just give me a shout if you need anything.",
+   "translations": {
+    "fa": "عالی. آب براتون میارم. اگه چیزی لازم داشتید صدام کنید."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "give me a shout",
+     "fa": "صدام کن"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

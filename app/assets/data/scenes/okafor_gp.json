@@ -1,0 +1,167 @@
+{
+ "id": "okafor_gp",
+ "characterId": "okafor",
+ "level": "B1",
+ "title": "GP appointment",
+ "titleFa": "وقت پزشک عمومی",
+ "setting": "Mare Street Surgery",
+ "settingFa": "درمانگاه خیابان مِر",
+ "requires": null,
+ "start": "g1",
+ "nodes": {
+  "g1": {
+   "id": "g1",
+   "speaker": "okafor",
+   "text": "Sorry to keep you waiting. What brings you in today?",
+   "translations": {
+    "fa": "ببخشید منتظرتان گذاشتم. امروز برای چه آمده‌اید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cough",
+      "cold",
+      "throat",
+      "fever",
+      "temperature",
+      "headache",
+      "ill"
+     ],
+     "suggestion": "I've had a bad cough and a temperature for about a week.",
+     "suggestionFa": "حدود یک هفته است سرفهٔ بد و تب دارم.",
+     "trustDelta": 7,
+     "next": "g2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "back",
+      "hurt",
+      "pain",
+      "knee",
+      "back's",
+      "hurting",
+      "heavy"
+     ],
+     "suggestion": "My back's been hurting since I lifted something heavy.",
+     "suggestionFa": "از وقتی چیز سنگینی بلند کردم کمرم درد می‌کند.",
+     "trustDelta": 7,
+     "next": "g2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what brings you in?",
+     "fa": "برای چه آمده‌اید؟"
+    },
+    {
+     "word": "temperature",
+     "fa": "تب"
+    }
+   ],
+   "cultureNote": {
+    "en": "GP = General Practitioner, your local NHS family doctor. You register with one near your home.",
+    "fa": "GP یعنی پزشک عمومی محلی NHS. باید نزدیک خانه‌ات در یکی ثبت‌نام کنی."
+   }
+  },
+  "g2": {
+   "id": "g2",
+   "speaker": "okafor",
+   "text": "I see. Have you taken anything for it, like paracetamol?",
+   "translations": {
+    "fa": "متوجهم. چیزی برایش خورده‌اید، مثلاً پاراستامول؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paracetamol",
+      "ibuprofen",
+      "yes",
+      "took",
+      "tablets"
+     ],
+     "suggestion": "Yes, I've been taking paracetamol, but it's not really helping.",
+     "suggestionFa": "بله، پاراستامول می‌خورم ولی زیاد کمک نمی‌کند.",
+     "trustDelta": 7,
+     "next": "g3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "nothing",
+      "haven't"
+     ],
+     "suggestion": "No, I haven't taken anything yet.",
+     "suggestionFa": "نه، هنوز چیزی نخورده‌ام.",
+     "trustDelta": 5,
+     "next": "g3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paracetamol",
+     "fa": "پاراستامول (استامینوفن)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "g3": {
+   "id": "g3",
+   "speaker": "okafor",
+   "text": "Right. It's most likely viral, so antibiotics won't help. Rest, plenty of fluids, and if it's not better in a week, book another appointment.",
+   "translations": {
+    "fa": "خب. به احتمال زیاد ویروسی است، پس آنتی‌بیوتیک کمکی نمی‌کند. استراحت، مایعات زیاد، و اگر تا یک هفته بهتر نشد، دوباره وقت بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "thanks",
+      "cheers",
+      "will",
+      "okay",
+      "understand"
+     ],
+     "suggestion": "Okay, thank you, doctor.",
+     "suggestionFa": "باشه، ممنون دکتر.",
+     "trustDelta": 6,
+     "next": "g4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "viral",
+     "fa": "ویروسی"
+    },
+    {
+     "word": "plenty of fluids",
+     "fa": "مایعات زیاد"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK GPs rarely give antibiotics for colds — it's normal, not rudeness.",
+    "fa": "پزشک‌های بریتانیا برای سرماخوردگی به‌ندرت آنتی‌بیوتیک می‌دهند — عادی است، بی‌ادبی نیست."
+   }
+  },
+  "g4": {
+   "id": "g4",
+   "speaker": "okafor",
+   "text": "Take care. And do call 111 if you feel worse over the weekend.",
+   "translations": {
+    "fa": "مراقب باش. و اگر آخر هفته بدتر شدی حتماً با ۱۱۱ تماس بگیر."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "111",
+     "fa": "شمارهٔ مشاورهٔ پزشکی غیراورژانسی NHS"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

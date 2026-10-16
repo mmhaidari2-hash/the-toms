@@ -1,0 +1,111 @@
+{
+ "id": "ryan_report",
+ "characterId": "patel",
+ "level": "A2",
+ "title": "End-of-year report",
+ "titleFa": "کارنامهٔ آخر سال",
+ "setting": "Ryan's school, Year 9 — text-only story",
+ "settingFa": "مدرسهٔ رایان، کلاس نهم — داستان متنی",
+ "requires": {
+  "characterId": "ryan",
+  "milestone": "M1"
+ },
+ "start": "p1",
+ "nodes": {
+  "p1": {
+   "id": "p1",
+   "speaker": "patel",
+   "text": "Thanks for coming. Ryan's had a good year overall — his maths has really come on.",
+   "translations": {
+    "fa": "ممنون که اومدید. رایان در کل سال خوبی داشته — ریاضیش واقعاً پیشرفت کرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "pleased",
+      "glad",
+      "good",
+      "proud",
+      "news"
+     ],
+     "suggestion": "That's great news — we're really pleased.",
+     "suggestionFa": "خبر خیلی خوبیه — واقعاً خوشحالیم.",
+     "trustDelta": 8,
+     "next": "p2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "overall",
+     "fa": "در کل"
+    },
+    {
+     "word": "come on",
+     "fa": "پیشرفت کردن (اصطلاح)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "p2": {
+   "id": "p2",
+   "speaker": "patel",
+   "text": "His English needs a bit more work, though. He rushes his homework.",
+   "translations": {
+    "fa": "ولی انگلیسیش کمی کار بیشتری لازم داره. تکالیفش رو با عجله انجام می‌ده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "home",
+      "reading",
+      "support",
+      "what can",
+      "improve"
+     ],
+     "suggestion": "What can we do at home to help him improve?",
+     "suggestionFa": "در خانه چه کنیم که به پیشرفتش کمک کنیم؟",
+     "trustDelta": 9,
+     "next": "p3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rushes",
+     "fa": "با عجله انجام دادن"
+    },
+    {
+     "word": "needs more work",
+     "fa": "کار بیشتری لازم دارد"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK schools send an end-of-year written report — teachers are often gently direct.",
+    "fa": "مدارس بریتانیا گزارش کتبی آخر سال می‌فرستند — معلم‌ها اغلب مؤدبانه رک‌اند."
+   }
+  },
+  "p3": {
+   "id": "p3",
+   "speaker": "patel",
+   "text": "Twenty minutes of reading a night would make a real difference. Overall — he's a lovely lad.",
+   "translations": {
+    "fa": "بیست دقیقه کتاب‌خوانی هر شب واقعاً فرق ایجاد می‌کنه. در کل — پسر خیلی خوبیه."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "make a difference",
+     "fa": "فرق ایجاد کردن"
+    },
+    {
+     "word": "lad",
+     "fa": "پسر (خودمانی)"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

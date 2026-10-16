@@ -1,0 +1,121 @@
+{
+ "id": "okafor_followup",
+ "characterId": "okafor",
+ "level": "B2",
+ "title": "Test results",
+ "titleFa": "نتیجهٔ آزمایش",
+ "setting": "Mare Street Surgery, follow-up",
+ "settingFa": "درمانگاه خیابان مِر، پیگیری",
+ "requires": null,
+ "start": "f1",
+ "nodes": {
+  "f1": {
+   "id": "f1",
+   "speaker": "okafor",
+   "text": "Good to see you again. Your blood test results came back — overall they're reassuring, but your vitamin D is on the low side.",
+   "translations": {
+    "fa": "خوشحالم دوباره می‌بینمت. جواب آزمایش خونت آمده — در کل خیال‌راحت‌کننده است، ولی ویتامین دی‌ات پایین است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vitamin",
+      "low",
+      "mean",
+      "serious",
+      "what"
+     ],
+     "suggestion": "Is that serious? What does it mean for me?",
+     "suggestionFa": "جدی است؟ برای من یعنی چه؟",
+     "trustDelta": 8,
+     "next": "f2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "relief",
+      "good",
+      "glad",
+      "thank",
+      "that's a relief"
+     ],
+     "suggestion": "That's a relief. What should I do about the vitamin D?",
+     "suggestionFa": "خیالم راحت شد. برای ویتامین دی چه کنم؟",
+     "trustDelta": 8,
+     "next": "f2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reassuring",
+     "fa": "اطمینان‌بخش"
+    },
+    {
+     "word": "on the low side",
+     "fa": "کمی پایین"
+    }
+   ],
+   "cultureNote": null
+  },
+  "f2": {
+   "id": "f2",
+   "speaker": "okafor",
+   "text": "Not at all — it's incredibly common here, given the grey winters. I'd recommend a daily supplement from October to March.",
+   "translations": {
+    "fa": "اصلاً — این‌جا با این زمستان‌های ابری خیلی رایج است. توصیه می‌کنم از اکتبر تا مارس روزانه مکمل بخوری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescription",
+      "buy",
+      "pharmacy",
+      "chemist",
+      "where",
+      "get"
+     ],
+     "suggestion": "Do I need a prescription, or can I buy it at the chemist?",
+     "suggestionFa": "نسخه لازم دارم یا از داروخانه بخرم؟",
+     "trustDelta": 8,
+     "next": "f3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "supplement",
+     "fa": "مکمل"
+    },
+    {
+     "word": "chemist",
+     "fa": "داروخانه (بریتانیایی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "The NHS genuinely advises everyone in the UK to consider vitamin D in autumn and winter.",
+    "fa": "NHS واقعاً به همه در بریتانیا توصیه می‌کند در پاییز و زمستان ویتامین دی را در نظر بگیرند."
+   }
+  },
+  "f3": {
+   "id": "f3",
+   "speaker": "okafor",
+   "text": "Any chemist sells it over the counter — Boots will have it. No need for a prescription.",
+   "translations": {
+    "fa": "هر داروخانه‌ای بدون نسخه می‌فروشد — بوتس دارد. نسخه لازم نیست."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "over the counter",
+     "fa": "بدون نسخه"
+    },
+    {
+     "word": "prescription",
+     "fa": "نسخه"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

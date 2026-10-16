@@ -1,0 +1,99 @@
+{
+ "id": "private_leslie_letters",
+ "characterId": "leslie",
+ "level": "B1",
+ "title": "Leslie's letters",
+ "titleFa": "نامه‌های لزلی",
+ "setting": "The attic, a rainy Sunday",
+ "settingFa": "اتاق زیرشیروانی، یک یکشنبهٔ بارانی",
+ "requires": null,
+ "start": "pl1",
+ "nodes": {
+  "pl1": {
+   "id": "pl1",
+   "speaker": "leslie",
+   "text": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
+   "translations": {
+    "fa": "این‌ها نامه‌های تامه از وقتی نوزده‌ساله بودیم. یه تابستون هر روز یه نامه نوشت. بهش نگی نگهشون داشتم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweet",
+      "lovely",
+      "romantic",
+      "secret",
+      "won't tell",
+      "promise"
+     ],
+     "suggestion": "That's so sweet — your secret's safe with me.",
+     "suggestionFa": "خیلی شیرینه — رازت پیش من می‌مونه.",
+     "trustDelta": 10,
+     "next": "pl2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kept",
+     "fa": "نگه داشتم"
+    },
+    {
+     "word": "your secret's safe with me",
+     "fa": "رازت پیش من محفوظ است"
+    }
+   ],
+   "cultureNote": null
+  },
+  "pl2": {
+   "id": "pl2",
+   "speaker": "leslie",
+   "text": "He was rubbish at spelling. Still is. But he always signed off 'Love you more than tea'.",
+   "translations": {
+    "fa": "املاش افتضاح بود. هنوزم هست. ولی همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "more than tea",
+      "love",
+      "cute",
+      "british",
+      "adorable"
+     ],
+     "suggestion": "'More than tea' — that's true love in Britain!",
+     "suggestionFa": "«بیشتر از چای» — این در بریتانیا یعنی عشق واقعی!",
+     "trustDelta": 10,
+     "next": "pl3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rubbish at",
+     "fa": "افتضاح در"
+    },
+    {
+     "word": "signed off",
+     "fa": "امضا کرد/پایان داد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits rarely say 'I love you' casually — affection hides in jokes like this.",
+    "fa": "بریتانیایی‌ها به‌ندرت «دوستت دارم» را راحت می‌گویند — محبت در شوخی‌هایی مثل این پنهان است."
+   }
+  },
+  "pl3": {
+   "id": "pl3",
+   "speaker": "leslie",
+   "text": "Exactly. Right — not a word to Tom. Fancy a cuppa?",
+   "translations": {
+    "fa": "دقیقاً. خب — یه کلمه هم به تام نگی. چای می‌خوری؟"
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": null
+  }
+ },
+ "requiresTrust": 60
+}

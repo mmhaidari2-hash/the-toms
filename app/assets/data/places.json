@@ -1,0 +1,3758 @@
+[
+ {
+  "id": "A0-A1",
+  "title": "Home life",
+  "titleFa": "زندگی در خانه",
+  "subtitle": "First words with William and Nicola",
+  "places": [
+   {
+    "id": "kitchen",
+    "title": "The cottage kitchen",
+    "titleFa": "آشپزخانه",
+    "color": "#8A6A3E",
+    "icon": "kitchen",
+    "image": "assets/places/kitchen.webp",
+    "aspect": 1.6995230524642289,
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": "ep1_morning_table",
+      "shape": [
+       [
+        0.09,
+        0.3
+       ],
+       [
+        0.2,
+        0.27
+       ],
+       [
+        0.22,
+        0.45
+       ],
+       [
+        0.24,
+        0.7
+       ],
+       [
+        0.17,
+        1.0
+       ],
+       [
+        0.0,
+        1.0
+       ],
+       [
+        0.02,
+        0.6
+       ],
+       [
+        0.08,
+        0.45
+       ]
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": "tom_breakfast",
+      "shape": [
+       [
+        0.41,
+        0.26
+       ],
+       [
+        0.5,
+        0.26
+       ],
+       [
+        0.52,
+        0.42
+       ],
+       [
+        0.59,
+        0.46
+       ],
+       [
+        0.58,
+        0.62
+       ],
+       [
+        0.33,
+        0.62
+       ],
+       [
+        0.34,
+        0.47
+       ],
+       [
+        0.41,
+        0.42
+       ]
+      ]
+     },
+     {
+      "characterId": "william",
+      "sceneId": "william_breakfast",
+      "shape": [
+       [
+        0.24,
+        0.6
+       ],
+       [
+        0.33,
+        0.6
+       ],
+       [
+        0.36,
+        0.75
+       ],
+       [
+        0.38,
+        1.0
+       ],
+       [
+        0.19,
+        1.0
+       ],
+       [
+        0.21,
+        0.76
+       ]
+      ]
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "shape": [
+       [
+        0.59,
+        0.41
+       ],
+       [
+        0.67,
+        0.41
+       ],
+       [
+        0.69,
+        0.55
+       ],
+       [
+        0.7,
+        0.7
+       ],
+       [
+        0.56,
+        0.7
+       ],
+       [
+        0.57,
+        0.55
+       ]
+      ],
+      "ambient": {
+       "en": "Teddy wants toast too!",
+       "fa": "خرسی هم نون تُست می‌خواد!"
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "shape": [
+       [
+        0.75,
+        0.38
+       ],
+       [
+        0.84,
+        0.38
+       ],
+       [
+        0.86,
+        0.53
+       ],
+       [
+        0.92,
+        0.6
+       ],
+       [
+        0.92,
+        0.8
+       ],
+       [
+        0.7,
+        0.78
+       ],
+       [
+        0.7,
+        0.65
+       ],
+       [
+        0.74,
+        0.53
+       ]
+      ],
+      "ambient": {
+       "en": "Alright? Five more minutes, then school…",
+       "fa": "چطوری؟ پنج دقیقهٔ دیگه، بعد مدرسه…"
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.31,
+        0.57
+       ],
+       [
+        0.4,
+        0.57
+       ],
+       [
+        0.4,
+        0.75
+       ],
+       [
+        0.31,
+        0.75
+       ]
+      ],
+      "prop": {
+       "id": "teapot",
+       "word": "teapot",
+       "fa": "قوری",
+       "phrase": "Shall I be mother?",
+       "phraseFa": "من چای بریزم؟ (اصطلاح قدیمی)",
+       "mini": [
+        [
+         "tom",
+         "Shall I be mother?",
+         "من بریزم؟"
+        ],
+        [
+         "me",
+         "Go on then, cheers!",
+         "بریز دیگه، مرسی!"
+        ],
+        [
+         "tom",
+         "Milk in first? Heresy!",
+         "اول شیر؟ کفره!"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.4,
+        0.65
+       ],
+       [
+        0.48000000000000004,
+        0.65
+       ],
+       [
+        0.48000000000000004,
+        0.8
+       ],
+       [
+        0.4,
+        0.8
+       ]
+      ],
+      "prop": {
+       "id": "jam",
+       "word": "jam jar",
+       "fa": "شیشهٔ مربا",
+       "phrase": "Could you pass the jam, please?",
+       "phraseFa": "می‌شه مربا رو بدی، لطفاً؟",
+       "mini": [
+        [
+         "nicola",
+         "Strawberry or raspberry?",
+         "توت‌فرنگی یا تمشک؟"
+        ],
+        [
+         "me",
+         "Strawberry, please!",
+         "توت‌فرنگی، لطفاً!"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.48,
+        0.72
+       ],
+       [
+        0.7,
+        0.72
+       ],
+       [
+        0.7,
+        0.89
+       ],
+       [
+        0.48,
+        0.89
+       ]
+      ],
+      "prop": {
+       "id": "bread",
+       "word": "sourdough bread board",
+       "fa": "تختهٔ نان ساوردو",
+       "phrase": "Fancy a slice?",
+       "phraseFa": "یه برش می‌خوای؟",
+       "mini": [
+        [
+         "leslie",
+         "Fancy a slice of sourdough?",
+         "یه برش ساوردو می‌خوای؟"
+        ],
+        [
+         "me",
+         "Ooh, go on then.",
+         "اوه، باشه بده."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.33,
+        0.79
+       ],
+       [
+        0.41000000000000003,
+        0.79
+       ],
+       [
+        0.41000000000000003,
+        0.8500000000000001
+       ],
+       [
+        0.33,
+        0.8500000000000001
+       ]
+      ],
+      "prop": {
+       "id": "butter",
+       "word": "butter dish",
+       "fa": "ظرف کره",
+       "phrase": "Could you pass the butter?",
+       "phraseFa": "می‌شه کره رو بدی؟",
+       "mini": [
+        [
+         "william",
+         "Bu'er! Bu'er!",
+         "کره! کره!"
+        ],
+        [
+         "leslie",
+         "He means 'butter' — that's the glottal stop, already!",
+         "منظورش «butter» است — همین الان ت‌ِ حلقی!"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "hallway",
+    "title": "The Muddy Hallway",
+    "titleFa": "راهروی گل‌آلود",
+    "icon": "umbrella",
+    "color": "#3E5A6E",
+    "image": "assets/places/hallway.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": "ep2_muddy_hallway",
+      "shape": [
+       [
+        0.13,
+        0.12
+       ],
+       [
+        0.25,
+        0.13
+       ],
+       [
+        0.26,
+        0.38
+       ],
+       [
+        0.37,
+        0.48
+       ],
+       [
+        0.3,
+        0.62
+       ],
+       [
+        0.25,
+        0.7
+       ],
+       [
+        0.24,
+        1.0
+       ],
+       [
+        0.04,
+        1.0
+       ],
+       [
+        0.08,
+        0.6
+       ],
+       [
+        0.1,
+        0.35
+       ]
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": "private_tom_dad",
+      "shape": [
+       [
+        0.53,
+        0.07
+       ],
+       [
+        0.6,
+        0.08
+       ],
+       [
+        0.61,
+        0.2
+       ],
+       [
+        0.7,
+        0.3
+       ],
+       [
+        0.68,
+        0.88
+       ],
+       [
+        0.62,
+        1.0
+       ],
+       [
+        0.48,
+        1.0
+       ],
+       [
+        0.43,
+        0.7
+       ],
+       [
+        0.41,
+        0.33
+       ],
+       [
+        0.51,
+        0.2
+       ]
+      ],
+      "ambient": {
+       "en": "Chilly one today. Mind you, it always is.",
+       "fa": "امروز سرده. البته همیشه هست."
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "shape": [
+       [
+        0.74,
+        0.19
+       ],
+       [
+        0.82,
+        0.2
+       ],
+       [
+        0.83,
+        0.38
+       ],
+       [
+        0.95,
+        0.65
+       ],
+       [
+        0.93,
+        1.0
+       ],
+       [
+        0.72,
+        1.0
+       ],
+       [
+        0.7,
+        0.7
+       ],
+       [
+        0.73,
+        0.4
+       ]
+      ],
+      "ambient": {
+       "en": "I'm not wearing a raincoat, Mum. It's not cool.",
+       "fa": "مامان، بارونی نمی‌پوشم. باحال نیست."
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.3,
+        0.31
+       ],
+       [
+        0.44999999999999996,
+        0.31
+       ],
+       [
+        0.44999999999999996,
+        0.61
+       ],
+       [
+        0.3,
+        0.61
+       ]
+      ],
+      "prop": {
+       "id": "brolly",
+       "word": "brolly (umbrella)",
+       "fa": "چتر",
+       "phrase": "Take a brolly, it's chucking it down!",
+       "phraseFa": "چتر ببر، داره شُرشُر می‌باره!",
+       "mini": [
+        [
+         "leslie",
+         "Take a brolly!",
+         "چتر ببر!"
+        ],
+        [
+         "me",
+         "Good shout — cheers.",
+         "فکر خوبیه — مرسی."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.23,
+        0.7
+       ],
+       [
+        0.37,
+        0.7
+       ],
+       [
+        0.37,
+        1.0
+       ],
+       [
+        0.23,
+        1.0
+       ]
+      ],
+      "prop": {
+       "id": "bucket",
+       "word": "umbrella stand",
+       "fa": "جاچتری",
+       "phrase": "Muddy boots by the door, please.",
+       "phraseFa": "چکمه‌های گلی کنار در، لطفاً.",
+       "mini": [
+        [
+         "leslie",
+         "Boots off, please — not on my carpet!",
+         "چکمه‌ها رو دربیار لطفاً — نه روی فرش من!"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.66,
+        0.02
+       ],
+       [
+        0.79,
+        0.02
+       ],
+       [
+        0.79,
+        0.42000000000000004
+       ],
+       [
+        0.66,
+        0.42000000000000004
+       ]
+      ],
+      "prop": {
+       "id": "window",
+       "word": "rainy window",
+       "fa": "پنجرهٔ بارانی",
+       "phrase": "It's drizzling / pouring down.",
+       "phraseFa": "نم‌نم می‌باره / سیل‌آسا می‌باره.",
+       "mini": [
+        [
+         "tom",
+         "Spitting. Then drizzling. Then pouring down. Classic Tuesday.",
+         "اول نم. بعد نم‌نم. بعد سیل. سه‌شنبهٔ کلاسیک."
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "living",
+    "title": "The living room",
+    "titleFa": "اتاق نشیمن",
+    "color": "#7C8DA6",
+    "icon": "weekend",
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": "leslie_living",
+      "rect": [
+       0.12,
+       0.05,
+       0.38,
+       0.85
+      ]
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "rect": [
+       0.53,
+       0.48,
+       0.2,
+       0.45
+      ],
+      "ambient": {
+       "en": "Blocks! Look! Tower!",
+       "fa": "مکعب! ببین! برج!"
+      }
+     }
+    ],
+    "image": "assets/places/living.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "bathroom",
+    "title": "Bath time",
+    "titleFa": "حمام",
+    "color": "#5E9AA8",
+    "icon": "bathtub",
+    "hotspots": [
+     {
+      "characterId": "weda",
+      "sceneId": "weda_bath",
+      "rect": [
+       0.56,
+       0.08,
+       0.4,
+       0.85
+      ]
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "rect": [
+       0.36,
+       0.32,
+       0.18,
+       0.28
+      ],
+      "ambient": {
+       "en": "Duck! Duck! Splash!",
+       "fa": "اردک! اردک! شالاپ!"
+      }
+     }
+    ],
+    "image": "assets/places/bathroom.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "birthday",
+    "title": "Nicola's birthday",
+    "titleFa": "تولد نیکولا",
+    "color": "#C8102E",
+    "icon": "cake",
+    "image": "assets/places/birthday.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "nicola",
+     "milestone": "M1"
+    },
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.12,
+       0.23,
+       0.18,
+       0.57
+      ],
+      "ambient": {
+       "en": "Who wants the first slice?",
+       "fa": "تکهٔ اول را کی می‌خواهد؟"
+      }
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "rect": [
+       0.2,
+       0.54,
+       0.18,
+       0.46
+      ],
+      "ambient": {
+       "en": "Cake! Cake!",
+       "fa": "کیک! کیک!"
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.3,
+       0.21,
+       0.23,
+       0.39
+      ],
+      "ambient": {
+       "en": "Six already… where's the time gone?",
+       "fa": "شش‌ساله شد… زمان کجا رفت؟"
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": "nicola_birthday",
+      "rect": [
+       0.52,
+       0.36,
+       0.16,
+       0.32
+      ]
+     },
+     {
+      "characterId": "weda",
+      "sceneId": null,
+      "rect": [
+       0.58,
+       0.03,
+       0.18,
+       0.52
+      ],
+      "ambient": {
+       "en": "Make a wish before you blow, sweetheart!",
+       "fa": "قبل از فوت کردن آرزو کن، عزیزم!"
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.7,
+       0.34,
+       0.2,
+       0.46
+      ],
+      "ambient": {
+       "en": "Happy birthday, Nic. Don't eat it all.",
+       "fa": "تولدت مبارک نیک. همه‌اش را نخور."
+      }
+     }
+    ]
+   },
+   {
+    "id": "christmas",
+    "title": "Christmas Day",
+    "titleFa": "روز کریسمس",
+    "color": "#A3122B",
+    "icon": "cake",
+    "image": "assets/places/christmas.webp",
+    "aspect": 1.7777777777777777,
+    "season": 12,
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": "christmas_dinner",
+      "rect": [
+       0.0,
+       0.2,
+       0.18,
+       0.8
+      ]
+     },
+     {
+      "characterId": "weda",
+      "sceneId": null,
+      "rect": [
+       0.17,
+       0.12,
+       0.18,
+       0.36
+      ],
+      "ambient": {
+       "en": "I've made the bread sauce — don't tell anyone it's from a packet!",
+       "fa": "سس نان را من درست کردم — به کسی نگو از بسته است!"
+      }
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "rect": [
+       0.18,
+       0.5,
+       0.18,
+       0.5
+      ],
+      "ambient": {
+       "en": "Crown! My crown!",
+       "fa": "تاج! تاج من!"
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.37,
+       0.17,
+       0.24,
+       0.4
+      ],
+      "ambient": {
+       "en": "Who's carving? Not me — last year was a disaster.",
+       "fa": "کی بوقلمون را می‌بُرد؟ من نه — پارسال افتضاح شد."
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "rect": [
+       0.62,
+       0.32,
+       0.14,
+       0.38
+      ],
+      "ambient": {
+       "en": "Teddy wants a cracker too!",
+       "fa": "خرسی هم کراکر می‌خواد!"
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.77,
+       0.26,
+       0.21,
+       0.5
+      ],
+      "ambient": {
+       "en": "Can we open presents yet? Please?",
+       "fa": "الان می‌شه کادوها رو باز کنیم؟ خواهش!"
+      }
+     }
+    ]
+   },
+   {
+    "id": "firstday",
+    "title": "St Mary's — First Day",
+    "titleFa": "مدرسهٔ سنت مری — روز اول",
+    "icon": "school",
+    "color": "#8E3B2E",
+    "image": "assets/places/firstday.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "nicola",
+     "milestone": "M2"
+    },
+    "hotspots": [
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.82,
+        0.29
+       ],
+       [
+        0.99,
+        0.29
+       ],
+       [
+        0.99,
+        0.5
+       ],
+       [
+        0.82,
+        0.5
+       ]
+      ],
+      "prop": {
+       "id": "sign",
+       "word": "primary school",
+       "fa": "مدرسهٔ ابتدایی",
+       "phrase": "She's starting Reception today.",
+       "phraseFa": "امروز کلاس آمادگی را شروع می‌کند.",
+       "mini": [
+        [
+         "ellis",
+         "Welcome to St Mary's!",
+         "به سنت مری خوش آمدید!"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "shape": [
+       [
+        0.24,
+        0.33
+       ],
+       [
+        0.32,
+        0.33
+       ],
+       [
+        0.34,
+        0.52
+       ],
+       [
+        0.42,
+        0.7
+       ],
+       [
+        0.4,
+        1.0
+       ],
+       [
+        0.12,
+        1.0
+       ],
+       [
+        0.2,
+        0.62
+       ],
+       [
+        0.23,
+        0.5
+       ]
+      ],
+      "ambient": {
+       "en": "Be brave, sweetheart. I'll be right here at half three.",
+       "fa": "شجاع باش عزیزم. ساعت سه و نیم همین‌جام."
+      }
+     },
+     {
+      "characterId": "ellis",
+      "sceneId": null,
+      "shape": [
+       [
+        0.64,
+        0.03
+       ],
+       [
+        0.73,
+        0.03
+       ],
+       [
+        0.74,
+        0.18
+       ],
+       [
+        0.8,
+        0.25
+       ],
+       [
+        0.8,
+        0.6
+       ],
+       [
+        0.8,
+        1.0
+       ],
+       [
+        0.64,
+        1.0
+       ],
+       [
+        0.65,
+        0.55
+       ],
+       [
+        0.63,
+        0.25
+       ],
+       [
+        0.66,
+        0.18
+       ]
+      ],
+      "ambient": {
+       "en": "Good morning! You must be Nicola. We've got a peg with your name on.",
+       "fa": "صبح بخیر! تو باید نیکولا باشی. یه جالباسی به اسم تو داریم."
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": "nicola_school",
+      "shape": [
+       [
+        0.39,
+        0.33
+       ],
+       [
+        0.47,
+        0.33
+       ],
+       [
+        0.49,
+        0.5
+       ],
+       [
+        0.5,
+        0.7
+       ],
+       [
+        0.48,
+        0.95
+       ],
+       [
+        0.36,
+        0.95
+       ],
+       [
+        0.36,
+        0.7
+       ],
+       [
+        0.38,
+        0.5
+       ]
+      ]
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.38,
+        0.56
+       ],
+       [
+        0.48,
+        0.56
+       ],
+       [
+        0.48,
+        0.78
+       ],
+       [
+        0.38,
+        0.78
+       ]
+      ],
+      "prop": {
+       "id": "teddy",
+       "word": "teddy",
+       "fa": "خرس عروسکی",
+       "phrase": "Teddy's coming too!",
+       "phraseFa": "خرسی هم میاد!",
+       "mini": [
+        [
+         "nicola",
+         "Can Teddy sit next to me?",
+         "خرسی می‌تونه کنارم بشینه؟"
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "playdate",
+    "title": "Playdate",
+    "titleFa": "بازی با دوست",
+    "icon": "weekend",
+    "color": "#9A6B4A",
+    "image": "assets/places/playdate.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "nicola",
+     "milestone": "M3"
+    },
+    "hotspots": [
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.51,
+        0.48
+       ],
+       [
+        0.75,
+        0.48
+       ],
+       [
+        0.75,
+        0.96
+       ],
+       [
+        0.51,
+        0.96
+       ]
+      ],
+      "prop": {
+       "id": "dollshouse",
+       "word": "dolls' house",
+       "fa": "خانهٔ عروسکی",
+       "phrase": "Shall we play dolls' houses?",
+       "phraseFa": "خانه‌عروسکی بازی کنیم؟",
+       "mini": [
+        [
+         "mia",
+         "I'm the mummy, you're the dog!",
+         "من مامانم، تو سگی!"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.3,
+        0.51
+       ],
+       [
+        0.41,
+        0.51
+       ],
+       [
+        0.41,
+        0.6
+       ],
+       [
+        0.3,
+        0.6
+       ]
+      ],
+      "prop": {
+       "id": "tray",
+       "word": "biscuits",
+       "fa": "بیسکویت",
+       "phrase": "Would you like a biscuit?",
+       "phraseFa": "بیسکویت می‌خوای؟",
+       "mini": [
+        [
+         "leslie",
+         "Biscuits, girls?",
+         "بیسکویت، دخترها؟"
+        ],
+        [
+         "me",
+         "Ooh, yes please!",
+         "اوه، آره لطفاً!"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "shape": [
+       [
+        0.19,
+        0.04
+       ],
+       [
+        0.31,
+        0.05
+       ],
+       [
+        0.32,
+        0.2
+       ],
+       [
+        0.38,
+        0.45
+       ],
+       [
+        0.3,
+        0.55
+       ],
+       [
+        0.27,
+        0.9
+       ],
+       [
+        0.06,
+        0.92
+       ],
+       [
+        0.1,
+        0.45
+       ],
+       [
+        0.18,
+        0.22
+       ]
+      ],
+      "ambient": {
+       "en": "Squash and biscuits — don't spoil your tea, mind.",
+       "fa": "شربت و بیسکویت — ولی اشتهای شامت کور نشه."
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "shape": [
+       [
+        0.44,
+        0.4
+       ],
+       [
+        0.52,
+        0.4
+       ],
+       [
+        0.54,
+        0.55
+       ],
+       [
+        0.55,
+        0.75
+       ],
+       [
+        0.5,
+        0.87
+       ],
+       [
+        0.36,
+        0.87
+       ],
+       [
+        0.4,
+        0.6
+       ]
+      ],
+      "ambient": {
+       "en": "Mia's my best friend in the whole world!",
+       "fa": "میا بهترین دوستم تو کل دنیاست!"
+      }
+     },
+     {
+      "characterId": "mia",
+      "sceneId": "nicola_mia",
+      "shape": [
+       [
+        0.75,
+        0.4
+       ],
+       [
+        0.83,
+        0.4
+       ],
+       [
+        0.85,
+        0.55
+       ],
+       [
+        0.88,
+        0.7
+       ],
+       [
+        0.94,
+        0.93
+       ],
+       [
+        0.73,
+        0.95
+       ],
+       [
+        0.74,
+        0.6
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "A1-A2",
+  "title": "Out and about",
+  "titleFa": "بیرون از خانه",
+  "subtitle": "School, the park and the corner shop",
+  "places": [
+   {
+    "id": "bakery",
+    "title": "High Street Bakery",
+    "titleFa": "نانوایی خیابان اصلی",
+    "icon": "bakery",
+    "color": "#B5772E",
+    "image": "assets/places/bakery.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "shape": [
+       [
+        0.11,
+        0.17
+       ],
+       [
+        0.22,
+        0.17
+       ],
+       [
+        0.24,
+        0.4
+       ],
+       [
+        0.28,
+        0.62
+       ],
+       [
+        0.22,
+        1.0
+       ],
+       [
+        0.0,
+        1.0
+       ],
+       [
+        0.06,
+        0.55
+       ],
+       [
+        0.1,
+        0.35
+       ]
+      ],
+      "ambient": {
+       "en": "A bloomer and a custard tart, I think.",
+       "fa": "یه بلومر و یه تارت کاستارد، فکر کنم."
+      }
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "shape": [
+       [
+        0.24,
+        0.67
+       ],
+       [
+        0.34,
+        0.67
+       ],
+       [
+        0.37,
+        0.85
+       ],
+       [
+        0.38,
+        1.0
+       ],
+       [
+        0.2,
+        1.0
+       ],
+       [
+        0.22,
+        0.85
+       ]
+      ],
+      "ambient": {
+       "en": "Cake! Cake!",
+       "fa": "کیک! کیک!"
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "shape": [
+       [
+        0.41,
+        0.2
+       ],
+       [
+        0.5,
+        0.2
+       ],
+       [
+        0.52,
+        0.38
+       ],
+       [
+        0.56,
+        0.45
+       ],
+       [
+        0.55,
+        0.62
+       ],
+       [
+        0.35,
+        0.62
+       ],
+       [
+        0.34,
+        0.45
+       ],
+       [
+        0.42,
+        0.38
+       ]
+      ],
+      "ambient": {
+       "en": "Best brew on the High Street, this.",
+       "fa": "بهترین چای خیابون اصلی همینه."
+      }
+     },
+     {
+      "characterId": "baker",
+      "sceneId": "ep3_high_street",
+      "shape": [
+       [
+        0.58,
+        0.1
+       ],
+       [
+        0.67,
+        0.1
+       ],
+       [
+        0.68,
+        0.27
+       ],
+       [
+        0.74,
+        0.33
+       ],
+       [
+        0.73,
+        0.58
+       ],
+       [
+        0.55,
+        0.58
+       ],
+       [
+        0.54,
+        0.33
+       ],
+       [
+        0.59,
+        0.27
+       ]
+      ]
+     },
+     {
+      "characterId": "butcher",
+      "sceneId": null,
+      "shape": [
+       [
+        0.79,
+        0.05
+       ],
+       [
+        0.88,
+        0.05
+       ],
+       [
+        0.89,
+        0.22
+       ],
+       [
+        0.97,
+        0.28
+       ],
+       [
+        0.97,
+        0.62
+       ],
+       [
+        0.78,
+        0.65
+       ],
+       [
+        0.77,
+        0.28
+       ],
+       [
+        0.8,
+        0.22
+       ]
+      ],
+      "ambient": {
+       "en": "Alright, guv? Lovely bit of beef today.",
+       "fa": "سلام قربان؟ امروز گوشت گاو عالیه."
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "shape": [
+       [
+        0.55,
+        0.41
+       ],
+       [
+        0.64,
+        0.41
+       ],
+       [
+        0.66,
+        0.57
+       ],
+       [
+        0.67,
+        0.72
+       ],
+       [
+        0.51,
+        0.72
+       ],
+       [
+        0.52,
+        0.57
+       ]
+      ],
+      "ambient": {
+       "en": "Can Teddy have a gingerbread man?",
+       "fa": "خرسی می‌تونه یه آدمک زنجبیلی بخوره؟"
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "shape": [
+       [
+        0.69,
+        0.4
+       ],
+       [
+        0.78,
+        0.4
+       ],
+       [
+        0.8,
+        0.55
+       ],
+       [
+        0.83,
+        0.62
+       ],
+       [
+        0.82,
+        0.77
+       ],
+       [
+        0.64,
+        0.77
+       ],
+       [
+        0.66,
+        0.6
+       ],
+       [
+        0.7,
+        0.55
+       ]
+      ],
+      "ambient": {
+       "en": "Sausage roll. Best thing ever invented, mate.",
+       "fa": "سوسیس‌رول. بهترین اختراع دنیا، رفیق."
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.3,
+        0.61
+       ],
+       [
+        0.5,
+        0.61
+       ],
+       [
+        0.5,
+        0.74
+       ],
+       [
+        0.3,
+        0.74
+       ]
+      ],
+      "prop": {
+       "id": "loaves",
+       "word": "loaf / bloomer",
+       "fa": "قرص نان / بلومر",
+       "phrase": "Could I have a loaf, please?",
+       "phraseFa": "می‌شه یه قرص نون بدید، لطفاً؟",
+       "mini": [
+        [
+         "baker",
+         "Sliced or unsliced, my lovely?",
+         "برش‌خورده یا نه، عزیزم؟"
+        ],
+        [
+         "me",
+         "Sliced, please.",
+         "برش‌خورده، لطفاً."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.49,
+        0.7
+       ],
+       [
+        0.77,
+        0.7
+       ],
+       [
+        0.77,
+        0.8799999999999999
+       ],
+       [
+        0.49,
+        0.8799999999999999
+       ]
+      ],
+      "prop": {
+       "id": "pies",
+       "word": "pork pie",
+       "fa": "پای گوشت",
+       "phrase": "I'll have a pork pie, please.",
+       "phraseFa": "یه پای گوشت می‌خوام، لطفاً.",
+       "mini": [
+        [
+         "baker",
+         "Warm or cold?",
+         "گرم یا سرد؟"
+        ],
+        [
+         "me",
+         "Warm, please — cheers.",
+         "گرم، لطفاً — مرسی."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.86,
+        0.66
+       ],
+       [
+        1.0,
+        0.66
+       ],
+       [
+        1.0,
+        0.8
+       ],
+       [
+        0.86,
+        0.8
+       ]
+      ],
+      "prop": {
+       "id": "meat",
+       "word": "joint of beef",
+       "fa": "تکه گوشت کبابی",
+       "phrase": "A joint for Sunday lunch, please.",
+       "phraseFa": "یه تکه گوشت برای ناهار یکشنبه، لطفاً.",
+       "mini": [
+        [
+         "butcher",
+         "How many's it for?",
+         "برای چند نفره؟"
+        ],
+        [
+         "me",
+         "For six, please.",
+         "برای شش نفر، لطفاً."
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "school",
+    "title": "Ryan's school",
+    "titleFa": "مدرسهٔ رایان",
+    "color": "#2F6B4F",
+    "icon": "school",
+    "hotspots": [
+     {
+      "characterId": "patel",
+      "sceneId": "ryan_school",
+      "rect": [
+       0.34,
+       0.25,
+       0.22,
+       0.35
+      ]
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.71,
+       0.14,
+       0.18,
+       0.7
+      ],
+      "ambient": {
+       "en": "Please don't give me a detention, sir…",
+       "fa": "خواهش می‌کنم توبیخم نکنید آقا…"
+      }
+     }
+    ],
+    "image": "assets/places/school.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "park",
+    "title": "Victoria Park",
+    "titleFa": "پارک ویکتوریا",
+    "color": "#4E8A3E",
+    "icon": "park",
+    "hotspots": [
+     {
+      "characterId": "nicola",
+      "sceneId": "nicola_park",
+      "rect": [
+       0.4,
+       0.32,
+       0.22,
+       0.55
+      ]
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.6,
+       0.03,
+       0.32,
+       0.85
+      ],
+      "ambient": {
+       "en": "Not too high, Nicola! Hold on with both hands.",
+       "fa": "نه خیلی بالا نیکولا! با دو دست بگیر."
+      }
+     }
+    ],
+    "image": "assets/places/park.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "supermarket",
+    "title": "The corner shop",
+    "titleFa": "فروشگاه محله",
+    "color": "#1E5AA8",
+    "icon": "shopping_basket",
+    "hotspots": [
+     {
+      "characterId": "priya",
+      "sceneId": "priya_till",
+      "rect": [
+       0.16,
+       0.08,
+       0.26,
+       0.7
+      ]
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.62,
+       0.08,
+       0.24,
+       0.88
+      ],
+      "ambient": {
+       "en": "Can we get crisps? Salt and vinegar?",
+       "fa": "چیپس بخریم؟ نمک و سرکه؟"
+      }
+     }
+    ],
+    "image": "assets/places/supermarket.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "bedroom",
+    "title": "Ryan's bedroom",
+    "titleFa": "اتاق رایان",
+    "color": "#4F6D8F",
+    "icon": "sports_esports",
+    "hotspots": [
+     {
+      "characterId": "ryan",
+      "sceneId": "ryan_gaming",
+      "rect": [
+       0.28,
+       0.36,
+       0.34,
+       0.58
+      ]
+     }
+    ],
+    "image": "assets/places/bedroom.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "barber",
+    "title": "The barber's",
+    "titleFa": "آرایشگاه",
+    "color": "#7A2E1E",
+    "icon": "content_cut",
+    "image": "assets/places/barber.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "sal",
+      "sceneId": "barber_cut",
+      "rect": [
+       0.52,
+       0.02,
+       0.24,
+       0.8
+      ]
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.26,
+       0.33,
+       0.26,
+       0.65
+      ],
+      "ambient": {
+       "en": "Not too short, Sal — I've got a date with FIFA later.",
+       "fa": "نه خیلی کوتاه سال — بعداً با فیفا قرار دارم."
+      }
+     }
+    ]
+   },
+   {
+    "id": "sportsday",
+    "title": "Sports Day",
+    "titleFa": "روز ورزش",
+    "icon": "park",
+    "color": "#3F7A3A",
+    "image": "assets/places/sportsday.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "nicola",
+     "milestone": "M4"
+    },
+    "hotspots": [
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "shape": [
+       [
+        0.12,
+        0.08
+       ],
+       [
+        0.2,
+        0.08
+       ],
+       [
+        0.21,
+        0.24
+       ],
+       [
+        0.2,
+        0.45
+       ],
+       [
+        0.21,
+        0.9
+       ],
+       [
+        0.06,
+        0.9
+       ],
+       [
+        0.05,
+        0.35
+       ],
+       [
+        0.02,
+        0.18
+       ]
+      ],
+      "ambient": {
+       "en": "Go on, Nicola! Leg it!",
+       "fa": "برو نیکولا! بدو!"
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "shape": [
+       [
+        0.26,
+        0.13
+       ],
+       [
+        0.34,
+        0.13
+       ],
+       [
+        0.35,
+        0.3
+       ],
+       [
+        0.34,
+        0.8
+       ],
+       [
+        0.21,
+        0.8
+       ],
+       [
+        0.22,
+        0.32
+       ]
+      ],
+      "ambient": {
+       "en": "Steady, love, steady!",
+       "fa": "آروم عزیزم، آروم!"
+      }
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "shape": [
+       [
+        0.15,
+        0.46
+       ],
+       [
+        0.2,
+        0.46
+       ],
+       [
+        0.22,
+        0.62
+       ],
+       [
+        0.21,
+        0.9
+       ],
+       [
+        0.13,
+        0.9
+       ],
+       [
+        0.12,
+        0.62
+       ]
+      ],
+      "ambient": {
+       "en": "Egg! Egg!",
+       "fa": "تخم‌مرغ! تخم‌مرغ!"
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "shape": [
+       [
+        0.36,
+        0.29
+       ],
+       [
+        0.41,
+        0.29
+       ],
+       [
+        0.43,
+        0.45
+       ],
+       [
+        0.42,
+        0.88
+       ],
+       [
+        0.34,
+        0.88
+       ],
+       [
+        0.33,
+        0.45
+       ]
+      ],
+      "ambient": {
+       "en": "She's actually smashing it, mate.",
+       "fa": "واقعاً داره می‌ترکونه، رفیق."
+      }
+     },
+     {
+      "characterId": "coach",
+      "sceneId": null,
+      "shape": [
+       [
+        0.82,
+        0.06
+       ],
+       [
+        0.9,
+        0.06
+       ],
+       [
+        0.92,
+        0.26
+       ],
+       [
+        0.99,
+        0.48
+       ],
+       [
+        0.95,
+        0.92
+       ],
+       [
+        0.82,
+        0.92
+       ],
+       [
+        0.8,
+        0.35
+       ],
+       [
+        0.84,
+        0.24
+       ]
+      ],
+      "ambient": {
+       "en": "No running with your thumb on the egg!",
+       "fa": "با شستت تخم‌مرغ رو نگه ندار!"
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.27,
+        0.64
+       ],
+       [
+        0.44000000000000006,
+        0.64
+       ],
+       [
+        0.44000000000000006,
+        0.74
+       ],
+       [
+        0.27,
+        0.74
+       ]
+      ],
+      "prop": {
+       "id": "spoon",
+       "word": "egg and spoon",
+       "fa": "قاشق و تخم‌مرغ",
+       "phrase": "Keep it steady!",
+       "phraseFa": "ثابت نگهش دار!",
+       "mini": [
+        [
+         "tom",
+         "Steady hands, like driving the 38.",
+         "دست‌های ثابت، مثل روندن ۳۸."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": "nicola_race",
+      "shape": [
+       [
+        0.53,
+        0.18
+       ],
+       [
+        0.63,
+        0.2
+       ],
+       [
+        0.7,
+        0.4
+       ],
+       [
+        0.82,
+        0.62
+       ],
+       [
+        0.79,
+        0.8
+       ],
+       [
+        0.79,
+        1.0
+       ],
+       [
+        0.53,
+        1.0
+       ],
+       [
+        0.53,
+        0.72
+       ],
+       [
+        0.41,
+        0.68
+       ],
+       [
+        0.52,
+        0.4
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "id": "poorly",
+    "title": "Under the Weather",
+    "titleFa": "کمی ناخوش",
+    "icon": "bathtub",
+    "color": "#5A4636",
+    "image": "assets/places/poorly.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "william",
+     "milestone": "M2"
+    },
+    "hotspots": [
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.03,
+        0.33
+       ],
+       [
+        0.1,
+        0.33
+       ],
+       [
+        0.1,
+        0.71
+       ],
+       [
+        0.03,
+        0.71
+       ]
+      ],
+      "prop": {
+       "id": "lamp",
+       "word": "night light",
+       "fa": "چراغ خواب",
+       "phrase": "Leave the light on, would you?",
+       "phraseFa": "چراغ را روشن بگذار، می‌شه؟",
+       "mini": []
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.14,
+        0.72
+       ],
+       [
+        0.72,
+        0.72
+       ],
+       [
+        0.72,
+        1.0
+       ],
+       [
+        0.14,
+        1.0
+       ]
+      ],
+      "prop": {
+       "id": "cot",
+       "word": "cot",
+       "fa": "تخت نوزاد",
+       "phrase": "He's tucked up in his cot.",
+       "phraseFa": "در تختش خوابیده.",
+       "mini": [
+        [
+         "weda",
+         "Tucked up snug as a bug.",
+         "مثل یه حشرهٔ کوچولو گرم پیچیده شده."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "shape": [
+       [
+        0.22,
+        0.46
+       ],
+       [
+        0.33,
+        0.46
+       ],
+       [
+        0.42,
+        0.58
+       ],
+       [
+        0.4,
+        0.7
+       ],
+       [
+        0.25,
+        0.72
+       ],
+       [
+        0.22,
+        0.6
+       ]
+      ],
+      "ambient": {
+       "en": "*sniffle* … Nana …",
+       "fa": "*فین‌فین* … مامان‌بزرگ …"
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "shape": [
+       [
+        0.78,
+        0.06
+       ],
+       [
+        0.84,
+        0.06
+       ],
+       [
+        0.86,
+        0.2
+       ],
+       [
+        0.88,
+        0.6
+       ],
+       [
+        0.84,
+        0.8
+       ],
+       [
+        0.74,
+        0.8
+       ],
+       [
+        0.74,
+        0.4
+       ],
+       [
+        0.77,
+        0.2
+       ]
+      ],
+      "ambient": {
+       "en": "Is he alright, Mum? I heard him cough.",
+       "fa": "حالش خوبه مامان؟ صدای سرفه‌ش رو شنیدم."
+      }
+     },
+     {
+      "characterId": "weda",
+      "sceneId": "weda_illness",
+      "shape": [
+       [
+        0.4,
+        0.03
+       ],
+       [
+        0.52,
+        0.04
+       ],
+       [
+        0.56,
+        0.25
+       ],
+       [
+        0.7,
+        0.42
+       ],
+       [
+        0.7,
+        0.62
+       ],
+       [
+        0.48,
+        0.68
+       ],
+       [
+        0.36,
+        0.52
+       ],
+       [
+        0.4,
+        0.3
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "A2-B1",
+  "title": "Everyday errands",
+  "titleFa": "کارهای روزمره",
+  "subtitle": "Coffee, dentist, library and the GP",
+  "places": [
+   {
+    "id": "eveningtea",
+    "title": "Evening Tea",
+    "titleFa": "عصرانه",
+    "icon": "teacup",
+    "color": "#7A4E2E",
+    "image": "assets/places/eveningtea.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "leslie",
+      "sceneId": "private_leslie_letters",
+      "shape": [
+       [
+        0.08,
+        0.28
+       ],
+       [
+        0.19,
+        0.28
+       ],
+       [
+        0.21,
+        0.45
+       ],
+       [
+        0.24,
+        0.62
+       ],
+       [
+        0.2,
+        1.0
+       ],
+       [
+        0.0,
+        1.0
+       ],
+       [
+        0.03,
+        0.6
+       ],
+       [
+        0.07,
+        0.45
+       ]
+      ],
+      "ambient": {
+       "en": "Another scone? Go on, you've earned it.",
+       "fa": "یه اسکون دیگه؟ بخور دیگه، حقته."
+      }
+     },
+     {
+      "characterId": "william",
+      "sceneId": null,
+      "shape": [
+       [
+        0.21,
+        0.6
+       ],
+       [
+        0.31,
+        0.6
+       ],
+       [
+        0.34,
+        0.8
+       ],
+       [
+        0.36,
+        1.0
+       ],
+       [
+        0.17,
+        1.0
+       ],
+       [
+        0.19,
+        0.8
+       ]
+      ],
+      "ambient": {
+       "en": "Drip! Drip!",
+       "fa": "چیک! چیک!"
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "shape": [
+       [
+        0.49,
+        0.41
+       ],
+       [
+        0.57,
+        0.41
+       ],
+       [
+        0.59,
+        0.55
+       ],
+       [
+        0.6,
+        0.7
+       ],
+       [
+        0.47,
+        0.7
+       ],
+       [
+        0.48,
+        0.55
+       ]
+      ],
+      "ambient": {
+       "en": "Jam first! Mummy says so.",
+       "fa": "اول مربا! مامان می‌گه."
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "shape": [
+       [
+        0.62,
+        0.4
+       ],
+       [
+        0.7,
+        0.4
+       ],
+       [
+        0.72,
+        0.53
+       ],
+       [
+        0.77,
+        0.6
+       ],
+       [
+        0.77,
+        0.8
+       ],
+       [
+        0.57,
+        0.8
+       ],
+       [
+        0.58,
+        0.62
+       ],
+       [
+        0.63,
+        0.53
+       ]
+      ],
+      "ambient": {
+       "en": "Dad's on the phone to the plumber. Again.",
+       "fa": "بابا داره با لوله‌کش حرف می‌زنه. باز."
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": "ep4_evening_tea",
+      "shape": [
+       [
+        0.79,
+        0.04
+       ],
+       [
+        0.87,
+        0.05
+       ],
+       [
+        0.88,
+        0.2
+       ],
+       [
+        0.9,
+        0.48
+       ],
+       [
+        0.85,
+        0.6
+       ],
+       [
+        0.7,
+        0.6
+       ],
+       [
+        0.69,
+        0.25
+       ],
+       [
+        0.78,
+        0.18
+       ]
+      ]
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.85,
+        0.62
+       ],
+       [
+        0.96,
+        0.62
+       ],
+       [
+        0.96,
+        1.0
+       ],
+       [
+        0.85,
+        1.0
+       ]
+      ],
+      "prop": {
+       "id": "pipe",
+       "word": "leaking pipe & bucket",
+       "fa": "لولهٔ نشتی و سطل",
+       "phrase": "The pipe's leaking — I'll ring a plumber.",
+       "phraseFa": "لوله نشتی داره — به لوله‌کش زنگ می‌زنم.",
+       "mini": [
+        [
+         "tom",
+         "Drip, drip, drip. That's forty quid, that is.",
+         "چیک، چیک، چیک. این یعنی چهل پوند."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.46,
+        0.74
+       ],
+       [
+        0.6000000000000001,
+        0.74
+       ],
+       [
+        0.6000000000000001,
+        0.87
+       ],
+       [
+        0.46,
+        0.87
+       ]
+      ],
+      "prop": {
+       "id": "scones",
+       "word": "scones",
+       "fa": "اسکون",
+       "phrase": "Jam first or cream first?",
+       "phraseFa": "اول مربا یا اول خامه؟",
+       "mini": [
+        [
+         "leslie",
+         "Cream first or jam first?",
+         "اول خامه یا اول مربا؟"
+        ],
+        [
+         "me",
+         "Jam first — I'm Team Cornwall.",
+         "اول مربا — من تیم کورنوالم."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.37,
+        0.7
+       ],
+       [
+        0.45999999999999996,
+        0.7
+       ],
+       [
+        0.45999999999999996,
+        0.83
+       ],
+       [
+        0.37,
+        0.83
+       ]
+      ],
+      "prop": {
+       "id": "jam2",
+       "word": "jam",
+       "fa": "مربا",
+       "phrase": "Help yourself to jam.",
+       "phraseFa": "خودت مربا بردار.",
+       "mini": [
+        [
+         "leslie",
+         "Help yourself!",
+         "خودت بردار!"
+        ],
+        [
+         "me",
+         "Don't mind if I do.",
+         "با کمال میل."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.3,
+        0.57
+       ],
+       [
+        0.38,
+        0.57
+       ],
+       [
+        0.38,
+        0.75
+       ],
+       [
+        0.3,
+        0.75
+       ]
+      ],
+      "prop": {
+       "id": "teapot2",
+       "word": "teapot",
+       "fa": "قوری",
+       "phrase": "Is there any tea in the pot?",
+       "phraseFa": "توی قوری چای هست؟",
+       "mini": [
+        [
+         "leslie",
+         "Pot's still warm — top-up?",
+         "قوری هنوز گرمه — بیشتر بریزم؟"
+        ],
+        [
+         "me",
+         "Ooh, just a splash, please.",
+         "اوه، فقط یه کم، لطفاً."
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "coffee",
+    "title": "The Daily Grind",
+    "titleFa": "کافه",
+    "color": "#6B4A2E",
+    "icon": "local_cafe",
+    "hotspots": [
+     {
+      "characterId": "callum",
+      "sceneId": "callum_coffee",
+      "rect": [
+       0.4,
+       0.02,
+       0.32,
+       0.75
+      ]
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.04,
+       0.1,
+       0.3,
+       0.88
+      ],
+      "ambient": {
+       "en": "I come here every Saturday — best flat white in Hackney.",
+       "fa": "هر شنبه می‌آیم این‌جا — بهترین فلت‌وایت هاکنی."
+      }
+     }
+    ],
+    "image": "assets/places/coffee.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "dentist",
+    "title": "The dentist",
+    "titleFa": "دندانپزشکی",
+    "color": "#5E8C8C",
+    "icon": "medical_services",
+    "hotspots": [
+     {
+      "characterId": "hughes",
+      "sceneId": "hughes_dentist",
+      "rect": [
+       0.2,
+       0.06,
+       0.32,
+       0.9
+      ]
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.53,
+       0.2,
+       0.38,
+       0.78
+      ],
+      "ambient": {
+       "en": "I'm always a bit nervous in this chair, to be honest.",
+       "fa": "راستش همیشه روی این صندلی کمی می‌ترسم."
+      }
+     }
+    ],
+    "image": "assets/places/dentist.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "library",
+    "title": "The library",
+    "titleFa": "کتابخانه",
+    "color": "#7A2E3A",
+    "icon": "local_library",
+    "hotspots": [
+     {
+      "characterId": "bennett",
+      "sceneId": "bennett_library",
+      "rect": [
+       0.43,
+       0.18,
+       0.4,
+       0.62
+      ]
+     },
+     {
+      "characterId": "weda",
+      "sceneId": null,
+      "rect": [
+       0.05,
+       0.07,
+       0.34,
+       0.88
+      ],
+      "ambient": {
+       "en": "I'm getting some picture books for William.",
+       "fa": "برای ویلیام چند کتاب مصور می‌گیرم."
+      }
+     }
+    ],
+    "image": "assets/places/library.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "gp",
+    "title": "GP surgery",
+    "titleFa": "درمانگاه",
+    "color": "#3D6FA3",
+    "icon": "local_hospital",
+    "hotspots": [
+     {
+      "characterId": "okafor",
+      "sceneId": "okafor_gp",
+      "rect": [
+       0.08,
+       0.12,
+       0.42,
+       0.8
+      ]
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.6,
+       0.02,
+       0.36,
+       0.88
+      ],
+      "ambient": {
+       "en": "William's had a temperature since last night — I thought I'd better bring him in.",
+       "fa": "ویلیام از دیشب تب دارد — گفتم بهتر است بیاورمش."
+      }
+     }
+    ],
+    "image": "assets/places/gp.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "restaurant",
+    "title": "Sunday lunch out",
+    "titleFa": "ناهار یکشنبه بیرون",
+    "color": "#8A4B2A",
+    "icon": "restaurant",
+    "image": "assets/places/restaurant.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "sophie",
+      "sceneId": "restaurant_order",
+      "rect": [
+       0.57,
+       0.0,
+       0.16,
+       0.68
+      ]
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.02,
+       0.2,
+       0.2,
+       0.78
+      ],
+      "ambient": {
+       "en": "Shall we get a pot of tea for the table?",
+       "fa": "یک قوری چای برای میز بگیریم؟"
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "rect": [
+       0.17,
+       0.48,
+       0.17,
+       0.52
+      ],
+      "ambient": {
+       "en": "Can I have chips? And ice cream? Pleeease?",
+       "fa": "می‌شه سیب‌زمینی سرخ‌کرده بخورم؟ و بستنی؟ خواهششش؟"
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.33,
+       0.2,
+       0.24,
+       0.48
+      ],
+      "ambient": {
+       "en": "Best Yorkshire puddings in London, this place.",
+       "fa": "این‌جا بهترین یورکشایر پودینگ لندن را دارد."
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.73,
+       0.28,
+       0.25,
+       0.55
+      ],
+      "ambient": {
+       "en": "I'm starving. Is it here yet?",
+       "fa": "دارم از گشنگی می‌میرم. هنوز نیومده؟"
+      }
+     }
+    ]
+   },
+   {
+    "id": "postoffice",
+    "title": "The post office",
+    "titleFa": "پستخانه",
+    "color": "#C8102E",
+    "icon": "local_post_office",
+    "image": "assets/places/postoffice.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "arthur",
+      "sceneId": "postoffice_parcel",
+      "rect": [
+       0.46,
+       0.04,
+       0.4,
+       0.62
+      ]
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.06,
+       0.08,
+       0.32,
+       0.9
+      ],
+      "ambient": {
+       "en": "It's my sister's birthday present — I hope it gets there in time.",
+       "fa": "کادوی تولد خواهرم است — امیدوارم به‌موقع برسد."
+      }
+     }
+    ]
+   },
+   {
+    "id": "pharmacy",
+    "title": "The chemist's",
+    "titleFa": "داروخانه",
+    "color": "#3D6FA3",
+    "icon": "local_pharmacy",
+    "image": "assets/places/pharmacy.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "dawson",
+      "sceneId": "pharmacy_advice",
+      "rect": [
+       0.44,
+       0.08,
+       0.38,
+       0.75
+      ]
+     },
+     {
+      "characterId": "weda",
+      "sceneId": null,
+      "rect": [
+       0.15,
+       0.15,
+       0.25,
+       0.85
+      ],
+      "ambient": {
+       "en": "I'm collecting a prescription for Mrs Thompson.",
+       "fa": "نسخهٔ خانم تامسون را می‌گیرم."
+      }
+     }
+    ]
+   },
+   {
+    "id": "parentsevening",
+    "title": "End-of-Year Report",
+    "titleFa": "کارنامهٔ آخر سال",
+    "icon": "school",
+    "color": "#5A4A3A",
+    "image": "assets/places/parentsevening.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "nicola",
+     "milestone": "M4"
+    },
+    "hotspots": [
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.52,
+        0.45
+       ],
+       [
+        0.66,
+        0.45
+       ],
+       [
+        0.66,
+        0.8
+       ],
+       [
+        0.52,
+        0.8
+       ]
+      ],
+      "prop": {
+       "id": "report",
+       "word": "school report",
+       "fa": "کارنامه",
+       "phrase": "Well done — a lovely report.",
+       "phraseFa": "آفرین — کارنامهٔ قشنگی است.",
+       "mini": [
+        [
+         "patel",
+         "Shall we go through it together?",
+         "با هم مرورش کنیم؟"
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.61,
+        0.84
+       ],
+       [
+        0.78,
+        0.84
+       ],
+       [
+        0.78,
+        0.96
+       ],
+       [
+        0.61,
+        0.96
+       ]
+      ],
+      "prop": {
+       "id": "nameplate",
+       "word": "name plate",
+       "fa": "پلاک نام",
+       "phrase": "Mr Patel, Year 2.",
+       "phraseFa": "آقای پاتل، کلاس دوم.",
+       "mini": []
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "shape": [
+       [
+        0.07,
+        0.14
+       ],
+       [
+        0.2,
+        0.13
+       ],
+       [
+        0.23,
+        0.3
+       ],
+       [
+        0.25,
+        0.7
+       ],
+       [
+        0.25,
+        1.0
+       ],
+       [
+        0.0,
+        1.0
+       ],
+       [
+        0.0,
+        0.45
+       ],
+       [
+        0.08,
+        0.38
+       ]
+      ],
+      "ambient": {
+       "en": "Go on then, give us the bad news first.",
+       "fa": "خب، اول خبر بد رو بگو."
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "shape": [
+       [
+        0.26,
+        0.18
+       ],
+       [
+        0.39,
+        0.18
+       ],
+       [
+        0.41,
+        0.4
+       ],
+       [
+        0.44,
+        0.8
+       ],
+       [
+        0.22,
+        0.85
+       ],
+       [
+        0.21,
+        0.45
+       ],
+       [
+        0.27,
+        0.38
+       ]
+      ],
+      "ambient": {
+       "en": "She's been working ever so hard, honestly.",
+       "fa": "واقعاً خیلی زحمت کشیده."
+      }
+     },
+     {
+      "characterId": "nicola",
+      "sceneId": null,
+      "shape": [
+       [
+        0.82,
+        0.27
+       ],
+       [
+        0.92,
+        0.27
+       ],
+       [
+        0.94,
+        0.45
+       ],
+       [
+        0.97,
+        0.9
+       ],
+       [
+        0.94,
+        1.0
+       ],
+       [
+        0.8,
+        1.0
+       ],
+       [
+        0.8,
+        0.5
+       ],
+       [
+        0.83,
+        0.45
+       ]
+      ],
+      "ambient": {
+       "en": "Did I do good? Did I?",
+       "fa": "خوب شدم؟ شدم؟"
+      }
+     },
+     {
+      "characterId": "patel",
+      "sceneId": "nicola_report",
+      "shape": [
+       [
+        0.58,
+        0.13
+       ],
+       [
+        0.69,
+        0.13
+       ],
+       [
+        0.7,
+        0.33
+       ],
+       [
+        0.77,
+        0.42
+       ],
+       [
+        0.78,
+        0.75
+       ],
+       [
+        0.66,
+        0.78
+       ],
+       [
+        0.5,
+        0.78
+       ],
+       [
+        0.44,
+        0.45
+       ],
+       [
+        0.57,
+        0.33
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B1-B2",
+  "title": "Getting things done",
+  "titleFa": "انجام کارها",
+  "subtitle": "Buses, banks, doctors and interviews",
+  "places": [
+   {
+    "id": "bus",
+    "title": "The number 38",
+    "titleFa": "اتوبوس ۳۸",
+    "color": "#C8102E",
+    "icon": "directions_bus",
+    "hotspots": [
+     {
+      "characterId": "tom",
+      "sceneId": "tom_bus",
+      "rect": [
+       0.18,
+       0.05,
+       0.46,
+       0.9
+      ]
+     },
+     {
+      "characterId": "doris",
+      "sceneId": "doris_bus",
+      "rect": [
+       0.7,
+       0.28,
+       0.3,
+       0.7
+      ]
+     }
+    ],
+    "image": "assets/places/bus.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "bank",
+    "title": "The bank",
+    "titleFa": "بانک",
+    "color": "#22335A",
+    "icon": "account_balance",
+    "hotspots": [
+     {
+      "characterId": "sian",
+      "sceneId": "sian_bank",
+      "rect": [
+       0.12,
+       0.18,
+       0.3,
+       0.65
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.54,
+       0.15,
+       0.4,
+       0.75
+      ],
+      "ambient": {
+       "en": "I'm just here to pay in a cheque. Proper old-school, me.",
+       "fa": "فقط آمده‌ام یک چک بخوابانم. من خیلی قدیمی‌ام."
+      }
+     }
+    ],
+    "image": "assets/places/bank.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "doctor",
+    "title": "Test results",
+    "titleFa": "نتیجهٔ آزمایش",
+    "color": "#3D6FA3",
+    "icon": "biotech",
+    "hotspots": [
+     {
+      "characterId": "okafor",
+      "sceneId": "okafor_followup",
+      "rect": [
+       0.64,
+       0.01,
+       0.3,
+       0.98
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.16,
+       0.18,
+       0.36,
+       0.8
+      ],
+      "ambient": {
+       "en": "Doc says it's nothing serious — just a sprain from lifting the ramp.",
+       "fa": "دکتر می‌گوید چیز جدی نیست — فقط رگ‌به‌رگ شدن موقع بلند کردن رمپ."
+      }
+     }
+    ],
+    "image": "assets/places/doctor.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "interview",
+    "title": "Job interview",
+    "titleFa": "مصاحبهٔ کاری",
+    "color": "#3B3F46",
+    "icon": "work",
+    "hotspots": [
+     {
+      "characterId": "clarke",
+      "sceneId": "clarke_interview",
+      "rect": [
+       0.1,
+       0.08,
+       0.38,
+       0.75
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.56,
+       0.05,
+       0.42,
+       0.78
+      ],
+      "ambient": {
+       "en": "Wish me luck — I'm up next for the depot supervisor job!",
+       "fa": "برایم آرزوی موفقیت کن — نفر بعدی برای مصاحبهٔ سرپرست انبار منم!"
+      }
+     }
+    ],
+    "image": "assets/places/interview.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "train",
+    "title": "Paddington Station",
+    "titleFa": "ایستگاه پدینگتون",
+    "color": "#3E5A3A",
+    "icon": "train",
+    "image": "assets/places/train.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "maya",
+      "sceneId": "train_ticket",
+      "rect": [
+       0.24,
+       0.18,
+       0.24,
+       0.8
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.55,
+       0.1,
+       0.3,
+       0.88
+      ],
+      "ambient": {
+       "en": "Day off! Off to Bath to see my mum.",
+       "fa": "روز تعطیل! می‌روم باث پیش مادرم."
+      }
+     }
+    ]
+   },
+   {
+    "id": "gym",
+    "title": "The gym",
+    "titleFa": "باشگاه",
+    "color": "#1E2B5A",
+    "icon": "fitness_center",
+    "image": "assets/places/gym.webp",
+    "aspect": 1.7777777777777777,
+    "hotspots": [
+     {
+      "characterId": "jade",
+      "sceneId": "gym_join",
+      "rect": [
+       0.12,
+       0.12,
+       0.3,
+       0.8
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.56,
+       0.02,
+       0.42,
+       0.96
+      ],
+      "ambient": {
+       "en": "Doctor says I need to get fit. Twelve-month contract it is…",
+       "fa": "دکتر می‌گوید باید روی فرم بیایم. قرارداد دوازده‌ماهه پس…"
+      }
+     }
+    ]
+   },
+   {
+    "id": "driving",
+    "title": "Learner Driver",
+    "titleFa": "رانندهٔ تازه‌کار",
+    "icon": "directions_bus",
+    "color": "#6E7A86",
+    "image": "assets/places/driving.webp",
+    "aspect": 1.7777777777777777,
+    "requires": {
+     "characterId": "ryan",
+     "milestone": "M2"
+    },
+    "hotspots": [
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.39,
+        0.64
+       ],
+       [
+        0.5800000000000001,
+        0.64
+       ],
+       [
+        0.5800000000000001,
+        0.88
+       ],
+       [
+        0.39,
+        0.88
+       ]
+      ],
+      "prop": {
+       "id": "lplate",
+       "word": "L-plate",
+       "fa": "پلاک L",
+       "phrase": "Learner driver — give him space!",
+       "phraseFa": "هنرجوی رانندگی — بهش فاصله بده!",
+       "mini": []
+      }
+     },
+     {
+      "characterId": "",
+      "shape": [
+       [
+        0.02,
+        0.4
+       ],
+       [
+        0.11,
+        0.4
+       ],
+       [
+        0.11,
+        0.51
+       ],
+       [
+        0.02,
+        0.51
+       ]
+      ],
+      "prop": {
+       "id": "mirror",
+       "word": "wing mirror",
+       "fa": "آینهٔ بغل",
+       "phrase": "Mirror, signal, manoeuvre.",
+       "phraseFa": "آینه، راهنما، حرکت.",
+       "mini": [
+        [
+         "tom",
+         "Mirror, signal, manoeuvre. Say it with me.",
+         "آینه، راهنما، حرکت. با من بگو."
+        ]
+       ]
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "shape": [
+       [
+        0.32,
+        0.14
+       ],
+       [
+        0.43,
+        0.14
+       ],
+       [
+        0.44,
+        0.32
+       ],
+       [
+        0.49,
+        0.37
+       ],
+       [
+        0.49,
+        0.5
+       ],
+       [
+        0.21,
+        0.5
+       ],
+       [
+        0.23,
+        0.38
+       ],
+       [
+        0.32,
+        0.32
+       ]
+      ],
+      "ambient": {
+       "en": "Dad, stop laughing. I'm concentrating!",
+       "fa": "بابا، نخند. دارم تمرکز می‌کنم!"
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": "ryan_driving",
+      "shape": [
+       [
+        0.57,
+        0.12
+       ],
+       [
+        0.69,
+        0.12
+       ],
+       [
+        0.7,
+        0.3
+       ],
+       [
+        0.77,
+        0.36
+       ],
+       [
+        0.78,
+        0.5
+       ],
+       [
+        0.5,
+        0.5
+       ],
+       [
+        0.52,
+        0.37
+       ],
+       [
+        0.58,
+        0.31
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B2-C1",
+  "title": "Academic & professional",
+  "titleFa": "دانشگاهی و حرفه‌ای",
+  "subtitle": "Seminars and conferences with Alastair",
+  "places": [
+   {
+    "id": "university",
+    "title": "University seminar",
+    "titleFa": "سمینار دانشگاه",
+    "color": "#8B6B3E",
+    "icon": "account_balance_wallet",
+    "hotspots": [
+     {
+      "characterId": "al",
+      "sceneId": "al_campus",
+      "rect": [
+       0.48,
+       0.22,
+       0.22,
+       0.45
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.27,
+       0.25,
+       0.17,
+       0.37
+      ],
+      "ambient": {
+       "en": "Al roped me into sitting in. Don't tell him I'm lost already.",
+       "fa": "آل مجبورم کرد بیایم بنشینم. بهش نگو که از همین حالا گیج شدم."
+      }
+     }
+    ],
+    "image": "assets/places/university.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "conference",
+    "title": "The conference",
+    "titleFa": "کنفرانس",
+    "color": "#1B2A4A",
+    "icon": "co_present",
+    "hotspots": [
+     {
+      "characterId": "al",
+      "sceneId": "al_conference",
+      "rect": [
+       0.7,
+       0.05,
+       0.22,
+       0.55
+      ]
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.12,
+       0.2,
+       0.26,
+       0.75
+      ],
+      "ambient": {
+       "en": "Is it alright if I ask a question? It's for my school project.",
+       "fa": "اشکالی ندارد یک سؤال بپرسم؟ برای پروژهٔ مدرسه‌ام است."
+      }
+     }
+    ],
+    "image": "assets/places/conference.webp",
+    "aspect": 1.7777777777777777
+   }
+  ]
+ },
+ {
+  "id": "C1-C2",
+  "title": "Like a local",
+  "titleFa": "مثل یک بومی",
+  "subtitle": "Slang, idioms and accents",
+  "places": [
+   {
+    "id": "pub",
+    "title": "The Red Lion quiz",
+    "titleFa": "مسابقهٔ میخانه",
+    "color": "#7A2E1E",
+    "icon": "sports_bar",
+    "hotspots": [
+     {
+      "characterId": "al",
+      "sceneId": "redlion_quiz",
+      "rect": [
+       0.04,
+       0.08,
+       0.44,
+       0.8
+      ]
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.58,
+       0.14,
+       0.37,
+       0.72
+      ],
+      "ambient": {
+       "en": "Whose round is it? Not mine, I got the last one!",
+       "fa": "نوبت کیه؟ من نه، دور قبل رو من خریدم!"
+      }
+     },
+     {
+      "characterId": "dave",
+      "sceneId": null,
+      "rect": [
+       0.48,
+       0.02,
+       0.12,
+       0.38
+      ],
+      "ambient": {
+       "en": "Question seven: which city hosts the world's oldest underground railway? Pens down in thirty seconds!",
+       "fa": "سؤال هفت: قدیمی‌ترین متروی جهان در کدام شهر است؟ سی ثانیه تا زمین گذاشتن خودکارها!"
+      }
+     }
+    ],
+    "image": "assets/places/pub.webp",
+    "aspect": 1.7777777777777777
+   }
+  ]
+ }
+]

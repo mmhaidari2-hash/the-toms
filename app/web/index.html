@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="Learn British English by living with a British family.">
+  <meta name="theme-color" content="#FBF7F0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="The Toms">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="manifest" href="manifest.json">
+  <title>The Toms: British Life Immersion</title>
+  <style>
+    html,body{margin:0;height:100%;background:#140E0A;overscroll-behavior:none}
+    /* Flutter renders inside the safe area; the notch / home-indicator strips stay painted dark. */
+    #app{position:fixed;top:env(safe-area-inset-top);right:env(safe-area-inset-right);bottom:env(safe-area-inset-bottom);left:env(safe-area-inset-left);background:#FBF7F0}
+    #splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;font-family:Georgia,serif;color:#1B2A4A;transition:opacity .4s}
+    #splash img{width:88px;height:88px;border-radius:22px;box-shadow:0 10px 30px rgba(27,42,74,.25)}
+    #splash .dot{width:6px;height:6px;border-radius:50%;background:#C8102E;animation:p 1s infinite alternate}
+    @keyframes p{to{opacity:.2;transform:scale(.6)}}
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="splash" style="background:#FBF7F0"><img src="icons/Icon-192.png" alt=""><div style="font-size:22px">The Toms</div><div class="dot"></div></div>
+  <script>
+    window.addEventListener('flutter-first-frame', function(){var s=document.getElementById('splash');s.style.opacity=0;setTimeout(function(){s.remove()},450);});
+  </script>
+  <script>
+    // Offline: cache the app shell + assets (no network needed after first load).
+    if ('serviceWorker' in navigator) window.addEventListener('load', function(){ navigator.serviceWorker.register('sw.js', {updateViaCache: 'none'}).then(function(r){ r.update(); }); });
+    // A new deploy's worker takes over → reload once so the fresh app code runs (never stale JS).
+    if ('serviceWorker' in navigator) { var hadController = !!navigator.serviceWorker.controller, reloaded = false;
+      navigator.serviceWorker.addEventListener('controllerchange', function(){ if (hadController && !reloaded) { reloaded = true; location.reload(); } }); }
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

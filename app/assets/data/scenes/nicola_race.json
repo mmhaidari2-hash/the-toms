@@ -1,0 +1,140 @@
+{
+ "id": "nicola_race",
+ "characterId": "nicola",
+ "level": "A2",
+ "title": "Sports day",
+ "titleFa": "روز ورزش",
+ "setting": "School field, July",
+ "settingFa": "زمین مدرسه، ژوئیه",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M4"
+ },
+ "start": "c1",
+ "nodes": {
+  "c1": {
+   "id": "c1",
+   "speaker": "nicola",
+   "text": "It's the egg-and-spoon race next! What if I drop my egg?",
+   "translations": {
+    "fa": "نوبت مسابقهٔ قاشق و تخم‌مرغه! اگه تخم‌مرغم بیفته چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slowly",
+      "careful",
+      "steady",
+      "doesn't matter",
+      "fun",
+      "try"
+     ],
+     "suggestion": "Just go slowly and steady — and it doesn't matter if you drop it.",
+     "suggestionFa": "فقط آروم و یکنواخت برو — و اگه افتاد هم مهم نیست.",
+     "trustDelta": 8,
+     "next": "c2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "egg-and-spoon race",
+     "fa": "مسابقهٔ قاشق و تخم‌مرغ"
+    },
+    {
+     "word": "steady",
+     "fa": "یکنواخت / ثابت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sports day is a summer tradition in UK primary schools, with sack races and egg-and-spoon races.",
+    "fa": "روز ورزش سنت تابستانی مدارس ابتدایی بریتانیاست، با مسابقهٔ گونی و قاشق و تخم‌مرغ."
+   }
+  },
+  "c2": {
+   "id": "c2",
+   "speaker": "nicola",
+   "text": "I came SECOND! Mia came first. Are you proud of me?",
+   "translations": {
+    "fa": "من دوم شدم! میا اول شد. بهم افتخار می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "proud",
+      "well done",
+      "brilliant",
+      "amazing",
+      "so proud"
+     ],
+     "suggestion": "I'm so proud of you! Well done!",
+     "suggestionFa": "خیلی بهت افتخار می‌کنم! آفرین!",
+     "trustDelta": 10,
+     "next": "c3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "proud of",
+     "fa": "افتخار کردن به"
+    },
+    {
+     "word": "second",
+     "fa": "دوم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "c3": {
+   "id": "c3",
+   "speaker": "nicola",
+   "text": "Can we get an ice lolly to celebrate?",
+   "translations": {
+    "fa": "می‌شه یه بستنی یخی بگیریم جشن بگیریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "lolly",
+      "ice",
+      "celebrate",
+      "course"
+     ],
+     "suggestion": "Yes, let's get an ice lolly to celebrate!",
+     "suggestionFa": "آره، بیا یه بستنی یخی بگیریم جشن بگیریم!",
+     "trustDelta": 8,
+     "next": "c4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ice lolly",
+     "fa": "بستنی یخی (بریتانیایی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say 'ice lolly'; Americans say 'popsicle'.",
+    "fa": "بریتانیایی‌ها «ice lolly» و آمریکایی‌ها «popsicle» می‌گویند."
+   }
+  },
+  "c4": {
+   "id": "c4",
+   "speaker": "nicola",
+   "text": "Best. Day. Ever. Don't tell Ryan I fell over in the sack race.",
+   "translations": {
+    "fa": "بهترین. روز. دنیا. به رایان نگو تو مسابقهٔ گونی زمین خوردم."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "fell over",
+     "fa": "زمین خوردن"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "id": "nicola_report",
+ "characterId": "patel",
+ "level": "A2",
+ "title": "Nicola's end-of-year report",
+ "titleFa": "کارنامهٔ آخر سال نیکولا",
+ "setting": "Parents' evening, Year 2 classroom",
+ "settingFa": "جلسهٔ اولیا، کلاس دوم",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M4"
+ },
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "patel",
+   "text": "Hello both, and hello Nicola! She's had a brilliant year — 'lovely ideas' in reading, and real effort in writing.",
+   "translations": {
+    "fa": "سلام به هر دوتون، و سلام نیکولا! سال فوق‌العاده‌ای داشته — در خواندن «ایده‌های قشنگ» و در نوشتن تلاش واقعی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "proud",
+      "lovely",
+      "great",
+      "so pleased",
+      "wonderful"
+     ],
+     "suggestion": "That's lovely to hear — we're so proud of her.",
+     "suggestionFa": "شنیدنش خیلی خوبه — خیلی بهش افتخار می‌کنیم.",
+     "trustDelta": 9,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "end-of-year report",
+     "fa": "کارنامهٔ آخر سال"
+    },
+    {
+     "word": "effort",
+     "fa": "تلاش"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK primary reports use gentle words like 'working well' or 'great effort' instead of grades.",
+    "fa": "کارنامه‌های ابتدایی بریتانیا به‌جای نمره از عبارت‌های ملایمی مثل «working well» یا «great effort» استفاده می‌کنند."
+   },
+   "xray": {
+    "connected": "She's had a brilliant year.",
+    "ipa": "/ʃiːz həd ə ˈbrɪljənt ˈjɪə/"
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "patel",
+   "text": "Her maths is working well. If anything, she could put her hand up a bit more — she's quite shy in class.",
+   "translations": {
+    "fa": "ریاضیش خوب پیش می‌ره. اگه بخوام چیزی بگم، می‌تونه بیشتر دستش رو بالا ببره — سر کلاس کمی خجالتیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "home",
+      "practise",
+      "encourage",
+      "confidence",
+      "how can"
+     ],
+     "suggestion": "How can we help her feel more confident at home?",
+     "suggestionFa": "در خانه چطور کمکش کنیم اعتمادبه‌نفس بیشتری داشته باشه؟",
+     "trustDelta": 9,
+     "next": "r3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shy",
+      "home",
+      "chatty",
+      "surprised",
+      "really"
+     ],
+     "suggestion": "Really? She never stops talking at home!",
+     "suggestionFa": "واقعاً؟ در خانه یک لحظه ساکت نمی‌شه!",
+     "trustDelta": 8,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "put her hand up",
+     "fa": "دست بالا بردن"
+    },
+    {
+     "word": "if anything",
+     "fa": "اگر ایرادی باشد"
+    },
+    {
+     "word": "working well",
+     "fa": "خوب پیش رفتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "Can I show you my butterfly painting? It's on the wall!",
+   "translations": {
+    "fa": "می‌تونم نقاشی پروانه‌م رو نشونت بدم؟ رو دیواره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "love to",
+      "show",
+      "course",
+      "beautiful",
+      "please"
+     ],
+     "suggestion": "Yes please — I'd love to see it!",
+     "suggestionFa": "آره لطفاً — خیلی دوست دارم ببینمش!",
+     "trustDelta": 9,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "painting",
+     "fa": "نقاشی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "patel",
+   "text": "'Well done, Nicola!' — I wrote it on the report myself. Have a lovely summer, all of you.",
+   "translations": {
+    "fa": "«آفرین نیکولا!» — خودم روی کارنامه نوشتم. تابستون خوبی داشته باشید، همه‌تون."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "have a lovely summer",
+     "fa": "تابستان خوبی داشته باشید"
+    }
+   ],
+   "cultureNote": null
+  }
+ },
+ "memory": {
+  "en": "Mr Patel read Nicola's end-of-year report",
+  "fa": "آقای پاتل کارنامهٔ آخر سال نیکولا را خواند"
+ }
+}

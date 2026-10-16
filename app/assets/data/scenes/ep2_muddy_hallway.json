@@ -1,0 +1,534 @@
+{
+ "id": "ep2_muddy_hallway",
+ "characterId": "leslie",
+ "level": "A2",
+ "title": "Ep 2 · The Muddy Hallway",
+ "titleFa": "قسمت ۲ · راهروی گل‌آلود",
+ "setting": "The front hall, 7:50am — rain",
+ "settingFa": "راهروی جلو، ۷:۵۰ صبح — باران",
+ "requires": null,
+ "start": "h1",
+ "nodes": {
+  "h1": {
+   "id": "h1",
+   "speaker": "leslie",
+   "text": "Look at that — it's absolutely pouring down. You'll need a brolly, the both of you.",
+   "translations": {
+    "fa": "نگاه کن — داره سیل‌آسا می‌باره. هر دوتون چتر لازم دارید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "umbrella",
+      "brolly",
+      "take",
+      "raincoat",
+      "coat",
+      "wet",
+      "pouring"
+     ],
+     "suggestion": "Good idea — Tom, take the brolly or you'll get soaked.",
+     "suggestionFa": "فکر خوبیه — تام، چتر رو بردار وگرنه خیس می‌شی.",
+     "trustDelta": 8,
+     "next": "h2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drizzle",
+      "drizzling",
+      "not that bad",
+      "just",
+      "light"
+     ],
+     "suggestion": "It's only drizzling, isn't it?",
+     "suggestionFa": "فقط نم‌نم می‌باره، نه؟",
+     "trustDelta": 5,
+     "next": "h2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pouring down",
+     "fa": "سیل‌آسا باریدن"
+    },
+    {
+     "word": "brolly",
+     "fa": "چتر (خودمانی)"
+    },
+    {
+     "word": "soaked",
+     "fa": "خیس آب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits have dozens of rain words: spitting, drizzling, chucking it down, pouring down.",
+    "fa": "بریتانیایی‌ها ده‌ها کلمه برای باران دارند: spitting، drizzling، chucking it down، pouring down."
+   },
+   "xray": {
+    "connected": "It's absolutely pouring down.",
+    "ipa": "/ɪts ˈæbsəluːʔli ˈpɔːrɪŋ ˈdaʊn/"
+   }
+  },
+  "h2": {
+   "id": "h2",
+   "speaker": "tom",
+   "text": "A brolly? It's only a bit of drizzle, love. Mind you, it's chilly enough to freeze the you-know-whats off a brass monkey.",
+   "translations": {
+    "fa": "چتر؟ فقط یه کم نم‌نمه عزیزم. البته اون‌قدر سرده که میمون برنجی رو هم یخ می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chilly",
+      "cold",
+      "freezing",
+      "coat",
+      "scarf",
+      "wrap up"
+     ],
+     "suggestion": "It's chilly — wrap up warm, Tom.",
+     "suggestionFa": "سرده — خودت رو گرم بپوشون، تام.",
+     "trustDelta": 9,
+     "next": "h3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "take it",
+      "just in case",
+      "umbrella",
+      "brolly",
+      "trust me"
+     ],
+     "suggestion": "Take it just in case — trust me.",
+     "suggestionFa": "محض احتیاط ببرش — به من اعتماد کن.",
+     "trustDelta": 8,
+     "next": "h3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chilly",
+     "fa": "سرد (کمی)"
+    },
+    {
+     "word": "drizzle",
+     "fa": "نم‌نم باران"
+    },
+    {
+     "word": "wrap up warm",
+     "fa": "گرم پوشیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Brass monkeys' is a cheeky British idiom for very cold weather.",
+    "fa": "«Brass monkeys» اصطلاح شیطنت‌آمیز بریتانیایی برای هوای خیلی سرد است."
+   },
+   "xray": {
+    "connected": "It's only a bit of drizzle.",
+    "ipa": "/ɪts ˈəʊnli ə ˈbɪʔ ə ˈdrɪzl/"
+   }
+  },
+  "h3": {
+   "id": "h3",
+   "speaker": "ryan",
+   "text": "Mum, where's my PE kit? The bus goes in, like, four minutes!",
+   "translations": {
+    "fa": "مامان، لباس ورزشم کجاست؟ اتوبوس تا، مثلاً، چهار دقیقهٔ دیگه می‌ره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "stairs",
+      "bag",
+      "by the door",
+      "found",
+      "under"
+     ],
+     "suggestion": "It's by the door, Ryan — grab it and go!",
+     "suggestionFa": "کنار دره رایان — برش دار و برو!",
+     "trustDelta": 8,
+     "next": "h4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hurry",
+      "quick",
+      "run",
+      "go",
+      "late"
+     ],
+     "suggestion": "Quick, Ryan — you'll miss the bus!",
+     "suggestionFa": "زود باش رایان — از اتوبوس جا می‌مونی!",
+     "trustDelta": 7,
+     "next": "h4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "PE kit",
+     "fa": "لباس ورزش مدرسه"
+    },
+    {
+     "word": "like",
+     "fa": "مثلاً (پرکنندهٔ کلام)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h4": {
+   "id": "h4",
+   "speaker": "leslie",
+   "text": "Boots off the carpet! Honestly, it's like a mud bath in here. Could you open the door for them, please?",
+   "translations": {
+    "fa": "چکمه‌ها رو از روی فرش بردارید! واقعاً اینجا شده حموم گِل. می‌شه لطفاً در رو براشون باز کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure",
+      "course",
+      "door",
+      "open",
+      "no problem",
+      "here"
+     ],
+     "suggestion": "Sure — off you go, you two. Have a good day!",
+     "suggestionFa": "حتماً — برید دیگه شما دوتا. روز خوبی داشته باشید!",
+     "trustDelta": 9,
+     "next": "x0",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "off you go",
+     "fa": "برو دیگه"
+    },
+    {
+     "word": "muddy",
+     "fa": "گل‌آلود"
+    }
+   ],
+   "cultureNote": null,
+   "coolReply": "Thank you. Door, please."
+  },
+  "h5": {
+   "id": "h5",
+   "speaker": "tom",
+   "text": "Cheers! Right, Ryan, leg it — if we're quick we'll make the bus stop before it starts chucking it down.",
+   "translations": {
+    "fa": "مرسی! خب رایان، بدو — اگه زود باشیم قبل از اینکه شُرشُر بباره به ایستگاه می‌رسیم."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "leg it",
+     "fa": "دویدن (خودمانی)"
+    },
+    {
+     "word": "chucking it down",
+     "fa": "شُرشُر باریدن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "ryan",
+   "text": "Where's my other shoe? It was RIGHT here. Has William nicked it again?",
+   "translations": {
+    "fa": "لنگهٔ دیگه کفشم کجاست؟ همین‌جا بود. ویلیام دوباره برداشته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "under",
+      "coat",
+      "rack",
+      "check"
+     ],
+     "suggestion": "Check under the coat rack.",
+     "suggestionFa": "زیر جالباسی را نگاه کن.",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "calm",
+      "find",
+      "we'll"
+     ],
+     "suggestion": "Calm down, we'll find it.",
+     "suggestionFa": "آروم باش، پیداش می‌کنیم.",
+     "trustDelta": 6,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nicked",
+     "fa": "کش رفت (عامیانه)"
+    },
+    {
+     "word": "coat rack",
+     "fa": "جالباسی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "where is shoe",
+      "where my shoe"
+     ],
+     "echo": "Where's your shoe? Under the coat rack, probably!",
+     "better": "Have you seen my other shoe?",
+     "betterFa": "لنگهٔ دیگه کفشم را دیدی؟"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "ryan",
+   "text": "Found it — soaking wet. Brilliant. It's absolutely chucking it down.",
+   "translations": {
+    "fa": "پیداش کردم — خیس آب. عالی شد (کنایه). داره سیل می‌باره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wellies",
+      "wear",
+      "boots"
+     ],
+     "suggestion": "Wear your wellies instead!",
+     "suggestionFa": "به‌جاش چکمه‌های لاستیکی بپوش!",
+     "trustDelta": 8,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "radiator",
+      "dry",
+      "later"
+     ],
+     "suggestion": "Put it on the radiator for later.",
+     "suggestionFa": "بذارش روی رادیاتور برای بعد.",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chucking it down",
+     "fa": "سیل‌آسا باریدن"
+    },
+    {
+     "word": "wellies",
+     "fa": "چکمهٔ لاستیکی"
+    },
+    {
+     "word": "soaking",
+     "fa": "خیس آب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits have dozens of rain words: spitting, drizzling, pouring, chucking it down, bucketing.",
+    "fa": "بریتانیایی‌ها ده‌ها واژه برای باران دارند: spitting، drizzling، pouring، chucking it down."
+   }
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "tom",
+   "text": "Has anyone seen my car keys? Ah — they're in the umbrella bucket. Of course.",
+   "translations": {
+    "fa": "کسی کلید ماشینم را دیده؟ آهان — توی سطل چتره. البته که."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "classic",
+      "brolly",
+      "grab",
+      "umbrella"
+     ],
+     "suggestion": "Classic! Shall I grab the brolly too?",
+     "suggestionFa": "کلاسیک! چتر را هم بیارم؟",
+     "trustDelta": 7,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "least",
+      "found"
+     ],
+     "suggestion": "At least you found them!",
+     "suggestionFa": "حداقل پیداشون کردی!",
+     "trustDelta": 6,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "of course",
+     "fa": "البته (با کنایه)"
+    },
+    {
+     "word": "classic",
+     "fa": "مثل همیشه!"
+    }
+   ]
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "leslie",
+   "text": "Tom, the bus is in four minutes. If you miss it, the next one's twenty.",
+   "translations": {
+    "fa": "تام، اتوبوس چهار دقیقهٔ دیگه‌ست. اگه از دستش بدی، بعدی بیست دقیقهٔ دیگه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "go",
+      "run",
+      "make it"
+     ],
+     "suggestion": "Go, go — you'll make it if you run!",
+     "suggestionFa": "برو، برو — اگه بدوی می‌رسی!",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "walk",
+      "stop",
+      "ryan"
+     ],
+     "suggestion": "I can walk Ryan to the stop.",
+     "suggestionFa": "می‌تونم رایان را تا ایستگاه ببرم.",
+     "trustDelta": 8,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "make it",
+     "fa": "به‌موقع رسیدن"
+    },
+    {
+     "word": "bus stop",
+     "fa": "ایستگاه اتوبوس"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK buses stop only if you hold out your arm — don't just stand there!",
+    "fa": "اتوبوس‌های بریتانیا فقط وقتی دست بلند کنی می‌ایستند!"
+   }
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "ryan",
+   "text": "Cheers! Mum, I'm off. Don't wait up — footy practice after school.",
+   "translations": {
+    "fa": "مرسی! مامان، من رفتم. منتظرم نمون — بعد از مدرسه تمرین فوتبال دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good day",
+      "have",
+      "ryan"
+     ],
+     "suggestion": "Have a good day, Ryan!",
+     "suggestionFa": "روز خوبی داشته باشی، رایان!",
+     "trustDelta": 6,
+     "next": "x5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forget",
+      "lunch"
+     ],
+     "suggestion": "Don't forget your lunch!",
+     "suggestionFa": "ناهارت را یادت نره!",
+     "trustDelta": 7,
+     "next": "x5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm off",
+     "fa": "من رفتم"
+    },
+    {
+     "word": "don't wait up",
+     "fa": "منتظرم نمون"
+    }
+   ]
+  },
+  "x5": {
+   "id": "x5",
+   "speaker": "leslie",
+   "text": "And breathe. Every morning, honestly. Thanks for the help — you're part of the chaos now!",
+   "translations": {
+    "fa": "و نفس بکش. هر روز صبح، واقعاً. ممنون بابت کمک — دیگه جزو این شلوغی هستی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wouldn't",
+      "any other",
+      "way"
+     ],
+     "suggestion": "I wouldn't have it any other way.",
+     "suggestionFa": "هیچ‌جور دیگه‌ای نمی‌خوامش.",
+     "trustDelta": 9,
+     "next": "h5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fun",
+      "actually"
+     ],
+     "suggestion": "It's fun, actually!",
+     "suggestionFa": "راستش خوش می‌گذره!",
+     "trustDelta": 7,
+     "next": "h5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "and breathe",
+     "fa": "و نفس بکش (پس از شلوغی)"
+    },
+    {
+     "word": "chaos",
+     "fa": "هرج‌ومرج"
+    }
+   ]
+  }
+ },
+ "memory": {
+  "en": "it was pouring down and Ryan lost his PE kit",
+  "fa": "باران سیل‌آسا می‌بارید و رایان لباس ورزشش را گم کرده بود"
+ },
+ "episode": 2
+}

@@ -1,0 +1,32 @@
+{
+ "characterId": "tom",
+ "milestones": [
+  {
+   "id": "M0",
+   "title": "Polite nod",
+   "titleFa": "سلام مؤدبانه",
+   "threshold": 0,
+   "description": "Tom's friendly but busy.",
+   "descriptionFa": "تام صمیمی ولی سرش شلوغ است.",
+   "unlocks": []
+  },
+  {
+   "id": "M1",
+   "title": "Proper mates",
+   "titleFa": "رفیق واقعی",
+   "threshold": 30,
+   "description": "Tom saves you the front seat on the 38.",
+   "descriptionFa": "تام صندلی جلوی اتوبوس ۳۸ را برایت نگه می‌دارد.",
+   "unlocks": []
+  },
+  {
+   "id": "M2",
+   "title": "Family",
+   "titleFa": "مثل خانواده",
+   "threshold": 60,
+   "description": "'You're one of us now.'",
+   "descriptionFa": "«تو حالا یکی از مایی.»",
+   "unlocks": []
+  }
+ ]
+}

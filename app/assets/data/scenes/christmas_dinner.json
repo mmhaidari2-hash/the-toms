@@ -1,0 +1,175 @@
+{
+ "id": "christmas_dinner",
+ "characterId": "leslie",
+ "level": "A1",
+ "title": "Christmas dinner",
+ "titleFa": "شام کریسمس",
+ "setting": "The Thompson house, 25 December",
+ "settingFa": "خانهٔ تام، ۲۵ دسامبر",
+ "requires": null,
+ "start": "x1",
+ "nodes": {
+  "x1": {
+   "id": "x1",
+   "speaker": "leslie",
+   "text": "Merry Christmas! Come and sit down — pull a cracker with me!",
+   "translations": {
+    "fa": "کریسمس مبارک! بیا بنشین — با من یک کراکر بکش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "merry christmas",
+      "merry",
+      "christmas",
+      "pull",
+      "cracker",
+      "yes"
+     ],
+     "suggestion": "Merry Christmas! Okay — one, two, three, pull!",
+     "suggestionFa": "کریسمس مبارک! باشه — یک، دو، سه، بکش!",
+     "trustDelta": 8,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Merry Christmas",
+     "fa": "کریسمس مبارک"
+    },
+    {
+     "word": "cracker",
+     "fa": "کراکر کریسمس (لوله‌ی کادویی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "A Christmas cracker bangs when pulled and holds a paper crown, a joke and a tiny toy.",
+    "fa": "کراکر کریسمس وقتی کشیده می‌شود صدا می‌دهد و داخلش تاج کاغذی، یک جوک و یک اسباب‌بازی کوچک است."
+   }
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "leslie",
+   "text": "Bang! You won! Put your paper crown on. What does your joke say?",
+   "translations": {
+    "fa": "بنگ! تو بردی! تاج کاغذی‌ات را بگذار. جوکت چه می‌گوید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "joke",
+      "what",
+      "why",
+      "who",
+      "read",
+      "says",
+      "snowman"
+     ],
+     "suggestion": "What do snowmen eat for lunch? Iceburgers!",
+     "suggestionFa": "آدم‌برفی‌ها ناهار چه می‌خورند؟ آیس‌برگر!",
+     "trustDelta": 9,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crown",
+      "on",
+      "put",
+      "wear",
+      "done"
+     ],
+     "suggestion": "My crown's on! Now I'm the king.",
+     "suggestionFa": "تاجم را گذاشتم! حالا من پادشاهم.",
+     "trustDelta": 8,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paper crown",
+     "fa": "تاج کاغذی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Cracker jokes are famously terrible — groaning is part of the fun.",
+    "fa": "جوک‌های کراکر معروف‌اند که افتضاح‌اند — آه کشیدن هم بخشی از سرگرمی است."
+   }
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "leslie",
+   "text": "Ha! Terrible! Now, would you like turkey, pigs in blankets and roast potatoes?",
+   "translations": {
+    "fa": "ها! افتضاح بود! حالا بوقلمون، سوسیس‌پیچ و سیب‌زمینی تنوری می‌خوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "please",
+      "lovely",
+      "all",
+      "everything",
+      "turkey"
+     ],
+     "suggestion": "Yes please — everything! It smells amazing.",
+     "suggestionFa": "بله لطفاً — همه‌چیز! بوی فوق‌العاده‌ای دارد.",
+     "trustDelta": 8,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "vegetarian",
+      "no meat",
+      "nut roast",
+      "veggie",
+      "just"
+     ],
+     "suggestion": "Just the potatoes and veg, please — I'm vegetarian.",
+     "suggestionFa": "فقط سیب‌زمینی و سبزی، لطفاً — من گیاه‌خوارم.",
+     "trustDelta": 8,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pigs in blankets",
+     "fa": "سوسیس پیچیده در بیکن"
+    },
+    {
+     "word": "turkey",
+     "fa": "بوقلمون"
+    }
+   ],
+   "cultureNote": null
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "leslie",
+   "text": "Wonderful. Then pudding, presents, and the King's speech at three. Cheers, everyone!",
+   "translations": {
+    "fa": "عالی. بعد دسر، کادوها، و سخنرانی پادشاه ساعت سه. به سلامتی همه!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "the King's speech",
+     "fa": "سخنرانی کریسمس پادشاه"
+    },
+    {
+     "word": "cheers",
+     "fa": "به سلامتی"
+    }
+   ],
+   "cultureNote": {
+    "en": "The monarch's Christmas message airs at 3pm on Christmas Day — a family tradition.",
+    "fa": "پیام کریسمس پادشاه ساعت ۳ بعدازظهر روز کریسمس پخش می‌شود — یک سنت خانوادگی."
+   }
+  }
+ }
+}

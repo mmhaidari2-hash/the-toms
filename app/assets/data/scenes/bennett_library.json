@@ -1,0 +1,130 @@
+{
+ "id": "bennett_library",
+ "characterId": "bennett",
+ "level": "A2",
+ "title": "Joining the library",
+ "titleFa": "عضویت در کتابخانه",
+ "setting": "Hackney Central Library",
+ "settingFa": "کتابخانهٔ مرکزی هاکنی",
+ "requires": null,
+ "start": "k1",
+ "nodes": {
+  "k1": {
+   "id": "k1",
+   "speaker": "bennett",
+   "text": "Good afternoon. How may I help?",
+   "translations": {
+    "fa": "عصر بخیر. چه کمکی از دستم برمی‌آید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "join",
+      "card",
+      "member",
+      "sign up",
+      "library card"
+     ],
+     "suggestion": "I'd like to join the library, please.",
+     "suggestionFa": "می‌خواهم عضو کتابخانه شوم، لطفاً.",
+     "trustDelta": 6,
+     "next": "k2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "book",
+      "looking",
+      "find",
+      "children"
+     ],
+     "suggestion": "I'm looking for some children's books.",
+     "suggestionFa": "دنبال چند کتاب کودک هستم.",
+     "trustDelta": 6,
+     "next": "k2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how may I help?",
+     "fa": "چه کمکی می‌توانم بکنم؟ (رسمی)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "k2": {
+   "id": "k2",
+   "speaker": "bennett",
+   "text": "Splendid. I'll just need proof of address — a council tax bill or bank statement will do.",
+   "translations": {
+    "fa": "عالی. فقط مدرک آدرس لازم دارم — قبض مالیات شهرداری یا صورت‌حساب بانکی کافی است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bill",
+      "statement",
+      "here",
+      "letter",
+      "proof",
+      "got"
+     ],
+     "suggestion": "Here's a bank statement.",
+     "suggestionFa": "این صورت‌حساب بانکی است.",
+     "trustDelta": 7,
+     "next": "k3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "don't",
+      "forgot",
+      "haven't",
+      "next time"
+     ],
+     "suggestion": "I haven't got one with me. Can I bring it next time?",
+     "suggestionFa": "همراهم نیست. دفعهٔ بعد بیاورم؟",
+     "trustDelta": 4,
+     "next": "k3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "proof of address",
+     "fa": "مدرک آدرس"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شهرداری"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Proof of address' is asked for everywhere in the UK — keep a recent bill handy.",
+    "fa": "در بریتانیا همه‌جا «مدرک آدرس» می‌خواهند — یک قبض جدید دم دست داشته باش."
+   }
+  },
+  "k3": {
+   "id": "k3",
+   "speaker": "bennett",
+   "text": "Very good. You can borrow up to twelve books for three weeks. And may I recommend Paddington? A Londoner from abroad, just like many of us.",
+   "translations": {
+    "fa": "خیلی خوب. می‌توانی تا دوازده کتاب را برای سه هفته امانت بگیری. و می‌توانم پدینگتون را پیشنهاد کنم؟ یک لندنی از خارج، درست مثل خیلی از ما."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "borrow",
+     "fa": "امانت گرفتن"
+    },
+    {
+     "word": "recommend",
+     "fa": "پیشنهاد کردن"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

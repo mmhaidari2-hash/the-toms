@@ -1,0 +1,128 @@
+{
+ "id": "nicola_opinion",
+ "characterId": "nicola",
+ "level": "A2",
+ "title": "Nicola has an opinion",
+ "titleFa": "نیکولا نظر دارد",
+ "setting": "Kitchen table, teatime",
+ "settingFa": "میز آشپزخانه، وقت عصرانه",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M5"
+ },
+ "start": "o1",
+ "nodes": {
+  "o1": {
+   "id": "o1",
+   "speaker": "nicola",
+   "text": "I think children should be allowed to stay up until ten. Don't you agree?",
+   "translations": {
+    "fa": "فکر می‌کنم بچه‌ها باید تا ساعت ده بیدار بمونن. موافق نیستی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "see your point",
+      "point",
+      "fair",
+      "yes"
+     ],
+     "suggestion": "I see your point, but you need your sleep for school.",
+     "suggestionFa": "نظرت را می‌فهمم، ولی برای مدرسه به خواب احتیاج داری.",
+     "trustDelta": 9,
+     "next": "o2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't agree",
+      "disagree",
+      "no",
+      "too late",
+      "tired"
+     ],
+     "suggestion": "I don't agree — you'd be really tired at school.",
+     "suggestionFa": "موافق نیستم — سر کلاس خیلی خسته می‌شی.",
+     "trustDelta": 9,
+     "next": "o2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allowed to",
+     "fa": "اجازه داشتن"
+    },
+    {
+     "word": "I see your point",
+     "fa": "نظرت را می‌فهمم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "o2": {
+   "id": "o2",
+   "speaker": "nicola",
+   "text": "But Ryan stays up late! That's not fair.",
+   "translations": {
+    "fa": "ولی رایان تا دیر وقت بیدار می‌مونه! این منصفانه نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "older",
+      "fourteen",
+      "because",
+      "when you're"
+     ],
+     "suggestion": "Ryan's older. When you're fourteen, you can stay up later too.",
+     "suggestionFa": "رایان بزرگ‌تره. وقتی تو هم چهارده‌ساله شدی، می‌تونی دیرتر بیدار بمونی.",
+     "trustDelta": 9,
+     "next": "o3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "compromise",
+      "half",
+      "weekend",
+      "friday",
+      "deal"
+     ],
+     "suggestion": "How about a compromise — half eight on Fridays?",
+     "suggestionFa": "یه راه وسط چطوره — جمعه‌ها تا هشت و نیم؟",
+     "trustDelta": 10,
+     "next": "o3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "not fair",
+     "fa": "منصفانه نیست"
+    },
+    {
+     "word": "compromise",
+     "fa": "راه میانه / مصالحه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "o3": {
+   "id": "o3",
+   "speaker": "nicola",
+   "text": "Hmm… deal. But I'm writing it down so you can't forget!",
+   "translations": {
+    "fa": "هوم… قبول. ولی می‌نویسمش که یادت نره!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "deal",
+     "fa": "قبول / معامله"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

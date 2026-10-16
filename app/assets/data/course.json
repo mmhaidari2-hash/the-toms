@@ -1,0 +1,394 @@
+{
+ "units": [
+  {
+   "id": "U1",
+   "title": "Hello, family!",
+   "titleFa": "سلام، خانواده!",
+   "place": "kitchen",
+   "canDo": "Say hello, give your name, meet the family",
+   "canDoFa": "سلام کنی، اسمت را بگویی، با خانواده آشنا شوی",
+   "lessons": [
+    {
+     "id": "l1_u1_1",
+     "title": "Hello! I'm Nicola",
+     "titleFa": "سلام! من نیکولا هستم",
+     "lead": "nicola",
+     "place": "kitchen",
+     "grammar": "I'm / you're / my name's — the verb \"to be\"",
+     "grammarFa": "فعل «بودن»: I'm / you're / my name's",
+     "sceneIds": [
+      "l1_u1_1"
+     ],
+     "words": [
+      {
+       "word": "hiya",
+       "fa": "سلام (خودمانی)"
+      },
+      {
+       "word": "name",
+       "fa": "اسم"
+      },
+      {
+       "word": "I'm",
+       "fa": "من ... هستم"
+      },
+      {
+       "word": "old",
+       "fa": "سن/پیر"
+      },
+      {
+       "word": "how old",
+       "fa": "چند ساله"
+      },
+      {
+       "word": "teddy",
+       "fa": "عروسک خرسی"
+      },
+      {
+       "word": "his",
+       "fa": "مال او (پسر)"
+      },
+      {
+       "word": "lovely",
+       "fa": "دوست‌داشتنی"
+      },
+      {
+       "word": "from",
+       "fa": "اهل/از"
+      },
+      {
+       "word": "London",
+       "fa": "لندن"
+      },
+      {
+       "word": "hot",
+       "fa": "گرم/داغ"
+      },
+      {
+       "word": "cold",
+       "fa": "سرد"
+      },
+      {
+       "word": "Mummy",
+       "fa": "مامان (بچگانه)"
+      },
+      {
+       "word": "mum",
+       "fa": "مامان"
+      },
+      {
+       "word": "her",
+       "fa": "مال او (زن)"
+      },
+      {
+       "word": "teacher",
+       "fa": "معلم"
+      },
+      {
+       "word": "welcome",
+       "fa": "خوش آمدی"
+      },
+      {
+       "word": "sweet",
+       "fa": "شیرین/مهربان"
+      },
+      {
+       "word": "friendly",
+       "fa": "مهربان/خونگرم"
+      },
+      {
+       "word": "yes I am",
+       "fa": "بله، هستم"
+      }
+     ],
+     "turns": 17
+    },
+    {
+     "id": "l1_u1_2",
+     "title": "This is my family",
+     "titleFa": "این خانوادهٔ من است",
+     "lead": "leslie",
+     "place": "kitchen",
+     "grammar": "this is / he's / she's + family words",
+     "grammarFa": "این ... است / او ... است + واژه‌های خانواده",
+     "sceneIds": [
+      "l1_u1_2"
+     ],
+     "words": [
+      {
+       "word": "husband",
+       "fa": "شوهر"
+      },
+      {
+       "word": "this is",
+       "fa": "این ... است"
+      },
+      {
+       "word": "meet",
+       "fa": "آشنا شدن"
+      },
+      {
+       "word": "alright?",
+       "fa": "چطوری؟ (سلام)"
+      },
+      {
+       "word": "please",
+       "fa": "لطفاً"
+      },
+      {
+       "word": "thank you",
+       "fa": "ممنون"
+      },
+      {
+       "word": "baby",
+       "fa": "نوزاد"
+      },
+      {
+       "word": "son",
+       "fa": "پسر (فرزند)"
+      },
+      {
+       "word": "cute",
+       "fa": "بامزه/ناز"
+      },
+      {
+       "word": "little",
+       "fa": "کوچک"
+      },
+      {
+       "word": "daughter",
+       "fa": "دختر (فرزند)"
+      },
+      {
+       "word": "upstairs",
+       "fa": "طبقهٔ بالا"
+      },
+      {
+       "word": "teenager",
+       "fa": "نوجوان"
+      },
+      {
+       "word": "grandma",
+       "fa": "مادربزرگ"
+      },
+      {
+       "word": "lives",
+       "fa": "زندگی می‌کند"
+      },
+      {
+       "word": "with",
+       "fa": "با"
+      },
+      {
+       "word": "Nana",
+       "fa": "مادربزرگ (خودمانی)"
+      },
+      {
+       "word": "hungry",
+       "fa": "گرسنه"
+      },
+      {
+       "word": "dear",
+       "fa": "عزیزم"
+      },
+      {
+       "word": "dad",
+       "fa": "بابا"
+      },
+      {
+       "word": "family",
+       "fa": "خانواده"
+      }
+     ],
+     "turns": 17
+    },
+    {
+     "id": "l1_u1_3",
+     "title": "How are you?",
+     "titleFa": "حالت چطوره؟",
+     "lead": "nicola",
+     "place": "kitchen",
+     "grammar": "How are you? I'm fine / good / tired + feelings",
+     "grammarFa": "حالت چطوره؟ + احساسات",
+     "sceneIds": [
+      "l1_u1_3"
+     ],
+     "words": [
+      {
+       "word": "good morning",
+       "fa": "صبح بخیر"
+      },
+      {
+       "word": "fine",
+       "fa": "خوب"
+      },
+      {
+       "word": "tired",
+       "fa": "خسته"
+      },
+      {
+       "word": "happy",
+       "fa": "خوشحال"
+      },
+      {
+       "word": "pancake",
+       "fa": "پنکیک"
+      },
+      {
+       "word": "very",
+       "fa": "خیلی"
+      },
+      {
+       "word": "sad",
+       "fa": "ناراحت/غمگین"
+      },
+      {
+       "word": "why",
+       "fa": "چرا"
+      },
+      {
+       "word": "yummy",
+       "fa": "خوشمزه (بچگانه)"
+      },
+      {
+       "word": "starving",
+       "fa": "خیلی گرسنه"
+      },
+      {
+       "word": "always",
+       "fa": "همیشه"
+      },
+      {
+       "word": "grumpy",
+       "fa": "بداخلاق/غرغرو"
+      },
+      {
+       "word": "sleepy",
+       "fa": "خواب‌آلود"
+      },
+      {
+       "word": "morning",
+       "fa": "صبح"
+      },
+      {
+       "word": "knackered",
+       "fa": "خیلی خسته (عامیانه)"
+      },
+      {
+       "word": "OK",
+       "fa": "خوب/باشه"
+      },
+      {
+       "word": "kind",
+       "fa": "مهربان"
+      },
+      {
+       "word": "excited",
+       "fa": "هیجان‌زده"
+      },
+      {
+       "word": "new",
+       "fa": "جدید"
+      },
+      {
+       "word": "smiling",
+       "fa": "لبخند زدن"
+      },
+      {
+       "word": "now",
+       "fa": "حالا"
+      }
+     ],
+     "turns": 17
+    },
+    {
+     "id": "l1_u1_4",
+     "title": "Please, thank you, sorry",
+     "titleFa": "لطفاً، ممنون، ببخشید",
+     "lead": "leslie",
+     "place": "kitchen",
+     "grammar": "Polite words: please, thank you, sorry, excuse me",
+     "grammarFa": "واژه‌های مؤدبانه",
+     "sceneIds": [
+      "l1_u1_4"
+     ],
+     "words": [
+      {
+       "word": "pass",
+       "fa": "دادن (دست‌به‌دست)"
+      },
+      {
+       "word": "milk",
+       "fa": "شیر"
+      },
+      {
+       "word": "here you are",
+       "fa": "بفرمایید"
+      },
+      {
+       "word": "can I have",
+       "fa": "می‌شه ... داشته باشم"
+      },
+      {
+       "word": "bread",
+       "fa": "نان"
+      },
+      {
+       "word": "butter",
+       "fa": "کره"
+      },
+      {
+       "word": "sorry",
+       "fa": "ببخشید/متأسفم"
+      },
+      {
+       "word": "no problem",
+       "fa": "مشکلی نیست"
+      },
+      {
+       "word": "don't worry",
+       "fa": "نگران نباش"
+      },
+      {
+       "word": "jam",
+       "fa": "مربا"
+      },
+      {
+       "word": "magic word",
+       "fa": "کلمهٔ جادویی (لطفاً)"
+      },
+      {
+       "word": "you're welcome",
+       "fa": "خواهش می‌کنم"
+      },
+      {
+       "word": "polite",
+       "fa": "مؤدب"
+      },
+      {
+       "word": "thank you very much",
+       "fa": "خیلی ممنون"
+      },
+      {
+       "word": "excuse me",
+       "fa": "ببخشید (برای رد شدن یا جلب توجه)"
+      },
+      {
+       "word": "pardon?",
+       "fa": "ببخشید؟ (تکرار کنید)"
+      },
+      {
+       "word": "cheers",
+       "fa": "مرسی (خودمانی)"
+      },
+      {
+       "word": "blimey",
+       "fa": "ای بابا/وای"
+      }
+     ],
+     "turns": 17
+    }
+   ]
+  }
+ ]
+}
