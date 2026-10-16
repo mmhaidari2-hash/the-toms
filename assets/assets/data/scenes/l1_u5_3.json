@@ -1,0 +1,345 @@
+{
+ "id": "l1_u5_3",
+ "characterId": "leslie",
+ "title": "Bath time",
+ "titleFa": "وقت حمام",
+ "setting": "My day · Level 1",
+ "settingFa": "روز من",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Bath time, William! Oh, can you help me? Pass me the towel, please.",
+   "translations": {
+    "fa": "وقت حمومه، ویلیام! آه، کمکم می‌کنی؟ لطفاً حوله را بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's"
+     ],
+     "suggestion": "Here's the towel.",
+     "suggestionFa": "بفرما حوله.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "blue",
+      "one"
+     ],
+     "suggestion": "Which towel? The blue one?",
+     "suggestionFa": "کدوم حوله؟ آبیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bath",
+     "fa": "وان/حمام"
+    },
+    {
+     "word": "towel",
+     "fa": "حوله"
+    },
+    {
+     "word": "pass",
+     "fa": "دادن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "Duck! Duck in bath!",
+   "translations": {
+    "fa": "اردک! اردک تو وان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "rubber",
+      "here's",
+      "duck"
+     ],
+     "suggestion": "Here's your rubber duck, William.",
+     "suggestionFa": "بفرما اردک پلاستیکی‌ات، ویلیام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quack"
+     ],
+     "suggestion": "Quack quack!",
+     "suggestionFa": "کواک کواک!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "duck",
+     "fa": "اردک"
+    },
+    {
+     "word": "rubber duck",
+     "fa": "اردک پلاستیکی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "He loves that duck. Do you have a bath or a shower in the morning?",
+   "translations": {
+    "fa": "عاشق اون اردکه. تو صبح‌ها وان می‌گیری یا دوش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "shower",
+      "every",
+      "have"
+     ],
+     "suggestion": "I have a shower every morning.",
+     "suggestionFa": "هر صبح دوش می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "prefer",
+      "night",
+      "bath"
+     ],
+     "suggestion": "I prefer a bath at night.",
+     "suggestionFa": "ترجیح می‌دم شب‌ها وان بگیرم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shower",
+     "fa": "دوش"
+    },
+    {
+     "word": "prefer",
+     "fa": "ترجیح دادن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Does the water feel OK, William? Not too hot?",
+   "translations": {
+    "fa": "آب خوبه، ویلیام؟ خیلی داغ نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "check",
+      "let"
+     ],
+     "suggestion": "Let me check the water.",
+     "suggestionFa": "بذار آب را امتحان کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "ok"
+     ],
+     "suggestion": "Is it OK, William?",
+     "suggestionFa": "خوبه، ویلیام؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "water",
+     "fa": "آب"
+    },
+    {
+     "word": "too hot",
+     "fa": "خیلی داغ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "Cold! Mummy, cold!",
+   "translations": {
+    "fa": "سرده! مامان، سرده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "let's",
+      "some",
+      "add"
+     ],
+     "suggestion": "Let's add some hot water.",
+     "suggestionFa": "بیا یه کم آب گرم اضافه کنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "turn",
+      "tap"
+     ],
+     "suggestion": "Turn on the hot tap.",
+     "suggestionFa": "شیر آب گرم را باز کن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cold",
+     "fa": "سرد"
+    },
+    {
+     "word": "tap",
+     "fa": "شیر آب"
+    },
+    {
+     "word": "hot water",
+     "fa": "آب گرم"
+    },
+    {
+     "word": "turn on",
+     "fa": "باز کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Old British bathrooms often have two taps: one hot, one cold!",
+    "fa": "حمام‌های قدیمی بریتانیا اغلب دو شیر دارند: یکی گرم، یکی سرد!"
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "That's better. Can you pass the shampoo? It's next to the soap.",
+   "translations": {
+    "fa": "بهتر شد. شامپو را می‌دی؟ کنار صابونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shampoo",
+      "here"
+     ],
+     "suggestion": "Here you are. Shampoo.",
+     "suggestionFa": "بفرما. شامپو.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "only",
+      "soap",
+      "see",
+      "can"
+     ],
+     "suggestion": "I can only see the soap.",
+     "suggestionFa": "فقط صابون را می‌بینم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shampoo",
+     "fa": "شامپو"
+    },
+    {
+     "word": "soap",
+     "fa": "صابون"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Eyes closed, William! Good boy. Does he do this every night? Yes, every night!",
+   "translations": {
+    "fa": "چشم‌ها بسته، ویلیام! آفرین پسر خوب. هر شب این کار را می‌کنه؟ آره، هر شب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "bath",
+      "he's"
+     ],
+     "suggestion": "He's very good in the bath.",
+     "suggestionFa": "توی وان خیلی پسر خوبیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "night",
+      "every",
+      "hard"
+     ],
+     "suggestion": "Every night? That's hard work!",
+     "suggestionFa": "هر شب؟ کار سختیه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "closed",
+     "fa": "بسته"
+    },
+    {
+     "word": "hard work",
+     "fa": "کار سخت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "All done. Now pyjamas, a story and bed. Night night, little one!",
+   "translations": {
+    "fa": "تموم شد. حالا پیژامه، قصه و تخت. شب بخیر کوچولو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

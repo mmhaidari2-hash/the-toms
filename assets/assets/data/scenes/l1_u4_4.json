@@ -1,0 +1,326 @@
+{
+ "id": "l1_u4_4",
+ "characterId": "doris",
+ "title": "On the bus",
+ "titleFa": "در اتوبوس",
+ "setting": "Numbers & time · Level 1",
+ "settingFa": "اعداد و زمان",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Hello, duck. Is this the number twelve bus? My eyes aren't very good.",
+   "translations": {
+    "fa": "سلام عزیزم. این اتوبوس شماره دوازده‌ست؟ چشم‌هام خیلی خوب نمی‌بینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twelve"
+     ],
+     "suggestion": "Yes, this is the number twelve.",
+     "suggestionFa": "آره، این شماره دوازده‌ست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty"
+     ],
+     "suggestion": "No, this is the number twenty.",
+     "suggestionFa": "نه، این شماره بیسته.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bus",
+     "fa": "اتوبوس"
+    },
+    {
+     "word": "number",
+     "fa": "شماره"
+    },
+    {
+     "word": "eyes",
+     "fa": "چشم‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Duck\", \"love\", \"pet\" — friendly words strangers use in different parts of Britain.",
+    "fa": "«duck»، «love»، «pet» — واژه‌های صمیمی در نقاط مختلف بریتانیا."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Oh good. How much is a ticket to town? Two pounds?",
+   "translations": {
+    "fa": "آه خوبه. بلیت تا مرکز شهر چنده؟ دو پوند؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifty"
+     ],
+     "suggestion": "It's two pounds fifty.",
+     "suggestionFa": "دو پوند و پنجاهه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think"
+     ],
+     "suggestion": "I think it's two pounds.",
+     "suggestionFa": "فکر کنم دو پونده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how much",
+     "fa": "چقدر (قیمت)"
+    },
+    {
+     "word": "ticket",
+     "fa": "بلیت"
+    },
+    {
+     "word": "pounds",
+     "fa": "پوند"
+    },
+    {
+     "word": "town",
+     "fa": "مرکز شهر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Thank you, love. And when's the next stop? I get off at the library.",
+   "translations": {
+    "fa": "ممنون عزیزم. ایستگاه بعدی کِیه؟ من کنار کتابخونه پیاده می‌شم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "library",
+      "three",
+      "stops"
+     ],
+     "suggestion": "The library is in three stops.",
+     "suggestionFa": "کتابخونه سه ایستگاه دیگه‌ست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "driver",
+      "let's",
+      "sure",
+      "ask"
+     ],
+     "suggestion": "I'm not sure. Let's ask the driver.",
+     "suggestionFa": "مطمئن نیستم. بیا از راننده بپرسیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next stop",
+     "fa": "ایستگاه بعدی"
+    },
+    {
+     "word": "get off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "library",
+     "fa": "کتابخانه"
+    },
+    {
+     "word": "driver",
+     "fa": "راننده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "You're a kind one. Where are you going today?",
+   "translations": {
+    "fa": "تو آدم مهربونی هستی. امروز کجا می‌ری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket"
+     ],
+     "suggestion": "I'm going to the supermarket.",
+     "suggestionFa": "دارم می‌رم سوپرمارکت.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friend",
+      "meet"
+     ],
+     "suggestion": "I'm going to meet a friend.",
+     "suggestionFa": "دارم می‌رم یه دوست را ببینم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "going",
+     "fa": "رفتن"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "friend",
+     "fa": "دوست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Lovely. In my day the bus was twenty pence! Twenty pence!",
+   "translations": {
+    "fa": "چه خوب. زمان ما اتوبوس بیست پنی بود! بیست پنی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "twenty",
+      "cheap",
+      "pence"
+     ],
+     "suggestion": "Twenty pence? That's very cheap!",
+     "suggestionFa": "بیست پنی؟ خیلی ارزونه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "expensive",
+      "now"
+     ],
+     "suggestion": "Everything is expensive now.",
+     "suggestionFa": "الان همه چی گرونه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pence",
+     "fa": "پنی"
+    },
+    {
+     "word": "cheap",
+     "fa": "ارزان"
+    },
+    {
+     "word": "expensive",
+     "fa": "گران"
+    },
+    {
+     "word": "in my day",
+     "fa": "زمان ما"
+    }
+   ],
+   "cultureNote": {
+    "en": "100 pence = 1 pound. People say \"p\": \"fifty p\".",
+    "fa": "۱۰۰ پنی = ۱ پوند. مردم می‌گویند «p»."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Here's my stop. Press the bell for me, would you? The red button.",
+   "translations": {
+    "fa": "ایستگاه منه. زنگ را برام می‌زنی؟ دکمهٔ قرمز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "there",
+      "go"
+     ],
+     "suggestion": "Of course. There you go!",
+     "suggestionFa": "حتماً. بفرمایید!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "done",
+      "step",
+      "mind"
+     ],
+     "suggestion": "Done. Mind the step!",
+     "suggestionFa": "زدم. مواظب پله باشید!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "bell",
+     "fa": "زنگ"
+    },
+    {
+     "word": "button",
+     "fa": "دکمه"
+    },
+    {
+     "word": "mind the step",
+     "fa": "مواظب پله باش"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Thank you, duck. Ta-ra! Thank you, driver!",
+   "translations": {
+    "fa": "ممنون عزیزم. خدانگهدار! ممنون آقای راننده!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

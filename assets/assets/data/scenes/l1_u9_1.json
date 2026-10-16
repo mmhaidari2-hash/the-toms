@@ -1,0 +1,365 @@
+{
+ "id": "l1_u9_1",
+ "characterId": "nicola",
+ "title": "Head, shoulders, knees and toes",
+ "titleFa": "سر، شانه، زانو، انگشت پا",
+ "setting": "Body & feeling poorly · Level 1",
+ "settingFa": "بدن و بیماری",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Let's sing! Head, shoulders, knees and toes! Touch your head!",
+   "translations": {
+    "fa": "بیا آواز بخونیم! سر، شونه، زانو و انگشت پا! سرت را لمس کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "touching",
+      "head"
+     ],
+     "suggestion": "I'm touching my head!",
+     "suggestionFa": "دارم سرم را لمس می‌کنم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "from",
+      "song"
+     ],
+     "suggestion": "Is this a song from school?",
+     "suggestionFa": "این آهنگ مدرسه‌ست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "head",
+     "fa": "سر"
+    },
+    {
+     "word": "shoulders",
+     "fa": "شانه‌ها"
+    },
+    {
+     "word": "knees",
+     "fa": "زانوها"
+    },
+    {
+     "word": "toes",
+     "fa": "انگشتان پا"
+    },
+    {
+     "word": "touch",
+     "fa": "لمس کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Yes! Now touch your nose. And your ears. Faster!",
+   "translations": {
+    "fa": "آره! حالا دماغت را لمس کن. و گوش‌هات. تندتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "mouth",
+      "ears",
+      "oops"
+     ],
+     "suggestion": "Nose, ears… oops, that's my mouth!",
+     "suggestionFa": "دماغ، گوش… اوه، این دهنمه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slow"
+     ],
+     "suggestion": "I'm too slow!",
+     "suggestionFa": "خیلی کندم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nose",
+     "fa": "بینی"
+    },
+    {
+     "word": "ears",
+     "fa": "گوش‌ها"
+    },
+    {
+     "word": "mouth",
+     "fa": "دهان"
+    },
+    {
+     "word": "faster",
+     "fa": "سریع‌تر"
+    },
+    {
+     "word": "slow",
+     "fa": "کند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Ha ha! How many fingers have you got? I've got ten!",
+   "translations": {
+    "fa": "ها ها! چندتا انگشت داری؟ من ده‌تا دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i've",
+      "got"
+     ],
+     "suggestion": "I've got ten fingers too.",
+     "suggestionFa": "منم ده‌تا انگشت دارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "toes"
+     ],
+     "suggestion": "Ten fingers and ten toes!",
+     "suggestionFa": "ده انگشت دست و ده انگشت پا!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fingers",
+     "fa": "انگشتان دست"
+    },
+    {
+     "word": "hands",
+     "fa": "دست‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "William's got a big tummy. Look! Tickle tickle!",
+   "translations": {
+    "fa": "ویلیام یه شکم گنده داره. ببین! قلقلک قلقلک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "where's",
+      "tummy"
+     ],
+     "suggestion": "Where's William's tummy?",
+     "suggestionFa": "شکم ویلیام کجاست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gently",
+      "nicola"
+     ],
+     "suggestion": "Gently, Nicola!",
+     "suggestionFa": "آروم، نیکولا!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gently",
+     "fa": "آرام"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "No! Tickle! Ha ha!",
+   "translations": {
+    "fa": "نه! قلقلک! ها ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "laughing",
+      "he's",
+      "much"
+     ],
+     "suggestion": "He's laughing so much!",
+     "suggestionFa": "خیلی داره می‌خنده!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tickle",
+      "feet",
+      "his"
+     ],
+     "suggestion": "Tickle his feet too!",
+     "suggestionFa": "پاهاش را هم قلقلک بده!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tummy",
+     "fa": "شکم (کودکانه)"
+    },
+    {
+     "word": "tickle",
+     "fa": "قلقلک"
+    },
+    {
+     "word": "feet",
+     "fa": "پاها"
+    },
+    {
+     "word": "laughing",
+     "fa": "خندیدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Ow! I banged my knee on the table. It hurts!",
+   "translations": {
+    "fa": "آخ! زانوم خورد به میز. درد می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "hurt",
+      "see",
+      "let"
+     ],
+     "suggestion": "Let me see. Where does it hurt?",
+     "suggestionFa": "بذار ببینم. کجات درد می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "mum",
+      "get",
+      "oh"
+     ],
+     "suggestion": "Oh no! Shall I get your mum?",
+     "suggestionFa": "ای وای! مامانت را صدا کنم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "banged",
+     "fa": "خورد/کوبید"
+    },
+    {
+     "word": "hurts",
+     "fa": "درد می‌کند"
+    },
+    {
+     "word": "ow",
+     "fa": "آخ"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Here. It's a bit red. Can I have a plaster with a dinosaur on it?",
+   "translations": {
+    "fa": "اینجا. یه کم قرمزه. می‌شه یه چسب زخم دایناسوری داشته باشم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaur",
+      "plaster",
+      "better",
+      "here's"
+     ],
+     "suggestion": "Here's a dinosaur plaster. Better?",
+     "suggestionFa": "بفرما یه چسب زخم دایناسوری. بهتره؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "first",
+      "some",
+      "put"
+     ],
+     "suggestion": "Let's put some ice on it first.",
+     "suggestionFa": "بیا اول یه کم یخ بذاریم روش.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    },
+    {
+     "word": "ice",
+     "fa": "یخ"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "All better! Dinosaur plasters are magic. Again! Head, shoulders, knees and toes!",
+   "translations": {
+    "fa": "خوب شد! چسب‌های دایناسوری جادویی‌ان. دوباره! سر، شونه، زانو و انگشت پا!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

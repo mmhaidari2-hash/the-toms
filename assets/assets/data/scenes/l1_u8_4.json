@@ -1,0 +1,312 @@
+{
+ "id": "l1_u8_4",
+ "characterId": "tom",
+ "title": "DIY with Tom",
+ "titleFa": "تعمیرات با تام",
+ "setting": "Right now! · Level 1",
+ "settingFa": "همین الان!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Can you give me a hand? I'm putting up a shelf.",
+   "translations": {
+    "fa": "می‌تونی کمکم کنی؟ دارم یه قفسه نصب می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure"
+     ],
+     "suggestion": "Sure. What can I do?",
+     "suggestionFa": "حتماً. چی کار می‌تونم بکنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "diy",
+      "tom"
+     ],
+     "suggestion": "Can you do DIY, Tom?",
+     "suggestionFa": "تعمیرات بلدی تام؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "give me a hand",
+     "fa": "کمکم کن"
+    },
+    {
+     "word": "putting up",
+     "fa": "نصب کردن"
+    },
+    {
+     "word": "shelf",
+     "fa": "قفسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "DIY = \"do it yourself\": fixing and building things at home. Very popular in Britain.",
+    "fa": "DIY یعنی «خودت انجامش بده»: تعمیر و ساخت در خانه."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Can you hold this end? Keep it straight. Is it straight?",
+   "translations": {
+    "fa": "می‌تونی این سرش را نگه داری؟ صاف نگهش دار. صافه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "high",
+      "left",
+      "bit"
+     ],
+     "suggestion": "No, it's a bit high on the left.",
+     "suggestionFa": "نه، سمت چپ یه کم بالاست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "straight",
+      "looks"
+     ],
+     "suggestion": "Yes, it looks straight to me.",
+     "suggestionFa": "آره، به نظرم صافه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "end",
+     "fa": "سر/انتها"
+    },
+    {
+     "word": "straight",
+     "fa": "صاف"
+    },
+    {
+     "word": "left",
+     "fa": "چپ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Hmm. Can you pass me the drill? It's in the toolbox.",
+   "translations": {
+    "fa": "هوم. می‌تونی دریل را بدی؟ توی جعبه ابزاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's"
+     ],
+     "suggestion": "Here's the drill.",
+     "suggestionFa": "بفرما دریل.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hammer"
+     ],
+     "suggestion": "Is this the drill or a hammer?",
+     "suggestionFa": "این دریله یا چکش؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drill",
+     "fa": "دریل"
+    },
+    {
+     "word": "toolbox",
+     "fa": "جعبه ابزار"
+    },
+    {
+     "word": "hammer",
+     "fa": "چکش"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "That's the drill. Right — I'm drilling now. Cover your ears!",
+   "translations": {
+    "fa": "اون دریله. خب — دارم دریل می‌کنم. گوش‌هات را بگیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "loud"
+     ],
+     "suggestion": "It's very loud!",
+     "suggestionFa": "خیلی بلنده!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "william",
+      "nearby",
+      "tom"
+     ],
+     "suggestion": "Careful, Tom! Is William nearby?",
+     "suggestionFa": "مواظب باش تام! ویلیام نزدیکه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cover",
+     "fa": "پوشاندن"
+    },
+    {
+     "word": "ears",
+     "fa": "گوش‌ها"
+    },
+    {
+     "word": "loud",
+     "fa": "بلند (صدا)"
+    },
+    {
+     "word": "nearby",
+     "fa": "نزدیک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Leslie's got him in the garden. Now, can you pass the screws?",
+   "translations": {
+    "fa": "لزلی توی باغچه نگهش داشته. حالا، پیچ‌ها را می‌دی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "many",
+      "how"
+     ],
+     "suggestion": "Here are the screws. How many?",
+     "suggestionFa": "بفرما پیچ‌ها. چندتا؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "can't",
+      "see",
+      "any"
+     ],
+     "suggestion": "I can't see any screws.",
+     "suggestionFa": "هیچ پیچی نمی‌بینم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "screws",
+     "fa": "پیچ‌ها"
+    },
+    {
+     "word": "garden",
+     "fa": "باغچه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Four. There! Look at that! Is it falling down? No! It's perfect!",
+   "translations": {
+    "fa": "چهارتا. ایناهاش! ببین! داره می‌افته؟ نه! عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "great",
+      "done",
+      "well"
+     ],
+     "suggestion": "Well done! It looks great.",
+     "suggestionFa": "آفرین! عالی شده.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "moving",
+      "bit",
+      "tom",
+      "er"
+     ],
+     "suggestion": "Er, Tom… it's moving a bit.",
+     "suggestionFa": "اِم، تام… یه کم داره تکون می‌خوره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "falling down",
+     "fa": "افتادن"
+    },
+    {
+     "word": "moving",
+     "fa": "تکان خوردن"
+    },
+    {
+     "word": "perfect",
+     "fa": "بی‌نقص"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Moving? No, no. It's fine. Let's get a cuppa before it falls down!",
+   "translations": {
+    "fa": "تکون؟ نه، نه. خوبه. بیا قبل از اینکه بیفته یه چای بخوریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

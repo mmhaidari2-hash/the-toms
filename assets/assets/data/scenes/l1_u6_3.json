@@ -1,0 +1,359 @@
+{
+ "id": "l1_u6_3",
+ "characterId": "leslie",
+ "title": "Getting ready for school",
+ "titleFa": "آماده شدن برای مدرسه",
+ "setting": "Weather & clothes · Level 1",
+ "settingFa": "هوا و لباس",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Right, everyone! Shoes on! Coats on! We leave in five minutes!",
+   "translations": {
+    "fa": "خب همه! کفش‌ها پا! کت‌ها تن! پنج دقیقه دیگه راه می‌افتیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ready"
+     ],
+     "suggestion": "I'm ready!",
+     "suggestionFa": "من آماده‌ام!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "minutes",
+      "hurry",
+      "five"
+     ],
+     "suggestion": "Five minutes? OK, hurry up, everyone!",
+     "suggestionFa": "پنج دقیقه؟ باشه، عجله کنید همه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everyone",
+     "fa": "همه"
+    },
+    {
+     "word": "leave",
+     "fa": "رفتن/ترک کردن"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "hurry up",
+     "fa": "عجله کن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Can you help Nicola? Put her coat on, please. Zip it up — it's cold.",
+   "translations": {
+    "fa": "به نیکولا کمک می‌کنی؟ لطفاً کتش را تنش کن. زیپش را بکش — سرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "arms"
+     ],
+     "suggestion": "Arms in, Nicola. There!",
+     "suggestionFa": "دست‌ها تو، نیکولا. ایناهاش!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "stand",
+      "still"
+     ],
+     "suggestion": "Nicola, stand still, please!",
+     "suggestionFa": "نیکولا، لطفاً تکون نخور!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "zip up",
+     "fa": "زیپ را بستن"
+    },
+    {
+     "word": "arms",
+     "fa": "دست‌ها/بازوها"
+    },
+    {
+     "word": "stand still",
+     "fa": "تکان نخور"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I can't find my other glove! Where is it?",
+   "translations": {
+    "fa": "دستکش دیگه‌ام را پیدا نمی‌کنم! کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pocket",
+      "look",
+      "coat"
+     ],
+     "suggestion": "Look in your coat pocket.",
+     "suggestionFa": "توی جیب کتت را نگاه کن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stairs",
+      "here"
+     ],
+     "suggestion": "Here it is, on the stairs.",
+     "suggestionFa": "ایناهاش، روی پله‌ها.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glove",
+     "fa": "دستکش"
+    },
+    {
+     "word": "stairs",
+     "fa": "پله‌ها"
+    },
+    {
+     "word": "other",
+     "fa": "دیگر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Brilliant. Ryan! Don't forget your PE kit! And don't forget your lunch!",
+   "translations": {
+    "fa": "عالیه. رایان! وسایل ورزشت یادت نره! ناهارت هم یادت نره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calling",
+      "mum's",
+      "ryan"
+     ],
+     "suggestion": "Ryan! Your mum's calling you!",
+     "suggestionFa": "رایان! مامانت صدات می‌کنه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan's",
+      "i'll",
+      "bag",
+      "get"
+     ],
+     "suggestion": "I'll get Ryan's bag.",
+     "suggestionFa": "من کیف رایان را میارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Yeah, yeah. Don't panic, Mum.",
+   "translations": {
+    "fa": "آره، آره. هول نکن مامان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "lunch",
+      "ryan",
+      "box"
+     ],
+     "suggestion": "Ryan, here's your lunch box.",
+     "suggestionFa": "رایان، بفرما ظرف ناهارت.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "door",
+      "bag",
+      "pe",
+      "by"
+     ],
+     "suggestion": "Your PE bag is by the door.",
+     "suggestionFa": "کیف ورزشت کنار دره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "don't forget",
+     "fa": "فراموش نکن"
+    },
+    {
+     "word": "PE kit",
+     "fa": "لباس ورزش مدرسه"
+    },
+    {
+     "word": "lunch box",
+     "fa": "ظرف ناهار"
+    },
+    {
+     "word": "by the door",
+     "fa": "کنار در"
+    }
+   ],
+   "cultureNote": {
+    "en": "PE = Physical Education, sport at school. A \"packed lunch\" is food from home.",
+    "fa": "PE یعنی تربیت‌بدنی. packed lunch یعنی غذای خانگی."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "William, don't eat that! Put it down! What has he got?",
+   "translations": {
+    "fa": "ویلیام، اونو نخور! بذارش زمین! چی دستشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "crayon",
+      "give"
+     ],
+     "suggestion": "It's a crayon! Give it to me, William.",
+     "suggestionFa": "مداد شمعیه! بدش به من ویلیام.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuit",
+      "worry",
+      "don't",
+      "only"
+     ],
+     "suggestion": "Don't worry, it's only a biscuit.",
+     "suggestionFa": "نگران نباش، فقط بیسکویته.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "put down",
+     "fa": "زمین گذاشتن"
+    },
+    {
+     "word": "crayon",
+     "fa": "مداد شمعی"
+    },
+    {
+     "word": "give",
+     "fa": "بده"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Phew. OK — bags? Check. Keys? Check. Let's go! Close the door behind you!",
+   "translations": {
+    "fa": "آخیش. خب — کیف‌ها؟ هست. کلیدها؟ هست. بریم! در را پشت سرت ببند!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "closed",
+      "let's",
+      "go"
+     ],
+     "suggestion": "Door closed. Let's go!",
+     "suggestionFa": "در بسته شد. بریم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "locked",
+      "back",
+      "wait"
+     ],
+     "suggestion": "Wait! Is the back door locked?",
+     "suggestionFa": "صبر کن! در پشتی قفله؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check",
+     "fa": "بررسی/هست"
+    },
+    {
+     "word": "close",
+     "fa": "بستن"
+    },
+    {
+     "word": "locked",
+     "fa": "قفل"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Good thinking. Every morning is like this! Thanks for your help, love.",
+   "translations": {
+    "fa": "فکر خوبیه. هر صبح همینطوره! ممنون از کمکت عزیزم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,333 @@
+{
+ "id": "l1_u8_1",
+ "characterId": "nicola",
+ "title": "At the park",
+ "titleFa": "در پارک",
+ "setting": "Right now! · Level 1",
+ "settingFa": "همین الان!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Look at me! I'm running! I'm running really fast!",
+   "translations": {
+    "fa": "منو ببین! دارم می‌دوم! خیلی تند دارم می‌دوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fast"
+     ],
+     "suggestion": "You're very fast!",
+     "suggestionFa": "خیلی سریعی!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "don't",
+      "over",
+      "fall"
+     ],
+     "suggestion": "Careful! Don't fall over!",
+     "suggestionFa": "مواظب باش! زمین نخوری!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "running",
+     "fa": "در حال دویدن"
+    },
+    {
+     "word": "fast",
+     "fa": "سریع"
+    },
+    {
+     "word": "fall over",
+     "fa": "زمین خوردن"
+    },
+    {
+     "word": "look at me",
+     "fa": "منو ببین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "What's William doing? Is he eating sand again?",
+   "translations": {
+    "fa": "ویلیام داره چی کار می‌کنه؟ دوباره داره شن می‌خوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playing",
+      "slide"
+     ],
+     "suggestion": "No, he's playing on the slide.",
+     "suggestionFa": "نه، داره روی سرسره بازی می‌کنه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sitting",
+      "sandpit"
+     ],
+     "suggestion": "He's sitting in the sandpit.",
+     "suggestionFa": "داره توی گودال شن نشسته.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doing",
+     "fa": "انجام دادن"
+    },
+    {
+     "word": "playing",
+     "fa": "در حال بازی"
+    },
+    {
+     "word": "slide",
+     "fa": "سرسره"
+    },
+    {
+     "word": "sandpit",
+     "fa": "گودال شن بازی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Wheee! Slide! Again!",
+   "translations": {
+    "fa": "ویییی! سرسره! دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "time",
+      "more",
+      "one"
+     ],
+     "suggestion": "One more time, William!",
+     "suggestionFa": "یه بار دیگه، ویلیام!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "having",
+      "he's",
+      "much",
+      "fun"
+     ],
+     "suggestion": "He's having so much fun.",
+     "suggestionFa": "داره خیلی خوش می‌گذرونه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "fun",
+     "fa": "سرگرمی/خوشی"
+    },
+    {
+     "word": "one more time",
+     "fa": "یک بار دیگر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Push me on the swings, please! Higher! Higher!",
+   "translations": {
+    "fa": "لطفاً منو روی تاب هل بده! بالاتر! بالاتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pushing",
+      "tight",
+      "hold"
+     ],
+     "suggestion": "I'm pushing! Hold on tight!",
+     "suggestionFa": "دارم هل می‌دم! محکم بگیر!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "that's",
+      "nicola",
+      "high"
+     ],
+     "suggestion": "That's high enough, Nicola.",
+     "suggestionFa": "این قدر بالا بسه، نیکولا.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "push",
+     "fa": "هل دادن"
+    },
+    {
+     "word": "swings",
+     "fa": "تاب"
+    },
+    {
+     "word": "higher",
+     "fa": "بالاتر"
+    },
+    {
+     "word": "hold on tight",
+     "fa": "محکم بگیر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Look! Those boys are flying a kite. And that dog is chasing the ducks!",
+   "translations": {
+    "fa": "ببین! اون پسرها دارن بادبادک هوا می‌کنن. و اون سگ داره اردک‌ها را دنبال می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flying",
+      "ducks",
+      "away"
+     ],
+     "suggestion": "The ducks are flying away!",
+     "suggestionFa": "اردک‌ها دارن فرار می‌کنن!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "jumping",
+      "pond",
+      "dog",
+      "oh"
+     ],
+     "suggestion": "Oh no, the dog is jumping in the pond!",
+     "suggestionFa": "ای وای، سگ داره می‌پره توی برکه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flying",
+     "fa": "پرواز دادن/کردن"
+    },
+    {
+     "word": "kite",
+     "fa": "بادبادک"
+    },
+    {
+     "word": "chasing",
+     "fa": "دنبال کردن"
+    },
+    {
+     "word": "pond",
+     "fa": "برکه"
+    },
+    {
+     "word": "dog",
+     "fa": "سگ"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Ha ha! He's all wet! Now his owner is shouting. \"Biscuit! Come here!\"",
+   "translations": {
+    "fa": "ها ها! خیس خیس شده! حالا صاحبش داره داد می‌زنه. «بیسکویت! بیا اینجا!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patel's",
+      "dog",
+      "mrs"
+     ],
+     "suggestion": "Is it Mrs Patel's dog?",
+     "suggestionFa": "سگ خانم پاتله؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "popular",
+      "biscuit",
+      "here",
+      "name"
+     ],
+     "suggestion": "Biscuit is a popular name here!",
+     "suggestionFa": "بیسکویت اینجا اسم محبوبیه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "owner",
+     "fa": "صاحب"
+    },
+    {
+     "word": "shouting",
+     "fa": "داد زدن"
+    },
+    {
+     "word": "come here",
+     "fa": "بیا اینجا"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "It's starting to rain! Quick, everyone's running home! Let's go!",
+   "translations": {
+    "fa": "داره بارون میگیره! زود، همه دارن می‌دون خونه! بریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
