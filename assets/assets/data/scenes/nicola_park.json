@@ -56,7 +56,13 @@
      "fa": "تاب"
     }
    ],
-   "cultureNote": null
+   "cultureNote": null,
+   "byChapter": {
+    "2": {
+     "text": "Hiya! Will you push me on the swings? Mia's coming too — she's my best friend!",
+     "fa": "سلام! منو روی تاب هل می‌دی؟ میا هم میاد — بهترین دوستمه!"
+    }
+   }
   },
   "p1b": {
    "id": "p1b",
@@ -192,6 +198,12 @@
    "cultureNote": {
     "en": "British spelling: 'favourite', 'colour' — with a 'u'.",
     "fa": "املای بریتانیایی: «favourite» و «colour» — با حرف u."
+   },
+   "byChapter": {
+    "1": {
+     "text": "Guess what? I'm six now! Next birthday I'll be SEVEN. What's your favourite cake?",
+     "fa": "حدس بزن چی؟ الان شش سالمه! تولد بعدی هفت می‌شم. کیک مورد علاقه‌ات چیه؟"
+    }
    }
   },
   "p4": {

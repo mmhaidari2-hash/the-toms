@@ -1,0 +1,253 @@
+{
+ "id": "l2_u1_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A day off",
+ "titleFa": "(در نقش Leslie) یک روز تعطیل",
+ "setting": "Last weekend · Level 1",
+ "settingFa": "آخر هفتهٔ گذشته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l2_u1_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "often",
+      "nice",
+      "have",
+      "week"
+     ],
+     "suggestion": "Oh, this is nice. I don't often have a day off! Did you have a good week?",
+     "suggestionFa": "آه، چه خوب. من زیاد روز تعطیل ندارم! هفتهٔ خوبی داشتی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I had a great week, thanks.",
+   "translations": {
+    "fa": "آره، هفتهٔ خیلی خوبی داشتم، ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "wednesday",
+      "sister",
+      "town",
+      "play"
+     ],
+     "suggestion": "Me too. On Wednesday I saw a play with my sister in town. It was brilliant.",
+     "suggestionFa": "منم. چهارشنبه با خواهرم تو شهر یه نمایش دیدم. عالی بود.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What did you see?",
+   "translations": {
+    "fa": "چی دیدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "italian",
+      "pudding",
+      "little",
+      "place",
+      "royal"
+     ],
+     "suggestion": "We went to the Royal. Then we ate at a little Italian place and I had far too much pudding!",
+     "suggestionFa": "رفتیم تئاتر رویال. بعد تو یه رستوران کوچیک ایتالیایی غذا خوردیم و من زیادی دسر خوردم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What did you have?",
+   "translations": {
+    "fa": "چی خوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tiramisu",
+      "nicola",
+      "bought",
+      "shoes",
+      "sizes"
+     ],
+     "suggestion": "Tiramisu. Then I bought Nicola some new shoes. She grew two sizes this year!",
+     "suggestionFa": "تیرامیسو. بعد برای نیکولا کفش نو خریدم. امسال دو سایز بزرگ شد!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Children grow so fast.",
+   "translations": {
+    "fa": "بچه‌ها خیلی زود بزرگ می‌شن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "loved",
+      "them",
+      "wore",
+      "did"
+     ],
+     "suggestion": "She loved them. She wore them to bed! What did you do on Saturday?",
+     "suggestionFa": "عاشقشون شد. با کفش خوابید! تو شنبه چی کار کردی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I went to the market and bought some fruit.",
+   "translations": {
+    "fa": "رفتم بازار و یه کم میوه خریدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bringing",
+      "callum's",
+      "coffees",
+      "lovely",
+      "callum"
+     ],
+     "suggestion": "That sounds lovely. Ooh — Callum's bringing our coffees. Thank you, Callum!",
+     "suggestionFa": "چه خوب. اوه — کالوم داره قهوه‌هامون را میاره. ممنون کالوم!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thanks, Callum!",
+   "translations": {
+    "fa": "ممنون کالوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "callum",
+   "text": "There you go, ladies. One flat white, one latte. Did you two have a good weekend?",
+   "translations": {
+    "fa": "بفرمایید خانم‌ها. یه فلت‌وایت، یه لاته. آخر هفته خوش گذشت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flat white",
+     "fa": "فلت وایت (قهوه)"
+    },
+    {
+     "word": "latte",
+     "fa": "لاته"
+    },
+    {
+     "word": "yours",
+     "fa": "مال تو"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, thanks. It was lovely.",
+   "translations": {
+    "fa": "آره، ممنون. خیلی خوب بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "callum",
+   "text": "Grand, thanks. I went to Brighton and got sunburnt — in October!",
+   "translations": {
+    "fa": "عالی، ممنون. رفتم برایتون و آفتاب‌سوخته شدم — تو اکتبر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

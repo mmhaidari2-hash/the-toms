@@ -1,0 +1,371 @@
+{
+ "id": "l2_u3_1",
+ "characterId": "sal",
+ "title": "A trim for the prom",
+ "titleFa": "اصلاح برای جشن",
+ "setting": "Making plans · Level 1",
+ "settingFa": "برنامه‌ریزی",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sal",
+   "text": "Alright, Ryan's mate! Sit yourself down. What are we going to do today?",
+   "translations": {
+    "fa": "سلام رفیق رایان! بشین. امروز چی کار کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "short",
+      "just",
+      "trim"
+     ],
+     "suggestion": "Just a trim, please. Not too short.",
+     "suggestionFa": "فقط یه کم کوتاه، لطفاً. نه خیلی کوتاه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "ideas",
+      "going",
+      "new"
+     ],
+     "suggestion": "I'm going to try something new. Any ideas?",
+     "suggestionFa": "می‌خوام یه چیز جدید امتحان کنم. ایده‌ای داری؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "trim",
+     "fa": "کوتاه کردن مختصر"
+    },
+    {
+     "word": "short",
+     "fa": "کوتاه"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    },
+    {
+     "word": "something new",
+     "fa": "چیزی جدید"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sal",
+   "text": "Lovely. Ryan's going to have a skin fade for his prom. Are you going to the prom too?",
+   "translations": {
+    "fa": "عالی. رایان قراره برای جشن پرامش فِید بزنه. تو هم میای پرام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wedding",
+      "going",
+      "next",
+      "week"
+     ],
+     "suggestion": "No, I'm going to a wedding next week.",
+     "suggestionFa": "نه، هفتهٔ بعد می‌رم عروسی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "prom"
+     ],
+     "suggestion": "What's a prom?",
+     "suggestionFa": "پرام چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "going to",
+     "fa": "قرار است"
+    },
+    {
+     "word": "prom",
+     "fa": "جشن پایان مدرسه"
+    },
+    {
+     "word": "wedding",
+     "fa": "عروسی"
+    },
+    {
+     "word": "next week",
+     "fa": "هفتهٔ بعد"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"prom\" is a formal party at the end of school, with suits, dresses — and very nervous teenagers.",
+    "fa": "پرام جشن رسمی پایان مدرسه است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "A wedding! Lovely. Whose wedding is it? Are you going to wear a suit?",
+   "translations": {
+    "fa": "عروسی! چه خوب. عروسی کیه؟ می‌خوای کت‌وشلوار بپوشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cousin's",
+      "wear"
+     ],
+     "suggestion": "My cousin's. Yes, I'm going to wear a suit.",
+     "suggestionFa": "عروسی پسرعمه‌ام. آره، کت‌وشلوار می‌پوشم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friend's",
+      "new",
+      "buy"
+     ],
+     "suggestion": "A friend's. I'm going to buy a new suit.",
+     "suggestionFa": "یه دوست. می‌خوام کت‌وشلوار نو بخرم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whose",
+     "fa": "مال چه کسی"
+    },
+    {
+     "word": "suit",
+     "fa": "کت‌وشلوار"
+    },
+    {
+     "word": "cousin",
+     "fa": "پسرعمو/دخترخاله..."
+    },
+    {
+     "word": "wear",
+     "fa": "پوشیدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sal",
+   "text": "Then you need to look smart. I'm going to take a bit off the sides and keep the top long.",
+   "translations": {
+    "fa": "پس باید شیک باشی. یه کم از کناره‌ها می‌زنم و بالا را بلند نگه می‌دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "good"
+     ],
+     "suggestion": "That sounds good.",
+     "suggestionFa": "خوب به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sides",
+      "long",
+      "keep",
+      "can"
+     ],
+     "suggestion": "Can you keep the sides long too?",
+     "suggestionFa": "می‌شه کناره‌ها را هم بلند نگه داری؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smart",
+     "fa": "شیک"
+    },
+    {
+     "word": "sides",
+     "fa": "کناره‌ها"
+    },
+    {
+     "word": "top",
+     "fa": "بالا"
+    },
+    {
+     "word": "keep",
+     "fa": "نگه داشتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sal",
+   "text": "No problem. So, are you going to do anything nice this weekend?",
+   "translations": {
+    "fa": "مشکلی نیست. خب، این آخر هفته کار جالبی می‌خوای بکنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coast",
+      "visit",
+      "toms"
+     ],
+     "suggestion": "I'm going to visit the coast with the Toms.",
+     "suggestionFa": "قراره با تامزها برم کنار دریا.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exhausted",
+      "relax"
+     ],
+     "suggestion": "I'm going to relax. I'm exhausted.",
+     "suggestionFa": "می‌خوام استراحت کنم. خیلی خسته‌ام.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coast",
+     "fa": "ساحل"
+    },
+    {
+     "word": "relax",
+     "fa": "استراحت کردن"
+    },
+    {
+     "word": "exhausted",
+     "fa": "خیلی خسته"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sal",
+   "text": "Lucky you. I'm going to watch the football and eat my body weight in crisps!",
+   "translations": {
+    "fa": "خوش به حالت. من می‌خوام فوتبال ببینم و هم‌وزن خودم چیپس بخورم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "sounds",
+      "ha"
+     ],
+     "suggestion": "Ha! Sounds perfect.",
+     "suggestionFa": "ها! عالی به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "support",
+      "going",
+      "who"
+     ],
+     "suggestion": "Who are you going to support?",
+     "suggestionFa": "طرفدار کی هستی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "body weight",
+     "fa": "وزن بدن"
+    },
+    {
+     "word": "support",
+     "fa": "طرفداری کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sal",
+   "text": "There we go. Have a look in the mirror. What do you reckon?",
+   "translations": {
+    "fa": "تموم شد. تو آینه نگاه کن. نظرت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "great",
+      "thank"
+     ],
+     "suggestion": "It looks great. Thank you!",
+     "suggestionFa": "عالی شده. ممنون!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "much",
+      "how"
+     ],
+     "suggestion": "Perfect. How much is it?",
+     "suggestionFa": "بی‌نقصه. چقدر میشه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mirror",
+     "fa": "آینه"
+    },
+    {
+     "word": "reckon",
+     "fa": "فکر کردن (محاوره)"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sal",
+   "text": "Fifteen quid, mate. You're going to be the smartest person at that wedding!",
+   "translations": {
+    "fa": "پونزده پوند رفیق. تو اون عروسی شیک‌ترین آدم میشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

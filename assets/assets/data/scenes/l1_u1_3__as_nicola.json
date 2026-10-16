@@ -71,8 +71,8 @@
       "pancakes",
       "buttons",
       "though",
-      "lemon",
-      "yummy"
+      "yummy",
+      "lemon"
      ],
      "suggestion": "We eat pancakes with lemon and sugar. Yummy! Mr Buttons is sad, though.",
      "suggestionFa": "پنکیک را با لیمو و شکر می‌خوریم. به‌به! ولی آقای دکمه ناراحته.",
@@ -94,8 +94,8 @@
     {
      "keywords": [
       "teddies",
-      "hungry",
       "always",
+      "hungry",
       "he's"
      ],
      "suggestion": "He's hungry! Teddies are always hungry. Are you hungry?",
@@ -118,8 +118,8 @@
     {
      "keywords": [
       "morning",
-      "grumpy",
       "always",
+      "grumpy",
       "he's",
       "ryan"
      ],
@@ -142,8 +142,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -258,7 +258,7 @@
       "smiling",
       "happy",
       "he's",
-      "even"
+      "look"
      ],
      "suggestion": "Everyone is happy now! Even Ryan. Look, he's smiling!",
      "suggestionFa": "حالا همه خوشحالن! حتی رایان. ببین، داره لبخند می‌زنه!",
@@ -280,10 +280,10 @@
     {
      "keywords": [
       "pancakes",
-      "table",
       "let's",
+      "table",
       "have",
-      "yay"
+      "see"
      ],
      "suggestion": "Yay! Let's have pancakes. See you at the table!",
      "suggestionFa": "آخ جون! بیا پنکیک بخوریم. سر میز می‌بینمت!",

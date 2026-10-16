@@ -1,0 +1,200 @@
+{
+ "id": "l2_u2_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Excuse me, where's…?",
+ "titleFa": "(در نقش Leslie) ببخشید، … کجاست؟",
+ "setting": "Finding your way · Level 1",
+ "settingFa": "پیدا کردن راه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l2_u2_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "parcel",
+      "let's",
+      "right",
+      "test"
+     ],
+     "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
+     "suggestionFa": "خب، بیا امتحانت کنیم! باید یه بسته پست کنی. چطوری راه اداره پست را می‌پرسی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Excuse me, where's the post office, please?",
+   "translations": {
+    "fa": "ببخشید، اداره پست کجاست لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "straight",
+      "traffic",
+      "perfect",
+      "lights",
+      "bakery"
+     ],
+     "suggestion": "Perfect. And I say: go straight on, past the bakery, then turn left at the traffic lights.",
+     "suggestionFa": "عالیه. و من می‌گم: مستقیم برو، از نونوایی رد شو، بعد سر چراغ راهنمایی بپیچ چپ.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Straight on, past the bakery, then left.",
+   "translations": {
+    "fa": "مستقیم، رد شدن از نونوایی، بعد چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opposite",
+      "chemist",
+      "church",
+      "can't",
+      "right"
+     ],
+     "suggestion": "Good! It's on the right, opposite the church, next to the chemist. You can't miss it.",
+     "suggestionFa": "خوبه! سمت راسته، روبروی کلیسا، کنار داروخونه. نمی‌شه نبینیش.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Opposite the church. Got it!",
+   "translations": {
+    "fa": "روبروی کلیسا. فهمیدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brits",
+      "means",
+      "find",
+      "when",
+      "miss"
+     ],
+     "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
+     "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ha! I'll remember that.",
+   "translations": {
+    "fa": "ها! یادم می‌مونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "station",
+      "minutes",
+      "tourist",
+      "where's",
+      "about"
+     ],
+     "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
+     "suggestionFa": "حدود پنج دقیقه پیاده. حالا تو امتحان کن. من توریستم. ایستگاه قطار کجاست؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Go straight on and take the second right.",
+   "translations": {
+    "fa": "مستقیم برو و دومین خیابون سمت راست را برو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "round",
+      "sorry",
+      "sure",
+      "just"
+     ],
+     "suggestion": "Brilliant! And if you're not sure, just say \"Sorry, I'm not from round here.\"",
+     "suggestionFa": "عالی! و اگه مطمئن نیستی، فقط بگو «ببخشید، من اهل اینجا نیستم.»",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Sorry, I'm not from round here.",
+   "translations": {
+    "fa": "ببخشید، من اهل اینجا نیستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "natural",
+      "office",
+      "let's",
+      "come"
+     ],
+     "suggestion": "You're a natural. Come on, let's actually go to the post office now!",
+     "suggestionFa": "تو استعدادشو داری. بیا، حالا واقعاً بریم اداره پست!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -42,7 +42,17 @@
      "fa": "بیشتر / باز هم"
     }
    ],
-   "cultureNote": null
+   "cultureNote": null,
+   "byChapter": {
+    "2": {
+     "text": "More toast, please!",
+     "fa": "نون بیشتر، لطفاً!"
+    },
+    "4": {
+     "text": "Can I have more toast, please, Daddy?",
+     "fa": "می‌شه نون بیشتری بخورم، بابا؟"
+    }
+   }
   },
   "w2": {
    "id": "w2",
@@ -88,7 +98,17 @@
      "fa": "آبمیوه"
     }
    ],
-   "cultureNote": null
+   "cultureNote": null,
+   "byChapter": {
+    "2": {
+     "text": "Yummy! Juice, please?",
+     "fa": "خوشمزه! آبمیوه، لطفاً؟"
+    },
+    "4": {
+     "text": "That was yummy! Can I have some juice too?",
+     "fa": "خوشمزه بود! آبمیوه هم می‌تونم بخورم؟"
+    }
+   }
   },
   "w3": {
    "id": "w3",
@@ -107,6 +127,16 @@
    "cultureNote": {
     "en": "Toddlers in Britain often learn 'ta' for 'thank you' before anything else.",
     "fa": "بچه‌های کوچک در بریتانیا اغلب اول از همه «ta» را به‌جای «thank you» یاد می‌گیرند."
+   },
+   "byChapter": {
+    "2": {
+     "text": "Thank you! Bye-bye!",
+     "fa": "ممنون! بای‌بای!"
+    },
+    "4": {
+     "text": "Thank you! I'm going to big school now. Bye!",
+     "fa": "ممنون! الان دارم می‌رم مدرسه. خداحافظ!"
+    }
    }
   }
  }

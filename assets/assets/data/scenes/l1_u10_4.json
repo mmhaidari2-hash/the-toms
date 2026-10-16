@@ -33,8 +33,8 @@
      "keywords": [
       "relaxing",
       "nothing",
-      "much",
-      "just"
+      "just",
+      "much"
      ],
      "suggestion": "Nothing much. Just relaxing.",
      "suggestionFa": "کار خاصی نه. فقط استراحت.",
@@ -77,8 +77,8 @@
     {
      "keywords": [
       "please",
-      "which",
-      "beach"
+      "beach",
+      "which"
      ],
      "suggestion": "Yes, please! Which beach?",
      "suggestionFa": "بله لطفاً! کدوم ساحل؟",
@@ -88,10 +88,10 @@
     },
     {
      "keywords": [
-      "love",
       "busy",
-      "but",
-      "i'd"
+      "love",
+      "i'd",
+      "but"
      ],
      "suggestion": "I'd love to, but I'm busy.",
      "suggestionFa": "خیلی دوست دارم، ولی سرم شلوغه.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "sunny",
-      "think"
+      "think",
+      "sunny"
      ],
      "suggestion": "It's going to be sunny, I think.",
      "suggestionFa": "فکر کنم قراره آفتابی باشه.",
@@ -192,8 +192,8 @@
     },
     {
      "keywords": [
-      "says",
       "rain",
+      "says",
       "app"
      ],
      "suggestion": "The app says it's going to rain.",

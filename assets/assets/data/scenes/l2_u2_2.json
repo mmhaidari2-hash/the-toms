@@ -1,0 +1,384 @@
+{
+ "id": "l2_u2_2",
+ "characterId": "arthur",
+ "title": "At the post office",
+ "titleFa": "در ادارهٔ پست",
+ "setting": "Finding your way · Level 1",
+ "settingFa": "پیدا کردن راه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Next, please! Morning. What can I do for you today?",
+   "translations": {
+    "fa": "نفر بعدی لطفاً! صبح بخیر. امروز چه کمکی می‌تونم بکنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "iran",
+      "send",
+      "i'd"
+     ],
+     "suggestion": "I'd like to send this parcel to Iran, please.",
+     "suggestionFa": "می‌خوام این بسته را بفرستم ایران لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "post",
+      "can"
+     ],
+     "suggestion": "Can I post this parcel, please?",
+     "suggestionFa": "می‌تونم این بسته را پست کنم لطفاً؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next",
+     "fa": "بعدی"
+    },
+    {
+     "word": "send",
+     "fa": "فرستادن"
+    },
+    {
+     "word": "parcel",
+     "fa": "بسته"
+    }
+   ],
+   "cultureNote": {
+    "en": "Queue patiently at the post office. Pushing in is one of the rudest things you can do in Britain!",
+    "fa": "در اداره پست با صبر در صف بایست. خارج از نوبت رفتن خیلی بی‌ادبی است!"
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Right you are. Pop it on the scales. Hmm, two kilos. What's inside?",
+   "translations": {
+    "fa": "باشه. بذارش روی ترازو. هوم، دو کیلو. داخلش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clothes",
+      "books",
+      "some",
+      "few"
+     ],
+     "suggestion": "Some clothes and a few books.",
+     "suggestionFa": "چندتا لباس و چندتا کتاب.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "presents",
+      "family",
+      "just"
+     ],
+     "suggestion": "Just presents for my family.",
+     "suggestionFa": "فقط هدیه برای خانواده‌ام.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scales",
+     "fa": "ترازو"
+    },
+    {
+     "word": "kilos",
+     "fa": "کیلو"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "a few",
+     "fa": "چندتا"
+    },
+    {
+     "word": "presents",
+     "fa": "هدیه‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Any liquids? Batteries? Food? I have to ask, I'm afraid.",
+   "translations": {
+    "fa": "مایعات؟ باتری؟ غذا؟ متأسفانه باید بپرسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "isn't",
+      "there",
+      "food",
+      "any"
+     ],
+     "suggestion": "No, there isn't any food.",
+     "suggestionFa": "نه، غذا نداره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "just",
+      "tea",
+      "ok"
+     ],
+     "suggestion": "Just a little tea. Is that OK?",
+     "suggestionFa": "فقط یه کم چای. اشکال داره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "liquids",
+     "fa": "مایعات"
+    },
+    {
+     "word": "batteries",
+     "fa": "باتری‌ها"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "any",
+     "fa": "هیچ (منفی/سؤال)"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "A little tea is fine. How many books are there? It affects the customs form.",
+   "translations": {
+    "fa": "یه کم چای اشکال نداره. چندتا کتاب هست؟ روی فرم گمرک اثر داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "books",
+      "three",
+      "there"
+     ],
+     "suggestion": "There are three books.",
+     "suggestionFa": "سه‌تا کتاب هست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "many",
+      "only",
+      "two"
+     ],
+     "suggestion": "Not many — only two.",
+     "suggestionFa": "زیاد نه — فقط دوتا.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how many",
+     "fa": "چندتا"
+    },
+    {
+     "word": "customs form",
+     "fa": "فرم گمرک"
+    },
+    {
+     "word": "not many",
+     "fa": "زیاد نه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "Lovely. Standard or tracked? Standard is cheaper but it takes about two weeks.",
+   "translations": {
+    "fa": "عالی. معمولی یا با رهگیری؟ معمولی ارزون‌تره ولی حدود دو هفته طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tracked",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is tracked?",
+     "suggestionFa": "با رهگیری چنده؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "standard",
+      "thanks",
+      "fine"
+     ],
+     "suggestion": "Standard is fine, thanks.",
+     "suggestionFa": "معمولی خوبه، ممنون.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "standard",
+     "fa": "معمولی"
+    },
+    {
+     "word": "tracked",
+     "fa": "با رهگیری"
+    },
+    {
+     "word": "takes",
+     "fa": "طول می‌کشد"
+    },
+    {
+     "word": "how much",
+     "fa": "چقدر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "Tracked is thirty-two pounds forty. Standard is twenty-four ninety.",
+   "translations": {
+    "fa": "با رهگیری سی‌ودو پوند و چهل. معمولی بیست‌وچهار و نود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tracked",
+      "i'll",
+      "take"
+     ],
+     "suggestion": "I'll take tracked, please.",
+     "suggestionFa": "با رهگیری را می‌گیرم لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "standard",
+      "that's",
+      "money",
+      "lot"
+     ],
+     "suggestion": "That's a lot of money! Standard, please.",
+     "suggestionFa": "پول زیادیه! معمولی لطفاً.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a lot of",
+     "fa": "مقدار زیادی"
+    },
+    {
+     "word": "take",
+     "fa": "برداشتن/انتخاب کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "No problem. Card machine's there. Need any stamps while you're here?",
+   "translations": {
+    "fa": "مشکلی نیست. دستگاه کارت اونجاست. تا اینجایی تمبر لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stamps",
+      "first",
+      "class",
+      "have"
+     ],
+     "suggestion": "Yes, can I have some first-class stamps?",
+     "suggestionFa": "آره، می‌شه چندتا تمبر درجه‌یک بدید؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "thanks",
+      "that's"
+     ],
+     "suggestion": "No, that's everything, thanks.",
+     "suggestionFa": "نه، همه‌اش همینه، ممنون.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stamps",
+     "fa": "تمبر"
+    },
+    {
+     "word": "first-class",
+     "fa": "درجه‌یک"
+    },
+    {
+     "word": "while",
+     "fa": "در حالی که"
+    }
+   ],
+   "cultureNote": {
+    "en": "British stamps are \"first class\" (faster) or \"second class\" (cheaper).",
+    "fa": "تمبرهای بریتانیا درجه‌یک (سریع‌تر) یا درجه‌دو (ارزان‌تر) هستند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "arthur",
+   "text": "Smashing. There's your receipt — keep it safe for tracking. Ta-ra, now!",
+   "translations": {
+    "fa": "عالی. اینم رسیدت — برای رهگیری نگهش دار. خدانگهدار!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

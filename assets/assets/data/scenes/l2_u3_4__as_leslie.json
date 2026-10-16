@@ -1,0 +1,175 @@
+{
+ "id": "l2_u3_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Weekend invitations",
+ "titleFa": "(در نقش Leslie) دعوت آخر هفته",
+ "setting": "Making plans · Level 1",
+ "settingFa": "برنامه‌ریزی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l2_u3_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "barbecue",
+      "o'clock",
+      "having",
+      "about"
+     ],
+     "suggestion": "We're having a barbecue on Saturday. Would you like to come? About two o'clock?",
+     "suggestionFa": "شنبه کباب‌پزی داریم. دوست داری بیای؟ حدود ساعت دو؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'd love to. Thank you!",
+   "translations": {
+    "fa": "خیلی دوست دارم. ممنون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "instead",
+      "that's",
+      "sunday",
+      "about",
+      "going"
+     ],
+     "suggestion": "Oh, that's a shame. What about Sunday lunch instead? We're going to do a roast.",
+     "suggestionFa": "آه، حیف شد. ناهار یکشنبه چطوره؟ قراره کباب یکشنبه درست کنیم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Sunday is perfect. What time?",
+   "translations": {
+    "fa": "یکشنبه عالیه. چه ساعتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "merrier",
+      "invite",
+      "friend",
+      "shall"
+     ],
+     "suggestion": "One o'clock. Shall I invite your friend from the café as well? The more the merrier!",
+     "suggestionFa": "ساعت یک. دوستت از کافه را هم دعوت کنم؟ هرچه بیشتر، شادتر!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, please! He'd love that.",
+   "translations": {
+    "fa": "آره لطفاً! خیلی خوشش میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "people",
+      "means",
+      "don't",
+      "there"
+     ],
+     "suggestion": "It means more people make it more fun. Is there anything you don't eat?",
+     "suggestionFa": "یعنی آدم‌های بیشتر یعنی خوش‌گذرونی بیشتر. چیزی هست که نخوری؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I don't eat pork.",
+   "translations": {
+    "fa": "گوشت خوک نمی‌خورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calendar",
+      "problem",
+      "o'clock",
+      "chicken",
+      "sunday"
+     ],
+     "suggestion": "No problem — we'll do chicken. Shall I write it in the calendar? Sunday, one o'clock.",
+     "suggestionFa": "مشکلی نیست — مرغ درست می‌کنیم. تو تقویم بنویسم؟ یکشنبه، ساعت یک.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, please. Shall I bring anything?",
+   "translations": {
+    "fa": "آره لطفاً. چیزی بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yourself",
+      "crumble",
+      "pudding",
+      "recipe",
+      "lovely"
+     ],
+     "suggestion": "Just bring yourself! Well, maybe a pudding. Nana makes a lovely crumble, but she won't share the recipe!",
+     "suggestionFa": "فقط خودت را بیار! خب، شاید یه دسر. نانا کرامبل خیلی خوبی درست می‌کنه، ولی دستورش را به کسی نمی‌ده!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

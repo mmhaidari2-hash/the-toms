@@ -116,8 +116,8 @@
     {
      "keywords": [
       "library",
-      "three",
-      "stops"
+      "stops",
+      "three"
      ],
      "suggestion": "The library is in three stops.",
      "suggestionFa": "کتابخونه سه ایستگاه دیگه‌ست.",
@@ -213,10 +213,10 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "that's",
-      "cheap",
-      "pence"
+      "twenty",
+      "pence",
+      "cheap"
      ],
      "suggestion": "Twenty pence? That's very cheap!",
      "suggestionFa": "بیست پنی؟ خیلی ارزونه!",
@@ -282,9 +282,9 @@
     },
     {
      "keywords": [
-      "done",
+      "mind",
       "step",
-      "mind"
+      "done"
      ],
      "suggestion": "Done. Mind the step!",
      "suggestionFa": "زدم. مواظب پله باشید!",

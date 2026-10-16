@@ -188,7 +188,17 @@
      "better": "Oops! Don't worry — I'll grab a cloth.",
      "betterFa": "اوه! نگران نباش — یه دستمال میارم."
     }
-   ]
+   ],
+   "byChapter": {
+    "2": {
+     "text": "Uh-oh! Jam fell down!",
+     "fa": "اوه‌اوه! مربا افتاد!"
+    },
+    "4": {
+     "text": "Oops! I dropped my strawberry. Sorry, Mummy!",
+     "fa": "وای! توت‌فرنگی‌ام افتاد. ببخشید مامان!"
+    }
+   }
   },
   "k4": {
    "id": "k4",
@@ -236,6 +246,16 @@
    "xray": {
     "connected": "Can I have jam on mine?",
     "ipa": "/kən aɪ hæv ˈdʒæm ɒn maɪn/"
+   },
+   "byChapter": {
+    "1": {
+     "text": "Can I have jam on mine, please? I'm six now, so I can spread it myself!",
+     "fa": "می‌شه روی مال من مربا بزنید؟ حالا شش سالمه، خودم می‌تونم بمالم!"
+    },
+    "3": {
+     "text": "Could I have jam on mine, please? Strawberry, not raspberry — I've gone off raspberry.",
+     "fa": "می‌شه روی مال من مربا بزنید؟ توت‌فرنگی، نه تمشک — دیگه تمشک دوست ندارم."
+    }
    }
   },
   "k5": {
@@ -301,6 +321,16 @@
    "xray": {
     "connected": "Is there any toast left?",
     "ipa": "/ɪz ðər ˈeni ˈtəʊs ˈleft/"
+   },
+   "byChapter": {
+    "2": {
+     "text": "Alright? Shattered — driving lesson at eight. Any toast left, or has Dad scoffed it?",
+     "fa": "چطوری؟ داغونم — ساعت هشت کلاس رانندگی دارم. نون تست مونده یا بابا همه رو خورده؟"
+    },
+    "4": {
+     "text": "Alright? Last breakfast before uni, mate. Any toast left, or has Dad scoffed it?",
+     "fa": "چطوری؟ آخرین صبحونه قبل از دانشگاه، رفیق. نون تست مونده یا بابا همه رو خورده؟"
+    }
    }
   },
   "k6": {

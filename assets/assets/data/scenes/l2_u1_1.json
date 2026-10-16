@@ -1,0 +1,359 @@
+{
+ "id": "l2_u1_1",
+ "characterId": "ryan",
+ "title": "What did you do?",
+ "titleFa": "چی کار کردی؟",
+ "setting": "Last weekend · Level 1",
+ "settingFa": "آخر هفتهٔ گذشته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Morning. You look tired. What did you do last night?",
+   "translations": {
+    "fa": "صبح بخیر. خسته به نظر میای. دیشب چی کار کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watched",
+      "stayed",
+      "film",
+      "up"
+     ],
+     "suggestion": "I watched a film and stayed up late.",
+     "suggestionFa": "یه فیلم دیدم و تا دیروقت بیدار موندم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinner",
+      "cooked",
+      "worked",
+      "then"
+     ],
+     "suggestion": "I worked late and then cooked dinner.",
+     "suggestionFa": "تا دیروقت کار کردم و بعد شام درست کردم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last night",
+     "fa": "دیشب"
+    },
+    {
+     "word": "watched",
+     "fa": "تماشا کرد"
+    },
+    {
+     "word": "stayed up",
+     "fa": "بیدار ماند"
+    },
+    {
+     "word": "worked",
+     "fa": "کار کرد"
+    },
+    {
+     "word": "cooked",
+     "fa": "پخت"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: film (UK) = movie (US); the cinema (UK) = the movies (US).",
+    "fa": "film (بریتانیا) = movie (آمریکا)."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Same. I played FIFA till two. Mum shouted at me twice! Did you enjoy your film?",
+   "translations": {
+    "fa": "منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enjoyed",
+      "funny"
+     ],
+     "suggestion": "Yes, I really enjoyed it. It was funny.",
+     "suggestionFa": "آره، خیلی لذت بردم. خنده‌دار بود.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stopped",
+      "boring"
+     ],
+     "suggestion": "Not really. It was boring, so I stopped it.",
+     "suggestionFa": "نه زیاد. خسته‌کننده بود، پس قطعش کردم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "played",
+     "fa": "بازی کرد"
+    },
+    {
+     "word": "shouted",
+     "fa": "داد زد"
+    },
+    {
+     "word": "twice",
+     "fa": "دوبار"
+    },
+    {
+     "word": "enjoyed",
+     "fa": "لذت برد"
+    },
+    {
+     "word": "boring",
+     "fa": "خسته‌کننده"
+    },
+    {
+     "word": "stopped",
+     "fa": "متوقف کرد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Fair enough. On Saturday I helped Dad in the garden. We cleaned the shed. It was minging!",
+   "translations": {
+    "fa": "منصفانه‌ست. شنبه به بابا تو باغچه کمک کردم. انباری را تمیز کردیم. حال‌به‌هم‌زن بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minging",
+      "mean"
+     ],
+     "suggestion": "What does \"minging\" mean?",
+     "suggestionFa": "«minging» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "interesting",
+      "anything",
+      "find",
+      "did"
+     ],
+     "suggestion": "Did you find anything interesting?",
+     "suggestionFa": "چیز جالبی پیدا کردید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "helped",
+     "fa": "کمک کرد"
+    },
+    {
+     "word": "cleaned",
+     "fa": "تمیز کرد"
+    },
+    {
+     "word": "shed",
+     "fa": "انباری باغ"
+    },
+    {
+     "word": "minging",
+     "fa": "کثیف/زشت (عامیانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Minging\" is British slang for very dirty or disgusting. Don't use it with your boss!",
+    "fa": "«minging» عامیانهٔ بریتانیایی برای خیلی کثیف است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "It means really dirty. We found Dad's old guitar! He played it for us. Badly.",
+   "translations": {
+    "fa": "یعنی خیلی کثیف. گیتار قدیمی بابا را پیدا کردیم! برامون زد. افتضاح."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sing",
+      "ha"
+     ],
+     "suggestion": "Ha! Did he sing too?",
+     "suggestionFa": "ها! آواز هم خوند؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "lovely",
+      "band",
+      "play"
+     ],
+     "suggestion": "That's lovely. Did he use to play in a band?",
+     "suggestionFa": "چه قشنگ. قبلاً تو گروه موسیقی می‌زد؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "guitar",
+     "fa": "گیتار"
+    },
+    {
+     "word": "badly",
+     "fa": "بد"
+    },
+    {
+     "word": "band",
+     "fa": "گروه موسیقی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "He tried! Nicola covered her ears. Then on Sunday I visited my mate Josh.",
+   "translations": {
+    "fa": "سعی کرد! نیکولا گوش‌هاش را گرفت. بعد یکشنبه رفتم پیش رفیقم جاش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "josh's"
+     ],
+     "suggestion": "What did you do at Josh's?",
+     "suggestionFa": "خونهٔ جاش چی کار کردید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "walk"
+     ],
+     "suggestion": "Did you walk there?",
+     "suggestionFa": "پیاده رفتی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tried",
+     "fa": "سعی کرد"
+    },
+    {
+     "word": "covered",
+     "fa": "پوشاند"
+    },
+    {
+     "word": "visited",
+     "fa": "دیدن کرد"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "We walked to the park and played football. Then it rained, so we watched telly at his.",
+   "translations": {
+    "fa": "پیاده رفتیم پارک و فوتبال بازی کردیم. بعد بارون اومد، پس خونه‌اش تلویزیون دیدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "typical",
+      "british",
+      "weekend"
+     ],
+     "suggestion": "Typical British weekend!",
+     "suggestionFa": "آخر هفتهٔ کاملاً بریتانیایی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "homework",
+      "finish",
+      "did"
+     ],
+     "suggestion": "Did you finish your homework too?",
+     "suggestionFa": "تکلیفت را هم تموم کردی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walked",
+     "fa": "پیاده رفت"
+    },
+    {
+     "word": "rained",
+     "fa": "باران بارید"
+    },
+    {
+     "word": "at his",
+     "fa": "خانهٔ او"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "did you finished",
+      "you finished homework"
+     ],
+     "echo": "Did you finish it?",
+     "better": "Did you finish your homework?",
+     "betterFa": "تکلیفت را تموم کردی؟"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Homework? Er… I started it. Don't tell Mum, yeah?",
+   "translations": {
+    "fa": "تکلیف؟ اِم… شروعش کردم. به مامان نگی، باشه؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

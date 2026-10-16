@@ -23,8 +23,8 @@
      "keywords": [
       "alright",
       "room's",
-      "sorry",
       "messy",
+      "sorry",
       "come"
      ],
      "suggestion": "Alright? Sorry, my room's a bit messy. Come in.",
@@ -49,8 +49,8 @@
       "football",
       "that's",
       "laptop",
-      "boots",
-      "these"
+      "these",
+      "boots"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -74,8 +74,8 @@
       "liverpool",
       "saturday",
       "posters",
-      "every",
-      "those"
+      "those",
+      "every"
      ],
      "suggestion": "Every Saturday. Those posters on the wall are my team. Liverpool!",
      "suggestionFa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!",
@@ -98,9 +98,9 @@
      "keywords": [
       "that's",
       "salah",
-      "help",
       "yeah",
-      "says"
+      "tidy",
+      "help"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -125,7 +125,7 @@
       "shirts",
       "drawer",
       "these",
-      "jeans"
+      "those"
      ],
      "suggestion": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
      "suggestionFa": "اون تی‌شرت‌ها می‌رن توی کشو. این شلوار جین‌ها توی کمد.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "shelf",
       "books",
       "gross",
-      "week",
-      "last"
+      "shelf",
+      "from",
+      "week"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
      "suggestionFa": "کتاب‌ها روی قفسه. این ماگ هم مال هفتهٔ پیشه. چندش!",
@@ -173,9 +173,9 @@
      "keywords": [
       "enough",
       "floor",
-      "look",
       "fair",
-      "can"
+      "look",
+      "see"
      ],
      "suggestion": "Ha, fair enough. Look — the floor! I can see the floor!",
      "suggestionFa": "ها، حق داری. ببین — کف اتاق! کف را می‌بینم!",

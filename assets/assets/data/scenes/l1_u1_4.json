@@ -141,9 +141,9 @@
     },
     {
      "keywords": [
-      "about",
       "worry",
-      "don't"
+      "don't",
+      "about"
      ],
      "suggestion": "Don't worry about it.",
      "suggestionFa": "نگرانش نباش.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "please",
+      "nicola",
       "say"
      ],
      "suggestion": "Nicola, say please!",
@@ -241,8 +241,8 @@
     },
     {
      "keywords": [
-      "nicola",
-      "polite"
+      "polite",
+      "nicola"
      ],
      "suggestion": "Very polite, Nicola!",
      "suggestionFa": "خیلی مؤدبانه، نیکولا!",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "past",
-      "get",
-      "can"
+      "can",
+      "get"
      ],
      "suggestion": "Excuse me, can I get past?",
      "suggestionFa": "ببخشید، می‌شه رد شم؟",
@@ -359,8 +359,8 @@
     {
      "keywords": [
       "cheers",
-      "right",
-      "means"
+      "means",
+      "right"
      ],
      "suggestion": "Cheers means thank you, right?",
      "suggestionFa": "cheers یعنی ممنون، درسته؟",
