@@ -23,9 +23,9 @@
      "keywords": [
       "football",
       "player",
-      "come",
+      "more",
       "play",
-      "more"
+      "come"
      ],
      "suggestion": "Can you play football? Come on, we need one more player.",
      "suggestionFa": "فوتبال بلدی؟ بیا، یه بازیکن دیگه لازم داریم.",
@@ -50,7 +50,7 @@
       "keeper",
       "nice",
       "goal",
-      "can"
+      "our"
      ],
      "suggestion": "Nice. Can you go in goal? Our keeper is rubbish.",
      "suggestionFa": "عالی. می‌تونی دروازه‌بان باشی؟ دروازه‌بانمون افتضاحه.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "stress",
-      "chips",
       "can't",
-      "many",
-      "fast"
+      "chips",
+      "fast",
+      "many"
      ],
      "suggestion": "Ha, no stress. Can you run fast? I can't — too many chips!",
      "suggestionFa": "ها، استرس نداره. سریع می‌تونی بدوی؟ من نمی‌تونم — زیادی چیپس می‌خورم!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "bonjour",
-      "that's",
+      "english",
       "french",
+      "that's",
       "speak"
      ],
      "suggestion": "That's sick! I can only speak English. And a bit of French. \"Bonjour!\"",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "really",
-      "score",
-      "great",
       "means",
+      "great",
+      "score",
       "peng"
      ],
      "suggestion": "Deal! \"Sick\" means great, \"peng\" means really nice. Now, can you score?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "definitely",
-      "same",
-      "week",
       "play",
-      "time"
+      "week",
+      "next",
+      "same"
      ],
      "suggestion": "Get in! What a goal! You can definitely play. Same time next week?",
      "suggestionFa": "ایول! چه گلی! قطعاً بلدی بازی کنی. هفتهٔ بعد همین ساعت؟",

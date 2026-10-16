@@ -157,6 +157,13 @@ class ProgressController extends Notifier<UserProgress> {
     _save();
   }
 
+  // Role switching: by default you return to being the guest after a role story; this keeps the role.
+  bool get keepRole => state.missionsDone['pref:keepRole'] == 'on';
+  void setKeepRole(bool on) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:keepRole': on ? 'on' : 'off'});
+    _save();
+  }
+
   // Ambient motion preference (optional; default on). Stored in missionsDone under 'pref:motion'.
   bool get motionOn => state.missionsDone['pref:motion'] != 'off';
   void setMotion(bool on) {

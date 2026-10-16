@@ -329,4 +329,13 @@ void main() {
     }
     expect(langOf('ur').rtl && langOf('ar').rtl, isTrue);
   });
+
+  test('chapter-dependent lines: latest variant at or before the chapter, replies unchanged', () {
+    final n = c.scenes['ep1_morning_table']!.nodes['k4']!;
+    expect(n.atChapter(0).text, n.text);
+    expect(n.atChapter(1).text, contains('six'));
+    expect(n.atChapter(2).text, contains('six'));
+    expect(n.atChapter(4).text, contains('raspberry'));
+    expect(n.atChapter(4).branches, n.branches);
+  });
 }

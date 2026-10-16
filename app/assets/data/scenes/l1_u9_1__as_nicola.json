@@ -22,10 +22,10 @@
     {
      "keywords": [
       "shoulders",
-      "knees",
-      "touch",
       "let's",
-      "toes"
+      "touch",
+      "knees",
+      "sing"
      ],
      "suggestion": "Let's sing! Head, shoulders, knees and toes! Touch your head!",
      "suggestionFa": "بیا آواز بخونیم! سر، شونه، زانو و انگشت پا! سرت را لمس کن!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "fingers",
+      "have",
       "i've",
       "many",
-      "have",
-      "how"
+      "got"
      ],
      "suggestion": "Ha ha! How many fingers have you got? I've got ten!",
      "suggestionFa": "ها ها! چندتا انگشت داری؟ من ده‌تا دارم!",
@@ -100,7 +100,7 @@
       "tickle",
       "tummy",
       "look",
-      "big"
+      "got"
      ],
      "suggestion": "William's got a big tummy. Look! Tickle tickle!",
      "suggestionFa": "ویلیام یه شکم گنده داره. ببین! قلقلک قلقلک!",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "banged",
-      "hurts",
       "table",
+      "hurts",
       "knee",
       "ow"
      ],
@@ -209,8 +209,8 @@
      "keywords": [
       "dinosaur",
       "plaster",
-      "here",
       "have",
+      "here",
       "bit"
      ],
      "suggestion": "Here. It's a bit red. Can I have a plaster with a dinosaur on it?",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "shoulders",
-      "dinosaur",
       "plasters",
+      "dinosaur",
       "better",
       "magic"
      ],

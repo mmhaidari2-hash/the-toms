@@ -30,7 +30,7 @@
       "coffee",
       "brewed",
       "cuppa",
-      "pot's"
+      "d'you"
      ],
      "suggestion": "Morning! Pot's just brewed. D'you want a cuppa, or are you a coffee sort?",
      "suggestionFa": "صبح بخیر! قوری تازه دم کشیده. چای می‌خوری یا اهل قهوه‌ای؟",
@@ -51,8 +51,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -163,8 +163,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -275,8 +275,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -379,8 +379,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -487,8 +487,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -596,10 +596,10 @@
     {
      "keywords": [
       "kettle",
-      "right",
       "waits",
-      "warm",
-      "keep"
+      "right",
+      "keep",
+      "warm"
      ],
      "suggestion": "Right, I'm off — the 38 waits for no man. Keep the kettle warm for me, eh?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ منتظر هیچ‌کس نمی‌مونه. کتری رو برام گرم نگه دار، ها؟",

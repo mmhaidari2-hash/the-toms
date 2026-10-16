@@ -24,8 +24,8 @@
       "colours",
       "colour",
       "learn",
-      "hello",
-      "let's"
+      "let's",
+      "hello"
      ],
      "suggestion": "Hello! Let's learn colours. What colour is the sofa?",
      "suggestionFa": "سلام! بیا رنگ‌ها را یاد بگیریم. مبل چه رنگی است؟",
@@ -125,7 +125,7 @@
       "evenings",
       "about",
       "where",
-      "look"
+      "like"
      ],
      "suggestion": "Tell me something about where you grew up. What did evenings look like?",
      "suggestionFa": "یه چیزی از جایی که بزرگ شدی بگو. عصرها چطور بود؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "biscuit",
-      "sounds",
       "lovely",
-      "before",
-      "phones"
+      "phones",
+      "sounds",
+      "before"
      ],
      "suggestion": "That sounds lovely. We used to be like that before phones took over! Fancy a biscuit?",
      "suggestionFa": "چه قشنگ. ما هم قبل از این‌که گوشی‌ها همه‌چیز را بگیرند همین‌طور بودیم! بیسکویت می‌خوای؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "digestive",
       "dunking",
+      "form",
       "says",
-      "dunk",
-      "form"
+      "dunk"
      ],
      "suggestion": "Do you dunk? Tom says dunking a digestive is an art form.",
      "suggestionFa": "بیسکویت را توی چای می‌زنی؟ تام می‌گه زدن دایجستیو توی چای هنره.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "seconds",
       "perfect",
-      "night",
-      "there",
-      "right"
+      "seconds",
+      "three",
+      "right",
+      "night"
      ],
      "suggestion": "Three seconds, no more. There — perfect. Right, I'll let you rest. Night, love.",
      "suggestionFa": "سه ثانیه، نه بیشتر. ببین — عالی. خب، می‌ذارم استراحت کنی. شب بخیر عزیزم.",

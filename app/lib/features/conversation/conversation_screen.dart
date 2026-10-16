@@ -141,6 +141,7 @@ class _ChatState extends ConsumerState<_Chat> {
   @override
   void initState() {
     super.initState();
+    _ctrl; // capture the notifier while ref is valid
     WidgetsBinding.instance.addPostFrameCallback((_) => _open());
   }
 
@@ -164,8 +165,15 @@ class _ChatState extends ConsumerState<_Chat> {
     if (mounted) _say(widget.s.nodes[widget.s.start]!, first: true);
   }
 
+  late final _ctrl = ref.read(progressProvider.notifier);
+
   @override
   void dispose() {
+    // Auto-reset to the guest after a finished role story (unless the learner chose to keep the role).
+    if (_ended && widget.s.playAs != null && !_ctrl.keepRole) {
+      final ctrl = _ctrl;
+      Future.microtask(() => ctrl.setRole('mehdi'));
+    }
     _input.dispose();
     _focus.dispose();
     Voice.stop();
@@ -190,7 +198,8 @@ class _ChatState extends ConsumerState<_Chat> {
     Voice.say(speaker, text, rate: _autoRate, shown: _t(text));
   }
 
-  Future<void> _say(DialogueNode n, {bool first = false}) async {
+  Future<void> _say(DialogueNode n0, {bool first = false}) async {
+    final n = n0.atChapter(_ctrl.chapterIndex(widget.c));
     setState(() => _typing = true);
     await Future.delayed(Duration(milliseconds: first ? 450 : 600 + n.text.length * 10));
     if (!mounted) return;

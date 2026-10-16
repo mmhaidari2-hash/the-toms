@@ -48,7 +48,7 @@ List<List<String>> spoken(ContentBundle c) {
     out.add([sp, t]);
   }
   for (final s in c.scenes.values) {
-    for (final n in s.nodes.values) {
+    for (final n in [for (final n0 in s.nodes.values) ...[n0, for (final k in n0.byChapter.keys) n0.atChapter(k)]]) {
       add(n.speaker, n.text);
       add(n.speaker, n.coolReply);
       add(n.speaker, ConnectedSpeech.of(n).connected);

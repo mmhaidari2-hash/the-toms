@@ -34,7 +34,11 @@ class LessonScreen extends ConsumerWidget {
                 fit: StackFit.expand,
                 children: [
                   if (img != null) Image.asset(img, fit: BoxFit.cover),
-                  const DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x66000000), Color(0x00000000), Color(0xF2FBF7F0)], stops: [0, .45, 1]))),
+                  const DecoratedBox(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0x66000000), Color(0x00000000), Color(0xF2FBF7F0)], stops: [0, .45, 1]),
+                    ),
+                  ),
                   Positioned(
                     top: pad.top + 6,
                     left: 8,
@@ -54,7 +58,10 @@ class LessonScreen extends ConsumerWidget {
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                           decoration: BoxDecoration(color: BL.cream.withValues(alpha: .92), borderRadius: BorderRadius.circular(99)),
-                          child: Text('${u.title.toUpperCase()}  ·  LESSON ${u.lessons.indexOf(l) + 1}', style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+                          child: Text(
+                            '${u.title.toUpperCase()}  ·  LESSON ${u.lessons.indexOf(l) + 1}',
+                            style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red),
+                          ),
                         ),
                         const SizedBox(height: 4),
                         Text(l.title, style: BL.display(28)),
@@ -95,12 +102,21 @@ class LessonScreen extends ConsumerWidget {
                           onTap: () => Voice.say('narrator', w.word),
                           child: Container(
                             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                            decoration: BoxDecoration(color: BL.cream, borderRadius: BorderRadius.circular(99), border: Border.all(color: BL.mist)),
+                            decoration: BoxDecoration(
+                              color: BL.cream,
+                              borderRadius: BorderRadius.circular(99),
+                              border: Border.all(color: BL.mist),
+                            ),
                             child: Text.rich(
-                              TextSpan(children: [
-                                TextSpan(text: w.word, style: const TextStyle(fontWeight: FontWeight.w700, color: BL.ink)),
-                                TextSpan(text: '  ${w.fa}', style: BL.fa(12)),
-                              ]),
+                              TextSpan(
+                                children: [
+                                  TextSpan(
+                                    text: w.word,
+                                    style: const TextStyle(fontWeight: FontWeight.w700, color: BL.ink),
+                                  ),
+                                  TextSpan(text: '  ${w.fa}', style: BL.fa(12)),
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -108,13 +124,7 @@ class LessonScreen extends ConsumerWidget {
                   ),
                 ),
                 const SizedBox(height: 18),
-                _Step(
-                  n: 1,
-                  title: 'Story',
-                  sub: '${l.turns} turns with ${c.character(l.lead).name}',
-                  done: storyDone,
-                  onTap: () => context.push('/chat/${l.sceneIds.first}'),
-                ),
+                _Step(n: 1, title: 'Story', sub: '${l.turns} turns with ${c.character(l.lead).name}', done: storyDone, onTap: () => context.push('/chat/${l.sceneIds.first}')),
                 const SizedBox(height: 10),
                 _Step(
                   n: 2,
@@ -128,30 +138,55 @@ class LessonScreen extends ConsumerWidget {
                   _Card(
                     icon: Icons.theater_comedy_rounded,
                     title: 'Swap roles: play this story as…',
-                    child: Wrap(
-                      spacing: 8,
-                      runSpacing: 8,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        for (final r in ['mehdi', ...c.variantsOf(l.sceneIds.first).keys])
-                          if (c.characterOrNull(r) != null)
-                            Pressable(
-                              onTap: () {
-                                ref.read(progressProvider.notifier).setRole(r);
-                                context.push('/chat/${l.sceneIds.first}');
-                              },
-                              child: Container(
-                                padding: const EdgeInsets.fromLTRB(4, 4, 12, 4),
-                                decoration: BoxDecoration(color: ref.watch(progressProvider).role == r ? BL.navy : BL.mist, borderRadius: BorderRadius.circular(99)),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Avatar(c.character(r), size: 26, ring: false),
-                                    const SizedBox(width: 6),
-                                    Text(r == 'mehdi' ? 'Me (guest)' : c.character(r).name, style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13, color: ref.watch(progressProvider).role == r ? Colors.white : BL.ink)),
-                                  ],
+                        Wrap(
+                          spacing: 8,
+                          runSpacing: 8,
+                          children: [
+                            for (final r in ['mehdi', ...c.variantsOf(l.sceneIds.first).keys])
+                              if (c.characterOrNull(r) != null)
+                                Pressable(
+                                  onTap: () {
+                                    ref.read(progressProvider.notifier).setRole(r);
+                                    context.push('/chat/${l.sceneIds.first}');
+                                  },
+                                  child: Container(
+                                    padding: const EdgeInsets.fromLTRB(4, 4, 12, 4),
+                                    decoration: BoxDecoration(color: ref.watch(progressProvider).role == r ? BL.navy : BL.mist, borderRadius: BorderRadius.circular(99)),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        Avatar(c.character(r), size: 26, ring: false),
+                                        const SizedBox(width: 6),
+                                        Text(
+                                          r == 'mehdi' ? 'Me (guest)' : c.character(r).name,
+                                          style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13, color: ref.watch(progressProvider).role == r ? Colors.white : BL.ink),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
                                 ),
+                          ],
+                        ),
+                        const SizedBox(height: 10),
+                        Row(
+                          children: [
+                            SizedBox(
+                              height: 28,
+                              child: Switch.adaptive(
+                                value: ref.watch(progressProvider.notifier).keepRole,
+                                activeThumbColor: BL.green,
+                                onChanged: (v) => ref.read(progressProvider.notifier).setKeepRole(v),
                               ),
                             ),
+                            const SizedBox(width: 6),
+                            const Expanded(
+                              child: Text('Stay in this role for other stories', style: TextStyle(fontSize: 12.5, color: BL.muted)),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                   ),
@@ -183,7 +218,10 @@ class _Card extends StatelessWidget {
           children: [
             Icon(icon, size: 17, color: BL.green),
             const SizedBox(width: 6),
-            Text(title, style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: BL.green, letterSpacing: .3)),
+            Text(
+              title,
+              style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: BL.green, letterSpacing: .3),
+            ),
           ],
         ),
         const SizedBox(height: 10),
@@ -214,7 +252,12 @@ class _Step extends StatelessWidget {
           CircleAvatar(
             radius: 22,
             backgroundColor: done ? BL.gold : Colors.white12,
-            child: done ? const Icon(Icons.check_rounded, color: BL.ink) : Text('$n', style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 17)),
+            child: done
+                ? const Icon(Icons.check_rounded, color: BL.ink)
+                : Text(
+                    '$n',
+                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 17),
+                  ),
           ),
           const SizedBox(width: 14),
           Expanded(

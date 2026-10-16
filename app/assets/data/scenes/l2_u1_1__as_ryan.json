@@ -1,0 +1,200 @@
+{
+ "id": "l2_u1_1__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) What did you do?",
+ "titleFa": "(در نقش Ryan) چی کار کردی؟",
+ "setting": "Last weekend · Level 1",
+ "settingFa": "آخر هفتهٔ گذشته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l2_u1_1",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "tired",
+      "night",
+      "last",
+      "look"
+     ],
+     "suggestion": "Morning. You look tired. What did you do last night?",
+     "suggestionFa": "صبح بخیر. خسته به نظر میای. دیشب چی کار کردی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I watched a film and stayed up late.",
+   "translations": {
+    "fa": "یه فیلم دیدم و تا دیروقت بیدار موندم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouted",
+      "played",
+      "enjoy",
+      "twice",
+      "till"
+     ],
+     "suggestion": "Same. I played FIFA till two. Mum shouted at me twice! Did you enjoy your film?",
+     "suggestionFa": "منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, I really enjoyed it. It was funny.",
+   "translations": {
+    "fa": "آره، خیلی لذت بردم. خنده‌دار بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "cleaned",
+      "minging",
+      "garden",
+      "helped"
+     ],
+     "suggestion": "Fair enough. On Saturday I helped Dad in the garden. We cleaned the shed. It was minging!",
+     "suggestionFa": "منصفانه‌ست. شنبه به بابا تو باغچه کمک کردم. انباری را تمیز کردیم. حال‌به‌هم‌زن بود!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What does \"minging\" mean?",
+   "translations": {
+    "fa": "«minging» یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "guitar",
+      "played",
+      "really",
+      "dad's",
+      "dirty"
+     ],
+     "suggestion": "It means really dirty. We found Dad's old guitar! He played it for us. Badly.",
+     "suggestionFa": "یعنی خیلی کثیف. گیتار قدیمی بابا را پیدا کردیم! برامون زد. افتضاح.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ha! Did he sing too?",
+   "translations": {
+    "fa": "ها! آواز هم خوند؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "covered",
+      "visited",
+      "nicola",
+      "sunday",
+      "tried"
+     ],
+     "suggestion": "He tried! Nicola covered her ears. Then on Sunday I visited my mate Josh.",
+     "suggestionFa": "سعی کرد! نیکولا گوش‌هاش را گرفت. بعد یکشنبه رفتم پیش رفیقم جاش.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "What did you do at Josh's?",
+   "translations": {
+    "fa": "خونهٔ جاش چی کار کردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "watched",
+      "played",
+      "walked",
+      "rained"
+     ],
+     "suggestion": "We walked to the park and played football. Then it rained, so we watched telly at his.",
+     "suggestionFa": "پیاده رفتیم پارک و فوتبال بازی کردیم. بعد بارون اومد، پس خونه‌اش تلویزیون دیدیم.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Typical British weekend!",
+   "translations": {
+    "fa": "آخر هفتهٔ کاملاً بریتانیایی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homework",
+      "started",
+      "don't",
+      "yeah",
+      "tell"
+     ],
+     "suggestion": "Homework? Er… I started it. Don't tell Mum, yeah?",
+     "suggestionFa": "تکلیف؟ اِم… شروعش کردم. به مامان نگی، باشه؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

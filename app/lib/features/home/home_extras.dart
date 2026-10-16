@@ -443,10 +443,10 @@ class CourseCard extends ConsumerWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('LEVEL 1 COURSE  ·  A0 → A1', style: TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+                  Text('LEVEL ${next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level} COURSE  ·  ${Course.levelInfo[next == null ? c.course.units.last.level : c.course.unitOf(next.id)!.level]!.$1}', style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
                   const SizedBox(height: 2),
                   Text(next == null ? 'All lessons done!' : 'Next: ${next.title}', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
-                  Text('${c.course.units.length} units · ${all.length} lessons', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+                  Text('${c.course.units.map((u) => u.level).toSet().length} levels · ${c.course.units.length} units · ${all.length} lessons', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
                 ],
               ),
             ),

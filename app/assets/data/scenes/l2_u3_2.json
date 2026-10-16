@@ -1,0 +1,349 @@
+{
+ "id": "l2_u3_2",
+ "characterId": "hughes",
+ "title": "Booking the dentist",
+ "titleFa": "گرفتن وقت دندان‌پزشک",
+ "setting": "Making plans · Level 1",
+ "settingFa": "برنامه‌ریزی",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "hughes",
+   "text": "Good morning, Ashby Dental Practice, Mrs Hughes speaking. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، مطب دندان‌پزشکی اشبی، هیوز هستم. چه کمکی از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appointment",
+      "please",
+      "hello",
+      "like"
+     ],
+     "suggestion": "Hello, I'd like to book an appointment, please.",
+     "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dentist",
+      "could",
+      "week",
+      "see"
+     ],
+     "suggestion": "Hi, could I see a dentist this week?",
+     "suggestionFa": "سلام، می‌تونم این هفته دندون‌پزشک را ببینم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dental practice",
+     "fa": "مطب دندان‌پزشکی"
+    },
+    {
+     "word": "speaking",
+     "fa": "(پشت تلفن) هستم"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    },
+    {
+     "word": "appointment",
+     "fa": "وقت/قرار"
+    }
+   ],
+   "cultureNote": {
+    "en": "On the phone Brits say \"Mrs Hughes speaking\" or \"It's Mehdi here\" — not \"I am Mehdi\".",
+    "fa": "پشت تلفن می‌گویند «Mehdi here» نه «I am Mehdi»."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "hughes",
+   "text": "Of course. Are you registered with us? Is it a check-up or are you in pain?",
+   "translations": {
+    "fa": "حتماً. تو مطب ما ثبت‌نام کردید؟ معاینهٔ معمولیه یا درد دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "check",
+      "just",
+      "up"
+     ],
+     "suggestion": "I'm registered. It's just a check-up.",
+     "suggestionFa": "ثبت‌نام کردم. فقط معاینه‌ست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "toothache",
+      "i've",
+      "got",
+      "yet"
+     ],
+     "suggestion": "I'm not registered yet. I've got toothache.",
+     "suggestionFa": "هنوز ثبت‌نام نکردم. دندون‌درد دارم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام شده"
+    },
+    {
+     "word": "check-up",
+     "fa": "معاینه"
+    },
+    {
+     "word": "in pain",
+     "fa": "درد داشتن"
+    },
+    {
+     "word": "toothache",
+     "fa": "دندان‌درد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "hughes",
+   "text": "Right. Could I take your name and date of birth, please?",
+   "translations": {
+    "fa": "خب. می‌تونم اسم و تاریخ تولدتون را داشته باشم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rahimi",
+      "third",
+      "mehdi",
+      "may"
+     ],
+     "suggestion": "It's Mehdi Rahimi, the third of May, 1996.",
+     "suggestionFa": "مهدی رحیمی، سوم مه ۱۹۹۶.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surname",
+      "shall",
+      "spell",
+      "sure"
+     ],
+     "suggestion": "Sure. Shall I spell my surname?",
+     "suggestionFa": "حتماً. فامیلم را هجی کنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    },
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "hughes",
+   "text": "Yes, please spell it. Lovely, thank you. I've got Thursday at ten past two, or Friday morning.",
+   "translations": {
+    "fa": "آره لطفاً هجی کنید. عالی، ممنون. پنجشنبه دو و ده دقیقه دارم، یا جمعه صبح."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thursday",
+      "perfect",
+      "past",
+      "two"
+     ],
+     "suggestion": "Thursday at ten past two is perfect.",
+     "suggestionFa": "پنجشنبه دو و ده دقیقه عالیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "please",
+      "friday",
+      "could"
+     ],
+     "suggestion": "Could I have Friday morning, please?",
+     "suggestionFa": "می‌شه جمعه صبح باشه لطفاً؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ten past two",
+     "fa": "دو و ده دقیقه"
+    },
+    {
+     "word": "morning",
+     "fa": "صبح"
+    },
+    {
+     "word": "perfect",
+     "fa": "عالی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "hughes",
+   "text": "That's booked. Can I take a mobile number? We'll send you a text reminder.",
+   "translations": {
+    "fa": "رزرو شد. شمارهٔ موبایلتون را بدید؟ یه پیامک یادآوری می‌فرستیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "double",
+      "seven",
+      "nine",
+      "two"
+     ],
+     "suggestion": "It's oh-seven-seven-double-oh, nine-one-two…",
+     "suggestionFa": "صفر-هفت-هفت-دو صفر، نه-یک-دو…",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "could",
+      "email"
+     ],
+     "suggestion": "Could you email me instead?",
+     "suggestionFa": "می‌شه به جاش ایمیل بزنید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "text",
+     "fa": "پیامک"
+    },
+    {
+     "word": "reminder",
+     "fa": "یادآوری"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    },
+    {
+     "word": "email",
+     "fa": "ایمیل"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "hughes",
+   "text": "No problem. Please arrive ten minutes early. And if you can't come, please ring us 24 hours before.",
+   "translations": {
+    "fa": "مشکلی نیست. لطفاً ده دقیقه زودتر بیاید. اگه نمی‌تونید بیاید، ۲۴ ساعت قبل زنگ بزنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "charge",
+      "there",
+      "miss",
+      "will"
+     ],
+     "suggestion": "I will. Is there a charge if I miss it?",
+     "suggestionFa": "باشه. اگه نیام هزینه داره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "early",
+      "thank",
+      "much"
+     ],
+     "suggestion": "Ten minutes early. Thank you very much.",
+     "suggestionFa": "ده دقیقه زودتر. خیلی ممنون.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arrive",
+     "fa": "رسیدن"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "charge",
+     "fa": "هزینه"
+    },
+    {
+     "word": "miss",
+     "fa": "از دست دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "NHS dental treatment isn't free for most adults — there are fixed price bands. Missed appointments can be charged.",
+    "fa": "درمان دندان NHS برای بیشتر بزرگسالان رایگان نیست."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "hughes",
+   "text": "There may be a small charge, yes. Lovely. See you on the day. Goodbye now!",
+   "translations": {
+    "fa": "ممکنه هزینهٔ کمی داشته باشه، بله. عالی. روز موعود می‌بینیمتون. خداحافظ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

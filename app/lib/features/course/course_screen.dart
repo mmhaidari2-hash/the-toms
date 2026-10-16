@@ -33,8 +33,8 @@ class CourseScreen extends ConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('LEVEL 1  ·  A0 → A1', style: const TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red)),
-                        Text('Life with the Toms', style: BL.display(26)),
+                        Text('THE COURSE  ·  ${course.units.map((u) => u.level).toSet().length} LEVELS', style: const TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red)),
+                        Text('British life, step by step', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(24)),
                       ],
                     ),
                   ),
@@ -53,6 +53,7 @@ class CourseScreen extends ConsumerWidget {
             ),
           ),
           for (var i = 0; i < course.units.length; i++) ...[
+            if (i == 0 || course.units[i - 1].level != course.units[i].level) SliverToBoxAdapter(child: _LevelHeader(level: course.units[i].level)),
             SliverPadding(padding: const EdgeInsets.fromLTRB(20, 22, 20, 0), sliver: SliverToBoxAdapter(child: FadeSlideIn(delayMs: 40 * i, child: _UnitBanner(c: c, u: course.units[i], index: i, open: ctrl.unitOpen(course, i))))),
             SliverToBoxAdapter(child: _Stones(c: c, u: course.units[i])),
           ],
@@ -90,7 +91,7 @@ class _UnitBanner extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    Text('UNIT ${index + 1}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.5, fontWeight: FontWeight.w800)),
+                    Text('UNIT ${c.course.numberInLevel(u)}', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.5, fontWeight: FontWeight.w800)),
                     if (!open) ...[const SizedBox(width: 6), const Icon(Icons.lock_rounded, size: 13, color: Color(0xFFE8C987))],
                   ],
                 ),
@@ -199,6 +200,38 @@ class _StoneState extends State<_Stone> with SingleTickerProviderStateMixin {
           if (widget.check) Icon(widget.done ? Icons.emoji_events_rounded : Icons.star_rounded, color: Colors.white, size: 32) else Opacity(opacity: widget.open ? 1 : .45, child: widget.child),
           if (widget.done && !widget.check) const Positioned(right: 0, bottom: 0, child: CircleAvatar(radius: 11, backgroundColor: BL.green, child: Icon(Icons.check_rounded, size: 14, color: Colors.white))),
           if (!widget.open) const Positioned(right: 0, bottom: 0, child: CircleAvatar(radius: 11, backgroundColor: BL.muted, child: Icon(Icons.lock_rounded, size: 12, color: Colors.white))),
+        ],
+      ),
+    );
+  }
+}
+
+
+class _LevelHeader extends StatelessWidget {
+  final int level;
+  const _LevelHeader({required this.level});
+  @override
+  Widget build(BuildContext context) {
+    final info = Course.levelInfo[level];
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 30, 20, 0),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+            decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
+            child: Text('LEVEL $level  ·  ${info?.$1 ?? ''}', style: const TextStyle(color: Colors.white, fontSize: 11, letterSpacing: 1.3, fontWeight: FontWeight.w800)),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(info?.$2 ?? '', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19)),
+                Text(info?.$3 ?? '', textDirection: TextDirection.rtl, style: BL.fa(12)),
+              ],
+            ),
+          ),
         ],
       ),
     );

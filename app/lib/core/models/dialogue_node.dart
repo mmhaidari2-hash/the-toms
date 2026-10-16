@@ -63,7 +63,10 @@ class DialogueNode {
   /// Non-verbal surprise event the learner must react to (e.g. William spills jam).
   final CultureNote? event;
   final List<RecastRule> recasts;
-  const DialogueNode({this.xray, this.coolReply, this.event, this.recasts = const [], required this.id, required this.speaker, required this.text, required this.translations, required this.branches, required this.newWords, this.cultureNote, this.audioBySpeed = const {}, this.ghostHint});
+
+  /// Character growth: the line as said in a later family chapter (index -> (en, fa)). Same replies.
+  final Map<int, (String, String)> byChapter;
+  const DialogueNode({this.byChapter = const {}, this.xray, this.coolReply, this.event, this.recasts = const [], required this.id, required this.speaker, required this.text, required this.translations, required this.branches, required this.newWords, this.cultureNote, this.audioBySpeed = const {}, this.ghostHint});
   bool get isEnd => branches.isEmpty;
 
   /// All keywords across branches (for UI / tests).
@@ -88,6 +91,18 @@ class DialogueNode {
       coolReply: j['coolReply'],
       event: j['event'] == null ? null : CultureNote(j['event']['en'], j['event']['fa']),
       recasts: [for (final r in j['recasts'] ?? const []) RecastRule.fromJson(r)],
+      byChapter: {for (final e in ((j['byChapter'] ?? const <String, dynamic>{}) as Map<String, dynamic>).entries) int.parse(e.key): (e.value['text'] as String, (e.value['fa'] ?? '') as String)},
+    );
+  }
+
+  /// This node as spoken in family chapter [ch]: the latest variant at or before it (else the original).
+  DialogueNode atChapter(int ch) {
+    final keys = byChapter.keys.where((k) => k <= ch).toList()..sort();
+    if (keys.isEmpty) return this;
+    final (t, fa) = byChapter[keys.last]!;
+    return DialogueNode(
+      id: id, speaker: speaker, text: t, translations: {...translations, 'fa': fa}, branches: branches, newWords: newWords,
+      cultureNote: cultureNote, audioBySpeed: const {}, ghostHint: ghostHint, coolReply: coolReply, event: event, recasts: recasts, byChapter: byChapter,
     );
   }
 }
