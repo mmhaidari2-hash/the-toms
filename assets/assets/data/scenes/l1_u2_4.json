@@ -1,0 +1,408 @@
+{
+ "id": "l1_u2_4",
+ "characterId": "weda",
+ "title": "Cooking with Nana",
+ "titleFa": "آشپزی با مادربزرگ",
+ "setting": "Breakfast time · Level 1",
+ "settingFa": "وقت صبحانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A0",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Let's make scones, dear. Can you get the flour? It's in the cupboard.",
+   "translations": {
+    "fa": "بیا اسکون درست کنیم عزیزم. آرد را میاری؟ توی کابینته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "flour"
+     ],
+     "suggestion": "Here's the flour.",
+     "suggestionFa": "اینم آرد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cupboard",
+      "which"
+     ],
+     "suggestion": "Which cupboard is it in?",
+     "suggestionFa": "توی کدوم کابینته؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flour",
+     "fa": "آرد"
+    },
+    {
+     "word": "cupboard",
+     "fa": "کابینت/گنجه"
+    },
+    {
+     "word": "scone",
+     "fa": "اسکون"
+    }
+   ],
+   "cultureNote": {
+    "en": "Scones are small British cakes, eaten with jam and cream at tea time.",
+    "fa": "اسکون کیک کوچک بریتانیایی است که با مربا و خامه خورده می‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "The one by the fridge. Now we need butter, sugar and milk.",
+   "translations": {
+    "fa": "همونی که کنار یخچاله. حالا کره، شکر و شیر لازم داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridge",
+      "milk"
+     ],
+     "suggestion": "The milk is in the fridge.",
+     "suggestionFa": "شیر توی یخچاله.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter",
+      "sugar",
+      "i've",
+      "got"
+     ],
+     "suggestion": "I've got the butter and sugar.",
+     "suggestionFa": "کره و شکر دستمه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fridge",
+     "fa": "یخچال"
+    },
+    {
+     "word": "need",
+     "fa": "لازم داشتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Lovely. Now, a bowl and a big spoon, please.",
+   "translations": {
+    "fa": "عالی. حالا یه کاسه و یه قاشق بزرگ، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "bowl"
+     ],
+     "suggestion": "Here's a big bowl.",
+     "suggestionFa": "این یه کاسهٔ بزرگ.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "spoon"
+     ],
+     "suggestion": "Is this spoon big enough?",
+     "suggestionFa": "این قاشق به اندازهٔ کافی بزرگه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bowl",
+     "fa": "کاسه"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "small",
+     "fa": "کوچک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Perfect. Mix it, mix it. Not too fast! Is it sticky?",
+   "translations": {
+    "fa": "عالی. همش بزن، همش بزن. نه خیلی تند! چسبناکه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticky"
+     ],
+     "suggestion": "Yes, it's very sticky!",
+     "suggestionFa": "آره، خیلی چسبناکه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quite",
+      "dry"
+     ],
+     "suggestion": "No, it's quite dry.",
+     "suggestionFa": "نه، نسبتاً خشکه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mix",
+     "fa": "مخلوط کردن"
+    },
+    {
+     "word": "sticky",
+     "fa": "چسبناک"
+    },
+    {
+     "word": "dry",
+     "fa": "خشک"
+    },
+    {
+     "word": "fast",
+     "fa": "تند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Add a little more milk. Good! Now we cut circles.",
+   "translations": {
+    "fa": "یه کم دیگه شیر اضافه کن. خوبه! حالا دایره می‌بُریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circles",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many circles?",
+     "suggestionFa": "چندتا دایره؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "them",
+      "cut",
+      "can"
+     ],
+     "suggestion": "Can I cut them?",
+     "suggestionFa": "می‌تونم ببُرمشون؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "add",
+     "fa": "اضافه کردن"
+    },
+    {
+     "word": "cut",
+     "fa": "بریدن"
+    },
+    {
+     "word": "circle",
+     "fa": "دایره"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Eight, I think. Into the oven for fifteen minutes. Careful, it's very hot.",
+   "translations": {
+    "fa": "فکر کنم هشت‌تا. پونزده دقیقه توی فر. مواظب باش، خیلی داغه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "i'll"
+     ],
+     "suggestion": "I'll be careful.",
+     "suggestionFa": "مواظب هستم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifteen",
+      "minutes",
+      "timer",
+      "shall"
+     ],
+     "suggestion": "Fifteen minutes. Shall I set a timer?",
+     "suggestionFa": "پونزده دقیقه. تایمر بذارم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oven",
+     "fa": "فر"
+    },
+    {
+     "word": "minutes",
+     "fa": "دقیقه"
+    },
+    {
+     "word": "eight",
+     "fa": "هشت"
+    },
+    {
+     "word": "fifteen",
+     "fa": "پانزده"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Mmm, can you smell them? They're ready! Golden and warm.",
+   "translations": {
+    "fa": "ممم، بوشون را حس می‌کنی؟ آماده‌اند! طلایی و گرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "smell",
+      "they"
+     ],
+     "suggestion": "They smell amazing!",
+     "suggestionFa": "بوی فوق‌العاده‌ای دارن!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "them",
+      "now",
+      "can",
+      "eat"
+     ],
+     "suggestion": "Can we eat them now?",
+     "suggestionFa": "می‌تونیم الان بخوریمشون؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smell",
+     "fa": "بو کردن/بو دادن"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Jam first, then cream. That's the Cornish way. Try one, dear.",
+   "translations": {
+    "fa": "اول مربا، بعد خامه. این روش کورنوالیه. یکی امتحان کن عزیزم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "thank",
+      "weda"
+     ],
+     "suggestion": "Delicious! Thank you, Weda.",
+     "suggestionFa": "خوشمزه‌ست! ممنون ویدا.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "cook"
+     ],
+     "suggestion": "You're a brilliant cook!",
+     "suggestionFa": "تو آشپز فوق‌العاده‌ای هستی!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cream",
+     "fa": "خامه"
+    },
+    {
+     "word": "cook",
+     "fa": "آشپز/آشپزی کردن"
+    },
+    {
+     "word": "brilliant",
+     "fa": "عالی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "You're a natural, dear. Next time, you can teach Nicola!",
+   "translations": {
+    "fa": "تو ذاتاً بلدی عزیزم. دفعهٔ بعد می‌تونی به نیکولا یاد بدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
