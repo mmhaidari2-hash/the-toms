@@ -1,0 +1,200 @@
+{
+ "id": "l1_u5_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Wake up, sleepyhead!",
+ "titleFa": "(در نقش Nicola) بیدار شو، خوابالو!",
+ "setting": "My day · Level 1",
+ "settingFa": "روز من",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u5_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleepyhead",
+      "morning",
+      "wake",
+      "time",
+      "get"
+     ],
+     "suggestion": "Wake up, sleepyhead! It's morning! What time do you get up?",
+     "suggestionFa": "بیدار شو، خوابالو! صبح شده! کِی از خواب پا می‌شی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I get up at seven.",
+   "translations": {
+    "fa": "ساعت هفت پا می‌شم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "daddy",
+      "mummy",
+      "wake",
+      "they"
+     ],
+     "suggestion": "I get up at six! I wake up Mummy and Daddy. They don't like it!",
+     "suggestionFa": "من ساعت شش پا می‌شم! مامان و بابا را بیدار می‌کنم. خوششون نمیاد!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Six o'clock is very early!",
+   "translations": {
+    "fa": "ساعت شش خیلی زوده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "brush",
+      "every",
+      "teeth",
+      "then"
+     ],
+     "suggestion": "Then I brush my teeth. Do you brush your teeth every morning?",
+     "suggestionFa": "بعد دندون‌هام را مسواک می‌زنم. تو هر صبح مسواک می‌زنی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, every morning and every night.",
+   "translations": {
+    "fa": "آره، هر صبح و هر شب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dressed",
+      "uniform",
+      "school",
+      "green",
+      "then"
+     ],
+     "suggestion": "Then I get dressed. I wear my school uniform. It's green!",
+     "suggestionFa": "بعد لباس می‌پوشم. یونیفرم مدرسه‌ام را می‌پوشم. سبزه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I like your green jumper.",
+   "translations": {
+    "fa": "از ژاکت سبزت خوشم میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "cereal",
+      "itchy",
+      "then",
+      "have"
+     ],
+     "suggestion": "It's itchy! Then I have breakfast. I have cereal. What do you have?",
+     "suggestionFa": "خارش‌داره! بعد صبحانه می‌خورم. سریال (غلات) می‌خورم. تو چی می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I have toast and tea.",
+   "translations": {
+    "fa": "نون تست و چای می‌خورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "important",
+      "breakfast",
+      "nana",
+      "says",
+      "most"
+     ],
+     "suggestion": "You need breakfast! Nana says it's the most important meal.",
+     "suggestionFa": "تو صبحانه لازم داری! نانا می‌گه مهم‌ترین وعده‌ست.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Nana is right.",
+   "translations": {
+    "fa": "نانا راست می‌گه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school",
+      "daddy",
+      "then",
+      "walk",
+      "bye"
+     ],
+     "suggestion": "Then I go to school with Daddy. We walk. Bye bye!",
+     "suggestionFa": "بعد با بابا می‌رم مدرسه. پیاده می‌ریم. بای بای!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

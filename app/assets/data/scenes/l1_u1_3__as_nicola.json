@@ -1,0 +1,308 @@
+{
+ "id": "l1_u1_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) How are you?",
+ "titleFa": "(در نقش Nicola) حالت چطوره؟",
+ "setting": "Hello, family! · Level 1",
+ "settingFa": "سلام، خانواده!",
+ "requires": null,
+ "level": "A0",
+ "baseId": "l1_u1_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "today",
+      "good",
+      "how"
+     ],
+     "suggestion": "Good morning, Mehdi! How are you today?",
+     "suggestionFa": "صبح بخیر، {you}! امروز حالت چطوره؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'm fine, thanks. And you?",
+   "translations": {
+    "fa": "خوبم، ممنون. تو چطوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pancake",
+      "happy",
+      "day"
+     ],
+     "suggestion": "I'm happy! It's pancake day! Are you happy?",
+     "suggestionFa": "من خوشحالم! امروز روز پنکیکه! تو خوشحالی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, I'm very happy!",
+   "translations": {
+    "fa": "آره، خیلی خوشحالم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pancakes",
+      "buttons",
+      "though",
+      "lemon",
+      "yummy"
+     ],
+     "suggestion": "We eat pancakes with lemon and sugar. Yummy! Mr Buttons is sad, though.",
+     "suggestionFa": "پنکیک را با لیمو و شکر می‌خوریم. به‌به! ولی آقای دکمه ناراحته.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Oh no! Why is he sad?",
+   "translations": {
+    "fa": "ای وای! چرا ناراحته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teddies",
+      "hungry",
+      "always",
+      "he's"
+     ],
+     "suggestion": "He's hungry! Teddies are always hungry. Are you hungry?",
+     "suggestionFa": "گرسنه‌ست! خرس‌ها همیشه گرسنه‌اند. تو گرسنه‌ای؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes, I'm starving!",
+   "translations": {
+    "fa": "آره، دارم از گرسنگی می‌میرم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "grumpy",
+      "always",
+      "he's",
+      "ryan"
+     ],
+     "suggestion": "Me too! Ryan is grumpy in the morning. He's always grumpy.",
+     "suggestionFa": "منم! رایان صبح‌ها بداخلاقه. همیشه بداخلاقه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Maybe he's just sleepy.",
+   "translations": {
+    "fa": "شاید فقط خواب‌آلوده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "ryan",
+   "text": "I'm not grumpy. I'm just knackered. Morning.",
+   "translations": {
+    "fa": "بداخلاق نیستم. فقط خیلی خسته‌ام. صبح بخیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "knackered",
+     "fa": "خیلی خسته (عامیانه)"
+    },
+    {
+     "word": "OK",
+     "fa": "خوب/باشه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Knackered\" is very British slang for very tired. Friendly, but not for job interviews!",
+    "fa": "«knackered» عامیانهٔ بریتانیایی یعنی خیلی خسته — نه برای مصاحبهٔ کاری!"
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Morning, Ryan. Are you OK?",
+   "translations": {
+    "fa": "صبح بخیر رایان. خوبی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "ryan",
+   "text": "Yeah, I'm OK. Just need a cup of tea. How are you finding it here?",
+   "translations": {
+    "fa": "آره خوبم. فقط یه چای لازم دارم. اینجا را چطور می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "excited",
+     "fa": "هیجان‌زده"
+    },
+    {
+     "word": "new",
+     "fa": "جدید"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "It's great. Everyone is very kind.",
+   "translations": {
+    "fa": "عالیه. همه خیلی مهربونن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "smiling",
+      "happy",
+      "he's",
+      "even"
+     ],
+     "suggestion": "Everyone is happy now! Even Ryan. Look, he's smiling!",
+     "suggestionFa": "حالا همه خوشحالن! حتی رایان. ببین، داره لبخند می‌زنه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Ha! Yes, he is.",
+   "translations": {
+    "fa": "ها! آره، داره می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pancakes",
+      "table",
+      "let's",
+      "have",
+      "yay"
+     ],
+     "suggestion": "Yay! Let's have pancakes. See you at the table!",
+     "suggestionFa": "آخ جون! بیا پنکیک بخوریم. سر میز می‌بینمت!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

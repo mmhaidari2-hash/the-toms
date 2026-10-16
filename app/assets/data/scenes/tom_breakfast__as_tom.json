@@ -1,0 +1,274 @@
+{
+ "id": "tom_breakfast__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Morning cuppa",
+ "titleFa": "(در نقش Tom) چای صبحگاهی",
+ "setting": "The kitchen, 6:45am",
+ "settingFa": "آشپزخانه، ساعت ۶:۴۵ صبح",
+ "requires": null,
+ "level": "A1",
+ "baseId": "tom_breakfast",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle's",
+      "morning",
+      "boiled",
+      "cuppa",
+      "fancy"
+     ],
+     "suggestion": "Morning! Kettle's just boiled — fancy a cuppa?",
+     "suggestionFa": "صبح بخیر! کتری تازه جوش آمده — یک چای می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes please, that'd be lovely.",
+   "translations": {
+    "fa": "بله لطفاً، عالی می‌شود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "builder's",
+      "strong",
+      "sugars",
+      "sugar",
+      "mine"
+     ],
+     "suggestion": "Milk and sugar? I take mine builder's — strong, two sugars.",
+     "suggestionFa": "شیر و شکر؟ من مال خودم را «بیلدرز» می‌خورم — پررنگ، با دو قند.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Same as yours — builder's, please!",
+   "translations": {
+    "fa": "مثل مال تو — بیلدرز، لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what're",
+      "itself",
+      "today",
+      "won't",
+      "drive"
+     ],
+     "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
+     "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I'm studying — trying to improve my English.",
+   "translations": {
+    "fa": "درس می‌خوانم — دارم سعی می‌کنم انگلیسی‌ام را بهتر کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "marmite's",
+      "marmite",
+      "warning",
+      "toast's",
+      "butter"
+     ],
+     "suggestion": "Toast's up. Butter or Marmite? Fair warning — Marmite's a love-it-or-hate-it thing.",
+     "suggestionFa": "نان تست آماده است. کره یا مارمایت؟ از قبل بگم — مارمایت یا عاشقش می‌شی یا ازش متنفری.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'll try the Marmite, go on then!",
+   "translations": {
+    "fa": "مارمایت را امتحان می‌کنم، باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "alright",
+      "lorry",
+      "brave",
+      "sorry",
+      "sleep"
+     ],
+     "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
+     "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I slept like a log, thanks.",
+   "translations": {
+    "fa": "مثل سنگ خوابیدم، ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "today",
+      "then",
+      "up"
+     ],
+     "suggestion": "Right. What are you up to today, then?",
+     "suggestionFa": "خب. امروز چه برنامه‌ای داری؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'm popping into town to look around.",
+   "translations": {
+    "fa": "یه سر به شهر می‌زنم که بگردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forecast",
+      "britain",
+      "spells",
+      "brolly",
+      "which"
+     ],
+     "suggestion": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
+     "suggestionFa": "چتر ببر. پیش‌بینی می‌گه آفتابِ گاه‌به‌گاه، که در بریتانیا یعنی «بارون سرت می‌باره».",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha, cheers for the warning!",
+   "translations": {
+    "fa": "ها، مرسی بابت هشدار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "passing",
+      "there's",
+      "course",
+      "tesco",
+      "could"
+     ],
+     "suggestion": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
+     "suggestionFa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی تسکو رد شدی، می‌شه شیر بگیری؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "No problem, how many pints?",
+   "translations": {
+    "fa": "مشکلی نیست، چند پاینت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "skimmed",
+      "tonight",
+      "right",
+      "pints",
+      "star"
+     ],
+     "suggestion": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
+     "suggestionFa": "دو پاینت نیم‌چرب. تو فوق‌العاده‌ای. خب، باید بدوم — شب می‌بینمت!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "See you later, have a good one!",
+   "translations": {
+    "fa": "بعداً می‌بینمت، روز خوبی داشته باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "don't",
+      "ryan",
+      "nick",
+      "last"
+     ],
+     "suggestion": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",
+     "suggestionFa": "آفرین. روز خوبی داشته باشی — و نذار رایان آخرین بیسکویت را کش برود!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

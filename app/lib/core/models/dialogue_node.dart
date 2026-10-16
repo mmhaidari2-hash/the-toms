@@ -103,7 +103,10 @@ class Scene {
   /// Private family story: needs this much (soft) trust with [characterId].
   final int? requiresTrust;
   final int? episode;
-  const Scene({this.memory, this.requiresTrust, this.episode, 
+
+  /// Role switching: this is a variant of [baseId] where the learner speaks as [playAs] and Mehdi is an NPC.
+  final String? baseId, playAs;
+  const Scene({this.baseId, this.playAs, this.memory, this.requiresTrust, this.episode, 
     required this.id,
     required this.characterId,
     this.level = 'A1',
@@ -126,6 +129,8 @@ class Scene {
       memory: j['memory'] == null ? null : CultureNote(j['memory']['en'], j['memory']['fa']),
       requiresTrust: j['requiresTrust'],
       episode: j['episode'],
+      baseId: j['baseId'],
+      playAs: j['playAs'],
       title: j['title'],
       titleFa: j['titleFa'],
       setting: j['setting'],

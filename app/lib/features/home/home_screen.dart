@@ -104,6 +104,8 @@ class _HomeBody extends ConsumerWidget {
                 FadeSlideIn(delayMs: 60, child: ContinueHero(c)),
                 const SizedBox(height: 14),
                 FadeSlideIn(delayMs: 90, child: CourseCard(c)),
+                const SizedBox(height: 14),
+                FadeSlideIn(delayMs: 110, child: FamilyTimelineCard(c)),
                 const SizedBox(height: 28),
                 _SectionTitle('Chapter 1', tr(p.lang, 'chapter1'), lang: p.lang),
                 const SizedBox(height: 12),
@@ -375,6 +377,11 @@ class CharacterCard extends ConsumerWidget {
     final growth = p.growthMap[ch.id] ?? 0;
     final m = GrowthEngine.milestoneFor(growth, c.milestonesFor(ch.id));
     final available = ch.starterScene != null;
+    // Growth over time: age and life stage follow the family calendar.
+    final tl = c.timeline.chapters;
+    final chap = tl.isEmpty ? null : tl[ref.read(progressProvider.notifier).chapterIndex(c)];
+    final age = chap?.ages[ch.id] ?? ch.age;
+    final stage = chap?.stages[ch.id]?.$1;
     return Pressable(
       onTap: () => available ? context.push('/chat/${ch.starterScene}') : _comingSoon(context, ch),
       child: Container(
@@ -392,7 +399,7 @@ class CharacterCard extends ConsumerWidget {
                     children: [
                       Text(ch.name, style: BL.display(19)),
                       const SizedBox(width: 6),
-                      Text('· ${ch.age == 1 ? '1 yr' : '${ch.age}'}', style: const TextStyle(color: BL.muted, fontSize: 12.5)),
+                      Text('· ${age == 1 ? '1 yr' : '$age'}', style: const TextStyle(color: BL.muted, fontSize: 12.5)),
                       const SizedBox(width: 6),
                       Tooltip(
                         message: tr(p.lang, 'mood'),
@@ -410,7 +417,7 @@ class CharacterCard extends ConsumerWidget {
                     ],
                   ),
                   const SizedBox(height: 1),
-                  Text(ch.role, style: const TextStyle(color: BL.muted, fontSize: 12.5)),
+                  Text(stage == null ? ch.role : '${ch.role} · $stage', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: BL.muted, fontSize: 12.5)),
                   const SizedBox(height: 10),
                   MeterBar(value: trust / 100, color: BL.red, label: 'Trust', trailing: '${trust.round()}', icon: Icons.favorite_rounded),
                   const SizedBox(height: 6),

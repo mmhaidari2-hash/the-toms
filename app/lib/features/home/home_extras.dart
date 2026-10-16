@@ -457,3 +457,146 @@ class CourseCard extends ConsumerWidget {
     );
   }
 }
+
+/// Character growth over time (#6): the family calendar. Ages and stages advance with your progress;
+/// crossing into a new chapter shows a one-off "time passes" card.
+class FamilyTimelineCard extends ConsumerStatefulWidget {
+  final ContentBundle c;
+  const FamilyTimelineCard(this.c, {super.key});
+  @override
+  ConsumerState<FamilyTimelineCard> createState() => _FamilyTimelineCardState();
+}
+
+class _FamilyTimelineCardState extends ConsumerState<FamilyTimelineCard> {
+  static const family = ['tom', 'leslie', 'ryan', 'nicola', 'william', 'weda'];
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final ctrl = ref.read(progressProvider.notifier);
+      final i = ctrl.chapterIndex(widget.c);
+      if (i > ctrl.seenChapter && mounted) {
+        ctrl.markChapterSeen(i);
+        showTimePasses(context, widget.c, i);
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    ref.watch(progressProvider);
+    final c = widget.c;
+    final chs = c.timeline.chapters;
+    if (chs.isEmpty) return const SizedBox.shrink();
+    final ctrl = ref.read(progressProvider.notifier);
+    final pts = ctrl.growthPoints(c);
+    final i = ctrl.chapterIndex(c);
+    final ch = chs[i];
+    final next = i + 1 < chs.length ? chs[i + 1] : null;
+    final frac = next == null ? 1.0 : ((pts - ch.threshold) / (next.threshold - ch.threshold)).clamp(0.0, 1.0);
+    return Pressable(
+      onTap: () => showTimePasses(context, c, i),
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
+        decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(24), boxShadow: BL.shadow(.08)),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('THE FAMILY YEAR  ·  YEAR ${ch.year} · ${ch.season.toUpperCase()}', style: const TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+            const SizedBox(height: 2),
+            Text(ch.title, style: BL.display(19)),
+            const SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                for (final id in family)
+                  if (c.characterOrNull(id) != null)
+                    Column(
+                      children: [
+                        Stack(
+                          clipBehavior: Clip.none,
+                          children: [
+                            Avatar(c.character(id), size: 40, ring: false),
+                            if (ch.ages[id] != null)
+                              Positioned(
+                                right: -6,
+                                bottom: -4,
+                                child: Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
+                                  decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99), border: Border.all(color: BL.paper, width: 1.5)),
+                                  child: Text('${ch.ages[id]}', style: const TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.w800)),
+                                ),
+                              ),
+                          ],
+                        ),
+                        const SizedBox(height: 5),
+                        Text(c.character(id).name.split(' ').last, style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: BL.muted)),
+                      ],
+                    ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(99),
+              child: LinearProgressIndicator(value: frac, minHeight: 6, backgroundColor: BL.mist, color: BL.green),
+            ),
+            const SizedBox(height: 6),
+            Text(next == null ? 'You’ve grown up with the Toms.' : 'Next: ${next.season}, Year ${next.year} — keep chatting and passing units', style: const TextStyle(fontSize: 12, color: BL.muted)),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+Future<void> showTimePasses(BuildContext context, ContentBundle c, int i) {
+  final ch = c.timeline.chapters[i];
+  return showModalBottomSheet(
+    context: context,
+    backgroundColor: Colors.transparent,
+    isScrollControlled: true,
+    builder: (_) => Container(
+      margin: const EdgeInsets.all(12),
+      padding: const EdgeInsets.fromLTRB(22, 22, 22, 18),
+      decoration: BoxDecoration(color: const Color(0xFF1E1610), borderRadius: BorderRadius.circular(28)),
+      child: SafeArea(
+        top: false,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(i == 0 ? 'CHAPTER 1' : 'TIME PASSES…', style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 2, fontWeight: FontWeight.w800)),
+            const SizedBox(height: 6),
+            Text('${ch.season}, Year ${ch.year} · ${ch.title}', style: BL.display(22, color: Colors.white)),
+            Text('${ch.seasonFa} · ${ch.titleFa}', textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white60)),
+            const SizedBox(height: 12),
+            Text(ch.story, style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.4)),
+            const SizedBox(height: 4),
+            Text(ch.storyFa, textDirection: TextDirection.rtl, style: BL.fa(13, color: Colors.white60)),
+            const SizedBox(height: 14),
+            for (final e in ch.stages.entries)
+              if (c.characterOrNull(e.key) != null)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 8),
+                  child: Row(
+                    children: [
+                      Avatar(c.character(e.key), size: 30, ring: false),
+                      const SizedBox(width: 10),
+                      Expanded(
+                        child: Text('${c.character(e.key).name}${ch.ages[e.key] == null ? '' : ', ${ch.ages[e.key]}'} — ${e.value.$1}', style: const TextStyle(color: Colors.white, fontSize: 13.5, fontWeight: FontWeight.w600)),
+                      ),
+                    ],
+                  ),
+                ),
+            const SizedBox(height: 6),
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton(onPressed: () => Navigator.pop(context), style: FilledButton.styleFrom(backgroundColor: BL.green, padding: const EdgeInsets.symmetric(vertical: 14)), child: const Text('Carry on')),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
+}

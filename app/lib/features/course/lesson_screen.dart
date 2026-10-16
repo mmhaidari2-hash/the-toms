@@ -123,6 +123,39 @@ class LessonScreen extends ConsumerWidget {
                   done: (score ?? 0) >= 60,
                   onTap: () => context.push('/practice/${l.id}'),
                 ),
+                if (c.variantsOf(l.sceneIds.first).isNotEmpty) ...[
+                  const SizedBox(height: 18),
+                  _Card(
+                    icon: Icons.theater_comedy_rounded,
+                    title: 'Swap roles: play this story as…',
+                    child: Wrap(
+                      spacing: 8,
+                      runSpacing: 8,
+                      children: [
+                        for (final r in ['mehdi', ...c.variantsOf(l.sceneIds.first).keys])
+                          if (c.characterOrNull(r) != null)
+                            Pressable(
+                              onTap: () {
+                                ref.read(progressProvider.notifier).setRole(r);
+                                context.push('/chat/${l.sceneIds.first}');
+                              },
+                              child: Container(
+                                padding: const EdgeInsets.fromLTRB(4, 4, 12, 4),
+                                decoration: BoxDecoration(color: ref.watch(progressProvider).role == r ? BL.navy : BL.mist, borderRadius: BorderRadius.circular(99)),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Avatar(c.character(r), size: 26, ring: false),
+                                    const SizedBox(width: 6),
+                                    Text(r == 'mehdi' ? 'Me (guest)' : c.character(r).name, style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13, color: ref.watch(progressProvider).role == r ? Colors.white : BL.ink)),
+                                  ],
+                                ),
+                              ),
+                            ),
+                      ],
+                    ),
+                  ),
+                ],
                 SizedBox(height: 36 + pad.bottom),
               ],
             ),

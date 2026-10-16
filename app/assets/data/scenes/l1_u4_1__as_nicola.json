@@ -1,0 +1,199 @@
+{
+ "id": "l1_u4_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Counting with Nicola",
+ "titleFa": "(در نقش Nicola) شمردن با نیکولا",
+ "setting": "Numbers & time · Level 1",
+ "settingFa": "اعداد و زمان",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u4_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "count",
+      "three",
+      "let's",
+      "eggs"
+     ],
+     "suggestion": "Let's count the eggs! One, two, three… how many are there?",
+     "suggestionFa": "بیا تخم‌مرغ‌ها را بشمریم! یک، دو، سه… چندتاست؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "There are six eggs.",
+   "translations": {
+    "fa": "شش‌تا تخم‌مرغ هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spoons",
+      "eight",
+      "seven",
+      "eggs",
+      "nine"
+     ],
+     "suggestion": "Yes! Six eggs. Now the spoons. Seven, eight, nine, ten!",
+     "suggestionFa": "آره! شش‌تا تخم‌مرغ. حالا قاشق‌ها. هفت، هشت، نه، ده!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ten spoons. Well done!",
+   "translations": {
+    "fa": "ده‌تا قاشق. آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fourteen",
+      "thirteen",
+      "fifteen",
+      "twelve",
+      "eleven"
+     ],
+     "suggestion": "Eleven, twelve, thirteen, fourteen, fifteen… what comes next?",
+     "suggestionFa": "یازده، دوازده، سیزده، چهارده، پانزده… بعدش چیه؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Sixteen, seventeen, eighteen!",
+   "translations": {
+    "fa": "شانزده، هفده، هجده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuits",
+      "nineteen",
+      "twenty",
+      "many",
+      "tin"
+     ],
+     "suggestion": "Nineteen, twenty! I did it! How many biscuits are in the tin?",
+     "suggestionFa": "نوزده، بیست! تونستم! چندتا بیسکویت توی قوطیه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "There are only two biscuits.",
+   "translations": {
+    "fa": "فقط دوتا بیسکویت هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuits",
+      "always",
+      "them",
+      "eats",
+      "bake"
+     ],
+     "suggestion": "Ryan ate them! Ryan always eats the biscuits. Can we bake some more?",
+     "suggestionFa": "رایان خوردشون! رایان همیشه بیسکویت‌ها را می‌خوره. می‌شه بیشتر بپزیم؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Let's ask your mum first.",
+   "translations": {
+    "fa": "بیا اول از مامانت بپرسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuits",
+      "hundred",
+      "million",
+      "twenty"
+     ],
+     "suggestion": "Twenty! No, a hundred! A million biscuits!",
+     "suggestionFa": "بیست‌تا! نه، صدتا! یه میلیون بیسکویت!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "A million is too many!",
+   "translations": {
+    "fa": "یه میلیون خیلی زیاده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "twelve",
+      "one",
+      "mr",
+      "ok"
+     ],
+     "suggestion": "OK, twelve. One for me, one for you, one for Mr Buttons…",
+     "suggestionFa": "باشه، دوازده‌تا. یکی برای من، یکی برای تو، یکی برای آقای دکمه…",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

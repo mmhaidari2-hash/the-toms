@@ -1,0 +1,524 @@
+{
+ "id": "ep4_evening_tea__as_tom",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "(As Tom) Ep 4 · Evening Tea & the Plumber",
+ "titleFa": "(در نقش Tom) قسمت ۴ · عصرانه و لوله‌کش",
+ "setting": "The kitchen, 6pm — drip, drip",
+ "settingFa": "آشپزخانه، ساعت ۶ عصر — چیک، چیک",
+ "requires": null,
+ "memory": {
+  "en": "the sink was leaking and you rang Dave the plumber",
+  "fa": "سینک نشتی داشت و تو به دیو لوله‌کش زنگ زدی"
+ },
+ "episode": 4,
+ "baseId": "ep4_evening_tea",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "leslie",
+   "text": "Scones are out. Help yourself to jam — cream first or jam first, that's the question.",
+   "translations": {
+    "fa": "اسکون‌ها آماده‌ست. خودت مربا بردار — اول خامه یا اول مربا، مسئله این است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "help yourself",
+     "fa": "خودت بردار (تعارف)"
+    },
+    {
+     "word": "scone",
+     "fa": "اسکون (کیک کوچک)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Devon: cream then jam. Cornwall: jam then cream. People argue about this for real.",
+    "fa": "دوون: اول خامه بعد مربا. کورنوال: اول مربا بعد خامه. مردم واقعاً سرش بحث می‌کنند."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Jam first, obviously — the Cornish way.",
+   "translations": {
+    "fa": "معلومه اول مربا — به روش کورنوالی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bucket's",
+      "leaking",
+      "plumber",
+      "sink's",
+      "number"
+     ],
+     "suggestion": "Hang on — the pipe under the sink's leaking again. Bucket's nearly full. I'll ring the plumber. Can you pass me the number on the fridge?",
+     "suggestionFa": "صبر کن — لوله زیر سینک باز نشتی داره. سطل تقریباً پره. به لوله‌کش زنگ می‌زنم. شماره روی یخچال رو بهم می‌دی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Here you go — it's the one on the magnet.",
+   "translations": {
+    "fa": "بفرما — همونی که روی آهنرباست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "plumber",
+   "text": "(on speakerphone) Dave's Plumbing, Dave speaking. What seems to be the problem?",
+   "translations": {
+    "fa": "(روی بلندگو) لوله‌کشی دیو، دیو هستم. مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what seems to be the problem",
+     "fa": "مشکل چیست؟ (مؤدبانه)"
+    },
+    {
+     "word": "dripping",
+     "fa": "چکه کردن"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Hi, there's a leak under our kitchen sink — the pipe's dripping.",
+   "translations": {
+    "fa": "سلام، زیر سینک آشپزخونه‌مون نشتی هست — لوله چکه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "plumber",
+   "text": "Right you are. I could pop round tomorrow between eight and ten — would that suit?",
+   "translations": {
+    "fa": "باشه. می‌تونم فردا بین هشت تا ده سر بزنم — مناسبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop round",
+     "fa": "سر زدن"
+    },
+    {
+     "word": "would that suit",
+     "fa": "مناسب است؟"
+    }
+   ],
+   "cultureNote": {
+    "en": "Tradespeople 'pop round' — and Brits always offer them a cup of tea.",
+    "fa": "صنعتگرها «سر می‌زنند» — و بریتانیایی‌ها همیشه به آن‌ها چای تعارف می‌کنند."
+   }
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That would suit us perfectly, thanks.",
+   "translations": {
+    "fa": "کاملاً مناسبه، ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "plumber",
+   "text": "Hiya, Dave's Plumbing. What seems to be the problem?",
+   "translations": {
+    "fa": "سلام، لوله‌کشی دیو. مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leaking",
+     "fa": "نشتی داشتن"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Hi, our kitchen sink is leaking.",
+   "translations": {
+    "fa": "سلام، سینک آشپزخانه‌مون نشتی داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "plumber",
+   "text": "Is it dripping or properly gushing? Have you turned the water off at the stopcock?",
+   "translations": {
+    "fa": "چکه می‌کنه یا حسابی فوران داره؟ آب را از شیر اصلی بستید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stopcock",
+     "fa": "شیر اصلی آب"
+    },
+    {
+     "word": "dripping",
+     "fa": "چکه کردن"
+    },
+    {
+     "word": "gushing",
+     "fa": "فوران کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Every British home has a stopcock — usually under the kitchen sink. Worth knowing on day one!",
+    "fa": "هر خانهٔ بریتانیایی یک stopcock دارد — معمولاً زیر سینک آشپزخانه."
+   }
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Just dripping. Where's the stopcock?",
+   "translations": {
+    "fa": "فقط چکه. شیر اصلی کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "plumber",
+   "text": "Good stuff. I can pop round tomorrow between eight and twelve. That alright?",
+   "translations": {
+    "fa": "خوبه. فردا بین هشت تا دوازده می‌تونم سر بزنم. خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop round",
+     "fa": "سر زدن"
+    },
+    {
+     "word": "good stuff",
+     "fa": "خوبه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Tradespeople give a 'window', not a time. 'Between eight and twelve' is normal.",
+    "fa": "تعمیرکارها یک بازهٔ زمانی می‌دهند نه ساعت دقیق."
+   }
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "That's perfect, thank you.",
+   "translations": {
+    "fa": "عالیه، ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "plumber",
+   "text": "Call-out's sixty quid, then parts on top. Can I take a name and address?",
+   "translations": {
+    "fa": "هزینهٔ اعزام شصت پوند، قطعات جدا. اسم و آدرس را بدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "call-out fee",
+     "fa": "هزینهٔ اعزام"
+    },
+    {
+     "word": "on top",
+     "fa": "به‌علاوه"
+    }
+   ]
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "It's Tom, 14 Elm Road.",
+   "translations": {
+    "fa": "تام هستم، الم رود شمارهٔ ۱۴."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "leslie",
+   "text": "Sorted? Brilliant. Now come and have a scone before Ryan eats them all.",
+   "translations": {
+    "fa": "حل شد؟ عالیه. حالا بیا یه اسکون بخور قبل از این‌که رایان همه‌اش را بخوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sorted",
+     "fa": "حل شد"
+    },
+    {
+     "word": "scone",
+     "fa": "اسکون (کیک کوچک)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Devon puts cream first, Cornwall jam first — and people genuinely argue about it.",
+    "fa": "دوون اول خامه می‌گذارد، کورنوال اول مربا — و مردم واقعاً بحث می‌کنند."
+   }
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "mehdi",
+   "text": "Jam first or cream first?",
+   "translations": {
+    "fa": "اول مربا یا اول خامه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "obviously",
+      "leslie's",
+      "helping",
+      "thanks",
+      "don't"
+     ],
+     "suggestion": "Jam first, obviously. Leslie's wrong, but don't tell her. Thanks for helping with the call.",
+     "suggestionFa": "اول مربا، معلومه. لزلی اشتباه می‌کنه، ولی بهش نگو. ممنون که برای تماس کمک کردی.",
+     "trustDelta": 5,
+     "next": "r18",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r18": {
+   "id": "r18",
+   "speaker": "mehdi",
+   "text": "Your secret's safe with me!",
+   "translations": {
+    "fa": "رازت پیش من محفوظه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "would've",
+      "where's",
+      "handled",
+      "proper",
+      "sorted"
+     ],
+     "suggestion": "Sorted! You handled Dave better than I would've. Proper job. Now, where's that scone?",
+     "suggestionFa": "حل شد! تو بهتر از من با دیو حرف زدی. کارت درسته. حالا، اون اسکون کجاست؟",
+     "trustDelta": 5,
+     "next": "r19",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r19": {
+   "id": "r19",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

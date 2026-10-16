@@ -32,8 +32,20 @@ ContentBundle load() {
 /// Every line the app can speak, keyed exactly as Voice looks it up.
 List<List<String>> spoken(ContentBundle c) {
   final out = <List<String>>[];
+  final have = (jsonDecode(File('assets/audio/index.json').readAsStringSync()) as List).cast<String>().toSet();
+  String k(String a, String b) => md5.convert(utf8.encode('$a|$b')).toString().substring(0, 16);
   void add(String sp, String? t) {
-    if (t != null && t.trim().isNotEmpty) out.add([sp, t]);
+    if (t == null || t.trim().isEmpty) return;
+    // Mirrors Voice._find: Mehdi as NPC reuses the guest ('me') recordings, with or without the {you} placeholder.
+    for (final s2 in {sp, if (sp == 'mehdi') 'me'}) {
+      for (final t2 in {t, t.replaceAll('Mehdi', '{you}')}) {
+        if (have.contains(k(s2, t2))) {
+          out.add([s2, t2]);
+          return;
+        }
+      }
+    }
+    out.add([sp, t]);
   }
   for (final s in c.scenes.values) {
     for (final n in s.nodes.values) {
@@ -51,7 +63,7 @@ List<List<String>> spoken(ContentBundle c) {
         add(n.speaker, RecastEngine.recast(n, i)?.echo);
       }
       for (final b in n.branches) {
-        add('me', b.suggestion);
+        if (s.playAs == null) add('me', b.suggestion);
       }
       for (final w in n.newWords) {
         add('narrator', w.word);

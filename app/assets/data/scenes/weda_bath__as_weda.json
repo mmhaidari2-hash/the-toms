@@ -1,0 +1,249 @@
+{
+ "id": "weda_bath__as_weda",
+ "characterId": "weda",
+ "level": "A0",
+ "title": "(As Nana Weda) Bath time",
+ "titleFa": "(در نقش Nana Weda) وقت حمام",
+ "setting": "The bathroom, 7pm",
+ "settingFa": "حمام، ساعت ۷ عصر",
+ "requires": null,
+ "baseId": "weda_bath",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Weda!",
+   "translations": {
+    "fa": "سلام Nana Weda!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "water",
+      "bath",
+      "time",
+      "hot"
+     ],
+     "suggestion": "Bath time, William! Is the water too hot?",
+     "suggestionFa": "وقت حمام است ویلیام! آب خیلی داغ است؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No, it's nice and warm.",
+   "translations": {
+    "fa": "نه، خوب و ولرم است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bubbles",
+      "rubber",
+      "duck",
+      "now"
+     ],
+     "suggestion": "Now — bubbles or the rubber duck?",
+     "suggestionFa": "حالا — حباب یا اردک پلاستیکی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Bubbles, please!",
+   "translations": {
+    "fa": "حباب، لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "splashes",
+      "william",
+      "while",
+      "nana",
+      "back"
+     ],
+     "suggestion": "Now, while William splashes — did you have a nana back home?",
+     "suggestionFa": "حالا که ویلیام آب‌بازی می‌کنه — تو هم مادربزرگ داشتی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, she made the best bread.",
+   "translations": {
+    "fa": "بله، بهترین نان را می‌پخت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flannel",
+      "bless",
+      "would",
+      "pass",
+      "blue"
+     ],
+     "suggestion": "Ah, bless. Pass me the flannel, would you? It's the blue one.",
+     "suggestionFa": "آخی. اون حوله‌دستی را بده، می‌شه؟ آبیه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Here you are, the blue flannel.",
+   "translations": {
+    "fa": "بفرمایید، حولهٔ آبی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "distract",
+      "washed",
+      "songs",
+      "hates",
+      "hair"
+     ],
+     "suggestion": "He hates his hair washed. We sing to distract him. Know any songs?",
+     "suggestionFa": "از شستن موهاش متنفره. براش آواز می‌خونیم که حواسش پرت شه. آهنگی بلدی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Let's sing 'Row, row, row your boat'!",
+   "translations": {
+    "fa": "بیا «پارو بزن قایقت را» بخونیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "giggling",
+      "babies",
+      "yours",
+      "he's",
+      "tune"
+     ],
+     "suggestion": "Sing him one of yours — babies love any tune. Oh look, he's giggling!",
+     "suggestionFa": "یکی از آهنگ‌های خودت را بخون — بچه‌ها هر آهنگی را دوست دارن. ببین، داره می‌خنده!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "He's so cute when he giggles!",
+   "translations": {
+    "fa": "وقتی می‌خنده خیلی بامزه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "right",
+      "towel",
+      "come",
+      "hold"
+     ],
+     "suggestion": "Right, out you come, little one. Can you hold the towel open for me, dear?",
+     "suggestionFa": "خب، بیا بیرون کوچولو. می‌تونی حوله را برام باز نگه داری عزیزم؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Of course — ready when you are.",
+   "translations": {
+    "fa": "حتماً — هر وقت آماده‌ای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "natural",
+      "lovely",
+      "know",
+      "snug",
+      "bug"
+     ],
+     "suggestion": "Lovely. Snug as a bug in a rug. You're a natural, you know.",
+     "suggestionFa": "عالی. گرم و نرم مثل حشره توی فرش. می‌دونی، تو ذاتاً بلدی.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you, Weda — that means a lot.",
+   "translations": {
+    "fa": "ممنون ویدا — خیلی برام ارزش داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pyjamas",
+      "lovely",
+      "night",
+      "towel",
+      "teeth"
+     ],
+     "suggestion": "Lovely. Now, towel, pyjamas and teeth. Night night!",
+     "suggestionFa": "عالی. حالا حوله، پیژامه و مسواک. شب بخیر!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

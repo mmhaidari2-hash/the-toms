@@ -37,9 +37,11 @@ class ConversationScreen extends ConsumerWidget {
           loading: () => const Center(child: CircularProgressIndicator(color: BL.navy)),
           error: (e, _) => ErrorState(message: '$e', onRetry: () => ref.invalidate(contentProvider)),
           data: (c) {
-            final s = c.scenes[sceneId];
+            final role = ref.watch(progressProvider).role;
+            // Full role switching: playing as a family member swaps in that member's version of the scene.
+            final s = c.scenes['${sceneId}__as_$role'] ?? c.scenes[sceneId];
             if (s == null) return ErrorState(message: 'Story “$sceneId” not found.', onRetry: () => context.go('/'));
-            if (!ref.read(progressProvider.notifier).canPlay(s, c)) {
+            if (!ref.read(progressProvider.notifier).canPlay(c.scenes[s.baseId ?? s.id] ?? s, c)) {
               return _Locked(c: c, s: s);
             }
             return _Chat(c: c, s: s);
@@ -131,7 +133,8 @@ class _ChatState extends ConsumerState<_Chat> {
   Character get ch => widget.c.character(widget.s.characterId);
   Character _who(String id) => widget.c.characterOrNull(id) ?? ch;
   MoodInfo get _mood => EmotionEngine.label(ref.watch(progressProvider).moodMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
-  String get _me => widget.c.characterOrNull(ref.read(progressProvider).role)?.name ?? 'Mehdi';
+  String get _me => widget.s.playAs != null ? 'Mehdi' : (widget.c.characterOrNull(ref.read(progressProvider).role)?.name ?? 'Mehdi');
+  String get _meName => widget.c.characterOrNull(widget.s.playAs ?? ref.read(progressProvider).role)?.name ?? 'Mehdi';
   String _t(String s) => s.replaceAll('{you}', _me);
   String get _lang => ref.read(progressProvider).lang;
 
@@ -492,7 +495,7 @@ class _ChatState extends ConsumerState<_Chat> {
                 child: Text.rich(
                   TextSpan(
                     children: [
-                      TextSpan(text: m.speaker == 'me' ? '$_me  ' : '${_who(m.speaker).name}  ', style: TextStyle(fontWeight: FontWeight.w800, color: m.speaker == 'me' ? BL.navy : _who(m.speaker).color)),
+                      TextSpan(text: m.speaker == 'me' ? '$_meName  ' : '${_who(m.speaker).name}  ', style: TextStyle(fontWeight: FontWeight.w800, color: m.speaker == 'me' ? BL.navy : _who(m.speaker).color)),
                       TextSpan(text: m.text),
                     ],
                   ),
@@ -544,7 +547,7 @@ class _ChatState extends ConsumerState<_Chat> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(widget.s.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(17, color: Colors.white)),
-                      Text('${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_me', style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
+                      Text('${widget.s.level}  ·  ${tr(_lang, 'playingAs')} $_meName', style: const TextStyle(color: Colors.white70, fontSize: 11.5)),
                     ],
                   ),
                 ),
@@ -607,7 +610,7 @@ class _ChatState extends ConsumerState<_Chat> {
                 if (_myLast != null)
                   Padding(
                     padding: const EdgeInsets.only(bottom: 4),
-                    child: Text('$_me: “$_myLast”', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white38, fontSize: 12.5, fontStyle: FontStyle.italic)),
+                    child: Text('$_meName: “$_myLast”', maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white38, fontSize: 12.5, fontStyle: FontStyle.italic)),
                   ),
                 AnimatedSwitcher(
                   duration: const Duration(milliseconds: 280),

@@ -147,6 +147,16 @@ class ProgressController extends Notifier<UserProgress> {
     return unitOpen(c, ui) && (state.unlockAll || li == 0 || lessonDone(u.lessons[li - 1]));
   }
 
+  // ---- Character growth over time: the family calendar advances with your progress.
+  int growthPoints(ContentBundle c) =>
+      state.completedScenes.where((id) => !id.contains('__as_')).length + 3 * c.course.units.where(unitPassed).length;
+  int chapterIndex(ContentBundle c) => c.timeline.indexFor(growthPoints(c));
+  int get seenChapter => int.tryParse(state.missionsDone['pref:chapter'] ?? '') ?? 0;
+  void markChapterSeen(int i) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:chapter': '$i'});
+    _save();
+  }
+
   // Ambient motion preference (optional; default on). Stored in missionsDone under 'pref:motion'.
   bool get motionOn => state.missionsDone['pref:motion'] != 'off';
   void setMotion(bool on) {
@@ -262,7 +272,7 @@ class ProgressController extends Notifier<UserProgress> {
       weekly: weekly,
       rewards: rewards,
       diary: transcript.isEmpty ? state.diary : [DiaryEntry(now, scene.id, scene.characterId, trustGained, words, transcript), ...state.diary].take(60).toList(),
-      completedScenes: {...state.completedScenes, scene.id},
+      completedScenes: {...state.completedScenes, scene.id, if (scene.baseId != null) scene.baseId!},
       daily: DailyStats(today, daily.conversations + 1, daily.wordsUsed),
       accentPassport: {...state.accentPassport, accent: (state.accentPassport[accent] ?? 0) + 1},
       streak: streak,

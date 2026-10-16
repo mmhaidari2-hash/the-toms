@@ -1,3 +1,4 @@
+export '../models/timeline.dart';
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
@@ -7,6 +8,7 @@ import '../models/dialogue_node.dart';
 import '../models/milestone.dart';
 import '../models/place.dart';
 import '../models/course.dart';
+import '../models/timeline.dart';
 export '../models/course.dart';
 
 class Moment {
@@ -30,7 +32,10 @@ class ContentBundle {
   final List<Moment> moments;
   final List<RoleDef> roles;
   final Course course;
-  const ContentBundle(this.characters, this.scenes, this.milestones, [this.tiers = const [], this.moments = const [], this.roles = const [], this.course = const Course([])]);
+  final Timeline timeline;
+  const ContentBundle(this.characters, this.scenes, this.milestones, [this.tiers = const [], this.moments = const [], this.roles = const [], this.course = const Course([]), this.timeline = const Timeline([])]);
+  /// Role-switch variants of a scene: role id -> variant scene.
+  Map<String, Scene> variantsOf(String sceneId) => {for (final s in scenes.values) if (s.baseId == sceneId && s.playAs != null) s.playAs!: s};
   Character? characterOrNull(String id) => characters.where((c) => c.id == id).firstOrNull;
   /// Scenes only playable in a given role (Sec 3.2 character switching).
   String? roleOfScene(String id) => roles.where((r) => r.scenes.contains(id)).firstOrNull?.id;
@@ -58,8 +63,10 @@ class ContentRepository {
     final chars = [for (final c in await _json('assets/data/characters.json')) Character.fromJson(c)];
     final ids = List<String>.from(await _json('assets/data/scenes_index.json'));
     final scenes = <String, Scene>{};
-    for (final id in ids) {
-      scenes[id] = Scene.fromJson(await _json('assets/data/scenes/$id.json'));
+    // Parallel: ~150 small files (incl. role variants) must not load one-by-one on iPhone.
+    final loaded = await Future.wait([for (final id in ids) _json('assets/data/scenes/$id.json')]);
+    for (final (i, id) in ids.indexed) {
+      scenes[id] = Scene.fromJson(loaded[i]);
     }
     final ms = <String, List<Milestone>>{};
     for (final id in List<String>.from(await _json('assets/data/growth_index.json'))) {
@@ -70,6 +77,10 @@ class ContentRepository {
     final moments = [for (final m in await _json('assets/data/moments.json')) Moment(m['sceneId'], m['cover'])];
     final roles = [for (final r in await _json('assets/data/roles.json')) RoleDef(r['id'], List<String>.from(r['scenes']))];
     final course = Course.fromJson(await _json('assets/data/course.json'));
-    return ContentBundle(chars, scenes, ms, tiers, moments, roles, course);
+    Timeline timeline = const Timeline([]);
+    try {
+      timeline = Timeline.fromJson(await _json('assets/data/timeline.json'));
+    } catch (_) {}
+    return ContentBundle(chars, scenes, ms, tiers, moments, roles, course, timeline);
   }
 }

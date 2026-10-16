@@ -1,0 +1,225 @@
+{
+ "id": "tom_bus__as_tom",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "(As Tom) On the number 38",
+ "titleFa": "(در نقش Tom) در اتوبوس ۳۸",
+ "setting": "Tom's bus, Dalston Junction",
+ "settingFa": "اتوبوس تام، دالستون جانکشن",
+ "requires": null,
+ "baseId": "tom_bus",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "alright",
+      "reader",
+      "headed",
+      "where",
+      "card"
+     ],
+     "suggestion": "Alright? Tap your card on the reader, mate. Where you headed?",
+     "suggestionFa": "چطوری؟ کارتت را روی دستگاه بزن رفیق. کجا می‌ری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'm going to Piccadilly Circus. Does this bus stop there?",
+   "translations": {
+    "fa": "می‌روم پیکادیلی سیرکس. این اتوبوس آن‌جا می‌ایستد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "roadworks",
+      "upstairs",
+      "there's",
+      "minutes",
+      "running"
+     ],
+     "suggestion": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
+     "suggestionFa": "می‌ایستد، ولی جادهٔ اسکس تعمیرات دارد، پس حدود ده دقیقه عقبیم. برو طبقهٔ بالا بنشین — بهترین منظرهٔ لندن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Cheers, I'll sit at the front upstairs.",
+   "translations": {
+    "fa": "مرسی، طبقهٔ بالا جلو می‌نشینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "yellow",
+      "reader",
+      "thing",
+      "card"
+     ],
+     "suggestion": "Here's the 38. Tap your card on the reader — the yellow thing.",
+     "suggestionFa": "اینم ۳۸. کارتت را روی دستگاه بزن — اون زرده.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Can I pay with my phone?",
+   "translations": {
+    "fa": "می‌تونم با گوشی پرداخت کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "upstairs",
+      "front",
+      "let's",
+      "beep",
+      "view"
+     ],
+     "suggestion": "Beep — you're in. Let's go upstairs, best view in town from the front seat.",
+     "suggestionFa": "بیپ — رفتی تو. بریم طبقهٔ بالا، بهترین منظرهٔ شهر از صندلی جلو.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Brilliant, I love the top deck!",
+   "translations": {
+    "fa": "عالی، طبقهٔ بالا را دوست دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything's",
+      "that's",
+      "cinema",
+      "flats",
+      "now"
+     ],
+     "suggestion": "That's the old cinema — it's flats now. Everything's flats now.",
+     "suggestionFa": "اون سینمای قدیمیه — الان آپارتمانه. همه‌چیز الان آپارتمانه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Shame! Were you sad when it closed?",
+   "translations": {
+    "fa": "حیف! وقتی بسته شد ناراحت شدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wasn't",
+      "gutted",
+      "leslie",
+      "don't",
+      "there"
+     ],
+     "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
+     "suggestionFa": "خیلی ناراحت. اولین قرارم اونجا بود. به لزلی نگو که با اون نبود!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Haha, my lips are sealed!",
+   "translations": {
+    "fa": "هاها، لبام قفله!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "cheers",
+      "driver",
+      "press",
+      "would"
+     ],
+     "suggestion": "Ding! That's us — press the bell, would you? And say cheers to the driver.",
+     "suggestionFa": "دینگ! رسیدیم — زنگ را بزن، می‌شه؟ و به راننده بگو مرسی.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Cheers, driver!",
+   "translations": {
+    "fa": "مرسی، آقای راننده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quicker",
+      "angel",
+      "tube",
+      "tell",
+      "mind"
+     ],
+     "suggestion": "Tell you what — hop off at Angel and get the Tube, it's quicker. Mind the gap!",
+     "suggestionFa": "ببین — توی ایستگاه انجل پیاده شو و مترو بگیر، سریع‌تره. مراقب فاصله باش!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

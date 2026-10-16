@@ -1,0 +1,100 @@
+{
+ "id": "weda_illness__as_weda",
+ "characterId": "weda",
+ "level": "A2",
+ "title": "(As Nana Weda) William's under the weather",
+ "titleFa": "(در نقش Nana Weda) ویلیام کمی ناخوش است",
+ "setting": "The nursery, late evening",
+ "settingFa": "اتاق بچه، اواخر شب",
+ "requires": null,
+ "baseId": "weda_illness",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Weda!",
+   "translations": {
+    "fa": "سلام Nana Weda!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forehead",
+      "weather",
+      "lamb's",
+      "under",
+      "feel"
+     ],
+     "suggestion": "Poor lamb's a bit under the weather. Can you feel his forehead — does he feel hot?",
+     "suggestionFa": "طفلکی کمی ناخوشه. پیشونیش رو لمس کن — داغه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, he feels quite hot. Shall we take his temperature?",
+   "translations": {
+    "fa": "آره، کمی داغه. دماش رو بگیریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cupboard",
+      "calpol",
+      "fetch",
+      "glass",
+      "could"
+     ],
+     "suggestion": "38.2. Not too bad. Could you fetch the Calpol from the cupboard and a glass of water?",
+     "suggestionFa": "۳۸.۲. خیلی بد نیست. می‌شه کالپول رو از کابینت بیاری با یه لیوان آب؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Of course — here's the Calpol and some water.",
+   "translations": {
+    "fa": "حتماً — این کالپول و کمی آب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "natural",
+      "morning",
+      "better",
+      "thank",
+      "we'll"
+     ],
+     "suggestion": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
+     "suggestionFa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً بلدی باهاش.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

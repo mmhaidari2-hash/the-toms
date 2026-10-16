@@ -139,6 +139,8 @@ void main() {
       }
     }
     reachable.addAll(c.roles.expand((r) => r.scenes));
+    // Role-switch variants are reached through their base scene.
+    reachable.addAll([for (final s in c.scenes.values) if (s.baseId != null && reachable.contains(s.baseId)) s.id]);
     expect(reachable, containsAll(c.scenes.keys));
     for (final m in c.moments) {
       if (m.cover != null) expect(File(m.cover!).existsSync(), isTrue, reason: m.cover);
