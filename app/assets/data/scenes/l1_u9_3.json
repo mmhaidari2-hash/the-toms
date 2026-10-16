@@ -21,8 +21,8 @@
      "keywords": [
       "cough",
       "i've",
-      "got",
-      "bad"
+      "bad",
+      "got"
      ],
      "suggestion": "I've got a bad cough.",
      "suggestionFa": "سرفهٔ بدی دارم.",
@@ -229,8 +229,8 @@
     },
     {
      "keywords": [
-      "where",
       "thank",
+      "where",
       "get"
      ],
      "suggestion": "Thank you. Where do I get them?",
@@ -269,9 +269,9 @@
    "branches": [
     {
      "keywords": [
-      "seven",
       "three",
       "times",
+      "seven",
       "days"
      ],
      "suggestion": "Three times a day for seven days.",

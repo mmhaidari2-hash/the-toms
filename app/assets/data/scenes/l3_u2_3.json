@@ -21,8 +21,8 @@
      "keywords": [
       "yesterday",
       "bike",
-      "fell",
-      "face"
+      "face",
+      "fell"
      ],
      "suggestion": "Yes, I fell off my bike yesterday and hit my face.",
      "suggestionFa": "بله، دیروز از دوچرخه افتادم و صورتم ضربه خورد.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "eating",
       "toffee",
-      "heard",
-      "apple"
+      "eating",
+      "apple",
+      "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -130,7 +130,7 @@
       "straight",
       "tooth",
       "loose",
-      "felt"
+      "away"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
      "suggestionFa": "نه، ولی دندونم فوراً لق شد.",
@@ -140,8 +140,8 @@
     },
     {
      "keywords": [
-      "went",
       "some",
+      "went",
       "home",
       "put"
      ],

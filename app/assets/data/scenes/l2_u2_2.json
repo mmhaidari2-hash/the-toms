@@ -182,8 +182,8 @@
    "branches": [
     {
      "keywords": [
-      "there",
       "books",
+      "there",
       "three"
      ],
      "suggestion": "There are three books.",
@@ -194,8 +194,8 @@
     },
     {
      "keywords": [
-      "many",
       "only",
+      "many",
       "two"
      ],
      "suggestion": "Not many — only two.",
@@ -283,8 +283,8 @@
     {
      "keywords": [
       "tracked",
-      "take",
-      "i'll"
+      "i'll",
+      "take"
      ],
      "suggestion": "I'll take tracked, please.",
      "suggestionFa": "با رهگیری را می‌گیرم لطفاً.",
@@ -328,9 +328,9 @@
     {
      "keywords": [
       "stamps",
-      "first",
       "class",
-      "some"
+      "first",
+      "have"
      ],
      "suggestion": "Yes, can I have some first-class stamps?",
      "suggestionFa": "آره، می‌شه چندتا تمبر درجه‌یک بدید؟",

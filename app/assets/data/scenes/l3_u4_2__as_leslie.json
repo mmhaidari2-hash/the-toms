@@ -23,9 +23,9 @@
      "keywords": [
       "calculator",
       "energy",
-      "right",
       "bills",
-      "would"
+      "right",
+      "again"
      ],
      "suggestion": "Right, bills day. Pass me that calculator, would you? The energy bill has gone up again.",
      "suggestionFa": "خب، روز قبض‌ها. اون ماشین‌حساب را بده، می‌شه؟ قبض انرژی دوباره رفته بالا.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "heating",
       "showers",
+      "heating",
       "hundred",
-      "pounds",
-      "ryan's"
+      "ryan's",
+      "pounds"
      ],
      "suggestion": "A hundred and eighty pounds! We're using too much heating, I think. And Ryan's showers are far too long.",
      "suggestionFa": "صد و هشتاد پوند! فکر کنم زیادی شوفاژ مصرف می‌کنیم. و دوش‌های رایان خیلی زیادی طولانیه.",
@@ -75,7 +75,7 @@
       "spending",
       "cooking",
       "enough",
-      "money"
+      "we're"
      ],
      "suggestion": "Good idea. And we're spending a lot of money on takeaways. Not enough cooking at home!",
      "suggestionFa": "فکر خوبیه. و داریم کلی پول خرج غذای بیرون‌بر می‌کنیم. به اندازهٔ کافی تو خونه آشپزی نمی‌کنیم!",
@@ -99,8 +99,8 @@
       "mortgage",
       "hundred",
       "council",
-      "after",
-      "isn't"
+      "month",
+      "after"
      ],
      "suggestion": "About four hundred a month on the big shop. There isn't much left after the mortgage and council tax.",
      "suggestionFa": "ماهی حدود چهارصد تا برای خرید اصلی. بعد از قسط خونه و مالیات شهرداری چیز زیادی نمی‌مونه.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "supermarket",
-      "already",
       "cheaper",
-      "that's",
-      "lights"
+      "already",
+      "lights",
+      "that's"
      ],
      "suggestion": "That's very kind, but you already help a lot. Let's just shop at the cheaper supermarket and use fewer lights.",
      "suggestionFa": "خیلی لطف داری، ولی همین الانش خیلی کمک می‌کنی. بیا فقط از سوپرمارکت ارزون‌تر خرید کنیم و چراغ کمتر روشن کنیم.",
@@ -150,7 +150,7 @@
       "takeaway",
       "landing",
       "whoever",
-      "leaves"
+      "buying"
      ],
      "suggestion": "Brilliant. And whoever leaves the landing light on all night is buying the next takeaway!",
      "suggestionFa": "عالی. و هر کی چراغ راهرو را تمام شب روشن بذاره، غذای بیرون‌بر بعدی را می‌خره!",

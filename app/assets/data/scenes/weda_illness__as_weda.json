@@ -48,8 +48,8 @@
      "keywords": [
       "cupboard",
       "calpol",
-      "water",
       "glass",
+      "fetch",
       "could"
      ],
      "suggestion": "38.2. Not too bad. Could you fetch the Calpol from the cupboard and a glass of water?",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "natural",
       "morning",
+      "natural",
       "better",
-      "we'll",
-      "thank"
+      "thank",
+      "we'll"
      ],
      "suggestion": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
      "suggestionFa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً بلدی باهاش.",

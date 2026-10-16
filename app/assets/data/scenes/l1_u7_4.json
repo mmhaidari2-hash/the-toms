@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "nana",
       "sure",
+      "nana",
       "ok"
      ],
      "suggestion": "Sure. Are you OK, Nana?",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "recommend",
       "something",
+      "recommend",
       "excuse",
       "can"
      ],
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "medicine",
-      "needs",
       "hello",
+      "needs",
       "nana"
      ],
      "suggestion": "Hello, my nana needs cough medicine.",
@@ -216,9 +216,9 @@
    "branches": [
     {
      "keywords": [
-      "honey",
       "lemon",
       "colds",
+      "honey",
       "good"
      ],
      "suggestion": "Honey and lemon is good for colds.",
@@ -230,9 +230,9 @@
     {
      "keywords": [
       "better",
+      "hope",
       "soon",
-      "feel",
-      "hope"
+      "feel"
      ],
      "suggestion": "I hope you feel better soon.",
      "suggestionFa": "امیدوارم زود خوب بشید.",

@@ -31,8 +31,8 @@
     {
      "keywords": [
       "didn't",
-      "won",
-      "who"
+      "who",
+      "won"
      ],
      "suggestion": "No, I didn't. Who won?",
      "suggestionFa": "نه، ندیدم. کی برد؟",
@@ -72,8 +72,8 @@
      "keywords": [
       "that's",
       "enjoy",
-      "ryan",
-      "luck"
+      "luck",
+      "ryan"
      ],
      "suggestion": "That's bad luck. Did Ryan enjoy it?",
      "suggestionFa": "بدشانسی بود. رایان لذت برد؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "cold",
-      "did",
       "get",
+      "did",
       "he"
      ],
      "suggestion": "Did he get cold?",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "teenagers",
-      "bring",
+      "coats",
       "never",
-      "coats"
+      "bring"
      ],
      "suggestion": "Teenagers never bring coats!",
      "suggestionFa": "نوجوون‌ها هیچ‌وقت کت نمیارن!",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "bovril",
-      "what's"
+      "what's",
+      "bovril"
      ],
      "suggestion": "What's Bovril?",
      "suggestionFa": "Bovril چیه؟",
@@ -228,9 +228,9 @@
    "branches": [
     {
      "keywords": [
-      "stayed",
-      "rested",
       "didn't",
+      "rested",
+      "stayed",
       "much"
      ],
      "suggestion": "I didn't do much. I stayed at home and rested.",

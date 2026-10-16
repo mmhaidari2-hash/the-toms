@@ -22,7 +22,7 @@
       "permission",
       "without",
       "account",
-      "money"
+      "taken"
      ],
      "suggestion": "I think money was taken from my account without my permission.",
      "suggestionFa": "فکر کنم بدون اجازه‌ام از حسابم پول برداشته شده.",
@@ -90,8 +90,8 @@
     },
     {
      "keywords": [
-      "morning",
       "tuesday",
+      "morning",
       "paid",
       "two"
      ],
@@ -201,7 +201,7 @@
       "happening",
       "again",
       "stop",
-      "can"
+      "how"
      ],
      "suggestion": "How can I stop this happening again?",
      "suggestionFa": "چطوری جلوی تکرارش را بگیرم؟",
