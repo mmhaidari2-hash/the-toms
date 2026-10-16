@@ -1,0 +1,273 @@
+{
+ "id": "l1_u3_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Where's Mr Buttons?",
+ "titleFa": "(در نقش Nicola) آقای دکمه کجاست؟",
+ "setting": "Our house · Level 1",
+ "settingFa": "خانهٔ ما",
+ "requires": null,
+ "level": "A0",
+ "baseId": "l1_u3_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "buttons",
+      "can't",
+      "find",
+      "him"
+     ],
+     "suggestion": "Oh no! Where's Mr Buttons? I can't find him!",
+     "suggestionFa": "وای نه! آقای دکمه کجاست؟ نمی‌تونم پیداش کنم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Don't worry, we can find him.",
+   "translations": {
+    "fa": "نگران نباش، پیداش می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looked",
+      "under",
+      "sofa",
+      "look",
+      "can"
+     ],
+     "suggestion": "No! I looked. Is he under the sofa? Can you look?",
+     "suggestionFa": "نه! نگاه کردم. زیر مبله؟ می‌تونی نگاه کنی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, he isn't under the sofa.",
+   "translations": {
+    "fa": "نه، زیر مبل نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "curtains",
+      "buttons",
+      "ryan's",
+      "behind",
+      "sock"
+     ],
+     "suggestion": "Yuck, Ryan's sock! Is Mr Buttons behind the curtains?",
+     "suggestionFa": "ایش، جوراب رایان! آقای دکمه پشت پرده‌هاست؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Let me check behind the curtains.",
+   "translations": {
+    "fa": "بذار پشت پرده‌ها را نگاه کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "shelf",
+      "books",
+      "next"
+     ],
+     "suggestion": "What about on the shelf? Next to the books?",
+     "suggestionFa": "روی قفسه چی؟ کنار کتاب‌ها؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "There's a teapot on the shelf.",
+   "translations": {
+    "fa": "یه قوری روی قفسه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "william",
+      "have",
+      "got",
+      "mr"
+     ],
+     "suggestion": "William! Have you got Mr Buttons?",
+     "suggestionFa": "ویلیام! آقای دکمه دست توئه؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Look — William is smiling.",
+   "translations": {
+    "fa": "ببین — ویلیام داره لبخند می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "william",
+   "text": "Teddy! In box!",
+   "translations": {
+    "fa": "تدی! تو جعبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "box",
+     "fa": "جعبه"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "In the toy box! Well done, William!",
+   "translations": {
+    "fa": "توی جعبهٔ اسباب‌بازی! آفرین، ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "blocks",
+      "under",
+      "thank",
+      "mr"
+     ],
+     "suggestion": "Mr Buttons! You're under the blocks! Thank you, thank you!",
+     "suggestionFa": "آقای دکمه! زیر بلوک‌هایی! مرسی، مرسی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "You're welcome. He's safe now.",
+   "translations": {
+    "fa": "خواهش می‌کنم. حالا در امانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "count",
+      "seek",
+      "play",
+      "hide",
+      "can"
+     ],
+     "suggestion": "Can you play hide and seek with me? You hide, I count!",
+     "suggestionFa": "با من قایم‌موشک بازی می‌کنی؟ تو قایم شو، من می‌شمرم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "OK! I'll hide behind the door.",
+   "translations": {
+    "fa": "باشه! پشت در قایم می‌شم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ready",
+      "three",
+      "come",
+      "here",
+      "one"
+     ],
+     "suggestion": "One, two, three… ready or not, here I come!",
+     "suggestionFa": "یک، دو، سه… آماده باشی یا نه، دارم میام!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

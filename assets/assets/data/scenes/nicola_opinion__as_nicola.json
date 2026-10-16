@@ -1,0 +1,100 @@
+{
+ "id": "nicola_opinion__as_nicola",
+ "characterId": "nicola",
+ "level": "A2",
+ "title": "(As Nicola) Nicola has an opinion",
+ "titleFa": "(در نقش Nicola) نیکولا نظر دارد",
+ "setting": "Kitchen table, teatime",
+ "settingFa": "میز آشپزخانه، وقت عصرانه",
+ "requires": null,
+ "baseId": "nicola_opinion",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "allowed",
+      "should",
+      "don't",
+      "until"
+     ],
+     "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
+     "suggestionFa": "فکر می‌کنم بچه‌ها باید تا ساعت ده بیدار بمونن. موافق نیستی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I see your point, but you need your sleep for school.",
+   "translations": {
+    "fa": "نظرت را می‌فهمم، ولی برای مدرسه به خواب احتیاج داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "stays",
+      "ryan",
+      "fair",
+      "late"
+     ],
+     "suggestion": "But Ryan stays up late! That's not fair.",
+     "suggestionFa": "ولی رایان تا دیر وقت بیدار می‌مونه! این منصفانه نیست.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "How about a compromise — half eight on Fridays?",
+   "translations": {
+    "fa": "یه راه وسط چطوره — جمعه‌ها تا هشت و نیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "writing",
+      "forget",
+      "can't",
+      "down",
+      "deal"
+     ],
+     "suggestion": "Hmm… deal. But I'm writing it down so you can't forget!",
+     "suggestionFa": "هوم… قبول. ولی می‌نویسمش که یادت نره!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

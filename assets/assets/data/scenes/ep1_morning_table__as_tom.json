@@ -1,0 +1,624 @@
+{
+ "id": "ep1_morning_table__as_tom",
+ "characterId": "tom",
+ "level": "A1",
+ "title": "(As Tom) Ep 1 · The Morning Table",
+ "titleFa": "(در نقش Tom) قسمت ۱ · میز صبحانه",
+ "setting": "The Toms' kitchen, 7:15am",
+ "settingFa": "آشپزخانهٔ خانوادهٔ تام، ۷:۱۵ صبح",
+ "requires": null,
+ "memory": {
+  "en": "the tea was piping hot and William covered the floor in jam",
+  "fa": "چای داغِ داغ بود و ویلیام کف زمین را مربایی کرد"
+ },
+ "episode": 1,
+ "baseId": "ep1_morning_table",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "coffee",
+      "brewed",
+      "cuppa",
+      "pot's"
+     ],
+     "suggestion": "Morning! Pot's just brewed. D'you want a cuppa, or are you a coffee sort?",
+     "suggestionFa": "صبح بخیر! قوری تازه دم کشیده. چای می‌خوری یا اهل قهوه‌ای؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'd love a cuppa, cheers.",
+   "translations": {
+    "fa": "یک فنجان چای عالی می‌شه، مرسی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "leslie",
+   "text": "Would you mind passing the sourdough, please? And mind the crumbs, Ryan.",
+   "translations": {
+    "fa": "ممکنه لطفاً نان ساوردو رو بدی؟ و رایان، مراقب خرده‌نون‌ها باش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "would you mind",
+     "fa": "ممکن است… (مؤدبانه)"
+    },
+    {
+     "word": "sourdough",
+     "fa": "نان ساوردو (خمیرترش)"
+    },
+    {
+     "word": "crumbs",
+     "fa": "خرده‌نان"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Would you mind…?' is the polite way to ask at the table. Reaching across someone is rude — ask them to pass it.",
+    "fa": "«Would you mind…؟» روش مؤدبانهٔ درخواست سر میز است. دست دراز کردن از جلوی دیگری بی‌ادبی است — بخواه که رد کند."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Of course — here you go.",
+   "translations": {
+    "fa": "حتماً — بفرمایید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "william",
+   "text": "Splat! 🍓",
+   "translations": {
+    "fa": "شَلَپ! 🍓"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oops",
+     "fa": "اوه (اشتباه کوچک)"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Oops! Don't worry, William — I'll grab a cloth.",
+   "translations": {
+    "fa": "اوه! نگران نباش ویلیام — یه دستمال میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "Can I have jam on mine? Pleeease?",
+   "translations": {
+    "fa": "می‌شه روی نون من مربا بزنی؟ خواااهش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam",
+     "fa": "مربا"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Course you can — there you go.",
+   "translations": {
+    "fa": "البته که می‌شه — بفرما."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "ryan",
+   "text": "Alright? I'm knackered, mate. Is there any toast left or has Dad scoffed it?",
+   "translations": {
+    "fa": "چطوری؟ داغونم رفیق. نون تُست مونده یا بابا همه‌شو لمبونده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "alright?",
+     "fa": "سلام/چطوری؟ (خودمانی)"
+    },
+    {
+     "word": "knackered",
+     "fa": "خیلی خسته"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    },
+    {
+     "word": "scoffed",
+     "fa": "با ولع خوردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Alright?' is a greeting, not a real question — answer 'Yeah, alright, you?'",
+    "fa": "«Alright?» یک سلام است نه سؤال واقعی — جواب بده «Yeah, alright, you?»"
+   }
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "There's a bit left — have mine, mate.",
+   "translations": {
+    "fa": "یه کم مونده — مال منو بردار رفیق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "leslie",
+   "text": "Right, lunchboxes. Nicola wants crisps, I say an apple. Back me up?",
+   "translations": {
+    "fa": "خب، ظرف ناهار. نیکولا چیپس می‌خواد، من می‌گم سیب. پشتم را می‌گیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crisps",
+     "fa": "چیپس (در آمریکا: chips)"
+    },
+    {
+     "word": "back me up",
+     "fa": "از من حمایت کن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Crisps = chips in American; chips = fries. Every British kid has a favourite flavour.",
+    "fa": "crisps یعنی چیپس آمریکایی؛ chips یعنی سیب‌زمینی سرخ‌کرده."
+   }
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Maybe both — a small bag of crisps?",
+   "translations": {
+    "fa": "شاید هر دو — یه بستهٔ کوچیک چیپس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "nicola",
+   "text": "Prawn cocktail crisps! Pleeease!",
+   "translations": {
+    "fa": "چیپس طعم میگو! لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prawn cocktail",
+     "fa": "طعم میگو (چیپس)"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Only if you eat your apple too.",
+   "translations": {
+    "fa": "فقط اگه سیبت را هم بخوری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "leslie",
+   "text": "Deal. Oh, and can someone check the weather? I need to know about coats.",
+   "translations": {
+    "fa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chilly",
+     "fa": "خنک/سرد"
+    },
+    {
+     "word": "showers",
+     "fa": "رگبار"
+    }
+   ]
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "It says it'll be chilly with showers.",
+   "translations": {
+    "fa": "می‌گه سرد با رگبار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "william",
+   "text": "*points at window* Bir-dy!",
+   "translations": {
+    "fa": "*به پنجره اشاره می‌کنه* پرنده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r18",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "robin",
+     "fa": "سینه‌سرخ"
+    },
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ],
+   "cultureNote": {
+    "en": "The robin is Britain's favourite bird and appears on almost every Christmas card.",
+    "fa": "سینه‌سرخ پرندهٔ محبوب بریتانیاست و تقریباً روی همه کارت‌های کریسمس هست."
+   }
+  },
+  "r18": {
+   "id": "r18",
+   "speaker": "mehdi",
+   "text": "Yes, William — a robin!",
+   "translations": {
+    "fa": "آره، ویلیام — سینه‌سرخ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r19",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r19": {
+   "id": "r19",
+   "speaker": "leslie",
+   "text": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",
+   "translations": {
+    "fa": "هشت و ده دقیقه! همه کفش بپوشن. می‌شه کیف کتاب نیکولا را از راهرو بیاری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r20",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ten past eight",
+     "fa": "هشت و ده دقیقه"
+    },
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب مدرسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say times as 'ten past eight', 'half eight' (8:30) — 'half eight' never means 7:30!",
+    "fa": "بریتانیایی‌ها می‌گویند «half eight» یعنی ۸:۳۰ — نه ۷:۳۰!"
+   }
+  },
+  "r20": {
+   "id": "r20",
+   "speaker": "mehdi",
+   "text": "Sure, I'll get it now.",
+   "translations": {
+    "fa": "حتماً، الان میارمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r21",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r21": {
+   "id": "r21",
+   "speaker": "nicola",
+   "text": "Thank you! Will you pick me up later? Pinky promise?",
+   "translations": {
+    "fa": "مرسی! بعداً میای دنبالم؟ قول انگشتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r22",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pick me up",
+     "fa": "دنبالم بیا"
+    },
+    {
+     "word": "pinky promise",
+     "fa": "قول انگشتی"
+    }
+   ]
+  },
+  "r22": {
+   "id": "r22",
+   "speaker": "mehdi",
+   "text": "Pinky promise — see you at three.",
+   "translations": {
+    "fa": "قول انگشتی — ساعت سه می‌بینمت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle",
+      "right",
+      "waits",
+      "warm",
+      "keep"
+     ],
+     "suggestion": "Right, I'm off — the 38 waits for no man. Keep the kettle warm for me, eh?",
+     "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ منتظر هیچ‌کس نمی‌مونه. کتری رو برام گرم نگه دار، ها؟",
+     "trustDelta": 5,
+     "next": "r23",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r23": {
+   "id": "r23",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

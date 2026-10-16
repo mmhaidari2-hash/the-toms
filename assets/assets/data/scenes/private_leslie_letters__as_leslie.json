@@ -1,0 +1,100 @@
+{
+ "id": "private_leslie_letters__as_leslie",
+ "characterId": "leslie",
+ "level": "B1",
+ "title": "(As Leslie) Leslie's letters",
+ "titleFa": "(در نقش Leslie) نامه‌های لزلی",
+ "setting": "The attic, a rainy Sunday",
+ "settingFa": "اتاق زیرشیروانی، یک یکشنبهٔ بارانی",
+ "requires": null,
+ "baseId": "private_leslie_letters",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nineteen",
+      "letters",
+      "summer",
+      "don't",
+      "these"
+     ],
+     "suggestion": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
+     "suggestionFa": "این‌ها نامه‌های تامه از وقتی نوزده‌ساله بودیم. یه تابستون هر روز یه نامه نوشت. بهش نگی نگهشون داشتم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "That's so sweet — your secret's safe with me.",
+   "translations": {
+    "fa": "خیلی شیرینه — رازت پیش من می‌مونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spelling",
+      "rubbish",
+      "signed",
+      "always",
+      "still"
+     ],
+     "suggestion": "He was rubbish at spelling. Still is. But he always signed off 'Love you more than tea'.",
+     "suggestionFa": "املاش افتضاح بود. هنوزم هست. ولی همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم».",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "'More than tea' — that's true love in Britain!",
+   "translations": {
+    "fa": "«بیشتر از چای» — این در بریتانیا یعنی عشق واقعی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "fancy",
+      "cuppa",
+      "right",
+      "word"
+     ],
+     "suggestion": "Exactly. Right — not a word to Tom. Fancy a cuppa?",
+     "suggestionFa": "دقیقاً. خب — یه کلمه هم به تام نگی. چای می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

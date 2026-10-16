@@ -1,0 +1,125 @@
+{
+ "id": "nicola_birthday__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Nicola's 6th birthday",
+ "titleFa": "(در نقش Nicola) تولد شش‌سالگی نیکولا",
+ "setting": "The living room, balloons everywhere",
+ "settingFa": "اتاق نشیمن، پر از بادکنک",
+ "requires": null,
+ "level": "A1",
+ "baseId": "nicola_birthday",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "badge",
+      "came",
+      "look",
+      "says",
+      "six"
+     ],
+     "suggestion": "You came! You came! Look at my badge — it says I'm SIX!",
+     "suggestionFa": "اومدی! اومدی! بج منو ببین — نوشته شش‌ساله‌ام!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Happy birthday, Nicola! Many happy returns!",
+   "translations": {
+    "fa": "تولدت مبارک نیکولا! صد سال به این سال‌ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wrapped",
+      "present",
+      "bring",
+      "open",
+      "now"
+     ],
+     "suggestion": "Did you bring me a present? Is it wrapped? Can I open it NOW?",
+     "suggestionFa": "برام کادو آوردی؟ کادوپیچ شده؟ می‌تونم همین الان بازش کنم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Here you go — go on, open it!",
+   "translations": {
+    "fa": "بفرما — بازش کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "singing",
+      "parcel",
+      "then",
+      "play"
+     ],
+     "suggestion": "Everyone's singing! Will you sing with me? And then we play pass the parcel!",
+     "suggestionFa": "همه دارن می‌خونن! با من می‌خونی؟ بعدش «پاس د پارسل» بازی می‌کنیم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Of course! Happy birthday to you…",
+   "translations": {
+    "fa": "البته! تولد تولد تولدت مبارک…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "friend",
+      "thank",
+      "being",
+      "ever"
+     ],
+     "suggestion": "Best. Birthday. EVER. Thank you for being my friend!",
+     "suggestionFa": "بهترین. تولد. تاریخ! ممنون که دوستمی!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "private_tom_dad__as_tom",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "(As Tom) Tom's dad's bus",
+ "titleFa": "(در نقش Tom) اتوبوس پدر تام",
+ "setting": "The garden bench, late evening",
+ "settingFa": "نیمکت باغ، اواخر شب",
+ "requires": null,
+ "baseId": "private_tom_dad",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "retired",
+      "people",
+      "thirty",
+      "drove",
+      "years"
+     ],
+     "suggestion": "Never told many people this. My dad drove the 38 too. Thirty-one years. I took his route when he retired.",
+     "suggestionFa": "اینو به خیلیا نگفتم. بابام هم راننده‌ی ۳۸ بود. سی‌ویک سال. وقتی بازنشسته شد مسیرش رو گرفتم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "He must be so proud of you.",
+   "translations": {
+    "fa": "حتماً خیلی بهت افتخار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mornings",
+      "winters",
+      "there",
+      "still",
+      "depot"
+     ],
+     "suggestion": "He was. Lost him two winters back. Some mornings I still wave at the depot like he's there. Daft, eh?",
+     "suggestionFa": "افتخار می‌کرد. دو زمستون پیش از دستش دادم. بعضی صبح‌ها هنوز برای پایانه دست تکون می‌دم انگار اون‌جاست. احمقانه‌ست، نه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "It's not daft at all. I'm so sorry.",
+   "translations": {
+    "fa": "اصلاً احمقانه نیست. خیلی متأسفم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "cheers",
+      "family",
+      "told",
+      "mate"
+     ],
+     "suggestion": "Cheers, mate. You're family now — that's why I told you.",
+     "suggestionFa": "مرسی رفیق. تو حالا خانواده‌ای — واسه همین بهت گفتم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

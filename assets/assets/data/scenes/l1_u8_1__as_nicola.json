@@ -1,0 +1,230 @@
+{
+ "id": "l1_u8_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) At the park",
+ "titleFa": "(در نقش Nicola) در پارک",
+ "setting": "Right now! · Level 1",
+ "settingFa": "همین الان!",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u8_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "running",
+      "really",
+      "look",
+      "fast"
+     ],
+     "suggestion": "Look at me! I'm running! I'm running really fast!",
+     "suggestionFa": "منو ببین! دارم می‌دوم! خیلی تند دارم می‌دوم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "You're very fast!",
+   "translations": {
+    "fa": "خیلی سریعی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "eating",
+      "what's",
+      "doing",
+      "again"
+     ],
+     "suggestion": "What's William doing? Is he eating sand again?",
+     "suggestionFa": "ویلیام داره چی کار می‌کنه؟ دوباره داره شن می‌خوره؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, he's playing on the slide.",
+   "translations": {
+    "fa": "نه، داره روی سرسره بازی می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "william",
+   "text": "Wheee! Slide! Again!",
+   "translations": {
+    "fa": "ویییی! سرسره! دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "fun",
+     "fa": "سرگرمی/خوشی"
+    },
+    {
+     "word": "one more time",
+     "fa": "یک بار دیگر"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "One more time, William!",
+   "translations": {
+    "fa": "یه بار دیگه، ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "higher",
+      "please",
+      "swings",
+      "push"
+     ],
+     "suggestion": "Push me on the swings, please! Higher! Higher!",
+     "suggestionFa": "لطفاً منو روی تاب هل بده! بالاتر! بالاتر!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I'm pushing! Hold on tight!",
+   "translations": {
+    "fa": "دارم هل می‌دم! محکم بگیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chasing",
+      "flying",
+      "those",
+      "ducks",
+      "boys"
+     ],
+     "suggestion": "Look! Those boys are flying a kite. And that dog is chasing the ducks!",
+     "suggestionFa": "ببین! اون پسرها دارن بادبادک هوا می‌کنن. و اون سگ داره اردک‌ها را دنبال می‌کنه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "The ducks are flying away!",
+   "translations": {
+    "fa": "اردک‌ها دارن فرار می‌کنن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouting",
+      "biscuit",
+      "owner",
+      "come",
+      "he's"
+     ],
+     "suggestion": "Ha ha! He's all wet! Now his owner is shouting. \"Biscuit! Come here!\"",
+     "suggestionFa": "ها ها! خیس خیس شده! حالا صاحبش داره داد می‌زنه. «بیسکویت! بیا اینجا!»",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Is it Mrs Patel's dog?",
+   "translations": {
+    "fa": "سگ خانم پاتله؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "starting",
+      "running",
+      "quick",
+      "let's"
+     ],
+     "suggestion": "It's starting to rain! Quick, everyone's running home! Let's go!",
+     "suggestionFa": "داره بارون میگیره! زود، همه دارن می‌دون خونه! بریم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

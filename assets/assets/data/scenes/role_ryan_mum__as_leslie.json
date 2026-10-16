@@ -1,0 +1,100 @@
+{
+ "id": "role_ryan_mum__as_leslie",
+ "characterId": "leslie",
+ "level": "A1",
+ "title": "(As Leslie) (As Ryan) Mum, can I…?",
+ "titleFa": "(در نقش Leslie) (در نقش رایان) مامان، می‌شه…؟",
+ "setting": "Kitchen, after school",
+ "settingFa": "آشپزخانه، بعد از مدرسه",
+ "requires": null,
+ "baseId": "role_ryan_mum",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homework",
+      "school",
+      "hello",
+      "love",
+      "any"
+     ],
+     "suggestion": "Hello, love. How was school? Any homework?",
+     "suggestionFa": "سلام عزیزم. مدرسه چطور بود؟ تکلیف داری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "It was fine. I've got a bit of maths homework.",
+   "translations": {
+    "fa": "خوب بود. یه کم تکلیف ریاضی دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homework",
+      "first",
+      "then",
+      "fifa",
+      "deal"
+     ],
+     "suggestion": "Homework first, then FIFA. Deal?",
+     "suggestionFa": "اول تکلیف، بعد فیفا. قبول؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Deal. Can Josh come round after?",
+   "translations": {
+    "fa": "قبول. جاش می‌تونه بعدش بیاد خونه‌مون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "room's",
+      "shoes",
+      "sofa",
+      "take",
+      "tidy"
+     ],
+     "suggestion": "Only if your room's tidy. And take your shoes off the sofa!",
+     "suggestionFa": "فقط اگه اتاقت مرتب باشه. و کفش‌هات رو از روی مبل بردار!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

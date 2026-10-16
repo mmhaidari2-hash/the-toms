@@ -1,0 +1,125 @@
+{
+ "id": "christmas_dinner__as_leslie",
+ "characterId": "leslie",
+ "level": "A1",
+ "title": "(As Leslie) Christmas dinner",
+ "titleFa": "(در نقش Leslie) شام کریسمس",
+ "setting": "The Thompson house, 25 December",
+ "settingFa": "خانهٔ تام، ۲۵ دسامبر",
+ "requires": null,
+ "baseId": "christmas_dinner",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "cracker",
+      "merry",
+      "come",
+      "down"
+     ],
+     "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
+     "suggestionFa": "کریسمس مبارک! بیا بنشین — با من یک کراکر بکش!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Merry Christmas! Okay — one, two, three, pull!",
+   "translations": {
+    "fa": "کریسمس مبارک! باشه — یک، دو، سه، بکش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paper",
+      "crown",
+      "bang",
+      "joke",
+      "won"
+     ],
+     "suggestion": "Bang! You won! Put your paper crown on. What does your joke say?",
+     "suggestionFa": "بنگ! تو بردی! تاج کاغذی‌ات را بگذار. جوکت چه می‌گوید؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What do snowmen eat for lunch? Iceburgers!",
+   "translations": {
+    "fa": "آدم‌برفی‌ها ناهار چه می‌خورند؟ آیس‌برگر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "potatoes",
+      "blankets",
+      "terrible",
+      "turkey",
+      "would"
+     ],
+     "suggestion": "Ha! Terrible! Now, would you like turkey, pigs in blankets and roast potatoes?",
+     "suggestionFa": "ها! افتضاح بود! حالا بوقلمون، سوسیس‌پیچ و سیب‌زمینی تنوری می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes please — everything! It smells amazing.",
+   "translations": {
+    "fa": "بله لطفاً — همه‌چیز! بوی فوق‌العاده‌ای دارد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "presents",
+      "everyone",
+      "pudding",
+      "cheers"
+     ],
+     "suggestion": "Wonderful. Then pudding, presents, and the King's speech at three. Cheers, everyone!",
+     "suggestionFa": "عالی. بعد دسر، کادوها، و سخنرانی پادشاه ساعت سه. به سلامتی همه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

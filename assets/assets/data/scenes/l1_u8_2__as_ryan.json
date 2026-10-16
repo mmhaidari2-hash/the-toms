@@ -1,0 +1,200 @@
+{
+ "id": "l1_u8_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Can you…?",
+ "titleFa": "(در نقش Ryan) می‌تونی…؟",
+ "setting": "Right now! · Level 1",
+ "settingFa": "همین الان!",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u8_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "player",
+      "come",
+      "play",
+      "more"
+     ],
+     "suggestion": "Can you play football? Come on, we need one more player.",
+     "suggestionFa": "فوتبال بلدی؟ بیا، یه بازیکن دیگه لازم داریم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I can play a bit.",
+   "translations": {
+    "fa": "آره، یه کم بلدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rubbish",
+      "keeper",
+      "nice",
+      "goal",
+      "can"
+     ],
+     "suggestion": "Nice. Can you go in goal? Our keeper is rubbish.",
+     "suggestionFa": "عالی. می‌تونی دروازه‌بان باشی؟ دروازه‌بانمون افتضاحه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "OK, I can be the goalkeeper.",
+   "translations": {
+    "fa": "باشه، می‌تونم دروازه‌بان باشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stress",
+      "chips",
+      "can't",
+      "many",
+      "fast"
+     ],
+     "suggestion": "Ha, no stress. Can you run fast? I can't — too many chips!",
+     "suggestionFa": "ها، استرس نداره. سریع می‌تونی بدوی؟ من نمی‌تونم — زیادی چیپس می‌خورم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I can run quite fast.",
+   "translations": {
+    "fa": "نسبتاً سریع می‌تونم بدوم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "languages",
+      "other",
+      "speak",
+      "right",
+      "farsi"
+     ],
+     "suggestion": "Can you speak other languages? You speak Farsi, right?",
+     "suggestionFa": "زبان‌های دیگه بلدی؟ فارسی بلدی، نه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes, I can speak Farsi and English.",
+   "translations": {
+    "fa": "آره، فارسی و انگلیسی بلدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "bonjour",
+      "that's",
+      "french",
+      "speak"
+     ],
+     "suggestion": "That's sick! I can only speak English. And a bit of French. \"Bonjour!\"",
+     "suggestionFa": "خیلی باحاله! من فقط انگلیسی بلدم. و یه کم فرانسوی. «بونژور!»",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Can you teach me some slang?",
+   "translations": {
+    "fa": "می‌تونی یه کم اصطلاح عامیانه یادم بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "score",
+      "great",
+      "means",
+      "peng"
+     ],
+     "suggestion": "Deal! \"Sick\" means great, \"peng\" means really nice. Now, can you score?",
+     "suggestionFa": "قبول! «sick» یعنی عالی، «peng» یعنی خیلی خوب. حالا گل می‌تونی بزنی؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I can try. Pass me the ball!",
+   "translations": {
+    "fa": "می‌تونم امتحان کنم. توپ را پاس بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "same",
+      "week",
+      "play",
+      "time"
+     ],
+     "suggestion": "Get in! What a goal! You can definitely play. Same time next week?",
+     "suggestionFa": "ایول! چه گلی! قطعاً بلدی بازی کنی. هفتهٔ بعد همین ساعت؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

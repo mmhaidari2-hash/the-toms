@@ -33,8 +33,8 @@
     {
      "keywords": [
       "have",
-      "can",
-      "egg"
+      "egg",
+      "can"
      ],
      "suggestion": "Can I have an egg, please?",
      "suggestionFa": "می‌شه یه تخم‌مرغ داشته باشم، لطفاً؟",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "yucky",
-      "let",
-      "try"
+      "try",
+      "let"
      ],
      "suggestion": "Yucky? Let me try it!",
      "suggestionFa": "بدمزه؟ بذار امتحانش کنم!",
@@ -178,10 +178,10 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "please",
-      "juice",
-      "glass"
+      "orange",
+      "glass",
+      "juice"
      ],
      "suggestion": "Yes, a glass of orange juice, please.",
      "suggestionFa": "بله، یه لیوان آب پرتقال، لطفاً.",

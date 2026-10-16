@@ -1,0 +1,174 @@
+{
+ "id": "l1_u8_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) What are you doing?",
+ "titleFa": "(در نقش Leslie) داری چی کار می‌کنی؟",
+ "setting": "Right now! · Level 1",
+ "settingFa": "همین الان!",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u8_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doing",
+      "home",
+      "love",
+      "hi"
+     ],
+     "suggestion": "Hi love, it's me. Are you at home? What are you doing?",
+     "suggestionFa": "سلام عزیزم، منم. خونه‌ای؟ داری چی کار می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'm watching telly.",
+   "translations": {
+    "fa": "دارم تلویزیون می‌بینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homework",
+      "lovely",
+      "doing",
+      "check",
+      "ryan"
+     ],
+     "suggestion": "Lovely. Is Ryan doing his homework? Can you check?",
+     "suggestionFa": "چه خوب. رایان داره تکلیفش را انجام می‌ده؟ می‌تونی چک کنی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, he's playing video games.",
+   "translations": {
+    "fa": "نه، داره بازی ویدیویی می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "what's",
+      "doing",
+      "knew",
+      "tell"
+     ],
+     "suggestion": "I knew it! Tell him to turn it off. What's Nicola doing?",
+     "suggestionFa": "می‌دونستم! بهش بگو خاموشش کنه. نیکولا چی کار می‌کنه؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "She's drawing a picture.",
+   "translations": {
+    "fa": "داره نقاشی می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "quiet",
+      "being",
+      "he's",
+      "aw"
+     ],
+     "suggestion": "Aw. And William? He's being very quiet. Too quiet…",
+     "suggestionFa": "آخی. ویلیام چی؟ خیلی ساکته. زیادی ساکت…",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "He's sleeping on the sofa.",
+   "translations": {
+    "fa": "داره روی مبل می‌خوابه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goodness",
+      "sleeping",
+      "waiting",
+      "thank",
+      "usual"
+     ],
+     "suggestion": "Oh, he's sleeping! Thank goodness. I'm waiting for the bus now. It's late, as usual.",
+     "suggestionFa": "آه، خوابیده! خدا را شکر. الان منتظر اتوبوسم. طبق معمول دیر کرده.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Is it raining there?",
+   "translations": {
+    "fa": "اونجا بارون میاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "getting",
+      "twenty",
+      "please",
+      "love"
+     ],
+     "suggestion": "Yes please, love! I'm getting on the bus now. See you in twenty minutes!",
+     "suggestionFa": "آره لطفاً عزیزم! الان دارم سوار اتوبوس می‌شم. بیست دقیقه دیگه می‌بینمت!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
