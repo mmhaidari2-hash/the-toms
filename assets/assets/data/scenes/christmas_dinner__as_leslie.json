@@ -24,8 +24,8 @@
       "christmas",
       "cracker",
       "merry",
-      "come",
-      "down"
+      "pull",
+      "come"
      ],
      "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
      "suggestionFa": "کریسمس مبارک! بیا بنشین — با من یک کراکر بکش!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "crown",
       "paper",
+      "crown",
       "joke",
       "bang",
       "say"
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "potatoes",
       "terrible",
       "blankets",
-      "potatoes",
       "turkey",
       "roast"
      ],
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "wonderful",
-      "everyone",
       "presents",
+      "everyone",
       "pudding",
       "speech"
      ],

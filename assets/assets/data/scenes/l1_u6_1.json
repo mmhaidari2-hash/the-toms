@@ -143,9 +143,9 @@
     {
      "keywords": [
       "don't",
-      "need",
       "coat",
-      "fine"
+      "fine",
+      "need"
      ],
      "suggestion": "I don't need a coat. I'm fine.",
      "suggestionFa": "کت لازم ندارم. خوبم.",
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "country",
       "october",
+      "country",
       "hot"
      ],
      "suggestion": "In my country it's hot in October.",

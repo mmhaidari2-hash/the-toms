@@ -1,0 +1,295 @@
+{
+ "id": "l2_u9_2",
+ "characterId": "nicola",
+ "title": "A day at the seaside",
+ "titleFa": "یک روز کنار دریا",
+ "setting": "Weekends and trips · Level 2",
+ "settingFa": "آخر هفته و سفر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Do you remember the seaside last Sunday? It was the best day ever!",
+   "translations": {
+    "fa": "یادته یکشنبهٔ پیش کنار دریا؟ بهترین روز دنیا بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blackpool",
+      "went",
+      "we"
+     ],
+     "suggestion": "Yes! We went to Blackpool.",
+     "suggestionFa": "آره! رفتیم بلک‌پول.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "best",
+      "did"
+     ],
+     "suggestion": "What did you like best?",
+     "suggestionFa": "چیش را از همه بیشتر دوست داشتی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seaside",
+     "fa": "کنار دریا"
+    },
+    {
+     "word": "went",
+     "fa": "رفتیم"
+    },
+    {
+     "word": "best day ever",
+     "fa": "بهترین روز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "I swam in the sea! It was SO cold. Daddy screamed louder than me!",
+   "translations": {
+    "fa": "تو دریا شنا کردم! خیلی سرد بود. بابا از من بلندتر جیغ زد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandcastle",
+      "build",
+      "did",
+      "ha"
+     ],
+     "suggestion": "Ha! Did you build a sandcastle?",
+     "suggestionFa": "ها! قلعهٔ شنی ساختی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "funny",
+      "was",
+      "saw",
+      "him"
+     ],
+     "suggestion": "I saw him! He was so funny.",
+     "suggestionFa": "دیدمش! خیلی بامزه بود.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swam",
+     "fa": "شنا کرد"
+    },
+    {
+     "word": "sea",
+     "fa": "دریا"
+    },
+    {
+     "word": "screamed",
+     "fa": "جیغ زد"
+    },
+    {
+     "word": "sandcastle",
+     "fa": "قلعهٔ شنی"
+    },
+    {
+     "word": "saw",
+     "fa": "دید"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Yes! A huge one. Then a wave came and knocked it down. I cried a bit.",
+   "translations": {
+    "fa": "آره! یه دونهٔ خیلی بزرگ. بعد یه موج اومد و خرابش کرد. یه کم گریه کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chips",
+      "then",
+      "fish",
+      "but"
+     ],
+     "suggestion": "Oh no. But then we ate fish and chips!",
+     "suggestionFa": "ای وای. ولی بعدش ماهی و چیپس خوردیم!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "another",
+      "make",
+      "did",
+      "one"
+     ],
+     "suggestion": "Did you make another one?",
+     "suggestionFa": "یکی دیگه ساختی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "huge",
+     "fa": "خیلی بزرگ"
+    },
+    {
+     "word": "wave",
+     "fa": "موج"
+    },
+    {
+     "word": "knocked down",
+     "fa": "خراب کرد"
+    },
+    {
+     "word": "cried",
+     "fa": "گریه کرد"
+    },
+    {
+     "word": "ate",
+     "fa": "خوردیم"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Fish and chips on the beach! A seagull stole Mummy's chip!",
+   "translations": {
+    "fa": "ماهی و چیپس کنار ساحل! یه مرغ دریایی چیپس مامان را دزدید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "right",
+      "flew",
+      "her"
+     ],
+     "suggestion": "I remember! It flew right at her!",
+     "suggestionFa": "یادمه! مستقیم به سمتش پرواز کرد!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "naughty",
+      "seagull"
+     ],
+     "suggestion": "Naughty seagull!",
+     "suggestionFa": "مرغ دریایی شیطون!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "beach",
+     "fa": "ساحل"
+    },
+    {
+     "word": "seagull",
+     "fa": "مرغ دریایی"
+    },
+    {
+     "word": "stole",
+     "fa": "دزدید"
+    },
+    {
+     "word": "flew",
+     "fa": "پرواز کرد"
+    },
+    {
+     "word": "naughty",
+     "fa": "شیطان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Fish and chips at the seaside is a classic British day out. Watch out for the seagulls!",
+    "fa": "ماهی و چیپس کنار دریا یک تفریح کلاسیک بریتانیایی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "And then we had ice cream and went on the pier. Can we go again next weekend?",
+   "translations": {
+    "fa": "بعدش بستنی خوردیم و رفتیم روی اسکله. میشه آخر هفتهٔ بعد دوباره بریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "maybe"
+     ],
+     "suggestion": "Maybe in the summer.",
+     "suggestionFa": "شاید تابستون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "daddy",
+      "mummy",
+      "let's",
+      "ask"
+     ],
+     "suggestion": "Let's ask Mummy and Daddy.",
+     "suggestionFa": "بیا از مامان و بابا بپرسیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pier",
+     "fa": "اسکله"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "summer",
+     "fa": "تابستان"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Yes! I'm going to ask them right now. MUMMY!",
+   "translations": {
+    "fa": "آره! همین الان ازشون می‌پرسم. مامااان!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

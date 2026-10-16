@@ -1,0 +1,269 @@
+{
+ "id": "l2_u4_4__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Complaining politely",
+ "titleFa": "(در نقش Ryan) شکایت مؤدبانه",
+ "setting": "Shops & cafés · Level 2",
+ "settingFa": "مغازه و کافه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u4_4",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "ordered",
+      "coffee",
+      "wrong",
+      "mate"
+     ],
+     "suggestion": "Mate, this is wrong. I ordered a hot chocolate and this is a coffee. I hate coffee!",
+     "suggestionFa": "رفیق، این اشتباهه. من شکلات داغ سفارش دادم و این قهوه‌ست. از قهوه متنفرم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Let's ask them politely to change it.",
+   "translations": {
+    "fa": "بیا مؤدبانه ازشون بخوایم عوضش کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "complain",
+      "brits",
+      "never",
+      "moan",
+      "fine"
+     ],
+     "suggestion": "OK, you do it. Brits never complain — we just say \"it's fine\" and then moan at home!",
+     "suggestionFa": "باشه، تو انجامش بده. بریتانیایی‌ها هیچ‌وقت شکایت نمی‌کنن — فقط می‌گن «اشکالی نداره» و بعد تو خونه غر می‌زنن!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ha! I'll be polite but clear.",
+   "translations": {
+    "fa": "ها! مؤدب ولی واضح می‌گم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "sophie",
+   "text": "Everything alright here, lads?",
+   "translations": {
+    "fa": "همه چی خوبه بچه‌ها؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mistake",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "everything alright",
+     "fa": "همه چیز رو به راه است"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Sorry, I think there's been a mistake. He ordered a hot chocolate.",
+   "translations": {
+    "fa": "ببخشید، فکر کنم اشتباهی شده. ایشون شکلات داغ سفارش داده بودن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "sophie",
+   "text": "Oh no, I'm so sorry! That's my fault. I'll make you a fresh one right away.",
+   "translations": {
+    "fa": "ای وای، خیلی متأسفم! تقصیر منه. همین الان یه تازه‌اش را درست می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fault",
+     "fa": "تقصیر"
+    },
+    {
+     "word": "fresh",
+     "fa": "تازه"
+    },
+    {
+     "word": "right away",
+     "fa": "فوراً"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "No problem. Thanks very much.",
+   "translations": {
+    "fa": "مشکلی نیست. خیلی ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "sophie",
+   "text": "There you go — one hot chocolate, with extra marshmallows to say sorry!",
+   "translations": {
+    "fa": "بفرمایید — یه شکلات داغ، با مارشمالوی اضافه برای عذرخواهی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    },
+    {
+     "word": "marshmallows",
+     "fa": "مارشمالو"
+    },
+    {
+     "word": "to say sorry",
+     "fa": "برای عذرخواهی"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Brilliant, thank you!",
+   "translations": {
+    "fa": "عالیه، ممنون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "marshmallows",
+      "complain",
+      "teacher",
+      "result",
+      "extra"
+     ],
+     "suggestion": "Result! Extra marshmallows. You're good at this. Next time you can complain about my maths teacher!",
+     "suggestionFa": "ایول! مارشمالوی اضافه. تو این کار واردی. دفعهٔ بعد می‌تونی از معلم ریاضیم شکایت کنی!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

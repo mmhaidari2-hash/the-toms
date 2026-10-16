@@ -24,8 +24,8 @@
       "morning",
       "watch",
       "can't",
-      "find",
-      "time"
+      "time",
+      "find"
      ],
      "suggestion": "Morning! What time is it? I can't find my watch.",
      "suggestionFa": "صبح بخیر! ساعت چنده؟ ساعتم را پیدا نمی‌کنم.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "quarter",
-      "train",
       "eight",
+      "train",
       "past",
       "late"
      ],
@@ -74,8 +74,8 @@
       "where",
       "table",
       "quick",
-      "keys",
-      "they"
+      "they",
+      "keys"
      ],
      "suggestion": "Where are my keys? Quick — are they on the table?",
      "suggestionFa": "کلیدهام کجان؟ زود — روی میزن؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "shepherd's",
-      "lovely",
       "making",
+      "lovely",
       "nana's",
       "don't"
      ],
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "right",
+      "see",
       "off",
       "bye",
-      "see",
       "six"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "time's",
-      "silly",
+      "cheers",
       "clock",
+      "silly",
       "oven"
      ],
      "suggestion": "Oh — the time's on the oven clock! Silly me. Cheers!",

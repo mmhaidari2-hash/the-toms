@@ -1,0 +1,278 @@
+{
+ "id": "l2_u10_3",
+ "characterId": "sal",
+ "title": "Refusing politely",
+ "titleFa": "رد کردن مؤدبانه",
+ "setting": "Invitations and problems · Level 2",
+ "settingFa": "دعوت‌ها و مشکلات",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sal",
+   "text": "Same as last time, mate? Short back and sides?",
+   "translations": {
+    "fa": "مثل دفعهٔ قبل رفیق؟ پشت و بغل کوتاه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "time",
+      "same",
+      "last"
+     ],
+     "suggestion": "Yes, please, same as last time.",
+     "suggestionFa": "آره لطفاً، مثل دفعهٔ قبل.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "actually",
+      "longer",
+      "rather",
+      "keep"
+     ],
+     "suggestion": "Actually, I'd rather keep it a bit longer on top.",
+     "suggestionFa": "راستش ترجیح می‌دم بالاش یه کم بلندتر بمونه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "same as",
+     "fa": "مثل"
+    },
+    {
+     "word": "short back and sides",
+     "fa": "پشت و بغل کوتاه"
+    },
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    },
+    {
+     "word": "on top",
+     "fa": "بالای سر"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Short back and sides\" is a classic British haircut — short at the back and sides, longer on top.",
+    "fa": "یک مدل موی کلاسیک بریتانیایی."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sal",
+   "text": "No problem. Hey, do you want to try a beard trim too? Only a fiver extra.",
+   "translations": {
+    "fa": "مشکلی نیست. هی، اصلاح ریش هم می‌خوای امتحان کنی؟ فقط پنج پوند بیشتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "today",
+      "but"
+     ],
+     "suggestion": "Thanks, but not today.",
+     "suggestionFa": "ممنون، ولی امروز نه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "why"
+     ],
+     "suggestion": "Why not? Let's do it.",
+     "suggestionFa": "چرا که نه؟ بزن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "beard trim",
+     "fa": "مرتب کردن ریش"
+    },
+    {
+     "word": "a fiver",
+     "fa": "پنج پوند"
+    },
+    {
+     "word": "not today",
+     "fa": "امروز نه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"A fiver\" = a five-pound note, \"a tenner\" = ten pounds.",
+    "fa": "fiver یعنی پنج پوند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "Fair enough. Oh, I'm having a barbecue on Sunday — family, friends, loads of food. You should come!",
+   "translations": {
+    "fa": "منصفانه‌ست. آه، یکشنبه کباب‌پزی دارم — خانواده، دوستان، کلی غذا. باید بیای!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "another",
+      "that's",
+      "sunday",
+      "really"
+     ],
+     "suggestion": "That's really kind, but I'm busy on Sunday. Maybe another time?",
+     "suggestionFa": "خیلی لطف داری، ولی یکشنبه گرفتارم. شاید یه وقت دیگه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "love",
+      "i'd"
+     ],
+     "suggestion": "I'd love to! What time?",
+     "suggestionFa": "خیلی دوست دارم! ساعت چند؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "barbecue",
+     "fa": "کباب‌پزی"
+    },
+    {
+     "word": "loads of",
+     "fa": "کلی"
+    },
+    {
+     "word": "maybe another time",
+     "fa": "شاید وقتی دیگر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sal",
+   "text": "No worries! Next time, for sure. Would you like a cup of tea while you wait?",
+   "translations": {
+    "fa": "نگران نباش! دفعهٔ بعد حتماً. تا منتظری چای می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "rather",
+      "glass",
+      "water"
+     ],
+     "suggestion": "I'd rather have a glass of water, if that's OK.",
+     "suggestionFa": "ترجیح می‌دم یه لیوان آب، اگه اشکالی نداره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "fine"
+     ],
+     "suggestion": "No, thanks. I'm fine.",
+     "suggestionFa": "نه، ممنون. خوبم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no worries",
+     "fa": "نگران نباش"
+    },
+    {
+     "word": "for sure",
+     "fa": "حتماً"
+    },
+    {
+     "word": "while you wait",
+     "fa": "تا منتظری"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sal",
+   "text": "Coming right up. Right, all done — have a look. What do you think?",
+   "translations": {
+    "fa": "الان میارم. خب، تموم شد — یه نگاه بنداز. نظرت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "looks",
+      "great",
+      "sal"
+     ],
+     "suggestion": "It looks great. Thanks, Sal!",
+     "suggestionFa": "عالی شده. ممنون سال!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "could",
+      "sides",
+      "more"
+     ],
+     "suggestion": "Could you take a little more off the sides?",
+     "suggestionFa": "میشه از بغل‌ها یه کم دیگه کوتاه کنی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coming right up",
+     "fa": "الان می‌آورم"
+    },
+    {
+     "word": "have a look",
+     "fa": "نگاه کن"
+    },
+    {
+     "word": "take off",
+     "fa": "کوتاه کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sal",
+   "text": "Looking sharp, mate! That's twelve pounds. See you in a month.",
+   "translations": {
+    "fa": "خیلی شیک شدی رفیق! میشه دوازده پوند. یه ماه دیگه می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

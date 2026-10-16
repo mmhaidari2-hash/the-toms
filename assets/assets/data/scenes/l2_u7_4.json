@@ -1,0 +1,285 @@
+{
+ "id": "l2_u7_4",
+ "characterId": "weda",
+ "title": "The power cut",
+ "titleFa": "قطعی برق",
+ "setting": "What were you doing? · Level 2",
+ "settingFa": "داشتی چی کار می‌کردی؟",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Did you hear about the power cut last night? Were you asleep?",
+   "translations": {
+    "fa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "having",
+      "shower"
+     ],
+     "suggestion": "No, I was having a shower!",
+     "suggestionFa": "نه، داشتم دوش می‌گرفتم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sleeping",
+      "notice",
+      "didn't"
+     ],
+     "suggestion": "Yes, I was sleeping. I didn't notice.",
+     "suggestionFa": "آره، خواب بودم. متوجه نشدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "power cut",
+     "fa": "قطعی برق"
+    },
+    {
+     "word": "asleep",
+     "fa": "خواب"
+    },
+    {
+     "word": "having a shower",
+     "fa": "دوش گرفتن"
+    },
+    {
+     "word": "notice",
+     "fa": "متوجه شدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: power cut (UK) = power outage (US).",
+    "fa": "power cut در بریتانیا یعنی قطعی برق."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Oh, you poor thing! It was raining hard and the wind was blowing. William was reading, and suddenly — dark!",
+   "translations": {
+    "fa": "آخی، بیچاره! بارون شدید می‌بارید و باد می‌وزید. ویلیام داشت کتاب می‌خوند، که یهو — تاریکی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "did"
+     ],
+     "suggestion": "What did you do?",
+     "suggestionFa": "چی کار کردید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scared",
+      "were"
+     ],
+     "suggestion": "Were you scared?",
+     "suggestionFa": "ترسیدید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "raining hard",
+     "fa": "باران شدید"
+    },
+    {
+     "word": "blowing",
+     "fa": "وزیدن"
+    },
+    {
+     "word": "suddenly",
+     "fa": "ناگهان"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Not scared — I've had worse! I found the candles while William was looking for the torch.",
+   "translations": {
+    "fa": "نه ترسیده — بدترش را دیدم! وقتی ویلیام دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "torch",
+      "find",
+      "did",
+      "he"
+     ],
+     "suggestion": "Did he find the torch?",
+     "suggestionFa": "چراغ‌قوه را پیدا کرد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "candles",
+      "anyway",
+      "nicer"
+     ],
+     "suggestion": "Candles are nicer anyway.",
+     "suggestionFa": "شمع به هر حال قشنگ‌تره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "candles",
+     "fa": "شمع‌ها"
+    },
+    {
+     "word": "torch",
+     "fa": "چراغ‌قوه"
+    },
+    {
+     "word": "worse",
+     "fa": "بدتر"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: torch (UK) = flashlight (US).",
+    "fa": "torch در بریتانیا یعنی چراغ‌قوه."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
+   "translations": {
+    "fa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "sounds",
+      "quite",
+      "nice"
+     ],
+     "suggestion": "That sounds quite nice, actually.",
+     "suggestionFa": "راستش خیلی خوب به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cold",
+      "why",
+      "tea"
+     ],
+     "suggestion": "Why cold tea?",
+     "suggestionFa": "چرا چای سرد؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "batteries",
+     "fa": "باتری‌ها"
+    },
+    {
+     "word": "dead",
+     "fa": "تمام‌شده"
+    },
+    {
+     "word": "candlelight",
+     "fa": "نور شمع"
+    },
+    {
+     "word": "actually",
+     "fa": "در واقع"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "The kettle's electric, love! When the lights came back on, William was fast asleep in his chair.",
+   "translations": {
+    "fa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، ویلیام تو صندلیش خواب عمیق بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "typical",
+      "william",
+      "ha"
+     ],
+     "suggestion": "Ha! Typical William.",
+     "suggestionFa": "ها! ویلیام همیشگی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "working",
+      "now"
+     ],
+     "suggestion": "Is everything working now?",
+     "suggestionFa": "الان همه چی کار می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    },
+    {
+     "word": "electric",
+     "fa": "برقی"
+    },
+    {
+     "word": "came back on",
+     "fa": "دوباره روشن شد"
+    },
+    {
+     "word": "fast asleep",
+     "fa": "خواب عمیق"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "All fine now. But next time, I'm buying new batteries first!",
+   "translations": {
+    "fa": "الان همه چی خوبه. ولی دفعهٔ بعد، اول باتری نو می‌خرم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,330 @@
+{
+ "id": "l2_u5_4",
+ "characterId": "nicola",
+ "title": "What happened at school?",
+ "titleFa": "مدرسه چی شد؟",
+ "setting": "At the school gate · Level 2",
+ "settingFa": "دم در مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Guess what happened at school today! Guess!",
+   "translations": {
+    "fa": "حدس بزن امروز تو مدرسه چی شد! حدس بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lamb",
+      "did",
+      "see"
+     ],
+     "suggestion": "Did you see a lamb?",
+     "suggestionFa": "بره دیدی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "know",
+      "tell"
+     ],
+     "suggestion": "I don't know. Tell me!",
+     "suggestionFa": "نمی‌دونم. بگو!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guess",
+     "fa": "حدس زدن"
+    },
+    {
+     "word": "happened",
+     "fa": "اتفاق افتاد"
+    },
+    {
+     "word": "tell me",
+     "fa": "به من بگو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "No! First, Mrs Ellis brought a hamster to class. It's called Peanut!",
+   "translations": {
+    "fa": "نه! اول، خانم الیس یه همستر آورد کلاس. اسمش پینات‌ـه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hamster",
+      "did"
+     ],
+     "suggestion": "A hamster! What did it do?",
+     "suggestionFa": "همستر! چی کار کرد؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "peanut",
+      "funny",
+      "name"
+     ],
+     "suggestion": "Peanut is a funny name!",
+     "suggestionFa": "پینات اسم بامزه‌ایه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "brought",
+     "fa": "آورد"
+    },
+    {
+     "word": "hamster",
+     "fa": "همستر"
+    },
+    {
+     "word": "called",
+     "fa": "به نام"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Then it escaped! It ran under the tables and everyone screamed.",
+   "translations": {
+    "fa": "بعد فرار کرد! زیر میزها دوید و همه جیغ زدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "catch",
+      "oh"
+     ],
+     "suggestion": "Oh no! Did you catch it?",
+     "suggestionFa": "ای وای! گرفتینش؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scream"
+     ],
+     "suggestion": "Did you scream too?",
+     "suggestionFa": "تو هم جیغ زدی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "then",
+     "fa": "بعد"
+    },
+    {
+     "word": "escaped",
+     "fa": "فرار کرد"
+    },
+    {
+     "word": "ran",
+     "fa": "دوید"
+    },
+    {
+     "word": "screamed",
+     "fa": "جیغ زد"
+    },
+    {
+     "word": "catch",
+     "fa": "گرفتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "After that, Mia found it in her lunch box! It was eating her grapes!",
+   "translations": {
+    "fa": "بعد از اون، میا تو ظرف ناهارش پیداش کرد! داشت انگورهاش را می‌خورد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hamster",
+      "hungry",
+      "ha"
+     ],
+     "suggestion": "Ha! A hungry hamster!",
+     "suggestionFa": "ها! یه همستر گرسنه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scared",
+      "happy",
+      "was",
+      "mia"
+     ],
+     "suggestion": "Was Mia happy or scared?",
+     "suggestionFa": "میا خوشحال بود یا ترسیده بود؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "after that",
+     "fa": "بعد از آن"
+    },
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "grapes",
+     "fa": "انگور"
+    },
+    {
+     "word": "hungry",
+     "fa": "گرسنه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "She laughed and laughed. Then we drew pictures of Peanut. I drew him with a crown.",
+   "translations": {
+    "fa": "خندید و خندید. بعد عکس پینات را کشیدیم. من با تاج کشیدمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "picture",
+      "can",
+      "see"
+     ],
+     "suggestion": "Can I see your picture?",
+     "suggestionFa": "می‌تونم نقاشیت را ببینم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crown",
+      "give",
+      "did",
+      "him"
+     ],
+     "suggestion": "Why did you give him a crown?",
+     "suggestionFa": "چرا بهش تاج دادی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "laughed",
+     "fa": "خندید"
+    },
+    {
+     "word": "drew",
+     "fa": "کشید"
+    },
+    {
+     "word": "crown",
+     "fa": "تاج"
+    },
+    {
+     "word": "picture",
+     "fa": "نقاشی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Because he's the king of the class! Here it is. Mrs Ellis said it was the best one.",
+   "translations": {
+    "fa": "چون پادشاه کلاسه! ایناهاش. خانم الیس گفت بهترینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "nicola",
+      "well",
+      "done"
+     ],
+     "suggestion": "It's brilliant! Well done, Nicola.",
+     "suggestionFa": "عالیه! آفرین نیکولا.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fridge",
+      "let's",
+      "put"
+     ],
+     "suggestion": "Let's put it on the fridge.",
+     "suggestionFa": "بیا بزنیمش رو یخچال.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "king",
+     "fa": "پادشاه"
+    },
+    {
+     "word": "best",
+     "fa": "بهترین"
+    },
+    {
+     "word": "well done",
+     "fa": "آفرین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Yes! Next to my dinosaur. And tomorrow Peanut is coming to MY table!",
+   "translations": {
+    "fa": "آره! کنار دایناسورم. و فردا پینات میاد میز من!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

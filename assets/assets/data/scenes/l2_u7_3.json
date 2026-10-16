@@ -1,0 +1,312 @@
+{
+ "id": "l2_u7_3",
+ "characterId": "leslie",
+ "title": "When Dad was young",
+ "titleFa": "وقتی بابا جوان بود",
+ "setting": "What were you doing? · Level 2",
+ "settingFa": "داشتی چی کار می‌کردی؟",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Sit down, love. Were you watching the football with Dad just now?",
+   "translations": {
+    "fa": "بشین عزیزم. همین الان با بابا فوتبال تماشا می‌کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watching",
+      "him"
+     ],
+     "suggestion": "Yes, I was watching it with him.",
+     "suggestionFa": "آره، با اون داشتم تماشا می‌کردم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "making",
+      "tea"
+     ],
+     "suggestion": "No, I was making tea.",
+     "suggestionFa": "نه، داشتم چای درست می‌کردم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "just now",
+     "fa": "همین الان"
+    },
+    {
+     "word": "was watching",
+     "fa": "تماشا می‌کرد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "I used to play.",
+   "translations": {
+    "fa": "من قبلاً بازی می‌کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "really"
+     ],
+     "suggestion": "Really, William?",
+     "suggestionFa": "واقعاً ویلیام؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "play",
+      "team",
+      "did",
+      "use"
+     ],
+     "suggestion": "Did you use to play for a team?",
+     "suggestionFa": "تو تیم بازی می‌کردید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "used to",
+     "fa": "قبلاً … می‌کرد"
+    },
+    {
+     "word": "team",
+     "fa": "تیم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "He did! When he was a lad, they used to play in the street with a tin can. They were very poor.",
+   "translations": {
+    "fa": "آره! وقتی پسربچه بود، با یه قوطی حلبی تو کوچه بازی می‌کردن. خیلی فقیر بودن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "have",
+      "ball",
+      "they"
+     ],
+     "suggestion": "A tin can? Didn't they have a ball?",
+     "suggestionFa": "قوطی حلبی؟ توپ نداشتن؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happened",
+      "next"
+     ],
+     "suggestion": "What happened next?",
+     "suggestionFa": "بعدش چی شد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lad",
+     "fa": "پسر"
+    },
+    {
+     "word": "street",
+     "fa": "کوچه"
+    },
+    {
+     "word": "tin can",
+     "fa": "قوطی حلبی"
+    },
+    {
+     "word": "poor",
+     "fa": "فقیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Lad\" is an informal British word for a boy or young man.",
+    "fa": "lad در بریتانیا یعنی پسر."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "One day he was playing in the street when a scout from the local club saw him. He used to train every Saturday after that.",
+   "translations": {
+    "fa": "یه روز داشت تو کوچه بازی می‌کرد که یه استعدادیاب از باشگاه محلی دیدش. بعد از اون هر شنبه تمرین می‌کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "professional",
+      "become",
+      "wow"
+     ],
+     "suggestion": "Wow! Did he become a professional?",
+     "suggestionFa": "وای! حرفه‌ای شد؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stop",
+      "why"
+     ],
+     "suggestion": "Why did he stop?",
+     "suggestionFa": "چرا ول کرد؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scout",
+     "fa": "استعدادیاب"
+    },
+    {
+     "word": "local club",
+     "fa": "باشگاه محلی"
+    },
+    {
+     "word": "train",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "professional",
+     "fa": "حرفه‌ای"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "Broke my leg. Sixteen.",
+   "translations": {
+    "fa": "پام شکست. شونزده سالگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "oh"
+     ],
+     "suggestion": "Oh no, I'm sorry.",
+     "suggestionFa": "ای وای، متأسفم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happened",
+      "doing",
+      "were",
+      "when"
+     ],
+     "suggestion": "What were you doing when it happened?",
+     "suggestionFa": "وقتی اتفاق افتاد داشتید چی کار می‌کردید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broke",
+     "fa": "شکست"
+    },
+    {
+     "word": "leg",
+     "fa": "پا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "He was playing in a big match. But he met Mum in the hospital — she was working there as a nurse!",
+   "translations": {
+    "fa": "داشت تو یه مسابقهٔ بزرگ بازی می‌کرد. ولی مامان را تو بیمارستان دید — اونجا پرستار بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "romantic",
+      "that's"
+     ],
+     "suggestion": "That's so romantic!",
+     "suggestionFa": "چه رمانتیک!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "broken",
+      "lucky",
+      "leg",
+      "was"
+     ],
+     "suggestion": "So the broken leg was lucky!",
+     "suggestionFa": "پس پای شکسته شانس بود!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "match",
+     "fa": "مسابقه"
+    },
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    },
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    },
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Best day of my life.",
+   "translations": {
+    "fa": "بهترین روز زندگیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

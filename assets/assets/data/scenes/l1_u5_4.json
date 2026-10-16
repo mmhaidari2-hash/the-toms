@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "past",
-      "five",
       "half",
+      "five",
+      "past",
       "why"
      ],
      "suggestion": "Half past five! Why so early?",
@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "park",
-      "walk"
+      "walk",
+      "park"
      ],
      "suggestion": "Do you walk in the park?",
      "suggestionFa": "توی پارک پیاده‌روی می‌کنید؟",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "sometimes",
-      "watch",
-      "telly"
+      "telly",
+      "watch"
      ],
      "suggestion": "Sometimes I watch telly.",
      "suggestionFa": "گاهی تلویزیون می‌بینم.",
@@ -279,8 +279,8 @@
     },
     {
      "keywords": [
-      "have",
       "time",
+      "have",
       "tea"
      ],
      "suggestion": "What time do you have tea?",

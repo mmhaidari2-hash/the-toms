@@ -1,0 +1,359 @@
+{
+ "id": "l2_u10_4",
+ "characterId": "dave",
+ "title": "The leaving do",
+ "titleFa": "مهمانی خداحافظی",
+ "setting": "Invitations and problems · Level 2",
+ "settingFa": "دعوت‌ها و مشکلات",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dave",
+   "text": "Here they are! Welcome to Al's leaving do. What are you drinking?",
+   "translations": {
+    "fa": "ایناهاشون! به مهمونی خداحافظی ال خوش اومدید. چی می‌نوشید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lemonade",
+      "please",
+      "just"
+     ],
+     "suggestion": "Just a lemonade for me, please.",
+     "suggestionFa": "برای من فقط لیموناد لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "orange",
+      "juice",
+      "i'll"
+     ],
+     "suggestion": "I'll have an orange juice, thanks.",
+     "suggestionFa": "آب پرتقال می‌خورم، ممنون.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leaving do",
+     "fa": "مهمانی خداحافظی"
+    },
+    {
+     "word": "drinking",
+     "fa": "نوشیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"leaving do\" is a British party for someone who is leaving a job or a place. \"Do\" means party.",
+    "fa": "leaving do مهمانی خداحافظی است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dave",
+   "text": "Coming up. Al, did you ever think you'd have a leaving do at the Crown?",
+   "translations": {
+    "fa": "الان. ال، هیچ فکر می‌کردی تو کراون مهمونی خداحافظی بگیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "did",
+      "ha"
+     ],
+     "suggestion": "Ha! Did you, Al?",
+     "suggestionFa": "ها! فکر می‌کردی ال؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happy",
+      "look"
+     ],
+     "suggestion": "Al, you look so happy!",
+     "suggestionFa": "ال، خیلی خوشحال به نظر میای!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Never! I was so nervous when I started here three years ago.",
+   "translations": {
+    "fa": "هیچ‌وقت! سه سال پیش که اینجا شروع کردم خیلی استرس داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "going",
+      "where",
+      "next",
+      "al"
+     ],
+     "suggestion": "Where are you going next, Al?",
+     "suggestionFa": "ال، بعدش کجا می‌ری؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nervous",
+      "really",
+      "were"
+     ],
+     "suggestion": "Were you really nervous?",
+     "suggestionFa": "واقعاً استرس داشتی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ever think",
+     "fa": "هیچ فکر می‌کردی"
+    },
+    {
+     "word": "nervous",
+     "fa": "نگران"
+    },
+    {
+     "word": "started",
+     "fa": "شروع کرد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "I'm moving to Edinburgh. I've got a job at the university there. It's colder, but it's more beautiful!",
+   "translations": {
+    "fa": "دارم می‌رم ادینبرو. اونجا تو دانشگاه کار گرفتم. سردتره ولی قشنگ‌تره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "congratulations",
+      "brilliant",
+      "that's",
+      "news"
+     ],
+     "suggestion": "Congratulations! That's brilliant news.",
+     "suggestionFa": "تبریک! خبر فوق‌العاده‌ایه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "we'll",
+      "miss"
+     ],
+     "suggestion": "We'll miss you!",
+     "suggestionFa": "دلمون برات تنگ میشه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moving",
+     "fa": "نقل مکان"
+    },
+    {
+     "word": "job",
+     "fa": "کار"
+    },
+    {
+     "word": "colder",
+     "fa": "سردتر"
+    },
+    {
+     "word": "congratulations",
+     "fa": "تبریک"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ شدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Would you like to come for Sunday lunch before you go, Al? Leslie's doing a roast.",
+   "translations": {
+    "fa": "ال، دوست داری قبل از رفتن بیای ناهار یکشنبه؟ لزلی کباب تنوری درست می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "come"
+     ],
+     "suggestion": "Yes, you should come!",
+     "suggestionFa": "آره، باید بیای!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "manchester",
+      "leslie's",
+      "roast",
+      "best"
+     ],
+     "suggestion": "Leslie's roast is the best in Manchester.",
+     "suggestionFa": "کباب لزلی بهترین تو منچستره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Sunday lunch",
+     "fa": "ناهار یکشنبه"
+    },
+    {
+     "word": "roast",
+     "fa": "کباب تنوری"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sunday lunch, or a Sunday roast, is a British tradition: roast meat, potatoes, vegetables and gravy.",
+    "fa": "ناهار یکشنبه یک سنت بریتانیایی است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "al",
+   "text": "I'd love to! And you must all visit me in Scotland. I'll show you the castle.",
+   "translations": {
+    "fa": "خیلی دوست دارم! و همه‌تون باید بیاید اسکاتلند پیشم. قلعه را نشونتون می‌دم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "journey",
+      "long",
+      "we'd",
+      "love"
+     ],
+     "suggestion": "We'd love to. Is it a long journey?",
+     "suggestionFa": "خیلی دوست داریم. سفرش طولانیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scotland",
+      "never",
+      "been",
+      "i've"
+     ],
+     "suggestion": "I've never been to Scotland!",
+     "suggestionFa": "تا حالا اسکاتلند نرفتم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "must",
+     "fa": "باید"
+    },
+    {
+     "word": "castle",
+     "fa": "قلعه"
+    },
+    {
+     "word": "journey",
+     "fa": "سفر"
+    },
+    {
+     "word": "Scotland",
+     "fa": "اسکاتلند"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dave",
+   "text": "Only three hours on the train. Right — drinks are here. Everyone: to Al!",
+   "translations": {
+    "fa": "فقط سه ساعت با قطار. خب — نوشیدنی‌ها رسید. همه: به سلامتی ال!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "al"
+     ],
+     "suggestion": "To Al!",
+     "suggestionFa": "به سلامتی ال!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "edinburgh",
+      "cheers",
+      "luck",
+      "good"
+     ],
+     "suggestion": "Cheers! Good luck in Edinburgh!",
+     "suggestionFa": "به سلامتی! تو ادینبرو موفق باشی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "to Al",
+     "fa": "به سلامتی ال"
+    },
+    {
+     "word": "cheers",
+     "fa": "به سلامتی"
+    },
+    {
+     "word": "good luck",
+     "fa": "موفق باشی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "al",
+   "text": "Cheers, everyone. Best three years of my life. I'll miss you all!",
+   "translations": {
+    "fa": "به سلامتی همه. بهترین سه سال زندگیم. دلم برای همه‌تون تنگ میشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

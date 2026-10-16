@@ -99,8 +99,8 @@
       "temperature",
       "that's",
       "thirty",
-      "right",
-      "cough"
+      "point",
+      "eight"
      ],
      "suggestion": "Thirty-eight point five. That's a temperature, all right. Have you got a cough?",
      "suggestionFa": "سی‌وهشت و نیم. تبه دیگه. سرفه هم داری؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "paracetamol",
       "sounds",
-      "drink",
       "bring",
+      "drink",
       "some"
      ],
      "suggestion": "Sounds like flu. Go to bed. I'll bring you some paracetamol and a hot drink.",
@@ -148,8 +148,8 @@
      "keywords": [
       "tomorrow",
       "course",
-      "worse",
       "we'll",
+      "water",
       "drink"
      ],
      "suggestion": "Of course. Drink lots of water and rest. If you're worse tomorrow, we'll call the GP.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "doctor",
-      "soon",
+      "family",
+      "love",
       "well",
-      "love"
+      "into"
      ],
      "suggestion": "A GP is the family doctor. Now, into bed! Get well soon, love.",
      "suggestionFa": "GP دکتر خانواده‌ست. حالا، برو تو تخت! زود خوب شو عزیزم.",

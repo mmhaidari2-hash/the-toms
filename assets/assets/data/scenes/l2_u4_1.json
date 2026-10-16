@@ -1,0 +1,328 @@
+{
+ "id": "l2_u4_1",
+ "characterId": "callum",
+ "title": "Ordering at the café",
+ "titleFa": "سفارش در کافه",
+ "setting": "Shops & cafés · Level 2",
+ "settingFa": "مغازه و کافه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Hiya! What can I get you?",
+   "translations": {
+    "fa": "سلام! چی براتون بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cappuccino",
+      "get",
+      "can"
+     ],
+     "suggestion": "Can I get a cappuccino, please?",
+     "suggestionFa": "می‌شه یه کاپوچینو بدید لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "have",
+      "pot",
+      "tea"
+     ],
+     "suggestion": "I'll have a pot of tea, please.",
+     "suggestionFa": "یه قوری چای می‌خوام لطفاً.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "can I get",
+     "fa": "می‌شه … بدید"
+    },
+    {
+     "word": "cappuccino",
+     "fa": "کاپوچینو"
+    },
+    {
+     "word": "pot of tea",
+     "fa": "قوری چای"
+    },
+    {
+     "word": "I'll have",
+     "fa": "می‌خورم/می‌گیرم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Lovely. Small, regular or large? And is it to have in or take away?",
+   "translations": {
+    "fa": "عالی. کوچیک، معمولی یا بزرگ؟ اینجا میل می‌کنید یا می‌برید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "regular",
+      "please",
+      "have"
+     ],
+     "suggestion": "Regular, to have in, please.",
+     "suggestionFa": "معمولی، اینجا می‌خورم لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "large",
+      "away",
+      "take",
+      "one"
+     ],
+     "suggestion": "A large one to take away.",
+     "suggestionFa": "یه بزرگ برای بردن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "regular",
+     "fa": "معمولی"
+    },
+    {
+     "word": "large",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "to have in",
+     "fa": "داخل مصرف کردن"
+    },
+    {
+     "word": "take away",
+     "fa": "بیرون‌بر"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: take away (UK) = to go (US). A \"takeaway\" is also food you order home.",
+    "fa": "take away (بریتانیا) = to go (آمریکا)."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Any milk? We've got oat, soya and normal.",
+   "translations": {
+    "fa": "شیر بزنم؟ جو، سویا و معمولی داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "milk",
+      "oat"
+     ],
+     "suggestion": "Oat milk, please.",
+     "suggestionFa": "شیر جو لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "normal",
+      "thanks",
+      "fine"
+     ],
+     "suggestion": "Normal is fine, thanks.",
+     "suggestionFa": "معمولی خوبه، ممنون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oat",
+     "fa": "جو دوسر"
+    },
+    {
+     "word": "soya",
+     "fa": "سویا"
+    },
+    {
+     "word": "normal",
+     "fa": "معمولی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: soya. American: soy.",
+    "fa": "املای بریتانیایی soya است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Anything to eat with that? The scones are fresh this morning.",
+   "translations": {
+    "fa": "چیزی هم میل دارید؟ اسکون‌ها امروز صبح تازه پخته شدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "cream",
+      "jam"
+     ],
+     "suggestion": "Yes, a scone with jam and cream, please.",
+     "suggestionFa": "آره، یه اسکون با مربا و خامه لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is a scone?",
+     "suggestionFa": "اسکون چنده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scone",
+     "fa": "اسکون (کیک کوچک)"
+    },
+    {
+     "word": "jam",
+     "fa": "مربا"
+    },
+    {
+     "word": "cream",
+     "fa": "خامه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Devon or Cornwall? In Devon you put cream first, then jam. In Cornwall, jam first! People argue about it.",
+    "fa": "در دوون اول خامه، در کورنوال اول مربا!"
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Two forty. Jam first or cream first? Careful — it's a big debate round here!",
+   "translations": {
+    "fa": "دو پوند و چهل. اول مربا یا اول خامه؟ مواظب باش — اینجا بحث بزرگیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "first",
+      "jam"
+     ],
+     "suggestion": "Jam first, definitely.",
+     "suggestionFa": "قطعاً اول مربا.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "choose",
+      "don't",
+      "mind"
+     ],
+     "suggestion": "I don't mind. You choose!",
+     "suggestionFa": "فرقی نمی‌کنه. خودت انتخاب کن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "debate",
+     "fa": "بحث"
+    },
+    {
+     "word": "definitely",
+     "fa": "قطعاً"
+    },
+    {
+     "word": "I don't mind",
+     "fa": "برام فرقی نمی‌کنه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "A Cornish fan! Right, that's five pounds sixty altogether. Card or cash?",
+   "translations": {
+    "fa": "طرفدار کورنوال! خب، روی هم پنج پوند و شصت. کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "card"
+     ],
+     "suggestion": "Card, please.",
+     "suggestionFa": "کارت لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "can",
+      "pay",
+      "by"
+     ],
+     "suggestion": "Can I pay by phone?",
+     "suggestionFa": "می‌تونم با گوشی پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "روی هم"
+    },
+    {
+     "word": "pay by phone",
+     "fa": "پرداخت با گوشی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "Course you can. Grab a seat and I'll bring it over. Cheers!",
+   "translations": {
+    "fa": "معلومه. بشینید، براتون میارم. ممنون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

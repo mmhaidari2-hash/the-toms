@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "ringing",
       "evening",
-      "phone",
+      "ringing",
       "whose",
+      "phone",
       "been"
      ],
      "suggestion": "Whose phone is this? It's been ringing all evening.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "calling",
-      "pocket",
       "mine's",
+      "pocket",
       "mum's",
       "dad's"
      ],
@@ -148,8 +148,8 @@
       "hallway",
       "chuffed",
       "sorted",
-      "mum's",
-      "going"
+      "going",
+      "mum's"
      ],
      "suggestion": "Sorted. The hallway is tidy. Mum's going to be well chuffed.",
      "suggestionFa": "ردیف شد. راهرو مرتبه. مامان خیلی کیف می‌کنه.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "pleased",
       "chuffed",
+      "pleased",
       "really",
       "means",
       "well"
