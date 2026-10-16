@@ -1,0 +1,288 @@
+{
+ "id": "l2_u8_1",
+ "characterId": "sian",
+ "title": "Calling the bank",
+ "titleFa": "تماس با بانک",
+ "setting": "On the phone · Level 2",
+ "settingFa": "پشت تلفن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "Good morning, Northgate Bank, Sian speaking. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، بانک نورث‌گیت، سیان هستم. چه کمکی می‌تونم بکنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calling",
+      "hello",
+      "card",
+      "bank"
+     ],
+     "suggestion": "Hello. I'm calling about my new bank card.",
+     "suggestionFa": "سلام. دربارهٔ کارت بانکی جدیدم زنگ می‌زنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone",
+      "account",
+      "speak",
+      "could"
+     ],
+     "suggestion": "Hi. Could I speak to someone about my account?",
+     "suggestionFa": "سلام. می‌تونم با کسی دربارهٔ حسابم صحبت کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "speaking",
+     "fa": "(پشت تلفن) هستم"
+    },
+    {
+     "word": "calling about",
+     "fa": "دربارهٔ … زنگ زدن"
+    },
+    {
+     "word": "account",
+     "fa": "حساب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Of course. Can I take your full name and date of birth, please?",
+   "translations": {
+    "fa": "حتماً. لطفاً نام کامل و تاریخ تولدتون را بگید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mohammad",
+      "haidari",
+      "mehdi"
+     ],
+     "suggestion": "It's Mohammad Mehdi Haidari.",
+     "suggestionFa": "محمد مهدی حیدری.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surname",
+      "shall",
+      "spell",
+      "sure"
+     ],
+     "suggestion": "Sure. Shall I spell my surname?",
+     "suggestionFa": "حتماً. فامیلیم را هجی کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "full name",
+     "fa": "نام کامل"
+    },
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    },
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "Thank you. I can see your account. What's the problem with the card?",
+   "translations": {
+    "fa": "ممنون. حسابتون را می‌بینم. مشکل کارت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arrived",
+      "hasn't",
+      "weeks",
+      "sent"
+     ],
+     "suggestion": "It hasn't arrived yet. You sent it two weeks ago.",
+     "suggestionFa": "هنوز نرسیده. دو هفته پیش فرستادید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "machine",
+      "work",
+      "cash"
+     ],
+     "suggestion": "It doesn't work in the cash machine.",
+     "suggestionFa": "تو دستگاه خودپرداز کار نمی‌کنه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hasn't arrived",
+     "fa": "نرسیده"
+    },
+    {
+     "word": "cash machine",
+     "fa": "خودپرداز"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: cash machine / cashpoint (UK) = ATM (US).",
+    "fa": "cashpoint در بریتانیا یعنی خودپرداز."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "I'm sorry about that. I'll cancel it and send you a new one. It should arrive in five working days.",
+   "translations": {
+    "fa": "بابتش متأسفم. لغوش می‌کنم و یه جدید براتون می‌فرستم. باید ظرف پنج روز کاری برسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "have",
+      "will",
+      "new"
+     ],
+     "suggestion": "Thank you. Will it have a new PIN?",
+     "suggestionFa": "ممنون. پین جدید داره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "address",
+      "could",
+      "send"
+     ],
+     "suggestion": "Could you send it to a different address?",
+     "suggestionFa": "می‌تونید به یه آدرس دیگه بفرستید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cancel",
+     "fa": "لغو کردن"
+    },
+    {
+     "word": "working days",
+     "fa": "روزهای کاری"
+    },
+    {
+     "word": "PIN",
+     "fa": "رمز کارت"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "Yes, the PIN comes separately by post. Is there anything else I can help with today?",
+   "translations": {
+    "fa": "بله، پین جداگانه با پست میاد. کار دیگه‌ای هست امروز کمکتون کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "that's",
+      "thanks",
+      "help"
+     ],
+     "suggestion": "No, that's everything. Thanks for your help.",
+     "suggestionFa": "نه، همین بود. ممنون از کمکتون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "repeat",
+      "please",
+      "could",
+      "line"
+     ],
+     "suggestion": "Could you repeat that, please? The line is bad.",
+     "suggestionFa": "لطفاً تکرار کنید؟ خط بده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "separately",
+     "fa": "جداگانه"
+    },
+    {
+     "word": "by post",
+     "fa": "با پست"
+    },
+    {
+     "word": "repeat",
+     "fa": "تکرار کردن"
+    },
+    {
+     "word": "line",
+     "fa": "خط تلفن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: post (UK) = mail (US).",
+    "fa": "post در بریتانیا یعنی mail."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "You're welcome. Thanks for calling Northgate Bank. Have a lovely day!",
+   "translations": {
+    "fa": "خواهش می‌کنم. ممنون که با بانک نورث‌گیت تماس گرفتید. روز خوبی داشته باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "id": "l2_u7_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) When Dad was young",
+ "titleFa": "(در نقش Leslie) وقتی بابا جوان بود",
+ "setting": "What were you doing? · Level 2",
+ "settingFa": "داشتی چی کار می‌کردی؟",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u7_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "watching",
+      "were",
+      "love",
+      "down"
+     ],
+     "suggestion": "Sit down, love. Were you watching the football with Dad just now?",
+     "suggestionFa": "بشین عزیزم. همین الان با بابا فوتبال تماشا می‌کردی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I was watching it with him.",
+   "translations": {
+    "fa": "آره، با اون داشتم تماشا می‌کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "william",
+   "text": "I used to play.",
+   "translations": {
+    "fa": "من قبلاً بازی می‌کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "used to",
+     "fa": "قبلاً … می‌کرد"
+    },
+    {
+     "word": "team",
+     "fa": "تیم"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Really, William?",
+   "translations": {
+    "fa": "واقعاً ویلیام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "were",
+      "poor",
+      "they",
+      "when"
+     ],
+     "suggestion": "He did! When he was a lad, they used to play in the street with a tin can. They were very poor.",
+     "suggestionFa": "آره! وقتی پسربچه بود، با یه قوطی حلبی تو کوچه بازی می‌کردن. خیلی فقیر بودن.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A tin can? Didn't they have a ball?",
+   "translations": {
+    "fa": "قوطی حلبی؟ توپ نداشتن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "playing",
+      "street",
+      "after",
+      "train"
+     ],
+     "suggestion": "One day he was playing in the street when a scout from the local club saw him. He used to train every Saturday after that.",
+     "suggestionFa": "یه روز داشت تو کوچه بازی می‌کرد که یه استعدادیاب از باشگاه محلی دیدش. بعد از اون هر شنبه تمرین می‌کرد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Wow! Did he become a professional?",
+   "translations": {
+    "fa": "وای! حرفه‌ای شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "william",
+   "text": "Broke my leg. Sixteen.",
+   "translations": {
+    "fa": "پام شکست. شونزده سالگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broke",
+     "fa": "شکست"
+    },
+    {
+     "word": "leg",
+     "fa": "پا"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Oh no, I'm sorry.",
+   "translations": {
+    "fa": "ای وای، متأسفم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hospital",
+      "playing",
+      "working",
+      "there",
+      "match"
+     ],
+     "suggestion": "He was playing in a big match. But he met Mum in the hospital — she was working there as a nurse!",
+     "suggestionFa": "داشت تو یه مسابقهٔ بزرگ بازی می‌کرد. ولی مامان را تو بیمارستان دید — اونجا پرستار بود!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "That's so romantic!",
+   "translations": {
+    "fa": "چه رمانتیک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "william",
+   "text": "Best day of my life.",
+   "translations": {
+    "fa": "بهترین روز زندگیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

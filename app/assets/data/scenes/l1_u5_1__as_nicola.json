@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "daddy",
       "don't",
       "mummy",
-      "like",
+      "daddy",
+      "they",
       "wake"
      ],
      "suggestion": "I get up at six! I wake up Mummy and Daddy. They don't like it!",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "morning",
-      "teeth",
       "brush",
       "every",
+      "teeth",
       "then"
      ],
      "suggestion": "Then I brush my teeth. Do you brush your teeth every morning?",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "dressed",
       "uniform",
+      "dressed",
       "school",
       "green",
       "wear"
@@ -148,9 +148,9 @@
      "keywords": [
       "breakfast",
       "important",
+      "meal",
       "need",
-      "nana",
-      "says"
+      "nana"
      ],
      "suggestion": "You need breakfast! Nana says it's the most important meal.",
      "suggestionFa": "تو صبحانه لازم داری! نانا می‌گه مهم‌ترین وعده‌ست.",
@@ -173,8 +173,8 @@
      "keywords": [
       "school",
       "daddy",
-      "walk",
       "then",
+      "walk",
       "bye"
      ],
      "suggestion": "Then I go to school with Daddy. We walk. Bye bye!",

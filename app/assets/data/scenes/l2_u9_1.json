@@ -1,0 +1,285 @@
+{
+ "id": "l2_u9_1",
+ "characterId": "maya",
+ "title": "On the train",
+ "titleFa": "در قطار",
+ "setting": "Weekends and trips · Level 2",
+ "settingFa": "آخر هفته و سفر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Excuse me, is anyone sitting here? These trains are always busier on Fridays.",
+   "translations": {
+    "fa": "ببخشید، کسی اینجا می‌شینه؟ این قطارها جمعه‌ها همیشه شلوغ‌ترن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "down",
+      "free",
+      "sit"
+     ],
+     "suggestion": "No, it's free. Please sit down.",
+     "suggestionFa": "نه، خالیه. بفرمایید بشینید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "ahead",
+      "where",
+      "go"
+     ],
+     "suggestion": "No, go ahead. Where are you going?",
+     "suggestionFa": "نه، بفرمایید. کجا می‌رید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anyone",
+     "fa": "کسی"
+    },
+    {
+     "word": "busier",
+     "fa": "شلوغ‌تر"
+    },
+    {
+     "word": "free",
+     "fa": "خالی"
+    },
+    {
+     "word": "go ahead",
+     "fa": "بفرمایید"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "Thanks! I'm going to York for the weekend. Have you been?",
+   "translations": {
+    "fa": "ممنون! برای آخر هفته می‌رم یورک. رفتید تا حالا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manchester",
+      "bigger",
+      "never",
+      "than"
+     ],
+     "suggestion": "No, never. Is it bigger than Manchester?",
+     "suggestionFa": "نه، هیچ‌وقت. از منچستر بزرگ‌تره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "once"
+     ],
+     "suggestion": "Yes, once. It's beautiful!",
+     "suggestionFa": "آره، یه بار. قشنگه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have you been",
+     "fa": "رفته‌اید"
+    },
+    {
+     "word": "bigger than",
+     "fa": "بزرگ‌تر از"
+    },
+    {
+     "word": "beautiful",
+     "fa": "زیبا"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "It's much smaller, but it's older and quieter. The streets are narrower and more charming.",
+   "translations": {
+    "fa": "خیلی کوچیک‌تره، ولی قدیمی‌تر و آروم‌تره. خیابون‌هاش باریک‌تر و جذاب‌ترن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "relaxing",
+      "sounds",
+      "than",
+      "city"
+     ],
+     "suggestion": "It sounds more relaxing than a big city.",
+     "suggestionFa": "از یه شهر بزرگ آرامش‌بخش‌تر به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expensive"
+     ],
+     "suggestion": "Is it more expensive?",
+     "suggestionFa": "گرون‌تره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smaller",
+     "fa": "کوچک‌تر"
+    },
+    {
+     "word": "older",
+     "fa": "قدیمی‌تر"
+    },
+    {
+     "word": "quieter",
+     "fa": "آرام‌تر"
+    },
+    {
+     "word": "narrower",
+     "fa": "باریک‌تر"
+    },
+    {
+     "word": "charming",
+     "fa": "جذاب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "A bit cheaper, actually. And the tea rooms are better than anywhere else in England!",
+   "translations": {
+    "fa": "راستش یه کم ارزون‌تره. و چای‌خونه‌هاش از هر جای دیگهٔ انگلستان بهترن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "london",
+      "than"
+     ],
+     "suggestion": "Better than London?",
+     "suggestionFa": "بهتر از لندن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "there",
+      "visit"
+     ],
+     "suggestion": "What should I visit there?",
+     "suggestionFa": "اونجا کجا را ببینم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    },
+    {
+     "word": "tea rooms",
+     "fa": "چای‌خانه"
+    },
+    {
+     "word": "better than",
+     "fa": "بهتر از"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"tea room\" is a traditional British café serving tea, scones and cakes.",
+    "fa": "tea room کافه‌ای سنتی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "Definitely! You should see the Minster — it's one of the biggest cathedrals in Europe.",
+   "translations": {
+    "fa": "قطعاً! باید مینستر را ببینید — یکی از بزرگ‌ترین کلیساهای جامع اروپاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "love",
+      "one",
+      "i'd",
+      "day"
+     ],
+     "suggestion": "I'd love to go one day.",
+     "suggestionFa": "دوست دارم یه روز برم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "station",
+      "from",
+      "far"
+     ],
+     "suggestion": "Is it far from the station?",
+     "suggestionFa": "از ایستگاه دوره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "definitely",
+     "fa": "قطعاً"
+    },
+    {
+     "word": "cathedral",
+     "fa": "کلیسای جامع"
+    },
+    {
+     "word": "biggest",
+     "fa": "بزرگ‌ترین"
+    },
+    {
+     "word": "far",
+     "fa": "دور"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Only ten minutes on foot. Oh — this is my stop! Enjoy the rest of your journey!",
+   "translations": {
+    "fa": "فقط ده دقیقه پیاده. آه — ایستگاه منه! بقیهٔ سفرتون خوش!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

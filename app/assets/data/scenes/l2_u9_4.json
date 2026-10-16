@@ -1,0 +1,284 @@
+{
+ "id": "l2_u9_4",
+ "characterId": "al",
+ "title": "Back to uni",
+ "titleFa": "برگشت به دانشگاه",
+ "setting": "Weekends and trips · Level 2",
+ "settingFa": "آخر هفته و سفر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "Alright? How was your weekend? Did you do anything nice?",
+   "translations": {
+    "fa": "چطوری؟ آخر هفته‌ات چطور بود؟ کار خوبی کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "district",
+      "walking",
+      "went"
+     ],
+     "suggestion": "It was brilliant. We went walking in the Peak District.",
+     "suggestionFa": "عالی بود. رفتیم پیک دیستریکت پیاده‌روی.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "though",
+      "tired",
+      "quite",
+      "bad"
+     ],
+     "suggestion": "Not bad. I was quite tired, though.",
+     "suggestionFa": "بد نبود. ولی خیلی خسته بودم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "alright?",
+     "fa": "چطوری؟"
+    },
+    {
+     "word": "how was…?",
+     "fa": "… چطور بود؟"
+    },
+    {
+     "word": "brilliant",
+     "fa": "عالی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Alright?\" is a very common British greeting meaning \"Hello, how are you?\" You can just reply \"Alright?\" or \"Yeah, good.\"",
+    "fa": "alright? یک سلام رایج بریتانیایی است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "Nice! What was it like? Was it busy?",
+   "translations": {
+    "fa": "خوبه! چطور بود؟ شلوغ بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "afternoon",
+      "rained",
+      "but"
+     ],
+     "suggestion": "It was beautiful, but it rained all afternoon.",
+     "suggestionFa": "قشنگ بود، ولی کل بعدازظهر بارون اومد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sheep",
+      "quiet",
+      "only",
+      "saw"
+     ],
+     "suggestion": "Very quiet. We only saw sheep!",
+     "suggestionFa": "خیلی آروم. فقط گوسفند دیدیم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what was it like",
+     "fa": "چطور بود"
+    },
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "sheep",
+     "fa": "گوسفند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Classic. What was the best part?",
+   "translations": {
+    "fa": "کلاسیک. بهترین قسمتش چی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "view",
+      "from",
+      "was"
+     ],
+     "suggestion": "The view from the top was amazing.",
+     "suggestionFa": "منظره از بالا فوق‌العاده بود.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pub",
+      "end"
+     ],
+     "suggestion": "The pub at the end!",
+     "suggestionFa": "پاب آخرش!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "classic",
+     "fa": "معمول"
+    },
+    {
+     "word": "best part",
+     "fa": "بهترین قسمت"
+    },
+    {
+     "word": "view",
+     "fa": "منظره"
+    },
+    {
+     "word": "top",
+     "fa": "قله"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Ha, always the pub! I went to Liverpool. The museums were great, and the food was better than I expected.",
+   "translations": {
+    "fa": "ها، همیشه پاب! من رفتم لیورپول. موزه‌هاش عالی بودن، و غذاش بهتر از انتظارم بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "journey",
+      "how",
+      "was"
+     ],
+     "suggestion": "How was the journey?",
+     "suggestionFa": "سفرش چطور بود؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beatles",
+      "museum",
+      "did",
+      "see"
+     ],
+     "suggestion": "Did you see the Beatles museum?",
+     "suggestionFa": "موزهٔ بیتلز را دیدی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "museums",
+     "fa": "موزه‌ها"
+    },
+    {
+     "word": "expected",
+     "fa": "انتظار داشت"
+    },
+    {
+     "word": "journey",
+     "fa": "سفر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "I did! The train was late, though — forty minutes. Typical! Anyway, did you finish the essay?",
+   "translations": {
+    "fa": "دیدم! ولی قطار دیر کرد — چهل دقیقه. همیشگی! راستی، مقاله را تموم کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finished",
+      "sunday",
+      "night"
+     ],
+     "suggestion": "Yes, I finished it on Sunday night.",
+     "suggestionFa": "آره، یکشنبه شب تمومش کردم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "due",
+      "yet"
+     ],
+     "suggestion": "Not yet! When is it due?",
+     "suggestionFa": "هنوز نه! موعدش کیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "late",
+     "fa": "دیر"
+    },
+    {
+     "word": "typical",
+     "fa": "همیشگی"
+    },
+    {
+     "word": "anyway",
+     "fa": "به هر حال"
+    },
+    {
+     "word": "essay",
+     "fa": "مقاله"
+    },
+    {
+     "word": "due",
+     "fa": "موعد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "al",
+   "text": "Tomorrow at nine. Come on — let's go to the library and finish it together.",
+   "translations": {
+    "fa": "فردا ساعت نه. بیا — بریم کتابخونه و با هم تمومش کنیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

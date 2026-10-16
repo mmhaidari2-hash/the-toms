@@ -1,0 +1,296 @@
+{
+ "id": "l2_u7_2",
+ "characterId": "doris",
+ "title": "Something happened on the bus",
+ "titleFa": "یه اتفاق تو اتوبوس",
+ "setting": "What were you doing? · Level 2",
+ "settingFa": "داشتی چی کار می‌کردی؟",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Ooh, you'll never guess what happened on this bus yesterday, Tom!",
+   "translations": {
+    "fa": "اوه، هیچ‌وقت حدس نمی‌زنی دیروز تو این اتوبوس چی شد، تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "hello",
+      "doris"
+     ],
+     "suggestion": "Hello, Doris! What happened?",
+     "suggestionFa": "سلام دوریس! چی شد؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tell",
+      "go",
+      "us"
+     ],
+     "suggestion": "Go on, tell us!",
+     "suggestionFa": "بگو دیگه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Go on, Doris. What happened?",
+   "translations": {
+    "fa": "بگو دوریس. چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened"
+     ],
+     "suggestion": "What happened?",
+     "suggestionFa": "چی شد؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doris",
+      "tell",
+      "us"
+     ],
+     "suggestion": "Tell us, Doris!",
+     "suggestionFa": "بگو دوریس!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you'll never guess",
+     "fa": "هرگز حدس نمی‌زنی"
+    },
+    {
+     "word": "go on",
+     "fa": "ادامه بده/بگو"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "I was sitting right here, eating my sandwich, when a dog got on — all by itself!",
+   "translations": {
+    "fa": "من دقیقاً همین‌جا نشسته بودم و ساندویچم را می‌خوردم که یه سگ سوار شد — تنهایی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "owner",
+      "way"
+     ],
+     "suggestion": "No way! Where was the owner?",
+     "suggestionFa": "امکان نداره! صاحبش کجا بود؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "watching",
+      "driver"
+     ],
+     "suggestion": "Was the driver watching?",
+     "suggestionFa": "راننده می‌دید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "right here",
+     "fa": "دقیقاً همین‌جا"
+    },
+    {
+     "word": "when",
+     "fa": "که (ناگهان)"
+    },
+    {
+     "word": "got on",
+     "fa": "سوار شد"
+    },
+    {
+     "word": "owner",
+     "fa": "صاحب"
+    },
+    {
+     "word": "no way",
+     "fa": "امکان ندارد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "The driver was talking on his radio, so he didn't see it. The dog sat down and looked at my sandwich!",
+   "translations": {
+    "fa": "راننده داشت با بی‌سیمش حرف می‌زد، پس ندیدش. سگه نشست و به ساندویچم نگاه کرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "give",
+      "some",
+      "did"
+     ],
+     "suggestion": "Did you give it some?",
+     "suggestionFa": "یه کم بهش دادی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sandwich",
+      "kind",
+      "was"
+     ],
+     "suggestion": "What kind of sandwich was it?",
+     "suggestionFa": "چه ساندویچی بود؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "radio",
+     "fa": "بی‌سیم"
+    },
+    {
+     "word": "sat down",
+     "fa": "نشست"
+    },
+    {
+     "word": "looked at",
+     "fa": "نگاه کرد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Cheese and pickle. Of course I gave it a bit! Then, while we were going past the park, a man started running after the bus.",
+   "translations": {
+    "fa": "پنیر و ترشی. معلومه که یه کم بهش دادم! بعد، وقتی داشتیم از کنار پارک رد می‌شدیم، یه مرد شروع کرد دنبال اتوبوس دویدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "owner"
+     ],
+     "suggestion": "The owner!",
+     "suggestionFa": "صاحبش!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stop",
+      "did",
+      "bus"
+     ],
+     "suggestion": "Did the bus stop?",
+     "suggestionFa": "اتوبوس وایساد؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pickle",
+     "fa": "ترشی"
+    },
+    {
+     "word": "going past",
+     "fa": "رد شدن از کنار"
+    },
+    {
+     "word": "running after",
+     "fa": "دنبال … دویدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Cheese and pickle is a classic British sandwich. \"Pickle\" here is a brown, sweet chutney.",
+    "fa": "ساندویچ پنیر و ترشی یک کلاسیک بریتانیایی است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Yes! He was shouting \"Biscuit! Biscuit!\" — that was the dog's name. Everyone was laughing.",
+   "translations": {
+    "fa": "آره! داشت داد می‌زد «بیسکویت! بیسکویت!» — اسم سگه بود. همه داشتن می‌خندیدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "story"
+     ],
+     "suggestion": "What a lovely story!",
+     "suggestionFa": "چه داستان قشنگی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuit",
+      "perfect",
+      "name"
+     ],
+     "suggestion": "Biscuit is a perfect name.",
+     "suggestionFa": "بیسکویت اسم عالیه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shouting",
+     "fa": "فریاد زدن"
+    },
+    {
+     "word": "laughing",
+     "fa": "خندیدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "The man said thank you and gave me a box of chocolates. Best bus ride ever!",
+   "translations": {
+    "fa": "مرده تشکر کرد و یه جعبه شکلات بهم داد. بهترین سفر اتوبوس تاریخ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "get",
-      "how"
+      "how",
+      "get"
      ],
      "suggestion": "Excuse me, how do I get to the post office?",
      "suggestionFa": "ببخشید، چطوری برم اداره پست؟",
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "please",
-      "sorry",
       "again",
+      "sorry",
       "could"
      ],
      "suggestion": "Sorry, could you say that again, please?",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "can't",
-      "mean",
-      "miss"
+      "miss",
+      "mean"
      ],
      "suggestion": "What does \"you can't miss it\" mean?",
      "suggestionFa": "«you can't miss it» یعنی چی؟",
@@ -289,10 +289,10 @@
     },
     {
      "keywords": [
-      "phrase",
       "that's",
       "useful",
-      "thanks"
+      "thanks",
+      "phrase"
      ],
      "suggestion": "That's a useful phrase. Thanks!",
      "suggestionFa": "جملهٔ مفیدیه. ممنون!",

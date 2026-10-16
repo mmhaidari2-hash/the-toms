@@ -47,8 +47,8 @@
     {
      "keywords": [
       "thank",
-      "want",
       "love",
+      "want",
       "ask",
       "now"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -208,11 +208,11 @@
    "branches": [
     {
      "keywords": [
-      "need",
       "past",
-      "get",
+      "need",
       "say",
-      "now"
+      "now",
+      "get"
      ],
      "suggestion": "Ha! Now, I need to get past you. What do I say?",
      "suggestionFa": "ها! حالا باید از کنارت رد شم. چی بگم؟",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -311,10 +311,10 @@
    "branches": [
     {
      "keywords": [
-      "learner",
       "exactly",
-      "cheers",
+      "learner",
       "thanks",
+      "cheers",
       "thank"
      ],
      "suggestion": "Exactly. Cheers, ta, thanks — all mean thank you. You're a quick learner!",

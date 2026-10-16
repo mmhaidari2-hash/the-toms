@@ -1,0 +1,331 @@
+{
+ "id": "l2_u4_3",
+ "characterId": "leslie",
+ "title": "A takeaway night",
+ "titleFa": "شب غذای بیرون‌بر",
+ "setting": "Shops & cafés · Level 2",
+ "settingFa": "مغازه و کافه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "I'm too tired to cook tonight. How about a takeaway?",
+   "translations": {
+    "fa": "امشب خسته‌تر از اونم که آشپزی کنم. غذای بیرون‌بر چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fancy",
+      "great",
+      "idea"
+     ],
+     "suggestion": "Great idea! What do you fancy?",
+     "suggestionFa": "فکر عالیه! چی دلت می‌خواد؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "don't",
+      "cook",
+      "why"
+     ],
+     "suggestion": "Why don't I cook instead?",
+     "suggestionFa": "چرا به جاش من آشپزی نکنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too tired",
+     "fa": "خیلی خسته"
+    },
+    {
+     "word": "takeaway",
+     "fa": "غذای بیرون‌بر"
+    },
+    {
+     "word": "fancy",
+     "fa": "هوس کردن"
+    },
+    {
+     "word": "instead",
+     "fa": "به جایش"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "That's sweet, but you deserve a night off too. Let's get Indian or fish and chips?",
+   "translations": {
+    "fa": "لطف داری، ولی تو هم لیاقت یه شب استراحت را داری. هندی بگیریم یا فیش‌اند‌چیپس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "indian",
+      "curry",
+      "let's",
+      "love"
+     ],
+     "suggestion": "Let's get Indian. I love curry!",
+     "suggestionFa": "بیا هندی بگیریم. عاشق کاری‌ام!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friday",
+      "about",
+      "chips",
+      "fish"
+     ],
+     "suggestion": "How about fish and chips? It's Friday!",
+     "suggestionFa": "فیش‌اند‌چیپس چطوره؟ جمعه‌ست!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deserve",
+     "fa": "لایق بودن"
+    },
+    {
+     "word": "curry",
+     "fa": "کاری"
+    },
+    {
+     "word": "let's",
+     "fa": "بیا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Fish and chips on Friday is an old British tradition.",
+    "fa": "فیش‌اند‌چیپس جمعه‌ها یک سنت قدیمی بریتانیایی است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ooh, good choice. Ryan, what do you want? Ryan? He's got his headphones on again.",
+   "translations": {
+    "fa": "اوه، انتخاب خوبیه. رایان، چی می‌خوای؟ رایان؟ باز هدفونش رو گذاشته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i'll",
+      "ask",
+      "go"
+     ],
+     "suggestion": "I'll go and ask him.",
+     "suggestionFa": "می‌رم ازش می‌پرسم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "text",
+      "why",
+      "we"
+     ],
+     "suggestion": "Why don't we text him?",
+     "suggestionFa": "چرا بهش پیام ندیم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "headphones",
+     "fa": "هدفون"
+    },
+    {
+     "word": "text",
+     "fa": "پیام دادن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Ha! Good idea, it's quicker. Shall we order online or ring them?",
+   "translations": {
+    "fa": "ها! فکر خوبیه، سریع‌تره. آنلاین سفارش بدیم یا زنگ بزنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "easier",
+      "online",
+      "order",
+      "let's"
+     ],
+     "suggestion": "Let's order online. It's easier.",
+     "suggestionFa": "بیا آنلاین سفارش بدیم. راحت‌تره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "practise",
+      "english",
+      "ringing",
+      "about"
+     ],
+     "suggestion": "How about ringing? I can practise my English!",
+     "suggestionFa": "زنگ زدن چطوره؟ می‌تونم انگلیسیم را تمرین کنم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "order",
+     "fa": "سفارش دادن"
+    },
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    },
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "practise",
+     "fa": "تمرین کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: \"practise\" is the verb, \"practice\" is the noun. Americans use \"practice\" for both.",
+    "fa": "در بریتانیا practise فعل و practice اسم است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Brave! Go on then. Ask for a large cod, two small chips, and mushy peas for Nana.",
+   "translations": {
+    "fa": "شجاع! بفرما. یه ماهی کاد بزرگ، دوتا سیب‌زمینی کوچیک و نخود له‌شده برای نانا بخواه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what",
+      "are"
+     ],
+     "suggestion": "What are mushy peas?",
+     "suggestionFa": "mushy peas چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "large",
+      "chips",
+      "two"
+     ],
+     "suggestion": "A large cod, two small chips, mushy peas. Got it!",
+     "suggestionFa": "یه کاد بزرگ، دوتا چیپس کوچیک، نخود له‌شده. فهمیدم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cod",
+     "fa": "ماهی کاد"
+    },
+    {
+     "word": "mushy peas",
+     "fa": "نخودفرنگی له‌شده"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Mashed green peas — Nana loves them. Why don't you lay the table while we wait?",
+   "translations": {
+    "fa": "نخودفرنگی له‌شده — نانا عاشقشه. چرا تا منتظریم میز را نچینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plates",
+      "paper",
+      "just",
+      "sure"
+     ],
+     "suggestion": "Sure. Plates or just the paper?",
+     "suggestionFa": "حتماً. بشقاب یا همون کاغذش؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tonight",
+      "let's",
+      "sofa",
+      "eat"
+     ],
+     "suggestion": "Let's eat on the sofa tonight!",
+     "suggestionFa": "بیا امشب رو مبل غذا بخوریم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lay the table",
+     "fa": "میز چیدن"
+    },
+    {
+     "word": "plates",
+     "fa": "بشقاب‌ها"
+    },
+    {
+     "word": "while",
+     "fa": "در حالی که"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Ha, you're turning British! Proper chippy night — straight out of the paper, on the sofa.",
+   "translations": {
+    "fa": "ها، داری بریتانیایی میشی! یه شب فیش‌اند‌چیپسی واقعی — مستقیم از کاغذ، رو مبل."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

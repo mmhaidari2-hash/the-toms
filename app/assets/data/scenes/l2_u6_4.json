@@ -1,0 +1,277 @@
+{
+ "id": "l2_u6_4",
+ "characterId": "leslie",
+ "title": "Home remedies",
+ "titleFa": "درمان‌های خانگی",
+ "setting": "Staying healthy · Level 2",
+ "settingFa": "سالم ماندن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "You sound terrible! Sit down. Have you ever tried honey and lemon?",
+   "translations": {
+    "fa": "صدات افتضاحه! بشین. تا حالا عسل و لیمو امتحان کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tried",
+      "never",
+      "i've"
+     ],
+     "suggestion": "No, I've never tried it.",
+     "suggestionFa": "نه، هیچ‌وقت امتحان نکردم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "made",
+      "mum"
+     ],
+     "suggestion": "Yes! My mum always made it for me.",
+     "suggestionFa": "آره! مامانم همیشه برام درست می‌کرد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sound terrible",
+     "fa": "صدایت افتضاح است"
+    },
+    {
+     "word": "tried",
+     "fa": "امتحان کرده"
+    },
+    {
+     "word": "honey",
+     "fa": "عسل"
+    },
+    {
+     "word": "lemon",
+     "fa": "لیمو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "It's the best thing for a cold. Here — a nice hot cup. Careful, it's hot!",
+   "translations": {
+    "fa": "بهترین چیز برای سرماخوردگیه. بیا — یه لیوان داغ. مواظب باش، داغه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "kind"
+     ],
+     "suggestion": "Thank you. That's very kind.",
+     "suggestionFa": "ممنون. خیلی لطف داری.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "mmm"
+     ],
+     "suggestion": "Mmm, that's lovely.",
+     "suggestionFa": "مم، چه خوبه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "lovely",
+     "fa": "دلپذیر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "My nan swore by it. She never took tablets — just honey, lemon and a hot water bottle!",
+   "translations": {
+    "fa": "مادربزرگم قسم می‌خورد کار می‌کنه. هیچ‌وقت قرص نمی‌خورد — فقط عسل، لیمو و کیسهٔ آب گرم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bottle",
+      "what's",
+      "water",
+      "hot"
+     ],
+     "suggestion": "What's a hot water bottle?",
+     "suggestionFa": "کیسهٔ آب گرم چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "used",
+      "ever",
+      "have",
+      "one"
+     ],
+     "suggestion": "Have you ever used one?",
+     "suggestionFa": "تو تا حالا استفاده کردی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nan",
+     "fa": "مادربزرگ"
+    },
+    {
+     "word": "swore by",
+     "fa": "کاملاً قبول داشت"
+    },
+    {
+     "word": "tablets",
+     "fa": "قرص"
+    },
+    {
+     "word": "hot water bottle",
+     "fa": "کیسهٔ آب گرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Nan\" or \"nana\" is a common British word for grandmother.",
+    "fa": "nan در بریتانیا یعنی مادربزرگ."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "A rubber bag you fill with hot water. I've got one in every bedroom! British houses are cold, you know.",
+   "translations": {
+    "fa": "یه کیسهٔ لاستیکی که پرش می‌کنی از آب داغ. تو هر اتاق یکی دارم! خونه‌های بریتانیا سردن دیگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "never",
+      "cold",
+      "i've",
+      "been"
+     ],
+     "suggestion": "I've never been so cold in my life!",
+     "suggestionFa": "تو عمرم این‌قدر سردم نبوده!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tonight",
+      "borrow",
+      "could",
+      "one"
+     ],
+     "suggestion": "Could I borrow one tonight?",
+     "suggestionFa": "می‌تونم امشب یکی قرض بگیرم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rubber",
+     "fa": "لاستیک"
+    },
+    {
+     "word": "fill",
+     "fa": "پر کردن"
+    },
+    {
+     "word": "borrow",
+     "fa": "قرض گرفتن"
+    },
+    {
+     "word": "in my life",
+     "fa": "در عمرم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Of course. And you should have an early night. Have you ever watched Bake Off? It's perfect for a cold!",
+   "translations": {
+    "fa": "حتماً. و بهتره زود بخوابی. تا حالا Bake Off دیدی؟ برای سرماخوردگی عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "never"
+     ],
+     "suggestion": "No, never. What is it?",
+     "suggestionFa": "نه، هیچ‌وقت. چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "love"
+     ],
+     "suggestion": "Yes, I love it!",
+     "suggestionFa": "آره، عاشقشم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early night",
+     "fa": "زود خوابیدن"
+    },
+    {
+     "word": "watched",
+     "fa": "تماشا کرده"
+    },
+    {
+     "word": "perfect",
+     "fa": "عالی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "A baking show. Very British, very cosy. Blanket, tea, Bake Off — you'll feel better in no time.",
+   "translations": {
+    "fa": "یه برنامهٔ آشپزی. خیلی بریتانیایی، خیلی دنج. پتو، چای، Bake Off — زود حالت خوب میشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "id": "l2_u9_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) A day at the seaside",
+ "titleFa": "(در نقش Nicola) یک روز کنار دریا",
+ "setting": "Weekends and trips · Level 2",
+ "settingFa": "آخر هفته و سفر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u9_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "seaside",
+      "sunday",
+      "last",
+      "best"
+     ],
+     "suggestion": "Do you remember the seaside last Sunday? It was the best day ever!",
+     "suggestionFa": "یادته یکشنبهٔ پیش کنار دریا؟ بهترین روز دنیا بود!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes! We went to Blackpool.",
+   "translations": {
+    "fa": "آره! رفتیم بلک‌پول."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "screamed",
+      "louder",
+      "daddy",
+      "swam",
+      "than"
+     ],
+     "suggestion": "I swam in the sea! It was SO cold. Daddy screamed louder than me!",
+     "suggestionFa": "تو دریا شنا کردم! خیلی سرد بود. بابا از من بلندتر جیغ زد!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ha! Did you build a sandcastle?",
+   "translations": {
+    "fa": "ها! قلعهٔ شنی ساختی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knocked",
+      "cried",
+      "huge",
+      "then",
+      "down"
+     ],
+     "suggestion": "Yes! A huge one. Then a wave came and knocked it down. I cried a bit.",
+     "suggestionFa": "آره! یه دونهٔ خیلی بزرگ. بعد یه موج اومد و خرابش کرد. یه کم گریه کردم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Oh no. But then we ate fish and chips!",
+   "translations": {
+    "fa": "ای وای. ولی بعدش ماهی و چیپس خوردیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seagull",
+      "mummy's",
+      "beach",
+      "stole",
+      "chips"
+     ],
+     "suggestion": "Fish and chips on the beach! A seagull stole Mummy's chip!",
+     "suggestionFa": "ماهی و چیپس کنار ساحل! یه مرغ دریایی چیپس مامان را دزدید!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I remember! It flew right at her!",
+   "translations": {
+    "fa": "یادمه! مستقیم به سمتش پرواز کرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weekend",
+      "again",
+      "cream",
+      "then",
+      "went"
+     ],
+     "suggestion": "And then we had ice cream and went on the pier. Can we go again next weekend?",
+     "suggestionFa": "بعدش بستنی خوردیم و رفتیم روی اسکله. میشه آخر هفتهٔ بعد دوباره بریم؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Maybe in the summer.",
+   "translations": {
+    "fa": "شاید تابستون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "going",
+      "mummy",
+      "right",
+      "them",
+      "now"
+     ],
+     "suggestion": "Yes! I'm going to ask them right now. MUMMY!",
+     "suggestionFa": "آره! همین الان ازشون می‌پرسم. مامااان!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

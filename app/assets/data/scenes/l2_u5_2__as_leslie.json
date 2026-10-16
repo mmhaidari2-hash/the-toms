@@ -1,0 +1,200 @@
+{
+ "id": "l2_u5_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Other parents",
+ "titleFa": "(در نقش Leslie) والدین دیگر",
+ "setting": "At the school gate · Level 2",
+ "settingFa": "دم در مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u5_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playground",
+      "running",
+      "here's",
+      "nicola",
+      "she's"
+     ],
+     "suggestion": "Here's the playground. Look at Nicola — she's running so fast!",
+     "suggestionFa": "اینم حیاط مدرسه. نیکولا را ببین — چقدر تند می‌دوه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "She runs really quickly!",
+   "translations": {
+    "fa": "واقعاً سریع می‌دوه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "loudly",
+      "ready",
+      "mia's",
+      "talks"
+     ],
+     "suggestion": "She does! Oh — that's Mia's mum, Jo. She talks very loudly, so be ready!",
+     "suggestionFa": "آره! آه — اون مامان میا، جوئه. خیلی بلند حرف می‌زنه، پس آماده باش!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ha! I'll listen carefully.",
+   "translations": {
+    "fa": "ها! با دقت گوش می‌دم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "organises",
+      "quickly",
+      "though",
+      "really",
+      "lovely"
+     ],
+     "suggestion": "Very quickly. Jo's lovely, though. She organises the school fair every year — really well.",
+     "suggestionFa": "خیلی تند. ولی جو خیلی خوبه. هر سال بازارچهٔ مدرسه را برگزار می‌کنه — خیلی خوب.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What happens at the school fair?",
+   "translations": {
+    "fa": "تو بازارچهٔ مدرسه چی میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "barbecue",
+      "tombola",
+      "stalls",
+      "badly"
+     ],
+     "suggestion": "Cake stalls, a tombola, games. Last year Tom ran the barbecue — badly! He burnt everything.",
+     "suggestionFa": "غرفهٔ کیک، قرعه‌کشی، بازی. پارسال تام کباب‌پز را اداره کرد — افتضاح! همه چی را سوزوند.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Oh no! Poor Tom.",
+   "translations": {
+    "fa": "ای وای! تام بیچاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "bakes",
+      "stall",
+      "would",
+      "love"
+     ],
+     "suggestion": "Would you? Jo will love you! Can you bake? Everyone bakes for the cake stall.",
+     "suggestionFa": "واقعاً؟ جو عاشقت میشه! بلدی کیک بپزی؟ همه برای غرفهٔ کیک می‌پزن.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I can bake quite well.",
+   "translations": {
+    "fa": "نسبتاً خوب کیک می‌پزم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "sweetly",
+      "walking",
+      "quietly",
+      "perfect"
+     ],
+     "suggestion": "Perfect. Oh, the bell! Everyone's walking in quietly now. Look how sweetly Nicola waves!",
+     "suggestionFa": "عالی. آه، زنگ! همه دارن آروم می‌رن تو. ببین نیکولا چه شیرین دست تکون می‌ده!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Bye, Nicola! Have a good day!",
+   "translations": {
+    "fa": "خداحافظ نیکولا! روز خوبی داشته باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "coffee",
+      "badly",
+      "right",
+      "after"
+     ],
+     "suggestion": "Right — coffee? I need one badly after this morning!",
+     "suggestionFa": "خب — قهوه؟ بعد از امروز صبح شدیداً بهش نیاز دارم!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
