@@ -161,7 +161,7 @@
      "suggestion": "I've got work, then maybe the shops.",
      "suggestionFa": "سر کار می‌روم، بعد شاید خرید.",
      "trustDelta": 5,
-     "next": "t4",
+     "next": "x0",
      "success": true
     },
     {
@@ -176,7 +176,7 @@
      "suggestion": "I'm studying — trying to improve my English.",
      "suggestionFa": "درس می‌خوانم — دارم سعی می‌کنم انگلیسی‌ام را بهتر کنم.",
      "trustDelta": 7,
-     "next": "t4",
+     "next": "x0",
      "success": true
     },
     {
@@ -192,7 +192,7 @@
      "suggestion": "Not much — just taking it easy.",
      "suggestionFa": "کار خاصی نه — فقط استراحت می‌کنم.",
      "trustDelta": 4,
-     "next": "t4",
+     "next": "x0",
      "success": true
     }
    ],
@@ -230,6 +230,336 @@
     "en": "'Nick' means steal in British slang — and 'the nick' is also prison!",
     "fa": "«Nick» در اسلنگ بریتانیایی یعنی دزدیدن — و «the nick» یعنی زندان!"
    }
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "tom",
+   "text": "Toast's up. Butter or Marmite? Fair warning — Marmite's a love-it-or-hate-it thing.",
+   "translations": {
+    "fa": "نان تست آماده است. کره یا مارمایت؟ از قبل بگم — مارمایت یا عاشقش می‌شی یا ازش متنفری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "marmite",
+      "try",
+      "go on"
+     ],
+     "suggestion": "I'll try the Marmite, go on then!",
+     "suggestionFa": "مارمایت را امتحان می‌کنم، باشه!",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter",
+      "just",
+      "thanks"
+     ],
+     "suggestion": "Just butter for me, thanks.",
+     "suggestionFa": "برای من فقط کره، ممنون.",
+     "trustDelta": 5,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Marmite",
+     "fa": "مارمایت (خمیر مخمر)"
+    },
+    {
+     "word": "love it or hate it",
+     "fa": "یا عاشقشی یا متنفر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Marmite is a salty yeast spread. Brits joke about it constantly — trying it wins you instant respect.",
+    "fa": "مارمایت یک خمیر شور مخمر است. بریتانیایی‌ها مدام درباره‌اش شوخی می‌کنند — امتحانش احترام می‌آورد."
+   },
+   "recasts": [
+    {
+     "match": [
+      "give me butter",
+      "butter give"
+     ],
+     "echo": "Ah, you'd like the butter? Here you go.",
+     "better": "Could you pass the butter, please?",
+     "betterFa": "می‌شه کره را بدی، لطفاً؟"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "tom",
+   "text": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
+   "translations": {
+    "fa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "log",
+      "well",
+      "fine",
+      "good",
+      "alright"
+     ],
+     "suggestion": "I slept like a log, thanks.",
+     "suggestionFa": "مثل سنگ خوابیدم، ممنون.",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "woke",
+      "lorry",
+      "noise",
+      "honest"
+     ],
+     "suggestion": "The lorry woke me up, to be honest.",
+     "suggestionFa": "راستش کامیون بیدارم کرد.",
+     "trustDelta": 4,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bins",
+     "fa": "سطل‌های زباله"
+    },
+    {
+     "word": "lorry",
+     "fa": "کامیون"
+    },
+    {
+     "word": "slept like a log",
+     "fa": "مثل سنگ خوابیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Bin day' is a big deal — every street has its day, and forgetting means a full bin for a week.",
+    "fa": "«روز سطل» مهم است — هر خیابان روز خودش را دارد و فراموشی یعنی یک هفته سطل پر."
+   }
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "tom",
+   "text": "Right. What are you up to today, then?",
+   "translations": {
+    "fa": "خب. امروز چه برنامه‌ای داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "town",
+      "popping",
+      "look around",
+      "shop"
+     ],
+     "suggestion": "I'm popping into town to look around.",
+     "suggestionFa": "یه سر به شهر می‌زنم که بگردم.",
+     "trustDelta": 6,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "walk",
+      "park",
+      "not much",
+      "relax"
+     ],
+     "suggestion": "Not much — maybe a walk in the park.",
+     "suggestionFa": "کار خاصی نه — شاید یه پیاده‌روی در پارک.",
+     "trustDelta": 5,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "popping into",
+     "fa": "سر زدن به"
+    },
+    {
+     "word": "what are you up to",
+     "fa": "چه کار می‌کنی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i go town",
+      "i go to town today"
+     ],
+     "echo": "Oh, you're heading into town? Lovely.",
+     "better": "I'm heading into town today.",
+     "betterFa": "امروز می‌رم شهر."
+    }
+   ]
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "tom",
+   "text": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
+   "translations": {
+    "fa": "چتر ببر. پیش‌بینی می‌گه آفتابِ گاه‌به‌گاه، که در بریتانیا یعنی «بارون سرت می‌باره»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheers",
+      "warning",
+      "thanks",
+      "ha"
+     ],
+     "suggestion": "Ha, cheers for the warning!",
+     "suggestionFa": "ها، مرسی بابت هشدار!",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "borrow",
+      "umbrella",
+      "brolly"
+     ],
+     "suggestion": "Can I borrow an umbrella, please?",
+     "suggestionFa": "می‌تونم یه چتر قرض بگیرم، لطفاً؟",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brolly",
+     "fa": "چتر (عامیانه)"
+    },
+    {
+     "word": "sunny spells",
+     "fa": "آفتاب گاه‌به‌گاه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Weather is the national small talk. Agreeing about it is the easiest way to bond.",
+    "fa": "آب‌وهوا گفت‌وگوی ملی است. هم‌نظر شدن درباره‌اش ساده‌ترین راه صمیمی شدن است."
+   }
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "tom",
+   "text": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
+   "translations": {
+    "fa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی تسکو رد شدی، می‌شه شیر بگیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "pints",
+      "how many",
+      "sure",
+      "course"
+     ],
+     "suggestion": "No problem, how many pints?",
+     "suggestionFa": "مشکلی نیست، چند پاینت؟",
+     "trustDelta": 8,
+     "next": "x5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "won't",
+      "not"
+     ],
+     "suggestion": "Sorry, I won't go that way today.",
+     "suggestionFa": "ببخشید، امروز از اون طرف نمی‌رم.",
+     "trustDelta": 3,
+     "next": "x5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pint",
+     "fa": "پاینت (حدود ۵۶۸ میلی‌لیتر)"
+    },
+    {
+     "word": "grab",
+     "fa": "گرفتن/خریدن سریع"
+    }
+   ],
+   "cultureNote": {
+    "en": "Milk still comes in pints in the UK, even though most things are metric.",
+    "fa": "شیر در بریتانیا هنوز با پاینت فروخته می‌شود، با این‌که بیشتر چیزها متریک‌اند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "how much milk you want",
+      "what milk"
+     ],
+     "echo": "How many pints? Two'll do us, ta.",
+     "better": "How many pints would you like?",
+     "betterFa": "چند پاینت می‌خوای؟"
+    }
+   ]
+  },
+  "x5": {
+   "id": "x5",
+   "speaker": "tom",
+   "text": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
+   "translations": {
+    "fa": "دو پاینت نیم‌چرب. تو فوق‌العاده‌ای. خب، باید بدوم — شب می‌بینمت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "see you",
+      "later",
+      "good one",
+      "bye"
+     ],
+     "suggestion": "See you later, have a good one!",
+     "suggestionFa": "بعداً می‌بینمت، روز خوبی داشته باشی!",
+     "trustDelta": 6,
+     "next": "t4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "day",
+      "work",
+      "tom"
+     ],
+     "suggestion": "Have a good day at work, Tom.",
+     "suggestionFa": "روز خوبی سر کار داشته باشی، تام.",
+     "trustDelta": 6,
+     "next": "t4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "semi-skimmed",
+     "fa": "شیر نیم‌چرب"
+    },
+    {
+     "word": "you're a star",
+     "fa": "تو فوق‌العاده‌ای"
+    },
+    {
+     "word": "dash",
+     "fa": "با عجله رفتن"
+    }
+   ]
   }
  },
  "level": "A1"

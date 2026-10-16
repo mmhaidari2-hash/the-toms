@@ -214,7 +214,7 @@
      "suggestion": "I promise — I wouldn't miss it for the world!",
      "suggestionFa": "قول می‌دهم — به هیچ قیمتی از دستش نمی‌دهم!",
      "trustDelta": 10,
-     "next": "p5",
+     "next": "x0",
      "success": true
     }
    ],
@@ -252,6 +252,294 @@
     }
    ],
    "cultureNote": null
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "nicola",
+   "text": "Push me higher! Higher! Can you touch the sky?",
+   "translations": {
+    "fa": "منو بالاتر هل بده! بالاتر! می‌تونی آسمون را لمس کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hold",
+      "tight",
+      "here we go",
+      "higher"
+     ],
+     "suggestion": "Hold on tight, here we go!",
+     "suggestionFa": "محکم بگیر، رفتیم!",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "careful",
+      "think"
+     ],
+     "suggestion": "That's high enough, I think.",
+     "suggestionFa": "فکر کنم همین بسه.",
+     "trustDelta": 5,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hold on tight",
+     "fa": "محکم بگیر"
+    },
+    {
+     "word": "swing",
+     "fa": "تاب"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "nicola",
+   "text": "Wheee! Look, a squirrel! Is it grey or red?",
+   "translations": {
+    "fa": "وییی! ببین، سنجاب! خاکستریه یا قرمز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "grey",
+      "gray"
+     ],
+     "suggestion": "It's a grey one, I think.",
+     "suggestionFa": "فکر کنم خاکستریه.",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "not sure",
+      "you think",
+      "what"
+     ],
+     "suggestion": "I'm not sure — what do you think?",
+     "suggestionFa": "مطمئن نیستم — تو چی فکر می‌کنی؟",
+     "trustDelta": 7,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squirrel",
+     "fa": "سنجاب"
+    },
+    {
+     "word": "grey",
+     "fa": "خاکستری (املای بریتانیایی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most squirrels in England are grey; red ones are rare and much loved.",
+    "fa": "بیشتر سنجاب‌های انگلستان خاکستری‌اند؛ قرمزها کمیاب و خیلی محبوب‌اند."
+   }
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "nicola",
+   "text": "Grey! Can we feed the ducks? I've got bread in my pocket.",
+   "translations": {
+    "fa": "خاکستری! می‌تونیم به اردک‌ها غذا بدیم؟ توی جیبم نان دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "peas",
+      "better",
+      "not bread"
+     ],
+     "suggestion": "Ducks like peas better than bread!",
+     "suggestionFa": "اردک‌ها نخود را بیشتر از نان دوست دارن!",
+     "trustDelta": 8,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pond",
+      "yes",
+      "let's"
+     ],
+     "suggestion": "Yes, let's go to the pond.",
+     "suggestionFa": "آره، بریم سمت برکه.",
+     "trustDelta": 6,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pond",
+     "fa": "برکه"
+    },
+    {
+     "word": "feed",
+     "fa": "غذا دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Parks put up signs asking people not to feed ducks bread — peas, oats or corn are kinder.",
+    "fa": "پارک‌ها تابلو می‌زنند که به اردک‌ها نان ندهید — نخود، جو یا ذرت بهتر است."
+   }
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "nicola",
+   "text": "That one's chasing the other one! Is he being naughty?",
+   "translations": {
+    "fa": "اون یکی داره اون یکی را دنبال می‌کنه! داره شیطونی می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playing",
+      "maybe",
+      "game"
+     ],
+     "suggestion": "Maybe they're just playing.",
+     "suggestionFa": "شاید فقط دارن بازی می‌کنن.",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "naughty",
+      "yes",
+      "bit"
+     ],
+     "suggestion": "Yes, a bit naughty!",
+     "suggestionFa": "آره، یه کم شیطون!",
+     "trustDelta": 5,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "naughty",
+     "fa": "شیطون"
+    },
+    {
+     "word": "chase",
+     "fa": "دنبال کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he is play",
+      "they play"
+     ],
+     "echo": "They're playing? Yeah, like me and Ryan!",
+     "better": "Maybe they're just playing.",
+     "betterFa": "شاید فقط دارن بازی می‌کنن."
+    }
+   ]
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "nicola",
+   "text": "Like me and Ryan! I'm cold now. My hands are freezing.",
+   "translations": {
+    "fa": "مثل من و رایان! حالا سردمه. دستام یخ زده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gloves",
+      "here",
+      "have"
+     ],
+     "suggestion": "Here, have my gloves.",
+     "suggestionFa": "بیا، دستکش‌های منو بگیر.",
+     "trustDelta": 8,
+     "next": "x5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "home",
+      "hot chocolate",
+      "head"
+     ],
+     "suggestion": "Let's head home for hot chocolate.",
+     "suggestionFa": "بریم خونه شکلات داغ بخوریم.",
+     "trustDelta": 8,
+     "next": "x5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "freezing",
+     "fa": "یخ‌زده/خیلی سرد"
+    },
+    {
+     "word": "head home",
+     "fa": "راه افتادن به خانه"
+    }
+   ]
+  },
+  "x5": {
+   "id": "x5",
+   "speaker": "nicola",
+   "text": "Hot chocolate with marshmallows? Race you to the gate!",
+   "translations": {
+    "fa": "شکلات داغ با مارشملو؟ تا دروازه مسابقه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "on",
+      "ready",
+      "steady",
+      "go"
+     ],
+     "suggestion": "You're on — ready, steady, go!",
+     "suggestionFa": "قبول — آماده، حاضر، برو!",
+     "trustDelta": 8,
+     "next": "p5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "road",
+      "okay",
+      "careful"
+     ],
+     "suggestion": "Okay, but no running near the road.",
+     "suggestionFa": "باشه، ولی کنار خیابون ندو.",
+     "trustDelta": 7,
+     "next": "p5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "race you",
+     "fa": "مسابقه بدیم"
+    },
+    {
+     "word": "ready, steady, go",
+     "fa": "آماده، حاضر، برو"
+    }
+   ],
+   "cultureNote": {
+    "en": "British kids say 'ready, steady, go!' — not 'ready, set, go'.",
+    "fa": "بچه‌های بریتانیایی می‌گویند «ready, steady, go» — نه «ready, set, go»."
+   }
   }
  },
  "level": "A1"

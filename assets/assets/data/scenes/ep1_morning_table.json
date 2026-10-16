@@ -258,7 +258,7 @@
      "suggestion": "There's a bit left — have mine, mate.",
      "suggestionFa": "یه کم مونده — مال منو بردار رفیق.",
      "trustDelta": 9,
-     "next": "k6",
+     "next": "x0",
      "success": true
     },
     {
@@ -272,7 +272,7 @@
      "suggestion": "You look knackered — late night?",
      "suggestionFa": "داغون به نظر می‌رسی — دیر خوابیدی؟",
      "trustDelta": 8,
-     "next": "k6",
+     "next": "x0",
      "success": true
     }
    ],
@@ -326,6 +326,289 @@
     "connected": "Right, I'm off.",
     "ipa": "/raɪʔ aɪm ˈɒf/"
    }
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "leslie",
+   "text": "Right, lunchboxes. Nicola wants crisps, I say an apple. Back me up?",
+   "translations": {
+    "fa": "خب، ظرف ناهار. نیکولا چیپس می‌خواد، من می‌گم سیب. پشتم را می‌گیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "apple",
+      "better"
+     ],
+     "suggestion": "An apple is better, Nicola!",
+     "suggestionFa": "سیب بهتره، نیکولا!",
+     "trustDelta": 6,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "both",
+      "small",
+      "maybe"
+     ],
+     "suggestion": "Maybe both — a small bag of crisps?",
+     "suggestionFa": "شاید هر دو — یه بستهٔ کوچیک چیپس؟",
+     "trustDelta": 8,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crisps",
+     "fa": "چیپس (در آمریکا: chips)"
+    },
+    {
+     "word": "back me up",
+     "fa": "از من حمایت کن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Crisps = chips in American; chips = fries. Every British kid has a favourite flavour.",
+    "fa": "crisps یعنی چیپس آمریکایی؛ chips یعنی سیب‌زمینی سرخ‌کرده."
+   }
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "nicola",
+   "text": "Prawn cocktail crisps! Pleeease!",
+   "translations": {
+    "fa": "چیپس طعم میگو! لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "only if",
+      "apple",
+      "too"
+     ],
+     "suggestion": "Only if you eat your apple too.",
+     "suggestionFa": "فقط اگه سیبت را هم بخوری.",
+     "trustDelta": 7,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ask",
+      "mum",
+      "nicely"
+     ],
+     "suggestion": "Ask your mum nicely.",
+     "suggestionFa": "از مامانت مؤدبانه بپرس.",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prawn cocktail",
+     "fa": "طعم میگو (چیپس)"
+    }
+   ]
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "leslie",
+   "text": "Deal. Oh, and can someone check the weather? I need to know about coats.",
+   "translations": {
+    "fa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chilly",
+      "showers",
+      "rain",
+      "cold"
+     ],
+     "suggestion": "It says it'll be chilly with showers.",
+     "suggestionFa": "می‌گه سرد با رگبار.",
+     "trustDelta": 7,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sunny",
+      "now",
+      "nice"
+     ],
+     "suggestion": "It looks sunny for now.",
+     "suggestionFa": "فعلاً آفتابیه.",
+     "trustDelta": 5,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chilly",
+     "fa": "خنک/سرد"
+    },
+    {
+     "word": "showers",
+     "fa": "رگبار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "weather is cold",
+      "it is cold weather"
+     ],
+     "echo": "Chilly, is it? Coats on, then!",
+     "better": "It's a bit chilly today.",
+     "betterFa": "امروز یه کم سرده."
+    }
+   ]
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "william",
+   "text": "*points at window* Bir-dy!",
+   "translations": {
+    "fa": "*به پنجره اشاره می‌کنه* پرنده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "robin",
+      "yes",
+      "bird",
+      "birdy"
+     ],
+     "suggestion": "Yes, William — a robin!",
+     "suggestionFa": "آره، ویلیام — سینه‌سرخ!",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clever",
+      "well done",
+      "good"
+     ],
+     "suggestion": "Clever boy, well done!",
+     "suggestionFa": "پسر باهوش، آفرین!",
+     "trustDelta": 6,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "robin",
+     "fa": "سینه‌سرخ"
+    },
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ],
+   "cultureNote": {
+    "en": "The robin is Britain's favourite bird and appears on almost every Christmas card.",
+    "fa": "سینه‌سرخ پرندهٔ محبوب بریتانیاست و تقریباً روی همه کارت‌های کریسمس هست."
+   }
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "leslie",
+   "text": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",
+   "translations": {
+    "fa": "هشت و ده دقیقه! همه کفش بپوشن. می‌شه کیف کتاب نیکولا را از راهرو بیاری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure",
+      "get",
+      "now",
+      "course"
+     ],
+     "suggestion": "Sure, I'll get it now.",
+     "suggestionFa": "حتماً، الان میارمش.",
+     "trustDelta": 7,
+     "next": "x5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "exactly"
+     ],
+     "suggestion": "Where is it exactly?",
+     "suggestionFa": "دقیقاً کجاست؟",
+     "trustDelta": 5,
+     "next": "x5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ten past eight",
+     "fa": "هشت و ده دقیقه"
+    },
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب مدرسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say times as 'ten past eight', 'half eight' (8:30) — 'half eight' never means 7:30!",
+    "fa": "بریتانیایی‌ها می‌گویند «half eight» یعنی ۸:۳۰ — نه ۷:۳۰!"
+   }
+  },
+  "x5": {
+   "id": "x5",
+   "speaker": "nicola",
+   "text": "Thank you! Will you pick me up later? Pinky promise?",
+   "translations": {
+    "fa": "مرسی! بعداً میای دنبالم؟ قول انگشتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pinky",
+      "promise",
+      "three"
+     ],
+     "suggestion": "Pinky promise — see you at three.",
+     "suggestionFa": "قول انگشتی — ساعت سه می‌بینمت.",
+     "trustDelta": 9,
+     "next": "k6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "try",
+      "best"
+     ],
+     "suggestion": "I'll try my best!",
+     "suggestionFa": "تمام تلاشم را می‌کنم!",
+     "trustDelta": 6,
+     "next": "k6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pick me up",
+     "fa": "دنبالم بیا"
+    },
+    {
+     "word": "pinky promise",
+     "fa": "قول انگشتی"
+    }
+   ]
   }
  },
  "memory": {

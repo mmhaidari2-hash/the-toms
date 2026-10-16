@@ -77,7 +77,7 @@
      "suggestion": "Yes, sir, it's in my bag.",
      "suggestionFa": "بله آقا، توی کیفم است.",
      "trustDelta": 6,
-     "next": "s3",
+     "next": "x0",
      "success": true
     },
     {
@@ -89,7 +89,7 @@
      "suggestion": "No, sir, I forgot it.",
      "suggestionFa": "نه آقا، یادم رفت.",
      "trustDelta": 2,
-     "next": "s3",
+     "next": "x0",
      "success": true
     }
    ],
@@ -126,6 +126,220 @@
    "cultureNote": {
     "en": "Brits say 'maths' with an s; Americans say 'math'.",
     "fa": "بریتانیایی‌ها «maths» با s می‌گویند؛ آمریکایی‌ها «math»."
+   }
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "patel",
+   "text": "He's a bright lad but he's been chatting in class. Any ideas why?",
+   "translations": {
+    "fa": "پسر باهوشیه ولی سر کلاس حرف می‌زنه. فکری دارید چرا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bored",
+      "early",
+      "finishes"
+     ],
+     "suggestion": "Maybe he's bored — he finishes early.",
+     "suggestionFa": "شاید حوصله‌اش سر می‌ره — زود تموم می‌کنه.",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "word",
+      "talk",
+      "him"
+     ],
+     "suggestion": "I'll have a word with him.",
+     "suggestionFa": "باهاش صحبت می‌کنم.",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bright lad",
+     "fa": "پسر باهوش"
+    },
+    {
+     "word": "have a word",
+     "fa": "صحبت کردن (جدی)"
+    }
+   ]
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "patel",
+   "text": "That's fair. Could we give him extension work? He loves a challenge.",
+   "translations": {
+    "fa": "منصفانه‌ست. می‌تونیم بهش تکلیف تکمیلی بدیم؟ چالش را دوست داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "idea",
+      "sounds"
+     ],
+     "suggestion": "That sounds like a great idea.",
+     "suggestionFa": "فکر خیلی خوبیه.",
+     "trustDelta": 8,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what kind",
+      "kind",
+      "what"
+     ],
+     "suggestion": "What kind of work?",
+     "suggestionFa": "چه نوع تکلیفی؟",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extension work",
+     "fa": "تکلیف تکمیلی/پیشرفته"
+    }
+   ]
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "patel",
+   "text": "Maths puzzles mostly. His GCSEs are next year, so this matters.",
+   "translations": {
+    "fa": "بیشتر معماهای ریاضی. امتحانات GCSE سال دیگه‌ست، پس مهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what",
+      "gcse",
+      "exactly"
+     ],
+     "suggestion": "What are GCSEs exactly?",
+     "suggestionFa": "GCSE دقیقاً چیه؟",
+     "trustDelta": 7,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "support",
+      "home"
+     ],
+     "suggestion": "We'll support him at home.",
+     "suggestionFa": "در خانه حمایتش می‌کنیم.",
+     "trustDelta": 8,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "GCSEs",
+     "fa": "امتحانات ملی ۱۶ سالگی"
+    }
+   ],
+   "cultureNote": {
+    "en": "GCSEs are national exams at 16; A-levels at 18 decide university places.",
+    "fa": "GCSE امتحانات ملی ۱۶ سالگی است؛ A-level در ۱۸ سالگی برای دانشگاه تعیین‌کننده است."
+   }
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "patel",
+   "text": "Exams at sixteen, in about nine subjects. He's on track for top grades.",
+   "translations": {
+    "fa": "امتحانات شانزده‌سالگی، حدود نه درس. در مسیر نمرات عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "hear",
+      "great"
+     ],
+     "suggestion": "That's wonderful to hear.",
+     "suggestionFa": "شنیدنش فوق‌العاده‌ست.",
+     "trustDelta": 8,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "should",
+      "do"
+     ],
+     "suggestion": "Is there anything we should do?",
+     "suggestionFa": "کاری هست که باید بکنیم؟",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on track",
+     "fa": "در مسیر درست"
+    },
+    {
+     "word": "grades",
+     "fa": "نمره‌ها"
+    }
+   ]
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "patel",
+   "text": "Just keep the phone out of his room at night! Thanks for coming in.",
+   "translations": {
+    "fa": "فقط شب‌ها گوشی را از اتاقش بیرون نگه دارید! ممنون که اومدید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "time",
+      "patel"
+     ],
+     "suggestion": "Thank you for your time, Mr Patel.",
+     "suggestionFa": "ممنون از وقتتون، آقای پاتل.",
+     "trustDelta": 8,
+     "next": "s3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "luck",
+      "ha"
+     ],
+     "suggestion": "Ha, good luck with that!",
+     "suggestionFa": "ها، موفق باشی با این کار!",
+     "trustDelta": 6,
+     "next": "s3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thanks for coming in",
+     "fa": "ممنون که آمدید"
+    }
+   ],
+   "cultureNote": {
+    "en": "Teachers are 'Mr/Mrs/Miss + surname' — kids call female teachers 'Miss'.",
+    "fa": "معلم‌ها را با «Mr/Mrs/Miss + نام خانوادگی» صدا می‌زنند."
    }
   }
  }

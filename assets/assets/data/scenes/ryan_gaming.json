@@ -157,7 +157,7 @@
      "suggestion": "Deal. I'll smash you next time!",
      "suggestionFa": "قبول. دفعه بعد لهت می‌کنم!",
      "trustDelta": 7,
-     "next": "r4",
+     "next": "x0",
      "success": true
     }
    ],
@@ -195,6 +195,306 @@
     }
    ],
    "cultureNote": null
+  },
+  "x0": {
+   "id": "x0",
+   "speaker": "ryan",
+   "text": "Mate, you're actually not bad. Wanna go again? Best of three.",
+   "translations": {
+    "fa": "رفیق، واقعاً بد نیستی. یه دست دیگه؟ دو از سه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "go on",
+      "best",
+      "again",
+      "yes"
+     ],
+     "suggestion": "Go on then, best of three!",
+     "suggestionFa": "باشه، دو از سه!",
+     "trustDelta": 7,
+     "next": "x1",
+     "success": true
+    },
+    {
+     "keywords": [
+      "knackered",
+      "later",
+      "tired"
+     ],
+     "suggestion": "I'm knackered, maybe later.",
+     "suggestionFa": "خسته‌ام، شاید بعداً.",
+     "trustDelta": 5,
+     "next": "x1",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "best of three",
+     "fa": "دو برد از سه"
+    },
+    {
+     "word": "not bad",
+     "fa": "بد نیست (یعنی خوبه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Not bad' from a British teen is high praise.",
+    "fa": "«not bad» از یک نوجوان بریتانیایی یعنی تعریف بزرگ."
+   }
+  },
+  "x1": {
+   "id": "x1",
+   "speaker": "ryan",
+   "text": "Sick. Pass us the controller, cheers. Do you play footy back home?",
+   "translations": {
+    "fa": "عالیه. اون دسته را بده، مرسی. تو وطنت فوتبال بازی می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yeah",
+      "weekend",
+      "mates",
+      "yes"
+     ],
+     "suggestion": "Yeah, every weekend with mates.",
+     "suggestionFa": "آره، هر آخر هفته با رفقا.",
+     "trustDelta": 7,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rubbish",
+      "not really",
+      "bad"
+     ],
+     "suggestion": "Not really, I'm rubbish at it.",
+     "suggestionFa": "نه زیاد، خیلی بدم.",
+     "trustDelta": 6,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sick",
+     "fa": "عالی (عامیانه)"
+    },
+    {
+     "word": "footy",
+     "fa": "فوتبال"
+    },
+    {
+     "word": "pass us",
+     "fa": "بده به من"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Pass us' means 'pass me' in casual speech. 'Rubbish' = bad.",
+    "fa": "«pass us» در گفتار خودمانی یعنی «به من بده». «rubbish» یعنی بد."
+   },
+   "recasts": [
+    {
+     "match": [
+      "give controller",
+      "give me the controller"
+     ],
+     "echo": "The controller? Here, take it, mate.",
+     "better": "Pass us the controller, cheers.",
+     "betterFa": "اون دسته را بده، مرسی."
+    }
+   ]
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "ryan",
+   "text": "Who d'you support, then? Don't say Man United or we can't be friends.",
+   "translations": {
+    "fa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "who",
+      "you support",
+      "ha"
+     ],
+     "suggestion": "Ha, who do you support?",
+     "suggestionFa": "ها، تو طرفدار کی هستی؟",
+     "trustDelta": 7,
+     "next": "x3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "follow",
+      "really"
+     ],
+     "suggestion": "I don't really follow football.",
+     "suggestionFa": "راستش فوتبال دنبال نمی‌کنم.",
+     "trustDelta": 5,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "support",
+     "fa": "طرفدار بودن (تیم)"
+    },
+    {
+     "word": "d'you",
+     "fa": "do you (گفتاری)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Football loyalty is often inherited from your dad — asking 'who do you support?' starts friendships.",
+    "fa": "وفاداری فوتبالی اغلب از پدر ارث می‌رسد — پرسیدن «طرفدار کی هستی؟» دوستی را شروع می‌کند."
+   }
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "ryan",
+   "text": "Liverpool, obviously. Dad's lot. Anyway — I've got a maths test tomorrow and I'm bricking it.",
+   "translations": {
+    "fa": "لیورپول، معلومه. تیم بابام. راستی — فردا امتحان ریاضی دارم و خیلی می‌ترسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "revise",
+      "want"
+     ],
+     "suggestion": "Want me to help you revise?",
+     "suggestionFa": "می‌خوای کمکت کنم مرور کنی؟",
+     "trustDelta": 9,
+     "next": "x4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "smash",
+      "worry",
+      "fine"
+     ],
+     "suggestion": "You'll smash it, don't worry.",
+     "suggestionFa": "عالی می‌دی، نگران نباش.",
+     "trustDelta": 7,
+     "next": "x4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bricking it",
+     "fa": "خیلی ترسیدن (عامیانه)"
+    },
+    {
+     "word": "revise",
+     "fa": "مرور کردن برای امتحان"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you 'revise' for exams — Americans say 'study' or 'review'.",
+    "fa": "در بریتانیا برای امتحان «revise» می‌کنند — آمریکایی‌ها می‌گویند «study»."
+   }
+  },
+  "x4": {
+   "id": "x4",
+   "speaker": "ryan",
+   "text": "Would you? Legend. It's algebra — I just don't get what x is for.",
+   "translations": {
+    "fa": "واقعاً؟ دمت گرم. جبره — فقط نمی‌فهمم x برای چیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mystery",
+      "number",
+      "try",
+      "let's"
+     ],
+     "suggestion": "x is just a mystery number — let's try one.",
+     "suggestionFa": "x فقط یه عدد مجهوله — بیا یکی حل کنیم.",
+     "trustDelta": 8,
+     "next": "x5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "show",
+      "homework"
+     ],
+     "suggestion": "Show me your homework.",
+     "suggestionFa": "تکلیفت را نشونم بده.",
+     "trustDelta": 6,
+     "next": "x5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "legend",
+     "fa": "دمت گرم/فوق‌العاده"
+    },
+    {
+     "word": "get",
+     "fa": "فهمیدن"
+    }
+   ]
+  },
+  "x5": {
+   "id": "x5",
+   "speaker": "ryan",
+   "text": "Oh! That actually makes sense. Cheers, mate — you're alright, you are.",
+   "translations": {
+    "fa": "اوه! واقعاً منطقیه. مرسی رفیق — تو آدم خوبی هستی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "any time",
+      "anytime",
+      "mate"
+     ],
+     "suggestion": "Any time, mate.",
+     "suggestionFa": "هر وقت خواستی، رفیق.",
+     "trustDelta": 8,
+     "next": "r4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "luck",
+      "tomorrow"
+     ],
+     "suggestion": "Good luck tomorrow!",
+     "suggestionFa": "فردا موفق باشی!",
+     "trustDelta": 7,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you're alright, you are",
+     "fa": "تو آدم خوبی هستی"
+    },
+    {
+     "word": "any time",
+     "fa": "هر وقت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Repeating the subject at the end — 'you're alright, you are' — is very British and warm.",
+    "fa": "تکرار فاعل در آخر جمله — «you're alright, you are» — خیلی بریتانیایی و صمیمی است."
+   }
   }
  },
  "level": "A2"
