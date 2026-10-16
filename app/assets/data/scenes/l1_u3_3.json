@@ -1,0 +1,360 @@
+{
+ "id": "l1_u3_3",
+ "characterId": "ryan",
+ "title": "Ryan's messy room",
+ "titleFa": "اتاق نامرتب رایان",
+ "setting": "Our house · Level 1",
+ "settingFa": "خانهٔ ما",
+ "requires": null,
+ "start": "n1",
+ "level": "A0",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Alright? Sorry, my room's a bit messy. Come in.",
+   "translations": {
+    "fa": "چطوری؟ ببخشید، اتاقم یه کم شلوغه. بیا تو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bad"
+     ],
+     "suggestion": "It's not that bad!",
+     "suggestionFa": "اونقدرها هم بد نیست!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "messy",
+      "wow"
+     ],
+     "suggestion": "Wow, it's really messy!",
+     "suggestionFa": "وای، واقعاً شلوغه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "messy",
+     "fa": "نامرتب/شلوغ"
+    },
+    {
+     "word": "room",
+     "fa": "اتاق"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "This is my desk. That's my laptop. And these are my football boots.",
+   "translations": {
+    "fa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "play"
+     ],
+     "suggestion": "Do you play football?",
+     "suggestionFa": "فوتبال بازی می‌کنی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "boots",
+      "those",
+      "muddy"
+     ],
+     "suggestion": "Those boots are very muddy!",
+     "suggestionFa": "اون کفش‌ها خیلی گِلی‌اند!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "this",
+     "fa": "این"
+    },
+    {
+     "word": "that",
+     "fa": "آن"
+    },
+    {
+     "word": "these",
+     "fa": "این‌ها"
+    },
+    {
+     "word": "those",
+     "fa": "آن‌ها"
+    },
+    {
+     "word": "laptop",
+     "fa": "لپ‌تاپ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Every Saturday. Those posters on the wall are my team. Liverpool!",
+   "translations": {
+    "fa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "posters",
+      "cool"
+     ],
+     "suggestion": "Cool posters!",
+     "suggestionFa": "پوسترهای باحالی‌اند!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "favourite",
+      "player"
+     ],
+     "suggestion": "Is that your favourite player?",
+     "suggestionFa": "اون بازیکن محبوبته؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wall",
+     "fa": "دیوار"
+    },
+    {
+     "word": "poster",
+     "fa": "پوستر"
+    },
+    {
+     "word": "favourite",
+     "fa": "محبوب"
+    },
+    {
+     "word": "team",
+     "fa": "تیم"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
+   "translations": {
+    "fa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clothes",
+      "these",
+      "where",
+      "sure"
+     ],
+     "suggestion": "Sure. Where do these clothes go?",
+     "suggestionFa": "حتماً. این لباس‌ها کجا می‌رن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "only",
+      "but",
+      "ten"
+     ],
+     "suggestion": "OK, but only for ten minutes!",
+     "suggestionFa": "باشه، ولی فقط ده دقیقه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tidy up",
+     "fa": "مرتب کردن"
+    },
+    {
+     "word": "clothes",
+     "fa": "لباس‌ها"
+    },
+    {
+     "word": "help",
+     "fa": "کمک کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
+   "translations": {
+    "fa": "اون تی‌شرت‌ها می‌رن توی کشو. این شلوار جین‌ها توی کمد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "these",
+      "books",
+      "done"
+     ],
+     "suggestion": "Done! What about these books?",
+     "suggestionFa": "تمومه! این کتاب‌ها چی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drawer",
+      "right",
+      "one"
+     ],
+     "suggestion": "Is this drawer the right one?",
+     "suggestionFa": "این کشو درسته؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drawer",
+     "fa": "کشو"
+    },
+    {
+     "word": "jeans",
+     "fa": "شلوار جین"
+    },
+    {
+     "word": "T-shirt",
+     "fa": "تی‌شرت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Books go on the shelf. And this mug is from last week. Gross!",
+   "translations": {
+    "fa": "کتاب‌ها روی قفسه. این ماگ هم مال هفتهٔ پیشه. چندش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kitchen",
+      "take"
+     ],
+     "suggestion": "Take it to the kitchen!",
+     "suggestionFa": "ببرش آشپزخونه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "disgusting",
+      "that's",
+      "ryan"
+     ],
+     "suggestion": "That's disgusting, Ryan!",
+     "suggestionFa": "این حال‌به‌هم‌زنه، رایان!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mug",
+     "fa": "ماگ/لیوان دسته‌دار"
+    },
+    {
+     "word": "gross",
+     "fa": "چندش‌آور"
+    },
+    {
+     "word": "last week",
+     "fa": "هفتهٔ پیش"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Ha, fair enough. Look — the floor! I can see the floor!",
+   "translations": {
+    "fa": "ها، حق داری. ببین — کف اتاق! کف را می‌بینم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happy",
+      "will",
+      "mum"
+     ],
+     "suggestion": "Your mum will be so happy.",
+     "suggestionFa": "مامانت خیلی خوشحال می‌شه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "looks",
+      "now"
+     ],
+     "suggestion": "It looks great now.",
+     "suggestionFa": "الان عالی به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair enough",
+     "fa": "قبول/حق داری"
+    },
+    {
+     "word": "looks",
+     "fa": "به نظر می‌رسد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Cheers, mate. You're a legend. Wanna play FIFA now?",
+   "translations": {
+    "fa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,375 @@
+{
+ "id": "l1_u3_1",
+ "characterId": "leslie",
+ "title": "Welcome to our home",
+ "titleFa": "به خانهٔ ما خوش آمدی",
+ "setting": "Our house · Level 1",
+ "settingFa": "خانهٔ ما",
+ "requires": null,
+ "start": "n1",
+ "level": "A0",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Come in! This is the hall. Shoes off here, please.",
+   "translations": {
+    "fa": "بیا تو! اینجا راهروئه. لطفاً کفش‌ها را اینجا دربیار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "off",
+      "ok"
+     ],
+     "suggestion": "OK, shoes off.",
+     "suggestionFa": "باشه، کفش‌ها بیرون.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "put"
+     ],
+     "suggestion": "Where do I put my shoes?",
+     "suggestionFa": "کفش‌هام را کجا بذارم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hall",
+     "fa": "راهرو"
+    },
+    {
+     "word": "shoes",
+     "fa": "کفش‌ها"
+    },
+    {
+     "word": "come in",
+     "fa": "بیا تو"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British families take shoes off at home, but not all. Just ask: \"Shoes off?\"",
+    "fa": "خیلی از خانواده‌ها در خانه کفش درمی‌آورند، ولی نه همه. فقط بپرس."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "On the rack, next to the umbrellas. There are three floors in our house.",
+   "translations": {
+    "fa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "floors",
+      "house",
+      "three",
+      "big"
+     ],
+     "suggestion": "Three floors? It's a big house!",
+     "suggestionFa": "سه طبقه؟ خونهٔ بزرگیه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "floor",
+      "each"
+     ],
+     "suggestion": "What's on each floor?",
+     "suggestionFa": "هر طبقه چی هست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "floor",
+     "fa": "طبقه/کف"
+    },
+    {
+     "word": "umbrella",
+     "fa": "چتر"
+    },
+    {
+     "word": "there are",
+     "fa": "وجود دارند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Downstairs there's a kitchen and a living room. There's a small garden too.",
+   "translations": {
+    "fa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "downstairs",
+      "bathroom",
+      "there"
+     ],
+     "suggestion": "Is there a bathroom downstairs?",
+     "suggestionFa": "پایین حموم هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "garden",
+      "love"
+     ],
+     "suggestion": "I love the garden!",
+     "suggestionFa": "عاشق باغچه‌ام!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "downstairs",
+     "fa": "طبقهٔ پایین"
+    },
+    {
+     "word": "living room",
+     "fa": "اتاق نشیمن"
+    },
+    {
+     "word": "garden",
+     "fa": "باغچه"
+    },
+    {
+     "word": "there's",
+     "fa": "وجود دارد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
+   "translations": {
+    "fa": "پایین یه دستشویی هست. حموم بالاست، با اتاق‌خواب‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bedrooms",
+      "there",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many bedrooms are there?",
+     "suggestionFa": "چندتا اتاق‌خواب هست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "room"
+     ],
+     "suggestion": "And where's my room?",
+     "suggestionFa": "و اتاق من کجاست؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toilet",
+     "fa": "دستشویی"
+    },
+    {
+     "word": "bathroom",
+     "fa": "حمام"
+    },
+    {
+     "word": "bedroom",
+     "fa": "اتاق‌خواب"
+    },
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits often say \"the loo\" for the toilet. \"Where's the loo?\" is fine.",
+    "fa": "بریتانیایی‌ها اغلب به دستشویی «the loo» می‌گویند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "There are four bedrooms. Your room is in the loft, at the top.",
+   "translations": {
+    "fa": "چهار اتاق‌خواب هست. اتاق تو زیرشیروونیه، بالای بالا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "cosy"
+     ],
+     "suggestion": "The loft sounds cosy.",
+     "suggestionFa": "زیرشیروونی دنج به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's a loft?",
+     "suggestionFa": "loft چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loft",
+     "fa": "اتاق زیرشیروانی"
+    },
+    {
+     "word": "top",
+     "fa": "بالا"
+    },
+    {
+     "word": "cosy",
+     "fa": "دنج/گرم و نرم"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "It's the room under the roof. It's got a lovely window. Let's go up!",
+   "translations": {
+    "fa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "great",
+      "view",
+      "wow"
+     ],
+     "suggestion": "Wow, there's a great view!",
+     "suggestionFa": "وای، منظرهٔ عالی داره!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "small",
+      "but"
+     ],
+     "suggestion": "It's small but lovely.",
+     "suggestionFa": "کوچیکه ولی قشنگه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roof",
+     "fa": "سقف/بام"
+    },
+    {
+     "word": "window",
+     "fa": "پنجره"
+    },
+    {
+     "word": "view",
+     "fa": "منظره"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "There's a bed, a desk and a wardrobe. Is there anything you need?",
+   "translations": {
+    "fa": "یه تخت، یه میز تحریر و یه کمد لباس هست. چیزی لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blanket",
+      "another",
+      "could",
+      "have"
+     ],
+     "suggestion": "Could I have another blanket?",
+     "suggestionFa": "می‌شه یه پتوی دیگه داشته باشم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "thank"
+     ],
+     "suggestion": "No, it's perfect. Thank you!",
+     "suggestionFa": "نه، عالیه. ممنون!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bed",
+     "fa": "تخت"
+    },
+    {
+     "word": "desk",
+     "fa": "میز تحریر"
+    },
+    {
+     "word": "wardrobe",
+     "fa": "کمد لباس"
+    },
+    {
+     "word": "blanket",
+     "fa": "پتو"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Of course, love. Make yourself at home!",
+   "translations": {
+    "fa": "حتماً عزیزم. راحت باش، خونهٔ خودته!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -51,7 +51,12 @@ class LessonScreen extends ConsumerWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('${u.title.toUpperCase()}  ·  LESSON ${u.lessons.indexOf(l) + 1}', style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                          decoration: BoxDecoration(color: BL.cream.withValues(alpha: .92), borderRadius: BorderRadius.circular(99)),
+                          child: Text('${u.title.toUpperCase()}  ·  LESSON ${u.lessons.indexOf(l) + 1}', style: const TextStyle(fontSize: 11, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+                        ),
+                        const SizedBox(height: 4),
                         Text(l.title, style: BL.display(28)),
                         Text(l.titleFa, textDirection: TextDirection.rtl, style: BL.fa(13.5)),
                       ],
