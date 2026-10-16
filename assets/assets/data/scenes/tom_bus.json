@@ -1,0 +1,128 @@
+{
+ "id": "tom_bus",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "On the number 38",
+ "titleFa": "در اتوبوس ۳۸",
+ "setting": "Tom's bus, Dalston Junction",
+ "settingFa": "اتوبوس تام، دالستون جانکشن",
+ "requires": null,
+ "start": "u1",
+ "nodes": {
+  "u1": {
+   "id": "u1",
+   "speaker": "tom",
+   "text": "Alright? Tap your card on the reader, mate. Where you headed?",
+   "translations": {
+    "fa": "چطوری؟ کارتت را روی دستگاه بزن رفیق. کجا می‌ری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "piccadilly",
+      "victoria",
+      "angel",
+      "centre",
+      "town",
+      "station",
+      "going"
+     ],
+     "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
+     "suggestionFa": "می‌روم پیکادیلی سیرکس. این اتوبوس آن‌جا می‌ایستد؟",
+     "trustDelta": 7,
+     "next": "u2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "زدن کارت"
+    },
+    {
+     "word": "where you headed?",
+     "fa": "کجا می‌ری؟"
+    }
+   ],
+   "cultureNote": {
+    "en": "London buses don't take cash — tap a contactless card or Oyster.",
+    "fa": "اتوبوس‌های لندن پول نقد نمی‌گیرند — کارت بدون تماس یا اویستر بزن."
+   }
+  },
+  "u2": {
+   "id": "u2",
+   "speaker": "tom",
+   "text": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
+   "translations": {
+    "fa": "می‌ایستد، ولی جادهٔ اسکس تعمیرات دارد، پس حدود ده دقیقه عقبیم. برو طبقهٔ بالا بنشین — بهترین منظرهٔ لندن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "upstairs",
+      "front",
+      "view",
+      "thanks",
+      "cheers"
+     ],
+     "suggestion": "Cheers, I'll sit at the front upstairs.",
+     "suggestionFa": "مرسی، طبقهٔ بالا جلو می‌نشینم.",
+     "trustDelta": 7,
+     "next": "u3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "late",
+      "hurry",
+      "meeting",
+      "appointment"
+     ],
+     "suggestion": "Oh no, I've got a meeting. Is there a quicker way?",
+     "suggestionFa": "ای وای، جلسه دارم. راه سریع‌تری هست؟",
+     "trustDelta": 6,
+     "next": "u3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roadworks",
+     "fa": "تعمیرات جاده"
+    },
+    {
+     "word": "running behind",
+     "fa": "عقب بودن از برنامه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "u3": {
+   "id": "u3",
+   "speaker": "tom",
+   "text": "Tell you what — hop off at Angel and get the Tube, it's quicker. Mind the gap!",
+   "translations": {
+    "fa": "ببین — توی ایستگاه انجل پیاده شو و مترو بگیر، سریع‌تره. مراقب فاصله باش!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "hop off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "the Tube",
+     "fa": "مترو لندن"
+    },
+    {
+     "word": "mind the gap",
+     "fa": "مراقب فاصلهٔ سکو باش"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Mind the gap' is the famous Tube warning about the space between train and platform.",
+    "fa": "«Mind the gap» هشدار معروف مترو دربارهٔ فاصلهٔ قطار و سکو است."
+   }
+  }
+ }
+}

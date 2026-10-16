@@ -1,0 +1,142 @@
+{
+ "id": "redlion_quiz",
+ "characterId": "al",
+ "level": "C2",
+ "title": "Pub quiz at the Red Lion",
+ "titleFa": "مسابقهٔ اطلاعات عمومی در میخانهٔ رد لاین",
+ "setting": "The Red Lion, Thursday quiz night",
+ "settingFa": "میخانهٔ رد لاین، شب مسابقهٔ پنجشنبه",
+ "requires": null,
+ "start": "z1",
+ "nodes": {
+  "z1": {
+   "id": "z1",
+   "speaker": "al",
+   "text": "Och, we're getting pure hammered in this round. Tom's away to the bar — you fancy taking a punt on question six?",
+   "translations": {
+    "fa": "ای بابا، تو این دور داریم حسابی له می‌شیم. تام رفته بار — حاضری روی سؤال شش شانست رو امتحان کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "punt",
+      "go",
+      "try",
+      "have a go",
+      "shot",
+      "why not",
+      "guess"
+     ],
+     "suggestion": "Go on, I'll have a punt — I reckon it's Edinburgh.",
+     "suggestionFa": "باشه، شانسم را امتحان می‌کنم — فکر کنم ادینبورگ است.",
+     "trustDelta": 10,
+     "next": "z2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take a punt",
+     "fa": "شانس خود را امتحان کردن"
+    },
+    {
+     "word": "och",
+     "fa": "آخ / ای بابا (اسکاتلندی)"
+    },
+    {
+     "word": "I reckon",
+     "fa": "فکر کنم"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Pure' as an intensifier ('pure brilliant') is classic Glaswegian.",
+    "fa": "«pure» به‌عنوان تشدیدکننده («pure brilliant») کاملاً گلاسگویی است."
+   }
+  },
+  "z2": {
+   "id": "z2",
+   "speaker": "al",
+   "text": "Edinburgh?! Away ye go, that's pure brilliant. Right, Tom's back. Tom, our pal here's carrying the team!",
+   "translations": {
+    "fa": "ادینبورگ؟! برو بابا، این محشره. خب، تام برگشت. تام، رفیقمون داره تیم رو می‌کشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "luck",
+      "fluke",
+      "team",
+      "jammy",
+      "lucky",
+      "modest",
+      "beginner"
+     ],
+     "suggestion": "Just a lucky guess — beginner's luck!",
+     "suggestionFa": "فقط حدس خوش‌شانسی بود — شانس تازه‌کار!",
+     "trustDelta": 9,
+     "next": "z3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "round",
+      "next",
+      "drink",
+      "cheers",
+      "my shout"
+     ],
+     "suggestion": "Cheers — next round's on me!",
+     "suggestionFa": "مرسی — دور بعد مهمان من!",
+     "trustDelta": 10,
+     "next": "z3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carrying the team",
+     "fa": "تیم را به دوش کشیدن"
+    },
+    {
+     "word": "jammy",
+     "fa": "خوش‌شانس (اسلنگ)"
+    },
+    {
+     "word": "my shout",
+     "fa": "نوبت من است که حساب کنم"
+    }
+   ],
+   "cultureNote": {
+    "en": "In pubs, friends buy 'rounds' in turn — saying 'It's my shout' is good manners.",
+    "fa": "در میخانه دوستان به نوبت «دور» می‌خرند — گفتن «It's my shout» نشانهٔ ادب است."
+   }
+  },
+  "z3": {
+   "id": "z3",
+   "speaker": "tom",
+   "text": "Blimey, look at you! Proper chuffed. Al, you owe me a fiver — told you they'd smash it.",
+   "translations": {
+    "fa": "ای بابا، نگاش کن! حسابی ذوق کردم. آل، پنج پوند بهم بدهکاری — گفتم که می‌ترکونن."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "chuffed",
+     "fa": "خیلی خوشحال"
+    },
+    {
+     "word": "a fiver",
+     "fa": "اسکناس پنج پوندی"
+    },
+    {
+     "word": "smash it",
+     "fa": "ترکوندن / عالی انجام دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Chuffed' = really pleased. 'Gutted' is its opposite.",
+    "fa": "«Chuffed» یعنی خیلی خوشحال. متضادش «gutted» است."
+   }
+  }
+ }
+}

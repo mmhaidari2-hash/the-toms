@@ -1,0 +1,232 @@
+{
+ "id": "ep3_high_street",
+ "characterId": "leslie",
+ "level": "A2",
+ "title": "Ep 3 · High Street Bakery & Butcher",
+ "titleFa": "قسمت ۳ · نانوایی و قصابی خیابان اصلی",
+ "setting": "Saturday morning on the High Street",
+ "settingFa": "صبح شنبه در خیابان اصلی",
+ "requires": null,
+ "start": "b1",
+ "nodes": {
+  "b1": {
+   "id": "b1",
+   "speaker": "baker",
+   "text": "Morning, my lovely! What can I get you? The bloomers are still warm.",
+   "translations": {
+    "fa": "صبح بخیر عزیزم! چی بدم خدمتت؟ نون‌های بلومر هنوز گرمن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "could i",
+      "please",
+      "bloomer",
+      "loaf",
+      "i'd like",
+      "i'll have"
+     ],
+     "suggestion": "Could I have a bloomer and two sausage rolls, please?",
+     "suggestionFa": "می‌شه یه نون بلومر و دوتا سوسیس رول بدید، لطفاً؟",
+     "trustDelta": 9,
+     "next": "b2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bloomer",
+     "fa": "نان بلومر (بریتانیایی)"
+    },
+    {
+     "word": "loaf",
+     "fa": "قرص نان"
+    },
+    {
+     "word": "sausage roll",
+     "fa": "سوسیس‌رول"
+    }
+   ],
+   "cultureNote": {
+    "en": "Shopkeepers call strangers 'my lovely', 'love' or 'duck' — it's friendly, not flirting.",
+    "fa": "مغازه‌دارها غریبه‌ها را «my lovely»، «love» یا «duck» صدا می‌زنند — صمیمیت است، نه لاس زدن."
+   },
+   "xray": {
+    "connected": "What can I get you?",
+    "ipa": "/wɒʔ kən aɪ ˈɡeʔ juː/"
+   },
+   "coolReply": "Right. Anything else?",
+   "recasts": [
+    {
+     "match": [
+      "give me",
+      "i want",
+      "bread give"
+     ],
+     "echo": "Ah, you'd like a loaf? Lovely — a bloomer, is it?",
+     "better": "Could I have a loaf, please? / I'll have a bloomer, please.",
+     "betterFa": "می‌شه یه نون بدید، لطفاً؟ / یه بلومر می‌خوام، لطفاً."
+    }
+   ]
+  },
+  "b2": {
+   "id": "b2",
+   "speaker": "leslie",
+   "text": "Lovely. Now, the butcher's — Tom wants a joint for Sunday lunch. Would you ask him, please? I'm hopeless at it.",
+   "translations": {
+    "fa": "عالی. حالا قصابی — تام برای ناهار یکشنبه یه تکه گوشت کبابی می‌خواد. می‌شه لطفاً تو ازش بپرسی؟ من اصلاً بلد نیستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "sure",
+      "happy to",
+      "no problem",
+      "leave it"
+     ],
+     "suggestion": "Course — leave it to me.",
+     "suggestionFa": "حتماً — بسپرش به من.",
+     "trustDelta": 8,
+     "next": "b3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "joint",
+     "fa": "تکهٔ گوشت کبابی"
+    },
+    {
+     "word": "hopeless at",
+     "fa": "اصلاً بلد نبودن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "b3": {
+   "id": "b3",
+   "speaker": "butcher",
+   "text": "Alright, what'll it be? Beef's lovely this week.",
+   "translations": {
+    "fa": "سلام، چی می‌خواید؟ گوشت گاو این هفته عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "could i",
+      "beef",
+      "joint",
+      "please",
+      "for four",
+      "for six",
+      "sunday"
+     ],
+     "suggestion": "Could I get a beef joint for six, please?",
+     "suggestionFa": "می‌شه یه تکه گوشت گاو برای شش نفر بدید، لطفاً؟",
+     "trustDelta": 9,
+     "next": "b4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what'll it be",
+     "fa": "چی می‌خواید؟"
+    }
+   ],
+   "cultureNote": null,
+   "xray": {
+    "connected": "What'll it be?",
+    "ipa": "/ˈwɒʔl ɪʔ ˈbiː/"
+   },
+   "coolReply": "Beef, then. That's £18.",
+   "recasts": [
+    {
+     "match": [
+      "give me meat",
+      "i want meat",
+      "meat"
+     ],
+     "echo": "Some meat, is it? Beef's lovely — how many's it for?",
+     "better": "Could I get a beef joint for six, please?",
+     "betterFa": "می‌شه یه تکه گوشت گاو برای شش نفر بدید، لطفاً؟"
+    }
+   ]
+  },
+  "b4": {
+   "id": "b4",
+   "speaker": "butcher",
+   "text": "Lovely bit of topside, that. Eighteen quid. Anything else?",
+   "translations": {
+    "fa": "یه تکهٔ عالی راسته. هجده پوند. چیز دیگه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's all",
+      "that's it",
+      "no thanks",
+      "all",
+      "cheers",
+      "thank you"
+     ],
+     "suggestion": "That's all, thanks. Cheers!",
+     "suggestionFa": "همین بود، مرسی. ممنون!",
+     "trustDelta": 8,
+     "next": "b5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sausages",
+      "bacon",
+      "also",
+      "and"
+     ],
+     "suggestion": "And a pack of sausages too, please.",
+     "suggestionFa": "یه بسته سوسیس هم بدید، لطفاً.",
+     "trustDelta": 8,
+     "next": "b5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (خودمانی)"
+    },
+    {
+     "word": "that's all",
+     "fa": "همین بود"
+    }
+   ],
+   "cultureNote": null
+  },
+  "b5": {
+   "id": "b5",
+   "speaker": "leslie",
+   "text": "Look at you — chatting to the butcher like a local! I'll treat us to a custard tart.",
+   "translations": {
+    "fa": "ببین تو رو — مثل یه محلی با قصاب گپ می‌زنی! یه تارت کاستارد مهمونت می‌کنم."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "treat",
+     "fa": "مهمان کردن"
+    },
+    {
+     "word": "like a local",
+     "fa": "مثل یک محلی"
+    }
+   ],
+   "cultureNote": null
+  }
+ },
+ "memory": {
+  "en": "you ordered the Sunday joint at the butcher's like a local",
+  "fa": "گوشت ناهار یکشنبه را مثل یک محلی از قصابی خریدی"
+ },
+ "episode": 3
+}

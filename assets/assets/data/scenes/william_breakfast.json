@@ -1,0 +1,113 @@
+{
+ "id": "william_breakfast",
+ "characterId": "william",
+ "level": "A0",
+ "title": "Breakfast with William",
+ "titleFa": "صبحانه با ویلیام",
+ "setting": "The kitchen table",
+ "settingFa": "میز آشپزخانه",
+ "requires": null,
+ "start": "w1",
+ "nodes": {
+  "w1": {
+   "id": "w1",
+   "speaker": "william",
+   "text": "More! More toast!",
+   "translations": {
+    "fa": "باز هم! باز هم نان تُست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toast",
+      "more",
+      "here",
+      "yes",
+      "bread"
+     ],
+     "suggestion": "Here you are. More toast!",
+     "suggestionFa": "بفرما. باز هم تُست!",
+     "trustDelta": 6,
+     "next": "w2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toast",
+     "fa": "نان تُست"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر / باز هم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "w2": {
+   "id": "w2",
+   "speaker": "william",
+   "text": "Mmm! Yum yum. Juice?",
+   "translations": {
+    "fa": "مممم! به‌به. آبمیوه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "juice",
+      "yes",
+      "here",
+      "drink",
+      "cup"
+     ],
+     "suggestion": "Yes, here's your juice.",
+     "suggestionFa": "بله، این آبمیوه‌ات.",
+     "trustDelta": 6,
+     "next": "w3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "milk"
+     ],
+     "suggestion": "No juice — milk, please.",
+     "suggestionFa": "آبمیوه نه — شیر، لطفاً.",
+     "trustDelta": 4,
+     "next": "w3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yum",
+     "fa": "به‌به (خوشمزه)"
+    },
+    {
+     "word": "juice",
+     "fa": "آبمیوه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "w3": {
+   "id": "w3",
+   "speaker": "william",
+   "text": "Ta! Bye-bye!",
+   "translations": {
+    "fa": "مرسی! بای‌بای!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "bye-bye",
+     "fa": "خداحافظ (بچگانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Toddlers in Britain often learn 'ta' for 'thank you' before anything else.",
+    "fa": "بچه‌های کوچک در بریتانیا اغلب اول از همه «ta» را به‌جای «thank you» یاد می‌گیرند."
+   }
+  }
+ }
+}

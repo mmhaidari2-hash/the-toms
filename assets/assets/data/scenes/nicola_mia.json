@@ -1,0 +1,118 @@
+{
+ "id": "nicola_mia",
+ "characterId": "mia",
+ "level": "A1",
+ "title": "Playdate with Mia",
+ "titleFa": "بازی با میا",
+ "setting": "The living room, Saturday",
+ "settingFa": "اتاق نشیمن، شنبه",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M3"
+ },
+ "start": "m1",
+ "nodes": {
+  "m1": {
+   "id": "m1",
+   "speaker": "mia",
+   "text": "Hello! I'm Mia. I'm Nicola's best friend. Do you like unicorns?",
+   "translations": {
+    "fa": "سلام! من میام. بهترین دوست نیکولا. تک‌شاخ دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "love",
+      "unicorns",
+      "like"
+     ],
+     "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
+     "suggestionFa": "آره، عاشق تک‌شاخم! خوشبختم میا.",
+     "trustDelta": 8,
+     "next": "m2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "dragons",
+      "prefer",
+      "dinosaurs"
+     ],
+     "suggestion": "I prefer dragons, to be honest!",
+     "suggestionFa": "راستش من اژدها رو بیشتر دوست دارم!",
+     "trustDelta": 6,
+     "next": "m2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "best friend",
+     "fa": "بهترین دوست"
+    },
+    {
+     "word": "nice to meet you",
+     "fa": "خوشبختم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "m2": {
+   "id": "m2",
+   "speaker": "mia",
+   "text": "Can we have squash and biscuits? Nicola's mum always says yes.",
+   "translations": {
+    "fa": "می‌شه شربت و بیسکویت بخوریم؟ مامان نیکولا همیشه می‌گه آره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squash",
+      "biscuits",
+      "yes",
+      "course",
+      "orange",
+      "here"
+     ],
+     "suggestion": "Of course — orange squash and a biscuit each.",
+     "suggestionFa": "البته — شربت پرتقال و هر نفر یه بیسکویت.",
+     "trustDelta": 8,
+     "next": "m3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squash",
+     "fa": "شربت رقیق‌شدنی (بریتانیایی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Squash' is a fruit cordial you mix with water — a staple of every British childhood.",
+    "fa": "«Squash» شربت میوه‌ای است که با آب رقیقش می‌کنند — جزء ثابت کودکی بریتانیایی."
+   }
+  },
+  "m3": {
+   "id": "m3",
+   "speaker": "mia",
+   "text": "Ta! You're well nice. Nicola, can your friend play hide and seek with us?",
+   "translations": {
+    "fa": "مرسی! تو خیلی باحالی. نیکولا، دوستت می‌تونه با ما قایم‌باشک بازی کنه؟"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "hide and seek",
+     "fa": "قایم‌باشک"
+    },
+    {
+     "word": "well nice",
+     "fa": "خیلی خوب (اسلنگ)"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

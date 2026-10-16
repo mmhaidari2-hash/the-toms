@@ -1,0 +1,132 @@
+{
+ "id": "ryan_school",
+ "characterId": "patel",
+ "level": "A1",
+ "title": "Late for registration",
+ "titleFa": "دیر رسیدن به حضور و غیاب",
+ "setting": "Form room, 8:50am",
+ "settingFa": "کلاس راهنمایی، ساعت ۸:۵۰",
+ "requires": null,
+ "start": "s1",
+ "nodes": {
+  "s1": {
+   "id": "s1",
+   "speaker": "patel",
+   "text": "You're late again, Ryan. What happened this time?",
+   "translations": {
+    "fa": "باز هم دیر کردی رایان. این بار چه شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bus",
+      "late",
+      "traffic",
+      "missed"
+     ],
+     "suggestion": "Sorry, sir. The bus was late.",
+     "suggestionFa": "ببخشید آقا. اتوبوس دیر کرد.",
+     "trustDelta": 5,
+     "next": "s2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "overslept",
+      "alarm",
+      "woke"
+     ],
+     "suggestion": "Sorry, sir. I overslept.",
+     "suggestionFa": "ببخشید آقا. خواب ماندم.",
+     "trustDelta": 6,
+     "next": "s2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sir",
+     "fa": "آقا (خطاب به معلم)"
+    },
+    {
+     "word": "overslept",
+     "fa": "خواب ماندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British pupils call male teachers 'sir' and female teachers 'miss'.",
+    "fa": "دانش‌آموزان بریتانیایی معلم مرد را «sir» و معلم زن را «miss» صدا می‌زنند."
+   }
+  },
+  "s2": {
+   "id": "s2",
+   "speaker": "patel",
+   "text": "Hmm. Have you got your PE kit for football practice?",
+   "translations": {
+    "fa": "هوم. لباس ورزش‌ات را برای تمرین فوتبال آورده‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "got",
+      "bag",
+      "here"
+     ],
+     "suggestion": "Yes, sir, it's in my bag.",
+     "suggestionFa": "بله آقا، توی کیفم است.",
+     "trustDelta": 6,
+     "next": "s3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "forgot",
+      "home"
+     ],
+     "suggestion": "No, sir, I forgot it.",
+     "suggestionFa": "نه آقا، یادم رفت.",
+     "trustDelta": 2,
+     "next": "s3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "PE kit",
+     "fa": "لباس ورزش مدرسه"
+    },
+    {
+     "word": "practice",
+     "fa": "تمرین"
+    }
+   ],
+   "cultureNote": null
+  },
+  "s3": {
+   "id": "s3",
+   "speaker": "patel",
+   "text": "Right. Sit down and get your maths book out. Quick as you can.",
+   "translations": {
+    "fa": "خب. بنشین و کتاب ریاضی‌ات را دربیاور. هر چه سریع‌تر."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "maths",
+     "fa": "ریاضی"
+    },
+    {
+     "word": "get out",
+     "fa": "بیرون آوردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say 'maths' with an s; Americans say 'math'.",
+    "fa": "بریتانیایی‌ها «maths» با s می‌گویند؛ آمریکایی‌ها «math»."
+   }
+  }
+ }
+}

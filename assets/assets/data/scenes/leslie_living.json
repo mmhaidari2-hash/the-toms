@@ -1,0 +1,117 @@
+{
+ "id": "leslie_living",
+ "characterId": "leslie",
+ "level": "A0",
+ "title": "Colours on the sofa",
+ "titleFa": "رنگ‌ها روی مبل",
+ "setting": "The living room, Sunday morning",
+ "settingFa": "اتاق نشیمن، صبح یکشنبه",
+ "requires": null,
+ "start": "l1",
+ "nodes": {
+  "l1": {
+   "id": "l1",
+   "speaker": "leslie",
+   "text": "Hello! Let's learn colours. What colour is the sofa?",
+   "translations": {
+    "fa": "سلام! بیا رنگ‌ها را یاد بگیریم. مبل چه رنگی است؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "red",
+      "green",
+      "blue",
+      "yellow",
+      "brown",
+      "pink",
+      "colour"
+     ],
+     "suggestion": "It's red.",
+     "suggestionFa": "قرمز است.",
+     "trustDelta": 6,
+     "next": "l2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "colour",
+     "fa": "رنگ"
+    },
+    {
+     "word": "sofa",
+     "fa": "مبل"
+    }
+   ],
+   "cultureNote": {
+    "en": "British English writes 'colour', American English 'color'.",
+    "fa": "در انگلیسی بریتانیایی «colour» و در آمریکایی «color» نوشته می‌شود."
+   }
+  },
+  "l2": {
+   "id": "l2",
+   "speaker": "leslie",
+   "text": "Lovely! And what's this? It's soft and William loves it.",
+   "translations": {
+    "fa": "آفرین! و این چیست؟ نرم است و ویلیام عاشقش است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teddy",
+      "bear",
+      "toy"
+     ],
+     "suggestion": "It's a teddy bear!",
+     "suggestionFa": "یک خرس عروسکی است!",
+     "trustDelta": 7,
+     "next": "l3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cushion",
+      "pillow"
+     ],
+     "suggestion": "It's a cushion.",
+     "suggestionFa": "یک کوسن است.",
+     "trustDelta": 6,
+     "next": "l3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "soft",
+     "fa": "نرم"
+    },
+    {
+     "word": "teddy bear",
+     "fa": "خرس عروسکی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "l3": {
+   "id": "l3",
+   "speaker": "leslie",
+   "text": "Well done! You're a quick learner.",
+   "translations": {
+    "fa": "آفرین! خیلی زود یاد می‌گیری."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "well done",
+     "fa": "آفرین"
+    },
+    {
+     "word": "quick learner",
+     "fa": "کسی که زود یاد می‌گیرد"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

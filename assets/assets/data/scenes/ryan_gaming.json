@@ -1,0 +1,201 @@
+{
+ "id": "ryan_gaming",
+ "characterId": "ryan",
+ "title": "FIFA after school",
+ "titleFa": "فیفا بعد از مدرسه",
+ "setting": "Ryan's bedroom",
+ "settingFa": "اتاق رایان",
+ "requires": null,
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "ryan",
+   "text": "Alright? You any good at FIFA, or are you gonna get bodied?",
+   "translations": {
+    "fa": "چطوری؟ فیفا بلدی، یا قراره له بشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "pro",
+      "beat",
+      "bring",
+      "easy",
+      "yes"
+     ],
+     "suggestion": "I'm decent, mate. Bring it on!",
+     "suggestionFa": "بد نیستم رفیق. بیا ببینیم!",
+     "trustDelta": 7,
+     "next": "r2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "no",
+      "teach",
+      "first time",
+      "rubbish",
+      "bad"
+     ],
+     "suggestion": "Honestly, I'm rubbish. Can you teach me?",
+     "suggestionFa": "راستش افتضاحم. یادم می‌دی؟",
+     "trustDelta": 6,
+     "next": "r2b",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "alright?",
+     "fa": "سلام/چطوری؟ (احوال‌پرسی بریتانیایی)"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Alright?' is a greeting, not a real question — just reply 'Alright?' or 'Yeah, you?'",
+    "fa": "«Alright?» یک سلام است، نه سؤال واقعی — فقط بگو «Alright?» یا «Yeah, you?»"
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "ryan",
+   "text": "Big talk! Who d'you support then? Don't say Chelsea.",
+   "translations": {
+    "fa": "حرف گنده! خب طرفدار کدوم تیمی؟ نگی چلسی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arsenal",
+      "spurs",
+      "tottenham",
+      "west ham",
+      "united",
+      "liverpool",
+      "city",
+      "chelsea",
+      "team",
+      "support"
+     ],
+     "suggestion": "Arsenal, obviously. Come on you Gunners!",
+     "suggestionFa": "آرسنال، معلومه. برو جلو گانرز!",
+     "trustDelta": 6,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "support",
+     "fa": "طرفدار (تیمی) بودن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "r2b": {
+   "id": "r2b",
+   "speaker": "ryan",
+   "text": "No worries, it's easy. Press X to pass, circle to shoot. Got it?",
+   "translations": {
+    "fa": "مشکلی نیست، آسونه. X برای پاس، دایره برای شوت. گرفتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "got",
+      "yes",
+      "yeah",
+      "okay",
+      "ok",
+      "easy",
+      "thanks",
+      "cheers"
+     ],
+     "suggestion": "Got it, cheers!",
+     "suggestionFa": "گرفتم، مرسی!",
+     "trustDelta": 6,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no worries",
+     "fa": "مشکلی نیست"
+    },
+    {
+     "word": "cheers",
+     "fa": "مرسی (خودمانی)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "ryan",
+   "text": "GOAL! Get in! That was well good. Mum's calling — dinner. Rematch later, yeah?",
+   "translations": {
+    "fa": "گل! ایول! خیلی خوب بود. مامان صدامون می‌کنه — شام. بعداً دوباره بازی کنیم، باشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "yeah",
+      "rematch",
+      "later",
+      "deal",
+      "sure",
+      "course"
+     ],
+     "suggestion": "Deal. I'll smash you next time!",
+     "suggestionFa": "قبول. دفعه بعد لهت می‌کنم!",
+     "trustDelta": 7,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "well good",
+     "fa": "خیلی خوب (اسلنگ)"
+    },
+    {
+     "word": "rematch",
+     "fa": "بازی دوباره"
+    }
+   ],
+   "cultureNote": {
+    "en": "Teens use 'well' as 'very': 'well good', 'well jel' (very jealous).",
+    "fa": "نوجوان‌ها «well» را به معنی «خیلی» می‌گویند: «well good»."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "ryan",
+   "text": "Safe. Innit, you're alright, you are.",
+   "translations": {
+    "fa": "ایول. راستی، تو آدم باحالی هستی."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "safe",
+     "fa": "ایول / باشه (اسلنگ لندنی)"
+    },
+    {
+     "word": "innit",
+     "fa": "مگه نه؟ / راستی"
+    }
+   ],
+   "cultureNote": null
+  }
+ },
+ "level": "A2"
+}

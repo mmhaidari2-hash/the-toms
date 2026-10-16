@@ -1,0 +1,150 @@
+{
+ "id": "nicola_birthday",
+ "characterId": "nicola",
+ "title": "Nicola's 6th birthday",
+ "titleFa": "تولد شش‌سالگی نیکولا",
+ "setting": "The living room, balloons everywhere",
+ "settingFa": "اتاق نشیمن، پر از بادکنک",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M1"
+ },
+ "start": "b1",
+ "nodes": {
+  "b1": {
+   "id": "b1",
+   "speaker": "nicola",
+   "text": "You came! You came! Look at my badge — it says I'm SIX!",
+   "translations": {
+    "fa": "اومدی! اومدی! بج منو ببین — نوشته شش‌ساله‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happy",
+      "birthday",
+      "many happy returns",
+      "six",
+      "lovely",
+      "wow"
+     ],
+     "suggestion": "Happy birthday, Nicola! Many happy returns!",
+     "suggestionFa": "تولدت مبارک نیکولا! صد سال به این سال‌ها!",
+     "trustDelta": 8,
+     "next": "b2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "many happy returns",
+     "fa": "صد سال به این سال‌ها"
+    },
+    {
+     "word": "badge",
+     "fa": "نشان / بج"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits often say 'Many happy returns (of the day)' on birthdays.",
+    "fa": "بریتانیایی‌ها در تولد اغلب می‌گویند «Many happy returns»."
+   }
+  },
+  "b2": {
+   "id": "b2",
+   "speaker": "nicola",
+   "text": "Did you bring me a present? Is it wrapped? Can I open it NOW?",
+   "translations": {
+    "fa": "برام کادو آوردی؟ کادوپیچ شده؟ می‌تونم همین الان بازش کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "present",
+      "yes",
+      "here",
+      "open",
+      "course",
+      "gift"
+     ],
+     "suggestion": "Here you go — go on, open it!",
+     "suggestionFa": "بفرما — بازش کن!",
+     "trustDelta": 8,
+     "next": "b3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "after",
+      "cake",
+      "wait",
+      "later"
+     ],
+     "suggestion": "After the cake, cheeky!",
+     "suggestionFa": "بعد از کیک، شیطون!",
+     "trustDelta": 6,
+     "next": "b3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "present",
+     "fa": "کادو"
+    },
+    {
+     "word": "cheeky",
+     "fa": "شیطون / پررو (با محبت)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "b3": {
+   "id": "b3",
+   "speaker": "nicola",
+   "text": "Everyone's singing! Will you sing with me? And then we play pass the parcel!",
+   "translations": {
+    "fa": "همه دارن می‌خونن! با من می‌خونی؟ بعدش «پاس د پارسل» بازی می‌کنیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sing",
+      "yes",
+      "happy birthday",
+      "course",
+      "love",
+      "parcel"
+     ],
+     "suggestion": "Of course! Happy birthday to you…",
+     "suggestionFa": "البته! تولد تولد تولدت مبارک…",
+     "trustDelta": 10,
+     "next": "b4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pass the parcel",
+     "fa": "بازی بستهٔ دست‌به‌دست"
+    }
+   ],
+   "cultureNote": {
+    "en": "Pass the parcel: a gift wrapped in many layers is passed round while music plays — a classic British party game.",
+    "fa": "پاس د پارسل: کادویی با چند لایه کاغذ دست‌به‌دست می‌شود تا موسیقی قطع شود — بازی کلاسیک جشن‌های بریتانیایی."
+   }
+  },
+  "b4": {
+   "id": "b4",
+   "speaker": "nicola",
+   "text": "Best. Birthday. EVER. Thank you for being my friend!",
+   "translations": {
+    "fa": "بهترین. تولد. تاریخ! ممنون که دوستمی!"
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": null
+  }
+ },
+ "level": "A1"
+}

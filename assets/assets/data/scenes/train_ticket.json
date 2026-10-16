@@ -1,0 +1,178 @@
+{
+ "id": "train_ticket",
+ "characterId": "maya",
+ "level": "B1",
+ "title": "Delays at Paddington",
+ "titleFa": "تأخیر در ایستگاه پدینگتون",
+ "setting": "London Paddington, Platform 9",
+ "settingFa": "ایستگاه پدینگتون لندن، سکوی ۹",
+ "requires": null,
+ "start": "t1",
+ "nodes": {
+  "t1": {
+   "id": "t1",
+   "speaker": "maya",
+   "text": "Afternoon! You look a bit lost — can I help at all?",
+   "translations": {
+    "fa": "عصر بخیر! انگار کمی گم شدی — کمکی از دستم برمی‌آید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bath",
+      "train",
+      "platform",
+      "which",
+      "where",
+      "oxford"
+     ],
+     "suggestion": "Yes please — which platform is the train to Bath Spa?",
+     "suggestionFa": "بله لطفاً — قطار باث اسپا از کدام سکو است؟",
+     "trustDelta": 7,
+     "next": "t2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "can I help at all?",
+     "fa": "کمکی می‌توانم بکنم؟ (مؤدبانه)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "t2": {
+   "id": "t2",
+   "speaker": "maya",
+   "text": "Ah, I'm afraid the 14:30 has been delayed by about twenty minutes, and it's been moved to platform 11.",
+   "translations": {
+    "fa": "آه، متأسفانه قطار ۱۴:۳۰ حدود بیست دقیقه تأخیر دارد و به سکوی ۱۱ منتقل شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "miss",
+      "connection",
+      "late",
+      "meeting",
+      "appointment",
+      "oh no"
+     ],
+     "suggestion": "Oh no — I might miss my connection. What are my options?",
+     "suggestionFa": "ای وای — شاید به قطار بعدی‌ام نرسم. چه گزینه‌هایی دارم؟",
+     "trustDelta": 8,
+     "next": "t3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fine",
+      "okay",
+      "thanks",
+      "coffee",
+      "wait"
+     ],
+     "suggestion": "That's fine, I'll grab a coffee while I wait.",
+     "suggestionFa": "اشکالی ندارد، تا منتظرم یک قهوه می‌گیرم.",
+     "trustDelta": 7,
+     "next": "t3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه (مؤدبانه)"
+    },
+    {
+     "word": "delayed",
+     "fa": "تأخیردار"
+    },
+    {
+     "word": "connection",
+     "fa": "قطار/پرواز بعدی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits soften bad news with 'I'm afraid…' — it's politeness, not fear.",
+    "fa": "بریتانیایی‌ها خبر بد را با «I'm afraid…» نرم می‌کنند — ادب است، نه ترس."
+   }
+  },
+  "t3": {
+   "id": "t3",
+   "speaker": "maya",
+   "text": "If you're more than fifteen minutes late, you can claim Delay Repay online. Have you got a railcard, by the way?",
+   "translations": {
+    "fa": "اگر بیش از پانزده دقیقه دیر برسی، می‌توانی آنلاین غرامت تأخیر بگیری. راستی کارت تخفیف قطار داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "what",
+      "railcard",
+      "explain",
+      "haven't"
+     ],
+     "suggestion": "No — what's a railcard?",
+     "suggestionFa": "نه — کارت تخفیف قطار چیست؟",
+     "trustDelta": 8,
+     "next": "t4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yes",
+      "got",
+      "have",
+      "two together",
+      "16-25"
+     ],
+     "suggestion": "Yes, I've got a 16–25 Railcard.",
+     "suggestionFa": "بله، کارت ۱۶ تا ۲۵ سال دارم.",
+     "trustDelta": 7,
+     "next": "t4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "claim",
+     "fa": "مطالبه کردن"
+    },
+    {
+     "word": "Delay Repay",
+     "fa": "طرح غرامت تأخیر قطار"
+    },
+    {
+     "word": "by the way",
+     "fa": "راستی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Delay Repay is real: most UK train companies refund part of your fare for delays.",
+    "fa": "Delay Repay واقعی است: بیشتر شرکت‌های قطار بریتانیا بخشی از کرایه را بابت تأخیر پس می‌دهند."
+   }
+  },
+  "t4": {
+   "id": "t4",
+   "speaker": "maya",
+   "text": "It saves you a third on most fares — well worth it if you travel a lot. Right, platform 11, mind the gap!",
+   "translations": {
+    "fa": "یک‌سوم کرایه را کم می‌کند — اگر زیاد سفر می‌کنی واقعاً می‌ارزد. خب، سکوی ۱۱، مراقب فاصله باش!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "well worth it",
+     "fa": "واقعاً می‌ارزد"
+    },
+    {
+     "word": "a third",
+     "fa": "یک‌سوم"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

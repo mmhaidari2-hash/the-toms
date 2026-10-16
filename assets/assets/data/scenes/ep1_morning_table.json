@@ -1,0 +1,336 @@
+{
+ "id": "ep1_morning_table",
+ "characterId": "tom",
+ "level": "A1",
+ "title": "Ep 1 · The Morning Table",
+ "titleFa": "قسمت ۱ · میز صبحانه",
+ "setting": "The Toms' kitchen, 7:15am",
+ "settingFa": "آشپزخانهٔ خانوادهٔ تام، ۷:۱۵ صبح",
+ "requires": null,
+ "start": "k1",
+ "nodes": {
+  "k1": {
+   "id": "k1",
+   "speaker": "tom",
+   "text": "Morning! Pot's just brewed. D'you want a cuppa, or are you a coffee sort?",
+   "translations": {
+    "fa": "صبح بخیر! قوری تازه دم کشیده. چای می‌خوری یا اهل قهوه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cuppa",
+      "tea",
+      "yes please",
+      "lovely",
+      "love one",
+      "go on"
+     ],
+     "suggestion": "I'd love a cuppa, cheers.",
+     "suggestionFa": "یک فنجان چای عالی می‌شه، مرسی.",
+     "trustDelta": 8,
+     "next": "k2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coffee",
+      "no thanks",
+      "not for me"
+     ],
+     "suggestion": "No thanks — I'm more of a coffee person.",
+     "suggestionFa": "نه ممنون — من بیشتر اهل قهوه‌ام.",
+     "trustDelta": 6,
+     "next": "k2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cuppa",
+     "fa": "یک فنجان چای"
+    },
+    {
+     "word": "brewed",
+     "fa": "دم‌کشیده"
+    }
+   ],
+   "cultureNote": {
+    "en": "Offering tea is the British welcome. Saying 'cheers' is warm and normal.",
+    "fa": "تعارف چای خوشامدگویی بریتانیایی است. گفتن «cheers» صمیمی و عادی است."
+   },
+   "xray": {
+    "connected": "D'you want a cuppa?",
+    "ipa": "/djə ˈwɒnə ˈkʌpə/"
+   },
+   "coolReply": "Right. Tea it is, then.",
+   "recasts": [
+    {
+     "match": [
+      "give me tea",
+      "give me a tea",
+      "i want tea",
+      "tea give"
+     ],
+     "echo": "Oh, you'd love a cuppa? Sure thing!",
+     "better": "Could I grab a cuppa, please? / I'd love a cuppa, cheers.",
+     "betterFa": "می‌تونم یه چای بردارم، لطفاً؟ / یه فنجان چای عالی می‌شه، مرسی."
+    }
+   ]
+  },
+  "k2": {
+   "id": "k2",
+   "speaker": "leslie",
+   "text": "Would you mind passing the sourdough, please? And mind the crumbs, Ryan.",
+   "translations": {
+    "fa": "ممکنه لطفاً نان ساوردو رو بدی؟ و رایان، مراقب خرده‌نون‌ها باش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here you go",
+      "here you are",
+      "of course",
+      "course",
+      "here"
+     ],
+     "suggestion": "Of course — here you go.",
+     "suggestionFa": "حتماً — بفرمایید.",
+     "trustDelta": 8,
+     "next": "k3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "would you mind",
+     "fa": "ممکن است… (مؤدبانه)"
+    },
+    {
+     "word": "sourdough",
+     "fa": "نان ساوردو (خمیرترش)"
+    },
+    {
+     "word": "crumbs",
+     "fa": "خرده‌نان"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Would you mind…?' is the polite way to ask at the table. Reaching across someone is rude — ask them to pass it.",
+    "fa": "«Would you mind…؟» روش مؤدبانهٔ درخواست سر میز است. دست دراز کردن از جلوی دیگری بی‌ادبی است — بخواه که رد کند."
+   },
+   "xray": {
+    "connected": "Would you mind passing the sourdough?",
+    "ipa": "/ˈwʊdʒə ˈmaɪnd ˈpɑːsɪŋ ðə ˈsaʊədəʊ/"
+   },
+   "recasts": [
+    {
+     "match": [
+      "take",
+      "bread",
+      "here bread"
+     ],
+     "echo": "Ah, the sourdough? Here you go, love.",
+     "better": "Here you go. / Of course — here you are.",
+     "betterFa": "بفرما. / حتماً — بفرمایید."
+    }
+   ]
+  },
+  "k3": {
+   "id": "k3",
+   "speaker": "william",
+   "text": "Splat! 🍓",
+   "translations": {
+    "fa": "شَلَپ! 🍓"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oh no",
+      "oops",
+      "don't worry",
+      "dear",
+      "clean",
+      "wipe",
+      "cloth",
+      "sorry"
+     ],
+     "suggestion": "Oops! Don't worry, William — I'll grab a cloth.",
+     "suggestionFa": "اوه! نگران نباش ویلیام — یه دستمال میارم.",
+     "trustDelta": 10,
+     "next": "k4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oops",
+     "fa": "اوه (اشتباه کوچک)"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال"
+    }
+   ],
+   "cultureNote": null,
+   "event": {
+    "en": "William knocks the strawberry jam off the table!",
+    "fa": "ویلیام شیشهٔ مربای توت‌فرنگی را از روی میز می‌اندازد!"
+   },
+   "recasts": [
+    {
+     "match": [
+      "no",
+      "bad",
+      "stop"
+     ],
+     "echo": "Oh dear — no harm done, eh? Let's grab a cloth.",
+     "better": "Oops! Don't worry — I'll grab a cloth.",
+     "betterFa": "اوه! نگران نباش — یه دستمال میارم."
+    }
+   ]
+  },
+  "k4": {
+   "id": "k4",
+   "speaker": "nicola",
+   "text": "Can I have jam on mine? Pleeease?",
+   "translations": {
+    "fa": "می‌شه روی نون من مربا بزنی؟ خواااهش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jam",
+      "yes",
+      "course",
+      "here",
+      "there you go",
+      "strawberry"
+     ],
+     "suggestion": "Course you can — there you go.",
+     "suggestionFa": "البته که می‌شه — بفرما.",
+     "trustDelta": 8,
+     "next": "k5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter",
+      "just butter",
+      "no jam"
+     ],
+     "suggestion": "How about just butter today?",
+     "suggestionFa": "امروز فقط کره چطوره؟",
+     "trustDelta": 5,
+     "next": "k5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam",
+     "fa": "مربا"
+    }
+   ],
+   "cultureNote": null,
+   "xray": {
+    "connected": "Can I have jam on mine?",
+    "ipa": "/kən aɪ hæv ˈdʒæm ɒn maɪn/"
+   }
+  },
+  "k5": {
+   "id": "k5",
+   "speaker": "ryan",
+   "text": "Alright? I'm knackered, mate. Is there any toast left or has Dad scoffed it?",
+   "translations": {
+    "fa": "چطوری؟ داغونم رفیق. نون تُست مونده یا بابا همه‌شو لمبونده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toast",
+      "here",
+      "left",
+      "some",
+      "have mine",
+      "there's"
+     ],
+     "suggestion": "There's a bit left — have mine, mate.",
+     "suggestionFa": "یه کم مونده — مال منو بردار رفیق.",
+     "trustDelta": 9,
+     "next": "k6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "knackered",
+      "tired",
+      "late",
+      "bed",
+      "sleep"
+     ],
+     "suggestion": "You look knackered — late night?",
+     "suggestionFa": "داغون به نظر می‌رسی — دیر خوابیدی؟",
+     "trustDelta": 8,
+     "next": "k6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "alright?",
+     "fa": "سلام/چطوری؟ (خودمانی)"
+    },
+    {
+     "word": "knackered",
+     "fa": "خیلی خسته"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    },
+    {
+     "word": "scoffed",
+     "fa": "با ولع خوردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Alright?' is a greeting, not a real question — answer 'Yeah, alright, you?'",
+    "fa": "«Alright?» یک سلام است نه سؤال واقعی — جواب بده «Yeah, alright, you?»"
+   },
+   "xray": {
+    "connected": "Is there any toast left?",
+    "ipa": "/ɪz ðər ˈeni ˈtəʊs ˈleft/"
+   }
+  },
+  "k6": {
+   "id": "k6",
+   "speaker": "tom",
+   "text": "Right, I'm off — the 38 waits for no man. Keep the kettle warm for me, eh?",
+   "translations": {
+    "fa": "خب، من رفتم — اتوبوس ۳۸ منتظر هیچ‌کس نمی‌مونه. کتری رو برام گرم نگه دار، ها؟"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "I'm off",
+     "fa": "من رفتم"
+    },
+    {
+     "word": "waits for no man",
+     "fa": "منتظر کسی نمی‌ماند (اصطلاح)"
+    }
+   ],
+   "cultureNote": null,
+   "xray": {
+    "connected": "Right, I'm off.",
+    "ipa": "/raɪʔ aɪm ˈɒf/"
+   }
+  }
+ },
+ "memory": {
+  "en": "the tea was piping hot and William covered the floor in jam",
+  "fa": "چای داغِ داغ بود و ویلیام کف زمین را مربایی کرد"
+ },
+ "episode": 1
+}

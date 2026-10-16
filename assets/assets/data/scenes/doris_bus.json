@@ -1,0 +1,138 @@
+{
+ "id": "doris_bus",
+ "characterId": "doris",
+ "level": "B1",
+ "title": "Doris and the flapjack",
+ "titleFa": "دوریس و فلپ‌جک",
+ "setting": "Front seat of the 38",
+ "settingFa": "صندلی جلوی اتوبوس ۳۸",
+ "requires": null,
+ "start": "o1",
+ "nodes": {
+  "o1": {
+   "id": "o1",
+   "speaker": "doris",
+   "text": "Ooh, budge up, love, me knees ain't what they used to be. You new round 'ere?",
+   "translations": {
+    "fa": "اوه، یه کم جابه‌جا شو عزیزم، زانوهام دیگه مثل قدیم نیست. تازه اومدی این طرفا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "new",
+      "moved",
+      "yes",
+      "months",
+      "recently",
+      "just"
+     ],
+     "suggestion": "Yes, I moved here a few months ago.",
+     "suggestionFa": "بله، چند ماه پیش آمدم این‌جا.",
+     "trustDelta": 7,
+     "next": "o2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "sit",
+      "course",
+      "here"
+     ],
+     "suggestion": "Of course, sit here.",
+     "suggestionFa": "البته، این‌جا بنشینید.",
+     "trustDelta": 7,
+     "next": "o2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "budge up",
+     "fa": "جا باز کن / کمی برو کنار"
+    },
+    {
+     "word": "round 'ere",
+     "fa": "این طرفا (کاکنی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Cockneys drop the 'h': 'ere = here, 'ouse = house.",
+    "fa": "کاکنی‌ها h را نمی‌گویند: 'ere یعنی here."
+   }
+  },
+  "o2": {
+   "id": "o2",
+   "speaker": "doris",
+   "text": "Lovely. Tom up front's a diamond, he is. I bring him a flapjack every Tuesday. Want a bit?",
+   "translations": {
+    "fa": "چه خوب. تام اون جلو یه تیکه جواهره. هر سه‌شنبه براش فلپ‌جک میارم. یه تیکه می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "please",
+      "lovely",
+      "thanks",
+      "go on"
+     ],
+     "suggestion": "Ooh, yes please — that's very kind.",
+     "suggestionFa": "اوه، بله لطفاً — خیلی لطف دارید.",
+     "trustDelta": 8,
+     "next": "o3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "diet",
+      "full",
+      "fine",
+      "i'm alright",
+      "alright"
+     ],
+     "suggestion": "I'm alright, thanks — but that's very kind.",
+     "suggestionFa": "ممنون، لازم نیست — ولی خیلی لطف دارید.",
+     "trustDelta": 6,
+     "next": "o3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a diamond",
+     "fa": "آدم خیلی خوب (تعبیر)"
+    },
+    {
+     "word": "flapjack",
+     "fa": "شیرینی جو دوسر"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK a flapjack is an oat bar with golden syrup, not a pancake!",
+    "fa": "در بریتانیا flapjack یک شیرینی جو دوسر با شیره است، نه پنکیک!"
+   }
+  },
+  "o3": {
+   "id": "o3",
+   "speaker": "doris",
+   "text": "You're a sweetheart. Right, this is me — Dalston. Ta-ra, love!",
+   "translations": {
+    "fa": "تو یه عزیزی. خب، من این‌جا پیاده می‌شم — دالستون. خداحافظ عزیزم!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "this is me",
+     "fa": "من این‌جا پیاده می‌شم"
+    },
+    {
+     "word": "ta-ra",
+     "fa": "خداحافظ (خودمانی)"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

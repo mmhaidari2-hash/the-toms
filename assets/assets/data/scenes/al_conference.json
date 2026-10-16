@@ -1,0 +1,121 @@
+{
+ "id": "al_conference",
+ "characterId": "al",
+ "level": "C1",
+ "title": "Q&A at the conference",
+ "titleFa": "پرسش و پاسخ در کنفرانس",
+ "setting": "Transport Futures Conference, ExCeL",
+ "settingFa": "کنفرانس آیندهٔ حمل‌ونقل، اکسل",
+ "requires": null,
+ "start": "x1",
+ "nodes": {
+  "x1": {
+   "id": "x1",
+   "speaker": "al",
+   "text": "Thanks for a cracking presentation. One question: how would your proposal be funded, given current budget constraints?",
+   "translations": {
+    "fa": "ممنون بابت ارائهٔ عالی. یک سؤال: با توجه به محدودیت‌های بودجه، طرح شما چطور تأمین مالی می‌شود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fund",
+      "funded",
+      "levy",
+      "charge",
+      "partnership",
+      "private",
+      "phased",
+      "pilot"
+     ],
+     "suggestion": "That's a fair question. We'd propose a phased pilot, part-funded through a congestion levy.",
+     "suggestionFa": "سؤال بجایی است. ما یک طرح آزمایشی مرحله‌ای پیشنهاد می‌کنیم که بخشی از هزینه‌اش از عوارض ترافیک تأمین شود.",
+     "trustDelta": 10,
+     "next": "x2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great question",
+      "good question",
+      "fair",
+      "honestly",
+      "not sure"
+     ],
+     "suggestion": "Great question — honestly, funding is the biggest challenge, and we're still modelling options.",
+     "suggestionFa": "سؤال خوبی است — راستش تأمین مالی بزرگ‌ترین چالش است و هنوز داریم گزینه‌ها را بررسی می‌کنیم.",
+     "trustDelta": 9,
+     "next": "x2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cracking",
+     "fa": "عالی (خودمانی)"
+    },
+    {
+     "word": "constraints",
+     "fa": "محدودیت‌ها"
+    }
+   ],
+   "cultureNote": null
+  },
+  "x2": {
+   "id": "x2",
+   "speaker": "al",
+   "text": "And if the pilot doesn't deliver the results you expect?",
+   "translations": {
+    "fa": "و اگر طرح آزمایشی نتیجه‌ای که انتظار دارید ندهد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "data",
+      "review",
+      "evaluate",
+      "adjust",
+      "learn",
+      "metrics",
+      "scale back"
+     ],
+     "suggestion": "We'd evaluate it against clear metrics and adjust, or scale it back if necessary.",
+     "suggestionFa": "با معیارهای روشن ارزیابی‌اش می‌کنیم و اصلاحش می‌کنیم، یا در صورت لزوم کوچکش می‌کنیم.",
+     "trustDelta": 10,
+     "next": "x3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deliver results",
+     "fa": "نتیجه دادن"
+    },
+    {
+     "word": "scale back",
+     "fa": "کاهش دادن مقیاس"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British Q&As, acknowledging a question's difficulty ('That's a fair point') sounds confident, not weak.",
+    "fa": "در پرسش‌وپاسخ بریتانیایی، پذیرفتن سختی سؤال («That's a fair point») نشانهٔ اعتمادبه‌نفس است، نه ضعف."
+   }
+  },
+  "x3": {
+   "id": "x3",
+   "speaker": "al",
+   "text": "Smashing. Ladies and gents, a round of applause, please.",
+   "translations": {
+    "fa": "عالی. خانم‌ها و آقایان، لطفاً تشویق کنید."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "a round of applause",
+     "fa": "تشویق با دست"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

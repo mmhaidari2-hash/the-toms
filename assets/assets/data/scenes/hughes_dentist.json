@@ -1,0 +1,133 @@
+{
+ "id": "hughes_dentist",
+ "characterId": "hughes",
+ "level": "A2",
+ "title": "Check-up at the dentist",
+ "titleFa": "معاینه در دندانپزشکی",
+ "setting": "Smile Dental Practice",
+ "settingFa": "مطب دندانپزشکی اسمایل",
+ "requires": null,
+ "start": "d1",
+ "nodes": {
+  "d1": {
+   "id": "d1",
+   "speaker": "hughes",
+   "text": "Hello there, take a seat. Have you had any pain or sensitivity lately?",
+   "translations": {
+    "fa": "سلام، بفرمایید بنشینید. اخیراً درد یا حساسیت داشته‌اید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pain",
+      "hurts",
+      "tooth",
+      "sensitive",
+      "cold",
+      "ache"
+     ],
+     "suggestion": "Yes, one tooth hurts when I drink something cold.",
+     "suggestionFa": "بله، وقتی چیز سرد می‌خورم یکی از دندان‌هایم درد می‌گیرد.",
+     "trustDelta": 7,
+     "next": "d2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "fine",
+      "nothing"
+     ],
+     "suggestion": "No, everything's been fine.",
+     "suggestionFa": "نه، همه‌چیز خوب بوده.",
+     "trustDelta": 5,
+     "next": "d2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sensitivity",
+     "fa": "حساسیت (دندان)"
+    },
+    {
+     "word": "take a seat",
+     "fa": "بفرمایید بنشینید"
+    }
+   ],
+   "cultureNote": null
+  },
+  "d2": {
+   "id": "d2",
+   "speaker": "hughes",
+   "text": "Right, open wide for me… Lovely. You've got a small filling that's worn. We can replace it next week. Is that alright?",
+   "translations": {
+    "fa": "خب، دهانتان را باز کنید… خوب است. یک پرکردگی کوچک دارید که ساییده شده. هفتهٔ بعد عوضش می‌کنیم. موافقید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fine",
+      "yes",
+      "okay",
+      "alright",
+      "next week",
+      "book"
+     ],
+     "suggestion": "That's fine. Can I book it for next week?",
+     "suggestionFa": "باشه. می‌توانم برای هفتهٔ بعد وقت بگیرم؟",
+     "trustDelta": 7,
+     "next": "d3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hurt",
+      "painful",
+      "scared",
+      "injection"
+     ],
+     "suggestion": "Will it hurt? I'm a bit nervous.",
+     "suggestionFa": "درد دارد؟ کمی می‌ترسم.",
+     "trustDelta": 6,
+     "next": "d3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "open wide",
+     "fa": "دهانت را کامل باز کن"
+    },
+    {
+     "word": "filling",
+     "fa": "پرکردگی دندان"
+    }
+   ],
+   "cultureNote": null
+  },
+  "d3": {
+   "id": "d3",
+   "speaker": "hughes",
+   "text": "Don't worry, we'll numb it — you won't feel a thing. Have a sticker on your way out, cariad!",
+   "translations": {
+    "fa": "نگران نباش، بی‌حسش می‌کنیم — هیچ چیز حس نمی‌کنی. موقع رفتن یک برچسب بردار، عزیزم!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "numb",
+     "fa": "بی‌حس کردن"
+    },
+    {
+     "word": "cariad",
+     "fa": "عزیزم (ولزی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Cariad' is Welsh for 'love/darling' — you'll hear it across Wales.",
+    "fa": "«Cariad» در زبان ولزی یعنی «عزیزم» — در سراسر ولز می‌شنوی."
+   }
+  }
+ }
+}

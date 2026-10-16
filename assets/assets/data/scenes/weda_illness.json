@@ -1,0 +1,130 @@
+{
+ "id": "weda_illness",
+ "characterId": "weda",
+ "level": "A2",
+ "title": "William's under the weather",
+ "titleFa": "ویلیام کمی ناخوش است",
+ "setting": "The nursery, late evening",
+ "settingFa": "اتاق بچه، اواخر شب",
+ "requires": {
+  "characterId": "william",
+  "milestone": "M2"
+ },
+ "start": "w1",
+ "nodes": {
+  "w1": {
+   "id": "w1",
+   "speaker": "weda",
+   "text": "Poor lamb's a bit under the weather. Can you feel his forehead — does he feel hot?",
+   "translations": {
+    "fa": "طفلکی کمی ناخوشه. پیشونیش رو لمس کن — داغه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hot",
+      "warm",
+      "temperature",
+      "yes",
+      "burning"
+     ],
+     "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
+     "suggestionFa": "آره، کمی داغه. دماش رو بگیریم؟",
+     "trustDelta": 8,
+     "next": "w2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "normal",
+      "fine",
+      "cool"
+     ],
+     "suggestion": "Not really — he feels normal to me.",
+     "suggestionFa": "نه زیاد — به نظرم عادیه.",
+     "trustDelta": 6,
+     "next": "w2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "under the weather",
+     "fa": "کمی ناخوش (اصطلاح)"
+    },
+    {
+     "word": "forehead",
+     "fa": "پیشانی"
+    },
+    {
+     "word": "poor lamb",
+     "fa": "طفلکی (محبت‌آمیز)"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Under the weather' is the classic British way to say slightly ill.",
+    "fa": "«Under the weather» روش کلاسیک بریتانیایی برای گفتن «کمی ناخوش» است."
+   }
+  },
+  "w2": {
+   "id": "w2",
+   "speaker": "weda",
+   "text": "38.2. Not too bad. Could you fetch the Calpol from the cupboard and a glass of water?",
+   "translations": {
+    "fa": "۳۸.۲. خیلی بد نیست. می‌شه کالپول رو از کابینت بیاری با یه لیوان آب؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fetch",
+      "get",
+      "here",
+      "calpol",
+      "water",
+      "course"
+     ],
+     "suggestion": "Of course — here's the Calpol and some water.",
+     "suggestionFa": "حتماً — این کالپول و کمی آب.",
+     "trustDelta": 8,
+     "next": "w3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fetch",
+     "fa": "آوردن"
+    },
+    {
+     "word": "cupboard",
+     "fa": "کابینت / گنجه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Calpol is the UK's famous children's paracetamol syrup — every family has some.",
+    "fa": "کالپول شربت پاراستامول معروف کودکان در بریتانیاست — همهٔ خانواده‌ها دارند."
+   }
+  },
+  "w3": {
+   "id": "w3",
+   "speaker": "weda",
+   "text": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
+   "translations": {
+    "fa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً بلدی باهاش."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "ring",
+     "fa": "زنگ زدن (بریتانیایی)"
+    },
+    {
+     "word": "a natural",
+     "fa": "کسی که ذاتاً بلد است"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

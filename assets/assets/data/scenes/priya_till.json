@@ -1,0 +1,176 @@
+{
+ "id": "priya_till",
+ "characterId": "priya",
+ "level": "A1",
+ "title": "At the till",
+ "titleFa": "پشت صندوق",
+ "setting": "Hackney Local corner shop",
+ "settingFa": "فروشگاه محلهٔ هاکنی",
+ "requires": null,
+ "start": "q1",
+ "nodes": {
+  "q1": {
+   "id": "q1",
+   "speaker": "priya",
+   "text": "Hiya, you alright? Just the milk and bread today?",
+   "translations": {
+    "fa": "سلام، خوبی؟ امروز فقط شیر و نان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "just",
+      "that's all",
+      "thanks",
+      "yeah"
+     ],
+     "suggestion": "Yes, that's all, thanks.",
+     "suggestionFa": "بله، همین، ممنون.",
+     "trustDelta": 5,
+     "next": "q2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eggs",
+      "also",
+      "and",
+      "crisps",
+      "biscuits"
+     ],
+     "suggestion": "And some eggs, please.",
+     "suggestionFa": "و چندتا تخم‌مرغ، لطفاً.",
+     "trustDelta": 6,
+     "next": "q2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "till",
+     "fa": "صندوق فروشگاه"
+    },
+    {
+     "word": "crisps",
+     "fa": "چیپس"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK 'crisps' are chips in a bag; 'chips' are hot fried potatoes.",
+    "fa": "در بریتانیا «crisps» چیپس بسته‌ای است و «chips» سیب‌زمینی سرخ‌کردهٔ داغ."
+   }
+  },
+  "q2": {
+   "id": "q2",
+   "speaker": "priya",
+   "text": "Do you need a bag? They're 10p.",
+   "translations": {
+    "fa": "کیسه می‌خواهی؟ ۱۰ پنی است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "own",
+      "fine",
+      "thanks"
+     ],
+     "suggestion": "No thanks, I've got my own.",
+     "suggestionFa": "نه ممنون، خودم دارم.",
+     "trustDelta": 6,
+     "next": "q3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yes",
+      "please",
+      "bag"
+     ],
+     "suggestion": "Yes please.",
+     "suggestionFa": "بله لطفاً.",
+     "trustDelta": 4,
+     "next": "q3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "10p",
+     "fa": "ده پنی"
+    },
+    {
+     "word": "bag",
+     "fa": "کیسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Shops in England must charge for plastic bags, so most people carry their own.",
+    "fa": "فروشگاه‌های انگلیس باید برای کیسه پول بگیرند، برای همین بیشتر مردم کیسهٔ خودشان را می‌آورند."
+   }
+  },
+  "q3": {
+   "id": "q3",
+   "speaker": "priya",
+   "text": "That's £3.40. Card or cash?",
+   "translations": {
+    "fa": "می‌شود ۳ پوند و ۴۰ پنی. کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "card",
+      "contactless",
+      "tap"
+     ],
+     "suggestion": "Card, please — contactless.",
+     "suggestionFa": "کارت لطفاً — بدون تماس.",
+     "trustDelta": 6,
+     "next": "q4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cash",
+      "here",
+      "pound",
+      "note"
+     ],
+     "suggestion": "Cash. Here you go.",
+     "suggestionFa": "نقد. بفرما.",
+     "trustDelta": 6,
+     "next": "q4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contactless",
+     "fa": "پرداخت بدون تماس"
+    },
+    {
+     "word": "cash",
+     "fa": "پول نقد"
+    }
+   ],
+   "cultureNote": null
+  },
+  "q4": {
+   "id": "q4",
+   "speaker": "priya",
+   "text": "Cheers! Have a good day, see you tomorrow.",
+   "translations": {
+    "fa": "مرسی! روز خوبی داشته باشی، فردا می‌بینمت."
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "cheers",
+     "fa": "مرسی (خودمانی)"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

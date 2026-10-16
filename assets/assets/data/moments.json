@@ -1,0 +1,46 @@
+[
+ {
+  "sceneId": "nicola_birthday",
+  "cover": "assets/places/birthday.webp"
+ },
+ {
+  "sceneId": "nicola_school",
+  "cover": "assets/places/firstday.webp"
+ },
+ {
+  "sceneId": "nicola_mia",
+  "cover": "assets/places/playdate.webp"
+ },
+ {
+  "sceneId": "nicola_race",
+  "cover": "assets/places/sportsday.webp"
+ },
+ {
+  "sceneId": "nicola_report",
+  "cover": "assets/places/parentsevening.webp"
+ },
+ {
+  "sceneId": "nicola_opinion",
+  "cover": "assets/places/kitchen.webp"
+ },
+ {
+  "sceneId": "william_steps",
+  "cover": "assets/places/living.webp"
+ },
+ {
+  "sceneId": "weda_illness",
+  "cover": "assets/places/poorly.webp"
+ },
+ {
+  "sceneId": "william_sentences",
+  "cover": "assets/places/bus.webp"
+ },
+ {
+  "sceneId": "ryan_report",
+  "cover": null
+ },
+ {
+  "sceneId": "ryan_driving",
+  "cover": "assets/places/driving.webp"
+ }
+]

@@ -1,0 +1,47 @@
+{
+ "characterId": "william",
+ "milestones": [
+  {
+   "id": "M0",
+   "title": "Baby babble",
+   "titleFa": "غان‌وغون نوزاد",
+   "threshold": 0,
+   "description": "Single words: more, ball, ta.",
+   "descriptionFa": "کلمه‌های تکی: بیشتر، توپ، مرسی.",
+   "unlocks": []
+  },
+  {
+   "id": "M1",
+   "title": "First steps",
+   "titleFa": "اولین قدم‌ها",
+   "threshold": 20,
+   "description": "William takes his first wobbly steps.",
+   "descriptionFa": "ویلیام اولین قدم‌های لرزانش را برمی‌دارد.",
+   "unlocks": [
+    "william_steps"
+   ]
+  },
+  {
+   "id": "M2",
+   "title": "Under the weather",
+   "titleFa": "کمی ناخوش",
+   "threshold": 35,
+   "description": "William's poorly — help Weda look after him.",
+   "descriptionFa": "ویلیام ناخوش است — به ودا در مراقبت کمک کن.",
+   "unlocks": [
+    "weda_illness"
+   ]
+  },
+  {
+   "id": "M3",
+   "title": "Two-word sentences",
+   "titleFa": "جمله‌های دوکلمه‌ای",
+   "threshold": 50,
+   "description": "'Daddy bus!' — William starts to chat.",
+   "descriptionFa": "«بابا اتوبوس!» — ویلیام شروع به حرف زدن می‌کند.",
+   "unlocks": [
+    "william_sentences"
+   ]
+  }
+ ]
+}

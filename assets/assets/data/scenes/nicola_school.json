@@ -1,0 +1,110 @@
+{
+ "id": "nicola_school",
+ "characterId": "nicola",
+ "level": "A1",
+ "title": "First day at school",
+ "titleFa": "روز اول مدرسه",
+ "setting": "School gate, 8:45am",
+ "settingFa": "در مدرسه، ساعت ۸:۴۵",
+ "requires": {
+  "characterId": "nicola",
+  "milestone": "M2"
+ },
+ "start": "a1",
+ "nodes": {
+  "a1": {
+   "id": "a1",
+   "speaker": "nicola",
+   "text": "My tummy feels funny. What if nobody likes me?",
+   "translations": {
+    "fa": "دلم یه جوری می‌شه. اگه هیچ‌کس دوستم نداشته باشه چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "normal",
+      "okay",
+      "fine",
+      "everyone",
+      "like",
+      "brave"
+     ],
+     "suggestion": "It's normal to feel nervous. Everyone will like you!",
+     "suggestionFa": "نگران بودن طبیعی است. همه دوستت خواهند داشت!",
+     "trustDelta": 8,
+     "next": "a2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tummy",
+     "fa": "شکم (بچگانه)"
+    },
+    {
+     "word": "nervous",
+     "fa": "نگران / مضطرب"
+    }
+   ],
+   "cultureNote": null
+  },
+  "a2": {
+   "id": "a2",
+   "speaker": "nicola",
+   "text": "Will you pick me up at half three?",
+   "translations": {
+    "fa": "ساعت سه و نیم میای دنبالم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "promise",
+      "half three",
+      "course",
+      "pick"
+     ],
+     "suggestion": "Yes, I'll pick you up at half three. I promise.",
+     "suggestionFa": "آره، ساعت سه و نیم میام دنبالت. قول می‌دم.",
+     "trustDelta": 8,
+     "next": "a3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half three",
+     "fa": "سه و نیم"
+    },
+    {
+     "word": "pick up",
+     "fa": "دنبال کسی رفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say 'half three' for 3:30 — not 'half past three' in casual speech.",
+    "fa": "بریتانیایی‌ها در گفتار خودمانی ۳:۳۰ را «half three» می‌گویند."
+   }
+  },
+  "a3": {
+   "id": "a3",
+   "speaker": "nicola",
+   "text": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
+   "translations": {
+    "fa": "باشه. خرسی هم میاد، تو کیف کتابم. بای‌بای!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب مدرسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children start 'Reception' class at 4–5 in England, and most wear a school uniform.",
+    "fa": "بچه‌ها در انگلیس از ۴–۵ سالگی کلاس «Reception» را شروع می‌کنند و بیشترشان لباس فرم می‌پوشند."
+   }
+  }
+ }
+}

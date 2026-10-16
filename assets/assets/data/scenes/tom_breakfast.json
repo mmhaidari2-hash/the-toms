@@ -1,0 +1,236 @@
+{
+ "id": "tom_breakfast",
+ "characterId": "tom",
+ "title": "Morning cuppa",
+ "titleFa": "چای صبحگاهی",
+ "setting": "The kitchen, 6:45am",
+ "settingFa": "آشپزخانه، ساعت ۶:۴۵ صبح",
+ "requires": null,
+ "start": "t1",
+ "nodes": {
+  "t1": {
+   "id": "t1",
+   "speaker": "tom",
+   "text": "Morning! Kettle's just boiled — fancy a cuppa?",
+   "translations": {
+    "fa": "صبح بخیر! کتری تازه جوش آمده — یک چای می‌خوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "please",
+      "lovely",
+      "love",
+      "go on",
+      "yeah"
+     ],
+     "suggestion": "Yes please, that'd be lovely.",
+     "suggestionFa": "بله لطفاً، عالی می‌شود.",
+     "trustDelta": 6,
+     "next": "t2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "thanks",
+      "coffee"
+     ],
+     "suggestion": "No thanks, I'm more of a coffee person.",
+     "suggestionFa": "نه ممنون، من بیشتر اهل قهوه‌ام.",
+     "trustDelta": 3,
+     "next": "t2b",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cuppa",
+     "fa": "یک فنجان چای"
+    },
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Cuppa' is a cup of tea. Offering one is how Brits say 'I care'.",
+    "fa": "«Cuppa» یعنی یک فنجان چای. تعارف چای در بریتانیا یعنی «به فکرت هستم»."
+   }
+  },
+  "t2": {
+   "id": "t2",
+   "speaker": "tom",
+   "text": "Milk and sugar? I take mine builder's — strong, two sugars.",
+   "translations": {
+    "fa": "شیر و شکر؟ من مال خودم را «بیلدرز» می‌خورم — پررنگ، با دو قند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "milk",
+      "sugar",
+      "just",
+      "no sugar",
+      "splash",
+      "one"
+     ],
+     "suggestion": "Just a splash of milk, no sugar, ta.",
+     "suggestionFa": "فقط کمی شیر، بدون شکر، مرسی.",
+     "trustDelta": 6,
+     "next": "t3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "same",
+      "builder",
+      "strong",
+      "yours"
+     ],
+     "suggestion": "Same as yours — builder's, please!",
+     "suggestionFa": "مثل مال تو — بیلدرز، لطفاً!",
+     "trustDelta": 8,
+     "next": "t3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "builder's tea",
+     "fa": "چای پررنگ با شیر و شکر"
+    },
+    {
+     "word": "ta",
+     "fa": "مرسی (خودمانی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Ta' is a very informal 'thanks', common in the North and London.",
+    "fa": "«Ta» یک «مرسی» خیلی خودمانی است، رایج در شمال انگلیس و لندن."
+   }
+  },
+  "t2b": {
+   "id": "t2b",
+   "speaker": "tom",
+   "text": "Coffee? In this house? Blimey. Alright, I'll find the instant.",
+   "translations": {
+    "fa": "قهوه؟ تو این خونه؟ ای بابا. باشه، قهوه فوری را پیدا می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "thanks",
+      "cheers",
+      "joking",
+      "fine",
+      "tea"
+     ],
+     "suggestion": "Cheers, Tom. Maybe I'll try tea tomorrow!",
+     "suggestionFa": "مرسی تام. شاید فردا چای را امتحان کنم!",
+     "trustDelta": 4,
+     "next": "t3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blimey",
+     "fa": "ای بابا / وای (تعجب)"
+    }
+   ],
+   "cultureNote": null
+  },
+  "t3": {
+   "id": "t3",
+   "speaker": "tom",
+   "text": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
+   "translations": {
+    "fa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "work",
+      "job",
+      "office",
+      "shift"
+     ],
+     "suggestion": "I've got work, then maybe the shops.",
+     "suggestionFa": "سر کار می‌روم، بعد شاید خرید.",
+     "trustDelta": 5,
+     "next": "t4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "study",
+      "college",
+      "english",
+      "learn",
+      "class"
+     ],
+     "suggestion": "I'm studying — trying to improve my English.",
+     "suggestionFa": "درس می‌خوانم — دارم سعی می‌کنم انگلیسی‌ام را بهتر کنم.",
+     "trustDelta": 7,
+     "next": "t4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nothing",
+      "not much",
+      "easy",
+      "relax",
+      "chill",
+      "rest",
+      "home"
+     ],
+     "suggestion": "Not much — just taking it easy.",
+     "suggestionFa": "کار خاصی نه — فقط استراحت می‌کنم.",
+     "trustDelta": 4,
+     "next": "t4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm off",
+     "fa": "من رفتم"
+    },
+    {
+     "word": "up to",
+     "fa": "مشغول / برنامه داشتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "t4": {
+   "id": "t4",
+   "speaker": "tom",
+   "text": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",
+   "translations": {
+    "fa": "آفرین. روز خوبی داشته باشی — و نذار رایان آخرین بیسکویت را کش برود!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "nick",
+     "fa": "کش رفتن (خودمانی)"
+    },
+    {
+     "word": "have a good one",
+     "fa": "روز خوبی داشته باشی"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Nick' means steal in British slang — and 'the nick' is also prison!",
+    "fa": "«Nick» در اسلنگ بریتانیایی یعنی دزدیدن — و «the nick» یعنی زندان!"
+   }
+  }
+ },
+ "level": "A1"
+}

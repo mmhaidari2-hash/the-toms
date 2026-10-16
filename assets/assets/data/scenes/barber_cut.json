@@ -1,0 +1,169 @@
+{
+ "id": "barber_cut",
+ "characterId": "sal",
+ "level": "A1",
+ "title": "Short back and sides",
+ "titleFa": "کوتاه از پشت و بغل",
+ "setting": "Sal's Barbers, Mare Street",
+ "settingFa": "آرایشگاه سال، خیابان مِر",
+ "requires": null,
+ "start": "e1",
+ "nodes": {
+  "e1": {
+   "id": "e1",
+   "speaker": "sal",
+   "text": "Alright, young man? What are we doing today?",
+   "translations": {
+    "fa": "سلام جوون! امروز چی کار کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "short",
+      "back",
+      "sides",
+      "trim",
+      "cut",
+      "shorter"
+     ],
+     "suggestion": "Short back and sides, please.",
+     "suggestionFa": "از پشت و بغل کوتاه، لطفاً.",
+     "trustDelta": 6,
+     "next": "e2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "bit",
+      "off",
+      "top",
+      "tidy"
+     ],
+     "suggestion": "Just a little bit off the top, please.",
+     "suggestionFa": "فقط کمی از بالا، لطفاً.",
+     "trustDelta": 6,
+     "next": "e2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "short back and sides",
+     "fa": "کوتاه از پشت و بغل (مدل کلاسیک)"
+    },
+    {
+     "word": "a bit off the top",
+     "fa": "کمی از بالا کوتاه کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Short back and sides' is the classic British men's haircut.",
+    "fa": "«Short back and sides» مدل موی کلاسیک مردانهٔ بریتانیایی است."
+   }
+  },
+  "e2": {
+   "id": "e2",
+   "speaker": "sal",
+   "text": "Lovely. What number on the clippers — a two or a three?",
+   "translations": {
+    "fa": "عالی. شمارهٔ ماشین چند باشه — دو یا سه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "two",
+      "2"
+     ],
+     "suggestion": "A number two, please.",
+     "suggestionFa": "شمارهٔ دو، لطفاً.",
+     "trustDelta": 6,
+     "next": "e3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "3",
+      "longer"
+     ],
+     "suggestion": "A three, please — not too short.",
+     "suggestionFa": "سه، لطفاً — نه خیلی کوتاه.",
+     "trustDelta": 6,
+     "next": "e3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clippers",
+     "fa": "ماشین اصلاح"
+    },
+    {
+     "word": "number two",
+     "fa": "شمارهٔ دو (طول مو)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Clipper numbers set the length: a 'number one' is very short.",
+    "fa": "شماره‌های ماشین طول را تعیین می‌کند: «number one» خیلی کوتاه است."
+   }
+  },
+  "e3": {
+   "id": "e3",
+   "speaker": "sal",
+   "text": "There you go. Have a look in the mirror — happy with that?",
+   "translations": {
+    "fa": "بفرما. یه نگاه تو آینه بنداز — راضی هستی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happy",
+      "great",
+      "perfect",
+      "love",
+      "yes",
+      "brilliant",
+      "cheers"
+     ],
+     "suggestion": "Yes, it's brilliant. Cheers, Sal!",
+     "suggestionFa": "آره، عالیه. مرسی سال!",
+     "trustDelta": 7,
+     "next": "e4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have a look",
+     "fa": "یک نگاه بینداز"
+    }
+   ],
+   "cultureNote": null
+  },
+  "e4": {
+   "id": "e4",
+   "speaker": "sal",
+   "text": "Nice one. That's twelve quid. Tell your dad he's overdue!",
+   "translations": {
+    "fa": "ایول. می‌شه دوازده پوند. به بابات بگو وقت اصلاحش گذشته!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (خودمانی)"
+    },
+    {
+     "word": "overdue",
+     "fa": "عقب‌افتاده"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Quid' is slang for pound — it never takes an 's': 'twelve quid'.",
+    "fa": "«quid» اسلنگ پوند است و هیچ‌وقت s نمی‌گیرد: «twelve quid»."
+   }
+  }
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "id": "ep4_evening_tea",
+ "characterId": "tom",
+ "level": "B1",
+ "title": "Ep 4 · Evening Tea & the Plumber",
+ "titleFa": "قسمت ۴ · عصرانه و لوله‌کش",
+ "setting": "The kitchen, 6pm — drip, drip",
+ "settingFa": "آشپزخانه، ساعت ۶ عصر — چیک، چیک",
+ "requires": null,
+ "start": "e1",
+ "nodes": {
+  "e1": {
+   "id": "e1",
+   "speaker": "leslie",
+   "text": "Scones are out. Help yourself to jam — cream first or jam first, that's the question.",
+   "translations": {
+    "fa": "اسکون‌ها آماده‌ست. خودت مربا بردار — اول خامه یا اول مربا، مسئله این است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jam first",
+      "cornish",
+      "jam"
+     ],
+     "suggestion": "Jam first, obviously — the Cornish way.",
+     "suggestionFa": "معلومه اول مربا — به روش کورنوالی.",
+     "trustDelta": 8,
+     "next": "e2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cream first",
+      "devon",
+      "cream"
+     ],
+     "suggestion": "Cream first — the Devon way!",
+     "suggestionFa": "اول خامه — به روش دوونی!",
+     "trustDelta": 8,
+     "next": "e2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "help yourself",
+     "fa": "خودت بردار (تعارف)"
+    },
+    {
+     "word": "scone",
+     "fa": "اسکون (کیک کوچک)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Devon: cream then jam. Cornwall: jam then cream. People argue about this for real.",
+    "fa": "دوون: اول خامه بعد مربا. کورنوال: اول مربا بعد خامه. مردم واقعاً سرش بحث می‌کنند."
+   },
+   "xray": {
+    "connected": "Help yourself to jam.",
+    "ipa": "/ˈhelp jəˈself tə ˈdʒæm/"
+   }
+  },
+  "e2": {
+   "id": "e2",
+   "speaker": "tom",
+   "text": "Hang on — the pipe under the sink's leaking again. Bucket's nearly full. I'll ring the plumber. Can you pass me the number on the fridge?",
+   "translations": {
+    "fa": "صبر کن — لوله زیر سینک باز نشتی داره. سطل تقریباً پره. به لوله‌کش زنگ می‌زنم. شماره روی یخچال رو بهم می‌دی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "number",
+      "fridge",
+      "here you go",
+      "pass"
+     ],
+     "suggestion": "Here you go — it's the one on the magnet.",
+     "suggestionFa": "بفرما — همونی که روی آهنرباست.",
+     "trustDelta": 8,
+     "next": "e3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leaking",
+     "fa": "نشت کردن"
+    },
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "plumber",
+     "fa": "لوله‌کش"
+    }
+   ],
+   "cultureNote": null
+  },
+  "e3": {
+   "id": "e3",
+   "speaker": "plumber",
+   "text": "(on speakerphone) Dave's Plumbing, Dave speaking. What seems to be the problem?",
+   "translations": {
+    "fa": "(روی بلندگو) لوله‌کشی دیو، دیو هستم. مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leak",
+      "leaking",
+      "pipe",
+      "sink",
+      "drip",
+      "water"
+     ],
+     "suggestion": "Hi, there's a leak under our kitchen sink — the pipe's dripping.",
+     "suggestionFa": "سلام، زیر سینک آشپزخونه‌مون نشتی هست — لوله چکه می‌کنه.",
+     "trustDelta": 9,
+     "next": "e4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what seems to be the problem",
+     "fa": "مشکل چیست؟ (مؤدبانه)"
+    },
+    {
+     "word": "dripping",
+     "fa": "چکه کردن"
+    }
+   ],
+   "cultureNote": null,
+   "xray": {
+    "connected": "What seems to be the problem?",
+    "ipa": "/wɒʔ ˈsiːmz tə bi ðə ˈprɒbləm/"
+   },
+   "coolReply": "Right. Address?",
+   "recasts": [
+    {
+     "match": [
+      "pipe broken",
+      "is broken",
+      "water come",
+      "water coming"
+     ],
+     "echo": "A leaky pipe, is it? Right, I can help with that.",
+     "better": "There's a leak under the sink. / The pipe's dripping.",
+     "betterFa": "زیر سینک نشتی هست. / لوله چکه می‌کنه."
+    }
+   ]
+  },
+  "e4": {
+   "id": "e4",
+   "speaker": "plumber",
+   "text": "Right you are. I could pop round tomorrow between eight and ten — would that suit?",
+   "translations": {
+    "fa": "باشه. می‌تونم فردا بین هشت تا ده سر بزنم — مناسبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "suit",
+      "fine",
+      "perfect",
+      "great",
+      "works",
+      "lovely",
+      "yes"
+     ],
+     "suggestion": "That would suit us perfectly, thanks.",
+     "suggestionFa": "کاملاً مناسبه، ممنون.",
+     "trustDelta": 9,
+     "next": "e5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "earlier",
+      "later",
+      "after",
+      "not",
+      "can't",
+      "afternoon"
+     ],
+     "suggestion": "Could you do the afternoon instead?",
+     "suggestionFa": "می‌شه به‌جاش بعدازظهر بیاید؟",
+     "trustDelta": 7,
+     "next": "e5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop round",
+     "fa": "سر زدن"
+    },
+    {
+     "word": "would that suit",
+     "fa": "مناسب است؟"
+    }
+   ],
+   "cultureNote": {
+    "en": "Tradespeople 'pop round' — and Brits always offer them a cup of tea.",
+    "fa": "صنعتگرها «سر می‌زنند» — و بریتانیایی‌ها همیشه به آن‌ها چای تعارف می‌کنند."
+   }
+  },
+  "e5": {
+   "id": "e5",
+   "speaker": "tom",
+   "text": "Sorted! You handled Dave better than I would've. Proper job. Now, where's that scone?",
+   "translations": {
+    "fa": "حل شد! تو بهتر از من با دیو حرف زدی. کارت درسته. حالا، اون اسکون کجاست؟"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "sorted",
+     "fa": "حل شد (خودمانی)"
+    },
+    {
+     "word": "proper job",
+     "fa": "کارت درسته (اصطلاح جنوب‌غربی)"
+    }
+   ],
+   "cultureNote": null,
+   "xray": {
+    "connected": "You handled Dave better than I would've.",
+    "ipa": "/jə ˈhændld ˈdeɪv ˈbeʔər ðən aɪ ˈwʊdəv/"
+   }
+  }
+ },
+ "memory": {
+  "en": "the sink was leaking and you rang Dave the plumber",
+  "fa": "سینک نشتی داشت و تو به دیو لوله‌کش زنگ زدی"
+ },
+ "episode": 4
+}

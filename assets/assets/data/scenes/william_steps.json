@@ -1,0 +1,107 @@
+{
+ "id": "william_steps",
+ "characterId": "william",
+ "level": "A0",
+ "title": "First steps",
+ "titleFa": "اولین قدم‌ها",
+ "setting": "The living room rug",
+ "settingFa": "فرش اتاق نشیمن",
+ "requires": {
+  "characterId": "william",
+  "milestone": "M1"
+ },
+ "start": "s1",
+ "nodes": {
+  "s1": {
+   "id": "s1",
+   "speaker": "william",
+   "text": "Up! Up!",
+   "translations": {
+    "fa": "بالا! بالا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "come on",
+      "walk",
+      "you can",
+      "up",
+      "hands",
+      "stand"
+     ],
+     "suggestion": "Come on, William — you can do it! Walk to me!",
+     "suggestionFa": "یالا ویلیام — می‌تونی! بیا طرف من!",
+     "trustDelta": 8,
+     "next": "s2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come on",
+     "fa": "یالا"
+    },
+    {
+     "word": "walk",
+     "fa": "راه رفتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "s2": {
+   "id": "s2",
+   "speaker": "william",
+   "text": "Wobble… wobble… BOOM! Again!",
+   "translations": {
+    "fa": "تلوتلو… تلوتلو… بوم! دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clever",
+      "well done",
+      "again",
+      "clap",
+      "good boy",
+      "yay"
+     ],
+     "suggestion": "Well done! What a clever boy! Again!",
+     "suggestionFa": "آفرین! چه پسر باهوشی! دوباره!",
+     "trustDelta": 8,
+     "next": "s3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    }
+   ],
+   "cultureNote": null
+  },
+  "s3": {
+   "id": "s3",
+   "speaker": "william",
+   "text": "Me walk! Me big!",
+   "translations": {
+    "fa": "من راه! من بزرگ!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "British parents often call it 'toddling' — that's where 'toddler' comes from.",
+    "fa": "والدین بریتانیایی اغلب به آن «toddling» می‌گویند — کلمهٔ «toddler» از همین‌جا آمده."
+   }
+  }
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "id": "pharmacy_advice",
+ "characterId": "dawson",
+ "level": "A2",
+ "title": "Asking the pharmacist",
+ "titleFa": "مشورت با داروساز",
+ "setting": "Hackney Pharmacy",
+ "settingFa": "داروخانهٔ هاکنی",
+ "requires": null,
+ "start": "h1",
+ "nodes": {
+  "h1": {
+   "id": "h1",
+   "speaker": "dawson",
+   "text": "Hello, how can I help you today?",
+   "translations": {
+    "fa": "سلام، امروز چه کمکی از دستم برمی‌آید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hay fever",
+      "sneezing",
+      "itchy",
+      "eyes",
+      "allergy"
+     ],
+     "suggestion": "I've got hay fever — my eyes are really itchy.",
+     "suggestionFa": "حساسیت فصلی دارم — چشم‌هایم خیلی می‌خارد.",
+     "trustDelta": 7,
+     "next": "h2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cough",
+      "sore throat",
+      "cold",
+      "throat"
+     ],
+     "suggestion": "I've had a sore throat and a cough for a few days.",
+     "suggestionFa": "چند روز است گلودرد و سرفه دارم.",
+     "trustDelta": 7,
+     "next": "h2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hay fever",
+     "fa": "حساسیت فصلی (گرده)"
+    },
+    {
+     "word": "itchy",
+     "fa": "خارش‌دار"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h2": {
+   "id": "h2",
+   "speaker": "dawson",
+   "text": "I see. Are you taking any other medication at the moment?",
+   "translations": {
+    "fa": "متوجهم. در حال حاضر داروی دیگری مصرف می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "nothing",
+      "none"
+     ],
+     "suggestion": "No, nothing at the moment.",
+     "suggestionFa": "نه، فعلاً چیزی نمی‌خورم.",
+     "trustDelta": 6,
+     "next": "h3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yes",
+      "taking",
+      "tablets",
+      "pill"
+     ],
+     "suggestion": "Yes, I take tablets for blood pressure.",
+     "suggestionFa": "بله، برای فشار خون قرص می‌خورم.",
+     "trustDelta": 7,
+     "next": "h3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "medication",
+     "fa": "دارو"
+    },
+    {
+     "word": "at the moment",
+     "fa": "در حال حاضر"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK pharmacists can advise on minor illnesses for free — no appointment needed.",
+    "fa": "داروسازهای بریتانیا برای بیماری‌های جزئی رایگان مشورت می‌دهند — وقت لازم نیست."
+   }
+  },
+  "h3": {
+   "id": "h3",
+   "speaker": "dawson",
+   "text": "Right. I'd suggest these — one a day, and they won't make you drowsy. If it gets worse, see your GP.",
+   "translations": {
+    "fa": "خب. این‌ها را پیشنهاد می‌کنم — روزی یکی، و خواب‌آلودتان نمی‌کند. اگر بدتر شد، به پزشک عمومی‌تان مراجعه کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "thanks",
+      "great",
+      "cheers",
+      "how much"
+     ],
+     "suggestion": "Thank you. How much are they?",
+     "suggestionFa": "ممنون. قیمتش چقدر است؟",
+     "trustDelta": 6,
+     "next": "h4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drowsy",
+     "fa": "خواب‌آلود"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h4": {
+   "id": "h4",
+   "speaker": "dawson",
+   "text": "£4.50, please. And do come back if you have any questions.",
+   "translations": {
+    "fa": "۴ پوند و ۵۰ پنی، لطفاً. و اگر سؤالی داشتید حتماً برگردید."
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": null
+  }
+ }
+}

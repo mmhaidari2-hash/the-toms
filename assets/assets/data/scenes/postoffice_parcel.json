@@ -1,0 +1,218 @@
+{
+ "id": "postoffice_parcel",
+ "characterId": "arthur",
+ "level": "A2",
+ "title": "Sending a parcel",
+ "titleFa": "فرستادن بسته",
+ "setting": "Hackney Post Office",
+ "settingFa": "پستخانهٔ هاکنی",
+ "requires": null,
+ "start": "o1",
+ "nodes": {
+  "o1": {
+   "id": "o1",
+   "speaker": "arthur",
+   "text": "Morning, my love. What can I do for you?",
+   "translations": {
+    "fa": "صبح بخیر عزیزم. چه کاری از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "send",
+      "parcel",
+      "post",
+      "package"
+     ],
+     "suggestion": "I'd like to send this parcel, please.",
+     "suggestionFa": "می‌خواهم این بسته را بفرستم، لطفاً.",
+     "trustDelta": 6,
+     "next": "o2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stamps",
+      "stamp",
+      "letter",
+      "card"
+     ],
+     "suggestion": "Could I have some stamps, please?",
+     "suggestionFa": "می‌شود چند تمبر بدهید لطفاً؟",
+     "trustDelta": 6,
+     "next": "o2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "parcel",
+     "fa": "بستهٔ پستی"
+    },
+    {
+     "word": "stamps",
+     "fa": "تمبر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "o2": {
+   "id": "o2",
+   "speaker": "arthur",
+   "text": "Righto. Is it going in the UK or abroad?",
+   "translations": {
+    "fa": "باشه. داخل بریتانیاست یا خارج؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "abroad",
+      "iran",
+      "overseas",
+      "international",
+      "country"
+     ],
+     "suggestion": "It's going abroad — to Iran.",
+     "suggestionFa": "به خارج می‌رود — به ایران.",
+     "trustDelta": 7,
+     "next": "o3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "uk",
+      "manchester",
+      "london",
+      "scotland",
+      "here",
+      "inside"
+     ],
+     "suggestion": "In the UK — to Manchester.",
+     "suggestionFa": "داخل بریتانیا — به منچستر.",
+     "trustDelta": 6,
+     "next": "o3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "abroad",
+     "fa": "خارج از کشور"
+    }
+   ],
+   "cultureNote": null
+  },
+  "o3": {
+   "id": "o3",
+   "speaker": "arthur",
+   "text": "Lovely. First class or second class? First gets there quicker but it costs a bit more.",
+   "translations": {
+    "fa": "خوبه. درجه یک یا درجه دو؟ درجه یک زودتر می‌رسه ولی کمی گرون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "quick",
+      "fast",
+      "quicker"
+     ],
+     "suggestion": "First class, please — it's a birthday present.",
+     "suggestionFa": "درجه یک، لطفاً — کادوی تولد است.",
+     "trustDelta": 7,
+     "next": "o4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "second",
+      "cheap",
+      "cheaper",
+      "no rush"
+     ],
+     "suggestion": "Second class is fine, there's no rush.",
+     "suggestionFa": "درجه دو خوب است، عجله‌ای نیست.",
+     "trustDelta": 6,
+     "next": "o4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first class",
+     "fa": "پست درجه یک (سریع)"
+    },
+    {
+     "word": "second class",
+     "fa": "پست درجه دو (ارزان‌تر)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Royal Mail first class usually arrives next day; second class in 2–3 days.",
+    "fa": "پست درجه یک رویال میل معمولاً روز بعد می‌رسد؛ درجه دو ۲ تا ۳ روزه."
+   }
+  },
+  "o4": {
+   "id": "o4",
+   "speaker": "arthur",
+   "text": "Pop it on the scales for me… Lovely. Would you like a receipt with tracking?",
+   "translations": {
+    "fa": "بذارش رو ترازو… خوبه. رسید با کد رهگیری می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "tracking",
+      "receipt",
+      "please"
+     ],
+     "suggestion": "Yes please, with tracking.",
+     "suggestionFa": "بله لطفاً، با رهگیری.",
+     "trustDelta": 6,
+     "next": "o5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "no",
+      "fine",
+      "thanks"
+     ],
+     "suggestion": "No thanks, that's fine.",
+     "suggestionFa": "نه ممنون، لازم نیست.",
+     "trustDelta": 4,
+     "next": "o5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop it on",
+     "fa": "بذارش روی"
+    },
+    {
+     "word": "tracking",
+     "fa": "رهگیری"
+    }
+   ],
+   "cultureNote": null
+  },
+  "o5": {
+   "id": "o5",
+   "speaker": "arthur",
+   "text": "There you are, sweetheart. Mind how you go!",
+   "translations": {
+    "fa": "بفرما عزیزم. مواظب خودت باش!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "mind how you go",
+     "fa": "مواظب خودت باش"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

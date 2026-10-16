@@ -1,0 +1,110 @@
+{
+ "id": "role_ryan_mum",
+ "characterId": "leslie",
+ "level": "A1",
+ "title": "(As Ryan) Mum, can I…?",
+ "titleFa": "(در نقش رایان) مامان، می‌شه…؟",
+ "setting": "Kitchen, after school",
+ "settingFa": "آشپزخانه، بعد از مدرسه",
+ "requires": null,
+ "start": "q1",
+ "nodes": {
+  "q1": {
+   "id": "q1",
+   "speaker": "leslie",
+   "text": "Hello, love. How was school? Any homework?",
+   "translations": {
+    "fa": "سلام عزیزم. مدرسه چطور بود؟ تکلیف داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fine",
+      "good",
+      "okay",
+      "maths",
+      "homework",
+      "yes",
+      "bit"
+     ],
+     "suggestion": "It was fine. I've got a bit of maths homework.",
+     "suggestionFa": "خوب بود. یه کم تکلیف ریاضی دارم.",
+     "trustDelta": 7,
+     "next": "q2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "love",
+     "fa": "عزیزم (خطاب محبت‌آمیز)"
+    }
+   ],
+   "cultureNote": {
+    "en": "'Love' as a term of address is everywhere in Britain — from mums to bus drivers.",
+    "fa": "«love» به‌عنوان خطاب در همه‌جای بریتانیا رایج است — از مادرها تا رانندهٔ اتوبوس."
+   }
+  },
+  "q2": {
+   "id": "q2",
+   "speaker": "leslie",
+   "text": "Homework first, then FIFA. Deal?",
+   "translations": {
+    "fa": "اول تکلیف، بعد فیفا. قبول؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "deal",
+      "okay",
+      "fine",
+      "promise",
+      "yes"
+     ],
+     "suggestion": "Deal. Can Josh come round after?",
+     "suggestionFa": "قبول. جاش می‌تونه بعدش بیاد خونه‌مون؟",
+     "trustDelta": 8,
+     "next": "q3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "but",
+      "please",
+      "just",
+      "one game",
+      "later"
+     ],
+     "suggestion": "Please, just one game first?",
+     "suggestionFa": "خواهش می‌کنم، فقط اول یه بازی؟",
+     "trustDelta": 3,
+     "next": "q3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come round",
+     "fa": "به خانهٔ کسی آمدن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "q3": {
+   "id": "q3",
+   "speaker": "leslie",
+   "text": "Only if your room's tidy. And take your shoes off the sofa!",
+   "translations": {
+    "fa": "فقط اگه اتاقت مرتب باشه. و کفش‌هات رو از روی مبل بردار!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "tidy",
+     "fa": "مرتب"
+    }
+   ],
+   "cultureNote": null
+  }
+ }
+}

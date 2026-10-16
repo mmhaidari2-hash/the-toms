@@ -1,0 +1,258 @@
+{
+ "id": "nicola_park",
+ "characterId": "nicola",
+ "title": "Swings at the park",
+ "titleFa": "تاب‌بازی در پارک",
+ "setting": "Victoria Park, after school",
+ "settingFa": "پارک ویکتوریا، بعد از مدرسه",
+ "requires": null,
+ "start": "p1",
+ "nodes": {
+  "p1": {
+   "id": "p1",
+   "speaker": "nicola",
+   "text": "Hiya! Will you push me on the swings? Pleeease?",
+   "translations": {
+    "fa": "سلام! منو روی تاب هل می‌دی؟ خواهش می‌کنممم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "course",
+      "okay",
+      "ok",
+      "sure",
+      "push",
+      "come on"
+     ],
+     "suggestion": "Of course! Hold on tight.",
+     "suggestionFa": "البته! محکم بگیر.",
+     "trustDelta": 7,
+     "next": "p2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "later",
+      "wait",
+      "minute",
+      "tired"
+     ],
+     "suggestion": "In a minute, I'm a bit tired.",
+     "suggestionFa": "یک دقیقه دیگر، کمی خسته‌ام.",
+     "trustDelta": 1,
+     "next": "p1b",
+     "success": false
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hiya",
+     "fa": "سلام (خودمانی)"
+    },
+    {
+     "word": "swings",
+     "fa": "تاب"
+    }
+   ],
+   "cultureNote": null
+  },
+  "p1b": {
+   "id": "p1b",
+   "speaker": "nicola",
+   "text": "Aww… just one go? Then we can feed the ducks!",
+   "translations": {
+    "fa": "اوه… فقط یک دور؟ بعدش می‌تونیم به اردک‌ها غذا بدیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "okay",
+      "ok",
+      "fine",
+      "one",
+      "yes",
+      "go on",
+      "alright"
+     ],
+     "suggestion": "Go on then, one go!",
+     "suggestionFa": "باشه پس، یک دور!",
+     "trustDelta": 5,
+     "next": "p2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one go",
+     "fa": "یک دور / یک بار"
+    }
+   ],
+   "cultureNote": null
+  },
+  "p2": {
+   "id": "p2",
+   "speaker": "nicola",
+   "text": "Higher! Higher! Wheee! Can you see the ducks from up here?",
+   "translations": {
+    "fa": "بالاتر! بالاتر! ووووی! از این بالا اردک‌ها را می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "see",
+      "duck",
+      "ducks",
+      "pond",
+      "there"
+     ],
+     "suggestion": "Yes! Look, there are loads of ducks by the pond.",
+     "suggestionFa": "آره! نگاه کن، کلی اردک کنار برکه هست.",
+     "trustDelta": 6,
+     "next": "p3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "hold",
+      "tight",
+      "safe"
+     ],
+     "suggestion": "Careful! Hold on with both hands.",
+     "suggestionFa": "مراقب باش! با دو دست بگیر.",
+     "trustDelta": 5,
+     "next": "p3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loads of",
+     "fa": "کلی / خیلی"
+    },
+    {
+     "word": "pond",
+     "fa": "برکه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "p3": {
+   "id": "p3",
+   "speaker": "nicola",
+   "text": "Guess what? It's my birthday soon! I'm going to be SIX. What's your favourite cake?",
+   "translations": {
+    "fa": "می‌دونی چیه؟ به‌زودی تولدمه! شش‌ساله می‌شم. کیک مورد علاقه‌ت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "sponge",
+      "victoria",
+      "carrot",
+      "lemon",
+      "cake",
+      "strawberry"
+     ],
+     "suggestion": "I love chocolate cake! What about you?",
+     "suggestionFa": "من عاشق کیک شکلاتی‌ام! تو چی؟",
+     "trustDelta": 8,
+     "next": "p4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happy",
+      "birthday",
+      "wow",
+      "six",
+      "exciting"
+     ],
+     "suggestion": "Wow, six! That's so exciting!",
+     "suggestionFa": "وای، شش‌سالگی! چقدر هیجان‌انگیز!",
+     "trustDelta": 7,
+     "next": "p4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guess what",
+     "fa": "می‌دونی چیه؟"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling: 'favourite', 'colour' — with a 'u'.",
+    "fa": "املای بریتانیایی: «favourite» و «colour» — با حرف u."
+   }
+  },
+  "p4": {
+   "id": "p4",
+   "speaker": "nicola",
+   "text": "Victoria sponge with jam! You HAVE to come to my party. Promise?",
+   "translations": {
+    "fa": "کیک اسفنجی ویکتوریا با مربا! حتماً باید بیای جشنم. قول می‌دی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "promise",
+      "yes",
+      "course",
+      "definitely",
+      "wouldn't miss",
+      "come"
+     ],
+     "suggestion": "I promise — I wouldn't miss it for the world!",
+     "suggestionFa": "قول می‌دهم — به هیچ قیمتی از دستش نمی‌دهم!",
+     "trustDelta": 10,
+     "next": "p5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    },
+    {
+     "word": "wouldn't miss it",
+     "fa": "از دستش نمی‌دهم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Victoria sponge is named after Queen Victoria, who loved it with her afternoon tea.",
+    "fa": "کیک ویکتوریا به نام ملکه ویکتوریا است که آن را با چای عصرانه دوست داشت."
+   }
+  },
+  "p5": {
+   "id": "p5",
+   "speaker": "nicola",
+   "text": "Yay! You're my best friend now. Race you to the slide!",
+   "translations": {
+    "fa": "آخ‌جون! حالا تو بهترین دوست منی. مسابقه تا سرسره!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "race you",
+     "fa": "مسابقه بدیم"
+    },
+    {
+     "word": "slide",
+     "fa": "سرسره"
+    }
+   ],
+   "cultureNote": null
+  }
+ },
+ "level": "A1"
+}

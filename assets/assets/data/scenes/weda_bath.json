@@ -1,0 +1,131 @@
+{
+ "id": "weda_bath",
+ "characterId": "weda",
+ "level": "A0",
+ "title": "Bath time",
+ "titleFa": "وقت حمام",
+ "setting": "The bathroom, 7pm",
+ "settingFa": "حمام، ساعت ۷ عصر",
+ "requires": null,
+ "start": "h1",
+ "nodes": {
+  "h1": {
+   "id": "h1",
+   "speaker": "weda",
+   "text": "Bath time, William! Is the water too hot?",
+   "translations": {
+    "fa": "وقت حمام است ویلیام! آب خیلی داغ است؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "fine",
+      "good",
+      "warm",
+      "ok",
+      "okay"
+     ],
+     "suggestion": "No, it's nice and warm.",
+     "suggestionFa": "نه، خوب و ولرم است.",
+     "trustDelta": 6,
+     "next": "h2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hot",
+      "yes",
+      "cold"
+     ],
+     "suggestion": "It's a bit hot. More cold water.",
+     "suggestionFa": "کمی داغ است. آب سرد بیشتر.",
+     "trustDelta": 6,
+     "next": "h2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bath time",
+     "fa": "وقت حمام"
+    },
+    {
+     "word": "warm",
+     "fa": "ولرم / گرم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h2": {
+   "id": "h2",
+   "speaker": "weda",
+   "text": "Now — bubbles or the rubber duck?",
+   "translations": {
+    "fa": "حالا — حباب یا اردک پلاستیکی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bubbles",
+      "bubble"
+     ],
+     "suggestion": "Bubbles, please!",
+     "suggestionFa": "حباب، لطفاً!",
+     "trustDelta": 6,
+     "next": "h3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "duck",
+      "rubber"
+     ],
+     "suggestion": "The rubber duck!",
+     "suggestionFa": "اردک پلاستیکی!",
+     "trustDelta": 6,
+     "next": "h3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bubbles",
+     "fa": "حباب"
+    },
+    {
+     "word": "rubber duck",
+     "fa": "اردک پلاستیکی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "h3": {
+   "id": "h3",
+   "speaker": "weda",
+   "text": "Lovely. Now, towel, pyjamas and teeth. Night night!",
+   "translations": {
+    "fa": "عالی. حالا حوله، پیژامه و مسواک. شب بخیر!"
+   },
+   "branches": [],
+   "newWords": [
+    {
+     "word": "towel",
+     "fa": "حوله"
+    },
+    {
+     "word": "pyjamas",
+     "fa": "پیژامه"
+    },
+    {
+     "word": "night night",
+     "fa": "شب بخیر (بچگانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "British spelling is 'pyjamas'; Americans write 'pajamas'.",
+    "fa": "املای بریتانیایی «pyjamas» است؛ آمریکایی‌ها «pajamas» می‌نویسند."
+   }
+  }
+ }
+}

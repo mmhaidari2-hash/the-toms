@@ -1,0 +1,70 @@
+{
+ "characterId": "nicola",
+ "milestones": [
+  {
+   "id": "M0",
+   "title": "First words together",
+   "titleFa": "اولین کلمه‌ها با هم",
+   "threshold": 0,
+   "description": "Nicola is shy around you.",
+   "descriptionFa": "نیکولا هنوز کنار تو خجالتی است.",
+   "unlocks": []
+  },
+  {
+   "id": "M1",
+   "title": "Best playmate",
+   "titleFa": "بهترین هم‌بازی",
+   "threshold": 25,
+   "description": "She's invited you to her 6th birthday!",
+   "descriptionFa": "تو را به تولد شش‌سالگی‌اش دعوت کرده!",
+   "unlocks": [
+    "nicola_birthday"
+   ]
+  },
+  {
+   "id": "M2",
+   "title": "Big school girl",
+   "titleFa": "دختر مدرسه‌ای",
+   "threshold": 35,
+   "description": "First day at school — she wants you there.",
+   "descriptionFa": "روز اول مدرسه — می‌خواهد تو آن‌جا باشی.",
+   "unlocks": [
+    "nicola_school"
+   ]
+  },
+  {
+   "id": "M3",
+   "title": "A new friend",
+   "titleFa": "یک دوست تازه",
+   "threshold": 45,
+   "description": "Nicola brings her best friend Mia home.",
+   "descriptionFa": "نیکولا بهترین دوستش میا را به خانه می‌آورد.",
+   "unlocks": [
+    "nicola_mia"
+   ]
+  },
+  {
+   "id": "M4",
+   "title": "Sports day star",
+   "titleFa": "ستارهٔ روز ورزش",
+   "threshold": 55,
+   "description": "Sports day and the end-of-year report.",
+   "descriptionFa": "روز ورزش و کارنامهٔ آخر سال.",
+   "unlocks": [
+    "nicola_race",
+    "nicola_report"
+   ]
+  },
+  {
+   "id": "M5",
+   "title": "Little Miss Opinion",
+   "titleFa": "خانم نظردار کوچولو",
+   "threshold": 65,
+   "description": "Seven going on seventeen — she argues her case.",
+   "descriptionFa": "هفت‌ساله ولی مثل هفده‌ساله — از نظرش دفاع می‌کند.",
+   "unlocks": [
+    "nicola_opinion"
+   ]
+  }
+ ]
+}
