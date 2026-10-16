@@ -1,0 +1,405 @@
+{
+ "id": "l1_u1_4",
+ "characterId": "leslie",
+ "title": "Please, thank you, sorry",
+ "titleFa": "لطفاً، ممنون، ببخشید",
+ "setting": "Hello, family! · Level 1",
+ "settingFa": "سلام، خانواده!",
+ "requires": null,
+ "start": "n1",
+ "level": "A0",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "In this house we say please and thank you. Can you pass the milk, please?",
+   "translations": {
+    "fa": "توی این خونه لطفاً و ممنون می‌گیم. می‌شه شیر را بدی، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Here you are.",
+     "suggestionFa": "بفرمایید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "here's",
+      "milk"
+     ],
+     "suggestion": "Of course. Here's the milk.",
+     "suggestionFa": "حتماً. این شیر.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pass",
+     "fa": "دادن (دست‌به‌دست)"
+    },
+    {
+     "word": "milk",
+     "fa": "شیر"
+    },
+    {
+     "word": "here you are",
+     "fa": "بفرمایید"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you give something, say \"Here you are\" or \"There you go\".",
+    "fa": "وقتی چیزی می‌دهی بگو «Here you are» یا «There you go»."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Thank you, love. Now you ask me. What do you want?",
+   "translations": {
+    "fa": "ممنون عزیزم. حالا تو از من بخواه. چی می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bread",
+      "have",
+      "can"
+     ],
+     "suggestion": "Can I have the bread, please?",
+     "suggestionFa": "می‌شه نان را داشته باشم، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter",
+      "could",
+      "pass"
+     ],
+     "suggestion": "Could you pass the butter, please?",
+     "suggestionFa": "می‌شه کره را بدید، لطفاً؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "can I have",
+     "fa": "می‌شه ... داشته باشم"
+    },
+    {
+     "word": "bread",
+     "fa": "نان"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "give me bread",
+      "give bread",
+      "bread give"
+     ],
+     "echo": "The bread? Here you are, love.",
+     "better": "Can I have the bread, please?",
+     "betterFa": "می‌شه نان را داشته باشم، لطفاً؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Lovely manners! Oops — sorry, I knocked your cup.",
+   "translations": {
+    "fa": "چه ادب قشنگی! اوه — ببخشید، به فنجونت خوردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "that's",
+      "ok"
+     ],
+     "suggestion": "That's OK, no problem.",
+     "suggestionFa": "اشکالی نداره، مشکلی نیست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "worry",
+      "don't"
+     ],
+     "suggestion": "Don't worry about it.",
+     "suggestionFa": "نگرانش نباش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sorry",
+     "fa": "ببخشید/متأسفم"
+    },
+    {
+     "word": "no problem",
+     "fa": "مشکلی نیست"
+    },
+    {
+     "word": "don't worry",
+     "fa": "نگران نباش"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say sorry A LOT — even when it isn't their fault. \"No worries\" is a relaxed reply.",
+    "fa": "بریتانیایی‌ها خیلی زیاد sorry می‌گویند — حتی وقتی تقصیر آن‌ها نیست."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Mummy, Mummy! Give me the jam!",
+   "translations": {
+    "fa": "مامان، مامان! مربا را بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "nicola",
+      "say"
+     ],
+     "suggestion": "Nicola, say please!",
+     "suggestionFa": "نیکولا، بگو لطفاً!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "magic",
+      "word"
+     ],
+     "suggestion": "What's the magic word?",
+     "suggestionFa": "کلمهٔ جادویی چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam",
+     "fa": "مربا"
+    },
+    {
+     "word": "magic word",
+     "fa": "کلمهٔ جادویی (لطفاً)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Parents ask children \"What's the magic word?\" — the answer is \"please\".",
+    "fa": "والدین از بچه‌ها می‌پرسند «کلمهٔ جادویی چیه؟» — جواب «please» است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Pleeease can I have the jam? Thank you very much!",
+   "translations": {
+    "fa": "لطفاً می‌شه مربا را بدی؟ خیلی ممنون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "welcome",
+      "girl",
+      "good"
+     ],
+     "suggestion": "Good girl! You're welcome.",
+     "suggestionFa": "آفرین دختر خوب! خواهش می‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "polite"
+     ],
+     "suggestion": "Very polite, Nicola!",
+     "suggestionFa": "خیلی مؤدبانه، نیکولا!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you're welcome",
+     "fa": "خواهش می‌کنم"
+    },
+    {
+     "word": "polite",
+     "fa": "مؤدب"
+    },
+    {
+     "word": "thank you very much",
+     "fa": "خیلی ممنون"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ha! Now, I need to get past you. What do I say?",
+   "translations": {
+    "fa": "ها! حالا باید از کنارت رد شم. چی بگم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "past",
+      "can",
+      "get"
+     ],
+     "suggestion": "Excuse me, can I get past?",
+     "suggestionFa": "ببخشید، می‌شه رد شم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please"
+     ],
+     "suggestion": "Excuse me, please.",
+     "suggestionFa": "ببخشید، لطفاً.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "excuse me",
+     "fa": "ببخشید (برای رد شدن یا جلب توجه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Excuse me\" is before (to pass, to ask). \"Sorry\" is after (a mistake).",
+    "fa": "«Excuse me» قبل از کار است، «Sorry» بعد از اشتباه."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Perfect. And if you don't hear someone?",
+   "translations": {
+    "fa": "عالی. و اگه حرف کسی را نشنیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry"
+     ],
+     "suggestion": "Sorry?",
+     "suggestionFa": "ببخشید؟ (چی گفتی؟)",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pardon"
+     ],
+     "suggestion": "Pardon?",
+     "suggestionFa": "ببخشید؟ (لطفاً تکرار کنید)",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pardon?",
+     "fa": "ببخشید؟ (تکرار کنید)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Say \"Sorry?\" or \"Pardon?\" — never just \"What?\", which sounds rude.",
+    "fa": "بگو «Sorry?» یا «Pardon?» — نه «What?» که بی‌ادبانه است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Blimey, it's like a manners school in here! Cheers for the tea, love.",
+   "translations": {
+    "fa": "ای بابا، اینجا مثل مدرسهٔ ادبه! مرسی بابت چای عزیزم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheers",
+      "means",
+      "right"
+     ],
+     "suggestion": "Cheers means thank you, right?",
+     "suggestionFa": "cheers یعنی ممنون، درسته؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tom",
+      "ha"
+     ],
+     "suggestion": "Ha! Thank you, Tom.",
+     "suggestionFa": "ها! ممنون تام.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheers",
+     "fa": "مرسی (خودمانی)"
+    },
+    {
+     "word": "blimey",
+     "fa": "ای بابا/وای"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Exactly. Cheers, ta, thanks — all mean thank you. You're a quick learner!",
+   "translations": {
+    "fa": "دقیقاً. cheers، ta، thanks — همه یعنی ممنون. تو سریع یاد می‌گیری!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

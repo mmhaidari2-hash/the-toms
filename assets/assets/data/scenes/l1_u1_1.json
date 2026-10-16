@@ -1,0 +1,419 @@
+{
+ "id": "l1_u1_1",
+ "characterId": "nicola",
+ "title": "Hello! I'm Nicola",
+ "titleFa": "سلام! من نیکولا هستم",
+ "setting": "Hello, family! · Level 1",
+ "settingFa": "سلام، خانواده!",
+ "requires": null,
+ "start": "n1",
+ "level": "A0",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Hiya! I'm Nicola. What's your name?",
+   "translations": {
+    "fa": "سلام! من نیکولا هستم. اسمت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "name's"
+     ],
+     "suggestion": "My name's {you}.",
+     "suggestionFa": "اسم من {you} است.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "nice",
+      "meet",
+      "hi"
+     ],
+     "suggestion": "Hi Nicola! I'm {you}, nice to meet you.",
+     "suggestionFa": "سلام نیکولا! من {you} هستم، از آشنایی‌ات خوشحالم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hiya",
+     "fa": "سلام (خودمانی)"
+    },
+    {
+     "word": "name",
+     "fa": "اسم"
+    },
+    {
+     "word": "I'm",
+     "fa": "من ... هستم"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Hiya\" is a friendly British hello, very common in the north and with children.",
+    "fa": "«Hiya» یک سلام صمیمی بریتانیایی است، مخصوصاً در شمال و با بچه‌ها."
+   },
+   "recasts": [
+    {
+     "match": [
+      "my name is {you} please",
+      "i name"
+     ],
+     "echo": "Oh, your name's {you}? Lovely!",
+     "better": "My name's {you}.",
+     "betterFa": "اسم من {you} است."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "{you}! That's a nice name. How old are you?",
+   "translations": {
+    "fa": "{you}! چه اسم قشنگی. چند سالته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirty"
+     ],
+     "suggestion": "I'm thirty.",
+     "suggestionFa": "سی سالمه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grown",
+      "how",
+      "old",
+      "up"
+     ],
+     "suggestion": "I'm a grown-up! How old are you?",
+     "suggestionFa": "من بزرگسالم! تو چند سالته؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "old",
+     "fa": "سن/پیر"
+    },
+    {
+     "word": "how old",
+     "fa": "چند ساله"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I'm five. Five and a half! This is my teddy. His name's Mr Buttons.",
+   "translations": {
+    "fa": "من پنج سالمه. پنج و نیم! این عروسک خرسمه. اسمش آقای دکمه است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "hello",
+      "mr"
+     ],
+     "suggestion": "Hello, Mr Buttons!",
+     "suggestionFa": "سلام، آقای دکمه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friend",
+      "lovely",
+      "he's",
+      "he"
+     ],
+     "suggestion": "He's lovely. Is he your friend?",
+     "suggestionFa": "خیلی نازه. دوستته؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teddy",
+     "fa": "عروسک خرسی"
+    },
+    {
+     "word": "his",
+     "fa": "مال او (پسر)"
+    },
+    {
+     "word": "lovely",
+     "fa": "دوست‌داشتنی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say \"lovely\" all the time — about people, food, weather, anything nice.",
+    "fa": "بریتانیایی‌ها مدام «lovely» می‌گویند — دربارهٔ آدم، غذا، هوا، هر چیز خوب."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Yes! He's my best friend. Are you from London?",
+   "translations": {
+    "fa": "آره! بهترین دوستمه. اهل لندنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "iran"
+     ],
+     "suggestion": "No, I'm from Iran.",
+     "suggestionFa": "نه، من اهل ایرانم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "away",
+      "far"
+     ],
+     "suggestion": "No, I'm not. I'm from far away.",
+     "suggestionFa": "نه، نیستم. از راه دوری اومدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "from",
+     "fa": "اهل/از"
+    },
+    {
+     "word": "London",
+     "fa": "لندن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i from iran",
+      "i am from iran no"
+     ],
+     "echo": "Oh, you're from Iran? Wow!",
+     "better": "I'm from Iran.",
+     "betterFa": "من اهل ایرانم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Wow! Is it hot there? Mummy says it's always cold here.",
+   "translations": {
+    "fa": "وای! اونجا گرمه؟ مامان می‌گه اینجا همیشه سرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "hot"
+     ],
+     "suggestion": "Yes, it's very hot in summer.",
+     "suggestionFa": "آره، تابستون خیلی گرمه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes",
+      "winter",
+      "cold"
+     ],
+     "suggestion": "Sometimes. It's cold in winter too.",
+     "suggestionFa": "گاهی. زمستون هم سرده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hot",
+     "fa": "گرم/داغ"
+    },
+    {
+     "word": "cold",
+     "fa": "سرد"
+    },
+    {
+     "word": "Mummy",
+     "fa": "مامان (بچگانه)"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Look, that's my mum. Her name's Leslie. She's a teacher.",
+   "translations": {
+    "fa": "ببین، اون مامانمه. اسمش لزلیه. معلمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teacher",
+      "nice",
+      "she"
+     ],
+     "suggestion": "Nice! Is she your teacher too?",
+     "suggestionFa": "چه خوب! معلم تو هم هست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "hello"
+     ],
+     "suggestion": "Hello, Leslie!",
+     "suggestionFa": "سلام، لزلی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mum",
+     "fa": "مامان"
+    },
+    {
+     "word": "her",
+     "fa": "مال او (زن)"
+    },
+    {
+     "word": "teacher",
+     "fa": "معلم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Hello, love! Welcome. Is Nicola talking your ear off?",
+   "translations": {
+    "fa": "سلام عزیزم! خوش اومدی. نیکولا داره سرت را می‌خوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "sweet",
+      "she's"
+     ],
+     "suggestion": "No, she's really sweet.",
+     "suggestionFa": "نه، خیلی شیرینه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "fine",
+      "bit",
+      "but"
+     ],
+     "suggestion": "A little bit! But it's fine.",
+     "suggestionFa": "یه کم! ولی اشکال نداره.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "welcome",
+     "fa": "خوش آمدی"
+    },
+    {
+     "word": "sweet",
+     "fa": "شیرین/مهربان"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Talk your ear off\" means talk a lot. It's said with a smile.",
+    "fa": "«talk your ear off» یعنی زیاد حرف زدن؛ با لبخند گفته می‌شود."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "I'm not! I'm just friendly. Are you friendly too, {you}?",
+   "translations": {
+    "fa": "نه خیر! فقط مهربونم. تو هم مهربونی، {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes",
+      "i",
+      "am"
+     ],
+     "suggestion": "Yes, I am!",
+     "suggestionFa": "آره، هستم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friendly",
+      "course"
+     ],
+     "suggestion": "Of course I'm friendly!",
+     "suggestionFa": "معلومه که مهربونم!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "friendly",
+     "fa": "مهربان/خونگرم"
+    },
+    {
+     "word": "yes I am",
+     "fa": "بله، هستم"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Good! You're my friend now. Bye-bye, see you later!",
+   "translations": {
+    "fa": "خوبه! حالا تو دوست منی. بای‌بای، بعداً می‌بینمت!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
