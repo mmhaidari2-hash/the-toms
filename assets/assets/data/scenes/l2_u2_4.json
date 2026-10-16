@@ -3,11 +3,11 @@
  "characterId": "tom",
  "title": "At the train station",
  "titleFa": "در ایستگاه قطار",
- "setting": "Finding your way · Level 1",
+ "setting": "Finding your way · Level 2",
  "settingFa": "پیدا کردن راه",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -84,7 +84,7 @@
       "let's",
       "great",
       "idea",
-      "ask"
+      "her"
      ],
      "suggestion": "Great idea. Let's ask her.",
      "suggestionFa": "فکر خوبیه. بیا ازش بپرسیم.",
@@ -238,8 +238,8 @@
      "keywords": [
       "sixteen",
       "twenty",
-      "five",
-      "i've"
+      "i've",
+      "five"
      ],
      "suggestion": "Yes, I've got a sixteen-to-twenty-five railcard.",
      "suggestionFa": "آره، کارت ۱۶ تا ۲۵ سال دارم.",

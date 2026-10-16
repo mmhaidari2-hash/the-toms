@@ -23,8 +23,8 @@
      "keywords": [
       "alright",
       "room's",
-      "messy",
       "sorry",
+      "messy",
       "come"
      ],
      "suggestion": "Alright? Sorry, my room's a bit messy. Come in.",
@@ -49,8 +49,8 @@
       "football",
       "that's",
       "laptop",
-      "these",
-      "boots"
+      "boots",
+      "these"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -98,9 +98,9 @@
      "keywords": [
       "that's",
       "salah",
-      "yeah",
-      "tidy",
-      "help"
+      "need",
+      "says",
+      "yeah"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -124,7 +124,7 @@
       "wardrobe",
       "shirts",
       "drawer",
-      "these",
+      "jeans",
       "those"
      ],
      "suggestion": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "books",
-      "gross",
       "shelf",
+      "gross",
+      "books",
       "from",
-      "week"
+      "last"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
      "suggestionFa": "کتاب‌ها روی قفسه. این ماگ هم مال هفتهٔ پیشه. چندش!",
@@ -173,9 +173,9 @@
      "keywords": [
       "enough",
       "floor",
-      "fair",
       "look",
-      "see"
+      "fair",
+      "can"
      ],
      "suggestion": "Ha, fair enough. Look — the floor! I can see the floor!",
      "suggestionFa": "ها، حق داری. ببین — کف اتاق! کف را می‌بینم!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "legend",
+      "cheers",
       "wanna",
-      "play",
-      "fifa"
+      "fifa",
+      "mate"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",
      "suggestionFa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟",

@@ -3,10 +3,10 @@
  "characterId": "tom",
  "title": "(As Tom) At the train station",
  "titleFa": "(در نقش Tom) در ایستگاه قطار",
- "setting": "Finding your way · Level 1",
+ "setting": "Finding your way · Level 2",
  "settingFa": "پیدا کردن راه",
  "requires": null,
- "level": "A1",
+ "level": "A2",
  "baseId": "l2_u2_4",
  "playAs": "tom",
  "start": "r1",
@@ -24,8 +24,8 @@
       "british",
       "taking",
       "london",
-      "train",
-      "right"
+      "right",
+      "train"
      ],
      "suggestion": "Right, I'm taking you to London for the day! Have you ever been on a British train?",
      "suggestionFa": "خب، امروز می‌برمت لندن! تا حالا سوار قطار بریتانیا شدی؟",
@@ -309,9 +309,9 @@
      "keywords": [
       "train's",
       "she's",
-      "mind",
+      "come",
       "best",
-      "come"
+      "mind"
      ],
      "suggestion": "Told you she's the best! Come on, the train's in. Mind the gap!",
      "suggestionFa": "گفتم که بهترینه! بیا، قطار رسید. مواظب فاصله باش!",

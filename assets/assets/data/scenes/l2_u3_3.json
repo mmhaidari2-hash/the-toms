@@ -3,11 +3,11 @@
  "characterId": "nicola",
  "title": "Can Mia come to tea?",
  "titleFa": "میا می‌تونه برای شام بیاد؟",
- "setting": "Making plans · Level 1",
+ "setting": "Making plans · Level 2",
  "settingFa": "برنامه‌ریزی",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "what's",
+      "please",
       "name",
       "her"
      ],
@@ -124,7 +124,7 @@
       "let's",
       "first",
       "mia's",
-      "mum"
+      "ask"
      ],
      "suggestion": "Let's ask Mia's mum first.",
      "suggestionFa": "بیا اول از مامان میا بپرسیم.",
@@ -173,8 +173,8 @@
      "keywords": [
       "blankets",
       "shall",
-      "good",
-      "idea"
+      "some",
+      "good"
      ],
      "suggestion": "Good idea! Shall I get some blankets?",
      "suggestionFa": "فکر خوبیه! چندتا پتو بیارم؟",

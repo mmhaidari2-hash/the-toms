@@ -24,8 +24,8 @@
       "always",
       "early",
       "dear",
-      "half",
-      "past"
+      "past",
+      "bird"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
      "suggestionFa": "من سحرخیزم عزیزم. همیشه ساعت پنج و نیم پا می‌شم.",
@@ -124,8 +124,8 @@
       "vegetables",
       "afternoon",
       "gossip",
-      "telly",
-      "watch"
+      "watch",
+      "fruit"
      ],
      "suggestion": "Fruit, vegetables, and a bit of gossip! Do you ever watch telly in the afternoon?",
      "suggestionFa": "میوه، سبزی و یه کم غیبت! تو هیچ‌وقت عصرها تلویزیون می‌بینی؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
+      "things",
       "change",
       "always",
-      "things",
       "never",
-      "dear"
+      "some"
      ],
      "suggestion": "Tea at six, always. Some things never change, dear.",
      "suggestionFa": "شام ساعت شش، همیشه. بعضی چیزها هیچ‌وقت عوض نمی‌شن عزیزم.",

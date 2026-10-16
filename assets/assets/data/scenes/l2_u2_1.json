@@ -3,11 +3,11 @@
  "characterId": "leslie",
  "title": "Excuse me, where's…?",
  "titleFa": "ببخشید، … کجاست؟",
- "setting": "Finding your way · Level 1",
+ "setting": "Finding your way · Level 2",
  "settingFa": "پیدا کردن راه",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "how",
-      "get"
+      "get",
+      "how"
      ],
      "suggestion": "Excuse me, how do I get to the post office?",
      "suggestionFa": "ببخشید، چطوری برم اداره پست؟",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "please",
-      "could",
+      "sorry",
       "again",
-      "sorry"
+      "could"
      ],
      "suggestion": "Sorry, could you say that again, please?",
      "suggestionFa": "ببخشید، می‌شه دوباره بگید؟",
@@ -289,10 +289,10 @@
     },
     {
      "keywords": [
+      "phrase",
       "that's",
       "useful",
-      "thanks",
-      "phrase"
+      "thanks"
      ],
      "suggestion": "That's a useful phrase. Thanks!",
      "suggestionFa": "جملهٔ مفیدیه. ممنون!",

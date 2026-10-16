@@ -23,9 +23,9 @@
      "keywords": [
       "please",
       "shoes",
-      "come",
+      "here",
       "hall",
-      "here"
+      "come"
      ],
      "suggestion": "Come in! This is the hall. Shoes off here, please.",
      "suggestionFa": "بیا تو! اینجا راهروئه. لطفاً کفش‌ها را اینجا دربیار.",
@@ -49,8 +49,8 @@
       "umbrellas",
       "floors",
       "three",
-      "house",
-      "there"
+      "there",
+      "house"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
      "suggestionFa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "downstairs",
-      "kitchen",
       "there's",
-      "garden",
-      "living"
+      "kitchen",
+      "living",
+      "garden"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "downstairs",
-      "bathroom",
       "upstairs",
+      "bathroom",
       "bedrooms",
       "there's"
      ],
@@ -150,7 +150,7 @@
       "window",
       "under",
       "let's",
-      "room"
+      "roof"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
      "suggestionFa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "wardrobe",
       "anything",
+      "wardrobe",
       "there's",
       "there",
       "desk"
@@ -198,9 +198,9 @@
      "keywords": [
       "yourself",
       "course",
-      "home",
       "make",
-      "love"
+      "love",
+      "home"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",

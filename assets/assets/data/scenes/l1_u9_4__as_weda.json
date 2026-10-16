@@ -25,7 +25,7 @@
       "you've",
       "should",
       "thing",
-      "cold"
+      "some"
      ],
      "suggestion": "Oh, you poor thing. You've got a cold? You should have some chicken soup.",
      "suggestionFa": "آخی، بیچاره. سرما خوردی؟ باید سوپ مرغ بخوری.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "country",
-      "should",
       "people",
+      "should",
       "wait",
-      "cold"
+      "work"
      ],
      "suggestion": "Work can wait, dear. You should rest. What do people do for a cold in your country?",
      "suggestionFa": "کار می‌تونه صبر کنه عزیزم. باید استراحت کنی. تو کشور تو برای سرماخوردگی چی کار می‌کنن؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "shouldn't",
+      "helpful",
       "chemist",
       "they're",
-      "helpful",
-      "dear"
+      "take"
      ],
      "suggestion": "Ask the chemist, dear. They're very helpful. You shouldn't take too much.",
      "suggestionFa": "از داروخونه بپرس عزیزم. خیلی کمک می‌کنن. نباید زیاد بخوری.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "you'll",
+      "here's",
       "right",
       "time",
-      "soup"
+      "rain"
      ],
      "suggestion": "Here's your soup. Eat it all up! You'll be right as rain in no time.",
      "suggestionFa": "اینم سوپت. همه‌اش را بخور! زود سرحال می‌شی.",

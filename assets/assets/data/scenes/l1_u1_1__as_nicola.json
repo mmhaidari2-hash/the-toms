@@ -23,8 +23,8 @@
      "keywords": [
       "nicola",
       "what's",
-      "hiya",
-      "name"
+      "name",
+      "hiya"
      ],
      "suggestion": "Hiya! I'm Nicola. What's your name?",
      "suggestionFa": "سلام! من نیکولا هستم. اسمت چیه؟",
@@ -48,8 +48,8 @@
       "that's",
       "nice",
       "name",
-      "old",
-      "how"
+      "how",
+      "old"
      ],
      "suggestion": "Mehdi! That's a nice name. How old are you?",
      "suggestionFa": "{you}! چه اسم قشنگی. چند سالته؟",
@@ -73,8 +73,8 @@
       "buttons",
       "name's",
       "teddy",
-      "half",
-      "five"
+      "five",
+      "half"
      ],
      "suggestion": "I'm five. Five and a half! This is my teddy. His name's Mr Buttons.",
      "suggestionFa": "من پنج سالمه. پنج و نیم! این عروسک خرسمه. اسمش آقای دکمه است.",
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "london",
+      "friend",
       "he's",
-      "best",
-      "from"
+      "from",
+      "best"
      ],
      "suggestion": "Yes! He's my best friend. Are you from London?",
      "suggestionFa": "آره! بهترین دوستمه. اهل لندنی؟",
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "always",
-      "mummy",
       "there",
-      "cold",
+      "mummy",
+      "here",
       "says"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
@@ -252,7 +252,7 @@
       "friend",
       "later",
       "good",
-      "see",
+      "bye",
       "now"
      ],
      "suggestion": "Good! You're my friend now. Bye-bye, see you later!",

@@ -3,10 +3,10 @@
  "characterId": "leslie",
  "title": "(As Leslie) A day off",
  "titleFa": "(در نقش Leslie) یک روز تعطیل",
- "setting": "Last weekend · Level 1",
+ "setting": "Last weekend · Level 2",
  "settingFa": "آخر هفتهٔ گذشته",
  "requires": null,
- "level": "A1",
+ "level": "A2",
  "baseId": "l2_u1_2",
  "playAs": "leslie",
  "start": "r1",
@@ -24,7 +24,7 @@
       "don't",
       "often",
       "nice",
-      "have",
+      "good",
       "week"
      ],
      "suggestion": "Oh, this is nice. I don't often have a day off! Did you have a good week?",
@@ -49,8 +49,8 @@
       "brilliant",
       "wednesday",
       "sister",
-      "town",
-      "play"
+      "play",
+      "town"
      ],
      "suggestion": "Me too. On Wednesday I saw a play with my sister in town. It was brilliant.",
      "suggestionFa": "منم. چهارشنبه با خواهرم تو شهر یه نمایش دیدم. عالی بود.",
@@ -74,8 +74,8 @@
       "italian",
       "pudding",
       "little",
-      "place",
-      "royal"
+      "royal",
+      "place"
      ],
      "suggestion": "We went to the Royal. Then we ate at a little Italian place and I had far too much pudding!",
      "suggestionFa": "رفتیم تئاتر رویال. بعد تو یه رستوران کوچیک ایتالیایی غذا خوردیم و من زیادی دسر خوردم!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "tiramisu",
-      "nicola",
       "bought",
+      "nicola",
       "shoes",
       "sizes"
      ],

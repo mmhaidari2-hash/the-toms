@@ -3,11 +3,11 @@
  "characterId": "hughes",
  "title": "Booking the dentist",
  "titleFa": "گرفتن وقت دندان‌پزشک",
- "setting": "Making plans · Level 1",
+ "setting": "Making plans · Level 2",
  "settingFa": "برنامه‌ریزی",
  "requires": null,
  "start": "n1",
- "level": "A1",
+ "level": "A2",
  "nodes": {
   "n1": {
    "id": "n1",
@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "like"
+      "book"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -91,8 +91,8 @@
      "keywords": [
       "toothache",
       "i've",
-      "got",
-      "yet"
+      "yet",
+      "got"
      ],
      "suggestion": "I'm not registered yet. I've got toothache.",
      "suggestionFa": "هنوز ثبت‌نام نکردم. دندون‌درد دارم.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "surname",
-      "shall",
       "spell",
+      "shall",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -233,7 +233,7 @@
       "double",
       "seven",
       "nine",
-      "two"
+      "one"
      ],
      "suggestion": "It's oh-seven-seven-double-oh, nine-one-two…",
      "suggestionFa": "صفر-هفت-هفت-دو صفر، نه-یک-دو…",
@@ -285,8 +285,8 @@
      "keywords": [
       "charge",
       "there",
-      "miss",
-      "will"
+      "will",
+      "miss"
      ],
      "suggestion": "I will. Is there a charge if I miss it?",
      "suggestionFa": "باشه. اگه نیام هزینه داره؟",
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "minutes",
-      "early",
       "thank",
+      "early",
       "much"
      ],
      "suggestion": "Ten minutes early. Thank you very much.",
