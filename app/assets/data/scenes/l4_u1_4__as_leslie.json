@@ -1,0 +1,150 @@
+{
+ "id": "l4_u1_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Work–life balance",
+ "titleFa": "(در نقش Leslie) تعادل کار و زندگی",
+ "setting": "A new job · Level 4",
+ "settingFa": "کار جدید",
+ "requires": null,
+ "level": "B2",
+ "baseId": "l4_u1_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shattered",
+      "midnight",
+      "should",
+      "laptop",
+      "still"
+     ],
+     "suggestion": "You look shattered, love. You were still on your laptop at midnight. You should have gone to bed.",
+     "suggestionFa": "خیلی خسته به نظر میای عزیزم. نصفه‌شب هنوز پای لپ‌تاپت بودی. باید می‌رفتی بخوابی.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I know. I shouldn't have left the report until the last minute.",
+   "translations": {
+    "fa": "می‌دونم. نباید گزارش را تا دقیقهٔ آخر نگه می‌داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brightwell",
+      "mistake",
+      "weekend",
+      "started",
+      "worked"
+     ],
+     "suggestion": "When Tom started at Brightwell, he made the same mistake. He worked every weekend for a month and ended up poorly.",
+     "suggestionFa": "وقتی تام تو برایت‌ول شروع کرد، همین اشتباه را کرد. یه ماه هر آخر هفته کار کرد و آخرش مریض شد.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What did he do to change it?",
+   "translations": {
+    "fa": "برای تغییرش چی کار کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "switching",
+      "decision",
+      "started",
+      "country",
+      "breaks"
+     ],
+     "suggestion": "He started switching off his work phone at six. Best decision he ever made. In this country, you've got a right to proper breaks, you know.",
+     "suggestionFa": "ساعت شش گوشی کاریش را خاموش کرد. بهترین تصمیمی که گرفت. تو این کشور، حق استراحت درست و حسابی داری، می‌دونی.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I didn't know that. How many days' holiday do people usually get?",
+   "translations": {
+    "fa": "نمی‌دونستم. مردم معمولاً چند روز مرخصی دارن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "including",
+      "managers",
+      "holidays",
+      "should",
+      "twenty"
+     ],
+     "suggestion": "Twenty-eight days, including bank holidays. And yes — you should have. Managers would rather know early than find out you're burnt out.",
+     "suggestionFa": "بیست و هشت روز، با تعطیلات رسمی. و آره — باید این کار را می‌کردی. مدیرها ترجیح می‌دن زود بدونن تا اینکه بفهمن از پا افتادی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "You're right. I'll talk to her tomorrow.",
+   "translations": {
+    "fa": "حق با توئه. فردا باهاش صحبت می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spelling",
+      "nicola",
+      "laptop",
+      "tea's",
+      "twice"
+     ],
+     "suggestion": "Good. Now — no laptop at the table. Tea's ready, and Nicola wants to tell you about her spelling test. Twice.",
+     "suggestionFa": "خوبه. حالا — لپ‌تاپ سر میز ممنوع. شام آماده‌ست، و نیکولا می‌خواد دربارهٔ امتحان املاش بهت بگه. دو بار.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

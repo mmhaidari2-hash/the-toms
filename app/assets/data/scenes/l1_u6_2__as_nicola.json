@@ -24,8 +24,8 @@
       "dressing",
       "dress",
       "let's",
-      "play",
-      "pink"
+      "pink",
+      "i've"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
      "suggestionFa": "بیا لباس‌بازی کنیم! من یه پیرهن صورتی دارم. تو چی داری؟",
@@ -50,7 +50,7 @@
       "hasn't",
       "let's",
       "give",
-      "him"
+      "got"
      ],
      "suggestion": "Has Mr Buttons got a hat? No, he hasn't! Let's give him a hat.",
      "suggestionFa": "آقای دکمه کلاه داره؟ نه، نداره! بیا بهش یه کلاه بدیم.",
@@ -75,7 +75,7 @@
       "purple",
       "shoes",
       "spots",
-      "mine"
+      "have"
      ],
      "suggestion": "Now shoes! Have you got wellies? Mine are purple with spots!",
      "suggestionFa": "حالا کفش! چکمهٔ لاستیکی داری؟ مال من بنفشه با خال‌خال!",
@@ -98,8 +98,8 @@
      "keywords": [
       "daddy's",
       "jumper",
-      "soooo",
       "brown",
+      "soooo",
       "big"
      ],
      "suggestion": "Daddy's got a big brown jumper. It's soooo big! Put it on!",
@@ -123,9 +123,9 @@
      "keywords": [
       "trousers",
       "orange",
-      "look",
-      "ones",
-      "like"
+      "like",
+      "bear",
+      "look"
      ],
      "suggestion": "Yes! You look like a bear! Now trousers. The orange ones!",
      "suggestionFa": "آره! شبیه خرس شدی! حالا شلوار. نارنجیه را!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "mummy",
-      "smile",
       "photo",
-      "look",
-      "take"
+      "smile",
+      "take",
+      "look"
      ],
      "suggestion": "Ha ha! Mummy, look! Take a photo! Smile!",
      "suggestionFa": "ها ها! مامان، ببین! عکس بگیر! لبخند بزن!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "dressing",
-      "friend",
       "that's",
+      "friend",
       "photo",
-      "best"
+      "ever"
      ],
      "suggestion": "That's the best photo ever. You're my best dressing-up friend!",
      "suggestionFa": "این بهترین عکس دنیاست. تو بهترین دوست لباس‌بازی منی!",

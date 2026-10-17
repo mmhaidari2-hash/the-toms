@@ -25,7 +25,7 @@
       "power",
       "night",
       "about",
-      "were"
+      "hear"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "suddenly",
+      "william",
       "reading",
-      "blowing",
       "raining",
-      "william"
+      "blowing"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. William was reading, and suddenly — dark!",
      "suggestionFa": "آخی، بیچاره! بارون شدید می‌بارید و باد می‌وزید. ویلیام داشت کتاب می‌خوند، که یهو — تاریکی!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "william",
       "candles",
       "looking",
-      "william",
       "scared",
-      "torch"
+      "while"
      ],
      "suggestion": "Not scared — I've had worse! I found the candles while William was looking for the torch.",
      "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی ویلیام دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
@@ -99,8 +99,8 @@
       "candlelight",
       "batteries",
       "drinking",
-      "stories",
-      "sitting"
+      "sitting",
+      "telling"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
      "suggestionFa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "electric",
       "kettle's",
+      "electric",
       "william",
-      "lights",
-      "asleep"
+      "asleep",
+      "lights"
      ],
      "suggestion": "The kettle's electric, love! When the lights came back on, William was fast asleep in his chair.",
      "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، ویلیام تو صندلیش خواب عمیق بود.",
@@ -149,7 +149,7 @@
       "batteries",
       "buying",
       "first",
-      "next",
+      "fine",
       "time"
      ],
      "suggestion": "All fine now. But next time, I'm buying new batteries first!",

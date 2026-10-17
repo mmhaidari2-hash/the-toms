@@ -34,8 +34,8 @@
      "keywords": [
       "about",
       "tell",
-      "her",
-      "tom"
+      "tom",
+      "her"
      ],
      "suggestion": "Go on, Tom. Tell her about it.",
      "suggestionFa": "بگو تام. بهش توضیح بده.",
@@ -56,8 +56,8 @@
    "branches": [
     {
      "keywords": [
-      "engineering",
-      "consultancy"
+      "consultancy",
+      "engineering"
      ],
      "suggestion": "It's an engineering consultancy.",
      "suggestionFa": "یه مشاورهٔ مهندسیه.",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "freelance",
-      "going",
-      "tom's"
+      "tom's",
+      "going"
      ],
      "suggestion": "Tom's going freelance.",
      "suggestionFa": "تام داره مستقل کار می‌کنه.",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "projects",
-      "problem",
-      "depends"
+      "depends",
+      "problem"
      ],
      "suggestion": "It depends on the projects. Is that a problem?",
      "suggestionFa": "بستگی به پروژه‌ها داره. مشکلیه؟",
@@ -213,8 +213,8 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "take",
+      "long",
       "how",
       "yet"
      ],

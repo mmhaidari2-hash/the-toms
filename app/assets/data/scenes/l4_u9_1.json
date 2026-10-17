@@ -1,0 +1,239 @@
+{
+ "id": "l4_u9_1",
+ "characterId": "priya",
+ "title": "Returning a faulty item",
+ "titleFa": "پس دادن کالای معیوب",
+ "setting": "Customer service · Level 4",
+ "settingFa": "خدمات مشتری",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Hi there. How can I help?",
+   "translations": {
+    "fa": "سلام. چه کمکی می‌تونم بکنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopped",
+      "working",
+      "kettle",
+      "bought"
+     ],
+     "suggestion": "I bought this kettle two weeks ago and it's stopped working.",
+     "suggestionFa": "دو هفته پیش این کتری را خریدم و از کار افتاده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "return",
+      "faulty",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "I'd like to return this. It's faulty.",
+     "suggestionFa": "می‌خوام اینو پس بدم. معیوبه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    },
+    {
+     "word": "stopped working",
+     "fa": "از کار افتاد"
+    },
+    {
+     "word": "return",
+     "fa": "پس دادن"
+    },
+    {
+     "word": "faulty",
+     "fa": "معیوب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Oh no. Have you got the receipt? Without one, I can only offer a credit note, I'm afraid.",
+   "translations": {
+    "fa": "ای وای. رسید دارید؟ بدون رسید، متأسفانه فقط می‌تونم کارت اعتبار خرید بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "receipt",
+      "here's",
+      "paid",
+      "card"
+     ],
+     "suggestion": "Here's the receipt. I paid by card, too.",
+     "suggestionFa": "اینم رسید. با کارت هم پرداخت کردم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "statement",
+      "helps",
+      "i've",
+      "bank"
+     ],
+     "suggestion": "I've got the bank statement, if that helps.",
+     "suggestionFa": "صورت‌حساب بانکی دارم، اگه کمک می‌کنه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "credit note",
+     "fa": "کارت/برگهٔ اعتبار خرید"
+    },
+    {
+     "word": "bank statement",
+     "fa": "صورت‌حساب بانکی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "That's perfect. So would you like a replacement or a refund?",
+   "translations": {
+    "fa": "عالیه. پس تعویض می‌خواید یا بازپرداخت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "refund",
+      "trust",
+      "don't"
+     ],
+     "suggestion": "A full refund, please. I don't trust this model any more.",
+     "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "replacement",
+      "different",
+      "fine",
+      "long"
+     ],
+     "suggestion": "A replacement is fine, as long as it's a different model.",
+     "suggestionFa": "تعویض خوبه، به شرطی که مدل دیگه‌ای باشه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "replacement",
+     "fa": "تعویض"
+    },
+    {
+     "word": "refund",
+     "fa": "بازپرداخت"
+    },
+    {
+     "word": "full",
+     "fa": "کامل"
+    },
+    {
+     "word": "trust",
+     "fa": "اعتماد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Under the UK Consumer Rights Act, you're entitled to a full refund if a product is faulty within 30 days of purchase.",
+    "fa": "تا ۳۰ روز برای کالای معیوب حق بازپرداخت کامل دارید."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "No problem — within thirty days you're entitled to a full refund anyway. I'll just need to check it's not been damaged. Did it get dropped at all?",
+   "translations": {
+    "fa": "مشکلی نیست — در هر صورت تا سی روز حق بازپرداخت کامل دارید. فقط باید چک کنم آسیب ندیده باشه. اصلاً افتاده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopped",
+      "heating",
+      "morning",
+      "just"
+     ],
+     "suggestion": "No, it just stopped heating one morning.",
+     "suggestionFa": "نه، فقط یه روز صبح دیگه گرم نکرد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carefully",
+      "i've",
+      "used",
+      "all"
+     ],
+     "suggestion": "Not at all. I've used it carefully.",
+     "suggestionFa": "اصلاً. با دقت ازش استفاده کردم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "entitled to",
+     "fa": "حق داشتن"
+    },
+    {
+     "word": "damaged",
+     "fa": "آسیب‌دیده"
+    },
+    {
+     "word": "dropped",
+     "fa": "افتاده"
+    },
+    {
+     "word": "heating",
+     "fa": "گرم کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Looks like the element has gone. That's a manufacturing fault. Refund's gone back on your card — three to five days. Sorry for the hassle!",
+   "translations": {
+    "fa": "به نظر میاد المنتش سوخته. این عیب تولیده. بازپرداخت به کارتتون برگشت — سه تا پنج روز. ببخشید بابت دردسر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

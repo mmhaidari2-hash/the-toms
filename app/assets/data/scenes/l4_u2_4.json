@@ -1,0 +1,245 @@
+{
+ "id": "l4_u2_4",
+ "characterId": "callum",
+ "title": "Office gossip",
+ "titleFa": "شایعات دفتر",
+ "setting": "Workplace communication · Level 4",
+ "settingFa": "ارتباطات محیط کار",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Have you heard? Apparently your office is merging with the Leeds branch. Everyone's been talking about it in here all week.",
+   "translations": {
+    "fa": "شنیدی؟ ظاهراً دفترتون داره با شعبهٔ لیدز ادغام میشه. کل هفته همه اینجا دربارهٔ اون حرف می‌زنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "told",
+      "who"
+     ],
+     "suggestion": "Really? Who told you that?",
+     "suggestionFa": "واقعاً؟ کی بهت گفت؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "confirmed",
+      "anything",
+      "rumours",
+      "nobody"
+     ],
+     "suggestion": "I've heard rumours, but nobody has confirmed anything.",
+     "suggestionFa": "شایعه شنیدم، ولی کسی چیزی را تأیید نکرده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "merging",
+     "fa": "ادغام شدن"
+    },
+    {
+     "word": "branch",
+     "fa": "شعبه"
+    },
+    {
+     "word": "rumours",
+     "fa": "شایعات"
+    },
+    {
+     "word": "confirmed",
+     "fa": "تأیید کرد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "One of your lot came in yesterday. He claimed the announcement was coming on Monday, but then he admitted he'd only overheard it.",
+   "translations": {
+    "fa": "یکی از شماها دیروز اومد. ادعا کرد اعلامیه دوشنبه میاد، ولی بعد اعتراف کرد فقط به‌طور اتفاقی شنیده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "might",
+      "true",
+      "all"
+     ],
+     "suggestion": "So it might not be true at all.",
+     "suggestionFa": "پس شاید اصلاً درست نباشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "management",
+      "anything",
+      "anyone",
+      "from"
+     ],
+     "suggestion": "Did anyone from management say anything?",
+     "suggestionFa": "کسی از مدیریت چیزی گفت؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "your lot",
+     "fa": "همکاران شما"
+    },
+    {
+     "word": "claimed",
+     "fa": "ادعا کرد"
+    },
+    {
+     "word": "announcement",
+     "fa": "اعلامیه"
+    },
+    {
+     "word": "admitted",
+     "fa": "اعتراف کرد"
+    },
+    {
+     "word": "overheard",
+     "fa": "اتفاقی شنید"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Your manager was in this morning. Someone asked her straight out, and she denied there were any plans to close the office.",
+   "translations": {
+    "fa": "مدیرتون امروز صبح اینجا بود. یکی رک ازش پرسید، و انکار کرد که برنامه‌ای برای بستن دفتر باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "closing",
+      "merging",
+      "relief",
+      "aren't"
+     ],
+     "suggestion": "That's a relief. But \"merging\" and \"closing\" aren't the same thing.",
+     "suggestionFa": "خیالم راحت شد. ولی «ادغام» و «بستن» یکی نیستن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happening",
+      "doesn't",
+      "denying",
+      "though"
+     ],
+     "suggestion": "Denying it doesn't mean it's not happening, though.",
+     "suggestionFa": "انکار کردن به این معنی نیست که اتفاق نمی‌افته.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "straight out",
+     "fa": "رک"
+    },
+    {
+     "word": "denied",
+     "fa": "انکار کرد"
+    },
+    {
+     "word": "relief",
+     "fa": "آسودگی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Good point. Then she suggested everyone wait for the official email instead of listening to gossip. Which is exactly what I'm doing now. Oops.",
+   "translations": {
+    "fa": "نکتهٔ خوبیه. بعد پیشنهاد کرد همه به جای گوش دادن به شایعه منتظر ایمیل رسمی باشن. که دقیقاً همون کاریه که الان دارم می‌کنم. اوه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unofficial",
+      "office's",
+      "newsroom",
+      "ha"
+     ],
+     "suggestion": "Ha! You're the office's unofficial newsroom.",
+     "suggestionFa": "ها! تو اتاق خبر غیررسمی دفتری.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "right",
+      "she's",
+      "i'll",
+      "wait"
+     ],
+     "suggestion": "She's right. I'll wait and see.",
+     "suggestionFa": "حق با اونه. صبر می‌کنم ببینم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "suggested",
+     "fa": "پیشنهاد کرد"
+    },
+    {
+     "word": "official",
+     "fa": "رسمی"
+    },
+    {
+     "word": "gossip",
+     "fa": "شایعه"
+    },
+    {
+     "word": "unofficial",
+     "fa": "غیررسمی"
+    },
+    {
+     "word": "wait and see",
+     "fa": "صبر کن و ببین"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Your lot\" is informal British for \"your group of people\". It can sound friendly or slightly cheeky depending on tone.",
+    "fa": "your lot یعنی شماها."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Guilty! Right — flat white, extra hot. And if you hear anything juicy, you know where I am.",
+   "translations": {
+    "fa": "گناهکارم! خب — فلت وایت، خیلی داغ. و اگه چیز جالبی شنیدی، می‌دونی من کجام."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

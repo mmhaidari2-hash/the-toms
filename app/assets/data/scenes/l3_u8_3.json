@@ -20,9 +20,9 @@
     {
      "keywords": [
       "looks",
-      "bomb",
       "like",
-      "hit"
+      "bomb",
+      "wow"
      ],
      "suggestion": "Wow. It looks like a bomb hit it!",
      "suggestionFa": "وای. انگار بمب خورده!",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
-      "dirty",
       "socks",
       "doing",
+      "dirty",
       "deal"
      ],
      "suggestion": "Deal. But you're doing the dirty socks!",
@@ -88,7 +88,7 @@
       "about",
       "also",
       "make",
-      "tea"
+      "cup"
      ],
      "suggestion": "How about if you also make me a cup of tea?",
      "suggestionFa": "چطوره یه چای هم برام درست کنی؟",
@@ -143,9 +143,9 @@
     },
     {
      "keywords": [
-      "floor",
-      "can't",
       "start",
+      "can't",
+      "floor",
       "see"
      ],
      "suggestion": "Let's start with the floor. I can't see it!",

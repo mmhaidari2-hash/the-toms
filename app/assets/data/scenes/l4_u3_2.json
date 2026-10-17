@@ -1,0 +1,247 @@
+{
+ "id": "l4_u3_2",
+ "characterId": "doris",
+ "title": "Organising a street party",
+ "titleFa": "سازمان دادن جشن خیابانی",
+ "setting": "Giving back · Level 4",
+ "settingFa": "کمک به جامعه",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Tom! We're organising a street party for the King's birthday, and I've been told you're good with spreadsheets.",
+   "translations": {
+    "fa": "تام! داریم برای تولد پادشاه یه جشن خیابونی ترتیب می‌دیم، و بهم گفتن تو با صفحه‌گسترده خوبی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spreadsheets",
+      "tom's",
+      "great",
+      "need"
+     ],
+     "suggestion": "Tom's great with spreadsheets. What do you need?",
+     "suggestionFa": "تام تو صفحه‌گسترده عالیه. چی لازم دارید؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "street",
+      "lovely",
+      "party",
+      "idea"
+     ],
+     "suggestion": "A street party! What a lovely idea.",
+     "suggestionFa": "جشن خیابونی! چه فکر قشنگی.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "organising",
+     "fa": "سازمان دادن"
+    },
+    {
+     "word": "street party",
+     "fa": "جشن خیابانی"
+    },
+    {
+     "word": "spreadsheets",
+     "fa": "صفحه‌گسترده"
+    }
+   ],
+   "cultureNote": {
+    "en": "Street parties are a British tradition for royal occasions — neighbours close the road and share food on long tables.",
+    "fa": "جشن خیابانی برای مناسبت‌های سلطنتی رایج است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Well, first we'll need to get permission from the council to close the road. It's worth applying early — they take ages.",
+   "translations": {
+    "fa": "خب، اول باید از شورا اجازهٔ بستن خیابون بگیریم. ارزشش را داره زود درخواست بدیم — خیلی طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "advance",
+      "apply",
+      "have",
+      "far"
+     ],
+     "suggestion": "How far in advance do you have to apply?",
+     "suggestionFa": "چقدر زودتر باید درخواست داد؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tonight",
+      "online",
+      "fill",
+      "form"
+     ],
+     "suggestion": "I can fill in the form online tonight.",
+     "suggestionFa": "امشب می‌تونم فرم را آنلاین پر کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "permission",
+     "fa": "اجازه"
+    },
+    {
+     "word": "worth applying",
+     "fa": "ارزش درخواست دارد"
+    },
+    {
+     "word": "take ages",
+     "fa": "خیلی طول کشیدن"
+    },
+    {
+     "word": "in advance",
+     "fa": "از قبل"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "About six weeks. Then we'll need to sort out tables, bunting and food. Everyone brings a dish, but someone has to coordinate it, or we'll end up with forty quiches!",
+   "translations": {
+    "fa": "حدود شش هفته. بعد باید میز، ریسه و غذا را جور کنیم. هر کس یه غذا میاره، ولی یکی باید هماهنگ کنه، وگرنه آخرش چهل تا کیش داریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shared",
+      "dishes",
+      "people",
+      "list"
+     ],
+     "suggestion": "I'll make a shared list so people can sign up for dishes.",
+     "suggestionFa": "یه لیست مشترک درست می‌کنم تا مردم برای غذاها ثبت‌نام کنن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "quiche",
+      "bring",
+      "isn't"
+     ],
+     "suggestion": "Ha! I'll bring something that isn't a quiche.",
+     "suggestionFa": "ها! یه چیزی میارم که کیش نباشه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sort out",
+     "fa": "جور کردن"
+    },
+    {
+     "word": "bunting",
+     "fa": "ریسهٔ پرچم"
+    },
+    {
+     "word": "dish",
+     "fa": "غذا"
+    },
+    {
+     "word": "coordinate",
+     "fa": "هماهنگ کردن"
+    },
+    {
+     "word": "end up with",
+     "fa": "آخرش داشتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Lovely. And it's worth thinking about the elderly residents — some of them can't get out much. I'd like them to feel included.",
+   "translations": {
+    "fa": "عالیه. و ارزشش را داره به سالمندان محله فکر کنیم — بعضی‌هاشون زیاد نمی‌تونن بیرون بیان. دوست دارم احساس کنن جزو جمع‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chairs",
+      "their",
+      "shade",
+      "front"
+     ],
+     "suggestion": "We could put chairs in the shade near their front doors.",
+     "suggestionFa": "می‌تونیم صندلی‌ها را تو سایه نزدیک درهاشون بذاریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "personally",
+      "everyone",
+      "invite",
+      "knock"
+     ],
+     "suggestion": "I'll knock on doors and invite everyone personally.",
+     "suggestionFa": "در خونه‌ها را می‌زنم و همه را شخصاً دعوت می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "elderly",
+     "fa": "سالمند"
+    },
+    {
+     "word": "residents",
+     "fa": "ساکنان"
+    },
+    {
+     "word": "included",
+     "fa": "جزو جمع"
+    },
+    {
+     "word": "shade",
+     "fa": "سایه"
+    },
+    {
+     "word": "personally",
+     "fa": "شخصاً"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "You're a star. Tom, you're on spreadsheets. I'm on cakes, obviously. And if it rains, we'll just carry on — we're British!",
+   "translations": {
+    "fa": "تو ستاره‌ای. تام، تو مسئول صفحه‌گسترده‌ای. من مسئول کیک‌ها، معلومه. و اگه بارون اومد، ادامه می‌دیم — بریتانیایی هستیم دیگه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

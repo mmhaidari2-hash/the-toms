@@ -1,0 +1,253 @@
+{
+ "id": "l4_u8_2",
+ "characterId": "callum",
+ "title": "Local news",
+ "titleFa": "اخبار محلی",
+ "setting": "News and opinions · Level 4",
+ "settingFa": "اخبار و دیدگاه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Big news round here — the old cotton mill is going to be turned into flats. It's said that they'll be \"luxury\". Whatever that means.",
+   "translations": {
+    "fa": "خبر بزرگ این اطراف — کارخونهٔ قدیمی پنبه قراره به آپارتمان تبدیل بشه. گفته میشه «لوکس» خواهند بود. هر معنی‌ای که بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "affordable",
+      "them",
+      "will",
+      "any"
+     ],
+     "suggestion": "Will any of them be affordable?",
+     "suggestionFa": "هیچ کدومشون مقرون‌به‌صرفه خواهد بود؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "manchester's",
+      "building",
+      "history",
+      "though"
+     ],
+     "suggestion": "That building is part of Manchester's history, though.",
+     "suggestionFa": "ولی اون ساختمون بخشی از تاریخ منچستره.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cotton mill",
+     "fa": "کارخانهٔ پنبه"
+    },
+    {
+     "word": "turned into",
+     "fa": "تبدیل شدن به"
+    },
+    {
+     "word": "it is said that",
+     "fa": "گفته می‌شود که"
+    },
+    {
+     "word": "luxury",
+     "fa": "لوکس"
+    },
+    {
+     "word": "affordable",
+     "fa": "مقرون‌به‌صرفه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Manchester was the world's first industrial city, famous for its cotton mills — hence the nickname \"Cottonopolis\".",
+    "fa": "منچستر به خاطر کارخانه‌های پنبه معروف است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Exactly. The developer is believed to have promised twenty percent affordable housing, but people are sceptical.",
+   "translations": {
+    "fa": "دقیقاً. گفته میشه سازنده قول بیست درصد مسکن ارزان داده، ولی مردم بدبینن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sceptical",
+      "people",
+      "why"
+     ],
+     "suggestion": "Why are people sceptical?",
+     "suggestionFa": "چرا مردم بدبینن؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "promise",
+      "binding",
+      "legally",
+      "just"
+     ],
+     "suggestion": "Is that legally binding, or just a promise?",
+     "suggestionFa": "این از نظر قانونی الزام‌آوره، یا فقط یه قوله؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "developer",
+     "fa": "سازنده/توسعه‌دهنده"
+    },
+    {
+     "word": "is believed to",
+     "fa": "گفته می‌شود که"
+    },
+    {
+     "word": "promised",
+     "fa": "قول داد"
+    },
+    {
+     "word": "sceptical",
+     "fa": "بدبین"
+    },
+    {
+     "word": "legally binding",
+     "fa": "الزام‌آور قانونی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "The last developer was reported to have cut the affordable homes after planning was approved. It's alleged they claimed it was \"no longer viable\".",
+   "translations": {
+    "fa": "گزارش شده که سازندهٔ قبلی بعد از تأیید طرح، خونه‌های ارزان را کم کرد. ادعا میشه که گفتن «دیگه به‌صرفه نیست»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happen",
+      "seems",
+      "lot"
+     ],
+     "suggestion": "That seems to happen a lot.",
+     "suggestionFa": "انگار زیاد اتفاق میفته.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "residents",
+      "object",
+      "plans",
+      "can"
+     ],
+     "suggestion": "Can residents object to the plans?",
+     "suggestionFa": "ساکنین می‌تونن به طرح اعتراض کنن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "was reported to",
+     "fa": "گزارش شد که"
+    },
+    {
+     "word": "planning",
+     "fa": "مجوز ساخت"
+    },
+    {
+     "word": "approved",
+     "fa": "تأیید شد"
+    },
+    {
+     "word": "alleged",
+     "fa": "ادعا شده"
+    },
+    {
+     "word": "viable",
+     "fa": "اقتصادی/عملی"
+    },
+    {
+     "word": "object",
+     "fa": "اعتراض کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "You can comment on the council's planning portal. There's thought to be a big public meeting next month too. You should come — you're good at this stuff.",
+   "translations": {
+    "fa": "می‌تونی تو پورتال برنامه‌ریزی شورا نظر بدی. گمان میشه ماه بعد یه جلسهٔ عمومی بزرگ هم باشه. باید بیای — تو این کارها خوبی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "comment",
+      "online",
+      "there"
+     ],
+     "suggestion": "I'll definitely be there. And I'll comment online too.",
+     "suggestionFa": "حتماً میام. و آنلاین هم نظر می‌دم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "argues",
+      "nobody",
+      "bring",
+      "doris"
+     ],
+     "suggestion": "I'll bring Doris. Nobody argues with Doris.",
+     "suggestionFa": "دوریس را میارم. هیچ‌کس با دوریس بحث نمی‌کنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "portal",
+     "fa": "پورتال"
+    },
+    {
+     "word": "there's thought to be",
+     "fa": "گمان می‌رود"
+    },
+    {
+     "word": "public meeting",
+     "fa": "جلسهٔ عمومی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Ha! Doris could run the council. Right — usual? It's on the house today. Community spirit and all that.",
+   "translations": {
+    "fa": "ها! دوریس می‌تونه شورا را اداره کنه. خب — همیشگی؟ امروز مهمون منی. روحیهٔ اجتماعی و این حرف‌ها."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

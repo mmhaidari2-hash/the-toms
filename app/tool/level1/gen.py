@@ -45,13 +45,13 @@ course={'units':[]}
 for ui,u in enumerate(units):
   cu={k:u[k] for k in ('level','id','title','titleFa','place','canDo','canDoFa')}; cu['lessons']=[]
   for les in u['lessons']:
-    sid=les['id']; N={}; ns=les['nodes']; lvl=('A0' if ui<3 else 'A1') if u['level']==1 else {2:'A2',3:'B1'}.get(u['level'],'B2')
+    sid=les['id']; N={}; ns=les['nodes']; lvl=('A0' if ui<3 else 'A1') if u['level']==1 else {2:'A2',3:'B1',4:'B2'}.get(u['level'],'C1')
     allw=[]
     for i,n in enumerate(ns):
       nid=f'n{i+1}'; nxt=f'n{i+2}' if i+1<len(ns) else None
       if n['speaker']=='nicola' and len(n['text'].split())>18: errs.append(f'{sid}/{nid} nicola too long')
       if n['speaker']=='william' and len(n['text'].split())>6: errs.append(f'{sid}/{nid} william too long')
-      if len(n['text'])>{'A0':90,'A1':110,'A2':130}.get(lvl,150): errs.append(f'{sid}/{nid} too long {len(n["text"])}')
+      if len(n['text'])>{'A0':90,'A1':110,'A2':130,'B1':150,'B2':190}.get(lvl,230): errs.append(f'{sid}/{nid} too long {len(n["text"])}')
       br=[]
       R=n['replies']
       for j,(s,sf) in enumerate(R):

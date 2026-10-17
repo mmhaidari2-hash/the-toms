@@ -20,8 +20,8 @@
     {
      "keywords": [
       "message",
-      "sorry",
       "tom's",
+      "sorry",
       "take"
      ],
      "suggestion": "No, sorry, Tom's out. Can I take a message?",
@@ -85,7 +85,7 @@
       "that's",
       "great",
       "i'll",
-      "news"
+      "tell"
      ],
      "suggestion": "That's great news! I'll tell him.",
      "suggestionFa": "خبر عالیه! بهش می‌گم.",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "message",
-      "helen",
       "thank",
+      "helen",
       "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
@@ -235,9 +235,9 @@
     {
      "keywords": [
       "thanks",
-      "he'll",
       "today",
-      "back"
+      "he'll",
+      "ring"
      ],
      "suggestion": "Thanks. He'll ring you back today.",
      "suggestionFa": "ممنون. امروز بهتون زنگ می‌زنه.",

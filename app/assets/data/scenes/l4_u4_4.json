@@ -1,0 +1,254 @@
+{
+ "id": "l4_u4_4",
+ "characterId": "sian",
+ "title": "Getting a mortgage",
+ "titleFa": "گرفتن وام مسکن",
+ "setting": "Home and neighbours · Level 4",
+ "settingFa": "خانه و همسایه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "So, you're thinking about buying rather than renting? That's a big step. Let's look at what you might be able to borrow.",
+   "translations": {
+    "fa": "پس دارید به خریدن به جای اجاره فکر می‌کنید؟ قدم بزرگیه. بیاید ببینیم چقدر می‌تونید وام بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "throwing",
+      "renting",
+      "feels",
+      "money"
+     ],
+     "suggestion": "Yes. Renting feels like throwing money away.",
+     "suggestionFa": "آره. اجاره کردن مثل دور ریختن پوله.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exploring",
+      "options",
+      "just",
+      "now"
+     ],
+     "suggestion": "I'm just exploring my options for now.",
+     "suggestionFa": "فعلاً فقط دارم گزینه‌هام را بررسی می‌کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rather than",
+     "fa": "به جای"
+    },
+    {
+     "word": "big step",
+     "fa": "قدم بزرگ"
+    },
+    {
+     "word": "borrow",
+     "fa": "قرض گرفتن"
+    },
+    {
+     "word": "options",
+     "fa": "گزینه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Understandable. Typically, we lend around four and a half times your salary, provided that you have a deposit of at least ten percent.",
+   "translations": {
+    "fa": "قابل درکه. معمولاً حدود چهار و نیم برابر حقوقتون وام می‌دیم، به شرطی که حداقل ده درصد پیش‌پرداخت داشته باشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteen",
+      "percent",
+      "saving",
+      "about"
+     ],
+     "suggestion": "I've been saving for three years, so I have about fifteen percent.",
+     "suggestionFa": "سه ساله پس‌انداز می‌کنم، پس حدود پونزده درصد دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "smaller",
+      "deposit"
+     ],
+     "suggestion": "Is it possible with a smaller deposit?",
+     "suggestionFa": "با پیش‌پرداخت کمتر ممکنه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "typically",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "lend",
+     "fa": "قرض دادن"
+    },
+    {
+     "word": "salary",
+     "fa": "حقوق"
+    },
+    {
+     "word": "provided that",
+     "fa": "به شرطی که"
+    },
+    {
+     "word": "deposit",
+     "fa": "پیش‌پرداخت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "That's a great position. As long as your credit history is clean, you should be fine. Have you ever missed any payments?",
+   "translations": {
+    "fa": "موقعیت عالیه. تا وقتی سابقهٔ اعتباریتون پاک باشه، مشکلی ندارید. تا حالا پرداختی را از دست دادید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "bills",
+      "never",
+      "time"
+     ],
+     "suggestion": "Never. I always pay my bills on time.",
+     "suggestionFa": "هیچ‌وقت. قبض‌هام را همیشه به موقع می‌دم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "affect",
+      "credit",
+      "score"
+     ],
+     "suggestion": "I haven't been in the UK long. Does that affect my credit score?",
+     "suggestionFa": "زیاد تو بریتانیا نبودم. رو امتیاز اعتباریم تأثیر داره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "position",
+     "fa": "موقعیت"
+    },
+    {
+     "word": "as long as",
+     "fa": "تا وقتی که"
+    },
+    {
+     "word": "credit history",
+     "fa": "سابقهٔ اعتباری"
+    },
+    {
+     "word": "missed payments",
+     "fa": "پرداخت‌های عقب‌افتاده"
+    },
+    {
+     "word": "credit score",
+     "fa": "امتیاز اعتباری"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, being on the electoral roll and paying bills on time helps build your credit score.",
+    "fa": "ثبت‌نام در فهرست رأی‌دهندگان به امتیاز اعتباری کمک می‌کند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "It can. Unless you've been here for three years, some lenders are cautious. Registering on the electoral roll will help.",
+   "translations": {
+    "fa": "ممکنه. مگر اینکه سه سال اینجا بوده باشید، بعضی وام‌دهنده‌ها محتاطن. ثبت‌نام تو فهرست رأی‌دهندگان کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "register",
+      "what's",
+      "i'll",
+      "step"
+     ],
+     "suggestion": "I'll register this week. What's the next step?",
+     "suggestionFa": "این هفته ثبت‌نام می‌کنم. قدم بعدی چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "variable",
+      "better",
+      "fixed",
+      "rate"
+     ],
+     "suggestion": "Is a fixed rate or a variable rate better?",
+     "suggestionFa": "نرخ ثابت بهتره یا متغیر؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lenders",
+     "fa": "وام‌دهندگان"
+    },
+    {
+     "word": "cautious",
+     "fa": "محتاط"
+    },
+    {
+     "word": "electoral roll",
+     "fa": "فهرست رأی‌دهندگان"
+    },
+    {
+     "word": "fixed rate",
+     "fa": "نرخ ثابت"
+    },
+    {
+     "word": "variable rate",
+     "fa": "نرخ متغیر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "Most first-time buyers choose a fixed rate for two or five years — you know exactly what you'll pay. Next step: an agreement in principle. It takes ten minutes and won't affect your score.",
+   "translations": {
+    "fa": "بیشتر خریداران بار اول نرخ ثابت دو یا پنج‌ساله انتخاب می‌کنن — دقیقاً می‌دونید چقدر می‌پردازید. قدم بعدی: یه موافقت اصولی. ده دقیقه طول می‌کشه و رو امتیازتون تأثیر نداره."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

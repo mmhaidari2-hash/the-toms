@@ -1,0 +1,234 @@
+{
+ "id": "l4_u9_2",
+ "characterId": "sophie",
+ "title": "A disappointing meal",
+ "titleFa": "غذای ناامیدکننده",
+ "setting": "Customer service · Level 4",
+ "settingFa": "خدمات مشتری",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sophie",
+   "text": "Is everything all right with your meals?",
+   "translations": {
+    "fa": "همه چی با غذاهاتون خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "overcooked",
+      "medium",
+      "afraid",
+      "steak"
+     ],
+     "suggestion": "I'm afraid not. My steak is overcooked — I asked for medium-rare.",
+     "suggestionFa": "متأسفانه نه. استیکم زیادی پخته — مدیوم‌رر خواسته بودم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "waiting",
+      "honest",
+      "course"
+     ],
+     "suggestion": "To be honest, we've been waiting forty-five minutes for the main course.",
+     "suggestionFa": "راستش، چهل و پنج دقیقه‌ست منتظر غذای اصلی هستیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "overcooked",
+     "fa": "زیادی پخته"
+    },
+    {
+     "word": "medium-rare",
+     "fa": "نیم‌پز"
+    },
+    {
+     "word": "main course",
+     "fa": "غذای اصلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Britons often say \"lovely, thanks\" even when food is bad. Politely saying \"I'm afraid…\" is the accepted way to complain.",
+    "fa": "با I'm afraid… مؤدبانه شکایت کنید."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sophie",
+   "text": "I'm so sorry about that. We're short-staffed tonight. Let me take it back and get the chef to cook you another one.",
+   "translations": {
+    "fa": "خیلی متأسفم. امشب کارکنان کم داریم. بذارید ببرمش و بگم سرآشپز یکی دیگه براتون بپزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "second",
+      "thank"
+     ],
+     "suggestion": "Thank you. But this is the second time it's happened.",
+     "suggestionFa": "ممنون. ولی این دومین باره که اتفاق میفته.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "running",
+      "that's",
+      "we're",
+      "kind"
+     ],
+     "suggestion": "That's kind, but we're running out of time.",
+     "suggestionFa": "لطف دارید، ولی وقتمون داره تموم میشه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "short-staffed",
+     "fa": "کم‌نیرو"
+    },
+    {
+     "word": "take it back",
+     "fa": "برگرداندن"
+    },
+    {
+     "word": "running out of time",
+     "fa": "وقت تمام شدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sophie",
+   "text": "I completely understand. Would you like me to take the steak off the bill?",
+   "translations": {
+    "fa": "کاملاً می‌فهمم. می‌خواید استیک را از صورت‌حساب حذف کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appreciate",
+      "manager",
+      "please",
+      "speak"
+     ],
+     "suggestion": "I appreciate that, but could I speak to the manager, please?",
+     "suggestionFa": "ممنونم، ولی می‌تونم با مدیر صحبت کنم لطفاً؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understanding",
+      "being",
+      "would",
+      "thank"
+     ],
+     "suggestion": "That would be fair. Thank you for being so understanding.",
+     "suggestionFa": "منصفانه‌ست. ممنون که این‌قدر درک می‌کنید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take off the bill",
+     "fa": "از صورت‌حساب حذف کردن"
+    },
+    {
+     "word": "appreciate",
+     "fa": "قدردانی کردن"
+    },
+    {
+     "word": "manager",
+     "fa": "مدیر"
+    },
+    {
+     "word": "understanding",
+     "fa": "باملاحظه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sophie",
+   "text": "Of course. I'll fetch her now. And for what it's worth, you're right to say something — we'd rather know than have you leave unhappy.",
+   "translations": {
+    "fa": "حتماً. الان صداش می‌کنم. و هر چی که باشه، حق دارید چیزی بگید — ترجیح می‌دیم بدونیم تا اینکه ناراضی برید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "sophie",
+      "fault",
+      "all"
+     ],
+     "suggestion": "Thanks, Sophie. It's not your fault at all.",
+     "suggestionFa": "ممنون سوفی. اصلاً تقصیر شما نیست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "mention",
+      "you've",
+      "i'll"
+     ],
+     "suggestion": "I'll mention how helpful you've been.",
+     "suggestionFa": "می‌گم چقدر کمک کردید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fetch",
+     "fa": "آوردن"
+    },
+    {
+     "word": "for what it's worth",
+     "fa": "هر ارزشی که دارد"
+    },
+    {
+     "word": "rather know",
+     "fa": "ترجیح دادن دانستن"
+    },
+    {
+     "word": "fault",
+     "fa": "تقصیر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "That's really kind. She'll probably offer you a free dessert. I'd go for the sticky toffee pudding — it's the one thing tonight that's definitely on time!",
+   "translations": {
+    "fa": "خیلی لطف دارید. احتمالاً یه دسر مجانی بهتون پیشنهاد می‌ده. من پودینگ تافی چسبناک را انتخاب می‌کنم — تنها چیزیه که امشب قطعاً به موقع میاد!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

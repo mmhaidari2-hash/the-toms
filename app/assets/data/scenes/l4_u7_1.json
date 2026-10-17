@@ -1,0 +1,243 @@
+{
+ "id": "l4_u7_1",
+ "characterId": "patel",
+ "title": "Concerns about Ryan",
+ "titleFa": "نگرانی دربارهٔ رایان",
+ "setting": "Education · Level 4",
+ "settingFa": "آموزش",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "patel",
+   "text": "Thank you for coming in. I'll be frank — Ryan's mock results were disappointing. If he'd revised properly, he'd be on track for top grades.",
+   "translations": {
+    "fa": "ممنون که اومدید. رک می‌گم — نتایج امتحان آزمایشی رایان ناامیدکننده بود. اگه درست مرور کرده بود، الان تو مسیر نمره‌های عالی بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "subjects",
+      "concern",
+      "which",
+      "main"
+     ],
+     "suggestion": "I see. Which subjects are the main concern?",
+     "suggestionFa": "متوجهم. نگرانی اصلی کدوم درس‌هاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surprising",
+      "working",
+      "that's",
+      "seemed"
+     ],
+     "suggestion": "That's surprising. He seemed to be working hard.",
+     "suggestionFa": "تعجب‌آوره. به نظر می‌رسید سخت کار می‌کنه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "frank",
+     "fa": "رک"
+    },
+    {
+     "word": "mock results",
+     "fa": "نتایج امتحان آزمایشی"
+    },
+    {
+     "word": "disappointing",
+     "fa": "ناامیدکننده"
+    },
+    {
+     "word": "revised",
+     "fa": "مرور کرد"
+    },
+    {
+     "word": "on track",
+     "fa": "در مسیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Mocks\" are practice exams taken a few months before real GCSEs or A levels. \"Revise\" (UK) = \"review/study\" (US).",
+    "fa": "mocks امتحان آزمایشی است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "patel",
+   "text": "Mainly maths and French. To be fair, he's brilliant in computing. If French were taught more practically, he'd probably be more engaged.",
+   "translations": {
+    "fa": "بیشتر ریاضی و فرانسوی. انصافاً، تو کامپیوتر عالیه. اگه فرانسوی کاربردی‌تر تدریس می‌شد، احتمالاً بیشتر درگیر می‌شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "available",
+      "support",
+      "extra",
+      "maths"
+     ],
+     "suggestion": "Is there any extra support available for maths?",
+     "suggestionFa": "پشتیبانی اضافه‌ای برای ریاضی هست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "staying",
+      "helped",
+      "hasn't",
+      "gaming"
+     ],
+     "suggestion": "He's been staying up late gaming, which hasn't helped.",
+     "suggestionFa": "تا دیروقت بازی می‌کنه، که کمکی نکرده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "to be fair",
+     "fa": "انصافاً"
+    },
+    {
+     "word": "practically",
+     "fa": "کاربردی"
+    },
+    {
+     "word": "engaged",
+     "fa": "درگیر/علاقه‌مند"
+    },
+    {
+     "word": "staying up late",
+     "fa": "تا دیروقت بیدار ماندن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "patel",
+   "text": "There's a free maths clinic on Tuesdays after school. And honestly, if he weren't so tired, he'd concentrate better. Screens off by ten would help.",
+   "translations": {
+    "fa": "سه‌شنبه‌ها بعد از مدرسه یه کلاس رفع اشکال رایگان ریاضی هست. و راستش، اگه این‌قدر خسته نبود، بهتر تمرکز می‌کرد. خاموش کردن صفحه‌ها تا ساعت ده کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "screen",
+      "curfew",
+      "leslie",
+      "about"
+     ],
+     "suggestion": "I'll talk to Leslie and Tom about a screen curfew.",
+     "suggestionFa": "با لزلی و تام دربارهٔ ممنوعیت شبانهٔ صفحه حرف می‌زنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "won't",
+      "right",
+      "like",
+      "but"
+     ],
+     "suggestion": "He won't like it, but you're right.",
+     "suggestionFa": "خوشش نمیاد، ولی حق با شماست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "maths clinic",
+     "fa": "کلاس رفع اشکال ریاضی"
+    },
+    {
+     "word": "concentrate",
+     "fa": "تمرکز کردن"
+    },
+    {
+     "word": "screen curfew",
+     "fa": "ممنوعیت شبانهٔ صفحه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "patel",
+   "text": "The good news is there's still time. If he'd left it until spring, I'd be much more worried. Let's set up a review in six weeks.",
+   "translations": {
+    "fa": "خبر خوب اینه که هنوز وقت هست. اگه تا بهار ول کرده بود، خیلی بیشتر نگران می‌شدم. بیاید شش هفته دیگه یه بازبینی بذاریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "should",
+      "there",
+      "good"
+     ],
+     "suggestion": "That sounds like a good plan. Should Ryan be there?",
+     "suggestionFa": "برنامهٔ خوبیه. رایان هم باید باشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fortnight",
+      "progress",
+      "email",
+      "could"
+     ],
+     "suggestion": "Could you email us his progress every fortnight?",
+     "suggestionFa": "می‌تونید هر دو هفته پیشرفتش را برامون ایمیل کنید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "left it until",
+     "fa": "تا … عقب انداخت"
+    },
+    {
+     "word": "review",
+     "fa": "بازبینی"
+    },
+    {
+     "word": "fortnight",
+     "fa": "دو هفته"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Fortnight\" (two weeks) is common in British English but rare in American English.",
+    "fa": "fortnight یعنی دو هفته."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "patel",
+   "text": "Absolutely — he needs to own it. He's a bright lad. He just needs to realise that the effort he puts in now will shape the next few years.",
+   "translations": {
+    "fa": "قطعاً — باید مسئولیتش را بپذیره. پسر باهوشیه. فقط باید بفهمه تلاشی که الان می‌کنه چند سال آینده را شکل می‌ده."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

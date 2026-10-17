@@ -1,0 +1,243 @@
+{
+ "id": "l4_u6_3",
+ "characterId": "tom",
+ "title": "Should I invest?",
+ "titleFa": "سرمایه‌گذاری کنم؟",
+ "setting": "Money matters · Level 4",
+ "settingFa": "امور مالی",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Al keeps telling me I should put my savings into shares. I'm not convinced. What's your take?",
+   "translations": {
+    "fa": "ال مدام بهم می‌گه پس‌اندازم را تو سهام بذارم. قانع نشدم. نظر تو چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accounts",
+      "savings",
+      "usually",
+      "upside"
+     ],
+     "suggestion": "The upside is that shares usually grow more than savings accounts over time.",
+     "suggestionFa": "مزیتش اینه که سهام معمولاً در طول زمان از حساب پس‌انداز بیشتر رشد می‌کنه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "untouched",
+      "depends",
+      "leave",
+      "think"
+     ],
+     "suggestion": "I think it depends on how long you can leave the money untouched.",
+     "suggestionFa": "فکر کنم بستگی داره چقدر می‌تونی پول را دست‌نخورده بذاری.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "savings",
+     "fa": "پس‌انداز"
+    },
+    {
+     "word": "shares",
+     "fa": "سهام"
+    },
+    {
+     "word": "convinced",
+     "fa": "قانع"
+    },
+    {
+     "word": "take",
+     "fa": "نظر"
+    },
+    {
+     "word": "upside",
+     "fa": "مزیت"
+    },
+    {
+     "word": "untouched",
+     "fa": "دست‌نخورده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Right. The downside is I could lose money. And with two kids, I can't afford to gamble.",
+   "translations": {
+    "fa": "درسته. ایرادش اینه که ممکنه پول از دست بدم. و با دوتا بچه، نمی‌تونم ریسک کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "emergency",
+      "sensible",
+      "that's",
+      "should"
+     ],
+     "suggestion": "That's sensible. You should keep an emergency fund first.",
+     "suggestionFa": "منطقیه. اول باید یه صندوق اضطراری نگه داری.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "investing",
+      "gambling",
+      "though",
+      "isn't"
+     ],
+     "suggestion": "Investing isn't quite the same as gambling, though.",
+     "suggestionFa": "ولی سرمایه‌گذاری دقیقاً مثل قمار نیست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "downside",
+     "fa": "عیب"
+    },
+    {
+     "word": "gamble",
+     "fa": "قمار کردن"
+    },
+    {
+     "word": "emergency fund",
+     "fa": "پول اضطراری"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Fair. Leslie says we should have at least three months of bills saved before we even think about it.",
+   "translations": {
+    "fa": "منصفانه. لزلی می‌گه قبل از اینکه حتی بهش فکر کنیم، باید حداقل سه ماه قبض پس‌انداز داشته باشیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie's",
+      "stocks",
+      "shares",
+      "right"
+     ],
+     "suggestion": "Leslie's right. Then maybe a stocks and shares ISA?",
+     "suggestionFa": "حق با لزلیه. بعد شاید یه ISA سهام؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "already",
+      "saved",
+      "much",
+      "have"
+     ],
+     "suggestion": "Do you have that much saved already?",
+     "suggestionFa": "این‌قدر پس‌انداز داری؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at least",
+     "fa": "حداقل"
+    },
+    {
+     "word": "ISA",
+     "fa": "حساب پس‌انداز معاف از مالیات"
+    }
+   ],
+   "cultureNote": {
+    "en": "An ISA (Individual Savings Account) lets UK residents save or invest up to £20,000 a year without paying tax on the interest or gains.",
+    "fa": "ISA حساب پس‌انداز معاف از مالیات است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Just about. An ISA would be tax-free, which is a big plus. But I'd want something low-risk — no crypto nonsense.",
+   "translations": {
+    "fa": "تقریباً. یه ISA معاف از مالیاته، که مزیت بزرگیه. ولی یه چیز کم‌ریسک می‌خوام — از این چرندیات رمزارز نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "companies",
+      "spread",
+      "across",
+      "global"
+     ],
+     "suggestion": "A global index fund might suit you — it's spread across lots of companies.",
+     "suggestionFa": "یه صندوق شاخص جهانی شاید مناسبت باشه — بین کلی شرکت پخش شده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "independent",
+      "financial",
+      "adviser",
+      "speak"
+     ],
+     "suggestion": "Maybe speak to an independent financial adviser first.",
+     "suggestionFa": "شاید اول با یه مشاور مالی مستقل صحبت کنی.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tax-free",
+     "fa": "معاف از مالیات"
+    },
+    {
+     "word": "plus",
+     "fa": "مزیت"
+    },
+    {
+     "word": "low-risk",
+     "fa": "کم‌ریسک"
+    },
+    {
+     "word": "index fund",
+     "fa": "صندوق شاخص"
+    },
+    {
+     "word": "independent financial adviser",
+     "fa": "مشاور مالی مستقل"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Spread across lots — makes sense. Don't put all your eggs in one basket, as my dad would say. Right, I'll book an adviser. And Al can stop going on about Bitcoin.",
+   "translations": {
+    "fa": "بین کلی پخش شده — منطقیه. همهٔ تخم‌مرغ‌هات را تو یه سبد نذار، به قول بابام. خب، با یه مشاور وقت می‌ذارم. و ال هم دیگه می‌تونه دربارهٔ بیت‌کوین غر نزنه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

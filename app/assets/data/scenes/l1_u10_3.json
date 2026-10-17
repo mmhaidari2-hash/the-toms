@@ -32,9 +32,9 @@
     {
      "keywords": [
       "seven",
-      "wow",
       "now",
-      "big"
+      "big",
+      "wow"
      ],
      "suggestion": "Wow, seven! You're so big now!",
      "suggestionFa": "وای، هفت! حالا خیلی بزرگ شدی!",
@@ -137,10 +137,10 @@
     },
     {
      "keywords": [
-      "make",
-      "wish",
       "then",
-      "blow"
+      "make",
+      "blow",
+      "wish"
      ],
      "suggestion": "Make a wish, then blow!",
      "suggestionFa": "آرزو کن، بعد فوت کن!",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "secret",
-      "good",
       "keep",
+      "good",
       "idea"
      ],
      "suggestion": "Good idea. Keep it secret!",
@@ -272,8 +272,8 @@
    "branches": [
     {
      "keywords": [
-      "like",
-      "glad"
+      "glad",
+      "like"
      ],
      "suggestion": "I'm glad you like it.",
      "suggestionFa": "خوشحالم که دوستش داری.",

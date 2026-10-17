@@ -20,8 +20,8 @@
     {
      "keywords": [
       "evening",
-      "good",
       "have",
+      "good",
       "we"
      ],
      "suggestion": "Good evening. Yes, we have.",
@@ -70,8 +70,8 @@
      "keywords": [
       "o'clock",
       "booked",
-      "table",
-      "seven"
+      "seven",
+      "table"
      ],
      "suggestion": "We booked a table for seven o'clock.",
      "suggestionFa": "برای ساعت هفت میز رزرو کردیم.",
@@ -160,8 +160,8 @@
     {
      "keywords": [
       "today",
-      "here",
-      "says"
+      "says",
+      "here"
      ],
      "suggestion": "Yes, here it is. It says today.",
      "suggestionFa": "بله، ایناهاش. نوشته امروز.",
@@ -206,7 +206,7 @@
       "possible",
       "that's",
       "would",
-      "fine"
+      "wait"
      ],
      "suggestion": "That's fine. Would it be possible to wait at the bar?",
      "suggestionFa": "اشکالی نداره. ممکنه کنار بار منتظر بمونیم؟",
@@ -217,8 +217,8 @@
     {
      "keywords": [
       "anything",
-      "little",
       "sooner",
+      "little",
       "we've"
      ],
      "suggestion": "We've got a little girl. Is there anything sooner?",

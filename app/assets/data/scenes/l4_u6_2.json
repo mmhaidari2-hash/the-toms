@@ -1,0 +1,245 @@
+{
+ "id": "l4_u6_2",
+ "characterId": "leslie",
+ "title": "A cost-of-living conversation",
+ "titleFa": "گفتگو دربارهٔ هزینهٔ زندگی",
+ "setting": "Money matters · Level 4",
+ "settingFa": "امور مالی",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Have you seen the price of butter? When I was your age, a weekly shop cost thirty pounds, whereas now it's more like a hundred and fifty.",
+   "translations": {
+    "fa": "قیمت کره را دیدی؟ وقتی هم‌سن تو بودم، خرید هفتگی سی پوند بود، در حالی که الان بیشتر حدود صد و پنجاه پونده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "prices",
+      "worse",
+      "back"
+     ],
+     "suggestion": "Prices have gone up everywhere. Back home it's even worse.",
+     "suggestionFa": "قیمت‌ها همه‌جا رفته بالا. تو کشور من حتی بدتره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "salaries",
+      "weren't",
+      "lower",
+      "were"
+     ],
+     "suggestion": "But salaries were much lower then, weren't they?",
+     "suggestionFa": "ولی اون موقع حقوق‌ها خیلی کمتر بود، نه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weekly shop",
+     "fa": "خرید هفتگی"
+    },
+    {
+     "word": "whereas",
+     "fa": "در حالی که"
+    },
+    {
+     "word": "gone up",
+     "fa": "بالا رفته"
+    },
+    {
+     "word": "salaries",
+     "fa": "حقوق‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "True. Wages were lower, but houses were much cheaper relative to income. My parents bought their house on one salary. That's almost impossible now.",
+   "translations": {
+    "fa": "درسته. دستمزدها کمتر بود، ولی خونه‌ها نسبت به درآمد خیلی ارزون‌تر بودن. پدر و مادرم خونه‌شون را با یه حقوق خریدن. الان تقریباً غیرممکنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "countries",
+      "that's",
+      "afford",
+      "people"
+     ],
+     "suggestion": "That's the same in a lot of countries. Young people can't afford to buy.",
+     "suggestionFa": "تو خیلی کشورها همینه. جوون‌ها توان خرید ندارن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "internet",
+      "things",
+      "didn't",
+      "other"
+     ],
+     "suggestion": "On the other hand, we have things they didn't have, like the internet.",
+     "suggestionFa": "از طرف دیگه، ما چیزهایی داریم که اونا نداشتن، مثل اینترنت.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wages",
+     "fa": "دستمزد"
+    },
+    {
+     "word": "relative to",
+     "fa": "نسبت به"
+    },
+    {
+     "word": "income",
+     "fa": "درآمد"
+    },
+    {
+     "word": "afford",
+     "fa": "توان مالی داشتن"
+    },
+    {
+     "word": "on the other hand",
+     "fa": "از طرف دیگر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "That's a fair point. While some things are more expensive, others — like flights and electronics — are much cheaper.",
+   "translations": {
+    "fa": "حرف درستیه. در حالی که بعضی چیزها گرون‌ترن، بقیه — مثل بلیت هواپیما و وسایل الکترونیکی — خیلی ارزون‌ترن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "moment",
+      "coping",
+      "bills"
+     ],
+     "suggestion": "So how are you coping with the bills at the moment?",
+     "suggestionFa": "پس الان با قبض‌ها چطور کنار میاید؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "changed",
+      "shop",
+      "have"
+     ],
+     "suggestion": "Have you changed how you shop?",
+     "suggestionFa": "روش خریدت را عوض کردی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "while",
+     "fa": "در حالی که"
+    },
+    {
+     "word": "flights",
+     "fa": "پروازها"
+    },
+    {
+     "word": "electronics",
+     "fa": "وسایل الکترونیکی"
+    },
+    {
+     "word": "coping",
+     "fa": "کنار آمدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Oh, definitely. I've switched to own-brand for most things, and I batch-cook on Sundays. Whereas before, I'd just grab whatever was on the shelf.",
+   "translations": {
+    "fa": "اوه، قطعاً. برای بیشتر چیزها به برند خود فروشگاه رو آوردم، و یکشنبه‌ها یکجا غذا می‌پزم. در حالی که قبلاً هر چی رو قفسه بود برمی‌داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "started",
+      "doing",
+      "brand",
+      "pasta"
+     ],
+     "suggestion": "I've started doing that too. Own-brand pasta is just as good.",
+     "suggestionFa": "من هم شروع کردم. ماکارونی برند فروشگاه همون‌قدر خوبه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cooking",
+      "great",
+      "teach",
+      "could"
+     ],
+     "suggestion": "Batch-cooking is a great idea. Could you teach me?",
+     "suggestionFa": "پختن یکجا فکر عالیه. می‌تونی یادم بدی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "switched",
+     "fa": "تغییر داد"
+    },
+    {
+     "word": "own-brand",
+     "fa": "برند خود فروشگاه"
+    },
+    {
+     "word": "batch-cook",
+     "fa": "یکجا پختن"
+    },
+    {
+     "word": "grab",
+     "fa": "برداشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Supermarket \"own-brand\" products are often much cheaper than big brands and made in the same factories.",
+    "fa": "محصولات برند فروشگاه ارزان‌ترند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Course I will. Sunday, two o'clock — bring a big pot and an appetite. We'll make enough chilli to feed an army.",
+   "translations": {
+    "fa": "معلومه که یادت می‌دم. یکشنبه، ساعت دو — یه قابلمهٔ بزرگ و اشتها بیار. اون‌قدر چیلی درست می‌کنیم که یه لشکر را سیر کنه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
