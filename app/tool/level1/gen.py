@@ -9,7 +9,7 @@ def kws(mine,other):
   if u: return u
   allw=lambda x: re.sub(r"[^a-z' ]"," ",x.lower().replace('{you}',' ')).split()
   o2=set(allw(other)); u=[w for w in allw(mine) if w not in o2]
-  if not u: raise SystemExit(f'reply is a subset of its sibling: {mine!r} vs {other!r}')
+  if not u: raise ValueError(f'reply is a subset of its sibling: {mine!r} vs {other!r}')
   return u[:3]
 def words(s):
   out=[]
@@ -56,7 +56,9 @@ for ui,u in enumerate(units):
       R=n['replies']
       for j,(s,sf) in enumerate(R):
         other=' '.join(x[0] for k,x in enumerate(R) if k!=j)
-        br.append({'keywords':kws(s,other),'suggestion':s,'suggestionFa':sf,'trustDelta':6-j,'next':nxt,'success':True})
+        try: kw=kws(s,other)
+        except ValueError as e: errs.append(f'{sid}/{nid} {e}'); kw=['x']
+        br.append({'keywords':kw,'suggestion':s,'suggestionFa':sf,'trustDelta':6-j,'next':nxt,'success':True})
       if nxt and not br: errs.append(f'{sid}/{nid} has no replies but is not last')
       d={'id':nid,'speaker':n['speaker'],'text':n['text'],'translations':{'fa':n['fa']},'branches':br,'newWords':n['words']}
       if n['culture']: d['cultureNote']=n['culture']
