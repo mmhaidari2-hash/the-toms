@@ -1,0 +1,153 @@
+## U140 | Hotel and B&B | هتل و پانسیون | restaurant | Check in and out, ask what's included, complain about a room politely and settle the bill | پذیرش و تسویه کنی، بپرسی چه چیزهایی شامل است، مؤدبانه دربارهٔ اتاق شکایت کنی و صورت‌حساب را بپردازی
+
+# l2_u52_1 | sophie | Checking in | پذیرش | I've got a booking under… / Is the room ready? / What time is…? / Where can I park? | به اسم … رزرو دارم / اتاق آماده است؟ / ساعت چند …؟ / کجا پارک کنم؟ | restaurant
+sophie: Welcome to Seaview B&B! Oh my gosh — it's you! The Copper Kettle regular! My auntie owns this place. I help in the summer. | به پانسیون سی‌ویو خوش اومدید! وای خدای من — تویی! مشتری همیشگی کاپر کتل! خاله‌ام صاحب اینجاست. تابستون‌ها کمک می‌کنم.
+> Sophie! What a surprise! | سوفی! چه غافلگیری‌ای!
+> Hello! I didn't know you worked in Brighton. | سلام! نمی‌دونستم تو برایتون کار می‌کنی.
+W: B&B=پانسیون (اقامت و صبحانه) ; regular=مشتری همیشگی ; auntie=خاله ؛ عمه ; owns=صاحب است
+sophie: Small world! Right, let me be professional. Good afternoon, sir. Have you got a booking? | دنیا کوچیکه! خب، بذار حرفه‌ای باشم. عصر بخیر قربان. رزرو دارید؟
+> Yes. I've got a booking under Thompson. Two rooms. | بله. به اسم تامپسون رزرو دارم. دو تا اتاق.
+> Yes, for three nights. The name is Thompson. | بله، برای سه شب. اسم تامپسونه.
+W: small world=دنیا کوچک است ; professional=حرفه‌ای ; booking=رزرو ; under=به اسم
+X: i have booking on thompson ; i've got a booking with name thompson => A booking under Thompson? Here it is! | I've got a booking under Thompson. | به اسم تامپسون رزرو دارم.
+C: B&B means "bed and breakfast": a small guesthouse, often a family home, where breakfast is included. | B&B یعنی «تخت و صبحانه»: مهمان‌خانه‌ای کوچک، اغلب خانوادگی، با صبحانه.
+sophie: Thompson… yes! A family room for Tom and Leslie and the kids, and a single for you. Three nights. Is that right? | تامپسون… آره! یه اتاق خانوادگی برای تام و لزلی و بچه‌ها، و یه یک‌نفره برای تو. سه شب. درسته؟
+> That's right. Is the room ready? | درسته. اتاق آماده‌ست؟
+> Yes. The family is parking the car. | بله. خانواده دارن ماشین را پارک می‌کنن.
+W: family room=اتاق خانوادگی ; single=اتاق یک‌نفره ; nights=شب‌ها ; ready=آماده
+sophie: Check-in is from three, but your rooms are ready now. Lucky! Where are they parking? The street outside is permit only. | پذیرش از ساعت سه‌ست، ولی اتاق‌هاتون الان آماده‌ست. خوش‌شانسید! کجا دارن پارک می‌کنن؟ خیابون بیرون فقط با مجوزه.
+> Oh no. Where can we park? | وای نه. کجا می‌تونیم پارک کنیم؟
+> Permit only? Tom won't be happy! | فقط با مجوز؟ تام خوشحال نمیشه!
+W: check-in=پذیرش (ورود به هتل) ; from three=از ساعت سه ; outside=بیرون ; permit only=فقط با مجوز
+sophie: Don't worry — we've got two spaces at the back. Here's a parking permit for the dashboard. Tell Tom: round the corner, first left. | نگران نباش — دو تا جای پارک پشت ساختمون داریم. اینم مجوز پارک برای داشبورد. به تام بگو: سر نبش، اولین چپ.
+> Thank you. I'll take it to him now. | ممنون. الان براش می‌برمش.
+> Round the corner, first left. Got it. | سر نبش، اولین چپ. فهمیدم.
+W: spaces=جاها ; at the back=پشت ; dashboard=داشبورد ; round the corner=سر نبش
+sophie: Perfect. Your room is number seven, top floor. Sorry, no lift! But you can see the sea from the window. Here's your key. | عالی. اتاقت شمارهٔ هفته، طبقهٔ آخر. ببخشید، آسانسور نداریم! ولی از پنجره دریا را می‌بینی. اینم کلیدت.
+> A sea view! Lovely. What time is breakfast? | منظرهٔ دریا! عالی. صبحانه ساعت چنده؟
+> Is there Wi-Fi in the room? | تو اتاق وای‌فای هست؟
+W: top floor=طبقهٔ آخر ; lift=آسانسور ; sea=دریا ; key=کلید ; view=منظره
+sophie: Breakfast is from eight till ten. Wi-Fi password's on the key ring — "seagull123". Very secure! Front door locks at eleven. | صبحانه از هشت تا دهه. رمز وای‌فای رو جاکلیدیه — «seagull123». خیلی امن! در جلو ساعت یازده قفل میشه.
+> Eleven? What if we come back late? | یازده؟ اگه دیر برگشتیم چی؟
+> Seagull123! Ha! Thank you, Sophie. | سی‌گال۱۲۳! ها! ممنون سوفی.
+W: password=رمز عبور ; key ring=جاکلیدی ; secure=امن ; locks=قفل می‌شود ; late=دیر
+sophie: Your key opens the front door too. Quiet on the stairs — Mr Hobbs in room three is ninety-one and sleeps lightly. Enjoy Brighton! | کلیدت در جلو را هم باز می‌کنه. فقط رو پله‌ها ساکت باش — آقای هابز تو اتاق سه نود و یک سالشه و خوابش سبکه. از برایتون لذت ببر!
+
+# l2_u52_2 | sophie | Breakfast included? | صبحانه شامل است؟ | Is breakfast included? / Could I have…? / How would you like…? / Is there any more…? | صبحانه شامل است؟ / می‌شود … داشته باشم؟ / … را چطور می‌خواهید؟ / باز هم … هست؟ | restaurant
+sophie: Morning! Sleep well? Sit anywhere. Here's the menu. What can I get you? | صبح بخیر! خوب خوابیدی؟ هر جا خواستی بشین. اینم منو. چی برات بیارم؟
+> Morning. Sorry — is breakfast included? | صبح بخیر. ببخشید — صبحانه شامله؟
+> I slept very well. The sea is so quiet. | خیلی خوب خوابیدم. دریا خیلی آرومه.
+W: sleep well=خوب خوابیدن ; anywhere=هر جا ; menu=منو ; included=شامل
+sophie: It's included, yes. B&B — bed AND breakfast! Full English, veggie English, or continental. Tea or coffee? | شامله، آره. پانسیون — تخت و صبحانه! انگلیسی کامل، انگلیسی گیاهی، یا قاره‌ای. چای یا قهوه؟
+> What's the difference? | فرقشون چیه؟
+> Tea, please. And a full English. | چای لطفاً. و یه انگلیسی کامل.
+W: full English=صبحانهٔ کامل انگلیسی ; veggie=گیاهی ; continental=صبحانهٔ قاره‌ای (سبک) ; difference=تفاوت
+X: is included the breakfast ; breakfast is include? => Is breakfast included? Yes! | Is breakfast included? | صبحانه شامل است؟
+C: A "full English" is a cooked breakfast: eggs, bacon, sausage, beans, tomato, mushrooms and toast. "Continental" is cold: croissants, cereal, fruit, yoghurt. | «Full English» صبحانهٔ پخته است؛ «continental» سرد و سبک است.
+sophie: Full English: eggs, bacon, sausage, beans, mushrooms, tomato, toast. Continental: croissants, fruit, yoghurt. The bacon's pork. | انگلیسی کامل: تخم‌مرغ، بیکن، سوسیس، لوبیا، قارچ، گوجه، نون تست. قاره‌ای: کروسان، میوه، ماست. بیکن خوکه.
+> Could I have it without the bacon and sausage? | میشه بدون بیکن و سوسیس داشته باشم؟
+> The veggie one, please. With extra mushrooms. | گیاهیش لطفاً. با قارچ اضافه.
+W: mushrooms=قارچ‌ها ; beans=لوبیا ; croissants=کروسان‌ها ; yoghurt=ماست ; pork=گوشت خوک
+sophie: Course! Veggie sausages instead? They're actually nice. And how would you like your eggs? Fried, scrambled or poached? | حتماً! به‌جاش سوسیس گیاهی؟ راستش خوبن. و تخم‌مرغت را چطوری می‌خوای؟ نیمرو، همزده یا آب‌پز بی‌پوست؟
+> Scrambled, please. | همزده لطفاً.
+> What's "poached"? | «پوچد» چیه؟
+W: instead=به جای آن ; fried=نیمرو ؛ سرخ‌شده ; scrambled=همزده ; poached=آب‌پز بدون پوست
+sophie: Cracked into hot water. Very fancy. Auntie's are the best in Sussex! Coming up. Oh, here's the family. Hi, Nicola! | تو آب داغ شکسته میشه. خیلی شیک. مال خاله‌ام بهترین ساسکسه! الان میارم. اوه، خانواده اومدن. سلام نیکولا!
+> Hi, Nicola! Did you sleep well? | سلام نیکولا! خوب خوابیدی؟
+> Nicola, sit next to me. | نیکولا، بیا کنار من بشین.
+W: next to=کنار
+nicola: Sophie! Can I have pancakes? And chocolate? And pancakes with chocolate? | سوفی! میشه پنکیک بخورم؟ و شکلات؟ و پنکیک با شکلات؟
+> Nicola, look at the menu first. | نیکولا، اول منو را ببین.
+> Are there pancakes on the menu? | پنکیک تو منو هست؟
+W: cracked=شکسته شد ; fancy=شیک ؛ مجلل ; coming up=الان آماده می‌شود ; pancakes=پنکیک‌ها
+sophie: Pancakes are Sundays only, sweetie. But we've got toast with chocolate spread. Deal? | پنکیک فقط یکشنبه‌هاست عزیزم. ولی نون تست با شکلات صبحانه داریم. قبول؟
+> That's a good deal, Nicola. | معاملهٔ خوبیه نیکولا.
+> Sophie, is there any more tea, please? | سوفی، باز هم چای هست لطفاً؟
+W: Sundays only=فقط یکشنبه‌ها ; sweetie=عزیزم ; chocolate spread=شکلات صبحانه ; deal=قبول ؛ معامله
+sophie: Always more tea in this house! Fresh pot. And remember — breakfast finishes at ten. Tom's still asleep, I see! | تو این خونه همیشه چای بیشتر هست! یه قوری تازه. و یادت باشه — صبحانه ساعت ده تموم میشه. می‌بینم تام هنوز خوابه!
+> I'll wake him up! He'd hate to miss a full English. | بیدارش می‌کنم! از دست دادن صبحانهٔ کامل را دوست نداره.
+> It's nine forty-five! I'll call him. | ساعت نه و چهل و پنجه! بهش زنگ می‌زنم.
+W: fresh=تازه ; pot=قوری ; finishes=تمام می‌شود ; asleep=خواب ; miss=از دست دادن
+sophie: Run! If Tom misses the sausages, we'll never hear the end of it. I'll save him a plate. Just this once! | بدو! اگه تام سوسیس‌ها را از دست بده، تا آخر عمر غرش را می‌شنویم. یه بشقاب براش نگه می‌دارم. فقط همین یه بار!
+
+# l2_u52_3 | tom | The room's too noisy | اتاق خیلی پرسروصداست | I'm afraid there's a problem with… / It's too… / Would it be possible to…? / That would be great | متأسفانه … مشکل دارد / خیلی … است / ممکن است …؟ / عالی می‌شود | restaurant
+tom: I didn't sleep a wink. Our room's above the bar next door. Music till two a.m. Karaoke! Someone sang "Wonderwall" four times. | یه لحظه هم نخوابیدم. اتاقمون بالای بار بغلیه. موسیقی تا دو صبح. کارائوکه! یکی چهار بار «واندروال» خوند.
+> Four times! That's terrible. | چهار بار! افتضاحه.
+> Did the kids sleep? | بچه‌ها خوابیدن؟
+W: didn't sleep a wink=یک لحظه هم نخوابیدم ; above=بالای ; bar=بار ; next door=کناری ; sang=خواند
+tom: The kids? Like logs. Leslie wore earplugs. Me — I lay there humming Oasis. I need to say something to Sophie. But nicely. | بچه‌ها؟ مثل کُنده. لزلی گوش‌گیر گذاشت. من — دراز کشیده بودم و آهنگ اوئیسیس زمزمه می‌کردم. باید یه چیزی به سوفی بگم. ولی مؤدبانه.
+> Say: "I'm afraid there's a problem with our room." | بگو: «متأسفانه اتاقمون مشکل داره.»
+> I'll come with you. | باهات میام.
+W: like logs=مثل کنده (عمیق) ; earplugs=گوش‌گیر ; humming=زمزمه کردن ; nicely=مؤدبانه
+C: British people often start a complaint with "I'm afraid…" or "Sorry to bother you, but…", then explain and ask for a solution. | بریتانیایی‌ها اغلب شکایت را با «I'm afraid» یا «Sorry to bother you» شروع می‌کنند.
+tom: Good. "I'm afraid there's a problem…" Sophie! Morning. Sorry to bother you. I'm afraid our room is a bit… noisy. | خوبه. «متأسفانه یه مشکلی…» سوفی! صبح بخیر. ببخشید مزاحم میشم. متأسفانه اتاقمون یه کم… پرسروصداست.
+> Well done, Tom. Very polite. | آفرین تام. خیلی مؤدبانه.
+> Tell her about the karaoke. | دربارهٔ کارائوکه بهش بگو.
+W: polite=مؤدب
+sophie: Oh no — is it the karaoke? I'm so sorry! It's every Friday. Auntie hates it too. What can we do for you? | وای نه — کارائوکه‌ست؟ خیلی متأسفم! هر جمعه‌ست. خاله‌ام هم ازش متنفره. چه کاری می‌تونیم براتون بکنیم؟
+> Would it be possible to change rooms? | ممکنه اتاق عوض کنیم؟
+> Tom couldn't sleep. Is there a quieter room? | تام نتونست بخوابه. اتاق آروم‌تری هست؟
+W: bother=مزاحم شدن ; noisy=پر سروصدا ; karaoke=کارائوکه ; quieter=آرام‌تر
+X: would it be possible change room ; would be possible to changing => Would it be possible to change rooms? Let me check. | Would it be possible to change rooms? | ممکن است اتاق را عوض کنیم؟
+sophie: Let me check… Yes! Room five is free tonight. It's at the back, over the garden. Quiet as a church. But it's a bit smaller. | بذار ببینم… آره! اتاق پنج امشب خالیه. پشت ساختمونه، رو به باغ. ساکت مثل کلیسا. ولی یه کم کوچیک‌تره.
+> Smaller is OK. Tom, what do you think? | کوچیک‌تر اشکالی نداره. تام، نظرت چیه؟
+> A quiet room at the back. Perfect! | یه اتاق آروم پشت ساختمون. عالیه!
+W: quiet as a church=خیلی ساکت
+tom: Smaller is fine. Quiet is everything. That would be great, Sophie. Thank you. | کوچیک‌تر اشکالی نداره. سکوت یعنی همه‌چی. عالی میشه سوفی. ممنون.
+> Can the kids still sleep together in room five? | بچه‌ها هنوز می‌تونن تو اتاق پنج با هم بخوابن؟
+> Thank you, Sophie. That's very kind. | ممنون سوفی. خیلی لطف داری.
+W: free=خالی ; at the back=پشت ; garden=باغ ; smaller=کوچک‌تر ; everything=همه چیز
+sophie: Yes — there's a bunk bed. Nicola will fight William for the top! And because of last night, your dinner tonight is on the house. | آره — یه تخت دوطبقه هست. نیکولا با ویلیام سر طبقهٔ بالا دعوا می‌کنه! و به‌خاطر دیشب، شام امشبتون مهمون ماست.
+> Free dinner! Thank you, Sophie. | شام مجانی! ممنون سوفی.
+> You don't have to do that. | لازم نیست این کار را بکنی.
+W: have to=مجبور بودن
+tom: Free dinner? Sophie, you're a star. See? That's how you complain. Polite, and you get dinner! | شام مجانی؟ سوفی، تو یه ستاره‌ای. دیدی؟ اینجوری شکایت می‌کنن. مؤدبانه، و شام می‌گیری!
+> I'm learning from the best! | دارم از بهترین یاد می‌گیرم!
+> In Iran, we would shout a bit more! | تو ایران، یه کم بیشتر داد می‌زدیم!
+W: bunk bed=تخت دوطبقه ; fight=دعوا کردن ; on the house=مهمان ما ؛ مجانی ; star=ستاره ؛ عالی
+tom: Shouting doesn't work here. Smile, say sorry, and they give you more. Strange country. Right — I'm moving our bags. Then a nap. | داد زدن اینجا جواب نمیده. لبخند بزن، عذرخواهی کن، و بیشتر بهت میدن. کشور عجیبیه. خب — کیف‌هامون را جابه‌جا می‌کنم. بعد یه چرت.
+> Sleep well, Tom. No Wonderwall! | خوب بخوابی تام. بدون واندروال!
+> Shall I help you carry the bags? | کمکت کنم کیف‌ها را ببری؟
+W: shouting=داد زدن ; smile=لبخند زدن ; strange=عجیب ; bags=کیف‌ها ; nap=چرت
+tom: Help with the bags, yes. And if you hear Wonderwall tonight, wake me up. I'll go and sing it properly. | کمک با کیف‌ها، آره. و اگه امشب واندروال شنیدی، بیدارم کن. میرم درست‌حسابی می‌خونمش.
+
+# l2_u52_4 | leslie | Checking out | تسویه و خروج | We'd like to check out / Could we have the bill? / Can we leave our bags…? / We'll definitely come back | می‌خواهیم تسویه کنیم / می‌شود صورت‌حساب را بدهید؟ / می‌توانیم کیف‌هایمان را … بگذاریم؟ / حتماً برمی‌گردیم | restaurant
+leslie: Last morning! Sad. Can you help me check out? Tom's packing the car — badly. Sophie's at the desk. | آخرین صبح! غمگینه. کمکم می‌کنی تسویه کنیم؟ تام داره ماشین را می‌چینه — بد. سوفی پشت میزه.
+> Sure. Good morning, Sophie. We'd like to check out. | حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم.
+> What time do we have to leave the rooms? | ساعت چند باید اتاق‌ها را خالی کنیم؟
+W: last=آخرین ; check out=تسویه و خروج ; packing=جمع کردن ؛ چیدن بار ; desk=میز پذیرش
+sophie: Morning! Check-out is at eleven, so no rush. Here's your bill. Three nights, two rooms. One dinner — free, of course. | صبح بخیر! تسویه ساعت یازده‌ست، پس عجله‌ای نیست. اینم صورت‌حسابتون. سه شب، دو اتاق. یه شام — البته مجانی.
+> Thank you. Leslie, can you check the bill? | ممنون. لزلی، میشه صورت‌حساب را چک کنی؟
+> Three nights. That was quick! | سه شب. چه زود گذشت!
+W: quick=سریع
+leslie: Let me look… Three hundred and ninety pounds. Ah — what's this? "Minibar, eight pounds"? We didn't use the minibar. | ببینم… سیصد و نود پوند. آه — این چیه؟ «مینی‌بار، هشت پوند»؟ ما از مینی‌بار استفاده نکردیم.
+> Could you check the minibar charge, please? | میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟
+> Maybe Ryan? He loves snacks! | شاید رایان؟ عاشق خوراکیه!
+W: no rush=عجله‌ای نیست ; bill=صورت‌حساب ; minibar=مینی‌بار ؛ یخچال کوچک اتاق ; charge=هزینه
+X: could you check for the charge ; could you checking the charge => Could you check the charge? Of course! | Could you check the minibar charge, please? | می‌شود هزینهٔ مینی‌بار را چک کنید؟
+leslie: Ryan! Of course. Ryan, did you eat anything from the little fridge? | رایان! معلومه. رایان، از یخچال کوچیکه چیزی خوردی؟
+> Ryan, come here a minute. | رایان، یه لحظه بیا اینجا.
+> He's in the car with Tom. I'll call him. | با تام تو ماشینه. صداش می‌کنم.
+W: a minute=یک لحظه
+ryan: Two Toblerones and a Coke. I thought they were free! Sorry, Mum. I'll pay you back. | دو تا تابلرون و یه کوکا. فکر کردم مجانیه! ببخشید مامان. پولش را بهت پس میدم.
+> Nothing in a minibar is free, Ryan! | هیچ‌چیز تو مینی‌بار مجانی نیست رایان!
+> Eight pounds for two Toblerones! Expensive! | هشت پوند برای دو تا تابلرون! گرونه!
+W: little fridge=یخچال کوچک ; thought=فکر کرد ; pay back=پس دادن پول ; expensive=گران
+C: In hotels, minibar drinks and snacks are usually charged to the room and added to the bill at check-out. | در هتل‌ها خوراکی‌های مینی‌بار معمولاً به حساب اتاق اضافه می‌شوند.
+leslie: Lesson learned. OK, the bill's correct. Can I pay by card? And can we leave our bags here? We want one last walk on the pier. | درس گرفتیم. باشه، صورت‌حساب درسته. می‌تونم با کارت بدم؟ و می‌تونیم کیف‌هامون را اینجا بذاریم؟ می‌خوایم یه پیاده‌روی آخر رو اسکله داشته باشیم.
+> Can I help carry the bags to the desk? | میشه کمک کنم کیف‌ها را ببرم پشت میز؟
+> The pier! Can we get ice cream? | اسکله! میشه بستنی بخوریم؟
+W: ice cream=بستنی
+sophie: Card's fine — tap here. And yes, leave the bags behind the desk till two. Enjoy the pier! Watch out for the seagulls. | کارت اشکالی نداره — اینجا بزنید. و آره، کیف‌ها را تا ساعت دو پشت میز بذارید. از اسکله لذت ببرید! مواظب مرغ‌های دریایی باشید.
+> The seagulls! I know about them. | مرغ‌های دریایی! درباره‌شون می‌دونم.
+> Thank you, Sophie. Everything was perfect. | ممنون سوفی. همه‌چی عالی بود.
+W: lesson learned=درس گرفتیم ; correct=درست ; tap=زدن (کارت) ; pier=اسکله ; behind=پشت
+leslie: Sophie, it was lovely. Your auntie's breakfast — wow. We'll definitely come back. Can I leave a review? | سوفی، عالی بود. صبحانهٔ خاله‌ات — وای. حتماً برمی‌گردیم. می‌تونم یه نظر بنویسم؟
+> Yes, let's write a review tonight. | آره، بیا امشب یه نظر بنویسیم.
+> The breakfast was the best in Brighton! | صبحانه بهترین تو برایتون بود!
+W: best=بهترین
+sophie: Yes please! It really helps small places like ours. And I'll see you all at the Copper Kettle next weekend. Usual table! | لطفاً بله! واقعاً به جاهای کوچیک مثل ما کمک می‌کنه. و آخر هفتهٔ بعد همه‌تون را تو کاپر کتل می‌بینم. میز همیشگی!
+> Five stars! Thank you for everything. | پنج ستاره! ممنون بابت همه‌چی.
+> See you next weekend, Sophie! | آخر هفتهٔ بعد می‌بینمت سوفی!
+W: definitely=حتماً ; review=نظر ؛ نقد ; small places=جاهای کوچک ; usual=همیشگی
+leslie: Five stars, and a special mention for the free dinner. Right — pier, chips, then the long drive home. Bye, Sophie! | پنج ستاره، و یه اشارهٔ ویژه به شام مجانی. خب — اسکله، چیپس، بعد رانندگی طولانی تا خونه. خداحافظ سوفی!
