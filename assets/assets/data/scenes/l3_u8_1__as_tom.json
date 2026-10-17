@@ -73,9 +73,9 @@
      "keywords": [
       "registered",
       "meanwhile",
-      "washing",
       "they're",
-      "kettle"
+      "washing",
+      "coming"
      ],
      "suggestion": "They're registered for gas work. I've rung one — he's coming at two. Meanwhile, we'll have to boil the kettle for washing.",
      "suggestionFa": "برای کار گاز ثبت شدن. به یکی زنگ زدم — ساعت دو میاد. تا اون موقع، باید برای شستشو کتری را جوش بیاریم.",
@@ -98,9 +98,9 @@
      "keywords": [
       "radiators",
       "please",
+      "going",
       "makes",
-      "noise",
-      "while"
+      "funny"
      ],
      "suggestion": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
      "suggestionFa": "آره لطفاً. و تا اینجاست، می‌خوام بدم هوای رادیاتورها را بگیرن. مال اتاق تو یه صدای عجیب می‌ده.",
@@ -124,8 +124,8 @@
       "properly",
       "checked",
       "remind",
-      "alarm",
-      "heats"
+      "heats",
+      "alarm"
      ],
      "suggestion": "You let the air out, so it heats properly. Easy. Oh — and remind me to get the smoke alarm checked too.",
      "suggestionFa": "هوا را خالی می‌کنی، تا درست گرم کنه. آسونه. آه — و یادم بنداز آژیر دود را هم بدم چک کنن.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "kettle",
       "cheers",
       "shower",
-      "kettle",
-      "can't",
-      "going"
+      "right",
+      "can't"
      ],
      "suggestion": "Cheers. Right — I'm going to put the kettle on. If we can't have a shower, at least we can have a brew!",
      "suggestionFa": "مرسی. خب — می‌رم کتری را بذارم. اگه نمی‌تونیم دوش بگیریم، حداقل می‌تونیم یه چای بخوریم!",

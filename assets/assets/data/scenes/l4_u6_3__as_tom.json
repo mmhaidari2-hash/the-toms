@@ -1,0 +1,150 @@
+{
+ "id": "l4_u6_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Should I invest?",
+ "titleFa": "(در نقش Tom) سرمایه‌گذاری کنم؟",
+ "setting": "Money matters · Level 4",
+ "settingFa": "امور مالی",
+ "requires": null,
+ "level": "B2",
+ "baseId": "l4_u6_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "convinced",
+      "savings",
+      "telling",
+      "should",
+      "what's"
+     ],
+     "suggestion": "Al keeps telling me I should put my savings into shares. I'm not convinced. What's your take?",
+     "suggestionFa": "ال مدام بهم می‌گه پس‌اندازم را تو سهام بذارم. قانع نشدم. نظر تو چیه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "The upside is that shares usually grow more than savings accounts over time.",
+   "translations": {
+    "fa": "مزیتش اینه که سهام معمولاً در طول زمان از حساب پس‌انداز بیشتر رشد می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "downside",
+      "gamble",
+      "afford",
+      "money",
+      "right"
+     ],
+     "suggestion": "Right. The downside is I could lose money. And with two kids, I can't afford to gamble.",
+     "suggestionFa": "درسته. ایرادش اینه که ممکنه پول از دست بدم. و با دوتا بچه، نمی‌تونم ریسک کنم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That's sensible. You should keep an emergency fund first.",
+   "translations": {
+    "fa": "منطقیه. اول باید یه صندوق اضطراری نگه داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "before",
+      "months",
+      "should",
+      "think"
+     ],
+     "suggestion": "Fair. Leslie says we should have at least three months of bills saved before we even think about it.",
+     "suggestionFa": "منصفانه. لزلی می‌گه قبل از اینکه حتی بهش فکر کنیم، باید حداقل سه ماه قبض پس‌انداز داشته باشیم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Leslie's right. Then maybe a stocks and shares ISA?",
+   "translations": {
+    "fa": "حق با لزلیه. بعد شاید یه ISA سهام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "nonsense",
+      "crypto",
+      "about",
+      "would"
+     ],
+     "suggestion": "Just about. An ISA would be tax-free, which is a big plus. But I'd want something low-risk — no crypto nonsense.",
+     "suggestionFa": "تقریباً. یه ISA معاف از مالیاته، که مزیت بزرگیه. ولی یه چیز کم‌ریسک می‌خوام — از این چرندیات رمزارز نه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A global index fund might suit you — it's spread across lots of companies.",
+   "translations": {
+    "fa": "یه صندوق شاخص جهانی شاید مناسبت باشه — بین کلی شرکت پخش شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "adviser",
+      "bitcoin",
+      "spread",
+      "across",
+      "basket"
+     ],
+     "suggestion": "Spread across lots — makes sense. Don't put all your eggs in one basket, as my dad would say. Right, I'll book an adviser. And Al can stop going on about Bitcoin.",
+     "suggestionFa": "بین کلی پخش شده — منطقیه. همهٔ تخم‌مرغ‌هات را تو یه سبد نذار، به قول بابام. خب، با یه مشاور وقت می‌ذارم. و ال هم دیگه می‌تونه دربارهٔ بیت‌کوین غر نزنه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

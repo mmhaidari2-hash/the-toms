@@ -23,9 +23,9 @@
      "keywords": [
       "always",
       "early",
-      "dear",
-      "past",
-      "half"
+      "half",
+      "five",
+      "dear"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
      "suggestionFa": "من سحرخیزم عزیزم. همیشه ساعت پنج و نیم پا می‌شم.",
@@ -50,7 +50,7 @@
       "usually",
       "always",
       "first",
-      "read"
+      "have"
      ],
      "suggestion": "I always have a cup of tea first. Then I usually read the newspaper.",
      "suggestionFa": "همیشه اول یه فنجون چای می‌خورم. بعد معمولاً روزنامه می‌خونم.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "mondays",
-      "always",
       "market",
+      "always",
       "round",
       "park"
      ],
@@ -124,8 +124,8 @@
       "vegetables",
       "afternoon",
       "gossip",
-      "telly",
-      "fruit"
+      "fruit",
+      "telly"
      ],
      "suggestion": "Fruit, vegetables, and a bit of gossip! Do you ever watch telly in the afternoon?",
      "suggestionFa": "میوه، سبزی و یه کم غیبت! تو هیچ‌وقت عصرها تلویزیون می‌بینی؟",
@@ -149,7 +149,7 @@
       "programme",
       "always",
       "never",
-      "quiz",
+      "miss",
       "five"
      ],
      "suggestion": "I never miss my quiz programme at five. And I always go to bed at ten.",
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "change",
       "things",
+      "always",
       "never",
       "dear"
      ],

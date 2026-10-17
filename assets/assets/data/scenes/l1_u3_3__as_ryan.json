@@ -23,8 +23,8 @@
      "keywords": [
       "alright",
       "room's",
-      "sorry",
       "messy",
+      "sorry",
       "come"
      ],
      "suggestion": "Alright? Sorry, my room's a bit messy. Come in.",
@@ -49,8 +49,8 @@
       "football",
       "that's",
       "laptop",
-      "these",
-      "boots"
+      "boots",
+      "these"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -74,8 +74,8 @@
       "liverpool",
       "saturday",
       "posters",
-      "every",
-      "those"
+      "those",
+      "every"
      ],
      "suggestion": "Every Saturday. Those posters on the wall are my team. Liverpool!",
      "suggestionFa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!",
@@ -98,9 +98,9 @@
      "keywords": [
       "that's",
       "salah",
+      "says",
       "tidy",
-      "need",
-      "says"
+      "help"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "gross",
-      "books",
       "shelf",
-      "last",
-      "week"
+      "books",
+      "from",
+      "last"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
      "suggestionFa": "کتاب‌ها روی قفسه. این ماگ هم مال هفتهٔ پیشه. چندش!",
@@ -175,7 +175,7 @@
       "floor",
       "fair",
       "look",
-      "see"
+      "can"
      ],
      "suggestion": "Ha, fair enough. Look — the floor! I can see the floor!",
      "suggestionFa": "ها، حق داری. ببین — کف اتاق! کف را می‌بینم!",

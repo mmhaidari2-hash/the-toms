@@ -25,7 +25,7 @@
       "lessons",
       "drive",
       "start",
-      "when"
+      "have"
      ],
      "suggestion": "Dad says I can start lessons when I'm seventeen. Do you have to take a test to drive in the UK?",
      "suggestionFa": "بابا می‌گه وقتی هفده سالم شد می‌تونم کلاس شروع کنم. تو بریتانیا برای رانندگی باید امتحان بدی؟",
@@ -50,7 +50,7 @@
       "really",
       "can't",
       "just",
-      "home"
+      "from"
      ],
      "suggestion": "Really? Can't you just use your licence from home?",
      "suggestionFa": "واقعاً؟ نمی‌تونی از گواهی‌نامهٔ کشورت استفاده کنی؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "theory",
+      "what's",
       "harsh",
       "like",
       "test"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "manual",
-      "drive",
       "gears",
-      "easy",
-      "most"
+      "drive",
+      "have",
+      "cars"
      ],
      "suggestion": "Easy. And do you need to know how to drive a manual? Most cars here have gears.",
      "suggestionFa": "آسونه. و لازمه بلد باشی دنده‌ای برونی؟ بیشتر ماشین‌های اینجا دنده دارن.",
@@ -123,9 +123,9 @@
      "keywords": [
       "learning",
       "though",
-      "he'll",
+      "right",
       "dad's",
-      "right"
+      "he'll"
      ],
      "suggestion": "Right. I'm learning in Dad's car then. He'll have to stay calm, though!",
      "suggestionFa": "باشه. پس با ماشین بابا یاد می‌گیرم. ولی بابا باید آروم بمونه!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "imagine",
-      "shouts",
       "satnav",
+      "shouts",
       "point",
       "good"
      ],

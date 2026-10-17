@@ -21,8 +21,8 @@
      "keywords": [
       "through",
       "agenda",
-      "start",
-      "going"
+      "going",
+      "start"
      ],
      "suggestion": "Sure. Shall we start by going through the agenda?",
      "suggestionFa": "حتماً. با مرور دستور جلسه شروع کنیم؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "figures",
-      "gareth",
       "update",
-      "could"
+      "gareth",
+      "quick"
      ],
      "suggestion": "Gareth, could you give us a quick update on the figures?",
      "suggestionFa": "گرت، می‌تونی یه گزارش سریع از ارقام بدی؟",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "under",
-      "three",
       "point",
+      "three",
       "come"
      ],
      "suggestion": "Good point. Let's park that and come back to it under item three.",
@@ -146,8 +146,8 @@
      "keywords": [
       "agenda",
       "right",
-      "move",
-      "keep"
+      "keep",
+      "move"
      ],
      "suggestion": "You're right. Let's move on and keep to the agenda.",
      "suggestionFa": "حق با توئه. بیاید بریم جلو و به دستور جلسه پایبند باشیم.",
@@ -191,8 +191,8 @@
      "keywords": [
       "extension",
       "tuesday",
-      "tight",
-      "until"
+      "could",
+      "tight"
      ],
      "suggestion": "It's tight. Could we ask for an extension until Tuesday?",
      "suggestionFa": "تنگه. می‌تونیم تا سه‌شنبه تمدید بخوایم؟",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "circulate",
       "afternoon",
+      "circulate",
       "everyone",
       "thanks"
      ],

@@ -24,7 +24,7 @@
       "trainers",
       "choose",
       "forty",
-      "gave",
+      "help",
       "quid"
      ],
      "suggestion": "Mum gave me forty quid for new trainers. Can you help me choose?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "these",
-      "those",
-      "white",
+      "think",
       "there",
-      "think"
+      "those",
+      "these",
+      "white"
      ],
      "suggestion": "White, I think. These ones or those ones over there?",
      "suggestionFa": "سفید، فکر کنم. این‌ها یا اون‌هایی که اونجان؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "thirty",
+      "pounds",
       "these",
       "those",
       "forty"
@@ -99,8 +99,8 @@
       "excuse",
       "please",
       "these",
-      "nine",
-      "size"
+      "size",
+      "nine"
      ],
      "suggestion": "Excuse me, can I try these in a size nine, please?",
      "suggestionFa": "ببخشید، می‌شه این‌ها را سایز نه امتحان کنم؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "they're",
-      "bigger",
       "better",
+      "bigger",
       "small",
       "have"
      ],
@@ -149,8 +149,8 @@
       "really",
       "comfy",
       "chips",
-      "left",
-      "i've"
+      "i've",
+      "want"
      ],
      "suggestion": "Really comfy. And I've got five quid left for chips! Want some?",
      "suggestionFa": "خیلی راحتن. و پنج پوند هم برای سیب‌زمینی سرخ‌کرده موند! می‌خوای؟",
@@ -175,7 +175,7 @@
       "corner",
       "round",
       "chips",
-      "life"
+      "come"
      ],
      "suggestion": "Nah, chips are life. Come on, the chippy's round the corner!",
      "suggestionFa": "نه بابا، چیپس زندگیه. بیا، مغازهٔ فیش‌اند‌چیپس سر کوچه‌ست!",

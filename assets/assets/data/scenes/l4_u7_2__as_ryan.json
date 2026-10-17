@@ -1,0 +1,150 @@
+{
+ "id": "l4_u7_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) The talk",
+ "titleFa": "(در نقش Ryan) گفتگوی جدی",
+ "setting": "Education · Level 4",
+ "settingFa": "آموزش",
+ "requires": null,
+ "level": "B2",
+ "baseId": "l4_u7_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playstation",
+      "grassed",
+      "didn't",
+      "nights",
+      "banned"
+     ],
+     "suggestion": "Mum's banned my PlayStation on school nights. Mrs Patel grassed me up, didn't she? This is so unfair.",
+     "suggestionFa": "مامان پلی‌استیشنم را شب‌های مدرسه ممنوع کرده. خانم پاتل لوم داد، نه؟ این خیلی ناعادلانه‌ست.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I know it feels unfair. But she's worried about you.",
+   "translations": {
+    "fa": "می‌دونم ناعادلانه به نظر میاد. ولی نگرانته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "french",
+      "thinks",
+      "don't",
+      "point"
+     ],
+     "suggestion": "Everyone thinks I'm lazy. I'm not. I just don't see the point of French. When am I ever going to use it?",
+     "suggestionFa": "همه فکر می‌کنن تنبلم. نیستم. فقط فایدهٔ فرانسوی را نمی‌فهمم. کی قراره ازش استفاده کنم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I get it. I felt exactly the same about English at school.",
+   "translations": {
+    "fa": "می‌فهمم. من هم تو مدرسه دقیقاً همین حس را دربارهٔ انگلیسی داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "speak",
+      "every",
+      "hate",
+      "day"
+     ],
+     "suggestion": "Really? And now you speak it every day. Did you not hate it?",
+     "suggestionFa": "واقعاً؟ و الان هر روز باهاش حرف می‌زنی. ازش متنفر نبودی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I hated the grammar lessons. But learning it changed my whole life.",
+   "translations": {
+    "fa": "از درس‌های گرامر متنفر بودم. ولی یاد گرفتنش کل زندگیم را عوض کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "revising",
+      "panicked",
+      "messed",
+      "mocks",
+      "just"
+     ],
+     "suggestion": "Fair. Look, I know I messed up the mocks. I just panicked and then gave up revising. It all felt too much.",
+     "suggestionFa": "منصفانه. ببین، می‌دونم امتحان آزمایشی را خراب کردم. فقط هول کردم و بعد مرور را ول کردم. همه‌ش زیادی سنگین بود.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "That's really honest of you. Shall we make a revision timetable together?",
+   "translations": {
+    "fa": "خیلی صادقانه‌ست. با هم یه برنامهٔ مرور بنویسیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playstation",
+      "timetable",
+      "fridays",
+      "breaks",
+      "asking"
+     ],
+     "suggestion": "Yeah… OK. A timetable. But with breaks. And if I stick to it for a month, I'm asking Mum for my PlayStation back on Fridays. Deal?",
+     "suggestionFa": "آره… باشه. یه برنامه. ولی با استراحت. و اگه یه ماه بهش پایبند بمونم، از مامان می‌خوام جمعه‌ها پلی‌استیشنم را پس بده. قبول؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

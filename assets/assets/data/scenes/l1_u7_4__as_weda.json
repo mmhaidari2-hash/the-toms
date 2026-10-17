@@ -22,9 +22,9 @@
     {
      "keywords": [
       "chemist",
+      "come",
       "dear",
       "need",
-      "come",
       "into"
      ],
      "suggestion": "I need to pop into the chemist, dear. Come with me?",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "something",
-      "plasters",
       "pharmacy",
+      "plasters",
       "cough",
       "need"
      ],
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "recommend",
       "something",
+      "recommend",
       "cough",
       "thank",
-      "dear"
+      "lady"
      ],
      "suggestion": "Thank you, dear. Ask the lady: \"Can you recommend something for a cough?\"",
      "suggestionFa": "ممنون عزیزم. از خانم بپرس: «می‌تونید یه چیزی برای سرفه پیشنهاد بدید؟»",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "spoons",
-      "syrup",
-      "three",
       "times",
+      "three",
+      "syrup",
       "good"
      ],
      "suggestion": "She says this syrup is good. Two spoons, three times a day.",
@@ -123,9 +123,9 @@
      "keywords": [
       "probably",
       "horrible",
-      "throat",
       "sweets",
-      "honey"
+      "throat",
+      "lemon"
      ],
      "suggestion": "Horrible, probably! Ha. And some throat sweets. Honey and lemon.",
      "suggestionFa": "احتمالاً افتضاح! ها. و یه کم آب‌نبات گلو. عسل و لیمو.",
@@ -148,7 +148,7 @@
      "keywords": [
       "treasure",
       "treat",
-      "tea",
+      "now",
       "cup",
       "caf"
      ],

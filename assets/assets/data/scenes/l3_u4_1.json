@@ -20,9 +20,9 @@
     {
      "keywords": [
       "permission",
-      "account",
       "without",
-      "think"
+      "account",
+      "taken"
      ],
      "suggestion": "I think money was taken from my account without my permission.",
      "suggestionFa": "فکر کنم بدون اجازه‌ام از حسابم پول برداشته شده.",
@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
+      "ninety",
       "online",
       "pounds",
-      "ninety",
       "never"
      ],
      "suggestion": "This one — ninety-nine pounds to an online shop I've never used.",
@@ -90,8 +90,8 @@
     },
     {
      "keywords": [
-      "morning",
       "tuesday",
+      "morning",
       "paid",
       "was"
      ],
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "website",
-      "used",
       "last",
-      "week"
+      "week",
+      "used"
      ],
      "suggestion": "No, but I used it on a website last week.",
      "suggestionFa": "نه، ولی هفتهٔ پیش رو یه سایت ازش استفاده کردم.",
@@ -140,8 +140,8 @@
     },
     {
      "keywords": [
-      "always",
       "wallet",
+      "always",
       "think",
       "don't"
      ],
@@ -188,7 +188,7 @@
       "relief",
       "that's",
       "given",
-      "will"
+      "card"
      ],
      "suggestion": "That's a relief. Will I be given a new card?",
      "suggestionFa": "خیالم راحت شد. کارت جدید بهم داده میشه؟",

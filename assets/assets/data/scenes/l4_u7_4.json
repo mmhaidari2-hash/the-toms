@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "sitting",
       "mention",
+      "sitting",
       "close",
       "telly"
      ],
@@ -79,8 +79,8 @@
      "keywords": [
       "appointment",
       "optician",
-      "week",
-      "i'll"
+      "i'll",
+      "week"
      ],
      "suggestion": "I'll book an appointment with the optician this week.",
      "suggestionFa": "این هفته از بینایی‌سنج وقت می‌گیرم.",
@@ -147,10 +147,10 @@
     },
     {
      "keywords": [
-      "should",
       "having",
+      "should",
       "she's",
-      "test"
+      "tell"
      ],
      "suggestion": "Should we tell her why she's having the test?",
      "suggestionFa": "بهش بگیم چرا معاینه می‌شه؟",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "lovely",
-      "that's",
       "handle",
+      "that's",
       "thank"
      ],
      "suggestion": "That's a lovely way to handle it. Thank you.",

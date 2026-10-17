@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "return",
       "what's",
+      "return",
       "tax"
      ],
      "suggestion": "What's a tax return?",
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "weekend",
-      "i'll",
-      "then"
+      "then",
+      "i'll"
      ],
      "suggestion": "I'll do it this weekend then.",
      "suggestionFa": "پس این آخر هفته انجامش می‌دم.",
@@ -228,7 +228,7 @@
       "don't",
       "just",
       "they",
-      "say"
+      "why"
      ],
      "suggestion": "Why don't they just say that?",
      "suggestionFa": "چرا همون را نمی‌گن؟",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "clearer",
-      "arthur",
       "that's",
+      "arthur",
       "thank"
      ],
      "suggestion": "Thank you, Arthur. That's much clearer now.",

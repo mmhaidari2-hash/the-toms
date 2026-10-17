@@ -47,8 +47,8 @@
     {
      "keywords": [
       "higher",
-      "ducks",
       "wheee",
+      "ducks",
       "from",
       "here"
      ],
@@ -100,7 +100,7 @@
       "promise",
       "sponge",
       "party",
-      "come"
+      "have"
      ],
      "suggestion": "Victoria sponge with jam! You HAVE to come to my party. Promise?",
      "suggestionFa": "کیک اسفنجی ویکتوریا با مربا! حتماً باید بیای جشنم. قول می‌دی؟",
@@ -148,8 +148,8 @@
      "keywords": [
       "squirrel",
       "wheee",
-      "look",
       "grey",
+      "look",
       "red"
      ],
      "suggestion": "Wheee! Look, a squirrel! Is it grey or red?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "pocket",
-      "ducks",
       "bread",
-      "i've",
-      "grey"
+      "ducks",
+      "grey",
+      "i've"
      ],
      "suggestion": "Grey! Can we feed the ducks? I've got bread in my pocket.",
      "suggestionFa": "خاکستری! می‌تونیم به اردک‌ها غذا بدیم؟ توی جیبم نان دارم.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "chasing",
       "naughty",
-      "one's",
+      "chasing",
+      "other",
       "being",
-      "other"
+      "one's"
      ],
      "suggestion": "That one's chasing the other one! Is he being naughty?",
      "suggestionFa": "اون یکی داره اون یکی را دنبال می‌کنه! داره شیطونی می‌کنه؟",
@@ -223,9 +223,9 @@
      "keywords": [
       "freezing",
       "hands",
-      "ryan",
       "cold",
-      "like"
+      "like",
+      "ryan"
      ],
      "suggestion": "Like me and Ryan! I'm cold now. My hands are freezing.",
      "suggestionFa": "مثل من و رایان! حالا سردمه. دستام یخ زده.",
@@ -248,8 +248,8 @@
      "keywords": [
       "marshmallows",
       "chocolate",
-      "race",
       "gate",
+      "race",
       "hot"
      ],
      "suggestion": "Hot chocolate with marshmallows? Race you to the gate!",
@@ -273,9 +273,9 @@
      "keywords": [
       "friend",
       "slide",
-      "race",
       "best",
-      "yay"
+      "race",
+      "now"
      ],
      "suggestion": "Yay! You're my best friend now. Race you to the slide!",
      "suggestionFa": "آخ‌جون! حالا تو بهترین دوست منی. مسابقه تا سرسره!",

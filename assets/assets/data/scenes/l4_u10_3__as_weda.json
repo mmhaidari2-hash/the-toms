@@ -1,0 +1,150 @@
+{
+ "id": "l4_u10_3__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Weda) Weda's wisdom",
+ "titleFa": "(در نقش Nana Weda) حکمت ودا",
+ "setting": "Paying it forward · Level 4",
+ "settingFa": "جبران کردن با کمک به دیگران",
+ "requires": null,
+ "level": "B2",
+ "baseId": "l4_u10_3",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Weda!",
+   "translations": {
+    "fa": "سلام Nana Weda!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mentoring",
+      "leslie",
+      "barely",
+      "young",
+      "tells"
+     ],
+     "suggestion": "Leslie tells me you're mentoring a young lady now. I'm proud of you, love. When you first came, you could barely say \"cup of tea\".",
+     "suggestionFa": "لزلی بهم گفت الان منتور یه خانم جوونی. بهت افتخار می‌کنم عزیزم. وقتی اول اومدی، به زور می‌تونستی بگی «یه فنجون چای».",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Ha! And you taught me how to make a proper one.",
+   "translations": {
+    "fa": "ها! و شما یادم دادید یه چای درست و حسابی درست کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hardest",
+      "looking",
+      "teabag",
+      "other",
+      "round"
+     ],
+     "suggestion": "Teabag in first, then the water, milk last. Never the other way round. What was the hardest part, looking back?",
+     "suggestionFa": "اول چای کیسه‌ای، بعد آب، شیر آخر. هیچ‌وقت برعکس نه. وقتی به گذشته نگاه می‌کنی، سخت‌ترین قسمت چی بود؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Feeling like an outsider, even when people were kind.",
+   "translations": {
+    "fa": "حس غریبه بودن، حتی وقتی مردم مهربون بودن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "landlords",
+      "welcoming",
+      "windows",
+      "weren't",
+      "ireland"
+     ],
+     "suggestion": "That's natural. When I came over from Ireland in 1965, people weren't always welcoming. Some landlords had signs in their windows.",
+     "suggestionFa": "طبیعیه. وقتی سال ۱۹۶۵ از ایرلند اومدم، مردم همیشه خوش‌برخورد نبودن. بعضی صاحبخونه‌ها تابلو پشت پنجره‌شون داشتن.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I had no idea you'd moved here too, Weda.",
+   "translations": {
+    "fa": "نمی‌دونستم شما هم مهاجرت کردید ودا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "trained",
+      "william",
+      "younger",
+      "nurses",
+      "course"
+     ],
+     "suggestion": "I found my people — the church, the nurses I trained with. And I met William, of course. If I could tell my younger self one thing, it'd be: you will belong here. Give it time.",
+     "suggestionFa": "آدم‌های خودم را پیدا کردم — کلیسا، پرستارهایی که باهاشون آموزش دیدم. و البته ویلیام را دیدم. اگه می‌تونستم یه چیز به خودِ جوونم بگم، این بود: اینجا جا میفتی. بهش زمان بده.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "That's exactly what I'll tell Farah.",
+   "translations": {
+    "fa": "دقیقاً همینو به فرح می‌گم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle",
+      "tissue",
+      "you'll",
+      "mind",
+      "last"
+     ],
+     "suggestion": "Oh, stop it, you'll set me off. Pass me a tissue. And put the kettle on — milk last, mind!",
+     "suggestionFa": "آه، بس کن، گریه‌ام را درمیاری. یه دستمال بده. و کتری را بذار — شیر آخر، یادت باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
