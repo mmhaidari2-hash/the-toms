@@ -67,37 +67,37 @@ W: cut=بریدن ; triangles=مثلث‌ها ; knife=کارد
 nicola: Triangles! Toast tastes better in triangles. Everybody knows that! | مثلث! نون تست مثلثی خوشمزه‌تره. همه اینو می‌دونن!
 
 # l1_u40_3 | leslie | Stir it, please | لطفاً هم بزن | Requests: Can you…, please? / Could you…? | درخواست | kitchen
-leslie: I'm making shepherd's pie for tea. Could you help me? My hands are full! | دارم شپردز پای برای شام درست می‌کنم. می‌شه کمکم کنی؟ دستام پره!
-> Of course. What's shepherd's pie? | البته. شپردز پای چیه؟
+leslie: I'm making leek and potato soup for tea. Could you help me? My hands are full! | دارم برای شام سوپ تره‌فرنگی و سیب‌زمینی درست می‌کنم. می‌شه کمکم کنی؟ دستام پره!
+> Of course. What's a leek? | البته. تره‌فرنگی چیه؟
 > Yes. What can I do? | آره. چی کار می‌تونم بکنم؟
-W: shepherd's pie=پای چوپان (گوشت چرخ‌کرده با پوره) ; full=پر
-C: Shepherd's pie is minced lamb under mashed potato. With beef it's called "cottage pie". | پای چوپان و پای کلبه.
-leslie: Minced meat with mashed potato on top. Could you stir the meat, please? | گوشت چرخ‌کرده با پورهٔ سیب‌زمینی روش. لطفاً گوشت را هم می‌زنی؟
+W: leek=تره‌فرنگی ; soup=سوپ ; full=پر
+C: Leek and potato soup is a classic, cheap British winter soup. The leek is also a symbol of Wales. | سوپ تره‌فرنگی و نماد ولز.
+leslie: It's like a big green onion. Could you stir the butter and onions, please? | شبیه یه پیاز سبز بزرگه. لطفاً کره و پیازها را هم می‌زنی؟
 > Sure. Like this? | حتماً. این‌جوری؟
 > With the wooden spoon? | با قاشق چوبی؟
-W: minced meat=گوشت چرخ‌کرده ; mashed=له‌شده ؛ پوره ; wooden spoon=قاشق چوبی
-leslie: Yes, the wooden spoon. Don't let it stick. Can you pass me the onions? | آره، قاشق چوبی. نذار بچسبه. پیازها را می‌دی؟
-> Here are the onions. | بفرما پیازها.
+W: onion=پیاز ; stir=هم زدن ; wooden spoon=قاشق چوبی
+leslie: Yes, the wooden spoon. Don't let them burn. Can you pass me the leeks? | آره، قاشق چوبی. نذار بسوزن. تره‌فرنگی‌ها را می‌دی؟
+> Here are the leeks. | بفرما تره‌فرنگی‌ها.
 > Shall I chop them? | خردشون کنم؟
-W: stick=چسبیدن ; onions=پیازها ; chop=خرد کردن
-leslie: Oh, yes please. Small pieces. Could you also peel the potatoes after? | آه، آره لطفاً. تیکه‌های کوچیک. بعدش سیب‌زمینی‌ها را هم پوست می‌کنی؟
+W: burn=سوختن ; chop=خرد کردن
+leslie: Oh, yes please. Wash them first — they're often muddy inside. Could you peel the potatoes after? | آه، آره لطفاً. اول بشورشون — داخلشون معمولاً گلیه. بعدش سیب‌زمینی‌ها را پوست می‌کنی؟
 > No problem. Where's the peeler? | مشکلی نیست. پوست‌کن کجاست؟
-> My eyes are crying from the onions! | چشمام از پیاز اشک میاد!
-W: peel=پوست کندن ; potatoes=سیب‌زمینی‌ها ; peeler=پوست‌کن
-leslie: Ha! Onions do that. The peeler's in the drawer. Can you boil some water too? | ها! پیاز این کار را می‌کنه. پوست‌کن تو کشوئه. یه کم آب هم جوش میاری؟
+> There's mud inside this one! | تو این یکی گله!
+W: muddy=گلی ; peel=پوست کندن ; peeler=پوست‌کن
+leslie: Told you! The peeler's in the drawer. Can you boil some water too? | گفتم که! پوست‌کن تو کشوئه. یه کم آب هم جوش میاری؟
 > Can I use the kettle? | می‌تونم از کتری استفاده کنم؟
 > In the big pan? | تو قابلمهٔ بزرگ؟
 W: drawer=کشو ; boil=جوشاندن ; kettle=کتری
 X: can i using the kettle ; i can use kettle? => Can you use the kettle? Yes, it's faster! | Can I use the kettle? | می‌تونم از کتری استفاده کنم؟
-leslie: Yes, kettle first. It's faster. Then put the potatoes in the big pan. | آره، اول کتری. سریع‌تره. بعد سیب‌زمینی‌ها را بذار تو قابلمهٔ بزرگ.
-> How long do they cook? | چقدر می‌پزن؟
+leslie: Yes, kettle first. It's faster. Then pour it in with a stock cube. | آره، اول کتری. سریع‌تره. بعد با یه عصارهٔ مرغ بریزش تو.
+> How long does it cook? | چقدر می‌پزه؟
 > OK. Lid on? | باشه. درش را بذارم؟
-W: faster=سریع‌تر ; lid=درِ قابلمه ; how long=چه مدت
-leslie: About twenty minutes. Then we mash them with butter. Could you set a timer? | حدود بیست دقیقه. بعد با کره لهشون می‌کنیم. می‌شه یه تایمر بذاری؟
+W: faster=سریع‌تر ; stock cube=عصاره (قرص) ; lid=درِ قابلمه
+leslie: About twenty minutes. Then we blend it. Could you set a timer? | حدود بیست دقیقه. بعد میکسش می‌کنیم. می‌شه یه تایمر بذاری؟
 > Timer set. Twenty minutes. | تایمر گذاشتم. بیست دقیقه.
 > I'll set it on my phone. | رو گوشیم می‌ذارمش.
-W: mash=له کردن ; timer=زمان‌سنج ; set=تنظیم کردن
-leslie: Lovely. Thank you! Could you stay for tea? There's plenty. You did half the work! | عالی. ممنون! شام می‌مونی؟ زیاده. نصف کار را تو کردی!
+W: blend=مخلوط کردن با مخلوط‌کن ; timer=زمان‌سنج ; set=تنظیم کردن
+leslie: Lovely. Thank you! Could you stay for tea? There's plenty, with crusty bread. You did half the work! | عالی. ممنون! شام می‌مونی؟ زیاده، با نون برشته. نصف کار را تو کردی!
 
 # l1_u40_4 | ryan | Pancake Day | روز پنکیک | Going to: I'm going to… | قصد آینده | kitchen
 ryan: It's Pancake Day! Best day of the year. Are you going to have pancakes with us? | روز پنکیکه! بهترین روز سال. با ما پنکیک می‌خوری؟
