@@ -20,9 +20,9 @@
     {
      "keywords": [
       "there",
-      "bird",
-      "time",
-      "once"
+      "upon",
+      "once",
+      "bird"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
      "suggestionFa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود.",
@@ -34,8 +34,8 @@
      "keywords": [
       "about",
       "story",
-      "king",
-      "want"
+      "want",
+      "king"
      ],
      "suggestion": "OK. Do you want a story about a king?",
      "suggestionFa": "باشه. یه قصه دربارهٔ یه پادشاه می‌خوای؟",
@@ -76,7 +76,7 @@
       "simorgh",
       "bigger",
       "house",
-      "name"
+      "than"
      ],
      "suggestion": "Bigger than a house! Her name was Simorgh.",
      "suggestionFa": "بزرگ‌تر از یه خونه! اسمش سیمرغ بود.",
@@ -217,8 +217,8 @@
      "keywords": [
       "little",
       "found",
-      "day",
-      "one"
+      "boy",
+      "day"
      ],
      "suggestion": "One day, she found a little baby boy.",
      "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
@@ -267,9 +267,9 @@
   "n6": {
    "id": "n6",
    "speaker": "nicola",
-   "text": "A baby! Like William? Did she look after him?",
+   "text": "A baby! Like William was? Did she look after him?",
    "translations": {
-    "fa": "یه بچه! مثل ویلیام؟ ازش مراقبت کرد؟"
+    "fa": "یه بچه! مثل ویلیام وقتی کوچیک بود؟ ازش مراقبت کرد؟"
    },
    "branches": [
     {
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
-      "warm",
-      "gave",
       "food",
-      "kept"
+      "kept",
+      "gave",
+      "warm"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",

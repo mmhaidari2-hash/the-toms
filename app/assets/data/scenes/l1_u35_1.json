@@ -1,9 +1,9 @@
 {
  "id": "l1_u35_1",
  "characterId": "leslie",
- "title": "Nappy time",
- "titleFa": "وقت عوض کردن پوشک",
- "setting": "Baby William · Level 1",
+ "title": "Big boy pants",
+ "titleFa": "شورت پسر بزرگ",
+ "setting": "Little William · Level 1",
  "settingFa": "ویلیام کوچولو",
  "requires": null,
  "start": "n1",
@@ -12,30 +12,29 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Pooh! Somebody needs a new nappy. Can you help me? Just pass me things.",
+   "text": "Big news! William's learning to use the potty. No more nappies in the day!",
    "translations": {
-    "fa": "پیف! یکی پوشک نو لازم داره. کمکم می‌کنی؟ فقط وسایل را بهم بده."
+    "fa": "خبر بزرگ! ویلیام داره یاد می‌گیره از لگن استفاده کنه. دیگه روزها پوشک نمی‌خواد!"
    },
    "branches": [
     {
      "keywords": [
-      "need",
-      "sure"
+      "william",
+      "well",
+      "done"
      ],
-     "suggestion": "Sure. What do you need?",
-     "suggestionFa": "حتماً. چی لازم داری؟",
+     "suggestion": "Well done, William!",
+     "suggestionFa": "آفرین ویلیام!",
      "trustDelta": 6,
      "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "smell",
-      "dear",
-      "oh"
+      "difficult"
      ],
-     "suggestion": "Oh dear! What a smell!",
-     "suggestionFa": "ای وای! چه بویی!",
+     "suggestion": "Is it difficult?",
+     "suggestionFa": "سخته؟",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -43,16 +42,16 @@
    ],
    "newWords": [
     {
+     "word": "potty",
+     "fa": "لگن بچه ؛ پات"
+    },
+    {
      "word": "nappy",
      "fa": "پوشک"
     },
     {
-     "word": "pass",
-     "fa": "دادن"
-    },
-    {
-     "word": "smell",
-     "fa": "بو"
+     "word": "learning",
+     "fa": "یاد گرفتن"
     }
    ],
    "cultureNote": {
@@ -63,30 +62,31 @@
   "n2": {
    "id": "n2",
    "speaker": "leslie",
-   "text": "I need the changing mat. It's the blue thing by the sofa.",
+   "text": "It's hard work! He needs to go every hour. And I have to remember to ask him!",
    "translations": {
-    "fa": "تشک تعویض لازم دارم. همون چیز آبیه کنار مبل."
+    "fa": "کار سختیه! باید هر ساعت بره. و من باید یادم باشه ازش بپرسم!"
    },
    "branches": [
     {
      "keywords": [
-      "changing",
-      "here's",
-      "mat"
+      "every",
+      "hour",
+      "wow"
      ],
-     "suggestion": "Here's the changing mat.",
-     "suggestionFa": "بفرما تشک تعویض.",
+     "suggestion": "Every hour? Wow.",
+     "suggestionFa": "هر ساعت؟ وای.",
      "trustDelta": 6,
      "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "blue",
-      "one"
+      "remember",
+      "help",
+      "can"
      ],
-     "suggestion": "This blue one?",
-     "suggestionFa": "این آبیه؟",
+     "suggestion": "I can help you remember.",
+     "suggestionFa": "من می‌تونم کمکت کنم یادت بمونه.",
      "trustDelta": 5,
      "next": "n3",
      "success": true
@@ -94,43 +94,51 @@
    ],
    "newWords": [
     {
-     "word": "changing mat",
-     "fa": "تشک تعویض پوشک"
+     "word": "needs to",
+     "fa": "لازم است"
     },
     {
-     "word": "sofa",
-     "fa": "مبل"
+     "word": "have to",
+     "fa": "مجبور بودن"
+    },
+    {
+     "word": "every hour",
+     "fa": "هر ساعت"
+    },
+    {
+     "word": "remember",
+     "fa": "یادآوری/یاد ماندن"
     }
    ]
   },
   "n3": {
    "id": "n3",
    "speaker": "william",
-   "text": "No! No nappy!",
+   "text": "Look! I've got big boy pants!",
    "translations": {
-    "fa": "نه! پوشک نه!"
+    "fa": "ببین! شورت پسر بزرگ دارم!"
    },
    "branches": [
     {
      "keywords": [
-      "william",
-      "sorry",
-      "have"
+      "they've",
+      "buses",
+      "them",
+      "got"
      ],
-     "suggestion": "Sorry, William. You have to.",
-     "suggestionFa": "ببخشید ویلیام. باید عوض بشه.",
+     "suggestion": "Wow! They've got buses on them!",
+     "suggestionFa": "وای! روش اتوبوس داره!",
      "trustDelta": 6,
      "next": "n4",
      "success": true
     },
     {
      "keywords": [
-      "doesn't",
-      "want",
-      "he"
+      "william",
+      "smart"
      ],
-     "suggestion": "He doesn't want it!",
-     "suggestionFa": "نمی‌خوادش!",
+     "suggestion": "Very smart, William!",
+     "suggestionFa": "خیلی شیک، ویلیام!",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -138,39 +146,47 @@
    ],
    "newWords": [
     {
-     "word": "have to",
-     "fa": "مجبور بودن"
+     "word": "pants",
+     "fa": "شورت"
+    },
+    {
+     "word": "big boy",
+     "fa": "پسر بزرگ"
     }
-   ]
+   ],
+   "cultureNote": {
+    "en": "In the UK \"pants\" means underwear; in the US \"pants\" means trousers!",
+    "fa": "pants در بریتانیا یعنی شورت."
+   }
   },
   "n4": {
    "id": "n4",
    "speaker": "leslie",
-   "text": "He never wants it! Now I need the wipes. And a clean nappy from the bag.",
+   "text": "He loves them. Now, if he says \"wee\", we have to be quick! The potty's in the bathroom.",
    "translations": {
-    "fa": "هیچ‌وقت نمی‌خواد! حالا دستمال مرطوب لازمه. و یه پوشک تمیز از کیف."
+    "fa": "عاشقشونه. حالا اگه گفت «جیش»، باید سریع باشیم! لگن تو حمومه."
    },
    "branches": [
     {
      "keywords": [
-      "wipes",
-      "here"
+      "quick",
+      "i'll",
+      "ok"
      ],
-     "suggestion": "Here are the wipes.",
-     "suggestionFa": "بفرما دستمال‌ها.",
+     "suggestion": "OK. I'll be quick.",
+     "suggestionFa": "باشه. سریع می‌جنبم.",
      "trustDelta": 6,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "which",
-      "one",
-      "bag",
-      "big"
+      "have",
+      "run",
+      "we"
      ],
-     "suggestion": "Which bag? The big one?",
-     "suggestionFa": "کدوم کیف؟ بزرگه؟",
+     "suggestion": "Do we have to run?",
+     "suggestionFa": "باید بدوییم؟",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -178,58 +194,59 @@
    ],
    "newWords": [
     {
-     "word": "wipes",
-     "fa": "دستمال مرطوب"
+     "word": "quick",
+     "fa": "سریع"
     },
     {
-     "word": "clean",
-     "fa": "تمیز"
+     "word": "bathroom",
+     "fa": "حمام/دستشویی"
     },
     {
-     "word": "bag",
-     "fa": "کیف"
+     "word": "run",
+     "fa": "دویدن"
     }
    ],
    "recasts": [
     {
      "match": [
-      "here is the wipes",
-      "here the wipes are"
+      "we must to be quick",
+      "we have be quick"
      ],
-     "echo": "Here are the wipes? Thanks!",
-     "better": "Here are the wipes.",
-     "betterFa": "بفرما دستمال‌ها."
+     "echo": "We have to be quick? Yes!",
+     "better": "We have to be quick.",
+     "betterFa": "باید سریع باشیم."
     }
    ]
   },
   "n5": {
    "id": "n5",
-   "speaker": "leslie",
-   "text": "Yes, the changing bag. Can you hold his feet? He kicks a lot!",
+   "speaker": "william",
+   "text": "Wee! I need a wee!",
    "translations": {
-    "fa": "آره، کیف تعویض. می‌تونی پاهاش را نگه داری؟ خیلی لگد می‌زنه!"
+    "fa": "جیش! جیش دارم!"
    },
    "branches": [
     {
      "keywords": [
-      "holding",
-      "feet",
-      "his",
-      "ok"
+      "quick",
+      "let's",
+      "go"
      ],
-     "suggestion": "OK, I'm holding his feet.",
-     "suggestionFa": "باشه، پاهاش را گرفتم.",
+     "suggestion": "Quick! Let's go!",
+     "suggestionFa": "زود! بریم!",
      "trustDelta": 6,
      "next": "n6",
      "success": true
     },
     {
      "keywords": [
-      "strong",
-      "he's"
+      "leslie",
+      "needs",
+      "wee",
+      "he"
      ],
-     "suggestion": "He's very strong!",
-     "suggestionFa": "خیلی قویه!",
+     "suggestion": "Leslie! He needs a wee!",
+     "suggestionFa": "لزلی! جیش داره!",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -237,90 +254,46 @@
    ],
    "newWords": [
     {
-     "word": "hold",
-     "fa": "نگه داشتن"
+     "word": "wee",
+     "fa": "جیش (بچگانه)"
     },
     {
-     "word": "feet",
-     "fa": "پاها"
-    },
-    {
-     "word": "kicks",
-     "fa": "لگد می‌زند"
+     "word": "need",
+     "fa": "لازم داشتن"
     }
    ]
   },
   "n6": {
    "id": "n6",
-   "speaker": "william",
-   "text": "Ha ha! Tickle!",
+   "speaker": "leslie",
+   "text": "Go, go, go! … Phew, he did it! Now we need to wash our hands.",
    "translations": {
-    "fa": "ها ها! غلغلک!"
+    "fa": "برو، برو، برو! … آخیش، انجامش داد! حالا باید دستامون را بشوریم."
    },
    "branches": [
     {
      "keywords": [
       "william",
-      "tickle"
+      "hooray",
+      "well",
+      "done"
      ],
-     "suggestion": "Tickle tickle, William!",
-     "suggestionFa": "قلقلک قلقلک ویلیام!",
+     "suggestion": "Hooray! Well done, William!",
+     "suggestionFa": "هورا! آفرین ویلیام!",
      "trustDelta": 6,
      "next": "n7",
      "success": true
     },
     {
      "keywords": [
-      "thinks",
-      "game",
-      "he"
-     ],
-     "suggestion": "He thinks it's a game.",
-     "suggestionFa": "فکر می‌کنه بازیه.",
-     "trustDelta": 5,
-     "next": "n7",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "tickle",
-     "fa": "غلغلک"
-    }
-   ]
-  },
-  "n7": {
-   "id": "n7",
-   "speaker": "leslie",
-   "text": "Everything's a game to him. Done! Now we need to wash our hands.",
-   "translations": {
-    "fa": "همه چیز براش بازیه. تموم شد! حالا باید دستامون را بشوریم."
-   },
-   "branches": [
-    {
-     "keywords": [
-      "nappy",
+      "soap",
       "i'll",
-      "put",
-      "bin"
+      "get"
      ],
-     "suggestion": "I'll put the nappy in the bin.",
-     "suggestionFa": "پوشک را میندازم تو سطل.",
-     "trustDelta": 6,
-     "next": "n8",
-     "success": true
-    },
-    {
-     "keywords": [
-      "times",
-      "have",
-      "many",
-      "day"
-     ],
-     "suggestion": "Do you have to do this many times a day?",
-     "suggestionFa": "باید روزی چند بار این کار را بکنی؟",
+     "suggestion": "I'll get the soap.",
+     "suggestionFa": "من صابون را میارم.",
      "trustDelta": 5,
-     "next": "n8",
+     "next": "n7",
      "success": true
     }
    ],
@@ -330,21 +303,21 @@
      "fa": "شستن"
     },
     {
-     "word": "bin",
-     "fa": "سطل زباله"
+     "word": "soap",
+     "fa": "صابون"
     },
     {
-     "word": "many times",
-     "fa": "چندین بار"
+     "word": "hooray",
+     "fa": "هورا"
     }
    ]
   },
-  "n8": {
-   "id": "n8",
+  "n7": {
+   "id": "n7",
    "speaker": "leslie",
-   "text": "About six times! Thanks, you're a natural. Next time you can do it on your own! Ha!",
+   "text": "He gets a sticker for his chart. Five stickers and he gets a toy bus. You're a natural, {you}!",
    "translations": {
-    "fa": "حدود شش بار! ممنون، ذاتاً بلدی. دفعهٔ بعد خودت تنهایی انجامش میدی! ها!"
+    "fa": "یه برچسب برای جدولش می‌گیره. پنج برچسب، یه اتوبوس اسباب‌بازی. تو ذاتاً بلدی {you}!"
    },
    "branches": [],
    "newWords": []

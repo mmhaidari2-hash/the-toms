@@ -47,8 +47,8 @@
     {
      "keywords": [
       "favourite",
-      "colour",
-      "what's"
+      "what's",
+      "colour"
      ],
      "suggestion": "Yes! What's your favourite colour?",
      "suggestionFa": "آره! رنگ مورد علاقه‌ات چیه؟",
@@ -129,8 +129,8 @@
       "favourite",
       "animal",
       "what's",
-      "pink",
-      "love"
+      "love",
+      "pink"
      ],
      "suggestion": "I love pink! Now, what's your favourite animal?",
      "suggestionFa": "من عاشق صورتی‌ام! حالا، حیوون مورد علاقه‌ات چیه؟",
@@ -153,9 +153,9 @@
      "keywords": [
       "they're",
       "penguin",
-      "black",
+      "white",
       "funny",
-      "white"
+      "black"
      ],
      "suggestion": "Mine is a penguin! They're black and white and very funny.",
      "suggestionFa": "مال من پنگوئنه! سیاه و سفیدن و خیلی بامزه‌ان.",
@@ -233,9 +233,9 @@
      "keywords": [
       "sundays",
       "poster",
-      "makes",
       "write",
-      "nana"
+      "makes",
+      "rice"
      ],
      "suggestion": "Rice! Nana makes rice on Sundays. Can you write it on the poster?",
      "suggestionFa": "برنج! نانا یکشنبه‌ها برنج درست می‌کنه. می‌تونی روی پوستر بنویسیش؟",
@@ -260,7 +260,7 @@
       "pretty",
       "right",
       "left",
-      "goes"
+      "from"
      ],
      "suggestion": "Yes! Persian is so pretty. It goes from right to left!",
      "suggestionFa": "آره! فارسی خیلی قشنگه. از راست به چپ می‌ره!",
@@ -285,7 +285,7 @@
       "finished",
       "poster",
       "purple",
-      "green"
+      "pizza"
      ],
      "suggestion": "Our poster is finished! Pink, purple, green, penguins and pizza. It's the best poster ever!",
      "suggestionFa": "پوسترمون تموم شد! صورتی، بنفش، سبز، پنگوئن و پیتزا. بهترین پوستر دنیاست!",

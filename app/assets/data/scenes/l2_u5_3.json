@@ -32,8 +32,8 @@
     {
      "keywords": [
       "that's",
-      "right",
       "doing",
+      "right",
       "how"
      ],
      "suggestion": "That's right. How is he doing?",
@@ -77,9 +77,9 @@
     {
      "keywords": [
       "finished",
-      "project",
       "science",
-      "his"
+      "project",
+      "has"
      ],
      "suggestion": "Has he finished his science project?",
      "suggestionFa": "پروژهٔ علومش را تموم کرده؟",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "week",
-      "i'll",
       "help",
-      "home"
+      "i'll",
+      "home",
+      "week"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",

@@ -23,8 +23,8 @@
      "keywords": [
       "present",
       "bought",
-      "can't",
       "looks",
+      "can't",
       "awful"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
@@ -98,8 +98,8 @@
      "keywords": [
       "easier",
       "genius",
-      "box",
-      "now"
+      "now",
+      "box"
      ],
      "suggestion": "A box! Genius. It's easier with a box. Now what?",
      "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
@@ -148,8 +148,8 @@
       "triangles",
       "better",
       "right",
-      "fold",
-      "like"
+      "ends",
+      "them"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "write",
-      "gift",
       "nice",
-      "now",
-      "top"
+      "gift",
+      "bow",
+      "tag"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -195,10 +195,10 @@
    "branches": [
     {
      "keywords": [
-      "soppy",
       "don't",
       "mates",
-      "just",
+      "soppy",
+      "ryan",
       "love"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",

@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "photo",
       "taken",
       "where",
+      "photo",
       "was"
      ],
      "suggestion": "Where was this photo taken?",
@@ -69,9 +69,9 @@
     {
      "keywords": [
       "street",
+      "like",
       "then",
-      "high",
-      "like"
+      "high"
      ],
      "suggestion": "What was the High Street like then?",
      "suggestionFa": "خیابون اصلی اون موقع چطور بود؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "there",
       "every",
-      "day",
-      "did"
+      "there",
+      "use",
+      "day"
      ],
      "suggestion": "Did you use to go there every day?",
      "suggestionFa": "هر روز می‌رفتید اونجا؟",
@@ -228,9 +228,9 @@
    "branches": [
     {
      "keywords": [
+      "family",
       "sounds",
-      "lovely",
-      "family"
+      "lovely"
      ],
      "suggestion": "Your family sounds lovely.",
      "suggestionFa": "خانواده‌تون خیلی خوب به نظر میان.",

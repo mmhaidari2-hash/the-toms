@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "relief",
-      "that's"
+      "that's",
+      "relief"
      ],
      "suggestion": "That's a relief!",
      "suggestionFa": "خیالمون راحت شد!",
@@ -119,9 +119,9 @@
   "n3": {
    "id": "n3",
    "speaker": "william",
-   "text": "Ball! Play!",
+   "text": "Can we play ball now?",
    "translations": {
-    "fa": "توپ! بازی!"
+    "fa": "الان می‌تونیم توپ‌بازی کنیم؟"
    },
    "branches": [
     {
@@ -207,15 +207,16 @@
   "n5": {
    "id": "n5",
    "speaker": "william",
-   "text": "Nana! More!",
+   "text": "Nana! More banana, please!",
    "translations": {
-    "fa": "نانا! بیشتر!"
+    "fa": "نانا! موز بیشتر، لطفاً!"
    },
    "branches": [
     {
      "keywords": [
       "wants",
-      "more"
+      "more",
+      "he"
      ],
      "suggestion": "He wants more!",
      "suggestionFa": "بیشتر می‌خواد!",
@@ -225,11 +226,12 @@
     },
     {
      "keywords": [
-      "said",
-      "nana"
+      "eating",
+      "again",
+      "he's"
      ],
-     "suggestion": "He said \"Nana\"!",
-     "suggestionFa": "گفت «نانا»!",
+     "suggestion": "He's eating again!",
+     "suggestionFa": "دوباره داره غذا می‌خوره!",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -252,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
-      "better"
+      "better",
+      "thanks"
      ],
      "suggestion": "It's better, thanks.",
      "suggestionFa": "بهتره، ممنون.",
@@ -306,13 +308,13 @@
     },
     {
      "keywords": [
-      "adults",
-      "babies",
       "faster",
-      "than"
+      "adults",
+      "little",
+      "kids"
      ],
-     "suggestion": "Ha! Babies get better faster than adults.",
-     "suggestionFa": "ها! بچه‌ها از بزرگ‌ترها زودتر خوب میشن.",
+     "suggestion": "Ha! Little kids get better faster than adults.",
+     "suggestionFa": "ها! بچه‌های کوچیک از بزرگ‌ترها زودتر خوب میشن.",
      "trustDelta": 5,
      "next": "n8",
      "success": true
@@ -332,9 +334,9 @@
   "n8": {
    "id": "n8",
    "speaker": "leslie",
-   "text": "That's true! Tomorrow he can go back to baby group with Nana. And you can go back to bed. Doctor's orders!",
+   "text": "That's true! Tomorrow he can go back to pre-school. And you can go back to bed. Doctor's orders!",
    "translations": {
-    "fa": "راسته! فردا می‌تونه با نانا برگرده گروه بازی بچه‌ها. و تو می‌تونی برگردی تو تخت. دستور دکتر!"
+    "fa": "راسته! فردا می‌تونه برگرده پیش‌دبستانی. و تو می‌تونی برگردی تو تخت. دستور دکتر!"
    },
    "branches": [],
    "newWords": []

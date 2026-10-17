@@ -179,7 +179,7 @@
       "goldie",
       "food",
       "much",
-      "how"
+      "eat"
      ],
      "suggestion": "How much food does Goldie eat?",
      "suggestionFa": "گلدی چقدر غذا می‌خوره?",
@@ -230,8 +230,8 @@
      "keywords": [
       "pinch",
       "once",
-      "got",
-      "day"
+      "day",
+      "got"
      ],
      "suggestion": "A pinch once a day. Got it.",
      "suggestionFa": "یه ذره روزی یه بار. فهمیدم.",
@@ -241,8 +241,8 @@
     },
     {
      "keywords": [
-      "goldie",
       "nicola",
+      "goldie",
       "photo",
       "i'll"
      ],
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "same",
+      "sure",
       "i'll",
-      "time",
-      "sure"
+      "time"
      ],
      "suggestion": "Sure. I'll put mine out at the same time.",
      "suggestionFa": "حتماً. مال خودم را هم همون موقع می‌ذارم.",

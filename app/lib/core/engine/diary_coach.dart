@@ -25,7 +25,7 @@ class DiaryCoach {
     'nicola': [['I can read that! Well, nearly. Teddy says it\'s brilliant.', 'من می‌تونم بخونمش! خب، تقریباً. خرسی می‌گه عالیه.']],
     'ryan': [['Not gonna lie, that\'s actually decent, mate.', 'دروغ نگم، واقعاً خوبه رفیق.']],
     'weda': [['You\'ve a way with words, pet. Mind you, so did I at your age.', 'با کلمات خوب بازی می‌کنی عزیزم. البته منم هم‌سن تو همین‌طور بودم.']],
-    'william': [['Ooh! Pretty! *scribbles on it*', 'اوه! قشنگ! *روش خط‌خطی می‌کنه*']],
+    'william': [['Ooh, pretty! Can I draw on it?', 'اوه، قشنگه! می‌تونم روش نقاشی بکشم؟']],
   };
 
   static DiaryFeedback review(String text, List<String> vocab, List<Character> family, Map<String, int> trust, {int seed = 0}) {

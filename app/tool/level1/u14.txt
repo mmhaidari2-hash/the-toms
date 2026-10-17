@@ -81,13 +81,13 @@ weda: William's bath is ready. Can you check the water? Not too hot! | حموم 
 > It's warm. It's fine. | گرمه. خوبه.
 > It's a bit hot. Add some cold water. | یه کم داغه. یه کم آب سرد اضافه کن.
 W: bath=وان/حمام ; ready=آماده ; check=بررسی کردن ; hot=داغ
-C: Test a baby's bath with your elbow — it should feel warm, not hot. | آب حمام نوزاد را با آرنج امتحان کنید.
+C: Test a child's bath with your elbow — it should feel warm, not hot. | آب حمام بچه را با آرنج امتحان کنید.
 weda: Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much! | خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!
 > Stop, Nicola! That's enough! | بسه نیکولا! کافیه!
 > Oh no! Look at all the bubbles! | وای نه! این همه حباب را ببین!
 W: bubble bath=کف حمام ; too much=خیلی زیاد ; enough=کافی
 X: is too many bubbles ; there is too much bubble => Too many bubbles? Yes, far too many! | There are too many bubbles! | خیلی حباب هست!
-william: Bubbles! More bubbles! | حباب! حباب بیشتر!
+william: Bubbles! I want more bubbles! | حباب! حباب بیشتر می‌خوام!
 > No more bubbles, William! | دیگه حباب بسه ویلیام!
 > He loves the bubbles! | عاشق حباب‌هاست!
 W: more=بیشتر
@@ -99,7 +99,7 @@ weda: Can you pass me the duck? The yellow rubber duck. | اردک را بهم �
 > Here's the duck. Quack quack! | اینم اردک. کوآک کوآک!
 > Is this the duck? | این اردکه؟
 W: rubber duck=اردک لاستیکی ; quack=صدای اردک
-william: Duck! Splash! | اردک! شلپ!
+william: Splash! My duck is swimming! | شلپ! اردکم داره شنا می‌کنه!
 > Oh! I'm all wet! | آه! خیس خیس شدم!
 > Not too much splashing, William! | زیاد آب نپاشون ویلیام!
 W: splash=آب پاشیدن ; wet=خیس

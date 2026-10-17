@@ -25,7 +25,7 @@
       "garden",
       "nicola",
       "first",
-      "fell"
+      "knee"
      ],
      "suggestion": "Oh no! Nicola fell over in the garden. Her knee is bleeding. Can you get the first aid kit?",
      "suggestionFa": "ای وای! نیکولا تو حیاط افتاد. زانوش داره خون میاد. می‌تونی جعبهٔ کمک‌های اولیه را بیاری؟",
@@ -50,7 +50,7 @@
       "sweetie",
       "nicola",
       "green",
-      "see"
+      "box"
      ],
      "suggestion": "In the top cupboard, the green box. Nicola, sweetie, let me see.",
      "suggestionFa": "تو کابینت بالایی، جعبهٔ سبز. نیکولا، عزیزم، بذار ببینم.",
@@ -128,11 +128,11 @@
    "branches": [
     {
      "keywords": [
-      "wipes",
       "first",
       "water",
-      "pass",
-      "wash"
+      "wipes",
+      "wash",
+      "pass"
      ],
      "suggestion": "First, we wash it with water. Can you pass me the wipes?",
      "suggestionFa": "اول با آب می‌شوریمش. دستمال‌های مرطوب را میدی؟",
@@ -155,9 +155,9 @@
      "keywords": [
       "little",
       "nicola",
-      "three",
-      "brave",
-      "sting"
+      "sting",
+      "might",
+      "three"
      ],
      "suggestion": "It might sting a little. Be brave, Nicola. One, two, three… done!",
      "suggestionFa": "شاید یه کم بسوزه. شجاع باش نیکولا. یک، دو، سه… تموم شد!",
@@ -308,9 +308,9 @@
     {
      "keywords": [
       "running",
-      "being",
       "patio",
       "don't",
+      "being",
       "brave"
      ],
      "suggestion": "Just one, for being so brave. And no more running on the patio, OK? Walk, don't run!",

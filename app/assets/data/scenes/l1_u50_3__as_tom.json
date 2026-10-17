@@ -24,8 +24,8 @@
       "everyone's",
       "favourite",
       "question",
-      "sunday",
-      "what's"
+      "what's",
+      "sunday"
      ],
      "suggestion": "Question for the table! What's everyone's favourite food? Mine is a Sunday roast!",
      "suggestionFa": "سؤال برای همه! غذای محبوب همه چیه؟ مال من کباب یکشنبه‌ست!",
@@ -256,10 +256,10 @@
     {
      "keywords": [
       "decision",
-      "ghormeh",
-      "custard",
       "pudding",
-      "toffee"
+      "custard",
+      "ghormeh",
+      "sticky"
      ],
      "suggestion": "Sticky toffee pudding with custard! OK, decision made. Mehdi, will you cook ghormeh sabzi for us one day?",
      "suggestionFa": "پودینگ تافی چسبناک با کاستارد! خب، تصمیم گرفته شد. {you}، یه روز برامون قورمه‌سبزی درست می‌کنی؟",
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "neighbours",
-      "ghormeh",
       "hackney",
+      "ghormeh",
       "sabzi",
       "roast"
      ],

@@ -24,8 +24,8 @@
       "manchester",
       "beautiful",
       "district",
-      "we're",
-      "place"
+      "boots",
+      "going"
      ],
      "suggestion": "Right, boots on! We're going to the Peak District. It's the most beautiful place near Manchester.",
      "suggestionFa": "خب، چکمه‌ها پات! داریم می‌ریم پیک دیستریکت. قشنگ‌ترین جای نزدیک منچستره.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "mountain",
       "district",
+      "mountain",
       "highest",
       "scafell",
-      "we're"
+      "miles"
      ],
      "suggestion": "No, the highest mountain is Scafell Pike, in the Lake District. Today we're doing an easy one — about eight miles.",
      "suggestionFa": "نه، بلندترین کوه اسکافل پایکه، تو لیک دیستریکت. امروز یه مسیر آسون می‌ریم — حدود هشت مایل.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "england",
       "warmest",
+      "england",
       "oldest",
       "always",
       "going"
@@ -123,9 +123,9 @@
      "keywords": [
       "sandwiches",
       "phone's",
-      "signal",
       "leslie",
-      "snacks"
+      "snacks",
+      "signal"
      ],
      "suggestion": "Water, snacks and a map. My phone's the worst for signal up there. Leslie made sandwiches.",
      "suggestionFa": "آب، تنقلات و نقشه. گوشی من بالای کوه بدترین آنتن را داره. لزلی ساندویچ درست کرده.",
@@ -148,9 +148,9 @@
      "keywords": [
       "definitely",
       "leslie",
-      "let's",
-      "three",
-      "worst"
+      "worst",
+      "right",
+      "let's"
      ],
      "suggestion": "Leslie, definitely. I'm the worst — I once got us lost for three hours! Right, let's go.",
      "suggestionFa": "لزلی، قطعاً. من بدترینم — یه بار سه ساعت گممون کردم! خب، بریم.",

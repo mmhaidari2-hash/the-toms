@@ -34,8 +34,8 @@
      "keywords": [
       "engineering",
       "changed",
-      "what's",
-      "before"
+      "before",
+      "what's"
      ],
      "suggestion": "Before we argue, can I ask what's changed? You loved engineering.",
      "suggestionFa": "قبل از بحث، می‌تونم بپرسم چی عوض شده؟ عاشق مهندسی بودی.",
@@ -85,7 +85,7 @@
       "differently",
       "student",
       "normal",
-      "loans"
+      "about"
      ],
      "suggestion": "Fair point about debt. But student loans work differently from normal debt.",
      "suggestionFa": "دربارهٔ بدهی حرف درستیه. ولی وام دانشجویی با بدهی معمولی فرق داره.",
@@ -143,7 +143,7 @@
       "choose",
       "didn't",
       "could",
-      "both"
+      "have"
      ],
      "suggestion": "What if you didn't have to choose? Could you do both?",
      "suggestionFa": "اگه مجبور نبودی انتخاب کنی چی؟ می‌تونی هر دو را انجام بدی؟",
@@ -181,9 +181,9 @@
    "branches": [
     {
      "keywords": [
+      "profile",
       "content",
       "channel",
-      "profile",
       "degree"
      ],
      "suggestion": "Your degree gives you the content, and the channel builds your profile.",

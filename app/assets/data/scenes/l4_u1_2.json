@@ -22,7 +22,7 @@
       "brought",
       "simple",
       "start",
-      "here"
+      "them"
      ],
      "suggestion": "Start simple. Ask them what brought them here.",
      "suggestionFa": "ساده شروع کن. ازشون بپرس چی کشوندتشون اینجا.",
@@ -72,7 +72,7 @@
       "interested",
       "renewable",
       "student",
-      "energy"
+      "that's"
      ],
      "suggestion": "Say you're a student interested in renewable energy. That's true, isn't it?",
      "suggestionFa": "بگو یه دانش‌آموزی که به انرژی تجدیدپذیر علاقه داره. درسته دیگه؟",
@@ -84,8 +84,8 @@
      "keywords": [
       "conversation",
       "mention",
-      "charger",
-      "starter"
+      "starter",
+      "charger"
      ],
      "suggestion": "Mention your solar charger. It's a great conversation starter.",
      "suggestionFa": "شارژر خورشیدیت را بگو. شروع‌کنندهٔ عالی برای گفتگوئه.",
@@ -132,10 +132,10 @@
     },
     {
      "keywords": [
-      "opinion",
       "comment",
+      "opinion",
       "you've",
-      "then"
+      "just"
      ],
      "suggestion": "Comment on the talk you've just seen, then ask her opinion.",
      "suggestionFa": "دربارهٔ سخنرانی که دیدی نظر بده، بعد نظرش را بپرس.",
@@ -182,8 +182,8 @@
     },
     {
      "keywords": [
-      "placements",
       "experience",
+      "placements",
       "company",
       "offers"
      ],

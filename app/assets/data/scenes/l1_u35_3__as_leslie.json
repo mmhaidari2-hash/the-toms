@@ -1,9 +1,9 @@
 {
  "id": "l1_u35_3__as_leslie",
  "characterId": "william",
- "title": "(As Leslie) Bottle time",
- "titleFa": "(در نقش Leslie) وقت شیشهٔ شیر",
- "setting": "Baby William · Level 1",
+ "title": "(As Leslie) Snack time",
+ "titleFa": "(در نقش Leslie) وقت خوراکی",
+ "setting": "Little William · Level 1",
  "settingFa": "ویلیام کوچولو",
  "requires": null,
  "level": "A1",
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "william",
-   "text": "Milk! Milk!",
+   "text": "I'm hungry! I want a snack!",
    "translations": {
-    "fa": "شیر! شیر!"
+    "fa": "گرسنمه! خوراکی می‌خوام!"
    },
    "branches": [
     {
@@ -33,29 +33,37 @@
    ],
    "newWords": [
     {
-     "word": "milk",
-     "fa": "شیر"
+     "word": "hungry",
+     "fa": "گرسنه"
+    },
+    {
+     "word": "snack",
+     "fa": "خوراکی ؛ میان‌وعده"
+    },
+    {
+     "word": "fruit",
+     "fa": "میوه"
     }
    ]
   },
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "Do you want your milk?",
+   "text": "Do you want some fruit?",
    "translations": {
-    "fa": "شیرت را می‌خوای؟"
+    "fa": "میوه می‌خوای؟"
    },
    "branches": [
     {
      "keywords": [
-      "microwave",
-      "seconds",
-      "bottle",
+      "grapes",
       "fridge",
-      "thirty"
+      "please",
+      "snack",
+      "there"
      ],
-     "suggestion": "Can you warm his bottle? It's in the fridge. Thirty seconds in the microwave.",
-     "suggestionFa": "می‌تونی شیشه‌ش را گرم کنی؟ تو یخچاله. سی ثانیه تو مایکروویو.",
+     "suggestion": "Can you get him a snack? There are grapes in the fridge. Cut them in half, please.",
+     "suggestionFa": "می‌تونی براش خوراکی بیاری؟ تو یخچال انگور هست. لطفاً نصفشون کن.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -66,21 +74,21 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "Only thirty seconds?",
+   "text": "In half? Why?",
    "translations": {
-    "fa": "فقط سی ثانیه؟"
+    "fa": "نصف؟ چرا؟"
    },
    "branches": [
     {
      "keywords": [
-      "shake",
-      "wrist",
-      "well",
-      "test",
-      "then"
+      "grapes",
+      "little",
+      "aren't",
+      "please",
+      "whole"
      ],
-     "suggestion": "Yes, shake it well. Then test it on your wrist. Not too hot!",
-     "suggestionFa": "آره، خوب تکونش بده. بعد رو مچ دستت امتحانش کن. خیلی داغ نباشه!",
+     "suggestion": "Whole grapes aren't safe for little ones. And yes — milk in his blue cup, please.",
+     "suggestionFa": "انگور درسته برای بچه‌های کوچیک امن نیست. و آره — لطفاً شیر تو لیوان آبیش.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -91,9 +99,9 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "It's warm. Not hot.",
+   "text": "Here's the blue cup.",
    "translations": {
-    "fa": "گرمه. داغ نیست."
+    "fa": "بفرما لیوان آبی."
    },
    "branches": [
     {
@@ -113,9 +121,9 @@
   "r5": {
    "id": "r5",
    "speaker": "william",
-   "text": "Mine! Mine!",
+   "text": "Not red! Blue! I want blue!",
    "translations": {
-    "fa": "مال من! مال من!"
+    "fa": "قرمز نه! آبی! آبی می‌خوام!"
    },
    "branches": [
     {
@@ -131,8 +139,8 @@
    ],
    "newWords": [
     {
-     "word": "mine",
-     "fa": "مال من"
+     "word": "blue",
+     "fa": "آبی"
     },
     {
      "word": "hold",
@@ -143,21 +151,21 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "Here's your bottle, William.",
+   "text": "Here's your blue cup, William.",
    "translations": {
-    "fa": "بفرما شیشه‌ت ویلیام."
+    "fa": "بفرما لیوان آبیت، ویلیام."
    },
    "branches": [
     {
      "keywords": [
-      "holding",
-      "himself",
-      "likes",
+      "everything",
+      "green",
       "want",
-      "sit"
+      "blue",
+      "week"
      ],
-     "suggestion": "He likes holding it himself now. Big boy! Do you want to sit with him?",
-     "suggestionFa": "الان دوست داره خودش بگیرتش. پسر بزرگ! می‌خوای کنارش بشینی؟",
+     "suggestion": "Everything has to be blue this week. Last week it was green! Do you want to sit with him?",
+     "suggestionFa": "این هفته همه چی باید آبی باشه. هفتهٔ پیش سبز بود! می‌خوای کنارش بشینی؟",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -189,9 +197,9 @@
   "r8": {
    "id": "r8",
    "speaker": "william",
-   "text": "Mmm. All gone!",
+   "text": "Mmm. All gone! More grapes, please!",
    "translations": {
-    "fa": "ممم. تموم شد!"
+    "fa": "ممم. تموم شد! انگور بیشتر، لطفاً!"
    },
    "branches": [
     {
@@ -210,6 +218,10 @@
     {
      "word": "all gone",
      "fa": "تمام شد"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر"
     }
    ]
   },
@@ -223,14 +235,14 @@
    "branches": [
     {
      "keywords": [
-      "gently",
-      "burp",
-      "back",
-      "like",
-      "need"
+      "instead",
+      "cracker",
+      "won't",
+      "give",
+      "more"
      ],
-     "suggestion": "Now we need to burp him. Pat his back gently. Like this.",
-     "suggestionFa": "حالا باید آروغش را بگیریم. آروم به پشتش بزن. این‌جوری.",
+     "suggestion": "No more now, or he won't eat his tea. Can you give him a cracker instead?",
+     "suggestionFa": "دیگه بسه، وگرنه شامش را نمی‌خوره. می‌تونی به‌جاش یه بیسکویت شور بهش بدی؟",
      "trustDelta": 5,
      "next": "r10",
      "success": true
@@ -241,9 +253,9 @@
   "r10": {
    "id": "r10",
    "speaker": "mehdi",
-   "text": "Like this? Gently?",
+   "text": "Here's a cracker, William.",
    "translations": {
-    "fa": "این‌جوری؟ آروم؟"
+    "fa": "بفرما یه بیسکویت، ویلیام."
    },
    "branches": [
     {
@@ -263,9 +275,9 @@
   "r11": {
    "id": "r11",
    "speaker": "william",
-   "text": "Burp! Ha ha!",
+   "text": "Yes, please! Thank you! I love crackers!",
    "translations": {
-    "fa": "آروغ! ها ها!"
+    "fa": "آره، لطفاً! ممنون! عاشق کراکرم!"
    },
    "branches": [
     {
@@ -281,29 +293,33 @@
    ],
    "newWords": [
     {
-     "word": "excuse you",
-     "fa": "(شوخی) بگو ببخشید"
+     "word": "manners",
+     "fa": "ادب"
+    },
+    {
+     "word": "you're welcome",
+     "fa": "خواهش می‌کنم"
     }
    ]
   },
   "r12": {
    "id": "r12",
    "speaker": "mehdi",
-   "text": "Good boy!",
+   "text": "Good manners, William!",
    "translations": {
-    "fa": "پسر خوب!"
+    "fa": "چه با ادب، ویلیام!"
    },
    "branches": [
     {
      "keywords": [
-      "minutes",
-      "excuse",
-      "asleep",
-      "he'll",
-      "thank"
+      "please",
+      "taught",
+      "thank",
+      "nana",
+      "him"
      ],
-     "suggestion": "Ha! \"Excuse you\"! He'll be asleep in five minutes. Thank you, nanny Mehdi!",
-     "suggestionFa": "ها! «عذرخواهی کن»! پنج دقیقه دیگه خوابه. ممنون پرستار {you}!",
+     "suggestion": "Ha! \"Please\" and \"thank you\"! Nana taught him that. Thank you, Mehdi!",
+     "suggestionFa": "ها! «لطفاً» و «ممنون»! نانا یادش داده. ممنون {you}!",
      "trustDelta": 5,
      "next": "r13",
      "success": true

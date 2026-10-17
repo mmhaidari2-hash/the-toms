@@ -22,10 +22,10 @@
     {
      "keywords": [
       "street",
-      "fruit",
       "raj's",
-      "high",
-      "best"
+      "fruit",
+      "shop",
+      "high"
      ],
      "suggestion": "This is Raj's shop. His fruit and veg are the best on the high street. What do we need?",
      "suggestionFa": "این مغازهٔ راجه. میوه و سبزی‌اش بهترینِ خیابون اصلیه. چی لازم داریم؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "potatoes",
-      "carrots",
       "bananas",
+      "carrots",
       "apples",
       "ask"
      ],
@@ -232,8 +232,8 @@
    "branches": [
     {
      "keywords": [
-      "potatoes",
       "thinking",
+      "potatoes",
       "carrots",
       "kilos",
       "good"

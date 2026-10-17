@@ -22,7 +22,7 @@
       "inviting",
       "thanks",
       "tom",
-      "us"
+      "hi"
      ],
      "suggestion": "Hi, Tom. Thanks for inviting us.",
      "suggestionFa": "سلام تام. ممنون که دعوتمون کردی.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "sorry",
-      "hello",
       "we're",
+      "hello",
       "late"
      ],
      "suggestion": "Hello! Sorry we're a bit late.",
@@ -129,8 +129,8 @@
     },
     {
      "keywords": [
-      "persian",
       "brought",
+      "persian",
       "sweets",
       "shop"
      ],
@@ -236,8 +236,8 @@
      "keywords": [
       "george",
       "chair",
-      "own",
-      "his"
+      "his",
+      "has"
      ],
      "suggestion": "George has his own chair?",
      "suggestionFa": "جورج صندلی مخصوص داره؟",
@@ -314,8 +314,8 @@
    "branches": [
     {
      "keywords": [
-      "think",
-      "awake"
+      "awake",
+      "think"
      ],
      "suggestion": "I think he's awake.",
      "suggestionFa": "فکر کنم بیداره.",

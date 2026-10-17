@@ -71,9 +71,9 @@
     {
      "keywords": [
       "inside",
-      "rude",
       "iran",
-      "wear"
+      "wear",
+      "rude"
      ],
      "suggestion": "In Iran, it's very rude to wear shoes inside.",
      "suggestionFa": "تو ایران پوشیدن کفش تو خونه خیلی بی‌ادبیه.",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "carpets",
-      "dirty",
-      "clean"
+      "clean",
+      "dirty"
      ],
      "suggestion": "Shoes are dirty. Carpets are clean.",
      "suggestionFa": "کفش کثیفه. فرش تمیزه.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "please",
-      "feet",
-      "cold"
+      "cold",
+      "feet"
      ],
      "suggestion": "Yes, please. My feet are cold.",
      "suggestionFa": "آره، لطفاً. پاهام سرده.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "help",
       "khan",
+      "help",
       "mrs",
       "let"
      ],
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "shall",
-      "shoes",
       "where",
+      "shoes",
       "put"
      ],
      "suggestion": "Where shall I put my shoes?",
@@ -276,8 +276,8 @@
    "branches": [
     {
      "keywords": [
-      "smelly",
       "really",
+      "smelly",
       "they",
       "ha"
      ],

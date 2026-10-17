@@ -62,10 +62,10 @@
     {
      "keywords": [
       "bucket's",
-      "leaking",
       "plumber",
-      "number",
-      "sink's"
+      "leaking",
+      "sink's",
+      "fridge"
      ],
      "suggestion": "Hang on — the pipe under the sink's leaking again. Bucket's nearly full. I'll ring the plumber. Can you pass me the number on the fridge?",
      "suggestionFa": "صبر کن — لوله زیر سینک باز نشتی داره. سطل تقریباً پره. به لوله‌کش زنگ می‌زنم. شماره روی یخچال رو بهم می‌دی؟",
@@ -474,7 +474,7 @@
       "leslie's",
       "helping",
       "thanks",
-      "don't"
+      "first"
      ],
      "suggestion": "Jam first, obviously. Leslie's wrong, but don't tell her. Thanks for helping with the call.",
      "suggestionFa": "اول مربا، معلومه. لزلی اشتباه می‌کنه، ولی بهش نگو. ممنون که برای تماس کمک کردی.",
@@ -496,8 +496,8 @@
     {
      "keywords": [
       "would've",
-      "where's",
       "handled",
+      "where's",
       "proper",
       "better"
      ],

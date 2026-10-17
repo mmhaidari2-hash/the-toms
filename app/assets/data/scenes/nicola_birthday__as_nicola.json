@@ -22,9 +22,9 @@
     {
      "keywords": [
       "badge",
-      "look",
       "says",
       "came",
+      "look",
       "six"
      ],
      "suggestion": "You came! You came! Look at my badge — it says I'm SIX!",
@@ -74,8 +74,8 @@
       "unicorn",
       "mia's",
       "here",
-      "look",
-      "love"
+      "love",
+      "book"
      ],
      "suggestion": "It's a unicorn book! I love it! Look, Mia's here too.",
      "suggestionFa": "یه کتاب تک‌شاخه! عاشقشم! ببین، میا هم اینجاست.",
@@ -100,7 +100,7 @@
       "playing",
       "musical",
       "freeze",
-      "we're"
+      "music"
      ],
      "suggestion": "We're playing musical statues! When the music stops, you freeze. Want to play?",
      "suggestionFa": "داریم مجسمه‌بازی می‌کنیم! وقتی آهنگ قطع میشه، باید خشک بشی. می‌خوای بازی کنی؟",
@@ -121,9 +121,9 @@
    "branches": [
     {
      "keywords": [
-      "fairy",
       "cakes",
       "party",
+      "fairy",
       "moved",
       "food"
      ],
@@ -149,7 +149,7 @@
       "sprinkles",
       "there's",
       "little",
-      "mummy",
+      "cakes",
       "icing"
      ],
      "suggestion": "Little cakes with icing and sprinkles! Mummy made them. And there's jelly and ice cream!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "everyone's",
-      "singing",
       "candles",
-      "will",
-      "then"
+      "singing",
+      "blow",
+      "sing"
      ],
      "suggestion": "Everyone's singing! Will you sing with me? Then I blow out the candles!",
      "suggestionFa": "همه دارن می‌خونن! باهام می‌خونی؟ بعد شمع‌ها را فوت می‌کنم!",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "parcel",
-      "can't",
       "won't",
-      "wish",
-      "made"
+      "can't",
+      "made",
+      "come"
      ],
      "suggestion": "I made a wish! But I can't tell you, or it won't come true. Now pass the parcel!",
      "suggestionFa": "آرزو کردم! ولی نمی‌تونم بهت بگم، وگرنه برآورده نمیشه. حالا بازی بسته!",
@@ -223,9 +223,9 @@
      "keywords": [
       "birthday",
       "friend",
-      "being",
+      "party",
       "thank",
-      "party"
+      "being"
      ],
      "suggestion": "Best. Birthday. EVER. Thank you for being my friend! You get a party bag!",
      "suggestionFa": "بهترین. تولد. تاریخ! ممنون که دوستمی! یه کیسهٔ هدیه می‌گیری!",

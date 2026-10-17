@@ -175,8 +175,8 @@
     {
      "keywords": [
       "don't",
-      "tom",
-      "eat"
+      "eat",
+      "tom"
      ],
      "suggestion": "I don't eat pork, Tom.",
      "suggestionFa": "من گوشت خوک نمی‌خورم تام.",
@@ -297,8 +297,8 @@
    "branches": [
     {
      "keywords": [
-      "corn",
-      "good"
+      "good",
+      "corn"
      ],
      "suggestion": "Corn is good.",
      "suggestionFa": "ذرت خوبه.",
@@ -308,8 +308,8 @@
     },
     {
      "keywords": [
-      "skewers",
-      "peppers"
+      "peppers",
+      "skewers"
      ],
      "suggestion": "And peppers for skewers?",
      "suggestionFa": "و فلفل دلمه برای سیخ؟",
@@ -355,8 +355,8 @@
     {
      "keywords": [
       "shopping",
-      "that's",
       "enough",
+      "that's",
       "today"
      ],
      "suggestion": "That's enough shopping for today!",

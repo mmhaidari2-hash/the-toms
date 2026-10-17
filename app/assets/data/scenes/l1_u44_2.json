@@ -89,9 +89,9 @@
     {
      "keywords": [
       "much",
-      "how",
+      "tea",
       "cup",
-      "tea"
+      "how"
      ],
      "suggestion": "And how much is a cup of tea?",
      "suggestionFa": "و یه فنجون چای چنده؟",
@@ -137,8 +137,8 @@
     },
     {
      "keywords": [
-      "coffee",
       "double",
+      "coffee",
       "price"
      ],
      "suggestion": "Coffee is double the price!",
@@ -310,8 +310,8 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "pounds",
+      "twenty",
       "here's",
       "three"
      ],
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "card",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by card?",

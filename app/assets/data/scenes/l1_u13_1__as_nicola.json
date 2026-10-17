@@ -22,10 +22,10 @@
     {
      "keywords": [
       "ducks",
-      "look",
-      "have",
       "food",
-      "pond"
+      "pond",
+      "have",
+      "lots"
      ],
      "suggestion": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
      "suggestionFa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟",
@@ -49,8 +49,8 @@
       "special",
       "ducks",
       "bread",
-      "food",
-      "duck"
+      "duck",
+      "food"
      ],
      "suggestion": "No! Not bread. Bread is bad for ducks. It's special duck food.",
      "suggestionFa": "نه! نون نه. نون برای اردک‌ها بده. غذای مخصوص اردکه.",
@@ -73,8 +73,8 @@
      "keywords": [
       "ducks",
       "seeds",
-      "oats",
       "many",
+      "oats",
       "how"
      ],
      "suggestion": "Oats and seeds. How many ducks can you see?",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "grumpy",
-      "don't",
-      "close",
+      "white",
       "swans",
-      "white"
+      "close",
+      "don't"
      ],
      "suggestion": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
      "suggestionFa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "babies",
-      "eating",
       "little",
-      "brown",
-      "she's"
+      "eating",
+      "babies",
+      "she's",
+      "brown"
      ],
      "suggestion": "Yes! Look, the little brown duck is eating. She's got babies!",
      "suggestionFa": "آره! ببین، اردک قهوه‌ای کوچولو داره می‌خوره. بچه داره!",
@@ -173,9 +173,9 @@
      "keywords": [
       "ducklings",
       "called",
-      "three",
       "ducks",
-      "baby"
+      "three",
+      "four"
      ],
      "suggestion": "One, two, three, four, five! Five ducklings. Baby ducks are called ducklings.",
      "suggestionFa": "یک، دو، سه، چهار، پنج! پنج جوجه اردک. به بچه اردک می‌گن جوجه اردک.",
@@ -224,8 +224,8 @@
       "swings",
       "ducks",
       "next",
-      "week",
-      "race"
+      "race",
+      "week"
      ],
      "suggestion": "Yes! Race you to the swings! Bye, ducks! See you next week!",
      "suggestionFa": "آره! مسابقه تا تاب‌ها! خداحافظ اردک‌ها! هفتهٔ بعد می‌بینیمتون!",

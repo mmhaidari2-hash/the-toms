@@ -25,7 +25,7 @@
       "wedding",
       "dresses",
       "dress",
-      "will"
+      "hate"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -49,8 +49,8 @@
       "cousin's",
       "wedding",
       "white",
-      "wears",
-      "bride"
+      "bride",
+      "wears"
      ],
      "suggestion": "My cousin's wedding. In June. Not white — only the bride wears white!",
      "suggestionFa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!",
@@ -73,9 +73,9 @@
      "keywords": [
       "excuse",
       "twelve",
-      "have",
       "nice",
-      "blue"
+      "blue",
+      "size"
      ],
      "suggestion": "Ooh, blue is nice. Excuse me, do you have this in a size twelve?",
      "suggestionFa": "اوه، آبی قشنگه. ببخشید، اینو سایز دوازده دارید؟",
@@ -206,8 +206,8 @@
      "keywords": [
       "fourteen",
       "honest",
-      "look",
       "i'll",
+      "look",
       "how"
      ],
      "suggestion": "OK, I'll try the fourteen. How does it look? Be honest!",
@@ -310,8 +310,8 @@
       "shopping",
       "thompson",
       "leslie",
-      "thank",
-      "shoes"
+      "shoes",
+      "thank"
      ],
      "suggestion": "Leslie Thompson, 07700 900123. Thank you! Now I need shoes. Oh no, more shopping!",
      "suggestionFa": "لزلی تامپسون، ۰۷۷۰۰ ۹۰۰۱۲۳. ممنون! حالا کفش لازم دارم. وای نه، خرید بیشتر!",
@@ -335,7 +335,7 @@
       "definitely",
       "patience",
       "coffee",
-      "thank",
+      "shoes",
       "first"
      ],
      "suggestion": "Coffee first, definitely! Then shoes. Thank you for your patience, love. You're a star!",

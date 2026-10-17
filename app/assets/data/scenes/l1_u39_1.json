@@ -70,8 +70,8 @@
     {
      "keywords": [
       "chairs",
-      "i'll",
       "move",
+      "i'll",
       "sure"
      ],
      "suggestion": "Sure. I'll move the chairs.",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "messy",
       "eater",
+      "messy",
       "he's"
      ],
      "suggestion": "He's a messy eater.",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "playing",
-      "she's",
       "trick",
+      "she's",
       "ha"
      ],
      "suggestion": "Ha! She's playing a trick.",
@@ -286,9 +286,9 @@
     },
     {
      "keywords": [
+      "plug",
       "back",
-      "i'll",
-      "plug"
+      "i'll"
      ],
      "suggestion": "I'll plug it back in.",
      "suggestionFa": "دوباره وصلش می‌کنم.",
@@ -322,8 +322,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "sofa",
+      "i'll",
       "ok"
      ],
      "suggestion": "OK, I'll do under the sofa.",

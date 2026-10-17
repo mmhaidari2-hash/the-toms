@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "shall",
       "quite",
+      "shall",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "he's",
-      "like"
+      "like",
+      "he's"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -132,7 +132,7 @@
       "teatime",
       "toast",
       "only",
-      "bit"
+      "had"
      ],
      "suggestion": "He only had a bit of toast at teatime.",
      "suggestionFa": "سر شام فقط یه کم نون تست خورد.",
@@ -144,8 +144,8 @@
      "keywords": [
       "dinner",
       "pushed",
-      "away",
-      "much"
+      "much",
+      "away"
      ],
      "suggestion": "Not much. He pushed his dinner away.",
      "suggestionFa": "زیاد نه. شامش را پس زد.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "calpol",
       "course",
+      "calpol",
       "here's",
       "water"
      ],
@@ -198,8 +198,8 @@
      "keywords": [
       "cupboard",
       "kettle",
-      "which",
-      "above"
+      "above",
+      "which"
      ],
      "suggestion": "Which cupboard? The one above the kettle?",
      "suggestionFa": "کدوم کابینت؟ اونی که بالای کتریه؟",
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "says",
       "ages",
+      "says",
       "two"
      ],
      "suggestion": "It says five ml for ages two to four.",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "every",
       "hours",
+      "every",
       "six"
      ],
      "suggestion": "Yes, five ml, every four to six hours.",
@@ -303,8 +303,8 @@
     },
     {
      "keywords": [
-      "jumper",
       "should",
+      "jumper",
       "take",
       "his"
      ],
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "change",
       "things",
+      "change",
       "don't",
       "they"
      ],
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "lullaby",
       "persian",
+      "lullaby",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

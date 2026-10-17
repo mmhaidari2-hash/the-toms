@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "leslie's",
-      "teatime",
       "meeting",
+      "teatime",
       "right"
      ],
      "suggestion": "Right, it's William's teatime. Leslie's at a meeting. Can you give me a hand?",
@@ -50,7 +50,7 @@
       "always",
       "first",
       "he's",
-      "one"
+      "bib"
      ],
      "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
      "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
@@ -71,14 +71,14 @@
    "branches": [
     {
      "keywords": [
+      "booster",
       "careful",
-      "drawer",
       "fridge",
-      "chair",
-      "high"
+      "drawer",
+      "legs"
      ],
-     "suggestion": "In the drawer by the fridge. Then put him in the high chair. Careful with his legs.",
-     "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بچه. مواظب پاهاش باش.",
+     "suggestion": "In the drawer by the fridge. Then put him on his booster seat. Careful with his legs.",
+     "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بلندکنندهٔ بچه. مواظب پاهاش باش.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -111,9 +111,9 @@
   "r5": {
    "id": "r5",
    "speaker": "william",
-   "text": "Num num! Num num!",
+   "text": "I'm hungry! Where's my dinner?",
    "translations": {
-    "fa": "نام نام! نام نام!"
+    "fa": "گرسنمه! شامم کجاست؟"
    },
    "branches": [
     {
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "carrot",
-      "mashed",
+      "here's",
       "dinner",
-      "potato",
-      "here's"
+      "mashed",
+      "potato"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
      "suggestionFa": "اینم شامش. پورهٔ هویج و سیب‌زمینی. بعد امتحانش کن. خیلی داغ نباشه!",
@@ -209,9 +209,9 @@
   "r9": {
    "id": "r9",
    "speaker": "william",
-   "text": "Bus! Mmm!",
+   "text": "Here comes the bus! Yum!",
    "translations": {
-    "fa": "بوس! ممم!"
+    "fa": "اتوبوس داره میاد! به‌به!"
    },
    "branches": [
     {
@@ -235,21 +235,21 @@
   "r10": {
    "id": "r10",
    "speaker": "mehdi",
-   "text": "He said \"bus\"!",
+   "text": "He loves the bus game!",
    "translations": {
-    "fa": "گفت «اتوبوس»!"
+    "fa": "عاشق بازی اتوبوسه!"
    },
    "branches": [
     {
      "keywords": [
       "orange",
+      "loves",
+      "buses",
       "right",
-      "like",
-      "face",
-      "then"
+      "face"
      ],
-     "suggestion": "He said BUS! Like his dad! Right, then a wipe. His face is orange!",
-     "suggestionFa": "گفت اتوبوس! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!",
+     "suggestion": "He loves buses! Like his dad! Right, then a wipe. His face is orange!",
+     "suggestionFa": "عاشق اتوبوسه! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!",
      "trustDelta": 5,
      "next": "r11",
      "success": true
@@ -270,11 +270,11 @@
       "brilliant",
       "natural",
       "leslie",
-      "hears",
-      "wait"
+      "plate",
+      "clean"
      ],
-     "suggestion": "Brilliant job. You're a natural! Wait till Leslie hears he said \"bus\"!",
-     "suggestionFa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشنوه گفت «اتوبوس»!",
+     "suggestion": "Brilliant job. You're a natural! Wait till Leslie sees his clean plate!",
+     "suggestionFa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشقاب تمیزش را ببینه!",
      "trustDelta": 5,
      "next": "r12",
      "success": true

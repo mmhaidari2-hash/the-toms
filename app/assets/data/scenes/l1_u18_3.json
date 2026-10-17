@@ -20,8 +20,8 @@
     {
      "keywords": [
       "fridge",
-      "hungry",
-      "what's"
+      "what's",
+      "hungry"
      ],
      "suggestion": "I'm hungry too. What's in the fridge?",
      "suggestionFa": "منم گرسنه‌ام. تو یخچال چی هست؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "something",
-      "let's",
       "quick",
+      "let's",
       "have"
      ],
      "suggestion": "Let's have something quick.",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "slices",
       "please",
+      "slices",
       "two"
      ],
      "suggestion": "Two slices, please.",

@@ -54,9 +54,9 @@
      "keywords": [
       "nicola",
       "think",
-      "work",
       "dogs",
-      "hmm"
+      "work",
+      "lot"
      ],
      "suggestion": "A dog? Hmm. Dogs are a lot of work, Nicola. What do you think?",
      "suggestionFa": "سگ؟ هوم. سگ‌ها خیلی کار دارن نیکولا. نظر تو چیه؟",
@@ -139,9 +139,9 @@
      "keywords": [
       "cleans",
       "feeds",
-      "poo",
+      "who",
       "dog",
-      "who"
+      "poo"
      ],
      "suggestion": "Who feeds the dog? Who cleans up the poo?",
      "suggestionFa": "کی به سگ غذا می‌ده؟ کی کثیفی‌اش را تمیز می‌کنه؟",
@@ -290,8 +290,8 @@
       "william",
       "little",
       "scared",
-      "nana",
-      "dogs"
+      "dogs",
+      "nana"
      ],
      "suggestion": "Hmm. William is very little. And Nana is scared of dogs.",
      "suggestionFa": "هوم. ویلیام خیلی کوچیکه. و نانا از سگ می‌ترسه.",
@@ -360,8 +360,8 @@
    "branches": [
     {
      "keywords": [
-      "goldfish",
       "birthday",
+      "goldfish",
       "maybe",
       "deal",
       "ok"

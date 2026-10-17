@@ -23,9 +23,9 @@
      "keywords": [
       "biscuit",
       "would",
+      "host",
       "good",
-      "told",
-      "like"
+      "told"
      ],
      "suggestion": "Mum told me to be a good host. Would you like a biscuit?",
      "suggestionFa": "مامان گفت میزبان خوبی باشم. بیسکویت میل دارید؟",
@@ -74,8 +74,8 @@
       "biscuits",
       "vanilla",
       "middle",
-      "cream",
-      "would"
+      "would",
+      "cream"
      ],
      "suggestion": "Two biscuits with vanilla cream in the middle. Would you like a cup of tea with it?",
      "suggestionFa": "دو تا بیسکویت با خامهٔ وانیلی وسطش. با چای میل دارید؟",
@@ -152,8 +152,8 @@
       "important",
       "question",
       "dunker",
-      "most",
-      "i've"
+      "i've",
+      "most"
      ],
      "suggestion": "Nah, I've got it. Now, the most important question: are you a dunker?",
      "suggestionFa": "نه، خودم می‌تونم. خب، مهم‌ترین سؤال: تو اهل فرو کردنی؟",
@@ -200,10 +200,10 @@
     {
      "keywords": [
       "biscuit",
-      "another",
       "happens",
+      "another",
       "would",
-      "best"
+      "soup"
      ],
      "suggestion": "Ha! Biscuit soup. Happens to the best of us. Would you like another one?",
      "suggestionFa": "ها! سوپ بیسکویت. برای بهترین‌ها هم پیش میاد. یکی دیگه میل دارید؟",

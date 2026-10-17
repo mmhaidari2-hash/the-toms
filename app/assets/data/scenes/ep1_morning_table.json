@@ -139,9 +139,9 @@
   "k3": {
    "id": "k3",
    "speaker": "william",
-   "text": "Splat! 🍓",
+   "text": "Uh-oh! The jam fell down! Splat!",
    "translations": {
-    "fa": "شَلَپ! 🍓"
+    "fa": "اوه‌اوه! مربا افتاد! شَلَپ!"
    },
    "branches": [
     {
@@ -191,8 +191,8 @@
    ],
    "byChapter": {
     "2": {
-     "text": "Uh-oh! Jam fell down!",
-     "fa": "اوه‌اوه! مربا افتاد!"
+     "text": "Oops! My jam fell down, Mummy!",
+     "fa": "وای! مربام افتاد، مامان!"
     },
     "4": {
      "text": "Oops! I dropped my strawberry. Sorry, Mummy!",
@@ -323,11 +323,11 @@
     "ipa": "/ɪz ðər ˈeni ˈtəʊs ˈleft/"
    },
    "byChapter": {
-    "2": {
+    "4": {
      "text": "Alright? Shattered — driving lesson at eight. Any toast left, or has Dad scoffed it?",
      "fa": "چطوری؟ داغونم — ساعت هشت کلاس رانندگی دارم. نون تست مونده یا بابا همه رو خورده؟"
     },
-    "4": {
+    "6": {
      "text": "Alright? Last breakfast before uni, mate. Any toast left, or has Dad scoffed it?",
      "fa": "چطوری؟ آخرین صبحونه قبل از دانشگاه، رفیق. نون تست مونده یا بابا همه رو خورده؟"
     }
@@ -503,9 +503,9 @@
   "x3": {
    "id": "x3",
    "speaker": "william",
-   "text": "*points at window* Bir-dy!",
+   "text": "Look! A birdy on the window!",
    "translations": {
-    "fa": "*به پنجره اشاره می‌کنه* پرنده!"
+    "fa": "ببین! یه پرنده رو پنجره‌ست!"
    },
    "branches": [
     {

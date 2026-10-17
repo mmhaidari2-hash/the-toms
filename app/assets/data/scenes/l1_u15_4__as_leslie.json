@@ -22,10 +22,10 @@
     {
      "keywords": [
       "everybody",
-      "look",
-      "time",
+      "room",
       "tidy",
-      "room"
+      "time",
+      "look"
      ],
      "suggestion": "OK, everybody! It's tidy-up time. Look at this room!",
      "suggestionFa": "خب همگی! وقت مرتب کردنه. این اتاق را ببینید!",
@@ -135,8 +135,8 @@
       "nicola",
       "books",
       "shelf",
-      "box",
-      "put"
+      "red",
+      "box"
      ],
      "suggestion": "Yes, the red box. Nicola, put your books on the shelf.",
      "suggestionFa": "آره، جعبهٔ قرمز. نیکولا، کتاب‌هات را بذار رو قفسه.",
@@ -216,8 +216,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "teddy",
+      "where",
       "go"
      ],
      "suggestion": "Where does the teddy go?",
@@ -239,8 +239,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "please",
+      "nicola",
       "pocket",
       "away",
       "pens"
@@ -318,10 +318,10 @@
     {
      "keywords": [
       "brilliant",
-      "lollies",
       "freezer",
+      "lollies",
       "reward",
-      "thank"
+      "wants"
      ],
      "suggestion": "Brilliant! Thank you both. Who wants a reward? Ice lollies from the freezer!",
      "suggestionFa": "عالی! ممنون از هر دوتون. کی جایزه می‌خواد؟ بستنی یخی از فریزر!",

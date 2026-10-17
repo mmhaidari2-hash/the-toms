@@ -33,8 +33,8 @@
     {
      "keywords": [
       "morning",
-      "take",
       "will",
+      "take",
       "long"
      ],
      "suggestion": "Morning. How long will the MOT take?",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "sounds",
-      "much",
       "good",
+      "much",
       "how"
      ],
      "suggestion": "Sounds good. How much is it?",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "here",
       "wait",
+      "here",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "safe",
-      "home"
+      "home",
+      "safe"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,8 +177,8 @@
     {
      "keywords": [
       "would",
-      "both",
       "cost",
+      "both",
       "much"
      ],
      "suggestion": "How much would it cost to fix both?",
@@ -247,8 +247,8 @@
      "keywords": [
       "second",
       "first",
-      "quote",
-      "could"
+      "could",
+      "quote"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "let's",
       "today",
+      "let's",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -416,9 +416,9 @@
     {
      "keywords": [
       "garages",
-      "upsell",
       "honest",
-      "thanks"
+      "thanks",
+      "upsell"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

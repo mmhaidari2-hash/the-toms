@@ -22,10 +22,10 @@
     {
      "keywords": [
       "everyone",
-      "wellies",
       "pouring",
+      "wellies",
       "school",
-      "must"
+      "rain"
      ],
      "suggestion": "It's pouring with rain! But we must walk to school. Everyone, wellies on!",
      "suggestionFa": "داره سیل‌آسا بارون میاد! ولی باید پیاده بریم مدرسه. همه چکمه‌هاتون را بپوشید!",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "raincoat",
+      "please",
       "nicola",
       "rubber",
-      "please",
       "boots"
      ],
      "suggestion": "Rubber boots! Yours are by the door. Nicola, put your raincoat on, please.",
@@ -75,9 +75,9 @@
       "yellow",
       "needs",
       "cover",
-      "hood"
+      "buggy"
      ],
-     "suggestion": "Yes, the yellow one with the hood. And William needs his rain cover on the pram.",
+     "suggestion": "Yes, the yellow one with the hood. And William needs his rain cover on the buggy.",
      "suggestionFa": "آره، زرده که کلاه داره. و ویلیام روکش بارونی کالسکه‌اش را لازم داره.",
      "trustDelta": 5,
      "next": "r4",
@@ -99,10 +99,10 @@
       "umbrella",
       "basket",
       "under",
-      "have",
-      "pram"
+      "buggy",
+      "have"
      ],
-     "suggestion": "It's under the pram, in the basket. Have you got an umbrella?",
+     "suggestion": "It's under the buggy, in the basket. Have you got an umbrella?",
      "suggestionFa": "زیر کالسکه، تو سبده. چتر داری؟",
      "trustDelta": 5,
      "next": "r5",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "puddles",
+      "stand",
       "let's",
       "ready",
-      "tom's",
-      "stand"
+      "tom's"
      ],
      "suggestion": "Take Tom's. It's in the hall stand. Ready? Let's go! Mind the puddles!",
      "suggestionFa": "مال تام را بردار. تو جاچتریه. آماده‌ای؟ بریم! مواظب چاله‌های آب باش!",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "wellies",
-      "that's",
-      "nicola",
       "school",
+      "nicola",
+      "that's",
       "here's"
      ],
      "suggestion": "That's what wellies are for, Nicola! Jump! Here's school. Now, take your wellies off. Put your shoes on.",
@@ -175,7 +175,7 @@
       "wellies",
       "wellie",
       "rack",
-      "lots"
+      "door"
      ],
      "suggestion": "In the wellie rack, by the classroom door. Lots of wellies in a row!",
      "suggestionFa": "تو جاچکمه‌ای، کنار در کلاس. کلی چکمه تو یه ردیف!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "wellies",
-      "typical",
+      "british",
       "weather",
       "raining",
-      "british"
+      "wellies",
+      "typical"
      ],
      "suggestion": "Right, home time for us. Don't take your wellies off yet — it's still raining. Typical British weather!",
      "suggestionFa": "خب، وقت خونه رفتن ماست. هنوز چکمه‌هات را درنیار — هنوز بارون میاد. آب‌وهوای معمولی بریتانیا!",

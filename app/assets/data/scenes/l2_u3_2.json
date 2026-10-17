@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "like"
+      "book"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -91,8 +91,8 @@
      "keywords": [
       "toothache",
       "i've",
-      "yet",
-      "got"
+      "got",
+      "yet"
      ],
      "suggestion": "I'm not registered yet. I've got toothache.",
      "suggestionFa": "هنوز ثبت‌نام نکردم. دندون‌درد دارم.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "rahimi",
-      "mehdi",
       "third",
+      "mehdi",
       "may"
      ],
      "suggestion": "It's Mehdi Rahimi, the third of May, 1996.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "morning",
-      "friday",
       "please",
+      "friday",
       "could"
      ],
      "suggestion": "Could I have Friday morning, please?",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "instead",
-      "email",
-      "could"
+      "could",
+      "email"
      ],
      "suggestion": "Could you email me instead?",
      "suggestionFa": "می‌شه به جاش ایمیل بزنید؟",
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "minutes",
-      "thank",
       "early",
+      "thank",
       "much"
      ],
      "suggestion": "Ten minutes early. Thank you very much.",

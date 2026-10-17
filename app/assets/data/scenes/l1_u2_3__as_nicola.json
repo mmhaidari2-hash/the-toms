@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "welcome",
       "buttons",
-      "there",
+      "welcome",
       "party",
+      "there",
       "next"
      ],
      "suggestion": "Welcome to my tea party! Sit there, next to Mr Buttons.",
@@ -74,8 +74,8 @@
       "pretend",
       "yummy",
       "here",
-      "cake",
-      "nice"
+      "nice",
+      "cake"
      ],
      "suggestion": "Here you are. It's pretend cake. Mmm, yummy! Is it nice?",
      "suggestionFa": "بفرما. کیک خیالیه. ممم، به‌به! خوبه؟",
@@ -125,7 +125,7 @@
       "loves",
       "pour",
       "need",
-      "now"
+      "tea"
      ],
      "suggestion": "Cheese! He loves cheese. Now we need tea. Can you pour it?",
      "suggestionFa": "پنیر! عاشق پنیره. حالا چای لازم داریم. می‌تونی بریزی؟",
@@ -161,9 +161,9 @@
   "r7": {
    "id": "r7",
    "speaker": "william",
-   "text": "Me! Me! Cake!",
+   "text": "Me! Me! I want cake!",
    "translations": {
-    "fa": "من! من! کیک!"
+    "fa": "من! من! کیک می‌خوام!"
    },
    "branches": [
     {
@@ -197,12 +197,12 @@
      "keywords": [
       "william",
       "silly",
+      "billy",
       "apple",
-      "want",
-      "baby"
+      "want"
      ],
-     "suggestion": "William, it's not real! Silly baby. Do you want an apple? A real one?",
-     "suggestionFa": "ویلیام، واقعی نیست! نی‌نی خنگول. سیب می‌خوای؟ یه واقعی؟",
+     "suggestion": "William, it's not real! Silly billy. Do you want an apple? A real one?",
+     "suggestionFa": "ویلیام، واقعی نیست! خنگول. سیب می‌خوای؟ یه واقعی؟",
      "trustDelta": 5,
      "next": "r9",
      "success": true
@@ -274,8 +274,8 @@
       "tomorrow",
       "buttons",
       "again",
-      "says",
-      "come"
+      "come",
+      "says"
      ],
      "suggestion": "Come again tomorrow! Mr Buttons says bye-bye!",
      "suggestionFa": "فردا دوباره بیا! آقای دکمه می‌گه بای‌بای!",

@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "drink",
-      "some",
-      "cold"
+      "water",
+      "cold",
+      "some"
      ],
      "suggestion": "Oh no! Drink some cold water.",
      "suggestionFa": "وای نه! یه کم آب سرد بخور.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "minute",
-      "wait",
+      "cool",
       "down",
-      "cool"
+      "wait"
      ],
      "suggestion": "Wait a minute. Let it cool down.",
      "suggestionFa": "یه دقیقه صبر کن. بذار خنک بشه.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "some",
       "milk",
       "cold",
+      "some",
       "put"
      ],
      "suggestion": "Put some cold milk in it.",
@@ -224,8 +224,8 @@
    "branches": [
     {
      "keywords": [
-      "strong",
-      "please"
+      "please",
+      "strong"
      ],
      "suggestion": "Yes, please. Not too strong.",
      "suggestionFa": "آره، لطفاً. نه خیلی غلیظ.",

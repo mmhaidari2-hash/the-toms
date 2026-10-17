@@ -21,8 +21,8 @@
      "keywords": [
       "thompson's",
       "discount",
-      "charged",
-      "council"
+      "council",
+      "charged"
      ],
      "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
      "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "incorrect",
-      "believe",
       "helping",
+      "believe",
       "that's"
      ],
      "suggestion": "That's right. I'm helping Weda — we believe the bill is incorrect.",
@@ -93,7 +93,7 @@
       "circumstances",
       "changed",
       "until",
-      "have"
+      "true"
      ],
      "suggestion": "That was true until March, but circumstances have changed.",
      "suggestionFa": "تا مارس درست بود، ولی شرایط عوض شده.",
@@ -146,8 +146,8 @@
      "keywords": [
       "processed",
       "whether",
-      "check",
-      "could"
+      "could",
+      "check"
      ],
      "suggestion": "Could you check whether the April form was processed?",
      "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "appreciate",
-      "apology",
       "happens",
+      "apology",
       "now"
      ],
      "suggestion": "I appreciate the apology. What happens now?",
@@ -234,8 +234,8 @@
    "branches": [
     {
      "keywords": [
-      "received",
       "reminder",
+      "received",
       "cancel",
       "that's"
      ],
@@ -302,7 +302,7 @@
       "george's",
       "support",
       "carers",
-      "there"
+      "carer"
      ],
      "suggestion": "Weda is George's main carer. Is there support for carers?",
      "suggestionFa": "ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
@@ -365,10 +365,10 @@
     },
     {
      "keywords": [
-      "entitled",
       "anything",
+      "entitled",
       "helpful",
-      "really"
+      "that's"
      ],
      "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
      "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "resolved",
       "escalate",
+      "resolved",
       "isn't",
       "how"
      ],

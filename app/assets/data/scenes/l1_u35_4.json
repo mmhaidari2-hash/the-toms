@@ -1,9 +1,9 @@
 {
  "id": "l1_u35_4",
  "characterId": "leslie",
- "title": "Shh, he's sleeping",
- "titleFa": "هیس، خوابه",
- "setting": "Baby William · Level 1",
+ "title": "Shh, he's napping",
+ "titleFa": "هیس، چرت می‌زنه",
+ "setting": "Little William · Level 1",
  "settingFa": "ویلیام کوچولو",
  "requires": null,
  "start": "n1",
@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Shh! William's sleeping. Finally! Come in, but be very quiet.",
+   "text": "Shh! William's having his nap. Finally! Come in, but be very quiet.",
    "translations": {
-    "fa": "هیس! ویلیام خوابه. بالاخره! بیا تو، ولی خیلی ساکت."
+    "fa": "هیس! ویلیام داره چرت بعدازظهرش را می‌زنه. بالاخره! بیا تو، ولی خیلی ساکت."
    },
    "branches": [
     {
@@ -44,6 +44,10 @@
    ],
    "newWords": [
     {
+     "word": "nap",
+     "fa": "چرت"
+    },
+    {
      "word": "sleeping",
      "fa": "خوابیده"
     },
@@ -60,9 +64,9 @@
   "n2": {
    "id": "n2",
    "speaker": "leslie",
-   "text": "No, he's sleeping in his cot. The baby monitor is on. Look, you can see him.",
+   "text": "No, he's sleeping in his bed. The monitor is on. Look, you can see him.",
    "translations": {
-    "fa": "نه، تو تختش خوابیده. دوربین کودک روشنه. ببین، می‌تونی ببینیش."
+    "fa": "نه، تو تختش خوابیده. دوربین روشنه. ببین، می‌تونی ببینیش."
    },
    "branches": [
     {
@@ -93,22 +97,18 @@
    ],
    "newWords": [
     {
-     "word": "cot",
-     "fa": "تخت نوزاد"
+     "word": "bed",
+     "fa": "تخت"
     },
     {
-     "word": "baby monitor",
-     "fa": "دستگاه پایش نوزاد"
+     "word": "monitor",
+     "fa": "دوربین مراقبت"
     },
     {
      "word": "smiling",
      "fa": "لبخند می‌زند"
     }
-   ],
-   "cultureNote": {
-    "en": "British \"cot\", American \"crib\".",
-    "fa": "cot/crib."
-   }
+   ]
   },
   "n3": {
    "id": "n3",
@@ -172,7 +172,7 @@
    "speaker": "leslie",
    "text": "Oh, thank you! I'm so tired. What's Ryan doing upstairs? It's very loud.",
    "translations": {
-    "fa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصداست."
+    "fa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصدا داره."
    },
    "branches": [
     {
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "tell",
       "i'll",
+      "tell",
       "up",
       "go"
      ],
@@ -309,9 +309,9 @@
   "n7": {
    "id": "n7",
    "speaker": "leslie",
-   "text": "Phew. He's still sleeping. Next time, put a note on the door: \"Baby sleeping! Please knock!\"",
+   "text": "Phew. He's still sleeping. Next time, put a note on the door: \"Little one napping! Please knock!\"",
    "translations": {
-    "fa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت رو در بذار: «بچه خوابه! لطفاً در بزنید!»"
+    "fa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت بذار رو در: «بچه خوابه! لطفاً در بزنید!»"
    },
    "branches": [],
    "newWords": []

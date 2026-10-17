@@ -80,11 +80,11 @@ tom: He's always hungry! First, put his bib on. The one with the bus on it. Ha! 
 > A bus bib! Of course. | پیش‌بند اتوبوسی! البته.
 > Where's the bib? | پیش‌بند کجاست؟
 W: first=اول ; bib=پیش‌بند
-tom: In the drawer by the fridge. Then put him in the high chair. Careful with his legs. | تو کشوی کنار یخچال. بعد بذارش رو صندلی بچه. مواظب پاهاش باش.
+tom: In the drawer by the fridge. Then put him on his booster seat. Careful with his legs. | تو کشوی کنار یخچال. بعد بذارش رو صندلی بلندکنندهٔ بچه. مواظب پاهاش باش.
 > OK, he's in. | باشه، نشست.
 > He's wriggling a lot! | خیلی وول می‌خوره!
-W: drawer=کشو ; high chair=صندلی غذای بچه ; wriggle=وول خوردن
-william: Num num! Num num! | نام نام! نام نام!
+W: drawer=کشو ; booster seat=صندلی بلندکنندهٔ بچه ; wriggle=وول خوردن
+william: I'm hungry! Where's my dinner? | گرسنمه! شامم کجاست؟
 > He wants his food! | غذاش را می‌خواد!
 > Patience, William! | صبر کن ویلیام!
 W: patience=صبر
@@ -97,15 +97,15 @@ tom: Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm! |
 > Here comes the number 38! | اتوبوس ۳۸ داره میاد!
 > He loves it! | عاشقشه!
 W: spoonfuls=قاشق‌ها ; open wide=دهنت را باز کن
-william: Bus! Mmm! | بوس! ممم!
-> He said "bus"! | گفت «اتوبوس»!
+william: Here comes the bus! Yum! | اتوبوس داره میاد! به‌به!
+> He loves the bus game! | عاشق بازی اتوبوسه!
 > More carrot, William? | هویج بیشتر ویلیام؟
 W: more=بیشتر
-tom: He said BUS! Like his dad! Right, then a wipe. His face is orange! | گفت اتوبوس! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!
+tom: He loves buses! Like his dad! Right, then a wipe. His face is orange! | عاشق اتوبوسه! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!
 > I'll get a wipe. | دستمال مرطوب میارم.
-> He's an orange baby! | بچهٔ نارنجیه!
+> He's an orange boy! | پسر نارنجیه!
 W: wipe=دستمال مرطوب ؛ پاک کردن ; face=صورت
-tom: Brilliant job. You're a natural! Wait till Leslie hears he said "bus"! | کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشنوه گفت «اتوبوس»!
+tom: Brilliant job. You're a natural! Wait till Leslie sees his clean plate! | کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشقاب تمیزش را ببینه!
 
 # l1_u30_4 | leslie | Watering the plants | آب دادن به گلدان‌ها | Requests: Could you…? Would you mind…? | درخواست مؤدبانه | kitchen
 leslie: {you}, we're going to Cornwall for a week. Could you water our plants? | {you}، یه هفته میریم کورنوال. می‌تونی به گلدون‌هامون آب بدی؟

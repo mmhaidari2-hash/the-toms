@@ -137,8 +137,8 @@
     {
      "keywords": [
       "there's",
-      "lots",
-      "dust"
+      "dust",
+      "lots"
      ],
      "suggestion": "There's lots of dust!",
      "suggestionFa": "کلی گرد و خاکه!",
@@ -257,9 +257,9 @@
   "n6": {
    "id": "n6",
    "speaker": "leslie",
-   "text": "Don't worry. William's got his dummy, not the jigsaw. Have you looked in your pocket, Nicola?",
+   "text": "Don't worry. William's got his toy bus, not the jigsaw. Have you looked in your pocket, Nicola?",
    "translations": {
-    "fa": "نگران نباشید. ویلیام پستونکش را داره، نه پازل را. جیبت را نگاه کردی نیکولا؟"
+    "fa": "نگران نباشید. ویلیام اتوبوس اسباب‌بازیش را داره، نه پازل را. جیبت را نگاه کردی نیکولا؟"
    },
    "branches": [
     {
@@ -276,8 +276,8 @@
     },
     {
      "keywords": [
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea!",
      "suggestionFa": "فکر خوبیه!",
@@ -288,8 +288,8 @@
    ],
    "newWords": [
     {
-     "word": "dummy",
-     "fa": "پستانک"
+     "word": "toy bus",
+     "fa": "اتوبوس اسباب‌بازی"
     },
     {
      "word": "pocket",
@@ -297,8 +297,8 @@
     }
    ],
    "cultureNote": {
-    "en": "British \"dummy\" = American \"pacifier\".",
-    "fa": "dummy/pacifier."
+    "en": "British \"jigsaw\" (or \"jigsaw puzzle\") = American \"puzzle\".",
+    "fa": "jigsaw = puzzle."
    }
   },
   "n7": {

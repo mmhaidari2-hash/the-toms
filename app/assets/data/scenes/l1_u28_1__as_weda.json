@@ -61,10 +61,10 @@
     {
      "keywords": [
       "speaking",
-      "hello",
       "who's",
-      "love",
-      "weda"
+      "hello",
+      "weda",
+      "love"
      ],
      "suggestion": "Hello, love. It's Weda. Who's speaking?",
      "suggestionFa": "الو عزیزم. ودام. شما؟",
@@ -85,8 +85,8 @@
    "branches": [
     {
      "keywords": [
-      "hello",
       "there",
+      "hello",
       "dear",
       "tom",
       "oh"
@@ -112,9 +112,9 @@
      "keywords": [
       "message",
       "never",
-      "mind",
       "give",
-      "him"
+      "mind",
+      "can"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -164,7 +164,7 @@
       "friday",
       "check",
       "heart",
-      "just"
+      "come"
      ],
      "suggestion": "Yes, just a check-up. His heart. Can I come on Friday instead?",
      "suggestionFa": "آره، فقط معاینه‌ست. قلبش. می‌تونم به جاش جمعه بیام؟",
@@ -185,11 +185,11 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "after",
+      "thank",
+      "call",
       "love",
-      "back",
-      "call"
+      "back"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
      "suggestionFa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه.",
@@ -213,8 +213,8 @@
       "course",
       "thank",
       "dear",
-      "has",
-      "bye"
+      "bye",
+      "has"
      ],
      "suggestion": "Of course he has! Thank you, dear. Bye-bye!",
      "suggestionFa": "البته که داره! ممنون عزیزم. خداحافظ!",

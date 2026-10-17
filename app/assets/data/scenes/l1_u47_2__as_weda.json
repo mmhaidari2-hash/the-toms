@@ -24,8 +24,8 @@
       "slippers",
       "fluffy",
       "bother",
-      "dear",
-      "pink"
+      "pink",
+      "ones"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
      "suggestionFa": "ای بابا! دمپایی‌هام را دیدی عزیزم؟ صورتی پشمالوها.",
@@ -49,7 +49,7 @@
       "terrible",
       "remember",
       "memory",
-      "don't",
+      "under",
       "these"
      ],
      "suggestion": "I don't remember! My memory is terrible these days. Are they under the bath?",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "slipper",
-      "can't",
+      "where's",
       "other",
+      "can't",
       "walk"
      ],
      "suggestion": "One! Where's the other one? I can't walk with one slipper!",
@@ -111,9 +111,9 @@
   "r5": {
    "id": "r5",
    "speaker": "william",
-   "text": "Mine! Shoe!",
+   "text": "That's mine! It's my shoe!",
    "translations": {
-    "fa": "مال منه! کفش!"
+    "fa": "مال منه! کفش منه!"
    },
    "branches": [
     {
@@ -174,10 +174,10 @@
     {
      "keywords": [
       "glasses",
-      "thank",
       "never",
-      "dear",
-      "mind"
+      "thank",
+      "mind",
+      "seen"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
      "suggestionFa": "ممنون عزیزم. یه کم خیسه، ولی عیب نداره. عینکم را هم دیدی؟",
@@ -198,11 +198,11 @@
    "branches": [
     {
      "keywords": [
-      "helpers",
-      "william",
       "without",
+      "william",
+      "helpers",
       "little",
-      "silly"
+      "would"
      ],
      "suggestion": "On my head! Oh, silly me. What would I do without you? You and William, my little helpers!",
      "suggestionFa": "رو سرم! آه، چه حواس‌پرتی. بدون تو چی کار می‌کردم؟ تو و ویلیام، کمک‌کارهای کوچولوی من!",

@@ -27,10 +27,10 @@
     {
      "keywords": [
       "morning",
-      "brewed",
       "coffee",
-      "pot's",
-      "d'you"
+      "brewed",
+      "d'you",
+      "pot's"
      ],
      "suggestion": "Morning! Pot's just brewed. D'you want a cuppa, or are you a coffee sort?",
      "suggestionFa": "صبح بخیر! قوری تازه دم کشیده. چای می‌خوری یا اهل قهوه‌ای؟",
@@ -126,9 +126,9 @@
   "r5": {
    "id": "r5",
    "speaker": "william",
-   "text": "Splat! 🍓",
+   "text": "Uh-oh! The jam fell down! Splat!",
    "translations": {
-    "fa": "شَلَپ! 🍓"
+    "fa": "اوه‌اوه! مربا افتاد! شَلَپ!"
    },
    "branches": [
     {
@@ -446,9 +446,9 @@
   "r17": {
    "id": "r17",
    "speaker": "william",
-   "text": "*points at window* Bir-dy!",
+   "text": "Look! A birdy on the window!",
    "translations": {
-    "fa": "*به پنجره اشاره می‌کنه* پرنده!"
+    "fa": "ببین! یه پرنده رو پنجره‌ست!"
    },
    "branches": [
     {

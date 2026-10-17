@@ -1,9 +1,9 @@
 {
  "id": "l1_u35_2__as_leslie",
  "characterId": "leslie",
- "title": "(As Leslie) William's first word",
- "titleFa": "(در نقش Leslie) اولین کلمهٔ ویلیام",
- "setting": "Baby William · Level 1",
+ "title": "(As Leslie) William's funny words",
+ "titleFa": "(در نقش Leslie) کلمه‌های بامزهٔ ویلیام",
+ "setting": "Little William · Level 1",
  "settingFa": "ویلیام کوچولو",
  "requires": null,
  "level": "A1",
@@ -21,14 +21,14 @@
    "branches": [
     {
      "keywords": [
-      "william's",
-      "everyone",
-      "telling",
-      "first",
-      "says"
+      "pasghetti",
+      "something",
+      "breakfast",
+      "william",
+      "called"
      ],
-     "suggestion": "Tom says William's first word was \"bus\". He's telling everyone!",
-     "suggestionFa": "تام میگه اولین کلمهٔ ویلیام «اتوبوس» بود. به همه داره میگه!",
+     "suggestion": "William said something so funny at breakfast. He called the pasta \"pasghetti\"!",
+     "suggestionFa": "ویلیام سر صبحونه یه چیز خیلی بامزه گفت. به پاستا گفت «پسگتی»!",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -39,21 +39,21 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "I was there. He said \"bus\"!",
+   "text": "Ha! I was there. He said it!",
    "translations": {
-    "fa": "من اونجا بودم. گفت «اتوبوس»!"
+    "fa": "ها! من اونجا بودم. گفتش!"
    },
    "branches": [
     {
      "keywords": [
-      "breakfast",
-      "first",
-      "think",
-      "mama",
-      "said"
+      "yesterday",
+      "laughed",
+      "william",
+      "minutes",
+      "bunny"
      ],
-     "suggestion": "Hmm. I think he said \"Mama\" first. Last week, at breakfast.",
-     "suggestionFa": "هوم. فکر کنم اول گفت «ماما». هفتهٔ پیش، سر صبحونه.",
+     "suggestion": "Tom laughed for ten minutes. And yesterday William said the bus was \"a big red bunny\"!",
+     "suggestionFa": "تام ده دقیقه خندید. و دیروز ویلیام گفت اتوبوس «یه خرگوش قرمز بزرگ» بود!",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,9 +64,9 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "Maybe Tom didn't hear it.",
+   "text": "A bunny? Not a bus?",
    "translations": {
-    "fa": "شاید تام نشنیده."
+    "fa": "خرگوش؟ نه اتوبوس؟"
    },
    "branches": [
     {
@@ -86,9 +86,9 @@
   "r4": {
    "id": "r4",
    "speaker": "william",
-   "text": "Mama! Mama!",
+   "text": "It was a bunny bus! Hop hop!",
    "translations": {
-    "fa": "ماما! ماما!"
+    "fa": "یه اتوبوس خرگوشی بود! هاپ هاپ!"
    },
    "branches": [
     {
@@ -105,29 +105,33 @@
    ],
    "newWords": [
     {
-     "word": "clever",
-     "fa": "باهوش"
+     "word": "hop",
+     "fa": "جهیدن"
+    },
+    {
+     "word": "brilliant",
+     "fa": "عالی"
     }
    ]
   },
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "There! He said it!",
+   "text": "A bunny bus! Brilliant!",
    "translations": {
-    "fa": "ایناهاش! گفت!"
+    "fa": "اتوبوس خرگوشی! عالی!"
    },
    "branches": [
     {
      "keywords": [
-      "william",
-      "daddy",
-      "mama",
-      "see",
-      "say"
+      "animal",
+      "nicola",
+      "aminal",
+      "three",
+      "said"
      ],
-     "suggestion": "See! Mama! Can you say \"Daddy\", William?",
-     "suggestionFa": "دیدی! ماما! می‌تونی بگی «بابا» ویلیام؟",
+     "suggestion": "Last week he said \"aminal\" for animal. Nicola said it too when she was three!",
+     "suggestionFa": "هفتهٔ پیش به حیوان گفت «اَمینال». نیکولا هم وقتی سه سالش بود همینو می‌گفت!",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -138,17 +142,21 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "Say \"Daddy\"!",
+   "text": "That's so sweet!",
    "translations": {
-    "fa": "بگو «بابا»!"
+    "fa": "خیلی شیرینه!"
    },
    "branches": [
     {
      "keywords": [
-      "really"
+      "called",
+      "shoes",
+      "about",
+      "shoos",
+      "until"
      ],
-     "suggestion": "Really?",
-     "suggestionFa": "واقعاً؟",
+     "suggestion": "Ryan called his shoes \"shoo-shoos\" until he was four! Don't tell him I told you. What about you, Mehdi?",
+     "suggestionFa": "رایان تا چهار سالگی به کفشاش می‌گفت «شوشو»! بهش نگی بهت گفتم. تو چی {you}؟",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -158,10 +166,31 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "william",
-   "text": "Bus!",
+   "speaker": "mehdi",
+   "text": "I don't know. I was very small!",
    "translations": {
-    "fa": "اتوبوس!"
+    "fa": "نمی‌دونم. خیلی کوچیک بودم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "william",
+   "text": "Pasghetti! Aminal! Bunny bus!",
+   "translations": {
+    "fa": "پسگتی! اَمینال! اتوبوس خرگوشی!"
    },
    "branches": [
     {
@@ -171,64 +200,39 @@
      "suggestion": "OK!",
      "suggestionFa": "باشه!",
      "trustDelta": 5,
-     "next": "r8",
+     "next": "r9",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "really",
-     "fa": "واقعاً"
+     "word": "knows",
+     "fa": "می‌داند"
     },
     {
-     "word": "loves",
-     "fa": "عاشق است"
+     "word": "funny boy",
+     "fa": "پسر بامزه"
     }
    ]
-  },
-  "r8": {
-   "id": "r8",
-   "speaker": "mehdi",
-   "text": "Ha! Not \"Daddy\" — \"bus\"!",
-   "translations": {
-    "fa": "ها! نه «بابا» — «اتوبوس»!"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "father",
-      "first",
-      "know",
-      "like",
-      "word"
-     ],
-     "suggestion": "Like father, like son! What was your first word, Mehdi? Do you know?",
-     "suggestionFa": "پسر کو ندارد نشان از پدر! اولین کلمهٔ تو چی بود {you}؟ می‌دونی؟",
-     "trustDelta": 5,
-     "next": "r9",
-     "success": true
-    }
-   ],
-   "newWords": []
   },
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "My mum says it was \"Maman\".",
+   "text": "Ha! He knows they're funny!",
    "translations": {
-    "fa": "مامانم میگه «مامان» بود."
+    "fa": "ها! می‌دونه بامزه‌ان!"
    },
    "branches": [
     {
      "keywords": [
-      "changed",
-      "ryan's",
-      "hasn't",
-      "first",
-      "maman"
+      "properly",
+      "before",
+      "write",
+      "let's",
+      "right"
      ],
-     "suggestion": "\"Maman\"! It's like \"Mama\"! Ryan's first word was \"no\". He hasn't changed!",
-     "suggestionFa": "«مامان»! شبیه «ماما»ئه! اولین کلمهٔ رایان «نه» بود. هنوز عوض نشده!",
+     "suggestion": "He does! Right, let's write them in his book before he says them properly.",
+     "suggestionFa": "می‌دونه! خب، بیا قبل از اینکه درست بگه، تو دفترش بنویسیمشون.",
      "trustDelta": 5,
      "next": "r10",
      "success": true
@@ -238,56 +242,6 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
-   "text": "Ha! Teenagers!",
-   "translations": {
-    "fa": "ها! نوجوون‌ها!"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "william's",
-      "buttons",
-      "course",
-      "words",
-      "teddy"
-     ],
-     "suggestion": "\"Teddy\"! For Mr Buttons, of course. Right, let's write William's words in his baby book.",
-     "suggestionFa": "«تدی»! برای آقای دکمه، معلومه. خب، بیا کلمه‌های ویلیام را تو دفتر بچگیش بنویسیم.",
-     "trustDelta": 5,
-     "next": "r11",
-     "success": true
-    }
-   ],
-   "newWords": []
-  },
-  "r11": {
-   "id": "r11",
-   "speaker": "mehdi",
-   "text": "Write \"Mama\" first!",
-   "translations": {
-    "fa": "اول «ماما» را بنویس!"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "everyone's",
-      "wrote",
-      "don't",
-      "happy",
-      "first"
-     ],
-     "suggestion": "Fine! \"Mama\" and \"bus\", the same week. Everyone's happy. Don't tell Tom I wrote \"Mama\" first!",
-     "suggestionFa": "باشه! «ماما» و «اتوبوس»، همون هفته. همه راضی. به تام نگو «ماما» را اول نوشتم!",
-     "trustDelta": 5,
-     "next": "r12",
-     "success": true
-    }
-   ],
-   "newWords": []
-  },
-  "r12": {
-   "id": "r12",
    "speaker": "mehdi",
    "text": "Thanks, Leslie! See you later.",
    "translations": {

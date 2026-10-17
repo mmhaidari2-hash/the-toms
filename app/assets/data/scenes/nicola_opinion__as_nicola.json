@@ -24,8 +24,8 @@
       "children",
       "allowed",
       "should",
-      "don't",
-      "until"
+      "agree",
+      "think"
      ],
      "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
      "suggestionFa": "به نظرم بچه‌ها باید اجازه داشته باشن تا ساعت ده بیدار بمونن. موافق نیستی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "that's",
       "stays",
-      "fair",
       "ryan",
-      "late"
+      "late",
+      "fair"
      ],
      "suggestion": "But Ryan stays up late! That's not fair.",
      "suggestionFa": "ولی رایان تا دیروقت بیدار می‌مونه! این عادلانه نیست.",
@@ -64,9 +64,9 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "Ryan's older. When you're fourteen, you can stay up later too.",
+   "text": "Ryan's older. When you're fifteen, you can stay up later too.",
    "translations": {
-    "fa": "رایان بزرگ‌تره. وقتی چهارده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی."
+    "fa": "رایان بزرگ‌تره. وقتی پونزده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی."
    },
    "branches": [
     {
@@ -75,7 +75,7 @@
       "should",
       "reason",
       "telly",
-      "best"
+      "give"
      ],
      "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
      "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
@@ -99,8 +99,8 @@
       "reason",
       "tired",
       "awake",
-      "okay",
-      "even"
+      "even",
+      "okay"
      ],
      "suggestion": "Hmm. Okay, reason two: I'm not even tired. Look — I'm wide awake!",
      "suggestionFa": "هوم. باشه، دلیل دو: اصلاً خسته نیستم. ببین — کاملاً بیدارم!",
@@ -175,7 +175,7 @@
       "lawyer",
       "what's",
       "think",
-      "fair"
+      "stay"
      ],
      "suggestion": "A lawyer! Yes! Lawyers stay up late, I bet. So what do you think — what's fair?",
      "suggestionFa": "وکیل! آره! شرط می‌بندم وکیل‌ها دیر می‌خوابن. خب نظرت چیه — چی عادلانه‌ست؟",
@@ -224,8 +224,8 @@
       "writing",
       "forget",
       "can't",
-      "down",
-      "deal"
+      "deal",
+      "down"
      ],
      "suggestion": "Hmm… deal. But I'm writing it down so you can't forget!",
      "suggestionFa": "هوم… قبول. ولی می‌نویسمش که یادت نره!",

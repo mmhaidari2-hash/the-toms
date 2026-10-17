@@ -61,9 +61,9 @@
   "r3": {
    "id": "r3",
    "speaker": "william",
-   "text": "Duck! Duck in bath!",
+   "text": "Look! My duck's in the bath!",
    "translations": {
-    "fa": "اردک! اردک تو وان!"
+    "fa": "ببین! اردکم تو وانه!"
    },
    "branches": [
     {
@@ -102,8 +102,8 @@
       "morning",
       "shower",
       "loves",
-      "bath",
-      "have"
+      "duck",
+      "bath"
      ],
      "suggestion": "He loves that duck. Do you have a bath or a shower in the morning?",
      "suggestionFa": "عاشق اون اردکه. تو صبح‌ها وان می‌گیری یا دوش؟",
@@ -163,9 +163,9 @@
   "r7": {
    "id": "r7",
    "speaker": "william",
-   "text": "Cold! Mummy, cold!",
+   "text": "Mummy, the water's cold!",
    "translations": {
-    "fa": "سرده! مامان، سرده!"
+    "fa": "مامان، آب سرده!"
    },
    "branches": [
     {
@@ -213,10 +213,10 @@
     {
      "keywords": [
       "shampoo",
-      "that's",
       "better",
-      "next",
-      "soap"
+      "that's",
+      "soap",
+      "next"
      ],
      "suggestion": "That's better. Can you pass the shampoo? It's next to the soap.",
      "suggestionFa": "بهتر شد. شامپو را می‌دی؟ کنار صابونه.",
@@ -264,8 +264,8 @@
      "keywords": [
       "pyjamas",
       "little",
-      "story",
       "night",
+      "story",
       "done"
      ],
      "suggestion": "All done. Now pyjamas, a story and bed. Night night, little one!",

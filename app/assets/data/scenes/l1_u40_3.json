@@ -172,8 +172,8 @@
      "keywords": [
       "there's",
       "inside",
-      "one",
-      "mud"
+      "mud",
+      "one"
      ],
      "suggestion": "There's mud inside this one!",
      "suggestionFa": "تو این یکی گله!",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "kettle",
-      "use",
-      "can"
+      "can",
+      "use"
      ],
      "suggestion": "Can I use the kettle?",
      "suggestionFa": "می‌تونم از کتری استفاده کنم؟",
@@ -219,8 +219,8 @@
     },
     {
      "keywords": [
-      "big",
-      "pan"
+      "pan",
+      "big"
      ],
      "suggestion": "In the big pan?",
      "suggestionFa": "تو قابلمهٔ بزرگ؟",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "cook",
+      "long",
       "how"
      ],
      "suggestion": "How long does it cook?",

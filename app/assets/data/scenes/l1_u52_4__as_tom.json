@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "window",
       "before",
-      "never",
+      "window",
       "alarm",
+      "never",
       "smoke"
      ],
      "suggestion": "Ha! Never mind. Open the window before the smoke alarm goes off.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "there",
       "towel",
+      "there",
       "quiet",
-      "like",
-      "wave"
+      "wave",
+      "like"
      ],
      "suggestion": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
      "suggestionFa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "burner",
       "leslie",
-      "worry",
-      "don't",
+      "burner",
+      "every",
+      "toast",
       "calls"
      ],
      "suggestion": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "toaster",
-      "number",
       "strong",
-      "three",
-      "every"
+      "number",
+      "every",
+      "three"
      ],
      "suggestion": "Every week! The toaster is too strong. Put it on number three, not five.",
      "suggestionFa": "هر هفته! توستر زیادی قویه. بذارش رو سه، نه پنج.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "crumpets",
       "watching",
+      "crumpets",
       "slices",
       "again",
       "right"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "everyone",
-      "welcome",
       "perfect",
+      "welcome",
       "golden",
-      "burns"
+      "toast"
      ],
      "suggestion": "You're welcome! Perfect golden toast. See? Everyone burns toast. It's not a big deal.",
      "suggestionFa": "خواهش می‌کنم! نون تست طلایی عالی. دیدی؟ همه نون تست می‌سوزونن. چیز مهمی نیست.",
@@ -200,7 +200,7 @@
       "butter",
       "toast",
       "time",
-      "next"
+      "call"
      ],
      "suggestion": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
      "suggestionFa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!",

@@ -22,9 +22,9 @@
     {
      "keywords": [
       "button",
+      "toast",
       "press",
       "mummy",
-      "toast",
       "make"
      ],
      "suggestion": "Can I make toast? Mummy lets me press the button!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "press",
       "bread",
+      "press",
       "down",
-      "now",
+      "two",
       "put"
      ],
      "suggestion": "Two for me and two for you! Put the bread in. Now I press… down!",
@@ -73,9 +73,9 @@
      "keywords": [
       "ready",
       "take",
-      "pop",
       "ooh",
-      "out"
+      "pop",
+      "hot"
      ],
      "suggestion": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
      "suggestionFa": "پاپ! آماده‌ست! اوه، داغه! داغه! می‌تونی درش بیاری؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "marmite",
-      "salty",
+      "loves",
       "brown",
-      "daddy",
+      "yucky",
       "think"
      ],
      "suggestion": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
@@ -172,8 +172,8 @@
       "triangles",
       "putting",
       "daddy",
-      "mine",
-      "like"
+      "into",
+      "mine"
      ],
      "suggestion": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
      "suggestionFa": "مثل بابایی! حالا رو مال خودم مربا می‌زنم. کلی مربا! می‌تونم مثلثی ببرمش؟",
@@ -194,10 +194,10 @@
    "branches": [
     {
      "keywords": [
-      "triangles",
       "everybody",
-      "better",
+      "triangles",
       "tastes",
+      "better",
       "toast"
      ],
      "suggestion": "Triangles! Toast tastes better in triangles. Everybody knows that!",

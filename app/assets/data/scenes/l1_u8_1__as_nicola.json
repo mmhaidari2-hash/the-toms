@@ -23,8 +23,8 @@
      "keywords": [
       "running",
       "really",
-      "look",
-      "fast"
+      "fast",
+      "look"
      ],
      "suggestion": "Look at me! I'm running! I'm running really fast!",
      "suggestionFa": "منو ببین! دارم می‌دوم! خیلی تند دارم می‌دوم!",
@@ -85,9 +85,9 @@
   "r4": {
    "id": "r4",
    "speaker": "william",
-   "text": "Wheee! Slide! Again!",
+   "text": "Wheee! I like the slide! Again!",
    "translations": {
-    "fa": "ویییی! سرسره! دوباره!"
+    "fa": "ویییی! سرسره را دوست دارم! دوباره!"
    },
    "branches": [
     {
@@ -127,9 +127,9 @@
    "branches": [
     {
      "keywords": [
-      "higher",
-      "swings",
       "please",
+      "swings",
+      "higher",
       "push"
      ],
      "suggestion": "Push me on the swings, please! Higher! Higher!",
@@ -153,9 +153,9 @@
      "keywords": [
       "chasing",
       "flying",
-      "those",
       "ducks",
-      "look"
+      "those",
+      "boys"
      ],
      "suggestion": "Look! Those boys are flying a kite. And that dog is chasing the ducks!",
      "suggestionFa": "ببین! اون پسرها دارن بادبادک هوا می‌کنن. و اون سگ داره اردک‌ها را دنبال می‌کنه!",
@@ -180,7 +180,7 @@
       "biscuit",
       "owner",
       "here",
-      "he's"
+      "come"
      ],
      "suggestion": "Ha ha! He's all wet! Now his owner is shouting. \"Biscuit! Come here!\"",
      "suggestionFa": "ها ها! خیس خیس شده! حالا صاحبش داره داد می‌زنه. «بیسکویت! بیا اینجا!»",
@@ -204,8 +204,8 @@
       "everyone's",
       "starting",
       "running",
-      "let's",
-      "quick"
+      "quick",
+      "let's"
      ],
      "suggestion": "It's starting to rain! Quick, everyone's running home! Let's go!",
      "suggestionFa": "داره بارون میگیره! زود، همه دارن می‌دون خونه! بریم!",

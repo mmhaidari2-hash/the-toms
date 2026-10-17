@@ -14,9 +14,9 @@
 |---|---|---|---|
 | Tom | رانندهٔ اتوبوس (پدر) | ۴۲ | زبان کار، روزمرهٔ مردانه، شوخی، اصطلاحات خیابان |
 | Leslie | معلم (مادر) | ۳۹ | زبان دقیق، گرامر، صبر، آموزش کودکانه |
-| William | نوزاد | ۱ | کلمات پایه، صداها، feeding/play |
+| William | پسر کوچک (پیش‌دبستانی ← آمادگی/کلاس اول) | ۳ ← ~۶ | جمله‌های کوتاه و ساده (حداکثر ۶–۸ کلمه)، «چرا؟»، اتوبوس، بازی، غذا |
 | Nicola | کودک | ~۵–۶ | بازی، کارتون، پارک، احساسات ساده |
-| Ryan | نوجوان | ۱۴ | مدرسه، دوست‌ها، گیم، اسلنگ نوجوانانه |
+| Ryan | نوجوان | ۱۵ ← ۱۸ | سال ۱۰–۱۱ و امتحانات GCSE، رانندگی در ۱۷، دانشگاه در ۱۸؛ دوست‌ها، گیم، اسلنگ نوجوانانه |
 | Weda | پرستار بچه | — | زبان مراقبت، دستورالعمل، صمیمیت |
 
 ## ۳.۳ متد یادگیری
@@ -41,7 +41,7 @@
 - Regional accents: London, Manchester, Scotland, Wales, Liverpool.
 - Same engine/brand, new families: US, Australia, Canada.
 - Real culture: queuing, weather talk, "sorry", pub quiz, Bonfire Night.
-- Viral share cards ("William said his first word today!") + referral invites.
+- Viral share cards ("William started Reception today!") + referral invites.
 - Targeted TikTok/Instagram in Farsi, Arabic, Urdu, Polish with short character clips.
 ### Roadmap
 1. Free version tested on iPhone (PWA). 2. AI voice chat + subscription payments. 3. App Store / Play Store release.

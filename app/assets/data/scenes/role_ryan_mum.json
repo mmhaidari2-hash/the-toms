@@ -20,8 +20,8 @@
     {
      "keywords": [
       "maths",
-      "i've",
       "fine",
+      "i've",
       "was"
      ],
      "suggestion": "It was fine. I've got a bit of maths homework.",
@@ -68,10 +68,10 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "round",
-      "deal",
-      "josh"
+      "after",
+      "come",
+      "deal"
      ],
      "suggestion": "Deal. Can Josh come round after?",
      "suggestionFa": "قبول. جاش می‌تونه بعدش بیاد؟",
@@ -83,8 +83,8 @@
      "keywords": [
       "please",
       "first",
-      "just",
-      "game"
+      "game",
+      "just"
      ],
      "suggestion": "Please, just one game first?",
      "suggestionFa": "لطفاً، فقط یه بازی اول؟",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "toast",
-      "some",
       "have",
+      "some",
       "bit"
      ],
      "suggestion": "A bit. Can I have some toast?",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "crisps",
-      "can't",
       "apple",
+      "can't",
       "have"
      ],
      "suggestion": "An apple? Can't I have crisps?",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "promise",
-      "after",
       "maths",
+      "after",
       "i'll"
      ],
      "suggestion": "I'll tidy it after maths. Promise.",

@@ -25,7 +25,7 @@
       "things",
       "can't",
       "find",
-      "list"
+      "sent"
      ],
      "suggestion": "Mum sent me with a list. Ten things! I can't find anything. Help!",
      "suggestionFa": "مامان با یه لیست فرستادم. ده تا چیز! هیچی پیدا نمی‌کنم. کمک!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "walked",
-      "can't",
-      "twice",
       "first",
-      "round"
+      "round",
+      "can't",
+      "twice"
      ],
      "suggestion": "Milk, first. I can't find the milk! I've walked round twice!",
      "suggestionFa": "اول شیر. شیر را پیدا نمی‌کنم! دو بار دور زدم!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "skimmed",
-      "never",
       "green",
-      "blue",
-      "says"
+      "never",
+      "semi",
+      "blue"
      ],
      "suggestion": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
      "suggestionFa": "گرفتم. نیم‌چرب. درِ سبز. مامان میگه هیچ‌وقت آبیه نه.",
@@ -98,9 +98,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "can't",
       "bread",
-      "full"
+      "can't",
+      "find"
      ],
      "suggestion": "Blue is full fat. Next: eggs, bread, washing-up liquid… I can't find the washing-up liquid!",
      "suggestionFa": "آبی پرچربه. بعدی: تخم‌مرغ، نون، مایع ظرفشویی… مایع ظرفشویی را پیدا نمی‌کنم!",
@@ -225,8 +225,8 @@
    "branches": [
     {
      "keywords": [
-      "lifesaver",
       "something",
+      "lifesaver",
       "thing",
       "mean",
       "nice"
@@ -252,9 +252,9 @@
      "keywords": [
       "chocolate",
       "flowers",
+      "remote",
       "she'll",
-      "forget",
-      "remote"
+      "forget"
      ],
      "suggestion": "Flowers AND chocolate. Then she'll forget I broke the remote. Don't tell her!",
      "suggestionFa": "گل و شکلات. اون وقت یادش میره کنترل را شکستم. بهش نگو!",

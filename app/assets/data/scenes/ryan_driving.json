@@ -4,8 +4,8 @@
  "level": "B1",
  "title": "Ryan's first driving lesson",
  "titleFa": "اولین جلسهٔ رانندگی رایان",
- "setting": "Supermarket car park, Sunday morning — three years later",
- "settingFa": "پارکینگ سوپرمارکت، صبح یکشنبه — سه سال بعد",
+ "setting": "Supermarket car park, Sunday morning — Ryan is seventeen",
+ "settingFa": "پارکینگ سوپرمارکت، صبح یکشنبه — رایان هفده ساله است",
  "requires": {
   "characterId": "ryan",
   "milestone": "M2"
@@ -81,8 +81,8 @@
      "keywords": [
       "everyone",
       "stalls",
-      "again",
-      "worry"
+      "first",
+      "don't"
      ],
      "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
      "suggestionFa": "نگران نباش رایان — همه اولش ماشین را خاموش می‌کنن. دوباره امتحان کن.",
@@ -233,7 +233,7 @@
       "parallel",
       "parking",
       "luck",
-      "ryan"
+      "good"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
      "suggestionFa": "پارک دوبل؟ موفق باشی رایان!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "theory",
-      "first",
       "needs",
+      "first",
       "pass"
      ],
      "suggestion": "He needs to pass the theory test first.",
@@ -383,8 +383,8 @@
     {
      "keywords": [
       "great",
-      "tom",
       "did",
+      "tom",
       "ha"
      ],
      "suggestion": "Ha! You did great too, Tom.",
@@ -395,9 +395,9 @@
     },
     {
      "keywords": [
-      "well",
-      "ryan",
       "time",
+      "done",
+      "same",
       "next"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",

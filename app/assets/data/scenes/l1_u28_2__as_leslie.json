@@ -25,7 +25,7 @@
       "william's",
       "surgery",
       "driving",
-      "speak"
+      "nurse"
      ],
      "suggestion": "Can you ring the surgery for me? I'm driving. Ask to speak to the nurse about William's injections.",
      "suggestionFa": "می‌تونی برام به مطب زنگ بزنی؟ دارم رانندگی می‌کنم. بخواه با پرستار دربارهٔ واکسن‌های ویلیام صحبت کنی.",
@@ -200,21 +200,21 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "He's one. Let me ask his mum.",
+   "text": "He's three. Let me ask his mum.",
    "translations": {
-    "fa": "یک سالشه. بذار از مامانش بپرسم."
+    "fa": "سه سالشه. بذار از مامانش بپرسم."
    },
    "branches": [
     {
      "keywords": [
+      "years",
       "fifth",
       "march",
-      "year",
-      "last",
+      "three",
       "tell"
      ],
-     "suggestion": "Tell her the fifth of March! Last year!",
-     "suggestionFa": "بهش بگو پنجم مارس! پارسال!",
+     "suggestion": "Tell her the fifth of March! Three years ago!",
+     "suggestionFa": "بهش بگو پنجم مارس! سه سال پیش!",
      "trustDelta": 5,
      "next": "r9",
      "success": true
@@ -225,9 +225,9 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "The fifth of March, last year.",
+   "text": "The fifth of March, three years ago.",
    "translations": {
-    "fa": "پنجم مارس، پارسال."
+    "fa": "پنجم مارس، سه سال پیش."
    },
    "branches": [
     {
@@ -246,9 +246,9 @@
   "r10": {
    "id": "r10",
    "speaker": "receptionist",
-   "text": "Thank you. William needs his one-year jabs. I can book an appointment for you.",
+   "text": "Thank you. William needs his pre-school jabs. I can book an appointment for you.",
    "translations": {
-    "fa": "ممنون. ویلیام واکسن‌های یک‌سالگی‌اش را لازم داره. می‌تونم براتون وقت بگیرم."
+    "fa": "ممنون. ویلیام واکسن‌های قبل از مدرسه‌اش را لازم داره. می‌تونم براتون وقت بگیرم."
    },
    "branches": [
     {
@@ -273,7 +273,7 @@
     }
    ],
    "cultureNote": {
-    "en": "Brits often say \"jabs\" for vaccinations. UK babies have free vaccinations on the NHS.",
+    "en": "Brits often say \"jabs\" for vaccinations. UK children have free vaccinations on the NHS.",
     "fa": "jab یعنی واکسن."
    }
   },

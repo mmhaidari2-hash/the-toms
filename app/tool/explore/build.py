@@ -27,7 +27,7 @@ for f in sorted(glob.glob(os.path.join(H,'*.txt'))):
   N={}
   for i,n in enumerate(ns):
     nid=f'n{i+1}'; nxt=f'n{i+2}' if i+1<len(ns) else None
-    if n['s']=='william' and len(n['t'].split())>6: errs.append(f'{sid}/{nid} william too long')
+    if n['s']=='william' and len(n['t'].split())>8: errs.append(f'{sid}/{nid} william too long')
     if n['s']=='nicola' and len(n['t'].split())>18: errs.append(f'{sid}/{nid} nicola too long')
     if len(n['t'])>LIM.get(d.get('level') or 'A1',230): errs.append(f'{sid}/{nid} too long {len(n["t"])}')
     if nxt and not n['r']: errs.append(f'{sid}/{nid} no replies')

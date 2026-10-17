@@ -20,8 +20,8 @@
     {
      "keywords": [
       "toast",
-      "some",
       "like",
+      "some",
       "i'd"
      ],
      "suggestion": "I'd like some toast, please.",
@@ -178,10 +178,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "orange",
-      "glass",
-      "juice"
+      "please",
+      "juice",
+      "glass"
      ],
      "suggestion": "Yes, a glass of orange juice, please.",
      "suggestionFa": "بله، یه لیوان آب پرتقال، لطفاً.",
@@ -227,8 +227,8 @@
    "branches": [
     {
      "keywords": [
-      "here's",
-      "nicola"
+      "nicola",
+      "here's"
      ],
      "suggestion": "Here's a spoon, Nicola.",
      "suggestionFa": "این قاشق، نیکولا.",

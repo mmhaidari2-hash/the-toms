@@ -141,8 +141,8 @@
      "keywords": [
       "still",
       "keep",
-      "five",
-      "nine"
+      "move",
+      "when"
      ],
      "suggestion": "A five when I keep still, but a nine if I move it.",
      "suggestionFa": "وقتی تکونش نمی‌دم پنج، ولی اگه حرکتش بدم نه.",
@@ -193,8 +193,8 @@
      "keywords": [
       "numbness",
       "hurts",
-      "move",
-      "them"
+      "them",
+      "move"
      ],
      "suggestion": "I can move them, but it hurts. No numbness.",
      "suggestionFa": "می‌تونم تکونشون بدم، ولی درد داره. بی‌حسی نه.",
@@ -204,8 +204,8 @@
     },
     {
      "keywords": [
-      "feels",
       "thumb",
+      "feels",
       "numb",
       "bit"
      ],
@@ -247,8 +247,8 @@
      "keywords": [
       "paracetamol",
       "allergies",
-      "took",
-      "half"
+      "half",
+      "took"
      ],
      "suggestion": "I took two paracetamol at half one. No allergies.",
      "suggestionFa": "ساعت یک و نیم دو تا پاراستامول خوردم. حساسیت ندارم.",
@@ -295,9 +295,9 @@
    "branches": [
     {
      "keywords": [
-      "long",
-      "will",
       "wait",
+      "will",
+      "long",
       "how"
      ],
      "suggestion": "How long will I have to wait?",
@@ -397,8 +397,8 @@
    "branches": [
     {
      "keywords": [
-      "while",
       "drink",
+      "while",
       "will",
       "wait"
      ],

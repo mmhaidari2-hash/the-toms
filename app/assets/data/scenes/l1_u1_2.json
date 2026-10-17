@@ -20,8 +20,8 @@
     {
      "keywords": [
       "hello",
-      "meet",
-      "nice"
+      "nice",
+      "meet"
      ],
      "suggestion": "Hello, Tom. Nice to meet you.",
      "suggestionFa": "سلام تام. از آشنایی‌تان خوشوقتم.",
@@ -120,17 +120,17 @@
   "n3": {
    "id": "n3",
    "speaker": "leslie",
-   "text": "And this little monkey is William. He's our baby. He's one.",
+   "text": "And this little monkey is William. He's our youngest. He's three.",
    "translations": {
-    "fa": "و این کوچولوی شیطون ویلیامه. بچهٔ ماست. یک سالشه."
+    "fa": "و این کوچولوی شیطون ویلیامه. کوچیک‌ترین بچه‌مونه. سه سالشه."
    },
    "branches": [
     {
      "keywords": [
       "william",
       "hello",
-      "he's",
-      "cute"
+      "cute",
+      "he's"
      ],
      "suggestion": "Hello, William! He's so cute.",
      "suggestionFa": "سلام ویلیام! خیلی بامزه‌ست.",
@@ -152,8 +152,8 @@
    ],
    "newWords": [
     {
-     "word": "baby",
-     "fa": "نوزاد"
+     "word": "youngest",
+     "fa": "کوچک‌ترین"
     },
     {
      "word": "son",
@@ -168,14 +168,15 @@
   "n4": {
    "id": "n4",
    "speaker": "william",
-   "text": "Ba! Ba-ba!",
+   "text": "Hiya! I'm William! I'm three!",
    "translations": {
-    "fa": "با! با-با!"
+    "fa": "سلام! من ویلیامم! سه سالمه!"
    },
    "branches": [
     {
      "keywords": [
       "little",
+      "hello",
       "one"
      ],
      "suggestion": "Hello, little one!",
@@ -186,11 +187,12 @@
     },
     {
      "keywords": [
-      "saying",
-      "he"
+      "three",
+      "big",
+      "wow"
      ],
-     "suggestion": "Is he saying hello?",
-     "suggestionFa": "داره سلام می‌کنه؟",
+     "suggestion": "Three? Wow, you're big!",
+     "suggestionFa": "سه سال؟ وای، چه بزرگی!",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -200,22 +202,26 @@
     {
      "word": "little",
      "fa": "کوچک"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
     }
    ]
   },
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "He is! That's his hello. Ryan is upstairs. He's our son too. He's fourteen.",
+   "text": "He loves saying hello! Ryan is upstairs. He's our son too. He's fifteen.",
    "translations": {
-    "fa": "آره! این سلام اوست. رایان طبقهٔ بالاست. اونم پسرمونه. چهارده سالشه."
+    "fa": "عاشق سلام کردنه! رایان طبقهٔ بالاست. اونم پسرمونه. پونزده سالشه."
    },
    "branches": [
     {
      "keywords": [
       "daughter",
-      "sons",
       "have",
+      "sons",
       "two"
      ],
      "suggestion": "So you have two sons and a daughter?",
@@ -226,12 +232,12 @@
     },
     {
      "keywords": [
-      "fourteen",
       "teenager",
+      "fifteen",
       "he's"
      ],
-     "suggestion": "Fourteen? He's a teenager!",
-     "suggestionFa": "چهارده؟ نوجوونه!",
+     "suggestion": "Fifteen? He's a teenager!",
+     "suggestionFa": "پونزده؟ نوجوونه!",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -267,9 +273,9 @@
     {
      "keywords": [
       "hello",
-      "meet",
+      "weda",
       "nice",
-      "weda"
+      "meet"
      ],
      "suggestion": "Hello, Weda. Nice to meet you.",
      "suggestionFa": "سلام ویدا. از آشنایی‌تون خوشوقتم.",

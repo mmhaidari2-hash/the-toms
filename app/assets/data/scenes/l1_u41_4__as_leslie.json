@@ -25,7 +25,7 @@
       "waiting",
       "amina",
       "hello",
-      "look"
+      "room"
      ],
      "suggestion": "Look, there's Mrs Khan in the waiting room. Hello, Amina! Are you OK?",
      "suggestionFa": "ببین، خانم خان تو اتاق انتظاره. سلام آمینا! خوبی؟",
@@ -162,8 +162,8 @@
    "branches": [
     {
      "keywords": [
-      "shopping",
       "anything",
+      "shopping",
       "walking",
       "tiger",
       "don't"
@@ -351,8 +351,8 @@
       "tonight",
       "nicola",
       "she'll",
-      "amina",
-      "let's"
+      "let's",
+      "amina"
      ],
      "suggestion": "Poor Amina. Let's make her a get-well card with Nicola tonight. She'll love that!",
      "suggestionFa": "آمینای بیچاره. بیا امشب با نیکولا براش یه کارت آرزوی بهبودی درست کنیم. عاشقش میشه!",

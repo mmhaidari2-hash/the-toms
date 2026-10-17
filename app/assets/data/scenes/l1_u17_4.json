@@ -21,8 +21,8 @@
      "keywords": [
       "thirsty",
       "really",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea. I'm really thirsty.",
      "suggestionFa": "فکر خوبیه. واقعاً تشنمه.",
@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "glass",
       "could",
+      "glass",
       "water"
      ],
      "suggestion": "Could I have a glass of water, please?",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "twenty",
-      "five",
       "iran",
+      "five",
       "hot"
      ],
      "suggestion": "Twenty-five is not hot in Iran!",
@@ -366,8 +366,8 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "that's",
+      "leslie",
       "thank",
       "kind"
      ],
@@ -379,9 +379,9 @@
     },
     {
      "keywords": [
+      "turn",
       "next",
       "time",
-      "turn",
       "ok"
      ],
      "suggestion": "OK, next time is my turn!",

@@ -24,7 +24,7 @@
       "william's",
       "running",
       "hello",
-      "dear",
+      "duck",
       "bath"
      ],
      "suggestion": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
@@ -86,9 +86,9 @@
   "r4": {
    "id": "r4",
    "speaker": "william",
-   "text": "Bath! Splash!",
+   "text": "Bath time! Splash, splash!",
    "translations": {
-    "fa": "حموم! شالاپ!"
+    "fa": "وقت حمومه! شالاپ، شالاپ!"
    },
    "branches": [
     {
@@ -153,7 +153,7 @@
       "washing",
       "thank",
       "hates",
-      "dear"
+      "hair"
      ],
      "suggestion": "Thank you, dear. Now I'm washing his hair. He hates this part. Sing something!",
      "suggestionFa": "ممنون عزیزم. حالا دارم موهاش را می‌شورم. از این قسمت متنفره. یه چیزی بخون!",
@@ -188,9 +188,9 @@
   "r8": {
    "id": "r8",
    "speaker": "william",
-   "text": "Bus! Bus! More!",
+   "text": "The bus song! Sing it again!",
    "translations": {
-    "fa": "اتوبوس! اتوبوس! بیشتر!"
+    "fa": "آهنگ اتوبوس! دوباره بخون!"
    },
    "branches": [
     {
@@ -229,7 +229,7 @@
       "careful",
       "getting",
       "towel",
-      "done"
+      "he's"
      ],
      "suggestion": "You're a star. All done! Now I'm getting the towel. Can you hold him? Careful, he's slippery!",
      "suggestionFa": "تو ستاره‌ای. تموم شد! حالا دارم حوله را میارم. می‌تونی نگهش داری؟ مواظب باش، لیزه!",
@@ -251,10 +251,10 @@
     {
      "keywords": [
       "pyjamas",
-      "lovely",
       "little",
+      "lovely",
       "night",
-      "fish"
+      "wrap"
      ],
      "suggestion": "Ha! A little fish. Wrap him up. Lovely. Now pyjamas and bed, little one. Say night night!",
      "suggestionFa": "ها! یه ماهی کوچولو. بپیچش. عالی. حالا پیژامه و تخت، کوچولو. بگو شب بخیر!",

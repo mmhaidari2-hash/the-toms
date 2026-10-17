@@ -125,8 +125,8 @@
     {
      "keywords": [
       "thing",
-      "next",
-      "list"
+      "list",
+      "next"
      ],
      "suggestion": "Next thing on the list?",
      "suggestionFa": "چیز بعدی لیست؟",
@@ -216,8 +216,8 @@
     {
      "keywords": [
       "custard",
-      "have",
-      "seen"
+      "seen",
+      "have"
      ],
      "suggestion": "Have you seen the custard?",
      "suggestionFa": "کاستارد را دیدی؟",
@@ -269,8 +269,8 @@
     },
     {
      "keywords": [
-      "three",
       "aisle",
+      "three",
       "easy"
      ],
      "suggestion": "Aisle three. Easy!",
@@ -303,8 +303,8 @@
      "keywords": [
       "flowers",
       "some",
-      "buy",
-      "her"
+      "her",
+      "buy"
      ],
      "suggestion": "Buy her some flowers.",
      "suggestionFa": "براش گل بخر.",

@@ -33,9 +33,9 @@
     {
      "keywords": [
       "please",
-      "tidy",
       "just",
-      "long"
+      "long",
+      "tidy"
      ],
      "suggestion": "Just tidy it up, please. It's too long.",
      "suggestionFa": "فقط مرتبش کن، لطفاً. زیادی بلنده.",
@@ -75,8 +75,8 @@
      "keywords": [
       "sides",
       "take",
-      "but",
-      "bit"
+      "bit",
+      "off"
      ],
      "suggestion": "Yes, but take a bit off the sides.",
      "suggestionFa": "آره، ولی از بغل‌ها یه کم بزن.",
@@ -135,8 +135,8 @@
      "keywords": [
       "scissors",
       "nothing",
-      "modern",
-      "please"
+      "please",
+      "modern"
      ],
      "suggestion": "Scissors all over, please. Nothing too modern.",
      "suggestionFa": "همه جا با قیچی، لطفاً. هیچ چیز خیلی مدرن نه.",
@@ -189,8 +189,8 @@
      "keywords": [
       "please",
       "i'll",
-      "but",
-      "try"
+      "try",
+      "but"
      ],
      "suggestion": "I'll try it! But not too short, please.",
      "suggestionFa": "امتحانش می‌کنم! ولی نه خیلی کوتاه، لطفاً.",
@@ -246,9 +246,9 @@
     },
     {
      "keywords": [
-      "cooler",
-      "little",
       "please",
+      "little",
+      "cooler",
       "bit"
      ],
      "suggestion": "A little bit cooler, please.",
@@ -341,7 +341,7 @@
       "little",
       "front",
       "could",
-      "take"
+      "more"
      ],
      "suggestion": "Could you take a little more off the front?",
      "suggestionFa": "می‌شه از جلو یه کم دیگه بزنی؟",
@@ -383,8 +383,8 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "please",
+      "little",
       "just"
      ],
      "suggestion": "Yes please, just a little.",

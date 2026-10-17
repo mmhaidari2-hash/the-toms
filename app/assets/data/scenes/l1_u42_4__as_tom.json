@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "buses",
       "bikes",
+      "buses",
       "those",
       "than",
-      "look"
+      "ride"
      ],
      "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "should",
-      "safer",
-      "lanes",
       "cycle",
-      "there"
+      "safer",
+      "there",
+      "lanes"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
      "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "there",
-      "ones",
       "half",
+      "over",
       "hour",
-      "over"
+      "ones"
      ],
      "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
      "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
@@ -100,7 +100,7 @@
       "pounds",
       "helmet",
       "wear",
-      "few"
+      "bad"
      ],
      "suggestion": "Not bad. A few pounds. But you should wear a helmet.",
      "suggestionFa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.",
@@ -125,7 +125,7 @@
       "pavement",
       "smart",
       "ride",
-      "but"
+      "law"
      ],
      "suggestion": "It's not the law, but it's smart. And you shouldn't ride on the pavement.",
      "suggestionFa": "قانون نیست، ولی عاقلانه‌ست. و نباید رو پیاده‌رو برونی.",
@@ -150,7 +150,7 @@
       "cycle",
       "here",
       "keep",
-      "road"
+      "left"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
      "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "shouldn't",
-      "that's",
       "tricky",
-      "front",
-      "thing"
+      "that's",
+      "thing",
+      "front"
      ],
      "suggestion": "That's the tricky bit! And one more thing — you shouldn't ride in front of my bus! Ha!",
      "suggestionFa": "قسمت سختش همینه! و یه چیز دیگه — نباید جلوی اتوبوس من برونی! ها!",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "pedals",
+      "legs",
       "know",
       "down",
-      "only",
       "bike"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",

@@ -75,8 +75,8 @@
      "keywords": [
       "morning",
       "please",
-      "speak",
-      "nurse"
+      "nurse",
+      "speak"
      ],
      "suggestion": "Good morning. Can I speak to the nurse, please?",
      "suggestionFa": "صبح بخیر. می‌تونم با پرستار صحبت کنم، لطفاً؟",
@@ -143,8 +143,8 @@
     },
     {
      "keywords": [
-      "free",
       "when",
+      "free",
       "she"
      ],
      "suggestion": "When is she free?",
@@ -182,20 +182,20 @@
       "ask",
       "let"
      ],
-     "suggestion": "He's one. Let me ask his mum.",
-     "suggestionFa": "یک سالشه. بذار از مامانش بپرسم.",
+     "suggestion": "He's three. Let me ask his mum.",
+     "suggestionFa": "سه سالشه. بذار از مامانش بپرسم.",
      "trustDelta": 6,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
+      "years",
       "here",
-      "year",
       "old"
      ],
-     "suggestion": "He's one year old. His mum is here.",
-     "suggestionFa": "یک ساله‌ست. مامانش اینجاست.",
+     "suggestion": "He's three years old. His mum is here.",
+     "suggestionFa": "سه ساله‌ست. مامانش اینجاست.",
      "trustDelta": 5,
      "next": "n5",
      "success": true
@@ -215,18 +215,19 @@
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "Tell her the fifth of March! Last year!",
+   "text": "Tell her the fifth of March! Three years ago!",
    "translations": {
-    "fa": "بهش بگو پنجم مارس! پارسال!"
+    "fa": "بهش بگو پنجم مارس! سه سال پیش!"
    },
    "branches": [
     {
      "keywords": [
-      "last",
-      "year"
+      "years",
+      "three",
+      "ago"
      ],
-     "suggestion": "The fifth of March, last year.",
-     "suggestionFa": "پنجم مارس، پارسال.",
+     "suggestion": "The fifth of March, three years ago.",
+     "suggestionFa": "پنجم مارس، سه سال پیش.",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -245,8 +246,8 @@
    ],
    "newWords": [
     {
-     "word": "last year",
-     "fa": "پارسال"
+     "word": "three years ago",
+     "fa": "سه سال پیش"
     },
     {
      "word": "fifth",
@@ -257,9 +258,9 @@
   "n6": {
    "id": "n6",
    "speaker": "receptionist",
-   "text": "Thank you. William needs his one-year jabs. I can book an appointment for you.",
+   "text": "Thank you. William needs his pre-school jabs. I can book an appointment for you.",
    "translations": {
-    "fa": "ممنون. ویلیام واکسن‌های یک‌سالگی‌اش را لازم داره. می‌تونم براتون وقت بگیرم."
+    "fa": "ممنون. ویلیام واکسن‌های قبل از مدرسه‌اش را لازم داره. می‌تونم براتون وقت بگیرم."
    },
    "branches": [
     {
@@ -295,7 +296,7 @@
     }
    ],
    "cultureNote": {
-    "en": "Brits often say \"jabs\" for vaccinations. UK babies have free vaccinations on the NHS.",
+    "en": "Brits often say \"jabs\" for vaccinations. UK children have free vaccinations on the NHS.",
     "fa": "jab یعنی واکسن."
    }
   },
@@ -322,8 +323,8 @@
     },
     {
      "keywords": [
-      "repeat",
       "please",
+      "repeat",
       "time",
       "can"
      ],
@@ -356,8 +357,8 @@
     {
      "keywords": [
       "that's",
-      "much",
-      "fine"
+      "fine",
+      "much"
      ],
      "suggestion": "That's fine. Thank you very much.",
      "suggestionFa": "خوبه. خیلی ممنون.",

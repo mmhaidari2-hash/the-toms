@@ -24,8 +24,8 @@
       "o'clock",
       "already",
       "unfair",
-      "that's",
-      "phones"
+      "phones",
+      "that's"
      ],
      "suggestion": "Is it ten o'clock already? Mum says phones off at ten. That's so unfair!",
      "suggestionFa": "ساعت ده شد؟ مامان می‌گه گوشی‌ها ساعت ده خاموش. خیلی ناعادلانه‌ست!",
@@ -49,8 +49,8 @@
       "finishing",
       "minutes",
       "just",
-      "game",
-      "late"
+      "late",
+      "game"
      ],
      "suggestion": "Ten minutes! OK. I'm just finishing this game. Do you go to bed late?",
      "suggestionFa": "ده دقیقه! باشه. دارم این بازی را تموم می‌کنم. تو دیر می‌خوابی؟",
@@ -75,7 +75,7 @@
       "school",
       "maths",
       "lucky",
-      "have"
+      "test"
      ],
      "suggestion": "Lucky you. Have you got school tomorrow? I've got a maths test.",
      "suggestionFa": "خوش به حالت. فردا مدرسه داری؟ من امتحان ریاضی دارم.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "o'clock",
-      "check",
       "alarm",
+      "check",
       "seven",
       "know"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "machine",
       "washing",
+      "machine",
       "cheers",
       "still",
       "kit"
@@ -148,8 +148,8 @@
      "keywords": [
       "genius",
       "light",
-      "lamp",
       "turn",
+      "lamp",
       "i've"
      ],
      "suggestion": "Genius. Can you turn the big light off? I've got my lamp.",
@@ -173,9 +173,9 @@
      "keywords": [
       "tomorrow",
       "phone's",
-      "time",
       "good",
-      "see"
+      "time",
+      "off"
      ],
      "suggestion": "Phone's off. See? I'm a good boy. What time do you get up tomorrow?",
      "suggestionFa": "گوشی خاموشه. دیدی؟ پسر خوبیم. فردا ساعت چند بیدار می‌شی؟",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "bedbugs",
-      "that's",
       "always",
-      "don't",
-      "weird"
+      "that's",
+      "night",
+      "innit"
      ],
      "suggestion": "Night, then. Don't let the bedbugs bite! That's what Nana always says. Weird, innit?",
      "suggestionFa": "پس شب بخیر. نذار ساس‌ها نیشت بزنن! نانا همیشه اینو می‌گه. عجیبه، نه؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "radiator",
-      "cheers",
       "thanks",
-      "trick",
-      "night"
+      "cheers",
+      "night",
+      "trick"
      ],
      "suggestion": "Cheers, mate. And thanks for the radiator trick. Night!",
      "suggestionFa": "مرسی رفیق. و ممنون بابت ترفند شوفاژ. شب بخیر!",

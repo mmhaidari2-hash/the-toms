@@ -133,8 +133,8 @@
     {
      "keywords": [
       "family",
-      "name",
       "kept",
+      "name",
       "her"
      ],
      "suggestion": "No, she kept her family name.",
@@ -179,7 +179,7 @@
       "surname",
       "double",
       "names",
-      "both"
+      "like"
      ],
      "suggestion": "Both names? Like a double surname?",
      "suggestionFa": "هر دو اسم؟ مثل یه نام خانوادگی دوتایی؟",
@@ -266,9 +266,9 @@
     {
      "keywords": [
       "thompson",
-      "lovely",
+      "nicola",
       "that's",
-      "nicola"
+      "lovely"
      ],
      "suggestion": "That's lovely. Nicola Weda Thompson.",
      "suggestionFa": "چه قشنگ. نیکولا ودا تامپسون.",
@@ -280,8 +280,8 @@
      "keywords": [
       "middle",
       "have",
-      "ryan",
-      "name"
+      "name",
+      "ryan"
      ],
      "suggestion": "Does Ryan have a middle name?",
      "suggestionFa": "رایان اسم وسط داره؟",

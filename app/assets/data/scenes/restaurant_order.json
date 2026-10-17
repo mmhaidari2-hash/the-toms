@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "we're",
-      "roast",
       "ready",
+      "roast",
+      "we're",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "allergic",
       "daughter",
+      "allergic",
       "nuts"
      ],
      "suggestion": "Yes, my daughter is allergic to nuts.",
@@ -230,8 +230,8 @@
     },
     {
      "keywords": [
-      "she'll",
       "thanks",
+      "she'll",
       "share"
      ],
      "suggestion": "No thanks, she'll share with me.",
@@ -277,7 +277,7 @@
       "please",
       "could",
       "gravy",
-      "some"
+      "have"
      ],
      "suggestion": "Could we have some more gravy, please?",
      "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",

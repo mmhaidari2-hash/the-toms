@@ -24,8 +24,8 @@
       "william's",
       "feeling",
       "better",
-      "look",
-      "good"
+      "good",
+      "news"
      ],
      "suggestion": "Good news! William's feeling better. Look at him!",
      "suggestionFa": "خبر خوب! حال ویلیام بهتره. نگاش کن!",
@@ -86,9 +86,9 @@
   "r4": {
    "id": "r4",
    "speaker": "william",
-   "text": "Ball! Play!",
+   "text": "Can we play ball now?",
    "translations": {
-    "fa": "توپ! بازی!"
+    "fa": "الان می‌تونیم توپ‌بازی کنیم؟"
    },
    "branches": [
     {
@@ -124,11 +124,11 @@
    "branches": [
     {
      "keywords": [
-      "banana",
-      "that's",
       "eating",
+      "that's",
       "always",
-      "let's"
+      "banana",
+      "wants"
      ],
      "suggestion": "He wants to play — that's always a good sign. Is he eating more? Let's try a banana.",
      "suggestionFa": "می‌خواد بازی کنه — این همیشه نشونهٔ خوبیه. بیشتر می‌خوره؟ بیا یه موز امتحان کنیم.",
@@ -163,9 +163,9 @@
   "r7": {
    "id": "r7",
    "speaker": "william",
-   "text": "Nana! More!",
+   "text": "Nana! More banana, please!",
    "translations": {
-    "fa": "نانا! بیشتر!"
+    "fa": "نانا! موز بیشتر، لطفاً!"
    },
    "branches": [
     {
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "brilliant",
-      "better",
       "eating",
+      "better",
       "banana",
       "worse"
      ],
@@ -224,8 +224,8 @@
       "william's",
       "banana",
       "sorry",
-      "want",
-      "gave"
+      "gave",
+      "want"
      ],
      "suggestion": "Oh no — I gave it to you! I'm so sorry. Do you want some of William's banana? Ha!",
      "suggestionFa": "ای وای — من بهت دادمش! خیلی ببخشید. یه کم از موز ویلیام می‌خوای؟ ها!",
@@ -246,14 +246,14 @@
    "branches": [
     {
      "keywords": [
-      "doctor's",
       "tomorrow",
+      "doctor's",
+      "school",
       "orders",
-      "that's",
-      "group"
+      "that's"
      ],
-     "suggestion": "That's true! Tomorrow he can go back to baby group with Nana. And you can go back to bed. Doctor's orders!",
-     "suggestionFa": "راسته! فردا می‌تونه با نانا برگرده گروه بازی بچه‌ها. و تو می‌تونی برگردی تو تخت. دستور دکتر!",
+     "suggestion": "That's true! Tomorrow he can go back to pre-school. And you can go back to bed. Doctor's orders!",
+     "suggestionFa": "راسته! فردا می‌تونه برگرده پیش‌دبستانی. و تو می‌تونی برگردی تو تخت. دستور دکتر!",
      "trustDelta": 5,
      "next": "r11",
      "success": true

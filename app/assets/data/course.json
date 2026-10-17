@@ -141,8 +141,8 @@
        "fa": "ممنون"
       },
       {
-       "word": "baby",
-       "fa": "نوزاد"
+       "word": "youngest",
+       "fa": "کوچک‌ترین"
       },
       {
        "word": "son",
@@ -155,6 +155,10 @@
       {
        "word": "little",
        "fa": "کوچک"
+      },
+      {
+       "word": "big",
+       "fa": "بزرگ"
       },
       {
        "word": "daughter",
@@ -5986,8 +5990,8 @@
        "fa": "دست"
       },
       {
-       "word": "dummy",
-       "fa": "پستانک"
+       "word": "toy bus",
+       "fa": "اتوبوس اسباب‌بازی"
       },
       {
        "word": "pocket",
@@ -10035,8 +10039,8 @@
        "fa": "روکش بارانی"
       },
       {
-       "word": "pram",
-       "fa": "کالسکه"
+       "word": "buggy",
+       "fa": "کالسکهٔ تاشو"
       },
       {
        "word": "under",
@@ -11054,8 +11058,8 @@
        "fa": "ساله"
       },
       {
-       "word": "last year",
-       "fa": "پارسال"
+       "word": "three years ago",
+       "fa": "سه سال پیش"
       },
       {
        "word": "fifth",
@@ -11851,8 +11855,8 @@
        "fa": "کشو"
       },
       {
-       "word": "high chair",
-       "fa": "صندلی غذای بچه"
+       "word": "booster seat",
+       "fa": "صندلی بلندکنندهٔ بچه"
       },
       {
        "word": "wriggle",
@@ -13397,16 +13401,16 @@
   {
    "level": 1,
    "id": "U80",
-   "title": "Baby William",
+   "title": "Little William",
    "titleFa": "ویلیام کوچولو",
    "place": "living",
-   "canDo": "Talk about looking after a baby",
-   "canDoFa": "دربارهٔ مراقبت از نوزاد صحبت کنی",
+   "canDo": "Talk about looking after a small child",
+   "canDoFa": "دربارهٔ مراقبت از یک بچهٔ کوچک صحبت کنی",
    "lessons": [
     {
      "id": "l1_u35_1",
-     "title": "Nappy time",
-     "titleFa": "وقت عوض کردن پوشک",
+     "title": "Big boy pants",
+     "titleFa": "شورت پسر بزرگ",
      "lead": "leslie",
      "place": "living",
      "grammar": "Need to / have to",
@@ -13416,76 +13420,80 @@
      ],
      "words": [
       {
+       "word": "potty",
+       "fa": "لگن بچه ؛ پات"
+      },
+      {
        "word": "nappy",
        "fa": "پوشک"
       },
       {
-       "word": "pass",
-       "fa": "دادن"
+       "word": "learning",
+       "fa": "یاد گرفتن"
       },
       {
-       "word": "smell",
-       "fa": "بو"
-      },
-      {
-       "word": "changing mat",
-       "fa": "تشک تعویض پوشک"
-      },
-      {
-       "word": "sofa",
-       "fa": "مبل"
+       "word": "needs to",
+       "fa": "لازم است"
       },
       {
        "word": "have to",
        "fa": "مجبور بودن"
       },
       {
-       "word": "wipes",
-       "fa": "دستمال مرطوب"
+       "word": "every hour",
+       "fa": "هر ساعت"
       },
       {
-       "word": "clean",
-       "fa": "تمیز"
+       "word": "remember",
+       "fa": "یادآوری/یاد ماندن"
       },
       {
-       "word": "bag",
-       "fa": "کیف"
+       "word": "pants",
+       "fa": "شورت"
       },
       {
-       "word": "hold",
-       "fa": "نگه داشتن"
+       "word": "big boy",
+       "fa": "پسر بزرگ"
       },
       {
-       "word": "feet",
-       "fa": "پاها"
+       "word": "quick",
+       "fa": "سریع"
       },
       {
-       "word": "kicks",
-       "fa": "لگد می‌زند"
+       "word": "bathroom",
+       "fa": "حمام/دستشویی"
       },
       {
-       "word": "tickle",
-       "fa": "غلغلک"
+       "word": "run",
+       "fa": "دویدن"
+      },
+      {
+       "word": "wee",
+       "fa": "جیش (بچگانه)"
+      },
+      {
+       "word": "need",
+       "fa": "لازم داشتن"
       },
       {
        "word": "wash",
        "fa": "شستن"
       },
       {
-       "word": "bin",
-       "fa": "سطل زباله"
+       "word": "soap",
+       "fa": "صابون"
       },
       {
-       "word": "many times",
-       "fa": "چندین بار"
+       "word": "hooray",
+       "fa": "هورا"
       }
      ],
-     "turns": 15
+     "turns": 13
     },
     {
      "id": "l1_u35_2",
-     "title": "William's first word",
-     "titleFa": "اولین کلمهٔ ویلیام",
+     "title": "William's funny words",
+     "titleFa": "کلمه‌های بامزهٔ ویلیام",
      "lead": "leslie",
      "place": "living",
      "grammar": "Past simple: said / was",
@@ -13495,72 +13503,76 @@
      ],
      "words": [
       {
-       "word": "first",
-       "fa": "اول"
-      },
-      {
-       "word": "word",
-       "fa": "کلمه"
-      },
-      {
        "word": "said",
        "fa": "گفت"
+      },
+      {
+       "word": "funny",
+       "fa": "بامزه"
+      },
+      {
+       "word": "called",
+       "fa": "نامید"
+      },
+      {
+       "word": "laughed",
+       "fa": "خندید"
+      },
+      {
+       "word": "yesterday",
+       "fa": "دیروز"
+      },
+      {
+       "word": "bunny",
+       "fa": "خرگوش (بچگانه)"
+      },
+      {
+       "word": "hop",
+       "fa": "جهیدن"
+      },
+      {
+       "word": "brilliant",
+       "fa": "عالی"
       },
       {
        "word": "last week",
        "fa": "هفتهٔ گذشته"
       },
       {
-       "word": "breakfast",
-       "fa": "صبحانه"
+       "word": "animal",
+       "fa": "حیوان"
       },
       {
-       "word": "hear",
-       "fa": "شنیدن"
+       "word": "when",
+       "fa": "وقتی"
       },
       {
-       "word": "clever",
-       "fa": "باهوش"
+       "word": "until",
+       "fa": "تا"
       },
       {
-       "word": "Daddy",
-       "fa": "بابا"
+       "word": "small",
+       "fa": "کوچک"
       },
       {
-       "word": "really",
-       "fa": "واقعاً"
+       "word": "told",
+       "fa": "گفتم"
       },
       {
-       "word": "loves",
-       "fa": "عاشق است"
+       "word": "knows",
+       "fa": "می‌داند"
       },
       {
-       "word": "like father, like son",
-       "fa": "پسر کو ندارد نشان از پدر"
-      },
-      {
-       "word": "changed",
-       "fa": "عوض شد"
-      },
-      {
-       "word": "teenagers",
-       "fa": "نوجوانان"
-      },
-      {
-       "word": "baby book",
-       "fa": "دفترچهٔ خاطرات نوزاد"
-      },
-      {
-       "word": "write",
-       "fa": "نوشتن"
+       "word": "funny boy",
+       "fa": "پسر بامزه"
       }
      ],
-     "turns": 17
+     "turns": 13
     },
     {
      "id": "l1_u35_3",
-     "title": "Bottle time",
-     "titleFa": "وقت شیشهٔ شیر",
+     "title": "Snack time",
+     "titleFa": "وقت خوراکی",
      "lead": "william",
      "place": "living",
      "grammar": "Offering: Do you want…? / Here's…",
@@ -13570,44 +13582,56 @@
      ],
      "words": [
       {
-       "word": "milk",
-       "fa": "شیر"
+       "word": "hungry",
+       "fa": "گرسنه"
       },
       {
-       "word": "warm",
-       "fa": "گرم کردن"
+       "word": "snack",
+       "fa": "خوراکی ؛ میان‌وعده"
       },
       {
-       "word": "bottle",
-       "fa": "شیشهٔ شیر"
+       "word": "fruit",
+       "fa": "میوه"
       },
       {
-       "word": "microwave",
-       "fa": "مایکروویو"
+       "word": "grapes",
+       "fa": "انگور"
       },
       {
-       "word": "shake",
-       "fa": "تکان دادن"
+       "word": "cut",
+       "fa": "بریدن"
       },
       {
-       "word": "wrist",
-       "fa": "مچ دست"
+       "word": "in half",
+       "fa": "از وسط نصف"
       },
       {
-       "word": "test",
-       "fa": "امتحان کردن"
+       "word": "whole",
+       "fa": "کامل ؛ درسته"
       },
       {
-       "word": "mine",
-       "fa": "مال من"
+       "word": "safe",
+       "fa": "امن"
+      },
+      {
+       "word": "little ones",
+       "fa": "بچه‌های کوچک"
+      },
+      {
+       "word": "cup",
+       "fa": "لیوان"
+      },
+      {
+       "word": "blue",
+       "fa": "آبی"
       },
       {
        "word": "hold",
        "fa": "گرفتن"
       },
       {
-       "word": "himself",
-       "fa": "خودش"
+       "word": "everything",
+       "fa": "همه چیز"
       },
       {
        "word": "sit",
@@ -13618,32 +13642,36 @@
        "fa": "تمام شد"
       },
       {
-       "word": "burp",
-       "fa": "آروغ زدن ؛ آروغ گرفتن"
+       "word": "more",
+       "fa": "بیشتر"
       },
       {
-       "word": "pat",
-       "fa": "آرام زدن"
+       "word": "cracker",
+       "fa": "بیسکویت شور ؛ کراکر"
       },
       {
-       "word": "gently",
-       "fa": "به آرامی"
+       "word": "instead",
+       "fa": "به‌جای آن"
       },
       {
-       "word": "cloth",
-       "fa": "دستمال"
+       "word": "tea",
+       "fa": "شام"
       },
       {
-       "word": "excuse you",
-       "fa": "(شوخی) بگو ببخشید"
+       "word": "manners",
+       "fa": "ادب"
+      },
+      {
+       "word": "you're welcome",
+       "fa": "خواهش می‌کنم"
       }
      ],
      "turns": 17
     },
     {
      "id": "l1_u35_4",
-     "title": "Shh, he's sleeping",
-     "titleFa": "هیس، خوابه",
+     "title": "Shh, he's napping",
+     "titleFa": "هیس، چرت می‌زنه",
      "lead": "leslie",
      "place": "living",
      "grammar": "Present continuous: He's sleeping / I'm reading",
@@ -13652,6 +13680,10 @@
       "l1_u35_4"
      ],
      "words": [
+      {
+       "word": "nap",
+       "fa": "چرت"
+      },
       {
        "word": "sleeping",
        "fa": "خوابیده"
@@ -13665,12 +13697,12 @@
        "fa": "پچ‌پچ کردن"
       },
       {
-       "word": "cot",
-       "fa": "تخت نوزاد"
+       "word": "bed",
+       "fa": "تخت"
       },
       {
-       "word": "baby monitor",
-       "fa": "دستگاه پایش نوزاد"
+       "word": "monitor",
+       "fa": "دوربین مراقبت"
       },
       {
        "word": "smiling",

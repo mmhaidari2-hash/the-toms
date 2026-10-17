@@ -106,7 +106,7 @@ leslie: Yes! Thirty-six point nine. Normal. He was so hot yesterday. | آره! �
 > That's a relief! | خیالمون راحت شد!
 W: normal=طبیعی ; yesterday=دیروز ; relief=آسودگی
 X: he is more better ; he's more good than => He's better than yesterday? Much! | He's much better than yesterday. | از دیروز خیلی بهتره.
-william: Ball! Play! | توپ! بازی!
+william: Can we play ball now? | الان می‌تونیم توپ‌بازی کنیم؟
 > He wants to play! | می‌خواد بازی کنه!
 > Here's your ball, William. | بیا توپت ویلیام.
 W: ball=توپ ; play=بازی کردن
@@ -114,9 +114,9 @@ leslie: He wants to play — that's always a good sign. Is he eating more? Let's
 > Here's a banana. | بفرما یه موز.
 > He ate a little last night. | دیشب یه کم خورد.
 W: sign=نشانه ; banana=موز
-william: Nana! More! | نانا! بیشتر!
+william: Nana! More banana, please! | نانا! موز بیشتر، لطفاً!
 > He wants more! | بیشتر می‌خواد!
-> He said "Nana"! | گفت «نانا»!
+> He's eating again! | دوباره داره غذا می‌خوره!
 W: more=بیشتر
 leslie: More banana! Brilliant. He's eating better too. And you, {you}? Is your cold better or worse? | موز بیشتر! عالی. بهتر هم می‌خوره. و تو {you}؟ سرماخوردگیت بهتره یا بدتر؟
 > It's better, thanks. | بهتره، ممنون.
@@ -124,6 +124,6 @@ leslie: More banana! Brilliant. He's eating better too. And you, {you}? Is your 
 W: worse=بدتر ; better=بهتر
 leslie: Oh no — I gave it to you! I'm so sorry. Do you want some of William's banana? Ha! | ای وای — من بهت دادمش! خیلی ببخشید. یه کم از موز ویلیام می‌خوای؟ ها!
 > No thanks. Tea is better! | نه ممنون. چای بهتره!
-> Ha! Babies get better faster than adults. | ها! بچه‌ها از بزرگ‌ترها زودتر خوب میشن.
+> Ha! Little kids get better faster than adults. | ها! بچه‌های کوچیک از بزرگ‌ترها زودتر خوب میشن.
 W: adults=بزرگسالان ; faster=سریع‌تر
-leslie: That's true! Tomorrow he can go back to baby group with Nana. And you can go back to bed. Doctor's orders! | راسته! فردا می‌تونه با نانا برگرده گروه بازی بچه‌ها. و تو می‌تونی برگردی تو تخت. دستور دکتر!
+leslie: That's true! Tomorrow he can go back to pre-school. And you can go back to bed. Doctor's orders! | راسته! فردا می‌تونه برگرده پیش‌دبستانی. و تو می‌تونی برگردی تو تخت. دستور دکتر!

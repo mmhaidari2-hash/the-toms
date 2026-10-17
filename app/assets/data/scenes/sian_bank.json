@@ -78,9 +78,9 @@
     {
      "keywords": [
       "agreement",
-      "tenancy",
       "address",
-      "i've"
+      "tenancy",
+      "okay"
      ],
      "suggestion": "I've got a tenancy agreement — is that okay for address?",
      "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "thousand",
-      "pounds",
       "salary",
+      "pounds",
       "about"
      ],
      "suggestion": "About two thousand pounds, from my salary.",
@@ -168,7 +168,7 @@
       "thanks",
       "rather",
       "avoid",
-      "i'd"
+      "now"
      ],
      "suggestion": "I'd rather avoid an overdraft for now, thanks.",
      "suggestionFa": "ترجیح می‌دم فعلاً اضافه‌برداشت نداشته باشم، ممنون.",
@@ -214,7 +214,7 @@
       "monthly",
       "there",
       "avoid",
-      "then"
+      "i'll"
      ],
      "suggestion": "I'll avoid it, then. Is there a monthly fee?",
      "suggestionFa": "پس ازش پرهیز می‌کنم. هزینهٔ ماهانه داره؟",
@@ -226,8 +226,8 @@
      "keywords": [
       "later",
       "need",
-      "good",
-      "know"
+      "know",
+      "good"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
      "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "what's",
-      "sort",
-      "code"
+      "code",
+      "sort"
      ],
      "suggestion": "What's a sort code?",
      "suggestionFa": "کد شعبه چیه؟",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "abroad",
-      "great",
       "money",
+      "great",
       "send"
      ],
      "suggestion": "Great. Can I send money abroad too?",
@@ -325,8 +325,8 @@
     {
      "keywords": [
       "transfers",
-      "take",
       "long",
+      "take",
       "how"
      ],
      "suggestion": "How long do transfers take?",
@@ -364,7 +364,7 @@
      "keywords": [
       "thanks",
       "scams",
-      "about",
+      "those",
       "heard"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
@@ -376,8 +376,8 @@
     {
      "keywords": [
       "careful",
-      "good",
       "know",
+      "good",
       "i'll"
      ],
      "suggestion": "Good to know. I'll be careful.",
@@ -434,8 +434,8 @@
     {
      "keywords": [
       "where's",
-      "accent",
       "asking",
+      "accent",
       "don't"
      ],
      "suggestion": "Where's your accent from, if you don't mind me asking?",

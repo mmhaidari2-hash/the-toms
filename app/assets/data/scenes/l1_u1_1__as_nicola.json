@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "what's",
+      "nicola",
       "name",
       "hiya"
      ],
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "london",
+      "friend",
+      "from",
       "best",
-      "he's",
-      "from"
+      "he's"
      ],
      "suggestion": "Yes! He's my best friend. Are you from London?",
      "suggestionFa": "آره! بهترین دوستمه. اهل لندنی؟",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "always",
-      "mummy",
       "there",
+      "mummy",
       "here",
       "cold"
      ],
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "teacher",
-      "name's",
-      "that's",
       "leslie",
+      "that's",
+      "name's",
       "she's"
      ],
      "suggestion": "Look, that's my mum. Her name's Leslie. She's a teacher.",
@@ -252,7 +252,7 @@
       "friend",
       "later",
       "good",
-      "see",
+      "bye",
       "now"
      ],
      "suggestion": "Good! You're my friend now. Bye-bye, see you later!",

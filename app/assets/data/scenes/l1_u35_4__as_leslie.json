@@ -1,9 +1,9 @@
 {
  "id": "l1_u35_4__as_leslie",
  "characterId": "leslie",
- "title": "(As Leslie) Shh, he's sleeping",
- "titleFa": "(در نقش Leslie) هیس، خوابه",
- "setting": "Baby William · Level 1",
+ "title": "(As Leslie) Shh, he's napping",
+ "titleFa": "(در نقش Leslie) هیس، چرت می‌زنه",
+ "setting": "Little William · Level 1",
  "settingFa": "ویلیام کوچولو",
  "requires": null,
  "level": "A1",
@@ -22,13 +22,13 @@
     {
      "keywords": [
       "william's",
-      "sleeping",
       "finally",
+      "having",
       "quiet",
       "come"
      ],
-     "suggestion": "Shh! William's sleeping. Finally! Come in, but be very quiet.",
-     "suggestionFa": "هیس! ویلیام خوابه. بالاخره! بیا تو، ولی خیلی ساکت.",
+     "suggestion": "Shh! William's having his nap. Finally! Come in, but be very quiet.",
+     "suggestionFa": "هیس! ویلیام داره چرت بعدازظهرش را می‌زنه. بالاخره! بیا تو، ولی خیلی ساکت.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -49,11 +49,11 @@
       "sleeping",
       "monitor",
       "look",
-      "baby",
-      "he's"
+      "he's",
+      "see"
      ],
-     "suggestion": "No, he's sleeping in his cot. The baby monitor is on. Look, you can see him.",
-     "suggestionFa": "نه، تو تختش خوابیده. دوربین کودک روشنه. ببین، می‌تونی ببینیش.",
+     "suggestion": "No, he's sleeping in his bed. The monitor is on. Look, you can see him.",
+     "suggestionFa": "نه، تو تختش خوابیده. دوربین روشنه. ببین، می‌تونی ببینیش.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "making",
+      "course",
       "would",
       "like",
-      "toy"
+      "one"
      ],
      "suggestion": "His toy bus! Of course. Would you like a cup of tea? I'm making one.",
      "suggestionFa": "اتوبوس اسباب‌بازیش! معلومه. چای می‌خوری؟ دارم درست می‌کنم.",
@@ -103,7 +103,7 @@
       "doing"
      ],
      "suggestion": "Oh, thank you! I'm so tired. What's Ryan doing upstairs? It's very loud.",
-     "suggestionFa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصداست.",
+     "suggestionFa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصدا داره.",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -125,7 +125,7 @@
       "william",
       "text",
       "tell",
-      "him"
+      "can"
      ],
      "suggestion": "Can you text him? Tell him William is sleeping.",
      "suggestionFa": "می‌تونی بهش پیام بدی؟ بگو ویلیام خوابه.",
@@ -172,13 +172,13 @@
     {
      "keywords": [
       "sleeping",
+      "napping",
       "please",
-      "knock",
-      "still",
-      "time"
+      "little",
+      "still"
      ],
-     "suggestion": "Phew. He's still sleeping. Next time, put a note on the door: \"Baby sleeping! Please knock!\"",
-     "suggestionFa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت رو در بذار: «بچه خوابه! لطفاً در بزنید!»",
+     "suggestion": "Phew. He's still sleeping. Next time, put a note on the door: \"Little one napping! Please knock!\"",
+     "suggestionFa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت بذار رو در: «بچه خوابه! لطفاً در بزنید!»",
      "trustDelta": 5,
      "next": "r8",
      "success": true

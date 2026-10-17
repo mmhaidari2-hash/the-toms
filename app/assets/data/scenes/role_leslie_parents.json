@@ -33,8 +33,8 @@
     {
      "keywords": [
       "leaves",
-      "times",
       "house",
+      "times",
       "time"
      ],
      "suggestion": "Four times? He leaves the house on time!",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "sure",
       "make",
-      "good",
-      "idea"
+      "idea",
+      "sure",
+      "good"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "his",
-      "tom"
+      "tom",
+      "ask"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -171,7 +171,7 @@
       "english",
       "that's",
       "about",
-      "hear"
+      "good"
      ],
      "suggestion": "That's good to hear. What about English?",
      "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
@@ -220,8 +220,8 @@
     {
      "keywords": [
       "football",
-      "count",
       "reads",
+      "count",
       "only"
      ],
      "suggestion": "He only reads football news. Does that count?",
@@ -235,7 +235,7 @@
       "library",
       "card",
       "i'll",
-      "get"
+      "him"
      ],
      "suggestion": "I'll get him a library card.",
      "suggestionFa": "براش کارت کتابخونه می‌گیرم.",
@@ -282,12 +282,11 @@
     },
     {
      "keywords": [
-      "options",
       "ready",
-      "gcse"
+      "gcses"
      ],
-     "suggestion": "Is he ready for his GCSE options?",
-     "suggestionFa": "برای انتخاب درس‌های GCSE آماده‌ست؟",
+     "suggestion": "Is he ready for his GCSEs?",
+     "suggestionFa": "برای امتحانات GCSE آماده‌ست؟",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -303,13 +302,13 @@
      "fa": "رابطه داشتن با"
     },
     {
-     "word": "options",
-     "fa": "درس‌های انتخابی"
+     "word": "GCSEs",
+     "fa": "امتحانات پایان دورهٔ متوسطه"
     }
    ],
    "cultureNote": {
-    "en": "In Year 9, pupils choose their \"GCSE options\" — the subjects they'll study until sixteen.",
-    "fa": "در سال نهم درس‌های GCSE انتخاب می‌شوند."
+    "en": "Pupils study for GCSEs in Years 10 and 11 and sit the exams at sixteen.",
+    "fa": "دانش‌آموزان در سال‌های ۱۰ و ۱۱ برای GCSE درس می‌خوانند و در ۱۶ سالگی امتحان می‌دهند."
    }
   },
   "n7": {
@@ -386,9 +385,9 @@
     {
      "keywords": [
       "helpful",
-      "really",
       "thanks",
-      "been"
+      "really",
+      "much"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",
      "suggestionFa": "خیلی ممنون — واقعاً مفید بود.",

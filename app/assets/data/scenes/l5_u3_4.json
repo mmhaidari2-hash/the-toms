@@ -34,7 +34,7 @@
      "keywords": [
       "stairs",
       "apples",
-      "heard",
+      "isn't",
       "pears"
      ],
      "suggestion": "I've heard of that! Isn't \"apples and pears\" stairs?",
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "confusing",
       "brilliant",
+      "confusing",
       "that's",
       "but"
      ],
@@ -95,9 +95,9 @@
     {
      "keywords": [
       "phrase",
-      "don't",
       "you'd",
-      "know"
+      "don't",
+      "have"
      ],
      "suggestion": "So if you don't know the full phrase, you'd have no idea!",
      "suggestionFa": "پس اگه عبارت کامل را ندونی، هیچی نمی‌فهمی!",
@@ -187,7 +187,7 @@
       "porkies",
       "honest",
       "arthur",
-      "never"
+      "would"
      ],
      "suggestion": "I would never tell porkies, Arthur. Honest!",
      "suggestionFa": "من هیچ‌وقت پورکی نمی‌گم آرتور. راست می‌گم!",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "he'll",
-      "i'll",
       "have",
-      "love"
+      "love",
+      "i'll"
      ],
      "suggestion": "I'll have to tell Tom. He'll love this.",
      "suggestionFa": "باید به تام بگم. عاشقش میشه.",

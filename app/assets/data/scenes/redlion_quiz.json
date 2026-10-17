@@ -21,8 +21,8 @@
      "keywords": [
       "edinburgh",
       "reckon",
-      "punt",
-      "have"
+      "have",
+      "i'll"
      ],
      "suggestion": "Go on, I'll have a punt — I reckon it's Edinburgh.",
      "suggestionFa": "باشه، یه حدس می‌زنم — فکر کنم ادینبورگه.",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "apples",
       "taught",
+      "apples",
       "pears"
      ],
      "suggestion": "Apples and pears! Tom taught me that.",
@@ -191,10 +191,10 @@
     },
     {
      "keywords": [
-      "strong",
       "eleven",
+      "strong",
       "sport",
-      "isn't"
+      "point"
      ],
      "suggestion": "Sport isn't my strong point. Eleven?",
      "suggestionFa": "ورزش نقطه‌قوتم نیست. یازده؟",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "beginner's",
-      "lucky",
       "guess",
+      "lucky",
       "luck"
      ],
      "suggestion": "Just a lucky guess — beginner's luck!",
@@ -376,9 +376,9 @@
    "branches": [
     {
      "keywords": [
-      "second",
       "behind",
       "points",
+      "second",
       "place"
      ],
      "suggestion": "Second place, two points behind.",
@@ -391,8 +391,8 @@
      "keywords": [
       "attenborough",
       "winning",
-      "thanks",
-      "austen"
+      "austen",
+      "thanks"
      ],
      "suggestion": "We're winning, thanks to Austen and Attenborough!",
      "suggestionFa": "داریم می‌بریم، به لطف آستن و اتنبرو!",

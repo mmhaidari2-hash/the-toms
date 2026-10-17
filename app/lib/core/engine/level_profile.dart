@@ -31,6 +31,6 @@ class VoiceProfile {
     'leslie': VoiceProfile('A2–B1', 'Polite requests, table manners', ['please', 'would you', 'could you', 'mind', 'lovely'], 30),
     'ryan': VoiceProfile('B1–B2', "Slang + contractions (Alright?, mate, knackered)", ["'", 'mate', 'alright', 'knackered', 'like'], 30),
     'tom': VoiceProfile('B2–C1', 'Idioms and dry wit', ["'", 'right', 'eh', 'mind you', 'proper', 'sorted'], 40),
-    'william': VoiceProfile('Pre-A1', 'Non-verbal cues & surprise events', [], 4),
+    'william': VoiceProfile('Pre-A1', 'Short simple sentences (age 3–6) & surprise events', [], 8),
   };
 }

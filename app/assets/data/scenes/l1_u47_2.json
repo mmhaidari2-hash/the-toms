@@ -20,8 +20,8 @@
     {
      "keywords": [
       "haven't",
-      "leave",
       "where",
+      "leave",
       "them"
      ],
      "suggestion": "No, I haven't. Where did you leave them?",
@@ -69,8 +69,8 @@
      "keywords": [
       "aren't",
       "under",
-      "they",
-      "bath"
+      "bath",
+      "they"
      ],
      "suggestion": "No, they aren't under the bath.",
      "suggestionFa": "نه، زیر وان نیستن.",
@@ -83,7 +83,7 @@
       "behind",
       "door",
       "see",
-      "one"
+      "can"
      ],
      "suggestion": "I can see one! Behind the door.",
      "suggestionFa": "یکی را می‌بینم! پشت در.",
@@ -152,9 +152,9 @@
   "n4": {
    "id": "n4",
    "speaker": "william",
-   "text": "Mine! Shoe!",
+   "text": "That's mine! It's my shoe!",
    "translations": {
-    "fa": "مال منه! کفش!"
+    "fa": "مال منه! کفش منه!"
    },
    "branches": [
     {
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "they're",
-      "head",
-      "weda"
+      "weda",
+      "head"
      ],
      "suggestion": "They're on your head, Weda!",
      "suggestionFa": "رو سرتونه ودا!",
@@ -272,9 +272,9 @@
     {
      "keywords": [
       "where",
+      "them",
       "have",
-      "last",
-      "them"
+      "last"
      ],
      "suggestion": "Where did you last have them?",
      "suggestionFa": "آخرین بار کجا داشتیدشون؟",

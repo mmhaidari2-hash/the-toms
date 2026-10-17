@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "hello",
-      "who's"
+      "who's",
+      "hello"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -190,8 +190,8 @@
     },
     {
      "keywords": [
-      "pen",
       "get",
+      "pen",
       "let"
      ],
      "suggestion": "Yes. Let me get a pen.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "i'll",
-      "tom",
-      "ask"
+      "ask",
+      "tom"
      ],
      "suggestion": "I'll ask Tom.",
      "suggestionFa": "از تام می‌پرسم.",
@@ -274,8 +274,8 @@
     },
     {
      "keywords": [
-      "writing",
       "instead",
+      "writing",
       "friday",
       "down"
      ],
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "after",
-      "back",
       "call",
+      "back",
       "got"
      ],
      "suggestion": "Call you back after six. Got it.",
@@ -365,9 +365,9 @@
    "branches": [
     {
      "keywords": [
-      "take",
+      "care",
       "weda",
-      "care"
+      "take"
      ],
      "suggestion": "Bye, Weda! Take care!",
      "suggestionFa": "خداحافظ ودا! مراقب خودتون باشید!",

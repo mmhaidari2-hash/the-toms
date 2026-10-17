@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dinner's",
-      "telly",
-      "watch",
       "shall",
-      "done"
+      "watch",
+      "telly",
+      "time"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
      "suggestionFa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "cartoons",
       "nicola",
-      "spurs",
       "wants",
-      "bake"
+      "spurs",
+      "game"
      ],
      "suggestion": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
      "suggestionFa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "people",
-      "baking",
       "what's",
-      "loves",
-      "cakes"
+      "baking",
+      "cakes",
+      "loves"
      ],
      "suggestion": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
      "suggestionFa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟",
@@ -150,7 +150,7 @@
       "record",
       "snacks",
       "shall",
-      "don't"
+      "score"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
      "suggestionFa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟",

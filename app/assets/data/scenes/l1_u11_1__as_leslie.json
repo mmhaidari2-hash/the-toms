@@ -96,10 +96,10 @@
     {
      "keywords": [
       "breakfast",
-      "nicola",
-      "before",
       "please",
-      "after"
+      "before",
+      "nicola",
+      "brush"
      ],
      "suggestion": "Hot oats with milk. Now — Nicola! Brush your teeth, please! Do you brush your teeth before or after breakfast?",
      "suggestionFa": "جو داغ با شیر. حالا — نیکولا! لطفاً مسواک بزن! قبل یا بعد از صبحونه مسواک می‌زنی؟",
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "school",
-      "leave",
+      "nicola",
+      "eight",
       "house",
-      "eight"
+      "leave"
      ],
      "suggestion": "Good. I leave at eight. I walk Nicola to school. What time do you leave the house?",
      "suggestionFa": "خوبه. من ساعت هشت می‌رم. نیکولا را پیاده می‌برم مدرسه. تو ساعت چند از خونه می‌ری؟",
@@ -148,8 +148,8 @@
       "always",
       "where",
       "keys",
-      "lose",
-      "them"
+      "them",
+      "lose"
      ],
      "suggestion": "Oh, where are my keys? I always lose my keys! Can you see them?",
      "suggestionFa": "آخ، کلیدهام کجان؟ همیشه کلیدهام را گم می‌کنم! می‌بینیشون؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
+      "found",
       "lunch",
       "thank",
-      "found",
-      "have",
-      "them"
+      "them",
+      "have"
      ],
      "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
      "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
@@ -224,7 +224,7 @@
       "lovely",
       "coats",
       "right",
-      "here"
+      "same"
      ],
      "suggestion": "Ha! Same here. Right, coats on, everybody! Have a lovely day!",
      "suggestionFa": "ها! منم همین‌طور. خب، همه کت‌ها را بپوشید! روز خوبی داشته باشید!",

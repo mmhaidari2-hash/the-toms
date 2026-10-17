@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "peel",
-      "weda"
+      "weda",
+      "peel"
      ],
      "suggestion": "I can peel it, Weda.",
      "suggestionFa": "من پوستش را می‌کنم ودا.",
@@ -61,8 +61,8 @@
    "branches": [
     {
      "keywords": [
-      "small",
       "knife",
+      "small",
       "ok"
      ],
      "suggestion": "OK. This small knife?",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "knives",
-      "hands",
       "clean",
-      "where"
+      "where",
+      "hands"
      ],
      "suggestion": "My hands are clean. Where are the knives?",
      "suggestionFa": "دستام تمیزه. چاقوها کجان؟",
@@ -120,8 +120,8 @@
     },
     {
      "keywords": [
-      "lovely",
-      "smells"
+      "smells",
+      "lovely"
      ],
      "suggestion": "It smells lovely!",
      "suggestionFa": "بوی خوبی می‌ده!",
@@ -357,9 +357,9 @@
     {
      "keywords": [
       "longest",
+      "poems",
       "fruit",
-      "night",
-      "poems"
+      "night"
      ],
      "suggestion": "It's the longest night. We eat fruit and read poems.",
      "suggestionFa": "طولانی‌ترین شبه. میوه می‌خوریم و شعر می‌خونیم.",
@@ -371,8 +371,8 @@
      "keywords": [
       "pomegranates",
       "family",
-      "stay",
-      "late"
+      "late",
+      "stay"
      ],
      "suggestion": "We stay up late with family and eat pomegranates.",
      "suggestionFa": "با خانواده تا دیروقت بیدار می‌مونیم و انار می‌خوریم.",

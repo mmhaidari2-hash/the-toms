@@ -20,8 +20,8 @@
     {
      "keywords": [
       "slowest",
-      "finish",
       "person",
+      "finish",
       "event"
      ],
      "suggestion": "Only if they add an event for slowest person to finish.",
@@ -34,8 +34,8 @@
      "keywords": [
       "sitting",
       "maybe",
-      "gold",
-      "sofa"
+      "sofa",
+      "gold"
      ],
      "suggestion": "I'd win gold in sitting on the sofa, maybe.",
      "suggestionFa": "شاید تو نشستن رو مبل طلا ببرم.",
@@ -76,7 +76,7 @@
       "compliment",
       "survival",
       "arrogant",
-      "accept"
+      "people"
      ],
      "suggestion": "It's survival. If you accept a compliment here, people think you're arrogant.",
      "suggestionFa": "برای بقاست. اگه اینجا تعریف را قبول کنی، فکر می‌کنن مغروری.",
@@ -142,7 +142,7 @@
      "keywords": [
       "honestly",
       "myself",
-      "proud",
+      "today",
       "quite"
      ],
      "suggestion": "OK. Honestly? I'm quite proud of myself today.",
@@ -186,9 +186,9 @@
     {
      "keywords": [
       "progress",
-      "row",
-      "now",
-      "can"
+      "six",
+      "can",
+      "row"
      ],
      "suggestion": "And now I can row for six. Progress!",
      "suggestionFa": "و الان شش دقیقه می‌تونم. پیشرفت!",

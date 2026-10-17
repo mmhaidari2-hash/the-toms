@@ -20,8 +20,8 @@
     {
      "keywords": [
       "yesterday",
-      "face",
       "bike",
+      "face",
       "fell"
      ],
      "suggestion": "Yes, I fell off my bike yesterday and hit my face.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "exactly",
-      "into",
-      "hard"
+      "hard",
+      "into"
      ],
      "suggestion": "Not exactly — I bit into something hard.",
      "suggestionFa": "نه دقیقاً — یه چیز سفت را گاز زدم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "eating",
       "toffee",
-      "heard",
-      "apple"
+      "apple",
+      "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "straight",
-      "tooth",
       "loose",
-      "felt"
+      "tooth",
+      "away"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
      "suggestionFa": "نه، ولی دندونم فوراً لق شد.",
@@ -244,8 +244,8 @@
      "keywords": [
       "definitely",
       "careful",
-      "i'll",
-      "more"
+      "more",
+      "i'll"
      ],
      "suggestion": "I'll definitely be more careful.",
      "suggestionFa": "قطعاً مراقب‌تر می‌شم.",

@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "check",
-      "ready",
       "water",
+      "ready",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "nicola",
-      "bubble",
       "little",
-      "much"
+      "bubble",
+      "nicola",
+      "that's",
+      "good"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
      "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
@@ -86,9 +86,9 @@
   "r4": {
    "id": "r4",
    "speaker": "william",
-   "text": "Bubbles! More bubbles!",
+   "text": "Bubbles! I want more bubbles!",
    "translations": {
-    "fa": "حباب! حباب بیشتر!"
+    "fa": "حباب! حباب بیشتر می‌خوام!"
    },
    "branches": [
     {
@@ -120,10 +120,10 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "william",
-      "can't",
+      "where's",
       "there",
+      "can't",
       "see"
      ],
      "suggestion": "Ha! I can't see William. Where's William? There he is!",
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "rubber",
       "yellow",
+      "rubber",
       "duck",
       "pass",
       "can"
@@ -184,9 +184,9 @@
   "r8": {
    "id": "r8",
    "speaker": "william",
-   "text": "Duck! Splash!",
+   "text": "Splash! My duck is swimming!",
    "translations": {
-    "fa": "اردک! شلپ!"
+    "fa": "شلپ! اردکم داره شنا می‌کنه!"
    },
    "branches": [
     {
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "floor",
       "towel",
+      "floor",
       "dear",
-      "wet",
-      "can"
+      "can",
+      "wet"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
      "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
@@ -249,7 +249,7 @@
       "doesn't",
       "gently",
       "water",
-      "like",
+      "eyes",
       "hair"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",

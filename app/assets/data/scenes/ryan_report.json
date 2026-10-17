@@ -4,8 +4,8 @@
  "level": "A2",
  "title": "End-of-year report",
  "titleFa": "کارنامهٔ آخر سال",
- "setting": "Ryan's school, Year 9 — text-only story",
- "settingFa": "مدرسهٔ رایان، کلاس نهم — داستان متنی",
+ "setting": "Ryan's school, Year 10 — text-only story",
+ "settingFa": "مدرسهٔ رایان، کلاس دهم — داستان متنی",
  "requires": {
   "characterId": "ryan",
   "milestone": "M1"
@@ -37,8 +37,8 @@
      "keywords": [
       "school",
       "talks",
-      "about",
-      "never"
+      "never",
+      "about"
      ],
      "suggestion": "Really? He never talks about school at home.",
      "suggestionFa": "واقعاً؟ تو خونه هیچ‌وقت دربارهٔ مدرسه حرف نمی‌زنه.",
@@ -66,9 +66,9 @@
   "n2": {
    "id": "n2",
    "speaker": "patel",
-   "text": "Typical Year 9! He came top of the class in the last algebra test.",
+   "text": "Typical Year 10! He came top of the class in the last algebra test.",
    "translations": {
-    "fa": "سال نهمِ تیپیک! تو آخرین امتحان جبر شاگرد اول کلاس شد."
+    "fa": "سال دهمِ تیپیک! تو آخرین امتحان جبر شاگرد اول کلاس شد."
    },
    "branches": [
     {
@@ -125,7 +125,7 @@
       "improve",
       "help",
       "home",
-      "can"
+      "him"
      ],
      "suggestion": "What can we do at home to help him improve?",
      "suggestionFa": "تو خونه چی کار کنیم که کمکش کنیم بهتر بشه؟",
@@ -224,8 +224,8 @@
    "branches": [
     {
      "keywords": [
-      "mostly",
       "always",
+      "mostly",
       "phone",
       "good"
      ],
@@ -268,17 +268,17 @@
   "n6": {
    "id": "n6",
    "speaker": "patel",
-   "text": "That's very normal at fourteen. Phones away at bedtime helps a lot of families.",
+   "text": "That's very normal at fifteen. Phones away at bedtime helps a lot of families.",
    "translations": {
-    "fa": "تو چهارده سالگی خیلی طبیعیه. کنار گذاشتن گوشی موقع خواب به خیلی از خانواده‌ها کمک کرده."
+    "fa": "تو پونزده سالگی خیلی طبیعیه. کنار گذاشتن گوشی موقع خواب به خیلی از خانواده‌ها کمک کرده."
    },
    "branches": [
     {
      "keywords": [
       "kitchen",
       "phone",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. We'll try a phone box in the kitchen.",
      "suggestionFa": "فکر خوبیه. یه جعبهٔ گوشی تو آشپزخونه امتحان می‌کنیم.",
@@ -315,9 +315,9 @@
   "n7": {
    "id": "n7",
    "speaker": "patel",
-   "text": "Next year he picks his GCSE options. Has he talked about what he enjoys?",
+   "text": "Next year he sits his GCSEs, then sixth form. Has he talked about what he enjoys?",
    "translations": {
-    "fa": "سال بعد درس‌های انتخابی GCSE را انتخاب می‌کنه. دربارهٔ چیزهایی که دوست داره حرف زده؟"
+    "fa": "سال بعد امتحانات GCSE را می‌ده، بعد هم دورهٔ پیش‌دانشگاهی. دربارهٔ چیزهایی که دوست داره حرف زده؟"
    },
    "branches": [
     {
@@ -325,7 +325,7 @@
       "engineering",
       "building",
       "things",
-      "maybe"
+      "loves"
      ],
      "suggestion": "He loves building things — maybe engineering.",
      "suggestionFa": "عاشق ساختن چیزهاست — شاید مهندسی.",
@@ -348,12 +348,12 @@
    ],
    "newWords": [
     {
-     "word": "picks",
-     "fa": "انتخاب می‌کند"
+     "word": "sits",
+     "fa": "امتحان دادن"
     },
     {
-     "word": "options",
-     "fa": "درس‌های انتخابی"
+     "word": "sixth form",
+     "fa": "دورهٔ پیش‌دانشگاهی"
     },
     {
      "word": "engineering",
@@ -368,9 +368,9 @@
   "n8": {
    "id": "n8",
    "speaker": "patel",
-   "text": "Design and technology and physics would suit him well. There's an open evening in March.",
+   "text": "Design and technology and physics A levels would suit him. There's a sixth-form open evening in March.",
    "translations": {
-    "fa": "طراحی و فناوری و فیزیک خیلی بهش میاد. یه شب باز تو مارس هست."
+    "fa": "A-levelهای طراحی و فناوری و فیزیک خیلی بهش میاد. یه شب بازدید پیش‌دانشگاهی تو مارس هست."
    },
    "branches": [
     {
@@ -388,8 +388,8 @@
     {
      "keywords": [
       "details",
-      "could",
       "email",
+      "could",
       "us"
      ],
      "suggestion": "Could you email us the details?",

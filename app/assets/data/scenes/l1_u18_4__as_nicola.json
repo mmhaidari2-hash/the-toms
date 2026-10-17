@@ -23,8 +23,8 @@
      "keywords": [
       "finished",
       "lunch",
-      "table",
       "mummy",
+      "table",
       "clear"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
@@ -48,9 +48,9 @@
      "keywords": [
       "plates",
       "first",
-      "sink",
       "next",
-      "them"
+      "them",
+      "sink"
      ],
      "suggestion": "First, the plates. Put them next to the sink.",
      "suggestionFa": "اول، بشقاب‌ها. بذارشون کنار سینک.",
@@ -124,8 +124,8 @@
       "recycling",
       "bottles",
       "please",
-      "table",
-      "green"
+      "green",
+      "table"
      ],
      "suggestion": "Bottles go in the recycling. The green box. Now, wipe the table, please.",
      "suggestionFa": "بطری‌ها می‌رن تو بازیافت. جعبهٔ سبز. حالا، میز را دستمال بکش، لطفاً.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "sweeping",
-      "sweep",
       "under",
-      "sink",
-      "look"
+      "sweep",
+      "good",
+      "sink"
      ],
      "suggestion": "Under the sink. I can sweep! Look, I'm very good at sweeping.",
      "suggestionFa": "زیر سینک. من می‌تونم جارو کنم! ببین، من خیلی تو جارو کردن خوبم.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "finished",
-      "kitchen",
       "helpful",
+      "kitchen",
       "sweet",
       "mummy"
      ],

@@ -64,8 +64,8 @@
     {
      "keywords": [
       "raincoat",
-      "here's",
-      "nicola"
+      "nicola",
+      "here's"
      ],
      "suggestion": "Nicola, here's your raincoat.",
      "suggestionFa": "نیکولا، اینم بارونیت.",
@@ -99,7 +99,7 @@
   "n3": {
    "id": "n3",
    "speaker": "leslie",
-   "text": "Yes, the yellow one with the hood. And William needs his rain cover on the pram.",
+   "text": "Yes, the yellow one with the hood. And William needs his rain cover on the buggy.",
    "translations": {
     "fa": "آره، زرده که کلاه داره. و ویلیام روکش بارونی کالسکه‌اش را لازم داره."
    },
@@ -136,19 +136,19 @@
      "fa": "روکش بارانی"
     },
     {
-     "word": "pram",
-     "fa": "کالسکه"
+     "word": "buggy",
+     "fa": "کالسکهٔ تاشو"
     }
    ],
    "cultureNote": {
-    "en": "British \"pram\" or \"pushchair\"; American \"stroller\".",
-    "fa": "pram/stroller."
+    "en": "British \"buggy\" or \"pushchair\"; American \"stroller\".",
+    "fa": "buggy/stroller."
    }
   },
   "n4": {
    "id": "n4",
    "speaker": "leslie",
-   "text": "It's under the pram, in the basket. Have you got an umbrella?",
+   "text": "It's under the buggy, in the basket. Have you got an umbrella?",
    "translations": {
     "fa": "زیر کالسکه، تو سبده. چتر داری؟"
    },
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "feet",
-      "ugh",
-      "wet"
+      "wet",
+      "ugh"
      ],
      "suggestion": "Ugh, my feet are wet!",
      "suggestionFa": "اه، پاهام خیسه!",
@@ -305,8 +305,8 @@
     {
      "keywords": [
       "different",
-      "colours",
       "they're",
+      "colours",
       "all"
      ],
      "suggestion": "They're all different colours!",
@@ -318,9 +318,9 @@
     {
      "keywords": [
       "nicola",
-      "good",
       "have",
-      "bye"
+      "good",
+      "day"
      ],
      "suggestion": "Bye, Nicola! Have a good day!",
      "suggestionFa": "خداحافظ نیکولا! روز خوبی داشته باشی!",

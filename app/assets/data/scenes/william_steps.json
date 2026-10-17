@@ -2,10 +2,10 @@
  "id": "william_steps",
  "characterId": "william",
  "level": "A0",
- "title": "First steps",
- "titleFa": "اولین قدم‌ها",
- "setting": "The living room rug",
- "settingFa": "فرش اتاق نشیمن",
+ "title": "Look, I can hop!",
+ "titleFa": "ببین، می‌تونم لی‌لی کنم!",
+ "setting": "Cushion stepping stones on the living room rug",
+ "settingFa": "سنگ‌چینِ کوسنی روی فرش اتاق نشیمن",
  "requires": {
   "characterId": "william",
   "milestone": "M1"
@@ -15,32 +15,31 @@
   "n1": {
    "id": "n1",
    "speaker": "william",
-   "text": "Up! Up!",
+   "text": "Look at me! I can jump!",
    "translations": {
-    "fa": "بالا! بالا!"
+    "fa": "منو ببین! می‌تونم بپرم!"
    },
    "branches": [
     {
      "keywords": [
       "william",
-      "come",
-      "can"
+      "wow",
+      "big"
      ],
-     "suggestion": "Come on, William — you can do it!",
-     "suggestionFa": "بیا ویلیام — می‌تونی!",
+     "suggestion": "Wow! Big jump, William!",
+     "suggestionFa": "وای! چه پرش بزرگی، ویلیام!",
      "trustDelta": 7,
      "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "hands",
-      "hold",
-      "get",
-      "up"
+      "three",
+      "two",
+      "one"
      ],
-     "suggestion": "Hold my hands. Up you get!",
-     "suggestionFa": "دستام را بگیر. بلند شو!",
+     "suggestion": "Jump to me! One, two, three!",
+     "suggestionFa": "بپر سمت من! یک، دو، سه!",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -48,16 +47,12 @@
    ],
    "newWords": [
     {
-     "word": "up",
-     "fa": "بالا"
+     "word": "jump",
+     "fa": "پریدن"
     },
     {
-     "word": "hold",
-     "fa": "گرفتن"
-    },
-    {
-     "word": "hands",
-     "fa": "دست‌ها"
+     "word": "look at me",
+     "fa": "منو ببین"
     }
    ],
    "cultureNote": null
@@ -65,30 +60,32 @@
   "n2": {
    "id": "n2",
    "speaker": "william",
-   "text": "Me stand! Look!",
+   "text": "Now I'm jumping on the cushions!",
    "translations": {
-    "fa": "من وایسادم! ببین!"
+    "fa": "حالا دارم رو کوسن‌ها می‌پرم!"
    },
    "branches": [
     {
      "keywords": [
-      "standing",
-      "clever",
-      "boy"
+      "careful",
+      "hand",
+      "hold"
      ],
-     "suggestion": "You're standing! Clever boy!",
-     "suggestionFa": "داری وایمیسی! پسر باهوش!",
+     "suggestion": "Careful! Hold my hand.",
+     "suggestionFa": "مواظب باش! دستم را بگیر.",
      "trustDelta": 7,
      "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "look",
-      "wow"
+      "stepping",
+      "cushion",
+      "stones",
+      "done"
      ],
-     "suggestion": "Wow! Look at you!",
-     "suggestionFa": "وای! خودت را ببین!",
+     "suggestion": "Cushion stepping stones! Well done!",
+     "suggestionFa": "سنگ‌چین کوسنی! آفرین!",
      "trustDelta": 6,
      "next": "n3",
      "success": true
@@ -96,12 +93,16 @@
    ],
    "newWords": [
     {
-     "word": "stand",
-     "fa": "ایستادن"
+     "word": "cushions",
+     "fa": "کوسن‌ها"
     },
     {
-     "word": "look",
-     "fa": "نگاه کن"
+     "word": "stepping stones",
+     "fa": "سنگ‌چین (برای رد شدن)"
+    },
+    {
+     "word": "careful",
+     "fa": "مواظب"
     }
    ],
    "cultureNote": null
@@ -109,15 +110,15 @@
   "n3": {
    "id": "n3",
    "speaker": "william",
-   "text": "Wobble… wobble… BOOM!",
+   "text": "Oops! I fell down. Boom!",
    "translations": {
-    "fa": "تلوتلو… تلوتلو… بوم!"
+    "fa": "اوه! افتادم. بوم!"
    },
    "branches": [
     {
      "keywords": [
-      "oops",
-      "okay"
+      "okay",
+      "oops"
      ],
      "suggestion": "Oops! Are you okay?",
      "suggestionFa": "اوه! خوبی؟",
@@ -127,13 +128,13 @@
     },
     {
      "keywords": [
-      "never",
       "again",
+      "never",
       "mind",
       "try"
      ],
      "suggestion": "Never mind! Try again!",
-     "suggestionFa": "مهم نیست! دوباره!",
+     "suggestionFa": "مهم نیست! دوباره امتحان کن!",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -141,8 +142,8 @@
    ],
    "newWords": [
     {
-     "word": "wobble",
-     "fa": "تلوتلو خوردن"
+     "word": "fell down",
+     "fa": "زمین خوردن"
     },
     {
      "word": "boom",
@@ -158,31 +159,32 @@
   "n4": {
    "id": "n4",
    "speaker": "william",
-   "text": "Again! Again!",
+   "text": "I'm OK! Again! Watch me!",
    "translations": {
-    "fa": "دوباره! دوباره!"
+    "fa": "خوبم! دوباره! منو تماشا کن!"
    },
    "branches": [
     {
      "keywords": [
-      "william",
-      "walk"
+      "steady",
+      "ready",
+      "go"
      ],
-     "suggestion": "Walk to me, William!",
-     "suggestionFa": "بیا سمت من، ویلیام!",
+     "suggestion": "Ready, steady, go!",
+     "suggestionFa": "آماده، حاضر، برو!",
      "trustDelta": 7,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "steps",
-      "step",
+      "foot",
+      "time",
       "one",
-      "two"
+      "hop"
      ],
-     "suggestion": "One step, two steps!",
-     "suggestionFa": "یه قدم، دو قدم!",
+     "suggestion": "Hop on one foot this time!",
+     "suggestionFa": "این بار رو یه پا لی‌لی کن!",
      "trustDelta": 6,
      "next": "n5",
      "success": true
@@ -194,44 +196,48 @@
      "fa": "دوباره"
     },
     {
-     "word": "walk",
-     "fa": "راه رفتن"
+     "word": "watch",
+     "fa": "تماشا کردن"
     },
     {
-     "word": "step",
-     "fa": "قدم"
+     "word": "hop",
+     "fa": "لی‌لی کردن"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "British children start a race with \"Ready, steady, go!\" — Americans say \"Ready, set, go!\"",
+    "fa": "بریتانیایی‌ها می‌گویند Ready, steady, go و آمریکایی‌ها Ready, set, go."
+   }
   },
   "n5": {
    "id": "n5",
    "speaker": "william",
-   "text": "One… two… three!",
+   "text": "Look! I'm hopping on one foot!",
    "translations": {
-    "fa": "یک… دو… سه!"
+    "fa": "ببین! دارم رو یه پا لی‌لی می‌کنم!"
    },
    "branches": [
     {
      "keywords": [
-      "steps",
-      "three",
-      "well",
-      "done"
+      "hopping",
+      "clever",
+      "boy"
      ],
-     "suggestion": "Three steps! Well done!",
-     "suggestionFa": "سه قدم! آفرین!",
+     "suggestion": "You're hopping! Clever boy!",
+     "suggestionFa": "داری لی‌لی می‌کنی! پسر باهوش!",
      "trustDelta": 7,
      "next": "n6",
      "success": true
     },
     {
      "keywords": [
-      "walked",
-      "hooray"
+      "times",
+      "five",
+      "hop",
+      "can"
      ],
-     "suggestion": "You walked! Hooray!",
-     "suggestionFa": "راه رفتی! هورا!",
+     "suggestion": "Can you hop five times?",
+     "suggestionFa": "می‌تونی پنج بار لی‌لی کنی؟",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -239,60 +245,63 @@
    ],
    "newWords": [
     {
-     "word": "three",
-     "fa": "سه"
+     "word": "one foot",
+     "fa": "یک پا"
     },
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "One, two, three… I can't do five!",
+   "translations": {
+    "fa": "یک، دو، سه… پنج تا نمی‌تونم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "three",
+      "well",
+      "done"
+     ],
+     "suggestion": "Three is brilliant! Well done!",
+     "suggestionFa": "سه تا عالیه! آفرین!",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "again",
+      "never",
+      "mind"
+     ],
+     "suggestion": "Never mind. Try again tomorrow.",
+     "suggestionFa": "مهم نیست. فردا دوباره امتحان کن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
     {
      "word": "well done",
      "fa": "آفرین"
     },
     {
-     "word": "hooray",
-     "fa": "هورا"
-    }
-   ],
-   "cultureNote": {
-    "en": "Most babies take their first steps between nine and eighteen months.",
-    "fa": "بیشتر نوزادان ۹ تا ۱۸ ماهگی راه می‌افتند."
-   }
-  },
-  "n6": {
-   "id": "n6",
-   "speaker": "william",
-   "text": "Clap! Clap clap!",
-   "translations": {
-    "fa": "دست! دست دست!"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "william",
-      "clever",
-      "clap"
-     ],
-     "suggestion": "Clap clap! Clever William!",
-     "suggestionFa": "دست دست! ویلیام باهوش!",
-     "trustDelta": 7,
-     "next": "n7",
-     "success": true
+     "word": "brilliant",
+     "fa": "عالی"
     },
     {
-     "keywords": [
-      "let's",
-      "mummy",
-      "tell"
-     ],
-     "suggestion": "Let's tell Mummy!",
-     "suggestionFa": "بیا به مامان بگیم!",
-     "trustDelta": 6,
-     "next": "n7",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "clap",
-     "fa": "دست زدن"
+     "word": "tomorrow",
+     "fa": "فردا"
     }
    ],
    "cultureNote": null
@@ -300,28 +309,28 @@
   "n7": {
    "id": "n7",
    "speaker": "william",
-   "text": "Mummy! Look! Me walk!",
+   "text": "Mummy! Mummy! Look, I can hop!",
    "translations": {
-    "fa": "مامان! ببین! من راه!"
+    "fa": "مامان! مامان! ببین، می‌تونم لی‌لی کنم!"
    },
    "branches": [
     {
      "keywords": [
-      "walking",
       "leslie",
       "quick",
+      "look",
       "come"
      ],
-     "suggestion": "Leslie, come quick! He's walking!",
-     "suggestionFa": "لزلی، زود بیا! داره راه میره!",
+     "suggestion": "Leslie, come quick! Look at him!",
+     "suggestionFa": "لزلی، زود بیا! نگاش کن!",
      "trustDelta": 7,
      "next": "n8",
      "success": true
     },
     {
      "keywords": [
-      "daddy",
       "shall",
+      "daddy",
       "film",
       "we"
      ],
@@ -347,30 +356,30 @@
   "n8": {
    "id": "n8",
    "speaker": "william",
-   "text": "Teddy! Walk to Teddy!",
+   "text": "Now it's Teddy's turn! Jump, Teddy!",
    "translations": {
-    "fa": "تدی! برم سمت تدی!"
+    "fa": "حالا نوبت تدیه! بپر تدی!"
    },
    "branches": [
     {
      "keywords": [
       "teddy",
-      "get",
       "go"
      ],
-     "suggestion": "Go on, get Teddy!",
-     "suggestionFa": "برو، تدی را بگیر!",
+     "suggestion": "Go on, Teddy!",
+     "suggestionFa": "برو تدی!",
      "trustDelta": 7,
      "next": "n9",
      "success": true
     },
     {
      "keywords": [
-      "waiting",
-      "teddy's"
+      "teddy's",
+      "jumper",
+      "good"
      ],
-     "suggestion": "Teddy's waiting for you!",
-     "suggestionFa": "تدی منتظرته!",
+     "suggestion": "Teddy's a good jumper too!",
+     "suggestionFa": "تدی هم خوب می‌پره!",
      "trustDelta": 6,
      "next": "n9",
      "success": true
@@ -378,22 +387,29 @@
    ],
    "newWords": [
     {
+     "word": "turn",
+     "fa": "نوبت"
+    },
+    {
      "word": "teddy",
      "fa": "خرس عروسکی"
     },
     {
-     "word": "waiting",
-     "fa": "منتظر"
+     "word": "jumper",
+     "fa": "کسی که می‌پرد (و ژاکت!)"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "In British English a \"jumper\" is also a warm top — Americans call it a \"sweater\".",
+    "fa": "jumper در بریتانیا یعنی ژاکت بافتنی (sweater)."
+   }
   },
   "n9": {
    "id": "n9",
    "speaker": "william",
-   "text": "Got Teddy! Me walk! Me big!",
+   "text": "Me and Teddy are big boys now!",
    "translations": {
-    "fa": "تدی را گرفتم! من راه! من بزرگ!"
+    "fa": "من و تدی دیگه پسرای بزرگی هستیم!"
    },
    "branches": [],
    "newWords": [],

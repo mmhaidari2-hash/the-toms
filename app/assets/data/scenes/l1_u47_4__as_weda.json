@@ -24,8 +24,8 @@
       "william's",
       "asleep",
       "would",
-      "dear",
-      "time"
+      "time",
+      "like"
      ],
      "suggestion": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
      "suggestionFa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟",
@@ -50,7 +50,7 @@
       "down",
       "like",
       "how",
-      "sit"
+      "tea"
      ],
      "suggestion": "No, no, sit down. You're my guest. How do you like your tea?",
      "suggestionFa": "نه، نه، بشین. مهمون منی. چای را چطوری دوست داری؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "builder's",
       "persian",
-      "sugars",
       "strong",
+      "sugars",
       "likes"
      ],
      "suggestion": "Ooh, very Persian! Tom likes his tea \"builder's\" — very strong, two sugars.",
@@ -123,9 +123,9 @@
      "keywords": [
       "nonsense",
       "anybody",
-      "never",
       "cream",
-      "piece"
+      "small",
+      "never"
      ],
      "suggestion": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
      "suggestionFa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "charmer",
+      "there's",
       "plenty",
       "would",
-      "like"
+      "more"
      ],
      "suggestion": "Oh, you're a charmer! Would you like more tea? There's plenty in the pot.",
      "suggestionFa": "آه، چه زبون‌بازی! چای بیشتر میل داری؟ تو قوری زیاده.",
@@ -174,8 +174,8 @@
       "george",
       "fifty",
       "years",
-      "just",
-      "nice"
+      "nice",
+      "just"
      ],
      "suggestion": "This is nice. Just you, me and a pot of tea. George and I did this for fifty years!",
      "suggestionFa": "چه خوبه. فقط تو، من و یه قوری چای. من و جورج پنجاه سال این کار را می‌کردیم!",

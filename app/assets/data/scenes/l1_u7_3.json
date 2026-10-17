@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "nicer",
       "those",
+      "nicer",
       "ones"
      ],
      "suggestion": "Those ones are nicer.",
@@ -120,7 +120,7 @@
      "keywords": [
       "cheaper",
       "these",
-      "look",
+      "they",
       "good"
      ],
      "suggestion": "These are cheaper and they look good.",
@@ -131,8 +131,8 @@
     },
     {
      "keywords": [
-      "first",
       "those",
+      "first",
       "try"
      ],
      "suggestion": "Try those on first.",
@@ -175,8 +175,8 @@
     },
     {
      "keywords": [
-      "nine",
-      "size"
+      "size",
+      "nine"
      ],
      "suggestion": "Is nine your size?",
      "suggestionFa": "سایزت نهه؟",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "better",
-      "then",
       "size",
+      "then",
       "ten"
      ],
      "suggestion": "Size ten is better, then.",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "money",
-      "save",
-      "ryan"
+      "ryan",
+      "save"
      ],
      "suggestion": "Save your money, Ryan!",
      "suggestionFa": "پولت را نگه دار رایان!",

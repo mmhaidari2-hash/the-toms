@@ -22,10 +22,10 @@
     {
      "keywords": [
       "mushrooms",
-      "don't",
-      "there",
       "pasta",
-      "like"
+      "there",
+      "don't",
+      "yuck"
      ],
      "suggestion": "Yuck! There are mushrooms in my pasta! I don't like mushrooms!",
      "suggestionFa": "اَه! تو پاستام قارچه! قارچ دوست ندارم!",
@@ -75,7 +75,7 @@
       "here",
       "have",
       "mine",
-      "like"
+      "then"
      ],
      "suggestion": "Then you can have mine! Here! What don't you like?",
      "suggestionFa": "پس مال منو بخور! بیا! تو چی دوست نداری؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "they're",
       "sprouts",
       "doesn't",
+      "they're",
       "olives",
-      "mummy"
+      "yucky"
      ],
      "suggestion": "Olives! They're yucky too! Mummy likes olives. And Daddy doesn't like sprouts.",
      "suggestionFa": "زیتون! اونم بده! مامان زیتون دوست داره. و بابا کلم بروکسل دوست نداره.",
@@ -123,9 +123,9 @@
      "keywords": [
       "cabbages",
       "little",
-      "smell",
       "balls",
-      "socks"
+      "green",
+      "smell"
      ],
      "suggestion": "Little green balls. Like tiny cabbages. They smell like socks!",
      "suggestionFa": "توپ‌های کوچیک سبز. مثل کلم‌های کوچولو. بوی جوراب میدن!",
@@ -207,8 +207,8 @@
    "branches": [
     {
      "keywords": [
-      "they're",
       "pudding",
+      "they're",
       "what's",
       "slugs",
       "still"

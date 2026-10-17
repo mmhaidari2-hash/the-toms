@@ -32,8 +32,8 @@
     {
      "keywords": [
       "please",
-      "some",
-      "eggs"
+      "eggs",
+      "some"
      ],
      "suggestion": "And some eggs, please.",
      "suggestionFa": "و چند تا تخم‌مرغ، لطفاً.",
@@ -157,8 +157,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "own",
-      "got"
+      "got",
+      "own"
      ],
      "suggestion": "No thanks, I've got my own.",
      "suggestionFa": "نه ممنون، خودم دارم.",
@@ -296,8 +296,8 @@
     {
      "keywords": [
       "priya",
-      "nice",
-      "meet"
+      "meet",
+      "nice"
      ],
      "suggestion": "Nice to meet you, Priya!",
      "suggestionFa": "از آشنایی‌ات خوشحالم پریا!",
@@ -307,10 +307,10 @@
     },
     {
      "keywords": [
-      "that's",
       "twenty",
+      "that's",
       "years",
-      "time"
+      "long"
      ],
      "suggestion": "Twenty years! That's a long time.",
      "suggestionFa": "بیست سال! مدت زیادیه.",

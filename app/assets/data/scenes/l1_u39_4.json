@@ -31,9 +31,9 @@
     {
      "keywords": [
       "there",
-      "bins",
+      "sure",
       "many",
-      "sure"
+      "bins"
      ],
      "suggestion": "Sure. How many bins are there?",
      "suggestionFa": "حتماً. چند تا سطل هست؟",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "dirty",
       "rinse",
+      "dirty",
       "i'll"
      ],
      "suggestion": "No, it's dirty. I'll rinse it.",
@@ -171,8 +171,8 @@
     },
     {
      "keywords": [
-      "where",
       "black",
+      "where",
       "bin",
       "go"
      ],
@@ -201,9 +201,9 @@
   "n5": {
    "id": "n5",
    "speaker": "tom",
-   "text": "Black is for everything else. Nappies, crisp packets. It's the smelly one!",
+   "text": "Black is for everything else. Food wrappers, crisp packets. It's the smelly one!",
    "translations": {
-    "fa": "سیاه برای بقیهٔ چیزهاست. پوشک، پاکت چیپس. همونی که بو میده!"
+    "fa": "سیاه برای بقیهٔ چیزهاست. کاغذ غذا، پاکت چیپس. همونی که بو میده!"
    },
    "branches": [
     {
@@ -275,8 +275,8 @@
     },
     {
      "keywords": [
-      "website",
       "council",
+      "website",
       "check",
       "let's"
      ],

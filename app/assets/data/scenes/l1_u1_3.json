@@ -122,8 +122,8 @@
      "keywords": [
       "sad",
       "why",
-      "he",
-      "oh"
+      "oh",
+      "he"
      ],
      "suggestion": "Oh no! Why is he sad?",
      "suggestionFa": "ای وای! چرا ناراحته؟",
@@ -269,9 +269,9 @@
     {
      "keywords": [
       "knackered",
-      "tired",
       "right",
-      "means"
+      "means",
+      "tired"
      ],
      "suggestion": "Good morning! Knackered means tired, right?",
      "suggestionFa": "صبح بخیر! knackered یعنی خسته، درسته؟",
@@ -318,8 +318,8 @@
     {
      "keywords": [
       "excited",
-      "but",
-      "new"
+      "new",
+      "but"
      ],
      "suggestion": "It's new, but I'm excited.",
      "suggestionFa": "جدیده، ولی هیجان‌زده‌ام.",
@@ -353,8 +353,8 @@
    "branches": [
     {
      "keywords": [
-      "ha",
-      "he"
+      "he",
+      "ha"
      ],
      "suggestion": "Ha! Yes, he is.",
      "suggestionFa": "ها! آره، داره می‌زنه.",

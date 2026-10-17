@@ -48,9 +48,9 @@
      "keywords": [
       "umbrellas",
       "floors",
-      "three",
       "house",
-      "there"
+      "there",
+      "three"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
      "suggestionFa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "downstairs",
-      "there's",
       "kitchen",
+      "there's",
       "garden",
       "living"
      ],
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "downstairs",
-      "upstairs",
-      "bedrooms",
       "bathroom",
+      "bedrooms",
+      "upstairs",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -123,9 +123,9 @@
      "keywords": [
       "bedrooms",
       "there",
+      "room",
       "four",
-      "loft",
-      "room"
+      "loft"
      ],
      "suggestion": "There are four bedrooms. Your room is in the loft, at the top.",
      "suggestionFa": "چهار اتاق‌خواب هست. اتاق تو زیرشیروونیه، بالای بالا.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "window",
-      "let's",
+      "lovely",
       "under",
-      "roof"
+      "let's",
+      "room"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
      "suggestionFa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "wardrobe",
       "anything",
+      "wardrobe",
       "there's",
       "there",
       "need"

@@ -101,9 +101,9 @@
   "r4": {
    "id": "r4",
    "speaker": "william",
-   "text": "Splat! 🍓",
+   "text": "Uh-oh! The jam fell down! Splat!",
    "translations": {
-    "fa": "شَلَپ! 🍓"
+    "fa": "اوه‌اوه! مربا افتاد! شَلَپ!"
    },
    "branches": [
     {
@@ -253,8 +253,8 @@
       "lunchboxes",
       "crisps",
       "nicola",
-      "right",
-      "apple"
+      "apple",
+      "wants"
      ],
      "suggestion": "Right, lunchboxes. Nicola wants crisps, I say an apple. Back me up?",
      "suggestionFa": "خب، ظرف ناهار. نیکولا چیپس می‌خواد، من می‌گم سیب. پشتم را می‌گیری؟",
@@ -323,10 +323,10 @@
    "branches": [
     {
      "keywords": [
-      "someone",
       "weather",
-      "check",
+      "someone",
       "coats",
+      "check",
       "about"
      ],
      "suggestion": "Deal. Oh, and can someone check the weather? I need to know about coats.",
@@ -363,9 +363,9 @@
   "r14": {
    "id": "r14",
    "speaker": "william",
-   "text": "*points at window* Bir-dy!",
+   "text": "Look! A birdy on the window!",
    "translations": {
-    "fa": "*به پنجره اشاره می‌کنه* پرنده!"
+    "fa": "ببین! یه پرنده رو پنجره‌ست!"
    },
    "branches": [
     {
@@ -407,8 +407,8 @@
       "everyone",
       "nicola's",
       "shoes",
-      "could",
-      "eight"
+      "eight",
+      "could"
      ],
      "suggestion": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",
      "suggestionFa": "هشت و ده دقیقه! همه کفش بپوشن. می‌شه کیف کتاب نیکولا را از راهرو بیاری؟",

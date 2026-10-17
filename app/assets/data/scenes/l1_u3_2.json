@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "find",
-      "can"
+      "him"
      ],
      "suggestion": "Don't worry, we can find him.",
      "suggestionFa": "نگران نباش، پیداش می‌کنیم.",
@@ -127,8 +127,8 @@
     },
     {
      "keywords": [
-      "sorry",
-      "there"
+      "there",
+      "sorry"
      ],
      "suggestion": "Not there, sorry.",
      "suggestionFa": "اونجا نیست، ببخشید.",
@@ -170,8 +170,8 @@
     },
     {
      "keywords": [
-      "there",
       "books",
+      "there",
       "only"
      ],
      "suggestion": "No, only books are there.",
@@ -224,8 +224,8 @@
      "keywords": [
       "maybe",
       "he's",
-      "toy",
-      "box"
+      "box",
+      "toy"
      ],
      "suggestion": "Maybe he's in the toy box.",
      "suggestionFa": "شاید توی جعبهٔ اسباب‌بازیه.",
@@ -252,9 +252,9 @@
   "n6": {
    "id": "n6",
    "speaker": "william",
-   "text": "Teddy! In box!",
+   "text": "Teddy's in the box!",
    "translations": {
-    "fa": "تدی! تو جعبه!"
+    "fa": "تدی تو جعبه‌ست!"
    },
    "branches": [
     {
@@ -314,8 +314,8 @@
      "keywords": [
       "tonight",
       "put",
-      "him",
-      "bed"
+      "bed",
+      "him"
      ],
      "suggestion": "Put him on your bed tonight.",
      "suggestionFa": "امشب بذارش روی تختت.",

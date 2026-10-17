@@ -20,8 +20,8 @@
     {
      "keywords": [
       "message",
-      "sorry",
       "tom's",
+      "sorry",
       "take"
      ],
      "suggestion": "No, sorry, Tom's out. Can I take a message?",
@@ -71,8 +71,8 @@
      "keywords": [
       "course",
       "would",
-      "like",
-      "when"
+      "when",
+      "like"
      ],
      "suggestion": "Of course. When would you like to see him?",
      "suggestionFa": "حتماً. کی می‌خواید ببینیدش؟",
@@ -84,8 +84,8 @@
      "keywords": [
       "that's",
       "great",
-      "i'll",
-      "news"
+      "tell",
+      "i'll"
      ],
      "suggestion": "That's great news! I'll tell him.",
      "suggestionFa": "خبر عالیه! بهش می‌گم.",
@@ -169,8 +169,8 @@
      "keywords": [
       "please",
       "number",
-      "again",
-      "could"
+      "could",
+      "again"
      ],
      "suggestion": "Could you say the number again, please?",
      "suggestionFa": "میشه شماره را دوباره بگید؟",
@@ -182,8 +182,8 @@
      "keywords": [
       "wednesday",
       "twelfth",
-      "ten",
-      "got"
+      "got",
+      "ten"
      ],
      "suggestion": "Wednesday the twelfth at ten. Got it.",
      "suggestionFa": "چهارشنبه دوازدهم ساعت ده. گرفتم.",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "message",
-      "thank",
       "helen",
+      "thank",
       "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
@@ -235,8 +235,8 @@
     {
      "keywords": [
       "thanks",
-      "he'll",
       "today",
+      "he'll",
       "ring"
      ],
      "suggestion": "Thanks. He'll ring you back today.",

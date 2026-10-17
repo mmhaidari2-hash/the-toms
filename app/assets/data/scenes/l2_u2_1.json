@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "how",
-      "get"
+      "get",
+      "how"
      ],
      "suggestion": "Excuse me, how do I get to the post office?",
      "suggestionFa": "ببخشید، چطوری برم اداره پست؟",
@@ -71,8 +71,8 @@
      "keywords": [
       "straight",
       "bakery",
-      "then",
-      "left"
+      "left",
+      "then"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
      "suggestionFa": "مستقیم، رد شدن از نونوایی، بعد چپ.",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "please",
-      "again",
+      "could",
       "sorry",
-      "could"
+      "again"
      ],
      "suggestion": "Sorry, could you say that again, please?",
      "suggestionFa": "ببخشید، می‌شه دوباره بگید؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "can't",
-      "mean",
-      "miss"
+      "miss",
+      "mean"
      ],
      "suggestion": "What does \"you can't miss it\" mean?",
      "suggestionFa": "«you can't miss it» یعنی چی؟",
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "left",
       "road",
+      "left",
       "end"
      ],
      "suggestion": "It's at the end of this road, on the left.",
@@ -289,10 +289,10 @@
     },
     {
      "keywords": [
-      "that's",
       "useful",
+      "phrase",
       "thanks",
-      "phrase"
+      "that's"
      ],
      "suggestion": "That's a useful phrase. Thanks!",
      "suggestionFa": "جملهٔ مفیدیه. ممنون!",

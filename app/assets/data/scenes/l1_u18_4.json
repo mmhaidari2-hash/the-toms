@@ -119,8 +119,8 @@
     },
     {
      "keywords": [
-      "think",
-      "brown"
+      "brown",
+      "think"
      ],
      "suggestion": "In the brown bin, I think.",
      "suggestionFa": "فکر کنم تو سطل قهوه‌ای.",
@@ -255,9 +255,9 @@
    "branches": [
     {
      "keywords": [
-      "sweep",
       "floor",
-      "let's"
+      "let's",
+      "sweep"
      ],
      "suggestion": "Let's sweep the floor.",
      "suggestionFa": "بیا زمین را جارو کنیم.",
@@ -267,8 +267,8 @@
     },
     {
      "keywords": [
-      "dustpan",
       "where's",
+      "dustpan",
       "brush"
      ],
      "suggestion": "Where's the dustpan and brush?",

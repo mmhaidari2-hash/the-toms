@@ -23,9 +23,9 @@
      "keywords": [
       "mondays",
       "monday",
+      "hate",
       "best",
-      "like",
-      "hate"
+      "like"
      ],
      "suggestion": "Ugh, Monday. I hate Mondays. What day do you like best?",
      "suggestionFa": "اه، دوشنبه. از دوشنبه بدم میاد. کدوم روز را بیشتر دوست داری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "wednesdays",
       "swimming",
-      "football",
       "tuesdays",
+      "football",
       "nicola"
      ],
      "suggestion": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
@@ -73,9 +73,9 @@
      "keywords": [
       "william",
       "nursery",
-      "plays",
       "lucky",
-      "goes"
+      "plays",
+      "sand"
      ],
      "suggestion": "William goes to nursery. He plays with sand all day. Lucky him!",
      "suggestionFa": "ویلیام می‌ره مهدکودک. کل روز با شن بازی می‌کنه. خوش به حالش!",
@@ -99,8 +99,8 @@
       "finishes",
       "hospital",
       "starts",
-      "works",
-      "eight"
+      "eight",
+      "works"
      ],
      "suggestion": "Mum works at the hospital. She starts at eight and finishes at four.",
      "suggestionFa": "مامان توی بیمارستان کار می‌کنه. ساعت هشت شروع می‌کنه و چهار تموم.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "drinks",
+      "office",
+      "nurse",
       "she's",
-      "about",
-      "works"
+      "about"
      ],
      "suggestion": "Yeah, she's a nurse. Dad works in an office. He drinks about ten cups of tea a day.",
      "suggestionFa": "آره، پرستاره. بابا توی دفتر کار می‌کنه. روزی حدود ده لیوان چای می‌خوره.",
@@ -150,7 +150,7 @@
       "sundays",
       "roast",
       "comes",
-      "have"
+      "best"
      ],
      "suggestion": "On Thursdays Nana comes for tea. On Sundays we have a roast. Best day!",
      "suggestionFa": "پنجشنبه‌ها نانا برای شام میاد. یکشنبه‌ها کباب یکشنبه داریم. بهترین روز!",
@@ -174,7 +174,7 @@
       "potatoes",
       "chicken",
       "sunday",
-      "gravy",
+      "won't",
       "roast"
      ],
      "suggestion": "Roast chicken, roast potatoes, gravy. Come this Sunday. Mum won't mind!",

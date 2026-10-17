@@ -117,8 +117,8 @@
      "keywords": [
       "postcode",
       "street",
-      "what's",
-      "number"
+      "number",
+      "what's"
      ],
      "suggestion": "Number ten, Mare Street. What's the postcode?",
      "suggestionFa": "پلاک ده، خیابون مر. کد پستی چیه؟",
@@ -168,8 +168,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "month",
+      "first",
       "then",
       "day"
      ],
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "starts",
+      "number",
       "phone"
      ],
      "suggestion": "My phone number starts with 07.",

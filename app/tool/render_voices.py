@@ -6,7 +6,7 @@ A=os.path.join(os.path.dirname(__file__),'..','assets'); OUT=os.path.join(A,'aud
 V={ # speaker -> (voice, pitch, rate)
  'tom':('en-GB-RyanNeural','+0Hz','+0%'),'leslie':('en-GB-SoniaNeural','+0Hz','+0%'),
  'nicola':('en-GB-MaisieNeural','+0Hz','+0%'),'ryan':('en-GB-ThomasNeural','+6Hz','+4%'),
- 'weda':('en-GB-LibbyNeural','-4Hz','-6%'),'william':('en-GB-MaisieNeural','+18Hz','-12%'),
+ 'weda':('en-GB-LibbyNeural','-4Hz','-6%'),'william':('en-GB-MaisieNeural','+10Hz','-3%'),
  'mia':('en-GB-MaisieNeural','+10Hz','+4%'),'me':('en-GB-ThomasNeural','-4Hz','+0%'),'mehdi':('en-GB-ThomasNeural','-4Hz','+0%'),
  'priya':('en-IN-NeerjaNeural','+0Hz','+0%'),'patel':('en-IN-PrabhatNeural','+0Hz','+0%'),
  'callum':('en-IE-ConnorNeural','+0Hz','+6%'),'hughes':('en-GB-LibbyNeural','-8Hz','-4%'),

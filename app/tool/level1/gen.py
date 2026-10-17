@@ -50,7 +50,7 @@ for ui,u in enumerate(units):
     for i,n in enumerate(ns):
       nid=f'n{i+1}'; nxt=f'n{i+2}' if i+1<len(ns) else None
       if n['speaker']=='nicola' and len(n['text'].split())>18: errs.append(f'{sid}/{nid} nicola too long')
-      if n['speaker']=='william' and len(n['text'].split())>6: errs.append(f'{sid}/{nid} william too long')
+      if n['speaker']=='william' and len(n['text'].split())>8: errs.append(f'{sid}/{nid} william too long')
       if len(n['text'])>{'A0':90,'A1':110,'A2':130,'B1':150,'B2':190}.get(lvl,230): errs.append(f'{sid}/{nid} too long {len(n["text"])}')
       br=[]
       R=n['replies']

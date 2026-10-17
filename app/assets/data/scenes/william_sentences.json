@@ -2,8 +2,8 @@
  "id": "william_sentences",
  "characterId": "william",
  "level": "A0",
- "title": "Daddy bus!",
- "titleFa": "بابا اتوبوس!",
+ "title": "Why does the bus go ding ding?",
+ "titleFa": "چرا اتوبوس دینگ دینگ می‌کنه؟",
  "setting": "The front window",
  "settingFa": "پنجرهٔ جلو",
  "requires": {
@@ -15,17 +15,17 @@
   "n1": {
    "id": "n1",
    "speaker": "william",
-   "text": "Daddy bus! Red bus!",
+   "text": "Look! Daddy's bus! The big red one!",
    "translations": {
-    "fa": "اتوبوس بابا! اتوبوس قرمز!"
+    "fa": "ببین! اتوبوس بابا! اون قرمز بزرگه!"
    },
    "branches": [
     {
      "keywords": [
       "drives",
       "daddy",
-      "big",
-      "red"
+      "red",
+      "big"
      ],
      "suggestion": "Yes! Daddy drives the big red bus!",
      "suggestionFa": "آره! بابا اتوبوس بزرگ قرمز را می‌رونه!",
@@ -64,31 +64,32 @@
   "n2": {
    "id": "n2",
    "speaker": "william",
-   "text": "Bus go! Ding ding!",
+   "text": "Why does the bus go ding ding?",
    "translations": {
-    "fa": "اتوبوس برو! دینگ دینگ!"
+    "fa": "چرا اتوبوس دینگ دینگ می‌کنه؟"
    },
    "branches": [
     {
      "keywords": [
-      "ding",
-      "goes",
-      "off"
+      "people",
+      "bell",
+      "ring",
+      "get"
      ],
-     "suggestion": "Ding ding! Off it goes!",
-     "suggestionFa": "دینگ دینگ! راه افتاد!",
+     "suggestion": "People ring the bell to get off.",
+     "suggestionFa": "مردم زنگ می‌زنن که پیاده بشن.",
      "trustDelta": 7,
      "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "daddy",
-      "wave",
-      "can"
+      "stopping",
+      "because",
+      "ding"
      ],
-     "suggestion": "Can you wave at Daddy?",
-     "suggestionFa": "می‌تونی به بابا دست تکون بدی؟",
+     "suggestion": "Because it's stopping. Ding ding!",
+     "suggestionFa": "چون داره وایمیسه. دینگ دینگ!",
      "trustDelta": 6,
      "next": "n3",
      "success": true
@@ -96,26 +97,33 @@
    ],
    "newWords": [
     {
-     "word": "go",
-     "fa": "رفتن"
+     "word": "why",
+     "fa": "چرا"
     },
     {
-     "word": "ding ding",
-     "fa": "صدای زنگ اتوبوس"
+     "word": "bell",
+     "fa": "زنگ"
     },
     {
-     "word": "wave",
-     "fa": "دست تکان دادن"
+     "word": "get off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "stopping",
+     "fa": "ایستادن"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "On London buses you press the red \"Stop\" button, and a bell tells the driver to stop.",
+    "fa": "در اتوبوس‌های لندن دکمهٔ قرمز Stop را می‌زنید و زنگ به راننده خبر می‌دهد."
+   }
   },
   "n3": {
    "id": "n3",
    "speaker": "william",
-   "text": "Bye-bye, Daddy! Bye-bye!",
+   "text": "Bye-bye, Daddy! Can you see me?",
    "translations": {
-    "fa": "بای‌بای بابا! بای‌بای!"
+    "fa": "بای‌بای بابا! منو می‌بینی؟"
    },
    "branches": [
     {
@@ -133,8 +141,8 @@
     },
     {
      "keywords": [
-      "will",
       "home",
+      "will",
       "tea"
      ],
      "suggestion": "Daddy will be home for tea.",
@@ -152,6 +160,10 @@
     {
      "word": "home",
      "fa": "خانه"
+    },
+    {
+     "word": "tea",
+     "fa": "شام"
     }
    ],
    "cultureNote": null
@@ -159,29 +171,29 @@
   "n4": {
    "id": "n4",
    "speaker": "william",
-   "text": "More buses! Big one!",
+   "text": "Why has that bus got two floors?",
    "translations": {
-    "fa": "اتوبوس‌های بیشتر! یه بزرگ!"
+    "fa": "چرا اون اتوبوس دو طبقه داره؟"
    },
    "branches": [
     {
      "keywords": [
-      "floors",
-      "that's",
       "double",
-      "decker"
+      "decker",
+      "people",
+      "more"
      ],
-     "suggestion": "That's a double-decker. Two floors!",
-     "suggestionFa": "اون دوطبقه‌ست. دو طبقه!",
+     "suggestion": "It's a double-decker. More people fit!",
+     "suggestionFa": "دوطبقه‌ست. آدمای بیشتری جا میشن!",
      "trustDelta": 7,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "let's",
       "buses",
-      "count"
+      "count",
+      "let's"
      ],
      "suggestion": "Let's count the buses.",
      "suggestionFa": "بیا اتوبوس‌ها را بشمریم.",
@@ -212,9 +224,9 @@
   "n5": {
    "id": "n5",
    "speaker": "william",
-   "text": "One, two… lots!",
+   "text": "One, two, three… lots and lots!",
    "translations": {
-    "fa": "یک، دو… کلی!"
+    "fa": "یک، دو، سه… کلی کلی!"
    },
    "branches": [
     {
@@ -231,12 +243,12 @@
     },
     {
      "keywords": [
+      "counted",
       "three",
-      "one",
-      "two"
+      "well"
      ],
-     "suggestion": "One, two, three! Three buses!",
-     "suggestionFa": "یک، دو، سه! سه تا اتوبوس!",
+     "suggestion": "Three buses! Well counted!",
+     "suggestionFa": "سه تا اتوبوس! آفرین، خوب شمردی!",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -244,16 +256,16 @@
    ],
    "newWords": [
     {
-     "word": "one",
-     "fa": "یک"
-    },
-    {
-     "word": "two",
-     "fa": "دو"
-    },
-    {
      "word": "lots",
      "fa": "کلی"
+    },
+    {
+     "word": "counted",
+     "fa": "شمرد"
+    },
+    {
+     "word": "clever",
+     "fa": "باهوش"
     }
    ],
    "cultureNote": null
@@ -261,30 +273,32 @@
   "n6": {
    "id": "n6",
    "speaker": "william",
-   "text": "Taxi! Black taxi!",
+   "text": "That's a taxi! Why is it black?",
    "translations": {
-    "fa": "تاکسی! تاکسی سیاه!"
+    "fa": "اون تاکسیه! چرا سیاهه؟"
    },
    "branches": [
     {
      "keywords": [
+      "london",
+      "called",
       "black",
-      "cab"
+      "taxis"
      ],
-     "suggestion": "Yes, a black cab!",
-     "suggestionFa": "آره، یه تاکسی سیاه!",
+     "suggestion": "London taxis are called black cabs.",
+     "suggestionFa": "به تاکسی‌های لندن می‌گن black cab.",
      "trustDelta": 7,
      "next": "n7",
      "success": true
     },
     {
      "keywords": [
-      "there's",
+      "yellow",
       "white",
-      "van"
+      "some"
      ],
-     "suggestion": "And there's a white van.",
-     "suggestionFa": "و اون یه ون سفیده.",
+     "suggestion": "Some are white or yellow too!",
+     "suggestionFa": "بعضی‌هاشون سفید یا زرد هم هستن!",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -298,10 +312,6 @@
     {
      "word": "black cab",
      "fa": "تاکسی سیاه لندن"
-    },
-    {
-     "word": "van",
-     "fa": "ون"
     }
    ],
    "cultureNote": {
@@ -312,59 +322,9 @@
   "n7": {
    "id": "n7",
    "speaker": "william",
-   "text": "Beep beep! Me drive!",
+   "text": "When I'm big, I'll drive a bus!",
    "translations": {
-    "fa": "بوق بوق! من رانندگی!"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "bigger",
-      "when",
-      "one",
-      "day"
-     ],
-     "suggestion": "One day, when you're bigger!",
-     "suggestionFa": "یه روز، وقتی بزرگ‌تر شدی!",
-     "trustDelta": 7,
-     "next": "n8",
-     "success": true
-    },
-    {
-     "keywords": [
-      "brrrm",
-      "wheel",
-      "hold"
-     ],
-     "suggestion": "Hold the wheel! Brrrm!",
-     "suggestionFa": "فرمون را بگیر! برررم!",
-     "trustDelta": 6,
-     "next": "n8",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "beep",
-     "fa": "بوق"
-    },
-    {
-     "word": "bigger",
-     "fa": "بزرگ‌تر"
-    },
-    {
-     "word": "wheel",
-     "fa": "فرمان"
-    }
-   ],
-   "cultureNote": null
-  },
-  "n8": {
-   "id": "n8",
-   "speaker": "william",
-   "text": "Me big! Me Daddy!",
-   "translations": {
-    "fa": "من بزرگ! من بابا!"
+    "fa": "وقتی بزرگ شدم، اتوبوس می‌رونم!"
    },
    "branches": [
     {
@@ -377,20 +337,20 @@
      "suggestion": "You'll be a great bus driver.",
      "suggestionFa": "رانندهٔ اتوبوس خیلی خوبی میشی.",
      "trustDelta": 7,
-     "next": "n9",
+     "next": "n8",
      "success": true
     },
     {
      "keywords": [
       "grandad",
       "daddy",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "Just like Daddy and Grandad!",
      "suggestionFa": "درست مثل بابا و پدربزرگ!",
      "trustDelta": 6,
-     "next": "n9",
+     "next": "n8",
      "success": true
     }
    ],
@@ -400,8 +360,62 @@
      "fa": "بزرگ"
     },
     {
+     "word": "drive",
+     "fa": "رانندگی کردن"
+    },
+    {
      "word": "just like",
      "fa": "درست مثل"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Beep beep! I'm driving the 38!",
+   "translations": {
+    "fa": "بوق بوق! دارم اتوبوس ۳۸ را می‌رونم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "ding",
+      "get",
+      "can"
+     ],
+     "suggestion": "Ding ding! Can I get on, please?",
+     "suggestionFa": "دینگ دینگ! می‌تونم سوار شم، لطفاً؟",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brrrm",
+      "wheel",
+      "hold"
+     ],
+     "suggestion": "Hold the wheel! Brrrm!",
+     "suggestionFa": "فرمون را بگیر! برررم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "beep",
+     "fa": "بوق"
+    },
+    {
+     "word": "get on",
+     "fa": "سوار شدن"
+    },
+    {
+     "word": "wheel",
+     "fa": "فرمان"
     }
    ],
    "cultureNote": null
@@ -409,9 +423,9 @@
   "n9": {
    "id": "n9",
    "speaker": "william",
-   "text": "Me bigger! Love you!",
+   "text": "Yes! Tickets, please! I love buses!",
    "translations": {
-    "fa": "من بزرگ‌تر! دوستت دارم!"
+    "fa": "آره! بلیط‌ها، لطفاً! عاشق اتوبوسم!"
    },
    "branches": [],
    "newWords": [],

@@ -310,7 +310,7 @@ void main() {
       final lp = LevelProfile.of(s.level);
       for (final n in s.nodes.values) {
         expect(n.text.length, lessThanOrEqualTo(lp.maxChars), reason: '${s.id}/${n.id} (${n.text.length})');
-        if (n.speaker == 'william') expect(n.text.split(' ').length, lessThanOrEqualTo(6), reason: '${s.id}/${n.id}');
+        if (n.speaker == 'william') expect(n.text.split(' ').length, lessThanOrEqualTo(8), reason: '${s.id}/${n.id}');
         if (n.speaker == 'nicola') expect(n.text.split(' ').length, lessThanOrEqualTo(VoiceProfile.matrix['nicola']!.maxWords + 4), reason: '${s.id}/${n.id}');
       }
     }

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "pink",
-      "look",
-      "bike",
       "i've",
-      "ride"
+      "pink",
+      "bike",
+      "ride",
+      "look"
      ],
      "suggestion": "Look! I've got a new bike! It's pink! Can you ride a bike?",
      "suggestionFa": "ببین! دوچرخهٔ جدید دارم! صورتیه! تو دوچرخه‌سواری بلدی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "stabilisers",
-      "they're",
       "without",
+      "they're",
       "coming",
-      "can't"
+      "today"
      ],
      "suggestion": "I can't ride without my stabilisers. Daddy says they're coming off today!",
      "suggestionFa": "من بدون چرخ کمکی نمی‌تونم برونم. بابا میگه امروز درشون میاره!",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "scared",
+      "hold",
       "seat",
       "back",
-      "hold",
       "bit"
      ],
      "suggestion": "A bit scared. Can you hold the back of my seat?",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "holding",
-      "still",
       "ready",
+      "still",
       "push"
      ],
      "suggestion": "Ready! Push! Push! Are you still holding?",
@@ -147,8 +147,8 @@
      "keywords": [
       "holding",
       "wheee",
-      "look",
       "ride",
+      "look",
       "can"
      ],
      "suggestion": "Wheee! Look! I can ride! Are you holding? … You're NOT holding!",
@@ -197,8 +197,8 @@
      "keywords": [
       "steady",
       "ready",
-      "ride",
       "race",
+      "ride",
       "run"
      ],
      "suggestion": "He can! Can we race now? You run, I ride. Ready, steady, GO!",

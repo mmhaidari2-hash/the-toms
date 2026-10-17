@@ -118,6 +118,9 @@ class _ChatState extends ConsumerState<_Chat> {
   DialogueNode? _node;
   String _lineSpeaker = '';
   Hotspot? _tapped;
+  double? _pan; double _curAx = 0; bool _dragging = false;
+  final _sheetKey = GlobalKey();
+  double _sheetH() => (_sheetKey.currentContext?.findRenderObject() as RenderBox?)?.size.height ?? MediaQuery.sizeOf(context).height * .42;
   Offset? _tapAt;
   String _line = '';
   String _raw = '';
@@ -193,6 +196,7 @@ class _ChatState extends ConsumerState<_Chat> {
     setState(() {
       _typing = false;
       _lineSpeaker = speaker;
+      _pan = null;
       _line = _t(text);
       _raw = text;
       _lineFa = fa;
@@ -213,6 +217,7 @@ class _ChatState extends ConsumerState<_Chat> {
       _typing = false;
       _node = n;
       _lineSpeaker = n.speaker;
+      _pan = null;
       _line = _t(n.text);
       _raw = n.text;
       _lineFa = lineTranslation(n.translations, _lang);
@@ -578,43 +583,103 @@ class _ChatState extends ConsumerState<_Chat> {
           ),
           ]),
         ),
-        if (_tapped != null) Positioned(left: 12, right: 12, top: pad.top + 64, child: _tapCard(_tapped!)),
-        Positioned(left: 0, right: 0, bottom: 0, child: _sheet(sp, trust, pad, h)),
+        if (cover != null) Positioned(left: 12, top: pad.top + 58, child: _peopleChips(_tapHost(cover, host))),
+        // The card never covers what was tapped: low taps show it at the top, high taps (faces) just above the sheet.
+        if (_tapped != null)
+          (_tapAt == null ? !_tapped!.isProp : _tapAt!.dy < (h - _sheetH()) / 2)
+              ? Positioned(left: 12, right: 12, bottom: _sheetH() + 10, child: _tapCard(_tapped!))
+              : Positioned(left: 12, right: 12, top: pad.top + (_people(cover == null ? null : _tapHost(cover, host)).length > 1 ? 100 : 64), child: _tapCard(_tapped!)),
+        Positioned(left: 0, right: 0, bottom: 0, child: KeyedSubtree(key: _sheetKey, child: _sheet(sp, trust, pad, h))),
       ],
     );
   }
 
+  /// The place whose hotspots match this cover painting (the story's host, or the place that owns a
+  /// special story-cover painting), so every painting gets tap areas.
+  Place? _tapHost(String cover, Place? host) =>
+      host?.image == cover ? host : widget.c.places.where((p) => p.image == cover).firstOrNull;
+
+  /// People in the painting the learner can reach (not the role they're playing).
+  List<Hotspot> _people(Place? th) {
+    if (th == null) return const [];
+    final me = widget.s.playAs ?? ref.read(progressProvider).role;
+    final seen = <String>{};
+    return [for (final h in th.hotspots) if (!h.isProp && h.characterId != me && h.rect != null && widget.c.characterOrNull(h.characterId) != null && seen.add(h.characterId)) h];
+  }
+
   /// The painting with live tap areas. BoxFit.cover + alignment, so taps are mapped back into
-  /// image space using the same scale/offset Flutter uses to paint it.
+  /// image space using the same scale/offset Flutter uses to paint it. On narrow phones the
+  /// painting is wider than the screen: it pans to the speaker, and the learner can drag it
+  /// sideways (or tap a portrait chip) to reach everyone else.
   Widget _paintingLayer(String cover, Place? host, Character sp) {
-    final ax = _focusX(host, sp.id);
-    final img = Image.asset(cover, fit: BoxFit.cover, alignment: Alignment(ax, 0));
-    if (host == null || host.image != cover || host.hotspots.isEmpty) return img;
+    final th = _tapHost(cover, host);
+    final target = (_pan ?? _focusX(th, sp.id)).clamp(-1.0, 1.0);
     return LayoutBuilder(builder: (context, box) {
-      final bw = box.maxWidth, bh = box.maxHeight, ar = host.aspect;
+      final bw = box.maxWidth, bh = box.maxHeight, ar = th?.aspect ?? 1.6;
       // BoxFit.cover: scale so the image covers the box; overflow is cropped per alignment.
       final iw = bw / bh > ar ? bw : bh * ar, ih = iw / ar;
-      final ox = (bw - iw) * (ax + 1) / 2, oy = (bh - ih) / 2;
-      return GestureDetector(
-        behavior: HitTestBehavior.opaque,
-        onTapUp: (d) {
-          final x = (d.localPosition.dx - ox) / iw, y = (d.localPosition.dy - oy) / ih;
-          final me = widget.s.playAs ?? ref.read(progressProvider).role;
-          final hs = hitTest(host.hotspots.where((h) => h.isProp || h.characterId != me), x, y);
-          if (hs != null) _onPaintingTap(hs, d.localPosition);
+      final canPan = iw - bw > 1;
+      return TweenAnimationBuilder<double>(
+        tween: Tween(end: target),
+        duration: _dragging ? Duration.zero : const Duration(milliseconds: 380),
+        curve: Curves.easeOutCubic,
+        builder: (context, ax, _) {
+          _curAx = ax;
+          final ox = (bw - iw) * (ax + 1) / 2, oy = (bh - ih) / 2;
+          final img = Image.asset(cover, fit: BoxFit.cover, alignment: Alignment(ax, 0));
+          return GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onHorizontalDragStart: canPan ? (_) => setState(() { _dragging = true; _pan = _curAx; }) : null,
+            onHorizontalDragUpdate: canPan ? (d) => setState(() => _pan = ((_pan ?? _curAx) + 2 * d.delta.dx / (bw - iw)).clamp(-1.0, 1.0)) : null,
+            onHorizontalDragEnd: canPan ? (_) => setState(() => _dragging = false) : null,
+            onTapUp: th == null || th.hotspots.isEmpty ? null : (d) {
+              final x = (d.localPosition.dx - ox) / iw, y = (d.localPosition.dy - oy) / ih;
+              final me = widget.s.playAs ?? ref.read(progressProvider).role;
+              final hs = hitTest(th.hotspots.where((h) => h.isProp || h.characterId != me), x, y);
+              if (hs != null) _onPaintingTap(hs, d.localPosition);
+            },
+            child: Stack(fit: StackFit.expand, children: [
+              img,
+              if (_tapAt != null) Positioned(left: _tapAt!.dx - 22, top: _tapAt!.dy - 22, width: 44, height: 44, child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: const Color(0xFFE9B949), width: 2.5))))),
+            ]),
+          );
         },
-        child: Stack(fit: StackFit.expand, children: [
-          img,
-          if (_tapAt != null) Positioned(left: _tapAt!.dx - 22, top: _tapAt!.dy - 22, width: 44, height: 44, child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: const Color(0xFFE9B949), width: 2.5))))),
-        ]),
       );
     });
   }
 
-  void _onPaintingTap(Hotspot h, Offset at) {
+  /// Portrait chips for everyone in the painting: tap one to pan to them and hear them.
+  Widget _peopleChips(Place? th) {
+    final ps = _people(th);
+    if (ps.length < 2) return const SizedBox.shrink();
+    return ConstrainedBox(
+      constraints: BoxConstraints(maxWidth: MediaQuery.sizeOf(context).width - 24),
+      child: Wrap(children: [
+        for (final h in ps)
+          Padding(
+            padding: const EdgeInsets.only(right: 6),
+            child: GestureDetector(
+              key: ValueKey('chip-${h.characterId}'),
+              onTap: () {
+                final r = h.rect!;
+                setState(() => _pan = ((r[0] + r[2] / 2) * 2 - 1).clamp(-1.0, 1.0));
+                _onPaintingTap(h, null);
+              },
+              child: Container(
+                padding: const EdgeInsets.all(2),
+                decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.black38, border: Border.all(color: _tapped == h ? const Color(0xFFE9B949) : Colors.white24, width: 1.5)),
+                child: Avatar(widget.c.character(h.characterId), size: 30, ring: false),
+              ),
+            ),
+          ),
+      ]),
+    );
+  }
+
+  void _onPaintingTap(Hotspot h, Offset? at) {
     HapticFeedback.selectionClick();
     setState(() { _tapAt = at; _tapped = h; });
-    Future.delayed(const Duration(milliseconds: 500), () { if (mounted && _tapAt == at) setState(() => _tapAt = null); });
+    if (at != null) Future.delayed(const Duration(milliseconds: 500), () { if (mounted && _tapAt == at) setState(() => _tapAt = null); });
     if (h.isProp) {
       Voice.say('narrator', h.prop!.word, rate: .9).then((_) { if (mounted && _tapped == h) Voice.say('narrator', h.prop!.phrase, rate: .9); });
     } else if (h.characterId == _lineSpeaker && _raw.isNotEmpty) {
@@ -654,15 +719,18 @@ class _ChatState extends ConsumerState<_Chat> {
     final en = prop != null ? prop.word : speaking ? _line : pl!.en;
     final fa = prop != null ? prop.fa : speaking ? _lineFa : pl!.fa;
     final sw = _switchScene(h);
-    return Material(
-      color: Colors.transparent,
-      child: Container(
-        key: ValueKey('tapcard-${prop?.id ?? h.characterId}'),
+    // Only the buttons take touches: the rest of the card lets taps through to the painting,
+    // so the card can never block a person or object behind it.
+    return Stack(
+      key: ValueKey('tapcard-${prop?.id ?? h.characterId}'),
+      children: [
+      Positioned.fill(child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(color: const Color(0xEE1E150F), borderRadius: BorderRadius.circular(18), border: Border.all(color: const Color(0xFFC9A45C), width: 1.1))))),
+      Padding(
         padding: const EdgeInsets.fromLTRB(14, 10, 8, 10),
-        decoration: BoxDecoration(color: const Color(0xEE1E150F), borderRadius: BorderRadius.circular(18), border: Border.all(color: const Color(0xFFC9A45C), width: 1.1)),
         child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          if (ch != null) Padding(padding: const EdgeInsets.only(right: 10), child: Avatar(ch, size: 32, ring: false)) else const Padding(padding: EdgeInsets.only(right: 10, top: 2), child: Text('✦', style: TextStyle(color: gold, fontSize: 18))),
+          IgnorePointer(child: ch != null ? Padding(padding: const EdgeInsets.only(right: 10), child: Avatar(ch, size: 32, ring: false)) : const Padding(padding: EdgeInsets.only(right: 10, top: 2), child: Text('✦', style: TextStyle(color: gold, fontSize: 18)))),
           Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+            IgnorePointer(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
             Text(ch?.name ?? 'WORD', style: const TextStyle(color: gold, fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w800)),
             if (en.isNotEmpty) Text(en, style: BL.display(15.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500)),
             if (fa != null && fa.isNotEmpty) SizedBox(width: double.infinity, child: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white60))),
@@ -671,6 +739,7 @@ class _ChatState extends ConsumerState<_Chat> {
               Text('“${prop.phrase}”', style: const TextStyle(color: Colors.white, fontSize: 13.5)),
               SizedBox(width: double.infinity, child: Text(prop.phraseFa, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white54))),
             ],
+            ])),
             if (sw != null && ch != null)
               Padding(
                 padding: const EdgeInsets.only(top: 6),
@@ -684,13 +753,13 @@ class _ChatState extends ConsumerState<_Chat> {
                 ),
               ),
           ])),
-          Column(mainAxisSize: MainAxisSize.min, children: [
-            IconButton(visualDensity: VisualDensity.compact, tooltip: tr(_lang, 'listen'), onPressed: () => _onPaintingTap(h, _tapAt ?? Offset.zero), icon: const Icon(Icons.volume_up_rounded, color: gold, size: 20)),
+          Material(type: MaterialType.transparency, child: Column(mainAxisSize: MainAxisSize.min, children: [
+            IconButton(visualDensity: VisualDensity.compact, tooltip: tr(_lang, 'listen'), onPressed: () => _onPaintingTap(h, null), icon: const Icon(Icons.volume_up_rounded, color: gold, size: 20)),
             IconButton(visualDensity: VisualDensity.compact, onPressed: () => setState(() => _tapped = null), icon: const Icon(Icons.close_rounded, color: Colors.white38, size: 18)),
-          ]),
+          ])),
         ]),
       ),
-    );
+    ]);
   }
 
   // Keep the active speaker in frame on narrow phones (painting pans to them).

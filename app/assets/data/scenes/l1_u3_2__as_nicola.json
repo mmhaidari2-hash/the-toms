@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "buttons",
+      "where's",
       "can't",
       "find",
       "him"
@@ -48,8 +48,8 @@
      "keywords": [
       "looked",
       "under",
-      "look",
       "sofa",
+      "look",
       "can"
      ],
      "suggestion": "No! I looked. Is he under the sofa? Can you look?",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "about",
       "shelf",
       "books",
+      "about",
       "next"
      ],
      "suggestion": "What about on the shelf? Next to the books?",
@@ -160,9 +160,9 @@
   "r7": {
    "id": "r7",
    "speaker": "william",
-   "text": "Teddy! In box!",
+   "text": "Teddy's in the box!",
    "translations": {
-    "fa": "تدی! تو جعبه!"
+    "fa": "تدی تو جعبه‌ست!"
    },
    "branches": [
     {
@@ -196,8 +196,8 @@
      "keywords": [
       "buttons",
       "blocks",
-      "thank",
       "under",
+      "thank",
       "mr"
      ],
      "suggestion": "Mr Buttons! You're under the blocks! Thank you, thank you!",
@@ -221,8 +221,8 @@
      "keywords": [
       "count",
       "seek",
-      "play",
       "hide",
+      "play",
       "can"
      ],
      "suggestion": "Can you play hide and seek with me? You hide, I count!",
@@ -244,11 +244,11 @@
    "branches": [
     {
      "keywords": [
-      "ready",
       "three",
+      "ready",
       "here",
       "come",
-      "one"
+      "two"
      ],
      "suggestion": "One, two, three… ready or not, here I come!",
      "suggestionFa": "یک، دو، سه… آماده باشی یا نه، دارم میام!",

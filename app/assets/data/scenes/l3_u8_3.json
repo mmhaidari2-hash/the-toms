@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
+      "doing",
       "dirty",
       "socks",
-      "doing",
       "deal"
      ],
      "suggestion": "Deal. But you're doing the dirty socks!",
@@ -132,8 +132,8 @@
      "keywords": [
       "clothes",
       "basket",
-      "dirty",
-      "first"
+      "first",
+      "dirty"
      ],
      "suggestion": "First, let's put the dirty clothes in the wash basket.",
      "suggestionFa": "اول، بیا لباس‌های کثیف را بذاریم تو سبد رخت‌چرک.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "can't",
-      "floor",
       "start",
+      "floor",
       "see"
      ],
      "suggestion": "Let's start with the floor. I can't see it!",
@@ -182,8 +182,8 @@
      "keywords": [
       "benefits",
       "tidying",
-      "see",
-      "has"
+      "has",
+      "see"
      ],
      "suggestion": "See? Tidying has benefits!",
      "suggestionFa": "دیدی؟ مرتب کردن فایده داره!",
@@ -234,8 +234,8 @@
     {
      "keywords": [
       "washing",
-      "week",
       "fine",
+      "week",
       "but"
      ],
      "suggestion": "Fine. But you're washing up for a week.",

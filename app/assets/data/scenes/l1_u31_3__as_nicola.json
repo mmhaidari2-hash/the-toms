@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "today",
       "pizza",
+      "today",
       "love",
       "was",
       "day"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "mondays",
       "fingers",
       "fridays",
-      "dinner",
-      "school"
+      "mondays",
+      "school",
+      "dinner"
      ],
      "suggestion": "On Fridays we have pizza for dinner. At school! Mondays are fish fingers.",
      "suggestionFa": "جمعه‌ها ناهار پیتزا داریم. تو مدرسه! دوشنبه‌ها فیش فینگره.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "favourite",
-      "ladies",
-      "dinner",
       "school",
+      "dinner",
+      "ladies",
       "give"
      ],
      "suggestion": "Yes, school dinner! The dinner ladies give it to us. Mrs Pat is my favourite.",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "plate",
+      "don't",
       "roll",
-      "like",
+      "peas",
       "they"
      ],
      "suggestion": "I don't like peas. They roll off my plate! Do you like peas?",
@@ -149,8 +149,8 @@
       "neither",
       "strong",
       "mummy",
-      "says",
-      "make"
+      "make",
+      "peas"
      ],
      "suggestion": "Me neither! But Mummy says peas make you strong. Is that true?",
      "suggestionFa": "منم نه! ولی مامان میگه نخود فرنگی آدم را قوی می‌کنه. راسته؟",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "custard",
-      "being",
-      "three",
       "extra",
+      "three",
+      "being",
       "brave"
      ],
      "suggestion": "Three peas… OK. And I'll have extra custard for being brave! Deal?",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "friday",
-      "grown",
-      "can't",
-      "sorry"
+      "though",
+      "pizza",
+      "sorry",
+      "grown"
      ],
      "suggestion": "Ha ha! Next Friday you can come for pizza day. Grown-ups can't though. Sorry!",
      "suggestionFa": "ها ها! جمعهٔ بعد بیا روز پیتزا. البته بزرگ‌ترها نمی‌تونن. ببخشید!",

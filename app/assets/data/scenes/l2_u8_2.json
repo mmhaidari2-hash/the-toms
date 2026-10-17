@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "pass",
-      "i'll"
+      "i'll",
+      "pass"
      ],
      "suggestion": "Yes, I'll pass you to Tom.",
      "suggestionFa": "بله، گوشی را می‌دم به تام.",
@@ -65,8 +65,8 @@
     {
      "keywords": [
       "ringing",
-      "doctor",
       "thanks",
+      "doctor",
       "back"
      ],
      "suggestion": "Thanks for ringing back, doctor.",
@@ -153,8 +153,8 @@
     {
      "keywords": [
       "bring",
-      "i'll",
       "fine",
+      "i'll",
       "four"
      ],
      "suggestion": "Four is fine. I'll bring him.",
@@ -197,10 +197,10 @@
    "branches": [
     {
      "keywords": [
-      "give",
       "i'll",
       "some",
-      "now"
+      "give",
+      "him"
      ],
      "suggestion": "OK. I'll give him some now.",
      "suggestionFa": "باشه. الان بهش می‌دم.",
@@ -212,8 +212,8 @@
      "keywords": [
       "worse",
       "gets",
-      "if",
-      "he"
+      "he",
+      "if"
      ],
      "suggestion": "What if he gets worse?",
      "suggestionFa": "اگه بدتر شد چی؟",

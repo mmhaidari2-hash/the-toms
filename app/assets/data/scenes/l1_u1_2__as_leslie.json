@@ -103,14 +103,14 @@
    "branches": [
     {
      "keywords": [
+      "youngest",
       "william",
-      "monkey",
       "little",
-      "baby",
-      "he's"
+      "monkey",
+      "three"
      ],
-     "suggestion": "And this little monkey is William. He's our baby. He's one.",
-     "suggestionFa": "و این کوچولوی شیطون ویلیامه. بچهٔ ماست. یک سالشه.",
+     "suggestion": "And this little monkey is William. He's our youngest. He's three.",
+     "suggestionFa": "و این کوچولوی شیطون ویلیامه. کوچیک‌ترین بچه‌مونه. سه سالشه.",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -142,9 +142,9 @@
   "r6": {
    "id": "r6",
    "speaker": "william",
-   "text": "Ba! Ba-ba!",
+   "text": "Hiya! I'm William! I'm three!",
    "translations": {
-    "fa": "با! با-با!"
+    "fa": "سلام! من ویلیامم! سه سالمه!"
    },
    "branches": [
     {
@@ -162,6 +162,10 @@
     {
      "word": "little",
      "fa": "کوچک"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
     }
    ]
   },
@@ -176,13 +180,13 @@
     {
      "keywords": [
       "upstairs",
-      "fourteen",
-      "that's",
-      "hello",
-      "he's"
+      "fifteen",
+      "saying",
+      "loves",
+      "hello"
      ],
-     "suggestion": "He is! That's his hello. Ryan is upstairs. He's our son too. He's fourteen.",
-     "suggestionFa": "آره! این سلام اوست. رایان طبقهٔ بالاست. اونم پسرمونه. چهارده سالشه.",
+     "suggestion": "He loves saying hello! Ryan is upstairs. He's our son too. He's fifteen.",
+     "suggestionFa": "عاشق سلام کردنه! رایان طبقهٔ بالاست. اونم پسرمونه. پونزده سالشه.",
      "trustDelta": 5,
      "next": "r8",
      "success": true
@@ -201,10 +205,10 @@
     {
      "keywords": [
       "that's",
-      "three",
-      "tom's",
       "lives",
-      "right"
+      "three",
+      "right",
+      "tom's"
      ],
      "suggestion": "That's right — three kids! And this is Weda, Tom's mum. She lives with us.",
      "suggestionFa": "درسته — سه تا بچه! و این ویدا، مامان تامه. با ما زندگی می‌کنه.",
@@ -283,8 +287,8 @@
     {
      "keywords": [
       "questions",
-      "that's",
       "family",
+      "that's",
       "whole",
       "right"
      ],
@@ -310,8 +314,8 @@
       "perfect",
       "welcome",
       "family",
-      "you've",
-      "memory"
+      "memory",
+      "you've"
      ],
      "suggestion": "Perfect! You've got a great memory. Welcome to the family, love.",
      "suggestionFa": "عالی! حافظهٔ خوبی داری. به خانواده خوش اومدی عزیزم.",

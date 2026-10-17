@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "ticket",
+      "here's",
       "going"
      ],
      "suggestion": "Here's my ticket. I'm going to York.",
@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
+      "here",
       "next",
-      "stop",
-      "here"
+      "stop"
      ],
      "suggestion": "Here you are. Is York the next stop?",
      "suggestionFa": "بفرمایید. یورک ایستگاه بعدیه؟",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "better",
+      "london",
       "than"
      ],
      "suggestion": "Better than London?",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "should",
-      "visit",
-      "there"
+      "there",
+      "visit"
      ],
      "suggestion": "What should I visit there?",
      "suggestionFa": "اونجا کجا را ببینم؟",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "love",
+      "i'd",
       "day",
-      "one",
-      "i'd"
+      "one"
      ],
      "suggestion": "I'd love to go one day.",
      "suggestionFa": "دوست دارم یه روز برم.",

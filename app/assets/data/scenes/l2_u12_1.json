@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "like"
+      "book"
      ],
      "suggestion": "Hello. I'd like to book an appointment, please.",
      "suggestionFa": "سلام. می‌خوام یه وقت بگیرم، لطفاً.",
@@ -130,7 +130,7 @@
       "three",
       "days",
       "ache",
-      "ear"
+      "had"
      ],
      "suggestion": "I've had a bad ear ache for three days.",
      "suggestionFa": "سه روزه گوش‌درد شدید دارم.",
@@ -142,8 +142,8 @@
      "keywords": [
       "itchy",
       "rash",
-      "got",
-      "arm"
+      "arm",
+      "got"
      ],
      "suggestion": "I've got a rash on my arm. It's itchy.",
      "suggestionFa": "رو دستم جوش زده. می‌خاره.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "pharmacist",
-      "help",
       "they",
+      "help",
       "can"
      ],
      "suggestion": "A pharmacist? Can they help with that?",

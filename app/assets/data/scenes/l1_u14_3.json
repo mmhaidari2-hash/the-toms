@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "warm",
-      "fine"
+      "fine",
+      "warm"
      ],
      "suggestion": "It's warm. It's fine.",
      "suggestionFa": "گرمه. خوبه.",
@@ -31,8 +31,8 @@
     {
      "keywords": [
       "water",
-      "some",
       "cold",
+      "some",
       "add"
      ],
      "suggestion": "It's a bit hot. Add some cold water.",
@@ -61,8 +61,8 @@
     }
    ],
    "cultureNote": {
-    "en": "Test a baby's bath with your elbow — it should feel warm, not hot.",
-    "fa": "آب حمام نوزاد را با آرنج امتحان کنید."
+    "en": "Test a child's bath with your elbow — it should feel warm, not hot.",
+    "fa": "آب حمام بچه را با آرنج امتحان کنید."
    }
   },
   "n2": {
@@ -75,9 +75,9 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "enough",
       "nicola",
+      "that's",
       "stop"
      ],
      "suggestion": "Stop, Nicola! That's enough!",
@@ -129,9 +129,9 @@
   "n3": {
    "id": "n3",
    "speaker": "william",
-   "text": "Bubbles! More bubbles!",
+   "text": "Bubbles! I want more bubbles!",
    "translations": {
-    "fa": "حباب! حباب بیشتر!"
+    "fa": "حباب! حباب بیشتر می‌خوام!"
    },
    "branches": [
     {
@@ -248,15 +248,15 @@
   "n6": {
    "id": "n6",
    "speaker": "william",
-   "text": "Duck! Splash!",
+   "text": "Splash! My duck is swimming!",
    "translations": {
-    "fa": "اردک! شلپ!"
+    "fa": "شلپ! اردکم داره شنا می‌کنه!"
    },
    "branches": [
     {
      "keywords": [
-      "all",
       "wet",
+      "all",
       "oh"
      ],
      "suggestion": "Oh! I'm all wet!",

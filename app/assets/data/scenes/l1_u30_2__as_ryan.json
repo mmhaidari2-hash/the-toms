@@ -23,9 +23,9 @@
      "keywords": [
       "there",
       "many",
-      "says",
-      "pans",
-      "turn"
+      "turn",
+      "wash",
+      "says"
      ],
      "suggestion": "Ugh. Mum says it's my turn to wash up. There are so many pans!",
      "suggestionFa": "اوف. مامان میگه نوبت منه ظرف بشورم. این همه قابلمه!",
@@ -49,8 +49,8 @@
       "tomorrow",
       "cheers",
       "dad's",
-      "want",
-      "turn"
+      "turn",
+      "want"
      ],
      "suggestion": "Cheers, mate. Tomorrow it's Dad's turn. Do you want to wash or dry?",
      "suggestionFa": "دمت گرم رفیق. فردا نوبت باباست. می‌خوای بشوری یا خشک کنی؟",
@@ -99,7 +99,7 @@
       "dishwasher",
       "because",
       "broken",
-      "don't",
+      "cloth",
       "again"
      ],
      "suggestion": "It's just this cloth. Why don't we use the dishwasher? Because it's broken. Again!",
@@ -123,9 +123,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "sink",
       "next",
-      "says"
+      "pass",
+      "sink"
      ],
      "suggestion": "Next week, Mum says. Can you pass the washing-up liquid? It's by the sink.",
      "suggestionFa": "مامان میگه هفتهٔ بعد. می‌تونی مایع ظرفشویی را بدی؟ کنار سینکه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "again",
+      "beans",
       "dirty",
       "burnt",
-      "beans",
-      "ugh"
+      "one"
      ],
      "suggestion": "Yep, that one. Ugh, this pan is so dirty. Dad burnt the beans again!",
      "suggestionFa": "آره، همون. اوف، این قابلمه خیلی کثیفه. بابا دوباره لوبیاها را سوزوند!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "morning",
-      "leave",
+      "problem",
       "dad's",
+      "water",
       "shout"
      ],
      "suggestion": "Good shout. I'll leave it in hot water till morning. Dad's problem now! Ha!",
@@ -199,7 +199,7 @@
       "thanks",
       "quick",
       "done",
-      "was",
+      "two",
       "one"
      ],
      "suggestion": "Done! That was quick with two of us. Thanks, Mehdi. I owe you one.",
@@ -223,9 +223,9 @@
      "keywords": [
       "fancy",
       "maybe",
+      "deal",
       "i'll",
-      "easy",
-      "deal"
+      "game"
      ],
      "suggestion": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
      "suggestionFa": "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.",

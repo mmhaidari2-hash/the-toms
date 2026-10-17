@@ -94,9 +94,9 @@
   "n3": {
    "id": "n3",
    "speaker": "tom",
-   "text": "In the drawer by the fridge. Then put him in the high chair. Careful with his legs.",
+   "text": "In the drawer by the fridge. Then put him on his booster seat. Careful with his legs.",
    "translations": {
-    "fa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بچه. مواظب پاهاش باش."
+    "fa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بلندکنندهٔ بچه. مواظب پاهاش باش."
    },
    "branches": [
     {
@@ -127,8 +127,8 @@
      "fa": "کشو"
     },
     {
-     "word": "high chair",
-     "fa": "صندلی غذای بچه"
+     "word": "booster seat",
+     "fa": "صندلی بلندکنندهٔ بچه"
     },
     {
      "word": "wriggle",
@@ -139,9 +139,9 @@
   "n4": {
    "id": "n4",
    "speaker": "william",
-   "text": "Num num! Num num!",
+   "text": "I'm hungry! Where's my dinner?",
    "translations": {
-    "fa": "نام نام! نام نام!"
+    "fa": "گرسنمه! شامم کجاست؟"
    },
    "branches": [
     {
@@ -283,19 +283,20 @@
   "n7": {
    "id": "n7",
    "speaker": "william",
-   "text": "Bus! Mmm!",
+   "text": "Here comes the bus! Yum!",
    "translations": {
-    "fa": "بوس! ممم!"
+    "fa": "اتوبوس داره میاد! به‌به!"
    },
    "branches": [
     {
      "keywords": [
-      "said",
+      "loves",
+      "game",
       "bus",
       "he"
      ],
-     "suggestion": "He said \"bus\"!",
-     "suggestionFa": "گفت «اتوبوس»!",
+     "suggestion": "He loves the bus game!",
+     "suggestionFa": "عاشق بازی اتوبوسه!",
      "trustDelta": 6,
      "next": "n8",
      "success": true
@@ -323,15 +324,15 @@
   "n8": {
    "id": "n8",
    "speaker": "tom",
-   "text": "He said BUS! Like his dad! Right, then a wipe. His face is orange!",
+   "text": "He loves buses! Like his dad! Right, then a wipe. His face is orange!",
    "translations": {
-    "fa": "گفت اتوبوس! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!"
+    "fa": "عاشق اتوبوسه! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!"
    },
    "branches": [
     {
      "keywords": [
-      "wipe",
       "i'll",
+      "wipe",
       "get"
      ],
      "suggestion": "I'll get a wipe.",
@@ -344,10 +345,10 @@
      "keywords": [
       "orange",
       "he's",
-      "baby"
+      "boy"
      ],
-     "suggestion": "He's an orange baby!",
-     "suggestionFa": "بچهٔ نارنجیه!",
+     "suggestion": "He's an orange boy!",
+     "suggestionFa": "پسر نارنجیه!",
      "trustDelta": 5,
      "next": "n9",
      "success": true
@@ -367,9 +368,9 @@
   "n9": {
    "id": "n9",
    "speaker": "tom",
-   "text": "Brilliant job. You're a natural! Wait till Leslie hears he said \"bus\"!",
+   "text": "Brilliant job. You're a natural! Wait till Leslie sees his clean plate!",
    "translations": {
-    "fa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشنوه گفت «اتوبوس»!"
+    "fa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشقاب تمیزش را ببینه!"
    },
    "branches": [],
    "newWords": []

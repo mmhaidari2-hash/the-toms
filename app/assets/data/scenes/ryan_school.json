@@ -78,8 +78,8 @@
     {
      "keywords": [
       "different",
-      "sir",
-      "bus"
+      "bus",
+      "sir"
      ],
      "suggestion": "Different bus, sir!",
      "suggestionFa": "یه اتوبوس دیگه، آقا!",
@@ -215,9 +215,9 @@
     {
      "keywords": [
       "question",
-      "five",
+      "hard",
       "most",
-      "hard"
+      "five"
      ],
      "suggestion": "Most of it. Question five was hard.",
      "suggestionFa": "بیشترش را. سؤال پنج سخت بود.",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "visiting",
-      "friend",
       "school",
+      "friend",
       "today"
      ],
      "suggestion": "This is my friend. He's visiting school today.",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "next",
-      "can",
       "new",
-      "sit"
+      "sit",
+      "can"
      ],
      "suggestion": "He's new. Can he sit next to me?",
      "suggestionFa": "تازه اومده. می‌تونه کنار من بشینه؟",
@@ -350,10 +350,10 @@
     },
     {
      "keywords": [
-      "just",
       "text",
       "send",
-      "can"
+      "just",
+      "one"
      ],
      "suggestion": "Can I just send one text, sir?",
      "suggestionFa": "می‌تونم فقط یه پیام بفرستم آقا؟",

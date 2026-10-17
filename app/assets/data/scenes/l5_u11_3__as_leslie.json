@@ -50,7 +50,7 @@
       "bother",
       "better",
       "sorry",
-      "hello"
+      "start"
      ],
      "suggestion": "Good idea. You start — you're better at staying calm. Here goes… Hello! Sorry to bother you.",
      "suggestionFa": "فکر خوبیه. تو شروع کن — تو آروم موندن بهتری. شروع شد… سلام! ببخشید مزاحم میشیم.",
@@ -188,9 +188,9 @@
     {
      "keywords": [
       "someone's",
-      "coming",
-      "number",
       "leslie",
+      "number",
+      "coming",
       "hello"
      ],
      "suggestion": "Someone's coming… Oh. Hello. I'm Leslie, from number 12.",
@@ -271,8 +271,8 @@
      "keywords": [
       "barbecue",
       "they've",
-      "they'll",
       "invited",
+      "they'll",
       "eleven"
      ],
      "suggestion": "They've agreed to eleven, and they'll put a rug down. And — they've invited us to a barbecue!",
@@ -346,10 +346,10 @@
     {
      "keywords": [
       "resolution",
-      "promised",
-      "saturday",
+      "honestly",
       "conflict",
-      "barbecue"
+      "barbecue",
+      "promised"
      ],
      "suggestion": "Numbers swapped, rug promised, barbecue Saturday. Honestly, that's the most British conflict resolution I've ever seen. Let's go and sleep!",
      "suggestionFa": "شماره‌ها رد و بدل شد، فرش قول داده شد، باربیکیو شنبه. راستش، این بریتانیایی‌ترین حل اختلافی بود که تا حالا دیدم. بریم بخوابیم!",

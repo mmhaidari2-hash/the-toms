@@ -135,9 +135,9 @@
   "r5": {
    "id": "r5",
    "speaker": "william",
-   "text": "Splat! 🍓",
+   "text": "Uh-oh! The jam fell down! Splat!",
    "translations": {
-    "fa": "شَلَپ! 🍓"
+    "fa": "اوه‌اوه! مربا افتاد! شَلَپ!"
    },
    "branches": [
     {
@@ -174,8 +174,8 @@
     {
      "keywords": [
       "pleeease",
-      "have",
       "mine",
+      "have",
       "jam",
       "can"
      ],
@@ -318,8 +318,8 @@
    "branches": [
     {
      "keywords": [
-      "pleeease",
       "cocktail",
+      "pleeease",
       "crisps",
       "prawn"
      ],
@@ -408,9 +408,9 @@
   "r15": {
    "id": "r15",
    "speaker": "william",
-   "text": "*points at window* Bir-dy!",
+   "text": "Look! A birdy on the window!",
    "translations": {
-    "fa": "*به پنجره اشاره می‌کنه* پرنده!"
+    "fa": "ببین! یه پرنده رو پنجره‌ست!"
    },
    "branches": [
     {
@@ -507,10 +507,10 @@
     {
      "keywords": [
       "promise",
+      "later",
       "thank",
       "pinky",
-      "later",
-      "pick"
+      "will"
      ],
      "suggestion": "Thank you! Will you pick me up later? Pinky promise?",
      "suggestionFa": "مرسی! بعداً میای دنبالم؟ قول انگشتی؟",

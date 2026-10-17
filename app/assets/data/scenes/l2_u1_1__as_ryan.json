@@ -24,8 +24,8 @@
       "morning",
       "night",
       "tired",
-      "look",
-      "last"
+      "last",
+      "look"
      ],
      "suggestion": "Morning. You look tired. What did you do last night?",
      "suggestionFa": "صبح بخیر. خسته به نظر میای. دیشب چی کار کردی؟",
@@ -50,7 +50,7 @@
       "played",
       "enjoy",
       "twice",
-      "till"
+      "same"
      ],
      "suggestion": "Same. I played FIFA till two. Mum shouted at me twice! Did you enjoy your film?",
      "suggestionFa": "منم. تا ساعت دو فیفا بازی کردم. مامان دوبار سرم داد زد! از فیلمت لذت بردی؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "saturday",
-      "minging",
       "cleaned",
-      "garden",
-      "enough"
+      "minging",
+      "enough",
+      "garden"
      ],
      "suggestion": "Fair enough. On Saturday I helped Dad in the garden. We cleaned the shed. It was minging!",
      "suggestionFa": "منصفانه‌ست. شنبه به بابا تو باغچه کمک کردم. انباری را تمیز کردیم. حال‌به‌هم‌زن بود!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "guitar",
-      "really",
       "played",
-      "dad's",
+      "really",
+      "guitar",
+      "means",
       "badly"
      ],
      "suggestion": "It means really dirty. We found Dad's old guitar! He played it for us. Badly.",
@@ -148,9 +148,9 @@
      "keywords": [
       "football",
       "watched",
+      "played",
       "walked",
-      "rained",
-      "played"
+      "rained"
      ],
      "suggestion": "We walked to the park and played football. Then it rained, so we watched telly at his.",
      "suggestionFa": "پیاده رفتیم پارک و فوتبال بازی کردیم. بعد بارون اومد، پس خونه‌اش تلویزیون دیدیم.",

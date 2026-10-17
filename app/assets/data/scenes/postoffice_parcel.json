@@ -34,8 +34,8 @@
      "keywords": [
       "stamps",
       "could",
-      "some",
-      "have"
+      "have",
+      "some"
      ],
      "suggestion": "Could I have some stamps, please?",
      "suggestionFa": "می‌شه چند تا تمبر بگیرم، لطفاً؟",
@@ -111,8 +111,8 @@
     {
      "keywords": [
       "clothes",
-      "some",
-      "book"
+      "book",
+      "some"
      ],
      "suggestion": "Some clothes and a book.",
      "suggestionFa": "چند تا لباس و یه کتاب.",
@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
-      "there's",
-      "perfume",
       "problem",
+      "perfume",
+      "there's",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "cost",
-      "will",
       "much",
+      "will",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "price",
-      "heavy"
+      "heavy",
+      "price"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
-      "need",
       "done",
-      "else"
+      "else",
+      "need"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "number",
-      "please"
+      "please",
+      "number"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",
@@ -421,8 +421,8 @@
     {
      "keywords": [
       "instead",
-      "could",
-      "email"
+      "email",
+      "could"
      ],
      "suggestion": "Could you email it to me instead?",
      "suggestionFa": "می‌شه به جاش ایمیلش کنید؟",

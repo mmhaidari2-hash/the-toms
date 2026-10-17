@@ -23,9 +23,9 @@
      "keywords": [
       "tonight",
       "charge",
-      "table",
       "mummy",
-      "says"
+      "table",
+      "will"
      ],
      "suggestion": "Mummy says I'm in charge of the table tonight! Will you help me?",
      "suggestionFa": "مامان میگه امشب مسئول میز منم! کمکم می‌کنی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cupboard",
-      "spoons",
-      "knives",
       "plates",
-      "reach"
+      "knives",
+      "spoons",
+      "forks"
      ],
      "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
      "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
@@ -99,8 +99,8 @@
       "william",
       "special",
       "mummy",
-      "next",
-      "bowl"
+      "duck",
+      "next"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
      "suggestionFa": "ویلیام کاسهٔ مخصوص خودش را داره! روش یه اردکه. کنار مامان میره.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "taught",
-      "knife",
       "ellis",
+      "knife",
       "right",
       "left"
      ],
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "glasses",
-      "water",
       "heavy",
+      "water",
       "pour",
       "now"
      ],
@@ -174,8 +174,8 @@
       "triangles",
       "napkins",
       "folded",
-      "like",
-      "them"
+      "them",
+      "like"
      ],
      "suggestion": "And napkins! I folded them like triangles. Do you like them?",
      "suggestionFa": "و دستمال سفره! مثل مثلث تاشون کردم. دوستشون داری؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "everybody",
       "table's",
-      "ready",
       "mummy",
+      "ready",
       "time"
      ],
      "suggestion": "MUMMY! The table's ready! Tea time! Everybody sit down!",
