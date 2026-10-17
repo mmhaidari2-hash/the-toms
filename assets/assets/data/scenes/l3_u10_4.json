@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "fast",
       "feel",
       "home",
-      "fast",
       "gone"
      ],
      "suggestion": "It's gone so fast. I feel at home now.",
@@ -76,7 +76,7 @@
       "definitely",
       "weather",
       "never",
-      "rain"
+      "seen"
      ],
      "suggestion": "Definitely the weather. I've never seen so much rain!",
      "suggestionFa": "قطعاً هوا. هیچ‌وقت این‌قدر بارون ندیده بودم!",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "umbrella",
-      "better",
       "myself",
+      "better",
       "tell"
      ],
      "suggestion": "I'd tell myself to buy a better umbrella!",
@@ -198,9 +198,9 @@
     },
     {
      "keywords": [
-      "love",
       "sure",
-      "but",
+      "love",
+      "yet",
       "i'd"
      ],
      "suggestion": "I'm not sure yet, but I'd love to.",
@@ -236,9 +236,9 @@
     {
      "keywords": [
       "anywhere",
-      "don't",
+      "worry",
       "going",
-      "worry"
+      "don't"
      ],
      "suggestion": "Don't worry, Al. I'm not going anywhere.",
      "suggestionFa": "نگران نباش ال. هیچ‌جا نمی‌رم.",

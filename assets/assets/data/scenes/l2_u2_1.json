@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "how",
-      "get"
+      "get",
+      "how"
      ],
      "suggestion": "Excuse me, how do I get to the post office?",
      "suggestionFa": "ببخشید، چطوری برم اداره پست؟",
@@ -71,8 +71,8 @@
      "keywords": [
       "straight",
       "bakery",
-      "then",
-      "past"
+      "past",
+      "then"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
      "suggestionFa": "مستقیم، رد شدن از نونوایی، بعد چپ.",
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "road",
       "left",
+      "road",
       "end"
      ],
      "suggestion": "It's at the end of this road, on the left.",
@@ -276,8 +276,8 @@
    "branches": [
     {
      "keywords": [
-      "sorry",
       "round",
+      "sorry",
       "here",
       "from"
      ],
@@ -290,8 +290,8 @@
     {
      "keywords": [
       "phrase",
-      "useful",
       "that's",
+      "useful",
       "thanks"
      ],
      "suggestion": "That's a useful phrase. Thanks!",

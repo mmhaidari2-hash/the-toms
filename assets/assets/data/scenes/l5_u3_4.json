@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "stairs",
       "apples",
-      "isn't",
-      "heard"
+      "stairs",
+      "heard",
+      "pears"
      ],
      "suggestion": "I've heard of that! Isn't \"apples and pears\" stairs?",
      "suggestionFa": "دربارهٔ اون شنیدم! «سیب و گلابی» یعنی پله‌ها، نه؟",
@@ -95,8 +95,8 @@
     {
      "keywords": [
       "phrase",
-      "don't",
       "you'd",
+      "don't",
       "full"
      ],
      "suggestion": "So if you don't know the full phrase, you'd have no idea!",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "butcher's",
-      "look",
-      "have"
+      "have",
+      "look"
      ],
      "suggestion": "\"Have a butcher's at this\" — have a look at this?",
      "suggestionFa": "«یه قصابی به این بنداز» — یعنی یه نگاه به این بنداز؟",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "secret",
-      "like",
       "code",
+      "like",
       "was"
      ],
      "suggestion": "So it was like a secret code.",
@@ -185,9 +185,9 @@
     {
      "keywords": [
       "porkies",
-      "arthur",
       "honest",
-      "never"
+      "arthur",
+      "would"
      ],
      "suggestion": "I would never tell porkies, Arthur. Honest!",
      "suggestionFa": "من هیچ‌وقت پورکی نمی‌گم آرتور. راست می‌گم!",
@@ -198,8 +198,8 @@
     {
      "keywords": [
       "he'll",
-      "love",
       "i'll",
+      "love",
       "have"
      ],
      "suggestion": "I'll have to tell Tom. He'll love this.",

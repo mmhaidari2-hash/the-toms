@@ -22,9 +22,9 @@
     {
      "keywords": [
       "boiler's",
-      "stopped",
       "working",
       "heating",
+      "stopped",
       "again"
      ],
      "suggestion": "Bad news — the boiler's stopped working again. No hot water, no heating.",
@@ -50,7 +50,7 @@
       "plumber",
       "looked",
       "going",
-      "have"
+      "safe"
      ],
      "suggestion": "I'm an engineer, not a plumber! I'm going to have it looked at by a Gas Safe engineer. It's the law.",
      "suggestionFa": "من مهندسم، نه لوله‌کش! می‌خوام بدم یه متخصص Gas Safe نگاهش کنه. قانونه.",
@@ -98,8 +98,8 @@
      "keywords": [
       "radiators",
       "please",
+      "going",
       "makes",
-      "noise",
       "while"
      ],
      "suggestion": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
@@ -124,8 +124,8 @@
       "properly",
       "checked",
       "remind",
-      "heats",
-      "smoke"
+      "smoke",
+      "alarm"
      ],
      "suggestion": "You let the air out, so it heats properly. Easy. Oh — and remind me to get the smoke alarm checked too.",
      "suggestionFa": "هوا را خالی می‌کنی، تا درست گرم کنه. آسونه. آه — و یادم بنداز آژیر دود را هم بدم چک کنن.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "shower",
       "kettle",
       "cheers",
-      "can't",
+      "shower",
+      "going",
       "least"
      ],
      "suggestion": "Cheers. Right — I'm going to put the kettle on. If we can't have a shower, at least we can have a brew!",

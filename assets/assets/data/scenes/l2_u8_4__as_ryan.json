@@ -23,8 +23,8 @@
      "keywords": [
       "downstairs",
       "calling",
-      "come",
-      "busy",
+      "from",
+      "lazy",
       "room"
      ],
      "suggestion": "Hey, it's me. Are you busy? I'm calling from my room — too lazy to come downstairs!",
@@ -48,8 +48,8 @@
      "keywords": [
       "saturday",
       "cinema",
-      "doing",
       "going",
+      "doing",
       "jake"
      ],
      "suggestion": "What are you doing on Saturday? Me and Jake are going to the cinema. Want to come?",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "superhero",
-      "meeting",
       "station",
+      "meeting",
       "we're",
       "film"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "picking",
+      "getting",
       "jake's",
       "we're",
       "town"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "obviously",
-      "nando's",
-      "tickets",
       "booking",
+      "tickets",
+      "nando's",
       "don't"
      ],
      "suggestion": "Nando's, obviously! OK, I'm booking the tickets now. Don't tell Mum it's a 15!",

@@ -75,7 +75,7 @@
       "thermostat",
       "maybe",
       "could",
-      "turn"
+      "down"
      ],
      "suggestion": "Maybe we could turn the thermostat down a bit.",
      "suggestionFa": "شاید بتونیم ترموستات را یه کم پایین بیاریم.",
@@ -85,8 +85,8 @@
     },
     {
      "keywords": [
-      "shorter",
       "showers",
+      "shorter",
       "i'll",
       "have"
      ],
@@ -128,8 +128,8 @@
      "keywords": [
       "times",
       "could",
-      "cook",
-      "week"
+      "week",
+      "cook"
      ],
      "suggestion": "I could cook a few times a week.",
      "suggestionFa": "می‌تونم هفته‌ای چند بار آشپزی کنم.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "spend",
-      "food",
       "much",
+      "food",
       "how"
      ],
      "suggestion": "How much do we spend on food?",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "help",
+      "like",
       "more",
-      "rent",
-      "like"
+      "rent"
      ],
      "suggestion": "I'd like to pay a bit more rent to help.",
      "suggestionFa": "دوست دارم یه کم اجارهٔ بیشتری بدم کمک کنم.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "next",
-      "plan",
+      "week",
       "i'll",
-      "meal"
+      "meal",
+      "next"
      ],
      "suggestion": "Deal. I'll make a meal plan for next week.",
      "suggestionFa": "قبول. برای هفتهٔ بعد برنامهٔ غذایی می‌نویسم.",

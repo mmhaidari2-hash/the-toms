@@ -33,8 +33,8 @@
     {
      "keywords": [
       "presentation",
-      "sure",
       "long",
+      "sure",
       "how"
      ],
      "suggestion": "Sure. How long is your presentation?",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "slowly",
       "though",
-      "great",
-      "speak"
+      "slowly",
+      "start",
+      "great"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
      "suggestionFa": "شروع عالی. ولی یه کم آهسته‌تر حرف بزن.",
@@ -93,7 +93,7 @@
       "explain",
       "good",
       "made",
-      "now"
+      "why"
      ],
      "suggestion": "Good. Now explain why you made it.",
      "suggestionFa": "خوبه. حالا توضیح بده چرا ساختیش.",
@@ -144,8 +144,8 @@
     },
     {
      "keywords": [
-      "charge",
       "number",
+      "charge",
       "maybe",
       "give"
      ],
@@ -204,8 +204,8 @@
      "keywords": [
       "finish",
       "going",
-      "now",
-      "how"
+      "how",
+      "now"
      ],
      "suggestion": "Now, how are you going to finish?",
      "suggestionFa": "حالا، چطوری می‌خوای تمومش کنی؟",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "you'll",
       "really",
+      "you'll",
       "great",
       "good"
      ],

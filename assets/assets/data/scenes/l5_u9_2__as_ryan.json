@@ -1,0 +1,150 @@
+{
+ "id": "l5_u9_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Arguing with a teenager",
+ "titleFa": "(در نقش Ryan) بحث با یک نوجوان",
+ "setting": "The art of argument · Level 5",
+ "settingFa": "هنر استدلال",
+ "requires": null,
+ "level": "C1",
+ "baseId": "l5_u9_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "millions",
+      "content",
+      "youtube",
+      "creator",
+      "decided"
+     ],
+     "suggestion": "I've decided I'm not going to uni. I'm going to be a content creator. Loads of people make millions from YouTube. Why waste three years?",
+     "suggestionFa": "تصمیم گرفتم دانشگاه نرم. می‌خوام تولیدکنندهٔ محتوا بشم. کلی آدم از یوتیوب میلیون‌ها درمیارن. چرا سه سال هدر بدم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I hear you. What kind of content would you make?",
+   "translations": {
+    "fa": "می‌فهمم. چه نوع محتوایی درست می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineering",
+      "obviously",
+      "followers",
+      "building",
+      "thousand"
+     ],
+     "suggestion": "Engineering videos, obviously! Building stuff. I've already got two thousand followers. Uni is just debt.",
+     "suggestionFa": "ویدیوهای مهندسی، معلومه! ساختن چیزها. همین الان دو هزار دنبال‌کننده دارم. دانشگاه فقط بدهیه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Two thousand is impressive. But most creators earn very little.",
+   "translations": {
+    "fa": "دو هزار چشمگیره. ولی بیشتر تولیدکننده‌ها خیلی کم درآمد دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whatever",
+      "exactly",
+      "nobody",
+      "sound",
+      "gets"
+     ],
+     "suggestion": "Whatever. You sound exactly like Mum. Nobody gets it.",
+     "suggestionFa": "هر چی. دقیقاً مثل مامان حرف می‌زنی. هیچ‌کس نمی‌فهمه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I'm not trying to lecture you. I genuinely want to understand.",
+   "translations": {
+    "fa": "سعی نمی‌کنم موعظه‌ات کنم. واقعاً می‌خوام بفهمم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineering",
+      "actually",
+      "student",
+      "that's",
+      "study"
+     ],
+     "suggestion": "Both? Like… study engineering and film it? \"A year as an engineering student.\" Actually… that's not a bad idea.",
+     "suggestionFa": "هر دو؟ مثلاً… مهندسی بخونم و فیلمش را بگیرم؟ «یک سال به عنوان دانشجوی مهندسی.» راستش… فکر بدی نیست.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Your degree gives you the content, and the channel builds your profile.",
+   "translations": {
+    "fa": "مدرکت محتوا بهت می‌ده، و کانال اعتبارت را می‌سازه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "talked",
+      "round",
+      "don't",
+      "think",
+      "idea"
+     ],
+     "suggestion": "OK, OK. Don't tell Mum you talked me round. Let her think it was my idea. Deal?",
+     "suggestionFa": "باشه، باشه. به مامان نگو تو راضیم کردی. بذار فکر کنه ایدهٔ خودم بود. قبول؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

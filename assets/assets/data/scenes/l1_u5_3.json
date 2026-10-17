@@ -153,8 +153,8 @@
    "branches": [
     {
      "keywords": [
-      "check",
       "water",
+      "check",
       "let"
      ],
      "suggestion": "Let me check the water.",
@@ -263,10 +263,10 @@
     },
     {
      "keywords": [
-      "soap",
       "only",
-      "can",
-      "see"
+      "soap",
+      "see",
+      "can"
      ],
      "suggestion": "I can only see the soap.",
      "suggestionFa": "فقط صابون را می‌بینم.",
@@ -296,8 +296,8 @@
    "branches": [
     {
      "keywords": [
-      "he's",
       "good",
+      "he's",
       "bath"
      ],
      "suggestion": "He's very good in the bath.",
@@ -311,7 +311,7 @@
       "that's",
       "every",
       "night",
-      "work"
+      "hard"
      ],
      "suggestion": "Every night? That's hard work!",
      "suggestionFa": "هر شب؟ کار سختیه!",

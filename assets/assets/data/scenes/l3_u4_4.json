@@ -21,8 +21,8 @@
      "keywords": [
       "understand",
       "don't",
-      "from",
-      "hmrc"
+      "hmrc",
+      "from"
      ],
      "suggestion": "It's from HMRC. I don't understand all of it.",
      "suggestionFa": "از HMRC ـه. همه‌ش را نمی‌فهمم.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "return",
+      "what's",
       "tax"
      ],
      "suggestion": "What's a tax return?",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "fine",
       "much",
+      "fine",
       "how"
      ],
      "suggestion": "How much is the fine?",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "don't",
-      "just",
       "they",
+      "just",
       "why"
      ],
      "suggestion": "Why don't they just say that?",

@@ -35,7 +35,7 @@
       "questions",
       "depends",
       "follow",
-      "ask"
+      "did"
      ],
      "suggestion": "It depends. Did she ask any follow-up questions?",
      "suggestionFa": "بستگی داره. سؤال بعدی هم پرسید؟",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "clincher",
       "changing",
+      "clincher",
       "subject",
       "afraid"
      ],
@@ -190,8 +190,8 @@
     },
     {
      "keywords": [
-      "solving",
       "problem",
+      "solving",
       "frame",
       "yours"
      ],

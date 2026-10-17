@@ -22,7 +22,7 @@
       "starting",
       "company",
       "tom's",
-      "own"
+      "his"
      ],
      "suggestion": "Yes, Tom's starting his own company.",
      "suggestionFa": "بله، تام داره شرکت خودش را راه می‌ندازه.",
@@ -110,7 +110,7 @@
       "thousand",
       "pounds",
       "month",
-      "first"
+      "about"
      ],
      "suggestion": "About five thousand pounds a month at first.",
      "suggestionFa": "اول حدود ماهی پنج هزار پوند.",
@@ -163,7 +163,7 @@
       "transfer",
       "clients",
       "hardly",
-      "most"
+      "bank"
      ],
      "suggestion": "Hardly ever. Most clients pay by bank transfer.",
      "suggestionFa": "تقریباً هیچ‌وقت. بیشتر مشتری‌ها با انتقال بانکی پرداخت می‌کنن.",
@@ -173,8 +173,8 @@
     },
     {
      "keywords": [
-      "month",
       "maybe",
+      "month",
       "once"
      ],
      "suggestion": "Maybe once a month.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "documents",
+      "week",
       "last",
-      "here",
-      "week"
+      "here"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",

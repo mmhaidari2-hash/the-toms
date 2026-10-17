@@ -48,8 +48,8 @@
      "keywords": [
       "support",
       "chelsea",
-      "don't",
       "d'you",
+      "don't",
       "then"
      ],
      "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "calling",
       "rematch",
+      "calling",
       "dinner",
-      "mum's",
-      "later"
+      "later",
+      "mum's"
      ],
      "suggestion": "GOAL! Get in! That was well good. Mum's calling — dinner. Rematch later, yeah?",
      "suggestionFa": "گل! ایول! خیلی خوب بود. مامان صدامون می‌کنه — شام. بعداً دوباره بازی کنیم، باشه؟",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "actually",
+      "wanna",
       "again",
       "three",
-      "wanna",
-      "best"
+      "mate"
      ],
      "suggestion": "Mate, you're actually not bad. Wanna go again? Best of three.",
      "suggestionFa": "رفیق، واقعاً بد نیستی. یه دست دیگه؟ دو از سه.",
@@ -124,7 +124,7 @@
       "controller",
       "cheers",
       "footy",
-      "pass",
+      "home",
       "play"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
@@ -149,7 +149,7 @@
       "support",
       "friends",
       "united",
-      "don't",
+      "d'you",
       "can't"
      ],
      "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "liverpool",
       "obviously",
-      "tomorrow",
+      "liverpool",
       "bricking",
+      "tomorrow",
       "anyway"
      ],
      "suggestion": "Liverpool, obviously. Dad's lot. Anyway — I've got a maths test tomorrow and I'm bricking it.",
@@ -198,8 +198,8 @@
      "keywords": [
       "algebra",
       "legend",
-      "don't",
       "would",
+      "don't",
       "just"
      ],
      "suggestion": "Would you? Legend. It's algebra — I just don't get what x is for.",

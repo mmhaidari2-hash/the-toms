@@ -32,8 +32,8 @@
     {
      "keywords": [
       "terrible",
-      "cold",
       "i've",
+      "cold",
       "got"
      ],
      "suggestion": "Yes, I've got a terrible cold.",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "work",
       "need",
+      "work",
       "but",
       "go"
      ],
@@ -87,8 +87,8 @@
      "keywords": [
       "inside",
       "today",
-      "stay",
-      "i'll"
+      "i'll",
+      "stay"
      ],
      "suggestion": "OK, I'll stay inside today.",
      "suggestionFa": "باشه، امروز توی خونه می‌مونم.",
@@ -124,8 +124,8 @@
      "keywords": [
       "ginger",
       "drink",
-      "hot",
-      "tea"
+      "tea",
+      "hot"
      ],
      "suggestion": "We drink hot tea with ginger.",
      "suggestionFa": "چای داغ با زنجبیل می‌خوریم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "garlic",
-      "lots",
       "soup",
+      "lots",
       "eat"
      ],
      "suggestion": "We eat soup too, with lots of garlic!",
@@ -218,8 +218,8 @@
      "keywords": [
       "advice",
       "thank",
-      "nana",
-      "good"
+      "good",
+      "nana"
      ],
      "suggestion": "Good advice. Thank you, Nana.",
      "suggestionFa": "توصیهٔ خوبیه. ممنون نانا.",

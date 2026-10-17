@@ -25,7 +25,7 @@
       "reader",
       "headed",
       "where",
-      "card"
+      "mate"
      ],
      "suggestion": "Alright? Tap your card on the reader, mate. Where you headed?",
      "suggestionFa": "چطوری؟ کارتت را روی دستگاه بزن رفیق. کجا می‌ری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "roadworks",
       "upstairs",
-      "minutes",
       "running",
+      "minutes",
       "there's"
      ],
      "suggestion": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "here's",
-      "yellow",
       "reader",
+      "yellow",
+      "here's",
       "thing",
       "card"
      ],
@@ -99,8 +99,8 @@
       "upstairs",
       "let's",
       "front",
-      "town",
-      "best"
+      "view",
+      "from"
      ],
      "suggestion": "Beep — you're in. Let's go upstairs, best view in town from the front seat.",
      "suggestionFa": "بیپ — رفتی تو. بریم طبقهٔ بالا، بهترین منظرهٔ شهر از صندلی جلو.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "wasn't",
-      "gutted",
       "leslie",
-      "don't",
-      "there"
+      "gutted",
+      "there",
+      "first"
      ],
      "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
      "suggestionFa": "خیلی ناراحت. اولین قرارم اونجا بود. به لزلی نگو که با اون نبود!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "driver",
+      "cheers",
       "that's",
       "would",
       "press"
@@ -198,9 +198,9 @@
      "keywords": [
       "quicker",
       "angel",
+      "tube",
       "tell",
-      "mind",
-      "tube"
+      "mind"
      ],
      "suggestion": "Tell you what — hop off at Angel and get the Tube, it's quicker. Mind the gap!",
      "suggestionFa": "ببین — توی ایستگاه انجل پیاده شو و مترو بگیر، سریع‌تره. مراقب فاصله باش!",
