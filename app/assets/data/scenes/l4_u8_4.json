@@ -22,7 +22,7 @@
       "scientists",
       "published",
       "where",
-      "know"
+      "want"
      ],
      "suggestion": "I'd want to know which scientists and where it was published.",
      "suggestionFa": "می‌خوام بدونم کدوم دانشمندان و کجا منتشر شده.",
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "then"
+      "real"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "just",
-      "look"
+      "clip",
+      "just"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "share",
       "pause",
+      "share",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

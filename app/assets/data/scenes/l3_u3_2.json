@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "months",
       "twelve",
+      "months",
       "after",
       "only"
      ],
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "doesn't",
       "depends",
+      "doesn't",
       "country",
       "count"
      ],
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "questions",
-      "hazard",
       "answer",
+      "hazard",
       "fifty"
      ],
      "suggestion": "You have to answer fifty questions and do a hazard test.",
@@ -178,8 +178,8 @@
      "keywords": [
       "automatic",
       "manual",
-      "can't",
-      "drive"
+      "drive",
+      "can't"
      ],
      "suggestion": "If you pass in an automatic, you can't drive a manual.",
      "suggestionFa": "اگه با اتومات قبول بشی، نمی‌تونی دنده‌ای برونی.",

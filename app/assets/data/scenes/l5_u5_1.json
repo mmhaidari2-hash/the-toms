@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "okafor",
-   "text": "Thank you for coming in with William. I wanted to talk to you both about his test results. Please, take a seat.",
+   "text": "Thank you for coming in with George. I wanted to talk to you both about his test results. Please, take a seat.",
    "translations": {
-    "fa": "ممنون که با ویلیام اومدید. می‌خواستم با هر دوتون دربارهٔ نتایج آزمایشش صحبت کنم. لطفاً بنشینید."
+    "fa": "ممنون که با جورج اومدید. می‌خواستم با هر دوتون دربارهٔ نتایج آزمایشش صحبت کنم. لطفاً بنشینید."
    },
    "branches": [
     {
@@ -34,8 +34,8 @@
      "keywords": [
       "couldn't",
       "leslie",
-      "here",
-      "said"
+      "said",
+      "here"
      ],
      "suggestion": "Leslie couldn't come, so I said I'd be here for him.",
      "suggestionFa": "لزلی نتونست بیاد، پس گفتم کنارش باشم.",
@@ -139,12 +139,12 @@
     {
      "keywords": [
       "questions",
-      "william",
+      "george",
       "have",
       "any"
      ],
-     "suggestion": "William, are you OK? Do you have any questions?",
-     "suggestionFa": "ویلیام، خوبید؟ سؤالی دارید؟",
+     "suggestion": "George, are you OK? Do you have any questions?",
+     "suggestionFa": "جورج، خوبید؟ سؤالی دارید؟",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -167,7 +167,7 @@
   },
   "n4": {
    "id": "n4",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Can I still walk?",
    "translations": {
     "fa": "هنوز می‌تونم راه برم؟"
@@ -178,7 +178,7 @@
       "matters",
       "that's",
       "walks",
-      "most"
+      "park"
      ],
      "suggestion": "That's what matters most to him — his walks to the park.",
      "suggestionFa": "این برای اون از همه مهم‌تره — پیاده‌روی‌هاش تا پارک.",
@@ -189,9 +189,9 @@
     {
      "keywords": [
       "independence",
+      "will",
       "able",
-      "keep",
-      "will"
+      "keep"
      ],
      "suggestion": "Will he be able to keep his independence?",
      "suggestionFa": "می‌تونه استقلالش را حفظ کنه؟",
@@ -214,9 +214,9 @@
   "n5": {
    "id": "n5",
    "speaker": "okafor",
-   "text": "Absolutely — gentle exercise is actually good for you, William. We'll refer you to a heart failure nurse, and I'll write everything down. Take it one day at a time.",
+   "text": "Absolutely — gentle exercise is actually good for you, George. We'll refer you to a heart failure nurse, and I'll write everything down. Take it one day at a time.",
    "translations": {
-    "fa": "قطعاً — ورزش ملایم در واقع براتون خوبه، ویلیام. شما را به یه پرستار نارسایی قلبی ارجاع می‌دیم، و همه چیز را می‌نویسم. یه روز در میون پیش برید."
+    "fa": "قطعاً — ورزش ملایم در واقع براتون خوبه، جورج. شما را به یه پرستار نارسایی قلبی ارجاع می‌دیم، و همه چیز را می‌نویسم. یه روز در میون پیش برید."
    },
    "branches": [],
    "newWords": []

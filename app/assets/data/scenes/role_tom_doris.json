@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "thanks",
+      "cheers",
       "knees",
       "she's"
      ],
@@ -82,7 +82,7 @@
       "doctor",
       "about",
       "been",
-      "have"
+      "them"
      ],
      "suggestion": "Have you been to the doctor about them?",
      "suggestionFa": "برای زانوهات دکتر رفتی؟",
@@ -117,8 +117,8 @@
     {
      "keywords": [
       "don't",
-      "leave",
       "doris",
+      "leave",
       "long"
      ],
      "suggestion": "Don't leave it too long, Doris.",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
-      "move",
+      "will",
       "sure",
-      "will"
+      "move"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -261,10 +261,10 @@
    "branches": [
     {
      "keywords": [
-      "exams",
       "glued",
-      "well",
-      "went"
+      "exams",
+      "went",
+      "well"
      ],
      "suggestion": "Glued to it. But his exams went well.",
      "suggestionFa": "چسبیده. ولی امتحاناش خوب بود.",
@@ -324,7 +324,7 @@
       "thanks",
       "second",
       "doris",
-      "eyes"
+      "pair"
      ],
      "suggestion": "Thanks, Doris. You're my second pair of eyes.",
      "suggestionFa": "ممنون دوریس. جفت چشم دوم منی.",
@@ -356,20 +356,20 @@
   "n8": {
    "id": "n8",
    "speaker": "doris",
-   "text": "Your dad drove this route, didn't he? He'd be ever so proud.",
+   "text": "Your dad drove this route, didn't he? How's George keeping? He must be ever so proud.",
    "translations": {
-    "fa": "بابات این مسیر را می‌روند، نه؟ خیلی بهت افتخار می‌کرد."
+    "fa": "بابات این مسیر را می‌روند، نه؟ جورج چطوره؟ حتماً خیلی بهت افتخار می‌کنه."
    },
    "branches": [
     {
      "keywords": [
-      "would",
-      "route",
-      "loved",
-      "old"
+      "slowing",
+      "still",
+      "about",
+      "route"
      ],
-     "suggestion": "He would. He loved this old route.",
-     "suggestionFa": "حتماً. عاشق این مسیر قدیمی بود.",
+     "suggestion": "He's slowing down, but he still asks about this old route.",
+     "suggestionFa": "داره کند میشه، ولی هنوز سراغ این مسیر قدیمی را می‌گیره.",
      "trustDelta": 7,
      "next": "n9",
      "success": true
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "thanks",
-      "doris",
       "means",
+      "doris",
       "lot"
      ],
      "suggestion": "Thanks, Doris. That means a lot.",

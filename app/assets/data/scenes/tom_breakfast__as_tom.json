@@ -50,7 +50,7 @@
       "sugars",
       "strong",
       "sugar",
-      "milk"
+      "take"
      ],
      "suggestion": "Milk and sugar? I take mine builder's — strong, two sugars.",
      "suggestionFa": "شیر و شکر؟ من مال خودم را «بیلدرز» می‌خورم — پررنگ، با دو قند.",
@@ -73,9 +73,9 @@
      "keywords": [
       "what're",
       "itself",
-      "today",
+      "won't",
       "right",
-      "won't"
+      "drive"
      ],
      "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "marmite's",
-      "warning",
       "marmite",
+      "warning",
       "toast's",
       "butter"
      ],
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "alright",
-      "sorry",
-      "lorry",
       "brave",
-      "sleep"
+      "sleep",
+      "lorry",
+      "sorry"
      ],
      "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
      "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
@@ -172,9 +172,9 @@
      "keywords": [
       "forecast",
       "britain",
-      "spells",
       "brolly",
-      "sunny"
+      "spells",
+      "means"
      ],
      "suggestion": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
      "suggestionFa": "چتر ببر. پیش‌بینی می‌گه آفتابِ گاه‌به‌گاه، که در بریتانیا یعنی «بارون سرت می‌باره».",
@@ -198,7 +198,7 @@
       "passing",
       "there's",
       "course",
-      "tesco",
+      "spare",
       "could"
      ],
      "suggestion": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
@@ -222,8 +222,8 @@
      "keywords": [
       "tonight",
       "skimmed",
-      "pints",
       "right",
+      "pints",
       "star"
      ],
      "suggestion": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
@@ -247,8 +247,8 @@
      "keywords": [
       "biscuit",
       "don't",
+      "have",
       "last",
-      "nick",
       "ryan"
      ],
      "suggestion": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",

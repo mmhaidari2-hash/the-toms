@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "what's",
+      "nicola",
       "name",
       "hiya"
      ],
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "always",
-      "there",
       "mummy",
-      "here",
+      "there",
+      "says",
       "cold"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "teacher",
-      "name's",
       "leslie",
       "that's",
+      "name's",
       "she's"
      ],
      "suggestion": "Look, that's my mum. Her name's Leslie. She's a teacher.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -252,8 +252,8 @@
       "friend",
       "later",
       "good",
-      "now",
-      "see"
+      "bye",
+      "now"
      ],
      "suggestion": "Good! You're my friend now. Bye-bye, see you later!",
      "suggestionFa": "خوبه! حالا تو دوست منی. بای‌بای، بعداً می‌بینمت!",

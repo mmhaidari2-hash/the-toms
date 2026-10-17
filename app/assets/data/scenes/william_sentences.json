@@ -133,8 +133,8 @@
     },
     {
      "keywords": [
-      "home",
       "will",
+      "home",
       "tea"
      ],
      "suggestion": "Daddy will be home for tea.",
@@ -168,8 +168,8 @@
      "keywords": [
       "double",
       "that's",
-      "floors",
-      "decker"
+      "decker",
+      "floors"
      ],
      "suggestion": "That's a double-decker. Two floors!",
      "suggestionFa": "اون دوطبقه‌ست. دو طبقه!",
@@ -179,9 +179,9 @@
     },
     {
      "keywords": [
-      "count",
+      "buses",
       "let's",
-      "buses"
+      "count"
      ],
      "suggestion": "Let's count the buses.",
      "suggestionFa": "بیا اتوبوس‌ها را بشمریم.",
@@ -232,8 +232,8 @@
     {
      "keywords": [
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three! Three buses!",
      "suggestionFa": "یک، دو، سه! سه تا اتوبوس!",
@@ -321,8 +321,8 @@
      "keywords": [
       "bigger",
       "when",
-      "day",
-      "one"
+      "one",
+      "day"
      ],
      "suggestion": "One day, when you're bigger!",
      "suggestionFa": "یه روز، وقتی بزرگ‌تر شدی!",
@@ -369,8 +369,8 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "driver",
+      "you'll",
       "great",
       "bus"
      ],
@@ -384,8 +384,8 @@
      "keywords": [
       "grandad",
       "daddy",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "Just like Daddy and Grandad!",
      "suggestionFa": "درست مثل بابا و پدربزرگ!",

@@ -1,6 +1,6 @@
 {
  "id": "l3_u9_4__as_leslie",
- "characterId": "william",
+ "characterId": "leslie",
  "title": "(As Leslie) Remembrance Sunday",
  "titleFa": "(در نقش Leslie) یکشنبهٔ یادبود",
  "setting": "Traditions · Level 3",
@@ -24,11 +24,11 @@
       "remembrance",
       "wearing",
       "sunday",
-      "today",
+      "george",
       "about"
      ],
-     "suggestion": "Dad's wearing his poppy today. It's Remembrance Sunday. Do you know about it?",
-     "suggestionFa": "بابا امروز گل شقایقش را زده. یکشنبهٔ یادبوده. دربارهٔ اون می‌دونی؟",
+     "suggestion": "George is wearing his poppy today. It's Remembrance Sunday. Do you know about it?",
+     "suggestionFa": "جورج امروز گل شقایقش را زده. یکشنبهٔ یادبوده. دربارهٔ اون می‌دونی؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -50,7 +50,7 @@
       "remember",
       "poppies",
       "people",
-      "after"
+      "first"
      ],
      "suggestion": "To remember people who died in wars. Poppies grew on the battlefields after the First World War.",
      "suggestionFa": "برای یاد کسانی که تو جنگ‌ها مُردن. بعد از جنگ جهانی اول گل‌های شقایق تو میدان‌های جنگ رویید.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -85,7 +85,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "william",
+   "speaker": "george",
    "text": "My father. Royal Navy.",
    "translations": {
     "fa": "پدرم. نیروی دریایی سلطنتی."
@@ -131,11 +131,11 @@
       "generation",
       "service",
       "talked",
-      "always",
-      "didn't"
+      "didn't",
+      "always"
      ],
-     "suggestion": "He never talked about it, did he, Dad? A lot of men from that generation didn't. But he would always go to the service every year.",
-     "suggestionFa": "هیچ‌وقت دربارهٔ اون حرف نمی‌زد، نه بابا؟ خیلی از مردهای اون نسل حرف نمی‌زدن. ولی همیشه هر سال به مراسم می‌رفت.",
+     "suggestion": "He never talked about it, did he, George? A lot of men from that generation didn't. But he would always go to the service every year.",
+     "suggestionFa": "هیچ‌وقت دربارهٔ اون حرف نمی‌زد، نه جورج؟ خیلی از مردهای اون نسل حرف نمی‌زدن. ولی همیشه هر سال به مراسم می‌رفت.",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -166,7 +166,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Every year. Will you come?",
    "translations": {
     "fa": "هر سال. میای؟"
@@ -202,9 +202,9 @@
      "keywords": [
       "memorial",
       "always",
+      "means",
       "we'll",
-      "leave",
-      "means"
+      "leave"
      ],
      "suggestion": "That means a lot to him. We'll leave at half ten. Wrap up warm — it's always cold at the memorial.",
      "suggestionFa": "این براش خیلی ارزش داره. ساعت ده و نیم راه میفتیم. لباس گرم بپوش — کنار یادبود همیشه سرده.",

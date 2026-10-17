@@ -20,8 +20,8 @@
     {
      "keywords": [
       "yesterday",
-      "bike",
       "fell",
+      "bike",
       "face"
      ],
      "suggestion": "Yes, I fell off my bike yesterday and hit my face.",
@@ -88,8 +88,8 @@
      "keywords": [
       "toffee",
       "eating",
-      "heard",
-      "apple"
+      "crack",
+      "heard"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "straight",
-      "tooth",
       "loose",
+      "tooth",
       "felt"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
@@ -140,10 +140,10 @@
     },
     {
      "keywords": [
-      "some",
-      "home",
       "went",
-      "put"
+      "home",
+      "some",
+      "ice"
      ],
      "suggestion": "No. I went home and put some ice on it.",
      "suggestionFa": "نه. رفتم خونه و یخ گذاشتم.",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "much",
       "cost",
-      "nhs",
-      "how"
+      "much",
+      "how",
+      "nhs"
      ],
      "suggestion": "How much will that cost on the NHS?",
      "suggestionFa": "با NHS چقدر هزینه داره؟",
@@ -244,8 +244,8 @@
      "keywords": [
       "definitely",
       "careful",
-      "i'll",
-      "more"
+      "more",
+      "i'll"
      ],
      "suggestion": "I'll definitely be more careful.",
      "suggestionFa": "قطعاً مراقب‌تر می‌شم.",

@@ -12,17 +12,17 @@
   "n1": {
    "id": "n1",
    "speaker": "weda",
-   "text": "Sit with me a minute, love. Everyone keeps telling me William will be fine. But I've been a nurse. I know what heart failure means.",
+   "text": "Sit with me a minute, love. Everyone keeps telling me George will be fine. But I've been a nurse. I know what heart failure means.",
    "translations": {
-    "fa": "یه دقیقه پیشم بشین عزیزم. همه مدام بهم می‌گن ویلیام خوب میشه. ولی من پرستار بودم. می‌دونم نارسایی قلبی یعنی چی."
+    "fa": "یه دقیقه پیشم بشین عزیزم. همه مدام بهم می‌گن جورج خوب میشه. ولی من پرستار بودم. می‌دونم نارسایی قلبی یعنی چی."
    },
    "branches": [
     {
      "keywords": [
       "pretend",
       "don't",
-      "have",
-      "weda"
+      "weda",
+      "have"
      ],
      "suggestion": "You don't have to pretend with me, Weda.",
      "suggestionFa": "لازم نیست پیش من وانمود کنید ودا.",
@@ -35,7 +35,7 @@
       "knowing",
       "about",
       "much",
-      "hard"
+      "must"
      ],
      "suggestion": "It must be hard, knowing so much about it.",
      "suggestionFa": "حتماً سخته، که این‌قدر دربارهٔ اون می‌دونید.",
@@ -72,7 +72,7 @@
       "completely",
       "natural",
       "after",
-      "long"
+      "fear"
      ],
      "suggestion": "That's a completely natural fear after so long together.",
      "suggestionFa": "بعد از این همه سال با هم بودن، این یه ترس کاملاً طبیعیه.",
@@ -85,7 +85,7 @@
       "incredible",
       "you've",
       "sixty",
-      "built"
+      "years"
      ],
      "suggestion": "Sixty-one years. That's an incredible life you've built together.",
      "suggestionFa": "شصت و یک سال. زندگی فوق‌العاده‌ای که با هم ساختید.",
@@ -138,8 +138,8 @@
      "keywords": [
       "worried",
       "helps",
-      "like",
-      "most"
+      "when",
+      "like"
      ],
      "suggestion": "What helps you most when you're worried like this?",
      "suggestionFa": "وقتی این‌طوری نگرانید چی بیشتر کمکتون می‌کنه؟",
@@ -193,7 +193,7 @@
       "everything",
       "flights",
       "hotels",
-      "help"
+      "i'll"
      ],
      "suggestion": "I'll help you plan everything — flights, hotels, the lot.",
      "suggestionFa": "تو برنامه‌ریزی همه چیز کمکتون می‌کنم — پرواز، هتل، همه چی.",
@@ -224,9 +224,9 @@
   "n5": {
    "id": "n5",
    "speaker": "weda",
-   "text": "Would you? Oh, you're a treasure. Galway in June. William will moan about the weather, and I'll love every minute. Thank you, love. I feel lighter already.",
+   "text": "Would you? Oh, you're a treasure. Galway in June. George will moan about the weather, and I'll love every minute. Thank you, love. I feel lighter already.",
    "translations": {
-    "fa": "واقعاً؟ آه، تو گنجی. گالوی تو ژوئن. ویلیام از هوا غر می‌زنه، و من از هر لحظه‌اش لذت می‌برم. ممنون عزیزم. همین الانش سبک‌تر شدم."
+    "fa": "واقعاً؟ آه، تو گنجی. گالوی تو ژوئن. جورج از هوا غر می‌زنه، و من از هر لحظه‌اش لذت می‌برم. ممنون عزیزم. همین الانش سبک‌تر شدم."
    },
    "branches": [],
    "newWords": []

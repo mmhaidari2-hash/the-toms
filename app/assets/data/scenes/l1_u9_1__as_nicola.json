@@ -25,7 +25,7 @@
       "touch",
       "let's",
       "knees",
-      "head"
+      "sing"
      ],
      "suggestion": "Let's sing! Head, shoulders, knees and toes! Touch your head!",
      "suggestionFa": "بیا آواز بخونیم! سر، شونه، زانو و انگشت پا! سرت را لمس کن!",
@@ -48,8 +48,8 @@
      "keywords": [
       "faster",
       "touch",
-      "nose",
       "ears",
+      "nose",
       "now"
      ],
      "suggestion": "Yes! Now touch your nose. And your ears. Faster!",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "fingers",
+      "have",
       "many",
       "i've",
-      "have",
       "got"
      ],
      "suggestion": "Ha ha! How many fingers have you got? I've got ten!",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "shoulders",
-      "dinosaur",
       "plasters",
+      "dinosaur",
       "better",
       "magic"
      ],

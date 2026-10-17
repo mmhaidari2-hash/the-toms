@@ -1,8 +1,8 @@
 {
  "id": "l2_u7_3__as_leslie",
  "characterId": "leslie",
- "title": "(As Leslie) When Dad was young",
- "titleFa": "(در نقش Leslie) وقتی بابا جوان بود",
+ "title": "(As Leslie) When Grandad was young",
+ "titleFa": "(در نقش Leslie) وقتی پدربزرگ جوان بود",
  "setting": "What were you doing? · Level 2",
  "settingFa": "داشتی چی کار می‌کردی؟",
  "requires": null,
@@ -21,14 +21,14 @@
    "branches": [
     {
      "keywords": [
-      "football",
       "watching",
-      "just",
+      "football",
+      "george",
       "were",
       "love"
      ],
-     "suggestion": "Sit down, love. Were you watching the football with Dad just now?",
-     "suggestionFa": "بشین عزیزم. همین الان با بابا فوتبال تماشا می‌کردی؟",
+     "suggestion": "Sit down, love. Were you watching the football with George just now?",
+     "suggestionFa": "بشین عزیزم. همین الان با جورج فوتبال تماشا می‌کردی؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "william",
+   "speaker": "george",
    "text": "I used to play.",
    "translations": {
     "fa": "من قبلاً بازی می‌کردم."
@@ -92,18 +92,18 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "Really, William?",
+   "text": "Really, George?",
    "translations": {
-    "fa": "واقعاً ویلیام؟"
+    "fa": "واقعاً جورج؟"
    },
    "branches": [
     {
      "keywords": [
       "street",
-      "used",
+      "poor",
+      "when",
       "play",
-      "were",
-      "poor"
+      "were"
      ],
      "suggestion": "He did! When he was a lad, they used to play in the street with a tin can. They were very poor.",
      "suggestionFa": "آره! وقتی پسربچه بود، با یه قوطی حلبی تو کوچه بازی می‌کردن. خیلی فقیر بودن.",
@@ -127,8 +127,8 @@
       "saturday",
       "playing",
       "street",
-      "every",
-      "after"
+      "train",
+      "every"
      ],
      "suggestion": "One day he was playing in the street when a scout from the local club saw him. He used to train every Saturday after that.",
      "suggestionFa": "یه روز داشت تو کوچه بازی می‌کرد که یه استعدادیاب از باشگاه محلی دیدش. بعد از اون هر شنبه تمرین می‌کرد.",
@@ -162,7 +162,7 @@
   },
   "r7": {
    "id": "r7",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Broke my leg. Sixteen.",
    "translations": {
     "fa": "پام شکست. شونزده سالگی."
@@ -204,7 +204,7 @@
       "playing",
       "working",
       "match",
-      "nurse"
+      "there"
      ],
      "suggestion": "He was playing in a big match. But he met Mum in the hospital — she was working there as a nurse!",
      "suggestionFa": "داشت تو یه مسابقهٔ بزرگ بازی می‌کرد. ولی مامان را تو بیمارستان دید — اونجا پرستار بود!",
@@ -225,8 +225,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -239,7 +239,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Best day of my life.",
    "translations": {
     "fa": "بهترین روز زندگیم."

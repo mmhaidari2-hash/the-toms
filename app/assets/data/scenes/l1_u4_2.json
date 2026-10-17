@@ -60,7 +60,7 @@
   "n2": {
    "id": "n2",
    "speaker": "ryan",
-   "text": "Nicola is six, William is two. Mum says she's \"thirty-nine forever\"!",
+   "text": "Nicola is six, William is one. Mum says she's \"thirty-nine forever\"!",
    "translations": {
     "fa": "نیکولا شش سالشه، ویلیام دو. مامان می‌گه «تا ابد سی‌ونه»!"
    },
@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "dad",
+      "old",
       "how",
-      "old"
+      "dad"
      ],
      "suggestion": "How old is your dad?",
      "suggestionFa": "بابات چند سالشه؟",
@@ -128,8 +128,8 @@
     },
     {
      "keywords": [
-      "but",
-      "old"
+      "old",
+      "but"
      ],
      "suggestion": "Yes, but it's very old.",
      "suggestionFa": "آره، ولی خیلی قدیمیه.",

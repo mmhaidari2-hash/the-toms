@@ -22,7 +22,7 @@
       "please",
       "white",
       "could",
-      "flat"
+      "have"
      ],
      "suggestion": "Could I have a flat white, please?",
      "suggestionFa": "می‌شه یه فلت وایت بگیرم، لطفاً؟",
@@ -70,8 +70,8 @@
     },
     {
      "keywords": [
-      "today",
       "large",
+      "today",
       "need"
      ],
      "suggestion": "Large — I need it today!",
@@ -104,9 +104,9 @@
     {
      "keywords": [
       "regular",
-      "fine",
+      "take",
       "away",
-      "take"
+      "fine"
      ],
      "suggestion": "Take away, please — regular milk is fine.",
      "suggestionFa": "می‌برم، لطفاً — شیر معمولی خوبه.",
@@ -116,8 +116,8 @@
     },
     {
      "keywords": [
-      "oat",
-      "eat"
+      "eat",
+      "oat"
      ],
      "suggestion": "Eat in, please, with oat milk.",
      "suggestionFa": "اینجا، لطفاً، با شیر جو دوسر.",
@@ -156,9 +156,9 @@
     {
      "keywords": [
       "croissant",
-      "then",
+      "have",
       "i'll",
-      "have"
+      "then"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -168,8 +168,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "that's",
+      "thanks",
       "all"
      ],
      "suggestion": "No thanks, that's all.",
@@ -258,8 +258,8 @@
     {
      "keywords": [
       "more",
-      "then",
       "nine",
+      "then",
       "go"
      ],
      "suggestion": "Nine more to go, then!",
@@ -307,7 +307,7 @@
       "working",
       "started",
       "nearby",
-      "i've"
+      "just"
      ],
      "suggestion": "I've just started working nearby.",
      "suggestionFa": "تازه کار نزدیک اینجا را شروع کردم.",
@@ -351,10 +351,10 @@
     },
     {
      "keywords": [
-      "that's",
       "really",
-      "sure",
-      "back"
+      "that's",
+      "back",
+      "sure"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",
      "suggestionFa": "خیلی لطف دارید. مطمئنم برمی‌گردم.",

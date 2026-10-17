@@ -23,8 +23,8 @@
      "keywords": [
       "everyone",
       "tonight",
-      "tea's",
       "ready",
+      "tea's",
       "fish"
      ],
      "suggestion": "Tea's ready! Sit down, everyone. It's fish pie tonight. Do you like fish?",
@@ -74,8 +74,8 @@
       "cooking",
       "saffron",
       "lovely",
-      "like",
-      "must"
+      "must",
+      "cook"
      ],
      "suggestion": "Saffron! Lovely. You must cook for us one day. Do you like cooking?",
      "suggestionFa": "زعفران! چه خوب. باید یه روز برامون آشپزی کنی. آشپزی دوست داری؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -212,8 +212,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -270,9 +270,9 @@
     {
      "keywords": [
       "treasure",
+      "crumble",
       "custard",
       "pudding",
-      "crumble",
       "though"
      ],
      "suggestion": "What a treasure! Pudding first, though. Apple crumble and custard!",

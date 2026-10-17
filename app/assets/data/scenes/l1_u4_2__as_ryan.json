@@ -52,7 +52,7 @@
       "nicola",
       "she's"
      ],
-     "suggestion": "Nicola is six, William is two. Mum says she's \"thirty-nine forever\"!",
+     "suggestion": "Nicola is six, William is one. Mum says she's \"thirty-nine forever\"!",
      "suggestionFa": "نیکولا شش سالشه، ویلیام دو. مامان می‌گه «تا ابد سی‌ونه»!",
      "trustDelta": 5,
      "next": "r3",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "mobile",
-      "forty",
-      "don't",
       "dad's",
-      "told"
+      "don't",
+      "forty",
+      "have"
      ],
      "suggestion": "Dad's forty-two. Don't tell him I told you! Have you got a mobile?",
      "suggestionFa": "بابا چهل‌ودوئه. بهش نگی من گفتم! موبایل داری؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
+      "what's",
       "family",
       "number",
-      "what's",
       "group",
-      "i'll"
+      "chat"
      ],
      "suggestion": "What's your number? I'll add you to the family group chat.",
      "suggestionFa": "شماره‌ات چنده؟ اضافه‌ات می‌کنم به گروه خانوادگی.",
@@ -123,8 +123,8 @@
      "keywords": [
       "messages",
       "warning",
-      "sorted",
       "emojis",
+      "sorted",
       "forty"
      ],
      "suggestion": "Sorted. Warning — Nana sends forty messages a day. All emojis.",

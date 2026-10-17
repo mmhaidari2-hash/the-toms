@@ -35,7 +35,7 @@
       "questions",
       "depends",
       "follow",
-      "did"
+      "ask"
      ],
      "suggestion": "It depends. Did she ask any follow-up questions?",
      "suggestionFa": "بستگی داره. سؤال بعدی هم پرسید؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "absolutely",
       "british",
-      "that's",
-      "saying"
+      "saying",
+      "that's"
      ],
      "suggestion": "Ah. That's the British way of saying \"absolutely not\".",
      "suggestionFa": "آه. این روش بریتانیایی برای گفتن «قطعاً نه»ـه.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "customers",
-      "numbers",
       "present",
+      "numbers",
       "could"
      ],
      "suggestion": "You could present some numbers — how many customers have asked for it.",
@@ -179,8 +179,8 @@
      "keywords": [
       "follow",
       "leave",
-      "week",
-      "says"
+      "says",
+      "week"
      ],
      "suggestion": "And if she says \"leave it with me\", follow up in a week.",
      "suggestionFa": "و اگه گفت «بسپارش به من»، یه هفته بعد پیگیری کن.",
@@ -190,8 +190,8 @@
     },
     {
      "keywords": [
-      "solving",
       "problem",
+      "solving",
       "yours",
       "frame"
      ],

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "emotional",
-      "nervous",
       "excited",
+      "nervous",
       "once"
      ],
      "suggestion": "Nervous, excited, emotional — all at once.",
@@ -34,8 +34,8 @@
      "keywords": [
       "honestly",
       "doesn't",
-      "feel",
-      "real"
+      "real",
+      "feel"
      ],
      "suggestion": "Honestly, it doesn't feel real yet.",
      "suggestionFa": "راستش هنوز واقعی به نظر نمیاد.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "terrified",
       "rehearsed",
-      "remember",
-      "sentence"
+      "terrified",
+      "sentence",
+      "remember"
      ],
      "suggestion": "I remember being terrified to speak. I'd rehearsed that sentence for an hour.",
      "suggestionFa": "یادمه از حرف زدن وحشت داشتم. یه ساعت اون جمله را تمرین کرده بودم.",
@@ -88,7 +88,7 @@
      "keywords": [
       "understood",
       "tudors",
-      "three",
+      "about",
       "words"
      ],
      "suggestion": "You gave me a book about the Tudors, and I understood about three words.",
@@ -136,10 +136,10 @@
     },
     {
      "keywords": [
-      "every",
       "worth",
+      "every",
       "step",
-      "long"
+      "road"
      ],
      "suggestion": "It's been a long road, but every step was worth it.",
      "suggestionFa": "راه طولانی‌ای بوده، ولی هر قدمش ارزشش را داشت.",
@@ -179,8 +179,8 @@
      "keywords": [
       "especially",
       "freedoms",
-      "freedom",
-      "loyalty"
+      "kingdom",
+      "freedom"
      ],
      "suggestion": "\"I will give my loyalty to the United Kingdom and respect its rights and freedoms.\" Freedom, especially.",
      "suggestionFa": "«به بریتانیا وفادار خواهم بود و به حقوق و آزادی‌هایش احترام خواهم گذاشت.» مخصوصاً آزادی.",

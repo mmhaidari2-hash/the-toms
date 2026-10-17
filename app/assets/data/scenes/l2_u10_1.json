@@ -87,8 +87,8 @@
     {
      "keywords": [
       "music",
-      "kind",
-      "play"
+      "play",
+      "kind"
      ],
      "suggestion": "What kind of music do you play?",
      "suggestionFa": "چه نوع موسیقی می‌زنید؟",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "tickets",
+      "much",
       "loud",
-      "fine",
-      "much"
+      "fine"
      ],
      "suggestion": "Loud is fine! How much are tickets?",
      "suggestionFa": "پرسر و صدا اشکالی نداره! بلیت چنده؟",
@@ -192,9 +192,9 @@
     {
      "keywords": [
       "first",
-      "make",
       "want",
-      "can"
+      "make",
+      "eat"
      ],
      "suggestion": "Can we make it eight? I want to eat first.",
      "suggestionFa": "میشه ساعت هشت؟ اول می‌خوام غذا بخورم.",

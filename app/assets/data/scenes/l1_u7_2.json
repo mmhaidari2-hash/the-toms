@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "where's",
       "washing",
+      "where's",
       "liquid",
       "please"
      ],
@@ -168,10 +168,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "normal",
-      "eggs",
-      "fine"
+      "that's",
+      "fine",
+      "eggs"
      ],
      "suggestion": "That's OK. Normal eggs are fine.",
      "suggestionFa": "اشکال نداره. تخم‌مرغ معمولی خوبه.",
@@ -183,8 +183,8 @@
      "keywords": [
       "boxes",
       "there",
-      "big",
-      "any"
+      "any",
+      "big"
      ],
      "suggestion": "Are there any big boxes?",
      "suggestionFa": "جعبهٔ بزرگ هست؟",

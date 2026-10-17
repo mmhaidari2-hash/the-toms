@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "taught",
       "proper",
+      "taught",
       "make",
       "one"
      ],
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "looking",
       "believe",
+      "looking",
       "can't",
       "back"
      ],
@@ -80,7 +80,7 @@
       "outsider",
       "feeling",
       "people",
-      "kind"
+      "when"
      ],
      "suggestion": "Feeling like an outsider, even when people were kind.",
      "suggestionFa": "حس غریبه بودن، حتی وقتی مردم مهربون بودن.",
@@ -141,7 +141,7 @@
      "keywords": [
       "you'd",
       "moved",
-      "here",
+      "weda",
       "idea"
      ],
      "suggestion": "I had no idea you'd moved here too, Weda.",
@@ -152,9 +152,9 @@
     },
     {
      "keywords": [
+      "must",
       "cope",
       "have",
-      "must",
       "hard"
      ],
      "suggestion": "That must have been so hard. How did you cope?",
@@ -190,7 +190,7 @@
   "n4": {
    "id": "n4",
    "speaker": "weda",
-   "text": "I found my people — the church, the nurses I trained with. And I met William, of course. If I could tell my younger self one thing, it'd be: you will belong here. Give it time.",
+   "text": "I found my people — the church, the nurses I trained with. And I met George, of course. If I could tell my younger self one thing, it'd be: you will belong here. Give it time.",
    "translations": {
     "fa": "آدم‌های خودم را پیدا کردم — کلیسا، پرستارهایی که باهاشون آموزش دیدم. و البته ویلیام را دیدم. اگه می‌تونستم یه چیز به خودِ جوونم بگم، این بود: اینجا جا میفتی. بهش زمان بده."
    },
@@ -211,9 +211,9 @@
     {
      "keywords": [
       "belong",
-      "like",
       "feel",
-      "part"
+      "part",
+      "like"
      ],
      "suggestion": "I feel like I belong now. You're a big part of that.",
      "suggestionFa": "الان حس می‌کنم اینجا جای منه. شما بخش بزرگی ازش هستید.",

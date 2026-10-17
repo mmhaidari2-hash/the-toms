@@ -80,7 +80,7 @@
       "sustainability",
       "distributors",
       "biggest",
-      "strong"
+      "london"
      ],
      "suggestion": "You're one of the biggest distributors in East London, with a strong focus on sustainability.",
      "suggestionFa": "شما یکی از بزرگ‌ترین پخش‌کننده‌های شرق لندنید، با تمرکز قوی روی پایداری.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "expanding",
-      "you've",
       "opened",
+      "you've",
       "depot"
      ],
      "suggestion": "I read that you've just opened a new depot and are expanding fast.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "reorganised",
-      "informed",
       "customer",
-      "delivery"
+      "informed",
+      "schedule"
      ],
      "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
      "suggestionFa": "یه بار، یه محموله تأخیر داشت، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "contract",
       "customer",
+      "contract",
       "happy",
       "kept"
      ],
@@ -206,7 +206,7 @@
       "improved",
       "together",
       "morale",
-      "well"
+      "they"
      ],
      "suggestion": "They work well together now, and morale improved.",
      "suggestionFa": "حالا با هم خوب کار می‌کنن، و روحیه بهتر شد.",
@@ -252,8 +252,8 @@
      "keywords": [
       "stronger",
       "evening",
-      "english",
-      "written"
+      "written",
+      "english"
      ],
      "suggestion": "My written English could be stronger, so I'm taking an evening course.",
      "suggestionFa": "انگلیسی نوشتاریم می‌تونه قوی‌تر باشه، برای همین یه دورهٔ شبانه می‌رم.",
@@ -292,8 +292,8 @@
    "branches": [
     {
      "keywords": [
-      "riser",
       "early",
+      "riser",
       "all"
      ],
      "suggestion": "Not at all — I'm an early riser.",
@@ -407,7 +407,7 @@
       "training",
       "typical",
       "there",
-      "look"
+      "like"
      ],
      "suggestion": "Yes — what does a typical day look like, and is there training?",
      "suggestionFa": "بله — یه روز معمولی چه شکلیه، و آموزش هست؟",
@@ -420,7 +420,7 @@
       "working",
       "about",
       "enjoy",
-      "here"
+      "most"
      ],
      "suggestion": "What do you enjoy most about working here?",
      "suggestionFa": "از کار کردن اینجا بیشتر از همه از چی لذت می‌برید؟",

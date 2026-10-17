@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Thank you for going with Dad today. I should have been there. I feel awful. Did he understand everything the doctor said?",
+   "text": "Thank you for going with George today. I should have been there. I feel awful. Did he understand everything the doctor said?",
    "translations": {
-    "fa": "ممنون که امروز با بابا رفتی. باید اونجا می‌بودم. حالم خیلی بده. همه چیزهایی که دکتر گفت را فهمید؟"
+    "fa": "ممنون که امروز با جورج رفتی. باید اونجا می‌بودم. حالم خیلی بده. همه چیزهایی که دکتر گفت را فهمید؟"
    },
    "branches": [
     {
@@ -22,7 +22,7 @@
       "yourself",
       "couldn't",
       "please",
-      "blame"
+      "don't"
      ],
      "suggestion": "Please don't blame yourself. You couldn't have known.",
      "suggestionFa": "لطفاً خودت را سرزنش نکن. نمی‌تونستی بدونی.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "honest",
       "calmer",
-      "calm",
-      "than"
+      "honest",
+      "than",
+      "calm"
      ],
      "suggestion": "He did. He was very calm — calmer than me, to be honest.",
      "suggestionFa": "آره. خیلی آروم بود — راستش از من آروم‌تر.",
@@ -88,8 +88,8 @@
      "keywords": [
       "grandad's",
       "medicine",
-      "nicola",
-      "simple"
+      "simple",
+      "nicola"
      ],
      "suggestion": "Keep it simple for Nicola. Say Grandad's heart is a bit tired and needs medicine.",
      "suggestionFa": "برای نیکولا ساده بگو. بگو قلب پدربزرگ یه کم خسته‌ست و دارو لازم داره.",
@@ -127,13 +127,13 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "helping",
-      "maybe",
-      "walks"
+      "george",
+      "walks",
+      "maybe"
      ],
-     "suggestion": "Maybe give him a job — like helping William with his walks.",
-     "suggestionFa": "شاید یه کار بهش بدی — مثل کمک به ویلیام برای پیاده‌روی‌هاش.",
+     "suggestion": "Maybe give him a job — like helping George with his walks.",
+     "suggestionFa": "شاید یه کار بهش بدی — مثل کمک به جورج برای پیاده‌روی‌هاش.",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "you've",
+      "family",
       "since",
       "been"
      ],

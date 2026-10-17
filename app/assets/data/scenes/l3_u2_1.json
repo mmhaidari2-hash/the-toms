@@ -33,8 +33,8 @@
     {
      "keywords": [
       "hurting",
-      "moved",
       "since",
+      "moved",
       "sofa"
      ],
      "suggestion": "My back has been hurting since I moved a sofa.",
@@ -142,8 +142,8 @@
      "keywords": [
       "outside",
       "mostly",
-      "many",
-      "work"
+      "work",
+      "many"
      ],
      "suggestion": "Not many. I work outside mostly.",
      "suggestionFa": "زیاد نه. بیشتر بیرون کار می‌کنم.",
@@ -183,8 +183,8 @@
      "keywords": [
       "getting",
       "happen",
-      "them",
-      "keep"
+      "will",
+      "them"
      ],
      "suggestion": "What will happen if I keep getting them?",
      "suggestionFa": "اگه همچنان ادامه پیدا کنه چی میشه؟",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "test",
-      "week",
       "i'll",
-      "book"
+      "test",
+      "book",
+      "week"
      ],
      "suggestion": "I'll book an eye test this week.",
      "suggestionFa": "این هفته وقت معاینهٔ چشم می‌گیرم.",

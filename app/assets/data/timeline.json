@@ -1,29 +1,189 @@
 {
  "chapters": [
-  {"id": "Y1A", "year": 1, "season": "Autumn", "seasonFa": "پاییز", "title": "A new family", "titleFa": "یک خانوادهٔ تازه", "threshold": 0,
-   "story": "You've just arrived to stay with the Toms. Leaves are falling in Ashby.", "storyFa": "تازه برای زندگی پیش خانوادهٔ تامز آمده‌ای. برگ‌ها در اشبی می‌ریزند.",
-   "ages": {"tom": 42, "leslie": 39, "ryan": 16, "nicola": 5, "william": 2, "weda": 71},
-   "stages": {"nicola": ["Reception class · A0–A1", "کلاس آمادگی · A0–A1"], "william": ["Baby babble", "زبان‌باز کردن"], "ryan": ["Year 11 · GCSEs", "سال یازدهم · امتحانات GCSE"]},
-   "opens": ["ep1_morning_table", "l1_u1_1"]},
-  {"id": "Y1S", "year": 1, "season": "Spring", "seasonFa": "بهار", "title": "Settling in", "titleFa": "جا افتادن", "threshold": 12,
-   "story": "Winter has passed. Nicola turned six in March and now reads to you at bedtime.", "storyFa": "زمستان گذشت. نیکولا در مارس شش‌ساله شد و حالا شب‌ها برایت کتاب می‌خواند.",
-   "ages": {"tom": 42, "leslie": 39, "ryan": 16, "nicola": 6, "william": 2, "weda": 72},
-   "stages": {"nicola": ["Year 1 · A1", "سال اول · A1"], "william": ["First words", "اولین کلمه‌ها"], "ryan": ["Exam season", "فصل امتحان"]},
-   "opens": ["nicola_birthday", "nicola_school"]},
-  {"id": "Y2A", "year": 2, "season": "Autumn", "seasonFa": "پاییز", "title": "A year later", "titleFa": "یک سال بعد", "threshold": 30,
-   "story": "A whole year has gone by. Ryan is learning to drive, William has started nursery, and Nicola has a best friend, Mia.", "storyFa": "یک سال کامل گذشت. رایان رانندگی یاد می‌گیرد، ویلیام مهدکودک را شروع کرده و نیکولا یک دوست صمیمی به اسم میا دارد.",
-   "ages": {"tom": 43, "leslie": 40, "ryan": 17, "nicola": 6, "william": 3, "weda": 72},
-   "stages": {"nicola": ["Year 2 · A1–A2", "سال دوم · A1–A2"], "william": ["Two-word sentences · nursery", "جمله‌های دوکلمه‌ای · مهدکودک"], "ryan": ["Sixth form · learner driver", "پیش‌دانشگاهی · هنرجوی رانندگی"]},
-   "opens": ["nicola_mia", "ryan_driving"]},
-  {"id": "Y2S", "year": 2, "season": "Summer", "seasonFa": "تابستان", "title": "Sports day summer", "titleFa": "تابستانِ روز ورزش", "threshold": 50,
-   "story": "Nicola is seven now and has opinions about everything. Leslie turned forty — and still says she's thirty-nine.", "storyFa": "نیکولا حالا هفت‌ساله است و دربارهٔ همه چیز نظر دارد. لزلی چهل‌ساله شد — و هنوز می‌گوید سی‌ونه!",
-   "ages": {"tom": 43, "leslie": 40, "ryan": 17, "nicola": 7, "william": 3, "weda": 73},
-   "stages": {"nicola": ["Year 2 · A2", "سال دوم · A2"], "william": ["Little sentences", "جمله‌های کوچک"], "ryan": ["Passed his driving test!", "امتحان رانندگی را قبول شد!"]},
-   "opens": ["nicola_race", "nicola_report", "nicola_opinion"]},
-  {"id": "Y3A", "year": 3, "season": "Autumn", "seasonFa": "پاییز", "title": "Big changes", "titleFa": "تغییرهای بزرگ", "threshold": 75,
-   "story": "Two years with the Toms. Ryan is off to university, William starts Reception in a tiny uniform, and Nana says you're family now.", "storyFa": "دو سال با تامزها. رایان به دانشگاه می‌رود، ویلیام با یک یونیفرم کوچولو کلاس آمادگی را شروع می‌کند و نانا می‌گوید تو حالا عضو خانواده‌ای.",
-   "ages": {"tom": 44, "leslie": 41, "ryan": 18, "nicola": 7, "william": 4, "weda": 73},
-   "stages": {"nicola": ["Year 3 · A2–B1", "سال سوم · A2–B1"], "william": ["Reception · chatterbox", "کلاس آمادگی · پرحرف"], "ryan": ["University fresher", "دانشجوی سال اول"]},
-   "opens": ["al_campus"]}
+  {
+   "id": "Y1A",
+   "year": 1,
+   "season": "Autumn",
+   "seasonFa": "پاییز",
+   "title": "A new family",
+   "titleFa": "یک خانوادهٔ تازه",
+   "threshold": 0,
+   "story": "You've just arrived to stay with the Toms. Leaves are falling in Hackney.",
+   "storyFa": "تازه برای زندگی پیش خانوادهٔ تامز آمده‌ای. برگ‌ها در هاکنی می‌ریزند.",
+   "ages": {
+    "tom": 42,
+    "leslie": 39,
+    "ryan": 16,
+    "nicola": 5,
+    "william": 1,
+    "weda": 71
+   },
+   "stages": {
+    "nicola": [
+     "Reception class · A0–A1",
+     "کلاس آمادگی · A0–A1"
+    ],
+    "william": [
+     "Baby babble",
+     "زبان‌باز کردن"
+    ],
+    "ryan": [
+     "Year 11 · GCSEs",
+     "سال یازدهم · امتحانات GCSE"
+    ]
+   },
+   "opens": [
+    "ep1_morning_table",
+    "l1_u1_1"
+   ]
+  },
+  {
+   "id": "Y1S",
+   "year": 1,
+   "season": "Spring",
+   "seasonFa": "بهار",
+   "title": "Settling in",
+   "titleFa": "جا افتادن",
+   "threshold": 12,
+   "story": "Winter has passed. Nicola turned six in March and now reads to you at bedtime.",
+   "storyFa": "زمستان گذشت. نیکولا در مارس شش‌ساله شد و حالا شب‌ها برایت کتاب می‌خواند.",
+   "ages": {
+    "tom": 42,
+    "leslie": 39,
+    "ryan": 16,
+    "nicola": 6,
+    "william": 2,
+    "weda": 72
+   },
+   "stages": {
+    "nicola": [
+     "Year 1 · A1",
+     "سال اول · A1"
+    ],
+    "william": [
+     "First words",
+     "اولین کلمه‌ها"
+    ],
+    "ryan": [
+     "Exam season",
+     "فصل امتحان"
+    ]
+   },
+   "opens": [
+    "nicola_birthday",
+    "nicola_school"
+   ]
+  },
+  {
+   "id": "Y2A",
+   "year": 2,
+   "season": "Autumn",
+   "seasonFa": "پاییز",
+   "title": "A year later",
+   "titleFa": "یک سال بعد",
+   "threshold": 30,
+   "story": "A whole year has gone by. Ryan is learning to drive, William has started nursery, and Nicola has a best friend, Mia.",
+   "storyFa": "یک سال کامل گذشت. رایان رانندگی یاد می‌گیرد، ویلیام مهدکودک را شروع کرده و نیکولا یک دوست صمیمی به اسم میا دارد.",
+   "ages": {
+    "tom": 43,
+    "leslie": 40,
+    "ryan": 17,
+    "nicola": 6,
+    "william": 2,
+    "weda": 72
+   },
+   "stages": {
+    "nicola": [
+     "Year 2 · A1–A2",
+     "سال دوم · A1–A2"
+    ],
+    "william": [
+     "Two-word sentences · nursery",
+     "جمله‌های دوکلمه‌ای · مهدکودک"
+    ],
+    "ryan": [
+     "Sixth form · learner driver",
+     "پیش‌دانشگاهی · هنرجوی رانندگی"
+    ]
+   },
+   "opens": [
+    "nicola_mia",
+    "ryan_driving"
+   ]
+  },
+  {
+   "id": "Y2S",
+   "year": 2,
+   "season": "Summer",
+   "seasonFa": "تابستان",
+   "title": "Sports day summer",
+   "titleFa": "تابستانِ روز ورزش",
+   "threshold": 50,
+   "story": "Nicola is seven now and has opinions about everything. Leslie turned forty — and still says she's thirty-nine.",
+   "storyFa": "نیکولا حالا هفت‌ساله است و دربارهٔ همه چیز نظر دارد. لزلی چهل‌ساله شد — و هنوز می‌گوید سی‌ونه!",
+   "ages": {
+    "tom": 43,
+    "leslie": 40,
+    "ryan": 17,
+    "nicola": 7,
+    "william": 3,
+    "weda": 73
+   },
+   "stages": {
+    "nicola": [
+     "Year 2 · A2",
+     "سال دوم · A2"
+    ],
+    "william": [
+     "Little sentences",
+     "جمله‌های کوچک"
+    ],
+    "ryan": [
+     "Passed his driving test!",
+     "امتحان رانندگی را قبول شد!"
+    ]
+   },
+   "opens": [
+    "nicola_race",
+    "nicola_report",
+    "nicola_opinion"
+   ]
+  },
+  {
+   "id": "Y3A",
+   "year": 3,
+   "season": "Autumn",
+   "seasonFa": "پاییز",
+   "title": "Big changes",
+   "titleFa": "تغییرهای بزرگ",
+   "threshold": 75,
+   "story": "Two years with the Toms. Ryan is off to university, William starts school nursery in a tiny uniform, and Nana says you're family now.",
+   "storyFa": "دو سال با تامزها. رایان به دانشگاه می‌رود، ویلیام با یک یونیفرم کوچولو کلاس نرسری مدرسه را شروع می‌کند و نانا می‌گوید تو حالا عضو خانواده‌ای.",
+   "ages": {
+    "tom": 44,
+    "leslie": 41,
+    "ryan": 18,
+    "nicola": 7,
+    "william": 3,
+    "weda": 73
+   },
+   "stages": {
+    "nicola": [
+     "Year 3 · A2–B1",
+     "سال سوم · A2–B1"
+    ],
+    "william": [
+     "School nursery · chatterbox",
+     "کلاس نرسری مدرسه · پرحرف"
+    ],
+    "ryan": [
+     "University fresher",
+     "دانشجوی سال اول"
+    ]
+   },
+   "opens": [
+    "al_campus"
+   ]
+  }
  ]
 }
