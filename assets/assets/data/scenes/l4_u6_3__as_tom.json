@@ -24,8 +24,8 @@
       "convinced",
       "savings",
       "telling",
-      "what's",
-      "should"
+      "should",
+      "shares"
      ],
      "suggestion": "Al keeps telling me I should put my savings into shares. I'm not convinced. What's your take?",
      "suggestionFa": "ال مدام بهم می‌گه پس‌اندازم را تو سهام بذارم. قانع نشدم. نظر تو چیه؟",
@@ -50,7 +50,7 @@
       "afford",
       "gamble",
       "money",
-      "could"
+      "right"
      ],
      "suggestion": "Right. The downside is I could lose money. And with two kids, I can't afford to gamble.",
      "suggestionFa": "درسته. ایرادش اینه که ممکنه پول از دست بدم. و با دوتا بچه، نمی‌تونم ریسک کنم.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "should",
       "months",
+      "leslie",
       "before",
       "about"
      ],

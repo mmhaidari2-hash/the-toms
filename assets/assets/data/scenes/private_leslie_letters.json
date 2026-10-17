@@ -7,36 +7,47 @@
  "setting": "The attic, a rainy Sunday",
  "settingFa": "اتاق زیرشیروانی، یک یکشنبهٔ بارانی",
  "requires": null,
- "start": "pl1",
+ "start": "n1",
  "nodes": {
-  "pl1": {
-   "id": "pl1",
+  "n1": {
+   "id": "n1",
    "speaker": "leslie",
    "text": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
    "translations": {
-    "fa": "این‌ها نامه‌های تامه از وقتی نوزده‌ساله بودیم. یه تابستون هر روز یه نامه نوشت. بهش نگی نگهشون داشتم!"
+    "fa": "اینا نامه‌های تامه از وقتی نوزده سالمون بود. یه تابستون هر روز یکی نوشت. بهش نگی نگهشون داشتم!"
    },
    "branches": [
     {
      "keywords": [
+      "secret's",
+      "that's",
       "sweet",
-      "lovely",
-      "romantic",
-      "secret",
-      "won't tell",
-      "promise"
+      "safe"
      ],
      "suggestion": "That's so sweet — your secret's safe with me.",
-     "suggestionFa": "خیلی شیرینه — رازت پیش من می‌مونه.",
-     "trustDelta": 10,
-     "next": "pl2",
+     "suggestionFa": "خیلی شیرینه — رازت پیش من محفوظه.",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "summer",
+      "every",
+      "where",
+      "were"
+     ],
+     "suggestion": "Every day? Where were you that summer?",
+     "suggestionFa": "هر روز؟ اون تابستون کجا بودی؟",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "kept",
-     "fa": "نگه داشتم"
+     "fa": "نگه داشت"
     },
     {
      "word": "your secret's safe with me",
@@ -45,26 +56,196 @@
    ],
    "cultureNote": null
   },
-  "pl2": {
-   "id": "pl2",
+  "n2": {
+   "id": "n2",
    "speaker": "leslie",
-   "text": "He was rubbish at spelling. Still is. But he always signed off 'Love you more than tea'.",
+   "text": "I was working at a holiday camp in Skegness. He was stuck in London, driving his dad's bus routes on Saturdays.",
    "translations": {
-    "fa": "املاش افتضاح بود. هنوزم هست. ولی همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم»."
+    "fa": "تو یه اردوگاه تعطیلات تو اسکگنس کار می‌کردم. اون تو لندن گیر بود، شنبه‌ها مسیرهای اتوبوس باباش را می‌روند."
    },
    "branches": [
     {
      "keywords": [
-      "more than tea",
-      "love",
-      "cute",
-      "british",
-      "adorable"
+      "holiday",
+      "sounds",
+      "camp",
+      "fun"
      ],
-     "suggestion": "'More than tea' — that's true love in Britain!",
-     "suggestionFa": "«بیشتر از چای» — این در بریتانیا یعنی عشق واقعی!",
-     "trustDelta": 10,
-     "next": "pl3",
+     "suggestion": "A holiday camp? That sounds fun.",
+     "suggestionFa": "اردوگاه تعطیلات؟ باحال به نظر میاد.",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "relationship",
+      "distance",
+      "long",
+      "was"
+     ],
+     "suggestion": "So it was a long-distance relationship!",
+     "suggestionFa": "پس یه رابطهٔ از راه دور بود!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "holiday camp",
+     "fa": "اردوگاه تعطیلات"
+    },
+    {
+     "word": "stuck",
+     "fa": "گیر افتاده"
+    },
+    {
+     "word": "long-distance",
+     "fa": "از راه دور"
+    }
+   ],
+   "cultureNote": {
+    "en": "Seaside holiday camps like Butlin's were hugely popular British holidays from the 1940s onwards.",
+    "fa": "اردوگاه‌های ساحلی تعطیلات محبوب بریتانیایی بودند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Exactly. No mobiles then — just letters and the phone box on the seafront, if I had enough coins.",
+   "translations": {
+    "fa": "دقیقاً. اون موقع موبایل نبود — فقط نامه و باجهٔ تلفن کنار ساحل، اگه سکهٔ کافی داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "without",
+      "imagine",
+      "phone",
+      "can't"
+     ],
+     "suggestion": "I can't imagine life without a phone!",
+     "suggestionFa": "زندگی بدون گوشی را تصور هم نمی‌تونم!",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "romantic",
+      "letters",
+      "though",
+      "feel"
+     ],
+     "suggestion": "Letters feel more romantic, though.",
+     "suggestionFa": "ولی نامه‌ها رمانتیک‌ترن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mobiles",
+     "fa": "گوشی‌های همراه"
+    },
+    {
+     "word": "phone box",
+     "fa": "باجهٔ تلفن"
+    },
+    {
+     "word": "seafront",
+     "fa": "ساحل"
+    },
+    {
+     "word": "romantic",
+     "fa": "رمانتیک"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Listen to this one: \"Dear Les, the 38 broke down in Islington. I thought of you the whole time.\" Ha!",
+   "translations": {
+    "fa": "گوش کن به این یکی: «لزِ عزیز، ۳۸ تو ایزلینگتون خراب شد. تمام مدت به تو فکر کردم.» ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practical",
+      "romantic",
+      "that's",
+      "over"
+     ],
+     "suggestion": "That's Tom all over — romantic and practical!",
+     "suggestionFa": "این دقیقاً تامه — رمانتیک و عملی!",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "obsessed",
+      "buses",
+      "then",
+      "even"
+     ],
+     "suggestion": "Even then he was obsessed with buses!",
+     "suggestionFa": "حتی اون موقع هم شیفتهٔ اتوبوس بود!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broke down",
+     "fa": "خراب شد"
+    },
+    {
+     "word": "all over",
+     "fa": "دقیقاً خودش"
+    },
+    {
+     "word": "obsessed",
+     "fa": "شیفته"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "He was rubbish at spelling. Still is. \"Beautiful\" has three different spellings in here.",
+   "translations": {
+    "fa": "تو املا افتضاح بود. هنوزم هست. «زیبا» اینجا سه جور مختلف نوشته شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thought",
+      "counts"
+     ],
+     "suggestion": "It's the thought that counts.",
+     "suggestionFa": "نیت مهمه.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "maybe",
+      "fell",
+      "him"
+     ],
+     "suggestion": "Maybe that's why you fell for him!",
+     "suggestionFa": "شاید برای همین عاشقش شدی!",
+     "trustDelta": 6,
+     "next": "n6",
      "success": true
     }
    ],
@@ -74,21 +255,170 @@
      "fa": "افتضاح در"
     },
     {
-     "word": "signed off",
-     "fa": "امضا کرد/پایان داد"
+     "word": "spelling",
+     "fa": "املا"
+    },
+    {
+     "word": "it's the thought that counts",
+     "fa": "نیت مهم است"
+    },
+    {
+     "word": "fell for",
+     "fa": "عاشق شدن"
     }
    ],
-   "cultureNote": {
-    "en": "Brits rarely say 'I love you' casually — affection hides in jokes like this.",
-    "fa": "بریتانیایی‌ها به‌ندرت «دوستت دارم» را راحت می‌گویند — محبت در شوخی‌هایی مثل این پنهان است."
-   }
+   "cultureNote": null
   },
-  "pl3": {
-   "id": "pl3",
+  "n6": {
+   "id": "n6",
    "speaker": "leslie",
-   "text": "Exactly. Right — not a word to Tom. Fancy a cuppa?",
+   "text": "Maybe! And he always signed off \"Love you more than tea\".",
    "translations": {
-    "fa": "دقیقاً. خب — یه کلمه هم به تام نگی. چای می‌خوری؟"
+    "fa": "شاید! و همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "britain",
+      "more",
+      "than",
+      "love"
+     ],
+     "suggestion": "\"More than tea\" — that's true love in Britain!",
+     "suggestionFa": "«بیشتر از چای» — این عشق واقعی تو بریتانیاست!",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "adorable",
+      "still",
+      "say",
+      "he"
+     ],
+     "suggestion": "That's adorable. Does he still say it?",
+     "suggestionFa": "خیلی نازه. هنوزم می‌گه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "signed off",
+     "fa": "در پایان نامه نوشت"
+    },
+    {
+     "word": "adorable",
+     "fa": "دوست‌داشتنی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Every anniversary. Thirty years this June. Do you write letters to anyone back home?",
+   "translations": {
+    "fa": "هر سالگرد. این ژوئن سی سال میشه. به کسی تو کشورت نامه می‌نویسی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letters",
+      "every",
+      "notes",
+      "voice"
+     ],
+     "suggestion": "Not letters, but I send voice notes to my mum every day.",
+     "suggestionFa": "نامه نه، ولی هر روز به مامانم پیام صوتی می‌فرستم.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grandmother",
+      "letter",
+      "should",
+      "would"
+     ],
+     "suggestion": "I should. My grandmother would love a real letter.",
+     "suggestionFa": "باید بنویسم. مادربزرگم عاشق یه نامهٔ واقعی میشه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anniversary",
+     "fa": "سالگرد"
+    },
+    {
+     "word": "voice notes",
+     "fa": "پیام‌های صوتی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Voice notes are the new letters, I suppose. Keep them — one day you'll be glad you did.",
+   "translations": {
+    "fa": "پیام صوتی همون نامهٔ جدیده، فکر کنم. نگهشون دار — یه روز خوشحال میشی که نگه داشتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sharing",
+      "these",
+      "thank",
+      "will"
+     ],
+     "suggestion": "I will. Thank you for sharing these with me.",
+     "suggestionFa": "حتماً. ممنون که اینا را با من در میون گذاشتی.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "precious",
+      "memories",
+      "right"
+     ],
+     "suggestion": "You're right. Memories are precious.",
+     "suggestionFa": "حق با توئه. خاطرات ارزشمندن.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I suppose",
+     "fa": "فکر کنم"
+    },
+    {
+     "word": "precious",
+     "fa": "ارزشمند"
+    },
+    {
+     "word": "memories",
+     "fa": "خاطرات"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Right — box back in the attic, not a word to Tom. Fancy a cuppa? More than tea, eh?",
+   "translations": {
+    "fa": "خب — جعبه برگرده تو انباری، یه کلمه به تام نه. یه چای می‌چسبه؟ بیشتر از چای، ها؟"
    },
    "branches": [],
    "newWords": [],

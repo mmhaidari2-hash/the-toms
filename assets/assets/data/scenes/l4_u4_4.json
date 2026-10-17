@@ -76,7 +76,7 @@
       "fifteen",
       "percent",
       "saving",
-      "about"
+      "three"
      ],
      "suggestion": "I've been saving for three years, so I have about fifteen percent.",
      "suggestionFa": "سه ساله پس‌انداز می‌کنم، پس حدود پونزده درصد دارم.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "possible",
-      "deposit",
-      "smaller"
+      "smaller",
+      "deposit"
      ],
      "suggestion": "Is it possible with a smaller deposit?",
      "suggestionFa": "با پیش‌پرداخت کمتر ممکنه؟",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "always",
-      "bills",
       "never",
+      "bills",
       "time"
      ],
      "suggestion": "Never. I always pay my bills on time.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "haven't",
-      "credit",
       "affect",
+      "credit",
       "score"
      ],
      "suggestion": "I haven't been in the UK long. Does that affect my credit score?",

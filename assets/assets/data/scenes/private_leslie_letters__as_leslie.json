@@ -24,11 +24,11 @@
       "nineteen",
       "letters",
       "summer",
-      "these",
-      "every"
+      "every",
+      "tom's"
      ],
      "suggestion": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
-     "suggestionFa": "این‌ها نامه‌های تامه از وقتی نوزده‌ساله بودیم. یه تابستون هر روز یه نامه نوشت. بهش نگی نگهشون داشتم!",
+     "suggestionFa": "اینا نامه‌های تامه از وقتی نوزده سالمون بود. یه تابستون هر روز یکی نوشت. بهش نگی نگهشون داشتم!",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -41,19 +41,19 @@
    "speaker": "mehdi",
    "text": "That's so sweet — your secret's safe with me.",
    "translations": {
-    "fa": "خیلی شیرینه — رازت پیش من می‌مونه."
+    "fa": "خیلی شیرینه — رازت پیش من محفوظه."
    },
    "branches": [
     {
      "keywords": [
-      "spelling",
-      "rubbish",
-      "signed",
-      "always",
-      "still"
+      "saturdays",
+      "skegness",
+      "holiday",
+      "working",
+      "driving"
      ],
-     "suggestion": "He was rubbish at spelling. Still is. But he always signed off 'Love you more than tea'.",
-     "suggestionFa": "املاش افتضاح بود. هنوزم هست. ولی همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم».",
+     "suggestion": "I was working at a holiday camp in Skegness. He was stuck in London, driving his dad's bus routes on Saturdays.",
+     "suggestionFa": "تو یه اردوگاه تعطیلات تو اسکگنس کار می‌کردم. اون تو لندن گیر بود، شنبه‌ها مسیرهای اتوبوس باباش را می‌روند.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,21 +64,21 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "'More than tea' — that's true love in Britain!",
+   "text": "A holiday camp? That sounds fun.",
    "translations": {
-    "fa": "«بیشتر از چای» — این در بریتانیا یعنی عشق واقعی!"
+    "fa": "اردوگاه تعطیلات؟ باحال به نظر میاد."
    },
    "branches": [
     {
      "keywords": [
+      "seafront",
+      "letters",
+      "mobiles",
       "exactly",
-      "fancy",
-      "cuppa",
-      "right",
-      "word"
+      "enough"
      ],
-     "suggestion": "Exactly. Right — not a word to Tom. Fancy a cuppa?",
-     "suggestionFa": "دقیقاً. خب — یه کلمه هم به تام نگی. چای می‌خوری؟",
+     "suggestion": "Exactly. No mobiles then — just letters and the phone box on the seafront, if I had enough coins.",
+     "suggestionFa": "دقیقاً. اون موقع موبایل نبود — فقط نامه و باجهٔ تلفن کنار ساحل، اگه سکهٔ کافی داشتم.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -88,6 +88,156 @@
   },
   "r4": {
    "id": "r4",
+   "speaker": "mehdi",
+   "text": "I can't imagine life without a phone!",
+   "translations": {
+    "fa": "زندگی بدون گوشی را تصور هم نمی‌تونم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "islington",
+      "thought",
+      "listen",
+      "broke",
+      "whole"
+     ],
+     "suggestion": "Listen to this one: \"Dear Les, the 38 broke down in Islington. I thought of you the whole time.\" Ha!",
+     "suggestionFa": "گوش کن به این یکی: «لزِ عزیز، ۳۸ تو ایزلینگتون خراب شد. تمام مدت به تو فکر کردم.» ها!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "That's Tom all over — romantic and practical!",
+   "translations": {
+    "fa": "این دقیقاً تامه — رمانتیک و عملی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spellings",
+      "beautiful",
+      "different",
+      "spelling",
+      "rubbish"
+     ],
+     "suggestion": "He was rubbish at spelling. Still is. \"Beautiful\" has three different spellings in here.",
+     "suggestionFa": "تو املا افتضاح بود. هنوزم هست. «زیبا» اینجا سه جور مختلف نوشته شده.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "It's the thought that counts.",
+   "translations": {
+    "fa": "نیت مهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "signed",
+      "maybe",
+      "more",
+      "love"
+     ],
+     "suggestion": "Maybe! And he always signed off \"Love you more than tea\".",
+     "suggestionFa": "شاید! و همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم».",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "\"More than tea\" — that's true love in Britain!",
+   "translations": {
+    "fa": "«بیشتر از چای» — این عشق واقعی تو بریتانیاست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anniversary",
+      "letters",
+      "anyone",
+      "thirty",
+      "write"
+     ],
+     "suggestion": "Every anniversary. Thirty years this June. Do you write letters to anyone back home?",
+     "suggestionFa": "هر سالگرد. این ژوئن سی سال میشه. به کسی تو کشورت نامه می‌نویسی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Not letters, but I send voice notes to my mum every day.",
+   "translations": {
+    "fa": "نامه نه، ولی هر روز به مامانم پیام صوتی می‌فرستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letters",
+      "suppose",
+      "you'll",
+      "voice",
+      "notes"
+     ],
+     "suggestion": "Voice notes are the new letters, I suppose. Keep them — one day you'll be glad you did.",
+     "suggestionFa": "پیام صوتی همون نامهٔ جدیده، فکر کنم. نگهشون دار — یه روز خوشحال میشی که نگه داشتی.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I will. Thank you for sharing these with me.",
+   "translations": {
+    "fa": "حتماً. ممنون که اینا را با من در میون گذاشتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "fancy",
+      "attic",
+      "cuppa",
+      "more"
+     ],
+     "suggestion": "Right — box back in the attic, not a word to Tom. Fancy a cuppa? More than tea, eh?",
+     "suggestionFa": "خب — جعبه برگرده تو انباری، یه کلمه به تام نه. یه چای می‌چسبه؟ بیشتر از چای، ها؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Leslie! See you later.",
    "translations": {

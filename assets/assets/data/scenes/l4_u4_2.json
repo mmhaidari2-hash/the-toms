@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "should",
       "please",
+      "should",
       "look",
       "out"
      ],
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "deposit",
       "happens",
-      "move",
-      "when"
+      "deposit",
+      "when",
+      "move"
      ],
      "suggestion": "What happens to the deposit when I move out?",
      "suggestionFa": "وقتی بیرون برم ودیعه چی میشه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "protected",
-      "been",
       "know",
+      "been",
       "how"
      ],
      "suggestion": "How do I know if it's been protected?",
@@ -189,8 +189,8 @@
    "branches": [
     {
      "keywords": [
-      "months",
       "before",
+      "months",
       "leave",
       "have"
      ],

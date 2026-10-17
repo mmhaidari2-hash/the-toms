@@ -25,7 +25,7 @@
       "school",
       "hello",
       "love",
-      "how"
+      "was"
      ],
      "suggestion": "Hello, love. How was school? Any homework?",
      "suggestionFa": "سلام عزیزم. مدرسه چطور بود؟ تکلیف داری؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "homework",
       "first",
-      "fifa",
+      "deal",
       "then",
-      "deal"
+      "fifa"
      ],
      "suggestion": "Homework first, then FIFA. Deal?",
      "suggestionFa": "اول تکلیف، بعد فیفا. قبول؟",
@@ -66,19 +66,19 @@
    "speaker": "mehdi",
    "text": "Deal. Can Josh come round after?",
    "translations": {
-    "fa": "قبول. جاش می‌تونه بعدش بیاد خونه‌مون؟"
+    "fa": "قبول. جاش می‌تونه بعدش بیاد؟"
    },
    "branches": [
     {
      "keywords": [
-      "room's",
-      "shoes",
-      "take",
-      "only",
-      "tidy"
+      "homework",
+      "hungry",
+      "first",
+      "nice",
+      "try"
      ],
-     "suggestion": "Only if your room's tidy. And take your shoes off the sofa!",
-     "suggestionFa": "فقط اگه اتاقت مرتب باشه. و کفش‌هات رو از روی مبل بردار!",
+     "suggestion": "Nice try. Homework first. Are you hungry?",
+     "suggestionFa": "تلاش خوبی بود. اول تکلیف. گشنه‌ای؟",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -88,6 +88,156 @@
   },
   "r4": {
    "id": "r4",
+   "speaker": "mehdi",
+   "text": "Starving! What's for tea?",
+   "translations": {
+    "fa": "دارم میمیرم! شام چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shepherd's",
+      "apple",
+      "have",
+      "pie",
+      "six"
+     ],
+     "suggestion": "Shepherd's pie at six. Have an apple for now.",
+     "suggestionFa": "پای چوپان ساعت شش. فعلاً یه سیب بخور.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "An apple? Can't I have crisps?",
+   "translations": {
+    "fa": "سیب؟ نمی‌تونم چیپس بخورم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "history",
+      "project",
+      "crisps",
+      "after",
+      "hand"
+     ],
+     "suggestion": "Crisps after tea. Did you hand in your history project?",
+     "suggestionFa": "چیپس بعد از شام. پروژهٔ تاریخت را تحویل دادی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, I got a merit.",
+   "translations": {
+    "fa": "آره، نمرهٔ خوب گرفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "room's",
+      "round",
+      "thing",
+      "first"
+     ],
+     "suggestion": "Ryan! Hand it in tomorrow, first thing. Now, Josh can come round — if your room's tidy.",
+     "suggestionFa": "رایان! فردا اول وقت تحویلش بده. حالا، جاش می‌تونه بیاد — اگه اتاقت مرتب باشه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "My room is tidy. Ish.",
+   "translations": {
+    "fa": "اتاقم مرتبه. تقریباً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enough",
+      "isn't",
+      "shoes",
+      "take",
+      "sofa"
+     ],
+     "suggestion": "\"Ish\" isn't good enough. And take your shoes off the sofa!",
+     "suggestionFa": "«تقریباً» کافی نیست. و کفش‌هات را از رو مبل بردار!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Sorry, Mum.",
+   "translations": {
+    "fa": "ببخشید مامان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "never",
+      "give",
+      "old",
+      "mum",
+      "now"
+     ],
+     "suggestion": "Off! Now, give your mum a hug. You're never too old.",
+     "suggestionFa": "بردار! حالا، مامانت را بغل کن. هیچ‌وقت برای این کار پیر نیستی.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Mum! Fine. Just a quick one.",
+   "translations": {
+    "fa": "مامان! باشه. فقط یه کوتاهش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweetheart",
+      "kitchen",
+      "squash",
+      "maths",
+      "table"
+     ],
+     "suggestion": "Love you too, sweetheart. Right — maths. Kitchen table, now. I'll make you a squash.",
+     "suggestionFa": "منم دوستت دارم عزیزم. خب — ریاضی. میز آشپزخونه، همین الان. برات یه شربت درست می‌کنم.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Leslie! See you later.",
    "translations": {

@@ -7,43 +7,40 @@
  "setting": "The Copper Kettle, Sunday 1pm",
  "settingFa": "رستوران کاپر کتل، یکشنبه ساعت ۱",
  "requires": null,
- "start": "r1",
+ "start": "n1",
  "nodes": {
-  "r1": {
-   "id": "r1",
+  "n1": {
+   "id": "n1",
    "speaker": "sophie",
    "text": "Hiya, are you ready to order, or do you need a few more minutes?",
    "translations": {
-    "fa": "سلام، آماده‌اید سفارش بدید یا چند دقیقهٔ دیگه وقت لازم دارید؟"
+    "fa": "سلام، آماده‌اید سفارش بدید، یا چند دقیقهٔ دیگه لازم دارید؟"
    },
    "branches": [
     {
      "keywords": [
-      "ready",
+      "we're",
       "roast",
-      "beef",
-      "chicken",
-      "order",
-      "could i have",
-      "i'll have"
+      "ready",
+      "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
-     "suggestionFa": "آماده‌ایم. می‌شه رست‌بیف بیارید لطفاً؟",
+     "suggestionFa": "آماده‌ایم. می‌شه رست‌بیف بگیرم، لطفاً؟",
      "trustDelta": 7,
-     "next": "r2",
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
       "minutes",
-      "more time",
-      "not yet",
-      "few"
+      "more",
+      "few",
+      "we"
      ],
      "suggestion": "Could we have a few more minutes, please?",
-     "suggestionFa": "می‌شه چند دقیقهٔ دیگه وقت بدید لطفاً؟",
-     "trustDelta": 5,
-     "next": "r1b",
+     "suggestionFa": "می‌شه چند دقیقهٔ دیگه وقت بدید، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
@@ -53,158 +50,385 @@
      "fa": "آمادهٔ سفارش"
     },
     {
-     "word": "roast",
-     "fa": "کباب تنوری / رست"
-    }
-   ],
-   "cultureNote": {
-    "en": "A Sunday roast — meat, roast potatoes, veg and gravy — is a beloved British tradition.",
-    "fa": "«Sunday roast» — گوشت، سیب‌زمینی تنوری، سبزی و سس گریوی — سنتی محبوب در بریتانیاست."
-   }
-  },
-  "r1b": {
-   "id": "r1b",
-   "speaker": "sophie",
-   "text": "No rush at all. … Right, what can I get you?",
-   "translations": {
-    "fa": "اصلاً عجله‌ای نیست. … خب، چی براتون بیارم؟"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "roast",
-      "beef",
-      "chicken",
-      "have",
-      "please",
-      "fish"
-     ],
-     "suggestion": "I'll have the roast chicken, please.",
-     "suggestionFa": "مرغ تنوری می‌خورم، لطفاً.",
-     "trustDelta": 6,
-     "next": "r2",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "no rush",
-     "fa": "عجله‌ای نیست"
+     "word": "roast beef",
+     "fa": "گوشت گاو کبابی"
     }
    ],
    "cultureNote": null
   },
-  "r2": {
-   "id": "r2",
+  "n2": {
+   "id": "n2",
    "speaker": "sophie",
-   "text": "Lovely choice. Does anyone have any allergies I should know about?",
+   "text": "No problem. Can I get you any drinks while you decide?",
    "translations": {
-    "fa": "انتخاب خوبیه. کسی حساسیت غذایی داره که باید بدونم؟"
+    "fa": "مشکلی نیست. تا تصمیم بگیرید نوشیدنی بیارم؟"
    },
    "branches": [
     {
      "keywords": [
-      "nuts",
-      "allergic",
-      "allergy",
-      "gluten",
-      "dairy"
+      "water",
+      "tap",
+      "jug"
      ],
-     "suggestion": "Yes, my daughter is allergic to nuts.",
-     "suggestionFa": "بله، دخترم به آجیل حساسیت دارد.",
-     "trustDelta": 8,
-     "next": "r3",
+     "suggestion": "A jug of tap water, please.",
+     "suggestionFa": "یه پارچ آب لوله‌کشی، لطفاً.",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "none",
-      "nobody",
-      "fine"
+      "lemonade",
+      "orange",
+      "juice"
+     ],
+     "suggestion": "An orange juice and a lemonade, please.",
+     "suggestionFa": "یه آب پرتقال و یه لیموناد، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jug",
+     "fa": "پارچ"
+    },
+    {
+     "word": "tap water",
+     "fa": "آب لوله‌کشی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Restaurants in the UK must give free tap water if you ask for it.",
+    "fa": "آب لوله‌کشی رایگان است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sophie",
+   "text": "Lovely. Today's specials are lamb or nut roast. Everything comes with Yorkshire pudding.",
+   "translations": {
+    "fa": "عالیه. پیشنهاد امروز گوشت بره یا رست آجیلیه. همه چی با یورکشایر پودینگ میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "please",
+      "have",
+      "i'll"
+     ],
+     "suggestion": "I'll have the roast chicken, please.",
+     "suggestionFa": "مرغ کبابی می‌گیرم، لطفاً.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "nut"
+     ],
+     "suggestion": "What's a nut roast?",
+     "suggestionFa": "نات رست چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "specials",
+     "fa": "غذاهای ویژه"
+    },
+    {
+     "word": "lamb",
+     "fa": "گوشت بره"
+    },
+    {
+     "word": "nut roast",
+     "fa": "رست گیاهی آجیلی"
+    },
+    {
+     "word": "Yorkshire pudding",
+     "fa": "یورکشایر پودینگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sunday roast — meat, roast potatoes, veg, gravy and Yorkshire pudding — is a beloved British tradition.",
+    "fa": "کباب یکشنبه سنت محبوب است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sophie",
+   "text": "It's a vegetarian loaf of nuts and veg. Very popular! Does anyone have any allergies I should know about?",
+   "translations": {
+    "fa": "یه قالب گیاهی از آجیل و سبزیه. خیلی محبوبه! کسی حساسیتی داره که باید بدونم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "allergic",
+      "daughter",
+      "nuts"
+     ],
+     "suggestion": "Yes, my daughter is allergic to nuts.",
+     "suggestionFa": "آره، دخترم به آجیل حساسیت داره.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "allergies",
+      "thanks"
      ],
      "suggestion": "No, no allergies, thanks.",
      "suggestionFa": "نه، حساسیتی نداریم، ممنون.",
      "trustDelta": 6,
-     "next": "r3",
+     "next": "n5",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "allergic to",
-     "fa": "حساسیت داشتن به"
+     "word": "loaf",
+     "fa": "قالب"
+    },
+    {
+     "word": "allergies",
+     "fa": "حساسیت‌ها"
+    },
+    {
+     "word": "allergic",
+     "fa": "حساس"
     }
    ],
-   "cultureNote": {
-    "en": "UK restaurants must tell you about 14 major allergens — always ask.",
-    "fa": "رستوران‌های بریتانیا باید دربارهٔ ۱۴ آلرژن اصلی اطلاع بدهند — حتماً بپرس."
-   }
+   "cultureNote": null
   },
-  "r3": {
-   "id": "r3",
+  "n5": {
+   "id": "n5",
    "speaker": "sophie",
    "text": "Noted. And for the little one — would she like the kids' menu? It comes with a pudding.",
    "translations": {
-    "fa": "یادداشت کردم. و برای کوچولو — منوی بچه‌ها می‌خواد؟ با دسر میاد."
+    "fa": "یادداشت شد. و برای کوچولو — منوی بچه‌ها می‌خواد؟ با یه دسر میاد."
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "kids",
       "please",
-      "lovely",
-      "pudding"
+      "she'd",
+      "love"
      ],
      "suggestion": "Yes please, she'd love that.",
-     "suggestionFa": "بله لطفاً، خیلی دوست دارد.",
+     "suggestionFa": "آره لطفاً، عاشقش میشه.",
      "trustDelta": 7,
-     "next": "r4",
+     "next": "n6",
      "success": true
     },
     {
      "keywords": [
-      "share",
-      "no",
-      "small"
+      "thanks",
+      "she'll",
+      "share"
      ],
      "suggestion": "No thanks, she'll share with me.",
-     "suggestionFa": "نه ممنون، با من شریک می‌شود.",
-     "trustDelta": 5,
-     "next": "r4",
+     "suggestionFa": "نه ممنون، با من شریک میشه.",
+     "trustDelta": 6,
+     "next": "n6",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "pudding",
-     "fa": "دسر (بریتانیایی)"
-    },
-    {
      "word": "the little one",
      "fa": "کوچولو"
+    },
+    {
+     "word": "kids' menu",
+     "fa": "منوی کودک"
+    },
+    {
+     "word": "pudding",
+     "fa": "دسر"
+    },
+    {
+     "word": "share",
+     "fa": "شریک شدن"
     }
    ],
    "cultureNote": {
-    "en": "In Britain 'pudding' (or 'pud') often just means dessert.",
-    "fa": "در بریتانیا «pudding» اغلب فقط یعنی دسر."
+    "en": "In Britain, \"pudding\" often just means dessert.",
+    "fa": "pudding اغلب یعنی دسر."
    }
   },
-  "r4": {
-   "id": "r4",
+  "n6": {
+   "id": "n6",
    "speaker": "sophie",
-   "text": "Perfect. I'll bring some water over. Just give me a shout if you need anything.",
+   "text": "Here we are. Careful, the plates are hot. Can I get you anything else?",
    "translations": {
-    "fa": "عالی. آب براتون میارم. اگه چیزی لازم داشتید صدام کنید."
+    "fa": "بفرمایید. مراقب باشید، بشقاب‌ها داغن. چیز دیگه‌ای بیارم؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "give me a shout",
-     "fa": "صدام کن"
+     "keywords": [
+      "please",
+      "could",
+      "gravy",
+      "more"
+     ],
+     "suggestion": "Could we have some more gravy, please?",
+     "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "that's",
+      "thank"
+     ],
+     "suggestion": "No, that's perfect, thank you.",
+     "suggestionFa": "نه، عالیه، ممنون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "careful",
+     "fa": "مراقب"
+    },
+    {
+     "word": "plates",
+     "fa": "بشقاب‌ها"
+    },
+    {
+     "word": "gravy",
+     "fa": "سس گوشت"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sophie",
+   "text": "Is everything alright with your meals?",
+   "translations": {
+    "fa": "همه چی با غذاهاتون خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "thank"
+     ],
+     "suggestion": "It's delicious, thank you.",
+     "suggestionFa": "خوشمزه‌ست، ممنون.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chicken",
+      "afraid",
+      "cold",
+      "bit"
+     ],
+     "suggestion": "The chicken is a bit cold, I'm afraid.",
+     "suggestionFa": "متأسفانه مرغ یه کم سرده.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "meals",
+     "fa": "وعده‌های غذا"
+    },
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Staff often check \"Is everything alright?\" — it's fine to politely mention a problem.",
+    "fa": "گفتن مؤدبانهٔ مشکل اشکالی ندارد."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sophie",
+   "text": "Glad you're enjoying it. Can I tempt you with any desserts? Sticky toffee pudding is a favourite.",
+   "translations": {
+    "fa": "خوشحالم که لذت می‌برید. می‌تونم وسوسه‌تون کنم با دسر؟ پودینگ تافی خیلی محبوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pudding",
+      "custard",
+      "toffee",
+      "sticky"
+     ],
+     "suggestion": "Go on then, sticky toffee pudding with custard!",
+     "suggestionFa": "باشه پس، پودینگ تافی با کاستارد!",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "we're",
+      "bill",
+      "full"
+     ],
+     "suggestion": "Just the bill, please. We're full.",
+     "suggestionFa": "فقط صورت‌حساب، لطفاً. سیریم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tempt",
+     "fa": "وسوسه کردن"
+    },
+    {
+     "word": "sticky toffee pudding",
+     "fa": "پودینگ خرمای تافی"
+    },
+    {
+     "word": "the bill",
+     "fa": "صورت‌حساب"
+    },
+    {
+     "word": "full",
+     "fa": "سیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"bill\" = American \"check\". Tipping around 10–12.5% is common; check if service is included.",
+    "fa": "bill همان check است."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "sophie",
+   "text": "Perfect. I'll bring it over. Just give me a shout if you need anything.",
+   "translations": {
+    "fa": "عالیه. میارمش. اگه چیزی لازم داشتید صدام کنید."
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

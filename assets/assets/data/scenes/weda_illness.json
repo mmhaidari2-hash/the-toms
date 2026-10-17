@@ -10,120 +10,443 @@
   "characterId": "william",
   "milestone": "M2"
  },
- "start": "w1",
+ "start": "n1",
  "nodes": {
-  "w1": {
-   "id": "w1",
+  "n1": {
+   "id": "n1",
    "speaker": "weda",
    "text": "Poor lamb's a bit under the weather. Can you feel his forehead — does he feel hot?",
    "translations": {
-    "fa": "طفلکی کمی ناخوشه. پیشونیش رو لمس کن — داغه؟"
+    "fa": "طفلکی یه کم ناخوشه. می‌تونی پیشونیش را لمس کنی — داغه؟"
    },
    "branches": [
     {
      "keywords": [
-      "hot",
-      "warm",
       "temperature",
-      "yes",
-      "burning"
+      "shall",
+      "quite",
+      "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
-     "suggestionFa": "آره، کمی داغه. دماش رو بگیریم؟",
-     "trustDelta": 8,
-     "next": "w2",
+     "suggestionFa": "آره، نسبتاً داغه. دماش را بگیریم؟",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "normal",
-      "fine",
-      "cool"
+      "really",
+      "normal"
      ],
      "suggestion": "Not really — he feels normal to me.",
      "suggestionFa": "نه زیاد — به نظرم عادیه.",
      "trustDelta": 6,
-     "next": "w2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
+     "word": "poor lamb",
+     "fa": "طفلکی"
+    },
+    {
      "word": "under the weather",
-     "fa": "کمی ناخوش (اصطلاح)"
+     "fa": "ناخوش"
     },
     {
      "word": "forehead",
      "fa": "پیشانی"
     },
     {
-     "word": "poor lamb",
-     "fa": "طفلکی (محبت‌آمیز)"
+     "word": "temperature",
+     "fa": "دمای بدن"
     }
    ],
-   "cultureNote": {
-    "en": "'Under the weather' is the classic British way to say slightly ill.",
-    "fa": "«Under the weather» روش کلاسیک بریتانیایی برای گفتن «کمی ناخوش» است."
-   }
+   "cultureNote": null
   },
-  "w2": {
-   "id": "w2",
+  "n2": {
+   "id": "n2",
    "speaker": "weda",
-   "text": "38.2. Not too bad. Could you fetch the Calpol from the cupboard and a glass of water?",
+   "text": "Let's check. The thermometer's in the drawer — pop it under his arm.",
    "translations": {
-    "fa": "۳۸.۲. خیلی بد نیست. می‌شه کالپول رو از کابینت بیاری با یه لیوان آب؟"
+    "fa": "بیا چک کنیم. دماسنج تو کشوئه — بذارش زیر بغلش."
    },
    "branches": [
     {
      "keywords": [
-      "fetch",
-      "get",
-      "here",
-      "calpol",
-      "water",
-      "course"
+      "leave",
+      "long",
+      "got",
+      "how"
      ],
-     "suggestion": "Of course — here's the Calpol and some water.",
-     "suggestionFa": "حتماً — این کالپول و کمی آب.",
-     "trustDelta": 8,
-     "next": "w3",
+     "suggestion": "Got it. How long do I leave it?",
+     "suggestionFa": "باشه. چقدر نگهش دارم؟",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wriggling",
+      "like",
+      "he's"
+     ],
+     "suggestion": "Like this? He's wriggling!",
+     "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
+    {
+     "word": "thermometer",
+     "fa": "دماسنج"
+    },
+    {
+     "word": "drawer",
+     "fa": "کشو"
+    },
+    {
+     "word": "pop",
+     "fa": "گذاشتن"
+    },
+    {
+     "word": "wriggling",
+     "fa": "وول خوردن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Until it beeps. There — 38.2. Not too bad. Has he been eating?",
+   "translations": {
+    "fa": "تا بوق بزنه. ایناهاش — ۳۸.۲. خیلی بد نیست. غذا خورده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teatime",
+      "toast",
+      "only",
+      "had"
+     ],
+     "suggestion": "He only had a bit of toast at teatime.",
+     "suggestionFa": "سر شام فقط یه کم نون تست خورد.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pushed",
+      "dinner",
+      "much",
+      "away"
+     ],
+     "suggestion": "Not much. He pushed his dinner away.",
+     "suggestionFa": "زیاد نه. شامش را پس زد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "beeps",
+     "fa": "بوق می‌زند"
+    },
+    {
+     "word": "teatime",
+     "fa": "وقت شام"
+    },
+    {
+     "word": "pushed away",
+     "fa": "پس زد"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, a temperature of 38°C or above counts as a fever.",
+    "fa": "۳۸ درجه یا بیشتر تب است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Little ones often go off their food. Could you fetch the Calpol from the cupboard and a glass of water?",
+   "translations": {
+    "fa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی کالپول را از کابینت بیاری و یه لیوان آب؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "calpol",
+      "course",
+      "water"
+     ],
+     "suggestion": "Of course — here's the Calpol and some water.",
+     "suggestionFa": "حتماً — اینم کالپول و یه کم آب.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cupboard",
+      "kettle",
+      "above",
+      "which"
+     ],
+     "suggestion": "Which cupboard? The one above the kettle?",
+     "suggestionFa": "کدوم کابینت؟ اونی که بالای کتریه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "go off their food",
+     "fa": "بی‌اشتها شدن"
+    },
     {
      "word": "fetch",
      "fa": "آوردن"
     },
     {
      "word": "cupboard",
-     "fa": "کابینت / گنجه"
+     "fa": "کابینت"
+    },
+    {
+     "word": "Calpol",
+     "fa": "شربت پاراستامول کودکان"
     }
    ],
    "cultureNote": {
-    "en": "Calpol is the UK's famous children's paracetamol syrup — every family has some.",
-    "fa": "کالپول شربت پاراستامول معروف کودکان در بریتانیاست — همهٔ خانواده‌ها دارند."
+    "en": "Calpol is a common children's paracetamol syrup in the UK. Always check the dose on the box.",
+    "fa": "کالپول شربت پاراستامول کودکان است."
    }
   },
-  "w3": {
-   "id": "w3",
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "That's the one. Five millilitres for his age — check the box, would you?",
+   "translations": {
+    "fa": "همونه. برای سنش پنج میلی‌لیتر — جعبه را چک می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "says",
+      "ages",
+      "two"
+     ],
+     "suggestion": "It says five ml for ages two to four.",
+     "suggestionFa": "نوشته پنج میلی برای دو تا چهار سال.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "hours",
+      "six"
+     ],
+     "suggestion": "Yes, five ml, every four to six hours.",
+     "suggestionFa": "آره، پنج میلی، هر چهار تا شش ساعت.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "millilitres",
+     "fa": "میلی‌لیتر"
+    },
+    {
+     "word": "dose",
+     "fa": "دوز"
+    },
+    {
+     "word": "every four hours",
+     "fa": "هر چهار ساعت"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Good. Open wide, my darling… there. Brave boy. Now let's get him cool — not cold, mind.",
+   "translations": {
+    "fa": "خوبه. دهنت را باز کن عزیزم… بفرما. پسر شجاع. حالا خنکش کنیم — نه سرد، مواظب باش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "window",
+      "shall",
+      "open",
+      "bit"
+     ],
+     "suggestion": "Shall I open the window a bit?",
+     "suggestionFa": "پنجره را یه کم باز کنم؟",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "jumper",
+      "take",
+      "off"
+     ],
+     "suggestion": "Should I take his jumper off?",
+     "suggestionFa": "ژاکتش را دربیارم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    },
+    {
+     "word": "cool",
+     "fa": "خنک"
+    },
+    {
+     "word": "mind",
+     "fa": "مواظب باش"
+    },
+    {
+     "word": "jumper",
+     "fa": "ژاکت"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Yes, just a vest and a light blanket. In my day, we wrapped them up warm. Doctors say otherwise now.",
+   "translations": {
+    "fa": "آره، فقط یه زیرپوش و یه پتوی سبک. زمان ما، گرم می‌پیچیدیمشون. دکترها الان چیز دیگه‌ای می‌گن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "things",
+      "change",
+      "don't",
+      "they"
+     ],
+     "suggestion": "Things change, don't they?",
+     "suggestionFa": "اوضاع عوض میشه، نه؟",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wrapped",
+      "warm",
+      "mum",
+      "up"
+     ],
+     "suggestion": "My mum wrapped me up warm too!",
+     "suggestionFa": "مامانم هم منو گرم می‌پیچید!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "vest",
+     "fa": "زیرپوش"
+    },
+    {
+     "word": "in my day",
+     "fa": "زمان ما"
+    },
+    {
+     "word": "wrapped up",
+     "fa": "پیچیدن"
+    },
+    {
+     "word": "otherwise",
+     "fa": "برعکس"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"vest\" = American \"undershirt\"; American \"vest\" = British \"waistcoat\".",
+    "fa": "vest بریتانیایی زیرپوش است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Mothers everywhere, eh? Look, his eyes are closing. Will you sit with him while I make some tea?",
+   "translations": {
+    "fa": "مادرها همه جا، ها؟ ببین، چشماش داره بسته میشه. تا من چای درست می‌کنم پیشش می‌شینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "story",
+      "read"
+     ],
+     "suggestion": "Of course. I'll read him a story.",
+     "suggestionFa": "حتماً. براش قصه می‌خونم.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "lullaby",
+      "sing"
+     ],
+     "suggestion": "Yes. I'll sing him a Persian lullaby.",
+     "suggestionFa": "آره. براش یه لالایی فارسی می‌خونم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lullaby",
+     "fa": "لالایی"
+    },
+    {
+     "word": "story",
+     "fa": "قصه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
    "speaker": "weda",
    "text": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
    "translations": {
-    "fa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً بلدی باهاش."
+    "fa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً باهاش خوبی."
    },
    "branches": [],
-   "newWords": [
-    {
-     "word": "ring",
-     "fa": "زنگ زدن (بریتانیایی)"
-    },
-    {
-     "word": "a natural",
-     "fa": "کسی که ذاتاً بلد است"
-    }
-   ],
+   "newWords": [],
    "cultureNote": null
   }
  }

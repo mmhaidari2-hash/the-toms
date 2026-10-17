@@ -24,8 +24,8 @@
       "mondays",
       "monday",
       "hate",
-      "best",
-      "like"
+      "like",
+      "best"
      ],
      "suggestion": "Ugh, Monday. I hate Mondays. What day do you like best?",
      "suggestionFa": "اه، دوشنبه. از دوشنبه بدم میاد. کدوم روز را بیشتر دوست داری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "wednesdays",
       "football",
-      "tuesdays",
       "swimming",
+      "tuesdays",
       "nicola"
      ],
      "suggestion": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "nursery",
       "william",
+      "nursery",
       "plays",
       "lucky",
       "sand"
@@ -99,8 +99,8 @@
       "finishes",
       "hospital",
       "starts",
-      "works",
-      "eight"
+      "eight",
+      "works"
      ],
      "suggestion": "Mum works at the hospital. She starts at eight and finishes at four.",
      "suggestionFa": "مامان توی بیمارستان کار می‌کنه. ساعت هشت شروع می‌کنه و چهار تموم.",
@@ -123,8 +123,8 @@
      "keywords": [
       "drinks",
       "office",
-      "she's",
       "about",
+      "she's",
       "works"
      ],
      "suggestion": "Yeah, she's a nurse. Dad works in an office. He drinks about ten cups of tea a day.",
@@ -150,7 +150,7 @@
       "sundays",
       "comes",
       "roast",
-      "nana"
+      "best"
      ],
      "suggestion": "On Thursdays Nana comes for tea. On Sundays we have a roast. Best day!",
      "suggestionFa": "پنجشنبه‌ها نانا برای شام میاد. یکشنبه‌ها کباب یکشنبه داریم. بهترین روز!",

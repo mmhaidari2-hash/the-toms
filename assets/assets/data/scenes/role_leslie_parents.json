@@ -7,94 +7,417 @@
  "setting": "School hall, 6pm",
  "settingFa": "سالن مدرسه، ساعت ۶",
  "requires": null,
- "start": "l1",
+ "start": "n1",
  "nodes": {
-  "l1": {
-   "id": "l1",
+  "n1": {
+   "id": "n1",
    "speaker": "patel",
    "text": "Mrs Thompson, thanks for coming. I'm afraid Ryan's been late four times this term.",
    "translations": {
-    "fa": "خانم تامسون، ممنون که اومدید. متأسفانه رایان این ترم چهار بار دیر اومده."
+    "fa": "خانم تامپسون، ممنون که اومدید. متأسفانه رایان این ترم چهار بار دیر اومده."
    },
    "branches": [
     {
      "keywords": [
-      "sorry",
-      "bus",
-      "talk",
+      "tonight",
+      "didn't",
       "speak",
-      "know",
-      "didn't"
+      "sorry"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
-     "suggestionFa": "متأسفم — نمی‌دانستم. امشب باهاش صحبت می‌کنم.",
-     "trustDelta": 8,
-     "next": "l2",
+     "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leaves",
+      "times",
+      "house",
+      "time"
+     ],
+     "suggestion": "Four times? He leaves the house on time!",
+     "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "this term",
-     "fa": "این ترم"
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "term",
+     "fa": "ترم"
+    },
+    {
+     "word": "on time",
+     "fa": "سر وقت"
     }
    ],
    "cultureNote": null
   },
-  "l2": {
-   "id": "l2",
+  "n2": {
+   "id": "n2",
    "speaker": "patel",
-   "text": "Thank you. Otherwise, he's doing well. Do you have any questions?",
+   "text": "He says the bus is late, but some friends say he stops at the chicken shop.",
    "translations": {
-    "fa": "ممنون. جدا از این، خوب پیش می‌ره. سؤالی دارید؟"
+    "fa": "می‌گه اتوبوس دیر میاد، ولی بعضی از دوستاش می‌گن جلوی مرغ‌سوخاری‌فروشی وایمیسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "morning",
+      "eight",
+      "shop"
+     ],
+     "suggestion": "The chicken shop! At eight in the morning?",
+     "suggestionFa": "مرغ‌فروشی! ساعت هشت صبح؟",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "breakfast",
+      "explains",
+      "never",
+      "eats"
+     ],
+     "suggestion": "That explains why he never eats breakfast.",
+     "suggestionFa": "این توضیح می‌ده چرا هیچ‌وقت صبحونه نمی‌خوره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chicken shop",
+     "fa": "مغازهٔ مرغ سوخاری"
+    },
+    {
+     "word": "explains",
+     "fa": "توضیح می‌دهد"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "patel",
+   "text": "Ha — teenagers. Shall we agree a plan? Maybe he could text you when he arrives.",
+   "translations": {
+    "fa": "ها — نوجوون‌ها. یه برنامه توافق کنیم؟ شاید وقتی رسید بهتون پیام بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "make",
+      "idea",
+      "good",
+      "sure"
+     ],
+     "suggestion": "Good idea. I'll make sure he does.",
+     "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drives",
+      "check",
+      "ask",
+      "dad"
+     ],
+     "suggestion": "His dad drives the bus — I'll ask Tom to check!",
+     "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "agree a plan",
+     "fa": "برنامه توافق کردن"
+    },
+    {
+     "word": "text",
+     "fa": "پیام دادن"
+    },
+    {
+     "word": "make sure",
+     "fa": "مطمئن شدن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "patel",
+   "text": "Thank you. Otherwise, he's doing well. His maths is excellent.",
+   "translations": {
+    "fa": "ممنون. جدا از این، خوب پیش میره. ریاضیش عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "that's",
+      "about",
+      "hear"
+     ],
+     "suggestion": "That's good to hear. What about English?",
+     "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grandad",
+      "gets",
+      "from",
+      "his"
+     ],
+     "suggestion": "He gets that from his grandad.",
+     "suggestionFa": "این را از پدربزرگش گرفته.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "otherwise",
+     "fa": "جدا از این"
+    },
+    {
+     "word": "excellent",
+     "fa": "عالی"
+    },
+    {
+     "word": "grandad",
+     "fa": "پدربزرگ"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "patel",
+   "text": "English is fine, but he rushes his essays. Reading at home would help.",
+   "translations": {
+    "fa": "انگلیسیش خوبه، ولی انشاهاش را با عجله می‌نویسه. کتاب خوندن تو خونه کمک می‌کنه."
    },
    "branches": [
     {
      "keywords": [
       "football",
-      "team",
-      "maths",
-      "friends",
-      "settled",
-      "how is"
+      "reads",
+      "count",
+      "news"
      ],
-     "suggestion": "How's he getting on with his friends?",
-     "suggestionFa": "با دوست‌هاش چطوره؟",
-     "trustDelta": 8,
-     "next": "l3",
+     "suggestion": "He only reads football news. Does that count?",
+     "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "library",
+      "card",
+      "i'll",
+      "him"
+     ],
+     "suggestion": "I'll get him a library card.",
+     "suggestionFa": "براش کارت کتابخونه می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n6",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "getting on with",
-     "fa": "رابطه داشتن با"
+     "word": "rushes",
+     "fa": "با عجله انجام می‌دهد"
     },
     {
-     "word": "otherwise",
-     "fa": "جدا از این"
+     "word": "essays",
+     "fa": "انشاها"
+    },
+    {
+     "word": "count",
+     "fa": "حساب شدن"
     }
    ],
    "cultureNote": null
   },
-  "l3": {
-   "id": "l3",
+  "n6": {
+   "id": "n6",
    "speaker": "patel",
-   "text": "He's very popular — a bit too chatty in lessons, if anything!",
+   "text": "Anything is better than nothing! Football biographies are a good start. Do you have any questions?",
    "translations": {
-    "fa": "خیلی محبوبه — اگه بخوام ایرادی بگیرم، سر کلاس کمی زیادی پرحرفه!"
+    "fa": "هر چیزی بهتر از هیچیه! زندگی‌نامه‌های فوتبالی شروع خوبیه. سؤالی دارید؟"
    },
-   "branches": [],
+   "branches": [
+    {
+     "keywords": [
+      "friends",
+      "getting",
+      "how's"
+     ],
+     "suggestion": "How's he getting on with his friends?",
+     "suggestionFa": "با دوستاش چطوره؟",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "options",
+      "ready",
+      "gcse"
+     ],
+     "suggestion": "Is he ready for his GCSE options?",
+     "suggestionFa": "برای انتخاب درس‌های GCSE آماده‌ست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
    "newWords": [
+    {
+     "word": "biographies",
+     "fa": "زندگی‌نامه‌ها"
+    },
+    {
+     "word": "getting on with",
+     "fa": "رابطه داشتن با"
+    },
+    {
+     "word": "options",
+     "fa": "درس‌های انتخابی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Year 9, pupils choose their \"GCSE options\" — the subjects they'll study until sixteen.",
+    "fa": "در سال نهم درس‌های GCSE انتخاب می‌شوند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "patel",
+   "text": "He's very popular — a bit too chatty in lessons, if anything! He's thinking about engineering.",
+   "translations": {
+    "fa": "خیلی محبوبه — اگه چیزی باشه، سر کلاس یه کم زیادی پرحرفه! داره به مهندسی فکر می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineering",
+      "never",
+      "told"
+     ],
+     "suggestion": "Engineering? He never told me!",
+     "suggestionFa": "مهندسی؟ هیچ‌وقت به من نگفت!",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wonderful",
+      "building",
+      "things",
+      "that's"
+     ],
+     "suggestion": "That's wonderful. He loves building things.",
+     "suggestionFa": "فوق‌العاده‌ست. عاشق ساختن چیزهاست.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "popular",
+     "fa": "محبوب"
+    },
     {
      "word": "chatty",
      "fa": "پرحرف"
     },
     {
      "word": "if anything",
-     "fa": "اگر ایرادی باشد"
+     "fa": "اگر چیزی باشد"
     }
    ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "patel",
+   "text": "He's shy about it, I think. Encourage him — physics and maths would keep that door open.",
+   "translations": {
+    "fa": "فکر کنم دربارش خجالت می‌کشه. تشویقش کنید — فیزیک و ریاضی اون در را باز نگه می‌داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patel",
+      "thank",
+      "will",
+      "mrs"
+     ],
+     "suggestion": "I will. Thank you, Mrs Patel.",
+     "suggestionFa": "حتماً. ممنون خانم پاتل.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "thanks",
+      "really",
+      "much"
+     ],
+     "suggestion": "Thanks so much — this has been really helpful.",
+     "suggestionFa": "خیلی ممنون — واقعاً مفید بود.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "encourage",
+     "fa": "تشویق کردن"
+    },
+    {
+     "word": "keep the door open",
+     "fa": "راه را باز نگه داشتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "patel",
+   "text": "My pleasure. And tell him: no more chicken before registration!",
+   "translations": {
+    "fa": "خواهش می‌کنم. و بهش بگید: دیگه مرغ قبل از حضورغیاب نه!"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

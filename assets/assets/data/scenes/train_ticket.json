@@ -7,171 +7,403 @@
  "setting": "London Paddington, Platform 9",
  "settingFa": "ایستگاه پدینگتون لندن، سکوی ۹",
  "requires": null,
- "start": "t1",
+ "start": "n1",
  "nodes": {
-  "t1": {
-   "id": "t1",
+  "n1": {
+   "id": "n1",
    "speaker": "maya",
    "text": "Afternoon! You look a bit lost — can I help at all?",
    "translations": {
-    "fa": "عصر بخیر! انگار کمی گم شدی — کمکی از دستم برمی‌آید؟"
+    "fa": "عصر بخیر! یه کم گم‌شده به نظر میاید — کمکی از دستم برمیاد؟"
    },
    "branches": [
     {
      "keywords": [
-      "bath",
-      "train",
       "platform",
-      "which",
-      "where",
-      "oxford"
+      "please",
+      "train",
+      "which"
      ],
      "suggestion": "Yes please — which platform is the train to Bath Spa?",
-     "suggestionFa": "بله لطفاً — قطار باث اسپا از کدام سکو است؟",
+     "suggestionFa": "آره لطفاً — قطار باث اسپا از کدوم سکوئه؟",
      "trustDelta": 7,
-     "next": "t2",
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trying",
+      "ticket",
+      "office",
+      "find"
+     ],
+     "suggestion": "I'm trying to find the ticket office.",
+     "suggestionFa": "دنبال باجهٔ بلیت می‌گردم.",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "can I help at all?",
-     "fa": "کمکی می‌توانم بکنم؟ (مؤدبانه)"
+     "word": "lost",
+     "fa": "گم‌شده"
+    },
+    {
+     "word": "platform",
+     "fa": "سکو"
+    },
+    {
+     "word": "ticket office",
+     "fa": "باجهٔ بلیت"
     }
    ],
    "cultureNote": null
   },
-  "t2": {
-   "id": "t2",
+  "n2": {
+   "id": "n2",
    "speaker": "maya",
    "text": "Ah, I'm afraid the 14:30 has been delayed by about twenty minutes, and it's been moved to platform 11.",
    "translations": {
-    "fa": "آه، متأسفانه قطار ۱۴:۳۰ حدود بیست دقیقه تأخیر دارد و به سکوی ۱۱ منتقل شده."
+    "fa": "آه، متأسفانه قطار ۱۴:۳۰ حدود بیست دقیقه تأخیر داره، و به سکوی ۱۱ منتقل شده."
    },
    "branches": [
     {
      "keywords": [
-      "miss",
       "connection",
-      "late",
-      "meeting",
-      "appointment",
-      "oh no"
+      "options",
+      "might",
+      "miss"
      ],
      "suggestion": "Oh no — I might miss my connection. What are my options?",
-     "suggestionFa": "ای وای — شاید به قطار بعدی‌ام نرسم. چه گزینه‌هایی دارم؟",
-     "trustDelta": 8,
-     "next": "t3",
+     "suggestionFa": "ای وای — ممکنه قطار بعدیم را از دست بدم. چه گزینه‌هایی دارم؟",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "fine",
-      "okay",
-      "thanks",
       "coffee",
-      "wait"
+      "that's",
+      "while",
+      "fine"
      ],
      "suggestion": "That's fine, I'll grab a coffee while I wait.",
-     "suggestionFa": "اشکالی ندارد، تا منتظرم یک قهوه می‌گیرم.",
-     "trustDelta": 7,
-     "next": "t3",
+     "suggestionFa": "اشکالی نداره، تا منتظرم یه قهوه می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "I'm afraid",
-     "fa": "متأسفانه (مؤدبانه)"
-    },
-    {
      "word": "delayed",
-     "fa": "تأخیردار"
+     "fa": "تأخیر داشته"
     },
     {
      "word": "connection",
-     "fa": "قطار/پرواز بعدی"
+     "fa": "قطار رابط"
+    },
+    {
+     "word": "options",
+     "fa": "گزینه‌ها"
     }
    ],
-   "cultureNote": {
-    "en": "Brits soften bad news with 'I'm afraid…' — it's politeness, not fear.",
-    "fa": "بریتانیایی‌ها خبر بد را با «I'm afraid…» نرم می‌کنند — ادب است، نه ترس."
-   }
+   "cultureNote": null
   },
-  "t3": {
-   "id": "t3",
+  "n3": {
+   "id": "n3",
    "speaker": "maya",
-   "text": "If you're more than fifteen minutes late, you can claim Delay Repay online. Have you got a railcard, by the way?",
+   "text": "Your ticket's valid on the next train if you miss it. Can I see it, please?",
    "translations": {
-    "fa": "اگر بیش از پانزده دقیقه دیر برسی، می‌توانی آنلاین غرامت تأخیر بگیری. راستی کارت تخفیف قطار داری؟"
+    "fa": "اگه از دستش بدید بلیتتون برای قطار بعدی معتبره. می‌شه ببینمش، لطفاً؟"
    },
    "branches": [
     {
      "keywords": [
-      "no",
-      "what",
-      "railcard",
-      "explain",
-      "haven't"
+      "phone"
      ],
-     "suggestion": "No — what's a railcard?",
-     "suggestionFa": "نه — کارت تخفیف قطار چیست؟",
-     "trustDelta": 8,
-     "next": "t4",
+     "suggestion": "Here it is — it's on my phone.",
+     "suggestionFa": "ایناهاش — رو گوشیمه.",
+     "trustDelta": 7,
+     "next": "n4",
      "success": true
     },
     {
      "keywords": [
-      "yes",
-      "got",
-      "have",
-      "two together",
-      "16-25"
+      "right",
+      "one",
+      "go"
+     ],
+     "suggestion": "Here you go. Is it the right one?",
+     "suggestionFa": "بفرمایید. درسته؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "valid",
+     "fa": "معتبر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "An off-peak return. Good choice — much cheaper than peak.",
+   "translations": {
+    "fa": "رفت‌وبرگشت خارج از ساعت اوج. انتخاب خوبیه — خیلی ارزون‌تر از ساعت اوجه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "between",
+      "what's",
+      "peak"
+     ],
+     "suggestion": "What's the difference between peak and off-peak?",
+     "suggestionFa": "فرق ساعت اوج و غیراوج چیه؟",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "train",
+      "back",
+      "come",
+      "any"
+     ],
+     "suggestion": "Can I come back on any train?",
+     "suggestionFa": "با هر قطاری می‌تونم برگردم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "off-peak",
+     "fa": "خارج از ساعت اوج"
+    },
+    {
+     "word": "return",
+     "fa": "رفت‌وبرگشت"
+    },
+    {
+     "word": "peak",
+     "fa": "ساعت اوج"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK rail fares are much cheaper \"off-peak\", usually after 9:30am and outside the evening rush.",
+    "fa": "بلیت خارج از ساعت اوج ارزان‌تر است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "Peak is rush hour — off-peak is after half nine and not between four and seven. You're fine coming back tonight after seven.",
+   "translations": {
+    "fa": "اوج یعنی ساعت شلوغی — غیراوج بعد از نه و نیم و نه بین چهار تا هفته. امشب بعد از هفت برگردید مشکلی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "know",
+      "good"
+     ],
+     "suggestion": "Good to know, thank you.",
+     "suggestionFa": "خوب شد گفتید، ممنون.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "avoid",
+      "train"
+     ],
+     "suggestion": "So I should avoid the 17:30 train?",
+     "suggestionFa": "پس باید از قطار ۱۷:۳۰ دوری کنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rush hour",
+     "fa": "ساعت شلوغی"
+    },
+    {
+     "word": "avoid",
+     "fa": "دوری کردن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "If you're more than fifteen minutes late, you can claim Delay Repay online. Have you got a railcard, by the way?",
+   "translations": {
+    "fa": "اگه بیشتر از پونزده دقیقه دیر برسید، می‌تونید آنلاین غرامت تأخیر بگیرید. راستی، ریل‌کارت دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "No — what's a railcard?",
+     "suggestionFa": "نه — ریل‌کارت چیه؟",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i've",
+      "got"
      ],
      "suggestion": "Yes, I've got a 16–25 Railcard.",
-     "suggestionFa": "بله، کارت ۱۶ تا ۲۵ سال دارم.",
-     "trustDelta": 7,
-     "next": "t4",
+     "suggestionFa": "آره، ریل‌کارت ۱۶ تا ۲۵ دارم.",
+     "trustDelta": 6,
+     "next": "n7",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "claim",
-     "fa": "مطالبه کردن"
+     "fa": "درخواست کردن"
     },
     {
      "word": "Delay Repay",
-     "fa": "طرح غرامت تأخیر قطار"
+     "fa": "طرح جبران تأخیر قطار"
     },
     {
-     "word": "by the way",
-     "fa": "راستی"
+     "word": "railcard",
+     "fa": "کارت تخفیف قطار"
     }
    ],
    "cultureNote": {
-    "en": "Delay Repay is real: most UK train companies refund part of your fare for delays.",
-    "fa": "Delay Repay واقعی است: بیشتر شرکت‌های قطار بریتانیا بخشی از کرایه را بابت تأخیر پس می‌دهند."
+    "en": "\"Delay Repay\" lets you claim money back for delayed trains.",
+    "fa": "Delay Repay بازپرداخت تأخیر است."
    }
   },
-  "t4": {
-   "id": "t4",
+  "n7": {
+   "id": "n7",
    "speaker": "maya",
-   "text": "It saves you a third on most fares — well worth it if you travel a lot. Right, platform 11, mind the gap!",
+   "text": "It saves you a third on most fares — well worth it if you travel a lot. There's one for over-26s too.",
    "translations": {
-    "fa": "یک‌سوم کرایه را کم می‌کند — اگر زیاد سفر می‌کنی واقعاً می‌ارزد. خب، سکوی ۱۱، مراقب فاصله باش!"
+    "fa": "یک‌سوم کرایه را صرفه‌جویی می‌کنه — اگه زیاد سفر کنید کاملاً می‌ارزه. یکی هم برای بالای ۲۶ سال هست."
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "well worth it",
-     "fa": "واقعاً می‌ارزد"
+     "keywords": [
+      "before",
+      "trip",
+      "next",
+      "i'll"
+     ],
+     "suggestion": "I'll get one before my next trip.",
+     "suggestionFa": "قبل از سفر بعدیم یکی می‌گیرم.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
     },
     {
-     "word": "a third",
-     "fa": "یک‌سوم"
+     "keywords": [
+      "saving",
+      "that's",
+      "third",
+      "big"
+     ],
+     "suggestion": "A third? That's a big saving.",
+     "suggestionFa": "یک‌سوم؟ صرفه‌جویی بزرگیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "saves",
+     "fa": "صرفه‌جویی می‌کند"
+    },
+    {
+     "word": "fares",
+     "fa": "کرایه‌ها"
+    },
+    {
+     "word": "well worth it",
+     "fa": "کاملاً می‌ارزد"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "maya",
+   "text": "Is this your first trip to Bath? The Roman Baths are lovely, and don't miss a Bath bun.",
+   "translations": {
+    "fa": "این اولین سفرتون به باثه؟ حمام‌های رومی قشنگن، و نون شیرینی باث را از دست ندید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "visiting",
+      "friend",
+      "first",
+      "time"
+     ],
+     "suggestion": "Yes, first time. I'm visiting a friend.",
+     "suggestionFa": "آره، بار اول. دارم به یه دوست سر می‌زنم.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "bath",
+      "bun"
+     ],
+     "suggestion": "What's a Bath bun?",
+     "suggestionFa": "نون شیرینی باث چیه؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Roman Baths",
+     "fa": "حمام‌های رومی"
+    },
+    {
+     "word": "bun",
+     "fa": "نان شیرین"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "maya",
+   "text": "Sweet, sticky and very British. Right, platform 11 — follow the signs. Have a lovely trip, and mind the gap!",
+   "translations": {
+    "fa": "شیرین، چسبناک و خیلی بریتانیایی. خب، سکوی ۱۱ — دنبال تابلوها برید. سفر خوبی داشته باشید، و مراقب فاصله باشید!"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

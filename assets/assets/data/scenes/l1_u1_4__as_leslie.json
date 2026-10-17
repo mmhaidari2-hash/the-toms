@@ -22,8 +22,8 @@
     {
      "keywords": [
       "please",
-      "thank",
       "house",
+      "thank",
       "milk",
       "pass"
      ],
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "thank",
-      "want",
       "love",
+      "want",
       "now",
       "ask"
      ],
@@ -208,11 +208,11 @@
    "branches": [
     {
      "keywords": [
-      "need",
       "past",
-      "get",
+      "need",
       "say",
-      "now"
+      "now",
+      "get"
      ],
      "suggestion": "Ha! Now, I need to get past you. What do I say?",
      "suggestionFa": "ها! حالا باید از کنارت رد شم. چی بگم؟",
@@ -315,7 +315,7 @@
       "exactly",
       "thanks",
       "cheers",
-      "quick"
+      "thank"
      ],
      "suggestion": "Exactly. Cheers, ta, thanks — all mean thank you. You're a quick learner!",
      "suggestionFa": "دقیقاً. cheers، ta، thanks — همه یعنی ممنون. تو سریع یاد می‌گیری!",

@@ -7,137 +7,395 @@
  "setting": "The kitchen table",
  "settingFa": "میز آشپزخانه",
  "requires": null,
- "start": "w1",
+ "start": "n1",
  "nodes": {
-  "w1": {
-   "id": "w1",
+  "n1": {
+   "id": "n1",
    "speaker": "william",
    "text": "More! More toast!",
    "translations": {
-    "fa": "باز هم! باز هم نان تُست!"
+    "fa": "بیشتر! نون تست بیشتر!"
    },
    "branches": [
     {
      "keywords": [
       "toast",
       "more",
-      "here",
-      "yes",
-      "bread"
+      "here"
      ],
      "suggestion": "Here you are. More toast!",
-     "suggestionFa": "بفرما. باز هم تُست!",
+     "suggestionFa": "بفرما. نون تست بیشتر!",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "please",
+      "say"
+     ],
+     "suggestion": "Say please, William!",
+     "suggestionFa": "بگو لطفاً، ویلیام!",
      "trustDelta": 6,
-     "next": "w2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "toast",
-     "fa": "نان تُست"
+     "word": "more",
+     "fa": "بیشتر"
     },
     {
-     "word": "more",
-     "fa": "بیشتر / باز هم"
+     "word": "toast",
+     "fa": "نان تست"
     }
    ],
-   "cultureNote": null,
-   "byChapter": {
-    "2": {
-     "text": "More toast, please!",
-     "fa": "نون بیشتر، لطفاً!"
-    },
-    "4": {
-     "text": "Can I have more toast, please, Daddy?",
-     "fa": "می‌شه نون بیشتری بخورم، بابا؟"
-    }
-   }
+   "cultureNote": null
   },
-  "w2": {
-   "id": "w2",
+  "n2": {
+   "id": "n2",
    "speaker": "william",
-   "text": "Mmm! Yum yum. Juice?",
+   "text": "Please! Jam! Red jam!",
    "translations": {
-    "fa": "مممم! به‌به. آبمیوه؟"
+    "fa": "لطفاً! مربا! مربای قرمز!"
    },
    "branches": [
     {
      "keywords": [
-      "juice",
-      "yes",
+      "strawberry",
       "here",
-      "drink",
-      "cup"
+      "go"
      ],
-     "suggestion": "Yes, here's your juice.",
-     "suggestionFa": "بله، این آبمیوه‌ات.",
-     "trustDelta": 6,
-     "next": "w3",
+     "suggestion": "Strawberry jam. Here you go.",
+     "suggestionFa": "مربای توت‌فرنگی. بفرما.",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "no",
+      "butter"
+     ],
+     "suggestion": "Jam or butter?",
+     "suggestionFa": "مربا یا کره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam",
+     "fa": "مربا"
+    },
+    {
+     "word": "strawberry",
+     "fa": "توت‌فرنگی"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Mmm! Yum yum. Juice?",
+   "translations": {
+    "fa": "ممم! به‌به. آب‌میوه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's"
+     ],
+     "suggestion": "Yes, here's your juice.",
+     "suggestionFa": "آره، اینم آب‌میوه‌ات.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
       "milk"
      ],
      "suggestion": "No juice — milk, please.",
-     "suggestionFa": "آبمیوه نه — شیر، لطفاً.",
-     "trustDelta": 4,
-     "next": "w3",
+     "suggestionFa": "آب‌میوه نه — شیر، لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "yum",
-     "fa": "به‌به (خوشمزه)"
+     "fa": "به‌به"
     },
     {
      "word": "juice",
-     "fa": "آبمیوه"
+     "fa": "آب‌میوه"
+    },
+    {
+     "word": "milk",
+     "fa": "شیر"
     }
    ],
-   "cultureNote": null,
-   "byChapter": {
-    "2": {
-     "text": "Yummy! Juice, please?",
-     "fa": "خوشمزه! آبمیوه، لطفاً؟"
-    },
-    "4": {
-     "text": "That was yummy! Can I have some juice too?",
-     "fa": "خوشمزه بود! آبمیوه هم می‌تونم بخورم؟"
-    }
-   }
+   "cultureNote": null
   },
-  "w3": {
-   "id": "w3",
+  "n4": {
+   "id": "n4",
    "speaker": "william",
-   "text": "Ta! Bye-bye!",
+   "text": "Oops! Juice gone! Sticky!",
    "translations": {
-    "fa": "مرسی! بای‌بای!"
+    "fa": "اوه! آب‌میوه ریخت! چسبناک!"
    },
-   "branches": [],
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "wipe",
+      "dear",
+      "up"
+     ],
+     "suggestion": "Oh dear! Let's wipe it up.",
+     "suggestionFa": "ای وای! بیا پاکش کنیم.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "never",
+      "cloth",
+      "mind"
+     ],
+     "suggestion": "Never mind. Here's a cloth.",
+     "suggestionFa": "مهم نیست. اینم دستمال.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
    "newWords": [
     {
-     "word": "bye-bye",
-     "fa": "خداحافظ (بچگانه)"
+     "word": "oops",
+     "fa": "اوه"
+    },
+    {
+     "word": "sticky",
+     "fa": "چسبناک"
+    },
+    {
+     "word": "wipe up",
+     "fa": "پاک کردن"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "Me help! Me wipe!",
+   "translations": {
+    "fa": "من کمک! من پاک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wipe",
+      "good",
+      "boy"
+     ],
+     "suggestion": "Good boy! Wipe, wipe, wipe.",
+     "suggestionFa": "پسر خوب! پاک کن، پاک کن.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "helper",
+      "thank",
+      "big"
+     ],
+     "suggestion": "Thank you, William. You're a big helper.",
+     "suggestionFa": "ممنون ویلیام. کمک‌کار بزرگی هستی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "help",
+     "fa": "کمک کردن"
+    },
+    {
+     "word": "helper",
+     "fa": "کمک‌کار"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Banana? Me peel!",
+   "translations": {
+    "fa": "موز؟ من پوست بکنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "peel"
+     ],
+     "suggestion": "Here's a banana. You peel it.",
+     "suggestionFa": "اینم موز. تو پوستش بکن.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "half",
+      "okay"
+     ],
+     "suggestion": "Half a banana, okay?",
+     "suggestionFa": "نصف موز، باشه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "banana",
+     "fa": "موز"
+    },
+    {
+     "word": "peel",
+     "fa": "پوست کندن"
+    },
+    {
+     "word": "half",
+     "fa": "نصف"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Banana phone! Hello? Hello?",
+   "translations": {
+    "fa": "تلفن موزی! الو؟ الو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calling",
+      "who's",
+      "hello"
+     ],
+     "suggestion": "Hello! Who's calling?",
+     "suggestionFa": "الو! کیه زنگ می‌زنه؟",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "silly",
+      "boy",
+      "ha"
+     ],
+     "suggestion": "Ha! Silly boy!",
+     "suggestionFa": "ها! پسر شیطون!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phone",
+     "fa": "تلفن"
+    },
+    {
+     "word": "calling",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "silly",
+     "fa": "بامزه/شیطون"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Nana! Nana calling!",
+   "translations": {
+    "fa": "نانا! نانا زنگ زده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "william's",
+      "eating"
+     ],
+     "suggestion": "Hello, Nana! William's eating breakfast.",
+     "suggestionFa": "سلام نانا! ویلیام داره صبحونه می‌خوره.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "say"
+     ],
+     "suggestion": "Say hello to Nana!",
+     "suggestionFa": "به نانا سلام بده!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Nana",
+     "fa": "مادربزرگ"
     }
    ],
    "cultureNote": {
-    "en": "Toddlers in Britain often learn 'ta' for 'thank you' before anything else.",
-    "fa": "بچه‌های کوچک در بریتانیا اغلب اول از همه «ta» را به‌جای «thank you» یاد می‌گیرند."
-   },
-   "byChapter": {
-    "2": {
-     "text": "Thank you! Bye-bye!",
-     "fa": "ممنون! بای‌بای!"
-    },
-    "4": {
-     "text": "Thank you! I'm going to big school now. Bye!",
-     "fa": "ممنون! الان دارم می‌رم مدرسه. خداحافظ!"
-    }
+    "en": "Many British children call grandmothers \"Nana\" or \"Nan\" and grandfathers \"Grandad\".",
+    "fa": "مادربزرگ را Nana صدا می‌زنند."
    }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "william",
+   "text": "All done! Down! Bye-bye!",
+   "translations": {
+    "fa": "تموم! پایین! بای‌بای!"
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": null
   }
  }
 }

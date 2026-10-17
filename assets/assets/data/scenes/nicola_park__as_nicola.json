@@ -23,8 +23,8 @@
      "keywords": [
       "pleeease",
       "swings",
-      "push",
       "hiya",
+      "push",
       "will"
      ],
      "suggestion": "Hiya! Will you push me on the swings? Pleeease?",
@@ -49,8 +49,8 @@
       "higher",
       "wheee",
       "ducks",
-      "from",
-      "here"
+      "here",
+      "from"
      ],
      "suggestion": "Higher! Higher! Wheee! Can you see the ducks from up here?",
      "suggestionFa": "بالاتر! بالاتر! ووووی! از این بالا اردک‌ها را می‌بینی؟",
@@ -100,7 +100,7 @@
       "promise",
       "sponge",
       "party",
-      "come"
+      "have"
      ],
      "suggestion": "Victoria sponge with jam! You HAVE to come to my party. Promise?",
      "suggestionFa": "کیک اسفنجی ویکتوریا با مربا! حتماً باید بیای جشنم. قول می‌دی؟",
@@ -148,8 +148,8 @@
      "keywords": [
       "squirrel",
       "wheee",
-      "grey",
       "look",
+      "grey",
       "red"
      ],
      "suggestion": "Wheee! Look, a squirrel! Is it grey or red?",
@@ -174,8 +174,8 @@
       "pocket",
       "ducks",
       "bread",
-      "grey",
-      "feed"
+      "feed",
+      "i've"
      ],
      "suggestion": "Grey! Can we feed the ducks? I've got bread in my pocket.",
      "suggestionFa": "خاکستری! می‌تونیم به اردک‌ها غذا بدیم؟ توی جیبم نان دارم.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "naughty",
       "chasing",
-      "one's",
+      "naughty",
       "being",
-      "other"
+      "other",
+      "one's"
      ],
      "suggestion": "That one's chasing the other one! Is he being naughty?",
      "suggestionFa": "اون یکی داره اون یکی را دنبال می‌کنه! داره شیطونی می‌کنه؟",
@@ -223,9 +223,9 @@
      "keywords": [
       "freezing",
       "hands",
-      "cold",
       "like",
-      "ryan"
+      "ryan",
+      "cold"
      ],
      "suggestion": "Like me and Ryan! I'm cold now. My hands are freezing.",
      "suggestionFa": "مثل من و رایان! حالا سردمه. دستام یخ زده.",
@@ -275,7 +275,7 @@
       "slide",
       "best",
       "race",
-      "yay"
+      "now"
      ],
      "suggestion": "Yay! You're my best friend now. Race you to the slide!",
      "suggestionFa": "آخ‌جون! حالا تو بهترین دوست منی. مسابقه تا سرسره!",

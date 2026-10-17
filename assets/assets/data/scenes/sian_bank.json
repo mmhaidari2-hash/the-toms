@@ -14,20 +14,31 @@
    "speaker": "sian",
    "text": "Good morning. I understand you'd like to open a current account?",
    "translations": {
-    "fa": "صبح بخیر. متوجه شدم که می‌خواهید یک حساب جاری باز کنید؟"
+    "fa": "صبح بخیر. فهمیدم که می‌خواید یه حساب جاری باز کنید؟"
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "current",
-      "account",
-      "open",
-      "that's right"
+      "started",
+      "that's",
+      "right",
+      "i've"
      ],
      "suggestion": "Yes, that's right. I've just started a new job.",
-     "suggestionFa": "بله، درست است. تازه کار جدیدی شروع کرده‌ام.",
+     "suggestionFa": "بله، درسته. تازه یه کار جدید شروع کردم.",
      "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "salary",
+      "need",
+      "one"
+     ],
+     "suggestion": "Yes, I need one for my salary.",
+     "suggestionFa": "بله، برای حقوقم لازمش دارم.",
+     "trustDelta": 6,
      "next": "n2",
      "success": true
     }
@@ -36,79 +47,97 @@
     {
      "word": "current account",
      "fa": "حساب جاری"
+    },
+    {
+     "word": "salary",
+     "fa": "حقوق"
     }
    ],
-   "cultureNote": {
-    "en": "A 'current account' is the UK term for a checking account.",
-    "fa": "«current account» اصطلاح بریتانیایی برای حساب جاری است."
-   }
+   "cultureNote": null
   },
   "n2": {
    "id": "n2",
    "speaker": "sian",
-   "text": "Congratulations! Would you like an arranged overdraft, or would you rather avoid borrowing for now?",
+   "text": "Congratulations! I'll need two forms of ID — your passport and proof of address.",
    "translations": {
-    "fa": "تبریک! اضافه‌برداشت توافقی می‌خواهید یا ترجیح می‌دهید فعلاً قرض نگیرید؟"
+    "fa": "تبریک! دو مدرک شناسایی لازم دارم — پاسپورت و مدرک آدرس."
    },
    "branches": [
     {
      "keywords": [
-      "no",
-      "avoid",
-      "rather not",
-      "don't",
-      "without"
+      "passport",
+      "here's",
+      "brp"
      ],
-     "suggestion": "I'd rather avoid an overdraft for now, thanks.",
-     "suggestionFa": "ترجیح می‌دهم فعلاً اضافه‌برداشت نداشته باشم، ممنون.",
-     "trustDelta": 8,
+     "suggestion": "Here's my passport and my BRP.",
+     "suggestionFa": "این پاسپورتم و کارت اقامتمه.",
+     "trustDelta": 7,
      "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "what",
-      "explain",
-      "mean",
-      "overdraft"
+      "agreement",
+      "address",
+      "tenancy",
+      "okay"
      ],
-     "suggestion": "Sorry, could you explain what an overdraft is?",
-     "suggestionFa": "ببخشید، می‌شود توضیح بدهید اضافه‌برداشت چیست؟",
-     "trustDelta": 8,
+     "suggestion": "I've got a tenancy agreement — is that okay for address?",
+     "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
+     "trustDelta": 6,
      "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "overdraft",
-     "fa": "اضافه‌برداشت"
+     "word": "forms of ID",
+     "fa": "مدارک شناسایی"
     },
     {
-     "word": "I'd rather",
-     "fa": "ترجیح می‌دهم"
+     "word": "proof of address",
+     "fa": "مدرک آدرس"
+    },
+    {
+     "word": "tenancy agreement",
+     "fa": "قرارداد اجاره"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "Banks usually ask for photo ID and a recent document showing your UK address.",
+    "fa": "بانک‌ها مدرک عکس‌دار و آدرس می‌خواهند."
+   }
   },
   "n3": {
    "id": "n3",
    "speaker": "sian",
-   "text": "Of course. It lets you spend a little more than you have, but you pay interest. Your debit card will arrive by post in five working days.",
+   "text": "That's fine. Can I ask how much you expect to pay in each month, roughly?",
    "translations": {
-    "fa": "حتماً. اجازه می‌دهد کمی بیشتر از موجودی خرج کنید، ولی بهره می‌دهید. کارت نقدی‌تان ظرف پنج روز کاری با پست می‌رسد."
+    "fa": "خوبه. می‌تونم بپرسم ماهی تقریباً چقدر واریز می‌کنید؟"
    },
    "branches": [
     {
      "keywords": [
-      "thank",
-      "great",
-      "perfect",
-      "thanks",
-      "brilliant"
+      "thousand",
+      "salary",
+      "pounds",
+      "about"
      ],
-     "suggestion": "Brilliant, thank you for your help.",
-     "suggestionFa": "عالی، ممنون از کمکتان.",
+     "suggestion": "About two thousand pounds, from my salary.",
+     "suggestionFa": "حدود دو هزار پوند، از حقوقم.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "month",
+      "first",
+      "sure",
+      "yet"
+     ],
+     "suggestion": "I'm not sure yet — it's my first month.",
+     "suggestionFa": "هنوز مطمئن نیستم — ماه اولمه.",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -116,12 +145,12 @@
    ],
    "newWords": [
     {
-     "word": "interest",
-     "fa": "بهره / سود"
+     "word": "pay in",
+     "fa": "واریز کردن"
     },
     {
-     "word": "working days",
-     "fa": "روز کاری"
+     "word": "roughly",
+     "fa": "تقریباً"
     }
    ],
    "cultureNote": null
@@ -129,17 +158,318 @@
   "n4": {
    "id": "n4",
    "speaker": "sian",
-   "text": "My pleasure. Diolch — that's 'thank you' in Welsh!",
+   "text": "Lovely. Would you like an arranged overdraft, or would you rather avoid borrowing for now?",
    "translations": {
-    "fa": "خواهش می‌کنم. «دیولخ» — یعنی «ممنون» به ولزی!"
+    "fa": "عالی. اضافه‌برداشت توافقی می‌خواید، یا ترجیح می‌دید فعلاً وام نگیرید؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "my pleasure",
-     "fa": "خواهش می‌کنم"
+     "keywords": [
+      "thanks",
+      "rather",
+      "avoid",
+      "i'd"
+     ],
+     "suggestion": "I'd rather avoid an overdraft for now, thanks.",
+     "suggestionFa": "ترجیح می‌دم فعلاً اضافه‌برداشت نداشته باشم، ممنون.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "explain",
+      "could",
+      "sorry"
+     ],
+     "suggestion": "Sorry, could you explain what an overdraft is?",
+     "suggestionFa": "ببخشید، می‌شه توضیح بدید اضافه‌برداشت چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "arranged overdraft",
+     "fa": "اضافه‌برداشت توافقی"
+    },
+    {
+     "word": "borrowing",
+     "fa": "قرض گرفتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "Of course. It lets you spend a little more than you have, but you pay interest. Many people avoid it.",
+   "translations": {
+    "fa": "البته. اجازه می‌ده یه کم بیشتر از موجودیتون خرج کنید، ولی سود می‌پردازید. خیلی‌ها ازش پرهیز می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monthly",
+      "avoid",
+      "there",
+      "then"
+     ],
+     "suggestion": "I'll avoid it, then. Is there a monthly fee?",
+     "suggestionFa": "پس ازش پرهیز می‌کنم. هزینهٔ ماهانه داره؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "later",
+      "know",
+      "good",
+      "need"
+     ],
+     "suggestion": "Good to know. Can I add it later if I need it?",
+     "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "interest",
+     "fa": "بهره"
+    },
+    {
+     "word": "monthly fee",
+     "fa": "هزینهٔ ماهانه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "This basic account is free. You'll get a sort code and account number for your employer.",
+   "translations": {
+    "fa": "این حساب پایه رایگانه. یه کد شعبه و شمارهٔ حساب برای کارفرماتون می‌گیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "code",
+      "sort"
+     ],
+     "suggestion": "What's a sort code?",
+     "suggestionFa": "کد شعبه چیه؟",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "abroad",
+      "money",
+      "great",
+      "send"
+     ],
+     "suggestion": "Great. Can I send money abroad too?",
+     "suggestionFa": "عالیه. می‌تونم پول به خارج هم بفرستم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sort code",
+     "fa": "کد شعبهٔ بانک"
+    },
+    {
+     "word": "employer",
+     "fa": "کارفرما"
+    },
+    {
+     "word": "abroad",
+     "fa": "خارج از کشور"
+    }
+   ],
+   "cultureNote": {
+    "en": "A UK \"sort code\" is six digits identifying your bank branch — like a routing number.",
+    "fa": "سورت‌کد شش رقم است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sian",
+   "text": "Six digits that identify the bank. And yes, you can send money abroad through the app, for a small fee.",
+   "translations": {
+    "fa": "شش رقم که بانک را مشخص می‌کنه. و بله، با اپ می‌تونید با یه هزینهٔ کم پول به خارج بفرستید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "easy",
+      "use",
+      "app"
+     ],
+     "suggestion": "Perfect. Is the app easy to use?",
+     "suggestionFa": "عالیه. کار با اپ آسونه؟",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "transfers",
+      "long",
+      "take",
+      "how"
+     ],
+     "suggestion": "How long do transfers take?",
+     "suggestionFa": "انتقال‌ها چقدر طول می‌کشه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "identify",
+     "fa": "شناسایی کردن"
+    },
+    {
+     "word": "fee",
+     "fa": "کارمزد"
+    },
+    {
+     "word": "transfers",
+     "fa": "انتقال‌ها"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sian",
+   "text": "Usually one to three working days. A word of warning — the bank will never ask for your PIN by phone.",
+   "translations": {
+    "fa": "معمولاً یک تا سه روز کاری. یه هشدار — بانک هیچ‌وقت تلفنی رمزتون را نمی‌پرسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "about",
+      "those",
+      "scams"
+     ],
+     "suggestion": "Thanks — I've heard about those scams.",
+     "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "know",
+      "good",
+      "i'll"
+     ],
+     "suggestion": "Good to know. I'll be careful.",
+     "suggestionFa": "خوب شد گفتید. مراقبم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "working days",
+     "fa": "روزهای کاری"
+    },
+    {
+     "word": "a word of warning",
+     "fa": "یک هشدار"
+    },
+    {
+     "word": "PIN",
+     "fa": "رمز کارت"
+    },
+    {
+     "word": "scams",
+     "fa": "کلاهبرداری‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Bank scam calls are common. Hang up and call the number on the back of your card.",
+    "fa": "تماس کلاهبرداری رایج است."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "sian",
+   "text": "Your debit card will arrive by post in five working days. Anything else I can help with?",
+   "translations": {
+    "fa": "کارت بانکی‌تون پنج روز کاری دیگه با پست می‌رسه. کمک دیگه‌ای از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "that's",
+      "thank",
+      "help"
+     ],
+     "suggestion": "No, that's everything. Thank you for your help.",
+     "suggestionFa": "نه، همینه. ممنون بابت کمکتون.",
+     "trustDelta": 7,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "asking",
+      "accent",
+      "don't"
+     ],
+     "suggestion": "Where's your accent from, if you don't mind me asking?",
+     "suggestionFa": "اگه ناراحت نمی‌شید، لهجه‌تون مال کجاست؟",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "debit card",
+     "fa": "کارت بانکی"
+    },
+    {
+     "word": "by post",
+     "fa": "با پست"
+    },
+    {
+     "word": "accent",
+     "fa": "لهجه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "sian",
+   "text": "My pleasure — I'm from Cardiff! Diolch — that's \"thank you\" in Welsh!",
+   "translations": {
+    "fa": "خواهش می‌کنم — اهل کاردیفم! دیولخ — یعنی «ممنون» به ولزی!"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

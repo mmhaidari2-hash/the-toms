@@ -74,9 +74,9 @@
     {
      "keywords": [
       "whatever",
-      "don't",
-      "never",
-      "banks"
+      "banks",
+      "money",
+      "never"
      ],
      "suggestion": "Whatever you do, don't move any money. Banks never ask you to do that.",
      "suggestionFa": "هر کاری می‌کنید، هیچ پولی منتقل نکنید. بانک‌ها هیچ‌وقت چنین چیزی نمی‌خوان.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "anything",
-      "give",
       "code",
-      "pin"
+      "give",
+      "did"
      ],
      "suggestion": "Did you give him anything — your PIN or a code?",
      "suggestionFa": "چیزی بهش دادید — پین یا کد؟",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "hanging",
       "exactly",
+      "hanging",
       "thing",
       "right"
      ],
@@ -150,8 +150,8 @@
      "keywords": [
       "different",
       "number",
-      "using",
-      "phone"
+      "phone",
+      "let's"
      ],
      "suggestion": "Let's call your bank using the number on your card — from a different phone.",
      "suggestionFa": "بیاید با شمارهٔ روی کارتتون به بانک زنگ بزنیم — از یه گوشی دیگه.",
@@ -200,8 +200,8 @@
      "keywords": [
       "someone",
       "number",
-      "never",
-      "gives"
+      "gives",
+      "never"
      ],
      "suggestion": "Just to be safe. Never ring back a number someone gives you.",
      "suggestionFa": "فقط محض احتیاط. هیچ‌وقت به شماره‌ای که کسی بهتون داده زنگ نزنید.",

@@ -23,9 +23,9 @@
      "keywords": [
       "breakfast",
       "cereal",
-      "would",
+      "right",
       "toast",
-      "right"
+      "we've"
      ],
      "suggestion": "Right, breakfast! We've got toast, cereal and eggs. What would you like?",
      "suggestionFa": "خب، صبحانه! نان تست، غلات و تخم‌مرغ داریم. چی میل داری؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "marmite",
-      "choice",
       "butter",
+      "choice",
       "good",
       "jam"
      ],
@@ -129,10 +129,10 @@
     {
      "keywords": [
       "people",
-      "nicola",
       "orange",
-      "would",
-      "juice"
+      "nicola",
+      "juice",
+      "would"
      ],
      "suggestion": "Nicola, some people love it! Would you like orange juice?",
      "suggestionFa": "نیکولا، بعضیا عاشقشن! آب پرتقال میل داری؟",
@@ -155,8 +155,8 @@
      "keywords": [
       "nicola",
       "here's",
-      "spoon",
       "plate",
+      "spoon",
       "knife"
      ],
      "suggestion": "Here's a plate and a knife. Can you pass Nicola a spoon?",
@@ -236,8 +236,8 @@
       "there's",
       "plenty",
       "toast",
-      "some",
-      "more"
+      "more",
+      "some"
      ],
      "suggestion": "Some more toast? There's plenty.",
      "suggestionFa": "باز هم نان تست؟ زیاد هست.",
@@ -260,8 +260,8 @@
      "keywords": [
       "breakfast",
       "british",
+      "proper",
       "school",
-      "that's",
       "nicola"
      ],
      "suggestion": "Well done! That's a proper British breakfast. Off to school, Nicola!",

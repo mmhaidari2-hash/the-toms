@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "once",
       "last",
+      "once",
       "year"
      ],
      "suggestion": "Yes, once, last year.",
@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "hurt",
-      "will"
+      "will",
+      "hurt"
      ],
      "suggestion": "Will it hurt?",
      "suggestionFa": "درد داره؟",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "after",
-      "water",
       "drink",
+      "water",
       "can"
      ],
      "suggestion": "Can I drink water after?",
@@ -221,8 +221,8 @@
      "keywords": [
       "lemonade",
       "though",
-      "love",
-      "i'll"
+      "i'll",
+      "love"
      ],
      "suggestion": "I'll try. I love lemonade, though!",
      "suggestionFa": "سعی می‌کنم. ولی عاشق لیموناتم!",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "thank",
-      "come",
       "back",
-      "when"
+      "when",
+      "come"
      ],
      "suggestion": "Thank you. When must I come back?",
      "suggestionFa": "ممنون. کی باید برگردم؟",

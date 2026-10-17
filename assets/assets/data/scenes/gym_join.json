@@ -143,8 +143,8 @@
      "keywords": [
       "evening",
       "course",
-      "count",
-      "doing"
+      "doing",
+      "count"
      ],
      "suggestion": "I'm doing an evening course — does that count?",
      "suggestionFa": "یه دورهٔ شبانه می‌رم — حساب میشه؟",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "strength",
-      "stress",
+      "reduce",
       "mostly",
-      "reduce"
+      "stress"
      ],
      "suggestion": "Mostly to build strength and reduce stress.",
      "suggestionFa": "بیشتر برای قوی شدن و کم کردن استرس.",
@@ -252,9 +252,9 @@
     {
      "keywords": [
       "alright",
-      "thanks",
       "before",
-      "used"
+      "thanks",
+      "gyms"
      ],
      "suggestion": "I'm alright, thanks — I've used gyms before.",
      "suggestionFa": "نه ممنون — قبلاً باشگاه رفتم.",
@@ -306,9 +306,9 @@
     {
      "keywords": [
       "might",
+      "give",
       "hard",
-      "spin",
-      "give"
+      "spin"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "details",
-      "sure",
-      "bank"
+      "bank",
+      "sure"
      ],
      "suggestion": "Sure — do you need my bank details?",
      "suggestionFa": "البته — مشخصات بانکیم را می‌خواید؟",
@@ -398,7 +398,7 @@
     {
      "keywords": [
       "injury",
-      "last",
+      "knee",
       "year",
       "fine"
      ],

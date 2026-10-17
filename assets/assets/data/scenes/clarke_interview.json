@@ -133,9 +133,9 @@
     {
      "keywords": [
       "reorganised",
+      "informed",
       "customer",
-      "delivery",
-      "schedule"
+      "delivery"
      ],
      "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
      "suggestionFa": "یه بار، یه محموله تأخیر داشت، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
@@ -148,7 +148,7 @@
       "separately",
       "colleagues",
       "compromise",
-      "found"
+      "spoke"
      ],
      "suggestion": "Two colleagues fell out, so I spoke to each separately and found a compromise.",
      "suggestionFa": "دو تا همکار با هم دعواشون شد، پس با هر کدوم جدا صحبت کردم و یه راه میانه پیدا کردم.",
@@ -203,10 +203,10 @@
     },
     {
      "keywords": [
-      "together",
       "improved",
+      "together",
       "morale",
-      "work"
+      "well"
      ],
      "suggestion": "They work well together now, and morale improved.",
      "suggestionFa": "حالا با هم خوب کار می‌کنن، و روحیه بهتر شد.",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "sometimes",
-      "learning",
       "delegate",
+      "learning",
       "myself"
      ],
      "suggestion": "I sometimes take on too much myself, but I'm learning to delegate.",
@@ -251,9 +251,9 @@
     {
      "keywords": [
       "stronger",
-      "written",
       "evening",
-      "english"
+      "english",
+      "written"
      ],
      "suggestion": "My written English could be stronger, so I'm taking an evening course.",
      "suggestionFa": "انگلیسی نوشتاریم می‌تونه قوی‌تر باشه، برای همین یه دورهٔ شبانه می‌رم.",
@@ -407,7 +407,7 @@
       "training",
       "typical",
       "there",
-      "like"
+      "look"
      ],
      "suggestion": "Yes — what does a typical day look like, and is there training?",
      "suggestionFa": "بله — یه روز معمولی چه شکلیه، و آموزش هست؟",
@@ -420,7 +420,7 @@
       "working",
       "about",
       "enjoy",
-      "most"
+      "here"
      ],
      "suggestion": "What do you enjoy most about working here?",
      "suggestionFa": "از کار کردن اینجا بیشتر از همه از چی لذت می‌برید؟",

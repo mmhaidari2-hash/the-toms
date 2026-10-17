@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "nicer",
       "those",
+      "nicer",
       "ones"
      ],
      "suggestion": "Those ones are nicer.",
@@ -121,7 +121,7 @@
       "cheaper",
       "these",
       "look",
-      "good"
+      "they"
      ],
      "suggestion": "These are cheaper and they look good.",
      "suggestionFa": "این‌ها ارزون‌ترن و خوب به نظر میان.",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "money",
-      "ryan",
-      "save"
+      "save",
+      "ryan"
      ],
      "suggestion": "Save your money, Ryan!",
      "suggestionFa": "پولت را نگه دار رایان!",

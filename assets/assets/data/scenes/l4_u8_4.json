@@ -22,7 +22,7 @@
       "scientists",
       "published",
       "where",
-      "want"
+      "know"
      ],
      "suggestion": "I'd want to know which scientists and where it was published.",
      "suggestionFa": "می‌خوام بدونم کدوم دانشمندان و کجا منتشر شده.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "sounds",
-      "flag",
       "true",
+      "flag",
       "good"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "look",
-      "clip"
+      "just",
+      "look"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -156,10 +156,10 @@
     },
     {
      "keywords": [
-      "reliable",
       "reported",
-      "whether",
-      "outlets"
+      "reliable",
+      "outlets",
+      "whether"
      ],
      "suggestion": "Check whether reliable news outlets have reported it.",
      "suggestionFa": "چک می‌کنم رسانه‌های معتبر گزارشش کردن یا نه.",
@@ -206,9 +206,9 @@
     {
      "keywords": [
       "getting",
-      "harder",
       "what's",
-      "real"
+      "harder",
+      "tell"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",
      "suggestionFa": "تشخیص اینکه چی واقعیه داره سخت‌تر و سخت‌تر میشه.",

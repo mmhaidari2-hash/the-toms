@@ -21,8 +21,8 @@
      "keywords": [
       "mentioned",
       "anything",
-      "hasn't",
-      "really"
+      "really",
+      "hasn't"
      ],
      "suggestion": "Really? She hasn't mentioned anything at home.",
      "suggestionFa": "واقعاً؟ تو خونه چیزی نگفته.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "sitting",
       "mention",
-      "close",
-      "telly"
+      "sitting",
+      "telly",
+      "she's"
      ],
      "suggestion": "Now that you mention it, she's been sitting very close to the telly.",
      "suggestionFa": "حالا که می‌گید، خیلی نزدیک تلویزیون می‌شینه.",
@@ -80,7 +80,7 @@
       "appointment",
       "optician",
       "week",
-      "book"
+      "i'll"
      ],
      "suggestion": "I'll book an appointment with the optician this week.",
      "suggestionFa": "این هفته از بینایی‌سنج وقت می‌گیرم.",
@@ -150,7 +150,7 @@
       "having",
       "should",
       "she's",
-      "tell"
+      "test"
      ],
      "suggestion": "Should we tell her why she's having the test?",
      "suggestionFa": "بهش بگیم چرا معاینه می‌شه؟",

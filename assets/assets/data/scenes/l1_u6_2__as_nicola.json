@@ -24,7 +24,7 @@
       "dressing",
       "dress",
       "let's",
-      "pink",
+      "play",
       "i've"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
@@ -50,7 +50,7 @@
       "hasn't",
       "let's",
       "give",
-      "hat"
+      "got"
      ],
      "suggestion": "Has Mr Buttons got a hat? No, he hasn't! Let's give him a hat.",
      "suggestionFa": "آقای دکمه کلاه داره؟ نه، نداره! بیا بهش یه کلاه بدیم.",
@@ -73,8 +73,8 @@
      "keywords": [
       "wellies",
       "purple",
-      "shoes",
       "spots",
+      "shoes",
       "mine"
      ],
      "suggestion": "Now shoes! Have you got wellies? Mine are purple with spots!",
@@ -98,9 +98,9 @@
      "keywords": [
       "daddy's",
       "jumper",
-      "brown",
       "soooo",
-      "put"
+      "brown",
+      "got"
      ],
      "suggestion": "Daddy's got a big brown jumper. It's soooo big! Put it on!",
      "suggestionFa": "بابا یه ژاکت قهوه‌ای بزرگ داره. خیلی بزرگه! بپوشش!",
@@ -123,7 +123,7 @@
      "keywords": [
       "trousers",
       "orange",
-      "ones",
+      "like",
       "bear",
       "look"
      ],
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
+      "mummy",
       "photo",
       "smile",
-      "mummy",
       "take",
       "look"
      ],
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "dressing",
-      "friend",
       "that's",
+      "friend",
       "photo",
       "best"
      ],

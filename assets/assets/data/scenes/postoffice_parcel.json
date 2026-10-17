@@ -7,57 +7,57 @@
  "setting": "Hackney Post Office",
  "settingFa": "پستخانهٔ هاکنی",
  "requires": null,
- "start": "o1",
+ "start": "n1",
  "nodes": {
-  "o1": {
-   "id": "o1",
+  "n1": {
+   "id": "n1",
    "speaker": "arthur",
    "text": "Morning, my love. What can I do for you?",
    "translations": {
-    "fa": "صبح بخیر عزیزم. چه کاری از دستم برمیاد؟"
+    "fa": "صبح بخیر عزیزم. چی کار می‌تونم برات بکنم؟"
    },
    "branches": [
     {
      "keywords": [
-      "send",
       "parcel",
-      "post",
-      "package"
+      "like",
+      "send",
+      "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
-     "suggestionFa": "می‌خواهم این بسته را بفرستم، لطفاً.",
-     "trustDelta": 6,
-     "next": "o2",
+     "suggestionFa": "می‌خوام این بسته را بفرستم، لطفاً.",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
       "stamps",
-      "stamp",
-      "letter",
-      "card"
+      "could",
+      "have",
+      "some"
      ],
      "suggestion": "Could I have some stamps, please?",
-     "suggestionFa": "می‌شود چند تمبر بدهید لطفاً؟",
+     "suggestionFa": "می‌شه چند تا تمبر بگیرم، لطفاً؟",
      "trustDelta": 6,
-     "next": "o2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "parcel",
-     "fa": "بستهٔ پستی"
+     "fa": "بسته"
     },
     {
      "word": "stamps",
-     "fa": "تمبر"
+     "fa": "تمبرها"
     }
    ],
    "cultureNote": null
   },
-  "o2": {
-   "id": "o2",
+  "n2": {
+   "id": "n2",
    "speaker": "arthur",
    "text": "Righto. Is it going in the UK or abroad?",
    "translations": {
@@ -67,34 +67,32 @@
     {
      "keywords": [
       "abroad",
-      "iran",
-      "overseas",
-      "international",
-      "country"
+      "going",
+      "iran"
      ],
      "suggestion": "It's going abroad — to Iran.",
-     "suggestionFa": "به خارج می‌رود — به ایران.",
+     "suggestionFa": "میره خارج — به ایران.",
      "trustDelta": 7,
-     "next": "o3",
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "uk",
       "manchester",
-      "london",
-      "scotland",
-      "here",
-      "inside"
+      "uk"
      ],
      "suggestion": "In the UK — to Manchester.",
      "suggestionFa": "داخل بریتانیا — به منچستر.",
      "trustDelta": 6,
-     "next": "o3",
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
+    {
+     "word": "righto",
+     "fa": "باشه"
+    },
     {
      "word": "abroad",
      "fa": "خارج از کشور"
@@ -102,116 +100,362 @@
    ],
    "cultureNote": null
   },
-  "o3": {
-   "id": "o3",
+  "n3": {
+   "id": "n3",
    "speaker": "arthur",
-   "text": "Lovely. First class or second class? First gets there quicker but it costs a bit more.",
+   "text": "Lovely. What's inside, if you don't mind me asking?",
    "translations": {
-    "fa": "خوبه. درجه یک یا درجه دو؟ درجه یک زودتر می‌رسه ولی کمی گرون‌تره."
+    "fa": "عالی. اگه ناراحت نمی‌شی، توش چیه؟"
    },
    "branches": [
     {
      "keywords": [
-      "first",
-      "quick",
-      "fast",
-      "quicker"
+      "clothes",
+      "book",
+      "some"
      ],
-     "suggestion": "First class, please — it's a birthday present.",
-     "suggestionFa": "درجه یک، لطفاً — کادوی تولد است.",
+     "suggestion": "Some clothes and a book.",
+     "suggestionFa": "چند تا لباس و یه کتاب.",
      "trustDelta": 7,
-     "next": "o4",
+     "next": "n4",
      "success": true
     },
     {
      "keywords": [
-      "second",
-      "cheap",
-      "cheaper",
-      "no rush"
+      "birthday",
+      "present",
+      "sister"
      ],
-     "suggestion": "Second class is fine, there's no rush.",
-     "suggestionFa": "درجه دو خوب است، عجله‌ای نیست.",
+     "suggestion": "A birthday present for my sister.",
+     "suggestionFa": "یه کادوی تولد برای خواهرم.",
      "trustDelta": 6,
-     "next": "o4",
+     "next": "n4",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "first class",
-     "fa": "پست درجه یک (سریع)"
+     "word": "if you don't mind me asking",
+     "fa": "اگر ناراحت نمی‌شوی بپرسم"
     },
     {
-     "word": "second class",
-     "fa": "پست درجه دو (ارزان‌تر)"
+     "word": "inside",
+     "fa": "داخل"
     }
    ],
-   "cultureNote": {
-    "en": "Royal Mail first class usually arrives next day; second class in 2–3 days.",
-    "fa": "پست درجه یک رویال میل معمولاً روز بعد می‌رسد؛ درجه دو ۲ تا ۳ روزه."
-   }
+   "cultureNote": null
   },
-  "o4": {
-   "id": "o4",
+  "n4": {
+   "id": "n4",
    "speaker": "arthur",
-   "text": "Pop it on the scales for me… Lovely. Would you like a receipt with tracking?",
+   "text": "Nothing liquid, no batteries? I have to ask, I'm afraid. Rules is rules.",
    "translations": {
-    "fa": "بذارش رو ترازو… خوبه. رسید با کد رهگیری می‌خوای؟"
+    "fa": "مایع، باتری نداره؟ متأسفانه باید بپرسم. قانون قانونه."
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "tracking",
-      "receipt",
-      "please"
+      "nothing",
+      "like"
      ],
-     "suggestion": "Yes please, with tracking.",
-     "suggestionFa": "بله لطفاً، با رهگیری.",
-     "trustDelta": 6,
-     "next": "o5",
+     "suggestion": "No, nothing like that.",
+     "suggestionFa": "نه، هیچی از اینا.",
+     "trustDelta": 7,
+     "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "fine",
-      "thanks"
+      "problem",
+      "there's",
+      "perfume",
+      "small"
      ],
-     "suggestion": "No thanks, that's fine.",
-     "suggestionFa": "نه ممنون، لازم نیست.",
-     "trustDelta": 4,
-     "next": "o5",
+     "suggestion": "There's a small perfume — is that a problem?",
+     "suggestionFa": "یه عطر کوچیک هست — مشکلی داره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "liquid",
+     "fa": "مایع"
+    },
+    {
+     "word": "batteries",
+     "fa": "باتری‌ها"
+    },
+    {
+     "word": "perfume",
+     "fa": "عطر"
+    },
+    {
+     "word": "rules is rules",
+     "fa": "قانون قانون است"
+    }
+   ],
+   "cultureNote": {
+    "en": "Perfume, aerosols and lithium batteries often can't be posted abroad. Always ask at the counter.",
+    "fa": "ارسال عطر و باتری به خارج اغلب ممنوع است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "Right you are. Pop it on the scales for me… Lovely. Just under two kilos.",
+   "translations": {
+    "fa": "باشه. بذارش رو ترازو… عالیه. یه کم کمتر از دو کیلو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cost",
+      "much",
+      "will",
+      "how"
+     ],
+     "suggestion": "How much will that cost?",
+     "suggestionFa": "چقدر میشه؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "heavy",
+      "price"
+     ],
+     "suggestion": "Is that heavy for the price?",
+     "suggestionFa": "برای قیمت سنگینه؟",
+     "trustDelta": 6,
+     "next": "n6",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "pop it on",
-     "fa": "بذارش روی"
+     "fa": "بگذارش روی"
     },
     {
-     "word": "tracking",
-     "fa": "رهگیری"
+     "word": "scales",
+     "fa": "ترازو"
+    },
+    {
+     "word": "just under",
+     "fa": "کمی کمتر از"
     }
    ],
    "cultureNote": null
   },
-  "o5": {
-   "id": "o5",
+  "n6": {
+   "id": "n6",
    "speaker": "arthur",
-   "text": "There you are, sweetheart. Mind how you go!",
+   "text": "Standard is cheaper, but tracked is safer. Which would you prefer?",
    "translations": {
-    "fa": "بفرما عزیزم. مواظب خودت باش!"
+    "fa": "معمولی ارزون‌تره، ولی ردیابی‌شده امن‌تره. کدوم را ترجیح می‌دی؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "mind how you go",
-     "fa": "مواظب خودت باش"
+     "keywords": [
+      "birthday",
+      "present",
+      "tracked",
+      "please"
+     ],
+     "suggestion": "Tracked, please — it's a birthday present.",
+     "suggestionFa": "ردیابی‌شده، لطفاً — کادوی تولده.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "standard",
+      "there's",
+      "rush",
+      "fine"
+     ],
+     "suggestion": "Standard is fine, there's no rush.",
+     "suggestionFa": "معمولی خوبه، عجله‌ای نیست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "standard",
+     "fa": "معمولی"
+    },
+    {
+     "word": "tracked",
+     "fa": "با ردیابی"
+    },
+    {
+     "word": "no rush",
+     "fa": "عجله‌ای نیست"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "Good choice. You'll need to fill in this customs form — what's inside and what it's worth.",
+   "translations": {
+    "fa": "انتخاب خوبیه. باید این فرم گمرک را پر کنی — چی توشه و چقدر می‌ارزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "write",
+      "value"
+     ],
+     "suggestion": "Do I write the value in pounds?",
+     "suggestionFa": "ارزش را به پوند بنویسم؟",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "could",
+      "first",
+      "time",
+      "help"
+     ],
+     "suggestion": "Could you help me with it? It's my first time.",
+     "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "customs form",
+     "fa": "فرم گمرکی"
+    },
+    {
+     "word": "worth",
+     "fa": "ارزش داشتن"
+    },
+    {
+     "word": "value",
+     "fa": "ارزش"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "arthur",
+   "text": "Course I can. Pounds is fine. Just write \"gift\" here, and sign at the bottom.",
+   "translations": {
+    "fa": "معلومه که می‌تونم. پوند خوبه. فقط اینجا بنویس «هدیه»، و پایینش امضا کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌طوری؟",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "done",
+      "else",
+      "need"
+     ],
+     "suggestion": "Done. What else do you need?",
+     "suggestionFa": "تموم. دیگه چی لازم دارید؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gift",
+     "fa": "هدیه"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "bottom",
+     "fa": "پایین"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "arthur",
+   "text": "Perfect. That's £24.60, please. Would you like a receipt with the tracking number?",
+   "translations": {
+    "fa": "عالیه. میشه ۲۴.۶۰ پوند، لطفاً. رسید با شمارهٔ ردیابی می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tracking",
+      "number",
+      "please"
+     ],
+     "suggestion": "Yes please, with the tracking number.",
+     "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",
+     "trustDelta": 7,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "could",
+      "email"
+     ],
+     "suggestion": "Could you email it to me instead?",
+     "suggestionFa": "می‌شه به جاش ایمیلش کنید؟",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "tracking number",
+     "fa": "شمارهٔ ردیابی"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "arthur",
+   "text": "There you are, sweetheart. Should take about ten days. Mind how you go!",
+   "translations": {
+    "fa": "بفرما عزیزم. باید حدود ده روز طول بکشه. مراقب خودت باش!"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }
