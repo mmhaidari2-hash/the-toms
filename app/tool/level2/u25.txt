@@ -1,0 +1,147 @@
+## U113 | Phone shop and contract | فروشگاه موبایل و قرارداد | phoneshop | Choose SIM-only or a contract, pass a credit check, get a cracked screen fixed and keep your number | بین سیم‌کارت تنها و قرارداد انتخاب کنی، اعتبارسنجی را بگذرانی، صفحهٔ شکسته را تعمیر کنی و شماره‌ات را نگه داری
+
+# l2_u25_1 | dev | SIM-only or contract? | فقط سیم‌کارت یا قرارداد؟ | How much is…? / per month / Which is cheaper? / I'd rather… | چقدر است؟ / ماهانه / کدام ارزان‌تر است؟ / ترجیح می‌دهم | phoneshop
+dev: Afternoon! I'm Dev. Looking for a new phone, or just a better deal on your old one? | عصر بخیر! من دِو هستم. دنبال گوشی جدیدی، یا فقط یه طرح بهتر برای گوشی قدیمیت؟
+> My phone is fine. I just need a UK SIM. | گوشیم خوبه. فقط یه سیم‌کارت بریتانیایی لازم دارم.
+> I'm not sure. What's the difference? | مطمئن نیستم. فرقشون چیه؟
+W: deal=قرارداد ؛ معامله ; SIM=سیم‌کارت ; difference=تفاوت ; old=قدیمی
+dev: Two options. SIM-only: you keep your phone and pay for calls and data. Or a contract: a new phone, paid monthly. | دو تا گزینه. فقط سیم‌کارت: گوشیت را نگه می‌داری و پول تماس و اینترنت را میدی. یا قرارداد: گوشی نو، با پرداخت ماهانه.
+> How much is SIM-only per month? | فقط سیم‌کارت ماهی چنده؟
+> A contract sounds expensive. | قرارداد گرون به نظر میاد.
+W: options=گزینه‌ها ; data=اینترنت همراه ; contract=قرارداد ; monthly=ماهانه
+C: A UK phone "contract" usually lasts 24 months and includes the phone. "SIM-only" is cheaper and often just 30 days or 12 months. | قرارداد معمولاً ۲۴ ماهه و شامل گوشی است؛ فقط سیم‌کارت ارزان‌تر است.
+dev: SIM-only starts at eight pounds a month. Twelve gigs of data, unlimited calls and texts. How much data do you use? | فقط سیم‌کارت از ماهی هشت پوند شروع میشه. دوازده گیگ اینترنت، تماس و پیامک نامحدود. چقدر اینترنت مصرف می‌کنی؟
+> A lot. I video call my family in Iran. | زیاد. با خانواده‌ام تو ایران تماس تصویری می‌گیرم.
+> Not much. I use Wi-Fi at home. | زیاد نه. تو خونه از وای‌فای استفاده می‌کنم.
+W: gigs=گیگابایت ; unlimited=نامحدود ; texts=پیامک‌ها ; video call=تماس تصویری
+X: how many data you use ; how much data do i use => How much data? Let's look at your phone. | How much data do you use? | چقدر اینترنت مصرف می‌کنید؟
+dev: Video calls eat data. Over Wi-Fi it's free, though. Can I ask — do you call abroad on the normal phone line? | تماس تصویری اینترنت را می‌خوره. ولی با وای‌فای مجانیه. می‌تونم بپرسم — با خط معمولی به خارج زنگ می‌زنی؟
+> Sometimes I call my mum's landline. | گاهی به تلفن ثابت مامانم زنگ می‌زنم.
+> No, I always use apps. | نه، همیشه از اپ استفاده می‌کنم.
+W: abroad=خارج از کشور ; though=با این حال ; landline=تلفن ثابت ; apps=اپلیکیشن‌ها
+dev: Then watch out. International calls are not included. They cost a lot. There's an add-on for five pounds a month. | پس حواست باشه. تماس بین‌المللی شامل نمیشه. خیلی گرون درمیاد. یه بستهٔ اضافه ماهی پنج پوند هست.
+> What's an add-on? | «اَد-آن» چیه؟
+> Five pounds is OK. Does it include Iran? | پنج پوند خوبه. ایران را هم شامل میشه؟
+W: watch out=مراقب باش ; international=بین‌المللی ; included=شامل ; add-on=بستهٔ اضافه
+dev: Let me check… yes, Iran's in "Zone 2" — a hundred minutes. So, twenty gigs plus international: fifteen pounds. | بذار چک کنم… آره، ایران تو «منطقهٔ ۲» ـه — صد دقیقه. پس، بیست گیگ به‌علاوهٔ بین‌الملل: پونزده پوند.
+> Which is cheaper, monthly or twelve months? | کدوم ارزون‌تره، ماهانه یا دوازده‌ماهه؟
+> Fifteen pounds. I'd rather pay monthly. | پونزده پوند. ترجیح میدم ماهانه بدم.
+W: check=بررسی کردن ; zone=منطقه ; minutes=دقیقه ; I'd rather=ترجیح می‌دهم
+dev: Twelve months is two pounds cheaper. But thirty-day rolling means you can leave any time. No stress. | دوازده‌ماهه دو پوند ارزون‌تره. ولی ماه‌به‌ماه یعنی هر وقت خواستی می‌تونی بری. بدون استرس.
+> Rolling, then. I like freedom! | پس ماه‌به‌ماه. آزادی را دوست دارم!
+> Twelve months. I'm staying here. | دوازده‌ماهه. من اینجا می‌مونم.
+W: rolling=ماه‌به‌ماه (قابل تمدید) ; leave=ترک کردن ؛ لغو کردن ; any time=هر وقت ; freedom=آزادی
+dev: Good choice. I'll just need a bank card for the direct debit. You'll have signal in about an hour. Welcome to the network! | انتخاب خوبیه. فقط یه کارت بانکی برای برداشت خودکار لازم دارم. حدود یه ساعت دیگه آنتن داری. به شبکه خوش اومدی!
+
+# l2_u25_2 | dev | Credit check and ID | اعتبارسنجی و مدرک شناسایی | Do you need…? / proof of address / I've only been here for… / What happens if…? | … لازم دارید؟ / مدرک آدرس / فقط … است اینجا هستم / اگر … چه می‌شود؟ | phoneshop
+dev: Hello again! You're back with a friend. Mr Tom, isn't it? So, today it's the contract phone? | دوباره سلام! با یه دوست برگشتی. آقای تام، درسته؟ پس، امروز گوشی قراردادی؟
+> Yes. I'd like the phone in the window. | آره. اون گوشی تو ویترین را می‌خوام.
+> Yes. Tom came to help me. | آره. تام اومد کمکم کنه.
+W: contract phone=گوشی قراردادی ; window=ویترین ; help=کمک کردن
+dev: Great choice. For a contract, we do a credit check. And I need two things: photo ID and proof of address. | انتخاب عالی. برای قرارداد، اعتبارسنجی می‌کنیم. دو تا چیز هم لازم دارم: کارت شناسایی عکس‌دار و مدرک آدرس.
+> What's a credit check? | اعتبارسنجی چیه؟
+> Here's my passport. What counts as proof of address? | این پاسپورتمه. چی مدرک آدرس حساب میشه؟
+W: credit check=اعتبارسنجی ; photo ID=کارت شناسایی عکس‌دار ; proof of address=مدرک آدرس ; counts as=حساب می‌شود
+C: A credit check looks at your history of paying bills. New arrivals often have a "thin" credit file, so contracts can be harder at first. | اعتبارسنجی سابقهٔ پرداخت قبض‌ها را بررسی می‌کند.
+dev: It checks if you pay your bills on time. A bank statement or a council tax bill from the last three months is fine for address. | چک می‌کنه قبض‌هات را سر وقت میدی یا نه. صورت‌حساب بانکی یا قبض مالیات شورا از سه ماه اخیر برای آدرس کافیه.
+> I've got a bank letter. Is that OK? | یه نامهٔ بانکی دارم. خوبه؟
+> But I've only been here for four months. | ولی من فقط چهار ماهه اینجام.
+W: on time=سر وقت ; bank statement=صورت‌حساب بانکی ; council tax=مالیات شورا ; letter=نامه
+X: i am here since four months ; i've been here since four months => You've been here for four months? That's fine. | I've only been here for four months. | فقط چهار ماه است اینجا هستم.
+dev: Four months is fine to try. Let me run it now. It takes about two minutes. Fingers crossed! | چهار ماه برای امتحان کافیه. بذار الان انجامش بدم. حدود دو دقیقه طول می‌کشه. امیدوار باشیم!
+> OK. Fingers crossed! | باشه. امیدوار باشیم!
+> Two minutes? That's quick. | دو دقیقه؟ چه سریع.
+tom: Two minutes? When I got my first phone, it took a week and a man in a tie. | دو دقیقه؟ وقتی من اولین گوشیم را گرفتم، یه هفته طول کشید و یه آقای کراواتی.
+> Ha! When was that, Tom? | ها! کی بود تام؟
+> A man in a tie? Really? | یه آقای کراواتی؟ واقعاً؟
+W: run=اجرا کردن ; fingers crossed=امیدوار باشیم ؛ به امید خدا ; tie=کراوات
+dev: Oh. It says "referred". Don't panic — that's not a "no". It means your credit history is too short. | اوه. نوشته «ارجاع شد». نگران نشو — این «نه» نیست. یعنی سابقهٔ اعتباریت خیلی کوتاهه.
+> What happens if it's a no? | اگه «نه» باشه چی میشه؟
+> Too short? What can I do? | خیلی کوتاهه؟ چی کار می‌تونم بکنم؟
+W: referred=ارجاع شد ; panic=وحشت کردن ; credit history=سابقهٔ اعتباری ; short=کوتاه
+dev: You can pay a hundred-pound deposit, or choose a cheaper phone. Or go SIM-only and build up your history. | می‌تونی یه ودیعهٔ صد پوندی بدی، یا یه گوشی ارزون‌تر انتخاب کنی. یا فقط سیم‌کارت بگیری و سابقه‌ات را بسازی.
+> How do I build up my credit history? | چطوری سابقهٔ اعتباریم را بسازم؟
+> A hundred pounds? That's too much. | صد پوند؟ خیلی زیاده.
+W: deposit=ودیعه ؛ پیش‌پرداخت ; cheaper=ارزان‌تر ; build up=ساختن ؛ افزایش دادن
+tom: Register to vote, pay bills on time, and don't borrow too much. That's what my dad told me. Good advice, Dev? | برای رأی دادن ثبت‌نام کن، قبض‌ها را سر وقت بده و زیاد قرض نگیر. اینو بابام بهم گفت. توصیهٔ خوبیه، دِو؟
+> Can I register to vote? I'm not British. | می‌تونم برای رأی ثبت‌نام کنم؟ من بریتانیایی نیستم.
+> Your dad was clever, Tom. | بابات زرنگ بود، تام.
+W: register to vote=ثبت‌نام برای رأی ; bills=قبض‌ها ; borrow=قرض گرفتن ; advice=توصیه
+dev: Spot on, Tom. And check the council website — some residents can register for local elections. So: SIM-only for now? | دقیقاً، تام. سایت شورا را هم چک کن — بعضی ساکنان می‌تونن برای انتخابات محلی ثبت‌نام کنن. پس: فعلاً فقط سیم‌کارت؟
+> Yes. SIM-only, and I'll come back in six months. | آره. فقط سیم‌کارت، و شش ماه دیگه برمی‌گردم.
+> OK. Can you write down the steps for me? | باشه. میشه مراحل را برام بنویسی؟
+W: spot on=کاملاً درست ; residents=ساکنان ; local elections=انتخابات محلی ; steps=مراحل
+dev: Deal. I'll put a note on your account: "Come back in April". The phone in the window will be cheaper by then anyway! | قبول. یه یادداشت رو حسابت می‌ذارم: «فروردین برگرد». اون گوشی ویترین تا اون موقع به‌هرحال ارزون‌تر میشه!
+
+# l2_u25_3 | ryan | A cracked screen | صفحهٔ شکسته | I dropped it / It's cracked / How long will it take? / Is it covered by…? | انداختمش / ترک خورده / چقدر طول می‌کشد؟ / شامل … می‌شود؟ | phoneshop
+ryan: Don't tell Dad. Please. I dropped my phone at the skate park. Look at the screen. It's like a spider's web. | به بابا نگو. خواهش می‌کنم. گوشیم را تو پارک اسکیت انداختم. صفحه را ببین. مثل تار عنکبوته.
+> Oh no, Ryan! Does it still work? | وای نه رایان! هنوز کار می‌کنه؟
+> It's very cracked. You need a new screen. | خیلی ترک خورده. صفحهٔ نو لازم داری.
+W: dropped=انداختم ؛ افتاد ; skate park=پارک اسکیت ; spider's web=تار عنکبوت ; cracked=ترک‌خورده
+ryan: It works, but I cut my finger on it. Can we ask the phone shop guy? Dev? He's sound. | کار می‌کنه، ولی انگشتم را باهاش بریدم. میشه از مرده تو مغازهٔ موبایل بپرسیم؟ دِو؟ آدم باحالیه.
+> Yes, let's go now. Don't use it! | آره، بیا الان بریم. ازش استفاده نکن!
+> What does "sound" mean? | «ساوند» یعنی چی؟
+W: cut=بریدن ; finger=انگشت ; guy=آقا ؛ پسر ; sound=باحال (عامیانه)
+C: In British slang, "sound" means a person is nice and reliable: "He's sound." | در عامیانهٔ بریتانیایی «sound» یعنی آدم خوب و قابل‌اعتماد.
+dev: Ouch! That's a proper smash. Did you drop it face down? Let me have a look. Hmm. The glass is cracked, but the screen still works. | آخ! حسابی خرد شده. رو صورت افتاد؟ بذار نگاه کنم. هوم. شیشه‌اش ترک خورده، ولی صفحه هنوز کار می‌کنه.
+> Can you fix it? How much is it? | می‌تونی درستش کنی؟ چقدر میشه؟
+> How long will it take? | چقدر طول می‌کشه؟
+W: ouch=آخ ; proper=حسابی ؛ واقعی ; smash=خردشدگی ; face down=رو به پایین
+X: how long it will take ; how much time take => How long will it take? About an hour. | How long will it take? | چقدر طول می‌کشد؟
+dev: A new screen is a hundred and nine pounds. About an hour. But wait — is it covered by insurance? | صفحهٔ نو صد و نه پونده. حدود یه ساعت. ولی صبر کن — بیمه داره؟
+> A hundred and nine? Ryan, that's a lot! | صد و نه؟ رایان، خیلیه!
+> Ryan, is it insured? | رایان، بیمه داره؟
+W: insured=بیمه‌شده ; a lot=زیاد
+ryan: Insurance? I don't know. Dad set it up. I'm not calling him. You call him! | بیمه؟ نمی‌دونم. بابا راه انداخت. من بهش زنگ نمی‌زنم. تو زنگ بزن!
+> Ryan, you must tell your dad. | رایان، باید به بابات بگی.
+> Fine. I'll text Tom. | باشه. به تام پیام میدم.
+W: covered=تحت پوشش ; insurance=بیمه ; set up=راه انداخت ؛ تنظیم کرد ; text=پیامک دادن
+dev: I can check his account if he says yes. Oh — it's here. "Accidental damage cover." You're in luck, mate. | اگه اون بگه آره می‌تونم حسابش را چک کنم. اوه — اینجاست. «پوشش آسیب تصادفی.» شانس آوردی رفیق.
+> What does accidental damage mean? | آسیب تصادفی یعنی چی؟
+> Lucky! How much does he pay then? | چه شانسی! پس چقدر می‌پردازه؟
+W: accidental=تصادفی ؛ اتفاقی ; damage=آسیب ؛ خسارت ; in luck=شانس آوردی
+dev: It means you broke it by mistake, not on purpose. There's a twenty-five-pound excess. That's all. | یعنی اشتباهی شکستیش، نه عمداً. یه فرانشیز بیست و پنج پوندی داره. همین.
+> Only twenty-five pounds? Great! | فقط بیست و پنج پوند؟ عالیه!
+> So Tom pays the excess? | پس تام فرانشیز را میده؟
+ryan: Twenty-five quid? I've got that from my birthday money. Dad doesn't need to know! | بیست و پنج پوند؟ از پول تولدم دارمش. لازم نیست بابا بدونه!
+> He'll know. It's his insurance! | می‌فهمه. بیمه مال اونه!
+> OK, but you should still be honest. | باشه، ولی بازم باید صادق باشی.
+W: by mistake=اشتباهی ; on purpose=عمداً ; excess=فرانشیز ؛ سهم بیمه‌گذار ; quid=پوند (عامیانه)
+ryan: Ugh. You sound like Mum. Fine — I'll tell him at tea. Dev, can I get a case too? A really strong one? | اَه. مثل مامان حرف می‌زنی. باشه — سر شام بهش میگم. دِو، یه قاب هم می‌تونم بگیرم؟ یه دونهٔ خیلی محکم؟
+> Good idea. And a screen protector! | فکر خوبیه. یه محافظ صفحه هم!
+> Get a case. Skate parks are dangerous for phones. | قاب بگیر. پارک اسکیت برای گوشی خطرناکه.
+W: case=قاب ; strong=محکم ; screen protector=محافظ صفحه ; dangerous=خطرناک
+dev: Case and screen protector: fifteen pounds. Come back in an hour. And Ryan — phone in your pocket when you skate! | قاب و محافظ صفحه: پونزده پوند. یه ساعت دیگه برگرد. و رایان — وقتی اسکیت می‌کنی گوشی تو جیبت باشه!
+
+# l2_u25_4 | dev | Keeping your number | نگه داشتن شماره | I want to keep my number / I'm switching to… / How do I get…? / It'll be done by… | می‌خواهم شماره‌ام را نگه دارم / دارم به … می‌روم / چطور بگیرم؟ / تا … انجام می‌شود | phoneshop
+dev: Hi! You're Leslie's lodger, aren't you? She said you'd come in. You want to switch networks? | سلام! تو مستأجر لزلی هستی، نه؟ گفت میای. می‌خوای شبکه‌ات را عوض کنی؟
+> Yes. I'm switching to your network. | آره. دارم به شبکهٔ شما میام.
+> Yes, but I want to keep my number. | آره، ولی می‌خوام شماره‌ام را نگه دارم.
+W: switch=عوض کردن ؛ تغییر دادن ; networks=شبکه‌ها ; keep=نگه داشتن ; number=شماره
+dev: No problem at all. You need a code from your old network. It's called a PAC code. It's free. | اصلاً مشکلی نیست. از شبکهٔ قبلیت یه کد لازم داری. اسمش کد PAC ـه. مجانیه.
+> How do I get a PAC code? | کد PAC را چطوری بگیرم؟
+> Is it difficult? Do I have to call them? | سخته؟ باید بهشون زنگ بزنم؟
+W: code=کد ; PAC code=کد انتقال شماره ; free=مجانی ; old=قبلی
+C: To keep your number when you switch, text "PAC" to 65075. Your old network sends a code. Give it to your new network. | برای حفظ شماره «PAC» را به ۶۵۰۷۵ پیامک کنید.
+dev: Easy. Just text "PAC" to six-five-oh-seven-five. They text you back in a minute. Try it now. | آسونه. فقط «PAC» را به شش-پنج-صفر-هفت-پنج پیامک کن. یه دقیقه‌ای جواب میدن. همین الان امتحان کن.
+> OK, I've sent it. Oh, here's the reply! | باشه، فرستادم. اوه، جوابش اومد!
+> Six-five-oh-seven-five? Can you say it again? | شش-پنج-صفر-هفت-پنج؟ میشه دوباره بگی؟
+W: text=پیامک دادن ; text back=جواب پیامک دادن ; minute=دقیقه ; reply=جواب
+X: i sended it ; i have send it => You've sent it? Brilliant. | I've sent it. | فرستادمش.
+dev: Brilliant. Read me the code, and I'll put it in the system. Your number moves on the next working day. | عالیه. کد را برام بخون، واردش می‌کنم تو سیستم. شماره‌ات روز کاری بعد منتقل میشه.
+> It's PAC nine-eight-seven, X-Y-Z, three-two-one. | PAC نه-هشت-هفت، ایکس-وای-زد، سه-دو-یک.
+> What's a working day? | روز کاری یعنی چی؟
+W: system=سیستم ; moves=منتقل می‌شود ; working day=روز کاری ; next=بعدی
+dev: A working day is Monday to Friday, not bank holidays. So — it's Friday today, it'll be done by Monday. | روز کاری یعنی دوشنبه تا جمعه، نه تعطیلات رسمی. پس — امروز جمعه‌ست، تا دوشنبه انجام میشه.
+> Will my phone work at the weekend? | گوشیم آخر هفته کار می‌کنه؟
+> By Monday. And then I use the new SIM? | تا دوشنبه. بعدش سیم‌کارت جدید را می‌ذارم؟
+W: bank holidays=تعطیلات رسمی ; done=انجام‌شده ; weekend=آخر هفته ; by Monday=تا دوشنبه
+dev: Yes — keep the old SIM in until it stops working. Then put the new one in and restart. Your number comes with you. | آره — سیم‌کارت قدیمی را بذار بمونه تا از کار بیفته. بعد جدید را بذار و ری‌استارت کن. شماره‌ات باهات میاد.
+> And my old contract? Do I cancel it? | قرارداد قدیمیم چی؟ لغوش کنم؟
+> What about my old phone? Can I sell it? | گوشی قدیمیم چی؟ می‌تونم بفروشمش؟
+W: restart=راه‌اندازی دوباره ; comes with you=همراهت می‌آید ; cancel=لغو کردن ; sell=فروختن
+dev: The PAC cancels your old one automatically. Just check your last bill. Your old phone? We do trade-in: up to forty pounds. | PAC قرارداد قدیمی را خودکار لغو می‌کنه. فقط قبض آخر را چک کن. گوشی قدیمیت؟ ما معاوضه داریم: تا چهل پوند.
+> Forty pounds? Or I give it to Nana Maggie. | چهل پوند؟ یا می‌دمش به ننه مگی.
+> Great! Is the old phone locked? | عالیه! گوشی قدیمی قفله؟
+W: automatically=خودکار ; bill=قبض ; trade-in=معاوضه ; locked=قفل (به شبکه)
+dev: Nana Maggie? Then she'll need a big-button setting. I can do it for free. Bring her in — I love a nan. | ننه مگی؟ پس تنظیمات دکمه‌درشت لازم داره. مجانی برات انجامش میدم. بیارش — من عاشق مادربزرگ‌هام.

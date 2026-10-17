@@ -1,0 +1,134 @@
+## U112 | Shopping centre | مرکز خرید | shoppingcentre | Find shops on the directory, try clothes on, collect a catalogue order and get help when someone is lost | فروشگاه‌ها را روی راهنما پیدا کنی، لباس پرو کنی، سفارش کاتالوگی بگیری و وقتی کسی گم شده کمک بگیری
+
+# l2_u24_1 | kai | Finding the shop | پیدا کردن فروشگاه | Where's…? / It's on the ground floor / upstairs / take the escalator / You are here | … کجاست؟ / طبقهٔ همکف / طبقهٔ بالا / با پله‌برقی برو | shoppingcentre
+kai: Hi there, welcome to Hackney Central! I'm Kai, Customer Services. You look like a man on a mission. | سلام، به هکنی سنترال خوش اومدی! من کای هستم، خدمات مشتریان. شبیه آدمی هستی که یه مأموریت داره.
+> I am! Where's the shoe shop, please? | هستم! مغازهٔ کفش کجاست، لطفاً؟
+> Hi Kai. Is there a map of the shops? | سلام کای. نقشهٔ فروشگاه‌ها هست؟
+W: Customer Services=خدمات مشتریان ; mission=مأموریت ; shoe shop=کفش‌فروشی ; map=نقشه
+kai: The directory's just behind you — the big screen. See the red dot? "You are here." We're on the ground floor. | راهنمای فروشگاه‌ها درست پشت سرته — اون صفحهٔ بزرگ. نقطهٔ قرمز را می‌بینی؟ «شما اینجا هستید.» ما طبقهٔ همکفیم.
+> I see it. Which floor are the shoes on? | می‌بینمش. کفش‌ها طبقهٔ چندمن؟
+> Ground floor? Is that the same as first floor? | طبقهٔ همکف؟ همون طبقهٔ اوله؟
+W: directory=راهنمای فروشگاه‌ها ; dot=نقطه ; ground floor=طبقهٔ همکف ; floor=طبقه
+C: In the UK, the "ground floor" is at street level. The "first floor" is one floor up — Americans call that the second floor! | طبقهٔ همکف هم‌سطح خیابان است و «طبقهٔ اول» یک طبقه بالاتر.
+kai: No — in Britain the first floor is upstairs. Shoes are on the first floor. Take the escalator, then turn left. | نه — تو بریتانیا طبقهٔ اول طبقهٔ بالاست. کفش‌ها طبقهٔ اولن. با پله‌برقی برو بالا، بعد بپیچ چپ.
+> Escalator, then left. Is there a lift too? | پله‌برقی، بعد چپ. آسانسور هم هست؟
+> Upstairs and left. Thanks! | بالا و چپ. ممنون!
+W: upstairs=طبقهٔ بالا ; escalator=پله‌برقی ; turn left=به چپ پیچیدن ; lift=آسانسور
+X: which floor is shoes ; in which floor are shoe => Which floor? The first floor. | Which floor are the shoes on? | کفش‌ها در کدام طبقه‌اند؟
+kai: The lift's by the toilets, past the food court. Handy if you've got a pushchair. Are you shopping for kids? | آسانسور کنار توالت‌هاست، بعد از فودکورت. اگه کالسکه داری به درد می‌خوره. برای بچه‌ها خرید می‌کنی؟
+> Yes, school shoes for a five-year-old. | آره، کفش مدرسه برای یه بچهٔ پنج ساله.
+> What's a food court? | فودکورت چیه؟
+W: toilets=توالت‌ها ; food court=فودکورت ؛ محوطهٔ غذاخوری ; handy=به‌درد‌بخور ; pushchair=کالسکه
+kai: School shoes! Then go to the big shoe shop — they measure kids' feet for free. Black shoes, with Velcro, yeah? | کفش مدرسه! پس برو کفش‌فروشی بزرگه — پای بچه‌ها را مجانی اندازه می‌گیرن. کفش مشکی، با چسب، آره؟
+> Velcro? Not laces? | چسبی؟ نه بندی؟
+> They measure feet? That's useful. | پا را اندازه می‌گیرن؟ چه خوب.
+W: measure=اندازه گرفتن ; feet=پاها ; Velcro=چسب (پارچه‌ای) ; laces=بند کفش
+kai: At five? Velcro, trust me. Teachers don't want to tie thirty pairs of laces after PE. | پنج سالگی؟ چسبی، باور کن. معلم‌ها نمی‌خوان بعد از ورزش سی جفت بند کفش ببندن.
+> Ha! That's true. Where's the café, after? | ها! درسته. کافه بعدش کجاست؟
+> Good tip. Is the shoe shop busy now? | نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟
+W: trust me=باور کن ; tie=بستن ; pairs=جفت‌ها ; PE=ورزش مدرسه
+kai: Saturday morning — busy, sorry! Take a ticket at the door and they'll call your number. Café's on the top floor. | صبح شنبه — شلوغه، ببخشید! دم در یه نوبت بگیر، شماره‌ات را صدا می‌زنن. کافه طبقهٔ آخره.
+> A ticket? Like at the deli counter? | نوبت؟ مثل پیشخوان اغذیه؟
+> OK. Ticket, shoes, coffee. Perfect plan. | باشه. نوبت، کفش، قهوه. برنامهٔ عالی.
+W: ticket=برگهٔ نوبت ; call=صدا زدن ; top floor=طبقهٔ آخر ; deli counter=پیشخوان اغذیه
+kai: Exactly like that. Come back if you get lost — this desk, under the big "Customer Services" sign. Good luck! | دقیقاً همون‌طوری. اگه گم شدی برگرد — همین میز، زیر تابلوی بزرگ «خدمات مشتریان». موفق باشی!
+
+# l2_u24_2 | leslie | Fitting rooms | اتاق پرو | Can I try this on? / It's too small / Have you got it in a…? / It suits you | می‌توانم پرو کنم؟ / خیلی کوچک است / سایز … دارید؟ / بهت می‌آید | shoppingcentre
+leslie: Right, the value-clothes shop. Cheap and cheerful! You need a warm coat before winter. Let's look. | خب، فروشگاه لباس ارزون. ارزون و شاد! قبل از زمستون یه کت گرم لازم داری. بیا ببینیم.
+> This one looks warm. Can I try it on? | این یکی گرم به نظر میاد. می‌تونم پروش کنم؟
+> Do they sell coats here? It's so big! | اینجا کت می‌فروشن؟ خیلی بزرگه!
+W: value=ارزان ؛ اقتصادی ; cheap and cheerful=ارزان و خوب ; warm=گرم ; coat=کت ؛ پالتو
+leslie: Of course! The fitting rooms are at the back. You can take six items. They give you a number tag. | البته! اتاق‌های پرو ته فروشگاهه. می‌تونی شش تیکه ببری. یه برچسب شماره بهت میدن.
+> Six items? Then I'll take a jumper too. | شش تیکه؟ پس یه بلوز بافتنی هم می‌برم.
+> What's the number tag for? | برچسب شماره برای چیه؟
+W: fitting rooms=اتاق‌های پرو ; items=تیکه‌ها ؛ اقلام ; number tag=برچسب شماره ; jumper=بلوز بافتنی
+C: In UK clothes shops, staff count your items into the fitting room and give you a tag. You return the tag when you come out. | کارکنان تعداد لباس‌ها را می‌شمارند و برچسب می‌دهند.
+leslie: So you don't walk out with three jumpers on! Go on, try it. I'll wait here. Well? How is it? | که با سه تا بلوز تنت بیرون نری! برو، امتحانش کن. همین‌جا منتظرم. خب؟ چطوره؟
+> It's too small. The sleeves are short. | خیلی کوچیکه. آستیناش کوتاهه.
+> It fits! But it's a bit tight here. | اندازه‌ست! ولی اینجاش یه‌کم تنگه.
+W: too small=خیلی کوچک ; sleeves=آستین‌ها ; fits=اندازه است ; tight=تنگ
+X: it is too much small ; is very small for me => Too small? Let's get a bigger size. | It's too small. | خیلی کوچک است.
+leslie: Let's find a bigger size. That's a medium. You need a large. I'll ask the lady. Excuse me — have you got this in large? | بیا سایز بزرگ‌تر پیدا کنیم. اون مدیومه. تو لارج لازم داری. از خانمه می‌پرسم. ببخشید — اینو سایز لارج دارین؟
+> Can I help? I can ask her. | کمک کنم؟ من ازش می‌پرسم.
+> Thanks, Leslie. In black, if possible. | ممنون لزلی. اگه بشه، مشکی.
+W: bigger=بزرگ‌تر ; size=سایز ؛ اندازه ; medium=متوسط ; large=بزرگ
+leslie: She says they've only got large in green. Here. Try this. Oh! That's a good colour on you. It really suits you. | میگه لارج فقط سبز دارن. بیا. اینو امتحان کن. اوه! این رنگ بهت میاد. واقعاً بهت میاد.
+> Really? I don't usually wear green. | واقعاً؟ من معمولاً سبز نمی‌پوشم.
+> It does suit me! And it's warm. | واقعاً بهم میاد! گرمم هست.
+W: colour=رنگ ; suits you=به تو می‌آید ; usually=معمولاً ; wear=پوشیدن
+C: "It suits you" is about style or colour. "It fits you" is about size. | «suits» یعنی به تو می‌آید؛ «fits» یعنی اندازه است.
+leslie: Twenty-five pounds! For a winter coat, that's a bargain. Does it have a hood? London rain is sideways. | بیست و پنج پوند! برای یه کت زمستونی، مفته. کلاه داره؟ بارون لندن کج می‌باره.
+> Yes, it has a hood. I'll take it. | آره، کلاه داره. برش می‌دارم.
+> Sideways rain? Is that real? | بارون کج؟ واقعیه؟
+W: bargain=جنس ارزان ؛ مفت ; hood=کلاه (کاپشن) ; sideways=کج ؛ از پهلو ; take=خریدن
+leslie: Very real. Wait until November! Right — pay at the till by the door, and keep the receipt in case you change your mind. | خیلی واقعی. صبر کن تا نوامبر! خب — دم در پولش را بده و رسید را نگه دار شاید نظرت عوض شد.
+> How long can I return it for? | تا کی می‌تونم پسش بدم؟
+> Good idea. Are you buying anything? | فکر خوبیه. تو چیزی می‌خری؟
+W: till=صندوق ; in case=در صورتی که ; change your mind=نظرت را عوض کنی ; return=پس دادن
+leslie: Usually twenty-eight days here. And me? Just socks for William. He's eaten… I mean, lost… four pairs this month. | معمولاً اینجا بیست و هشت روز. و من؟ فقط جوراب برای ویلیام. چهار جفت… یعنی، گم کرده… این ماه چهار جفت.
+
+# l2_u24_3 | kai | The catalogue-shop collection point | تحویل از فروشگاه کاتالوگی | I ordered… online / Where do I collect…? / My number is on the screen / It's out of stock | آنلاین سفارش دادم / کجا تحویل بگیرم؟ / شماره‌ام روی صفحه است | shoppingcentre
+kai: Hello again! How did the shoe shopping go? Now what are you looking for? | دوباره سلام! خرید کفش چطور پیش رفت؟ حالا دنبال چی هستی؟
+> Good, thanks! I ordered a fan online. Where do I collect it? | خوب، ممنون! یه پنکه آنلاین سفارش دادم. کجا تحویلش بگیرم؟
+> I need the catalogue shop. Is it here? | فروشگاه کاتالوگی را لازم دارم. اینجاست؟
+W: shopping=خرید ; ordered=سفارش دادم ; fan=پنکه ; catalogue shop=فروشگاه کاتالوگی
+kai: The catalogue shop's on the ground floor, next to the supermarket. Do you have the order number? You'll need it. | فروشگاه کاتالوگی طبقهٔ همکفه، کنار سوپرمارکت. شمارهٔ سفارش داری؟ لازمش داری.
+> Yes, it's in a text message. | آره، تو یه پیامکه.
+> I think so. Do I need ID too? | فکر کنم. کارت شناسایی هم لازمه؟
+W: next to=کنارِ ; order number=شمارهٔ سفارش ; text message=پیامک ; ID=کارت شناسایی
+C: At UK catalogue shops you order online or on a screen in the shop. Then you wait for your number and collect at the counter. | در فروشگاه‌های کاتالوگی آنلاین سفارش می‌دهید و از پیشخوان تحویل می‌گیرید.
+kai: Usually just the number. Type it into the screen by the door. It prints a ticket. Then watch the big board. | معمولاً فقط شماره. دم در تو صفحه تایپش کن. یه برگه چاپ می‌کنه. بعد تابلوی بزرگ را نگاه کن.
+> What does the board show? | تابلو چی نشون میده؟
+> Type, ticket, board. Sounds easy! | تایپ، برگه، تابلو. آسون به نظر میاد!
+W: type=تایپ کردن ; prints=چاپ می‌کند ; ticket=برگه ; board=تابلو
+kai: Your ticket number goes from "Preparing" to "Ready to collect". Then go to Counter 2. It's like a game show. | شمارهٔ برگه‌ات از «در حال آماده‌سازی» میره به «آمادهٔ تحویل». بعد برو باجهٔ ۲. مثل مسابقهٔ تلویزیونیه.
+> How long does it usually take? | معمولاً چقدر طول می‌کشه؟
+> Counter 2. Got it. | باجهٔ ۲. فهمیدم.
+W: preparing=در حال آماده‌سازی ; ready to collect=آمادهٔ تحویل ; counter=باجه ؛ پیشخوان ; game show=مسابقهٔ تلویزیونی
+X: how long it take usually ; how much time it takes => How long? About five minutes. | How long does it usually take? | معمولاً چقدر طول می‌کشد؟
+kai: Five minutes, maybe ten on Saturdays. Oh — if the screen says "Item unavailable", come back to me. | پنج دقیقه، شنبه‌ها شاید ده. اوه — اگه صفحه نوشت «کالا موجود نیست»، برگرد پیش من.
+> What happens then? | اون‌وقت چی میشه؟
+> Hopefully it's there. It's very hot at home! | امیدوارم باشه. خونه خیلی گرمه!
+W: unavailable=ناموجود ; hopefully=امیدوارم ; hot=گرم
+kai: They'd give you a refund, or order it from another store. But your order says "reserved", so you're fine. | پولت را پس میدن، یا از یه شعبهٔ دیگه سفارش میدن. ولی سفارشت نوشته «رزرو شده»، پس مشکلی نیست.
+> Reserved. Great. How do I carry it home? | رزرو شده. عالیه. چطوری ببرمش خونه؟
+> Thanks, Kai. You know everything! | ممنون کای. همه‌چی را می‌دونی!
+W: refund=بازپرداخت ; store=فروشگاه ؛ شعبه ; reserved=رزرو شده ; carry=حمل کردن
+kai: It's a big box. There are trolleys by the car park lift. Or get the 38 — the driver might help! | جعبه‌اش بزرگه. کنار آسانسور پارکینگ چرخ‌دستی هست. یا سوار ۳۸ شو — شاید راننده کمک کنه!
+> The driver is my friend Tom. He will help! | رانندهٔ ۳۸ دوستم تامه. کمک می‌کنه!
+> A trolley is a good idea. Thanks. | چرخ‌دستی فکر خوبیه. ممنون.
+W: box=جعبه ; trolleys=چرخ‌دستی‌ها ; car park=پارکینگ ; might=شاید
+kai: Tom on the 38? Everyone knows Tom! Tell him Kai says hi. Enjoy your fan — and stay cool! | تام راننده ۳۸؟ همه تام را می‌شناسن! بهش بگو کای سلام رسوند. از پنکه‌ات لذت ببر — و خنک بمون!
+
+# l2_u24_4 | kai | Lost in the shopping centre | گم شدن در مرکز خرید | I can't find… / He was wearing… / When did you last see him? / Don't worry | پیدا نمی‌کنم / … پوشیده بود / آخرین بار کی دیدیدش؟ | shoppingcentre
+kai: Hi! Are you OK? You look worried. Take a breath. How can I help? | سلام! حالت خوبه؟ نگران به نظر میای. یه نفس بکش. چطور کمکت کنم؟
+> I can't find William! He's three. | ویلیام را پیدا نمی‌کنم! سه سالشه.
+> A little boy is lost. I was looking after him! | یه پسر کوچولو گم شده. من مراقبش بودم!
+W: worried=نگران ; take a breath=نفس کشیدن ; can't find=پیدا نمی‌کنم ; looking after=مراقبت کردن
+kai: OK. Don't worry, this happens every Saturday. We'll find him. What's his name, and what is he wearing? | باشه. نگران نباش، هر شنبه این اتفاق می‌افته. پیداش می‌کنیم. اسمش چیه و چی پوشیده؟
+> William Tom. He's wearing a red coat. | ویلیام تام. یه کت قرمز پوشیده.
+> He has a dinosaur hat! And blue wellies. | یه کلاه دایناسوری داره! و چکمهٔ آبی.
+W: wearing=پوشیده ; red coat=کت قرمز ; dinosaur hat=کلاه دایناسوری ; wellies=چکمهٔ لاستیکی
+X: he wear red coat ; he is wear a red coat => He's wearing a red coat. Good. | He's wearing a red coat. | کت قرمز پوشیده است.
+kai: Red coat, dinosaur hat. Brilliant, that's easy to spot. When did you last see him? And where? | کت قرمز، کلاه دایناسوری. عالیه، راحت دیده میشه. آخرین بار کی دیدیش؟ کجا؟
+> Five minutes ago, at the toy shop. | پنج دقیقه پیش، تو مغازهٔ اسباب‌بازی.
+> Near the escalator. I turned around, and he was gone. | نزدیک پله‌برقی. برگشتم دیدم نیست.
+W: easy to spot=راحت دیده‌شدنی ; last see=آخرین بار دیدن ; ago=پیش ; turned around=برگشتم
+C: UK shopping centres have a "lost child" procedure. Staff close the doors and use radios. Go straight to a member of staff. | مراکز خرید برای کودک گم‌شده روال مشخص دارند. فوراً به کارکنان بگویید.
+kai: Thanks. I'm calling security on the radio now. "Code Adam. Red coat, dinosaur hat, three years old." | ممنون. الان با بی‌سیم به نگهبانی زنگ می‌زنم. «کد آدام. کت قرمز، کلاه دایناسوری، سه ساله.»
+> What does Code Adam mean? | کد آدام یعنی چی؟
+> Should I go back to the toy shop? | برگردم مغازهٔ اسباب‌بازی؟
+W: security=نگهبانی ; radio=بی‌سیم ; code=کد ; toy shop=اسباب‌بازی‌فروشی
+kai: It means "lost child" — all the staff are looking now. Stay here with me. Have you got his parents' number? | یعنی «بچهٔ گم‌شده» — همهٔ کارکنان الان دنبالشن. پیش من بمون. شمارهٔ پدر و مادرش را داری؟
+> Yes. Should I call Leslie now? | آره. الان به لزلی زنگ بزنم؟
+> His dad is Tom. He's driving the bus. | باباش تامه. داره اتوبوس می‌رونه.
+W: staff=کارکنان ; stay=ماندن ; parents=پدر و مادر ; call=زنگ زدن
+kai: Wait — my radio. "Boy in a dinosaur hat, found in the sweet shop." Ha! Of course he is. They're bringing him now. | صبر کن — بی‌سیمم. «پسری با کلاه دایناسوری، تو مغازهٔ آبنبات پیدا شد.» ها! معلومه. دارن میارنش.
+> Oh, thank goodness! The sweet shop! | وای، خدا را شکر! مغازهٔ آبنبات!
+> Of course! He loves sweets. | معلومه! عاشق آبنباته.
+W: found=پیدا شد ; sweet shop=آبنبات‌فروشی ; thank goodness=خدا را شکر ; bringing=آوردن
+william: Lolly! I got lolly! Hello! | آبنبات! آبنبات گرفتم! سلام!
+> William! Never run away again, OK? | ویلیام! دیگه هیچ‌وقت فرار نکن، باشه؟
+> Where did you get a lolly? | آبنبات از کجا آوردی؟
+W: lolly=آبنبات چوبی ; run away=فرار کردن ; never=هرگز
+kai: The security man gave it to him. Happy ending! Hold his hand now — and maybe don't tell Leslie until you're home. | نگهبانه بهش داد. پایان خوش! حالا دستش را بگیر — شاید هم تا خونه به لزلی نگی.

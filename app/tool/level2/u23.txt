@@ -1,0 +1,134 @@
+## U111 | Returns and click & collect | مرجوعی و سفارش آنلاین | bigsupermarket | Use a loyalty card, return things for a refund, collect an online order and deal with substitutions | از کارت باشگاه مشتریان استفاده کنی، کالا را پس بدهی، سفارش آنلاین را تحویل بگیری و با کالای جایگزین کنار بیایی
+
+# l2_u23_1 | zara | Loyalty card and yellow stickers | کارت مشتری و برچسب زرد | Do you have a…? / You can save… / reduced / How does it work? | … دارید؟ / می‌توانید صرفه‌جویی کنید / تخفیف‌خورده | bigsupermarket
+zara: Before you pay — have you got a Superstore card? You'd save one pound twenty on this shop. | قبل از پرداخت — کارت سوپراستور داری؟ تو همین خرید یه پوند و بیست پنس صرفه‌جویی می‌کنی.
+> No, I haven't. How does it work? | نه، ندارم. چطوری کار می‌کنه؟
+> One pound twenty? Is it free? | یه پوند و بیست؟ مجانیه؟
+W: save=صرفه‌جویی کردن ; card=کارت ; work=کار کردن ؛ عمل کردن ; free=مجانی
+zara: It's free. You download the app, or take a plastic card. Scan it first, every time. You get member prices and points. | مجانیه. اپ را دانلود می‌کنی یا کارت پلاستیکی می‌گیری. هر بار اول اسکنش کن. قیمت اعضا و امتیاز می‌گیری.
+> What are member prices? | قیمت اعضا یعنی چی؟
+> Points? What can I do with points? | امتیاز؟ با امتیاز چی کار می‌تونم بکنم؟
+W: download=دانلود کردن ; member prices=قیمت اعضا ; points=امتیازها ; every time=هر بار
+C: Most big UK supermarkets have a free loyalty card. Card holders pay lower "member" or "card" prices on many items. | بیشتر سوپرمارکت‌ها کارت مشتری رایگان دارند و دارندگان آن قیمت کمتری می‌پردازند.
+zara: See the purple labels? Two prices. The low one is for card holders. And points turn into vouchers every three months. | برچسب‌های بنفش را می‌بینی؟ دو تا قیمت. قیمت پایین برای دارندگان کارته. امتیازها هم هر سه ماه تبدیل به کوپن میشن.
+> So without a card I pay more? | پس بدون کارت بیشتر می‌پردازم؟
+> Vouchers! Can I use them for anything? | کوپن! برای هر چیزی می‌تونم استفاده کنم؟
+W: labels=برچسب‌ها ; card holders=دارندگان کارت ; vouchers=کوپن‌ها ؛ بن‌ها ; without=بدون
+zara: Exactly. Without a card, you pay the higher price. Shall I sign you up now? I just need your email address. | دقیقاً. بدون کارت قیمت بالاتر را می‌پردازی. الان ثبت‌نامت کنم؟ فقط ایمیلت را لازم دارم.
+> Yes, please. Do you need my phone number too? | آره، لطفاً. شماره تلفنم هم لازمه؟
+> Can I do it later on the app? | میشه بعداً تو اپ انجامش بدم؟
+W: sign up=ثبت‌نام کردن ; email address=آدرس ایمیل ; later=بعداً
+X: you need my phone number too? ; need you my number => My phone number? No, just email. | Do you need my phone number too? | شماره تلفنم را هم لازم دارید؟
+zara: Just email. Done — here's a temporary card. Now, a tip: come after seven in the evening for the yellow stickers. | فقط ایمیل. تموم — این یه کارت موقته. حالا یه نکته: بعد از ساعت هفت عصر بیا برای برچسب‌های زرد.
+> Yellow stickers? What are they? | برچسب زرد؟ چی هستن؟
+> Thanks! Why after seven? | ممنون! چرا بعد از هفت؟
+W: temporary=موقت ; tip=نکته ؛ توصیه ; stickers=برچسب‌ها ; evening=عصر
+zara: Reduced food! Bread, salad, chicken — things with today's date. Sometimes ninety per cent off. | غذای تخفیفی! نون، سالاد، مرغ — چیزایی که تاریخشون امروزه. گاهی نود درصد تخفیف.
+> Ninety per cent? Is the food still OK? | نود درصد؟ غذاش هنوز سالمه؟
+> Brilliant. I'll come tonight! | عالیه. امشب میام!
+W: reduced=تخفیف‌خورده ; date=تاریخ ; per cent=درصد ; off=تخفیف
+C: A yellow "reduced" sticker means the food is near its use-by date. Eat it or freeze it that day. | برچسب زرد یعنی تاریخ مصرف کالا نزدیک است.
+zara: It's fine if you eat it today, or put it in the freezer. Check the "use by" date. That's the important one. | اگه امروز بخوری یا بذاری فریزر، مشکلی نیست. تاریخ «مصرف تا» را چک کن. اون مهمه.
+> What's the difference with "best before"? | فرقش با «بهتره قبل از» چیه؟
+> Use by. I'll remember that. | مصرف تا. یادم می‌مونه.
+W: freezer=فریزر ; use by=مصرف تا ; best before=بهتر است قبل از ; important=مهم
+zara: "Best before" is about quality — biscuits might go soft. "Use by" is about safety. Right, scan your new card and pay! | «بهتره قبل از» دربارهٔ کیفیته — بیسکویت ممکنه نرم بشه. «مصرف تا» دربارهٔ ایمنیه. خب، کارت جدیدت را اسکن کن و پرداخت کن!
+
+# l2_u23_2 | zara | Returning something | پس دادن کالا | I'd like to return… / It doesn't work / Have you got the receipt? / a refund or an exchange | می‌خواهم پس بدهم / کار نمی‌کند / رسید دارید؟ / بازپرداخت یا تعویض | bigsupermarket
+zara: Hello, Customer Service desk. Oh, it's you! What's in the box? | سلام، میز خدمات مشتری. اوه، تویی! تو جعبه چیه؟
+> I'd like to return this kettle, please. | می‌خوام این کتری را پس بدم، لطفاً.
+> This kettle doesn't work. I bought it last week. | این کتری کار نمی‌کنه. هفتهٔ پیش خریدمش.
+W: Customer Service desk=میز خدمات مشتری ; return=پس دادن ; kettle=کتری ; doesn't work=کار نمی‌کند
+zara: Oh dear. What's wrong with it? Does it not turn on? | ای وای. چه مشکلی داره؟ روشن نمیشه؟
+> It turns on, but it doesn't switch off! | روشن میشه، ولی خاموش نمیشه!
+> It leaks. There's water all over the counter. | نشتی داره. همه‌جای کابینت آب میشه.
+W: turn on=روشن شدن ; switch off=خاموش شدن ; leaks=نشت می‌کند ; counter=سطح کابینت
+X: it is not switch off ; it doesn't switching off => It doesn't switch off? That's dangerous! | It doesn't switch off. | خاموش نمی‌شود.
+zara: That's not safe at all. Have you got the receipt? Paper, or on the app? | این اصلاً امن نیست. رسیدش را داری؟ کاغذی یا تو اپ؟
+> Here's the receipt. I kept it. | این رسیده. نگهش داشتم.
+> I scanned my Superstore card. Is that enough? | کارت سوپراستورم را اسکن کردم. کافیه؟
+W: safe=امن ; receipt=رسید ; kept=نگه داشتم ; enough=کافی
+C: In the UK you can return faulty items for a refund. Most shops also accept unwanted items within about 30 days with a receipt. | کالای معیوب را می‌توان پس داد و پول گرفت.
+zara: Perfect, I can find it on your card. Bought on the third, nineteen ninety-nine. Would you like a refund or an exchange? | عالیه، از روی کارتت پیداش می‌کنم. خرید سوم ماه، نوزده و نود و نه. پولت را پس می‌خوای یا تعویض؟
+> A refund, please. I'll buy a better one. | پس دادن پول، لطفاً. یه بهترش می‌خرم.
+> An exchange. The same kettle, but working! | تعویض. همون کتری، ولی سالم!
+W: refund=بازپرداخت پول ; exchange=تعویض ; better=بهتر ; working=سالم ؛ کارکن
+zara: No problem. It goes back to the card you paid with. Can you tap that card here? It takes three to five days. | مشکلی نیست. پول به همون کارتی که باهاش پرداختی برمی‌گرده. میشه کارت را اینجا بزنی؟ سه تا پنج روز طول می‌کشه.
+> Three to five days? Not today? | سه تا پنج روز؟ امروز نه؟
+> I paid with my phone. Is that OK? | با گوشیم پرداخت کردم. اشکالی نداره؟
+W: goes back=برمی‌گردد ; tap=زدن ؛ لمس کردن ; takes=طول می‌کشد ; days=روز
+zara: Phone's fine, tap it the same way. Banks are slow, sorry — but you'll see it by Friday. Here's your refund receipt. | گوشی خوبه، همون‌طوری بزن. بانک‌ها کندن، ببخشید — ولی تا جمعه می‌بینیش. این رسید بازپرداختته.
+> Thank you. Can I return these shoes too? | ممنون. این کفش‌ها را هم می‌تونم پس بدم؟
+> Great. You've been very helpful. | عالیه. خیلی کمک کردی.
+W: slow=کند ; by Friday=تا جمعه ; refund receipt=رسید بازپرداخت ; helpful=کمک‌کننده
+zara: Have they been worn? If they're unworn, in the box, with the tag, yes. If you've worn them in the rain… that's harder! | پوشیده شدن؟ اگه پوشیده نشدن، تو جعبه، با برچسب، آره. اگه زیر بارون پوشیدیشون… اون سخت‌تره!
+> They're unworn. Still in the box. | پوشیده نشدن. هنوز تو جعبه‌ان.
+> Just once. In the kitchen! | فقط یه بار. تو آشپزخونه!
+W: worn=پوشیده‌شده ; unworn=نپوشیده ; tag=برچسب قیمت ؛ اتیکت ; harder=سخت‌تر
+zara: Ha! I'll pretend I didn't hear that. They look perfect. Refund done. You're a returns expert now! | ها! وانمود می‌کنم نشنیدم. بی‌نقص به نظر میان. پول برگشت. الان دیگه متخصص مرجوعی هستی!
+
+# l2_u23_3 | zara | Click and collect | سفارش آنلاین، تحویل حضوری | I've come to collect… / My order number is… / It should be ready / Can you check? | آمده‌ام تحویل بگیرم / شماره سفارشم… / باید آماده باشد | bigsupermarket
+zara: Afternoon! Are you here for click and collect? The lockers are broken today, so it's me instead. Sorry! | عصر بخیر! برای «کلیک و کالکت» اومدی؟ کمدها امروز خرابن، برای همین به‌جاش منم. ببخشید!
+> Yes. I've come to collect an order for Leslie Tom. | آره. اومدم سفارش لزلی تام را تحویل بگیرم.
+> Hi Zara! What is click and collect exactly? | سلام زارا! «کلیک و کالکت» دقیقاً چیه؟
+W: click and collect=خرید آنلاین و تحویل حضوری ; lockers=کمدها ؛ صندوق امانات ; instead=به‌جای آن ; collect=تحویل گرفتن
+zara: You order online, then pick it up here. No delivery fee! What's the order number? It starts with "CC". | آنلاین سفارش میدی، بعد اینجا برش می‌داری. هزینهٔ ارسال نداره! شمارهٔ سفارش چیه؟ با «CC» شروع میشه.
+> It's CC four-seven-nine-two. | سی‌سی چهار-هفت-نه-دو هست.
+> It's on Leslie's phone. Can I show you the email? | رو گوشی لزلیه. میشه ایمیل را نشونت بدم؟
+W: order online=آنلاین سفارش دادن ; pick up=برداشتن ؛ تحویل گرفتن ; delivery fee=هزینهٔ ارسال ; order number=شمارهٔ سفارش
+C: "Click and collect" means you buy online and collect from the shop. You usually need the order number and sometimes ID. | آنلاین بخرید و از فروشگاه تحویل بگیرید.
+zara: The email's perfect — there's a QR code. Let me scan it. Hmm… the order's for Leslie. Are you Leslie? | ایمیل عالیه — یه کیوآرکد داره. بذار اسکنش کنم. هوم… سفارش برای لزلیه. تو لزلی هستی؟
+> No, I'm her lodger. She asked me to collect it. | نه، مستأجرشم. ازم خواست تحویلش بگیرم.
+> No! Do you need her ID? | نه! کارت شناسایی خودش لازمه؟
+W: QR code=کیوآرکد ; lodger=مستأجر ؛ هم‌خانه ; asked=خواست
+X: she ask me collect it ; she asked me collect => She asked you to collect it? OK. | She asked me to collect it. | از من خواست تحویلش بگیرم.
+zara: That's fine with the QR code. Leslie can add a "nominee" next time, too. Right, three bags… and one in the freezer. | با کیوآرکد مشکلی نیست. لزلی دفعهٔ بعد می‌تونه یه «نماینده» هم اضافه کنه. خب، سه کیسه… و یکی تو فریزر.
+> Is everything there? Can I check? | همه‌چی هست؟ می‌تونم چک کنم؟
+> What's in the freezer bag? | تو کیسهٔ فریزر چیه؟
+W: nominee=نماینده ; bags=کیسه‌ها ; freezer=فریزر ; check=بررسی کردن
+zara: Fish fingers, peas and two tubs of ice cream. And there's one missing: the birthday candles. Out of stock, sorry. | ماهی سوخاری انگشتی، نخود فرنگی و دو ظرف بستنی. و یکی کمه: شمع تولد. ناموجوده، ببخشید.
+> Oh no! They're for Nicola's party. | وای نه! برای جشن نیکولاست.
+> Will Leslie pay for the candles? | لزلی پول شمع‌ها را می‌پردازه؟
+W: fish fingers=ماهی سوخاری انگشتی ; tubs=ظرف‌ها ؛ قوطی‌ها ; missing=گم ؛ کم ; candles=شمع‌ها
+zara: No, she won't pay for missing items. And look — aisle fifteen has candles. Different brand. Shall I grab some? | نه، پول کالای کم را نمی‌پردازه. ببین — راهروی پونزده شمع داره. یه مارک دیگه. برات بیارم؟
+> Yes, please! Number six candles. | آره، لطفاً! شمع عدد شش.
+> No thanks. I'll get them myself. | نه ممنون. خودم برمی‌دارم.
+W: won't=نخواهد ; items=اقلام ؛ کالاها ; brand=مارک ; grab=برداشتن ؛ آوردن
+zara: Number six — sparkly ones! Here you go. Pay for those at the till. And tell Nicola "Happy birthday" from Zara! | عدد شش — اکلیلی! بفرما. پولش را دم صندوق بده. به نیکولا هم از طرف زارا بگو «تولدت مبارک»!
+> I will! Do I need to sign anything? | میگم! لازمه چیزی امضا کنم؟
+> Thank you. Leslie will be so happy. | ممنون. لزلی خیلی خوشحال میشه.
+W: sparkly=اکلیلی ؛ براق ; till=صندوق ; sign=امضا کردن
+zara: Just your name on the screen with your finger. Lovely. Mind the ice cream — get it home before it melts! | فقط اسمت را با انگشت رو صفحه بنویس. عالی. حواست به بستنی باشه — قبل از اینکه آب بشه برسونش خونه!
+
+# l2_u23_4 | leslie | Substitutions on a delivery | کالای جایگزین در تحویل اینترنتی | They've sent… instead of… / I ordered… / Can I reject…? / That's not what I wanted | به‌جای … فرستاده‌اند / سفارش داده بودم / می‌شود رد کنم؟ | bigsupermarket
+leslie: The supermarket delivery's here! Can you get the door? I'm covered in flour. The driver will go through the substitutions. | بار سوپرمارکت رسید! میشه درو باز کنی؟ همه‌جام آردیه. راننده جایگزین‌ها را باهات چک می‌کنه.
+> Sure. What are substitutions? | حتماً. جایگزین‌ها چی هستن؟
+> Coming! Should I check the bags? | اومدم! کیسه‌ها را چک کنم؟
+W: delivery=تحویل ؛ بار ; get the door=در را باز کردن ; flour=آرد ; substitutions=کالاهای جایگزین
+courier: Hiya! Delivery for Tom. Seven bags. There are three substitutions today. Shall I tell you what they are? | سلام! بار برای تام. هفت کیسه. امروز سه جایگزین هست. بگم چیا هستن؟
+> Yes, please. What have you changed? | آره، لطفاً. چی را عوض کردین؟
+> Three? OK. Go on. | سه تا؟ باشه. بگید.
+W: substitution=جایگزین ; changed=عوض کردید ; go on=ادامه بده
+C: If an item is out of stock, UK supermarkets may send a similar one instead. You can accept or reject each substitution at the door. | می‌توانید کالای جایگزین را دم در قبول یا رد کنید.
+courier: You ordered semi-skimmed milk, two pints. They've sent four pints instead. Same price per pint. | شما شیر نیم‌چرب، دو پاینت سفارش دادید. به‌جاش چهار پاینت فرستادن. همون قیمت به ازای هر پاینت.
+> Four pints is fine. We drink a lot. | چهار پاینت خوبه. ما زیاد می‌خوریم.
+> But we only ordered two pints! | ولی ما فقط دو پاینت سفارش دادیم!
+W: ordered=سفارش دادید ; instead=به‌جای آن ; per pint=هر پاینت ; a lot=زیاد
+X: they send four instead two ; they sent instead of two four => They sent four instead of two. Yes. | They've sent four pints instead of two. | به‌جای دو پاینت، چهار پاینت فرستاده‌اند.
+courier: Next: you wanted cheddar, mild. We've sent extra mature. It's stronger. Do you want to keep it? | بعدی: پنیر چدار ملایم خواسته بودید. ما خیلی جاافتاده فرستادیم. تندتره. می‌خواید نگهش دارید؟
+> Leslie, do you like extra mature cheddar? | لزلی، چدار خیلی جاافتاده دوست داری؟
+> No, thank you. Can I reject it? | نه، ممنون. می‌تونم ردش کنم؟
+W: mild=ملایم ; extra mature=خیلی جاافتاده ؛ تند ; stronger=قوی‌تر ؛ تندتر ; reject=رد کردن
+leslie: Tom loves it, but the kids won't eat it. Keep it for Tom, he'll be thrilled. What's the third one? | تام عاشقشه، ولی بچه‌ها نمی‌خورنش. نگهش دار برای تام، کلی ذوق می‌کنه. سومی چیه؟
+> What's the third substitution, please? | جایگزین سوم چیه، لطفاً؟
+> We'll keep it. And the last one? | نگهش می‌داریم. و آخری؟
+W: thrilled=خیلی خوشحال ; kids=بچه‌ها ; third=سوم ; last=آخر
+courier: The last one… you ordered William's dinosaur pasta. They've sent… princess pasta. Same shape, really. | آخری… شما ماکارونی دایناسوری ویلیام را سفارش دادید. فرستادن… ماکارونی پرنسسی. راستش همون شکله.
+> Oh no. William will not accept that! | وای نه. ویلیام اینو قبول نمی‌کنه!
+> It's still pasta. Let's ask William. | بازم ماکارونیه. از ویلیام بپرسیم.
+W: dinosaur=دایناسور ; princess=پرنسس ; shape=شکل ; accept=قبول کردن
+william: No! Dinosaur pasghetti! Not princess! | نه! پاستای دایناسوری! نه پرنسسی!
+> Sorry, can we reject the princess pasta? | ببخشید، می‌تونیم ماکارونی پرنسسی را رد کنیم؟
+> William, princesses can be very fierce! | ویلیام، پرنسس‌ها هم می‌تونن خیلی خشن باشن!
+W: pasghetti=اسپاگتی (تلفظ بچگانه) ; reject=رد کردن ; fierce=خشن ؛ وحشی
+courier: Ha! Rejected — no charge. I'll take it back. Seven bags minus one. Sign here, please. Have a good evening! | ها! رد شد — هزینه نداره. برش می‌گردونم. هفت کیسه منهای یکی. اینجا امضا کنید، لطفاً. عصر خوبی داشته باشید!
