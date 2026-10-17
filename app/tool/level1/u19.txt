@@ -114,19 +114,19 @@ W: fold=تا کردن ; blanket=پتو ; end=انتها
 leslie: Beautiful! Ryan won't know his own bed. Now, let's change ours — just kidding! A cup of tea first. | قشنگه! رایان تخت خودش را نمی‌شناسه. حالا، بریم مال خودمون را عوض کنیم — شوخی کردم! اول یه فنجون چای.
 
 # l1_u19_4 | ryan | Lights out | خاموشی | It's time to… / Can I… five more minutes? | وقتِ ... است / ... پنج دقیقه دیگه؟ | bedroom
-ryan: Is it eleven o'clock already? Mum says lights out at eleven on school nights. | ساعت یازده شده؟ مامان می‌گه شب‌های مدرسه ساعت یازده چراغ خاموش.
-> Yes, it's eleven. Time for bed! | آره، ساعت یازده‌ست. وقت خوابه!
-> It's ten to eleven. | ده دقیقه به یازده‌ست.
+ryan: Is it ten o'clock already? Mum says lights out at ten on school nights. | ساعت ده شده؟ مامان می‌گه شب‌های مدرسه ساعت ده چراغ خاموش.
+> Yes, it's ten. Time for bed! | آره، ساعت ده‌ست. وقت خوابه!
+> It's five to ten. | پنج دقیقه به ده‌ست.
 W: lights out=خاموشی ; school nights=شب‌های قبل از مدرسه ; already=از الان
 ryan: Ten more minutes. I'm in the middle of a game. Please don't tell Mum! | ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!
 > Five more minutes. That's all. | پنج دقیقه دیگه. همین.
-> You've got school tomorrow, Ryan. | فردا کالج داری رایان.
+> You've got school tomorrow, Ryan. | فردا مدرسه داری رایان.
 W: in the middle of=وسط ; tell=گفتن
 ryan: OK, OK. Five minutes. Can you put my alarm on? Seven o'clock. | باشه، باشه. پنج دقیقه. ساعت زنگ‌دارم را تنظیم می‌کنی؟ ساعت هفت.
 > Seven o'clock. Done. | ساعت هفت. تموم.
 > Seven? That's early! | هفت؟ زوده!
 W: alarm=زنگ ساعت ; early=زود
-ryan: I need to shower before college. Can you close the curtains, please? | باید قبل از کالج دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟
+ryan: I need to shower before school. Can you close the curtains, please? | باید قبل از مدرسه دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟
 > Sure. It's dark outside. | حتماً. بیرون تاریکه.
 > The street light is very bright. | چراغ خیابون خیلی روشنه.
 W: shower=دوش گرفتن ; curtains=پرده‌ها ; dark=تاریک ; bright=روشن
