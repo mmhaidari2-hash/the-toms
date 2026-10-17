@@ -292,11 +292,52 @@ class LessonScreen extends ConsumerWidget {
                         ),
                       ),
                     ],
-                    SizedBox(height: 36 + pad.bottom),
+                    SizedBox(height: 100 + pad.bottom),
                   ],
                 ),
               ),
             ],
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              padding: EdgeInsets.fromLTRB(20, 10, 20, 10 + pad.bottom),
+              decoration: BoxDecoration(
+                color: BL.cream,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: .08),
+                    blurRadius: 12,
+                    offset: const Offset(0, -2),
+                  ),
+                ],
+              ),
+              child: FilledButton.icon(
+                key: const ValueKey('lesson-start'),
+                onPressed: () => storyDone
+                    ? context.push('/practice/${l.id}')
+                    : context.push('/chat/${l.sceneIds.first}'),
+                style: FilledButton.styleFrom(
+                  backgroundColor: BL.red,
+                  minimumSize: const Size.fromHeight(52),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18),
+                  ),
+                ),
+                icon: const Icon(Icons.play_arrow_rounded),
+                label: Text(
+                  storyDone
+                      ? 'Practice  ·  تمرین'
+                      : 'Start the story  ·  شروع داستان',
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w800,
+                    fontSize: 16,
+                  ),
+                ),
+              ),
+            ),
           ),
           Positioned(
             top: pad.top + 6,
