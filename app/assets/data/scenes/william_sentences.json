@@ -10,85 +10,411 @@
   "characterId": "william",
   "milestone": "M3"
  },
- "start": "u1",
+ "start": "n1",
  "nodes": {
-  "u1": {
-   "id": "u1",
+  "n1": {
+   "id": "n1",
    "speaker": "william",
    "text": "Daddy bus! Red bus!",
    "translations": {
-    "fa": "بابا اتوبوس! اتوبوس قرمز!"
+    "fa": "اتوبوس بابا! اتوبوس قرمز!"
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "daddy",
-      "bus",
-      "red",
       "drives",
-      "big"
+      "daddy",
+      "big",
+      "red"
      ],
      "suggestion": "Yes! Daddy drives the big red bus!",
-     "suggestionFa": "آره! بابا اتوبوس بزرگ قرمز رو می‌رونه!",
-     "trustDelta": 8,
-     "next": "u2",
+     "suggestionFa": "آره! بابا اتوبوس بزرگ قرمز را می‌رونه!",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "going"
+     ],
+     "suggestion": "Where's the bus going?",
+     "suggestionFa": "اتوبوس کجا میره؟",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
+     "word": "bus",
+     "fa": "اتوبوس"
+    },
+    {
+     "word": "red",
+     "fa": "قرمز"
+    },
+    {
      "word": "drives",
-     "fa": "رانندگی می‌کند"
+     "fa": "می‌راند"
     }
    ],
    "cultureNote": null
   },
-  "u2": {
-   "id": "u2",
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "Bus go! Ding ding!",
+   "translations": {
+    "fa": "اتوبوس برو! دینگ دینگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goes",
+      "ding",
+      "off"
+     ],
+     "suggestion": "Ding ding! Off it goes!",
+     "suggestionFa": "دینگ دینگ! راه افتاد!",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "daddy",
+      "wave",
+      "can"
+     ],
+     "suggestion": "Can you wave at Daddy?",
+     "suggestionFa": "می‌تونی به بابا دست تکون بدی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "go",
+     "fa": "رفتن"
+    },
+    {
+     "word": "ding ding",
+     "fa": "صدای زنگ اتوبوس"
+    },
+    {
+     "word": "wave",
+     "fa": "دست تکان دادن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Bye-bye, Daddy! Bye-bye!",
+   "translations": {
+    "fa": "بای‌بای بابا! بای‌بای!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "waved",
+      "back",
+      "did",
+      "see"
+     ],
+     "suggestion": "Daddy waved back! Did you see?",
+     "suggestionFa": "بابا هم دست تکون داد! دیدی؟",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "home",
+      "will",
+      "tea"
+     ],
+     "suggestion": "Daddy will be home for tea.",
+     "suggestionFa": "بابا وقت شام خونه‌ست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waved back",
+     "fa": "جواب دست تکان دادن"
+    },
+    {
+     "word": "home",
+     "fa": "خانه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "More buses! Big one!",
+   "translations": {
+    "fa": "اتوبوس‌های بیشتر! یه بزرگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "double",
+      "that's",
+      "floors",
+      "decker"
+     ],
+     "suggestion": "That's a double-decker. Two floors!",
+     "suggestionFa": "اون دوطبقه‌ست. دو طبقه!",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "count",
+      "let's",
+      "buses"
+     ],
+     "suggestion": "Let's count the buses.",
+     "suggestionFa": "بیا اتوبوس‌ها را بشمریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "double-decker",
+     "fa": "اتوبوس دوطبقه"
+    },
+    {
+     "word": "floors",
+     "fa": "طبقه‌ها"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "London's red double-decker buses are world famous.",
+    "fa": "اتوبوس‌های دوطبقهٔ قرمز معروف‌اند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "One, two… lots!",
+   "translations": {
+    "fa": "یک، دو… کلی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clever",
+      "lots",
+      "boy"
+     ],
+     "suggestion": "Lots of buses! Clever boy!",
+     "suggestionFa": "کلی اتوبوس! پسر باهوش!",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "two",
+      "one"
+     ],
+     "suggestion": "One, two, three! Three buses!",
+     "suggestionFa": "یک، دو، سه! سه تا اتوبوس!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one",
+     "fa": "یک"
+    },
+    {
+     "word": "two",
+     "fa": "دو"
+    },
+    {
+     "word": "lots",
+     "fa": "کلی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Taxi! Black taxi!",
+   "translations": {
+    "fa": "تاکسی! تاکسی سیاه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "black",
+      "cab"
+     ],
+     "suggestion": "Yes, a black cab!",
+     "suggestionFa": "آره، یه تاکسی سیاه!",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "white",
+      "van"
+     ],
+     "suggestion": "And there's a white van.",
+     "suggestionFa": "و اون یه ون سفیده.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "taxi",
+     "fa": "تاکسی"
+    },
+    {
+     "word": "black cab",
+     "fa": "تاکسی سیاه لندن"
+    },
+    {
+     "word": "van",
+     "fa": "ون"
+    }
+   ],
+   "cultureNote": {
+    "en": "London's famous black taxis are called \"black cabs\".",
+    "fa": "تاکسی‌های سیاه لندن black cab نام دارند."
+   }
+  },
+  "n7": {
+   "id": "n7",
    "speaker": "william",
    "text": "Beep beep! Me drive!",
    "translations": {
-    "fa": "بوق بوق! من برونم!"
+    "fa": "بوق بوق! من رانندگی!"
    },
    "branches": [
     {
      "keywords": [
-      "when",
       "bigger",
-      "grow",
-      "one day",
-      "beep"
+      "when",
+      "day",
+      "one"
      ],
      "suggestion": "One day, when you're bigger!",
      "suggestionFa": "یه روز، وقتی بزرگ‌تر شدی!",
-     "trustDelta": 8,
-     "next": "u3",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wheel",
+      "brrrm",
+      "hold"
+     ],
+     "suggestion": "Hold the wheel! Brrrm!",
+     "suggestionFa": "فرمون را بگیر! برررم!",
+     "trustDelta": 6,
+     "next": "n8",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "one day",
-     "fa": "یک روز"
+     "word": "beep",
+     "fa": "بوق"
+    },
+    {
+     "word": "bigger",
+     "fa": "بزرگ‌تر"
+    },
+    {
+     "word": "wheel",
+     "fa": "فرمان"
     }
    ],
    "cultureNote": null
   },
-  "u3": {
-   "id": "u3",
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Me big! Me Daddy!",
+   "translations": {
+    "fa": "من بزرگ! من بابا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "you'll",
+      "driver",
+      "great",
+      "bus"
+     ],
+     "suggestion": "You'll be a great bus driver.",
+     "suggestionFa": "رانندهٔ اتوبوس خیلی خوبی میشی.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grandad",
+      "daddy",
+      "like",
+      "just"
+     ],
+     "suggestion": "Just like Daddy and Grandad!",
+     "suggestionFa": "درست مثل بابا و پدربزرگ!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "just like",
+     "fa": "درست مثل"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
    "speaker": "william",
    "text": "Me bigger! Love you!",
    "translations": {
     "fa": "من بزرگ‌تر! دوستت دارم!"
    },
    "branches": [],
-   "newWords": [
-    {
-     "word": "love you",
-     "fa": "دوستت دارم"
-    }
-   ],
+   "newWords": [],
    "cultureNote": null
   }
  }

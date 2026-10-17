@@ -7,340 +7,386 @@
  "setting": "Form room, 8:50am",
  "settingFa": "کلاس راهنمایی، ساعت ۸:۵۰",
  "requires": null,
- "start": "s1",
+ "start": "n1",
  "nodes": {
-  "s1": {
-   "id": "s1",
+  "n1": {
+   "id": "n1",
    "speaker": "patel",
    "text": "You're late again, Ryan. What happened this time?",
    "translations": {
-    "fa": "باز هم دیر کردی رایان. این بار چه شد؟"
+    "fa": "دوباره دیر کردی رایان. این دفعه چی شد؟"
    },
    "branches": [
     {
      "keywords": [
-      "bus",
       "late",
-      "traffic",
-      "missed"
+      "was",
+      "bus"
      ],
      "suggestion": "Sorry, sir. The bus was late.",
      "suggestionFa": "ببخشید آقا. اتوبوس دیر کرد.",
-     "trustDelta": 5,
-     "next": "s2",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "sorry",
-      "overslept",
-      "alarm",
-      "woke"
+      "overslept"
      ],
      "suggestion": "Sorry, sir. I overslept.",
-     "suggestionFa": "ببخشید آقا. خواب ماندم.",
+     "suggestionFa": "ببخشید آقا. خواب موندم.",
      "trustDelta": 6,
-     "next": "s2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "sir",
-     "fa": "آقا (خطاب به معلم)"
+     "word": "late",
+     "fa": "دیر"
     },
     {
      "word": "overslept",
-     "fa": "خواب ماندن"
+     "fa": "خواب ماند"
     }
    ],
    "cultureNote": {
-    "en": "British pupils call male teachers 'sir' and female teachers 'miss'.",
-    "fa": "دانش‌آموزان بریتانیایی معلم مرد را «sir» و معلم زن را «miss» صدا می‌زنند."
+    "en": "British pupils call male teachers \"sir\" and female teachers \"miss\".",
+    "fa": "دانش‌آموزان معلم مرد را sir صدا می‌زنند."
    }
   },
-  "s2": {
-   "id": "s2",
+  "n2": {
+   "id": "n2",
    "speaker": "patel",
-   "text": "Hmm. Have you got your PE kit for football practice?",
+   "text": "Your dad drives the bus, Ryan. Try again.",
    "translations": {
-    "fa": "هوم. لباس ورزش‌ات را برای تمرین فوتبال آورده‌ای؟"
+    "fa": "بابات رانندهٔ اتوبوسه رایان. دوباره امتحان کن."
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "got",
-      "bag",
-      "here"
+      "overslept",
+      "sorry",
+      "okay"
      ],
-     "suggestion": "Yes, sir, it's in my bag.",
-     "suggestionFa": "بله آقا، توی کیفم است.",
-     "trustDelta": 6,
-     "next": "x0",
+     "suggestion": "Okay, I overslept. Sorry.",
+     "suggestionFa": "باشه، خواب موندم. ببخشید.",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "forgot",
-      "home"
+      "different",
+      "sir",
+      "bus"
+     ],
+     "suggestion": "Different bus, sir!",
+     "suggestionFa": "یه اتوبوس دیگه، آقا!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "try again",
+     "fa": "دوباره امتحان کن"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "patel",
+   "text": "Hmm. That's the third time this week. You'll have to sign the late book.",
+   "translations": {
+    "fa": "هوم. این بار سوم این هفته‌ست. باید دفتر تأخیر را امضا کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "sir"
+     ],
+     "suggestion": "Yes, sir. Where is it?",
+     "suggestionFa": "بله آقا. کجاست؟",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "break",
+      "sign",
+      "can"
+     ],
+     "suggestion": "Can I sign it at break?",
+     "suggestionFa": "می‌تونم زنگ تفریح امضاش کنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "late book",
+     "fa": "دفتر تأخیر"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "break",
+     "fa": "زنگ تفریح"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "patel",
+   "text": "On my desk. Have you got your PE kit for football practice?",
+   "translations": {
+    "fa": "رو میزمه. لباس ورزش برای تمرین فوتبال آوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bag"
+     ],
+     "suggestion": "Yes, sir, it's in my bag.",
+     "suggestionFa": "بله آقا، تو کیفمه.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forgot"
      ],
      "suggestion": "No, sir, I forgot it.",
      "suggestionFa": "نه آقا، یادم رفت.",
-     "trustDelta": 2,
-     "next": "x0",
+     "trustDelta": 6,
+     "next": "n5",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "PE kit",
-     "fa": "لباس ورزش مدرسه"
+     "fa": "لباس ورزش"
     },
     {
-     "word": "practice",
-     "fa": "تمرین"
+     "word": "football practice",
+     "fa": "تمرین فوتبال"
+    },
+    {
+     "word": "forgot",
+     "fa": "فراموش کرد"
     }
    ],
    "cultureNote": null
   },
-  "s3": {
-   "id": "s3",
+  "n5": {
+   "id": "n5",
    "speaker": "patel",
-   "text": "Right. Sit down and get your maths book out. Quick as you can.",
+   "text": "Right. Did you finish the maths homework?",
    "translations": {
-    "fa": "خب. بنشین و کتاب ریاضی‌ات را دربیاور. هر چه سریع‌تر."
+    "fa": "خب. تکلیف ریاضی را تموم کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "easy",
+      "sir"
+     ],
+     "suggestion": "Yes, sir. It was easy.",
+     "suggestionFa": "بله آقا. آسون بود.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "question",
+      "hard",
+      "most",
+      "five"
+     ],
+     "suggestion": "Most of it. Question five was hard.",
+     "suggestionFa": "بیشترش را. سؤال پنج سخت بود.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    },
+    {
+     "word": "most of it",
+     "fa": "بیشترش"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "patel",
+   "text": "Good. Show me at the end. Now, who's this?",
+   "translations": {
+    "fa": "خوبه. آخرش نشونم بده. حالا، این کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "visiting",
+      "school",
+      "friend",
+      "today"
+     ],
+     "suggestion": "This is my friend. He's visiting school today.",
+     "suggestionFa": "این دوستمه. امروز اومده مدرسه را ببینه.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "next",
+      "new",
+      "can",
+      "sit"
+     ],
+     "suggestion": "He's new. Can he sit next to me?",
+     "suggestionFa": "تازه اومده. می‌تونه کنار من بشینه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "visiting",
+     "fa": "بازدید کردن"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "patel",
+   "text": "Welcome! Ryan, show him round at break. And no going to the chicken shop!",
+   "translations": {
+    "fa": "خوش اومدی! رایان، زنگ تفریح دور مدرسه را نشونش بده. و رفتن به مرغ‌فروشی ممنوع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "promise",
+      "sir"
+     ],
+     "suggestion": "Yes, sir. I promise.",
+     "suggestionFa": "بله آقا. قول می‌دم.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "canteen",
+      "we'll",
+      "go"
+     ],
+     "suggestion": "We'll go to the canteen instead.",
+     "suggestionFa": "به جاش میریم سلف.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "show round",
+     "fa": "دور جایی را نشان دادن"
+    },
+    {
+     "word": "canteen",
+     "fa": "سلف/غذاخوری"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "patel",
+   "text": "Good. Lunch is at half twelve. Phones in bags, please — all of you.",
+   "translations": {
+    "fa": "خوبه. ناهار دوازده و نیمه. گوشی‌ها تو کیف، لطفاً — همه‌تون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "off"
+     ],
+     "suggestion": "Yes, sir. It's off.",
+     "suggestionFa": "بله آقا. خاموشه.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "just",
+      "text",
+      "send",
+      "one"
+     ],
+     "suggestion": "Can I just send one text, sir?",
+     "suggestionFa": "می‌تونم فقط یه پیام بفرستم آقا؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half twelve",
+     "fa": "دوازده و نیم"
+    },
+    {
+     "word": "text",
+     "fa": "پیام"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most English schools ban phones during the school day.",
+    "fa": "اکثر مدارس گوشی را ممنوع کرده‌اند."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "patel",
+   "text": "No. Sit down and get your maths book out. Quick as you can.",
+   "translations": {
+    "fa": "نه. بشین و کتاب ریاضیت را دربیار. هر چه سریع‌تر."
    },
    "branches": [],
-   "newWords": [
-    {
-     "word": "maths",
-     "fa": "ریاضی"
-    },
-    {
-     "word": "get out",
-     "fa": "بیرون آوردن"
-    }
-   ],
-   "cultureNote": {
-    "en": "Brits say 'maths' with an s; Americans say 'math'.",
-    "fa": "بریتانیایی‌ها «maths» با s می‌گویند؛ آمریکایی‌ها «math»."
-   }
-  },
-  "x0": {
-   "id": "x0",
-   "speaker": "patel",
-   "text": "He's a bright lad but he's been chatting in class. Any ideas why?",
-   "translations": {
-    "fa": "پسر باهوشیه ولی سر کلاس حرف می‌زنه. فکری دارید چرا؟"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "bored",
-      "early",
-      "finishes"
-     ],
-     "suggestion": "Maybe he's bored — he finishes early.",
-     "suggestionFa": "شاید حوصله‌اش سر می‌ره — زود تموم می‌کنه.",
-     "trustDelta": 7,
-     "next": "x1",
-     "success": true
-    },
-    {
-     "keywords": [
-      "word",
-      "talk",
-      "him"
-     ],
-     "suggestion": "I'll have a word with him.",
-     "suggestionFa": "باهاش صحبت می‌کنم.",
-     "trustDelta": 7,
-     "next": "x1",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "bright lad",
-     "fa": "پسر باهوش"
-    },
-    {
-     "word": "have a word",
-     "fa": "صحبت کردن (جدی)"
-    }
-   ]
-  },
-  "x1": {
-   "id": "x1",
-   "speaker": "patel",
-   "text": "That's fair. Could we give him extension work? He loves a challenge.",
-   "translations": {
-    "fa": "منصفانه‌ست. می‌تونیم بهش تکلیف تکمیلی بدیم؟ چالش را دوست داره."
-   },
-   "branches": [
-    {
-     "keywords": [
-      "great",
-      "idea",
-      "sounds"
-     ],
-     "suggestion": "That sounds like a great idea.",
-     "suggestionFa": "فکر خیلی خوبیه.",
-     "trustDelta": 8,
-     "next": "x2",
-     "success": true
-    },
-    {
-     "keywords": [
-      "what kind",
-      "kind",
-      "what"
-     ],
-     "suggestion": "What kind of work?",
-     "suggestionFa": "چه نوع تکلیفی؟",
-     "trustDelta": 6,
-     "next": "x2",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "extension work",
-     "fa": "تکلیف تکمیلی/پیشرفته"
-    }
-   ]
-  },
-  "x2": {
-   "id": "x2",
-   "speaker": "patel",
-   "text": "Maths puzzles mostly. His GCSEs are next year, so this matters.",
-   "translations": {
-    "fa": "بیشتر معماهای ریاضی. امتحانات GCSE سال دیگه‌ست، پس مهمه."
-   },
-   "branches": [
-    {
-     "keywords": [
-      "what",
-      "gcse",
-      "exactly"
-     ],
-     "suggestion": "What are GCSEs exactly?",
-     "suggestionFa": "GCSE دقیقاً چیه؟",
-     "trustDelta": 7,
-     "next": "x3",
-     "success": true
-    },
-    {
-     "keywords": [
-      "support",
-      "home"
-     ],
-     "suggestion": "We'll support him at home.",
-     "suggestionFa": "در خانه حمایتش می‌کنیم.",
-     "trustDelta": 8,
-     "next": "x3",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "GCSEs",
-     "fa": "امتحانات ملی ۱۶ سالگی"
-    }
-   ],
-   "cultureNote": {
-    "en": "GCSEs are national exams at 16; A-levels at 18 decide university places.",
-    "fa": "GCSE امتحانات ملی ۱۶ سالگی است؛ A-level در ۱۸ سالگی برای دانشگاه تعیین‌کننده است."
-   }
-  },
-  "x3": {
-   "id": "x3",
-   "speaker": "patel",
-   "text": "Exams at sixteen, in about nine subjects. He's on track for top grades.",
-   "translations": {
-    "fa": "امتحانات شانزده‌سالگی، حدود نه درس. در مسیر نمرات عالیه."
-   },
-   "branches": [
-    {
-     "keywords": [
-      "wonderful",
-      "hear",
-      "great"
-     ],
-     "suggestion": "That's wonderful to hear.",
-     "suggestionFa": "شنیدنش فوق‌العاده‌ست.",
-     "trustDelta": 8,
-     "next": "x4",
-     "success": true
-    },
-    {
-     "keywords": [
-      "anything",
-      "should",
-      "do"
-     ],
-     "suggestion": "Is there anything we should do?",
-     "suggestionFa": "کاری هست که باید بکنیم؟",
-     "trustDelta": 7,
-     "next": "x4",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "on track",
-     "fa": "در مسیر درست"
-    },
-    {
-     "word": "grades",
-     "fa": "نمره‌ها"
-    }
-   ]
-  },
-  "x4": {
-   "id": "x4",
-   "speaker": "patel",
-   "text": "Just keep the phone out of his room at night! Thanks for coming in.",
-   "translations": {
-    "fa": "فقط شب‌ها گوشی را از اتاقش بیرون نگه دارید! ممنون که اومدید."
-   },
-   "branches": [
-    {
-     "keywords": [
-      "thank",
-      "time",
-      "patel"
-     ],
-     "suggestion": "Thank you for your time, Mr Patel.",
-     "suggestionFa": "ممنون از وقتتون، آقای پاتل.",
-     "trustDelta": 8,
-     "next": "s3",
-     "success": true
-    },
-    {
-     "keywords": [
-      "luck",
-      "ha"
-     ],
-     "suggestion": "Ha, good luck with that!",
-     "suggestionFa": "ها، موفق باشی با این کار!",
-     "trustDelta": 6,
-     "next": "s3",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "thanks for coming in",
-     "fa": "ممنون که آمدید"
-    }
-   ],
-   "cultureNote": {
-    "en": "Teachers are 'Mr/Mrs/Miss + surname' — kids call female teachers 'Miss'.",
-    "fa": "معلم‌ها را با «Mr/Mrs/Miss + نام خانوادگی» صدا می‌زنند."
-   }
+   "newWords": [],
+   "cultureNote": null
   }
  }
 }

@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "here",
       "next",
-      "stop"
+      "stop",
+      "here"
      ],
      "suggestion": "Here you are. Is York the next stop?",
      "suggestionFa": "بفرمایید. یورک ایستگاه بعدیه؟",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "should",
-      "there",
-      "visit"
+      "visit",
+      "there"
      ],
      "suggestion": "What should I visit there?",
      "suggestionFa": "اونجا کجا را ببینم؟",

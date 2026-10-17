@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "minutes",
+      "fifteen",
       "you've",
       "hurry"
      ],
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "station",
-      "close",
       "worry",
-      "don't"
+      "don't",
+      "close"
      ],
      "suggestion": "Don't worry, the station is close.",
      "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "quarter",
-      "four",
-      "past"
+      "past",
+      "four"
      ],
      "suggestion": "At quarter past four.",
      "suggestionFa": "چهار و ربع.",
@@ -278,8 +278,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "have",
+      "good",
       "day",
       "bye"
      ],

@@ -217,10 +217,10 @@
    "branches": [
     {
      "keywords": [
-      "love",
       "pink",
       "have",
-      "can"
+      "love",
+      "one"
      ],
      "suggestion": "I love fairy cakes! Can I have a pink one?",
      "suggestionFa": "عاشق کیک فنجونی‌ام! یه صورتی می‌تونم بردارم؟",
@@ -275,9 +275,9 @@
     },
     {
      "keywords": [
-      "mummy",
       "great",
-      "baker"
+      "baker",
+      "mummy"
      ],
      "suggestion": "Your mummy is a great baker.",
      "suggestionFa": "مامانت شیرینی‌پز خیلی خوبیه.",
@@ -371,8 +371,8 @@
      "keywords": [
       "music",
       "going",
-      "okay",
-      "i'll"
+      "keep",
+      "okay"
      ],
      "suggestion": "Okay, I'll keep the music going.",
      "suggestionFa": "باشه، من آهنگ را ادامه می‌دم.",

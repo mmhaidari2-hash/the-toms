@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
-      "lovely"
+      "lovely",
+      "colour"
      ],
      "suggestion": "It's lovely! What colour is it?",
      "suggestionFa": "قشنگه! چه رنگیه؟",
@@ -77,8 +77,8 @@
     },
     {
      "keywords": [
-      "think",
-      "white"
+      "white",
+      "think"
      ],
      "suggestion": "The white one, I think.",
      "suggestionFa": "سفیده، فکر کنم.",
@@ -157,8 +157,8 @@
    "branches": [
     {
      "keywords": [
-      "dark",
       "when",
+      "dark",
       "get"
      ],
      "suggestion": "When does it get dark?",

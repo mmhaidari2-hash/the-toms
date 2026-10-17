@@ -7,10 +7,10 @@
  "setting": "Kitchen, after school",
  "settingFa": "آشپزخانه، بعد از مدرسه",
  "requires": null,
- "start": "q1",
+ "start": "n1",
  "nodes": {
-  "q1": {
-   "id": "q1",
+  "n1": {
+   "id": "n1",
    "speaker": "leslie",
    "text": "Hello, love. How was school? Any homework?",
    "translations": {
@@ -19,34 +19,47 @@
    "branches": [
     {
      "keywords": [
-      "fine",
-      "good",
-      "okay",
       "maths",
-      "homework",
-      "yes",
+      "fine",
+      "i've",
       "bit"
      ],
      "suggestion": "It was fine. I've got a bit of maths homework.",
      "suggestionFa": "خوب بود. یه کم تکلیف ریاضی دارم.",
      "trustDelta": 7,
-     "next": "q2",
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "boring",
+      "loads"
+     ],
+     "suggestion": "Boring. Loads of homework.",
+     "suggestionFa": "خسته‌کننده. کلی تکلیف.",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "love",
-     "fa": "عزیزم (خطاب محبت‌آمیز)"
+     "word": "homework",
+     "fa": "تکلیف"
+    },
+    {
+     "word": "boring",
+     "fa": "خسته‌کننده"
+    },
+    {
+     "word": "loads of",
+     "fa": "کلی"
     }
    ],
-   "cultureNote": {
-    "en": "'Love' as a term of address is everywhere in Britain — from mums to bus drivers.",
-    "fa": "«love» به‌عنوان خطاب در همه‌جای بریتانیا رایج است — از مادرها تا رانندهٔ اتوبوس."
-   }
+   "cultureNote": null
   },
-  "q2": {
-   "id": "q2",
+  "n2": {
+   "id": "n2",
    "speaker": "leslie",
    "text": "Homework first, then FIFA. Deal?",
    "translations": {
@@ -55,55 +68,332 @@
    "branches": [
     {
      "keywords": [
+      "round",
+      "after",
       "deal",
-      "okay",
-      "fine",
-      "promise",
-      "yes"
+      "come"
      ],
      "suggestion": "Deal. Can Josh come round after?",
-     "suggestionFa": "قبول. جاش می‌تونه بعدش بیاد خونه‌مون؟",
-     "trustDelta": 8,
-     "next": "q3",
+     "suggestionFa": "قبول. جاش می‌تونه بعدش بیاد؟",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "but",
       "please",
+      "first",
       "just",
-      "one game",
-      "later"
+      "game"
      ],
      "suggestion": "Please, just one game first?",
-     "suggestionFa": "خواهش می‌کنم، فقط اول یه بازی؟",
-     "trustDelta": 3,
-     "next": "q3",
+     "suggestionFa": "لطفاً، فقط یه بازی اول؟",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
+     "word": "deal",
+     "fa": "قبول"
+    },
+    {
      "word": "come round",
-     "fa": "به خانهٔ کسی آمدن"
+     "fa": "آمدن به خانه"
     }
    ],
    "cultureNote": null
   },
-  "q3": {
-   "id": "q3",
+  "n3": {
+   "id": "n3",
    "speaker": "leslie",
-   "text": "Only if your room's tidy. And take your shoes off the sofa!",
+   "text": "Nice try. Homework first. Are you hungry?",
    "translations": {
-    "fa": "فقط اگه اتاقت مرتب باشه. و کفش‌هات رو از روی مبل بردار!"
+    "fa": "تلاش خوبی بود. اول تکلیف. گشنه‌ای؟"
    },
-   "branches": [],
+   "branches": [
+    {
+     "keywords": [
+      "starving",
+      "what's",
+      "tea"
+     ],
+     "suggestion": "Starving! What's for tea?",
+     "suggestionFa": "دارم میمیرم! شام چیه؟",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "toast",
+      "some",
+      "have",
+      "bit"
+     ],
+     "suggestion": "A bit. Can I have some toast?",
+     "suggestionFa": "یه کم. می‌تونم نون تست بخورم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
    "newWords": [
+    {
+     "word": "nice try",
+     "fa": "تلاش خوبی بود"
+    },
+    {
+     "word": "starving",
+     "fa": "خیلی گرسنه"
+    },
+    {
+     "word": "tea",
+     "fa": "شام"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Shepherd's pie at six. Have an apple for now.",
+   "translations": {
+    "fa": "پای چوپان ساعت شش. فعلاً یه سیب بخور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crisps",
+      "can't",
+      "apple",
+      "have"
+     ],
+     "suggestion": "An apple? Can't I have crisps?",
+     "suggestionFa": "سیب؟ نمی‌تونم چیپس بخورم؟",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "okay",
+      "mum"
+     ],
+     "suggestion": "Okay, thanks, Mum.",
+     "suggestionFa": "باشه، ممنون مامان.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "for now",
+     "fa": "فعلاً"
+    },
+    {
+     "word": "crisps",
+     "fa": "چیپس"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"crisps\" = American \"chips\"; British \"chips\" = American \"fries\".",
+    "fa": "crisps همان chips آمریکایی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Crisps after tea. Did you hand in your history project?",
+   "translations": {
+    "fa": "چیپس بعد از شام. پروژهٔ تاریخت را تحویل دادی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "merit",
+      "got"
+     ],
+     "suggestion": "Yes, I got a merit.",
+     "suggestionFa": "آره، نمرهٔ خوب گرفتم.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oops",
+      "bag"
+     ],
+     "suggestion": "Oops. It's in my bag.",
+     "suggestionFa": "اوه. تو کیفمه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hand in",
+     "fa": "تحویل دادن"
+    },
+    {
+     "word": "merit",
+     "fa": "نمرهٔ تشویقی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ryan! Hand it in tomorrow, first thing. Now, Josh can come round — if your room's tidy.",
+   "translations": {
+    "fa": "رایان! فردا اول وقت تحویلش بده. حالا، جاش می‌تونه بیاد — اگه اتاقت مرتب باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "room",
+      "ish"
+     ],
+     "suggestion": "My room is tidy. Ish.",
+     "suggestionFa": "اتاقم مرتبه. تقریباً.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "promise",
+      "after",
+      "maths",
+      "i'll"
+     ],
+     "suggestion": "I'll tidy it after maths. Promise.",
+     "suggestionFa": "بعد از ریاضی مرتبش می‌کنم. قول.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first thing",
+     "fa": "اول وقت"
+    },
     {
      "word": "tidy",
      "fa": "مرتب"
+    },
+    {
+     "word": "-ish",
+     "fa": "تقریباً"
     }
    ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "\"Ish\" isn't good enough. And take your shoes off the sofa!",
+   "translations": {
+    "fa": "«تقریباً» کافی نیست. و کفش‌هات را از رو مبل بردار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "mum"
+     ],
+     "suggestion": "Sorry, Mum.",
+     "suggestionFa": "ببخشید مامان.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cleanish",
+      "they're",
+      "clean",
+      "well"
+     ],
+     "suggestion": "They're clean! Well, cleanish.",
+     "suggestionFa": "تمیزن! خب، تقریباً تمیز.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good enough",
+     "fa": "کافی"
+    },
+    {
+     "word": "sofa",
+     "fa": "مبل"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Off! Now, give your mum a hug. You're never too old.",
+   "translations": {
+    "fa": "بردار! حالا، مامانت را بغل کن. هیچ‌وقت برای این کار پیر نیستی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quick",
+      "fine",
+      "just",
+      "one"
+     ],
+     "suggestion": "Mum! Fine. Just a quick one.",
+     "suggestionFa": "مامان! باشه. فقط یه کوتاهش.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "love"
+     ],
+     "suggestion": "Love you, Mum.",
+     "suggestionFa": "دوستت دارم مامان.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hug",
+     "fa": "بغل"
+    },
+    {
+     "word": "never too old",
+     "fa": "هیچ‌وقت برای آن پیر نیستی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Love you too, sweetheart. Right — maths. Kitchen table, now. I'll make you a squash.",
+   "translations": {
+    "fa": "منم دوستت دارم عزیزم. خب — ریاضی. میز آشپزخونه، همین الان. برات یه شربت درست می‌کنم."
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

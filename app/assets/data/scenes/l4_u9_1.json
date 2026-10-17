@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "stopped",
       "working",
+      "stopped",
       "bought",
       "kettle"
      ],
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "return",
       "faulty",
+      "return",
       "like",
       "i'd"
      ],
@@ -125,8 +125,8 @@
      "keywords": [
       "please",
       "refund",
-      "don't",
-      "trust"
+      "trust",
+      "don't"
      ],
      "suggestion": "A full refund, please. I don't trust this model any more.",
      "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
@@ -138,8 +138,8 @@
      "keywords": [
       "replacement",
       "different",
-      "long",
-      "fine"
+      "fine",
+      "long"
      ],
      "suggestion": "A replacement is fine, as long as it's a different model.",
      "suggestionFa": "تعویض خوبه، به شرطی که مدل دیگه‌ای باشه.",
@@ -181,9 +181,9 @@
    "branches": [
     {
      "keywords": [
+      "morning",
       "heating",
       "stopped",
-      "morning",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",

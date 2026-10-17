@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "find",
       "can"
      ],
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "sock",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "I can see a sock under the sofa!",
      "suggestionFa": "یه جوراب زیر مبل می‌بینم!",
@@ -127,8 +127,8 @@
     },
     {
      "keywords": [
-      "there",
-      "sorry"
+      "sorry",
+      "there"
      ],
      "suggestion": "Not there, sorry.",
      "suggestionFa": "اونجا نیست، ببخشید.",
@@ -210,8 +210,8 @@
    "branches": [
     {
      "keywords": [
-      "smiling",
       "william",
+      "smiling",
       "look"
      ],
      "suggestion": "Look — William is smiling.",
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "william",
-      "well",
       "done",
+      "well",
       "toy"
      ],
      "suggestion": "In the toy box! Well done, William!",
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "welcome",
-      "safe",
       "he's",
+      "safe",
       "now"
      ],
      "suggestion": "You're welcome. He's safe now.",

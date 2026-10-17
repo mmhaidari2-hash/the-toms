@@ -20,8 +20,8 @@
     {
      "keywords": [
       "message",
-      "sorry",
       "tom's",
+      "sorry",
       "take"
      ],
      "suggestion": "No, sorry, Tom's out. Can I take a message?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "friend",
-      "right",
       "isn't",
+      "right",
       "here"
      ],
      "suggestion": "Tom isn't here right now. This is his friend.",
@@ -85,7 +85,7 @@
       "that's",
       "great",
       "tell",
-      "i'll"
+      "news"
      ],
      "suggestion": "That's great news! I'll tell him.",
      "suggestionFa": "خبر عالیه! بهش می‌گم.",
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "please",
+      "number",
       "again",
       "could"
      ],
@@ -224,7 +224,7 @@
       "message",
       "thank",
       "helen",
-      "pass"
+      "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
      "suggestionFa": "ممنون هلن. پیغام را می‌رسونم.",
@@ -235,8 +235,8 @@
     {
      "keywords": [
       "thanks",
-      "today",
       "he'll",
+      "today",
       "ring"
      ],
      "suggestion": "Thanks. He'll ring you back today.",

@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "apples",
       "stairs",
+      "apples",
       "heard",
       "pears"
      ],
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
       "confusing",
+      "brilliant",
       "that's",
       "but"
      ],
@@ -95,8 +95,8 @@
     {
      "keywords": [
       "phrase",
-      "don't",
       "you'd",
+      "don't",
       "have"
      ],
      "suggestion": "So if you don't know the full phrase, you'd have no idea!",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "butcher's",
-      "look",
-      "have"
+      "have",
+      "look"
      ],
      "suggestion": "\"Have a butcher's at this\" — have a look at this?",
      "suggestionFa": "«یه قصابی به این بنداز» — یعنی یه نگاه به این بنداز؟",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "secret",
-      "code",
       "like",
+      "code",
       "was"
      ],
      "suggestion": "So it was like a secret code.",
@@ -187,7 +187,7 @@
       "porkies",
       "honest",
       "arthur",
-      "would"
+      "never"
      ],
      "suggestion": "I would never tell porkies, Arthur. Honest!",
      "suggestionFa": "من هیچ‌وقت پورکی نمی‌گم آرتور. راست می‌گم!",
@@ -199,8 +199,8 @@
      "keywords": [
       "he'll",
       "have",
-      "love",
-      "i'll"
+      "i'll",
+      "love"
      ],
      "suggestion": "I'll have to tell Tom. He'll love this.",
      "suggestionFa": "باید به تام بگم. عاشقش میشه.",

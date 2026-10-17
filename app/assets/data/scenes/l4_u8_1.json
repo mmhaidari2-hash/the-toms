@@ -22,7 +22,7 @@
       "careful",
       "claim",
       "where",
-      "read"
+      "kind"
      ],
      "suggestion": "Where did you read that? I'd be careful with that kind of claim.",
      "suggestionFa": "کجا خوندی؟ با این جور ادعاها محتاط باش.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "generalisation",
-      "migrants",
       "eligible",
-      "aren't"
+      "migrants",
+      "that's"
      ],
      "suggestion": "That's a bit of a generalisation, Dave. Most migrants aren't eligible at first.",
      "suggestionFa": "این یه کم تعمیم‌دادنه، دیو. بیشتر مهاجرها اولش واجد شرایط نیستن.",
@@ -84,7 +84,7 @@
       "arrivals",
       "housing",
       "social",
-      "years"
+      "apply"
      ],
      "suggestion": "Most new arrivals can't apply for social housing for years.",
      "suggestionFa": "بیشتر تازه‌واردها تا سال‌ها نمی‌تونن برای مسکن اجتماعی درخواست بدن.",
@@ -94,8 +94,8 @@
     },
     {
      "keywords": [
-      "problem",
       "decades",
+      "problem",
       "houses",
       "enough"
      ],
@@ -154,8 +154,8 @@
      "keywords": [
       "understand",
       "people",
-      "anger",
-      "wrong"
+      "aimed",
+      "anger"
      ],
      "suggestion": "I understand the anger. But it's aimed at the wrong people.",
      "suggestionFa": "خشم را می‌فهمم. ولی به سمت آدم‌های اشتباهیه.",
@@ -208,8 +208,8 @@
      "keywords": [
       "honestly",
       "about",
-      "talk",
-      "good"
+      "good",
+      "talk"
      ],
      "suggestion": "It's good we can talk about it honestly.",
      "suggestionFa": "خوبه که می‌تونیم صادقانه دربارهٔ اون حرف بزنیم.",

@@ -7,169 +7,386 @@
  "setting": "Hackney Local corner shop",
  "settingFa": "فروشگاه محلهٔ هاکنی",
  "requires": null,
- "start": "q1",
+ "start": "n1",
  "nodes": {
-  "q1": {
-   "id": "q1",
+  "n1": {
+   "id": "n1",
    "speaker": "priya",
    "text": "Hiya, you alright? Just the milk and bread today?",
    "translations": {
-    "fa": "سلام، خوبی؟ امروز فقط شیر و نان؟"
+    "fa": "سلام، خوبی؟ امروز فقط شیر و نون؟"
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "just",
-      "that's all",
       "thanks",
-      "yeah"
+      "that's",
+      "all"
      ],
      "suggestion": "Yes, that's all, thanks.",
-     "suggestionFa": "بله، همین، ممنون.",
-     "trustDelta": 5,
-     "next": "q2",
+     "suggestionFa": "آره، همینه، ممنون.",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "eggs",
-      "also",
-      "and",
-      "crisps",
-      "biscuits"
+      "please",
+      "some",
+      "eggs"
      ],
      "suggestion": "And some eggs, please.",
-     "suggestionFa": "و چندتا تخم‌مرغ، لطفاً.",
+     "suggestionFa": "و چند تا تخم‌مرغ، لطفاً.",
      "trustDelta": 6,
-     "next": "q2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "till",
-     "fa": "صندوق فروشگاه"
+     "word": "you alright?",
+     "fa": "خوبی؟"
     },
     {
-     "word": "crisps",
-     "fa": "چیپس"
+     "word": "milk",
+     "fa": "شیر"
+    },
+    {
+     "word": "bread",
+     "fa": "نان"
     }
    ],
    "cultureNote": {
-    "en": "In the UK 'crisps' are chips in a bag; 'chips' are hot fried potatoes.",
-    "fa": "در بریتانیا «crisps» چیپس بسته‌ای است و «chips» سیب‌زمینی سرخ‌کردهٔ داغ."
+    "en": "\"You alright?\" is a greeting, not a real question. Answer \"Yeah, you?\"",
+    "fa": "you alright سلام است."
    }
   },
-  "q2": {
-   "id": "q2",
+  "n2": {
+   "id": "n2",
    "speaker": "priya",
-   "text": "Do you need a bag? They're 10p.",
+   "text": "The eggs are by the door. Half a dozen or a dozen?",
    "translations": {
-    "fa": "کیسه می‌خواهی؟ ۱۰ پنی است."
+    "fa": "تخم‌مرغ‌ها کنار درن. نیم دوجین یا یه دوجین؟"
    },
    "branches": [
     {
      "keywords": [
-      "no",
-      "own",
-      "fine",
-      "thanks"
-     ],
-     "suggestion": "No thanks, I've got my own.",
-     "suggestionFa": "نه ممنون، خودم دارم.",
-     "trustDelta": 6,
-     "next": "q3",
-     "success": true
-    },
-    {
-     "keywords": [
-      "yes",
       "please",
-      "bag"
+      "half"
      ],
-     "suggestion": "Yes please.",
-     "suggestionFa": "بله لطفاً.",
-     "trustDelta": 4,
-     "next": "q3",
+     "suggestion": "Half a dozen, please.",
+     "suggestionFa": "نیم دوجین، لطفاً.",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "making",
+      "cake"
+     ],
+     "suggestion": "A dozen. I'm making a cake.",
+     "suggestionFa": "یه دوجین. دارم کیک درست می‌کنم.",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "10p",
-     "fa": "ده پنی"
+     "word": "half a dozen",
+     "fa": "شش تا"
     },
     {
-     "word": "bag",
-     "fa": "کیسه"
-    }
-   ],
-   "cultureNote": {
-    "en": "Shops in England must charge for plastic bags, so most people carry their own.",
-    "fa": "فروشگاه‌های انگلیس باید برای کیسه پول بگیرند، برای همین بیشتر مردم کیسهٔ خودشان را می‌آورند."
-   }
-  },
-  "q3": {
-   "id": "q3",
-   "speaker": "priya",
-   "text": "That's £3.40. Card or cash?",
-   "translations": {
-    "fa": "می‌شود ۳ پوند و ۴۰ پنی. کارت یا نقد؟"
-   },
-   "branches": [
-    {
-     "keywords": [
-      "card",
-      "contactless",
-      "tap"
-     ],
-     "suggestion": "Card, please — contactless.",
-     "suggestionFa": "کارت لطفاً — بدون تماس.",
-     "trustDelta": 6,
-     "next": "q4",
-     "success": true
-    },
-    {
-     "keywords": [
-      "cash",
-      "here",
-      "pound",
-      "note"
-     ],
-     "suggestion": "Cash. Here you go.",
-     "suggestionFa": "نقد. بفرما.",
-     "trustDelta": 6,
-     "next": "q4",
-     "success": true
-    }
-   ],
-   "newWords": [
-    {
-     "word": "contactless",
-     "fa": "پرداخت بدون تماس"
-    },
-    {
-     "word": "cash",
-     "fa": "پول نقد"
+     "word": "a dozen",
+     "fa": "دوازده تا"
     }
    ],
    "cultureNote": null
   },
-  "q4": {
-   "id": "q4",
+  "n3": {
+   "id": "n3",
    "speaker": "priya",
-   "text": "Cheers! Have a good day, see you tomorrow.",
+   "text": "Ooh, what kind of cake?",
    "translations": {
-    "fa": "مرسی! روز خوبی داشته باشی، فردا می‌بینمت."
+    "fa": "اوه، چه کیکی؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "cheers",
-     "fa": "مرسی (خودمانی)"
+     "keywords": [
+      "chocolate",
+      "friend",
+      "cake"
+     ],
+     "suggestion": "A chocolate cake for my friend.",
+     "suggestionFa": "یه کیک شکلاتی برای دوستم.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "know",
+      "yet"
+     ],
+     "suggestion": "I don't know yet!",
+     "suggestionFa": "هنوز نمی‌دونم!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "what kind",
+     "fa": "چه نوع"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Lovely. Do you need a bag? They're 10p.",
+   "translations": {
+    "fa": "عالیه. کیسه می‌خوای؟ ده پنی‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "i've",
+      "got",
+      "own"
+     ],
+     "suggestion": "No thanks, I've got my own.",
+     "suggestionFa": "نه ممنون، خودم دارم.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please"
+     ],
+     "suggestion": "Yes please.",
+     "suggestionFa": "آره لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bag",
+     "fa": "کیسه"
+    },
+    {
+     "word": "my own",
+     "fa": "مال خودم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Shops in England charge for plastic bags, so many people bring their own.",
+    "fa": "کیسهٔ پلاستیکی پولی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "That's £3.40. Card or cash?",
+   "translations": {
+    "fa": "میشه ۳.۴۰ پوند. کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contactless",
+      "please",
+      "card"
+     ],
+     "suggestion": "Card, please — contactless.",
+     "suggestionFa": "کارت، لطفاً — بدون تماس.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "cash",
+      "go"
+     ],
+     "suggestion": "Cash. Here you go.",
+     "suggestionFa": "نقد. بفرمایید.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "cash",
+     "fa": "نقد"
+    },
+    {
+     "word": "contactless",
+     "fa": "بدون تماس"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Thanks. Here's your receipt. Are you new on this street?",
+   "translations": {
+    "fa": "ممنون. اینم رسیدت. تازه اومدی این خیابون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twelve",
+      "number",
+      "live"
+     ],
+     "suggestion": "Yes, I live at number twelve.",
+     "suggestionFa": "آره، پلاک دوازده زندگی می‌کنم.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompsons",
+      "staying"
+     ],
+     "suggestion": "Yes, I'm staying with the Thompsons.",
+     "suggestionFa": "آره، پیش خانوادهٔ تامپسون هستم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "number twelve",
+     "fa": "پلاک دوازده"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "Oh, Leslie! She's lovely. I'm Priya. My family has had this shop for twenty years.",
+   "translations": {
+    "fa": "آه، لزلی! خیلی خوبه. من پریام. خانواده‌ام بیست ساله این مغازه را دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "priya",
+      "meet",
+      "nice"
+     ],
+     "suggestion": "Nice to meet you, Priya!",
+     "suggestionFa": "از آشنایی‌ات خوشحالم پریا!",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "twenty",
+      "years",
+      "time"
+     ],
+     "suggestion": "Twenty years! That's a long time.",
+     "suggestionFa": "بیست سال! مدت زیادیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shop",
+     "fa": "مغازه"
+    },
+    {
+     "word": "a long time",
+     "fa": "مدت زیاد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Corner shops, often family-run, are a key part of British neighbourhoods.",
+    "fa": "مغازه‌های محلی بخش مهم محله‌اند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "It is! We're open till eleven every night, if you need anything.",
+   "translations": {
+    "fa": "آره! هر شب تا یازده بازیم، اگه چیزی لازم داشتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "useful",
+      "that's",
+      "great"
+     ],
+     "suggestion": "Great, that's very useful.",
+     "suggestionFa": "عالیه، خیلی به‌دردبخوره.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sundays",
+      "even"
+     ],
+     "suggestion": "Even on Sundays?",
+     "suggestionFa": "حتی یکشنبه‌ها؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "open till",
+     "fa": "باز تا"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "priya",
+   "text": "Even Sundays! Cheers! Have a good day, see you tomorrow.",
+   "translations": {
+    "fa": "حتی یکشنبه‌ها! مرسی! روز خوبی داشته باشی، فردا می‌بینمت."
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

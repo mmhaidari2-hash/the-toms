@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "pass",
-      "i'll"
+      "i'll",
+      "pass"
      ],
      "suggestion": "Yes, I'll pass you to Tom.",
      "suggestionFa": "بله، گوشی را می‌دم به تام.",
@@ -153,9 +153,9 @@
     {
      "keywords": [
       "bring",
-      "four",
       "fine",
-      "i'll"
+      "i'll",
+      "four"
      ],
      "suggestion": "Four is fine. I'll bring him.",
      "suggestionFa": "چهار خوبه. میارمش.",
@@ -197,10 +197,10 @@
    "branches": [
     {
      "keywords": [
-      "give",
-      "i'll",
       "some",
-      "now"
+      "i'll",
+      "give",
+      "him"
      ],
      "suggestion": "OK. I'll give him some now.",
      "suggestionFa": "باشه. الان بهش می‌دم.",

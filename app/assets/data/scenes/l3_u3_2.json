@@ -33,9 +33,9 @@
     {
      "keywords": [
       "again",
-      "here",
+      "take",
       "mine",
-      "take"
+      "here"
      ],
      "suggestion": "Yes. I have to take mine again here.",
      "suggestionFa": "آره. من هم اینجا باید دوباره امتحان بدم.",
@@ -76,7 +76,7 @@
       "months",
       "twelve",
       "after",
-      "need"
+      "only"
      ],
      "suggestion": "Only for twelve months. After that, I need to get a UK one.",
      "suggestionFa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
+      "doesn't",
       "depends",
       "country",
-      "doesn't",
       "count"
      ],
      "suggestion": "It depends on the country. Mine doesn't count.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "computer",
-      "drive",
-      "don't"
+      "don't",
+      "drive"
      ],
      "suggestion": "You don't have to drive — it's on a computer.",
      "suggestionFa": "لازم نیست رانندگی کنی — رو کامپیوتره.",

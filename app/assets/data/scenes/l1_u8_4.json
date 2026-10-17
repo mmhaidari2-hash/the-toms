@@ -214,8 +214,8 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "many",
+      "here",
       "how"
      ],
      "suggestion": "Here are the screws. How many?",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "can't",
-      "any",
-      "see"
+      "see",
+      "any"
      ],
      "suggestion": "I can't see any screws.",
      "suggestionFa": "هیچ پیچی نمی‌بینم.",
@@ -258,10 +258,10 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "looks",
-      "well",
-      "done"
+      "great",
+      "done",
+      "well"
      ],
      "suggestion": "Well done! It looks great.",
      "suggestionFa": "آفرین! عالی شده.",

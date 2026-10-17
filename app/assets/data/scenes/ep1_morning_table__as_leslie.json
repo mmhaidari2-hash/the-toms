@@ -326,8 +326,8 @@
       "someone",
       "weather",
       "about",
-      "coats",
-      "check"
+      "check",
+      "coats"
      ],
      "suggestion": "Deal. Oh, and can someone check the weather? I need to know about coats.",
      "suggestionFa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه.",
@@ -404,11 +404,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola's",
       "everyone",
-      "shoes",
+      "nicola's",
+      "eight",
       "could",
-      "eight"
+      "shoes"
      ],
      "suggestion": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",
      "suggestionFa": "هشت و ده دقیقه! همه کفش بپوشن. می‌شه کیف کتاب نیکولا را از راهرو بیاری؟",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "friend",
-      "going",
-      "visit"
+      "visit",
+      "going"
      ],
      "suggestion": "I'm going to visit a friend.",
      "suggestionFa": "قراره به یه دوست سر بزنم.",
@@ -77,8 +77,8 @@
     {
      "keywords": [
       "please",
-      "beach",
-      "which"
+      "which",
+      "beach"
      ],
      "suggestion": "Yes, please! Which beach?",
      "suggestionFa": "بله لطفاً! کدوم ساحل؟",
@@ -88,8 +88,8 @@
     },
     {
      "keywords": [
-      "love",
       "busy",
+      "love",
       "i'd",
       "but"
      ],
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "think",
-      "sunny"
+      "sunny",
+      "think"
      ],
      "suggestion": "It's going to be sunny, I think.",
      "suggestionFa": "فکر کنم قراره آفتابی باشه.",
@@ -192,8 +192,8 @@
     },
     {
      "keywords": [
-      "says",
       "rain",
+      "says",
       "app"
      ],
      "suggestion": "The app says it's going to rain.",

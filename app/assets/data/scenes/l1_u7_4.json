@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "nana",
       "sure",
+      "nana",
       "ok"
      ],
      "suggestion": "Sure. Are you OK, Nana?",
@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "ask",
-      "can"
+      "can",
+      "ask"
      ],
      "suggestion": "I can ask for you.",
      "suggestionFa": "من می‌تونم براتون بپرسم.",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "plasters",
-      "let's",
       "first",
+      "let's",
       "find"
      ],
      "suggestion": "Let's find the plasters first.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "medicine",
-      "hello",
       "needs",
+      "hello",
       "nana"
      ],
      "suggestion": "Hello, my nana needs cough medicine.",
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "spoons",
-      "times",
       "three",
+      "times",
       "day"
      ],
      "suggestion": "Two spoons, three times a day. OK!",
@@ -216,9 +216,9 @@
    "branches": [
     {
      "keywords": [
-      "colds",
       "lemon",
       "honey",
+      "colds",
       "good"
      ],
      "suggestion": "Honey and lemon is good for colds.",

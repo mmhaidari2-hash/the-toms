@@ -10,10 +10,10 @@
   "characterId": "william",
   "milestone": "M1"
  },
- "start": "s1",
+ "start": "n1",
  "nodes": {
-  "s1": {
-   "id": "s1",
+  "n1": {
+   "id": "n1",
    "speaker": "william",
    "text": "Up! Up!",
    "translations": {
@@ -22,86 +22,382 @@
    "branches": [
     {
      "keywords": [
-      "come on",
-      "walk",
-      "you can",
-      "up",
-      "hands",
-      "stand"
+      "william",
+      "come",
+      "can"
      ],
-     "suggestion": "Come on, William — you can do it! Walk to me!",
-     "suggestionFa": "یالا ویلیام — می‌تونی! بیا طرف من!",
-     "trustDelta": 8,
-     "next": "s2",
+     "suggestion": "Come on, William — you can do it!",
+     "suggestionFa": "بیا ویلیام — می‌تونی!",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hands",
+      "hold",
+      "get",
+      "up"
+     ],
+     "suggestion": "Hold my hands. Up you get!",
+     "suggestionFa": "دستام را بگیر. بلند شو!",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "come on",
-     "fa": "یالا"
+     "word": "up",
+     "fa": "بالا"
     },
     {
-     "word": "walk",
-     "fa": "راه رفتن"
+     "word": "hold",
+     "fa": "گرفتن"
+    },
+    {
+     "word": "hands",
+     "fa": "دست‌ها"
     }
    ],
    "cultureNote": null
   },
-  "s2": {
-   "id": "s2",
+  "n2": {
+   "id": "n2",
    "speaker": "william",
-   "text": "Wobble… wobble… BOOM! Again!",
+   "text": "Me stand! Look!",
    "translations": {
-    "fa": "تلوتلو… تلوتلو… بوم! دوباره!"
+    "fa": "من وایسادم! ببین!"
    },
    "branches": [
     {
      "keywords": [
+      "standing",
       "clever",
-      "well done",
-      "again",
-      "clap",
-      "good boy",
-      "yay"
+      "boy"
      ],
-     "suggestion": "Well done! What a clever boy! Again!",
-     "suggestionFa": "آفرین! چه پسر باهوشی! دوباره!",
-     "trustDelta": 8,
-     "next": "s3",
+     "suggestion": "You're standing! Clever boy!",
+     "suggestionFa": "داری وایمیسی! پسر باهوش!",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "look",
+      "wow"
+     ],
+     "suggestion": "Wow! Look at you!",
+     "suggestionFa": "وای! خودت را ببین!",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "clever",
-     "fa": "باهوش"
+     "word": "stand",
+     "fa": "ایستادن"
     },
     {
-     "word": "again",
-     "fa": "دوباره"
+     "word": "look",
+     "fa": "نگاه کن"
     }
    ],
    "cultureNote": null
   },
-  "s3": {
-   "id": "s3",
+  "n3": {
+   "id": "n3",
    "speaker": "william",
-   "text": "Me walk! Me big!",
+   "text": "Wobble… wobble… BOOM!",
    "translations": {
-    "fa": "من راه! من بزرگ!"
+    "fa": "تلوتلو… تلوتلو… بوم!"
    },
-   "branches": [],
+   "branches": [
+    {
+     "keywords": [
+      "oops",
+      "okay"
+     ],
+     "suggestion": "Oops! Are you okay?",
+     "suggestionFa": "اوه! خوبی؟",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "again",
+      "mind",
+      "try"
+     ],
+     "suggestion": "Never mind! Try again!",
+     "suggestionFa": "مهم نیست! دوباره!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
    "newWords": [
     {
-     "word": "big",
-     "fa": "بزرگ"
+     "word": "wobble",
+     "fa": "تلوتلو خوردن"
+    },
+    {
+     "word": "boom",
+     "fa": "بوم"
+    },
+    {
+     "word": "oops",
+     "fa": "اوه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Again! Again!",
+   "translations": {
+    "fa": "دوباره! دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "walk"
+     ],
+     "suggestion": "Walk to me, William!",
+     "suggestionFa": "بیا سمت من، ویلیام!",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "steps",
+      "step",
+      "two",
+      "one"
+     ],
+     "suggestion": "One step, two steps!",
+     "suggestionFa": "یه قدم، دو قدم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "walk",
+     "fa": "راه رفتن"
+    },
+    {
+     "word": "step",
+     "fa": "قدم"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "One… two… three!",
+   "translations": {
+    "fa": "یک… دو… سه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "steps",
+      "done",
+      "well"
+     ],
+     "suggestion": "Three steps! Well done!",
+     "suggestionFa": "سه قدم! آفرین!",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hooray",
+      "walked"
+     ],
+     "suggestion": "You walked! Hooray!",
+     "suggestionFa": "راه رفتی! هورا!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "three",
+     "fa": "سه"
+    },
+    {
+     "word": "well done",
+     "fa": "آفرین"
+    },
+    {
+     "word": "hooray",
+     "fa": "هورا"
     }
    ],
    "cultureNote": {
-    "en": "British parents often call it 'toddling' — that's where 'toddler' comes from.",
-    "fa": "والدین بریتانیایی اغلب به آن «toddling» می‌گویند — کلمهٔ «toddler» از همین‌جا آمده."
+    "en": "Most babies take their first steps between nine and eighteen months.",
+    "fa": "بیشتر نوزادان ۹ تا ۱۸ ماهگی راه می‌افتند."
    }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Clap! Clap clap!",
+   "translations": {
+    "fa": "دست! دست دست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "clever",
+      "clap"
+     ],
+     "suggestion": "Clap clap! Clever William!",
+     "suggestionFa": "دست دست! ویلیام باهوش!",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mummy",
+      "let's",
+      "tell"
+     ],
+     "suggestion": "Let's tell Mummy!",
+     "suggestionFa": "بیا به مامان بگیم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clap",
+     "fa": "دست زدن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Mummy! Look! Me walk!",
+   "translations": {
+    "fa": "مامان! ببین! من راه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "walking",
+      "leslie",
+      "quick",
+      "come"
+     ],
+     "suggestion": "Leslie, come quick! He's walking!",
+     "suggestionFa": "لزلی، زود بیا! داره راه میره!",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "daddy",
+      "film",
+      "we"
+     ],
+     "suggestion": "Shall we film it for Daddy?",
+     "suggestionFa": "برای بابا فیلم بگیریم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quick",
+     "fa": "سریع"
+    },
+    {
+     "word": "film",
+     "fa": "فیلم گرفتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Teddy! Walk to Teddy!",
+   "translations": {
+    "fa": "تدی! برم سمت تدی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teddy",
+      "get",
+      "go"
+     ],
+     "suggestion": "Go on, get Teddy!",
+     "suggestionFa": "برو، تدی را بگیر!",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "waiting",
+      "teddy's"
+     ],
+     "suggestion": "Teddy's waiting for you!",
+     "suggestionFa": "تدی منتظرته!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teddy",
+     "fa": "خرس عروسکی"
+    },
+    {
+     "word": "waiting",
+     "fa": "منتظر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "william",
+   "text": "Got Teddy! Me walk! Me big!",
+   "translations": {
+    "fa": "تدی را گرفتم! من راه! من بزرگ!"
+   },
+   "branches": [],
+   "newWords": [],
+   "cultureNote": null
   }
  }
 }

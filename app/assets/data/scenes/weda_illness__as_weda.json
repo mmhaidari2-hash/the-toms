@@ -25,10 +25,10 @@
       "weather",
       "lamb's",
       "under",
-      "poor"
+      "feel"
      ],
      "suggestion": "Poor lamb's a bit under the weather. Can you feel his forehead — does he feel hot?",
-     "suggestionFa": "طفلکی کمی ناخوشه. پیشونیش رو لمس کن — داغه؟",
+     "suggestionFa": "طفلکی یه کم ناخوشه. می‌تونی پیشونیش را لمس کنی — داغه؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -41,19 +41,19 @@
    "speaker": "mehdi",
    "text": "Yes, he feels quite hot. Shall we take his temperature?",
    "translations": {
-    "fa": "آره، کمی داغه. دماش رو بگیریم؟"
+    "fa": "آره، نسبتاً داغه. دماش را بگیریم؟"
    },
    "branches": [
     {
      "keywords": [
-      "cupboard",
-      "calpol",
-      "fetch",
-      "could",
-      "glass"
+      "thermometer's",
+      "drawer",
+      "under",
+      "check",
+      "let's"
      ],
-     "suggestion": "38.2. Not too bad. Could you fetch the Calpol from the cupboard and a glass of water?",
-     "suggestionFa": "۳۸.۲. خیلی بد نیست. می‌شه کالپول رو از کابینت بیاری با یه لیوان آب؟",
+     "suggestion": "Let's check. The thermometer's in the drawer — pop it under his arm.",
+     "suggestionFa": "بیا چک کنیم. دماسنج تو کشوئه — بذارش زیر بغلش.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,21 +64,21 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "Of course — here's the Calpol and some water.",
+   "text": "Got it. How long do I leave it?",
    "translations": {
-    "fa": "حتماً — این کالپول و کمی آب."
+    "fa": "باشه. چقدر نگهش دارم؟"
    },
    "branches": [
     {
      "keywords": [
-      "natural",
-      "morning",
-      "better",
-      "we'll",
-      "thank"
+      "eating",
+      "beeps",
+      "there",
+      "until",
+      "been"
      ],
-     "suggestion": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
-     "suggestionFa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً بلدی باهاش.",
+     "suggestion": "Until it beeps. There — 38.2. Not too bad. Has he been eating?",
+     "suggestionFa": "تا بوق بزنه. ایناهاش — ۳۸.۲. خیلی بد نیست. غذا خورده؟",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -88,6 +88,156 @@
   },
   "r4": {
    "id": "r4",
+   "speaker": "mehdi",
+   "text": "He only had a bit of toast at teatime.",
+   "translations": {
+    "fa": "سر شام فقط یه کم نون تست خورد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cupboard",
+      "little",
+      "calpol",
+      "fetch",
+      "water"
+     ],
+     "suggestion": "Little ones often go off their food. Could you fetch the Calpol from the cupboard and a glass of water?",
+     "suggestionFa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی کالپول را از کابینت بیاری و یه لیوان آب؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Of course — here's the Calpol and some water.",
+   "translations": {
+    "fa": "حتماً — اینم کالپول و یه کم آب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "millilitres",
+      "that's",
+      "check",
+      "would",
+      "five"
+     ],
+     "suggestion": "That's the one. Five millilitres for his age — check the box, would you?",
+     "suggestionFa": "همونه. برای سنش پنج میلی‌لیتر — جعبه را چک می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "It says five ml for ages two to four.",
+   "translations": {
+    "fa": "نوشته پنج میلی برای دو تا چهار سال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "darling",
+      "brave",
+      "let's",
+      "there",
+      "mind"
+     ],
+     "suggestion": "Good. Open wide, my darling… there. Brave boy. Now let's get him cool — not cold, mind.",
+     "suggestionFa": "خوبه. دهنت را باز کن عزیزم… بفرما. پسر شجاع. حالا خنکش کنیم — نه سرد، مواظب باش.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Shall I open the window a bit?",
+   "translations": {
+    "fa": "پنجره را یه کم باز کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "otherwise",
+      "wrapped",
+      "doctors",
+      "blanket",
+      "light"
+     ],
+     "suggestion": "Yes, just a vest and a light blanket. In my day, we wrapped them up warm. Doctors say otherwise now.",
+     "suggestionFa": "آره، فقط یه زیرپوش و یه پتوی سبک. زمان ما، گرم می‌پیچیدیمشون. دکترها الان چیز دیگه‌ای می‌گن.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Things change, don't they?",
+   "translations": {
+    "fa": "اوضاع عوض میشه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "closing",
+      "mothers",
+      "while",
+      "eyes"
+     ],
+     "suggestion": "Mothers everywhere, eh? Look, his eyes are closing. Will you sit with him while I make some tea?",
+     "suggestionFa": "مادرها همه جا، ها؟ ببین، چشماش داره بسته میشه. تا من چای درست می‌کنم پیشش می‌شینی؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Of course. I'll read him a story.",
+   "translations": {
+    "fa": "حتماً. براش قصه می‌خونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "natural",
+      "better",
+      "thank",
+      "we'll"
+     ],
+     "suggestion": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
+     "suggestionFa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً باهاش خوبی.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Nana Weda! See you later.",
    "translations": {

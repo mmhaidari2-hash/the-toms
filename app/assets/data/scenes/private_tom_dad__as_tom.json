@@ -22,13 +22,13 @@
     {
      "keywords": [
       "retired",
-      "people",
       "thirty",
-      "years",
-      "never"
+      "people",
+      "drove",
+      "route"
      ],
      "suggestion": "Never told many people this. My dad drove the 38 too. Thirty-one years. I took his route when he retired.",
-     "suggestionFa": "اینو به خیلیا نگفتم. بابام هم راننده‌ی ۳۸ بود. سی‌ویک سال. وقتی بازنشسته شد مسیرش رو گرفتم.",
+     "suggestionFa": "به خیلی‌ها نگفتم. بابام هم ۳۸ را می‌روند. سی و یک سال. وقتی بازنشسته شد مسیرش را گرفتم.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -39,21 +39,21 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "He must be so proud of you.",
+   "text": "He must have been so proud of you.",
    "translations": {
-    "fa": "حتماً خیلی بهت افتخار می‌کنه."
+    "fa": "حتماً خیلی بهت افتخار می‌کرد."
    },
    "branches": [
     {
      "keywords": [
-      "mornings",
-      "winters",
-      "still",
-      "depot",
-      "there"
+      "victoria",
+      "clapton",
+      "pothole",
+      "between",
+      "nearly"
      ],
-     "suggestion": "He was. Lost him two winters back. Some mornings I still wave at the depot like he's there. Daft, eh?",
-     "suggestionFa": "افتخار می‌کرد. دو زمستون پیش از دستش دادم. بعضی صبح‌ها هنوز برای پایانه دست تکون می‌دم انگار اون‌جاست. احمقانه‌ست، نه؟",
+     "suggestion": "Same route, same cab, nearly. He knew every pothole between Victoria and Clapton Pond.",
+     "suggestionFa": "همون مسیر، تقریباً همون کابین. هر چاله‌ای بین ویکتوریا و کلپتون پاند را می‌شناخت.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,21 +64,21 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "It's not daft at all. I'm so sorry.",
+   "text": "What was he like?",
    "translations": {
-    "fa": "اصلاً احمقانه نیست. خیلی متأسفم."
+    "fa": "چطور آدمی بود؟"
    },
    "branches": [
     {
      "keywords": [
-      "that's",
-      "cheers",
-      "family",
-      "told",
-      "mate"
+      "saturday",
+      "upstairs",
+      "passed",
+      "house",
+      "every"
      ],
-     "suggestion": "Cheers, mate. You're family now — that's why I told you.",
-     "suggestionFa": "مرسی رفیق. تو حالا خانواده‌ای — واسه همین بهت گفتم.",
+     "suggestion": "Every Saturday. Front seat upstairs. He'd ding the bell twice when we passed our house — just for me.",
+     "suggestionFa": "هر شنبه. صندلی جلوی طبقهٔ بالا. وقتی از جلوی خونه‌مون رد می‌شدیم دو بار زنگ می‌زد — فقط برای من.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -88,6 +88,156 @@
   },
   "r4": {
    "id": "r4",
+   "speaker": "mehdi",
+   "text": "That's a beautiful memory.",
+   "translations": {
+    "fa": "خاطرهٔ قشنگیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pretends",
+      "doesn't",
+      "nicola",
+      "every",
+      "waves"
+     ],
+     "suggestion": "Ha — every time. Nicola waves like mad. Ryan pretends he doesn't know me.",
+     "suggestionFa": "ها — هر بار. نیکولا دیوونه‌وار دست تکون می‌ده. رایان وانمود می‌کنه منو نمی‌شناسه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Typical teenager!",
+   "translations": {
+    "fa": "نوجوون تیپیک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "winters",
+      "lost",
+      "back",
+      "same",
+      "was"
+     ],
+     "suggestion": "He does. Dad was the same with me. He was. Lost him two winters back.",
+     "suggestionFa": "عاشقشه. بابا هم با من همین‌طور بود. بود. دو زمستون پیش از دستش دادم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I'm so sorry, Tom.",
+   "translations": {
+    "fa": "خیلی متأسفم تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mornings",
+      "depot",
+      "still",
+      "there",
+      "some"
+     ],
+     "suggestion": "Some mornings I still wave at the depot like he's there. Daft, eh?",
+     "suggestionFa": "بعضی صبح‌ها هنوز به پایانه دست تکون می‌دم انگار اونجاست. احمقانه‌ست، نه؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's not daft at all.",
+   "translations": {
+    "fa": "اصلاً احمقانه نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "didn't",
+      "that's",
+      "don't",
+      "yeah"
+     ],
+     "suggestion": "Yeah? That's nice, that. You lost someone too, didn't you? You don't have to say.",
+     "suggestionFa": "آره؟ قشنگه این. تو هم کسی را از دست دادی، نه؟ لازم نیست بگی.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "My grandfather. I couldn't go to his funeral.",
+   "translations": {
+    "fa": "پدربزرگم. نتونستم برم مراسمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whenever",
+      "garden's",
+      "alright",
+      "always",
+      "kettle"
+     ],
+     "suggestion": "That's alright, mate. Whenever you're ready. The garden's always here, and so's the kettle.",
+     "suggestionFa": "اشکالی نداره رفیق. هر وقت آماده بودی. باغچه همیشه اینجاست، کتری هم همین‌طور.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you, Tom. That means a lot.",
+   "translations": {
+    "fa": "ممنون تام. خیلی برام ارزش داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie'll",
+      "family",
+      "cheers",
+      "that's",
+      "think"
+     ],
+     "suggestion": "Cheers, mate. You're family now — that's why I told you. Come on, Leslie'll think we've run off.",
+     "suggestionFa": "مرسی رفیق. الان جزو خانواده‌ای — برای همین بهت گفتم. بیا، لزلی فکر می‌کنه فرار کردیم.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Tom! See you later.",
    "translations": {
