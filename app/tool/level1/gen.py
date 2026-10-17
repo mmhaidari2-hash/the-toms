@@ -74,7 +74,13 @@ for ui,u in enumerate(units):
       if n['culture']: d['cultureNote']=n['culture']
       if n['recasts']: d['recasts']=n['recasts']
       N[nid]=d; allw+=n['words']
-    scene={'id':sid,'characterId':les['lead'],'title':les['title'],'titleFa':les['titleFa'],'setting':f"{u['title']} · Level {u['level']}",'settingFa':u['titleFa'],'requires':None,'start':'n1','level':lvl,'nodes':N}
+    G=PACKBY[u['pack']].get('guest') if u.get('pack') else None
+    if G:  # Career Pack with its own playable guest (e.g. Sara in Vida's Nursery): bake the name in, no Mehdi
+      GN={c['id']:c['name'] for c in json.load(open(os.path.join(A,'characters.json')))}[G]; GF={'sara':'سارا'}[G]
+      for d in N.values():
+        d['text']=d['text'].replace('{you}',GN); d['translations']['fa']=d['translations']['fa'].replace('{you}',GF)
+        for b in d['branches']: b['suggestion']=b['suggestion'].replace('{you}',GN); b['suggestionFa']=b['suggestionFa'].replace('{you}',GF)
+    scene={'id':sid,'characterId':les['lead'],'title':les['title'],'titleFa':les['titleFa'],'setting':f"{u['title']} · Level {u['level']}",'settingFa':u['titleFa'],'requires':None,'start':'n1','level':lvl,'nodes':N,**({'guest':G} if G else {})}
     scenes[sid]=scene
     cu['lessons'].append({'id':sid,'title':les['title'],'titleFa':les['titleFa'],'lead':les['lead'],'place':les['place'],'grammar':les['grammar'],'grammarFa':les['grammarFa'],'sceneIds':[sid],'words':allw,'turns':2*len(ns)-1})
   (PACKBY[u['pack']]['units'] if u.get('pack') else course['units']).append(cu)

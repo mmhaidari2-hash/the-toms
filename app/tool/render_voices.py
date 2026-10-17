@@ -33,6 +33,7 @@ V={ # speaker -> (voice, pitch, rate)
  'mechanic':('en-GB-RyanNeural','-20Hz','-4%'),
  'workcoach':('en-GB-ThomasNeural','-10Hz','-2%'),
  'council':('en-GB-LibbyNeural','-10Hz','+0%'),
+ 'sara':('en-GB-LibbyNeural','+4Hz','+3%'),
  'vida':('en-GB-SoniaNeural','+12Hz','-6%'),'jo':('en-IE-EmilyNeural','-6Hz','-2%'),
  'oscar':('en-GB-MaisieNeural','+4Hz','+8%'),'dan':('en-AU-WilliamMultilingualNeural','+0Hz','+2%'),
  'harris':('en-GB-RyanNeural','-8Hz','-8%'),
@@ -56,7 +57,7 @@ for f in glob.glob(os.path.join(A,'data/scenes/*.json')):
     sp=n['speaker']; add(sp,n['text']); add(sp,n.get('coolReply'))
     if n.get('xray'): add(sp,n['xray'].get('connected'))
     for r in n.get('recasts') or []: add(sp,r.get('echo'))
-    for b in n.get('branches',[]): add('me',b.get('suggestion'))
+    for b in n.get('branches',[]): add(d.get('guest','me'),b.get('suggestion'))
 def walk(o):
   if isinstance(o,dict):
     if o.get('characterId') and isinstance(o.get('ambient'),dict): add(o['characterId'],o['ambient'].get('en'))

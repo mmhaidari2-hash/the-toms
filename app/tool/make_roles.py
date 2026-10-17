@@ -25,15 +25,16 @@ for sid in idx:
     n['_best']=br[0] if br else None
     cur=br[0]['next'] if br else None
   speakers=[n['speaker'] for n in path]
+  G=s.get('guest','mehdi')  # the guest who becomes the NPC (Sara in Vida's Nursery)
   for L in FAMILY:
     if speakers.count(L)<2: continue
     U=[]  # (who, text, fa, node)  who: 'USER' or speaker id
     for n in path:
       U.append(('USER' if n['speaker']==L else n['speaker'],n['text'],n['translations'].get('fa',''),n))
       b=n['_best']
-      if b: U.append(('mehdi',b['suggestion'],b.get('suggestionFa',''),None))
-    if U[0][0]=='USER': U.insert(0,('mehdi',f"Hi, {NAMES[L]}!",f"سلام {NAMES[L]}!",None))
-    if U[-1][0]=='USER': U.append(('mehdi',f"Thanks, {NAMES[L]}! See you later.",f"ممنون {NAMES[L]}! بعداً می‌بینمت.",None))
+      if b: U.append((G,b['suggestion'],b.get('suggestionFa',''),None))
+    if U[0][0]=='USER': U.insert(0,(G,f"Hi, {NAMES[L]}!",f"سلام {NAMES[L]}!",None))
+    if U[-1][0]=='USER': U.append((G,f"Thanks, {NAMES[L]}! See you later.",f"ممنون {NAMES[L]}! بعداً می‌بینمت.",None))
     # fold into engine nodes: NPC line, then a user turn
     nodes=[];i=0;bc=0
     while i<len(U):
