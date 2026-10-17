@@ -155,6 +155,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ),
             ),
           ],
+          if (s.id == 'school') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: BL.navy,
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-school'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/school');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.school_rounded, color: BL.gold),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('Grammar School · Mrs Ellis\'s classrooms', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
           const SizedBox(height: 6),
           Text('${ls.length} lessons here  ·  $done done', style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 13)),
           const SizedBox(height: 12),

@@ -12,6 +12,8 @@ import '../features/home/home_screen.dart';
 import '../features/place/place_screen.dart';
 import '../features/onboarding/onboarding_screen.dart';
 import '../features/premium/premium_screen.dart';
+import '../features/grammar/school_screen.dart';
+import '../features/grammar/topic_screen.dart';
 import '../features/legal/legal_screen.dart';
 import '../features/library/library_screen.dart';
 import '../features/library/reader_screen.dart';
@@ -40,6 +42,9 @@ final router = GoRouter(
     GoRoute(path: '/howto', pageBuilder: (_, s) => _fade(const HowToScreen(), s)),
     GoRoute(path: '/onboarding', pageBuilder: (_, s) => _fade(const OnboardingScreen(), s)),
     GoRoute(path: '/legal', pageBuilder: (_, s) => _fade(LegalScreen(key: ValueKey('legal-${s.uri.queryParameters['tab']}'), tab: s.uri.queryParameters['tab'] ?? 'privacy'), s)),
+    GoRoute(path: '/school', pageBuilder: (_, s) => _fade(const SchoolScreen(), s)),
+    GoRoute(path: '/school/:level', pageBuilder: (_, s) => _fade(ClassScreen(key: ValueKey('class-${s.pathParameters['level']}'), code: s.pathParameters['level']!), s)),
+    GoRoute(path: '/grammar/:id', pageBuilder: (_, s) => _fade(TopicScreen(key: ValueKey('grammar-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/library', pageBuilder: (_, s) => _fade(const LibraryScreen(), s)),
     GoRoute(path: '/read/:book', pageBuilder: (_, s) => _fade(ReaderScreen(key: ValueKey('read-${s.pathParameters['book']}-${s.uri.queryParameters['ch']}'), bookId: s.pathParameters['book']!, chapter: int.tryParse(s.uri.queryParameters['ch'] ?? '') ?? 0), s)),
     GoRoute(path: '/progress', pageBuilder: (_, s) => _fade(const ProgressScreen(), s)),

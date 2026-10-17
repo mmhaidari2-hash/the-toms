@@ -185,7 +185,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 - Next runs: B1, B2, C1 shelves (8–12 each), audio-synced word highlighting, a Library section in Progress.
 
 ### Feature queue (approved by the user, 2026-10-17) — each a map spot/section, uncluttered, short runs
-1. **Grammar School** (school spot + menu): classrooms "Class A1 · مبتدی" … C1, Ms Ellis explains with a British voice + Persian, Thompson-family examples, gap-fill / reorder / choose / transform, mini test per topic, XP, unlocks in order, links to related lessons.
+1. **Grammar School** (school spot + menu): classrooms "Class A1 · مبتدی" … C1, Mrs Ellis (canon name) explains with a British voice + Persian, Thompson-family examples, gap-fill / reorder / choose / transform, mini test per topic, XP, unlocks in order, links to related lessons. — **Run 1 shipped 2026-10-17: Class A1 + A2.**
 2. **Cinema**: short scenes with bilingual subtitles, tap-to-translate, "dub it" mode with a speech score (paintings + audio now; real video later).
 3. **Radio**: a short daily podcast by the characters (Tom's local news, George's grumbles), transcript + Persian.
 4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges.
@@ -211,3 +211,13 @@ Then Parts 3–5: AI tutor scaffold, Android build, payments scaffold.
 - New **Privacy, terms & about** screen (`/legal`, menu item): draft Privacy Policy and Terms of Use in EN+FA with placeholders [BUSINESS NAME], [POSTAL ADDRESS], [CONTACT EMAIL]; accurate about local-only storage, no accounts/analytics/ads, speech via the browser, GitHub Pages logs, synthetic voices, trade-mark and non-affiliation lines. Needs a solicitor's review and a public URL before store submission.
 - IMAGE_PROMPTS: "roundel" removed; no-logos rule added. Store keywords and taglines: no Duolingo/IELTS/official.
 - Still open (not code): licensed TTS re-render before charging (edge-tts is personal-use only), ICO fee, DPIA before Family Mode/AI chat, trade-mark search for "The Toms".
+
+## Grammar School — run 1 (2026-10-17)
+- **Where:** school spot on the town map + menu item "Grammar School" → `/school` → `/school/:level` → `/grammar/:id`.
+- **Classrooms:** A1 · مبتدی, A2 · مقدماتی open now; B1–C1 show "coming soon". A1 is always open; a class opens when the previous one is passed or the course reaches that level.
+- **Class A1 (6):** be (am/is/are), have got / has got, a/an/the, plurals, present simple, can/can't.
+- **Class A2 (5):** past simple regular, past simple irregular, present continuous, present simple vs continuous, comparatives & superlatives.
+- **Each topic:** Mrs Ellis teaches on a chalkboard (British TTS voice "ellis" + Persian), examples from the Thompsons' life, links to up to 3 related course lessons, 6 practice items (gap / choose / reorder / transform, instant feedback with the right answer), then a 5-question mini test. Pass mark 60%; 10 XP (15 for 100%), 3 XP for a try. Topics unlock in order.
+- **Content pipeline:** `tool/grammar/a1.txt`, `a2.txt` (DSL) → `tool/make_grammar.py` → `assets/data/grammar.json` (validated; related lessons auto-linked by grammar tag). `render_voices.py` walks grammar.json.
+- **Tests:** `test/grammar_test.dart` (content rules, British spelling, audio for every line, answer checking, unlock order, full flow at 375×667).
+- **Next runs:** B1, B2, C1 classes; a teacher portrait in IMAGE_PROMPTS if needed.

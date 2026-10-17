@@ -257,6 +257,17 @@ class ProgressController extends Notifier<UserProgress> {
     };
   }
 
+  // ---- Grammar School: best mini-test % per topic in 'gram:<topic>'.
+  int? grammarScore(String id) => int.tryParse(state.missionsDone['gram:$id'] ?? '');
+  bool grammarPassed(String id) => (grammarScore(id) ?? -1) >= 60;
+  XpAward saveGrammar(String id, int pct) {
+    if (pct > (grammarScore(id) ?? -1)) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'gram:$id': '$pct'});
+      _save();
+    }
+    return awardXp(pct >= 60 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
   // ---- Library (graded readers): best quiz % per chapter in 'read:<book>:<ch>', finished books in 'read:done:<book>'.
   int? readScore(String book, int ch) => int.tryParse(state.missionsDone['read:$book:$ch'] ?? '');
   bool bookDone(String book) => state.missionsDone.containsKey('read:done:$book');

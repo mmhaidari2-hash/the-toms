@@ -73,6 +73,10 @@ def walk(o):
   elif isinstance(o,list):
     for v in o: walk(v)
 walk(json.load(open(os.path.join(A,'data/places.json'))))
+gram=os.path.join(A,'data/grammar.json')  # Grammar School (tool/make_grammar.py): Mrs Ellis reads explanations + examples
+if os.path.exists(gram):
+  for t in json.load(open(gram))['topics']:
+    for x in t['teach']+t['examples']: add('ellis',x['en'])
 lib=os.path.join(A,'data/library.json')  # graded readers (tool/make_library.py): narrator reads every sentence
 if os.path.exists(lib):
   for b in json.load(open(lib))['books']:
