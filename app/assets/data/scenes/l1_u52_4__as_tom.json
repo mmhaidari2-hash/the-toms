@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "window",
       "before",
+      "window",
+      "alarm",
       "smoke",
-      "never",
-      "alarm"
+      "never"
      ],
      "suggestion": "Ha! Never mind. Open the window before the smoke alarm goes off.",
      "suggestionFa": "ها! عیب نداره. قبل از اینکه آژیر دود به صدا دربیاد پنجره را باز کن.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "towel",
-      "quiet",
       "there",
-      "wave",
-      "like"
+      "quiet",
+      "like",
+      "wave"
      ],
      "suggestion": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
      "suggestionFa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!",
@@ -99,8 +99,8 @@
       "leslie",
       "burner",
       "about",
-      "calls",
-      "toast"
+      "every",
+      "calls"
      ],
      "suggestion": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
      "suggestionFa": "نگرانش نباش! ضرری نکردیم. من هر هفته این کار را می‌کنم. لزلی بهم میگه «سوزانندهٔ نون تست».",
@@ -124,8 +124,8 @@
       "toaster",
       "strong",
       "number",
-      "three",
-      "every"
+      "every",
+      "three"
      ],
      "suggestion": "Every week! The toaster is too strong. Put it on number three, not five.",
      "suggestionFa": "هر هفته! توستر زیادی قویه. بذارش رو سه، نه پنج.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "watching",
       "crumpets",
+      "watching",
       "slices",
-      "again",
-      "right"
+      "right",
+      "again"
      ],
      "suggestion": "Five is for crumpets! Right, try again. Two more slices. I'm watching this time!",
      "suggestionFa": "پنج برای کرامپته! خب، دوباره امتحان کن. دو تا برش دیگه. این دفعه حواسم هست!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "burner",
+      "butter",
       "toast",
-      "burn",
-      "lots"
+      "next",
+      "call"
      ],
      "suggestion": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
      "suggestionFa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!",

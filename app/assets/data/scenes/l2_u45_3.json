@@ -202,9 +202,9 @@
     {
      "keywords": [
       "passes",
-      "pass",
       "back",
-      "like"
+      "like",
+      "pass"
      ],
      "suggestion": "Like this? I pass, he passes back?",
      "suggestionFa": "اینجوری؟ من پاس میدم، اون پاس میده؟",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "inside",
-      "like",
       "foot",
+      "like",
       "try"
      ],
      "suggestion": "Jamal, try to use the inside of your foot. Like this.",
@@ -303,8 +303,8 @@
      "keywords": [
       "better",
       "jamal",
-      "much",
-      "well"
+      "well",
+      "much"
      ],
      "suggestion": "Well done, Jamal! Much better!",
      "suggestionFa": "آفرین جمال! خیلی بهتر!",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "that's",
-      "ryan",
-      "foul"
+      "foul",
+      "ryan"
      ],
      "suggestion": "Ryan, that's a foul! Free kick!",
      "suggestionFa": "رایان، این خطاست! ضربهٔ آزاد!",

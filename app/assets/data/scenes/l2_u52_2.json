@@ -1,0 +1,455 @@
+{
+ "id": "l2_u52_2",
+ "characterId": "sophie",
+ "title": "Breakfast included?",
+ "titleFa": "صبحانه شامل است؟",
+ "setting": "Hotel and B&B · Level 2",
+ "settingFa": "هتل و پانسیون",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sophie",
+   "text": "Morning! Sleep well? Sit anywhere. Here's the menu. What can I get you?",
+   "translations": {
+    "fa": "صبح بخیر! خوب خوابیدی؟ هر جا خواستی بشین. اینم منو. چی برات بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "included",
+      "morning",
+      "sorry"
+     ],
+     "suggestion": "Morning. Sorry — is breakfast included?",
+     "suggestionFa": "صبح بخیر. ببخشید — صبحانه شامله؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slept",
+      "quiet",
+      "well",
+      "sea"
+     ],
+     "suggestion": "I slept very well. The sea is so quiet.",
+     "suggestionFa": "خیلی خوب خوابیدم. دریا خیلی آرومه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sleep well",
+     "fa": "خوب خوابیدن"
+    },
+    {
+     "word": "anywhere",
+     "fa": "هر جا"
+    },
+    {
+     "word": "menu",
+     "fa": "منو"
+    },
+    {
+     "word": "included",
+     "fa": "شامل"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sophie",
+   "text": "It's included, yes. B&B — bed AND breakfast! Full English, veggie English, or continental. Tea or coffee?",
+   "translations": {
+    "fa": "شامله، آره. پانسیون — تخت و صبحانه! انگلیسی کامل، انگلیسی گیاهی، یا قاره‌ای. چای یا قهوه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "what's"
+     ],
+     "suggestion": "What's the difference?",
+     "suggestionFa": "فرقشون چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "please",
+      "full",
+      "tea"
+     ],
+     "suggestion": "Tea, please. And a full English.",
+     "suggestionFa": "چای لطفاً. و یه انگلیسی کامل.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "full English",
+     "fa": "صبحانهٔ کامل انگلیسی"
+    },
+    {
+     "word": "veggie",
+     "fa": "گیاهی"
+    },
+    {
+     "word": "continental",
+     "fa": "صبحانهٔ قاره‌ای (سبک)"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"full English\" is a cooked breakfast: eggs, bacon, sausage, beans, tomato, mushrooms and toast. \"Continental\" is cold: croissants, cereal, fruit, yoghurt.",
+    "fa": "«Full English» صبحانهٔ پخته است؛ «continental» سرد و سبک است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "is included the breakfast",
+      "breakfast is include?"
+     ],
+     "echo": "Is breakfast included? Yes!",
+     "better": "Is breakfast included?",
+     "betterFa": "صبحانه شامل است؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sophie",
+   "text": "Full English: eggs, bacon, sausage, beans, mushrooms, tomato, toast. Continental: croissants, fruit, yoghurt. The bacon's pork.",
+   "translations": {
+    "fa": "انگلیسی کامل: تخم‌مرغ، بیکن، سوسیس، لوبیا، قارچ، گوجه، نون تست. قاره‌ای: کروسان، میوه، ماست. بیکن خوکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "without",
+      "sausage",
+      "could",
+      "bacon"
+     ],
+     "suggestion": "Could I have it without the bacon and sausage?",
+     "suggestionFa": "میشه بدون بیکن و سوسیس داشته باشم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mushrooms",
+      "veggie",
+      "please",
+      "extra"
+     ],
+     "suggestion": "The veggie one, please. With extra mushrooms.",
+     "suggestionFa": "گیاهیش لطفاً. با قارچ اضافه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mushrooms",
+     "fa": "قارچ‌ها"
+    },
+    {
+     "word": "beans",
+     "fa": "لوبیا"
+    },
+    {
+     "word": "croissants",
+     "fa": "کروسان‌ها"
+    },
+    {
+     "word": "yoghurt",
+     "fa": "ماست"
+    },
+    {
+     "word": "pork",
+     "fa": "گوشت خوک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sophie",
+   "text": "Course! Veggie sausages instead? They're actually nice. And how would you like your eggs? Fried, scrambled or poached?",
+   "translations": {
+    "fa": "حتماً! به‌جاش سوسیس گیاهی؟ راستش خوبن. و تخم‌مرغت را چطوری می‌خوای؟ نیمرو، همزده یا آب‌پز بی‌پوست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scrambled",
+      "please"
+     ],
+     "suggestion": "Scrambled, please.",
+     "suggestionFa": "همزده لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "poached",
+      "what's"
+     ],
+     "suggestion": "What's \"poached\"?",
+     "suggestionFa": "«پوچد» چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    },
+    {
+     "word": "fried",
+     "fa": "نیمرو ؛ سرخ‌شده"
+    },
+    {
+     "word": "scrambled",
+     "fa": "همزده"
+    },
+    {
+     "word": "poached",
+     "fa": "آب‌پز بدون پوست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "Cracked into hot water. Very fancy. Auntie's are the best in Sussex! Coming up. Oh, here's the family. Hi, Nicola!",
+   "translations": {
+    "fa": "تو آب داغ شکسته میشه. خیلی شیک. مال خاله‌ام بهترین ساسکسه! الان میارم. اوه، خانواده اومدن. سلام نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleep",
+      "well",
+      "did",
+      "hi"
+     ],
+     "suggestion": "Hi, Nicola! Did you sleep well?",
+     "suggestionFa": "سلام نیکولا! خوب خوابیدی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "next",
+      "sit"
+     ],
+     "suggestion": "Nicola, sit next to me.",
+     "suggestionFa": "نیکولا، بیا کنار من بشین.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next to",
+     "fa": "کنار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Sophie! Can I have pancakes? And chocolate? And pancakes with chocolate?",
+   "translations": {
+    "fa": "سوفی! میشه پنکیک بخورم؟ و شکلات؟ و پنکیک با شکلات؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "first",
+      "look"
+     ],
+     "suggestion": "Nicola, look at the menu first.",
+     "suggestionFa": "نیکولا، اول منو را ببین.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pancakes",
+      "there"
+     ],
+     "suggestion": "Are there pancakes on the menu?",
+     "suggestionFa": "پنکیک تو منو هست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cracked",
+     "fa": "شکسته شد"
+    },
+    {
+     "word": "fancy",
+     "fa": "شیک ؛ مجلل"
+    },
+    {
+     "word": "coming up",
+     "fa": "الان آماده می‌شود"
+    },
+    {
+     "word": "pancakes",
+     "fa": "پنکیک‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sophie",
+   "text": "Pancakes are Sundays only, sweetie. But we've got toast with chocolate spread. Deal?",
+   "translations": {
+    "fa": "پنکیک فقط یکشنبه‌هاست عزیزم. ولی نون تست با شکلات صبحانه داریم. قبول؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "that's",
+      "good",
+      "deal"
+     ],
+     "suggestion": "That's a good deal, Nicola.",
+     "suggestionFa": "معاملهٔ خوبیه نیکولا.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sophie",
+      "please",
+      "there",
+      "more"
+     ],
+     "suggestion": "Sophie, is there any more tea, please?",
+     "suggestionFa": "سوفی، باز هم چای هست لطفاً؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Sundays only",
+     "fa": "فقط یکشنبه‌ها"
+    },
+    {
+     "word": "sweetie",
+     "fa": "عزیزم"
+    },
+    {
+     "word": "chocolate spread",
+     "fa": "شکلات صبحانه"
+    },
+    {
+     "word": "deal",
+     "fa": "قبول ؛ معامله"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sophie",
+   "text": "Always more tea in this house! Fresh pot. And remember — breakfast finishes at ten. Tom's still asleep, I see!",
+   "translations": {
+    "fa": "تو این خونه همیشه چای بیشتر هست! یه قوری تازه. و یادت باشه — صبحانه ساعت ده تموم میشه. می‌بینم تام هنوز خوابه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "hate",
+      "miss",
+      "he'd"
+     ],
+     "suggestion": "I'll wake him up! He'd hate to miss a full English.",
+     "suggestionFa": "بیدارش می‌کنم! از دست دادن صبحانهٔ کامل را دوست نداره.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forty",
+      "call",
+      "nine",
+      "five"
+     ],
+     "suggestion": "It's nine forty-five! I'll call him.",
+     "suggestionFa": "ساعت نه و چهل و پنجه! بهش زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fresh",
+     "fa": "تازه"
+    },
+    {
+     "word": "pot",
+     "fa": "قوری"
+    },
+    {
+     "word": "finishes",
+     "fa": "تمام می‌شود"
+    },
+    {
+     "word": "asleep",
+     "fa": "خواب"
+    },
+    {
+     "word": "miss",
+     "fa": "از دست دادن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "sophie",
+   "text": "Run! If Tom misses the sausages, we'll never hear the end of it. I'll save him a plate. Just this once!",
+   "translations": {
+    "fa": "بدو! اگه تام سوسیس‌ها را از دست بده، تا آخر عمر غرش را می‌شنویم. یه بشقاب براش نگه می‌دارم. فقط همین یه بار!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

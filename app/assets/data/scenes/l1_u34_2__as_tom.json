@@ -24,8 +24,8 @@
       "tomorrow",
       "getting",
       "centre",
-      "know",
-      "stop"
+      "stop",
+      "know"
      ],
      "suggestion": "You're getting the bus to the Job Centre tomorrow? Do you know the stop?",
      "suggestionFa": "فردا با اتوبوس میری مرکز کاریابی؟ ایستگاه را بلدی؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "opposite",
-      "church",
       "that's",
+      "church",
       "stop",
       "one"
      ],
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "there's",
-      "behind",
       "john's",
+      "behind",
       "clock",
       "park"
      ],
@@ -98,8 +98,8 @@
      "keywords": [
       "minutes",
       "letter",
-      "look",
       "stop",
+      "look",
       "two"
      ],
      "suggestion": "Two minutes. Look for the stop letter. It's stop M.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
-      "stops",
       "other",
-      "which",
-      "helps"
+      "there",
+      "helps",
+      "which"
      ],
      "suggestion": "There are lots of stops near each other. The letter helps. Which bus do you need?",
      "suggestionFa": "کلی ایستگاه نزدیک هم هست. حرفه کمک می‌کنه. کدوم اتوبوس لازمته؟",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "stops",
       "seven",
       "angel",
+      "stops",
       "off",
       "bus"
      ],
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "there's",
-      "inside",
       "screen",
-      "shows",
-      "voice"
+      "inside",
+      "voice",
+      "shows"
      ],
      "suggestion": "There's a screen inside. It shows the next stop. And a voice says it.",
      "suggestionFa": "داخلش یه صفحه هست. ایستگاه بعدی را نشون میده. یه صدا هم میگه.",
@@ -199,7 +199,7 @@
       "announcer",
       "tomorrow",
       "exactly",
-      "shift",
+      "voice",
       "early"
      ],
      "suggestion": "Exactly! And I'm on the early shift tomorrow. If you see me, wave. I'll do my best announcer voice!",

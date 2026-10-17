@@ -20,8 +20,8 @@
     {
      "keywords": [
       "learning",
-      "friend",
       "family",
+      "friend",
       "about"
      ],
      "suggestion": "Hi, I'm a friend of the family. I'm learning about cars!",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
-      "long",
+      "will",
       "take",
-      "will"
+      "long"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "wait",
       "here",
+      "wait",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "safe",
-      "home"
+      "home",
+      "safe"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,8 +177,8 @@
     {
      "keywords": [
       "would",
-      "much",
       "both",
+      "much",
       "cost"
      ],
      "suggestion": "How much would it cost to fix both?",
@@ -246,9 +246,9 @@
     {
      "keywords": [
       "second",
+      "first",
       "could",
-      "quote",
-      "first"
+      "quote"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "let's",
       "today",
+      "let's",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "tyres",
-      "long",
       "left",
+      "long",
       "how"
      ],
      "suggestion": "How long have the tyres got left?",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "winter",
       "before",
+      "winter",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -416,8 +416,8 @@
     {
      "keywords": [
       "garages",
-      "upsell",
       "honest",
+      "upsell",
       "thanks"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",

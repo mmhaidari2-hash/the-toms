@@ -47,8 +47,8 @@
     {
      "keywords": [
       "straight",
-      "keep",
       "hold",
+      "keep",
       "can",
       "end"
      ],
@@ -74,8 +74,8 @@
       "toolbox",
       "drill",
       "pass",
-      "hmm",
-      "can"
+      "can",
+      "hmm"
      ],
      "suggestion": "Hmm. Can you pass me the drill? It's in the toolbox.",
      "suggestionFa": "هوم. می‌تونی دریل را بدی؟ توی جعبه ابزاره.",
@@ -98,8 +98,8 @@
      "keywords": [
       "drilling",
       "that's",
-      "cover",
       "right",
+      "cover",
       "drill"
      ],
      "suggestion": "That's the drill. Right — I'm drilling now. Cover your ears!",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "leslie's",
-      "screws",
       "garden",
+      "screws",
       "pass",
       "got"
      ],
@@ -149,7 +149,7 @@
       "perfect",
       "falling",
       "there",
-      "look",
+      "four",
       "down"
      ],
      "suggestion": "Four. There! Look at that! Is it falling down? No! It's perfect!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "moving",
       "before",
-      "cuppa",
+      "moving",
       "falls",
-      "let's"
+      "let's",
+      "cuppa"
      ],
      "suggestion": "Moving? No, no. It's fine. Let's get a cuppa before it falls down!",
      "suggestionFa": "تکون؟ نه، نه. خوبه. بیا قبل از اینکه بیفته یه چای بخوریم!",

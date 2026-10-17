@@ -1,0 +1,225 @@
+{
+ "id": "l2_u54_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Planting seeds",
+ "titleFa": "(در نقش Nicola) کاشتن دانه",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u54_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunflower",
+      "planting",
+      "garden",
+      "school",
+      "seeds"
+     ],
+     "suggestion": "Look! My school gave me sunflower seeds. We're planting them in the park garden. Can you help me?",
+     "suggestionFa": "ببین! مدرسه بهم دونهٔ آفتابگردون داد. داریم تو باغچهٔ پارک می‌کاریمشون. کمکم می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course! How many seeds have you got?",
+   "translations": {
+    "fa": "البته! چند تا دونه داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "stripy",
+      "little",
+      "mummy",
+      "seeds"
+     ],
+     "suggestion": "Five seeds. They're stripy! Mummy says first we dig a little hole. With my spade!",
+     "suggestionFa": "پنج تا دونه. راه‌راهن! مامانی میگه اول یه سوراخ کوچیک می‌کنیم. با بیلچه‌ام!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Dig a little hole. How deep?",
+   "translations": {
+    "fa": "یه سوراخ کوچیک بکن. چقدر عمیق؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finger",
+      "hello",
+      "don't",
+      "won't",
+      "worry"
+     ],
+     "suggestion": "As deep as my finger. Look — a worm! Hello, worm! Don't worry, we won't hurt you.",
+     "suggestionFa": "به عمق انگشتم. ببین — یه کرم! سلام کرم! نگران نباش، اذیتت نمی‌کنیم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Worms are good for the soil.",
+   "translations": {
+    "fa": "کرم‌ها برای خاک خوبن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pointy",
+      "cover",
+      "then",
+      "down",
+      "seed"
+     ],
+     "suggestion": "Now put the seed in. Pointy end down. Then cover it with soil. Pat, pat!",
+     "suggestionFa": "حالا دونه را بذار توش. سر نوک‌تیز پایین. بعد با خاک بپوشونش. آروم بزن، آروم بزن!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Pointy end down. Pat, pat. Done!",
+   "translations": {
+    "fa": "سر نوک‌تیز پایین. آروم بزن. تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watering",
+      "heavy",
+      "every",
+      "holes",
+      "seeds"
+     ],
+     "suggestion": "Five seeds, five holes! Now water. Water it every day. Can you hold the watering can? It's heavy.",
+     "suggestionFa": "پنج تا دونه، پنج تا سوراخ! حالا آب. هر روز آبش بده. میشه آب‌پاش را نگه داری؟ سنگینه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here. Not too much water!",
+   "translations": {
+    "fa": "بفرما. نه خیلی آب زیاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "flowers",
+      "silly",
+      "rains",
+      "want"
+     ],
+     "suggestion": "When it rains, the sky does it! Silly. How long will it take? I want flowers tomorrow.",
+     "suggestionFa": "وقتی بارون میاد، آسمون آبش میده! خنگول. چقدر طول می‌کشه؟ فردا گل می‌خوام.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Tomorrow? No! About ten days for a little shoot.",
+   "translations": {
+    "fa": "فردا؟ نه! حدود ده روز برای یه جوونهٔ کوچیک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forever",
+      "that's",
+      "months",
+      "taller",
+      "daddy"
+     ],
+     "suggestion": "Three MONTHS? That's forever! Will it be taller than Daddy?",
+     "suggestionFa": "سه ماه؟ این یعنی تا ابد! از بابایی بلندتر میشه؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Maybe! Some sunflowers grow two metres tall.",
+   "translations": {
+    "fa": "شاید! بعضی آفتابگردون‌ها دو متر بلند میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunflower",
+      "against",
+      "mia's",
+      "every",
+      "will"
+     ],
+     "suggestion": "Yes! A sunflower race! Mine against Mia's. Mine will win. I'll sing to it every day.",
+     "suggestionFa": "آره! مسابقهٔ آفتابگردون! مال من در برابر مال میا. مال من می‌بره. هر روز براش آواز می‌خونم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

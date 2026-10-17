@@ -1,0 +1,519 @@
+{
+ "id": "l2_u49_4",
+ "characterId": "nicola",
+ "title": "Baking scones",
+ "titleFa": "پختن اسکون",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Nana says scones are easy. Can I do the cutting? I want the star cutter!",
+   "translations": {
+    "fa": "نانا میگه اسکون آسونه. می‌تونم من ببرم؟ قالب ستاره را می‌خوام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "first",
+      "dough",
+      "need"
+     ],
+     "suggestion": "Of course. First, we need to make the dough.",
+     "suggestionFa": "البته. اول باید خمیر را درست کنیم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scones",
+      "round",
+      "they",
+      "star"
+     ],
+     "suggestion": "Star scones! Do they have to be round?",
+     "suggestionFa": "اسکون ستاره‌ای! باید گرد باشن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scones",
+     "fa": "اسکون (کیک کوچک انگلیسی)"
+    },
+    {
+     "word": "cutting",
+     "fa": "بریدن"
+    },
+    {
+     "word": "cutter",
+     "fa": "قالب برش"
+    },
+    {
+     "word": "dough",
+     "fa": "خمیر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Flour in the bowl. Then butter. Squish it with your fingers! Like this! Squish, squish!",
+   "translations": {
+    "fa": "آرد تو کاسه. بعد کره. با انگشتات لهش کن! اینجوری! له، له!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squish",
+      "sugar",
+      "now"
+     ],
+     "suggestion": "Squish, squish! Now the sugar?",
+     "suggestionFa": "له، له! حالا شکر؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "white",
+      "hands",
+      "all"
+     ],
+     "suggestion": "Your hands are all white, Nicola!",
+     "suggestionFa": "دستات همه سفید شده نیکولا!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bowl",
+     "fa": "کاسه"
+    },
+    {
+     "word": "squish",
+     "fa": "له کردن ؛ فشردن"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشت‌ها"
+    },
+    {
+     "word": "hands",
+     "fa": "دست‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Sugar! A big spoon. And milk. Mix it all together. Now it's sticky! Yuck!",
+   "translations": {
+    "fa": "شکر! یه قاشق بزرگ. و شیر. همه را با هم قاطی کن. حالا چسبناک شد! ایش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "won't",
+      "flour",
+      "more",
+      "add"
+     ],
+     "suggestion": "Add a bit more flour. It won't be sticky.",
+     "suggestionFa": "یه کم دیگه آرد اضافه کن. چسبناک نمیشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "table",
+      "put",
+      "ok"
+     ],
+     "suggestion": "Sticky is OK. Let's put it on the table.",
+     "suggestionFa": "چسبناک اشکالی نداره. بیا بذاریمش رو میز.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "milk",
+     "fa": "شیر"
+    },
+    {
+     "word": "mix",
+     "fa": "مخلوط کردن"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "sticky",
+     "fa": "چسبناک"
+    },
+    {
+     "word": "yuck",
+     "fa": "ایش"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "mix all it together",
+      "mix together all of it"
+     ],
+     "echo": "Mix it all together? Yes!",
+     "better": "Mix it all together.",
+     "betterFa": "همه را با هم مخلوط کن."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Now pat it flat. Not too thin! Nana says as thick as my thumb.",
+   "translations": {
+    "fa": "حالا با دست صافش کن. خیلی نازک نه! نانا میگه به کلفتی انگشت شستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thick",
+      "like",
+      "as"
+     ],
+     "suggestion": "As thick as your thumb. Like this?",
+     "suggestionFa": "به کلفتی شستت. اینجوری؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "small"
+     ],
+     "suggestion": "Your thumb is very small! Maybe my thumb?",
+     "suggestionFa": "شست تو خیلی کوچیکه! شاید شست من؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pat",
+     "fa": "آرام زدن ؛ صاف کردن با دست"
+    },
+    {
+     "word": "flat",
+     "fa": "صاف"
+    },
+    {
+     "word": "thin",
+     "fa": "نازک"
+    },
+    {
+     "word": "thick",
+     "fa": "کلفت"
+    },
+    {
+     "word": "thumb",
+     "fa": "انگشت شست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Ha! Your thumb! OK, now I cut out circles. And one star. Push and twist!",
+   "translations": {
+    "fa": "ها! شست تو! باشه، حالا دایره می‌برم. و یه ستاره. فشار بده و بچرخون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "circles",
+      "eight",
+      "star"
+     ],
+     "suggestion": "Eight circles and one star. Brilliant!",
+     "suggestionFa": "هشت تا دایره و یه ستاره. عالی!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twist",
+      "don't",
+      "nana",
+      "just"
+     ],
+     "suggestion": "Don't twist! Nana says just push down.",
+     "suggestionFa": "نچرخون! نانا میگه فقط فشار بده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cut out",
+     "fa": "بریدن (با قالب)"
+    },
+    {
+     "word": "circles",
+     "fa": "دایره‌ها"
+    },
+    {
+     "word": "push",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "twist",
+     "fa": "چرخاندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Bakers say don't twist the cutter when you cut scones — they rise higher. A scone is like a small, light cake.",
+    "fa": "نانواها می‌گویند قالب را نچرخانید تا اسکون بیشتر پف کند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Oops. Push, don't twist. Then egg on top to make them shiny. Brush, brush. In the oven!",
+   "translations": {
+    "fa": "اوپس. فشار بده، نچرخون. بعد تخم‌مرغ رو روشون که براق بشن. بزن، بزن. تو فر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "long",
+      "bake",
+      "how"
+     ],
+     "suggestion": "How long do they bake for?",
+     "suggestionFa": "چقدر باید بپزن؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "look",
+      "wait",
+      "now"
+     ],
+     "suggestion": "They look perfect. Now we wait!",
+     "suggestionFa": "عالی شدن. حالا صبر می‌کنیم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "egg",
+     "fa": "تخم‌مرغ"
+    },
+    {
+     "word": "shiny",
+     "fa": "براق"
+    },
+    {
+     "word": "brush",
+     "fa": "قلم زدن ؛ مالیدن"
+    },
+    {
+     "word": "bake",
+     "fa": "پختن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Twelve minutes. Then jam and cream. But Nana and Grandad have a BIG argument about it.",
+   "translations": {
+    "fa": "دوازده دقیقه. بعد مربا و خامه. ولی نانا و پدربزرگ سرش یه دعوای بزرگ دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scones"
+     ],
+     "suggestion": "An argument? About scones?",
+     "suggestionFa": "دعوا؟ سر اسکون؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's the argument about?",
+     "suggestionFa": "دعوا سر چیه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam",
+     "fa": "مربا"
+    },
+    {
+     "word": "cream",
+     "fa": "خامه"
+    },
+    {
+     "word": "argument",
+     "fa": "بحث ؛ دعوا"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Nana puts jam first. Grandad puts cream first. He says Nana is WRONG.",
+   "translations": {
+    "fa": "نانا اول مربا می‌ذاره. پدربزرگ اول خامه. میگه نانا اشتباه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "cream",
+      "right",
+      "which"
+     ],
+     "suggestion": "Jam first or cream first? Which is right?",
+     "suggestionFa": "اول مربا یا اول خامه؟ کدوم درسته؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "each",
+      "i'll",
+      "both",
+      "one"
+     ],
+     "suggestion": "I'll try both! One of each.",
+     "suggestionFa": "هر دو را امتحان می‌کنم! از هر کدوم یکی.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "right",
+     "fa": "درست"
+    },
+    {
+     "word": "both",
+     "fa": "هر دو"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Cornwall, people put jam first, then cream. In Devon, cream first, then jam. It's a famous, friendly argument!",
+    "fa": "در کورنوال اول مربا و در دوون اول خامه می‌گذارند؛ یک بحث دوستانهٔ معروف!"
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Cornwall is jam first. Devon is cream first. I'm Cornwall! Ding! They're ready!",
+   "translations": {
+    "fa": "کورنوال اول مرباست. دوون اول خامه. من کورنوالی‌ام! دینگ! آماده شدن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "golden",
+      "tall",
+      "well"
+     ],
+     "suggestion": "They're golden and tall! Well done, Nicola!",
+     "suggestionFa": "طلایی و بلند شدن! آفرین نیکولا!",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "hot"
+     ],
+     "suggestion": "Careful! They're very hot.",
+     "suggestionFa": "مواظب باش! خیلی داغن.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "golden",
+     "fa": "طلایی"
+    },
+    {
+     "word": "tall",
+     "fa": "بلند"
+    },
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "nicola",
+   "text": "The star one is for you. Jam first! Then you're on my team.",
+   "translations": {
+    "fa": "ستاره‌ای مال توئه. اول مربا! اون‌وقت تو تیم منی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,407 @@
+{
+ "id": "l2_u53_4",
+ "characterId": "sian",
+ "title": "Paying a friend back",
+ "titleFa": "پس دادن پول دوست",
+ "setting": "Paying for things · Level 2",
+ "settingFa": "پرداخت کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "Hello! What can I do for you today?",
+   "translations": {
+    "fa": "سلام! امروز چه کاری می‌تونم براتون بکنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "sixty",
+      "send",
+      "owe"
+     ],
+     "suggestion": "I owe my friend sixty pounds. How do I send it?",
+     "suggestionFa": "شصت پوند به دوستم بدهکارم. چطوری بفرستمش؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "transfer",
+      "back",
+      "like",
+      "bank"
+     ],
+     "suggestion": "I'd like to pay a friend back by bank transfer.",
+     "suggestionFa": "می‌خوام پول یه دوست را با انتقال بانکی پس بدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "owe",
+     "fa": "بدهکار بودن"
+    },
+    {
+     "word": "send",
+     "fa": "فرستادن"
+    },
+    {
+     "word": "pay back",
+     "fa": "پس دادن"
+    },
+    {
+     "word": "bank transfer",
+     "fa": "انتقال بانکی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Easy. You can do it in the app — no need to come in! But let's do it together. Who's the friend?",
+   "translations": {
+    "fa": "آسونه. می‌تونید تو اپ انجامش بدید — لازم نیست بیاید بانک! ولی بیاید با هم انجامش بدیم. دوستتون کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "concert",
+      "ticket",
+      "from",
+      "paid"
+     ],
+     "suggestion": "Callum from the café. He paid for my concert ticket.",
+     "suggestionFa": "کالوم از کافه. پول بلیت کنسرتم را داد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "barista",
+      "called",
+      "friend",
+      "he's"
+     ],
+     "suggestion": "A friend called Callum. He's a barista.",
+     "suggestionFa": "یه دوست به اسم کالوم. باریستاست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no need",
+     "fa": "لازم نیست"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "concert",
+     "fa": "کنسرت"
+    },
+    {
+     "word": "ticket",
+     "fa": "بلیت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i owe to him sixty pounds",
+      "i owe sixty pounds for him"
+     ],
+     "echo": "You owe him sixty? Let's pay him!",
+     "better": "I owe him sixty pounds.",
+     "betterFa": "به او شصت پوند بدهکارم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "Lovely. What are his bank details? You need his name, sort code and account number.",
+   "translations": {
+    "fa": "عالی. مشخصات حسابش چیه؟ اسمش، کد شعبه و شماره حسابش را لازم دارید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "texted",
+      "he"
+     ],
+     "suggestion": "He texted me. Sort code 20-45-77.",
+     "suggestionFa": "پیام داده. کد شعبه ۲۰-۴۵-۷۷.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's a sort code?",
+     "suggestionFa": "کد شعبه چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bank details",
+     "fa": "مشخصات حساب بانکی"
+    },
+    {
+     "word": "sort code",
+     "fa": "کد شعبه"
+    },
+    {
+     "word": "account number",
+     "fa": "شماره حساب"
+    },
+    {
+     "word": "texted",
+     "fa": "پیامک داد"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK bank transfers use a six-digit sort code and an eight-digit account number. Most transfers between UK banks arrive within minutes.",
+    "fa": "انتقال بانکی در بریتانیا با کد شعبهٔ شش‌رقمی و شماره حساب هشت‌رقمی انجام می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "Six numbers for the bank, eight for his account. Type them here. Now the name. The app checks it matches. That stops scams.",
+   "translations": {
+    "fa": "شش رقم برای بانک، هشت رقم برای حسابش. اینجا تایپشون کنید. حالا اسم. اپ چک می‌کنه که مطابقت داشته باشه. جلوی کلاهبرداری را می‌گیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "matches",
+      "name",
+      "good"
+     ],
+     "suggestion": "It says, \"Name matches\". Good!",
+     "suggestionFa": "میگه «نام مطابقت دارد». خوبه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "callum",
+      "byrne",
+      "match",
+      "close"
+     ],
+     "suggestion": "It says, \"Close match: Callum J Byrne\".",
+     "suggestionFa": "میگه «تطابق نزدیک: کالوم جی برن».",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "type",
+     "fa": "تایپ کردن"
+    },
+    {
+     "word": "matches",
+     "fa": "مطابقت دارد"
+    },
+    {
+     "word": "mistakes",
+     "fa": "اشتباه‌ها"
+    },
+    {
+     "word": "scams",
+     "fa": "کلاهبرداری‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Confirmation of Payee\" checks the name matches the account. If it says \"no match\", stop and check — it could be a scam.",
+    "fa": "«Confirmation of Payee» بررسی می‌کند نام با حساب مطابقت دارد؛ اگر نداشت، دست نگه دارید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "Perfect. Now the reference — that's a short note he'll see. Something like \"Concert ticket\". Then sixty pounds.",
+   "translations": {
+    "fa": "عالی. حالا شرح — یه یادداشت کوتاه که اون می‌بینه. یه چیزی مثل «بلیت کنسرت». بعد شصت پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "concert",
+      "thanks",
+      "ticket"
+     ],
+     "suggestion": "Reference: \"Concert ticket — thanks!\"",
+     "suggestionFa": "شرح: «بلیت کنسرت — مرسی!»",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "joke",
+      "can"
+     ],
+     "suggestion": "Can I write a joke in the reference?",
+     "suggestionFa": "می‌تونم تو شرح یه شوخی بنویسم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reference",
+     "fa": "شرح پرداخت ؛ مرجع"
+    },
+    {
+     "word": "note",
+     "fa": "یادداشت"
+    },
+    {
+     "word": "joke",
+     "fa": "شوخی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "Ha! Many people do. \"Pizza debt\", \"Sorry it's late\". Just keep it friendly. Now press \"Send\". Then confirm with your fingerprint.",
+   "translations": {
+    "fa": "ها! خیلی‌ها این کار را می‌کنن. «بدهی پیتزا»، «ببخشید دیر شد». فقط دوستانه نگهش دارید. حالا «ارسال» را بزنید. بعد با اثر انگشت تأیید کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arrived",
+      "sent",
+      "has"
+     ],
+     "suggestion": "Sent! Has it arrived?",
+     "suggestionFa": "فرستاده شد! رسید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "long",
+      "done",
+      "take",
+      "how"
+     ],
+     "suggestion": "Done. How long does it take?",
+     "suggestionFa": "تموم شد. چقدر طول می‌کشه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "debt",
+     "fa": "بدهی"
+    },
+    {
+     "word": "friendly",
+     "fa": "دوستانه"
+    },
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "confirm",
+     "fa": "تأیید کردن"
+    },
+    {
+     "word": "arrived",
+     "fa": "رسید"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sian",
+   "text": "Usually seconds. Ask him! Oh — your phone's buzzing already.",
+   "translations": {
+    "fa": "معمولاً چند ثانیه. ازش بپرسید! اوه — گوشیتون همین الان داره ویبره می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "legend",
+      "cheers",
+      "callum",
+      "got"
+     ],
+     "suggestion": "It's Callum: \"Got it, legend! Cheers!\"",
+     "suggestionFa": "کالومه: «رسید، عالی هستی! مرسی!»",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "fast",
+      "says",
+      "was"
+     ],
+     "suggestion": "He says thanks. That was so fast!",
+     "suggestionFa": "میگه مرسی. خیلی سریع بود!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seconds",
+     "fa": "ثانیه‌ها"
+    },
+    {
+     "word": "buzzing",
+     "fa": "ویبره زدن"
+    },
+    {
+     "word": "legend",
+     "fa": "اسطوره ؛ عالی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sian",
+   "text": "There you go. Paying people back fast keeps friendships happy. Now you're a bank transfer expert. Anything else today?",
+   "translations": {
+    "fa": "بفرمایید. زود پس دادن پول دوستی‌ها را شاد نگه می‌داره. حالا متخصص انتقال بانکی هستید. امروز کار دیگه‌ای هست؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

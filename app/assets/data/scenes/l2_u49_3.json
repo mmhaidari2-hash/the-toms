@@ -1,0 +1,486 @@
+{
+ "id": "l2_u49_3",
+ "characterId": "ryan",
+ "title": "Making a curry",
+ "titleFa": "درست کردن کاری",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum and Dad are out tonight. I said I'd cook. Chicken curry. From a YouTube video. Can you help? I've never made one.",
+   "translations": {
+    "fa": "مامان و بابا امشب بیرونن. گفتم من آشپزی می‌کنم. کاری مرغ. از یه ویدیوی یوتیوب. کمکم می‌کنی؟ تا حالا درست نکردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "recipe",
+      "love",
+      "sure"
+     ],
+     "suggestion": "Sure. I love cooking. Where's the recipe?",
+     "suggestionFa": "حتماً. عاشق آشپزی‌ام. دستورش کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "need",
+      "see"
+     ],
+     "suggestion": "You? Cooking? This I need to see!",
+     "suggestionFa": "تو؟ آشپزی؟ این را باید ببینم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "out",
+     "fa": "بیرون"
+    },
+    {
+     "word": "tonight",
+     "fa": "امشب"
+    },
+    {
+     "word": "curry",
+     "fa": "کاری"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    },
+    {
+     "word": "recipe",
+     "fa": "دستور پخت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Oi! I can cook. Toast. Pot Noodles. OK, step one: chop two onions. My eyes are already crying.",
+   "translations": {
+    "fa": "هی! من آشپزی بلدم. نون تست. نودل لیوانی. باشه، مرحلهٔ یک: دو تا پیاز خرد کن. چشمام از همین الان داره گریه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "onions",
+      "used",
+      "chop",
+      "i'll"
+     ],
+     "suggestion": "I'll chop the onions. I'm used to it.",
+     "suggestionFa": "من پیازها را خرد می‌کنم. عادت دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fridge",
+      "first",
+      "onion",
+      "helps"
+     ],
+     "suggestion": "Put the onion in the fridge first. It helps!",
+     "suggestionFa": "اول پیاز را بذار تو یخچال. کمک می‌کنه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oi",
+     "fa": "هی"
+    },
+    {
+     "word": "toast",
+     "fa": "نان تست"
+    },
+    {
+     "word": "step",
+     "fa": "مرحله"
+    },
+    {
+     "word": "chop",
+     "fa": "خرد کردن"
+    },
+    {
+     "word": "onions",
+     "fa": "پیازها"
+    },
+    {
+     "word": "used to it",
+     "fa": "به آن عادت دارم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Curry is one of the most popular foods in Britain. Chicken tikka masala is often called a \"national dish\".",
+    "fa": "کاری یکی از محبوب‌ترین غذاهای بریتانیاست؛ «چیکن تیکا ماسالا» را غذای ملی می‌دانند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Lifesaver. Next: fry the onions in oil until they're soft and golden. About ten minutes. Low heat.",
+   "translations": {
+    "fa": "نجات‌دهنده‌ای. بعدی: پیازها را تو روغن سرخ کن تا نرم و طلایی بشن. حدود ده دقیقه. حرارت کم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stirring",
+      "golden",
+      "brown",
+      "until"
+     ],
+     "suggestion": "Until golden. Not brown! Keep stirring.",
+     "suggestionFa": "تا طلایی. نه قهوه‌ای! هم بزن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "heat",
+      "long",
+      "ten"
+     ],
+     "suggestion": "Low heat. Is ten minutes too long?",
+     "suggestionFa": "حرارت کم. ده دقیقه زیاد نیست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fry",
+     "fa": "سرخ کردن"
+    },
+    {
+     "word": "soft",
+     "fa": "نرم"
+    },
+    {
+     "word": "golden",
+     "fa": "طلایی"
+    },
+    {
+     "word": "low heat",
+     "fa": "حرارت کم"
+    },
+    {
+     "word": "stirring",
+     "fa": "هم زدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "fry onions until they are golden colour",
+      "fry until golden them"
+     ],
+     "echo": "Fry until golden? Perfect!",
+     "better": "Fry the onions until they're golden.",
+     "betterFa": "پیازها را سرخ کن تا طلایی شوند."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "The video says ten. Now garlic and ginger. Then the spices: cumin, turmeric, garam masala. Then the chicken.",
+   "translations": {
+    "fa": "ویدیو میگه ده. حالا سیر و زنجبیل. بعد ادویه‌ها: زیره، زردچوبه، گرم ماسالا. بعد مرغ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turmeric",
+      "iran",
+      "use",
+      "lot"
+     ],
+     "suggestion": "We use turmeric in Iran too! A lot!",
+     "suggestionFa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chilli",
+      "spicy",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much chilli? How spicy is it?",
+     "suggestionFa": "چقدر فلفل؟ چقدر تنده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "garlic",
+     "fa": "سیر"
+    },
+    {
+     "word": "ginger",
+     "fa": "زنجبیل"
+    },
+    {
+     "word": "spices",
+     "fa": "ادویه‌ها"
+    },
+    {
+     "word": "cumin",
+     "fa": "زیره"
+    },
+    {
+     "word": "turmeric",
+     "fa": "زردچوبه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Chilli — \"one to three teaspoons\". I'll do three. Go big or go home!",
+   "translations": {
+    "fa": "فلفل — «یک تا سه قاشق چای‌خوری». من سه تا می‌ریزم. یا همه یا هیچ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "nicola",
+      "eating",
+      "three"
+     ],
+     "suggestion": "Three? William and Nicola are eating too!",
+     "suggestionFa": "سه تا؟ ویلیام و نیکولا هم می‌خورن!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "start",
+      "later",
+      "more",
+      "one"
+     ],
+     "suggestion": "Start with one. You can add more later.",
+     "suggestionFa": "با یکی شروع کن. بعداً می‌تونی بیشتر اضافه کنی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chilli",
+     "fa": "فلفل تند"
+    },
+    {
+     "word": "teaspoons",
+     "fa": "قاشق چای‌خوری"
+    },
+    {
+     "word": "go big or go home",
+     "fa": "یا همه یا هیچ"
+    },
+    {
+     "word": "later",
+     "fa": "بعداً"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Oh yeah. The kids. Nicola cried at a mild salsa once. OK — one teaspoon. Add a pinch of salt. Then tomatoes and coconut milk.",
+   "translations": {
+    "fa": "اوه آره. بچه‌ها. نیکولا یه بار سر یه سالسای ملایم گریه کرد. باشه — یه قاشق. یه ذره نمک اضافه کن. بعد گوجه و شیر نارگیل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "already",
+      "amazing",
+      "smells"
+     ],
+     "suggestion": "It smells amazing already.",
+     "suggestionFa": "از همین الان بوی معرکه‌ای میده.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coconut",
+      "creamy",
+      "makes",
+      "good"
+     ],
+     "suggestion": "Coconut milk makes it creamy. Good idea.",
+     "suggestionFa": "شیر نارگیل خامه‌ایش می‌کنه. فکر خوبیه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mild",
+     "fa": "ملایم"
+    },
+    {
+     "word": "pinch",
+     "fa": "یک ذره"
+    },
+    {
+     "word": "salt",
+     "fa": "نمک"
+    },
+    {
+     "word": "coconut milk",
+     "fa": "شیر نارگیل"
+    },
+    {
+     "word": "creamy",
+     "fa": "خامه‌ای"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Twenty minutes simmering. Then rice. Taste it — be honest. Does it need anything?",
+   "translations": {
+    "fa": "بیست دقیقه آروم بجوشه. بعد برنج. بچشش — صادق باش. چیزی کم داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lemon",
+      "needs",
+      "salt",
+      "more"
+     ],
+     "suggestion": "It needs a bit more salt. And lemon!",
+     "suggestionFa": "یه کم نمک بیشتر می‌خواد. و لیمو!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "delicious",
+      "chef",
+      "ryan"
+     ],
+     "suggestion": "It's delicious! You're a chef, Ryan!",
+     "suggestionFa": "خوشمزه‌ست! تو آشپزی رایان!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "simmering",
+     "fa": "آرام جوشیدن"
+    },
+    {
+     "word": "rice",
+     "fa": "برنج"
+    },
+    {
+     "word": "taste",
+     "fa": "چشیدن"
+    },
+    {
+     "word": "lemon",
+     "fa": "لیمو"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Lemon. Nice. And now — the rice. How do you make rice? The video doesn't say. I usually get the microwave bag.",
+   "translations": {
+    "fa": "لیمو. خوبه. و حالا — برنج. برنج را چطوری درست می‌کنی؟ ویدیو نمیگه. من معمولاً کیسهٔ مایکروویوی می‌گیرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "leave",
+      "rice",
+      "best"
+     ],
+     "suggestion": "Leave the rice to me. Persian rice is the best!",
+     "suggestionFa": "برنج را بسپار به من. برنج ایرانی بهترینه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "show",
+      "wash",
+      "i'll"
+     ],
+     "suggestion": "I'll show you. Wash it first.",
+     "suggestionFa": "نشونت میدم. اول بشورش.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "microwave",
+     "fa": "مایکروویو"
+    },
+    {
+     "word": "leave to me",
+     "fa": "بسپار به من"
+    },
+    {
+     "word": "wash",
+     "fa": "شستن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Persian rice with a crispy bottom? The tah-dig thing? YES. Mum's going to think I'm a genius. Don't tell her you helped.",
+   "translations": {
+    "fa": "برنج ایرانی با ته ترد؟ همون ته‌دیگ؟ آره! مامان فکر می‌کنه من نابغه‌ام. نگی تو کمک کردی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

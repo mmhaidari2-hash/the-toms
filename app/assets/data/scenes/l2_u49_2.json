@@ -1,0 +1,481 @@
+{
+ "id": "l2_u49_2",
+ "characterId": "tom",
+ "title": "A Sunday roast",
+ "titleFa": "کباب یکشنبه",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Sunday! Roast day. The most important meal of the week. Mum and Dad are coming at one. Ready for duty?",
+   "translations": {
+    "fa": "یکشنبه! روز کباب. مهم‌ترین وعدهٔ هفته. مامان و بابا ساعت یک میان. آمادهٔ انجام وظیفه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cooking",
+      "ready",
+      "we"
+     ],
+     "suggestion": "Ready! What are we cooking?",
+     "suggestionFa": "آماده‌ام! چی می‌پزیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "sunday",
+      "roast"
+     ],
+     "suggestion": "What's a Sunday roast?",
+     "suggestionFa": "کباب یکشنبه چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roast",
+     "fa": "کباب (گوشت پختهٔ فر)"
+    },
+    {
+     "word": "meal",
+     "fa": "وعدهٔ غذا"
+    },
+    {
+     "word": "duty",
+     "fa": "وظیفه"
+    },
+    {
+     "word": "cooking",
+     "fa": "پختن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Roast chicken, roast potatoes, carrots, peas, Yorkshire puddings and gravy. The chicken needs to go in the oven now. Two hours.",
+   "translations": {
+    "fa": "مرغ سوخاری، سیب‌زمینی تنوری، هویج، نخودفرنگی، یورکشایر پودینگ و سس گریوی. مرغ باید همین الان بره تو فر. دو ساعت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "hours",
+      "time",
+      "long"
+     ],
+     "suggestion": "Two hours! That's a long time.",
+     "suggestionFa": "دو ساعت! زمان زیادیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yorkshire",
+      "dessert",
+      "pudding",
+      "what's"
+     ],
+     "suggestion": "What's a Yorkshire pudding? A dessert?",
+     "suggestionFa": "یورکشایر پودینگ چیه؟ دسره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "potatoes",
+     "fa": "سیب‌زمینی‌ها"
+    },
+    {
+     "word": "carrots",
+     "fa": "هویج‌ها"
+    },
+    {
+     "word": "Yorkshire pudding",
+     "fa": "یورکشایر پودینگ (خمیر پف‌کرده)"
+    },
+    {
+     "word": "gravy",
+     "fa": "سس گوشت"
+    },
+    {
+     "word": "needs to",
+     "fa": "باید"
+    }
+   ],
+   "cultureNote": {
+    "en": "A Sunday roast is a traditional British lunch: roast meat, roast potatoes, vegetables, gravy, and Yorkshire puddings — often with family.",
+    "fa": "کباب یکشنبه ناهار سنتی بریتانیایی است: گوشت تنوری، سیب‌زمینی، سبزیجات و سس گریوی."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Not a dessert! It's a crispy batter thing. Eggs, flour, milk. Dad's favourite. He eats five. Right — you peel the potatoes.",
+   "translations": {
+    "fa": "دسر نیست! یه چیز خمیری تردیه. تخم‌مرغ، آرد، شیر. مورد علاقهٔ بابام. پنج تا می‌خوره. خب — تو سیب‌زمینی‌ها را پوست بکن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "potatoes",
+      "many",
+      "how",
+      "ok"
+     ],
+     "suggestion": "OK. How many potatoes?",
+     "suggestionFa": "باشه. چند تا سیب‌زمینی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "george",
+      "eats",
+      "five"
+     ],
+     "suggestion": "Five? George eats five!",
+     "suggestionFa": "پنج تا؟ جورج پنج تا می‌خوره!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crispy",
+     "fa": "ترد"
+    },
+    {
+     "word": "batter",
+     "fa": "خمیر آبکی"
+    },
+    {
+     "word": "eggs",
+     "fa": "تخم‌مرغ‌ها"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Three each, plus extra. Fifteen? Then boil them for ten minutes, shake them in the pan — that makes them fluffy — and roast them.",
+   "translations": {
+    "fa": "هر نفر سه تا، به‌اضافهٔ اضافه. پونزده تا؟ بعد ده دقیقه بجوشونشون، تو قابلمه تکونشون بده — این پفکیشون می‌کنه — و بذارشون تو فر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "interesting",
+      "roast",
+      "boil"
+     ],
+     "suggestion": "Boil, shake, roast. Interesting!",
+     "suggestionFa": "بجوشون، تکون بده، فر. جالبه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "them",
+      "why"
+     ],
+     "suggestion": "Why do you shake them?",
+     "suggestionFa": "چرا تکونشون میدی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "each",
+     "fa": "هر کدام"
+    },
+    {
+     "word": "plus",
+     "fa": "به اضافهٔ"
+    },
+    {
+     "word": "boil",
+     "fa": "جوشاندن"
+    },
+    {
+     "word": "shake",
+     "fa": "تکان دادن"
+    },
+    {
+     "word": "fluffy",
+     "fa": "پف‌دار ؛ نرم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "The edges go rough, then crispy in the oil. That's the secret. Nana Maggie taught me. Have you put the carrots on?",
+   "translations": {
+    "fa": "لبه‌ها زبر میشن، بعد تو روغن ترد میشن. راز همینه. نانا مگی یادم داد. هویج‌ها را گذاشتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "them",
+      "now",
+      "yet"
+     ],
+     "suggestion": "Not yet. Shall I put them on now?",
+     "suggestionFa": "هنوز نه. الان بذارم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "boiling",
+      "about",
+      "peas"
+     ],
+     "suggestion": "Yes, they're boiling. What about the peas?",
+     "suggestionFa": "آره، دارن می‌جوشن. نخودفرنگی‌ها چی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "edges",
+     "fa": "لبه‌ها"
+    },
+    {
+     "word": "rough",
+     "fa": "زبر"
+    },
+    {
+     "word": "oil",
+     "fa": "روغن"
+    },
+    {
+     "word": "secret",
+     "fa": "راز"
+    },
+    {
+     "word": "put on",
+     "fa": "گذاشتن (روی گاز)"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "have you put in the carrots on",
+      "did you putted the carrots"
+     ],
+     "echo": "Have you put the carrots on? Good!",
+     "better": "Have you put the carrots on?",
+     "betterFa": "هویج‌ها را گذاشتی؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Peas take three minutes, so last. Keep an eye on the gravy — stir it, or it goes lumpy. Mum always checks for lumps.",
+   "translations": {
+    "fa": "نخودفرنگی سه دقیقه طول می‌کشه، پس آخر. حواست به سس باشه — همش بزن، وگرنه گلوله‌گلوله میشه. مامانم همیشه گلوله‌ها را چک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stirring",
+      "lumps"
+     ],
+     "suggestion": "I'm stirring! No lumps!",
+     "suggestionFa": "دارم هم می‌زنم! بدون گلوله!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strict",
+      "judge",
+      "mum"
+     ],
+     "suggestion": "Your mum is a strict judge!",
+     "suggestionFa": "مامانت داور سخت‌گیریه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last",
+     "fa": "آخر ؛ در پایان"
+    },
+    {
+     "word": "keep an eye on",
+     "fa": "حواست به … باشد"
+    },
+    {
+     "word": "stir",
+     "fa": "هم زدن"
+    },
+    {
+     "word": "lumpy",
+     "fa": "گلوله‌گلوله"
+    },
+    {
+     "word": "strict",
+     "fa": "سخت‌گیر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Strictest in London. Uh-oh — the doorbell. They're early! Is the table laid? Knives, forks, napkins?",
+   "translations": {
+    "fa": "سخت‌گیرترین تو لندن. اوه اوه — زنگ در. زود اومدن! میز چیده شده؟ چاقو، چنگال، دستمال؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knife",
+      "table",
+      "right",
+      "lay"
+     ],
+     "suggestion": "I'll lay the table. Knife on the right?",
+     "suggestionFa": "من میز را می‌چینم. چاقو سمت راست؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cooking",
+      "keep",
+      "door",
+      "open"
+     ],
+     "suggestion": "I'll open the door. You keep cooking!",
+     "suggestionFa": "من در را باز می‌کنم. تو آشپزی کن!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doorbell",
+     "fa": "زنگ در"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "table laid",
+     "fa": "میز چیده شده"
+    },
+    {
+     "word": "knives",
+     "fa": "چاقوها"
+    },
+    {
+     "word": "forks",
+     "fa": "چنگال‌ها"
+    },
+    {
+     "word": "napkins",
+     "fa": "دستمال سفره"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Knife on the right, fork on the left. Yorkshires are rising! Look at them! It's nearly ready. Mum's going to cry.",
+   "translations": {
+    "fa": "چاقو راست، چنگال چپ. یورکشایرها دارن پف می‌کنن! نگاهشون کن! تقریباً آماده‌ست. مامانم گریه‌اش می‌گیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "they",
+      "look",
+      "tom"
+     ],
+     "suggestion": "They look perfect, Tom!",
+     "suggestionFa": "عالی شدن تام!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "should",
+      "down",
+      "tell"
+     ],
+     "suggestion": "Should I tell everyone to sit down?",
+     "suggestionFa": "به همه بگم بشینن؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rising",
+     "fa": "پف کردن ؛ بالا آمدن"
+    },
+    {
+     "word": "nearly ready",
+     "fa": "تقریباً آماده"
+    },
+    {
+     "word": "cry",
+     "fa": "گریه کردن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Yes! Everyone to the table! And Dad — only three Yorkshires today. Doctor's orders. Ha! Look at his face.",
+   "translations": {
+    "fa": "آره! همه سر میز! و بابا — امروز فقط سه تا یورکشایر. دستور دکتر. ها! قیافه‌اش را ببین."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

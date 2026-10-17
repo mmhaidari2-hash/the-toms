@@ -25,7 +25,7 @@
       "clothes",
       "winter",
       "before",
-      "cheap"
+      "let's"
      ],
      "suggestion": "Right, the value-clothes shop. Cheap and cheerful! You need a warm coat before winter. Let's look.",
      "suggestionFa": "خب، فروشگاه لباس ارزون. ارزون و شاد! قبل از زمستون یه کت گرم لازم داری. بیا ببینیم.",
@@ -49,8 +49,8 @@
       "fitting",
       "course",
       "number",
-      "items",
-      "rooms"
+      "rooms",
+      "items"
      ],
      "suggestion": "Of course! The fitting rooms are at the back. You can take six items. They give you a number tag.",
      "suggestionFa": "البته! اتاق‌های پرو ته فروشگاهه. می‌تونی شش تیکه ببری. یه برچسب شماره بهت میدن.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "jumpers",
-      "three",
       "don't",
-      "walk",
-      "wait"
+      "three",
+      "here",
+      "walk"
      ],
      "suggestion": "So you don't walk out with three jumpers on! Go on, try it. I'll wait here. Well? How is it?",
      "suggestionFa": "که با سه تا بلوز تنت بیرون نری! برو، امتحانش کن. همین‌جا منتظرم. خب؟ چطوره؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "medium",
       "that's",
       "bigger",
+      "medium",
       "excuse",
-      "large"
+      "let's"
      ],
      "suggestion": "Let's find a bigger size. That's a medium. You need a large. I'll ask the lady. Excuse me — have you got this in large?",
      "suggestionFa": "بیا سایز بزرگ‌تر پیدا کنیم. اون مدیومه. تو لارج لازم داری. از خانمه می‌پرسم. ببخشید — اینو سایز لارج دارین؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
-      "colour",
       "that's",
       "really",
-      "large"
+      "colour",
+      "green"
      ],
      "suggestion": "She says they've only got large in green. Here. Try this. Oh! That's a good colour on you. It really suits you.",
      "suggestionFa": "میگه لارج فقط سبز دارن. بیا. اینو امتحان کن. اوه! این رنگ بهت میاد. واقعاً بهت میاد.",
@@ -148,9 +148,9 @@
      "keywords": [
       "sideways",
       "bargain",
-      "winter",
-      "pounds",
-      "twenty"
+      "that's",
+      "twenty",
+      "pounds"
      ],
      "suggestion": "Twenty-five pounds! For a winter coat, that's a bargain. Does it have a hood? London rain is sideways.",
      "suggestionFa": "بیست و پنج پوند! برای یه کت زمستونی، مفته. کلاه داره؟ بارون لندن کج می‌باره.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "usually",
+      "william",
       "twenty",
-      "socks",
-      "eaten"
+      "eight",
+      "pairs"
      ],
      "suggestion": "Usually twenty-eight days here. And me? Just socks for William. He's eaten… I mean, lost… four pairs this month.",
      "suggestionFa": "معمولاً اینجا بیست و هشت روز. و من؟ فقط جوراب برای ویلیام. چهار جفت… یعنی، گم کرده… این ماه چهار جفت.",

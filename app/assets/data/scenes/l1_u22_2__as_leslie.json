@@ -22,10 +22,10 @@
     {
      "keywords": [
       "favourite",
-      "autumn",
-      "orange",
       "yellow",
-      "season"
+      "orange",
+      "season",
+      "autumn"
      ],
      "suggestion": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
      "suggestionFa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…",
@@ -48,8 +48,8 @@
      "keywords": [
       "getting",
       "colder",
-      "warm",
       "have",
+      "warm",
       "coat"
      ],
      "suggestion": "It's getting colder now. Have you got a warm coat?",
@@ -73,9 +73,9 @@
      "keywords": [
       "november",
       "clocks",
+      "need",
       "back",
-      "cold",
-      "need"
+      "cold"
      ],
      "suggestion": "You need one! In November it's cold and wet. And the clocks go back.",
      "suggestionFa": "لازمش داری! تو نوامبر سرد و خیسه. و ساعت‌ها عقب کشیده می‌شن.",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "october",
       "o'clock",
+      "october",
       "gloomy",
-      "gets",
+      "dark",
       "back"
      ],
      "suggestion": "One hour back in October. It gets dark at four o'clock! Very gloomy.",
@@ -124,8 +124,8 @@
       "conkers",
       "bonfire",
       "neither",
-      "autumn",
-      "things"
+      "things",
+      "autumn"
      ],
      "suggestion": "Me neither. But autumn has good things too. Bonfire Night, and conkers!",
      "suggestionFa": "منم همین‌طور. ولی پاییز چیزهای خوب هم داره. شب آتش‌بازی، و بلوط هندی!",
@@ -148,9 +148,9 @@
      "keywords": [
       "children",
       "string",
-      "brown",
+      "shiny",
       "these",
-      "shiny"
+      "brown"
      ],
      "suggestion": "Look! These shiny brown nuts. Children play a game with them on a string.",
      "suggestionFa": "ببین! این دونه‌های قهوه‌ای براق. بچه‌ها با نخ باهاشون بازی می‌کنن.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "different",
       "poisonous",
+      "different",
       "chestnuts",
       "they're",
       "can't"
@@ -198,9 +198,9 @@
      "keywords": [
       "christmas",
       "chestnuts",
-      "roasted",
       "conkers",
-      "collect"
+      "collect",
+      "roasted"
      ],
      "suggestion": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",
      "suggestionFa": "شاه‌بلوط برشته تو کریسمس! عالی. بیا یه کم کانکر برای نیکولا جمع کنیم.",

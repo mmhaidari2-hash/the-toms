@@ -1,0 +1,225 @@
+{
+ "id": "l2_u47_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Bigger, faster, quieter",
+ "titleFa": "(در نقش Ryan) بزرگ‌تر، سریع‌تر، آرام‌تر",
+ "setting": "Comparing things · Level 2",
+ "settingFa": "مقایسه کردن",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u47_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "headphones",
+      "birthday",
+      "choose",
+      "eighty",
+      "better"
+     ],
+     "suggestion": "Right. Birthday money: eighty quid. I need new headphones. These two. Help me choose. Which one's better?",
+     "suggestionFa": "خب. پول تولد: هشتاد پوند. هدفون جدید لازم دارم. این دو تا. کمکم کن انتخاب کنم. کدوم بهتره؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What's the difference between them?",
+   "translations": {
+    "fa": "فرقشون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lighter",
+      "they're",
+      "heavier",
+      "battery",
+      "louder"
+     ],
+     "suggestion": "The black ones are louder and the battery lasts longer — thirty hours. But they're heavier. The white ones are lighter.",
+     "suggestionFa": "مشکیه صداش بلندتره و باتریش بیشتر دووم میاره — سی ساعت. ولی سنگین‌ترن. سفیده سبک‌ترن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Lighter is better for your head.",
+   "translations": {
+    "fa": "سبک‌تر برای سرت بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "announcements",
+      "cancelling",
+      "anything",
+      "can't",
+      "noise"
+     ],
+     "suggestion": "True. And the white ones have noise cancelling. On the bus, you can't hear anything. Dad's announcements — gone!",
+     "suggestionFa": "درسته. و سفیده حذف نویز داره. تو اتوبوس هیچی نمی‌شنوی. اعلام‌های بابا — رفت!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Ha! Is noise cancelling more expensive?",
+   "translations": {
+    "fa": "ها! حذف نویز گرون‌تره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quieter",
+      "outside",
+      "seventy",
+      "blocks",
+      "black"
+     ],
+     "suggestion": "It blocks outside noise. Quieter world. Yeah, the white ones are seventy-five. The black are sixty.",
+     "suggestionFa": "صدای بیرون را می‌بنده. دنیای آروم‌تر. آره، سفیده هفتاد و پنجه. مشکیه شصت.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "So the black ones are cheaper.",
+   "translations": {
+    "fa": "پس مشکیه ارزون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reviews",
+      "greggs",
+      "that's",
+      "better",
+      "eight"
+     ],
+     "suggestion": "Five quid. That's one Greggs. Hmm. The reviews say the white ones sound much better. Four point eight stars.",
+     "suggestionFa": "پنج پوند. یعنی یه بار گرگز. هوم. نظرها میگن صدای سفیده خیلی بهتره. چهار و هشت دهم ستاره.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "And the black ones?",
+   "translations": {
+    "fa": "و مشکیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "trying",
+      "black",
+      "can't",
+      "point",
+      "white"
+     ],
+     "suggestion": "Black ones: four point one. Not as good. OK, trying them on… The white ones are so comfy. I can't hear you at all!",
+     "suggestionFa": "مشکیه: چهار و یک دهم. نه به اون خوبی. باشه، دارم امتحانشون می‌کنم… سفیده خیلی راحته. اصلاً صدات را نمی‌شنوم!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "RYAN! Can you hear me now?",
+   "translations": {
+    "fa": "رایان! الان صدام را می‌شنوی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "usually",
+      "better",
+      "right",
+      "sorry",
+      "money"
+     ],
+     "suggestion": "Ha! Sorry. Right — white ones. More money, but much better. The more you pay, the better they are. Usually.",
+     "suggestionFa": "ها! ببخشید. خب — سفیده. پول بیشتر، ولی خیلی بهتر. هر چی بیشتر پول بدی، بهترن. معمولاً.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Not always! But this time, yes.",
+   "translations": {
+    "fa": "نه همیشه! ولی این دفعه آره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheapest",
+      "sausage",
+      "helping",
+      "perfect",
+      "shopper"
+     ],
+     "suggestion": "Sure. Five quid for a sausage roll. Perfect day. Cheers for helping. You're a better shopper than Dad. He'd buy the cheapest.",
+     "suggestionFa": "مطمئن. پنج پوند برای یه سوسیس رول. روز عالی. مرسی که کمک کردی. از بابا خریدار بهتری هستی. اون ارزون‌ترین را می‌خرید.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

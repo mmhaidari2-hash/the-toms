@@ -20,8 +20,8 @@
     {
      "keywords": [
       "don't",
-      "help",
       "know",
+      "help",
       "can"
      ],
      "suggestion": "I don't know. Can you help me?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "trousers",
-      "think",
-      "shirt"
+      "shirt",
+      "think"
      ],
      "suggestion": "A shirt and trousers, I think.",
      "suggestionFa": "فکر کنم یه پیراهن و شلوار.",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "jumper",
-      "blue",
-      "dark"
+      "dark",
+      "blue"
      ],
      "suggestion": "A dark blue jumper?",
      "suggestionFa": "یه ژاکت سورمه‌ای؟",
@@ -275,8 +275,8 @@
    "branches": [
     {
      "keywords": [
-      "black",
       "shoes",
+      "black",
       "i've",
       "got"
      ],
@@ -338,8 +338,8 @@
     {
      "keywords": [
       "yesterday",
-      "cleaned",
       "they're",
+      "cleaned",
       "clean"
      ],
      "suggestion": "They're clean. I cleaned them yesterday.",

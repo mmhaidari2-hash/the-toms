@@ -34,8 +34,8 @@
      "keywords": [
       "never",
       "show",
-      "done",
-      "i've"
+      "i've",
+      "done"
      ],
      "suggestion": "I've never done it in the UK. Show me?",
      "suggestionFa": "تا حالا تو بریتانیا این کار را نکردم. نشونم میدی؟",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "pump",
-      "left"
+      "left",
+      "pump"
      ],
      "suggestion": "Left. So the pump is on the left.",
      "suggestionFa": "چپ. پس پمپ سمت چپه.",
@@ -194,8 +194,8 @@
      "keywords": [
       "hundred",
       "pounds",
-      "four",
-      "ouch"
+      "ouch",
+      "four"
      ],
      "suggestion": "Four hundred pounds? Ouch!",
      "suggestionFa": "چهارصد پوند؟ آخ!",
@@ -248,8 +248,8 @@
      "keywords": [
       "drive",
       "let's",
-      "fill",
-      "long"
+      "long",
+      "fill"
      ],
      "suggestion": "Let's fill it up. It's a long drive.",
      "suggestionFa": "پرش کنیم. راه طولانیه.",
@@ -313,8 +313,8 @@
      "keywords": [
       "fifty",
       "pump",
-      "pay",
-      "two"
+      "can",
+      "pay"
      ],
      "suggestion": "Fifty-two! Can I pay at the pump?",
      "suggestionFa": "پنجاه و دو! می‌تونم کنار پمپ پرداخت کنم؟",
@@ -348,9 +348,9 @@
    "branches": [
     {
      "keywords": [
-      "pump",
       "four",
       "i'll",
+      "pump",
       "pay"
      ],
      "suggestion": "Pump four. I'll go and pay.",
@@ -364,7 +364,7 @@
       "nozzle",
       "first",
       "back",
-      "put"
+      "can"
      ],
      "suggestion": "Can I put the nozzle back first?",
      "suggestionFa": "اول نازل را سر جاش بذارم؟",

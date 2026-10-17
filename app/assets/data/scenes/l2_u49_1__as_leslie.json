@@ -1,0 +1,250 @@
+{
+ "id": "l2_u49_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Leslie's crumble",
+ "titleFa": "(در نقش Leslie) کرامبل لزلی",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u49_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "assistant",
+      "crumble",
+      "recipe",
+      "apple",
+      "apron"
+     ],
+     "suggestion": "Apple crumble time! My mum's recipe. Wash your hands, apron on. You're my assistant chef today.",
+     "suggestionFa": "وقت کرامبل سیبه! دستور پخت مامانم. دستات را بشور، پیش‌بند ببند. امروز دستیار آشپز منی.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, chef! What do I do first?",
+   "translations": {
+    "fa": "چشم سرآشپز! اول چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "britain's",
+      "pudding",
+      "buttery",
+      "crunchy",
+      "pieces"
+     ],
+     "suggestion": "Fruit at the bottom, a crunchy, buttery top. Britain's best pudding. First, peel six apples and cut them into small pieces.",
+     "suggestionFa": "میوه پایین، یه روکش ترد و کره‌ای بالا. بهترین دسر بریتانیا. اول، شش تا سیب را پوست بکن و تیکه‌های کوچیک کن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Peel and cut. How small?",
+   "translations": {
+    "fa": "پوست بکنم و ببرم. چقدر کوچیک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bramleys",
+      "cooking",
+      "perfect",
+      "they're",
+      "cooked"
+     ],
+     "suggestion": "The green ones — Bramleys. They're cooking apples. Very sour, but perfect when they're cooked. About the size of a dice.",
+     "suggestionFa": "سبزها — برملی. سیب پختنی‌ان. خیلی ترشن، ولی پخته عالی‌ان. حدود اندازهٔ تاس.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Done. Now what?",
+   "translations": {
+    "fa": "تموم شد. حالا چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cinnamon",
+      "sprinkle",
+      "crumble",
+      "spoons",
+      "pinch"
+     ],
+     "suggestion": "Yes — put them in the dish and sprinkle two spoons of sugar and a pinch of cinnamon on top. Now the fun bit. The crumble.",
+     "suggestionFa": "آره — بریزشون تو ظرف و دو قاشق شکر و یه ذره دارچین روشون بپاش. حالا قسمت جالب. کرامبل.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A pinch of cinnamon. Like this?",
+   "translations": {
+    "fa": "یه ذره دارچین. اینجوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "butter",
+      "flour",
+      "grams",
+      "sugar"
+     ],
+     "suggestion": "Flour, butter, sugar: 200 grams of flour, 100 of butter, 100 of sugar. Now rub the butter into the flour with your fingers.",
+     "suggestionFa": "آرد، کره، شکر. دویست گرم آرد، صد گرم کره، صد گرم شکر. حالا کره را با انگشتات با آرد مالش بده.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "With my fingers? Not a spoon?",
+   "translations": {
+    "fa": "با انگشتام؟ نه قاشق؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breadcrumbs",
+      "sprinkle",
+      "fingers",
+      "that's",
+      "lovely"
+     ],
+     "suggestion": "Fingers! Until it looks like breadcrumbs. That's it — lovely. Now sprinkle it all on top of the apples. Don't press it down.",
+     "suggestionFa": "انگشت! تا شبیه پودر سوخاری بشه. همینه — عالی. حالا همه‌ش را روی سیب‌ها بپاش. فشارش نده.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It looks like sand on a beach!",
+   "translations": {
+    "fa": "شبیه شن ساحله!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "degrees",
+      "golden",
+      "poetic",
+      "eighty"
+     ],
+     "suggestion": "Sand on a beach! Very poetic. Into the oven — one-eighty degrees, for forty minutes. Until it's golden.",
+     "suggestionFa": "شن ساحل! خیلی شاعرانه. بذارش تو فر — صد و هشتاد درجه، چهل دقیقه. تا طلایی بشه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Forty minutes. What do we eat it with?",
+   "translations": {
+    "fa": "چهل دقیقه. باهاش چی می‌خوریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cinnamon",
+      "england",
+      "custard",
+      "that's",
+      "yellow"
+     ],
+     "suggestion": "Custard! Hot and yellow. Or ice cream. Tom has both. Smell that? Apples and cinnamon. That's autumn in England.",
+     "suggestionFa": "کاستارد! داغ و زرد. یا بستنی. تام هر دو را می‌خوره. بو را حس می‌کنی؟ سیب و دارچین. این پاییز انگلستانه.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "It smells amazing. Can I write the recipe down?",
+   "translations": {
+    "fa": "بوی معرکه‌ای میده. میشه دستورش را بنویسم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hackney",
+      "family",
+      "write",
+      "tell",
+      "from"
+     ],
+     "suggestion": "Write it down, and make it for your mum one day. Tell her it's from a family in Hackney. With love.",
+     "suggestionFa": "بنویسش، و یه روز برای مامانت درستش کن. بهش بگو از یه خانواده تو هکنیه. با عشق.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

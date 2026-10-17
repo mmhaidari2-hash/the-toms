@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "class",
       "space",
+      "class",
       "there"
      ],
      "suggestion": "Is there space in the class?",
@@ -206,8 +206,8 @@
      "keywords": [
       "you'll",
       "there",
-      "fine",
-      "i'll"
+      "i'll",
+      "fine"
      ],
      "suggestion": "You'll be fine, Tom. I'll be there.",
      "suggestionFa": "خوب میشی تام. من اونجام.",
@@ -246,8 +246,8 @@
     {
      "keywords": [
       "brilliant",
-      "snored",
       "that's",
+      "snored",
       "yoga"
      ],
      "suggestion": "You snored in yoga? That's brilliant!",
@@ -258,8 +258,8 @@
     },
     {
      "keywords": [
-      "boxing",
       "rather",
+      "boxing",
       "i'd"
      ],
      "suggestion": "I'd rather do boxing too.",
@@ -351,8 +351,8 @@
    "branches": [
     {
      "keywords": [
-      "class",
       "curry",
+      "class",
       "got"
      ],
      "suggestion": "Got it. No curry before class!",

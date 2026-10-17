@@ -1,0 +1,250 @@
+{
+ "id": "l2_u48_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Couch to 5K",
+ "titleFa": "(در نقش Tom) از مبل تا ۵ کیلومتر",
+ "setting": "Health habits · Level 2",
+ "settingFa": "عادت‌های سلامتی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u48_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kilometres",
+      "corner",
+      "signed",
+      "weeks",
+      "guess"
+     ],
+     "suggestion": "Guess what? I've signed up for Couch to 5K. In nine weeks I'll run five kilometres. Me! I get the bus to the corner shop!",
+     "suggestionFa": "حدس بزن چی؟ برای «از مبل تا ۵ کیلومتر» ثبت‌نام کردم. نه هفته دیگه پنج کیلومتر می‌دوم. من! من که تا سوپری سر کوچه اتوبوس می‌گیرم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Couch to 5K? What's that?",
+   "translations": {
+    "fa": "از مبل تا ۵ کیلومتر؟ چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beginners",
+      "seconds",
+      "starts",
+      "ninety",
+      "minute"
+     ],
+     "suggestion": "It's a free NHS app for beginners. It starts with tiny runs. Week one: run for one minute, walk for ninety seconds. Eight times.",
+     "suggestionFa": "یه اپ رایگان NHS برای مبتدی‌هاست. با دویدن‌های خیلی کوتاه شروع میشه. هفتهٔ اول: یه دقیقه بدو، نود ثانیه راه برو. هشت بار.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "One minute? That sounds easy.",
+   "translations": {
+    "fa": "یه دقیقه؟ آسون به نظر میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thursday",
+      "saturday",
+      "hackney",
+      "tuesday",
+      "marshes"
+     ],
+     "suggestion": "Easy? I nearly died. Yes, come! Run with me on Tuesday, Thursday and Saturday. Hackney Marshes, seven a.m. Before my shift.",
+     "suggestionFa": "آسون؟ نزدیک بود بمیرم. آره، بیا! سه‌شنبه، پنج‌شنبه و شنبه باهام بدو. هکنی مارشز، هفت صبح. قبل از شیفتم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Seven a.m.! OK, I'll be there.",
+   "translations": {
+    "fa": "هفت صبح! باشه، میام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "trainers",
+      "running",
+      "you'll",
+      "proper",
+      "shorts"
+     ],
+     "suggestion": "Trainers, shorts, and a T-shirt you don't love. You'll sweat. Jade says buy proper running shoes. Mine are from 2009.",
+     "suggestionFa": "کتونی، شلوارک و یه تی‌شرتی که دوستش نداری. عرق می‌کنی. جید میگه کفش دویدن درست‌حسابی بخر. مال من مال ۲۰۰۹ـه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "2009! You need new ones.",
+   "translations": {
+    "fa": "۲۰۰۹! کفش جدید لازم داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopping",
+      "getting",
+      "managed",
+      "without",
+      "minutes"
+     ],
+     "suggestion": "Week four update! I'm getting better. Today I managed to run for five minutes. Without stopping!",
+     "suggestionFa": "گزارش هفتهٔ چهارم! دارم بهتر میشم. امروز تونستم پنج دقیقه بدوم. بدون وایسادن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Five minutes without stopping! Amazing!",
+   "translations": {
+    "fa": "پنج دقیقه بدون وایسادن! معرکه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pressure's",
+      "impressed",
+      "trousers",
+      "noticed",
+      "leslie"
+     ],
+     "suggestion": "And the best part — my blood pressure's down! Dr Okafor was impressed. And my trousers are looser. Leslie noticed.",
+     "suggestionFa": "و بهترین قسمت — فشار خونم اومده پایین! دکتر اوکافور تحت تأثیر قرار گرفت. و شلوارم گشادتر شده. لزلی متوجه شد.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That's brilliant news, Tom!",
+   "translations": {
+    "fa": "خبر فوق‌العاده‌ایه تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "parkrun",
+      "hundred",
+      "better",
+      "people"
+     ],
+     "suggestion": "Ha! Much better. Now — week nine. Saturday is Parkrun. Five K, with three hundred people. Are you in?",
+     "suggestionFa": "ها! خیلی بهتر. حالا — هفتهٔ نهم. شنبه پارک‌رانه. پنج کیلومتر، با سیصد نفر. پایه‌ای؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I'm in! What's Parkrun?",
+   "translations": {
+    "fa": "پایه‌ام! پارک‌ران چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "saturday",
+      "family's",
+      "walkers",
+      "welcome"
+     ],
+     "suggestion": "Free 5K, every Saturday at nine, all over the country. Walkers welcome. The family's coming to cheer. Nicola's making a sign!",
+     "suggestionFa": "پنج کیلومتر رایگان، هر شنبه ساعت نه، تو کل کشور. پیاده‌ها هم خوش اومدن. خانواده میان تشویق کنن. نیکولا داره تابلو درست می‌کنه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "What does the sign say?",
+   "translations": {
+    "fa": "رو تابلو چی نوشته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "couldn't",
+      "saturday",
+      "together",
+      "that's",
+      "finish"
+     ],
+     "suggestion": "\"GO DADDY GO. DON'T DIE.\" Ha! That's my girl. Nine weeks ago I couldn't run for a bus. Saturday, we finish. Together.",
+     "suggestionFa": "«برو بابایی برو. نمیری.» ها! دختر خودمه. نه هفته پیش نمی‌تونستم دنبال اتوبوس بدوم. شنبه تمومش می‌کنیم. با هم.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

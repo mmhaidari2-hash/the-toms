@@ -24,8 +24,8 @@
       "nineteen",
       "letters",
       "summer",
-      "these",
-      "wrote"
+      "don't",
+      "these"
      ],
      "suggestion": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
      "suggestionFa": "اینا نامه‌های تامه از وقتی نوزده سالمون بود. یه تابستون هر روز یکی نوشت. بهش نگی نگهشون داشتم!",
@@ -48,9 +48,9 @@
      "keywords": [
       "saturdays",
       "skegness",
-      "driving",
       "holiday",
-      "working"
+      "working",
+      "driving"
      ],
      "suggestion": "I was working at a holiday camp in Skegness. He was stuck in London, driving his dad's bus routes on Saturdays.",
      "suggestionFa": "تو یه اردوگاه تعطیلات تو اسکگنس کار می‌کردم. اون تو لندن گیر بود، شنبه‌ها مسیرهای اتوبوس باباش را می‌روند.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "seafront",
-      "mobiles",
-      "letters",
       "exactly",
+      "letters",
+      "mobiles",
       "enough"
      ],
      "suggestion": "Exactly. No mobiles then — just letters and the phone box on the seafront, if I had enough coins.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "beautiful",
-      "spellings",
       "different",
+      "spellings",
       "spelling",
       "rubbish"
      ],
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "signed",
+      "always",
       "maybe",
-      "than",
-      "love"
+      "more",
+      "than"
      ],
      "suggestion": "Maybe! And he always signed off \"Love you more than tea\".",
      "suggestionFa": "شاید! و همیشه آخرش می‌نوشت «بیشتر از چای دوستت دارم».",
@@ -173,9 +173,9 @@
      "keywords": [
       "anniversary",
       "letters",
-      "thirty",
       "anyone",
-      "years"
+      "thirty",
+      "every"
      ],
      "suggestion": "Every anniversary. Thirty years this June. Do you write letters to anyone back home?",
      "suggestionFa": "هر سالگرد. این ژوئن سی سال میشه. به کسی تو کشورت نامه می‌نویسی؟",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "letters",
       "suppose",
+      "letters",
       "you'll",
       "notes",
       "voice"
@@ -221,9 +221,9 @@
    "branches": [
     {
      "keywords": [
-      "cuppa",
-      "attic",
       "right",
+      "attic",
+      "cuppa",
       "fancy",
       "back"
      ],

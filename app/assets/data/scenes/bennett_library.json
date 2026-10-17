@@ -21,8 +21,8 @@
      "keywords": [
       "library",
       "please",
-      "join",
-      "like"
+      "like",
+      "join"
      ],
      "suggestion": "I'd like to join the library, please.",
      "suggestionFa": "می‌خوام عضو کتابخونه بشم، لطفاً.",
@@ -76,8 +76,8 @@
      "keywords": [
       "haven't",
       "bring",
-      "next",
-      "time"
+      "time",
+      "next"
      ],
      "suggestion": "I haven't got one with me. Can I bring it next time?",
      "suggestionFa": "همراهم نیست. می‌تونم دفعهٔ بعد بیارمش؟",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "grandmother",
-      "loved",
-      "hafez"
+      "hafez",
+      "loved"
      ],
      "suggestion": "Hafez! My grandmother loved Hafez.",
      "suggestionFa": "حافظ! مادربزرگم عاشق حافظ بود.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "wonderful",
-      "that's",
       "expect",
+      "that's",
       "didn't"
      ],
      "suggestion": "That's wonderful. I didn't expect that.",
@@ -317,10 +317,10 @@
    "branches": [
     {
      "keywords": [
+      "time",
       "free",
       "come",
-      "love",
-      "time"
+      "love"
      ],
      "suggestion": "Free? I'd love to come. What time?",
      "suggestionFa": "رایگان؟ دوست دارم بیام. ساعت چند؟",

@@ -24,8 +24,8 @@
       "address",
       "letter",
       "proof",
-      "bill",
-      "bank"
+      "have",
+      "bill"
      ],
      "suggestion": "Proof of address. Hmm. Have you got a bank letter, or a gas bill?",
      "suggestionFa": "مدرک آدرس. هوم. نامهٔ بانک داری، یا قبض گاز؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -106,8 +106,8 @@
       "contract",
       "signed",
       "moved",
-      "door",
-      "room"
+      "room",
+      "next"
      ],
      "suggestion": "It's the contract for your room. You signed it when you moved in next door.",
      "suggestionFa": "قرارداد اتاقته. وقتی اومدی خونهٔ بغلی امضاش کردی.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

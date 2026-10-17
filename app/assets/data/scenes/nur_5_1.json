@@ -149,8 +149,8 @@
     {
      "keywords": [
       "collecting",
-      "grandma",
       "oscar's",
+      "grandma",
       "today"
      ],
      "suggestion": "Oscar's grandma is collecting him today.",
@@ -182,9 +182,9 @@
     {
      "keywords": [
       "checks",
-      "after",
+      "lunch",
       "sleep",
-      "lunch"
+      "after"
      ],
      "suggestion": "I'll do the sleep checks after lunch.",
      "suggestionFa": "من بعد از ناهار بررسی خواب را انجام میدم.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "messy",
-      "play",
       "tray",
+      "play",
       "set"
      ],
      "suggestion": "I'll set up the messy play tray.",
@@ -233,8 +233,8 @@
      "keywords": [
       "adults",
       "extra",
-      "trip",
-      "need"
+      "need",
+      "trip"
      ],
      "suggestion": "Do we need extra adults for the trip?",
      "suggestionFa": "برای گردش بزرگسال اضافه لازم داریم؟",
@@ -284,5 +284,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

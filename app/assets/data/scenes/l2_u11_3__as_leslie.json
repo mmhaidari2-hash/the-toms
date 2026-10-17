@@ -49,8 +49,8 @@
       "potatoes",
       "carrots",
       "minced",
-      "mashed",
-      "onions"
+      "onions",
+      "mashed"
      ],
      "suggestion": "Minced lamb, onions, carrots, gravy — and mashed potato on top. First, can you peel the potatoes?",
      "suggestionFa": "گوشت چرخ‌کردهٔ بره، پیاز، هویج، سس — و پوره سیب‌زمینی روش. اول، می‌تونی سیب‌زمینی‌ها را پوست بکنی؟",
@@ -74,8 +74,8 @@
       "quarters",
       "minutes",
       "twenty",
-      "them",
-      "ones"
+      "then",
+      "them"
      ],
      "suggestion": "Six big ones. Then cut them into quarters and boil them for twenty minutes.",
      "suggestionFa": "شش تا بزرگ. بعد چهار قسمتشون کن و بیست دقیقه بجوشونشون.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "onion",
-      "pinch",
       "don't",
-      "salt",
-      "next"
+      "pinch",
+      "next",
+      "salt"
      ],
      "suggestion": "Yes, a pinch of salt. Next, chop the onion. Don't cry!",
      "suggestionFa": "آره، یه ذره نمک. بعدش، پیاز را خرد کن. گریه نکن!",
@@ -125,7 +125,7 @@
       "carrots",
       "onion",
       "mince",
-      "keep"
+      "then"
      ],
      "suggestion": "Ha! Now fry the onion and carrots, then add the mince. Keep stirring.",
      "suggestionFa": "ها! حالا پیاز و هویج را سرخ کن، بعد گوشت را اضافه کن. هم بزن.",
@@ -148,9 +148,9 @@
      "keywords": [
       "worcestershire",
       "splash",
-      "brown",
-      "sauce",
-      "gravy"
+      "until",
+      "gravy",
+      "sauce"
      ],
      "suggestion": "Until it's brown. After that, add gravy and a splash of Worcestershire sauce. Can you say \"Worcestershire\"?",
      "suggestionFa": "تا قهوه‌ای بشه. بعد از اون، سس و یه کم سس ورسسترشر اضافه کن. می‌تونی بگی «ورسسترشر»؟",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "potatoes",
-      "butter",
       "nearly",
-      "mash",
+      "butter",
+      "milk",
       "sher"
      ],
      "suggestion": "Nearly! It's \"Wuss-ter-sher\". Now mash the potatoes with butter and milk.",
@@ -198,9 +198,9 @@
      "keywords": [
       "spread",
       "lines",
-      "fork",
-      "mash",
-      "half"
+      "lots",
+      "half",
+      "fork"
      ],
      "suggestion": "Lots! Spread the mash on top, use a fork to make lines, and put it in the oven for half an hour.",
      "suggestionFa": "زیاد! پوره را روش پخش کن، با چنگال خط بنداز، و نیم ساعت بذارش تو فر.",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "jealous",
-      "degrees",
-      "hundred",
       "natural",
-      "crispy"
+      "hundred",
+      "degrees",
+      "that's"
      ],
      "suggestion": "Two hundred degrees. And the lines make it crispy on top — that's the best bit! You're a natural. Tom will be so jealous.",
      "suggestionFa": "دویست درجه. و خط‌ها روش را ترد می‌کنن — بهترین قسمتشه! استعداد داری. تام خیلی حسودیش میشه.",

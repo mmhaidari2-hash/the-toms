@@ -1,0 +1,358 @@
+{
+ "id": "l2_u47_3",
+ "characterId": "callum",
+ "title": "The best café in town",
+ "titleFa": "بهترین کافه شهر",
+ "setting": "Comparing things · Level 2",
+ "settingFa": "مقایسه کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Here — fill in this card for the \"Hackney Café Awards\". Best coffee, friendliest staff, cosiest café. Vote for us, yeah?",
+   "translations": {
+    "fa": "بیا — این کارت را برای «جوایز کافه‌های هکنی» پر کن. بهترین قهوه، خوش‌برخوردترین کارکنان، دنج‌ترین کافه. به ما رأی بده، باشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hackney",
+      "course",
+      "coffee",
+      "best"
+     ],
+     "suggestion": "Of course! You make the best coffee in Hackney.",
+     "suggestionFa": "البته! تو بهترین قهوهٔ هکنی را درست می‌کنی.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cosiest",
+      "what's"
+     ],
+     "suggestion": "What's \"cosiest\"?",
+     "suggestionFa": "«کوزیست» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "awards",
+     "fa": "جوایز"
+    },
+    {
+     "word": "best",
+     "fa": "بهترین"
+    },
+    {
+     "word": "friendliest",
+     "fa": "خوش‌برخوردترین"
+    },
+    {
+     "word": "cosiest",
+     "fa": "دنج‌ترین"
+    },
+    {
+     "word": "vote",
+     "fa": "رأی دادن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Cosy means warm, comfy, a nice place to sit. Cosiest — the most cosy. Go on, be honest. Is ours the cosiest?",
+   "translations": {
+    "fa": "«کوزی» یعنی گرم، راحت، یه جای خوب برای نشستن. «کوزیست» — دنج‌ترین. یالا، صادق باش. مال ما دنج‌ترینه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "library",
+      "cosier",
+      "cosy",
+      "but"
+     ],
+     "suggestion": "It's very cosy. But the library café is cosier.",
+     "suggestionFa": "خیلی دنجه. ولی کافهٔ کتابخونه دنج‌تره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "comfortable",
+      "sofas",
+      "most"
+     ],
+     "suggestion": "Yes! Your sofas are the most comfortable.",
+     "suggestionFa": "آره! مبل‌های شما راحت‌ترینن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cosy",
+     "fa": "دنج ؛ گرم و راحت"
+    },
+    {
+     "word": "most comfortable",
+     "fa": "راحت‌ترین"
+    },
+    {
+     "word": "cosier",
+     "fa": "دنج‌تر"
+    },
+    {
+     "word": "sofas",
+     "fa": "مبل‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Superlatives: short adjectives add -est (cosy → the cosiest). Long ones use \"the most\" (comfortable → the most comfortable). good → the best.",
+    "fa": "صفت عالی: -est برای صفت‌های کوتاه و the most برای بلندها؛ good → the best."
+   },
+   "recasts": [
+    {
+     "match": [
+      "the most cosy",
+      "the more cosiest"
+     ],
+     "echo": "The cosiest? Thank you!",
+     "better": "It's the cosiest café in Hackney.",
+     "betterFa": "دنج‌ترین کافهٔ هکنی است."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "The library? Ouch! Fair enough — they've got a fireplace. What about the coffee? Best in town?",
+   "translations": {
+    "fa": "کتابخونه؟ آخ! منصفانه‌ست — شومینه دارن. قهوه چی؟ بهترین شهر؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "nicest",
+      "white",
+      "ever"
+     ],
+     "suggestion": "Definitely the best. The nicest flat white I've ever had.",
+     "suggestionFa": "قطعاً بهترین. بهترین فلت وایتی که تا حالا خوردم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mario's",
+      "good",
+      "one",
+      "caf"
+     ],
+     "suggestion": "One of the best. Mario's café is good too.",
+     "suggestionFa": "یکی از بهترین‌ها. کافهٔ ماریو هم خوبه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ouch",
+     "fa": "آخ"
+    },
+    {
+     "word": "fair enough",
+     "fa": "منصفانه است"
+    },
+    {
+     "word": "fireplace",
+     "fa": "شومینه"
+    },
+    {
+     "word": "ever",
+     "fa": "تا حالا"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "\"The nicest I've ever had\"! Can I put that on the board outside? Mario's? Don't. His coffee's the bitterest in London.",
+   "translations": {
+    "fa": "«بهترینی که تا حالا خوردم»! میشه اینو رو تابلوی بیرون بنویسم؟ ماریو؟ نکن. قهوه‌اش تلخ‌ترین قهوهٔ لندنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mario",
+      "rival",
+      "ha"
+     ],
+     "suggestion": "Ha! Is Mario your rival?",
+     "suggestionFa": "ها! ماریو رقیبته؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheapest",
+      "cake",
+      "but",
+      "his"
+     ],
+     "suggestion": "But his cake is the cheapest.",
+     "suggestionFa": "ولی کیکش ارزون‌ترینه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "board",
+     "fa": "تابلو"
+    },
+    {
+     "word": "bitterest",
+     "fa": "تلخ‌ترین"
+    },
+    {
+     "word": "rival",
+     "fa": "رقیب"
+    },
+    {
+     "word": "cheapest",
+     "fa": "ارزان‌ترین"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "My biggest rival. We play five-a-side football on Sundays. He's the worst goalkeeper in Hackney. Next category: friendliest staff?",
+   "translations": {
+    "fa": "بزرگ‌ترین رقیبم. یکشنبه‌ها فوتبال پنج‌نفره بازی می‌کنیم. بدترین دروازه‌بان هکنیه. دستهٔ بعدی: خوش‌برخوردترین کارکنان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barista",
+      "know"
+     ],
+     "suggestion": "You're the friendliest barista I know.",
+     "suggestionFa": "تو خوش‌برخوردترین باریستایی هستی که می‌شناسم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "always",
+      "order"
+     ],
+     "suggestion": "The friendliest? You always remember my order.",
+     "suggestionFa": "خوش‌برخوردترین؟ همیشه سفارشم یادته.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "biggest",
+     "fa": "بزرگ‌ترین"
+    },
+    {
+     "word": "five-a-side",
+     "fa": "فوتبال پنج‌نفره"
+    },
+    {
+     "word": "worst",
+     "fa": "بدترین"
+    },
+    {
+     "word": "goalkeeper",
+     "fa": "دروازه‌بان"
+    },
+    {
+     "word": "category",
+     "fa": "دسته"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "Aw, cheers. Flat white, extra hot, no sugar. Every day. And the last question: \"What's the most important thing in a café?\"",
+   "translations": {
+    "fa": "آخی، مرسی. فلت وایت، خیلی داغ، بدون شکر. هر روز. و سؤال آخر: «مهم‌ترین چیز تو یه کافه چیه؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "important",
+      "people",
+      "thing",
+      "most"
+     ],
+     "suggestion": "The most important thing is the people.",
+     "suggestionFa": "مهم‌ترین چیز آدم‌هاشن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "coffee",
+      "good"
+     ],
+     "suggestion": "Good coffee, of course!",
+     "suggestionFa": "قهوهٔ خوب، معلومه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "remember",
+     "fa": "یادت می‌ماند"
+    },
+    {
+     "word": "most important",
+     "fa": "مهم‌ترین"
+    },
+    {
+     "word": "people",
+     "fa": "آدم‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "The people. That's the nicest answer yet. You've just won a free brownie. Don't tell Mario.",
+   "translations": {
+    "fa": "آدم‌ها. قشنگ‌ترین جواب تا الان. یه براونی مجانی بردی. به ماریو نگو."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

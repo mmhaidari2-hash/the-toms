@@ -32,9 +32,9 @@
     {
      "keywords": [
       "stick",
-      "sign",
       "stop",
-      "says"
+      "says",
+      "sign"
      ],
      "suggestion": "Her stick says \"STOP\". It's a sign!",
      "suggestionFa": "رو چوبش نوشته «ایست». تابلوئه!",
@@ -126,9 +126,9 @@
    "branches": [
     {
      "keywords": [
-      "kerb",
       "girl",
-      "good"
+      "good",
+      "kerb"
      ],
      "suggestion": "Wait at the kerb. Good girl.",
      "suggestionFa": "لب جدول وایسا. آفرین دختر خوب.",
@@ -190,10 +190,10 @@
    "branches": [
     {
      "keywords": [
-      "cross",
       "right",
-      "safe",
-      "left"
+      "cross",
+      "left",
+      "safe"
      ],
      "suggestion": "Left, right, left. Is it safe to cross now?",
      "suggestionFa": "چپ، راست، چپ. الان رد شدن امنه؟",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "other",
-      "cars",
       "side",
-      "come"
+      "come",
+      "cars"
      ],
      "suggestion": "In Iran, the cars come from the other side!",
      "suggestionFa": "تو ایران، ماشین‌ها از اون طرف میان!",
@@ -299,9 +299,9 @@
     {
      "keywords": [
       "morning",
-      "nice",
       "meet",
-      "good"
+      "good",
+      "nice"
      ],
      "suggestion": "Good morning, Mrs Bell. Nice to meet you.",
      "suggestionFa": "صبح بخیر خانم بل. از آشنایی‌تون خوشبختم.",
@@ -346,9 +346,9 @@
     {
      "keywords": [
       "sticker",
-      "give",
       "star",
-      "did"
+      "give",
+      "why"
      ],
      "suggestion": "A star sticker! Why did she give you that?",
      "suggestionFa": "برچسب ستاره! چرا بهت داد؟",
@@ -408,9 +408,9 @@
     {
      "keywords": [
       "sticker",
-      "nicely",
       "waited",
-      "get"
+      "nicely",
+      "can"
      ],
      "suggestion": "Can I get a sticker too? I waited nicely!",
      "suggestionFa": "منم برچسب می‌گیرم؟ خوب صبر کردم!",

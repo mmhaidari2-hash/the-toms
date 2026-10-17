@@ -22,10 +22,10 @@
     {
      "keywords": [
       "finished",
+      "lunch",
       "clear",
-      "table",
       "mummy",
-      "lunch"
+      "table"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
      "suggestionFa": "ناهار تموم شد! مامان می‌گه باید میز را جمع کنیم. کمکم می‌کنی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "plates",
       "first",
-      "them",
+      "sink",
       "next",
-      "sink"
+      "them"
      ],
      "suggestion": "First, the plates. Put them next to the sink.",
      "suggestionFa": "اول، بشقاب‌ها. بذارشون کنار سینک.",
@@ -73,9 +73,9 @@
      "keywords": [
       "leftovers",
       "they're",
-      "heavy",
       "where",
-      "i'll"
+      "heavy",
+      "cups"
      ],
      "suggestion": "I'll do the cups. They're not heavy. Where do the leftovers go?",
      "suggestionFa": "من لیوان‌ها را می‌برم. سنگین نیستن. پس‌مونده‌ها کجا می‌رن؟",
@@ -98,7 +98,7 @@
      "keywords": [
       "packets",
       "little",
-      "caddy",
+      "crisp",
       "brown",
       "black"
      ],
@@ -124,8 +124,8 @@
       "recycling",
       "bottles",
       "please",
-      "table",
-      "green"
+      "green",
+      "table"
      ],
      "suggestion": "Bottles go in the recycling. The green box. Now, wipe the table, please.",
      "suggestionFa": "بطری‌ها می‌رن تو بازیافت. جعبهٔ سبز. حالا، میز را دستمال بکش، لطفاً.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "another",
       "there's",
-      "floor",
+      "another",
       "crumb",
-      "tap"
+      "floor",
+      "one"
      ],
      "suggestion": "By the tap. Oh, there's a crumb on the floor. And another one!",
      "suggestionFa": "کنار شیر آب. آه، یه خرده نون رو زمینه. و یکی دیگه!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "sweeping",
-      "sweep",
       "under",
-      "look",
-      "good"
+      "sweep",
+      "sink",
+      "look"
      ],
      "suggestion": "Under the sink. I can sweep! Look, I'm very good at sweeping.",
      "suggestionFa": "زیر سینک. من می‌تونم جارو کنم! ببین، من خیلی تو جارو کردن خوبم.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "finished",
-      "helpful",
       "kitchen",
+      "helpful",
       "clean",
       "mummy"
      ],

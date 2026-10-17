@@ -23,8 +23,8 @@
      "keywords": [
       "mario's",
       "coffee",
-      "break",
       "let's",
+      "break",
       "know"
      ],
      "suggestion": "I'm on my break. Let's get a coffee. Do you know Mario's café?",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "street",
-      "next",
       "bank",
-      "high"
+      "high",
+      "next"
      ],
      "suggestion": "It's next to the bank. On the high street.",
      "suggestionFa": "کنار بانکه. تو خیابون اصلی.",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "chemist",
       "between",
+      "chemist",
       "little",
       "where",
       "bank"
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "opposite",
-      "bakery",
       "corner",
+      "bakery",
       "thing",
       "same"
      ],
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "mario's",
       "there's",
       "getting",
+      "mario's",
       "leslie",
       "under"
      ],

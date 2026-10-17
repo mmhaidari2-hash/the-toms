@@ -24,8 +24,8 @@
       "interview",
       "disaster",
       "training",
-      "shirt",
-      "looks"
+      "looks",
+      "slept"
      ],
      "suggestion": "Disaster! I've got a job interview for the training role in an hour, and my shirt looks like I slept in it. Can you iron?",
      "suggestionFa": "فاجعه! یه ساعت دیگه برای نقش آموزشی مصاحبهٔ کاری دارم، و پیرهنم انگار توش خوابیدم. اتو بلدی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "lifesaver",
       "cupboard",
+      "squeaks",
       "ironing",
-      "kitchen",
-      "squeaks"
+      "kitchen"
      ],
      "suggestion": "You're a lifesaver. The iron's in the cupboard, and the ironing board is behind the kitchen door. It squeaks.",
      "suggestionFa": "نجات‌دهنده‌ای. اتو تو کابینته، و میز اتو پشت در آشپزخونه‌ست. جیرجیر می‌کنه.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cotton",
-      "needs",
+      "noisy",
+      "works",
       "check",
-      "label",
-      "noisy"
+      "needs"
      ],
      "suggestion": "It works, just noisy. Like me. Check the label first. Cotton? It needs a hot iron. Look for the three dots.",
      "suggestionFa": "کار می‌کنه، فقط پرسروصداست. مثل من. اول برچسب را ببین. نخیه؟ اتوی داغ لازم داره. دنبال سه تا نقطه بگرد.",
@@ -124,8 +124,8 @@
       "champion",
       "ironing",
       "sleeves",
-      "maggie",
-      "that's"
+      "that's",
+      "collar"
      ],
      "suggestion": "Collar first, then the cuffs, then the sleeves, then the back. That's what my mum taught me. Nana Maggie, the ironing champion.",
      "suggestionFa": "اول یقه، بعد سرآستین‌ها، بعد آستین‌ها، بعد پشت. اینو مامانم یادم داد. نانا مگی، قهرمان اتو.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "fingers",
+      "burned",
       "jumper",
       "school",
-      "burned",
       "secret"
      ],
      "suggestion": "All mums know the secret! Mind your fingers. And don't leave the iron face down. Ryan burned a hole in his school jumper.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
+      "shirt's",
       "already",
       "manager",
-      "shirt's",
-      "jumper",
-      "better"
+      "that's",
+      "jumper"
      ],
      "suggestion": "Poor jumper, more like. Look at that — the shirt's nearly done. That's much better! I look like a manager already.",
      "suggestionFa": "بلوز بیچاره بهتره بگی. اینو ببین — پیرهن تقریباً تموم شد. خیلی بهتر شد! همین الان شبیه مدیرها شدم.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "company",
-      "brings",
       "leslie",
+      "brings",
       "bought",
       "think"
      ],
@@ -225,7 +225,7 @@
       "drivers",
       "pigeon",
       "twenty",
-      "train"
+      "never"
      ],
      "suggestion": "\"Why do you want to train new drivers?\" Because I've done it for twenty years and I've never hit a pigeon!",
      "suggestionFa": "«چرا می‌خوای رانندهٔ جدید آموزش بدی؟» چون بیست ساله این کار را می‌کنم و هیچ‌وقت به یه کبوتر هم نزدم!",
@@ -246,11 +246,11 @@
    "branches": [
     {
      "keywords": [
-      "patient",
       "pigeons",
+      "patient",
       "thanks",
-      "loves",
-      "right"
+      "right",
+      "loves"
      ],
      "suggestion": "Patient, loves the job, no pigeons. Got it. Right — wish me luck! And thanks, mate. I owe you a pint.",
      "suggestionFa": "صبور، عاشق کار، بدون کبوتر. فهمیدم. خب — برام آرزوی موفقیت کن! و مرسی رفیق. یه لیوان آبجو بهت بدهکارم.",

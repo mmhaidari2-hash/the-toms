@@ -23,9 +23,9 @@
      "keywords": [
       "football",
       "minutes",
-      "starts",
       "twenty",
-      "socks"
+      "starts",
+      "match"
      ],
      "suggestion": "I can't find my football socks! The match starts in twenty minutes!",
      "suggestionFa": "جوراب‌های فوتبالم را پیدا نمی‌کنم! بازی بیست دقیقهٔ دیگه شروع میشه!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "drawer",
       "that's",
+      "drawer",
       "they",
-      "blue",
-      "mine"
+      "mine",
+      "blue"
      ],
      "suggestion": "Blue? That's not mine. Are they in the drawer?",
      "suggestionFa": "آبی؟ مال من نیست. تو کشوئن؟",
@@ -147,9 +147,9 @@
      "keywords": [
       "where's",
       "other",
-      "them",
-      "i've",
-      "wear"
+      "boot",
+      "i'll",
+      "them"
      ],
      "suggestion": "I've got no time to wash them. I'll wear them! Where's my other boot?",
      "suggestionFa": "وقت ندارم بشورمشون. همینا را می‌پوشم! اون یکی کفش فوتبالم کجاست؟",
@@ -174,7 +174,7 @@
       "bottle",
       "trophy",
       "water",
-      "seen"
+      "next"
      ],
      "suggestion": "Next to the trophy! Brilliant. My water bottle? Have you seen it?",
      "suggestionFa": "کنار جام! عالی. بطری آبم؟ دیدیش؟",
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "thanks",
+      "boots",
       "water",
       "socks",
-      "ready",
-      "boots"
+      "ready"
      ],
      "suggestion": "Desk, yes. Socks, boots, water, shin pads… I'm ready! Thanks, mate!",
      "suggestionFa": "میز، آره. جوراب، کفش، آب، ساق‌بند… آماده‌ام! ممنون رفیق!",
@@ -221,9 +221,9 @@
     {
      "keywords": [
       "loudest",
-      "cheers",
-      "shouts",
       "nicola",
+      "shouts",
+      "cheers",
       "watch"
      ],
      "suggestion": "Cheers! Come and watch if you want. It's at the park. Bring Nicola — she shouts the loudest!",

@@ -21,8 +21,8 @@
      "keywords": [
       "piccadilly",
       "circus",
-      "there",
-      "going"
+      "going",
+      "there"
      ],
      "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
      "suggestionFa": "دارم میرم پیکادیلی سیرکس. این اتوبوس اونجا وایمیسه؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "phone",
-      "pay",
-      "can"
+      "can",
+      "pay"
      ],
      "suggestion": "Can I pay with my phone?",
      "suggestionFa": "می‌تونم با گوشی پرداخت کنم؟",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "that's",
-      "rush",
-      "fine"
+      "fine",
+      "rush"
      ],
      "suggestion": "That's fine, I'm not in a rush.",
      "suggestionFa": "اشکالی نداره، عجله ندارم.",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
-      "down",
+      "chat",
       "stay",
-      "chat"
+      "i'll"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -237,8 +237,8 @@
     },
     {
      "keywords": [
-      "who",
-      "was"
+      "was",
+      "who"
      ],
      "suggestion": "Who was it with?",
      "suggestionFa": "با کی بود؟",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "that's",
-      "good",
       "sign",
+      "good",
       "ha"
      ],
      "suggestion": "Ha! That's not a good sign.",
@@ -328,8 +328,8 @@
      "keywords": [
       "leicester",
       "meeting",
-      "friend",
-      "really"
+      "square",
+      "friend"
      ],
      "suggestion": "Not really. I'm meeting a friend near Leicester Square.",
      "suggestionFa": "راستش نه. نزدیک لستر اسکوئر با یه دوست قرار دارم.",
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "better",
+      "thanks",
       "than",
       "map"
      ],

@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "short",
-      "trim",
-      "just"
+      "just",
+      "trim"
      ],
      "suggestion": "Just a trim, please. Not too short.",
      "suggestionFa": "فقط یه‌کم کوتاه، لطفاً. خیلی کوتاه نه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "scared",
-      "bit",
-      "but"
+      "but",
+      "new"
      ],
      "suggestion": "Something new. But I'm a bit scared!",
      "suggestionFa": "یه چیز جدید. ولی یه‌کم می‌ترسم!",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "shape",
-      "just",
       "like",
+      "just",
       "keep"
      ],
      "suggestion": "I'd like to keep my beard. Just shape it.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "thanks",
-      "just",
-      "trim"
+      "trim",
+      "just"
      ],
      "suggestion": "No, thanks. Just the trim.",
      "suggestionFa": "نه، ممنون. فقط اصلاح.",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "barber",
       "summer",
+      "barber",
       "since",
-      "have"
+      "been"
      ],
      "suggestion": "Since the summer. How long have you been a barber?",
      "suggestionFa": "از تابستون. تو چند وقته آرایشگری؟",

@@ -23,8 +23,8 @@
      "keywords": [
       "today",
       "look",
-      "love",
       "down",
+      "love",
       "bit"
      ],
      "suggestion": "You look a bit down today. Are you OK, love?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "homesick",
-      "normal",
       "that's",
+      "normal",
       "home",
-      "long"
+      "from"
      ],
      "suggestion": "Homesick. That's normal. You're a long way from home. What do you miss?",
      "suggestionFa": "دلتنگ وطن. طبیعیه. خیلی از خونه دوری. دلت برای چی تنگ شده؟",
@@ -75,7 +75,7 @@
       "course",
       "don't",
       "call",
-      "her"
+      "why"
      ],
      "suggestion": "Of course. Why don't you call her tonight?",
      "suggestionFa": "البته. چرا امشب بهش زنگ نمی‌زنی؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "cooking",
+      "persian",
       "lovely",
       "about",
       "teach"
@@ -145,8 +145,8 @@
     {
      "keywords": [
       "saturday",
-      "persian",
       "amazing",
+      "persian",
       "sounds",
       "let's"
      ],
@@ -170,8 +170,8 @@
     {
      "keywords": [
       "perfect",
-      "helps",
       "let's",
+      "helps",
       "fresh",
       "walk"
      ],

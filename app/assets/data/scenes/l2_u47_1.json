@@ -1,0 +1,424 @@
+{
+ "id": "l2_u47_1",
+ "characterId": "priya",
+ "title": "Cheaper or better?",
+ "titleFa": "ارزان‌تر یا بهتر؟",
+ "setting": "Comparing things · Level 2",
+ "settingFa": "مقایسه کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Hiya! You've been staring at those teabags for two minutes. Can't decide?",
+   "translations": {
+    "fa": "سلام! دو دقیقه‌ست به اون چای‌کیسه‌ای‌ها زل زدی. نمی‌تونی تصمیم بگیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "priya",
+      "cheap",
+      "which"
+     ],
+     "suggestion": "Hi, Priya. Which is better, the cheap one or this one?",
+     "suggestionFa": "سلام پریا. کدوم بهتره، ارزونه یا این یکی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kinds",
+      "there",
+      "many",
+      "tea"
+     ],
+     "suggestion": "There are too many kinds of tea!",
+     "suggestionFa": "خیلی نوع چای هست!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "staring",
+     "fa": "زل زدن"
+    },
+    {
+     "word": "teabags",
+     "fa": "چای کیسه‌ای"
+    },
+    {
+     "word": "decide",
+     "fa": "تصمیم گرفتن"
+    },
+    {
+     "word": "kinds",
+     "fa": "انواع"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Welcome to Britain — a whole wall of tea! The shop's own brand is cheaper than Yorkshire Tea. One sixty versus three fifty.",
+   "translations": {
+    "fa": "به بریتانیا خوش اومدی — یه دیوار کامل چای! برند خود مغازه از یورکشایر تی ارزون‌تره. یک و شصت در برابر سه و پنجاه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yorkshire",
+      "brand",
+      "good",
+      "own"
+     ],
+     "suggestion": "Is the own brand as good as Yorkshire Tea?",
+     "suggestionFa": "برند مغازه به خوبی یورکشایر تیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "double",
+      "that's",
+      "fifty",
+      "three"
+     ],
+     "suggestion": "Three fifty! That's more than double.",
+     "suggestionFa": "سه و پنجاه! بیشتر از دو برابره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "own brand",
+     "fa": "برند خود فروشگاه"
+    },
+    {
+     "word": "cheaper than",
+     "fa": "ارزان‌تر از"
+    },
+    {
+     "word": "versus",
+     "fa": "در برابر"
+    },
+    {
+     "word": "double",
+     "fa": "دو برابر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Comparatives: cheap → cheaper than; good → better than; expensive → more expensive than. Equal: \"as good as\".",
+    "fa": "تفضیلی: cheaper than، better than، more expensive than؛ برابری: as good as."
+   },
+   "recasts": [
+    {
+     "match": [
+      "is it good as yorkshire tea",
+      "it is as good like yorkshire"
+     ],
+     "echo": "Is it as good as Yorkshire Tea? Hmm!",
+     "better": "Is it as good as Yorkshire Tea?",
+     "betterFa": "به خوبی یورکشایر تی است؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Honestly? Not quite as good. It's weaker. But with milk and sugar, most people can't tell. Nana Maggie buys the posh one, mind.",
+   "translations": {
+    "fa": "راستش؟ نه کاملاً به اون خوبی. کم‌رنگ‌تره. ولی با شیر و شکر بیشتر مردم فرقش را نمی‌فهمن. البته نانا مگی گرونه را می‌خره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie",
+      "knows",
+      "nana",
+      "best"
+     ],
+     "suggestion": "Nana Maggie knows best!",
+     "suggestionFa": "نانا مگی بهتر از همه می‌دونه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stronger",
+      "without",
+      "which",
+      "drink"
+     ],
+     "suggestion": "I drink it without milk. So which is stronger?",
+     "suggestionFa": "من بدون شیر می‌خورم. پس کدوم پررنگ‌تره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "honestly",
+     "fa": "راستش"
+    },
+    {
+     "word": "not quite",
+     "fa": "نه کاملاً"
+    },
+    {
+     "word": "weaker",
+     "fa": "کم‌رنگ‌تر ؛ ضعیف‌تر"
+    },
+    {
+     "word": "can't tell",
+     "fa": "نمی‌توانند فرق بگذارند"
+    },
+    {
+     "word": "posh",
+     "fa": "گران و شیک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Without milk? Then Yorkshire, definitely. Stronger and smoother. Or this loose tea — even better. Persian style, in a pot!",
+   "translations": {
+    "fa": "بدون شیر؟ پس حتماً یورکشایر. پررنگ‌تر و نرم‌تر. یا این چای فله — حتی بهتر. سبک ایرانی، تو قوری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "much",
+      "best",
+      "how"
+     ],
+     "suggestion": "Loose tea! That's the best. How much is it?",
+     "suggestionFa": "چای فله! این بهترینه. چنده؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expensive",
+      "more"
+     ],
+     "suggestion": "Is the loose tea more expensive?",
+     "suggestionFa": "چای فله گرون‌تره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "definitely",
+     "fa": "حتماً"
+    },
+    {
+     "word": "stronger",
+     "fa": "قوی‌تر ؛ پررنگ‌تر"
+    },
+    {
+     "word": "smoother",
+     "fa": "نرم‌تر"
+    },
+    {
+     "word": "loose tea",
+     "fa": "چای فله ؛ برگ"
+    },
+    {
+     "word": "pot",
+     "fa": "قوری"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Two ninety for 250 grams. That's more than the teabags, but it lasts longer. And it tastes better. It's worth it.",
+   "translations": {
+    "fa": "دو و نود برای دویست و پنجاه گرم. از کیسه‌ای‌ها بیشتره، ولی بیشتر دووم میاره. و طعمش بهتره. ارزشش را داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "loose",
+      "i'll",
+      "tea",
+      "ok"
+     ],
+     "suggestion": "OK, I'll go for the loose tea.",
+     "suggestionFa": "باشه، چای فله را برمی‌دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheaper",
+      "per",
+      "cup"
+     ],
+     "suggestion": "Is it cheaper per cup?",
+     "suggestionFa": "برای هر فنجون ارزون‌تره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grams",
+     "fa": "گرم"
+    },
+    {
+     "word": "lasts longer",
+     "fa": "بیشتر دوام می‌آورد"
+    },
+    {
+     "word": "tastes better",
+     "fa": "طعمش بهتر است"
+    },
+    {
+     "word": "worth it",
+     "fa": "ارزشش را دارد"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK shelf labels show a \"unit price\", for example £1.16 per 100g. It helps you compare which is really cheaper.",
+    "fa": "برچسب قفسه‌ها «قیمت واحد» را نشان می‌دهد تا بفهمید کدام واقعاً ارزان‌تر است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Clever question! Look at the little number on the label — price per hundred grams. Loose tea is actually the cheapest per cup.",
+   "translations": {
+    "fa": "سؤال زرنگانه! به عدد کوچیک رو برچسب نگاه کن — قیمت هر صد گرم. چای فله در واقع برای هر فنجون از همه ارزون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheapest",
+      "perfect",
+      "best"
+     ],
+     "suggestion": "The cheapest and the best! Perfect.",
+     "suggestionFa": "ارزون‌ترین و بهترین! عالی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "number",
+      "never",
+      "look"
+     ],
+     "suggestion": "I never look at that number. Thanks!",
+     "suggestionFa": "هیچ‌وقت به اون عدد نگاه نمی‌کنم. مرسی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "label",
+     "fa": "برچسب"
+    },
+    {
+     "word": "per",
+     "fa": "به ازای هر"
+    },
+    {
+     "word": "actually",
+     "fa": "در واقع"
+    },
+    {
+     "word": "cheapest",
+     "fa": "ارزان‌ترین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "Cheapest, tastiest, and the most Persian. You've got good taste. Anything else? Biscuits for dunking?",
+   "translations": {
+    "fa": "ارزون‌ترین، خوشمزه‌ترین، و ایرانی‌ترین. سلیقه‌ات خوبه. چیز دیگه؟ بیسکویت برای تو چای زدن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuits",
+      "dunking",
+      "which",
+      "best"
+     ],
+     "suggestion": "Which biscuits are the best for dunking?",
+     "suggestionFa": "کدوم بیسکویت برای تو چای زدن بهترینه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "today",
+      "just",
+      "tea"
+     ],
+     "suggestion": "No thanks. Just the tea today.",
+     "suggestionFa": "نه مرسی. امروز فقط چای.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tastiest",
+     "fa": "خوشمزه‌ترین"
+    },
+    {
+     "word": "good taste",
+     "fa": "سلیقهٔ خوب"
+    },
+    {
+     "word": "biscuits",
+     "fa": "بیسکویت‌ها"
+    },
+    {
+     "word": "dunking",
+     "fa": "در چای زدن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Rich Tea — they're the strongest. Digestives break too fast. Never dunk a custard cream. That's two ninety for the tea, please.",
+   "translations": {
+    "fa": "ریچ تی — از همه محکم‌ترن. دایجستیو زود می‌شکنه. هیچ‌وقت کاستارد کریم را تو چای نزن. چای میشه دو و نود، لطفاً."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

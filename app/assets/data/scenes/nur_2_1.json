@@ -85,8 +85,8 @@
     {
      "keywords": [
       "telling",
-      "come",
-      "good"
+      "good",
+      "come"
      ],
      "suggestion": "Good telling me! Come on.",
      "suggestionFa": "آفرین که گفتی! بیا.",
@@ -177,8 +177,8 @@
      "keywords": [
       "trousers",
       "well",
-      "pull",
-      "done"
+      "done",
+      "pull"
      ],
      "suggestion": "Well done! Pull your trousers up.",
      "suggestionFa": "آفرین! شلوارت را بکش بالا.",
@@ -271,5 +271,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

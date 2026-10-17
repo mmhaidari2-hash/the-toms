@@ -25,7 +25,7 @@
       "everyone",
       "nervous",
       "normal",
-      "will"
+      "like"
      ],
      "suggestion": "It's normal to feel nervous. Everyone will like you!",
      "suggestionFa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!",
@@ -37,8 +37,8 @@
      "keywords": [
       "children",
       "today",
-      "same",
-      "lots"
+      "lots",
+      "same"
      ],
      "suggestion": "Lots of children feel the same today.",
      "suggestionFa": "خیلی از بچه‌ها امروز همین حس را دارن.",
@@ -75,7 +75,7 @@
      "keywords": [
       "promise",
       "three",
-      "i'll",
+      "pick",
       "half"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
-      "here",
+      "both",
       "will",
-      "both"
+      "here"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
+      "gold",
       "star",
       "done",
-      "well",
-      "gold"
+      "well"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "did",
-      "get"
+      "get",
+      "did"
      ],
      "suggestion": "What did you get it for?",
      "suggestionFa": "برای چی گرفتیش؟",
@@ -368,8 +368,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "golden",
+      "what's",
       "time"
      ],
      "suggestion": "What's golden time?",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "let's",
-      "ask",
-      "mum"
+      "mum",
+      "ask"
      ],
      "suggestion": "Let's ask your mum!",
      "suggestionFa": "بیا از مامانت بپرسیم!",

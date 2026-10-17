@@ -25,7 +25,7 @@
       "saturday",
       "hoover",
       "worst",
-      "week"
+      "have"
      ],
      "suggestion": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
      "suggestionFa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "chairs",
       "vacuum",
+      "chairs",
       "hoover",
-      "brand",
-      "means"
+      "means",
+      "brand"
      ],
      "suggestion": "It means vacuum. Hoover is a brand. Can you move the chairs?",
      "suggestionFa": "یعنی جاروبرقی. هوور یه مارکه. می‌تونی صندلی‌ها را جابه‌جا کنی؟",
@@ -74,8 +74,8 @@
       "everything",
       "everywhere",
       "william",
-      "upside",
-      "crumbs"
+      "crumbs",
+      "upside"
      ],
      "suggestion": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
      "suggestionFa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!",
@@ -98,8 +98,8 @@
      "keywords": [
       "switching",
       "really",
-      "loud",
       "hear",
+      "loud",
       "ugh"
      ],
      "suggestion": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "pulled",
       "nicola",
+      "pulled",
       "plug",
       "bag",
       "out"
@@ -173,8 +173,8 @@
       "thanks",
       "nearly",
       "under",
-      "arm's",
-      "right"
+      "right",
+      "arm's"
      ],
      "suggestion": "Thanks. Right, nearly done. Can you do under the sofa? My arm's too big.",
      "suggestionFa": "ممنون. خب، تقریباً تمومه. می‌تونی زیر مبل را بکشی؟ دستم خیلی بزرگه.",
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "cleaning",
-      "isn't",
+      "march",
       "guess",
       "break",
-      "march"
+      "isn't"
      ],
      "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",
      "suggestionFa": "جورابم! مارس گمش کردم. فکر کنم روز نظافت اون‌قدرا هم بد نیست. استراحت چای؟",

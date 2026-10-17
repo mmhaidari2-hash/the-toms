@@ -1,0 +1,406 @@
+{
+ "id": "l2_u54_3",
+ "characterId": "nicola",
+ "title": "A fox in the garden",
+ "titleFa": "روباه در باغ",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Wake up! Wake up! There's a FOX in the garden! A real one! Come and see!",
+   "translations": {
+    "fa": "بیدار شو! بیدار شو! تو باغ یه روباهه! یه واقعیش! بیا ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "where",
+      "fox"
+     ],
+     "suggestion": "A fox? Really? Where?",
+     "suggestionFa": "روباه؟ واقعاً؟ کجا؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "o'clock",
+      "nicola",
+      "shh",
+      "six"
+     ],
+     "suggestion": "Shh, Nicola! It's six o'clock!",
+     "suggestionFa": "هیس نیکولا! ساعت شیشه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wake up",
+     "fa": "بیدار شو"
+    },
+    {
+     "word": "fox",
+     "fa": "روباه"
+    },
+    {
+     "word": "garden",
+     "fa": "باغ ؛ حیاط"
+    },
+    {
+     "word": "real",
+     "fa": "واقعی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "By the shed! It's orange with a white tail tip. It's eating something. Is it eating Daddy's sandwich?",
+   "translations": {
+    "fa": "کنار انباری! نارنجیه با نوک دم سفید. داره یه چیزی می‌خوره. داره ساندویچ بابایی را می‌خوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "eating",
+      "from",
+      "bin"
+     ],
+     "suggestion": "It's eating something from the bin!",
+     "suggestionFa": "داره یه چیزی از سطل زباله می‌خوره!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "look",
+      "tail",
+      "its"
+     ],
+     "suggestion": "Wow, it's beautiful. Look at its tail.",
+     "suggestionFa": "وای، قشنگه. دمش را ببین.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shed",
+     "fa": "انباری"
+    },
+    {
+     "word": "orange",
+     "fa": "نارنجی"
+    },
+    {
+     "word": "tail tip",
+     "fa": "نوک دم"
+    },
+    {
+     "word": "bin",
+     "fa": "سطل زباله"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Can I stroke it? Please? It looks like a dog. A soft orange dog.",
+   "translations": {
+    "fa": "می‌تونم نازش کنم؟ لطفاً؟ شبیه سگه. یه سگ نارنجی نرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "animal",
+      "don't",
+      "wild",
+      "near"
+     ],
+     "suggestion": "No, don't go near it. It's a wild animal.",
+     "suggestionFa": "نه، نزدیکش نرو. حیوون وحشیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "foxes",
+      "stay",
+      "here"
+     ],
+     "suggestion": "Foxes are not pets, Nicola. Stay here.",
+     "suggestionFa": "روباه حیوون خونگی نیست نیکولا. اینجا بمون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stroke",
+     "fa": "نوازش کردن"
+    },
+    {
+     "word": "soft",
+     "fa": "نرم"
+    },
+    {
+     "word": "wild animal",
+     "fa": "حیوان وحشی"
+    },
+    {
+     "word": "pets",
+     "fa": "حیوانات خانگی"
+    }
+   ],
+   "cultureNote": {
+    "en": "London has about 10,000 urban foxes. They're usually shy and harmless, but they're wild — never touch or feed them by hand.",
+    "fa": "لندن حدود ده هزار روباه شهری دارد؛ معمولاً خجالتی و بی‌آزارند ولی وحشی‌اند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "don't go near to it",
+      "not go near it"
+     ],
+     "echo": "Don't go near it! Good advice.",
+     "better": "Don't go near it.",
+     "betterFa": "نزدیکش نرو."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "OK. I'll just look. Where does it live? In a house?",
+   "translations": {
+    "fa": "باشه. فقط نگاه می‌کنم. کجا زندگی می‌کنه؟ تو یه خونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "under",
+      "maybe",
+      "park",
+      "shed"
+     ],
+     "suggestion": "In a den. Maybe under a shed or in the park.",
+     "suggestionFa": "تو یه لونه. شاید زیر یه انباری یا تو پارک.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gardens",
+      "london",
+      "parks",
+      "foxes"
+     ],
+     "suggestion": "Lots of foxes live in London. In gardens and parks.",
+     "suggestionFa": "کلی روباه تو لندن زندگی می‌کنن. تو باغ‌ها و پارک‌ها.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "den",
+     "fa": "لانه ؛ سوراخ"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "gardens",
+     "fa": "باغ‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Look! It's got BABIES! One, two, three babies! They're playing!",
+   "translations": {
+    "fa": "ببین! بچه داره! یکی، دو تا، سه تا بچه! دارن بازی می‌کنن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "cute",
+      "fox"
+     ],
+     "suggestion": "Fox cubs! They're so cute!",
+     "suggestionFa": "توله‌روباه! خیلی بانمکن!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "watching",
+      "their",
+      "three",
+      "them"
+     ],
+     "suggestion": "Three cubs. Their mum is watching them.",
+     "suggestionFa": "سه تا توله. مامانشون داره مراقبشونه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "babies",
+     "fa": "بچه‌ها"
+    },
+    {
+     "word": "cubs",
+     "fa": "توله‌ها"
+    },
+    {
+     "word": "cute",
+     "fa": "بانمک"
+    },
+    {
+     "word": "watching",
+     "fa": "مراقبت کردن ؛ نگاه کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Cubs! Can we give them a name? The big one is Ginger. The little one is Biscuit!",
+   "translations": {
+    "fa": "توله! میشه براشون اسم بذاریم؟ بزرگه زنجبیله. کوچولوئه بیسکویت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "ginger",
+      "third",
+      "one"
+     ],
+     "suggestion": "Ginger and Biscuit. And the third one?",
+     "suggestionFa": "زنجبیل و بیسکویت. و سومی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "mummy",
+      "names",
+      "let's"
+     ],
+     "suggestion": "Lovely names! Let's tell Mummy.",
+     "suggestionFa": "اسم‌های قشنگیه! بیا به مامانی بگیم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "name",
+     "fa": "اسم"
+    },
+    {
+     "word": "ginger",
+     "fa": "زنجبیلی ؛ نارنجی"
+    },
+    {
+     "word": "third",
+     "fa": "سومی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back?",
+   "translations": {
+    "fa": "سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "foxes",
+      "maybe",
+      "night"
+     ],
+     "suggestion": "Maybe tonight. Foxes come out at night.",
+     "suggestionFa": "شاید امشب. روباه‌ها شب‌ها میان بیرون.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "fox",
+      "now",
+      "ha"
+     ],
+     "suggestion": "I'm a fox now? Ha! Thank you!",
+     "suggestionFa": "من الان روباهم؟ ها! ممنون!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clever",
+     "fa": "زرنگ ؛ باهوش"
+    },
+    {
+     "word": "ran away",
+     "fa": "فرار کردند"
+    },
+    {
+     "word": "come out",
+     "fa": "بیرون آمدن"
+    },
+    {
+     "word": "at night",
+     "fa": "شب‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Tonight I'll stay awake and watch. All night! Well… till eight. Mummy says bedtime is seven.",
+   "translations": {
+    "fa": "امشب بیدار می‌مونم و نگاه می‌کنم. کل شب! خب… تا هشت. مامانی میگه وقت خواب هفته."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

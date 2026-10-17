@@ -1,0 +1,225 @@
+{
+ "id": "l2_u55_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Topping up credit",
+ "titleFa": "(در نقش Leslie) شارژ کردن اعتبار",
+ "setting": "Phone and internet · Level 2",
+ "settingFa": "تلفن و اینترنت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u55_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mobile's",
+      "credit",
+      "maggie",
+      "doris",
+      "wants"
+     ],
+     "suggestion": "Maggie just rang from a phone box! Her pay-as-you-go mobile's out of credit. She wants to call Doris. Can you help me top it up?",
+     "suggestionFa": "مگی همین الان از کیوسک تلفن زنگ زد! اعتبار موبایل اعتباریش تموم شده. می‌خواد به دوریس زنگ بزنه. کمکم می‌کنی شارژش کنم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Do you know her network?",
+   "translations": {
+    "fa": "حتماً. اپراتورش را می‌دونی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "defibrillators",
+      "network",
+      "orange",
+      "number",
+      "inside"
+     ],
+     "suggestion": "Ha! There are still a few. Some have defibrillators inside now! Her network… it's the orange one. I've got her number.",
+     "suggestionFa": "ها! هنوز چند تا هست. توی بعضی‌هاشون الان دستگاه شوک قلبی هست! اپراتورش… همون نارنجیه. شماره‌اش را دارم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "We can top up online. What's the website?",
+   "translations": {
+    "fa": "می‌تونیم آنلاین شارژ کنیم. سایتش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "online's",
+      "quicker",
+      "pounds",
+      "number",
+      "enough"
+     ],
+     "suggestion": "Online's quicker. Here — \"Top up any number\". Put in her number. I'd like to top up ten pounds. Is that enough?",
+     "suggestionFa": "آنلاین سریع‌تره. ببین — «شارژ هر شماره». شماره‌اش را بزن. می‌خوام ده پوند شارژ کنم. کافیه؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "How much does she use a month?",
+   "translations": {
+    "fa": "ماهی چقدر استفاده می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unlimited",
+      "twenty's",
+      "anything",
+      "bundle",
+      "twenty"
+     ],
+     "suggestion": "Hardly anything — but she chats to Doris for hours. How much shall I put on? Twenty. Twenty's a bundle with unlimited calls.",
+     "suggestionFa": "تقریباً هیچی — ولی ساعت‌ها با دوریس گپ می‌زنه. چقدر شارژ کنم؟ بیست. بیست یه بسته با تماس نامحدوده.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A bundle with unlimited calls. That's smart.",
+   "translations": {
+    "fa": "یه بسته با تماس نامحدود. هوشمندانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "through",
+      "twenty",
+      "pounds",
+      "doris"
+     ],
+     "suggestion": "No PIN, just my card. Pay… It's gone through! \"Twenty pounds added to 07…\" Brilliant. Now she can ring Doris all night.",
+     "suggestionFa": "بدون رمز، فقط کارت من. پرداخت… انجام شد! «بیست پوند به ۰۷… اضافه شد.» عالی. حالا می‌تونه کل شب به دوریس زنگ بزنه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "It's gone through. Let's tell her.",
+   "translations": {
+    "fa": "انجام شد. بیا بهش بگیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "instead",
+      "she'll",
+      "that's",
+      "pounds",
+      "twenty"
+     ],
+     "suggestion": "She can dial a short number. But she won't. She'll ring us instead! Oh — that's her. Hello, Maggie? Yes, it's done! Twenty pounds.",
+     "suggestionFa": "می‌تونه یه شمارهٔ کوتاه بگیره. ولی نمی‌گیره. به‌جاش به ما زنگ می‌زنه! اوه — خودشه. الو، مگی؟ آره، انجام شد! بیست پوند.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Say hello from me!",
+   "translations": {
+    "fa": "از طرف من سلام برسون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monthly",
+      "believe",
+      "thank",
+      "don't",
+      "going"
+     ],
+     "suggestion": "She says thank you, and you're \"a good boy\". And she's going to set up a monthly top-up. Ha! I don't believe it.",
+     "suggestionFa": "میگه ممنون، و تو «پسر خوبی» هستی. و می‌خواد شارژ ماهانه راه بندازه. ها! باورم نمیشه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "A monthly top-up. Then no more phone boxes!",
+   "translations": {
+    "fa": "شارژ ماهانه. اون‌وقت دیگه کیوسک تلفن نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie's",
+      "lessons",
+      "trouble",
+      "escape",
+      "you'll"
+     ],
+     "suggestion": "Sunday lunch at Maggie's, then phone lessons. She'll make you a cake for your trouble. You'll never escape!",
+     "suggestionFa": "ناهار یکشنبه خونهٔ مگی، بعد آموزش تلفن. به‌خاطر زحمتت برات کیک می‌پزه. هیچ‌وقت راه فرار نداری!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

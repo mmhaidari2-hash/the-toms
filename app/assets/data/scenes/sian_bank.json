@@ -22,7 +22,7 @@
       "started",
       "that's",
       "right",
-      "just"
+      "i've"
      ],
      "suggestion": "Yes, that's right. I've just started a new job.",
      "suggestionFa": "بله، درسته. تازه یه کار جدید شروع کردم.",
@@ -168,7 +168,7 @@
       "thanks",
       "rather",
       "avoid",
-      "i'd"
+      "now"
      ],
      "suggestion": "I'd rather avoid an overdraft for now, thanks.",
      "suggestionFa": "ترجیح می‌دم فعلاً اضافه‌برداشت نداشته باشم، ممنون.",
@@ -212,9 +212,9 @@
     {
      "keywords": [
       "monthly",
-      "avoid",
       "there",
-      "then"
+      "avoid",
+      "i'll"
      ],
      "suggestion": "I'll avoid it, then. Is there a monthly fee?",
      "suggestionFa": "پس ازش پرهیز می‌کنم. هزینهٔ ماهانه داره؟",
@@ -226,8 +226,8 @@
      "keywords": [
       "later",
       "good",
-      "need",
-      "know"
+      "know",
+      "need"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
      "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
@@ -325,8 +325,8 @@
     {
      "keywords": [
       "transfers",
-      "take",
       "long",
+      "take",
       "how"
      ],
      "suggestion": "How long do transfers take?",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "thanks",
-      "heard",
+      "about",
       "those",
-      "scams"
+      "heard"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
      "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
@@ -376,9 +376,9 @@
     {
      "keywords": [
       "careful",
-      "good",
+      "know",
       "i'll",
-      "know"
+      "good"
      ],
      "suggestion": "Good to know. I'll be careful.",
      "suggestionFa": "خوب شد گفتید. مراقبم.",
@@ -434,8 +434,8 @@
     {
      "keywords": [
       "where's",
-      "accent",
       "asking",
+      "accent",
       "don't"
      ],
      "suggestion": "Where's your accent from, if you don't mind me asking?",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nobody",
-      "funny",
       "feels",
-      "likes",
-      "tummy"
+      "funny",
+      "tummy",
+      "likes"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
      "suggestionFa": "دلم یه جوریه. اگه هیچ‌کس دوستم نداشته باشه چی؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "three",
-      "will",
       "half",
+      "will",
       "pick",
       "up"
      ],
@@ -73,8 +73,8 @@
      "keywords": [
       "teddy's",
       "coming",
-      "okay",
       "book",
+      "okay",
       "bye"
      ],
      "suggestion": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "painting",
-      "mine's",
-      "autumn",
+      "leaves",
       "orange",
-      "leaves"
+      "mine's",
+      "autumn"
      ],
      "suggestion": "You came! It's half three! We did a painting of autumn leaves today. Mine's orange and gold.",
      "suggestionFa": "اومدی! سه و نیمه! امروز نقاشی برگ‌های پاییزی کشیدیم. مال من نارنجی و طلاییه.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "crayons",
       "sharing",
+      "crayons",
       "friend",
       "she's",
       "best"
@@ -199,8 +199,8 @@
       "shepherd's",
       "golden",
       "lunch",
-      "will",
-      "then"
+      "then",
+      "will"
      ],
      "suggestion": "I will. We had shepherd's pie for lunch. And then it was \"golden time\"!",
      "suggestionFa": "حتماً. ناهار پای چوپان داشتیم. و بعد «وقت طلایی» بود!",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "tomorrow",
+      "liked",
       "again",
       "teddy",
-      "liked",
       "first"
      ],
      "suggestion": "Yay! Best first day ever. Teddy liked it too. Can I go again tomorrow?",

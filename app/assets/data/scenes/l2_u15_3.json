@@ -22,7 +22,7 @@
       "supposed",
       "minutes",
       "twenty",
-      "past"
+      "come"
      ],
      "suggestion": "Twenty minutes! It was supposed to come at ten past.",
      "suggestionFa": "بیست دقیقه! قرار بود ده دقیقه گذشته بیاد.",
@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "think",
       "wrong",
+      "think",
       "sign"
      ],
      "suggestion": "The sign is wrong, I think.",
@@ -130,8 +130,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "accident",
+      "everyone",
       "hope",
       "ok"
      ],
@@ -192,7 +192,7 @@
       "minutes",
       "more",
       "says",
-      "but"
+      "ten"
      ],
      "suggestion": "Yes, but it says ten more minutes.",
      "suggestionFa": "آره، ولی نوشته ده دقیقهٔ دیگه.",
@@ -281,7 +281,7 @@
      "keywords": [
       "message",
       "sorry",
-      "late",
+      "i'll",
       "send"
      ],
      "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "shall",
-      "which",
       "buses",
+      "which",
       "three"
      ],
      "suggestion": "Three buses! Which one shall we take?",

@@ -23,8 +23,8 @@
      "keywords": [
       "shelves",
       "dusting",
-      "duster",
       "helper",
+      "duster",
       "mummy"
      ],
      "suggestion": "Mummy gave me a duster! I'm dusting the shelves. Look, I'm a big helper!",
@@ -48,8 +48,8 @@
      "keywords": [
       "what's",
       "reach",
-      "can't",
       "shelf",
+      "can't",
       "high"
      ],
      "suggestion": "You do the high shelf. I can't reach. What's on the high shelf?",
@@ -74,8 +74,8 @@
       "daddy's",
       "biscuit",
       "that's",
-      "full",
-      "have"
+      "have",
+      "full"
      ],
      "suggestion": "That's Daddy's biscuit jar! Is it full? Can I have one?",
      "suggestionFa": "اون ظرف بیسکویت باباست! پره؟ می‌تونم یکی بخورم؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "something",
-      "behind",
       "what's",
+      "behind",
       "shiny",
       "jar"
      ],
@@ -125,7 +125,7 @@
       "nana's",
       "looked",
       "lost",
-      "key"
+      "she"
      ],
      "suggestion": "A key! It's Nana's lost key! She looked everywhere!",
      "suggestionFa": "کلید! کلید گم‌شدهٔ ناناست! همه جا را گشت!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "sneeze",
       "that's",
-      "atchoo",
       "little",
+      "atchoo",
+      "sneeze",
       "makes"
      ],
      "suggestion": "That's Ryan! He was little too! Atchoo! The dust makes me sneeze!",
@@ -199,8 +199,8 @@
       "shelves",
       "biscuit",
       "shiny",
-      "done",
-      "good"
+      "have",
+      "done"
      ],
      "suggestion": "All done! The shelves are shiny. Can I have a biscuit NOW? I was very good!",
      "suggestionFa": "همه‌ش تموم شد! قفسه‌ها براقن. الان می‌تونم بیسکویت بخورم؟ خیلی خوب بودم!",

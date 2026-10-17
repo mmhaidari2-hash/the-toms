@@ -22,10 +22,10 @@
     {
      "keywords": [
       "stopped",
-      "quick",
       "front",
-      "look",
-      "come"
+      "quick",
+      "come",
+      "look"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -103,8 +103,8 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "yellow",
+      "orange",
       "seven",
       "green",
       "rest"
@@ -187,11 +187,11 @@
    "branches": [
     {
      "keywords": [
+      "we'll",
       "shame",
       "never",
-      "we'll",
       "moves",
-      "move"
+      "find"
      ],
      "suggestion": "Ha! We'll never find the end. It moves when you move. What a shame!",
      "suggestionFa": "ها! هیچ‌وقت تهش را پیدا نمی‌کنیم. وقتی حرکت می‌کنی، حرکت می‌کنه. حیف!",
@@ -212,8 +212,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -267,9 +267,9 @@
      "keywords": [
       "raining",
       "lovely",
-      "again",
-      "he'll",
-      "daddy"
+      "daddy",
+      "photo",
+      "again"
      ],
      "suggestion": "What a lovely photo! Send it to Daddy. He'll love it. Oh — it's raining again!",
      "suggestionFa": "چه عکس قشنگی! بفرستش برای بابا. عاشقش میشه. آه — باز داره بارون میاد!",
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "everyone",
-      "typical",
-      "wellies",
       "british",
+      "wellies",
+      "typical",
       "that's"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",

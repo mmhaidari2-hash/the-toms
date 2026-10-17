@@ -23,9 +23,9 @@
      "keywords": [
       "hundred",
       "calmer",
+      "would",
       "right",
-      "month",
-      "three"
+      "can't"
      ],
      "suggestion": "Three hundred and forty quid for one month? That can't be right. Would you ring them? You're calmer than me.",
      "suggestionFa": "سیصد و چهل پوند برای یه ماه؟ نمی‌تونه درست باشه. زنگشون می‌زنی؟ تو از من آروم‌تری.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -158,8 +158,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -270,8 +270,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -386,8 +386,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -490,10 +490,10 @@
    "branches": [
     {
      "keywords": [
-      "nowhere",
       "shouted",
-      "credit",
+      "nowhere",
       "legend",
+      "credit",
       "eighty"
      ],
      "suggestion": "Eighty-five quid in credit? You're a legend. I'd have shouted at him and got nowhere. Tea's on me.",

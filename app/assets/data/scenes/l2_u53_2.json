@@ -1,0 +1,427 @@
+{
+ "id": "l2_u53_2",
+ "characterId": "sian",
+ "title": "Contactless limit",
+ "titleFa": "سقف پرداخت بدون تماس",
+ "setting": "Paying for things · Level 2",
+ "settingFa": "پرداخت کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "Hello again. Siân. You look worried. Problem with your card?",
+   "translations": {
+    "fa": "باز سلام. سیان. نگران به نظر می‌رسی. کارتت مشکل داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket",
+      "declined",
+      "was"
+     ],
+     "suggestion": "Yes. It was declined at the supermarket.",
+     "suggestionFa": "بله. تو سوپرمارکت رد شد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "tapped",
+      "card",
+      "work"
+     ],
+     "suggestion": "I tapped my card, but it didn't work.",
+     "suggestionFa": "کارتم را زدم، ولی کار نکرد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "declined",
+     "fa": "رد شد"
+    },
+    {
+     "word": "tapped",
+     "fa": "زدم (کارت)"
+    },
+    {
+     "word": "didn't work",
+     "fa": "کار نکرد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Let me look. Your account's fine. Plenty of money. How much was the shopping?",
+   "translations": {
+    "fa": "بذارید ببینم. حسابتون مشکلی نداره. پول کافی هست. خریدتون چقدر بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "twelve",
+      "shop",
+      "big"
+     ],
+     "suggestion": "It was a big shop. A hundred and twelve pounds.",
+     "suggestionFa": "خرید بزرگی بود. صد و دوازده پوند.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "party",
+      "about",
+      "ten"
+     ],
+     "suggestion": "About a hundred and ten. For a party.",
+     "suggestionFa": "حدود صد و ده. برای مهمونی.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "account",
+     "fa": "حساب"
+    },
+    {
+     "word": "plenty",
+     "fa": "کافی ؛ فراوان"
+    },
+    {
+     "word": "shopping",
+     "fa": "خرید"
+    },
+    {
+     "word": "big shop",
+     "fa": "خرید بزرگ"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it was decline",
+      "my card was declining"
+     ],
+     "echo": "It was declined? Let's see why.",
+     "better": "My card was declined.",
+     "betterFa": "کارتم رد شد."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "That's why. The contactless limit is £100 per payment. Over that, you need to insert your card and type your PIN.",
+   "translations": {
+    "fa": "دلیلش همینه. سقف پرداخت بدون تماس صد پوند برای هر پرداخته. بیشتر از اون، باید کارت را وارد کنید و رمز را بزنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "payments",
+      "insert",
+      "card",
+      "big"
+     ],
+     "suggestion": "Oh! So I insert the card for big payments.",
+     "suggestionFa": "اوه! پس برای پرداخت‌های بزرگ کارت را وارد کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "phone",
+      "can",
+      "pay"
+     ],
+     "suggestion": "Can I pay with my phone instead?",
+     "suggestionFa": "می‌تونم به‌جاش با گوشیم پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contactless",
+     "fa": "بدون تماس"
+    },
+    {
+     "word": "limit",
+     "fa": "سقف ؛ حد"
+    },
+    {
+     "word": "per payment",
+     "fa": "برای هر پرداخت"
+    },
+    {
+     "word": "insert",
+     "fa": "وارد کردن"
+    },
+    {
+     "word": "type",
+     "fa": "تایپ کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, the contactless card limit is £100 per payment. Phone and watch payments (like Apple Pay) usually have no fixed limit.",
+    "fa": "در بریتانیا سقف پرداخت بدون تماس با کارت ۱۰۰ پوند است؛ پرداخت با گوشی معمولاً سقف ثابت ندارد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "You can! Phone payments use your fingerprint or face, so there's usually no limit. And sometimes the card asks for a PIN anyway.",
+   "translations": {
+    "fa": "می‌تونید! پرداخت با گوشی از اثر انگشت یا چهره استفاده می‌کنه، پس معمولاً سقف نداره. و گاهی کارت به هر حال رمز می‌خواد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "why",
+      "pin",
+      "ask"
+     ],
+     "suggestion": "Why does it ask for the PIN?",
+     "suggestionFa": "چرا رمز می‌خواد؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "didn't",
+      "know",
+      "bank"
+     ],
+     "suggestion": "I didn't know that. My bank in Iran is different.",
+     "suggestionFa": "نمی‌دونستم. بانکم تو ایران فرق داره.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fingerprint",
+     "fa": "اثر انگشت"
+    },
+    {
+     "word": "face",
+     "fa": "چهره"
+    },
+    {
+     "word": "anyway",
+     "fa": "به هر حال"
+    },
+    {
+     "word": "security",
+     "fa": "امنیت"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "After a few contactless payments in a row, the bank checks it's really you. Like a little test. It's normal — don't panic.",
+   "translations": {
+    "fa": "بعد از چند پرداخت بدون تماس پشت سر هم، بانک چک می‌کنه که واقعاً خودتونید. مثل یه امتحان کوچیک. عادیه — نگران نشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "thought",
+      "stolen",
+      "money"
+     ],
+     "suggestion": "Good. I thought someone had stolen my money!",
+     "suggestionFa": "خوبه. فکر کردم یکی پولم را دزدیده!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "makes",
+      "sense",
+      "test"
+     ],
+     "suggestion": "A little test. That makes sense.",
+     "suggestionFa": "یه امتحان کوچیک. منطقیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in a row",
+     "fa": "پشت سر هم"
+    },
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "normal",
+     "fa": "عادی"
+    },
+    {
+     "word": "stolen",
+     "fa": "دزدیده"
+    },
+    {
+     "word": "makes sense",
+     "fa": "منطقی است"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "Understandable! If your card's ever stolen, freeze it in the app straight away. This button. Then call us.",
+   "translations": {
+    "fa": "قابل درکه! اگه یه وقت کارتتون دزدیده شد، فوراً تو اپ مسدودش کنید. این دکمه. بعد به ما زنگ بزنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "freeze",
+      "button",
+      "got"
+     ],
+     "suggestion": "Freeze it. This button. Got it.",
+     "suggestionFa": "مسدودش کنم. این دکمه. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "unfreeze",
+      "later",
+      "can"
+     ],
+     "suggestion": "Can I unfreeze it later?",
+     "suggestionFa": "بعداً می‌تونم از مسدودی درش بیارم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "understandable",
+     "fa": "قابل درک"
+    },
+    {
+     "word": "stolen",
+     "fa": "دزدیده شده"
+    },
+    {
+     "word": "freeze",
+     "fa": "مسدود کردن"
+    },
+    {
+     "word": "straight away",
+     "fa": "فوراً"
+    },
+    {
+     "word": "unfreeze",
+     "fa": "رفع مسدودی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sian",
+   "text": "Yes — if you find it under the sofa, just unfreeze it. It happens a lot. Now go back and insert your card. The shopping waits!",
+   "translations": {
+    "fa": "بله — اگه زیر مبل پیداش کردید، فقط از مسدودی درش بیارید. زیاد پیش میاد. حالا برگردید و کارتتون را وارد کنید. خرید منتظره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "explained",
+      "clearly",
+      "thank",
+      "si"
+     ],
+     "suggestion": "Thank you, Siân. You explained it very clearly.",
+     "suggestionFa": "ممنون سیان. خیلی واضح توضیح دادید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "insert",
+      "done",
+      "pin"
+     ],
+     "suggestion": "Insert, PIN, done. Thanks!",
+     "suggestionFa": "وارد کن، رمز، تموم. مرسی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sofa",
+     "fa": "مبل"
+    },
+    {
+     "word": "happens",
+     "fa": "پیش می‌آید"
+    },
+    {
+     "word": "waiting",
+     "fa": "منتظر"
+    },
+    {
+     "word": "clearly",
+     "fa": "به وضوح"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sian",
+   "text": "That's my job. Like a bedtime story, but about money. Enjoy the party!",
+   "translations": {
+    "fa": "کار من همینه. مثل قصهٔ قبل از خواب، ولی دربارهٔ پول. از مهمونی لذت ببرید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

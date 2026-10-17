@@ -23,9 +23,9 @@
      "keywords": [
       "lollipop",
       "that's",
-      "she's",
       "stick",
-      "look"
+      "she's",
+      "like"
      ],
      "suggestion": "Look! That's Mrs Bell. The lollipop lady! She's got a big stick like a lollipop.",
      "suggestionFa": "ببین! اون خانم بله. خانم راهنمای عبور! یه چوب بزرگ مثل آب‌نبات چوبی داره.",
@@ -49,8 +49,8 @@
       "children",
       "friend",
       "knows",
-      "stops",
-      "cross"
+      "she's",
+      "stops"
      ],
      "suggestion": "She stops the cars so children can cross. She's my friend. She knows my name!",
      "suggestionFa": "ماشین‌ها را نگه می‌داره که بچه‌ها رد بشن. دوست منه. اسمم را می‌دونه!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "walks",
-      "come",
-      "wait",
       "then",
-      "kerb"
+      "kerb",
+      "come",
+      "have"
      ],
      "suggestion": "We have to wait at the kerb. Then she walks out. Then she says \"Come on!\"",
      "suggestionFa": "باید لب جدول وایسیم. بعد اون میره وسط. بعد میگه «بیاید!»",
@@ -98,9 +98,9 @@
      "keywords": [
       "before",
       "taught",
-      "cross",
       "right",
-      "mummy"
+      "mummy",
+      "cross"
      ],
      "suggestion": "Before we cross, look both ways. Left, right, left! Mummy taught me.",
      "suggestionFa": "قبل از رد شدن، هر دو طرف را نگاه کن. چپ، راست، چپ! مامانی یادم داد.",
@@ -123,9 +123,9 @@
      "keywords": [
       "pavement",
       "walking",
-      "she's",
       "still",
-      "look"
+      "she's",
+      "stop"
      ],
      "suggestion": "Not yet! Mrs Bell is still on the pavement. Look — she's walking out now. Cars stop!",
      "suggestionFa": "هنوز نه! خانم بل هنوز رو پیاده‌روئه. ببین — الان داره میره وسط. ماشین‌ها وای میسن!",
@@ -149,7 +149,7 @@
       "morning",
       "mehdi",
       "lives",
-      "good",
+      "from",
       "iran"
      ],
      "suggestion": "Good morning, Mrs Bell! This is Mehdi. He lives with us. He's from Iran!",
@@ -174,8 +174,8 @@
       "sticker",
       "lovely",
       "mehdi",
-      "gave",
-      "star"
+      "said",
+      "meet"
      ],
      "suggestion": "She said \"Lovely to meet you, Mehdi\". And she gave me a sticker! A star sticker!",
      "suggestionFa": "گفت «خوشحالم از آشنایی مهدی». و بهم یه برچسب داد! برچسب ستاره!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "waiting",
       "waiters",
+      "waiting",
       "sticker",
-      "nicely",
-      "friday"
+      "friday",
+      "nicely"
      ],
      "suggestion": "For waiting nicely at the kerb. Every Friday, good waiters get a sticker.",
      "suggestionFa": "به‌خاطر اینکه خوب لب جدول صبر کردم. هر جمعه، اونایی که خوب صبر می‌کنن برچسب می‌گیرن.",
@@ -224,8 +224,8 @@
       "stickers",
       "children",
       "there",
-      "only",
-      "have"
+      "have",
+      "only"
      ],
      "suggestion": "No! Stickers are only for children. But you can have a hug. There. Bye!",
      "suggestionFa": "نه! برچسب فقط برای بچه‌هاست. ولی می‌تونی یه بغل داشته باشی. بفرما. خداحافظ!",

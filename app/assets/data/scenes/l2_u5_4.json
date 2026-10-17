@@ -20,8 +20,8 @@
     {
      "keywords": [
       "lamb",
-      "see",
-      "did"
+      "did",
+      "see"
      ],
      "suggestion": "Did you see a lamb?",
      "suggestionFa": "بره دیدی؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "don't",
-      "tell",
-      "know"
+      "know",
+      "tell"
      ],
      "suggestion": "I don't know. Tell me!",
      "suggestionFa": "نمی‌دونم. بگو!",
@@ -225,8 +225,8 @@
     {
      "keywords": [
       "picture",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see your picture?",
      "suggestionFa": "می‌تونم نقاشیت را ببینم؟",
@@ -238,8 +238,8 @@
      "keywords": [
       "crown",
       "give",
-      "did",
-      "him"
+      "why",
+      "did"
      ],
      "suggestion": "Why did you give him a crown?",
      "suggestionFa": "چرا بهش تاج دادی؟",

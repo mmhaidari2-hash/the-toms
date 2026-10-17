@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "usually",
+      "o'clock",
       "morning",
       "seven",
       "time"
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "breakfast",
-      "please",
-      "before",
       "nicola",
-      "teeth"
+      "before",
+      "please",
+      "brush"
      ],
      "suggestion": "Hot oats with milk. Now — Nicola! Brush your teeth, please! Do you brush your teeth before or after breakfast?",
      "suggestionFa": "جو داغ با شیر. حالا — نیکولا! لطفاً مسواک بزن! قبل یا بعد از صبحونه مسواک می‌زنی؟",
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "school",
       "nicola",
-      "house",
+      "school",
+      "eight",
       "leave",
-      "eight"
+      "house"
      ],
      "suggestion": "Good. I leave at eight. I walk Nicola to school. What time do you leave the house?",
      "suggestionFa": "خوبه. من ساعت هشت می‌رم. نیکولا را پیاده می‌برم مدرسه. تو ساعت چند از خونه می‌ری؟",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "found",
-      "lunch",
       "thank",
-      "them",
-      "have"
+      "lunch",
+      "have",
+      "them"
      ],
      "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
      "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
@@ -198,8 +198,8 @@
       "morning",
       "what's",
       "every",
-      "star",
-      "like"
+      "like",
+      "star"
      ],
      "suggestion": "You're a star. Every morning is like this! What's your morning like?",
      "suggestionFa": "تو یه ستاره‌ای. هر صبح همین‌طوره! صبح تو چطوره؟",

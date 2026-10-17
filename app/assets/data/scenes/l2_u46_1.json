@@ -89,8 +89,8 @@
     {
      "keywords": [
       "upstairs",
-      "help",
       "look",
+      "help",
       "i'll"
      ],
      "suggestion": "I'll look upstairs. Nicola, help me!",
@@ -170,7 +170,7 @@
       "where's",
       "bottle",
       "water",
-      "bag"
+      "her"
      ],
      "suggestion": "Book bag, yes. Where's her water bottle?",
      "suggestionFa": "کیف کتاب، آره. بطری آبش کجاست؟",
@@ -182,8 +182,8 @@
      "keywords": [
       "reading",
       "table",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "I can see the reading book on the table.",
      "suggestionFa": "کتاب خوندن را رو میز می‌بینم.",
@@ -244,8 +244,8 @@
     },
     {
      "keywords": [
-      "where",
       "dress",
+      "where",
       "tom"
      ],
      "suggestion": "Tom can dress William. Where is Tom?",
@@ -290,8 +290,8 @@
      "keywords": [
       "problem",
       "o'clock",
-      "walk",
-      "nine"
+      "nine",
+      "i'll"
      ],
      "suggestion": "No problem. Nine o'clock. I'll walk with him.",
      "suggestionFa": "مشکلی نیست. ساعت نه. باهاش پیاده میرم.",
@@ -341,8 +341,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "luck",
+      "good",
       "bye"
      ],
      "suggestion": "Bye! Good luck!",
@@ -353,10 +353,10 @@
     },
     {
      "keywords": [
-      "still",
       "lunch",
-      "wait",
-      "here"
+      "still",
+      "here",
+      "wait"
      ],
      "suggestion": "Wait — her lunch box! It's still here!",
      "suggestionFa": "صبر کن — ظرف ناهارش! هنوز اینجاست!",

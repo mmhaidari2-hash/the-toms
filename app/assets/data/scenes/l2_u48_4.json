@@ -1,0 +1,456 @@
+{
+ "id": "l2_u48_4",
+ "characterId": "tom",
+ "title": "Couch to 5K",
+ "titleFa": "از مبل تا ۵ کیلومتر",
+ "setting": "Health habits · Level 2",
+ "settingFa": "عادت‌های سلامتی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Guess what? I've signed up for Couch to 5K. In nine weeks I'll run five kilometres. Me! I get the bus to the corner shop!",
+   "translations": {
+    "fa": "حدس بزن چی؟ برای «از مبل تا ۵ کیلومتر» ثبت‌نام کردم. نه هفته دیگه پنج کیلومتر می‌دوم. من! من که تا سوپری سر کوچه اتوبوس می‌گیرم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "couch",
+      "k"
+     ],
+     "suggestion": "Couch to 5K? What's that?",
+     "suggestionFa": "از مبل تا ۵ کیلومتر؟ چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kilometres",
+      "five",
+      "well",
+      "done"
+     ],
+     "suggestion": "Five kilometres! Well done, Tom!",
+     "suggestionFa": "پنج کیلومتر! آفرین تام!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "signed up",
+     "fa": "ثبت‌نام کردم"
+    },
+    {
+     "word": "couch",
+     "fa": "مبل"
+    },
+    {
+     "word": "kilometres",
+     "fa": "کیلومتر"
+    },
+    {
+     "word": "corner shop",
+     "fa": "سوپری سر کوچه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It's a free NHS app for beginners. It starts with tiny runs. Week one: run for one minute, walk for ninety seconds. Eight times.",
+   "translations": {
+    "fa": "یه اپ رایگان NHS برای مبتدی‌هاست. با دویدن‌های خیلی کوتاه شروع میشه. هفتهٔ اول: یه دقیقه بدو، نود ثانیه راه برو. هشت بار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minute",
+      "sounds",
+      "easy",
+      "one"
+     ],
+     "suggestion": "One minute? That sounds easy.",
+     "suggestionFa": "یه دقیقه؟ آسون به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "can"
+     ],
+     "suggestion": "Can I do it with you?",
+     "suggestionFa": "می‌تونم باهات انجامش بدم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "beginners",
+     "fa": "مبتدی‌ها"
+    },
+    {
+     "word": "tiny",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "seconds",
+     "fa": "ثانیه‌ها"
+    },
+    {
+     "word": "times",
+     "fa": "بار"
+    }
+   ],
+   "cultureNote": {
+    "en": "Couch to 5K is a free NHS running plan: three runs a week for nine weeks, slowly building up to 30 minutes of running.",
+    "fa": "«Couch to 5K» برنامهٔ دویدن رایگان NHS است: هفته‌ای سه بار به مدت نه هفته."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Easy? I nearly died. Yes, come! Run with me on Tuesday, Thursday and Saturday. Hackney Marshes, seven a.m. Before my shift.",
+   "translations": {
+    "fa": "آسون؟ نزدیک بود بمیرم. آره، بیا! سه‌شنبه، پنج‌شنبه و شنبه باهام بدو. هکنی مارشز، هفت صبح. قبل از شیفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "seven",
+      "i'll",
+      "ok"
+     ],
+     "suggestion": "Seven a.m.! OK, I'll be there.",
+     "suggestionFa": "هفت صبح! باشه، میام.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "wear"
+     ],
+     "suggestion": "What should I wear?",
+     "suggestionFa": "چی بپوشم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nearly died",
+     "fa": "نزدیک بود بمیرم"
+    },
+    {
+     "word": "shift",
+     "fa": "شیفت"
+    },
+    {
+     "word": "before",
+     "fa": "قبل از"
+    },
+    {
+     "word": "wear",
+     "fa": "پوشیدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Trainers, shorts, and a T-shirt you don't love. You'll sweat. Jade says buy proper running shoes. Mine are from 2009.",
+   "translations": {
+    "fa": "کتونی، شلوارک و یه تی‌شرتی که دوستش نداری. عرق می‌کنی. جید میگه کفش دویدن درست‌حسابی بخر. مال من مال ۲۰۰۹ـه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "need",
+      "ones",
+      "new"
+     ],
+     "suggestion": "2009! You need new ones.",
+     "suggestionFa": "۲۰۰۹! کفش جدید لازم داری.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "running",
+      "proper",
+      "shoes",
+      "i'll"
+     ],
+     "suggestion": "Proper running shoes. OK, I'll buy some.",
+     "suggestionFa": "کفش دویدن درست. باشه، می‌خرم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "trainers",
+     "fa": "کفش ورزشی ؛ کتونی"
+    },
+    {
+     "word": "sweat",
+     "fa": "عرق کردن"
+    },
+    {
+     "word": "proper",
+     "fa": "درست و حسابی"
+    },
+    {
+     "word": "running shoes",
+     "fa": "کفش دویدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Week four update! I'm getting better. Today I managed to run for five minutes. Without stopping!",
+   "translations": {
+    "fa": "گزارش هفتهٔ چهارم! دارم بهتر میشم. امروز تونستم پنج دقیقه بدوم. بدون وایسادن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopping",
+      "without",
+      "amazing"
+     ],
+     "suggestion": "Five minutes without stopping! Amazing!",
+     "suggestionFa": "پنج دقیقه بدون وایسادن! معرکه‌ست!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "managed",
+      "run"
+     ],
+     "suggestion": "I managed to run for five minutes too.",
+     "suggestionFa": "منم تونستم پنج دقیقه بدوم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "update",
+     "fa": "گزارش ؛ به‌روزرسانی"
+    },
+    {
+     "word": "getting better",
+     "fa": "بهتر شدن"
+    },
+    {
+     "word": "managed to",
+     "fa": "توانستم"
+    },
+    {
+     "word": "without stopping",
+     "fa": "بدون توقف"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i managed run five minutes",
+      "i managed for run"
+     ],
+     "echo": "You managed to run five minutes? Brilliant!",
+     "better": "I managed to run for five minutes.",
+     "betterFa": "توانستم پنج دقیقه بدوم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "And the best part — my blood pressure's down! Dr Okafor was impressed. And my trousers are looser. Leslie noticed.",
+   "translations": {
+    "fa": "و بهترین قسمت — فشار خونم اومده پایین! دکتر اوکافور تحت تأثیر قرار گرفت. و شلوارم گشادتر شده. لزلی متوجه شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "that's",
+      "news",
+      "tom"
+     ],
+     "suggestion": "That's brilliant news, Tom!",
+     "suggestionFa": "خبر فوق‌العاده‌ایه تام!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "running",
+      "coffee",
+      "better",
+      "then"
+     ],
+     "suggestion": "Running is better than no coffee, then!",
+     "suggestionFa": "پس دویدن از قهوه نخوردن بهتره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "impressed",
+     "fa": "تحت تأثیر ؛ شگفت‌زده"
+    },
+    {
+     "word": "trousers",
+     "fa": "شلوار"
+    },
+    {
+     "word": "looser",
+     "fa": "گشادتر"
+    },
+    {
+     "word": "noticed",
+     "fa": "متوجه شد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Ha! Much better. Now — week nine. Saturday is Parkrun. Five K, with three hundred people. Are you in?",
+   "translations": {
+    "fa": "ها! خیلی بهتر. حالا — هفتهٔ نهم. شنبه پارک‌رانه. پنج کیلومتر، با سیصد نفر. پایه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parkrun",
+      "what's"
+     ],
+     "suggestion": "I'm in! What's Parkrun?",
+     "suggestionFa": "پایه‌ام! پارک‌ران چیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hundred",
+      "nervous",
+      "people",
+      "three"
+     ],
+     "suggestion": "Three hundred people? I'm nervous!",
+     "suggestionFa": "سیصد نفر؟ مضطربم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Parkrun",
+     "fa": "پارک‌ران (دوی رایگان شنبه‌ها)"
+    },
+    {
+     "word": "are you in",
+     "fa": "پایه‌ای ؛ هستی"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Parkrun is a free, timed 5K run in parks every Saturday at 9 am, all over the UK. Walkers are welcome too.",
+    "fa": "پارک‌ران دوی ۵ کیلومتری رایگان هر شنبه ساعت ۹ صبح در پارک‌های بریتانیاست."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Free 5K, every Saturday at nine, all over the country. Walkers welcome. The family's coming to cheer. Nicola's making a sign!",
+   "translations": {
+    "fa": "پنج کیلومتر رایگان، هر شنبه ساعت نه، تو کل کشور. پیاده‌ها هم خوش اومدن. خانواده میان تشویق کنن. نیکولا داره تابلو درست می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sign",
+      "say"
+     ],
+     "suggestion": "What does the sign say?",
+     "suggestionFa": "رو تابلو چی نوشته؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "finish",
+      "we'll",
+      "couch"
+     ],
+     "suggestion": "We'll finish together. Couch to 5K team!",
+     "suggestionFa": "با هم تموم می‌کنیم. تیم از مبل تا ۵ کیلومتر!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "welcome",
+     "fa": "خوش‌آمد ؛ پذیرفته"
+    },
+    {
+     "word": "cheer",
+     "fa": "تشویق کردن"
+    },
+    {
+     "word": "sign",
+     "fa": "تابلو ؛ نوشته"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "\"GO DADDY GO. DON'T DIE.\" Ha! That's my girl. Nine weeks ago I couldn't run for a bus. Saturday, we finish. Together.",
+   "translations": {
+    "fa": "«برو بابایی برو. نمیری.» ها! دختر خودمه. نه هفته پیش نمی‌تونستم دنبال اتوبوس بدوم. شنبه تمومش می‌کنیم. با هم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

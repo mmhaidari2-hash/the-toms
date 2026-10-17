@@ -21,8 +21,8 @@
      "keywords": [
       "family's",
       "lodger",
-      "hello",
-      "patel"
+      "patel",
+      "hello"
      ],
      "suggestion": "Hello, Mr Patel. I'm the family's lodger.",
      "suggestionFa": "سلام آقای پاتل. من مستأجر خانواده هستم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "subjects",
       "that's",
-      "great",
-      "which"
+      "which",
+      "great"
      ],
      "suggestion": "That's great. Which subjects is he good at?",
      "suggestionFa": "عالیه. تو چه درس‌هایی خوبه؟",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "english",
-      "maths",
-      "about"
+      "about",
+      "maths"
      ],
      "suggestion": "What about English and Maths?",
      "suggestionFa": "انگلیسی و ریاضی چی؟",
@@ -245,10 +245,10 @@
    "branches": [
     {
      "keywords": [
+      "phone",
       "maybe",
       "means",
-      "phone",
-      "his"
+      "bus"
      ],
      "suggestion": "Maybe on the bus means on his phone, Tom.",
      "suggestionFa": "شاید «تو اتوبوس» یعنی رو گوشیش، تام.",
@@ -300,9 +300,9 @@
     {
      "keywords": [
       "dinner",
-      "eight",
       "fixed",
-      "after"
+      "after",
+      "eight"
      ],
      "suggestion": "A fixed time. Maybe after dinner, from seven to eight?",
      "suggestionFa": "ساعت ثابت. شاید بعد از شام، از هفت تا هشت؟",
@@ -366,8 +366,8 @@
      "keywords": [
       "algebra",
       "maths",
-      "help",
-      "like"
+      "like",
+      "help"
      ],
      "suggestion": "I can help him with Maths too. I like algebra!",
      "suggestionFa": "منم می‌تونم تو ریاضی کمکش کنم. من جبر دوست دارم!",

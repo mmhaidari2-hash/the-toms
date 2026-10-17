@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "think",
       "can't",
+      "think",
       "find"
      ],
      "suggestion": "I can't find my bag. I think I left it on the 38.",
@@ -128,7 +128,7 @@
       "rucksack",
       "stripe",
       "black",
-      "got"
+      "red"
      ],
      "suggestion": "It's a black rucksack. It's got a red stripe.",
      "suggestionFa": "یه کوله‌پشتی مشکیه. یه نوار قرمز داره.",
@@ -324,7 +324,7 @@
       "thank",
       "much",
       "when",
-      "get"
+      "tom"
      ],
      "suggestion": "Thank you so much, Tom! When can I get it?",
      "suggestionFa": "خیلی ممنون تام! کی می‌تونم بگیرمش؟",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "make",
       "just",
+      "make",
       "did",
       "ha"
      ],

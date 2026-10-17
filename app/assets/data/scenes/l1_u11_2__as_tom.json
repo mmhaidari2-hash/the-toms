@@ -24,8 +24,8 @@
       "football",
       "saturday",
       "chores",
-      "later",
-      "right"
+      "right",
+      "later"
      ],
      "suggestion": "Right! It's Saturday. Chores first, football later. Can you help me?",
      "suggestionFa": "خب! شنبه‌ست. اول کارهای خونه، بعد فوتبال. کمکم می‌کنی؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "monday",
-      "bins",
-      "door",
+      "next",
       "ryan",
-      "next"
+      "take",
+      "door"
      ],
      "suggestion": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
      "suggestionFa": "کنار در. رایان! می‌تونی سطل‌ها را ببری بیرون؟ دوشنبه روز سطل زباله‌ست.",
@@ -123,9 +123,9 @@
      "keywords": [
       "washing",
       "little",
+      "waste",
       "caddy",
-      "brown",
-      "waste"
+      "brown"
      ],
      "suggestion": "Food waste goes in the little brown caddy. Now, the washing. Can you hang it on the line?",
      "suggestionFa": "پسماند غذا می‌ره تو سطل کوچیک قهوه‌ای. حالا، لباس‌ها. می‌تونی رو بند پهنشون کنی؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "typical",
       "someone",
-      "plants",
+      "typical",
+      "monday",
       "broken",
-      "monday"
+      "plants"
      ],
      "suggestion": "The dryer is broken. Typical! I'll call someone on Monday. Can you water the plants too?",
      "suggestionFa": "خشک‌کن خرابه. همیشه همین‌طوره! دوشنبه به یکی زنگ می‌زنم. گلدون‌ها را هم آب می‌دی؟",
@@ -225,7 +225,7 @@
       "football",
       "chores",
       "right",
-      "done"
+      "then"
      ],
      "suggestion": "Ha! Mums are the same everywhere. Right — chores done. Cup of tea, then football?",
      "suggestionFa": "ها! مامان‌ها همه جا یه جورن. خب — کارها تموم. یه چای، بعد فوتبال؟",

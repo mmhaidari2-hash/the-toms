@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "going",
       "we're",
+      "going",
       "hold"
      ],
      "suggestion": "Hold on, we're going!",
@@ -115,9 +115,9 @@
     {
      "keywords": [
       "bakery",
+      "left",
       "past",
-      "then",
-      "left"
+      "then"
      ],
      "suggestion": "Past the bakery, then left.",
      "suggestionFa": "بعد از نونوایی، بعد چپ.",
@@ -176,8 +176,8 @@
      "keywords": [
       "changing",
       "there",
-      "baby",
-      "room"
+      "room",
+      "baby"
      ],
      "suggestion": "Is there a baby-changing room too?",
      "suggestionFa": "اتاق تعویض بچه هم هست؟",
@@ -266,8 +266,8 @@
     },
     {
      "keywords": [
-      "there",
       "dryer",
+      "there",
       "hand"
      ],
      "suggestion": "Is there a hand dryer?",

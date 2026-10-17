@@ -1,0 +1,409 @@
+{
+ "id": "l2_u56_4",
+ "characterId": "leslie",
+ "title": "The street WhatsApp group",
+ "titleFa": "گروه واتس‌اپ خیابان",
+ "setting": "Neighbourhood · Level 2",
+ "settingFa": "محله",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "I've added you to the Mare Street WhatsApp group! Brace yourself. Forty-two people. Two hundred messages a day.",
+   "translations": {
+    "fa": "تو را به گروه واتس‌اپ خیابون مِیر اضافه کردم! خودت را آماده کن. چهل و دو نفر. روزی دویست تا پیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "about",
+      "talk",
+      "they"
+     ],
+     "suggestion": "Two hundred! What do they talk about?",
+     "suggestionFa": "دویست تا! دربارهٔ چی حرف می‌زنن؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hello",
+      "thank",
+      "i'll",
+      "say"
+     ],
+     "suggestion": "Thank you! I'll say hello.",
+     "suggestionFa": "ممنون! سلام می‌کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "added",
+     "fa": "اضافه کردم"
+    },
+    {
+     "word": "brace yourself",
+     "fa": "خودت را آماده کن"
+    },
+    {
+     "word": "messages",
+     "fa": "پیام‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Everything! Lost cats, parcels, parking, noise, sofas for sale. Look — Mrs Khan's already typed: \"Welcome to the group, Mehdi!!\"",
+   "translations": {
+    "fa": "همه‌چی! گربه‌های گمشده، بسته‌ها، پارکینگ، سروصدا، مبل برای فروش. ببین — خانم خان همین الان نوشته: «به گروه خوش اومدی مهدی!!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reply",
+      "thank",
+      "happy",
+      "here"
+     ],
+     "suggestion": "Let me reply: \"Thank you! Happy to be here.\"",
+     "suggestionFa": "بذار جواب بدم: «ممنون! خوشحالم اینجام.»",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exclamation",
+      "again",
+      "marks",
+      "two"
+     ],
+     "suggestion": "Two exclamation marks again! Ha!",
+     "suggestionFa": "باز دو تا علامت تعجب! ها!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lost",
+     "fa": "گمشده"
+    },
+    {
+     "word": "parking",
+     "fa": "پارکینگ ؛ پارک"
+    },
+    {
+     "word": "noise",
+     "fa": "سروصدا"
+    },
+    {
+     "word": "selling",
+     "fa": "فروختن"
+    },
+    {
+     "word": "reply",
+     "fa": "جواب دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK streets have WhatsApp groups to share news, lost pets, parcel updates and help. Keep messages short and friendly.",
+    "fa": "خیلی از خیابان‌های بریتانیا گروه واتس‌اپ دارند برای اخبار، حیوانات گمشده و کمک."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Perfect. Oh — a new one. \"Has anyone seen Tiger? He hasn't come home since last night.\" Oh no. Mrs Khan's cat.",
+   "translations": {
+    "fa": "عالی. اوه — یه جدید. «کسی تایگر را دیده؟ از دیشب نیومده خونه.» وای نه. گربهٔ خانم خان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missing",
+      "tiger",
+      "oh"
+     ],
+     "suggestion": "Tiger is missing? Oh no!",
+     "suggestionFa": "تایگر گم شده؟ وای نه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "ginger",
+      "shed",
+      "saw"
+     ],
+     "suggestion": "I saw a big ginger cat by the shed this morning.",
+     "suggestionFa": "امروز صبح یه گربهٔ نارنجی بزرگ کنار انباری دیدم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "has anyone seen",
+     "fa": "کسی دیده است"
+    },
+    {
+     "word": "since",
+     "fa": "از … تا حالا"
+    },
+    {
+     "word": "missing",
+     "fa": "گمشده"
+    },
+    {
+     "word": "ginger",
+     "fa": "نارنجی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "has someone saw tiger",
+      "did anyone seen tiger"
+     ],
+     "echo": "Has anyone seen Tiger? Let's look!",
+     "better": "Has anyone seen Tiger?",
+     "betterFa": "کسی تایگر را دیده؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "By our shed? Tiger's ginger! Write that in the group. Quick! \"I think I saw Tiger by our shed this morning.\"",
+   "translations": {
+    "fa": "کنار انباری ما؟ تایگر نارنجیه! اینو تو گروه بنویس. سریع! «فکر کنم امروز صبح تایگر را کنار انباری‌مون دیدم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "check",
+      "done",
+      "shed"
+     ],
+     "suggestion": "Done. Should I check the shed?",
+     "suggestionFa": "انجام شد. انباری را چک کنم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exclamation",
+      "coming",
+      "marks",
+      "three"
+     ],
+     "suggestion": "Mrs Khan says \"Coming now!!!\" Three exclamation marks!",
+     "suggestionFa": "خانم خان میگه «الان میام!!!» سه تا علامت تعجب!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shed",
+     "fa": "انباری"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Go and look — I'll get the treats. … Oh! Is he in there? On Tom's old deckchair, fast asleep?",
+   "translations": {
+    "fa": "برو ببین — من خوراکی گربه را میارم. … اوه! اون توئه؟ رو صندلی تاشوی قدیمی تام، تو خواب عمیق؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "deckchair",
+      "asleep"
+     ],
+     "suggestion": "Yes! He's asleep on the deckchair!",
+     "suggestionFa": "آره! رو صندلی تاشو خوابه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happy",
+      "looks",
+      "here",
+      "he"
+     ],
+     "suggestion": "He's here. He looks very happy.",
+     "suggestionFa": "اینجاست. خیلی خوشحال به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "treats",
+     "fa": "خوراکی (حیوان)"
+    },
+    {
+     "word": "deckchair",
+     "fa": "صندلی تاشوی ساحلی"
+    },
+    {
+     "word": "fast asleep",
+     "fa": "در خواب عمیق"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ha! He was locked in the shed. Tom! You locked the cat in! Write in the group: \"Found him! He's fine.\"",
+   "translations": {
+    "fa": "ها! تو انباری حبس شده بود. تام! گربه را حبس کردی! تو گروه بنویس: «پیداش کردیم! حالش خوبه.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleepy",
+      "tiger",
+      "found",
+      "fine"
+     ],
+     "suggestion": "\"Found Tiger! He's fine and very sleepy.\"",
+     "suggestionFa": "«تایگر پیدا شد! حالش خوبه و خیلی خواب‌آلوده.»",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sending",
+      "hearts",
+      "people",
+      "forty"
+     ],
+     "suggestion": "Forty people are sending hearts!",
+     "suggestionFa": "چهل نفر دارن قلب می‌فرستن!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "locked",
+     "fa": "قفل کرد ؛ حبس کرد"
+    },
+    {
+     "word": "found",
+     "fa": "پیدا کردم"
+    },
+    {
+     "word": "sleepy",
+     "fa": "خواب‌آلود"
+    },
+    {
+     "word": "hearts",
+     "fa": "قلب‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Forty hearts and a GIF of a dancing cat. Your first day in the group and you're a hero. Now — mute it, or it'll buzz all night!",
+   "translations": {
+    "fa": "چهل تا قلب و یه گیف گربهٔ رقصان. روز اولت تو گروه و قهرمان شدی. حالا — بی‌صداش کن، وگرنه کل شب ویبره می‌زنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "group",
+      "mute",
+      "good",
+      "idea"
+     ],
+     "suggestion": "Mute the group. Good idea!",
+     "suggestionFa": "گروه را بی‌صدا کنم. فکر خوبیه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reminder",
+      "first",
+      "check",
+      "just"
+     ],
+     "suggestion": "Just a reminder for Tom: check the shed first!",
+     "suggestionFa": "فقط یه یادآوری برای تام: اول انباری را چک کن!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "GIF",
+     "fa": "گیف ؛ تصویر متحرک"
+    },
+    {
+     "word": "hero",
+     "fa": "قهرمان"
+    },
+    {
+     "word": "mute",
+     "fa": "بی‌صدا کردن"
+    },
+    {
+     "word": "buzz",
+     "fa": "ویبره زدن"
+    },
+    {
+     "word": "reminder",
+     "fa": "یادآوری"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ha! Post that. \"Just a reminder: check your sheds before you lock them. Love, number ten.\" Mrs Khan will laugh for a week.",
+   "translations": {
+    "fa": "ها! بفرستش. «فقط یه یادآوری: قبل از قفل کردن انباری‌تون چکش کنید. با عشق، شمارهٔ ده.» خانم خان یه هفته می‌خنده."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

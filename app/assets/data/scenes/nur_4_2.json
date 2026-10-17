@@ -12,17 +12,17 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Hi, {you}! It's strange seeing you here! How was William today?",
+   "text": "Hi! You must be Sara — Vida says you're brilliant. How was William today?",
    "translations": {
-    "fa": "سلام {you}! عجیبه اینجا می‌بینمت! ویلیام امروز چطور بود؟"
+    "fa": "سلام! تو باید سارا باشی — ویدا میگه فوق‌العاده‌ای. ویلیام امروز چطور بود؟"
    },
    "branches": [
     {
      "keywords": [
       "leslie",
       "great",
-      "day",
-      "had"
+      "had",
+      "day"
      ],
      "suggestion": "Hi, Leslie! He had a great day.",
      "suggestionFa": "سلام لزلی! روز خیلی خوبی داشت.",
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "lunch",
-      "most",
       "peas",
+      "most",
       "but"
      ],
      "suggestion": "He ate most of his lunch, but no peas.",
@@ -118,10 +118,10 @@
    "branches": [
     {
      "keywords": [
-      "hour",
       "from",
-      "two",
-      "one"
+      "hour",
+      "one",
+      "two"
      ],
      "suggestion": "Yes, he slept for an hour, from one to two.",
      "suggestionFa": "آره، یه ساعت خوابید، از یک تا دو.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "really",
-      "after",
       "lunch",
+      "after",
       "well"
      ],
      "suggestion": "Yes, he slept really well after lunch.",
@@ -237,7 +237,7 @@
       "painted",
       "himself",
       "nicola",
-      "he"
+      "hi"
      ],
      "suggestion": "Hi, Nicola! He painted it himself.",
      "suggestionFa": "سلام نیکولا! خودش رنگش کرد.",
@@ -318,12 +318,13 @@
   "n7": {
    "id": "n7",
    "speaker": "leslie",
-   "text": "Fantastic. Thanks, {you}. You sound like a real nursery practitioner already!",
+   "text": "Fantastic. Thanks, Sara. You sound like a real nursery practitioner already!",
    "translations": {
-    "fa": "فوق‌العاده. ممنون {you}. همین الان مثل یه مربی مهد واقعی حرف می‌زنی!"
+    "fa": "فوق‌العاده. ممنون سارا. همین الان مثل یه مربی مهد واقعی حرف می‌زنی!"
    },
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

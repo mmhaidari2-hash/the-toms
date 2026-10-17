@@ -196,7 +196,7 @@ class LessonScreen extends ConsumerWidget {
                               runSpacing: 8,
                               children: [
                                 for (final r in [
-                                  'mehdi',
+                                  c.scenes[l.sceneIds.first]?.guest ?? 'mehdi',
                                   ...c.variantsOf(l.sceneIds.first).keys,
                                 ])
                                   if (c.characterOrNull(r) != null)
@@ -204,7 +204,16 @@ class LessonScreen extends ConsumerWidget {
                                       onTap: () {
                                         ref
                                             .read(progressProvider.notifier)
-                                            .setRole(r);
+                                            .setRole(
+                                              r ==
+                                                      c
+                                                          .scenes[l
+                                                              .sceneIds
+                                                              .first]
+                                                          ?.guest
+                                                  ? 'mehdi'
+                                                  : r,
+                                            );
                                         context.push(
                                           '/chat/${l.sceneIds.first}',
                                         );
@@ -221,7 +230,14 @@ class LessonScreen extends ConsumerWidget {
                                               ref
                                                       .watch(progressProvider)
                                                       .role ==
-                                                  r
+                                                  (r ==
+                                                          c
+                                                              .scenes[l
+                                                                  .sceneIds
+                                                                  .first]
+                                                              ?.guest
+                                                      ? 'mehdi'
+                                                      : r)
                                               ? BL.navy
                                               : BL.mist,
                                           borderRadius: BorderRadius.circular(
@@ -250,7 +266,14 @@ class LessonScreen extends ConsumerWidget {
                                                               progressProvider,
                                                             )
                                                             .role ==
-                                                        r
+                                                        (r ==
+                                                                c
+                                                                    .scenes[l
+                                                                        .sceneIds
+                                                                        .first]
+                                                                    ?.guest
+                                                            ? 'mehdi'
+                                                            : r)
                                                     ? Colors.white
                                                     : BL.ink,
                                               ),

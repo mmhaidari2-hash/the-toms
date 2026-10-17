@@ -1,0 +1,420 @@
+{
+ "id": "l2_u50_4",
+ "characterId": "tom",
+ "title": "After the party",
+ "titleFa": "بعد از مهمانی",
+ "setting": "Party planning · Level 2",
+ "settingFa": "برنامه‌ریزی مهمانی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Phew. Everyone's gone. Doris left with three balloons, half the cake and a new scarf. Best day of her life, she said.",
+   "translations": {
+    "fa": "وای. همه رفتن. دوریس با سه تا بادکنک، نصف کیک و یه شال گردن جدید رفت. گفت بهترین روز عمرش بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "that's",
+      "party",
+      "great"
+     ],
+     "suggestion": "That's wonderful, Tom. It was a great party.",
+     "suggestionFa": "این عالیه تام. مهمونی فوق‌العاده‌ای بود.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tired",
+      "night"
+     ],
+     "suggestion": "What a night! I'm so tired.",
+     "suggestionFa": "چه شبی! خیلی خسته‌ام.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phew",
+     "fa": "وای (خستگی)"
+    },
+    {
+     "word": "gone",
+     "fa": "رفته‌اند"
+    },
+    {
+     "word": "balloons",
+     "fa": "بادکنک‌ها"
+    },
+    {
+     "word": "wonderful",
+     "fa": "فوق‌العاده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Look at this room, though. A bomb's gone off. Could you help me with the plates? Leslie's putting the kids to bed.",
+   "translations": {
+    "fa": "ولی این اتاق را ببین. انگار بمب ترکیده. میشه با بشقاب‌ها کمکم کنی؟ لزلی داره بچه‌ها را می‌خوابونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plates",
+      "where",
+      "sure",
+      "go"
+     ],
+     "suggestion": "Sure. Where do the plates go?",
+     "suggestionFa": "حتماً. بشقاب‌ها کجا میرن؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "collect",
+      "first",
+      "cups",
+      "i'll"
+     ],
+     "suggestion": "I'll collect the cups first.",
+     "suggestionFa": "اول فنجون‌ها را جمع می‌کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a bomb's gone off",
+     "fa": "انگار بمب ترکیده"
+    },
+    {
+     "word": "plates",
+     "fa": "بشقاب‌ها"
+    },
+    {
+     "word": "putting to bed",
+     "fa": "خواباندن"
+    },
+    {
+     "word": "collect",
+     "fa": "جمع کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Paper plates in the black bag. Real ones in the dishwasher. Cups in the sink. Bottles in the recycling — the green box.",
+   "translations": {
+    "fa": "بشقاب کاغذی تو کیسهٔ مشکی. واقعی‌ها تو ماشین ظرف‌شویی. فنجون‌ها تو سینک. بطری‌ها تو بازیافت — جعبهٔ سبز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leftover",
+      "where",
+      "food",
+      "go"
+     ],
+     "suggestion": "Where does the leftover food go?",
+     "suggestionFa": "غذای اضافه کجا بره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dishwasher",
+      "recycling",
+      "black",
+      "sink"
+     ],
+     "suggestion": "Black bag, dishwasher, sink, recycling. Got it.",
+     "suggestionFa": "کیسهٔ مشکی، ظرف‌شویی، سینک، بازیافت. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paper",
+     "fa": "کاغذی"
+    },
+    {
+     "word": "dishwasher",
+     "fa": "ماشین ظرف‌شویی"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    },
+    {
+     "word": "bottles",
+     "fa": "بطری‌ها"
+    },
+    {
+     "word": "recycling",
+     "fa": "بازیافت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "where do the leftover food go",
+      "where goes the food"
+     ],
+     "echo": "Where does the food go? In the fridge!",
+     "better": "Where does the leftover food go?",
+     "betterFa": "غذای اضافه کجا برود؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Leftovers in the fridge — in boxes. Your saffron rice is all gone, by the way. Arthur had three plates. He asked for the recipe!",
+   "translations": {
+    "fa": "باقی‌مونده‌ها تو یخچال — تو ظرف. راستی برنج زعفرونیت همه‌ش تموم شد. آرتور سه بشقاب خورد. دستورش را خواست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "write",
+      "i'll",
+      "down"
+     ],
+     "suggestion": "Really? I'll write it down for him.",
+     "suggestionFa": "واقعاً؟ براش می‌نویسمش.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "plates",
+      "three",
+      "happy"
+     ],
+     "suggestion": "Three plates! I'm so happy.",
+     "suggestionFa": "سه بشقاب! خیلی خوشحالم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leftovers",
+     "fa": "باقی‌ماندهٔ غذا"
+    },
+    {
+     "word": "boxes",
+     "fa": "ظرف‌ها ؛ جعبه‌ها"
+    },
+    {
+     "word": "by the way",
+     "fa": "راستی"
+    },
+    {
+     "word": "asked for",
+     "fa": "خواست"
+    }
+   ],
+   "cultureNote": {
+    "en": "In many UK homes, glass, cans, paper and plastic go in recycling. Food waste often goes in a small separate caddy.",
+    "fa": "در بیشتر خانه‌های بریتانیا شیشه، قوطی، کاغذ و پلاستیک بازیافت می‌شوند و پسماند غذا در سطل کوچک جدا می‌رود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Ha! Now — the balloons. We'd better pop them before William wakes up. He'll want to play with them at five a.m.",
+   "translations": {
+    "fa": "ها! حالا — بادکنک‌ها. بهتره قبل از اینکه ویلیام بیدار بشه بترکونیمشون. ساعت پنج صبح می‌خواد باهاشون بازی کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "won't",
+      "them",
+      "wake",
+      "him"
+     ],
+     "suggestion": "Pop them? Won't that wake him up?",
+     "suggestionFa": "بترکونیمشون؟ بیدارش نمی‌کنه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quietly",
+      "slowly",
+      "let's",
+      "out"
+     ],
+     "suggestion": "Let's let the air out slowly. Quietly.",
+     "suggestionFa": "بیا آروم بادشون را خالی کنیم. بی‌صدا.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "we'd better",
+     "fa": "بهتر است"
+    },
+    {
+     "word": "pop",
+     "fa": "ترکاندن"
+    },
+    {
+     "word": "wake up",
+     "fa": "بیدار شدن"
+    },
+    {
+     "word": "air out",
+     "fa": "خالی کردن باد"
+    },
+    {
+     "word": "quietly",
+     "fa": "بی‌صدا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Good point. Slowly, slowly. Psssss. Ha! Listen to us. Two grown men whispering to balloons at midnight.",
+   "translations": {
+    "fa": "نکتهٔ خوبیه. آروم، آروم. پسسسس. ها! ما را ببین. دو تا مرد بالغ نصف‌شب با بادکنک‌ها پچ‌پچ می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doris",
+      "say",
+      "did",
+      "end"
+     ],
+     "suggestion": "What did Doris say at the end?",
+     "suggestionFa": "دوریس آخرش چی گفت؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "loud",
+      "tom",
+      "shh"
+     ],
+     "suggestion": "Shh! Not so loud, Tom!",
+     "suggestionFa": "هیس! انقدر بلند نه تام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good point",
+     "fa": "نکتهٔ خوب"
+    },
+    {
+     "word": "grown men",
+     "fa": "مردان بالغ"
+    },
+    {
+     "word": "whispering",
+     "fa": "پچ‌پچ کردن"
+    },
+    {
+     "word": "midnight",
+     "fa": "نیمه‌شب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "She held my hand and said, \"Ron would've loved this.\" Then she said my driving's got worse. Classic Doris.",
+   "translations": {
+    "fa": "دستم را گرفت و گفت «ران عاشق این می‌شد.» بعد گفت رانندگیم بدتر شده. دوریسِ همیشگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "truth",
+      "tells",
+      "she"
+     ],
+     "suggestion": "Ha! She always tells the truth.",
+     "suggestionFa": "ها! همیشه حقیقت را میگه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "that's",
+      "friend",
+      "good"
+     ],
+     "suggestion": "That's beautiful. You're a good friend, Tom.",
+     "suggestionFa": "قشنگه. تو دوست خوبی هستی تام.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "held",
+     "fa": "گرفت"
+    },
+    {
+     "word": "would've loved",
+     "fa": "عاشقش می‌شد"
+    },
+    {
+     "word": "worse",
+     "fa": "بدتر"
+    },
+    {
+     "word": "truth",
+     "fa": "حقیقت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Cheers, mate. The floor can wait till tomorrow. Cup of tea? Then bed. We'd better sleep — I'm on the 38 at six tomorrow!",
+   "translations": {
+    "fa": "مرسی رفیق. زمین تا فردا صبر می‌کنه. یه فنجون چای؟ بعد تخت. بهتره بخوابیم — فردا ساعت شش رو ۳۸م!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

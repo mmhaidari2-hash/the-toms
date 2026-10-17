@@ -1,0 +1,250 @@
+{
+ "id": "l2_u55_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) The Wi-Fi's down",
+ "titleFa": "(در نقش Leslie) وای‌فای قطع است",
+ "setting": "Phone and internet · Level 2",
+ "settingFa": "تلفن و اینترنت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u55_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "screaming",
+      "reports",
+      "tonight",
+      "thirty",
+      "ryan's"
+     ],
+     "suggestion": "The Wi-Fi's down! Again! I've got thirty reports to write tonight, and Ryan's screaming about his game. Can you help?",
+     "suggestionFa": "وای‌فای قطعه! باز! امشب سی تا کارنامه باید بنویسم، و رایان سر بازیش داد می‌زنه. کمک می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Have you tried turning the router off and on?",
+   "translations": {
+    "fa": "حتماً. امتحان کردی روتر را خاموش و روشن کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "router's",
+      "stairs",
+      "under",
+      "phone"
+     ],
+     "suggestion": "Everyone. Ryan, me, Tom's phone. The router's under the stairs. Tom says \"turn it off and on\", but I don't know which box.",
+     "suggestionFa": "همه. رایان، من، گوشی تام. روتر زیر پله‌هاست. تام میگه «خاموش و روشنش کن»، ولی نمی‌دونم کدوم جعبه‌ست.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Let me look. It's this white box with the lights.",
+   "translations": {
+    "fa": "بذار ببینم. همین جعبهٔ سفید با چراغ‌هاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seconds",
+      "thirty",
+      "lights",
+      "let's",
+      "count"
+     ],
+     "suggestion": "Red lights. Hmm. OK — off at the wall. Wait thirty seconds. Then on again. Let's count. One… two…",
+     "suggestionFa": "چراغ قرمز. هوم. باشه — از پریز خاموشش کن. سی ثانیه صبر کن. بعد دوباره روشن. بیا بشمریم. یک… دو…",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thirty seconds. OK, it's on again.",
+   "translations": {
+    "fa": "سی ثانیه. باشه، دوباره روشن شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "provider's",
+      "shouting",
+      "website",
+      "orange",
+      "keeps"
+     ],
+     "suggestion": "Orange, then… red again. It keeps going red! Ryan! Stop shouting! Right — let's check the provider's website. On your phone data.",
+     "suggestionFa": "نارنجی، بعد… باز قرمز. مدام قرمز میشه! رایان! داد نزن! خب — بیا سایت شرکت اینترنت را چک کنیم. با اینترنت گوشیت.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It says: \"There's a problem in your area.\"",
+   "translations": {
+    "fa": "میگه: «در منطقهٔ شما مشکلی هست.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "outage",
+      "fixed",
+      "area",
+      "will",
+      "when"
+     ],
+     "suggestion": "An outage in our area! So it's not us. When will it be fixed? Does it say?",
+     "suggestionFa": "قطعی تو منطقهٔ ما! پس مشکل از ما نیست. کی درست میشه؟ گفته؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "\"We expect it to be fixed by nine p.m.\"",
+   "translations": {
+    "fa": "«انتظار داریم تا ساعت ۹ شب درست شود.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reports",
+      "hotspot",
+      "phone",
+      "hours",
+      "just"
+     ],
+     "suggestion": "Nine p.m.? Two hours! My reports! Can I use your phone as a hotspot? Just for half an hour?",
+     "suggestionFa": "نه شب؟ دو ساعت! کارنامه‌هام! می‌تونم از گوشیت به‌عنوان هات‌اسپات استفاده کنم؟ فقط نیم ساعت؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Of course. I've got unlimited data.",
+   "translations": {
+    "fa": "البته. اینترنت نامحدود دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "looking",
+      "outage",
+      "like",
+      "hero"
+     ],
+     "suggestion": "You're a hero. Ryan — it's an outage. Nothing we can do. Go and read a book! … He's looking at me like I'm mad.",
+     "suggestionFa": "تو قهرمانی. رایان — قطعیه. کاری از دستمون برنمیاد. برو یه کتاب بخون! … طوری نگاهم می‌کنه انگار دیوونه‌ام.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! A book! Poor Ryan.",
+   "translations": {
+    "fa": "ها! کتاب! رایان بیچاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheering",
+      "working",
+      "minutes",
+      "ryan's",
+      "lights"
+     ],
+     "suggestion": "Ooh, look — the lights are green! It's working again! Ten minutes early! Ryan's cheering. The house is happy.",
+     "suggestionFa": "اوه، ببین — چراغ‌ها سبز شدن! دوباره کار می‌کنه! ده دقیقه زودتر! رایان داره هورا می‌کشه. خونه خوشحاله.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Green lights! It's working again.",
+   "translations": {
+    "fa": "چراغ سبز! دوباره کار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight's",
+      "between",
+      "hotspot",
+      "website",
+      "lesson"
+     ],
+     "suggestion": "Thank you. Tonight's lesson: off and on, check the website, use a hotspot. And never, ever get between Ryan and his Wi-Fi!",
+     "suggestionFa": "ممنون. درس امشب: خاموش و روشن، سایت را چک کن، از هات‌اسپات استفاده کن. و هیچ‌وقت، هیچ‌وقت بین رایان و وای‌فایش قرار نگیر!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

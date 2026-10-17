@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "check",
       "shall",
+      "check",
       "app"
      ],
      "suggestion": "Shall I check the app?",
@@ -117,8 +117,8 @@
      "keywords": [
       "supposed",
       "ordered",
-      "thirty",
-      "arrive"
+      "arrive",
+      "thirty"
      ],
      "suggestion": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
      "suggestionFa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه.",
@@ -182,7 +182,7 @@
      "keywords": [
       "minutes",
       "driver",
-      "lost",
+      "five",
       "he's"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
@@ -246,7 +246,7 @@
       "percent",
       "they'll",
       "give",
-      "off"
+      "ten"
      ],
      "suggestion": "Yes. They'll give us ten percent off.",
      "suggestionFa": "آره. ده درصد تخفیف بهمون میدن.",

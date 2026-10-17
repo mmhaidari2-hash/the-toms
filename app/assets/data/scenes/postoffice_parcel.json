@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "much",
       "cost",
+      "will",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
-      "need",
       "done",
-      "else"
+      "else",
+      "need"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "please",
-      "number"
+      "number",
+      "please"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",

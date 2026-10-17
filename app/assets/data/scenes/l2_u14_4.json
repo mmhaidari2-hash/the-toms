@@ -123,8 +123,8 @@
      "keywords": [
       "wrong",
       "says",
-      "pin",
-      "hmm"
+      "hmm",
+      "pin"
      ],
      "suggestion": "It says \"wrong PIN\". Hmm.",
      "suggestionFa": "نوشته «رمز اشتباه». هوم.",
@@ -170,8 +170,8 @@
     {
      "keywords": [
       "logged",
-      "got",
-      "now"
+      "now",
+      "got"
      ],
      "suggestion": "Got it! I'm logged in now.",
      "suggestionFa": "گرفتم! الان وارد شدم.",
@@ -280,9 +280,9 @@
    "branches": [
     {
      "keywords": [
-      "pages",
-      "black",
       "white",
+      "black",
+      "pages",
       "just"
      ],
      "suggestion": "Just two pages, black and white.",

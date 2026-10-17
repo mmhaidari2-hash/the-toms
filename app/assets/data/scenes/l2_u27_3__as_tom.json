@@ -25,7 +25,7 @@
       "leslie's",
       "worried",
       "hello",
-      "still"
+      "where"
      ],
      "suggestion": "Hello? It's midnight! Where are you? Leslie's worried. Are you still in town?",
      "suggestionFa": "الو؟ نصف شبه! کجایی؟ لزلی نگرانه. هنوز تو شهری؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "newington",
       "problem",
-      "oxford",
       "street",
-      "stoke"
+      "oxford",
+      "night"
      ],
      "suggestion": "No problem. Get the night bus. The N73 goes from Oxford Street to Stoke Newington. It runs all night.",
      "suggestionFa": "مشکلی نیست. سوار اتوبوس شبانه شو. N73 از آکسفورد استریت میره استوک نیوینگتون. تمام شب کار می‌کنه.",
@@ -148,8 +148,8 @@
      "keywords": [
       "harmless",
       "station",
-      "mostly",
       "police",
+      "mostly",
       "drunk"
      ],
      "suggestion": "Drunk, yes. Mostly harmless. I'll pick you up at the police station in the car. Text me when you're on the bus.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "either",
       "leslie",
-      "won't",
-      "sleep",
-      "don't"
+      "either",
+      "until",
+      "don't",
+      "won't"
      ],
      "suggestion": "I know I don't have to. But Leslie won't sleep until you're home. And I won't either. See you soon, mate.",
      "suggestionFa": "می‌دونم لازم نیست. ولی لزلی تا تو نرسی خونه نمی‌خوابه. منم نمی‌خوابم. زود می‌بینمت رفیق.",

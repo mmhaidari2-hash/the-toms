@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
       "bogof",
+      "price",
       "bags",
       "one"
      ],
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "price",
-      "deal",
       "half",
-      "good"
+      "good",
+      "deal"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "small",
       "alone",
+      "small",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "seven",
       "after",
+      "seven",
       "why"
      ],
      "suggestion": "Why after seven?",
@@ -328,10 +328,10 @@
    "branches": [
     {
      "keywords": [
-      "pence",
       "seven",
+      "pence",
       "back",
-      "come"
+      "i'll"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
      "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",

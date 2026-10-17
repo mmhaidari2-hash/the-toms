@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "nicola",
-      "hi",
-      "ok"
+      "course",
+      "ok",
+      "hi"
      ],
      "suggestion": "Of course. Hi, Nicola. Are you OK?",
      "suggestionFa": "البته. سلام نیکولا. خوبی؟",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "nicola",
-      "happy",
       "makes",
-      "thank"
+      "thank",
+      "happy"
      ],
      "suggestion": "Thank you, Nicola. That makes me happy.",
      "suggestionFa": "ممنون نیکولا. این خوشحالم می‌کنه.",
@@ -283,8 +283,8 @@
      "keywords": [
       "tomorrow",
       "nicola",
-      "ask",
-      "mia"
+      "mia",
+      "ask"
      ],
      "suggestion": "Ask Mia tomorrow, Nicola.",
      "suggestionFa": "فردا از میا بپرس نیکولا.",
@@ -359,8 +359,8 @@
     {
      "keywords": [
       "course",
-      "hug",
-      "big"
+      "big",
+      "hug"
      ],
      "suggestion": "Of course! A big hug!",
      "suggestionFa": "البته! یه بغل بزرگ!",
@@ -370,8 +370,8 @@
     },
     {
      "keywords": [
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "Come here!",
      "suggestionFa": "بیا اینجا!",

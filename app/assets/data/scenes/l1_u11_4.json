@@ -33,8 +33,8 @@
      "keywords": [
       "minutes",
       "phone",
-      "more",
-      "then"
+      "then",
+      "more"
      ],
      "suggestion": "Ten minutes more, then phone off.",
      "suggestionFa": "ده دقیقهٔ دیگه، بعد گوشی خاموش.",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "work",
       "have",
+      "work",
       "nine",
       "but"
      ],
@@ -133,10 +133,10 @@
     },
     {
      "keywords": [
-      "maths",
       "sleep",
-      "test",
-      "then"
+      "maths",
+      "then",
+      "need"
      ],
      "suggestion": "A maths test? Then you need sleep!",
      "suggestionFa": "امتحان ریاضی؟ پس خواب لازم داری!",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "seven",
-      "alarm"
+      "alarm",
+      "seven"
      ],
      "suggestion": "Yes, your alarm is on for seven.",
      "suggestionFa": "آره، زنگت برای هفت روشنه.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "i'll",
-      "set",
-      "off"
+      "off",
+      "set"
      ],
      "suggestion": "No, it's off. I'll set it for you.",
      "suggestionFa": "نه، خاموشه. برات تنظیمش می‌کنم.",
@@ -236,8 +236,8 @@
      "keywords": [
       "tomorrow",
       "wear",
-      "old",
-      "one"
+      "one",
+      "old"
      ],
      "suggestion": "Wear your old one tomorrow.",
      "suggestionFa": "فردا قدیمیه را بپوش.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "ryan",
-      "sure"
+      "sure",
+      "ryan"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -356,8 +356,8 @@
     {
      "keywords": [
       "early",
-      "long",
       "i've",
+      "long",
       "day"
      ],
      "suggestion": "Early. I've got a long day.",
@@ -404,10 +404,10 @@
     },
     {
      "keywords": [
-      "ryan",
       "test",
+      "luck",
       "good",
-      "luck"
+      "ryan"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",
      "suggestionFa": "شب بخیر رایان. تو امتحانت موفق باشی.",

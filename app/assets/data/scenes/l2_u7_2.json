@@ -32,8 +32,8 @@
     {
      "keywords": [
       "tell",
-      "go",
-      "us"
+      "us",
+      "go"
      ],
      "suggestion": "Go on, tell us!",
      "suggestionFa": "بگو دیگه!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "owner",
       "where",
+      "owner",
       "way"
      ],
      "suggestion": "No way! Where was the owner?",
@@ -151,8 +151,8 @@
    "branches": [
     {
      "keywords": [
-      "give",
       "some",
+      "give",
       "did"
      ],
      "suggestion": "Did you give it some?",

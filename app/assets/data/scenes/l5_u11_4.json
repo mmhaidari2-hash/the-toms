@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "they",
       "call",
       "wait",
-      "they",
       "did"
      ],
      "suggestion": "Wait — did they call you, or did you call them?",
@@ -89,7 +89,7 @@
       "calling",
       "branch",
       "which",
-      "he's"
+      "then"
      ],
      "suggestion": "Ask him which branch he's calling from — then hang up.",
      "suggestionFa": "ازش بپرس از کدوم شعبه زنگ می‌زنه — بعد قطع کن.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "pressure",
-      "signs",
       "panic",
-      "fraud"
+      "fraud",
+      "signs"
      ],
      "suggestion": "Yes. Pressure and panic are signs of fraud.",
      "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
@@ -142,8 +142,8 @@
      "keywords": [
       "comfortable",
       "directly",
-      "bank",
-      "tell"
+      "i'll",
+      "call"
      ],
      "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
      "suggestionFa": "بهش بگو: «راحت نیستم. مستقیم به بانکم زنگ می‌زنم.»",
@@ -192,10 +192,10 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "another",
+      "minutes",
       "phone",
-      "wait"
+      "then"
      ],
      "suggestion": "Wait five minutes, or use another phone, then call 159.",
      "suggestionFa": "پنج دقیقه صبر کن، یا با یه گوشی دیگه، بعد به ۱۵۹ زنگ بزن.",
@@ -254,10 +254,10 @@
     },
     {
      "keywords": [
-      "barclays",
       "claiming",
+      "barclays",
       "report",
-      "scam"
+      "like"
      ],
      "suggestion": "We'd like to report a scam call claiming to be from Barclays.",
      "suggestionFa": "می‌خوایم یه تماس کلاهبرداری به اسم بارکلیز گزارش بدیم.",
@@ -305,7 +305,7 @@
       "stopped",
       "before",
       "birth",
-      "date"
+      "gave"
      ],
      "suggestion": "He gave his date of birth before I stopped him.",
      "suggestionFa": "قبل از اینکه جلوش را بگیرم تاریخ تولدش را داد.",
@@ -350,7 +350,7 @@
       "password",
       "banking",
       "should",
-      "change"
+      "online"
      ],
      "suggestion": "Should he change his online banking password?",
      "suggestionFa": "باید رمز بانکداری آنلاینش را عوض کنه؟",
@@ -390,8 +390,8 @@
      "keywords": [
       "tonight",
       "report",
-      "thank",
-      "we'll"
+      "we'll",
+      "thank"
      ],
      "suggestion": "We'll report it tonight. Thank you, Siân.",
      "suggestionFa": "امشب گزارشش می‌دیم. ممنون سیان.",
@@ -403,8 +403,8 @@
      "keywords": [
       "targeted",
       "people",
-      "maggie",
-      "george"
+      "george",
+      "maggie"
      ],
      "suggestion": "I'll warn George and Maggie too — older people are often targeted.",
      "suggestionFa": "به جورج و مگی هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.",

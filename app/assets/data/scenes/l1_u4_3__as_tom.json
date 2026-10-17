@@ -47,10 +47,10 @@
     {
      "keywords": [
       "quarter",
-      "train",
       "eight",
-      "half",
-      "late"
+      "train",
+      "past",
+      "half"
      ],
      "suggestion": "Half past? I'm late! My train is at quarter to eight.",
      "suggestionFa": "هفت و نیم؟ دیرم شده! قطارم یک‌ربع به هشته.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "where",
       "quick",
       "table",
-      "where",
       "they",
       "keys"
      ],
@@ -148,9 +148,9 @@
      "keywords": [
       "right",
       "bye",
-      "off",
       "six",
-      "see"
+      "see",
+      "off"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
      "suggestionFa": "خب، من رفتم. ساعت شش می‌بینمت! خداحافظ!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "time's",
+      "cheers",
       "silly",
       "clock",
       "oven"

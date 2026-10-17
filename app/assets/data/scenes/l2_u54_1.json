@@ -1,0 +1,421 @@
+{
+ "id": "l2_u54_1",
+ "characterId": "nicola",
+ "title": "Planting seeds",
+ "titleFa": "کاشتن دانه",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Look! My school gave me sunflower seeds. We're planting them in the park garden. Can you help me?",
+   "translations": {
+    "fa": "ببین! مدرسه بهم دونهٔ آفتابگردون داد. داریم تو باغچهٔ پارک می‌کاریمشون. کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "seeds",
+      "many",
+      "have"
+     ],
+     "suggestion": "Of course! How many seeds have you got?",
+     "suggestionFa": "البته! چند تا دونه داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sunflowers",
+      "they",
+      "tall",
+      "grow"
+     ],
+     "suggestion": "Sunflowers! They grow very tall.",
+     "suggestionFa": "آفتابگردون! خیلی بلند میشن.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sunflower",
+     "fa": "آفتابگردان"
+    },
+    {
+     "word": "seeds",
+     "fa": "دانه‌ها"
+    },
+    {
+     "word": "planting",
+     "fa": "کاشتن"
+    },
+    {
+     "word": "grow",
+     "fa": "رشد کردن"
+    },
+    {
+     "word": "tall",
+     "fa": "بلند"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Five seeds. They're stripy! Mummy says first we dig a little hole. With my spade!",
+   "translations": {
+    "fa": "پنج تا دونه. راه‌راهن! مامانی میگه اول یه سوراخ کوچیک می‌کنیم. با بیلچه‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "deep",
+      "hole",
+      "how"
+     ],
+     "suggestion": "Dig a little hole. How deep?",
+     "suggestionFa": "یه سوراخ کوچیک بکن. چقدر عمیق؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spade",
+      "pink",
+      "nice"
+     ],
+     "suggestion": "Your spade is pink! Very nice.",
+     "suggestionFa": "بیلچه‌ات صورتیه! خیلی قشنگه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stripy",
+     "fa": "راه‌راه"
+    },
+    {
+     "word": "dig",
+     "fa": "کندن"
+    },
+    {
+     "word": "hole",
+     "fa": "سوراخ ؛ چاله"
+    },
+    {
+     "word": "spade",
+     "fa": "بیلچه ؛ بیل"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "dig the little hole deep",
+      "dig a hole small"
+     ],
+     "echo": "Dig a little hole! Like this!",
+     "better": "Dig a little hole.",
+     "betterFa": "یک سوراخ کوچک بکن."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "As deep as my finger. Look — a worm! Hello, worm! Don't worry, we won't hurt you.",
+   "translations": {
+    "fa": "به عمق انگشتم. ببین — یه کرم! سلام کرم! نگران نباش، اذیتت نمی‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "worms",
+      "soil",
+      "good"
+     ],
+     "suggestion": "Worms are good for the soil.",
+     "suggestionFa": "کرم‌ها برای خاک خوبن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gently",
+      "next",
+      "worm",
+      "hole"
+     ],
+     "suggestion": "Put the worm next to the hole. Gently!",
+     "suggestionFa": "کرم را بذار کنار سوراخ. آروم!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deep",
+     "fa": "عمیق"
+    },
+    {
+     "word": "finger",
+     "fa": "انگشت"
+    },
+    {
+     "word": "worm",
+     "fa": "کرم"
+    },
+    {
+     "word": "hurt",
+     "fa": "آزار دادن"
+    },
+    {
+     "word": "soil",
+     "fa": "خاک"
+    }
+   ],
+   "cultureNote": {
+    "en": "Worms help plants by making the soil healthy. In British gardens, people often say worms are \"the gardener's friend\".",
+    "fa": "کرم‌ها خاک را سالم می‌کنند؛ به آن‌ها «دوست باغبان» می‌گویند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Now put the seed in. Pointy end down. Then cover it with soil. Pat, pat!",
+   "translations": {
+    "fa": "حالا دونه را بذار توش. سر نوک‌تیز پایین. بعد با خاک بپوشونش. آروم بزن، آروم بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pointy",
+      "down",
+      "done",
+      "pat"
+     ],
+     "suggestion": "Pointy end down. Pat, pat. Done!",
+     "suggestionFa": "سر نوک‌تیز پایین. آروم بزن. تموم شد!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "close",
+      "next",
+      "one",
+      "now"
+     ],
+     "suggestion": "Now the next one. Not too close!",
+     "suggestionFa": "حالا بعدی. نه خیلی نزدیک!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pointy",
+     "fa": "نوک‌تیز"
+    },
+    {
+     "word": "end",
+     "fa": "سر ؛ انتها"
+    },
+    {
+     "word": "cover",
+     "fa": "پوشاندن"
+    },
+    {
+     "word": "pat",
+     "fa": "آرام زدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Five seeds, five holes! Now water. Water it every day. Can you hold the watering can? It's heavy.",
+   "translations": {
+    "fa": "پنج تا دونه، پنج تا سوراخ! حالا آب. هر روز آبش بده. میشه آب‌پاش را نگه داری؟ سنگینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "much",
+      "here"
+     ],
+     "suggestion": "Here. Not too much water!",
+     "suggestionFa": "بفرما. نه خیلی آب زیاد!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "rains",
+      "even",
+      "when"
+     ],
+     "suggestion": "Every day? Even when it rains?",
+     "suggestionFa": "هر روز؟ حتی وقتی بارون میاد؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "water",
+     "fa": "آب دادن"
+    },
+    {
+     "word": "every day",
+     "fa": "هر روز"
+    },
+    {
+     "word": "watering can",
+     "fa": "آب‌پاش"
+    },
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "When it rains, the sky does it! Silly. How long will it take? I want flowers tomorrow.",
+   "translations": {
+    "fa": "وقتی بارون میاد، آسمون آبش میده! خنگول. چقدر طول می‌کشه؟ فردا گل می‌خوام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "little",
+      "shoot",
+      "days"
+     ],
+     "suggestion": "Tomorrow? No! About ten days for a little shoot.",
+     "suggestionFa": "فردا؟ نه! حدود ده روز برای یه جوونهٔ کوچیک.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "flowers",
+      "patient",
+      "months",
+      "three"
+     ],
+     "suggestion": "Flowers take about three months. Be patient!",
+     "suggestionFa": "گل حدود سه ماه طول می‌کشه. صبور باش!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sky",
+     "fa": "آسمان"
+    },
+    {
+     "word": "silly",
+     "fa": "خنگول ؛ بامزه"
+    },
+    {
+     "word": "shoot",
+     "fa": "جوانه"
+    },
+    {
+     "word": "patient",
+     "fa": "صبور"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Three MONTHS? That's forever! Will it be taller than Daddy?",
+   "translations": {
+    "fa": "سه ماه؟ این یعنی تا ابد! از بابایی بلندتر میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunflowers",
+      "metres",
+      "maybe",
+      "tall"
+     ],
+     "suggestion": "Maybe! Some sunflowers grow two metres tall.",
+     "suggestionFa": "شاید! بعضی آفتابگردون‌ها دو متر بلند میشن.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "measure",
+      "every",
+      "let's",
+      "week"
+     ],
+     "suggestion": "Let's measure it every week.",
+     "suggestionFa": "بیا هر هفته اندازه‌اش را بگیریم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forever",
+     "fa": "تا ابد"
+    },
+    {
+     "word": "taller",
+     "fa": "بلندتر"
+    },
+    {
+     "word": "metres",
+     "fa": "متر"
+    },
+    {
+     "word": "measure",
+     "fa": "اندازه گرفتن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Yes! A sunflower race! Mine against Mia's. Mine will win. I'll sing to it every day.",
+   "translations": {
+    "fa": "آره! مسابقهٔ آفتابگردون! مال من در برابر مال میا. مال من می‌بره. هر روز براش آواز می‌خونم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

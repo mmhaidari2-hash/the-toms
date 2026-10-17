@@ -22,8 +22,8 @@
     {
      "keywords": [
       "badge",
-      "look",
       "came",
+      "look",
       "says",
       "six"
      ],
@@ -50,7 +50,7 @@
       "present",
       "bring",
       "open",
-      "can"
+      "now"
      ],
      "suggestion": "Did you bring me a present? Is it wrapped? Can I open it NOW?",
      "suggestionFa": "برام کادو آوردی؟ کادوپیچه؟ می‌تونم همین الان بازش کنم؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "unicorn",
       "mia's",
-      "look",
-      "love",
-      "here"
+      "here",
+      "book",
+      "love"
      ],
      "suggestion": "It's a unicorn book! I love it! Look, Mia's here too.",
      "suggestionFa": "یه کتاب تک‌شاخه! عاشقشم! ببین، میا هم اینجاست.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
+      "statues",
       "playing",
       "musical",
-      "statues",
       "freeze",
-      "music"
+      "stops"
      ],
      "suggestion": "We're playing musical statues! When the music stops, you freeze. Want to play?",
      "suggestionFa": "داریم مجسمه‌بازی می‌کنیم! وقتی آهنگ قطع میشه، باید خشک بشی. می‌خوای بازی کنی؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "cakes",
-      "moved",
       "party",
+      "moved",
       "fairy",
-      "food"
+      "cakes",
+      "like"
      ],
      "suggestion": "You moved! You're out! Ha ha! Now it's party food. Do you like fairy cakes?",
      "suggestionFa": "تکون خوردی! باختی! ها ها! حالا وقت غذای جشنه. کیک فنجونی دوست داری؟",
@@ -149,7 +149,7 @@
       "sprinkles",
       "there's",
       "little",
-      "icing",
+      "jelly",
       "cream"
      ],
      "suggestion": "Little cakes with icing and sprinkles! Mummy made them. And there's jelly and ice cream!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "everyone's",
-      "candles",
       "singing",
-      "will",
-      "sing"
+      "candles",
+      "then",
+      "will"
      ],
      "suggestion": "Everyone's singing! Will you sing with me? Then I blow out the candles!",
      "suggestionFa": "همه دارن می‌خونن! باهام می‌خونی؟ بعد شمع‌ها را فوت می‌کنم!",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "parcel",
-      "won't",
       "can't",
+      "won't",
       "come",
-      "pass"
+      "made"
      ],
      "suggestion": "I made a wish! But I can't tell you, or it won't come true. Now pass the parcel!",
      "suggestionFa": "آرزو کردم! ولی نمی‌تونم بهت بگم، وگرنه برآورده نمیشه. حالا بازی بسته!",
@@ -223,9 +223,9 @@
      "keywords": [
       "birthday",
       "friend",
+      "thank",
       "party",
-      "being",
-      "thank"
+      "being"
      ],
      "suggestion": "Best. Birthday. EVER. Thank you for being my friend! You get a party bag!",
      "suggestionFa": "بهترین. تولد. تاریخ! ممنون که دوستمی! یه کیسهٔ هدیه می‌گیری!",

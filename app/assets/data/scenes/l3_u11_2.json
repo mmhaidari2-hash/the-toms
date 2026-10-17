@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "absence",
       "calling",
+      "absence",
       "report",
       "won't"
      ],
@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "got",
-      "bad"
+      "bad",
+      "got"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -172,7 +172,7 @@
       "thursday",
       "she'll",
       "forty",
-      "eight"
+      "hours"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
      "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
@@ -184,8 +184,8 @@
      "keywords": [
       "didn't",
       "thank",
-      "rule",
-      "know"
+      "know",
+      "rule"
      ],
      "suggestion": "I didn't know that rule. Thank you.",
      "suggestionFa": "این قانون را نمی‌دونستم. ممنون.",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "family",
+      "friend",
       "added",
       "last"
      ],
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "asked",
-      "sure",
-      "call"
+      "call",
+      "sure"
      ],
      "suggestion": "I'm not sure. Leslie asked me to call.",
      "suggestionFa": "مطمئن نیستم. لزلی ازم خواست زنگ بزنم.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "still",
-      "able",
       "will",
+      "able",
       "she"
      ],
      "suggestion": "Will she still be able to go?",

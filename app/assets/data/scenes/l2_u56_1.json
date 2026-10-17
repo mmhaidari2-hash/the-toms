@@ -1,0 +1,429 @@
+{
+ "id": "l2_u56_1",
+ "characterId": "tom",
+ "title": "Bin collection day",
+ "titleFa": "روز جمع‌آوری زباله",
+ "setting": "Neighbourhood · Level 2",
+ "settingFa": "محله",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Monday night! Bin night! The most exciting night of the week. Is it black bin week or green bin week?",
+   "translations": {
+    "fa": "دوشنبه شب! شب سطل زباله! هیجان‌انگیزترین شب هفته. هفتهٔ سطل مشکیه یا سطل سبز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "which",
+      "know",
+      "how"
+     ],
+     "suggestion": "I don't know. How do you know which week it is?",
+     "suggestionFa": "نمی‌دونم. از کجا می‌فهمی کدوم هفته‌ست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "black",
+      "green",
+      "last",
+      "was"
+     ],
+     "suggestion": "Last week was black. So it's green week?",
+     "suggestionFa": "هفتهٔ پیش مشکی بود. پس هفتهٔ سبزه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bin night",
+     "fa": "شب گذاشتن سطل‌ها"
+    },
+    {
+     "word": "exciting",
+     "fa": "هیجان‌انگیز"
+    },
+    {
+     "word": "black bin",
+     "fa": "سطل مشکی (زبالهٔ عمومی)"
+    },
+    {
+     "word": "green bin",
+     "fa": "سطل سبز (بازیافت)"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Clever. Black and green, alternate weeks. Collection is Tuesday morning, early. So we put the bins out the night before.",
+   "translations": {
+    "fa": "زرنگی. مشکی و سبز، یه هفته در میون. جمع‌آوری سه‌شنبه صبح، زود. پس سطل‌ها را شب قبل بیرون می‌ذاریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "which",
+      "then",
+      "out"
+     ],
+     "suggestion": "Which bin goes out tonight, then?",
+     "suggestionFa": "پس امشب کدوم سطل بیرون میره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "green",
+      "week",
+      "one"
+     ],
+     "suggestion": "Green week. What goes in the green one?",
+     "suggestionFa": "هفتهٔ سبز. تو سبزه چی میره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "alternate weeks",
+     "fa": "یک هفته در میان"
+    },
+    {
+     "word": "collection",
+     "fa": "جمع‌آوری"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "night before",
+     "fa": "شب قبل"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK councils collect general rubbish and recycling on alternate weeks. You put bins out on the pavement the night before, then take them back in.",
+    "fa": "بسیاری از شهرداری‌ها زبالهٔ عمومی و بازیافت را یک هفته در میان جمع می‌کنند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Green tonight. Recycling: cans, bottles, paper, cardboard, plastic tubs. Rinsed! No food. Black is for everything else.",
+   "translations": {
+    "fa": "امشب سبز. بازیافت: قوطی، بطری، کاغذ، مقوا، ظرف پلاستیکی. شسته! بدون غذا. مشکی برای بقیه چیزهاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "pizza",
+      "box"
+     ],
+     "suggestion": "Is this pizza box recycling?",
+     "suggestionFa": "این جعبهٔ پیتزا بازیافتیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rubbish",
+      "rinsed",
+      "have",
+      "wash"
+     ],
+     "suggestion": "Rinsed? I have to wash the rubbish?",
+     "suggestionFa": "شسته؟ باید زباله را بشورم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cans",
+     "fa": "قوطی‌ها"
+    },
+    {
+     "word": "cardboard",
+     "fa": "مقوا"
+    },
+    {
+     "word": "plastic tubs",
+     "fa": "ظرف‌های پلاستیکی"
+    },
+    {
+     "word": "rinsed",
+     "fa": "آب‌کشیده"
+    },
+    {
+     "word": "everything else",
+     "fa": "بقیهٔ چیزها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "A quick rinse, yeah. Sounds mad, I know. And the pizza box — greasy bit in the black, clean lid in the green. Mrs Khan checks!",
+   "translations": {
+    "fa": "یه آب‌کشیدن سریع، آره. می‌دونم دیوونگی به نظر میاد. و جعبهٔ پیتزا — قسمت چرب تو مشکی، درِ تمیز تو سبز. خانم خان چک می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "checks",
+      "khan",
+      "bins",
+      "our"
+     ],
+     "suggestion": "Mrs Khan checks our bins?",
+     "suggestionFa": "خانم خان سطل‌های ما را چک می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "greasy",
+      "green",
+      "black",
+      "clean"
+     ],
+     "suggestion": "Greasy in black, clean in green. Got it.",
+     "suggestionFa": "چرب تو مشکی، تمیز تو سبز. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rinse",
+     "fa": "آب کشیدن"
+    },
+    {
+     "word": "mad",
+     "fa": "دیوانگی"
+    },
+    {
+     "word": "greasy",
+     "fa": "چرب"
+    },
+    {
+     "word": "lid",
+     "fa": "در ؛ سرپوش"
+    },
+    {
+     "word": "checks",
+     "fa": "بررسی می‌کند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "which bin goes out tonight? the green",
+      "which bin go out"
+     ],
+     "echo": "Which bin goes out? The green one!",
+     "better": "Which bin goes out tonight?",
+     "betterFa": "امشب کدام سطل بیرون می‌رود؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "She's the street's unofficial bin inspector. Right — wheel it to the pavement. Handle facing the road. That's how they like it.",
+   "translations": {
+    "fa": "اون بازرس غیررسمی سطل‌های خیابونه. خب — بکشش تا پیاده‌رو. دسته رو به خیابون. اینجوری دوست دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "handle",
+      "facing",
+      "road",
+      "done"
+     ],
+     "suggestion": "Handle facing the road. Done.",
+     "suggestionFa": "دسته رو به خیابون. انجام شد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "khan's",
+      "shall",
+      "hers",
+      "out"
+     ],
+     "suggestion": "And Mrs Khan's bin? Shall I put hers out too?",
+     "suggestionFa": "و سطل خانم خان؟ مال اون را هم بیرون بذارم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unofficial",
+     "fa": "غیررسمی"
+    },
+    {
+     "word": "inspector",
+     "fa": "بازرس"
+    },
+    {
+     "word": "wheel",
+     "fa": "با چرخ بردن"
+    },
+    {
+     "word": "handle",
+     "fa": "دسته"
+    },
+    {
+     "word": "facing",
+     "fa": "رو به"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Good man. Yes — she's got a bad back. Next morning… Wait. It's ten a.m. and our bin is still full. They've missed us!",
+   "translations": {
+    "fa": "آفرین. آره — کمرش درد می‌کنه. صبح بعد… صبر کن. ساعت ده صبحه و سطل ما هنوز پره. ما را جا انداختن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missed",
+      "us",
+      "we"
+     ],
+     "suggestion": "Missed us? What do we do?",
+     "suggestionFa": "جا انداختن؟ چی کار کنیم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "khan's",
+      "empty",
+      "only",
+      "full"
+     ],
+     "suggestion": "Mrs Khan's bin is empty. Only ours is full!",
+     "suggestionFa": "سطل خانم خان خالیه. فقط مال ما پره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bad back",
+     "fa": "کمردرد"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "full",
+     "fa": "پر"
+    },
+    {
+     "word": "missed",
+     "fa": "جا انداختند"
+    },
+    {
+     "word": "empty",
+     "fa": "خالی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Only ours? The cheek! You report it on the council website — \"missed bin\". Ms Ward's lot. Within two days, they come back.",
+   "translations": {
+    "fa": "فقط مال ما؟ چه پررویی! تو سایت شهرداری گزارش میدی — «سطل جاافتاده». بچه‌های خانم وارد. ظرف دو روز برمی‌گردن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie",
+      "month",
+      "know",
+      "last"
+     ],
+     "suggestion": "I know! I did it for Nana Maggie last month.",
+     "suggestionFa": "می‌دونم! ماه پیش برای نانا مگی انجامش دادم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "report",
+      "phone",
+      "i'll",
+      "now"
+     ],
+     "suggestion": "I'll report it now on my phone.",
+     "suggestionFa": "الان با گوشیم گزارشش میدم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the cheek",
+     "fa": "چه پررویی"
+    },
+    {
+     "word": "report",
+     "fa": "گزارش دادن"
+    },
+    {
+     "word": "council",
+     "fa": "شهرداری"
+    },
+    {
+     "word": "within",
+     "fa": "ظرف ؛ در عرض"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "You're an expert! Bins, council, everything. Mate, you're more British than me. Report it, and I'll put the kettle on.",
+   "translations": {
+    "fa": "تو متخصصی! سطل، شهرداری، همه‌چی. رفیق، تو از من بریتانیایی‌تری. گزارش بده، منم کتری را می‌ذارم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

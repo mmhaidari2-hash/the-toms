@@ -1,0 +1,250 @@
+{
+ "id": "l2_u49_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Making a curry",
+ "titleFa": "(در نقش Ryan) درست کردن کاری",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u49_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "tonight",
+      "youtube",
+      "curry",
+      "video"
+     ],
+     "suggestion": "Mum and Dad are out tonight. I said I'd cook. Chicken curry. From a YouTube video. Can you help? I've never made one.",
+     "suggestionFa": "مامان و بابا امشب بیرونن. گفتم من آشپزی می‌کنم. کاری مرغ. از یه ویدیوی یوتیوب. کمکم می‌کنی؟ تا حالا درست نکردم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. I love cooking. Where's the recipe?",
+   "translations": {
+    "fa": "حتماً. عاشق آشپزی‌ام. دستورش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "noodles",
+      "already",
+      "crying",
+      "onions",
+      "toast"
+     ],
+     "suggestion": "Oi! I can cook. Toast. Pot Noodles. OK, step one: chop two onions. My eyes are already crying.",
+     "suggestionFa": "هی! من آشپزی بلدم. نون تست. نودل لیوانی. باشه، مرحلهٔ یک: دو تا پیاز خرد کن. چشمام از همین الان داره گریه می‌کنه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I'll chop the onions. I'm used to it.",
+   "translations": {
+    "fa": "من پیازها را خرد می‌کنم. عادت دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lifesaver",
+      "they're",
+      "minutes",
+      "golden",
+      "onions"
+     ],
+     "suggestion": "Lifesaver. Next: fry the onions in oil until they're soft and golden. About ten minutes. Low heat.",
+     "suggestionFa": "نجات‌دهنده‌ای. بعدی: پیازها را تو روغن سرخ کن تا نرم و طلایی بشن. حدود ده دقیقه. حرارت کم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Until golden. Not brown! Keep stirring.",
+   "translations": {
+    "fa": "تا طلایی. نه قهوه‌ای! هم بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turmeric",
+      "chicken",
+      "spices",
+      "masala",
+      "ginger"
+     ],
+     "suggestion": "The video says ten. Now garlic and ginger. Then the spices: cumin, turmeric, garam masala. Then the chicken.",
+     "suggestionFa": "ویدیو میگه ده. حالا سیر و زنجبیل. بعد ادویه‌ها: زیره، زردچوبه، گرم ماسالا. بعد مرغ.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "We use turmeric in Iran too! A lot!",
+   "translations": {
+    "fa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teaspoons",
+      "chilli",
+      "three",
+      "home",
+      "i'll"
+     ],
+     "suggestion": "Chilli — \"one to three teaspoons\". I'll do three. Go big or go home!",
+     "suggestionFa": "فلفل — «یک تا سه قاشق چای‌خوری». من سه تا می‌ریزم. یا همه یا هیچ!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Three? William and Nicola are eating too!",
+   "translations": {
+    "fa": "سه تا؟ ویلیام و نیکولا هم می‌خورن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomatoes",
+      "teaspoon",
+      "coconut",
+      "nicola",
+      "cried"
+     ],
+     "suggestion": "Oh yeah. The kids. Nicola cried at a mild salsa once. OK — one teaspoon. Add a pinch of salt. Then tomatoes and coconut milk.",
+     "suggestionFa": "اوه آره. بچه‌ها. نیکولا یه بار سر یه سالسای ملایم گریه کرد. باشه — یه قاشق. یه ذره نمک اضافه کن. بعد گوجه و شیر نارگیل.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It smells amazing already.",
+   "translations": {
+    "fa": "از همین الان بوی معرکه‌ای میده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "simmering",
+      "anything",
+      "minutes",
+      "honest",
+      "twenty"
+     ],
+     "suggestion": "Twenty minutes simmering. Then rice. Taste it — be honest. Does it need anything?",
+     "suggestionFa": "بیست دقیقه آروم بجوشه. بعد برنج. بچشش — صادق باش. چیزی کم داره؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "It needs a bit more salt. And lemon!",
+   "translations": {
+    "fa": "یه کم نمک بیشتر می‌خواد. و لیمو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "microwave",
+      "usually",
+      "doesn't",
+      "lemon",
+      "video"
+     ],
+     "suggestion": "Lemon. Nice. And now — the rice. How do you make rice? The video doesn't say. I usually get the microwave bag.",
+     "suggestionFa": "لیمو. خوبه. و حالا — برنج. برنج را چطوری درست می‌کنی؟ ویدیو نمیگه. من معمولاً کیسهٔ مایکروویوی می‌گیرم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Leave the rice to me. Persian rice is the best!",
+   "translations": {
+    "fa": "برنج را بسپار به من. برنج ایرانی بهترینه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "crispy",
+      "helped",
+      "bottom",
+      "genius"
+     ],
+     "suggestion": "Persian rice with a crispy bottom? The tah-dig thing? YES. Mum's going to think I'm a genius. Don't tell her you helped.",
+     "suggestionFa": "برنج ایرانی با ته ترد؟ همون ته‌دیگ؟ آره! مامان فکر می‌کنه من نابغه‌ام. نگی تو کمک کردی.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

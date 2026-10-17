@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "maggie",
       "course",
-      "need",
-      "nana"
+      "maggie",
+      "nana",
+      "need"
      ],
      "suggestion": "Of course, Nana Maggie. What do I need?",
      "suggestionFa": "البته ننه مگی. چی لازم دارم؟",
@@ -85,9 +85,9 @@
     {
      "keywords": [
       "thompson",
-      "edward",
       "george",
-      "card"
+      "edward",
+      "need"
      ],
      "suggestion": "George Edward Thompson. Do I need his card?",
      "suggestionFa": "جورج ادوارد تامپسون. کارتش را لازم دارم؟",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "address",
-      "sorry",
       "don't",
+      "sorry",
       "know"
      ],
      "suggestion": "Sorry, I don't know his address!",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "tonight",
       "tablets",
+      "tonight",
       "needs",
       "heart"
      ],
@@ -286,8 +286,8 @@
      "keywords": [
       "morning",
       "maggie",
-      "nana",
-      "tell"
+      "i'll",
+      "nana"
      ],
      "suggestion": "Two in the morning. I'll tell Nana Maggie.",
      "suggestionFa": "صبح دو تا. به ننه مگی میگم.",
@@ -298,8 +298,8 @@
     {
      "keywords": [
       "please",
-      "could",
       "write",
+      "could",
       "box"
      ],
      "suggestion": "Could you write it on the box, please?",
@@ -403,10 +403,10 @@
     },
     {
      "keywords": [
-      "that's",
       "george",
+      "that's",
       "thank",
-      "kind"
+      "tell"
      ],
      "suggestion": "Tell George thank you. That's very kind.",
      "suggestionFa": "به جورج بگو ممنون. خیلی لطف داره.",

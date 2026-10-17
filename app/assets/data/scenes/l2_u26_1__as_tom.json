@@ -47,8 +47,8 @@
     {
      "keywords": [
       "dashboard",
-      "points",
       "little",
+      "points",
       "arrow",
       "light"
      ],
@@ -74,8 +74,8 @@
       "unleaded",
       "careful",
       "petrol",
-      "diesel",
-      "nozzle"
+      "nozzle",
+      "diesel"
      ],
      "suggestion": "Now, careful. Green nozzle is unleaded petrol. Black is diesel. Our car is petrol. Which one do you pick?",
      "suggestionFa": "حالا، دقت کن. نازل سبز بنزین بدون سربه. مشکی گازوئیله. ماشین ما بنزینیه. کدوم را برمی‌داری؟",
@@ -99,8 +99,8 @@
       "christmas",
       "mentions",
       "hundred",
-      "petrol",
-      "leslie"
+      "leslie",
+      "petrol"
      ],
      "suggestion": "Phew! I put diesel in a petrol car once. Cost me four hundred quid. Leslie still mentions it. Every Christmas.",
      "suggestionFa": "آخیش! من یه بار تو ماشین بنزینی گازوئیل زدم. چهارصد پوند برام آب خورد. لزلی هنوز هر کریسمس بهش اشاره می‌کنه.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "squeeze",
-      "thirty",
-      "pounds",
       "handle",
-      "screen"
+      "thirty",
+      "screen",
+      "pounds"
      ],
      "suggestion": "Right. Squeeze the handle. Watch the screen. How much shall we put in? Thirty pounds? Or fill it up?",
      "suggestionFa": "خب. دسته را فشار بده. صفحه را نگاه کن. چقدر بزنیم؟ سی پوند؟ یا پرش کنیم؟",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "petrol",
       "clicks",
-      "isn't",
+      "pounds",
+      "click",
       "cheap"
      ],
      "suggestion": "It clicks when it's full. Hear that? Click. Done. Fifty-two pounds. Petrol isn't cheap, is it?",
@@ -174,8 +174,8 @@
       "remember",
       "doesn't",
       "petrol",
-      "inside",
-      "number"
+      "number",
+      "inside"
      ],
      "suggestion": "Cheap petrol? Don't tell me, I'll cry. This pump doesn't take cards, so we pay inside. Remember the number: pump four.",
      "suggestionFa": "بنزین ارزون؟ نگو، گریه‌ام می‌گیره. این پمپ کارت قبول نمی‌کنه، پس داخل پرداخت می‌کنیم. شماره یادت بمونه: پمپ چهار.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "youtube",
-      "people",
       "nozzle",
       "always",
-      "close"
+      "people",
+      "drive"
      ],
      "suggestion": "Yes — always put it back and close the cap. Don't drive off with the nozzle! People do. I've seen it on YouTube.",
      "suggestionFa": "آره — همیشه سر جاش بذار و درِ باک را ببند. با نازل راه نیفت! مردم این کار را می‌کنن. تو یوتیوب دیدم.",

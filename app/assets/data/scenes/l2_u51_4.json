@@ -1,0 +1,415 @@
+{
+ "id": "l2_u51_4",
+ "characterId": "doris",
+ "title": "Following the map on the phone",
+ "titleFa": "دنبال کردن نقشهٔ گوشی",
+ "setting": "Asking the way · Level 2",
+ "settingFa": "پرسیدن مسیر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "I've got an appointment at the new hearing clinic. My nephew Gary put it in my phone. But I can't read the little map. Help?",
+   "translations": {
+    "fa": "تو کلینیک جدید شنوایی وقت دارم. خواهرزاده‌ام گری آدرسش را تو گوشیم گذاشته. ولی نقشهٔ کوچیک را نمی‌تونم بخونم. کمک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "phone",
+      "doris",
+      "see"
+     ],
+     "suggestion": "Of course, Doris. Let me see your phone.",
+     "suggestionFa": "البته دوریس. گوشیتون را ببینم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "come",
+      "i'll"
+     ],
+     "suggestion": "I'll come with you. Where is it?",
+     "suggestionFa": "باهاتون میام. کجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "appointment",
+     "fa": "وقت ملاقات"
+    },
+    {
+     "word": "hearing clinic",
+     "fa": "کلینیک شنوایی"
+    },
+    {
+     "word": "nephew",
+     "fa": "خواهرزاده ؛ برادرزاده"
+    },
+    {
+     "word": "address",
+     "fa": "آدرس"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Gary says it talks to you. He set it to \"walking\". Oh — it's talking! What did it say? I didn't hear. That's why I'm going!",
+   "translations": {
+    "fa": "گری میگه باهات حرف می‌زنه. رو «پیاده» تنظیمش کرده. اوه — داره حرف می‌زنه! چی گفت؟ نشنیدم. برای همینه که دارم میرم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "north",
+      "mare",
+      "head"
+     ],
+     "suggestion": "It says, \"Head north on Mare Street.\"",
+     "suggestionFa": "میگه «به سمت شمال خیابون مِیر برید.»",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "eight",
+      "away"
+     ],
+     "suggestion": "It says it's eight minutes away.",
+     "suggestionFa": "میگه هشت دقیقه فاصله داره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "set",
+     "fa": "تنظیم کرد"
+    },
+    {
+     "word": "walking",
+     "fa": "پیاده"
+    },
+    {
+     "word": "head north",
+     "fa": "به سمت شمال برو"
+    },
+    {
+     "word": "away",
+     "fa": "فاصله"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "North! Which way is north, love? I only know \"towards the shops\" and \"towards the cemetery\".",
+   "translations": {
+    "fa": "شمال! کدوم طرف شماله عزیزم؟ من فقط «سمت مغازه‌ها» و «سمت قبرستون» را بلدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "towards",
+      "shops",
+      "arrow",
+      "shows"
+     ],
+     "suggestion": "The blue arrow shows us. This way — towards the shops.",
+     "suggestionFa": "فلش آبی نشونمون میده. از این طرف — سمت مغازه‌ها.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "moves",
+      "let's",
+      "walk",
+      "see"
+     ],
+     "suggestion": "Let's walk and see if the dot moves.",
+     "suggestionFa": "بیاید راه بریم ببینیم نقطه تکون می‌خوره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "north",
+     "fa": "شمال"
+    },
+    {
+     "word": "towards",
+     "fa": "به سمت"
+    },
+    {
+     "word": "cemetery",
+     "fa": "قبرستان"
+    },
+    {
+     "word": "arrow",
+     "fa": "فلش"
+    },
+    {
+     "word": "dot",
+     "fa": "نقطه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Map apps say \"Head north\", \"In 200 metres, turn left\", \"Your destination is on the right\". Hold the phone flat so the arrow points the right way.",
+    "fa": "اپ‌های نقشه می‌گویند «Head north» و «In 200 metres, turn left». گوشی را صاف نگه دارید."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Towards the shops. Lovely. Now it's talking again. \"In two hundred metres, turn…\" Something.",
+   "translations": {
+    "fa": "سمت مغازه‌ها. عالی. حالا دوباره داره حرف می‌زنه. «دویست متر دیگه، بپیچید…» یه چیزی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "hundred",
+      "metres",
+      "lane"
+     ],
+     "suggestion": "\"In two hundred metres, turn left onto Morning Lane.\"",
+     "suggestionFa": "«دویست متر دیگه، به چپ بپیچید تو مورنینگ لین.»",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "after",
+      "bank",
+      "sign",
+      "see"
+     ],
+     "suggestion": "Turn left after the bank. I can see the sign.",
+     "suggestionFa": "بعد از بانک به چپ بپیچید. تابلو را می‌بینم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "metres",
+     "fa": "متر"
+    },
+    {
+     "word": "turn left",
+     "fa": "به چپ بپیچ"
+    },
+    {
+     "word": "onto",
+     "fa": "به داخل ؛ روی"
+    },
+    {
+     "word": "lane",
+     "fa": "خیابان باریک ؛ کوچه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "in two hundred metres turn on left",
+      "turn left in two hundred metre"
+     ],
+     "echo": "Turn left in 200 metres? OK!",
+     "better": "In two hundred metres, turn left.",
+     "betterFa": "دویست متر دیگر به چپ بپیچ."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Morning Lane, yes! Hang on, the arrow's pointing backwards. Are we going the wrong way?",
+   "translations": {
+    "fa": "مورنینگ لین، آره! صبر کن، فلش داره به عقب اشاره می‌کنه. داریم اشتباه میریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "we've",
+      "gone",
+      "back"
+     ],
+     "suggestion": "Yes, we've gone too far. Let's turn back.",
+     "suggestionFa": "آره، زیادی رفتیم. بیاید برگردیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "second",
+      "just",
+      "slow",
+      "wait"
+     ],
+     "suggestion": "No, it's just slow. Wait one second.",
+     "suggestionFa": "نه، فقط کنده. یه ثانیه صبر کنید.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hang on",
+     "fa": "صبر کن"
+    },
+    {
+     "word": "pointing",
+     "fa": "اشاره کردن"
+    },
+    {
+     "word": "backwards",
+     "fa": "به عقب"
+    },
+    {
+     "word": "wrong way",
+     "fa": "راه اشتباه"
+    },
+    {
+     "word": "turn back",
+     "fa": "برگشتن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Too far! We were chatting. Story of my life. Right — back to the corner. Now what does it say?",
+   "translations": {
+    "fa": "زیادی رفتیم! داشتیم گپ می‌زدیم. داستان زندگیم. خب — برگردیم سر نبش. حالا چی میگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "destination",
+      "right"
+     ],
+     "suggestion": "\"Your destination is on the right.\"",
+     "suggestionFa": "«مقصد شما سمت راست است.»",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minute",
+      "close",
+      "says",
+      "one"
+     ],
+     "suggestion": "It says one minute. Very close!",
+     "suggestionFa": "میگه یه دقیقه. خیلی نزدیکه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chatting",
+     "fa": "گپ زدن"
+    },
+    {
+     "word": "story of my life",
+     "fa": "داستان همیشگی من"
+    },
+    {
+     "word": "corner",
+     "fa": "نبش ؛ گوشه"
+    },
+    {
+     "word": "destination",
+     "fa": "مقصد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "On the right… There! \"Hackney Hearing Centre\". Here it is! Oh, you clever boy. Gary will be so pleased.",
+   "translations": {
+    "fa": "سمت راست… اونجا! «مرکز شنوایی هکنی». ایناهاش! اوه، پسر زرنگ. گری خیلی خوشحال میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appointment",
+      "luck",
+      "here",
+      "good"
+     ],
+     "suggestion": "Here it is! Good luck with your appointment.",
+     "suggestionFa": "ایناهاش! برای وقتتون موفق باشید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "doris",
+      "wait"
+     ],
+     "suggestion": "Shall I wait for you, Doris?",
+     "suggestionFa": "منتظرتون بمونم دوریس؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clever",
+     "fa": "زرنگ ؛ باهوش"
+    },
+    {
+     "word": "pleased",
+     "fa": "خوشحال"
+    },
+    {
+     "word": "wait",
+     "fa": "منتظر ماندن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "No, love — Maggie's meeting me after, for a cuppa. Next time, show me how the talking map works. Then I'll never get lost!",
+   "translations": {
+    "fa": "نه عزیزم — مگی بعدش میاد دنبالم، برای چای. دفعهٔ بعد نشونم بده نقشهٔ سخنگو چطوری کار می‌کنه. اون‌وقت هیچ‌وقت گم نمیشم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

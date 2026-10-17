@@ -31,8 +31,8 @@
     {
      "keywords": [
       "doesn't",
-      "worry",
       "don't",
+      "worry",
       "hurt"
      ],
      "suggestion": "Don't worry, Nicola. It doesn't hurt.",
@@ -85,8 +85,8 @@
      "keywords": [
       "wrong",
       "freya",
-      "look",
-      "they"
+      "they",
+      "look"
      ],
      "suggestion": "Freya is wrong. They just look.",
      "suggestionFa": "فریا اشتباه می‌کنه. فقط نگاه می‌کنن.",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "chair",
       "magic",
+      "chair",
       "look"
      ],
      "suggestion": "Look, Nicola! A magic chair!",
@@ -149,8 +149,8 @@
      "keywords": [
       "hughes",
       "hello",
-      "say",
-      "mrs"
+      "mrs",
+      "say"
      ],
      "suggestion": "Say hello to Mrs Hughes, Nicola.",
      "suggestionFa": "به خانم هیوز سلام کن نیکولا.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "nicola",
-      "chair",
       "magic",
+      "chair",
       "sit"
      ],
      "suggestion": "Go on, Nicola. Sit on the magic chair!",
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
+      "roar",
       "lion",
       "like",
-      "roar",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -322,10 +322,10 @@
    "branches": [
     {
      "keywords": [
+      "fairy",
       "bring",
       "tooth",
-      "fairy",
-      "coin"
+      "will"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
      "suggestionFa": "آره! پری دندون یه سکه میاره.",
@@ -381,8 +381,8 @@
     {
      "keywords": [
       "nicola",
-      "leslie",
       "sweets",
+      "leslie",
       "eats"
      ],
      "suggestion": "Leslie, Nicola eats a lot of sweets!",
@@ -447,8 +447,8 @@
     {
      "keywords": [
       "choose",
-      "girl",
       "good",
+      "girl",
       "one"
      ],
      "suggestion": "Good girl, Nicola. Choose one!",

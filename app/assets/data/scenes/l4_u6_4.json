@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "heard",
       "right",
-      "have",
-      "fees"
+      "heard",
+      "fees",
+      "gone"
      ],
      "suggestion": "I am. But I've heard the fees have gone up. Is that right?",
      "suggestionFa": "آره. ولی شنیدم کارمزدها رفته بالا. درسته؟",
@@ -71,7 +71,7 @@
      "keywords": [
       "different",
       "clear",
-      "give",
+      "real",
       "just"
      ],
      "suggestion": "Just to be clear — is the rate you give different from the real rate?",
@@ -84,8 +84,8 @@
      "keywords": [
       "better",
       "mean",
-      "wait",
-      "days"
+      "days",
+      "wait"
      ],
      "suggestion": "Does that mean it's better to wait a few days?",
      "suggestionFa": "یعنی بهتره چند روز صبر کنم؟",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "honest",
-      "that's",
-      "arthur"
+      "arthur",
+      "that's"
      ],
      "suggestion": "That's very honest of you, Arthur!",
      "suggestionFa": "خیلی صادقید آرتور!",

@@ -1,0 +1,468 @@
+{
+ "id": "l2_u55_1",
+ "characterId": "leslie",
+ "title": "The Wi-Fi's down",
+ "titleFa": "وای‌فای قطع است",
+ "setting": "Phone and internet · Level 2",
+ "settingFa": "تلفن و اینترنت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The Wi-Fi's down! Again! I've got thirty reports to write tonight, and Ryan's screaming about his game. Can you help?",
+   "translations": {
+    "fa": "وای‌فای قطعه! باز! امشب سی تا کارنامه باید بنویسم، و رایان سر بازیش داد می‌زنه. کمک می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turning",
+      "router",
+      "tried",
+      "have"
+     ],
+     "suggestion": "Sure. Have you tried turning the router off and on?",
+     "suggestionFa": "حتماً. امتحان کردی روتر را خاموش و روشن کنی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "just",
+      "down"
+     ],
+     "suggestion": "Is it down for everyone, or just you?",
+     "suggestionFa": "برای همه قطعه، یا فقط تو؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Wi-Fi's down",
+     "fa": "وای‌فای قطع است"
+    },
+    {
+     "word": "reports",
+     "fa": "کارنامه‌ها ؛ گزارش‌ها"
+    },
+    {
+     "word": "screaming",
+     "fa": "جیغ زدن ؛ داد زدن"
+    },
+    {
+     "word": "router",
+     "fa": "روتر ؛ مودم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Everyone. Ryan, me, Tom's phone. The router's under the stairs. Tom says \"turn it off and on\", but I don't know which box.",
+   "translations": {
+    "fa": "همه. رایان، من، گوشی تام. روتر زیر پله‌هاست. تام میگه «خاموش و روشنش کن»، ولی نمی‌دونم کدوم جعبه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "white",
+      "look",
+      "let",
+      "box"
+     ],
+     "suggestion": "Let me look. It's this white box with the lights.",
+     "suggestionFa": "بذار ببینم. همین جعبهٔ سفید با چراغ‌هاست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "good",
+      "red"
+     ],
+     "suggestion": "The lights are red. That's not good.",
+     "suggestionFa": "چراغ‌ها قرمزن. خوب نیست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everyone",
+     "fa": "همه"
+    },
+    {
+     "word": "under the stairs",
+     "fa": "زیر پله‌ها"
+    },
+    {
+     "word": "box",
+     "fa": "جعبه"
+    },
+    {
+     "word": "lights",
+     "fa": "چراغ‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Have you tried turning it off and on again?\" is the most famous tech-help question in Britain — and it often works!",
+    "fa": "«امتحان کرده‌ای خاموش و روشنش کنی؟» معروف‌ترین سؤال پشتیبانی فنی در بریتانیاست."
+   },
+   "recasts": [
+    {
+     "match": [
+      "have you try turning it off",
+      "did you tried turn it off"
+     ],
+     "echo": "Have you tried turning it off? Good idea!",
+     "better": "Have you tried turning it off and on?",
+     "betterFa": "امتحان کرده‌ای خاموش و روشنش کنی؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Red lights. Hmm. OK — off at the wall. Wait thirty seconds. Then on again. Let's count. One… two…",
+   "translations": {
+    "fa": "چراغ قرمز. هوم. باشه — از پریز خاموشش کن. سی ثانیه صبر کن. بعد دوباره روشن. بیا بشمریم. یک… دو…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seconds",
+      "thirty",
+      "again",
+      "ok"
+     ],
+     "suggestion": "Thirty seconds. OK, it's on again.",
+     "suggestionFa": "سی ثانیه. باشه، دوباره روشن شد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "flashing",
+      "lights",
+      "orange",
+      "now"
+     ],
+     "suggestion": "The lights are flashing orange now.",
+     "suggestionFa": "الان چراغ‌ها نارنجی چشمک می‌زنن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at the wall",
+     "fa": "از پریز دیوار"
+    },
+    {
+     "word": "seconds",
+     "fa": "ثانیه‌ها"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "flashing",
+     "fa": "چشمک زدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Orange, then… red again. It keeps going red! Ryan! Stop shouting! Right — let's check the provider's website. On your phone data.",
+   "translations": {
+    "fa": "نارنجی، بعد… باز قرمز. مدام قرمز میشه! رایان! داد نزن! خب — بیا سایت شرکت اینترنت را چک کنیم. با اینترنت گوشیت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "problem",
+      "area"
+     ],
+     "suggestion": "It says: \"There's a problem in your area.\"",
+     "suggestionFa": "میگه: «در منطقهٔ شما مشکلی هست.»",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "service",
+      "down",
+      "e"
+     ],
+     "suggestion": "It says: \"Service is down in E8.\"",
+     "suggestionFa": "میگه: «سرویس در E8 قطع است.»",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keeps going",
+     "fa": "مدام می‌شود"
+    },
+    {
+     "word": "provider",
+     "fa": "ارائه‌دهندهٔ اینترنت"
+    },
+    {
+     "word": "phone data",
+     "fa": "اینترنت همراه"
+    },
+    {
+     "word": "area",
+     "fa": "منطقه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "An outage in our area! So it's not us. When will it be fixed? Does it say?",
+   "translations": {
+    "fa": "قطعی تو منطقهٔ ما! پس مشکل از ما نیست. کی درست میشه؟ گفته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expect",
+      "fixed",
+      "nine",
+      "we"
+     ],
+     "suggestion": "\"We expect it to be fixed by nine p.m.\"",
+     "suggestionFa": "«انتظار داریم تا ساعت ۹ شب درست شود.»",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "shall",
+      "them",
+      "call"
+     ],
+     "suggestion": "It doesn't say. Shall I call them?",
+     "suggestionFa": "نگفته. بهشون زنگ بزنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "outage",
+     "fa": "قطعی"
+    },
+    {
+     "word": "fixed",
+     "fa": "درست شده"
+    },
+    {
+     "word": "expect",
+     "fa": "انتظار داشتن"
+    },
+    {
+     "word": "by",
+     "fa": "تا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Nine p.m.? Two hours! My reports! Can I use your phone as a hotspot? Just for half an hour?",
+   "translations": {
+    "fa": "نه شب؟ دو ساعت! کارنامه‌هام! می‌تونم از گوشیت به‌عنوان هات‌اسپات استفاده کنم؟ فقط نیم ساعت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unlimited",
+      "course",
+      "i've",
+      "data"
+     ],
+     "suggestion": "Of course. I've got unlimited data.",
+     "suggestionFa": "البته. اینترنت نامحدود دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "password",
+      "screen",
+      "sure"
+     ],
+     "suggestion": "Sure. The password is on the screen.",
+     "suggestionFa": "حتماً. رمز رو صفحه‌ست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hotspot",
+     "fa": "هات‌اسپات (اشتراک اینترنت)"
+    },
+    {
+     "word": "half an hour",
+     "fa": "نیم ساعت"
+    },
+    {
+     "word": "unlimited",
+     "fa": "نامحدود"
+    },
+    {
+     "word": "password",
+     "fa": "رمز"
+    }
+   ],
+   "cultureNote": {
+    "en": "If your broadband stops working for a long time, many UK providers must give you automatic compensation. Keep a note of the dates.",
+    "fa": "اگر اینترنت خانگی مدت طولانی قطع شود، بسیاری از شرکت‌ها باید خودکار غرامت بدهند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "You're a hero. Ryan — it's an outage. Nothing we can do. Go and read a book! … He's looking at me like I'm mad.",
+   "translations": {
+    "fa": "تو قهرمانی. رایان — قطعیه. کاری از دستمون برنمیاد. برو یه کتاب بخون! … طوری نگاهم می‌کنه انگار دیوونه‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "book",
+      "poor",
+      "ha"
+     ],
+     "suggestion": "Ha! A book! Poor Ryan.",
+     "suggestionFa": "ها! کتاب! رایان بیچاره.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "cards",
+      "let's",
+      "play"
+     ],
+     "suggestion": "Ryan, let's play cards instead.",
+     "suggestionFa": "رایان، بیا به‌جاش ورق بازی کنیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hero",
+     "fa": "قهرمان"
+    },
+    {
+     "word": "nothing we can do",
+     "fa": "کاری از دستمان برنمی‌آید"
+    },
+    {
+     "word": "mad",
+     "fa": "دیوانه"
+    },
+    {
+     "word": "cards",
+     "fa": "ورق‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ooh, look — the lights are green! It's working again! Ten minutes early! Ryan's cheering. The house is happy.",
+   "translations": {
+    "fa": "اوه، ببین — چراغ‌ها سبز شدن! دوباره کار می‌کنه! ده دقیقه زودتر! رایان داره هورا می‌کشه. خونه خوشحاله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "working",
+      "lights",
+      "again",
+      "green"
+     ],
+     "suggestion": "Green lights! It's working again.",
+     "suggestionFa": "چراغ سبز! دوباره کار می‌کنه.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hotspot",
+      "then",
+      "i'll",
+      "turn"
+     ],
+     "suggestion": "I'll turn my hotspot off, then.",
+     "suggestionFa": "پس هات‌اسپاتم را خاموش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "green",
+     "fa": "سبز"
+    },
+    {
+     "word": "working again",
+     "fa": "دوباره کار می‌کند"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "cheering",
+     "fa": "هورا کشیدن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Thank you. Tonight's lesson: off and on, check the website, use a hotspot. And never, ever get between Ryan and his Wi-Fi!",
+   "translations": {
+    "fa": "ممنون. درس امشب: خاموش و روشن، سایت را چک کن، از هات‌اسپات استفاده کن. و هیچ‌وقت، هیچ‌وقت بین رایان و وای‌فایش قرار نگیر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

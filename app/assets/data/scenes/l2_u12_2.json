@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "really",
       "thanks",
+      "really",
       "fine",
       "well"
      ],
@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
-      "thanks",
-      "that's",
       "better",
+      "that's",
+      "thanks",
       "much"
      ],
      "suggestion": "Thanks. That's much better.",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "approval",
-      "says",
       "need",
+      "says",
       "now"
      ],
      "suggestion": "Got it. Now it says I need approval.",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "easy",
-      "when",
       "know",
+      "when",
       "how"
      ],
      "suggestion": "Easy when you know how!",
@@ -226,8 +226,8 @@
      "keywords": [
       "packs",
       "only",
-      "two",
-      "why"
+      "why",
+      "two"
      ],
      "suggestion": "Why only two packs?",
      "suggestionFa": "چرا فقط دو بسته؟",
@@ -274,8 +274,8 @@
    "branches": [
     {
      "keywords": [
-      "how",
       "one",
+      "how",
       "get"
      ],
      "suggestion": "No. How do I get one?",

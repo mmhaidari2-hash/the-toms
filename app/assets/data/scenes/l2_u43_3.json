@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "better",
       "tehran",
-      "sorry",
-      "think"
+      "better",
+      "think",
+      "sorry"
      ],
      "suggestion": "I think Tehran is better. Sorry, Tom!",
      "suggestionFa": "فکر کنم تهران بهتره. ببخشید تام!",
@@ -158,8 +158,8 @@
     {
      "keywords": [
       "especially",
-      "better",
       "london",
+      "better",
       "buses"
      ],
      "suggestion": "But London buses are better. Especially the 38!",
@@ -199,9 +199,9 @@
     {
      "keywords": [
       "spaces",
-      "green",
+      "parks",
       "there",
-      "parks"
+      "green"
      ],
      "suggestion": "The parks. There are so many green spaces.",
      "suggestionFa": "پارک‌ها. کلی فضای سبز هست.",
@@ -213,8 +213,8 @@
      "keywords": [
       "museums",
       "most",
-      "free",
-      "them"
+      "them",
+      "free"
      ],
      "suggestion": "The museums. And most of them are free!",
      "suggestionFa": "موزه‌ها. و بیشترشون مجانین!",
@@ -308,9 +308,9 @@
    "branches": [
     {
      "keywords": [
-      "tehran",
-      "london",
       "prefer",
+      "london",
+      "tehran",
       "parks"
      ],
      "suggestion": "I prefer Tehran for food, London for parks.",
@@ -377,7 +377,7 @@
       "hackney",
       "london",
       "best",
-      "bit"
+      "tom"
      ],
      "suggestion": "Tom, Hackney is the best bit of London!",
      "suggestionFa": "تام، هکنی بهترین قسمت لندنه!",

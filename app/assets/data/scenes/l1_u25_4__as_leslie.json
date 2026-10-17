@@ -47,10 +47,10 @@
     {
      "keywords": [
       "raincoat",
-      "rubber",
-      "please",
       "nicola",
-      "yours"
+      "please",
+      "rubber",
+      "boots"
      ],
      "suggestion": "Rubber boots! Yours are by the door. Nicola, put your raincoat on, please.",
      "suggestionFa": "چکمه‌های لاستیکی! مال تو کنار دره. نیکولا، بارونیت را بپوش، لطفاً.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "puddles",
-      "ready",
       "let's",
       "tom's",
+      "ready",
       "stand"
      ],
      "suggestion": "Take Tom's. It's in the hall stand. Ready? Let's go! Mind the puddles!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "wellies",
+      "nicola",
       "that's",
-      "school",
       "here's",
-      "nicola"
+      "school"
      ],
      "suggestion": "That's what wellies are for, Nicola! Jump! Here's school. Now, take your wellies off. Put your shoes on.",
      "suggestionFa": "چکمه برای همینه نیکولا! بپر! اینم مدرسه. حالا، چکمه‌هات را دربیار. کفش‌هات را بپوش.",
@@ -174,8 +174,8 @@
       "classroom",
       "wellies",
       "wellie",
-      "rack",
-      "door"
+      "lots",
+      "rack"
      ],
      "suggestion": "In the wellie rack, by the classroom door. Lots of wellies in a row!",
      "suggestionFa": "تو جاچکمه‌ای، کنار در کلاس. کلی چکمه تو یه ردیف!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "wellies",
-      "typical",
-      "british",
+      "weather",
       "raining",
-      "weather"
+      "british",
+      "wellies",
+      "typical"
      ],
      "suggestion": "Right, home time for us. Don't take your wellies off yet — it's still raining. Typical British weather!",
      "suggestionFa": "خب، وقت خونه رفتن ماست. هنوز چکمه‌هات را درنیار — هنوز بارون میاد. آب‌وهوای معمولی بریتانیا!",

@@ -1,0 +1,483 @@
+{
+ "id": "l2_u49_1",
+ "characterId": "leslie",
+ "title": "Leslie's crumble",
+ "titleFa": "کرامبل لزلی",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Apple crumble time! My mum's recipe. Wash your hands, apron on. You're my assistant chef today.",
+   "translations": {
+    "fa": "وقت کرامبل سیبه! دستور پخت مامانم. دستات را بشور، پیش‌بند ببند. امروز دستیار آشپز منی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "chef"
+     ],
+     "suggestion": "Yes, chef! What do I do first?",
+     "suggestionFa": "چشم سرآشپز! اول چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crumble",
+      "what's"
+     ],
+     "suggestion": "What's a crumble?",
+     "suggestionFa": "کرامبل چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crumble",
+     "fa": "کرامبل (دسر میوه با روکش ترد)"
+    },
+    {
+     "word": "recipe",
+     "fa": "دستور پخت"
+    },
+    {
+     "word": "apron",
+     "fa": "پیش‌بند"
+    },
+    {
+     "word": "assistant",
+     "fa": "دستیار"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Fruit at the bottom, a crunchy, buttery top. Britain's best pudding. First, peel six apples and cut them into small pieces.",
+   "translations": {
+    "fa": "میوه پایین، یه روکش ترد و کره‌ای بالا. بهترین دسر بریتانیا. اول، شش تا سیب را پوست بکن و تیکه‌های کوچیک کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "small",
+      "peel",
+      "how",
+      "cut"
+     ],
+     "suggestion": "Peel and cut. How small?",
+     "suggestionFa": "پوست بکنم و ببرم. چقدر کوچیک؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "apples",
+      "which",
+      "green",
+      "red"
+     ],
+     "suggestion": "Which apples? Red or green?",
+     "suggestionFa": "کدوم سیب‌ها؟ قرمز یا سبز؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crunchy",
+     "fa": "ترد"
+    },
+    {
+     "word": "buttery",
+     "fa": "کره‌ای"
+    },
+    {
+     "word": "pudding",
+     "fa": "دسر"
+    },
+    {
+     "word": "peel",
+     "fa": "پوست کندن"
+    },
+    {
+     "word": "pieces",
+     "fa": "تکه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain, \"pudding\" can mean any dessert. \"What's for pudding?\" means \"What's for dessert?\"",
+    "fa": "در بریتانیا «pudding» می‌تواند به هر دسری گفته شود."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "The green ones — Bramleys. They're cooking apples. Very sour, but perfect when they're cooked. About the size of a dice.",
+   "translations": {
+    "fa": "سبزها — برملی. سیب پختنی‌ان. خیلی ترشن، ولی پخته عالی‌ان. حدود اندازهٔ تاس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "done",
+      "now"
+     ],
+     "suggestion": "Done. Now what?",
+     "suggestionFa": "تموم شد. حالا چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "apples",
+      "sugar",
+      "add",
+      "we"
+     ],
+     "suggestion": "Do we add sugar to the apples?",
+     "suggestionFa": "به سیب‌ها شکر اضافه کنیم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cooking apples",
+     "fa": "سیب پختنی"
+    },
+    {
+     "word": "sour",
+     "fa": "ترش"
+    },
+    {
+     "word": "cooked",
+     "fa": "پخته"
+    },
+    {
+     "word": "size",
+     "fa": "اندازه"
+    },
+    {
+     "word": "dice",
+     "fa": "تاس"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Yes — put them in the dish and sprinkle two spoons of sugar and a pinch of cinnamon on top. Now the fun bit. The crumble.",
+   "translations": {
+    "fa": "آره — بریزشون تو ظرف و دو قاشق شکر و یه ذره دارچین روشون بپاش. حالا قسمت جالب. کرامبل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cinnamon",
+      "pinch",
+      "like"
+     ],
+     "suggestion": "A pinch of cinnamon. Like this?",
+     "suggestionFa": "یه ذره دارچین. اینجوری؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crumble",
+      "what's",
+      "part"
+     ],
+     "suggestion": "What's in the crumble part?",
+     "suggestionFa": "تو قسمت کرامبل چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dish",
+     "fa": "ظرف"
+    },
+    {
+     "word": "sprinkle",
+     "fa": "پاشیدن"
+    },
+    {
+     "word": "spoons",
+     "fa": "قاشق‌ها"
+    },
+    {
+     "word": "pinch",
+     "fa": "یک ذره ؛ یک نیشگون"
+    },
+    {
+     "word": "cinnamon",
+     "fa": "دارچین"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Flour, butter, sugar: 200 grams of flour, 100 of butter, 100 of sugar. Now rub the butter into the flour with your fingers.",
+   "translations": {
+    "fa": "آرد، کره، شکر. دویست گرم آرد، صد گرم کره، صد گرم شکر. حالا کره را با انگشتات با آرد مالش بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "spoon"
+     ],
+     "suggestion": "With my fingers? Not a spoon?",
+     "suggestionFa": "با انگشتام؟ نه قاشق؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "messy",
+      "rub",
+      "ok"
+     ],
+     "suggestion": "Rub it in. OK! It's messy!",
+     "suggestionFa": "مالش بدم. باشه! کثیف‌کاریه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flour",
+     "fa": "آرد"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    },
+    {
+     "word": "grams",
+     "fa": "گرم"
+    },
+    {
+     "word": "rub into",
+     "fa": "مالش دادن در"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشت‌ها"
+    },
+    {
+     "word": "messy",
+     "fa": "کثیف‌کاری"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "rub the butter in the flour",
+      "rub flour into butter"
+     ],
+     "echo": "Rub the butter into the flour? Yes!",
+     "better": "Rub the butter into the flour.",
+     "betterFa": "کره را با آرد مالش بده."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Fingers! Until it looks like breadcrumbs. That's it — lovely. Now sprinkle it all on top of the apples. Don't press it down.",
+   "translations": {
+    "fa": "انگشت! تا شبیه پودر سوخاری بشه. همینه — عالی. حالا همه‌ش را روی سیب‌ها بپاش. فشارش نده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beach",
+      "looks",
+      "sand",
+      "like"
+     ],
+     "suggestion": "It looks like sand on a beach!",
+     "suggestionFa": "شبیه شن ساحله!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sprinkle",
+      "don't",
+      "press",
+      "just"
+     ],
+     "suggestion": "Don't press it. Just sprinkle. Got it.",
+     "suggestionFa": "فشار ندم. فقط بپاشم. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "until",
+     "fa": "تا وقتی که"
+    },
+    {
+     "word": "breadcrumbs",
+     "fa": "خردهٔ نان"
+    },
+    {
+     "word": "on top of",
+     "fa": "روی"
+    },
+    {
+     "word": "press down",
+     "fa": "فشار دادن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Sand on a beach! Very poetic. Into the oven — one-eighty degrees, for forty minutes. Until it's golden.",
+   "translations": {
+    "fa": "شن ساحل! خیلی شاعرانه. بذارش تو فر — صد و هشتاد درجه، چهل دقیقه. تا طلایی بشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "forty",
+      "eat",
+      "we"
+     ],
+     "suggestion": "Forty minutes. What do we eat it with?",
+     "suggestionFa": "چهل دقیقه. باهاش چی می‌خوریم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "timer",
+      "i'll",
+      "set"
+     ],
+     "suggestion": "I'll set a timer on my phone.",
+     "suggestionFa": "رو گوشیم تایمر می‌ذارم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "poetic",
+     "fa": "شاعرانه"
+    },
+    {
+     "word": "oven",
+     "fa": "فر"
+    },
+    {
+     "word": "degrees",
+     "fa": "درجه"
+    },
+    {
+     "word": "golden",
+     "fa": "طلایی"
+    },
+    {
+     "word": "timer",
+     "fa": "تایمر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Custard! Hot and yellow. Or ice cream. Tom has both. Smell that? Apples and cinnamon. That's autumn in England.",
+   "translations": {
+    "fa": "کاستارد! داغ و زرد. یا بستنی. تام هر دو را می‌خوره. بو را حس می‌کنی؟ سیب و دارچین. این پاییز انگلستانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "recipe",
+      "smells",
+      "write"
+     ],
+     "suggestion": "It smells amazing. Can I write the recipe down?",
+     "suggestionFa": "بوی معرکه‌ای میده. میشه دستورش را بنویسم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "custard",
+      "greedy",
+      "cream",
+      "ice"
+     ],
+     "suggestion": "Custard and ice cream! Tom is greedy!",
+     "suggestionFa": "کاستارد و بستنی! تام شکموئه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "custard",
+     "fa": "کاستارد (سس زرد شیرین)"
+    },
+    {
+     "word": "smell",
+     "fa": "بو کردن"
+    },
+    {
+     "word": "autumn",
+     "fa": "پاییز"
+    },
+    {
+     "word": "greedy",
+     "fa": "شکمو ؛ حریص"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Write it down, and make it for your mum one day. Tell her it's from a family in Hackney. With love.",
+   "translations": {
+    "fa": "بنویسش، و یه روز برای مامانت درستش کن. بهش بگو از یه خانواده تو هکنیه. با عشق."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

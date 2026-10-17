@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "jo",
-   "text": "{you}! Ada's choking on a grape — she can't cough or cry! Quick!",
+   "text": "Sara! Ada's choking on a grape — she can't cough or cry! Quick!",
    "translations": {
-    "fa": "{you}! آدا با انگور داره خفه می‌شه — نمی‌تونه سرفه یا گریه کنه! زود!"
+    "fa": "سارا! آدا با انگور داره خفه می‌شه — نمی‌تونه سرفه یا گریه کنه! زود!"
    },
    "branches": [
     {
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "coughing",
-      "she's",
       "three",
+      "she's",
       "out"
      ],
      "suggestion": "Three… it's out! She's coughing!",
@@ -125,8 +125,8 @@
      "keywords": [
       "should",
       "doctor",
-      "she",
-      "see"
+      "see",
+      "she"
      ],
      "suggestion": "Is she OK? Should she see a doctor?",
      "suggestionFa": "خوبه؟ باید دکتر ببینش؟",
@@ -180,7 +180,7 @@
       "happened",
       "time",
       "did",
-      "how"
+      "now"
      ],
      "suggestion": "Yes — time, what happened, what we did and how she is now.",
      "suggestionFa": "آره — ساعت، چی شد، چی کار کردیم و الان حالش چطوره.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "mention",
-      "wasn't",
       "should",
+      "wasn't",
       "grape"
      ],
      "suggestion": "Should I mention that the grape wasn't cut?",
@@ -292,5 +292,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

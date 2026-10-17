@@ -250,8 +250,8 @@
     {
      "keywords": [
       "favourite",
-      "food",
-      "rice"
+      "rice",
+      "food"
      ],
      "suggestion": "My favourite food is rice.",
      "suggestionFa": "غذای مورد علاقه‌ام برنجه.",
@@ -296,9 +296,9 @@
    "branches": [
     {
      "keywords": [
-      "r",
       "e",
-      "c"
+      "c",
+      "r"
      ],
      "suggestion": "Yes. R-I-C-E.",
      "suggestionFa": "آره. ر-ا-ی-س.",
@@ -354,8 +354,8 @@
      "keywords": [
       "persian",
       "learn",
-      "word",
-      "want"
+      "want",
+      "word"
      ],
      "suggestion": "Do you want to learn a Persian word?",
      "suggestionFa": "می‌خوای یه کلمهٔ فارسی یاد بگیری؟",

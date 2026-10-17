@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "trying",
-      "sweets",
       "nicola",
-      "money",
+      "sweets",
+      "trying",
+      "teach",
       "spend"
      ],
      "suggestion": "Nicola wants to spend all her money on sweets! I'm trying to teach her to save.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "tidying",
-      "pounds",
       "nicola",
+      "pounds",
       "room",
       "week"
      ],
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -206,9 +206,9 @@
      "keywords": [
       "sweets",
       "about",
-      "point",
+      "piggy",
       "pound",
-      "piggy"
+      "point"
      ],
      "suggestion": "Good point! What about this: fifty p for sweets, one pound fifty in the piggy bank?",
      "suggestionFa": "نکتهٔ خوبیه! این چطوره: پنجاه پی برای آبنبات، یک پوند و پنجاه تو قلک؟",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

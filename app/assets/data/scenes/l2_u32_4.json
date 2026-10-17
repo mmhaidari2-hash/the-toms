@@ -74,8 +74,8 @@
     {
      "keywords": [
       "hours",
-      "long",
       "i've",
+      "long",
       "job"
      ],
      "suggestion": "I've got a new job. The hours are very long.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "money",
+      "month",
       "tight",
-      "month"
+      "money"
      ],
      "suggestion": "Money is tight this month.",
      "suggestionFa": "این ماه وضع مالیم تنگه.",
@@ -152,8 +152,8 @@
     {
      "keywords": [
       "music",
-      "well",
       "loud",
+      "well",
       "bit"
      ],
      "suggestion": "Well… the music is a bit loud!",
@@ -238,8 +238,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "freeze",
+      "that's",
       "let's",
       "good"
      ],
@@ -251,8 +251,8 @@
     },
     {
      "keywords": [
-      "cancel",
       "rather",
+      "cancel",
       "thank",
       "i'd"
      ],

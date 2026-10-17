@@ -24,8 +24,8 @@
       "carrots",
       "potato",
       "roast",
-      "swap",
-      "i'll"
+      "i'll",
+      "swap"
      ],
      "suggestion": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
      "suggestionFa": "پیس! {you}! هویجم را بهت میدم اگه سیب‌زمینیت را بهم بدی. عوض کنیم؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -200,7 +200,7 @@
       "carrots",
       "what's",
       "cream",
-      "five"
+      "i'll"
      ],
      "suggestion": "What's for pudding? If it's ice cream, I'll eat five carrots!",
      "suggestionFa": "دسر چیه؟ اگه بستنی باشه، پنج تا هویج می‌خورم!",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

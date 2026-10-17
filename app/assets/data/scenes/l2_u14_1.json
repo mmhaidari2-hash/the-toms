@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "from",
+      "will",
       "gp"
      ],
      "suggestion": "Will a letter from the GP do?",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "here's",
-      "bank",
-      "card"
+      "card",
+      "bank"
      ],
      "suggestion": "Here's my bank card and a letter.",
      "suggestionFa": "این کارت بانکیم و یه نامه.",
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "fifteen",
-      "long",
       "them",
-      "keep"
+      "keep",
+      "long"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "borrow",
-      "dvds",
       "well",
+      "dvds",
       "as"
      ],
      "suggestion": "Can I borrow DVDs as well?",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "persian",
-      "got",
-      "any"
+      "any",
+      "got"
      ],
      "suggestion": "Have you got any books in Persian?",
      "suggestionFa": "کتاب فارسی دارید؟",

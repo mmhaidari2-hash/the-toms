@@ -22,7 +22,7 @@
       "thompson",
       "leslie",
       "order",
-      "come"
+      "i've"
      ],
      "suggestion": "Yes. I've come to collect an order for Leslie Thompson.",
      "suggestionFa": "آره. اومدم سفارش لزلی تامپسون را تحویل بگیرم.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "leslie's",
-      "email",
       "phone",
+      "email",
       "show"
      ],
      "suggestion": "It's on Leslie's phone. Can I show you the email?",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "everything",
-      "check",
       "there",
+      "check",
       "can"
      ],
      "suggestion": "Is everything there? Can I check?",
@@ -298,8 +298,8 @@
     {
      "keywords": [
       "candles",
-      "number",
       "please",
+      "number",
       "six"
      ],
      "suggestion": "Yes, please! Number six candles.",
@@ -312,8 +312,8 @@
      "keywords": [
       "myself",
       "thanks",
-      "them",
-      "i'll"
+      "i'll",
+      "them"
      ],
      "suggestion": "No thanks. I'll get them myself.",
      "suggestionFa": "نه ممنون. خودم برمی‌دارم.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "anything",
-      "sign",
-      "need"
+      "need",
+      "sign"
      ],
      "suggestion": "I will! Do I need to sign anything?",
      "suggestionFa": "میگم! لازمه چیزی امضا کنم؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "leslie",
-      "happy",
-      "thank"
+      "thank",
+      "happy"
      ],
      "suggestion": "Thank you. Leslie will be so happy.",
      "suggestionFa": "ممنون. لزلی خیلی خوشحال میشه.",

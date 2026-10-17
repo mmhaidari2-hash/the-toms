@@ -21,8 +21,8 @@
      "keywords": [
       "returning",
       "trainers",
-      "these",
-      "small"
+      "small",
+      "these"
      ],
      "suggestion": "Returning. These trainers are too small.",
      "suggestionFa": "پس دادن. این کتونی‌ها خیلی کوچیکن.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "return",
-      "code",
+      "need",
       "i've",
-      "need"
+      "code"
      ],
      "suggestion": "I need to return this. I've got a QR code.",
      "suggestionFa": "باید اینو پس بفرستم. کیوآرکد دارم.",
@@ -193,8 +193,8 @@
      "keywords": [
       "thanks",
       "used",
-      "box",
-      "old"
+      "old",
+      "box"
      ],
      "suggestion": "Thanks. I used the old box.",
      "suggestionFa": "ممنون. از جعبهٔ قدیمی استفاده کردم.",
@@ -204,10 +204,10 @@
     },
     {
      "keywords": [
-      "strong",
       "didn't",
+      "strong",
       "sorry",
-      "have"
+      "tape"
      ],
      "suggestion": "Sorry! I didn't have strong tape.",
      "suggestionFa": "ببخشید! چسب محکم نداشتم.",
@@ -257,10 +257,10 @@
     },
     {
      "keywords": [
-      "money",
       "until",
-      "long",
-      "back"
+      "money",
+      "back",
+      "long"
      ],
      "suggestion": "How long until I get my money back?",
      "suggestionFa": "چقدر طول می‌کشه پولم برگرده؟",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "receipt",
-      "days",
       "i'll",
-      "keep"
+      "keep",
+      "days"
      ],
      "suggestion": "Ten days? I'll keep the receipt.",
      "suggestionFa": "ده روز؟ رسید را نگه می‌دارم.",
@@ -310,7 +310,7 @@
       "parcels",
       "shops",
       "good",
-      "lose"
+      "idea"
      ],
      "suggestion": "Good idea. Shops can lose parcels!",
      "suggestionFa": "فکر خوبیه. فروشگاه‌ها ممکنه بسته گم کنن!",

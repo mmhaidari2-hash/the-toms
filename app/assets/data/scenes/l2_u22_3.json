@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "barcode",
+      "where's",
       "apples",
       "these"
      ],
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "never",
       "first",
+      "never",
       "show",
-      "used"
+      "i've"
      ],
      "suggestion": "I've never used one. Show me first?",
      "suggestionFa": "تا حالا ازش استفاده نکردم. اول نشونم میدی؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "apples",
       "fruit",
-      "look",
-      "done"
+      "item",
+      "look"
      ],
      "suggestion": "Look up item… fruit… apples. Done!",
      "suggestionFa": "جستجوی کالا… میوه… سیب. تموم!",
@@ -211,8 +211,8 @@
      "keywords": [
       "assistance",
       "hasn't",
-      "wait",
-      "says"
+      "says",
+      "wait"
      ],
      "suggestion": "No, it hasn't. Now it says \"Wait for assistance\".",
      "suggestionFa": "نه، نشده. الان میگه «منتظر کمک بمانید».",
@@ -303,8 +303,8 @@
      "keywords": [
       "scanned",
       "apples",
-      "twice",
-      "think"
+      "think",
+      "twice"
      ],
      "suggestion": "Thank you! I've scanned the apples twice, I think.",
      "suggestionFa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "card",
-      "tap",
-      "put"
+      "put",
+      "tap"
      ],
      "suggestion": "Card. Do I put it in or tap?",
      "suggestionFa": "کارت. واردش کنم یا بزنمش؟",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "thank",
-      "paid",
+      "says",
       "i've",
-      "says"
+      "paid"
      ],
      "suggestion": "I've paid! It says \"Thank you\".",
      "suggestionFa": "پرداخت کردم! نوشته «متشکریم».",

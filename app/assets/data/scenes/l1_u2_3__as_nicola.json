@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "welcome",
       "buttons",
+      "welcome",
       "party",
       "there",
       "next"
@@ -74,8 +74,8 @@
       "pretend",
       "yummy",
       "cake",
-      "nice",
-      "here"
+      "here",
+      "nice"
      ],
      "suggestion": "Here you are. It's pretend cake. Mmm, yummy! Is it nice?",
      "suggestionFa": "بفرما. کیک خیالیه. ممم، به‌به! خوبه؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "cheese",
       "loves",
-      "need",
       "pour",
-      "can"
+      "need",
+      "now"
      ],
      "suggestion": "Cheese! He loves cheese. Now we need tea. Can you pour it?",
      "suggestionFa": "پنیر! عاشق پنیره. حالا چای لازم داریم. می‌تونی بریزی؟",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -197,8 +197,8 @@
      "keywords": [
       "william",
       "silly",
-      "billy",
       "apple",
+      "billy",
       "real"
      ],
      "suggestion": "William, it's not real! Silly billy. Do you want an apple? A real one?",

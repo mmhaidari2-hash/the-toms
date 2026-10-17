@@ -144,8 +144,8 @@
     {
      "keywords": [
       "longer",
-      "years",
       "would",
+      "years",
       "mean"
      ],
      "suggestion": "What would a longer tenancy mean — two years?",
@@ -293,10 +293,10 @@
     },
     {
      "keywords": [
-      "there",
       "mould",
-      "damp",
-      "flat"
+      "there",
+      "flat",
+      "damp"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -347,8 +347,8 @@
      "keywords": [
       "bathroom",
       "ceiling",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see the bathroom ceiling?",
      "suggestionFa": "می‌تونم سقف حموم را ببینم؟",
@@ -401,8 +401,8 @@
      "keywords": [
       "logistics",
       "company",
-      "full",
-      "time"
+      "time",
+      "full"
      ],
      "suggestion": "I work full-time at a logistics company.",
      "suggestionFa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم.",
@@ -415,7 +415,7 @@
       "references",
       "assistant",
       "teaching",
-      "will"
+      "need"
      ],
      "suggestion": "I'm a teaching assistant. Will you need references?",
      "suggestionFa": "دستیار معلمم. معرف لازم دارید؟",
@@ -450,9 +450,9 @@
     {
      "keywords": [
       "that's",
-      "thirty",
       "strict",
-      "times"
+      "thirty",
+      "quite"
      ],
      "suggestion": "Thirty times? That's quite strict.",
      "suggestionFa": "سی برابر؟ نسبتاً سختگیرانه‌ست.",
@@ -464,8 +464,8 @@
      "keywords": [
       "guarantor",
       "need",
-      "tom",
-      "one"
+      "one",
+      "can"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",
      "suggestionFa": "اگه لازم شد تام می‌تونه ضامن بشه؟",

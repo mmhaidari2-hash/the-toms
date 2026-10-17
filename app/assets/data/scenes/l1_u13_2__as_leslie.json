@@ -47,10 +47,10 @@
     {
      "keywords": [
       "collar",
-      "maybe",
       "let's",
-      "look",
-      "door"
+      "maybe",
+      "next",
+      "from"
      ],
      "suggestion": "Maybe it's from next door. Let's look at the collar. What does it say?",
      "suggestionFa": "شاید مال همسایه‌ست. بیا قلاده‌اش را ببینیم. چی نوشته؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -320,8 +320,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "amazing",
       "samosas",
+      "amazing",
       "makes",
       "must",
       "khan"

@@ -25,7 +25,7 @@
       "surgery",
       "here's",
       "first",
-      "form"
+      "need"
      ],
      "suggestion": "First, you need to register at the surgery. Here's the form. I'll help you.",
      "suggestionFa": "اول باید تو مطب ثبت‌نام کنی. اینم فرم. کمکت می‌کنم.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "capital",
       "surname",
+      "capital",
       "letters",
       "office",
       "first"
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "address",
-      "family",
       "street",
+      "family",
       "number",
       "then"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "postcode",
-      "month",
       "write",
+      "month",
       "birth",
-      "date"
+      "same"
      ],
      "suggestion": "The postcode is the same as ours. I'll write it. Now, date of birth. Day, month, year.",
      "suggestionFa": "کد پستی مثل مال ماست. من می‌نویسمش. حالا، تاریخ تولد. روز، ماه، سال.",
@@ -124,8 +124,8 @@
       "calendar",
       "normal",
       "number",
-      "email",
-      "phone"
+      "phone",
+      "email"
      ],
      "suggestion": "Use the normal calendar. Day first! Then your phone number and email.",
      "suggestionFa": "از تقویم معمولی استفاده کن. اول روز! بعد شماره تلفن و ایمیلت.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

@@ -1,0 +1,417 @@
+{
+ "id": "l2_u51_1",
+ "characterId": "doris",
+ "title": "To the town hall",
+ "titleFa": "به سمت ساختمان شهرداری",
+ "setting": "Asking the way · Level 2",
+ "settingFa": "پرسیدن مسیر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Morning, love! You look all smart. Shirt and tie! Where are you off to?",
+   "translations": {
+    "fa": "صبح بخیر عزیزم! خیلی شیک شدی. پیرهن و کراوات! کجا میری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "stop"
+     ],
+     "suggestion": "The town hall. Which stop is it?",
+     "suggestionFa": "ساختمان شهرداری. کدوم ایستگاهه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "meeting",
+      "i've",
+      "got"
+     ],
+     "suggestion": "I've got a meeting at the town hall.",
+     "suggestionFa": "تو شهرداری جلسه دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smart",
+     "fa": "شیک"
+    },
+    {
+     "word": "tie",
+     "fa": "کراوات"
+    },
+    {
+     "word": "off to",
+     "fa": "رفتن به"
+    },
+    {
+     "word": "town hall",
+     "fa": "ساختمان شهرداری"
+    },
+    {
+     "word": "stop",
+     "fa": "ایستگاه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "The town hall? Ha! Love, it's on your street. Mare Street! You've passed it a hundred times. The big white building.",
+   "translations": {
+    "fa": "شهرداری؟ ها! عزیزم، تو خیابون خودته. خیابون مِیر! صد بار از جلوش رد شدی. ساختمون بزرگ سفید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "didn't",
+      "know",
+      "mare"
+     ],
+     "suggestion": "On Mare Street? I didn't know that!",
+     "suggestionFa": "تو خیابون مِیر؟ نمی‌دونستم!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "white",
+      "clock",
+      "big",
+      "one"
+     ],
+     "suggestion": "The big white one with the clock?",
+     "suggestionFa": "همون بزرگ سفید با ساعت؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "passed",
+     "fa": "رد شدی"
+    },
+    {
+     "word": "building",
+     "fa": "ساختمان"
+    },
+    {
+     "word": "clock",
+     "fa": "ساعت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Hackney Town Hall is a 1930s Art Deco building on Mare Street, next to the Hackney Empire theatre.",
+    "fa": "ساختمان شهرداری هکنی بنایی دههٔ ۱۹۳۰ در خیابان مِیر، کنار تئاتر هکنی امپایر است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "That's the one. Don't worry, nobody looks up in London. Get off at the next stop — Hackney Central. Then I'll tell you the way.",
+   "translations": {
+    "fa": "خودشه. نگران نباش، تو لندن هیچ‌کس بالا را نگاه نمی‌کنه. ایستگاه بعد پیاده شو — هکنی سنترال. بعد راه را بهت میگم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "thank",
+      "from",
+      "stop"
+     ],
+     "suggestion": "Thank you. Which way do I go from the stop?",
+     "suggestionFa": "ممنون. از ایستگاه کدوم طرف برم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "i'll",
+      "down",
+      "tell"
+     ],
+     "suggestion": "Can you tell me now? I'll write it down.",
+     "suggestionFa": "میشه الان بگید؟ یادداشتش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "looks up",
+     "fa": "بالا را نگاه می‌کند"
+    },
+    {
+     "word": "get off",
+     "fa": "پیاده شو"
+    },
+    {
+     "word": "next stop",
+     "fa": "ایستگاه بعد"
+    },
+    {
+     "word": "the way",
+     "fa": "مسیر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Get off, and go straight on down Mare Street. Past the station, past the library. Two minutes.",
+   "translations": {
+    "fa": "پیاده شو، و مستقیم برو پایین خیابون مِیر. از ایستگاه قطار رد شو، از کتابخونه رد شو. دو دقیقه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "straight",
+      "library",
+      "station",
+      "past"
+     ],
+     "suggestion": "Straight on, past the station and the library.",
+     "suggestionFa": "مستقیم، از ایستگاه و کتابخونه رد بشم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cross",
+      "need",
+      "road"
+     ],
+     "suggestion": "Do I need to cross the road?",
+     "suggestionFa": "باید از خیابون رد بشم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "straight on",
+     "fa": "مستقیم"
+    },
+    {
+     "word": "down",
+     "fa": "پایین (خیابان)"
+    },
+    {
+     "word": "past",
+     "fa": "از کنار … گذشتن"
+    },
+    {
+     "word": "station",
+     "fa": "ایستگاه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "go straight and pass the library",
+      "go straight on past of library"
+     ],
+     "echo": "Straight on, past the library. Yes!",
+     "better": "Go straight on, past the library.",
+     "betterFa": "مستقیم برو، از کنار کتابخانه رد شو."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Yes — cross at the lights by the Empire, the red theatre. The town hall is opposite… no, next to it. Behind the square.",
+   "translations": {
+    "fa": "آره — سر چراغ کنار امپایر رد شو، همون تئاتر قرمز. شهرداری روبه‌روی… نه، کنارشه. پشت میدون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "theatre",
+      "square",
+      "behind",
+      "got"
+     ],
+     "suggestion": "Next to the theatre, behind the square. Got it.",
+     "suggestionFa": "کنار تئاتر، پشت میدون. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "confused",
+      "opposite",
+      "sorry"
+     ],
+     "suggestion": "Opposite or next to? Sorry, I'm confused!",
+     "suggestionFa": "روبه‌رو یا کنار؟ ببخشید، گیج شدم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lights",
+     "fa": "چراغ راهنمایی"
+    },
+    {
+     "word": "theatre",
+     "fa": "تئاتر"
+    },
+    {
+     "word": "front",
+     "fa": "نما ؛ جلو"
+    },
+    {
+     "word": "opposite",
+     "fa": "روبه‌رو"
+    },
+    {
+     "word": "square",
+     "fa": "میدان"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Next to, love. My memory! There's a big square with fountains in front. Kids play in them in summer. You can't miss it.",
+   "translations": {
+    "fa": "کنار عزیزم. حافظه‌ام! جلوش یه میدون بزرگ با فواره هست. تابستون بچه‌ها توش بازی می‌کنن. نمیشه نبینیش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fountains",
+      "remember",
+      "played",
+      "nicola"
+     ],
+     "suggestion": "Fountains! Now I remember. Nicola played there.",
+     "suggestionFa": "فواره! حالا یادم اومد. نیکولا اونجا بازی کرد.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phrase",
+      "can't",
+      "love",
+      "miss"
+     ],
+     "suggestion": "\"You can't miss it.\" I love that phrase.",
+     "suggestionFa": "«نمیشه نبینیش.» این عبارت را دوست دارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "memory",
+     "fa": "حافظه"
+    },
+    {
+     "word": "fountains",
+     "fa": "فواره‌ها"
+    },
+    {
+     "word": "in front",
+     "fa": "جلو"
+    },
+    {
+     "word": "can't miss it",
+     "fa": "حتماً می‌بینیش"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"You can't miss it\" means it's very easy to find. British people say it a lot — even when it's actually hard to find!",
+    "fa": "«You can't miss it» یعنی پیدا کردنش خیلی آسان است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Everybody says it. Then you walk past three times. Here's your stop, love! Ring the bell! What's the meeting?",
+   "translations": {
+    "fa": "همه میگن. بعد سه بار ازش رد میشی. ایستگاهت رسید عزیزم! زنگ را بزن! جلسه سر چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "citizenship",
+      "ceremony",
+      "friend"
+     ],
+     "suggestion": "A citizenship ceremony for a friend.",
+     "suggestionFa": "مراسم شهروندی یه دوست.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "community",
+      "helping",
+      "event"
+     ],
+     "suggestion": "I'm helping at a community event.",
+     "suggestionFa": "دارم تو یه برنامهٔ محلی کمک می‌کنم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ring the bell",
+     "fa": "زنگ را بزن"
+    },
+    {
+     "word": "meeting",
+     "fa": "جلسه"
+    },
+    {
+     "word": "citizenship ceremony",
+     "fa": "مراسم اعطای شهروندی"
+    },
+    {
+     "word": "community event",
+     "fa": "برنامهٔ محلی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "Ooh, how lovely! Off you go, then. Straight on, cross at the Empire, fountains. And straighten your tie!",
+   "translations": {
+    "fa": "اوه، چه قشنگ! پس برو. مستقیم، سر امپایر رد شو، فواره‌ها. و کراواتت را صاف کن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "list",
       "look",
+      "list",
       "let"
      ],
      "suggestion": "Let me look at the list.",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "ones",
-      "just"
+      "just",
+      "ones"
      ],
      "suggestion": "Just the red ones.",
      "suggestionFa": "فقط قرمزها.",
@@ -313,8 +313,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "got",
-      "bag"
+      "bag",
+      "got"
      ],
      "suggestion": "No, thanks. I've got a bag.",
      "suggestionFa": "نه، ممنون. کیسه دارم.",

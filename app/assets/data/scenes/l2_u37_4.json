@@ -20,8 +20,8 @@
     {
      "keywords": [
       "missed",
-      "say",
       "did",
+      "say",
       "she"
      ],
      "suggestion": "No, I missed it. What did she say?",
@@ -128,7 +128,7 @@
       "seventy",
       "chance",
       "check",
-      "rain"
+      "cent"
      ],
      "suggestion": "Let me check my app. It says a seventy per cent chance of rain.",
      "suggestionFa": "بذار اپم را ببینم. میگه هفتاد درصد احتمال بارون.",
@@ -192,7 +192,7 @@
      "keywords": [
       "showers",
       "write",
-      "down",
+      "i'll",
       "them"
      ],
      "suggestion": "Drizzle, showers, downpour. I'll write them down.",
@@ -263,9 +263,9 @@
     {
      "keywords": [
       "seasons",
-      "frost",
       "again",
-      "rain"
+      "frost",
+      "then"
      ],
      "suggestion": "Rain, then sun, then frost. Four seasons again!",
      "suggestionFa": "بارون، بعد آفتاب، بعد یخ. باز چهار فصل!",
@@ -318,7 +318,7 @@
       "london",
       "snow",
       "love",
-      "i'd"
+      "see"
      ],
      "suggestion": "I'd love to see snow in London.",
      "suggestionFa": "خیلی دوست دارم برف لندن را ببینم.",
@@ -353,8 +353,8 @@
     {
      "keywords": [
       "hurricane",
-      "london",
       "that's",
+      "london",
       "scary"
      ],
      "suggestion": "A hurricane in London? That's scary!",

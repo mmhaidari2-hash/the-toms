@@ -91,8 +91,8 @@
     {
      "keywords": [
       "expanding",
-      "opened",
       "you've",
+      "opened",
       "depot"
      ],
      "suggestion": "I read that you've just opened a new depot and are expanding fast.",
@@ -134,7 +134,7 @@
      "keywords": [
       "reorganised",
       "customer",
-      "schedule",
+      "delivery",
       "informed"
      ],
      "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
@@ -145,10 +145,10 @@
     },
     {
      "keywords": [
-      "colleagues",
-      "separately",
       "compromise",
-      "found"
+      "separately",
+      "colleagues",
+      "spoke"
      ],
      "suggestion": "Two colleagues fell out, so I spoke to each separately and found a compromise.",
      "suggestionFa": "دو تا همکار با هم دعواشون شد، پس با هر کدوم جدا صحبت کردم و یه راه میانه پیدا کردم.",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "contract",
       "customer",
+      "contract",
       "happy",
       "kept"
      ],
@@ -203,10 +203,10 @@
     },
     {
      "keywords": [
-      "together",
       "improved",
+      "together",
       "morale",
-      "work"
+      "they"
      ],
      "suggestion": "They work well together now, and morale improved.",
      "suggestionFa": "حالا با هم خوب کار می‌کنن، و روحیه بهتر شد.",
@@ -407,7 +407,7 @@
       "training",
       "typical",
       "there",
-      "look"
+      "like"
      ],
      "suggestion": "Yes — what does a typical day look like, and is there training?",
      "suggestionFa": "بله — یه روز معمولی چه شکلیه، و آموزش هست؟",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "working",
-      "enjoy",
       "about",
+      "enjoy",
       "most"
      ],
      "suggestion": "What do you enjoy most about working here?",

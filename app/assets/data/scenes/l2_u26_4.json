@@ -34,8 +34,8 @@
      "keywords": [
       "seats",
       "let's",
-      "down",
-      "back"
+      "back",
+      "down"
      ],
      "suggestion": "Let's put the back seats down.",
      "suggestionFa": "بیا صندلی‌های عقب را بخوابونیم.",
@@ -139,8 +139,8 @@
    "branches": [
     {
      "keywords": [
-      "rope",
       "have",
+      "rope",
       "can"
      ],
      "suggestion": "What can we do? Do we have a rope?",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "legal",
-      "open",
-      "boot"
+      "boot",
+      "open"
      ],
      "suggestion": "Is it legal? With the boot open?",
      "suggestionFa": "قانونیه؟ با درِ صندوق باز؟",
@@ -204,8 +204,8 @@
     },
     {
      "keywords": [
-      "slowly",
       "please",
+      "slowly",
       "ok"
      ],
      "suggestion": "OK. Slowly, please!",

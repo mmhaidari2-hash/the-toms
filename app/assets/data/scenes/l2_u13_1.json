@@ -87,8 +87,8 @@
      "keywords": [
       "register",
       "online",
-      "fine",
-      "like"
+      "like",
+      "fine"
      ],
      "suggestion": "I'd like to register, yes. Online is fine.",
      "suggestionFa": "بله، می‌خوام ثبت‌نام کنم. آنلاین خوبه.",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "hackney",
-      "what's",
       "street",
+      "what's",
       "mare"
      ],
      "suggestion": "10 Mare Street, Hackney. What's the postcode?",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "centre",
-      "only",
       "walk",
+      "only",
       "once"
      ],
      "suggestion": "Only once, at a walk-in centre.",
@@ -299,8 +299,8 @@
     },
     {
      "keywords": [
-      "blank",
       "leave",
+      "blank",
       "i'll",
       "ok"
      ],
@@ -336,9 +336,9 @@
    "branches": [
     {
      "keywords": [
+      "don't",
       "drink",
-      "smoke",
-      "don't"
+      "smoke"
      ],
      "suggestion": "I don't smoke, and I don't drink.",
      "suggestionFa": "سیگار نمی‌کشم، الکل هم نمی‌خورم.",
@@ -351,7 +351,7 @@
       "stopped",
       "smoked",
       "before",
-      "year"
+      "last"
      ],
      "suggestion": "I smoked before, but I stopped last year.",
      "suggestionFa": "قبلاً سیگار می‌کشیدم، ولی پارسال ترک کردم.",

@@ -65,7 +65,7 @@ List<List<String>> spoken(ContentBundle c) {
         add(n.speaker, RecastEngine.recast(n, i)?.echo);
       }
       for (final b in n.branches) {
-        if (s.playAs == null) add('me', b.suggestion);
+        if (s.playAs == null) add(s.guest ?? 'me', b.suggestion);
       }
       for (final w in n.newWords) {
         add('narrator', w.word);

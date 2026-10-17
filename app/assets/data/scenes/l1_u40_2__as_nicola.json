@@ -22,10 +22,10 @@
     {
      "keywords": [
       "button",
-      "press",
       "toast",
+      "press",
       "mummy",
-      "lets"
+      "make"
      ],
      "suggestion": "Can I make toast? Mummy lets me press the button!",
      "suggestionFa": "می‌تونم نون تست درست کنم؟ مامان میذاره دکمه را بزنم!",
@@ -73,9 +73,9 @@
      "keywords": [
       "ready",
       "take",
-      "ooh",
+      "pop",
       "can",
-      "out"
+      "ooh"
      ],
      "suggestion": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
      "suggestionFa": "پاپ! آماده‌ست! اوه، داغه! داغه! می‌تونی درش بیاری؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "marmite",
-      "loves",
-      "brown",
       "daddy",
-      "think"
+      "think",
+      "yucky",
+      "loves"
      ],
      "suggestion": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
      "suggestionFa": "مارمایت قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "funny",
-      "face",
-      "like"
+      "like",
+      "face"
      ],
      "suggestion": "Do you like it? Your face is funny!",
      "suggestionFa": "دوستش داری؟ صورتت خنده‌دار شده!",
@@ -172,7 +172,7 @@
       "triangles",
       "putting",
       "daddy",
-      "into",
+      "like",
       "lots"
      ],
      "suggestion": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
@@ -194,8 +194,8 @@
    "branches": [
     {
      "keywords": [
-      "everybody",
       "triangles",
+      "everybody",
       "better",
       "tastes",
       "knows"

@@ -1,0 +1,275 @@
+{
+ "id": "l2_u49_4__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Baking scones",
+ "titleFa": "(در نقش Nicola) پختن اسکون",
+ "setting": "Recipes · Level 2",
+ "settingFa": "دستور پخت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u49_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cutting",
+      "scones",
+      "cutter",
+      "nana",
+      "star"
+     ],
+     "suggestion": "Nana says scones are easy. Can I do the cutting? I want the star cutter!",
+     "suggestionFa": "نانا میگه اسکون آسونه. می‌تونم من ببرم؟ قالب ستاره را می‌خوام!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. First, we need to make the dough.",
+   "translations": {
+    "fa": "البته. اول باید خمیر را درست کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "squish",
+      "butter",
+      "flour",
+      "then"
+     ],
+     "suggestion": "Flour in the bowl. Then butter. Squish it with your fingers! Like this! Squish, squish!",
+     "suggestionFa": "آرد تو کاسه. بعد کره. با انگشتات لهش کن! اینجوری! له، له!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Squish, squish! Now the sugar?",
+   "translations": {
+    "fa": "له، له! حالا شکر؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "sticky",
+      "spoon",
+      "sugar",
+      "milk"
+     ],
+     "suggestion": "Sugar! A big spoon. And milk. Mix it all together. Now it's sticky! Yuck!",
+     "suggestionFa": "شکر! یه قاشق بزرگ. و شیر. همه را با هم قاطی کن. حالا چسبناک شد! ایش!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Add a bit more flour. It won't be sticky.",
+   "translations": {
+    "fa": "یه کم دیگه آرد اضافه کن. چسبناک نمیشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thumb",
+      "thick",
+      "flat",
+      "nana",
+      "thin"
+     ],
+     "suggestion": "Now pat it flat. Not too thin! Nana says as thick as my thumb.",
+     "suggestionFa": "حالا با دست صافش کن. خیلی نازک نه! نانا میگه به کلفتی انگشت شستم.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "As thick as your thumb. Like this?",
+   "translations": {
+    "fa": "به کلفتی شستت. اینجوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circles",
+      "thumb",
+      "twist",
+      "push",
+      "star"
+     ],
+     "suggestion": "Ha! Your thumb! OK, now I cut out circles. And one star. Push and twist!",
+     "suggestionFa": "ها! شست تو! باشه، حالا دایره می‌برم. و یه ستاره. فشار بده و بچرخون!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Eight circles and one star. Brilliant!",
+   "translations": {
+    "fa": "هشت تا دایره و یه ستاره. عالی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shiny",
+      "don't",
+      "twist",
+      "brush",
+      "then"
+     ],
+     "suggestion": "Oops. Push, don't twist. Then egg on top to make them shiny. Brush, brush. In the oven!",
+     "suggestionFa": "اوپس. فشار بده، نچرخون. بعد تخم‌مرغ رو روشون که براق بشن. بزن، بزن. تو فر!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "How long do they bake for?",
+   "translations": {
+    "fa": "چقدر باید بپزن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "argument",
+      "grandad",
+      "minutes",
+      "twelve",
+      "about"
+     ],
+     "suggestion": "Twelve minutes. Then jam and cream. But Nana and Grandad have a BIG argument about it.",
+     "suggestionFa": "دوازده دقیقه. بعد مربا و خامه. ولی نانا و پدربزرگ سرش یه دعوای بزرگ دارن.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "An argument? About scones?",
+   "translations": {
+    "fa": "دعوا؟ سر اسکون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "grandad",
+      "cream",
+      "wrong",
+      "first",
+      "puts"
+     ],
+     "suggestion": "Nana puts jam first. Grandad puts cream first. He says Nana is WRONG.",
+     "suggestionFa": "نانا اول مربا می‌ذاره. پدربزرگ اول خامه. میگه نانا اشتباه می‌کنه.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Jam first or cream first? Which is right?",
+   "translations": {
+    "fa": "اول مربا یا اول خامه؟ کدوم درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cornwall",
+      "they're",
+      "cream",
+      "ready",
+      "first"
+     ],
+     "suggestion": "Cornwall is jam first. Devon is cream first. I'm Cornwall! Ding! They're ready!",
+     "suggestionFa": "کورنوال اول مرباست. دوون اول خامه. من کورنوالی‌ام! دینگ! آماده شدن!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "They're golden and tall! Well done, Nicola!",
+   "translations": {
+    "fa": "طلایی و بلند شدن! آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "then",
+      "team",
+      "star",
+      "one"
+     ],
+     "suggestion": "The star one is for you. Jam first! Then you're on my team.",
+     "suggestionFa": "ستاره‌ای مال توئه. اول مربا! اون‌وقت تو تیم منی.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -18,11 +18,14 @@ class Voice {
     SpeechInput.unlockOnFirstTap();
   }
 
+  /// Career-pack guests (played instead of Mehdi) whose replies are recorded under their own voice.
+  static const guests = ['sara'];
+
   static String key(String speaker, String text) => md5.convert(utf8.encode('$speaker|$text')).toString().substring(0, 16);
 
   static String? _find(String speaker, String text) {
     // Mehdi as an NPC (role switching) reuses the guest's recorded lines.
-    for (final sp in {speaker, if (speaker == 'mehdi') 'me'}) {
+    for (final sp in {speaker, if (speaker == 'mehdi') 'me', if (speaker == 'me') ...guests}) {
       for (final t in {text, text.replaceAll('Mehdi', '{you}')}) {
         final k = key(sp, t);
         if (_index.contains(k)) return k;

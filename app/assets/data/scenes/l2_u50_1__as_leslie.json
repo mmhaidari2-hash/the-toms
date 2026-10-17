@@ -1,0 +1,225 @@
+{
+ "id": "l2_u50_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Who shall we invite?",
+ "titleFa": "(در نقش Leslie) چه کسی را دعوت کنیم؟",
+ "setting": "Party planning · Level 2",
+ "settingFa": "برنامه‌ریزی مهمانی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u50_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "surprise",
+      "turning",
+      "eighty",
+      "secret"
+     ],
+     "suggestion": "Big secret. Doris is turning eighty next month! Tom wants to throw her a surprise party here, on Saturday the 14th. Will you help?",
+     "suggestionFa": "راز بزرگ. دوریس ماه بعد هشتاد ساله میشه! تام می‌خواد براش همین‌جا، شنبه چهاردهم، مهمونی غافلگیرانه بگیره. کمک می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Eighty! Of course I'll help.",
+   "translations": {
+    "fa": "هشتاد! البته کمک می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "invited",
+      "nothing",
+      "morning",
+      "invite",
+      "times'"
+     ],
+     "suggestion": "Nothing! Tom's invited her to ride his bus that morning, \"for old times' sake\". First job: the guest list. Who shall we invite?",
+     "suggestionFa": "هیچی! تام دعوتش کرده اون روز صبح سوار اتوبوسش بشه، «به یاد قدیما». کار اول: فهرست مهمون‌ها. کیا را دعوت کنیم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Shall we invite Nana Maggie and George?",
+   "translations": {
+    "fa": "نانا مگی و جورج را دعوت کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "regulars",
+      "together",
+      "friends",
+      "maggie",
+      "george"
+     ],
+     "suggestion": "Maggie and George, yes — Maggie and Doris go to bingo together. And the bus friends! Tom knows six regulars. Who else?",
+     "suggestionFa": "مگی و جورج، آره — مگی و دوریس با هم بینگو میرن. و دوست‌های اتوبوس! تام شش تا مسافر همیشگی را می‌شناسه. دیگه کی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Why don't we ask Arthur from the post office?",
+   "translations": {
+    "fa": "چرا از آرتور تو پستخونه نپرسیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "husband",
+      "family",
+      "arthur",
+      "nephew",
+      "adores"
+     ],
+     "suggestion": "Arthur! Yes, she adores him. Family — a nephew in Kent, Gary. Tom has his number. Her husband Ron died ten years ago.",
+     "suggestionFa": "آرتور! آره، عاشقشه. خانواده — یه خواهرزاده تو کنت، گری. تام شماره‌اش را داره. شوهرش ران ده سال پیش فوت کرد.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Let's call Gary tonight.",
+   "translations": {
+    "fa": "بیا امشب به گری زنگ بزنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwiches",
+      "fifteen",
+      "that's",
+      "twenty",
+      "living"
+     ],
+     "suggestion": "I hope so. So that's fifteen people. Our living room fits twenty. Just. What about food? Sandwiches?",
+     "suggestionFa": "امیدوارم. پس میشه پونزده نفر. پذیرایی ما بیست نفر جا داره. به‌زور. غذا چی؟ ساندویچ؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Let's do a buffet. Sandwiches, sausage rolls, crisps.",
+   "translations": {
+    "fa": "بیا بوفه بذاریم. ساندویچ، سوسیس رول، چیپس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saffron",
+      "british",
+      "buffet",
+      "always",
+      "asking"
+     ],
+     "suggestion": "Both! A British buffet and your saffron rice. Doris will love it. She's always asking what you eat at home.",
+     "suggestionFa": "هر دو! یه بوفهٔ بریتانیایی و برنج زعفرونی تو. دوریس عاشقش میشه. همیشه می‌پرسه تو خونه چی می‌خوری.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "And decorations? Balloons?",
+   "translations": {
+    "fa": "و تزئینات؟ بادکنک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thinking",
+      "balloons",
+      "playlist",
+      "sixties",
+      "richard"
+     ],
+     "suggestion": "Music! Good thinking. Fifties and sixties — Elvis, Cliff Richard. Ryan can make a playlist. And balloons, gold ones. \"80\".",
+     "suggestionFa": "موسیقی! فکر خوبیه. دهه‌های پنجاه و شصت — الویس، کلیف ریچارد. رایان می‌تونه یه فهرست پخش درست کنه. و بادکنک، طلایی. «۸۰».",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Gold balloons. I'll buy them on Friday.",
+   "translations": {
+    "fa": "بادکنک طلایی. جمعه می‌خرمشون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accidentally",
+      "surprise",
+      "doris",
+      "round",
+      "he'll"
+     ],
+     "suggestion": "Tom! He'll \"accidentally\" take the long way round. Then: \"Doris, pop in for a cup of tea?\" SURPRISE! Shh — not a word on the bus.",
+     "suggestionFa": "تام! «تصادفی» راه طولانی را میره. بعد: «دوریس، یه سر بیا تو برای چای؟» غافلگیری! هیس — یه کلمه هم تو اتوبوس نه.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "worry",
       "don't",
+      "worry",
       "bad"
      ],
      "suggestion": "Don't worry, Ryan. It's not bad!",
@@ -55,10 +55,10 @@
    "branches": [
     {
      "keywords": [
-      "wasn't",
       "mostly",
-      "ryan",
-      "good"
+      "wasn't",
+      "good",
+      "ryan"
      ],
      "suggestion": "It wasn't bad, Ryan. It was mostly good!",
      "suggestionFa": "بد نبود رایان. بیشترش خوب بود!",
@@ -68,10 +68,10 @@
     },
     {
      "keywords": [
-      "doing",
       "patel",
-      "said",
-      "well"
+      "doing",
+      "well",
+      "said"
      ],
      "suggestion": "Mr Patel said you're doing well.",
      "suggestionFa": "آقای پاتل گفت خوب پیش میری.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "little",
-      "ones",
-      "good"
+      "good",
+      "ones"
      ],
      "suggestion": "You're good with the little ones, Ryan.",
      "suggestionFa": "تو با کوچولوها خوبی، رایان.",
@@ -147,7 +147,7 @@
       "algebra",
       "maths",
       "patel",
-      "work"
+      "need"
      ],
      "suggestion": "Maths. Mr Patel said you need to work on algebra.",
      "suggestionFa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی.",
@@ -159,8 +159,8 @@
      "keywords": [
       "homework",
       "pieces",
-      "late",
-      "were"
+      "were",
+      "five"
      ],
      "suggestion": "Five pieces of homework were late.",
      "suggestionFa": "پنج تا تکلیف دیر بوده.",
@@ -216,7 +216,7 @@
       "that's",
       "eight",
       "seven",
-      "good"
+      "plan"
      ],
      "suggestion": "Seven to eight. That's a good plan.",
      "suggestionFa": "هفت تا هشت. برنامهٔ خوبیه.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "homework",
-      "ryan",
+      "time",
       "only",
-      "time"
+      "ryan"
      ],
      "suggestion": "Ryan, it's only for homework time.",
      "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "only",
+      "ryan",
       "one"
      ],
      "suggestion": "It's only one hour, Ryan.",
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "strange",
       "numbers",
+      "strange",
       "just",
       "like"
      ],
@@ -358,8 +358,8 @@
     {
      "keywords": [
       "algebra",
-      "you'll",
       "puzzle",
+      "you'll",
       "like"
      ],
      "suggestion": "Algebra is like a puzzle. You'll like it.",
@@ -399,9 +399,9 @@
     {
      "keywords": [
       "leslie",
-      "find",
       "will",
-      "tom"
+      "find",
+      "out"
      ],
      "suggestion": "Tom! Leslie will find out!",
      "suggestionFa": "تام! لزلی می‌فهمه!",
@@ -412,8 +412,8 @@
     {
      "keywords": [
       "that's",
-      "great",
       "prize",
+      "great",
       "ryan"
      ],
      "suggestion": "That's a great prize, Ryan.",

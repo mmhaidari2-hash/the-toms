@@ -1,0 +1,512 @@
+{
+ "id": "l2_u55_2",
+ "characterId": "dev",
+ "title": "A new phone contract",
+ "titleFa": "قرارداد جدید تلفن",
+ "setting": "Phone and internet · Level 2",
+ "settingFa": "تلفن و اینترنت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dev",
+   "text": "Hello again! And you've brought… Ryan? With his mum's permission? Leslie phoned ahead. First contract, yeah?",
+   "translations": {
+    "fa": "باز سلام! و آوردی… رایان را؟ با اجازهٔ مامانش؟ لزلی قبلاً زنگ زده. اولین قرارداده، آره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contract",
+      "needs",
+      "lots",
+      "data"
+     ],
+     "suggestion": "Yes. Ryan needs a contract with lots of data.",
+     "suggestionFa": "آره. رایان یه قرارداد با کلی اینترنت لازم داره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "leslie",
+      "she's",
+      "asked"
+     ],
+     "suggestion": "Yes. Leslie asked me to help. She's working.",
+     "suggestionFa": "آره. لزلی ازم خواست کمک کنم. سر کاره.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "permission",
+     "fa": "اجازه"
+    },
+    {
+     "word": "phoned ahead",
+     "fa": "از قبل زنگ زد"
+    },
+    {
+     "word": "contract",
+     "fa": "قرارداد"
+    },
+    {
+     "word": "data",
+     "fa": "اینترنت همراه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dev",
+   "text": "Right. Ryan's fifteen, so the contract goes in Leslie's name. She's signed the form online. Ryan, how much data do you use?",
+   "translations": {
+    "fa": "خب. رایان پونزده سالشه، پس قرارداد به اسم لزلی میره. فرم را آنلاین امضا کرده. رایان، چقدر اینترنت مصرف می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "tell",
+      "use",
+      "dev"
+     ],
+     "suggestion": "Ryan, tell Dev how much you use.",
+     "suggestionFa": "رایان، به دِو بگو چقدر مصرف می‌کنی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mostly",
+      "videos",
+      "uses",
+      "lot"
+     ],
+     "suggestion": "Ryan uses a lot. Mostly videos.",
+     "suggestionFa": "رایان زیاد مصرف می‌کنه. بیشتر ویدیو.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Loads. TikTok, YouTube, gaming. Unlimited, please.",
+   "translations": {
+    "fa": "کلی. تیک‌تاک، یوتیوب، بازی. نامحدود، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "gigabytes",
+      "unlimited",
+      "thirty"
+     ],
+     "suggestion": "Unlimited is expensive. What about thirty gigabytes?",
+     "suggestionFa": "نامحدود گرونه. سی گیگابایت چطوره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifteen",
+      "pounds",
+      "leslie",
+      "month"
+     ],
+     "suggestion": "Leslie said not more than fifteen pounds a month.",
+     "suggestionFa": "لزلی گفت نه بیشتر از ماهی پونزده پوند.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in her name",
+     "fa": "به اسم او"
+    },
+    {
+     "word": "signed",
+     "fa": "امضا کرد"
+    },
+    {
+     "word": "loads",
+     "fa": "کلی"
+    },
+    {
+     "word": "unlimited",
+     "fa": "نامحدود"
+    },
+    {
+     "word": "gigabytes",
+     "fa": "گیگابایت"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you must be 18 to take out a phone contract. Parents often take the contract for a teenager and add parental controls.",
+    "fa": "در بریتانیا برای قرارداد تلفن باید ۱۸ سال داشت؛ والدین اغلب به اسم خودشان برای نوجوان قرارداد می‌گیرند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dev",
+   "text": "Fifteen a month — I can do thirty gigs, SIM only. He keeps his old phone. Ryan, thirty gigs is a lot. Plus Wi-Fi at home.",
+   "translations": {
+    "fa": "ماهی پونزده — می‌تونم سی گیگ بدم، فقط سیم‌کارت. گوشی قدیمیش را نگه می‌داره. رایان، سی گیگ زیاده. به‌اضافهٔ وای‌فای خونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spending",
+      "leslie",
+      "there",
+      "wants"
+     ],
+     "suggestion": "Is there a spending cap? Leslie wants one.",
+     "suggestionFa": "سقف هزینه هست؟ لزلی یکی می‌خواد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "contract",
+      "long",
+      "how"
+     ],
+     "suggestion": "How long is the contract?",
+     "suggestionFa": "قرارداد چقدره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gigs",
+     "fa": "گیگ (عامیانه)"
+    },
+    {
+     "word": "SIM only",
+     "fa": "فقط سیم‌کارت"
+    },
+    {
+     "word": "plus",
+     "fa": "به اضافهٔ"
+    },
+    {
+     "word": "spending cap",
+     "fa": "سقف هزینه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is there spending cap",
+      "there is a spending cap?"
+     ],
+     "echo": "Is there a spending cap? Yes!",
+     "better": "Is there a spending cap?",
+     "betterFa": "سقف هزینه هست؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dev",
+   "text": "Good question. Yes — I'll set the cap at zero. So no extra charges. No surprise bills from app purchases. Leslie will love that.",
+   "translations": {
+    "fa": "سؤال خوبیه. آره — سقف را روی صفر می‌ذارم. پس هیچ هزینهٔ اضافه‌ای نیست. صورت‌حساب غافلگیرکننده از خریدهای داخل اپ نداره. لزلی عاشقش میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surprises",
+      "perfect",
+      "leslie"
+     ],
+     "suggestion": "Perfect. No surprises for Leslie.",
+     "suggestionFa": "عالی. برای لزلی غافلگیری نیست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "extra",
+      "zero",
+      "hear",
+      "ryan"
+     ],
+     "suggestion": "Ryan, did you hear that? Zero extra.",
+     "suggestionFa": "رایان، شنیدی؟ صفرِ اضافه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Zero? So I can't buy FIFA points? Bro, that's harsh.",
+   "translations": {
+    "fa": "صفر؟ پس نمی‌تونم امتیاز فیفا بخرم؟ داداش، خیلی سخت‌گیرانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "mum's",
+      "rules",
+      "deal"
+     ],
+     "suggestion": "That's the deal, Ryan. Your mum's rules.",
+     "suggestionFa": "قرار همینه رایان. قوانین مامانت.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bakery",
+      "money",
+      "fifa",
+      "use"
+     ],
+     "suggestion": "You can use your bakery money for FIFA.",
+     "suggestionFa": "می‌تونی از پول نونوایی برای فیفا استفاده کنی.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extra charges",
+     "fa": "هزینه‌های اضافه"
+    },
+    {
+     "word": "surprise bills",
+     "fa": "صورت‌حساب غافلگیرکننده"
+    },
+    {
+     "word": "purchases",
+     "fa": "خریدها"
+    },
+    {
+     "word": "harsh",
+     "fa": "سخت‌گیرانه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dev",
+   "text": "Exactly — with a gift card. Right. The contract is twelve months, fifteen pounds a month. The price goes up a little every April.",
+   "translations": {
+    "fa": "دقیقاً — با کارت هدیه. خب. قرارداد دوازده ماهه‌ست، ماهی پونزده پوند. هر آوریل قیمت یه کم میره بالا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "april",
+      "much",
+      "goes"
+     ],
+     "suggestion": "It goes up every April? How much?",
+     "suggestionFa": "هر آوریل میره بالا؟ چقدر؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happens",
+      "breaks",
+      "phone",
+      "he"
+     ],
+     "suggestion": "What happens if he breaks the phone?",
+     "suggestionFa": "اگه گوشی را بشکنه چی میشه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gift card",
+     "fa": "کارت هدیه"
+    },
+    {
+     "word": "months",
+     "fa": "ماه‌ها"
+    },
+    {
+     "word": "goes up",
+     "fa": "بالا می‌رود"
+    },
+    {
+     "word": "breaks",
+     "fa": "بشکند"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK phone contracts rise every April by a fixed amount written in the contract, for example £1.80 a month. Check before you sign.",
+    "fa": "بسیاری از قراردادها هر آوریل مبلغ ثابتی گران می‌شوند؛ قبل از امضا بررسی کنید."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dev",
+   "text": "About two pounds a month — it's in the contract. And if he breaks the phone, that's not us. It's his old phone. Get a good case!",
+   "translations": {
+    "fa": "حدود ماهی دو پوند — تو قرارداد هست. و اگه گوشی را بشکنه، به ما ربطی نداره. گوشی قدیمی خودشه. یه قاب خوب بگیرید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strong",
+      "need",
+      "ryan"
+     ],
+     "suggestion": "Ryan, you need a strong case.",
+     "suggestionFa": "رایان، یه قاب محکم لازم داری.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "them",
+      "good",
+      "sell"
+     ],
+     "suggestion": "A good case. Do you sell them here?",
+     "suggestionFa": "یه قاب خوب. اینجا می‌فروشید؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "I've only broken two phones. Ever. Fine — a case. A cool one.",
+   "translations": {
+    "fa": "من فقط دو تا گوشی شکوندم. کلاً. باشه — یه قاب. یه باحالش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strong",
+      "black",
+      "cool",
+      "one"
+     ],
+     "suggestion": "The black one is cool and strong.",
+     "suggestionFa": "مشکیه باحال و محکمه.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bill",
+      "case",
+      "can",
+      "add"
+     ],
+     "suggestion": "Can we add the case to the bill?",
+     "suggestionFa": "میشه قاب را به صورت‌حساب اضافه کنیم؟",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "case",
+     "fa": "قاب گوشی"
+    },
+    {
+     "word": "ever",
+     "fa": "تا حالا ؛ کلاً"
+    },
+    {
+     "word": "cool",
+     "fa": "باحال"
+    },
+    {
+     "word": "strong",
+     "fa": "محکم"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "dev",
+   "text": "Black, shockproof, ten pounds. Done. Here's the SIM. Ryan, it works in an hour. Now say thank you to your… what is he? Your uncle?",
+   "translations": {
+    "fa": "مشکی، ضدضربه، ده پوند. تموم شد. اینم سیم‌کارت. رایان، یه ساعت دیگه کار می‌کنه. حالا از… این چی‌کاره‌ته؟ داییته؟ تشکر کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "say",
+      "go"
+     ],
+     "suggestion": "Go on, Ryan. Say thank you.",
+     "suggestionFa": "یالا رایان. تشکر کن.",
+     "trustDelta": 6,
+     "next": "n11",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tell",
+      "him"
+     ],
+     "suggestion": "Ryan, what am I? Tell him!",
+     "suggestionFa": "رایان، من چی‌کاره‌تم؟ بهش بگو!",
+     "trustDelta": 5,
+     "next": "n11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n11": {
+   "id": "n11",
+   "speaker": "ryan",
+   "text": "He's basically my big brother. Cheers, bro. And cheers, Dev. Thirty gigs! Let's go!",
+   "translations": {
+    "fa": "عملاً برادر بزرگمه. مرسی داداش. و مرسی دِو. سی گیگ! بزن بریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

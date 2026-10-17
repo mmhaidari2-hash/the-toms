@@ -31,8 +31,8 @@
     {
      "keywords": [
       "towels",
-      "paper",
-      "where"
+      "where",
+      "paper"
      ],
      "suggestion": "Yes. Where are the paper towels?",
      "suggestionFa": "آره. دستمال کاغذی‌ها کجان؟",
@@ -79,8 +79,8 @@
     {
      "keywords": [
       "which",
-      "song",
-      "sing"
+      "sing",
+      "song"
      ],
      "suggestion": "Which song do you sing?",
      "suggestionFa": "کدوم آهنگ را می‌خونید؟",
@@ -134,8 +134,8 @@
     },
     {
      "keywords": [
-      "hands",
       "great",
+      "hands",
       "rinse"
      ],
      "suggestion": "Great! Now rinse your hands.",
@@ -269,5 +269,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

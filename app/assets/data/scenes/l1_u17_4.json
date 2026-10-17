@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
-      "glass",
+      "water",
       "could",
-      "water"
+      "glass"
      ],
      "suggestion": "Could I have a glass of water, please?",
      "suggestionFa": "می‌شه یه لیوان آب داشته باشم، لطفاً؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "everyone",
-      "wants",
       "drink",
+      "wants",
       "cold"
      ],
      "suggestion": "Everyone wants a cold drink!",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "twenty",
-      "five",
       "iran",
+      "five",
       "hot"
      ],
      "suggestion": "Twenty-five is not hot in Iran!",
@@ -379,9 +379,9 @@
     },
     {
      "keywords": [
+      "next",
       "time",
       "turn",
-      "next",
       "ok"
      ],
      "suggestion": "OK, next time is my turn!",

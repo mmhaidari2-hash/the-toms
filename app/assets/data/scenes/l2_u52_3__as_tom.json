@@ -1,0 +1,357 @@
+{
+ "id": "l2_u52_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) The room's too noisy",
+ "titleFa": "(در نقش Tom) اتاق خیلی پرسروصداست",
+ "setting": "Hotel and B&B · Level 2",
+ "settingFa": "هتل و پانسیون",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u52_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderwall",
+      "karaoke",
+      "someone",
+      "didn't",
+      "room's"
+     ],
+     "suggestion": "I didn't sleep a wink. Our room's above the bar next door. Music till two a.m. Karaoke! Someone sang \"Wonderwall\" four times.",
+     "suggestionFa": "یه لحظه هم نخوابیدم. اتاقمون بالای بار بغلیه. موسیقی تا دو صبح. کارائوکه! یکی چهار بار «واندروال» خوند.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Four times! That's terrible.",
+   "translations": {
+    "fa": "چهار بار! افتضاحه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "earplugs",
+      "humming",
+      "leslie",
+      "nicely"
+     ],
+     "suggestion": "The kids? Like logs. Leslie wore earplugs. Me — I lay there humming Oasis. I need to say something to Sophie. But nicely.",
+     "suggestionFa": "بچه‌ها؟ مثل کُنده. لزلی گوش‌گیر گذاشت. من — دراز کشیده بودم و آهنگ اوئیسیس زمزمه می‌کردم. باید یه چیزی به سوفی بگم. ولی مؤدبانه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Say: \"I'm afraid there's a problem with our room.\"",
+   "translations": {
+    "fa": "بگو: «متأسفانه اتاقمون مشکل داره.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "problem",
+      "morning",
+      "afraid",
+      "bother"
+     ],
+     "suggestion": "Good. \"I'm afraid there's a problem…\" Sophie! Morning. Sorry to bother you. I'm afraid our room is a bit… noisy.",
+     "suggestionFa": "خوبه. «متأسفانه یه مشکلی…» سوفی! صبح بخیر. ببخشید مزاحم میشم. متأسفانه اتاقمون یه کم… پرسروصداست.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Well done, Tom. Very polite.",
+   "translations": {
+    "fa": "آفرین تام. خیلی مؤدبانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "sophie",
+   "text": "Oh no — is it the karaoke? I'm so sorry! It's every Friday. Auntie hates it too. What can we do for you?",
+   "translations": {
+    "fa": "وای نه — کارائوکه‌ست؟ خیلی متأسفم! هر جمعه‌ست. خاله‌ام هم ازش متنفره. چه کاری می‌تونیم براتون بکنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bother",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "noisy",
+     "fa": "پر سروصدا"
+    },
+    {
+     "word": "karaoke",
+     "fa": "کارائوکه"
+    },
+    {
+     "word": "quieter",
+     "fa": "آرام‌تر"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Would it be possible to change rooms?",
+   "translations": {
+    "fa": "ممکنه اتاق عوض کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "sophie",
+   "text": "Let me check… Yes! Room five is free tonight. It's at the back, over the garden. Quiet as a church. But it's a bit smaller.",
+   "translations": {
+    "fa": "بذار ببینم… آره! اتاق پنج امشب خالیه. پشت ساختمونه، رو به باغ. ساکت مثل کلیسا. ولی یه کم کوچیک‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quiet as a church",
+     "fa": "خیلی ساکت"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Smaller is OK. Tom, what do you think?",
+   "translations": {
+    "fa": "کوچیک‌تر اشکالی نداره. تام، نظرت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "smaller",
+      "sophie",
+      "thank",
+      "would"
+     ],
+     "suggestion": "Smaller is fine. Quiet is everything. That would be great, Sophie. Thank you.",
+     "suggestionFa": "کوچیک‌تر اشکالی نداره. سکوت یعنی همه‌چی. عالی میشه سوفی. ممنون.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Can the kids still sleep together in room five?",
+   "translations": {
+    "fa": "بچه‌ها هنوز می‌تونن تو اتاق پنج با هم بخوابن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "sophie",
+   "text": "Yes — there's a bunk bed. Nicola will fight William for the top! And because of last night, your dinner tonight is on the house.",
+   "translations": {
+    "fa": "آره — یه تخت دوطبقه هست. نیکولا با ویلیام سر طبقهٔ بالا دعوا می‌کنه! و به‌خاطر دیشب، شام امشبتون مهمون ماست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have to",
+     "fa": "مجبور بودن"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Free dinner! Thank you, Sophie.",
+   "translations": {
+    "fa": "شام مجانی! ممنون سوفی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "complain",
+      "that's",
+      "polite",
+      "dinner",
+      "sophie"
+     ],
+     "suggestion": "Free dinner? Sophie, you're a star. See? That's how you complain. Polite, and you get dinner!",
+     "suggestionFa": "شام مجانی؟ سوفی، تو یه ستاره‌ای. دیدی؟ اینجوری شکایت می‌کنن. مؤدبانه، و شام می‌گیری!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "I'm learning from the best!",
+   "translations": {
+    "fa": "دارم از بهترین یاد می‌گیرم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouting",
+      "doesn't",
+      "strange",
+      "country",
+      "moving"
+     ],
+     "suggestion": "Shouting doesn't work here. Smile, say sorry, and they give you more. Strange country. Right — I'm moving our bags. Then a nap.",
+     "suggestionFa": "داد زدن اینجا جواب نمیده. لبخند بزن، عذرخواهی کن، و بیشتر بهت میدن. کشور عجیبیه. خب — کیف‌هامون را جابه‌جا می‌کنم. بعد یه چرت.",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Sleep well, Tom. No Wonderwall!",
+   "translations": {
+    "fa": "خوب بخوابی تام. بدون واندروال!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderwall",
+      "properly",
+      "tonight",
+      "hear",
+      "help"
+     ],
+     "suggestion": "Help with the bags, yes. And if you hear Wonderwall tonight, wake me up. I'll go and sing it properly.",
+     "suggestionFa": "کمک با کیف‌ها، آره. و اگه امشب واندروال شنیدی، بیدارم کن. میرم درست‌حسابی می‌خونمش.",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

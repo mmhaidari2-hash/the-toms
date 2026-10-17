@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -114,7 +114,7 @@
       "never",
       "mind",
       "give",
-      "him"
+      "can"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -185,11 +185,11 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "thank",
-      "back",
+      "after",
+      "call",
       "tell",
-      "love"
+      "back"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
      "suggestionFa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه.",

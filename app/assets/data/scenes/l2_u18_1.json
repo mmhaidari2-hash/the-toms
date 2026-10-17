@@ -123,8 +123,8 @@
     {
      "keywords": [
       "street",
-      "which",
       "upper",
+      "which",
       "best"
      ],
      "suggestion": "Which stop is best for Upper Street?",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "near",
+      "town",
       "hall",
-      "sure",
-      "town"
+      "near",
+      "sure"
      ],
      "suggestion": "I'm not sure. The one near the town hall.",
      "suggestionFa": "مطمئن نیستم. اونی که نزدیک ساختمان شهرداریه.",
@@ -186,7 +186,7 @@
       "minutes",
       "twenty",
       "that's",
-      "fine"
+      "five"
      ],
      "suggestion": "Twenty-five minutes. That's fine.",
      "suggestionFa": "بیست و پنج دقیقه. خوبه.",
@@ -289,8 +289,8 @@
      "keywords": [
       "coming",
       "right",
-      "side",
-      "back"
+      "back",
+      "side"
      ],
      "suggestion": "OK. Is this the right side for coming back?",
      "suggestionFa": "باشه. برای برگشتن همین طرفه؟",

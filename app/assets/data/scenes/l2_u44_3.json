@@ -22,7 +22,7 @@
       "delayed",
       "hours",
       "nine",
-      "was"
+      "why"
      ],
      "suggestion": "Nine hours! Why was it delayed?",
      "suggestionFa": "نه ساعت! چرا تأخیر داشت؟",
@@ -34,8 +34,8 @@
      "keywords": [
       "flying",
       "where",
-      "were",
-      "from"
+      "from",
+      "were"
      ],
      "suggestion": "Where were you flying from?",
      "suggestionFa": "از کجا پرواز می‌کردید؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "hours",
-      "mean",
       "crew",
+      "mean",
       "out"
      ],
      "suggestion": "What does \"the crew ran out of hours\" mean?",
@@ -150,8 +150,8 @@
      "keywords": [
       "survive",
       "hours",
-      "kids",
-      "nine"
+      "nine",
+      "kids"
      ],
      "suggestion": "Nine hours with three kids. How did you survive?",
      "suggestionFa": "نه ساعت با سه تا بچه. چطوری دووم آوردید؟",
@@ -205,9 +205,9 @@
     {
      "keywords": [
       "airport",
-      "that's",
       "pounds",
-      "twelve"
+      "twelve",
+      "that's"
      ],
      "suggestion": "Twelve pounds? That's not much at an airport.",
      "suggestionFa": "دوازده پوند؟ تو فرودگاه زیاد نیست.",
@@ -260,8 +260,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "how",
-      "did"
+      "did",
+      "how"
      ],
      "suggestion": "A thousand pounds! How did you do that?",
      "suggestionFa": "هزار پوند! چطوری؟",
@@ -313,8 +313,8 @@
      "keywords": [
       "boarding",
       "good",
-      "pass",
-      "i'll"
+      "i'll",
+      "keep"
      ],
      "suggestion": "I'll keep my boarding pass. Good tip!",
      "suggestionFa": "کارت پروازم را نگه می‌دارم. نکتهٔ خوبیه!",
@@ -430,8 +430,8 @@
     },
     {
      "keywords": [
-      "holiday",
       "stories",
+      "holiday",
       "family",
       "best"
      ],

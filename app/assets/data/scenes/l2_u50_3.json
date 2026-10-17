@@ -1,0 +1,420 @@
+{
+ "id": "l2_u50_3",
+ "characterId": "ryan",
+ "title": "Party games",
+ "titleFa": "بازی‌های مهمانی",
+ "setting": "Party planning · Level 2",
+ "settingFa": "برنامه‌ریزی مهمانی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Right, the old people have eaten. Nan says we need party games. For pensioners! What do eighty-year-olds even play?",
+   "translations": {
+    "fa": "خب، پیرها غذا خوردن. مادربزرگ میگه بازی مهمونی لازمه. برای بازنشسته‌ها! آدم‌های هشتاد ساله اصلاً چی بازی می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parcel",
+      "about",
+      "pass"
+     ],
+     "suggestion": "What about pass the parcel?",
+     "suggestionFa": "«بسته را رد کن» چطوره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "don't",
+      "rude",
+      "ryan"
+     ],
+     "suggestion": "Ryan! Don't say \"old people\". It's rude!",
+     "suggestionFa": "رایان! نگو «پیرها». بی‌ادبیه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pensioners",
+     "fa": "بازنشسته‌ها"
+    },
+    {
+     "word": "even",
+     "fa": "اصلاً"
+    },
+    {
+     "word": "pass the parcel",
+     "fa": "بازی بسته را رد کن"
+    },
+    {
+     "word": "rude",
+     "fa": "بی‌ادبانه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Fine, \"senior guests\". Pass the parcel? That's for kids! Actually… Doris might love it. Is there a parcel?",
+   "translations": {
+    "fa": "باشه، «مهمون‌های ارشد». بسته را رد کن؟ اون برای بچه‌هاست! راستش… شاید دوریس عاشقش بشه. بسته داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "wrapped",
+      "nicola",
+      "layers"
+     ],
+     "suggestion": "Nicola wrapped one this morning. Ten layers!",
+     "suggestionFa": "نیکولا امروز صبح یکی پیچیده. ده لایه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "explain",
+      "rules",
+      "i'll"
+     ],
+     "suggestion": "I'll explain the rules to everyone.",
+     "suggestionFa": "من قوانین را برای همه توضیح میدم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "senior",
+     "fa": "ارشد ؛ سالمند"
+    },
+    {
+     "word": "wrapped",
+     "fa": "پیچید ؛ کادو کرد"
+    },
+    {
+     "word": "layers",
+     "fa": "لایه‌ها"
+    },
+    {
+     "word": "rules",
+     "fa": "قوانین"
+    }
+   ],
+   "cultureNote": {
+    "en": "Pass the parcel: a present is wrapped in many layers. Guests pass it round while music plays. When the music stops, the person holding it removes one layer.",
+    "fa": "بستهٔ کادوشده با موسیقی دست‌به‌دست می‌شود؛ وقتی موسیقی قطع شد، نفری که آن را دارد یک لایه را باز می‌کند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "OK. Everyone in a circle! I'm the DJ. Pass it on when the music plays. When the music stops, take off one layer.",
+   "translations": {
+    "fa": "باشه. همه دایره‌وار! من دی‌جی‌ام. وقتی موسیقی پخش میشه ردش کنید. وقتی قطع شد، یه لایه را باز کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arthur",
+      "quick",
+      "pass"
+     ],
+     "suggestion": "Pass it on, Arthur! Quick!",
+     "suggestionFa": "ردش کن آرتور! سریع!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stopped",
+      "music",
+      "doris",
+      "has"
+     ],
+     "suggestion": "The music stopped! Doris has it!",
+     "suggestionFa": "موسیقی قطع شد! دست دوریسه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "circle",
+     "fa": "دایره"
+    },
+    {
+     "word": "DJ",
+     "fa": "دی‌جی"
+    },
+    {
+     "word": "pass it on",
+     "fa": "ردش کن"
+    },
+    {
+     "word": "take off",
+     "fa": "باز کردن ؛ برداشتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "when music stop",
+      "when the music will stop"
+     ],
+     "echo": "When the music stops, open a layer!",
+     "better": "When the music stops, take off one layer.",
+     "betterFa": "وقتی موسیقی قطع شد، یک لایه را باز کن."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Ha! Doris, you've got it! Open one layer. What's inside? A sweet! Again! Elvis, go!",
+   "translations": {
+    "fa": "ها! دوریس، دست توئه! یه لایه باز کن. توش چیه؟ آب‌نبات! دوباره! الویس، شروع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "passing",
+      "slowly",
+      "george"
+     ],
+     "suggestion": "George is passing it very slowly!",
+     "suggestionFa": "جورج خیلی آروم ردش می‌کنه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stopping",
+      "purpose",
+      "ryan"
+     ],
+     "suggestion": "Ryan, are you stopping it on purpose?",
+     "suggestionFa": "رایان، عمداً قطعش می‌کنی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "sweet",
+     "fa": "آب‌نبات"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    },
+    {
+     "word": "on purpose",
+     "fa": "عمداً"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Me? Never. Maybe. OK, last layer! Doris wins! It's a… scarf. Nana knitted it. In bus-red. She's crying. Good crying.",
+   "translations": {
+    "fa": "من؟ هرگز. شاید. باشه، آخرین لایه! دوریس برنده شد! یه… شال گردنه. نانا بافته. قرمز اتوبوسی. داره گریه می‌کنه. گریهٔ خوب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "that's",
+      "well",
+      "done"
+     ],
+     "suggestion": "That's so lovely. Well done, Ryan.",
+     "suggestionFa": "خیلی قشنگه. آفرین رایان.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "next",
+      "game"
+     ],
+     "suggestion": "Next game! What's next?",
+     "suggestionFa": "بازی بعدی! بعدی چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last",
+     "fa": "آخرین"
+    },
+    {
+     "word": "wins",
+     "fa": "برنده می‌شود"
+    },
+    {
+     "word": "scarf",
+     "fa": "شال گردن"
+    },
+    {
+     "word": "knitted",
+     "fa": "بافت"
+    },
+    {
+     "word": "crying",
+     "fa": "گریه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Musical chairs. But — no. Nan says no. \"Someone will break a hip.\" Musical statues instead. When the music stops, freeze!",
+   "translations": {
+    "fa": "صندلی موزیکال. ولی — نه. مادربزرگ میگه نه. «یکی لگنش می‌شکنه.» به‌جاش مجسمهٔ موزیکال. وقتی موسیقی قطع شد، خشک شید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arthur",
+      "freeze",
+      "moved",
+      "out"
+     ],
+     "suggestion": "Freeze! Arthur, you moved! You're out!",
+     "suggestionFa": "خشک! آرتور، تکون خوردی! سوختی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "judge",
+      "i'll"
+     ],
+     "suggestion": "I'll be a judge with you.",
+     "suggestionFa": "من با تو داور میشم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "musical chairs",
+     "fa": "صندلی موزیکال"
+    },
+    {
+     "word": "hip",
+     "fa": "لگن"
+    },
+    {
+     "word": "statues",
+     "fa": "مجسمه‌ها"
+    },
+    {
+     "word": "freeze",
+     "fa": "بی‌حرکت ماندن"
+    },
+    {
+     "word": "out",
+     "fa": "بیرون ؛ سوخته"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Arthur's out! He's arguing. \"I was scratching my nose!\" Ha! OK, it's your turn to be DJ. I'm dancing with Doris.",
+   "translations": {
+    "fa": "آرتور سوخت! داره بحث می‌کنه. «داشتم دماغم را می‌خاروندم!» ها! باشه، نوبت توئه دی‌جی باشی. من با دوریس می‌رقصم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "music",
+      "turn",
+      "stop",
+      "ok"
+     ],
+     "suggestion": "My turn! OK, music… stop!",
+     "suggestionFa": "نوبت من! باشه، موسیقی… قطع!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dancer",
+      "great",
+      "doris"
+     ],
+     "suggestion": "Doris is a great dancer!",
+     "suggestionFa": "دوریس رقاص خیلی خوبیه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arguing",
+     "fa": "بحث کردن"
+    },
+    {
+     "word": "scratching",
+     "fa": "خاراندن"
+    },
+    {
+     "word": "nose",
+     "fa": "بینی"
+    },
+    {
+     "word": "turn",
+     "fa": "نوبت"
+    },
+    {
+     "word": "dancing",
+     "fa": "رقصیدن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "She is! She's teaching me the jive. Don't film this. If this goes on TikTok, my life is over. Right, cake time!",
+   "translations": {
+    "fa": "هست! داره جایو یادم میده. ازش فیلم نگیر. اگه بره تیک‌تاک، زندگیم تمومه. خب، وقت کیکه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

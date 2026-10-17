@@ -7,13 +7,14 @@
  "settingFa": "صحبت با والدین",
  "requires": null,
  "level": "A2",
+ "guest": "sara",
  "baseId": "nur_4_2",
  "playAs": "leslie",
  "start": "r1",
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,14 +22,14 @@
    "branches": [
     {
      "keywords": [
+      "brilliant",
       "william",
-      "strange",
-      "seeing",
       "today",
-      "here"
+      "vida",
+      "must"
      ],
-     "suggestion": "Hi, Mehdi! It's strange seeing you here! How was William today?",
-     "suggestionFa": "سلام {you}! عجیبه اینجا می‌بینمت! ویلیام امروز چطور بود؟",
+     "suggestion": "Hi! You must be Sara — Vida says you're brilliant. How was William today?",
+     "suggestionFa": "سلام! تو باید سارا باشی — ویدا میگه فوق‌العاده‌ای. ویلیام امروز چطور بود؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -38,7 +39,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Hi, Leslie! He had a great day.",
    "translations": {
     "fa": "سلام لزلی! روز خیلی خوبی داشت."
@@ -47,10 +48,10 @@
     {
      "keywords": [
       "lovely",
-      "fussy",
       "lunch",
+      "fussy",
       "home",
-      "he's"
+      "been"
      ],
      "suggestion": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
      "suggestionFa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه.",
@@ -63,7 +64,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Yes, he ate all of it and had seconds!",
    "translations": {
     "fa": "آره، همه‌ش را خورد و دوباره هم گرفت!"
@@ -75,7 +76,7 @@
       "have",
       "nap",
       "did",
-      "ha"
+      "he"
      ],
      "suggestion": "Ha, typical! And did he have a nap?",
      "suggestionFa": "ها، معمولیه! چرت هم زد؟",
@@ -88,7 +89,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Yes, he slept for an hour, from one to two.",
    "translations": {
     "fa": "آره، یه ساعت خوابید، از یک تا دو."
@@ -96,8 +97,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -141,7 +142,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "He made it from boxes this morning.",
    "translations": {
     "fa": "امروز صبح با جعبه‌ها ساختش."
@@ -200,7 +201,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Because William chose green!",
    "translations": {
     "fa": "چون ویلیام سبز را انتخاب کرد!"
@@ -225,7 +226,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "No accidents — he told us every time.",
    "translations": {
     "fa": "هیچ خیس‌کاری‌ای — هر بار بهمون گفت."
@@ -239,8 +240,8 @@
       "already",
       "thanks"
      ],
-     "suggestion": "Fantastic. Thanks, Mehdi. You sound like a real nursery practitioner already!",
-     "suggestionFa": "فوق‌العاده. ممنون {you}. همین الان مثل یه مربی مهد واقعی حرف می‌زنی!",
+     "suggestion": "Fantastic. Thanks, Sara. You sound like a real nursery practitioner already!",
+     "suggestionFa": "فوق‌العاده. ممنون سارا. همین الان مثل یه مربی مهد واقعی حرف می‌زنی!",
      "trustDelta": 5,
      "next": "r10",
      "success": true
@@ -250,7 +251,7 @@
   },
   "r10": {
    "id": "r10",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

@@ -24,8 +24,8 @@
      "keywords": [
       "drives",
       "daddy",
-      "red",
-      "big"
+      "big",
+      "red"
      ],
      "suggestion": "Yes! Daddy drives the big red bus!",
      "suggestionFa": "آره! بابا اتوبوس بزرگ قرمز را می‌رونه!",
@@ -74,7 +74,7 @@
       "people",
       "bell",
       "ring",
-      "get"
+      "off"
      ],
      "suggestion": "People ring the bell to get off.",
      "suggestionFa": "مردم زنگ می‌زنن که پیاده بشن.",
@@ -130,8 +130,8 @@
      "keywords": [
       "waved",
       "back",
-      "see",
-      "did"
+      "did",
+      "see"
      ],
      "suggestion": "Daddy waved back! Did you see?",
      "suggestionFa": "بابا هم دست تکون داد! دیدی؟",
@@ -178,8 +178,8 @@
    "branches": [
     {
      "keywords": [
-      "people",
       "decker",
+      "people",
       "double",
       "more"
      ],
@@ -191,9 +191,9 @@
     },
     {
      "keywords": [
+      "buses",
       "let's",
-      "count",
-      "buses"
+      "count"
      ],
      "suggestion": "Let's count the buses.",
      "suggestionFa": "بیا اتوبوس‌ها را بشمریم.",
@@ -282,8 +282,8 @@
      "keywords": [
       "called",
       "london",
-      "black",
-      "taxis"
+      "taxis",
+      "black"
      ],
      "suggestion": "London taxis are called black cabs.",
      "suggestionFa": "به تاکسی‌های لندن می‌گن black cab.",
@@ -329,8 +329,8 @@
    "branches": [
     {
      "keywords": [
-      "driver",
       "you'll",
+      "driver",
       "great",
       "bus"
      ],
@@ -393,8 +393,8 @@
     },
     {
      "keywords": [
-      "wheel",
       "brrrm",
+      "wheel",
       "hold"
      ],
      "suggestion": "Hold the wheel! Brrrm!",

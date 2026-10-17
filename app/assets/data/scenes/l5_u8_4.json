@@ -35,7 +35,7 @@
       "escape",
       "burnt",
       "did",
-      "was"
+      "raw"
      ],
      "suggestion": "Was it burnt? Raw? Did it escape?",
      "suggestionFa": "سوخت؟ خام موند؟ فرار کرد؟",
@@ -79,7 +79,7 @@
      "keywords": [
       "incredibly",
       "dangerous",
-      "turkey",
+      "sounds",
       "frying"
      ],
      "suggestion": "Oh no. Deep-frying a turkey sounds incredibly dangerous.",
@@ -146,8 +146,8 @@
      "keywords": [
       "nobody",
       "please",
-      "tell",
-      "hurt"
+      "hurt",
+      "tell"
      ],
      "suggestion": "Please tell me nobody was hurt.",
      "suggestionFa": "لطفاً بگو کسی آسیب ندید.",
@@ -188,7 +188,7 @@
       "wonderfully",
       "christmas",
       "british",
-      "toast"
+      "beans"
      ],
      "suggestion": "Beans on toast for Christmas! That's so wonderfully British.",
      "suggestionFa": "لوبیا با نون تست برای کریسمس! خیلی بریتانیایی و قشنگه.",
@@ -200,8 +200,8 @@
      "keywords": [
       "eyebrows",
       "tom's",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "So that's why Tom's eyebrows look like that!",
      "suggestionFa": "پس واسه همینه ابروهای تام اون‌شکلیه!",

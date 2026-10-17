@@ -125,8 +125,8 @@
     {
      "keywords": [
       "thing",
-      "list",
-      "next"
+      "next",
+      "list"
      ],
      "suggestion": "Next thing on the list?",
      "suggestionFa": "چیز بعدی لیست؟",
@@ -202,8 +202,8 @@
    "branches": [
     {
      "keywords": [
-      "gravy",
       "can't",
+      "gravy",
       "find",
       "we"
      ],
@@ -269,8 +269,8 @@
     },
     {
      "keywords": [
-      "aisle",
       "three",
+      "aisle",
       "easy"
      ],
      "suggestion": "Aisle three. Easy!",

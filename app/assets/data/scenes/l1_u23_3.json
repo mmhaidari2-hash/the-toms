@@ -20,9 +20,9 @@
     {
      "keywords": [
       "let's",
-      "find",
       "ones",
-      "some"
+      "some",
+      "find"
      ],
      "suggestion": "Let's find some new ones.",
      "suggestionFa": "بیا یه جفت نو پیدا کنیم.",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "nicola",
+      "colour",
       "which"
      ],
      "suggestion": "Which colour, Nicola?",
@@ -159,8 +159,8 @@
     {
      "keywords": [
       "nicola",
-      "black",
       "shoes",
+      "black",
       "must"
      ],
      "suggestion": "School shoes must be black, Nicola.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "lights",
-      "think",
-      "don't"
+      "don't",
+      "think"
      ],
      "suggestion": "Lights at school? I don't think so!",
      "suggestionFa": "چراغ تو مدرسه؟ فکر نکنم!",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "mirror",
       "nicola",
+      "mirror",
       "walk"
      ],
      "suggestion": "Walk to the mirror, Nicola.",

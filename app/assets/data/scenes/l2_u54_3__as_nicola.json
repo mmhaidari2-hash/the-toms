@@ -1,0 +1,225 @@
+{
+ "id": "l2_u54_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) A fox in the garden",
+ "titleFa": "(در نقش Nicola) روباه در باغ",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u54_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "garden",
+      "come",
+      "wake",
+      "real"
+     ],
+     "suggestion": "Wake up! Wake up! There's a FOX in the garden! A real one! Come and see!",
+     "suggestionFa": "بیدار شو! بیدار شو! تو باغ یه روباهه! یه واقعیش! بیا ببین!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "A fox? Really? Where?",
+   "translations": {
+    "fa": "روباه؟ واقعاً؟ کجا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "sandwich",
+      "daddy's",
+      "orange",
+      "eating"
+     ],
+     "suggestion": "By the shed! It's orange with a white tail tip. It's eating something. Is it eating Daddy's sandwich?",
+     "suggestionFa": "کنار انباری! نارنجیه با نوک دم سفید. داره یه چیزی می‌خوره. داره ساندویچ بابایی را می‌خوره؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "It's eating something from the bin!",
+   "translations": {
+    "fa": "داره یه چیزی از سطل زباله می‌خوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stroke",
+      "orange",
+      "please",
+      "looks",
+      "like"
+     ],
+     "suggestion": "Can I stroke it? Please? It looks like a dog. A soft orange dog.",
+     "suggestionFa": "می‌تونم نازش کنم؟ لطفاً؟ شبیه سگه. یه سگ نارنجی نرم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "No, don't go near it. It's a wild animal.",
+   "translations": {
+    "fa": "نه، نزدیکش نرو. حیوون وحشیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "house",
+      "just",
+      "live",
+      "i'll"
+     ],
+     "suggestion": "OK. I'll just look. Where does it live? In a house?",
+     "suggestionFa": "باشه. فقط نگاه می‌کنم. کجا زندگی می‌کنه؟ تو یه خونه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "In a den. Maybe under a shed or in the park.",
+   "translations": {
+    "fa": "تو یه لونه. شاید زیر یه انباری یا تو پارک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "playing",
+      "babies",
+      "three",
+      "look"
+     ],
+     "suggestion": "Look! It's got BABIES! One, two, three babies! They're playing!",
+     "suggestionFa": "ببین! بچه داره! یکی، دو تا، سه تا بچه! دارن بازی می‌کنن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Fox cubs! They're so cute!",
+   "translations": {
+    "fa": "توله‌روباه! خیلی بانمکن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "little",
+      "ginger",
+      "name",
+      "them"
+     ],
+     "suggestion": "Cubs! Can we give them a name? The big one is Ginger. The little one is Biscuit!",
+     "suggestionFa": "توله! میشه براشون اسم بذاریم؟ بزرگه زنجبیله. کوچولوئه بیسکویت!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ginger and Biscuit. And the third one?",
+   "translations": {
+    "fa": "زنجبیل و بیسکویت. و سومی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "because",
+      "clever",
+      "mehdi",
+      "third",
+      "come"
+     ],
+     "suggestion": "The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back?",
+     "suggestionFa": "سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Maybe tonight. Foxes come out at night.",
+   "translations": {
+    "fa": "شاید امشب. روباه‌ها شب‌ها میان بیرون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bedtime",
+      "tonight",
+      "awake",
+      "eight",
+      "seven"
+     ],
+     "suggestion": "Tonight I'll stay awake and watch. All night! Well… till eight. Mummy says bedtime is seven.",
+     "suggestionFa": "امشب بیدار می‌مونم و نگاه می‌کنم. کل شب! خب… تا هشت. مامانی میگه وقت خواب هفته.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

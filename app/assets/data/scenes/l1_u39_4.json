@@ -31,9 +31,9 @@
     {
      "keywords": [
       "there",
-      "bins",
+      "many",
       "sure",
-      "many"
+      "bins"
      ],
      "suggestion": "Sure. How many bins are there?",
      "suggestionFa": "حتماً. چند تا سطل هست؟",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "rinse",
       "dirty",
+      "rinse",
       "i'll"
      ],
      "suggestion": "No, it's dirty. I'll rinse it.",
@@ -171,8 +171,8 @@
     },
     {
      "keywords": [
-      "black",
       "where",
+      "black",
       "bin",
       "go"
      ],
@@ -218,8 +218,8 @@
     },
     {
      "keywords": [
-      "where",
       "brown",
+      "where",
       "go"
      ],
      "suggestion": "Where does the brown bin go?",
@@ -275,10 +275,10 @@
     },
     {
      "keywords": [
-      "website",
       "council",
-      "let's",
-      "check"
+      "website",
+      "check",
+      "let's"
      ],
      "suggestion": "Let's check the council website.",
      "suggestionFa": "بیا سایت شهرداری را چک کنیم.",

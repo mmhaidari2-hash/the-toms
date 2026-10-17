@@ -1,0 +1,359 @@
+{
+ "id": "l2_u51_2",
+ "characterId": "baker",
+ "title": "Lost in the market",
+ "titleFa": "گم شدن در بازار",
+ "setting": "Asking the way · Level 2",
+ "settingFa": "پرسیدن مسیر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Hiya! Found me! Broadway Market's busy today, eh? Did you get lost? Everyone gets lost the first time.",
+   "translations": {
+    "fa": "سلام! پیدام کردی! بازار برادوی امروز شلوغه، نه؟ گم شدی؟ همه دفعهٔ اول گم میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circle",
+      "walked",
+      "round"
+     ],
+     "suggestion": "Yes! I walked round in a circle.",
+     "suggestionFa": "آره! یه دور زدم و برگشتم سر جای اول.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gareth",
+      "busy",
+      "hi"
+     ],
+     "suggestion": "Hi, Gareth! It's so busy!",
+     "suggestionFa": "سلام گرت! خیلی شلوغه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "market",
+     "fa": "بازار"
+    },
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "got lost",
+     "fa": "گم شدی"
+    },
+    {
+     "word": "in a circle",
+     "fa": "دور خود"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "Ha! Happens to all of us. Sourdough for Leslie? Here. Now, she asked you to get cheese too, right? From the cheese stall.",
+   "translations": {
+    "fa": "ها! برای همه‌مون پیش میاد. نون ترش برای لزلی؟ بفرما. حالا، ازت خواست پنیر هم بگیری، درسته؟ از غرفهٔ پنیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "excuse",
+      "cheese",
+      "stall"
+     ],
+     "suggestion": "Yes. Excuse me, where's the cheese stall?",
+     "suggestionFa": "آره. ببخشید، غرفهٔ پنیر کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "near",
+      "way",
+      "caf"
+     ],
+     "suggestion": "Is it this way, near the café?",
+     "suggestionFa": "از این طرفه، نزدیک کافه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sourdough",
+     "fa": "نان خمیرترش"
+    },
+    {
+     "word": "stall",
+     "fa": "غرفه"
+    },
+    {
+     "word": "cheese",
+     "fa": "پنیر"
+    },
+    {
+     "word": "near",
+     "fa": "نزدیک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "where is cheese stall",
+      "where's the stall of cheese"
+     ],
+     "echo": "Where's the cheese stall? Down there!",
+     "better": "Where's the cheese stall?",
+     "betterFa": "غرفهٔ پنیر کجاست؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "Opposite way, mate. Go back towards the canal. Keep going until you see a stall with a green umbrella. That's the olive man.",
+   "translations": {
+    "fa": "برعکس رفیق. برگرد سمت کانال. ادامه بده تا یه غرفه با چتر سبز ببینی. اون مرد زیتون‌فروشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "umbrella",
+      "towards",
+      "green",
+      "canal"
+     ],
+     "suggestion": "Towards the canal, then the green umbrella.",
+     "suggestionFa": "سمت کانال، بعد چتر سبز.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheese",
+      "olive",
+      "next",
+      "man"
+     ],
+     "suggestion": "The olive man? Is he next to the cheese?",
+     "suggestionFa": "مرد زیتون‌فروش؟ کنار پنیره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "opposite way",
+     "fa": "برعکس ؛ طرف مقابل"
+    },
+    {
+     "word": "towards",
+     "fa": "به سمت"
+    },
+    {
+     "word": "canal",
+     "fa": "کانال"
+    },
+    {
+     "word": "keep going",
+     "fa": "ادامه بده"
+    },
+    {
+     "word": "umbrella",
+     "fa": "چتر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Broadway Market in Hackney is a busy Saturday food market near Regent's Canal, with bakers, cheese, coffee and street food stalls.",
+    "fa": "بازار برادوی در هکنی بازار غذایی شلوغ شنبه‌ها نزدیک کانال ریجنت است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "After the olives, the cheese stall is on your right. Big wheels of cheese. Ask for \"Lincolnshire Poacher\". Leslie's favourite.",
+   "translations": {
+    "fa": "بعد از زیتون‌ها، غرفهٔ پنیر سمت راستته. چرخ‌های بزرگ پنیر. «لینکنشایر پوچر» بخواه. مورد علاقهٔ لزلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "olives",
+      "after",
+      "thank",
+      "right"
+     ],
+     "suggestion": "On my right, after the olives. Thank you!",
+     "suggestionFa": "سمت راستم، بعد از زیتون‌ها. ممنون!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lincoln",
+      "write",
+      "down",
+      "can"
+     ],
+     "suggestion": "Lincoln… what? Can you write it down?",
+     "suggestionFa": "لینکن… چی؟ میشه بنویسیدش؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "olives",
+     "fa": "زیتون‌ها"
+    },
+    {
+     "word": "on your right",
+     "fa": "سمت راستت"
+    },
+    {
+     "word": "wheels",
+     "fa": "چرخ‌ها ؛ قرص‌های بزرگ"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Ha! Here — on the bag. And if you see the flower stall, you've gone too far. Turn back.",
+   "translations": {
+    "fa": "ها! بیا — رو کیسه نوشتم. و اگه غرفهٔ گل را دیدی، زیادی رفتی. برگرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gone",
+      "i've",
+      "see",
+      "far"
+     ],
+     "suggestion": "If I see flowers, I've gone too far. OK!",
+     "suggestionFa": "اگه گل دیدم، زیادی رفتم. باشه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "maybe",
+      "i'll",
+      "buy"
+     ],
+     "suggestion": "Maybe I'll buy flowers for Leslie too.",
+     "suggestionFa": "شاید برای لزلی گل هم بخرم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flower",
+     "fa": "گل"
+    },
+    {
+     "word": "gone too far",
+     "fa": "زیادی رفته‌ای"
+    },
+    {
+     "word": "turn back",
+     "fa": "برگرد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "Flowers for Leslie? Tom will be jealous! Oh, Ryan's on the coffee stall today, two stalls down. He'll give you a discount.",
+   "translations": {
+    "fa": "گل برای لزلی؟ تام حسودیش میشه! اوه، و رایان امروز تو غرفهٔ قهوه‌ست، دو تا غرفه پایین‌تر. بهت تخفیف میده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "working",
+      "ryan's",
+      "today",
+      "here"
+     ],
+     "suggestion": "Ryan's working here today?",
+     "suggestionFa": "رایان امروز اینجا کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "discount",
+      "believe",
+      "i'll",
+      "when"
+     ],
+     "suggestion": "A discount from Ryan? I'll believe it when I see it!",
+     "suggestionFa": "تخفیف از رایان؟ تا نبینم باور نمی‌کنم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jealous",
+     "fa": "حسود"
+    },
+    {
+     "word": "two stalls down",
+     "fa": "دو غرفه پایین‌تر"
+    },
+    {
+     "word": "discount",
+     "fa": "تخفیف"
+    },
+    {
+     "word": "believe",
+     "fa": "باور کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "He's helping my mate Pete. Good lad. Go on — canal, umbrella, cheese on your right. You'll be a market expert by lunch!",
+   "translations": {
+    "fa": "داره به رفیقم پیت کمک می‌کنه. پسر خوبیه. برو دیگه — کانال، چتر، پنیر سمت راست. تا ناهار متخصص بازار میشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

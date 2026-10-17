@@ -67,10 +67,10 @@
    "branches": [
     {
      "keywords": [
-      "driving",
       "weather",
-      "food",
-      "left"
+      "driving",
+      "left",
+      "food"
      ],
      "suggestion": "The food, the weather, and driving on the left!",
      "suggestionFa": "غذا، هوا، و رانندگی از سمت چپ!",
@@ -81,9 +81,9 @@
     {
      "keywords": [
       "everything",
-      "shops",
       "money",
-      "buses"
+      "buses",
+      "shops"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
      "suggestionFa": "همه چی. اتوبوس‌ها، مغازه‌ها، پول!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "wrong",
       "first",
+      "wrong",
       "took",
       "bus"
      ],
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "chips",
+      "great",
       "fish",
-      "was"
+      "ate"
      ],
      "suggestion": "I ate fish and chips. It was great!",
      "suggestionFa": "ماهی و سیب‌زمینی خوردم. عالی بود!",
@@ -345,7 +345,7 @@
      "keywords": [
       "invited",
       "they",
-      "tea",
+      "dad",
       "mum"
      ],
      "suggestion": "Your mum and dad. They invited me for tea.",
@@ -359,7 +359,7 @@
       "drawing",
       "nicola",
       "gave",
-      "was"
+      "cat"
      ],
      "suggestion": "Nicola gave me a drawing. It was a cat!",
      "suggestionFa": "نیکولا یه نقاشی بهم داد. یه گربه بود!",

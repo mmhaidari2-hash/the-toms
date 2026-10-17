@@ -23,8 +23,8 @@
      "keywords": [
       "alright",
       "room's",
-      "messy",
       "sorry",
+      "messy",
       "come"
      ],
      "suggestion": "Alright? Sorry, my room's a bit messy. Come in.",
@@ -49,8 +49,8 @@
       "football",
       "that's",
       "laptop",
-      "these",
-      "boots"
+      "boots",
+      "these"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "gross",
-      "books",
       "shelf",
-      "week",
+      "books",
+      "from",
       "last"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
@@ -173,9 +173,9 @@
      "keywords": [
       "enough",
       "floor",
-      "look",
       "fair",
-      "can"
+      "look",
+      "see"
      ],
      "suggestion": "Ha, fair enough. Look — the floor! I can see the floor!",
      "suggestionFa": "ها، حق داری. ببین — کف اتاق! کف را می‌بینم!",
@@ -200,7 +200,7 @@
       "cheers",
       "wanna",
       "play",
-      "fifa"
+      "mate"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",
      "suggestionFa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟",

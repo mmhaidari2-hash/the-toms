@@ -23,9 +23,9 @@
      "keywords": [
       "stopped",
       "puddles",
-      "look",
+      "jump",
       "them",
-      "rain"
+      "look"
      ],
      "suggestion": "Look! Big puddles! The rain stopped. Can we jump in them?",
      "suggestionFa": "ببین! چاله‌های آب بزرگ! بارون بند اومد. می‌تونیم توشون بپریم؟",
@@ -74,8 +74,8 @@
       "peppa",
       "jump",
       "like",
-      "pig",
-      "now"
+      "now",
+      "pig"
      ],
      "suggestion": "Like Peppa Pig! Now you jump! In the big one!",
      "suggestionFa": "مثل پپا پیگ! حالا تو بپر! تو اون بزرگه!",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "rainbow",
-      "above",
       "trees",
       "there",
-      "look"
+      "above",
+      "over"
      ],
      "suggestion": "Look! A rainbow! Over there, above the trees!",
      "suggestionFa": "ببین! رنگین‌کمون! اونجا، بالای درخت‌ها!",
@@ -145,9 +145,9 @@
    "branches": [
     {
      "keywords": [
-      "purple",
-      "orange",
       "yellow",
+      "orange",
+      "purple",
       "green",
       "blue"
      ],
@@ -172,8 +172,8 @@
      "keywords": [
       "wellies",
       "inside",
-      "socks",
       "seven",
+      "socks",
       "brrr"
      ],
      "suggestion": "Seven! Brrr. I'm cold now. My socks are wet inside my wellies.",

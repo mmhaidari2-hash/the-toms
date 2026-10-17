@@ -20,8 +20,8 @@
     {
      "keywords": [
       "yoghurt",
-      "have",
       "more",
+      "have",
       "any"
      ],
      "suggestion": "Have you got any more of this yoghurt?",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "empty",
       "shelf",
+      "empty",
       "sold",
       "out"
      ],
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "please",
-      "could",
-      "check"
+      "check",
+      "could"
      ],
      "suggestion": "Could you check in the back, please?",
      "suggestionFa": "میشه لطفاً تو انبار را نگاه کنید؟",
@@ -152,8 +152,8 @@
      "keywords": [
       "lunchtime",
       "morning",
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "Six in the morning? I'll come at lunchtime.",
      "suggestionFa": "شش صبح؟ ظهر میام.",
@@ -244,10 +244,10 @@
    "branches": [
     {
      "keywords": [
-      "wipes",
       "can't",
-      "baby",
-      "find"
+      "wipes",
+      "find",
+      "baby"
      ],
      "suggestion": "Yes. I can't find the baby wipes.",
      "suggestionFa": "آره. دستمال مرطوب بچه را پیدا نمی‌کنم.",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "toiletries",
-      "friend",
-      "what's"
+      "what's",
+      "friend"
      ],
      "suggestion": "No, for a friend. What's \"toiletries\"?",
      "suggestionFa": "نه، برای یه دوست. «تویلِتریز» چیه؟",

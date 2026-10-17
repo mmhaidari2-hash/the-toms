@@ -20,9 +20,9 @@
     {
      "keywords": [
       "where",
-      "find",
       "huge",
-      "rice"
+      "rice",
+      "find"
      ],
      "suggestion": "Yes, it's huge! Where can I find rice?",
      "suggestionFa": "آره، خیلی بزرگه! برنج را کجا پیدا کنم؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "bread",
       "next",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Yes, I can see it. Next to the bread?",
      "suggestionFa": "آره، می‌بینمش. کنار نون؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "basmati",
-      "seven",
       "thank",
+      "seven",
       "rice"
      ],
      "suggestion": "Seven. Thank you! And basmati rice?",
@@ -142,8 +142,8 @@
    "branches": [
     {
      "keywords": [
-      "world",
       "aisle",
+      "world",
       "there",
       "food"
      ],
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "saffron",
-      "have",
       "from",
-      "iran"
+      "iran",
+      "have"
      ],
      "suggestion": "I'm from Iran. Do you have saffron?",
      "suggestionFa": "اهل ایرانم. زعفرون دارین؟",
@@ -358,7 +358,7 @@
       "clever",
       "what's",
       "only",
-      "list"
+      "i'll"
      ],
      "suggestion": "Clever! I'll only buy what's on my list.",
      "suggestionFa": "زرنگی! فقط چیزایی که تو لیستمه می‌خرم.",

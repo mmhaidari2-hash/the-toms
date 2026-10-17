@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "that's",
       "making",
-      "noise",
-      "white"
+      "that's",
+      "white",
+      "noise"
      ],
      "suggestion": "Come in. It's the white box that's making a noise.",
      "suggestionFa": "بفرمایید. همون جعبهٔ سفیده که صدا می‌ده.",
@@ -76,7 +76,7 @@
       "worried",
       "that's",
       "about",
-      "was"
+      "one"
      ],
      "suggestion": "Yes, that's the one that Tom was worried about.",
      "suggestionFa": "آره، همونیه که تام نگرانش بود.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "today",
-      "fix",
-      "can"
+      "can",
+      "fix"
      ],
      "suggestion": "Can you fix it today?",
      "suggestionFa": "امروز می‌تونید درستش کنید؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "that's",
-      "great",
       "would",
+      "great",
       "like"
      ],
      "suggestion": "That's great. Would you like a cup of tea?",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "roughly",
+      "will",
       "much",
-      "cost",
-      "will"
+      "cost"
      ],
      "suggestion": "How much will it cost, roughly?",
      "suggestionFa": "تقریباً چقدر میشه؟",

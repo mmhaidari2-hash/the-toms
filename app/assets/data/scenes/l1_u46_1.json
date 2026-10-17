@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "sorry",
       "we're",
+      "sorry",
       "hello",
       "late"
      ],
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "umbrella",
-      "where",
       "shall",
+      "where",
       "put"
      ],
      "suggestion": "Where shall I put my umbrella?",
@@ -132,7 +132,7 @@
       "persian",
       "brought",
       "sweets",
-      "shop"
+      "from"
      ],
      "suggestion": "I brought some sweets from the Persian shop.",
      "suggestionFa": "منم از مغازهٔ ایرانی شیرینی آوردم.",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "lovely",
-      "house",
-      "thank"
+      "thank",
+      "house"
      ],
      "suggestion": "Thank you. Your house is lovely.",
      "suggestionFa": "ممنون. خونه‌تون قشنگه.",
@@ -279,8 +279,8 @@
     },
     {
      "keywords": [
-      "warm",
-      "here"
+      "here",
+      "warm"
      ],
      "suggestion": "It's very warm in here.",
      "suggestionFa": "اینجا خیلی گرمه.",

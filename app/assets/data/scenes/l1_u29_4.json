@@ -30,8 +30,8 @@
     {
      "keywords": [
       "waitress",
-      "ask",
-      "let"
+      "let",
+      "ask"
      ],
      "suggestion": "Let me ask the waitress.",
      "suggestionFa": "بذار از گارسون بپرسم.",
@@ -77,8 +77,8 @@
     },
     {
      "keywords": [
-      "please",
       "lovely",
+      "please",
       "have",
       "bill"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "split",
       "shall",
+      "split",
       "we"
      ],
      "suggestion": "Shall we split it?",
@@ -373,9 +373,9 @@
     {
      "keywords": [
       "we'll",
+      "soon",
       "back",
-      "come",
-      "soon"
+      "come"
      ],
      "suggestion": "We'll come back soon!",
      "suggestionFa": "به زودی برمی‌گردیم!",

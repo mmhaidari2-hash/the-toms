@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -47,7 +47,7 @@
       "here",
       "bet",
       "say",
-      "was"
+      "bad"
      ],
      "suggestion": "Here we go. What did Patel say? Was it bad? I bet it was bad.",
      "suggestionFa": "شروع شد. پاتل چی گفت؟ بد بود؟ شرط می‌بندم بد بود.",
@@ -113,9 +113,9 @@
      "keywords": [
       "seriously",
       "what's",
-      "news",
+      "said",
       "nice",
-      "said"
+      "news"
      ],
      "suggestion": "Seriously? He said that? Nice. So… what's the bad news?",
      "suggestionFa": "جدی؟ اینو گفت؟ خوبه. پس… خبر بد چیه؟",
@@ -157,8 +157,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -252,11 +252,11 @@
    "branches": [
     {
      "keywords": [
-      "algebra",
       "explain",
+      "algebra",
       "better",
-      "patel",
-      "maybe"
+      "maybe",
+      "patel"
      ],
      "suggestion": "You like algebra? For real? OK… if you explain it better than Mr Patel, maybe.",
      "suggestionFa": "تو جبر دوست داری؟ واقعاً؟ باشه… اگه بهتر از آقای پاتل توضیح بدی، شاید.",
@@ -298,8 +298,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "exactly",
       "council",
+      "exactly",
       "tax"
      ],
      "suggestion": "Yes. What is council tax exactly?",
@@ -84,8 +84,8 @@
      "keywords": [
       "every",
       "home",
-      "room",
-      "even"
+      "even",
+      "room"
      ],
      "suggestion": "Every home? Even if I rent a room?",
      "suggestionFa": "هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "cancelled",
-      "great",
-      "thank"
+      "thank",
+      "great"
      ],
      "suggestion": "Cancelled? Great! Thank you.",
      "suggestionFa": "لغو شد؟ عالیه! ممنون.",
@@ -244,8 +244,8 @@
    "branches": [
     {
      "keywords": [
-      "ten",
-      "why"
+      "why",
+      "ten"
      ],
      "suggestion": "Why ten, not twelve?",
      "suggestionFa": "چرا ده، نه دوازده؟",
@@ -257,8 +257,8 @@
      "keywords": [
       "instalments",
       "instead",
-      "pay",
-      "she"
+      "can",
+      "pay"
      ],
      "suggestion": "Can she pay in twelve instalments instead?",
      "suggestionFa": "می‌تونه به‌جاش دوازده قسط بده؟",
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "discount",
-      "maggie",
       "george",
+      "maggie",
       "lives"
      ],
      "suggestion": "And Nana Maggie lives alone with George. Do they get a discount?",
@@ -310,9 +310,9 @@
     {
      "keywords": [
       "leslie",
-      "good",
       "know",
-      "tell"
+      "good",
+      "i'll"
      ],
      "suggestion": "Good to know. I'll tell Leslie.",
      "suggestionFa": "خوب شد فهمیدم. به لزلی میگم.",
@@ -352,8 +352,8 @@
      "keywords": [
       "that's",
       "thank",
-      "kind",
-      "ward"
+      "ward",
+      "kind"
      ],
      "suggestion": "Thank you, Ms Ward. That's very kind.",
      "suggestionFa": "ممنون خانم وارد. خیلی لطف دارید.",
@@ -365,8 +365,8 @@
      "keywords": [
       "number",
       "what's",
-      "help",
-      "them"
+      "i'll",
+      "call"
      ],
      "suggestion": "I'll help them call. What's the number?",
      "suggestionFa": "کمکشون می‌کنم زنگ بزنن. شماره چنده؟",

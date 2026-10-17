@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "course",
+      "colour",
       "want"
      ],
      "suggestion": "Of course! What colour do you want?",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "nicer",
       "those",
+      "nicer",
       "ones"
      ],
      "suggestion": "Those ones are nicer.",
@@ -212,8 +212,8 @@
      "keywords": [
       "comfortable",
       "around",
-      "walk",
-      "they"
+      "they",
+      "walk"
      ],
      "suggestion": "Walk around. Are they comfortable?",
      "suggestionFa": "یه کم راه برو. راحتن؟",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "better",
-      "size",
       "then",
+      "size",
       "ten"
      ],
      "suggestion": "Size ten is better, then.",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "money",
-      "ryan",
-      "save"
+      "save",
+      "ryan"
      ],
      "suggestion": "Save your money, Ryan!",
      "suggestionFa": "پولت را نگه دار رایان!",

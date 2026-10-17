@@ -24,7 +24,7 @@
       "twenty",
       "let's",
       "count",
-      "play",
+      "hide",
       "seek"
      ],
      "suggestion": "Let's play hide and seek! You count, and I hide. Count to twenty!",
@@ -94,8 +94,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -230,7 +230,7 @@
       "twenty",
       "count",
       "hide",
-      "good"
+      "i'll"
      ],
      "suggestion": "Now you hide! I'm good at finding. I'll count to twenty.",
      "suggestionFa": "حالا تو قایم شو! من تو پیدا کردن خوبم. تا بیست می‌شمرم.",
@@ -251,8 +251,8 @@
    "branches": [
     {
      "keywords": [
-      "nineteen",
       "eighteen",
+      "nineteen",
       "kitchen",
       "twenty",
       "garden"
@@ -277,9 +277,9 @@
     {
      "keywords": [
       "behind",
-      "again",
       "found",
-      "turn",
+      "again",
+      "ever",
       "game"
      ],
      "suggestion": "Found you! You're behind the door! My turn again! This is the best game ever!",

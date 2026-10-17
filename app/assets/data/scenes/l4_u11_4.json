@@ -21,7 +21,7 @@
      "keywords": [
       "qualifications",
       "finding",
-      "help",
+      "like",
       "uses"
      ],
      "suggestion": "I'd like help finding a job that uses my qualifications.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "interviews",
-      "applied",
       "getting",
+      "applied",
       "lots"
      ],
      "suggestion": "I've applied for lots of jobs, but I'm not getting interviews.",
@@ -75,8 +75,8 @@
      "keywords": [
       "accountant",
       "years",
-      "six",
-      "was"
+      "was",
+      "six"
      ],
      "suggestion": "I was an accountant for six years.",
      "suggestionFa": "شش سال حسابدار بودم.",
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
-      "full",
       "time",
       "part",
+      "full",
       "work"
      ],
      "suggestion": "Is it full-time? I work part-time in a café.",

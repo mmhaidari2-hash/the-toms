@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "quickly",
-      "started",
       "needing",
-      "without"
+      "quickly",
+      "without",
+      "started"
      ],
      "suggestion": "It means you started really well and quickly, without needing time to adjust.",
      "suggestionFa": "یعنی خیلی خوب و سریع شروع کردی، بدون اینکه وقت برای تطبیق لازم داشته باشی.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "speaker",
-      "idioms",
       "asking",
-      "native"
+      "native",
+      "idioms"
      ],
      "suggestion": "Ha! You, a native speaker, asking me about idioms?",
      "suggestionFa": "ها! تو، یه بومی، از من دربارهٔ اصطلاح می‌پرسی؟",
@@ -130,7 +130,7 @@
       "surprises",
       "everyone",
       "someone",
-      "doing"
+      "means"
      ],
      "suggestion": "It means someone who surprises everyone by doing well.",
      "suggestionFa": "یعنی کسی که با موفقیتش همه را غافلگیر می‌کنه.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "elephant",
       "nobody's",
+      "elephant",
       "excuse"
      ],
      "suggestion": "Excuse me! I'm nobody's elephant.",
@@ -195,8 +195,8 @@
      "keywords": [
       "that's",
       "works",
-      "ryan",
-      "know"
+      "know",
+      "ryan"
      ],
      "suggestion": "That's not how it works, Ryan, and you know it.",
      "suggestionFa": "این‌طوری کار نمی‌کنه رایان، و خودت می‌دونی.",

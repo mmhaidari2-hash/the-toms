@@ -1,0 +1,225 @@
+{
+ "id": "l2_u50_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Party games",
+ "titleFa": "(در نقش Ryan) بازی‌های مهمانی",
+ "setting": "Party planning · Level 2",
+ "settingFa": "برنامه‌ریزی مهمانی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u50_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pensioners",
+      "eighty",
+      "people",
+      "right",
+      "party"
+     ],
+     "suggestion": "Right, the old people have eaten. Nan says we need party games. For pensioners! What do eighty-year-olds even play?",
+     "suggestionFa": "خب، پیرها غذا خوردن. مادربزرگ میگه بازی مهمونی لازمه. برای بازنشسته‌ها! آدم‌های هشتاد ساله اصلاً چی بازی می‌کنن؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What about pass the parcel?",
+   "translations": {
+    "fa": "«بسته را رد کن» چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "that's",
+      "parcel",
+      "guests",
+      "senior"
+     ],
+     "suggestion": "Fine, \"senior guests\". Pass the parcel? That's for kids! Actually… Doris might love it. Is there a parcel?",
+     "suggestionFa": "باشه، «مهمون‌های ارشد». بسته را رد کن؟ اون برای بچه‌هاست! راستش… شاید دوریس عاشقش بشه. بسته داریم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Nicola wrapped one this morning. Ten layers!",
+   "translations": {
+    "fa": "نیکولا امروز صبح یکی پیچیده. ده لایه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "circle",
+      "music",
+      "plays",
+      "stops"
+     ],
+     "suggestion": "OK. Everyone in a circle! I'm the DJ. Pass it on when the music plays. When the music stops, take off one layer.",
+     "suggestionFa": "باشه. همه دایره‌وار! من دی‌جی‌ام. وقتی موسیقی پخش میشه ردش کنید. وقتی قطع شد، یه لایه را باز کنید.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Pass it on, Arthur! Quick!",
+   "translations": {
+    "fa": "ردش کن آرتور! سریع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "you've",
+      "what's",
+      "inside",
+      "elvis",
+      "doris"
+     ],
+     "suggestion": "Ha! Doris, you've got it! Open one layer. What's inside? A sweet! Again! Elvis, go!",
+     "suggestionFa": "ها! دوریس، دست توئه! یه لایه باز کن. توش چیه؟ آب‌نبات! دوباره! الویس، شروع!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "George is passing it very slowly!",
+   "translations": {
+    "fa": "جورج خیلی آروم ردش می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knitted",
+      "crying",
+      "maybe",
+      "doris",
+      "never"
+     ],
+     "suggestion": "Me? Never. Maybe. OK, last layer! Doris wins! It's a… scarf. Nana knitted it. In bus-red. She's crying. Good crying.",
+     "suggestionFa": "من؟ هرگز. شاید. باشه، آخرین لایه! دوریس برنده شد! یه… شال گردنه. نانا بافته. قرمز اتوبوسی. داره گریه می‌کنه. گریهٔ خوب.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "That's so lovely. Well done, Ryan.",
+   "translations": {
+    "fa": "خیلی قشنگه. آفرین رایان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "instead",
+      "statues",
+      "musical",
+      "freeze"
+     ],
+     "suggestion": "Musical chairs. But — no. Nan says no. \"Someone will break a hip.\" Musical statues instead. When the music stops, freeze!",
+     "suggestionFa": "صندلی موزیکال. ولی — نه. مادربزرگ میگه نه. «یکی لگنش می‌شکنه.» به‌جاش مجسمهٔ موزیکال. وقتی موسیقی قطع شد، خشک شید!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Freeze! Arthur, you moved! You're out!",
+   "translations": {
+    "fa": "خشک! آرتور، تکون خوردی! سوختی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scratching",
+      "arthur's",
+      "arguing",
+      "dancing",
+      "doris"
+     ],
+     "suggestion": "Arthur's out! He's arguing. \"I was scratching my nose!\" Ha! OK, it's your turn to be DJ. I'm dancing with Doris.",
+     "suggestionFa": "آرتور سوخت! داره بحث می‌کنه. «داشتم دماغم را می‌خاروندم!» ها! باشه، نوبت توئه دی‌جی باشی. من با دوریس می‌رقصم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "My turn! OK, music… stop!",
+   "translations": {
+    "fa": "نوبت من! باشه، موسیقی… قطع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teaching",
+      "tiktok",
+      "right",
+      "don't",
+      "she's"
+     ],
+     "suggestion": "She is! She's teaching me the jive. Don't film this. If this goes on TikTok, my life is over. Right, cake time!",
+     "suggestionFa": "هست! داره جایو یادم میده. ازش فیلم نگیر. اگه بره تیک‌تاک، زندگیم تمومه. خب، وقت کیکه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "burgers",
       "ordered",
+      "burgers",
       "isn't",
-      "look",
+      "here",
       "bruv"
      ],
      "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "chicken",
-      "veggie",
       "burger",
-      "onion",
-      "rings"
+      "veggie",
+      "rings",
+      "onion"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
      "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "message",
+      "english",
       "polite",
       "write",
       "more"
@@ -198,8 +198,8 @@
      "keywords": [
       "vegetarian",
       "tomorrow",
-      "shame",
       "waste",
+      "shame",
       "don't"
      ],
      "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",

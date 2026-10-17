@@ -50,7 +50,7 @@
       "always",
       "first",
       "he's",
-      "his"
+      "put"
      ],
      "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
      "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "careful",
       "booster",
-      "drawer",
+      "careful",
       "fridge",
+      "drawer",
       "then"
      ],
      "suggestion": "In the drawer by the fridge. Then put him on his booster seat. Careful with his legs.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "dinner",
+      "mashed",
+      "potato",
       "carrot",
       "here's",
-      "mashed",
-      "potato"
+      "dinner"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
      "suggestionFa": "اینم شامش. پورهٔ هویج و سیب‌زمینی. بعد امتحانش کن. خیلی داغ نباشه!",
@@ -172,9 +172,9 @@
      "keywords": [
       "spoonfuls",
       "william",
-      "brrrm",
       "small",
-      "comes"
+      "comes",
+      "brrrm"
      ],
      "suggestion": "Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm!",
      "suggestionFa": "خوبه. حالا قاشق‌های کوچیک. دهنت را باز کن ویلیام! اتوبوس داره میاد! بررم!",
@@ -243,10 +243,10 @@
     {
      "keywords": [
       "orange",
-      "loves",
       "right",
       "buses",
-      "face"
+      "loves",
+      "then"
      ],
      "suggestion": "He loves buses! Like his dad! Right, then a wipe. His face is orange!",
      "suggestionFa": "عاشق اتوبوسه! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!",
@@ -270,8 +270,8 @@
       "brilliant",
       "natural",
       "leslie",
-      "plate",
-      "clean"
+      "clean",
+      "plate"
      ],
      "suggestion": "Brilliant job. You're a natural! Wait till Leslie sees his clean plate!",
      "suggestionFa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشقاب تمیزش را ببینه!",

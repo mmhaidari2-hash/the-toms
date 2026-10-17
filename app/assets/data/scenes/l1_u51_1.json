@@ -73,8 +73,8 @@
     {
      "keywords": [
       "shouldn't",
-      "stay",
-      "home"
+      "home",
+      "stay"
      ],
      "suggestion": "No, you shouldn't. Stay at home.",
      "suggestionFa": "نه، نباید بری. خونه بمون.",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "school",
+      "should",
       "call"
      ],
      "suggestion": "You should call the school.",
@@ -241,8 +241,8 @@
     },
     {
      "keywords": [
-      "drink",
       "water",
+      "drink",
       "lots"
      ],
      "suggestion": "You should drink lots of water.",

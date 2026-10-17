@@ -1,0 +1,449 @@
+{
+ "id": "l2_u56_2",
+ "characterId": "priya",
+ "title": "The corner shop",
+ "titleFa": "سوپری سر کوچه",
+ "setting": "Neighbourhood · Level 2",
+ "settingFa": "محله",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Morning, neighbour! Same as usual? Milk, a paper for Tom, and a Twix you think nobody knows about?",
+   "translations": {
+    "fa": "صبح بخیر همسایه! مثل همیشه؟ شیر، یه روزنامه برای تام، و یه توییکسی که فکر می‌کنی کسی ازش خبر نداره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "priya",
+      "usual",
+      "know"
+     ],
+     "suggestion": "Ha! Same as usual. You know everything, Priya.",
+     "suggestionFa": "ها! مثل همیشه. تو همه‌چی را می‌دونی پریا.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "something",
+      "looking",
+      "today"
+     ],
+     "suggestion": "Not today. I'm looking for something different.",
+     "suggestionFa": "امروز نه. دنبال یه چیز دیگه‌ام.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    },
+    {
+     "word": "same as usual",
+     "fa": "مثل همیشه"
+    },
+    {
+     "word": "paper",
+     "fa": "روزنامه"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "I know every regular's shopping basket. It's a corner shop superpower. What else do you need?",
+   "translations": {
+    "fa": "سبد خرید هر مشتری همیشگی را می‌دونم. ابرقدرت سوپری سر کوچه‌ست. دیگه چی لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saffron",
+      "have",
+      "any",
+      "got"
+     ],
+     "suggestion": "Have you got any saffron?",
+     "suggestionFa": "زعفرون دارید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "birthday",
+      "looking",
+      "doris",
+      "card"
+     ],
+     "suggestion": "I'm looking for a birthday card for Doris.",
+     "suggestionFa": "دنبال یه کارت تولد برای دوریسم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "regular",
+     "fa": "مشتری همیشگی"
+    },
+    {
+     "word": "basket",
+     "fa": "سبد"
+    },
+    {
+     "word": "superpower",
+     "fa": "ابرقدرت"
+    },
+    {
+     "word": "saffron",
+     "fa": "زعفران"
+    },
+    {
+     "word": "birthday card",
+     "fa": "کارت تولد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Corner shops — or \"the local\" — are small shops that open long hours and sell basics: milk, bread, papers, snacks and cards. Staff often know regulars by name.",
+    "fa": "سوپری‌های سر کوچه ساعات طولانی باز هستند و اقلام پایه را می‌فروشند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Saffron? Top shelf, next to the cardamom. My mum insists we stock it. Tiny box, five pounds. Expensive stuff!",
+   "translations": {
+    "fa": "زعفرون؟ قفسهٔ بالا، کنار هل. مامانم اصرار داره داشته باشیمش. جعبهٔ کوچیک، پنج پوند. چیز گرونیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "that's",
+      "same",
+      "five"
+     ],
+     "suggestion": "Five pounds for a tiny box. That's the same in Iran!",
+     "suggestionFa": "پنج پوند برای یه جعبهٔ کوچیک. تو ایران هم همینه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "taste",
+      "thank",
+      "good",
+      "has"
+     ],
+     "suggestion": "Thank you. Your mum has good taste!",
+     "suggestionFa": "ممنون. مامانت سلیقه‌اش خوبه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "top shelf",
+     "fa": "قفسهٔ بالا"
+    },
+    {
+     "word": "cardamom",
+     "fa": "هل"
+    },
+    {
+     "word": "insists",
+     "fa": "اصرار می‌کند"
+    },
+    {
+     "word": "stock",
+     "fa": "موجود داشتن"
+    },
+    {
+     "word": "stuff",
+     "fa": "چیز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "have you got some saffron",
+      "you have any saffron"
+     ],
+     "echo": "Have you got any saffron? Yes, up there!",
+     "better": "Have you got any saffron?",
+     "betterFa": "زعفران دارید؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "She does. Oh — Mrs Khan was in earlier. She says there's a new family at number sixteen, with a baby. Have you met them?",
+   "translations": {
+    "fa": "داره. اوه — خانم خان صبح اینجا بود. میگه یه خانوادهٔ جدید تو شمارهٔ شونزده هست، با یه بچه. دیدیشون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friendly",
+      "they",
+      "yet"
+     ],
+     "suggestion": "Not yet. Are they friendly?",
+     "suggestionFa": "هنوز نه. خونگرمن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "moving",
+      "last",
+      "week",
+      "saw"
+     ],
+     "suggestion": "I saw a moving van last week.",
+     "suggestionFa": "هفتهٔ پیش یه ون اسباب‌کشی دیدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "earlier",
+     "fa": "قبل‌تر ؛ صبح"
+    },
+    {
+     "word": "number sixteen",
+     "fa": "شمارهٔ شانزده"
+    },
+    {
+     "word": "moving van",
+     "fa": "ون اسباب‌کشی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Very friendly, she says. From Poland. The dad came in for nappies at midnight. Poor man. I gave him a free coffee.",
+   "translations": {
+    "fa": "خیلی خونگرم، میگه. از لهستان. باباش نصف‌شب اومد پوشک بگیره. مرد بیچاره. بهش یه قهوهٔ مجانی دادم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "priya",
+      "kind"
+     ],
+     "suggestion": "That's kind of you, Priya.",
+     "suggestionFa": "لطف کردی پریا.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "midnight",
+      "shop",
+      "late",
+      "open"
+     ],
+     "suggestion": "Midnight! Is the shop open that late?",
+     "suggestionFa": "نصف‌شب! مغازه انقدر دیر بازه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Poland",
+     "fa": "لهستان"
+    },
+    {
+     "word": "nappies",
+     "fa": "پوشک بچه"
+    },
+    {
+     "word": "midnight",
+     "fa": "نیمه‌شب"
+    },
+    {
+     "word": "late",
+     "fa": "دیر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Seven till midnight, every day but Christmas. Oh — tomorrow's paper. Shall I put one by for Tom? The Saturday one's popular.",
+   "translations": {
+    "fa": "هفت تا نصف‌شب، هر روز جز کریسمس. اوه — روزنامهٔ فردا. می‌خوای یکی برای تام کنار بذارم؟ مال شنبه پرطرفداره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "could",
+      "him"
+     ],
+     "suggestion": "Yes please. Could you put one by for him?",
+     "suggestionFa": "لطفاً بله. میشه یکی براش کنار بذارید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mean"
+     ],
+     "suggestion": "What does \"put one by\" mean?",
+     "suggestionFa": "«پوت وان بای» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "except",
+     "fa": "به جز"
+    },
+    {
+     "word": "put by",
+     "fa": "کنار گذاشتن ؛ نگه داشتن"
+    },
+    {
+     "word": "popular",
+     "fa": "پرطرفدار"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "Keep it behind the counter for him. I'll write \"Tom\" on it. And next time, bring the new neighbours. I'll do them a welcome bag.",
+   "translations": {
+    "fa": "پشت پیشخون براش نگه دارم. روش می‌نویسم «تام». و دفعهٔ بعد همسایه‌های جدید را بیار. یه کیسهٔ خوش‌آمد براشون درست می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "welcome",
+      "what's",
+      "bag"
+     ],
+     "suggestion": "A welcome bag! What's in it?",
+     "suggestionFa": "کیسهٔ خوش‌آمد! توش چیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "them",
+      "card",
+      "take"
+     ],
+     "suggestion": "I'll take them a card from all of us.",
+     "suggestionFa": "از طرف همه‌مون یه کارت براشون می‌برم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "counter",
+     "fa": "پیشخوان"
+    },
+    {
+     "word": "welcome bag",
+     "fa": "کیسهٔ خوش‌آمدگویی"
+    },
+    {
+     "word": "neighbours",
+     "fa": "همسایه‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Milk, teabags, biscuits — and my number, in case they need anything. That's how a street works. So: milk, paper, saffron, Twix…",
+   "translations": {
+    "fa": "شیر، چای کیسه‌ای، بیسکویت — و شماره‌ام، اگه چیزی لازم داشتن. خیابون اینجوری کار می‌کنه. خب: شیر، روزنامه، زعفرون، توییکس…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "know",
+      "how",
+      "did"
+     ],
+     "suggestion": "How did you know about the Twix?",
+     "suggestionFa": "از کجا دربارهٔ توییکس فهمیدی؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shh",
+      "ok"
+     ],
+     "suggestion": "OK, OK. And the Twix. Shh!",
+     "suggestionFa": "باشه باشه. و توییکس. هیس!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in case",
+     "fa": "در صورتی که"
+    },
+    {
+     "word": "works",
+     "fa": "کار می‌کند"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "priya",
+   "text": "Superpower! Seven pounds sixty. Your secret's safe with me. Mostly. Have a lovely day, neighbour!",
+   "translations": {
+    "fa": "ابرقدرت! هفت پوند و شصت. رازت پیش من محفوظه. تقریباً. روز خوبی داشته باشی همسایه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

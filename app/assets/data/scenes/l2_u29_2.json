@@ -76,7 +76,7 @@
       "school",
       "about",
       "photo",
-      "ryan"
+      "tell"
      ],
      "suggestion": "Ryan, tell Sal about the school photo.",
      "suggestionFa": "رایان، دربارهٔ عکس مدرسه به سال بگو.",
@@ -177,8 +177,8 @@
     {
      "keywords": [
       "scissors",
-      "ryan",
       "want",
+      "ryan",
       "top"
      ],
      "suggestion": "Ryan, do you want scissors on top?",
@@ -212,10 +212,10 @@
     },
     {
      "keywords": [
+      "will",
       "much",
       "take",
-      "will",
-      "how"
+      "off"
      ],
      "suggestion": "How much will you take off the top?",
      "suggestionFa": "از بالا چقدر کوتاه می‌کنی؟",
@@ -404,8 +404,8 @@
      "keywords": [
       "please",
       "ryan",
-      "sal",
-      "pay"
+      "pay",
+      "sal"
      ],
      "suggestion": "Ryan, pay Sal, please.",
      "suggestionFa": "رایان، پول سال را بده، لطفاً.",
@@ -441,8 +441,8 @@
      "keywords": [
       "necessary",
       "nice",
-      "but",
-      "tip"
+      "tip",
+      "but"
      ],
      "suggestion": "Yes. A tip is nice, but not necessary.",
      "suggestionFa": "آره. انعام خوبه، ولی لازم نیست.",

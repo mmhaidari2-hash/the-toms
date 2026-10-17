@@ -1,0 +1,399 @@
+{
+ "id": "l2_u47_2",
+ "characterId": "ryan",
+ "title": "Bigger, faster, quieter",
+ "titleFa": "بزرگ‌تر، سریع‌تر، آرام‌تر",
+ "setting": "Comparing things · Level 2",
+ "settingFa": "مقایسه کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Right. Birthday money: eighty quid. I need new headphones. These two. Help me choose. Which one's better?",
+   "translations": {
+    "fa": "خب. پول تولد: هشتاد پوند. هدفون جدید لازم دارم. این دو تا. کمکم کن انتخاب کنم. کدوم بهتره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "between",
+      "what's",
+      "them"
+     ],
+     "suggestion": "What's the difference between them?",
+     "suggestionFa": "فرقشون چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "black",
+      "nicer",
+      "look",
+      "ones"
+     ],
+     "suggestion": "The black ones look nicer.",
+     "suggestionFa": "مشکیه قشنگ‌تره.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "birthday money",
+     "fa": "پول تولد"
+    },
+    {
+     "word": "headphones",
+     "fa": "هدفون"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "The black ones are louder and the battery lasts longer — thirty hours. But they're heavier. The white ones are lighter.",
+   "translations": {
+    "fa": "مشکیه صداش بلندتره و باتریش بیشتر دووم میاره — سی ساعت. ولی سنگین‌ترن. سفیده سبک‌ترن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lighter",
+      "better",
+      "head"
+     ],
+     "suggestion": "Lighter is better for your head.",
+     "suggestionFa": "سبک‌تر برای سرت بهتره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "longer",
+      "that's",
+      "thirty",
+      "hours"
+     ],
+     "suggestion": "Thirty hours! That's much longer.",
+     "suggestionFa": "سی ساعت! خیلی بیشتره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "louder",
+     "fa": "بلندتر"
+    },
+    {
+     "word": "battery",
+     "fa": "باتری"
+    },
+    {
+     "word": "lasts longer",
+     "fa": "بیشتر دوام می‌آورد"
+    },
+    {
+     "word": "heavier",
+     "fa": "سنگین‌تر"
+    },
+    {
+     "word": "lighter",
+     "fa": "سبک‌تر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "they are more light",
+      "they are lightest than"
+     ],
+     "echo": "They're lighter? Yes!",
+     "better": "The white ones are lighter.",
+     "betterFa": "سفیدها سبک‌ترند."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "True. And the white ones have noise cancelling. On the bus, you can't hear anything. Dad's announcements — gone!",
+   "translations": {
+    "fa": "درسته. و سفیده حذف نویز داره. تو اتوبوس هیچی نمی‌شنوی. اعلام‌های بابا — رفت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "more",
+      "ha"
+     ],
+     "suggestion": "Ha! Is noise cancelling more expensive?",
+     "suggestionFa": "ها! حذف نویز گرون‌تره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's noise cancelling?",
+     "suggestionFa": "حذف نویز چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "noise cancelling",
+     "fa": "حذف نویز"
+    },
+    {
+     "word": "anything",
+     "fa": "هیچ چیز"
+    },
+    {
+     "word": "announcements",
+     "fa": "اعلام‌ها ؛ اطلاعیه‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "It blocks outside noise. Quieter world. Yeah, the white ones are seventy-five. The black are sixty.",
+   "translations": {
+    "fa": "صدای بیرون را می‌بنده. دنیای آروم‌تر. آره، سفیده هفتاد و پنجه. مشکیه شصت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheaper",
+      "black",
+      "ones"
+     ],
+     "suggestion": "So the black ones are cheaper.",
+     "suggestionFa": "پس مشکیه ارزون‌تره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seventy",
+      "pounds",
+      "leaves",
+      "only"
+     ],
+     "suggestion": "Seventy-five leaves you only five pounds.",
+     "suggestionFa": "هفتاد و پنج فقط پنج پوند برات می‌ذاره.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blocks",
+     "fa": "مسدود می‌کند"
+    },
+    {
+     "word": "outside",
+     "fa": "بیرون"
+    },
+    {
+     "word": "quieter",
+     "fa": "آرام‌تر"
+    },
+    {
+     "word": "leaves",
+     "fa": "باقی می‌گذارد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Use \"much\" or \"a bit\" to make comparatives stronger or softer: \"much louder\", \"a bit cheaper\".",
+    "fa": "برای قوی‌تر یا ملایم‌تر کردن تفضیلی از much یا a bit استفاده کنید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Five quid. That's one Greggs. Hmm. The reviews say the white ones sound much better. Four point eight stars.",
+   "translations": {
+    "fa": "پنج پوند. یعنی یه بار گرگز. هوم. نظرها میگن صدای سفیده خیلی بهتره. چهار و هشت دهم ستاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "black",
+      "ones"
+     ],
+     "suggestion": "And the black ones?",
+     "suggestionFa": "و مشکیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reviews",
+      "fake",
+      "them",
+      "can"
+     ],
+     "suggestion": "Reviews can be fake. Try them on!",
+     "suggestionFa": "نظرها ممکنه تقلبی باشن. امتحانشون کن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reviews",
+     "fa": "نظرها ؛ نقدها"
+    },
+    {
+     "word": "sound better",
+     "fa": "صدای بهتری دارند"
+    },
+    {
+     "word": "fake",
+     "fa": "تقلبی"
+    },
+    {
+     "word": "try on",
+     "fa": "امتحان کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Black ones: four point one. Not as good. OK, trying them on… The white ones are so comfy. I can't hear you at all!",
+   "translations": {
+    "fa": "مشکیه: چهار و یک دهم. نه به اون خوبی. باشه، دارم امتحانشون می‌کنم… سفیده خیلی راحته. اصلاً صدات را نمی‌شنوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hear",
+      "ryan",
+      "can",
+      "now"
+     ],
+     "suggestion": "RYAN! Can you hear me now?",
+     "suggestionFa": "رایان! الان صدام را می‌شنوی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "white",
+      "then",
+      "ones",
+      "they"
+     ],
+     "suggestion": "Then they work! Take the white ones.",
+     "suggestionFa": "پس کار می‌کنن! سفیده را بردار.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "not as good",
+     "fa": "نه به آن خوبی"
+    },
+    {
+     "word": "comfy",
+     "fa": "راحت"
+    },
+    {
+     "word": "at all",
+     "fa": "اصلاً"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Ha! Sorry. Right — white ones. More money, but much better. The more you pay, the better they are. Usually.",
+   "translations": {
+    "fa": "ها! ببخشید. خب — سفیده. پول بیشتر، ولی خیلی بهتر. هر چی بیشتر پول بدی، بهترن. معمولاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "time",
+      "but"
+     ],
+     "suggestion": "Not always! But this time, yes.",
+     "suggestionFa": "نه همیشه! ولی این دفعه آره.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "left",
+      "sure",
+      "five"
+     ],
+     "suggestion": "Are you sure? Five pounds left.",
+     "suggestionFa": "مطمئنی؟ پنج پوند می‌مونه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the more…, the better",
+     "fa": "هر چه بیشتر…، بهتر"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Sure. Five quid for a sausage roll. Perfect day. Cheers for helping. You're a better shopper than Dad. He'd buy the cheapest.",
+   "translations": {
+    "fa": "مطمئن. پنج پوند برای یه سوسیس رول. روز عالی. مرسی که کمک کردی. از بابا خریدار بهتری هستی. اون ارزون‌ترین را می‌خرید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

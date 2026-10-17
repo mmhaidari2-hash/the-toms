@@ -25,7 +25,7 @@
       "morning",
       "would",
       "like",
-      "tea"
+      "cup"
      ],
      "suggestion": "Morning! Kettle's on. Would you like a cup of tea?",
      "suggestionFa": "صبح بخیر! کتری روشنه. یه فنجون چای میل داری؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "people",
-      "their",
       "we've",
-      "most",
+      "their",
+      "both",
       "here"
      ],
      "suggestion": "We've got both. Milk? Most people here have milk in their tea.",
@@ -97,8 +97,8 @@
       "careful",
       "biscuit",
       "would",
-      "here",
-      "like"
+      "like",
+      "here"
      ],
      "suggestion": "Ha! Here you go. Careful, it's hot. Would you like a biscuit too?",
      "suggestionFa": "ها! بفرما. مواظب باش، داغه. بیسکویت هم میل داری؟",
@@ -144,8 +144,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -251,7 +251,7 @@
       "cheers",
       "guest",
       "makes",
-      "news",
+      "week",
       "best"
      ],
      "suggestion": "Our guest makes the tea now. Best news all week! Cheers!",

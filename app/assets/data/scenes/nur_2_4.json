@@ -82,9 +82,9 @@
     {
      "keywords": [
       "first",
-      "help",
       "then",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "You try first, then I'll help.",
      "suggestionFa": "اول خودت امتحان کن، بعد کمکت می‌کنم.",
@@ -126,8 +126,8 @@
     },
     {
      "keywords": [
-      "behind",
       "please",
+      "behind",
       "oscar",
       "line"
      ],
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "children",
-      "adults",
-      "twelve"
+      "twelve",
+      "adults"
      ],
      "suggestion": "Twelve children and two adults.",
      "suggestionFa": "دوازده بچه و دو بزرگسال.",
@@ -235,8 +235,8 @@
     },
     {
      "keywords": [
-      "count",
       "three",
+      "count",
       "one",
       "let"
      ],
@@ -272,5 +272,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

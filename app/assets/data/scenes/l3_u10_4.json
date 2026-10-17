@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "home",
-      "fast",
       "gone",
-      "feel"
+      "feel",
+      "home",
+      "fast"
      ],
      "suggestion": "It's gone so fast. I feel at home now.",
      "suggestionFa": "خیلی زود گذشت. الان احساس می‌کنم خونه‌مه.",
@@ -35,7 +35,7 @@
       "remember",
       "nervous",
       "strange",
-      "being"
+      "first"
      ],
      "suggestion": "Strange! I remember being so nervous at first.",
      "suggestionFa": "عجیبه! یادمه اولش خیلی استرس داشتم.",
@@ -76,7 +76,7 @@
       "definitely",
       "weather",
       "never",
-      "rain"
+      "seen"
      ],
      "suggestion": "Definitely the weather. I've never seen so much rain!",
      "suggestionFa": "قطعاً هوا. هیچ‌وقت این‌قدر بارون ندیده بودم!",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "umbrella",
-      "better",
       "myself",
+      "better",
       "tell"
      ],
      "suggestion": "I'd tell myself to buy a better umbrella!",
@@ -187,8 +187,8 @@
      "keywords": [
       "university",
       "applied",
-      "hope",
-      "i've"
+      "i've",
+      "hope"
      ],
      "suggestion": "I hope so. I've applied for a job at the university.",
      "suggestionFa": "امیدوارم. برای یه کار تو دانشگاه درخواست دادم.",
@@ -198,10 +198,10 @@
     },
     {
      "keywords": [
-      "sure",
       "love",
-      "yet",
-      "i'd"
+      "sure",
+      "i'd",
+      "but"
      ],
      "suggestion": "I'm not sure yet, but I'd love to.",
      "suggestionFa": "هنوز مطمئن نیستم، ولی خیلی دوست دارم.",
@@ -236,9 +236,9 @@
     {
      "keywords": [
       "anywhere",
+      "don't",
       "going",
-      "worry",
-      "don't"
+      "worry"
      ],
      "suggestion": "Don't worry, Al. I'm not going anywhere.",
      "suggestionFa": "نگران نباش ال. هیچ‌جا نمی‌رم.",

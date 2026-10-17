@@ -1,0 +1,430 @@
+{
+ "id": "l2_u56_3",
+ "characterId": "ryan",
+ "title": "A parcel for next door",
+ "titleFa": "بسته‌ای برای همسایه",
+ "setting": "Neighbourhood · Level 2",
+ "settingFa": "محله",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Doorbell. It's not for me. Bro, can you get it? I'm mid-game. … OK, fine, I'll come. Oh — it's Kev the delivery guy.",
+   "translations": {
+    "fa": "زنگ در. مال من نیست. داداش، باز می‌کنی؟ وسط بازی‌ام. … باشه، باشه، میام. اوه — کِوِ پیکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hello",
+      "help",
+      "can"
+     ],
+     "suggestion": "Hello! Can I help you?",
+     "suggestionFa": "سلام! کمکتون کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kev",
+      "us",
+      "hi"
+     ],
+     "suggestion": "Hi Kev. Is it for us?",
+     "suggestionFa": "سلام کِو. مال ماست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "courier",
+   "text": "All right, mate? Sorry, mate. Parcel for number twelve. Mrs Khan. She's not in. Can you take it for her?",
+   "translations": {
+    "fa": "چطوری رفیق؟ ببخشید رفیق. بسته برای شمارهٔ دوازده. خانم خان. خونه نیست. میشه براش بگیریدش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "take",
+      "i'll",
+      "her"
+     ],
+     "suggestion": "Yes, I'll take it in for her.",
+     "suggestionFa": "آره، براش تحویلش می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbour",
+      "course",
+      "she's",
+      "our"
+     ],
+     "suggestion": "Of course. She's our neighbour.",
+     "suggestionFa": "البته. همسایهٔ ماست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doorbell",
+     "fa": "زنگ در"
+    },
+    {
+     "word": "mid-game",
+     "fa": "وسط بازی"
+    },
+    {
+     "word": "delivery",
+     "fa": "تحویل ؛ پیک"
+    },
+    {
+     "word": "parcel",
+     "fa": "بسته"
+    },
+    {
+     "word": "take in",
+     "fa": "تحویل گرفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK it's normal to take in a neighbour's parcel. The courier leaves a card at their door saying which house has it.",
+    "fa": "در بریتانیا گرفتن بستهٔ همسایه عادی است و پیک کارتی دم در او می‌گذارد."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i will take in it for her",
+      "i take it for she"
+     ],
+     "echo": "You'll take it in? Cheers!",
+     "better": "I'll take it in for her.",
+     "betterFa": "من برایش تحویلش می‌گیرم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "courier",
+   "text": "Lifesaver. Sign here, on the screen. With your finger. And your name. And which house — ten, yeah?",
+   "translations": {
+    "fa": "نجات‌دهنده. اینجا امضا کنید، رو صفحه. با انگشتتون. و اسمتون. و کدوم خونه — ده، آره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "here",
+      "ten"
+     ],
+     "suggestion": "Yes, number ten. Here you are.",
+     "suggestionFa": "آره، شمارهٔ ده. بفرمایید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "signature",
+      "terrible",
+      "screen",
+      "looks"
+     ],
+     "suggestion": "My signature looks terrible on a screen!",
+     "suggestionFa": "امضام رو صفحه افتضاح به نظر میاد!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "screen",
+     "fa": "صفحه"
+    },
+    {
+     "word": "finger",
+     "fa": "انگشت"
+    },
+    {
+     "word": "signature",
+     "fa": "امضا"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "courier",
+   "text": "Everyone's does, mate. Mine looks like a spider. I'll leave a card through her door. Cheers. Got forty more. Sorry, mate!",
+   "translations": {
+    "fa": "امضای همه همینه رفیق. مال من شبیه عنکبوته. یه کارت از لای درش می‌ندازم. مرسی. چهل تای دیگه دارم. ببخشید رفیق!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "have",
+      "day"
+     ],
+     "suggestion": "No problem. Have a good day, Kev!",
+     "suggestionFa": "مشکلی نیست. روز خوبی داشته باشی کِو!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forty",
+      "more",
+      "luck"
+     ],
+     "suggestion": "Forty more! Good luck, Kev.",
+     "suggestionFa": "چهل تای دیگه! موفق باشی کِو.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Why does he always say sorry? Right — it's heavy. What's in it? Should we shake it?",
+   "translations": {
+    "fa": "چرا همیشه میگه ببخشید؟ خب — سنگینه. توش چیه؟ تکونش بدیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "shake",
+      "ours"
+     ],
+     "suggestion": "No! Don't shake it. It's not ours.",
+     "suggestionFa": "نه! تکونش نده. مال ما نیست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fragile",
+      "careful",
+      "says"
+     ],
+     "suggestion": "It says \"Fragile\". Be careful!",
+     "suggestionFa": "نوشته «شکستنی». مواظب باش!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spider",
+     "fa": "عنکبوت"
+    },
+    {
+     "word": "through",
+     "fa": "از لای"
+    },
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    },
+    {
+     "word": "shake",
+     "fa": "تکان دادن"
+    },
+    {
+     "word": "fragile",
+     "fa": "شکستنی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Fragile. OK, OK. I'll put it in the hallway, by the door. Should we text her? I've got her number — she's on the street group.",
+   "translations": {
+    "fa": "شکستنی. باشه باشه. تو راهرو، کنار در می‌ذارمش. بهش پیام بدیم؟ شماره‌اش را دارم — تو گروه خیابونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parcel",
+      "we've",
+      "text",
+      "got"
+     ],
+     "suggestion": "Yes. Text her: \"We've got your parcel.\"",
+     "suggestionFa": "آره. بهش پیام بده: «بسته‌تون پیش ماست.»",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leave",
+      "note",
+      "door",
+      "i'll"
+     ],
+     "suggestion": "I'll leave a note on her door too.",
+     "suggestionFa": "یه یادداشت هم دم درش می‌ذارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hallway",
+     "fa": "راهرو"
+    },
+    {
+     "word": "text",
+     "fa": "پیام دادن"
+    },
+    {
+     "word": "street group",
+     "fa": "گروه خیابان"
+    },
+    {
+     "word": "note",
+     "fa": "یادداشت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Done. Oh — she's replied already. \"Thank you darlings!! Coming back at 6. Samosas for you!!\" Two exclamation marks. Samosas!",
+   "translations": {
+    "fa": "انجام شد. اوه — همین الان جواب داد. «ممنون عزیزانم!! ساعت ۶ برمی‌گردم. براتون سمبوسه!!» دو تا علامت تعجب. سمبوسه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parcels",
+      "taking",
+      "good",
+      "job"
+     ],
+     "suggestion": "Samosas! Taking parcels is a good job.",
+     "suggestionFa": "سمبوسه! تحویل گرفتن بسته کار خوبیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "khan's",
+      "best",
+      "mrs"
+     ],
+     "suggestion": "Mrs Khan's samosas are the best.",
+     "suggestionFa": "سمبوسه‌های خانم خان بهترینن.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "replied",
+     "fa": "جواب داد"
+    },
+    {
+     "word": "darlings",
+     "fa": "عزیزانم"
+    },
+    {
+     "word": "exclamation marks",
+     "fa": "علامت‌های تعجب"
+    },
+    {
+     "word": "samosas",
+     "fa": "سمبوسه‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Best on the street. Right — six o'clock, she's back. You do the door. I'm finishing my game. But call me for the samosas.",
+   "translations": {
+    "fa": "بهترین تو خیابون. خب — ساعت شش برمی‌گرده. تو در را باز کن. من بازیم را تموم می‌کنم. ولی برای سمبوسه صدام کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "typical",
+      "ryan",
+      "ha"
+     ],
+     "suggestion": "Ha! Typical Ryan!",
+     "suggestionFa": "ها! رایانِ همیشگی!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fresh",
+      "need",
+      "door",
+      "some"
+     ],
+     "suggestion": "No, you do the door. You need some fresh air!",
+     "suggestionFa": "نه، تو در را باز کن. یه کم هوای تازه لازم داری!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finishing",
+     "fa": "تمام کردن"
+    },
+    {
+     "word": "typical",
+     "fa": "همیشگی ؛ معمول"
+    },
+    {
+     "word": "fresh air",
+     "fa": "هوای تازه"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Fresh air? You sound like Mum. Fine. I'll do the door. But I'm getting the first samosa. Deal?",
+   "translations": {
+    "fa": "هوای تازه؟ مثل مامان حرف می‌زنی. باشه. من در را باز می‌کنم. ولی اولین سمبوسه مال منه. قبول؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

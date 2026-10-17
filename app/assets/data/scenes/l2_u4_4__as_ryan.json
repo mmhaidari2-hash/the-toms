@@ -25,7 +25,7 @@
       "ordered",
       "coffee",
       "wrong",
-      "mate"
+      "hate"
      ],
      "suggestion": "Mate, this is wrong. I ordered a hot chocolate and this is a coffee. I hate coffee!",
      "suggestionFa": "رفیق، این اشتباهه. من شکلات داغ سفارش دادم و این قهوه‌ست. از قهوه متنفرم!",
@@ -49,8 +49,8 @@
       "complain",
       "brits",
       "never",
-      "home",
-      "moan"
+      "fine",
+      "then"
      ],
      "suggestion": "OK, you do it. Brits never complain — we just say \"it's fine\" and then moan at home!",
      "suggestionFa": "باشه، تو انجامش بده. بریتانیایی‌ها هیچ‌وقت شکایت نمی‌کنن — فقط می‌گن «اشکالی نداره» و بعد تو خونه غر می‌زنن!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -244,7 +244,7 @@
       "complain",
       "teacher",
       "result",
-      "extra"
+      "about"
      ],
      "suggestion": "Result! Extra marshmallows. You're good at this. Next time you can complain about my maths teacher!",
      "suggestionFa": "ایول! مارشمالوی اضافه. تو این کار واردی. دفعهٔ بعد می‌تونی از معلم ریاضیم شکایت کنی!",

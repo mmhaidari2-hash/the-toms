@@ -85,9 +85,9 @@
     {
      "keywords": [
       "water",
-      "much",
       "they",
-      "need"
+      "need",
+      "much"
      ],
      "suggestion": "How much water do they need?",
      "suggestionFa": "چقدر آب لازم دارن؟",
@@ -179,7 +179,7 @@
       "goldie",
       "much",
       "food",
-      "how"
+      "eat"
      ],
      "suggestion": "How much food does Goldie eat?",
      "suggestionFa": "گلدی چقدر غذا می‌خوره?",
@@ -230,8 +230,8 @@
      "keywords": [
       "pinch",
       "once",
-      "day",
-      "got"
+      "got",
+      "day"
      ],
      "suggestion": "A pinch once a day. Got it.",
      "suggestionFa": "یه ذره روزی یه بار. فهمیدم.",
@@ -244,7 +244,7 @@
       "nicola",
       "goldie",
       "photo",
-      "send"
+      "i'll"
      ],
      "suggestion": "I'll send Nicola a photo of Goldie!",
      "suggestionFa": "یه عکس از گلدی برای نیکولا می‌فرستم!",
@@ -290,9 +290,9 @@
     },
     {
      "keywords": [
+      "mine",
       "same",
       "time",
-      "sure",
       "i'll"
      ],
      "suggestion": "Sure. I'll put mine out at the same time.",

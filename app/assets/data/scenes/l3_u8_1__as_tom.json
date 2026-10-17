@@ -22,9 +22,9 @@
     {
      "keywords": [
       "boiler's",
-      "heating",
       "stopped",
       "working",
+      "heating",
       "again"
      ],
      "suggestion": "Bad news — the boiler's stopped working again. No hot water, no heating.",
@@ -50,7 +50,7 @@
       "plumber",
       "looked",
       "going",
-      "safe"
+      "have"
      ],
      "suggestion": "I'm an engineer, not a plumber! I'm going to have it looked at by a Gas Safe engineer. It's the law.",
      "suggestionFa": "من مهندسم، نه لوله‌کش! می‌خوام بدم یه متخصص Gas Safe نگاهش کنه. قانونه.",
@@ -73,8 +73,8 @@
      "keywords": [
       "registered",
       "meanwhile",
-      "they're",
       "washing",
+      "they're",
       "kettle"
      ],
      "suggestion": "They're registered for gas work. I've rung one — he's coming at two. Meanwhile, we'll have to boil the kettle for washing.",
@@ -98,8 +98,8 @@
      "keywords": [
       "radiators",
       "please",
+      "makes",
       "funny",
-      "while",
       "noise"
      ],
      "suggestion": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
@@ -124,8 +124,8 @@
       "properly",
       "checked",
       "remind",
-      "smoke",
-      "alarm"
+      "alarm",
+      "heats"
      ],
      "suggestion": "You let the air out, so it heats properly. Easy. Oh — and remind me to get the smoke alarm checked too.",
      "suggestionFa": "هوا را خالی می‌کنی، تا درست گرم کنه. آسونه. آه — و یادم بنداز آژیر دود را هم بدم چک کنن.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
-      "shower",
       "kettle",
+      "shower",
+      "cheers",
       "right",
       "can't"
      ],

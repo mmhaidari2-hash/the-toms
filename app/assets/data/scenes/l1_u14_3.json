@@ -31,9 +31,9 @@
     {
      "keywords": [
       "water",
-      "some",
       "cold",
-      "bit"
+      "some",
+      "hot"
      ],
      "suggestion": "It's a bit hot. Add some cold water.",
      "suggestionFa": "یه کم داغه. یه کم آب سرد اضافه کن.",
@@ -76,8 +76,8 @@
     {
      "keywords": [
       "enough",
-      "that's",
       "nicola",
+      "that's",
       "stop"
      ],
      "suggestion": "Stop, Nicola! That's enough!",
@@ -255,8 +255,8 @@
    "branches": [
     {
      "keywords": [
-      "wet",
       "all",
+      "wet",
       "oh"
      ],
      "suggestion": "Oh! I'm all wet!",

@@ -165,7 +165,7 @@
       "that's",
       "week",
       "next",
-      "book"
+      "fine"
      ],
      "suggestion": "That's fine. Can I book it for next week?",
      "suggestionFa": "باشه. می‌تونم برای هفتهٔ بعد وقت بگیرم؟",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "band",
       "much",
+      "band",
       "how"
      ],
      "suggestion": "How much is Band 2?",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "hard",
       "cola",
-      "give"
+      "give",
+      "hard",
+      "i'll"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",
@@ -382,8 +382,8 @@
     },
     {
      "keywords": [
-      "doctor",
       "advice",
+      "doctor",
       "thank",
       "good"
      ],

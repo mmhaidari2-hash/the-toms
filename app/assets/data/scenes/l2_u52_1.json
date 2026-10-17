@@ -1,0 +1,420 @@
+{
+ "id": "l2_u52_1",
+ "characterId": "sophie",
+ "title": "Checking in",
+ "titleFa": "پذیرش",
+ "setting": "Hotel and B&B · Level 2",
+ "settingFa": "هتل و پانسیون",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sophie",
+   "text": "Welcome to Seaview B&B! Oh my gosh — it's you! The Copper Kettle regular! My auntie owns this place. I help in the summer.",
+   "translations": {
+    "fa": "به پانسیون سی‌ویو خوش اومدید! وای خدای من — تویی! مشتری همیشگی کاپر کتل! خاله‌ام صاحب اینجاست. تابستون‌ها کمک می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surprise",
+      "sophie"
+     ],
+     "suggestion": "Sophie! What a surprise!",
+     "suggestionFa": "سوفی! چه غافلگیری‌ای!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brighton",
+      "didn't",
+      "worked",
+      "hello"
+     ],
+     "suggestion": "Hello! I didn't know you worked in Brighton.",
+     "suggestionFa": "سلام! نمی‌دونستم تو برایتون کار می‌کنی.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "B&B",
+     "fa": "پانسیون (اقامت و صبحانه)"
+    },
+    {
+     "word": "regular",
+     "fa": "مشتری همیشگی"
+    },
+    {
+     "word": "auntie",
+     "fa": "خاله ؛ عمه"
+    },
+    {
+     "word": "owns",
+     "fa": "صاحب است"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sophie",
+   "text": "Small world! Right, let me be professional. Good afternoon, sir. Have you got a booking?",
+   "translations": {
+    "fa": "دنیا کوچیکه! خب، بذار حرفه‌ای باشم. عصر بخیر قربان. رزرو دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "booking",
+      "rooms",
+      "under",
+      "i've"
+     ],
+     "suggestion": "Yes. I've got a booking under Thompson. Two rooms.",
+     "suggestionFa": "بله. به اسم تامپسون رزرو دارم. دو تا اتاق.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nights",
+      "three",
+      "name"
+     ],
+     "suggestion": "Yes, for three nights. The name is Thompson.",
+     "suggestionFa": "بله، برای سه شب. اسم تامپسونه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "small world",
+     "fa": "دنیا کوچک است"
+    },
+    {
+     "word": "professional",
+     "fa": "حرفه‌ای"
+    },
+    {
+     "word": "booking",
+     "fa": "رزرو"
+    },
+    {
+     "word": "under",
+     "fa": "به اسم"
+    }
+   ],
+   "cultureNote": {
+    "en": "B&B means \"bed and breakfast\": a small guesthouse, often a family home, where breakfast is included.",
+    "fa": "B&B یعنی «تخت و صبحانه»: مهمان‌خانه‌ای کوچک، اغلب خانوادگی، با صبحانه."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i have booking on thompson",
+      "i've got a booking with name thompson"
+     ],
+     "echo": "A booking under Thompson? Here it is!",
+     "better": "I've got a booking under Thompson.",
+     "betterFa": "به اسم تامپسون رزرو دارم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sophie",
+   "text": "Thompson… yes! A family room for Tom and Leslie and the kids, and a single for you. Three nights. Is that right?",
+   "translations": {
+    "fa": "تامپسون… آره! یه اتاق خانوادگی برای تام و لزلی و بچه‌ها، و یه یک‌نفره برای تو. سه شب. درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "ready",
+      "right",
+      "room"
+     ],
+     "suggestion": "That's right. Is the room ready?",
+     "suggestionFa": "درسته. اتاق آماده‌ست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "parking",
+      "family",
+      "car"
+     ],
+     "suggestion": "Yes. The family is parking the car.",
+     "suggestionFa": "بله. خانواده دارن ماشین را پارک می‌کنن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "family room",
+     "fa": "اتاق خانوادگی"
+    },
+    {
+     "word": "single",
+     "fa": "اتاق یک‌نفره"
+    },
+    {
+     "word": "nights",
+     "fa": "شب‌ها"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sophie",
+   "text": "Check-in is from three, but your rooms are ready now. Lucky! Where are they parking? The street outside is permit only.",
+   "translations": {
+    "fa": "پذیرش از ساعت سه‌ست، ولی اتاق‌هاتون الان آماده‌ست. خوش‌شانسید! کجا دارن پارک می‌کنن؟ خیابون بیرون فقط با مجوزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "park",
+      "can",
+      "oh"
+     ],
+     "suggestion": "Oh no. Where can we park?",
+     "suggestionFa": "وای نه. کجا می‌تونیم پارک کنیم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "permit",
+      "won't",
+      "happy",
+      "only"
+     ],
+     "suggestion": "Permit only? Tom won't be happy!",
+     "suggestionFa": "فقط با مجوز؟ تام خوشحال نمیشه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check-in",
+     "fa": "پذیرش (ورود به هتل)"
+    },
+    {
+     "word": "from three",
+     "fa": "از ساعت سه"
+    },
+    {
+     "word": "outside",
+     "fa": "بیرون"
+    },
+    {
+     "word": "permit only",
+     "fa": "فقط با مجوز"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "Don't worry — we've got two spaces at the back. Here's a parking permit for the dashboard. Tell Tom: round the corner, first left.",
+   "translations": {
+    "fa": "نگران نباش — دو تا جای پارک پشت ساختمون داریم. اینم مجوز پارک برای داشبورد. به تام بگو: سر نبش، اولین چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "i'll",
+      "take",
+      "now"
+     ],
+     "suggestion": "Thank you. I'll take it to him now.",
+     "suggestionFa": "ممنون. الان براش می‌برمش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "corner",
+      "first",
+      "round",
+      "left"
+     ],
+     "suggestion": "Round the corner, first left. Got it.",
+     "suggestionFa": "سر نبش، اولین چپ. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spaces",
+     "fa": "جاها"
+    },
+    {
+     "word": "at the back",
+     "fa": "پشت"
+    },
+    {
+     "word": "dashboard",
+     "fa": "داشبورد"
+    },
+    {
+     "word": "round the corner",
+     "fa": "سر نبش"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sophie",
+   "text": "Perfect. Your room is number seven, top floor. Sorry, no lift! But you can see the sea from the window. Here's your key.",
+   "translations": {
+    "fa": "عالی. اتاقت شمارهٔ هفته، طبقهٔ آخر. ببخشید، آسانسور نداریم! ولی از پنجره دریا را می‌بینی. اینم کلیدت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "lovely",
+      "time",
+      "view"
+     ],
+     "suggestion": "A sea view! Lovely. What time is breakfast?",
+     "suggestionFa": "منظرهٔ دریا! عالی. صبحانه ساعت چنده؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "room",
+      "fi",
+      "wi"
+     ],
+     "suggestion": "Is there Wi-Fi in the room?",
+     "suggestionFa": "تو اتاق وای‌فای هست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "top floor",
+     "fa": "طبقهٔ آخر"
+    },
+    {
+     "word": "lift",
+     "fa": "آسانسور"
+    },
+    {
+     "word": "sea",
+     "fa": "دریا"
+    },
+    {
+     "word": "key",
+     "fa": "کلید"
+    },
+    {
+     "word": "view",
+     "fa": "منظره"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sophie",
+   "text": "Breakfast is from eight till ten. Wi-Fi password's on the key ring — \"seagull123\". Very secure! Front door locks at eleven.",
+   "translations": {
+    "fa": "صبحانه از هشت تا دهه. رمز وای‌فای رو جاکلیدیه — «seagull123». خیلی امن! در جلو ساعت یازده قفل میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eleven",
+      "back",
+      "come",
+      "late"
+     ],
+     "suggestion": "Eleven? What if we come back late?",
+     "suggestionFa": "یازده؟ اگه دیر برگشتیم چی؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seagull",
+      "sophie",
+      "thank",
+      "ha"
+     ],
+     "suggestion": "Seagull123! Ha! Thank you, Sophie.",
+     "suggestionFa": "سی‌گال۱۲۳! ها! ممنون سوفی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "password",
+     "fa": "رمز عبور"
+    },
+    {
+     "word": "key ring",
+     "fa": "جاکلیدی"
+    },
+    {
+     "word": "secure",
+     "fa": "امن"
+    },
+    {
+     "word": "locks",
+     "fa": "قفل می‌شود"
+    },
+    {
+     "word": "late",
+     "fa": "دیر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sophie",
+   "text": "Your key opens the front door too. Quiet on the stairs — Mr Hobbs in room three is ninety-one and sleeps lightly. Enjoy Brighton!",
+   "translations": {
+    "fa": "کلیدت در جلو را هم باز می‌کنه. فقط رو پله‌ها ساکت باش — آقای هابز تو اتاق سه نود و یک سالشه و خوابش سبکه. از برایتون لذت ببر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

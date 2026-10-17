@@ -22,7 +22,7 @@
       "through",
       "agenda",
       "shall",
-      "going"
+      "start"
      ],
      "suggestion": "Sure. Shall we start by going through the agenda?",
      "suggestionFa": "حتماً. با مرور دستور جلسه شروع کنیم؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "minutes",
-      "thirty",
       "coming",
-      "thanks"
+      "thanks",
+      "thirty"
      ],
      "suggestion": "OK. First, thanks for coming. Let's keep this to thirty minutes.",
      "suggestionFa": "باشه. اول، ممنون که اومدید. بیاید سی دقیقه تمومش کنیم.",
@@ -76,7 +76,7 @@
       "figures",
       "update",
       "gareth",
-      "quick"
+      "could"
      ],
      "suggestion": "Gareth, could you give us a quick update on the figures?",
      "suggestionFa": "گرت، می‌تونی یه گزارش سریع از ارقام بدی؟",
@@ -134,7 +134,7 @@
       "point",
       "under",
       "three",
-      "park"
+      "good"
      ],
      "suggestion": "Good point. Let's park that and come back to it under item three.",
      "suggestionFa": "نکتهٔ خوبیه. بیاید فعلاً کنار بذاریمش و تو مورد سه برگردیم سراغش.",
@@ -191,7 +191,7 @@
      "keywords": [
       "extension",
       "tuesday",
-      "tight",
+      "until",
       "could"
      ],
      "suggestion": "It's tight. Could we ask for an extension until Tuesday?",
@@ -250,7 +250,7 @@
       "contacts",
       "figures",
       "gareth",
-      "leeds"
+      "sends"
      ],
      "suggestion": "So, to sum up: Gareth sends the figures, and Al contacts Leeds.",
      "suggestionFa": "پس، جمع‌بندی: گرت ارقام را می‌فرسته، و ال با لیدز تماس می‌گیره.",
@@ -263,7 +263,7 @@
       "circulate",
       "afternoon",
       "everyone",
-      "action"
+      "points"
      ],
      "suggestion": "Thanks, everyone. I'll circulate the action points this afternoon.",
      "suggestionFa": "ممنون همگی. امروز عصر اقدامات را برای همه می‌فرستم.",

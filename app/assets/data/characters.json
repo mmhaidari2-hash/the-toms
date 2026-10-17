@@ -675,6 +675,21 @@
   "family": false
  },
  {
+  "id": "sara",
+  "name": "Sara",
+  "role": "New nursery practitioner, Little Acorns",
+  "roleFa": "مربی تازه‌کار مهدکودک، لیتل ایکورنز",
+  "age": 27,
+  "growthStage": "adult",
+  "accent": "London",
+  "color": "#C9921B",
+  "avatar": "assets/portraits/sara.webp",
+  "bio": "Sara is the newest practitioner in the pre-school room at Little Acorns. She's learning the job from Vida. In Vida's Nursery, you play as her.",
+  "bioFa": "سارا تازه‌ترین مربی اتاق پیش‌دبستانی لیتل ایکورنز است. او کار را از ویدا یاد می‌گیرد. در «مهدکودک ویدا» شما در نقش او بازی می‌کنید.",
+  "starterScene": null,
+  "family": false
+ },
+ {
   "id": "jo",
   "name": "Jo",
   "role": "Room leader & DSL, Little Acorns",

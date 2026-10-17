@@ -137,8 +137,8 @@
     },
     {
      "keywords": [
-      "tent",
       "stay",
+      "tent",
       "dry"
      ],
      "suggestion": "Did the tent stay dry?",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "three",
-      "home",
       "days",
+      "home",
       "go"
      ],
      "suggestion": "Three days! Did you go home?",
@@ -245,10 +245,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "clever",
+      "that's",
       "dryer",
-      "hand"
+      "heat"
      ],
      "suggestion": "The hand dryer for heat! That's very clever.",
      "suggestionFa": "دست‌خشک‌کن برای گرما! خیلی زرنگی بود.",
@@ -302,8 +302,8 @@
    "branches": [
     {
      "keywords": [
-      "kind",
       "stay",
+      "kind",
       "farm",
       "did"
      ],
@@ -352,9 +352,9 @@
    "branches": [
     {
      "keywords": [
-      "better",
       "lovely",
       "sounds",
+      "better",
       "tent"
      ],
      "suggestion": "That sounds lovely. Better than the tent!",

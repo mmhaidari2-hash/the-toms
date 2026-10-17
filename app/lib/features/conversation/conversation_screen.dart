@@ -141,8 +141,8 @@ class _ChatState extends ConsumerState<_Chat> {
   Character get ch => widget.c.character(widget.s.characterId);
   Character _who(String id) => widget.c.characterOrNull(id) ?? ch;
   MoodInfo get _mood => EmotionEngine.label(ref.watch(progressProvider).moodMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
-  String get _me => widget.s.playAs != null ? 'Mehdi' : (widget.c.characterOrNull(ref.read(progressProvider).role)?.name ?? 'Mehdi');
-  String get _meName => widget.c.characterOrNull(widget.s.playAs ?? ref.read(progressProvider).role)?.name ?? 'Mehdi';
+  String get _me => widget.s.guest != null ? widget.c.character(widget.s.guest!).name : widget.s.playAs != null ? 'Mehdi' : (widget.c.characterOrNull(ref.read(progressProvider).role)?.name ?? 'Mehdi');
+  String get _meName => widget.c.characterOrNull(widget.s.playAs ?? widget.s.guest ?? ref.read(progressProvider).role)?.name ?? 'Mehdi';
   String _t(String s) => s.replaceAll('{you}', _me);
   String get _lang => ref.read(progressProvider).lang;
 

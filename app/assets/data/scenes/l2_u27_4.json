@@ -29,9 +29,9 @@
     },
     {
      "keywords": [
+      "talks",
       "about",
       "doris",
-      "talks",
       "tom"
      ],
      "suggestion": "Hello, Doris! Tom talks about you too.",
@@ -53,10 +53,10 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "maggie",
+      "didn't",
       "nana",
-      "tap"
+      "why"
      ],
      "suggestion": "Why didn't you tap, Nana Maggie?",
      "suggestionFa": "چرا کارت نزدی ننه مگی؟",
@@ -118,10 +118,10 @@
     },
     {
      "keywords": [
-      "one",
+      "age",
       "can",
-      "get",
-      "age"
+      "one",
+      "get"
      ],
      "suggestion": "At what age can you get one?",
      "suggestionFa": "از چند سالگی میشه گرفتش؟",
@@ -176,7 +176,7 @@
      "keywords": [
       "years",
       "must",
-      "lot",
+      "use",
       "ten"
      ],
      "suggestion": "Ten years! You must use it a lot.",
@@ -229,7 +229,7 @@
       "that's",
       "years",
       "time",
-      "long"
+      "five"
      ],
      "suggestion": "Five years. That's a long time.",
      "suggestionFa": "پنج سال. مدت زیادیه.",
@@ -241,8 +241,8 @@
      "keywords": [
       "maggie",
       "yours",
-      "when",
-      "nana"
+      "nana",
+      "when"
      ],
      "suggestion": "Nana Maggie, when does yours run out?",
      "suggestionFa": "ننه مگی، مال تو کی تموم میشه؟",
@@ -271,7 +271,7 @@
       "maggie",
       "online",
       "renew",
-      "help"
+      "nana"
      ],
      "suggestion": "I can help you renew it online, Nana Maggie.",
      "suggestionFa": "می‌تونم کمکت کنم آنلاین تمدیدش کنی، ننه مگی.",
@@ -282,8 +282,8 @@
     {
      "keywords": [
       "george",
-      "sorry",
       "about",
+      "sorry",
       "how"
      ],
      "suggestion": "I'm sorry about George. How is he?",
@@ -388,9 +388,9 @@
     {
      "keywords": [
       "maggie",
+      "nana",
       "home",
-      "take",
-      "nana"
+      "take"
      ],
      "suggestion": "Nana Maggie, we can take it at home.",
      "suggestionFa": "ننه مگی، می‌تونیم تو خونه بگیریمش.",

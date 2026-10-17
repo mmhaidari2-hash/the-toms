@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -57,10 +57,10 @@
     {
      "keywords": [
       "grapes",
-      "please",
       "fridge",
-      "snack",
-      "there"
+      "please",
+      "there",
+      "snack"
      ],
      "suggestion": "Can you get him a snack? There are grapes in the fridge. Cut them in half, please.",
      "suggestionFa": "می‌تونی براش خوراکی بیاری؟ تو یخچال انگور هست. لطفاً نصفشون کن.",
@@ -81,10 +81,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "little",
-      "aren't",
       "grapes",
+      "aren't",
+      "please",
       "whole"
      ],
      "suggestion": "Whole grapes aren't safe for little ones. And yes — milk in his blue cup, please.",
@@ -160,8 +160,8 @@
      "keywords": [
       "everything",
       "green",
-      "blue",
       "want",
+      "last",
       "week"
      ],
      "suggestion": "Everything has to be blue this week. Last week it was green! Do you want to sit with him?",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

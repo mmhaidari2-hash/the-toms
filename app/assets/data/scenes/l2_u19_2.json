@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "which",
       "first",
-      "take",
-      "line"
+      "which",
+      "line",
+      "take"
      ],
      "suggestion": "Which line do we take first?",
      "suggestionFa": "اول کدوم خط را سوار شیم؟",
@@ -125,10 +125,10 @@
    "branches": [
     {
      "keywords": [
-      "quicker",
       "changes",
+      "quicker",
       "there",
-      "two"
+      "way"
      ],
      "suggestion": "Two changes? Is there a quicker way?",
      "suggestionFa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "driving",
-      "like",
-      "left"
+      "left",
+      "like"
      ],
      "suggestion": "On the left? Like driving!",
      "suggestionFa": "سمت چپ؟ مثل رانندگی!",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "teacher",
-      "lesson",
       "what's",
+      "lesson",
       "two"
      ],
      "suggestion": "OK, teacher! What's lesson two?",
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "alone",
-      "easy",
+      "next",
       "time",
-      "next"
+      "easy"
      ],
      "suggestion": "That was easy. I can do it alone next time.",
      "suggestionFa": "آسون بود. دفعهٔ بعد تنهایی می‌تونم.",

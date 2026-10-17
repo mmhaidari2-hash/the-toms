@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "register",
+      "everyone",
       "hackney",
       "surgery",
       "should"
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -107,7 +107,7 @@
       "that's",
       "let's",
       "paper",
-      "birth"
+      "first"
      ],
      "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
      "suggestionFa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.",
@@ -157,7 +157,7 @@
       "doctor",
       "before",
       "boxes",
-      "seen"
+      "have"
      ],
      "suggestion": "Yes, in the boxes. Now — \"previous GP\". Have you seen a doctor in the UK before?",
      "suggestionFa": "آره، تو این خونه‌ها. حالا — «پزشک قبلی». قبلاً تو بریتانیا دکتر رفتی؟",
@@ -181,8 +181,8 @@
       "number",
       "blank",
       "leave",
-      "write",
-      "don't"
+      "don't",
+      "write"
      ],
      "suggestion": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
      "suggestionFa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.",
@@ -207,7 +207,7 @@
       "register",
       "drinking",
       "smoking",
-      "number"
+      "you'll"
      ],
      "suggestion": "It's your health number. You'll get one after you register. Now, the questions about smoking and drinking…",
      "suggestionFa": "شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…",
@@ -230,9 +230,9 @@
      "keywords": [
       "receptionist",
       "bottom",
-      "boxes",
+      "let's",
       "these",
-      "let's"
+      "boxes"
      ],
      "suggestion": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
      "suggestionFa": "خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی.",

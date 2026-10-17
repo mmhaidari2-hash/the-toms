@@ -34,8 +34,8 @@
      "keywords": [
       "letter",
       "could",
-      "help",
-      "read"
+      "read",
+      "help"
      ],
      "suggestion": "Could you help me read this letter?",
      "suggestionFa": "می‌تونید کمکم کنید این نامه را بخونم؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "order",
-      "mean",
-      "here"
+      "here",
+      "mean"
      ],
      "suggestion": "And what does \"in order to\" mean here?",
      "suggestionFa": "و اینجا «in order to» یعنی چی؟",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "fine",
+      "much",
       "how"
      ],
      "suggestion": "How much is the fine?",
@@ -226,9 +226,9 @@
     {
      "keywords": [
       "don't",
-      "just",
       "they",
-      "say"
+      "just",
+      "why"
      ],
      "suggestion": "Why don't they just say that?",
      "suggestionFa": "چرا همون را نمی‌گن؟",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "clearer",
-      "that's",
       "arthur",
+      "that's",
       "thank"
      ],
      "suggestion": "Thank you, Arthur. That's much clearer now.",

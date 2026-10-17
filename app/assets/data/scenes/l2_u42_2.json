@@ -32,8 +32,8 @@
     {
      "keywords": [
       "parents",
-      "let's",
       "maybe",
+      "let's",
       "near"
      ],
      "suggestion": "Maybe his parents are near. Let's ask him.",
@@ -74,8 +74,8 @@
      "keywords": [
       "doesn't",
       "scared",
-      "he's",
-      "know"
+      "know",
+      "he's"
      ],
      "suggestion": "He says he doesn't know. He's very scared.",
      "suggestionFa": "میگه نمی‌دونه. خیلی ترسیده.",
@@ -85,9 +85,9 @@
     },
     {
      "keywords": [
-      "worry",
       "don't",
       "we'll",
+      "worry",
       "find"
      ],
      "suggestion": "Leo, don't worry. We'll find your mum.",
@@ -132,8 +132,8 @@
      "keywords": [
       "excuse",
       "boy's",
-      "have",
-      "seen"
+      "seen",
+      "have"
      ],
      "suggestion": "Excuse me! Have you seen this boy's mum?",
      "suggestionFa": "ببخشید! مامان این پسر را دیدید؟",
@@ -193,8 +193,8 @@
      "keywords": [
       "raincoat",
       "little",
-      "yours",
-      "about"
+      "about",
+      "yours"
      ],
      "suggestion": "A little boy, about four, red raincoat. Is he yours?",
      "suggestionFa": "یه پسر کوچولو، حدوداً چهار ساله، بارونی قرمز. مال شماست؟",
@@ -206,8 +206,8 @@
      "keywords": [
       "looking",
       "anyone",
-      "shout",
-      "leo's"
+      "leo's",
+      "shout"
      ],
      "suggestion": "I'll shout. LEO'S MUM! Is anyone looking for Leo?",
      "suggestionFa": "داد می‌زنم. مامان لئو! کسی دنبال لئوئه؟",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "mum",
-      "leo"
+      "leo",
+      "mum"
      ],
      "suggestion": "Is that your mum, Leo?",
      "suggestionFa": "اون مامانته لئو؟",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "over",
       "he's",
+      "over",
       "here",
       "ok"
      ],
@@ -301,8 +301,8 @@
    "branches": [
     {
      "keywords": [
-      "safe",
       "he's",
+      "safe",
       "now",
       "ok"
      ],
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "second",
-      "woman",
       "takes",
+      "woman",
       "poor"
      ],
      "suggestion": "One second is all it takes. Poor woman.",
@@ -365,9 +365,9 @@
     {
      "keywords": [
       "happy",
-      "help",
+      "were",
       "fine",
-      "were"
+      "help"
      ],
      "suggestion": "No, no, it's fine. We were happy to help.",
      "suggestionFa": "نه نه، اشکالی نداره. خوشحال شدیم کمک کردیم.",

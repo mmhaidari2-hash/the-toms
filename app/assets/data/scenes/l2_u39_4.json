@@ -21,8 +21,8 @@
      "keywords": [
       "launderette",
       "never",
-      "used",
-      "i've"
+      "i've",
+      "used"
      ],
      "suggestion": "A launderette? I've never used one.",
      "suggestionFa": "خشک‌شویی سکه‌ای؟ تا حالا ازش استفاده نکردم.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "minutes",
-      "forty",
-      "dryer"
+      "dryer",
+      "forty"
      ],
      "suggestion": "Forty minutes. And the dryer?",
      "suggestionFa": "چهل دقیقه. و خشک‌کن؟",
@@ -189,7 +189,7 @@
      "keywords": [
       "pound",
       "coins",
-      "here",
+      "i've",
       "some"
      ],
      "suggestion": "I've got some pound coins. Here.",
@@ -251,9 +251,9 @@
    "branches": [
     {
      "keywords": [
+      "ryan's",
       "hoodie",
       "thirty",
-      "ryan's",
       "forty"
      ],
      "suggestion": "Forty for these. Ryan's hoodie at thirty!",

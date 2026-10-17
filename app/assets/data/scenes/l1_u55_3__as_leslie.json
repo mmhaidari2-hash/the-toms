@@ -24,8 +24,8 @@
       "family",
       "about",
       "toast",
-      "come",
-      "home"
+      "home",
+      "come"
      ],
      "suggestion": "Come and sit down. I've just made some toast. So, tell me about your family back home.",
      "suggestionFa": "بیا بشین. تازه نون تست درست کردم. خب، از خانواده‌ات تو ایران بگو.",
@@ -73,8 +73,8 @@
      "keywords": [
       "feeling",
       "sister",
-      "leeds",
       "lives",
+      "leeds",
       "know"
      ],
      "suggestion": "My sister lives in Leeds, so I know the feeling. What does your dad do?",
@@ -121,9 +121,9 @@
      "keywords": [
       "maggie",
       "family",
-      "house",
       "every",
-      "them"
+      "house",
+      "nana"
      ],
      "suggestion": "Ha! Every family has a boss. In this house it's Nana Maggie. Do you miss them?",
      "suggestionFa": "ها! هر خانواده‌ای یه رئیس داره. تو این خونه نانا مگیه. دلت براشون تنگ میشه؟",
@@ -146,9 +146,9 @@
      "keywords": [
       "course",
       "photos",
-      "them",
+      "have",
       "love",
-      "have"
+      "them"
      ],
      "suggestion": "Of course you do. Have you got any photos? I'd love to see them.",
      "suggestionFa": "معلومه. عکس داری؟ دوست دارم ببینم.",
@@ -172,8 +172,8 @@
       "gorgeous",
       "those",
       "roses",
-      "look",
-      "know"
+      "know",
+      "just"
      ],
      "suggestion": "Oh, how gorgeous! Look at those roses! You look just like your mum, you know.",
      "suggestionFa": "وای، چه قشنگ! اون گل‌های رز را ببین! می‌دونی، خیلی شبیه مامانتی.",
@@ -194,11 +194,11 @@
    "branches": [
     {
      "keywords": [
-      "welcome",
       "kitchen",
+      "welcome",
       "sunday",
       "family",
-      "part"
+      "next"
      ],
      "suggestion": "Well, you're welcome here any time. You're part of the family now. Next Sunday, call them from our kitchen!",
      "suggestionFa": "خب، هر وقت بخوای اینجا قدمت روی چشمه. حالا دیگه جزو خانواده‌ای. یکشنبهٔ بعد از آشپزخونهٔ ما بهشون زنگ بزن!",

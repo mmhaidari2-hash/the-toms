@@ -73,8 +73,8 @@
       "should",
       "shirt",
       "white",
-      "wear",
-      "good"
+      "then",
+      "wear"
      ],
      "suggestion": "Then a shirt is good. Blue or white? Should you wear a tie?",
      "suggestionFa": "پس پیراهن خوبه. آبی یا سفید؟ کراوات بزنی؟",
@@ -97,9 +97,9 @@
      "keywords": [
       "relaxed",
       "ironed",
-      "shirt",
+      "smart",
       "these",
-      "smart"
+      "shirt"
      ],
      "suggestion": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
      "suggestionFa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "cupboard",
-      "jumper",
       "chilly",
+      "jumper",
       "iron's",
-      "today"
+      "about"
      ],
      "suggestion": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
      "suggestionFa": "اتو تو کمده. و ژاکت چی؟ امروز هوا سرده.",
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "trainers",
-      "smart",
       "shoes",
-      "good",
-      "navy"
+      "smart",
+      "navy",
+      "good"
      ],
      "suggestion": "Good. Navy is smart. Now — shoes! Not trainers.",
      "suggestionFa": "خوبه. سورمه‌ای شیکه. حالا — کفش! نه کتونی.",
@@ -172,8 +172,8 @@
      "keywords": [
       "interview",
       "perfect",
-      "clean",
       "black",
+      "clean",
       "shoes"
      ],
      "suggestion": "For an interview, yes! Black shoes are perfect. Clean them first!",
@@ -198,8 +198,8 @@
       "brilliant",
       "you'll",
       "smart",
-      "look",
-      "luck"
+      "luck",
+      "look"
      ],
      "suggestion": "Look at you! Very smart. Good luck! You'll be brilliant.",
      "suggestionFa": "خودت را ببین! خیلی شیک. موفق باشی! عالی می‌شی.",

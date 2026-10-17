@@ -24,8 +24,8 @@
       "welcome",
       "morning",
       "aboard",
-      "today",
-      "where"
+      "where",
+      "today"
      ],
      "suggestion": "Morning, sir! Welcome aboard the 38. Oh — it's you! Where are you off to today?",
      "suggestionFa": "صبح بخیر قربان! به ۳۸ خوش اومدی. اوه — تویی! امروز کجا می‌ری؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "phone's",
-      "which",
       "phone",
       "daily",
-      "same"
+      "which",
+      "fine"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
      "suggestionFa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "traffic's",
       "islington",
+      "traffic's",
       "minutes",
       "twenty",
       "about"
@@ -123,9 +123,9 @@
      "keywords": [
       "there's",
       "kidding",
+      "right",
       "front",
-      "angel",
-      "right"
+      "jokes"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
      "suggestionFa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم.",
@@ -175,7 +175,7 @@
       "driving",
       "number",
       "coming",
-      "wrong"
+      "other"
      ],
      "suggestion": "Coming back, cross the road. Same number, other side. Everyone gets that wrong once. I did, in my first week. Driving!",
      "suggestionFa": "برای برگشتن، از خیابون رد شو. همون شماره، طرف مقابل. همه یه بار اشتباه می‌کنن. من هفتهٔ اول اشتباه کردم. وقتی راننده بودم!",
@@ -198,9 +198,9 @@
      "keywords": [
       "roundabout",
       "leslie",
+      "drove",
       "wrong",
-      "round",
-      "we're"
+      "round"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
      "suggestionFa": "خب — تو یه میدون مسیر را اشتباه رفتم. به لزلی نگو. محکم بگیر، راه افتادیم!",

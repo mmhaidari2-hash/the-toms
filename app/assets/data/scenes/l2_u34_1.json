@@ -20,8 +20,8 @@
     {
      "keywords": [
       "course",
-      "book",
       "need",
+      "book",
       "we"
      ],
      "suggestion": "Of course. What do we need to book?",
@@ -133,7 +133,7 @@
       "there's",
       "forty",
       "slot",
-      "six"
+      "one"
      ],
      "suggestion": "There's a slot at six-ten and one at six-forty.",
      "suggestionFa": "یه وقت ساعت شش و ده هست و یکی شش و چهل.",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "taken",
-      "seven",
       "fifty",
-      "most"
+      "seven",
+      "left"
      ],
      "suggestion": "Most are taken. Only seven-fifty is left.",
      "suggestionFa": "بیشترش گرفته شده. فقط هفت و پنجاه مونده.",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "change",
-      "later",
       "patel",
+      "later",
       "time"
      ],
      "suggestion": "Can we change Mr Patel to a later time?",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "person",
       "parent",
+      "person",
       "one",
       "can"
      ],
@@ -303,7 +303,7 @@
      "keywords": [
       "william",
       "after",
-      "come",
+      "will",
       "look"
      ],
      "suggestion": "Will you come too? I can look after William.",
@@ -356,8 +356,8 @@
     {
      "keywords": [
       "question",
-      "doing",
       "first",
+      "doing",
       "good"
      ],
      "suggestion": "Good idea. First question: \"How is he doing?\"",

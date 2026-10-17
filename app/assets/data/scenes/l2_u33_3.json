@@ -22,7 +22,7 @@
       "antibiotics",
       "ibuprofen",
       "doctor",
-      "take"
+      "them"
      ],
      "suggestion": "Yes. The doctor gave me antibiotics. Can I take them with ibuprofen?",
      "suggestionFa": "آره. دکتر بهم آنتی‌بیوتیک داده. می‌تونم با ایبوپروفن بخورمشون؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "question",
       "medicine",
+      "question",
       "about",
       "have"
      ],
@@ -73,9 +73,9 @@
    "branches": [
     {
      "keywords": [
-      "food",
+      "good",
       "take",
-      "good"
+      "food"
      ],
      "suggestion": "Good. Do I take it with food?",
      "suggestionFa": "خوبه. با غذا بخورمش؟",
@@ -147,10 +147,10 @@
     },
     {
      "keywords": [
-      "times",
       "first",
+      "times",
       "many",
-      "how"
+      "eat"
      ],
      "suggestion": "Eat first. OK. How many times a day?",
      "suggestionFa": "اول غذا. باشه. روزی چند بار؟",
@@ -205,10 +205,10 @@
     },
     {
      "keywords": [
-      "alarm",
-      "seven",
       "phone",
-      "days"
+      "seven",
+      "alarm",
+      "i'll"
      ],
      "suggestion": "Seven days. I'll set an alarm on my phone.",
      "suggestionFa": "هفت روز. رو گوشیم زنگ هشدار می‌ذارم.",
@@ -246,8 +246,8 @@
    "branches": [
     {
      "keywords": [
-      "drink",
       "don't",
+      "drink",
       "one",
       "ok"
      ],
@@ -311,8 +311,8 @@
     },
     {
      "keywords": [
-      "stop",
       "call",
+      "stop",
       "ok"
      ],
      "suggestion": "OK. Stop and call you.",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "prescriptions",
+      "gets",
       "free",
-      "sure",
-      "gets"
+      "sure"
      ],
      "suggestion": "I'm not sure. Who gets free prescriptions?",
      "suggestionFa": "مطمئن نیستم. کی نسخهٔ رایگان می‌گیره؟",

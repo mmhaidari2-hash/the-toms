@@ -22,9 +22,9 @@
     {
      "keywords": [
       "raining",
+      "bored",
       "watch",
       "still",
-      "bored",
       "don't"
      ],
      "suggestion": "It's still raining. I'm bored. Why don't we watch a film?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "everything",
-      "better",
-      "cheats",
+      "nicola",
       "action",
-      "nicola"
+      "better",
+      "cheats"
      ],
      "suggestion": "Board games? Nicola cheats at everything! A film is better. How about an action film?",
      "suggestionFa": "بازی رومیزی؟ نیکولا تو همه چی تقلب می‌کنه! فیلم بهتره. یه فیلم اکشن چطوره؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "fiftieth",
-      "frozen",
       "nicola",
-      "again",
-      "right"
+      "frozen",
+      "right",
+      "again"
      ],
      "suggestion": "Ugh, you're right. Nicola wants Frozen. Again. Fiftieth time!",
      "suggestionFa": "اوف، راست میگی. نیکولا فروزن می‌خواد. دوباره. پنجاهمین بار!",
@@ -98,8 +98,8 @@
      "keywords": [
       "paddington",
       "everyone",
-      "likes",
       "cries",
+      "likes",
       "even"
      ],
      "suggestion": "Paddington! Yes. Everyone likes Paddington. Even Dad cries at the end.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "popcorn",
-      "shall",
-      "salty",
       "every",
-      "sweet"
+      "shall",
+      "sweet",
+      "salty"
      ],
      "suggestion": "Every time! Shall we make popcorn? Sweet or salty?",
      "suggestionFa": "هر بار! پاپ‌کورن درست کنیم؟ شیرین یا شور؟",
@@ -148,9 +148,9 @@
      "keywords": [
       "upstairs",
       "genius",
-      "let's",
       "duvet",
-      "from"
+      "let's",
+      "both"
      ],
      "suggestion": "Both! You're a genius. And let's get the duvet from upstairs. Duvet day!",
      "suggestionFa": "هر دو! نابغه‌ای. و بیا لحاف را از بالا بیاریم. روز لحاف!",
@@ -173,9 +173,9 @@
      "keywords": [
       "nicola",
       "under",
-      "thing",
+      "duvet",
       "about",
-      "duvet"
+      "thing"
      ],
      "suggestion": "Lazy day on the sofa, under a duvet. Best thing about rain! Nicola! Film time!",
      "suggestionFa": "روز تنبلی رو مبل، زیر لحاف. بهترین چیز بارون! نیکولا! وقت فیلمه!",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "popcorn",
-      "lights",
       "phones",
+      "lights",
       "press",
       "ready"
      ],

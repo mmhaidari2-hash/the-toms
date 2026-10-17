@@ -1,0 +1,502 @@
+{
+ "id": "l2_u50_2__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Maggie) The cake order",
+ "titleFa": "(در نقش Nana Maggie) سفارش کیک",
+ "setting": "Party planning · Level 2",
+ "settingFa": "برنامه‌ریزی مهمانی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u50_2",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Maggie!",
+   "translations": {
+    "fa": "سلام Nana Maggie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gareth's",
+      "friends",
+      "charge",
+      "bakery",
+      "right"
+     ],
+     "suggestion": "Right, dear. I'm in charge of the cake. Doris and I have been friends for forty years. Come with me to Gareth's bakery?",
+     "suggestionFa": "خب عزیزم. من مسئول کیکم. من و دوریس چهل ساله دوستیم. با من میای نونوایی گرت؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course, Maggie. What kind of cake?",
+   "translations": {
+    "fa": "البته مگی. چه جور کیکی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "sponge",
+      "gareth",
+      "school",
+      "makes"
+     ],
+     "suggestion": "At the school gates! Our boys were in the same class. Her favourite is lemon sponge. Gareth makes the best one. Here we are.",
+     "suggestionFa": "دم در مدرسه! پسرهامون هم‌کلاس بودن. مورد علاقه‌اش اسفنجی لیموییه. گرت بهترینش را درست می‌کنه. رسیدیم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Lemon sponge sounds perfect.",
+   "translations": {
+    "fa": "اسفنجی لیمویی عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "baker",
+   "text": "Morning, Maggie! Morning, young man. What can I get you? The usual loaf?",
+   "translations": {
+    "fa": "صبح بخیر مگی! صبح بخیر جوون. چی بدم خدمتتون؟ نون همیشگی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "school gates",
+     "fa": "در مدرسه"
+    },
+    {
+     "word": "same class",
+     "fa": "هم‌کلاس"
+    },
+    {
+     "word": "sponge",
+     "fa": "کیک اسفنجی"
+    },
+    {
+     "word": "usual",
+     "fa": "همیشگی"
+    },
+    {
+     "word": "loaf",
+     "fa": "قرص نان"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Morning, Gareth. We'd like to order a birthday cake.",
+   "translations": {
+    "fa": "صبح بخیر گرت. می‌خوایم یه کیک تولد سفارش بدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "baker",
+   "text": "A birthday cake! Lovely. For how many people? And what flavour?",
+   "translations": {
+    "fa": "کیک تولد! عالی. برای چند نفر؟ و چه طعمی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how many",
+     "fa": "چند نفر ؛ چند تا"
+    },
+    {
+     "word": "flavour",
+     "fa": "طعم"
+    },
+    {
+     "word": "about",
+     "fa": "حدود"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "For about fifteen people. Lemon sponge, please.",
+   "translations": {
+    "fa": "برای حدود پونزده نفر. اسفنجی لیمویی، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteen",
+      "twenty",
+      "sponge",
+      "arthur",
+      "let's"
+     ],
+     "suggestion": "Fifteen, dear, but Doris eats like a bird and Arthur eats like a horse. Let's say twenty. Lemon sponge with lemon icing.",
+     "suggestionFa": "پونزده تا عزیزم، ولی دوریس مثل گنجشک می‌خوره و آرتور مثل اسب. بگیم بیست. اسفنجی لیمویی با روکش لیمویی.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Lemon icing too. Perfect.",
+   "translations": {
+    "fa": "روکش لیمویی هم. عالی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "baker",
+   "text": "Twenty portions, lemon on lemon. Lovely. Would you like any writing on top?",
+   "translations": {
+    "fa": "بیست پرس، لیمو روی لیمو. عالی. نوشته‌ای روش می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eats like a bird",
+     "fa": "مثل گنجشک می‌خورد"
+    },
+    {
+     "word": "portions",
+     "fa": "پرس‌ها"
+    },
+    {
+     "word": "icing",
+     "fa": "روکش شکری"
+    },
+    {
+     "word": "writing",
+     "fa": "نوشته"
+    },
+    {
+     "word": "on top",
+     "fa": "روی آن"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Could you write \"Happy 80th Birthday, Doris\"?",
+   "translations": {
+    "fa": "میشه بنویسید «تولد هشتاد سالگیت مبارک دوریس»؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "baker",
+   "text": "A little red bus! Number 38? I can do that in icing. Very Doris. When's the party?",
+   "translations": {
+    "fa": "یه اتوبوس قرمز کوچیک! شمارهٔ ۳۸؟ می‌تونم با شکر درستش کنم. خیلی دوریسی. مهمونی کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "red",
+     "fa": "قرمز"
+    },
+    {
+     "word": "collect",
+     "fa": "تحویل گرفتن ؛ بردن"
+    },
+    {
+     "word": "surprise",
+     "fa": "غافلگیری"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Saturday the fourteenth. When can we collect it?",
+   "translations": {
+    "fa": "شنبه چهاردهم. کی می‌تونیم بگیریمش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "baker",
+   "text": "My lips are sealed — she buys a bloomer here every Tuesday! Collect it on Saturday morning, any time after eight.",
+   "translations": {
+    "fa": "لبام دوخته‌ست — هر سه‌شنبه اینجا نون می‌خره! شنبه صبح، هر ساعتی بعد از هشت ببریدش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lips are sealed",
+     "fa": "لبم دوخته است"
+    },
+    {
+     "word": "bloomer",
+     "fa": "نوعی نان"
+    },
+    {
+     "word": "any time",
+     "fa": "هر ساعتی"
+    },
+    {
+     "word": "deposit",
+     "fa": "بیعانه ؛ پیش‌پرداخت"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "After eight on Saturday. How much will it be?",
+   "translations": {
+    "fa": "شنبه بعد از هشت. چقدر میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "baker",
+   "text": "Forty-five pounds with the bus. Ten pounds deposit today, the rest on Saturday. Ryan can carry it — he's on shift that morning!",
+   "translations": {
+    "fa": "چهل و پنج پوند با اتوبوس. ده پوند بیعانه امروز، بقیه شنبه. رایان می‌تونه ببرتش — اون روز صبح شیفته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the rest",
+     "fa": "بقیه"
+    },
+    {
+     "word": "on shift",
+     "fa": "سر شیفت"
+    }
+   ]
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Ryan carrying a cake? Is that a good idea?",
+   "translations": {
+    "fa": "رایان کیک ببره؟ فکر خوبیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carrying",
+      "heaven",
+      "wallet",
+      "pounds",
+      "here's"
+     ],
+     "suggestion": "Ryan carrying a cake? Heaven help us. Here's the ten pounds, Gareth. No — put your wallet away, dear. This one's from me.",
+     "suggestionFa": "رایان کیک ببره؟ خدا به دادمون برسه. اینم ده پوند گرت. نه — کیف پولت را بذار کنار عزیزم. این از طرف منه.",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "mehdi",
+   "text": "Thank you, Maggie. It's going to be perfect.",
+   "translations": {
+    "fa": "ممنون مگی. عالی میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friendship",
+      "deserves",
+      "saffron",
+      "certain",
+      "that's"
+     ],
+     "suggestion": "Certain. You're doing the saffron rice — that's plenty. Forty years of friendship deserves a proper cake. With a bus on it!",
+     "suggestionFa": "مطمئن. تو برنج زعفرونی را درست می‌کنی — همین کافیه. چهل سال دوستی یه کیک درست‌حسابی می‌خواد. با یه اتوبوس روش!",
+     "trustDelta": 5,
+     "next": "r18",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r18": {
+   "id": "r18",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

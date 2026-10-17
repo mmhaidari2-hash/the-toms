@@ -25,7 +25,7 @@
       "hackney",
       "right",
       "here",
-      "farm"
+      "city"
      ],
      "suggestion": "Welcome to the city farm! It's right here in Hackney. What can you see?",
      "suggestionFa": "به مزرعهٔ شهری خوش اومدی! همین‌جا تو هاکنیه. چی می‌بینی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "that's",
-      "she's",
       "doris",
-      "pig",
-      "old"
+      "she's",
+      "old",
+      "pig"
      ],
      "suggestion": "Yes! That's Doris the pig. She's very old. What does a pig say?",
      "suggestionFa": "آره! اون دوریس خوکه. خیلی پیره. خوک چی می‌گه؟",
@@ -74,8 +74,8 @@
       "sheep",
       "oink",
       "says",
-      "moo",
-      "say"
+      "say",
+      "cow"
      ],
      "suggestion": "Oink! And a cow says \"moo\". What does a sheep say?",
      "suggestionFa": "خرخر! و گاو می‌گه «ما». گوسفند چی می‌گه؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "chickens",
       "william",
-      "loves",
       "can't",
-      "look"
+      "loves",
+      "done"
      ],
      "suggestion": "Well done! Look, William loves the chickens. Chickens can't fly very well.",
      "suggestionFa": "آفرین! ببین، ویلیام عاشق مرغ‌هاست. مرغ‌ها خوب نمی‌تونن پرواز کنن.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "little",
-      "goats",
       "would",
       "pound",
-      "feed"
+      "goats",
+      "just"
      ],
      "suggestion": "Just a little. Would you like to feed the goats? It's one pound for a bag.",
      "suggestionFa": "فقط یه کم. می‌خوای به بزها غذا بدی؟ یه کیسه یه پونده.",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "horses",
-      "horse",
       "there",
-      "look",
+      "horse",
+      "like",
       "over"
      ],
      "suggestion": "Look over there! A horse. Do you like horses?",
@@ -223,8 +223,8 @@
      "keywords": [
       "william",
       "goodbye",
-      "doris",
       "cream",
+      "doris",
       "wants"
      ],
      "suggestion": "Yes, an ice cream at the café! William wants to say goodbye to Doris the pig first. Bye, Doris!",

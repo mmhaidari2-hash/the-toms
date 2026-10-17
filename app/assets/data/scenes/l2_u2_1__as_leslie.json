@@ -23,8 +23,8 @@
      "keywords": [
       "parcel",
       "office",
-      "right",
       "let's",
+      "right",
       "test"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "straight",
-      "perfect",
       "traffic",
-      "lights",
-      "bakery"
+      "perfect",
+      "bakery",
+      "lights"
      ],
      "suggestion": "Perfect. And I say: go straight on, past the bakery, then turn left at the traffic lights.",
      "suggestionFa": "عالیه. و من می‌گم: مستقیم برو، از نونوایی رد شو، بعد سر چراغ راهنمایی بپیچ چپ.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "brits",
       "means",
-      "easy",
+      "brits",
       "find",
-      "even"
+      "miss",
+      "when"
      ],
      "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
      "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "tourist",
-      "station",
       "minutes",
       "where's",
+      "tourist",
+      "station",
       "about"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "brilliant",
-      "round",
       "sorry",
+      "round",
       "just",
       "sure"
      ],

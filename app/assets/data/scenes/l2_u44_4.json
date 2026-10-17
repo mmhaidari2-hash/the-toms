@@ -21,8 +21,8 @@
      "keywords": [
       "beach",
       "ives",
-      "st",
-      "ok"
+      "ok",
+      "st"
      ],
      "suggestion": "OK! This is me on the beach at St Ives.",
      "suggestionFa": "باشه! این منم تو ساحل سنت آیوز.",
@@ -35,7 +35,7 @@
       "station",
       "that's",
       "here's",
-      "train"
+      "first"
      ],
      "suggestion": "Here's the first one. That's the train station.",
      "suggestionFa": "اینم اولی. اون ایستگاه قطاره.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "lucky",
       "sunny",
-      "hour",
-      "only"
+      "lucky",
+      "only",
+      "hour"
      ],
      "suggestion": "It was only sunny for one hour. I was lucky!",
      "suggestionFa": "فقط یه ساعت آفتابی بود. شانس آوردم!",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "harbour",
-      "seals",
-      "those"
+      "those",
+      "seals"
      ],
      "suggestion": "This is the harbour. And those are the seals.",
      "suggestionFa": "این بندره. و اون‌ها فک‌ها هستن.",
@@ -249,10 +249,10 @@
    "branches": [
     {
      "keywords": [
-      "walked",
       "across",
-      "came",
-      "then"
+      "walked",
+      "then",
+      "came"
      ],
      "suggestion": "Yes, we walked across. Then the tide came in!",
      "suggestionFa": "آره، پیاده رد شدیم. بعد آب بالا اومد!",
@@ -301,10 +301,10 @@
    "branches": [
     {
      "keywords": [
+      "back",
       "came",
       "boat",
-      "back",
-      "was"
+      "fun"
      ],
      "suggestion": "We came back by boat! It was fun.",
      "suggestionFa": "با قایق برگشتیم! جالب بود.",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "together",
-      "friends",
       "english",
+      "friends",
       "class"
      ],
      "suggestion": "My friends from my English class. We went together.",

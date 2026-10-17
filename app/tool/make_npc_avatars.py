@@ -73,7 +73,7 @@ NPC={
  'workcoach':dict(bg='#CFFAFE',skin='deep',hs='buzz',hc='#111',cloth='#0E7490',kind='tie',acc='#FACC15',props=('glasses',)),
  'council':  dict(bg='#EDE9FE',skin='light',hs='bob',hc='#7C2D12',cloth='#6D28D9',kind='lanyard',acc='#6D28D9',props=('glasses','earrings'),mouth='flat'),
  'vida':     dict(bg='#FCE7F3',skin='light',hs='pony',hc='#5B3A29',cloth='#B5577B',kind='lanyard',acc='#FBBF24',props=('earrings',),mouth='grin'),
- 'sara':     dict(bg='#FEF3C7',skin='fair',hs='bob',hc='#C8A26A',cloth='#C9921B',kind='lanyard',acc='#15803D',props=('earrings',),mouth='grin'),
+ 'sara':     dict(bg='#FEF3C7',skin='fair',hs='long',hc='#C8A26A',cloth='#C9921B',kind='lanyard',acc='#15803D',props=('earrings',),mouth='grin'),
  'jo':       dict(bg='#CFFAFE',skin='fair',hs='bob',hc='#B45309',cloth='#0E7490',kind='lanyard',acc='#0E7490',props=('glasses',)),
  'oscar':    dict(bg='#DCFCE7',skin='brown',hs='curly',hc='#1F2937',cloth='#16A34A',kind='shirt',props=(),mouth='grin'),
  'dan':      dict(bg='#FEF3C7',skin='fair',hs='short',hc='#C2913A',cloth='#065F46',kind='hivis',props=('beard',)),

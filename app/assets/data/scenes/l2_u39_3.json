@@ -182,7 +182,7 @@
       "conditioner",
       "water",
       "maybe",
-      "sure"
+      "soak"
      ],
      "suggestion": "I'm not sure. Maybe soak it in water with conditioner?",
      "suggestionFa": "مطمئن نیستم. شاید تو آب با نرم‌کننده خیسش کنی؟",
@@ -252,10 +252,10 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "stretch",
-      "thirty",
-      "gently"
+      "minutes",
+      "gently",
+      "thirty"
      ],
      "suggestion": "Soak it for thirty minutes, then stretch it gently.",
      "suggestionFa": "سی دقیقه خیسش کن، بعد آروم کشش بده.",
@@ -320,8 +320,8 @@
      "keywords": [
       "sleeve",
       "other",
-      "look",
-      "than"
+      "than",
+      "look"
      ],
      "suggestion": "Look — one sleeve is longer than the other!",
      "suggestionFa": "ببین — یه آستین از اون یکی بلندتره!",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "honesty",
-      "tell",
       "best",
+      "tell",
       "her"
      ],
      "suggestion": "Tell her. Honesty is best.",
@@ -374,8 +374,8 @@
      "keywords": [
       "perfectly",
       "william",
-      "give",
-      "fits"
+      "fits",
+      "give"
      ],
      "suggestion": "Give it to William. It fits him perfectly!",
      "suggestionFa": "بدش به ویلیام. دقیقاً اندازه‌شه!",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "something",
-      "ryan",
       "tell",
+      "ryan",
       "has"
      ],
      "suggestion": "Ryan has something to tell you.",

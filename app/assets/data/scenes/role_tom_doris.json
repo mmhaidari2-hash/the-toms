@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "cheers",
+      "thanks",
       "she's",
       "knees"
      ],
@@ -81,7 +81,7 @@
      "keywords": [
       "doctor",
       "about",
-      "have",
+      "been",
       "them"
      ],
      "suggestion": "Have you been to the doctor about them?",
@@ -116,9 +116,9 @@
    "branches": [
     {
      "keywords": [
-      "leave",
       "don't",
       "doris",
+      "leave",
       "long"
      ],
      "suggestion": "Don't leave it too long, Doris.",
@@ -164,9 +164,9 @@
     {
      "keywords": [
       "always",
-      "saved",
       "front",
-      "seat"
+      "saved",
+      "i've"
      ],
      "suggestion": "I've saved you the front seat as always.",
      "suggestionFa": "مثل همیشه صندلی جلو را برات نگه داشتم.",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
-      "will",
+      "move",
       "sure",
-      "move"
+      "will"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -211,8 +211,8 @@
     {
      "keywords": [
       "cherries",
-      "spoil",
-      "doris"
+      "doris",
+      "spoil"
      ],
      "suggestion": "Cherries! You spoil me, Doris.",
      "suggestionFa": "آلبالو! لوسم می‌کنی دوریس.",
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "exams",
       "glued",
+      "exams",
       "went",
       "well"
      ],
@@ -277,7 +277,7 @@
       "learning",
       "heaven",
       "drive",
-      "help"
+      "he's"
      ],
      "suggestion": "He's learning to drive now, heaven help us!",
      "suggestionFa": "الان داره رانندگی یاد می‌گیره، خدا به دادمون برسه!",
@@ -321,10 +321,10 @@
     },
     {
      "keywords": [
-      "second",
       "thanks",
+      "second",
       "doris",
-      "pair"
+      "eyes"
      ],
      "suggestion": "Thanks, Doris. You're my second pair of eyes.",
      "suggestionFa": "ممنون دوریس. جفت چشم دوم منی.",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "slowing",
-      "route",
+      "about",
       "still",
-      "about"
+      "route"
      ],
      "suggestion": "He's slowing down, but he still asks about this old route.",
      "suggestionFa": "داره کند میشه، ولی هنوز سراغ این مسیر قدیمی را می‌گیره.",

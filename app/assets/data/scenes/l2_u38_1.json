@@ -20,9 +20,9 @@
     {
      "keywords": [
       "fifty",
+      "each",
       "sure",
-      "five",
-      "each"
+      "five"
      ],
      "suggestion": "Sure. Fifty-fifty? Five pounds each.",
      "suggestionFa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "fifteen",
-      "ask",
       "him",
+      "ask",
       "ten"
      ],
      "suggestion": "Ten pounds? Ask him for fifteen!",
@@ -90,9 +90,9 @@
     {
      "keywords": [
       "little",
-      "much",
       "soap",
-      "how"
+      "much",
+      "lot"
      ],
      "suggestion": "How much soap? A little or a lot?",
      "suggestionFa": "چقدر صابون؟ کم یا زیاد؟",
@@ -152,8 +152,8 @@
     {
      "keywords": [
       "pavement",
-      "bubbles",
-      "problem"
+      "problem",
+      "bubbles"
      ],
      "suggestion": "Bubbles on the pavement? Is that a problem?",
      "suggestionFa": "کف رو پیاده‌رو؟ مشکلیه؟",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "clever",
-      "bottom",
       "that's",
+      "bottom",
       "top"
      ],
      "suggestion": "Top to bottom. That's clever.",
@@ -204,8 +204,8 @@
     },
     {
      "keywords": [
-      "can't",
       "reach",
+      "can't",
       "have",
       "roof"
      ],
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "can't",
+      "where",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -332,8 +332,8 @@
     {
      "keywords": [
       "strong",
-      "ryan",
-      "hose"
+      "hose",
+      "ryan"
      ],
      "suggestion": "The hose is very strong! Sorry, Ryan!",
      "suggestionFa": "شلنگ خیلی قویه! ببخشید رایان!",
@@ -486,10 +486,10 @@
     },
     {
      "keywords": [
-      "money",
       "don't",
-      "ryan",
-      "need"
+      "money",
+      "need",
+      "ryan"
      ],
      "suggestion": "Ten for Ryan. I don't need money.",
      "suggestionFa": "ده تا برای رایان. من پول نمی‌خوام.",

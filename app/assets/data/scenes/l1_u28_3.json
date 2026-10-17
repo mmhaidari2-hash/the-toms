@@ -76,10 +76,10 @@
     },
     {
      "keywords": [
-      "you've",
       "number",
-      "wrong",
-      "think"
+      "you've",
+      "think",
+      "wrong"
      ],
      "suggestion": "I think you've got the wrong number.",
      "suggestionFa": "فکر کنم اشتباه گرفتید.",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "happens",
-      "problem"
+      "problem",
+      "happens"
      ],
      "suggestion": "No problem! It happens.",
      "suggestionFa": "مشکلی نیست! پیش میاد.",

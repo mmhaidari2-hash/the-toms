@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "help",
       "dust",
+      "help",
       "can"
      ],
      "suggestion": "Can I help you dust?",
@@ -68,8 +68,8 @@
      "keywords": [
       "there's",
       "shelf",
-      "jar",
-      "big"
+      "big",
+      "jar"
      ],
      "suggestion": "There's a big jar on the shelf.",
      "suggestionFa": "یه شیشهٔ بزرگ رو قفسه‌ست.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "cleaning",
-      "after",
-      "maybe"
+      "maybe",
+      "after"
      ],
      "suggestion": "After the cleaning, maybe.",
      "suggestionFa": "بعد از نظافت، شاید.",
@@ -168,8 +168,8 @@
     {
      "keywords": [
       "behind",
-      "jar",
-      "key"
+      "key",
+      "jar"
      ],
      "suggestion": "It's a key. Behind the jar.",
      "suggestionFa": "یه کلیده. پشت ظرف.",
@@ -231,8 +231,8 @@
     {
      "keywords": [
       "happy",
-      "will",
-      "nana"
+      "nana",
+      "will"
      ],
      "suggestion": "Nana will be very happy.",
      "suggestionFa": "نانا خیلی خوشحال میشه.",

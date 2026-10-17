@@ -1,0 +1,412 @@
+{
+ "id": "l2_u48_3",
+ "characterId": "jade",
+ "title": "Sleeping better",
+ "titleFa": "بهتر خوابیدن",
+ "setting": "Health habits · Level 2",
+ "settingFa": "عادت‌های سلامتی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jade",
+   "text": "Whoa, you look tired! Are you OK? You're on the bike, but you're not pedalling.",
+   "translations": {
+    "fa": "وای، خسته به نظر میای! خوبی؟ رو دوچرخه‌ای، ولی پا نمی‌زنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tired",
+      "just",
+      "ok"
+     ],
+     "suggestion": "I'm OK. I'm just very tired.",
+     "suggestionFa": "خوبم. فقط خیلی خسته‌ام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "sleep",
+      "sorry",
+      "night"
+     ],
+     "suggestion": "Sorry. I didn't sleep well last night.",
+     "suggestionFa": "ببخشید. دیشب خوب نخوابیدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tired",
+     "fa": "خسته"
+    },
+    {
+     "word": "bike",
+     "fa": "دوچرخه"
+    },
+    {
+     "word": "pedalling",
+     "fa": "پا زدن"
+    },
+    {
+     "word": "last night",
+     "fa": "دیشب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jade",
+   "text": "Again? That's the third time this week. What's going on? Can't you get to sleep, or do you wake up in the night?",
+   "translations": {
+    "fa": "باز؟ این سومین بار این هفته‌ست. چه خبره؟ خوابت نمی‌بره، یا شب‌ها بیدار میشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hours",
+      "awake",
+      "get",
+      "lie"
+     ],
+     "suggestion": "I can't get to sleep. I lie awake for hours.",
+     "suggestionFa": "خوابم نمی‌بره. ساعت‌ها بیدار دراز می‌کشم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "again",
+      "three",
+      "wake",
+      "up"
+     ],
+     "suggestion": "I wake up at three and I can't sleep again.",
+     "suggestionFa": "ساعت سه بیدار میشم و دیگه خوابم نمی‌بره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "going on",
+     "fa": "در جریان ؛ چه خبر"
+    },
+    {
+     "word": "get to sleep",
+     "fa": "به خواب رفتن"
+    },
+    {
+     "word": "wake up",
+     "fa": "بیدار شدن"
+    },
+    {
+     "word": "lie awake",
+     "fa": "بیدار دراز کشیدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i can't get sleep",
+      "i can't to sleep"
+     ],
+     "echo": "You can't get to sleep? Let's fix that.",
+     "better": "I can't get to sleep.",
+     "betterFa": "خوابم نمی‌برد."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "jade",
+   "text": "That's rubbish. OK — sleep detective time. What do you do before bed? Be honest. Phone?",
+   "translations": {
+    "fa": "افتضاحه. باشه — وقت کارآگاه خوابه. قبل از خواب چی کار می‌کنی؟ صادق باش. گوشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "videos",
+      "watch",
+      "bed"
+     ],
+     "suggestion": "Yes. I watch videos in bed.",
+     "suggestionFa": "آره. تو تخت ویدیو می‌بینم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "family",
+      "tehran",
+      "later",
+      "talk"
+     ],
+     "suggestion": "I talk to my family. It's later in Tehran.",
+     "suggestionFa": "با خانواده‌ام حرف می‌زنم. تو تهران دیرتره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rubbish",
+     "fa": "افتضاح ؛ مزخرف"
+    },
+    {
+     "word": "detective",
+     "fa": "کارآگاه"
+    },
+    {
+     "word": "before bed",
+     "fa": "قبل از خواب"
+    },
+    {
+     "word": "in bed",
+     "fa": "در تخت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Tehran is 3.5 hours ahead of the UK in winter (2.5 in summer), so evening calls home can be very late there.",
+    "fa": "تهران در زمستان ۳.۵ ساعت از بریتانیا جلوتر است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "jade",
+   "text": "Ah. The blue light from the phone keeps your brain awake. Try not to use your phone for an hour before bed.",
+   "translations": {
+    "fa": "آه. نور آبی گوشی مغزت را بیدار نگه می‌داره. سعی کن یه ساعت قبل از خواب از گوشیت استفاده نکنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difficult",
+      "that's",
+      "whole",
+      "hour"
+     ],
+     "suggestion": "A whole hour? That's difficult.",
+     "suggestionFa": "یه ساعت کامل؟ سخته.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "can"
+     ],
+     "suggestion": "What can I do instead?",
+     "suggestionFa": "به‌جاش چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blue light",
+     "fa": "نور آبی"
+    },
+    {
+     "word": "brain",
+     "fa": "مغز"
+    },
+    {
+     "word": "awake",
+     "fa": "بیدار"
+    },
+    {
+     "word": "whole",
+     "fa": "کامل"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "jade",
+   "text": "Read a book. A paper one! Have a bath. Or a cup of chamomile tea. No coffee after two o'clock. Tom's rule too!",
+   "translations": {
+    "fa": "کتاب بخون. کاغذی! حموم کن. یا یه فنجون چای بابونه. بعد از ساعت دو قهوه نه. قانون تام هم هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chamomile",
+      "drinks",
+      "mum",
+      "tea"
+     ],
+     "suggestion": "Chamomile tea. My mum drinks that.",
+     "suggestionFa": "چای بابونه. مامانم اینو می‌خوره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "months",
+      "paper",
+      "book"
+     ],
+     "suggestion": "A paper book? I haven't read one for months!",
+     "suggestionFa": "کتاب کاغذی؟ ماه‌هاست یکی نخوندم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paper",
+     "fa": "کاغذی"
+    },
+    {
+     "word": "bath",
+     "fa": "حمام (وان)"
+    },
+    {
+     "word": "chamomile",
+     "fa": "بابونه"
+    },
+    {
+     "word": "rule",
+     "fa": "قانون"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jade",
+   "text": "The library's got loads. And it's a good idea to go to bed at the same time every night. Even at weekends.",
+   "translations": {
+    "fa": "کتابخونه کلی داره. و ایدهٔ خوبیه هر شب سر یه ساعت بخوابی. حتی آخر هفته‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weekends",
+      "that's",
+      "hard",
+      "even"
+     ],
+     "suggestion": "Even at weekends? That's hard too!",
+     "suggestionFa": "حتی آخر هفته؟ اونم سخته!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "jade",
+      "time",
+      "bed",
+      "go"
+     ],
+     "suggestion": "What time do you go to bed, Jade?",
+     "suggestionFa": "تو ساعت چند می‌خوابی جید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loads",
+     "fa": "کلی ؛ زیاد"
+    },
+    {
+     "word": "same time",
+     "fa": "همان ساعت"
+    },
+    {
+     "word": "every night",
+     "fa": "هر شب"
+    },
+    {
+     "word": "weekends",
+     "fa": "آخر هفته‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "jade",
+   "text": "Nine-thirty! I'm up at five. Everyone laughs, but I sleep like a baby. And — exercise helps. You'll sleep better tonight.",
+   "translations": {
+    "fa": "نه و نیم! ساعت پنج بیدارم. همه می‌خندن، ولی مثل بچه می‌خوابم. و — ورزش کمک می‌کنه. امشب بهتر می‌خوابی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "earlier",
+      "family",
+      "i'll",
+      "call"
+     ],
+     "suggestion": "I hope so. I'll call my family earlier.",
+     "suggestionFa": "امیدوارم. زودتر به خانواده‌ام زنگ می‌زنم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "promise",
+      "after",
+      "phone",
+      "ten"
+     ],
+     "suggestion": "OK. No phone after ten. I promise.",
+     "suggestionFa": "باشه. بعد از ده گوشی نه. قول میدم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "up",
+     "fa": "بیدار"
+    },
+    {
+     "word": "sleep like a baby",
+     "fa": "مثل بچه خوابیدن"
+    },
+    {
+     "word": "exercise",
+     "fa": "ورزش"
+    },
+    {
+     "word": "hope so",
+     "fa": "امیدوارم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "jade",
+   "text": "Brilliant. Now pedal! Twenty minutes. Tired body, sleepy brain. Tell me tomorrow how you slept!",
+   "translations": {
+    "fa": "عالی. حالا پا بزن! بیست دقیقه. بدن خسته، مغز خواب‌آلود. فردا بهم بگو چطور خوابیدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

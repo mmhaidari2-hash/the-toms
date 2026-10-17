@@ -77,8 +77,8 @@
      "keywords": [
       "fold",
       "help",
-      "can",
-      "her"
+      "her",
+      "can"
      ],
      "suggestion": "Can I help her fold it?",
      "suggestionFa": "می‌تونم کمکش کنم تاش کنه؟",
@@ -191,8 +191,8 @@
    "branches": [
     {
      "keywords": [
-      "going",
       "we're",
+      "going",
       "home"
      ],
      "suggestion": "We're going home, William.",
@@ -291,8 +291,8 @@
      "keywords": [
       "william",
       "hello",
-      "say",
-      "sir"
+      "sir",
+      "say"
      ],
      "suggestion": "William! Say \"Hello, sir\".",
      "suggestionFa": "ویلیام! بگو «سلام آقا».",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "wheels",
-      "sorry",
       "loves",
-      "three"
+      "three",
+      "sorry"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
      "suggestionFa": "ببخشید! سه سالشه. عاشق چرخه.",

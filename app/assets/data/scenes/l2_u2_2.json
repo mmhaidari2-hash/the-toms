@@ -182,9 +182,9 @@
    "branches": [
     {
      "keywords": [
+      "three",
       "books",
-      "there",
-      "three"
+      "there"
      ],
      "suggestion": "There are three books.",
      "suggestionFa": "سه‌تا کتاب هست.",
@@ -328,8 +328,8 @@
     {
      "keywords": [
       "stamps",
-      "class",
       "first",
+      "class",
       "have"
      ],
      "suggestion": "Yes, can I have some first-class stamps?",
@@ -341,8 +341,8 @@
     {
      "keywords": [
       "everything",
-      "thanks",
-      "that's"
+      "that's",
+      "thanks"
      ],
      "suggestion": "No, that's everything, thanks.",
      "suggestionFa": "نه، همه‌اش همینه، ممنون.",

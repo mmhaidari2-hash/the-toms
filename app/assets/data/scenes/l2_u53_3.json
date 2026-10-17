@@ -1,0 +1,415 @@
+{
+ "id": "l2_u53_3",
+ "characterId": "tom",
+ "title": "Splitting the bill",
+ "titleFa": "تقسیم صورت‌حساب",
+ "setting": "Paying for things · Level 2",
+ "settingFa": "پرداخت کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Great curry, lads. Right, the bill's here. Ninety-six pounds for four of us. How shall we do it?",
+   "translations": {
+    "fa": "کاری عالی بود رفقا. خب، صورت‌حساب اومد. نود و شش پوند برای چهار نفرمون. چطوری حساب کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "split",
+      "four",
+      "ways"
+     ],
+     "suggestion": "Shall we split it four ways?",
+     "suggestionFa": "چهار قسمت مساوی کنیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "pay",
+      "had"
+     ],
+     "suggestion": "I'll pay for what I had.",
+     "suggestionFa": "من پول چیزی که خوردم را میدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lads",
+     "fa": "رفقا (مردانه)"
+    },
+    {
+     "word": "bill",
+     "fa": "صورت‌حساب"
+    },
+    {
+     "word": "split",
+     "fa": "تقسیم کردن"
+    },
+    {
+     "word": "four ways",
+     "fa": "چهار قسمت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Splitting is easiest. But Big Dave had three beers and two naans. And you only had water. Not fair on you.",
+   "translations": {
+    "fa": "تقسیم آسون‌ترینه. ولی دیو بزرگه سه تا آبجو و دو تا نون خورد. و تو فقط آب خوردی. برای تو منصفانه نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "splitting",
+      "simpler",
+      "ok"
+     ],
+     "suggestion": "It's OK. Splitting is simpler.",
+     "suggestionFa": "اشکالی نداره. تقسیم ساده‌تره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "separately",
+      "can",
+      "pay",
+      "we"
+     ],
+     "suggestion": "Can we pay separately?",
+     "suggestionFa": "میشه جدا پرداخت کنیم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "easiest",
+     "fa": "آسان‌ترین"
+    },
+    {
+     "word": "beers",
+     "fa": "آبجوها"
+    },
+    {
+     "word": "naans",
+     "fa": "نان‌های هندی"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    },
+    {
+     "word": "separately",
+     "fa": "جداگانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, friends often split the bill equally. Some say \"Let's go Dutch\" (each pays for themselves). Many apps help you split.",
+    "fa": "در بریتانیا دوستان اغلب صورت‌حساب را مساوی تقسیم می‌کنند؛ «go Dutch» یعنی هر کس سهم خودش."
+   },
+   "recasts": [
+    {
+     "match": [
+      "can we pay separate",
+      "can we paying separately"
+     ],
+     "echo": "Pay separately? Sure!",
+     "better": "Can we pay separately?",
+     "betterFa": "می‌شود جداگانه پرداخت کنیم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "You're too nice. Let's look. \"A discretionary service charge of 12.5% has been added.\" So service is included.",
+   "translations": {
+    "fa": "تو زیادی مهربونی. بذار ببینم. «هزینهٔ خدمات اختیاری ۱۲.۵٪ اضافه شده.» پس سرویس شامله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discretionary",
+      "mean"
+     ],
+     "suggestion": "What does \"discretionary\" mean?",
+     "suggestionFa": "«اختیاری» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leave",
+      "don't",
+      "need",
+      "tip"
+     ],
+     "suggestion": "So we don't need to leave a tip?",
+     "suggestionFa": "پس لازم نیست انعام بذاریم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too nice",
+     "fa": "زیادی مهربان"
+    },
+    {
+     "word": "discretionary",
+     "fa": "اختیاری"
+    },
+    {
+     "word": "service charge",
+     "fa": "هزینهٔ خدمات"
+    },
+    {
+     "word": "tip",
+     "fa": "انعام"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "It means you can ask them to remove it. But the service was great, so we pay it. And no extra tip.",
+   "translations": {
+    "fa": "یعنی می‌تونی بخوای حذفش کنن. ولی سرویس عالی بود، پس می‌پردازیمش. و انعام اضافه نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "including",
+      "ninety",
+      "six",
+      "ok"
+     ],
+     "suggestion": "OK. So ninety-six, including service.",
+     "suggestionFa": "باشه. پس نود و شش، با سرویس.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "without",
+      "people",
+      "charge",
+      "much"
+     ],
+     "suggestion": "And without a service charge, how much do people tip?",
+     "suggestionFa": "و بدون هزینهٔ خدمات، مردم چقدر انعام میدن؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "remove",
+     "fa": "حذف کردن"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافی"
+    },
+    {
+     "word": "including",
+     "fa": "شامل"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK restaurants add a 10–12.5% service charge. It's optional. If it isn't on the bill, people often leave about 10% as a tip.",
+    "fa": "بسیاری از رستوران‌ها ۱۰ تا ۱۲.۵٪ هزینهٔ خدمات اضافه می‌کنند که اختیاری است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Right. Al says: Dave pays thirty, you pay fifteen, Al and I pay the rest. That comes to twenty-five-fifty each for us.",
+   "translations": {
+    "fa": "خب. اَل میگه: دیو سی تا میده، تو پونزده تا، من و اَل بقیه‌اش را. برای ما نفری بیست و پنج و پنجاه میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteen",
+      "twenty",
+      "little",
+      "pay"
+     ],
+     "suggestion": "Fifteen is too little. Let me pay twenty.",
+     "suggestionFa": "پونزده خیلی کمه. بذار بیست بدم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "fair",
+      "tom"
+     ],
+     "suggestion": "That's very fair. Thank you, Tom.",
+     "suggestionFa": "خیلی منصفانه‌ست. ممنون تام.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the rest",
+     "fa": "بقیه"
+    },
+    {
+     "word": "comes to",
+     "fa": "می‌شود ؛ جمعاً"
+    },
+    {
+     "word": "each",
+     "fa": "هر نفر"
+    },
+    {
+     "word": "too little",
+     "fa": "خیلی کم"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Twenty? Stubborn man. Fine. Can we pay on four cards? They say yes. Waiter's bringing the machine.",
+   "translations": {
+    "fa": "بیست؟ مرد لجباز. باشه. میشه با چهار تا کارت پرداخت کنیم؟ میگن آره. گارسون داره دستگاه را میاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "twenty",
+      "card"
+     ],
+     "suggestion": "Twenty on this card, please.",
+     "suggestionFa": "بیست با این کارت، لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "can",
+      "pay",
+      "by"
+     ],
+     "suggestion": "Can I pay by phone?",
+     "suggestionFa": "می‌تونم با گوشی پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stubborn",
+     "fa": "لجباز"
+    },
+    {
+     "word": "cards",
+     "fa": "کارت‌ها"
+    },
+    {
+     "word": "waiter",
+     "fa": "گارسون"
+    },
+    {
+     "word": "machine",
+     "fa": "دستگاه کارت‌خوان"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Done. And Big Dave's paying… cash. Of course. With coins. He's counting. This could take a while.",
+   "translations": {
+    "fa": "تموم شد. و دیو بزرگه داره… نقد میده. معلومه. با سکه. داره می‌شمره. ممکنه یه کم طول بکشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coins",
+      "many",
+      "has",
+      "how"
+     ],
+     "suggestion": "Ha! How many coins has he got?",
+     "suggestionFa": "ها! چند تا سکه داره؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "while",
+      "coats",
+      "let's",
+      "wait"
+     ],
+     "suggestion": "Let's get our coats while we wait.",
+     "suggestionFa": "تا صبر می‌کنیم کاپشن‌هامون را برداریم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coins",
+     "fa": "سکه‌ها"
+    },
+    {
+     "word": "counting",
+     "fa": "شمردن"
+    },
+    {
+     "word": "a while",
+     "fa": "مدتی"
+    },
+    {
+     "word": "coats",
+     "fa": "کاپشن‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Thirty pounds in two-pence coins, probably. Classic Dave. Same time next month? You choose the restaurant. Somewhere Persian!",
+   "translations": {
+    "fa": "احتمالاً سی پوند با سکه‌های دو پنسی. دیوِ همیشگی. ماه بعد همین موقع؟ تو رستوران را انتخاب کن. یه جای ایرانی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

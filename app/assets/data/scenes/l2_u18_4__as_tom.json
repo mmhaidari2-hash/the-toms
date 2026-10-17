@@ -24,8 +24,8 @@
       "alright",
       "called",
       "hello",
-      "break",
-      "times"
+      "times",
+      "break"
      ],
      "suggestion": "Hello? It's Tom. I'm on my break. You called me three times — are you alright?",
      "suggestionFa": "الو؟ تامم. تو استراحتمم. سه بار زنگ زدی — حالت خوبه؟",
@@ -50,7 +50,7 @@
       "happens",
       "screen",
       "which",
-      "worry"
+      "don't"
      ],
      "suggestion": "Don't worry, it happens to everyone. Which bus are you on, and what does the screen say?",
      "suggestionFa": "نگران نباش، واسه همه پیش میاد. سوار کدوم اتوبوسی، و صفحه چی نشون میده؟",
@@ -74,8 +74,8 @@
       "right",
       "panic",
       "don't",
-      "went",
-      "west"
+      "stop",
+      "next"
      ],
      "suggestion": "Ha! You went right into the West End. OK — get off at the next stop. Don't panic.",
      "suggestionFa": "ها! رفتی وسط وست‌اند. باشه — ایستگاه بعدی پیاده شو. هول نکن.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "buzzes",
+      "before",
       "phone",
       "right",
       "stop"
@@ -125,7 +125,7 @@
       "other",
       "cross",
       "going",
-      "look"
+      "find"
      ],
      "suggestion": "Cross the road and find the stop for the same bus going the other way. Look for the letter on the sign.",
      "suggestionFa": "از خیابون رد شو و ایستگاه همون اتوبوس در جهت مخالف را پیدا کن. دنبال حرف روی تابلو بگرد.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "perfect",
-      "hopper",
       "within",
-      "fare",
+      "hopper",
+      "stop",
       "same"
      ],
      "suggestion": "Stop S, perfect. And no, with the Hopper fare it's free within an hour. Use the same card!",
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "service",
-      "saving",
+      "persian",
       "travel",
+      "saving",
       "seven"
      ],
      "suggestion": "Saving you? All part of the service. Tom's Travel Help — open seven days a week. Fees: one Persian tea.",

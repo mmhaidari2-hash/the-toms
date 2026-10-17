@@ -24,8 +24,8 @@
       "british",
       "taking",
       "london",
-      "train",
-      "right"
+      "right",
+      "train"
      ],
      "suggestion": "Right, I'm taking you to London for the day! Have you ever been on a British train?",
      "suggestionFa": "خب، امروز می‌برمت لندن! تا حالا سوار قطار بریتانیا شدی؟",
@@ -50,7 +50,7 @@
       "cheapest",
       "britain",
       "tickets",
-      "knows"
+      "let's"
      ],
      "suggestion": "It can be the most expensive thing in Britain! Let's ask Maya. She knows the cheapest tickets.",
      "suggestionFa": "می‌تونه گرون‌ترین چیز بریتانیا باشه! بیا از مایا بپرسیم. ارزون‌ترین بلیت‌ها را می‌شناسه.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -310,7 +310,7 @@
       "train's",
       "she's",
       "come",
-      "best",
+      "mind",
       "told"
      ],
      "suggestion": "Told you she's the best! Come on, the train's in. Mind the gap!",

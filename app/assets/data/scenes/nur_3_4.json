@@ -22,7 +22,7 @@
       "that's",
       "great",
       "work",
-      "tip"
+      "why"
      ],
      "suggestion": "That's a great tip. Why does it work?",
      "suggestionFa": "نکتهٔ خیلی خوبیه. چرا جواب میده؟",
@@ -129,8 +129,8 @@
      "keywords": [
       "didn't",
       "going",
-      "give",
-      "kept"
+      "kept",
+      "give"
      ],
      "suggestion": "You kept going and didn't give up!",
      "suggestionFa": "ادامه دادی و تسلیم نشدی!",
@@ -179,8 +179,8 @@
      "keywords": [
       "without",
       "tidied",
-      "being",
-      "asked"
+      "asked",
+      "being"
      ],
      "suggestion": "Oscar, you tidied up without being asked!",
      "suggestionFa": "اسکار، بدون اینکه کسی بگه جمع کردی!",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "colour",
       "course",
+      "colour",
       "which",
       "want"
      ],
@@ -276,5 +276,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

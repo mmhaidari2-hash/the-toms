@@ -1,0 +1,225 @@
+{
+ "id": "l2_u54_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Birdwatching",
+ "titleFa": "(در نقش Leslie) تماشای پرنده‌ها",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u54_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birdwatch",
+      "nicola's",
+      "weekend",
+      "garden",
+      "count"
+     ],
+     "suggestion": "Shh! Sit still. It's the Big Garden Birdwatch this weekend. We count the birds we see in one hour. Nicola's got the chart.",
+     "suggestionFa": "هیس! تکون نخور. این آخر هفته شمارش بزرگ پرنده‌های باغ‌هاست. پرنده‌هایی که تو یه ساعت می‌بینیم را می‌شمریم. نیکولا جدول را داره.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "One hour of counting birds? Fun!",
+   "translations": {
+    "fa": "یه ساعت شمردن پرنده؟ جالبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "january",
+      "charity",
+      "counts",
+      "nature"
+     ],
+     "suggestion": "A nature charity counts the UK's birds every January. Everyone helps. Look over there — on the fence! Small, brown, red chest.",
+     "suggestionFa": "یه خیریهٔ طبیعت هر ژانویه پرنده‌های بریتانیا را می‌شمره. همه کمک می‌کنن. اونجا را ببین — رو نرده! کوچیک، قهوه‌ای، سینهٔ قرمز.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I think it's a robin!",
+   "translations": {
+    "fa": "فکر کنم سینه‌سرخه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "britain's",
+      "favourite",
+      "black",
+      "robin"
+     ],
+     "suggestion": "A robin! Britain's favourite bird. He's on our Christmas cards. One robin — tick. Now, up in the tree. Black and white, long tail.",
+     "suggestionFa": "سینه‌سرخ! پرندهٔ محبوب بریتانیا. رو کارت‌های کریسمس ماست. یه سینه‌سرخ — تیک. حالا، بالای درخت. سیاه و سفید، دم بلند.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "It's very noisy! What is it?",
+   "translations": {
+    "fa": "خیلی سروصدا می‌کنه! چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "magpies",
+      "nicola",
+      "sorrow",
+      "rhyme"
+     ],
+     "suggestion": "Magpies! Two magpies. There's a rhyme: \"One for sorrow, two for joy.\" Two is good luck. Nicola, write \"two magpies\".",
+     "suggestionFa": "کلاغ زاغی! دو تا زاغی. یه شعر هست: «یکی برای غم، دو تا برای شادی.» دو تا یعنی خوش‌شانسی. نیکولا، بنویس «دو تا زاغی».",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "One for sorrow, two for joy. I like that.",
+   "translations": {
+    "fa": "یکی برای غم، دو تا برای شادی. دوستش دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everybody",
+      "morning",
+      "magpie",
+      "feeder",
+      "silly"
+     ],
+     "suggestion": "If you see one, you say \"Good morning, Mr Magpie!\" Then it's not bad luck. Silly, but everybody does it. Ooh — look at the feeder!",
+     "suggestionFa": "اگه یکی دیدی، میگی «صبح بخیر آقای زاغی!» اون‌وقت بدشانسی نیست. احمقانه‌ست، ولی همه این کار را می‌کنن. اوه — ظرف دونه را ببین!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Tiny blue and yellow birds!",
+   "translations": {
+    "fa": "پرنده‌های کوچولوی آبی و زرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counting",
+      "nicola's",
+      "sparrows",
+      "fingers",
+      "three"
+     ],
+     "suggestion": "Blue tits! Three of them. And yes, two sparrows. How many have we seen? Nicola's counting on her fingers.",
+     "suggestionFa": "چرخ‌ریسک آبی! سه تا. و آره، دو تا گنجشک. چند تا دیدیم؟ نیکولا داره رو انگشتاش می‌شمره.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "One robin, two magpies, three blue tits, two sparrows. Eight!",
+   "translations": {
+    "fa": "یه سینه‌سرخ، دو تا زاغی، سه تا چرخ‌ریسک، دو تا گنجشک. هشت تا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "brilliant",
+      "minutes",
+      "landed",
+      "twenty"
+     ],
+     "suggestion": "Eight! Brilliant. Oh — a pigeon just landed. Nine. Twenty minutes left. Who wants hot chocolate from the flask?",
+     "suggestionFa": "هشت تا! عالی. اوه — یه کبوتر همین الان نشست. نه تا. بیست دقیقه مونده. کی شکلات داغ از فلاسک می‌خواد؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Me, please! Birdwatching is cold!",
+   "translations": {
+    "fa": "من لطفاً! تماشای پرنده سرده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "special",
+      "tonight",
+      "that's",
+      "we'll",
+      "today"
+     ],
+     "suggestion": "A heron! Grey and very tall, like an old man in a coat. That's our special one today. We'll send our list tonight!",
+     "suggestionFa": "حواصیل! خاکستری و خیلی بلند، مثل یه پیرمرد با پالتو. اون ویژهٔ امروزمونه. امشب فهرستمون را می‌فرستیم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

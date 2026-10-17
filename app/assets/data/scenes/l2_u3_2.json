@@ -144,8 +144,8 @@
     {
      "keywords": [
       "surname",
-      "spell",
       "shall",
+      "spell",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "morning",
-      "friday",
       "please",
+      "friday",
       "could"
      ],
      "suggestion": "Could I have Friday morning, please?",
@@ -233,7 +233,7 @@
       "double",
       "seven",
       "nine",
-      "two"
+      "one"
      ],
      "suggestion": "It's oh-seven-seven-double-oh, nine-one-two…",
      "suggestionFa": "صفر-هفت-هفت-دو صفر، نه-یک-دو…",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "instead",
-      "could",
-      "email"
+      "email",
+      "could"
      ],
      "suggestion": "Could you email me instead?",
      "suggestionFa": "می‌شه به جاش ایمیل بزنید؟",

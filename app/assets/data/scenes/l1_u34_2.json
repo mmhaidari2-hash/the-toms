@@ -104,10 +104,10 @@
    "branches": [
     {
      "keywords": [
-      "behind",
       "church",
-      "park",
-      "know"
+      "behind",
+      "know",
+      "park"
      ],
      "suggestion": "I know it! Behind the church is the park.",
      "suggestionFa": "بلدمش! پشت کلیسا پارکه.",
@@ -220,8 +220,8 @@
     {
      "keywords": [
       "don't",
-      "tell",
       "know",
+      "tell",
       "can"
      ],
      "suggestion": "I don't know. Can you tell me?",
@@ -265,10 +265,10 @@
     },
     {
      "keywords": [
-      "when",
       "know",
-      "how",
-      "off"
+      "when",
+      "off",
+      "how"
      ],
      "suggestion": "How do I know when to get off?",
      "suggestionFa": "از کجا بفهمم کی پیاده شم؟",

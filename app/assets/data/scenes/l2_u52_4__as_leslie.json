@@ -1,0 +1,411 @@
+{
+ "id": "l2_u52_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Checking out",
+ "titleFa": "(در نقش Leslie) تسویه و خروج",
+ "setting": "Hotel and B&B · Level 2",
+ "settingFa": "هتل و پانسیون",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u52_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sophie's",
+      "packing",
+      "morning",
+      "check",
+      "tom's"
+     ],
+     "suggestion": "Last morning! Sad. Can you help me check out? Tom's packing the car — badly. Sophie's at the desk.",
+     "suggestionFa": "آخرین صبح! غمگینه. کمکم می‌کنی تسویه کنیم؟ تام داره ماشین را می‌چینه — بد. سوفی پشت میزه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Good morning, Sophie. We'd like to check out.",
+   "translations": {
+    "fa": "حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "sophie",
+   "text": "Morning! Check-out is at eleven, so no rush. Here's your bill. Three nights, two rooms. One dinner — free, of course.",
+   "translations": {
+    "fa": "صبح بخیر! تسویه ساعت یازده‌ست، پس عجله‌ای نیست. اینم صورت‌حسابتون. سه شب، دو اتاق. یه شام — البته مجانی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quick",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thank you. Leslie, can you check the bill?",
+   "translations": {
+    "fa": "ممنون. لزلی، میشه صورت‌حساب را چک کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "minibar",
+      "ninety",
+      "pounds",
+      "what's"
+     ],
+     "suggestion": "Let me look… Three hundred and ninety pounds. Ah — what's this? \"Minibar, eight pounds\"? We didn't use the minibar.",
+     "suggestionFa": "ببینم… سیصد و نود پوند. آه — این چیه؟ «مینی‌بار، هشت پوند»؟ ما از مینی‌بار استفاده نکردیم.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Could you check the minibar charge, please?",
+   "translations": {
+    "fa": "میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "little",
+      "course",
+      "fridge",
+      "from"
+     ],
+     "suggestion": "Ryan! Of course. Ryan, did you eat anything from the little fridge?",
+     "suggestionFa": "رایان! معلومه. رایان، از یخچال کوچیکه چیزی خوردی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ryan, come here a minute.",
+   "translations": {
+    "fa": "رایان، یه لحظه بیا اینجا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "ryan",
+   "text": "Two Toblerones and a Coke. I thought they were free! Sorry, Mum. I'll pay you back.",
+   "translations": {
+    "fa": "دو تا تابلرون و یه کوکا. فکر کردم مجانیه! ببخشید مامان. پولش را بهت پس میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little fridge",
+     "fa": "یخچال کوچک"
+    },
+    {
+     "word": "thought",
+     "fa": "فکر کرد"
+    },
+    {
+     "word": "pay back",
+     "fa": "پس دادن پول"
+    },
+    {
+     "word": "expensive",
+     "fa": "گران"
+    }
+   ],
+   "cultureNote": {
+    "en": "In hotels, minibar drinks and snacks are usually charged to the room and added to the bill at check-out.",
+    "fa": "در هتل‌ها خوراکی‌های مینی‌بار معمولاً به حساب اتاق اضافه می‌شوند."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Nothing in a minibar is free, Ryan!",
+   "translations": {
+    "fa": "هیچ‌چیز تو مینی‌بار مجانی نیست رایان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "correct",
+      "learned",
+      "lesson",
+      "bill's",
+      "leave"
+     ],
+     "suggestion": "Lesson learned. OK, the bill's correct. Can I pay by card? And can we leave our bags here? We want one last walk on the pier.",
+     "suggestionFa": "درس گرفتیم. باشه، صورت‌حساب درسته. می‌تونم با کارت بدم؟ و می‌تونیم کیف‌هامون را اینجا بذاریم؟ می‌خوایم یه پیاده‌روی آخر رو اسکله داشته باشیم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Can I help carry the bags to the desk?",
+   "translations": {
+    "fa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "sophie",
+   "text": "Card's fine — tap here. And yes, leave the bags behind the desk till two. Enjoy the pier! Watch out for the seagulls.",
+   "translations": {
+    "fa": "کارت اشکالی نداره — اینجا بزنید. و آره، کیف‌ها را تا ساعت دو پشت میز بذارید. از اسکله لذت ببرید! مواظب مرغ‌های دریایی باشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lesson learned",
+     "fa": "درس گرفتیم"
+    },
+    {
+     "word": "correct",
+     "fa": "درست"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن (کارت)"
+    },
+    {
+     "word": "pier",
+     "fa": "اسکله"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "The seagulls! I know about them.",
+   "translations": {
+    "fa": "مرغ‌های دریایی! درباره‌شون می‌دونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "breakfast",
+      "auntie's",
+      "lovely",
+      "review"
+     ],
+     "suggestion": "Sophie, it was lovely. Your auntie's breakfast — wow. We'll definitely come back. Can I leave a review?",
+     "suggestionFa": "سوفی، عالی بود. صبحانهٔ خاله‌ات — وای. حتماً برمی‌گردیم. می‌تونم یه نظر بنویسم؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Yes, let's write a review tonight.",
+   "translations": {
+    "fa": "آره، بیا امشب یه نظر بنویسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "sophie",
+   "text": "Yes please! It really helps small places like ours. And I'll see you all at the Copper Kettle next weekend. Usual table!",
+   "translations": {
+    "fa": "لطفاً بله! واقعاً به جاهای کوچیک مثل ما کمک می‌کنه. و آخر هفتهٔ بعد همه‌تون را تو کاپر کتل می‌بینم. میز همیشگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "definitely",
+     "fa": "حتماً"
+    },
+    {
+     "word": "review",
+     "fa": "نظر ؛ نقد"
+    },
+    {
+     "word": "small places",
+     "fa": "جاهای کوچک"
+    },
+    {
+     "word": "usual",
+     "fa": "همیشگی"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Five stars! Thank you for everything.",
+   "translations": {
+    "fa": "پنج ستاره! ممنون بابت همه‌چی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "special",
+      "mention",
+      "dinner",
+      "sophie",
+      "drive"
+     ],
+     "suggestion": "Five stars, and a special mention for the free dinner. Right — pier, chips, then the long drive home. Bye, Sophie!",
+     "suggestionFa": "پنج ستاره، و یه اشارهٔ ویژه به شام مجانی. خب — اسکله، چیپس، بعد رانندگی طولانی تا خونه. خداحافظ سوفی!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

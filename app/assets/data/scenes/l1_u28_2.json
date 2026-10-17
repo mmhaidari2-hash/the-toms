@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "ask",
-      "let"
+      "let",
+      "ask"
      ],
      "suggestion": "He's three. Let me ask his mum.",
      "suggestionFa": "سه سالشه. بذار از مامانش بپرسم.",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "tuesday",
-      "thirty",
       "leslie",
+      "thirty",
       "ten"
      ],
      "suggestion": "Tuesday at ten thirty. Is that OK, Leslie?",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "please",
       "repeat",
+      "please",
       "time",
       "can"
      ],

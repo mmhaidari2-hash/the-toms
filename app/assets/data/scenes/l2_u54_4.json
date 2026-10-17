@@ -1,0 +1,420 @@
+{
+ "id": "l2_u54_4",
+ "characterId": "leslie",
+ "title": "Picking blackberries",
+ "titleFa": "چیدن تمشک وحشی",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "September — blackberry season! The bushes by the marshes are covered. Free fruit! Grab a tub. We're making crumble tonight.",
+   "translations": {
+    "fa": "سپتامبر — فصل تمشک وحشی! بوته‌های کنار مرداب پرن. میوهٔ مجانی! یه ظرف بردار. امشب کرامبل درست می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anyone",
+      "fruit",
+      "them",
+      "free"
+     ],
+     "suggestion": "Free fruit? Can anyone pick them?",
+     "suggestionFa": "میوهٔ مجانی؟ هر کسی می‌تونه بچینه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crumble",
+      "another",
+      "please"
+     ],
+     "suggestion": "Another crumble! Yes please.",
+     "suggestionFa": "یه کرامبل دیگه! لطفاً بله.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blackberry",
+     "fa": "تمشک وحشی"
+    },
+    {
+     "word": "season",
+     "fa": "فصل"
+    },
+    {
+     "word": "bushes",
+     "fa": "بوته‌ها"
+    },
+    {
+     "word": "covered",
+     "fa": "پوشیده"
+    },
+    {
+     "word": "tub",
+     "fa": "ظرف پلاستیکی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Foraging\" means picking wild food. Blackberries grow everywhere in Britain in late summer. Picking a few for yourself in public places is normal.",
+    "fa": "«Foraging» یعنی چیدن غذای وحشی؛ تمشک وحشی اواخر تابستان همه‌جای بریتانیا می‌روید."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Yes — in parks and on paths, for yourself. Just not in someone's garden! Look, these are ripe. Black and shiny.",
+   "translations": {
+    "fa": "آره — تو پارک‌ها و کنار مسیرها، برای خودت. فقط نه تو باغ کسی! ببین، این‌ها رسیده‌ان. سیاه و براق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "red"
+     ],
+     "suggestion": "And the red ones?",
+     "suggestionFa": "و قرمزها؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "these",
+      "they",
+      "ripe",
+      "soft"
+     ],
+     "suggestion": "These ones are soft. Are they ripe?",
+     "suggestionFa": "این‌ها نرمن. رسیده‌ان؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paths",
+     "fa": "مسیرها"
+    },
+    {
+     "word": "ripe",
+     "fa": "رسیده"
+    },
+    {
+     "word": "shiny",
+     "fa": "براق"
+    },
+    {
+     "word": "soft",
+     "fa": "نرم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Red ones aren't ripe yet — they're sour. Only pick the black ones. If it falls into your hand, it's ready. Ow!",
+   "translations": {
+    "fa": "قرمزها هنوز نرسیدن — ترشن. فقط سیاه‌ها را بچین. اگه خودش افتاد تو دستت، آماده‌ست. آخ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "ok"
+     ],
+     "suggestion": "Are you OK? What happened?",
+     "suggestionFa": "خوبی؟ چی شد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "spiky",
+      "bush"
+     ],
+     "suggestion": "Careful! The bush is very spiky.",
+     "suggestionFa": "مواظب باش! بوته خیلی خارداره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sour",
+     "fa": "ترش"
+    },
+    {
+     "word": "only",
+     "fa": "فقط"
+    },
+    {
+     "word": "falls into",
+     "fa": "می‌افتد در"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "spiky",
+     "fa": "خاردار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "only pick black ones",
+      "pick only the black"
+     ],
+     "echo": "Only pick the black ones? Yes!",
+     "better": "Only pick the black ones.",
+     "betterFa": "فقط سیاه‌ها را بچین."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Thorns! Mind the thorns. They get you every time. And don't pick the low ones, near the path. Dogs!",
+   "translations": {
+    "fa": "خار! مواظب خارها باش. هر بار گیرت میندازن. و پایینی‌ها را، نزدیک مسیر، نچین. سگ‌ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understood",
+      "dogs",
+      "low",
+      "oh"
+     ],
+     "suggestion": "Dogs? Oh! The low ones. Understood.",
+     "suggestionFa": "سگ‌ها؟ اوه! پایینی‌ها. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tall",
+      "pick",
+      "high",
+      "i'll"
+     ],
+     "suggestion": "I'll pick the high ones. I'm tall.",
+     "suggestionFa": "من بالایی‌ها را می‌چینم. قدم بلنده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thorns",
+     "fa": "خارها"
+    },
+    {
+     "word": "mind",
+     "fa": "مواظب باش"
+    },
+    {
+     "word": "low",
+     "fa": "پایین"
+    },
+    {
+     "word": "high",
+     "fa": "بالا"
+    },
+    {
+     "word": "tall",
+     "fa": "قدبلند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Perfect. Tall man, high berries. Have you eaten one yet? Go on — taste it.",
+   "translations": {
+    "fa": "عالی. مرد قدبلند، تمشک‌های بالا. هنوز یکی نخوردی؟ یالا — بچشش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "little",
+      "sweet",
+      "sour"
+     ],
+     "suggestion": "Mmm! Sweet and a little sour. Delicious!",
+     "suggestionFa": "مممم! شیرین و یه کم ترش. خوشمزه‌ست!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fingers",
+      "purple",
+      "now"
+     ],
+     "suggestion": "My fingers are purple now!",
+     "suggestionFa": "الان انگشتام بنفش شده!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "berries",
+     "fa": "توت‌ها ؛ تمشک‌ها"
+    },
+    {
+     "word": "taste",
+     "fa": "چشیدن"
+    },
+    {
+     "word": "sweet",
+     "fa": "شیرین"
+    },
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Purple fingers and purple lips — the sign of a good forager. Does Iran have blackberries?",
+   "translations": {
+    "fa": "انگشت بنفش و لب بنفش — نشونهٔ یه جمع‌کنندهٔ خوب. ایران تمشک داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "caspian",
+      "north",
+      "near",
+      "sea"
+     ],
+     "suggestion": "Yes! In the north, near the Caspian Sea.",
+     "suggestionFa": "آره! تو شمال، نزدیک دریای خزر.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mulberries",
+      "white",
+      "black",
+      "ones"
+     ],
+     "suggestion": "We have mulberries. White and black ones.",
+     "suggestionFa": "ما توت داریم. سفید و سیاه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lips",
+     "fa": "لب‌ها"
+    },
+    {
+     "word": "sign",
+     "fa": "نشانه"
+    },
+    {
+     "word": "forager",
+     "fa": "جمع‌کنندهٔ غذای وحشی"
+    },
+    {
+     "word": "mulberries",
+     "fa": "توت‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Mulberries! There's a very old mulberry tree in Hackney churchyard. Right — the tubs are full. That's enough for two crumbles.",
+   "translations": {
+    "fa": "توت! تو حیاط کلیسای هکنی یه درخت توت خیلی قدیمی هست. خب — ظرف‌ها پر شد. برای دو تا کرامبل کافیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crumbles",
+      "george",
+      "nana",
+      "one"
+     ],
+     "suggestion": "Two crumbles! One for Nana and George?",
+     "suggestionFa": "دو تا کرامبل! یکی برای نانا و جورج؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "freeze",
+      "winter",
+      "let's",
+      "some"
+     ],
+     "suggestion": "Let's freeze some for winter.",
+     "suggestionFa": "بیا یه کم برای زمستون فریز کنیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "churchyard",
+     "fa": "حیاط کلیسا"
+    },
+    {
+     "word": "full",
+     "fa": "پر"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    },
+    {
+     "word": "freeze",
+     "fa": "فریز کردن ؛ منجمد کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Both good ideas. A taste of September in January! Now wash your hands before Nicola sees. She'll think you've been painting!",
+   "translations": {
+    "fa": "هر دو فکر خوبیه. مزهٔ سپتامبر تو ژانویه! حالا دستات را بشور قبل از اینکه نیکولا ببینه. فکر می‌کنه نقاشی کردی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

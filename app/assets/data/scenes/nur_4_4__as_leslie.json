@@ -7,13 +7,14 @@
  "settingFa": "صحبت با والدین",
  "requires": null,
  "level": "A2",
+ "guest": "sara",
  "baseId": "nur_4_4",
  "playAs": "leslie",
  "start": "r1",
  "nodes": {
   "r1": {
    "id": "r1",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Hi, Leslie!",
    "translations": {
     "fa": "سلام Leslie!"
@@ -21,8 +22,8 @@
    "branches": [
     {
      "keywords": [
-      "william's",
       "lunchtime",
+      "william's",
       "morning",
       "calpol",
       "cough"
@@ -38,7 +39,7 @@
   },
   "r2": {
    "id": "r2",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Morning! You have to fill in a medicine form first.",
    "translations": {
     "fa": "صبح بخیر! اول باید فرم دارو را پر کنید."
@@ -50,7 +51,7 @@
       "morning",
       "course",
       "know",
-      "form"
+      "need"
      ],
      "suggestion": "No temperature this morning. Oh, a form — of course. What do you need to know?",
      "suggestionFa": "امروز صبح تب نداشت. آهان، فرم — البته. چی باید بدونید؟",
@@ -63,7 +64,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "The medicine, the dose and the time.",
    "translations": {
     "fa": "اسم دارو، مقدار و ساعت."
@@ -73,8 +74,8 @@
      "keywords": [
       "morning",
       "bottle",
-      "twelve",
       "here's",
+      "twelve",
       "seven"
      ],
      "suggestion": "5 ml at twelve. He had some at seven this morning. Here's the bottle — it's got his name on.",
@@ -88,7 +89,7 @@
   },
   "r4": {
    "id": "r4",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Thanks. Please sign here.",
    "translations": {
     "fa": "ممنون. لطفاً اینجا امضا کنید."
@@ -96,8 +97,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -149,7 +150,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "48 hours after the last time?",
    "translations": {
     "fa": "۴۸ ساعت بعد از آخرین بار؟"
@@ -204,7 +205,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "We'll call you if he gets worse.",
    "translations": {
     "fa": "اگه بدتر شد بهتون زنگ می‌زنیم."
@@ -216,7 +217,7 @@
       "auntie",
       "number",
       "thank",
-      "same"
+      "both"
      ],
      "suggestion": "Same number. Thank you both. Bye, William — be good for Auntie Vida!",
      "suggestionFa": "همون شماره. ممنون از هر دوتون. خداحافظ ویلیام — برای خاله ویدا پسر خوبی باش!",
@@ -229,7 +230,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "mehdi",
+   "speaker": "sara",
    "text": "Thanks, Leslie! See you later.",
    "translations": {
     "fa": "ممنون Leslie! بعداً می‌بینمت."

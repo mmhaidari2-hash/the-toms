@@ -76,7 +76,7 @@
       "didn't",
       "refund",
       "know",
-      "get"
+      "can"
      ],
      "suggestion": "I didn't know that. Can I get a refund?",
      "suggestionFa": "نمی‌دونستم. می‌تونم پولم را پس بگیرم؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "after",
-      "peak",
+      "half",
       "nine",
-      "half"
+      "peak"
      ],
      "suggestion": "So after half nine, I buy off-peak?",
      "suggestionFa": "پس بعد از نه و نیم، بلیت ساعات خلوت بخرم؟",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "think",
       "don't",
+      "think",
       "much",
       "cost"
      ],
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "railcard",
-      "which",
       "third",
+      "which",
       "off"
      ],
      "suggestion": "A third off? Which railcard can I get?",
@@ -362,8 +362,8 @@
     {
      "keywords": [
       "railcard",
-      "leslie",
       "family",
+      "leslie",
       "about"
      ],
      "suggestion": "I'll tell Leslie about the Family Railcard.",

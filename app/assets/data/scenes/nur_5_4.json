@@ -85,8 +85,8 @@
     {
      "keywords": [
       "toilet",
-      "home",
-      "call"
+      "call",
+      "home"
      ],
      "suggestion": "What does she call the toilet at home?",
      "suggestionFa": "تو خونه به دستشویی چی می‌گه؟",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "hello",
-      "toys",
       "show",
+      "toys",
       "can"
      ],
      "suggestion": "Hello, Mia! Can you show Ada the toys?",
@@ -134,9 +134,9 @@
     {
      "keywords": [
       "lovely",
-      "home",
+      "feel",
       "will",
-      "feel"
+      "home"
      ],
      "suggestion": "How lovely, Mia! Ada will feel at home with you.",
      "suggestionFa": "چه قشنگ میا! آدا با تو احساس راحتی می‌کنه.",
@@ -167,9 +167,9 @@
     {
      "keywords": [
       "normal",
+      "don't",
       "first",
-      "worry",
-      "don't"
+      "worry"
      ],
      "suggestion": "Don't worry, it's normal for her to cry at first.",
      "suggestionFa": "نگران نباشید، طبیعیه که اولش گریه کنه.",
@@ -181,8 +181,8 @@
      "keywords": [
       "settled",
       "she's",
-      "photo",
-      "we'll"
+      "we'll",
+      "photo"
      ],
      "suggestion": "We'll send you a photo when she's settled.",
      "suggestionFa": "وقتی آروم شد یه عکس براتون می‌فرستیم.",
@@ -227,5 +227,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "waiting",
       "there's",
+      "waiting",
       "hello",
       "amina",
-      "look"
+      "room"
      ],
      "suggestion": "Look, there's Mrs Khan in the waiting room. Hello, Amina! Are you OK?",
      "suggestionFa": "ببین، خانم خان تو اتاق انتظاره. سلام آمینا! خوبی؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -165,8 +165,8 @@
       "shopping",
       "anything",
       "walking",
-      "don't",
-      "tiger"
+      "tiger",
+      "don't"
      ],
      "suggestion": "Can we do anything? Shopping? Walking Tiger? Ha, cats don't need walking.",
      "suggestionFa": "کاری از دستمون برمیاد؟ خرید؟ گردوندن تایگر؟ ها، گربه‌ها که گردوندن نمی‌خوان.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -295,8 +295,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -349,10 +349,10 @@
     {
      "keywords": [
       "tonight",
-      "she'll",
       "nicola",
-      "amina",
-      "let's"
+      "she'll",
+      "let's",
+      "amina"
      ],
      "suggestion": "Poor Amina. Let's make her a get-well card with Nicola tonight. She'll love that!",
      "suggestionFa": "آمینای بیچاره. بیا امشب با نیکولا براش یه کارت آرزوی بهبودی درست کنیم. عاشقش میشه!",

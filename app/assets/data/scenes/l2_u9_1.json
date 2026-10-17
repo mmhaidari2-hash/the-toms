@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "stop",
       "next",
+      "stop",
       "here"
      ],
      "suggestion": "Here you are. Is York the next stop?",
@@ -121,8 +121,8 @@
      "keywords": [
       "relaxing",
       "sounds",
-      "city",
-      "than"
+      "than",
+      "city"
      ],
      "suggestion": "It sounds more relaxing than a big city.",
      "suggestionFa": "از یه شهر بزرگ آرامش‌بخش‌تر به نظر میاد.",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "should",
-      "visit",
-      "there"
+      "there",
+      "visit"
      ],
      "suggestion": "What should I visit there?",
      "suggestionFa": "اونجا کجا را ببینم؟",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "love",
+      "one",
       "i'd",
-      "day",
-      "one"
+      "day"
      ],
      "suggestion": "I'd love to go one day.",
      "suggestionFa": "دوست دارم یه روز برم.",

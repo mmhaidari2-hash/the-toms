@@ -79,7 +79,7 @@
      "keywords": [
       "slowly",
       "though",
-      "great",
+      "start",
       "speak"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
@@ -133,8 +133,8 @@
      "keywords": [
       "works",
       "show",
-      "nice",
-      "them"
+      "them",
+      "nice"
      ],
      "suggestion": "Nice. Can you show them how it works?",
      "suggestionFa": "خوبه. می‌تونی نشونشون بدی چطور کار می‌کنه؟",
@@ -147,7 +147,7 @@
       "charge",
       "number",
       "maybe",
-      "give"
+      "take"
      ],
      "suggestion": "Maybe give a number — how long does it take to charge?",
      "suggestionFa": "شاید یه عدد بدی — شارژ کردن چقدر طول می‌کشه؟",
@@ -190,9 +190,9 @@
     {
      "keywords": [
       "judges",
-      "joke",
+      "love",
       "will",
-      "love"
+      "joke"
      ],
      "suggestion": "Ha! The judges will love that joke.",
      "suggestionFa": "ها! داورها عاشق این شوخی میشن.",
@@ -246,7 +246,7 @@
       "brilliant",
       "about",
       "they",
-      "cost"
+      "will"
      ],
      "suggestion": "Brilliant! What will you say if they ask about the cost?",
      "suggestionFa": "عالی! اگه دربارهٔ هزینه بپرسن چی می‌گی؟",
@@ -256,10 +256,10 @@
     },
     {
      "keywords": [
-      "really",
       "you'll",
+      "really",
       "great",
-      "ryan"
+      "good"
      ],
      "suggestion": "That was really good, Ryan. You'll be great.",
      "suggestionFa": "خیلی خوب بود رایان. عالی میشی.",

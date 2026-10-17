@@ -1,0 +1,414 @@
+{
+ "id": "l2_u54_2",
+ "characterId": "leslie",
+ "title": "Birdwatching",
+ "titleFa": "تماشای پرنده‌ها",
+ "setting": "Garden and nature · Level 2",
+ "settingFa": "باغ و طبیعت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Shh! Sit still. It's the Big Garden Birdwatch this weekend. We count the birds we see in one hour. Nicola's got the chart.",
+   "translations": {
+    "fa": "هیس! تکون نخور. این آخر هفته شمارش بزرگ پرنده‌های باغ‌هاست. پرنده‌هایی که تو یه ساعت می‌بینیم را می‌شمریم. نیکولا جدول را داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counting",
+      "birds",
+      "hour",
+      "one"
+     ],
+     "suggestion": "One hour of counting birds? Fun!",
+     "suggestionFa": "یه ساعت شمردن پرنده؟ جالبه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "birdwatch",
+      "what's",
+      "garden",
+      "big"
+     ],
+     "suggestion": "What's the Big Garden Birdwatch?",
+     "suggestionFa": "شمارش بزرگ پرنده‌ها چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sit still",
+     "fa": "بی‌حرکت بنشین"
+    },
+    {
+     "word": "birdwatch",
+     "fa": "تماشای پرندگان"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "chart",
+     "fa": "جدول"
+    }
+   ],
+   "cultureNote": {
+    "en": "The RSPB's Big Garden Birdwatch happens every January. Hundreds of thousands of people count birds for one hour and send the results online.",
+    "fa": "شمارش بزرگ پرندگان RSPB هر ژانویه برگزار می‌شود و مردم یک ساعت پرنده‌ها را می‌شمارند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "A nature charity counts the UK's birds every January. Everyone helps. Look over there — on the fence! Small, brown, red chest.",
+   "translations": {
+    "fa": "یه خیریهٔ طبیعت هر ژانویه پرنده‌های بریتانیا را می‌شمره. همه کمک می‌کنن. اونجا را ببین — رو نرده! کوچیک، قهوه‌ای، سینهٔ قرمز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "robin",
+      "think"
+     ],
+     "suggestion": "I think it's a robin!",
+     "suggestionFa": "فکر کنم سینه‌سرخه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chest",
+      "red",
+      "got"
+     ],
+     "suggestion": "It's got a red chest. What is it?",
+     "suggestionFa": "سینه‌اش قرمزه. چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "charity",
+     "fa": "خیریه"
+    },
+    {
+     "word": "fence",
+     "fa": "نرده"
+    },
+    {
+     "word": "chest",
+     "fa": "سینه"
+    },
+    {
+     "word": "robin",
+     "fa": "سینه‌سرخ"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i think it is robin",
+      "i think is a robin"
+     ],
+     "echo": "You think it's a robin? Correct!",
+     "better": "I think it's a robin.",
+     "betterFa": "فکر کنم سینه‌سرخ است."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "A robin! Britain's favourite bird. He's on our Christmas cards. One robin — tick. Now, up in the tree. Black and white, long tail.",
+   "translations": {
+    "fa": "سینه‌سرخ! پرندهٔ محبوب بریتانیا. رو کارت‌های کریسمس ماست. یه سینه‌سرخ — تیک. حالا، بالای درخت. سیاه و سفید، دم بلند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "noisy"
+     ],
+     "suggestion": "It's very noisy! What is it?",
+     "suggestionFa": "خیلی سروصدا می‌کنه! چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "them",
+      "can",
+      "see",
+      "two"
+     ],
+     "suggestion": "I can see two of them.",
+     "suggestionFa": "دو تا ازشون می‌بینم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "favourite",
+     "fa": "محبوب"
+    },
+    {
+     "word": "tick",
+     "fa": "تیک زدن"
+    },
+    {
+     "word": "tail",
+     "fa": "دم"
+    },
+    {
+     "word": "noisy",
+     "fa": "پر سروصدا"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Magpies! Two magpies. There's a rhyme: \"One for sorrow, two for joy.\" Two is good luck. Nicola, write \"two magpies\".",
+   "translations": {
+    "fa": "کلاغ زاغی! دو تا زاغی. یه شعر هست: «یکی برای غم، دو تا برای شادی.» دو تا یعنی خوش‌شانسی. نیکولا، بنویس «دو تا زاغی»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorrow",
+      "like",
+      "joy",
+      "two"
+     ],
+     "suggestion": "One for sorrow, two for joy. I like that.",
+     "suggestionFa": "یکی برای غم، دو تا برای شادی. دوستش دارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "magpie",
+      "see",
+      "if"
+     ],
+     "suggestion": "And if you see one magpie?",
+     "suggestionFa": "و اگه یه زاغی ببینی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "magpies",
+     "fa": "زاغی‌ها"
+    },
+    {
+     "word": "rhyme",
+     "fa": "شعر ؛ قافیه"
+    },
+    {
+     "word": "sorrow",
+     "fa": "غم"
+    },
+    {
+     "word": "joy",
+     "fa": "شادی"
+    },
+    {
+     "word": "good luck",
+     "fa": "خوش‌شانسی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British people salute a single magpie or say \"Good morning, Mr Magpie\" to avoid bad luck. It's a fun superstition.",
+    "fa": "خیلی از بریتانیایی‌ها به زاغی تنها سلام می‌کنند تا بدشانسی نیاید؛ یک خرافهٔ بامزه."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "If you see one, you say \"Good morning, Mr Magpie!\" Then it's not bad luck. Silly, but everybody does it. Ooh — look at the feeder!",
+   "translations": {
+    "fa": "اگه یکی دیدی، میگی «صبح بخیر آقای زاغی!» اون‌وقت بدشانسی نیست. احمقانه‌ست، ولی همه این کار را می‌کنن. اوه — ظرف دونه را ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yellow",
+      "birds",
+      "tiny",
+      "blue"
+     ],
+     "suggestion": "Tiny blue and yellow birds!",
+     "suggestionFa": "پرنده‌های کوچولوی آبی و زرد!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sparrow",
+      "brown"
+     ],
+     "suggestion": "Is that a sparrow? It's brown.",
+     "suggestionFa": "اون گنجشکه؟ قهوه‌ایه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "silly",
+     "fa": "احمقانه ؛ بامزه"
+    },
+    {
+     "word": "feeder",
+     "fa": "ظرف دانهٔ پرنده"
+    },
+    {
+     "word": "tiny",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "sparrow",
+     "fa": "گنجشک"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Blue tits! Three of them. And yes, two sparrows. How many have we seen? Nicola's counting on her fingers.",
+   "translations": {
+    "fa": "چرخ‌ریسک آبی! سه تا. و آره، دو تا گنجشک. چند تا دیدیم؟ نیکولا داره رو انگشتاش می‌شمره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sparrows",
+      "magpies",
+      "robin",
+      "three"
+     ],
+     "suggestion": "One robin, two magpies, three blue tits, two sparrows. Eight!",
+     "suggestionFa": "یه سینه‌سرخ، دو تا زاغی، سه تا چرخ‌ریسک، دو تا گنجشک. هشت تا!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pigeons",
+      "tehran",
+      "birds",
+      "lots"
+     ],
+     "suggestion": "Eight birds. In Tehran we have lots of pigeons.",
+     "suggestionFa": "هشت تا پرنده. تو تهران کلی کبوتر داریم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blue tits",
+     "fa": "چرخ‌ریسک آبی"
+    },
+    {
+     "word": "counting",
+     "fa": "شمردن"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشت‌ها"
+    },
+    {
+     "word": "pigeons",
+     "fa": "کبوترها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Eight! Brilliant. Oh — a pigeon just landed. Nine. Twenty minutes left. Who wants hot chocolate from the flask?",
+   "translations": {
+    "fa": "هشت تا! عالی. اوه — یه کبوتر همین الان نشست. نه تا. بیست دقیقه مونده. کی شکلات داغ از فلاسک می‌خواد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birdwatching",
+      "please",
+      "cold"
+     ],
+     "suggestion": "Me, please! Birdwatching is cold!",
+     "suggestionFa": "من لطفاً! تماشای پرنده سرده!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bird",
+      "look",
+      "pond",
+      "big"
+     ],
+     "suggestion": "Shh! Look — a big bird by the pond!",
+     "suggestionFa": "هیس! ببین — یه پرندهٔ بزرگ کنار برکه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "landed",
+     "fa": "نشست ؛ فرود آمد"
+    },
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    },
+    {
+     "word": "flask",
+     "fa": "فلاسک"
+    },
+    {
+     "word": "pond",
+     "fa": "برکه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "A heron! Grey and very tall, like an old man in a coat. That's our special one today. We'll send our list tonight!",
+   "translations": {
+    "fa": "حواصیل! خاکستری و خیلی بلند، مثل یه پیرمرد با پالتو. اون ویژهٔ امروزمونه. امشب فهرستمون را می‌فرستیم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

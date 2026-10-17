@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "quite",
       "shall",
+      "quite",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "like",
-      "he's"
+      "he's",
+      "like"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "dinner",
       "pushed",
+      "dinner",
       "much",
       "away"
      ],
@@ -183,9 +183,9 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "here's",
       "calpol",
+      "course",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -303,10 +303,10 @@
     },
     {
      "keywords": [
-      "should",
       "jumper",
+      "should",
       "take",
-      "his"
+      "off"
      ],
      "suggestion": "Should I take his jumper off?",
      "suggestionFa": "ژاکتش را دربیارم؟",
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "lullaby",
       "persian",
+      "lullaby",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

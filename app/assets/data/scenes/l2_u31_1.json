@@ -86,8 +86,8 @@
      "keywords": [
       "waiting",
       "there",
-      "list",
-      "here"
+      "here",
+      "list"
      ],
      "suggestion": "Is there a waiting list here too?",
      "suggestionFa": "اینجا هم فهرست انتظار هست؟",
@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "medical",
       "history",
+      "medical",
       "what's"
      ],
      "suggestion": "What's medical history?",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "surgery",
-      "okafor",
       "street",
+      "okafor",
       "mare"
      ],
      "suggestion": "My GP is Dr Okafor, at Mare Street Surgery.",
@@ -196,8 +196,8 @@
      "keywords": [
       "thought",
       "free",
-      "nhs",
-      "was"
+      "was",
+      "nhs"
      ],
      "suggestion": "Not free? I thought the NHS was free.",
      "suggestionFa": "رایگان نیست؟ فکر می‌کردم NHS رایگانه.",
@@ -246,8 +246,8 @@
    "branches": [
     {
      "keywords": [
-      "cheaper",
       "private",
+      "cheaper",
       "that's",
       "isn't"
      ],
@@ -300,8 +300,8 @@
      "keywords": [
       "william",
       "nicola",
-      "good",
-      "then"
+      "then",
+      "good"
      ],
      "suggestion": "Good. Nicola and William can come too, then.",
      "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",

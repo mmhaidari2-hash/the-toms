@@ -120,8 +120,8 @@
     {
      "keywords": [
       "online",
-      "books",
       "renew",
+      "books",
       "desk"
      ],
      "suggestion": "Yes, you can renew books online, or at the desk.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "bennett",
+      "he's",
       "kind",
-      "help",
-      "he's"
+      "help"
      ],
      "suggestion": "Mr Bennett can help you. He's very kind.",
      "suggestionFa": "آقای بنت می‌تونه کمکت کنه. خیلی مهربونه.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "first",
-      "open",
       "sure",
+      "open",
       "app"
      ],
      "suggestion": "Sure. First, open the library app.",
@@ -240,8 +240,8 @@
     },
     {
      "keywords": [
-      "worry",
       "don't",
+      "worry",
       "i'll"
      ],
      "suggestion": "Don't worry. I'll type the number for you.",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "press",
-      "renew"
+      "renew",
+      "press"
      ],
      "suggestion": "Yes. Press \"renew all\".",
      "suggestionFa": "آره. «تمدید همه» را بزن.",
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
+      "book",
       "them",
-      "just",
-      "book"
+      "just"
      ],
      "suggestion": "Just this book, or all of them?",
      "suggestionFa": "فقط این کتاب، یا همه‌شون؟",

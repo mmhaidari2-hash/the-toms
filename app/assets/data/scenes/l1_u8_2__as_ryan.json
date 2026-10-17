@@ -24,8 +24,8 @@
       "football",
       "player",
       "come",
-      "play",
-      "need"
+      "need",
+      "more"
      ],
      "suggestion": "Can you play football? Come on, we need one more player.",
      "suggestionFa": "فوتبال بلدی؟ بیا، یه بازیکن دیگه لازم داریم.",
@@ -50,7 +50,7 @@
       "keeper",
       "nice",
       "goal",
-      "can"
+      "our"
      ],
      "suggestion": "Nice. Can you go in goal? Our keeper is rubbish.",
      "suggestionFa": "عالی. می‌تونی دروازه‌بان باشی؟ دروازه‌بانمون افتضاحه.",
@@ -99,8 +99,8 @@
       "languages",
       "other",
       "farsi",
-      "speak",
-      "right"
+      "right",
+      "speak"
      ],
      "suggestion": "Can you speak other languages? You speak Farsi, right?",
      "suggestionFa": "زبان‌های دیگه بلدی؟ فارسی بلدی، نه؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "bonjour",
       "english",
-      "french",
       "that's",
+      "french",
       "speak"
      ],
      "suggestion": "That's sick! I can only speak English. And a bit of French. \"Bonjour!\"",
@@ -148,9 +148,9 @@
      "keywords": [
       "really",
       "score",
-      "means",
       "great",
-      "deal"
+      "means",
+      "nice"
      ],
      "suggestion": "Deal! \"Sick\" means great, \"peng\" means really nice. Now, can you score?",
      "suggestionFa": "قبول! «sick» یعنی عالی، «peng» یعنی خیلی خوب. حالا گل می‌تونی بزنی؟",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "definitely",
-      "play",
-      "same",
       "next",
+      "same",
+      "play",
       "week"
      ],
      "suggestion": "Get in! What a goal! You can definitely play. Same time next week?",

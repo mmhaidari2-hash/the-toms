@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "same",
       "time",
+      "same",
       "last"
      ],
      "suggestion": "Yes, please, same as last time.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "actually",
-      "longer",
       "rather",
+      "longer",
       "keep"
      ],
      "suggestion": "Actually, I'd rather keep it a bit longer on top.",
@@ -129,9 +129,9 @@
     {
      "keywords": [
       "another",
-      "that's",
+      "really",
       "sunday",
-      "really"
+      "that's"
      ],
      "suggestion": "That's really kind, but I'm busy on Sunday. Maybe another time?",
      "suggestionFa": "خیلی لطف داری، ولی یکشنبه گرفتارم. شاید یه وقت دیگه؟",
@@ -176,10 +176,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "rather",
-      "glass",
-      "water"
+      "that's",
+      "water",
+      "glass"
      ],
      "suggestion": "I'd rather have a glass of water, if that's OK.",
      "suggestionFa": "ترجیح می‌دم یه لیوان آب، اگه اشکالی نداره.",

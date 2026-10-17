@@ -74,8 +74,8 @@
      "keywords": [
       "helps",
       "raise",
-      "hand",
-      "left"
+      "left",
+      "hand"
      ],
      "suggestion": "Raise my left hand. OK. That helps.",
      "suggestionFa": "دست چپم را بالا ببرم. باشه. کمک می‌کنه.",
@@ -193,10 +193,10 @@
    "branches": [
     {
      "keywords": [
-      "feels",
       "can't",
-      "numb",
-      "feel"
+      "feels",
+      "feel",
+      "numb"
      ],
      "suggestion": "No, I can't feel it. It feels numb.",
      "suggestionFa": "نه، حسش نمی‌کنم. بی‌حسه.",
@@ -206,8 +206,8 @@
     },
     {
      "keywords": [
-      "longer",
       "should",
+      "longer",
       "wait",
       "bit"
      ],
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "high",
       "side",
+      "high",
       "bit"
      ],
      "suggestion": "It feels a bit high on this side.",
@@ -369,8 +369,8 @@
      "keywords": [
       "british",
       "that's",
-      "home",
-      "hard"
+      "hard",
+      "home"
      ],
      "suggestion": "No hot tea? That's hard for a British home!",
      "suggestionFa": "چای داغ نه؟ برای یه خونهٔ بریتانیایی سخته!",

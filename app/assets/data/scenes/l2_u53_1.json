@@ -1,0 +1,355 @@
+{
+ "id": "l2_u53_1",
+ "characterId": "tom",
+ "title": "Card or cash?",
+ "titleFa": "کارت یا نقد؟",
+ "setting": "Paying for things · Level 2",
+ "settingFa": "پرداخت کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Quick stop at the cashpoint. The window cleaner comes today, and he only takes cash. Twenty quid. Old school.",
+   "translations": {
+    "fa": "یه توقف سریع کنار خودپرداز. پنجره‌پاک‌کن امروز میاد، و فقط نقد می‌گیره. بیست پوند. قدیمی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anyone",
+      "only",
+      "use",
+      "now"
+     ],
+     "suggestion": "Cash only? Does anyone use cash now?",
+     "suggestionFa": "فقط نقد؟ الان کسی نقد استفاده می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "market",
+      "need",
+      "some"
+     ],
+     "suggestion": "I need some cash too. For the market.",
+     "suggestionFa": "منم یه کم پول نقد لازم دارم. برای بازار.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cashpoint",
+     "fa": "خودپرداز"
+    },
+    {
+     "word": "window cleaner",
+     "fa": "پنجره‌پاک‌کن"
+    },
+    {
+     "word": "cash",
+     "fa": "پول نقد"
+    },
+    {
+     "word": "old school",
+     "fa": "قدیمی ؛ سنتی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Not many. Most shops take cards — tap and go. But some are still \"cash only\": the window cleaner, market stalls, Nana's bingo.",
+   "translations": {
+    "fa": "نه خیلی‌ها. بیشتر مغازه‌ها کارت قبول می‌کنن — بزن و برو. ولی بعضی‌ها هنوز «فقط نقد»ان: پنجره‌پاک‌کن، غرفه‌های بازار، بینگوی نانا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nana's",
+      "bingo",
+      "only",
+      "ha"
+     ],
+     "suggestion": "Nana's bingo is cash only? Ha!",
+     "suggestionFa": "بینگوی نانا فقط نقده؟ ها!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "little",
+      "should",
+      "carry"
+     ],
+     "suggestion": "So I should always carry a little cash.",
+     "suggestionFa": "پس همیشه باید یه کم پول نقد همراهم باشه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap and go",
+     "fa": "بزن و برو (پرداخت بدون تماس)"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "stalls",
+     "fa": "غرفه‌ها"
+    },
+    {
+     "word": "bingo",
+     "fa": "بینگو"
+    }
+   ],
+   "cultureNote": {
+    "en": "The UK is mostly cashless, but small businesses, markets and charity events may be cash only. Free cashpoints say \"Free cash withdrawals\".",
+    "fa": "بریتانیا بیشتر بدون پول نقد است، ولی کسب‌وکارهای کوچک و بازارها ممکن است فقط نقد بگیرند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Exactly. Twenty or thirty quid in your wallet. Just in case. Ah — this cashpoint charges one ninety-nine! No way.",
+   "translations": {
+    "fa": "دقیقاً. بیست سی پوند تو کیف پولت. محض احتیاط. آه — این خودپرداز یک و نود و نه کارمزد می‌گیره! عمراً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cashpoint",
+      "charges",
+      "nearby",
+      "there"
+     ],
+     "suggestion": "It charges money? Is there a free cashpoint nearby?",
+     "suggestionFa": "پول می‌گیره؟ این نزدیکی خودپرداز رایگان هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ninety",
+      "nine",
+      "just",
+      "cash"
+     ],
+     "suggestion": "One ninety-nine just to get cash?",
+     "suggestionFa": "یک و نود و نه فقط برای گرفتن پول؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wallet",
+     "fa": "کیف پول"
+    },
+    {
+     "word": "just in case",
+     "fa": "محض احتیاط"
+    },
+    {
+     "word": "charges",
+     "fa": "کارمزد می‌گیرد"
+    },
+    {
+     "word": "nearby",
+     "fa": "این نزدیکی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is free cashpoint near",
+      "is here a free cashpoint"
+     ],
+     "echo": "Is there a free cashpoint nearby? Yes, the bank!",
+     "better": "Is there a free cashpoint nearby?",
+     "betterFa": "این نزدیکی خودپرداز رایگان هست؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "The one outside the bank is free. Always use a bank one. These ones in shops — robbery! Come on, two minutes' walk.",
+   "translations": {
+    "fa": "اونی که بیرون بانکه رایگانه. همیشه از مال بانک استفاده کن. این‌هایی که تو مغازه‌ان — دزدیه! بیا، دو دقیقه پیاده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coffee",
+      "there",
+      "let's",
+      "then"
+     ],
+     "suggestion": "OK. Then let's get a coffee. Can I pay by card there?",
+     "suggestionFa": "باشه. بعد بریم قهوه بگیریم. اونجا می‌تونم با کارت بدم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cashpoints",
+      "good",
+      "free",
+      "bank"
+     ],
+     "suggestion": "Good tip. Bank cashpoints are free.",
+     "suggestionFa": "نکتهٔ خوبیه. خودپردازهای بانک رایگانن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "outside",
+     "fa": "بیرون"
+    },
+    {
+     "word": "robbery",
+     "fa": "دزدی"
+    },
+    {
+     "word": "tip",
+     "fa": "نکته"
+    },
+    {
+     "word": "pay by card",
+     "fa": "با کارت پرداختن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Callum's? Card, phone, watch, anything. He'd take payment by carrier pigeon if he could. Right, here's the bank cashpoint.",
+   "translations": {
+    "fa": "کالوم؟ کارت، گوشی، ساعت، هر چی. اگه می‌تونست با کبوتر نامه‌بر هم پول می‌گرفت. خب، اینم خودپرداز بانک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "taking",
+      "time",
+      "need",
+      "long"
+     ],
+     "suggestion": "Do you need help? You're taking a long time!",
+     "suggestionFa": "کمک لازم داری؟ خیلی طولش دادی!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "keypad",
+      "cover",
+      "type",
+      "when"
+     ],
+     "suggestion": "Cover the keypad when you type your PIN.",
+     "suggestionFa": "وقتی رمزت را می‌زنی صفحه‌کلید را بپوشون.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "payment",
+     "fa": "پرداخت"
+    },
+    {
+     "word": "carrier pigeon",
+     "fa": "کبوتر نامه‌بر"
+    },
+    {
+     "word": "keypad",
+     "fa": "صفحه‌کلید"
+    },
+    {
+     "word": "PIN",
+     "fa": "رمز کارت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Good man. Always cover the PIN. I forgot mine for a second! Got it. Forty pounds: twenty for the cleaner, twenty for emergencies.",
+   "translations": {
+    "fa": "آفرین. همیشه رمز را بپوشون. یه لحظه رمزم یادم رفت! یادم اومد. چهل پوند: بیست تا برای پنجره‌پاک‌کن، بیست تا برای مواقع اضطراری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "emergencies",
+      "kind"
+     ],
+     "suggestion": "What kind of emergencies?",
+     "suggestionFa": "چه جور مواقع اضطراری؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thirty",
+      "market",
+      "take",
+      "i'll"
+     ],
+     "suggestion": "I'll take thirty for the market.",
+     "suggestionFa": "من سی تا برای بازار می‌گیرم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forgot",
+     "fa": "فراموش کردم"
+    },
+    {
+     "word": "panic",
+     "fa": "هول کردن ؛ وحشت"
+    },
+    {
+     "word": "emergencies",
+     "fa": "مواقع اضطراری"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Emergencies like the ice cream van. It's cash only, and William can hear it from two miles away. Best emergency fund there is.",
+   "translations": {
+    "fa": "موارد اضطراری مثل ون بستنی. فقط نقده، و ویلیام از دو مایل دورتر صداش را می‌شنوه. بهترین صندوق اضطراری."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

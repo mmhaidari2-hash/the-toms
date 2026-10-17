@@ -1,0 +1,416 @@
+{
+ "id": "l2_u48_2",
+ "characterId": "tom",
+ "title": "Drinking less coffee",
+ "titleFa": "کمتر قهوه خوردن",
+ "setting": "Health habits · Level 2",
+ "settingFa": "عادت‌های سلامتی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Don't talk to me. I'm on day three of no coffee. Day THREE. My head hurts and I want to bite someone.",
+   "translations": {
+    "fa": "باهام حرف نزن. روز سومه که قهوه نمی‌خورم. روز سوم. سرم درد می‌کنه و دلم می‌خواد یکی را گاز بگیرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drinking",
+      "coffee",
+      "stop",
+      "why"
+     ],
+     "suggestion": "Why did you stop drinking coffee?",
+     "suggestionFa": "چرا قهوه را کنار گذاشتی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "water",
+      "three",
+      "poor",
+      "want"
+     ],
+     "suggestion": "Day three! Poor Tom. Do you want water?",
+     "suggestionFa": "روز سوم! تام بیچاره. آب می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "day three",
+     "fa": "روز سوم"
+    },
+    {
+     "word": "head hurts",
+     "fa": "سرم درد می‌کند"
+    },
+    {
+     "word": "bite",
+     "fa": "گاز گرفتن"
+    },
+    {
+     "word": "stop",
+     "fa": "دست کشیدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Doctor Okafor. My blood pressure's a bit high. She said, \"Cut down on coffee, Tom.\" I used to have six a day. Six!",
+   "translations": {
+    "fa": "دکتر اوکافور. فشار خونم یه کم بالاست. گفت «قهوه را کم کن تام.» قبلاً روزی شش تا می‌خوردم. شش تا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "lot",
+      "six",
+      "day"
+     ],
+     "suggestion": "Six a day? That's a lot!",
+     "suggestionFa": "روزی شش تا؟ خیلیه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "completely",
+      "stop",
+      "did",
+      "say"
+     ],
+     "suggestion": "Did she say stop completely?",
+     "suggestionFa": "گفت کاملاً قطع کنی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blood pressure",
+     "fa": "فشار خون"
+    },
+    {
+     "word": "high",
+     "fa": "بالا"
+    },
+    {
+     "word": "cut down on",
+     "fa": "کم کردن"
+    },
+    {
+     "word": "used to",
+     "fa": "قبلاً … (عادت داشتم)"
+    },
+    {
+     "word": "completely",
+     "fa": "کاملاً"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Used to\" describes past habits that are finished: \"I used to drink six coffees.\" \"Cut down on\" means \"have less of\".",
+    "fa": "«used to» برای عادت‌های گذشته است؛ «cut down on» یعنی کمتر کردن."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i use to have six",
+      "i was used to have six"
+     ],
+     "echo": "You used to have six? Wow!",
+     "better": "I used to have six coffees a day.",
+     "betterFa": "قبلاً روزی شش قهوه می‌خوردم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "No — two a day is fine. But I thought: why not stop completely? Big mistake. I'm a zombie.",
+   "translations": {
+    "fa": "نه — روزی دو تا اشکالی نداره. ولی فکر کردم: چرا کاملاً قطع نکنم؟ اشتباه بزرگ. زامبی شدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slowly",
+      "doctor",
+      "maybe",
+      "like"
+     ],
+     "suggestion": "Maybe go slowly. Two a day, like the doctor said.",
+     "suggestionFa": "شاید آروم پیش برو. روزی دو تا، همونی که دکتر گفت.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tastes",
+      "decaf",
+      "same",
+      "try"
+     ],
+     "suggestion": "Try decaf. It tastes the same.",
+     "suggestionFa": "کافئین‌زدایی‌شده امتحان کن. همون طعم را داره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mistake",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "zombie",
+     "fa": "زامبی ؛ مرده متحرک"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام ؛ کم‌کم"
+    },
+    {
+     "word": "decaf",
+     "fa": "قهوهٔ بدون کافئین"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Decaf? Leslie says that too. \"Decaf after lunch, Tom.\" It's hard to change a habit of twenty years. The early shifts need coffee!",
+   "translations": {
+    "fa": "بدون کافئین؟ لزلی هم همینو میگه. «بعد از ناهار بدون کافئین، تام.» عوض کردن یه عادت بیست ساله سخته. شیفت‌های صبح زود قهوه می‌خوان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understand",
+      "trying",
+      "drink",
+      "less"
+     ],
+     "suggestion": "I understand. I'm trying to drink less tea.",
+     "suggestionFa": "درک می‌کنم. منم دارم سعی می‌کنم کمتر چای بخورم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "enough",
+      "that's",
+      "lunch"
+     ],
+     "suggestion": "One in the morning, one at lunch. That's enough.",
+     "suggestionFa": "یکی صبح، یکی ناهار. کافیه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "habit",
+     "fa": "عادت"
+    },
+    {
+     "word": "change",
+     "fa": "تغییر دادن"
+    },
+    {
+     "word": "early shifts",
+     "fa": "شیفت‌های صبح زود"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "You too? Tea's a Persian habit, eh? How many cups?",
+   "translations": {
+    "fa": "تو هم؟ چای عادت ایرانیه، نه؟ چند فنجون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drink",
+      "five",
+      "used",
+      "now"
+     ],
+     "suggestion": "I used to drink ten a day. Now five.",
+     "suggestionFa": "قبلاً روزی ده تا می‌خوردم. الان پنج تا.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mum's",
+      "many",
+      "best",
+      "tea"
+     ],
+     "suggestion": "Too many! My mum's tea is the best.",
+     "suggestionFa": "خیلی زیاد! چای مامانم بهترینه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cups",
+     "fa": "فنجان‌ها"
+    },
+    {
+     "word": "too many",
+     "fa": "خیلی زیاد"
+    },
+    {
+     "word": "now",
+     "fa": "الان"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Ten! You're worse than me! OK. Let's do it together. I'll cut down to two coffees, you cut down to four teas.",
+   "translations": {
+    "fa": "ده تا! از من بدتری! باشه. بیا با هم انجامش بدیم. من کم می‌کنم به دو تا قهوه، تو کم کن به چهار تا چای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "other",
+      "check",
+      "each",
+      "deal"
+     ],
+     "suggestion": "Deal. We can check on each other.",
+     "suggestionFa": "قبول. می‌تونیم حواسمون به هم باشه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "four",
+      "hard",
+      "but"
+     ],
+     "suggestion": "Four? That's hard. But OK!",
+     "suggestionFa": "چهار تا؟ سخته. ولی باشه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worse",
+     "fa": "بدتر"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "cut down to",
+     "fa": "کم کردن به"
+    },
+    {
+     "word": "check on",
+     "fa": "سر زدن ؛ حواس جمع کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "And no sneaky ones. Jade says drink water when you want coffee. A big glass. It helps the headache too.",
+   "translations": {
+    "fa": "و یواشکی هم نه. جید میگه هر وقت قهوه خواستی آب بخور. یه لیوان بزرگ. به سردرد هم کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheers",
+      "glass",
+      "here",
+      "big"
+     ],
+     "suggestion": "Here — a big glass of water. Cheers!",
+     "suggestionFa": "بفرما — یه لیوان بزرگ آب. به سلامتی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "coffee",
+      "i'll",
+      "try"
+     ],
+     "suggestion": "Water instead of coffee. I'll try.",
+     "suggestionFa": "آب به‌جای قهوه. سعی می‌کنم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sneaky",
+     "fa": "یواشکی"
+    },
+    {
+     "word": "headache",
+     "fa": "سردرد"
+    },
+    {
+     "word": "glass",
+     "fa": "لیوان"
+    },
+    {
+     "word": "instead of",
+     "fa": "به جای"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Cheers. Water. Mmm. Delicious. Says nobody ever. Right — see you on day four. If I survive.",
+   "translations": {
+    "fa": "به سلامتی. آب. مممم. خوشمزه. هیچ‌کس هیچ‌وقت اینو نگفته. خب — روز چهارم می‌بینمت. اگه زنده موندم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

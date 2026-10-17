@@ -33,9 +33,9 @@
     {
      "keywords": [
       "house",
-      "our",
       "one",
-      "red"
+      "red",
+      "our"
      ],
      "suggestion": "Is that our house? The red one?",
      "suggestionFa": "اون خونهٔ ماست؟ قرمزه؟",
@@ -81,8 +81,8 @@
     },
     {
      "keywords": [
-      "outside",
       "there's",
+      "outside",
       "tree",
       "big"
      ],
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "corner",
       "street",
+      "corner",
       "end"
      ],
      "suggestion": "The corner shop. It's at the end of the street.",
@@ -244,8 +244,8 @@
      "keywords": [
       "opposite",
       "course",
-      "stop",
-      "shop"
+      "shop",
+      "stop"
      ],
      "suggestion": "Opposite the shop. The bus stop. Of course!",
      "suggestionFa": "روبه‌روی مغازه. ایستگاه اتوبوس. البته!",
@@ -345,8 +345,8 @@
     {
      "keywords": [
       "nursery",
-      "ride",
-      "fast"
+      "fast",
+      "ride"
      ],
      "suggestion": "You're very fast! Do you ride it to nursery?",
      "suggestionFa": "خیلی سریعی! باهاش میری مهدکودک؟",
@@ -410,8 +410,8 @@
     },
     {
      "keywords": [
-      "kerb",
-      "show"
+      "show",
+      "kerb"
      ],
      "suggestion": "What is the kerb? Show me.",
      "suggestionFa": "جدول چیه؟ نشونم بده.",

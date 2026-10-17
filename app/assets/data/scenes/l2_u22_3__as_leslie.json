@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "checkout",
       "scanning",
+      "checkout",
       "quicker",
       "let's",
       "scan"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "barcode",
-      "apples",
       "weighs",
+      "apples",
       "press",
       "fruit"
      ],
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -136,11 +136,11 @@
    "branches": [
     {
      "keywords": [
+      "handbag",
       "stopped",
       "classic",
-      "handbag",
       "scales",
-      "move"
+      "oops"
      ],
      "suggestion": "Oops — it's my handbag! I've put it on the scales. Classic. I'll move it. Has it stopped?",
      "suggestionFa": "اوه — کیف دستی منه! گذاشتمش رو ترازو. کلاسیک. برش می‌دارم. ساکت شد؟",
@@ -163,9 +163,9 @@
      "keywords": [
       "flashing",
       "member",
-      "light",
+      "staff",
       "means",
-      "staff"
+      "light"
      ],
      "suggestion": "Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady?",
      "suggestionFa": "هوم، چراغ بالاش قرمز چشمک می‌زنه. یعنی یه کارمند لازم داریم. میشه برای اون خانم دست تکون بدی؟",
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -305,8 +305,8 @@
       "checkout",
       "telling",
       "machine",
-      "better",
-      "you've"
+      "you've",
+      "that's"
      ],
      "suggestion": "You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom.",
      "suggestionFa": "انجامش دادی! اولین صندوق سلف‌سرویست، فقط یه بار هم دستگاه دعوات کرد. از تام بهتری.",

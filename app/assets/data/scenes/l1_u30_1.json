@@ -127,8 +127,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "plates",
+      "that's",
       "six"
      ],
      "suggestion": "That's six plates.",
@@ -182,9 +182,9 @@
     },
     {
      "keywords": [
-      "cute",
       "duck",
-      "bowl"
+      "bowl",
+      "cute"
      ],
      "suggestion": "The duck bowl is very cute.",
      "suggestionFa": "کاسهٔ اردکی خیلی نازه.",
@@ -233,8 +233,8 @@
      "keywords": [
       "remember",
       "right",
-      "i'll",
-      "left"
+      "left",
+      "i'll"
      ],
      "suggestion": "Left and right. I'll remember.",
      "suggestionFa": "چپ و راست. یادم می‌مونه.",
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "beautiful",
       "triangles",
+      "beautiful",
       "they're"
      ],
      "suggestion": "They're beautiful triangles!",

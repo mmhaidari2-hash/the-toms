@@ -29,10 +29,10 @@
     },
     {
      "keywords": [
-      "sorry",
-      "check",
       "phone",
-      "let"
+      "check",
+      "sorry",
+      "new"
      ],
      "suggestion": "Sorry, I'm new here. Let me check my phone.",
      "suggestionFa": "ببخشید، من اینجا تازه‌واردم. بذارید با گوشیم ببینم.",
@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
+      "left",
       "turn",
       "stop",
-      "left",
       "bus"
      ],
      "suggestion": "Turn left at the bus stop.",

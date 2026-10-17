@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "photo",
       "scarf",
+      "photo",
       "book",
       "tea"
      ],
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "pounds",
-      "forty",
       "about",
+      "forty",
       "worth"
      ],
      "suggestion": "How much is it worth? About forty pounds.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "english",
       "persian",
+      "english",
       "write"
      ],
      "suggestion": "Do I write in English or Persian?",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "english",
       "letters",
+      "english",
       "i'll",
       "try"
      ],
@@ -303,9 +303,9 @@
     },
     {
      "keywords": [
+      "pounds",
       "twenty",
       "that's",
-      "pounds",
       "four"
      ],
      "suggestion": "Twenty-four pounds. That's OK.",

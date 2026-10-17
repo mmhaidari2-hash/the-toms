@@ -1,0 +1,484 @@
+{
+ "id": "l2_u55_4",
+ "characterId": "leslie",
+ "title": "Video calling home",
+ "titleFa": "تماس تصویری با خانه",
+ "setting": "Phone and internet · Level 2",
+ "settingFa": "تلفن و اینترنت",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "You're calling your mum? Can we say hello? I'd love to meet her! William's desperate to wave.",
+   "translations": {
+    "fa": "داری به مامانت زنگ می‌زنی؟ می‌تونیم سلام کنیم؟ خیلی دوست دارم ببینمش! ویلیام برای دست تکون دادن بی‌تابه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "wants",
+      "meet",
+      "she"
+     ],
+     "suggestion": "Of course! She wants to meet you too.",
+     "suggestionFa": "البته! اونم می‌خواد شما را ببینه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "midnight",
+      "nearly",
+      "tehran",
+      "but"
+     ],
+     "suggestion": "Yes! But it's nearly midnight in Tehran.",
+     "suggestionFa": "آره! ولی تو تهران تقریباً نصف‌شبه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "desperate",
+     "fa": "بی‌تاب ؛ مشتاق"
+    },
+    {
+     "word": "wave",
+     "fa": "دست تکان دادن"
+    },
+    {
+     "word": "midnight",
+     "fa": "نیمه‌شب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Midnight? Oh, poor thing — is she awake? Three and a half hours ahead. I always forget.",
+   "translations": {
+    "fa": "نصف‌شب؟ اوه، بیچاره — بیداره؟ سه ساعت و نیم جلوتره. همیشه یادم میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "she's",
+      "awake",
+      "waits"
+     ],
+     "suggestion": "She's awake. She always waits for my call.",
+     "suggestionFa": "بیداره. همیشه منتظر تماسمه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weekend",
+      "stays",
+      "late",
+      "ok"
+     ],
+     "suggestion": "It's OK. She stays up late at the weekend.",
+     "suggestionFa": "اشکالی نداره. آخر هفته‌ها دیر می‌خوابه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "poor thing",
+     "fa": "بیچاره"
+    },
+    {
+     "word": "awake",
+     "fa": "بیدار"
+    },
+    {
+     "word": "ahead",
+     "fa": "جلوتر"
+    },
+    {
+     "word": "stays up late",
+     "fa": "دیر بیدار می‌ماند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Bless her. OK, it's ringing… There she is! Hello! Oh, she's lovely! Can you hear me? Hello, Mrs…?",
+   "translations": {
+    "fa": "خدا حفظش کنه. باشه، داره زنگ می‌خوره… ایناهاش! سلام! اوه، چه نازه! صدام را می‌شنوید؟ سلام خانم…؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "parvin",
+      "mum"
+     ],
+     "suggestion": "Mum, this is Leslie. Leslie, this is my mum, Parvin.",
+     "suggestionFa": "مامان، این لزلیه. لزلی، این مامانمه، پروین.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hello",
+      "hear",
+      "says",
+      "she"
+     ],
+     "suggestion": "She says hello. She can hear you!",
+     "suggestionFa": "میگه سلام. صدات را می‌شنوه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bless her",
+     "fa": "خدا حفظش کند"
+    },
+    {
+     "word": "ringing",
+     "fa": "زنگ خوردن"
+    },
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    },
+    {
+     "word": "this is",
+     "fa": "این … است"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you introduce people in English, say \"This is…\", not \"He is…\" or \"She is…\".",
+    "fa": "برای معرفی افراد بگویید «This is…»."
+   },
+   "recasts": [
+    {
+     "match": [
+      "mum this is leslie she",
+      "mum she is leslie"
+     ],
+     "echo": "This is Leslie. Lovely to meet you!",
+     "better": "Mum, this is Leslie.",
+     "betterFa": "مامان، این لزلی است."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Hello, Parvin! Your son is wonderful. He's like family. Oh — she's frozen. The picture's stuck.",
+   "translations": {
+    "fa": "سلام پروین! پسرت فوق‌العاده‌ست. مثل خانواده‌ست. اوه — تصویرش ثابت مونده. تصویر گیر کرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "connection",
+      "breaking",
+      "bad",
+      "up"
+     ],
+     "suggestion": "The connection is bad. You're breaking up, Mum!",
+     "suggestionFa": "ارتباط بده. صدات قطع و وصل میشه مامان!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "call",
+      "wait",
+      "back",
+      "i'll"
+     ],
+     "suggestion": "Wait. I'll call you back, Mum.",
+     "suggestionFa": "صبر کن. دوباره بهت زنگ می‌زنم مامان.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wonderful",
+     "fa": "فوق‌العاده"
+    },
+    {
+     "word": "frozen",
+     "fa": "یخ‌زده ؛ ثابت مانده"
+    },
+    {
+     "word": "stuck",
+     "fa": "گیر کرده"
+    },
+    {
+     "word": "connection",
+     "fa": "ارتباط"
+    },
+    {
+     "word": "breaking up",
+     "fa": "قطع و وصل شدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to Mehdi's mummy!",
+   "translations": {
+    "fa": "دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ مهدی سلام کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "hello",
+      "come",
+      "here"
+     ],
+     "suggestion": "William, come here! Say hello!",
+     "suggestionFa": "ویلیام، بیا اینجا! سلام کن!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "little",
+      "one",
+      "mum"
+     ],
+     "suggestion": "Mum, here's the little one.",
+     "suggestionFa": "مامان، اینم کوچولوئه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Hello! I'm William! I'm THREE!",
+   "translations": {
+    "fa": "سلام! من ویلیامم! سه سالمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "he's",
+      "mum"
+     ],
+     "suggestion": "Mum, this is William. He's three.",
+     "suggestionFa": "مامان، این ویلیامه. سه سالشه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "salaam",
+      "means",
+      "hello",
+      "say"
+     ],
+     "suggestion": "William, say \"salaam\". It means hello.",
+     "suggestionFa": "ویلیام، بگو «سلام». یعنی هلو.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "audio only",
+     "fa": "فقط صدا"
+    },
+    {
+     "word": "back",
+     "fa": "برگشت"
+    },
+    {
+     "word": "mummy",
+     "fa": "مامانی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Sa-laam! Look, my bus! Big red bus!",
+   "translations": {
+    "fa": "سـ‌لام! ببین، اتوبوسم! اتوبوس قرمز بزرگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "laughing",
+      "she's",
+      "loves",
+      "bus"
+     ],
+     "suggestion": "She's laughing! She loves your bus.",
+     "suggestionFa": "داره می‌خنده! عاشق اتوبوسته.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "sweet",
+      "says",
+      "mum"
+     ],
+     "suggestion": "My mum says William is very sweet.",
+     "suggestionFa": "مامانم میگه ویلیام خیلی شیرینه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "salaam",
+     "fa": "سلام (فارسی)"
+    },
+    {
+     "word": "laughing",
+     "fa": "خندیدن"
+    },
+    {
+     "word": "sweet",
+     "fa": "شیرین ؛ بانمک"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ha! She's saying something. What did she say? Tell me!",
+   "translations": {
+    "fa": "ها! داره یه چیزی میگه. چی گفت؟ بهم بگو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looking",
+      "after",
+      "thank",
+      "says"
+     ],
+     "suggestion": "She says thank you for looking after me.",
+     "suggestionFa": "میگه ممنون که مراقب منید.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "inviting",
+      "tehran",
+      "she's",
+      "all"
+     ],
+     "suggestion": "She's inviting you all to Tehran!",
+     "suggestionFa": "داره همه‌تون را به تهران دعوت می‌کنه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "looking after",
+     "fa": "مراقبت کردن"
+    },
+    {
+     "word": "inviting",
+     "fa": "دعوت کردن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Oh, tell her it's our pleasure. And tell her we'd love to visit. One day! Goodnight, Parvin! Merci! Did I say that right?",
+   "translations": {
+    "fa": "اوه، بهش بگو باعث افتخار ماست. و بگو خیلی دوست داریم بیایم. یه روز! شب بخیر پروین! مرسی! درست گفتم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "perfect",
+      "merci"
+     ],
+     "suggestion": "Perfect! \"Merci\" is Persian too!",
+     "suggestionFa": "عالی! «مرسی» فارسی هم هست!",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "waving",
+      "she's",
+      "back"
+     ],
+     "suggestion": "She's waving. Wave back, William!",
+     "suggestionFa": "داره دست تکون میده. براش دست تکون بده ویلیام!",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pleasure",
+     "fa": "افتخار ؛ خوشحالی"
+    },
+    {
+     "word": "visit",
+     "fa": "دیدار کردن"
+    },
+    {
+     "word": "goodnight",
+     "fa": "شب بخیر"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "william",
+   "text": "Bye-bye! Night night! Sa-laam!",
+   "translations": {
+    "fa": "خداحافظ! شب بخیر! سـ‌لام!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

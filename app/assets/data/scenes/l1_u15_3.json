@@ -32,8 +32,8 @@
      "keywords": [
       "where",
       "last",
-      "see",
-      "did"
+      "did",
+      "see"
      ],
      "suggestion": "Where did you last see it?",
      "suggestionFa": "آخرین بار کجا دیدیش؟",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "crisp",
-      "see",
       "can",
+      "see",
       "pen"
      ],
      "suggestion": "I can see a pen and a crisp.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "there's",
-      "lots",
-      "dust"
+      "dust",
+      "lots"
      ],
      "suggestion": "There's lots of dust!",
      "suggestionFa": "کلی گرد و خاکه!",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "check",
+      "let's",
       "oh"
      ],
      "suggestion": "Oh no! Let's check!",
@@ -311,8 +311,8 @@
    "branches": [
     {
      "keywords": [
-      "done",
       "well",
+      "done",
       "ha"
      ],
      "suggestion": "Ha ha! Well done!",

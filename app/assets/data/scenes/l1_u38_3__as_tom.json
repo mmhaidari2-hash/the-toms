@@ -22,10 +22,10 @@
     {
      "keywords": [
       "presents",
-      "driver",
       "humble",
-      "only",
-      "cake"
+      "driver",
+      "cake",
+      "only"
      ],
      "suggestion": "Wow! Is this all for me? A cake? Presents? I'm only a humble bus driver!",
      "suggestionFa": "وای! همه‌ش برای منه؟ کیک؟ کادو؟ من فقط یه رانندهٔ اتوبوس ساده‌ام!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -154,11 +154,11 @@
    "branches": [
     {
      "keywords": [
-      "phwoooo",
       "because",
+      "phwoooo",
       "breath",
       "won't",
-      "come"
+      "then"
      ],
      "suggestion": "Because then it won't come true! OK… one big breath… Phwoooo!",
      "suggestionFa": "چون اون وقت برآورده نمیشه! باشه… یه نفس عمیق… پوووف!",
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "candle",
       "that's",
+      "candle",
       "trick",
       "comes",
       "back"
@@ -205,8 +205,8 @@
     {
      "keywords": [
       "favourite",
-      "driver's",
       "presents",
+      "driver's",
       "ghetti",
       "what's"
      ],
@@ -233,7 +233,7 @@
       "driver",
       "heard",
       "thank",
-      "i've"
+      "joke"
      ],
      "suggestion": "It's the best joke I've ever heard! And a mug. \"World's Best Bus Driver\"! Thank you, Ryan.",
      "suggestionFa": "بهترین جوکیه که تا حالا شنیدم! و یه ماگ. «بهترین راننده اتوبوس دنیا»! ممنون رایان.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "birthday",
-      "biggest",
       "cutting",
+      "biggest",
       "where's",
       "leslie"
      ],

@@ -21,8 +21,8 @@
      "keywords": [
       "where's",
       "please",
-      "shoe",
-      "shop"
+      "shop",
+      "shoe"
      ],
      "suggestion": "I am! Where's the shoe shop, please?",
      "suggestionFa": "هستم! مغازهٔ کفش کجاست، لطفاً؟",
@@ -132,8 +132,8 @@
      "keywords": [
       "escalator",
       "there",
-      "lift",
-      "then"
+      "then",
+      "lift"
      ],
      "suggestion": "Escalator, then left. Is there a lift too?",
      "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
@@ -195,8 +195,8 @@
      "keywords": [
       "school",
       "shoes",
-      "year",
-      "five"
+      "five",
+      "year"
      ],
      "suggestion": "Yes, school shoes for a five-year-old.",
      "suggestionFa": "آره، کفش مدرسه برای یه بچهٔ پنج ساله.",
@@ -311,10 +311,10 @@
     },
     {
      "keywords": [
+      "shoe",
       "good",
       "shop",
-      "busy",
-      "shoe"
+      "busy"
      ],
      "suggestion": "Good tip. Is the shoe shop busy now?",
      "suggestionFa": "نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "looks",
-      "just",
       "like",
-      "she"
+      "just",
+      "him"
      ],
      "suggestion": "Wow! Yes, she looks just like him.",
      "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "that's",
       "small",
-      "was",
-      "tom"
+      "tom",
+      "was"
      ],
      "suggestion": "That's Tom? He was so small!",
      "suggestionFa": "این تامه؟ چقدر کوچیک بود!",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "cute",
+      "like",
       "look",
-      "like"
+      "ears"
      ],
      "suggestion": "Her ears are cute! And who does Ryan look like?",
      "suggestionFa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "looks",
-      "he's",
       "like",
+      "he's",
       "but"
      ],
      "suggestion": "So he looks like you, but he's like Tom.",
@@ -213,8 +213,8 @@
     {
      "keywords": [
       "nobody",
-      "he's",
       "just",
+      "he's",
       "like"
      ],
      "suggestion": "William is like nobody! He's just William.",
@@ -252,7 +252,7 @@
       "we've",
       "same",
       "nose",
-      "got"
+      "dad"
      ],
      "suggestion": "I look like my dad. We've got the same nose.",
      "suggestionFa": "شبیه بابامم. دماغمون یه شکله.",
@@ -354,8 +354,8 @@
      "keywords": [
       "mummy",
       "daddy",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "Nicola, who do you look like? Mummy or Daddy?",
      "suggestionFa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟",

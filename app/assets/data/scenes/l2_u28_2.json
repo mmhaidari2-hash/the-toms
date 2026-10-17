@@ -20,9 +20,9 @@
     {
      "keywords": [
       "postman",
-      "came",
       "when",
-      "was"
+      "came",
+      "out"
      ],
      "suggestion": "Yes. I was out when the postman came.",
      "suggestionFa": "آره. وقتی پستچی اومد بیرون بودم.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "mean",
       "i've",
       "card",
+      "mean",
       "got"
      ],
      "suggestion": "I've got a card. What does it mean?",
@@ -131,8 +131,8 @@
      "keywords": [
       "collect",
       "leslie",
-      "can",
-      "her"
+      "her",
+      "can"
      ],
      "suggestion": "No, it's for Leslie. Can I collect it for her?",
      "suggestionFa": "نه، برای لزلیه. می‌تونم براش بگیرمش؟",
@@ -142,10 +142,10 @@
     },
     {
      "keywords": [
-      "sorry",
       "wrong",
-      "card",
-      "took"
+      "sorry",
+      "took",
+      "card"
      ],
      "suggestion": "Oh! I took the wrong card. Sorry!",
      "suggestionFa": "اوه! کارت اشتباهی را برداشتم. ببخشید!",
@@ -206,7 +206,7 @@
       "tomorrow",
       "didn't",
       "back",
-      "come"
+      "i'll"
      ],
      "suggestion": "No, she didn't. I'll come back tomorrow.",
      "suggestionFa": "نه، نکرده. فردا برمی‌گردم.",
@@ -257,9 +257,9 @@
     {
      "keywords": [
       "school",
-      "books",
+      "don't",
       "maybe",
-      "don't"
+      "books"
      ],
      "suggestion": "I don't know. Maybe books for school?",
      "suggestionFa": "نمی‌دونم. شاید کتاب برای مدرسه؟",
@@ -308,8 +308,8 @@
      "keywords": [
       "arthur",
       "thank",
-      "good",
-      "know"
+      "know",
+      "good"
      ],
      "suggestion": "Good to know. Thank you, Arthur!",
      "suggestionFa": "خوب شد فهمیدم. ممنون آرتور!",

@@ -21,7 +21,7 @@
      "keywords": [
       "edinburgh",
       "reckon",
-      "have",
+      "punt",
       "i'll"
      ],
      "suggestion": "Go on, I'll have a punt — I reckon it's Edinburgh.",
@@ -191,10 +191,10 @@
     },
     {
      "keywords": [
-      "eleven",
       "strong",
-      "point",
-      "isn't"
+      "eleven",
+      "isn't",
+      "point"
      ],
      "suggestion": "Sport isn't my strong point. Eleven?",
      "suggestionFa": "ورزش نقطه‌قوتم نیست. یازده؟",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "beginner's",
-      "lucky",
       "guess",
+      "lucky",
       "luck"
      ],
      "suggestion": "Just a lucky guess — beginner's luck!",
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "points",
-      "second",
       "behind",
+      "second",
       "place"
      ],
      "suggestion": "Second place, two points behind.",

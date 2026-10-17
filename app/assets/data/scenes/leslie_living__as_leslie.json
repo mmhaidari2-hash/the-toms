@@ -125,7 +125,7 @@
       "evenings",
       "about",
       "where",
-      "look"
+      "tell"
      ],
      "suggestion": "Tell me something about where you grew up. What did evenings look like?",
      "suggestionFa": "یه چیزی از جایی که بزرگ شدی بگو. عصرها چطور بود؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "biscuit",
-      "lovely",
-      "sounds",
+      "phones",
       "before",
-      "phones"
+      "lovely",
+      "sounds"
      ],
      "suggestion": "That sounds lovely. We used to be like that before phones took over! Fancy a biscuit?",
      "suggestionFa": "چه قشنگ. ما هم قبل از این‌که گوشی‌ها همه‌چیز را بگیرند همین‌طور بودیم! بیسکویت می‌خوای؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "digestive",
       "dunking",
-      "dunk",
       "form",
+      "dunk",
       "says"
      ],
      "suggestion": "Do you dunk? Tom says dunking a digestive is an art form.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "seconds",
+      "perfect",
       "right",
-      "three",
-      "there"
+      "there",
+      "night"
      ],
      "suggestion": "Three seconds, no more. There — perfect. Right, I'll let you rest. Night, love.",
      "suggestionFa": "سه ثانیه، نه بیشتر. ببین — عالی. خب، می‌ذارم استراحت کنی. شب بخیر عزیزم.",
@@ -223,8 +223,8 @@
      "keywords": [
       "learner",
       "quick",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "Well done! You're a quick learner.",
      "suggestionFa": "آفرین! خیلی زود یاد می‌گیری.",

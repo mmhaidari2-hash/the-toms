@@ -22,7 +22,7 @@
       "indian",
       "what's",
       "don't",
-      "good"
+      "know"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -35,7 +35,7 @@
       "chicken",
       "please",
       "curry",
-      "have"
+      "i'll"
      ],
      "suggestion": "I'll have a chicken curry, please.",
      "suggestionFa": "من یه کاری مرغ می‌خورم، لطفاً.",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "mean",
-      "mild"
+      "mild",
+      "mean"
      ],
      "suggestion": "What does \"mild\" mean?",
      "suggestionFa": "«مایلد» یعنی چی؟",
@@ -142,8 +142,8 @@
      "keywords": [
       "vindaloo",
       "spicy",
-      "food",
-      "like"
+      "like",
+      "food"
      ],
      "suggestion": "I like spicy food. I'll try the vindaloo!",
      "suggestionFa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "drinks",
+      "buy",
       "but",
-      "let",
-      "buy"
+      "let"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

@@ -24,8 +24,8 @@
       "william's",
       "running",
       "hello",
-      "bath",
-      "pass"
+      "pass",
+      "duck"
      ],
      "suggestion": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
      "suggestionFa": "سلام عزیزم! دارم وان ویلیام را پر می‌کنم. اردکش را بهم میدی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "question",
       "always",
-      "elbow",
       "check",
-      "right"
+      "right",
+      "elbow"
      ],
      "suggestion": "Good question. I always check with my elbow. Like this. It's just right.",
      "suggestionFa": "سؤال خوبیه. من همیشه با آرنجم امتحان می‌کنم. این‌جوری. درست اندازه‌ست.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -127,8 +127,8 @@
       "splashing",
       "everyone",
       "shampoo",
-      "bottle",
-      "yellow"
+      "yellow",
+      "bottle"
      ],
      "suggestion": "Ha! He's splashing everyone. Can you hand me the baby shampoo? The yellow bottle.",
      "suggestionFa": "ها! داره رو همه آب می‌پاشه. شامپوی بچه را میدی؟ بطری زرده.",
@@ -151,9 +151,9 @@
      "keywords": [
       "something",
       "washing",
-      "hates",
       "thank",
-      "part"
+      "hates",
+      "hair"
      ],
      "suggestion": "Thank you, dear. Now I'm washing his hair. He hates this part. Sing something!",
      "suggestionFa": "ممنون عزیزم. حالا دارم موهاش را می‌شورم. از این قسمت متنفره. یه چیزی بخون!",
@@ -229,7 +229,7 @@
       "careful",
       "getting",
       "towel",
-      "done"
+      "hold"
      ],
      "suggestion": "You're a star. All done! Now I'm getting the towel. Can you hold him? Careful, he's slippery!",
      "suggestionFa": "تو ستاره‌ای. تموم شد! حالا دارم حوله را میارم. می‌تونی نگهش داری؟ مواظب باش، لیزه!",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "pyjamas",
-      "lovely",
       "little",
+      "lovely",
       "night",
       "wrap"
      ],

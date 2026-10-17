@@ -1,0 +1,225 @@
+{
+ "id": "l2_u50_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) After the party",
+ "titleFa": "(در نقش Tom) بعد از مهمانی",
+ "setting": "Party planning · Level 2",
+ "settingFa": "برنامه‌ریزی مهمانی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u50_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "balloons",
+      "doris",
+      "scarf",
+      "three"
+     ],
+     "suggestion": "Phew. Everyone's gone. Doris left with three balloons, half the cake and a new scarf. Best day of her life, she said.",
+     "suggestionFa": "وای. همه رفتن. دوریس با سه تا بادکنک، نصف کیک و یه شال گردن جدید رفت. گفت بهترین روز عمرش بود.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "That's wonderful, Tom. It was a great party.",
+   "translations": {
+    "fa": "این عالیه تام. مهمونی فوق‌العاده‌ای بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie's",
+      "putting",
+      "plates",
+      "though",
+      "bomb's"
+     ],
+     "suggestion": "Look at this room, though. A bomb's gone off. Could you help me with the plates? Leslie's putting the kids to bed.",
+     "suggestionFa": "ولی این اتاق را ببین. انگار بمب ترکیده. میشه با بشقاب‌ها کمکم کنی؟ لزلی داره بچه‌ها را می‌خوابونه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Sure. Where do the plates go?",
+   "translations": {
+    "fa": "حتماً. بشقاب‌ها کجا میرن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dishwasher",
+      "recycling",
+      "bottles",
+      "plates",
+      "black"
+     ],
+     "suggestion": "Paper plates in the black bag. Real ones in the dishwasher. Cups in the sink. Bottles in the recycling — the green box.",
+     "suggestionFa": "بشقاب کاغذی تو کیسهٔ مشکی. واقعی‌ها تو ماشین ظرف‌شویی. فنجون‌ها تو سینک. بطری‌ها تو بازیافت — جعبهٔ سبز.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Where does the leftover food go?",
+   "translations": {
+    "fa": "غذای اضافه کجا بره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leftovers",
+      "saffron",
+      "plates",
+      "fridge",
+      "recipe"
+     ],
+     "suggestion": "Leftovers in the fridge — in boxes. Your saffron rice is all gone, by the way. Arthur had three plates. He asked for the recipe!",
+     "suggestionFa": "باقی‌مونده‌ها تو یخچال — تو ظرف. راستی برنج زعفرونیت همه‌ش تموم شد. آرتور سه بشقاب خورد. دستورش را خواست!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Really? I'll write it down for him.",
+   "translations": {
+    "fa": "واقعاً؟ براش می‌نویسمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "balloons",
+      "william",
+      "before",
+      "better",
+      "wakes"
+     ],
+     "suggestion": "Ha! Now — the balloons. We'd better pop them before William wakes up. He'll want to play with them at five a.m.",
+     "suggestionFa": "ها! حالا — بادکنک‌ها. بهتره قبل از اینکه ویلیام بیدار بشه بترکونیمشون. ساعت پنج صبح می‌خواد باهاشون بازی کنه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Pop them? Won't that wake him up?",
+   "translations": {
+    "fa": "بترکونیمشون؟ بیدارش نمی‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whispering",
+      "midnight",
+      "balloons",
+      "slowly",
+      "listen"
+     ],
+     "suggestion": "Good point. Slowly, slowly. Psssss. Ha! Listen to us. Two grown men whispering to balloons at midnight.",
+     "suggestionFa": "نکتهٔ خوبیه. آروم، آروم. پسسسس. ها! ما را ببین. دو تا مرد بالغ نصف‌شب با بادکنک‌ها پچ‌پچ می‌کنن.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What did Doris say at the end?",
+   "translations": {
+    "fa": "دوریس آخرش چی گفت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving's",
+      "would've",
+      "classic",
+      "doris",
+      "loved"
+     ],
+     "suggestion": "She held my hand and said, \"Ron would've loved this.\" Then she said my driving's got worse. Classic Doris.",
+     "suggestionFa": "دستم را گرفت و گفت «ران عاشق این می‌شد.» بعد گفت رانندگیم بدتر شده. دوریسِ همیشگی.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! She always tells the truth.",
+   "translations": {
+    "fa": "ها! همیشه حقیقت را میگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "better",
+      "cheers",
+      "sleep",
+      "floor"
+     ],
+     "suggestion": "Cheers, mate. The floor can wait till tomorrow. Cup of tea? Then bed. We'd better sleep — I'm on the 38 at six tomorrow!",
+     "suggestionFa": "مرسی رفیق. زمین تا فردا صبر می‌کنه. یه فنجون چای؟ بعد تخت. بهتره بخوابیم — فردا ساعت شش رو ۳۸م!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

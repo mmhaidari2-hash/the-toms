@@ -65,8 +65,8 @@
     {
      "keywords": [
       "ringing",
-      "doctor",
       "thanks",
+      "doctor",
       "back"
      ],
      "suggestion": "Thanks for ringing back, doctor.",
@@ -153,9 +153,9 @@
     {
      "keywords": [
       "bring",
-      "fine",
       "four",
-      "i'll"
+      "i'll",
+      "fine"
      ],
      "suggestion": "Four is fine. I'll bring him.",
      "suggestionFa": "چهار خوبه. میارمش.",
@@ -197,9 +197,9 @@
    "branches": [
     {
      "keywords": [
-      "give",
-      "some",
       "i'll",
+      "some",
+      "give",
       "now"
      ],
      "suggestion": "OK. I'll give him some now.",
@@ -212,8 +212,8 @@
      "keywords": [
       "worse",
       "gets",
-      "if",
-      "he"
+      "he",
+      "if"
      ],
      "suggestion": "What if he gets worse?",
      "suggestionFa": "اگه بدتر شد چی؟",

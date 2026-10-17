@@ -24,8 +24,8 @@
      "keywords": [
       "unicorns",
       "nice",
-      "love",
-      "meet"
+      "meet",
+      "love"
      ],
      "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
      "suggestionFa": "آره، عاشق تک‌شاخم! از آشناییت خوشحالم میا.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "dragons",
-      "honest",
-      "prefer"
+      "prefer",
+      "honest"
      ],
      "suggestion": "I prefer dragons, to be honest!",
      "suggestionFa": "راستش اژدها را ترجیح می‌دم!",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "squash",
       "orange",
+      "course",
       "each"
      ],
      "suggestion": "Of course — orange squash and a biscuit each.",
@@ -87,8 +87,8 @@
      "keywords": [
       "lunchtime",
       "nearly",
-      "then",
-      "just"
+      "just",
+      "then"
      ],
      "suggestion": "Just one biscuit, then. It's nearly lunchtime.",
      "suggestionFa": "پس فقط یه بیسکویت. نزدیک ناهاره.",
@@ -126,10 +126,10 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "friend",
-      "here",
-      "live"
+      "family",
+      "live",
+      "here"
      ],
      "suggestion": "No, I'm a family friend. I live here now.",
      "suggestionFa": "نه، دوست خانوادگی‌ام. الان اینجا زندگی می‌کنم.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "brother",
-      "sort",
       "like",
+      "sort",
       "her"
      ],
      "suggestion": "Sort of! I'm like her big brother.",
@@ -270,8 +270,8 @@
     {
      "keywords": [
       "like",
-      "i'd",
       "one",
+      "i'd",
       "dog"
      ],
      "suggestion": "No, but I'd like a dog one day.",
@@ -394,8 +394,8 @@
     },
     {
      "keywords": [
-      "only",
       "come",
+      "only",
       "can",
       "if"
      ],

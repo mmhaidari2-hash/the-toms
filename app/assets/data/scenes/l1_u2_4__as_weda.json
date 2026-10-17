@@ -25,7 +25,7 @@
       "scones",
       "let's",
       "flour",
-      "dear"
+      "make"
      ],
      "suggestion": "Let's make scones, dear. Can you get the flour? It's in the cupboard.",
      "suggestionFa": "بیا اسکون درست کنیم عزیزم. آرد را میاری؟ توی کابینته.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "fridge",
+      "butter",
       "sugar",
       "need",
       "milk"
@@ -122,9 +122,9 @@
      "keywords": [
       "circles",
       "little",
-      "good",
+      "milk",
       "more",
-      "milk"
+      "good"
      ],
      "suggestion": "Add a little more milk. Good! Now we cut circles.",
      "suggestionFa": "یه کم دیگه شیر اضافه کن. خوبه! حالا دایره می‌بُریم.",
@@ -148,8 +148,8 @@
       "careful",
       "fifteen",
       "minutes",
-      "think",
-      "eight"
+      "eight",
+      "think"
      ],
      "suggestion": "Eight, I think. Into the oven for fifteen minutes. Careful, it's very hot.",
      "suggestionFa": "فکر کنم هشت‌تا. پونزده دقیقه توی فر. مواظب باش، خیلی داغه.",
@@ -172,9 +172,9 @@
      "keywords": [
       "they're",
       "golden",
-      "ready",
       "smell",
-      "them"
+      "ready",
+      "warm"
      ],
      "suggestion": "Mmm, can you smell them? They're ready! Golden and warm.",
      "suggestionFa": "ممم، بوشون را حس می‌کنی؟ آماده‌اند! طلایی و گرم.",
@@ -224,7 +224,7 @@
       "nicola",
       "teach",
       "next",
-      "dear"
+      "time"
      ],
      "suggestion": "You're a natural, dear. Next time, you can teach Nicola!",
      "suggestionFa": "تو ذاتاً بلدی عزیزم. دفعهٔ بعد می‌تونی به نیکولا یاد بدی!",

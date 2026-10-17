@@ -122,9 +122,12 @@ class Scene {
   /// Role switching: this is a variant of [baseId] where the learner speaks as [playAs] and Mehdi is an NPC.
   final String? baseId, playAs;
 
+  /// Career Packs with their own playable guest (e.g. Sara in Vida's Nursery) instead of Mehdi.
+  final String? guest;
+
   /// Optional painting (place id) for scenes not hosted by a place hotspot or lesson.
   final String? placeHint;
-  const Scene({this.baseId, this.playAs, this.placeHint, this.memory, this.requiresTrust, this.episode, 
+  const Scene({this.baseId, this.playAs, this.guest, this.placeHint, this.memory, this.requiresTrust, this.episode, 
     required this.id,
     required this.characterId,
     this.level = 'A1',
@@ -149,6 +152,7 @@ class Scene {
       episode: j['episode'],
       baseId: j['baseId'],
       playAs: j['playAs'],
+      guest: j['guest'],
       placeHint: j['place'],
       title: j['title'],
       titleFa: j['titleFa'],

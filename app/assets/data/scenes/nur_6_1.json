@@ -76,7 +76,7 @@
       "bruise",
       "about",
       "upper",
-      "size"
+      "coin"
      ],
      "suggestion": "It was a bruise about the size of a coin, on his upper arm.",
      "suggestionFa": "یه کبودی تقریباً هم‌اندازهٔ سکه، رو بالای بازوش.",
@@ -88,8 +88,8 @@
      "keywords": [
       "quiet",
       "asked",
-      "went",
-      "fell"
+      "then",
+      "went"
      ],
      "suggestion": "When I asked, he said \"I fell at home\", then went quiet.",
      "suggestionFa": "وقتی پرسیدم، گفت «تو خونه افتادم»، بعد ساکت شد.",
@@ -184,8 +184,8 @@
      "keywords": [
       "concern",
       "today",
-      "give",
-      "fill"
+      "i'll",
+      "give"
      ],
      "suggestion": "I'll fill in a concern form and give it to Jo today.",
      "suggestionFa": "یه فرم نگرانی پر می‌کنم و امروز به جو می‌دم.",
@@ -198,7 +198,7 @@
       "parents",
       "should",
       "seen",
-      "tell"
+      "i've"
      ],
      "suggestion": "Should I tell the parents what I've seen?",
      "suggestionFa": "باید چیزی که دیدم را به والدین بگم؟",
@@ -238,8 +238,8 @@
      "keywords": [
       "confidential",
       "discuss",
-      "staff",
-      "don't"
+      "don't",
+      "staff"
      ],
      "suggestion": "Confidential — so I don't discuss it in the staff room.",
      "suggestionFa": "محرمانه — پس تو اتاق کارکنان درباره‌اش حرف نمی‌زنم.",
@@ -286,5 +286,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

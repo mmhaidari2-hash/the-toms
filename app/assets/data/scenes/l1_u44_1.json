@@ -125,8 +125,8 @@
     },
     {
      "keywords": [
-      "sides",
-      "count"
+      "count",
+      "sides"
      ],
      "suggestion": "Count the sides with me!",
      "suggestionFa": "ضلع‌ها را با من بشمر!",
@@ -218,8 +218,8 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "that's",
+      "twenty",
       "pound",
       "note"
      ],
@@ -286,8 +286,8 @@
      "keywords": [
       "pound",
       "coins",
-      "here",
-      "four"
+      "four",
+      "i've"
      ],
      "suggestion": "I've got four pound coins here.",
      "suggestionFa": "اینجا چهار تا سکهٔ پوندی دارم.",
@@ -317,8 +317,8 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "pounds",
+      "twenty",
       "fifty",
       "six"
      ],

@@ -73,8 +73,8 @@
     {
      "keywords": [
       "entered",
-      "wrong",
       "times",
+      "wrong",
       "three"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
@@ -193,9 +193,9 @@
    "branches": [
     {
      "keywords": [
+      "will",
       "card",
       "when",
-      "will",
       "new"
      ],
      "suggestion": "When will I get the new card?",
@@ -260,10 +260,10 @@
     },
     {
      "keywords": [
-      "food",
-      "days",
       "five",
-      "how"
+      "days",
+      "food",
+      "buy"
      ],
      "suggestion": "Five days? How do I buy food?",
      "suggestionFa": "پنج روز؟ چطوری غذا بخرم؟",
@@ -314,8 +314,8 @@
      "keywords": [
       "fifty",
       "take",
-      "out",
-      "can"
+      "can",
+      "out"
      ],
      "suggestion": "Can I take out fifty pounds?",
      "suggestionFa": "می‌تونم پنجاه پوند بردارم؟",
@@ -351,8 +351,8 @@
      "keywords": [
       "changed",
       "forgot",
-      "last",
-      "know"
+      "know",
+      "last"
      ],
      "suggestion": "I know. I changed it last week and forgot!",
      "suggestionFa": "می‌دونم. هفتهٔ پیش عوضش کردم و یادم رفت!",

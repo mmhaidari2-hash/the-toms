@@ -47,9 +47,9 @@
     {
      "keywords": [
       "yesterday",
-      "william",
       "laughed",
       "minutes",
+      "william",
       "bunny"
      ],
      "suggestion": "Tom laughed for ten minutes. And yesterday William said the bus was \"a big red bunny\"!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -124,11 +124,11 @@
    "branches": [
     {
      "keywords": [
-      "animal",
-      "aminal",
       "nicola",
+      "aminal",
+      "animal",
       "three",
-      "week"
+      "said"
      ],
      "suggestion": "Last week he said \"aminal\" for animal. Nicola said it too when she was three!",
      "suggestionFa": "هفتهٔ پیش به حیوان گفت «اَمینال». نیکولا هم وقتی سه سالش بود همینو می‌گفت!",
@@ -151,9 +151,9 @@
      "keywords": [
       "called",
       "about",
-      "until",
       "shoes",
-      "don't"
+      "until",
+      "shoos"
      ],
      "suggestion": "Ryan called his shoes \"shoo-shoos\" until he was four! Don't tell him I told you. What about you, Mehdi?",
      "suggestionFa": "رایان تا چهار سالگی به کفشاش می‌گفت «شوشو»! بهش نگی بهت گفتم. تو چی {you}؟",
@@ -227,8 +227,8 @@
      "keywords": [
       "properly",
       "before",
-      "right",
       "let's",
+      "right",
       "write"
      ],
      "suggestion": "He does! Right, let's write them in his book before he says them properly.",

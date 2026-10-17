@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "close",
       "three",
+      "close",
       "eyes",
       "one"
      ],
@@ -69,8 +69,8 @@
     {
      "keywords": [
       "ready",
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "Ready or not, here I come!",
      "suggestionFa": "حاضر باشی یا نه، دارم میام!",
@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "under",
-      "table"
+      "table",
+      "under"
      ],
      "suggestion": "Is she under the table?",
      "suggestionFa": "زیر میزه؟",
@@ -216,9 +216,9 @@
     {
      "keywords": [
       "feet",
+      "can",
       "see",
-      "two",
-      "can"
+      "two"
      ],
      "suggestion": "I can see two feet!",
      "suggestionFa": "دو تا پا می‌بینم!",

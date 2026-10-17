@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "maggie's",
+      "birthday",
       "husband",
       "george"
      ],
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "signed",
-      "spelt",
       "wrong",
+      "spelt",
       "name"
      ],
      "suggestion": "Yes, he signed it. But he spelt my name wrong!",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "visit",
       "today",
-      "well",
-      "he's"
+      "visit",
+      "i'll",
+      "well"
      ],
      "suggestion": "OK. He's not very well. I'll visit him today.",
      "suggestionFa": "باشه. حالش خیلی خوب نیست. امروز می‌رم دیدنش.",
@@ -249,9 +249,9 @@
     {
      "keywords": [
       "instead",
-      "app",
       "can",
-      "pay"
+      "pay",
+      "app"
      ],
      "suggestion": "Can I pay it in with the app instead?",
      "suggestionFa": "به‌جاش می‌تونم با اپ واریزش کنم؟",

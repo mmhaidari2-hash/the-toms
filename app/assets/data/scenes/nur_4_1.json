@@ -74,9 +74,9 @@
     {
      "keywords": [
       "thanks",
-      "toast",
+      "snack",
       "write",
-      "snack"
+      "toast"
      ],
      "suggestion": "Thanks, I'll write that down. He can have toast at snack time.",
      "suggestionFa": "ممنون، یادداشتش می‌کنم. وقت خوراکی می‌تونه نون تست بخوره.",
@@ -88,8 +88,8 @@
      "keywords": [
       "might",
       "today",
-      "dear",
-      "need"
+      "need",
+      "dear"
      ],
      "suggestion": "Oh dear. He might need a nap today.",
      "suggestionFa": "ای وای. شاید امروز یه چرت لازم داشته باشه.",
@@ -188,8 +188,8 @@
    "branches": [
     {
      "keywords": [
-      "oscar",
       "daddy",
+      "oscar",
       "wave",
       "bye"
      ],
@@ -247,10 +247,10 @@
     },
     {
      "keywords": [
-      "hold",
-      "hand",
       "know",
-      "want"
+      "hold",
+      "want",
+      "hand"
      ],
      "suggestion": "I know you're sad. Do you want to hold my hand?",
      "suggestionFa": "می‌دونم غمگینی. می‌خوای دستم را بگیری؟",
@@ -280,5 +280,6 @@
    "branches": [],
    "newWords": []
   }
- }
+ },
+ "guest": "sara"
 }

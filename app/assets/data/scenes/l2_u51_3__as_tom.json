@@ -1,0 +1,224 @@
+{
+ "id": "l2_u51_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Is it far?",
+ "titleFa": "(در نقش Tom) دور است؟",
+ "setting": "Asking the way · Level 2",
+ "settingFa": "پرسیدن مسیر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u51_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "where",
+      "going",
+      "line",
+      "look"
+     ],
+     "suggestion": "End of the line, mate. Everyone off! Oh, it's you. Where are you going? You look lost.",
+     "suggestionFa": "آخر خط رفیق. همه پیاده! اوه، تویی. کجا میری؟ گم شده به نظر میای.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Victoria Park. Is it far from here?",
+   "translations": {
+    "fa": "پارک ویکتوریا. از اینجا دوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes'",
+      "victoria",
+      "fifteen",
+      "meeting",
+      "someone"
+     ],
+     "suggestion": "Victoria Park? It's not far. About fifteen minutes' walk. Or twenty if you stop for coffee. You're meeting someone?",
+     "suggestionFa": "پارک ویکتوریا؟ دور نیست. حدود پونزده دقیقه پیاده. یا بیست تا اگه برای قهوه وایسی. با کسی قرار داری؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, at two o'clock. It's ten to two now!",
+   "translations": {
+    "fa": "آره، ساعت دو. الان ده دقیقه به دوئه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quicker",
+      "stop's",
+      "minute",
+      "better",
+      "you'd"
+     ],
+     "suggestion": "Ten to two! You'd better hurry. It's quicker to take the 277. Stop's just there. Two stops, then a two-minute walk.",
+     "suggestionFa": "ده دقیقه به دو! بهتره عجله کنی. با ۲۷۷ سریع‌تره. ایستگاهش همون‌جاست. دو ایستگاه، بعد دو دقیقه پیاده.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "The 277. Two stops. Thanks, Tom!",
+   "translations": {
+    "fa": "۲۷۷. دو ایستگاه. مرسی تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "countdown",
+      "minutes",
+      "reality",
+      "theory",
+      "eight"
+     ],
+     "suggestion": "Every eight minutes. In theory. In reality — who knows? Check the countdown sign at the stop.",
+     "suggestionFa": "هر هشت دقیقه. در تئوری. در واقعیت — کی می‌دونه؟ تابلوی شمارش معکوس ایستگاه را چک کن.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It says \"277 — 9 minutes\". Hmm.",
+   "translations": {
+    "fa": "نوشته «۲۷۷ — ۹ دقیقه». هوم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "straight",
+      "minutes",
+      "you'll",
+      "right",
+      "gates"
+     ],
+     "suggestion": "Nine minutes? Walk, then. Fast. Go down this road, turn right at the pub — the Royal Inn — then straight on. You'll see the gates.",
+     "suggestionFa": "نه دقیقه؟ پس پیاده برو. سریع. این خیابون را برو پایین، سر میخونه — رویال این — بپیچ راست، بعد مستقیم. درها را می‌بینی.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Right at the Royal Inn, then straight on.",
+   "translations": {
+    "fa": "سر رویال این راست، بعد مستقیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "meeting",
+      "exactly",
+      "where",
+      "who"
+     ],
+     "suggestion": "Who are you meeting? Where exactly?",
+     "suggestionFa": "با کی قرار داری؟ دقیقاً کجا؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Callum, by the boating lake.",
+   "translations": {
+    "fa": "کالوم، کنار دریاچهٔ قایق‌رانی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "running",
+      "polite",
+      "follow",
+      "signs"
+     ],
+     "suggestion": "OK — go in the main gate, then follow the signs. Ten minutes from the gate. Text them: \"Running five minutes late.\" It's polite.",
+     "suggestionFa": "باشه — از در اصلی برو تو، بعد تابلوها را دنبال کن. ده دقیقه از در. پیام بده: «پنج دقیقه دیر می‌کنم.» مؤدبانه‌ست.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Good idea. I'll text now.",
+   "translations": {
+    "fa": "فکر خوبیه. الان پیام میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "without",
+      "minutes",
+      "hackney",
+      "driver",
+      "fine"
+     ],
+     "suggestion": "Five minutes is fine — if you text. Without a text, it's rude. Go! Run! And say hi from the best bus driver in Hackney.",
+     "suggestionFa": "پنج دقیقه اشکالی نداره — اگه پیام بدی. بدون پیام، بی‌ادبیه. برو! بدو! و از طرف بهترین رانندهٔ اتوبوس هکنی سلام برسون.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

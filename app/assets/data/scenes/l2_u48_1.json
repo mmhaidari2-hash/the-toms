@@ -1,0 +1,412 @@
+{
+ "id": "l2_u48_1",
+ "characterId": "jade",
+ "title": "Walking more",
+ "titleFa": "بیشتر پیاده‌روی کردن",
+ "setting": "Health habits · Level 2",
+ "settingFa": "عادت‌های سلامتی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jade",
+   "text": "Morning! Six a.m. and you're here! Love it! How's the new routine going? Are you walking more?",
+   "translations": {
+    "fa": "صبح بخیر! شش صبح و اینجایی! عاشقشم! برنامهٔ جدید چطور پیش میره؟ بیشتر پیاده‌روی می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "usually",
+      "take",
+      "but",
+      "bus"
+     ],
+     "suggestion": "A bit. But I usually take the bus.",
+     "suggestionFa": "یه کم. ولی معمولاً اتوبوس می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "happy",
+      "jade",
+      "six"
+     ],
+     "suggestion": "Morning, Jade. How are you so happy at six?",
+     "suggestionFa": "صبح بخیر جید. چطوری ساعت شش انقدر خوشحالی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "routine",
+     "fa": "برنامهٔ روزمره"
+    },
+    {
+     "word": "walking",
+     "fa": "پیاده‌روی"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "happy",
+     "fa": "خوشحال"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jade",
+   "text": "Coffee and sunshine — well, coffee! How many steps do you do a day? Check your phone. It counts them.",
+   "translations": {
+    "fa": "قهوه و آفتاب — خب، قهوه! روزی چند قدم برمی‌داری؟ گوشیت را چک کن. می‌شمره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "four",
+      "day"
+     ],
+     "suggestion": "About four thousand a day.",
+     "suggestionFa": "حدود روزی چهار هزار.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yesterday",
+      "only",
+      "look",
+      "two"
+     ],
+     "suggestion": "Let me look. Yesterday, only two thousand!",
+     "suggestionFa": "بذار ببینم. دیروز فقط دو هزار!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sunshine",
+     "fa": "آفتاب"
+    },
+    {
+     "word": "steps",
+     "fa": "قدم‌ها"
+    },
+    {
+     "word": "a day",
+     "fa": "در روز"
+    },
+    {
+     "word": "counts",
+     "fa": "می‌شمارد"
+    }
+   ],
+   "cultureNote": {
+    "en": "The NHS suggests adults do 150 minutes of moderate activity a week — like brisk walking. Many people aim for 10,000 steps a day.",
+    "fa": "NHS پیشنهاد می‌کند بزرگسالان هفته‌ای ۱۵۰ دقیقه فعالیت متوسط داشته باشند، مثل پیاده‌روی تند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "how many step you do",
+      "how much steps"
+     ],
+     "echo": "How many steps? Let's see!",
+     "better": "How many steps do you do a day?",
+     "betterFa": "روزی چند قدم برمی‌داری؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "jade",
+   "text": "Four thousand? That's not bad, but you should aim for eight or ten. Why don't you get off the bus one stop early?",
+   "translations": {
+    "fa": "چهار هزار؟ بد نیست، ولی بهتره هدفت هشت یا ده باشه. چرا یه ایستگاه زودتر از اتوبوس پیاده نمیشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "early",
+      "good",
+      "idea"
+     ],
+     "suggestion": "One stop early. That's a good idea.",
+     "suggestionFa": "یه ایستگاه زودتر. فکر خوبیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drives",
+      "he'll",
+      "sad",
+      "but"
+     ],
+     "suggestion": "But Tom drives my bus! He'll be sad.",
+     "suggestionFa": "ولی تام اتوبوسم را می‌رونه! ناراحت میشه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "aim for",
+     "fa": "هدف گذاشتن"
+    },
+    {
+     "word": "get off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "jade",
+   "text": "Ha! Wave to him from the pavement. And take the stairs, not the lift. At work, walk to a colleague's desk — don't email them.",
+   "translations": {
+    "fa": "ها! از پیاده‌رو براش دست تکون بده. و از پله استفاده کن، نه آسانسور. سر کار، تا میز همکارت راه برو — ایمیل نزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stairs",
+      "take",
+      "can"
+     ],
+     "suggestion": "Take the stairs. I can do that.",
+     "suggestionFa": "از پله برم. می‌تونم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "that's",
+      "funny",
+      "email"
+     ],
+     "suggestion": "Walk instead of email? That's funny.",
+     "suggestionFa": "به‌جای ایمیل راه برم؟ خنده‌داره.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pavement",
+     "fa": "پیاده‌رو"
+    },
+    {
+     "word": "stairs",
+     "fa": "پله‌ها"
+    },
+    {
+     "word": "lift",
+     "fa": "آسانسور"
+    },
+    {
+     "word": "colleague",
+     "fa": "همکار"
+    },
+    {
+     "word": "instead of",
+     "fa": "به جای"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "jade",
+   "text": "Small changes, big results. And what about the weekend? Hackney Marshes is lovely for a long walk.",
+   "translations": {
+    "fa": "تغییرهای کوچیک، نتیجه‌های بزرگ. و آخر هفته چی؟ هکنی مارشز برای پیاده‌روی طولانی عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "there",
+      "i'll",
+      "walk"
+     ],
+     "suggestion": "I'll try to walk there on Sunday.",
+     "suggestionFa": "سعی می‌کنم یکشنبه اونجا پیاده‌روی کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "street",
+      "from",
+      "mare",
+      "far"
+     ],
+     "suggestion": "Is it far from Mare Street?",
+     "suggestionFa": "از خیابون مِیر دوره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "changes",
+     "fa": "تغییرها"
+    },
+    {
+     "word": "results",
+     "fa": "نتایج"
+    },
+    {
+     "word": "marshes",
+     "fa": "مرداب‌ها ؛ دشت"
+    },
+    {
+     "word": "long walk",
+     "fa": "پیاده‌روی طولانی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jade",
+   "text": "Twenty-five minutes on foot. That's three thousand steps there and back! Ask Leslie — the kids love the ducks.",
+   "translations": {
+    "fa": "بیست و پنج دقیقه پیاده. رفت و برگشت سه هزار قدمه! از لزلی بپرس — بچه‌ها عاشق اردک‌هان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "walking",
+      "friends",
+      "easier",
+      "good"
+     ],
+     "suggestion": "Good idea. Walking with friends is easier.",
+     "suggestionFa": "فکر خوبیه. پیاده‌روی با دوست‌ها راحت‌تره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thousand",
+      "perfect",
+      "steps",
+      "ducks"
+     ],
+     "suggestion": "Three thousand steps and ducks. Perfect!",
+     "suggestionFa": "سه هزار قدم و اردک. عالی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on foot",
+     "fa": "پیاده"
+    },
+    {
+     "word": "there and back",
+     "fa": "رفت و برگشت"
+    },
+    {
+     "word": "ducks",
+     "fa": "اردک‌ها"
+    },
+    {
+     "word": "easier",
+     "fa": "آسان‌تر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "jade",
+   "text": "Exactly! I'll check your steps next week. If you hit eight thousand a day, you get a free smoothie. Deal?",
+   "translations": {
+    "fa": "دقیقاً! هفتهٔ بعد قدم‌هات را چک می‌کنم. اگه به روزی هشت هزار برسی، یه اسموتی مجانی می‌گیری. قبول؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "eight",
+      "deal",
+      "day"
+     ],
+     "suggestion": "Deal! Eight thousand a day.",
+     "suggestionFa": "قبول! روزی هشت هزار.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "smoothie",
+      "flavour"
+     ],
+     "suggestion": "What flavour is the smoothie?",
+     "suggestionFa": "اسموتی چه طعمیه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hit",
+     "fa": "رسیدن به"
+    },
+    {
+     "word": "smoothie",
+     "fa": "اسموتی"
+    },
+    {
+     "word": "deal",
+     "fa": "قبول ؛ معامله"
+    },
+    {
+     "word": "flavour",
+     "fa": "طعم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "jade",
+   "text": "Mango and banana. The best! Right — off you go. Ten minutes on the treadmill to warm up. Walk, don't run!",
+   "translations": {
+    "fa": "انبه و موز. بهترین! خب — برو. ده دقیقه رو تردمیل برای گرم کردن. راه برو، ندو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

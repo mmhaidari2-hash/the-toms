@@ -1,0 +1,362 @@
+{
+ "id": "l2_u47_4",
+ "characterId": "dev",
+ "title": "Choosing a phone",
+ "titleFa": "انتخاب گوشی",
+ "setting": "Comparing things · Level 2",
+ "settingFa": "مقایسه کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dev",
+   "text": "Back again! The screen's still OK? Good. So you want a new phone this time. For your mum in Tehran?",
+   "translations": {
+    "fa": "دوباره اومدی! صفحه هنوز خوبه؟ خوبه. پس این دفعه گوشی جدید می‌خوای. برای مامانت تو تهران؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "simple",
+      "video",
+      "calls"
+     ],
+     "suggestion": "Yes. Something simple, for video calls.",
+     "suggestionFa": "آره. یه چیز ساده، برای تماس تصویری.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "easiest",
+      "phone",
+      "which",
+      "use"
+     ],
+     "suggestion": "Yes. Which phone is the easiest to use?",
+     "suggestionFa": "آره. کدوم گوشی استفاده‌اش راحت‌تره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "back again",
+     "fa": "دوباره برگشتی"
+    },
+    {
+     "word": "screen",
+     "fa": "صفحه"
+    },
+    {
+     "word": "simple",
+     "fa": "ساده"
+    },
+    {
+     "word": "video calls",
+     "fa": "تماس تصویری"
+    },
+    {
+     "word": "easiest",
+     "fa": "آسان‌ترین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dev",
+   "text": "OK. Three options. This one's the cheapest — ninety-nine pounds. This one's the most popular. And this one has the best camera.",
+   "translations": {
+    "fa": "باشه. سه تا گزینه. این ارزون‌ترینه — نود و نه پوند. این محبوب‌ترینه. و این بهترین دوربین را داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "value",
+      "best"
+     ],
+     "suggestion": "Which is the best value?",
+     "suggestionFa": "کدوم به‌صرفه‌ترینه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "camera",
+      "front",
+      "video",
+      "calls"
+     ],
+     "suggestion": "She needs a good front camera for video calls.",
+     "suggestionFa": "یه دوربین جلوی خوب برای تماس تصویری لازم داره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "options",
+     "fa": "گزینه‌ها"
+    },
+    {
+     "word": "cheapest",
+     "fa": "ارزان‌ترین"
+    },
+    {
+     "word": "most popular",
+     "fa": "محبوب‌ترین"
+    },
+    {
+     "word": "best value",
+     "fa": "به‌صرفه‌ترین"
+    },
+    {
+     "word": "front camera",
+     "fa": "دوربین جلو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "which is the most good value",
+      "which is best value?"
+     ],
+     "echo": "The best value? This one!",
+     "better": "Which is the best value?",
+     "betterFa": "کدام به‌صرفه‌ترین است؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dev",
+   "text": "Honestly? The middle one, £169. Its front camera is better than the cheap one, and the screen's bigger. Easier for older eyes.",
+   "translations": {
+    "fa": "راستش؟ وسطی. صد و شصت و نه. دوربین جلوش از ارزونه بهتره، و صفحه‌اش بزرگ‌تره. برای چشم‌های مسن‌تر راحت‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "battery"
+     ],
+     "suggestion": "Is the battery better too?",
+     "suggestionFa": "باتریش هم بهتره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expensive",
+      "much",
+      "one"
+     ],
+     "suggestion": "And the expensive one? Is it much better?",
+     "suggestionFa": "و گرونه؟ خیلی بهتره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "middle",
+     "fa": "وسطی"
+    },
+    {
+     "word": "bigger",
+     "fa": "بزرگ‌تر"
+    },
+    {
+     "word": "easier",
+     "fa": "آسان‌تر"
+    },
+    {
+     "word": "older eyes",
+     "fa": "چشم‌های مسن‌تر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Phone shop advisers often say \"best value\" — not the cheapest, but the best quality for the price.",
+    "fa": "«best value» یعنی نه ارزان‌ترین، بلکه بهترین کیفیت نسبت به قیمت."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dev",
+   "text": "The expensive one's camera is amazing, but for video calls? She won't notice. I'd rather you save the money.",
+   "translations": {
+    "fa": "دوربین گرونه معرکه‌ست، ولی برای تماس تصویری؟ متوجه نمیشه. ترجیح میدم پولت را نگه داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "honest",
+      "that's",
+      "thank",
+      "dev"
+     ],
+     "suggestion": "That's honest. Thank you, Dev.",
+     "suggestionFa": "صادقانه‌ست. ممنون دِو.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "iran",
+      "will",
+      "work"
+     ],
+     "suggestion": "Will it work in Iran?",
+     "suggestionFa": "تو ایران کار می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "notice",
+     "fa": "متوجه شدن"
+    },
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    },
+    {
+     "word": "save",
+     "fa": "پس‌انداز کردن"
+    },
+    {
+     "word": "honest",
+     "fa": "صادقانه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dev",
+   "text": "Good question. It's unlocked, so any SIM works. But ask your family about networks and apps there. Some apps work differently.",
+   "translations": {
+    "fa": "سؤال خوبیه. قفل نیست، پس هر سیم‌کارتی کار می‌کنه. ولی دربارهٔ شبکه‌ها و اپ‌های اونجا از خانواده‌ات بپرس. بعضی اپ‌ها فرق دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brother",
+      "phones",
+      "about",
+      "knows"
+     ],
+     "suggestion": "I'll ask my brother. He knows about phones.",
+     "suggestionFa": "از برادرم می‌پرسم. از گوشی سر درمیاره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "unlocked",
+      "better",
+      "good"
+     ],
+     "suggestion": "Unlocked is better. Good.",
+     "suggestionFa": "آزاد بهتره. خوبه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unlocked",
+     "fa": "آزاد ؛ بدون قفل اپراتور"
+    },
+    {
+     "word": "SIM",
+     "fa": "سیم‌کارت"
+    },
+    {
+     "word": "networks",
+     "fa": "شبکه‌ها"
+    },
+    {
+     "word": "differently",
+     "fa": "متفاوت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dev",
+   "text": "Smart. And which colour? Blue, black or pink? Pink's the most popular with nans. My nan has the pink one.",
+   "translations": {
+    "fa": "زرنگی. و چه رنگی؟ آبی، مشکی یا صورتی؟ صورتی بین مادربزرگ‌ها محبوب‌ترینه. مادربزرگ من صورتیش را داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "colour",
+      "blue",
+      "her"
+     ],
+     "suggestion": "Blue. It's her favourite colour.",
+     "suggestionFa": "آبی. رنگ مورد علاقه‌شه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "she'll",
+      "love",
+      "pink"
+     ],
+     "suggestion": "Pink! She'll love it.",
+     "suggestionFa": "صورتی! عاشقش میشه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "colour",
+     "fa": "رنگ"
+    },
+    {
+     "word": "pink",
+     "fa": "صورتی"
+    },
+    {
+     "word": "nans",
+     "fa": "مادربزرگ‌ها"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dev",
+   "text": "Lovely choice. I'll set the biggest font and the video app before you post it. Free. My nan says I'm the best at that.",
+   "translations": {
+    "fa": "انتخاب قشنگیه. قبل از اینکه پستش کنی بزرگ‌ترین فونت و اپ تصویری را تنظیم می‌کنم. مجانی. مادربزرگم میگه تو این کار بهترینم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

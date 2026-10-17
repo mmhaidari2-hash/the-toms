@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "pizza",
       "today",
+      "pizza",
       "love",
       "day",
       "was"
@@ -98,8 +98,8 @@
      "keywords": [
       "custard",
       "secret",
-      "extra",
       "gives",
+      "extra",
       "like"
      ],
      "suggestion": "She gives me extra custard! Shh, it's a secret. Do you like custard?",
@@ -124,8 +124,8 @@
       "plate",
       "don't",
       "they",
-      "roll",
-      "peas"
+      "like",
+      "roll"
      ],
      "suggestion": "I don't like peas. They roll off my plate! Do you like peas?",
      "suggestionFa": "من نخود فرنگی دوست ندارم. از بشقابم قل می‌خورن! تو دوست داری؟",
@@ -149,8 +149,8 @@
       "neither",
       "strong",
       "mummy",
-      "peas",
-      "make"
+      "true",
+      "peas"
      ],
      "suggestion": "Me neither! But Mummy says peas make you strong. Is that true?",
      "suggestionFa": "منم نه! ولی مامان میگه نخود فرنگی آدم را قوی می‌کنه. راسته؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "custard",
-      "extra",
-      "being",
       "brave",
-      "three"
+      "being",
+      "three",
+      "extra"
      ],
      "suggestion": "Three peas… OK. And I'll have extra custard for being brave! Deal?",
      "suggestionFa": "سه تا نخود فرنگی… باشه. و برای شجاعتم کاستارد اضافه می‌خورم! قبول؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "friday",
       "though",
-      "pizza",
-      "grown",
-      "can't"
+      "sorry",
+      "can't",
+      "grown"
      ],
      "suggestion": "Ha ha! Next Friday you can come for pizza day. Grown-ups can't though. Sorry!",
      "suggestionFa": "ها ها! جمعهٔ بعد بیا روز پیتزا. البته بزرگ‌ترها نمی‌تونن. ببخشید!",

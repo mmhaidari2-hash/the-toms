@@ -67,8 +67,8 @@
     {
      "keywords": [
       "eggs",
-      "many",
       "need",
+      "many",
       "how"
      ],
      "suggestion": "How many eggs do we need?",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "family",
+      "twelve",
       "let's",
       "eats"
      ],
@@ -242,8 +242,8 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "pints",
+      "green",
       "then",
       "four"
      ],
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "aren't",
-      "green",
       "there",
+      "green",
       "only"
      ],
      "suggestion": "There aren't any red ones. Only green.",
@@ -374,9 +374,9 @@
     {
      "keywords": [
       "what's",
-      "ryan",
+      "wait",
       "hand",
-      "wait"
+      "ryan"
      ],
      "suggestion": "Wait, Ryan. What's in your hand?",
      "suggestionFa": "صبر کن رایان. تو دستت چیه؟",
@@ -425,8 +425,8 @@
      "keywords": [
       "back",
       "ryan",
-      "way",
-      "put"
+      "put",
+      "way"
      ],
      "suggestion": "No way! Put it back, Ryan.",
      "suggestionFa": "به هیچ وجه! برش گردون رایان.",

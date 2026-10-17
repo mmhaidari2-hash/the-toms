@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "answering",
       "voicemail",
-      "plumber",
+      "answering",
       "message",
+      "plumber",
       "isn't"
      ],
      "suggestion": "The plumber isn't answering. It's the voicemail. Can you leave a message? I talk too fast!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "problem",
       "kitchen",
       "leaking",
-      "problem",
       "good",
-      "tap"
+      "now"
      ],
      "suggestion": "Good! Now the problem. The kitchen tap is leaking.",
      "suggestionFa": "خوبه! حالا مشکل. شیر آشپزخونه چکه می‌کنه.",
@@ -125,7 +125,7 @@
       "slowly",
       "again",
       "today",
-      "back"
+      "call"
      ],
      "suggestion": "Perfect! Say it again, slowly. And ask him to call back today.",
      "suggestionFa": "عالی! دوباره آروم بگو. و ازش بخواه امروز دوباره زنگ بزنه.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "phone's",
-      "plumber",
       "ringing",
-      "already",
-      "message"
+      "message",
+      "plumber",
+      "already"
      ],
      "suggestion": "Oh! My phone's ringing already. It's him! The plumber. You see? A good message works!",
      "suggestionFa": "آه! گوشیم از الان داره زنگ می‌زنه. خودشه! لوله‌کش. دیدی؟ یه پیغام خوب جواب می‌ده!",

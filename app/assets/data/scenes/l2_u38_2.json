@@ -32,8 +32,8 @@
     {
      "keywords": [
       "help",
-      "mow",
-      "can"
+      "can",
+      "mow"
      ],
      "suggestion": "Can I help you mow it?",
      "suggestionFa": "می‌تونم کمکت کنم چمن را بزنی؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "spiders",
       "they",
-      "how",
-      "big"
+      "big",
+      "how"
      ],
      "suggestion": "Spiders? How big are they?",
      "suggestionFa": "عنکبوت؟ چقدر بزرگن؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "electric",
-      "mower",
-      "heavy"
+      "heavy",
+      "mower"
      ],
      "suggestion": "The mower is heavy! Is it electric?",
      "suggestionFa": "ماشین چمن‌زنی سنگینه! برقیه؟",
@@ -130,7 +130,7 @@
      "keywords": [
       "dinosaur",
       "there's",
-      "cars",
+      "shoe",
       "ball"
      ],
      "suggestion": "There's a dinosaur, two cars, a ball and a shoe!",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "first",
-      "pick",
       "toys",
+      "pick",
       "why"
      ],
      "suggestion": "Why do we pick up the toys first?",
@@ -186,8 +186,8 @@
    "branches": [
     {
      "keywords": [
-      "clear",
       "grass",
+      "clear",
       "poor",
       "cars"
      ],
@@ -419,8 +419,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "earned",
+      "please",
       "i've"
      ],
      "suggestion": "Yes please. I've earned it!",
