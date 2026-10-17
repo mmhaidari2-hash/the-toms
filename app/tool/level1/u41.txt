@@ -1,0 +1,142 @@
+## U86 | At the doctor's (basics) | در مطب (پایه) | gp | Give personal details and understand simple medical advice | اطلاعات شخصی بدهی و توصیه‌های پزشکی ساده را بفهمی
+
+# l1_u41_1 | leslie | My name and address | نام و نشانی من | Personal details: What's your…? / It's… | اطلاعات شخصی | gp
+leslie: First, you need to register at the surgery. Here's the form. I'll help you. | اول باید تو مطب ثبت‌نام کنی. اینم فرم. کمکت می‌کنم.
+> Thank you. What's a surgery? | ممنون. «سرجری» چیه؟
+> OK. What do I write first? | باشه. اول چی بنویسم؟
+W: register=ثبت‌نام کردن ; surgery=مطب ؛ درمانگاه ; form=فرم
+C: In the UK, "surgery" also means a GP's practice — not only an operation! | surgery یعنی مطب هم هست.
+leslie: The GP's office. First, your full name. Surname in capital letters. | مطب دکتر عمومی. اول، اسم کاملت. نام خانوادگی با حروف بزرگ.
+> What's a surname? | سرنیم یعنی چی؟
+> My surname is long! | نام خانوادگیم بلنده!
+W: full name=نام کامل ; surname=نام خانوادگی ; capital letters=حروف بزرگ
+leslie: Your family name. Then your address. You're at number ten, Mare Street. | اسم فامیلت. بعد آدرست. تو پلاک ده، خیابون مر هستی.
+> Number ten, Mare Street. What's the postcode? | پلاک ده، خیابون مر. کد پستی چیه؟
+> Do I write "Flat" or "House"? | بنویسم «آپارتمان» یا «خونه»؟
+W: address=نشانی ; number=شماره ؛ پلاک ; postcode=کد پستی
+C: British "postcode", American "zip code". Every UK address has a postcode, like SW1A 1AA. | postcode/zip code.
+leslie: The postcode is the same as ours. I'll write it. Now, date of birth. Day, month, year. | کد پستی مثل مال ماست. من می‌نویسمش. حالا، تاریخ تولد. روز، ماه، سال.
+> Day first, then month? | اول روز، بعد ماه؟
+> In Iran we use a different calendar! | تو ایران تقویم دیگه‌ای داریم!
+W: date of birth=تاریخ تولد ; day=روز ; month=ماه ; year=سال ; calendar=تقویم
+X: i borned in ; my birth date are => Your date of birth is…? Write the day first. | My date of birth is the fifth of May. | تاریخ تولدم پنجم مه‌ست.
+C: The UK writes dates day/month/year (05/05/1996); the US writes month/day/year. | ترتیب تاریخ.
+leslie: Use the normal calendar. Day first! Then your phone number and email. | از تقویم معمولی استفاده کن. اول روز! بعد شماره تلفن و ایمیلت.
+> My phone number starts with 07. | شماره‌م با ۰۷ شروع میشه.
+> Do they need my email? | ایمیلم را لازم دارن؟
+W: phone number=شماره تلفن ; email=ایمیل ; starts with=شروع می‌شود با
+receptionist: Yes, please. We send reminders by text and email. Do you have an NHS number? | بله، لطفاً. یادآوری‌ها را با پیامک و ایمیل می‌فرستیم. شماره NHS دارید؟
+> No, I don't. | نه، ندارم.
+> What's an NHS number? | شماره NHS چیه؟
+W: reminders=یادآوری‌ها ; NHS=خدمات ملی سلامت
+receptionist: That's fine. We'll give you one. You don't need ID or proof of address to register. | اشکالی نداره. یکی بهتون میدیم. برای ثبت‌نام مدرک هویت یا نشانی لازم نیست.
+> Really? That's easy. | واقعاً؟ آسونه.
+> When can I see a doctor? | کی می‌تونم دکتر را ببینم؟
+W: ID=مدرک شناسایی ; proof of address=مدرک نشانی
+C: Anyone in England can register with a GP for free — you don't need ID, an address proof or immigration status. | ثبت‌نام رایگان در GP.
+receptionist: After two or three days. We'll text you. Welcome to the practice! | بعد از دو سه روز. براتون پیامک می‌فرستیم. به مطب خوش اومدید!
+
+# l1_u41_2 | okafor | What's the problem? | مشکل چیه؟ | Body + It hurts / I've got… | درد دارد | gp
+okafor: Hello, Leslie. Hello, Nicola. And you're the neighbour? Come in. What's the problem today? | سلام لزلی. سلام نیکولا. و شما همسایه هستید؟ بفرمایید. امروز مشکل چیه؟
+> Nicola has an earache. | نیکولا گوش‌درد داره.
+> Her ear hurts. | گوشش درد می‌کنه.
+W: problem=مشکل ; earache=گوش‌درد ; hurts=درد می‌کند
+nicola: My ear hurts! This one. It's very sore. | گوشم درد می‌کنه! این یکی. خیلی دردناکه.
+> The left ear. | گوش چپ.
+> Since last night. | از دیشب.
+W: sore=دردناک ; left=چپ ; since=از
+okafor: Oh dear. Since last night? Has she got a temperature? | ای وای. از دیشب؟ تب داره؟
+> Yes, a little. | آره، یه کم.
+> Leslie checked it this morning. | لزلی امروز صبح چک کرد.
+W: temperature=تب ؛ دما ; checked=بررسی کرد
+leslie: Thirty-eight point two. And she isn't eating much. | سی و هشت و دو دهم. و زیاد غذا نمی‌خوره.
+> She didn't eat breakfast. | صبحونه نخورد.
+> She only had some juice. | فقط یه کم آبمیوه خورد.
+W: point=ممیز ; eating=خوردن ; juice=آبمیوه
+C: UK thermometers use Celsius. A child's temperature of 38 °C or more is a fever. | ۳۸ درجه یعنی تب.
+okafor: Let me look. Nicola, I'm going to use my little torch. Are you brave? | بذار ببینم. نیکولا، می‌خوام از چراغ‌قوهٔ کوچیکم استفاده کنم. شجاعی؟
+> You're brave, Nicola! | تو شجاعی نیکولا!
+> Hold Mummy's hand. | دست مامان را بگیر.
+W: torch=چراغ‌قوه ; brave=شجاع
+C: British "torch", American "flashlight". | torch/flashlight.
+nicola: I'm brave. Ouch! Is my ear poorly? | من شجاعم. آخ! گوشم مریضه؟
+> The doctor is checking. | دکتر داره نگاه می‌کنه.
+> Nearly finished! | تقریباً تموم شد!
+W: poorly=مریض ; nearly=تقریباً ; finished=تمام
+X: she ear is ill ; her ear are poorly => Her ear is poorly? Let's see. | Her ear is poorly. | گوشش مریضه.
+okafor: It's a little bit red. It's an ear infection. It usually gets better on its own in three days. | یه کم قرمزه. عفونت گوشه. معمولاً خودش تو سه روز خوب میشه.
+> No medicine? | دارو لازم نیست؟
+> What can we do at home? | تو خونه چی کار کنیم؟
+W: infection=عفونت ; on its own=خودبه‌خود ; better=بهتر
+okafor: Children's paracetamol for the pain, and lots of drinks. Come back if she's not better on Friday. | پاراستامول بچه برای درد، و کلی مایعات. اگه تا جمعه خوب نشد برگردید.
+> Thank you, doctor. | ممنون آقای دکتر.
+> Friday. We'll remember. | جمعه. یادمون می‌مونه.
+W: paracetamol=پاراستامول ; pain=درد ; drinks=نوشیدنی‌ها
+okafor: And Nicola, here's a sticker for being so brave! Take care, everyone. | و نیکولا، اینم یه برچسب برای این‌همه شجاعت! مراقب باشید، همه.
+
+# l1_u41_3 | okafor | Take this medicine | این دارو را مصرف کن | Times and frequency: twice a day / with food | دفعات مصرف | gp
+okafor: OK, {you}. You've got a chest infection. I'm giving you some antibiotics. | خب {you}. عفونت قفسهٔ سینه داری. بهت آنتی‌بیوتیک میدم.
+> How do I take them? | چطوری مصرفشون کنم؟
+> Is it serious? | جدیه؟
+W: chest infection=عفونت قفسهٔ سینه ; antibiotics=آنتی‌بیوتیک‌ها ; serious=جدی
+okafor: No, not serious. Take one tablet three times a day. Morning, afternoon and night. | نه، جدی نیست. روزی سه بار یه قرص بخور. صبح، بعدازظهر و شب.
+> Three times a day. | روزی سه بار.
+> Before or after food? | قبل یا بعد از غذا؟
+W: tablet=قرص ; three times a day=روزی سه بار ; afternoon=بعدازظهر
+X: three time in a day ; three times in day => Three times a day? Correct. | Three times a day. | روزی سه بار.
+okafor: With food. Not on an empty stomach. And for seven days. | با غذا. نه با معدهٔ خالی. و به مدت هفت روز.
+> Seven days. OK. | هفت روز. باشه.
+> What if I feel better after three days? | اگه بعد از سه روز بهتر شدم چی؟
+W: empty stomach=معدهٔ خالی ; for seven days=به مدت هفت روز
+okafor: Good question. Finish all the tablets, even if you feel better. It's important. | سؤال خوبیه. همهٔ قرص‌ها را تموم کن، حتی اگه بهتر شدی. مهمه.
+> I'll finish them all. | همه‌شون را تموم می‌کنم.
+> Why is that important? | چرا مهمه؟
+W: finish=تمام کردن ; even if=حتی اگر ; important=مهم
+C: UK doctors always say "finish the course" of antibiotics. | دورهٔ آنتی‌بیوتیک را کامل کنید.
+okafor: So the infection doesn't come back. Can you drink alcohol with them? Best not. | تا عفونت برنگرده. با این‌ها می‌شه الکل خورد؟ بهتره نه.
+> I don't drink alcohol. | من الکل نمی‌خورم.
+> OK. No alcohol. | باشه. الکل نه.
+W: come back=برگشتن ; alcohol=الکل ; best not=بهتر است نه
+okafor: Easy, then! Here's your prescription. Take it to the pharmacy. Do you pay for prescriptions? | پس آسونه! اینم نسخه‌ت. ببرش داروخونه. برای نسخه پول میدی؟
+> How much is a prescription? | نسخه چنده؟
+> I don't know. Do I pay? | نمی‌دونم. پول میدم؟
+W: prescription=نسخه ; pharmacy=داروخانه ; pay=پرداخت کردن
+C: In England a prescription item costs about £10, but many people get them free. In Scotland and Wales they are always free. | هزینهٔ نسخه در انگلیس.
+okafor: If you're working, it's a fixed charge. The pharmacist will explain. Rest and drink lots of water. | اگه کار می‌کنی، یه هزینهٔ ثابته. داروساز توضیح میده. استراحت کن و کلی آب بخور.
+> Thank you, Dr Okafor. | ممنون دکتر اوکافور.
+> When should I come back? | کی برگردم؟
+W: fixed=ثابت ; charge=هزینه ; rest=استراحت کردن
+okafor: Only if you're not better in a week, or if you can't breathe well. Take care, {you}! | فقط اگه تا یه هفته بهتر نشدی، یا نتونستی خوب نفس بکشی. مراقب خودت باش {you}!
+
+# l1_u41_4 | leslie | Get well soon | زود خوب شو | Sympathy: I'm sorry to hear… / I hope… | همدردی | gp
+leslie: Look, there's Mrs Khan in the waiting room. Hello, Amina! Are you OK? | ببین، خانم خان تو اتاق انتظاره. سلام آمینا! خوبی؟
+> Hello, Mrs Khan. | سلام خانم خان.
+> She doesn't look well. | حالش خوب به نظر نمیاد.
+W: waiting room=اتاق انتظار ; well=خوب ؛ سالم
+khan: Hello, dears. Not really. It's my back. I hurt it in the garden. | سلام عزیزانم. نه زیاد. کمرمه. تو باغچه آسیب دیده.
+> I'm sorry to hear that. | متأسفم که اینو می‌شنوم.
+> Oh no! What happened? | ای وای! چی شد؟
+W: back=کمر ؛ پشت ; hurt=آسیب زد ; garden=باغچه
+khan: I lifted a big bag of soil. Silly me! Now I can't bend down. | یه کیسهٔ بزرگ خاک بلند کردم. چه کار احمقانه‌ای! الان نمی‌تونم خم بشم.
+> That sounds painful. | دردناک به نظر میاد.
+> You need to rest. | باید استراحت کنید.
+W: lifted=بلند کرد ; soil=خاک ; bend down=خم شدن ; painful=دردناک
+leslie: Can we do anything? Shopping? Walking Tiger? Ha, cats don't need walking. | کاری از دستمون برمیاد؟ خرید؟ گردوندن تایگر؟ ها، گربه‌ها که گردوندن نمی‌خوان.
+> I can do your shopping. | می‌تونم خریدتون را بکنم.
+> I can put your bins out. | می‌تونم سطل‌هاتون را بذارم بیرون.
+W: shopping=خرید ; walking=گرداندن
+khan: You're so kind. Yes, the bins, please. Tuesday. And maybe some milk? | خیلی مهربونی. آره، سطل‌ها، لطفاً. سه‌شنبه. و شاید یه کم شیر؟
+> No problem at all. | اصلاً مشکلی نیست.
+> I'll bring milk tomorrow. | فردا شیر میارم.
+W: kind=مهربان ; maybe=شاید
+X: i will bringing milk ; i bring milk tomorrow morning yes => You'll bring milk? Thank you! | I'll bring milk tomorrow. | فردا شیر میارم.
+receptionist: Mrs Khan? The doctor's ready for you now. Room two. | خانم خان؟ دکتر الان آماده‌ست. اتاق دو.
+> Good luck, Mrs Khan. | موفق باشید خانم خان.
+> I hope you feel better soon. | امیدوارم زود بهتر بشید.
+W: ready=آماده ; room=اتاق
+C: "Get well soon!" and "I hope you feel better" are common British wishes for someone who is ill. | آرزوی بهبودی.
+khan: Thank you, dears. Pop round for a cup of tea when I'm better! | ممنون عزیزانم. وقتی بهتر شدم برای یه چای سر بزنید!
+> We will! Get well soon! | حتماً! زود خوب بشید!
+> Take care of your back. | مراقب کمرتون باشید.
+W: pop round=سر زدن ; take care=مراقب بودن
+leslie: Poor Amina. Let's make her a get-well card with Nicola tonight. She'll love that! | آمینای بیچاره. بیا امشب با نیکولا براش یه کارت آرزوی بهبودی درست کنیم. عاشقش میشه!
