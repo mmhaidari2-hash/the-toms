@@ -1,0 +1,147 @@
+## U64 | My bedroom | اتاق خوابم | bedroom | Describe your room and find things in it | اتاقت را توصیف کنی و چیزها را در آن پیدا کنی
+
+# l1_u19_1 | ryan | Ryan's posters | پوسترهای رایان | Who's that? He's / She's a… | اون کیه؟ | bedroom
+ryan: Come in! Welcome to my room. Sorry, it's a bit messy. Do you like my posters? | بیا تو! به اتاقم خوش اومدی. ببخشید، یه کم به‌هم‌ریخته‌ست. پوسترهام را دوست داری؟
+> Yes! Who's that? | آره! اون کیه؟
+> They're cool! | باحالن!
+W: posters=پوسترها ; messy=نامرتب ; cool=باحال
+ryan: That's Bukayo Saka. He's a footballer. He plays for Arsenal. Do you like football? | اون بوکایو ساکاست. فوتبالیسته. برای آرسنال بازی می‌کنه. فوتبال دوست داری؟
+> Yes, I love football. | آره، عاشق فوتبالم.
+> Not really. I like basketball. | نه چندان. بسکتبال دوست دارم.
+W: footballer=فوتبالیست ; plays for=بازی می‌کند برای ; football=فوتبال
+C: British "football" is American "soccer". American "football" is a different sport. | football/soccer.
+ryan: Basketball's cool too. That one's my favourite band. They're from Manchester. | بسکتبال هم باحاله. اون یکی گروه مورد علاقه‌مه. اهل منچسترن.
+> What kind of music is it? | چه نوع موسیقی‌ایه؟
+> I don't know them. Are they good? | نمی‌شناسمشون. خوبن؟
+W: band=گروه موسیقی ; music=موسیقی ; kind=نوع
+ryan: Indie rock. They're brilliant. I saw them live last summer! | ایندی راک. فوق‌العاده‌ان. تابستون پارسال اجرای زنده‌شون را دیدم!
+> Lucky you! | خوش به حالت!
+> Was it a big concert? | کنسرت بزرگی بود؟
+W: live=زنده ; last summer=تابستان گذشته ; concert=کنسرت
+ryan: Massive! Who's your favourite singer? | خیلی بزرگ! خوانندهٔ مورد علاقه‌ات کیه؟
+> I like Adele. | من ادل دوست دارم.
+> My favourite singer is Persian. You don't know him. | خوانندهٔ مورد علاقه‌ام ایرانیه. نمی‌شناسیش.
+W: massive=خیلی بزرگ ; singer=خواننده
+X: my favourite singer adele ; adele is favourite me => Adele is your favourite? Good choice! | My favourite singer is Adele. | خوانندهٔ مورد علاقه‌ام ادله.
+C: Adele is from Tottenham, in north London, not far from Hackney. | ادل اهل تاتنهام لندن است.
+ryan: Play me a song later! What's that on my desk? Oh, my old games console. | بعداً یه آهنگ برام بذار! اون رو میزم چیه؟ آه، کنسول بازی قدیمیم.
+> Does it still work? | هنوز کار می‌کنه؟
+> Can we play a game? | می‌تونیم یه بازی کنیم؟
+W: desk=میز تحریر ; games console=کنسول بازی ; still=هنوز ; work=کار کردن
+ryan: It works, but it's ancient. Look at my bed — it's under all my clothes! | کار می‌کنه، ولی خیلی قدیمیه. تختم را ببین — زیر همهٔ لباس‌هامه!
+> Where's the bed? I can't see it! | تخت کجاست؟ نمی‌بینمش!
+> Your mum won't be happy! | مامانت خوشحال نمی‌شه!
+W: ancient=خیلی قدیمی ; clothes=لباس‌ها
+ryan: Ha! She says my room is a "pigsty". That means a home for pigs. Is your room tidy? | ها! می‌گه اتاقم «خوکدونیه». یعنی خونهٔ خوک‌ها. اتاق تو مرتبه؟
+> Yes, my room is very tidy. | آره، اتاقم خیلی مرتبه.
+> Not always! | نه همیشه!
+W: pigsty=خوکدانی ; tidy=مرتب
+ryan: Good. Then you can tidy mine! Just joking. Come on, let's go and get some crisps. | خوبه. پس می‌تونی مال منو مرتب کنی! شوخی کردم. بیا، بریم یه کم چیپس بگیریم.
+
+# l1_u19_2 | ryan | Where are my socks? | جوراب‌هام کجان؟ | Is it in / on / under…? It's not here | تو / رو / زیر...؟ | bedroom
+ryan: I can't find my football socks! The match starts in twenty minutes! | جوراب‌های فوتبالم را پیدا نمی‌کنم! بازی بیست دقیقهٔ دیگه شروع میشه!
+> What colour are they? | چه رنگین؟
+> Don't panic. I'll help you. | هول نکن. کمکت می‌کنم.
+W: find=پیدا کردن ; match=مسابقه ; starts=شروع می‌شود ; panic=هول کردن
+ryan: Red and white. Are they under the bed? | قرمز و سفید. زیر تختن؟
+> No, they aren't under the bed. | نه، زیر تخت نیستن.
+> There's a sock here, but it's blue. | یه جوراب اینجاست، ولی آبیه.
+W: under=زیر ; aren't=نیستند
+X: they not under bed ; no they isn't under the bed => Not under the bed? Hmm. | They aren't under the bed. | زیر تخت نیستن.
+ryan: Blue? That's not mine. Are they in the drawer? | آبی؟ مال من نیست. تو کشوئن؟
+> No, the drawer is full of T-shirts. | نه، کشو پر از تی‌شرته.
+> I can see pants, but no socks! | شورت می‌بینم، ولی جوراب نه!
+W: drawer=کشو ; full of=پر از ; pants=شورت
+C: British "pants" = underwear; American "pants" = British "trousers"! | pants در بریتانیا یعنی شورت.
+ryan: Ha! Pants. What about the washing basket? | ها! شورت. سبد لباس‌چرک چطور؟
+> Yes! Here they are, in the washing basket. | آره! ایناهاشون، تو سبد لباس‌چرک.
+> They're in the basket… but they're dirty! | تو سبدن… ولی کثیفن!
+W: washing basket=سبد لباس چرک ; dirty=کثیف
+ryan: Dirty? Oh no! Are they very smelly? | کثیف؟ وای نه! خیلی بو می‌دن؟
+> Yes. Very smelly! | آره. خیلی بو می‌دن!
+> Not too bad. | نه خیلی بد.
+W: smelly=بدبو
+ryan: I've got no time to wash them. I'll wear them! Where's my other boot? | وقت ندارم بشورمشون. همینا را می‌پوشم! اون یکی کفش فوتبالم کجاست؟
+> Is it behind the door? | پشت دره؟
+> On the shelf, next to the trophy. | رو قفسه، کنار جام.
+W: boot=کفش فوتبال ; behind=پشت ; trophy=جام
+ryan: Next to the trophy! Brilliant. My water bottle? Have you seen it? | کنار جام! عالی. بطری آبم؟ دیدیش؟
+> It's on your desk. | رو میزته.
+> I think it's in the kitchen. | فکر کنم تو آشپزخونه‌ست.
+W: water bottle=بطری آب ; seen=دیده
+ryan: Desk, yes. Socks, boots, water, shin pads… I'm ready! Thanks, mate! | میز، آره. جوراب، کفش، آب، ساق‌بند… آماده‌ام! ممنون رفیق!
+> Good luck! Score a goal! | موفق باشی! گل بزن!
+> Have a good match! | بازی خوبی داشته باشی!
+W: shin pads=ساق‌بند ; mate=رفیق ; score a goal=گل زدن
+C: "Mate" is a friendly British word for a friend — like "dude" in American English. | mate یعنی رفیق.
+ryan: Cheers! Come and watch if you want. It's at the park. Bring Nicola — she shouts the loudest! | ممنون! اگه خواستی بیا تماشا. تو پارکه. نیکولا را هم بیار — از همه بلندتر داد می‌زنه!
+
+# l1_u19_3 | leslie | Making the bed | مرتب کردن تخت | Put… on / Take… off / Fold | بذار رو / بردار / تا کن | poorly
+leslie: It's sheet-changing day! Can you help me with Ryan's bed? He's at football. | امروز روز عوض کردن ملافه‌ست! تو تخت رایان کمکم می‌کنی؟ رفته فوتبال.
+> Sure. What do I do? | حتماً. چی کار کنم؟
+> Of course. It's very messy! | البته. خیلی به‌هم‌ریخته‌ست!
+W: sheet=ملافه ; changing=عوض کردن
+leslie: First, take the pillowcases off. Put them in the basket. | اول، روبالشی‌ها را دربیار. بذارشون تو سبد.
+> OK. Two pillowcases. | باشه. دو تا روبالشی.
+> Done. What next? | تموم. بعدش چی؟
+W: pillowcases=روبالشی‌ها ; take off=درآوردن ; basket=سبد
+leslie: Now the duvet cover. This is the hard bit! | حالا روکش لحاف. این قسمت سخته!
+> Wow, it's very big! | وای، خیلی بزرگه!
+> Let's do it together. | بیا با هم انجامش بدیم.
+W: duvet=لحاف ; cover=روکش ; hard bit=قسمت سخت
+C: Brits say "duvet"; Americans often say "comforter". Putting the cover on is a famous struggle! | duvet/comforter.
+leslie: Take the sheet off the mattress too. Oh! What's that under the mattress? | ملافه را هم از روی تشک بردار. آه! اون زیر تشک چیه؟
+> It's a chocolate bar! | یه شکلاته!
+> I think it's a comic! | فکر کنم یه کتاب مصوره!
+W: mattress=تشک ; chocolate bar=شکلات ; comic=کتاب مصور
+leslie: Chocolate! Ryan! Right, put the clean sheet on. Pull the corners tight. | شکلات! رایان! خب، ملافهٔ تمیز را بنداز. گوشه‌ها را محکم بکش.
+> Like this? | این‌جوری؟
+> The corners are tight now. | گوشه‌ها الان محکمن.
+W: clean=تمیز ; corners=گوشه‌ها ; tight=محکم
+leslie: Now the duvet. Put your arms in the cover, hold the corners and shake! | حالا لحاف. دستات را بکن تو روکش، گوشه‌ها را بگیر و تکون بده!
+> Shake, shake, shake! | تکون، تکون، تکون!
+> Help! I'm inside the cover! | کمک! رفتم تو روکش!
+W: arms=دست‌ها/بازوها ; hold=نگه داشتن ; shake=تکان دادن ; inside=داخل
+X: i am in inside cover ; help i in cover => You're inside the cover? Ha ha! | I'm inside the cover! | رفتم تو روکش!
+leslie: Ha ha! Everyone does that the first time. Now the pillowcases. | ها ها! همه بار اول این کار را می‌کنن. حالا روبالشی‌ها.
+> This one is blue, that one is grey. | این یکی آبیه، اون یکی طوسی.
+> Easy! Pillows done. | آسونه! بالش‌ها تموم.
+W: grey=طوسی ; easy=آسان
+leslie: Fold the blanket and put it on the end of the bed. | پتو را تا کن و بذارش پایین تخت.
+> Fold it in half? | نصف تاش کنم؟
+> There we go. All finished! | بفرما. همه تموم!
+W: fold=تا کردن ; blanket=پتو ; end=انتها
+leslie: Beautiful! Ryan won't know his own bed. Now, let's change ours — just kidding! A cup of tea first. | قشنگه! رایان تخت خودش را نمی‌شناسه. حالا، بریم مال خودمون را عوض کنیم — شوخی کردم! اول یه فنجون چای.
+
+# l1_u19_4 | ryan | Lights out | خاموشی | It's time to… / Can I… five more minutes? | وقتِ ... است / ... پنج دقیقه دیگه؟ | bedroom
+ryan: Is it eleven o'clock already? Mum says lights out at eleven on school nights. | ساعت یازده شده؟ مامان می‌گه شب‌های مدرسه ساعت یازده چراغ خاموش.
+> Yes, it's eleven. Time for bed! | آره، ساعت یازده‌ست. وقت خوابه!
+> It's ten to eleven. | ده دقیقه به یازده‌ست.
+W: lights out=خاموشی ; school nights=شب‌های قبل از مدرسه ; already=از الان
+ryan: Ten more minutes. I'm in the middle of a game. Please don't tell Mum! | ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!
+> Five more minutes. That's all. | پنج دقیقه دیگه. همین.
+> You've got school tomorrow, Ryan. | فردا کالج داری رایان.
+W: in the middle of=وسط ; tell=گفتن
+ryan: OK, OK. Five minutes. Can you put my alarm on? Seven o'clock. | باشه، باشه. پنج دقیقه. ساعت زنگ‌دارم را تنظیم می‌کنی؟ ساعت هفت.
+> Seven o'clock. Done. | ساعت هفت. تموم.
+> Seven? That's early! | هفت؟ زوده!
+W: alarm=زنگ ساعت ; early=زود
+ryan: I need to shower before college. Can you close the curtains, please? | باید قبل از کالج دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟
+> Sure. It's dark outside. | حتماً. بیرون تاریکه.
+> The street light is very bright. | چراغ خیابون خیلی روشنه.
+W: shower=دوش گرفتن ; curtains=پرده‌ها ; dark=تاریک ; bright=روشن
+ryan: Thanks. OK, game over. I lost! Where's my phone charger? | ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟
+> It's next to your bed. | کنار تختته.
+> Here it is. Under your pillow! | ایناهاش. زیر بالشته!
+W: game over=پایان بازی ; lost=باخت ; charger=شارژر ; pillow=بالش
+X: it next to bed ; is next to the bed it => Next to your bed? Got it. | It's next to your bed. | کنار تختته.
+ryan: Under my pillow! Classic. Mum says no phones in bed. Do you think that's fair? | زیر بالشم! همیشه همینه. مامان می‌گه گوشی تو تخت ممنوع. فکر می‌کنی منصفانه‌ست؟
+> Yes, phones are bad for sleep. | آره، گوشی برای خواب بده.
+> Maybe. My mum said the same! | شاید. مامان منم همینو می‌گفت!
+W: fair=منصفانه ; sleep=خواب ; same=همان
+C: Many British parents set "no screens in the bedroom" rules for teenagers to help them sleep. | قانون بدون صفحه نمایش در اتاق.
+ryan: Mums are all the same! OK, phone on the desk. Can you turn the big light off? | مامان‌ها همه مثل همن! باشه، گوشی رو میز. چراغ بزرگه را خاموش می‌کنی؟
+> Light off. Good night, Ryan! | چراغ خاموش. شب بخیر رایان!
+> Sleep well! | خوب بخوابی!
+W: turn off=خاموش کردن ; good night=شب بخیر
+ryan: Night! Thanks, mate. And don't tell Mum about the extra five minutes! | شب بخیر! ممنون رفیق. و دربارهٔ اون پنج دقیقهٔ اضافه به مامان چیزی نگو!
