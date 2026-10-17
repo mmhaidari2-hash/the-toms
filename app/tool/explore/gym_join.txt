@@ -1,0 +1,35 @@
+jade: Hiya! Welcome to FitHub. Are you looking to sign up, or just after a day pass? | سلام! به فیت‌هاب خوش اومدی. می‌خوای ثبت‌نام کنی، یا فقط دنبال بلیت یه‌روزه‌ای؟
+> I'm looking to sign up — what memberships do you offer? | می‌خوام ثبت‌نام کنم — چه عضویت‌هایی دارید؟
+> Just a day pass for now — I'd like to try it out first. | فعلاً فقط بلیت یه‌روزه — می‌خوام اول امتحانش کنم.
+W: sign up=ثبت‌نام کردن ; day pass=بلیت یک‌روزه ; membership=عضویت ; try it out=امتحان کردن
+jade: We've got a rolling monthly at £35 with no contract, or £29 a month if you commit to twelve months. | یه ماهانهٔ بدون قرارداد ۳۵ پوندی داریم، یا اگه دوازده ماه تعهد بدی ماهی ۲۹ پوند.
+> I'd prefer the rolling one — can I cancel any time? | ترجیح می‌دم بدون قرارداد — هر وقت بخوام می‌تونم لغو کنم؟
+> The twelve-month one works out cheaper, so I'll go for that. | دوازده‌ماهه ارزون‌تر درمیاد، پس اونو می‌گیرم.
+W: rolling monthly=ماهانهٔ تمدیدشونده ; commit=تعهد دادن ; cancel=لغو کردن ; works out cheaper=ارزان‌تر درمی‌آید
+jade: Yep, just give us a month's notice. Are you a student? There's a discount with an ID card. | آره، فقط یه ماه قبل خبر بده. دانشجویی؟ با کارت شناسایی تخفیف داره.
+> No, I'm working full-time. | نه، تمام‌وقت کار می‌کنم.
+> I'm doing an evening course — does that count? | یه دورهٔ شبانه می‌رم — حساب میشه؟
+W: notice=اطلاع قبلی ; discount=تخفیف ; full-time=تمام‌وقت ; count=حساب شدن
+jade: If you've got a college card, yeah. What are your goals, out of interest? | اگه کارت کالج داری، آره. از سر کنجکاوی، هدفت چیه؟
+> I want to get fitter and lose a bit of weight. | می‌خوام بدنم آماده‌تر بشه و یه کم وزن کم کنم.
+> Mostly to build strength and reduce stress. | بیشتر برای قوی شدن و کم کردن استرس.
+W: goals=اهداف ; out of interest=از سر کنجکاوی ; get fitter=آماده‌تر شدن ; strength=قدرت
+jade: Love that. Would you like to book a free induction so a trainer can show you round the kit? | عالیه. می‌خوای یه جلسهٔ آشنایی رایگان رزرو کنی تا یه مربی دستگاه‌ها را نشونت بده؟
+> Yes, that'd be great — is tomorrow morning free? | آره، عالی میشه — فردا صبح خالیه؟
+> I'm alright, thanks — I've used gyms before. | نه ممنون — قبلاً باشگاه رفتم.
+W: induction=جلسهٔ آشنایی ; trainer=مربی ; kit=تجهیزات
+C: An "induction" is a short introduction to safety and equipment — most UK gyms offer one free. | induction آشنایی اولیه است.
+jade: No worries. We also do classes — spin, yoga and boxercise. They're included in the price. | مشکلی نیست. کلاس هم داریم — اسپین، یوگا و باکسرسایز. تو قیمت حسابه.
+> Yoga sounds good. When's the next class? | یوگا خوب به نظر میاد. کلاس بعدی کیه؟
+> I might give spin a go. Is it hard? | شاید اسپین را امتحان کنم. سخته؟
+W: included=شامل ; give it a go=امتحانش کردن
+jade: Book them on the app, they fill up fast. Spin's brutal, but you'll love it. Can I just take some details? | تو اپ رزرو کن، سریع پر میشن. اسپین وحشتناکه، ولی عاشقش میشی. می‌تونم یه سری مشخصات بگیرم؟
+> Of course. What do you need? | حتماً. چی لازم دارید؟
+> Sure — do you need my bank details? | البته — مشخصات بانکیم را می‌خواید؟
+W: fill up=پر شدن ; brutal=خیلی سخت ; details=مشخصات
+jade: Name, email and a direct debit for the monthly payment. Any injuries or health conditions I should know about? | اسم، ایمیل و یه برداشت مستقیم برای پرداخت ماهانه. آسیب یا مشکل سلامتی هست که باید بدونم؟
+> No, I'm in good health. | نه، سالمم.
+> I had a knee injury last year, but it's fine now. | پارسال زانوم آسیب دید، ولی الان خوبه.
+W: direct debit=برداشت مستقیم ; injuries=آسیب‌ها ; health conditions=مشکلات سلامتی
+C: A "direct debit" lets a company take regular payments from your bank account. | دایرکت دبیت پرداخت خودکار منظم است.
+jade: Sorted! Here's your fob for the turnstile. Just tap in and out. Smash it! | حله! اینم جاکلیدی برای گیت. فقط موقع ورود و خروج بزن. بترکون!

@@ -24,8 +24,8 @@
       "always",
       "early",
       "bird",
-      "dear",
-      "half"
+      "past",
+      "five"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
      "suggestionFa": "من سحرخیزم عزیزم. همیشه ساعت پنج و نیم پا می‌شم.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "sometimes",
-      "patel",
       "every",
-      "walk",
-      "then"
+      "patel",
+      "then",
+      "walk"
      ],
      "suggestion": "Every day. Then I sometimes go for a walk with Mrs Patel.",
      "suggestionFa": "هر روز. بعد گاهی با خانم پاتل پیاده‌روی می‌رم.",
@@ -124,8 +124,8 @@
       "vegetables",
       "afternoon",
       "gossip",
-      "watch",
-      "telly"
+      "telly",
+      "watch"
      ],
      "suggestion": "Fruit, vegetables, and a bit of gossip! Do you ever watch telly in the afternoon?",
      "suggestionFa": "میوه، سبزی و یه کم غیبت! تو هیچ‌وقت عصرها تلویزیون می‌بینی؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "things",
       "change",
+      "things",
       "always",
       "never",
       "some"

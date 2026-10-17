@@ -20,8 +20,8 @@
     {
      "keywords": [
       "hello",
-      "meet",
       "nice",
+      "meet",
       "mia"
      ],
      "suggestion": "Hello, Mia! Nice to meet you.",
@@ -121,9 +121,9 @@
    "branches": [
     {
      "keywords": [
-      "let's",
-      "mia's",
       "first",
+      "mia's",
+      "let's",
       "mum"
      ],
      "suggestion": "Let's ask Mia's mum first.",
@@ -136,8 +136,8 @@
      "keywords": [
       "that's",
       "shall",
-      "nice",
-      "idea"
+      "idea",
+      "nice"
      ],
      "suggestion": "That's a nice idea. What shall we eat?",
      "suggestionFa": "فکر خوبیه. چی بخوریم؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "blankets",
       "shall",
-      "some",
-      "good"
+      "idea",
+      "some"
      ],
      "suggestion": "Good idea! Shall I get some blankets?",
      "suggestionFa": "فکر خوبیه! چندتا پتو بیارم؟",
@@ -286,8 +286,8 @@
     {
      "keywords": [
       "nicola",
-      "mummy",
       "first",
+      "mummy",
       "ask"
      ],
      "suggestion": "Ask your mummy first, Nicola.",

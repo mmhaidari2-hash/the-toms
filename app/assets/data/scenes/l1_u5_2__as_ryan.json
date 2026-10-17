@@ -23,9 +23,9 @@
      "keywords": [
       "mondays",
       "monday",
-      "like",
       "hate",
-      "best"
+      "best",
+      "like"
      ],
      "suggestion": "Ugh, Monday. I hate Mondays. What day do you like best?",
      "suggestionFa": "اه، دوشنبه. از دوشنبه بدم میاد. کدوم روز را بیشتر دوست داری؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "wednesdays",
-      "swimming",
       "football",
       "tuesdays",
+      "swimming",
       "nicola"
      ],
      "suggestion": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
@@ -73,8 +73,8 @@
      "keywords": [
       "nursery",
       "william",
-      "lucky",
       "plays",
+      "lucky",
       "sand"
      ],
      "suggestion": "William goes to nursery. He plays with sand all day. Lucky him!",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "drinks",
-      "nurse",
-      "works",
-      "she's"
+      "office",
+      "she's",
+      "about",
+      "works"
      ],
      "suggestion": "Yeah, she's a nurse. Dad works in an office. He drinks about ten cups of tea a day.",
      "suggestionFa": "آره، پرستاره. بابا توی دفتر کار می‌کنه. روزی حدود ده لیوان چای می‌خوره.",
@@ -174,7 +174,7 @@
       "potatoes",
       "chicken",
       "sunday",
-      "gravy",
+      "won't",
       "roast"
      ],
      "suggestion": "Roast chicken, roast potatoes, gravy. Come this Sunday. Mum won't mind!",

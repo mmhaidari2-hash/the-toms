@@ -9,81 +9,89 @@
   "characterId": "nicola",
   "milestone": "M1"
  },
- "start": "b1",
+ "start": "n1",
  "nodes": {
-  "b1": {
-   "id": "b1",
+  "n1": {
+   "id": "n1",
    "speaker": "nicola",
    "text": "You came! You came! Look at my badge — it says I'm SIX!",
    "translations": {
-    "fa": "اومدی! اومدی! بج منو ببین — نوشته شش‌ساله‌ام!"
+    "fa": "اومدی! اومدی! نشونم را ببین — نوشته من شش سالمه!"
    },
    "branches": [
     {
      "keywords": [
-      "happy",
       "birthday",
-      "many happy returns",
-      "six",
-      "lovely",
-      "wow"
+      "returns",
+      "nicola",
+      "happy"
      ],
      "suggestion": "Happy birthday, Nicola! Many happy returns!",
-     "suggestionFa": "تولدت مبارک نیکولا! صد سال به این سال‌ها!",
-     "trustDelta": 8,
-     "next": "b2",
+     "suggestionFa": "تولدت مبارک نیکولا! صد سال زنده باشی!",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grown",
+      "six",
+      "wow",
+      "up"
+     ],
+     "suggestion": "Wow, six! You're so grown-up!",
+     "suggestionFa": "وای، شش! چه بزرگ شدی!",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "many happy returns",
-     "fa": "صد سال به این سال‌ها"
+     "word": "badge",
+     "fa": "نشان"
     },
     {
-     "word": "badge",
-     "fa": "نشان / بج"
+     "word": "many happy returns",
+     "fa": "صد سال زنده باشی"
+    },
+    {
+     "word": "grown-up",
+     "fa": "بزرگ"
     }
    ],
-   "cultureNote": {
-    "en": "Brits often say 'Many happy returns (of the day)' on birthdays.",
-    "fa": "بریتانیایی‌ها در تولد اغلب می‌گویند «Many happy returns»."
-   }
+   "cultureNote": null
   },
-  "b2": {
-   "id": "b2",
+  "n2": {
+   "id": "n2",
    "speaker": "nicola",
    "text": "Did you bring me a present? Is it wrapped? Can I open it NOW?",
    "translations": {
-    "fa": "برام کادو آوردی؟ کادوپیچ شده؟ می‌تونم همین الان بازش کنم؟"
+    "fa": "برام کادو آوردی؟ کادوپیچه؟ می‌تونم همین الان بازش کنم؟"
    },
    "branches": [
     {
      "keywords": [
-      "present",
-      "yes",
       "here",
       "open",
-      "course",
-      "gift"
+      "go"
      ],
      "suggestion": "Here you go — go on, open it!",
      "suggestionFa": "بفرما — بازش کن!",
-     "trustDelta": 8,
-     "next": "b3",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
+      "cheeky",
       "after",
-      "cake",
-      "wait",
-      "later"
+      "cake"
      ],
      "suggestion": "After the cake, cheeky!",
      "suggestionFa": "بعد از کیک، شیطون!",
      "trustDelta": 6,
-     "next": "b3",
+     "next": "n3",
      "success": true
     }
    ],
@@ -93,53 +101,320 @@
      "fa": "کادو"
     },
     {
+     "word": "wrapped",
+     "fa": "کادوپیچ"
+    },
+    {
      "word": "cheeky",
-     "fa": "شیطون / پررو (با محبت)"
+     "fa": "شیطون/پررو"
     }
    ],
    "cultureNote": null
   },
-  "b3": {
-   "id": "b3",
+  "n3": {
+   "id": "n3",
    "speaker": "nicola",
-   "text": "Everyone's singing! Will you sing with me? And then we play pass the parcel!",
+   "text": "It's a unicorn book! I love it! Look, Mia's here too.",
    "translations": {
-    "fa": "همه دارن می‌خونن! با من می‌خونی؟ بعدش «پاس د پارسل» بازی می‌کنیم!"
+    "fa": "یه کتاب تک‌شاخه! عاشقشم! ببین، میا هم اینجاست."
    },
    "branches": [
     {
      "keywords": [
-      "sing",
-      "yes",
-      "happy birthday",
-      "course",
-      "love",
-      "parcel"
+      "having",
+      "hello",
+      "fun",
+      "mia"
      ],
-     "suggestion": "Of course! Happy birthday to you…",
-     "suggestionFa": "البته! تولد تولد تولدت مبارک…",
-     "trustDelta": 10,
-     "next": "b4",
+     "suggestion": "Hello, Mia! Are you having fun?",
+     "suggestionFa": "سلام میا! خوش می‌گذره؟",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "glad"
+     ],
+     "suggestion": "I'm glad you like it!",
+     "suggestionFa": "خوشحالم که دوستش داری!",
+     "trustDelta": 6,
+     "next": "n4",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "pass the parcel",
-     "fa": "بازی بستهٔ دست‌به‌دست"
+     "word": "unicorn",
+     "fa": "تک‌شاخ"
+    },
+    {
+     "word": "having fun",
+     "fa": "خوش گذشتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "We're playing musical statues! When the music stops, you freeze. Want to play?",
+   "translations": {
+    "fa": "داریم مجسمه‌بازی می‌کنیم! وقتی آهنگ قطع میشه، باید خشک بشی. می‌خوای بازی کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "freezing",
+      "good"
+     ],
+     "suggestion": "Yes! I'm very good at freezing.",
+     "suggestionFa": "آره! من تو خشک شدن خیلی خوبم.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "judge",
+      "okay",
+      "i'll"
+     ],
+     "suggestion": "I'll be the judge, okay?",
+     "suggestionFa": "من داور می‌شم، باشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "musical statues",
+     "fa": "بازی مجسمه با موسیقی"
+    },
+    {
+     "word": "freeze",
+     "fa": "خشک شدن/بی‌حرکت ماندن"
+    },
+    {
+     "word": "judge",
+     "fa": "داور"
     }
    ],
    "cultureNote": {
-    "en": "Pass the parcel: a gift wrapped in many layers is passed round while music plays — a classic British party game.",
-    "fa": "پاس د پارسل: کادویی با چند لایه کاغذ دست‌به‌دست می‌شود تا موسیقی قطع شود — بازی کلاسیک جشن‌های بریتانیایی."
+    "en": "Musical statues and pass the parcel are classic British party games.",
+    "fa": "بازی‌های کلاسیک جشن تولد بریتانیایی."
    }
   },
-  "b4": {
-   "id": "b4",
+  "n5": {
+   "id": "n5",
    "speaker": "nicola",
-   "text": "Best. Birthday. EVER. Thank you for being my friend!",
+   "text": "You moved! You're out! Ha ha! Now it's party food. Do you like fairy cakes?",
    "translations": {
-    "fa": "بهترین. تولد. تاریخ! ممنون که دوستمی!"
+    "fa": "تکون خوردی! باختی! ها ها! حالا وقت غذای جشنه. کیک فنجونی دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "love",
+      "pink",
+      "have",
+      "can"
+     ],
+     "suggestion": "I love fairy cakes! Can I have a pink one?",
+     "suggestionFa": "عاشق کیک فنجونی‌ام! یه صورتی می‌تونم بردارم؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what",
+      "are"
+     ],
+     "suggestion": "What are fairy cakes?",
+     "suggestionFa": "کیک فنجونی چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you're out",
+     "fa": "باختی"
+    },
+    {
+     "word": "fairy cakes",
+     "fa": "کیک فنجانی کوچک"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Little cakes with icing and sprinkles! Mummy made them. And there's jelly and ice cream!",
+   "translations": {
+    "fa": "کیک‌های کوچیک با خامه و ترافل! مامان درستشون کرد. ژله و بستنی هم هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cream",
+      "jelly",
+      "ice",
+      "yum"
+     ],
+     "suggestion": "Jelly and ice cream — yum!",
+     "suggestionFa": "ژله و بستنی — به‌به!",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mummy",
+      "great",
+      "baker"
+     ],
+     "suggestion": "Your mummy is a great baker.",
+     "suggestionFa": "مامانت شیرینی‌پز خیلی خوبیه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "icing",
+     "fa": "روکش شکری"
+    },
+    {
+     "word": "sprinkles",
+     "fa": "ترافل رنگی"
+    },
+    {
+     "word": "jelly",
+     "fa": "ژله"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"jelly\" is American \"Jell-O\"; American \"jelly\" is British \"jam\".",
+    "fa": "jelly بریتانیایی همان Jell-O است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Everyone's singing! Will you sing with me? Then I blow out the candles!",
+   "translations": {
+    "fa": "همه دارن می‌خونن! باهام می‌خونی؟ بعد شمع‌ها را فوت می‌کنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "course",
+      "happy"
+     ],
+     "suggestion": "Of course! Happy birthday to you…",
+     "suggestionFa": "حتماً! تولدت مبارک…",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forget",
+      "don't",
+      "wish",
+      "make"
+     ],
+     "suggestion": "Don't forget to make a wish!",
+     "suggestionFa": "یادت نره آرزو کنی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sing",
+     "fa": "آواز خواندن"
+    },
+    {
+     "word": "blow out",
+     "fa": "فوت کردن"
+    },
+    {
+     "word": "candles",
+     "fa": "شمع‌ها"
+    },
+    {
+     "word": "make a wish",
+     "fa": "آرزو کردن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "I made a wish! But I can't tell you, or it won't come true. Now pass the parcel!",
+   "translations": {
+    "fa": "آرزو کردم! ولی نمی‌تونم بهت بگم، وگرنه برآورده نمیشه. حالا بازی بسته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "music",
+      "going",
+      "okay",
+      "i'll"
+     ],
+     "suggestion": "Okay, I'll keep the music going.",
+     "suggestionFa": "باشه، من آهنگ را ادامه می‌دم.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "prize",
+      "hope",
+      "win"
+     ],
+     "suggestion": "I hope you win the prize!",
+     "suggestionFa": "امیدوارم جایزه را ببری!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come true",
+     "fa": "برآورده شدن"
+    },
+    {
+     "word": "pass the parcel",
+     "fa": "بازی دست‌به‌دست کردن بسته"
+    },
+    {
+     "word": "prize",
+     "fa": "جایزه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Best. Birthday. EVER. Thank you for being my friend! You get a party bag!",
+   "translations": {
+    "fa": "بهترین. تولد. تاریخ! ممنون که دوستمی! یه کیسهٔ هدیه می‌گیری!"
    },
    "branches": [],
    "newWords": [],

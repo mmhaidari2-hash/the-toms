@@ -24,8 +24,8 @@
       "registered",
       "elections",
       "citizen",
-      "right",
-      "local"
+      "local",
+      "right"
      ],
      "suggestion": "Right, I'm off to vote. Are you registered? You can vote in local elections, you know, even if you're not a citizen yet.",
      "suggestionFa": "خب، دارم می‌رم رأی بدم. ثبت‌نام کردی؟ می‌دونی، تو انتخابات محلی می‌تونی رأی بدی، حتی اگه هنوز شهروند نیستی.",
@@ -49,7 +49,7 @@
       "nationality",
       "station's",
       "eligible",
-      "depends",
+      "minutes",
       "polling"
      ],
      "suggestion": "It depends on your status and nationality, but you're eligible — you got your polling card. The station's at the primary school. Takes five minutes.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "candidate",
-      "pencil",
       "ballot",
+      "pencil",
       "that's",
       "cross"
      ],
@@ -99,7 +99,7 @@
       "tradition",
       "majority",
       "whether",
-      "that's",
+      "people",
       "mostly"
      ],
      "suggestion": "Tradition, mostly! And yes — it's \"first past the post\". Most votes wins, even if it's not a majority. People argue about whether that's fair.",
@@ -123,9 +123,9 @@
      "keywords": [
       "controversial",
       "exactly",
-      "that's",
+      "moment",
       "anyway",
-      "moment"
+      "that's"
      ],
      "suggestion": "Exactly, which is why it's controversial. Anyway — grab your coat. Your first vote here. That's a big moment, that is.",
      "suggestionFa": "دقیقاً، واسه همین بحث‌برانگیزه. به هر حال — کتت را بردار. اولین رأیت اینجا. لحظهٔ بزرگیه، واقعاً.",

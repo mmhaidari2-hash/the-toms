@@ -22,10 +22,10 @@
     {
      "keywords": [
       "asleep",
-      "night",
-      "power",
       "about",
-      "last"
+      "power",
+      "night",
+      "hear"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "suddenly",
-      "raining",
-      "william",
       "reading",
-      "blowing"
+      "blowing",
+      "raining",
+      "william"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. William was reading, and suddenly — dark!",
      "suggestionFa": "آخی، بیچاره! بارون شدید می‌بارید و باد می‌وزید. ویلیام داشت کتاب می‌خوند، که یهو — تاریکی!",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "looking",
-      "william",
       "candles",
+      "william",
+      "looking",
       "scared",
       "torch"
      ],
@@ -100,7 +100,7 @@
       "batteries",
       "drinking",
       "stories",
-      "telling"
+      "sitting"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
      "suggestionFa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "electric",
       "kettle's",
+      "electric",
       "william",
       "asleep",
       "lights"
@@ -149,8 +149,8 @@
       "batteries",
       "buying",
       "first",
-      "next",
-      "time"
+      "time",
+      "fine"
      ],
      "suggestion": "All fine now. But next time, I'm buying new batteries first!",
      "suggestionFa": "الان همه چی خوبه. ولی دفعهٔ بعد، اول باتری نو می‌خرم!",

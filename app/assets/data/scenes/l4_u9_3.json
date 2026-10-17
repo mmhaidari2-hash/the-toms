@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "third",
       "month",
+      "third",
       "time"
      ],
      "suggestion": "Yes, and it's the third time this month.",
@@ -137,8 +137,8 @@
      "keywords": [
       "happened",
       "mention",
-      "before",
-      "should"
+      "should",
+      "before"
      ],
      "suggestion": "Should I mention that it's happened before?",
      "suggestionFa": "بگم که قبلاً هم اتفاق افتاده؟",
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "someone",
-      "polite",
       "that's",
+      "polite",
       "angry"
      ],
      "suggestion": "That's very polite for someone so angry!",

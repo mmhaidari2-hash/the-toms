@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "please",
       "should",
+      "please",
       "look",
       "out"
      ],
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "happens",
       "deposit",
-      "when",
-      "move"
+      "happens",
+      "move",
+      "when"
      ],
      "suggestion": "What happens to the deposit when I move out?",
      "suggestionFa": "وقتی بیرون برم ودیعه چی میشه؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "counts",
-      "tear",
       "wear",
+      "tear",
       "as"
      ],
      "suggestion": "What counts as \"wear and tear\"?",
@@ -189,10 +189,10 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "months",
+      "before",
       "leave",
-      "want"
+      "have"
      ],
      "suggestion": "So if I want to leave, I have to tell them two months before?",
      "suggestionFa": "پس اگه بخوام برم، باید دو ماه قبل بهشون بگم؟",

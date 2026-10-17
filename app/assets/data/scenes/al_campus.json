@@ -7,122 +7,445 @@
  "setting": "UCL, Bartlett School",
  "settingFa": "دانشگاه UCL، دانشکدهٔ بارتلت",
  "requires": null,
- "start": "a1",
+ "start": "n1",
  "nodes": {
-  "a1": {
-   "id": "a1",
+  "n1": {
+   "id": "n1",
    "speaker": "al",
    "text": "Right, folks — the question on the table: should central London scrap cars altogether? I'd like you to make a case, either way.",
    "translations": {
-    "fa": "خب بچه‌ها — سؤال امروز: آیا مرکز لندن باید ماشین‌ها را کاملاً حذف کند؟ می‌خواهم استدلال کنید، موافق یا مخالف."
+    "fa": "خب بچه‌ها — سؤال روی میز: آیا مرکز لندن باید ماشین‌ها را کلاً کنار بذاره؟ می‌خوام از یه طرف دفاع کنید."
    },
    "branches": [
     {
      "keywords": [
-      "pollution",
-      "air",
-      "health",
-      "cleaner",
-      "emissions",
-      "walk",
-      "cycle"
+      "substantial",
+      "benefits",
+      "quality",
+      "should"
      ],
      "suggestion": "I'd argue it should — the air quality and health benefits would be substantial.",
-     "suggestionFa": "من استدلال می‌کنم که باید — منافع کیفیت هوا و سلامتی چشمگیر خواهد بود.",
-     "trustDelta": 9,
-     "next": "a2",
+     "suggestionFa": "استدلال می‌کنم که باید — فواید کیفیت هوا و سلامت قابل‌توجه خواهد بود.",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "business",
-      "deliveries",
-      "disabled",
-      "access",
-      "jobs",
-      "economy",
-      "convinced",
       "businesses",
+      "convinced",
       "mobility",
-      "not convinced"
+      "limited"
      ],
      "suggestion": "I'm not convinced — it could hit businesses and people with limited mobility.",
-     "suggestionFa": "قانع نیستم — ممکن است به کسب‌وکارها و افراد کم‌تحرک آسیب بزند.",
-     "trustDelta": 9,
-     "next": "a2",
+     "suggestionFa": "قانع نشدم — ممکنه به کسب‌وکارها و افراد کم‌تحرک ضربه بزنه.",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "make a case",
-     "fa": "استدلال کردن"
+     "word": "scrap",
+     "fa": "کنار گذاشتن"
     },
     {
-     "word": "scrap",
-     "fa": "کنار گذاشتن / حذف"
+     "word": "make a case",
+     "fa": "دفاع کردن از یک موضع"
+    },
+    {
+     "word": "substantial",
+     "fa": "قابل‌توجه"
+    },
+    {
+     "word": "limited mobility",
+     "fa": "تحرک محدود"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "In UK seminars, tutors expect you to take a position and defend it — sitting on the fence is gently discouraged.",
+    "fa": "در سمینارهای بریتانیا باید موضع بگیری."
+   }
   },
-  "a2": {
-   "id": "a2",
+  "n2": {
+   "id": "n2",
    "speaker": "al",
-   "text": "Good. Now play devil's advocate — what's the strongest argument against your own position?",
+   "text": "Good. What evidence would you cite? Opinion's cheap in a seminar — data isn't.",
    "translations": {
-    "fa": "خوب. حالا وکیل مدافع شیطان باش — قوی‌ترین استدلال علیه نظر خودت چیست؟"
+    "fa": "خوبه. چه شواهدی ذکر می‌کنی؟ نظر تو سمینار ارزونه — داده نه."
    },
    "branches": [
     {
      "keywords": [
-      "however",
-      "although",
-      "admittedly",
-      "on the other hand",
-      "fair",
-      "cost",
-      "trade"
+      "nitrogen",
+      "central",
+      "dioxide",
+      "figures"
      ],
-     "suggestion": "Admittedly, the transition would be costly, and on the other hand some people genuinely depend on cars.",
-     "suggestionFa": "البته، این گذار پرهزینه خواهد بود، و از طرف دیگر بعضی واقعاً به ماشین وابسته‌اند.",
-     "trustDelta": 10,
-     "next": "a3",
+     "suggestion": "The ULEZ figures show a sharp fall in nitrogen dioxide in central London.",
+     "suggestionFa": "آمار ULEZ کاهش شدید دی‌اکسید نیتروژن را در مرکز لندن نشون می‌ده.",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pedestrianised",
+      "studies",
+      "streets",
+      "results"
+     ],
+     "suggestion": "Studies of pedestrianised streets abroad show mixed results for small shops.",
+     "suggestionFa": "مطالعات خیابون‌های پیاده‌شده در خارج نتایج متفاوتی برای مغازه‌های کوچیک نشون می‌دن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cite",
+     "fa": "استناد کردن"
+    },
+    {
+     "word": "ULEZ",
+     "fa": "منطقهٔ انتشار فوق‌کم"
+    },
+    {
+     "word": "nitrogen dioxide",
+     "fa": "دی‌اکسید نیتروژن"
+    },
+    {
+     "word": "pedestrianised",
+     "fa": "پیاده‌راه‌شده"
+    }
+   ],
+   "cultureNote": {
+    "en": "ULEZ (Ultra Low Emission Zone) charges older, more polluting vehicles to drive in London.",
+    "fa": "ULEZ از خودروهای آلاینده عوارض می‌گیرد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Now play devil's advocate — what's the strongest argument against your own position?",
+   "translations": {
+    "fa": "حالا وکیل مدافع شیطان باش — قوی‌ترین استدلال علیه موضع خودت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "transition",
+      "admittedly",
+      "genuinely",
+      "costly"
+     ],
+     "suggestion": "Admittedly, the transition would be costly, and some people genuinely depend on cars.",
+     "suggestionFa": "البته، گذار پرهزینه خواهد بود، و بعضی‌ها واقعاً به ماشین وابسته‌ان.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "economic",
+      "stronger",
+      "keeping",
+      "case"
+     ],
+     "suggestion": "To be fair, the economic case for keeping cars is stronger than I'd like.",
+     "suggestionFa": "انصافاً، استدلال اقتصادی برای نگه داشتن ماشین قوی‌تر از چیزیه که دوست دارم.",
+     "trustDelta": 6,
+     "next": "n4",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "devil's advocate",
-     "fa": "وکیل مدافع شیطان (مخالف‌خوانی برای بحث)"
+     "fa": "وکیل مدافع شیطان"
     },
     {
-     "word": "admittedly",
-     "fa": "البته / باید پذیرفت"
+     "word": "transition",
+     "fa": "گذار"
+    },
+    {
+     "word": "genuinely",
+     "fa": "واقعاً"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Spot on — that's nuance. So how would you design the policy to deal with that objection?",
+   "translations": {
+    "fa": "دقیقاً — این یعنی ظرافت. پس سیاست را چطور طراحی می‌کنی که به اون اعتراض جواب بده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exemptions",
+      "deliveries",
+      "gradually",
+      "holders"
+     ],
+     "suggestion": "Phase it in gradually, with exemptions for blue badge holders and deliveries.",
+     "suggestionFa": "به تدریج اجراش کنیم، با معافیت برای دارندگان کارت آبی و تحویل‌ها.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "measure",
+      "borough",
+      "scaling",
+      "before"
+     ],
+     "suggestion": "I'd pilot it in one borough first and measure the impact before scaling up.",
+     "suggestionFa": "اول تو یه منطقه آزمایشیش می‌کنم و قبل از گسترش اثرش را می‌سنجم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phase in",
+     "fa": "به‌تدریج اجرا کردن"
+    },
+    {
+     "word": "blue badge",
+     "fa": "کارت پارک معلولان"
+    },
+    {
+     "word": "pilot",
+     "fa": "آزمایشی اجرا کردن"
+    },
+    {
+     "word": "borough",
+     "fa": "منطقهٔ شهری"
+    },
+    {
+     "word": "scaling up",
+     "fa": "گسترش دادن"
     }
    ],
    "cultureNote": {
-    "en": "British seminars reward hedging: 'arguably', 'to some extent', 'admittedly'.",
-    "fa": "سمینارهای بریتانیایی محتاط‌گویی را ارج می‌گذارند: «arguably»، «to some extent»."
+    "en": "A \"blue badge\" lets disabled people park closer to where they need to go.",
+    "fa": "بلو بج کارت پارک معلولان است."
    }
   },
-  "a3": {
-   "id": "a3",
+  "n5": {
+   "id": "n5",
    "speaker": "al",
-   "text": "Spot on — that's nuance, that is. Tom said you were sharp. Pint later?",
+   "text": "Lovely. Someone at the back is shaking their head. They say it's a tax on the poor. Respond.",
    "translations": {
-    "fa": "دقیقاً — این یعنی ظرافت. تام گفته بود تیزی. بعداً یه آبجو؟"
+    "fa": "عالی. یه نفر اون ته داره سرش را تکون می‌ده. می‌گه این مالیات بر فقراست. جواب بده."
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "spot on",
-     "fa": "دقیقاً درست"
+     "keywords": [
+      "londoners",
+      "actually",
+      "poorest",
+      "likely"
+     ],
+     "suggestion": "Actually, the poorest Londoners are the least likely to own a car at all.",
+     "suggestionFa": "در واقع، فقیرترین لندنی‌ها کمترین احتمال را دارن که اصلاً ماشین داشته باشن.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
     },
     {
-     "word": "nuance",
-     "fa": "ظرافت / جزئیات دقیق"
+     "keywords": [
+      "challenge",
+      "cheaper",
+      "revenue",
+      "should"
+     ],
+     "suggestion": "That's a fair challenge — so revenue should fund cheaper buses.",
+     "suggestionFa": "چالش منصفانه‌ایه — پس درآمدش باید خرج اتوبوس‌های ارزون‌تر بشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "tax on the poor",
+     "fa": "مالیات بر فقرا"
+    },
+    {
+     "word": "revenue",
+     "fa": "درآمد"
+    },
+    {
+     "word": "challenge",
+     "fa": "چالش/اعتراض"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "al",
+   "text": "Ha, you've done your homework. Final point — would you have said all this in your first week at UCL?",
+   "translations": {
+    "fa": "ها، تکلیفت را انجام دادی. نکتهٔ آخر — هفتهٔ اولت تو UCL هم همهٔ اینا را می‌گفتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seminar",
+      "chance",
+      "barely",
+      "first"
+     ],
+     "suggestion": "Not a chance. I barely said a word in my first seminar.",
+     "suggestionFa": "امکان نداشت. تو اولین سمینارم به‌زور یه کلمه حرف زدم.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "probably",
+      "mistakes",
+      "worried",
+      "english"
+     ],
+     "suggestion": "Probably not — I was too worried about making mistakes in English.",
+     "suggestionFa": "احتمالاً نه — زیادی نگران اشتباه کردن تو انگلیسی بودم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "not a chance",
+     "fa": "امکان نداشت"
+    },
+    {
+     "word": "barely",
+     "fa": "به‌زور"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "al",
+   "text": "Well, you've made up for it. Mistakes are how you learn. Same goes for my Glaswegian — nobody understands me either.",
+   "translations": {
+    "fa": "خب، جبرانش کردی. با اشتباه آدم یاد می‌گیره. همین دربارهٔ لهجهٔ گلاسکوییم هم صدق می‌کنه — هیچ‌کس منو هم نمی‌فهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "accent",
+      "slowly",
+      "there"
+     ],
+     "suggestion": "I'm getting there with your accent. Slowly.",
+     "suggestionFa": "دارم با لهجه‌ات کنار میام. آروم‌آروم.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "compliment",
+      "brilliant",
+      "then",
+      "dead"
+     ],
+     "suggestion": "Is \"pure dead brilliant\" a compliment, then?",
+     "suggestionFa": "پس «pure dead brilliant» تعریفه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "made up for it",
+     "fa": "جبرانش کردی"
+    },
+    {
+     "word": "Glaswegian",
+     "fa": "گلاسکویی"
+    },
+    {
+     "word": "getting there",
+     "fa": "دارم پیشرفت می‌کنم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Glaswegians use \"pure\" and \"dead\" as intensifiers: \"pure dead brilliant\" means absolutely wonderful.",
+    "fa": "pure و dead در گلاسکو یعنی «خیلی»."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "al",
+   "text": "The highest compliment going! Right — read the Hall chapter for next week, and bring an argument you disagree with.",
+   "translations": {
+    "fa": "بالاترین تعریف ممکن! خب — فصل هال را برای هفتهٔ بعد بخونید، و یه استدلال بیارید که باهاش مخالفید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "disagree",
+      "unusual",
+      "that's",
+      "task"
+     ],
+     "suggestion": "One I disagree with? That's an unusual task.",
+     "suggestionFa": "یکی که باهاش مخالفم؟ تکلیف عجیبیه.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thursday",
+      "will",
+      "time",
+      "next"
+     ],
+     "suggestion": "Will do. Same time next Thursday?",
+     "suggestionFa": "باشه. پنجشنبهٔ بعد همین ساعت؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "going",
+     "fa": "موجود/ممکن"
+    },
+    {
+     "word": "unusual",
+     "fa": "غیرمعمول"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "al",
+   "text": "Unusual, aye, but it's the best training for your mind. Spot on today — Tom said you were sharp. Pint later?",
+   "translations": {
+    "fa": "عجیب، آره، ولی بهترین تمرین ذهنه. امروز عالی بودی — تام گفته بود باهوشی. بعداً یه نوشیدنی؟"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

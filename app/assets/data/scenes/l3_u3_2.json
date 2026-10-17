@@ -33,9 +33,9 @@
     {
      "keywords": [
       "again",
-      "take",
       "here",
-      "mine"
+      "mine",
+      "take"
      ],
      "suggestion": "Yes. I have to take mine again here.",
      "suggestionFa": "آره. من هم اینجا باید دوباره امتحان بدم.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "months",
+      "twelve",
       "after",
       "need"
      ],
@@ -237,7 +237,7 @@
       "remember",
       "you'll",
       "drive",
-      "left"
+      "have"
      ],
      "suggestion": "You'll have to remember to drive on the left!",
      "suggestionFa": "باید یادت باشه از سمت چپ برونی!",

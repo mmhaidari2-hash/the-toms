@@ -7,129 +7,186 @@
  "setting": "The Daily Grind café",
  "settingFa": "کافه دیلی گرایند",
  "requires": null,
- "start": "c1",
+ "start": "n1",
  "nodes": {
-  "c1": {
-   "id": "c1",
+  "n1": {
+   "id": "n1",
    "speaker": "callum",
    "text": "Morning! What can I get you?",
    "translations": {
-    "fa": "صبح بخیر! چی برات بیارم؟"
+    "fa": "صبح بخیر! چی براتون بیارم؟"
    },
    "branches": [
     {
      "keywords": [
-      "flat white",
-      "latte",
-      "cappuccino",
-      "coffee",
-      "tea",
-      "americano"
+      "please",
+      "could",
+      "white",
+      "flat"
      ],
      "suggestion": "Could I have a flat white, please?",
-     "suggestionFa": "می‌شود یک فلت‌وایت بدهید لطفاً؟",
+     "suggestionFa": "می‌شه یه فلت وایت بگیرم، لطفاً؟",
+     "trustDelta": 7,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "recommend"
+     ],
+     "suggestion": "What do you recommend?",
+     "suggestionFa": "چی پیشنهاد می‌کنید؟",
      "trustDelta": 6,
-     "next": "c2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "what can I get you?",
-     "fa": "چی برات بیارم؟"
+     "word": "flat white",
+     "fa": "فلت وایت (قهوه با شیر)"
     }
    ],
    "cultureNote": null
   },
-  "c2": {
-   "id": "c2",
+  "n2": {
+   "id": "n2",
    "speaker": "callum",
-   "text": "Lovely. Eat in or take away? And would you like oat milk with that?",
+   "text": "Our flat white's the best on the street, if I say so myself. Large or regular?",
    "translations": {
-    "fa": "عالی. همین‌جا میل می‌کنید یا می‌برید؟ شیر جو دوسر هم می‌خواهید؟"
+    "fa": "فلت وایت ما بهترین تو این خیابونه، اگه خودم بگم. بزرگ یا معمولی؟"
    },
    "branches": [
     {
      "keywords": [
-      "take away",
-      "takeaway",
-      "go"
+      "regular",
+      "please"
      ],
-     "suggestion": "Take away, please — regular milk is fine.",
-     "suggestionFa": "برای بیرون لطفاً — شیر معمولی خوب است.",
-     "trustDelta": 6,
-     "next": "c3",
+     "suggestion": "Regular, please.",
+     "suggestionFa": "معمولی، لطفاً.",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "eat in",
-      "here",
-      "stay",
-      "oat"
+      "large",
+      "today",
+      "need"
      ],
-     "suggestion": "Eat in, please, with oat milk.",
-     "suggestionFa": "همین‌جا لطفاً، با شیر جو دوسر.",
+     "suggestion": "Large — I need it today!",
+     "suggestionFa": "بزرگ — امروز لازمش دارم!",
      "trustDelta": 6,
-     "next": "c3",
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "take away",
-     "fa": "بیرون‌بر"
+     "word": "if I say so myself",
+     "fa": "اگر خودم بگویم (شوخی با تعریف از خود)"
     },
     {
+     "word": "regular",
+     "fa": "معمولی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Eat in or take away? And would you like oat milk with that?",
+   "translations": {
+    "fa": "اینجا می‌خورید یا می‌برید؟ و شیر جو دوسر می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "regular",
+      "fine",
+      "away",
+      "take"
+     ],
+     "suggestion": "Take away, please — regular milk is fine.",
+     "suggestionFa": "می‌برم، لطفاً — شیر معمولی خوبه.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oat",
+      "eat"
+     ],
+     "suggestion": "Eat in, please, with oat milk.",
+     "suggestionFa": "اینجا، لطفاً، با شیر جو دوسر.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
      "word": "eat in",
-     "fa": "سرِ جا میل کردن"
+     "fa": "اینجا خوردن"
+    },
+    {
+     "word": "take away",
+     "fa": "بیرون بردن"
+    },
+    {
+     "word": "oat milk",
+     "fa": "شیر جو دوسر"
     }
    ],
    "cultureNote": {
-    "en": "Brits say 'take away'; Americans say 'to go'.",
-    "fa": "بریتانیایی‌ها «take away» می‌گویند؛ آمریکایی‌ها «to go»."
+    "en": "British \"take away\" = American \"to go\".",
+    "fa": "take away در آمریکا to go است."
    }
   },
-  "c3": {
-   "id": "c3",
+  "n4": {
+   "id": "n4",
    "speaker": "callum",
-   "text": "Grand. It's £3.20. Anything else — a pastry, maybe? The croissants are proper good today.",
+   "text": "Grand. Anything else — a pastry, maybe? The croissants are proper good today.",
    "translations": {
-    "fa": "عالی. ۳ پوند و ۲۰ پنی. چیز دیگه — شاید یک شیرینی؟ کروسان‌ها امروز واقعاً خوبن."
+    "fa": "عالیه. چیز دیگه — شاید یه شیرینی؟ کروسان‌ها امروز واقعاً خوبن."
    },
    "branches": [
     {
      "keywords": [
       "croissant",
-      "yes",
-      "go on",
-      "pastry",
-      "why not"
+      "then",
+      "i'll",
+      "have"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
-     "suggestionFa": "باشه پس، یک کروسان می‌خورم.",
+     "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
      "trustDelta": 7,
-     "next": "c4",
+     "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "that's all",
-      "just",
-      "fine"
+      "thanks",
+      "that's",
+      "all"
      ],
      "suggestion": "No thanks, that's all.",
-     "suggestionFa": "نه ممنون، همین.",
-     "trustDelta": 5,
-     "next": "c4",
+     "suggestionFa": "نه ممنون، همینه.",
+     "trustDelta": 6,
+     "next": "n5",
      "success": true
     }
    ],
    "newWords": [
     {
+     "word": "pastry",
+     "fa": "شیرینی"
+    },
+    {
      "word": "proper good",
-     "fa": "واقعاً خوب (لهجهٔ شمالی)"
+     "fa": "واقعاً خوب (عامیانه)"
     },
     {
      "word": "go on then",
@@ -137,24 +194,200 @@
     }
    ],
    "cultureNote": {
-    "en": "'Proper' as 'really' is very common in the North of England.",
-    "fa": "«proper» به معنی «واقعاً» در شمال انگلیس خیلی رایج است."
+    "en": "\"Go on then\" is how Brits accept something they were pretending to resist.",
+    "fa": "Go on then یعنی «باشه، قبول»."
    }
   },
-  "c4": {
-   "id": "c4",
+  "n5": {
+   "id": "n5",
    "speaker": "callum",
-   "text": "Sorted. I'll bring it over. Have a good one!",
+   "text": "That's £3.20. Have you got a loyalty card?",
    "translations": {
-    "fa": "ردیفه. برات میارم. روز خوبی داشته باشی!"
+    "fa": "میشه ۳.۲۰ پوند. کارت وفاداری دارید؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "sorted",
-     "fa": "ردیف / حل شد"
+     "keywords": [
+      "work",
+      "how"
+     ],
+     "suggestion": "No — how does it work?",
+     "suggestionFa": "نه — چطوری کار می‌کنه؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Yes, here it is.",
+     "suggestionFa": "آره، ایناهاش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "loyalty card",
+     "fa": "کارت وفاداری"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "Buy nine coffees and the tenth's on us. There you go — first stamp.",
+   "translations": {
+    "fa": "نه تا قهوه بخرید و دهمی مهمون ما. بفرمایید — اولین مهر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "thanks"
+     ],
+     "suggestion": "Brilliant, thanks!",
+     "suggestionFa": "عالیه، ممنون!",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nine",
+      "more",
+      "then",
+      "go"
+     ],
+     "suggestion": "Nine more to go, then!",
+     "suggestionFa": "پس نه تای دیگه مونده!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on us",
+     "fa": "مهمان ما"
+    },
+    {
+     "word": "stamp",
+     "fa": "مهر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "Haven't seen you before. New round here?",
+   "translations": {
+    "fa": "قبلاً ندیده بودمتون. تازه اومدید این طرفا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "months",
+      "moved",
+      "here",
+      "ago"
+     ],
+     "suggestion": "Yes, I moved here a few months ago.",
+     "suggestionFa": "آره، چند ماه پیش اومدم.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "started",
+      "working",
+      "nearby",
+      "just"
+     ],
+     "suggestion": "I've just started working nearby.",
+     "suggestionFa": "تازه کار نزدیک اینجا را شروع کردم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "round here",
+     "fa": "این طرفا"
+    },
+    {
+     "word": "nearby",
+     "fa": "نزدیک"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "callum",
+   "text": "Welcome to the neighbourhood! I'm Callum. If you need anything — best chippy, nearest GP — just ask.",
+   "translations": {
+    "fa": "به محله خوش اومدید! من کالمم. اگه چیزی خواستید — بهترین ماهی‌وچیپسی، نزدیک‌ترین دکتر — فقط بپرسید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "thanks",
+      "callum",
+      "chippy"
+     ],
+     "suggestion": "Thanks, Callum. Where's the best chippy, then?",
+     "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "that's",
+      "i'll",
+      "sure"
+     ],
+     "suggestion": "That's really kind. I'm sure I'll be back.",
+     "suggestionFa": "خیلی لطف دارید. مطمئنم برمی‌گردم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "neighbourhood",
+     "fa": "محله"
+    },
+    {
+     "word": "chippy",
+     "fa": "مغازهٔ ماهی و چیپس"
+    },
+    {
+     "word": "GP",
+     "fa": "پزشک عمومی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "callum",
+   "text": "Sorted. Golden Fry, two doors down — tell them I sent you. I'll bring your coffee over. Have a good one!",
+   "translations": {
+    "fa": "حله. گلدن فرای، دو تا مغازه پایین‌تر — بگید من فرستادمتون. قهوه‌تون را میارم. روز خوبی داشته باشید!"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

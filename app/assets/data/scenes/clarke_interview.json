@@ -7,157 +7,450 @@
  "setting": "Logistics depot, Stratford",
  "settingFa": "انبار لجستیک، استراتفورد",
  "requires": null,
- "start": "j1",
+ "start": "n1",
  "nodes": {
-  "j1": {
-   "id": "j1",
+  "n1": {
+   "id": "n1",
    "speaker": "clarke",
    "text": "Thanks for coming in. So, tell me a bit about yourself and why you've applied.",
    "translations": {
-    "fa": "ممنون که آمدید. خب، کمی از خودتان بگویید و اینکه چرا درخواست داده‌اید."
+    "fa": "ممنون که اومدید. خب، یه کم از خودتون بگید و چرا درخواست دادید."
    },
    "branches": [
     {
      "keywords": [
       "experience",
-      "worked",
-      "years",
-      "team",
-      "background"
+      "warehouse",
+      "leading",
+      "years'"
      ],
      "suggestion": "I've got five years' experience in warehouse work, and I enjoy leading a team.",
-     "suggestionFa": "پنج سال سابقهٔ کار انبار دارم و از رهبری تیم لذت می‌برم.",
-     "trustDelta": 8,
-     "next": "j2",
+     "suggestionFa": "پنج سال سابقهٔ کار انبار دارم، و از رهبری تیم لذت می‌برم.",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "learn",
-      "grow",
       "opportunity",
       "develop",
-      "career"
+      "career",
+      "great"
      ],
      "suggestion": "I'm keen to develop my career, and this role is a great opportunity.",
-     "suggestionFa": "مشتاقم شغلم را پیش ببرم و این موقعیت فرصت خوبی است.",
-     "trustDelta": 8,
-     "next": "j2",
+     "suggestionFa": "مشتاقم شغلم را پیش ببرم، و این نقش فرصت خوبیه.",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "applied",
-     "fa": "درخواست داده"
+     "fa": "درخواست داد"
+    },
+    {
+     "word": "warehouse",
+     "fa": "انبار"
     },
     {
      "word": "keen",
      "fa": "مشتاق"
+    },
+    {
+     "word": "role",
+     "fa": "نقش/سمت"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "British interviewers value modest confidence: concrete examples beat big claims.",
+    "fa": "مثال واقعی بهتر از ادعای بزرگ است."
+   }
   },
-  "j2": {
-   "id": "j2",
+  "n2": {
+   "id": "n2",
    "speaker": "clarke",
-   "text": "Tell me about a time you had to deal with a difficult situation at work.",
+   "text": "What do you know about us as a company?",
    "translations": {
-    "fa": "از زمانی بگویید که در کار با موقعیت سختی روبه‌رو شدید."
+    "fa": "دربارهٔ ما به عنوان یه شرکت چی می‌دونید؟"
    },
    "branches": [
     {
      "keywords": [
-      "once",
-      "time",
-      "situation",
-      "customer",
-      "colleague",
-      "problem",
-      "solved",
-      "deadline"
+      "sustainability",
+      "distributors",
+      "biggest",
+      "strong"
      ],
-     "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
-     "suggestionFa": "یک بار یک تحویل عقب افتاد، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
-     "trustDelta": 9,
-     "next": "j3",
+     "suggestion": "You're one of the biggest distributors in East London, with a strong focus on sustainability.",
+     "suggestionFa": "شما یکی از بزرگ‌ترین پخش‌کننده‌های شرق لندنید، با تمرکز قوی روی پایداری.",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expanding",
+      "you've",
+      "opened",
+      "depot"
+     ],
+     "suggestion": "I read that you've just opened a new depot and are expanding fast.",
+     "suggestionFa": "خوندم که تازه یه انبار جدید باز کردید و سریع دارید گسترش پیدا می‌کنید.",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "deal with",
-     "fa": "از پس چیزی برآمدن"
+     "word": "distributors",
+     "fa": "پخش‌کننده‌ها"
+    },
+    {
+     "word": "sustainability",
+     "fa": "پایداری"
+    },
+    {
+     "word": "depot",
+     "fa": "انبار/پایانه"
+    },
+    {
+     "word": "expanding",
+     "fa": "گسترش یافتن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "clarke",
+   "text": "You've done your research. Tell me about a time you had to deal with a difficult situation at work.",
+   "translations": {
+    "fa": "تحقیق کردید. از وقتی بگید که مجبور شدید با یه موقعیت سخت تو کار کنار بیاید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reorganised",
+      "customer",
+      "delivery",
+      "schedule"
+     ],
+     "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
+     "suggestionFa": "یه بار، یه محموله تأخیر داشت، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "separately",
+      "colleagues",
+      "compromise",
+      "found"
+     ],
+     "suggestion": "Two colleagues fell out, so I spoke to each separately and found a compromise.",
+     "suggestionFa": "دو تا همکار با هم دعواشون شد، پس با هر کدوم جدا صحبت کردم و یه راه میانه پیدا کردم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reorganised",
+     "fa": "دوباره سازمان داد"
+    },
+    {
+     "word": "kept informed",
+     "fa": "در جریان گذاشت"
+    },
+    {
+     "word": "fell out",
+     "fa": "دعوا کردند"
+    },
+    {
+     "word": "compromise",
+     "fa": "راه میانه"
     }
    ],
    "cultureNote": {
-    "en": "UK interviewers love the STAR method: Situation, Task, Action, Result.",
-    "fa": "مصاحبه‌گرهای بریتانیایی عاشق روش STAR هستند: موقعیت، وظیفه، اقدام، نتیجه."
+    "en": "Use the STAR method — Situation, Task, Action, Result — for \"tell me about a time\" questions.",
+    "fa": "روش STAR برای این سؤال‌ها."
    }
   },
-  "j3": {
-   "id": "j3",
+  "n4": {
+   "id": "n4",
    "speaker": "clarke",
-   "text": "Good answer. Do you have any questions for us?",
+   "text": "And what was the result?",
    "translations": {
-    "fa": "جواب خوبی بود. سؤالی از ما دارید؟"
+    "fa": "و نتیجه چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contract",
+      "customer",
+      "happy",
+      "kept"
+     ],
+     "suggestion": "The customer was happy, and we kept the contract.",
+     "suggestionFa": "مشتری راضی بود، و قرارداد را نگه داشتیم.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "improved",
+      "morale",
+      "work"
+     ],
+     "suggestion": "They work well together now, and morale improved.",
+     "suggestionFa": "حالا با هم خوب کار می‌کنن، و روحیه بهتر شد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contract",
+     "fa": "قرارداد"
+    },
+    {
+     "word": "morale",
+     "fa": "روحیه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "clarke",
+   "text": "Good. What would you say is your biggest weakness?",
+   "translations": {
+    "fa": "خوبه. بزرگ‌ترین نقطه‌ضعفتون را چی می‌دونید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "learning",
+      "delegate",
+      "myself"
+     ],
+     "suggestion": "I sometimes take on too much myself, but I'm learning to delegate.",
+     "suggestionFa": "گاهی کار زیادی را خودم به عهده می‌گیرم، ولی دارم تفویض کردن را یاد می‌گیرم.",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stronger",
+      "written",
+      "evening",
+      "english"
+     ],
+     "suggestion": "My written English could be stronger, so I'm taking an evening course.",
+     "suggestionFa": "انگلیسی نوشتاریم می‌تونه قوی‌تر باشه، برای همین یه دورهٔ شبانه می‌رم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weakness",
+     "fa": "نقطه‌ضعف"
+    },
+    {
+     "word": "take on",
+     "fa": "به عهده گرفتن"
+    },
+    {
+     "word": "delegate",
+     "fa": "تفویض کردن"
+    },
+    {
+     "word": "evening course",
+     "fa": "دورهٔ شبانه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "clarke",
+   "text": "That's honest. The role involves early starts — the shift begins at six. Would that be a problem?",
+   "translations": {
+    "fa": "صادقانه‌ست. این نقش شروع زود داره — شیفت ساعت شش شروع میشه. مشکلی نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "riser",
+      "early",
+      "all"
+     ],
+     "suggestion": "Not at all — I'm an early riser.",
+     "suggestionFa": "اصلاً — من سحرخیزم.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "first",
+      "fine",
+      "long"
+     ],
+     "suggestion": "That's fine, as long as I can get the first bus.",
+     "suggestionFa": "مشکلی نیست، تا وقتی که بتونم اولین اتوبوس را بگیرم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early starts",
+     "fa": "شروع زودهنگام"
+    },
+    {
+     "word": "shift",
+     "fa": "شیفت"
+    },
+    {
+     "word": "early riser",
+     "fa": "سحرخیز"
+    },
+    {
+     "word": "as long as",
+     "fa": "تا وقتی که"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "clarke",
+   "text": "Great. And what are your salary expectations?",
+   "translations": {
+    "fa": "عالیه. و انتظار حقوقی‌تون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understand",
+      "advertised",
+      "towards",
+      "range"
+     ],
+     "suggestion": "I understand the advertised range is £28 to £32,000. I'd hope towards the upper end.",
+     "suggestionFa": "فهمیدم بازهٔ اعلام‌شده ۲۸ تا ۳۲ هزار پونده. امیدوارم نزدیک سقفش باشه.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "opportunity",
+      "interested",
+      "progress",
+      "flexible"
+     ],
+     "suggestion": "I'm flexible — I'm more interested in the opportunity to progress.",
+     "suggestionFa": "انعطاف دارم — بیشتر به فرصت پیشرفت علاقه دارم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "salary expectations",
+     "fa": "انتظار حقوقی"
+    },
+    {
+     "word": "advertised range",
+     "fa": "بازهٔ اعلام‌شده"
+    },
+    {
+     "word": "upper end",
+     "fa": "سقف"
+    },
+    {
+     "word": "progress",
+     "fa": "پیشرفت کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, salaries are usually discussed as annual figures, before tax.",
+    "fa": "حقوق به صورت سالانه و قبل از مالیات گفته می‌شود."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "clarke",
+   "text": "Noted. Do you have any questions for us?",
+   "translations": {
+    "fa": "یادداشت شد. سؤالی از ما دارید؟"
    },
    "branches": [
     {
      "keywords": [
       "training",
-      "team",
-      "progression",
-      "day",
-      "start",
-      "question",
-      "when"
+      "typical",
+      "there",
+      "like"
      ],
      "suggestion": "Yes — what does a typical day look like, and is there training?",
-     "suggestionFa": "بله — یک روز معمولی چطور است و آموزش هم دارید؟",
-     "trustDelta": 8,
-     "next": "j4",
+     "suggestionFa": "بله — یه روز معمولی چه شکلیه، و آموزش هست؟",
+     "trustDelta": 7,
+     "next": "n9",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "think",
-      "covered"
+      "working",
+      "about",
+      "enjoy",
+      "most"
      ],
-     "suggestion": "I think you've covered everything, thank you.",
-     "suggestionFa": "فکر می‌کنم همه را گفتید، ممنون.",
-     "trustDelta": 4,
-     "next": "j4",
+     "suggestion": "What do you enjoy most about working here?",
+     "suggestionFa": "از کار کردن اینجا بیشتر از همه از چی لذت می‌برید؟",
+     "trustDelta": 6,
+     "next": "n9",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "typical day",
-     "fa": "یک روز معمولی"
+     "word": "typical",
+     "fa": "معمولی"
+    },
+    {
+     "word": "training",
+     "fa": "آموزش"
     }
    ],
    "cultureNote": null
   },
-  "j4": {
-   "id": "j4",
+  "n9": {
+   "id": "n9",
    "speaker": "clarke",
-   "text": "Thanks, that's all from me. We'll be in touch by the end of the week.",
+   "text": "Good question. Lots of variety, and full training for the first month. Thanks — that's all from me. We'll be in touch by the end of the week.",
    "translations": {
-    "fa": "ممنون، از طرف من همین بود. تا آخر هفته با شما تماس می‌گیریم."
+    "fa": "سؤال خوبیه. تنوع زیاد، و آموزش کامل برای ماه اول. ممنون — از طرف من همینه. تا آخر هفته باهاتون تماس می‌گیریم."
    },
    "branches": [],
-   "newWords": [
-    {
-     "word": "be in touch",
-     "fa": "تماس گرفتن"
-    }
-   ],
-   "cultureNote": {
-    "en": "'We'll be in touch' is polite and neutral — it doesn't mean yes or no.",
-    "fa": "«We'll be in touch» مؤدبانه و خنثی است — به معنی بله یا نه نیست."
-   }
+   "newWords": [],
+   "cultureNote": null
   }
  }
 }

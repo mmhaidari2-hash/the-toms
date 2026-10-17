@@ -22,13 +22,13 @@
     {
      "keywords": [
       "spoon",
-      "next",
       "drop",
+      "next",
       "race",
       "egg"
      ],
      "suggestion": "It's the egg-and-spoon race next! What if I drop my egg?",
-     "suggestionFa": "نوبت مسابقهٔ قاشق و تخم‌مرغه! اگه تخم‌مرغم بیفته چی؟",
+     "suggestionFa": "بعدی مسابقهٔ تخم‌مرغ و قاشقه! اگه تخم‌مرغم بیفته چی؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -39,21 +39,20 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "Just go slowly and steady — and it doesn't matter if you drop it.",
+   "text": "Just go slowly and steadily — it doesn't matter if you drop it.",
    "translations": {
-    "fa": "فقط آروم و یکنواخت برو — و اگه افتاد هم مهم نیست."
+    "fa": "فقط آروم و پیوسته برو — اگه بیفته مهم نیست."
    },
    "branches": [
     {
      "keywords": [
-      "second",
-      "proud",
-      "first",
-      "came",
-      "mia"
+      "real",
+      "says",
+      "mia",
+      "egg"
      ],
-     "suggestion": "I came SECOND! Mia came first. Are you proud of me?",
-     "suggestionFa": "من دوم شدم! میا اول شد. بهم افتخار می‌کنی؟",
+     "suggestion": "Is it a real egg? Mia says it's a real egg.",
+     "suggestionFa": "تخم‌مرغ واقعیه؟ میا می‌گه واقعیه.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,21 +63,21 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "I'm so proud of you! Well done!",
+   "text": "I think it's a plastic one.",
    "translations": {
-    "fa": "خیلی بهت افتخار می‌کنم! آفرین!"
+    "fa": "فکر کنم پلاستیکیه."
    },
    "branches": [
     {
      "keywords": [
-      "celebrate",
-      "lolly",
-      "can",
-      "ice",
-      "get"
+      "plastic",
+      "blowing",
+      "whistle",
+      "cheer",
+      "hart"
      ],
-     "suggestion": "Can we get an ice lolly to celebrate?",
-     "suggestionFa": "می‌شه یه بستنی یخی بگیریم جشن بگیریم؟",
+     "suggestion": "Phew, it's plastic. Okay, Miss Hart is blowing the whistle. Will you cheer for me?",
+     "suggestionFa": "آخیش، پلاستیکیه. باشه، خانم هارت داره سوت می‌زنه. برام تشویق می‌کنی؟",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -89,21 +88,21 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "Yes, let's get an ice lolly to celebrate!",
+   "text": "I'll cheer the loudest! Go, Nicola!",
    "translations": {
-    "fa": "آره، بیا یه بستنی یخی بگیریم جشن بگیریم!"
+    "fa": "از همه بلندتر تشویق می‌کنم! برو نیکولا!"
    },
    "branches": [
     {
      "keywords": [
-      "don't",
-      "fell",
-      "ryan",
-      "race",
-      "tell"
+      "second",
+      "first",
+      "proud",
+      "came",
+      "mia"
      ],
-     "suggestion": "Best. Day. Ever. Don't tell Ryan I fell over in the sack race.",
-     "suggestionFa": "بهترین. روز. دنیا. به رایان نگو تو مسابقهٔ گونی زمین خوردم.",
+     "suggestion": "I came SECOND! Mia came first. Are you proud of me?",
+     "suggestionFa": "دوم شدم! میا اول شد. بهم افتخار می‌کنی؟",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -113,6 +112,131 @@
   },
   "r5": {
    "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'm so proud of you! Well done!",
+   "translations": {
+    "fa": "خیلی بهت افتخار می‌کنم! آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticker",
+      "sack",
+      "race",
+      "jump",
+      "bag"
+     ],
+     "suggestion": "I got a sticker! Now it's the sack race. You jump in a big bag.",
+     "suggestionFa": "یه برچسب گرفتم! حالا مسابقهٔ کیسه‌ست. تو یه کیسهٔ بزرگ می‌پری.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "That sounds fun! Hold the sack tight.",
+   "translations": {
+    "fa": "باحاله! کیسه را محکم نگه دار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "resilience",
+      "finished",
+      "what's",
+      "again",
+      "good"
+     ],
+     "suggestion": "I fell over! But I got up again and finished. Miss Hart said \"good resilience\". What's that?",
+     "suggestionFa": "افتادم! ولی دوباره بلند شدم و تمومش کردم. خانم هارت گفت «تاب‌آوری خوب». یعنی چی؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It means you don't give up when things go wrong.",
+   "translations": {
+    "fa": "یعنی وقتی اوضاع بد میشه تسلیم نمی‌شی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parents'",
+      "mummy's",
+      "running",
+      "daddy",
+      "knee"
+     ],
+     "suggestion": "Now it's the parents' race! Mummy's running. Daddy says he's got a bad knee.",
+     "suggestionFa": "حالا مسابقهٔ والدینه! مامان داره می‌دوه. بابا می‌گه زانوش درد می‌کنه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Come on, Leslie! You can do it!",
+   "translations": {
+    "fa": "بدو لزلی! می‌تونی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "embarrassing",
+      "celebrate",
+      "little",
+      "that's",
+      "she's"
+     ],
+     "suggestion": "Mummy won! She's doing a little dance. That's embarrassing. Can we get an ice lolly to celebrate?",
+     "suggestionFa": "مامان برد! داره یه رقص کوچیک می‌کنه. خجالت‌آوره. می‌تونیم برای جشن یه بستنی چوبی بگیریم؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, let's get an ice lolly to celebrate!",
+   "translations": {
+    "fa": "آره، بیا برای جشن یه بستنی چوبی بگیریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "fell",
+      "best",
+      "ever",
+      "tell"
+     ],
+     "suggestion": "Best. Day. Ever. Don't tell Ryan I fell over in the sack race!",
+     "suggestionFa": "بهترین. روز. دنیا. به رایان نگی تو مسابقهٔ کیسه زمین خوردم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Nicola! See you later.",
    "translations": {

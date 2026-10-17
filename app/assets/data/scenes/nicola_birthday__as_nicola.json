@@ -22,13 +22,13 @@
     {
      "keywords": [
       "badge",
-      "look",
       "says",
+      "look",
       "came",
       "six"
      ],
      "suggestion": "You came! You came! Look at my badge — it says I'm SIX!",
-     "suggestionFa": "اومدی! اومدی! بج منو ببین — نوشته شش‌ساله‌ام!",
+     "suggestionFa": "اومدی! اومدی! نشونم را ببین — نوشته من شش سالمه!",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -41,19 +41,19 @@
    "speaker": "mehdi",
    "text": "Happy birthday, Nicola! Many happy returns!",
    "translations": {
-    "fa": "تولدت مبارک نیکولا! صد سال به این سال‌ها!"
+    "fa": "تولدت مبارک نیکولا! صد سال زنده باشی!"
    },
    "branches": [
     {
      "keywords": [
-      "present",
       "wrapped",
+      "present",
       "bring",
       "open",
       "did"
      ],
      "suggestion": "Did you bring me a present? Is it wrapped? Can I open it NOW?",
-     "suggestionFa": "برام کادو آوردی؟ کادوپیچ شده؟ می‌تونم همین الان بازش کنم؟",
+     "suggestionFa": "برام کادو آوردی؟ کادوپیچه؟ می‌تونم همین الان بازش کنم؟",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -71,14 +71,14 @@
    "branches": [
     {
      "keywords": [
-      "everyone's",
-      "singing",
-      "parcel",
-      "sing",
-      "play"
+      "unicorn",
+      "mia's",
+      "book",
+      "look",
+      "love"
      ],
-     "suggestion": "Everyone's singing! Will you sing with me? And then we play pass the parcel!",
-     "suggestionFa": "همه دارن می‌خونن! با من می‌خونی؟ بعدش «پاس د پارسل» بازی می‌کنیم!",
+     "suggestion": "It's a unicorn book! I love it! Look, Mia's here too.",
+     "suggestionFa": "یه کتاب تک‌شاخه! عاشقشم! ببین، میا هم اینجاست.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -89,21 +89,21 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "Of course! Happy birthday to you…",
+   "text": "Hello, Mia! Are you having fun?",
    "translations": {
-    "fa": "البته! تولد تولد تولدت مبارک…"
+    "fa": "سلام میا! خوش می‌گذره؟"
    },
    "branches": [
     {
      "keywords": [
-      "birthday",
-      "friend",
-      "thank",
-      "being",
-      "ever"
+      "statues",
+      "musical",
+      "playing",
+      "freeze",
+      "music"
      ],
-     "suggestion": "Best. Birthday. EVER. Thank you for being my friend!",
-     "suggestionFa": "بهترین. تولد. تاریخ! ممنون که دوستمی!",
+     "suggestion": "We're playing musical statues! When the music stops, you freeze. Want to play?",
+     "suggestionFa": "داریم مجسمه‌بازی می‌کنیم! وقتی آهنگ قطع میشه، باید خشک بشی. می‌خوای بازی کنی؟",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -113,6 +113,131 @@
   },
   "r5": {
    "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes! I'm very good at freezing.",
+   "translations": {
+    "fa": "آره! من تو خشک شدن خیلی خوبم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cakes",
+      "party",
+      "moved",
+      "fairy",
+      "food"
+     ],
+     "suggestion": "You moved! You're out! Ha ha! Now it's party food. Do you like fairy cakes?",
+     "suggestionFa": "تکون خوردی! باختی! ها ها! حالا وقت غذای جشنه. کیک فنجونی دوست داری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I love fairy cakes! Can I have a pink one?",
+   "translations": {
+    "fa": "عاشق کیک فنجونی‌ام! یه صورتی می‌تونم بردارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sprinkles",
+      "there's",
+      "little",
+      "cream",
+      "cakes"
+     ],
+     "suggestion": "Little cakes with icing and sprinkles! Mummy made them. And there's jelly and ice cream!",
+     "suggestionFa": "کیک‌های کوچیک با خامه و ترافل! مامان درستشون کرد. ژله و بستنی هم هست!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Jelly and ice cream — yum!",
+   "translations": {
+    "fa": "ژله و بستنی — به‌به!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "candles",
+      "singing",
+      "sing",
+      "then"
+     ],
+     "suggestion": "Everyone's singing! Will you sing with me? Then I blow out the candles!",
+     "suggestionFa": "همه دارن می‌خونن! باهام می‌خونی؟ بعد شمع‌ها را فوت می‌کنم!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Of course! Happy birthday to you…",
+   "translations": {
+    "fa": "حتماً! تولدت مبارک…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parcel",
+      "won't",
+      "can't",
+      "true",
+      "made"
+     ],
+     "suggestion": "I made a wish! But I can't tell you, or it won't come true. Now pass the parcel!",
+     "suggestionFa": "آرزو کردم! ولی نمی‌تونم بهت بگم، وگرنه برآورده نمیشه. حالا بازی بسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Okay, I'll keep the music going.",
+   "translations": {
+    "fa": "باشه، من آهنگ را ادامه می‌دم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "friend",
+      "being",
+      "party",
+      "thank"
+     ],
+     "suggestion": "Best. Birthday. EVER. Thank you for being my friend! You get a party bag!",
+     "suggestionFa": "بهترین. تولد. تاریخ! ممنون که دوستمی! یه کیسهٔ هدیه می‌گیری!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Nicola! See you later.",
    "translations": {

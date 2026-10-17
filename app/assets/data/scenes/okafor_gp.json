@@ -7,128 +7,299 @@
  "setting": "Mare Street Surgery",
  "settingFa": "درمانگاه خیابان مِر",
  "requires": null,
- "start": "g1",
+ "start": "n1",
  "nodes": {
-  "g1": {
-   "id": "g1",
+  "n1": {
+   "id": "n1",
    "speaker": "okafor",
    "text": "Sorry to keep you waiting. What brings you in today?",
    "translations": {
-    "fa": "ببخشید منتظرتان گذاشتم. امروز برای چه آمده‌اید؟"
+    "fa": "ببخشید منتظرتون گذاشتم. امروز برای چی اومدید؟"
    },
    "branches": [
     {
      "keywords": [
-      "cough",
-      "cold",
-      "throat",
-      "fever",
       "temperature",
-      "headache",
-      "ill"
+      "cough",
+      "about",
+      "i've"
      ],
      "suggestion": "I've had a bad cough and a temperature for about a week.",
-     "suggestionFa": "حدود یک هفته است سرفهٔ بد و تب دارم.",
+     "suggestionFa": "حدود یه هفته‌ست سرفهٔ بد و تب دارم.",
      "trustDelta": 7,
-     "next": "g2",
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "back",
-      "hurt",
-      "pain",
-      "knee",
-      "back's",
+      "something",
       "hurting",
-      "heavy"
+      "back's",
+      "lifted"
      ],
      "suggestion": "My back's been hurting since I lifted something heavy.",
-     "suggestionFa": "از وقتی چیز سنگینی بلند کردم کمرم درد می‌کند.",
-     "trustDelta": 7,
-     "next": "g2",
+     "suggestionFa": "از وقتی یه چیز سنگین بلند کردم کمرم درد می‌کنه.",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "what brings you in?",
-     "fa": "برای چه آمده‌اید؟"
+     "word": "keep you waiting",
+     "fa": "منتظر گذاشتن"
+    },
+    {
+     "word": "cough",
+     "fa": "سرفه"
     },
     {
      "word": "temperature",
      "fa": "تب"
+    },
+    {
+     "word": "lifted",
+     "fa": "بلند کرد"
     }
    ],
-   "cultureNote": {
-    "en": "GP = General Practitioner, your local NHS family doctor. You register with one near your home.",
-    "fa": "GP یعنی پزشک عمومی محلی NHS. باید نزدیک خانه‌ات در یکی ثبت‌نام کنی."
-   }
+   "cultureNote": null
   },
-  "g2": {
-   "id": "g2",
+  "n2": {
+   "id": "n2",
    "speaker": "okafor",
-   "text": "I see. Have you taken anything for it, like paracetamol?",
+   "text": "I see. When did it start, exactly?",
    "translations": {
-    "fa": "متوجهم. چیزی برایش خورده‌اید، مثلاً پاراستامول؟"
+    "fa": "متوجهم. دقیقاً کی شروع شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monday",
+      "caught",
+      "after",
+      "rain"
+     ],
+     "suggestion": "Last Monday, after I got caught in the rain.",
+     "suggestionFa": "دوشنبهٔ گذشته، بعد از اینکه زیر بارون موندم.",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "eight",
+      "work",
+      "days"
+     ],
+     "suggestion": "About eight days ago, at work.",
+     "suggestionFa": "حدود هشت روز پیش، سر کار.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    },
+    {
+     "word": "caught in the rain",
+     "fa": "زیر باران ماندن"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "Have you taken anything for it, like paracetamol or ibuprofen?",
+   "translations": {
+    "fa": "چیزی براش خوردید، مثل پاراستامول یا ایبوپروفن؟"
    },
    "branches": [
     {
      "keywords": [
       "paracetamol",
-      "ibuprofen",
-      "yes",
-      "took",
-      "tablets"
+      "helping",
+      "really",
+      "taking"
      ],
      "suggestion": "Yes, I've been taking paracetamol, but it's not really helping.",
-     "suggestionFa": "بله، پاراستامول می‌خورم ولی زیاد کمک نمی‌کند.",
+     "suggestionFa": "آره، پاراستامول می‌خورم، ولی واقعاً کمک نمی‌کنه.",
      "trustDelta": 7,
-     "next": "g3",
+     "next": "n4",
      "success": true
     },
     {
      "keywords": [
-      "no",
-      "nothing",
-      "haven't"
+      "anything",
+      "haven't",
+      "taken",
+      "yet"
      ],
      "suggestion": "No, I haven't taken anything yet.",
-     "suggestionFa": "نه، هنوز چیزی نخورده‌ام.",
-     "trustDelta": 5,
-     "next": "g3",
+     "suggestionFa": "نه، هنوز هیچی نخوردم.",
+     "trustDelta": 6,
+     "next": "n4",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "paracetamol",
-     "fa": "پاراستامول (استامینوفن)"
+     "fa": "پاراستامول"
+    },
+    {
+     "word": "ibuprofen",
+     "fa": "ایبوپروفن"
     }
    ],
    "cultureNote": null
   },
-  "g3": {
-   "id": "g3",
+  "n4": {
+   "id": "n4",
    "speaker": "okafor",
-   "text": "Right. It's most likely viral, so antibiotics won't help. Rest, plenty of fluids, and if it's not better in a week, book another appointment.",
+   "text": "Any other symptoms? Headache, sore throat, trouble breathing?",
    "translations": {
-    "fa": "خب. به احتمال زیاد ویروسی است، پس آنتی‌بیوتیک کمکی نمی‌کند. استراحت، مایعات زیاد، و اگر تا یک هفته بهتر نشد، دوباره وقت بگیرید."
+    "fa": "علائم دیگه؟ سردرد، گلودرد، مشکل تنفسی؟"
    },
    "branches": [
     {
      "keywords": [
-      "thank",
-      "thanks",
-      "cheers",
-      "will",
-      "okay",
-      "understand"
+      "exhausted",
+      "throat",
+      "feel",
+      "sore"
      ],
-     "suggestion": "Okay, thank you, doctor.",
-     "suggestionFa": "باشه، ممنون دکتر.",
+     "suggestion": "A sore throat, and I feel exhausted.",
+     "suggestionFa": "گلودرد، و احساس خستگی شدید می‌کنم.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "breathing",
+      "headache",
+      "trouble",
+      "just"
+     ],
+     "suggestion": "No trouble breathing, just a headache.",
+     "suggestionFa": "مشکل تنفسی نه، فقط سردرد.",
      "trustDelta": 6,
-     "next": "g4",
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "symptoms",
+     "fa": "علائم"
+    },
+    {
+     "word": "sore throat",
+     "fa": "گلودرد"
+    },
+    {
+     "word": "trouble breathing",
+     "fa": "مشکل تنفس"
+    },
+    {
+     "word": "exhausted",
+     "fa": "خیلی خسته"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "Let me have a listen to your chest. Deep breath in… and out. Again.",
+   "translations": {
+    "fa": "بذارید سینه‌تون را گوش کنم. نفس عمیق… و بیرون. دوباره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "alright"
+     ],
+     "suggestion": "Is everything alright?",
+     "suggestionFa": "همه چی خوبه؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "jumper",
+      "should",
+      "take",
+      "off"
+     ],
+     "suggestion": "Should I take my jumper off?",
+     "suggestionFa": "ژاکتم را دربیارم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have a listen",
+     "fa": "گوش کردن"
+    },
+    {
+     "word": "chest",
+     "fa": "قفسهٔ سینه"
+    },
+    {
+     "word": "deep breath",
+     "fa": "نفس عمیق"
+    },
+    {
+     "word": "jumper",
+     "fa": "ژاکت"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"jumper\" = American \"sweater\".",
+    "fa": "jumper همان sweater است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "Your chest sounds clear. It's most likely viral, so antibiotics won't help, I'm afraid.",
+   "translations": {
+    "fa": "سینه‌تون صداش تمیزه. به احتمال زیاد ویروسیه، پس متأسفانه آنتی‌بیوتیک کمکی نمی‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "antibiotics",
+      "thought",
+      "really",
+      "would"
+     ],
+     "suggestion": "Really? I thought antibiotics would fix it.",
+     "suggestionFa": "واقعاً؟ فکر می‌کردم آنتی‌بیوتیک درستش می‌کنه.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "feel",
+      "can"
+     ],
+     "suggestion": "So what can I do to feel better?",
+     "suggestionFa": "پس چی کار کنم که بهتر بشم؟",
+     "trustDelta": 6,
+     "next": "n7",
      "success": true
     }
    ],
@@ -138,29 +309,127 @@
      "fa": "ویروسی"
     },
     {
-     "word": "plenty of fluids",
-     "fa": "مایعات زیاد"
+     "word": "antibiotics",
+     "fa": "آنتی‌بیوتیک‌ها"
+    },
+    {
+     "word": "fix",
+     "fa": "درست کردن"
     }
    ],
    "cultureNote": {
-    "en": "UK GPs rarely give antibiotics for colds — it's normal, not rudeness.",
-    "fa": "پزشک‌های بریتانیا برای سرماخوردگی به‌ندرت آنتی‌بیوتیک می‌دهند — عادی است، بی‌ادبی نیست."
+    "en": "UK GPs rarely prescribe antibiotics for viral infections like colds — they don't work on viruses.",
+    "fa": "پزشکان برای عفونت ویروسی آنتی‌بیوتیک نمی‌دهند."
    }
   },
-  "g4": {
-   "id": "g4",
+  "n7": {
+   "id": "n7",
    "speaker": "okafor",
-   "text": "Take care. And do call 111 if you feel worse over the weekend.",
+   "text": "Rest, plenty of fluids, and honey and lemon for the throat. Do you need a fit note for work?",
    "translations": {
-    "fa": "مراقب باش. و اگر آخر هفته بدتر شدی حتماً با ۱۱۱ تماس بگیر."
+    "fa": "استراحت، مایعات زیاد، و عسل و لیمو برای گلو. برای کار گواهی پزشکی لازم دارید؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "111",
-     "fa": "شمارهٔ مشاورهٔ پزشکی غیراورژانسی NHS"
+     "keywords": [
+      "already",
+      "please",
+      "i've",
+      "been"
+     ],
+     "suggestion": "Yes please — I've been off for a week already.",
+     "suggestionFa": "آره لطفاً — یه هفته‌ست سر کار نرفتم.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "certify",
+      "seven",
+      "days",
+      "self"
+     ],
+     "suggestion": "No, I can self-certify for seven days.",
+     "suggestionFa": "نه، تا هفت روز خودم می‌تونم گواهی بدم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "fluids",
+     "fa": "مایعات"
+    },
+    {
+     "word": "fit note",
+     "fa": "گواهی پزشکی کار"
+    },
+    {
+     "word": "off",
+     "fa": "غایب از کار"
+    },
+    {
+     "word": "self-certify",
+     "fa": "خوداظهاری"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, you can self-certify sickness for up to seven days; after that, you need a \"fit note\" from a doctor.",
+    "fa": "تا هفت روز خوداظهاری کافی است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "I'll do one for another week. If it's not better by then, book another appointment.",
+   "translations": {
+    "fa": "یکی برای یه هفتهٔ دیگه می‌نویسم. اگه تا اون موقع بهتر نشد، دوباره وقت بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doctor",
+      "thank",
+      "okay"
+     ],
+     "suggestion": "Okay, thank you, doctor.",
+     "suggestionFa": "باشه، ممنون دکتر.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "worry",
+      "when"
+     ],
+     "suggestion": "When should I worry?",
+     "suggestionFa": "کی باید نگران بشم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "appointment",
+     "fa": "وقت ملاقات"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "okafor",
+   "text": "If you struggle to breathe, call 999. Otherwise, call 111 if you feel worse over the weekend. Take care.",
+   "translations": {
+    "fa": "اگه نفس کشیدن سخت شد، با ۹۹۹ تماس بگیرید. در غیر این صورت، اگه آخر هفته بدتر شدید با ۱۱۱ تماس بگیرید. مراقب خودتون باشید."
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

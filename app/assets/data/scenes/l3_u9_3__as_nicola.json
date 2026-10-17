@@ -23,8 +23,8 @@
      "keywords": [
       "birthday",
       "present",
-      "seven",
       "bring",
+      "seven",
       "did"
      ],
      "suggestion": "It's my birthday! I'm seven! Did you bring me a present?",
@@ -48,9 +48,9 @@
      "keywords": [
       "dinosaur",
       "could",
-      "love",
-      "wish",
-      "book"
+      "book",
+      "real",
+      "have"
      ],
      "suggestion": "A dinosaur book! I love it! I wish I could have a real dinosaur.",
      "suggestionFa": "کتاب دایناسور! عاشقشم! کاش می‌تونستم یه دایناسور واقعی داشته باشم.",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "natural",
-      "museum",
+      "history",
       "london",
+      "museum",
       "mummy"
      ],
      "suggestion": "The Natural History Museum! Mummy says it's in London. I hope we can go soon.",
@@ -99,8 +99,8 @@
       "forever",
       "could",
       "moves",
-      "whale",
-      "today"
+      "today",
+      "whale"
      ],
      "suggestion": "The big blue whale! And the T-rex that moves. I wish today could last forever.",
      "suggestionFa": "نهنگ آبی بزرگ! و تی‌رکسی که تکون می‌خوره. کاش امروز تا ابد طول می‌کشید.",
@@ -123,8 +123,8 @@
      "keywords": [
       "scientist",
       "dinosaur",
-      "palaeo",
       "doctor",
+      "palaeo",
       "palae"
      ],
      "suggestion": "I want to be a dinosaur scientist. A palae… palaeo… a dinosaur doctor!",
@@ -148,9 +148,9 @@
      "keywords": [
       "candles",
       "time",
-      "cake",
+      "blow",
       "wish",
-      "blow"
+      "make"
      ],
      "suggestion": "Yes! Now it's time for cake. Can I make a wish when I blow out my candles?",
      "suggestionFa": "آره! حالا وقت کیکه. وقتی شمع‌هام را فوت می‌کنم می‌تونم آرزو کنم؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "dinosaur",
       "wished",
-      "count",
       "still",
+      "count",
       "oops"
      ],
      "suggestion": "I wished for a dinosaur… oops! I said it. Does it still count?",

@@ -7,87 +7,132 @@
  "setting": "Hackney Pharmacy",
  "settingFa": "داروخانهٔ هاکنی",
  "requires": null,
- "start": "h1",
+ "start": "n1",
  "nodes": {
-  "h1": {
-   "id": "h1",
+  "n1": {
+   "id": "n1",
    "speaker": "dawson",
    "text": "Hello, how can I help you today?",
    "translations": {
-    "fa": "سلام، امروز چه کمکی از دستم برمی‌آید؟"
+    "fa": "سلام، امروز چطور می‌تونم کمکتون کنم؟"
    },
    "branches": [
     {
      "keywords": [
-      "hay fever",
-      "sneezing",
+      "really",
       "itchy",
-      "eyes",
-      "allergy"
+      "fever",
+      "eyes"
      ],
      "suggestion": "I've got hay fever — my eyes are really itchy.",
-     "suggestionFa": "حساسیت فصلی دارم — چشم‌هایم خیلی می‌خارد.",
+     "suggestionFa": "تب یونجه دارم — چشمام خیلی می‌خاره.",
      "trustDelta": 7,
-     "next": "h2",
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
+      "throat",
       "cough",
-      "sore throat",
-      "cold",
-      "throat"
+      "sore",
+      "days"
      ],
      "suggestion": "I've had a sore throat and a cough for a few days.",
-     "suggestionFa": "چند روز است گلودرد و سرفه دارم.",
-     "trustDelta": 7,
-     "next": "h2",
+     "suggestionFa": "چند روزه گلودرد و سرفه دارم.",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "hay fever",
-     "fa": "حساسیت فصلی (گرده)"
+     "fa": "تب یونجه (حساسیت فصلی)"
     },
     {
      "word": "itchy",
      "fa": "خارش‌دار"
     }
    ],
-   "cultureNote": null
+   "cultureNote": {
+    "en": "Hay fever (pollen allergy) affects about one in four people in the UK, mostly in spring and summer.",
+    "fa": "از هر چهار نفر یکی تب یونجه دارد."
+   }
   },
-  "h2": {
-   "id": "h2",
+  "n2": {
+   "id": "n2",
    "speaker": "dawson",
-   "text": "I see. Are you taking any other medication at the moment?",
+   "text": "I see. How long have you had it?",
    "translations": {
-    "fa": "متوجهم. در حال حاضر داروی دیگری مصرف می‌کنید؟"
+    "fa": "متوجهم. چند وقته دارید؟"
    },
    "branches": [
     {
      "keywords": [
-      "no",
-      "nothing",
-      "none"
+      "weekend",
+      "since"
      ],
-     "suggestion": "No, nothing at the moment.",
-     "suggestionFa": "نه، فعلاً چیزی نمی‌خورم.",
-     "trustDelta": 6,
-     "next": "h3",
+     "suggestion": "Since the weekend.",
+     "suggestionFa": "از آخر هفته.",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "yes",
-      "taking",
+      "couple",
+      "weeks",
+      "off"
+     ],
+     "suggestion": "On and off for a couple of weeks.",
+     "suggestionFa": "دو هفته‌ست میاد و میره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on and off",
+     "fa": "گاه‌وبیگاه"
+    },
+    {
+     "word": "a couple of",
+     "fa": "چند تا"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dawson",
+   "text": "Are you taking any other medication at the moment?",
+   "translations": {
+    "fa": "الان داروی دیگه‌ای مصرف می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "moment"
+     ],
+     "suggestion": "No, nothing at the moment.",
+     "suggestionFa": "نه، فعلاً هیچی.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pressure",
       "tablets",
-      "pill"
+      "blood",
+      "take"
      ],
      "suggestion": "Yes, I take tablets for blood pressure.",
-     "suggestionFa": "بله، برای فشار خون قرص می‌خورم.",
-     "trustDelta": 7,
-     "next": "h3",
+     "suggestionFa": "آره، قرص فشار خون می‌خورم.",
+     "trustDelta": 6,
+     "next": "n4",
      "success": true
     }
    ],
@@ -97,52 +142,265 @@
      "fa": "دارو"
     },
     {
-     "word": "at the moment",
-     "fa": "در حال حاضر"
+     "word": "tablets",
+     "fa": "قرص‌ها"
+    },
+    {
+     "word": "blood pressure",
+     "fa": "فشار خون"
     }
    ],
-   "cultureNote": {
-    "en": "UK pharmacists can advise on minor illnesses for free — no appointment needed.",
-    "fa": "داروسازهای بریتانیا برای بیماری‌های جزئی رایگان مشورت می‌دهند — وقت لازم نیست."
-   }
+   "cultureNote": null
   },
-  "h3": {
-   "id": "h3",
+  "n4": {
+   "id": "n4",
    "speaker": "dawson",
-   "text": "Right. I'd suggest these — one a day, and they won't make you drowsy. If it gets worse, see your GP.",
+   "text": "Thanks. And are you allergic to anything?",
    "translations": {
-    "fa": "خب. این‌ها را پیشنهاد می‌کنم — روزی یکی، و خواب‌آلودتان نمی‌کند. اگر بدتر شد، به پزشک عمومی‌تان مراجعه کنید."
+    "fa": "ممنون. به چیزی حساسیت دارید؟"
    },
    "branches": [
     {
      "keywords": [
-      "thank",
-      "thanks",
-      "great",
-      "cheers",
-      "how much"
+      "know"
      ],
-     "suggestion": "Thank you. How much are they?",
-     "suggestionFa": "ممنون. قیمتش چقدر است؟",
+     "suggestion": "Not that I know of.",
+     "suggestionFa": "تا جایی که می‌دونم نه.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "penicillin",
+      "allergic"
+     ],
+     "suggestion": "Yes, I'm allergic to penicillin.",
+     "suggestionFa": "آره، به پنی‌سیلین حساسیت دارم.",
      "trustDelta": 6,
-     "next": "h4",
+     "next": "n5",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "drowsy",
-     "fa": "خواب‌آلود"
+     "word": "allergic",
+     "fa": "حساس"
+    },
+    {
+     "word": "not that I know of",
+     "fa": "تا جایی که می‌دانم نه"
     }
    ],
    "cultureNote": null
   },
-  "h4": {
-   "id": "h4",
+  "n5": {
+   "id": "n5",
    "speaker": "dawson",
-   "text": "£4.50, please. And do come back if you have any questions.",
+   "text": "Right. I'd suggest these — one a day, and they won't make you drowsy.",
    "translations": {
-    "fa": "۴ پوند و ۵۰ پنی، لطفاً. و اگر سؤالی داشتید حتماً برگردید."
+    "fa": "خب. اینا را پیشنهاد می‌کنم — روزی یکی، و خواب‌آلودتون نمی‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "food",
+      "them",
+      "take",
+      "can"
+     ],
+     "suggestion": "Can I take them with food?",
+     "suggestionFa": "می‌تونم با غذا بخورمشون؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "effects",
+      "there",
+      "side",
+      "any"
+     ],
+     "suggestion": "Are there any side effects?",
+     "suggestionFa": "عوارض جانبی داره؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "suggest",
+     "fa": "پیشنهاد دادن"
+    },
+    {
+     "word": "drowsy",
+     "fa": "خواب‌آلود"
+    },
+    {
+     "word": "side effects",
+     "fa": "عوارض جانبی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dawson",
+   "text": "With or without food is fine. Some people get a dry mouth, but that's rare.",
+   "translations": {
+    "fa": "با غذا یا بدون غذا فرقی نداره. بعضی‌ها دهنشون خشک میشه، ولی نادره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "that's",
+      "there",
+      "eyes"
+     ],
+     "suggestion": "That's fine. Is there anything for my eyes too?",
+     "suggestionFa": "باشه. برای چشمام هم چیزی هست؟",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "okay",
+      "them",
+      "take"
+     ],
+     "suggestion": "Okay. How long should I take them for?",
+     "suggestionFa": "باشه. چه مدت باید بخورمشون؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dry mouth",
+     "fa": "خشکی دهان"
+    },
+    {
+     "word": "rare",
+     "fa": "نادر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dawson",
+   "text": "These eye drops will soothe them. And try sunglasses outside — they keep the pollen out.",
+   "translations": {
+    "fa": "این قطره چشم آرومشون می‌کنه. و بیرون عینک آفتابی بزنید — گرده را دور نگه می‌داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunglasses",
+      "britain",
+      "first",
+      "i'll"
+     ],
+     "suggestion": "Sunglasses in Britain? I'll need some sun first!",
+     "suggestionFa": "عینک آفتابی تو بریتانیا؟ اول یه کم آفتاب لازم دارم!",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "good",
+      "tip"
+     ],
+     "suggestion": "Good tip. Thank you.",
+     "suggestionFa": "نکتهٔ خوبیه. ممنون.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eye drops",
+     "fa": "قطرهٔ چشم"
+    },
+    {
+     "word": "soothe",
+     "fa": "آرام کردن"
+    },
+    {
+     "word": "pollen",
+     "fa": "گردهٔ گیاه"
+    },
+    {
+     "word": "tip",
+     "fa": "نکته"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dawson",
+   "text": "Ha! True enough. If it gets worse, or you get wheezy, see your GP.",
+   "translations": {
+    "fa": "ها! حق با شماست. اگه بدتر شد، یا خس‌خس سینه گرفتید، برید پیش پزشک عمومی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "much",
+      "they",
+      "how"
+     ],
+     "suggestion": "Thank you. How much are they?",
+     "suggestionFa": "ممنون. قیمتشون چنده؟",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "prescription",
+      "will",
+      "need"
+     ],
+     "suggestion": "Will do. Do I need a prescription?",
+     "suggestionFa": "حتماً. نسخه لازمه؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wheezy",
+     "fa": "دچار خس‌خس"
+    },
+    {
+     "word": "GP",
+     "fa": "پزشک عمومی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Pharmacists in the UK can give free advice on minor illnesses — you don't need an appointment.",
+    "fa": "داروسازان مشاورهٔ رایگان می‌دهند."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "dawson",
+   "text": "No prescription needed. That's £4.50 for the tablets and £3.99 for the drops. Do come back if you have any questions.",
+   "translations": {
+    "fa": "نسخه لازم نیست. قرص‌ها ۴.۵۰ و قطره ۳.۹۹ پونده. اگه سؤالی داشتید حتماً برگردید."
    },
    "branches": [],
    "newWords": [],

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "sure",
       "nana",
+      "sure",
       "ok"
      ],
      "suggestion": "Sure. Are you OK, Nana?",
@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "can",
-      "ask"
+      "ask",
+      "can"
      ],
      "suggestion": "I can ask for you.",
      "suggestionFa": "من می‌تونم براتون بپرسم.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "something",
       "recommend",
+      "something",
       "excuse",
       "can"
      ],
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "medicine",
-      "needs",
       "hello",
+      "needs",
       "nana"
      ],
      "suggestion": "Hello, my nana needs cough medicine.",
@@ -171,7 +171,7 @@
       "spoons",
       "times",
       "three",
-      "two"
+      "day"
      ],
      "suggestion": "Two spoons, three times a day. OK!",
      "suggestionFa": "دو قاشق، روزی سه بار. باشه!",
@@ -217,8 +217,8 @@
     {
      "keywords": [
       "colds",
-      "honey",
       "lemon",
+      "honey",
       "good"
      ],
      "suggestion": "Honey and lemon is good for colds.",
@@ -231,8 +231,8 @@
      "keywords": [
       "better",
       "feel",
-      "hope",
-      "soon"
+      "soon",
+      "hope"
      ],
      "suggestion": "I hope you feel better soon.",
      "suggestionFa": "امیدوارم زود خوب بشید.",

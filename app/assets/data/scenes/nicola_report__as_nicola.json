@@ -1,0 +1,415 @@
+{
+ "id": "nicola_report__as_nicola",
+ "characterId": "patel",
+ "level": "A2",
+ "title": "(As Nicola) Nicola's end-of-year report",
+ "titleFa": "(در نقش Nicola) کارنامهٔ آخر سال نیکولا",
+ "setting": "Parents' evening, Year 2 classroom",
+ "settingFa": "جلسهٔ اولیا، کلاس دوم",
+ "requires": null,
+ "memory": {
+  "en": "Mr Patel read Nicola's end-of-year report",
+  "fa": "آقای پاتل کارنامهٔ آخر سال نیکولا را خواند"
+ },
+ "baseId": "nicola_report",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "patel",
+   "text": "Hello both, and hello Nicola! She's had a brilliant year — 'lovely ideas' in reading, and real effort in writing.",
+   "translations": {
+    "fa": "سلام به هر دوتون، و سلام نیکولا! سال فوق‌العاده‌ای داشته — «ایده‌های قشنگ» تو خوندن، و تلاش واقعی تو نوشتن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "effort",
+     "fa": "تلاش"
+    },
+    {
+     "word": "proud",
+     "fa": "مفتخر"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "That's lovely to hear — we're so proud of her.",
+   "translations": {
+    "fa": "شنیدنش خیلی خوبه — خیلی بهش افتخار می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "patel",
+   "text": "Her maths is working well too. She's very good at number bonds now.",
+   "translations": {
+    "fa": "ریاضیش هم خوب پیش میره. الان تو ترکیب‌های عددی خیلی خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "number bonds",
+     "fa": "ترکیب‌های عددی"
+    },
+    {
+     "word": "adding up",
+     "fa": "جمع زدن"
+    },
+    {
+     "word": "sweets",
+     "fa": "آب‌نبات"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Number bonds\" are pairs of numbers that make a total, like 7 + 3 = 10.",
+    "fa": "number bonds جفت عددهایی‌اند که یک مجموع می‌سازند."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What are number bonds?",
+   "translations": {
+    "fa": "ترکیب عددی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "patel",
+   "text": "Pairs of numbers that make ten, like six and four. If anything, she could put her hand up a bit more — she's quite shy in class.",
+   "translations": {
+    "fa": "جفت عددهایی که ده میشن، مثل شش و چهار. اگه چیزی باشه، می‌تونه یه کم بیشتر دست بلند کنه — سر کلاس نسبتاً خجالتیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "put her hand up",
+     "fa": "دست بلند کردن"
+    },
+    {
+     "word": "shy",
+     "fa": "خجالتی"
+    },
+    {
+     "word": "confident",
+     "fa": "با اعتمادبه‌نفس"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "How can we help her feel more confident at home?",
+   "translations": {
+    "fa": "چطور تو خونه کمکش کنیم اعتمادبه‌نفس بیشتری داشته باشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "patel",
+   "text": "Ask her to explain her homework to you, as if she's the teacher. Children love that.",
+   "translations": {
+    "fa": "ازش بخواید تکالیفش را براتون توضیح بده، انگار معلمه. بچه‌ها عاشقشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "explain",
+     "fa": "توضیح دادن"
+    },
+    {
+     "word": "as if",
+     "fa": "انگار"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "That's a great idea. We'll try it.",
+   "translations": {
+    "fa": "فکر خیلی خوبیه. امتحانش می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butterfly",
+      "painting",
+      "wall",
+      "show",
+      "can"
+     ],
+     "suggestion": "Can I show you my butterfly painting? It's on the wall!",
+     "suggestionFa": "می‌تونم نقاشی پروانه‌ام را نشونتون بدم؟ رو دیواره!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes please — I'd love to see it!",
+   "translations": {
+    "fa": "آره لطفاً — دوست دارم ببینمش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butterflies",
+      "pattern",
+      "colour",
+      "wings",
+      "every"
+     ],
+     "suggestion": "It's this one! I used every colour. Butterflies have the same pattern on both wings.",
+     "suggestionFa": "این یکیه! از همه رنگ‌ها استفاده کردم. پروانه‌ها رو هر دو بالشون یه طرح دارن.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "It's beautiful — the colours are amazing.",
+   "translations": {
+    "fa": "قشنگه — رنگ‌هاش فوق‌العاده‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "patel",
+   "text": "That's called symmetry — we learned it this term. Any questions about Year 3?",
+   "translations": {
+    "fa": "اسمش تقارنه — این ترم یادش گرفتیم. سؤالی دربارهٔ کلاس سوم دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "symmetry",
+     "fa": "تقارن"
+    },
+    {
+     "word": "term",
+     "fa": "ترم"
+    },
+    {
+     "word": "Year 3",
+     "fa": "کلاس سوم دبستان"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, children start Year 1 at age five or six; Year 3 is the start of \"Key Stage 2\".",
+    "fa": "سال سوم آغاز مرحلهٔ کلیدی ۲ است."
+   }
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Who will her teacher be next year?",
+   "translations": {
+    "fa": "معلمش سال بعد کی میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "patel",
+   "text": "Mr Ellis — he's lovely, and very calm. A little more homework, but mostly reading. Keep up the bedtime stories!",
+   "translations": {
+    "fa": "آقای الیس — خیلی خوبه، و خیلی آروم. یه کم تکلیف بیشتر، ولی بیشترش خوندن. قصه‌های شب را ادامه بدید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "calm",
+     "fa": "آرام"
+    },
+    {
+     "word": "bedtime stories",
+     "fa": "قصه‌های قبل خواب"
+    },
+    {
+     "word": "keep up",
+     "fa": "ادامه دادن"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "We will. Thank you for everything this year.",
+   "translations": {
+    "fa": "حتماً. ممنون بابت همه چیز امسال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "patel",
+   "text": "'Well done, Nicola!' — I wrote it on the report myself. Have a lovely summer, all of you.",
+   "translations": {
+    "fa": "«آفرین نیکولا!» — خودم روی کارنامه نوشتمش. تابستون خوبی داشته باشید، همه‌تون."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

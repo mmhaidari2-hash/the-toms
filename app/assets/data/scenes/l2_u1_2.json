@@ -33,9 +33,9 @@
     {
      "keywords": [
       "every",
-      "busy",
       "work",
-      "went"
+      "went",
+      "busy"
      ],
      "suggestion": "It was busy. I went to work every day.",
      "suggestionFa": "شلوغ بود. هر روز رفتم سر کار.",
@@ -193,8 +193,8 @@
      "keywords": [
       "shoes",
       "like",
-      "did",
-      "she"
+      "she",
+      "did"
      ],
      "suggestion": "Did she like the shoes?",
      "suggestionFa": "از کفش‌ها خوشش اومد؟",
@@ -235,7 +235,7 @@
       "market",
       "bought",
       "fruit",
-      "some"
+      "went"
      ],
      "suggestion": "I went to the market and bought some fruit.",
      "suggestionFa": "رفتم بازار و یه کم میوه خریدم.",
@@ -247,8 +247,8 @@
      "keywords": [
       "friend",
       "lunch",
-      "met",
-      "had"
+      "had",
+      "met"
      ],
      "suggestion": "I met a friend and we had lunch.",
      "suggestionFa": "یه دوست را دیدم و ناهار خوردیم.",
@@ -343,8 +343,8 @@
     {
      "keywords": [
       "yours",
-      "bad",
-      "how"
+      "how",
+      "bad"
      ],
      "suggestion": "Not bad. How was yours?",
      "suggestionFa": "بد نبود. مال تو چطور بود؟",

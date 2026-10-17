@@ -71,7 +71,7 @@
       "didn't",
       "bored",
       "mean",
-      "see"
+      "get"
      ],
      "suggestion": "I see what you mean, but I didn't get bored.",
      "suggestionFa": "منظورت را می‌فهمم، ولی خسته نشدم.",
@@ -195,8 +195,8 @@
      "keywords": [
       "swearing",
       "there's",
-      "maybe",
-      "quite"
+      "quite",
+      "maybe"
      ],
      "suggestion": "Maybe not. There's quite a lot of swearing!",
      "suggestionFa": "شاید نه. کلی فحش داره!",
@@ -231,8 +231,8 @@
     {
      "keywords": [
       "please",
-      "know",
-      "well"
+      "well",
+      "know"
      ],
      "suggestion": "Yes, please. You know me too well!",
      "suggestionFa": "آره لطفاً. خیلی خوب منو می‌شناسی!",
@@ -242,8 +242,8 @@
     },
     {
      "keywords": [
-      "different",
       "something",
+      "different",
       "actually",
       "today"
      ],

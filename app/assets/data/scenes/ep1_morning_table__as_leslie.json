@@ -63,8 +63,8 @@
      "keywords": [
       "sourdough",
       "passing",
-      "crumbs",
       "please",
+      "crumbs",
       "would"
      ],
      "suggestion": "Would you mind passing the sourdough, please? And mind the crumbs, Ryan.",
@@ -251,10 +251,10 @@
     {
      "keywords": [
       "lunchboxes",
-      "nicola",
       "crisps",
-      "right",
-      "apple"
+      "nicola",
+      "apple",
+      "right"
      ],
      "suggestion": "Right, lunchboxes. Nicola wants crisps, I say an apple. Back me up?",
      "suggestionFa": "خب، ظرف ناهار. نیکولا چیپس می‌خواد، من می‌گم سیب. پشتم را می‌گیری؟",
@@ -323,11 +323,11 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "someone",
+      "weather",
+      "about",
       "coats",
-      "check",
-      "about"
+      "check"
      ],
      "suggestion": "Deal. Oh, and can someone check the weather? I need to know about coats.",
      "suggestionFa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه.",
@@ -406,8 +406,8 @@
      "keywords": [
       "nicola's",
       "everyone",
-      "could",
       "shoes",
+      "could",
       "eight"
      ],
      "suggestion": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",

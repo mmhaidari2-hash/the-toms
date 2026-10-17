@@ -33,8 +33,8 @@
     {
      "keywords": [
       "presentation",
-      "long",
       "sure",
+      "long",
       "how"
      ],
      "suggestion": "Sure. How long is your presentation?",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "slowly",
-      "start",
-      "great"
+      "though",
+      "great",
+      "speak"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
      "suggestionFa": "شروع عالی. ولی یه کم آهسته‌تر حرف بزن.",
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "explain",
-      "good",
       "made",
-      "why"
+      "good",
+      "now"
      ],
      "suggestion": "Good. Now explain why you made it.",
      "suggestionFa": "خوبه. حالا توضیح بده چرا ساختیش.",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "works",
+      "show",
       "them",
-      "nice",
-      "show"
+      "nice"
      ],
      "suggestion": "Nice. Can you show them how it works?",
      "suggestionFa": "خوبه. می‌تونی نشونشون بدی چطور کار می‌کنه؟",
@@ -144,8 +144,8 @@
     },
     {
      "keywords": [
-      "number",
       "charge",
+      "number",
       "maybe",
       "give"
      ],
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "judges",
-      "love",
       "joke",
+      "love",
       "will"
      ],
      "suggestion": "Ha! The judges will love that joke.",
@@ -204,8 +204,8 @@
      "keywords": [
       "finish",
       "going",
-      "how",
-      "now"
+      "now",
+      "how"
      ],
      "suggestion": "Now, how are you going to finish?",
      "suggestionFa": "حالا، چطوری می‌خوای تمومش کنی؟",
@@ -245,8 +245,8 @@
      "keywords": [
       "brilliant",
       "about",
-      "they",
-      "cost"
+      "cost",
+      "will"
      ],
      "suggestion": "Brilliant! What will you say if they ask about the cost?",
      "suggestionFa": "عالی! اگه دربارهٔ هزینه بپرسن چی می‌گی؟",
@@ -259,7 +259,7 @@
       "really",
       "you'll",
       "great",
-      "good"
+      "ryan"
      ],
      "suggestion": "That was really good, Ryan. You'll be great.",
      "suggestionFa": "خیلی خوب بود رایان. عالی میشی.",

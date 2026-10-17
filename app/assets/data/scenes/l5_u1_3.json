@@ -35,7 +35,7 @@
       "questions",
       "depends",
       "follow",
-      "did"
+      "she"
      ],
      "suggestion": "It depends. Did she ask any follow-up questions?",
      "suggestionFa": "بستگی داره. سؤال بعدی هم پرسید؟",
@@ -124,9 +124,9 @@
     {
      "keywords": [
       "customers",
-      "numbers",
       "present",
-      "asked"
+      "numbers",
+      "could"
      ],
      "suggestion": "You could present some numbers — how many customers have asked for it.",
      "suggestionFa": "می‌تونی چندتا عدد نشون بدی — چند تا مشتری درخواستش کردن.",
@@ -138,8 +138,8 @@
      "keywords": [
       "suggest",
       "option",
-      "vegan",
-      "month"
+      "month",
+      "vegan"
      ],
      "suggestion": "Suggest a small trial, like one vegan option for a month. Lower risk.",
      "suggestionFa": "یه آزمایش کوچیک پیشنهاد بده، مثلاً یه گزینهٔ وگان برای یه ماه. ریسک کمتر.",
@@ -190,8 +190,8 @@
     },
     {
      "keywords": [
-      "problem",
       "solving",
+      "problem",
       "frame",
       "yours"
      ],

@@ -10,40 +10,39 @@
   "characterId": "nicola",
   "milestone": "M3"
  },
- "start": "m1",
+ "start": "n1",
  "nodes": {
-  "m1": {
-   "id": "m1",
+  "n1": {
+   "id": "n1",
    "speaker": "mia",
    "text": "Hello! I'm Mia. I'm Nicola's best friend. Do you like unicorns?",
    "translations": {
-    "fa": "سلام! من میام. بهترین دوست نیکولا. تک‌شاخ دوست داری؟"
+    "fa": "سلام! من میام. بهترین دوست نیکولام. تک‌شاخ دوست داری؟"
    },
    "branches": [
     {
      "keywords": [
-      "yes",
-      "love",
       "unicorns",
-      "like"
+      "love",
+      "nice",
+      "meet"
      ],
      "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
-     "suggestionFa": "آره، عاشق تک‌شاخم! خوشبختم میا.",
-     "trustDelta": 8,
-     "next": "m2",
+     "suggestionFa": "آره، عاشق تک‌شاخم! از آشناییت خوشحالم میا.",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "no",
       "dragons",
-      "prefer",
-      "dinosaurs"
+      "honest",
+      "prefer"
      ],
      "suggestion": "I prefer dragons, to be honest!",
-     "suggestionFa": "راستش من اژدها رو بیشتر دوست دارم!",
+     "suggestionFa": "راستش اژدها را ترجیح می‌دم!",
      "trustDelta": 6,
-     "next": "m2",
+     "next": "n2",
      "success": true
     }
    ],
@@ -53,65 +52,381 @@
      "fa": "بهترین دوست"
     },
     {
-     "word": "nice to meet you",
-     "fa": "خوشبختم"
+     "word": "prefer",
+     "fa": "ترجیح دادن"
+    },
+    {
+     "word": "dragons",
+     "fa": "اژدها"
     }
    ],
    "cultureNote": null
   },
-  "m2": {
-   "id": "m2",
+  "n2": {
+   "id": "n2",
    "speaker": "mia",
-   "text": "Can we have squash and biscuits? Nicola's mum always says yes.",
+   "text": "Dragons are scary! But okay. Can we have squash and biscuits? Nicola's mum always says yes.",
    "translations": {
-    "fa": "می‌شه شربت و بیسکویت بخوریم؟ مامان نیکولا همیشه می‌گه آره."
+    "fa": "اژدهاها ترسناکن! ولی باشه. می‌تونیم شربت و بیسکویت بخوریم؟ مامان نیکولا همیشه می‌گه آره."
    },
    "branches": [
     {
      "keywords": [
-      "squash",
-      "biscuits",
-      "yes",
-      "course",
       "orange",
-      "here"
+      "course",
+      "squash",
+      "each"
      ],
      "suggestion": "Of course — orange squash and a biscuit each.",
-     "suggestionFa": "البته — شربت پرتقال و هر نفر یه بیسکویت.",
-     "trustDelta": 8,
-     "next": "m3",
+     "suggestionFa": "البته — شربت پرتقال و هر کدوم یه بیسکویت.",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lunchtime",
+      "nearly",
+      "then",
+      "just"
+     ],
+     "suggestion": "Just one biscuit, then. It's nearly lunchtime.",
+     "suggestionFa": "پس فقط یه بیسکویت. نزدیک ناهاره.",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "squash",
-     "fa": "شربت رقیق‌شدنی (بریتانیایی)"
+     "fa": "شربت رقیق‌شدنی"
+    },
+    {
+     "word": "biscuits",
+     "fa": "بیسکویت"
+    },
+    {
+     "word": "each",
+     "fa": "هر کدام"
     }
    ],
    "cultureNote": {
-    "en": "'Squash' is a fruit cordial you mix with water — a staple of every British childhood.",
-    "fa": "«Squash» شربت میوه‌ای است که با آب رقیقش می‌کنند — جزء ثابت کودکی بریتانیایی."
+    "en": "\"Squash\" is a concentrated fruit drink you mix with water — a staple for British children.",
+    "fa": "اسکواش شربت غلیظ میوه است."
    }
   },
-  "m3": {
-   "id": "m3",
+  "n3": {
+   "id": "n3",
    "speaker": "mia",
-   "text": "Ta! You're well nice. Nicola, can your friend play hide and seek with us?",
+   "text": "Ta! Do you live here? Are you Nicola's cousin?",
    "translations": {
-    "fa": "مرسی! تو خیلی باحالی. نیکولا، دوستت می‌تونه با ما قایم‌باشک بازی کنه؟"
+    "fa": "مرسی! تو اینجا زندگی می‌کنی؟ پسرعموی نیکولایی؟"
    },
-   "branches": [],
-   "newWords": [
+   "branches": [
     {
-     "word": "hide and seek",
-     "fa": "قایم‌باشک"
+     "keywords": [
+      "friend",
+      "family",
+      "here",
+      "live"
+     ],
+     "suggestion": "No, I'm a family friend. I live here now.",
+     "suggestionFa": "نه، دوست خانوادگی‌ام. الان اینجا زندگی می‌کنم.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
     },
     {
-     "word": "well nice",
-     "fa": "خیلی خوب (اسلنگ)"
+     "keywords": [
+      "brother",
+      "like",
+      "sort",
+      "her"
+     ],
+     "suggestion": "Sort of! I'm like her big brother.",
+     "suggestionFa": "یه جورایی! مثل داداش بزرگشم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
     }
    ],
+   "newWords": [
+    {
+     "word": "ta",
+     "fa": "مرسی (عامیانه)"
+    },
+    {
+     "word": "cousin",
+     "fa": "پسرعمو/دخترخاله"
+    },
+    {
+     "word": "sort of",
+     "fa": "یه جورایی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "mia",
+   "text": "Cool! You talk a bit funny. Where are you from?",
+   "translations": {
+    "fa": "باحاله! یه کم بامزه حرف می‌زنی. اهل کجایی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "away",
+      "iran",
+      "far"
+     ],
+     "suggestion": "I'm from Iran. It's far away.",
+     "suggestionFa": "اهل ایرانم. خیلی دوره.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "afghanistan",
+      "where",
+      "know"
+     ],
+     "suggestion": "From Afghanistan. Do you know where that is?",
+     "suggestionFa": "از افغانستان. می‌دونی کجاست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "talk funny",
+     "fa": "عجیب حرف زدن"
+    },
+    {
+     "word": "far away",
+     "fa": "دور"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "mia",
+   "text": "No. Is it hot there? Do they have unicorns?",
+   "translations": {
+    "fa": "نه. اونجا گرمه؟ تک‌شاخ دارن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "hot"
+     ],
+     "suggestion": "It's very hot in summer, but no unicorns!",
+     "suggestionFa": "تابستون خیلی گرمه، ولی تک‌شاخ نه!",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cats",
+      "lots"
+     ],
+     "suggestion": "No unicorns, but lots of cats!",
+     "suggestionFa": "تک‌شاخ نه، ولی کلی گربه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hot",
+     "fa": "گرم"
+    },
+    {
+     "word": "summer",
+     "fa": "تابستان"
+    },
+    {
+     "word": "lots of",
+     "fa": "کلی"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "mia",
+   "text": "Cats are nice. I've got a hamster called Biscuit. Have you got a pet?",
+   "translations": {
+    "fa": "گربه‌ها خوبن. من یه همستر دارم به اسم بیسکویت. تو حیوون خونگی داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "i'd",
+      "but",
+      "one"
+     ],
+     "suggestion": "No, but I'd like a dog one day.",
+     "suggestionFa": "نه، ولی یه روز سگ می‌خوام.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuit",
+      "great",
+      "name"
+     ],
+     "suggestion": "No. Biscuit is a great name!",
+     "suggestionFa": "نه. بیسکویت اسم خیلی خوبیه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hamster",
+     "fa": "همستر"
+    },
+    {
+     "word": "pet",
+     "fa": "حیوان خانگی"
+    },
+    {
+     "word": "one day",
+     "fa": "یک روز"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "mia",
+   "text": "Nicola, look! We can make a den with the sofa cushions! Will you help us?",
+   "translations": {
+    "fa": "نیکولا، ببین! می‌تونیم با کوسن‌های مبل یه خونه درست کنیم! کمکمون می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "afterwards",
+      "okay",
+      "tidy",
+      "but"
+     ],
+     "suggestion": "Okay, but we tidy up afterwards!",
+     "suggestionFa": "باشه، ولی بعدش مرتب می‌کنیم!",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "blanket",
+      "i'll",
+      "roof",
+      "get"
+     ],
+     "suggestion": "Yes! I'll get a blanket for the roof.",
+     "suggestionFa": "آره! یه پتو برای سقف میارم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "den",
+     "fa": "خانهٔ بازی"
+    },
+    {
+     "word": "cushions",
+     "fa": "کوسن‌ها"
+    },
+    {
+     "word": "tidy up",
+     "fa": "مرتب کردن"
+    },
+    {
+     "word": "blanket",
+     "fa": "پتو"
+    },
+    {
+     "word": "roof",
+     "fa": "سقف"
+    }
+   ],
+   "cultureNote": {
+    "en": "Building a \"den\" from cushions and blankets is a favourite British childhood game.",
+    "fa": "ساختن den بازی محبوب کودکان است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "mia",
+   "text": "It's the best den EVER. Can we have our biscuits inside it? Please?",
+   "translations": {
+    "fa": "بهترین خونهٔ دنیاست. می‌تونیم بیسکویت‌هامون را توش بخوریم؟ لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "crumbs",
+      "don't",
+      "get"
+     ],
+     "suggestion": "Yes, but don't get crumbs everywhere!",
+     "suggestionFa": "آره، ولی همه جا را خرده نریزید!",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "only",
+      "come",
+      "can",
+      "if"
+     ],
+     "suggestion": "Only if I can come in too!",
+     "suggestionFa": "فقط اگه منم بتونم بیام تو!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crumbs",
+     "fa": "خرده‌ها"
+    },
+    {
+     "word": "everywhere",
+     "fa": "همه جا"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "mia",
+   "text": "Ta! You're well nice. Nicola, can your friend play hide and seek with us next?",
+   "translations": {
+    "fa": "مرسی! خیلی خوبی. نیکولا، دوستت می‌تونه بعدش با ما قایم‌باشک بازی کنه؟"
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }
