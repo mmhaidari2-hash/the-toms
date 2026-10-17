@@ -18,15 +18,25 @@ def words(s):
   return out
 units=[];scenes={};errs=[]
 FILES=sorted(glob.glob(os.path.join(H,'..','level*','u*.txt')),key=lambda f:(int(re.search(r'level(\d+)',os.path.basename(os.path.dirname(f))).group(1)),f))
+# Career Packs: tool/career/<pack>/pack.json + u*.txt (same DSL; unit header has a 7th field = CEFR level)
+PACKS=[]
+for pj in sorted(glob.glob(os.path.join(H,'..','career','*','pack.json'))):
+  meta=json.load(open(pj)); meta['units']=[]; PACKS.append(meta)
+  FILES+=sorted(glob.glob(os.path.join(os.path.dirname(pj),'u*.txt')))
+PACKBY={m['id']:m for m in PACKS}
 for f in FILES:
-  LV=int(re.search(r'level(\d+)',os.path.basename(os.path.dirname(f))).group(1))
+  pk=os.path.basename(os.path.dirname(f)) if os.sep+'career'+os.sep in f else None
+  LV=0 if pk else int(re.search(r'level(\d+)',os.path.basename(os.path.dirname(f))).group(1))
   unit=None;les=None;node=None
   for raw in open(f,encoding='utf-8'):
     l=raw.rstrip('\n').strip()
     if not l: continue
     if l.startswith('## '):
-      uid,t,tf,place,can,canfa=[x.strip() for x in l[3:].split('|')]
-      unit={'level':LV,'id':uid,'title':t,'titleFa':tf,'place':place,'canDo':can,'canDoFa':canfa,'lessons':[]};units.append(unit);continue
+      hp=[x.strip() for x in l[3:].split('|')]
+      uid,t,tf,place,can,canfa=hp[:6]
+      unit={'level':LV,'id':uid,'title':t,'titleFa':tf,'place':place,'canDo':can,'canDoFa':canfa,'lessons':[]}
+      if pk: unit['pack']=pk; unit['cefr']=hp[6]
+      units.append(unit);continue
     if l.startswith('# '):
       p=[x.strip() for x in l[2:].split('|')]
       les={'id':p[0],'lead':p[1],'title':p[2],'titleFa':p[3],'grammar':p[4],'grammarFa':p[5],'place':(p[6] if len(p)>6 else unit['place']),'nodes':[]}
@@ -43,9 +53,9 @@ for f in FILES:
     node={'speaker':sp.strip(),'text':t,'fa':fa,'replies':[],'words':[],'culture':None,'recasts':[]}; les['nodes'].append(node)
 course={'units':[]}
 for ui,u in enumerate(units):
-  cu={k:u[k] for k in ('level','id','title','titleFa','place','canDo','canDoFa')}; cu['lessons']=[]
+  cu={k:u[k] for k in ('level','id','title','titleFa','place','canDo','canDoFa','cefr') if k in u}; cu['lessons']=[]
   for les in u['lessons']:
-    sid=les['id']; N={}; ns=les['nodes']; lvl=('A0' if ui<3 else 'A1') if u['level']==1 else {2:'A2',3:'B1',4:'B2'}.get(u['level'],'C1')
+    sid=les['id']; N={}; ns=les['nodes']; lvl=u['cefr'] if u.get('pack') else ('A0' if ui<3 else 'A1') if u['level']==1 else {2:'A2',3:'B1',4:'B2'}.get(u['level'],'C1')
     allw=[]
     for i,n in enumerate(ns):
       nid=f'n{i+1}'; nxt=f'n{i+2}' if i+1<len(ns) else None
@@ -67,18 +77,21 @@ for ui,u in enumerate(units):
     scene={'id':sid,'characterId':les['lead'],'title':les['title'],'titleFa':les['titleFa'],'setting':f"{u['title']} · Level {u['level']}",'settingFa':u['titleFa'],'requires':None,'start':'n1','level':lvl,'nodes':N}
     scenes[sid]=scene
     cu['lessons'].append({'id':sid,'title':les['title'],'titleFa':les['titleFa'],'lead':les['lead'],'place':les['place'],'grammar':les['grammar'],'grammarFa':les['grammarFa'],'sceneIds':[sid],'words':allw,'turns':2*len(ns)-1})
-  course['units'].append(cu)
+  (PACKBY[u['pack']]['units'] if u.get('pack') else course['units']).append(cu)
+course['packs']=PACKS
 PL={p['id']:p for t in json.load(open(os.path.join(A,'places.json'))) for p in t['places']}
-for u in course['units']:
+for u in course['units']+[x for pk in PACKS for x in pk['units']]:
   for l in u['lessons']:
     if l['place'] not in PL: errs.append(f"{l['id']} unknown place {l['place']}")
+    elif u.get('cefr'): continue  # Career Pack leads (e.g. Vida) aren't in the family paintings yet
     elif l['lead'] not in {h['characterId'] for h in PL[l['place']].get('hotspots',[])}: errs.append(f"{l['id']}: lead {l['lead']} is not in the {l['place']} painting")
 if errs: print('\n'.join(errs)); sys.exit(1)
 for sid,s in scenes.items(): json.dump(s,open(os.path.join(A,'scenes',sid+'.json'),'w'),ensure_ascii=False,indent=1)
-idx=[i for i in json.load(open(os.path.join(A,'scenes_index.json'))) if not re.match(r'l\d+_',i)]+list(scenes)
+idx=[i for i in json.load(open(os.path.join(A,'scenes_index.json'))) if not re.match(r'l\d+_',i) and i not in scenes]+list(scenes)
 json.dump(idx,open(os.path.join(A,'scenes_index.json'),'w'),indent=1)
 json.dump(course,open(os.path.join(A,'course.json'),'w'),ensure_ascii=False,indent=1)
 W={w['word'].lower() for u in course['units'] for l in u['lessons'] for w in l['words']}
+print(*[f"pack {pk['id']}: {len(pk['units'])} units {sum(len(u['lessons']) for u in pk['units'])} lessons" for pk in PACKS])
 print(len(course['units']),'units',sum(len(u['lessons']) for u in course['units']),'lessons',len(W),'words',sum(l['turns'] for u in course['units'] for l in u['lessons']),'turns')
 # role-switch variants must be rebuilt whenever scenes change
 import subprocess; subprocess.run([sys.executable, os.path.join(H,'..','explore','build.py')], check=True); subprocess.run([sys.executable, os.path.join(H,'..','make_roles.py')], check=True); subprocess.run([sys.executable, os.path.join(H,'..','bundle_scenes.py')], check=True)

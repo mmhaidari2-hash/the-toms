@@ -1,0 +1,299 @@
+{
+ "id": "nur_6_4",
+ "characterId": "dan",
+ "title": "A difficult conversation",
+ "titleFa": "یک گفت‌وگوی سخت",
+ "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dan",
+   "text": "Oscar's come home with teeth marks on his arm again. That's the second time this month. Who did it? I want to speak to the parents.",
+   "translations": {
+    "fa": "اسکار دوباره با جای دندون رو بازوش اومده خونه. این دومین بار تو این ماهه. کی این کار را کرده؟ می‌خوام با والدینش حرف بزنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "completely",
+      "understand",
+      "upset",
+      "why"
+     ],
+     "suggestion": "I completely understand why you're upset.",
+     "suggestionFa": "کاملاً می‌فهمم چرا ناراحتید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happened",
+      "really",
+      "again",
+      "sorry"
+     ],
+     "suggestion": "I'm really sorry this has happened again.",
+     "suggestionFa": "واقعاً متأسفم که دوباره این اتفاق افتاد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teeth marks",
+     "fa": "جای دندان"
+    },
+    {
+     "word": "upset",
+     "fa": "ناراحت ؛ دلخور"
+    },
+    {
+     "word": "completely",
+     "fa": "کاملاً"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK nurseries, staff never tell a parent which child bit or hurt their child. This protects all children's confidentiality.",
+    "fa": "هیچ‌وقت نام کودک دیگر به والدین گفته نمی‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dan",
+   "text": "Then tell me who it was. I've got a right to know.",
+   "translations": {
+    "fa": "پس بگید کی بود. حق دارم بدونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "child's",
+      "afraid",
+      "can't",
+      "share"
+     ],
+     "suggestion": "I'm afraid I can't share the other child's name.",
+     "suggestionFa": "متأسفانه نمی‌تونم اسم بچهٔ دیگه را بگم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exactly",
+      "oscar's",
+      "protect",
+      "privacy"
+     ],
+     "suggestion": "We'd protect Oscar's privacy in exactly the same way.",
+     "suggestionFa": "ما از حریم خصوصی اسکار هم دقیقاً همین‌طور محافظت می‌کنیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "right",
+     "fa": "حق"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "privacy",
+     "fa": "حریم خصوصی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i can't to tell the name",
+      "i not can say name"
+     ],
+     "echo": "You can't share the name? That's right.",
+     "better": "I'm afraid I can't share the other child's name.",
+     "betterFa": "متأسفانه نمی‌تونم اسم بچهٔ دیگه را بگم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dan",
+   "text": "Fine, I get that. But what are you actually doing about it?",
+   "translations": {
+    "fa": "باشه، می‌فهمم. ولی واقعاً چه کاری براش می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shadowing",
+      "teaching",
+      "feelings",
+      "closely"
+     ],
+     "suggestion": "We're shadowing that child closely and teaching other ways to show feelings.",
+     "suggestionFa": "اون بچه را از نزدیک همراهی می‌کنیم و راه‌های دیگهٔ نشون دادن احساسات را یادش می‌دیم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crowding",
+      "changed",
+      "layout",
+      "reduce"
+     ],
+     "suggestion": "We've also changed the room layout to reduce crowding.",
+     "suggestionFa": "چیدمان اتاق را هم عوض کردیم که شلوغی کمتر بشه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shadowing",
+     "fa": "از نزدیک همراهی کردن ؛ زیر نظر داشتن"
+    },
+    {
+     "word": "layout",
+     "fa": "چیدمان"
+    },
+    {
+     "word": "crowding",
+     "fa": "ازدحام ؛ شلوغی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Biting is common in toddlers who can't yet express frustration with words. Nurseries respond with supervision and language support, not punishment.",
+    "fa": "گاز گرفتن در نوپاها رایج است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dan",
+   "text": "Right. And why did nobody call me? I only found out at bath time.",
+   "translations": {
+    "fa": "باشه. و چرا هیچ‌کس به من زنگ نزد؟ من فقط موقع حموم فهمیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accident",
+      "should",
+      "right",
+      "have"
+     ],
+     "suggestion": "You're right, it should have been on his accident form at pick-up.",
+     "suggestionFa": "حق با شماست، باید موقع بردنش تو فرم حادثه‌اش می‌بود.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wasn't",
+      "given",
+      "look",
+      "into"
+     ],
+     "suggestion": "I'll look into why the form wasn't given to you.",
+     "suggestionFa": "بررسی می‌کنم چرا فرم به شما داده نشد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found out",
+     "fa": "فهمیدم ؛ مطلع شدم"
+    },
+    {
+     "word": "look into",
+     "fa": "بررسی کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it should be on the form yesterday",
+      "it must have be on form"
+     ],
+     "echo": "It should have been on the form? Yes.",
+     "better": "It should have been on his accident form.",
+     "betterFa": "باید تو فرم حادثه‌اش می‌بود."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Dan, I'm so sorry — that's our mistake. The bite happened at four, and the form was missed at handover. We've already changed our handover checklist so it can't happen again.",
+   "translations": {
+    "fa": "دن، خیلی متأسفم — اشتباه ما بود. گاز گرفتن ساعت چهار اتفاق افتاد و فرم موقع تحویل جا موند. ما همین الان چک‌لیست تحویل‌مون را عوض کردیم که دیگه تکرار نشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manager",
+      "would",
+      "meet",
+      "like"
+     ],
+     "suggestion": "Would you like to meet Jo and the manager this week?",
+     "suggestionFa": "می‌خواید این هفته با جو و مدیر جلسه داشته باشید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "update",
+      "we'll",
+      "every",
+      "weeks"
+     ],
+     "suggestion": "We'll update you every day for the next two weeks.",
+     "suggestionFa": "تا دو هفتهٔ آینده هر روز بهتون خبر می‌دیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "missed",
+     "fa": "جا ماند ؛ از دست رفت"
+    },
+    {
+     "word": "checklist",
+     "fa": "فهرست بررسی"
+    },
+    {
+     "word": "update",
+     "fa": "خبر دادن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dan",
+   "text": "OK. Thanks for being honest — that actually makes me feel better. A daily update would be great. Come on, Oscar, let's go home.",
+   "translations": {
+    "fa": "باشه. ممنون که صادق بودید — راستش حالم را بهتر می‌کنه. خبر روزانه عالی میشه. بیا اسکار، بریم خونه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

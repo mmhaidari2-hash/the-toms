@@ -20,8 +20,8 @@
     {
      "keywords": [
       "where's",
-      "milk",
-      "sure"
+      "sure",
+      "milk"
      ],
      "suggestion": "Sure. Where's the milk?",
      "suggestionFa": "حتماً. شیر کجاست؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "where's",
       "washing",
-      "please",
-      "liquid"
+      "where's",
+      "liquid",
+      "please"
      ],
      "suggestion": "Yes, please. Where's the washing-up liquid?",
      "suggestionFa": "بله لطفاً. مایع ظرفشویی کجاست؟",
@@ -168,8 +168,8 @@
    "branches": [
     {
      "keywords": [
-      "normal",
       "that's",
+      "normal",
       "fine",
       "eggs"
      ],
@@ -181,8 +181,8 @@
     },
     {
      "keywords": [
-      "there",
       "boxes",
+      "there",
       "any",
       "big"
      ],

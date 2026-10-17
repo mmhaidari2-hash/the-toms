@@ -1,8 +1,8 @@
 {
  "id": "l1_u5_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Nana's routine",
- "titleFa": "(در نقش Nana Weda) کارهای روزانهٔ نانا",
+ "title": "(As Nana Maggie) Nana's routine",
+ "titleFa": "(در نقش Nana Maggie) کارهای روزانهٔ نانا",
  "setting": "My day · Level 1",
  "settingFa": "روز من",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "always",
       "early",
+      "dear",
       "past",
-      "half",
       "bird"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
@@ -100,7 +100,7 @@
       "always",
       "market",
       "round",
-      "park"
+      "then"
      ],
      "suggestion": "Yes, round the park. Then on Mondays I always go to the market.",
      "suggestionFa": "آره، دور پارک. بعد دوشنبه‌ها همیشه می‌رم بازار.",
@@ -124,7 +124,7 @@
       "vegetables",
       "afternoon",
       "gossip",
-      "telly",
+      "fruit",
       "watch"
      ],
      "suggestion": "Fruit, vegetables, and a bit of gossip! Do you ever watch telly in the afternoon?",
@@ -149,8 +149,8 @@
       "programme",
       "always",
       "never",
-      "quiz",
-      "miss"
+      "miss",
+      "five"
      ],
      "suggestion": "I never miss my quiz programme at five. And I always go to bed at ten.",
      "suggestionFa": "هیچ‌وقت مسابقهٔ ساعت پنجم را از دست نمی‌دم. و همیشه ساعت ده می‌خوابم.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "things",
       "change",
       "always",
+      "things",
       "never",
-      "some"
+      "dear"
      ],
      "suggestion": "Tea at six, always. Some things never change, dear.",
      "suggestionFa": "شام ساعت شش، همیشه. بعضی چیزها هیچ‌وقت عوض نمی‌شن عزیزم.",
@@ -189,9 +189,9 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

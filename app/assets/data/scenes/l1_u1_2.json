@@ -188,8 +188,8 @@
     {
      "keywords": [
       "three",
-      "big",
-      "wow"
+      "wow",
+      "big"
      ],
      "suggestion": "Three? Wow, you're big!",
      "suggestionFa": "سه سال؟ وای، چه بزرگی!",
@@ -265,20 +265,20 @@
   "n6": {
    "id": "n6",
    "speaker": "leslie",
-   "text": "That's right — three kids! And this is Weda, Tom's mum. She lives with us.",
+   "text": "That's right — three kids! And this is Margaret, Tom's mum. The kids call her Nana Maggie.",
    "translations": {
-    "fa": "درسته — سه تا بچه! و این ویدا، مامان تامه. با ما زندگی می‌کنه."
+    "fa": "درسته — سه تا بچه! و این مارگارته، مامان تام. بچه‌ها صداش می‌کنن نانا مگی."
    },
    "branches": [
     {
      "keywords": [
+      "margaret",
       "hello",
-      "weda",
       "nice",
       "meet"
      ],
-     "suggestion": "Hello, Weda. Nice to meet you.",
-     "suggestionFa": "سلام ویدا. از آشنایی‌تون خوشوقتم.",
+     "suggestion": "Hello, Margaret. Nice to meet you.",
+     "suggestionFa": "سلام مارگارت. از آشنایی‌تون خوشوقتم.",
      "trustDelta": 6,
      "next": "n7",
      "success": true

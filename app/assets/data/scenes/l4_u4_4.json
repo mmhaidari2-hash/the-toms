@@ -21,8 +21,8 @@
      "keywords": [
       "throwing",
       "renting",
-      "money",
-      "feels"
+      "feels",
+      "money"
      ],
      "suggestion": "Yes. Renting feels like throwing money away.",
      "suggestionFa": "آره. اجاره کردن مثل دور ریختن پوله.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "percent",
       "fifteen",
+      "percent",
       "saving",
-      "three"
+      "about"
      ],
      "suggestion": "I've been saving for three years, so I have about fifteen percent.",
      "suggestionFa": "سه ساله پس‌انداز می‌کنم، پس حدود پونزده درصد دارم.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "possible",
-      "deposit",
-      "smaller"
+      "smaller",
+      "deposit"
      ],
      "suggestion": "Is it possible with a smaller deposit?",
      "suggestionFa": "با پیش‌پرداخت کمتر ممکنه؟",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "always",
-      "never",
       "bills",
+      "never",
       "time"
      ],
      "suggestion": "Never. I always pay my bills on time.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "haven't",
-      "affect",
       "credit",
+      "affect",
       "score"
      ],
      "suggestion": "I haven't been in the UK long. Does that affect my credit score?",
@@ -194,7 +194,7 @@
      "keywords": [
       "register",
       "what's",
-      "i'll",
+      "next",
       "step"
      ],
      "suggestion": "I'll register this week. What's the next step?",

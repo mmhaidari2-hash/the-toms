@@ -1,0 +1,279 @@
+{
+ "id": "nur_5_3",
+ "characterId": "vida",
+ "title": "Writing an observation",
+ "titleFa": "نوشتن مشاهده",
+ "setting": "The team and EYFS · Level 0",
+ "settingFa": "تیم و EYFS",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Let's write your first observation. You saw William build a tower and count the blocks, didn't you? Tell me exactly what happened.",
+   "translations": {
+    "fa": "بیا اولین مشاهده‌ات را بنویسیم. دیدی ویلیام یه برج ساخت و مکعب‌ها را شمرد، نه؟ دقیقاً بگو چی شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counted",
+      "eight",
+      "built",
+      "tower"
+     ],
+     "suggestion": "He built a tower with eight blocks and counted to five.",
+     "suggestionFa": "با هشت مکعب برج ساخت و تا پنج شمرد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clever",
+      "was"
+     ],
+     "suggestion": "He was very clever with the blocks!",
+     "suggestionFa": "با مکعب‌ها خیلی باهوش بود!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "observation",
+     "fa": "مشاهده ؛ گزارش مشاهده"
+    },
+    {
+     "word": "tower",
+     "fa": "برج"
+    },
+    {
+     "word": "counted",
+     "fa": "شمرد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Good — but \"clever\" is an opinion. An observation is objective: what he did and what he said, word for word.",
+   "translations": {
+    "fa": "خوبه — ولی «باهوش» نظره. مشاهده عینیه: کاری که کرد و چیزی که گفت، کلمه به کلمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opinions",
+      "facts"
+     ],
+     "suggestion": "So I write facts, not opinions.",
+     "suggestionFa": "پس واقعیت می‌نویسم، نه نظر.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "exact",
+      "words",
+      "his"
+     ],
+     "suggestion": "Should I write his exact words?",
+     "suggestionFa": "باید کلمات دقیقش را بنویسم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "opinion",
+     "fa": "نظر ؛ عقیده"
+    },
+    {
+     "word": "objective",
+     "fa": "عینی ؛ بی‌طرفانه"
+    },
+    {
+     "word": "word for word",
+     "fa": "کلمه به کلمه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i write the facts not the opinion",
+      "i write fact no opinion"
+     ],
+     "echo": "Facts, not opinions? Exactly.",
+     "better": "I write facts, not opinions.",
+     "betterFa": "واقعیت می‌نویسم، نه نظر."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Yes. Write it as a quote. What did he say?",
+   "translations": {
+    "fa": "آره. به صورت نقل‌قول بنویس. چی گفت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "four",
+      "five",
+      "one"
+     ],
+     "suggestion": "He said, \"One, two, three, four, five — it's a big one!\"",
+     "suggestionFa": "گفت: «یک، دو، سه، چهار، پنج — یه بزرگشه!»",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tower",
+      "tall",
+      "look"
+     ],
+     "suggestion": "He said, \"Look, a tall tower!\"",
+     "suggestionFa": "گفت: «ببین، یه برج بلند!»",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quote",
+     "fa": "نقل‌قول"
+    },
+    {
+     "word": "tall",
+     "fa": "بلند (قد)"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Lovely. Then link it to an area: counting is maths, and \"a big one\" is communication and language. Now, what's his next step?",
+   "translations": {
+    "fa": "عالی. بعد به یه حوزه وصلش کن: شمردن ریاضیه و «یه بزرگشه» ارتباط و زبان. حالا گام بعدیش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counting",
+      "maybe",
+      "past",
+      "five"
+     ],
+     "suggestion": "Counting past five, maybe up to ten.",
+     "suggestionFa": "شمردن بیشتر از پنج، شاید تا ده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "comparing",
+      "biggest",
+      "bigger",
+      "sizes"
+     ],
+     "suggestion": "Comparing sizes: big, bigger, biggest.",
+     "suggestionFa": "مقایسهٔ اندازه‌ها: بزرگ، بزرگ‌تر، بزرگ‌ترین.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "link",
+     "fa": "ربط دادن ؛ وصل کردن"
+    },
+    {
+     "word": "next step",
+     "fa": "گام بعدی"
+    },
+    {
+     "word": "comparing",
+     "fa": "مقایسه کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "A good observation has three parts: what happened (with quotes), which EYFS area it shows, and a next step.",
+    "fa": "مشاهدهٔ خوب: چه شد، کدام حوزه، گام بعدی."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Both are good. Let's choose counting to ten and add some number games to next week's plan. Upload it with the photo, and Leslie will see it tonight.",
+   "translations": {
+    "fa": "هر دو خوبن. بیا شمردن تا ده را انتخاب کنیم و چند بازی عددی به برنامهٔ هفتهٔ بعد اضافه کنیم. با عکس آپلودش کن، لزلی امشب می‌بینتش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "uploading",
+      "useful",
+      "was",
+      "now"
+     ],
+     "suggestion": "Uploading it now. That was useful!",
+     "suggestionFa": "دارم آپلودش می‌کنم. مفید بود!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "permission",
+      "parent",
+      "photo",
+      "need"
+     ],
+     "suggestion": "Do I need parent permission for the photo?",
+     "suggestionFa": "برای عکس اجازهٔ والدین لازمه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upload",
+     "fa": "بارگذاری کردن"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    },
+    {
+     "word": "permission",
+     "fa": "اجازه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Good thinking — yes, we check photo permissions for every child, and never show other children's faces in someone's journal.",
+   "translations": {
+    "fa": "خوب فکر کردی — آره، اجازهٔ عکس را برای هر بچه چک می‌کنیم و هیچ‌وقت صورت بچه‌های دیگه را تو دفتر یکی دیگه نشون نمی‌دیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

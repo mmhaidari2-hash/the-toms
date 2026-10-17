@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "course",
+      "colour",
       "want"
      ],
      "suggestion": "Of course! What colour do you want?",
@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "lucky",
       "forty",
+      "lucky",
       "quid"
      ],
      "suggestion": "Forty quid? Lucky you!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "those",
       "nicer",
+      "those",
       "ones"
      ],
      "suggestion": "Those ones are nicer.",
@@ -121,7 +121,7 @@
       "cheaper",
       "these",
       "they",
-      "good"
+      "look"
      ],
      "suggestion": "These are cheaper and they look good.",
      "suggestionFa": "این‌ها ارزون‌ترن و خوب به نظر میان.",
@@ -131,8 +131,8 @@
     },
     {
      "keywords": [
-      "those",
       "first",
+      "those",
       "try"
      ],
      "suggestion": "Try those on first.",
@@ -175,8 +175,8 @@
     },
     {
      "keywords": [
-      "size",
-      "nine"
+      "nine",
+      "size"
      ],
      "suggestion": "Is nine your size?",
      "suggestionFa": "سایزت نهه؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "comfortable",
       "around",
-      "walk",
-      "they"
+      "they",
+      "walk"
      ],
      "suggestion": "Walk around. Are they comfortable?",
      "suggestionFa": "یه کم راه برو. راحتن؟",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "better",
-      "size",
       "then",
+      "size",
       "ten"
      ],
      "suggestion": "Size ten is better, then.",

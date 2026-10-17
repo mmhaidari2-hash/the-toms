@@ -160,8 +160,8 @@
     {
      "keywords": [
       "missed",
-      "again",
       "start",
+      "again",
       "one"
      ],
      "suggestion": "You missed one. Start again.",
@@ -218,8 +218,8 @@
    "branches": [
     {
      "keywords": [
-      "well",
       "done",
+      "well",
       "did"
      ],
      "suggestion": "Well done! You did it!",
@@ -309,10 +309,10 @@
    "branches": [
     {
      "keywords": [
-      "loops",
       "bunny",
-      "like",
-      "ears"
+      "loops",
+      "ears",
+      "like"
      ],
      "suggestion": "Make two loops, like bunny ears.",
      "suggestionFa": "دو تا حلقه درست کن، مثل گوش خرگوش.",
@@ -324,8 +324,8 @@
      "keywords": [
       "cross",
       "them",
-      "pull",
-      "over"
+      "over",
+      "pull"
      ],
      "suggestion": "Cross them over and pull.",
      "suggestionFa": "ضربدری‌شون کن و بکش.",

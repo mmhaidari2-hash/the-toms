@@ -22,7 +22,7 @@
       "experience",
       "about",
       "tell",
-      "her"
+      "tom"
      ],
      "suggestion": "Tom, tell her about your experience.",
      "suggestionFa": "تام، از تجربه‌ات بگو.",
@@ -34,8 +34,8 @@
      "keywords": [
       "engineering",
       "years",
-      "he's",
-      "been"
+      "been",
+      "he's"
      ],
      "suggestion": "He's been in engineering for years.",
      "suggestionFa": "سال‌هاست تو مهندسیه.",
@@ -57,8 +57,8 @@
     {
      "keywords": [
       "experience",
-      "that's",
       "twenty",
+      "that's",
       "years"
      ],
      "suggestion": "Twenty years! That's a lot of experience.",
@@ -71,8 +71,8 @@
      "keywords": [
       "working",
       "tom's",
-      "tram",
-      "line"
+      "line",
+      "been"
      ],
      "suggestion": "Tom's been working on the new tram line too.",
      "suggestionFa": "تام روی خط تراموای جدید هم کار کرده.",
@@ -123,8 +123,8 @@
     },
     {
      "keywords": [
-      "projects",
       "managing",
+      "projects",
       "since"
      ],
      "suggestion": "He's been managing projects since 2019.",
@@ -224,7 +224,7 @@
       "sometimes",
       "extra",
       "work",
-      "hard"
+      "find"
      ],
      "suggestion": "I sometimes find it hard to say no to extra work.",
      "suggestionFa": "گاهی سخته که به کار اضافه نه بگم.",
@@ -289,8 +289,8 @@
     {
      "keywords": [
       "decision",
-      "will",
       "when",
+      "will",
       "make"
      ],
      "suggestion": "When will you make a decision?",

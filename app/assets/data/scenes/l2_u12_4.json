@@ -20,8 +20,8 @@
     {
      "keywords": [
       "course",
-      "what's",
-      "number"
+      "number",
+      "what's"
      ],
      "suggestion": "Of course. What's the number?",
      "suggestionFa": "حتماً. شماره چیه؟",
@@ -33,8 +33,8 @@
      "keywords": [
       "biscuit",
       "poor",
-      "call",
-      "i'll"
+      "i'll",
+      "call"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "neighbour's",
       "eating",
-      "isn't",
-      "hello"
+      "hello",
+      "isn't"
      ],
      "suggestion": "Hello. Our neighbour's cat isn't eating.",
      "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
@@ -87,7 +87,7 @@
      "keywords": [
       "looking",
       "unwell",
-      "seems",
+      "we're",
       "after"
      ],
      "suggestion": "Hi. A cat we're looking after seems unwell.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "drinking",
       "sickness",
+      "drinking",
       "little",
       "she's"
      ],
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "morning",
-      "once",
       "sick",
-      "was"
+      "once",
+      "she"
      ],
      "suggestion": "She was sick once this morning.",
      "suggestionFa": "امروز صبح یه بار استفراغ کرد.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, four is fine.",
      "suggestionFa": "آره، چهار خوبه.",
@@ -341,7 +341,7 @@
       "neighbour",
       "belongs",
       "sure",
-      "our"
+      "she"
      ],
      "suggestion": "I'm not sure. She belongs to our neighbour.",
      "suggestionFa": "مطمئن نیستم. مال همسایه‌مونه.",

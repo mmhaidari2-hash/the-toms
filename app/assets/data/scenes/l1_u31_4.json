@@ -34,8 +34,8 @@
      "keywords": [
       "every",
       "pick",
-      "her",
-      "day"
+      "day",
+      "her"
      ],
      "suggestion": "Do you pick her up every day?",
      "suggestionFa": "هر روز میای دنبالش؟",
@@ -62,9 +62,9 @@
   "n2": {
    "id": "n2",
    "speaker": "leslie",
-   "text": "Usually Weda does it. I teach upstairs, so I finish late. Ah, here they come!",
+   "text": "Usually Maggie does it. I teach upstairs, so I finish late. Ah, here they come!",
    "translations": {
-    "fa": "معمولاً ودا میاد. من طبقهٔ بالا درس میدم، دیر تموم می‌کنم. آه، دارن میان!"
+    "fa": "معمولاً مگی میاد. من طبقهٔ بالا درس میدم، دیر تموم می‌کنم. آه، دارن میان!"
    },
    "branches": [
     {
@@ -221,10 +221,10 @@
     },
     {
      "keywords": [
-      "peas",
       "hope",
-      "ate",
-      "she"
+      "peas",
+      "she",
+      "ate"
      ],
      "suggestion": "I hope she ate the peas!",
      "suggestionFa": "امیدوارم نخود فرنگی‌ها را خورده باشه!",
@@ -251,9 +251,9 @@
     {
      "keywords": [
       "three",
+      "done",
       "peas",
-      "well",
-      "done"
+      "well"
      ],
      "suggestion": "Three peas! Well done!",
      "suggestionFa": "سه تا نخود فرنگی! آفرین!",

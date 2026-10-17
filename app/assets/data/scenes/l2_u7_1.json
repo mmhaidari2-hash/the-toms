@@ -114,13 +114,13 @@
    "branches": [
     {
      "keywords": [
+      "maggie's",
       "helping",
-      "weda's",
       "that's",
       "scarf"
      ],
-     "suggestion": "Oh, that's Weda's scarf! She was helping me.",
-     "suggestionFa": "آه، این شال وداست! داشت کمکم می‌کرد.",
+     "suggestion": "Oh, that's Maggie's scarf! She was helping me.",
+     "suggestionFa": "آه، این شال مگیه! داشت کمکم می‌کرد.",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "attention",
-      "paying",
       "wasn't",
+      "paying",
       "sure"
      ],
      "suggestion": "I'm not sure. I wasn't paying attention.",
@@ -161,9 +161,9 @@
   "n4": {
    "id": "n4",
    "speaker": "bennett",
-   "text": "Ah, Weda! She comes every Tuesday. She was telling me about her garden while I was stamping her books.",
+   "text": "Ah, Maggie! She comes every Tuesday. She was telling me about her garden while I was stamping her books.",
    "translations": {
-    "fa": "آه، ودا! هر سه‌شنبه میاد. وقتی کتاب‌هاش را مهر می‌زدم داشت دربارهٔ باغچه‌ش بهم می‌گفت."
+    "fa": "آه، مگی! هر سه‌شنبه میاد. وقتی کتاب‌هاش را مهر می‌زدم داشت دربارهٔ باغچه‌ش بهم می‌گفت."
    },
    "branches": [
     {
@@ -181,8 +181,8 @@
     },
     {
      "keywords": [
-      "loves",
       "roses",
+      "loves",
       "she"
      ],
      "suggestion": "She loves her roses.",

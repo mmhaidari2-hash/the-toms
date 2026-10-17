@@ -72,6 +72,11 @@ NPC={
  'mechanic': dict(bg='#E5E7EB',skin='fair',hs='bald',hc='#9CA3AF',cloth='#374151',kind='overalls',acc='#DC2626',props=('moustache',)),
  'workcoach':dict(bg='#CFFAFE',skin='deep',hs='buzz',hc='#111',cloth='#0E7490',kind='tie',acc='#FACC15',props=('glasses',)),
  'council':  dict(bg='#EDE9FE',skin='light',hs='bob',hc='#7C2D12',cloth='#6D28D9',kind='lanyard',acc='#6D28D9',props=('glasses','earrings'),mouth='flat'),
+ 'vida':     dict(bg='#FCE7F3',skin='light',hs='pony',hc='#5B3A29',cloth='#B5577B',kind='lanyard',acc='#FBBF24',props=('earrings',),mouth='grin'),
+ 'jo':       dict(bg='#CFFAFE',skin='fair',hs='bob',hc='#B45309',cloth='#0E7490',kind='lanyard',acc='#0E7490',props=('glasses',)),
+ 'oscar':    dict(bg='#DCFCE7',skin='brown',hs='curly',hc='#1F2937',cloth='#16A34A',kind='shirt',props=(),mouth='grin'),
+ 'dan':      dict(bg='#FEF3C7',skin='fair',hs='short',hc='#C2913A',cloth='#065F46',kind='hivis',props=('beard',)),
+ 'harris':   dict(bg='#E2E8F0',skin='tan',hs='bald',hc='#6B7280',cloth='#334155',kind='tie',acc='#7C3AED',props=('glasses',),mouth='flat'),
 }
 if __name__=='__main__':
   for k,v in NPC.items(): open(os.path.join(OUT,k+'.svg'),'w').write(svg(**v))

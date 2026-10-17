@@ -1,8 +1,8 @@
 {
  "id": "l1_u24_2__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) I'm scared of the dark",
- "titleFa": "(در نقش Nana Weda) از تاریکی می‌ترسم",
+ "title": "(As Nana Maggie) I'm scared of the dark",
+ "titleFa": "(در نقش Nana Maggie) از تاریکی می‌ترسم",
  "setting": "Feelings · Level 1",
  "settingFa": "احساسات",
  "requires": null,
@@ -238,9 +238,9 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "She was a bit scared, Weda.",
+   "text": "She was a bit scared, Maggie.",
    "translations": {
-    "fa": "یه کم ترسیده بود ودا."
+    "fa": "یه کم ترسیده بود مگی."
    },
    "branches": [
     {
@@ -248,8 +248,8 @@
       "sweetheart",
       "landing",
       "little",
-      "shall",
-      "light"
+      "light",
+      "shall"
      ],
      "suggestion": "Oh, sweetheart. Shall I leave the landing light on? And the door open a little?",
      "suggestionFa": "آه، عزیزدلم. چراغ راهروی بالا را روشن بذارم؟ و در را یه کم باز؟",
@@ -340,18 +340,18 @@
   "r13": {
    "id": "r13",
    "speaker": "mehdi",
-   "text": "Yes! Sing a song, Weda.",
+   "text": "Yes! Sing a song, Maggie.",
    "translations": {
-    "fa": "آره! یه آهنگ بخونید ودا."
+    "fa": "آره! یه آهنگ بخونید مگی."
    },
    "branches": [
     {
      "keywords": [
       "already",
-      "little",
       "asleep",
-      "she's",
-      "night"
+      "little",
+      "night",
+      "she's"
      ],
      "suggestion": "\"Hush, little baby, don't say a word…\" Look, she's asleep already. Thank you, love. Night night.",
      "suggestionFa": "«هیس، بچه کوچولو، هیچی نگو…» ببین، خوابش برد. ممنون عزیزم. شب بخیر.",
@@ -365,9 +365,9 @@
   "r14": {
    "id": "r14",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

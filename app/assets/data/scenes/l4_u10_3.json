@@ -1,8 +1,8 @@
 {
  "id": "l4_u10_3",
  "characterId": "weda",
- "title": "Weda's wisdom",
- "titleFa": "حکمت ودا",
+ "title": "Maggie's wisdom",
+ "titleFa": "حکمت مگی",
  "setting": "Paying it forward · Level 4",
  "settingFa": "جبران کردن با کمک به دیگران",
  "requires": null,
@@ -80,7 +80,7 @@
       "outsider",
       "feeling",
       "people",
-      "were"
+      "when"
      ],
      "suggestion": "Feeling like an outsider, even when people were kind.",
      "suggestionFa": "حس غریبه بودن، حتی وقتی مردم مهربون بودن.",
@@ -92,8 +92,8 @@
      "keywords": [
       "especially",
       "occasions",
-      "special",
-      "missing"
+      "missing",
+      "special"
      ],
      "suggestion": "Missing my family, especially on special occasions.",
      "suggestionFa": "دلتنگی برای خانواده‌ام، مخصوصاً تو مناسبت‌ها.",
@@ -139,22 +139,22 @@
    "branches": [
     {
      "keywords": [
+      "maggie",
       "moved",
       "you'd",
-      "weda",
       "idea"
      ],
-     "suggestion": "I had no idea you'd moved here too, Weda.",
-     "suggestionFa": "نمی‌دونستم شما هم مهاجرت کردید ودا.",
+     "suggestion": "I had no idea you'd moved here too, Maggie.",
+     "suggestionFa": "نمی‌دونستم شما هم مهاجرت کردید مگی.",
      "trustDelta": 6,
      "next": "n4",
      "success": true
     },
     {
      "keywords": [
-      "must",
       "have",
-      "hard",
+      "must",
+      "been",
       "cope"
      ],
      "suggestion": "That must have been so hard. How did you cope?",

@@ -1,0 +1,270 @@
+{
+ "id": "nur_1_3",
+ "characterId": "vida",
+ "title": "Snack time",
+ "titleFa": "وقت خوراکی",
+ "setting": "Good morning, Little Acorns! · Level 0",
+ "settingFa": "صبح بخیر، لیتل ایکورنز!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Snack time! Today it's apple, crackers and milk or water. Can you hand out the plates?",
+   "translations": {
+    "fa": "وقت خوراکیه! امروز سیب، کراکر و شیر یا آب داریم. می‌تونی بشقاب‌ها را پخش کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plate",
+      "sure",
+      "each",
+      "one"
+     ],
+     "suggestion": "Sure. One plate each?",
+     "suggestionFa": "حتماً. هر نفر یه بشقاب؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "allergies",
+      "children",
+      "have",
+      "any"
+     ],
+     "suggestion": "Do any children have allergies?",
+     "suggestionFa": "بچه‌ای حساسیت داره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hand out",
+     "fa": "پخش کردن"
+    },
+    {
+     "word": "plate",
+     "fa": "بشقاب"
+    },
+    {
+     "word": "allergies",
+     "fa": "حساسیت‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Good question! Always check. Oscar can't have milk — he has a dairy allergy. It's on the allergy board.",
+   "translations": {
+    "fa": "سؤال خوبی بود! همیشه چک کن. اسکار نمی‌تونه شیر بخوره — به لبنیات حساسیت داره. رو تابلوی حساسیت‌ها نوشته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "oscar",
+      "ok"
+     ],
+     "suggestion": "OK. Water for Oscar.",
+     "suggestionFa": "باشه. آب برای اسکار.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "allergy",
+      "board"
+     ],
+     "suggestion": "Where's the allergy board?",
+     "suggestionFa": "تابلوی حساسیت کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dairy",
+     "fa": "لبنیات"
+    },
+    {
+     "word": "allergy board",
+     "fa": "تابلوی حساسیت‌ها"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Nurseries keep an allergy list for every child, often with photos, near the kitchen and in each room.",
+    "fa": "مهدها فهرست حساسیت هر بچه را با عکس نگه می‌دارند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "oscar",
+   "text": "Can I have milk, please?",
+   "translations": {
+    "fa": "می‌شه شیر بخورم، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "would",
+      "like"
+     ],
+     "suggestion": "Sorry, Oscar. Would you like water?",
+     "suggestionFa": "ببخشید اسکار. آب می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's"
+     ],
+     "suggestion": "Here's your water, Oscar.",
+     "suggestionFa": "بفرما آبت، اسکار.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "would you like",
+     "fa": "آیا می‌خواهی ؛ میل داری"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you want water",
+      "you like water?"
+     ],
+     "echo": "Would you like water?",
+     "better": "Would you like some water?",
+     "betterFa": "آب می‌خوای؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "More apple, please!",
+   "translations": {
+    "fa": "سیب بیشتر، لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "here"
+     ],
+     "suggestion": "Here you are, William.",
+     "suggestionFa": "بفرما ویلیام.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "asking",
+      "lovely",
+      "here's",
+      "apple"
+     ],
+     "suggestion": "Lovely asking! Here's more apple.",
+     "suggestionFa": "چه قشنگ خواستی! اینم سیب بیشتر.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "here you are",
+     "fa": "بفرما"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Lovely manners. We always praise good asking. Can you wipe the table when they finish?",
+   "translations": {
+    "fa": "ادب قشنگی بود. همیشه خوب خواستن را تشویق می‌کنیم. وقتی تموم کردن میز را پاک می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "cloth"
+     ],
+     "suggestion": "Yes. Where's the cloth?",
+     "suggestionFa": "آره. دستمال کجاست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "then",
+      "tidy",
+      "up"
+     ],
+     "suggestion": "Of course. Then tidy up?",
+     "suggestionFa": "حتماً. بعد جمع و جور کنیم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "manners",
+     "fa": "ادب"
+    },
+    {
+     "word": "praise",
+     "fa": "تشویق کردن"
+    },
+    {
+     "word": "wipe",
+     "fa": "پاک کردن"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Blue cloths for tables, never the red ones — red is for toilets. Colour codes keep everyone safe.",
+   "translations": {
+    "fa": "دستمال آبی برای میز، هیچ‌وقت قرمز — قرمز برای دستشوییه. کدهای رنگی همه را سالم نگه می‌دارن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

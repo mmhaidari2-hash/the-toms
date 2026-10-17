@@ -21,8 +21,8 @@
      "keywords": [
       "yesterday",
       "bike",
-      "face",
-      "fell"
+      "fell",
+      "face"
      ],
      "suggestion": "Yes, I fell off my bike yesterday and hit my face.",
      "suggestionFa": "بله، دیروز از دوچرخه افتادم و صورتم ضربه خورد.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "exactly",
-      "hard",
-      "into"
+      "into",
+      "hard"
      ],
      "suggestion": "Not exactly — I bit into something hard.",
      "suggestionFa": "نه دقیقاً — یه چیز سفت را گاز زدم.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "eating",
       "toffee",
-      "apple",
+      "eating",
+      "heard",
       "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
@@ -130,7 +130,7 @@
       "straight",
       "loose",
       "tooth",
-      "away"
+      "felt"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
      "suggestionFa": "نه، ولی دندونم فوراً لق شد.",
@@ -140,9 +140,9 @@
     },
     {
      "keywords": [
-      "went",
-      "some",
       "home",
+      "some",
+      "went",
       "put"
      ],
      "suggestion": "No. I went home and put some ice on it.",
@@ -195,8 +195,8 @@
      "keywords": [
       "cost",
       "much",
-      "nhs",
-      "how"
+      "how",
+      "nhs"
      ],
      "suggestion": "How much will that cost on the NHS?",
      "suggestionFa": "با NHS چقدر هزینه داره؟",

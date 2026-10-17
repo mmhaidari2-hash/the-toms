@@ -139,8 +139,8 @@
     {
      "keywords": [
       "you've",
-      "maybe",
       "lived",
+      "maybe",
       "years"
      ],
      "suggestion": "Maybe add that you've lived here for years.",
@@ -183,10 +183,10 @@
    "branches": [
     {
      "keywords": [
-      "mention",
       "english",
       "classes",
-      "there"
+      "mention",
+      "could"
      ],
      "suggestion": "You could mention the English classes there.",
      "suggestionFa": "می‌تونی کلاس‌های انگلیسی اونجا را هم بگی.",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "volunteer",
-      "down",
       "name",
+      "down",
       "put"
      ],
      "suggestion": "I'd volunteer! Put my name down.",
@@ -288,9 +288,9 @@
   "n6": {
    "id": "n6",
    "speaker": "tom",
-   "text": "\"Yours sincerely, Tom.\" Done. Right — let's get Doris and Weda to sign it too. Nobody says no to Doris!",
+   "text": "\"Yours sincerely, Tom.\" Done. Right — let's get Doris and Maggie to sign it too. Nobody says no to Doris!",
    "translations": {
-    "fa": "«با احترام، تام.» تموم شد. خب — بیا دوریس و ودا هم امضا کنن. هیچ‌کس به دوریس نه نمی‌گه!"
+    "fa": "«با احترام، تام.» تموم شد. خب — بیا دوریس و مگی هم امضا کنن. هیچ‌کس به دوریس نه نمی‌گه!"
    },
    "branches": [],
    "newWords": []

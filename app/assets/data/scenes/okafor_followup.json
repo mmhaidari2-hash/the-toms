@@ -75,7 +75,7 @@
       "prescription",
       "chemist",
       "need",
-      "buy"
+      "can"
      ],
      "suggestion": "Do I need a prescription, or can I buy it at the chemist?",
      "suggestionFa": "نسخه لازمه، یا می‌تونم از داروخونه بخرم؟",
@@ -85,10 +85,10 @@
     },
     {
      "keywords": [
-      "explain",
       "feeling",
-      "tired",
-      "would"
+      "explain",
+      "would",
+      "tired"
      ],
      "suggestion": "Would that explain why I've been feeling so tired?",
      "suggestionFa": "این می‌تونه توضیح بده چرا این‌قدر خسته‌ام؟",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "reasonable",
-      "struggle",
       "mornings",
-      "get"
+      "struggle",
+      "but"
      ],
      "suggestion": "Reasonable, but I struggle to get up in the mornings.",
      "suggestionFa": "معقول، ولی صبح‌ها به‌زور بیدار می‌شم.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "intense",
-      "family",
       "work's",
+      "family",
       "abroad"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
-      "only",
-      "desk",
-      "back"
+      "pain",
+      "back",
+      "from"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -349,10 +349,10 @@
    "branches": [
     {
      "keywords": [
-      "birds",
       "stone",
+      "birds",
       "then",
-      "two"
+      "one"
      ],
      "suggestion": "Two birds with one stone, then.",
      "suggestionFa": "پس با یه تیر دو نشون.",
@@ -363,8 +363,8 @@
     {
      "keywords": [
       "outside",
-      "i'll",
       "more",
+      "i'll",
       "try"
      ],
      "suggestion": "I'll try to get outside more.",

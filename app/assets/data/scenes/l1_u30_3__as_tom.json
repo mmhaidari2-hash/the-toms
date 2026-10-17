@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "leslie's",
-      "meeting",
       "teatime",
+      "meeting",
       "right"
      ],
      "suggestion": "Right, it's William's teatime. Leslie's at a meeting. Can you give me a hand?",
@@ -75,7 +75,7 @@
       "careful",
       "fridge",
       "drawer",
-      "legs"
+      "then"
      ],
      "suggestion": "In the drawer by the fridge. Then put him on his booster seat. Careful with his legs.",
      "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بلندکنندهٔ بچه. مواظب پاهاش باش.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "carrot",
-      "here's",
       "dinner",
+      "potato",
       "mashed",
-      "potato"
+      "carrot",
+      "here's"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
      "suggestionFa": "اینم شامش. پورهٔ هویج و سیب‌زمینی. بعد امتحانش کن. خیلی داغ نباشه!",
@@ -172,9 +172,9 @@
      "keywords": [
       "spoonfuls",
       "william",
-      "brrrm",
+      "small",
       "comes",
-      "small"
+      "brrrm"
      ],
      "suggestion": "Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm!",
      "suggestionFa": "خوبه. حالا قاشق‌های کوچیک. دهنت را باز کن ویلیام! اتوبوس داره میاد! بررم!",

@@ -74,9 +74,9 @@
     {
      "keywords": [
       "pence",
-      "size",
-      "coin",
-      "five"
+      "ryan",
+      "five",
+      "coin"
      ],
      "suggestion": "It was the size of a five-pence coin, Ryan.",
      "suggestionFa": "اندازهٔ یه سکهٔ پنج پنسی بود رایان.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "everyone",
-      "that's",
       "course",
-      "manly"
+      "that's",
+      "shout"
      ],
      "suggestion": "A manly shout. Of course. That's what I'll tell everyone.",
      "suggestionFa": "یه فریاد مردونه. البته. همینو به همه می‌گم.",
@@ -123,9 +123,9 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "before",
-      "joins",
+      "nicola",
+      "truce",
       "let's"
      ],
      "suggestion": "Fair. Let's call a truce before Nicola joins in.",
@@ -137,9 +137,9 @@
     {
      "keywords": [
       "anyone",
-      "would",
+      "alarm",
       "thing",
-      "alarm"
+      "scare"
      ],
      "suggestion": "That alarm would scare anyone! It's not the same thing at all.",
      "suggestionFa": "اون آژیر هر کسی را می‌ترسوند! اصلاً یکی نیست.",
@@ -198,8 +198,8 @@
     },
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "ryan",
       "low"
      ],

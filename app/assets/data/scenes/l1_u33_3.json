@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Look at the flower stall! I want to buy some flowers for Weda. Just because.",
+   "text": "Look at the flower stall! I want to buy some flowers for Maggie. Just because.",
    "translations": {
-    "fa": "غرفهٔ گل را ببین! می‌خوام برای ودا گل بخرم. همین‌طوری."
+    "fa": "غرفهٔ گل را ببین! می‌خوام برای مگی گل بخرم. همین‌طوری."
    },
    "branches": [
     {
@@ -31,11 +31,11 @@
     {
      "keywords": [
       "flowers",
-      "like",
-      "weda"
+      "maggie",
+      "like"
      ],
-     "suggestion": "What flowers does Weda like?",
-     "suggestionFa": "ودا چه گلی دوست داره؟",
+     "suggestion": "What flowers does Maggie like?",
+     "suggestionFa": "مگی چه گلی دوست داره؟",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -72,9 +72,9 @@
     },
     {
      "keywords": [
-      "those",
       "about",
-      "roses"
+      "roses",
+      "those"
      ],
      "suggestion": "What about those yellow roses?",
      "suggestionFa": "اون رزهای زرد چطور؟",
@@ -122,8 +122,8 @@
      "keywords": [
       "smell",
       "roses",
-      "they",
-      "nice"
+      "nice",
+      "they"
      ],
      "suggestion": "I prefer roses. They smell nice.",
      "suggestionFa": "من رز را ترجیح میدم. بوی خوبی دارن.",
@@ -157,15 +157,15 @@
   "n4": {
    "id": "n4",
    "speaker": "leslie",
-   "text": "Good point. But sunflowers are big. Weda's kitchen is small!",
+   "text": "Good point. But sunflowers are big. Maggie's kitchen is small!",
    "translations": {
-    "fa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ ودا کوچیکه!"
+    "fa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ مگی کوچیکه!"
    },
    "branches": [
     {
      "keywords": [
-      "let's",
       "roses",
+      "let's",
       "then",
       "get"
      ],

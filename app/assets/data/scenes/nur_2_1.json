@@ -1,0 +1,275 @@
+{
+ "id": "nur_2_1",
+ "characterId": "vida",
+ "title": "Toilet time",
+ "titleFa": "وقت دستشویی",
+ "setting": "Care routines · Level 0",
+ "settingFa": "روال مراقبت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Some children are still in nappies, and some are toilet training. We ask them often: \"Do you need the toilet?\"",
+   "translations": {
+    "fa": "بعضی بچه‌ها هنوز پوشک دارن و بعضی دارن دستشویی رفتن یاد می‌گیرن. زیاد ازشون می‌پرسیم: «دستشویی داری؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "toilet",
+      "need"
+     ],
+     "suggestion": "Do you need the toilet, William?",
+     "suggestionFa": "دستشویی داری ویلیام؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "often",
+      "ask",
+      "how"
+     ],
+     "suggestion": "How often do you ask?",
+     "suggestionFa": "هر چند وقت می‌پرسید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nappies",
+     "fa": "پوشک‌ها"
+    },
+    {
+     "word": "toilet training",
+     "fa": "یاد گرفتن دستشویی رفتن"
+    },
+    {
+     "word": "toilet",
+     "fa": "دستشویی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"nappy\" = American \"diaper\"; \"toilet training\" is also called \"potty training\".",
+    "fa": "nappy = diaper."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "Yes! I need a wee! Quick!",
+   "translations": {
+    "fa": "آره! جیش دارم! زود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toilet",
+      "let's",
+      "quick",
+      "go"
+     ],
+     "suggestion": "Quick! Let's go to the toilet.",
+     "suggestionFa": "زود! بریم دستشویی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "telling",
+      "come",
+      "good"
+     ],
+     "suggestion": "Good telling me! Come on.",
+     "suggestionFa": "آفرین که گفتی! بیا.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wee",
+     "fa": "جیش (بچگانه)"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Well done for asking. We go with him, but let him try by himself. Gloves and apron for nappies!",
+   "translations": {
+    "fa": "آفرین که پرسیدی. باهاش می‌ریم، ولی می‌ذاریم خودش امتحان کنه. برای پوشک، دستکش و پیش‌بند!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "apron",
+      "got"
+     ],
+     "suggestion": "Gloves and apron. Got it.",
+     "suggestionFa": "دستکش و پیش‌بند. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "kept"
+     ],
+     "suggestion": "Where are the gloves kept?",
+     "suggestionFa": "دستکش‌ها کجا نگه داشته می‌شن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gloves",
+     "fa": "دستکش"
+    },
+    {
+     "word": "apron",
+     "fa": "پیش‌بند"
+    },
+    {
+     "word": "by himself",
+     "fa": "خودش تنهایی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "I did it! I did a wee!",
+   "translations": {
+    "fa": "انجامش دادم! جیش کردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "william",
+      "hands",
+      "wash"
+     ],
+     "suggestion": "Brilliant, William! Now wash your hands.",
+     "suggestionFa": "عالی ویلیام! حالا دستات را بشور.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trousers",
+      "pull",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done! Pull your trousers up.",
+     "suggestionFa": "آفرین! شلوارت را بکش بالا.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brilliant",
+     "fa": "عالی"
+    },
+    {
+     "word": "trousers",
+     "fa": "شلوار"
+    },
+    {
+     "word": "pull up",
+     "fa": "بالا کشیدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you did good wee",
+      "you make wee"
+     ],
+     "echo": "You did a wee? Brilliant!",
+     "better": "Well done, you did a wee!",
+     "betterFa": "آفرین، جیش کردی!"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Great. We write it on the toilet chart for the parents. Accidents happen — we never tell a child off.",
+   "translations": {
+    "fa": "عالی. برای والدین رو جدول دستشویی می‌نویسیم. اتفاقه دیگه — هیچ‌وقت بچه را دعوا نمی‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "telling",
+      "off",
+      "ok"
+     ],
+     "suggestion": "OK. No telling off.",
+     "suggestionFa": "باشه. دعوا نه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "accident",
+      "after",
+      "we"
+     ],
+     "suggestion": "What do we do after an accident?",
+     "suggestionFa": "بعد از یه اتفاق چی کار کنیم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chart",
+     "fa": "جدول"
+    },
+    {
+     "word": "accident",
+     "fa": "اتفاق (خیس کردن)"
+    },
+    {
+     "word": "tell off",
+     "fa": "دعوا کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Stay calm, change their clothes, and say \"That's OK, let's get you dry\". Spare clothes are in their bags.",
+   "translations": {
+    "fa": "آروم بمون، لباساشون را عوض کن و بگو «اشکالی نداره، بیا خشکت کنیم». لباس اضافه تو کیفشونه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

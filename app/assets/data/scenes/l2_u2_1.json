@@ -71,8 +71,8 @@
      "keywords": [
       "straight",
       "bakery",
-      "left",
-      "then"
+      "then",
+      "past"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
      "suggestionFa": "مستقیم، رد شدن از نونوایی، بعد چپ.",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "please",
+      "again",
       "could",
-      "sorry",
-      "again"
+      "sorry"
      ],
      "suggestion": "Sorry, could you say that again, please?",
      "suggestionFa": "ببخشید، می‌شه دوباره بگید؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "can't",
-      "miss",
-      "mean"
+      "mean",
+      "miss"
      ],
      "suggestion": "What does \"you can't miss it\" mean?",
      "suggestionFa": "«you can't miss it» یعنی چی؟",
@@ -187,8 +187,8 @@
     },
     {
      "keywords": [
-      "from",
       "here",
+      "from",
       "far"
      ],
      "suggestion": "Is it far from here?",
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "road",
       "left",
+      "road",
       "end"
      ],
      "suggestion": "It's at the end of this road, on the left.",
@@ -278,8 +278,8 @@
      "keywords": [
       "sorry",
       "round",
-      "from",
-      "here"
+      "here",
+      "from"
      ],
      "suggestion": "Sorry, I'm not from round here.",
      "suggestionFa": "ببخشید، من اهل اینجا نیستم.",
@@ -289,10 +289,10 @@
     },
     {
      "keywords": [
-      "useful",
+      "that's",
       "phrase",
-      "thanks",
-      "that's"
+      "useful",
+      "thanks"
      ],
      "suggestion": "That's a useful phrase. Thanks!",
      "suggestionFa": "جملهٔ مفیدیه. ممنون!",

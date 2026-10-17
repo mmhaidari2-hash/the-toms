@@ -1,8 +1,8 @@
 {
  "id": "l1_u20_3__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Nana's old job",
- "titleFa": "(در نقش Nana Weda) شغل قدیمی نانا",
+ "title": "(As Nana Maggie) Nana's old job",
+ "titleFa": "(در نقش Nana Maggie) شغل قدیمی نانا",
  "setting": "Family jobs · Level 1",
  "settingFa": "شغل‌های خانواده",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "saturday",
-      "every",
-      "chair",
       "there",
-      "right"
+      "chair",
+      "right",
+      "every"
      ],
      "suggestion": "Every Saturday! She sat right there, on that red chair.",
      "suggestionFa": "هر شنبه! درست اونجا، رو اون صندلی قرمز می‌نشست.",
@@ -135,9 +135,9 @@
   "r6": {
    "id": "r6",
    "speaker": "bennett",
-   "text": "Hello, Weda! Lovely to see you. Is this your friend?",
+   "text": "Hello, Maggie! Lovely to see you. Is this your friend?",
    "translations": {
-    "fa": "سلام ودا! خوشحالم می‌بینمت. این دوستته؟"
+    "fa": "سلام مگی! خوشحالم می‌بینمت. این دوستته؟"
    },
    "branches": [
     {
@@ -187,9 +187,9 @@
   "r8": {
    "id": "r8",
    "speaker": "bennett",
-   "text": "Weda was my boss. She was the best boss! Did she tell you about the flood?",
+   "text": "Maggie was my boss. She was the best boss! Did she tell you about the flood?",
    "translations": {
-    "fa": "ودا رئیس من بود. بهترین رئیس بود! ماجرای سیل را برات تعریف کرد؟"
+    "fa": "مگی رئیس من بود. بهترین رئیس بود! ماجرای سیل را برات تعریف کرد؟"
    },
    "branches": [
     {
@@ -231,8 +231,8 @@
       "everywhere",
       "upstairs",
       "carried",
-      "books",
-      "night"
+      "burst",
+      "books"
      ],
      "suggestion": "A pipe burst in 1998. Water everywhere! We carried the books upstairs all night.",
      "suggestionFa": "سال ۱۹۹۸ یه لوله ترکید. همه جا آب! تمام شب کتاب‌ها را بردیم طبقهٔ بالا.",
@@ -255,9 +255,9 @@
      "keywords": [
       "computers",
       "customer",
+      "most",
       "here",
-      "come",
-      "them"
+      "read"
      ],
      "suggestion": "Most of them! Now I just come here to read and use the computers. I'm a customer now!",
      "suggestionFa": "بیشترشون را! حالا فقط میام اینجا که بخونم و از کامپیوترها استفاده کنم. الان مشتری‌ام!",
@@ -296,9 +296,9 @@
   "r12": {
    "id": "r12",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

@@ -87,6 +87,41 @@ void main() {
     expect(Leitner.review(card, false, now).box, 1);
   });
 
+  test('every character avatar is their own painted portrait (exists, unique, no SVG/emoji)', () {
+    final seen = <String, String>{};
+    for (final ch in c.characters) {
+      expect(ch.avatar, 'assets/portraits/${ch.id}.webp', reason: ch.id);
+      final f = File(ch.avatar);
+      expect(f.existsSync(), isTrue, reason: '${ch.id} portrait missing');
+      final key = base64Encode(f.readAsBytesSync());
+      expect(seen.containsKey(key), isFalse, reason: '${ch.id} has the same portrait as ${seen[key]}');
+      seen[key] = ch.id;
+    }
+  });
+
+  test('each level opens its own first lesson (no two levels share one)', () {
+    final course = Course.fromJson(j('assets/data/course.json'));
+    final levels = course.units.map((u) => u.level).toSet().toList()..sort();
+    expect(levels, [1, 2, 3, 4, 5]);
+    final firsts = <String>{};
+    for (final lv in levels) {
+      final l = ProgressController.firstLessonOfLevel(course, lv)!;
+      expect(course.unitOf(l.id)!.level, lv);
+      expect(firsts.add(l.id), isTrue, reason: 'Level $lv opens ${l.id}, same as another level');
+    }
+    // Picking a level at onboarding makes the home 'Continue' land on that level's first lesson, unlocked.
+    final nexts = <String>{};
+    for (var tier = 0; tier < 5; tier++) {
+      final ct = ProviderContainer(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore())]);
+      final ctrl = ct.read(progressProvider.notifier)..finishOnboarding(startTier: tier, lang: 'fa');
+      final lv = ProgressController.levelForTier(tier);
+      final next = ctrl.nextLesson(course)!;
+      expect(next.id, ProgressController.firstLessonOfLevel(course, lv)!.id, reason: 'tier $tier');
+      expect(ctrl.lessonOpen(course, next), isTrue, reason: 'tier $tier first lesson locked');
+      expect(nexts.add(next.id), isTrue, reason: 'tier $tier opens the same lesson as another level');
+    }
+  });
+
   test('playing nicola_park unlocks the birthday scene', () {
     final ct = ProviderContainer(overrides: [progressStoreProvider.overrideWithValue(MemoryProgressStore())]);
     final ctrl = ct.read(progressProvider.notifier);
@@ -133,7 +168,8 @@ void main() {
       }
     }
     reachable.addAll(c.moments.map((m) => m.sceneId));
-    for (final u in j('assets/data/course.json')['units']) {
+    final cj = j('assets/data/course.json');
+    for (final u in [...cj['units'], for (final p in (cj['packs'] ?? const [])) ...p['units']]) {
       for (final l in u['lessons']) {
         reachable.addAll(List<String>.from(l['sceneIds']));
       }

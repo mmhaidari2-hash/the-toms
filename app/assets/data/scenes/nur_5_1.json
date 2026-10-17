@@ -1,0 +1,288 @@
+{
+ "id": "nur_5_1",
+ "characterId": "jo",
+ "title": "Morning huddle",
+ "titleFa": "جلسهٔ کوتاه صبح",
+ "setting": "The team and EYFS · Level 0",
+ "settingFa": "تیم و EYFS",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jo",
+   "text": "Morning, team! Quick huddle before the children arrive. I'm Jo, the room leader. We're one member of staff short today — Priya's off sick.",
+   "translations": {
+    "fa": "صبح بخیر تیم! قبل از رسیدن بچه‌ها یه جلسهٔ کوتاه. من جو هستم، سرپرست اتاق. امروز یه نفر کم داریم — پریا مریضه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "ratio",
+      "still",
+      "will"
+     ],
+     "suggestion": "Morning, Jo. Will we still be in ratio?",
+     "suggestionFa": "صبح بخیر جو. باز هم نسبت قانونی رعایت میشه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "can",
+      "how",
+      "oh"
+     ],
+     "suggestion": "Oh no. How can I help?",
+     "suggestionFa": "ای وای. چطور می‌تونم کمک کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "huddle",
+     "fa": "جلسهٔ کوتاه سرپایی"
+    },
+    {
+     "word": "room leader",
+     "fa": "سرپرست اتاق"
+    },
+    {
+     "word": "off sick",
+     "fa": "مرخصی استعلاجی ؛ مریض"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"huddle\" is a short team meeting at the start of the day: staffing, children's needs, plans and safety.",
+    "fa": "هادل جلسهٔ کوتاه آغاز روز است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jo",
+   "text": "Good question. Yes — the manager's going to cover until twelve. So breaks will be staggered: Vida at twelve, you at half twelve.",
+   "translations": {
+    "fa": "سؤال خوبیه. آره — مدیر تا ساعت دوازده جای خالی را پر می‌کنه. پس استراحت‌ها پلکانی میشه: ویدا ساعت دوازده، تو دوازده و نیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twelve",
+      "fine",
+      "half"
+     ],
+     "suggestion": "Half twelve is fine for me.",
+     "suggestionFa": "دوازده و نیم برام خوبه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "staggered",
+      "mean"
+     ],
+     "suggestion": "What does \"staggered\" mean?",
+     "suggestionFa": "staggered یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cover",
+     "fa": "جای کسی کار کردن"
+    },
+    {
+     "word": "breaks",
+     "fa": "استراحت‌ها"
+    },
+    {
+     "word": "staggered",
+     "fa": "پلکانی ؛ پشت سر هم نه هم‌زمان"
+    },
+    {
+     "word": "half twelve",
+     "fa": "دوازده و نیم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "half twelve is good for me",
+      "is fine half twelve"
+     ],
+     "echo": "Half twelve works for you? Great.",
+     "better": "Half twelve is fine for me.",
+     "betterFa": "دوازده و نیم برام خوبه."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "jo",
+   "text": "It means not at the same time, so there are always enough adults. Any updates on the children?",
+   "translations": {
+    "fa": "یعنی نه هم‌زمان، تا همیشه بزرگسال کافی باشه. خبر تازه‌ای دربارهٔ بچه‌ها هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "cough",
+      "he's",
+      "says"
+     ],
+     "suggestion": "William's mum says he's had a cough.",
+     "suggestionFa": "مامان ویلیام میگه سرفه داشته.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "collecting",
+      "oscar's",
+      "grandma",
+      "today"
+     ],
+     "suggestion": "Oscar's grandma is collecting him today.",
+     "suggestionFa": "مادربزرگ اسکار امروز میاد دنبالش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "updates",
+     "fa": "خبرهای تازه"
+    },
+    {
+     "word": "collecting",
+     "fa": "دنبال کسی آمدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Also, it's Oscar's dairy-free week on the menu, so I'll check the lunch labels with the cook.",
+   "translations": {
+    "fa": "همچنین این هفته منو برای اسکار بدون لبنیاته، پس من برچسب‌های ناهار را با آشپز چک می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "checks",
+      "sleep",
+      "after",
+      "lunch"
+     ],
+     "suggestion": "I'll do the sleep checks after lunch.",
+     "suggestionFa": "من بعد از ناهار بررسی خواب را انجام میدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "messy",
+      "play",
+      "tray",
+      "set"
+     ],
+     "suggestion": "I'll set up the messy play tray.",
+     "suggestionFa": "من سینی بازی کثیف‌کاری را آماده می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dairy-free",
+     "fa": "بدون لبنیات"
+    },
+    {
+     "word": "labels",
+     "fa": "برچسب‌ها"
+    },
+    {
+     "word": "set up",
+     "fa": "آماده کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "jo",
+   "text": "Brilliant, thanks both. Today's focus is \"people who help us\" — the fire station visit is on Thursday. Any questions?",
+   "translations": {
+    "fa": "عالی، ممنون از هر دو. تمرکز امروز «افرادی که به ما کمک می‌کنند» است — بازدید ایستگاه آتش‌نشانی پنجشنبه‌ست. سؤالی هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "adults",
+      "extra",
+      "trip",
+      "need"
+     ],
+     "suggestion": "Do we need extra adults for the trip?",
+     "suggestionFa": "برای گردش بزرگسال اضافه لازم داریم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "questions",
+      "sounds",
+      "good"
+     ],
+     "suggestion": "No questions. Sounds good!",
+     "suggestionFa": "سؤالی ندارم. خوبه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "focus",
+     "fa": "تمرکز ؛ موضوع"
+    },
+    {
+     "word": "fire station",
+     "fa": "ایستگاه آتش‌نشانی"
+    },
+    {
+     "word": "trip",
+     "fa": "گردش ؛ سفر کوتاه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Outings need a risk assessment, signed parent permission and higher ratios than in the room.",
+    "fa": "گردش‌ها ارزیابی خطر، اجازهٔ والدین و نسبت بیشتری لازم دارند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jo",
+   "text": "Yes — I'm going to ask parents to volunteer, and I'll do the risk assessment. Right, doors open in two minutes!",
+   "translations": {
+    "fa": "آره — قراره از والدین بخوام داوطلب بشن و ارزیابی خطر را خودم انجام میدم. خب، دو دقیقه دیگه درها باز میشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -22,8 +22,8 @@
     {
      "keywords": [
       "scared",
-      "sleep",
       "can't",
+      "sleep",
       "dark",
       "room"
      ],
@@ -48,8 +48,8 @@
      "keywords": [
       "monsters",
       "under",
-      "noise",
       "heard",
+      "noise",
       "bed"
      ],
      "suggestion": "Of monsters. Under my bed! I heard a noise.",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "buttons",
-      "noise",
       "teddy",
+      "noise",
       "fell",
-      "was"
+      "bed"
      ],
      "suggestion": "Mr Buttons! My teddy! He fell off the bed. That was the noise!",
      "suggestionFa": "آقای دکمه! خرسم! از تخت افتاد. اون صدا بود!",
@@ -166,9 +166,9 @@
   "r7": {
    "id": "r7",
    "speaker": "mehdi",
-   "text": "She was a bit scared, Weda.",
+   "text": "She was a bit scared, Maggie.",
    "translations": {
-    "fa": "یه کم ترسیده بود ودا."
+    "fa": "یه کم ترسیده بود مگی."
    },
    "branches": [
     {
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "please",
-      "little",
       "scared",
+      "little",
       "dark",
       "nana"
      ],
@@ -303,9 +303,9 @@
   "r12": {
    "id": "r12",
    "speaker": "mehdi",
-   "text": "Yes! Sing a song, Weda.",
+   "text": "Yes! Sing a song, Maggie.",
    "translations": {
-    "fa": "آره! یه آهنگ بخونید ودا."
+    "fa": "آره! یه آهنگ بخونید مگی."
    },
    "branches": [
     {

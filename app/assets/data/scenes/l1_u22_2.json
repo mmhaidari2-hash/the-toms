@@ -78,8 +78,8 @@
     {
      "keywords": [
       "bought",
-      "last",
-      "week"
+      "week",
+      "last"
      ],
      "suggestion": "Yes, I bought one last week.",
      "suggestionFa": "آره، هفتهٔ پیش یکی خریدم.",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "back",
       "mean",
+      "back",
       "go"
      ],
      "suggestion": "What does \"the clocks go back\" mean?",
@@ -183,8 +183,8 @@
      "keywords": [
       "evenings",
       "don't",
-      "like",
-      "dark"
+      "dark",
+      "like"
      ],
      "suggestion": "I don't like dark evenings.",
      "suggestionFa": "عصرهای تاریک را دوست ندارم.",
@@ -286,8 +286,8 @@
     {
      "keywords": [
       "them",
-      "eat",
-      "can"
+      "can",
+      "eat"
      ],
      "suggestion": "Can you eat them?",
      "suggestionFa": "می‌شه خوردشون؟",
@@ -375,8 +375,8 @@
     {
      "keywords": [
       "here's",
-      "one",
-      "big"
+      "big",
+      "one"
      ],
      "suggestion": "Here's a big one!",
      "suggestionFa": "اینجا یه دونه بزرگه!",
@@ -386,8 +386,8 @@
     },
     {
      "keywords": [
-      "need",
       "many",
+      "need",
       "how",
       "we"
      ],

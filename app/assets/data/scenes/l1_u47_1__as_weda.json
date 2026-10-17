@@ -1,8 +1,8 @@
 {
  "id": "l1_u47_1__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Nana's bath time",
- "titleFa": "(در نقش Nana Weda) وقت حمام با نانا",
+ "title": "(As Nana Maggie) Nana's bath time",
+ "titleFa": "(در نقش Nana Maggie) وقت حمام با نانا",
  "setting": "Nana's corner · Level 1",
  "settingFa": "گوشهٔ نانا",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -24,7 +24,7 @@
       "william's",
       "running",
       "hello",
-      "duck",
+      "dear",
       "bath"
      ],
      "suggestion": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
@@ -127,8 +127,8 @@
       "splashing",
       "everyone",
       "shampoo",
-      "bottle",
-      "yellow"
+      "yellow",
+      "bottle"
      ],
      "suggestion": "Ha! He's splashing everyone. Can you hand me the baby shampoo? The yellow bottle.",
      "suggestionFa": "ها! داره رو همه آب می‌پاشه. شامپوی بچه را میدی؟ بطری زرده.",
@@ -153,7 +153,7 @@
       "washing",
       "thank",
       "hates",
-      "hair"
+      "dear"
      ],
      "suggestion": "Thank you, dear. Now I'm washing his hair. He hates this part. Sing something!",
      "suggestionFa": "ممنون عزیزم. حالا دارم موهاش را می‌شورم. از این قسمت متنفره. یه چیزی بخون!",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "slippery",
-      "careful",
       "getting",
+      "careful",
       "towel",
       "he's"
      ],
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "pyjamas",
-      "little",
       "lovely",
+      "little",
       "night",
       "wrap"
      ],
@@ -268,9 +268,9 @@
   "r11": {
    "id": "r11",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

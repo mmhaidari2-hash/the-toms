@@ -30,11 +30,11 @@
     },
     {
      "keywords": [
-      "weda",
+      "maggie",
       "peel"
      ],
-     "suggestion": "I can peel it, Weda.",
-     "suggestionFa": "من پوستش را می‌کنم ودا.",
+     "suggestion": "I can peel it, Maggie.",
+     "suggestionFa": "من پوستش را می‌کنم مگی.",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -61,8 +61,8 @@
    "branches": [
     {
      "keywords": [
-      "knife",
       "small",
+      "knife",
       "ok"
      ],
      "suggestion": "OK. This small knife?",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "knives",
-      "clean",
       "where",
-      "hands"
+      "hands",
+      "clean"
      ],
      "suggestion": "My hands are clean. Where are the knives?",
      "suggestionFa": "دستام تمیزه. چاقوها کجان؟",
@@ -120,8 +120,8 @@
     },
     {
      "keywords": [
-      "smells",
-      "lovely"
+      "lovely",
+      "smells"
      ],
      "suggestion": "It smells lovely!",
      "suggestionFa": "بوی خوبی می‌ده!",
@@ -172,8 +172,8 @@
      "keywords": [
       "coming",
       "piece",
-      "one",
-      "off"
+      "off",
+      "one"
      ],
      "suggestion": "It's coming off in one piece!",
      "suggestionFa": "داره یه تیکه کنده میشه!",
@@ -259,12 +259,12 @@
    "branches": [
     {
      "keywords": [
+      "maggie",
       "here's",
-      "weda",
       "one"
      ],
-     "suggestion": "Here's one for you, Weda.",
-     "suggestionFa": "این یکی برای شما ودا.",
+     "suggestion": "Here's one for you, Maggie.",
+     "suggestionFa": "این یکی برای شما مگی.",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -371,8 +371,8 @@
      "keywords": [
       "pomegranates",
       "family",
-      "late",
-      "stay"
+      "stay",
+      "late"
      ],
      "suggestion": "We stay up late with family and eat pomegranates.",
      "suggestionFa": "با خانواده تا دیروقت بیدار می‌مونیم و انار می‌خوریم.",

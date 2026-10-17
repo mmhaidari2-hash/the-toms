@@ -25,7 +25,7 @@
       "everyone",
       "nervous",
       "normal",
-      "like"
+      "will"
      ],
      "suggestion": "It's normal to feel nervous. Everyone will like you!",
      "suggestionFa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!",
@@ -75,8 +75,8 @@
      "keywords": [
       "promise",
       "three",
-      "i'll",
-      "pick"
+      "pick",
+      "half"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
-      "both",
+      "will",
       "here",
-      "will"
+      "both"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -138,8 +138,8 @@
     {
      "keywords": [
       "window",
-      "wave",
       "from",
+      "wave",
       "give"
      ],
      "suggestion": "Give me a big wave from the window!",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see it?",
      "suggestionFa": "می‌تونم ببینمش؟",
@@ -221,9 +221,9 @@
    "branches": [
     {
      "keywords": [
+      "star",
       "gold",
       "done",
-      "star",
       "well"
      ],
      "suggestion": "A gold star? Well done you!",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "get",
-      "did"
+      "did",
+      "get"
      ],
      "suggestion": "What did you get it for?",
      "suggestionFa": "برای چی گرفتیش؟",
@@ -332,8 +332,8 @@
      "keywords": [
       "listen",
       "though",
-      "hart",
-      "miss"
+      "miss",
+      "hart"
      ],
      "suggestion": "Try to listen to Miss Hart, though.",
      "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "fingers",
-      "earned",
       "you've",
+      "earned",
       "fish"
      ],
      "suggestion": "Fish fingers it is — you've earned it!",

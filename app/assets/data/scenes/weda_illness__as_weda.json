@@ -2,8 +2,8 @@
  "id": "weda_illness__as_weda",
  "characterId": "weda",
  "level": "A2",
- "title": "(As Nana Weda) William's under the weather",
- "titleFa": "(در نقش Nana Weda) ویلیام کمی ناخوش است",
+ "title": "(As Nana Maggie) William's under the weather",
+ "titleFa": "(در نقش Nana Maggie) ویلیام کمی ناخوش است",
  "setting": "The nursery, late evening",
  "settingFa": "اتاق بچه، اواخر شب",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -48,9 +48,9 @@
      "keywords": [
       "thermometer's",
       "drawer",
-      "under",
       "check",
-      "let's"
+      "let's",
+      "under"
      ],
      "suggestion": "Let's check. The thermometer's in the drawer — pop it under his arm.",
      "suggestionFa": "بیا چک کنیم. دماسنج تو کشوئه — بذارش زیر بغلش.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "eating",
-      "beeps",
-      "there",
       "until",
+      "there",
+      "beeps",
       "been"
      ],
      "suggestion": "Until it beeps. There — 38.2. Not too bad. Has he been eating?",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "cupboard",
-      "little",
       "calpol",
-      "glass",
-      "their"
+      "little",
+      "their",
+      "often"
      ],
      "suggestion": "Little ones often go off their food. Could you fetch the Calpol from the cupboard and a glass of water?",
      "suggestionFa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی کالپول را از کابینت بیاری و یه لیوان آب؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "darling",
-      "there",
-      "let's",
       "brave",
-      "good"
+      "let's",
+      "there",
+      "cool"
      ],
      "suggestion": "Good. Open wide, my darling… there. Brave boy. Now let's get him cool — not cold, mind.",
      "suggestionFa": "خوبه. دهنت را باز کن عزیزم… بفرما. پسر شجاع. حالا خنکش کنیم — نه سرد، مواظب باش.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "everywhere",
-      "mothers",
       "closing",
+      "mothers",
       "while",
       "make"
      ],
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "natural",
+      "morning",
       "better",
-      "thank",
-      "we'll"
+      "we'll",
+      "thank"
      ],
      "suggestion": "Thank you, pet. If he's not better by morning, we'll ring 111. You're a natural with him.",
      "suggestionFa": "ممنون عزیزم. اگه تا صبح بهتر نشد، به ۱۱۱ زنگ می‌زنیم. تو ذاتاً باهاش خوبی.",
@@ -239,9 +239,9 @@
   "r10": {
    "id": "r10",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

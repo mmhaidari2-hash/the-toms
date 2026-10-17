@@ -65,8 +65,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "help"
+      "help",
+      "i'll"
      ],
      "suggestion": "Yes, I'll help you.",
      "suggestionFa": "آره، کمکت می‌کنم.",
@@ -109,8 +109,8 @@
     {
      "keywords": [
       "thank",
-      "dear",
-      "nana"
+      "nana",
+      "dear"
      ],
      "suggestion": "\"Dear Nana, thank you for the book.\"",
      "suggestionFa": "«نانای عزیز، ممنون بابت کتاب.»",
@@ -157,8 +157,8 @@
      "keywords": [
       "that's",
       "thing",
-      "good",
-      "nice"
+      "nice",
+      "good"
      ],
      "suggestion": "Good! That's a nice thing to say.",
      "suggestionFa": "خوبه! حرف قشنگیه.",
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "really",
-      "every",
       "night",
+      "every",
       "read"
      ],
      "suggestion": "Do you really read it every night?",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "count",
-      "let's"
+      "let's",
+      "count"
      ],
      "suggestion": "Let's count.",
      "suggestionFa": "بیا بشمریم.",
@@ -269,8 +269,8 @@
     },
     {
      "keywords": [
-      "five",
       "more",
+      "five",
       "only"
      ],
      "suggestion": "Only five more!",
@@ -312,8 +312,8 @@
     },
     {
      "keywords": [
-      "days",
       "five",
+      "days",
       "day",
       "one"
      ],

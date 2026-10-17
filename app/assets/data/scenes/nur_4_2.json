@@ -1,0 +1,275 @@
+{
+ "id": "nur_4_2",
+ "characterId": "leslie",
+ "title": "Pick-up and the daily report",
+ "titleFa": "تحویل عصر و گزارش روزانه",
+ "setting": "Talking with parents · Level 0",
+ "settingFa": "صحبت با والدین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Hi, {you}! It's strange seeing you here! How was William today?",
+   "translations": {
+    "fa": "سلام {you}! عجیبه اینجا می‌بینمت! ویلیام امروز چطور بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "great",
+      "day",
+      "had"
+     ],
+     "suggestion": "Hi, Leslie! He had a great day.",
+     "suggestionFa": "سلام لزلی! روز خیلی خوبی داشت.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "today",
+      "busy",
+      "was"
+     ],
+     "suggestion": "He was really busy today!",
+     "suggestionFa": "امروز خیلی سرش شلوغ بود!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    },
+    {
+     "word": "busy",
+     "fa": "مشغول ؛ سرشلوغ"
+    }
+   ],
+   "cultureNote": {
+    "en": "A daily report covers food, sleep, nappies/toilet, activities and anything special. Keep it positive and factual.",
+    "fa": "گزارش روزانه: غذا، خواب، دستشویی، فعالیت‌ها."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
+   "translations": {
+    "fa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seconds",
+      "all",
+      "had"
+     ],
+     "suggestion": "Yes, he ate all of it and had seconds!",
+     "suggestionFa": "آره، همه‌ش را خورد و دوباره هم گرفت!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lunch",
+      "peas",
+      "most",
+      "his"
+     ],
+     "suggestion": "He ate most of his lunch, but no peas.",
+     "suggestionFa": "بیشتر ناهارش را خورد، ولی نخود نه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fussy",
+     "fa": "بدغذا ؛ ایرادگیر"
+    },
+    {
+     "word": "seconds",
+     "fa": "دوباره کشیدن غذا"
+    },
+    {
+     "word": "most of",
+     "fa": "بیشترِ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ha, typical! And did he have a nap?",
+   "translations": {
+    "fa": "ها، معمولیه! چرت هم زد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hour",
+      "from",
+      "two",
+      "one"
+     ],
+     "suggestion": "Yes, he slept for an hour, from one to two.",
+     "suggestionFa": "آره، یه ساعت خوابید، از یک تا دو.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "after",
+      "lunch",
+      "well"
+     ],
+     "suggestion": "Yes, he slept really well after lunch.",
+     "suggestionFa": "آره، بعد از ناهار خیلی خوب خوابید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slept",
+     "fa": "خوابید"
+    },
+    {
+     "word": "from… to…",
+     "fa": "از… تا…"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he sleep one hour",
+      "he sleeped an hour"
+     ],
+     "echo": "He slept for an hour? Great.",
+     "better": "He slept for an hour.",
+     "betterFa": "یه ساعت خوابید."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Mummy! I made a rocket! A big one!",
+   "translations": {
+    "fa": "مامان! یه موشک ساختم! یه بزرگش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "boxes",
+      "made",
+      "from"
+     ],
+     "suggestion": "He made it from boxes this morning.",
+     "suggestionFa": "امروز صبح با جعبه‌ها ساختش.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "rocket",
+      "mummy",
+      "show"
+     ],
+     "suggestion": "Show Mummy your rocket, William!",
+     "suggestionFa": "موشکت را به مامان نشون بده ویلیام!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rocket",
+     "fa": "موشک"
+    },
+    {
+     "word": "boxes",
+     "fa": "جعبه‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Wow, it's brilliant! Any toilet accidents today?",
+   "translations": {
+    "fa": "وای، عالیه! امروز خیس‌کاری داشت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accidents",
+      "every",
+      "told",
+      "time"
+     ],
+     "suggestion": "No accidents — he told us every time.",
+     "suggestionFa": "هیچ خیس‌کاری‌ای — هر بار بهمون گفت.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clothes",
+      "before",
+      "lunch",
+      "just"
+     ],
+     "suggestion": "Just one, before lunch. His wet clothes are in his bag.",
+     "suggestionFa": "فقط یه بار، قبل از ناهار. لباس‌های خیسش تو کیفشه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "accidents",
+     "fa": "خیس‌کاری (در آموزش دستشویی)"
+    },
+    {
+     "word": "wet",
+     "fa": "خیس"
+    },
+    {
+     "word": "every time",
+     "fa": "هر بار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Fantastic. Thanks, {you}. You sound like a real nursery practitioner already!",
+   "translations": {
+    "fa": "فوق‌العاده. ممنون {you}. همین الان مثل یه مربی مهد واقعی حرف می‌زنی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

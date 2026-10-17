@@ -1,0 +1,315 @@
+{
+ "id": "nur_3_1",
+ "characterId": "vida",
+ "title": "Circle time",
+ "titleFa": "وقت حلقه",
+ "setting": "Play, songs and feelings · Level 0",
+ "settingFa": "بازی، آهنگ و احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Circle time! Can you sit with the children on the carpet? We start with our hello song.",
+   "translations": {
+    "fa": "وقت حلقه! می‌تونی با بچه‌ها رو فرش بشینی؟ با آهنگ سلام‌مون شروع می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "circle",
+      "please",
+      "sure"
+     ],
+     "suggestion": "Sure. Everyone, sit in a circle, please.",
+     "suggestionFa": "حتماً. همه، لطفاً حلقه‌ای بشینید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hello",
+      "don't",
+      "song",
+      "know"
+     ],
+     "suggestion": "I don't know the hello song yet.",
+     "suggestionFa": "هنوز آهنگ سلام را بلد نیستم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "circle time",
+     "fa": "وقت حلقه ؛ زمان گروهی"
+    },
+    {
+     "word": "circle",
+     "fa": "دایره ؛ حلقه"
+    },
+    {
+     "word": "carpet",
+     "fa": "فرش"
+    }
+   ],
+   "cultureNote": {
+    "en": "Circle time is a short group session: songs, the weather, feelings, and talking about the day.",
+    "fa": "وقت حلقه جلسهٔ کوتاه گروهی است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Easy: \"Hello, Oscar, how are you?\" and everyone waves. Then we look out of the window. What's the weather like today, William?",
+   "translations": {
+    "fa": "ساده‌ست: «سلام اسکار، حالت چطوره؟» و همه دست تکون میدن. بعد از پنجره بیرون را نگاه می‌کنیم. ویلیام، هوا امروز چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weather",
+      "william",
+      "what's",
+      "like"
+     ],
+     "suggestion": "What's the weather like, William?",
+     "suggestionFa": "ویلیام، هوا چطوره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "window",
+      "let's",
+      "look",
+      "out"
+     ],
+     "suggestion": "Let's look out of the window!",
+     "suggestionFa": "بیاید از پنجره نگاه کنیم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weather",
+     "fa": "آب‌وهوا"
+    },
+    {
+     "word": "wave",
+     "fa": "دست تکان دادن"
+    },
+    {
+     "word": "window",
+     "fa": "پنجره"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "It's raining! Splish splash!",
+   "translations": {
+    "fa": "داره بارون میاد! شلپ شلوپ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "picture",
+      "rain",
+      "find",
+      "can"
+     ],
+     "suggestion": "Yes, it's rainy! Who can find the rain picture?",
+     "suggestionFa": "آره، بارونیه! کی می‌تونه عکس بارون را پیدا کنه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "done",
+      "cold",
+      "well"
+     ],
+     "suggestion": "Well done! Rainy and cold.",
+     "suggestionFa": "آفرین! بارونی و سرد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rainy",
+     "fa": "بارانی"
+    },
+    {
+     "word": "picture",
+     "fa": "تصویر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Now feelings. We point to a face: happy, sad, angry, tired. How are you feeling today, Oscar?",
+   "translations": {
+    "fa": "حالا احساسات. به یه صورت اشاره می‌کنیم: شاد، غمگین، عصبانی، خسته. اسکار، امروز چه حسی داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "feeling",
+      "oscar",
+      "how"
+     ],
+     "suggestion": "How are you feeling, Oscar?",
+     "suggestionFa": "اسکار، چه حسی داری؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "point",
+      "face",
+      "can"
+     ],
+     "suggestion": "Can you point to a face?",
+     "suggestionFa": "می‌تونی به یه صورت اشاره کنی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "feelings",
+     "fa": "احساسات"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    },
+    {
+     "word": "point to",
+     "fa": "اشاره کردن به"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "oscar",
+   "text": "Sad. Daddy went to work.",
+   "translations": {
+    "fa": "غمگین. بابا رفت سر کار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oscar",
+      "after",
+      "daddy",
+      "back"
+     ],
+     "suggestion": "Oh, Oscar. Daddy will come back after tea.",
+     "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cuddle",
+      "feel",
+      "want",
+      "sad"
+     ],
+     "suggestion": "It's OK to feel sad. Do you want a cuddle?",
+     "suggestionFa": "غمگین بودن اشکالی نداره. بغل می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cuddle",
+     "fa": "بغل"
+    },
+    {
+     "word": "come back",
+     "fa": "برگشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Staff name feelings (\"You feel sad\") to help young children understand and talk about them.",
+    "fa": "نام بردن احساس به بچه کمک می‌کند آن را بفهمد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Lovely. You named his feeling and stayed with him. Now let's sing \"Five Little Ducks\" — the children love it!",
+   "translations": {
+    "fa": "عالی. احساسش را نام بردی و کنارش موندی. حالا بیاید «پنج اردک کوچولو» را بخونیم — بچه‌ها عاشقشن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swimming",
+      "little",
+      "ducks",
+      "went"
+     ],
+     "suggestion": "Five little ducks went swimming one day!",
+     "suggestionFa": "پنج اردک کوچولو یه روز رفتن شنا!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "actions",
+      "teach",
+      "can"
+     ],
+     "suggestion": "Can you teach me the actions?",
+     "suggestionFa": "حرکاتش را یادم میدی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "actions",
+     "fa": "حرکات"
+    },
+    {
+     "word": "sing",
+     "fa": "آواز خواندن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "vida",
+   "text": "Hands like a duck's beak — quack, quack! Songs teach counting, new words and taking turns. Not bad for two minutes!",
+   "translations": {
+    "fa": "دستا مثل نوک اردک — کوآک کوآک! آهنگ‌ها شمردن، کلمه‌های تازه و نوبت گرفتن را یاد میدن. برای دو دقیقه بد نیست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

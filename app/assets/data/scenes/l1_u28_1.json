@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "who's",
-      "hello"
+      "hello",
+      "who's"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -65,17 +65,17 @@
   "n2": {
    "id": "n2",
    "speaker": "weda",
-   "text": "Hello, love. It's Weda. Who's speaking?",
+   "text": "Hello, love. It's Maggie. Who's speaking?",
    "translations": {
-    "fa": "الو عزیزم. ودام. شما؟"
+    "fa": "الو عزیزم. مگی‌ام. شما؟"
    },
    "branches": [
     {
      "keywords": [
       "hi"
      ],
-     "suggestion": "Hi, Weda! It's {you}.",
-     "suggestionFa": "سلام ودا! {you} هستم.",
+     "suggestion": "Hi, Maggie! It's {you}.",
+     "suggestionFa": "سلام مگی! {you} هستم.",
      "trustDelta": 6,
      "next": "n3",
      "success": true
@@ -85,8 +85,8 @@
       "speaking",
       "hello"
      ],
-     "suggestion": "Hello, Weda. This is {you} speaking.",
-     "suggestionFa": "سلام ودا. {you} صحبت می‌کنم.",
+     "suggestion": "Hello, Maggie. This is {you} speaking.",
+     "suggestionFa": "سلام مگی. {you} صحبت می‌کنم.",
      "trustDelta": 5,
      "next": "n3",
      "success": true
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "moment",
       "please",
+      "moment",
       "here",
       "one"
      ],
@@ -190,9 +190,9 @@
     },
     {
      "keywords": [
-      "get",
+      "let",
       "pen",
-      "let"
+      "get"
      ],
      "suggestion": "Yes. Let me get a pen.",
      "suggestionFa": "آره. بذار یه خودکار بیارم.",
@@ -274,8 +274,8 @@
     },
     {
      "keywords": [
-      "instead",
       "writing",
+      "instead",
       "friday",
       "down"
      ],
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "after",
-      "call",
       "back",
+      "call",
       "got"
      ],
      "suggestion": "Call you back after six. Got it.",
@@ -330,8 +330,8 @@
      "keywords": [
       "number",
       "have",
-      "ok",
-      "he"
+      "he",
+      "ok"
      ],
      "suggestion": "OK. Does he have your number?",
      "suggestionFa": "باشه. شماره‌تون را داره؟",
@@ -365,12 +365,12 @@
    "branches": [
     {
      "keywords": [
+      "maggie",
       "care",
-      "weda",
       "take"
      ],
-     "suggestion": "Bye, Weda! Take care!",
-     "suggestionFa": "خداحافظ ودا! مراقب خودتون باشید!",
+     "suggestion": "Bye, Maggie! Take care!",
+     "suggestionFa": "خداحافظ مگی! مراقب خودتون باشید!",
      "trustDelta": 6,
      "next": "n9",
      "success": true

@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "george",
       "course",
-      "sorry",
-      "about"
+      "george",
+      "about",
+      "sorry"
      ],
      "suggestion": "Of course. George, I'm so sorry about Stan.",
      "suggestionFa": "حتماً. جورج، خیلی بابت استن متأسفم.",
@@ -35,7 +35,7 @@
       "friends",
       "happy",
       "they",
-      "were"
+      "long"
      ],
      "suggestion": "I'd be happy to. How long were they friends?",
      "suggestionFa": "با کمال میل. چند وقت دوست بودن؟",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "incredible",
       "friendship",
+      "incredible",
       "sixty",
       "years"
      ],
@@ -120,8 +120,8 @@
      "keywords": [
       "football",
       "other",
-      "knew",
-      "club"
+      "each",
+      "knew"
      ],
      "suggestion": "So you knew each other from the football club?",
      "suggestionFa": "پس همدیگه را از باشگاه فوتبال می‌شناختید؟",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "about",
-      "tell",
       "like",
+      "tell",
       "him"
      ],
      "suggestion": "Tell me about him. What was he like?",
@@ -166,8 +166,8 @@
      "keywords": [
       "brothers",
       "saying",
-      "they",
-      "were"
+      "more",
+      "they"
      ],
      "suggestion": "So what you're saying is, they were more like brothers.",
      "suggestionFa": "پس می‌گید بیشتر مثل برادر بودن.",

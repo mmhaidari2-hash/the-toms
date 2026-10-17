@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "many",
-      "bags",
       "need",
+      "bags",
+      "many",
       "how"
      ],
      "suggestion": "How many bags do we need?",
@@ -180,8 +180,8 @@
     {
      "keywords": [
       "sweets",
-      "fewer",
       "fizzy",
+      "fewer",
       "ok"
      ],
      "suggestion": "OK, fewer fizzy sweets.",
@@ -271,8 +271,8 @@
    "branches": [
     {
      "keywords": [
-      "enough",
-      "that's"
+      "that's",
+      "enough"
      ],
      "suggestion": "Yes, that's enough.",
      "suggestionFa": "آره، کافیه.",
@@ -326,8 +326,8 @@
     },
     {
      "keywords": [
-      "half",
       "each",
+      "half",
       "can",
       "pay"
      ],

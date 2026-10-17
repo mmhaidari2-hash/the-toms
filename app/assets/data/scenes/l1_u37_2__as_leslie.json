@@ -25,7 +25,7 @@
       "umbrella",
       "things",
       "whose",
-      "full"
+      "pink"
      ],
      "suggestion": "The hallway's full of wet things! Whose umbrella is this? The pink one.",
      "suggestionFa": "راهرو پر از وسایل خیسه! این چتر مال کیه؟ صورتیه.",
@@ -48,9 +48,9 @@
      "keywords": [
       "nicola's",
       "wellies",
-      "green",
       "these",
-      "yours"
+      "yours",
+      "green"
      ],
      "suggestion": "Yes, it's Nicola's. And these wellies? The big green ones. Are they yours?",
      "suggestionFa": "آره، مال نیکولاست. و این چکمه‌ها؟ سبزهای بزرگ. مال توئه؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "doesn't",
       "anymore",
+      "doesn't",
       "borrow",
       "heart",
-      "rain"
+      "them"
      ],
      "suggestion": "Not anymore. He doesn't go out in the rain now, with his heart. Borrow them!",
      "suggestionFa": "دیگه نه. با این قلبش الان زیر بارون نمیره بیرون. قرضشون بگیر!",
@@ -149,8 +149,8 @@
       "soaking",
       "floor",
       "whose",
-      "coat",
-      "them"
+      "them",
+      "coat"
      ],
      "suggestion": "Try them on. And whose coat is this on the floor? It's soaking!",
      "suggestionFa": "امتحانشون کن. و این کت رو زمین مال کیه؟ خیس آبه!",
@@ -174,8 +174,8 @@
       "everyone",
       "please",
       "things",
-      "boots",
-      "hooks"
+      "hooks",
+      "boots"
      ],
      "suggestion": "Hang it on the hook, please! Everyone, wet things on the hooks, boots on the mat!",
      "suggestionFa": "لطفاً آویزونش کن رو قلاب! همه، وسایل خیس رو قلاب، چکمه‌ها رو پادری!",

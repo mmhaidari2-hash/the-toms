@@ -4,7 +4,7 @@ Writes assets/data/scenes/<id>__as_<role>.json (+ scenes_index). Deterministic; 
 import json,os,re,glob
 A=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','assets','data')
 FAMILY=['tom','leslie','nicola','ryan','weda']
-NAMES={'tom':'Tom','leslie':'Leslie','nicola':'Nicola','ryan':'Ryan','weda':'Nana Weda'}
+NAMES={'tom':'Tom','leslie':'Leslie','nicola':'Nicola','ryan':'Ryan','weda':'Nana Maggie'}
 BACK=[('Mm-hm.','آهان.'),('Oh, right!','آهان، درسته!'),('Really?','واقعاً؟'),('OK!','باشه!')]
 STOP=set("a an the i i'm you you're is are am it it's to of and or in on at be do does my your me so too yes no not very this that what with for".split())
 def kw(s):

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "heard",
       "night",
+      "heard",
       "last"
      ],
      "suggestion": "Yes, I heard it last night too.",
@@ -88,10 +88,10 @@
     },
     {
      "keywords": [
-      "don't",
       "might",
+      "don't",
       "break",
-      "hard"
+      "push"
      ],
      "suggestion": "Don't push too hard — you might break it.",
      "suggestionFa": "زیاد فشار ندید — ممکنه بشکنه.",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "washer",
-      "from",
+      "shop",
       "i'll",
-      "shop"
+      "from"
      ],
      "suggestion": "I'll ask Tom to buy a washer from the DIY shop.",
      "suggestionFa": "به تام می‌گم از فروشگاه ابزار یه واشر بخره.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "check",
-      "toy",
       "box",
-      "her"
+      "her",
+      "toy"
      ],
      "suggestion": "Ha! I'll check her toy box.",
      "suggestionFa": "ها! جعبهٔ اسباب‌بازیش را نگاه می‌کنم.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "spare",
-      "just",
       "case",
-      "buy"
+      "just",
+      "one"
      ],
      "suggestion": "I'll buy a spare one, just in case.",
      "suggestionFa": "یه یدکی می‌خرم، محض احتیاط.",

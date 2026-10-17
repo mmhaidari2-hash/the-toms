@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "working",
       "stopped",
-      "kettle",
-      "bought"
+      "working",
+      "bought",
+      "kettle"
      ],
      "suggestion": "I bought this kettle two weeks ago and it's stopped working.",
      "suggestionFa": "دو هفته پیش این کتری را خریدم و از کار افتاده.",
@@ -75,8 +75,8 @@
      "keywords": [
       "receipt",
       "here's",
-      "paid",
-      "card"
+      "card",
+      "paid"
      ],
      "suggestion": "Here's the receipt. I paid by card, too.",
      "suggestionFa": "اینم رسید. با کارت هم پرداخت کردم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "statement",
       "helps",
-      "bank",
-      "i've"
+      "i've",
+      "bank"
      ],
      "suggestion": "I've got the bank statement, if that helps.",
      "suggestionFa": "صورت‌حساب بانکی دارم، اگه کمک می‌کنه.",
@@ -125,8 +125,8 @@
      "keywords": [
       "please",
       "refund",
-      "don't",
-      "trust"
+      "trust",
+      "don't"
      ],
      "suggestion": "A full refund, please. I don't trust this model any more.",
      "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "carefully",
-      "used",
       "i've",
+      "used",
       "all"
      ],
      "suggestion": "Not at all. I've used it carefully.",

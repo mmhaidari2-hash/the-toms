@@ -1,0 +1,276 @@
+{
+ "id": "nur_2_4",
+ "characterId": "vida",
+ "title": "Coats on, outside we go!",
+ "titleFa": "کت‌ها تن، بریم بیرون!",
+ "setting": "Care routines · Level 0",
+ "settingFa": "روال مراقبت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "It's sunny but cold. Coats, hats and wellies on, please. Then we line up at the door.",
+   "translations": {
+    "fa": "آفتابیه ولی سرده. لطفاً کت، کلاه و چکمه بپوشید. بعد کنار در صف می‌بندیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "coats"
+     ],
+     "suggestion": "Coats on, everyone!",
+     "suggestionFa": "همه کت بپوشید!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wellies"
+     ],
+     "suggestion": "What are wellies?",
+     "suggestionFa": "wellies چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wellies",
+     "fa": "چکمهٔ لاستیکی"
+    },
+    {
+     "word": "hat",
+     "fa": "کلاه"
+    },
+    {
+     "word": "line up",
+     "fa": "صف بستن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Wellies\" (wellington boots) are rubber boots. British children wear them in mud and rain.",
+    "fa": "wellies چکمه‌های لاستیکی‌اند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "I can't do my zip! Help!",
+   "translations": {
+    "fa": "نمی‌تونم زیپم را ببندم! کمک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "let's",
+      "pull",
+      "up"
+     ],
+     "suggestion": "Let's do it together. Pull it up!",
+     "suggestionFa": "بیا با هم. بکشش بالا!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "then",
+      "help",
+      "i'll"
+     ],
+     "suggestion": "You try first, then I'll help.",
+     "suggestionFa": "اول خودت امتحان کن، بعد کمکت می‌کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "zip",
+     "fa": "زیپ"
+    },
+    {
+     "word": "pull up",
+     "fa": "بالا کشیدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Good — let them try first. It builds independence. Now hold hands with a partner and line up, please.",
+   "translations": {
+    "fa": "خوبه — بذار اول خودشون امتحان کنن. استقلال‌شون را بیشتر می‌کنه. حالا دست پارتنرتون را بگیرید و صف ببندید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "partner",
+      "hands",
+      "hold"
+     ],
+     "suggestion": "Hold hands with your partner!",
+     "suggestionFa": "دست پارتنرت را بگیر!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "behind",
+      "please",
+      "oscar",
+      "line"
+     ],
+     "suggestion": "Line up behind Oscar, please.",
+     "suggestionFa": "لطفاً پشت اسکار صف ببند.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "independence",
+     "fa": "استقلال"
+    },
+    {
+     "word": "partner",
+     "fa": "همراه ؛ هم‌گروه"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت سر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "oscar",
+   "text": "Can I go on the slide?",
+   "translations": {
+    "fa": "می‌تونم برم سرسره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turn",
+      "wait",
+      "but"
+     ],
+     "suggestion": "Yes, but wait for your turn.",
+     "suggestionFa": "آره، ولی صبر کن نوبتت بشه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "don't",
+      "walk",
+      "run"
+     ],
+     "suggestion": "Yes! Walk, don't run, please.",
+     "suggestionFa": "آره! راه برو، ندو، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slide",
+     "fa": "سرسره"
+    },
+    {
+     "word": "turn",
+     "fa": "نوبت"
+    },
+    {
+     "word": "walk",
+     "fa": "راه رفتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you wait your time",
+      "wait you turn"
+     ],
+     "echo": "Wait for your turn? Good!",
+     "better": "Wait for your turn, please.",
+     "betterFa": "لطفاً صبر کن نوبتت بشه."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Lovely. Before we go out, we count them: one adult for every eight pre-schoolers. How many have we got?",
+   "translations": {
+    "fa": "عالی. قبل از رفتن بیرون، می‌شمریمشون: برای هر هشت بچهٔ پیش‌دبستانی یه بزرگسال. چند تا داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "adults",
+      "twelve"
+     ],
+     "suggestion": "Twelve children and two adults.",
+     "suggestionFa": "دوازده بچه و دو بزرگسال.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "count",
+      "let",
+      "one"
+     ],
+     "suggestion": "Let me count: one, two, three…",
+     "suggestionFa": "بذار بشمرم: یک، دو، سه…",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "adult",
+     "fa": "بزرگسال"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Ratios\" are the legal number of adults per child. For ages 3–5 in England it's usually 1 adult to 8 children.",
+    "fa": "نسبت قانونی بزرگسال به کودک."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Great. We count again when we come back in. Off we go — and watch the puddles!",
+   "translations": {
+    "fa": "عالی. وقتی برگشتیم دوباره می‌شمریم. بریم — و حواست به چاله‌آب‌ها باشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

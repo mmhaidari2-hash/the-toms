@@ -34,8 +34,8 @@
      "keywords": [
       "chapters",
       "almost",
-      "left",
-      "i've"
+      "i've",
+      "left"
      ],
      "suggestion": "Almost. I've got two chapters left.",
      "suggestionFa": "تقریباً. دو فصل مونده.",
@@ -75,8 +75,8 @@
      "keywords": [
       "pensioners",
       "murders",
-      "solve",
-      "about"
+      "about",
+      "solve"
      ],
      "suggestion": "It's about four pensioners who solve murders.",
      "suggestionFa": "دربارهٔ چهار بازنشسته‌ست که قتل‌ها را حل می‌کنن.",
@@ -132,12 +132,12 @@
     {
      "keywords": [
       "reminded",
+      "maggie",
       "joyce",
-      "weda",
       "she"
      ],
-     "suggestion": "Joyce. She reminded me of Weda!",
-     "suggestionFa": "جویس. منو یاد ودا انداخت!",
+     "suggestion": "Joyce. She reminded me of Maggie!",
+     "suggestionFa": "جویس. منو یاد مگی انداخت!",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -146,8 +146,8 @@
      "keywords": [
       "elizabeth",
       "clever",
-      "scary",
-      "she's"
+      "she's",
+      "scary"
      ],
      "suggestion": "Elizabeth. She's clever and a bit scary.",
      "suggestionFa": "الیزابت. باهوشه و یه کم ترسناک.",
@@ -182,9 +182,9 @@
   "n4": {
    "id": "n4",
    "speaker": "bennett",
-   "text": "Ha! Weda would be a brilliant detective. What did you think of the ending? No spoilers for Margaret — she's on chapter ten!",
+   "text": "Ha! Maggie would be a brilliant detective. What did you think of the ending? No spoilers for Joan — she's on chapter ten!",
    "translations": {
-    "fa": "ها! ودا کارآگاه فوق‌العاده‌ای میشه. نظرتون دربارهٔ پایانش چی بود؟ برای مارگارت لو ندید — فصل ده‌ـه!"
+    "fa": "ها! مگی کارآگاه فوق‌العاده‌ای میشه. نظرتون دربارهٔ پایانش چی بود؟ برای مارگارت لو ندید — فصل ده‌ـه!"
    },
    "branches": [
     {
@@ -202,10 +202,10 @@
     },
     {
      "keywords": [
-      "halfway",
       "guessed",
       "through",
-      "who"
+      "halfway",
+      "did"
      ],
      "suggestion": "I guessed who did it halfway through.",
      "suggestionFa": "وسطاش حدس زدم کی کرده.",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "language",
-      "funny",
       "quite",
+      "funny",
       "easy"
      ],
      "suggestion": "Yes. The language is quite easy, and it's very funny.",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "understand",
-      "british",
       "there's",
+      "british",
       "humour"
      ],
      "suggestion": "Yes, but there's a lot of British humour to understand!",

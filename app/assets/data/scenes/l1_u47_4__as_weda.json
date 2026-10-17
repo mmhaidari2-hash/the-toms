@@ -1,8 +1,8 @@
 {
  "id": "l1_u47_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Tea with Nana",
- "titleFa": "(در نقش Nana Weda) چای با نانا",
+ "title": "(As Nana Maggie) Tea with Nana",
+ "titleFa": "(در نقش Nana Maggie) چای با نانا",
  "setting": "Nana's corner · Level 1",
  "settingFa": "گوشهٔ نانا",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -24,8 +24,8 @@
       "william's",
       "asleep",
       "would",
-      "time",
-      "like"
+      "dear",
+      "time"
      ],
      "suggestion": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
      "suggestionFa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "guest",
-      "down",
       "like",
-      "how",
+      "down",
+      "sit",
       "tea"
      ],
      "suggestion": "No, no, sit down. You're my guest. How do you like your tea?",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "victoria",
-      "morning",
       "workers",
+      "morning",
       "sponge",
       "strong"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "nonsense",
       "anybody",
-      "cream",
       "small",
-      "never"
+      "cream",
+      "piece"
      ],
      "suggestion": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
      "suggestionFa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "charmer",
       "there's",
+      "charmer",
       "plenty",
       "would",
-      "more"
+      "like"
      ],
      "suggestion": "Oh, you're a charmer! Would you like more tea? There's plenty in the pot.",
      "suggestionFa": "آه، چه زبون‌بازی! چای بیشتر میل داری؟ تو قوری زیاده.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "george",
-      "fifty",
       "years",
-      "nice",
-      "just"
+      "fifty",
+      "just",
+      "nice"
      ],
      "suggestion": "This is nice. Just you, me and a pot of tea. George and I did this for fifty years!",
      "suggestionFa": "چه خوبه. فقط تو، من و یه قوری چای. من و جورج پنجاه سال این کار را می‌کردیم!",
@@ -189,9 +189,9 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

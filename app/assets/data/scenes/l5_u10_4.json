@@ -22,7 +22,7 @@
       "manchester",
       "suitcase",
       "arrived",
-      "three"
+      "thank"
      ],
      "suggestion": "Thank you, Tom. Three years ago, I arrived in Manchester with one suitcase and no idea what a \"cuppa\" was.",
      "suggestionFa": "ممنون تام. سه سال پیش، با یه چمدون اومدم منچستر و هیچ نمی‌دونستم «کاپا» چیه.",
@@ -92,8 +92,8 @@
      "keywords": [
       "everything",
       "brilliant",
-      "taught",
-      "solves"
+      "solves",
+      "taught"
      ],
      "suggestion": "You taught me that \"not bad\" means brilliant, and that tea solves everything.",
      "suggestionFa": "یادم دادید «بد نبود» یعنی فوق‌العاده، و چای همه چیز را حل می‌کنه.",
@@ -132,12 +132,12 @@
     {
      "keywords": [
       "william",
-      "george",
-      "nicola",
-      "leslie"
+      "little",
+      "leslie",
+      "nicola"
      ],
-     "suggestion": "To Leslie and Tom, to George and Weda, to Ryan, Nicola and little William — the Toms.",
-     "suggestionFa": "به سلامتی لزلی و تام، جورج و ودا، رایان، نیکولا و ویلیام کوچولو — تامزها.",
+     "suggestion": "To Leslie and Tom, to George and Maggie, to Ryan, Nicola and little William — the Toms.",
+     "suggestionFa": "به سلامتی لزلی و تام، جورج و مگی، رایان، نیکولا و ویلیام کوچولو — تامزها.",
      "trustDelta": 6,
      "next": "n4",
      "success": true

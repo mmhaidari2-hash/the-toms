@@ -1,0 +1,325 @@
+{
+ "id": "nur_4_3",
+ "characterId": "vida",
+ "title": "The accident form",
+ "titleFa": "فرم حادثه",
+ "setting": "Talking with parents · Level 0",
+ "settingFa": "صحبت با والدین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Oscar fell off the climbing frame and bumped his knee. He's fine, but we need to fill in an accident form. Can you help?",
+   "translations": {
+    "fa": "اسکار از وسیلهٔ صعود افتاد و زانوش ضربه خورد. خوبه، ولی باید فرم حادثه پر کنیم. کمک می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "write",
+      "we"
+     ],
+     "suggestion": "Of course. What do we write?",
+     "suggestionFa": "حتماً. چی بنویسیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "did",
+      "cry",
+      "he",
+      "ok"
+     ],
+     "suggestion": "Is he OK? Did he cry?",
+     "suggestionFa": "خوبه؟ گریه کرد؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "climbing frame",
+     "fa": "وسیلهٔ صعود (بازی)"
+    },
+    {
+     "word": "bumped",
+     "fa": "ضربه خورد"
+    },
+    {
+     "word": "accident form",
+     "fa": "فرم حادثه ؛ گزارش آسیب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Every injury, even a small bump, is recorded on an accident form, and the parent signs it at pick-up.",
+    "fa": "هر آسیب کوچکی ثبت و به امضای والدین می‌رسد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "He cried a bit, then he was fine. First the facts: time, place and what happened. What time was it?",
+   "translations": {
+    "fa": "یه کم گریه کرد، بعد خوب شد. اول واقعیت‌ها: زمان، مکان و چی شد. ساعت چند بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quarter",
+      "garden",
+      "past"
+     ],
+     "suggestion": "It was quarter past ten, in the garden.",
+     "suggestionFa": "ساعت ده و ربع بود، تو حیاط.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifteen",
+      "think"
+     ],
+     "suggestion": "I think it was at ten fifteen.",
+     "suggestionFa": "فکر کنم ساعت ده و پونزده دقیقه بود.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "facts",
+     "fa": "واقعیت‌ها ؛ حقایق"
+    },
+    {
+     "word": "quarter past",
+     "fa": "و ربع"
+    },
+    {
+     "word": "garden",
+     "fa": "حیاط ؛ باغچه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Good. Now the injury and the first aid. Small red mark on his right knee. We put a cold pack on it for five minutes.",
+   "translations": {
+    "fa": "خوبه. حالا آسیب و کمک‌های اولیه. یه علامت قرمز کوچیک رو زانوی راستش. پنج دقیقه کیسهٔ سرد گذاشتیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "right",
+      "small",
+      "knee"
+     ],
+     "suggestion": "\"Small red mark, right knee. Cold pack for five minutes.\"",
+     "suggestionFa": "«علامت قرمز کوچک، زانوی راست. پنج دقیقه کیسهٔ سرد.»",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "write",
+      "saw",
+      "who"
+     ],
+     "suggestion": "Should we write who saw it?",
+     "suggestionFa": "بنویسیم کی دیدش؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "injury",
+     "fa": "آسیب"
+    },
+    {
+     "word": "first aid",
+     "fa": "کمک‌های اولیه"
+    },
+    {
+     "word": "cold pack",
+     "fa": "کیسهٔ سرد ؛ کمپرس سرد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he fall from frame",
+      "he falled off"
+     ],
+     "echo": "He fell off the frame? Write that.",
+     "better": "He fell off the climbing frame.",
+     "betterFa": "از وسیلهٔ صعود افتاد."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Yes, the witness — that's me. And your name as the person who gave first aid. Never guess; only write what we saw.",
+   "translations": {
+    "fa": "آره، شاهد — یعنی من. و اسم تو به عنوان کسی که کمک اولیه داد. هیچ‌وقت حدس نزن؛ فقط چیزی را بنویس که دیدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "guessing",
+      "facts",
+      "only",
+      "got"
+     ],
+     "suggestion": "Only facts, no guessing. Got it.",
+     "suggestionFa": "فقط واقعیت، بدون حدس. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "call",
+      "dad",
+      "now",
+      "his"
+     ],
+     "suggestion": "Do we call his dad now?",
+     "suggestionFa": "الان به باباش زنگ بزنیم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "witness",
+     "fa": "شاهد"
+    },
+    {
+     "word": "guess",
+     "fa": "حدس زدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dan",
+   "text": "Hi! Grace couldn't come after all. Oscar, what happened to your knee?",
+   "translations": {
+    "fa": "سلام! گریس آخرش نتونست بیاد. اسکار، زانوت چی شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "climbing",
+      "quarter",
+      "bumped",
+      "frame"
+     ],
+     "suggestion": "He bumped it on the climbing frame at quarter past ten.",
+     "suggestionFa": "ساعت ده و ربع به وسیلهٔ صعود خورد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "small",
+      "don't",
+      "worry"
+     ],
+     "suggestion": "Don't worry, it's just a small bump. Here's the form.",
+     "suggestionFa": "نگران نباشید، فقط یه ضربهٔ کوچیکه. اینم فرم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "after all",
+     "fa": "آخرش ؛ با این حال"
+    },
+    {
+     "word": "bump",
+     "fa": "ضربه ؛ کبودی کوچک"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dan",
+   "text": "Ah, he's always climbing! Thanks for looking after him. Where do I sign?",
+   "translations": {
+    "fa": "آه، همیشه داره بالا می‌ره! ممنون که مراقبش بودید. کجا امضا کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "date",
+      "just",
+      "here"
+     ],
+     "suggestion": "Just here, please, and the date.",
+     "suggestionFa": "همین‌جا، لطفاً، و تاریخ.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bottom",
+      "have",
+      "sign",
+      "copy"
+     ],
+     "suggestion": "Sign at the bottom, please. You can have a copy.",
+     "suggestionFa": "لطفاً پایینش امضا کنید. یه نسخه هم می‌تونید داشته باشید.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "copy",
+     "fa": "نسخه ؛ کپی"
+    },
+    {
+     "word": "date",
+     "fa": "تاریخ"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "vida",
+   "text": "Perfect. Calm, clear and factual. Head bumps are different — we always phone the parent straight away.",
+   "translations": {
+    "fa": "عالی. آروم، واضح و بر اساس واقعیت. ضربه به سر فرق می‌کنه — همیشه فوراً به والدین زنگ می‌زنیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

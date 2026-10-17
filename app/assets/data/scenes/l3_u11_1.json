@@ -21,8 +21,8 @@
      "keywords": [
       "ladder",
       "wrist",
-      "hurt",
-      "fell"
+      "fell",
+      "hurt"
      ],
      "suggestion": "I fell off a ladder and hurt my wrist.",
      "suggestionFa": "از نردبون افتادم و مچم آسیب دید.",
@@ -97,7 +97,7 @@
       "o'clock",
       "around",
       "think",
-      "stop"
+      "fall"
      ],
      "suggestion": "Around two o'clock. I think I put my hand out to stop the fall.",
      "suggestionFa": "حدود ساعت دو. فکر کنم دستم را دراز کردم که نیفتم.",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "still",
-      "keep",
-      "move",
-      "when"
+      "when",
+      "nine",
+      "five"
      ],
      "suggestion": "A five when I keep still, but a nine if I move it.",
      "suggestionFa": "وقتی تکونش نمی‌دم پنج، ولی اگه حرکتش بدم نه.",
@@ -296,8 +296,8 @@
     {
      "keywords": [
       "wait",
-      "will",
       "long",
+      "will",
       "how"
      ],
      "suggestion": "How long will I have to wait?",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "waiting",
-      "friend",
       "leslie",
+      "friend",
       "room"
      ],
      "suggestion": "My friend Leslie is in the waiting room.",
@@ -399,8 +399,8 @@
      "keywords": [
       "drink",
       "while",
-      "will",
-      "wait"
+      "wait",
+      "will"
      ],
      "suggestion": "I will. Can I eat or drink while I wait?",
      "suggestionFa": "حتماً. موقع انتظار می‌تونم بخورم یا بنوشم؟",

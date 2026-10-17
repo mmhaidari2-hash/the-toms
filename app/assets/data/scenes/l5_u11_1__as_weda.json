@@ -1,8 +1,8 @@
 {
  "id": "l5_u11_1__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Challenging the council",
- "titleFa": "(در نقش Nana Weda) اعتراض به شورا",
+ "title": "(As Nana Maggie) Challenging the council",
+ "titleFa": "(در نقش Nana Maggie) اعتراض به شورا",
  "setting": "Standing up for yourself · Level 5",
  "settingFa": "از حق خود دفاع کردن",
  "requires": null,
@@ -79,9 +79,9 @@
   "r3": {
    "id": "r3",
    "speaker": "council",
-   "text": "I see. Our records show two adults at the property — George and Weda Thompson.",
+   "text": "I see. Our records show two adults at the property — George and Margaret Thompson.",
    "translations": {
-    "fa": "متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و ودا تامپسون."
+    "fa": "متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و مارگارت تامپسون."
    },
    "branches": [
     {
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "confirmation",
-      "online",
       "filled",
+      "online",
       "email",
       "april"
      ],
@@ -318,9 +318,9 @@
   "r11": {
    "id": "r11",
    "speaker": "mehdi",
-   "text": "Weda is George's main carer. Is there support for carers?",
+   "text": "Maggie is George's main carer. Is there support for carers?",
    "translations": {
-    "fa": "ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟"
+    "fa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟"
    },
    "branches": [
     {
@@ -452,7 +452,7 @@
       "wonderful",
       "hundred",
       "british",
-      "nearly",
+      "pounds",
       "polite"
      ],
      "suggestion": "Two hundred and twelve pounds! Forty years I've paid every bill on time, and they nearly took me to court. You were wonderful, love — firm but polite. Very British.",
@@ -467,9 +467,9 @@
   "r16": {
    "id": "r16",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "phone's",
       "ringing",
+      "phone's",
       "please",
       "answer",
       "hands"
@@ -61,9 +61,9 @@
   "r3": {
    "id": "r3",
    "speaker": "weda",
-   "text": "Hello, love. It's Weda. Who's speaking?",
+   "text": "Hello, love. It's Maggie. Who's speaking?",
    "translations": {
-    "fa": "الو عزیزم. ودام. شما؟"
+    "fa": "الو عزیزم. مگی‌ام. شما؟"
    },
    "branches": [
     {
@@ -96,9 +96,9 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "Hi, Weda! It's Mehdi.",
+   "text": "Hi, Maggie! It's Mehdi.",
    "translations": {
-    "fa": "سلام ودا! {you} هستم."
+    "fa": "سلام مگی! {you} هستم."
    },
    "branches": [
     {
@@ -428,9 +428,9 @@
   "r16": {
    "id": "r16",
    "speaker": "mehdi",
-   "text": "Bye, Weda! Take care!",
+   "text": "Bye, Maggie! Take care!",
    "translations": {
-    "fa": "خداحافظ ودا! مراقب خودتون باشید!"
+    "fa": "خداحافظ مگی! مراقب خودتون باشید!"
    },
    "branches": [
     {
@@ -439,7 +439,7 @@
       "message",
       "taking",
       "thanks",
-      "heart"
+      "check"
      ],
      "suggestion": "Who was that? Mum? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
      "suggestionFa": "کی بود؟ مامان؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق.",

@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "love",
-      "i'd",
-      "one"
+      "one",
+      "i'd"
      ],
      "suggestion": "Yes, please. I'd love one.",
      "suggestionFa": "آره، لطفاً. خیلی دوست دارم.",
@@ -32,12 +32,12 @@
     },
     {
      "keywords": [
-      "weda",
+      "maggie",
       "make",
       "let"
      ],
-     "suggestion": "Let me make it, Weda.",
-     "suggestionFa": "بذارید من درست کنم ودا.",
+     "suggestion": "Let me make it, Maggie.",
+     "suggestionFa": "بذارید من درست کنم مگی.",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "drink",
-      "cubes",
       "sugar",
+      "cubes",
       "iran"
      ],
      "suggestion": "In Iran, we drink tea with sugar cubes.",
@@ -233,9 +233,9 @@
     },
     {
      "keywords": [
-      "best",
+      "cake",
       "ever",
-      "cake"
+      "best"
      ],
      "suggestion": "This is the best cake ever.",
      "suggestionFa": "این بهترین کیک دنیاست.",

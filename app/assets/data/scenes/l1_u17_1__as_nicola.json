@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "orange",
       "squash",
+      "please",
       "water"
      ],
      "suggestion": "Not water. Squash, please! Orange squash.",
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "cupboard",
-      "little",
-      "strong",
       "squash",
+      "strong",
+      "little",
       "water"
      ],
      "suggestion": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
@@ -97,8 +97,8 @@
      "keywords": [
       "perfect",
       "squash",
-      "want",
       "some",
+      "want",
       "mmm"
      ],
      "suggestion": "Mmm, perfect! Do you want some squash too?",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "bottle",
       "fridge",
+      "bottle",
       "drinks",
       "cross",
       "mummy"
@@ -147,9 +147,9 @@
      "keywords": [
       "which",
       "green",
-      "milk",
+      "blue",
       "want",
-      "blue"
+      "milk"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "green",
-      "daddy",
       "likes",
-      "full",
-      "blue"
+      "daddy",
+      "green",
+      "blue",
+      "half"
      ],
      "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
      "suggestionFa": "آبی پرچربه. سبز نصفه. قرمز بی‌چربی. بابا آبی دوست داره!",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "cheers",
+      "that's",
       "grown",
       "say",
       "ups"
@@ -222,9 +222,9 @@
      "keywords": [
       "biscuit",
       "spilled",
-      "mummy",
       "clink",
-      "don't"
+      "don't",
+      "mummy"
      ],
      "suggestion": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",
      "suggestionFa": "جرینگ! اوپس — یه کم ریختم. به مامان نگو! می‌شه باهاش یه بیسکویت بخورم؟",

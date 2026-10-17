@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "already",
+      "o'clock",
       "school",
       "nights",
       "lights"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "minutes",
-      "please",
       "middle",
+      "please",
       "don't",
-      "game"
+      "tell"
      ],
      "suggestion": "Ten more minutes. I'm in the middle of a game. Please don't tell Mum!",
      "suggestionFa": "ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "minutes",
-      "alarm",
+      "o'clock",
       "seven",
+      "alarm",
       "five"
      ],
      "suggestion": "OK, OK. Five minutes. Can you put my alarm on? Seven o'clock.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "curtains",
-      "please",
-      "before",
+      "shower",
       "school",
-      "shower"
+      "before",
+      "please"
      ],
      "suggestion": "I need to shower before school. Can you close the curtains, please?",
      "suggestionFa": "باید قبل از مدرسه دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "charger",
       "where's",
+      "charger",
       "thanks",
       "phone",
-      "game"
+      "lost"
      ],
      "suggestion": "Thanks. OK, game over. I lost! Where's my phone charger?",
      "suggestionFa": "ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "classic",
-      "phones",
       "pillow",
       "that's",
-      "under"
+      "phones",
+      "think"
      ],
      "suggestion": "Under my pillow! Classic. Mum says no phones in bed. Do you think that's fair?",
      "suggestionFa": "زیر بالشم! همیشه همینه. مامان می‌گه گوشی تو تخت ممنوع. فکر می‌کنی منصفانه‌ست؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "light",
       "phone",
-      "same",
-      "turn",
-      "mums"
+      "desk",
+      "mums",
+      "same"
      ],
      "suggestion": "Mums are all the same! OK, phone on the desk. Can you turn the big light off?",
      "suggestionFa": "مامان‌ها همه مثل همن! باشه، گوشی رو میز. چراغ بزرگه را خاموش می‌کنی؟",

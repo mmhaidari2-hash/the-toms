@@ -1,8 +1,8 @@
 {
  "id": "l3_u2_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Looking after Weda",
- "titleFa": "(در نقش Nana Weda) مراقبت از ودا",
+ "title": "(As Nana Maggie) Looking after Maggie",
+ "titleFa": "(در نقش Nana Maggie) مراقبت از مگی",
  "setting": "The NHS and you · Level 3",
  "settingFa": "شما و NHS",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "tuesday",
-      "making",
       "george",
-      "would",
+      "making",
+      "can't",
       "angel"
      ],
      "suggestion": "Since Tuesday. George has been an angel, but he can't cook. Would you mind making some soup?",
@@ -75,7 +75,7 @@
       "wonderful",
       "possibly",
       "surgery",
-      "would"
+      "can't"
      ],
      "suggestion": "Ooh, that would be wonderful. And could you possibly ring the surgery for me? I've got an appointment I can't make.",
      "suggestionFa": "اوه، عالی میشه. و ممکنه به مطب زنگ بزنی؟ یه وقت دارم که نمی‌تونم برم.",
@@ -99,7 +99,7 @@
       "rebooking",
       "trouble",
       "don't",
-      "want",
+      "week",
       "next"
      ],
      "suggestion": "Rebooking is fine — next week, if they can. I don't want to be any trouble.",
@@ -114,18 +114,18 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "You're no trouble at all, Weda.",
+   "text": "You're no trouble at all, Maggie.",
    "translations": {
-    "fa": "اصلاً زحمت نیستید، ودا."
+    "fa": "اصلاً زحمت نیستید، مگی."
    },
    "branches": [
     {
      "keywords": [
       "crossword",
       "treasure",
-      "passing",
       "glasses",
-      "finish"
+      "passing",
+      "before"
      ],
      "suggestion": "You're a treasure. Would you mind passing my glasses? I want to finish my crossword before I nod off.",
      "suggestionFa": "تو گنجی. اشکالی نداره عینکم را بدی؟ می‌خوام قبل از چرت زدن جدولم را تموم کنم.",
@@ -148,8 +148,8 @@
      "keywords": [
       "letters",
       "across",
-      "drink",
       "seven",
+      "drink",
       "three"
      ],
      "suggestion": "Go on then. Seven across: \"a hot drink, three letters\". Even I know that one — tea!",
@@ -164,9 +164,9 @@
   "r7": {
    "id": "r7",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

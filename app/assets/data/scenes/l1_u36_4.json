@@ -12,15 +12,15 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Shh, look. Weda is reading to the girls. She does it every Friday.",
+   "text": "Shh, look. Maggie is reading to the girls. She does it every Friday.",
    "translations": {
-    "fa": "هیس، ببین. ودا داره برای دخترها کتاب می‌خونه. هر جمعه این کار را می‌کنه."
+    "fa": "هیس، ببین. مگی داره برای دخترها کتاب می‌خونه. هر جمعه این کار را می‌کنه."
    },
    "branches": [
     {
      "keywords": [
-      "lovely",
-      "that's"
+      "that's",
+      "lovely"
      ],
      "suggestion": "That's lovely.",
      "suggestionFa": "چقدر قشنگه.",
@@ -60,8 +60,8 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "choose",
+      "always",
       "they"
      ],
      "suggestion": "Do they always choose it?",
@@ -111,12 +111,12 @@
    "branches": [
     {
      "keywords": [
+      "maggie",
       "reads",
-      "weda",
       "well"
      ],
-     "suggestion": "Weda reads very well!",
-     "suggestionFa": "ودا خیلی خوب می‌خونه!",
+     "suggestion": "Maggie reads very well!",
+     "suggestionFa": "مگی خیلی خوب می‌خونه!",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -213,16 +213,16 @@
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "Try children's books! They're easy English. Weda borrows them from the library.",
+   "text": "Try children's books! They're easy English. Maggie borrows them from the library.",
    "translations": {
-    "fa": "کتاب بچه‌ها را امتحان کن! انگلیسی آسونی دارن. ودا از کتابخونه قرض می‌گیرتشون."
+    "fa": "کتاب بچه‌ها را امتحان کن! انگلیسی آسونی دارن. مگی از کتابخونه قرض می‌گیرتشون."
    },
    "branches": [
     {
      "keywords": [
       "that's",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "That's a good idea.",
      "suggestionFa": "فکر خوبیه.",
@@ -260,9 +260,9 @@
   "n6": {
    "id": "n6",
    "speaker": "leslie",
-   "text": "Yes, it's free! You just need a library card. Weda never pays.",
+   "text": "Yes, it's free! You just need a library card. Maggie never pays.",
    "translations": {
-    "fa": "آره، مجانیه! فقط کارت کتابخونه لازمه. ودا هیچ‌وقت پول نمیده."
+    "fa": "آره، مجانیه! فقط کارت کتابخونه لازمه. مگی هیچ‌وقت پول نمیده."
    },
    "branches": [
     {
@@ -280,12 +280,12 @@
     },
     {
      "keywords": [
-      "weda",
+      "maggie",
       "show",
       "can"
      ],
-     "suggestion": "Can Weda show me?",
-     "suggestionFa": "ودا می‌تونه نشونم بده؟",
+     "suggestion": "Can Maggie show me?",
+     "suggestionFa": "مگی می‌تونه نشونم بده؟",
      "trustDelta": 5,
      "next": "n7",
      "success": true
@@ -330,11 +330,11 @@
     },
     {
      "keywords": [
-      "thank",
-      "weda"
+      "maggie",
+      "thank"
      ],
-     "suggestion": "Thank you, Weda.",
-     "suggestionFa": "ممنون ودا.",
+     "suggestion": "Thank you, Maggie.",
+     "suggestionFa": "ممنون مگی.",
      "trustDelta": 5,
      "next": "n8",
      "success": true
@@ -354,9 +354,9 @@
   "n8": {
    "id": "n8",
    "speaker": "leslie",
-   "text": "Ha! Now you sound like Nicola. \"Again!\" is her favourite word. Weda, one more time?",
+   "text": "Ha! Now you sound like Nicola. \"Again!\" is her favourite word. Maggie, one more time?",
    "translations": {
-    "fa": "ها! حالا مثل نیکولا حرف می‌زنی. «دوباره!» کلمهٔ محبوبشه. ودا، یه بار دیگه؟"
+    "fa": "ها! حالا مثل نیکولا حرف می‌زنی. «دوباره!» کلمهٔ محبوبشه. مگی، یه بار دیگه؟"
    },
    "branches": [],
    "newWords": []

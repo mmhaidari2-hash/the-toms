@@ -3,10 +3,10 @@
 # l5_u11_1 | weda | Challenging the council | اعتراض به شورا | Formal escalation: I'd like to request a review… / I'd appreciate it if… | پیگیری رسمی | library
 council: Good afternoon, Hackney Service Centre, Ms Ward speaking. I understand you're querying a council tax bill? | عصر بخیر، مرکز خدمات هاکنی، خانم وارد هستم. فهمیدم که دربارهٔ قبض مالیات شورا سؤال دارید؟
 > Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount. | بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.
-> That's right. I'm helping Weda — we believe the bill is incorrect. | درسته. دارم به ودا کمک می‌کنم — معتقدیم قبض اشتباهه.
+> That's right. I'm helping Maggie — we believe the bill is incorrect. | درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.
 W: querying=پرسیدن/اعتراض ; council tax=مالیات شورای محلی ; single person discount=تخفیف تک‌نفره ; incorrect=نادرست
 C: People who live alone get 25% off council tax. Other discounts exist for carers, students and people with disabilities. | تنها زندگی کردن ۲۵٪ تخفیف دارد.
-council: I see. Our records show two adults at the property — George and Weda Thompson. | متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و ودا تامپسون.
+council: I see. Our records show two adults at the property — George and Margaret Thompson. | متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و مارگارت تامپسون.
 > George moved in with Tom and Leslie in March, after his diagnosis. | جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی.
 > That was true until March, but circumstances have changed. | تا مارس درست بود، ولی شرایط عوض شده.
 W: records=سوابق ; property=ملک ; diagnosis=تشخیص ; circumstances=شرایط
@@ -24,7 +24,7 @@ council: I'll backdate the discount to April. That puts the account £212 in cre
 W: backdate=از تاریخ قبل اعمال کردن ; in credit=بستانکار ; reminder notice=اخطاریه ; put towards=صرف کردن برای
 X: you must to cancel ; you cancel the letter please => You'd like the reminder cancelled? Certainly. | I'd like the reminder notice cancelled, please. | می‌خوام اخطاریه لغو بشه، لطفاً.
 council: Certainly — I'll withdraw it, and there'll be no court costs. Is there anything else affecting her household? | حتماً — پسش می‌گیرم، و هزینهٔ دادگاهی هم نخواهد بود. چیز دیگه‌ای هست که روی خانوارش اثر بذاره؟
-> Weda is George's main carer. Is there support for carers? | ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟
+> Maggie is George's main carer. Is there support for carers? | مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟
 > Not that I know of. Thank you for sorting this. | تا جایی که می‌دونم نه. ممنون که درستش کردید.
 W: withdraw=پس گرفتن ; court costs=هزینهٔ دادگاه ; household=خانوار ; carer=مراقب
 council: There is. She could apply for a carer's assessment, and possibly Carer's Allowance. I'll send the links. | هست. می‌تونه برای ارزیابی مراقب درخواست بده، و احتمالاً کمک‌هزینهٔ مراقب. لینک‌ها را می‌فرستم.
@@ -153,6 +153,6 @@ W: unusual activity=فعالیت غیرعادی ; extra security=امنیت اض
 C: Action Fraud is the UK's national reporting centre for fraud and cybercrime. You can also forward scam texts to 7726. | پیامک‌های کلاهبرداری را به ۷۷۲۶ بفرستید.
 sian: It's the national fraud reporting centre. And yes, change it as a precaution. Honestly, you'd be amazed how many people fall for this. | مرکز ملی گزارش کلاهبرداریه. و آره، محض احتیاط عوضش کنه. راستش، تعجب می‌کنید چند نفر گول این را می‌خورن.
 > We'll report it tonight. Thank you, Siân. | امشب گزارشش می‌دیم. ممنون سیان.
-> I'll warn George and Weda too — older people are often targeted. | به جورج و ودا هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.
+> I'll warn George and Maggie too — older people are often targeted. | به جورج و مگی هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.
 W: precaution=احتیاط ; fall for=گول خوردن ; warn=هشدار دادن ; targeted=هدف قرار گرفته
 tom: Thank God you were here. Twenty grand, gone, just like that. Right — I'm ringing Dad. He answers every call like it's the Queen. | خدا را شکر اینجا بودی. بیست هزار پوند، رفته، همین‌طوری. خب — به بابا زنگ می‌زنم. به هر تماسی جواب می‌ده انگار ملکه‌ست.

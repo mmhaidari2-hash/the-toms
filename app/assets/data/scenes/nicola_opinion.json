@@ -25,7 +25,7 @@
       "sleep",
       "point",
       "need",
-      "see"
+      "but"
      ],
      "suggestion": "I see your point, but you need your sleep for school.",
      "suggestionFa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری.",
@@ -36,9 +36,9 @@
     {
      "keywords": [
       "really",
-      "tired",
+      "agree",
       "don't",
-      "you'd"
+      "tired"
      ],
      "suggestion": "I don't agree — you'd be really tired at school.",
      "suggestionFa": "موافق نیستم — تو مدرسه خیلی خسته می‌شی.",
@@ -89,7 +89,7 @@
       "afraid",
       "always",
       "isn't",
-      "life"
+      "fair"
      ],
      "suggestion": "Life isn't always fair, I'm afraid.",
      "suggestionFa": "زندگی همیشه عادلانه نیست، متأسفانه.",
@@ -123,7 +123,7 @@
       "reason",
       "that's",
       "good",
-      "one"
+      "but"
      ],
      "suggestion": "That's a reason, but is it a good one?",
      "suggestionFa": "این یه دلیله، ولی دلیل خوبیه؟",
@@ -227,7 +227,7 @@
       "especially",
       "children",
       "summer",
-      "late"
+      "stay"
      ],
      "suggestion": "Lots of children stay up late, especially in summer.",
      "suggestionFa": "خیلی از بچه‌ها دیر می‌خوابن، مخصوصاً تابستون.",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "because",
-      "starts",
       "school",
+      "starts",
       "early"
      ],
      "suggestion": "They go to bed early because school starts very early.",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "arguing",
-      "lawyer",
       "you'll",
+      "lawyer",
       "maybe"
      ],
      "suggestion": "You're good at arguing! Maybe you'll be a lawyer.",
@@ -328,8 +328,8 @@
      "keywords": [
       "compromise",
       "fridays",
-      "eight",
-      "about"
+      "about",
+      "eight"
      ],
      "suggestion": "How about a compromise — half eight on Fridays?",
      "suggestionFa": "یه راه میانه چطوره — جمعه‌ها هشت و نیم؟",
@@ -342,7 +342,7 @@
       "together",
       "let's",
       "mum",
-      "ask"
+      "dad"
      ],
      "suggestion": "Let's ask your mum and dad together.",
      "suggestionFa": "بیا با هم از مامان و بابات بپرسیم.",
@@ -378,8 +378,8 @@
      "keywords": [
       "saturdays",
       "promise",
-      "only",
-      "keep"
+      "keep",
+      "only"
      ],
      "suggestion": "Fridays and Saturdays — but only if you keep your promise.",
      "suggestionFa": "جمعه‌ها و شنبه‌ها — ولی فقط اگه سر قولت بمونی.",

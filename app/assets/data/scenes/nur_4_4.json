@@ -1,0 +1,285 @@
+{
+ "id": "nur_4_4",
+ "characterId": "leslie",
+ "title": "Medicine and poorly children",
+ "titleFa": "دارو و بچهٔ مریض",
+ "setting": "Talking with parents · Level 0",
+ "settingFa": "صحبت با والدین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Morning! William's got a bit of a cough. Can you give him some Calpol at lunchtime?",
+   "translations": {
+    "fa": "صبح بخیر! ویلیام یه کم سرفه داره. می‌تونید ظهر بهش کالپول بدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medicine",
+      "morning",
+      "first",
+      "fill"
+     ],
+     "suggestion": "Morning! You have to fill in a medicine form first.",
+     "suggestionFa": "صبح بخیر! اول باید فرم دارو را پر کنید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "temperature",
+      "he"
+     ],
+     "suggestion": "Does he have a temperature?",
+     "suggestionFa": "تب داره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cough",
+     "fa": "سرفه"
+    },
+    {
+     "word": "Calpol",
+     "fa": "کالپول (شربت تب‌بر بچه)"
+    },
+    {
+     "word": "medicine form",
+     "fa": "فرم دارو"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Calpol\" is a well-known UK brand of children's paracetamol. Nurseries need written permission to give any medicine.",
+    "fa": "کالپول شربت پاراستامول بچه است؛ اجازهٔ کتبی لازم است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "No temperature this morning. Oh, a form — of course. What do you need to know?",
+   "translations": {
+    "fa": "امروز صبح تب نداشت. آهان، فرم — البته. چی باید بدونید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medicine",
+      "time",
+      "dose"
+     ],
+     "suggestion": "The medicine, the dose and the time.",
+     "suggestionFa": "اسم دارو، مقدار و ساعت.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "have",
+      "some",
+      "last"
+     ],
+     "suggestion": "When did he last have some?",
+     "suggestionFa": "آخرین بار کی خورده؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "temperature",
+     "fa": "تب"
+    },
+    {
+     "word": "dose",
+     "fa": "مقدار دارو ؛ دوز"
+    },
+    {
+     "word": "last",
+     "fa": "آخرین بار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what is dose",
+      "how many dose"
+     ],
+     "echo": "What's the dose?",
+     "better": "What dose does he need?",
+     "betterFa": "چه مقدار لازم داره؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "5 ml at twelve. He had some at seven this morning. Here's the bottle — it's got his name on.",
+   "translations": {
+    "fa": "پنج میلی‌لیتر ساعت دوازده. ساعت هفت صبح یه کم خورد. اینم شیشه — اسمش روشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "thanks",
+      "sign",
+      "here"
+     ],
+     "suggestion": "Thanks. Please sign here.",
+     "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "we'll",
+      "write",
+      "give",
+      "time"
+     ],
+     "suggestion": "OK. We'll write the time we give it.",
+     "suggestionFa": "باشه. ساعتی که میدیم را می‌نویسیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bottle",
+     "fa": "شیشه ؛ بطری"
+    },
+    {
+     "word": "ml",
+     "fa": "میلی‌لیتر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Good. And remember the sickness rule: if a child is sick or has diarrhoea, they stay home for 48 hours.",
+   "translations": {
+    "fa": "خوبه. و قانون بیماری یادت باشه: اگه بچه استفراغ یا اسهال داشته باشه، ۴۸ ساعت خونه می‌مونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "after",
+      "hours",
+      "time",
+      "last"
+     ],
+     "suggestion": "48 hours after the last time?",
+     "suggestionFa": "۴۸ ساعت بعد از آخرین بار؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "seem",
+      "they",
+      "even"
+     ],
+     "suggestion": "Even if they seem better?",
+     "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sick",
+     "fa": "استفراغ (بریتانیایی) ؛ مریض"
+    },
+    {
+     "word": "diarrhoea",
+     "fa": "اسهال"
+    },
+    {
+     "word": "stay home",
+     "fa": "خانه ماندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British English, \"to be sick\" often means to vomit. The 48-hour rule helps stop bugs spreading.",
+    "fa": "be sick یعنی استفراغ کردن."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Yes, even if they seem fine — tummy bugs spread so fast. If William gets a high temperature today, we'll call you, Leslie.",
+   "translations": {
+    "fa": "آره، حتی اگه خوب به نظر برسن — ویروس معده خیلی سریع پخش میشه. اگه امروز ویلیام تب بالا کرد، بهت زنگ می‌زنیم لزلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "we'll",
+      "worse",
+      "gets",
+      "call"
+     ],
+     "suggestion": "We'll call you if he gets worse.",
+     "suggestionFa": "اگه بدتر شد بهتون زنگ می‌زنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "phone",
+      "still",
+      "same"
+     ],
+     "suggestion": "Is your phone number still the same?",
+     "suggestionFa": "شماره‌تون هنوز همونه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tummy bug",
+     "fa": "ویروس معده"
+    },
+    {
+     "word": "worse",
+     "fa": "بدتر"
+    },
+    {
+     "word": "high temperature",
+     "fa": "تب بالا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Same number. Thank you both. Bye, William — be good for Auntie Vida!",
+   "translations": {
+    "fa": "همون شماره. ممنون از هر دوتون. خداحافظ ویلیام — برای خاله ویدا پسر خوبی باش!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,8 +1,8 @@
 {
  "id": "l1_u2_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Cooking with Nana",
- "titleFa": "(در نقش Nana Weda) آشپزی با مادربزرگ",
+ "title": "(As Nana Maggie) Cooking with Nana",
+ "titleFa": "(در نقش Nana Maggie) آشپزی با مادربزرگ",
  "setting": "Breakfast time · Level 1",
  "settingFa": "وقت صبحانه",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "cupboard",
       "scones",
-      "flour",
       "let's",
+      "flour",
       "dear"
      ],
      "suggestion": "Let's make scones, dear. Can you get the flour? It's in the cupboard.",
@@ -49,8 +49,8 @@
       "fridge",
       "butter",
       "sugar",
-      "milk",
-      "need"
+      "need",
+      "milk"
      ],
      "suggestion": "The one by the fridge. Now we need butter, sugar and milk.",
      "suggestionFa": "همونی که کنار یخچاله. حالا کره، شکر و شیر لازم داریم.",
@@ -75,7 +75,7 @@
       "lovely",
       "spoon",
       "bowl",
-      "big"
+      "now"
      ],
      "suggestion": "Lovely. Now, a bowl and a big spoon, please.",
      "suggestionFa": "عالی. حالا یه کاسه و یه قاشق بزرگ، لطفاً.",
@@ -145,9 +145,9 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
-      "careful",
       "minutes",
+      "careful",
+      "fifteen",
       "eight",
       "think"
      ],
@@ -172,9 +172,9 @@
      "keywords": [
       "they're",
       "golden",
-      "smell",
       "ready",
-      "them"
+      "smell",
+      "warm"
      ],
      "suggestion": "Mmm, can you smell them? They're ready! Golden and warm.",
      "suggestionFa": "ممم، بوشون را حس می‌کنی؟ آماده‌اند! طلایی و گرم.",
@@ -213,9 +213,9 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "Delicious! Thank you, Weda.",
+   "text": "Delicious! Thank you, Maggie.",
    "translations": {
-    "fa": "خوشمزه‌ست! ممنون ویدا."
+    "fa": "خوشمزه‌ست! ممنون مگی."
    },
    "branches": [
     {
@@ -223,8 +223,8 @@
       "natural",
       "nicola",
       "teach",
-      "time",
-      "next"
+      "dear",
+      "time"
      ],
      "suggestion": "You're a natural, dear. Next time, you can teach Nicola!",
      "suggestionFa": "تو ذاتاً بلدی عزیزم. دفعهٔ بعد می‌تونی به نیکولا یاد بدی!",
@@ -238,9 +238,9 @@
   "r10": {
    "id": "r10",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

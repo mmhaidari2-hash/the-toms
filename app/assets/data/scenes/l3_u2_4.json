@@ -1,8 +1,8 @@
 {
  "id": "l3_u2_4",
  "characterId": "weda",
- "title": "Looking after Weda",
- "titleFa": "مراقبت از ودا",
+ "title": "Looking after Maggie",
+ "titleFa": "مراقبت از مگی",
  "setting": "The NHS and you · Level 3",
  "settingFa": "شما و NHS",
  "requires": null,
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "would",
       "happy",
+      "would",
       "like",
       "kind"
      ],
@@ -89,7 +89,7 @@
       "chicken",
       "shall",
       "mum's",
-      "soup"
+      "make"
      ],
      "suggestion": "Shall I make my mum's chicken soup?",
      "suggestionFa": "سوپ مرغ مامانم را درست کنم؟",
@@ -138,8 +138,8 @@
      "keywords": [
       "visit",
       "would",
-      "like",
-      "home"
+      "home",
+      "like"
      ],
      "suggestion": "Would you like me to ask for a home visit?",
      "suggestionFa": "می‌خواید درخواست ویزیت خونگی کنم؟",
@@ -178,20 +178,20 @@
     {
      "keywords": [
       "trouble",
-      "weda",
+      "maggie",
       "all"
      ],
-     "suggestion": "You're no trouble at all, Weda.",
-     "suggestionFa": "اصلاً زحمت نیستید، ودا.",
+     "suggestion": "You're no trouble at all, Maggie.",
+     "suggestionFa": "اصلاً زحمت نیستید، مگی.",
      "trustDelta": 6,
      "next": "n5",
      "success": true
     },
     {
      "keywords": [
-      "looked",
       "you've",
-      "worry",
+      "looked",
+      "after",
       "don't"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
@@ -222,9 +222,9 @@
    "branches": [
     {
      "keywords": [
+      "help",
       "want",
-      "here",
-      "help"
+      "here"
      ],
      "suggestion": "Here you are. Do you want help with it?",
      "suggestionFa": "بفرمایید. کمک می‌خواید؟",

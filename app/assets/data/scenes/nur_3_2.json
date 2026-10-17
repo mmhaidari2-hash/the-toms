@@ -1,0 +1,326 @@
+{
+ "id": "nur_3_2",
+ "characterId": "vida",
+ "title": "Gentle hands",
+ "titleFa": "دست‌های مهربان",
+ "setting": "Play, songs and feelings · Level 0",
+ "settingFa": "بازی، آهنگ و احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "oscar",
+   "text": "Mine! Give it back!",
+   "translations": {
+    "fa": "مال منه! پسش بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happening",
+      "what's",
+      "boys"
+     ],
+     "suggestion": "What's happening, boys?",
+     "suggestionFa": "پسرا، چی شده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "oscar",
+      "words",
+      "use"
+     ],
+     "suggestion": "Oscar, use your words, please.",
+     "suggestionFa": "اسکار، لطفاً با کلمه بگو.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mine",
+     "fa": "مال من"
+    },
+    {
+     "word": "give back",
+     "fa": "پس دادن"
+    },
+    {
+     "word": "use your words",
+     "fa": "با کلمه بگو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "He pushed me! I had the train first!",
+   "translations": {
+    "fa": "هلم داد! من اول قطار را داشتم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "ok"
+     ],
+     "suggestion": "Are you OK, William?",
+     "suggestionFa": "خوبی ویلیام؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gentle",
+      "hands",
+      "oscar",
+      "use"
+     ],
+     "suggestion": "Oscar, we use gentle hands.",
+     "suggestionFa": "اسکار، ما دست‌های مهربون داریم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pushed",
+     "fa": "هل داد"
+    },
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "gentle hands",
+     "fa": "دست‌های آرام و مهربان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Nurseries use positive phrases: \"gentle hands\", \"walking feet\", \"kind words\" — saying what to do, not just \"no\".",
+    "fa": "عبارت‌های مثبت: بگو چه کار کند، نه فقط «نه»."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Good start. Get down to their level, stay calm, and help them find a solution. We don't shout and we don't blame.",
+   "translations": {
+    "fa": "شروع خوبی بود. هم‌قد بچه‌ها بشو، آروم بمون و کمکشون کن راه‌حل پیدا کنن. داد نمی‌زنیم و مقصر نمی‌دونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "oscar",
+      "feel",
+      "now"
+     ],
+     "suggestion": "Oscar, how does William feel now?",
+     "suggestionFa": "اسکار، ویلیام الان چه حسی داره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "train",
+      "both",
+      "play",
+      "can"
+     ],
+     "suggestion": "Can you both play with the train?",
+     "suggestionFa": "می‌تونید هر دو با قطار بازی کنید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "level",
+     "fa": "هم‌سطح ؛ هم‌قد"
+    },
+    {
+     "word": "solution",
+     "fa": "راه‌حل"
+    },
+    {
+     "word": "blame",
+     "fa": "مقصر دانستن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "oscar",
+   "text": "Sad. Sorry, William.",
+   "translations": {
+    "fa": "غمگین. ببخشید ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saying",
+      "sorry",
+      "thank",
+      "oscar"
+     ],
+     "suggestion": "Thank you for saying sorry, Oscar.",
+     "suggestionFa": "ممنون که عذرخواهی کردی اسکار.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "train",
+      "give",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done. Can you give him the train?",
+     "suggestionFa": "آفرین. می‌تونی قطار را بهش بدی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sorry",
+     "fa": "ببخشید ؛ عذرخواهی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "thank you for say sorry",
+      "thanks to say sorry"
+     ],
+     "echo": "Thank you for saying sorry? Lovely!",
+     "better": "Thank you for saying sorry.",
+     "betterFa": "ممنون که عذرخواهی کردی."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Let's use the sand timer. William has the train for five minutes, then it's Oscar's turn. That's fair, isn't it?",
+   "translations": {
+    "fa": "بیاید از ساعت شنی استفاده کنیم. ویلیام پنج دقیقه قطار را داره، بعد نوبت اسکاره. منصفانه‌ست، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "taking",
+      "turns",
+      "idea",
+      "fair"
+     ],
+     "suggestion": "Good idea. Taking turns is fair.",
+     "suggestionFa": "فکر خوبیه. نوبتی بازی کردن منصفانه‌ست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oscar",
+      "while",
+      "wait",
+      "want"
+     ],
+     "suggestion": "Oscar, do you want the bus while you wait?",
+     "suggestionFa": "اسکار، تا صبر می‌کنی اتوبوس را می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sand timer",
+     "fa": "ساعت شنی"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    },
+    {
+     "word": "taking turns",
+     "fa": "نوبت گرفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sand timers help young children see time passing, so waiting for a turn feels possible.",
+    "fa": "ساعت شنی به بچه‌ها کمک می‌کند گذر زمان را ببینند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "The bus is good! I like the bus!",
+   "translations": {
+    "fa": "اتوبوس خوبه! اتوبوس دوست دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sharing",
+      "lovely",
+      "both"
+     ],
+     "suggestion": "Lovely sharing, both of you!",
+     "suggestionFa": "چه قشنگ شریک شدید، هر دوتون!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "playing",
+      "great",
+      "boys"
+     ],
+     "suggestion": "Great playing together, boys!",
+     "suggestionFa": "بازی با همِ عالی، پسرا!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sharing",
+     "fa": "شریک شدن"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "vida",
+   "text": "Brilliant. Now we write a short note for Oscar's dad about what happened. We never name the other child.",
+   "translations": {
+    "fa": "عالی. حالا یه یادداشت کوتاه برای بابای اسکار می‌نویسیم که چی شد. هیچ‌وقت اسم بچهٔ دیگه را نمیاریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

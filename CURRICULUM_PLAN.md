@@ -49,7 +49,7 @@ Focus: idioms, irony & understatement, regional accents, connected speech, regis
 
 # The 1000-lesson map (target)
 
-Every lesson keeps the same bar: one full story of 16–24 turns, two reply choices per turn, implicit recasts for typical learner errors, Persian for every line and reply, culture notes and British-vs-American notes, new words feeding the practice sets and the spaced review, every line voiced. Paintings: existing places only (no new art yet); the lead character must be in the painting. Characters stay canon (William the baby, Grandad George 76 with heart failure, Weda the Nana, Ryan's timeline as is).
+Every lesson keeps the same bar: one full story of 16–24 turns, two reply choices per turn, implicit recasts for typical learner errors, Persian for every line and reply, culture notes and British-vs-American notes, new words feeding the practice sets and the spaced review, every line voiced. Paintings: existing places only (no new art yet); the lead character must be in the painting. Characters stay canon (William the baby, Grandad George 76 with heart failure, Maggie the Nana, Ryan's timeline as is).
 
 | Level | CEFR | Units | Lessons | Status |
 |---|---|---|---|---|
@@ -193,7 +193,7 @@ Distribution is weighted to A1–B1 (700 of 1000 lessons), where learners need t
 | Unit | Title | Painting | Lessons | Status |
 |---|---|---|---|---|
 | U21 | Work and careers | interview | The second interview · Part-time jobs · Opening a business account · Big news at tea | ✅ live |
-| U22 | The NHS and you | gp | Describing symptoms · Prescription questions · A dental emergency · Looking after Weda | ✅ live |
+| U22 | The NHS and you | gp | Describing symptoms · Prescription questions · A dental emergency · Looking after Maggie | ✅ live |
 | U23 | Getting around | train | Cancelled train · Learning to drive · Sending a parcel abroad · Bus route changes | ✅ live |
 | U24 | Money and paperwork | bank | A suspicious payment · The household budget · Self-checkout trouble · Official letters | ✅ live |
 | U25 | School life | parentsevening | Parents' evening · A school trip form · Choosing GCSE options · A playdate problem | ✅ live |
@@ -259,14 +259,14 @@ Distribution is weighted to A1–B1 (700 of 1000 lessons), where learners need t
 |---|---|---|---|---|
 | U31 | A new job | conference | First day in the office · Shadowing at the conference · Probation review · Work–life balance | ✅ live |
 | U32 | Workplace communication | conference | Chairing a meeting · The tricky email · Disagreeing with the boss · Office gossip | ✅ live |
-| U33 | Giving back | library | Volunteering at the library · Organising a street party · Persuading a neighbour · Weda's charity shop | ✅ live |
+| U33 | Giving back | library | Volunteering at the library · Organising a street party · Persuading a neighbour · Maggie's charity shop | ✅ live |
 | U34 | Home and neighbours | hallway | A noisy neighbour · Reading the tenancy agreement · Moving out plans · Getting a mortgage | ✅ live |
 | U35 | Wellbeing | gp | Talking about stress · A personal training session · Advice at the pharmacy · Talking to Grandad George | ✅ live |
 | U36 | Money matters | bank | Workplace pensions · A cost-of-living conversation · Should I invest? · Sending money home | ✅ live |
 | U37 | Education | parentsevening | Concerns about Ryan · The talk · University applications · A child who's struggling | ✅ live |
 | U38 | News and opinions | pub | Pub debate · Local news · Election day · Fake news workshop | ✅ live |
 | U39 | Customer service | supermarket | Returning a faulty item · A disappointing meal · Train compensation · A scam call | ✅ live |
-| U40 | Paying it forward | firstday | Meeting a newcomer · Explaining British school life · Weda's wisdom · A speech at the community awards | ✅ live |
+| U40 | Paying it forward | firstday | Meeting a newcomer · Explaining British school life · Maggie's wisdom · A speech at the community awards | ✅ live |
 | U55 | Bills and paperwork | kitchen | The shocking energy bill · Renting a flat · MOT at Mick's Motors · Meeting the work coach | ✅ live |
 | U198 | Career moves | interview | Asking for a pay rise · Applying internally · A job offer negotiation · Handing in your notice | planned |
 | U199 | Workplace issues | conference | A colleague takes credit · Flexible working request · Grievance meeting · Return to work interview | planned |
@@ -311,7 +311,7 @@ Distribution is weighted to A1–B1 (700 of 1000 lessons), where learners need t
 | U42 | Banter | pub | Banter at the barber's · Self-deprecation at the gym · Winding Ryan up · When banter goes too far | ✅ live |
 | U43 | Regional voices | bakery | Northern expressions · Doris's stories · Accents across Britain · Arthur's London past | ✅ live |
 | U44 | Idioms at work | conference | Jargon and idioms · A promotion conversation · A business pitch · Explaining idioms to Ryan | ✅ live |
-| U45 | Difficult conversations | gp | Breaking difficult news · Telling the family · A difficult meeting · Weda's fears | ✅ live |
+| U45 | Difficult conversations | gp | Breaking difficult news · Telling the family · A difficult meeting · Maggie's fears | ✅ live |
 | U46 | Formal English | library | Register switching · A formal complaint meeting · Chairing a formal panel · Writing a reference | ✅ live |
 | U47 | Being British | supermarket | The art of queuing · Sporting culture · Class and accent · British food debates | ✅ live |
 | U48 | Telling a good story | eveningtea | The anecdote · Nicola's story · Grandad George's story · A Christmas disaster | ✅ live |
@@ -336,7 +336,7 @@ Distribution is weighted to A1–B1 (700 of 1000 lessons), where learners need t
 | U247 | British history talk | library | The war memories · The NHS at 75 · Empire and Windrush · Changing London | planned |
 | U248 | Wordplay | pub | Cryptic crossword · Pub quiz puns · Rhyming slang · Spoonerisms | planned |
 | U249 | Storytelling (C1) | eveningtea | The ghost story · The holiday disaster · How we met · The one that got away | planned |
-| U250 | Looking ahead | living | Life plans · Ryan's future · Weda and George's wishes · The Toms in ten years | planned |
+| U250 | Looking ahead | living | Life plans · Ryan's future · Maggie and George's wishes · The Toms in ten years | planned |
 
 ## Delivery
 Batches of ~50–100 lessons, each: `gen.py` (validates turns, line length per CEFR, leads in paintings) → audio dump → `render_voices.py` (40 s timeout, 24 kbps speech MP3) → all tests (incl. every story opens on a painting and every line has audio) → deploy → full live crawl of every lesson. Progress reported every ~200 lessons.

@@ -89,9 +89,9 @@
     {
      "keywords": [
       "much",
+      "how",
       "tea",
-      "cup",
-      "how"
+      "cup"
      ],
      "suggestion": "And how much is a cup of tea?",
      "suggestionFa": "و یه فنجون چای چنده؟",
@@ -137,8 +137,8 @@
     },
     {
      "keywords": [
-      "double",
       "coffee",
+      "double",
       "price"
      ],
      "suggestion": "Coffee is double the price!",
@@ -310,8 +310,8 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twenty",
+      "pounds",
       "here's",
       "three"
      ],

@@ -25,7 +25,7 @@
       "morning",
       "would",
       "like",
-      "tea"
+      "cup"
      ],
      "suggestion": "Morning! Kettle's on. Would you like a cup of tea?",
      "suggestionFa": "صبح بخیر! کتری روشنه. یه فنجون چای میل داری؟",
@@ -49,8 +49,8 @@
       "people",
       "their",
       "we've",
-      "here",
-      "milk"
+      "both",
+      "most"
      ],
      "suggestion": "We've got both. Milk? Most people here have milk in their tea.",
      "suggestionFa": "هر دو داریم. شیر؟ بیشتر مردم اینجا چای را با شیر می‌خورن.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "sugar",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "And sugar? One or two?",
      "suggestionFa": "و شکر؟ یکی یا دوتا؟",
@@ -94,8 +94,8 @@
    "branches": [
     {
      "keywords": [
-      "careful",
       "biscuit",
+      "careful",
       "would",
       "here",
       "like"
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "cheers",
-      "guest",
       "makes",
+      "guest",
       "news",
       "week"
      ],

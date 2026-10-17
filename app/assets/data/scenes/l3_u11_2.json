@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "calling",
       "absence",
+      "calling",
       "report",
       "won't"
      ],
@@ -117,8 +117,8 @@
      "keywords": [
       "temperature",
       "night",
-      "sick",
-      "been"
+      "been",
+      "sick"
      ],
      "suggestion": "She's been sick in the night and has a temperature.",
      "suggestionFa": "شب استفراغ کرده و تب داره.",
@@ -171,7 +171,7 @@
      "keywords": [
       "thursday",
       "she'll",
-      "hours",
+      "forty",
       "eight"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "family",
+      "friend",
       "added",
       "last"
      ],
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "asked",
-      "call",
-      "sure"
+      "sure",
+      "call"
      ],
      "suggestion": "I'm not sure. Leslie asked me to call.",
      "suggestionFa": "مطمئن نیستم. لزلی ازم خواست زنگ بزنم.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "still",
-      "will",
       "able",
+      "will",
       "she"
      ],
      "suggestion": "Will she still be able to go?",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "great",
-      "would",
-      "thank"
+      "thank",
+      "would"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

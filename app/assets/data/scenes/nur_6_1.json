@@ -1,0 +1,290 @@
+{
+ "id": "nur_6_1",
+ "characterId": "vida",
+ "title": "A safeguarding concern",
+ "titleFa": "نگرانی حفاظتی",
+ "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "You look worried. Is everything alright? You can always talk to me if something's bothering you about a child.",
+   "translations": {
+    "fa": "نگران به نظر میای. همه چی روبه‌راهه؟ اگه دربارهٔ بچه‌ای چیزی اذیتت می‌کنه، همیشه می‌تونی با من حرف بزنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "changing",
+      "child's",
+      "noticed",
+      "bruise"
+     ],
+     "suggestion": "I noticed a bruise on a child's arm when I was changing him.",
+     "suggestionFa": "وقتی لباسش را عوض می‌کردم یه کبودی رو بازوی یه بچه دیدم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something's",
+      "bothering",
+      "anything",
+      "sure"
+     ],
+     "suggestion": "I'm not sure if it's anything, but something's bothering me.",
+     "suggestionFa": "مطمئن نیستم چیزی باشه، ولی یه چیزی اذیتم می‌کنه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bothering",
+     "fa": "آزار دادن ؛ ذهن را درگیر کردن"
+    },
+    {
+     "word": "noticed",
+     "fa": "متوجه شدم"
+    },
+    {
+     "word": "bruise",
+     "fa": "کبودی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Safeguarding\" means protecting children from harm. Every member of staff has a duty to report concerns — it's never \"someone else's job\".",
+    "fa": "حفاظت از کودک وظیفهٔ همه است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "You did the right thing by telling me. Tell me exactly what you saw and what, if anything, the child said. Don't add what you think happened.",
+   "translations": {
+    "fa": "کار درستی کردی که بهم گفتی. دقیقاً بگو چی دیدی و اگه بچه چیزی گفت، چی گفت. چیزی که فکر می‌کنی اتفاق افتاده را اضافه نکن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bruise",
+      "upper",
+      "about",
+      "coin"
+     ],
+     "suggestion": "It was a bruise about the size of a coin, on his upper arm.",
+     "suggestionFa": "یه کبودی تقریباً هم‌اندازهٔ سکه، رو بالای بازوش.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quiet",
+      "asked",
+      "when",
+      "said"
+     ],
+     "suggestion": "When I asked, he said \"I fell at home\", then went quiet.",
+     "suggestionFa": "وقتی پرسیدم، گفت «تو خونه افتادم»، بعد ساکت شد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "size of a coin",
+     "fa": "هم‌اندازهٔ سکه"
+    },
+    {
+     "word": "upper arm",
+     "fa": "بالای بازو"
+    },
+    {
+     "word": "went quiet",
+     "fa": "ساکت شد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he tell me he falled",
+      "he said me he fell"
+     ],
+     "echo": "He said \"I fell at home\"? Write his exact words.",
+     "better": "He said, \"I fell at home.\"",
+     "betterFa": "گفت: «تو خونه افتادم.»"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Good — that's factual. Children bump themselves all the time, so it may well be nothing. But it isn't our job to investigate; it's our job to record and report.",
+   "translations": {
+    "fa": "خوبه — بر اساس واقعیته. بچه‌ها مدام به جایی می‌خورن، پس شاید هیچی نباشه. ولی وظیفهٔ ما تحقیق کردن نیست؛ وظیفهٔ ما ثبت و گزارشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "report",
+      "who"
+     ],
+     "suggestion": "So who do I report it to?",
+     "suggestionFa": "پس به کی گزارشش بدم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "questions",
+      "should",
+      "more",
+      "him"
+     ],
+     "suggestion": "Should I ask him more questions?",
+     "suggestionFa": "باید ازش سؤال‌های بیشتری بپرسم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "investigate",
+     "fa": "تحقیق کردن ؛ بررسی کردن"
+    },
+    {
+     "word": "record",
+     "fa": "ثبت کردن"
+    },
+    {
+     "word": "report",
+     "fa": "گزارش دادن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "No leading questions — never \"Did someone hurt you?\" You report to the Designated Safeguarding Lead, the DSL. Here, that's Jo. Today, before you go home.",
+   "translations": {
+    "fa": "سؤال جهت‌دار نه — هیچ‌وقت «کسی بهت آسیب زد؟» به مسئول تعیین‌شدهٔ حفاظت، یعنی DSL گزارش می‌دی. اینجا جو است. امروز، قبل از رفتن به خونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "concern",
+      "today",
+      "give",
+      "fill"
+     ],
+     "suggestion": "I'll fill in a concern form and give it to Jo today.",
+     "suggestionFa": "یه فرم نگرانی پر می‌کنم و امروز به جو می‌دم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "parents",
+      "should",
+      "i've",
+      "tell"
+     ],
+     "suggestion": "Should I tell the parents what I've seen?",
+     "suggestionFa": "باید چیزی که دیدم را به والدین بگم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leading questions",
+     "fa": "سؤال‌های جهت‌دار"
+    },
+    {
+     "word": "Designated Safeguarding Lead",
+     "fa": "مسئول تعیین‌شدهٔ حفاظت از کودک"
+    },
+    {
+     "word": "concern form",
+     "fa": "فرم ثبت نگرانی"
+    }
+   ],
+   "cultureNote": {
+    "en": "The DSL decides the next steps, which may include talking to parents or contacting children's social care. Staff shouldn't decide this alone.",
+    "fa": "تصمیم با DSL است، نه یک کارمند به تنهایی."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Not yourself — the DSL decides who to speak to and when. Write it on the body map, sign and date it, and keep it confidential. Only share it with people who need to know.",
+   "translations": {
+    "fa": "خودت نه — DSL تصمیم می‌گیره با کی و کی حرف بزنه. رو نقشهٔ بدن بکشش، امضا و تاریخ بزن و محرمانه نگهش دار. فقط با کسایی که لازمه بدونن در میون بذار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "confidential",
+      "discuss",
+      "don't",
+      "staff"
+     ],
+     "suggestion": "Confidential — so I don't discuss it in the staff room.",
+     "suggestionFa": "محرمانه — پس تو اتاق کارکنان درباره‌اش حرف نمی‌زنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seriously",
+      "taking",
+      "think",
+      "isn't"
+     ],
+     "suggestion": "What if I think Jo isn't taking it seriously?",
+     "suggestionFa": "اگه فکر کنم جو جدی نمی‌گیره چی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "body map",
+     "fa": "نقشهٔ بدن (برای ثبت محل آسیب)"
+    },
+    {
+     "word": "confidential",
+     "fa": "محرمانه"
+    },
+    {
+     "word": "seriously",
+     "fa": "جدی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Exactly. And if you ever feel a concern isn't being dealt with, you can go to the manager, or call the local safeguarding team yourself. That's whistleblowing, and you're protected.",
+   "translations": {
+    "fa": "دقیقاً. و اگه یه وقت احساس کردی به نگرانی رسیدگی نمی‌شه، می‌تونی پیش مدیر بری یا خودت به تیم حفاظت محلی زنگ بزنی. اسمش افشاگریه و ازت حمایت می‌شه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

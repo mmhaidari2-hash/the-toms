@@ -169,8 +169,8 @@
    "branches": [
     {
      "keywords": [
-      "safe",
       "he's",
+      "safe",
       "here",
       "now"
      ],
@@ -218,12 +218,12 @@
     {
      "keywords": [
       "scared",
-      "weda",
-      "bit",
-      "was"
+      "maggie",
+      "she",
+      "bit"
      ],
-     "suggestion": "She was a bit scared, Weda.",
-     "suggestionFa": "یه کم ترسیده بود ودا.",
+     "suggestion": "She was a bit scared, Maggie.",
+     "suggestionFa": "یه کم ترسیده بود مگی.",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -264,8 +264,8 @@
     {
      "keywords": [
       "that's",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "That's a good idea.",
      "suggestionFa": "فکر خوبیه.",
@@ -276,8 +276,8 @@
     {
      "keywords": [
       "nicola",
-      "night",
       "light",
+      "night",
       "want"
      ],
      "suggestion": "Do you want a night light, Nicola?",
@@ -359,20 +359,20 @@
    "branches": [
     {
      "keywords": [
-      "weda",
-      "sing",
-      "song"
+      "maggie",
+      "song",
+      "sing"
      ],
-     "suggestion": "Yes! Sing a song, Weda.",
-     "suggestionFa": "آره! یه آهنگ بخونید ودا.",
+     "suggestion": "Yes! Sing a song, Maggie.",
+     "suggestionFa": "آره! یه آهنگ بخونید مگی.",
      "trustDelta": 6,
      "next": "n9",
      "success": true
     },
     {
      "keywords": [
-      "lovely",
-      "that's"
+      "that's",
+      "lovely"
      ],
      "suggestion": "That's lovely.",
      "suggestionFa": "قشنگه.",

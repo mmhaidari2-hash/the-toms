@@ -77,8 +77,8 @@
      "keywords": [
       "leave",
       "long",
-      "got",
-      "how"
+      "how",
+      "got"
      ],
      "suggestion": "Got it. How long do I leave it?",
      "suggestionFa": "باشه. چقدر نگهش دارم؟",
@@ -132,7 +132,7 @@
       "teatime",
       "toast",
       "only",
-      "had"
+      "bit"
      ],
      "suggestion": "He only had a bit of toast at teatime.",
      "suggestionFa": "سر شام فقط یه کم نون تست خورد.",
@@ -142,10 +142,10 @@
     },
     {
      "keywords": [
-      "dinner",
       "pushed",
-      "much",
-      "away"
+      "dinner",
+      "away",
+      "much"
      ],
      "suggestion": "Not much. He pushed his dinner away.",
      "suggestionFa": "زیاد نه. شامش را پس زد.",
@@ -183,9 +183,9 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "calpol",
       "here's",
+      "course",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -198,8 +198,8 @@
      "keywords": [
       "cupboard",
       "kettle",
-      "above",
-      "which"
+      "which",
+      "above"
      ],
      "suggestion": "Which cupboard? The one above the kettle?",
      "suggestionFa": "کدوم کابینت؟ اونی که بالای کتریه؟",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "hours",
       "every",
+      "hours",
       "six"
      ],
      "suggestion": "Yes, five ml, every four to six hours.",
@@ -303,10 +303,10 @@
     },
     {
      "keywords": [
-      "should",
       "jumper",
+      "should",
       "take",
-      "his"
+      "off"
      ],
      "suggestion": "Should I take his jumper off?",
      "suggestionFa": "ژاکتش را دربیارم؟",
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "things",
       "change",
+      "things",
       "don't",
       "they"
      ],
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "persian",
       "lullaby",
+      "persian",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

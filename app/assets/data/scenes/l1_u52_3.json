@@ -21,8 +21,8 @@
      "keywords": [
       "happen",
       "dear",
-      "how",
-      "did"
+      "did",
+      "how"
      ],
      "suggestion": "Oh dear! How did it happen?",
      "suggestionFa": "ای وای! چطوری شد؟",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "don't",
       "sharp",
-      "touch",
-      "don't"
+      "touch"
      ],
      "suggestion": "Don't touch it! It's sharp.",
      "suggestionFa": "دست نزن! تیزه.",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "truth",
-      "just",
       "tell",
+      "just",
       "her"
      ],
      "suggestion": "Just tell her the truth.",
@@ -210,8 +210,8 @@
      "keywords": [
       "something",
       "ryan",
-      "has",
-      "say"
+      "say",
+      "has"
      ],
      "suggestion": "Ryan has something to say.",
      "suggestionFa": "رایان یه چیزی می‌خواد بگه.",
@@ -318,8 +318,8 @@
     },
     {
      "keywords": [
-      "leslie",
       "that's",
+      "leslie",
       "kind"
      ],
      "suggestion": "That's kind, Leslie.",

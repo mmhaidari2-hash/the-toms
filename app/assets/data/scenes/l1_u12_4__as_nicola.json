@@ -23,8 +23,8 @@
      "keywords": [
       "favourite",
       "poster",
-      "things",
       "making",
+      "things",
       "about"
      ],
      "suggestion": "Mia and I are making a poster. It's about favourite things!",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "favourite",
-      "what's",
-      "colour"
+      "colour",
+      "what's"
      ],
      "suggestion": "Yes! What's your favourite colour?",
      "suggestionFa": "آره! رنگ مورد علاقه‌ات چیه؟",
@@ -151,10 +151,10 @@
    "branches": [
     {
      "keywords": [
-      "they're",
       "penguin",
-      "white",
+      "they're",
       "funny",
+      "white",
       "black"
      ],
      "suggestion": "Mine is a penguin! They're black and white and very funny.",
@@ -235,7 +235,7 @@
       "poster",
       "write",
       "makes",
-      "rice"
+      "nana"
      ],
      "suggestion": "Rice! Nana makes rice on Sundays. Can you write it on the poster?",
      "suggestionFa": "برنج! نانا یکشنبه‌ها برنج درست می‌کنه. می‌تونی روی پوستر بنویسیش؟",
@@ -259,8 +259,8 @@
       "persian",
       "pretty",
       "right",
-      "left",
-      "from"
+      "goes",
+      "left"
      ],
      "suggestion": "Yes! Persian is so pretty. It goes from right to left!",
      "suggestionFa": "آره! فارسی خیلی قشنگه. از راست به چپ می‌ره!",
@@ -281,8 +281,8 @@
    "branches": [
     {
      "keywords": [
-      "penguins",
       "finished",
+      "penguins",
       "poster",
       "purple",
       "pizza"

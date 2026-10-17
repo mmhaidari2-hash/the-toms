@@ -22,8 +22,8 @@
     {
      "keywords": [
       "doing",
-      "home",
       "love",
+      "home",
       "hi"
      ],
      "suggestion": "Hi love, it's me. Are you at home? What are you doing?",
@@ -70,10 +70,10 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "nicola",
+      "what's",
       "doing",
-      "turn",
+      "tell",
       "knew"
      ],
      "suggestion": "I knew it! Tell him to turn it off. What's Nicola doing?",
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "sleeping",
       "goodness",
+      "sleeping",
       "waiting",
-      "thank",
-      "usual"
+      "usual",
+      "thank"
      ],
      "suggestion": "Oh, he's sleeping! Thank goodness. I'm waiting for the bus now. It's late, as usual.",
      "suggestionFa": "آه، خوابیده! خدا را شکر. الان منتظر اتوبوسم. طبق معمول دیر کرده.",
@@ -145,10 +145,10 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "minutes",
-      "please",
+      "getting",
       "twenty",
+      "please",
       "love"
      ],
      "suggestion": "Yes please, love! I'm getting on the bus now. See you in twenty minutes!",

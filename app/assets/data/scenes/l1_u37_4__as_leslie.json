@@ -24,8 +24,8 @@
       "stopped",
       "quick",
       "front",
-      "rain",
-      "come"
+      "door",
+      "rain"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -103,10 +103,10 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "yellow",
-      "green",
+      "orange",
       "seven",
+      "green",
       "rest"
      ],
      "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, Mehdi?",
@@ -188,10 +188,10 @@
     {
      "keywords": [
       "shame",
-      "moves",
       "we'll",
+      "moves",
       "never",
-      "move"
+      "when"
      ],
      "suggestion": "Ha! We'll never find the end. It moves when you move. What a shame!",
      "suggestionFa": "ها! هیچ‌وقت تهش را پیدا نمی‌کنیم. وقتی حرکت می‌کنی، حرکت می‌کنه. حیف!",
@@ -267,9 +267,9 @@
      "keywords": [
       "raining",
       "lovely",
-      "photo",
+      "he'll",
       "again",
-      "daddy"
+      "photo"
      ],
      "suggestion": "What a lovely photo! Send it to Daddy. He'll love it. Oh — it's raining again!",
      "suggestionFa": "چه عکس قشنگی! بفرستش برای بابا. عاشقش میشه. آه — باز داره بارون میاد!",
@@ -294,7 +294,7 @@
       "british",
       "wellies",
       "typical",
-      "people"
+      "inside"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",
      "suggestionFa": "«معمولیه!» این چیزیه که بریتانیایی‌ها میگن. همه بیاید تو! چکمه‌ها را دربیارید!",

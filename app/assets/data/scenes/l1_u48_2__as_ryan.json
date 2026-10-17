@@ -22,9 +22,9 @@
     {
      "keywords": [
       "dinner's",
-      "shall",
       "watch",
       "telly",
+      "shall",
       "time"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "football",
-      "arsenal",
       "playing",
-      "boring",
-      "rather"
+      "arsenal",
+      "rather",
+      "boring"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Arsenal are playing.",
      "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره.",
@@ -75,7 +75,7 @@
       "nicola",
       "wants",
       "spurs",
-      "game"
+      "bake"
      ],
      "suggestion": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
      "suggestionFa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "people",
-      "what's",
       "baking",
+      "what's",
       "cakes",
       "loves"
      ],
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "nicola's",
-      "cartoon",
       "minutes",
+      "cartoon",
       "twenty",
-      "shout"
+      "match"
      ],
      "suggestion": "Good shout. Nicola's cartoon is only twenty minutes. Then Mum, then the match.",
      "suggestionFa": "فکر خوبیه. کارتون نیکولا فقط بیست دقیقه‌ست. بعد مامان، بعد بازی.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "spoilers",
-      "record",
       "snacks",
-      "shall",
-      "score"
+      "record",
+      "score",
+      "shall"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
      "suggestionFa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟",
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
+      "cartoons",
       "remote's",
       "starting",
-      "cartoons",
       "vinegar",
       "crisps"
      ],

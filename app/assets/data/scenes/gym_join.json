@@ -33,8 +33,8 @@
     {
      "keywords": [
       "first",
-      "pass",
       "like",
+      "pass",
       "just"
      ],
      "suggestion": "Just a day pass for now — I'd like to try it out first.",
@@ -143,8 +143,8 @@
      "keywords": [
       "evening",
       "course",
-      "count",
-      "doing"
+      "doing",
+      "count"
      ],
      "suggestion": "I'm doing an evening course — does that count?",
      "suggestionFa": "یه دورهٔ شبانه می‌رم — حساب میشه؟",
@@ -183,10 +183,10 @@
    "branches": [
     {
      "keywords": [
-      "weight",
       "fitter",
-      "want",
-      "lose"
+      "weight",
+      "lose",
+      "want"
      ],
      "suggestion": "I want to get fitter and lose a bit of weight.",
      "suggestionFa": "می‌خوام بدنم آماده‌تر بشه و یه کم وزن کم کنم.",
@@ -292,10 +292,10 @@
    "branches": [
     {
      "keywords": [
-      "when's",
       "sounds",
+      "when's",
       "class",
-      "next"
+      "yoga"
      ],
      "suggestion": "Yoga sounds good. When's the next class?",
      "suggestionFa": "یوگا خوب به نظر میاد. کلاس بعدی کیه؟",
@@ -306,9 +306,9 @@
     {
      "keywords": [
       "might",
+      "hard",
       "spin",
-      "give",
-      "hard"
+      "give"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -398,8 +398,8 @@
     {
      "keywords": [
       "injury",
+      "last",
       "fine",
-      "year",
       "knee"
      ],
      "suggestion": "I had a knee injury last year, but it's fine now.",

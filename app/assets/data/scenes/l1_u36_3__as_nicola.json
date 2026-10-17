@@ -24,8 +24,8 @@
       "football",
       "against",
       "garden",
-      "sunny",
-      "let's"
+      "let's",
+      "sunny"
      ],
      "suggestion": "It's sunny! Let's play football in the garden! Me and Mia against you!",
      "suggestionFa": "آفتابیه! بیا تو حیاط فوتبال بازی کنیم! من و میا در برابر تو!",
@@ -104,10 +104,10 @@
     {
      "keywords": [
       "under",
-      "ball",
-      "shed",
       "bush",
-      "goal"
+      "ball",
+      "goal",
+      "shed"
      ],
      "suggestion": "Your goal is the shed! The ball is under the bush. Can you get it?",
      "suggestionFa": "دروازه‌ت انباریه! توپ زیر بوته‌ست. می‌تونی بیاریش؟",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "score",
-      "turn",
       "kick",
+      "turn",
       "now",
       "can"
      ],
@@ -292,8 +292,8 @@
       "please",
       "kicked",
       "sorry",
-      "have",
-      "ball"
+      "khan",
+      "have"
      ],
      "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",
      "suggestionFa": "تو برو! تو شوتش کردی! بگو «ببخشید خانم خان، می‌شه توپمون را پس بدید، لطفاً؟»",

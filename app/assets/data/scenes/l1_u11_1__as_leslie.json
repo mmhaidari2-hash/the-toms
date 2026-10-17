@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
+      "o'clock",
       "usually",
       "morning",
-      "o'clock",
       "seven",
       "time"
      ],
@@ -73,8 +73,8 @@
       "everything",
       "porridge",
       "william",
-      "nicola",
-      "cereal"
+      "cereal",
+      "nicola"
      ],
      "suggestion": "Tom has cereal. Nicola has porridge. And William has everything!",
      "suggestionFa": "تام غلات صبحانه می‌خوره. نیکولا فرنی. و ویلیام همه چی!",
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "breakfast",
-      "please",
       "before",
+      "please",
       "nicola",
       "brush"
      ],
@@ -147,9 +147,9 @@
      "keywords": [
       "always",
       "where",
+      "lose",
       "keys",
-      "them",
-      "lose"
+      "them"
      ],
      "suggestion": "Oh, where are my keys? I always lose my keys! Can you see them?",
      "suggestionFa": "آخ، کلیدهام کجان؟ همیشه کلیدهام را گم می‌کنم! می‌بینیشون؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "found",
       "lunch",
       "thank",
-      "them",
-      "have"
+      "found",
+      "have",
+      "them"
      ],
      "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
      "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
@@ -224,7 +224,7 @@
       "lovely",
       "coats",
       "right",
-      "same"
+      "here"
      ],
      "suggestion": "Ha! Same here. Right, coats on, everybody! Have a lovely day!",
      "suggestionFa": "ها! منم همین‌طور. خب، همه کت‌ها را بپوشید! روز خوبی داشته باشید!",

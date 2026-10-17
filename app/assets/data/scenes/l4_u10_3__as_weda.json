@@ -1,8 +1,8 @@
 {
  "id": "l4_u10_3__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Weda's wisdom",
- "titleFa": "(در نقش Nana Weda) حکمت ودا",
+ "title": "(As Nana Maggie) Maggie's wisdom",
+ "titleFa": "(در نقش Nana Maggie) حکمت مگی",
  "setting": "Paying it forward · Level 4",
  "settingFa": "جبران کردن با کمک به دیگران",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "mentoring",
-      "leslie",
       "barely",
-      "tells",
+      "leslie",
+      "young",
       "first"
      ],
      "suggestion": "Leslie tells me you're mentoring a young lady now. I'm proud of you, love. When you first came, you could barely say \"cup of tea\".",
@@ -50,7 +50,7 @@
       "hardest",
       "teabag",
       "first",
-      "round"
+      "other"
      ],
      "suggestion": "Teabag in first, then the water, milk last. Never the other way round. What was the hardest part, looking back?",
      "suggestionFa": "اول چای کیسه‌ای، بعد آب، شیر آخر. هیچ‌وقت برعکس نه. وقتی به گذشته نگاه می‌کنی، سخت‌ترین قسمت چی بود؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "landlords",
       "welcoming",
-      "windows",
-      "natural",
-      "weren't"
+      "landlords",
+      "ireland",
+      "weren't",
+      "natural"
      ],
      "suggestion": "That's natural. When I came over from Ireland in 1965, people weren't always welcoming. Some landlords had signs in their windows.",
      "suggestionFa": "طبیعیه. وقتی سال ۱۹۶۵ از ایرلند اومدم، مردم همیشه خوش‌برخورد نبودن. بعضی صاحبخونه‌ها تابلو پشت پنجره‌شون داشتن.",
@@ -89,16 +89,16 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "I had no idea you'd moved here too, Weda.",
+   "text": "I had no idea you'd moved here too, Maggie.",
    "translations": {
-    "fa": "نمی‌دونستم شما هم مهاجرت کردید ودا."
+    "fa": "نمی‌دونستم شما هم مهاجرت کردید مگی."
    },
    "branches": [
     {
      "keywords": [
       "trained",
       "younger",
-      "belong",
+      "people",
       "nurses",
       "church"
      ],
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
+      "tissue",
       "you'll",
       "kettle",
-      "tissue",
-      "milk",
+      "pass",
       "mind"
      ],
      "suggestion": "Oh, stop it, you'll set me off. Pass me a tissue. And put the kettle on — milk last, mind!",
@@ -139,9 +139,9 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

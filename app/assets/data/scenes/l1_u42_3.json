@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "doris",
       "hello",
+      "doris",
       "how"
      ],
      "suggestion": "Hello, Doris! How are you?",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "like",
-      "car",
-      "bus"
+      "bus",
+      "car"
      ],
      "suggestion": "Do you like the bus or the car?",
      "suggestionFa": "اتوبوس را دوست دارید یا ماشین؟",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "haven't",
-      "car",
-      "got"
+      "got",
+      "car"
      ],
      "suggestion": "No. I haven't got a car.",
      "suggestionFa": "نه. ماشین ندارم.",
@@ -326,8 +326,8 @@
     },
     {
      "keywords": [
-      "need",
       "help",
+      "need",
       "bag"
      ],
      "suggestion": "Do you need help with your bag?",

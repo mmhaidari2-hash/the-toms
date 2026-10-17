@@ -48,9 +48,9 @@
      "keywords": [
       "cucumber",
       "cheese",
-      "white",
       "bread",
-      "brown"
+      "brown",
+      "white"
      ],
      "suggestion": "Cheese, ham, tuna, egg… and cucumber. White bread or brown bread?",
      "suggestionFa": "پنیر، ژامبون، تن ماهی، تخم‌مرغ… و خیار. نون سفید یا نون سبوس‌دار؟",
@@ -122,9 +122,9 @@
      "keywords": [
       "sandwich",
       "crisps",
+      "think",
       "wants",
-      "there",
-      "think"
+      "there"
      ],
      "suggestion": "There you go. Ryan wants crisps in his sandwich! What do you think?",
      "suggestionFa": "بفرما. رایان می‌خواد تو ساندویچش چیپس بذاره! نظرت چیه؟",
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "triangles",
-      "squares",
       "popular",
-      "crisp",
+      "squares",
+      "butty",
       "shall"
      ],
      "suggestion": "It's a \"crisp butty\". Very popular here! Shall I cut yours into triangles or squares?",
@@ -171,8 +171,8 @@
     {
      "keywords": [
       "triangles",
-      "would",
       "fancy",
+      "would",
       "drink",
       "like"
      ],
@@ -198,8 +198,8 @@
       "yourself",
       "there's",
       "fridge",
-      "juice",
-      "apple"
+      "apple",
+      "juice"
      ],
      "suggestion": "There's apple juice in the fridge. Help yourself!",
      "suggestionFa": "آب سیب تو یخچاله. از خودت پذیرایی کن!",
@@ -222,9 +222,9 @@
      "keywords": [
       "please",
       "garden",
-      "sunny",
+      "small",
       "let's",
-      "small"
+      "sunny"
      ],
      "suggestion": "Yes, please, a small one. Right, let's eat in the garden. It's sunny!",
      "suggestionFa": "آره، لطفاً، یه کم. خب، بیا تو باغ بخوریم. آفتابیه!",

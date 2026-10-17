@@ -23,8 +23,8 @@
      "keywords": [
       "present",
       "bought",
-      "looks",
       "can't",
+      "looks",
       "awful"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "world's",
-      "cheesy",
       "driver",
-      "know",
-      "best"
+      "cheesy",
+      "says",
+      "know"
      ],
      "suggestion": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
      "suggestionFa": "یه ماگ. روش نوشته «بهترین راننده اتوبوس دنیا». می‌دونم، لوسه.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "scissors",
-      "where",
       "first",
       "small",
+      "where",
       "paper"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "easier",
       "genius",
+      "easier",
       "now",
       "box"
      ],
@@ -148,8 +148,8 @@
       "triangles",
       "better",
       "right",
-      "ends",
-      "them"
+      "like",
+      "fold"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "write",
-      "nice",
       "gift",
-      "bow",
-      "tag"
+      "nice",
+      "now",
+      "bow"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
+      "soppy",
       "don't",
       "mates",
-      "soppy",
-      "ryan",
-      "love"
+      "love",
+      "fine"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

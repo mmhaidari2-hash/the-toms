@@ -21,14 +21,14 @@
    "branches": [
     {
      "keywords": [
-      "flowers",
       "because",
+      "flowers",
+      "maggie",
       "flower",
-      "stall",
-      "weda"
+      "stall"
      ],
-     "suggestion": "Look at the flower stall! I want to buy some flowers for Weda. Just because.",
-     "suggestionFa": "غرفهٔ گل را ببین! می‌خوام برای ودا گل بخرم. همین‌طوری.",
+     "suggestion": "Look at the flower stall! I want to buy some flowers for Maggie. Just because.",
+     "suggestionFa": "غرفهٔ گل را ببین! می‌خوام برای مگی گل بخرم. همین‌طوری.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -105,8 +105,8 @@
      "keywords": [
       "sunflowers",
       "prefer",
-      "which",
       "roses",
+      "which",
       "hmm"
      ],
      "suggestion": "Sunflowers or roses? Hmm. Which do you prefer, Mehdi?",
@@ -129,13 +129,13 @@
     {
      "keywords": [
       "sunflowers",
+      "maggie's",
       "kitchen",
-      "weda's",
-      "point",
-      "small"
+      "small",
+      "point"
      ],
-     "suggestion": "Good point. But sunflowers are big. Weda's kitchen is small!",
-     "suggestionFa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ ودا کوچیکه!",
+     "suggestion": "Good point. But sunflowers are big. Maggie's kitchen is small!",
+     "suggestionFa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ مگی کوچیکه!",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -211,8 +211,8 @@
       "daffodils",
       "they're",
       "pounds",
-      "let's",
-      "three"
+      "three",
+      "let's"
      ],
      "suggestion": "No, they're only three pounds a bunch. Let's get a bunch of daffodils and two roses.",
      "suggestionFa": "نه، دسته‌ای فقط سه پوند. یه دسته نرگس و دو تا رز بخریم.",
@@ -293,7 +293,7 @@
       "sweetie",
       "before",
       "course",
-      "tears",
+      "happy",
       "going"
      ],
      "suggestion": "Of course, sweetie. Nana is going to cry happy tears. Let's go before they wilt!",

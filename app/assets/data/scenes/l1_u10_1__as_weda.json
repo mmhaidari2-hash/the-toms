@@ -1,8 +1,8 @@
 {
  "id": "l1_u10_1__as_weda",
  "characterId": "tom",
- "title": "(As Nana Weda) Teatime at six",
- "titleFa": "(در نقش Nana Weda) شام ساعت شش",
+ "title": "(As Nana Maggie) Teatime at six",
+ "titleFa": "(در نقش Nana Maggie) شام ساعت شش",
  "setting": "Evening tea & weekends · Level 1",
  "settingFa": "شام و آخر هفته",
  "requires": null,
@@ -14,18 +14,18 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "everyone",
       "tonight",
-      "ready",
       "tea's",
-      "down"
+      "ready",
+      "like"
      ],
      "suggestion": "Tea's ready! Sit down, everyone. It's fish pie tonight. Do you like fish?",
      "suggestionFa": "شام آماده‌ست! همه بنشینید. امشب پای ماهیه. ماهی دوست داری؟",
@@ -50,7 +50,7 @@
       "plenty",
       "worry",
       "don't",
-      "food"
+      "love"
      ],
      "suggestion": "Don't worry, there's plenty of mash and peas too. What food do you love?",
      "suggestionFa": "نگران نباش، پورهٔ سیب‌زمینی و نخودفرنگی هم زیاده. چه غذایی را دوست داری؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "saffron",
       "cooking",
+      "saffron",
       "lovely",
-      "must",
-      "cook"
+      "like",
+      "must"
      ],
      "suggestion": "Saffron! Lovely. You must cook for us one day. Do you like cooking?",
      "suggestionFa": "زعفران! چه خوب. باید یه روز برامون آشپزی کنی. آشپزی دوست داری؟",
@@ -270,8 +270,8 @@
     {
      "keywords": [
       "treasure",
-      "pudding",
       "crumble",
+      "pudding",
       "custard",
       "though"
      ],
@@ -287,9 +287,9 @@
   "r11": {
    "id": "r11",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

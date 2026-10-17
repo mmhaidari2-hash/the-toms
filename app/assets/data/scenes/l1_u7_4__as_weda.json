@@ -1,8 +1,8 @@
 {
  "id": "l1_u7_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) The chemist",
- "titleFa": "(در نقش Nana Weda) داروخانه",
+ "title": "(As Nana Maggie) The chemist",
+ "titleFa": "(در نقش Nana Maggie) داروخانه",
  "setting": "At the shops · Level 1",
  "settingFa": "در مغازه‌ها",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "chemist",
-      "into",
-      "come",
       "dear",
+      "come",
+      "into",
       "need"
      ],
      "suggestion": "I need to pop into the chemist, dear. Come with me?",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "something",
-      "plasters",
       "pharmacy",
+      "plasters",
       "cough",
       "some"
      ],
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "something",
       "recommend",
-      "cough",
+      "something",
       "thank",
-      "lady"
+      "cough",
+      "dear"
      ],
      "suggestion": "Thank you, dear. Ask the lady: \"Can you recommend something for a cough?\"",
      "suggestionFa": "ممنون عزیزم. از خانم بپرس: «می‌تونید یه چیزی برای سرفه پیشنهاد بدید؟»",
@@ -100,7 +100,7 @@
       "times",
       "syrup",
       "three",
-      "good"
+      "says"
      ],
      "suggestion": "She says this syrup is good. Two spoons, three times a day.",
      "suggestionFa": "می‌گه این شربت خوبه. دو قاشق، روزی سه بار.",
@@ -123,9 +123,9 @@
      "keywords": [
       "probably",
       "horrible",
-      "throat",
       "sweets",
-      "lemon"
+      "throat",
+      "honey"
      ],
      "suggestion": "Horrible, probably! Ha. And some throat sweets. Honey and lemon.",
      "suggestionFa": "احتمالاً افتضاح! ها. و یه کم آب‌نبات گلو. عسل و لیمو.",
@@ -148,9 +148,9 @@
      "keywords": [
       "treasure",
       "treat",
+      "cup",
       "now",
-      "tea",
-      "cup"
+      "caf"
      ],
      "suggestion": "You're a treasure. Now, a cup of tea at the café? My treat!",
      "suggestionFa": "تو یه گنجی. حالا یه فنجون چای توی کافه؟ مهمون من!",
@@ -164,9 +164,9 @@
   "r7": {
    "id": "r7",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

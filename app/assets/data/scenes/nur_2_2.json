@@ -1,0 +1,268 @@
+{
+ "id": "nur_2_2",
+ "characterId": "vida",
+ "title": "Lunchtime",
+ "titleFa": "وقت ناهار",
+ "setting": "Care routines · Level 0",
+ "settingFa": "روال مراقبت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Lunch is here! Shepherd's pie and peas today. Can you help the children sit at the table?",
+   "translations": {
+    "fa": "ناهار اومد! امروز پای چوپان و نخود فرنگی. می‌تونی کمک کنی بچه‌ها پشت میز بشینن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lunchtime",
+      "please",
+      "table",
+      "sit"
+     ],
+     "suggestion": "Lunchtime! Sit at the table, please.",
+     "suggestionFa": "وقت ناهاره! لطفاً پشت میز بشینید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hot"
+     ],
+     "suggestion": "Is it hot?",
+     "suggestionFa": "داغه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lunch",
+     "fa": "ناهار"
+    },
+    {
+     "word": "peas",
+     "fa": "نخود فرنگی"
+    },
+    {
+     "word": "table",
+     "fa": "میز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Let it cool for a minute. We sit with them and eat too. It's social time, not just food.",
+   "translations": {
+    "fa": "بذار یه دقیقه خنک بشه. ما هم باهاشون می‌شینیم و غذا می‌خوریم. وقت معاشرته، نه فقط غذا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "nice",
+      "talk",
+      "we"
+     ],
+     "suggestion": "Nice! What do we talk about?",
+     "suggestionFa": "چه خوب! دربارهٔ چی حرف بزنیم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oscar",
+      "next",
+      "i'll",
+      "sit"
+     ],
+     "suggestion": "OK, I'll sit next to Oscar.",
+     "suggestionFa": "باشه، کنار اسکار می‌شینم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cool",
+     "fa": "خنک شدن"
+    },
+    {
+     "word": "social",
+     "fa": "اجتماعی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "oscar",
+   "text": "I don't like peas. Yuck!",
+   "translations": {
+    "fa": "نخود دوست ندارم. اَه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "one",
+      "can",
+      "pea"
+     ],
+     "suggestion": "That's OK. Can you try one pea?",
+     "suggestionFa": "اشکالی نداره. یه دونه نخود امتحان می‌کنی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "oscar",
+      "just",
+      "bit"
+     ],
+     "suggestion": "Just try a little bit, Oscar.",
+     "suggestionFa": "فقط یه ذره امتحان کن اسکار.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yuck",
+     "fa": "اَه ؛ پیف"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    },
+    {
+     "word": "a little bit",
+     "fa": "یه ذره"
+    }
+   ],
+   "cultureNote": {
+    "en": "Nursery staff encourage children to try food but never force them to eat.",
+    "fa": "کارکنان بچه‌ها را تشویق می‌کنند ولی مجبور نمی‌کنند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Finished! Can I have some more?",
+   "translations": {
+    "fa": "تموم شد! می‌شه بیشتر بخورم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "more",
+      "want",
+      "pie"
+     ],
+     "suggestion": "Yes! Do you want more pie?",
+     "suggestionFa": "آره! پای بیشتر می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clean",
+      "plate",
+      "done",
+      "well"
+     ],
+     "suggestion": "Well done, a clean plate!",
+     "suggestionFa": "آفرین، بشقاب تمیز!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finished",
+     "fa": "تمام شد"
+    },
+    {
+     "word": "some more",
+     "fa": "کمی بیشتر"
+    },
+    {
+     "word": "clean plate",
+     "fa": "بشقاب خالی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "We note how much each child eats — all, most, some or none. Parents always ask. Then it's nap time.",
+   "translations": {
+    "fa": "ما یادداشت می‌کنیم هر بچه چقدر می‌خوره — همه، بیشترش، یه کم یا هیچی. والدین همیشه می‌پرسن. بعد وقت خوابه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "some",
+      "most",
+      "none",
+      "all"
+     ],
+     "suggestion": "All, most, some or none. OK.",
+     "suggestionFa": "همه، بیشترش، یه کم یا هیچی. باشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "write",
+      "we"
+     ],
+     "suggestion": "Where do we write it?",
+     "suggestionFa": "کجا می‌نویسیمش؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "note",
+     "fa": "یادداشت کردن"
+    },
+    {
+     "word": "most",
+     "fa": "بیشترش"
+    },
+    {
+     "word": "none",
+     "fa": "هیچ"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "On the app — parents see it straight away. Oscar ate some, William ate all of it. Twice!",
+   "translations": {
+    "fa": "تو اپ — والدین فوراً می‌بینن. اسکار یه کم خورد، ویلیام همه‌ش را. دو بار!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

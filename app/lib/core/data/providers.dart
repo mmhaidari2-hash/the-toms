@@ -140,10 +140,20 @@ class ProgressController extends Notifier<UserProgress> {
 
   bool lessonDone(Lesson l) => l.sceneIds.every(state.completedScenes.contains) && (practiceScore(l.id) ?? 0) >= 60;
   bool unitPassed(Unit u) => (practiceScore(u.id) ?? 0) >= 70;
-  bool unitOpen(Course c, int i) => state.unlockAll || i == 0 || unitPassed(c.units[i - 1]) || c.units[i - 1].lessons.every(lessonDone);
+  bool unitOpen(Course c, int i) => state.unlockAll || i == 0 || c.units[i].level <= startLevel || unitPassed(c.units[i - 1]) || c.units[i - 1].lessons.every(lessonDone);
+
+  /// Course level (1–5) matching the level picked at onboarding (A0–A1 … C1–C2).
+  int get startLevel => levelForTier(state.startTier);
+  static int levelForTier(int tier) => const [1, 2, 3, 4, 5, 5][tier.clamp(0, 5)];
+  /// First lesson of a course level — each level opens on its own lesson.
+  static Lesson? firstLessonOfLevel(Course c, int level) => c.units.where((u) => u.level == level).expand((u) => u.lessons).firstOrNull;
+  /// The learner's next lesson: the first unfinished one at or above their starting level.
+  Lesson? nextLesson(Course c) =>
+      c.lessons.where((l) => c.unitOf(l.id)!.level >= startLevel && !lessonDone(l)).firstOrNull ?? c.lessons.where((l) => !lessonDone(l)).firstOrNull;
   bool lessonOpen(Course c, Lesson l) {
     final u = c.unitOf(l.id)!;
     final ui = c.units.indexOf(u), li = u.lessons.indexOf(l);
+    if (ui < 0) return c.packOf(u)?.unlocked ?? true; // Career Pack lessons: free order, unlocked for now
     return unitOpen(c, ui) && (state.unlockAll || li == 0 || lessonDone(u.lessons[li - 1]));
   }
 

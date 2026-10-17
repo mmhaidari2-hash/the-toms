@@ -116,8 +116,8 @@
     {
      "keywords": [
       "postcode",
-      "street",
       "number",
+      "street",
       "what's"
      ],
      "suggestion": "Number ten, Mare Street. What's the postcode?",
@@ -168,8 +168,8 @@
    "branches": [
     {
      "keywords": [
-      "month",
       "first",
+      "month",
       "then",
       "day"
      ],
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "starts",
       "number",
+      "starts",
       "phone"
      ],
      "suggestion": "My phone number starts with 07.",
@@ -299,8 +299,8 @@
     },
     {
      "keywords": [
-      "what's",
       "number",
+      "what's",
       "nhs"
      ],
      "suggestion": "What's an NHS number?",
@@ -345,8 +345,8 @@
      "keywords": [
       "doctor",
       "when",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "When can I see a doctor?",
      "suggestionFa": "کی می‌تونم دکتر را ببینم؟",

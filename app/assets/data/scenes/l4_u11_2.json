@@ -295,8 +295,8 @@
      "keywords": [
       "there",
       "mould",
-      "flat",
-      "damp"
+      "damp",
+      "flat"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -359,8 +359,8 @@
     {
      "keywords": [
       "energy",
-      "rating",
       "what's",
+      "rating",
       "flat"
      ],
      "suggestion": "What's the energy rating of the flat?",
@@ -449,9 +449,9 @@
    "branches": [
     {
      "keywords": [
-      "thirty",
-      "that's",
       "strict",
+      "that's",
+      "thirty",
       "times"
      ],
      "suggestion": "Thirty times? That's quite strict.",
@@ -464,7 +464,7 @@
      "keywords": [
       "guarantor",
       "need",
-      "can",
+      "one",
       "tom"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",

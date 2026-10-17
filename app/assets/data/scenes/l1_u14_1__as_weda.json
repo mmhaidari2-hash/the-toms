@@ -1,8 +1,8 @@
 {
  "id": "l1_u14_1__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Brushing teeth",
- "titleFa": "(در نقش Nana Weda) مسواک زدن",
+ "title": "(As Nana Maggie) Brushing teeth",
+ "titleFa": "(در نقش Nana Maggie) مسواک زدن",
  "setting": "In the bathroom · Level 1",
  "settingFa": "در حمام",
  "requires": null,
@@ -14,18 +14,18 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "toothbrush",
       "nicola",
-      "teeth",
       "right",
-      "time"
+      "teeth",
+      "love"
      ],
      "suggestion": "Right, Nicola, teeth time! Can you pass me her toothbrush, love? The pink one.",
      "suggestionFa": "خب نیکولا، وقت دندون! عزیزم، مسواکش را بهم می‌دی؟ صورتیه.",
@@ -127,8 +127,8 @@
       "nicola",
       "brush",
       "teeth",
-      "down",
-      "fast"
+      "back",
+      "down"
      ],
      "suggestion": "Up and down, Nicola. Not too fast. Brush the back teeth, too.",
      "suggestionFa": "بالا و پایین نیکولا. نه خیلی تند. دندون‌های عقب را هم بشور.",
@@ -150,10 +150,10 @@
     {
      "keywords": [
       "minutes",
-      "songs",
       "let's",
-      "song",
-      "sing"
+      "songs",
+      "sing",
+      "song"
      ],
      "suggestion": "Two minutes. Let's sing a song. Two minutes is two songs!",
      "suggestionFa": "دو دقیقه. بیا یه آهنگ بخونیم. دو دقیقه یعنی دو تا آهنگ!",
@@ -178,7 +178,7 @@
       "everybody",
       "swallow",
       "twinkle",
-      "little"
+      "nicola"
      ],
      "suggestion": "\"Twinkle, Twinkle, Little Star\"! Everybody knows that. Don't swallow the toothpaste, Nicola!",
      "suggestionFa": "«چشمک بزن ستاره کوچولو»! همه بلدن. خمیردندون را قورت نده نیکولا!",
@@ -257,7 +257,7 @@
       "toothbrush",
       "lovely",
       "rinse",
-      "put",
+      "cup",
       "now"
      ],
      "suggestion": "Lovely. Now rinse your toothbrush and put it in the cup.",
@@ -281,9 +281,9 @@
      "keywords": [
       "bathroom",
       "helping",
-      "sleep",
+      "floor",
       "knees",
-      "floor"
+      "story"
      ],
      "suggestion": "Yes, bed! One story, then sleep. Thank you for helping, love. My knees don't like this bathroom floor!",
      "suggestionFa": "آره، خواب! یه قصه، بعد خواب. ممنون که کمک کردی عزیزم. زانوهام از این کف حموم خوششون نمیاد!",
@@ -297,9 +297,9 @@
   "r12": {
    "id": "r12",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

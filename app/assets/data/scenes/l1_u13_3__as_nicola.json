@@ -24,8 +24,8 @@
       "please",
       "daddy",
       "have",
-      "dog",
-      "can"
+      "can",
+      "dog"
      ],
      "suggestion": "Daddy, can we have a dog? Please, please, please!",
      "suggestionFa": "بابا، می‌شه یه سگ داشته باشیم؟ لطفاً، لطفاً، لطفاً!",
@@ -103,11 +103,11 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "school",
+      "before",
       "every",
       "walk",
-      "see"
+      "can"
      ],
      "suggestion": "See! I can walk the dog every day. Before school!",
      "suggestionFa": "دیدی! هر روز می‌تونم سگ را ببرم بیرون. قبل از مدرسه!",
@@ -185,8 +185,8 @@
      "keywords": [
       "won't",
       "ryan",
-      "bag",
       "can",
+      "bag",
       "ha"
      ],
      "suggestion": "Ha ha! Ryan won't do it. I can do it. With a bag.",
@@ -265,11 +265,11 @@
    "branches": [
     {
      "keywords": [
-      "fluffy",
-      "muffin",
       "called",
-      "brown",
-      "small"
+      "muffin",
+      "fluffy",
+      "small",
+      "brown"
      ],
      "suggestion": "A small, brown, fluffy one. Called Muffin!",
      "suggestionFa": "یه کوچیک، قهوه‌ای، پشمالو. به اسم مافین!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "goldfish",
-      "don't",
       "scare",
+      "don't",
       "then",
       "nana"
      ],
@@ -424,8 +424,8 @@
     {
      "keywords": [
       "goldfish",
-      "muffin",
       "called",
+      "muffin",
       "thank",
       "daddy"
      ],

@@ -80,7 +80,7 @@
       "sustainability",
       "distributors",
       "biggest",
-      "london"
+      "strong"
      ],
      "suggestion": "You're one of the biggest distributors in East London, with a strong focus on sustainability.",
      "suggestionFa": "شما یکی از بزرگ‌ترین پخش‌کننده‌های شرق لندنید، با تمرکز قوی روی پایداری.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "expanding",
-      "you've",
       "opened",
+      "you've",
       "depot"
      ],
      "suggestion": "I read that you've just opened a new depot and are expanding fast.",
@@ -134,8 +134,8 @@
      "keywords": [
       "reorganised",
       "schedule",
-      "informed",
-      "customer"
+      "customer",
+      "informed"
      ],
      "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
      "suggestionFa": "یه بار، یه محموله تأخیر داشت، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
@@ -145,10 +145,10 @@
     },
     {
      "keywords": [
-      "colleagues",
       "separately",
+      "colleagues",
       "compromise",
-      "spoke"
+      "found"
      ],
      "suggestion": "Two colleagues fell out, so I spoke to each separately and found a compromise.",
      "suggestionFa": "دو تا همکار با هم دعواشون شد، پس با هر کدوم جدا صحبت کردم و یه راه میانه پیدا کردم.",
@@ -203,8 +203,8 @@
     },
     {
      "keywords": [
-      "improved",
       "together",
+      "improved",
       "morale",
       "they"
      ],
@@ -251,9 +251,9 @@
     {
      "keywords": [
       "stronger",
+      "english",
       "evening",
-      "written",
-      "english"
+      "written"
      ],
      "suggestion": "My written English could be stronger, so I'm taking an evening course.",
      "suggestionFa": "انگلیسی نوشتاریم می‌تونه قوی‌تر باشه، برای همین یه دورهٔ شبانه می‌رم.",
@@ -292,8 +292,8 @@
    "branches": [
     {
      "keywords": [
-      "early",
       "riser",
+      "early",
       "all"
      ],
      "suggestion": "Not at all — I'm an early riser.",
@@ -306,8 +306,8 @@
      "keywords": [
       "that's",
       "first",
-      "long",
-      "fine"
+      "fine",
+      "long"
      ],
      "suggestion": "That's fine, as long as I can get the first bus.",
      "suggestionFa": "مشکلی نیست، تا وقتی که بتونم اولین اتوبوس را بگیرم.",
@@ -361,8 +361,8 @@
      "keywords": [
       "opportunity",
       "interested",
-      "progress",
-      "flexible"
+      "flexible",
+      "progress"
      ],
      "suggestion": "I'm flexible — I'm more interested in the opportunity to progress.",
      "suggestionFa": "انعطاف دارم — بیشتر به فرصت پیشرفت علاقه دارم.",
@@ -407,7 +407,7 @@
       "training",
       "typical",
       "there",
-      "look"
+      "like"
      ],
      "suggestion": "Yes — what does a typical day look like, and is there training?",
      "suggestionFa": "بله — یه روز معمولی چه شکلیه، و آموزش هست؟",

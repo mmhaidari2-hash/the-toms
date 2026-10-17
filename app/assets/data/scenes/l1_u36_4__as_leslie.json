@@ -22,13 +22,13 @@
     {
      "keywords": [
       "reading",
+      "maggie",
       "friday",
-      "every",
       "girls",
-      "weda"
+      "every"
      ],
-     "suggestion": "Shh, look. Weda is reading to the girls. She does it every Friday.",
-     "suggestionFa": "هیس، ببین. ودا داره برای دخترها کتاب می‌خونه. هر جمعه این کار را می‌کنه.",
+     "suggestion": "Shh, look. Maggie is reading to the girls. She does it every Friday.",
+     "suggestionFa": "هیس، ببین. مگی داره برای دخترها کتاب می‌خونه. هر جمعه این کار را می‌کنه.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -49,8 +49,8 @@
       "gruffalo",
       "choose",
       "always",
-      "every",
-      "girls"
+      "girls",
+      "every"
      ],
      "suggestion": "\"The Gruffalo\". The girls always choose that one! They know every word.",
      "suggestionFa": "«گروفالو». دخترها همیشه همونو انتخاب می‌کنن! همهٔ کلمه‌هاش را بلدن.",
@@ -125,17 +125,17 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "Weda reads very well!",
+   "text": "Maggie reads very well!",
    "translations": {
-    "fa": "ودا خیلی خوب می‌خونه!"
+    "fa": "مگی خیلی خوب می‌خونه!"
    },
    "branches": [
     {
      "keywords": [
       "voices",
       "read",
-      "lot",
-      "she"
+      "she",
+      "lot"
      ],
      "suggestion": "She does the voices too. Do you read a lot, Mehdi?",
      "suggestionFa": "صداها را هم درمیاره. تو زیاد کتاب می‌خونی {you}؟",
@@ -158,12 +158,12 @@
      "keywords": [
       "children's",
       "they're",
-      "english",
       "library",
-      "borrows"
+      "borrows",
+      "english"
      ],
-     "suggestion": "Try children's books! They're easy English. Weda borrows them from the library.",
-     "suggestionFa": "کتاب بچه‌ها را امتحان کن! انگلیسی آسونی دارن. ودا از کتابخونه قرض می‌گیرتشون.",
+     "suggestion": "Try children's books! They're easy English. Maggie borrows them from the library.",
+     "suggestionFa": "کتاب بچه‌ها را امتحان کن! انگلیسی آسونی دارن. مگی از کتابخونه قرض می‌گیرتشون.",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -182,13 +182,13 @@
     {
      "keywords": [
       "library",
+      "maggie",
       "never",
-      "weda",
-      "need",
-      "free"
+      "card",
+      "just"
      ],
-     "suggestion": "Yes, it's free! You just need a library card. Weda never pays.",
-     "suggestionFa": "آره، مجانیه! فقط کارت کتابخونه لازمه. ودا هیچ‌وقت پول نمیده.",
+     "suggestion": "Yes, it's free! You just need a library card. Maggie never pays.",
+     "suggestionFa": "آره، مجانیه! فقط کارت کتابخونه لازمه. مگی هیچ‌وقت پول نمیده.",
      "trustDelta": 5,
      "next": "r8",
      "success": true
@@ -258,13 +258,13 @@
     {
      "keywords": [
       "favourite",
+      "maggie",
       "nicola",
       "sound",
-      "again",
-      "weda"
+      "again"
      ],
-     "suggestion": "Ha! Now you sound like Nicola. \"Again!\" is her favourite word. Weda, one more time?",
-     "suggestionFa": "ها! حالا مثل نیکولا حرف می‌زنی. «دوباره!» کلمهٔ محبوبشه. ودا، یه بار دیگه؟",
+     "suggestion": "Ha! Now you sound like Nicola. \"Again!\" is her favourite word. Maggie, one more time?",
+     "suggestionFa": "ها! حالا مثل نیکولا حرف می‌زنی. «دوباره!» کلمهٔ محبوبشه. مگی، یه بار دیگه؟",
      "trustDelta": 5,
      "next": "r11",
      "success": true

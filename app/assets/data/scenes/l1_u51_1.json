@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "school",
+      "should",
       "call"
      ],
      "suggestion": "You should call the school.",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "teacher",
       "another",
+      "teacher",
       "test",
       "can"
      ],
@@ -283,10 +283,10 @@
     },
     {
      "keywords": [
-      "weda"
+      "maggie"
      ],
-     "suggestion": "Can Weda take her?",
-     "suggestionFa": "ودا می‌تونه ببرتش؟",
+     "suggestion": "Can Maggie take her?",
+     "suggestionFa": "مگی می‌تونه ببرتش؟",
      "trustDelta": 5,
      "next": "n7",
      "success": true

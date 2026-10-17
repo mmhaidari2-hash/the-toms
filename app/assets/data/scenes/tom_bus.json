@@ -73,8 +73,8 @@
     {
      "keywords": [
       "that's",
-      "fine",
-      "rush"
+      "rush",
+      "fine"
      ],
      "suggestion": "That's fine, I'm not in a rush.",
      "suggestionFa": "اشکالی نداره، عجله ندارم.",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "meeting",
       "quicker",
+      "meeting",
       "there",
       "i've"
      ],
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
-      "stay",
       "okay",
-      "i'll"
+      "chat",
+      "stay"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "that's",
-      "good",
       "sign",
+      "good",
       "ha"
      ],
      "suggestion": "Ha! That's not a good sign.",
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "better",
+      "thanks",
       "than",
       "tom"
      ],

@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "stop",
       "cars",
+      "stop",
       "us"
      ],
      "suggestion": "Do cars stop for us?",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "nicola",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "Well done, Nicola!",
      "suggestionFa": "آفرین نیکولا!",
@@ -237,9 +237,9 @@
     },
     {
      "keywords": [
-      "good",
-      "safe",
       "girl",
+      "safe",
+      "good",
       "now"
      ],
      "suggestion": "Good girl! Is it safe now?",

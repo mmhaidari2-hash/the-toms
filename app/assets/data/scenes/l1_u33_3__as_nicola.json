@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "leslie",
-   "text": "Look at the flower stall! I want to buy some flowers for Weda. Just because.",
+   "text": "Look at the flower stall! I want to buy some flowers for Maggie. Just because.",
    "translations": {
-    "fa": "غرفهٔ گل را ببین! می‌خوام برای ودا گل بخرم. همین‌طوری."
+    "fa": "غرفهٔ گل را ببین! می‌خوام برای مگی گل بخرم. همین‌طوری."
    },
    "branches": [
     {
@@ -53,8 +53,8 @@
     {
      "keywords": [
       "favourite",
-      "colour",
       "yellow",
+      "colour",
       "likes",
       "nana"
      ],
@@ -143,9 +143,9 @@
   "r6": {
    "id": "r6",
    "speaker": "leslie",
-   "text": "Good point. But sunflowers are big. Weda's kitchen is small!",
+   "text": "Good point. But sunflowers are big. Maggie's kitchen is small!",
    "translations": {
-    "fa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ ودا کوچیکه!"
+    "fa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ مگی کوچیکه!"
    },
    "branches": [
     {
@@ -185,7 +185,7 @@
       "they're",
       "yellow",
       "small",
-      "can"
+      "get"
      ],
      "suggestion": "Can we get daffodils too? They're yellow AND small!",
      "suggestionFa": "می‌شه نرگس هم بخریم؟ هم زردن هم کوچیک!",
@@ -260,9 +260,9 @@
      "keywords": [
       "carefully",
       "carry",
-      "give",
-      "i'll",
-      "nana"
+      "nana",
+      "them",
+      "give"
      ],
      "suggestion": "Me! Me! I'll carry them very carefully. Can I give them to Nana?",
      "suggestionFa": "من! من! خیلی با دقت میارمشون. می‌تونم بدمشون به نانا؟",

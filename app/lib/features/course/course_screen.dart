@@ -8,20 +8,53 @@ import '../../core/data/repository.dart';
 import '../shared/widgets.dart';
 
 /// The Level 1 path: calm storybook pages, one unit per painting, lessons as stepping stones.
-class CourseScreen extends ConsumerWidget {
-  const CourseScreen({super.key});
+class CourseScreen extends ConsumerStatefulWidget {
+  /// Level to open on (from a level chip, the course card or `/course?level=N`).
+  final int? level;
+  const CourseScreen({super.key, this.level});
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<CourseScreen> createState() => _CourseScreenState();
+}
+
+class _CourseScreenState extends ConsumerState<CourseScreen> {
+  final _levelKeys = <int, GlobalKey>{};
+  bool _jumped = false;
+
+  GlobalKey _keyFor(int level) => _levelKeys.putIfAbsent(level, () => GlobalKey(debugLabel: 'level-$level'));
+
+  /// Scroll so that [level]'s header is at the top. Each level opens on its own units.
+  void _goToLevel(int level) {
+    final ctx = _levelKeys[level]?.currentContext;
+    if (ctx != null) Scrollable.ensureVisible(ctx, duration: const Duration(milliseconds: 450), curve: Curves.easeOutCubic);
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final c = ref.watch(contentProvider).value;
     ref.watch(progressProvider);
     final ctrl = ref.read(progressProvider.notifier);
     if (c == null) return const Scaffold(body: Center(child: CircularProgressIndicator()));
     final course = c.course;
     final done = course.lessons.where(ctrl.lessonDone).length;
+    final levels = course.units.map((u) => u.level).toSet().toList()..sort();
+    final target = widget.level ?? (ctrl.startLevel > 1 ? ctrl.startLevel : null);
+    if (!_jumped && target != null && target > levels.first) {
+      _jumped = true;
+      // Slivers build lazily: jump near the level first, then settle on its header.
+      WidgetsBinding.instance.addPostFrameCallback((_) async {
+        final sc = PrimaryScrollController.maybeOf(context);
+        for (var k = 0; k < 40 && mounted && _levelKeys[target]?.currentContext == null; k++) {
+          if (sc == null || !sc.hasClients) break;
+          await sc.animateTo(sc.offset + 1600, duration: const Duration(milliseconds: 60), curve: Curves.linear);
+        }
+        if (mounted) _goToLevel(target);
+      });
+    }
     final pad = MediaQuery.paddingOf(context);
     return Scaffold(
       backgroundColor: BL.cream,
       body: CustomScrollView(
+        primary: true,
         slivers: [
           SliverPadding(
             padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
@@ -43,6 +76,37 @@ class CourseScreen extends ConsumerWidget {
               ),
             ),
           ),
+          // Level chips: tap a level to jump straight to its own units.
+          SliverToBoxAdapter(
+            child: SizedBox(
+              height: 44,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                padding: const EdgeInsets.fromLTRB(20, 4, 20, 4),
+                children: [
+                  for (final lv in levels)
+                    Padding(
+                      padding: const EdgeInsets.only(right: 8),
+                      child: ActionChip(
+                        key: ValueKey('levelchip-$lv'),
+                        label: Text('Level $lv  ·  ${Course.levelInfo[lv]?.$1 ?? ''}', style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12.5)),
+                        backgroundColor: lv == target ? BL.navy.withValues(alpha: .12) : BL.paper,
+                        onPressed: () async {
+                          final sc = PrimaryScrollController.maybeOf(context);
+                          for (var k = 0; k < 40 && mounted && _levelKeys[lv]?.currentContext == null; k++) {
+                            if (sc == null || !sc.hasClients) break;
+                            final before = sc.offset;
+                            await sc.animateTo((sc.offset + 1600).clamp(0, sc.position.maxScrollExtent), duration: const Duration(milliseconds: 60), curve: Curves.linear);
+                            if (sc.offset == before) break;
+                          }
+                          _goToLevel(lv);
+                        },
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ),
           SliverPadding(
             padding: const EdgeInsets.fromLTRB(20, 4, 20, 8),
             sliver: SliverToBoxAdapter(
@@ -53,7 +117,7 @@ class CourseScreen extends ConsumerWidget {
             ),
           ),
           for (var i = 0; i < course.units.length; i++) ...[
-            if (i == 0 || course.units[i - 1].level != course.units[i].level) SliverToBoxAdapter(child: _LevelHeader(level: course.units[i].level)),
+            if (i == 0 || course.units[i - 1].level != course.units[i].level) SliverToBoxAdapter(child: KeyedSubtree(key: _keyFor(course.units[i].level), child: _LevelHeader(level: course.units[i].level))),
             SliverPadding(padding: const EdgeInsets.fromLTRB(20, 22, 20, 0), sliver: SliverToBoxAdapter(child: FadeSlideIn(delayMs: 40 * i, child: _UnitBanner(c: c, u: course.units[i], index: i, open: ctrl.unitOpen(course, i))))),
             SliverToBoxAdapter(child: _Stones(c: c, u: course.units[i])),
           ],

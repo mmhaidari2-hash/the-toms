@@ -1,8 +1,8 @@
 {
  "id": "l1_u14_3__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) No more bubbles!",
- "titleFa": "(در نقش Nana Weda) دیگه حباب بسه!",
+ "title": "(As Nana Maggie) No more bubbles!",
+ "titleFa": "(در نقش Nana Maggie) دیگه حباب بسه!",
  "setting": "In the bathroom · Level 1",
  "settingFa": "در حمام",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "william's",
       "check",
-      "water",
       "ready",
+      "water",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "little",
-      "bubble",
       "nicola",
       "that's",
-      "good"
+      "bubble",
+      "much"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
      "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
@@ -122,8 +122,8 @@
      "keywords": [
       "william",
       "where's",
-      "there",
       "can't",
+      "there",
       "see"
      ],
      "suggestion": "Ha! I can't see William. Where's William? There he is!",
@@ -147,8 +147,8 @@
      "keywords": [
       "yellow",
       "rubber",
-      "duck",
       "pass",
+      "duck",
       "can"
      ],
      "suggestion": "Can you pass me the duck? The yellow rubber duck.",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "towel",
       "floor",
+      "towel",
       "dear",
-      "can",
-      "wet"
+      "get",
+      "can"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
      "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "eyes",
-      "hair"
+      "hair",
+      "like"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -271,11 +271,11 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "clever",
+      "little",
       "isn't",
       "clean",
-      "time"
+      "he's"
      ],
      "suggestion": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",
      "suggestionFa": "زرنگی! حالا تمیز تمیزه. بیا بیرون مرد کوچولو. وقت حموم بهترین وقته، نه؟",
@@ -289,9 +289,9 @@
   "r12": {
    "id": "r12",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

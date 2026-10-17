@@ -50,7 +50,7 @@
       "reception",
       "nicola's",
       "they're",
-      "teach"
+      "eight"
      ],
      "suggestion": "No, I teach Year Four. They're eight and nine. Nicola's in Reception. I teach everything!",
      "suggestionFa": "نه، من کلاس چهارم درس می‌دم. هشت و نه ساله‌ان. نیکولا تو پیش‌دبستانیه. همه چی درس می‌دم!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "different",
-      "every",
-      "cries",
       "child",
-      "laugh"
+      "laugh",
+      "cries",
+      "every"
      ],
      "suggestion": "I love them! Every day is different. Some days a child cries, some days they make me laugh.",
      "suggestionFa": "عاشقشونم! هر روز فرق داره. بعضی روزها یه بچه گریه می‌کنه، بعضی روزها منو می‌خندونن.",
@@ -123,12 +123,12 @@
      "keywords": [
       "wonderful",
       "william",
+      "maggie",
       "family",
-      "looks",
-      "she's"
+      "looks"
      ],
-     "suggestion": "Weda looks after William. She's wonderful. What does your family do?",
-     "suggestionFa": "ودا از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟",
+     "suggestion": "Maggie looks after William. She's wonderful. What does your family do?",
+     "suggestionFa": "مگی از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -171,9 +171,9 @@
      "keywords": [
       "spellings",
       "tonight",
-      "little",
+      "twenty",
       "lovely",
-      "twenty"
+      "little"
      ],
      "suggestion": "Lovely. Oh, I must mark these spellings tonight. Twenty-eight little books!",
      "suggestionFa": "عالی. آه، امشب باید این دیکته‌ها را تصحیح کنم. بیست و هشت تا دفتر کوچولو!",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "children",
-      "would",
       "stars",
+      "would",
       "love",
       "gold"
      ],

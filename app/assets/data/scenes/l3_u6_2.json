@@ -33,7 +33,7 @@
       "celebrating",
       "tom's",
       "we're",
-      "new"
+      "job"
      ],
      "suggestion": "We're celebrating Tom's new job.",
      "suggestionFa": "داریم کار جدید تام را جشن می‌گیریم.",
@@ -79,7 +79,7 @@
       "suggest",
       "leslie",
       "loves",
-      "fish"
+      "bass"
      ],
      "suggestion": "I'd suggest the sea bass for Leslie — she loves fish.",
      "suggestionFa": "من باس دریایی را برای لزلی پیشنهاد می‌کنم — عاشق ماهیه.",
@@ -176,10 +176,10 @@
    "branches": [
     {
      "keywords": [
-      "garlic",
       "breads",
-      "table",
-      "let's"
+      "garlic",
+      "let's",
+      "table"
      ],
      "suggestion": "Let's have two garlic breads for the table.",
      "suggestionFa": "دوتا نون سیر برای میز بیارید.",
@@ -236,7 +236,7 @@
       "please",
       "don't",
       "tell",
-      "her"
+      "but"
      ],
      "suggestion": "Yes, please! But don't tell her!",
      "suggestionFa": "آره لطفاً! ولی بهش نگید!",

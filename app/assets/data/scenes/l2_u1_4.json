@@ -72,8 +72,8 @@
      "keywords": [
       "that's",
       "enjoy",
-      "luck",
-      "ryan"
+      "ryan",
+      "luck"
      ],
      "suggestion": "That's bad luck. Did Ryan enjoy it?",
      "suggestionFa": "بدشانسی بود. رایان لذت برد؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "cold",
-      "get",
       "did",
+      "get",
       "he"
      ],
      "suggestion": "Did he get cold?",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "teenagers",
+      "coats",
       "bring",
-      "never",
-      "coats"
+      "never"
      ],
      "suggestion": "Teenagers never bring coats!",
      "suggestionFa": "نوجوون‌ها هیچ‌وقت کت نمیارن!",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "bovril",
-      "what's"
+      "what's",
+      "bovril"
      ],
      "suggestion": "What's Bovril?",
      "suggestionFa": "Bovril چیه؟",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "wash",
-      "out",
       "did",
+      "out",
       "oh"
      ],
      "suggestion": "Oh no! Did it wash out?",
@@ -228,9 +228,9 @@
    "branches": [
     {
      "keywords": [
+      "didn't",
       "stayed",
       "rested",
-      "didn't",
       "home"
      ],
      "suggestion": "I didn't do much. I stayed at home and rested.",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "museum",
-      "went",
       "free",
+      "went",
       "was"
      ],
      "suggestion": "I went to a museum. It was free!",

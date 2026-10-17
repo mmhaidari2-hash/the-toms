@@ -67,8 +67,8 @@
     {
      "keywords": [
       "going",
-      "he's",
-      "love"
+      "love",
+      "he's"
      ],
      "suggestion": "He's going to love it.",
      "suggestionFa": "عاشقش میشه.",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "first",
-      "put",
       "mug",
+      "put",
       "box"
      ],
      "suggestion": "Put the mug in a box first.",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "paper",
-      "fold",
       "over",
+      "fold",
       "box"
      ],
      "suggestion": "Fold the paper over the box.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "stick",
-      "hold",
-      "i'll"
+      "i'll",
+      "hold"
      ],
      "suggestion": "Hold it, and I'll stick it.",
      "suggestionFa": "تو نگهش دار، من می‌چسبونمش.",
@@ -236,9 +236,9 @@
     },
     {
      "keywords": [
+      "first",
       "piece",
       "small",
-      "first",
       "cut"
      ],
      "suggestion": "Cut a small piece first.",

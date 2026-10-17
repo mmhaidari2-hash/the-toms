@@ -20,8 +20,8 @@
     {
      "keywords": [
       "course",
-      "count",
-      "let's"
+      "let's",
+      "count"
      ],
      "suggestion": "Of course! Let's count.",
      "suggestionFa": "البته! بیا بشمریم.",
@@ -125,8 +125,8 @@
     },
     {
      "keywords": [
-      "count",
-      "sides"
+      "sides",
+      "count"
      ],
      "suggestion": "Count the sides with me!",
      "suggestionFa": "ضلع‌ها را با من بشمر!",
@@ -218,8 +218,8 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "that's",
+      "twenty",
       "pound",
       "note"
      ],
@@ -284,10 +284,10 @@
     },
     {
      "keywords": [
-      "coins",
       "pound",
-      "four",
-      "i've"
+      "coins",
+      "i've",
+      "four"
      ],
      "suggestion": "I've got four pound coins here.",
      "suggestionFa": "اینجا چهار تا سکهٔ پوندی دارم.",
@@ -317,8 +317,8 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twenty",
+      "pounds",
       "fifty",
       "six"
      ],
@@ -330,8 +330,8 @@
     },
     {
      "keywords": [
-      "add",
       "let",
+      "add",
       "up"
      ],
      "suggestion": "Let me add it up.",

@@ -31,9 +31,9 @@
     {
      "keywords": [
       "water",
-      "cold",
       "some",
-      "add"
+      "cold",
+      "bit"
      ],
      "suggestion": "It's a bit hot. Add some cold water.",
      "suggestionFa": "یه کم داغه. یه کم آب سرد اضافه کن.",
@@ -75,9 +75,9 @@
    "branches": [
     {
      "keywords": [
+      "that's",
       "enough",
       "nicola",
-      "that's",
       "stop"
      ],
      "suggestion": "Stop, Nicola! That's enough!",
@@ -255,8 +255,8 @@
    "branches": [
     {
      "keywords": [
-      "wet",
       "all",
+      "wet",
       "oh"
      ],
      "suggestion": "Oh! I'm all wet!",
@@ -299,8 +299,8 @@
    "branches": [
     {
      "keywords": [
-      "towel",
-      "which"
+      "which",
+      "towel"
      ],
      "suggestion": "Yes. Which towel?",
      "suggestionFa": "آره. کدوم حوله؟",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "blue",
-      "one",
-      "old"
+      "old",
+      "one"
      ],
      "suggestion": "The old blue one?",
      "suggestionFa": "اون آبی قدیمیه؟",

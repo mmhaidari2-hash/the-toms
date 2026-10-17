@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "ride",
       "bike",
+      "ride",
       "can"
      ],
      "suggestion": "Yes, I can ride a bike.",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "what's",
-      "hire",
-      "bike"
+      "bike",
+      "hire"
      ],
      "suggestion": "What's a hire bike?",
      "suggestionFa": "دوچرخهٔ کرایه‌ای چیه؟",
@@ -79,8 +79,8 @@
     {
      "keywords": [
       "where",
-      "get",
       "can",
+      "get",
       "one"
      ],
      "suggestion": "Where can I get one?",
@@ -265,9 +265,9 @@
     {
      "keywords": [
       "remember",
-      "keep",
       "left",
-      "i'll"
+      "i'll",
+      "keep"
      ],
      "suggestion": "Keep left. I'll remember.",
      "suggestionFa": "از چپ برم. یادم می‌مونه.",
@@ -320,8 +320,8 @@
     },
     {
      "keywords": [
-      "ride",
       "bike",
+      "ride",
       "tom"
      ],
      "suggestion": "Do you ride a bike, Tom?",

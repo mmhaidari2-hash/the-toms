@@ -88,8 +88,8 @@
      "keywords": [
       "understood",
       "tudors",
-      "words",
-      "three"
+      "about",
+      "words"
      ],
      "suggestion": "You gave me a book about the Tudors, and I understood about three words.",
      "suggestionFa": "یه کتاب دربارهٔ تودورها بهم دادید، و حدود سه کلمه‌اش را فهمیدم.",
@@ -136,10 +136,10 @@
     },
     {
      "keywords": [
-      "every",
       "worth",
-      "step",
-      "long"
+      "every",
+      "road",
+      "step"
      ],
      "suggestion": "It's been a long road, but every step was worth it.",
      "suggestionFa": "راه طولانی‌ای بوده، ولی هر قدمش ارزشش را داشت.",
@@ -179,8 +179,8 @@
      "keywords": [
       "especially",
       "freedoms",
-      "respect",
-      "loyalty"
+      "loyalty",
+      "freedom"
      ],
      "suggestion": "\"I will give my loyalty to the United Kingdom and respect its rights and freedoms.\" Freedom, especially.",
      "suggestionFa": "«به بریتانیا وفادار خواهم بود و به حقوق و آزادی‌هایش احترام خواهم گذاشت.» مخصوصاً آزادی.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "officially",
-      "something",
       "belonging",
+      "something",
       "outsider"
      ],
      "suggestion": "Being part of something — belonging officially, after feeling like an outsider for so long.",

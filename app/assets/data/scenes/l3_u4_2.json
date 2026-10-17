@@ -75,7 +75,7 @@
       "thermostat",
       "could",
       "maybe",
-      "down"
+      "turn"
      ],
      "suggestion": "Maybe we could turn the thermostat down a bit.",
      "suggestionFa": "شاید بتونیم ترموستات را یه کم پایین بیاریم.",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "times",
       "could",
+      "times",
       "cook",
       "week"
      ],
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "spend",
-      "food",
       "much",
+      "food",
       "how"
      ],
      "suggestion": "How much do we spend on food?",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "help",
       "more",
+      "rent",
       "like",
-      "rent"
+      "help"
      ],
      "suggestion": "I'd like to pay a bit more rent to help.",
      "suggestionFa": "دوست دارم یه کم اجارهٔ بیشتری بدم کمک کنم.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
+      "next",
+      "deal",
       "meal",
-      "plan",
-      "deal"
+      "plan"
      ],
      "suggestion": "Deal. I'll make a meal plan for next week.",
      "suggestionFa": "قبول. برای هفتهٔ بعد برنامهٔ غذایی می‌نویسم.",

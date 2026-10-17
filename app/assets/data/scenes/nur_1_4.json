@@ -1,0 +1,275 @@
+{
+ "id": "nur_1_4",
+ "characterId": "vida",
+ "title": "Tidy up time",
+ "titleFa": "وقت جمع کردن",
+ "setting": "Good morning, Little Acorns! · Level 0",
+ "settingFa": "صبح بخیر، لیتل ایکورنز!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Five more minutes, then it's tidy up time. We always give a warning first.",
+   "translations": {
+    "fa": "پنج دقیقه دیگه، بعد وقت جمع کردنه. همیشه اول یه هشدار می‌دیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "minutes",
+      "more",
+      "five"
+     ],
+     "suggestion": "Five more minutes, everyone!",
+     "suggestionFa": "همه، پنج دقیقه دیگه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "warning",
+      "give",
+      "why"
+     ],
+     "suggestion": "Why do you give a warning?",
+     "suggestionFa": "چرا هشدار می‌دید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tidy up",
+     "fa": "جمع و جور کردن"
+    },
+    {
+     "word": "warning",
+     "fa": "هشدار ؛ اعلام قبلی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Children hate stopping suddenly. A warning helps. OK, it's time! Ring the bell and sing the tidy up song.",
+   "translations": {
+    "fa": "بچه‌ها از یهو متوقف شدن بدشون میاد. هشدار کمک می‌کنه. خب، وقتشه! زنگ را بزن و آهنگ جمع کردن را بخون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "everybody",
+      "tidy",
+      "up"
+     ],
+     "suggestion": "Tidy up, tidy up, everybody everywhere!",
+     "suggestionFa": "جمع کنیم، جمع کنیم، همه جا، همه با هم!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "bell"
+     ],
+     "suggestion": "Where's the bell?",
+     "suggestionFa": "زنگ کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "suddenly",
+     "fa": "ناگهان"
+    },
+    {
+     "word": "bell",
+     "fa": "زنگ"
+    },
+    {
+     "word": "everybody",
+     "fa": "همه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "I'm still playing! My tower!",
+   "translations": {
+    "fa": "هنوز دارم بازی می‌کنم! برجم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "first",
+      "tower",
+      "photo"
+     ],
+     "suggestion": "Let's take a photo of your tower first.",
+     "suggestionFa": "بیا اول از برجت عکس بگیریم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "again",
+      "build",
+      "can"
+     ],
+     "suggestion": "You can build it again tomorrow.",
+     "suggestionFa": "فردا دوباره می‌تونی بسازیش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "tower",
+     "fa": "برج"
+    },
+    {
+     "word": "tomorrow",
+     "fa": "فردا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Nurseries take photos of children's work on the nursery tablet, never personal phones.",
+    "fa": "عکس فقط با تبلت مهد گرفته می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Great idea — the nursery tablet's on the shelf. Now, can you help the children put the blocks in the box?",
+   "translations": {
+    "fa": "فکر خوبیه — تبلت مهد رو قفسه‌ست. حالا می‌تونی به بچه‌ها کمک کنی مکعب‌ها را تو جعبه بذارن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blocks",
+      "please",
+      "box"
+     ],
+     "suggestion": "Blocks in the box, please!",
+     "suggestionFa": "مکعب‌ها تو جعبه، لطفاً!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "away",
+      "cars",
+      "put"
+     ],
+     "suggestion": "Let's put the cars away too.",
+     "suggestionFa": "بیاید ماشین‌ها را هم جمع کنیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blocks",
+     "fa": "مکعب‌ها"
+    },
+    {
+     "word": "box",
+     "fa": "جعبه"
+    },
+    {
+     "word": "put away",
+     "fa": "سر جایش گذاشتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you put blocks in box",
+      "blocks put in box"
+     ],
+     "echo": "Blocks in the box, please? Yes!",
+     "better": "Can you put the blocks in the box, please?",
+     "betterFa": "می‌شه مکعب‌ها را تو جعبه بذاری؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "oscar",
+   "text": "I tidied the cars! All of them!",
+   "translations": {
+    "fa": "ماشین‌ها را جمع کردم! همه‌شون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "tidying",
+      "thank",
+      "oscar"
+     ],
+     "suggestion": "Amazing tidying, Oscar! Thank you!",
+     "suggestionFa": "جمع کردن عالی، اسکار! ممنون!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helper",
+      "great",
+      "wow"
+     ],
+     "suggestion": "Wow, you're a great helper!",
+     "suggestionFa": "وای، کمک‌کار خیلی خوبی هستی!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tidied",
+     "fa": "جمع کرد"
+    },
+    {
+     "word": "helper",
+     "fa": "کمک‌کار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "See? Specific praise works: \"great tidying\", not just \"good boy\". Now, everyone on the carpet for a story!",
+   "translations": {
+    "fa": "دیدی؟ تشویق دقیق جواب میده: «جمع کردن عالی»، نه فقط «پسر خوب». خب، همه رو فرش برای وقت قصه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

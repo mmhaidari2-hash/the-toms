@@ -21,8 +21,8 @@
      "keywords": [
       "library",
       "please",
-      "like",
-      "join"
+      "join",
+      "like"
      ],
      "suggestion": "I'd like to join the library, please.",
      "suggestionFa": "می‌خوام عضو کتابخونه بشم، لطفاً.",
@@ -76,8 +76,8 @@
      "keywords": [
       "haven't",
       "bring",
-      "time",
-      "next"
+      "next",
+      "time"
      ],
      "suggestion": "I haven't got one with me. Can I bring it next time?",
      "suggestionFa": "همراهم نیست. می‌تونم دفعهٔ بعد بیارمش؟",
@@ -168,8 +168,8 @@
     {
      "keywords": [
       "generous",
-      "that's",
       "twelve",
+      "that's",
       "renew"
      ],
      "suggestion": "Twelve! That's generous. Can I renew them?",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "grandmother",
-      "loved",
-      "hafez"
+      "hafez",
+      "loved"
      ],
      "suggestion": "Hafez! My grandmother loved Hafez.",
      "suggestionFa": "حافظ! مادربزرگم عاشق حافظ بود.",
@@ -280,9 +280,9 @@
     {
      "keywords": [
       "wonderful",
-      "expect",
+      "didn't",
       "that's",
-      "didn't"
+      "expect"
      ],
      "suggestion": "That's wonderful. I didn't expect that.",
      "suggestionFa": "فوق‌العاده‌ست. انتظارش را نداشتم.",
@@ -318,9 +318,9 @@
     {
      "keywords": [
       "love",
-      "time",
       "free",
-      "come"
+      "come",
+      "time"
      ],
      "suggestion": "Free? I'd love to come. What time?",
      "suggestionFa": "رایگان؟ دوست دارم بیام. ساعت چند؟",
@@ -331,8 +331,8 @@
     {
      "keywords": [
       "place",
-      "need",
-      "book"
+      "book",
+      "need"
      ],
      "suggestion": "Do I need to book a place?",
      "suggestionFa": "لازمه جا رزرو کنم؟",
@@ -373,7 +373,7 @@
       "helpful",
       "you've",
       "thank",
-      "much"
+      "been"
      ],
      "suggestion": "Thank you so much. You've been very helpful.",
      "suggestionFa": "خیلی ممنون. خیلی کمک کردید.",
@@ -384,9 +384,9 @@
     {
      "keywords": [
       "neighbour",
-      "bring",
       "she's",
-      "i'll"
+      "bring",
+      "here"
      ],
      "suggestion": "I'll bring my neighbour. She's new here too.",
      "suggestionFa": "همسایه‌ام را میارم. اونم تازه اومده.",

@@ -22,7 +22,7 @@
       "there",
       "said",
       "was",
-      "he"
+      "ha"
      ],
      "suggestion": "Ha! I was there. He said it!",
      "suggestionFa": "ها! من اونجا بودم. گفتش!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "say",
-      "tom",
-      "did"
+      "did",
+      "tom"
      ],
      "suggestion": "What did Tom say?",
      "suggestionFa": "تام چی گفت؟",
@@ -79,8 +79,8 @@
     },
     {
      "keywords": [
-      "being",
       "silly",
+      "being",
       "was",
       "he"
      ],
@@ -216,8 +216,8 @@
    "branches": [
     {
      "keywords": [
-      "small",
       "don't",
+      "small",
       "know",
       "was"
      ],
@@ -272,8 +272,8 @@
      "keywords": [
       "they're",
       "knows",
-      "he",
-      "ha"
+      "ha",
+      "he"
      ],
      "suggestion": "Ha! He knows they're funny!",
      "suggestionFa": "ها! می‌دونه بامزه‌ان!",

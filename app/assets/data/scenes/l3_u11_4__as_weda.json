@@ -1,8 +1,8 @@
 {
  "id": "l3_u11_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) The prescription mix-up",
- "titleFa": "(در نقش Nana Weda) اشتباه در نسخه",
+ "title": "(As Nana Maggie) The prescription mix-up",
+ "titleFa": "(در نقش Nana Maggie) اشتباه در نسخه",
  "setting": "When things go wrong · Level 3",
  "settingFa": "وقتی اوضاع خراب می‌شود",
  "requires": null,
@@ -113,10 +113,10 @@
     {
      "keywords": [
       "where's",
-      "tablet",
       "should",
+      "tablet",
       "items",
-      "there"
+      "water"
      ],
      "suggestion": "Hang on, love. There should be four items. Where's his water tablet?",
      "suggestionFa": "صبر کن عزیزم. باید چهار قلم باشه. قرص ادرارآورش کجاست؟",
@@ -191,9 +191,9 @@
      "keywords": [
       "mustn't",
       "heart",
+      "he's",
       "days",
-      "left",
-      "he's"
+      "left"
      ],
      "suggestion": "He's got two days left. He mustn't run out — it's for his heart.",
      "suggestionFa": "دو روز دیگه داره. نباید تموم بشه — برای قلبشه.",
@@ -388,9 +388,9 @@
      "keywords": [
       "paperwork",
       "caught",
-      "nurse",
+      "let's",
       "forty",
-      "still"
+      "thank"
      ],
      "suggestion": "Thank you, both. Forty years a nurse, and I still get caught out by paperwork! Come on, love — let's get him his tea.",
      "suggestionFa": "ممنون، از هر دوتون. چهل سال پرستار بودم، و هنوز گیر کاغذبازی می‌افتم! بیا عزیزم — بریم چاییش را بدیم.",
@@ -404,9 +404,9 @@
   "r15": {
    "id": "r15",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

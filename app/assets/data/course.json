@@ -25853,8 +25853,8 @@
     },
     {
      "id": "l3_u2_4",
-     "title": "Looking after Weda",
-     "titleFa": "مراقبت از ودا",
+     "title": "Looking after Maggie",
+     "titleFa": "مراقبت از مگی",
      "lead": "weda",
      "place": "poorly",
      "grammar": "Offers and requests: Would you mind…? / Shall I…?",
@@ -30177,8 +30177,8 @@
     },
     {
      "id": "l4_u3_4",
-     "title": "Weda's charity shop",
-     "titleFa": "فروشگاه خیریهٔ ودا",
+     "title": "Maggie's charity shop",
+     "titleFa": "فروشگاه خیریهٔ مگی",
      "lead": "weda",
      "place": "library",
      "grammar": "Describing past routines: would + infinitive",
@@ -32415,8 +32415,8 @@
     },
     {
      "id": "l4_u10_3",
-     "title": "Weda's wisdom",
-     "titleFa": "حکمت ودا",
+     "title": "Maggie's wisdom",
+     "titleFa": "حکمت مگی",
      "lead": "weda",
      "place": "poorly",
      "grammar": "Reflecting: Looking back… / If I could tell my younger self…",
@@ -34620,8 +34620,8 @@
     },
     {
      "id": "l5_u5_4",
-     "title": "Weda's fears",
-     "titleFa": "نگرانی‌های ودا",
+     "title": "Maggie's fears",
+     "titleFa": "نگرانی‌های مگی",
      "lead": "weda",
      "place": "poorly",
      "grammar": "Listening and validating emotions",
@@ -36878,6 +36878,1797 @@
       }
      ],
      "turns": 17
+    }
+   ]
+  }
+ ],
+ "packs": [
+  {
+   "id": "nursery",
+   "title": "Vida's Nursery",
+   "titleFa": "مهدکودک ویدا",
+   "lead": "vida",
+   "place": "firstday",
+   "premium": true,
+   "blurb": "Real early-years English for working in a UK nursery: routines, children, parents, colleagues, safeguarding, EYFS and Ofsted.",
+   "blurbFa": "انگلیسی واقعی برای کار در مهدکودک‌های بریتانیا: روال روزانه، بچه‌ها، والدین، همکاران، حفاظت از کودک، EYFS و Ofsted.",
+   "levels": "A1–B2",
+   "units": [
+    {
+     "level": 0,
+     "id": "N1",
+     "title": "Good morning, Little Acorns!",
+     "titleFa": "صبح بخیر، لیتل ایکورنز!",
+     "place": "firstday",
+     "canDo": "Greet children, give simple instructions, wash hands and snack time",
+     "canDoFa": "به بچه‌ها سلام کنی، دستورهای ساده بدهی، دست شستن و وقت خوراکی",
+     "cefr": "A1",
+     "lessons": [
+      {
+       "id": "nur_1_1",
+       "title": "Your first day",
+       "titleFa": "اولین روزت",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Imperatives: come in, hang up, sit down",
+       "grammarFa": "فعل امر",
+       "sceneIds": [
+        "nur_1_1"
+       ],
+       "words": [
+        {
+         "word": "welcome",
+         "fa": "خوش آمدی"
+        },
+        {
+         "word": "pre-school room",
+         "fa": "اتاق پیش‌دبستانی"
+        },
+        {
+         "word": "nervous",
+         "fa": "مضطرب ؛ نگران"
+        },
+        {
+         "word": "sign in",
+         "fa": "ثبت ورود"
+        },
+        {
+         "word": "locker",
+         "fa": "کمد ؛ قفسه"
+        },
+        {
+         "word": "phone",
+         "fa": "گوشی"
+        },
+        {
+         "word": "morning",
+         "fa": "صبح بخیر (کوتاه)"
+        },
+        {
+         "word": "nephew",
+         "fa": "خواهرزاده/برادرزاده (پسر)"
+        },
+        {
+         "word": "dinosaur",
+         "fa": "دایناسور"
+        },
+        {
+         "word": "come in",
+         "fa": "بیا تو"
+        },
+        {
+         "word": "hang up",
+         "fa": "آویزان کردن"
+        },
+        {
+         "word": "coat",
+         "fa": "کت ؛ پالتو"
+        },
+        {
+         "word": "carpet",
+         "fa": "فرش ؛ موکت"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_1_2",
+       "title": "Wash your hands",
+       "titleFa": "دست‌هایت را بشور",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Imperatives + first/then",
+       "grammarFa": "فعل امر + اول/بعد",
+       "sceneIds": [
+        "nur_1_2"
+       ],
+       "words": [
+        {
+         "word": "snack time",
+         "fa": "وقت خوراکی ؛ میان‌وعده"
+        },
+        {
+         "word": "sink",
+         "fa": "روشویی"
+        },
+        {
+         "word": "paper towels",
+         "fa": "دستمال کاغذی"
+        },
+        {
+         "word": "sleeves up",
+         "fa": "آستین‌ها بالا"
+        },
+        {
+         "word": "soap",
+         "fa": "صابون"
+        },
+        {
+         "word": "rub",
+         "fa": "مالیدن"
+        },
+        {
+         "word": "rinse",
+         "fa": "آب کشیدن"
+        },
+        {
+         "word": "dry",
+         "fa": "خشک کردن"
+        },
+        {
+         "word": "bubbles",
+         "fa": "حباب‌ها"
+        },
+        {
+         "word": "rub",
+         "fa": "مالیدن"
+        },
+        {
+         "word": "together",
+         "fa": "با هم"
+        },
+        {
+         "word": "warm",
+         "fa": "گرم"
+        },
+        {
+         "word": "good job",
+         "fa": "آفرین ؛ کارت خوب بود"
+        },
+        {
+         "word": "bin",
+         "fa": "سطل"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_1_3",
+       "title": "Snack time",
+       "titleFa": "وقت خوراکی",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Offering: Would you like…? / Here you are",
+       "grammarFa": "پیشنهاد",
+       "sceneIds": [
+        "nur_1_3"
+       ],
+       "words": [
+        {
+         "word": "hand out",
+         "fa": "پخش کردن"
+        },
+        {
+         "word": "plate",
+         "fa": "بشقاب"
+        },
+        {
+         "word": "allergies",
+         "fa": "حساسیت‌ها"
+        },
+        {
+         "word": "dairy",
+         "fa": "لبنیات"
+        },
+        {
+         "word": "allergy board",
+         "fa": "تابلوی حساسیت‌ها"
+        },
+        {
+         "word": "check",
+         "fa": "بررسی کردن"
+        },
+        {
+         "word": "would you like",
+         "fa": "آیا می‌خواهی ؛ میل داری"
+        },
+        {
+         "word": "here you are",
+         "fa": "بفرما"
+        },
+        {
+         "word": "more",
+         "fa": "بیشتر"
+        },
+        {
+         "word": "manners",
+         "fa": "ادب"
+        },
+        {
+         "word": "praise",
+         "fa": "تشویق کردن"
+        },
+        {
+         "word": "wipe",
+         "fa": "پاک کردن"
+        },
+        {
+         "word": "cloth",
+         "fa": "دستمال"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_1_4",
+       "title": "Tidy up time",
+       "titleFa": "وقت جمع کردن",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Let's… / Can you…?",
+       "grammarFa": "بیا… / می‌تونی…؟",
+       "sceneIds": [
+        "nur_1_4"
+       ],
+       "words": [
+        {
+         "word": "tidy up",
+         "fa": "جمع و جور کردن"
+        },
+        {
+         "word": "warning",
+         "fa": "هشدار ؛ اعلام قبلی"
+        },
+        {
+         "word": "suddenly",
+         "fa": "ناگهان"
+        },
+        {
+         "word": "bell",
+         "fa": "زنگ"
+        },
+        {
+         "word": "everybody",
+         "fa": "همه"
+        },
+        {
+         "word": "still",
+         "fa": "هنوز"
+        },
+        {
+         "word": "tower",
+         "fa": "برج"
+        },
+        {
+         "word": "tomorrow",
+         "fa": "فردا"
+        },
+        {
+         "word": "blocks",
+         "fa": "مکعب‌ها"
+        },
+        {
+         "word": "box",
+         "fa": "جعبه"
+        },
+        {
+         "word": "put away",
+         "fa": "سر جایش گذاشتن"
+        },
+        {
+         "word": "tidied",
+         "fa": "جمع کرد"
+        },
+        {
+         "word": "helper",
+         "fa": "کمک‌کار"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "N2",
+     "title": "Care routines",
+     "titleFa": "روال مراقبت",
+     "place": "firstday",
+     "canDo": "Help with toileting, lunch, nap time and getting ready to go outside",
+     "canDoFa": "در دستشویی، ناهار، خواب و آماده شدن برای بیرون کمک کنی",
+     "cefr": "A1",
+     "lessons": [
+      {
+       "id": "nur_2_1",
+       "title": "Toilet time",
+       "titleFa": "وقت دستشویی",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Do you need…? / Let's…",
+       "grammarFa": "لازم داری…؟ / بیا…",
+       "sceneIds": [
+        "nur_2_1"
+       ],
+       "words": [
+        {
+         "word": "nappies",
+         "fa": "پوشک‌ها"
+        },
+        {
+         "word": "toilet training",
+         "fa": "یاد گرفتن دستشویی رفتن"
+        },
+        {
+         "word": "toilet",
+         "fa": "دستشویی"
+        },
+        {
+         "word": "wee",
+         "fa": "جیش (بچگانه)"
+        },
+        {
+         "word": "quick",
+         "fa": "سریع"
+        },
+        {
+         "word": "gloves",
+         "fa": "دستکش"
+        },
+        {
+         "word": "apron",
+         "fa": "پیش‌بند"
+        },
+        {
+         "word": "by himself",
+         "fa": "خودش تنهایی"
+        },
+        {
+         "word": "brilliant",
+         "fa": "عالی"
+        },
+        {
+         "word": "trousers",
+         "fa": "شلوار"
+        },
+        {
+         "word": "pull up",
+         "fa": "بالا کشیدن"
+        },
+        {
+         "word": "chart",
+         "fa": "جدول"
+        },
+        {
+         "word": "accident",
+         "fa": "اتفاق (خیس کردن)"
+        },
+        {
+         "word": "tell off",
+         "fa": "دعوا کردن"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_2_2",
+       "title": "Lunchtime",
+       "titleFa": "وقت ناهار",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Do you want some more? / Try a little",
+       "grammarFa": "بیشتر می‌خوای؟ / یه کم امتحان کن",
+       "sceneIds": [
+        "nur_2_2"
+       ],
+       "words": [
+        {
+         "word": "lunch",
+         "fa": "ناهار"
+        },
+        {
+         "word": "peas",
+         "fa": "نخود فرنگی"
+        },
+        {
+         "word": "table",
+         "fa": "میز"
+        },
+        {
+         "word": "cool",
+         "fa": "خنک شدن"
+        },
+        {
+         "word": "social",
+         "fa": "اجتماعی"
+        },
+        {
+         "word": "yuck",
+         "fa": "اَه ؛ پیف"
+        },
+        {
+         "word": "try",
+         "fa": "امتحان کردن"
+        },
+        {
+         "word": "a little bit",
+         "fa": "یه ذره"
+        },
+        {
+         "word": "finished",
+         "fa": "تمام شد"
+        },
+        {
+         "word": "some more",
+         "fa": "کمی بیشتر"
+        },
+        {
+         "word": "clean plate",
+         "fa": "بشقاب خالی"
+        },
+        {
+         "word": "note",
+         "fa": "یادداشت کردن"
+        },
+        {
+         "word": "most",
+         "fa": "بیشترش"
+        },
+        {
+         "word": "none",
+         "fa": "هیچ"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_2_3",
+       "title": "Nap time",
+       "titleFa": "وقت خواب",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Present continuous: He's sleeping",
+       "grammarFa": "حال استمراری",
+       "sceneIds": [
+        "nur_2_3"
+       ],
+       "words": [
+        {
+         "word": "nap",
+         "fa": "چرت ؛ خواب کوتاه"
+        },
+        {
+         "word": "sleep mat",
+         "fa": "تشک خواب"
+        },
+        {
+         "word": "soft music",
+         "fa": "موسیقی آرام"
+        },
+        {
+         "word": "how long",
+         "fa": "چه مدت"
+        },
+        {
+         "word": "at all",
+         "fa": "اصلاً"
+        },
+        {
+         "word": "tired",
+         "fa": "خسته"
+        },
+        {
+         "word": "lie down",
+         "fa": "دراز کشیدن"
+        },
+        {
+         "word": "rest",
+         "fa": "استراحت دادن"
+        },
+        {
+         "word": "yawning",
+         "fa": "خمیازه کشیدن"
+        },
+        {
+         "word": "sleep chart",
+         "fa": "جدول خواب"
+        },
+        {
+         "word": "check",
+         "fa": "بررسی کردن"
+        },
+        {
+         "word": "breathing",
+         "fa": "نفس کشیدن"
+        },
+        {
+         "word": "comfortable",
+         "fa": "راحت"
+        },
+        {
+         "word": "fast asleep",
+         "fa": "در خواب عمیق"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_2_4",
+       "title": "Coats on, outside we go!",
+       "titleFa": "کت‌ها تن، بریم بیرون!",
+       "lead": "vida",
+       "place": "park",
+       "grammar": "Put on / take off",
+       "grammarFa": "پوشیدن / درآوردن",
+       "sceneIds": [
+        "nur_2_4"
+       ],
+       "words": [
+        {
+         "word": "wellies",
+         "fa": "چکمهٔ لاستیکی"
+        },
+        {
+         "word": "hat",
+         "fa": "کلاه"
+        },
+        {
+         "word": "line up",
+         "fa": "صف بستن"
+        },
+        {
+         "word": "zip",
+         "fa": "زیپ"
+        },
+        {
+         "word": "pull up",
+         "fa": "بالا کشیدن"
+        },
+        {
+         "word": "independence",
+         "fa": "استقلال"
+        },
+        {
+         "word": "partner",
+         "fa": "همراه ؛ هم‌گروه"
+        },
+        {
+         "word": "behind",
+         "fa": "پشت سر"
+        },
+        {
+         "word": "slide",
+         "fa": "سرسره"
+        },
+        {
+         "word": "turn",
+         "fa": "نوبت"
+        },
+        {
+         "word": "walk",
+         "fa": "راه رفتن"
+        },
+        {
+         "word": "count",
+         "fa": "شمردن"
+        },
+        {
+         "word": "adult",
+         "fa": "بزرگسال"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "N3",
+     "title": "Play, songs and feelings",
+     "titleFa": "بازی، آهنگ و احساسات",
+     "place": "playdate",
+     "canDo": "Lead circle time, praise, and handle sharing and behaviour calmly",
+     "canDoFa": "وقت حلقه را اداره کنی، تشویق کنی و با رفتار بچه‌ها آرام برخورد کنی",
+     "cefr": "A2",
+     "lessons": [
+      {
+       "id": "nur_3_1",
+       "title": "Circle time",
+       "titleFa": "وقت حلقه",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Questions: How are you feeling? What's the weather like?",
+       "grammarFa": "سؤال پرسیدن",
+       "sceneIds": [
+        "nur_3_1"
+       ],
+       "words": [
+        {
+         "word": "circle time",
+         "fa": "وقت حلقه ؛ زمان گروهی"
+        },
+        {
+         "word": "circle",
+         "fa": "دایره ؛ حلقه"
+        },
+        {
+         "word": "carpet",
+         "fa": "فرش"
+        },
+        {
+         "word": "weather",
+         "fa": "آب‌وهوا"
+        },
+        {
+         "word": "wave",
+         "fa": "دست تکان دادن"
+        },
+        {
+         "word": "window",
+         "fa": "پنجره"
+        },
+        {
+         "word": "rainy",
+         "fa": "بارانی"
+        },
+        {
+         "word": "picture",
+         "fa": "تصویر"
+        },
+        {
+         "word": "feelings",
+         "fa": "احساسات"
+        },
+        {
+         "word": "angry",
+         "fa": "عصبانی"
+        },
+        {
+         "word": "point to",
+         "fa": "اشاره کردن به"
+        },
+        {
+         "word": "cuddle",
+         "fa": "بغل"
+        },
+        {
+         "word": "come back",
+         "fa": "برگشتن"
+        },
+        {
+         "word": "actions",
+         "fa": "حرکات"
+        },
+        {
+         "word": "sing",
+         "fa": "آواز خواندن"
+        }
+       ],
+       "turns": 13
+      },
+      {
+       "id": "nur_3_2",
+       "title": "Gentle hands",
+       "titleFa": "دست‌های مهربان",
+       "lead": "vida",
+       "place": "playdate",
+       "grammar": "Can you…? / We don't… / Use your words",
+       "grammarFa": "قوانین رفتار",
+       "sceneIds": [
+        "nur_3_2"
+       ],
+       "words": [
+        {
+         "word": "mine",
+         "fa": "مال من"
+        },
+        {
+         "word": "give back",
+         "fa": "پس دادن"
+        },
+        {
+         "word": "use your words",
+         "fa": "با کلمه بگو"
+        },
+        {
+         "word": "pushed",
+         "fa": "هل داد"
+        },
+        {
+         "word": "first",
+         "fa": "اول"
+        },
+        {
+         "word": "gentle hands",
+         "fa": "دست‌های آرام و مهربان"
+        },
+        {
+         "word": "level",
+         "fa": "هم‌سطح ؛ هم‌قد"
+        },
+        {
+         "word": "solution",
+         "fa": "راه‌حل"
+        },
+        {
+         "word": "blame",
+         "fa": "مقصر دانستن"
+        },
+        {
+         "word": "sorry",
+         "fa": "ببخشید ؛ عذرخواهی"
+        },
+        {
+         "word": "sand timer",
+         "fa": "ساعت شنی"
+        },
+        {
+         "word": "fair",
+         "fa": "منصفانه"
+        },
+        {
+         "word": "taking turns",
+         "fa": "نوبت گرفتن"
+        },
+        {
+         "word": "sharing",
+         "fa": "شریک شدن"
+        },
+        {
+         "word": "together",
+         "fa": "با هم"
+        }
+       ],
+       "turns": 13
+      },
+      {
+       "id": "nur_3_3",
+       "title": "Messy play",
+       "titleFa": "بازی کثیف‌کاری",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Describing: It feels squishy / sticky / cold",
+       "grammarFa": "توصیف حس",
+       "sceneIds": [
+        "nur_3_3"
+       ],
+       "words": [
+        {
+         "word": "messy play",
+         "fa": "بازی با مواد کثیف‌کننده"
+        },
+        {
+         "word": "cornflour",
+         "fa": "نشاستهٔ ذرت"
+        },
+        {
+         "word": "apron",
+         "fa": "پیش‌بند"
+        },
+        {
+         "word": "runny",
+         "fa": "آبکی"
+        },
+        {
+         "word": "squeeze",
+         "fa": "فشار دادن"
+        },
+        {
+         "word": "feel like",
+         "fa": "حس داشتن"
+        },
+        {
+         "word": "squishy",
+         "fa": "نرم و لِه‌شونده"
+        },
+        {
+         "word": "cold",
+         "fa": "سرد"
+        },
+        {
+         "word": "dripping",
+         "fa": "چکیدن"
+        },
+        {
+         "word": "fingers",
+         "fa": "انگشت‌ها"
+        },
+        {
+         "word": "tray",
+         "fa": "سینی"
+        },
+        {
+         "word": "commentary",
+         "fa": "توصیف هم‌زمان"
+        },
+        {
+         "word": "learning journal",
+         "fa": "دفتر یادگیری (پروندهٔ پیشرفت کودک)"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_3_4",
+       "title": "Praise that works",
+       "titleFa": "تشویق مؤثر",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Past simple for praise: You tried really hard",
+       "grammarFa": "گذشتهٔ ساده",
+       "sceneIds": [
+        "nur_3_4"
+       ],
+       "words": [
+        {
+         "word": "tip",
+         "fa": "نکته ؛ توصیه"
+        },
+        {
+         "word": "exactly",
+         "fa": "دقیقاً"
+        },
+        {
+         "word": "by yourself",
+         "fa": "خودت تنهایی"
+        },
+        {
+         "word": "practise",
+         "fa": "تمرین کردن"
+        },
+        {
+         "word": "puzzle",
+         "fa": "پازل"
+        },
+        {
+         "word": "whole",
+         "fa": "کل ؛ تمام"
+        },
+        {
+         "word": "pieces",
+         "fa": "تکه‌ها"
+        },
+        {
+         "word": "give up",
+         "fa": "تسلیم شدن"
+        },
+        {
+         "word": "kept going",
+         "fa": "ادامه داد"
+        },
+        {
+         "word": "effort",
+         "fa": "تلاش"
+        },
+        {
+         "word": "results",
+         "fa": "نتایج"
+        },
+        {
+         "word": "without being asked",
+         "fa": "بدون اینکه کسی بخواهد"
+        },
+        {
+         "word": "sticker",
+         "fa": "برچسب"
+        },
+        {
+         "word": "earned",
+         "fa": "به دست آورد"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "N4",
+     "title": "Talking with parents",
+     "titleFa": "صحبت با والدین",
+     "place": "firstday",
+     "canDo": "Handle drop-off and pick-up, give a daily report, and explain accident and medicine forms",
+     "canDoFa": "تحویل گرفتن و دادن بچه، گزارش روزانه، و فرم حادثه و دارو را توضیح بدهی",
+     "cefr": "A2",
+     "lessons": [
+      {
+       "id": "nur_4_1",
+       "title": "Drop-off",
+       "titleFa": "تحویل گرفتن صبح",
+       "lead": "dan",
+       "place": "firstday",
+       "grammar": "Questions for handover: Did he sleep well? Has he had breakfast?",
+       "grammarFa": "سؤال‌های تحویل",
+       "sceneIds": [
+        "nur_4_1"
+       ],
+       "words": [
+        {
+         "word": "packed",
+         "fa": "خیلی شلوغ"
+        },
+        {
+         "word": "grumpy",
+         "fa": "بداخلاق ؛ کج‌خلق"
+        },
+        {
+         "word": "handover",
+         "fa": "تحویل"
+        },
+        {
+         "word": "woke up",
+         "fa": "بیدار شد"
+        },
+        {
+         "word": "write down",
+         "fa": "یادداشت کردن"
+        },
+        {
+         "word": "might",
+         "fa": "ممکن است"
+        },
+        {
+         "word": "picking up",
+         "fa": "دنبال کسی رفتن ؛ بردن"
+        },
+        {
+         "word": "collection list",
+         "fa": "فهرست افراد مجاز"
+        },
+        {
+         "word": "password",
+         "fa": "رمز"
+        },
+        {
+         "word": "wave",
+         "fa": "دست تکان دادن"
+        },
+        {
+         "word": "mate",
+         "fa": "رفیق"
+        },
+        {
+         "word": "later",
+         "fa": "بعداً"
+        },
+        {
+         "word": "hold my hand",
+         "fa": "دستم را بگیر"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_4_2",
+       "title": "Pick-up and the daily report",
+       "titleFa": "تحویل عصر و گزارش روزانه",
+       "lead": "leslie",
+       "place": "firstday",
+       "grammar": "Past simple: He ate / He slept / He played",
+       "grammarFa": "گذشتهٔ ساده",
+       "sceneIds": [
+        "nur_4_2"
+       ],
+       "words": [
+        {
+         "word": "strange",
+         "fa": "عجیب"
+        },
+        {
+         "word": "busy",
+         "fa": "مشغول ؛ سرشلوغ"
+        },
+        {
+         "word": "fussy",
+         "fa": "بدغذا ؛ ایرادگیر"
+        },
+        {
+         "word": "seconds",
+         "fa": "دوباره کشیدن غذا"
+        },
+        {
+         "word": "most of",
+         "fa": "بیشترِ"
+        },
+        {
+         "word": "slept",
+         "fa": "خوابید"
+        },
+        {
+         "word": "from… to…",
+         "fa": "از… تا…"
+        },
+        {
+         "word": "rocket",
+         "fa": "موشک"
+        },
+        {
+         "word": "boxes",
+         "fa": "جعبه‌ها"
+        },
+        {
+         "word": "accidents",
+         "fa": "خیس‌کاری (در آموزش دستشویی)"
+        },
+        {
+         "word": "wet",
+         "fa": "خیس"
+        },
+        {
+         "word": "every time",
+         "fa": "هر بار"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_4_3",
+       "title": "The accident form",
+       "titleFa": "فرم حادثه",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Past simple + time: He fell at 10:15",
+       "grammarFa": "گذشته + زمان",
+       "sceneIds": [
+        "nur_4_3"
+       ],
+       "words": [
+        {
+         "word": "climbing frame",
+         "fa": "وسیلهٔ صعود (بازی)"
+        },
+        {
+         "word": "bumped",
+         "fa": "ضربه خورد"
+        },
+        {
+         "word": "accident form",
+         "fa": "فرم حادثه ؛ گزارش آسیب"
+        },
+        {
+         "word": "facts",
+         "fa": "واقعیت‌ها ؛ حقایق"
+        },
+        {
+         "word": "quarter past",
+         "fa": "و ربع"
+        },
+        {
+         "word": "garden",
+         "fa": "حیاط ؛ باغچه"
+        },
+        {
+         "word": "injury",
+         "fa": "آسیب"
+        },
+        {
+         "word": "first aid",
+         "fa": "کمک‌های اولیه"
+        },
+        {
+         "word": "cold pack",
+         "fa": "کیسهٔ سرد ؛ کمپرس سرد"
+        },
+        {
+         "word": "witness",
+         "fa": "شاهد"
+        },
+        {
+         "word": "guess",
+         "fa": "حدس زدن"
+        },
+        {
+         "word": "after all",
+         "fa": "آخرش ؛ با این حال"
+        },
+        {
+         "word": "bump",
+         "fa": "ضربه ؛ کبودی کوچک"
+        },
+        {
+         "word": "sign",
+         "fa": "امضا کردن"
+        },
+        {
+         "word": "copy",
+         "fa": "نسخه ؛ کپی"
+        },
+        {
+         "word": "date",
+         "fa": "تاریخ"
+        }
+       ],
+       "turns": 13
+      },
+      {
+       "id": "nur_4_4",
+       "title": "Medicine and poorly children",
+       "titleFa": "دارو و بچهٔ مریض",
+       "lead": "leslie",
+       "place": "firstday",
+       "grammar": "Can / can't + have to",
+       "grammarFa": "می‌تواند / نمی‌تواند / باید",
+       "sceneIds": [
+        "nur_4_4"
+       ],
+       "words": [
+        {
+         "word": "cough",
+         "fa": "سرفه"
+        },
+        {
+         "word": "Calpol",
+         "fa": "کالپول (شربت تب‌بر بچه)"
+        },
+        {
+         "word": "medicine form",
+         "fa": "فرم دارو"
+        },
+        {
+         "word": "temperature",
+         "fa": "تب"
+        },
+        {
+         "word": "dose",
+         "fa": "مقدار دارو ؛ دوز"
+        },
+        {
+         "word": "last",
+         "fa": "آخرین بار"
+        },
+        {
+         "word": "bottle",
+         "fa": "شیشه ؛ بطری"
+        },
+        {
+         "word": "ml",
+         "fa": "میلی‌لیتر"
+        },
+        {
+         "word": "sick",
+         "fa": "استفراغ (بریتانیایی) ؛ مریض"
+        },
+        {
+         "word": "diarrhoea",
+         "fa": "اسهال"
+        },
+        {
+         "word": "stay home",
+         "fa": "خانه ماندن"
+        },
+        {
+         "word": "tummy bug",
+         "fa": "ویروس معده"
+        },
+        {
+         "word": "worse",
+         "fa": "بدتر"
+        },
+        {
+         "word": "high temperature",
+         "fa": "تب بالا"
+        }
+       ],
+       "turns": 11
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "N5",
+     "title": "The team and EYFS",
+     "titleFa": "تیم و EYFS",
+     "place": "firstday",
+     "canDo": "Take part in a team huddle, write observations, plan next steps and settle a new child",
+     "canDoFa": "در جلسهٔ تیم شرکت کنی، مشاهده بنویسی، گام بعدی را برنامه‌ریزی کنی و بچهٔ جدید را جا بیندازی",
+     "cefr": "B1",
+     "lessons": [
+      {
+       "id": "nur_5_1",
+       "title": "Morning huddle",
+       "titleFa": "جلسهٔ کوتاه صبح",
+       "lead": "jo",
+       "place": "firstday",
+       "grammar": "Future: going to / will for plans and offers",
+       "grammarFa": "آینده",
+       "sceneIds": [
+        "nur_5_1"
+       ],
+       "words": [
+        {
+         "word": "huddle",
+         "fa": "جلسهٔ کوتاه سرپایی"
+        },
+        {
+         "word": "room leader",
+         "fa": "سرپرست اتاق"
+        },
+        {
+         "word": "off sick",
+         "fa": "مرخصی استعلاجی ؛ مریض"
+        },
+        {
+         "word": "cover",
+         "fa": "جای کسی کار کردن"
+        },
+        {
+         "word": "breaks",
+         "fa": "استراحت‌ها"
+        },
+        {
+         "word": "staggered",
+         "fa": "پلکانی ؛ پشت سر هم نه هم‌زمان"
+        },
+        {
+         "word": "half twelve",
+         "fa": "دوازده و نیم"
+        },
+        {
+         "word": "updates",
+         "fa": "خبرهای تازه"
+        },
+        {
+         "word": "collecting",
+         "fa": "دنبال کسی آمدن"
+        },
+        {
+         "word": "dairy-free",
+         "fa": "بدون لبنیات"
+        },
+        {
+         "word": "labels",
+         "fa": "برچسب‌ها"
+        },
+        {
+         "word": "set up",
+         "fa": "آماده کردن"
+        },
+        {
+         "word": "focus",
+         "fa": "تمرکز ؛ موضوع"
+        },
+        {
+         "word": "fire station",
+         "fa": "ایستگاه آتش‌نشانی"
+        },
+        {
+         "word": "trip",
+         "fa": "گردش ؛ سفر کوتاه"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_5_2",
+       "title": "Your key children",
+       "titleFa": "بچه‌های کلیدی تو",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Present perfect: He has started / She hasn't… yet",
+       "grammarFa": "حال کامل",
+       "sceneIds": [
+        "nur_5_2"
+       ],
+       "words": [
+        {
+         "word": "key person",
+         "fa": "فرد کلیدی (مربی مسئول یک کودک)"
+        },
+        {
+         "word": "explain",
+         "fa": "توضیح دادن"
+        },
+        {
+         "word": "bond",
+         "fa": "پیوند ؛ رابطهٔ عاطفی"
+        },
+        {
+         "word": "main contact",
+         "fa": "رابط اصلی"
+        },
+        {
+         "word": "track",
+         "fa": "پیگیری کردن"
+        },
+        {
+         "word": "observations",
+         "fa": "مشاهده‌ها"
+        },
+        {
+         "word": "areas of learning",
+         "fa": "حوزه‌های یادگیری"
+        },
+        {
+         "word": "heard of",
+         "fa": "شنیدن دربارهٔ"
+        },
+        {
+         "word": "prime areas",
+         "fa": "حوزه‌های اصلی"
+        },
+        {
+         "word": "physical development",
+         "fa": "رشد جسمی"
+        },
+        {
+         "word": "literacy",
+         "fa": "سواد خواندن و نوشتن"
+        },
+        {
+         "word": "reminders",
+         "fa": "یادآوری‌ها"
+        },
+        {
+         "word": "next step",
+         "fa": "گام بعدی"
+        },
+        {
+         "word": "yet",
+         "fa": "هنوز ؛ تا حالا"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_5_3",
+       "title": "Writing an observation",
+       "titleFa": "نوشتن مشاهده",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Objective language: He said… / She chose…",
+       "grammarFa": "زبان عینی",
+       "sceneIds": [
+        "nur_5_3"
+       ],
+       "words": [
+        {
+         "word": "observation",
+         "fa": "مشاهده ؛ گزارش مشاهده"
+        },
+        {
+         "word": "tower",
+         "fa": "برج"
+        },
+        {
+         "word": "counted",
+         "fa": "شمرد"
+        },
+        {
+         "word": "opinion",
+         "fa": "نظر ؛ عقیده"
+        },
+        {
+         "word": "objective",
+         "fa": "عینی ؛ بی‌طرفانه"
+        },
+        {
+         "word": "word for word",
+         "fa": "کلمه به کلمه"
+        },
+        {
+         "word": "quote",
+         "fa": "نقل‌قول"
+        },
+        {
+         "word": "tall",
+         "fa": "بلند (قد)"
+        },
+        {
+         "word": "link",
+         "fa": "ربط دادن ؛ وصل کردن"
+        },
+        {
+         "word": "next step",
+         "fa": "گام بعدی"
+        },
+        {
+         "word": "comparing",
+         "fa": "مقایسه کردن"
+        },
+        {
+         "word": "upload",
+         "fa": "بارگذاری کردن"
+        },
+        {
+         "word": "useful",
+         "fa": "مفید"
+        },
+        {
+         "word": "permission",
+         "fa": "اجازه"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_5_4",
+       "title": "Settling in a new child",
+       "titleFa": "جا انداختن بچهٔ جدید",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Reassuring: Don't worry, she'll… / It's normal to…",
+       "grammarFa": "دلگرمی دادن",
+       "sceneIds": [
+        "nur_5_4"
+       ],
+       "words": [
+        {
+         "word": "settling-in",
+         "fa": "جاافتادن ؛ عادت کردن"
+        },
+        {
+         "word": "session",
+         "fa": "جلسه"
+        },
+        {
+         "word": "lead",
+         "fa": "اداره کردن"
+        },
+        {
+         "word": "comforter",
+         "fa": "عروسک یا پتوی آرامش‌بخش"
+        },
+        {
+         "word": "routines",
+         "fa": "روال‌ها"
+        },
+        {
+         "word": "favourite",
+         "fa": "محبوب"
+        },
+        {
+         "word": "cousin",
+         "fa": "دخترخاله/دخترعمو ؛ پسرخاله/پسرعمو"
+        },
+        {
+         "word": "feel at home",
+         "fa": "احساس راحتی کردن"
+        },
+        {
+         "word": "worried",
+         "fa": "نگران"
+        },
+        {
+         "word": "at first",
+         "fa": "اولش"
+        },
+        {
+         "word": "settled",
+         "fa": "آرام شده ؛ جاافتاده"
+        }
+       ],
+       "turns": 9
+      }
+     ]
+    },
+    {
+     "level": 0,
+     "id": "N6",
+     "title": "Safeguarding, first aid and Ofsted",
+     "titleFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
+     "place": "firstday",
+     "canDo": "Report a safeguarding concern, respond to a first-aid emergency, talk to an Ofsted inspector and handle a difficult conversation",
+     "canDoFa": "نگرانی حفاظتی را گزارش کنی، در موقعیت کمک اولیه واکنش نشان بدهی، با بازرس Ofsted حرف بزنی و گفت‌وگوی سخت را مدیریت کنی",
+     "cefr": "B2",
+     "lessons": [
+      {
+       "id": "nur_6_1",
+       "title": "A safeguarding concern",
+       "titleFa": "نگرانی حفاظتی",
+       "lead": "vida",
+       "place": "firstday",
+       "grammar": "Reporting: I noticed… / He mentioned… / I'm concerned that…",
+       "grammarFa": "گزارش دادن",
+       "sceneIds": [
+        "nur_6_1"
+       ],
+       "words": [
+        {
+         "word": "bothering",
+         "fa": "آزار دادن ؛ ذهن را درگیر کردن"
+        },
+        {
+         "word": "noticed",
+         "fa": "متوجه شدم"
+        },
+        {
+         "word": "bruise",
+         "fa": "کبودی"
+        },
+        {
+         "word": "size of a coin",
+         "fa": "هم‌اندازهٔ سکه"
+        },
+        {
+         "word": "upper arm",
+         "fa": "بالای بازو"
+        },
+        {
+         "word": "went quiet",
+         "fa": "ساکت شد"
+        },
+        {
+         "word": "investigate",
+         "fa": "تحقیق کردن ؛ بررسی کردن"
+        },
+        {
+         "word": "record",
+         "fa": "ثبت کردن"
+        },
+        {
+         "word": "report",
+         "fa": "گزارش دادن"
+        },
+        {
+         "word": "leading questions",
+         "fa": "سؤال‌های جهت‌دار"
+        },
+        {
+         "word": "Designated Safeguarding Lead",
+         "fa": "مسئول تعیین‌شدهٔ حفاظت از کودک"
+        },
+        {
+         "word": "concern form",
+         "fa": "فرم ثبت نگرانی"
+        },
+        {
+         "word": "body map",
+         "fa": "نقشهٔ بدن (برای ثبت محل آسیب)"
+        },
+        {
+         "word": "confidential",
+         "fa": "محرمانه"
+        },
+        {
+         "word": "seriously",
+         "fa": "جدی"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_6_2",
+       "title": "First aid: choking",
+       "titleFa": "کمک اولیه: خفگی",
+       "lead": "jo",
+       "place": "firstday",
+       "grammar": "Urgent instructions + reporting: Call 999 / She's breathing",
+       "grammarFa": "دستور فوری",
+       "sceneIds": [
+        "nur_6_2"
+       ],
+       "words": [
+        {
+         "word": "choking",
+         "fa": "خفه شدن ؛ گیر کردن چیزی در گلو"
+        },
+        {
+         "word": "back blows",
+         "fa": "ضربه به پشت"
+        },
+        {
+         "word": "on it",
+         "fa": "دارم انجامش می‌دم"
+        },
+        {
+         "word": "lean forward",
+         "fa": "به جلو خم کردن"
+        },
+        {
+         "word": "shoulder blades",
+         "fa": "کتف‌ها"
+        },
+        {
+         "word": "firm",
+         "fa": "محکم"
+        },
+        {
+         "word": "stuck",
+         "fa": "گیر کرده"
+        },
+        {
+         "word": "breathing",
+         "fa": "نفس کشیدن"
+        },
+        {
+         "word": "sweetheart",
+         "fa": "عزیزم"
+        },
+        {
+         "word": "shaking",
+         "fa": "لرزیدن"
+        },
+        {
+         "word": "terrifying",
+         "fa": "وحشتناک"
+        },
+        {
+         "word": "medical professional",
+         "fa": "کادر پزشکی ؛ متخصص پزشکی"
+        },
+        {
+         "word": "while it's fresh",
+         "fa": "تا هنوز در ذهن تازه است"
+        },
+        {
+         "word": "lengthways",
+         "fa": "از طول"
+        },
+        {
+         "word": "quarters",
+         "fa": "چهار قسمت ؛ یک‌چهارم‌ها"
+        },
+        {
+         "word": "newsletter",
+         "fa": "خبرنامه"
+        },
+        {
+         "word": "draft",
+         "fa": "پیش‌نویس کردن"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_6_3",
+       "title": "The Ofsted visit",
+       "titleFa": "بازدید Ofsted",
+       "lead": "harris",
+       "place": "firstday",
+       "grammar": "Explaining practice: We make sure that… / This helps children to…",
+       "grammarFa": "توضیح کار حرفه‌ای",
+       "sceneIds": [
+        "nur_6_3"
+       ],
+       "words": [
+        {
+         "word": "inspector",
+         "fa": "بازرس"
+        },
+        {
+         "word": "chat",
+         "fa": "گپ زدن"
+        },
+        {
+         "word": "carry on",
+         "fa": "ادامه دادن"
+        },
+        {
+         "word": "comparing",
+         "fa": "مقایسه کردن"
+        },
+        {
+         "word": "early maths",
+         "fa": "ریاضی پایه"
+        },
+        {
+         "word": "turn-taking",
+         "fa": "نوبت گرفتن"
+        },
+        {
+         "word": "vocabulary",
+         "fa": "واژگان"
+        },
+        {
+         "word": "observe",
+         "fa": "مشاهده کردن"
+        },
+        {
+         "word": "interests",
+         "fa": "علایق"
+        },
+        {
+         "word": "plan",
+         "fa": "برنامه‌ریزی کردن"
+        },
+        {
+         "word": "worrying",
+         "fa": "نگران‌کننده"
+        },
+        {
+         "word": "straight away",
+         "fa": "فوراً"
+        },
+        {
+         "word": "exact words",
+         "fa": "کلمات دقیق"
+        },
+        {
+         "word": "deputy",
+         "fa": "جانشین ؛ معاون"
+        },
+        {
+         "word": "entrance",
+         "fa": "ورودی"
+        },
+        {
+         "word": "board",
+         "fa": "تابلو"
+        }
+       ],
+       "turns": 11
+      },
+      {
+       "id": "nur_6_4",
+       "title": "A difficult conversation",
+       "titleFa": "یک گفت‌وگوی سخت",
+       "lead": "dan",
+       "place": "firstday",
+       "grammar": "Softening: I'm afraid… / I understand how… / What we're doing is…",
+       "grammarFa": "نرم کردن کلام",
+       "sceneIds": [
+        "nur_6_4"
+       ],
+       "words": [
+        {
+         "word": "teeth marks",
+         "fa": "جای دندان"
+        },
+        {
+         "word": "upset",
+         "fa": "ناراحت ؛ دلخور"
+        },
+        {
+         "word": "completely",
+         "fa": "کاملاً"
+        },
+        {
+         "word": "right",
+         "fa": "حق"
+        },
+        {
+         "word": "I'm afraid",
+         "fa": "متأسفانه"
+        },
+        {
+         "word": "privacy",
+         "fa": "حریم خصوصی"
+        },
+        {
+         "word": "shadowing",
+         "fa": "از نزدیک همراهی کردن ؛ زیر نظر داشتن"
+        },
+        {
+         "word": "layout",
+         "fa": "چیدمان"
+        },
+        {
+         "word": "crowding",
+         "fa": "ازدحام ؛ شلوغی"
+        },
+        {
+         "word": "found out",
+         "fa": "فهمیدم ؛ مطلع شدم"
+        },
+        {
+         "word": "look into",
+         "fa": "بررسی کردن"
+        },
+        {
+         "word": "missed",
+         "fa": "جا ماند ؛ از دست رفت"
+        },
+        {
+         "word": "checklist",
+         "fa": "فهرست بررسی"
+        },
+        {
+         "word": "update",
+         "fa": "خبر دادن"
+        }
+       ],
+       "turns": 11
+      }
+     ]
     }
    ]
   }

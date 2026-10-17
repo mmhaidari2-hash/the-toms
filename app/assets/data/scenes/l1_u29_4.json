@@ -30,8 +30,8 @@
     {
      "keywords": [
       "waitress",
-      "ask",
-      "let"
+      "let",
+      "ask"
      ],
      "suggestion": "Let me ask the waitress.",
      "suggestionFa": "بذار از گارسون بپرسم.",
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "pounds",
-      "about",
-      "three"
+      "three",
+      "about"
      ],
      "suggestion": "So about three pounds?",
      "suggestionFa": "پس حدود سه پوند؟",
@@ -373,9 +373,9 @@
     {
      "keywords": [
       "we'll",
-      "back",
       "come",
-      "soon"
+      "soon",
+      "back"
      ],
      "suggestion": "We'll come back soon!",
      "suggestionFa": "به زودی برمی‌گردیم!",

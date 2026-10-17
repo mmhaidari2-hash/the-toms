@@ -1,0 +1,283 @@
+{
+ "id": "nur_5_2",
+ "characterId": "vida",
+ "title": "Your key children",
+ "titleFa": "بچه‌های کلیدی تو",
+ "setting": "The team and EYFS · Level 0",
+ "settingFa": "تیم و EYFS",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Jo's made you key person for three children: Oscar, Mia's little brother Leo, and Ada. Do you know what a key person does?",
+   "translations": {
+    "fa": "جو تو را «فرد کلیدی» سه تا بچه کرده: اسکار، لئو برادر کوچیک میا، و آدا. می‌دونی فرد کلیدی چی کار می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "special",
+      "adult",
+      "think",
+      "their"
+     ],
+     "suggestion": "I think it's their special adult in the room.",
+     "suggestionFa": "فکر کنم بزرگسالِ مخصوصشون تو اتاقه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "explain",
+      "really",
+      "can"
+     ],
+     "suggestion": "Not really. Can you explain?",
+     "suggestionFa": "نه زیاد. می‌تونی توضیح بدی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "key person",
+     "fa": "فرد کلیدی (مربی مسئول یک کودک)"
+    },
+    {
+     "word": "explain",
+     "fa": "توضیح دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, every child in an early years setting must have a key person — the EYFS requires it.",
+    "fa": "در EYFS هر کودک باید یک فرد کلیدی داشته باشد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Exactly. You build a close bond, you're the main contact for parents, and you track their learning in their journals.",
+   "translations": {
+    "fa": "دقیقاً. یه رابطهٔ نزدیک می‌سازی، رابط اصلی والدین هستی و یادگیری‌شون را تو دفترشون دنبال می‌کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parents",
+      "every",
+      "talk",
+      "day"
+     ],
+     "suggestion": "So I talk to their parents every day?",
+     "suggestionFa": "پس هر روز با والدین‌شون حرف می‌زنم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learning",
+      "track",
+      "how"
+     ],
+     "suggestion": "How do I track their learning?",
+     "suggestionFa": "چطور یادگیری‌شون را دنبال کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bond",
+     "fa": "پیوند ؛ رابطهٔ عاطفی"
+    },
+    {
+     "word": "main contact",
+     "fa": "رابط اصلی"
+    },
+    {
+     "word": "track",
+     "fa": "پیگیری کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Through observations and the EYFS areas of learning. Have you heard of the seven areas?",
+   "translations": {
+    "fa": "از طریق مشاهده‌ها و حوزه‌های یادگیری EYFS. اسم هفت حوزه را شنیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "heard",
+      "don't",
+      "i've",
+      "them"
+     ],
+     "suggestion": "I've heard of them, but I don't know them all.",
+     "suggestionFa": "شنیدم، ولی همه را بلد نیستم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "they"
+     ],
+     "suggestion": "No, I haven't. What are they?",
+     "suggestionFa": "نه، نشنیدم. چی هستن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "observations",
+     "fa": "مشاهده‌ها"
+    },
+    {
+     "word": "areas of learning",
+     "fa": "حوزه‌های یادگیری"
+    },
+    {
+     "word": "heard of",
+     "fa": "شنیدن دربارهٔ"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i have heard them before",
+      "i heard of them yet"
+     ],
+     "echo": "You've heard of them? Good start.",
+     "better": "I've heard of them, but I don't know them all.",
+     "betterFa": "شنیدم، ولی همه‌شون را بلد نیستم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Three prime areas: communication and language, physical, and personal, social and emotional. Then four specific ones, like maths.",
+   "translations": {
+    "fa": "سه حوزهٔ اصلی: ارتباط و زبان، جسمی، و فردی، اجتماعی و عاطفی. بعد چهار حوزهٔ خاص، مثل ریاضی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "communication",
+      "language",
+      "words",
+      "use"
+     ],
+     "suggestion": "So \"use your words\" is communication and language!",
+     "suggestionFa": "پس «با کلمه بگو» یعنی ارتباط و زبان!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "development",
+      "physical",
+      "climbing"
+     ],
+     "suggestion": "And climbing is physical development.",
+     "suggestionFa": "و بالا رفتن رشد جسمیه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prime areas",
+     "fa": "حوزه‌های اصلی"
+    },
+    {
+     "word": "physical development",
+     "fa": "رشد جسمی"
+    },
+    {
+     "word": "literacy",
+     "fa": "سواد خواندن و نوشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "EYFS = Early Years Foundation Stage, the framework for children aged 0–5 in England. \"PSED\" means personal, social and emotional development.",
+    "fa": "EYFS چارچوب آموزش کودکان ۰ تا ۵ سال در انگلستان است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "You've got it. Oscar has started using \"please\" and \"thank you\" without reminders, but he hasn't learned to share yet. That's PSED.",
+   "translations": {
+    "fa": "گرفتی. اسکار شروع کرده بدون یادآوری «لطفاً» و «ممنون» بگه، ولی هنوز شریک شدن را یاد نگرفته. این PSED است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sharing",
+      "could",
+      "next",
+      "step"
+     ],
+     "suggestion": "So sharing could be his next step.",
+     "suggestionFa": "پس شریک شدن می‌تونه گام بعدیش باشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friends",
+      "made",
+      "yet",
+      "has"
+     ],
+     "suggestion": "Has he made any friends yet?",
+     "suggestionFa": "تا حالا دوستی پیدا کرده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reminders",
+     "fa": "یادآوری‌ها"
+    },
+    {
+     "word": "next step",
+     "fa": "گام بعدی"
+    },
+    {
+     "word": "yet",
+     "fa": "هنوز ؛ تا حالا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Exactly — that's a next step. Next week we'll sit down together and plan one for each of your key children.",
+   "translations": {
+    "fa": "دقیقاً — این یه گام بعدیه. هفتهٔ بعد با هم می‌شینیم و برای هر کدوم از بچه‌های کلیدی‌ات یکی برنامه‌ریزی می‌کنیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

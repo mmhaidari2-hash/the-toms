@@ -21,7 +21,7 @@
      "keywords": [
       "edinburgh",
       "reckon",
-      "have",
+      "punt",
       "i'll"
      ],
      "suggestion": "Go on, I'll have a punt — I reckon it's Edinburgh.",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "taught",
       "apples",
+      "taught",
       "pears"
      ],
      "suggestion": "Apples and pears! Tom taught me that.",
@@ -191,10 +191,10 @@
     },
     {
      "keywords": [
-      "eleven",
       "strong",
-      "sport",
-      "point"
+      "eleven",
+      "point",
+      "isn't"
      ],
      "suggestion": "Sport isn't my strong point. Eleven?",
      "suggestionFa": "ورزش نقطه‌قوتم نیست. یازده؟",
@@ -283,8 +283,8 @@
     {
      "keywords": [
       "dench",
-      "dame",
-      "judi"
+      "judi",
+      "dame"
      ],
      "suggestion": "Is it Dame Judi Dench?",
      "suggestionFa": "دیم جودی دنچ؟",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "beginner's",
-      "guess",
       "lucky",
+      "guess",
       "luck"
      ],
      "suggestion": "Just a lucky guess — beginner's luck!",
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "behind",
-      "points",
       "second",
+      "points",
       "place"
      ],
      "suggestion": "Second place, two points behind.",

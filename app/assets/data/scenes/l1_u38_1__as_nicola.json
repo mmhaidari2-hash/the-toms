@@ -24,8 +24,8 @@
       "tomorrow",
       "birthday",
       "daddy's",
-      "secret",
-      "making"
+      "making",
+      "secret"
      ],
      "suggestion": "It's Daddy's birthday tomorrow! I'm making him a card. It's a secret!",
      "suggestionFa": "فردا تولد باباست! دارم براش کارت درست می‌کنم. رازه!",
@@ -48,8 +48,8 @@
      "keywords": [
       "drawing",
       "daddy's",
-      "front",
       "words",
+      "front",
       "help"
      ],
      "suggestion": "I'm drawing a bus on the front. Daddy's bus! Can you help me with the words?",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "birthday",
-      "spell",
       "happy",
+      "spell",
       "daddy",
       "then"
      ],
@@ -100,7 +100,7 @@
       "mummy",
       "then",
       "love",
-      "from"
+      "done"
      ],
      "suggestion": "Done! Then what? Mummy writes \"Love from\" at the end.",
      "suggestionFa": "تموم شد! بعد چی؟ مامان آخرش می‌نویسه «با عشق از طرف».",
@@ -123,9 +123,9 @@
      "keywords": [
       "kisses",
       "should",
-      "write",
       "loves",
-      "daddy"
+      "write",
+      "jokes"
      ],
      "suggestion": "X X X X X! Lots of kisses! Should I write a joke? Daddy loves jokes.",
      "suggestionFa": "X X X X X! کلی بوس! یه جوک بنویسم؟ بابا عاشق جوکه.",
@@ -148,9 +148,9 @@
      "keywords": [
       "favourite",
       "driver's",
-      "ghetti",
       "what's",
-      "made"
+      "ghetti",
+      "food"
      ],
      "suggestion": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
      "suggestionFa": "«غذای محبوب راننده اتوبوس چیه؟ باس-گتی!» خودم ساختمش!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "write",
       "he'll",
+      "write",
+      "name",
       "love",
-      "know",
       "both"
      ],
      "suggestion": "I KNOW! He'll love it! Can you write your name too? It's from both of us.",
@@ -200,7 +200,7 @@
       "promise",
       "hiding",
       "under",
-      "daddy"
+      "don't"
      ],
      "suggestion": "Now the envelope. I'm hiding it under my bed. Shh! Don't tell Daddy. Pinky promise!",
      "suggestionFa": "حالا پاکت. زیر تختم قایمش می‌کنم. هیس! به بابا نگو. قول انگشت کوچیکه!",

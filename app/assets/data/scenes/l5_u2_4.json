@@ -22,7 +22,7 @@
       "honest",
       "third",
       "after",
-      "joke"
+      "much"
      ],
      "suggestion": "To be honest, it got a bit much after the third joke.",
      "suggestionFa": "راستش بعد از شوخی سوم یه کم زیادی شد.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "noticing",
       "tiresome",
+      "noticing",
       "getting",
       "thanks"
      ],
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "myself",
       "rather",
       "thanks",
-      "handle"
+      "handle",
+      "myself"
      ],
      "suggestion": "Thanks, but I'd rather handle it myself.",
      "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
@@ -93,7 +93,7 @@
       "awkward",
       "don't",
       "maybe",
-      "want"
+      "make"
      ],
      "suggestion": "Maybe. I don't want to make it awkward.",
      "suggestionFa": "شاید. نمی‌خوام ناجورش کنم.",
@@ -133,8 +133,8 @@
      "keywords": [
       "getting",
       "perfect",
-      "that's",
-      "honest"
+      "honest",
+      "that's"
      ],
      "suggestion": "\"Getting old\" — that's perfect. Not angry, just honest.",
      "suggestionFa": "«کهنه شده» — عالیه. عصبانی نه، فقط صادق.",
@@ -187,8 +187,8 @@
      "keywords": [
       "anyone",
       "don't",
-      "fall",
-      "hope"
+      "hope",
+      "want"
      ],
      "suggestion": "I hope so. I don't want to fall out with anyone.",
      "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",
@@ -201,7 +201,7 @@
       "someone's",
       "thanks",
       "helps",
-      "know"
+      "back"
      ],
      "suggestion": "Thanks, Al. It helps to know someone's got my back.",
      "suggestionFa": "ممنون ال. خوبه بدونم یکی هوام را داره.",

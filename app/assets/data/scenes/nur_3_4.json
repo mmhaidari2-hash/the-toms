@@ -1,0 +1,280 @@
+{
+ "id": "nur_3_4",
+ "characterId": "vida",
+ "title": "Praise that works",
+ "titleFa": "تشویق مؤثر",
+ "setting": "Play, songs and feelings · Level 0",
+ "settingFa": "بازی، آهنگ و احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Can I give you a tip? Instead of \"good boy\", say exactly what they did: \"You put on your shoes all by yourself!\"",
+   "translations": {
+    "fa": "می‌تونم یه نکته بگم؟ به‌جای «پسر خوب»، دقیقاً بگو چی کار کرده: «کفشات را خودت تنهایی پوشیدی!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "great",
+      "work",
+      "why"
+     ],
+     "suggestion": "That's a great tip. Why does it work?",
+     "suggestionFa": "نکتهٔ خیلی خوبیه. چرا جواب میده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "specific",
+      "praise",
+      "ok"
+     ],
+     "suggestion": "OK, specific praise.",
+     "suggestionFa": "باشه، تشویق دقیق.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tip",
+     "fa": "نکته ؛ توصیه"
+    },
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    },
+    {
+     "word": "by yourself",
+     "fa": "خودت تنهایی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Children learn what they did well, so they do it again. Let's practise. William finished his puzzle.",
+   "translations": {
+    "fa": "بچه‌ها یاد می‌گیرن چی را خوب انجام دادن، پس تکرارش می‌کنن. بیا تمرین کنیم. ویلیام پازلش را تموم کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finished",
+      "william",
+      "whole"
+     ],
+     "suggestion": "William, you finished the whole puzzle!",
+     "suggestionFa": "ویلیام، کل پازل را تموم کردی!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "tried",
+      "hard"
+     ],
+     "suggestion": "You tried really hard with that puzzle!",
+     "suggestionFa": "خیلی برای اون پازل تلاش کردی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "practise",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "puzzle",
+     "fa": "پازل"
+    },
+    {
+     "word": "whole",
+     "fa": "کل ؛ تمام"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you finish the puzzle",
+      "you finishing puzzle"
+     ],
+     "echo": "You finished the puzzle? Amazing!",
+     "better": "You finished the puzzle!",
+     "betterFa": "پازل را تموم کردی!"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "I did it! All the pieces!",
+   "translations": {
+    "fa": "انجامش دادم! همه تیکه‌ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "going",
+      "give",
+      "kept"
+     ],
+     "suggestion": "You kept going and didn't give up!",
+     "suggestionFa": "ادامه دادی و تسلیم نشدی!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "piece",
+      "every",
+      "vida",
+      "show"
+     ],
+     "suggestion": "Every piece! Show Vida!",
+     "suggestionFa": "همه تیکه‌ها! به ویدا نشون بده!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pieces",
+     "fa": "تکه‌ها"
+    },
+    {
+     "word": "give up",
+     "fa": "تسلیم شدن"
+    },
+    {
+     "word": "kept going",
+     "fa": "ادامه داد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Lovely — praising effort, not just results. Now Oscar. He tidied up without being asked.",
+   "translations": {
+    "fa": "عالی — تشویق تلاش، نه فقط نتیجه. حالا اسکار. بدون اینکه کسی بگه جمع کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "without",
+      "tidied",
+      "being",
+      "asked"
+     ],
+     "suggestion": "Oscar, you tidied up without being asked!",
+     "suggestionFa": "اسکار، بدون اینکه کسی بگه جمع کردی!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helping",
+      "thank",
+      "kind",
+      "was"
+     ],
+     "suggestion": "Thank you for helping, Oscar. That was kind.",
+     "suggestionFa": "ممنون که کمک کردی اسکار. مهربون بودی.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "effort",
+     "fa": "تلاش"
+    },
+    {
+     "word": "results",
+     "fa": "نتایج"
+    },
+    {
+     "word": "without being asked",
+     "fa": "بدون اینکه کسی بخواهد"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK early years, \"effort praise\" (You worked hard) is preferred to \"ability praise\" (You're so clever).",
+    "fa": "تشویق تلاش به تشویق هوش ترجیح داده می‌شود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "oscar",
+   "text": "I'm a good helper! Can I get a sticker?",
+   "translations": {
+    "fa": "من کمک‌کار خوبیم! می‌تونم برچسب بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticker",
+      "earned",
+      "helper"
+     ],
+     "suggestion": "Yes! You earned a helper sticker.",
+     "suggestionFa": "آره! یه برچسب کمک‌کار گرفتی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "colour",
+      "which",
+      "want"
+     ],
+     "suggestion": "Of course. Which colour do you want?",
+     "suggestionFa": "حتماً. کدوم رنگ را می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sticker",
+     "fa": "برچسب"
+    },
+    {
+     "word": "earned",
+     "fa": "به دست آورد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Perfect. And remember: we praise in front of others, but talk about problems quietly, one-to-one.",
+   "translations": {
+    "fa": "عالی. و یادت باشه: جلوی بقیه تشویق می‌کنیم، ولی دربارهٔ مشکلات آروم و دو نفری حرف می‌زنیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

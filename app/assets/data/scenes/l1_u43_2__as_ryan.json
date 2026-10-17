@@ -24,8 +24,8 @@
       "anything",
       "things",
       "can't",
-      "find",
-      "sent"
+      "sent",
+      "find"
      ],
      "suggestion": "Mum sent me with a list. Ten things! I can't find anything. Help!",
      "suggestionFa": "مامان با یه لیست فرستادم. ده تا چیز! هیچی پیدا نمی‌کنم. کمک!",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "walked",
+      "can't",
       "first",
       "round",
-      "can't",
       "twice"
      ],
      "suggestion": "Milk, first. I can't find the milk! I've walked round twice!",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "skimmed",
-      "green",
       "never",
-      "semi",
+      "green",
+      "says",
       "blue"
      ],
      "suggestion": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
@@ -98,9 +98,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "bread",
       "can't",
-      "find"
+      "bread",
+      "blue"
      ],
      "suggestion": "Blue is full fat. Next: eggs, bread, washing-up liquid… I can't find the washing-up liquid!",
      "suggestionFa": "آبی پرچربه. بعدی: تخم‌مرغ، نون، مایع ظرفشویی… مایع ظرفشویی را پیدا نمی‌کنم!",
@@ -229,7 +229,7 @@
       "lifesaver",
       "thing",
       "mean",
-      "nice"
+      "last"
      ],
      "suggestion": "You're a lifesaver. Last thing: \"something nice for Mum\". What does that mean?",
      "suggestionFa": "تو نجات‌دهنده‌ای. آخرین چیز: «یه چیز خوب برای مامان». یعنی چی؟",

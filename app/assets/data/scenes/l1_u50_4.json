@@ -34,8 +34,8 @@
      "keywords": [
       "carrots",
       "potato",
-      "hmm",
-      "two"
+      "one",
+      "hmm"
      ],
      "suggestion": "Hmm. Two carrots for one potato?",
      "suggestionFa": "هوم. دو تا هویج برای یه سیب‌زمینی؟",
@@ -156,9 +156,9 @@
    "branches": [
     {
      "keywords": [
-      "buttons",
-      "carrots",
       "doesn't",
+      "carrots",
+      "buttons",
       "mr"
      ],
      "suggestion": "Mr Buttons doesn't eat carrots!",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "carrots",
-      "good",
       "five",
-      "girl"
+      "girl",
+      "good"
      ],
      "suggestion": "Five carrots! Good girl!",
      "suggestionFa": "پنج تا هویج! آفرین!",

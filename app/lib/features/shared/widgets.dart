@@ -18,7 +18,11 @@ class Avatar extends StatelessWidget {
     padding: EdgeInsets.all(ring ? size * .05 : 0),
     decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.white, boxShadow: ring ? BL.shadow(.10) : null),
     child: ClipOval(
-      child: SvgPicture.asset(c.avatar, fit: BoxFit.cover, semanticsLabel: c.name),
+      // Real painted portrait of this exact character (cropped from their painting); SVG only as a legacy fallback.
+      child: c.avatar.endsWith('.svg')
+          ? SvgPicture.asset(c.avatar, fit: BoxFit.cover, semanticsLabel: c.name)
+          : Image.asset(c.avatar, fit: BoxFit.cover, semanticLabel: c.name, cacheWidth: (size * 3).round(), filterQuality: FilterQuality.medium,
+              errorBuilder: (_, _, _) => ColoredBox(color: c.color, child: Center(child: Text(c.name.characters.first, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: size * .4))))),
     ),
   );
 }

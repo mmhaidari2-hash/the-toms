@@ -21,8 +21,8 @@
      "keywords": [
       "thompson's",
       "discount",
-      "council",
-      "charged"
+      "charged",
+      "council"
      ],
      "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
      "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
@@ -33,12 +33,12 @@
     {
      "keywords": [
       "incorrect",
-      "helping",
       "believe",
-      "that's"
+      "helping",
+      "maggie"
      ],
-     "suggestion": "That's right. I'm helping Weda — we believe the bill is incorrect.",
-     "suggestionFa": "درسته. دارم به ودا کمک می‌کنم — معتقدیم قبض اشتباهه.",
+     "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
+     "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -70,16 +70,16 @@
   "n2": {
    "id": "n2",
    "speaker": "council",
-   "text": "I see. Our records show two adults at the property — George and Weda Thompson.",
+   "text": "I see. Our records show two adults at the property — George and Margaret Thompson.",
    "translations": {
-    "fa": "متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و ودا تامپسون."
+    "fa": "متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و مارگارت تامپسون."
    },
    "branches": [
     {
      "keywords": [
       "diagnosis",
-      "george",
       "leslie",
+      "george",
       "moved"
      ],
      "suggestion": "George moved in with Tom and Leslie in March, after his diagnosis.",
@@ -236,8 +236,8 @@
      "keywords": [
       "reminder",
       "received",
-      "cancel",
-      "that's"
+      "notice",
+      "cancel"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
      "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
@@ -250,7 +250,7 @@
       "refunded",
       "towards",
       "future",
-      "would"
+      "bills"
      ],
      "suggestion": "Would that be refunded or put towards future bills?",
      "suggestionFa": "پس داده میشه یا برای قبض‌های آینده حساب میشه؟",
@@ -302,10 +302,10 @@
       "george's",
       "support",
       "carers",
-      "carer"
+      "maggie"
      ],
-     "suggestion": "Weda is George's main carer. Is there support for carers?",
-     "suggestionFa": "ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
+     "suggestion": "Maggie is George's main carer. Is there support for carers?",
+     "suggestionFa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -368,7 +368,7 @@
       "anything",
       "entitled",
       "helpful",
-      "that's"
+      "didn't"
      ],
      "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
      "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",

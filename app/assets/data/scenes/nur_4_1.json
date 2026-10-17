@@ -1,0 +1,284 @@
+{
+ "id": "nur_4_1",
+ "characterId": "dan",
+ "title": "Drop-off",
+ "titleFa": "تحویل گرفتن صبح",
+ "setting": "Talking with parents · Level 0",
+ "settingFa": "صحبت با والدین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dan",
+   "text": "Morning! Sorry we're late — the bus was packed. Oscar's a bit grumpy today.",
+   "translations": {
+    "fa": "صبح بخیر! ببخشید دیر کردیم — اتوبوس خیلی شلوغ بود. اسکار امروز یه کم بداخلاقه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "problem",
+      "sleep",
+      "well"
+     ],
+     "suggestion": "Morning! No problem. Did he sleep well?",
+     "suggestionFa": "صبح بخیر! اشکالی نداره. خوب خوابید؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "oscar",
+      "hang",
+      "coat"
+     ],
+     "suggestion": "Hi, Oscar! Shall we hang up your coat?",
+     "suggestionFa": "سلام اسکار! کتت را آویزون کنیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "packed",
+     "fa": "خیلی شلوغ"
+    },
+    {
+     "word": "grumpy",
+     "fa": "بداخلاق ؛ کج‌خلق"
+    },
+    {
+     "word": "handover",
+     "fa": "تحویل"
+    }
+   ],
+   "cultureNote": {
+    "en": "At drop-off, staff ask about sleep, breakfast, health and pick-up, then write it on the app or register.",
+    "fa": "در تحویل صبح از خواب، صبحانه، سلامت و برگشت می‌پرسند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dan",
+   "text": "Not really, he woke up at five. And he only had half a banana for breakfast.",
+   "translations": {
+    "fa": "نه زیاد، ساعت پنج بیدار شد. و صبحونه فقط نصف موز خورد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "snack",
+      "toast",
+      "write"
+     ],
+     "suggestion": "Thanks, I'll write that down. He can have toast at snack time.",
+     "suggestionFa": "ممنون، یادداشتش می‌کنم. وقت خوراکی می‌تونه نون تست بخوره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "might",
+      "today",
+      "dear",
+      "need"
+     ],
+     "suggestion": "Oh dear. He might need a nap today.",
+     "suggestionFa": "ای وای. شاید امروز یه چرت لازم داشته باشه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "woke up",
+     "fa": "بیدار شد"
+    },
+    {
+     "word": "write down",
+     "fa": "یادداشت کردن"
+    },
+    {
+     "word": "might",
+     "fa": "ممکن است"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he can to have toast",
+      "he can having toast"
+     ],
+     "echo": "He can have toast? Great.",
+     "better": "He can have toast at snack time.",
+     "betterFa": "وقت خوراکی می‌تونه نون تست بخوره."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dan",
+   "text": "Good idea. Oh, and his grandma's picking him up today, not me. Her name's Grace.",
+   "translations": {
+    "fa": "فکر خوبیه. آهان، و امروز مادربزرگش میاد دنبالش، نه من. اسمش گریسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collection",
+      "grace",
+      "list",
+      "his"
+     ],
+     "suggestion": "Is Grace on his collection list?",
+     "suggestionFa": "گریس تو لیست افراد مجاز برای بردنش هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "password",
+      "please",
+      "what's",
+      "her"
+     ],
+     "suggestion": "What's her password, please?",
+     "suggestionFa": "لطفاً رمزش چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "picking up",
+     "fa": "دنبال کسی رفتن ؛ بردن"
+    },
+    {
+     "word": "collection list",
+     "fa": "فهرست افراد مجاز"
+    },
+    {
+     "word": "password",
+     "fa": "رمز"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children only go home with adults on their list. Many nurseries also use a password for collection.",
+    "fa": "بچه فقط با افراد مجاز و گاهی با رمز تحویل داده می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dan",
+   "text": "Yes, she's on the list. The password is \"sunflower\". Bye, mate — have a good day!",
+   "translations": {
+    "fa": "آره، تو لیسته. رمز «آفتابگردون»ـه. خداحافظ رفیق — روز خوبی داشته باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oscar",
+      "daddy",
+      "wave",
+      "bye"
+     ],
+     "suggestion": "Bye! Wave to Daddy, Oscar!",
+     "suggestionFa": "خداحافظ! به بابا دست تکون بده اسکار!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "have",
+      "good",
+      "day"
+     ],
+     "suggestion": "Thanks. Have a good day too!",
+     "suggestionFa": "ممنون. شما هم روز خوبی داشته باشید!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wave",
+     "fa": "دست تکان دادن"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "oscar",
+   "text": "I want Daddy! Don't go!",
+   "translations": {
+    "fa": "بابا را می‌خوام! نرو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy's",
+      "coming",
+      "trains",
+      "let's"
+     ],
+     "suggestion": "Daddy's coming back later. Let's find the trains.",
+     "suggestionFa": "بابا بعداً برمی‌گرده. بیا قطارها را پیدا کنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hand",
+      "want",
+      "hold",
+      "know"
+     ],
+     "suggestion": "I know you're sad. Do you want to hold my hand?",
+     "suggestionFa": "می‌دونم غمگینی. می‌خوای دستم را بگیری؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "later",
+     "fa": "بعداً"
+    },
+    {
+     "word": "hold my hand",
+     "fa": "دستم را بگیر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Well done. Short goodbyes are best, then distract them with something they love. Write \"grandma, sunflower\" on the app now.",
+   "translations": {
+    "fa": "آفرین. خداحافظی کوتاه بهترینه، بعد با چیزی که دوست دارن سرگرمشون کن. الان تو اپ بنویس «مادربزرگ، آفتابگردون»."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

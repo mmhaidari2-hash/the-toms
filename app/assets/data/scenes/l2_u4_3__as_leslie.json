@@ -49,8 +49,8 @@
       "deserve",
       "indian",
       "that's",
-      "night",
-      "sweet"
+      "sweet",
+      "let's"
      ],
      "suggestion": "That's sweet, but you deserve a night off too. Let's get Indian or fish and chips?",
      "suggestionFa": "لطف داری، ولی تو هم لیاقت یه شب استراحت را داری. هندی بگیریم یا فیش‌اند‌چیپس؟",
@@ -74,8 +74,8 @@
       "headphones",
       "choice",
       "again",
-      "good",
-      "ryan"
+      "he's",
+      "good"
      ],
      "suggestion": "Ooh, good choice. Ryan, what do you want? Ryan? He's got his headphones on again.",
      "suggestionFa": "اوه، انتخاب خوبیه. رایان، چی می‌خوای؟ رایان؟ باز هدفونش رو گذاشته.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
+      "small",
+      "brave",
       "mushy",
       "large",
-      "chips",
-      "small",
-      "brave"
+      "chips"
      ],
      "suggestion": "Brave! Go on then. Ask for a large cod, two small chips, and mushy peas for Nana.",
      "suggestionFa": "شجاع! بفرما. یه ماهی کاد بزرگ، دوتا سیب‌زمینی کوچیک و نخود له‌شده برای نانا بخواه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "mashed",
-      "green",
       "loves",
-      "while",
-      "table"
+      "table",
+      "don't",
+      "while"
      ],
      "suggestion": "Mashed green peas — Nana loves them. Why don't you lay the table while we wait?",
      "suggestionFa": "نخودفرنگی له‌شده — نانا عاشقشه. چرا تا منتظریم میز را نچینی؟",

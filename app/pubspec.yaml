@@ -67,6 +67,7 @@ flutter:
   assets:
     - assets/data/
     - assets/avatars/
+    - assets/portraits/
     - assets/places/
     - assets/google_fonts/
     - assets/audio/

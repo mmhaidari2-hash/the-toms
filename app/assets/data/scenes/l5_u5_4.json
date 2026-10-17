@@ -1,8 +1,8 @@
 {
  "id": "l5_u5_4",
  "characterId": "weda",
- "title": "Weda's fears",
- "titleFa": "نگرانی‌های ودا",
+ "title": "Maggie's fears",
+ "titleFa": "نگرانی‌های مگی",
  "setting": "Difficult conversations · Level 5",
  "settingFa": "گفتگوهای دشوار",
  "requires": null,
@@ -20,12 +20,12 @@
     {
      "keywords": [
       "pretend",
+      "maggie",
       "don't",
-      "weda",
       "have"
      ],
-     "suggestion": "You don't have to pretend with me, Weda.",
-     "suggestionFa": "لازم نیست پیش من وانمود کنید ودا.",
+     "suggestion": "You don't have to pretend with me, Maggie.",
+     "suggestionFa": "لازم نیست پیش من وانمود کنید مگی.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -34,8 +34,8 @@
      "keywords": [
       "knowing",
       "about",
-      "must",
-      "hard"
+      "much",
+      "must"
      ],
      "suggestion": "It must be hard, knowing so much about it.",
      "suggestionFa": "حتماً سخته، که این‌قدر دربارهٔ اون می‌دونید.",
@@ -72,7 +72,7 @@
       "completely",
       "natural",
       "after",
-      "fear"
+      "long"
      ],
      "suggestion": "That's a completely natural fear after so long together.",
      "suggestionFa": "بعد از این همه سال با هم بودن، این یه ترس کاملاً طبیعیه.",
@@ -84,8 +84,8 @@
      "keywords": [
       "incredible",
       "you've",
-      "sixty",
-      "built"
+      "built",
+      "sixty"
      ],
      "suggestion": "Sixty-one years. That's an incredible life you've built together.",
      "suggestionFa": "شصت و یک سال. زندگی فوق‌العاده‌ای که با هم ساختید.",
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "think",
       "about",
-      "he'd",
-      "same"
+      "think",
+      "same",
+      "he'd"
      ],
      "suggestion": "Ha! I think he'd say the same about you.",
      "suggestionFa": "ها! فکر کنم اون هم همینو دربارهٔ شما بگه.",
@@ -139,7 +139,7 @@
       "worried",
       "helps",
       "when",
-      "most"
+      "like"
      ],
      "suggestion": "What helps you most when you're worried like this?",
      "suggestionFa": "وقتی این‌طوری نگرانید چی بیشتر کمکتون می‌کنه؟",
@@ -178,9 +178,9 @@
     {
      "keywords": [
       "beautiful",
-      "that's",
       "happen",
-      "summer"
+      "summer",
+      "that's"
      ],
      "suggestion": "That's a beautiful idea. Let's make it happen this summer.",
      "suggestionFa": "فکر قشنگیه. بیاید تابستون عملیش کنیم.",

@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "well",
-      "done",
       "ryan",
+      "done",
+      "well",
       "job"
      ],
      "suggestion": "A job? Well done, Ryan!",
@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "check",
       "right",
+      "check",
       "let"
      ],
      "suggestion": "Is that right? Let me check.",
@@ -216,8 +216,8 @@
      "keywords": [
       "twenty",
       "sorry",
-      "only",
-      "i've"
+      "i've",
+      "only"
      ],
      "suggestion": "I've only got a twenty. Sorry!",
      "suggestionFa": "فقط یه بیستی دارم. ببخشید!",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "counting",
-      "clever",
       "that's",
+      "clever",
       "up"
      ],
      "suggestion": "That's clever, counting up.",

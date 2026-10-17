@@ -48,12 +48,12 @@
      "keywords": [
       "upstairs",
       "usually",
+      "maggie",
       "finish",
-      "teach",
-      "weda"
+      "teach"
      ],
-     "suggestion": "Usually Weda does it. I teach upstairs, so I finish late. Ah, here they come!",
-     "suggestionFa": "معمولاً ودا میاد. من طبقهٔ بالا درس میدم، دیر تموم می‌کنم. آه، دارن میان!",
+     "suggestion": "Usually Maggie does it. I teach upstairs, so I finish late. Ah, here they come!",
+     "suggestionFa": "معمولاً مگی میاد. من طبقهٔ بالا درس میدم، دیر تموم می‌کنم. آه، دارن میان!",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -73,9 +73,9 @@
      "keywords": [
       "sweetheart",
       "hello",
-      "how",
       "was",
-      "day"
+      "day",
+      "how"
      ],
      "suggestion": "Hello, sweetheart! How was your day?",
      "suggestionFa": "سلام عزیزم! روزت چطور بود؟",
@@ -235,8 +235,8 @@
       "minutes",
       "twenty",
       "bring",
-      "book",
-      "only"
+      "only",
+      "home"
      ],
      "suggestion": "Only for twenty minutes. Did you bring your book bag home?",
      "suggestionFa": "فقط بیست دقیقه. کیف کتابت را آوردی؟",
@@ -260,8 +260,8 @@
       "minutes",
       "twenty",
       "right",
-      "bath",
-      "home"
+      "then",
+      "bath"
      ],
      "suggestion": "Phew. Right, twenty minutes at the park, then home for tea and a bath. Off we go!",
      "suggestionFa": "آخیش. خب، بیست دقیقه پارک، بعد خونه برای شام و حموم. بریم!",

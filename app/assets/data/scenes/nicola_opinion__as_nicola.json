@@ -49,8 +49,8 @@
       "that's",
       "stays",
       "ryan",
-      "late",
-      "fair"
+      "fair",
+      "late"
      ],
      "suggestion": "But Ryan stays up late! That's not fair.",
      "suggestionFa": "ولی رایان تا دیروقت بیدار می‌مونه! این عادلانه نیست.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "reasons",
-      "should",
       "reason",
+      "should",
       "telly",
-      "give"
+      "says"
      ],
      "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
      "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "reason",
-      "tired",
       "awake",
-      "even",
-      "okay"
+      "tired",
+      "wide",
+      "look"
      ],
      "suggestion": "Hmm. Okay, reason two: I'm not even tired. Look — I'm wide awake!",
      "suggestionFa": "هوم. باشه، دلیل دو: اصلاً خسته نیستم. ببین — کاملاً بیدارم!",
@@ -123,8 +123,8 @@
      "keywords": [
       "children",
       "country",
-      "wasn't",
       "breath",
+      "wasn't",
       "yawn"
      ],
      "suggestion": "That wasn't a yawn. It was a… big breath. What do children do in your country?",
@@ -148,8 +148,8 @@
      "keywords": [
       "countries",
       "right",
-      "stay",
       "some",
+      "stay",
       "they"
      ],
      "suggestion": "See! In some countries they stay up! So I'm right.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "saturdays",
-      "moaning",
       "without",
       "fridays",
+      "moaning",
       "please"
      ],
      "suggestion": "Half eight on Fridays AND Saturdays? Please? I'll brush my teeth without moaning.",

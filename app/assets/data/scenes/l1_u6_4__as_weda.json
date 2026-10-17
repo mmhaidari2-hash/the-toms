@@ -1,8 +1,8 @@
 {
  "id": "l1_u6_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Knitting with Nana",
- "titleFa": "(در نقش Nana Weda) بافتنی با نانا",
+ "title": "(As Nana Maggie) Knitting with Nana",
+ "titleFa": "(در نقش Nana Maggie) بافتنی با نانا",
  "setting": "Weather & clothes · Level 1",
  "settingFa": "هوا و لباس",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -24,8 +24,8 @@
       "knitting",
       "william",
       "scarf",
-      "come",
-      "dear"
+      "dear",
+      "come"
      ],
      "suggestion": "Come and sit with me, dear. I'm knitting a scarf for William.",
      "suggestionFa": "بیا پیش من بشین عزیزم. دارم برای ویلیام شال‌گردن می‌بافم.",
@@ -48,8 +48,8 @@
      "keywords": [
       "stripes",
       "colour",
-      "white",
       "which",
+      "white",
       "like"
      ],
      "suggestion": "It's red and white stripes. Which colour do you like, the red or the white?",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "mittens",
-      "choice",
       "winter",
-      "good",
-      "i'll"
+      "choice",
+      "make",
+      "good"
      ],
      "suggestion": "Good choice. Next I'll make a hat and some mittens. It gets very cold in winter.",
      "suggestionFa": "انتخاب خوبیه. بعد یه کلاه و دستکش بی‌انگشت می‌بافم. زمستون خیلی سرد می‌شه.",
@@ -99,8 +99,8 @@
       "sometimes",
       "mostly",
       "snows",
-      "dark",
-      "much"
+      "much",
+      "dark"
      ],
      "suggestion": "Sometimes it snows, but not much. Mostly it's just cold, wet and dark.",
      "suggestionFa": "گاهی برف میاد، ولی نه زیاد. بیشتر فقط سرد، خیس و تاریکه.",
@@ -123,8 +123,8 @@
      "keywords": [
       "chocolate",
       "december",
-      "jumpers",
       "o'clock",
+      "jumpers",
       "around"
      ],
      "suggestion": "Around four o'clock in December! But we have cosy jumpers and hot chocolate.",
@@ -148,9 +148,9 @@
      "keywords": [
       "that's",
       "here",
+      "like",
       "wool",
-      "hold",
-      "like"
+      "hold"
      ],
      "suggestion": "Here, hold the wool for me. Hold it up, like this. That's it!",
      "suggestionFa": "بیا، کاموا را برام نگه دار. بالا نگهش دار، اینجوری. همینه!",
@@ -173,9 +173,9 @@
      "keywords": [
       "perfect",
       "teach",
+      "dear",
       "wrap",
-      "i'll",
-      "when"
+      "warm"
      ],
      "suggestion": "Perfect. One day I'll teach you. Wrap up warm when you go out, dear!",
      "suggestionFa": "عالیه. یه روز بهت یاد می‌دم. وقتی بیرون می‌ری خودت را گرم بپوشون عزیزم!",
@@ -189,9 +189,9 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

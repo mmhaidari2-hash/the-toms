@@ -195,9 +195,9 @@
   "n5": {
    "id": "n5",
    "speaker": "bennett",
-   "text": "Hello, Weda! Lovely to see you. Is this your friend?",
+   "text": "Hello, Maggie! Lovely to see you. Is this your friend?",
    "translations": {
-    "fa": "سلام ودا! خوشحالم می‌بینمت. این دوستته؟"
+    "fa": "سلام مگی! خوشحالم می‌بینمت. این دوستته؟"
    },
    "branches": [
     {
@@ -214,12 +214,12 @@
     },
     {
      "keywords": [
-      "library",
       "showing",
-      "weda"
+      "library",
+      "maggie"
      ],
-     "suggestion": "Yes. Weda is showing me the library.",
-     "suggestionFa": "آره. ودا داره کتابخونه را نشونم می‌ده.",
+     "suggestion": "Yes. Maggie is showing me the library.",
+     "suggestionFa": "آره. مگی داره کتابخونه را نشونم می‌ده.",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -239,9 +239,9 @@
   "n6": {
    "id": "n6",
    "speaker": "bennett",
-   "text": "Weda was my boss. She was the best boss! Did she tell you about the flood?",
+   "text": "Maggie was my boss. She was the best boss! Did she tell you about the flood?",
    "translations": {
-    "fa": "ودا رئیس من بود. بهترین رئیس بود! ماجرای سیل را برات تعریف کرد؟"
+    "fa": "مگی رئیس من بود. بهترین رئیس بود! ماجرای سیل را برات تعریف کرد؟"
    },
    "branches": [
     {

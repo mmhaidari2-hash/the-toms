@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "nine",
-      "have",
       "work",
+      "have",
+      "nine",
       "but"
      ],
      "suggestion": "No, but I have work at nine.",
@@ -135,8 +135,8 @@
      "keywords": [
       "maths",
       "sleep",
-      "then",
-      "need"
+      "test",
+      "then"
      ],
      "suggestion": "A maths test? Then you need sleep!",
      "suggestionFa": "امتحان ریاضی؟ پس خواب لازم داری!",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "seven",
-      "alarm"
+      "alarm",
+      "seven"
      ],
      "suggestion": "Yes, your alarm is on for seven.",
      "suggestionFa": "آره، زنگت برای هفت روشنه.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "i'll",
-      "set",
-      "off"
+      "off",
+      "set"
      ],
      "suggestion": "No, it's off. I'll set it for you.",
      "suggestionFa": "نه، خاموشه. برات تنظیمش می‌کنم.",
@@ -236,8 +236,8 @@
      "keywords": [
       "tomorrow",
       "wear",
-      "one",
-      "old"
+      "old",
+      "one"
      ],
      "suggestion": "Wear your old one tomorrow.",
      "suggestionFa": "فردا قدیمیه را بپوش.",
@@ -356,9 +356,9 @@
     {
      "keywords": [
       "early",
-      "long",
       "i've",
-      "got"
+      "long",
+      "day"
      ],
      "suggestion": "Early. I've got a long day.",
      "suggestionFa": "زود. روز طولانی‌ای دارم.",
@@ -392,8 +392,8 @@
    "branches": [
     {
      "keywords": [
-      "funny",
       "thing",
+      "funny",
       "say"
      ],
      "suggestion": "It's a funny thing to say! Night!",
@@ -404,10 +404,10 @@
     },
     {
      "keywords": [
-      "good",
-      "luck",
+      "ryan",
       "test",
-      "ryan"
+      "good",
+      "luck"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",
      "suggestionFa": "شب بخیر رایان. تو امتحانت موفق باشی.",

@@ -295,8 +295,17 @@ class ContinueHero extends ConsumerWidget {
     final s = c.scenes[sid]!;
     final pl = c.place(pid)!;
     final playable = ctrl.canPlay(s, c);
+    // Learners who started above Level 1 continue their own level, not the Level 1 breakfast episode.
+    final nl = ctrl.startLevel > 1 ? ctrl.nextLesson(c.course) : null;
+    final nu = nl == null ? null : c.course.unitOf(nl.id)!;
+    final img = nl == null ? pl.image! : (c.place(nl.place)?.image ?? pl.image!);
+    final label = nl == null ? '${i < 0 ? 'PLAY AGAIN' : 'CONTINUE'}  ·  EPISODE ${eps.indexOf((sid, pid)) + 1}' : 'CONTINUE  ·  LEVEL ${nu!.level}  ·  UNIT ${c.course.numberInLevel(nu)}';
+    final title = nl == null ? s.title.replaceFirst(RegExp(r'^Ep \d · '), '') : nl.title;
+    final titleFa = nl == null ? s.titleFa : nl.titleFa;
+    final meta = nl == null ? '${s.nodes.length * 2} turns  ·  ${s.level}' : '${nl.turns} turns  ·  ${c.scenes[nl.sceneIds.first]?.level ?? ''}';
     return Pressable(
-      onTap: () => context.push(playable ? '/chat/$sid' : '/place/$pid'),
+      key: ValueKey('hero-${nl?.id ?? sid}'),
+      onTap: () => context.push(nl != null ? '/lesson/${nl.id}' : playable ? '/chat/$sid' : '/place/$pid'),
       child: Container(
         height: 330,
         clipBehavior: Clip.antiAlias,
@@ -309,7 +318,7 @@ class ContinueHero extends ConsumerWidget {
               duration: const Duration(seconds: 14),
               curve: Curves.easeOut,
               builder: (_, v, child) => Transform.scale(scale: v, child: child),
-              child: Image.asset(pl.image!, fit: BoxFit.cover),
+              child: Image.asset(img, fit: BoxFit.cover),
             ),
             const DecoratedBox(
               decoration: BoxDecoration(
@@ -324,13 +333,13 @@ class ContinueHero extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '${i < 0 ? 'PLAY AGAIN' : 'CONTINUE'}  ·  EPISODE ${eps.indexOf((sid, pid)) + 1}',
+                    label,
                     style: const TextStyle(color: Color(0xFFE8C987), fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800),
                   ),
                   const SizedBox(height: 6),
-                  Text(s.title.replaceFirst(RegExp(r'^Ep \d · '), ''), style: BL.display(30, color: Colors.white).copyWith(height: 1.1)),
+                  Text(title, maxLines: 2, overflow: TextOverflow.ellipsis, style: BL.display(30, color: Colors.white).copyWith(height: 1.1)),
                   const SizedBox(height: 4),
-                  Text(s.titleFa, textDirection: TextDirection.rtl, style: BL.fa(13.5, color: Colors.white70)),
+                  Text(titleFa, textDirection: TextDirection.rtl, style: BL.fa(13.5, color: Colors.white70)),
                   const SizedBox(height: 16),
                   Row(
                     children: [
@@ -347,7 +356,7 @@ class ContinueHero extends ConsumerWidget {
                         ),
                       ),
                       const SizedBox(width: 12),
-                      Text('${s.nodes.length * 2} turns  ·  ${s.level}', style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600)),
+                      Text(meta, style: const TextStyle(color: Colors.white70, fontSize: 13, fontWeight: FontWeight.w600)),
                     ],
                   ),
                 ],
@@ -419,9 +428,9 @@ class CourseCard extends ConsumerWidget {
     final all = c.course.lessons.toList();
     if (all.isEmpty) return const SizedBox.shrink();
     final done = all.where(ctrl.lessonDone).length;
-    final next = all.where((l) => !ctrl.lessonDone(l)).firstOrNull;
+    final next = ctrl.nextLesson(c.course);
     return Pressable(
-      onTap: () => context.push('/course'),
+      onTap: () => context.push(next == null ? '/course' : '/course?level=${c.course.unitOf(next.id)!.level}'),
       child: Container(
         padding: const EdgeInsets.all(18),
         decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(24), boxShadow: BL.shadow(.08)),

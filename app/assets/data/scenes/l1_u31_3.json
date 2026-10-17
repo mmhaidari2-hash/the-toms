@@ -62,8 +62,8 @@
     {
      "keywords": [
       "dinner",
-      "called",
       "school",
+      "called",
       "lunch"
      ],
      "suggestion": "Is lunch called \"dinner\" at school?",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "fingers",
-      "like",
-      "fish"
+      "fish",
+      "like"
      ],
      "suggestion": "I like fish fingers too.",
      "suggestionFa": "منم فیش فینگر دوست دارم.",
@@ -269,8 +269,8 @@
      "keywords": [
       "tomorrow",
       "three",
-      "just",
-      "peas"
+      "peas",
+      "just"
      ],
      "suggestion": "Eat three peas tomorrow. Just three!",
      "suggestionFa": "فردا سه تا نخود فرنگی بخور. فقط سه تا!",
@@ -314,9 +314,9 @@
     },
     {
      "keywords": [
+      "pat",
       "ask",
-      "mrs",
-      "pat"
+      "mrs"
      ],
      "suggestion": "Ask Mrs Pat, not me!",
      "suggestionFa": "از خانم پت بپرس، نه از من!",

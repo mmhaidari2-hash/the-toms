@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "football",
       "practice",
+      "football",
       "time"
      ],
      "suggestion": "What time is football practice?",
@@ -140,18 +140,18 @@
   "n4": {
    "id": "n4",
    "speaker": "leslie",
-   "text": "On Wednesdays, I have a staff meeting after school. Weda picks up Nicola.",
+   "text": "On Wednesdays, I have a staff meeting after school. Maggie picks up Nicola.",
    "translations": {
-    "fa": "چهارشنبه‌ها بعد از مدرسه جلسهٔ کارکنان دارم. ودا نیکولا را برمی‌داره."
+    "fa": "چهارشنبه‌ها بعد از مدرسه جلسهٔ کارکنان دارم. مگی نیکولا را برمی‌داره."
    },
    "branches": [
     {
      "keywords": [
       "helpful",
-      "weda"
+      "maggie"
      ],
-     "suggestion": "Weda is very helpful.",
-     "suggestionFa": "ودا خیلی کمک می‌کنه.",
+     "suggestion": "Maggie is very helpful.",
+     "suggestionFa": "مگی خیلی کمک می‌کنه.",
      "trustDelta": 6,
      "next": "n5",
      "success": true
@@ -189,8 +189,8 @@
    "branches": [
     {
      "keywords": [
-      "week",
-      "once"
+      "once",
+      "week"
      ],
      "suggestion": "Once a week?",
      "suggestionFa": "هفته‌ای یه بار؟",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "that's",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "That's a good idea.",
      "suggestionFa": "فکر خوبیه.",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "fridays",
       "mondays",
+      "fridays",
       "gym",
       "go"
      ],

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "ducks",
-      "food",
-      "pond",
+      "lots",
       "have",
-      "lots"
+      "look",
+      "pond"
      ],
      "suggestion": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
      "suggestionFa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "special",
-      "ducks",
       "bread",
-      "duck",
-      "food"
+      "ducks",
+      "food",
+      "duck"
      ],
      "suggestion": "No! Not bread. Bread is bad for ducks. It's special duck food.",
      "suggestionFa": "نه! نون نه. نون برای اردک‌ها بده. غذای مخصوص اردکه.",
@@ -75,7 +75,7 @@
       "seeds",
       "many",
       "oats",
-      "how"
+      "can"
      ],
      "suggestion": "Oats and seeds. How many ducks can you see?",
      "suggestionFa": "جو دوسر و دونه. چند تا اردک می‌بینی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "grumpy",
       "white",
-      "swans",
+      "don't",
       "close",
-      "don't"
+      "swans"
      ],
      "suggestion": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
      "suggestionFa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "gently",
-      "throw",
       "water",
+      "throw",
       "food",
       "bit"
      ],
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "eating",
       "babies",
-      "she's",
-      "brown"
+      "little",
+      "brown",
+      "she's"
      ],
      "suggestion": "Yes! Look, the little brown duck is eating. She's got babies!",
      "suggestionFa": "آره! ببین، اردک قهوه‌ای کوچولو داره می‌خوره. بچه داره!",
@@ -175,7 +175,7 @@
       "called",
       "ducks",
       "three",
-      "four"
+      "baby"
      ],
      "suggestion": "One, two, three, four, five! Five ducklings. Baby ducks are called ducklings.",
      "suggestionFa": "یک، دو، سه، چهار، پنج! پنج جوجه اردک. به بچه اردک می‌گن جوجه اردک.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "taught",
       "cygnet",
+      "taught",
       "ellis",
       "gone",
       "food"
@@ -223,9 +223,9 @@
      "keywords": [
       "swings",
       "ducks",
+      "week",
       "next",
-      "race",
-      "week"
+      "race"
      ],
      "suggestion": "Yes! Race you to the swings! Bye, ducks! See you next week!",
      "suggestionFa": "آره! مسابقه تا تاب‌ها! خداحافظ اردک‌ها! هفتهٔ بعد می‌بینیمتون!",

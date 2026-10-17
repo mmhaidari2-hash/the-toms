@@ -22,9 +22,9 @@
     {
      "keywords": [
       "something",
-      "coffee",
-      "before",
       "school",
+      "before",
+      "coffee",
       "shall"
      ],
      "suggestion": "Phew! I need a coffee before the school run. Shall I get you something?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "they've",
-      "time",
-      "paid",
       "kind",
-      "last"
+      "lots",
+      "time",
+      "paid"
      ],
      "suggestion": "No, no. You paid last time. What kind of tea? They've got lots.",
      "suggestionFa": "نه، نه. دفعهٔ قبل تو حساب کردی. چه نوع چایی؟ کلی دارن.",
@@ -124,11 +124,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "friend",
+      "please",
       "callum",
       "mint",
-      "away"
+      "take"
      ],
      "suggestion": "Yes, please, Callum. And a mint tea for my friend. To take away.",
      "suggestionFa": "آره، لطفاً کالوم. و یه چای نعناع برای دوستم. برای بیرون.",
@@ -207,8 +207,8 @@
       "discount",
       "reusable",
       "have",
-      "got",
-      "cup"
+      "cup",
+      "get"
      ],
      "suggestion": "Oh, have you got a reusable cup? You get a discount!",
      "suggestionFa": "آه، لیوان چندبارمصرف داری؟ تخفیف می‌گیری!",

@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "buttons",
       "where's",
+      "buttons",
       "can't",
       "find",
       "him"
@@ -48,8 +48,8 @@
      "keywords": [
       "looked",
       "under",
-      "sofa",
       "look",
+      "sofa",
       "can"
      ],
      "suggestion": "No! I looked. Is he under the sofa? Can you look?",
@@ -75,7 +75,7 @@
       "buttons",
       "ryan's",
       "behind",
-      "sock"
+      "yuck"
      ],
      "suggestion": "Yuck, Ryan's sock! Is Mr Buttons behind the curtains?",
      "suggestionFa": "ایش، جوراب رایان! آقای دکمه پشت پرده‌هاست؟",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "shelf",
       "books",
       "about",
+      "shelf",
       "next"
      ],
      "suggestion": "What about on the shelf? Next to the books?",
@@ -220,9 +220,9 @@
     {
      "keywords": [
       "count",
+      "play",
       "seek",
       "hide",
-      "play",
       "can"
      ],
      "suggestion": "Can you play hide and seek with me? You hide, I count!",
@@ -244,11 +244,11 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "ready",
+      "three",
       "here",
       "come",
-      "two"
+      "one"
      ],
      "suggestion": "One, two, three… ready or not, here I come!",
      "suggestionFa": "یک، دو، سه… آماده باشی یا نه، دارم میام!",

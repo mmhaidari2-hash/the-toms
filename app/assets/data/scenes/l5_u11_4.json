@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "call",
       "they",
       "wait",
+      "call",
       "did"
      ],
      "suggestion": "Wait — did they call you, or did you call them?",
@@ -89,7 +89,7 @@
       "calling",
       "branch",
       "which",
-      "from"
+      "then"
      ],
      "suggestion": "Ask him which branch he's calling from — then hang up.",
      "suggestionFa": "ازش بپرس از کدوم شعبه زنگ می‌زنه — بعد قطع کن.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "pressure",
-      "fraud",
+      "panic",
       "signs",
-      "panic"
+      "fraud"
      ],
      "suggestion": "Yes. Pressure and panic are signs of fraud.",
      "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
@@ -143,7 +143,7 @@
       "comfortable",
       "directly",
       "bank",
-      "call"
+      "tell"
      ],
      "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
      "suggestionFa": "بهش بگو: «راحت نیستم. مستقیم به بانکم زنگ می‌زنم.»",
@@ -195,7 +195,7 @@
       "minutes",
       "another",
       "phone",
-      "five"
+      "then"
      ],
      "suggestion": "Wait five minutes, or use another phone, then call 159.",
      "suggestionFa": "پنج دقیقه صبر کن، یا با یه گوشی دیگه، بعد به ۱۵۹ زنگ بزن.",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "number",
-      "card",
-      "back"
+      "back",
+      "card"
      ],
      "suggestion": "Call the number on the back of your card.",
      "suggestionFa": "به شمارهٔ پشت کارتت زنگ بزن.",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "suspicious",
-      "friend",
       "asking",
+      "friend",
       "money"
      ],
      "suggestion": "My friend just had a suspicious call asking him to move money.",
@@ -254,8 +254,8 @@
     },
     {
      "keywords": [
-      "claiming",
       "barclays",
+      "claiming",
       "report",
       "like"
      ],
@@ -390,8 +390,8 @@
      "keywords": [
       "tonight",
       "report",
-      "we'll",
-      "thank"
+      "thank",
+      "we'll"
      ],
      "suggestion": "We'll report it tonight. Thank you, Siân.",
      "suggestionFa": "امشب گزارشش می‌دیم. ممنون سیان.",
@@ -403,11 +403,11 @@
      "keywords": [
       "targeted",
       "george",
-      "people",
-      "often"
+      "maggie",
+      "people"
      ],
-     "suggestion": "I'll warn George and Weda too — older people are often targeted.",
-     "suggestionFa": "به جورج و ودا هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.",
+     "suggestion": "I'll warn George and Maggie too — older people are often targeted.",
+     "suggestionFa": "به جورج و مگی هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.",
      "trustDelta": 5,
      "next": "n9",
      "success": true

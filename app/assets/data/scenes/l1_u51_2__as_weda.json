@@ -1,8 +1,8 @@
 {
  "id": "l1_u51_2__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) A tummy ache",
- "titleFa": "(در نقش Nana Weda) دل‌درد",
+ "title": "(As Nana Maggie) A tummy ache",
+ "titleFa": "(در نقش Nana Maggie) دل‌درد",
  "setting": "Under the weather · Level 1",
  "settingFa": "کسالت",
  "requires": null,
@@ -14,18 +14,18 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "nicola's",
-      "she's",
       "tummy",
-      "ache",
-      "sofa"
+      "she's",
+      "dear",
+      "ache"
      ],
      "suggestion": "Oh dear. Nicola's got a tummy ache. She's on the sofa. Can you sit with her?",
      "suggestionFa": "ای وای. نیکولا دل‌درد داره. رو مبله. می‌تونی پیشش بشینی؟",
@@ -232,11 +232,11 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "sweets",
+      "you'll",
+      "small",
       "today",
-      "water",
-      "small"
+      "water"
      ],
      "suggestion": "You'll be fine, pet. Small sips of water. And no more sweets today!",
      "suggestionFa": "خوب میشی عزیزم. آب جرعه جرعه. و امروز دیگه آبنبات نه!",

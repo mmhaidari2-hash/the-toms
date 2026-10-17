@@ -22,7 +22,7 @@
       "pocket",
       "money",
       "much",
-      "get"
+      "she"
      ],
      "suggestion": "How much pocket money does she get?",
      "suggestionFa": "چقدر پول توجیبی می‌گیره؟",
@@ -113,9 +113,9 @@
    "branches": [
     {
      "keywords": [
-      "need",
-      "then",
       "save",
+      "then",
+      "need",
       "up"
      ],
      "suggestion": "Then you need to save up.",
@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "divided",
       "fifteen",
+      "divided",
       "two",
       "by"
      ],
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "that's",
-      "fair",
-      "idea"
+      "idea",
+      "fair"
      ],
      "suggestion": "That's a fair idea.",
      "suggestionFa": "فکر منصفانه‌ایه.",

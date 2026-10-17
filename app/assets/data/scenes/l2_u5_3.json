@@ -32,8 +32,8 @@
     {
      "keywords": [
       "that's",
-      "doing",
       "right",
+      "doing",
       "how"
      ],
      "suggestion": "That's right. How is he doing?",
@@ -79,7 +79,7 @@
       "finished",
       "science",
       "project",
-      "has"
+      "his"
      ],
      "suggestion": "Has he finished his science project?",
      "suggestionFa": "پروژهٔ علومش را تموم کرده؟",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "help",
-      "i'll",
       "home",
-      "week"
+      "help",
+      "week",
+      "i'll"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "sounds",
-      "like",
-      "ryan"
+      "ryan",
+      "like"
      ],
      "suggestion": "That sounds like Ryan!",
      "suggestionFa": "این خیلی رایانیه!",

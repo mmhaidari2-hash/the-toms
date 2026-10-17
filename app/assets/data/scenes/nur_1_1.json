@@ -1,0 +1,279 @@
+{
+ "id": "nur_1_1",
+ "characterId": "vida",
+ "title": "Your first day",
+ "titleFa": "اولین روزت",
+ "setting": "Good morning, Little Acorns! · Level 0",
+ "settingFa": "صبح بخیر، لیتل ایکورنز!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Welcome to Little Acorns, {you}! I'm Vida, Leslie's sister. You're with me in the pre-school room.",
+   "translations": {
+    "fa": "به لیتل ایکورنز خوش اومدی {you}! من ویدام، خواهر لزلی. تو با من تو اتاق پیش‌دبستانی هستی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "thank",
+      "bit"
+     ],
+     "suggestion": "Thank you! I'm a bit nervous.",
+     "suggestionFa": "ممنون! یه کم استرس دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nice",
+      "meet",
+      "vida"
+     ],
+     "suggestion": "Nice to meet you, Vida.",
+     "suggestionFa": "از آشنایی‌ات خوشحالم، ویدا.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "welcome",
+     "fa": "خوش آمدی"
+    },
+    {
+     "word": "pre-school room",
+     "fa": "اتاق پیش‌دبستانی"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب ؛ نگران"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK nurseries, children are grouped in rooms by age: baby room, toddler room and pre-school room.",
+    "fa": "در مهدکودک‌ها بچه‌ها بر اساس سن در اتاق‌های جدا هستند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Don't worry, you'll be great. First, sign in on the iPad and put your phone in the locker.",
+   "translations": {
+    "fa": "نگران نباش، عالی می‌شی. اول، روی آی‌پد ورودت را ثبت کن و گوشیت را بذار تو کمد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lockers",
+      "where"
+     ],
+     "suggestion": "Where are the lockers?",
+     "suggestionFa": "کمدها کجان؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phones",
+      "room",
+      "ok"
+     ],
+     "suggestion": "OK. No phones in the room?",
+     "suggestionFa": "باشه. گوشی تو اتاق ممنوعه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign in",
+     "fa": "ثبت ورود"
+    },
+    {
+     "word": "locker",
+     "fa": "کمد ؛ قفسه"
+    },
+    {
+     "word": "phone",
+     "fa": "گوشی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Staff phones are not allowed in the rooms. It keeps children safe — no photos on personal phones.",
+    "fa": "گوشی شخصی در اتاق ممنوع است تا از کودکان محافظت شود."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "That's right, never in the room. Oh look, here's our first child. Morning, William!",
+   "translations": {
+    "fa": "درسته، هیچ‌وقت تو اتاق نه. اوه ببین، اولین بچه‌مون اومد. صبح بخیر ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "william"
+     ],
+     "suggestion": "Morning, William!",
+     "suggestionFa": "صبح بخیر ویلیام!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nephew",
+      "hello",
+      "he"
+     ],
+     "suggestion": "Hello! Is he your nephew?",
+     "suggestionFa": "سلام! خواهرزاده‌اته؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "morning",
+     "fa": "صبح بخیر (کوتاه)"
+    },
+    {
+     "word": "nephew",
+     "fa": "خواهرزاده/برادرزاده (پسر)"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Hello! I've got my dinosaur today!",
+   "translations": {
+    "fa": "سلام! امروز دایناسورم را آوردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "name",
+      "his",
+      "wow"
+     ],
+     "suggestion": "Wow! What's his name?",
+     "suggestionFa": "وای! اسمش چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinosaur",
+      "william",
+      "come"
+     ],
+     "suggestion": "A dinosaur! Come in, William.",
+     "suggestionFa": "یه دایناسور! بیا تو ویلیام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    },
+    {
+     "word": "come in",
+     "fa": "بیا تو"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Yes, my nephew! William, hang up your coat, please. Then come and sit down on the carpet.",
+   "translations": {
+    "fa": "آره، خواهرزاده‌م! ویلیام، لطفاً کتت را آویزون کن. بعد بیا رو فرش بشین."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "hang",
+      "coat",
+      "up"
+     ],
+     "suggestion": "Hang up your coat, William.",
+     "suggestionFa": "کتت را آویزون کن ویلیام.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carpet",
+      "good",
+      "sit",
+      "boy"
+     ],
+     "suggestion": "Good boy! Sit on the carpet.",
+     "suggestionFa": "پسر خوب! رو فرش بشین.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hang up",
+     "fa": "آویزان کردن"
+    },
+    {
+     "word": "coat",
+     "fa": "کت ؛ پالتو"
+    },
+    {
+     "word": "carpet",
+     "fa": "فرش ؛ موکت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Short, kind instructions work best with young children: \"Coat on the peg, please.\"",
+    "fa": "دستورهای کوتاه و مهربان برای بچه‌های کوچک بهترند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "you hang your coat",
+      "hang the coat you"
+     ],
+     "echo": "Hang up your coat, please? Perfect!",
+     "better": "Hang up your coat, please.",
+     "betterFa": "لطفاً کتت را آویزون کن."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Perfect. Short and kind — that's how we talk to them. You're a natural!",
+   "translations": {
+    "fa": "عالی. کوتاه و مهربون — این‌جوری باهاشون حرف می‌زنیم. ذاتاً بلدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

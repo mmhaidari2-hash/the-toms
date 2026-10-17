@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "pounds",
+      "twelve",
       "says"
      ],
      "suggestion": "It says twelve pounds.",
@@ -120,8 +120,8 @@
     },
     {
      "keywords": [
-      "ask",
       "box",
+      "ask",
       "tom"
      ],
      "suggestion": "Ask for a box, Tom.",
@@ -152,10 +152,10 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "mistake",
-      "think",
-      "sorry"
+      "there's",
+      "sorry",
+      "think"
      ],
      "suggestion": "Sorry, I think there's a mistake.",
      "suggestionFa": "ببخشید، فکر کنم اشتباه شده.",
@@ -165,10 +165,10 @@
     },
     {
      "keywords": [
-      "pounds",
       "that's",
-      "wrong",
-      "three"
+      "pounds",
+      "three",
+      "wrong"
      ],
      "suggestion": "Three pounds? That's wrong.",
      "suggestionFa": "سه پوند؟ اشتباهه.",
@@ -229,9 +229,9 @@
     },
     {
      "keywords": [
-      "pounds",
       "change",
-      "should"
+      "should",
+      "pounds"
      ],
      "suggestion": "It should be eight pounds change.",
      "suggestionFa": "بقیه‌ش باید هشت پوند باشه.",
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
-      "happens"
+      "happens",
+      "problem"
      ],
      "suggestion": "No problem. It happens.",
      "suggestionFa": "مشکلی نیست. پیش میاد.",
@@ -272,9 +272,9 @@
     },
     {
      "keywords": [
-      "worry",
+      "don't",
       "about",
-      "don't"
+      "worry"
      ],
      "suggestion": "Don't worry about it.",
      "suggestionFa": "نگران نباش.",
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "every",
       "fares",
+      "every",
       "count",
       "day"
      ],

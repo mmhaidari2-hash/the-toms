@@ -34,8 +34,8 @@
      "keywords": [
       "throat",
       "cough",
-      "sore",
-      "days"
+      "days",
+      "sore"
      ],
      "suggestion": "I've had a sore throat and a cough for a few days.",
      "suggestionFa": "چند روزه گلودرد و سرفه دارم.",
@@ -205,8 +205,8 @@
     {
      "keywords": [
       "food",
-      "take",
       "them",
+      "take",
       "can"
      ],
      "suggestion": "Can I take them with food?",
@@ -269,9 +269,9 @@
     {
      "keywords": [
       "should",
-      "long",
       "okay",
-      "take"
+      "them",
+      "long"
      ],
      "suggestion": "Okay. How long should I take them for?",
      "suggestionFa": "باشه. چه مدت باید بخورمشون؟",
@@ -305,7 +305,7 @@
       "sunglasses",
       "britain",
       "first",
-      "i'll"
+      "need"
      ],
      "suggestion": "Sunglasses in Britain? I'll need some sun first!",
      "suggestionFa": "عینک آفتابی تو بریتانیا؟ اول یه کم آفتاب لازم دارم!",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thank",
-      "much",
       "they",
+      "much",
       "how"
      ],
      "suggestion": "Thank you. How much are they?",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "prescription",
-      "need",
-      "will"
+      "will",
+      "need"
      ],
      "suggestion": "Will do. Do I need a prescription?",
      "suggestionFa": "حتماً. نسخه لازمه؟",

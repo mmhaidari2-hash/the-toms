@@ -31,8 +31,8 @@
     {
      "keywords": [
       "school",
-      "from",
-      "song"
+      "song",
+      "from"
      ],
      "suggestion": "Is this a song from school?",
      "suggestionFa": "این آهنگ مدرسه‌ست؟",
@@ -76,7 +76,7 @@
      "keywords": [
       "that's",
       "mouth",
-      "nose",
+      "ears",
       "oops"
      ],
      "suggestion": "Nose, ears… oops, that's my mouth!",
@@ -324,8 +324,8 @@
     },
     {
      "keywords": [
-      "first",
       "let's",
+      "first",
       "some",
       "put"
      ],

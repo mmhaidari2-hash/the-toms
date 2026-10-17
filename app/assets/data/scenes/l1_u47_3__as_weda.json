@@ -1,8 +1,8 @@
 {
  "id": "l1_u47_3__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Old photos",
- "titleFa": "(در نقش Nana Weda) عکس‌های قدیمی",
+ "title": "(As Nana Maggie) Old photos",
+ "titleFa": "(در نقش Nana Maggie) عکس‌های قدیمی",
  "setting": "Nana's corner · Level 1",
  "settingFa": "گوشهٔ نانا",
  "requires": null,
@@ -14,18 +14,18 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "cupboard",
-      "found",
-      "photo",
+      "album",
       "would",
-      "album"
+      "photo",
+      "found"
      ],
      "suggestion": "Look what I found in the cupboard! My old photo album. Would you like to see?",
      "suggestionFa": "ببین تو کمد چی پیدا کردم! آلبوم عکس قدیمیم. می‌خوای ببینی؟",
@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "wasn't",
       "pretty",
       "twenty",
+      "wasn't",
       "old",
       "was"
      ],
@@ -99,8 +99,8 @@
       "manchester",
       "piccadilly",
       "station",
-      "little",
-      "here's"
+      "here's",
+      "porter"
      ],
      "suggestion": "Yes, he was a porter at Piccadilly station, in Manchester. And look — here's a little boy. Who is it?",
      "suggestionFa": "آره، باربر ایستگاه پیکادلی منچستر بود. و ببین — اینم یه پسر کوچولو. کیه؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "naughty",
       "always",
-      "even",
       "then",
-      "five"
+      "five",
+      "even"
      ],
      "suggestion": "It's Tom! He was five. He was very naughty. He was always on a bus, even then!",
      "suggestionFa": "تامه! پنج سالش بود. خیلی شیطون بود. حتی اون موقع هم همیشه تو اتوبوس بود!",
@@ -149,8 +149,8 @@
       "parents",
       "photos",
       "young",
-      "times",
-      "happy"
+      "happy",
+      "times"
      ],
      "suggestion": "Very happy. Times were hard, but we were happy. Were your parents young in your photos?",
      "suggestionFa": "خیلی خوشحال. اوضاع سخت بود، ولی خوشحال بودیم. پدر و مادرت تو عکس‌هات جوون بودن؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "family",
       "phone",
-      "show",
-      "eyes",
+      "dear",
+      "kind",
       "want"
      ],
      "suggestion": "On your phone! Show me one, dear. I want to see your family. Is that your mum? She has kind eyes.",
@@ -189,9 +189,9 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
+      "ryan",
       "five",
-      "eats",
-      "ryan"
+      "eats"
      ],
      "suggestion": "Ryan eats five!",
      "suggestionFa": "رایان پنج تا می‌خوره!",
@@ -157,9 +157,9 @@
   "n4": {
    "id": "n4",
    "speaker": "tom",
-   "text": "Fifteen burgers, then. And chicken wings for Weda. She loves them.",
+   "text": "Fifteen burgers, then. And chicken wings for Maggie. She loves them.",
    "translations": {
-    "fa": "پس پونزده تا برگر. و بال مرغ برای ودا. عاشقشه."
+    "fa": "پس پونزده تا برگر. و بال مرغ برای مگی. عاشقشه."
    },
    "branches": [
     {
@@ -219,10 +219,10 @@
     {
      "keywords": [
       "chicken",
-      "weda"
+      "maggie"
      ],
-     "suggestion": "Chicken ones for me and Weda.",
-     "suggestionFa": "مرغی برای من و ودا.",
+     "suggestion": "Chicken ones for me and Maggie.",
+     "suggestionFa": "مرغی برای من و مگی.",
      "trustDelta": 5,
      "next": "n6",
      "success": true
@@ -308,8 +308,8 @@
     },
     {
      "keywords": [
-      "peppers",
-      "skewers"
+      "skewers",
+      "peppers"
      ],
      "suggestion": "And peppers for skewers?",
      "suggestionFa": "و فلفل دلمه برای سیخ؟",
@@ -355,8 +355,8 @@
     {
      "keywords": [
       "shopping",
-      "enough",
       "that's",
+      "enough",
       "today"
      ],
      "suggestion": "That's enough shopping for today!",

@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "dust",
       "help",
+      "dust",
       "can"
      ],
      "suggestion": "Can I help you dust?",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "cleaning",
-      "maybe",
-      "after"
+      "after",
+      "maybe"
      ],
      "suggestion": "After the cleaning, maybe.",
      "suggestionFa": "بعد از نظافت، شاید.",
@@ -168,8 +168,8 @@
     {
      "keywords": [
       "behind",
-      "jar",
-      "key"
+      "key",
+      "jar"
      ],
      "suggestion": "It's a key. Behind the jar.",
      "suggestionFa": "یه کلیده. پشت ظرف.",

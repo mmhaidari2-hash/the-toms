@@ -1,0 +1,273 @@
+{
+ "id": "nur_1_2",
+ "characterId": "vida",
+ "title": "Wash your hands",
+ "titleFa": "دست‌هایت را بشور",
+ "setting": "Good morning, Little Acorns! · Level 0",
+ "settingFa": "صبح بخیر، لیتل ایکورنز!",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Snack time soon! First, everyone washes their hands. Can you help at the sinks?",
+   "translations": {
+    "fa": "به‌زودی وقت خوراکیه! اول همه دستاشون را می‌شورن. می‌تونی سر روشویی کمک کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "say"
+     ],
+     "suggestion": "Of course. What do I say?",
+     "suggestionFa": "حتماً. چی بگم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "towels",
+      "where",
+      "paper"
+     ],
+     "suggestion": "Yes. Where are the paper towels?",
+     "suggestionFa": "آره. دستمال کاغذی‌ها کجان؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snack time",
+     "fa": "وقت خوراکی ؛ میان‌وعده"
+    },
+    {
+     "word": "sink",
+     "fa": "روشویی"
+    },
+    {
+     "word": "paper towels",
+     "fa": "دستمال کاغذی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Keep it simple. Sleeves up, soap, rub, rinse, dry. We sing a little song too.",
+   "translations": {
+    "fa": "ساده بگو. آستین بالا، صابون، بمال، آب بکش، خشک کن. یه آهنگ کوچیک هم می‌خونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "sleeves",
+      "up"
+     ],
+     "suggestion": "Sleeves up, everyone!",
+     "suggestionFa": "همه آستین‌ها بالا!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "song",
+      "sing"
+     ],
+     "suggestion": "Which song do you sing?",
+     "suggestionFa": "کدوم آهنگ را می‌خونید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sleeves up",
+     "fa": "آستین‌ها بالا"
+    },
+    {
+     "word": "soap",
+     "fa": "صابون"
+    },
+    {
+     "word": "rub",
+     "fa": "مالیدن"
+    },
+    {
+     "word": "rinse",
+     "fa": "آب کشیدن"
+    },
+    {
+     "word": "dry",
+     "fa": "خشک کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Bubbles! Look, I've got bubbles!",
+   "translations": {
+    "fa": "حباب! ببین، حباب دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bubbles",
+      "lovely",
+      "rub"
+     ],
+     "suggestion": "Lovely bubbles! Now rub, rub, rub.",
+     "suggestionFa": "حباب‌های قشنگ! حالا بمال، بمال، بمال.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "hands",
+      "rinse"
+     ],
+     "suggestion": "Great! Now rinse your hands.",
+     "suggestionFa": "عالی! حالا دستات را آب بکش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bubbles",
+     "fa": "حباب‌ها"
+    },
+    {
+     "word": "rub",
+     "fa": "مالیدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "oscar",
+   "text": "I don't want to! The water's cold!",
+   "translations": {
+    "fa": "نمی‌خوام! آب سرده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "warm",
+      "now",
+      "ok"
+     ],
+     "suggestion": "It's OK, Oscar. It's warm now.",
+     "suggestionFa": "اشکالی نداره اسکار. الان گرمه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "let's"
+     ],
+     "suggestion": "Let's do it together, Oscar.",
+     "suggestionFa": "بیا با هم انجامش بدیم اسکار.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Give a child a choice instead of a battle: \"Do you want the blue tap or the red tap?\"",
+    "fa": "به‌جای دعوا، به بچه حق انتخاب بده."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Nice. You stayed calm and gave him a choice. Now dry your hands, Oscar. Good job!",
+   "translations": {
+    "fa": "آفرین. آروم موندی و بهش حق انتخاب دادی. حالا دستات را خشک کن اسکار. آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oscar",
+      "done",
+      "well"
+     ],
+     "suggestion": "Well done, Oscar!",
+     "suggestionFa": "آفرین اسکار!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "towel",
+      "paper",
+      "bin"
+     ],
+     "suggestion": "Paper towel in the bin, please.",
+     "suggestionFa": "لطفاً دستمال تو سطل.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good job",
+     "fa": "آفرین ؛ کارت خوب بود"
+    },
+    {
+     "word": "bin",
+     "fa": "سطل"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you dry hands",
+      "dry you hands"
+     ],
+     "echo": "Dry your hands? Good!",
+     "better": "Dry your hands, please.",
+     "betterFa": "لطفاً دستات را خشک کن."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Everyone's clean! Germs spread fast here, so we wash before food, after the toilet and after outside play.",
+   "translations": {
+    "fa": "همه تمیزن! میکروب اینجا سریع پخش میشه، پس قبل از غذا، بعد از دستشویی و بعد از بازی بیرون می‌شوریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

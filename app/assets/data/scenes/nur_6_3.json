@@ -1,0 +1,292 @@
+{
+ "id": "nur_6_3",
+ "characterId": "harris",
+ "title": "The Ofsted visit",
+ "titleFa": "بازدید Ofsted",
+ "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "harris",
+   "text": "Good morning. I'm Mark Harris, the Ofsted inspector. I'd just like to chat with you while you work, if that's alright. Nothing to worry about.",
+   "translations": {
+    "fa": "صبح بخیر. من مارک هریس هستم، بازرس Ofsted. اگه اشکالی نداره، فقط می‌خوام موقع کار باهاتون گپ بزنم. جای نگرانی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course"
+     ],
+     "suggestion": "Of course. Good morning!",
+     "suggestionFa": "البته. صبح بخیر!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "activity",
+      "shall",
+      "carry"
+     ],
+     "suggestion": "Good morning. Shall I carry on with the activity?",
+     "suggestionFa": "صبح بخیر. فعالیت را ادامه بدم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inspector",
+     "fa": "بازرس"
+    },
+    {
+     "word": "chat",
+     "fa": "گپ زدن"
+    },
+    {
+     "word": "carry on",
+     "fa": "ادامه دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Ofsted inspects nurseries in England. Inspectors watch practice and talk to staff and children; grades include \"Outstanding\" and \"Good\".",
+    "fa": "Ofsted مهدها را بازرسی می‌کند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "harris",
+   "text": "Please do. Can you tell me what the children are learning from this activity?",
+   "translations": {
+    "fa": "لطفاً ادامه بدید. می‌تونید بگید بچه‌ها از این فعالیت چی یاد می‌گیرن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "comparing",
+      "counting",
+      "they're",
+      "builds"
+     ],
+     "suggestion": "They're counting and comparing sizes, which builds early maths.",
+     "suggestionFa": "دارن می‌شمرن و اندازه‌ها را مقایسه می‌کنن، که پایهٔ ریاضی را می‌سازه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "vocabulary",
+      "helping",
+      "taking",
+      "turn"
+     ],
+     "suggestion": "It's also helping with turn-taking and new vocabulary.",
+     "suggestionFa": "به نوبت گرفتن و واژه‌های جدید هم کمک می‌کنه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comparing",
+     "fa": "مقایسه کردن"
+    },
+    {
+     "word": "early maths",
+     "fa": "ریاضی پایه"
+    },
+    {
+     "word": "turn-taking",
+     "fa": "نوبت گرفتن"
+    },
+    {
+     "word": "vocabulary",
+     "fa": "واژگان"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "harris",
+   "text": "And how do you know what each child needs to learn next?",
+   "translations": {
+    "fa": "و از کجا می‌دونید هر بچه بعداً چی باید یاد بگیره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "observe",
+      "steps",
+      "next"
+     ],
+     "suggestion": "I observe my key children and plan next steps from what I see.",
+     "suggestionFa": "بچه‌های کلیدی‌ام را مشاهده می‌کنم و از روی چیزی که می‌بینم گام بعدی را برنامه‌ریزی می‌کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "interests",
+      "parents",
+      "about",
+      "their"
+     ],
+     "suggestion": "We talk to parents about their interests at home, too.",
+     "suggestionFa": "با والدین هم دربارهٔ علایقشون تو خونه حرف می‌زنیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "observe",
+     "fa": "مشاهده کردن"
+    },
+    {
+     "word": "interests",
+     "fa": "علایق"
+    },
+    {
+     "word": "plan",
+     "fa": "برنامه‌ریزی کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i observe them and i do plan",
+      "i am observing and planning next"
+     ],
+     "echo": "You observe and plan next steps?",
+     "better": "I observe my key children and plan their next steps.",
+     "betterFa": "بچه‌های کلیدی‌ام را مشاهده می‌کنم و گام بعدی‌شون را برنامه‌ریزی می‌کنم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "harris",
+   "text": "That's helpful. A safeguarding question now: what would you do if a child told you something worrying?",
+   "translations": {
+    "fa": "مفیده. حالا یه سؤال حفاظتی: اگه بچه‌ای چیز نگران‌کننده‌ای بهتون گفت چی کار می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "questions",
+      "straight",
+      "leading",
+      "listen"
+     ],
+     "suggestion": "Listen calmly, not ask leading questions, and tell the DSL straight away.",
+     "suggestionFa": "آروم گوش می‌دم، سؤال جهت‌دار نمی‌پرسم و فوراً به DSL می‌گم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "report",
+      "exact",
+      "words",
+      "their"
+     ],
+     "suggestion": "I'd write down their exact words and report it the same day.",
+     "suggestionFa": "کلمات دقیقش را می‌نویسم و همون روز گزارش می‌دم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worrying",
+     "fa": "نگران‌کننده"
+    },
+    {
+     "word": "straight away",
+     "fa": "فوراً"
+    },
+    {
+     "word": "exact words",
+     "fa": "کلمات دقیق"
+    }
+   ],
+   "cultureNote": {
+    "en": "Inspectors often ask staff about safeguarding, the DSL's name and what to do if a concern is about a colleague.",
+    "fa": "بازرسان دربارهٔ حفاظت از کودک از کارکنان سؤال می‌کنند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "harris",
+   "text": "And who's your Designated Safeguarding Lead?",
+   "translations": {
+    "fa": "و مسئول تعیین‌شدهٔ حفاظت از کودک شما کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manager",
+      "deputy",
+      "leader",
+      "room"
+     ],
+     "suggestion": "It's Jo, the room leader, and the manager is the deputy.",
+     "suggestionFa": "جو، سرپرست اتاق، و مدیر جانشینشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "safeguarding",
+      "entrance",
+      "board",
+      "photo"
+     ],
+     "suggestion": "Jo — her photo is on the safeguarding board by the entrance.",
+     "suggestionFa": "جو — عکسش رو تابلوی حفاظت کنار ورودیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deputy",
+     "fa": "جانشین ؛ معاون"
+    },
+    {
+     "word": "entrance",
+     "fa": "ورودی"
+    },
+    {
+     "word": "board",
+     "fa": "تابلو"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "harris",
+   "text": "Thank you, that's very clear. You obviously know your children well. I'll let you get back to them — they're waiting for the next measuring game!",
+   "translations": {
+    "fa": "ممنون، خیلی واضح بود. معلومه بچه‌هاتون را خوب می‌شناسید. می‌ذارم برگردید سراغشون — منتظر بازی اندازه‌گیری بعدی‌ان!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "goats",
       "sheep",
+      "goats",
       "see",
       "can"
      ],
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "chickens",
-      "can't",
       "ducks",
+      "can't",
       "but"
      ],
      "suggestion": "Ducks can fly, but chickens can't.",
@@ -331,8 +331,8 @@
      "keywords": [
       "beautiful",
       "they're",
-      "big",
-      "but"
+      "but",
+      "big"
      ],
      "suggestion": "They're beautiful, but very big.",
      "suggestionFa": "قشنگن، ولی خیلی بزرگن.",
@@ -379,9 +379,9 @@
     {
      "keywords": [
       "cream",
-      "good",
       "then",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. Then an ice cream?",
      "suggestionFa": "فکر خوبیه. بعد یه بستنی؟",

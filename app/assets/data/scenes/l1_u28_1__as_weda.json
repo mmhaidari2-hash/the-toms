@@ -1,8 +1,8 @@
 {
  "id": "l1_u28_1__as_weda",
  "characterId": "tom",
- "title": "(As Nana Weda) Hello, who's speaking?",
- "titleFa": "(در نقش Nana Weda) الو، شما؟",
+ "title": "(As Nana Maggie) Hello, who's speaking?",
+ "titleFa": "(در نقش Nana Maggie) الو، شما؟",
  "setting": "Phone basics · Level 1",
  "settingFa": "مکالمهٔ تلفنی ساده",
  "requires": null,
@@ -61,13 +61,13 @@
     {
      "keywords": [
       "speaking",
-      "who's",
+      "maggie",
       "hello",
-      "weda",
+      "who's",
       "love"
      ],
-     "suggestion": "Hello, love. It's Weda. Who's speaking?",
-     "suggestionFa": "الو عزیزم. ودام. شما؟",
+     "suggestion": "Hello, love. It's Maggie. Who's speaking?",
+     "suggestionFa": "الو عزیزم. مگی‌ام. شما؟",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -78,15 +78,15 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
-   "text": "Hi, Weda! It's Mehdi.",
+   "text": "Hi, Maggie! It's Mehdi.",
    "translations": {
-    "fa": "سلام ودا! {you} هستم."
+    "fa": "سلام مگی! {you} هستم."
    },
    "branches": [
     {
      "keywords": [
-      "there",
       "hello",
+      "there",
       "dear",
       "tom",
       "oh"
@@ -112,9 +112,9 @@
      "keywords": [
       "message",
       "never",
-      "give",
       "mind",
-      "can"
+      "give",
+      "him"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -185,10 +185,10 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "thank",
-      "call",
+      "after",
       "love",
+      "call",
       "back"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
@@ -213,8 +213,8 @@
       "course",
       "thank",
       "dear",
-      "bye",
-      "has"
+      "has",
+      "bye"
      ],
      "suggestion": "Of course he has! Thank you, dear. Bye-bye!",
      "suggestionFa": "البته که داره! ممنون عزیزم. خداحافظ!",
@@ -228,9 +228,9 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "Bye, Weda! Take care!",
+   "text": "Bye, Maggie! Take care!",
    "translations": {
-    "fa": "خداحافظ ودا! مراقب خودتون باشید!"
+    "fa": "خداحافظ مگی! مراقب خودتون باشید!"
    },
    "branches": [
     {

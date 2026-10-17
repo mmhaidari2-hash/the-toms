@@ -33,6 +33,9 @@ V={ # speaker -> (voice, pitch, rate)
  'mechanic':('en-GB-RyanNeural','-20Hz','-4%'),
  'workcoach':('en-GB-ThomasNeural','-10Hz','-2%'),
  'council':('en-GB-LibbyNeural','-10Hz','+0%'),
+ 'vida':('en-GB-SoniaNeural','+12Hz','-6%'),'jo':('en-IE-EmilyNeural','-6Hz','-2%'),
+ 'oscar':('en-GB-MaisieNeural','+4Hz','+8%'),'dan':('en-AU-WilliamMultilingualNeural','+0Hz','+2%'),
+ 'harris':('en-GB-RyanNeural','-8Hz','-8%'),
  'narrator':('en-GB-SoniaNeural','+0Hz','-8%'),
 }
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]

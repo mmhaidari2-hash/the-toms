@@ -1,0 +1,261 @@
+{
+ "id": "nur_3_3",
+ "characterId": "vida",
+ "title": "Messy play",
+ "titleFa": "بازی کثیف‌کاری",
+ "setting": "Play, songs and feelings · Level 0",
+ "settingFa": "بازی، آهنگ و احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Today's messy play is cornflour and water — we call it gloop. Aprons on first, please!",
+   "translations": {
+    "fa": "بازی کثیف‌کاری امروز نشاسته و آبه — بهش می‌گیم «گلوپ». اول پیش‌بند، لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "sleeves",
+      "aprons",
+      "up"
+     ],
+     "suggestion": "Aprons on, everyone! Sleeves up!",
+     "suggestionFa": "همه پیش‌بند بپوشید! آستین بالا!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "gloop"
+     ],
+     "suggestion": "What's gloop?",
+     "suggestionFa": "گلوپ چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "messy play",
+     "fa": "بازی با مواد کثیف‌کننده"
+    },
+    {
+     "word": "cornflour",
+     "fa": "نشاستهٔ ذرت"
+    },
+    {
+     "word": "apron",
+     "fa": "پیش‌بند"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "It's runny when you pour it, but hard when you squeeze it. Ask them questions. What does it feel like?",
+   "translations": {
+    "fa": "وقتی می‌ریزیش آبکیه، ولی وقتی فشارش میدی سفت میشه. ازشون سؤال بپرس. چه حسی داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "feel",
+      "like"
+     ],
+     "suggestion": "What does it feel like, William?",
+     "suggestionFa": "ویلیام، چه حسی داره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oscar",
+      "hard",
+      "soft"
+     ],
+     "suggestion": "Is it hard or soft, Oscar?",
+     "suggestionFa": "اسکار، سفته یا نرم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "runny",
+     "fa": "آبکی"
+    },
+    {
+     "word": "squeeze",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "feel like",
+     "fa": "حس داشتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "It's squishy! And cold!",
+   "translations": {
+    "fa": "لِه‌لِهیه! و سرده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squishy",
+      "great",
+      "words",
+      "cold"
+     ],
+     "suggestion": "Squishy and cold! Great words!",
+     "suggestionFa": "لِه‌لِهی و سرد! کلمه‌های عالی!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happens",
+      "squeeze",
+      "if"
+     ],
+     "suggestion": "What happens if you squeeze it?",
+     "suggestionFa": "اگه فشارش بدی چی میشه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squishy",
+     "fa": "نرم و لِه‌شونده"
+    },
+    {
+     "word": "cold",
+     "fa": "سرد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "oscar",
+   "text": "Look! It's dripping! Drip, drip!",
+   "translations": {
+    "fa": "ببین! داره چکه می‌کنه! چک، چک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dripping",
+      "fingers",
+      "through",
+      "wow"
+     ],
+     "suggestion": "Wow, it's dripping through your fingers!",
+     "suggestionFa": "وای، داره از لای انگشتات می‌چکه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drip",
+      "tray",
+      "make",
+      "can"
+     ],
+     "suggestion": "Can you make it drip on the tray?",
+     "suggestionFa": "می‌تونی رو سینی بچکونیش؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dripping",
+     "fa": "چکیدن"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشت‌ها"
+    },
+    {
+     "word": "tray",
+     "fa": "سینی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Adults add words to what children do (\"dripping through your fingers\"). This is how children build vocabulary.",
+    "fa": "بزرگسال کلمه به کار بچه اضافه می‌کند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Exactly — that's commentary. Describe what they do and add a new word. Can you take a photo for their learning journals?",
+   "translations": {
+    "fa": "دقیقاً — این توصیف هم‌زمانه. کارشون را توصیف کن و یه کلمهٔ تازه اضافه کن. می‌تونی برای دفتر یادگیری‌شون عکس بگیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nursery",
+      "tablet"
+     ],
+     "suggestion": "Yes, with the nursery tablet.",
+     "suggestionFa": "آره، با تبلت مهد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learning",
+      "journal",
+      "what's"
+     ],
+     "suggestion": "What's a learning journal?",
+     "suggestionFa": "دفتر یادگیری چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "commentary",
+     "fa": "توصیف هم‌زمان"
+    },
+    {
+     "word": "learning journal",
+     "fa": "دفتر یادگیری (پروندهٔ پیشرفت کودک)"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "It's an online record of each child's learning, with photos and notes. Parents see it at home. Now, clean-up time!",
+   "translations": {
+    "fa": "یه سابقهٔ آنلاین از یادگیری هر بچه‌ست، با عکس و یادداشت. والدین تو خونه می‌بیننش. حالا وقت تمیز کردنه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

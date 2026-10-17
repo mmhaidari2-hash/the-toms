@@ -120,9 +120,9 @@
     {
      "keywords": [
       "surname",
-      "their",
       "women",
-      "keep"
+      "their",
+      "iran"
      ],
      "suggestion": "No. In Iran, women keep their surname.",
      "suggestionFa": "نه. تو ایران زن‌ها نام خانوادگیشون را نگه می‌دارن.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "family",
-      "kept",
       "name",
-      "her"
+      "kept",
+      "she"
      ],
      "suggestion": "No, she kept her family name.",
      "suggestionFa": "نه، نام خانوادگی خودش را نگه داشت.",
@@ -179,7 +179,7 @@
       "surname",
       "double",
       "names",
-      "like"
+      "both"
      ],
      "suggestion": "Both names? Like a double surname?",
      "suggestionFa": "هر دو اسم؟ مثل یه نام خانوادگی دوتایی؟",
@@ -258,20 +258,20 @@
   "n6": {
    "id": "n6",
    "speaker": "leslie",
-   "text": "A second first name! Mine is Rose, after my nan. Nicola's is Weda, after Nana!",
+   "text": "A second first name! Mine is Rose, after my nan. Nicola's is Margaret, after Nana Maggie!",
    "translations": {
-    "fa": "یه اسم کوچیک دوم! مال من رُزه، به اسم مادربزرگم. مال نیکولا وداست، به اسم نانا!"
+    "fa": "یه اسم کوچیک دوم! مال من رُزه، به اسم مادربزرگم. مال نیکولا مارگارته، به اسم نانا!"
    },
    "branches": [
     {
      "keywords": [
+      "margaret",
       "thompson",
       "nicola",
-      "that's",
       "lovely"
      ],
-     "suggestion": "That's lovely. Nicola Weda Thompson.",
-     "suggestionFa": "چه قشنگ. نیکولا ودا تامپسون.",
+     "suggestion": "That's lovely. Nicola Margaret Thompson.",
+     "suggestionFa": "چه قشنگ. نیکولا مارگارت تامپسون.",
      "trustDelta": 6,
      "next": "n7",
      "success": true
@@ -279,9 +279,9 @@
     {
      "keywords": [
       "middle",
+      "ryan",
       "have",
-      "name",
-      "ryan"
+      "name"
      ],
      "suggestion": "Does Ryan have a middle name?",
      "suggestionFa": "رایان اسم وسط داره؟",

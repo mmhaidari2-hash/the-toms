@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "share",
       "girls",
+      "share",
       "let's",
       "toys"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "nicola",
-      "have",
       "doll",
-      "her"
+      "have",
+      "can"
      ],
      "suggestion": "Nicola, can Mia have her doll?",
      "suggestionFa": "نیکولا، می‌شه میا عروسکش را داشته باشه؟",
@@ -163,8 +163,8 @@
    "branches": [
     {
      "keywords": [
-      "about",
       "teddy",
+      "about",
       "bear"
      ],
      "suggestion": "What about the teddy bear?",
@@ -176,9 +176,9 @@
     {
      "keywords": [
       "blocks",
-      "build",
+      "tower",
       "let's",
-      "tower"
+      "build"
      ],
      "suggestion": "Let's build a tower with the blocks.",
      "suggestionFa": "بیا با مکعب‌ها یه برج بسازیم.",
@@ -310,10 +310,10 @@
    "branches": [
     {
      "keywords": [
-      "never",
-      "build",
+      "again",
       "let's",
-      "again"
+      "build",
+      "never"
      ],
      "suggestion": "Never mind! Let's build it again.",
      "suggestionFa": "عیب نداره! بیاید دوباره بسازیمش.",
@@ -356,10 +356,10 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "doll",
-      "can",
-      "now"
+      "have",
+      "now",
+      "can"
      ],
      "suggestion": "Mia, can Nicola have the doll now?",
      "suggestionFa": "میا، الان نیکولا می‌تونه عروسک را برداره؟",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "waiting",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "Well done for waiting, Nicola.",
      "suggestionFa": "آفرین که صبر کردی نیکولا.",

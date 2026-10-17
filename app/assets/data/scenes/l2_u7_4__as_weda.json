@@ -1,8 +1,8 @@
 {
  "id": "l2_u7_4__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) The power cut",
- "titleFa": "(در نقش Nana Weda) قطعی برق",
+ "title": "(As Nana Maggie) The power cut",
+ "titleFa": "(در نقش Nana Maggie) قطعی برق",
  "setting": "What were you doing? · Level 2",
  "settingFa": "داشتی چی کار می‌کردی؟",
  "requires": null,
@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
@@ -25,7 +25,7 @@
       "power",
       "night",
       "about",
-      "hear"
+      "were"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "suddenly",
+      "blowing",
       "reading",
       "raining",
-      "blowing",
       "george"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. George was reading, and suddenly — dark!",
@@ -73,9 +73,9 @@
      "keywords": [
       "looking",
       "candles",
-      "scared",
       "george",
-      "found"
+      "scared",
+      "worse"
      ],
      "suggestion": "Not scared — I've had worse! I found the candles while George was looking for the torch.",
      "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی جورج دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
@@ -99,8 +99,8 @@
       "candlelight",
       "batteries",
       "drinking",
-      "telling",
-      "stories"
+      "sitting",
+      "telling"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
      "suggestionFa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم.",
@@ -124,8 +124,8 @@
       "electric",
       "kettle's",
       "george",
-      "lights",
-      "asleep"
+      "asleep",
+      "lights"
      ],
      "suggestion": "The kettle's electric, love! When the lights came back on, George was fast asleep in his chair.",
      "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، جورج تو صندلیش خواب عمیق بود.",
@@ -164,9 +164,9 @@
   "r7": {
    "id": "r7",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

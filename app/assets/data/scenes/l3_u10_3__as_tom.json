@@ -22,10 +22,10 @@
     {
      "keywords": [
       "saturdays",
-      "council",
       "library",
       "leaflet",
-      "wants"
+      "council",
+      "money"
      ],
      "suggestion": "Have you seen this leaflet? The council wants to close the library on Saturdays to save money.",
      "suggestionFa": "این بروشور را دیدی؟ شورای شهر می‌خواد برای صرفه‌جویی، کتابخونه را شنبه‌ها ببنده.",
@@ -50,7 +50,7 @@
       "councillor",
       "there's",
       "public",
-      "local"
+      "draft"
      ],
      "suggestion": "There's a public consultation. We can write to our local councillor. Will you help me draft an email?",
      "suggestionFa": "یه نظرخواهی عمومی هست. می‌تونیم به نمایندهٔ محلی‌مون نامه بنویسیم. کمکم می‌کنی یه ایمیل پیش‌نویس کنم؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "councillor",
-      "closures",
       "proposed",
-      "concern",
+      "closures",
+      "express",
       "library"
      ],
      "suggestion": "\"Dear Councillor Shah, I am writing to express my concern about the proposed library closures.\" Too formal?",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "families",
       "students",
+      "families",
       "resident",
-      "fifteen",
+      "believe",
       "library"
      ],
      "suggestion": "Good. \"As a resident of fifteen years, I believe the library is vital for families, students and older people.\"",
@@ -147,13 +147,13 @@
     {
      "keywords": [
       "sincerely",
+      "maggie",
       "nobody",
       "doris",
-      "yours",
       "let's"
      ],
-     "suggestion": "\"Yours sincerely, Tom.\" Done. Right — let's get Doris and Weda to sign it too. Nobody says no to Doris!",
-     "suggestionFa": "«با احترام، تام.» تموم شد. خب — بیا دوریس و ودا هم امضا کنن. هیچ‌کس به دوریس نه نمی‌گه!",
+     "suggestion": "\"Yours sincerely, Tom.\" Done. Right — let's get Doris and Maggie to sign it too. Nobody says no to Doris!",
+     "suggestionFa": "«با احترام، تام.» تموم شد. خب — بیا دوریس و مگی هم امضا کنن. هیچ‌کس به دوریس نه نمی‌گه!",
      "trustDelta": 5,
      "next": "r7",
      "success": true

@@ -34,7 +34,7 @@
      "keywords": [
       "shakespeare",
       "haven't",
-      "since",
+      "heard",
       "class"
      ],
      "suggestion": "Thee? I haven't heard that since my Shakespeare class!",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "summat",
-      "maybe",
       "sweet",
+      "maybe",
       "our"
      ],
      "suggestion": "Summat sweet for our kid, maybe?",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "that's",
-      "dead",
       "much",
+      "dead",
       "kind"
      ],
      "suggestion": "Ta very much! That's dead kind of you.",
@@ -148,10 +148,10 @@
     },
     {
      "keywords": [
-      "you've",
       "cheers",
-      "made",
-      "love"
+      "you've",
+      "love",
+      "made"
      ],
      "suggestion": "Cheers, love. You've made my day.",
      "suggestionFa": "ممنون عزیزم. روزم را ساختی.",
@@ -196,7 +196,7 @@
       "mithering",
       "leslie",
       "phone",
-      "like"
+      "ryan"
      ],
      "suggestion": "Like Ryan mithering Leslie for a new phone?",
      "suggestionFa": "مثل وقتی رایان برای گوشی جدید لزلی را اذیت می‌کنه؟",
@@ -208,8 +208,8 @@
      "keywords": [
       "notebook",
       "northern",
-      "words",
-      "whole"
+      "whole",
+      "words"
      ],
      "suggestion": "I'll add it to my list. I've got a whole notebook of northern words.",
      "suggestionFa": "به لیستم اضافه‌اش می‌کنم. یه دفترچه پر از کلمات شمالی دارم.",

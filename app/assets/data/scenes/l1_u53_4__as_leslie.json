@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "collect",
       "postman",
-      "parcel",
+      "collect",
       "missed",
+      "parcel",
       "sorry"
      ],
      "suggestion": "Nana got a card from the postman. \"Sorry we missed you.\" Can you collect her parcel?",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "street",
-      "high",
-      "need",
+      "office",
+      "post",
+      "says",
       "card"
      ],
      "suggestion": "It says it's at the post office on the high street. You need the card and ID.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "signed",
-      "back",
       "nana",
-      "card",
-      "take"
+      "take",
+      "back",
+      "card"
      ],
      "suggestion": "Nana has signed the back of the card. So take your ID and her card.",
      "suggestionFa": "نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.",
@@ -219,9 +219,9 @@
   "r9": {
    "id": "r9",
    "speaker": "arthur",
-   "text": "Knitting wool! That's Weda for you. Sign here, please, to say you've got it.",
+   "text": "Knitting wool! That's Maggie for you. Sign here, please, to say you've got it.",
    "translations": {
-    "fa": "کاموای بافتنی! این همون وداست. لطفاً اینجا امضا کنید که تحویل گرفتید."
+    "fa": "کاموای بافتنی! این همون مگیه. لطفاً اینجا امضا کنید که تحویل گرفتید."
    },
    "branches": [
     {
@@ -311,8 +311,8 @@
       "collecting",
       "together",
       "hackney",
-      "thanks",
-      "purple"
+      "purple",
+      "thanks"
      ],
      "suggestion": "Nana knits for half of Hackney! Ha! Thanks for collecting it. Let's open it together — I bet it's purple wool.",
      "suggestionFa": "نانا برای نصف هکنی بافتنی می‌بافه! ها! ممنون که تحویل گرفتی. بیا با هم بازش کنیم — شرط می‌بندم کاموای بنفشه.",

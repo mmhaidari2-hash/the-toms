@@ -70,9 +70,9 @@
     {
      "keywords": [
       "chairs",
-      "move",
+      "sure",
       "i'll",
-      "sure"
+      "move"
      ],
      "suggestion": "Sure. I'll move the chairs.",
      "suggestionFa": "حتماً. صندلی‌ها را جابه‌جا می‌کنم.",
@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "shall",
       "where",
+      "shall",
       "them",
       "put"
      ],
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "eater",
       "messy",
+      "eater",
       "he's"
      ],
      "suggestion": "He's a messy eater.",
@@ -172,8 +172,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "sorry",
+      "can't",
       "hear"
      ],
      "suggestion": "Sorry, what? I can't hear you!",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "playing",
-      "trick",
       "she's",
+      "trick",
       "ha"
      ],
      "suggestion": "Ha! She's playing a trick.",
@@ -286,9 +286,9 @@
     },
     {
      "keywords": [
-      "plug",
       "back",
-      "i'll"
+      "i'll",
+      "plug"
      ],
      "suggestion": "I'll plug it back in.",
      "suggestionFa": "دوباره وصلش می‌کنم.",

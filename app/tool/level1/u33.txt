@@ -69,9 +69,9 @@ W: change=بقیهٔ پول ; free=رایگان ; cookie=کلوچه
 baker: Everyone round here knows Nicola! She sings to my customers! Enjoy your pastries! | همه این دور و بر نیکولا را می‌شناسن! برای مشتری‌هام آواز می‌خونه! نوش جان!
 
 # l1_u33_3 | leslie | Choosing flowers | انتخاب گل | Which…? / I prefer… | کدام؟ / ترجیح می‌دهم | bakery
-leslie: Look at the flower stall! I want to buy some flowers for Weda. Just because. | غرفهٔ گل را ببین! می‌خوام برای ودا گل بخرم. همین‌طوری.
+leslie: Look at the flower stall! I want to buy some flowers for Maggie. Just because. | غرفهٔ گل را ببین! می‌خوام برای مگی گل بخرم. همین‌طوری.
 > What a lovely idea. | چه فکر قشنگی.
-> What flowers does Weda like? | ودا چه گلی دوست داره؟
+> What flowers does Maggie like? | مگی چه گلی دوست داره؟
 W: flower stall=غرفهٔ گل ; just because=همین‌طوری ؛ بی‌مناسبت
 nicola: Nana likes yellow! Yellow is her favourite colour! | نانا زرد دوست داره! زرد رنگ محبوبشه!
 > Sunflowers are yellow. | آفتابگردون زرده.
@@ -82,7 +82,7 @@ leslie: Sunflowers or roses? Hmm. Which do you prefer, {you}? | آفتابگرد
 > I prefer roses. They smell nice. | من رز را ترجیح میدم. بوی خوبی دارن.
 W: prefer=ترجیح دادن ; smell=بو دادن
 X: i prefer sunflowers than roses ; i more prefer sunflowers => You prefer sunflowers to roses? Me too. | I prefer sunflowers to roses. | آفتابگردون را به رز ترجیح میدم.
-leslie: Good point. But sunflowers are big. Weda's kitchen is small! | نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ ودا کوچیکه!
+leslie: Good point. But sunflowers are big. Maggie's kitchen is small! | نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ مگی کوچیکه!
 > Then let's get the roses. | پس رز بخریم.
 > Buy a small bunch. | یه دستهٔ کوچیک بخر.
 W: bunch=دسته ; small=کوچک

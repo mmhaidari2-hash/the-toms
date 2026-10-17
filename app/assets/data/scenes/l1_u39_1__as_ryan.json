@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "cleaning",
       "saturday",
+      "cleaning",
       "hoover",
       "worst",
-      "have"
+      "says"
      ],
      "suggestion": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
      "suggestionFa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "chairs",
-      "hoover",
       "vacuum",
-      "means",
-      "brand"
+      "hoover",
+      "chairs",
+      "brand",
+      "means"
      ],
      "suggestion": "It means vacuum. Hoover is a brand. Can you move the chairs?",
      "suggestionFa": "یعنی جاروبرقی. هوور یه مارکه. می‌تونی صندلی‌ها را جابه‌جا کنی؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "everything",
       "everywhere",
+      "everything",
       "william",
-      "crumbs",
-      "upside"
+      "upside",
+      "crumbs"
      ],
      "suggestion": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
      "suggestionFa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!",
@@ -100,7 +100,7 @@
       "really",
       "loud",
       "hear",
-      "ugh"
+      "can"
      ],
      "suggestion": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
      "suggestionFa": "اوف. باشه، روشنش می‌کنم. خیلی پرسروصداست. صدام را می‌شنوی؟",
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "pulled",
       "nicola",
+      "pulled",
       "plug",
       "bag",
       "out"
@@ -197,8 +197,8 @@
      "keywords": [
       "cleaning",
       "march",
-      "break",
       "guess",
+      "break",
       "isn't"
      ],
      "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",

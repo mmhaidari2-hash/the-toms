@@ -77,8 +77,8 @@
     {
      "keywords": [
       "catch",
-      "mia",
-      "did"
+      "did",
+      "mia"
      ],
      "suggestion": "Did Mia catch you?",
      "suggestionFa": "میا گرفتت؟",
@@ -123,8 +123,8 @@
     },
     {
      "keywords": [
-      "lot",
-      "ran"
+      "ran",
+      "lot"
      ],
      "suggestion": "You ran a lot!",
      "suggestionFa": "خیلی دویدی!",
@@ -218,8 +218,8 @@
     },
     {
      "keywords": [
-      "cry",
-      "did"
+      "did",
+      "cry"
      ],
      "suggestion": "Did you cry?",
      "suggestionFa": "گریه کردی؟",
@@ -317,8 +317,8 @@
     },
     {
      "keywords": [
-      "like",
       "game",
+      "like",
       "tag"
      ],
      "suggestion": "We played a game like tag.",

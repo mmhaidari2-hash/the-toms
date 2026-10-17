@@ -1,0 +1,264 @@
+{
+ "id": "nur_2_3",
+ "characterId": "vida",
+ "title": "Nap time",
+ "titleFa": "وقت خواب",
+ "setting": "Care routines · Level 0",
+ "settingFa": "روال مراقبت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "vida",
+   "text": "Nap time. Lights down, soft music on. Can you get the sleep mats out? Each one has a name.",
+   "translations": {
+    "fa": "وقت خوابه. چراغ‌ها کم، موسیقی آروم. تشک‌های خواب را میاری بیرون؟ هر کدوم اسم داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "sure",
+      "mats"
+     ],
+     "suggestion": "Sure. Where are the mats?",
+     "suggestionFa": "حتماً. تشک‌ها کجان؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "sleep",
+      "all"
+     ],
+     "suggestion": "Do all the children sleep?",
+     "suggestionFa": "همه بچه‌ها می‌خوابن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nap",
+     "fa": "چرت ؛ خواب کوتاه"
+    },
+    {
+     "word": "sleep mat",
+     "fa": "تشک خواب"
+    },
+    {
+     "word": "soft music",
+     "fa": "موسیقی آرام"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vida",
+   "text": "Not all. Parents tell us how long they sleep. William sleeps for one hour, Oscar doesn't nap at all.",
+   "translations": {
+    "fa": "نه همه. والدین بهمون می‌گن چقدر بخوابن. ویلیام یه ساعت می‌خوابه، اسکار اصلاً نمی‌خوابه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oscar",
+      "then"
+     ],
+     "suggestion": "What does Oscar do then?",
+     "suggestionFa": "پس اسکار چی کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "hour",
+      "one",
+      "ok"
+     ],
+     "suggestion": "One hour for William. OK.",
+     "suggestionFa": "یه ساعت برای ویلیام. باشه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how long",
+     "fa": "چه مدت"
+    },
+    {
+     "word": "at all",
+     "fa": "اصلاً"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "I'm not tired! I'm not sleeping!",
+   "translations": {
+    "fa": "خسته نیستم! نمی‌خوابم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rest",
+      "eyes",
+      "just",
+      "down"
+     ],
+     "suggestion": "Just lie down and rest your eyes.",
+     "suggestionFa": "فقط دراز بکش و چشمات را استراحت بده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinosaur",
+      "want"
+     ],
+     "suggestion": "Do you want your dinosaur?",
+     "suggestionFa": "دایناسورت را می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tired",
+     "fa": "خسته"
+    },
+    {
+     "word": "lie down",
+     "fa": "دراز کشیدن"
+    },
+    {
+     "word": "rest",
+     "fa": "استراحت دادن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vida",
+   "text": "Look, he's yawning. While they sleep, we check them every ten minutes and write it on the sleep chart.",
+   "translations": {
+    "fa": "ببین، داره خمیازه می‌کشه. وقتی خوابن، هر ده دقیقه چکشون می‌کنیم و رو جدول خواب می‌نویسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "every",
+      "why",
+      "ten"
+     ],
+     "suggestion": "Every ten minutes? Why?",
+     "suggestionFa": "هر ده دقیقه؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "checks",
+      "i'll"
+     ],
+     "suggestion": "I'll do the checks.",
+     "suggestionFa": "من چک کردن را انجام میدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yawning",
+     "fa": "خمیازه کشیدن"
+    },
+    {
+     "word": "sleep chart",
+     "fa": "جدول خواب"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sleep checks are a safety rule in UK nurseries: staff look at each sleeping child and write down the time.",
+    "fa": "بررسی خواب یک قانون ایمنی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "To make sure they're breathing and comfortable. Look — he's sleeping now. Fast asleep!",
+   "translations": {
+    "fa": "تا مطمئن بشیم نفس می‌کشن و راحتن. ببین — الان خوابیده. خواب خواب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeping",
+      "like",
+      "baby",
+      "he's"
+     ],
+     "suggestion": "He's sleeping like a baby!",
+     "suggestionFa": "مثل یه بچه خوابیده!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "writing",
+      "time",
+      "now"
+     ],
+     "suggestion": "I'm writing the time now: 1:10.",
+     "suggestionFa": "دارم ساعت را می‌نویسم: یک و ده دقیقه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "breathing",
+     "fa": "نفس کشیدن"
+    },
+    {
+     "word": "comfortable",
+     "fa": "راحت"
+    },
+    {
+     "word": "fast asleep",
+     "fa": "در خواب عمیق"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vida",
+   "text": "Perfect. Oscar's doing a quiet puzzle with Jo. Quiet voices, everyone — the babies next door are sleeping too.",
+   "translations": {
+    "fa": "عالی. اسکار با جو یه پازل آروم انجام میده. همه آروم حرف بزنید — نوزادهای اتاق بغلی هم خوابن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

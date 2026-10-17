@@ -1,8 +1,8 @@
 {
  "id": "l1_u51_3__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Hot water bottle",
- "titleFa": "(در نقش Nana Weda) کیسهٔ آب گرم",
+ "title": "(As Nana Maggie) Hot water bottle",
+ "titleFa": "(در نقش Nana Maggie) کیسهٔ آب گرم",
  "setting": "Under the weather · Level 1",
  "settingFa": "کسالت",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
-      "bottle",
       "chilly",
+      "bottle",
+      "bones",
       "night",
-      "could",
       "water"
      ],
      "suggestion": "Brrr! It's a chilly night. My old bones are cold. Could you fill my hot water bottle, dear?",
@@ -48,8 +48,8 @@
      "keywords": [
       "knitted",
       "rubber",
-      "water",
       "cover",
+      "water",
       "fill"
      ],
      "suggestion": "It's a rubber bag. You fill it with hot water. This one, with the knitted cover.",
@@ -150,7 +150,7 @@
       "lovely",
       "check",
       "don't",
-      "burn"
+      "bare"
      ],
      "suggestion": "Let me check. Perfect! Ooh, lovely and warm. Don't put it on bare skin, it can burn.",
      "suggestionFa": "بذار ببینم. عالی! اوه، گرم و خوب. رو پوست لخت نذار، ممکنه بسوزونه.",
@@ -173,9 +173,9 @@
      "keywords": [
       "there's",
       "clever",
-      "spare",
       "sheep",
-      "thank"
+      "thank",
+      "spare"
      ],
      "suggestion": "Clever you! Thank you, dear. Do you want one too? There's a spare one with a sheep on it.",
      "suggestionFa": "آفرین به تو! ممنون عزیزم. تو هم یکی می‌خوای؟ یه یدکی هست که روش گوسفنده.",
@@ -198,9 +198,9 @@
      "keywords": [
       "landlord",
       "heating",
-      "sleep",
+      "sheep",
       "night",
-      "sheep"
+      "never"
      ],
      "suggestion": "Take the sheep. Your landlord never puts the heating on, I know! Night night, dear. Sleep tight!",
      "suggestionFa": "گوسفنده را ببر. می‌دونم صاحبخونه‌ت هیچ‌وقت شوفاژ را روشن نمی‌کنه! شب بخیر عزیزم. خوب بخوابی!",
@@ -214,9 +214,9 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

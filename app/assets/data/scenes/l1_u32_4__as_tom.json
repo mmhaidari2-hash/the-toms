@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "barbecue",
       "sausages",
       "saturday",
-      "people",
-      "twenty"
+      "barbecue",
+      "buying",
+      "people"
      ],
      "suggestion": "Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need?",
      "suggestionFa": "خب! باربیکیو شنبه. بیست نفر! سوسیس می‌خرم. چند تا لازم داریم؟",
@@ -102,8 +102,8 @@
       "burgers",
       "enough",
       "thirty",
-      "true",
-      "five"
+      "five",
+      "true"
      ],
      "suggestion": "Ha! True. OK, thirty-five. And burgers. Is ten enough?",
      "suggestionFa": "ها! راسته. باشه، سی و پنج. و برگر. ده تا کافیه؟",
@@ -124,14 +124,14 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "fifteen",
       "burgers",
-      "wings",
+      "chicken",
+      "maggie",
       "loves"
      ],
-     "suggestion": "Fifteen burgers, then. And chicken wings for Weda. She loves them.",
-     "suggestionFa": "پس پونزده تا برگر. و بال مرغ برای ودا. عاشقشه.",
+     "suggestion": "Fifteen burgers, then. And chicken wings for Maggie. She loves them.",
+     "suggestionFa": "پس پونزده تا برگر. و بال مرغ برای مگی. عاشقشه.",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -204,7 +204,7 @@
       "thinking",
       "kebabs",
       "grown",
-      "plus"
+      "much"
      ],
      "suggestion": "Good thinking. Plus marinated kebabs for the grown-ups. Is that too much meat?",
      "suggestionFa": "فکر خوبیه. به علاوه کباب مزه‌دار برای بزرگ‌ترها. گوشت زیادی نیست؟",
@@ -229,7 +229,7 @@
       "barbecue",
       "leslie",
       "some",
-      "corn"
+      "fine"
      ],
      "suggestion": "Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob.",
      "suggestionFa": "سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت.",
@@ -305,9 +305,9 @@
      "keywords": [
       "leslie's",
       "hackney",
-      "enough",
+      "pounds",
       "that's",
-      "pounds"
+      "enough"
      ],
      "suggestion": "That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me.",
      "suggestionFa": "این گوشت برای سیر کردن کل هکنی بسه! پنجاه و دو پوند… آخ. لزلی منو می‌کشه.",

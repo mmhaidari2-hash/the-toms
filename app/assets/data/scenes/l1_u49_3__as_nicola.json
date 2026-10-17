@@ -23,8 +23,8 @@
      "keywords": [
       "write",
       "right",
-      "look",
       "name",
+      "look",
       "can"
      ],
      "suggestion": "Look! I can write my name! N-I-C-O-L-A. Is it right?",
@@ -48,8 +48,8 @@
      "keywords": [
       "letters",
       "letter",
+      "small",
       "ellis",
-      "names",
       "start"
      ],
      "suggestion": "Mrs Ellis says names start with a big letter. Big N, then small letters.",
@@ -74,8 +74,8 @@
       "write",
       "start",
       "name",
-      "how",
-      "now"
+      "now",
+      "can"
      ],
      "suggestion": "Now can I write YOUR name? How do I start?",
      "suggestionFa": "حالا می‌تونم اسم تو را بنویسم؟ چطوری شروع کنم؟",
@@ -99,8 +99,8 @@
       "persian",
       "write",
       "hard",
-      "ooh",
-      "can"
+      "can",
+      "ooh"
      ],
      "suggestion": "OK. Ooh, it's hard. Can you write it in Persian too?",
      "suggestionFa": "باشه. اوه، سخته. می‌تونی به فارسی هم بنویسیش؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "backwards",
-      "capital",
       "persian",
+      "capital",
       "letter",
       "there"
      ],
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "pretty",
-      "snake",
+      "little",
       "going",
+      "snake",
       "ellis"
      ],
      "suggestion": "It's so pretty! Like a little snake and dots! I'm going to show Mrs Ellis!",

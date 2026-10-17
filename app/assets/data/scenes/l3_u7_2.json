@@ -86,9 +86,9 @@
     {
      "keywords": [
       "children",
-      "many",
+      "race",
       "each",
-      "race"
+      "many"
      ],
      "suggestion": "How many children are in each race?",
      "suggestionFa": "تو هر مسابقه چند تا بچه‌ست؟",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "wait",
       "have",
+      "wait",
       "run"
      ],
      "suggestion": "Wait — I have to run too?",
@@ -242,10 +242,10 @@
     },
     {
      "keywords": [
+      "over",
       "fall",
       "best",
-      "i'll",
-      "over"
+      "i'll"
      ],
      "suggestion": "I'll try my best not to fall over!",
      "suggestionFa": "تمام تلاشم را می‌کنم زمین نخورم!",

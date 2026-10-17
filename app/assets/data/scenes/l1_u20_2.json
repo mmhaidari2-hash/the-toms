@@ -202,15 +202,15 @@
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "Weda looks after William. She's wonderful. What does your family do?",
+   "text": "Maggie looks after William. She's wonderful. What does your family do?",
    "translations": {
-    "fa": "ودا از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟"
+    "fa": "مگی از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟"
    },
    "branches": [
     {
      "keywords": [
-      "father",
-      "doctor"
+      "doctor",
+      "father"
      ],
      "suggestion": "My father is a doctor.",
      "suggestionFa": "پدرم دکتره.",

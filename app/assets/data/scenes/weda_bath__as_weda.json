@@ -2,8 +2,8 @@
  "id": "weda_bath__as_weda",
  "characterId": "weda",
  "level": "A0",
- "title": "(As Nana Weda) Bath time",
- "titleFa": "(در نقش Nana Weda) وقت حمام",
+ "title": "(As Nana Maggie) Bath time",
+ "titleFa": "(در نقش Nana Maggie) وقت حمام",
  "setting": "The bathroom, 7pm",
  "settingFa": "حمام، ساعت ۷ عصر",
  "requires": null,
@@ -14,17 +14,17 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "william",
       "water",
-      "time",
       "bath",
+      "time",
       "hot"
      ],
      "suggestion": "Bath time, William! Is the water too hot?",
@@ -74,7 +74,7 @@
       "william",
       "while",
       "home",
-      "back"
+      "nana"
      ],
      "suggestion": "Now, while William splashes — did you have a nana back home?",
      "suggestionFa": "حالا که ویلیام آب‌بازی می‌کنه — تو هم مادربزرگ داشتی؟",
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "flannel",
-      "would",
       "bless",
+      "would",
       "blue",
       "pass"
      ],
@@ -122,9 +122,9 @@
      "keywords": [
       "distract",
       "washed",
-      "hates",
       "songs",
-      "know"
+      "hates",
+      "hair"
      ],
      "suggestion": "He hates his hair washed. We sing to distract him. Know any songs?",
      "suggestionFa": "از شستن موهاش متنفره. براش آواز می‌خونیم که حواسش پرت شه. آهنگی بلدی؟",
@@ -149,7 +149,7 @@
       "babies",
       "yours",
       "love",
-      "sing"
+      "he's"
      ],
      "suggestion": "Sing him one of yours — babies love any tune. Oh look, he's giggling!",
      "suggestionFa": "یکی از آهنگ‌های خودت را بخون — بچه‌ها هر آهنگی را دوست دارن. ببین، داره می‌خنده!",
@@ -173,8 +173,8 @@
       "little",
       "towel",
       "right",
-      "come",
-      "hold"
+      "dear",
+      "come"
      ],
      "suggestion": "Right, out you come, little one. Can you hold the towel open for me, dear?",
      "suggestionFa": "خب، بیا بیرون کوچولو. می‌تونی حوله را برام باز نگه داری عزیزم؟",
@@ -197,8 +197,8 @@
      "keywords": [
       "natural",
       "lovely",
-      "know",
       "snug",
+      "know",
       "bug"
      ],
      "suggestion": "Lovely. Snug as a bug in a rug. You're a natural, you know.",
@@ -213,7 +213,7 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "Thank you, Weda — that means a lot.",
+   "text": "Thank you, Maggie — that means a lot.",
    "translations": {
     "fa": "ممنون ویدا — خیلی برام ارزش داره."
    },
@@ -222,8 +222,8 @@
      "keywords": [
       "pyjamas",
       "lovely",
-      "towel",
       "night",
+      "towel",
       "teeth"
      ],
      "suggestion": "Lovely. Now, towel, pyjamas and teeth. Night night!",
@@ -238,9 +238,9 @@
   "r10": {
    "id": "r10",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []

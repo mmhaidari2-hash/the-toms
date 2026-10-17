@@ -1,0 +1,296 @@
+{
+ "id": "nur_6_2",
+ "characterId": "jo",
+ "title": "First aid: choking",
+ "titleFa": "کمک اولیه: خفگی",
+ "setting": "Safeguarding, first aid and Ofsted · Level 0",
+ "settingFa": "حفاظت از کودک، کمک‌های اولیه و Ofsted",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jo",
+   "text": "{you}! Ada's choking on a grape — she can't cough or cry! Quick!",
+   "translations": {
+    "fa": "{you}! آدا با انگور داره خفه می‌شه — نمی‌تونه سرفه یا گریه کنه! زود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blows",
+      "back"
+     ],
+     "suggestion": "I'm on it — back blows!",
+     "suggestionFa": "دارم میام — ضربه به پشت!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone",
+      "call"
+     ],
+     "suggestion": "Someone call 999!",
+     "suggestionFa": "یکی به ۹۹۹ زنگ بزنه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "choking",
+     "fa": "خفه شدن ؛ گیر کردن چیزی در گلو"
+    },
+    {
+     "word": "back blows",
+     "fa": "ضربه به پشت"
+    },
+    {
+     "word": "on it",
+     "fa": "دارم انجامش می‌دم"
+    }
+   ],
+   "cultureNote": {
+    "en": "For a choking child over one: up to five back blows, then up to five abdominal thrusts. If they become unresponsive, call 999 and start CPR.",
+    "fa": "برای کودک بالای یک سال: پنج ضربه به پشت، بعد فشار شکمی."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jo",
+   "text": "Lean her forward, support her chest, and give firm blows between the shoulder blades. I'm getting the first aid kit and I'll call 999 if it doesn't come out.",
+   "translations": {
+    "fa": "به جلو خمش کن، سینه‌اش را نگه دار و محکم بین دو کتفش بزن. من جعبهٔ کمک‌های اولیه را میارم و اگه بیرون نیومد به ۹۹۹ زنگ می‌زنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stuck",
+      "still",
+      "two",
+      "one"
+     ],
+     "suggestion": "One, two… it's still stuck!",
+     "suggestionFa": "یک، دو… هنوز گیره!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coughing",
+      "three",
+      "she's",
+      "out"
+     ],
+     "suggestion": "Three… it's out! She's coughing!",
+     "suggestionFa": "سه… بیرون اومد! داره سرفه می‌کنه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lean forward",
+     "fa": "به جلو خم کردن"
+    },
+    {
+     "word": "shoulder blades",
+     "fa": "کتف‌ها"
+    },
+    {
+     "word": "firm",
+     "fa": "محکم"
+    },
+    {
+     "word": "stuck",
+     "fa": "گیر کرده"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vida",
+   "text": "Well done, it's out. She's breathing and crying — that's a good sign. Ada, sweetheart, you're safe now. Let's sit you down.",
+   "translations": {
+    "fa": "آفرین، بیرون اومد. داره نفس می‌کشه و گریه می‌کنه — نشونهٔ خوبیه. آدا، عزیزم، الان در امانی. بیا بشونیمت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doctor",
+      "should",
+      "she",
+      "see"
+     ],
+     "suggestion": "Is she OK? Should she see a doctor?",
+     "suggestionFa": "خوبه؟ باید دکتر ببینش؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "terrifying",
+      "shaking",
+      "hands",
+      "was"
+     ],
+     "suggestion": "My hands are shaking. That was terrifying.",
+     "suggestionFa": "دستام داره می‌لرزه. وحشتناک بود.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "breathing",
+     "fa": "نفس کشیدن"
+    },
+    {
+     "word": "sweetheart",
+     "fa": "عزیزم"
+    },
+    {
+     "word": "shaking",
+     "fa": "لرزیدن"
+    },
+    {
+     "word": "terrifying",
+     "fa": "وحشتناک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "jo",
+   "text": "Anyone who's had back blows should be checked by a medical professional. I'll ring her mum now. Can you write the accident report while it's fresh?",
+   "translations": {
+    "fa": "هر کسی که ضربهٔ پشت خورده باید توسط کادر پزشکی معاینه بشه. الان به مامانش زنگ می‌زنم. می‌تونی تا یادت هست گزارش حادثه را بنویسی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "time",
+      "she",
+      "did"
+     ],
+     "suggestion": "Yes — time, what happened, what we did and how she is now.",
+     "suggestionFa": "آره — ساعت، چی شد، چی کار کردیم و الان حالش چطوره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mention",
+      "wasn't",
+      "should",
+      "grape"
+     ],
+     "suggestion": "Should I mention that the grape wasn't cut?",
+     "suggestionFa": "بگم که انگور نصف نشده بود؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "medical professional",
+     "fa": "کادر پزشکی ؛ متخصص پزشکی"
+    },
+    {
+     "word": "while it's fresh",
+     "fa": "تا هنوز در ذهن تازه است"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i write what we done",
+      "i will writing report"
+     ],
+     "echo": "Write what we did? Yes, all of it.",
+     "better": "I'll write what happened and what we did.",
+     "betterFa": "می‌نویسم چی شد و چی کار کردیم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vida",
+   "text": "Yes, be honest — the grape came from her lunchbox and wasn't cut. We'll need to remind all parents: grapes cut lengthways into quarters.",
+   "translations": {
+    "fa": "آره، صادق باش — انگور از ظرف ناهارش بود و نصف نشده بود. باید به همهٔ والدین یادآوری کنیم: انگور از طول چهار قسمت بشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "newsletter",
+      "reminder",
+      "draft",
+      "i'll"
+     ],
+     "suggestion": "I'll draft a reminder for the newsletter.",
+     "suggestionFa": "یه یادآوری برای خبرنامه پیش‌نویس می‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ofsted",
+      "about",
+      "have",
+      "tell"
+     ],
+     "suggestion": "Do we have to tell Ofsted about this?",
+     "suggestionFa": "باید به Ofsted دربارهٔ این خبر بدیم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lengthways",
+     "fa": "از طول"
+    },
+    {
+     "word": "quarters",
+     "fa": "چهار قسمت ؛ یک‌چهارم‌ها"
+    },
+    {
+     "word": "newsletter",
+     "fa": "خبرنامه"
+    },
+    {
+     "word": "draft",
+     "fa": "پیش‌نویس کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Serious accidents or injuries in a nursery must be reported to Ofsted within 14 days.",
+    "fa": "حوادث جدی باید ظرف ۱۴ روز به Ofsted گزارش شوند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jo",
+   "text": "If she needs hospital treatment, yes — we notify Ofsted within fourteen days. You stayed calm and did exactly what your paediatric first aid course taught you. Go and get a cup of tea.",
+   "translations": {
+    "fa": "اگه درمان بیمارستانی لازم داشته باشه، آره — ظرف چهارده روز به Ofsted اطلاع می‌دیم. آروم موندی و دقیقاً کاری را کردی که دورهٔ کمک‌های اولیهٔ کودکان یادت داده بود. برو یه چای بخور."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

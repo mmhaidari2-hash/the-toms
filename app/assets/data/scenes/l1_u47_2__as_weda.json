@@ -1,8 +1,8 @@
 {
  "id": "l1_u47_2__as_weda",
  "characterId": "weda",
- "title": "(As Nana Weda) Nana's slippers",
- "titleFa": "(در نقش Nana Weda) دمپایی‌های نانا",
+ "title": "(As Nana Maggie) Nana's slippers",
+ "titleFa": "(در نقش Nana Maggie) دمپایی‌های نانا",
  "setting": "Nana's corner · Level 1",
  "settingFa": "گوشهٔ نانا",
  "requires": null,
@@ -14,18 +14,18 @@
   "r1": {
    "id": "r1",
    "speaker": "mehdi",
-   "text": "Hi, Nana Weda!",
+   "text": "Hi, Nana Maggie!",
    "translations": {
-    "fa": "سلام Nana Weda!"
+    "fa": "سلام Nana Maggie!"
    },
    "branches": [
     {
      "keywords": [
       "slippers",
-      "fluffy",
       "bother",
-      "pink",
-      "ones"
+      "fluffy",
+      "dear",
+      "pink"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
      "suggestionFa": "ای بابا! دمپایی‌هام را دیدی عزیزم؟ صورتی پشمالوها.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "terrible",
       "remember",
+      "terrible",
       "memory",
       "under",
       "these"
@@ -73,8 +73,8 @@
      "keywords": [
       "slipper",
       "where's",
-      "other",
       "can't",
+      "other",
       "walk"
      ],
      "suggestion": "One! Where's the other one? I can't walk with one slipper!",
@@ -150,8 +150,8 @@
     {
      "keywords": [
       "chewing",
-      "monkey",
       "cheeky",
+      "monkey",
       "he"
      ],
      "suggestion": "You cheeky monkey! Is he chewing it?",
@@ -176,8 +176,8 @@
       "glasses",
       "never",
       "thank",
-      "mind",
-      "seen"
+      "dear",
+      "have"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
      "suggestionFa": "ممنون عزیزم. یه کم خیسه، ولی عیب نداره. عینکم را هم دیدی؟",
@@ -191,9 +191,9 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "They're on your head, Weda!",
+   "text": "They're on your head, Maggie!",
    "translations": {
-    "fa": "رو سرتونه ودا!"
+    "fa": "رو سرتونه مگی!"
    },
    "branches": [
     {
@@ -216,9 +216,9 @@
   "r9": {
    "id": "r9",
    "speaker": "mehdi",
-   "text": "Thanks, Nana Weda! See you later.",
+   "text": "Thanks, Nana Maggie! See you later.",
    "translations": {
-    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
    },
    "branches": [],
    "newWords": []
