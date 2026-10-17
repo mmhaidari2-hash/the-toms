@@ -25,7 +25,7 @@
       "shall",
       "telly",
       "watch",
-      "time"
+      "done"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
      "suggestionFa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟",
@@ -49,8 +49,8 @@
       "football",
       "playing",
       "arsenal",
-      "rather",
-      "boring"
+      "boring",
+      "rather"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Arsenal are playing.",
      "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره.",
@@ -75,7 +75,7 @@
       "nicola",
       "spurs",
       "wants",
-      "game"
+      "bake"
      ],
      "suggestion": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
      "suggestionFa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف.",
@@ -99,8 +99,8 @@
       "baking",
       "what's",
       "people",
-      "cakes",
-      "loves"
+      "loves",
+      "cakes"
      ],
      "suggestion": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
      "suggestionFa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "spoilers",
-      "snacks",
       "record",
+      "snacks",
       "shall",
       "score"
      ],
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "starting",
       "remote's",
       "cartoons",
+      "starting",
       "vinegar",
       "crisps"
      ],

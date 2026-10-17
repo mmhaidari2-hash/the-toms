@@ -182,7 +182,7 @@
       "conditioner",
       "water",
       "maybe",
-      "soak"
+      "sure"
      ],
      "suggestion": "I'm not sure. Maybe soak it in water with conditioner?",
      "suggestionFa": "مطمئن نیستم. شاید تو آب با نرم‌کننده خیسش کنی؟",
@@ -192,8 +192,8 @@
     },
     {
      "keywords": [
-      "hoodie",
       "pounds",
+      "hoodie",
       "forty",
       "five"
      ],
@@ -265,8 +265,8 @@
     },
     {
      "keywords": [
-      "let's",
       "might",
+      "let's",
       "work",
       "try"
      ],
@@ -320,8 +320,8 @@
      "keywords": [
       "sleeve",
       "other",
-      "than",
-      "look"
+      "look",
+      "than"
      ],
      "suggestion": "Look — one sleeve is longer than the other!",
      "suggestionFa": "ببین — یه آستین از اون یکی بلندتره!",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "honesty",
-      "tell",
       "best",
+      "tell",
       "her"
      ],
      "suggestion": "Tell her. Honesty is best.",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "didn't",
-      "check",
-      "fault"
+      "fault",
+      "check"
      ],
      "suggestion": "It's my fault too. I didn't check it.",
      "suggestionFa": "تقصیر منم هست. چکش نکردم.",

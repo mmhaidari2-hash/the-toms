@@ -23,9 +23,9 @@
      "keywords": [
       "headphones",
       "birthday",
+      "eighty",
       "better",
-      "choose",
-      "eighty"
+      "choose"
      ],
      "suggestion": "Right. Birthday money: eighty quid. I need new headphones. These two. Help me choose. Which one's better?",
      "suggestionFa": "خب. پول تولد: هشتاد پوند. هدفون جدید لازم دارم. این دو تا. کمکم کن انتخاب کنم. کدوم بهتره؟",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "battery",
       "heavier",
       "they're",
+      "battery",
       "lighter",
-      "longer"
+      "louder"
      ],
      "suggestion": "The black ones are louder and the battery lasts longer — thirty hours. But they're heavier. The white ones are lighter.",
      "suggestionFa": "مشکیه صداش بلندتره و باتریش بیشتر دووم میاره — سی ساعت. ولی سنگین‌ترن. سفیده سبک‌ترن.",
@@ -74,8 +74,8 @@
       "announcements",
       "cancelling",
       "anything",
-      "can't",
-      "noise"
+      "dad's",
+      "can't"
      ],
      "suggestion": "True. And the white ones have noise cancelling. On the bus, you can't hear anything. Dad's announcements — gone!",
      "suggestionFa": "درسته. و سفیده حذف نویز داره. تو اتوبوس هیچی نمی‌شنوی. اعلام‌های بابا — رفت!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "seventy",
       "quieter",
       "outside",
+      "seventy",
       "blocks",
-      "world"
+      "black"
      ],
      "suggestion": "It blocks outside noise. Quieter world. Yeah, the white ones are seventy-five. The black are sixty.",
      "suggestionFa": "صدای بیرون را می‌بنده. دنیای آروم‌تر. آره، سفیده هفتاد و پنجه. مشکیه شصت.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "reviews",
-      "greggs",
       "that's",
       "better",
-      "white"
+      "greggs",
+      "sound"
      ],
      "suggestion": "Five quid. That's one Greggs. Hmm. The reviews say the white ones sound much better. Four point eight stars.",
      "suggestionFa": "پنج پوند. یعنی یه بار گرگز. هوم. نظرها میگن صدای سفیده خیلی بهتره. چهار و هشت دهم ستاره.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "trying",
-      "can't",
-      "white",
+      "black",
       "comfy",
-      "point"
+      "can't",
+      "white"
      ],
      "suggestion": "Black ones: four point one. Not as good. OK, trying them on… The white ones are so comfy. I can't hear you at all!",
      "suggestionFa": "مشکیه: چهار و یک دهم. نه به اون خوبی. باشه، دارم امتحانشون می‌کنم… سفیده خیلی راحته. اصلاً صدات را نمی‌شنوم!",
@@ -174,8 +174,8 @@
       "usually",
       "better",
       "sorry",
-      "white",
-      "money"
+      "money",
+      "white"
      ],
      "suggestion": "Ha! Sorry. Right — white ones. More money, but much better. The more you pay, the better they are. Usually.",
      "suggestionFa": "ها! ببخشید. خب — سفیده. پول بیشتر، ولی خیلی بهتر. هر چی بیشتر پول بدی، بهترن. معمولاً.",
@@ -198,9 +198,9 @@
      "keywords": [
       "cheapest",
       "perfect",
-      "shopper",
       "sausage",
-      "helping"
+      "helping",
+      "shopper"
      ],
      "suggestion": "Sure. Five quid for a sausage roll. Perfect day. Cheers for helping. You're a better shopper than Dad. He'd buy the cheapest.",
      "suggestionFa": "مطمئن. پنج پوند برای یه سوسیس رول. روز عالی. مرسی که کمک کردی. از بابا خریدار بهتری هستی. اون ارزون‌ترین را می‌خرید.",

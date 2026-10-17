@@ -21,7 +21,7 @@
      "keywords": [
       "there",
       "once",
-      "upon",
+      "time",
       "bird"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "story",
       "about",
-      "king",
-      "want"
+      "story",
+      "want",
+      "king"
      ],
      "suggestion": "OK. Do you want a story about a king?",
      "suggestionFa": "باشه. یه قصه دربارهٔ یه پادشاه می‌خوای؟",
@@ -217,8 +217,8 @@
      "keywords": [
       "little",
       "found",
-      "day",
-      "one"
+      "boy",
+      "day"
      ],
      "suggestion": "One day, she found a little baby boy.",
      "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "looked",
-      "years",
-      "after"
+      "after",
+      "years"
      ],
      "suggestion": "Yes. She looked after him for years.",
      "suggestionFa": "آره. سال‌ها ازش مراقبت کرد.",
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
-      "kept",
       "warm",
-      "gave",
-      "food"
+      "food",
+      "kept",
+      "gave"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "became",
-      "hero",
       "grew",
+      "hero",
       "up"
      ],
      "suggestion": "He grew up and became a hero.",

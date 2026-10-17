@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nobody",
-      "funny",
       "likes",
       "tummy",
-      "feels"
+      "feels",
+      "funny"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
      "suggestionFa": "دلم یه جوریه. اگه هیچ‌کس دوستم نداشته باشه چی؟",
@@ -125,7 +125,7 @@
       "drying",
       "guess",
       "bring",
-      "i'll"
+      "home"
      ],
      "suggestion": "It's drying. I'll bring it home tomorrow. And guess what — I got a gold star!",
      "suggestionFa": "داره خشک میشه. فردا میارمش خونه. و حدس بزن — یه ستارهٔ طلایی گرفتم!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "sharing",
       "crayons",
+      "sharing",
       "friend",
       "she's",
       "best"
@@ -200,7 +200,7 @@
       "golden",
       "lunch",
       "then",
-      "time"
+      "will"
      ],
      "suggestion": "I will. We had shepherd's pie for lunch. And then it was \"golden time\"!",
      "suggestionFa": "حتماً. ناهار پای چوپان داشتیم. و بعد «وقت طلایی» بود!",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "children",
-      "fingers",
       "nervous",
-      "fish",
-      "good"
+      "fingers",
+      "good",
+      "fish"
      ],
      "suggestion": "Good children get to play! I'm not nervous now. Can we have fish fingers for tea?",
      "suggestionFa": "بچه‌های خوب می‌تونن بازی کنن! دیگه استرس ندارم. می‌شه شام ماهی سوخاری بخوریم؟",
@@ -247,10 +247,10 @@
     {
      "keywords": [
       "tomorrow",
+      "liked",
       "teddy",
       "first",
-      "again",
-      "liked"
+      "again"
      ],
      "suggestion": "Yay! Best first day ever. Teddy liked it too. Can I go again tomorrow?",
      "suggestionFa": "آخ جون! بهترین روز اول دنیا. تدی هم دوستش داشت. می‌تونم فردا هم برم؟",

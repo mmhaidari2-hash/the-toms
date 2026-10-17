@@ -34,7 +34,7 @@
       "there's",
       "screen",
       "check",
-      "self"
+      "here"
      ],
      "suggestion": "There's a screen here. \"Self check-in\".",
      "suggestionFa": "اینجا یه صفحه هست. «پذیرش خودکار».",
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "birth",
-      "easy",
       "date",
-      "look"
+      "look",
+      "easy"
      ],
      "suggestion": "It's easy. Look — your date of birth.",
      "suggestionFa": "آسونه. ببین — تاریخ تولدت.",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "please",
-      "take",
       "says",
+      "seat",
       "area"
      ],
      "suggestion": "It says \"Please take a seat in Area C\".",
@@ -174,8 +174,8 @@
      "keywords": [
       "follow",
       "green",
-      "come",
-      "line"
+      "line",
+      "come"
      ],
      "suggestion": "Come on, George. Follow the green line!",
      "suggestionFa": "بیا جورج. خط سبز را دنبال کن!",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "walk",
-      "can",
-      "far"
+      "far",
+      "can"
      ],
      "suggestion": "Can George walk that far?",
      "suggestionFa": "جورج می‌تونه تا اونجا راه بره؟",
@@ -314,7 +314,7 @@
       "biscuit",
       "would",
       "like",
-      "tom"
+      "tea"
      ],
      "suggestion": "A tea and a biscuit. Tom, what would you like?",
      "suggestionFa": "یه چای و یه بیسکویت. تام، تو چی می‌خوای؟",
@@ -324,8 +324,8 @@
     },
     {
      "keywords": [
-      "before",
       "george",
+      "before",
       "can't",
       "blood"
      ],

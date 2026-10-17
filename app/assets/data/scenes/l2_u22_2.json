@@ -20,9 +20,9 @@
     {
      "keywords": [
       "yoghurt",
-      "have",
       "more",
-      "got"
+      "have",
+      "any"
      ],
      "suggestion": "Have you got any more of this yoghurt?",
      "suggestionFa": "از این ماست بیشتر دارین؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "stock",
-      "when",
       "will",
+      "when",
       "out"
      ],
      "suggestion": "Out of stock? When will it be back?",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "price",
-      "i'll",
       "half",
+      "i'll",
       "try"
      ],
      "suggestion": "Half the price? I'll try it.",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "toiletries",
-      "what's",
-      "friend"
+      "friend",
+      "what's"
      ],
      "suggestion": "No, for a friend. What's \"toiletries\"?",
      "suggestionFa": "نه، برای یه دوست. «تویلِتریز» چیه؟",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "free",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "Three for two? So one is free?",
      "suggestionFa": "سه تا به قیمت دو تا؟ یعنی یکیش مجانیه؟",
@@ -362,10 +362,10 @@
     },
     {
      "keywords": [
-      "great",
       "packs",
-      "take",
-      "i'll"
+      "great",
+      "i'll",
+      "take"
      ],
      "suggestion": "Great. I'll take three packs.",
      "suggestionFa": "عالیه. سه بسته برمی‌دارم.",

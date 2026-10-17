@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "pump",
-      "left"
+      "left",
+      "pump"
      ],
      "suggestion": "Left. So the pump is on the left.",
      "suggestionFa": "چپ. پس پمپ سمت چپه.",
@@ -194,8 +194,8 @@
      "keywords": [
       "hundred",
       "pounds",
-      "ouch",
-      "four"
+      "four",
+      "ouch"
      ],
      "suggestion": "Four hundred pounds? Ouch!",
      "suggestionFa": "چهارصد پوند؟ آخ!",
@@ -259,9 +259,9 @@
     },
     {
      "keywords": [
-      "thirty",
+      "pounds",
       "enough",
-      "pounds"
+      "thirty"
      ],
      "suggestion": "Thirty pounds is enough.",
      "suggestionFa": "سی پوند کافیه.",
@@ -348,8 +348,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "four",
+      "i'll",
       "pump",
       "pay"
      ],

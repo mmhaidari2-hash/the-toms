@@ -22,7 +22,7 @@
       "landlord's",
       "haven't",
       "bills",
-      "bill"
+      "name"
      ],
      "suggestion": "I haven't got a bill yet. The bills are in my landlord's name.",
      "suggestionFa": "هنوز قبض ندارم. قبض‌ها به اسم صاحبخونه‌ست.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "letter",
-      "bank",
       "home",
+      "bank",
       "i've"
      ],
      "suggestion": "I've got a bank letter, but it's at home.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "phone",
-      "will",
       "i've",
+      "will",
       "got"
      ],
      "suggestion": "I've got my tenancy agreement on my phone. Will that do?",
@@ -146,8 +146,8 @@
      "keywords": [
       "landlord",
       "has",
-      "ask",
-      "him"
+      "him",
+      "ask"
      ],
      "suggestion": "My landlord has it. I can ask him.",
      "suggestionFa": "صاحبخونه‌ام داره. می‌تونم ازش بپرسم.",
@@ -290,7 +290,7 @@
       "before",
       "weeks",
       "then",
-      "ill"
+      "get"
      ],
      "suggestion": "Two weeks? What if I get ill before then?",
      "suggestionFa": "دو هفته؟ اگه قبلش مریض بشم چی؟",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "anything",
-      "great",
       "bring",
+      "great",
       "need"
      ],
      "suggestion": "Great. Do I need to bring anything?",
@@ -391,8 +391,8 @@
     {
      "keywords": [
       "weight",
-      "after",
       "cakes",
+      "after",
       "all"
      ],
      "suggestion": "Weight? Oh no. After all your cakes!",

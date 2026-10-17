@@ -131,8 +131,8 @@
     },
     {
      "keywords": [
-      "there",
       "books",
+      "there",
       "lots"
      ],
      "suggestion": "Are there lots of books?",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "there's",
-      "here",
-      "much"
+      "much",
+      "here"
      ],
      "suggestion": "There's so much to do here!",
      "suggestionFa": "اینجا کلی کار برای انجام دادن هست!",
@@ -286,8 +286,8 @@
     {
      "keywords": [
       "their",
-      "helps",
       "coats",
+      "helps",
       "them"
      ],
      "suggestion": "That helps them find their coats.",

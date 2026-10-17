@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "hello",
       "doris",
+      "hello",
       "how"
      ],
      "suggestion": "Hello, Doris! How are you?",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "drove",
-      "here",
       "iran",
+      "here",
       "but"
      ],
      "suggestion": "I drove in Iran, but not here.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "thousand",
-      "ten",
-      "wow"
+      "wow",
+      "ten"
      ],
      "suggestion": "Ten thousand? Wow!",
      "suggestionFa": "ده هزار؟ وای!",
@@ -326,8 +326,8 @@
     },
     {
      "keywords": [
-      "help",
       "need",
+      "help",
       "bag"
      ],
      "suggestion": "Do you need help with your bag?",

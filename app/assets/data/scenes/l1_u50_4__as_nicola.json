@@ -24,8 +24,8 @@
       "carrots",
       "potato",
       "roast",
-      "i'll",
-      "swap"
+      "swap",
+      "psst"
      ],
      "suggestion": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
      "suggestionFa": "پیس! {you}! هویجم را بهت میدم اگه سیب‌زمینیت را بهم بدی. عوض کنیم؟",
@@ -49,8 +49,8 @@
       "carrots",
       "that's",
       "three",
-      "swap",
-      "good"
+      "good",
+      "swap"
      ],
      "suggestion": "Three carrots! Three! That's a good swap!",
      "suggestionFa": "سه تا هویج! سه تا! معاملهٔ خوبیه!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "buttons",
       "carrots",
+      "buttons",
       "boring",
       "mummy",
       "swap"
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "champion",
-      "biggest",
       "carrots",
+      "biggest",
       "carrot",
       "please"
      ],

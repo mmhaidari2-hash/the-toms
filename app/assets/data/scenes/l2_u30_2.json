@@ -20,8 +20,8 @@
     {
      "keywords": [
       "outside",
-      "cash",
-      "kept"
+      "kept",
+      "cash"
      ],
      "suggestion": "The cash machine outside kept my card!",
      "suggestionFa": "خودپرداز بیرون کارتم را نگه داشت!",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "entered",
-      "times",
+      "three",
       "wrong",
-      "three"
+      "times"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
      "suggestionFa": "آره. سه بار رمز اشتباه زدم.",
@@ -196,7 +196,7 @@
       "card",
       "will",
       "when",
-      "new"
+      "get"
      ],
      "suggestion": "When will I get the new card?",
      "suggestionFa": "کارت جدید را کی می‌گیرم؟",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "days",
-      "five",
       "food",
+      "five",
       "how"
      ],
      "suggestion": "Five days? How do I buy food?",
@@ -351,8 +351,8 @@
      "keywords": [
       "changed",
       "forgot",
-      "know",
-      "last"
+      "last",
+      "know"
      ],
      "suggestion": "I know. I changed it last week and forgot!",
      "suggestionFa": "می‌دونم. هفتهٔ پیش عوضش کردم و یادم رفت!",
@@ -364,8 +364,8 @@
      "keywords": [
       "advice",
       "thank",
-      "good",
-      "much"
+      "much",
+      "good"
      ],
      "suggestion": "Good advice. Thank you so much, Siân.",
      "suggestionFa": "توصیهٔ خوبیه. خیلی ممنون شان.",

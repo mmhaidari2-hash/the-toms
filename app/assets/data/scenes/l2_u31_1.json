@@ -22,7 +22,7 @@
       "patients",
       "taking",
       "hello",
-      "nhs"
+      "new"
      ],
      "suggestion": "Hello. Are you taking on new NHS patients?",
      "suggestionFa": "سلام. بیمار جدید NHS می‌پذیرید؟",
@@ -86,8 +86,8 @@
      "keywords": [
       "waiting",
       "there",
-      "list",
-      "here"
+      "here",
+      "list"
      ],
      "suggestion": "Is there a waiting list here too?",
      "suggestionFa": "اینجا هم فهرست انتظار هست؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "surgery",
-      "okafor",
       "street",
+      "okafor",
       "mare"
      ],
      "suggestion": "My GP is Dr Okafor, at Mare Street Surgery.",
@@ -182,8 +182,8 @@
    "branches": [
     {
      "keywords": [
-      "cost",
       "much",
+      "cost",
       "how"
      ],
      "suggestion": "No. How much does it cost?",
@@ -246,8 +246,8 @@
    "branches": [
     {
      "keywords": [
-      "cheaper",
       "private",
+      "cheaper",
       "that's",
       "isn't"
      ],
@@ -300,8 +300,8 @@
      "keywords": [
       "william",
       "nicola",
-      "come",
-      "good"
+      "good",
+      "then"
      ],
      "suggestion": "Good. Nicola and William can come too, then.",
      "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",
@@ -313,8 +313,8 @@
      "keywords": [
       "working",
       "band",
-      "now",
-      "pay"
+      "pay",
+      "now"
      ],
      "suggestion": "I'm working now. So I pay Band 1?",
      "suggestionFa": "الان کار می‌کنم. پس ردهٔ ۱ را می‌پردازم؟",

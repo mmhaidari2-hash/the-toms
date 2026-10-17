@@ -21,8 +21,8 @@
      "keywords": [
       "details",
       "doris",
-      "ask",
-      "any"
+      "any",
+      "ask"
      ],
      "suggestion": "Oh no. Did he ask you for any details, Doris?",
      "suggestionFa": "ای وای. ازتون اطلاعاتی خواست دوریس؟",
@@ -34,8 +34,8 @@
      "keywords": [
       "exactly",
       "sounds",
-      "scam",
-      "like"
+      "like",
+      "scam"
      ],
      "suggestion": "That sounds like a scam. What did he say exactly?",
      "suggestionFa": "به نظر کلاهبرداری میاد. دقیقاً چی گفت؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "whatever",
-      "money",
       "banks",
+      "never",
       "don't"
      ],
      "suggestion": "Whatever you do, don't move any money. Banks never ask you to do that.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "anything",
-      "give",
       "code",
-      "pin"
+      "give",
+      "him"
      ],
      "suggestion": "Did you give him anything — your PIN or a code?",
      "suggestionFa": "چیزی بهش دادید — پین یا کد؟",
@@ -151,7 +151,7 @@
       "different",
       "number",
       "let's",
-      "using"
+      "phone"
      ],
      "suggestion": "Let's call your bank using the number on your card — from a different phone.",
      "suggestionFa": "بیاید با شمارهٔ روی کارتتون به بانک زنگ بزنیم — از یه گوشی دیگه.",
@@ -187,8 +187,8 @@
      "keywords": [
       "sometimes",
       "scammers",
-      "you've",
-      "called"
+      "called",
+      "you've"
      ],
      "suggestion": "Scammers sometimes stay on the line, so you think you've called the bank.",
      "suggestionFa": "کلاهبردارها گاهی پشت خط می‌مونن، تا فکر کنید به بانک زنگ زدید.",

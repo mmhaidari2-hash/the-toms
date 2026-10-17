@@ -79,8 +79,8 @@
      "keywords": [
       "serious",
       "that's",
-      "take",
-      "list"
+      "list",
+      "take"
      ],
      "suggestion": "Take me off the list? That's serious!",
      "suggestionFa": "اسمم را خط بزنن؟ جدیه!",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "afraid",
       "monday",
+      "afraid",
       "can't"
      ],
      "suggestion": "Hello. I'm afraid I can't make my appointment on Monday.",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "thank",
-      "back",
       "i'll",
-      "call"
+      "call",
+      "back"
      ],
      "suggestion": "Not now, thank you. I'll call back next week.",
      "suggestionFa": "الان نه، ممنون. هفتهٔ بعد دوباره زنگ می‌زنم.",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "o'clock",
+      "thank",
       "great",
-      "eight",
-      "thank"
+      "eight"
      ],
      "suggestion": "Eight o'clock is great. Thank you so much.",
      "suggestionFa": "ساعت هشت عالیه. خیلی ممنون.",
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "twenty",
       "eighth",
+      "twenty",
       "check",
       "rota"
      ],
@@ -356,8 +356,8 @@
    "branches": [
     {
      "keywords": [
-      "ringing",
-      "nervous"
+      "nervous",
+      "ringing"
      ],
      "suggestion": "OK. It's ringing. I'm nervous!",
      "suggestionFa": "باشه. داره زنگ می‌خوره. مضطربم!",
@@ -406,10 +406,10 @@
    "branches": [
     {
      "keywords": [
-      "afraid",
       "monday",
-      "sorry",
-      "mehdi"
+      "afraid",
+      "can't",
+      "sorry"
      ],
      "suggestion": "Hello, it's Mehdi. I'm afraid I can't make Monday at ten past four. Sorry!",
      "suggestionFa": "سلام، مهدی هستم. متأسفانه نمی‌تونم دوشنبه چهار و ده بیام. ببخشید!",
@@ -419,8 +419,8 @@
     },
     {
      "keywords": [
-      "forgot",
-      "number"
+      "number",
+      "forgot"
      ],
      "suggestion": "I forgot my number! What is it?",
      "suggestionFa": "شماره‌ام یادم رفت! چنده؟",

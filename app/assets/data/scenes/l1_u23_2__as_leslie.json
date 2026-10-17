@@ -22,10 +22,10 @@
     {
      "keywords": [
       "shopping",
-      "wedding",
       "dresses",
+      "wedding",
       "dress",
-      "need"
+      "hate"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "cousin's",
       "wedding",
-      "white",
+      "bride",
       "wears",
-      "bride"
+      "white"
      ],
      "suggestion": "My cousin's wedding. In June. Not white — only the bride wears white!",
      "suggestionFa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -206,9 +206,9 @@
      "keywords": [
       "fourteen",
       "honest",
-      "i'll",
       "look",
-      "try"
+      "i'll",
+      "how"
      ],
      "suggestion": "OK, I'll try the fourteen. How does it look? Be honest!",
      "suggestionFa": "باشه، چهارده را امتحان می‌کنم. چطوره؟ صادق باش!",
@@ -230,10 +230,10 @@
     {
      "keywords": [
       "twelve",
-      "order",
       "let's",
-      "pay",
-      "now"
+      "order",
+      "can",
+      "pay"
      ],
      "suggestion": "Yes, too big. OK, let's order the twelve. Can I pay now?",
      "suggestionFa": "آره، خیلی بزرگه. باشه، دوازده را سفارش بدیم. می‌تونم الان پرداخت کنم؟",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -310,8 +310,8 @@
       "thompson",
       "shopping",
       "leslie",
-      "shoes",
-      "thank"
+      "thank",
+      "shoes"
      ],
      "suggestion": "Leslie Thompson, 07700 900123. Thank you! Now I need shoes. Oh no, more shopping!",
      "suggestionFa": "لزلی تامپسون، ۰۷۷۰۰ ۹۰۰۱۲۳. ممنون! حالا کفش لازم دارم. وای نه، خرید بیشتر!",
@@ -335,8 +335,8 @@
       "definitely",
       "patience",
       "coffee",
-      "thank",
-      "first"
+      "shoes",
+      "thank"
      ],
      "suggestion": "Coffee first, definitely! Then shoes. Thank you for your patience, love. You're a star!",
      "suggestionFa": "اول قهوه، حتماً! بعد کفش. ممنون از صبرت عزیزم. تو یه ستاره‌ای!",

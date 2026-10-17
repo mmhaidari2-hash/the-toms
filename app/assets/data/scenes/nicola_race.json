@@ -193,7 +193,7 @@
       "brilliant",
       "didn't",
       "second",
-      "drop"
+      "once"
      ],
      "suggestion": "Second is brilliant! You didn't drop it once.",
      "suggestionFa": "دوم عالیه! یه بار هم ننداختیش.",
@@ -284,9 +284,9 @@
     {
      "keywords": [
       "things",
-      "wrong",
       "don't",
-      "when"
+      "wrong",
+      "give"
      ],
      "suggestion": "It means you don't give up when things go wrong.",
      "suggestionFa": "یعنی وقتی اوضاع بد میشه تسلیم نمی‌شی.",
@@ -351,7 +351,7 @@
       "scared",
       "think",
       "knee",
-      "tom"
+      "bad"
      ],
      "suggestion": "A bad knee? I think Tom is scared!",
      "suggestionFa": "زانو درد؟ فکر کنم تام ترسیده!",
@@ -392,7 +392,7 @@
       "celebrate",
       "let's",
       "lolly",
-      "get"
+      "ice"
      ],
      "suggestion": "Yes, let's get an ice lolly to celebrate!",
      "suggestionFa": "آره، بیا برای جشن یه بستنی چوبی بگیریم!",
@@ -402,8 +402,8 @@
     },
     {
      "keywords": [
-      "mummy",
       "after",
+      "mummy",
       "well",
       "done"
      ],

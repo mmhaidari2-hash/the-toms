@@ -77,8 +77,8 @@
     },
     {
      "keywords": [
-      "clever",
       "french",
+      "clever",
       "speak",
       "girl"
      ],
@@ -217,8 +217,8 @@
     {
      "keywords": [
       "persian",
-      "speak",
       "phone",
+      "speak",
       "mum"
      ],
      "suggestion": "No. I speak Persian to my mum on the phone.",
@@ -229,10 +229,10 @@
     },
     {
      "keywords": [
-      "telly",
       "alone",
-      "talk",
-      "live"
+      "telly",
+      "live",
+      "talk"
      ],
      "suggestion": "I live alone, so I talk to the telly!",
      "suggestionFa": "تنها زندگی می‌کنم، پس با تلویزیون حرف می‌زنم!",
@@ -285,7 +285,7 @@
       "sometimes",
       "people",
       "speak",
-      "fast"
+      "here"
      ],
      "suggestion": "Sometimes. People speak very fast here.",
      "suggestionFa": "گاهی. مردم اینجا خیلی تند حرف می‌زنن.",
@@ -334,7 +334,7 @@
       "words",
       "teach",
       "some",
-      "can"
+      "new"
      ],
      "suggestion": "Can you teach me some new words?",
      "suggestionFa": "می‌تونی چندتا کلمهٔ جدید یادم بدی؟",

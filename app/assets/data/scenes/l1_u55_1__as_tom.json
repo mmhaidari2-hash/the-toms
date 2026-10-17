@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
+      "tehran",
       "bigger",
       "london",
-      "tehran",
       "city",
       "than"
      ],
@@ -73,8 +73,8 @@
      "keywords": [
       "traffic",
       "exactly",
+      "where",
       "drive",
-      "don't",
       "about"
      ],
      "suggestion": "Traffic! Don't talk to me about traffic. I drive the 38 bus! Where is Iran, exactly?",
@@ -98,9 +98,9 @@
      "keywords": [
       "there",
       "never",
-      "well",
       "here",
-      "july"
+      "july",
+      "well"
      ],
      "suggestion": "Ah, I see. Is it hot there? It's never hot here. Well, one day in July.",
      "suggestionFa": "آها. اونجا گرمه؟ اینجا هیچ‌وقت گرم نیست. خب، یه روز تو ژوئیه.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
       "mountains",
+      "brilliant",
       "famous",
-      "iran",
-      "snow"
+      "snow",
+      "iran"
      ],
      "suggestion": "Snow and mountains? Brilliant. What is Iran famous for?",
      "suggestionFa": "برف و کوه؟ عالیه. ایران به چی معروفه؟",
@@ -148,8 +148,8 @@
      "keywords": [
       "pistachios",
       "breakfast",
-      "leslie",
       "people",
+      "leslie",
       "hides"
      ],
      "suggestion": "Pistachios! I love them. Leslie hides them from me. What do people eat for breakfast?",
@@ -198,9 +198,9 @@
      "keywords": [
       "british",
       "she'll",
-      "faint",
+      "style",
       "glass",
-      "style"
+      "faint"
      ],
      "suggestion": "In a glass? No milk? Don't tell my mum. She'll faint! Here — one tea, British style. Try it.",
      "suggestionFa": "تو لیوان؟ بی‌شیر؟ به مامانم نگو. غش می‌کنه! بیا — یه چای، به سبک بریتانیایی. امتحانش کن.",

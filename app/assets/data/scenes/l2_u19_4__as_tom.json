@@ -25,7 +25,7 @@
       "brilliant",
       "victoria",
       "failure",
-      "delays"
+      "listen"
      ],
      "suggestion": "Oh, here we go. Listen to the announcement. \"Severe delays on the Victoria line due to a signal failure.\" Brilliant.",
      "suggestionFa": "اوه، شروع شد. به اعلان گوش کن. «تأخیر شدید در خط ویکتوریا به دلیل خرابی سیگنال.» عالی شد.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
-      "traffic",
       "working",
+      "minutes",
       "stopped",
-      "trains"
+      "traffic",
+      "lights"
      ],
      "suggestion": "The traffic lights for trains stopped working. Could be ten minutes, could be an hour. Nobody knows.",
      "suggestionFa": "چراغ‌راهنمای قطارها از کار افتاده. ممکنه ده دقیقه باشه، ممکنه یه ساعت. کسی نمی‌دونه.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "suspended",
-      "victoria",
       "highbury",
+      "victoria",
       "between",
       "trains"
      ],
@@ -100,7 +100,7 @@
       "instead",
       "stopped",
       "ticket",
-      "could"
+      "buses"
      ],
      "suggestion": "Suspended means stopped. We could take the 73 bus instead. Your ticket on the Tube is still valid on buses today.",
      "suggestionFa": "«ساسپندد» یعنی متوقف. می‌تونیم به جاش اتوبوس ۷۳ بگیریم. بلیت متروت امروز تو اتوبوس هم معتبره.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "perfect",
-      "fifteen",
       "delayed",
+      "minutes",
+      "fifteen",
       "refund"
      ],
      "suggestion": "Perfect. And if you're delayed over fifteen minutes, you can claim a refund.",
@@ -174,7 +174,7 @@
       "online",
       "driver",
       "coming",
-      "worry",
+      "won't",
       "jokes"
      ],
      "suggestion": "Online, later. Now — run! The 73 is coming. Don't worry, it's not my bus, so the driver won't tell jokes. Go, go, go!",

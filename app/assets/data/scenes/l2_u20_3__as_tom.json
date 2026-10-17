@@ -23,8 +23,8 @@
      "keywords": [
       "visiting",
       "staying",
-      "coming",
       "thanks",
+      "coming",
       "nights"
      ],
      "suggestion": "Dad's staying in for two nights — just for tests. Visiting hours are two till eight. Thanks for coming with me.",
@@ -48,9 +48,9 @@
      "keywords": [
       "dispenser",
       "there's",
-      "nurses",
       "strict",
-      "hands"
+      "nurses",
+      "about"
      ],
      "suggestion": "Ward 4B. First, gel your hands. There's a dispenser by the door. The nurses are strict about it.",
      "suggestionFa": "بخش ۴B. اول، دست‌هات را ژل بزن. کنار در یه دستگاه هست. پرستارها سر این خیلی سخت‌گیرن.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -299,11 +299,11 @@
    "branches": [
     {
      "keywords": [
-      "tomorrow",
       "visitors",
+      "tomorrow",
       "coming",
-      "we'll",
-      "mum's"
+      "mum's",
+      "means"
      ],
      "suggestion": "Mum's coming at six. Right, Dad, the nurse is coming — that means \"visitors out\". We'll see you tomorrow.",
      "suggestionFa": "مامان ساعت شش میاد. خب بابا، پرستار داره میاد — یعنی «ملاقاتی‌ها بیرون». فردا می‌بینیمت.",
@@ -324,8 +324,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

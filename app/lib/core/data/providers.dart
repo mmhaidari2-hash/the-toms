@@ -5,6 +5,8 @@ import '../engine/growth_engine.dart';
 import '../engine/weekly.dart';
 import '../engine/leitner.dart';
 import '../engine/mission.dart';
+import '../engine/motivation.dart';
+export '../engine/motivation.dart';
 import '../engine/narrative_srs.dart';
 import '../engine/diary_coach.dart';
 import '../models/character.dart';
@@ -138,10 +140,138 @@ class ProgressController extends Notifier<UserProgress> {
 
   // ---- Course (Level 1…): practice scores live in missionsDone under 'course:<id>' (no schema change).
   int? practiceScore(String id) => int.tryParse(state.missionsDone['course:$id'] ?? '');
-  void savePractice(String id, int pct) {
+  /// Saves the best score and awards XP for every finished practice (replays count too).
+  XpAward savePractice(String id, int pct) {
     final old = practiceScore(id) ?? -1;
-    if (pct <= old) return;
-    state = state.copyWith(missionsDone: {...state.missionsDone, 'course:$id': '$pct'});
+    if (pct > old) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, 'course:$id': '$pct'});
+      _save();
+    }
+    return awardXp(Motivation.practiceXp(pct));
+  }
+
+  // ---- Motivation: XP, daily goal, streak + freezes, weekly league, badges (all in missionsDone).
+  String _m(String k) => state.missionsDone[k] ?? '';
+  int _mi(String k, int d) => int.tryParse(_m(k)) ?? d;
+  Map<String, int> get xpLog => Motivation.parseLog(state.missionsDone['xp:log']);
+  int get xpTotal => _mi('xp:total', 0);
+  int get xpToday => xpLog[Motivation.day(_now)] ?? 0;
+  int get xpWeek => Motivation.weekXp(xpLog, _now);
+  int get dailyGoal => _mi('pref:goal', Motivation.defaultGoal);
+  bool get goalChosen => state.missionsDone.containsKey('pref:goal');
+  int get freezes => _mi('freeze', 1);
+  int get leagueTier => _mi('league:tier', 0);
+  Set<String> get badgesEarned => {for (final k in state.missionsDone.keys) if (k.startsWith('badge:')) k.substring(6)};
+  int get goalDays => xpLog.values.where((v) => v >= dailyGoal).length + _mi('goal:old', 0);
+  /// The streak as it stands today: it only counts if you practised today or yesterday (or a freeze can cover one missed day).
+  int get currentStreak {
+    final la = state.lastActive;
+    if (la == null) return 0;
+    final now = _now;
+    if (la == _day(now) || la == _day(now.subtract(const Duration(days: 1)))) return state.streak;
+    if (la == _day(now.subtract(const Duration(days: 2))) && freezes > 0) return state.streak;
+    return 0;
+  }
+  void setDailyGoal(int xp) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:goal': '$xp'});
+    _save();
+  }
+  List<(String, int, bool)> leagueBoard() => Motivation.board(WeeklyChallenge.weekKey(_now), leagueTier, xpWeek, _now);
+  List<(String, int, bool)> leagueBoardOf(String week, int tier, int xp) => Motivation.board(week, tier, xp, _now);
+
+  /// Adds XP for today, moves the streak on (using a freeze for one missed day), settles last week's
+  /// league and unlocks any new badges.
+  XpAward awardXp(int xp) {
+    final now = _now;
+    final today = _day(now), yesterday = _day(now.subtract(const Duration(days: 1))), twoAgo = _day(now.subtract(const Duration(days: 2)));
+    final m = {...state.missionsDone};
+    var fr = freezes;
+    var streak = state.streak;
+    var freezeUsed = false;
+    final la = state.lastActive;
+    if (la != today) {
+      if (la == yesterday) {
+        streak += 1;
+      } else if (la == twoAgo && fr > 0 && streak > 0) {
+        fr -= 1;
+        streak += 1;
+        freezeUsed = true;
+      } else {
+        streak = 1;
+      }
+      if (streak > 0 && streak % 7 == 0) fr = (fr + 1).clamp(0, Motivation.maxFreezes); // a freeze for every full week
+    }
+    // League: settle the previous week the first time we earn XP in a new week.
+    final wk = WeeklyChallenge.weekKey(now);
+    final lastWk = m['league:week'];
+    if (lastWk != null && lastWk != wk) {
+      final lastWeekXp = xpLog.entries.where((e) => WeeklyChallenge.weekKey(DateTime.parse(e.key)) == lastWk).fold(0, (a, e) => a + e.value);
+      final rows = Motivation.board(lastWk, leagueTier, lastWeekXp, now, ended: true);
+      m['league:tier'] = '${Motivation.nextTier(leagueTier, Motivation.rank(rows))}';
+    }
+    m['league:week'] = wk;
+    final log = xpLog;
+    final dkey = Motivation.day(now);
+    final before = log[dkey] ?? 0;
+    log[dkey] = before + xp;
+    // Days that fall out of the 21-day log still count towards the "goal 7 times" badge.
+    final kept = Motivation.parseLog(Motivation.encodeLog(log));
+    final dropped = log.entries.where((e) => !kept.containsKey(e.key) && e.value >= dailyGoal).length;
+    if (dropped > 0) m['goal:old'] = '${_mi('goal:old', 0) + dropped}';
+    m['xp:log'] = Motivation.encodeLog(log);
+    final total = xpTotal + xp;
+    m['xp:total'] = '$total';
+    m['freeze'] = '$fr';
+    state = state.copyWith(missionsDone: m, streak: streak, lastActive: today);
+    final had = badgesEarned;
+    final fresh = Motivation.badges.where((b) => !had.contains(b.id) && _badgeEarned(b.id)).toList();
+    if (fresh.isNotEmpty) {
+      state = state.copyWith(missionsDone: {...state.missionsDone, for (final b in fresh) 'badge:${b.id}': today});
+    }
+    _save();
+    return XpAward(xp: xp, total: total, today: before + xp, goal: dailyGoal, streak: streak, week: xpWeek, streakUp: la != today, goalJustHit: before < dailyGoal && before + xp >= dailyGoal, freezeUsed: freezeUsed, newBadges: fresh);
+  }
+
+  bool _badgeEarned(String id) {
+    final scores = {for (final e in state.missionsDone.entries) if (e.key.startsWith('course:')) e.key.substring(7): int.tryParse(e.value) ?? 0};
+    final lessons = scores.entries.where((e) => RegExp(r'_\d+$').hasMatch(e.key) && e.value >= 60).length;
+    final units = scores.entries.where((e) => !RegExp(r'_\d+$').hasMatch(e.key) && e.value >= 70).length;
+    return switch (id) {
+      'first' => scores.isNotEmpty,
+      'streak3' => state.streak >= 3,
+      'streak7' => state.streak >= 7,
+      'streak30' => state.streak >= 30,
+      'xp100' => xpTotal >= 100,
+      'xp500' => xpTotal >= 500,
+      'xp1000' => xpTotal >= 1000,
+      'lessons10' => lessons >= 10,
+      'lessons50' => lessons >= 50,
+      'unit' => units >= 1,
+      'perfect' => scores.values.any((v) => v >= 100),
+      'goal7' => goalDays >= 7,
+      'words50' => state.leitnerBox.length >= 50,
+      'league' => leagueTier >= 1,
+      _ => false,
+    };
+  }
+
+  // ---- Daily reminder preferences (the reminder itself: PWA notification where allowed, or a calendar .ics).
+  String get reminderTime => _m('pref:remind').isEmpty ? '19:00' : _m('pref:remind');
+  bool get reminderOn => _m('pref:remindOn') == 'on';
+  void setReminder(String hhmm, bool on) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:remind': hhmm, 'pref:remindOn': on ? 'on' : 'off'});
+    _save();
+  }
+  /// True once per day, after the reminder time, if today's goal isn't met yet (for an in-app / notification nudge).
+  bool reminderDue() {
+    if (!reminderOn) return false;
+    final now = _now;
+    final p = reminderTime.split(':');
+    final at = DateTime(now.year, now.month, now.day, int.parse(p[0]), int.parse(p[1]));
+    return now.isAfter(at) && xpToday < dailyGoal && _m('remind:last') != Motivation.day(now);
+  }
+  void markReminded() {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'remind:last': Motivation.day(_now)});
     _save();
   }
 
@@ -312,13 +442,8 @@ class ProgressController extends Notifier<UserProgress> {
   void completeScene(Scene scene, String accent, {List<List<String>> transcript = const [], List<String> words = const [], int trustGained = 0, int slips = 0, List<(String, String, String)> recasts = const [], List<NewWord> learned = const []}) {
     final now = _now;
     final today = _day(now);
-    final yesterday = _day(now.subtract(const Duration(days: 1)));
     final daily = state.daily.date == today ? state.daily : DailyStats(today, 0, 0);
-    final streak = state.lastActive == today
-        ? state.streak
-        : state.lastActive == yesterday
-        ? state.streak + 1
-        : 1;
+    final storyFirstTime = !state.completedScenes.contains(scene.id);
     final wk = WeeklyChallenge.weekKey(now);
     final w0 = state.weekly.week == wk ? state.weekly : WeeklyStats(wk, 0, 0);
     final weekly = WeeklyStats(wk, w0.chats + 1, w0.trust);
@@ -331,14 +456,13 @@ class ProgressController extends Notifier<UserProgress> {
       completedScenes: {...state.completedScenes, scene.id, if (scene.baseId != null) scene.baseId!},
       daily: DailyStats(today, daily.conversations + 1, daily.wordsUsed),
       accentPassport: {...state.accentPassport, accent: (state.accentPassport[accent] ?? 0) + 1},
-      streak: streak,
-      lastActive: today,
       missionsDone: Missions.satisfies(Missions.today(now), scene.id, slips) ? {...state.missionsDone, Missions.dayKey(now): Missions.today(now).id} : null,
       srsQueue: NarrativeSrs.enqueue(state.srsQueue, scene, now, learned: learned, recasts: recasts),
       // Words mastered before a milestone are "spent" once that character's next dialogue is played.
       pendingMilestoneWords: {...state.pendingMilestoneWords}..removeWhere((_, v) => v == scene.characterId && scene.isGated),
     );
-    _save();
+    // The streak was already moved on above, so the award only adds XP (and badges) here.
+    awardXp(storyFirstTime ? Motivation.storyXp : Motivation.storyXp ~/ 2);
   }
 
   Future<void> reset() async {

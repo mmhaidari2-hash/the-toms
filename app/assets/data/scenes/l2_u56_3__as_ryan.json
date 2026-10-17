@@ -23,9 +23,9 @@
      "keywords": [
       "delivery",
       "doorbell",
-      "i'll",
+      "fine",
       "come",
-      "fine"
+      "i'll"
      ],
      "suggestion": "Doorbell. It's not for me. Bro, can you get it? I'm mid-game. … OK, fine, I'll come. Oh — it's Kev the delivery guy.",
      "suggestionFa": "زنگ در. مال من نیست. داداش، باز می‌کنی؟ وسط بازی‌ام. … باشه، باشه، میام. اوه — کِوِ پیکه.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -218,11 +218,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "should",
       "what's",
-      "sorry",
-      "heavy"
+      "always",
+      "shake",
+      "sorry"
      ],
      "suggestion": "Why does he always say sorry? Right — it's heavy. What's in it? Should we shake it?",
      "suggestionFa": "چرا همیشه میگه ببخشید؟ خب — سنگینه. توش چیه؟ تکونش بدیم؟",
@@ -245,9 +245,9 @@
      "keywords": [
       "fragile",
       "hallway",
-      "number",
       "should",
-      "street"
+      "street",
+      "number"
      ],
      "suggestion": "Fragile. OK, OK. I'll put it in the hallway, by the door. Should we text her? I've got her number — she's on the street group.",
      "suggestionFa": "شکستنی. باشه باشه. تو راهرو، کنار در می‌ذارمش. بهش پیام بدیم؟ شماره‌اش را دارم — تو گروه خیابونه.",
@@ -270,9 +270,9 @@
      "keywords": [
       "exclamation",
       "darlings",
-      "replied",
+      "samosas",
       "already",
-      "samosas"
+      "replied"
      ],
      "suggestion": "Done. Oh — she's replied already. \"Thank you darlings!! Coming back at 6. Samosas for you!!\" Two exclamation marks. Samosas!",
      "suggestionFa": "انجام شد. اوه — همین الان جواب داد. «ممنون عزیزانم!! ساعت ۶ برمی‌گردم. براتون سمبوسه!!» دو تا علامت تعجب. سمبوسه!",
@@ -297,7 +297,7 @@
       "samosas",
       "o'clock",
       "street",
-      "she's"
+      "right"
      ],
      "suggestion": "Best on the street. Right — six o'clock, she's back. You do the door. I'm finishing my game. But call me for the samosas.",
      "suggestionFa": "بهترین تو خیابون. خب — ساعت شش برمی‌گرده. تو در را باز کن. من بازیم را تموم می‌کنم. ولی برای سمبوسه صدام کن.",
@@ -320,8 +320,8 @@
      "keywords": [
       "getting",
       "samosa",
-      "fresh",
       "sound",
+      "fresh",
       "first"
      ],
      "suggestion": "Fresh air? You sound like Mum. Fine. I'll do the door. But I'm getting the first samosa. Deal?",

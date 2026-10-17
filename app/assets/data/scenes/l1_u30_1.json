@@ -182,9 +182,9 @@
     },
     {
      "keywords": [
-      "cute",
       "duck",
-      "bowl"
+      "bowl",
+      "cute"
      ],
      "suggestion": "The duck bowl is very cute.",
      "suggestionFa": "کاسهٔ اردکی خیلی نازه.",
@@ -233,8 +233,8 @@
      "keywords": [
       "remember",
       "right",
-      "i'll",
-      "left"
+      "left",
+      "i'll"
      ],
      "suggestion": "Left and right. I'll remember.",
      "suggestionFa": "چپ و راست. یادم می‌مونه.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "water",
-      "i'll",
-      "pour"
+      "pour",
+      "i'll"
      ],
      "suggestion": "Yes, I'll pour the water.",
      "suggestionFa": "آره، من آب می‌ریزم.",
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "beautiful",
       "triangles",
+      "beautiful",
       "they're"
      ],
      "suggestion": "They're beautiful triangles!",

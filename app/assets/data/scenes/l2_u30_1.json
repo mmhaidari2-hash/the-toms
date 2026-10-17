@@ -21,8 +21,8 @@
      "keywords": [
       "account",
       "current",
-      "open",
-      "like"
+      "like",
+      "open"
      ],
      "suggestion": "Yes. I'd like to open a current account.",
      "suggestionFa": "بله. می‌خوام یه حساب جاری باز کنم.",
@@ -205,9 +205,9 @@
     },
     {
      "keywords": [
-      "take",
       "long",
       "open",
+      "take",
       "how"
      ],
      "suggestion": "Yes. How long does it take to open?",
@@ -245,7 +245,7 @@
       "arrives",
       "before",
       "phone",
-      "can"
+      "use"
      ],
      "suggestion": "Can I use my phone before the card arrives?",
      "suggestionFa": "قبل از رسیدن کارت می‌تونم از گوشیم استفاده کنم؟",
@@ -257,8 +257,8 @@
      "keywords": [
       "what's",
       "small",
-      "debit",
-      "world"
+      "world",
+      "debit"
      ],
      "suggestion": "Small world! What's a debit card?",
      "suggestionFa": "دنیا کوچیکه! کارت دبیت چیه؟",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "great",
-      "get",
       "how",
+      "get",
       "pin"
      ],
      "suggestion": "Great. And how do I get my PIN?",

@@ -49985,6 +49985,956 @@
    ]
   },
   {
+   "level": 2,
+   "id": "U150",
+   "title": "School reports",
+   "titleFa": "کارنامهٔ مدرسه",
+   "place": "parentsevening",
+   "canDo": "Understand a school report, talk about reading and times tables, and praise a child for being kind",
+   "canDoFa": "کارنامهٔ مدرسه را بفهمی، دربارهٔ خواندن و جدول ضرب حرف بزنی و از مهربانی یک بچه تعریف کنی",
+   "lessons": [
+    {
+     "id": "l2_u62_1",
+     "title": "Nicola's report",
+     "titleFa": "کارنامهٔ نیکولا",
+     "lead": "leslie",
+     "place": "parentsevening",
+     "grammar": "She's doing well in… / She needs to work on… / She's working towards… / I'm really proud of her",
+     "grammarFa": "در … خوب پیش می‌رود / باید روی … کار کند / در مسیر … است / خیلی به او افتخار می‌کنم",
+     "sceneIds": [
+      "l2_u62_1"
+     ],
+     "words": [
+      {
+       "word": "end-of-year",
+       "fa": "آخر سال"
+      },
+      {
+       "word": "report",
+       "fa": "کارنامه"
+      },
+      {
+       "word": "came home",
+       "fa": "به خانه آمد"
+      },
+      {
+       "word": "already",
+       "fa": "تا حالا"
+      },
+      {
+       "word": "mostly",
+       "fa": "بیشترش"
+      },
+      {
+       "word": "doing well in",
+       "fa": "در … خوب پیش می‌رود"
+      },
+      {
+       "word": "speaking and listening",
+       "fa": "صحبت کردن و گوش دادن"
+      },
+      {
+       "word": "curious",
+       "fa": "کنجکاو"
+      },
+      {
+       "word": "learner",
+       "fa": "یادگیرنده"
+      },
+      {
+       "word": "teacher language",
+       "fa": "زبان معلم‌ها"
+      },
+      {
+       "word": "never stops",
+       "fa": "هیچ وقت دست برنمی‌دارد"
+      },
+      {
+       "word": "needs to work on",
+       "fa": "باید روی … کار کند"
+      },
+      {
+       "word": "handwriting",
+       "fa": "دست‌خط"
+      },
+      {
+       "word": "letters",
+       "fa": "حروف"
+      },
+      {
+       "word": "backwards",
+       "fa": "برعکس"
+      },
+      {
+       "word": "snake",
+       "fa": "مار"
+      },
+      {
+       "word": "working towards",
+       "fa": "در مسیر …"
+      },
+      {
+       "word": "goal",
+       "fa": "هدف"
+      },
+      {
+       "word": "not quite there yet",
+       "fa": "هنوز کامل نرسیده"
+      },
+      {
+       "word": "counting",
+       "fa": "شمردن"
+      },
+      {
+       "word": "take-aways",
+       "fa": "تفریق (زبان بچه‌ها)"
+      },
+      {
+       "word": "take away",
+       "fa": "منها"
+      },
+      {
+       "word": "sweets",
+       "fa": "آبنبات ؛ شیرینی"
+      },
+      {
+       "word": "learn",
+       "fa": "یاد گرفتن"
+      },
+      {
+       "word": "fast",
+       "fa": "سریع"
+      },
+      {
+       "word": "kind",
+       "fa": "مهربان"
+      },
+      {
+       "word": "others",
+       "fa": "دیگران"
+      },
+      {
+       "word": "the bit",
+       "fa": "آن قسمت"
+      },
+      {
+       "word": "made me cry",
+       "fa": "گریه‌ام انداخت"
+      },
+      {
+       "word": "proud of",
+       "fa": "افتخار کردن به"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l2_u62_2",
+     "title": "Reading levels",
+     "titleFa": "سطح خواندن",
+     "lead": "tom",
+     "place": "parentsevening",
+     "grammar": "What colour book is she on? / Sound it out / tricky words / She's moved up a level",
+     "grammarFa": "کتاب کدام رنگ را می‌خواند؟ / صداها را جدا بخوان / کلمه‌های سخت / یک سطح بالا رفته",
+     "sceneIds": [
+      "l2_u62_2"
+     ],
+     "words": [
+      {
+       "word": "reading book",
+       "fa": "کتاب خواندن"
+      },
+      {
+       "word": "yellow",
+       "fa": "زرد"
+      },
+      {
+       "word": "bus colours",
+       "fa": "رنگ اتوبوس‌ها"
+      },
+      {
+       "word": "levels",
+       "fa": "سطح‌ها"
+      },
+      {
+       "word": "pink",
+       "fa": "صورتی"
+      },
+      {
+       "word": "moved up",
+       "fa": "بالا رفته"
+      },
+      {
+       "word": "readers",
+       "fa": "خواننده‌ها"
+      },
+      {
+       "word": "tricky words",
+       "fa": "کلمه‌های سخت (بی‌قاعده)"
+      },
+      {
+       "word": "sound out",
+       "fa": "صداها را جدا خواندن"
+      },
+      {
+       "word": "said",
+       "fa": "گفت"
+      },
+      {
+       "word": "phonics",
+       "fa": "آواشناسی خواندن (فونیکس)"
+      },
+      {
+       "word": "each sound",
+       "fa": "هر صدا"
+      },
+      {
+       "word": "weird",
+       "fa": "عجیب"
+      },
+      {
+       "word": "spelling",
+       "fa": "املا"
+      },
+      {
+       "word": "every night",
+       "fa": "هر شب"
+      },
+      {
+       "word": "sign",
+       "fa": "امضا کردن"
+      },
+      {
+       "word": "reading record",
+       "fa": "دفتر ثبت مطالعه"
+      },
+      {
+       "word": "comment",
+       "fa": "نظر ؛ توضیح"
+      },
+      {
+       "word": "lazy",
+       "fa": "تنبل"
+      },
+      {
+       "word": "difficult",
+       "fa": "سخت"
+      },
+      {
+       "word": "all by herself",
+       "fa": "کاملاً خودش"
+      },
+      {
+       "word": "nearly",
+       "fa": "نزدیک بود"
+      },
+      {
+       "word": "bedtime story",
+       "fa": "قصهٔ شب"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l2_u62_3",
+     "title": "Times tables",
+     "titleFa": "جدول ضرب",
+     "lead": "patel",
+     "place": "parentsevening",
+     "grammar": "He's predicted a… / He needs to practise… / off by heart / What can we do at home?",
+     "grammarFa": "پیش‌بینی می‌شود … بگیرد / باید … را تمرین کند / از حفظ / در خانه چه کار کنیم؟",
+     "sceneIds": [
+      "l2_u62_3"
+     ],
+     "words": [
+      {
+       "word": "famous",
+       "fa": "معروف"
+      },
+      {
+       "word": "neighbour",
+       "fa": "همسایه"
+      },
+      {
+       "word": "bad news",
+       "fa": "خبر بد"
+      },
+      {
+       "word": "I can take it",
+       "fa": "تحملش را دارم"
+      },
+      {
+       "word": "mock exam",
+       "fa": "امتحان آزمایشی"
+      },
+      {
+       "word": "predicted",
+       "fa": "پیش‌بینی شده"
+      },
+      {
+       "word": "grade",
+       "fa": "نمره"
+      },
+      {
+       "word": "lad",
+       "fa": "پسر"
+      },
+      {
+       "word": "loses marks",
+       "fa": "نمره از دست می‌دهد"
+      },
+      {
+       "word": "counts on his fingers",
+       "fa": "با انگشتانش می‌شمارد"
+      },
+      {
+       "word": "seven times eight",
+       "fa": "هفت ضرب در هشت"
+      },
+      {
+       "word": "off by heart",
+       "fa": "از حفظ"
+      },
+      {
+       "word": "up to",
+       "fa": "تا"
+      },
+      {
+       "word": "without thinking",
+       "fa": "بدون فکر کردن"
+      },
+      {
+       "word": "app",
+       "fa": "اپلیکیشن"
+      },
+      {
+       "word": "test",
+       "fa": "امتحان گرفتن"
+      },
+      {
+       "word": "player stats",
+       "fa": "آمار بازیکن‌ها"
+      },
+      {
+       "word": "memory",
+       "fa": "حافظه"
+      },
+      {
+       "word": "on duty",
+       "fa": "مسئول ؛ سر خدمت"
+      },
+      {
+       "word": "deal",
+       "fa": "قبول"
+      },
+      {
+       "word": "evening",
+       "fa": "عصر"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l2_u62_4",
+     "title": "Being kind",
+     "titleFa": "مهربان بودن",
+     "lead": "nicola",
+     "place": "parentsevening",
+     "grammar": "She was kind to… / She helped… / Star of the Week / How did that make you feel?",
+     "grammarFa": "با … مهربان بود / به … کمک کرد / ستارهٔ هفته / چه حسی داشتی؟",
+     "sceneIds": [
+      "l2_u62_4"
+     ],
+     "words": [
+      {
+       "word": "gold star",
+       "fa": "ستارهٔ طلایی"
+      },
+      {
+       "word": "Star of the Week",
+       "fa": "ستارهٔ هفته"
+      },
+      {
+       "word": "assembly",
+       "fa": "مراسم صبحگاهی"
+      },
+      {
+       "word": "new girl",
+       "fa": "دختر جدید"
+      },
+      {
+       "word": "doesn't speak much",
+       "fa": "زیاد صحبت نمی‌کند"
+      },
+      {
+       "word": "nobody",
+       "fa": "هیچ‌کس"
+      },
+      {
+       "word": "played with",
+       "fa": "بازی کرد با"
+      },
+      {
+       "word": "Poland",
+       "fa": "لهستان"
+      },
+      {
+       "word": "taught",
+       "fa": "یاد داد"
+      },
+      {
+       "word": "my turn",
+       "fa": "نوبت من"
+      },
+      {
+       "word": "means",
+       "fa": "یعنی"
+      },
+      {
+       "word": "at first",
+       "fa": "اولش"
+      },
+      {
+       "word": "loads",
+       "fa": "کلی"
+      },
+      {
+       "word": "words",
+       "fa": "کلمه‌ها"
+      },
+      {
+       "word": "sad",
+       "fa": "ناراحت"
+      },
+      {
+       "word": "laughed",
+       "fa": "خندید"
+      },
+      {
+       "word": "made me feel",
+       "fa": "باعث شد حس کنم"
+      },
+      {
+       "word": "happy inside",
+       "fa": "در دل خوشحال"
+      },
+      {
+       "word": "grown-ups",
+       "fa": "بزرگ‌ترها"
+      },
+      {
+       "word": "cry",
+       "fa": "گریه کردن"
+      },
+      {
+       "word": "happy tears",
+       "fa": "اشک شوق"
+      },
+      {
+       "word": "proud",
+       "fa": "مفتخر"
+      },
+      {
+       "word": "come for tea",
+       "fa": "برای شام آمدن"
+      },
+      {
+       "word": "swings",
+       "fa": "تاب"
+      },
+      {
+       "word": "sure",
+       "fa": "مطمئن"
+      }
+     ],
+     "turns": 15
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "id": "U151",
+   "title": "Celebrations",
+   "titleFa": "جشن‌ها",
+   "place": "christmas",
+   "canDo": "Join friends and neighbours for Diwali, Eid, Chinese New Year and St Patrick's Day, with the right greetings",
+   "canDoFa": "در دیوالی، عید فطر، سال نو چینی و روز سنت پاتریک با دوستان و همسایه‌ها همراه شوی و تبریک درست بگویی",
+   "lessons": [
+    {
+     "id": "l2_u63_1",
+     "title": "Diwali with Priya",
+     "titleFa": "دیوالی با پریا",
+     "lead": "leslie",
+     "place": "christmas",
+     "grammar": "We've been invited to… / Happy Diwali! / What should I bring? / It's the festival of lights",
+     "grammarFa": "به … دعوت شده‌ایم / دیوالی مبارک! / چه بیاورم؟ / جشن نورهاست",
+     "sceneIds": [
+      "l2_u63_1"
+     ],
+     "words": [
+      {
+       "word": "guess what",
+       "fa": "حدس بزن چی شده"
+      },
+      {
+       "word": "invited",
+       "fa": "دعوت شده"
+      },
+      {
+       "word": "whole family",
+       "fa": "همهٔ خانواده"
+      },
+      {
+       "word": "Hindu",
+       "fa": "هندو"
+      },
+      {
+       "word": "festival of lights",
+       "fa": "جشن نورها"
+      },
+      {
+       "word": "winning over",
+       "fa": "پیروز شدن بر"
+      },
+      {
+       "word": "darkness",
+       "fa": "تاریکی"
+      },
+      {
+       "word": "longest night",
+       "fa": "طولانی‌ترین شب"
+      },
+      {
+       "word": "pomegranates",
+       "fa": "انارها"
+      },
+      {
+       "word": "get it wrong",
+       "fa": "اشتباه کردن"
+      },
+      {
+       "word": "bring",
+       "fa": "آوردن"
+      },
+      {
+       "word": "share",
+       "fa": "تقسیم کردن"
+      },
+      {
+       "word": "mithai",
+       "fa": "شیرینی هندی"
+      },
+      {
+       "word": "wine",
+       "fa": "شراب"
+      },
+      {
+       "word": "don't drink",
+       "fa": "مشروب نمی‌خورند"
+      },
+      {
+       "word": "oil lamps",
+       "fa": "چراغ‌های روغنی"
+      },
+      {
+       "word": "patterns",
+       "fa": "طرح‌ها"
+      },
+      {
+       "word": "floor",
+       "fa": "زمین ؛ کف"
+      },
+      {
+       "word": "coloured powder",
+       "fa": "پودر رنگی"
+      },
+      {
+       "word": "bright",
+       "fa": "روشن ؛ شاد"
+      },
+      {
+       "word": "colourful",
+       "fa": "رنگارنگ"
+      },
+      {
+       "word": "finally",
+       "fa": "بالاخره"
+      },
+      {
+       "word": "chance",
+       "fa": "فرصت"
+      },
+      {
+       "word": "that's it",
+       "fa": "همین"
+      },
+      {
+       "word": "try",
+       "fa": "امتحان کردن ؛ چشیدن"
+      },
+      {
+       "word": "samosas",
+       "fa": "سمبوسه‌ها"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l2_u63_2",
+     "title": "Eid with the neighbours",
+     "titleFa": "عید با همسایه‌ها",
+     "lead": "tom",
+     "place": "christmas",
+     "grammar": "Eid Mubarak! / They've been fasting / That's so kind of you / We'd love to",
+     "grammarFa": "عید مبارک! / روزه گرفته‌اند / خیلی لطف دارید / با کمال میل",
+     "sceneIds": [
+      "l2_u63_2"
+     ],
+     "words": [
+      {
+       "word": "knocked",
+       "fa": "در زد"
+      },
+      {
+       "word": "huge",
+       "fa": "خیلی بزرگ"
+      },
+      {
+       "word": "biryani",
+       "fa": "بریانی"
+      },
+      {
+       "word": "smell",
+       "fa": "بو کردن"
+      },
+      {
+       "word": "fasting",
+       "fa": "روزه گرفتن"
+      },
+      {
+       "word": "until sunset",
+       "fa": "تا غروب"
+      },
+      {
+       "word": "I'd last",
+       "fa": "دوام می‌آوردم"
+      },
+      {
+       "word": "impressive",
+       "fa": "قابل تحسین"
+      },
+      {
+       "word": "blessed",
+       "fa": "مبارک ؛ پربرکت"
+      },
+      {
+       "word": "get it wrong",
+       "fa": "اشتباه کردن"
+      },
+      {
+       "word": "both",
+       "fa": "هر دو"
+      },
+      {
+       "word": "give back",
+       "fa": "پس دادن"
+      },
+      {
+       "word": "empty",
+       "fa": "خالی"
+      },
+      {
+       "word": "return",
+       "fa": "برگرداندن"
+      },
+      {
+       "word": "fill",
+       "fa": "پر کردن"
+      },
+      {
+       "word": "grannies",
+       "fa": "مادربزرگ‌ها"
+      },
+      {
+       "word": "everywhere",
+       "fa": "همه‌جا"
+      },
+      {
+       "word": "boring",
+       "fa": "کسل‌کننده"
+      },
+      {
+       "word": "lemon cake",
+       "fa": "کیک لیمو"
+      },
+      {
+       "word": "saffron",
+       "fa": "زعفران"
+      },
+      {
+       "word": "rice pudding",
+       "fa": "شیربرنج"
+      },
+      {
+       "word": "anything sweet",
+       "fa": "هر چیز شیرین"
+      },
+      {
+       "word": "take round",
+       "fa": "بردن (به خانهٔ کسی)"
+      },
+      {
+       "word": "so kind of her",
+       "fa": "خیلی لطف دارد"
+      },
+      {
+       "word": "lamb",
+       "fa": "بره"
+      },
+      {
+       "word": "we'd love to",
+       "fa": "با کمال میل"
+      },
+      {
+       "word": "skip",
+       "fa": "نخوردن ؛ رد کردن"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l2_u63_3",
+     "title": "Chinese New Year",
+     "titleFa": "سال نو چینی",
+     "lead": "ryan",
+     "place": "christmas",
+     "grammar": "It's the Year of the… / Gong hei fat choi / red envelopes / Shall we go to Chinatown?",
+     "grammarFa": "سال … است / سال نو مبارک (کانتونی) / پاکت‌های قرمز / برویم محلهٔ چینی‌ها؟",
+     "sceneIds": [
+      "l2_u63_3"
+     ],
+     "words": [
+      {
+       "word": "Chinatown",
+       "fa": "محلهٔ چینی‌ها"
+      },
+      {
+       "word": "massive",
+       "fa": "خیلی بزرگ"
+      },
+      {
+       "word": "parade",
+       "fa": "رژه"
+      },
+      {
+       "word": "moon calendar",
+       "fa": "تقویم قمری"
+      },
+      {
+       "word": "innit",
+       "fa": "دیگه ؛ نه؟"
+      },
+      {
+       "word": "West End",
+       "fa": "وست‌اند (مرکز لندن)"
+      },
+      {
+       "word": "Year of the Horse",
+       "fa": "سال اسب"
+      },
+      {
+       "word": "born",
+       "fa": "به دنیا آمده"
+      },
+      {
+       "word": "sick",
+       "fa": "باحال (عامیانه)"
+      },
+      {
+       "word": "hang on",
+       "fa": "صبر کن"
+      },
+      {
+       "word": "rat",
+       "fa": "موش"
+      },
+      {
+       "word": "apparently",
+       "fa": "ظاهراً"
+      },
+      {
+       "word": "brave",
+       "fa": "شجاع"
+      },
+      {
+       "word": "obviously",
+       "fa": "معلومه"
+      },
+      {
+       "word": "red envelope",
+       "fa": "پاکت قرمز"
+      },
+      {
+       "word": "quid",
+       "fa": "پوند (عامیانه)"
+      },
+      {
+       "word": "for luck",
+       "fa": "برای شانس"
+      },
+      {
+       "word": "lucky",
+       "fa": "خوش‌شانس"
+      },
+      {
+       "word": "celebrating",
+       "fa": "جشن گرفتن"
+      },
+      {
+       "word": "just saying",
+       "fa": "فقط گفتم"
+      },
+      {
+       "word": "wanna",
+       "fa": "می‌خواهم (عامیانه)"
+      },
+      {
+       "word": "wishing you",
+       "fa": "برایت آرزو می‌کنم"
+      },
+      {
+       "word": "wealth",
+       "fa": "ثروت"
+      },
+      {
+       "word": "cheeky",
+       "fa": "پررو ؛ شیطون"
+      }
+     ],
+     "turns": 15
+    },
+    {
+     "id": "l2_u63_4",
+     "title": "St Patrick's Day",
+     "titleFa": "روز سنت پاتریک",
+     "lead": "weda",
+     "place": "christmas",
+     "grammar": "My mother was from… / I'm half Irish / You have to wear green / Shall we watch the parade?",
+     "grammarFa": "مادرم اهل … بود / نیمه‌ایرلندی هستم / باید سبز بپوشی / رژه را ببینیم؟",
+     "sceneIds": [
+      "l2_u63_4"
+     ],
+     "words": [
+      {
+       "word": "from head to toe",
+       "fa": "از سر تا پا"
+      },
+      {
+       "word": "seventeenth",
+       "fa": "هفدهم"
+      },
+      {
+       "word": "green",
+       "fa": "سبز"
+      },
+      {
+       "word": "patron saint",
+       "fa": "قدیس حامی"
+      },
+      {
+       "word": "my mother was from",
+       "fa": "مادرم اهل … بود"
+      },
+      {
+       "word": "half",
+       "fa": "نیمه"
+      },
+      {
+       "word": "south",
+       "fa": "جنوب"
+      },
+      {
+       "word": "rainy",
+       "fa": "بارانی"
+      },
+      {
+       "word": "mind",
+       "fa": "البته"
+      },
+      {
+       "word": "gets from",
+       "fa": "از … به ارث برده"
+      },
+      {
+       "word": "parade",
+       "fa": "رژه"
+      },
+      {
+       "word": "bands",
+       "fa": "گروه‌های موسیقی"
+      },
+      {
+       "word": "dancing",
+       "fa": "رقص"
+      },
+      {
+       "word": "every year",
+       "fa": "هر سال"
+      },
+      {
+       "word": "Irish dancing",
+       "fa": "رقص ایرلندی"
+      },
+      {
+       "word": "arms down",
+       "fa": "دست‌ها پایین"
+      },
+      {
+       "word": "knees",
+       "fa": "زانوها"
+      },
+      {
+       "word": "watch",
+       "fa": "تماشا کردن"
+      },
+      {
+       "word": "rule",
+       "fa": "قانون"
+      },
+      {
+       "word": "shamrock",
+       "fa": "شبدر سه‌برگ"
+      },
+      {
+       "word": "lend",
+       "fa": "قرض دادن"
+      },
+      {
+       "word": "jumper",
+       "fa": "پلیور"
+      },
+      {
+       "word": "will that do?",
+       "fa": "کافی است؟"
+      },
+      {
+       "word": "three-leaf clover",
+       "fa": "شبدر سه‌برگ"
+      },
+      {
+       "word": "symbol",
+       "fa": "نماد"
+      },
+      {
+       "word": "nicely",
+       "fa": "به‌خوبی"
+      }
+     ],
+     "turns": 15
+    }
+   ]
+  },
+  {
    "level": 3,
    "id": "U21",
    "title": "Work and careers",

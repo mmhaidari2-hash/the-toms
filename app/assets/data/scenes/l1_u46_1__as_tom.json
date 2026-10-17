@@ -23,8 +23,8 @@
      "keywords": [
       "lovely",
       "come",
-      "khan",
       "here",
+      "khan",
       "mrs"
      ],
      "suggestion": "Ah, you're here! Come in, come in! And Mrs Khan too. Lovely!",
@@ -48,9 +48,9 @@
      "keywords": [
       "leslie's",
       "kitchen",
-      "still",
       "coats",
-      "take"
+      "still",
+      "late"
      ],
      "suggestion": "Late? Not at all! Leslie's still in the kitchen. Let me take your coats.",
      "suggestionFa": "دیر؟ اصلاً! لزلی هنوز تو آشپزخونه‌ست. بذارید کتاتون را بگیرم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -134,9 +134,9 @@
      "keywords": [
       "shouldn't",
       "brought",
-      "they've",
       "through",
-      "leslie"
+      "they've",
+      "living"
      ],
      "suggestion": "You shouldn't have! Leslie, they've brought food! Go through to the living room.",
      "suggestionFa": "زحمت کشیدید! لزلی، غذا آوردن! بفرمایید به اتاق نشیمن.",
@@ -184,9 +184,9 @@
      "keywords": [
       "yourselves",
       "george's",
-      "nobody",
       "sofa's",
-      "chair"
+      "nobody",
+      "comfy"
      ],
      "suggestion": "Nobody sits in George's chair! House rule. The sofa's comfy. Make yourselves at home.",
      "suggestionFa": "هیچ‌کس رو صندلی جورج نمی‌شینه! قانون خونه. مبل راحته. راحت باشید.",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "singing",
-      "coffee",
       "that's",
+      "coffee",
       "drinks",
       "juice"
      ],

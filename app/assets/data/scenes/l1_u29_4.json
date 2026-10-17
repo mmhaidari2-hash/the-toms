@@ -77,10 +77,10 @@
     },
     {
      "keywords": [
-      "lovely",
       "please",
-      "bill",
-      "have"
+      "lovely",
+      "have",
+      "bill"
      ],
      "suggestion": "Yes, lovely. Can we have the bill, please?",
      "suggestionFa": "آره، عالی. می‌شه صورت‌حساب را بیارید، لطفاً؟",
@@ -133,8 +133,8 @@
     },
     {
      "keywords": [
-      "time",
       "i'll",
+      "time",
       "pay"
      ],
      "suggestion": "I'll pay this time.",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "separately",
-      "pay",
       "can",
+      "pay",
       "we"
      ],
      "suggestion": "Can we pay separately, please?",
@@ -373,9 +373,9 @@
     {
      "keywords": [
       "we'll",
+      "soon",
       "come",
-      "back",
-      "soon"
+      "back"
      ],
      "suggestion": "We'll come back soon!",
      "suggestionFa": "به زودی برمی‌گردیم!",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "show",
       "sure",
+      "show",
       "app"
      ],
      "suggestion": "Sure. Show me the app.",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "looks",
-      "hair",
+      "fine",
       "ryan",
-      "fine"
+      "hair"
      ],
      "suggestion": "Your hair looks fine, Ryan!",
      "suggestionFa": "موهات خوبه رایان!",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "what's",
-      "skin",
-      "fade"
+      "fade",
+      "skin"
      ],
      "suggestion": "What's a skin fade?",
      "suggestionFa": "فید کامل چیه؟",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "choose",
-      "fade",
       "skin",
+      "fade",
       "day"
      ],
      "suggestion": "OK. Skin fade. Now choose a day.",
@@ -137,8 +137,8 @@
     },
     {
      "keywords": [
-      "twenty",
       "pounds",
+      "twenty",
       "know",
       "mum"
      ],
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "before",
-      "tell",
+      "them",
       "must",
-      "them"
+      "tell"
      ],
      "suggestion": "It means you must tell them a day before.",
      "suggestionFa": "یعنی باید یه روز قبل بهشون بگی.",
@@ -363,8 +363,8 @@
      "keywords": [
       "that's",
       "photo",
-      "easy",
-      "show"
+      "show",
+      "easy"
      ],
      "suggestion": "Show him a photo. That's easy!",
      "suggestionFa": "یه عکس نشونش بده. آسونه!",

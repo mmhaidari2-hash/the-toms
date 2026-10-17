@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
-      "will",
       "take",
-      "long"
+      "long",
+      "will"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "home",
-      "safe"
+      "safe",
+      "home"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
-      "cost",
+      "much",
       "both",
-      "much"
+      "cost"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -247,8 +247,8 @@
      "keywords": [
       "second",
       "quote",
-      "first",
-      "could"
+      "could",
+      "first"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "ahead",
-      "news",
       "good",
+      "news",
       "was"
      ],
      "suggestion": "OK, go ahead. What was the good news?",
@@ -354,9 +354,9 @@
     {
      "keywords": [
       "tyres",
-      "left",
       "long",
-      "got"
+      "left",
+      "how"
      ],
      "suggestion": "How long have the tyres got left?",
      "suggestionFa": "لاستیک‌ها چقدر عمر دارن؟",
@@ -417,8 +417,8 @@
      "keywords": [
       "garages",
       "honest",
-      "thanks",
-      "upsell"
+      "upsell",
+      "thanks"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

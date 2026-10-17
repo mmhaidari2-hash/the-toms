@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "scanning",
       "checkout",
+      "scanning",
       "quicker",
       "let's",
       "i'll"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "barcode",
-      "weighs",
       "apples",
-      "loose",
-      "press"
+      "weighs",
+      "press",
+      "fruit"
      ],
      "suggestion": "Loose fruit has no barcode. Press \"Look up item\", then \"Fruit and veg\", then \"Apples\". It weighs them.",
      "suggestionFa": "میوهٔ فله بارکد نداره. «جستجوی کالا» را بزن، بعد «میوه و سبزی»، بعد «سیب». خودش وزنشون می‌کنه.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -136,11 +136,11 @@
    "branches": [
     {
      "keywords": [
-      "handbag",
       "classic",
+      "handbag",
       "stopped",
       "scales",
-      "i'll"
+      "i've"
      ],
      "suggestion": "Oops — it's my handbag! I've put it on the scales. Classic. I'll move it. Has it stopped?",
      "suggestionFa": "اوه — کیف دستی منه! گذاشتمش رو ترازو. کلاسیک. برش می‌دارم. ساکت شد؟",
@@ -164,8 +164,8 @@
       "flashing",
       "member",
       "light",
-      "staff",
-      "means"
+      "means",
+      "staff"
      ],
      "suggestion": "Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady?",
      "suggestionFa": "هوم، چراغ بالاش قرمز چشمک می‌زنه. یعنی یه کارمند لازم داریم. میشه برای اون خانم دست تکون بدی؟",
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -305,7 +305,7 @@
       "checkout",
       "telling",
       "machine",
-      "better",
+      "you've",
       "that's"
      ],
      "suggestion": "You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom.",

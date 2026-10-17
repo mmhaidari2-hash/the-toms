@@ -74,9 +74,9 @@
     {
      "keywords": [
       "o'clock",
+      "two",
       "now",
-      "ten",
-      "two"
+      "ten"
      ],
      "suggestion": "Yes, at two o'clock. It's ten to two now!",
      "suggestionFa": "آره، ساعت دو. الان ده دقیقه به دوئه!",
@@ -140,8 +140,8 @@
      "keywords": [
       "thanks",
       "stops",
-      "tom",
-      "two"
+      "two",
+      "tom"
      ],
      "suggestion": "The 277. Two stops. Thanks, Tom!",
      "suggestionFa": "۲۷۷. دو ایستگاه. مرسی تام!",
@@ -258,8 +258,8 @@
      "keywords": [
       "which",
       "park",
-      "huge",
-      "gate"
+      "gate",
+      "huge"
      ],
      "suggestion": "Which gate? The park is huge!",
      "suggestionFa": "کدوم در؟ پارک خیلی بزرگه!",
@@ -347,9 +347,9 @@
    "branches": [
     {
      "keywords": [
-      "idea",
-      "i'll",
       "text",
+      "i'll",
+      "idea",
       "good"
      ],
      "suggestion": "Good idea. I'll text now.",
@@ -360,10 +360,10 @@
     },
     {
      "keywords": [
-      "britain",
       "minutes",
-      "five",
-      "late"
+      "britain",
+      "late",
+      "five"
      ],
      "suggestion": "Five minutes late is OK in Britain?",
      "suggestionFa": "پنج دقیقه دیر تو بریتانیا اشکالی نداره؟",

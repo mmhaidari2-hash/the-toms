@@ -1,0 +1,407 @@
+{
+ "id": "l2_u63_4",
+ "characterId": "weda",
+ "title": "St Patrick's Day",
+ "titleFa": "روز سنت پاتریک",
+ "setting": "Celebrations · Level 2",
+ "settingFa": "جشن‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Morning, love! Look at me — green from head to toe. It's the seventeenth of March. St Patrick's Day!",
+   "translations": {
+    "fa": "صبح بخیر عزیزم! منو ببین — از سر تا پا سبز. هفدهم مارسه. روز سنت پاتریک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie",
+      "great",
+      "green",
+      "look"
+     ],
+     "suggestion": "You look great, Maggie! Very green!",
+     "suggestionFa": "عالی شدی مگی! خیلی سبز!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "patrick's",
+      "irish",
+      "day",
+      "st"
+     ],
+     "suggestion": "St Patrick's Day? Is that Irish?",
+     "suggestionFa": "روز سنت پاتریک؟ ایرلندیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "from head to toe",
+     "fa": "از سر تا پا"
+    },
+    {
+     "word": "seventeenth",
+     "fa": "هفدهم"
+    },
+    {
+     "word": "green",
+     "fa": "سبز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you looks great",
+      "you look a great"
+     ],
+     "echo": "You look great in green, Maggie!",
+     "better": "You look great, Maggie!",
+     "betterFa": "عالی شدی مگی!"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Irish, yes. St Patrick is the patron saint of Ireland. And my mother was from Cork. So I'm half Irish, love!",
+   "translations": {
+    "fa": "ایرلندی، آره. سنت پاتریک قدیس حامی ایرلنده. و مادرم اهل کورک بود. پس من نیمه‌ایرلندی‌ام عزیزم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "didn't",
+      "know",
+      "cork"
+     ],
+     "suggestion": "I didn't know that! Where's Cork?",
+     "suggestionFa": "نمی‌دونستم! کورک کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quarter",
+      "irish",
+      "half",
+      "tom"
+     ],
+     "suggestion": "Half Irish! So Tom is a quarter Irish?",
+     "suggestionFa": "نیمه‌ایرلندی! پس تام یک‌چهارم ایرلندیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "patron saint",
+     "fa": "قدیس حامی"
+    },
+    {
+     "word": "my mother was from",
+     "fa": "مادرم اهل … بود"
+    },
+    {
+     "word": "half",
+     "fa": "نیمه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Each part of the UK has a patron saint: St George (England, 23 April), St Andrew (Scotland), St David (Wales). St Patrick is for Ireland.",
+    "fa": "هر بخش بریتانیا یک قدیس حامی دارد: سنت جرج برای انگلستان، سنت اندرو اسکاتلند، سنت دیوید ولز و سنت پاتریک ایرلند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Cork's in the south of Ireland. Beautiful. Rainy, mind. And yes — Tom's a quarter Irish. That's where he gets his jokes from!",
+   "translations": {
+    "fa": "کورک جنوب ایرلنده. قشنگ. البته بارونی. و آره — تام یک‌چهارم ایرلندیه. شوخی‌هاش را از همون‌جا آورده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "irish",
+      "tom's",
+      "jokes",
+      "ha"
+     ],
+     "suggestion": "Ha! Irish jokes or Tom's jokes?",
+     "suggestionFa": "ها! شوخی‌های ایرلندی یا شوخی‌های تام؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "celebrate",
+      "london",
+      "people"
+     ],
+     "suggestion": "Do people celebrate it in London too?",
+     "suggestionFa": "تو لندن هم جشنش می‌گیرن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "south",
+     "fa": "جنوب"
+    },
+    {
+     "word": "rainy",
+     "fa": "بارانی"
+    },
+    {
+     "word": "mind",
+     "fa": "البته"
+    },
+    {
+     "word": "gets from",
+     "fa": "از … به ارث برده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Oh, London loves it! There's a big parade in Trafalgar Square, with bands and dancing. My mum took me every year.",
+   "translations": {
+    "fa": "اوه، لندن عاشقشه! یه رژهٔ بزرگ تو میدون ترافالگار هست، با گروه موسیقی و رقص. مامانم هر سال منو می‌برد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parade",
+      "shall",
+      "we",
+      "go"
+     ],
+     "suggestion": "Shall we go to the parade?",
+     "suggestionFa": "بریم رژه را ببینیم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maggie",
+      "dance",
+      "did"
+     ],
+     "suggestion": "Did you dance too, Maggie?",
+     "suggestionFa": "تو هم می‌رقصیدی مگی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "parade",
+     "fa": "رژه"
+    },
+    {
+     "word": "bands",
+     "fa": "گروه‌های موسیقی"
+    },
+    {
+     "word": "dancing",
+     "fa": "رقص"
+    },
+    {
+     "word": "every year",
+     "fa": "هر سال"
+    }
+   ],
+   "cultureNote": {
+    "en": "London's St Patrick's Day parade goes through central London to Trafalgar Square, usually on the Sunday nearest 17 March.",
+    "fa": "رژهٔ روز سنت پاتریک لندن معمولاً یکشنبهٔ نزدیک ۱۷ مارس در مرکز لندن تا میدان ترافالگار برگزار می‌شود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Irish dancing, yes! Arms down, feet very fast. I was quite good! Now my knees say no. But we'll go and watch.",
+   "translations": {
+    "fa": "رقص ایرلندی، آره! دست‌ها پایین، پاها خیلی سریع. خیلی خوب بودم! الان زانوهام میگن نه. ولی میریم تماشا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dancing",
+      "irish",
+      "love",
+      "i'd"
+     ],
+     "suggestion": "I'd love to see Irish dancing.",
+     "suggestionFa": "دوست دارم رقص ایرلندی ببینم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "green",
+      "have",
+      "wear"
+     ],
+     "suggestion": "Do I have to wear green too?",
+     "suggestionFa": "منم باید سبز بپوشم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Irish dancing",
+     "fa": "رقص ایرلندی"
+    },
+    {
+     "word": "arms down",
+     "fa": "دست‌ها پایین"
+    },
+    {
+     "word": "knees",
+     "fa": "زانوها"
+    },
+    {
+     "word": "watch",
+     "fa": "تماشا کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "You have to wear green, love! It's the rule. George has a green hat with a shamrock. He'll lend it to you.",
+   "translations": {
+    "fa": "باید سبز بپوشی عزیزم! قانونشه. جرج یه کلاه سبز با شبدر داره. بهت قرضش میده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shamrock",
+      "what's"
+     ],
+     "suggestion": "A shamrock? What's that?",
+     "suggestionFa": "شبدر؟ اون چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "jumper",
+      "green",
+      "i've",
+      "will"
+     ],
+     "suggestion": "I've got a green jumper. Will that do?",
+     "suggestionFa": "یه پلیور سبز دارم. کافیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rule",
+     "fa": "قانون"
+    },
+    {
+     "word": "shamrock",
+     "fa": "شبدر سه‌برگ"
+    },
+    {
+     "word": "lend",
+     "fa": "قرض دادن"
+    },
+    {
+     "word": "jumper",
+     "fa": "پلیور"
+    },
+    {
+     "word": "will that do?",
+     "fa": "کافی است؟"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "A shamrock's a little three-leaf clover. The symbol of Ireland. And a green jumper will do nicely. Lovely!",
+   "translations": {
+    "fa": "شبدر یه گیاه کوچیک سه‌برگه. نماد ایرلند. و یه پلیور سبز کاملاً کافیه. عالی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "green",
+      "great",
+      "then"
+     ],
+     "suggestion": "Great. Sunday, then — all in green!",
+     "suggestionFa": "عالیه. پس یکشنبه — همه سبزپوش!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "irish",
+      "there",
+      "food",
+      "will"
+     ],
+     "suggestion": "Will there be Irish food too?",
+     "suggestionFa": "غذای ایرلندی هم هست؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "three-leaf clover",
+     "fa": "شبدر سه‌برگ"
+    },
+    {
+     "word": "symbol",
+     "fa": "نماد"
+    },
+    {
+     "word": "nicely",
+     "fa": "به‌خوبی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Soda bread and Irish stew — I'll make both for tea. My mother's recipe. Now, where did George put that hat? GEORGE!",
+   "translations": {
+    "fa": "نون سودا و خوراک ایرلندی — هر دو را برای شام درست می‌کنم. دستور مادرم. حالا، جرج اون کلاه را کجا گذاشت؟ جرج!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

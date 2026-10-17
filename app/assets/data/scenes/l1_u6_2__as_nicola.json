@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dressing",
-      "let's",
       "dress",
-      "pink",
-      "i've"
+      "let's",
+      "i've",
+      "play"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
      "suggestionFa": "بیا لباس‌بازی کنیم! من یه پیرهن صورتی دارم. تو چی داری؟",
@@ -50,7 +50,7 @@
       "hasn't",
       "let's",
       "give",
-      "has"
+      "got"
      ],
      "suggestion": "Has Mr Buttons got a hat? No, he hasn't! Let's give him a hat.",
      "suggestionFa": "آقای دکمه کلاه داره؟ نه، نداره! بیا بهش یه کلاه بدیم.",
@@ -75,7 +75,7 @@
       "purple",
       "shoes",
       "spots",
-      "have"
+      "mine"
      ],
      "suggestion": "Now shoes! Have you got wellies? Mine are purple with spots!",
      "suggestionFa": "حالا کفش! چکمهٔ لاستیکی داری؟ مال من بنفشه با خال‌خال!",
@@ -98,9 +98,9 @@
      "keywords": [
       "daddy's",
       "jumper",
-      "brown",
       "soooo",
-      "put"
+      "brown",
+      "got"
      ],
      "suggestion": "Daddy's got a big brown jumper. It's soooo big! Put it on!",
      "suggestionFa": "بابا یه ژاکت قهوه‌ای بزرگ داره. خیلی بزرگه! بپوشش!",
@@ -123,9 +123,9 @@
      "keywords": [
       "trousers",
       "orange",
+      "look",
       "like",
-      "bear",
-      "ones"
+      "bear"
      ],
      "suggestion": "Yes! You look like a bear! Now trousers. The orange ones!",
      "suggestionFa": "آره! شبیه خرس شدی! حالا شلوار. نارنجیه را!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "photo",
-      "smile",
       "mummy",
-      "take",
-      "look"
+      "smile",
+      "look",
+      "take"
      ],
      "suggestion": "Ha ha! Mummy, look! Take a photo! Smile!",
      "suggestionFa": "ها ها! مامان، ببین! عکس بگیر! لبخند بزن!",

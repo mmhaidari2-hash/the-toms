@@ -48,9 +48,9 @@
      "keywords": [
       "mushrooms",
       "they're",
+      "tried",
       "slugs",
-      "slimy",
-      "tried"
+      "slimy"
      ],
      "suggestion": "I tried them once. They're slimy. Like slugs! Do you like mushrooms?",
      "suggestionFa": "یه بار امتحان کردم. لزجن. مثل حلزون بی‌صدف! تو قارچ دوست داری؟",
@@ -74,8 +74,8 @@
       "don't",
       "then",
       "like",
-      "here",
-      "have"
+      "mine",
+      "here"
      ],
      "suggestion": "Then you can have mine! Here! What don't you like?",
      "suggestionFa": "پس مال منو بخور! بیا! تو چی دوست نداری؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "doesn't",
-      "sprouts",
       "they're",
+      "sprouts",
+      "doesn't",
       "olives",
-      "daddy"
+      "likes"
      ],
      "suggestion": "Olives! They're yucky too! Mummy likes olives. And Daddy doesn't like sprouts.",
      "suggestionFa": "زیتون! اونم بده! مامان زیتون دوست داره. و بابا کلم بروکسل دوست نداره.",
@@ -125,7 +125,7 @@
       "little",
       "balls",
       "socks",
-      "green"
+      "smell"
      ],
      "suggestion": "Little green balls. Like tiny cabbages. They smell like socks!",
      "suggestionFa": "توپ‌های کوچیک سبز. مثل کلم‌های کوچولو. بوی جوراب میدن!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

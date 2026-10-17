@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "choose",
       "winter",
+      "choose",
       "small",
-      "coat",
-      "says"
+      "help",
+      "coat"
      ],
      "suggestion": "Mum says I need a new winter coat. My old one is too small. Can you help me choose?",
      "suggestionFa": "مامان می‌گه یه کت زمستونی جدید لازم دارم. قدیمیه خیلی کوچیکه. کمکم می‌کنی انتخاب کنم؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "something",
       "anorak",
-      "about",
+      "black",
       "dad's",
-      "black"
+      "about"
      ],
      "suggestion": "Something warm. And cool! Not like Dad's anorak. What about this black one?",
      "suggestionFa": "یه چیز گرم. و باحال! نه مثل بادگیر بابا. این مشکیه چطوره؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -232,9 +232,9 @@
      "keywords": [
       "growing",
       "sleeves",
-      "says",
+      "long",
       "much",
-      "long"
+      "says"
      ],
      "suggestion": "The sleeves are long, but Mum says I'm growing. How much is it?",
      "suggestionFa": "آستین‌ها بلنده، ولی مامان می‌گه دارم بزرگ میشم. قیمتش چنده؟",
@@ -255,8 +255,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -317,9 +317,9 @@
     {
      "keywords": [
       "pounds",
-      "forty",
       "eight",
-      "left",
+      "forty",
+      "i've",
       "gave"
      ],
      "suggestion": "Mum gave me forty quid. So I've got eight pounds left. Can I buy a hat too?",
@@ -343,8 +343,8 @@
      "keywords": [
       "receipt",
       "helping",
-      "you've",
       "thanks",
+      "you've",
       "taste"
      ],
      "suggestion": "I'll text her. She says yes — but give her the receipt! Thanks for helping, mate. You've got good taste.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "barcode",
       "where's",
+      "barcode",
       "apples",
       "these"
      ],
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "never",
       "first",
-      "used",
-      "show"
+      "never",
+      "show",
+      "i've"
      ],
      "suggestion": "I've never used one. Show me first?",
      "suggestionFa": "تا حالا ازش استفاده نکردم. اول نشونم میدی؟",
@@ -75,7 +75,7 @@
      "keywords": [
       "apples",
       "fruit",
-      "item",
+      "look",
       "done"
      ],
      "suggestion": "Look up item… fruit… apples. Done!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "machine",
-      "weighs",
       "clever",
+      "weighs",
       "them"
      ],
      "suggestion": "It weighs them? Clever machine.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "stopped",
-      "light",
       "green",
+      "light",
       "has"
      ],
      "suggestion": "Yes, it has stopped. The light is green.",
@@ -303,8 +303,8 @@
      "keywords": [
       "scanned",
       "apples",
-      "twice",
-      "thank"
+      "thank",
+      "twice"
      ],
      "suggestion": "Thank you! I've scanned the apples twice, I think.",
      "suggestionFa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "card",
-      "tap",
-      "put"
+      "put",
+      "tap"
      ],
      "suggestion": "Card. Do I put it in or tap?",
      "suggestionFa": "کارت. واردش کنم یا بزنمش؟",

@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -114,8 +114,8 @@
      "keywords": [
       "fifteen",
       "unicorn",
-      "pounds",
       "sweets",
+      "pounds",
       "today"
      ],
      "suggestion": "A big unicorn from the toy shop! It's fifteen pounds. And sweets. Today!",
@@ -158,8 +158,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -190,10 +190,10 @@
     {
      "keywords": [
       "forever",
-      "sweets",
       "that's",
-      "eight",
-      "weeks"
+      "sweets",
+      "weeks",
+      "eight"
      ],
      "suggestion": "Eight weeks?! That's forever! I need sweets now!",
      "suggestionFa": "هشت هفته؟! این یعنی یه عمر! الان آبنبات لازم دارم!",
@@ -266,9 +266,9 @@
    "branches": [
     {
      "keywords": [
+      "weeks",
       "extra",
       "money",
-      "weeks",
       "jobs",
       "help"
      ],

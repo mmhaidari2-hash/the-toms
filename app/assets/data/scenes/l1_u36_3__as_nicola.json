@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -104,9 +104,9 @@
     {
      "keywords": [
       "under",
-      "ball",
       "goal",
       "bush",
+      "ball",
       "shed"
      ],
      "suggestion": "Your goal is the shed! The ball is under the bush. Can you get it?",
@@ -130,8 +130,8 @@
      "keywords": [
       "pass",
       "kick",
-      "mia",
-      "off"
+      "off",
+      "mia"
      ],
      "suggestion": "Kick off! Mia, pass to me! Pass! Pass!",
      "suggestionFa": "شروع! میا، پاس بده به من! پاس! پاس!",
@@ -214,8 +214,8 @@
       "score",
       "turn",
       "kick",
-      "now",
-      "can"
+      "can",
+      "now"
      ],
      "suggestion": "Now it's your turn to kick. Can you score?",
      "suggestionFa": "حالا نوبت توئه شوت بزنی. می‌تونی گل بزنی؟",
@@ -236,8 +236,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -289,10 +289,10 @@
    "branches": [
     {
      "keywords": [
-      "kicked",
       "please",
+      "kicked",
       "sorry",
-      "khan",
+      "back",
       "ball"
      ],
      "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",

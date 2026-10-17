@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "quiet",
       "slept",
+      "quiet",
       "well",
       "sea"
      ],
@@ -140,10 +140,10 @@
    "branches": [
     {
      "keywords": [
-      "without",
       "sausage",
-      "bacon",
-      "could"
+      "without",
+      "could",
+      "bacon"
      ],
      "suggestion": "Could I have it without the bacon and sausage?",
      "suggestionFa": "میشه بدون بیکن و سوسیس داشته باشم؟",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "mushrooms",
-      "veggie",
       "please",
+      "veggie",
       "extra"
      ],
      "suggestion": "The veggie one, please. With extra mushrooms.",
@@ -341,8 +341,8 @@
      "keywords": [
       "nicola",
       "that's",
-      "deal",
-      "good"
+      "good",
+      "deal"
      ],
      "suggestion": "That's a good deal, Nicola.",
      "suggestionFa": "معاملهٔ خوبیه نیکولا.",
@@ -352,8 +352,8 @@
     },
     {
      "keywords": [
-      "sophie",
       "please",
+      "sophie",
       "there",
       "more"
      ],
@@ -395,7 +395,7 @@
      "keywords": [
       "english",
       "hate",
-      "he'd",
+      "wake",
       "full"
      ],
      "suggestion": "I'll wake him up! He'd hate to miss a full English.",
@@ -407,9 +407,9 @@
     {
      "keywords": [
       "forty",
-      "call",
       "five",
-      "nine"
+      "nine",
+      "call"
      ],
      "suggestion": "It's nine forty-five! I'll call him.",
      "suggestionFa": "ساعت نه و چهل و پنجه! بهش زنگ می‌زنم.",

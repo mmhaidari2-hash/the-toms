@@ -155,8 +155,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
-      "take"
+      "take",
+      "time"
      ],
      "suggestion": "Take your time.",
      "suggestionFa": "عجله نکن.",
@@ -284,8 +284,8 @@
      "keywords": [
       "hands",
       "then",
-      "use",
-      "two"
+      "two",
+      "use"
      ],
      "suggestion": "Use two hands, then.",
      "suggestionFa": "پس با دو تا دست.",
@@ -296,8 +296,8 @@
     {
      "keywords": [
       "drinks",
-      "cakes",
       "carry",
+      "cakes",
       "i'll"
      ],
      "suggestion": "I'll carry the drinks. You carry the cakes.",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
-      "swap"
+      "swap",
+      "time"
      ],
      "suggestion": "Is it time to swap?",
      "suggestionFa": "وقت عوض کردنه؟",
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
+      "can",
       "bit",
-      "try",
-      "can"
+      "try"
      ],
      "suggestion": "Can I try a bit?",
      "suggestionFa": "می‌تونم یه کم امتحان کنم؟",

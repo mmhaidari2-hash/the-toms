@@ -24,8 +24,8 @@
       "playdate",
       "nicola's",
       "begging",
-      "always",
-      "formal"
+      "formal",
+      "always"
      ],
      "suggestion": "Nicola's begging for a playdate with Mia. Can you help me text Mia's mum, Jo? I always sound too formal. \"Dear Jo…\"",
      "suggestionFa": "نیکولا برای قرار بازی با میا التماس می‌کنه. کمکم می‌کنی به مامان میا، جو، پیام بدم؟ همیشه زیادی رسمی می‌نویسم. «جو عزیز…»",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,8 +130,8 @@
      "keywords": [
       "excited",
       "already",
-      "typing",
       "please",
+      "typing",
       "shall"
      ],
      "suggestion": "\"Two till five?\" Sent. Oh — she's typing already. \"Yes please!! Mia's so excited. Shall I drop her off at two?\"",
@@ -156,8 +156,8 @@
       "allergies",
       "thinking",
       "fingers",
-      "noted",
-      "hates"
+      "hates",
+      "noted"
      ],
      "suggestion": "Good thinking. \"Does Mia have any allergies? I'll do fish fingers for tea.\" … \"No allergies! But she hates peas.\" Noted!",
      "suggestionFa": "فکر خوبیه. «میا حساسیت داره؟ برای شام فیش فینگر درست می‌کنم.» … «حساسیت نداره! ولی از نخودفرنگی متنفره.» یادداشت شد!",
@@ -262,8 +262,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

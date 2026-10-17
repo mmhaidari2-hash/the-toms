@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -106,7 +106,7 @@
       "contract",
       "signed",
       "moved",
-      "room",
+      "next",
       "when"
      ],
      "suggestion": "It's the contract for your room. You signed it when you moved in next door.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -365,10 +365,10 @@
     {
      "keywords": [
       "pressure",
+      "doctor",
       "weight",
       "height",
-      "doctor",
-      "quick"
+      "nurse"
      ],
      "suggestion": "It's a quick chat with a nurse or doctor. Blood pressure, height, weight. Easy!",
      "suggestionFa": "یه گپ کوتاه با پرستار یا دکتره. فشار خون، قد، وزن. آسونه!",

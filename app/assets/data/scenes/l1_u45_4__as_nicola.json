@@ -22,9 +22,9 @@
     {
      "keywords": [
       "watch",
+      "look",
       "skip",
       "rope",
-      "look",
       "can"
      ],
      "suggestion": "Look what I can do! I can skip! With a rope! Watch me!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "three",
+      "skip",
       "four",
       "oops",
-      "skip",
-      "two"
+      "one"
      ],
      "suggestion": "One, two, three, four… oops! Four! I can do four. Can you skip?",
      "suggestionFa": "یک، دو، سه، چهار… اوپس! چهار! چهار تا بلدم. تو طناب‌بازی بلدی؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "everybody",
       "under",
-      "here",
-      "when",
-      "feet"
+      "feet",
+      "skip",
+      "here"
      ],
      "suggestion": "Everybody can skip! Here. Jump when the rope goes under your feet!",
      "suggestionFa": "همه بلدن! بیا. وقتی طناب از زیر پات رد شد بپر!",
@@ -172,8 +172,8 @@
      "keywords": [
       "cartwheels",
       "can't",
-      "knit",
       "nana",
+      "knit",
       "but"
      ],
      "suggestion": "You're not old! Nana is old. She can't do cartwheels, but she can knit!",
@@ -199,7 +199,7 @@
       "nana's",
       "scarf",
       "small",
-      "week"
+      "show"
      ],
      "suggestion": "Not yet! Nana's teaching me. Next week I can show you a scarf. A very, very small scarf!",
      "suggestionFa": "هنوز نه! نانا داره یادم میده. هفتهٔ بعد بهت یه شال‌گردن نشون میدم. یه شال‌گردن خیلی خیلی کوچیک!",

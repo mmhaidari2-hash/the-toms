@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "park",
-      "went"
+      "went",
+      "park"
      ],
      "suggestion": "We went to the park.",
      "suggestionFa": "رفتیم پارک.",
@@ -187,8 +187,8 @@
     },
     {
      "keywords": [
-      "jumped",
       "puddle",
+      "jumped",
       "every"
      ],
      "suggestion": "She jumped in every puddle!",
@@ -261,9 +261,9 @@
    "branches": [
     {
      "keywords": [
-      "was",
       "how",
-      "day"
+      "day",
+      "was"
      ],
      "suggestion": "Yes, how was your day?",
      "suggestionFa": "آره، روزت چطور بود؟",
@@ -275,8 +275,8 @@
      "keywords": [
       "today",
       "work",
-      "tom",
-      "did"
+      "did",
+      "tom"
      ],
      "suggestion": "Did you work today, Tom?",
      "suggestionFa": "امروز کار کردی تام؟",
@@ -320,8 +320,8 @@
      "keywords": [
       "perfect",
       "after",
-      "walk",
-      "long"
+      "long",
+      "walk"
      ],
      "suggestion": "Perfect after a long walk!",
      "suggestionFa": "بعد از یه پیاده‌روی طولانی عالیه!",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "sure",
-      "pay",
-      "how"
+      "how",
+      "pay"
      ],
      "suggestion": "Sure. How do I pay you?",
      "suggestionFa": "حتماً. چطوری بهت پرداخت کنم؟",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "set",
       "how",
+      "set",
       "up"
      ],
      "suggestion": "How do I set it up?",
@@ -183,7 +183,7 @@
       "account",
       "seventy",
       "twenty",
-      "forty"
+      "three"
      ],
      "suggestion": "Twenty, forty-five, seventy-seven. Account four one three six…",
      "suggestionFa": "بیست، چهل و پنج، هفتاد و هفت. حساب چهار یک سه شش…",
@@ -307,8 +307,8 @@
     },
     {
      "keywords": [
-      "twenty",
       "eighth",
+      "twenty",
       "paid",
       "get"
      ],

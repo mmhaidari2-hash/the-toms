@@ -25,7 +25,7 @@
       "school",
       "hello",
       "love",
-      "was"
+      "how"
      ],
      "suggestion": "Hello, love. How was school? Any homework?",
      "suggestionFa": "سلام عزیزم. مدرسه چطور بود؟ تکلیف داری؟",
@@ -49,8 +49,8 @@
       "homework",
       "first",
       "then",
-      "fifa",
-      "deal"
+      "deal",
+      "fifa"
      ],
      "suggestion": "Homework first, then FIFA. Deal?",
      "suggestionFa": "اول تکلیف، بعد فیفا. قبول؟",
@@ -99,8 +99,8 @@
       "shepherd's",
       "apple",
       "have",
-      "six",
-      "now"
+      "pie",
+      "six"
      ],
      "suggestion": "Shepherd's pie at six. Have an apple for now.",
      "suggestionFa": "پای چوپان ساعت شش. فعلاً یه سیب بخور.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "project",
       "history",
+      "project",
       "crisps",
       "after",
       "hand"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "enough",
-      "isn't",
       "shoes",
-      "take",
-      "good"
+      "isn't",
+      "good",
+      "sofa"
      ],
      "suggestion": "\"Ish\" isn't good enough. And take your shoes off the sofa!",
      "suggestionFa": "«تقریباً» کافی نیست. و کفش‌هات را از رو مبل بردار!",
@@ -198,9 +198,9 @@
      "keywords": [
       "never",
       "give",
-      "mum",
-      "now",
-      "old"
+      "off",
+      "old",
+      "hug"
      ],
      "suggestion": "Off! Now, give your mum a hug. You're never too old.",
      "suggestionFa": "بردار! حالا، مامانت را بغل کن. هیچ‌وقت برای این کار پیر نیستی.",

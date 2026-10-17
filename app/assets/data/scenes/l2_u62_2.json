@@ -1,0 +1,396 @@
+{
+ "id": "l2_u62_2",
+ "characterId": "tom",
+ "title": "Reading levels",
+ "titleFa": "سطح خواندن",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "{you}, quick question. The reading book. Nicola's on \"yellow\" now. What does yellow mean? Is that good? I only know bus colours!",
+   "translations": {
+    "fa": "{you}، یه سؤال سریع. کتاب خوندن. نیکولا الان رو «زرد»ه. زرد یعنی چی؟ خوبه؟ من فقط رنگ اتوبوس‌ها را بلدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reading",
+      "colours",
+      "levels",
+      "think"
+     ],
+     "suggestion": "I think the colours are reading levels.",
+     "suggestionFa": "فکر کنم رنگ‌ها سطح خوندنن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "she's",
+      "ellis",
+      "there",
+      "miss"
+     ],
+     "suggestion": "Ask Miss Ellis. She's over there.",
+     "suggestionFa": "از خانم الیس بپرس. اونجاست.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reading book",
+     "fa": "کتاب خواندن"
+    },
+    {
+     "word": "yellow",
+     "fa": "زرد"
+    },
+    {
+     "word": "bus colours",
+     "fa": "رنگ اتوبوس‌ها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what colour book she is on",
+      "which colour she read"
+     ],
+     "echo": "What colour book is she on? Yellow!",
+     "better": "What colour book is she on?",
+     "betterFa": "کتاب کدام رنگ را می‌خواند؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Right, levels! Pink, then red, then yellow. So she's moved up two levels this year. Yellow's for good readers!",
+   "translations": {
+    "fa": "آهان، سطح! صورتی، بعد قرمز، بعد زرد. پس امسال دو سطح بالا رفته. زرد برای خواننده‌های خوبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "levels",
+      "nicola",
+      "well",
+      "done"
+     ],
+     "suggestion": "Two levels! Well done, Nicola!",
+     "suggestionFa": "دو سطح! آفرین نیکولا!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "level",
+      "first",
+      "pink"
+     ],
+     "suggestion": "So pink is the first level?",
+     "suggestionFa": "پس صورتی سطح اوله؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "levels",
+     "fa": "سطح‌ها"
+    },
+    {
+     "word": "pink",
+     "fa": "صورتی"
+    },
+    {
+     "word": "moved up",
+     "fa": "بالا رفته"
+    },
+    {
+     "word": "readers",
+     "fa": "خواننده‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many English primary schools use \"book bands\": coloured levels (lilac, pink, red, yellow, blue, green…) so children read books that match their level.",
+    "fa": "بسیاری از دبستان‌های انگلستان از «نوار کتاب» استفاده می‌کنند: سطح‌های رنگی تا هر بچه کتاب مناسب سطحش را بخواند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Daddy, I can read \"the\" and \"said\" now! They're tricky words. You can't sound them out.",
+   "translations": {
+    "fa": "بابایی، الان می‌تونم «د» و «سِد» را بخونم! کلمه‌های سختن. نمی‌شه صداهاشون را جدا خوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "tricky",
+      "words",
+      "show"
+     ],
+     "suggestion": "Tricky words? Show me, Nicola!",
+     "suggestionFa": "کلمه‌های سخت؟ نشونم بده نیکولا!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sound",
+      "mean",
+      "out"
+     ],
+     "suggestion": "What does \"sound it out\" mean?",
+     "suggestionFa": "«صداها را جدا خوندن» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tricky words",
+     "fa": "کلمه‌های سخت (بی‌قاعده)"
+    },
+    {
+     "word": "sound out",
+     "fa": "صداها را جدا خواندن"
+    },
+    {
+     "word": "said",
+     "fa": "گفت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Phonics! She says each sound — \"c-a-t\", cat. But \"said\" isn't \"s-a-i-d\". English is weird. Even I know that.",
+   "translations": {
+    "fa": "فونیکس! هر صدا را میگه — «ک-ا-ت»، کت. ولی «سِد» «س-ا-ی-د» نیست. انگلیسی عجیبه. اینو حتی منم می‌دونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spelling",
+      "strange",
+      "english"
+     ],
+     "suggestion": "English spelling is very strange!",
+     "suggestionFa": "املای انگلیسی خیلی عجیبه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "sounds",
+      "simply",
+      "write"
+     ],
+     "suggestion": "In Persian we write sounds more simply.",
+     "suggestionFa": "تو فارسی صداها را ساده‌تر می‌نویسیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phonics",
+     "fa": "آواشناسی خواندن (فونیکس)"
+    },
+    {
+     "word": "each sound",
+     "fa": "هر صدا"
+    },
+    {
+     "word": "weird",
+     "fa": "عجیب"
+    },
+    {
+     "word": "spelling",
+     "fa": "املا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Phonics is how children in England learn to read: they learn the sounds of letters and blend them into words. \"Tricky words\" don't follow the rules.",
+    "fa": "فونیکس روش یادگیری خواندن در انگلستان است: صدای حروف را یاد می‌گیرند و ترکیب می‌کنند؛ «کلمه‌های سخت» از قاعده پیروی نمی‌کنند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Miss Ellis says read every night. Ten minutes. And Daddy has to sign the reading record!",
+   "translations": {
+    "fa": "خانم الیس میگه هر شب بخونید. ده دقیقه. و بابایی باید دفتر خوندن را امضا کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "night",
+      "every"
+     ],
+     "suggestion": "Ten minutes every night. That's easy!",
+     "suggestionFa": "هر شب ده دقیقه. آسونه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reading",
+      "what's",
+      "record"
+     ],
+     "suggestion": "What's a reading record?",
+     "suggestionFa": "دفتر خوندن چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "every night",
+     "fa": "هر شب"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "reading record",
+     "fa": "دفتر ثبت مطالعه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "It's a little book. We write what she read, and one comment. Last week I wrote \"Brilliant!\" every night. Too lazy?",
+   "translations": {
+    "fa": "یه دفترچهٔ کوچیکه. می‌نویسیم چی خونده، و یه نظر. هفتهٔ پیش هر شب نوشتم «عالی!». زیادی تنبلیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "something",
+      "night",
+      "maybe"
+     ],
+     "suggestion": "Maybe write something different each night!",
+     "suggestionFa": "شاید هر شب یه چیز متفاوت بنویس!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difficult",
+      "found",
+      "she",
+      "ha"
+     ],
+     "suggestion": "Ha! Write what she found difficult.",
+     "suggestionFa": "ها! بنویس چی براش سخت بود.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comment",
+     "fa": "نظر ؛ توضیح"
+    },
+    {
+     "word": "lazy",
+     "fa": "تنبل"
+    },
+    {
+     "word": "difficult",
+     "fa": "سخت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Good idea. Tonight: \"Nicola read 'said' all by herself. Dad nearly cried.\" True, that. Right — bedtime story, then sign!",
+   "translations": {
+    "fa": "فکر خوبیه. امشب: «نیکولا خودش تنهایی «سِد» را خوند. بابا نزدیک بود گریه کنه.» راستش همینه. خب — قصهٔ شب، بعد امضا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "listen",
+      "read",
+      "her"
+     ],
+     "suggestion": "Can I listen to her read tonight?",
+     "suggestionFa": "می‌تونم امشب گوش بدم بخونه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "she'll",
+      "level",
+      "blue"
+     ],
+     "suggestion": "Lovely. She'll be blue level soon!",
+     "suggestionFa": "قشنگه. به‌زودی سطح آبی میشه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "all by herself",
+     "fa": "کاملاً خودش"
+    },
+    {
+     "word": "nearly",
+     "fa": "نزدیک بود"
+    },
+    {
+     "word": "bedtime story",
+     "fa": "قصهٔ شب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Yes! {you} can listen. I'll read \"The Big Bus\". It's got a red bus in it!",
+   "translations": {
+    "fa": "آره! {you} می‌تونه گوش بده. «اتوبوس بزرگ» را می‌خونم. یه اتوبوس قرمز توشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

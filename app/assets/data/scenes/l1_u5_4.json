@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "half",
       "five",
       "past",
-      "half",
       "why"
      ],
      "suggestion": "Half past five! Why so early?",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "sometimes",
-      "telly",
-      "watch"
+      "watch",
+      "telly"
      ],
      "suggestion": "Sometimes I watch telly.",
      "suggestionFa": "گاهی تلویزیون می‌بینم.",
@@ -279,8 +279,8 @@
     },
     {
      "keywords": [
-      "time",
       "have",
+      "time",
       "tea"
      ],
      "suggestion": "What time do you have tea?",

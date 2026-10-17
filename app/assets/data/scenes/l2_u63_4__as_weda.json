@@ -1,0 +1,225 @@
+{
+ "id": "l2_u63_4__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Maggie) St Patrick's Day",
+ "titleFa": "(در نقش Nana Maggie) روز سنت پاتریک",
+ "setting": "Celebrations · Level 2",
+ "settingFa": "جشن‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u63_4",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Maggie!",
+   "translations": {
+    "fa": "سلام Nana Maggie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seventeenth",
+      "patrick's",
+      "morning",
+      "march",
+      "green"
+     ],
+     "suggestion": "Morning, love! Look at me — green from head to toe. It's the seventeenth of March. St Patrick's Day!",
+     "suggestionFa": "صبح بخیر عزیزم! منو ببین — از سر تا پا سبز. هفدهم مارسه. روز سنت پاتریک!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "You look great, Maggie! Very green!",
+   "translations": {
+    "fa": "عالی شدی مگی! خیلی سبز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patrick",
+      "ireland",
+      "mother",
+      "patron",
+      "saint"
+     ],
+     "suggestion": "Irish, yes. St Patrick is the patron saint of Ireland. And my mother was from Cork. So I'm half Irish, love!",
+     "suggestionFa": "ایرلندی، آره. سنت پاتریک قدیس حامی ایرلنده. و مادرم اهل کورک بود. پس من نیمه‌ایرلندی‌ام عزیزم!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I didn't know that! Where's Cork?",
+   "translations": {
+    "fa": "نمی‌دونستم! کورک کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "quarter",
+      "ireland",
+      "that's",
+      "cork's"
+     ],
+     "suggestion": "Cork's in the south of Ireland. Beautiful. Rainy, mind. And yes — Tom's a quarter Irish. That's where he gets his jokes from!",
+     "suggestionFa": "کورک جنوب ایرلنده. قشنگ. البته بارونی. و آره — تام یک‌چهارم ایرلندیه. شوخی‌هاش را از همون‌جا آورده!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Ha! Irish jokes or Tom's jokes?",
+   "translations": {
+    "fa": "ها! شوخی‌های ایرلندی یا شوخی‌های تام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "trafalgar",
+      "dancing",
+      "there's",
+      "square",
+      "parade"
+     ],
+     "suggestion": "Oh, London loves it! There's a big parade in Trafalgar Square, with bands and dancing. My mum took me every year.",
+     "suggestionFa": "اوه، لندن عاشقشه! یه رژهٔ بزرگ تو میدون ترافالگار هست، با گروه موسیقی و رقص. مامانم هر سال منو می‌برد.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Shall we go to the parade?",
+   "translations": {
+    "fa": "بریم رژه را ببینیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dancing",
+      "knees",
+      "quite",
+      "we'll",
+      "watch"
+     ],
+     "suggestion": "Irish dancing, yes! Arms down, feet very fast. I was quite good! Now my knees say no. But we'll go and watch.",
+     "suggestionFa": "رقص ایرلندی، آره! دست‌ها پایین، پاها خیلی سریع. خیلی خوب بودم! الان زانوهام میگن نه. ولی میریم تماشا.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I'd love to see Irish dancing.",
+   "translations": {
+    "fa": "دوست دارم رقص ایرلندی ببینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shamrock",
+      "george",
+      "he'll",
+      "green",
+      "rule"
+     ],
+     "suggestion": "You have to wear green, love! It's the rule. George has a green hat with a shamrock. He'll lend it to you.",
+     "suggestionFa": "باید سبز بپوشی عزیزم! قانونشه. جرج یه کلاه سبز با شبدر داره. بهت قرضش میده.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "A shamrock? What's that?",
+   "translations": {
+    "fa": "شبدر؟ اون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shamrock's",
+      "ireland",
+      "clover",
+      "little",
+      "nicely"
+     ],
+     "suggestion": "A shamrock's a little three-leaf clover. The symbol of Ireland. And a green jumper will do nicely. Lovely!",
+     "suggestionFa": "شبدر یه گیاه کوچیک سه‌برگه. نماد ایرلند. و یه پلیور سبز کاملاً کافیه. عالی!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Great. Sunday, then — all in green!",
+   "translations": {
+    "fa": "عالیه. پس یکشنبه — همه سبزپوش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mother's",
+      "george",
+      "recipe",
+      "where",
+      "bread"
+     ],
+     "suggestion": "Soda bread and Irish stew — I'll make both for tea. My mother's recipe. Now, where did George put that hat? GEORGE!",
+     "suggestionFa": "نون سودا و خوراک ایرلندی — هر دو را برای شام درست می‌کنم. دستور مادرم. حالا، جرج اون کلاه را کجا گذاشت؟ جرج!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

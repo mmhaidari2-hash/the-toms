@@ -23,8 +23,8 @@
      "keywords": [
       "takeaway",
       "tonight",
-      "about",
       "tired",
+      "about",
       "cook"
      ],
      "suggestion": "I'm too tired to cook tonight. How about a takeaway?",
@@ -49,8 +49,8 @@
       "deserve",
       "that's",
       "indian",
-      "let's",
-      "night"
+      "sweet",
+      "let's"
      ],
      "suggestion": "That's sweet, but you deserve a night off too. Let's get Indian or fish and chips?",
      "suggestionFa": "لطف داری، ولی تو هم لیاقت یه شب استراحت را داری. هندی بگیریم یا فیش‌اند‌چیپس؟",
@@ -74,7 +74,7 @@
       "headphones",
       "choice",
       "again",
-      "ryan",
+      "good",
       "want"
      ],
      "suggestion": "Ooh, good choice. Ryan, what do you want? Ryan? He's got his headphones on again.",
@@ -98,9 +98,9 @@
      "keywords": [
       "quicker",
       "online",
-      "order",
       "shall",
-      "idea"
+      "order",
+      "good"
      ],
      "suggestion": "Ha! Good idea, it's quicker. Shall we order online or ring them?",
      "suggestionFa": "ها! فکر خوبیه، سریع‌تره. آنلاین سفارش بدیم یا زنگ بزنیم؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "mushy",
+      "small",
+      "brave",
       "large",
       "chips",
-      "small",
-      "brave"
+      "mushy"
      ],
      "suggestion": "Brave! Go on then. Ask for a large cod, two small chips, and mushy peas for Nana.",
      "suggestionFa": "شجاع! بفرما. یه ماهی کاد بزرگ، دوتا سیب‌زمینی کوچیک و نخود له‌شده برای نانا بخواه.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "mashed",
+      "while",
       "table",
       "loves",
-      "green",
       "don't"
      ],
      "suggestion": "Mashed green peas — Nana loves them. Why don't you lay the table while we wait?",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "straight",
-      "turning",
       "british",
+      "turning",
       "chippy",
       "proper"
      ],

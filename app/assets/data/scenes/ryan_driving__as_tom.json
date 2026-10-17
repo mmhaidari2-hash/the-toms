@@ -22,9 +22,9 @@
     {
      "keywords": [
       "provisional",
-      "mirrors",
-      "licence",
       "support",
+      "licence",
+      "mirrors",
       "ryan's"
      ],
      "suggestion": "Right, you're in the back seat as moral support. Ryan's got his provisional licence — tell him to check his mirrors.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "country",
-      "there",
       "round",
       "drive",
+      "there",
       "wants"
      ],
      "suggestion": "There he goes! Now, round the car park. Ryan wants to know — did you drive in your country?",
@@ -124,8 +124,8 @@
       "indicate",
       "parking",
       "lovely",
-      "spot",
-      "come"
+      "come",
+      "spot"
      ],
      "suggestion": "Spot on. He did it! Indicate left to come off. Lovely. Next up — parking.",
      "suggestionFa": "دقیقاً. انجامش داد! برای خروج راهنمای چپ بزن. عالی. بعدی — پارک کردن.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "enough",
       "spaces",
-      "think",
+      "enough",
       "close",
+      "think",
       "first"
      ],
      "suggestion": "He's… in two spaces. Close enough for a first go! What do you think?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "asking",
-      "true",
-      "take",
+      "test",
+      "he's",
       "when",
-      "he's"
+      "take"
      ],
      "suggestion": "Ha! True. He's asking when he can take his test.",
      "suggestionFa": "ها! درسته. داره می‌پرسه کی می‌تونه امتحان بده.",
@@ -199,8 +199,8 @@
       "driving",
       "exactly",
       "nerves",
-      "can't",
-      "right"
+      "seats",
+      "can't"
      ],
      "suggestion": "Exactly. Right, swap seats. I'm driving home — my nerves can't take any more.",
      "suggestionFa": "دقیقاً. خب، جا عوض کنیم. من می‌رونم خونه — اعصابم دیگه نمی‌کشه.",
@@ -223,8 +223,8 @@
      "keywords": [
       "driving",
       "where",
-      "time",
       "look",
+      "time",
       "boy"
      ],
      "suggestion": "Look at him — my boy, driving. Where did the time go, eh?",

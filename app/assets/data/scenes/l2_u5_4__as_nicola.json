@@ -45,11 +45,11 @@
    "branches": [
     {
      "keywords": [
-      "hamster",
       "brought",
+      "hamster",
       "called",
       "peanut",
-      "class"
+      "ellis"
      ],
      "suggestion": "No! First, Mrs Ellis brought a hamster to class. It's called Peanut!",
      "suggestionFa": "نه! اول، خانم الیس یه همستر آورد کلاس. اسمش پینات‌ـه!",
@@ -95,8 +95,8 @@
    "branches": [
     {
      "keywords": [
-      "grapes",
       "eating",
+      "grapes",
       "after",
       "lunch",
       "found"
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "because",
-      "ellis",
       "class",
-      "here",
-      "said"
+      "ellis",
+      "king",
+      "he's"
      ],
      "suggestion": "Because he's the king of the class! Here it is. Mrs Ellis said it was the best one.",
      "suggestionFa": "چون پادشاه کلاسه! ایناهاش. خانم الیس گفت بهترینه.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "tomorrow",
       "dinosaur",
+      "tomorrow",
       "peanut",
       "coming",
       "table"

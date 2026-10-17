@@ -12,6 +12,7 @@ import '../../core/models/dialogue_node.dart';
 import '../../core/models/place.dart';
 import '../../core/platform/voice.dart';
 import '../place/place_screen.dart' show hitTest;
+import '../motivation/motivation_widgets.dart';
 import '../shared/widgets.dart';
 
 sealed class Item {
@@ -114,6 +115,7 @@ class PracticeScreen extends ConsumerStatefulWidget {
 }
 
 class _PracticeState extends ConsumerState<PracticeScreen> {
+  XpAward? _award;
   List<Item>? _items;
   int _i = 0, _right = 0;
   bool? _ok;
@@ -153,8 +155,11 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   void _next() {
     if (_i + 1 >= _items!.length) {
       final pct = (_right * 100 / _items!.length).round();
-      ref.read(progressProvider.notifier).savePractice(widget.id, pct);
-      setState(() => _i++);
+      final award = ref.read(progressProvider.notifier).savePractice(widget.id, pct);
+      setState(() {
+        _award = award;
+        _i++;
+      });
       return;
     }
     setState(() {
@@ -408,37 +413,22 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   Widget _done(bool checkpoint) {
     final pct = (_right * 100 / _items!.length).round();
     final pass = pct >= (checkpoint ? 70 : 60);
-    return Center(
-      child: FadeSlideIn(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(pass ? Icons.emoji_events_rounded : Icons.auto_stories_rounded, size: 72, color: pass ? BL.gold : BL.navy),
-            const SizedBox(height: 12),
-            Text(pass ? (checkpoint ? 'Unit complete!' : 'Lovely work!') : 'Good effort!', style: BL.display(30)),
-            const SizedBox(height: 6),
-            Text('$_right of ${_items!.length} right  ·  $pct%', style: const TextStyle(fontSize: 16, color: BL.muted, fontWeight: FontWeight.w600)),
-            const SizedBox(height: 6),
-            Text(pass ? (checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${checkpoint ? 70 : 60}٪ برسی.', textDirection: TextDirection.rtl, style: BL.fa(14)),
-            const SizedBox(height: 26),
-            FilledButton(
-              onPressed: () => goBack(context, '/course'),
-              style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(horizontal: 38, vertical: 16)),
-              child: const Text('Continue', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
-            ),
-            if (!pass)
-              TextButton(
-                onPressed: () => setState(() {
-                  _i = 0;
-                  _right = 0;
-                  _ok = null;
-                  _built.clear();
-                }),
-                child: const Text('Try again'),
-              ),
-          ],
-        ),
-      ),
+    return Celebration(
+      award: _award ?? const XpAward(),
+      pass: pass,
+      checkpoint: checkpoint,
+      right: _right,
+      total: _items!.length,
+      onContinue: () => goBack(context, '/course'),
+      onRetry: pass
+          ? null
+          : () => setState(() {
+                _i = 0;
+                _right = 0;
+                _ok = null;
+                _award = null;
+                _built.clear();
+              }),
     );
   }
 }

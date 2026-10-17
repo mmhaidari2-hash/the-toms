@@ -20,8 +20,8 @@
     {
      "keywords": [
       "fruit",
-      "some",
-      "want"
+      "want",
+      "some"
      ],
      "suggestion": "Do you want some fruit?",
      "suggestionFa": "میوه می‌خوای؟",
@@ -179,8 +179,8 @@
     },
     {
      "keywords": [
-      "hold",
-      "want"
+      "want",
+      "hold"
      ],
      "suggestion": "Do you want to hold it?",
      "suggestionFa": "می‌خوای خودت بگیریش؟",
@@ -263,9 +263,9 @@
    "branches": [
     {
      "keywords": [
-      "gone",
       "done",
       "well",
+      "gone",
       "all"
      ],
      "suggestion": "All gone! Well done!",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "fast",
-      "was",
-      "wow"
+      "wow",
+      "was"
      ],
      "suggestion": "Wow, that was fast.",
      "suggestionFa": "وای، سریع بود.",
@@ -357,8 +357,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "manners",
+      "william",
       "good"
      ],
      "suggestion": "Good manners, William!",

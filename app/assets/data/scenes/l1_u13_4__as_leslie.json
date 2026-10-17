@@ -47,10 +47,10 @@
     {
      "keywords": [
       "that's",
-      "she's",
       "doris",
-      "old",
-      "say"
+      "she's",
+      "say",
+      "pig"
      ],
      "suggestion": "Yes! That's Doris the pig. She's very old. What does a pig say?",
      "suggestionFa": "آره! اون دوریس خوکه. خیلی پیره. خوک چی می‌گه؟",
@@ -74,8 +74,8 @@
       "sheep",
       "oink",
       "says",
-      "cow",
-      "moo"
+      "say",
+      "cow"
      ],
      "suggestion": "Oink! And a cow says \"moo\". What does a sheep say?",
      "suggestionFa": "خرخر! و گاو می‌گه «ما». گوسفند چی می‌گه؟",
@@ -100,7 +100,7 @@
       "william",
       "can't",
       "loves",
-      "well"
+      "look"
      ],
      "suggestion": "Well done! Look, William loves the chickens. Chickens can't fly very well.",
      "suggestionFa": "آفرین! ببین، ویلیام عاشق مرغ‌هاست. مرغ‌ها خوب نمی‌تونن پرواز کنن.",
@@ -149,7 +149,7 @@
       "everything",
       "watch",
       "don't",
-      "coat",
+      "bite",
       "they"
      ],
      "suggestion": "No, they don't bite. But they eat everything! Watch your coat!",
@@ -174,8 +174,8 @@
       "horses",
       "horse",
       "there",
-      "like",
-      "over"
+      "look",
+      "like"
      ],
      "suggestion": "Look over there! A horse. Do you like horses?",
      "suggestionFa": "اونجا را ببین! یه اسب. اسب دوست داری؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "always",
       "hands",
-      "farm",
       "must",
-      "wash"
+      "wash",
+      "farm"
      ],
      "suggestion": "Now we must wash our hands. Always wash your hands at a farm!",
      "suggestionFa": "حالا باید دستامون را بشوریم. تو مزرعه همیشه دستات را بشور!",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "goodbye",
+      "william",
       "doris",
       "first",
       "cream"

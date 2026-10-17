@@ -33,7 +33,7 @@
       "where's",
       "lunch",
       "sure",
-      "her"
+      "box"
      ],
      "suggestion": "Sure. Where's her lunch box?",
      "suggestionFa": "حتماً. ظرف ناهارش کجاست؟",
@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "there",
       "isn't",
+      "there",
       "any"
      ],
      "suggestion": "No, there isn't any bread.",
@@ -277,9 +277,9 @@
     {
      "keywords": [
       "bottle",
+      "has",
       "got",
-      "she",
-      "has"
+      "she"
      ],
      "suggestion": "Has she got a water bottle?",
      "suggestionFa": "بطری آب داره؟",
@@ -321,8 +321,8 @@
     {
      "keywords": [
       "done",
-      "l",
       "c",
+      "l",
       "o"
      ],
      "suggestion": "N-I-C-O-L-A. Done!",

@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "takes",
       "he'll",
       "split",
+      "takes",
       "ages",
       "want"
      ],
@@ -48,9 +48,9 @@
      "keywords": [
       "sponges",
       "bucket",
-      "water",
       "he'll",
-      "tight"
+      "tight",
+      "water"
      ],
      "suggestion": "Ha, he'll say no. Dad's tight. OK, I've got the bucket and the sponges. Can you fill the bucket with warm water? Add the soap.",
      "suggestionFa": "ها، میگه نه. بابا خسیسه. باشه، سطل و اسفنج‌ها را دارم. میشه سطل را با آب گرم پر کنی؟ صابون هم بریز.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "pavement",
-      "kitchen",
       "bubbles",
+      "kitchen",
       "squirt",
       "about"
      ],
@@ -100,7 +100,7 @@
       "they're",
       "windows",
       "wheels",
-      "start"
+      "sides"
      ],
      "suggestion": "Start at the top — roof first, then the windows, then the sides. Dirty water runs down. I'll do the wheels. They're disgusting.",
      "suggestionFa": "از بالا شروع کن — اول سقف، بعد شیشه‌ها، بعد بغل‌ها. آب کثیف میره پایین. من چرخ‌ها را می‌شورم. حال‌به‌هم‌زنن.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "finished",
-      "hallway",
       "william",
       "there's",
+      "hallway",
       "you've"
      ],
      "suggestion": "There's a step in the hallway. William uses it for the sink. Right — have you finished the roof? Oi! You've missed a bit!",
@@ -149,8 +149,8 @@
       "careful",
       "there's",
       "always",
-      "rinse",
-      "every"
+      "every",
+      "rinse"
      ],
      "suggestion": "Ha, there's no bit. It's what Dad always says. Gets me every time. Now — the hose. Rinse it all off. Careful… CAREFUL!",
      "suggestionFa": "ها، هیچ جایی نیست. بابا همیشه همینو میگه. هر بار گولم می‌زنه. حالا — شلنگ. همه‌ش را آب بکش. مواظب… مواظب!",
@@ -173,8 +173,8 @@
      "keywords": [
       "getting",
       "where's",
-      "soaked",
       "that's",
+      "soaked",
       "bucket"
      ],
      "suggestion": "I'm soaked! Right. That's war. Where's the other bucket? You're getting it now!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -261,7 +261,7 @@
       "really",
       "worked",
       "clean",
-      "well"
+      "look"
      ],
      "suggestion": "It's clean, Dad, look! Well, mostly. So… ten quid each? We both worked really hard.",
      "suggestionFa": "تمیزه بابا، ببین! خب، بیشترش. پس… هر کدوم ده پوند؟ هر دومون خیلی زحمت کشیدیم.",

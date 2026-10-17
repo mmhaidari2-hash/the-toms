@@ -1,0 +1,401 @@
+{
+ "id": "l2_u62_4",
+ "characterId": "nicola",
+ "title": "Being kind",
+ "titleFa": "مهربان بودن",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "{you}! Look! A gold star! I'm Star of the Week! Miss Ellis said it in assembly!",
+   "translations": {
+    "fa": "{you}! نگاه کن! یه ستارهٔ طلایی! من ستارهٔ هفته‌ام! خانم الیس سر صف گفت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "star",
+      "week",
+      "why"
+     ],
+     "suggestion": "Wow, Nicola! Star of the Week! Why?",
+     "suggestionFa": "وای نیکولا! ستارهٔ هفته! چرا؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "congratulations",
+      "did"
+     ],
+     "suggestion": "Congratulations! What did you do?",
+     "suggestionFa": "تبریک میگم! چی کار کردی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gold star",
+     "fa": "ستارهٔ طلایی"
+    },
+    {
+     "word": "Star of the Week",
+     "fa": "ستارهٔ هفته"
+    },
+    {
+     "word": "assembly",
+     "fa": "مراسم صبحگاهی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many primary schools give a \"Star of the Week\" certificate in assembly, for good work or for kindness. Parents are often invited to watch.",
+    "fa": "بسیاری از دبستان‌ها در مراسم صبحگاهی گواهی «ستارهٔ هفته» برای کار خوب یا مهربانی می‌دهند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "why you are star",
+      "what you did"
+     ],
+     "echo": "What did you do? Tell me!",
+     "better": "What did you do, Nicola?",
+     "betterFa": "چه کار کردی نیکولا؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "There's a new girl. Zofia. She doesn't speak much English. Nobody played with her. So I did.",
+   "translations": {
+    "fa": "یه دختر جدید هست. زوفیا. زیاد انگلیسی بلد نیست. هیچ‌کس باهاش بازی نمی‌کرد. پس من بازی کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "kind",
+      "was"
+     ],
+     "suggestion": "That was very kind of you, Nicola.",
+     "suggestionFa": "خیلی مهربونی کردی نیکولا.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "zofia",
+      "from"
+     ],
+     "suggestion": "Where is Zofia from?",
+     "suggestionFa": "زوفیا اهل کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "new girl",
+     "fa": "دختر جدید"
+    },
+    {
+     "word": "doesn't speak much",
+     "fa": "زیاد صحبت نمی‌کند"
+    },
+    {
+     "word": "nobody",
+     "fa": "هیچ‌کس"
+    },
+    {
+     "word": "played with",
+     "fa": "بازی کرد با"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Poland. I taught her \"swings\" and \"my turn\". She taught me \"cześć\". It means hello!",
+   "translations": {
+    "fa": "لهستان. بهش «تاب» و «نوبت من» را یاد دادم. اونم «چِشچ» را بهم یاد داد. یعنی سلام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learning",
+      "polish",
+      "cze"
+     ],
+     "suggestion": "Cześć! You're learning Polish!",
+     "suggestionFa": "چِشچ! داری لهستانی یاد می‌گیری!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "learned",
+      "that's",
+      "people"
+     ],
+     "suggestion": "That's how I learned English — kind people!",
+     "suggestionFa": "منم همین‌جوری انگلیسی یاد گرفتم — آدم‌های مهربون!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Poland",
+     "fa": "لهستان"
+    },
+    {
+     "word": "taught",
+     "fa": "یاد داد"
+    },
+    {
+     "word": "my turn",
+     "fa": "نوبت من"
+    },
+    {
+     "word": "means",
+     "fa": "یعنی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Like you! You didn't know English words at first. Now you know loads. Like \"pasghetti\".",
+   "translations": {
+    "fa": "مثل تو! تو اولش کلمه‌های انگلیسی بلد نبودی. الان کلی بلدی. مثل «پسگتی»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spaghetti",
+      "nicola",
+      "ha"
+     ],
+     "suggestion": "Ha! It's \"spaghetti\", Nicola!",
+     "suggestionFa": "ها! «اسپاگتی»یه نیکولا!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william's",
+      "that's",
+      "word",
+      "mine"
+     ],
+     "suggestion": "That's William's word, not mine!",
+     "suggestionFa": "این کلمهٔ ویلیامه، نه من!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at first",
+     "fa": "اولش"
+    },
+    {
+     "word": "loads",
+     "fa": "کلی"
+    },
+    {
+     "word": "words",
+     "fa": "کلمه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children often learn a new language fastest by playing. Simple, repeated phrases like \"my turn\" and \"can I play?\" are a great start.",
+    "fa": "بچه‌ها با بازی سریع‌تر از همه زبان یاد می‌گیرند؛ عبارت‌های ساده و تکراری مثل «نوبت من» شروع خوبی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Joke! Zofia was sad on Monday. Today she laughed. That made me feel happy inside.",
+   "translations": {
+    "fa": "شوخی بود! زوفیا دوشنبه ناراحت بود. امروز خندید. این باعث شد تو دلم خوشحال بشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "feeling",
+      "lovely",
+      "that's",
+      "isn't"
+     ],
+     "suggestion": "That's a lovely feeling, isn't it?",
+     "suggestionFa": "حس قشنگیه، نه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friend",
+      "nicola",
+      "good"
+     ],
+     "suggestion": "You're a good friend, Nicola.",
+     "suggestionFa": "تو دوست خوبی هستی نیکولا.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sad",
+     "fa": "ناراحت"
+    },
+    {
+     "word": "laughed",
+     "fa": "خندید"
+    },
+    {
+     "word": "made me feel",
+     "fa": "باعث شد حس کنم"
+    },
+    {
+     "word": "happy inside",
+     "fa": "در دل خوشحال"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Mummy cried when she saw my star. Grown-ups cry a lot. Why do they cry when they're happy?",
+   "translations": {
+    "fa": "مامانی وقتی ستاره‌ام را دید گریه کرد. بزرگ‌ترها زیاد گریه می‌کنن. چرا وقتی خوشحالن گریه می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "because",
+      "she's",
+      "tears",
+      "proud"
+     ],
+     "suggestion": "Happy tears! Because she's proud of you.",
+     "suggestionFa": "اشک شوق! چون بهت افتخار می‌کنه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes",
+      "feelings",
+      "question",
+      "good"
+     ],
+     "suggestion": "Good question! Sometimes feelings are very big.",
+     "suggestionFa": "سؤال خوبیه! گاهی احساس‌ها خیلی بزرگن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grown-ups",
+     "fa": "بزرگ‌ترها"
+    },
+    {
+     "word": "cry",
+     "fa": "گریه کردن"
+    },
+    {
+     "word": "happy tears",
+     "fa": "اشک شوق"
+    },
+    {
+     "word": "proud",
+     "fa": "مفتخر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Big feelings! Can Zofia come to our house for tea? Please? We can play on the swings!",
+   "translations": {
+    "fa": "احساس‌های بزرگ! زوفیا می‌تونه برای شام بیاد خونه‌مون؟ لطفاً؟ می‌تونیم تاب بازی کنیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "she'll",
+      "mummy",
+      "sure",
+      "say"
+     ],
+     "suggestion": "Ask Mummy. I'm sure she'll say yes!",
+     "suggestionFa": "از مامانی بپرس. مطمئنم میگه آره!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "let's",
+      "idea",
+      "mum"
+     ],
+     "suggestion": "What a lovely idea. Let's ask her mum.",
+     "suggestionFa": "چه فکر قشنگی. بیا از مامانش بپرسیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come for tea",
+     "fa": "برای شام آمدن"
+    },
+    {
+     "word": "swings",
+     "fa": "تاب"
+    },
+    {
+     "word": "sure",
+     "fa": "مطمئن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Yay! I'll make her a card. With a star on it. Everybody needs a star sometimes!",
+   "translations": {
+    "fa": "آخ جون! براش یه کارت درست می‌کنم. با یه ستاره روش. همه گاهی یه ستاره لازم دارن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -220,8 +220,8 @@
    "branches": [
     {
      "keywords": [
-      "office",
-      "worked"
+      "worked",
+      "office"
      ],
      "suggestion": "I worked in an office.",
      "suggestionFa": "تو یه دفتر کار می‌کردم.",
@@ -366,9 +366,9 @@
    "branches": [
     {
      "keywords": [
-      "work",
       "good",
       "have",
+      "work",
       "day"
      ],
      "suggestion": "Have a good day at work!",
@@ -379,8 +379,8 @@
     },
     {
      "keywords": [
-      "tom",
-      "bye"
+      "bye",
+      "tom"
      ],
      "suggestion": "Bye, Tom!",
      "suggestionFa": "خداحافظ تام!",

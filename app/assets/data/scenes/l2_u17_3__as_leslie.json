@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
+      "starving",
       "children",
       "supposed",
-      "starving",
       "quarter",
       "pizza"
      ],
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "phone's",
+      "minutes",
       "nearly",
       "could",
       "forty"
@@ -74,8 +74,8 @@
       "polite",
       "garlic",
       "pizzas",
-      "large",
-      "seven"
+      "seven",
+      "large"
      ],
      "suggestion": "It's two-four-seven-nine. Two large pizzas and garlic bread. Be polite but firm. You're good at that.",
      "suggestionFa": "دو-چهار-هفت-نه. دو تا پیتزای بزرگ و نون سیر. مؤدب ولی محکم باش. تو این کار واردی.",
@@ -122,9 +122,9 @@
      "keywords": [
       "discount",
       "house",
+      "road",
       "lost",
-      "main",
-      "road"
+      "main"
      ],
      "suggestion": "Lost? Our house is on the main road! Did you ask for a discount?",
      "suggestionFa": "گم شده؟ خونهٔ ما کنار جادهٔ اصلیه! تخفیف خواستی؟",
@@ -147,8 +147,8 @@
      "keywords": [
       "brilliant",
       "doorbell",
-      "natural",
       "percent",
+      "natural",
       "ten"
      ],
      "suggestion": "Brilliant! Ten percent. You're a natural. Oh — is that the doorbell?",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "plates",
       "please",
+      "plates",
       "check",
-      "i'll",
-      "send"
+      "send",
+      "back"
      ],
      "suggestion": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
      "suggestionFa": "تو در را باز کن، من بشقاب میارم. و لطفاً چک کن داغ باشه. اگه سرد بود، پسش می‌فرستیم.",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "children",
       "goodness",
+      "children",
       "forgiven",
       "cookies",
-      "never"
+      "pizza"
      ],
      "suggestion": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
      "suggestionFa": "کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند.",

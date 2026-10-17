@@ -125,10 +125,10 @@
    "branches": [
     {
      "keywords": [
-      "quicker",
       "changes",
+      "quicker",
       "there",
-      "two"
+      "way"
      ],
      "suggestion": "Two changes? Is there a quicker way?",
      "suggestionFa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "driving",
-      "like",
-      "left"
+      "left",
+      "like"
      ],
      "suggestion": "On the left? Like driving!",
      "suggestionFa": "سمت چپ؟ مثل رانندگی!",
@@ -289,8 +289,8 @@
     {
      "keywords": [
       "alone",
-      "next",
       "time",
+      "next",
       "easy"
      ],
      "suggestion": "That was easy. I can do it alone next time.",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "which",
-      "exit",
       "take",
+      "exit",
       "we"
      ],
      "suggestion": "Which exit do we take?",

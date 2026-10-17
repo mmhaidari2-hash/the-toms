@@ -75,8 +75,8 @@
      "keywords": [
       "let's",
       "don't",
-      "now",
-      "use"
+      "use",
+      "now"
      ],
      "suggestion": "Yes, let's go now. Don't use it!",
      "suggestionFa": "آره، بیا الان بریم. ازش استفاده نکن!",
@@ -130,8 +130,8 @@
     {
      "keywords": [
       "much",
-      "fix",
-      "can"
+      "can",
+      "fix"
      ],
      "suggestion": "Can you fix it? How much is it?",
      "suggestionFa": "می‌تونی درستش کنی؟ چقدر میشه؟",
@@ -141,9 +141,9 @@
     },
     {
      "keywords": [
-      "will",
       "long",
-      "take"
+      "take",
+      "will"
      ],
      "suggestion": "How long will it take?",
      "suggestionFa": "چقدر طول می‌کشه؟",
@@ -235,9 +235,9 @@
    "branches": [
     {
      "keywords": [
-      "tell",
       "must",
       "ryan",
+      "tell",
       "dad"
      ],
      "suggestion": "Ryan, you must tell your dad.",
@@ -248,9 +248,9 @@
     },
     {
      "keywords": [
-      "i'll",
-      "fine",
       "text",
+      "fine",
+      "i'll",
       "tom"
      ],
      "suggestion": "Fine. I'll text Tom.",
@@ -302,9 +302,9 @@
     {
      "keywords": [
       "lucky",
-      "then",
       "much",
-      "pay"
+      "then",
+      "how"
      ],
      "suggestion": "Lucky! How much does he pay then?",
      "suggestionFa": "چه شانسی! پس چقدر می‌پردازه؟",
@@ -338,10 +338,10 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "pounds",
+      "twenty",
       "great",
-      "five"
+      "only"
      ],
      "suggestion": "Only twenty-five pounds? Great!",
      "suggestionFa": "فقط بیست و پنج پوند؟ عالیه!",
@@ -443,8 +443,8 @@
      "keywords": [
       "dangerous",
       "phones",
-      "parks",
-      "skate"
+      "skate",
+      "parks"
      ],
      "suggestion": "Get a case. Skate parks are dangerous for phones.",
      "suggestionFa": "قاب بگیر. پارک اسکیت برای گوشی خطرناکه.",

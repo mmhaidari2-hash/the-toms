@@ -22,7 +22,7 @@
       "morning",
       "sophie",
       "check",
-      "good"
+      "like"
      ],
      "suggestion": "Sure. Good morning, Sophie. We'd like to check out.",
      "suggestionFa": "حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "rooms",
       "leave",
-      "have",
-      "time"
+      "rooms",
+      "time",
+      "have"
      ],
      "suggestion": "What time do we have to leave the rooms?",
      "suggestionFa": "ساعت چند باید اتاق‌ها را خالی کنیم؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "leslie",
-      "check",
       "thank",
+      "check",
       "bill"
      ],
      "suggestion": "Thank you. Leslie, can you check the bill?",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "nights",
-      "quick",
       "three",
+      "quick",
       "was"
      ],
      "suggestion": "Three nights. That was quick!",
@@ -116,9 +116,9 @@
     {
      "keywords": [
       "minibar",
-      "charge",
       "please",
-      "check"
+      "charge",
+      "could"
      ],
      "suggestion": "Could you check the minibar charge, please?",
      "suggestionFa": "میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟",
@@ -181,9 +181,9 @@
     {
      "keywords": [
       "minute",
-      "come",
       "here",
-      "ryan"
+      "ryan",
+      "come"
      ],
      "suggestion": "Ryan, come here a minute.",
      "suggestionFa": "رایان، یه لحظه بیا اینجا.",
@@ -196,7 +196,7 @@
       "i'll",
       "he's",
       "call",
-      "tom"
+      "car"
      ],
      "suggestion": "He's in the car with Tom. I'll call him.",
      "suggestionFa": "با تام تو ماشینه. صداش می‌کنم.",
@@ -222,10 +222,10 @@
    "branches": [
     {
      "keywords": [
-      "nothing",
       "minibar",
-      "ryan",
-      "free"
+      "nothing",
+      "free",
+      "ryan"
      ],
      "suggestion": "Nothing in a minibar is free, Ryan!",
      "suggestionFa": "هیچ‌چیز تو مینی‌بار مجانی نیست رایان!",
@@ -281,9 +281,9 @@
     {
      "keywords": [
       "carry",
+      "desk",
       "bags",
-      "help",
-      "desk"
+      "help"
      ],
      "suggestion": "Can I help carry the bags to the desk?",
      "suggestionFa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟",
@@ -295,8 +295,8 @@
      "keywords": [
       "cream",
       "pier",
-      "ice",
-      "get"
+      "get",
+      "ice"
      ],
      "suggestion": "The pier! Can we get ice cream?",
      "suggestionFa": "اسکله! میشه بستنی بخوریم؟",
@@ -324,8 +324,8 @@
      "keywords": [
       "seagulls",
       "about",
-      "them",
-      "know"
+      "know",
+      "them"
      ],
      "suggestion": "The seagulls! I know about them.",
      "suggestionFa": "مرغ‌های دریایی! درباره‌شون می‌دونم.",
@@ -382,8 +382,8 @@
      "keywords": [
       "tonight",
       "review",
-      "write",
-      "let's"
+      "let's",
+      "write"
      ],
      "suggestion": "Yes, let's write a review tonight.",
      "suggestionFa": "آره، بیا امشب یه نظر بنویسیم.",

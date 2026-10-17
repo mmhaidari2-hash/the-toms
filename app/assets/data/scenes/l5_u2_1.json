@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "over",
       "says",
       "comb",
-      "over",
       "man"
      ],
      "suggestion": "Says the man with a comb-over!",
@@ -79,8 +79,8 @@
      "keywords": [
       "surprise",
       "don't",
-      "just",
-      "like"
+      "like",
+      "just"
      ],
      "suggestion": "Surprise me. Just don't make me look like Ryan.",
      "suggestionFa": "سورپرایزم کن. فقط شبیه رایانم نکن.",
@@ -142,8 +142,8 @@
      "keywords": [
       "classic",
       "know",
-      "gave",
-      "told"
+      "told",
+      "gave"
      ],
      "suggestion": "Ha! He told us you gave him a \"classic\" cut — now I know why.",
      "suggestionFa": "ها! بهمون گفت یه مدل «کلاسیک» براش زدی — حالا فهمیدم چرا.",
@@ -194,8 +194,8 @@
     },
     {
      "keywords": [
-      "promoted",
       "actually",
+      "promoted",
       "going",
       "well"
      ],

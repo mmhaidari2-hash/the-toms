@@ -82,8 +82,8 @@
     {
      "keywords": [
       "can't",
-      "rope",
-      "skip"
+      "skip",
+      "rope"
      ],
      "suggestion": "I can't skip with a rope.",
      "suggestionFa": "من نمی‌تونم طناب بزنم.",
@@ -115,8 +115,8 @@
      "keywords": [
       "three",
       "ouch",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "One, two, three… ouch!",
      "suggestionFa": "یک، دو، سه… آخ!",
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
+      "one",
       "day",
-      "can",
-      "one"
+      "can"
      ],
      "suggestion": "Can you do twenty one day?",
      "suggestionFa": "یه روز می‌تونی بیست تا بزنی؟",

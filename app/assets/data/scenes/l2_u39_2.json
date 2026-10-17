@@ -34,7 +34,7 @@
       "interview",
       "luck",
       "good",
-      "tom"
+      "job"
      ],
      "suggestion": "A job interview? Good luck, Tom!",
      "suggestionFa": "مصاحبهٔ کاری؟ موفق باشی تام!",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "iron",
+      "yet",
       "hot",
-      "got",
-      "yet"
+      "got"
      ],
      "suggestion": "Got it. Is the iron hot yet?",
      "suggestionFa": "فهمیدم. اتو داغ شد؟",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "hole",
+      "ryan",
       "poor"
      ],
      "suggestion": "A hole? Poor Ryan!",
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "stand",
-      "i'll",
       "stop",
+      "i'll",
       "when"
      ],
      "suggestion": "I'll stand it up when I stop.",
@@ -426,8 +426,8 @@
     },
     {
      "keywords": [
-      "questions",
-      "interview"
+      "interview",
+      "questions"
      ],
      "suggestion": "What are the interview questions?",
      "suggestionFa": "سؤال‌های مصاحبه چیه؟",
@@ -466,8 +466,8 @@
     {
      "keywords": [
       "pigeon",
-      "maybe",
       "don't",
+      "maybe",
       "part"
      ],
      "suggestion": "Maybe don't say the pigeon part.",

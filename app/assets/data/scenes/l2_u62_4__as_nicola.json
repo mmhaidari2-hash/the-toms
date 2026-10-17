@@ -1,0 +1,225 @@
+{
+ "id": "l2_u62_4__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Being kind",
+ "titleFa": "(در نقش Nicola) مهربان بودن",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u62_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "assembly",
+      "ellis",
+      "look",
+      "week",
+      "said"
+     ],
+     "suggestion": "Mehdi! Look! A gold star! I'm Star of the Week! Miss Ellis said it in assembly!",
+     "suggestionFa": "{you}! نگاه کن! یه ستارهٔ طلایی! من ستارهٔ هفته‌ام! خانم الیس سر صف گفت!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Wow, Nicola! Star of the Week! Why?",
+   "translations": {
+    "fa": "وای نیکولا! ستارهٔ هفته! چرا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "there's",
+      "doesn't",
+      "played",
+      "nobody"
+     ],
+     "suggestion": "There's a new girl. Zofia. She doesn't speak much English. Nobody played with her. So I did.",
+     "suggestionFa": "یه دختر جدید هست. زوفیا. زیاد انگلیسی بلد نیست. هیچ‌کس باهاش بازی نمی‌کرد. پس من بازی کردم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That was very kind of you, Nicola.",
+   "translations": {
+    "fa": "خیلی مهربونی کردی نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "taught",
+      "swings",
+      "poland",
+      "hello",
+      "means"
+     ],
+     "suggestion": "Poland. I taught her \"swings\" and \"my turn\". She taught me \"cześć\". It means hello!",
+     "suggestionFa": "لهستان. بهش «تاب» و «نوبت من» را یاد دادم. اونم «چِشچ» را بهم یاد داد. یعنی سلام!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Cześć! You're learning Polish!",
+   "translations": {
+    "fa": "چِشچ! داری لهستانی یاد می‌گیری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pasghetti",
+      "english",
+      "didn't",
+      "loads",
+      "first"
+     ],
+     "suggestion": "Like you! You didn't know English words at first. Now you know loads. Like \"pasghetti\".",
+     "suggestionFa": "مثل تو! تو اولش کلمه‌های انگلیسی بلد نبودی. الان کلی بلدی. مثل «پسگتی».",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ha! It's \"spaghetti\", Nicola!",
+   "translations": {
+    "fa": "ها! «اسپاگتی»یه نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "laughed",
+      "monday",
+      "inside",
+      "happy",
+      "today"
+     ],
+     "suggestion": "Joke! Zofia was sad on Monday. Today she laughed. That made me feel happy inside.",
+     "suggestionFa": "شوخی بود! زوفیا دوشنبه ناراحت بود. امروز خندید. این باعث شد تو دلم خوشحال بشم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "That's a lovely feeling, isn't it?",
+   "translations": {
+    "fa": "حس قشنگیه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "happy",
+      "cried",
+      "mummy",
+      "grown"
+     ],
+     "suggestion": "Mummy cried when she saw my star. Grown-ups cry a lot. Why do they cry when they're happy?",
+     "suggestionFa": "مامانی وقتی ستاره‌ام را دید گریه کرد. بزرگ‌ترها زیاد گریه می‌کنن. چرا وقتی خوشحالن گریه می‌کنن؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Happy tears! Because she's proud of you.",
+   "translations": {
+    "fa": "اشک شوق! چون بهت افتخار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "feelings",
+      "please",
+      "swings",
+      "house",
+      "zofia"
+     ],
+     "suggestion": "Big feelings! Can Zofia come to our house for tea? Please? We can play on the swings!",
+     "suggestionFa": "احساس‌های بزرگ! زوفیا می‌تونه برای شام بیاد خونه‌مون؟ لطفاً؟ می‌تونیم تاب بازی کنیم!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ask Mummy. I'm sure she'll say yes!",
+   "translations": {
+    "fa": "از مامانی بپرس. مطمئنم میگه آره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "everybody",
+      "needs",
+      "card",
+      "make"
+     ],
+     "suggestion": "Yay! I'll make her a card. With a star on it. Everybody needs a star sometimes!",
+     "suggestionFa": "آخ جون! براش یه کارت درست می‌کنم. با یه ستاره روش. همه گاهی یه ستاره لازم دارن!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

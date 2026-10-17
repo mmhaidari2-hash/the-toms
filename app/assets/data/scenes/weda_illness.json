@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "shall",
       "quite",
+      "shall",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -77,8 +77,8 @@
      "keywords": [
       "leave",
       "long",
-      "how",
-      "got"
+      "got",
+      "how"
      ],
      "suggestion": "Got it. How long do I leave it?",
      "suggestionFa": "باشه. چقدر نگهش دارم؟",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "he's",
-      "like"
+      "like",
+      "he's"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "calpol",
-      "course",
       "here's",
+      "course",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -198,8 +198,8 @@
      "keywords": [
       "cupboard",
       "kettle",
-      "above",
-      "which"
+      "which",
+      "above"
      ],
      "suggestion": "Which cupboard? The one above the kettle?",
      "suggestionFa": "کدوم کابینت؟ اونی که بالای کتریه؟",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "every",
       "hours",
+      "every",
       "six"
      ],
      "suggestion": "Yes, five ml, every four to six hours.",
@@ -303,8 +303,8 @@
     },
     {
      "keywords": [
-      "jumper",
       "should",
+      "jumper",
       "take",
       "off"
      ],
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "persian",
       "lullaby",
+      "persian",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

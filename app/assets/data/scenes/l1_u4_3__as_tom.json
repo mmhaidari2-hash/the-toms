@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "quick",
-      "table",
       "where",
-      "they",
-      "keys"
+      "table",
+      "quick",
+      "keys",
+      "they"
      ],
      "suggestion": "Where are my keys? Quick — are they on the table?",
      "suggestionFa": "کلیدهام کجان؟ زود — روی میزن؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "finish",
       "thanks",
+      "finish",
       "today",
       "them",
       "time"
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "right",
-      "six",
       "see",
+      "bye",
       "off",
-      "bye"
+      "six"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
      "suggestionFa": "خب، من رفتم. ساعت شش می‌بینمت! خداحافظ!",
@@ -173,8 +173,8 @@
      "keywords": [
       "time's",
       "cheers",
-      "clock",
       "silly",
+      "clock",
       "oven"
      ],
      "suggestion": "Oh — the time's on the oven clock! Silly me. Cheers!",

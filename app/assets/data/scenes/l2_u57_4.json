@@ -22,7 +22,7 @@
       "included",
       "service",
       "let's",
-      "check"
+      "first"
      ],
      "suggestion": "First, let's check if service is included.",
      "suggestionFa": "اول ببینیم سرویس شامله یا نه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "usually",
       "people",
-      "here",
-      "much"
+      "much",
+      "here"
      ],
      "suggestion": "How much do people usually tip here?",
      "suggestionFa": "اینجا معمولاً مردم چقدر انعام میدن؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "pounds",
-      "about",
       "fifty",
+      "about",
       "bill"
      ],
      "suggestion": "The bill is fifty-two pounds. So about six pounds?",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "pubs",
       "same",
+      "pubs",
       "caf",
       "s"
      ],
@@ -139,8 +139,8 @@
     },
     {
      "keywords": [
-      "sophie",
       "pounds",
+      "sophie",
       "six",
       "ok"
      ],
@@ -179,7 +179,7 @@
       "pounds",
       "shall",
       "card",
-      "ten"
+      "pay"
      ],
      "suggestion": "Ten pounds. Shall we pay by card?",
      "suggestionFa": "ده پوند. با کارت بپردازیم؟",
@@ -191,8 +191,8 @@
      "keywords": [
       "let's",
       "leave",
-      "cash",
-      "goes"
+      "goes",
+      "cash"
      ],
      "suggestion": "Let's leave it in cash. Then it goes to her.",
      "suggestionFa": "بیا نقد بذاریم. اون‌وقت به خودش می‌رسه.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "brilliant",
-      "change",
       "please",
-      "were"
+      "change",
+      "keep"
      ],
      "suggestion": "Please, keep the change. You were brilliant.",
      "suggestionFa": "لطفاً، باقی‌اش مال خودت. فوق‌العاده بودی.",

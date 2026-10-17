@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "like",
       "open",
+      "like",
       "hope"
      ],
      "suggestion": "I hope you like it. Open it!",
@@ -65,8 +65,8 @@
     {
      "keywords": [
       "wouldn't",
-      "house",
       "could",
+      "house",
       "wish"
      ],
      "suggestion": "I wish you could too! But it wouldn't fit in the house.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "museum",
-      "visit",
       "maybe",
-      "see"
+      "visit",
+      "one"
      ],
      "suggestion": "Maybe we can visit the museum to see one.",
      "suggestionFa": "شاید بتونیم بریم موزه یکی ببینیم.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "train",
       "could",
+      "train",
       "hope",
       "we"
      ],
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "older",
-      "when",
-      "hope"
+      "hope",
+      "when"
      ],
      "suggestion": "What do you hope to do when you're older?",
      "suggestionFa": "وقتی بزرگ‌تر شدی امیدواری چی کار کنی؟",
@@ -272,8 +272,8 @@
     },
     {
      "keywords": [
-      "wish",
       "make",
+      "wish",
       "big"
      ],
      "suggestion": "Make a big wish!",

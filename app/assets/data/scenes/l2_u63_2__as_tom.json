@@ -1,0 +1,225 @@
+{
+ "id": "l2_u63_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Eid with the neighbours",
+ "titleFa": "(در نقش Tom) عید با همسایه‌ها",
+ "setting": "Celebrations · Level 2",
+ "settingFa": "جشن‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u63_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biryani",
+      "knocked",
+      "brought",
+      "khan's",
+      "plate"
+     ],
+     "suggestion": "Mehdi! Mrs Khan's just knocked. She brought us a huge plate of biryani! It's Eid today. Smell that!",
+     "suggestionFa": "{you}! خانم خان همین الان در زد. یه بشقاب بزرگ بریانی برامون آورد! امروز عیده. بوش کن!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Mmm! That smells amazing!",
+   "translations": {
+    "fa": "ممم! بوی فوق‌العاده‌ای میده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fasting",
+      "that's",
+      "sunset",
+      "water",
+      "month"
+     ],
+     "suggestion": "That's right. She's been fasting for a month. No food or water all day, until sunset. I'd last about two hours!",
+     "suggestionFa": "درسته. یه ماه روزه گرفته. تمام روز نه غذا نه آب، تا غروب. من حدود دو ساعت دووم میارم!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "In Iran, lots of people fast in Ramadan too.",
+   "translations": {
+    "fa": "تو ایران هم خیلیا رمضون روزه می‌گیرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mubarak",
+      "happy",
+      "wrong",
+      "said",
+      "know"
+     ],
+     "suggestion": "So you know Eid! What do you say? I said \"Happy Eid\" but she said \"Eid Mubarak\". Did I get it wrong?",
+     "suggestionFa": "پس عید را می‌شناسی! چی میگید؟ من گفتم «عید مبارک» به انگلیسی ولی اون گفت «عید مبارک». اشتباه گفتم؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "No, both are fine. \"Eid Mubarak\" means \"blessed Eid\".",
+   "translations": {
+    "fa": "نه، هر دو درسته. «عید مبارک» یعنی عید پربرکت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "mubarak",
+      "return",
+      "always",
+      "plate"
+     ],
+     "suggestion": "Brilliant. \"Eid Mubarak\" it is. Now — we can't give her back an empty plate. My nan always said never return an empty plate!",
+     "suggestionFa": "عالیه. پس «عید مبارک». حالا — نمی‌تونیم بشقاب را خالی بهش برگردونیم. مادربزرگم همیشه می‌گفت هیچ‌وقت بشقاب خالی پس نده!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "In Iran we say the same thing!",
+   "translations": {
+    "fa": "تو ایران هم همینو میگیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "biscuits",
+      "grannies",
+      "leslie's",
+      "though"
+     ],
+     "suggestion": "Same in Iran? Ha! Grannies are the same everywhere. Biscuits are a bit boring, though. What about Leslie's lemon cake?",
+     "suggestionFa": "تو ایران هم؟ ها! مادربزرگ‌ها همه‌جا مثل همن. ولی بیسکویت یه کم معمولیه. کیک لیموی لزلی چطوره؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Perfect! Everyone loves her lemon cake.",
+   "translations": {
+    "fa": "عالیه! همه عاشق کیک لیموی اونن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "anything",
+      "saffron",
+      "pudding",
+      "sholeh"
+     ],
+     "suggestion": "Saffron rice pudding? Sholeh zard? You made it at Christmas! Yes — that. Mrs Khan will love it. She loves anything sweet.",
+     "suggestionFa": "شیربرنج زعفرونی؟ شله‌زرد؟ کریسمس درستش کردی! آره — همون. خانم خان عاشقش میشه. عاشق هر چیز شیرینه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'll make it this afternoon.",
+   "translations": {
+    "fa": "امروز بعدازظهر درستش می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "invited",
+      "cooking",
+      "family",
+      "sunday",
+      "whole"
+     ],
+     "suggestion": "Great. Oh — she also invited us to her family party on Sunday. Her son's cooking a whole lamb. A whole lamb!",
+     "suggestionFa": "عالیه. آهان — ما را به مهمونی خانوادگیش یکشنبه هم دعوت کرد. پسرش یه بره کامل می‌پزه. یه برهٔ کامل!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "That's so kind of her. We'd love to go!",
+   "translations": {
+    "fa": "خیلی لطف داره. با کمال میل میریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mubarak",
+      "let's",
+      "thank",
+      "right",
+      "khan"
+     ],
+     "suggestion": "Ha! Me too. Right, let's go and say thank you. \"Eid Mubarak, Mrs Khan!\" Did I say it right?",
+     "suggestionFa": "ها! منم. خب، بریم تشکر کنیم. «عید مبارک، خانم خان!» درست گفتم؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

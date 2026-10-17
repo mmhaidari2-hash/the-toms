@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "cutting",
       "spiders",
+      "cutting",
       "behind",
-      "could",
+      "needs",
       "badly"
      ],
      "suggestion": "It needs cutting badly. Could you get the mower from the shed? It's behind the bikes. Mind the spiders.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "electric",
-      "spiders",
       "british",
+      "spiders",
       "mostly",
       "forget"
      ],
@@ -100,7 +100,7 @@
       "nicola's",
       "breaks",
       "three",
-      "mower"
+      "found"
      ],
      "suggestion": "Nicola's shoe! Found it. Good man. If the mower hits a toy, it breaks. I've eaten three of William's cars this year.",
      "suggestionFa": "کفش نیکولا! پیداش کردی. آفرین. اگه ماشین چمن‌زنی به اسباب‌بازی بخوره، می‌شکنه. امسال سه تا از ماشین‌های ویلیام را خوردم.",
@@ -124,7 +124,7 @@
       "behind",
       "button",
       "press",
-      "green",
+      "never",
       "cable"
      ],
      "suggestion": "Plug it in, hold the bar, press the green button. Keep the cable behind you — never run over the cable!",
@@ -148,9 +148,9 @@
      "keywords": [
       "straight",
       "stripes",
-      "fills",
       "power",
-      "empty"
+      "green",
+      "lines"
      ],
      "suggestion": "Bang, no power, and a new cable from B&Q. Straight lines, like stripes. The bag fills up fast — empty it in the green bin.",
      "suggestionFa": "بنگ، برق قطع، و یه سیم جدید از بی‌اندکیو. خط‌های صاف، مثل راه‌راه. کیسه زود پر میشه — تو سطل سبز خالیش کن.",
@@ -175,7 +175,7 @@
       "natural",
       "jenkins",
       "forget",
-      "empty"
+      "every"
      ],
      "suggestion": "By the side gate. Don't forget to empty the bag every few lines. You're a natural! Mr Jenkins next door is watching you.",
      "suggestionFa": "کنار در بغلی. یادت نره هر چند خط کیسه را خالی کنی. استعداد ذاتی داری! آقای جنکینز همسایه داره نگاهت می‌کنه.",
@@ -199,8 +199,8 @@
       "stripes",
       "jealous",
       "wembley",
-      "always",
-      "better"
+      "better",
+      "always"
      ],
      "suggestion": "No, he's jealous! His stripes are always wonky. Right, it's done. Look at that. Better than Wembley. Cup of tea?",
      "suggestionFa": "نه، حسودیش میشه! راه‌راه‌های اون همیشه کجن. خب، تموم شد. اینو ببین. بهتر از ومبلی. یه فنجون چای؟",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "football",
-      "destroy",
       "william",
-      "week",
+      "destroy",
+      "look",
       "then"
      ],
      "suggestion": "Football? Over my dead body! Not for a week. Let it look nice for one day. Then William can destroy it.",

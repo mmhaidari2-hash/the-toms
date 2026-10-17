@@ -34,8 +34,8 @@
      "keywords": [
       "throat",
       "cough",
-      "days",
-      "sore"
+      "sore",
+      "days"
      ],
      "suggestion": "I've had a sore throat and a cough for a few days.",
      "suggestionFa": "چند روزه گلودرد و سرفه دارم.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "food",
       "them",
+      "food",
       "take",
       "can"
      ],
@@ -258,7 +258,7 @@
       "anything",
       "that's",
       "there",
-      "eyes"
+      "fine"
      ],
      "suggestion": "That's fine. Is there anything for my eyes too?",
      "suggestionFa": "باشه. برای چشمام هم چیزی هست؟",
@@ -269,7 +269,7 @@
     {
      "keywords": [
       "should",
-      "take",
+      "long",
       "okay",
       "them"
      ],
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "prescription",
-      "need",
-      "will"
+      "will",
+      "need"
      ],
      "suggestion": "Will do. Do I need a prescription?",
      "suggestionFa": "حتماً. نسخه لازمه؟",

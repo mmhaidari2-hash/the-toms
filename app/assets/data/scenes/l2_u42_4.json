@@ -20,9 +20,9 @@
     {
      "keywords": [
       "looks",
-      "just",
       "like",
-      "wow"
+      "just",
+      "she"
      ],
      "suggestion": "Wow! Yes, she looks just like him.",
      "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "that's",
       "small",
-      "tom",
-      "was"
+      "was",
+      "tom"
      ],
      "suggestion": "That's Tom? He was so small!",
      "suggestionFa": "این تامه؟ چقدر کوچیک بود!",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "ears",
-      "cute",
+      "like",
       "ryan",
-      "like"
+      "look",
+      "cute"
      ],
      "suggestion": "Her ears are cute! And who does Ryan look like?",
      "suggestionFa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟",
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "takes",
+      "after",
       "mean"
      ],
      "suggestion": "What does \"takes after\" mean?",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "looks",
-      "he's",
       "like",
-      "tom"
+      "he's",
+      "but"
      ],
      "suggestion": "So he looks like you, but he's like Tom.",
      "suggestionFa": "پس شبیه توئه، ولی مثل تامه.",
@@ -201,8 +201,8 @@
      "keywords": [
       "maggie's",
       "think",
-      "eyes",
-      "nana"
+      "nana",
+      "eyes"
      ],
      "suggestion": "William has Nana Maggie's eyes, I think.",
      "suggestionFa": "فکر کنم ویلیام چشم‌های نانا مگی را داره.",
@@ -213,8 +213,8 @@
     {
      "keywords": [
       "nobody",
-      "like",
       "he's",
+      "like",
       "just"
      ],
      "suggestion": "William is like nobody! He's just William.",
@@ -252,7 +252,7 @@
       "we've",
       "same",
       "nose",
-      "got"
+      "dad"
      ],
      "suggestion": "I look like my dad. We've got the same nose.",
      "suggestionFa": "شبیه بابامم. دماغمون یه شکله.",
@@ -301,7 +301,7 @@
       "father",
       "thank",
       "like",
-      "son"
+      "say"
      ],
      "suggestion": "Thank you! \"Like father, like son.\" We say that too.",
      "suggestionFa": "ممنون! «پسر کو ندارد نشان از پدر.» ما هم اینو میگیم.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "patient",
-      "after",
       "she's",
+      "after",
       "take"
      ],
      "suggestion": "And I take after my mum. She's very patient.",
@@ -410,8 +410,8 @@
     },
     {
      "keywords": [
-      "you've",
       "nicola",
+      "you've",
       "smile",
       "dad's"
      ],

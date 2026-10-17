@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "short",
-      "just",
-      "trim"
+      "trim",
+      "just"
      ],
      "suggestion": "Just a trim, please. Not too short.",
      "suggestionFa": "فقط یه کم کوتاه، لطفاً. نه خیلی کوتاه.",
@@ -35,7 +35,7 @@
       "something",
       "going",
       "ideas",
-      "new"
+      "any"
      ],
      "suggestion": "I'm going to try something new. Any ideas?",
      "suggestionFa": "می‌خوام یه چیز جدید امتحان کنم. ایده‌ای داری؟",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "friend's",
-      "buy",
-      "new"
+      "new",
+      "buy"
      ],
      "suggestion": "A friend's. I'm going to buy a new suit.",
      "suggestionFa": "یه دوست. می‌خوام کت‌وشلوار نو بخرم.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "sides",
-      "keep",
       "long",
+      "keep",
       "can"
      ],
      "suggestion": "Can you keep the sides long too?",
@@ -232,8 +232,8 @@
    "branches": [
     {
      "keywords": [
-      "visit",
       "coast",
+      "visit",
       "toms"
      ],
      "suggestion": "I'm going to visit the coast with the Toms.",
@@ -323,9 +323,9 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "looks",
-      "thank"
+      "thank",
+      "great"
      ],
      "suggestion": "It looks great. Thank you!",
      "suggestionFa": "عالی شده. ممنون!",

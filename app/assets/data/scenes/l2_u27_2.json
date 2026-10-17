@@ -21,8 +21,8 @@
      "keywords": [
       "wheelchair",
       "priority",
-      "who",
-      "has"
+      "has",
+      "who"
      ],
      "suggestion": "Who has priority, the wheelchair or the pushchair?",
      "suggestionFa": "کی اولویت داره، ویلچر یا کالسکه؟",
@@ -77,8 +77,8 @@
      "keywords": [
       "fold",
       "help",
-      "her",
-      "can"
+      "can",
+      "her"
      ],
      "suggestion": "Can I help her fold it?",
      "suggestionFa": "می‌تونم کمکش کنم تاش کنه؟",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
+      "fold",
       "i'll",
-      "hold",
-      "fold"
+      "hold"
      ],
      "suggestion": "I'll fold it. You hold William.",
      "suggestionFa": "من تاش می‌کنم. تو ویلیام را بغل کن.",
@@ -191,8 +191,8 @@
    "branches": [
     {
      "keywords": [
-      "going",
       "we're",
+      "going",
       "home"
      ],
      "suggestion": "We're going home, William.",
@@ -242,7 +242,7 @@
       "didn't",
       "know",
       "ramp",
-      "bus"
+      "has"
      ],
      "suggestion": "The bus has a ramp? I didn't know!",
      "suggestionFa": "اتوبوس سطح شیب‌دار داره؟ نمی‌دونستم!",
@@ -303,8 +303,8 @@
     {
      "keywords": [
       "wheels",
-      "sorry",
       "three",
+      "sorry",
       "loves"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
@@ -352,9 +352,9 @@
     {
      "keywords": [
       "william",
-      "hold",
       "hand",
-      "sure"
+      "sure",
+      "hold"
      ],
      "suggestion": "Sure. William, hold my hand.",
      "suggestionFa": "حتماً. ویلیام، دستم را بگیر.",

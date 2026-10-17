@@ -34,8 +34,8 @@
      "keywords": [
       "happened",
       "really",
-      "sorry",
-      "again"
+      "again",
+      "sorry"
      ],
      "suggestion": "I'm really sorry this has happened again.",
      "suggestionFa": "واقعاً متأسفم که دوباره این اتفاق افتاد.",
@@ -75,7 +75,7 @@
      "keywords": [
       "child's",
       "afraid",
-      "share",
+      "other",
       "can't"
      ],
      "suggestion": "I'm afraid I can't share the other child's name.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "exactly",
+      "oscar's",
       "privacy",
-      "protect",
-      "oscar's"
+      "protect"
      ],
      "suggestion": "We'd protect Oscar's privacy in exactly the same way.",
      "suggestionFa": "ما از حریم خصوصی اسکار هم دقیقاً همین‌طور محافظت می‌کنیم.",
@@ -149,8 +149,8 @@
      "keywords": [
       "crowding",
       "changed",
-      "layout",
-      "reduce"
+      "reduce",
+      "layout"
      ],
      "suggestion": "We've also changed the room layout to reduce crowding.",
      "suggestionFa": "چیدمان اتاق را هم عوض کردیم که شلوغی کمتر بشه.",
@@ -191,7 +191,7 @@
       "accident",
       "should",
       "right",
-      "have"
+      "pick"
      ],
      "suggestion": "You're right, it should have been on his accident form at pick-up.",
      "suggestionFa": "حق با شماست، باید موقع بردنش تو فرم حادثه‌اش می‌بود.",
@@ -204,7 +204,7 @@
       "wasn't",
       "given",
       "i'll",
-      "into"
+      "look"
      ],
      "suggestion": "I'll look into why the form wasn't given to you.",
      "suggestionFa": "بررسی می‌کنم چرا فرم به شما داده نشد.",
@@ -247,8 +247,8 @@
      "keywords": [
       "manager",
       "would",
-      "meet",
-      "week"
+      "like",
+      "meet"
      ],
      "suggestion": "Would you like to meet Jo and the manager this week?",
      "suggestionFa": "می‌خواید این هفته با جو و مدیر جلسه داشته باشید؟",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "update",
-      "weeks",
       "we'll",
+      "weeks",
       "every"
      ],
      "suggestion": "We'll update you every day for the next two weeks.",

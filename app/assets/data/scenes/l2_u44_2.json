@@ -72,8 +72,8 @@
      "keywords": [
       "happened",
       "think",
-      "know",
-      "hope"
+      "hope",
+      "know"
      ],
      "suggestion": "A lot of hope! I think I know what happened next.",
      "suggestionFa": "کلی امید! فکر کنم می‌دونم بعدش چی شد.",
@@ -188,8 +188,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "sleep",
+      "where",
       "car"
      ],
      "suggestion": "No car! So where did you sleep?",
@@ -248,7 +248,7 @@
       "clever",
       "that's",
       "dryer",
-      "hand"
+      "heat"
      ],
      "suggestion": "The hand dryer for heat! That's very clever.",
      "suggestionFa": "دست‌خشک‌کن برای گرما! خیلی زرنگی بود.",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "leslie",
-      "say",
-      "did"
+      "did",
+      "say"
      ],
      "suggestion": "What did Leslie say?",
      "suggestionFa": "لزلی چی گفت؟",
@@ -302,9 +302,9 @@
    "branches": [
     {
      "keywords": [
+      "farm",
       "stay",
       "kind",
-      "farm",
       "man"
      ],
      "suggestion": "What a kind man! Did you stay on the farm?",
@@ -352,10 +352,10 @@
    "branches": [
     {
      "keywords": [
-      "better",
-      "sounds",
       "lovely",
-      "than"
+      "sounds",
+      "better",
+      "tent"
      ],
      "suggestion": "That sounds lovely. Better than the tent!",
      "suggestionFa": "قشنگ به نظر میاد. بهتر از چادر!",

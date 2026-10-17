@@ -24,8 +24,8 @@
       "beautiful",
       "british",
       "museum",
-      "isn't",
-      "let's"
+      "let's",
+      "we're"
      ],
      "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
      "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "overground",
-      "victoria",
       "highbury",
-      "change",
-      "colour"
+      "victoria",
+      "colour",
+      "change"
      ],
      "suggestion": "Every line has a colour. We take the Overground to Highbury, then change to the Victoria line.",
      "suggestionFa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم.",
@@ -73,9 +73,9 @@
      "keywords": [
       "tottenham",
       "central",
-      "circus",
+      "oxford",
       "change",
-      "oxford"
+      "circus"
      ],
      "suggestion": "Light blue. We go south to Oxford Circus, then change again. Central line — the red one — two stops to Tottenham Court Road.",
      "suggestionFa": "آبی روشن. به جنوب میریم تا آکسفورد سیرکس، بعد دوباره عوض می‌کنیم. خط سنترال — قرمزه — دو ایستگاه تا تاتنهام کورت رود.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "quicker",
-      "tunnels",
       "there's",
+      "tunnels",
       "lesson",
-      "learn"
+      "seven"
      ],
      "suggestion": "About seven. There's a quicker way, but this way, you learn the Tube. Lesson one: walk on the left in tunnels.",
      "suggestionFa": "حدود هفت تا. یه راه سریع‌تر هست، ولی این‌جوری مترو را یاد می‌گیری. درس اول: تو تونل‌ها از سمت چپ راه برو.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "eastbound",
       "westbound",
+      "eastbound",
       "central",
-      "circus",
-      "lesson"
+      "lesson",
+      "that's"
      ],
      "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
      "suggestionFa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!",
@@ -148,9 +148,9 @@
      "keywords": [
       "tottenham",
       "minutes'",
-      "london",
       "follow",
-      "museum"
+      "museum",
+      "london"
      ],
      "suggestion": "Forty-two years of London! Here we are — Tottenham Court Road. Mind the gap… and follow me. Five minutes' walk to the museum.",
      "suggestionFa": "چهل و دو سال تو لندن! رسیدیم — تاتنهام کورت رود. مراقب فاصله باش… و دنبالم بیا. پنج دقیقه پیاده تا موزه.",

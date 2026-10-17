@@ -72,8 +72,8 @@
     {
      "keywords": [
       "where's",
-      "excuse",
       "cheese",
+      "excuse",
       "stall"
      ],
      "suggestion": "Yes. Excuse me, where's the cheese stall?",
@@ -137,8 +137,8 @@
      "keywords": [
       "umbrella",
       "towards",
-      "green",
-      "canal"
+      "canal",
+      "green"
      ],
      "suggestion": "Towards the canal, then the green umbrella.",
      "suggestionFa": "سمت کانال، بعد چتر سبز.",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "olives",
-      "right",
       "after",
-      "thank"
+      "thank",
+      "right"
      ],
      "suggestion": "On my right, after the olives. Thank you!",
      "suggestionFa": "سمت راستم، بعد از زیتون‌ها. ممنون!",
@@ -251,10 +251,10 @@
    "branches": [
     {
      "keywords": [
-      "gone",
       "i've",
-      "see",
-      "far"
+      "gone",
+      "far",
+      "see"
      ],
      "suggestion": "If I see flowers, I've gone too far. OK!",
      "suggestionFa": "اگه گل دیدم، زیادی رفتم. باشه!",

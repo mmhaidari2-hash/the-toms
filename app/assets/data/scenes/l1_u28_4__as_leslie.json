@@ -25,7 +25,7 @@
       "answering",
       "message",
       "plumber",
-      "isn't"
+      "leave"
      ],
      "suggestion": "The plumber isn't answering. It's the voicemail. Can you leave a message? I talk too fast!",
      "suggestionFa": "لوله‌کش جواب نمی‌ده. پیغام‌گیره. تو پیغام می‌ذاری؟ من خیلی تند حرف می‌زنم!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "double",
+      "number",
       "three",
       "seven",
       "nine"
@@ -123,8 +123,8 @@
      "keywords": [
       "perfect",
       "slowly",
-      "again",
       "today",
+      "again",
       "call"
      ],
      "suggestion": "Perfect! Say it again, slowly. And ask him to call back today.",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "phone's",
       "message",
       "already",
+      "phone's",
       "ringing",
       "plumber"
      ],

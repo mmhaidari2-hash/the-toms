@@ -24,8 +24,8 @@
       "important",
       "sunday",
       "coming",
-      "ready",
-      "roast"
+      "roast",
+      "ready"
      ],
      "suggestion": "Sunday! Roast day. The most important meal of the week. Mum and Dad are coming at one. Ready for duty?",
      "suggestionFa": "یکشنبه! روز کباب. مهم‌ترین وعدهٔ هفته. مامان و بابا ساعت یک میان. آمادهٔ انجام وظیفه‌ای؟",
@@ -49,8 +49,8 @@
       "yorkshire",
       "puddings",
       "potatoes",
-      "chicken",
-      "carrots"
+      "carrots",
+      "chicken"
      ],
      "suggestion": "Roast chicken, roast potatoes, carrots, peas, Yorkshire puddings and gravy. The chicken needs to go in the oven now. Two hours.",
      "suggestionFa": "مرغ سوخاری، سیب‌زمینی تنوری، هویج، نخودفرنگی، یورکشایر پودینگ و سس گریوی. مرغ باید همین الان بره تو فر. دو ساعت.",
@@ -100,7 +100,7 @@
       "fifteen",
       "fluffy",
       "three",
-      "extra"
+      "shake"
      ],
      "suggestion": "Three each, plus extra. Fifteen? Then boil them for ten minutes, shake them in the pan — that makes them fluffy — and roast them.",
      "suggestionFa": "هر نفر سه تا، به‌اضافهٔ اضافه. پونزده تا؟ بعد ده دقیقه بجوشونشون، تو قابلمه تکونشون بده — این پفکیشون می‌کنه — و بذارشون تو فر.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "carrots",
+      "that's",
       "taught",
-      "secret",
       "maggie",
-      "that's"
+      "crispy"
      ],
      "suggestion": "The edges go rough, then crispy in the oil. That's the secret. Nana Maggie taught me. Have you put the carrots on?",
      "suggestionFa": "لبه‌ها زبر میشن، بعد تو روغن ترد میشن. راز همینه. نانا مگی یادم داد. هویج‌ها را گذاشتی؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "minutes",
-      "always",
       "checks",
-      "lumpy",
-      "three"
+      "always",
+      "three",
+      "lumps"
      ],
      "suggestion": "Peas take three minutes, so last. Keep an eye on the gravy — stir it, or it goes lumpy. Mum always checks for lumps.",
      "suggestionFa": "نخودفرنگی سه دقیقه طول می‌کشه، پس آخر. حواست به سس باشه — همش بزن، وگرنه گلوله‌گلوله میشه. مامانم همیشه گلوله‌ها را چک می‌کنه.",
@@ -173,8 +173,8 @@
      "keywords": [
       "strictest",
       "doorbell",
-      "napkins",
       "they're",
+      "napkins",
       "knives"
      ],
      "suggestion": "Strictest in London. Uh-oh — the doorbell. They're early! Is the table laid? Knives, forks, napkins?",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "yorkshires",
-      "rising",
       "nearly",
-      "ready",
-      "mum's"
+      "rising",
+      "knife",
+      "ready"
      ],
      "suggestion": "Knife on the right, fork on the left. Yorkshires are rising! Look at them! It's nearly ready. Mum's going to cry.",
      "suggestionFa": "چاقو راست، چنگال چپ. یورکشایرها دارن پف می‌کنن! نگاهشون کن! تقریباً آماده‌ست. مامانم گریه‌اش می‌گیره.",

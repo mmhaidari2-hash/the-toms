@@ -31,8 +31,8 @@
     {
      "keywords": [
       "brighton",
-      "worked",
       "didn't",
+      "worked",
       "hello"
      ],
      "suggestion": "Hello! I didn't know you worked in Brighton.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "booking",
-      "rooms",
       "under",
+      "rooms",
       "i've"
      ],
      "suggestion": "Yes. I've got a booking under Thompson. Two rooms.",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "permit",
-      "happy",
       "won't",
+      "happy",
       "only"
      ],
      "suggestion": "Permit only? Tom won't be happy!",
@@ -302,8 +302,8 @@
      "keywords": [
       "breakfast",
       "lovely",
-      "view",
-      "time"
+      "time",
+      "view"
      ],
      "suggestion": "A sea view! Lovely. What time is breakfast?",
      "suggestionFa": "منظرهٔ دریا! عالی. صبحانه ساعت چنده؟",
@@ -359,9 +359,9 @@
     {
      "keywords": [
       "eleven",
+      "late",
       "back",
-      "come",
-      "late"
+      "come"
      ],
      "suggestion": "Eleven? What if we come back late?",
      "suggestionFa": "یازده؟ اگه دیر برگشتیم چی؟",

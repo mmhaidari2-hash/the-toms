@@ -1,0 +1,225 @@
+{
+ "id": "l2_u62_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Nicola's report",
+ "titleFa": "(در نقش Leslie) کارنامهٔ نیکولا",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u62_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "already",
+      "report",
+      "three",
+      "today"
+     ],
+     "suggestion": "Mehdi! Nicola's end-of-year report came home today. I've read it three times already. Will you read it with me?",
+     "suggestionFa": "{you}! کارنامهٔ آخر سال نیکولا امروز اومد خونه. تا حالا سه بار خوندمش. باهام می‌خونیش؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course! What does it say?",
+   "translations": {
+    "fa": "البته! چی نوشته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "questions",
+      "listening",
+      "speaking",
+      "nicola",
+      "mostly"
+     ],
+     "suggestion": "Mostly good news! Miss Ellis says Nicola is doing well in speaking and listening. She asks a lot of questions.",
+     "suggestionFa": "بیشترش خبر خوبه! خانم الیس میگه نیکولا تو صحبت کردن و گوش دادن خوب پیش میره. کلی سؤال می‌پرسه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That's true. She always asks \"why?\"",
+   "translations": {
+    "fa": "درسته. همیشه می‌پرسه «چرا؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "language",
+      "learner",
+      "curious",
+      "teacher",
+      "talking"
+     ],
+     "suggestion": "Ha, yes! \"Nicola is a curious learner.\" That's teacher language for \"she never stops talking\". I know — I'm a teacher!",
+     "suggestionFa": "ها، آره! «نیکولا یادگیرندهٔ کنجکاویه.» این زبون معلم‌هاست برای «یه لحظه ساکت نمیشه». می‌دونم — خودم معلمم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What else does Miss Ellis say?",
+   "translations": {
+    "fa": "خانم الیس دیگه چی میگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "handwriting",
+      "backwards",
+      "letters",
+      "little",
+      "needs"
+     ],
+     "suggestion": "She needs to work on her handwriting. Her letters are very big, and her \"s\" goes backwards. Like a little snake!",
+     "suggestionFa": "باید روی دست‌خطش کار کنه. حروفش خیلی بزرگن، و «اس»ش برعکسه. مثل یه مار کوچولو!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "That's normal at five, isn't it?",
+   "translations": {
+    "fa": "تو پنج‌سالگی عادیه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counting",
+      "working",
+      "totally",
+      "towards",
+      "normal"
+     ],
+     "suggestion": "Totally normal. And in maths she's \"working towards\" the goal — not quite there yet. Counting is fine, but she hates take-aways.",
+     "suggestionFa": "کاملاً عادیه. و تو ریاضی «در مسیر» هدفه — هنوز کامل نرسیده. شمردنش خوبه، ولی از تفریق متنفره.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Working towards — so nearly there?",
+   "translations": {
+    "fa": "در مسیر — یعنی تقریباً رسیده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "she'll",
+      "sweets",
+      "three",
+      "pizza",
+      "learn"
+     ],
+     "suggestion": "Ha! No, not pizza. Five take away two is three. We'll use sweets. Five sweets, eat two — she'll learn very fast!",
+     "suggestionFa": "ها! نه، پیتزا نه. پنج منهای دو میشه سه. با آبنبات تمرین می‌کنیم. پنج تا آبنبات، دو تا بخور — خیلی سریع یاد می‌گیره!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Good plan! And the last part of the report?",
+   "translations": {
+    "fa": "نقشهٔ خوبیه! و قسمت آخر کارنامه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "that's",
+      "really",
+      "others",
+      "always"
+     ],
+     "suggestion": "The last part: \"Nicola is always kind to others.\" That's the bit that made me cry. I'm really proud of her.",
+     "suggestionFa": "قسمت آخر: «نیکولا همیشه با بقیه مهربونه.» همین قسمت بود که گریه‌ام انداخت. واقعاً بهش افتخار می‌کنم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "That's the most important part.",
+   "translations": {
+    "fa": "این مهم‌ترین قسمته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "handwriting",
+      "nicola",
+      "report",
+      "fridge",
+      "after"
+     ],
+     "suggestion": "You're right. Handwriting can wait. Right — let's put the report on the fridge. And Nicola gets ice cream after tea!",
+     "suggestionFa": "حق با توئه. دست‌خط می‌تونه صبر کنه. خب — بیا کارنامه را بزنیم رو یخچال. و نیکولا بعد از شام بستنی می‌گیره!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

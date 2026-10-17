@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "finally",
       "weekend",
+      "finally",
       "friday",
       "doing"
      ],
@@ -48,8 +48,8 @@
       "saturday",
       "seaside",
       "sounds",
-      "going",
-      "we're"
+      "we're",
+      "going"
      ],
      "suggestion": "Sounds good. We're going to the seaside on Saturday. Do you want to come?",
      "suggestionFa": "خوبه. ما شنبه می‌ریم کنار دریا. می‌خوای بیای؟",
@@ -71,10 +71,10 @@
     {
      "keywords": [
       "brighton",
-      "going",
       "we're",
+      "going",
       "chips",
-      "walk"
+      "pier"
      ],
      "suggestion": "Brighton. We're going to get fish and chips and walk on the pier.",
      "suggestionFa": "برایتون. قراره فیش‌اند‌چیپس بخوریم و روی اسکله قدم بزنیم.",
@@ -99,7 +99,7 @@
       "weather",
       "what's",
       "going",
-      "watch"
+      "steal"
      ],
      "suggestion": "Watch out for the seagulls — they steal your chips! What's the weather going to be like?",
      "suggestionFa": "مواظب مرغ‌های دریایی باش — چیپست را می‌دزدن! هوا قراره چطور باشه؟",
@@ -124,7 +124,7 @@
       "anyway",
       "course",
       "beach",
-      "going"
+      "we're"
      ],
      "suggestion": "Rain? Ha, of course. We're going anyway. Brits go to the beach in any weather!",
      "suggestionFa": "بارون؟ ها، معلومه. به هر حال می‌ریم. بریتانیایی‌ها تو هر هوایی می‌رن ساحل!",
@@ -148,8 +148,8 @@
       "brilliant",
       "leaving",
       "sunday",
-      "don't",
-      "roast"
+      "roast",
+      "don't"
      ],
      "suggestion": "Brilliant. And on Sunday, a roast and a lie-in. Leaving at nine — don't be late!",
      "suggestionFa": "عالیه. و یکشنبه، کباب یکشنبه و دیر بیدار شدن. ساعت نه راه می‌افتیم — دیر نکنی!",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "staying",
       "sundays",
-      "earned",
+      "staying",
       "you've",
-      "thing"
+      "earned",
+      "about"
      ],
      "suggestion": "A lie-in is staying in bed late. The best thing about Sundays! Have a great week, you've earned it!",
      "suggestionFa": "lie-in یعنی دیر توی تخت موندن. بهترین چیز یکشنبه‌ها! هفتهٔ خوبی داشته باشی، حقته!",

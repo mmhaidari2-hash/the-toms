@@ -22,7 +22,7 @@
       "course",
       "first",
       "dough",
-      "need"
+      "make"
      ],
      "suggestion": "Of course. First, we need to make the dough.",
      "suggestionFa": "البته. اول باید خمیر را درست کنیم.",
@@ -35,7 +35,7 @@
       "scones",
       "round",
       "star",
-      "have"
+      "they"
      ],
      "suggestion": "Star scones! Do they have to be round?",
      "suggestionFa": "اسکون ستاره‌ای! باید گرد باشن؟",
@@ -263,9 +263,9 @@
     },
     {
      "keywords": [
-      "don't",
       "twist",
-      "just",
+      "don't",
+      "push",
       "says"
      ],
      "suggestion": "Don't twist! Nana says just push down.",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "bake",
       "long",
+      "bake",
       "how"
      ],
      "suggestion": "How long do they bake for?",
@@ -418,9 +418,9 @@
     },
     {
      "keywords": [
-      "each",
-      "i'll",
       "both",
+      "i'll",
+      "each",
       "try"
      ],
      "suggestion": "I'll try both! One of each.",

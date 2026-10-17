@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "thirty",
       "inside",
+      "thirty",
       "says",
-      "door"
+      "look"
      ],
      "suggestion": "Inside the door? Let me look. It says thirty-two.",
      "suggestionFa": "داخل در؟ بذار ببینم. نوشته سی و دو.",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "where's",
-      "can't",
       "valve",
+      "can't",
       "see"
      ],
      "suggestion": "Where's the valve? I can't see it.",
@@ -207,8 +207,8 @@
     {
      "keywords": [
       "happening",
-      "nothing",
-      "working"
+      "working",
+      "nothing"
      ],
      "suggestion": "Nothing is happening. Is it working?",
      "suggestionFa": "هیچ اتفاقی نمی‌افته. کار می‌کنه؟",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "here",
-      "fix",
-      "can"
+      "can",
+      "fix"
      ],
      "suggestion": "Can you fix it here?",
      "suggestionFa": "اینجا می‌تونید درستش کنید؟",

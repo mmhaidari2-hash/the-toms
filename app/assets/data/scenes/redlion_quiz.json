@@ -191,10 +191,10 @@
     },
     {
      "keywords": [
-      "strong",
       "eleven",
-      "isn't",
-      "sport"
+      "strong",
+      "point",
+      "isn't"
      ],
      "suggestion": "Sport isn't my strong point. Eleven?",
      "suggestionFa": "ورزش نقطه‌قوتم نیست. یازده؟",
@@ -283,8 +283,8 @@
     {
      "keywords": [
       "dench",
-      "dame",
-      "judi"
+      "judi",
+      "dame"
      ],
      "suggestion": "Is it Dame Judi Dench?",
      "suggestionFa": "دیم جودی دنچ؟",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "beginner's",
-      "lucky",
       "guess",
+      "lucky",
       "just"
      ],
      "suggestion": "Just a lucky guess — beginner's luck!",
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "points",
-      "second",
       "behind",
+      "second",
       "place"
      ],
      "suggestion": "Second place, two points behind.",

@@ -24,8 +24,8 @@
       "sandwiches",
       "lunchtime",
       "making",
-      "would",
-      "yours"
+      "yours",
+      "would"
      ],
      "suggestion": "Lunchtime! I'm making sandwiches. What would you like in yours?",
      "suggestionFa": "وقت ناهار! دارم ساندویچ درست می‌کنم. تو مال خودت چی می‌خوای؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "cucumber",
       "cheese",
+      "bread",
       "white",
-      "brown",
-      "bread"
+      "brown"
      ],
      "suggestion": "Cheese, ham, tuna, egg… and cucumber. White bread or brown bread?",
      "suggestionFa": "پنیر، ژامبون، تن ماهی، تخم‌مرغ… و خیار. نون سفید یا نون سبوس‌دار؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "butter",
-      "bread",
       "brown",
+      "bread",
       "want"
      ],
      "suggestion": "Brown bread. Do you want butter on it?",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "classic",
-      "pickle",
       "cheese",
-      "brown",
-      "sweet"
+      "pickle",
+      "sweet",
+      "brown"
      ],
      "suggestion": "Cheese and pickle? It's a classic! Pickle is sweet and brown.",
      "suggestionFa": "پنیر و پیکل؟ کلاسیکه! پیکل شیرین و قهوه‌ایه.",
@@ -122,8 +122,8 @@
      "keywords": [
       "sandwich",
       "crisps",
-      "there",
       "think",
+      "there",
       "wants"
      ],
      "suggestion": "There you go. Ryan wants crisps in his sandwich! What do you think?",
@@ -148,8 +148,8 @@
       "triangles",
       "popular",
       "squares",
-      "crisp",
-      "shall"
+      "shall",
+      "yours"
      ],
      "suggestion": "It's a \"crisp butty\". Very popular here! Shall I cut yours into triangles or squares?",
      "suggestionFa": "بهش می‌گن «کریسپ باتی». اینجا خیلی محبوبه! مال تو را مثلثی ببرم یا مربعی؟",
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "triangles",
-      "fancy",
-      "would",
       "drink",
+      "would",
+      "fancy",
       "like"
      ],
      "suggestion": "Triangles. Fancy. Would you like a drink with it?",

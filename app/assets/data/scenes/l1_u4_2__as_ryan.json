@@ -24,8 +24,8 @@
       "seventeen",
       "sixteen",
       "march",
-      "old",
-      "how"
+      "how",
+      "old"
      ],
      "suggestion": "So how old are you? I'm sixteen. Seventeen in March!",
      "suggestionFa": "خب چند سالته؟ من شونزده سالمه. مارس هفده می‌شم!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "forever",
       "william",
-      "thirty",
+      "forever",
       "nicola",
+      "thirty",
       "she's"
      ],
      "suggestion": "Nicola is six, William is one. Mum says she's \"thirty-nine forever\"!",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "mobile",
+      "dad's",
       "forty",
       "don't",
-      "dad's",
       "told"
      ],
      "suggestion": "Dad's forty-two. Don't tell him I told you! Have you got a mobile?",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "number",
-      "family",
       "what's",
+      "family",
+      "number",
       "group",
-      "chat"
+      "i'll"
      ],
      "suggestion": "What's your number? I'll add you to the family group chat.",
      "suggestionFa": "شماره‌ات چنده؟ اضافه‌ات می‌کنم به گروه خانوادگی.",
@@ -123,8 +123,8 @@
      "keywords": [
       "messages",
       "warning",
-      "sorted",
       "emojis",
+      "sorted",
       "forty"
      ],
      "suggestion": "Sorted. Warning — Nana sends forty messages a day. All emojis.",
@@ -149,8 +149,8 @@
       "password",
       "changed",
       "what's",
-      "again",
-      "right"
+      "right",
+      "again"
      ],
      "suggestion": "You get used to it. Right, what's the Wi-Fi password again? Mum changed it.",
      "suggestionFa": "عادت می‌کنی. خب، رمز وای‌فای چی بود؟ مامان عوضش کرد.",
@@ -173,8 +173,8 @@
      "keywords": [
       "classic",
       "fridge",
-      "ryan",
       "room",
+      "ryan",
       "tidy"
      ],
      "suggestion": "Ha, it's on the fridge. \"Tidy your room, Ryan, 2026.\" Classic Mum.",

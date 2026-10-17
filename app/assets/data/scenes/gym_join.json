@@ -34,8 +34,8 @@
      "keywords": [
       "first",
       "pass",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "Just a day pass for now — I'd like to try it out first.",
      "suggestionFa": "فعلاً فقط بلیت یه‌روزه — می‌خوام اول امتحانش کنم.",
@@ -75,8 +75,8 @@
     {
      "keywords": [
       "rolling",
-      "cancel",
       "prefer",
+      "cancel",
       "time"
      ],
      "suggestion": "I'd prefer the rolling one — can I cancel any time?",
@@ -185,8 +185,8 @@
      "keywords": [
       "fitter",
       "weight",
-      "want",
-      "lose"
+      "lose",
+      "want"
      ],
      "suggestion": "I want to get fitter and lose a bit of weight.",
      "suggestionFa": "می‌خوام بدنم آماده‌تر بشه و یه کم وزن کم کنم.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "strength",
+      "mostly",
       "reduce",
-      "stress",
-      "mostly"
+      "stress"
      ],
      "suggestion": "Mostly to build strength and reduce stress.",
      "suggestionFa": "بیشتر برای قوی شدن و کم کردن استرس.",
@@ -292,10 +292,10 @@
    "branches": [
     {
      "keywords": [
-      "when's",
       "sounds",
+      "when's",
       "class",
-      "good"
+      "yoga"
      ],
      "suggestion": "Yoga sounds good. When's the next class?",
      "suggestionFa": "یوگا خوب به نظر میاد. کلاس بعدی کیه؟",
@@ -306,9 +306,9 @@
     {
      "keywords": [
       "might",
+      "hard",
       "give",
-      "spin",
-      "hard"
+      "spin"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "details",
-      "sure",
-      "bank"
+      "bank",
+      "sure"
      ],
      "suggestion": "Sure — do you need my bank details?",
      "suggestionFa": "البته — مشخصات بانکیم را می‌خواید؟",
@@ -398,9 +398,9 @@
     {
      "keywords": [
       "injury",
+      "fine",
       "last",
-      "knee",
-      "year"
+      "knee"
      ],
      "suggestion": "I had a knee injury last year, but it's fine now.",
      "suggestionFa": "پارسال زانوم آسیب دید، ولی الان خوبه.",

@@ -46,8 +46,8 @@
      "keywords": [
       "birthday",
       "when's",
-      "tenth",
-      "march"
+      "march",
+      "tenth"
      ],
      "suggestion": "My birthday is the tenth of March. When's your birthday?",
      "suggestionFa": "تولدم دهم مارسه. تولد تو کِیه؟",
@@ -71,8 +71,8 @@
       "candles",
       "unicorn",
       "there",
-      "cake",
-      "look"
+      "look",
+      "cake"
      ],
      "suggestion": "Look at my cake! It's a unicorn! And there are six candles.",
      "suggestionFa": "کیکم را ببین! تکشاخه! و شش‌تا شمع داره.",
@@ -120,8 +120,8 @@
      "keywords": [
       "present",
       "open",
-      "can",
-      "now"
+      "now",
+      "can"
      ],
      "suggestion": "A present! Can I open it now? What is it?",
      "suggestionFa": "کادو! الان می‌تونم بازش کنم؟ چیه؟",
@@ -143,10 +143,10 @@
     {
      "keywords": [
       "dinosaurs",
-      "buttons",
       "tonight",
-      "going",
-      "about"
+      "buttons",
+      "about",
+      "going"
      ],
      "suggestion": "A book about dinosaurs! I love it! I'm going to read it tonight with Mr Buttons.",
      "suggestionFa": "یه کتاب دربارهٔ دایناسورها! عاشقشم! امشب با آقای دکمه می‌خونمش.",
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "birthday",
+      "everyone",
       "coming",
       "happy",
       "thank"

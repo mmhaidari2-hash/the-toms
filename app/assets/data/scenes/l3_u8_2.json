@@ -76,7 +76,7 @@
       "worried",
       "that's",
       "about",
-      "tom"
+      "was"
      ],
      "suggestion": "Yes, that's the one that Tom was worried about.",
      "suggestionFa": "آره، همونیه که تام نگرانش بود.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "person",
-      "tom's",
       "knows",
+      "tom's",
       "sure"
      ],
      "suggestion": "I'm not sure. Tom's the person who knows.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "today",
-      "fix",
-      "can"
+      "can",
+      "fix"
      ],
      "suggestion": "Can you fix it today?",
      "suggestionFa": "امروز می‌تونید درستش کنید؟",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "roughly",
+      "much",
       "cost",
-      "will",
-      "much"
+      "will"
      ],
      "suggestion": "How much will it cost, roughly?",
      "suggestionFa": "تقریباً چقدر میشه؟",
@@ -253,8 +253,8 @@
      "keywords": [
       "happening",
       "should",
-      "there",
-      "again"
+      "again",
+      "there"
      ],
      "suggestion": "Is there anything we should do to stop it happening again?",
      "suggestionFa": "کاری هست که جلوی تکرارش را بگیریم؟",

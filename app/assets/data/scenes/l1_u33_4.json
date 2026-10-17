@@ -67,8 +67,8 @@
     {
      "keywords": [
       "family",
-      "tom",
-      "big"
+      "big",
+      "tom"
      ],
      "suggestion": "The big one, Tom. For your family!",
      "suggestionFa": "بزرگه تام. برای خانواده‌ت!",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "ask",
-      "tom",
-      "box"
+      "box",
+      "tom"
      ],
      "suggestion": "Ask for a box, Tom.",
      "suggestionFa": "یه جعبه بخواه تام.",
@@ -152,8 +152,8 @@
    "branches": [
     {
      "keywords": [
-      "mistake",
       "there's",
+      "mistake",
       "think",
       "sorry"
      ],
@@ -167,8 +167,8 @@
      "keywords": [
       "pounds",
       "that's",
-      "wrong",
-      "three"
+      "three",
+      "wrong"
      ],
      "suggestion": "Three pounds? That's wrong.",
      "suggestionFa": "سه پوند؟ اشتباهه.",
@@ -229,9 +229,9 @@
     },
     {
      "keywords": [
-      "should",
       "change",
-      "pounds"
+      "pounds",
+      "should"
      ],
      "suggestion": "It should be eight pounds change.",
      "suggestionFa": "بقیه‌ش باید هشت پوند باشه.",
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
-      "happens"
+      "happens",
+      "problem"
      ],
      "suggestion": "No problem. It happens.",
      "suggestionFa": "مشکلی نیست. پیش میاد.",
@@ -273,8 +273,8 @@
     {
      "keywords": [
       "worry",
-      "about",
-      "don't"
+      "don't",
+      "about"
      ],
      "suggestion": "Don't worry about it.",
      "suggestionFa": "نگران نباش.",
@@ -315,10 +315,10 @@
     },
     {
      "keywords": [
-      "fares",
       "count",
       "every",
-      "day"
+      "fares",
+      "bus"
      ],
      "suggestion": "You count bus fares every day!",
      "suggestionFa": "تو که هر روز کرایه می‌شمری!",
@@ -365,8 +365,8 @@
      "keywords": [
       "evening",
       "thank",
-      "have",
-      "good"
+      "good",
+      "have"
      ],
      "suggestion": "Thank you! Have a good evening.",
      "suggestionFa": "ممنون! عصر خوبی داشته باشید.",

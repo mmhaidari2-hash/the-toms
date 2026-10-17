@@ -25,7 +25,7 @@
       "retail",
       "right",
       "park",
-      "part"
+      "pack"
      ],
      "suggestion": "Right. Retail park: done. One wardrobe, flat-pack, for your room. Now the hard part. Will it fit in the car?",
      "suggestionFa": "خب. مرکز خرید: تموم. یه کمد لباس، جعبه‌ای، برای اتاقت. حالا بخش سخت. تو ماشین جا میشه؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "thinking",
       "three",
-      "heavy",
       "seats",
-      "down"
+      "heavy",
+      "good"
      ],
      "suggestion": "Good thinking. Seats down. Now — it's heavy. Can you give me a hand? You take that end. On three. One, two, three!",
      "suggestionFa": "فکر خوبیه. صندلی‌ها خوابید. حالا — سنگینه. کمکم می‌کنی؟ تو اون سر را بگیر. با سه. یک، دو، سه!",
@@ -73,8 +73,8 @@
      "keywords": [
       "though",
       "back's",
-      "years",
-      "forty",
+      "knees",
+      "won't",
       "close"
      ],
      "suggestion": "Bend your knees, not your back! My back's forty-two years old. It's in. Just. The boot won't close, though.",
@@ -98,9 +98,9 @@
      "keywords": [
       "professional",
       "delivery's",
-      "pounds",
+      "maggie",
       "bungee",
-      "maggie"
+      "pounds"
      ],
      "suggestion": "Delivery's forty pounds. I've got a bungee cord. Very professional. We'll drive slowly. Like Nana Maggie.",
      "suggestionFa": "تحویل چهل پونده. من کش بار دارم. خیلی حرفه‌ای. آروم رانندگی می‌کنیم. مثل ننه مگی.",
@@ -148,9 +148,9 @@
      "keywords": [
       "pictures",
       "hundred",
-      "smiling",
       "missing",
-      "always"
+      "smiling",
+      "screws"
      ],
      "suggestion": "No words. Only pictures. A little smiling man. Two hundred screws. And one is always missing. Always.",
      "suggestionFa": "بدون کلمه. فقط عکس. یه آدمک کوچیکِ خندون. دویست تا پیچ. و همیشه یکی کمه. همیشه.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "useless",
+      "there's",
       "screws",
-      "drill",
-      "pizza"
+      "pizza",
+      "allen"
      ],
      "suggestion": "There's an Allen key in the box. Tiny. Useless. But I've got a drill. Ryan can help — he's good with screws. And pizza.",
      "suggestionFa": "یه آچار آلن تو جعبه هست. ریزه. بی‌فایده. ولی من دریل دارم. رایان می‌تونه کمک کنه — با پیچ واردِه. و با پیتزا.",
@@ -198,7 +198,7 @@
      "keywords": [
       "crash",
       "don't",
-      "want",
+      "kind",
       "look",
       "belt"
      ],

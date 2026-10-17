@@ -24,8 +24,8 @@
       "roared",
       "moved",
       "best",
-      "did",
-      "rex"
+      "see",
+      "was"
      ],
      "suggestion": "That was the BEST! Did you see the T. rex? It moved! And it roared!",
      "suggestionFa": "فوق‌العاده بود! تیرکس را دیدی؟ تکون خورد! و غرش کرد!",
@@ -75,7 +75,7 @@
       "chocolate",
       "dinosaur",
       "there's",
-      "cookie"
+      "boring"
      ],
      "suggestion": "Sandwiches first. Boring! OK. Look — there's a dinosaur cookie! And a chocolate cake. Which one?",
      "suggestionFa": "اول ساندویچ. خسته‌کننده! باشه. ببین — کلوچهٔ دایناسوری هست! و کیک شکلاتی. کدومش؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -239,9 +239,9 @@
      "keywords": [
       "dinosaur",
       "bigger",
-      "extra",
       "whale",
-      "house"
+      "house",
+      "extra"
      ],
      "suggestion": "Extra cream! The dinosaur was bigger than our house. And the whale was bigger than a bus!",
      "suggestionFa": "خامهٔ اضافه! دایناسوره از خونهٔ ما بزرگ‌تر بود. و نهنگ از اتوبوس بزرگ‌تر بود!",
@@ -264,9 +264,9 @@
      "keywords": [
       "dinosaurs",
       "bigger",
-      "loved",
       "buses",
-      "i'll"
+      "loved",
+      "grow"
      ],
      "suggestion": "Bigger than TWO buses! I loved the T. rex. When I grow up, I'll dig up dinosaurs!",
      "suggestionFa": "بزرگ‌تر از دو تا اتوبوس! عاشق تیرکس شدم. وقتی بزرگ شدم، دایناسور از زیر خاک درمیارم!",

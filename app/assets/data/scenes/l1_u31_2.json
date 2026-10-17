@@ -77,8 +77,8 @@
     {
      "keywords": [
       "catch",
-      "mia",
-      "did"
+      "did",
+      "mia"
      ],
      "suggestion": "Did Mia catch you?",
      "suggestionFa": "میا گرفتت؟",
@@ -218,8 +218,8 @@
     },
     {
      "keywords": [
-      "cry",
-      "did"
+      "did",
+      "cry"
      ],
      "suggestion": "Did you cry?",
      "suggestionFa": "گریه کردی؟",
@@ -276,8 +276,8 @@
     {
      "keywords": [
       "sticker",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see the sticker?",
      "suggestionFa": "می‌تونم برچسب را ببینم؟",
@@ -317,8 +317,8 @@
     },
     {
      "keywords": [
-      "like",
       "game",
+      "like",
       "tag"
      ],
      "suggestion": "We played a game like tag.",

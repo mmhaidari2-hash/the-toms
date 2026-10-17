@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "breakfast",
       "scrambled",
+      "breakfast",
       "leslie's",
-      "having",
-      "making"
+      "making",
+      "having"
      ],
      "suggestion": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
      "suggestionFa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "problem",
-      "whisk",
       "spoon",
-      "them",
-      "fast"
+      "whisk",
+      "fast",
+      "them"
      ],
      "suggestion": "No problem. Get it out with a spoon. Now whisk them. Fast!",
      "suggestionFa": "مشکلی نیست. با قاشق درش بیار. حالا همشون بزن. سریع!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "pepper",
-      "some",
       "fine",
-      "salt",
-      "milk"
+      "fork",
+      "milk",
+      "salt"
      ],
      "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
      "suggestionFa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن.",
@@ -124,8 +124,8 @@
       "butter",
       "medium",
       "pinch",
-      "high",
-      "heat"
+      "heat",
+      "high"
      ],
      "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
      "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
@@ -149,8 +149,8 @@
       "stirring",
       "slowly",
       "don't",
-      "them",
-      "stop"
+      "stir",
+      "them"
      ],
      "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
      "suggestionFa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "they're",
+      "cooking",
       "still",
       "ready",
       "toast"

@@ -75,8 +75,8 @@
      "keywords": [
       "bother",
       "sorry",
-      "bit",
-      "but"
+      "but",
+      "bit"
      ],
      "suggestion": "Sorry to bother you, but it's a bit cold.",
      "suggestionFa": "ببخشید مزاحم میشم، ولی یه کم سرده.",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "another",
-      "that's",
       "please",
+      "that's",
       "could"
      ],
      "suggestion": "That's OK. Could I have another one, please?",
@@ -155,8 +155,8 @@
     {
      "keywords": [
       "lukewarm",
-      "coffee",
       "drinks",
+      "coffee",
       "who"
      ],
      "suggestion": "Lukewarm? Who drinks lukewarm coffee?",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "worries",
       "machine",
+      "worries",
       "coffee",
       "new"
      ],
@@ -208,8 +208,8 @@
     },
     {
      "keywords": [
-      "worry",
       "hurry",
+      "worry",
       "don't"
      ],
      "suggestion": "Don't worry, I'm not in a hurry.",
@@ -253,9 +253,9 @@
     {
      "keywords": [
       "perfect",
+      "that's",
       "better",
-      "thanks",
-      "that's"
+      "thanks"
      ],
      "suggestion": "Perfect. That's much better, thanks.",
      "suggestionFa": "عالی. خیلی بهتره، مرسی.",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "careful",
-      "hot",
       "now",
+      "hot",
       "ha"
      ],
      "suggestion": "Careful! It's very hot now. Ha!",
@@ -319,8 +319,8 @@
     },
     {
      "keywords": [
-      "thank",
       "don't",
+      "thank",
       "have",
       "but"
      ],

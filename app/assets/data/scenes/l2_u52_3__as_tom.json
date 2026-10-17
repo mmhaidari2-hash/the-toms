@@ -72,10 +72,10 @@
     {
      "keywords": [
       "problem",
-      "there's",
       "morning",
-      "sophie",
-      "afraid"
+      "there's",
+      "afraid",
+      "bother"
      ],
      "suggestion": "Good. \"I'm afraid there's a problem…\" Sophie! Morning. Sorry to bother you. I'm afraid our room is a bit… noisy.",
      "suggestionFa": "خوبه. «متأسفانه یه مشکلی…» سوفی! صبح بخیر. ببخشید مزاحم میشم. متأسفانه اتاقمون یه کم… پرسروصداست.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -208,7 +208,7 @@
       "smaller",
       "sophie",
       "quiet",
-      "great"
+      "would"
      ],
      "suggestion": "Smaller is fine. Quiet is everything. That would be great, Sophie. Thank you.",
      "suggestionFa": "کوچیک‌تر اشکالی نداره. سکوت یعنی همه‌چی. عالی میشه سوفی. ممنون.",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -279,10 +279,10 @@
     {
      "keywords": [
       "complain",
-      "sophie",
-      "polite",
       "that's",
-      "dinner"
+      "dinner",
+      "polite",
+      "sophie"
      ],
      "suggestion": "Free dinner? Sophie, you're a star. See? That's how you complain. Polite, and you get dinner!",
      "suggestionFa": "شام مجانی؟ سوفی، تو یه ستاره‌ای. دیدی؟ اینجوری شکایت می‌کنن. مؤدبانه، و شام می‌گیری!",
@@ -305,8 +305,8 @@
      "keywords": [
       "shouting",
       "strange",
-      "doesn't",
       "country",
+      "doesn't",
       "moving"
      ],
      "suggestion": "Shouting doesn't work here. Smile, say sorry, and they give you more. Strange country. Right — I'm moving our bags. Then a nap.",
@@ -332,7 +332,7 @@
       "properly",
       "tonight",
       "i'll",
-      "sing"
+      "hear"
      ],
      "suggestion": "Help with the bags, yes. And if you hear Wonderwall tonight, wake me up. I'll go and sing it properly.",
      "suggestionFa": "کمک با کیف‌ها، آره. و اگه امشب واندروال شنیدی، بیدارم کن. میرم درست‌حسابی می‌خونمش.",

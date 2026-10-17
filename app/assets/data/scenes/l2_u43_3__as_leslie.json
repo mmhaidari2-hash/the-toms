@@ -25,7 +25,7 @@
       "watching",
       "cities",
       "london",
-      "world"
+      "tom's"
      ],
      "suggestion": "Tom's watching a documentary about cities. He says London is the best city in the world. What do you think?",
      "suggestionFa": "تام داره یه مستند دربارهٔ شهرها می‌بینه. میگه لندن بهترین شهر دنیاست. نظر تو چیه؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "heartbroken",
       "compare",
+      "tehran",
       "busier",
-      "london",
-      "tehran"
+      "london"
      ],
      "suggestion": "Ha! He'll be heartbroken. OK — compare them. Is London busier than Tehran?",
      "suggestionFa": "ها! دلش می‌شکنه. باشه — مقایسه‌شون کن. لندن از تهران شلوغ‌تره؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "transport",
-      "traffic",
       "imagine",
-      "london",
-      "public"
+      "traffic",
+      "public",
+      "london"
      ],
      "suggestion": "Worse than London traffic? I can't imagine! And the public transport? Our Tube is old and hot.",
      "suggestionFa": "از ترافیک لندن بدتر؟ تصورش را هم نمی‌تونم بکنم! و حمل‌ونقل عمومی؟ متروی ما قدیمی و گرمه.",
@@ -98,9 +98,9 @@
      "keywords": [
       "what's",
       "london",
+      "about",
       "thing",
-      "again",
-      "about"
+      "again"
      ],
      "suggestion": "The 38! Tom will love you again. What's the best thing about London for you?",
      "suggestionFa": "۳۸! تام دوباره عاشقت میشه. برای تو بهترین چیز لندن چیه؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "britain",
       "museums",
+      "britain",
       "things",
       "honest",
       "london"
@@ -149,7 +149,7 @@
       "londoner",
       "weather",
       "prefer",
-      "can't",
+      "which",
       "every"
      ],
      "suggestion": "The rent and the weather. Every Londoner says the same! So, which do you prefer? You can't say both.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "diplomatic",
-      "hackney",
       "prefers",
+      "hackney",
       "london",
       "hear"
      ],
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

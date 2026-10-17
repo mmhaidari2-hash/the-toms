@@ -1,0 +1,284 @@
+{
+ "id": "l2_u62_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Reading levels",
+ "titleFa": "(در نقش Tom) سطح خواندن",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u62_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "question",
+      "reading",
+      "colours",
+      "yellow"
+     ],
+     "suggestion": "Mehdi, quick question. The reading book. Nicola's on \"yellow\" now. What does yellow mean? Is that good? I only know bus colours!",
+     "suggestionFa": "{you}، یه سؤال سریع. کتاب خوندن. نیکولا الان رو «زرد»ه. زرد یعنی چی؟ خوبه؟ من فقط رنگ اتوبوس‌ها را بلدم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I think the colours are reading levels.",
+   "translations": {
+    "fa": "فکر کنم رنگ‌ها سطح خوندنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yellow's",
+      "readers",
+      "levels",
+      "yellow",
+      "moved"
+     ],
+     "suggestion": "Right, levels! Pink, then red, then yellow. So she's moved up two levels this year. Yellow's for good readers!",
+     "suggestionFa": "آهان، سطح! صورتی، بعد قرمز، بعد زرد. پس امسال دو سطح بالا رفته. زرد برای خواننده‌های خوبه!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Two levels! Well done, Nicola!",
+   "translations": {
+    "fa": "دو سطح! آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "nicola",
+   "text": "Daddy, I can read \"the\" and \"said\" now! They're tricky words. You can't sound them out.",
+   "translations": {
+    "fa": "بابایی، الان می‌تونم «د» و «سِد» را بخونم! کلمه‌های سختن. نمی‌شه صداهاشون را جدا خوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tricky words",
+     "fa": "کلمه‌های سخت (بی‌قاعده)"
+    },
+    {
+     "word": "sound out",
+     "fa": "صداها را جدا خواندن"
+    },
+    {
+     "word": "said",
+     "fa": "گفت"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Tricky words? Show me, Nicola!",
+   "translations": {
+    "fa": "کلمه‌های سخت؟ نشونم بده نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "phonics",
+      "sound",
+      "weird",
+      "isn't"
+     ],
+     "suggestion": "Phonics! She says each sound — \"c-a-t\", cat. But \"said\" isn't \"s-a-i-d\". English is weird. Even I know that.",
+     "suggestionFa": "فونیکس! هر صدا را میگه — «ک-ا-ت»، کت. ولی «سِد» «س-ا-ی-د» نیست. انگلیسی عجیبه. اینو حتی منم می‌دونم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "English spelling is very strange!",
+   "translations": {
+    "fa": "املای انگلیسی خیلی عجیبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "Miss Ellis says read every night. Ten minutes. And Daddy has to sign the reading record!",
+   "translations": {
+    "fa": "خانم الیس میگه هر شب بخونید. ده دقیقه. و بابایی باید دفتر خوندن را امضا کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "every night",
+     "fa": "هر شب"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "reading record",
+     "fa": "دفتر ثبت مطالعه"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ten minutes every night. That's easy!",
+   "translations": {
+    "fa": "هر شب ده دقیقه. آسونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "comment",
+      "little",
+      "every",
+      "night"
+     ],
+     "suggestion": "It's a little book. We write what she read, and one comment. Last week I wrote \"Brilliant!\" every night. Too lazy?",
+     "suggestionFa": "یه دفترچهٔ کوچیکه. می‌نویسیم چی خونده، و یه نظر. هفتهٔ پیش هر شب نوشتم «عالی!». زیادی تنبلیه؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Maybe write something different each night!",
+   "translations": {
+    "fa": "شاید هر شب یه چیز متفاوت بنویس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "bedtime",
+      "herself",
+      "nicola",
+      "nearly"
+     ],
+     "suggestion": "Good idea. Tonight: \"Nicola read 'said' all by herself. Dad nearly cried.\" True, that. Right — bedtime story, then sign!",
+     "suggestionFa": "فکر خوبیه. امشب: «نیکولا خودش تنهایی «سِد» را خوند. بابا نزدیک بود گریه کنه.» راستش همینه. خب — قصهٔ شب، بعد امضا!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Can I listen to her read tonight?",
+   "translations": {
+    "fa": "می‌تونم امشب گوش بدم بخونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "nicola",
+   "text": "Yes! Mehdi can listen. I'll read \"The Big Bus\". It's got a red bus in it!",
+   "translations": {
+    "fa": "آره! {you} می‌تونه گوش بده. «اتوبوس بزرگ» را می‌خونم. یه اتوبوس قرمز توشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

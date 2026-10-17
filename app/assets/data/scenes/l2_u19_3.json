@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "stand",
+      "right",
       "left"
      ],
      "suggestion": "Stand on the right, walk on the left.",
@@ -124,9 +124,9 @@
    "branches": [
     {
      "keywords": [
-      "people",
-      "that's",
       "polite",
+      "that's",
+      "people",
       "first"
      ],
      "suggestion": "Let people off first. That's polite.",
@@ -234,8 +234,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "nobody",
+      "really",
       "talks"
      ],
      "suggestion": "Really? Nobody talks?",
@@ -284,7 +284,7 @@
       "tehran",
       "people",
       "metro",
-      "talk"
+      "time"
      ],
      "suggestion": "In Tehran, people talk on the metro all the time!",
      "suggestionFa": "تو تهران، مردم تو مترو مدام حرف می‌زنن!",
@@ -294,8 +294,8 @@
     },
     {
      "keywords": [
-      "i'll",
       "book",
+      "i'll",
       "read",
       "ok"
      ],

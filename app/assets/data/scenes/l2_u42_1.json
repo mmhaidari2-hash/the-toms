@@ -21,8 +21,8 @@
      "keywords": [
       "minute",
       "here",
-      "ago",
-      "was"
+      "was",
+      "ago"
      ],
      "suggestion": "Yes! He was here a minute ago.",
      "suggestionFa": "آره! یه دقیقه پیش اینجا بود.",
@@ -72,10 +72,10 @@
    "branches": [
     {
      "keywords": [
-      "short",
       "beard",
+      "short",
       "white",
-      "hair"
+      "grey"
      ],
      "suggestion": "He's got grey hair and a short white beard.",
      "suggestionFa": "موهاش خاکستریه و یه ریش کوتاه سفید داره.",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "seventy",
-      "quite",
+      "about",
       "think",
-      "about"
+      "quite"
      ],
      "suggestion": "He's quite tall and thin. About seventy, I think.",
      "suggestionFa": "نسبتاً قدبلند و لاغره. فکر کنم حدود هفتاد.",
@@ -147,8 +147,8 @@
      "keywords": [
       "wearing",
       "green",
-      "flat",
-      "coat"
+      "coat",
+      "flat"
      ],
      "suggestion": "He was wearing a green coat and a flat cap.",
      "suggestionFa": "یه کت سبز و کلاه کپ پوشیده بود.",
@@ -158,10 +158,10 @@
     },
     {
      "keywords": [
-      "small",
       "brown",
-      "had",
-      "dog"
+      "small",
+      "dog",
+      "him"
      ],
      "suggestion": "He had a brown dog with him. A small one.",
      "suggestionFa": "یه سگ قهوه‌ای کوچیک همراهش بود.",
@@ -215,8 +215,8 @@
     },
     {
      "keywords": [
-      "about",
       "sorry",
+      "about",
       "sure"
      ],
      "suggestion": "I'm not sure about glasses. Sorry.",
@@ -258,7 +258,7 @@
       "that's",
       "let's",
       "thank",
-      "him"
+      "say"
      ],
      "suggestion": "Yes, that's him! Let's go and say thank you.",
      "suggestionFa": "آره، خودشه! بریم تشکر کنیم.",
@@ -318,8 +318,8 @@
     },
     {
      "keywords": [
-      "recognise",
       "neighbour",
+      "recognise",
       "didn't"
      ],
      "suggestion": "You didn't recognise your neighbour?",
@@ -360,8 +360,8 @@
      "keywords": [
       "lemon",
       "last",
-      "week",
-      "told"
+      "told",
+      "week"
      ],
      "suggestion": "He likes lemon cake. He told me last week.",
      "suggestionFa": "کیک لیمو دوست داره. هفتهٔ پیش بهم گفت.",
@@ -372,8 +372,8 @@
     {
      "keywords": [
       "think",
-      "than",
       "more",
+      "than",
       "dog"
      ],
      "suggestion": "He likes his dog more than cake, I think!",

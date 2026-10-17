@@ -86,8 +86,8 @@
     {
      "keywords": [
       "children",
-      "each",
       "race",
+      "each",
       "many"
      ],
      "suggestion": "How many children are in each race?",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "wait",
       "have",
+      "wait",
       "run"
      ],
      "suggestion": "Wait — I have to run too?",
@@ -242,9 +242,9 @@
     },
     {
      "keywords": [
-      "fall",
-      "best",
       "i'll",
+      "best",
+      "fall",
       "over"
      ],
      "suggestion": "I'll try my best not to fall over!",

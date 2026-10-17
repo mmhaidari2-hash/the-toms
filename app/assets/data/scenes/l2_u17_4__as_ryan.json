@@ -24,8 +24,8 @@
       "ordered",
       "burgers",
       "isn't",
-      "here",
-      "bruv"
+      "look",
+      "here"
      ],
      "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
      "suggestionFa": "داداش. برگرها رسیدن، ولی… این چیزی نیست که سفارش دادیم. ببین.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "chicken",
-      "burger",
       "veggie",
-      "rings",
-      "onion"
+      "burger",
+      "asked",
+      "where"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
      "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "message",
+      "english",
       "polite",
       "write",
-      "than"
+      "more"
      ],
      "suggestion": "Now we write a message. You write it, your English is more polite than mine.",
      "suggestionFa": "حالا یه پیام می‌نویسیم. تو بنویس، انگلیسیت از من مؤدبانه‌تره.",
@@ -198,9 +198,9 @@
      "keywords": [
       "vegetarian",
       "tomorrow",
+      "waste",
       "shame",
-      "don't",
-      "waste"
+      "don't"
      ],
      "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",
      "suggestionFa": "خب… حیفه هدر بره. می‌خورمش. از فردا گیاه‌خوارم. به مامان نگو!",

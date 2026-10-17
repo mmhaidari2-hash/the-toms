@@ -6,6 +6,8 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
 import '../shared/widgets.dart';
+import '../motivation/motivation_widgets.dart';
+import '../../core/platform/remind.dart';
 import 'map_spots.dart';
 
 /// A region of the painted roadmap. [rects] are normalised (x, y, w, h) tap areas on map.webp.
@@ -139,6 +141,8 @@ class _MapHomeState extends ConsumerState<MapHome> {
             left: 20, right: 10, top: pad.top + 10,
             child: Row(children: [
               Expanded(child: Text('The Toms', style: BL.display(28, color: Colors.white).copyWith(shadows: const [Shadow(blurRadius: 8, color: Colors.black54)]))),
+              const _StatsChip(),
+              const SizedBox(width: 8),
               _RoundBtn(key: const ValueKey('menu'), icon: Icons.menu_rounded, onTap: () {
                 ScaffoldMessenger.of(context).hideCurrentSnackBar();
                 showAppMenu(context, ref);
@@ -194,6 +198,55 @@ class _MapHomeState extends ConsumerState<MapHome> {
   }
 }
 
+/// Streak + today's goal ring; opens the progress screen. One small chip keeps the map uncluttered.
+class _StatsChip extends ConsumerStatefulWidget {
+  const _StatsChip();
+  @override
+  ConsumerState<_StatsChip> createState() => _StatsChipState();
+}
+
+class _StatsChipState extends ConsumerState<_StatsChip> {
+  @override
+  void initState() {
+    super.initState();
+    // Daily reminder nudge: once a day after the chosen time, if today's goal isn't met yet.
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final ctrl = ref.read(progressProvider.notifier);
+      if (!mounted || !ctrl.reminderDue()) return;
+      ctrl.markReminded();
+      final left = ctrl.dailyGoal - ctrl.xpToday;
+      final sent = await showNotification('English with the Toms', '$left XP to your daily goal. Keep your ${ctrl.currentStreak}-day streak going!');
+      if (!sent && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(behavior: SnackBarBehavior.floating, content: Text('Reminder: $left XP to today\'s goal. One lesson will do it!')));
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    ref.watch(progressProvider);
+    final ctrl = ref.read(progressProvider.notifier);
+    return Material(
+      color: Colors.white.withValues(alpha: .92),
+      shape: const StadiumBorder(),
+      child: InkWell(
+        key: const ValueKey('stats-chip'),
+        customBorder: const StadiumBorder(),
+        onTap: () => context.push('/progress'),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(10, 7, 10, 7),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [
+            const Icon(Icons.local_fire_department_rounded, color: BL.red, size: 22),
+            Text('${ctrl.currentStreak}', style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 15, color: BL.ink)),
+            const SizedBox(width: 8),
+            GoalRing(xp: ctrl.xpToday, goal: ctrl.dailyGoal, size: 22),
+          ]),
+        ),
+      ),
+    );
+  }
+}
+
 class _RoundBtn extends StatelessWidget {
   final IconData icon;
   final VoidCallback onTap;
@@ -240,6 +293,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
   final c = ref.read(contentProvider).value;
   final items = <(IconData, String, String, String)>[
     (Icons.route_rounded, 'Course path', 'مسیر درس‌ها', '/course'),
+    (Icons.local_fire_department_rounded, 'Streak, goal, league & badges', 'رکورد، هدف، لیگ و نشان‌ها', '/progress'),
     (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
     if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
     (Icons.workspace_premium_outlined, 'Premium (free in beta)', 'اشتراک ویژه (رایگان در دورهٔ آزمایشی)', '/premium'),

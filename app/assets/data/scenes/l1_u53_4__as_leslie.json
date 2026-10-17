@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "postman",
       "collect",
-      "missed",
+      "postman",
       "parcel",
+      "missed",
       "sorry"
      ],
      "suggestion": "Nana got a card from the postman. \"Sorry we missed you.\" Can you collect her parcel?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "street",
-      "post",
+      "office",
       "card",
-      "high"
+      "post",
+      "need"
      ],
      "suggestion": "It says it's at the post office on the high street. You need the card and ID.",
      "suggestionFa": "میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "signed",
-      "card",
-      "take",
       "back",
-      "nana"
+      "card",
+      "nana",
+      "take"
      ],
      "suggestion": "Nana has signed the back of the card. So take your ID and her card.",
      "suggestionFa": "نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -311,8 +311,8 @@
       "collecting",
       "together",
       "hackney",
-      "purple",
-      "thanks"
+      "thanks",
+      "purple"
      ],
      "suggestion": "Nana knits for half of Hackney! Ha! Thanks for collecting it. Let's open it together — I bet it's purple wool.",
      "suggestionFa": "نانا برای نصف هکنی بافتنی می‌بافه! ها! ممنون که تحویل گرفتی. بیا با هم بازش کنیم — شرط می‌بندم کاموای بنفشه.",

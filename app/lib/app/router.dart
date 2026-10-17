@@ -12,6 +12,7 @@ import '../features/home/home_screen.dart';
 import '../features/place/place_screen.dart';
 import '../features/onboarding/onboarding_screen.dart';
 import '../features/premium/premium_screen.dart';
+import '../features/motivation/progress_screen.dart';
 import '../features/premium/certificate_screen.dart';
 import '../features/diary/diary_screen.dart';
 
@@ -35,6 +36,7 @@ final router = GoRouter(
     GoRoute(path: '/placement', pageBuilder: (_, s) => _fade(const PlacementScreen(), s)),
     GoRoute(path: '/howto', pageBuilder: (_, s) => _fade(const HowToScreen(), s)),
     GoRoute(path: '/onboarding', pageBuilder: (_, s) => _fade(const OnboardingScreen(), s)),
+    GoRoute(path: '/progress', pageBuilder: (_, s) => _fade(const ProgressScreen(), s)),
     GoRoute(path: '/premium', pageBuilder: (_, s) => _fade(PremiumScreen(key: ValueKey('premium-${s.uri.queryParameters['pack']}'), pack: s.uri.queryParameters['pack']), s)),
     GoRoute(path: '/certificate/:level', pageBuilder: (_, s) => _fade(CertificateScreen(key: ValueKey('cert-${s.pathParameters['level']}'), level: int.tryParse(s.pathParameters['level']!) ?? 1), s)),
     GoRoute(path: '/diary', pageBuilder: (_, s) => _fade(const DiaryScreen(), s)),

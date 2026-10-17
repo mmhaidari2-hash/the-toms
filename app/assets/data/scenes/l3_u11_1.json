@@ -33,8 +33,8 @@
     {
      "keywords": [
       "cooking",
-      "badly",
       "while",
+      "badly",
       "hand"
      ],
      "suggestion": "I cut my hand badly while I was cooking.",
@@ -97,7 +97,7 @@
       "o'clock",
       "around",
       "think",
-      "fall"
+      "stop"
      ],
      "suggestion": "Around two o'clock. I think I put my hand out to stop the fall.",
      "suggestionFa": "حدود ساعت دو. فکر کنم دستم را دراز کردم که نیفتم.",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "still",
-      "five",
+      "keep",
       "nine",
-      "keep"
+      "when"
      ],
      "suggestion": "A five when I keep still, but a nine if I move it.",
      "suggestionFa": "وقتی تکونش نمی‌دم پنج، ولی اگه حرکتش بدم نه.",
@@ -193,8 +193,8 @@
      "keywords": [
       "numbness",
       "hurts",
-      "move",
-      "them"
+      "them",
+      "move"
      ],
      "suggestion": "I can move them, but it hurts. No numbness.",
      "suggestionFa": "می‌تونم تکونشون بدم، ولی درد داره. بی‌حسی نه.",
@@ -204,8 +204,8 @@
     },
     {
      "keywords": [
-      "feels",
       "thumb",
+      "feels",
       "numb",
       "bit"
      ],
@@ -295,8 +295,8 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "long",
+      "will",
       "wait",
       "how"
      ],
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "waiting",
-      "leslie",
       "friend",
+      "leslie",
       "room"
      ],
      "suggestion": "My friend Leslie is in the waiting room.",

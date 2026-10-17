@@ -22,7 +22,7 @@
       "hackney",
       "coffee",
       "course",
-      "best"
+      "make"
      ],
      "suggestion": "Of course! You make the best coffee in Hackney.",
      "suggestionFa": "البته! تو بهترین قهوهٔ هکنی را درست می‌کنی.",
@@ -197,8 +197,8 @@
    "branches": [
     {
      "keywords": [
-      "mario",
       "rival",
+      "mario",
       "ha"
      ],
      "suggestion": "Ha! Is Mario your rival?",
@@ -318,8 +318,8 @@
     },
     {
      "keywords": [
-      "course",
       "coffee",
+      "course",
       "good"
      ],
      "suggestion": "Good coffee, of course!",

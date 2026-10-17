@@ -75,8 +75,8 @@
      "keywords": [
       "promise",
       "three",
-      "pick",
-      "half"
+      "half",
+      "pick"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
-      "both",
+      "will",
       "here",
-      "will"
+      "both"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -127,7 +127,7 @@
       "wonderful",
       "nicola",
       "have",
-      "bye"
+      "day"
      ],
      "suggestion": "Bye, Nicola! Have a wonderful day!",
      "suggestionFa": "خداحافظ نیکولا! روز فوق‌العاده‌ای داشته باشی!",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "star",
       "well",
+      "done",
       "gold",
-      "done"
+      "star"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -330,8 +330,8 @@
     },
     {
      "keywords": [
-      "though",
       "listen",
+      "though",
       "hart",
       "miss"
      ],
@@ -382,8 +382,8 @@
      "keywords": [
       "shepherd's",
       "like",
-      "did",
-      "pie"
+      "pie",
+      "did"
      ],
      "suggestion": "Shepherd's pie! Did you like it?",
      "suggestionFa": "پای چوپان! دوستش داشتی؟",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "fingers",
-      "earned",
       "you've",
+      "earned",
       "fish"
      ],
      "suggestion": "Fish fingers it is — you've earned it!",

@@ -24,8 +24,8 @@
       "learnt",
       "school",
       "about",
-      "know",
-      "five"
+      "five",
+      "know"
      ],
      "suggestion": "At school we learnt about \"five a day\". Do you know it?",
      "suggestionFa": "تو مدرسه دربارهٔ «پنج در روز» یاد گرفتیم. می‌دونی چیه؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "vegetables",
-      "let's",
       "every",
+      "let's",
       "today",
-      "fruit"
+      "count"
      ],
      "suggestion": "Five fruit and vegetables every day! Let's count. What did you eat today?",
      "suggestionFa": "پنج تا میوه و سبزی هر روز! بیا بشمریم. امروز چی خوردی؟",
@@ -74,8 +74,8 @@
       "strawberries",
       "favourite",
       "that's",
-      "two",
-      "had"
+      "had",
+      "two"
      ],
      "suggestion": "That's two! I had strawberries. Strawberries are my favourite.",
      "suggestionFa": "این دو تا! من توت‌فرنگی خوردم. توت‌فرنگی مورد علاقه‌مه.",
@@ -148,7 +148,7 @@
       "sweetcorn",
       "purple",
       "don't",
-      "peas"
+      "like"
      ],
      "suggestion": "Aubergines are purple! I don't like them. I like peas and sweetcorn.",
      "suggestionFa": "بادمجون بنفشه! دوستش ندارم. نخود فرنگی و ذرت دوست دارم.",
@@ -170,10 +170,10 @@
     {
      "keywords": [
       "carrots",
-      "says",
       "nana",
       "dark",
-      "help"
+      "help",
+      "says"
      ],
      "suggestion": "Yes! Carrots help you see in the dark. Nana says so.",
      "suggestionFa": "آره! هویج کمک می‌کنه تو تاریکی ببینی. نانا این‌جوری می‌گه.",
@@ -221,8 +221,8 @@
      "keywords": [
       "vegetables",
       "tonight",
-      "making",
       "that's",
+      "making",
       "mummy"
      ],
      "suggestion": "Well done! You get a gold star! Tonight Mummy is making soup. That's lots of vegetables!",

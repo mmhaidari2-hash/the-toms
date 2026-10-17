@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "market",
-      "fish",
-      "need"
+      "leslie",
+      "need",
+      "fish"
      ],
      "suggestion": "To the market. I need fish for Leslie.",
      "suggestionFa": "بازار. برای لزلی ماهی لازم دارم.",
@@ -86,8 +86,8 @@
      "keywords": [
       "street",
       "number",
-      "mare",
-      "home"
+      "home",
+      "mare"
      ],
      "suggestion": "Home. Number ten, Mare Street.",
      "suggestionFa": "خونه. پلاک ده، مِر استریت.",
@@ -131,8 +131,8 @@
      "keywords": [
       "minutes",
       "which",
-      "five",
-      "walk"
+      "walk",
+      "five"
      ],
      "suggestion": "Five minutes is OK. Which way do I walk?",
      "suggestionFa": "پنج دقیقه خوبه. از کدوم طرف پیاده برم؟",
@@ -261,8 +261,8 @@
      "keywords": [
       "street",
       "weeks",
-      "mare",
-      "poor"
+      "poor",
+      "mare"
      ],
      "suggestion": "Six weeks! Poor Mare Street.",
      "suggestionFa": "شش هفته! بیچاره مِر استریت.",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "there",
-      "back",
       "stop",
+      "back",
       "way"
      ],
      "suggestion": "Is there a stop on the way back?",

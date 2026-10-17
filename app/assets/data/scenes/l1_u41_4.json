@@ -171,8 +171,8 @@
     {
      "keywords": [
       "bins",
-      "out",
-      "put"
+      "put",
+      "out"
      ],
      "suggestion": "I can put your bins out.",
      "suggestionFa": "می‌تونم سطل‌هاتون را بذارم بیرون.",
@@ -215,8 +215,8 @@
      "keywords": [
       "tomorrow",
       "bring",
-      "milk",
-      "i'll"
+      "i'll",
+      "milk"
      ],
      "suggestion": "I'll bring milk tomorrow.",
      "suggestionFa": "فردا شیر میارم.",
@@ -258,8 +258,8 @@
     {
      "keywords": [
       "luck",
-      "khan",
       "good",
+      "khan",
       "mrs"
      ],
      "suggestion": "Good luck, Mrs Khan.",
@@ -272,8 +272,8 @@
      "keywords": [
       "better",
       "feel",
-      "soon",
-      "hope"
+      "hope",
+      "soon"
      ],
      "suggestion": "I hope you feel better soon.",
      "suggestionFa": "امیدوارم زود بهتر بشید.",
@@ -307,9 +307,9 @@
    "branches": [
     {
      "keywords": [
+      "soon",
       "well",
       "will",
-      "soon",
       "get"
      ],
      "suggestion": "We will! Get well soon!",
@@ -320,8 +320,8 @@
     },
     {
      "keywords": [
-      "take",
       "care",
+      "take",
       "back"
      ],
      "suggestion": "Take care of your back.",

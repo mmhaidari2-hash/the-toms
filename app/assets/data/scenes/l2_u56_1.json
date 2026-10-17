@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "green",
       "black",
+      "green",
       "last",
       "was"
      ],
@@ -190,7 +190,7 @@
       "checks",
       "bins",
       "khan",
-      "mrs"
+      "our"
      ],
      "suggestion": "Mrs Khan checks our bins?",
      "suggestionFa": "خانم خان سطل‌های ما را چک می‌کنه؟",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "greasy",
-      "green",
       "black",
+      "green",
       "clean"
      ],
      "suggestion": "Greasy in black, clean in green. Got it.",
@@ -256,10 +256,10 @@
    "branches": [
     {
      "keywords": [
-      "facing",
       "handle",
-      "done",
-      "road"
+      "facing",
+      "road",
+      "done"
      ],
      "suggestion": "Handle facing the road. Done.",
      "suggestionFa": "دسته رو به خیابون. انجام شد.",
@@ -272,7 +272,7 @@
       "khan's",
       "shall",
       "hers",
-      "put"
+      "out"
      ],
      "suggestion": "And Mrs Khan's bin? Shall I put hers out too?",
      "suggestionFa": "و سطل خانم خان؟ مال اون را هم بیرون بذارم؟",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "missed",
-      "we",
-      "us"
+      "us",
+      "we"
      ],
      "suggestion": "Missed us? What do we do?",
      "suggestionFa": "جا انداختن؟ چی کار کنیم؟",
@@ -328,7 +328,7 @@
      "keywords": [
       "khan's",
       "empty",
-      "only",
+      "ours",
       "full"
      ],
      "suggestion": "Mrs Khan's bin is empty. Only ours is full!",
@@ -373,8 +373,8 @@
      "keywords": [
       "maggie",
       "month",
-      "know",
-      "last"
+      "last",
+      "nana"
      ],
      "suggestion": "I know! I did it for Nana Maggie last month.",
      "suggestionFa": "می‌دونم! ماه پیش برای نانا مگی انجامش دادم.",

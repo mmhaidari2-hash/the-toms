@@ -20,9 +20,9 @@
     {
      "keywords": [
       "missed",
-      "don't",
       "where",
-      "know"
+      "don't",
+      "stop"
      ],
      "suggestion": "Tom! I missed my stop. I don't know where I am!",
      "suggestionFa": "تام! ایستگاهم را رد کردم. نمی‌دونم کجام!",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "oxford",
       "screen",
+      "oxford",
       "next",
       "stop"
      ],
@@ -235,8 +235,8 @@
      "keywords": [
       "letter",
       "stop",
-      "see",
-      "big"
+      "big",
+      "see"
      ],
      "suggestion": "I can see a stop with a big letter \"S\".",
      "suggestionFa": "یه ایستگاه با یه حرف بزرگ «S» می‌بینم.",
@@ -302,10 +302,10 @@
     },
     {
      "keywords": [
-      "will",
       "home",
-      "take",
-      "long"
+      "will",
+      "long",
+      "take"
      ],
      "suggestion": "How long will it take to get home?",
      "suggestionFa": "چقدر طول می‌کشه برسم خونه؟",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "saving",
       "thanks",
+      "saving",
       "will",
       "tom"
      ],
@@ -353,8 +353,8 @@
     {
      "keywords": [
       "awake",
-      "stay",
       "i'll",
+      "stay",
       "time"
      ],
      "suggestion": "OK. And I'll stay awake this time!",

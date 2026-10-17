@@ -22,10 +22,10 @@
     {
      "keywords": [
       "classroom",
-      "thirty",
       "nicola",
       "twenty",
-      "forty"
+      "thirty",
+      "eight"
      ],
      "suggestion": "Eight-twenty! The gates close at eight-forty-five, and I have to be in my classroom by eight-thirty-five. Nicola! SHOES!",
      "suggestionFa": "هشت و بیست! درها هشت و چهل و پنج بسته میشه، و من باید تا هشت و سی و پنج سر کلاسم باشم. نیکولا! کفش!",
@@ -49,8 +49,8 @@
       "morning",
       "where's",
       "nicola",
-      "every",
-      "other"
+      "other",
+      "every"
      ],
      "suggestion": "One's by the door. The other one… who knows? Every morning! Nicola, where's your other shoe?",
      "suggestionFa": "یکی دم دره. اون یکی… کی می‌دونه؟ هر روز صبح! نیکولا، اون لنگهٔ کفشت کجاست؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,9 +130,9 @@
      "keywords": [
       "reading",
       "bottle",
-      "don't",
       "water",
-      "right"
+      "right",
+      "don't"
      ],
      "suggestion": "Don't ask. Right — have you got your book bag? Water bottle? Reading book?",
      "suggestionFa": "نپرس. خب — کیف کتابت را برداشتی؟ بطری آب؟ کتاب خوندن؟",
@@ -156,8 +156,8 @@
       "william's",
       "bottle's",
       "pyjamas",
-      "twenty",
-      "fridge"
+      "fridge",
+      "twenty"
      ],
      "suggestion": "Water bottle's in the fridge. Thank you. Eight-twenty-six. We're going to be late. And William's still in his pyjamas!",
      "suggestionFa": "بطری آب تو یخچاله. ممنون. هشت و بیست و شش. دیر می‌رسیم. و ویلیام هنوز لباس خوابشه!",
@@ -178,11 +178,11 @@
    "branches": [
     {
      "keywords": [
-      "nursery",
       "william",
-      "you'd",
-      "shift",
-      "opens"
+      "nursery",
+      "early",
+      "opens",
+      "you'd"
      ],
      "suggestion": "Tom left at six for the early shift. You'd take William? You're a star. His bag is on the hook. Nursery opens at nine.",
      "suggestionFa": "تام ساعت شش برای شیفت صبح رفت. ویلیام را می‌بری؟ تو یه ستاره‌ای. کیفش رو آویزه. مهدکودک ساعت نه باز میشه.",
@@ -203,8 +203,8 @@
    "branches": [
     {
      "keywords": [
-      "unicorn",
       "raining",
+      "unicorn",
       "nicola",
       "wings",
       "thank"
@@ -230,9 +230,9 @@
      "keywords": [
       "lifesaver",
       "unicorn",
-      "thirty",
       "nicola",
-      "we'll"
+      "thirty",
+      "eight"
      ],
      "suggestion": "Lunch box! You're a lifesaver. Right — eight-thirty-one. If we run, we'll make it. Nicola, run like a unicorn!",
      "suggestionFa": "ظرف ناهار! نجاتم دادی. خب — هشت و سی و یک. اگه بدوییم می‌رسیم. نیکولا، مثل تک‌شاخ بدو!",

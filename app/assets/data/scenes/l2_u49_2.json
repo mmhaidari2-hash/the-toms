@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "sunday",
       "what's",
+      "sunday",
       "roast"
      ],
      "suggestion": "What's a Sunday roast?",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "george",
-      "five",
-      "eats"
+      "eats",
+      "five"
      ],
      "suggestion": "Five? George eats five!",
      "suggestionFa": "پنج تا؟ جورج پنج تا می‌خوره!",
@@ -243,8 +243,8 @@
      "keywords": [
       "shall",
       "them",
-      "put",
-      "now"
+      "yet",
+      "put"
      ],
      "suggestion": "Not yet. Shall I put them on now?",
      "suggestionFa": "هنوز نه. الان بذارم؟",
@@ -365,9 +365,9 @@
    "branches": [
     {
      "keywords": [
-      "right",
-      "knife",
       "table",
+      "knife",
+      "right",
       "lay"
      ],
      "suggestion": "I'll lay the table. Knife on the right?",
@@ -379,8 +379,8 @@
     {
      "keywords": [
       "cooking",
-      "open",
       "keep",
+      "open",
       "door"
      ],
      "suggestion": "I'll open the door. You keep cooking!",
@@ -442,8 +442,8 @@
      "keywords": [
       "everyone",
       "should",
-      "tell",
-      "down"
+      "down",
+      "tell"
      ],
      "suggestion": "Should I tell everyone to sit down?",
      "suggestionFa": "به همه بگم بشینن؟",

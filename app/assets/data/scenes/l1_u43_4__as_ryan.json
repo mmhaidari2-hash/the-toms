@@ -25,7 +25,7 @@
       "oranges",
       "broke",
       "quick",
-      "whoa"
+      "them"
      ],
      "suggestion": "Whoa! Your bag broke! Oranges everywhere! Quick, grab them!",
      "suggestionFa": "وای! کیسه‌ت پاره شد! پرتقال همه جا! سریع، برشون دار!",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "rolling",
-      "shelf",
-      "one's",
       "under",
+      "one's",
+      "shelf",
       "got"
      ],
      "suggestion": "One's rolling under the shelf! Got it!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "cheers",
+      "thanks",
       "priya",
       "fine",
       "just"

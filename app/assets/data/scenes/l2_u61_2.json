@@ -21,8 +21,8 @@
      "keywords": [
       "butter",
       "don't",
-      "tom",
-      "put"
+      "put",
+      "tom"
      ],
      "suggestion": "No, Tom! Don't put butter on it!",
      "suggestionFa": "نه تام! روش کره نذار!",
@@ -35,7 +35,7 @@
       "water",
       "under",
       "cold",
-      "run"
+      "now"
      ],
      "suggestion": "Run it under cold water. Now!",
      "suggestionFa": "بگیرش زیر آب سرد. همین الان!",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "running",
-      "water",
       "under",
+      "water",
       "cool"
      ],
      "suggestion": "Twenty minutes. Under cool running water.",
@@ -102,9 +102,9 @@
     {
      "keywords": [
       "hurting",
-      "stops",
       "until",
-      "least"
+      "least",
+      "stops"
      ],
      "suggestion": "Until it stops hurting. At least twenty minutes.",
      "suggestionFa": "تا وقتی دیگه درد نکنه. حداقل بیست دقیقه.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "glove",
       "worry",
       "don't",
+      "glove",
       "out"
      ],
      "suggestion": "Glove on. Potatoes are out. Don't worry!",
@@ -160,8 +160,8 @@
     {
      "keywords": [
       "turned",
-      "oven",
       "fine",
+      "oven",
       "i've"
      ],
      "suggestion": "I've turned the oven off. The potatoes are fine.",
@@ -202,8 +202,8 @@
      "keywords": [
       "blister",
       "normal",
-      "don't",
-      "small"
+      "small",
+      "don't"
      ],
      "suggestion": "A small blister is normal. Don't pop it.",
      "suggestionFa": "یه تاول کوچیک عادیه. نترکونش.",
@@ -312,9 +312,9 @@
     {
      "keywords": [
       "glove",
-      "oven",
-      "good",
-      "next"
+      "time",
+      "next",
+      "good"
      ],
      "suggestion": "Good. And next time — oven glove!",
      "suggestionFa": "خوبه. و دفعهٔ بعد — دستکش فر!",

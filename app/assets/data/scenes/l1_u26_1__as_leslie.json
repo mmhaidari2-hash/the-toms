@@ -25,7 +25,7 @@
       "please",
       "cross",
       "park",
-      "hand"
+      "hold"
      ],
      "suggestion": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
      "suggestionFa": "باید از خیابون رد بشیم که بریم پارک. نیکولا، دستم را بگیر، لطفاً.",
@@ -49,7 +49,7 @@
       "crossing",
       "stripes",
       "there's",
-      "white",
+      "black",
       "zebra"
      ],
      "suggestion": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
@@ -73,8 +73,8 @@
      "keywords": [
       "remember",
       "britain",
-      "always",
       "should",
+      "always",
       "drive"
      ],
      "suggestion": "They should stop. But always look first. Remember: in Britain, cars drive on the left!",
@@ -99,8 +99,8 @@
       "exactly",
       "nicola",
       "what's",
-      "again",
-      "right"
+      "right",
+      "again"
      ],
      "suggestion": "Exactly! Look right, look left, look right again. Nicola, what's the rule?",
      "suggestionFa": "دقیقاً! راست، چپ، دوباره راست. نیکولا، قانونش چیه؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -182,8 +182,8 @@
    "branches": [
     {
      "keywords": [
-      "waving",
       "driver",
+      "waving",
       "coming",
       "let's",
       "cross"
@@ -211,7 +211,7 @@
       "lights",
       "here's",
       "green",
-      "next"
+      "road"
      ],
      "suggestion": "Here's the next road. This one has traffic lights. We wait for the green man.",
      "suggestionFa": "اینم خیابون بعدی. این یکی چراغ راهنمایی داره. منتظر آدمک سبز می‌مونیم.",
@@ -234,8 +234,8 @@
      "keywords": [
       "button",
       "press",
-      "green",
       "means",
+      "green",
       "stop"
      ],
      "suggestion": "Yes, press the button! The red man means stop. The green man means go.",
@@ -261,7 +261,7 @@
       "swings",
       "here's",
       "park",
-      "well"
+      "hand"
      ],
      "suggestion": "Well done, both of you. Here's the park! Nicola, you can let go of my hand now. Run to the swings!",
      "suggestionFa": "آفرین به هر دوتون. اینم پارک! نیکولا، حالا می‌تونی دستم را ول کنی. بدو سمت تاب‌ها!",

@@ -34,8 +34,8 @@
      "keywords": [
       "everywhere",
       "week",
-      "seen",
-      "i've"
+      "i've",
+      "seen"
      ],
      "suggestion": "I've seen poppies everywhere this week.",
      "suggestionFa": "این هفته همه‌جا گل شقایق دیدم.",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "moving"
+      "moving",
+      "that's"
      ],
      "suggestion": "That's very moving.",
      "suggestionFa": "خیلی تأثیرگذاره.",
@@ -80,10 +80,10 @@
     },
     {
      "keywords": [
-      "george",
       "family",
+      "george",
       "fight",
-      "war"
+      "did"
      ],
      "suggestion": "George, did your family fight in the war?",
      "suggestionFa": "جورج، خانواده‌تون تو جنگ جنگیدن؟",
@@ -244,8 +244,8 @@
     },
     {
      "keywords": [
-      "course",
       "asking",
+      "course",
       "thank"
      ],
      "suggestion": "Yes, of course. Thank you for asking me.",

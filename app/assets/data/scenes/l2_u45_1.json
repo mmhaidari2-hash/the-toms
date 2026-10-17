@@ -22,7 +22,7 @@
       "problem",
       "lesson",
       "often",
-      "her"
+      "how"
      ],
      "suggestion": "No problem. How often is her lesson?",
      "suggestionFa": "مشکلی نیست. کلاسش چند وقت یه باره؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "she's",
       "water",
+      "she's",
       "look",
       "now"
      ],
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "cost",
       "much",
+      "cost",
       "how"
      ],
      "suggestion": "How much do the lessons cost?",
@@ -317,7 +317,7 @@
      "keywords": [
       "that's",
       "pounds",
-      "forty",
+      "month",
       "cheap"
      ],
      "suggestion": "Forty-eight pounds a month. That's not cheap.",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "nicola",
-      "maybe",
       "teach",
-      "will"
+      "maybe",
+      "then"
      ],
      "suggestion": "Maybe I will. Then Nicola can teach me!",
      "suggestionFa": "شاید رفتم. بعد نیکولا می‌تونه بهم یاد بده!",
@@ -429,8 +429,8 @@
      "keywords": [
       "shivering",
       "towel",
-      "quick",
-      "she's"
+      "she's",
+      "quick"
      ],
      "suggestion": "Quick, get her towel. She's shivering!",
      "suggestionFa": "سریع، حوله‌اش را بیار. داره می‌لرزه!",
@@ -473,8 +473,8 @@
     {
      "keywords": [
       "teach",
-      "swim",
       "well",
+      "swim",
       "done"
      ],
      "suggestion": "Well done! Can you teach me to swim?",

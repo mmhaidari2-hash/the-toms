@@ -1,0 +1,426 @@
+{
+ "id": "l2_u62_1",
+ "characterId": "leslie",
+ "title": "Nicola's report",
+ "titleFa": "کارنامهٔ نیکولا",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "{you}! Nicola's end-of-year report came home today. I've read it three times already. Will you read it with me?",
+   "translations": {
+    "fa": "{you}! کارنامهٔ آخر سال نیکولا امروز اومد خونه. تا حالا سه بار خوندمش. باهام می‌خونیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "say"
+     ],
+     "suggestion": "Of course! What does it say?",
+     "suggestionFa": "البته! چی نوشته؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "times",
+      "news",
+      "good"
+     ],
+     "suggestion": "Three times? Is it good news?",
+     "suggestionFa": "سه بار؟ خبر خوبیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "end-of-year",
+     "fa": "آخر سال"
+    },
+    {
+     "word": "report",
+     "fa": "کارنامه"
+    },
+    {
+     "word": "came home",
+     "fa": "به خانه آمد"
+    },
+    {
+     "word": "already",
+     "fa": "تا حالا"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what it says",
+      "what is say"
+     ],
+     "echo": "What does it say? Let's look!",
+     "better": "What does it say?",
+     "betterFa": "چه نوشته؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Mostly good news! Miss Ellis says Nicola is doing well in speaking and listening. She asks a lot of questions.",
+   "translations": {
+    "fa": "بیشترش خبر خوبه! خانم الیس میگه نیکولا تو صحبت کردن و گوش دادن خوب پیش میره. کلی سؤال می‌پرسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "always",
+      "asks",
+      "true"
+     ],
+     "suggestion": "That's true. She always asks \"why?\"",
+     "suggestionFa": "درسته. همیشه می‌پرسه «چرا؟»",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "speaking",
+      "doing",
+      "well"
+     ],
+     "suggestion": "Doing well in speaking? Brilliant!",
+     "suggestionFa": "تو صحبت کردن خوبه؟ عالیه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mostly",
+     "fa": "بیشترش"
+    },
+    {
+     "word": "doing well in",
+     "fa": "در … خوب پیش می‌رود"
+    },
+    {
+     "word": "speaking and listening",
+     "fa": "صحبت کردن و گوش دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, children in Reception (age 4–5) get a report in July. It describes the Early Years goals: is the child \"expected\" or \"emerging\" in each area?",
+    "fa": "در انگلستان بچه‌های پیش‌دبستانی در تیر کارنامه می‌گیرند که می‌گوید در هر حوزه «در حد انتظار» است یا «در حال رشد»."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ha, yes! \"Nicola is a curious learner.\" That's teacher language for \"she never stops talking\". I know — I'm a teacher!",
+   "translations": {
+    "fa": "ها، آره! «نیکولا یادگیرندهٔ کنجکاویه.» این زبون معلم‌هاست برای «یه لحظه ساکت نمیشه». می‌دونم — خودم معلمم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ellis",
+      "else",
+      "miss",
+      "say"
+     ],
+     "suggestion": "What else does Miss Ellis say?",
+     "suggestionFa": "خانم الیس دیگه چی میگه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "there",
+      "needs",
+      "work"
+     ],
+     "suggestion": "Is there anything she needs to work on?",
+     "suggestionFa": "چیزی هست که باید روش کار کنه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "curious",
+     "fa": "کنجکاو"
+    },
+    {
+     "word": "learner",
+     "fa": "یادگیرنده"
+    },
+    {
+     "word": "teacher language",
+     "fa": "زبان معلم‌ها"
+    },
+    {
+     "word": "never stops",
+     "fa": "هیچ وقت دست برنمی‌دارد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "She needs to work on her handwriting. Her letters are very big, and her \"s\" goes backwards. Like a little snake!",
+   "translations": {
+    "fa": "باید روی دست‌خطش کار کنه. حروفش خیلی بزرگن، و «اس»ش برعکسه. مثل یه مار کوچولو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "normal",
+      "that's",
+      "isn't",
+      "five"
+     ],
+     "suggestion": "That's normal at five, isn't it?",
+     "suggestionFa": "تو پنج‌سالگی عادیه، نه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "practise",
+      "weekend",
+      "her",
+      "can"
+     ],
+     "suggestion": "We can practise with her at the weekend.",
+     "suggestionFa": "می‌تونیم آخر هفته باهاش تمرین کنیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "needs to work on",
+     "fa": "باید روی … کار کند"
+    },
+    {
+     "word": "handwriting",
+     "fa": "دست‌خط"
+    },
+    {
+     "word": "letters",
+     "fa": "حروف"
+    },
+    {
+     "word": "backwards",
+     "fa": "برعکس"
+    },
+    {
+     "word": "snake",
+     "fa": "مار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Totally normal. And in maths she's \"working towards\" the goal — not quite there yet. Counting is fine, but she hates take-aways.",
+   "translations": {
+    "fa": "کاملاً عادیه. و تو ریاضی «در مسیر» هدفه — هنوز کامل نرسیده. شمردنش خوبه، ولی از تفریق متنفره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "working",
+      "towards",
+      "nearly",
+      "there"
+     ],
+     "suggestion": "Working towards — so nearly there?",
+     "suggestionFa": "در مسیر — یعنی تقریباً رسیده؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pizza",
+      "aways",
+      "like",
+      "take"
+     ],
+     "suggestion": "Take-aways? Like a pizza?",
+     "suggestionFa": "تفریق؟ مثل پیتزا بیرون‌بر؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "working towards",
+     "fa": "در مسیر …"
+    },
+    {
+     "word": "goal",
+     "fa": "هدف"
+    },
+    {
+     "word": "not quite there yet",
+     "fa": "هنوز کامل نرسیده"
+    },
+    {
+     "word": "counting",
+     "fa": "شمردن"
+    },
+    {
+     "word": "take-aways",
+     "fa": "تفریق (زبان بچه‌ها)"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Take-away\" is also a child's word for subtraction: 5 take away 2 is 3. A takeaway (one word) is food you buy to eat at home.",
+    "fa": "«تیک‌اِوِی» در زبان بچه‌ها یعنی تفریق؛ «تیک‌اِوِی» یک‌کلمه‌ای یعنی غذای بیرون‌بر."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ha! No, not pizza. Five take away two is three. We'll use sweets. Five sweets, eat two — she'll learn very fast!",
+   "translations": {
+    "fa": "ها! نه، پیتزا نه. پنج منهای دو میشه سه. با آبنبات تمرین می‌کنیم. پنج تا آبنبات، دو تا بخور — خیلی سریع یاد می‌گیره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "report",
+      "last",
+      "part",
+      "good"
+     ],
+     "suggestion": "Good plan! And the last part of the report?",
+     "suggestionFa": "نقشهٔ خوبیه! و قسمت آخر کارنامه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "sweets",
+      "maths",
+      "love"
+     ],
+     "suggestion": "Sweets? Nicola will love maths now!",
+     "suggestionFa": "آبنبات؟ نیکولا حالا عاشق ریاضی میشه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take away",
+     "fa": "منها"
+    },
+    {
+     "word": "sweets",
+     "fa": "آبنبات ؛ شیرینی"
+    },
+    {
+     "word": "learn",
+     "fa": "یاد گرفتن"
+    },
+    {
+     "word": "fast",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "The last part: \"Nicola is always kind to others.\" That's the bit that made me cry. I'm really proud of her.",
+   "translations": {
+    "fa": "قسمت آخر: «نیکولا همیشه با بقیه مهربونه.» همین قسمت بود که گریه‌ام انداخت. واقعاً بهش افتخار می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "important",
+      "that's",
+      "most",
+      "part"
+     ],
+     "suggestion": "That's the most important part.",
+     "suggestionFa": "این مهم‌ترین قسمته.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "should",
+      "she's",
+      "proud"
+     ],
+     "suggestion": "You should be proud. She's lovely.",
+     "suggestionFa": "باید افتخار کنی. خیلی دوست‌داشتنیه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "others",
+     "fa": "دیگران"
+    },
+    {
+     "word": "the bit",
+     "fa": "آن قسمت"
+    },
+    {
+     "word": "made me cry",
+     "fa": "گریه‌ام انداخت"
+    },
+    {
+     "word": "proud of",
+     "fa": "افتخار کردن به"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "You're right. Handwriting can wait. Right — let's put the report on the fridge. And Nicola gets ice cream after tea!",
+   "translations": {
+    "fa": "حق با توئه. دست‌خط می‌تونه صبر کنه. خب — بیا کارنامه را بزنیم رو یخچال. و نیکولا بعد از شام بستنی می‌گیره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

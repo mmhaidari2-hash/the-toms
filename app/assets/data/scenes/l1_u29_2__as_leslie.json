@@ -47,10 +47,10 @@
     {
      "keywords": [
       "they've",
-      "paid",
       "last",
-      "lots",
-      "kind"
+      "kind",
+      "time",
+      "lots"
      ],
      "suggestion": "No, no. You paid last time. What kind of tea? They've got lots.",
      "suggestionFa": "نه، نه. دفعهٔ قبل تو حساب کردی. چه نوع چایی؟ کلی دارن.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -127,7 +127,7 @@
       "callum",
       "friend",
       "please",
-      "take",
+      "away",
       "mint"
      ],
      "suggestion": "Yes, please, Callum. And a mint tea for my friend. To take away.",
@@ -207,7 +207,7 @@
       "discount",
       "reusable",
       "have",
-      "cup",
+      "get",
       "got"
      ],
      "suggestion": "Oh, have you got a reusable cup? You get a discount!",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -314,7 +314,7 @@
       "school",
       "let's",
       "don't",
-      "spill"
+      "right"
      ],
      "suggestion": "Right. Ten minutes to school. Let's walk fast — and don't spill the tea!",
      "suggestionFa": "خب. ده دقیقه تا مدرسه. تند راه بریم — و چای را نریز!",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "send",
       "like",
+      "send",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -111,8 +111,8 @@
     {
      "keywords": [
       "clothes",
-      "some",
-      "book"
+      "book",
+      "some"
      ],
      "suggestion": "Some clothes and a book.",
      "suggestionFa": "چند تا لباس و یه کتاب.",
@@ -166,8 +166,8 @@
     },
     {
      "keywords": [
-      "there's",
       "problem",
+      "there's",
       "perfume",
       "small"
      ],
@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
-      "cost",
       "much",
       "will",
+      "cost",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "price",
-      "heavy"
+      "heavy",
+      "price"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "first",
       "could",
+      "first",
       "help",
       "time"
      ],
@@ -372,8 +372,8 @@
     {
      "keywords": [
       "else",
-      "need",
-      "done"
+      "done",
+      "need"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",

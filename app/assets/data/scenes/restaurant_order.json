@@ -20,8 +20,8 @@
     {
      "keywords": [
       "roast",
-      "ready",
       "we're",
+      "ready",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "water",
-      "tap",
-      "jug"
+      "jug",
+      "tap"
      ],
      "suggestion": "A jug of tap water, please.",
      "suggestionFa": "یه پارچ آب لوله‌کشی، لطفاً.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "allergic",
       "daughter",
+      "allergic",
       "nuts"
      ],
      "suggestion": "Yes, my daughter is allergic to nuts.",
@@ -230,8 +230,8 @@
     },
     {
      "keywords": [
-      "she'll",
       "thanks",
+      "she'll",
       "share"
      ],
      "suggestion": "No thanks, she'll share with me.",
@@ -275,9 +275,9 @@
     {
      "keywords": [
       "please",
-      "could",
       "gravy",
-      "more"
+      "could",
+      "some"
      ],
      "suggestion": "Could we have some more gravy, please?",
      "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",
@@ -372,8 +372,8 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "custard",
+      "pudding",
       "toffee",
       "sticky"
      ],
@@ -387,7 +387,7 @@
      "keywords": [
       "please",
       "we're",
-      "full",
+      "bill",
       "just"
      ],
      "suggestion": "Just the bill, please. We're full.",

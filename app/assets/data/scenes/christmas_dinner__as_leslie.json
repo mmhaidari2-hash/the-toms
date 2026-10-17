@@ -24,8 +24,8 @@
       "christmas",
       "cracker",
       "merry",
-      "come",
-      "down"
+      "pull",
+      "come"
      ],
      "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
      "suggestionFa": "کریسمس مبارک! بیا بشین — یه کراکر با من بکش!",
@@ -50,7 +50,7 @@
       "crown",
       "bang",
       "joke",
-      "put"
+      "say"
      ],
      "suggestion": "Bang! You won! Put your paper crown on. What does your joke say?",
      "suggestionFa": "بنگ! تو بردی! تاج کاغذیت را بذار. جوکت چی می‌گه؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "terrible",
       "potatoes",
+      "terrible",
       "blankets",
       "cracker",
-      "always"
+      "turkey"
      ],
      "suggestion": "Ha! Terrible! Cracker jokes are always terrible. Would you like turkey, pigs in blankets and roast potatoes?",
      "suggestionFa": "ها! افتضاح! جوک‌های کراکر همیشه افتضاحن. بوقلمون، سوسیس پیچیده و سیب‌زمینی تنوری می‌خوای؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "cranberry",
       "christmas",
+      "cranberry",
       "british",
-      "first",
-      "sauce"
+      "brave",
+      "first"
      ],
      "suggestion": "Brave! Tom, pass the cranberry sauce, love. Is this your first British Christmas?",
      "suggestionFa": "شجاع! تام، سس زغال‌اخته را بده عزیزم. این اولین کریسمس بریتانیاییته؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "perfectly",
       "everyone",
-      "mostly",
       "king's",
+      "mostly",
       "speech"
      ],
      "suggestion": "Perfectly safe! Well, mostly. Now, everyone — the King's speech is at three. Then a walk.",
@@ -224,8 +224,8 @@
       "sandwiches",
       "wonderful",
       "christmas",
-      "everyone",
-      "leftover"
+      "leftover",
+      "everyone"
      ],
      "suggestion": "Wonderful. Then games, leftover sandwiches and a nap. Cheers, everyone — Merry Christmas!",
      "suggestionFa": "عالیه. بعد بازی، ساندویچ غذاهای مونده و یه چرت. به سلامتی، همه — کریسمس مبارک!",

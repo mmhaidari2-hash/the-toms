@@ -49,7 +49,7 @@
       "nationality",
       "station's",
       "eligible",
-      "minutes",
+      "depends",
       "polling"
      ],
      "suggestion": "It depends on your status and nationality, but you're eligible — you got your polling card. The station's at the primary school. Takes five minutes.",
@@ -99,8 +99,8 @@
       "tradition",
       "majority",
       "whether",
-      "mostly",
-      "that's"
+      "that's",
+      "mostly"
      ],
      "suggestion": "Tradition, mostly! And yes — it's \"first past the post\". Most votes wins, even if it's not a majority. People argue about whether that's fair.",
      "suggestionFa": "بیشتر سنته! و آره — «اول از خط عبور کن»ـه. بیشترین رأی برنده‌ست، حتی اگه اکثریت نباشه. مردم بحث می‌کنن که آیا منصفانه‌ست.",
@@ -123,8 +123,8 @@
      "keywords": [
       "controversial",
       "exactly",
-      "anyway",
       "that's",
+      "anyway",
       "moment"
      ],
      "suggestion": "Exactly, which is why it's controversial. Anyway — grab your coat. Your first vote here. That's a big moment, that is.",

@@ -25,7 +25,7 @@
       "raj's",
       "fruit",
       "shop",
-      "high"
+      "best"
      ],
      "suggestion": "This is Raj's shop. His fruit and veg are the best on the high street. What do we need?",
      "suggestionFa": "این مغازهٔ راجه. میوه و سبزی‌اش بهترینِ خیابون اصلیه. چی لازم داریم؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "potatoes",
-      "bananas",
       "carrots",
+      "bananas",
       "apples",
       "can"
      ],
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -175,8 +175,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -236,7 +236,7 @@
       "potatoes",
       "carrots",
       "kilos",
-      "kilo"
+      "good"
      ],
      "suggestion": "Good thinking. Now, a kilo of carrots and two kilos of potatoes.",
      "suggestionFa": "فکر خوبیه. حالا یه کیلو هویج و دو کیلو سیب‌زمینی.",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

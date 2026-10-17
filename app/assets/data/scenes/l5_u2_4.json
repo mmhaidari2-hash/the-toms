@@ -22,7 +22,7 @@
       "honest",
       "third",
       "after",
-      "joke"
+      "much"
      ],
      "suggestion": "To be honest, it got a bit much after the third joke.",
      "suggestionFa": "راستش بعد از شوخی سوم یه کم زیادی شد.",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
-      "rather",
       "myself",
-      "handle"
+      "handle",
+      "rather",
+      "thanks"
      ],
      "suggestion": "Thanks, but I'd rather handle it myself.",
      "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "awkward",
-      "don't",
       "maybe",
-      "want"
+      "don't",
+      "make"
      ],
      "suggestion": "Maybe. I don't want to make it awkward.",
      "suggestionFa": "شاید. نمی‌خوام ناجورش کنم.",
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "getting",
+      "perfect",
       "that's",
       "honest"
      ],
@@ -187,8 +187,8 @@
      "keywords": [
       "anyone",
       "don't",
-      "fall",
-      "hope"
+      "hope",
+      "want"
      ],
      "suggestion": "I hope so. I don't want to fall out with anyone.",
      "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",
@@ -201,7 +201,7 @@
       "someone's",
       "thanks",
       "helps",
-      "back"
+      "know"
      ],
      "suggestion": "Thanks, Al. It helps to know someone's got my back.",
      "suggestionFa": "ممنون ال. خوبه بدونم یکی هوام را داره.",

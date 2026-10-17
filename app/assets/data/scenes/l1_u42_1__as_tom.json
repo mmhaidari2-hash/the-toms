@@ -25,7 +25,7 @@
       "morning",
       "class",
       "jump",
-      "how"
+      "get"
      ],
      "suggestion": "Morning! Jump on. So, how do you get to your English class?",
      "suggestionFa": "صبح بخیر! بپر بالا. خب، چطوری میری کلاس انگلیسیت؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "choice",
       "which",
-      "take",
       "good",
-      "best"
+      "best",
+      "take"
      ],
      "suggestion": "Good choice! The best way. Which bus do you take?",
      "suggestionFa": "انتخاب خوبیه! بهترین راه. سوار کدوم اتوبوس میشی؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "long",
       "take",
-      "bus",
-      "how"
+      "how",
+      "bus"
      ],
      "suggestion": "The 38! My bus! How long does it take?",
      "suggestionFa": "۳۸! اتوبوس من! چقدر طول می‌کشه؟",
@@ -97,9 +97,9 @@
      "keywords": [
       "minutes",
       "forty",
-      "rush",
       "hour",
-      "pay"
+      "rush",
+      "how"
      ],
      "suggestion": "In the rush hour it's forty minutes! How do you pay?",
      "suggestionFa": "ساعت شلوغی چهل دقیقه‌ست! چطوری پرداخت می‌کنی؟",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "perfect",
-      "change",
       "hopper",
+      "change",
       "buses",
-      "free"
+      "hour"
      ],
      "suggestion": "Perfect. And with the Hopper fare, you can change buses for free in an hour.",
      "suggestionFa": "عالی. و با کرایهٔ هاپر، تو یه ساعت می‌تونی مجانی اتوبوس عوض کنی.",
@@ -148,8 +148,8 @@
       "downstairs",
       "upstairs",
       "buses",
-      "many",
-      "hour"
+      "hour",
+      "fare"
      ],
      "suggestion": "One fare, many buses, one hour. Do you go upstairs or downstairs?",
      "suggestionFa": "یه کرایه، چند تا اتوبوس، یه ساعت. طبقه بالا میری یا پایین؟",
@@ -174,7 +174,7 @@
       "london",
       "front",
       "great",
-      "like"
+      "seat"
      ],
      "suggestion": "Upstairs at the front! Like a kid. Best seat in London. Great view.",
      "suggestionFa": "بالا جلو! مثل بچه‌ها. بهترین صندلی لندن. منظرهٔ عالی.",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "here's",
+      "always",
       "class",
-      "faces",
-      "funny"
+      "funny",
+      "faces"
      ],
      "suggestion": "Always the 38! And yes, I can see you. So no funny faces! Here's your stop. Have a good class!",
      "suggestionFa": "همیشه ۳۸! و آره، می‌بینمت. پس شکلک درنیار! ایستگاهت رسید. کلاس خوبی داشته باشی!",

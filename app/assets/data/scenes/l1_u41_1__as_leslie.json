@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
+      "capital",
       "surname",
       "letters",
-      "capital",
       "office",
       "first"
      ],
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "address",
-      "number",
-      "family",
       "street",
-      "mare"
+      "family",
+      "number",
+      "then"
      ],
      "suggestion": "Your family name. Then your address. You're at number ten, Mare Street.",
      "suggestionFa": "اسم فامیلت. بعد آدرست. تو پلاک ده، خیابون مر هستی.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "postcode",
-      "write",
       "birth",
       "month",
-      "i'll"
+      "write",
+      "ours"
      ],
      "suggestion": "The postcode is the same as ours. I'll write it. Now, date of birth. Day, month, year.",
      "suggestionFa": "کد پستی مثل مال ماست. من می‌نویسمش. حالا، تاریخ تولد. روز، ماه، سال.",
@@ -124,7 +124,7 @@
       "calendar",
       "number",
       "normal",
-      "email",
+      "phone",
       "first"
      ],
      "suggestion": "Use the normal calendar. Day first! Then your phone number and email.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

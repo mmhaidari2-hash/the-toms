@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "leslie's",
-      "teatime",
       "meeting",
+      "teatime",
       "right"
      ],
      "suggestion": "Right, it's William's teatime. Leslie's at a meeting. Can you give me a hand?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "hungry",
+      "always",
       "first",
       "he's",
-      "put"
+      "one"
      ],
      "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
      "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -145,10 +145,10 @@
    "branches": [
     {
      "keywords": [
-      "carrot",
-      "mashed",
       "potato",
       "dinner",
+      "carrot",
+      "mashed",
       "here's"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
@@ -173,8 +173,8 @@
       "spoonfuls",
       "william",
       "small",
-      "brrrm",
-      "comes"
+      "comes",
+      "brrrm"
      ],
      "suggestion": "Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm!",
      "suggestionFa": "خوبه. حالا قاشق‌های کوچیک. دهنت را باز کن ویلیام! اتوبوس داره میاد! بررم!",
@@ -243,10 +243,10 @@
     {
      "keywords": [
       "orange",
-      "loves",
       "buses",
+      "loves",
       "right",
-      "face"
+      "then"
      ],
      "suggestion": "He loves buses! Like his dad! Right, then a wipe. His face is orange!",
      "suggestionFa": "عاشق اتوبوسه! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!",
@@ -270,8 +270,8 @@
       "brilliant",
       "natural",
       "leslie",
-      "clean",
-      "plate"
+      "plate",
+      "clean"
      ],
      "suggestion": "Brilliant job. You're a natural! Wait till Leslie sees his clean plate!",
      "suggestionFa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشقاب تمیزش را ببینه!",

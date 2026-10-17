@@ -33,8 +33,8 @@
     {
      "keywords": [
       "twenty",
-      "gave",
       "wait",
+      "gave",
       "ten"
      ],
      "suggestion": "Wait — I gave you a twenty, not a ten.",
@@ -202,8 +202,8 @@
     {
      "keywords": [
       "that's",
-      "right",
       "thank",
+      "right",
       "now"
      ],
      "suggestion": "Thank you. That's right now.",
@@ -256,8 +256,8 @@
     {
      "keywords": [
       "drums",
-      "play",
-      "cool"
+      "cool",
+      "play"
      ],
      "suggestion": "You play the drums? Cool!",
      "suggestionFa": "درام می‌زنی؟ باحاله!",
@@ -267,9 +267,9 @@
     },
     {
      "keywords": [
-      "everyone",
       "mistakes",
-      "don't",
+      "everyone",
+      "makes",
       "worry"
      ],
      "suggestion": "Don't worry. Everyone makes mistakes.",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "cheese",
-      "won't",
       "argue",
+      "won't",
       "extra"
      ],
      "suggestion": "I won't argue with extra cheese!",
@@ -377,8 +377,8 @@
      "keywords": [
       "count",
       "front",
-      "time",
-      "next"
+      "next",
+      "time"
      ],
      "suggestion": "Next time I'll count it in front of you.",
      "suggestionFa": "دفعهٔ بعد جلوی خودت می‌شمرمش.",

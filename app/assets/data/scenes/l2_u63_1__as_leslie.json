@@ -1,0 +1,225 @@
+{
+ "id": "l2_u63_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Diwali with Priya",
+ "titleFa": "(در نقش Leslie) دیوالی با پریا",
+ "setting": "Celebrations · Level 2",
+ "settingFa": "جشن‌ها",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u63_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "invited",
+      "evening",
+      "priya's",
+      "family"
+     ],
+     "suggestion": "Mehdi, guess what? We've been invited to Priya's for Diwali! Saturday evening. Her whole family will be there.",
+     "suggestionFa": "{you}، حدس بزن چی شده؟ برای دیوالی به خونهٔ پریا دعوت شدیم! شنبه عصر. همهٔ خانواده‌اش اونجان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Diwali? How lovely! What is it exactly?",
+   "translations": {
+    "fa": "دیوالی؟ چه قشنگ! دقیقاً چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "darkness",
+      "festival",
+      "invited",
+      "winning",
+      "lights"
+     ],
+     "suggestion": "Of course you're invited! Diwali is the Hindu festival of lights. It's about light winning over darkness. Good over bad.",
+     "suggestionFa": "معلومه که دعوتی! دیوالی جشن نور هندوهاست. دربارهٔ پیروزی نور بر تاریکیه. خوبی بر بدی.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Light over darkness — that's beautiful.",
+   "translations": {
+    "fa": "نور بر تاریکی — چه قشنگ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pomegranates",
+      "longest",
+      "should",
+      "yalda",
+      "night"
+     ],
+     "suggestion": "Yalda! The longest night, with pomegranates? You told us. Same idea! Now, what should we bring? I don't want to get it wrong.",
+     "suggestionFa": "یلدا! طولانی‌ترین شب، با انار؟ برامون تعریف کردی. همون فکره! حالا، چی ببریم؟ نمی‌خوام اشتباه کنم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "A box of sweets is always good.",
+   "translations": {
+    "fa": "یه جعبه شیرینی همیشه خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "perfect",
+      "parents",
+      "called",
+      "people"
+     ],
+     "suggestion": "Sweets — perfect! Priya says people share sweets called mithai. And we shouldn't bring wine. Her parents don't drink.",
+     "suggestionFa": "شیرینی — عالیه! پریا میگه مردم شیرینی‌ای به اسم میتای با هم تقسیم می‌کنن. و نباید شراب ببریم. پدر و مادرش مشروب نمی‌خورن.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Good to know. No wine.",
+   "translations": {
+    "fa": "خوب شد فهمیدیم. شراب نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patterns",
+      "there'll",
+      "coloured",
+      "rangoli",
+      "called"
+     ],
+     "suggestion": "Lovely. Oh, and there'll be little oil lamps called diyas, and rangoli — patterns on the floor in coloured powder.",
+     "suggestionFa": "عالیه. آهان، و چراغ‌های روغنی کوچیکی به اسم دیا هست، و رنگولی — طرح‌هایی روی زمین با پودر رنگی.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Coloured powder? Nicola will love that!",
+   "translations": {
+    "fa": "پودر رنگی؟ نیکولا عاشقش میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "colourful",
+      "finally",
+      "chance",
+      "bright"
+     ],
+     "suggestion": "Priya said wear something bright and colourful. Tom's got that orange shirt. Finally, a chance to wear it!",
+     "suggestionFa": "پریا گفت یه چیز روشن و رنگی بپوشید. تام اون پیراهن نارنجی را داره. بالاخره یه فرصت که بپوشدش!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ha! The famous orange shirt!",
+   "translations": {
+    "fa": "ها! پیراهن نارنجی معروف!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "samosas",
+      "priya's",
+      "famous",
+      "that's"
+     ],
+     "suggestion": "Easy — \"Happy Diwali!\" That's it. And try everything they give you. Priya's mum's samosas are famous on Mare Street!",
+     "suggestionFa": "آسونه — «دیوالی مبارک!» همین. و هر چی بهت دادن امتحان کن. سمبوسه‌های مامان پریا تو خیابون مِر معروفن!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Happy Diwali! I'll practise.",
+   "translations": {
+    "fa": "دیوالی مبارک! تمرین می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "clothes",
+      "o'clock",
+      "bright",
+      "diwali"
+     ],
+     "suggestion": "Me too! Right — sweets, bright clothes, \"Happy Diwali\", and no wine. Saturday, seven o'clock. I can't wait!",
+     "suggestionFa": "منم! خب — شیرینی، لباس روشن، «دیوالی مبارک»، و شراب نه. شنبه، ساعت هفت. بی‌صبرانه منتظرم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "refund",
+      "didn't",
       "know",
       "get"
      ],
@@ -153,10 +153,10 @@
     },
     {
      "keywords": [
-      "don't",
       "think",
-      "cost",
-      "much"
+      "don't",
+      "much",
+      "cost"
      ],
      "suggestion": "I don't think so. How much does it cost?",
      "suggestionFa": "فکر نکنم. چقدر هزینه داره؟",
@@ -197,7 +197,7 @@
       "railcard",
       "third",
       "which",
-      "off"
+      "get"
      ],
      "suggestion": "A third off? Which railcard can I get?",
      "suggestionFa": "یک‌سوم تخفیف؟ کدوم کارت را می‌تونم بگیرم؟",
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "thirty",
       "pounds",
+      "thirty",
       "worth",
       "five"
      ],
@@ -297,8 +297,8 @@
      "keywords": [
       "valid",
       "time",
-      "day",
-      "any"
+      "any",
+      "day"
      ],
      "suggestion": "Is it valid at any time of day?",
      "suggestionFa": "هر ساعتی از روز معتبره؟",
@@ -362,8 +362,8 @@
     {
      "keywords": [
       "railcard",
-      "leslie",
       "family",
+      "leslie",
       "about"
      ],
      "suggestion": "I'll tell Leslie about the Family Railcard.",

@@ -33,9 +33,9 @@
     {
      "keywords": [
       "incorrect",
-      "helping",
       "believe",
-      "maggie"
+      "helping",
+      "that's"
      ],
      "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
      "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "diagnosis",
-      "leslie",
       "george",
+      "leslie",
       "moved"
      ],
      "suggestion": "George moved in with Tom and Leslie in March, after his diagnosis.",
@@ -133,8 +133,8 @@
      "keywords": [
       "informed",
       "proof",
-      "were",
-      "have"
+      "have",
+      "were"
      ],
      "suggestion": "We have proof that you were informed in April.",
      "suggestionFa": "مدرک داریم که آوریل بهتون اطلاع داده شده.",
@@ -146,8 +146,8 @@
      "keywords": [
       "processed",
       "whether",
-      "check",
-      "could"
+      "could",
+      "check"
      ],
      "suggestion": "Could you check whether the April form was processed?",
      "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
@@ -234,10 +234,10 @@
    "branches": [
     {
      "keywords": [
-      "received",
       "reminder",
-      "cancel",
-      "that's"
+      "received",
+      "that's",
+      "cancel"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
      "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
@@ -301,8 +301,8 @@
      "keywords": [
       "george's",
       "support",
-      "carers",
-      "maggie"
+      "maggie",
+      "carers"
      ],
      "suggestion": "Maggie is George's main carer. Is there support for carers?",
      "suggestionFa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
@@ -365,10 +365,10 @@
     },
     {
      "keywords": [
-      "entitled",
       "anything",
+      "entitled",
       "helpful",
-      "didn't"
+      "that's"
      ],
      "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
      "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",

@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "parmigiana",
       "vegetarian",
+      "parmigiana",
       "aubergine"
      ],
      "suggestion": "Aubergine! Is the parmigiana vegetarian?",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "contain",
       "risotto",
+      "contain",
       "stock",
       "meat"
      ],
@@ -193,9 +193,9 @@
    "branches": [
     {
      "keywords": [
-      "veggie",
-      "cheese",
       "please",
+      "cheese",
+      "veggie",
       "could"
      ],
      "suggestion": "Could I have it with the veggie cheese, please?",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "allergic",
       "leslie's",
+      "allergic",
       "lasagne",
       "nuts"
      ],

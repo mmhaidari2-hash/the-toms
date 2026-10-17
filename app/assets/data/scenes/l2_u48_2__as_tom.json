@@ -47,9 +47,9 @@
     {
      "keywords": [
       "pressure's",
+      "doctor",
       "okafor",
       "coffee",
-      "doctor",
       "blood"
      ],
      "suggestion": "Doctor Okafor. My blood pressure's a bit high. She said, \"Cut down on coffee, Tom.\" I used to have six a day. Six!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "change",
-      "leslie",
       "twenty",
       "coffee",
-      "shifts"
+      "shifts",
+      "leslie"
      ],
      "suggestion": "Decaf? Leslie says that too. \"Decaf after lunch, Tom.\" It's hard to change a habit of twenty years. The early shifts need coffee!",
      "suggestionFa": "بدون کافئین؟ لزلی هم همینو میگه. «بعد از ناهار بدون کافئین، تام.» عوض کردن یه عادت بیست ساله سخته. شیفت‌های صبح زود قهوه می‌خوان!",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "persian",
-      "tea's",
       "habit",
-      "many",
-      "cups"
+      "tea's",
+      "cups",
+      "many"
      ],
      "suggestion": "You too? Tea's a Persian habit, eh? How many cups?",
      "suggestionFa": "تو هم؟ چای عادت ایرانیه، نه؟ چند فنجون؟",
@@ -150,7 +150,7 @@
       "coffees",
       "let's",
       "worse",
-      "i'll"
+      "down"
      ],
      "suggestion": "Ten! You're worse than me! OK. Let's do it together. I'll cut down to two coffees, you cut down to four teas.",
      "suggestionFa": "ده تا! از من بدتری! باشه. بیا با هم انجامش بدیم. من کم می‌کنم به دو تا قهوه، تو کم کن به چهار تا چای.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "headache",
-      "sneaky",
       "coffee",
-      "helps",
-      "glass"
+      "sneaky",
+      "water",
+      "drink"
      ],
      "suggestion": "And no sneaky ones. Jade says drink water when you want coffee. A big glass. It helps the headache too.",
      "suggestionFa": "و یواشکی هم نه. جید میگه هر وقت قهوه خواستی آب بخور. یه لیوان بزرگ. به سردرد هم کمک می‌کنه.",
@@ -198,8 +198,8 @@
      "keywords": [
       "delicious",
       "survive",
-      "nobody",
       "cheers",
+      "nobody",
       "water"
      ],
      "suggestion": "Cheers. Water. Mmm. Delicious. Says nobody ever. Right — see you on day four. If I survive.",

@@ -21,8 +21,8 @@
      "keywords": [
       "hundred",
       "about",
-      "talk",
-      "they"
+      "they",
+      "talk"
      ],
      "suggestion": "Two hundred! What do they talk about?",
      "suggestionFa": "دویست تا! دربارهٔ چی حرف می‌زنن؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "hello",
       "thank",
+      "hello",
       "i'll",
       "say"
      ],
@@ -69,9 +69,9 @@
    "branches": [
     {
      "keywords": [
-      "happy",
       "reply",
       "thank",
+      "happy",
       "here"
      ],
      "suggestion": "Let me reply: \"Thank you! Happy to be here.\"",
@@ -197,8 +197,8 @@
      "keywords": [
       "should",
       "check",
-      "done",
-      "shed"
+      "shed",
+      "done"
      ],
      "suggestion": "Done. Should I check the shed?",
      "suggestionFa": "انجام شد. انباری را چک کنم؟",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "happy",
       "looks",
+      "happy",
       "here",
       "he"
      ],
@@ -296,7 +296,7 @@
       "sleepy",
       "found",
       "tiger",
-      "he's"
+      "fine"
      ],
      "suggestion": "\"Found Tiger! He's fine and very sleepy.\"",
      "suggestionFa": "«تایگر پیدا شد! حالش خوبه و خیلی خواب‌آلوده.»",
@@ -307,8 +307,8 @@
     {
      "keywords": [
       "sending",
-      "people",
       "hearts",
+      "people",
       "forty"
      ],
      "suggestion": "Forty people are sending hearts!",
@@ -348,9 +348,9 @@
     {
      "keywords": [
       "group",
-      "idea",
       "mute",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Mute the group. Good idea!",
      "suggestionFa": "گروه را بی‌صدا کنم. فکر خوبیه!",
@@ -361,8 +361,8 @@
     {
      "keywords": [
       "reminder",
-      "check",
       "first",
+      "check",
       "just"
      ],
      "suggestion": "Just a reminder for Tom: check the shed first!",

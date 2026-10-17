@@ -24,8 +24,8 @@
       "nicola's",
       "sweets",
       "party",
-      "them",
-      "bags"
+      "sent",
+      "pick"
      ],
      "suggestion": "Mum sent me for sweets for Nicola's party bags. You pick and mix them here!",
      "suggestionFa": "مامان فرستادم برای کیسه‌های جشن نیکولا آبنبات بخرم. اینجا خودت قاطی می‌کنی!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "different",
-      "sweets",
       "choose",
+      "sweets",
       "weigh",
-      "they"
+      "them"
      ],
      "suggestion": "You choose different sweets and they weigh them. We need ten bags.",
      "suggestionFa": "آبنبات‌های مختلف انتخاب می‌کنی و وزنشون می‌کنن. ده تا کیسه لازمیم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -129,10 +129,10 @@
     {
      "keywords": [
       "fizzy",
-      "they",
-      "many",
       "make",
-      "ones"
+      "ones",
+      "they",
+      "many"
      ],
      "suggestion": "Not too many fizzy ones. Mum says they make kids go mad.",
      "suggestionFa": "زیاد گازداری نه. مامان میگه بچه‌ها را دیوونه می‌کنه.",
@@ -154,10 +154,10 @@
     {
      "keywords": [
       "chocolate",
-      "melts",
       "jelly",
-      "bags",
-      "more"
+      "melts",
+      "more",
+      "bags"
      ],
      "suggestion": "Chocolate melts in the bags. Less chocolate, more jelly.",
      "suggestionFa": "شکلات تو کیسه‌ها آب میشه. شکلات کمتر، ژله‌ای بیشتر.",
@@ -230,9 +230,9 @@
     {
      "keywords": [
       "perfect",
+      "sound",
       "grams",
       "sixty",
-      "sound",
       "like"
      ],
      "suggestion": "Ha, you sound like Mum. It's perfect. Sixty grams each bag.",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -304,10 +304,10 @@
     {
      "keywords": [
       "surprise",
-      "sorted",
       "nicola",
       "snakes",
-      "don't"
+      "sorted",
+      "about"
      ],
      "suggestion": "Sorted. Don't tell Nicola about the snakes. It's a surprise. And don't eat them on the way home!",
      "suggestionFa": "تمومه. دربارهٔ مارها به نیکولا نگو. سورپرایزه. و تو راه خونه نخوریشون!",

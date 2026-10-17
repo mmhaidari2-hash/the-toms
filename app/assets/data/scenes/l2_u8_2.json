@@ -117,8 +117,8 @@
     {
      "keywords": [
       "check",
-      "i'll",
-      "sure"
+      "sure",
+      "i'll"
      ],
      "suggestion": "I'm not sure. I'll check.",
      "suggestionFa": "مطمئن نیستم. نگاه می‌کنم.",
@@ -153,9 +153,9 @@
     {
      "keywords": [
       "bring",
-      "i'll",
+      "four",
       "fine",
-      "four"
+      "i'll"
      ],
      "suggestion": "Four is fine. I'll bring him.",
      "suggestionFa": "چهار خوبه. میارمش.",
@@ -197,9 +197,9 @@
    "branches": [
     {
      "keywords": [
-      "give",
       "i'll",
       "some",
+      "give",
       "him"
      ],
      "suggestion": "OK. I'll give him some now.",

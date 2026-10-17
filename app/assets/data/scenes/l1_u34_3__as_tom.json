@@ -47,9 +47,9 @@
     {
      "keywords": [
       "street",
-      "high",
+      "bank",
       "next",
-      "bank"
+      "high"
      ],
      "suggestion": "It's next to the bank. On the high street.",
      "suggestionFa": "کنار بانکه. تو خیابون اصلی.",
@@ -70,11 +70,11 @@
    "branches": [
     {
      "keywords": [
-      "chemist",
       "between",
+      "chemist",
       "little",
       "where",
-      "bank"
+      "blue"
      ],
      "suggestion": "The one where I go. Between the bank and the chemist. Little blue sign.",
      "suggestionFa": "همونی که من میرم. بین بانک و داروخونه. یه تابلوی کوچیک آبی.",
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "opposite",
-      "bakery",
       "corner",
+      "bakery",
       "thing",
       "same"
      ],
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "getting",
-      "there's",
       "mario's",
+      "there's",
       "leslie",
-      "belly"
+      "under"
      ],
      "suggestion": "No cake! Leslie says I'm getting a belly. Look, there's Mario's! Under the blue sign.",
      "suggestionFa": "کیک نه! لزلی میگه شکم آوردم. نگاه کن، کافه ماریو! زیر تابلوی آبی.",
@@ -147,9 +147,9 @@
      "keywords": [
       "perfect",
       "hackney",
-      "coffee",
       "window",
-      "mario"
+      "coffee",
+      "small"
      ],
      "suggestion": "Small but perfect. Sit by the window. Mario makes the best coffee in Hackney.",
      "suggestionFa": "کوچیک ولی عالی. کنار پنجره بشین. ماریو بهترین قهوهٔ هکنی را درست می‌کنه.",
@@ -172,9 +172,9 @@
      "keywords": [
       "favourite",
       "leslie's",
+      "coffees",
       "minutes",
-      "fifteen",
-      "coffees"
+      "fifteen"
      ],
      "suggestion": "Shh! Don't tell Callum. He's Leslie's favourite. Two coffees, fifteen minutes, then back on the bus!",
      "suggestionFa": "هیس! به کالوم نگو. محبوب لزلیه. دو تا قهوه، پونزده دقیقه، بعد برگشت به اتوبوس!",

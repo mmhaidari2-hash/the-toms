@@ -1,0 +1,399 @@
+{
+ "id": "l2_u63_3",
+ "characterId": "ryan",
+ "title": "Chinese New Year",
+ "titleFa": "سال نو چینی",
+ "setting": "Celebrations · Level 2",
+ "settingFa": "جشن‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Yo, {you}. You coming to Chinatown on Sunday? It's Chinese New Year. There's a massive parade. Me and Leo are going.",
+   "translations": {
+    "fa": "هی {you}. یکشنبه میای محلهٔ چینی‌ها؟ سال نو چینیه. یه رژهٔ خیلی بزرگ هست. من و لئو داریم میریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "february",
+      "chinese",
+      "year",
+      "new"
+     ],
+     "suggestion": "Chinese New Year? In February?",
+     "suggestionFa": "سال نو چینی؟ تو فوریه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chinatown",
+      "where's",
+      "sounds",
+      "fun"
+     ],
+     "suggestion": "Sounds fun! Where's Chinatown?",
+     "suggestionFa": "به نظر باحاله! محلهٔ چینی‌ها کجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Chinatown",
+     "fa": "محلهٔ چینی‌ها"
+    },
+    {
+     "word": "massive",
+     "fa": "خیلی بزرگ"
+    },
+    {
+     "word": "parade",
+     "fa": "رژه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you come to chinatown",
+      "you coming with chinatown"
+     ],
+     "echo": "Are you coming to Chinatown? Yes!",
+     "better": "Are you coming to Chinatown?",
+     "betterFa": "به محلهٔ چینی‌ها می‌آیی؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Yeah, it moves every year. It's the moon calendar, innit. Chinatown's in the West End, near Leicester Square.",
+   "translations": {
+    "fa": "آره، هر سال جابه‌جا میشه. تقویم قمریه دیگه. محلهٔ چینی‌ها تو وست‌اند، نزدیک میدون لستره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "nowruz",
+      "march",
+      "like"
+     ],
+     "suggestion": "Like our Nowruz — but ours is always in March.",
+     "suggestionFa": "مثل نوروز ما — ولی مال ما همیشه تو مارسه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leicester",
+      "square",
+      "tube",
+      "near"
+     ],
+     "suggestion": "Near Leicester Square — easy on the Tube.",
+     "suggestionFa": "نزدیک میدون لستر — با مترو آسونه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moon calendar",
+     "fa": "تقویم قمری"
+    },
+    {
+     "word": "innit",
+     "fa": "دیگه ؛ نه؟"
+    },
+    {
+     "word": "West End",
+     "fa": "وست‌اند (مرکز لندن)"
+    }
+   ],
+   "cultureNote": {
+    "en": "London's Chinese New Year celebration is one of the biggest outside Asia, with a parade, lion dances and stages in Chinatown and Trafalgar Square.",
+    "fa": "جشن سال نو چینی لندن یکی از بزرگ‌ترین جشن‌های بیرون از آسیاست، با رژه و رقص شیر در محلهٔ چینی‌ها و میدان ترافالگار."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Nowruz is New Year too, right? Sick. This year is the Year of the Horse. Me and Leo are tigers. Born in 2010.",
+   "translations": {
+    "fa": "نوروز هم سال نوئه، نه؟ باحاله. امسال سال اسبه. من و لئو ببریم. متولد ۲۰۱۰."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "born",
+      "was"
+     ],
+     "suggestion": "What animal am I? I was born in 1996.",
+     "suggestionFa": "من چه حیوونی‌ام؟ ۱۹۹۶ به دنیا اومدم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "ryan"
+     ],
+     "suggestion": "Which animal are you, Ryan?",
+     "suggestionFa": "تو چه حیوونی هستی رایان؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Year of the Horse",
+     "fa": "سال اسب"
+    },
+    {
+     "word": "born",
+     "fa": "به دنیا آمده"
+    },
+    {
+     "word": "sick",
+     "fa": "باحال (عامیانه)"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "1996? Hang on… Google says rat. You're a rat! Clever and good with money, apparently. I'm a tiger. Brave, obviously.",
+   "translations": {
+    "fa": "۱۹۹۶؟ صبر کن… گوگل میگه موش. تو موشی! ظاهراً باهوش و حساب‌شده با پول. من ببرم. شجاع، معلومه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "ryan",
+      "lot",
+      "rat"
+     ],
+     "suggestion": "A rat? Thanks a lot, Ryan!",
+     "suggestionFa": "موش؟ خیلی ممنون رایان!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clever",
+      "money",
+      "i'll",
+      "good"
+     ],
+     "suggestion": "Clever and good with money — I'll take it!",
+     "suggestionFa": "باهوش و حساب‌شده با پول — قبول دارم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hang on",
+     "fa": "صبر کن"
+    },
+    {
+     "word": "rat",
+     "fa": "موش"
+    },
+    {
+     "word": "apparently",
+     "fa": "ظاهراً"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    },
+    {
+     "word": "obviously",
+     "fa": "معلومه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Ha! Leo's nan gave him a red envelope with twenty quid in it. For luck. Red is lucky. I need a Chinese nan!",
+   "translations": {
+    "fa": "ها! مادربزرگ لئو یه پاکت قرمز با بیست پوند توش بهش داد. برای شانس. قرمز خوش‌شانسیه. من یه مادربزرگ چینی لازم دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nowruz",
+      "money",
+      "iran",
+      "give"
+     ],
+     "suggestion": "In Iran we give money at Nowruz too!",
+     "suggestionFa": "تو ایران هم نوروز عیدی پول میدیم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tradition",
+      "envelopes",
+      "red"
+     ],
+     "suggestion": "Red envelopes? Is that a tradition?",
+     "suggestionFa": "پاکت قرمز؟ رسمه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "red envelope",
+     "fa": "پاکت قرمز"
+    },
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "for luck",
+     "fa": "برای شانس"
+    },
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    }
+   ],
+   "cultureNote": {
+    "en": "At Chinese New Year, older relatives give children money in red envelopes (hongbao or lai see). Red is the colour of luck and happiness.",
+    "fa": "در سال نو چینی بزرگ‌ترها به بچه‌ها پول در پاکت قرمز می‌دهند؛ قرمز رنگ شانس و شادی است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Money at Nowruz? Right — I'm doing Nowruz with you this year. Just saying. What do I say to Leo's nan?",
+   "translations": {
+    "fa": "پول تو نوروز؟ باشه — امسال نوروز را با تو جشن می‌گیرم. فقط گفتم. به مادربزرگ لئو چی بگم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cantonese",
+      "think",
+      "choi",
+      "gong"
+     ],
+     "suggestion": "I think it's \"Gong hei fat choi\" in Cantonese.",
+     "suggestionFa": "فکر کنم به کانتونی میشه «گونگ هِی فَت چوی».",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "he'll",
+      "know",
+      "ask",
+      "leo"
+     ],
+     "suggestion": "Ask Leo! He'll know.",
+     "suggestionFa": "از لئو بپرس! اون می‌دونه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "celebrating",
+     "fa": "جشن گرفتن"
+    },
+    {
+     "word": "just saying",
+     "fa": "فقط گفتم"
+    },
+    {
+     "word": "wanna",
+     "fa": "می‌خواهم (عامیانه)"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "\"Gong hei fat choi.\" Leo says it means \"wishing you wealth\". His nan will love it. Maybe another twenty quid?",
+   "translations": {
+    "fa": "«گونگ هِی فَت چوی.» لئو میگه یعنی «برات ثروت آرزو می‌کنم». مادربزرگش عاشقش میشه. شاید یه بیست پوند دیگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "money",
+      "ryan",
+      "nice",
+      "say"
+     ],
+     "suggestion": "Ryan! Say it to be nice, not for money!",
+     "suggestionFa": "رایان! برای ادب بگو، نه برای پول!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheeky",
+      "tiger",
+      "brave",
+      "ha"
+     ],
+     "suggestion": "Ha! Brave tiger, or cheeky tiger?",
+     "suggestionFa": "ها! ببر شجاع یا ببر پررو؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wishing you",
+     "fa": "برایت آرزو می‌کنم"
+    },
+    {
+     "word": "wealth",
+     "fa": "ثروت"
+    },
+    {
+     "word": "cheeky",
+     "fa": "پررو ؛ شیطون"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Joke, joke! I'm being nice. So — Sunday, eleven, Bethnal Green station? We'll get dumplings. I'm buying. Don't tell Dad.",
+   "translations": {
+    "fa": "شوخی، شوخی! دارم مؤدبم. پس — یکشنبه، یازده، ایستگاه بتنال گرین؟ دامپلینگ می‌گیریم. من حساب می‌کنم. به بابا نگو."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

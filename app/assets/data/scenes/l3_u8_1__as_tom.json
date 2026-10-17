@@ -22,10 +22,10 @@
     {
      "keywords": [
       "boiler's",
-      "heating",
       "working",
+      "heating",
       "stopped",
-      "again"
+      "water"
      ],
      "suggestion": "Bad news — the boiler's stopped working again. No hot water, no heating.",
      "suggestionFa": "خبر بد — پکیج دوباره از کار افتاده. نه آب گرم، نه گرمایش.",
@@ -98,9 +98,9 @@
      "keywords": [
       "radiators",
       "please",
+      "while",
       "noise",
-      "going",
-      "makes"
+      "going"
      ],
      "suggestion": "Yes, please. And while he's here, I'm going to have the radiators bled. The one in your room makes a funny noise.",
      "suggestionFa": "آره لطفاً. و تا اینجاست، می‌خوام بدم هوای رادیاتورها را بگیرن. مال اتاق تو یه صدای عجیب می‌ده.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "kettle",
-      "shower",
       "cheers",
+      "shower",
+      "kettle",
       "can't",
       "going"
      ],

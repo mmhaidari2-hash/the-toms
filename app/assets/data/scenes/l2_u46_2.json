@@ -73,8 +73,8 @@
     {
      "keywords": [
       "important",
-      "let's",
       "she's",
+      "let's",
       "wait"
      ],
      "suggestion": "She's very important. Let's wait for her.",
@@ -126,9 +126,9 @@
    "branches": [
     {
      "keywords": [
-      "girl",
       "kerb",
-      "good"
+      "good",
+      "girl"
      ],
      "suggestion": "Wait at the kerb. Good girl.",
      "suggestionFa": "لب جدول وایسا. آفرین دختر خوب.",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "while",
-      "hold",
       "hand",
+      "hold",
       "we"
      ],
      "suggestion": "Hold my hand while we wait.",
@@ -192,8 +192,8 @@
      "keywords": [
       "cross",
       "right",
-      "safe",
-      "left"
+      "left",
+      "safe"
      ],
      "suggestion": "Left, right, left. Is it safe to cross now?",
      "suggestionFa": "چپ، راست، چپ. الان رد شدن امنه؟",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "other",
+      "from",
       "side",
-      "come",
-      "from"
+      "iran"
      ],
      "suggestion": "In Iran, the cars come from the other side!",
      "suggestionFa": "تو ایران، ماشین‌ها از اون طرف میان!",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "cross",
-      "come",
       "safe",
+      "come",
       "now"
      ],
      "suggestion": "Now it's safe to cross. Come on!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "sticker",
-      "give",
       "star",
+      "give",
       "why"
      ],
      "suggestion": "A star sticker! Why did she give you that?",
@@ -395,8 +395,8 @@
    "branches": [
     {
      "keywords": [
-      "waiter",
       "nicola",
+      "waiter",
       "best"
      ],
      "suggestion": "You're the best waiter, Nicola.",

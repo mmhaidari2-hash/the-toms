@@ -23,8 +23,8 @@
      "keywords": [
       "fourteen",
       "number",
+      "look",
       "khan",
-      "from",
       "have"
      ],
      "suggestion": "Oh look, it's Mrs Khan from number fourteen. Have you met her?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "friend",
-      "they",
       "live",
-      "khan",
-      "next"
+      "next",
+      "door",
+      "they"
      ],
      "suggestion": "Mrs Khan, this is our friend. They live next door to us.",
      "suggestionFa": "خانم خان، این دوستمونه. بغل خونهٔ ما زندگی می‌کنه.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -291,8 +291,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -407,8 +407,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

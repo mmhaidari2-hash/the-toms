@@ -20,8 +20,8 @@
     {
      "keywords": [
       "temperature",
-      "cough",
       "about",
+      "cough",
       "week"
      ],
      "suggestion": "I've had a bad cough and a temperature for about a week.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "hurting",
-      "back's",
-      "lifted"
+      "lifted",
+      "back's"
      ],
      "suggestion": "My back's been hurting since I lifted something heavy.",
      "suggestionFa": "از وقتی یه چیز سنگین بلند کردم کمرم درد می‌کنه.",
@@ -77,7 +77,7 @@
       "monday",
       "caught",
       "after",
-      "last"
+      "rain"
      ],
      "suggestion": "Last Monday, after I got caught in the rain.",
      "suggestionFa": "دوشنبهٔ گذشته، بعد از اینکه زیر بارون موندم.",
@@ -87,10 +87,10 @@
     },
     {
      "keywords": [
-      "about",
       "eight",
-      "work",
-      "days"
+      "about",
+      "days",
+      "work"
      ],
      "suggestion": "About eight days ago, at work.",
      "suggestionFa": "حدود هشت روز پیش، سر کار.",
@@ -170,8 +170,8 @@
      "keywords": [
       "exhausted",
       "throat",
-      "feel",
-      "sore"
+      "sore",
+      "feel"
      ],
      "suggestion": "A sore throat, and I feel exhausted.",
      "suggestionFa": "گلودرد، و احساس خستگی شدید می‌کنم.",
@@ -335,7 +335,7 @@
       "already",
       "please",
       "week",
-      "been"
+      "i've"
      ],
      "suggestion": "Yes please — I've been off for a week already.",
      "suggestionFa": "آره لطفاً — یه هفته‌ست سر کار نرفتم.",

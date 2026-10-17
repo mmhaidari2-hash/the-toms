@@ -33,9 +33,9 @@
     {
      "keywords": [
       "things",
-      "meet",
       "says",
-      "hope"
+      "hope",
+      "meet"
      ],
      "suggestion": "Nice to meet you. I hope she says nice things!",
      "suggestionFa": "از آشنایی‌تون خوشبختم. امیدوارم چیزهای خوبی بگه!",
@@ -70,9 +70,9 @@
     {
      "keywords": [
       "course",
-      "give",
       "i'll",
-      "her"
+      "give",
+      "mum"
      ],
      "suggestion": "Of course. I'll give it to her mum.",
      "suggestionFa": "حتماً. به مامانش می‌دم.",
@@ -84,8 +84,8 @@
      "keywords": [
       "taking",
       "where",
-      "them",
-      "sure"
+      "sure",
+      "them"
      ],
      "suggestion": "Sure. Where are you taking them?",
      "suggestionFa": "حتماً. کجا می‌بریدشون؟",
@@ -178,8 +178,8 @@
      "keywords": [
       "yesterday",
       "animals",
-      "loves",
-      "about"
+      "about",
+      "loves"
      ],
      "suggestion": "She loves animals. She told me about them yesterday.",
      "suggestionFa": "عاشق حیوون‌هاست. دیروز دربارهٔ اونا بهم گفت.",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "haven't",
-      "seen",
+      "home",
       "i'll",
-      "home"
+      "look"
      ],
      "suggestion": "No, I haven't seen it. I'll look for it at home.",
      "suggestionFa": "نه، ندیدمش. تو خونه دنبالش می‌گردم.",
@@ -298,9 +298,9 @@
     {
      "keywords": [
       "i'll",
+      "put",
       "her",
-      "bag",
-      "put"
+      "bag"
      ],
      "suggestion": "I'll put it in her bag now.",
      "suggestionFa": "الان می‌ذارمش تو کیفش.",

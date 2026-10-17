@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "cheers",
+      "thanks",
       "knees",
       "she's"
      ],
@@ -81,8 +81,8 @@
      "keywords": [
       "doctor",
       "about",
-      "been",
-      "them"
+      "them",
+      "have"
      ],
      "suggestion": "Have you been to the doctor about them?",
      "suggestionFa": "برای زانوهات دکتر رفتی؟",
@@ -116,9 +116,9 @@
    "branches": [
     {
      "keywords": [
-      "leave",
       "don't",
       "doris",
+      "leave",
       "long"
      ],
      "suggestion": "Don't leave it too long, Doris.",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
-      "will",
       "move",
-      "sure"
+      "sure",
+      "will"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -310,8 +310,8 @@
      "keywords": [
       "driving",
       "thirty",
-      "years",
-      "worry"
+      "worry",
+      "don't"
      ],
      "suggestion": "I see him, don't worry. Thirty years driving!",
      "suggestionFa": "می‌بینمش، نگران نباش. سی سال رانندگی!",
@@ -321,8 +321,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "second",
+      "thanks",
       "doris",
       "pair"
      ],
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "slowing",
-      "about",
+      "route",
       "still",
-      "route"
+      "about"
      ],
      "suggestion": "He's slowing down, but he still asks about this old route.",
      "suggestionFa": "داره کند میشه، ولی هنوز سراغ این مسیر قدیمی را می‌گیره.",

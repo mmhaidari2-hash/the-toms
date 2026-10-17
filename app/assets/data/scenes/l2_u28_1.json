@@ -21,8 +21,8 @@
      "keywords": [
       "manchester",
       "please",
-      "send",
-      "like"
+      "like",
+      "send"
      ],
      "suggestion": "I'd like to send this to Manchester, please.",
      "suggestionFa": "می‌خوام اینو بفرستم منچستر، لطفاً.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "cheapest",
-      "what's",
       "friend",
+      "what's",
       "book"
      ],
      "suggestion": "It's a book for my friend. What's the cheapest way?",
@@ -296,9 +296,9 @@
     {
      "keywords": [
       "little",
-      "just",
+      "card",
       "book",
-      "card"
+      "just"
      ],
      "suggestion": "No, just a book. And a little card.",
      "suggestionFa": "نه، فقط یه کتاب. و یه کارت کوچیک.",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "arthur",
-      "check",
       "thank",
+      "check",
       "app"
      ],
      "suggestion": "Thank you, Arthur. Can I check it on the app?",

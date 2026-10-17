@@ -20,9 +20,9 @@
     {
      "keywords": [
       "fifty",
+      "sure",
       "each",
-      "five",
-      "sure"
+      "five"
      ],
      "suggestion": "Sure. Fifty-fifty? Five pounds each.",
      "suggestionFa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند.",
@@ -34,8 +34,8 @@
      "keywords": [
       "fifteen",
       "ask",
-      "ten",
-      "him"
+      "him",
+      "ten"
      ],
      "suggestion": "Ten pounds? Ask him for fifteen!",
      "suggestionFa": "ده پوند؟ ازش پونزده بخواه!",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "where's",
+      "kitchen",
       "tap"
      ],
      "suggestion": "Where's the tap? In the kitchen?",
@@ -90,9 +90,9 @@
     {
      "keywords": [
       "little",
-      "soap",
       "much",
-      "lot"
+      "soap",
+      "how"
      ],
      "suggestion": "How much soap? A little or a lot?",
      "suggestionFa": "چقدر صابون؟ کم یا زیاد؟",
@@ -140,8 +140,8 @@
      "keywords": [
       "filled",
       "bucket",
-      "start",
-      "where"
+      "where",
+      "start"
      ],
      "suggestion": "OK, I've filled the bucket. Where do I start?",
      "suggestionFa": "باشه، سطل را پر کردم. از کجا شروع کنم؟",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "clever",
-      "that's",
       "bottom",
+      "that's",
       "top"
      ],
      "suggestion": "Top to bottom. That's clever.",
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "can't",
+      "where",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -419,10 +419,10 @@
    "branches": [
     {
      "keywords": [
-      "honestly",
       "accident",
-      "tom",
-      "was"
+      "honestly",
+      "was",
+      "tom"
      ],
      "suggestion": "It was an accident, Tom. Honestly!",
      "suggestionFa": "تصادفی بود تام. راست میگم!",
@@ -486,10 +486,10 @@
     },
     {
      "keywords": [
-      "money",
       "don't",
-      "need",
-      "ryan"
+      "money",
+      "ryan",
+      "need"
      ],
      "suggestion": "Ten for Ryan. I don't need money.",
      "suggestionFa": "ده تا برای رایان. من پول نمی‌خوام.",

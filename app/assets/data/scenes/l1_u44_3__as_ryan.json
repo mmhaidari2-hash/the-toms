@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "saturday",
       "customer",
+      "saturday",
       "bakery",
       "guess",
       "first"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "eighty",
       "thanks",
-      "white",
-      "pound"
+      "eighty",
+      "that's",
+      "pound",
+      "white"
      ],
      "suggestion": "Thanks! OK… one white loaf. That's one pound eighty.",
      "suggestionFa": "ممنون! باشه… یه نون سفید. میشه یک پوند و هشتاد.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "twenty",
       "pounds",
       "change",
-      "twenty",
       "here",
       "two"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -153,9 +153,9 @@
    "branches": [
     {
      "keywords": [
+      "ninety",
       "pounds",
       "coffee",
-      "ninety",
       "three",
       "forty"
      ],
@@ -178,11 +178,11 @@
    "branches": [
     {
      "keywords": [
+      "ninety",
       "pounds",
       "change",
-      "ninety",
-      "eight",
-      "seven"
+      "seven",
+      "eight"
      ],
      "suggestion": "From ten. So… five ninety, six, seven, eight, nine, ten. Four pounds ten change!",
      "suggestionFa": "از ده. پس… پنج و نود، شش، هفت، هشت، نه، ده. چهار پوند و ده بقیه!",

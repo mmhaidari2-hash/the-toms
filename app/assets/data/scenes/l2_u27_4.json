@@ -29,9 +29,9 @@
     },
     {
      "keywords": [
-      "talks",
-      "doris",
       "about",
+      "doris",
+      "talks",
       "tom"
      ],
      "suggestion": "Hello, Doris! Tom talks about you too.",
@@ -118,10 +118,10 @@
     },
     {
      "keywords": [
-      "age",
       "get",
       "can",
-      "one"
+      "one",
+      "age"
      ],
      "suggestion": "At what age can you get one?",
      "suggestionFa": "از چند سالگی میشه گرفتش؟",
@@ -176,7 +176,7 @@
      "keywords": [
       "years",
       "must",
-      "ten",
+      "use",
       "lot"
      ],
      "suggestion": "Ten years! You must use it a lot.",
@@ -228,8 +228,8 @@
      "keywords": [
       "that's",
       "years",
-      "five",
-      "time"
+      "time",
+      "long"
      ],
      "suggestion": "Five years. That's a long time.",
      "suggestionFa": "پنج سال. مدت زیادیه.",
@@ -271,7 +271,7 @@
       "maggie",
       "online",
       "renew",
-      "help"
+      "nana"
      ],
      "suggestion": "I can help you renew it online, Nana Maggie.",
      "suggestionFa": "می‌تونم کمکت کنم آنلاین تمدیدش کنی، ننه مگی.",

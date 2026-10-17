@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "problem",
+      "morning",
       "sleep",
       "well"
      ],
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "shall",
       "oscar",
-      "hang",
-      "coat"
+      "shall",
+      "coat",
+      "hang"
      ],
      "suggestion": "Hi, Oscar! Shall we hang up your coat?",
      "suggestionFa": "سلام اسکار! کتت را آویزون کنیم؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "thanks",
-      "snack",
       "write",
+      "snack",
       "toast"
      ],
      "suggestion": "Thanks, I'll write that down. He can have toast at snack time.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "might",
       "today",
-      "need",
-      "dear"
+      "might",
+      "dear",
+      "need"
      ],
      "suggestion": "Oh dear. He might need a nap today.",
      "suggestionFa": "ای وای. شاید امروز یه چرت لازم داشته باشه.",
@@ -148,8 +148,8 @@
     {
      "keywords": [
       "password",
-      "please",
       "what's",
+      "please",
       "her"
      ],
      "suggestion": "What's her password, please?",
@@ -235,9 +235,9 @@
     {
      "keywords": [
       "daddy's",
-      "trains",
       "coming",
-      "let's"
+      "trains",
+      "later"
      ],
      "suggestion": "Daddy's coming back later. Let's find the trains.",
      "suggestionFa": "بابا بعداً برمی‌گرده. بیا قطارها را پیدا کنیم.",
@@ -248,9 +248,9 @@
     {
      "keywords": [
       "know",
-      "hand",
       "want",
-      "hold"
+      "hold",
+      "hand"
      ],
      "suggestion": "I know you're sad. Do you want to hold my hand?",
      "suggestionFa": "می‌دونم غمگینی. می‌خوای دستم را بگیری؟",

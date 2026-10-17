@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "outside",
+      "weather",
       "what's",
       "today",
       "seen"
@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "weather",
-      "typical",
       "british",
+      "typical",
+      "weather",
       "sunny",
       "hour"
      ],
@@ -74,7 +74,7 @@
       "umbrella",
       "pretty",
       "windy",
-      "coat",
+      "much",
       "take"
      ],
      "suggestion": "Pretty much! Take an umbrella. And put your coat on. It's windy too.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "degrees",
       "october",
+      "degrees",
       "that's",
       "eight",
       "trust"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "october",
-      "march",
       "lucky",
+      "march",
       "like",
       "here"
      ],
@@ -149,8 +149,8 @@
       "chucking",
       "stopped",
       "hasn't",
-      "down",
-      "look"
+      "look",
+      "down"
      ],
      "suggestion": "Me too. Look — it's stopped! Oh, no it hasn't. It's chucking it down!",
      "suggestionFa": "منم. ببین — بند اومد! آه، نه، نیومد. داره سیل‌آسا می‌باره!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "wellies",
-      "heavy",
       "means",
-      "wear",
-      "stay"
+      "heavy",
+      "stay",
+      "wear"
      ],
      "suggestion": "It means very heavy rain. Stay dry! And wear your wellies!",
      "suggestionFa": "یعنی بارون خیلی شدید. خشک بمونی! و چکمه‌های لاستیکیت را بپوش!",

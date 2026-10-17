@@ -21,8 +21,8 @@
      "keywords": [
       "beach",
       "ives",
-      "ok",
-      "st"
+      "st",
+      "ok"
      ],
      "suggestion": "OK! This is me on the beach at St Ives.",
      "suggestionFa": "باشه! این منم تو ساحل سنت آیوز.",
@@ -35,7 +35,7 @@
       "station",
       "that's",
       "here's",
-      "train"
+      "first"
      ],
      "suggestion": "Here's the first one. That's the train station.",
      "suggestionFa": "اینم اولی. اون ایستگاه قطاره.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "really",
-      "first",
       "taken",
+      "first",
       "day"
      ],
      "suggestion": "Really! That was taken on the first day.",
@@ -206,8 +206,8 @@
     },
     {
      "keywords": [
-      "castle",
-      "island"
+      "island",
+      "castle"
      ],
      "suggestion": "This is a castle on an island.",
      "suggestionFa": "این یه قلعه رو یه جزیره‌ست.",
@@ -249,10 +249,10 @@
    "branches": [
     {
      "keywords": [
-      "across",
       "walked",
-      "then",
-      "came"
+      "across",
+      "came",
+      "then"
      ],
      "suggestion": "Yes, we walked across. Then the tide came in!",
      "suggestionFa": "آره، پیاده رد شدیم. بعد آب بالا اومد!",
@@ -301,10 +301,10 @@
    "branches": [
     {
      "keywords": [
-      "back",
       "boat",
       "came",
-      "fun"
+      "back",
+      "was"
      ],
      "suggestion": "We came back by boat! It was fun.",
      "suggestionFa": "با قایق برگشتیم! جالب بود.",
@@ -372,8 +372,8 @@
     },
     {
      "keywords": [
-      "people",
       "hostel",
+      "people",
       "great",
       "time"
      ],

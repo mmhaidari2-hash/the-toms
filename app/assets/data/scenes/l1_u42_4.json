@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "bike",
       "ride",
+      "bike",
       "can"
      ],
      "suggestion": "Yes, I can ride a bike.",
@@ -265,9 +265,9 @@
     {
      "keywords": [
       "remember",
-      "i'll",
       "left",
-      "keep"
+      "keep",
+      "i'll"
      ],
      "suggestion": "Keep left. I'll remember.",
      "suggestionFa": "از چپ برم. یادم می‌مونه.",
@@ -277,8 +277,8 @@
     },
     {
      "keywords": [
-      "right",
       "drive",
+      "right",
       "iran",
       "we"
      ],
@@ -320,8 +320,8 @@
     },
     {
      "keywords": [
-      "bike",
       "ride",
+      "bike",
       "tom"
      ],
      "suggestion": "Do you ride a bike, Tom?",

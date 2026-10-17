@@ -76,8 +76,8 @@
      "keywords": [
       "haven't",
       "bring",
-      "time",
-      "next"
+      "next",
+      "time"
      ],
      "suggestion": "I haven't got one with me. Can I bring it next time?",
      "suggestionFa": "همراهم نیست. می‌تونم دفعهٔ بعد بیارمش؟",
@@ -317,9 +317,9 @@
    "branches": [
     {
      "keywords": [
+      "love",
       "free",
       "time",
-      "love",
       "come"
      ],
      "suggestion": "Free? I'd love to come. What time?",
@@ -331,8 +331,8 @@
     {
      "keywords": [
       "place",
-      "need",
-      "book"
+      "book",
+      "need"
      ],
      "suggestion": "Do I need to book a place?",
      "suggestionFa": "لازمه جا رزرو کنم؟",
@@ -373,7 +373,7 @@
       "helpful",
       "you've",
       "thank",
-      "much"
+      "been"
      ],
      "suggestion": "Thank you so much. You've been very helpful.",
      "suggestionFa": "خیلی ممنون. خیلی کمک کردید.",

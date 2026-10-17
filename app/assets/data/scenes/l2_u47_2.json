@@ -85,9 +85,9 @@
     },
     {
      "keywords": [
-      "thirty",
       "that's",
       "longer",
+      "thirty",
       "hours"
      ],
      "suggestion": "Thirty hours! That's much longer.",
@@ -200,9 +200,9 @@
     {
      "keywords": [
       "seventy",
-      "leaves",
       "pounds",
-      "only"
+      "leaves",
+      "five"
      ],
      "suggestion": "Seventy-five leaves you only five pounds.",
      "suggestionFa": "هفتاد و پنج فقط پنج پوند برات می‌ذاره.",
@@ -256,8 +256,8 @@
     {
      "keywords": [
       "reviews",
-      "fake",
       "them",
+      "fake",
       "try"
      ],
      "suggestion": "Reviews can be fake. Try them on!",
@@ -296,10 +296,10 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "hear",
-      "now",
-      "can"
+      "ryan",
+      "can",
+      "now"
      ],
      "suggestion": "RYAN! Can you hear me now?",
      "suggestionFa": "رایان! الان صدام را می‌شنوی؟",
@@ -310,9 +310,9 @@
     {
      "keywords": [
       "white",
-      "take",
-      "ones",
-      "then"
+      "work",
+      "then",
+      "they"
      ],
      "suggestion": "Then they work! Take the white ones.",
      "suggestionFa": "پس کار می‌کنن! سفیده را بردار.",
@@ -360,8 +360,8 @@
      "keywords": [
       "pounds",
       "left",
-      "five",
-      "sure"
+      "sure",
+      "five"
      ],
      "suggestion": "Are you sure? Five pounds left.",
      "suggestionFa": "مطمئنی؟ پنج پوند می‌مونه.",

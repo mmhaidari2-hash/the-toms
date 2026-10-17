@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "where",
-      "towel",
       "start",
+      "towel",
+      "where",
       "we"
      ],
      "suggestion": "Yes, and a towel. Where do we start?",
@@ -135,8 +135,8 @@
      "keywords": [
       "walking",
       "easy",
-      "can",
-      "run"
+      "run",
+      "can"
      ],
      "suggestion": "Walking is easy. Can I run?",
      "suggestionFa": "راه رفتن آسونه. می‌تونم بدوم؟",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "every",
-      "wipe",
       "i'll",
-      "time"
+      "time",
+      "wipe"
      ],
      "suggestion": "I'll wipe it. Every time.",
      "suggestionFa": "تمیزش می‌کنم. هر بار.",

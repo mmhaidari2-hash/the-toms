@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "look",
       "list",
+      "look",
       "let"
      ],
      "suggestion": "Let me look at the list.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "please",
-      "green",
-      "three"
+      "three",
+      "green"
      ],
      "suggestion": "Three red and three green, please.",
      "suggestionFa": "سه تا قرمز و سه تا سبز، لطفاً.",
@@ -219,9 +219,9 @@
    "branches": [
     {
      "keywords": [
+      "ripe",
       "i'll",
-      "take",
-      "ripe"
+      "take"
      ],
      "suggestion": "I'll take the ripe ones.",
      "suggestionFa": "رسیده‌ها را برمی‌دارم.",
@@ -313,8 +313,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "got",
-      "bag"
+      "bag",
+      "got"
      ],
      "suggestion": "No, thanks. I've got a bag.",
      "suggestionFa": "نه، ممنون. کیسه دارم.",
@@ -368,8 +368,8 @@
     {
      "keywords": [
       "card",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by card?",

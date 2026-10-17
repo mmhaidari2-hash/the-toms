@@ -22,7 +22,7 @@
       "usually",
       "take",
       "but",
-      "bus"
+      "bit"
      ],
      "suggestion": "A bit. But I usually take the bus.",
      "suggestionFa": "یه کم. ولی معمولاً اتوبوس می‌گیرم.",
@@ -35,7 +35,7 @@
       "morning",
       "happy",
       "jade",
-      "how"
+      "six"
      ],
      "suggestion": "Morning, Jade. How are you so happy at six?",
      "suggestionFa": "صبح بخیر جید. چطوری ساعت شش انقدر خوشحالی؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "yesterday",
-      "only",
       "look",
+      "only",
       "two"
      ],
      "suggestion": "Let me look. Yesterday, only two thousand!",
@@ -143,8 +143,8 @@
      "keywords": [
       "that's",
       "early",
-      "idea",
-      "good"
+      "stop",
+      "idea"
      ],
      "suggestion": "One stop early. That's a good idea.",
      "suggestionFa": "یه ایستگاه زودتر. فکر خوبیه.",
@@ -156,8 +156,8 @@
      "keywords": [
       "drives",
       "he'll",
-      "tom",
-      "but"
+      "but",
+      "sad"
      ],
      "suggestion": "But Tom drives my bus! He'll be sad.",
      "suggestionFa": "ولی تام اتوبوسم را می‌رونه! ناراحت میشه.",
@@ -205,8 +205,8 @@
      "keywords": [
       "instead",
       "that's",
-      "funny",
-      "email"
+      "email",
+      "funny"
      ],
      "suggestion": "Walk instead of email? That's funny.",
      "suggestionFa": "به‌جای ایمیل راه برم؟ خنده‌داره.",
@@ -317,7 +317,7 @@
      "keywords": [
       "thousand",
       "perfect",
-      "steps",
+      "three",
       "ducks"
      ],
      "suggestion": "Three thousand steps and ducks. Perfect!",

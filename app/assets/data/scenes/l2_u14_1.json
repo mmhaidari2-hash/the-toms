@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "library",
+      "morning",
       "please",
-      "good"
+      "like"
      ],
      "suggestion": "Good morning. I'd like to join the library, please.",
      "suggestionFa": "صبح بخیر. می‌خوام عضو کتابخانه بشم، لطفاً.",
@@ -81,8 +81,8 @@
      "keywords": [
       "minutes",
       "about",
-      "five",
-      "away"
+      "away",
+      "five"
      ],
      "suggestion": "Yes, about five minutes away.",
      "suggestionFa": "بله، حدود پنج دقیقه فاصله.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "from",
+      "will",
       "gp"
      ],
      "suggestion": "Will a letter from the GP do?",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "here's",
-      "bank",
-      "card"
+      "card",
+      "bank"
      ],
      "suggestion": "Here's my bank card and a letter.",
      "suggestionFa": "این کارت بانکیم و یه نامه.",
@@ -174,8 +174,8 @@
      "keywords": [
       "fifteen",
       "keep",
-      "long",
-      "them"
+      "them",
+      "long"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "that's",
-      "great",
       "fines",
+      "great",
       "news"
      ],
      "suggestion": "No fines? That's great news.",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "persian",
-      "got",
-      "any"
+      "any",
+      "got"
      ],
      "suggestion": "Have you got any books in Persian?",
      "suggestionFa": "کتاب فارسی دارید؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "thank",
-      "i'll",
       "both",
+      "i'll",
       "look"
      ],
      "suggestion": "Thank you. I'll look at both.",

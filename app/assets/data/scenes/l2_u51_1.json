@@ -89,8 +89,8 @@
      "keywords": [
       "white",
       "clock",
-      "one",
-      "big"
+      "big",
+      "one"
      ],
      "suggestion": "The big white one with the clock?",
      "suggestionFa": "همون بزرگ سفید با ساعت؟",
@@ -128,10 +128,10 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "thank",
-      "from",
-      "stop"
+      "which",
+      "stop",
+      "from"
      ],
      "suggestion": "Thank you. Which way do I go from the stop?",
      "suggestionFa": "ممنون. از ایستگاه کدوم طرف برم؟",
@@ -143,8 +143,8 @@
      "keywords": [
       "write",
       "i'll",
-      "tell",
-      "down"
+      "down",
+      "tell"
      ],
      "suggestion": "Can you tell me now? I'll write it down.",
      "suggestionFa": "میشه الان بگید؟ یادداشتش می‌کنم.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "straight",
-      "station",
       "library",
+      "station",
       "past"
      ],
      "suggestion": "Straight on, past the station and the library.",
@@ -305,8 +305,8 @@
      "keywords": [
       "fountains",
       "remember",
-      "played",
-      "nicola"
+      "nicola",
+      "played"
      ],
      "suggestion": "Fountains! Now I remember. Nicola played there.",
      "suggestionFa": "فواره! حالا یادم اومد. نیکولا اونجا بازی کرد.",
@@ -318,8 +318,8 @@
      "keywords": [
       "phrase",
       "can't",
-      "miss",
-      "love"
+      "love",
+      "miss"
      ],
      "suggestion": "\"You can't miss it.\" I love that phrase.",
      "suggestionFa": "«نمیشه نبینیش.» این عبارت را دوست دارم.",

@@ -32,8 +32,8 @@
     {
      "keywords": [
       "help",
-      "mow",
-      "can"
+      "can",
+      "mow"
      ],
      "suggestion": "Can I help you mow it?",
      "suggestionFa": "می‌تونم کمکت کنم چمن را بزنی؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "electric",
-      "mower",
-      "heavy"
+      "heavy",
+      "mower"
      ],
      "suggestion": "The mower is heavy! Is it electric?",
      "suggestionFa": "ماشین چمن‌زنی سنگینه! برقیه؟",
@@ -130,8 +130,8 @@
      "keywords": [
       "dinosaur",
       "there's",
-      "shoe",
-      "ball"
+      "ball",
+      "cars"
      ],
      "suggestion": "There's a dinosaur, two cars, a ball and a shoe!",
      "suggestionFa": "یه دایناسور، دو تا ماشین، یه توپ و یه کفش هست!",
@@ -321,8 +321,8 @@
     },
     {
      "keywords": [
-      "already",
       "where's",
+      "already",
       "green",
       "full"
      ],
@@ -434,7 +434,7 @@
       "football",
       "wembley",
       "play",
-      "now"
+      "can"
      ],
      "suggestion": "Wembley! Can I play football on it now?",
      "suggestionFa": "ومبلی! حالا می‌تونم روش فوتبال بازی کنم؟",

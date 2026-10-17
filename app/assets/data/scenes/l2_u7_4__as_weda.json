@@ -25,7 +25,7 @@
       "power",
       "about",
       "night",
-      "hear"
+      "last"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "suddenly",
       "blowing",
-      "reading",
       "raining",
+      "reading",
       "george"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. George was reading, and suddenly — dark!",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "electric",
       "kettle's",
+      "electric",
+      "george",
       "asleep",
-      "lights",
-      "george"
+      "lights"
      ],
      "suggestion": "The kettle's electric, love! When the lights came back on, George was fast asleep in his chair.",
      "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، جورج تو صندلیش خواب عمیق بود.",

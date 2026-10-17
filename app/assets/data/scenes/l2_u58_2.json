@@ -74,8 +74,8 @@
     {
      "keywords": [
       "child",
-      "adult",
       "under",
+      "adult",
       "says"
      ],
      "suggestion": "It says \"Child: under 15\". So Ryan is an adult.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "families",
       "discount",
+      "families",
       "there"
      ],
      "suggestion": "Is there a discount for families?",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "hurts",
       "front",
+      "hurts",
       "neck"
      ],
      "suggestion": "Not at the front. It hurts my neck.",
@@ -199,8 +199,8 @@
     },
     {
      "keywords": [
-      "middle",
       "toilet",
+      "middle",
       "aisle",
       "near"
      ],
@@ -246,8 +246,8 @@
      "keywords": [
       "seats",
       "need",
-      "only",
-      "five"
+      "five",
+      "only"
      ],
      "suggestion": "Six seats? We only need five.",
      "suggestionFa": "شش تا صندلی؟ ما فقط پنج تا لازم داریم.",

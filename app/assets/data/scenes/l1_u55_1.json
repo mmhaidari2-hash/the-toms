@@ -20,8 +20,8 @@
     {
      "keywords": [
       "tehran",
-      "from",
-      "iran"
+      "iran",
+      "from"
      ],
      "suggestion": "I'm from Iran. From Tehran.",
      "suggestionFa": "من اهل ایرانم. اهل تهران.",
@@ -132,8 +132,8 @@
      "keywords": [
       "turkey",
       "middle",
-      "east",
-      "next"
+      "next",
+      "east"
      ],
      "suggestion": "It's in the Middle East, next to Turkey.",
      "suggestionFa": "تو خاورمیانه‌ست، کنار ترکیه.",
@@ -253,10 +253,10 @@
     },
     {
      "keywords": [
-      "cities",
       "poetry",
-      "food",
-      "good"
+      "cities",
+      "good",
+      "food"
      ],
      "suggestion": "Old cities, poetry and good food.",
      "suggestionFa": "شهرهای قدیمی، شعر و غذای خوب.",
@@ -357,8 +357,8 @@
    "branches": [
     {
      "keywords": [
-      "drink",
       "sugar",
+      "drink",
       "we"
      ],
      "suggestion": "No, no milk! We drink it with sugar.",
@@ -412,8 +412,8 @@
      "keywords": [
       "different",
       "nice",
-      "mmm",
-      "but"
+      "but",
+      "mmm"
      ],
      "suggestion": "Mmm. It's… different. But nice!",
      "suggestionFa": "ممم. یه‌کم… فرق داره. ولی خوبه!",
@@ -426,7 +426,7 @@
       "persian",
       "thanks",
       "i'll",
-      "next"
+      "make"
      ],
      "suggestion": "Thanks, Tom. Next time, I'll make Persian tea.",
      "suggestionFa": "ممنون تام. دفعهٔ بعد، من چای ایرانی درست می‌کنم.",

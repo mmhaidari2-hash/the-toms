@@ -22,10 +22,10 @@
     {
      "keywords": [
       "broke",
-      "money",
       "piggy",
       "count",
-      "bank"
+      "money",
+      "look"
      ],
      "suggestion": "Look! I broke my piggy bank! Can you help me count my money?",
      "suggestionFa": "ببین! قلکم را شکستم! کمکم می‌کنی پولم را بشمرم؟",
@@ -71,10 +71,10 @@
     {
      "keywords": [
       "silver",
-      "seven",
       "sides",
-      "has",
-      "one"
+      "seven",
+      "one",
+      "has"
      ],
      "suggestion": "And this big silver one? It has seven sides!",
      "suggestionFa": "و این بزرگه نقره‌ای؟ هفت تا ضلع داره!",
@@ -119,10 +119,10 @@
     {
      "keywords": [
       "purple",
-      "note",
-      "gave",
+      "i've",
       "nana",
-      "i've"
+      "note",
+      "gave"
      ],
      "suggestion": "I've got a note too! Nana gave me it. It's purple. Is it a lot?",
      "suggestionFa": "یه اسکناس هم دارم! نانا بهم داد. بنفشه. زیاده؟",
@@ -146,8 +146,8 @@
       "pennies",
       "pounds",
       "let's",
-      "there",
-      "piles"
+      "piles",
+      "there"
      ],
      "suggestion": "Rich! OK, let's put them in piles. Pennies here, pounds there.",
      "suggestionFa": "پولدار! باشه، بیا دسته‌شون کنیم. پنی‌ها اینجا، پوندها اونجا.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "unicorn",
-      "pounds",
       "twenty",
+      "pounds",
       "fifty",
       "pony"
      ],

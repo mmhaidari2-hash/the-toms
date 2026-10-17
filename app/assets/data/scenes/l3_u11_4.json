@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "should",
-      "ready",
-      "today"
+      "today",
+      "ready"
      ],
      "suggestion": "Yes please. It should be ready today.",
      "suggestionFa": "آره لطفاً. باید امروز آماده باشه.",
@@ -35,7 +35,7 @@
       "thompson",
       "behalf",
       "george",
-      "come"
+      "i've"
      ],
      "suggestion": "Yes. I've come on behalf of George Thompson.",
      "suggestionFa": "آره. از طرف جورج تامپسون اومدم.",
@@ -118,9 +118,9 @@
    "branches": [
     {
      "keywords": [
-      "missing",
       "mistake",
       "there's",
+      "missing",
       "think"
      ],
      "suggestion": "I think there's been a mistake. One item is missing.",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "expecting",
-      "check",
       "again",
-      "could"
+      "could",
+      "check"
      ],
      "suggestion": "Could you check again? We were expecting four.",
      "suggestionFa": "می‌شه دوباره چک کنید؟ منتظر چهار تا بودیم.",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "contact",
       "surgery",
+      "contact",
       "us"
      ],
      "suggestion": "Can you contact the surgery for us?",
@@ -277,8 +277,8 @@
    "branches": [
     {
      "keywords": [
-      "ready",
       "isn't",
+      "ready",
       "time",
       "if"
      ],
@@ -327,8 +327,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "relief",
+      "number",
       "where",
       "find"
      ],

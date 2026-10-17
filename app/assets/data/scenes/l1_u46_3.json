@@ -31,8 +31,8 @@
     {
      "keywords": [
       "biscuits",
-      "kind",
-      "they"
+      "they",
+      "kind"
      ],
      "suggestion": "What kind of biscuits are they?",
      "suggestionFa": "چه جور بیسکویتی‌ان؟",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "sugars",
-      "sweet",
       "tooth",
+      "sweet",
       "two"
      ],
      "suggestion": "Two sugars! Sweet tooth!",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "shall",
-      "help",
-      "ryan"
+      "ryan",
+      "help"
      ],
      "suggestion": "Shall I help you, Ryan?",
      "suggestionFa": "کمکت کنم رایان؟",
@@ -219,8 +219,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
-      "dunker"
+      "dunker",
+      "what's"
      ],
      "suggestion": "What's a dunker?",
      "suggestionFa": "«دانکر» چیه؟",

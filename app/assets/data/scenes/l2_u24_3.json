@@ -21,8 +21,8 @@
      "keywords": [
       "collect",
       "ordered",
-      "thanks",
-      "online"
+      "online",
+      "thanks"
      ],
      "suggestion": "Good, thanks! I ordered a fan online. Where do I collect it?",
      "suggestionFa": "خوب، ممنون! یه پنکه آنلاین سفارش دادم. کجا تحویلش بگیرم؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "catalogue",
-      "shop",
       "need",
-      "here"
+      "here",
+      "shop"
      ],
      "suggestion": "I need the catalogue shop. Is it here?",
      "suggestionFa": "فروشگاه کاتالوگی را لازم دارم. اینجاست؟",
@@ -140,8 +140,8 @@
      "keywords": [
       "sounds",
       "ticket",
-      "easy",
-      "type"
+      "type",
+      "easy"
      ],
      "suggestion": "Type, ticket, board. Sounds easy!",
      "suggestionFa": "تایپ، برگه، تابلو. آسون به نظر میاد!",
@@ -180,8 +180,8 @@
     {
      "keywords": [
       "usually",
-      "take",
       "long",
+      "take",
       "how"
      ],
      "suggestion": "How long does it usually take?",
@@ -291,8 +291,8 @@
     {
      "keywords": [
       "reserved",
-      "great",
       "carry",
+      "great",
       "home"
      ],
      "suggestion": "Reserved. Great. How do I carry it home?",

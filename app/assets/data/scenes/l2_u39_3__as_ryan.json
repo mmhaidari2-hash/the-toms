@@ -24,8 +24,8 @@
       "favourite",
       "william",
       "hoodie",
-      "fits",
-      "look"
+      "look",
+      "fits"
      ],
      "suggestion": "Bro. Look at this. Look at my hoodie. It was my favourite. Now it fits William!",
      "suggestionFa": "داداش. اینو ببین. هودیم را ببین. مورد علاقه‌ام بود. الان اندازهٔ ویلیامه!",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "degrees",
-      "towels",
       "nana's",
       "washed",
+      "towels",
       "sixty"
      ],
      "suggestion": "I washed it with the towels. At sixty degrees. Then I put it in the dryer at Nana's. On high.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "thirty",
       "labels",
+      "thirty",
       "tumble",
       "reads",
       "label"
@@ -98,9 +98,9 @@
      "keywords": [
       "christmas",
       "supposed",
+      "going",
       "mum's",
-      "forty",
-      "going"
+      "forty"
      ],
      "suggestion": "Mum's going to kill me. It was supposed to last till Christmas. It was forty-five quid! Can you fix it?",
      "suggestionFa": "مامان منو می‌کشه. قرار بود تا کریسمس دووم بیاره. چهل و پنج پوند بود! می‌تونی درستش کنی؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "stretch",
+      "minutes",
       "soaking",
-      "thirty",
-      "gently"
+      "sleeve",
+      "thirty"
      ],
      "suggestion": "OK, it's soaking. Thirty minutes… Right. Stretch. Pull that sleeve, I'll pull this one. Gently! GENTLY!",
      "suggestionFa": "باشه، داره خیس می‌خوره. سی دقیقه… خب. کش بده. اون آستین را بکش، منم اینو. آروم! آروم!",
@@ -173,9 +173,9 @@
      "keywords": [
       "whatever",
       "pirate",
-      "before",
+      "should",
       "better",
-      "should"
+      "before"
      ],
      "suggestion": "Ha! I look like a pirate. Whatever. Better than before. What should I do now? Tell Mum, or hide it?",
      "suggestionFa": "ها! شبیه دزد دریایی شدم. مهم نیست. از قبل بهتره. حالا چی کار کنم؟ به مامان بگم یا قایمش کنم؟",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -253,11 +253,11 @@
    "branches": [
     {
      "keywords": [
-      "washed",
       "bakery",
       "tumble",
-      "sorry",
-      "sixty"
+      "washed",
+      "dried",
+      "sorry"
      ],
      "suggestion": "OK, OK. I washed it at sixty. And tumble dried it. I'm sorry. I'll pay for a new one. From my bakery money.",
      "suggestionFa": "باشه باشه. تو شصت شستمش. و خشک‌کن زدم. ببخشید. پول یه جدید را میدم. از پول نونوایی.",

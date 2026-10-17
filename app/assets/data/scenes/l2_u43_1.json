@@ -22,7 +22,7 @@
       "million",
       "people",
       "about",
-      "nine"
+      "huge"
      ],
      "suggestion": "It's huge. About nine million people.",
      "suggestionFa": "خیلی بزرگه. حدود نه میلیون نفر.",
@@ -149,7 +149,7 @@
       "resorts",
       "there",
       "silly",
-      "hour"
+      "city"
      ],
      "suggestion": "Not silly! There are ski resorts one hour from the city.",
      "suggestionFa": "احمقانه نیست! پیست‌های اسکی یه ساعت از شهر فاصله دارن.",
@@ -161,8 +161,8 @@
      "keywords": [
       "learned",
       "when",
-      "was",
-      "ten"
+      "ten",
+      "was"
      ],
      "suggestion": "Yes! I learned to ski when I was ten.",
      "suggestionFa": "آره! ده سالم بود اسکی یاد گرفتم.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "bazaar",
       "famous",
+      "bazaar",
       "food",
       "its"
      ],
@@ -260,8 +260,8 @@
      "keywords": [
       "bigger",
       "hours",
-      "lost",
-      "much"
+      "much",
+      "lost"
      ],
      "suggestion": "It's much bigger. You can get lost for hours!",
      "suggestionFa": "خیلی بزرگ‌تره. می‌تونی ساعت‌ها گم بشی!",
@@ -321,8 +321,8 @@
     {
      "keywords": [
       "family",
-      "most",
       "miss",
+      "most",
       "food"
      ],
      "suggestion": "Yes. I miss my family and the food most.",
@@ -375,9 +375,9 @@
     {
      "keywords": [
       "would",
-      "week",
       "cook",
-      "i'd"
+      "week",
+      "mum"
      ],
      "suggestion": "I'd love that. My mum would cook for a week!",
      "suggestionFa": "خیلی دوست دارم. مامانم یه هفته آشپزی می‌کنه!",

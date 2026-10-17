@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "last",
+      "here",
       "came",
       "year"
      ],
@@ -135,7 +135,7 @@
       "would",
       "like",
       "them",
-      "cup"
+      "tea"
      ],
      "suggestion": "Would you like a cup of tea with them?",
      "suggestionFa": "با اینا یه فنجون چای میل دارید؟",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "happy",
-      "cats",
-      "love"
+      "love",
+      "cats"
      ],
      "suggestion": "Happy to. I love cats!",
      "suggestionFa": "با کمال میل. عاشق گربه‌ام!",
@@ -321,8 +321,8 @@
      "keywords": [
       "problem",
       "lovely",
-      "have",
-      "trip"
+      "trip",
+      "have"
      ],
      "suggestion": "No problem at all. Have a lovely trip.",
      "suggestionFa": "اصلاً مشکلی نیست. سفر خوبی داشته باشید.",
@@ -333,9 +333,9 @@
     {
      "keywords": [
       "i'll",
+      "care",
       "good",
-      "take",
-      "care"
+      "take"
      ],
      "suggestion": "I'll take good care of her.",
      "suggestionFa": "خوب ازش مراقبت می‌کنم.",

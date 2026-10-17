@@ -32,8 +32,8 @@
     {
      "keywords": [
       "before",
-      "sunny",
-      "rains"
+      "rains",
+      "sunny"
      ],
      "suggestion": "Before it rains? It's sunny!",
      "suggestionFa": "قبل از بارون؟ آفتابیه!",
@@ -78,7 +78,7 @@
       "shirts",
       "upside",
       "right",
-      "pegs"
+      "down"
      ],
      "suggestion": "Two pegs. Shirts upside down or the right way up?",
      "suggestionFa": "دو تا گیره. پیرهن‌ها سروته یا صاف؟",
@@ -88,9 +88,9 @@
     },
     {
      "keywords": [
+      "these",
       "whose",
       "socks",
-      "these",
       "many"
      ],
      "suggestion": "So many socks! Whose are these?",
@@ -131,8 +131,8 @@
      "keywords": [
       "washing",
       "that's",
-      "times",
-      "three"
+      "three",
+      "times"
      ],
      "suggestion": "Three times a day! That's a lot of washing.",
      "suggestionFa": "روزی سه بار! این کلی لباس شستنه.",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "upside",
-      "like",
       "down",
+      "like",
       "ok"
      ],
      "suggestion": "OK, upside down. Like this?",
@@ -315,8 +315,8 @@
      "keywords": [
       "already",
       "strong",
-      "sun",
-      "wow"
+      "wow",
+      "sun"
      ],
      "suggestion": "Wow. Already? The sun is strong.",
      "suggestionFa": "وای. به این زودی؟ آفتاب قویه.",
@@ -368,8 +368,8 @@
      "keywords": [
       "minutes",
       "that's",
-      "five",
-      "fast"
+      "fast",
+      "five"
      ],
      "suggestion": "Five minutes! That's very fast.",
      "suggestionFa": "پنج دقیقه! خیلی سریعه.",
@@ -422,8 +422,8 @@
      "keywords": [
       "sheets",
       "i've",
-      "got",
-      "run"
+      "run",
+      "got"
      ],
      "suggestion": "I've got the sheets! Run!",
      "suggestionFa": "ملافه‌ها را گرفتم! بدو!",

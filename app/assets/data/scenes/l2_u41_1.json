@@ -22,7 +22,7 @@
       "thompson",
       "morning",
       "check",
-      "good"
+      "like"
      ],
      "suggestion": "Good morning. I'd like to book a check-up for Ryan Thompson.",
      "suggestionFa": "صبح بخیر. می‌خوام برای رایان تامپسون وقت معاینه بگیرم.",
@@ -90,8 +90,8 @@
     {
      "keywords": [
       "flies",
-      "time",
-      "work"
+      "work",
+      "time"
      ],
      "suggestion": "Time flies! Yes, Leslie is at work.",
      "suggestionFa": "زمان می‌گذره! آره، لزلی سر کاره.",
@@ -146,8 +146,8 @@
     },
     {
      "keywords": [
-      "football",
       "thursday",
+      "football",
       "tuesday",
       "suits"
      ],
@@ -261,9 +261,9 @@
     {
      "keywords": [
       "leslie",
-      "birth",
       "don't",
-      "know"
+      "birth",
+      "text"
      ],
      "suggestion": "Sorry, I don't know his date of birth. Can Leslie text you?",
      "suggestionFa": "ببخشید، تاریخ تولدش را نمی‌دونم. لزلی می‌تونه بهتون پیام بده؟",
@@ -352,8 +352,8 @@
      "keywords": [
       "anything",
       "should",
-      "there",
-      "bring"
+      "bring",
+      "there"
      ],
      "suggestion": "Ha! True. Is there anything he should bring?",
      "suggestionFa": "ها! درسته. چیزی باید با خودش بیاره؟",

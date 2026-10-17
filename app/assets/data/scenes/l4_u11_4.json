@@ -21,8 +21,8 @@
      "keywords": [
       "qualifications",
       "finding",
-      "uses",
-      "help"
+      "like",
+      "uses"
      ],
      "suggestion": "I'd like help finding a job that uses my qualifications.",
      "suggestionFa": "کمک می‌خوام کاری پیدا کنم که از مدارکم استفاده کنه.",
@@ -75,8 +75,8 @@
      "keywords": [
       "accountant",
       "years",
-      "was",
-      "six"
+      "six",
+      "was"
      ],
      "suggestion": "I was an accountant for six years.",
      "suggestionFa": "شش سال حسابدار بودم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "statement",
-      "applied",
       "waiting",
+      "applied",
       "i've"
      ],
      "suggestion": "I've applied, but I'm waiting for the statement.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "remove",
-      "birth",
       "photo",
+      "birth",
       "date"
      ],
      "suggestion": "Should I remove my photo and date of birth?",
@@ -351,9 +351,9 @@
     {
      "keywords": [
       "full",
+      "work",
       "time",
-      "part",
-      "work"
+      "part"
      ],
      "suggestion": "Is it full-time? I work part-time in a café.",
      "suggestionFa": "تمام‌وقته؟ پاره‌وقت تو یه کافه کار می‌کنم.",

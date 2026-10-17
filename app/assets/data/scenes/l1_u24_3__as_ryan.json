@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "alone",
       "leave",
+      "alone",
       "mood",
       "bad"
      ],
@@ -48,8 +48,8 @@
       "everything",
       "detention",
       "football",
-      "match",
-      "phone"
+      "phone",
+      "match"
      ],
      "suggestion": "Everything! I lost my phone, I got a detention, and we lost the football match.",
      "suggestionFa": "همه چی! گوشیم را گم کردم، تنبیه شدم، و مسابقهٔ فوتبال را باختیم.",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "photos",
-      "going",
       "angry",
       "phone",
-      "mum"
+      "going",
+      "all"
      ],
      "suggestion": "And my phone! All my photos are on it. Mum is going to be so angry.",
      "suggestionFa": "و گوشیم! همهٔ عکس‌هام روشه. مامان خیلی عصبانی میشه.",
@@ -123,7 +123,7 @@
       "number",
       "phone",
       "right",
-      "idea",
+      "good",
       "call"
      ],
      "suggestion": "Good idea. Call it! My number is in your phone, right?",
@@ -173,8 +173,8 @@
       "embarrassing",
       "problem",
       "thanks",
-      "fixed",
-      "match"
+      "match",
+      "fixed"
      ],
      "suggestion": "Thanks. OK, one problem fixed. The match… we lost five–nil. It was embarrassing.",
      "suggestionFa": "ممنون. خب، یه مشکل حل شد. مسابقه… پنج هیچ باختیم. خجالت‌آور بود.",
@@ -197,9 +197,9 @@
      "keywords": [
       "listening",
       "homework",
-      "before",
+      "thanks",
       "better",
-      "thanks"
+      "before"
      ],
      "suggestion": "True. And the homework… I'll do it now. Before tea. Thanks for listening, mate. I feel a bit better.",
      "suggestionFa": "درسته. و تکلیف… الان انجامش می‌دم. قبل از شام. ممنون که گوش دادی رفیق. یه کم حالم بهتر شد.",

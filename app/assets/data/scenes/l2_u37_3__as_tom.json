@@ -23,9 +23,9 @@
      "keywords": [
       "windscreen",
       "freezing",
+      "covered",
       "through",
-      "morning",
-      "covered"
+      "morning"
      ],
      "suggestion": "Morning! It's freezing. Minus three! Look at the car — covered in frost. I can't see a thing through the windscreen.",
      "suggestionFa": "صبح بخیر! یخ‌بندونه. منفی سه! ماشین را ببین — پر از یخ. از شیشهٔ جلو هیچی نمی‌بینم.",
@@ -50,7 +50,7 @@
       "scraper",
       "that's",
       "lesson",
-      "crack"
+      "water"
      ],
      "suggestion": "No! Never hot water. The glass can crack. That's an expensive lesson. Can you pass me the scraper? It's in the door.",
      "suggestionFa": "نه! هیچ‌وقت آب داغ. شیشه ممکنه ترک برداره. درس گرونیه. میشه کاردک یخ را بهم بدی؟ تو دره.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "windscreen",
+      "cheers",
       "engine",
-      "heater",
       "scrape",
       "window"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "mirrors",
       "windows",
-      "kettle",
+      "mirrors",
       "button",
-      "every"
+      "kettle",
+      "pours"
      ],
      "suggestion": "Red button, top right. Yes, the side windows too, and the mirrors. Mrs Khan next door just pours a kettle on hers. Every year!",
      "suggestionFa": "دکمهٔ قرمز، بالا سمت راست. آره، شیشه‌های بغل هم، و آینه‌ها. خانم خان همسایه هر سال یه کتری آب جوش روی ماشینش می‌ریزه!",
@@ -123,9 +123,9 @@
      "keywords": [
       "ideally",
       "fingers",
-      "gloves",
+      "frozen",
       "woolly",
-      "frozen"
+      "proper"
      ],
      "suggestion": "Not yet — she's lucky! Frozen fingers? Here, my spare gloves. You need proper ones. Woolly ones from Nana, ideally.",
      "suggestionFa": "هنوز نه — خوش‌شانسه! انگشت یخ‌زده؟ بیا، دستکش اضافهٔ من. باید دستکش درست‌حسابی داشته باشی. ترجیحاً پشمی از نانا.",
@@ -148,8 +148,8 @@
      "keywords": [
       "everyone",
       "scarves",
-      "office",
       "arthur",
+      "office",
       "three"
      ],
      "suggestion": "She knits for everyone. Arthur at the post office has three scarves. Right, done. Mind the ice on the path — it's like glass.",
@@ -174,8 +174,8 @@
       "council",
       "nearly",
       "stairs",
-      "roads",
-      "under"
+      "under",
+      "roads"
      ],
      "suggestion": "Whoa! Nearly. Yes, grab the salt from under the stairs. Grit, we call it. The council puts it on the roads, we do the path.",
      "suggestionFa": "اوه! نزدیک بود. آره، نمک را از زیر پله‌ها بیار. بهش میگیم «گریت». شهرداری رو جاده‌ها می‌ریزه، ما رو پیاده‌رو.",

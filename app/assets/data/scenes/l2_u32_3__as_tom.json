@@ -47,9 +47,9 @@
     {
      "keywords": [
       "shouting",
+      "popular",
       "someone",
       "cycling",
-      "popular",
       "music"
      ],
      "suggestion": "Spin is cycling on bikes that don't move, with loud music and someone shouting. Very popular. Let me look on the app…",
@@ -74,8 +74,8 @@
       "boxercise",
       "motivate",
       "waiting",
-      "booked",
-      "spaces"
+      "spaces",
+      "booked"
      ],
      "suggestion": "To motivate you! Oh — spin is fully booked. \"Join waiting list?\" There are six people on it. Boxercise has two spaces.",
      "suggestionFa": "برای انگیزه دادن! اوه — اسپین کاملاً پره. «به فهرست انتظار بپیوندید؟» شش نفر توشن. بوکسرسایز دو تا جا داره.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "energetic",
       "boxercise",
+      "energetic",
       "thursday",
       "nearly",
       "booked"
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "filmed",
-      "asleep",
-      "snored",
       "leslie",
-      "rather"
+      "snored",
+      "rather",
+      "asleep",
+      "boxing"
      ],
      "suggestion": "Yoga? I'd rather die boxing than fall asleep on a mat. Last time I did yoga, I snored. Leslie filmed it.",
      "suggestionFa": "یوگا؟ ترجیح میدم موقع بوکس بمیرم تا اینکه رو تشک خوابم ببره. دفعهٔ آخر که یوگا رفتم، خروپف کردم. لزلی ازش فیلم گرفت.",
@@ -148,9 +148,9 @@
      "keywords": [
       "leslie's",
       "forever",
+      "dinner",
       "before",
-      "gloves",
-      "dinner"
+      "gloves"
      ],
      "suggestion": "It's on Leslie's phone forever. Now — what do we need? Gloves are free at the gym. Bring a towel. And no big dinner before!",
      "suggestionFa": "تا ابد رو گوشی لزلیه. خب — چی لازم داریم؟ دستکش تو باشگاه رایگانه. حوله بیار. و قبلش شام سنگین نخور!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "boxercise",
-      "because",
       "jumping",
-      "before",
-      "cancel"
+      "because",
+      "cancel",
+      "dinner"
      ],
      "suggestion": "Cancel on the app before midday, or they charge £5. And no big dinner because… trust me. Boxercise. Jumping. Curry. No.",
      "suggestionFa": "قبل از ظهر تو اپ لغو کن، وگرنه پنج پوند ازت می‌گیرن. و شام سنگین نه چون… باور کن. بوکسرسایز. پریدن. کاری. نه.",
@@ -199,8 +199,8 @@
       "thursday",
       "survive",
       "leslie",
-      "can't",
-      "don't"
+      "seven",
+      "can't"
      ],
      "suggestion": "Good man. Thursday, seven. If I don't survive, tell Leslie I love her. And tell Ryan he can't have my car.",
      "suggestionFa": "آفرین. پنج‌شنبه، هفت. اگه زنده نموندم، به لزلی بگو دوستش دارم. و به رایان بگو ماشینم مال اون نمیشه.",

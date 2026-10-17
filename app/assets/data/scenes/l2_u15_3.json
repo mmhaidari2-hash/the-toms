@@ -22,7 +22,7 @@
       "supposed",
       "minutes",
       "twenty",
-      "come"
+      "past"
      ],
      "suggestion": "Twenty minutes! It was supposed to come at ten past.",
      "suggestionFa": "بیست دقیقه! قرار بود ده دقیقه گذشته بیاد.",
@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "wrong",
       "think",
+      "wrong",
       "sign"
      ],
      "suggestion": "The sign is wrong, I think.",
@@ -130,8 +130,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "accident",
+      "everyone",
       "hope",
       "ok"
      ],
@@ -178,8 +178,8 @@
    "branches": [
     {
      "keywords": [
-      "called",
-      "what's"
+      "what's",
+      "called"
      ],
      "suggestion": "No. What's it called?",
      "suggestionFa": "نه. اسمش چیه؟",
@@ -281,8 +281,8 @@
      "keywords": [
       "message",
       "sorry",
-      "send",
-      "i'll"
+      "i'll",
+      "late"
      ],
      "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
      "suggestionFa": "آره. یه پیام می‌فرستم: «ببخشید، اتوبوس دیر کرده.»",
@@ -345,10 +345,10 @@
     },
     {
      "keywords": [
-      "shall",
+      "three",
       "buses",
       "which",
-      "three"
+      "shall"
      ],
      "suggestion": "Three buses! Which one shall we take?",
      "suggestionFa": "سه تا اتوبوس! کدومش را سوار شیم؟",

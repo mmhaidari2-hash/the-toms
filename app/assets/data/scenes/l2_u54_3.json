@@ -86,8 +86,8 @@
     {
      "keywords": [
       "beautiful",
-      "tail",
       "look",
+      "tail",
       "wow"
      ],
      "suggestion": "Wow, it's beautiful. Look at its tail.",
@@ -128,8 +128,8 @@
      "keywords": [
       "animal",
       "don't",
-      "wild",
-      "near"
+      "near",
+      "wild"
      ],
      "suggestion": "No, don't go near it. It's a wild animal.",
      "suggestionFa": "نه، نزدیکش نرو. حیوون وحشیه.",
@@ -195,10 +195,10 @@
    "branches": [
     {
      "keywords": [
-      "maybe",
       "under",
-      "shed",
-      "park"
+      "maybe",
+      "park",
+      "shed"
      ],
      "suggestion": "In a den. Maybe under a shed or in the park.",
      "suggestionFa": "تو یه لونه. شاید زیر یه انباری یا تو پارک.",
@@ -312,9 +312,9 @@
     {
      "keywords": [
       "lovely",
+      "names",
       "let's",
-      "mummy",
-      "names"
+      "mummy"
      ],
      "suggestion": "Lovely names! Let's tell Mummy.",
      "suggestionFa": "اسم‌های قشنگیه! بیا به مامانی بگیم.",
@@ -350,8 +350,8 @@
      "keywords": [
       "tonight",
       "foxes",
-      "maybe",
-      "night"
+      "night",
+      "maybe"
      ],
      "suggestion": "Maybe tonight. Foxes come out at night.",
      "suggestionFa": "شاید امشب. روباه‌ها شب‌ها میان بیرون.",

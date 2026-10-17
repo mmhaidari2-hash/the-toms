@@ -22,7 +22,7 @@
       "christmas",
       "merry",
       "three",
-      "pull"
+      "okay"
      ],
      "suggestion": "Merry Christmas! Okay — one, two, three, pull!",
      "suggestionFa": "کریسمس مبارک! باشه — یک، دو، سه، بکش!",
@@ -260,7 +260,7 @@
       "presents",
       "really",
       "don't",
-      "but"
+      "eat"
      ],
      "suggestion": "We don't really do presents, but we eat a lot!",
      "suggestionFa": "راستش کادو نداریم، ولی کلی غذا می‌خوریم!",
@@ -299,8 +299,8 @@
    "branches": [
     {
      "keywords": [
-      "fire",
-      "safe"
+      "safe",
+      "fire"
      ],
      "suggestion": "On fire? Is that safe?!",
      "suggestionFa": "آتیش گرفته؟ امنه؟!",
@@ -349,8 +349,8 @@
    "branches": [
     {
      "keywords": [
-      "walk",
-      "cold"
+      "cold",
+      "walk"
      ],
      "suggestion": "A walk? In the cold?",
      "suggestionFa": "پیاده‌روی؟ تو سرما؟",
@@ -362,8 +362,8 @@
      "keywords": [
       "king's",
       "speech",
-      "love",
-      "hear"
+      "hear",
+      "love"
      ],
      "suggestion": "I'd love to hear the King's speech.",
      "suggestionFa": "دوست دارم سخنرانی شاه را بشنوم.",

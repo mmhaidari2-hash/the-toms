@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "arsenal",
       "support",
+      "arsenal",
       "like"
      ],
      "suggestion": "I support Arsenal, like Tom.",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "where's",
-      "leyton",
-      "orient"
+      "orient",
+      "leyton"
      ],
      "suggestion": "Leyton Orient? Where's that?",
      "suggestionFa": "لیتون اورینت؟ کجاست؟",
@@ -97,8 +97,8 @@
      "keywords": [
       "forty",
       "years",
-      "team",
-      "good"
+      "good",
+      "they"
      ],
      "suggestion": "Forty years! Are they a good team?",
      "suggestionFa": "چهل سال! تیم خوبیه؟",
@@ -197,8 +197,8 @@
      "keywords": [
       "persepolis",
       "esteghlal",
-      "everyone",
-      "supports"
+      "supports",
+      "everyone"
      ],
      "suggestion": "In Iran, everyone supports Persepolis or Esteghlal.",
      "suggestionFa": "تو ایران، همه طرفدار پرسپولیس یا استقلالن.",
@@ -282,9 +282,9 @@
     {
      "keywords": [
       "when's",
-      "next",
       "home",
-      "game"
+      "next",
+      "love"
      ],
      "suggestion": "I'd love to! When's the next home game?",
      "suggestionFa": "خیلی دوست دارم! بازی خونگی بعدی کیه؟",
@@ -294,8 +294,8 @@
     },
     {
      "keywords": [
-      "will",
       "they",
+      "will",
       "win"
      ],
      "suggestion": "Will they win?",

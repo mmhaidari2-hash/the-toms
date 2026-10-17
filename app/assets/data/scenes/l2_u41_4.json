@@ -33,8 +33,8 @@
     {
      "keywords": [
       "traffic",
-      "hello",
       "stuck",
+      "hello",
       "bus"
      ],
      "suggestion": "Hello! The bus is stuck in traffic.",
@@ -88,8 +88,8 @@
      "keywords": [
       "accident",
       "there's",
-      "sure",
-      "road"
+      "road",
+      "been"
      ],
      "suggestion": "I'm not sure. There's been an accident on the road.",
      "suggestionFa": "مطمئن نیستم. تو جاده تصادف شده.",
@@ -198,8 +198,8 @@
      "keywords": [
       "driving",
       "today",
-      "tom",
-      "but"
+      "but",
+      "tom"
      ],
      "suggestion": "The 38. But it's not Tom driving today!",
      "suggestionFa": "۳۸. ولی امروز تام رانندگی نمی‌کنه!",
@@ -209,8 +209,8 @@
     },
     {
      "keywords": [
-      "haven't",
       "minutes",
+      "haven't",
       "number",
       "moved"
      ],
@@ -249,7 +249,7 @@
       "getting",
       "idea",
       "good",
-      "now"
+      "off"
      ],
      "suggestion": "Good idea. I'm getting off now.",
      "suggestionFa": "فکر خوبیه. دارم پیاده میشم.",
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "library",
-      "thank",
       "after",
+      "thank",
       "ok"
      ],
      "suggestion": "After the library. OK, thank you!",
@@ -305,8 +305,8 @@
     {
      "keywords": [
       "hughes",
-      "delay",
       "sorry",
+      "delay",
       "mrs"
      ],
      "suggestion": "Sorry for the delay, Mrs Hughes.",
@@ -319,8 +319,8 @@
      "keywords": [
       "library",
       "from",
-      "all",
-      "way"
+      "way",
+      "all"
      ],
      "suggestion": "I ran all the way from the library!",
      "suggestionFa": "از کتابخونه تا اینجا دویدم!",

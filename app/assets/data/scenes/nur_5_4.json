@@ -31,8 +31,8 @@
     {
      "keywords": [
       "nervous",
-      "bit",
       "but",
+      "bit",
       "ok"
      ],
      "suggestion": "I'm a bit nervous, but OK!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "favourite",
       "comforter",
+      "favourite",
       "have",
       "toy"
      ],
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "hello",
-      "show",
       "toys",
+      "show",
       "can"
      ],
      "suggestion": "Hello, Mia! Can you show Ada the toys?",
@@ -134,8 +134,8 @@
     {
      "keywords": [
       "lovely",
-      "feel",
       "home",
+      "feel",
       "will"
      ],
      "suggestion": "How lovely, Mia! Ada will feel at home with you.",
@@ -167,9 +167,9 @@
     {
      "keywords": [
       "normal",
-      "don't",
       "first",
-      "worry"
+      "worry",
+      "don't"
      ],
      "suggestion": "Don't worry, it's normal for her to cry at first.",
      "suggestionFa": "نگران نباشید، طبیعیه که اولش گریه کنه.",
@@ -180,9 +180,9 @@
     {
      "keywords": [
       "settled",
-      "photo",
       "she's",
-      "we'll"
+      "we'll",
+      "photo"
      ],
      "suggestion": "We'll send you a photo when she's settled.",
      "suggestionFa": "وقتی آروم شد یه عکس براتون می‌فرستیم.",

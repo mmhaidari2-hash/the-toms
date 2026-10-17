@@ -22,10 +22,10 @@
     {
      "keywords": [
       "everyone",
-      "going",
       "where",
-      "line",
-      "mate"
+      "going",
+      "look",
+      "line"
      ],
      "suggestion": "End of the line, mate. Everyone off! Oh, it's you. Where are you going? You look lost.",
      "suggestionFa": "آخر خط رفیق. همه پیاده! اوه، تویی. کجا میری؟ گم شده به نظر میای.",
@@ -48,9 +48,9 @@
      "keywords": [
       "minutes'",
       "victoria",
+      "meeting",
       "someone",
-      "fifteen",
-      "meeting"
+      "fifteen"
      ],
      "suggestion": "Victoria Park? It's not far. About fifteen minutes' walk. Or twenty if you stop for coffee. You're meeting someone?",
      "suggestionFa": "پارک ویکتوریا؟ دور نیست. حدود پونزده دقیقه پیاده. یا بیست تا اگه برای قهوه وایسی. با کسی قرار داری؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "quicker",
+      "stop's",
       "better",
       "minute",
-      "stop's",
       "hurry"
      ],
      "suggestion": "Ten to two! You'd better hurry. It's quicker to take the 277. Stop's just there. Two stops, then a two-minute walk.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "countdown",
-      "minutes",
       "reality",
+      "minutes",
       "theory",
       "every"
      ],
@@ -124,8 +124,8 @@
       "straight",
       "minutes",
       "you'll",
-      "royal",
-      "gates"
+      "gates",
+      "royal"
      ],
      "suggestion": "Nine minutes? Walk, then. Fast. Go down this road, turn right at the pub — the Royal Inn — then straight on. You'll see the gates.",
      "suggestionFa": "نه دقیقه؟ پس پیاده برو. سریع. این خیابون را برو پایین، سر میخونه — رویال این — بپیچ راست، بعد مستقیم. درها را می‌بینی.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "meeting",
       "exactly",
+      "meeting",
       "where",
       "who"
      ],
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "running",
+      "minutes",
       "polite",
       "follow",
       "signs"
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
+      "without",
       "minutes",
       "hackney",
-      "without",
       "driver",
-      "text"
+      "fine"
      ],
      "suggestion": "Five minutes is fine — if you text. Without a text, it's rude. Go! Run! And say hi from the best bus driver in Hackney.",
      "suggestionFa": "پنج دقیقه اشکالی نداره — اگه پیام بدی. بدون پیام، بی‌ادبیه. برو! بدو! و از طرف بهترین رانندهٔ اتوبوس هکنی سلام برسون.",

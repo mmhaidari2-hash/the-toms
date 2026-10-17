@@ -67,9 +67,9 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "what's",
-      "number"
+      "number",
+      "course"
      ],
      "suggestion": "Of course. What's the order number?",
      "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
@@ -182,7 +182,7 @@
      "keywords": [
       "minutes",
       "driver",
-      "five",
+      "away",
       "he's"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "percent",
       "they'll",
+      "percent",
       "give",
       "ten"
      ],
@@ -347,8 +347,8 @@
      "keywords": [
       "cookies",
       "added",
-      "they",
-      "free"
+      "free",
+      "they"
      ],
      "suggestion": "It's hot! And they added free cookies.",
      "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",

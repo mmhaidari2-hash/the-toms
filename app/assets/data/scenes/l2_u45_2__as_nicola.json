@@ -22,10 +22,10 @@
     {
      "keywords": [
       "rainbows",
-      "mondays",
       "uniform",
+      "mondays",
       "please",
-      "she's"
+      "badge"
      ],
      "suggestion": "Mia goes to Rainbows! On Mondays! She's got a uniform and a badge. Can I join? PLEASE?",
      "suggestionFa": "میا میره رینبوز! دوشنبه‌ها! یونیفرم و نشان داره. منم می‌تونم عضو بشم؟ لطفاً!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "rainbows",
       "brownies",
+      "rainbows",
       "camping",
-      "guides",
+      "scouts",
       "little"
      ],
      "suggestion": "Rainbows is for little girls. Then Brownies, then Guides. Ryan did Scouts. He loved the camping!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "waiting",
       "there's",
+      "waiting",
       "what's",
       "mummy",
-      "says"
+      "five"
      ],
      "suggestion": "You have to be four. I'm FIVE! But Mummy says there's a waiting list. What's that?",
      "suggestionFa": "باید چهار سالت باشه. من پنج سالمه! ولی مامانی میگه لیست انتظار داره. اون چیه؟",
@@ -99,8 +99,8 @@
       "christmas",
       "waiting",
       "boring",
-      "till",
-      "hate"
+      "hate",
+      "long"
      ],
      "suggestion": "I HATE waiting. It's so boring. How long? Till Christmas? Till I'm six?",
      "suggestionFa": "من از صبر کردن متنفرم. خیلی کسل‌کننده‌ست. چقدر؟ تا کریسمس؟ تا شش سالگیم؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "chicken",
       "crafts",
-      "songs",
       "games",
-      "trips"
+      "trips",
+      "songs"
      ],
      "suggestion": "Crafts, games and songs. And trips! Mia went to a farm and held a chicken.",
      "suggestionFa": "کاردستی، بازی و آواز. و گردش! میا رفت مزرعه و یه مرغ بغل کرد.",
@@ -150,7 +150,7 @@
       "brushing",
       "chicken",
       "badges",
-      "there"
+      "teeth"
      ],
      "suggestion": "The chicken did a poo on her! And there are badges for everything. Even brushing teeth!",
      "suggestionFa": "مرغه روش پی‌پی کرد! و برای همه‌چی نشان هست. حتی مسواک زدن!",
@@ -173,8 +173,8 @@
      "keywords": [
       "sprinkles",
       "baking",
-      "cakes",
       "badge",
+      "cakes",
       "want"
      ],
      "suggestion": "The baking badge. I want to make cakes. With sprinkles. Lots and lots of sprinkles.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -255,8 +255,8 @@
      "keywords": [
       "rainbow",
       "goldie",
-      "need",
       "nana",
+      "need",
       "tell"
      ],
      "suggestion": "YES! I'm a Rainbow! I need to tell Mia! And Goldie! And Nana!",

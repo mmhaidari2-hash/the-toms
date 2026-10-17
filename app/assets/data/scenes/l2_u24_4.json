@@ -20,8 +20,8 @@
     {
      "keywords": [
       "william",
-      "can't",
       "three",
+      "can't",
       "he's"
      ],
      "suggestion": "I can't find William! He's three.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "wearing",
+      "william",
       "he's",
       "coat"
      ],
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "minutes",
-      "five",
       "shop",
+      "five",
       "ago"
      ],
      "suggestion": "Five minutes ago, at the toy shop.",
@@ -154,7 +154,7 @@
       "escalator",
       "around",
       "turned",
-      "gone"
+      "near"
      ],
      "suggestion": "Near the escalator. I turned around, and he was gone.",
      "suggestionFa": "نزدیک پله‌برقی. برگشتم دیدم نیست.",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "mean",
       "adam",
-      "code"
+      "code",
+      "mean"
      ],
      "suggestion": "What does Code Adam mean?",
      "suggestionFa": "کد آدام یعنی چی؟",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "should",
-      "back",
       "shop",
+      "back",
       "toy"
      ],
      "suggestion": "Should I go back to the toy shop?",
@@ -264,7 +264,7 @@
      "keywords": [
       "driving",
       "he's",
-      "tom",
+      "dad",
       "bus"
      ],
      "suggestion": "His dad is Tom. He's driving the bus.",
@@ -304,8 +304,8 @@
     {
      "keywords": [
       "goodness",
-      "sweet",
       "thank",
+      "sweet",
       "shop"
      ],
      "suggestion": "Oh, thank goodness! The sweet shop!",
@@ -316,8 +316,8 @@
     },
     {
      "keywords": [
-      "course",
       "sweets",
+      "course",
       "loves",
       "he"
      ],
@@ -370,10 +370,10 @@
     },
     {
      "keywords": [
-      "where",
       "lolly",
-      "get",
-      "did"
+      "where",
+      "did",
+      "get"
      ],
      "suggestion": "Where did you get a lolly?",
      "suggestionFa": "آبنبات از کجا آوردی؟",

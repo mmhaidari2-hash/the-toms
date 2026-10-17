@@ -72,8 +72,8 @@
     {
      "keywords": [
       "medicine",
-      "time",
-      "dose"
+      "dose",
+      "time"
      ],
      "suggestion": "The medicine, the dose and the time.",
      "suggestionFa": "اسم دارو، مقدار و ساعت.",
@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
-      "have",
       "last",
-      "when",
-      "some"
+      "some",
+      "have",
+      "when"
      ],
      "suggestion": "When did he last have some?",
      "suggestionFa": "آخرین بار کی خورده؟",
@@ -146,8 +146,8 @@
      "keywords": [
       "write",
       "we'll",
-      "give",
-      "time"
+      "time",
+      "give"
      ],
      "suggestion": "OK. We'll write the time we give it.",
      "suggestionFa": "باشه. ساعتی که میدیم را می‌نویسیم.",
@@ -179,8 +179,8 @@
      "keywords": [
       "after",
       "hours",
-      "time",
-      "last"
+      "last",
+      "time"
      ],
      "suggestion": "48 hours after the last time?",
      "suggestionFa": "۴۸ ساعت بعد از آخرین بار؟",
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "better",
-      "seem",
+      "they",
       "even",
-      "they"
+      "seem"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
@@ -233,8 +233,8 @@
      "keywords": [
       "we'll",
       "worse",
-      "gets",
-      "call"
+      "call",
+      "gets"
      ],
      "suggestion": "We'll call you if he gets worse.",
      "suggestionFa": "اگه بدتر شد بهتون زنگ می‌زنیم.",

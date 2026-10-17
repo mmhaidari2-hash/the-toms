@@ -22,7 +22,7 @@
       "plasters",
       "leslie",
       "cream",
-      "sent"
+      "some"
      ],
      "suggestion": "Leslie sent me. We need plasters and some cream.",
      "suggestionFa": "لزلی فرستادم. چسب زخم و یه پماد لازم داریم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "things",
       "first",
-      "box",
-      "aid"
+      "aid",
+      "box"
      ],
      "suggestion": "I need things for a first-aid box.",
      "suggestionFa": "برای جعبهٔ کمک‌های اولیه وسایل لازم دارم.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "william",
-      "fell",
       "park",
+      "fell",
       "over"
      ],
      "suggestion": "For William. He fell over in the park.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "people",
       "butter",
+      "people",
       "some",
       "use"
      ],
@@ -301,8 +301,8 @@
      "keywords": [
       "strawberry",
       "nicola",
-      "will",
-      "love"
+      "love",
+      "will"
      ],
      "suggestion": "Strawberry? Nicola will love it.",
      "suggestionFa": "توت‌فرنگی؟ نیکولا عاشقش میشه.",
@@ -365,8 +365,8 @@
     {
      "keywords": [
       "card",
-      "pay",
       "can",
+      "pay",
       "by"
      ],
      "suggestion": "Can I pay by card?",

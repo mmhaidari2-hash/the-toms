@@ -23,9 +23,9 @@
      "keywords": [
       "william's",
       "cushions",
-      "popcorn",
       "raining",
-      "remote"
+      "popcorn",
+      "cinema"
      ],
      "suggestion": "It's raining, so cinema at home today! Pop the popcorn, I'll do the cushions. William's in charge of the remote. Help!",
      "suggestionFa": "داره بارون میاد، پس امروز سینمای خونگی! پاپ‌کورن را درست کن، من کوسن‌ها را میارم. ویلیام مسئول کنترله. کمک!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -152,9 +152,9 @@
      "keywords": [
       "together",
       "popcorn",
-      "answer",
       "salted",
-      "mixed"
+      "answer",
+      "sweet"
      ],
      "suggestion": "Sixth time this month! Right. Popcorn — sweet or salted? In this house, the answer is \"both, mixed together\".",
      "suggestionFa": "ششمین بار این ماه! خب. پاپ‌کورن — شیرین یا شور؟ تو این خونه، جوابش «هر دو، قاطی» است.",
@@ -179,7 +179,7 @@
       "william",
       "nicola",
       "you've",
-      "wants"
+      "tried"
      ],
      "suggestion": "Don't knock it till you've tried it. Now, seats. Nicola wants the beanbag, William wants my lap, and Tom wants the big chair.",
      "suggestionFa": "تا امتحان نکردی ایراد نگیر. حالا جاها. نیکولا پف را می‌خواد، ویلیام بغل من را، و تام صندلی بزرگه را.",
@@ -225,8 +225,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -287,8 +287,8 @@
     {
      "keywords": [
       "footsteps",
-      "popcorn",
       "getting",
+      "popcorn",
       "there's",
       "stairs"
      ],

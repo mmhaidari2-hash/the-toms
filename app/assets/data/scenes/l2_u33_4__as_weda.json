@@ -23,8 +23,8 @@
      "keywords": [
       "prescription",
       "george's",
-      "tablets",
       "tonight",
+      "tablets",
       "collect"
      ],
      "suggestion": "Dear, could you collect George's prescription today? My knees are bad, and he needs his heart tablets tonight.",
@@ -49,7 +49,7 @@
       "thompson",
       "dawson's",
       "address",
-      "edward",
+      "george",
       "fourth"
      ],
      "suggestion": "Yes, Dawson's. You need his name, address and date of birth. George Edward Thompson, born the fourth of March, 1950.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -364,11 +364,11 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "you've",
+      "that's",
       "george",
-      "medal",
-      "thank"
+      "thank",
+      "medal"
      ],
      "suggestion": "You've got them! Thank you, dear. George says you're \"a good lad\". From him, that's like a medal.",
      "suggestionFa": "گرفتیشون! ممنون عزیزم. جورج میگه تو «پسر خوبی» هستی. از زبون اون، مثل یه مدال می‌مونه.",
@@ -391,7 +391,7 @@
      "keywords": [
       "victoria",
       "morning",
-      "earned",
+      "sponge",
       "you've",
       "fridge"
      ],

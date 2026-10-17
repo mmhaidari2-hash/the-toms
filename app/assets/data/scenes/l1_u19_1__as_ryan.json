@@ -23,8 +23,8 @@
      "keywords": [
       "welcome",
       "posters",
-      "sorry",
       "messy",
+      "sorry",
       "come"
      ],
      "suggestion": "Come in! Welcome to my room. Sorry, it's a bit messy. Do you like my posters?",
@@ -49,8 +49,8 @@
       "footballer",
       "football",
       "arsenal",
-      "bukayo",
-      "that's"
+      "that's",
+      "bukayo"
      ],
      "suggestion": "That's Bukayo Saka. He's a footballer. He plays for Arsenal. Do you like football?",
      "suggestionFa": "اون بوکایو ساکاست. فوتبالیسته. برای آرسنال بازی می‌کنه. فوتبال دوست داری؟",
@@ -100,7 +100,7 @@
       "they're",
       "summer",
       "indie",
-      "them"
+      "last"
      ],
      "suggestion": "Indie rock. They're brilliant. I saw them live last summer!",
      "suggestionFa": "ایندی راک. فوق‌العاده‌ان. تابستون پارسال اجرای زنده‌شون را دیدم!",
@@ -147,9 +147,9 @@
      "keywords": [
       "console",
       "what's",
-      "later",
       "games",
-      "song"
+      "later",
+      "play"
      ],
      "suggestion": "Play me a song later! What's that on my desk? Oh, my old games console.",
      "suggestionFa": "بعداً یه آهنگ برام بذار! اون رو میزم چیه؟ آه، کنسول بازی قدیمیم.",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "crisps",
       "joking",
+      "crisps",
       "let's",
-      "some",
-      "come"
+      "then",
+      "good"
      ],
      "suggestion": "Good. Then you can tidy mine! Just joking. Come on, let's go and get some crisps.",
      "suggestionFa": "خوبه. پس می‌تونی مال منو مرتب کنی! شوخی کردم. بیا، بریم یه کم چیپس بگیریم.",

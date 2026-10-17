@@ -74,7 +74,7 @@
      "keywords": [
       "doesn't",
       "scared",
-      "know",
+      "says",
       "he's"
      ],
      "suggestion": "He says he doesn't know. He's very scared.",
@@ -85,9 +85,9 @@
     },
     {
      "keywords": [
-      "don't",
-      "worry",
       "we'll",
+      "worry",
+      "don't",
       "find"
      ],
      "suggestion": "Leo, don't worry. We'll find your mum.",
@@ -193,8 +193,8 @@
      "keywords": [
       "raincoat",
       "little",
-      "yours",
-      "about"
+      "about",
+      "yours"
      ],
      "suggestion": "A little boy, about four, red raincoat. Is he yours?",
      "suggestionFa": "یه پسر کوچولو، حدوداً چهار ساله، بارونی قرمز. مال شماست؟",
@@ -206,8 +206,8 @@
      "keywords": [
       "looking",
       "anyone",
-      "shout",
-      "leo's"
+      "leo's",
+      "shout"
      ],
      "suggestion": "I'll shout. LEO'S MUM! Is anyone looking for Leo?",
      "suggestionFa": "داد می‌زنم. مامان لئو! کسی دنبال لئوئه؟",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "leo",
-      "mum"
+      "mum",
+      "leo"
      ],
      "suggestion": "Is that your mum, Leo?",
      "suggestionFa": "اون مامانته لئو؟",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "here",
       "he's",
+      "here",
       "over",
       "ok"
      ],
@@ -365,9 +365,9 @@
     {
      "keywords": [
       "happy",
+      "fine",
       "were",
-      "help",
-      "fine"
+      "help"
      ],
      "suggestion": "No, no, it's fine. We were happy to help.",
      "suggestionFa": "نه نه، اشکالی نداره. خوشحال شدیم کمک کردیم.",

@@ -113,9 +113,9 @@
     {
      "keywords": [
       "that's",
+      "can",
       "pea",
-      "one",
-      "can"
+      "one"
      ],
      "suggestion": "That's OK. Can you try one pea?",
      "suggestionFa": "اشکالی نداره. یه دونه نخود امتحان می‌کنی؟",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "more",
       "want",
+      "more",
       "pie"
      ],
      "suggestion": "Yes! Do you want more pie?",
@@ -215,9 +215,9 @@
    "branches": [
     {
      "keywords": [
-      "none",
-      "most",
       "some",
+      "most",
+      "none",
       "all"
      ],
      "suggestion": "All, most, some or none. OK.",
@@ -228,8 +228,8 @@
     },
     {
      "keywords": [
-      "where",
       "write",
+      "where",
       "we"
      ],
      "suggestion": "Where do we write it?",

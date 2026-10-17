@@ -34,8 +34,8 @@
      "keywords": [
       "flying",
       "where",
-      "from",
-      "were"
+      "were",
+      "from"
      ],
      "suggestion": "Where were you flying from?",
      "suggestionFa": "از کجا پرواز می‌کردید؟",
@@ -137,8 +137,8 @@
      "keywords": [
       "children",
       "four",
-      "wait",
-      "have"
+      "have",
+      "wait"
      ],
      "suggestion": "Wait, you have three children, not four!",
      "suggestionFa": "صبر کن، تو سه تا بچه داری، نه چهار تا!",
@@ -150,8 +150,8 @@
      "keywords": [
       "survive",
       "hours",
-      "kids",
-      "nine"
+      "nine",
+      "kids"
      ],
      "suggestion": "Nine hours with three kids. How did you survive?",
      "suggestionFa": "نه ساعت با سه تا بچه. چطوری دووم آوردید؟",
@@ -205,9 +205,9 @@
     {
      "keywords": [
       "airport",
-      "twelve",
       "that's",
-      "pounds"
+      "pounds",
+      "twelve"
      ],
      "suggestion": "Twelve pounds? That's not much at an airport.",
      "suggestionFa": "دوازده پوند؟ تو فرودگاه زیاد نیست.",
@@ -217,10 +217,10 @@
     },
     {
      "keywords": [
-      "money",
       "later",
+      "money",
       "back",
-      "any"
+      "get"
      ],
      "suggestion": "Did you get any money back later?",
      "suggestionFa": "بعداً پولی پس گرفتید؟",
@@ -260,8 +260,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "did",
-      "how"
+      "how",
+      "did"
      ],
      "suggestion": "A thousand pounds! How did you do that?",
      "suggestionFa": "هزار پوند! چطوری؟",
@@ -312,9 +312,9 @@
     {
      "keywords": [
       "boarding",
+      "keep",
       "i'll",
-      "pass",
-      "good"
+      "pass"
      ],
      "suggestion": "I'll keep my boarding pass. Good tip!",
      "suggestionFa": "کارت پروازم را نگه می‌دارم. نکتهٔ خوبیه!",

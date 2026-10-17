@@ -81,8 +81,8 @@
      "keywords": [
       "everyone",
       "stalls",
-      "first",
-      "worry"
+      "worry",
+      "don't"
      ],
      "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
      "suggestionFa": "نگران نباش رایان — همه اولش ماشین را خاموش می‌کنن. دوباره امتحان کن.",
@@ -92,8 +92,8 @@
     },
     {
      "keywords": [
-      "clutch",
       "slowly",
+      "clutch",
       "doing",
       "bring"
      ],
@@ -134,8 +134,8 @@
     {
      "keywords": [
       "right",
-      "road",
       "hand",
+      "road",
       "side"
      ],
      "suggestion": "Yes, but on the right-hand side of the road!",
@@ -233,7 +233,7 @@
       "parallel",
       "parking",
       "good",
-      "ryan"
+      "luck"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
      "suggestionFa": "پارک دوبل؟ موفق باشی رایان!",
@@ -245,8 +245,8 @@
      "keywords": [
       "there's",
       "slowly",
-      "rush",
-      "take"
+      "take",
+      "rush"
      ],
      "suggestion": "Take it slowly, there's no rush.",
      "suggestionFa": "آروم انجامش بده، عجله‌ای نیست.",
@@ -383,8 +383,8 @@
     {
      "keywords": [
       "great",
-      "did",
       "tom",
+      "did",
       "ha"
      ],
      "suggestion": "Ha! You did great too, Tom.",
@@ -395,10 +395,10 @@
     },
     {
      "keywords": [
-      "week",
       "well",
-      "done",
-      "same"
+      "week",
+      "same",
+      "done"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

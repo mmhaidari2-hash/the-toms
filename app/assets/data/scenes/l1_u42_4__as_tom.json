@@ -24,8 +24,8 @@
       "buses",
       "bikes",
       "those",
-      "ride",
-      "bike"
+      "more",
+      "look"
      ],
      "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "should",
-      "lanes",
-      "there",
       "safer",
-      "cycle"
+      "lanes",
+      "cycle",
+      "there"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
      "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "there",
-      "half",
-      "ones",
       "hour",
-      "over"
+      "half",
+      "over",
+      "ones"
      ],
      "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
      "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "should",
+      "pounds",
       "helmet",
       "wear",
-      "bad"
+      "but"
      ],
      "suggestion": "Not bad. A few pounds. But you should wear a helmet.",
      "suggestionFa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.",
@@ -125,7 +125,7 @@
       "pavement",
       "smart",
       "ride",
-      "law"
+      "but"
      ],
      "suggestion": "It's not the law, but it's smart. And you shouldn't ride on the pavement.",
      "suggestionFa": "قانون نیست، ولی عاقلانه‌ست. و نباید رو پیاده‌رو برونی.",
@@ -148,9 +148,9 @@
      "keywords": [
       "drive",
       "cycle",
-      "lane",
+      "road",
       "here",
-      "left"
+      "keep"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
      "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "shouldn't",
-      "that's",
       "tricky",
+      "that's",
       "front",
       "thing"
      ],
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "pedals",
-      "only",
       "down",
       "know",
-      "bike"
+      "legs",
+      "only"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
      "suggestionFa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!",

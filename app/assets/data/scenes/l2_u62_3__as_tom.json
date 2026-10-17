@@ -1,0 +1,359 @@
+{
+ "id": "l2_u62_3__as_tom",
+ "characterId": "patel",
+ "title": "(As Tom) Times tables",
+ "titleFa": "(در نقش Tom) جدول ضرب",
+ "setting": "School reports · Level 2",
+ "settingFa": "کارنامهٔ مدرسه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u62_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "patel",
+   "text": "Mr Thompson, hello again. And you must be Mehdi, the famous neighbour. Sit down, please. Let's talk about Ryan's maths.",
+   "translations": {
+    "fa": "آقای تامسون، باز سلام. و شما باید {you} باشید، همسایهٔ معروف. لطفاً بشینید. بیایید دربارهٔ ریاضی رایان حرف بزنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Nice to meet you, Mr Patel.",
+   "translations": {
+    "fa": "از آشنایی‌تون خوشوقتم آقای پاتل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hello",
+      "patel",
+      "first",
+      "again",
+      "news"
+     ],
+     "suggestion": "Hello again, Mr Patel. Go on — give us the bad news first. I can take it.",
+     "suggestionFa": "باز سلام آقای پاتل. بفرمایید — اول خبر بد را بدید. تحملش را دارم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Maybe it's good news, Tom!",
+   "translations": {
+    "fa": "شاید خبر خوب باشه تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "patel",
+   "text": "No bad news! Ryan got a 5 in his mock exam. He's predicted a 6 in the summer. He's a clever lad.",
+   "translations": {
+    "fa": "خبر بدی نیست! رایان تو امتحان آزمایشی ۵ گرفت. پیش‌بینی میشه تابستون ۶ بگیره. پسر باهوشیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mock exam",
+     "fa": "امتحان آزمایشی"
+    },
+    {
+     "word": "predicted",
+     "fa": "پیش‌بینی شده"
+    },
+    {
+     "word": "grade",
+     "fa": "نمره"
+    },
+    {
+     "word": "lad",
+     "fa": "پسر"
+    }
+   ],
+   "cultureNote": {
+    "en": "GCSEs are graded 9 to 1. A 4 is a \"standard pass\" and a 5 a \"strong pass\". Mock exams in winter are practice for the real exams in May and June.",
+    "fa": "نمره‌های جی‌سی‌اس‌ای از ۹ تا ۱ است؛ ۴ قبولی معمولی و ۵ قبولی قوی است. امتحان آزمایشی تمرین امتحان اصلی در خرداد است."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A 6? Is that a good grade?",
+   "translations": {
+    "fa": "۶؟ نمرهٔ خوبیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "patel",
+   "text": "It's very good. But he loses easy marks. He still counts on his fingers for seven times eight. In a GCSE!",
+   "translations": {
+    "fa": "خیلی خوبه. ولی نمره‌های آسون را از دست میده. هنوز برای هفت ضرب در هشت با انگشتاش می‌شمره. تو جی‌سی‌اس‌ای!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loses marks",
+     "fa": "نمره از دست می‌دهد"
+    },
+    {
+     "word": "counts on his fingers",
+     "fa": "با انگشتانش می‌شمارد"
+    },
+    {
+     "word": "seven times eight",
+     "fa": "هفت ضرب در هشت"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Seven eights are fifty-six!",
+   "translations": {
+    "fa": "هفت هشت تا پنجاه و شش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "patel",
+   "text": "Exactly. He should know them off by heart — all of them, up to twelve times twelve. Quick, without thinking.",
+   "translations": {
+    "fa": "دقیقاً. باید همه‌شون را از حفظ بلد باشه — تا دوازده ضرب در دوازده. سریع، بدون فکر کردن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "off by heart",
+     "fa": "از حفظ"
+    },
+    {
+     "word": "up to",
+     "fa": "تا"
+    },
+    {
+     "word": "without thinking",
+     "fa": "بدون فکر کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children in England learn times tables up to 12 × 12, and in Year 4 they take a national times tables check on a computer.",
+    "fa": "بچه‌ها در انگلستان جدول ضرب را تا ۱۲×۱۲ یاد می‌گیرند و در کلاس چهارم یک آزمون سراسری کامپیوتری دارند."
+   }
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Up to twelve? Not just ten?",
+   "translations": {
+    "fa": "تا دوازده؟ نه فقط ده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "patel",
+   "text": "At home? Five minutes a day. There's an app. Or test him in the car. He knows all the FIFA player stats, so…",
+   "translations": {
+    "fa": "تو خونه؟ روزی پنج دقیقه. یه اپ هست. یا تو ماشین ازش بپرسید. همهٔ آمار بازیکن‌های فیفا را بلده، پس…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "app",
+     "fa": "اپلیکیشن"
+    },
+    {
+     "word": "test",
+     "fa": "امتحان گرفتن"
+    },
+    {
+     "word": "player stats",
+     "fa": "آمار بازیکن‌ها"
+    },
+    {
+     "word": "memory",
+     "fa": "حافظه"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "So his memory is fine!",
+   "translations": {
+    "fa": "پس حافظه‌اش خوبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "tables",
+      "saka's",
+      "eights",
+      "seven"
+     ],
+     "suggestion": "Ha! He knows Saka's speed but not seven eights. Right. Mehdi, you're on times tables duty. I'll do the driving.",
+     "suggestionFa": "ها! سرعت ساکا را بلده ولی هفت هشت تا را نه. باشه. {you}، مسئولیت جدول ضرب با تو. من رانندگی می‌کنم.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Deal. Every evening at tea.",
+   "translations": {
+    "fa": "قبول. هر شب سر شام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "patel",
+   "text": "Perfect. Thank you both. And Mr Thompson — tell Ryan the 6 is in his hands. Just learn those tables!",
+   "translations": {
+    "fa": "عالیه. ممنون از هر دوتون. و آقای تامسون — به رایان بگید ۶ دست خودشه. فقط اون جدول‌ها را یاد بگیره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

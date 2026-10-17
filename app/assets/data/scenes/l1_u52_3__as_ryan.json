@@ -25,7 +25,7 @@
       "broke",
       "mum's",
       "cats",
-      "mug"
+      "one"
      ],
      "suggestion": "Oh no, no, no! I broke Mum's favourite mug! The one with the cats!",
      "suggestionFa": "ای وای، نه، نه! ماگ محبوب مامان را شکستم! اونی که گربه‌ها داره!",
@@ -50,7 +50,7 @@
       "slipped",
       "going",
       "she's",
-      "kill"
+      "hand"
      ],
      "suggestion": "It slipped out of my hand. It was an accident! She's going to kill me!",
      "suggestionFa": "از دستم لیز خورد. اتفاقی بود! منو می‌کشه!",
@@ -73,8 +73,8 @@
      "keywords": [
       "careful",
       "dustpan",
-      "first",
       "brush",
+      "first",
       "pick"
      ],
      "suggestion": "First, help me pick it up. Careful. Get the dustpan and brush.",
@@ -98,8 +98,8 @@
      "keywords": [
       "coming",
       "she's",
-      "idea",
       "good",
+      "idea",
       "say"
      ],
      "suggestion": "Good idea. OK, she's coming. What do I say?",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -174,7 +174,7 @@
       "really",
       "sorry",
       "i'll",
-      "mum"
+      "new"
      ],
      "suggestion": "Mum, I'm really, really sorry. It slipped. I'll buy you a new one.",
      "suggestionFa": "مامان، واقعاً واقعاً متأسفم. لیز خورد. یه نو برات می‌خرم.",
@@ -246,8 +246,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

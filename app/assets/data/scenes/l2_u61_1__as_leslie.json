@@ -24,8 +24,8 @@
       "someone's",
       "netball",
       "twisted",
-      "jumped",
-      "landed"
+      "landed",
+      "jumped"
      ],
      "suggestion": "Ow! Ow, ow, ow. I've twisted my ankle. Netball. I jumped for the ball and landed on someone's foot. Can you help me to the sofa?",
      "suggestionFa": "آخ! آخ، آخ، آخ. مچ پام پیچ خورد. نت‌بال. برای توپ پریدم و رو پای یکی فرود اومدم. کمکم می‌کنی برم رو مبل؟",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
+      "already",
       "balloon",
       "swollen",
-      "already",
-      "purple",
+      "thanks",
       "colour"
      ],
      "suggestion": "Thanks. It hurts, yes. Look — it's swollen already. Like a balloon. And it's going a funny purple colour.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "broken",
-      "though",
       "should",
+      "though",
+      "broken",
       "hurts",
       "stand"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "tomorrow",
-      "injuries",
       "probably",
+      "injuries",
       "sprain",
-      "worse"
+      "minor"
      ],
      "suggestion": "Good idea. … The nurse says it's probably a sprain. Rest, ice, and keep it up. If it's worse tomorrow, go to minor injuries.",
      "suggestionFa": "فکر خوبیه. … پرستار میگه احتمالاً رگ‌به‌رگه. استراحت، یخ، و بالا نگهش دار. اگه فردا بدتر شد، برو واحد آسیب‌های جزئی.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "perfect",
+      "frozen",
       "sports",
       "drinks",
-      "frozen",
       "there"
      ],
      "suggestion": "We've got no ice. Tom used it all for his \"sports drinks\". Is there a bag of frozen peas? Peas are perfect.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "anyway",
       "nicola",
-      "better",
       "that's",
-      "house"
+      "better",
+      "anyway",
+      "won't"
      ],
      "suggestion": "Oh, that's better. Cold, but better. The best use of peas in this house — Nicola won't eat them anyway!",
      "suggestionFa": "اوه، بهتر شد. سرده، ولی بهتره. بهترین استفاده از نخودفرنگی تو این خونه — نیکولا که اصلاً نمی‌خوره!",

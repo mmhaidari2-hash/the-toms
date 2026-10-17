@@ -30,8 +30,8 @@
     {
      "keywords": [
       "restaurant",
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see. Is it the wrong restaurant?",
      "suggestionFa": "بذار ببینم. رستورانش اشتباهه؟",
@@ -66,8 +66,8 @@
     {
      "keywords": [
       "veggie",
-      "since",
       "asked",
+      "since",
       "when"
      ],
      "suggestion": "You asked for veggie? Since when?",
@@ -80,8 +80,8 @@
      "keywords": [
       "terrible",
       "that's",
-      "there",
-      "onion"
+      "onion",
+      "there"
      ],
      "suggestion": "There are no onion rings. That's terrible!",
      "suggestionFa": "حلقهٔ پیاز نیست. افتضاحه!",
@@ -118,7 +118,7 @@
       "there's",
       "button",
       "let's",
-      "help"
+      "sure"
      ],
      "suggestion": "Sure. Let's use the app. There's a \"help\" button.",
      "suggestionFa": "حتماً. بیا از برنامه استفاده کنیم. یه دکمهٔ «کمک» هست.",
@@ -275,8 +275,8 @@
    "branches": [
     {
      "keywords": [
-      "missing",
       "chicken",
+      "missing",
       "veggie",
       "burger"
      ],
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "please",
-      "wrong",
       "order",
-      "could"
+      "could",
+      "wrong"
      ],
      "suggestion": "\"Hi. Our order was wrong. Could you help, please?\"",
      "suggestionFa": "«سلام. سفارش ما اشتباه بود. لطفاً کمک می‌کنید؟»",
