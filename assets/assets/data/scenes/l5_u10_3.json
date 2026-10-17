@@ -1,8 +1,8 @@
 {
  "id": "l5_u10_3",
- "characterId": "william",
- "title": "William's blessing",
- "titleFa": "دعای خیر ویلیام",
+ "characterId": "leslie",
+ "title": "Grandad George's blessing",
+ "titleFa": "دعای خیر پدربزرگ جورج",
  "setting": "Home · Level 5",
  "settingFa": "خانه",
  "requires": null,
@@ -12,20 +12,20 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Dad's been wanting to give you something. He's been practising what to say all week, haven't you, Dad?",
+   "text": "George has been wanting to give you something. He's been practising what to say all week, haven't you, George?",
    "translations": {
-    "fa": "بابا می‌خواسته یه چیزی بهت بده. کل هفته داشته تمرین می‌کرده چی بگه، مگه نه بابا؟"
+    "fa": "جورج می‌خواسته یه چیزی بهت بده. کل هفته داشته تمرین می‌کرده چی بگه، مگه نه جورج؟"
    },
    "branches": [
     {
      "keywords": [
       "anything",
-      "william",
       "didn't",
+      "george",
       "have"
      ],
-     "suggestion": "William, you didn't have to do anything.",
-     "suggestionFa": "ویلیام، لازم نبود کاری بکنید.",
+     "suggestion": "George, you didn't have to do anything.",
+     "suggestionFa": "جورج، لازم نبود کاری بکنید.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -54,7 +54,7 @@
   },
   "n2": {
    "id": "n2",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Bobby's luggage tag. For you.",
    "translations": {
     "fa": "برچسب چمدون بابی. برای تو."
@@ -64,19 +64,19 @@
      "keywords": [
       "possession",
       "treasured",
-      "william",
+      "george",
       "accept"
      ],
-     "suggestion": "William, I can't accept this. It's your most treasured possession.",
-     "suggestionFa": "ویلیام، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه.",
+     "suggestion": "George, I can't accept this. It's your most treasured possession.",
+     "suggestionFa": "جورج، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه.",
      "trustDelta": 6,
      "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "means",
       "don't",
+      "means",
       "much",
       "know"
      ],
@@ -110,11 +110,11 @@
      "keywords": [
       "treasure",
       "forever",
-      "william",
+      "george",
       "thank"
      ],
-     "suggestion": "I'll treasure it forever. Thank you, William.",
-     "suggestionFa": "تا ابد مثل گنج نگهش می‌دارم. ممنون ویلیام.",
+     "suggestion": "I'll treasure it forever. Thank you, George.",
+     "suggestionFa": "تا ابد مثل گنج نگهش می‌دارم. ممنون جورج.",
      "trustDelta": 6,
      "next": "n4",
      "success": true
@@ -154,7 +154,7 @@
   },
   "n4": {
    "id": "n4",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Welcome home, son.",
    "translations": {
     "fa": "به خونه خوش اومدی پسرم."
@@ -174,10 +174,10 @@
     },
     {
      "keywords": [
-      "citizenship",
       "certificate",
+      "citizenship",
       "hang",
-      "next"
+      "i'll"
      ],
      "suggestion": "I'll hang it next to my citizenship certificate.",
      "suggestionFa": "کنار گواهی شهروندیم آویزونش می‌کنم.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "heard",
       "night",
+      "heard",
       "last"
      ],
      "suggestion": "Yes, I heard it last night too.",
@@ -88,10 +88,10 @@
     },
     {
      "keywords": [
-      "break",
-      "might",
       "don't",
-      "push"
+      "might",
+      "break",
+      "hard"
      ],
      "suggestion": "Don't push too hard — you might break it.",
      "suggestionFa": "زیاد فشار ندید — ممکنه بشکنه.",
@@ -118,7 +118,7 @@
   "n3": {
    "id": "n3",
    "speaker": "weda",
-   "text": "William used to do all these jobs. But his hands aren't what they were.",
+   "text": "George used to do all these jobs. But his hands aren't what they were.",
    "translations": {
     "fa": "ویلیام قبلاً همهٔ این کارها را می‌کرد. ولی دستاش دیگه مثل قبل نیستن."
    },
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "washer",
-      "shop",
+      "i'll",
       "from",
-      "i'll"
+      "shop"
      ],
      "suggestion": "I'll ask Tom to buy a washer from the DIY shop.",
      "suggestionFa": "به تام می‌گم از فروشگاه ابزار یه واشر بخره.",
@@ -185,8 +185,8 @@
      "keywords": [
       "check",
       "toy",
-      "her",
-      "box"
+      "box",
+      "her"
      ],
      "suggestion": "Ha! I'll check her toy box.",
      "suggestionFa": "ها! جعبهٔ اسباب‌بازیش را نگاه می‌کنم.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "spare",
-      "just",
       "case",
-      "buy"
+      "just",
+      "one"
      ],
      "suggestion": "I'll buy a spare one, just in case.",
      "suggestionFa": "یه یدکی می‌خرم، محض احتیاط.",

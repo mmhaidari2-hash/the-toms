@@ -21,8 +21,8 @@
      "keywords": [
       "achievement",
       "that's",
-      "feels",
-      "sorry"
+      "sorry",
+      "feels"
      ],
      "suggestion": "That's a huge achievement. I'm sorry he feels like that.",
      "suggestionFa": "دستاورد بزرگیه. متأسفم که این حس را داره.",
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "northern",
-      "evening",
       "working",
-      "thing"
+      "evening",
+      "class"
      ],
      "suggestion": "So \"tea\" for the evening meal is a northern, working-class thing?",
      "suggestionFa": "پس «tea» برای شام یه چیز شمالی و طبقهٔ کارگره؟",
@@ -97,7 +97,7 @@
       "fascinating",
       "that's",
       "also",
-      "bit"
+      "sad"
      ],
      "suggestion": "That's fascinating, but also a bit sad.",
      "suggestionFa": "جذابه، ولی یه کم هم غم‌انگیزه.",
@@ -135,10 +135,10 @@
    "branches": [
     {
      "keywords": [
-      "accent",
       "earned",
-      "story",
-      "place"
+      "accent",
+      "place",
+      "story"
      ],
      "suggestion": "Tell him his accent is part of his story, and he earned his place.",
      "suggestionFa": "بهش بگو لهجه‌اش بخشی از داستانشه، و جاش را به دست آورده.",
@@ -150,8 +150,8 @@
      "keywords": [
       "generation",
       "students",
-      "alone",
-      "first"
+      "other",
+      "alone"
      ],
      "suggestion": "I'd say: find the other first-generation students. He won't be alone.",
      "suggestionFa": "می‌گم: بقیهٔ دانشجوهای نسل اول را پیدا کن. تنها نیست.",
@@ -187,8 +187,8 @@
      "keywords": [
       "welcome",
       "people",
-      "here",
-      "took"
+      "took",
+      "time"
      ],
      "suggestion": "It took time, but people here made me feel welcome.",
      "suggestionFa": "زمان برد، ولی مردم اینجا باعث شدن احساس خوش‌آمد کنم.",
@@ -198,9 +198,9 @@
     },
     {
      "keywords": [
-      "outsider",
-      "actually",
       "stronger",
+      "actually",
+      "outsider",
       "feeling"
      ],
      "suggestion": "Feeling like an outsider can actually make you stronger.",

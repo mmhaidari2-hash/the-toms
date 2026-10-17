@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "ready",
       "we're",
       "roast",
-      "ready",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "water",
-      "tap",
-      "jug"
+      "jug",
+      "tap"
      ],
      "suggestion": "A jug of tap water, please.",
      "suggestionFa": "یه پارچ آب لوله‌کشی، لطفاً.",
@@ -230,8 +230,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "she'll",
+      "thanks",
       "share"
      ],
      "suggestion": "No thanks, she'll share with me.",
@@ -387,8 +387,8 @@
      "keywords": [
       "please",
       "we're",
-      "bill",
-      "full"
+      "just",
+      "bill"
      ],
      "suggestion": "Just the bill, please. We're full.",
      "suggestionFa": "فقط صورت‌حساب، لطفاً. سیریم.",

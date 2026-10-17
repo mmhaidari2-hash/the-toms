@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
+      "handle",
       "myself",
-      "thanks",
       "rather",
-      "handle"
+      "thanks"
      ],
      "suggestion": "Thanks, but I'd rather handle it myself.",
      "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "awkward",
-      "maybe",
       "don't",
+      "maybe",
       "make"
      ],
      "suggestion": "Maybe. I don't want to make it awkward.",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "perfect",
-      "that's",
-      "honest"
+      "getting",
+      "honest",
+      "that's"
      ],
      "suggestion": "\"Getting old\" — that's perfect. Not angry, just honest.",
      "suggestionFa": "«کهنه شده» — عالیه. عصبانی نه، فقط صادق.",
@@ -146,8 +146,8 @@
      "keywords": [
       "doesn't",
       "stop",
-      "if",
-      "he"
+      "he",
+      "if"
      ],
      "suggestion": "And if he doesn't stop?",
      "suggestionFa": "و اگه دست برنداشت؟",
@@ -187,8 +187,8 @@
      "keywords": [
       "anyone",
       "don't",
-      "fall",
-      "hope"
+      "want",
+      "fall"
      ],
      "suggestion": "I hope so. I don't want to fall out with anyone.",
      "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",
@@ -201,7 +201,7 @@
       "someone's",
       "thanks",
       "helps",
-      "back"
+      "know"
      ],
      "suggestion": "Thanks, Al. It helps to know someone's got my back.",
      "suggestionFa": "ممنون ال. خوبه بدونم یکی هوام را داره.",

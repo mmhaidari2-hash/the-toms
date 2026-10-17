@@ -1,6 +1,6 @@
 {
  "id": "l3_u9_4",
- "characterId": "william",
+ "characterId": "leslie",
  "title": "Remembrance Sunday",
  "titleFa": "یکشنبهٔ یادبود",
  "setting": "Traditions · Level 3",
@@ -12,15 +12,15 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Dad's wearing his poppy today. It's Remembrance Sunday. Do you know about it?",
+   "text": "George is wearing his poppy today. It's Remembrance Sunday. Do you know about it?",
    "translations": {
-    "fa": "بابا امروز گل شقایقش را زده. یکشنبهٔ یادبوده. دربارهٔ اون می‌دونی؟"
+    "fa": "جورج امروز گل شقایقش را زده. یکشنبهٔ یادبوده. دربارهٔ اون می‌دونی؟"
    },
    "branches": [
     {
      "keywords": [
-      "really",
       "people",
+      "really",
       "wear",
       "why"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "everywhere",
+      "i've",
       "seen",
-      "week",
-      "i've"
+      "week"
      ],
      "suggestion": "I've seen poppies everywhere this week.",
      "suggestionFa": "این هفته همه‌جا گل شقایق دیدم.",
@@ -80,13 +80,13 @@
     },
     {
      "keywords": [
-      "william",
+      "george",
       "family",
       "fight",
-      "did"
+      "war"
      ],
-     "suggestion": "William, did your family fight in the war?",
-     "suggestionFa": "ویلیام، خانواده‌تون تو جنگ جنگیدن؟",
+     "suggestion": "George, did your family fight in the war?",
+     "suggestionFa": "جورج، خانواده‌تون تو جنگ جنگیدن؟",
      "trustDelta": 5,
      "next": "n3",
      "success": true
@@ -121,7 +121,7 @@
   },
   "n3": {
    "id": "n3",
-   "speaker": "william",
+   "speaker": "george",
    "text": "My father. Royal Navy.",
    "translations": {
     "fa": "پدرم. نیروی دریایی سلطنتی."
@@ -131,8 +131,8 @@
      "keywords": [
       "brave",
       "have",
-      "been",
-      "must"
+      "must",
+      "been"
      ],
      "suggestion": "He must have been very brave.",
      "suggestionFa": "حتماً خیلی شجاع بوده.",
@@ -172,9 +172,9 @@
   "n4": {
    "id": "n4",
    "speaker": "leslie",
-   "text": "He never talked about it, did he, Dad? A lot of men from that generation didn't. But he would always go to the service every year.",
+   "text": "He never talked about it, did he, George? A lot of men from that generation didn't. But he would always go to the service every year.",
    "translations": {
-    "fa": "هیچ‌وقت دربارهٔ اون حرف نمی‌زد، نه بابا؟ خیلی از مردهای اون نسل حرف نمی‌زدن. ولی همیشه هر سال به مراسم می‌رفت."
+    "fa": "هیچ‌وقت دربارهٔ اون حرف نمی‌زد، نه جورج؟ خیلی از مردهای اون نسل حرف نمی‌زدن. ولی همیشه هر سال به مراسم می‌رفت."
    },
    "branches": [
     {
@@ -224,7 +224,7 @@
   },
   "n5": {
    "id": "n5",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Every year. Will you come?",
    "translations": {
     "fa": "هر سال. میای؟"

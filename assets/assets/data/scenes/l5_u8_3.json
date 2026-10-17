@@ -1,8 +1,8 @@
 {
  "id": "l5_u8_3",
- "characterId": "william",
- "title": "William's war story",
- "titleFa": "قصهٔ ویلیام",
+ "characterId": "leslie",
+ "title": "Grandad George's story",
+ "titleFa": "قصهٔ پدربزرگ جورج",
  "setting": "Telling a good story · Level 5",
  "settingFa": "خوب قصه گفتن",
  "requires": null,
@@ -12,20 +12,20 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Dad, tell them about the day you met Bobby Charlton. You never tell anyone.",
+   "text": "George, tell them about the day you met Bobby Charlton. You never tell anyone.",
    "translations": {
-    "fa": "بابا، بهشون بگو روزی که بابی چارلتون را دیدی. هیچ‌وقت به کسی نمی‌گی."
+    "fa": "جورج، بهشون بگو روزی که بابی چارلتون را دیدی. هیچ‌وقت به کسی نمی‌گی."
    },
    "branches": [
     {
      "keywords": [
       "manchester",
       "charlton",
-      "william",
-      "united"
+      "george",
+      "legend"
      ],
-     "suggestion": "You met Bobby Charlton, William? The Manchester United legend?",
-     "suggestionFa": "شما بابی چارلتون را دیدید ویلیام؟ اسطورهٔ منچستر یونایتد؟",
+     "suggestion": "You met Bobby Charlton, George? The Manchester United legend?",
+     "suggestionFa": "شما بابی چارلتون را دیدید جورج؟ اسطورهٔ منچستر یونایتد؟",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -34,8 +34,8 @@
      "keywords": [
       "sharing",
       "don't",
-      "hear",
-      "mind"
+      "love",
+      "hear"
      ],
      "suggestion": "I'd love to hear it, if you don't mind sharing.",
      "suggestionFa": "اگه اشکالی نداره، خیلی دوست دارم بشنوم.",
@@ -61,7 +61,7 @@
   },
   "n2": {
    "id": "n2",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Nineteen sixty-eight. Train station.",
    "translations": {
     "fa": "هزار و نهصد و شصت و هشت. ایستگاه قطار."
@@ -102,9 +102,9 @@
   "n3": {
    "id": "n3",
    "speaker": "leslie",
-   "text": "It was! Dad was a porter at Piccadilly then. The team came back with the cup, and Dad carried Bobby's suitcase.",
+   "text": "It was! George was a porter at Piccadilly then. The team came back with the cup, and George carried Bobby's suitcase.",
    "translations": {
-    "fa": "آره! بابا اون موقع باربر پیکادلی بود. تیم با جام برگشت، و بابا چمدون بابی را حمل کرد."
+    "fa": "آره! جورج اون موقع باربر پیکادلی بود. تیم با جام برگشت، و جورج چمدون بابی را حمل کرد."
    },
    "branches": [
     {
@@ -123,12 +123,12 @@
     {
      "keywords": [
       "anything",
-      "william",
-      "did",
-      "say"
+      "george",
+      "say",
+      "did"
      ],
-     "suggestion": "Did he say anything to you, William?",
-     "suggestionFa": "چیزی بهتون گفت ویلیام؟",
+     "suggestion": "Did he say anything to you, George?",
+     "suggestionFa": "چیزی بهتون گفت جورج؟",
      "trustDelta": 5,
      "next": "n4",
      "success": true
@@ -155,7 +155,7 @@
   },
   "n4": {
    "id": "n4",
-   "speaker": "william",
+   "speaker": "george",
    "text": "He said, \"Thanks, lad.\" And smiled.",
    "translations": {
     "fa": "گفت «ممنون پسر.» و لبخند زد."
@@ -165,8 +165,8 @@
      "keywords": [
       "anything",
       "moment",
-      "from",
-      "keep"
+      "keep",
+      "from"
      ],
      "suggestion": "What a moment. Did you keep anything from that day?",
      "suggestionFa": "چه لحظه‌ای. از اون روز چیزی نگه داشتید؟",
@@ -178,8 +178,8 @@
      "keywords": [
       "remember",
       "clearly",
-      "why",
-      "can"
+      "see",
+      "why"
      ],
      "suggestion": "I can see why you remember it so clearly.",
      "suggestionFa": "می‌فهمم چرا این‌قدر واضح یادتونه.",
@@ -202,19 +202,19 @@
   "n5": {
    "id": "n5",
    "speaker": "leslie",
-   "text": "He kept the luggage tag. It's in a frame in his bedroom. He's never shown anyone — but I think he'd show you. Wouldn't you, Dad?",
+   "text": "He kept the luggage tag. It's in a frame in his bedroom. He's never shown anyone — but I think he'd show you. Wouldn't you, George?",
    "translations": {
-    "fa": "برچسب چمدون را نگه داشت. تو یه قاب تو اتاق خوابشه. هیچ‌وقت به کسی نشونش نداده — ولی فکر کنم به تو نشون بده. مگه نه بابا؟"
+    "fa": "برچسب چمدون را نگه داشت. تو یه قاب تو اتاق خوابشه. هیچ‌وقت به کسی نشونش نداده — ولی فکر کنم به تو نشون بده. مگه نه جورج؟"
    },
    "branches": [
     {
      "keywords": [
       "honoured",
-      "william",
+      "george",
       "i'd"
      ],
-     "suggestion": "I'd be honoured, William.",
-     "suggestionFa": "مفتخر می‌شم ویلیام.",
+     "suggestion": "I'd be honoured, George.",
+     "suggestionFa": "مفتخر می‌شم جورج.",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "pressure",
-      "only",
       "want",
+      "only",
       "all"
      ],
      "suggestion": "Only if you want to. No pressure at all.",
@@ -250,7 +250,7 @@
   },
   "n6": {
    "id": "n6",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Come on, then. Best day ever.",
    "translations": {
     "fa": "بیا پس. بهترین روز عمرم."

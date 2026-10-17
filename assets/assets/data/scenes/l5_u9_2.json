@@ -21,7 +21,7 @@
      "keywords": [
       "content",
       "would",
-      "kind",
+      "make",
       "hear"
      ],
      "suggestion": "I hear you. What kind of content would you make?",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "impressive",
-      "creators",
       "thousand",
+      "creators",
       "little"
      ],
      "suggestion": "Two thousand is impressive. But most creators earn very little.",
@@ -85,7 +85,7 @@
       "differently",
       "student",
       "normal",
-      "point"
+      "about"
      ],
      "suggestion": "Fair point about debt. But student loans work differently from normal debt.",
      "suggestionFa": "دربارهٔ بدهی حرف درستیه. ولی وام دانشجویی با بدهی معمولی فرق داره.",
@@ -140,10 +140,10 @@
     },
     {
      "keywords": [
-      "didn't",
       "choose",
+      "didn't",
       "could",
-      "have"
+      "both"
      ],
      "suggestion": "What if you didn't have to choose? Could you do both?",
      "suggestionFa": "اگه مجبور نبودی انتخاب کنی چی؟ می‌تونی هر دو را انجام بدی؟",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "content",
       "channel",
+      "content",
       "profile",
       "degree"
      ],
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "communicate",
-      "graduates",
       "employers",
+      "graduates",
       "love"
      ],
      "suggestion": "And employers love graduates who can communicate. It's a win-win.",

@@ -1,8 +1,8 @@
 {
  "id": "l5_u10_3__as_leslie",
- "characterId": "william",
- "title": "(As Leslie) William's blessing",
- "titleFa": "(در نقش Leslie) دعای خیر ویلیام",
+ "characterId": "leslie",
+ "title": "(As Leslie) Grandad George's blessing",
+ "titleFa": "(در نقش Leslie) دعای خیر پدربزرگ جورج",
  "setting": "Home · Level 5",
  "settingFa": "خانه",
  "requires": null,
@@ -23,12 +23,12 @@
      "keywords": [
       "practising",
       "something",
-      "wanting",
       "haven't",
-      "dad's"
+      "wanting",
+      "george"
      ],
-     "suggestion": "Dad's been wanting to give you something. He's been practising what to say all week, haven't you, Dad?",
-     "suggestionFa": "بابا می‌خواسته یه چیزی بهت بده. کل هفته داشته تمرین می‌کرده چی بگه، مگه نه بابا؟",
+     "suggestion": "George has been wanting to give you something. He's been practising what to say all week, haven't you, George?",
+     "suggestionFa": "جورج می‌خواسته یه چیزی بهت بده. کل هفته داشته تمرین می‌کرده چی بگه، مگه نه جورج؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -39,15 +39,15 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "William, you didn't have to do anything.",
+   "text": "George, you didn't have to do anything.",
    "translations": {
-    "fa": "ویلیام، لازم نبود کاری بکنید."
+    "fa": "جورج، لازم نبود کاری بکنید."
    },
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Bobby's luggage tag. For you.",
    "translations": {
     "fa": "برچسب چمدون بابی. برای تو."
@@ -92,17 +92,17 @@
   "r4": {
    "id": "r4",
    "speaker": "mehdi",
-   "text": "William, I can't accept this. It's your most treasured possession.",
+   "text": "George, I can't accept this. It's your most treasured possession.",
    "translations": {
-    "fa": "ویلیام، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه."
+    "fa": "جورج، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه."
    },
    "branches": [
     {
      "keywords": [
       "listened",
       "really",
-      "wants",
       "story",
+      "wants",
       "only"
      ],
      "suggestion": "He wants you to have it. He said you're the only one who really listened to the story. And that you're one of us now.",
@@ -117,9 +117,9 @@
   "r5": {
    "id": "r5",
    "speaker": "mehdi",
-   "text": "I'll treasure it forever. Thank you, William.",
+   "text": "I'll treasure it forever. Thank you, George.",
    "translations": {
-    "fa": "تا ابد مثل گنج نگهش می‌دارم. ممنون ویلیام."
+    "fa": "تا ابد مثل گنج نگهش می‌دارم. ممنون جورج."
    },
    "branches": [
     {
@@ -137,7 +137,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Welcome home, son.",
    "translations": {
     "fa": "به خونه خوش اومدی پسرم."
@@ -175,10 +175,10 @@
    "branches": [
     {
      "keywords": [
-      "tissues",
       "someone",
-      "kettle",
+      "tissues",
       "change",
+      "kettle",
       "things"
      ],
      "suggestion": "Oh, now look — you've set us all off. Pass the tissues, someone. And put the kettle on. Some things never change.",

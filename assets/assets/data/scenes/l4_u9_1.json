@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "working",
       "stopped",
-      "bought",
-      "kettle"
+      "working",
+      "kettle",
+      "bought"
      ],
      "suggestion": "I bought this kettle two weeks ago and it's stopped working.",
      "suggestionFa": "دو هفته پیش این کتری را خریدم و از کار افتاده.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "faulty",
       "return",
+      "faulty",
       "like",
       "i'd"
      ],
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "refund",
-      "trust",
-      "don't"
+      "please",
+      "don't",
+      "trust"
      ],
      "suggestion": "A full refund, please. I don't trust this model any more.",
      "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "morning",
-      "heating",
       "stopped",
+      "heating",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "carefully",
-      "used",
       "i've",
+      "used",
       "all"
      ],
      "suggestion": "Not at all. I've used it carefully.",

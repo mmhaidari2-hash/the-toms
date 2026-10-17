@@ -75,8 +75,8 @@
     {
      "keywords": [
       "rolling",
-      "cancel",
       "prefer",
+      "cancel",
       "time"
      ],
      "suggestion": "I'd prefer the rolling one — can I cancel any time?",
@@ -89,8 +89,8 @@
      "keywords": [
       "cheaper",
       "twelve",
-      "works",
-      "month"
+      "month",
+      "works"
      ],
      "suggestion": "The twelve-month one works out cheaper, so I'll go for that.",
      "suggestionFa": "دوازده‌ماهه ارزون‌تر درمیاد، پس اونو می‌گیرم.",
@@ -130,8 +130,8 @@
     {
      "keywords": [
       "working",
-      "time",
-      "full"
+      "full",
+      "time"
      ],
      "suggestion": "No, I'm working full-time.",
      "suggestionFa": "نه، تمام‌وقت کار می‌کنم.",
@@ -252,8 +252,8 @@
     {
      "keywords": [
       "alright",
-      "before",
       "thanks",
+      "before",
       "gyms"
      ],
      "suggestion": "I'm alright, thanks — I've used gyms before.",
@@ -292,8 +292,8 @@
    "branches": [
     {
      "keywords": [
-      "when's",
       "sounds",
+      "when's",
       "class",
       "yoga"
      ],
@@ -306,9 +306,9 @@
     {
      "keywords": [
       "might",
-      "give",
       "hard",
-      "spin"
+      "spin",
+      "give"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "details",
-      "bank",
-      "sure"
+      "sure",
+      "bank"
      ],
      "suggestion": "Sure — do you need my bank details?",
      "suggestionFa": "البته — مشخصات بانکیم را می‌خواید؟",
@@ -398,9 +398,9 @@
     {
      "keywords": [
       "injury",
-      "knee",
-      "year",
-      "fine"
+      "last",
+      "fine",
+      "year"
      ],
      "suggestion": "I had a knee injury last year, but it's fine now.",
      "suggestionFa": "پارسال زانوم آسیب دید، ولی الان خوبه.",

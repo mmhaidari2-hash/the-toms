@@ -1,8 +1,8 @@
 {
  "id": "l2_u7_3",
  "characterId": "leslie",
- "title": "When Dad was young",
- "titleFa": "وقتی بابا جوان بود",
+ "title": "When Grandad was young",
+ "titleFa": "وقتی پدربزرگ جوان بود",
  "setting": "What were you doing? · Level 2",
  "settingFa": "داشتی چی کار می‌کردی؟",
  "requires": null,
@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Sit down, love. Were you watching the football with Dad just now?",
+   "text": "Sit down, love. Were you watching the football with George just now?",
    "translations": {
-    "fa": "بشین عزیزم. همین الان با بابا فوتبال تماشا می‌کردی؟"
+    "fa": "بشین عزیزم. همین الان با جورج فوتبال تماشا می‌کردی؟"
    },
    "branches": [
     {
@@ -53,7 +53,7 @@
   },
   "n2": {
    "id": "n2",
-   "speaker": "william",
+   "speaker": "george",
    "text": "I used to play.",
    "translations": {
     "fa": "من قبلاً بازی می‌کردم."
@@ -61,19 +61,19 @@
    "branches": [
     {
      "keywords": [
-      "william",
+      "george",
       "really"
      ],
-     "suggestion": "Really, William?",
-     "suggestionFa": "واقعاً ویلیام؟",
+     "suggestion": "Really, George?",
+     "suggestionFa": "واقعاً جورج؟",
      "trustDelta": 6,
      "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "play",
       "team",
+      "play",
       "use",
       "did"
      ],
@@ -106,9 +106,9 @@
     {
      "keywords": [
       "didn't",
+      "ball",
       "have",
-      "they",
-      "ball"
+      "they"
      ],
      "suggestion": "A tin can? Didn't they have a ball?",
      "suggestionFa": "قوطی حلبی؟ توپ نداشتن؟",
@@ -204,7 +204,7 @@
   },
   "n5": {
    "id": "n5",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Broke my leg. Sixteen.",
    "translations": {
     "fa": "پام شکست. شونزده سالگی."
@@ -269,8 +269,8 @@
      "keywords": [
       "broken",
       "lucky",
-      "was",
-      "leg"
+      "leg",
+      "was"
      ],
      "suggestion": "So the broken leg was lucky!",
      "suggestionFa": "پس پای شکسته شانس بود!",
@@ -300,7 +300,7 @@
   },
   "n7": {
    "id": "n7",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Best day of my life.",
    "translations": {
     "fa": "بهترین روز زندگیم."

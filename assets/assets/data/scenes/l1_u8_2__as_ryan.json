@@ -23,9 +23,9 @@
      "keywords": [
       "football",
       "player",
-      "more",
+      "need",
       "play",
-      "need"
+      "come"
      ],
      "suggestion": "Can you play football? Come on, we need one more player.",
      "suggestionFa": "فوتبال بلدی؟ بیا، یه بازیکن دیگه لازم داریم.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "languages",
-      "right",
       "farsi",
       "other",
-      "speak"
+      "speak",
+      "right"
      ],
      "suggestion": "Can you speak other languages? You speak Farsi, right?",
      "suggestionFa": "زبان‌های دیگه بلدی؟ فارسی بلدی، نه؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "bonjour",
+      "english",
       "french",
       "that's",
       "speak"
@@ -150,7 +150,7 @@
       "great",
       "means",
       "score",
-      "sick"
+      "peng"
      ],
      "suggestion": "Deal! \"Sick\" means great, \"peng\" means really nice. Now, can you score?",
      "suggestionFa": "قبول! «sick» یعنی عالی، «peng» یعنی خیلی خوب. حالا گل می‌تونی بزنی؟",
@@ -172,7 +172,7 @@
     {
      "keywords": [
       "definitely",
-      "next",
+      "same",
       "play",
       "time",
       "week"

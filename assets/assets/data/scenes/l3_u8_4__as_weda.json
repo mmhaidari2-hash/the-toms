@@ -49,7 +49,7 @@
       "properly",
       "really",
       "won't",
-      "turn",
+      "push",
       "have"
      ],
      "suggestion": "And the hot tap won't turn off properly. I have to push really hard.",
@@ -71,13 +71,13 @@
    "branches": [
     {
      "keywords": [
-      "william",
+      "george",
       "aren't",
-      "these",
       "hands",
-      "they"
+      "these",
+      "were"
      ],
-     "suggestion": "William used to do all these jobs. But his hands aren't what they were.",
+     "suggestion": "George used to do all these jobs. But his hands aren't what they were.",
      "suggestionFa": "ویلیام قبلاً همهٔ این کارها را می‌کرد. ولی دستاش دیگه مثل قبل نیستن.",
      "trustDelta": 5,
      "next": "r4",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "handyman",
       "thinking",
+      "handyman",
       "fair's",
       "clever",
       "right"

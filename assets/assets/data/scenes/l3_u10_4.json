@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "gone",
-      "home",
       "feel",
-      "fast"
+      "home",
+      "fast",
+      "gone"
      ],
      "suggestion": "It's gone so fast. I feel at home now.",
      "suggestionFa": "خیلی زود گذشت. الان احساس می‌کنم خونه‌مه.",
@@ -76,7 +76,7 @@
       "definitely",
       "weather",
       "never",
-      "seen"
+      "much"
      ],
      "suggestion": "Definitely the weather. I've never seen so much rain!",
      "suggestionFa": "قطعاً هوا. هیچ‌وقت این‌قدر بارون ندیده بودم!",
@@ -200,8 +200,8 @@
      "keywords": [
       "love",
       "sure",
-      "yet",
-      "but"
+      "i'd",
+      "yet"
      ],
      "suggestion": "I'm not sure yet, but I'd love to.",
      "suggestionFa": "هنوز مطمئن نیستم، ولی خیلی دوست دارم.",
@@ -236,9 +236,9 @@
     {
      "keywords": [
       "anywhere",
+      "don't",
       "going",
-      "worry",
-      "don't"
+      "worry"
      ],
      "suggestion": "Don't worry, Al. I'm not going anywhere.",
      "suggestionFa": "نگران نباش ال. هیچ‌جا نمی‌رم.",

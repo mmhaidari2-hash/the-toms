@@ -1,8 +1,8 @@
 {
  "id": "l4_u5_4__as_leslie",
- "characterId": "william",
- "title": "(As Leslie) Talking to William",
- "titleFa": "(در نقش Leslie) گفتگو با ویلیام",
+ "characterId": "leslie",
+ "title": "(As Leslie) Talking to Grandad George",
+ "titleFa": "(در نقش Leslie) گفتگو با پدربزرگ جورج",
  "setting": "Wellbeing · Level 4",
  "settingFa": "سلامت روان و جسم",
  "requires": null,
@@ -22,13 +22,13 @@
     {
      "keywords": [
       "talking",
-      "passed",
       "friend",
-      "while",
-      "likes"
+      "passed",
+      "george",
+      "since"
      ],
-     "suggestion": "Dad's been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
-     "suggestionFa": "بابا از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه.",
+     "suggestion": "George has been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
+     "suggestionFa": "جورج از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -39,15 +39,15 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "Of course. William, I'm so sorry about Stan.",
+   "text": "Of course. George, I'm so sorry about Stan.",
    "translations": {
-    "fa": "حتماً. ویلیام، خیلی بابت استن متأسفم."
+    "fa": "حتماً. جورج، خیلی بابت استن متأسفم."
    },
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Sixty years. Best mate.",
    "translations": {
     "fa": "شصت سال. بهترین رفیق."
@@ -116,7 +116,7 @@
   },
   "r5": {
    "id": "r5",
-   "speaker": "william",
+   "speaker": "george",
    "text": "We played football. Every Saturday.",
    "translations": {
     "fa": "فوتبال بازی می‌کردیم. هر شنبه."
@@ -160,8 +160,8 @@
       "they'd",
       "missed"
      ],
-     "suggestion": "Stan was the goalkeeper. Dad always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
-     "suggestionFa": "استن دروازه‌بان بود. بابا همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن.",
+     "suggestion": "Stan was the goalkeeper. George always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
+     "suggestionFa": "استن دروازه‌بان بود. جورج همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن.",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -193,7 +193,7 @@
   },
   "r8": {
    "id": "r8",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Yes. Brothers. Thank you, son.",
    "translations": {
     "fa": "آره. برادر. ممنون پسرم."

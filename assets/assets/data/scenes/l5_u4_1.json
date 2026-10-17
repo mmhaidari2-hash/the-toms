@@ -33,8 +33,8 @@
     {
      "keywords": [
       "feeling",
+      "scope",
       "being",
-      "about",
       "vague"
      ],
      "suggestion": "I had a feeling they would. They kept being vague about the scope.",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "roughly",
       "fifteen",
+      "roughly",
       "grand",
       "head"
      ],
@@ -92,8 +92,8 @@
      "keywords": [
       "numbers",
       "crunch",
-      "won't",
-      "cheap"
+      "cheap",
+      "won't"
      ],
      "suggestion": "I'd need to crunch the numbers, but it won't be cheap.",
      "suggestionFa": "باید حساب کتاب کنم، ولی ارزون نیست.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "options",
-      "let's",
       "money",
+      "let's",
       "time"
      ],
      "suggestion": "Let's give them two options: more time or more money.",
@@ -150,8 +150,8 @@
      "keywords": [
       "delivery",
       "phased",
-      "offer",
-      "could"
+      "could",
+      "later"
      ],
      "suggestion": "We could offer a phased delivery — the core in eight weeks, the rest later.",
      "suggestionFa": "می‌تونیم تحویل مرحله‌ای پیشنهاد بدیم — اصل کار تو هشت هفته، بقیه‌اش بعداً.",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "exactly",
+      "keeps",
       "their",
-      "court",
-      "keeps"
+      "court"
      ],
      "suggestion": "Exactly. And it keeps the ball in their court.",
      "suggestionFa": "دقیقاً. و توپ را تو زمین اونا نگه می‌داره.",

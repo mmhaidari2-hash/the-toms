@@ -20,8 +20,8 @@
     {
      "keywords": [
       "proud",
-      "must",
       "been",
+      "must",
       "have"
      ],
      "suggestion": "He must have been so proud of you.",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "ride",
-      "him",
       "boy",
-      "did"
+      "did",
+      "him"
      ],
      "suggestion": "Did you ride with him as a boy?",
      "suggestionFa": "بچه که بودی باهاش سوار می‌شدی؟",
@@ -117,8 +117,8 @@
     {
      "keywords": [
       "beautiful",
-      "memory",
-      "that's"
+      "that's",
+      "memory"
      ],
      "suggestion": "That's a beautiful memory.",
      "suggestionFa": "خاطرهٔ قشنگیه.",
@@ -203,31 +203,33 @@
   "n5": {
    "id": "n5",
    "speaker": "tom",
-   "text": "He does. Dad was the same with me. He was. Lost him two winters back.",
+   "text": "He does. Dad was the same with me. Now it's his heart — the doctor says it's failing. He's seventy-six.",
    "translations": {
-    "fa": "عاشقشه. بابا هم با من همین‌طور بود. بود. دو زمستون پیش از دستش دادم."
+    "fa": "عاشقشه. بابا هم با من همین‌طور بود. حالا قلبشه — دکتر می‌گه داره ضعیف میشه. هفتاد و شش سالشه."
    },
    "branches": [
     {
      "keywords": [
+      "coping",
       "sorry",
-      "tom"
+      "tom",
+      "how"
      ],
-     "suggestion": "I'm so sorry, Tom.",
-     "suggestionFa": "خیلی متأسفم تام.",
+     "suggestion": "I'm so sorry, Tom. How is he coping?",
+     "suggestionFa": "خیلی متأسفم تام. چطور کنار میاد؟",
      "trustDelta": 7,
      "next": "n6",
      "success": true
     },
     {
      "keywords": [
-      "incredibly",
+      "really",
       "must",
       "hard",
-      "been"
+      "all"
      ],
-     "suggestion": "That must have been incredibly hard.",
-     "suggestionFa": "حتماً فوق‌العاده سخت بوده.",
+     "suggestion": "That must be really hard for all of you.",
+     "suggestionFa": "حتماً برای همه‌تون خیلی سخته.",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -235,16 +237,16 @@
    ],
    "newWords": [
     {
-     "word": "lost him",
-     "fa": "از دستش دادم"
+     "word": "heart",
+     "fa": "قلب"
     },
     {
-     "word": "two winters back",
-     "fa": "دو زمستان پیش"
+     "word": "failing",
+     "fa": "رو به ضعف"
     },
     {
-     "word": "incredibly",
-     "fa": "فوق‌العاده"
+     "word": "coping",
+     "fa": "کنار آمدن"
     }
    ],
    "cultureNote": null
@@ -252,9 +254,9 @@
   "n6": {
    "id": "n6",
    "speaker": "tom",
-   "text": "Some mornings I still wave at the depot like he's there. Daft, eh?",
+   "text": "Stubborn as ever. Some mornings I still wave at the depot like he's in the cab. Daft, eh?",
    "translations": {
-    "fa": "بعضی صبح‌ها هنوز به پایانه دست تکون می‌دم انگار اونجاست. احمقانه‌ست، نه؟"
+    "fa": "مثل همیشه یک‌دنده. بعضی صبح‌ها هنوز به پایانه دست تکون می‌دم انگار تو کابینه. احمقانه‌ست، نه؟"
    },
    "branches": [
     {
@@ -272,8 +274,8 @@
      "keywords": [
       "culture",
       "loved",
-      "ones",
-      "talk"
+      "talk",
+      "ones"
      ],
      "suggestion": "In my culture, we talk to our loved ones too.",
      "suggestionFa": "تو فرهنگ من، ما هم با عزیزانمون حرف می‌زنیم.",
@@ -321,8 +323,8 @@
     },
     {
      "keywords": [
-      "that's",
       "rather",
+      "that's",
       "about",
       "talk"
      ],
@@ -360,8 +362,8 @@
      "keywords": [
       "means",
       "thank",
-      "lot",
-      "tom"
+      "tom",
+      "lot"
      ],
      "suggestion": "Thank you, Tom. That means a lot.",
      "suggestionFa": "ممنون تام. خیلی برام ارزش داره.",
@@ -372,12 +374,12 @@
     {
      "keywords": [
       "proud",
-      "would",
-      "man",
-      "dad"
+      "must",
+      "dad",
+      "man"
      ],
-     "suggestion": "Your dad would be proud of the man you are.",
-     "suggestionFa": "بابات به مردی که هستی افتخار می‌کرد.",
+     "suggestion": "Your dad must be so proud of the man you are.",
+     "suggestionFa": "بابات حتماً به مردی که هستی افتخار می‌کنه.",
      "trustDelta": 6,
      "next": "n9",
      "success": true
@@ -398,9 +400,9 @@
   "n9": {
    "id": "n9",
    "speaker": "tom",
-   "text": "Cheers, mate. You're family now — that's why I told you. Come on, Leslie'll think we've run off.",
+   "text": "Cheers, mate. You're family now — that's why I told you. Come on — Dad'll want his tea, and Leslie'll think we've run off.",
    "translations": {
-    "fa": "مرسی رفیق. الان جزو خانواده‌ای — برای همین بهت گفتم. بیا، لزلی فکر می‌کنه فرار کردیم."
+    "fa": "مرسی رفیق. الان جزو خانواده‌ای — برای همین بهت گفتم. بیا — بابا چاییش را می‌خواد، و لزلی فکر می‌کنه فرار کردیم."
    },
    "branches": [],
    "newWords": [],

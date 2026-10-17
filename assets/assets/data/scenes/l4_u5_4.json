@@ -1,8 +1,8 @@
 {
  "id": "l4_u5_4",
- "characterId": "william",
- "title": "Talking to William",
- "titleFa": "گفتگو با ویلیام",
+ "characterId": "leslie",
+ "title": "Talking to Grandad George",
+ "titleFa": "گفتگو با پدربزرگ جورج",
  "setting": "Wellbeing · Level 4",
  "settingFa": "سلامت روان و جسم",
  "requires": null,
@@ -12,20 +12,20 @@
   "n1": {
    "id": "n1",
    "speaker": "leslie",
-   "text": "Dad's been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
+   "text": "George has been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
    "translations": {
-    "fa": "بابا از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه."
+    "fa": "جورج از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه."
    },
    "branches": [
     {
      "keywords": [
-      "william",
+      "george",
       "course",
-      "about",
-      "sorry"
+      "sorry",
+      "about"
      ],
-     "suggestion": "Of course. William, I'm so sorry about Stan.",
-     "suggestionFa": "حتماً. ویلیام، خیلی بابت استن متأسفم.",
+     "suggestion": "Of course. George, I'm so sorry about Stan.",
+     "suggestionFa": "حتماً. جورج، خیلی بابت استن متأسفم.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -34,8 +34,8 @@
      "keywords": [
       "friends",
       "happy",
-      "were",
-      "they"
+      "long",
+      "were"
      ],
      "suggestion": "I'd be happy to. How long were they friends?",
      "suggestionFa": "با کمال میل. چند وقت دوست بودن؟",
@@ -61,7 +61,7 @@
   },
   "n2": {
    "id": "n2",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Sixty years. Best mate.",
    "translations": {
     "fa": "شصت سال. بهترین رفیق."
@@ -110,7 +110,7 @@
   },
   "n3": {
    "id": "n3",
-   "speaker": "william",
+   "speaker": "george",
    "text": "We played football. Every Saturday.",
    "translations": {
     "fa": "فوتبال بازی می‌کردیم. هر شنبه."
@@ -120,8 +120,8 @@
      "keywords": [
       "football",
       "other",
-      "from",
-      "each"
+      "knew",
+      "club"
      ],
      "suggestion": "So you knew each other from the football club?",
      "suggestionFa": "پس همدیگه را از باشگاه فوتبال می‌شناختید؟",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "about",
-      "like",
       "tell",
-      "him"
+      "like",
+      "was"
      ],
      "suggestion": "Tell me about him. What was he like?",
      "suggestionFa": "از اون بگید. چطور آدمی بود؟",
@@ -157,17 +157,17 @@
   "n4": {
    "id": "n4",
    "speaker": "leslie",
-   "text": "Stan was the goalkeeper. Dad always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
+   "text": "Stan was the goalkeeper. George always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
    "translations": {
-    "fa": "استن دروازه‌بان بود. بابا همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن."
+    "fa": "استن دروازه‌بان بود. جورج همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن."
    },
    "branches": [
     {
      "keywords": [
       "brothers",
       "saying",
-      "were",
-      "they"
+      "more",
+      "were"
      ],
      "suggestion": "So what you're saying is, they were more like brothers.",
      "suggestionFa": "پس می‌گید بیشتر مثل برادر بودن.",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "teasing",
-      "behind",
       "sounds",
+      "behind",
       "there"
      ],
      "suggestion": "It sounds like there was a lot of love behind the teasing.",
@@ -214,7 +214,7 @@
   },
   "n5": {
    "id": "n5",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Yes. Brothers. Thank you, son.",
    "translations": {
     "fa": "آره. برادر. ممنون پسرم."

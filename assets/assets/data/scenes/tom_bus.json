@@ -21,8 +21,8 @@
      "keywords": [
       "piccadilly",
       "circus",
-      "going",
-      "there"
+      "there",
+      "going"
      ],
      "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
      "suggestionFa": "دارم میرم پیکادیلی سیرکس. این اتوبوس اونجا وایمیسه؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "phone",
-      "can",
-      "pay"
+      "pay",
+      "can"
      ],
      "suggestion": "Can I pay with my phone?",
      "suggestionFa": "می‌تونم با گوشی پرداخت کنم؟",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "meeting",
       "quicker",
+      "meeting",
       "there",
       "i've"
      ],
@@ -137,8 +137,8 @@
      "keywords": [
       "that's",
       "chat",
-      "okay",
-      "here"
+      "stay",
+      "okay"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "sealed",
-      "lips",
-      "haha"
+      "haha",
+      "lips"
      ],
      "suggestion": "Haha, my lips are sealed!",
      "suggestionFa": "ها ها، لبام دوخته‌ست!",
@@ -237,8 +237,8 @@
     },
     {
      "keywords": [
-      "who",
-      "was"
+      "was",
+      "who"
      ],
      "suggestion": "Who was it with?",
      "suggestionFa": "با کی بود؟",
@@ -328,8 +328,8 @@
      "keywords": [
       "leicester",
       "meeting",
-      "square",
-      "really"
+      "really",
+      "square"
      ],
      "suggestion": "Not really. I'm meeting a friend near Leicester Square.",
      "suggestionFa": "راستش نه. نزدیک لستر اسکوئر با یه دوست قرار دارم.",
@@ -341,8 +341,8 @@
      "keywords": [
       "phone",
       "i'll",
-      "use",
-      "map"
+      "map",
+      "use"
      ],
      "suggestion": "I'll use the map on my phone.",
      "suggestionFa": "از نقشهٔ گوشیم استفاده می‌کنم.",
@@ -373,10 +373,10 @@
    "branches": [
     {
      "keywords": [
-      "better",
       "thanks",
+      "better",
       "than",
-      "map"
+      "tom"
      ],
      "suggestion": "Thanks, Tom. You're better than a map!",
      "suggestionFa": "ممنون تام. از نقشه بهتری!",

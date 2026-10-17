@@ -22,9 +22,9 @@
     {
      "keywords": [
       "asleep",
+      "night",
       "about",
       "power",
-      "night",
       "were"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
@@ -48,12 +48,12 @@
      "keywords": [
       "suddenly",
       "reading",
-      "william",
+      "raining",
       "blowing",
-      "raining"
+      "george"
      ],
-     "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. William was reading, and suddenly — dark!",
-     "suggestionFa": "آخی، بیچاره! بارون شدید می‌بارید و باد می‌وزید. ویلیام داشت کتاب می‌خوند، که یهو — تاریکی!",
+     "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. George was reading, and suddenly — dark!",
+     "suggestionFa": "آخی، بیچاره! بارون شدید می‌بارید و باد می‌وزید. جورج داشت کتاب می‌خوند، که یهو — تاریکی!",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -73,12 +73,12 @@
      "keywords": [
       "looking",
       "candles",
-      "william",
+      "george",
       "scared",
-      "torch"
+      "found"
      ],
-     "suggestion": "Not scared — I've had worse! I found the candles while William was looking for the torch.",
-     "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی ویلیام دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
+     "suggestion": "Not scared — I've had worse! I found the candles while George was looking for the torch.",
+     "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی جورج دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -99,8 +99,8 @@
       "candlelight",
       "batteries",
       "drinking",
-      "sitting",
-      "telling"
+      "telling",
+      "stories"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
      "suggestionFa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم.",
@@ -123,12 +123,12 @@
      "keywords": [
       "kettle's",
       "electric",
-      "william",
       "asleep",
+      "george",
       "lights"
      ],
-     "suggestion": "The kettle's electric, love! When the lights came back on, William was fast asleep in his chair.",
-     "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، ویلیام تو صندلیش خواب عمیق بود.",
+     "suggestion": "The kettle's electric, love! When the lights came back on, George was fast asleep in his chair.",
+     "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، جورج تو صندلیش خواب عمیق بود.",
      "trustDelta": 5,
      "next": "r6",
      "success": true
@@ -139,9 +139,9 @@
   "r6": {
    "id": "r6",
    "speaker": "mehdi",
-   "text": "Ha! Typical William.",
+   "text": "Ha! Typical George.",
    "translations": {
-    "fa": "ها! ویلیام همیشگی."
+    "fa": "ها! جورج همیشگی."
    },
    "branches": [
     {
@@ -149,8 +149,8 @@
       "batteries",
       "buying",
       "first",
-      "next",
-      "fine"
+      "time",
+      "next"
      ],
      "suggestion": "All fine now. But next time, I'm buying new batteries first!",
      "suggestionFa": "الان همه چی خوبه. ولی دفعهٔ بعد، اول باتری نو می‌خرم!",

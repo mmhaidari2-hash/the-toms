@@ -22,7 +22,7 @@
       "until",
       "home",
       "wait",
-      "got"
+      "she"
      ],
      "suggestion": "Yes, I had to wait until she got home.",
      "suggestionFa": "آره، مجبور شدم صبر کنم تا بیاد خونه.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "didn't",
       "signed",
+      "didn't",
       "have",
       "tom"
      ],
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "children",
-      "bring",
-      "great"
+      "great",
+      "bring"
      ],
      "suggestion": "Great. What do the children need to bring?",
      "suggestionFa": "عالی. بچه‌ها چی باید بیارن؟",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "wellies",
-      "i'll",
       "make",
+      "i'll",
       "sure"
      ],
      "suggestion": "I'll make sure she has her wellies.",
@@ -238,9 +238,9 @@
     {
      "keywords": [
       "check",
-      "take",
       "long",
-      "how"
+      "take",
+      "dbs"
      ],
      "suggestion": "How long does a DBS check take?",
      "suggestionFa": "بررسی DBS چقدر طول می‌کشه؟",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "apply",
-      "week",
       "i'll",
+      "week",
       "one"
      ],
      "suggestion": "I'll apply for one this week.",

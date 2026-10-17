@@ -24,8 +24,8 @@
       "please",
       "shoes",
       "hall",
-      "here",
-      "come"
+      "come",
+      "here"
      ],
      "suggestion": "Come in! This is the hall. Shoes off here, please.",
      "suggestionFa": "بیا تو! اینجا راهروئه. لطفاً کفش‌ها را اینجا دربیار.",
@@ -48,9 +48,9 @@
      "keywords": [
       "umbrellas",
       "floors",
+      "there",
       "house",
-      "three",
-      "there"
+      "three"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
      "suggestionFa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره.",
@@ -74,8 +74,8 @@
       "downstairs",
       "there's",
       "kitchen",
-      "garden",
-      "living"
+      "living",
+      "garden"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "downstairs",
-      "bedrooms",
-      "bathroom",
       "upstairs",
+      "bathroom",
+      "bedrooms",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -124,8 +124,8 @@
       "bedrooms",
       "there",
       "room",
-      "loft",
-      "four"
+      "four",
+      "loft"
      ],
      "suggestion": "There are four bedrooms. Your room is in the loft, at the top.",
      "suggestionFa": "چهار اتاق‌خواب هست. اتاق تو زیرشیروونیه، بالای بالا.",
@@ -150,7 +150,7 @@
       "lovely",
       "under",
       "let's",
-      "room"
+      "roof"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
      "suggestionFa": "اتاق زیر سقف شیروونیه. یه پنجرهٔ قشنگ داره. بریم بالا!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "wardrobe",
       "anything",
+      "wardrobe",
       "there's",
       "there",
-      "desk"
+      "need"
      ],
      "suggestion": "There's a bed, a desk and a wardrobe. Is there anything you need?",
      "suggestionFa": "یه تخت، یه میز تحریر و یه کمد لباس هست. چیزی لازم داری؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "yourself",
       "course",
+      "love",
       "home",
-      "make",
-      "love"
+      "make"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",

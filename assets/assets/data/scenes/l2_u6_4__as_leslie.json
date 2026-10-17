@@ -22,10 +22,10 @@
     {
      "keywords": [
       "terrible",
-      "sound",
-      "honey",
       "lemon",
-      "tried"
+      "tried",
+      "honey",
+      "sound"
      ],
      "suggestion": "You sound terrible! Sit down. Have you ever tried honey and lemon?",
      "suggestionFa": "صدات افتضاحه! بشین. تا حالا عسل و لیمو امتحان کردی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "careful",
       "thing",
+      "cold",
       "best",
-      "here",
-      "nice"
+      "here"
      ],
      "suggestion": "It's the best thing for a cold. Here — a nice hot cup. Careful, it's hot!",
      "suggestionFa": "بهترین چیز برای سرماخوردگیه. بیا — یه لیوان داغ. مواظب باش، داغه!",
@@ -74,8 +74,8 @@
       "tablets",
       "bottle",
       "water",
-      "swore",
-      "honey"
+      "lemon",
+      "never"
      ],
      "suggestion": "My nan swore by it. She never took tablets — just honey, lemon and a hot water bottle!",
      "suggestionFa": "مادربزرگم قسم می‌خورد کار می‌کنه. هیچ‌وقت قرص نمی‌خورد — فقط عسل، لیمو و کیسهٔ آب گرم!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "bedroom",
       "british",
-      "rubber",
+      "bedroom",
       "houses",
+      "rubber",
       "water"
      ],
      "suggestion": "A rubber bag you fill with hot water. I've got one in every bedroom! British houses are cold, you know.",
@@ -123,8 +123,8 @@
      "keywords": [
       "watched",
       "perfect",
-      "course",
       "should",
+      "course",
       "early"
      ],
      "suggestion": "Of course. And you should have an early night. Have you ever watched Bake Off? It's perfect for a cold!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "british",
       "blanket",
+      "british",
       "better",
-      "baking",
-      "you'll"
+      "you'll",
+      "baking"
      ],
      "suggestion": "A baking show. Very British, very cosy. Blanket, tea, Bake Off — you'll feel better in no time.",
      "suggestionFa": "یه برنامهٔ آشپزی. خیلی بریتانیایی، خیلی دنج. پتو، چای، Bake Off — زود حالت خوب میشه.",

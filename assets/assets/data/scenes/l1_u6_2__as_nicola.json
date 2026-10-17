@@ -25,7 +25,7 @@
       "dress",
       "let's",
       "play",
-      "i've"
+      "have"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
      "suggestionFa": "بیا لباس‌بازی کنیم! من یه پیرهن صورتی دارم. تو چی داری؟",
@@ -50,7 +50,7 @@
       "hasn't",
       "let's",
       "give",
-      "got"
+      "has"
      ],
      "suggestion": "Has Mr Buttons got a hat? No, he hasn't! Let's give him a hat.",
      "suggestionFa": "آقای دکمه کلاه داره؟ نه، نداره! بیا بهش یه کلاه بدیم.",
@@ -73,9 +73,9 @@
      "keywords": [
       "wellies",
       "purple",
-      "spots",
       "shoes",
-      "mine"
+      "spots",
+      "have"
      ],
      "suggestion": "Now shoes! Have you got wellies? Mine are purple with spots!",
      "suggestionFa": "حالا کفش! چکمهٔ لاستیکی داری؟ مال من بنفشه با خال‌خال!",
@@ -123,8 +123,8 @@
      "keywords": [
       "trousers",
       "orange",
-      "like",
       "bear",
+      "ones",
       "look"
      ],
      "suggestion": "Yes! You look like a bear! Now trousers. The orange ones!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "smile",
       "mummy",
       "photo",
-      "smile",
-      "take",
-      "look"
+      "look",
+      "take"
      ],
      "suggestion": "Ha ha! Mummy, look! Take a photo! Smile!",
      "suggestionFa": "ها ها! مامان، ببین! عکس بگیر! لبخند بزن!",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "dressing",
-      "that's",
       "friend",
+      "that's",
       "photo",
       "best"
      ],

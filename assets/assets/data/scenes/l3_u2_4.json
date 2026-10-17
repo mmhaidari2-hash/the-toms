@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "feeling",
       "problem",
+      "feeling",
       "like",
       "have"
      ],
@@ -66,17 +66,17 @@
   "n2": {
    "id": "n2",
    "speaker": "weda",
-   "text": "Since Tuesday. William's been an angel, but he can't cook. Would you mind making some soup?",
+   "text": "Since Tuesday. George has been an angel, but he can't cook. Would you mind making some soup?",
    "translations": {
     "fa": "از سه‌شنبه. ویلیام فرشته بوده، ولی آشپزی بلد نیست. اشکالی نداره یه سوپ درست کنی؟"
    },
    "branches": [
     {
      "keywords": [
-      "happy",
       "would",
-      "kind",
-      "like"
+      "happy",
+      "like",
+      "kind"
      ],
      "suggestion": "I'd be happy to. What kind would you like?",
      "suggestionFa": "با کمال میل. چه نوعی دوست دارید؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "chicken",
-      "shall",
       "mum's",
-      "soup"
+      "shall",
+      "make"
      ],
      "suggestion": "Shall I make my mum's chicken soup?",
      "suggestionFa": "سوپ مرغ مامانم را درست کنم؟",
@@ -136,8 +136,8 @@
     },
     {
      "keywords": [
-      "visit",
       "would",
+      "visit",
       "like",
       "home"
      ],
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "looked",
       "you've",
+      "looked",
       "after",
-      "worry"
+      "don't"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "help",
       "want",
+      "help",
       "here"
      ],
      "suggestion": "Here you are. Do you want help with it?",

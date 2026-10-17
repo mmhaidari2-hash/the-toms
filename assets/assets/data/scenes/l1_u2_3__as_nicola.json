@@ -23,8 +23,8 @@
      "keywords": [
       "welcome",
       "buttons",
-      "party",
       "there",
+      "party",
       "next"
      ],
      "suggestion": "Welcome to my tea party! Sit there, next to Mr Buttons.",
@@ -48,9 +48,9 @@
      "keywords": [
       "chocolate",
       "we've",
-      "cake",
       "want",
-      "pink"
+      "pink",
+      "cake"
      ],
      "suggestion": "Do you want a cake? We've got pink cake and chocolate cake.",
      "suggestionFa": "کیک می‌خوای؟ کیک صورتی و کیک شکلاتی داریم.",
@@ -100,7 +100,7 @@
       "buttons",
       "wants",
       "make",
-      "one"
+      "can"
      ],
      "suggestion": "Mr Buttons wants a sandwich. Can you make one?",
      "suggestionFa": "آقای دکمه ساندویچ می‌خواد. می‌تونی یکی درست کنی؟",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -198,8 +198,8 @@
       "william",
       "apple",
       "silly",
-      "real",
-      "baby"
+      "baby",
+      "real"
      ],
      "suggestion": "William, it's not real! Silly baby. Do you want an apple? A real one?",
      "suggestionFa": "ویلیام، واقعی نیست! نی‌نی خنگول. سیب می‌خوای؟ یه واقعی؟",
@@ -274,8 +274,8 @@
       "tomorrow",
       "buttons",
       "again",
-      "says",
-      "come"
+      "come",
+      "says"
      ],
      "suggestion": "Come again tomorrow! Mr Buttons says bye-bye!",
      "suggestionFa": "فردا دوباره بیا! آقای دکمه می‌گه بای‌بای!",

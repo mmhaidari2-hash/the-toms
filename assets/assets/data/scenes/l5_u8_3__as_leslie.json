@@ -1,8 +1,8 @@
 {
  "id": "l5_u8_3__as_leslie",
- "characterId": "william",
- "title": "(As Leslie) William's war story",
- "titleFa": "(در نقش Leslie) قصهٔ ویلیام",
+ "characterId": "leslie",
+ "title": "(As Leslie) Grandad George's story",
+ "titleFa": "(در نقش Leslie) قصهٔ پدربزرگ جورج",
  "setting": "Telling a good story · Level 5",
  "settingFa": "خوب قصه گفتن",
  "requires": null,
@@ -23,12 +23,12 @@
      "keywords": [
       "charlton",
       "anyone",
-      "about",
+      "george",
       "bobby",
-      "never"
+      "about"
      ],
-     "suggestion": "Dad, tell them about the day you met Bobby Charlton. You never tell anyone.",
-     "suggestionFa": "بابا، بهشون بگو روزی که بابی چارلتون را دیدی. هیچ‌وقت به کسی نمی‌گی.",
+     "suggestion": "George, tell them about the day you met Bobby Charlton. You never tell anyone.",
+     "suggestionFa": "جورج، بهشون بگو روزی که بابی چارلتون را دیدی. هیچ‌وقت به کسی نمی‌گی.",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -39,15 +39,15 @@
   "r2": {
    "id": "r2",
    "speaker": "mehdi",
-   "text": "You met Bobby Charlton, William? The Manchester United legend?",
+   "text": "You met Bobby Charlton, George? The Manchester United legend?",
    "translations": {
-    "fa": "شما بابی چارلتون را دیدید ویلیام؟ اسطورهٔ منچستر یونایتد؟"
+    "fa": "شما بابی چارلتون را دیدید جورج؟ اسطورهٔ منچستر یونایتد؟"
    },
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -60,7 +60,7 @@
   },
   "r3": {
    "id": "r3",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Nineteen sixty-eight. Train station.",
    "translations": {
     "fa": "هزار و نهصد و شصت و هشت. ایستگاه قطار."
@@ -101,8 +101,8 @@
       "carried",
       "porter"
      ],
-     "suggestion": "It was! Dad was a porter at Piccadilly then. The team came back with the cup, and Dad carried Bobby's suitcase.",
-     "suggestionFa": "آره! بابا اون موقع باربر پیکادلی بود. تیم با جام برگشت، و بابا چمدون بابی را حمل کرد.",
+     "suggestion": "It was! George was a porter at Piccadilly then. The team came back with the cup, and George carried Bobby's suitcase.",
+     "suggestionFa": "آره! جورج اون موقع باربر پیکادلی بود. تیم با جام برگشت، و جورج چمدون بابی را حمل کرد.",
      "trustDelta": 5,
      "next": "r5",
      "success": true
@@ -133,7 +133,7 @@
   },
   "r6": {
    "id": "r6",
-   "speaker": "william",
+   "speaker": "george",
    "text": "He said, \"Thanks, lad.\" And smiled.",
    "translations": {
     "fa": "گفت «ممنون پسر.» و لبخند زد."
@@ -172,13 +172,13 @@
     {
      "keywords": [
       "wouldn't",
-      "luggage",
       "bedroom",
+      "luggage",
       "anyone",
-      "frame"
+      "george"
      ],
-     "suggestion": "He kept the luggage tag. It's in a frame in his bedroom. He's never shown anyone — but I think he'd show you. Wouldn't you, Dad?",
-     "suggestionFa": "برچسب چمدون را نگه داشت. تو یه قاب تو اتاق خوابشه. هیچ‌وقت به کسی نشونش نداده — ولی فکر کنم به تو نشون بده. مگه نه بابا؟",
+     "suggestion": "He kept the luggage tag. It's in a frame in his bedroom. He's never shown anyone — but I think he'd show you. Wouldn't you, George?",
+     "suggestionFa": "برچسب چمدون را نگه داشت. تو یه قاب تو اتاق خوابشه. هیچ‌وقت به کسی نشونش نداده — ولی فکر کنم به تو نشون بده. مگه نه جورج؟",
      "trustDelta": 5,
      "next": "r8",
      "success": true
@@ -189,15 +189,15 @@
   "r8": {
    "id": "r8",
    "speaker": "mehdi",
-   "text": "I'd be honoured, William.",
+   "text": "I'd be honoured, George.",
    "translations": {
-    "fa": "مفتخر می‌شم ویلیام."
+    "fa": "مفتخر می‌شم جورج."
    },
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -210,7 +210,7 @@
   },
   "r9": {
    "id": "r9",
-   "speaker": "william",
+   "speaker": "george",
    "text": "Come on, then. Best day ever.",
    "translations": {
     "fa": "بیا پس. بهترین روز عمرم."
