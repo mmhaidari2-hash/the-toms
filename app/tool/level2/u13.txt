@@ -1,0 +1,147 @@
+## U101 | Registering with a GP | ثبت‌نام نزد پزشک عمومی | gp | Register with a GP surgery: forms, proof of address, a health check and a pharmacy | در مطب پزشک عمومی ثبت‌نام کنی: فرم، مدرک آدرس، معاینهٔ سلامت و داروخانه
+
+# l2_u13_1 | leslie | Filling in the registration form | پر کردن فرم ثبت‌نام | Form language: first name, surname, date of birth / Do I need to…? | زبان فرم‌ها | gp
+leslie: Right, this is our surgery. Everyone in Hackney should register with a GP. It's free. Shall we go in? | خب، این مطب ماست. هر کسی تو هاکنی باید پیش یه پزشک عمومی ثبت‌نام کنه. مجانیه. بریم تو؟
+> Yes, let's go. What do I need to do? | آره، بریم. باید چی کار کنم؟
+> Do I need an appointment first? | اول وقت قبلی لازمه؟
+W: surgery=مطب ; register=ثبت‌نام کردن ; free=رایگان ; appointment=وقت قبلی
+C: In the UK you register with one local GP surgery. Seeing a GP on the NHS is free. | ثبت‌نام نزد پزشک عمومی محلی رایگان است.
+receptionist: Hello, Mare Street Surgery. Are you registering? You can do it online, or I can give you a paper form. | سلام، مطب مِر استریت. برای ثبت‌نام اومدید؟ می‌تونید آنلاین انجامش بدید، یا یه فرم کاغذی بهتون بدم.
+> A paper form, please. | فرم کاغذی، لطفاً.
+> I'd like to register, yes. Online is fine. | بله، می‌خوام ثبت‌نام کنم. آنلاین خوبه.
+W: online=آنلاین ; paper form=فرم کاغذی ; registering=در حال ثبت‌نام
+leslie: Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth. | بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.
+> Day first, then month? | اول روز، بعد ماه؟
+> Is "surname" my family name? | «سرنیم» همون نام خانوادگیه؟
+W: first name=نام کوچک ; surname=نام خانوادگی ; date of birth=تاریخ تولد ; month=ماه
+X: first month then day ; month first => Day first here — like 14/05. | In the UK, we write the day first. | در بریتانیا اول روز را می‌نویسیم.
+leslie: Yes — day, then month, then year. Americans do it the other way. It drives me mad! Next, your address. | آره — روز، بعد ماه، بعد سال. آمریکایی‌ها برعکس می‌نویسن. دیوونه‌م می‌کنه! بعدی، آدرست.
+> 10 Mare Street, Hackney. What's the postcode? | پلاک ۱۰ مِر استریت، هاکنی. کد پستی چیه؟
+> Do I write the postcode here? | کد پستی را اینجا بنویسم؟
+W: address=آدرس ; postcode=کد پستی ; the other way=برعکس
+C: A UK postcode looks like "E8 4RL". It's very important on forms and for deliveries. | کد پستی بریتانیا مثل E8 4RL است.
+leslie: Yes, in the boxes. Now — "previous GP". Have you seen a doctor in the UK before? | آره، تو این خونه‌ها. حالا — «پزشک قبلی». قبلاً تو بریتانیا دکتر رفتی؟
+> No, never. This is my first time. | نه، هیچ‌وقت. این اولین بارمه.
+> Only once, at a walk-in centre. | فقط یه بار، تو یه مرکز بدون وقت قبلی.
+W: previous=قبلی ; never=هرگز ; walk-in centre=درمانگاه بدون وقت قبلی
+leslie: Then write "none". And here — "NHS number". If you don't know it, leave it blank. | پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.
+> What's an NHS number? | شمارهٔ NHS چیه؟
+> OK, I'll leave it blank. | باشه، خالی می‌ذارم.
+W: none=هیچ ؛ ندارد ; leave it blank=خالی گذاشتن ; NHS number=شمارهٔ ملی سلامت
+leslie: It's your health number. You'll get one after you register. Now, the questions about smoking and drinking… | شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…
+> I don't smoke, and I don't drink. | سیگار نمی‌کشم، الکل هم نمی‌خورم.
+> I smoked before, but I stopped last year. | قبلاً سیگار می‌کشیدم، ولی پارسال ترک کردم.
+W: smoking=سیگار کشیدن ; drinking=نوشیدن الکل ; stopped=ترک کردم
+leslie: Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist. | خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی.
+> Here you are. Is that everything? | بفرمایید. همه چیه؟
+> Thank you. When can I see a doctor? | ممنون. کی می‌تونم دکتر ببینم؟
+W: tick=تیک زدن ; sign=امضا کردن ; bottom=پایین ; receptionist=منشی
+receptionist: Thank you. Nearly everything! I just need proof of your address. A letter or a bill is fine. | ممنون. تقریباً همه چی! فقط یه مدرک آدرس لازم دارم. یه نامه یا قبض کافیه.
+
+# l2_u13_2 | leslie | Proof of address | مدرک آدرس | Have you got…? / I haven't got… yet / Will… do? | داری…؟ / هنوز ندارم / … کافی است؟ | gp
+leslie: Proof of address. Hmm. Have you got a bank letter, or a gas bill? | مدرک آدرس. هوم. نامهٔ بانک داری، یا قبض گاز؟
+> I haven't got a bill yet. The bills are in my landlord's name. | هنوز قبض ندارم. قبض‌ها به اسم صاحبخونه‌ست.
+> I've got a bank letter, but it's at home. | نامهٔ بانک دارم، ولی خونه‌ست.
+W: proof of address=مدرک آدرس ; bill=قبض ; landlord=صاحبخانه ; yet=هنوز
+receptionist: That's OK. Have you got a tenancy agreement? Or a letter from the council? | اشکالی نداره. قرارداد اجاره دارید؟ یا نامه‌ای از شهرداری؟
+> I've got my tenancy agreement on my phone. Will that do? | قرارداد اجاره‌ام تو گوشیمه. اون کافیه؟
+> What's a tenancy agreement? | قرارداد اجاره چیه؟
+W: tenancy agreement=قرارداد اجاره ; council=شورای محلی ؛ شهرداری ; will that do=کافی است؟
+X: is enough that ; that is do => Will that do? Let's see. | Will that do? | این کافیه؟
+leslie: It's the contract for your room. You signed it when you moved in next door. | قرارداد اتاقته. وقتی اومدی خونهٔ بغلی امضاش کردی.
+> Oh yes! I've got a photo of it. | آهان آره! یه عکس ازش دارم.
+> My landlord has it. I can ask him. | صاحبخونه‌ام داره. می‌تونم ازش بپرسم.
+W: contract=قرارداد ; signed=امضا کرد ; moved in=نقل مکان کرد
+receptionist: A photo on your phone is fine. Could you email it to us? Here's our address. | عکس تو گوشی کافیه. می‌شه برامون ایمیلش کنید؟ این آدرس ماست.
+> Of course. I'll send it now. | حتماً. الان می‌فرستم.
+> Can I show you on my phone instead? | می‌تونم به جاش رو گوشیم نشونتون بدم؟
+W: email=ایمیل کردن ; instead=به جای آن ; send=فرستادن
+C: Surgeries can't refuse to register you just because you have no proof of address. But it helps. | مطب نمی‌تواند فقط به خاطر نداشتن مدرک آدرس ثبت‌نام را رد کند.
+receptionist: Lovely, I've got it. And some photo ID? A passport or a driving licence? | عالیه، رسید. و یه کارت شناسایی عکس‌دار؟ پاسپورت یا گواهینامه؟
+> Here's my passport. | این پاسپورتمه.
+> I've got my residence permit. Is that OK? | کارت اقامتم را دارم. اشکالی نداره؟
+W: photo ID=کارت شناسایی عکس‌دار ; passport=گذرنامه ; driving licence=گواهینامه ; residence permit=اجازهٔ اقامت
+receptionist: That's perfect, thank you. Your registration takes about two weeks. We'll send you a text. | عالیه، ممنون. ثبت‌نامتون حدود دو هفته طول می‌کشه. پیامک براتون می‌فرستیم.
+> Two weeks? What if I get ill before then? | دو هفته؟ اگه قبلش مریض بشم چی؟
+> OK. Thanks for your help. | باشه. ممنون از کمکتون.
+W: registration=ثبت‌نام ; takes=طول می‌کشد ; text=پیامک ; ill=بیمار
+receptionist: You can still call us, or call 111. And we'll invite you for a new patient check. | باز هم می‌تونید به ما زنگ بزنید، یا ۱۱۱. و برای معاینهٔ بیمار جدید دعوتتون می‌کنیم.
+> What's a new patient check? | معاینهٔ بیمار جدید چیه؟
+> Great. Do I need to bring anything? | عالیه. لازمه چیزی بیارم؟
+W: still=هنوز ؛ باز هم ; invite=دعوت کردن ; new patient=بیمار جدید
+leslie: It's a quick chat with a nurse or doctor. Blood pressure, height, weight. Easy! | یه گپ کوتاه با پرستار یا دکتره. فشار خون، قد، وزن. آسونه!
+> Weight? Oh no. After all your cakes! | وزن؟ ای وای. بعد از این‌همه کیک تو!
+> OK. That sounds easy. | باشه. آسون به نظر میاد.
+W: blood pressure=فشار خون ; height=قد ; weight=وزن ; sounds=به نظر می‌رسد
+leslie: Ha! My cakes are very healthy. Well, the carrot one is. Come on, let's get a coffee. Job done! | ها! کیک‌های من خیلی سالمن. خب، کیک هویجیه هست. بیا، بریم یه قهوه بخوریم. کار تموم شد!
+
+# l2_u13_3 | okafor | The new patient check | معاینهٔ بیمار جدید | Questions about health: How often…? / Do you have any…? / I've never… | سؤال‌های سلامت | gp
+okafor: Hello, come in. I'm Dr Okafor. This is your new patient check — just a few questions. How are you today? | سلام، بفرمایید. من دکتر اوکافور هستم. این معاینهٔ بیمار جدیدتونه — فقط چند تا سؤال. امروز چطورید؟
+> I'm fine, thank you. A bit nervous. | خوبم، ممنون. یه‌کم استرس دارم.
+> Very well, thanks. Nice to meet you. | خیلی خوب، ممنون. از آشنایی‌تون خوشحالم.
+W: new patient check=معاینهٔ بیمار جدید ; questions=سؤال‌ها ; nervous=مضطرب
+okafor: No need to be nervous. Do you have any health problems? Asthma, diabetes, anything like that? | لازم نیست نگران باشید. مشکل سلامتی دارید؟ آسم، دیابت، چیزی مثل این؟
+> No, I don't have any health problems. | نه، هیچ مشکل سلامتی ندارم.
+> I have hay fever in spring. That's all. | بهار حساسیت فصلی دارم. همین.
+W: health problems=مشکلات سلامتی ; asthma=آسم ; diabetes=دیابت ; hay fever=تب یونجه ؛ حساسیت فصلی
+X: i don't have no ; i have not any => No health problems? Good. | I don't have any health problems. | هیچ مشکل سلامتی ندارم.
+okafor: Good. Are you taking any medicine at the moment? | خوبه. الان دارویی مصرف می‌کنید؟
+> No, nothing. | نه، هیچی.
+> Just vitamin D in the winter. | فقط ویتامین D تو زمستون.
+W: taking medicine=دارو مصرف کردن ; at the moment=در حال حاضر ; vitamin D=ویتامین D
+C: The NHS suggests everyone takes vitamin D in autumn and winter, because there's not much sun. | NHS توصیه می‌کند در پاییز و زمستان ویتامین D مصرف شود.
+okafor: Very sensible. Any allergies? To medicines, or to food? | خیلی عاقلانه. حساسیتی دارید؟ به دارو، یا غذا؟
+> I'm allergic to penicillin. | به پنی‌سیلین حساسیت دارم.
+> No allergies, as far as I know. | تا جایی که می‌دونم، حساسیتی ندارم.
+W: allergies=حساسیت‌ها ; allergic to=حساسیت داشتن به ; as far as I know=تا جایی که می‌دانم
+okafor: Thank you, I'll write that down. How often do you exercise? Walking counts! | ممنون، یادداشتش می‌کنم. چند وقت یه بار ورزش می‌کنید؟ پیاده‌روی هم حساب میشه!
+> I walk to work every day. | هر روز پیاده می‌رم سر کار.
+> Not very often. I've never been to a gym here. | نه خیلی. اینجا هیچ‌وقت باشگاه نرفتم.
+W: how often=چند وقت یک بار ; exercise=ورزش کردن ; counts=حساب می‌شود ; never=هرگز
+okafor: Walking is great. Now let's check your blood pressure. Roll up your sleeve. A little squeeze… | پیاده‌روی عالیه. حالا فشارتون را بگیریم. آستینتون را بالا بزنید. یه‌کم فشار میاد…
+> It's a bit tight! | یه‌کم سفته!
+> OK. Is it normal? | باشه. نرماله؟
+W: roll up=بالا زدن ; sleeve=آستین ; squeeze=فشار ; tight=سفت
+okafor: One twenty over seventy-eight. That's perfect. Now step on the scales for me, please. | صد و بیست روی هفتاد و هشت. عالیه. حالا لطفاً برید روی ترازو.
+> Do I take my shoes off? | کفشم را دربیارم؟
+> Please don't tell me the number! | لطفاً عدد را بهم نگید!
+W: scales=ترازو ; step on=رفتن روی ; shoes off=کفش درآوردن
+okafor: Shoes off, yes. All fine — you're a healthy weight. Last question: do you have anyone to talk to here? | کفش‌ها را دربیارید، بله. همه چی خوبه — وزنتون سالمه. آخرین سؤال: اینجا کسی را دارید باهاش حرف بزنید؟
+> Yes, my neighbours. They're like family. | آره، همسایه‌هام. مثل خانواده‌ان.
+> Not really. I sometimes feel lonely. | نه زیاد. گاهی احساس تنهایی می‌کنم.
+W: anyone=کسی ; neighbours=همسایه‌ها ; lonely=تنها ؛ دلتنگ
+C: GPs ask about loneliness because it affects health. You can always talk to your GP about feelings. | پزشکان دربارهٔ تنهایی هم می‌پرسند؛ چون روی سلامت اثر دارد.
+okafor: That's good to hear. And if you ever feel low, come and see us. That's what we're here for. Welcome to the practice! | خوشحالم که می‌شنوم. و اگه یه وقت حالتون گرفته بود، بیاید پیش ما. ما برای همین اینجاییم. به مطب خوش اومدید!
+
+# l2_u13_4 | leslie | Choosing a pharmacy | انتخاب داروخانه | Which… is nearest? / It's open until… / I'd prefer… | کدام نزدیک‌تر است؟ / تا … باز است | gp
+leslie: One more thing — the form asks for your "nominated pharmacy". That's where your prescriptions go. | یه چیز دیگه — فرم «داروخانهٔ انتخابی» را می‌پرسه. نسخه‌هات اونجا میره.
+> What does "nominated" mean? | «نامینیتد» یعنی چی؟
+> Which pharmacy is nearest? | کدوم داروخانه نزدیک‌تره؟
+W: nominated=انتخاب‌شده ؛ معرفی‌شده ; pharmacy=داروخانه ; prescriptions=نسخه‌ها
+leslie: It means the one you choose. The doctor sends your prescription there by computer. No paper! | یعنی همونی که انتخاب می‌کنی. دکتر نسخه‌ات را با کامپیوتر می‌فرسته اونجا. بی‌کاغذ!
+> That's clever. So I just go and collect it? | چه هوشمندانه. پس فقط می‌رم و تحویل می‌گیرم؟
+> No paper? In Iran we always carry paper! | بی‌کاغذ؟ تو ایران همیشه کاغذ همراهمونه!
+W: choose=انتخاب کردن ; by computer=با کامپیوتر ; collect=تحویل گرفتن
+leslie: Exactly. Now, there's Dawson's on the high street, or the big one in the supermarket. | دقیقاً. خب، داروخانهٔ داوسون تو خیابون اصلی هست، یا اون بزرگه تو سوپرمارکت.
+> Which one is nearer to my house? | کدومش به خونه‌ام نزدیک‌تره؟
+> Which one is open later? | کدومش دیرتر باز می‌مونه؟
+W: high street=خیابان اصلی ; nearer=نزدیک‌تر ; later=دیرتر
+X: which one more near ; which is most near => Nearer? Dawson's, two minutes. | Which one is nearer? | کدام نزدیک‌تر است؟
+leslie: Dawson's is nearer — two minutes' walk. But it closes at six. The supermarket one is open until ten. | داوسون نزدیک‌تره — دو دقیقه پیاده. ولی ساعت شش می‌بنده. اونی که تو سوپرمارکته تا ده بازه.
+> I finish work at six. That's a problem. | من ساعت شش کارم تموم میشه. این مشکله.
+> I'd prefer Dawson's. I can go on Saturday. | دوست دارم داوسون باشه. می‌تونم شنبه برم.
+W: closes=بسته می‌شود ; open until=باز تا ; I'd prefer=ترجیح می‌دهم
+leslie: Nana Maggie uses Dawson's. Mr Dawson's lovely. He gives good advice — free! | نانا مگی از داوسون استفاده می‌کنه. آقای داوسون خیلی نازنینه. توصیه‌های خوبی میده — مجانی!
+> Free advice? From a pharmacist? | توصیهٔ مجانی؟ از داروساز؟
+> Then Dawson's. Good advice is important. | پس داوسون. توصیهٔ خوب مهمه.
+W: advice=توصیه ; pharmacist=داروساز ; important=مهم
+C: In the UK you can ask a pharmacist about small health problems for free, without an appointment. | می‌توانید بدون وقت قبلی و رایگان از داروساز مشورت بگیرید.
+leslie: Yes! For coughs, colds, rashes. And they're much quicker than the GP. Do prescriptions cost money in Iran? | آره! برای سرفه، سرماخوردگی، جوش. و خیلی سریع‌تر از پزشک عمومی‌ان. تو ایران نسخه پول داره؟
+> Yes, but with insurance it's cheaper. | آره، ولی با بیمه ارزون‌تره.
+> It depends on the medicine. | بستگی به دارو داره.
+W: cost=هزینه داشتن ; insurance=بیمه ; cheaper=ارزان‌تر ; depends on=بستگی دارد به
+leslie: Here in England it's a fixed price for each item — about ten pounds. Children and over-sixties are free. | اینجا تو انگلیس برای هر قلم یه قیمت ثابته — حدود ده پوند. بچه‌ها و بالای شصت سال مجانیه.
+> So Nana Maggie doesn't pay? | پس نانا مگی پول نمیده؟
+> Ten pounds for each item? That's expensive! | ده پوند برای هر قلم؟ گرونه!
+W: fixed price=قیمت ثابت ; each item=هر قلم ; over-sixties=بالای شصت سال ; expensive=گران
+leslie: No, Maggie's free. And George! He says it's the only good thing about being old. Right — write "Dawson's". Done! | نه، مگی مجانیه. جورج هم! میگه این تنها چیز خوبِ پیری‌ه. خب — بنویس «داوسون». تموم!
