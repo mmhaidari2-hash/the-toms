@@ -1,0 +1,356 @@
+{
+ "id": "l2_u36_2",
+ "characterId": "weda",
+ "title": "Reporting a missed bin",
+ "titleFa": "گزارش جا ماندن سطل زباله",
+ "setting": "The council · Level 2",
+ "settingFa": "شورای شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Dear, it's a disaster. The bin men didn't empty our recycling bin. It's Thursday and it's overflowing! And the foxes…",
+   "translations": {
+    "fa": "عزیزم، فاجعه‌ست. رفتگرها سطل بازیافت ما را خالی نکردن. پنج‌شنبه‌ست و داره سرریز میشه! روباه‌ها هم…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "when",
+      "day",
+      "bin",
+      "oh"
+     ],
+     "suggestion": "Oh no. When is your bin day?",
+     "suggestionFa": "وای نه. روز زباله‌تون کیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "council",
+      "report",
+      "let's"
+     ],
+     "suggestion": "Let's report it to the council.",
+     "suggestionFa": "بیا به شورا گزارشش بدیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "disaster",
+     "fa": "فاجعه"
+    },
+    {
+     "word": "bin men",
+     "fa": "رفتگرها"
+    },
+    {
+     "word": "recycling bin",
+     "fa": "سطل بازیافت"
+    },
+    {
+     "word": "overflowing",
+     "fa": "سرریز"
+    },
+    {
+     "word": "foxes",
+     "fa": "روباه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Tuesday. Green bin this week. They took everyone else's, but not mine. Can you help me report it? I hate the phone menus.",
+   "translations": {
+    "fa": "سه‌شنبه. این هفته سطل سبز. مال همه را بردن، ولی مال منو نه. میشه کمکم کنی گزارشش بدم؟ از منوهای تلفنی متنفرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quicker",
+      "online",
+      "can",
+      "we"
+     ],
+     "suggestion": "We can do it online. It's quicker.",
+     "suggestionFa": "می‌تونیم آنلاین انجامش بدیم. سریع‌تره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "monday",
+      "night",
+      "out",
+      "put"
+     ],
+     "suggestion": "Did you put it out on Monday night?",
+     "suggestionFa": "دوشنبه شب گذاشتیش بیرون؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "green bin",
+     "fa": "سطل سبز"
+    },
+    {
+     "word": "took",
+     "fa": "بردند"
+    },
+    {
+     "word": "report",
+     "fa": "گزارش دادن"
+    },
+    {
+     "word": "phone menus",
+     "fa": "منوهای تلفنی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many councils collect rubbish and recycling on different weeks. If your bin is missed, you can report it online, usually within two working days.",
+    "fa": "اگر سطل زباله جا بماند، معمولاً ظرف دو روز کاری می‌توان آنلاین گزارش داد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Of course I did! On the pavement, lid closed, like always. George did it before he got ill. Now it's my job.",
+   "translations": {
+    "fa": "معلومه که گذاشتم! رو پیاده‌رو، در بسته، مثل همیشه. قبل از اینکه جورج مریض بشه، اون این کار را می‌کرد. حالا کار منه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "website",
+      "missed",
+      "asks",
+      "was"
+     ],
+     "suggestion": "OK. The website asks: \"What was missed?\"",
+     "suggestionFa": "باشه. سایت می‌پرسه: «چه چیزی جا ماند؟»",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mondays",
+      "put",
+      "can",
+      "out"
+     ],
+     "suggestion": "I can put it out for you on Mondays.",
+     "suggestionFa": "دوشنبه‌ها می‌تونم برات بذارمش بیرون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pavement",
+     "fa": "پیاده‌رو"
+    },
+    {
+     "word": "lid",
+     "fa": "در (سطل)"
+    },
+    {
+     "word": "like always",
+     "fa": "مثل همیشه"
+    },
+    {
+     "word": "ill",
+     "fa": "مریض"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Oh, would you? You're a treasure. Now — tell them it's been two days, and there's a fox eating my yoghurt pots.",
+   "translations": {
+    "fa": "وای، این کار را می‌کنی؟ تو یه گنجی. حالا — بهشون بگو دو روزه، و یه روباه داره ظرف ماست‌هام را می‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "tuesday",
+      "missed",
+      "write"
+     ],
+     "suggestion": "I'll write: \"Missed recycling, Tuesday.\"",
+     "suggestionFa": "می‌نویسم: «بازیافت جا مانده، سه‌شنبه.»",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "should",
+      "about",
+      "say"
+     ],
+     "suggestion": "Should I say something about the fox?",
+     "suggestionFa": "دربارهٔ روباه چیزی بگم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "treasure",
+     "fa": "گنج ؛ عزیز"
+    },
+    {
+     "word": "yoghurt pots",
+     "fa": "ظرف‌های ماست"
+    },
+    {
+     "word": "missed",
+     "fa": "جا ماند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is two days",
+      "it has been two day"
+     ],
+     "echo": "It's been two days? Let's say that.",
+     "better": "It's been two days.",
+     "betterFa": "دو روز گذشته است."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Say the fox! They need to know. Is there a box for comments? Write: \"Elderly resident. Please come soon.\"",
+   "translations": {
+    "fa": "روباه را بگو! باید بدونن. جایی برای توضیحات هست؟ بنویس: «ساکن سالمند. لطفاً زود بیایید.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they'll",
+      "collect",
+      "within",
+      "done"
+     ],
+     "suggestion": "Done. They'll collect it within two days.",
+     "suggestionFa": "تموم. ظرف دو روز می‌برنش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "elderly",
+      "maggie",
+      "nana"
+     ],
+     "suggestion": "Elderly? You're not elderly, Nana Maggie!",
+     "suggestionFa": "سالمند؟ تو سالمند نیستی، ننه مگی!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comments",
+     "fa": "توضیحات ؛ نظرات"
+    },
+    {
+     "word": "elderly",
+     "fa": "سالمند"
+    },
+    {
+     "word": "resident",
+     "fa": "ساکن"
+    },
+    {
+     "word": "soon",
+     "fa": "به‌زودی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Seventy-one, dear. I'm allowed to use it when it helps! Two days. And what's that bit about \"assisted collection\"?",
+   "translations": {
+    "fa": "هفتاد و یک سال، عزیزم. وقتی کمک کنه اجازه دارم ازش استفاده کنم! دو روز. و اون قسمت «جمع‌آوری کمکی» چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "need",
+      "take",
+      "from",
+      "door"
+     ],
+     "suggestion": "They take the bin from your door, if you need help.",
+     "suggestionFa": "اگه کمک لازم داشته باشی، سطل را از دم در می‌برن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "can't",
+      "read",
+      "move"
+     ],
+     "suggestion": "Let me read it… it's for people who can't move the bin.",
+     "suggestionFa": "بذار بخونم… برای کسانیه که نمی‌تونن سطل را جابه‌جا کنن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allowed",
+     "fa": "مجاز ؛ اجازه داشتن"
+    },
+    {
+     "word": "assisted collection",
+     "fa": "جمع‌آوری کمکی"
+    },
+    {
+     "word": "move",
+     "fa": "جابه‌جا کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Oh! For George's sake, let's apply. Clever lad. Now come in — I'll make tea, and we'll watch the fox from the window.",
+   "translations": {
+    "fa": "آه! به خاطر جورج، بیا درخواست بدیم. پسر زرنگ. حالا بیا تو — چای درست می‌کنم و از پنجره روباه را تماشا می‌کنیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

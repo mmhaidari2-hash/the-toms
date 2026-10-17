@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "wrong",
       "think",
+      "wrong",
       "sign"
      ],
      "suggestion": "The sign is wrong, I think.",
@@ -130,8 +130,8 @@
    "branches": [
     {
      "keywords": [
-      "accident",
       "everyone",
+      "accident",
       "hope",
       "ok"
      ],
@@ -178,8 +178,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
-      "called"
+      "called",
+      "what's"
      ],
      "suggestion": "No. What's it called?",
      "suggestionFa": "نه. اسمش چیه؟",
@@ -190,9 +190,9 @@
     {
      "keywords": [
       "minutes",
-      "more",
       "says",
-      "but"
+      "more",
+      "ten"
      ],
      "suggestion": "Yes, but it says ten more minutes.",
      "suggestionFa": "آره، ولی نوشته ده دقیقهٔ دیگه.",
@@ -281,8 +281,8 @@
      "keywords": [
       "message",
       "sorry",
-      "i'll",
-      "send"
+      "late",
+      "i'll"
      ],
      "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
      "suggestionFa": "آره. یه پیام می‌فرستم: «ببخشید، اتوبوس دیر کرده.»",
@@ -333,8 +333,8 @@
    "branches": [
     {
      "keywords": [
-      "doris",
       "right",
+      "doris",
       "were"
      ],
      "suggestion": "You were right, Doris!",
@@ -346,9 +346,9 @@
     {
      "keywords": [
       "shall",
+      "three",
       "which",
-      "buses",
-      "three"
+      "buses"
      ],
      "suggestion": "Three buses! Which one shall we take?",
      "suggestionFa": "سه تا اتوبوس! کدومش را سوار شیم؟",

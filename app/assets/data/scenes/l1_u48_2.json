@@ -141,8 +141,8 @@
     {
      "keywords": [
       "different",
-      "three",
-      "shows"
+      "shows",
+      "three"
      ],
      "suggestion": "Three different shows!",
      "suggestionFa": "سه تا برنامهٔ مختلف!",
@@ -188,9 +188,9 @@
     },
     {
      "keywords": [
+      "phone",
       "watch",
       "match",
-      "phone",
       "can"
      ],
      "suggestion": "We can watch the match on your phone.",
@@ -225,8 +225,8 @@
    "branches": [
     {
      "keywords": [
-      "match",
       "eight",
+      "match",
       "but"
      ],
      "suggestion": "But the match is at eight.",

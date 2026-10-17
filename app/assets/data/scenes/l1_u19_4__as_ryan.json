@@ -24,8 +24,8 @@
       "already",
       "o'clock",
       "school",
-      "lights",
-      "nights"
+      "nights",
+      "lights"
      ],
      "suggestion": "Is it ten o'clock already? Mum says lights out at ten on school nights.",
      "suggestionFa": "ساعت ده شده؟ مامان می‌گه شب‌های مدرسه ساعت ده چراغ خاموش.",
@@ -50,7 +50,7 @@
       "please",
       "middle",
       "don't",
-      "more"
+      "game"
      ],
      "suggestion": "Ten more minutes. I'm in the middle of a game. Please don't tell Mum!",
      "suggestionFa": "ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!",
@@ -73,8 +73,8 @@
      "keywords": [
       "o'clock",
       "minutes",
-      "seven",
       "alarm",
+      "seven",
       "five"
      ],
      "suggestion": "OK, OK. Five minutes. Can you put my alarm on? Seven o'clock.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "curtains",
-      "please",
-      "school",
       "before",
-      "shower"
+      "school",
+      "shower",
+      "please"
      ],
      "suggestion": "I need to shower before school. Can you close the curtains, please?",
      "suggestionFa": "باید قبل از مدرسه دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟",
@@ -125,7 +125,7 @@
       "where's",
       "thanks",
       "phone",
-      "lost"
+      "over"
      ],
      "suggestion": "Thanks. OK, game over. I lost! Where's my phone charger?",
      "suggestionFa": "ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "classic",
-      "phones",
       "pillow",
+      "phones",
       "that's",
       "think"
      ],
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "phone",
       "light",
-      "mums",
+      "phone",
       "desk",
-      "turn"
+      "mums",
+      "same"
      ],
      "suggestion": "Mums are all the same! OK, phone on the desk. Can you turn the big light off?",
      "suggestionFa": "مامان‌ها همه مثل همن! باشه، گوشی رو میز. چراغ بزرگه را خاموش می‌کنی؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "minutes",
       "thanks",
-      "night",
       "don't",
-      "about"
+      "about",
+      "night"
      ],
      "suggestion": "Night! Thanks, mate. And don't tell Mum about the extra five minutes!",
      "suggestionFa": "شب بخیر! ممنون رفیق. و دربارهٔ اون پنج دقیقهٔ اضافه به مامان چیزی نگو!",

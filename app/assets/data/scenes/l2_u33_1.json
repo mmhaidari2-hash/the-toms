@@ -1,0 +1,409 @@
+{
+ "id": "l2_u33_1",
+ "characterId": "dawson",
+ "title": "Hay fever tablets",
+ "titleFa": "قرص حساسیت فصلی",
+ "setting": "At the chemist (A2) · Level 2",
+ "settingFa": "در داروخانه (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dawson",
+   "text": "Good morning. Oh dear — red eyes, sneezing… Let me guess. The pollen's got you?",
+   "translations": {
+    "fa": "صبح بخیر. ای وای — چشم‌های قرمز، عطسه… بذار حدس بزنم. گرده‌ها گیرت انداختن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fever",
+      "think",
+      "i've",
+      "hay"
+     ],
+     "suggestion": "Yes! I think I've got hay fever.",
+     "suggestionFa": "آره! فکر کنم حساسیت فصلی دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sneezing",
+      "can't",
+      "stop"
+     ],
+     "suggestion": "I can't stop sneezing. What is it?",
+     "suggestionFa": "نمی‌تونم عطسه نکنم. چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sneezing",
+     "fa": "عطسه کردن"
+    },
+    {
+     "word": "pollen",
+     "fa": "گردهٔ گیاه"
+    },
+    {
+     "word": "guess",
+     "fa": "حدس زدن"
+    },
+    {
+     "word": "hay fever",
+     "fa": "حساسیت فصلی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dawson",
+   "text": "It's hay fever, I'm sure. The grass pollen is very high this week. Is it your eyes, your nose, or both?",
+   "translations": {
+    "fa": "مطمئنم حساسیت فصلیه. گردهٔ چمن این هفته خیلی بالاست. چشمته، بینیته، یا هر دو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "running",
+      "both",
+      "nose"
+     ],
+     "suggestion": "Both. My eyes are itchy and my nose is running.",
+     "suggestionFa": "هر دو. چشمام می‌خاره و آب بینیم راه افتاده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "mostly"
+     ],
+     "suggestion": "Mostly my eyes. They're very itchy.",
+     "suggestionFa": "بیشتر چشمام. خیلی می‌خاره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grass",
+     "fa": "چمن"
+    },
+    {
+     "word": "itchy",
+     "fa": "خارش‌دار"
+    },
+    {
+     "word": "running nose",
+     "fa": "آبریزش بینی"
+    },
+    {
+     "word": "mostly",
+     "fa": "بیشتر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Hay fever is very common in the UK from March to September. The weather forecast often gives a daily \"pollen count\".",
+    "fa": "حساسیت فصلی از مارس تا سپتامبر در بریتانیا رایج است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dawson",
+   "text": "Then I'd recommend antihistamine tablets. One a day. And eye drops for the itching.",
+   "translations": {
+    "fa": "پس قرص آنتی‌هیستامین پیشنهاد می‌کنم. روزی یکی. و قطرهٔ چشم برای خارش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drowsy",
+      "make",
+      "work",
+      "they"
+     ],
+     "suggestion": "Do they make you drowsy? I work in the day.",
+     "suggestionFa": "خواب‌آورند؟ من روزها کار می‌کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tablets",
+      "take",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many tablets can I take a day?",
+     "suggestionFa": "روزی چند تا قرص می‌تونم بخورم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recommend",
+     "fa": "پیشنهاد کردن"
+    },
+    {
+     "word": "antihistamine",
+     "fa": "آنتی‌هیستامین"
+    },
+    {
+     "word": "eye drops",
+     "fa": "قطرهٔ چشم"
+    },
+    {
+     "word": "drowsy",
+     "fa": "خواب‌آلود"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "they make you sleepy?",
+      "do they make drowsy"
+     ],
+     "echo": "Do they make you drowsy? These don't.",
+     "better": "Do they make you drowsy?",
+     "betterFa": "خواب‌آلودتان می‌کنند؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dawson",
+   "text": "Good question. These ones are \"non-drowsy\". The old kind made people sleepy. Only one in twenty-four hours, though.",
+   "translations": {
+    "fa": "سؤال خوبیه. اینا «غیر خواب‌آور» هستن. نوع قدیمی مردم را خواب‌آلود می‌کرد. ولی فقط یکی در بیست و چهار ساعت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "night",
+      "take",
+      "day",
+      "can"
+     ],
+     "suggestion": "One a day. Can I take it at night?",
+     "suggestionFa": "روزی یکی. می‌تونم شب بخورمش؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "drowsy",
+      "they",
+      "much"
+     ],
+     "suggestion": "Non-drowsy. Perfect. How much are they?",
+     "suggestionFa": "غیر خواب‌آور. عالیه. چنده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "non-drowsy",
+     "fa": "غیر خواب‌آور"
+    },
+    {
+     "word": "sleepy",
+     "fa": "خواب‌آلود"
+    },
+    {
+     "word": "hours",
+     "fa": "ساعت‌ها"
+    },
+    {
+     "word": "though",
+     "fa": "البته"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dawson",
+   "text": "Any time, but the same time every day. The pharmacy's own brand is two pounds. The famous brand is eight. Same medicine.",
+   "translations": {
+    "fa": "هر ساعتی، ولی هر روز همون ساعت. مارک خود داروخانه دو پونده. مارک معروف هشت. همون دارو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medicine",
+      "please",
+      "cheap",
+      "same"
+     ],
+     "suggestion": "Same medicine? Then the cheap one, please.",
+     "suggestionFa": "همون دارو؟ پس ارزونه، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expensive",
+      "famous",
+      "why"
+     ],
+     "suggestion": "Why is the famous one so expensive?",
+     "suggestionFa": "چرا معروفه این‌قدر گرونه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "same time",
+     "fa": "همان ساعت"
+    },
+    {
+     "word": "brand",
+     "fa": "مارک"
+    },
+    {
+     "word": "famous",
+     "fa": "معروف"
+    },
+    {
+     "word": "medicine",
+     "fa": "دارو"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dawson",
+   "text": "You pay for the advert on the telly! Now — are you taking any other medicines? I have to ask.",
+   "translations": {
+    "fa": "پول تبلیغ تلویزیون را میدی! خب — داروی دیگه‌ای مصرف می‌کنی؟ باید بپرسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "else"
+     ],
+     "suggestion": "No, nothing else.",
+     "suggestionFa": "نه، هیچی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "paracetamol",
+      "sometimes",
+      "headaches",
+      "just"
+     ],
+     "suggestion": "Just paracetamol sometimes, for headaches.",
+     "suggestionFa": "فقط گاهی پاراستامول، برای سردرد.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "advert",
+     "fa": "آگهی ؛ تبلیغ"
+    },
+    {
+     "word": "telly",
+     "fa": "تلویزیون (عامیانه)"
+    },
+    {
+     "word": "other",
+     "fa": "دیگر"
+    },
+    {
+     "word": "headaches",
+     "fa": "سردردها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dawson",
+   "text": "That's fine together. One more tip: shower and change clothes when you get home. Pollen sticks to everything.",
+   "translations": {
+    "fa": "با هم مشکلی ندارن. یه نکتهٔ دیگه: وقتی رسیدی خونه دوش بگیر و لباس عوض کن. گرده به همه‌چی می‌چسبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "windows",
+      "closed",
+      "keep",
+      "good"
+     ],
+     "suggestion": "Good idea. And keep the windows closed?",
+     "suggestionFa": "فکر خوبیه. پنجره‌ها هم بسته باشه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "dawson",
+      "that's",
+      "thank"
+     ],
+     "suggestion": "Thank you, Mr Dawson. That's very helpful.",
+     "suggestionFa": "ممنون آقای داوسون. خیلی کمک کرد.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tip",
+     "fa": "نکته"
+    },
+    {
+     "word": "shower",
+     "fa": "دوش گرفتن"
+    },
+    {
+     "word": "sticks",
+     "fa": "می‌چسبد"
+    },
+    {
+     "word": "windows",
+     "fa": "پنجره‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dawson",
+   "text": "Windows closed at night, yes. And sunglasses help too. Welcome to the British summer — beautiful and itchy!",
+   "translations": {
+    "fa": "شب‌ها پنجره‌ها بسته، آره. عینک آفتابی هم کمک می‌کنه. به تابستون بریتانیا خوش اومدی — قشنگ و خارش‌دار!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

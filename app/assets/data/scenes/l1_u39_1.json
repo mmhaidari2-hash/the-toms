@@ -70,9 +70,9 @@
     {
      "keywords": [
       "chairs",
-      "sure",
       "i'll",
-      "move"
+      "move",
+      "sure"
      ],
      "suggestion": "Sure. I'll move the chairs.",
      "suggestionFa": "حتماً. صندلی‌ها را جابه‌جا می‌کنم.",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "eater",
       "messy",
+      "eater",
       "he's"
      ],
      "suggestion": "He's a messy eater.",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "playing",
-      "she's",
       "trick",
+      "she's",
       "ha"
      ],
      "suggestion": "Ha! She's playing a trick.",
@@ -322,8 +322,8 @@
    "branches": [
     {
      "keywords": [
-      "sofa",
       "i'll",
+      "sofa",
       "ok"
      ],
      "suggestion": "OK, I'll do under the sofa.",
@@ -335,8 +335,8 @@
     {
      "keywords": [
       "there's",
-      "here",
-      "sock"
+      "sock",
+      "here"
      ],
      "suggestion": "There's a sock under here!",
      "suggestionFa": "اینجا یه جوراب هست!",

@@ -22,7 +22,7 @@
       "patients",
       "taking",
       "hello",
-      "nhs"
+      "new"
      ],
      "suggestion": "Hello. Are you taking on new NHS patients?",
      "suggestionFa": "سلام. بیمار جدید NHS می‌پذیرید؟",
@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "medical",
+      "history",
       "what's"
      ],
      "suggestion": "What's medical history?",
@@ -300,8 +300,8 @@
      "keywords": [
       "william",
       "nicola",
-      "then",
-      "come"
+      "good",
+      "then"
      ],
      "suggestion": "Good. Nicola and William can come too, then.",
      "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",

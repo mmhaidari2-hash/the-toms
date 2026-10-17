@@ -20,9 +20,9 @@
     {
      "keywords": [
       "there",
-      "time",
       "once",
-      "bird"
+      "bird",
+      "time"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
      "suggestionFa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود.",
@@ -34,8 +34,8 @@
      "keywords": [
       "story",
       "about",
-      "want",
-      "king"
+      "king",
+      "want"
      ],
      "suggestion": "OK. Do you want a story about a king?",
      "suggestionFa": "باشه. یه قصه دربارهٔ یه پادشاه می‌خوای؟",
@@ -76,7 +76,7 @@
       "simorgh",
       "bigger",
       "house",
-      "name"
+      "than"
      ],
      "suggestion": "Bigger than a house! Her name was Simorgh.",
      "suggestionFa": "بزرگ‌تر از یه خونه! اسمش سیمرغ بود.",
@@ -180,8 +180,8 @@
      "keywords": [
       "people",
       "scary",
-      "but",
-      "bad"
+      "bad",
+      "but"
      ],
      "suggestion": "She was kind, but she was scary to bad people!",
      "suggestionFa": "مهربون بود، ولی برای آدم‌های بد ترسناک بود!",
@@ -217,8 +217,8 @@
      "keywords": [
       "little",
       "found",
-      "boy",
-      "day"
+      "day",
+      "one"
      ],
      "suggestion": "One day, she found a little baby boy.",
      "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "looked",
-      "after",
-      "years"
+      "years",
+      "after"
      ],
      "suggestion": "Yes. She looked after him for years.",
      "suggestionFa": "آره. سال‌ها ازش مراقبت کرد.",
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
-      "kept",
+      "food",
       "warm",
       "gave",
-      "food"
+      "kept"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "became",
-      "grew",
       "hero",
+      "grew",
       "he"
      ],
      "suggestion": "He grew up and became a hero.",

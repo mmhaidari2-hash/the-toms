@@ -75,8 +75,8 @@
      "keywords": [
       "parents",
       "tehran",
-      "sister",
-      "shiraz"
+      "shiraz",
+      "sister"
      ],
      "suggestion": "My parents live in Tehran. My sister lives in Shiraz.",
      "suggestionFa": "پدر و مادرم تهران زندگی می‌کنن. خواهرم شیراز.",
@@ -134,8 +134,8 @@
    "branches": [
     {
      "keywords": [
-      "teaches",
       "teacher",
+      "teaches",
       "maths"
      ],
      "suggestion": "He's a teacher. He teaches maths.",
@@ -148,8 +148,8 @@
      "keywords": [
       "engineer",
       "retired",
-      "now",
-      "was"
+      "was",
+      "now"
      ],
      "suggestion": "He's retired now. He was an engineer.",
      "suggestionFa": "الان بازنشسته‌ست. مهندس بود.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "family",
-      "home",
-      "boss"
+      "boss",
+      "home"
      ],
      "suggestion": "She works at home. She's the boss of the family!",
      "suggestionFa": "تو خونه کار می‌کنه. رئیس خانواده‌ست!",
@@ -236,8 +236,8 @@
      "keywords": [
       "sunday",
       "every",
-      "call",
-      "them"
+      "much",
+      "call"
      ],
      "suggestion": "Yes, very much. I call them every Sunday.",
      "suggestionFa": "آره، خیلی. هر یکشنبه بهشون زنگ می‌زنم.",
@@ -307,8 +307,8 @@
      "keywords": [
       "garden",
       "their",
-      "dad",
-      "mum"
+      "mum",
+      "dad"
      ],
      "suggestion": "This is my mum and dad in their garden.",
      "suggestionFa": "این مامان و بابامن تو باغچه‌شون.",

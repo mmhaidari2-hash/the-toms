@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "puddles",
       "stopped",
+      "puddles",
+      "jump",
       "them",
-      "rain",
-      "look"
+      "rain"
      ],
      "suggestion": "Look! Big puddles! The rain stopped. Can we jump in them?",
      "suggestionFa": "ببین! چاله‌های آب بزرگ! بارون بند اومد. می‌تونیم توشون بپریم؟",
@@ -50,7 +50,7 @@
       "splash",
       "three",
       "ready",
-      "two"
+      "one"
      ],
      "suggestion": "Yes! Wellies on! Ready? One, two, three… SPLASH!",
      "suggestionFa": "آره! چکمه پامه! آماده‌ای؟ یک، دو، سه… شلپ!",
@@ -74,8 +74,8 @@
       "peppa",
       "like",
       "jump",
-      "pig",
-      "one"
+      "one",
+      "now"
      ],
      "suggestion": "Like Peppa Pig! Now you jump! In the big one!",
      "suggestionFa": "مثل پپا پیگ! حالا تو بپر! تو اون بزرگه!",
@@ -124,7 +124,7 @@
       "trees",
       "there",
       "above",
-      "look"
+      "over"
      ],
      "suggestion": "Look! A rainbow! Over there, above the trees!",
      "suggestionFa": "ببین! رنگین‌کمون! اونجا، بالای درخت‌ها!",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "orange",
-      "purple",
       "yellow",
+      "purple",
       "green",
       "blue"
      ],
@@ -199,7 +199,7 @@
       "jumped",
       "let's",
       "silly",
-      "warm"
+      "high"
      ],
      "suggestion": "Yes! I jumped too high! Silly me! Let's go home for a warm bath and hot chocolate!",
      "suggestionFa": "آره! خیلی بالا پریدم! چه خنگم! بیا بریم خونه یه حموم گرم و هات چاکلت!",

@@ -14,9 +14,9 @@
   "r1": {
    "id": "r1",
    "speaker": "dev",
-   "text": "Hello again! You're back with a friend. Mr Tom, isn't it? So, today it's the contract phone?",
+   "text": "Hello again! You're back with a friend. Mr Thompson, isn't it? So, today it's the contract phone?",
    "translations": {
-    "fa": "دوباره سلام! با یه دوست برگشتی. آقای تام، درسته؟ پس، امروز گوشی قراردادی؟"
+    "fa": "دوباره سلام! با یه دوست برگشتی. آقای تامپسون، درسته؟ پس، امروز گوشی قراردادی؟"
    },
    "branches": [
     {
@@ -226,8 +226,8 @@
       "minutes",
       "phone",
       "first",
-      "when",
-      "week"
+      "week",
+      "took"
      ],
      "suggestion": "Two minutes? When I got my first phone, it took a week and a man in a tie.",
      "suggestionFa": "دو دقیقه؟ وقتی من اولین گوشیم را گرفتم، یه هفته طول کشید و یه آقای کراواتی.",
@@ -368,7 +368,7 @@
       "advice",
       "borrow",
       "that's",
-      "don't"
+      "bills"
      ],
      "suggestion": "Register to vote, pay bills on time, and don't borrow too much. That's what my dad told me. Good advice, Dev?",
      "suggestionFa": "برای رأی دادن ثبت‌نام کن، قبض‌ها را سر وقت بده و زیاد قرض نگیر. اینو بابام بهم گفت. توصیهٔ خوبیه، دِو؟",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "sure",
-      "pay",
-      "how"
+      "how",
+      "pay"
      ],
      "suggestion": "Sure. How do I pay you?",
      "suggestionFa": "حتماً. چطوری بهت پرداخت کنم؟",
@@ -34,7 +34,7 @@
       "standing",
       "should",
       "order",
-      "idea"
+      "good"
      ],
      "suggestion": "Good idea. Should I set up a standing order?",
      "suggestionFa": "فکر خوبیه. دستور پرداخت دائمی بذارم؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "forget",
-      "month",
       "every",
+      "month",
       "if"
      ],
      "suggestion": "Every month? What if I forget?",
@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "sort",
-      "code"
+      "code",
+      "sort"
      ],
      "suggestion": "What's a sort code?",
      "suggestionFa": "کد شعبه چیه؟",
@@ -183,7 +183,7 @@
       "seventy",
       "account",
       "twenty",
-      "forty"
+      "three"
      ],
      "suggestion": "Twenty, forty-five, seventy-seven. Account four one three six…",
      "suggestionFa": "بیست، چهل و پنج، هفتاد و هفت. حساب چهار یک سه شش…",
@@ -195,8 +195,8 @@
      "keywords": [
       "repeat",
       "slowly",
-      "could",
-      "sorry"
+      "sorry",
+      "could"
      ],
      "suggestion": "Sorry, could you repeat that slowly?",
      "suggestionFa": "ببخشید، میشه آروم تکرارش کنی؟",
@@ -223,18 +223,19 @@
   "n5": {
    "id": "n5",
    "speaker": "tom",
-   "text": "Spot on. The app says \"Name check: Thomas Tom. Match.\" Good — that means it's the right person. Always check that.",
+   "text": "Spot on. The app says \"Name check: Thomas Thompson. Match.\" Good — that means it's the right person. Always check that.",
    "translations": {
-    "fa": "دقیقاً. اپ میگه «بررسی نام: توماس تام. مطابقت دارد.» خوبه — یعنی آدم درسته. همیشه اینو چک کن."
+    "fa": "دقیقاً. اپ میگه «بررسی نام: توماس تامپسون. مطابقت دارد.» خوبه — یعنی آدم درسته. همیشه اینو چک کن."
    },
    "branches": [
     {
      "keywords": [
+      "thompson",
       "thomas",
       "tom"
      ],
-     "suggestion": "Thomas Tom? Your name is Thomas Tom?",
-     "suggestionFa": "توماس تام؟ اسمت توماس تامه؟",
+     "suggestion": "Thomas Thompson? Tom Thompson?",
+     "suggestionFa": "توماس تامپسون؟ تام تامپسون؟",
      "trustDelta": 6,
      "next": "n6",
      "success": true
@@ -243,6 +244,7 @@
      "keywords": [
       "important",
       "check",
+      "name",
       "why"
      ],
      "suggestion": "Why is the name check important?",
@@ -285,9 +287,9 @@
   "n6": {
    "id": "n6",
    "speaker": "tom",
-   "text": "Don't laugh. My mum had a sense of humour. Name check stops scams. If it says \"no match\", stop and check. Now: amount and date.",
+   "text": "Don't laugh. Mum thought it was funny. Name check stops scams. If it says \"no match\", stop and check. Now: amount and date.",
    "translations": {
-    "fa": "نخند. مامانم شوخ‌طبع بود. بررسی نام جلوی کلاهبرداری را می‌گیره. اگه نوشت «مطابقت ندارد»، دست نگه دار و چک کن. حالا: مبلغ و تاریخ."
+    "fa": "نخند. مامانم فکر می‌کرد بامزه‌ست. بررسی نام جلوی کلاهبرداری را می‌گیره. اگه نوشت «مطابقت ندارد»، دست نگه دار و چک کن. حالا: مبلغ و تاریخ."
    },
    "branches": [
     {

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "opens",
+      "week",
+      "next",
       "swim",
-      "lido",
-      "look",
-      "week"
+      "look"
      ],
      "suggestion": "Look at the lido! It opens next week. Can you swim, Mehdi?",
      "suggestionFa": "استخر روباز را ببین! هفتهٔ بعد باز میشه. شنا بلدی {you}؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "great",
-      "swim",
       "well",
+      "swim",
       "can"
      ],
      "suggestion": "Great! Can you swim well?",
@@ -71,10 +71,10 @@
     {
      "keywords": [
       "tehran",
-      "isn't",
       "where",
-      "swim",
-      "iran"
+      "isn't",
+      "iran",
+      "swim"
      ],
      "suggestion": "Where did you swim in Iran? Tehran isn't by the sea, is it?",
      "suggestionFa": "تو ایران کجا شنا می‌کردی؟ تهران کنار دریا نیست، نه؟",
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "lovely",
+      "though",
       "water",
-      "swim",
-      "lido"
+      "cold",
+      "swim"
      ],
      "suggestion": "How lovely. The lido is cold, though. Can you swim in cold water?",
      "suggestionFa": "چه قشنگ. ولی استخر روباز سرده. تو آب سرد می‌تونی شنا کنی؟",
@@ -148,8 +148,8 @@
       "splash",
       "jumps",
       "can't",
-      "swim",
-      "rock"
+      "like",
+      "swim"
      ],
      "suggestion": "Tom can swim, but he can't dive. He jumps in like a big rock! Splash!",
      "suggestionFa": "تام شنا بلده، ولی شیرجه نمی‌تونه. مثل یه سنگ بزرگ می‌پره تو! شالاپ!",
@@ -173,8 +173,8 @@
       "swimming",
       "school",
       "really",
-      "swim",
-      "team"
+      "ryan",
+      "fast"
      ],
      "suggestion": "I can! I was in the swimming team at school. Ryan can swim really fast too.",
      "suggestionFa": "بلدم! تو مدرسه عضو تیم شنا بودم. رایان هم واقعاً تند شنا می‌کنه.",
@@ -198,8 +198,8 @@
       "armbands",
       "saturday",
       "nicola",
-      "let's",
-      "bring"
+      "bring",
+      "towel"
      ],
      "suggestion": "Nicola can swim with armbands. Let's go on Saturday! Bring a towel and a brave face!",
      "suggestionFa": "نیکولا با بازوبند شنا می‌کنه. شنبه بریم! یه حوله و یه چهرهٔ شجاع بیار!",

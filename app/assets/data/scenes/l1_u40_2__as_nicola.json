@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "bread",
       "press",
+      "bread",
       "down",
       "put",
       "two"
@@ -73,9 +73,9 @@
      "keywords": [
       "ready",
       "take",
-      "out",
-      "can",
-      "pop"
+      "ooh",
+      "hot",
+      "out"
      ],
      "suggestion": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
      "suggestionFa": "پاپ! آماده‌ست! اوه، داغه! داغه! می‌تونی درش بیاری؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "marmite",
-      "yucky",
+      "think",
       "daddy",
-      "salty",
-      "think"
+      "loves",
+      "yucky"
      ],
      "suggestion": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
      "suggestionFa": "مارمایت قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
@@ -172,7 +172,7 @@
       "triangles",
       "putting",
       "daddy",
-      "into",
+      "like",
       "lots"
      ],
      "suggestion": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
@@ -194,10 +194,10 @@
    "branches": [
     {
      "keywords": [
-      "triangles",
       "everybody",
-      "better",
+      "triangles",
       "tastes",
+      "better",
       "knows"
      ],
      "suggestion": "Triangles! Toast tastes better in triangles. Everybody knows that!",

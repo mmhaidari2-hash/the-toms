@@ -34,8 +34,8 @@
      "keywords": [
       "surprising",
       "working",
-      "seemed",
-      "that's"
+      "that's",
+      "seemed"
      ],
      "suggestion": "That's surprising. He seemed to be working hard.",
      "suggestionFa": "تعجب‌آوره. به نظر می‌رسید سخت کار می‌کنه.",
@@ -83,7 +83,7 @@
      "keywords": [
       "available",
       "support",
-      "there",
+      "extra",
       "maths"
      ],
      "suggestion": "Is there any extra support available for maths?",
@@ -95,9 +95,9 @@
     {
      "keywords": [
       "staying",
-      "hasn't",
       "gaming",
-      "helped"
+      "helped",
+      "hasn't"
      ],
      "suggestion": "He's been staying up late gaming, which hasn't helped.",
      "suggestionFa": "تا دیروقت بازی می‌کنه، که کمکی نکرده.",
@@ -135,9 +135,9 @@
    "branches": [
     {
      "keywords": [
+      "leslie",
       "screen",
       "curfew",
-      "leslie",
       "about"
      ],
      "suggestion": "I'll talk to Leslie and Tom about a screen curfew.",
@@ -148,8 +148,8 @@
     },
     {
      "keywords": [
-      "right",
       "won't",
+      "right",
       "like",
       "but"
      ],
@@ -185,10 +185,10 @@
    "branches": [
     {
      "keywords": [
-      "sounds",
       "should",
+      "sounds",
       "there",
-      "ryan"
+      "plan"
      ],
      "suggestion": "That sounds like a good plan. Should Ryan be there?",
      "suggestionFa": "برنامهٔ خوبیه. رایان هم باید باشه؟",
@@ -200,8 +200,8 @@
      "keywords": [
       "fortnight",
       "progress",
-      "email",
-      "could"
+      "could",
+      "email"
      ],
      "suggestion": "Could you email us his progress every fortnight?",
      "suggestionFa": "می‌تونید هر دو هفته پیشرفتش را برامون ایمیل کنید؟",

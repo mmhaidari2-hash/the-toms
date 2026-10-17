@@ -72,9 +72,9 @@
     {
      "keywords": [
       "code",
+      "pac",
       "how",
-      "get",
-      "pac"
+      "get"
      ],
      "suggestion": "How do I get a PAC code?",
      "suggestionFa": "کد PAC را چطوری بگیرم؟",
@@ -131,8 +131,8 @@
      "keywords": [
       "here's",
       "reply",
-      "sent",
-      "i've"
+      "i've",
+      "sent"
      ],
      "suggestion": "OK, I've sent it. Oh, here's the reply!",
      "suggestionFa": "باشه، فرستادم. اوه، جوابش اومد!",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "again",
       "seven",
+      "again",
       "five",
       "say"
      ],
@@ -194,8 +194,8 @@
    "branches": [
     {
      "keywords": [
-      "eight",
       "three",
+      "eight",
       "seven",
       "nine"
      ],
@@ -263,7 +263,7 @@
       "monday",
       "then",
       "use",
-      "new"
+      "sim"
      ],
      "suggestion": "By Monday. And then I use the new SIM?",
      "suggestionFa": "تا دوشنبه. بعدش سیم‌کارت جدید را می‌ذارم؟",
@@ -312,8 +312,8 @@
     },
     {
      "keywords": [
-      "about",
       "phone",
+      "about",
       "sell",
       "can"
      ],
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "locked",
-      "great",
       "phone",
+      "great",
       "old"
      ],
      "suggestion": "Great! Is the old phone locked?",

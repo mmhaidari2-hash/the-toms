@@ -88,8 +88,8 @@
     },
     {
      "keywords": [
-      "green",
-      "hello"
+      "hello",
+      "green"
      ],
      "suggestion": "Hello! Six green apples, please.",
      "suggestionFa": "سلام! شش تا سیب سبز، لطفاً.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "please",
-      "three",
-      "green"
+      "green",
+      "three"
      ],
      "suggestion": "Three red and three green, please.",
      "suggestionFa": "سه تا قرمز و سه تا سبز، لطفاً.",
@@ -219,8 +219,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "take",
+      "i'll",
       "ripe"
      ],
      "suggestion": "I'll take the ripe ones.",
@@ -234,7 +234,7 @@
       "longer",
       "please",
       "green",
-      "they"
+      "last"
      ],
      "suggestion": "The green ones, please. They last longer.",
      "suggestionFa": "سبزها، لطفاً. بیشتر می‌مونن.",

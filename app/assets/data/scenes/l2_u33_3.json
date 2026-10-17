@@ -1,0 +1,405 @@
+{
+ "id": "l2_u33_3",
+ "characterId": "dawson",
+ "title": "Can I take this with…?",
+ "titleFa": "می‌توانم این را با … بخورم؟",
+ "setting": "At the chemist (A2) · Level 2",
+ "settingFa": "در داروخانه (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dawson",
+   "text": "Hello. You've got a prescription and a worried face. Can I help?",
+   "translations": {
+    "fa": "سلام. یه نسخه داری و یه قیافهٔ نگران. کمکی از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "antibiotics",
+      "ibuprofen",
+      "doctor",
+      "take"
+     ],
+     "suggestion": "Yes. The doctor gave me antibiotics. Can I take them with ibuprofen?",
+     "suggestionFa": "آره. دکتر بهم آنتی‌بیوتیک داده. می‌تونم با ایبوپروفن بخورمشون؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "question",
+      "medicine",
+      "about",
+      "have"
+     ],
+     "suggestion": "I have a question about my new medicine.",
+     "suggestionFa": "یه سؤال دربارهٔ داروی جدیدم دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prescription",
+     "fa": "نسخه"
+    },
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "antibiotics",
+     "fa": "آنتی‌بیوتیک‌ها"
+    },
+    {
+     "word": "ibuprofen",
+     "fa": "ایبوپروفن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dawson",
+   "text": "Let me see… amoxicillin, for your chest infection. Yes, it's safe with ibuprofen or paracetamol.",
+   "translations": {
+    "fa": "بذار ببینم… آموکسی‌سیلین، برای عفونت سینه‌ات. آره، با ایبوپروفن یا پاراستامول بی‌خطره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "food",
+      "good",
+      "take"
+     ],
+     "suggestion": "Good. Do I take it with food?",
+     "suggestionFa": "خوبه. با غذا بخورمش؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coffee",
+      "safe"
+     ],
+     "suggestion": "And is it safe with coffee?",
+     "suggestionFa": "با قهوه هم بی‌خطره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chest infection",
+     "fa": "عفونت قفسهٔ سینه"
+    },
+    {
+     "word": "safe",
+     "fa": "بی‌خطر"
+    },
+    {
+     "word": "with food",
+     "fa": "با غذا"
+    },
+    {
+     "word": "coffee",
+     "fa": "قهوه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i can take it with food?",
+      "can i taking with food"
+     ],
+     "echo": "Can you take it with food? Yes.",
+     "better": "Can I take it with food?",
+     "betterFa": "می‌توانم با غذا بخورمش؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dawson",
+   "text": "With or without food — either is fine. But ibuprofen, never on an empty stomach. Always eat something first.",
+   "translations": {
+    "fa": "با غذا یا بدون غذا — هر دو اشکالی نداره. ولی ایبوپروفن، هیچ‌وقت با معدهٔ خالی. همیشه اول یه چیزی بخور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stomach",
+      "empty",
+      "mean"
+     ],
+     "suggestion": "What does \"empty stomach\" mean?",
+     "suggestionFa": "«معدهٔ خالی» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "times",
+      "first",
+      "many",
+      "day"
+     ],
+     "suggestion": "Eat first. OK. How many times a day?",
+     "suggestionFa": "اول غذا. باشه. روزی چند بار؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "either",
+     "fa": "هر کدام"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    },
+    {
+     "word": "empty stomach",
+     "fa": "معدهٔ خالی"
+    },
+    {
+     "word": "first",
+     "fa": "اول"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK pharmacists give free advice. You can ask about side effects, how to take a medicine, or whether two medicines are safe together.",
+    "fa": "داروسازان در بریتانیا مشاورهٔ رایگان می‌دهند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dawson",
+   "text": "Three times a day, for seven days. Finish the whole course, even if you feel better. That's very important.",
+   "translations": {
+    "fa": "روزی سه بار، به مدت هفت روز. کل دوره را تموم کن، حتی اگه حالت بهتر شد. خیلی مهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "even",
+      "feel",
+      "why"
+     ],
+     "suggestion": "Even if I feel better? Why?",
+     "suggestionFa": "حتی اگه بهتر شدم؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "alarm",
+      "seven",
+      "days"
+     ],
+     "suggestion": "Seven days. I'll set an alarm on my phone.",
+     "suggestionFa": "هفت روز. رو گوشیم زنگ هشدار می‌ذارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "course",
+     "fa": "دورهٔ درمان"
+    },
+    {
+     "word": "whole",
+     "fa": "کامل"
+    },
+    {
+     "word": "even if",
+     "fa": "حتی اگر"
+    },
+    {
+     "word": "alarm",
+     "fa": "زنگ هشدار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dawson",
+   "text": "If you stop early, the infection can come back stronger. And one more thing — you shouldn't drink alcohol with some antibiotics.",
+   "translations": {
+    "fa": "اگه زود قطع کنی، عفونت می‌تونه قوی‌تر برگرده. یه چیز دیگه — با بعضی آنتی‌بیوتیک‌ها نباید الکل بخوری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "drink",
+      "one",
+      "ok"
+     ],
+     "suggestion": "I don't drink. Is that OK with this one?",
+     "suggestionFa": "من نمی‌خورم. با این یکی مشکلی نیست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "saturday",
+      "party",
+      "tom",
+      "has"
+     ],
+     "suggestion": "Tom has a party on Saturday…",
+     "suggestionFa": "تام شنبه مهمونی داره…",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "infection",
+     "fa": "عفونت"
+    },
+    {
+     "word": "stronger",
+     "fa": "قوی‌تر"
+    },
+    {
+     "word": "shouldn't",
+     "fa": "نباید"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dawson",
+   "text": "With this one, a little is OK. But you'll feel better without it. Any side effects, like a rash, stop and call me.",
+   "translations": {
+    "fa": "با این یکی، کمی اشکالی نداره. ولی بدون اون حالت بهتره. هر عارضه‌ای، مثل جوش پوستی، قطع کن و به من زنگ بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "rash"
+     ],
+     "suggestion": "What's a rash?",
+     "suggestionFa": "«رَش» چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "call",
+      "stop",
+      "ok"
+     ],
+     "suggestion": "OK. Stop and call you.",
+     "suggestionFa": "باشه. قطع کنم و بهتون زنگ بزنم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "side effects",
+     "fa": "عوارض جانبی"
+    },
+    {
+     "word": "rash",
+     "fa": "جوش ؛ بثورات پوستی"
+    },
+    {
+     "word": "call",
+     "fa": "زنگ زدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dawson",
+   "text": "Red spots on the skin, itchy. Rare, but important. And your prescription — do you pay, or is it free?",
+   "translations": {
+    "fa": "لکه‌های قرمز روی پوست، خارش‌دار. نادره، ولی مهمه. و نسخه‌ات — پولش را میدی یا رایگانه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "think",
+      "much",
+      "how",
+      "pay"
+     ],
+     "suggestion": "I pay, I think. How much is it?",
+     "suggestionFa": "فکر کنم پولش را میدم. چنده؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "prescriptions",
+      "gets",
+      "free",
+      "sure"
+     ],
+     "suggestion": "I'm not sure. Who gets free prescriptions?",
+     "suggestionFa": "مطمئن نیستم. کی نسخهٔ رایگان می‌گیره؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spots",
+     "fa": "لکه‌ها ؛ جوش‌ها"
+    },
+    {
+     "word": "rare",
+     "fa": "نادر"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, prescriptions cost a fixed price per item. Children, people over 60 and some others get them free. In Scotland and Wales they're free for everyone.",
+    "fa": "در انگلستان هر قلم نسخه قیمت ثابت دارد؛ کودکان و بالای ۶۰ رایگان."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dawson",
+   "text": "In England it's about ten pounds an item. Under sixteens and over sixties are free. Get well soon — lots of rest and fluids!",
+   "translations": {
+    "fa": "تو انگلستان هر قلم حدود ده پونده. زیر شونزده و بالای شصت رایگانه. زودتر خوب شو — کلی استراحت و مایعات!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

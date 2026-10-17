@@ -255,9 +255,9 @@
    "branches": [
     {
      "keywords": [
-      "floor",
+      "sweep",
       "let's",
-      "sweep"
+      "floor"
      ],
      "suggestion": "Let's sweep the floor.",
      "suggestionFa": "بیا زمین را جارو کنیم.",
@@ -267,8 +267,8 @@
     },
     {
      "keywords": [
-      "dustpan",
       "where's",
+      "dustpan",
       "brush"
      ],
      "suggestion": "Where's the dustpan and brush?",

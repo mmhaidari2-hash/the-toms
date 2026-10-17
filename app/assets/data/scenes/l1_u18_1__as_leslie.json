@@ -48,8 +48,8 @@
      "keywords": [
       "cucumber",
       "cheese",
-      "bread",
       "white",
+      "bread",
       "brown"
      ],
      "suggestion": "Cheese, ham, tuna, egg… and cucumber. White bread or brown bread?",
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "classic",
-      "pickle",
       "cheese",
+      "pickle",
       "sweet",
       "brown"
      ],
@@ -122,8 +122,8 @@
      "keywords": [
       "sandwich",
       "crisps",
-      "wants",
       "think",
+      "wants",
       "there"
      ],
      "suggestion": "There you go. Ryan wants crisps in his sandwich! What do you think?",
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "triangles",
-      "popular",
       "squares",
-      "butty",
-      "shall"
+      "popular",
+      "yours",
+      "butty"
      ],
      "suggestion": "It's a \"crisp butty\". Very popular here! Shall I cut yours into triangles or squares?",
      "suggestionFa": "بهش می‌گن «کریسپ باتی». اینجا خیلی محبوبه! مال تو را مثلثی ببرم یا مربعی؟",
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "triangles",
-      "drink",
-      "would",
       "fancy",
+      "would",
+      "drink",
       "like"
      ],
      "suggestion": "Triangles. Fancy. Would you like a drink with it?",
@@ -222,9 +222,9 @@
      "keywords": [
       "please",
       "garden",
+      "right",
       "small",
-      "let's",
-      "right"
+      "sunny"
      ],
      "suggestion": "Yes, please, a small one. Right, let's eat in the garden. It's sunny!",
      "suggestionFa": "آره، لطفاً، یه کم. خب، بیا تو باغ بخوریم. آفتابیه!",

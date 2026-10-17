@@ -65,8 +65,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "help"
+      "help",
+      "i'll"
      ],
      "suggestion": "Yes, I'll help you.",
      "suggestionFa": "آره، کمکت می‌کنم.",
@@ -157,8 +157,8 @@
      "keywords": [
       "that's",
       "thing",
-      "nice",
-      "good"
+      "good",
+      "nice"
      ],
      "suggestion": "Good! That's a nice thing to say.",
      "suggestionFa": "خوبه! حرف قشنگیه.",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "count",
-      "let's"
+      "let's",
+      "count"
      ],
      "suggestion": "Let's count.",
      "suggestionFa": "بیا بشمریم.",
@@ -269,9 +269,9 @@
     },
     {
      "keywords": [
-      "more",
+      "only",
       "five",
-      "only"
+      "more"
      ],
      "suggestion": "Only five more!",
      "suggestionFa": "فقط پنج تای دیگه!",

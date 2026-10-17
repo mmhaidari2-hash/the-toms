@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "those",
       "think",
+      "those",
+      "these",
       "there",
-      "white",
-      "these"
+      "white"
      ],
      "suggestion": "White, I think. These ones or those ones over there?",
      "suggestionFa": "سفید، فکر کنم. این‌ها یا اون‌هایی که اونجان؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "thirty",
+      "pounds",
       "those",
-      "these",
-      "forty"
+      "forty",
+      "these"
      ],
      "suggestion": "Those are forty-five pounds. These are thirty-five. Hmm.",
      "suggestionFa": "اون‌ها چهل‌وپنج پوندن. این‌ها سی‌وپنج. هوم.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "excuse",
+      "please",
       "these",
       "nine",
       "size"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they're",
-      "better",
       "bigger",
+      "better",
       "small",
-      "have"
+      "tens"
      ],
      "suggestion": "They're a bit small. Have you got a bigger size? Ah, the tens are better.",
      "suggestionFa": "یه کم کوچیکن. سایز بزرگ‌تر دارید؟ آه، ده بهتره.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "really",
-      "chips",
       "comfy",
+      "chips",
       "some",
-      "i've"
+      "quid"
      ],
      "suggestion": "Really comfy. And I've got five quid left for chips! Want some?",
      "suggestionFa": "خیلی راحتن. و پنج پوند هم برای سیب‌زمینی سرخ‌کرده موند! می‌خوای؟",

@@ -259,9 +259,9 @@
     {
      "keywords": [
       "like",
-      "dog",
       "but",
-      "i'd"
+      "i'd",
+      "dog"
      ],
      "suggestion": "No, but I'd like a dog.",
      "suggestionFa": "نه، ولی دلم یه سگ می‌خواد.",
@@ -272,8 +272,8 @@
     {
      "keywords": [
       "iran",
-      "cat",
-      "had"
+      "had",
+      "cat"
      ],
      "suggestion": "I had a cat in Iran.",
      "suggestionFa": "تو ایران یه گربه داشتم.",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "thank",
-      "khan",
       "soon",
+      "khan",
       "see"
      ],
      "suggestion": "Thank you, Mrs Khan. See you soon!",

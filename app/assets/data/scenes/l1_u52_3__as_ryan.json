@@ -48,9 +48,9 @@
      "keywords": [
       "accident",
       "slipped",
-      "going",
       "she's",
-      "hand"
+      "going",
+      "kill"
      ],
      "suggestion": "It slipped out of my hand. It was an accident! She's going to kill me!",
      "suggestionFa": "از دستم لیز خورد. اتفاقی بود! منو می‌کشه!",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "dustpan",
       "careful",
-      "brush",
+      "dustpan",
       "first",
+      "brush",
       "pick"
      ],
      "suggestion": "First, help me pick it up. Careful. Get the dustpan and brush.",
@@ -174,7 +174,7 @@
       "really",
       "sorry",
       "i'll",
-      "buy"
+      "one"
      ],
      "suggestion": "Mum, I'm really, really sorry. It slipped. I'll buy you a new one.",
      "suggestionFa": "مامان، واقعاً واقعاً متأسفم. لیز خورد. یه نو برات می‌خرم.",

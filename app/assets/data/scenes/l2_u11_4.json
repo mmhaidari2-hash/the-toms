@@ -68,9 +68,9 @@
     {
      "keywords": [
       "nearly",
+      "c",
       "e",
-      "s",
-      "c"
+      "s"
      ],
      "suggestion": "Nearly! It's B-E-C-A-U-S-E.",
      "suggestionFa": "تقریباً! بی-ای-سی-ای-یو-اس-ای.",
@@ -119,10 +119,10 @@
    "branches": [
     {
      "keywords": [
-      "because",
       "letters",
-      "clever",
-      "that's"
+      "because",
+      "that's",
+      "clever"
      ],
      "suggestion": "That's clever! The first letters spell \"because\".",
      "suggestionFa": "باهوشانه‌ست! حرف اول‌ها «because» میشه.",
@@ -176,10 +176,10 @@
    "branches": [
     {
      "keywords": [
-      "d",
-      "n",
       "r",
-      "f"
+      "f",
+      "d",
+      "n"
      ],
      "suggestion": "Yes. F-R-I-E-N-D.",
      "suggestionFa": "آره. اف-آر-آی-ای-ان-دی.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "before",
       "except",
+      "before",
       "after",
       "c"
      ],
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "fingers",
-      "can",
-      "use"
+      "use",
+      "can"
      ],
      "suggestion": "Yes, you can use your fingers.",
      "suggestionFa": "آره، می‌تونی از انگشتات استفاده کنی.",
@@ -238,9 +238,9 @@
     },
     {
      "keywords": [
+      "seven",
       "start",
       "count",
-      "seven",
       "five"
      ],
      "suggestion": "Start at seven and count up five.",
@@ -332,9 +332,9 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "nicola",
       "that's",
+      "lovely",
       "aw"
      ],
      "suggestion": "Aw, that's lovely, Nicola.",
@@ -384,8 +384,8 @@
      "keywords": [
       "well",
       "done",
-      "ask",
-      "mum"
+      "mum",
+      "ask"
      ],
      "suggestion": "Ask your mum. Well done!",
      "suggestionFa": "از مامانت بپرس. آفرین!",
@@ -397,8 +397,8 @@
      "keywords": [
       "first",
       "book",
-      "bag",
-      "put"
+      "put",
+      "bag"
      ],
      "suggestion": "First, put your book in your bag.",
      "suggestionFa": "اول، کتابت را بذار تو کیفت.",

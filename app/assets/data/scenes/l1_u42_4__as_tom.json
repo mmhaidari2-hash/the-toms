@@ -24,8 +24,8 @@
       "those",
       "bikes",
       "buses",
-      "than",
-      "look"
+      "ride",
+      "more"
      ],
      "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "should",
-      "safer",
-      "cycle",
       "there",
+      "cycle",
+      "safer",
       "lanes"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "there",
-      "hour",
+      "over",
       "half",
       "ones",
-      "over"
+      "hour"
      ],
      "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
      "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "should",
-      "pounds",
       "helmet",
+      "pounds",
       "wear",
-      "few"
+      "but"
      ],
      "suggestion": "Not bad. A few pounds. But you should wear a helmet.",
      "suggestionFa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.",
@@ -148,9 +148,9 @@
      "keywords": [
       "cycle",
       "drive",
+      "lane",
       "road",
-      "here",
-      "lane"
+      "keep"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
      "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "pedals",
-      "down",
-      "bike",
+      "legs",
       "know",
-      "legs"
+      "only",
+      "bike"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
      "suggestionFa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!",

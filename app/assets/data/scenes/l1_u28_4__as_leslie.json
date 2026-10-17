@@ -49,8 +49,8 @@
       "problem",
       "slowly",
       "number",
-      "phone",
-      "after"
+      "after",
+      "phone"
      ],
      "suggestion": "Say your name, the problem and my phone number. Slowly! Here — after the beep.",
      "suggestionFa": "اسمت، مشکل و شماره‌ام را بگو. آروم! بیا — بعد از بوق.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "problem",
+      "kitchen",
       "leaking",
       "good",
       "tap"
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "double",
       "number",
-      "seven",
+      "double",
       "three",
+      "seven",
       "nine"
      ],
      "suggestion": "Now the number. Oh seven seven double oh, nine double oh, one two three.",
@@ -123,9 +123,9 @@
      "keywords": [
       "perfect",
       "slowly",
-      "again",
       "today",
-      "back"
+      "again",
+      "call"
      ],
      "suggestion": "Perfect! Say it again, slowly. And ask him to call back today.",
      "suggestionFa": "عالی! دوباره آروم بگو. و ازش بخواه امروز دوباره زنگ بزنه.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "goodbye",
-      "button",
       "lovely",
+      "button",
       "press",
       "then"
      ],
@@ -198,9 +198,9 @@
      "keywords": [
       "already",
       "plumber",
-      "phone's",
+      "message",
       "ringing",
-      "message"
+      "phone's"
      ],
      "suggestion": "Oh! My phone's ringing already. It's him! The plumber. You see? A good message works!",
      "suggestionFa": "آه! گوشیم از الان داره زنگ می‌زنه. خودشه! لوله‌کش. دیدی؟ یه پیغام خوب جواب می‌ده!",

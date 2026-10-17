@@ -24,8 +24,8 @@
       "ordered",
       "burgers",
       "isn't",
-      "bruv",
-      "look"
+      "here",
+      "bruv"
      ],
      "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
      "suggestionFa": "داداش. برگرها رسیدن، ولی… این چیزی نیست که سفارش دادیم. ببین.",
@@ -49,8 +49,8 @@
       "chicken",
       "veggie",
       "burger",
-      "asked",
-      "where"
+      "where",
+      "rings"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
      "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
@@ -74,8 +74,8 @@
       "vegetarian",
       "complain",
       "tuesday",
-      "except",
-      "mostly"
+      "mostly",
+      "except"
      ],
      "suggestion": "Since Tuesday. I'm vegetarian now. Well, mostly. Except bacon. Can you help me complain?",
      "suggestionFa": "از سه‌شنبه. الان گیاه‌خوارم. خب، بیشترش. به جز بیکن. کمکم می‌کنی شکایت کنم؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "quality",
       "missing",
+      "quality",
       "what's",
       "wrong",
       "order"
@@ -123,8 +123,8 @@
      "keywords": [
       "evidence",
       "burger",
-      "don't",
       "wants",
+      "don't",
       "photo"
      ],
      "suggestion": "Now it wants a photo. Hold the burger up. No — don't eat it! It's evidence!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "message",
+      "english",
       "polite",
       "write",
-      "than"
+      "more"
      ],
      "suggestion": "Now we write a message. You write it, your English is more polite than mine.",
      "suggestionFa": "حالا یه پیام می‌نویسیم. تو بنویس، انگلیسیت از من مؤدبانه‌تره.",
@@ -174,8 +174,8 @@
       "refunded",
       "perfect",
       "refund",
-      "sorry",
-      "we've"
+      "we've",
+      "sorry"
      ],
      "suggestion": "Perfect! Send. … Oh, fast! \"Sorry! We've refunded you £8.50.\" A refund! Nice one!",
      "suggestionFa": "عالی! بفرست. … اوه، چه سریع! «متأسفیم! هشت پوند و پنجاه پنس به حسابتان برگرداندیم.» بازپرداخت! ایول!",

@@ -137,10 +137,10 @@
     },
     {
      "keywords": [
-      "next",
-      "home",
       "mine",
-      "door"
+      "next",
+      "door",
+      "home"
      ],
      "suggestion": "Mine are at home, next door.",
      "suggestionFa": "مال من خونه‌ست، بغلی.",
@@ -213,8 +213,8 @@
     {
      "keywords": [
       "thank",
-      "they",
-      "size"
+      "size",
+      "they"
      ],
      "suggestion": "Thank you. Are they my size?",
      "suggestionFa": "ممنون. اندازهٔ منن؟",

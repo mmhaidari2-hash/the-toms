@@ -24,7 +24,7 @@
       "anything",
       "things",
       "can't",
-      "sent",
+      "list",
       "help"
      ],
      "suggestion": "Mum sent me with a list. Ten things! I can't find anything. Help!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "walked",
-      "round",
-      "first",
       "can't",
-      "twice"
+      "twice",
+      "first",
+      "round"
      ],
      "suggestion": "Milk, first. I can't find the milk! I've walked round twice!",
      "suggestionFa": "اول شیر. شیر را پیدا نمی‌کنم! دو بار دور زدم!",
@@ -74,7 +74,7 @@
       "skimmed",
       "never",
       "green",
-      "semi",
+      "says",
       "blue"
      ],
      "suggestion": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
@@ -98,9 +98,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "bread",
       "can't",
-      "eggs"
+      "bread",
+      "full"
      ],
      "suggestion": "Blue is full fat. Next: eggs, bread, washing-up liquid… I can't find the washing-up liquid!",
      "suggestionFa": "آبی پرچربه. بعدی: تخم‌مرغ، نون، مایع ظرفشویی… مایع ظرفشویی را پیدا نمی‌کنم!",
@@ -225,8 +225,8 @@
    "branches": [
     {
      "keywords": [
-      "lifesaver",
       "something",
+      "lifesaver",
       "thing",
       "last",
       "mean"

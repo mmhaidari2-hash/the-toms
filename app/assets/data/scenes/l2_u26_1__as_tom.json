@@ -22,10 +22,10 @@
     {
      "keywords": [
       "learning",
-      "petrol",
+      "before",
       "retail",
       "four's",
-      "before"
+      "petrol"
      ],
      "suggestion": "Right, we need petrol before the retail park. You're learning to drive, so you can do it. Pump four's free.",
      "suggestionFa": "خب، قبل از مرکز خرید باید بنزین بزنیم. تو داری رانندگی یاد می‌گیری، پس خودت بزن. پمپ چهار خالیه.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "dashboard",
-      "little",
       "points",
-      "arrow",
-      "light"
+      "little",
+      "light",
+      "arrow"
      ],
      "suggestion": "Look at the little arrow by the fuel light on the dashboard. It points to the side. See? Left.",
      "suggestionFa": "به فلش کوچیک کنار چراغ سوخت رو داشبورد نگاه کن. به اون طرف اشاره می‌کنه. می‌بینی؟ چپ.",
@@ -73,9 +73,9 @@
      "keywords": [
       "unleaded",
       "careful",
-      "petrol",
+      "nozzle",
       "diesel",
-      "nozzle"
+      "petrol"
      ],
      "suggestion": "Now, careful. Green nozzle is unleaded petrol. Black is diesel. Our car is petrol. Which one do you pick?",
      "suggestionFa": "حالا، دقت کن. نازل سبز بنزین بدون سربه. مشکی گازوئیله. ماشین ما بنزینیه. کدوم را برمی‌داری؟",
@@ -100,7 +100,7 @@
       "mentions",
       "hundred",
       "leslie",
-      "petrol"
+      "diesel"
      ],
      "suggestion": "Phew! I put diesel in a petrol car once. Cost me four hundred quid. Leslie still mentions it. Every Christmas.",
      "suggestionFa": "آخیش! من یه بار تو ماشین بنزینی گازوئیل زدم. چهارصد پوند برام آب خورد. لزلی هنوز هر کریسمس بهش اشاره می‌کنه.",
@@ -123,9 +123,9 @@
      "keywords": [
       "squeeze",
       "handle",
+      "thirty",
       "pounds",
-      "screen",
-      "thirty"
+      "screen"
      ],
      "suggestion": "Right. Squeeze the handle. Watch the screen. How much shall we put in? Thirty pounds? Or fill it up?",
      "suggestionFa": "خب. دسته را فشار بده. صفحه را نگاه کن. چقدر بزنیم؟ سی پوند؟ یا پرش کنیم؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "petrol",
-      "pounds",
       "clicks",
-      "click",
-      "isn't"
+      "pounds",
+      "petrol",
+      "cheap",
+      "fifty"
      ],
      "suggestion": "It clicks when it's full. Hear that? Click. Done. Fifty-two pounds. Petrol isn't cheap, is it?",
      "suggestionFa": "وقتی پر میشه تق می‌کنه. شنیدی؟ تق. تموم. پنجاه و دو پوند. بنزین ارزون نیست، نه؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "remember",
       "doesn't",
-      "petrol",
       "number",
-      "inside"
+      "inside",
+      "petrol"
      ],
      "suggestion": "Cheap petrol? Don't tell me, I'll cry. This pump doesn't take cards, so we pay inside. Remember the number: pump four.",
      "suggestionFa": "بنزین ارزون؟ نگو، گریه‌ام می‌گیره. این پمپ کارت قبول نمی‌کنه، پس داخل پرداخت می‌کنیم. شماره یادت بمونه: پمپ چهار.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "youtube",
-      "people",
       "always",
+      "people",
       "nozzle",
-      "don't"
+      "close"
      ],
      "suggestion": "Yes — always put it back and close the cap. Don't drive off with the nozzle! People do. I've seen it on YouTube.",
      "suggestionFa": "آره — همیشه سر جاش بذار و درِ باک را ببند. با نازل راه نیفت! مردم این کار را می‌کنن. تو یوتیوب دیدم.",

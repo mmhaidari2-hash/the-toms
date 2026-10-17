@@ -48,9 +48,9 @@
      "keywords": [
       "islington",
       "victoria",
-      "please",
       "reader",
-      "yellow"
+      "yellow",
+      "please"
      ],
      "suggestion": "It does! Angel, then Islington, then all the way to Victoria. Tap your card on the yellow reader, please.",
      "suggestionFa": "میره! اِینجل، بعد ایزلینگتون، بعد تا ته خط ویکتوریا. لطفاً کارتت را بزن روی دستگاه زرد.",
@@ -75,7 +75,7 @@
       "daily",
       "phone",
       "which",
-      "stop"
+      "fine"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
      "suggestionFa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "kidding",
-      "front",
-      "jokes",
-      "angel"
+      "there's",
+      "forty",
+      "angel",
+      "jokes"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
      "suggestionFa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "questions",
-      "drivers",
       "driving",
+      "drivers",
       "safety",
       "that's"
      ],
@@ -199,8 +199,8 @@
       "roundabout",
       "leslie",
       "don't",
-      "wrong",
-      "round"
+      "we're",
+      "wrong"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
      "suggestionFa": "خب — تو یه میدون مسیر را اشتباه رفتم. به لزلی نگو. محکم بگیر، راه افتادیم!",

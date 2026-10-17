@@ -25,7 +25,7 @@
       "school",
       "hello",
       "love",
-      "how"
+      "any"
      ],
      "suggestion": "Hello, love. How was school? Any homework?",
      "suggestionFa": "سلام عزیزم. مدرسه چطور بود؟ تکلیف داری؟",
@@ -100,7 +100,7 @@
       "apple",
       "have",
       "six",
-      "pie"
+      "now"
      ],
      "suggestion": "Shepherd's pie at six. Have an apple for now.",
      "suggestionFa": "پای چوپان ساعت شش. فعلاً یه سیب بخور.",
@@ -149,8 +149,8 @@
       "tomorrow",
       "room's",
       "thing",
-      "round",
-      "first"
+      "first",
+      "round"
      ],
      "suggestion": "Ryan! Hand it in tomorrow, first thing. Now, Josh can come round — if your room's tidy.",
      "suggestionFa": "رایان! فردا اول وقت تحویلش بده. حالا، جاش می‌تونه بیاد — اگه اتاقت مرتب باشه.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "enough",
-      "isn't",
       "shoes",
-      "take",
-      "good"
+      "isn't",
+      "good",
+      "sofa"
      ],
      "suggestion": "\"Ish\" isn't good enough. And take your shoes off the sofa!",
      "suggestionFa": "«تقریباً» کافی نیست. و کفش‌هات را از رو مبل بردار!",
@@ -198,9 +198,9 @@
      "keywords": [
       "never",
       "give",
-      "now",
       "mum",
-      "off"
+      "old",
+      "now"
      ],
      "suggestion": "Off! Now, give your mum a hug. You're never too old.",
      "suggestionFa": "بردار! حالا، مامانت را بغل کن. هیچ‌وقت برای این کار پیر نیستی.",

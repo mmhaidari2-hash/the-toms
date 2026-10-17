@@ -50,7 +50,7 @@
       "daddy",
       "mummy",
       "like",
-      "they"
+      "wake"
      ],
      "suggestion": "I get up at six! I wake up Mummy and Daddy. They don't like it!",
      "suggestionFa": "من ساعت شش پا می‌شم! مامان و بابا را بیدار می‌کنم. خوششون نمیاد!",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "morning",
-      "teeth",
       "every",
+      "teeth",
       "brush",
       "then"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "uniform",
       "dressed",
+      "uniform",
       "school",
       "green",
       "then"
@@ -124,8 +124,8 @@
       "breakfast",
       "cereal",
       "itchy",
-      "have",
-      "then"
+      "then",
+      "have"
      ],
      "suggestion": "It's itchy! Then I have breakfast. I have cereal. What do you have?",
      "suggestionFa": "خارش‌داره! بعد صبحانه می‌خورم. سریال (غلات) می‌خورم. تو چی می‌خوری؟",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "breakfast",
       "important",
+      "breakfast",
+      "says",
       "nana",
-      "need",
       "most"
      ],
      "suggestion": "You need breakfast! Nana says it's the most important meal.",

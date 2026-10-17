@@ -25,7 +25,7 @@
       "nicola",
       "cross",
       "road",
-      "park"
+      "hold"
      ],
      "suggestion": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
      "suggestionFa": "باید از خیابون رد بشیم که بریم پارک. نیکولا، دستم را بگیر، لطفاً.",
@@ -49,7 +49,7 @@
       "crossing",
       "stripes",
       "there's",
-      "white",
+      "black",
       "zebra"
      ],
      "suggestion": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "exactly",
-      "nicola",
       "what's",
-      "again",
-      "right"
+      "nicola",
+      "right",
+      "again"
      ],
      "suggestion": "Exactly! Look right, look left, look right again. Nicola, what's the rule?",
      "suggestionFa": "دقیقاً! راست، چپ، دوباره راست. نیکولا، قانونش چیه؟",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "traffic",
-      "lights",
       "here's",
+      "lights",
       "green",
       "road"
      ],
@@ -258,10 +258,10 @@
     {
      "keywords": [
       "swings",
-      "nicola",
       "here's",
+      "nicola",
       "well",
-      "park"
+      "hand"
      ],
      "suggestion": "Well done, both of you. Here's the park! Nicola, you can let go of my hand now. Run to the swings!",
      "suggestionFa": "آفرین به هر دوتون. اینم پارک! نیکولا، حالا می‌تونی دستم را ول کنی. بدو سمت تاب‌ها!",

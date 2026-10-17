@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "apples",
       "stairs",
-      "isn't",
-      "pears"
+      "apples",
+      "heard",
+      "isn't"
      ],
      "suggestion": "I've heard of that! Isn't \"apples and pears\" stairs?",
      "suggestionFa": "دربارهٔ اون شنیدم! «سیب و گلابی» یعنی پله‌ها، نه؟",
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "confusing",
       "brilliant",
+      "confusing",
       "that's",
       "but"
      ],
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "secret",
-      "code",
       "like",
+      "code",
       "was"
      ],
      "suggestion": "So it was like a secret code.",
@@ -187,7 +187,7 @@
       "porkies",
       "arthur",
       "honest",
-      "never"
+      "would"
      ],
      "suggestion": "I would never tell porkies, Arthur. Honest!",
      "suggestionFa": "من هیچ‌وقت پورکی نمی‌گم آرتور. راست می‌گم!",

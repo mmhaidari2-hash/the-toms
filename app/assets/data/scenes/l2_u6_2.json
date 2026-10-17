@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "year",
       "once",
-      "last"
+      "last",
+      "year"
      ],
      "suggestion": "Yes, once, last year.",
      "suggestionFa": "آره، یه بار، پارسال.",
@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "will",
-      "hurt"
+      "hurt",
+      "will"
      ],
      "suggestion": "Will it hurt?",
      "suggestionFa": "درد داره؟",
@@ -235,7 +235,7 @@
       "thank",
       "back",
       "when",
-      "come"
+      "must"
      ],
      "suggestion": "Thank you. When must I come back?",
      "suggestionFa": "ممنون. کی باید برگردم؟",

@@ -23,9 +23,9 @@
      "keywords": [
       "there",
       "wash",
+      "says",
       "many",
-      "turn",
-      "says"
+      "pans"
      ],
      "suggestion": "Ugh. Mum says it's my turn to wash up. There are so many pans!",
      "suggestionFa": "اوف. مامان میگه نوبت منه ظرف بشورم. این همه قابلمه!",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "cupboard",
-      "plates",
       "here's",
+      "plates",
       "great",
       "towel"
      ],
@@ -100,7 +100,7 @@
       "because",
       "broken",
       "don't",
-      "again"
+      "cloth"
      ],
      "suggestion": "It's just this cloth. Why don't we use the dishwasher? Because it's broken. Again!",
      "suggestionFa": "فقط همین پارچه‌ست. چرا از ماشین ظرفشویی استفاده نمی‌کنیم؟ چون خرابه. دوباره!",
@@ -123,9 +123,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "pass",
-      "sink",
-      "week"
+      "week",
+      "says",
+      "pass"
      ],
      "suggestion": "Next week, Mum says. Can you pass the washing-up liquid? It's by the sink.",
      "suggestionFa": "مامان میگه هفتهٔ بعد. می‌تونی مایع ظرفشویی را بدی؟ کنار سینکه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "burnt",
-      "again",
       "beans",
       "dirty",
-      "pan"
+      "again",
+      "one"
      ],
      "suggestion": "Yep, that one. Ugh, this pan is so dirty. Dad burnt the beans again!",
      "suggestionFa": "آره، همون. اوف، این قابلمه خیلی کثیفه. بابا دوباره لوبیاها را سوزوند!",
@@ -173,8 +173,8 @@
      "keywords": [
       "problem",
       "morning",
+      "leave",
       "shout",
-      "water",
       "dad's"
      ],
      "suggestion": "Good shout. I'll leave it in hot water till morning. Dad's problem now! Ha!",
@@ -200,7 +200,7 @@
       "quick",
       "done",
       "owe",
-      "was"
+      "one"
      ],
      "suggestion": "Done! That was quick with two of us. Thanks, Mehdi. I owe you one.",
      "suggestionFa": "تموم شد! با دو نفر سریع بود. ممنون {you}. یکی طلبت.",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "maybe",
       "fancy",
+      "maybe",
+      "deal",
       "i'll",
-      "easy",
-      "game"
+      "easy"
      ],
      "suggestion": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
      "suggestionFa": "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.",

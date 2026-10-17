@@ -24,8 +24,8 @@
       "scrambled",
       "breakfast",
       "leslie's",
-      "having",
-      "making"
+      "making",
+      "having"
      ],
      "suggestion": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
      "suggestionFa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "family",
-      "crack",
       "first",
+      "crack",
       "eight",
       "eggs"
      ],
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "problem",
-      "spoon",
       "whisk",
-      "them",
-      "fast"
+      "spoon",
+      "fast",
+      "them"
      ],
      "suggestion": "No problem. Get it out with a spoon. Now whisk them. Fast!",
      "suggestionFa": "مشکلی نیست. با قاشق درش بیار. حالا همشون بزن. سریع!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "pepper",
-      "some",
-      "fork",
       "milk",
-      "fine"
+      "some",
+      "fine",
+      "salt"
      ],
      "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
      "suggestionFa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "medium",
       "butter",
+      "medium",
       "pinch",
-      "heat",
-      "high"
+      "high",
+      "heat"
      ],
      "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
      "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
@@ -149,8 +149,8 @@
       "stirring",
       "slowly",
       "don't",
-      "stop",
-      "them"
+      "keep",
+      "pour"
      ],
      "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
      "suggestionFa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "they're",
+      "cooking",
+      "toast",
       "ready",
-      "still",
-      "toast"
+      "still"
      ],
      "suggestion": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
      "suggestionFa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "breakfast",
       "perfect",
-      "leslie",
       "served",
+      "leslie",
       "chefs"
      ],
      "suggestion": "Perfect! Breakfast is served. Leslie, wake up! The chefs have been busy!",

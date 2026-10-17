@@ -22,7 +22,7 @@
       "pocket",
       "money",
       "much",
-      "how"
+      "get"
      ],
      "suggestion": "How much pocket money does she get?",
      "suggestionFa": "چقدر پول توجیبی می‌گیره؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "saving",
-      "kids",
-      "hard"
+      "hard",
+      "kids"
      ],
      "suggestion": "Saving is hard for kids.",
      "suggestionFa": "پس‌انداز برای بچه‌ها سخته.",
@@ -113,9 +113,9 @@
    "branches": [
     {
      "keywords": [
-      "then",
       "need",
       "save",
+      "then",
       "up"
      ],
      "suggestion": "Then you need to save up.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "unicorn",
-      "choose",
       "sweets",
+      "choose",
       "one"
      ],
      "suggestion": "Sweets or unicorn? Choose one!",
@@ -173,8 +173,8 @@
     {
      "keywords": [
       "about",
-      "weeks",
-      "eight"
+      "eight",
+      "weeks"
      ],
      "suggestion": "About eight weeks.",
      "suggestionFa": "حدود هشت هفته.",
@@ -206,8 +206,8 @@
      "keywords": [
       "sweets",
       "don't",
-      "want",
-      "need"
+      "need",
+      "want"
      ],
      "suggestion": "You don't need sweets. You want sweets!",
      "suggestionFa": "آبنبات لازم نداری. آبنبات می‌خوای!",

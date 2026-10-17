@@ -74,7 +74,7 @@
       "inside",
       "thirty",
       "look",
-      "door"
+      "says"
      ],
      "suggestion": "Inside the door? Let me look. It says thirty-two.",
      "suggestionFa": "داخل در؟ بذار ببینم. نوشته سی و دو.",
@@ -249,7 +249,7 @@
       "minutes",
       "better",
       "four",
-      "i'd"
+      "run"
      ],
      "suggestion": "Four minutes? I'd better run!",
      "suggestionFa": "چهار دقیقه؟ بهتره بدوم!",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "here",
-      "can",
-      "fix"
+      "fix",
+      "can"
      ],
      "suggestion": "Can you fix it here?",
      "suggestionFa": "اینجا می‌تونید درستش کنید؟",
@@ -366,7 +366,7 @@
       "puncture",
       "i'll",
       "tell",
-      "tom"
+      "now"
      ],
      "suggestion": "A puncture. I'll tell Tom now.",
      "suggestionFa": "پنچری. الان به تام میگم.",

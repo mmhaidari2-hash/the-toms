@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
+      "orange",
       "please",
       "squash",
-      "orange",
       "water"
      ],
      "suggestion": "Not water. Squash, please! Orange squash.",
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "cupboard",
-      "little",
-      "squash",
       "strong",
+      "squash",
+      "little",
       "water"
      ],
      "suggestion": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "bottle",
-      "drinks",
       "fridge",
+      "drinks",
+      "bottle",
       "cross",
       "mummy"
      ],
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "green",
+      "which",
       "milk",
-      "blue",
-      "want"
+      "want",
+      "blue"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "likes",
       "daddy",
       "green",
-      "half",
-      "full"
+      "likes",
+      "full",
+      "half"
      ],
      "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
      "suggestionFa": "آبی پرچربه. سبز نصفه. قرمز بی‌چربی. بابا آبی دوست داره!",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "spilled",
+      "biscuit",
       "don't",
-      "clink",
-      "mummy"
+      "mummy",
+      "clink"
      ],
      "suggestion": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",
      "suggestionFa": "جرینگ! اوپس — یه کم ریختم. به مامان نگو! می‌شه باهاش یه بیسکویت بخورم؟",

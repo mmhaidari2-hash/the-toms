@@ -1,0 +1,345 @@
+{
+ "id": "l2_u35_4",
+ "characterId": "maya",
+ "title": "The quiet carriage",
+ "titleFa": "واگن سکوت",
+ "setting": "Trains and railcards · Level 2",
+ "settingFa": "قطار و کارت تخفیف",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Psst! Hello. Sorry to bother you, but this is the quiet carriage. See the sign on the window?",
+   "translations": {
+    "fa": "پیس! سلام. ببخشید مزاحم میشم، ولی اینجا واگن سکوته. علامت رو پنجره را می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "realise",
+      "didn't",
+      "sorry",
+      "oh"
+     ],
+     "suggestion": "Oh, sorry! I didn't realise.",
+     "suggestionFa": "اوه، ببخشید! متوجه نشدم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carriage",
+      "quiet",
+      "mean"
+     ],
+     "suggestion": "The quiet carriage? What does that mean?",
+     "suggestionFa": "واگن سکوت؟ یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bother",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "quiet carriage",
+     "fa": "واگن سکوت"
+    },
+    {
+     "word": "sign",
+     "fa": "علامت ؛ تابلو"
+    },
+    {
+     "word": "realise",
+     "fa": "متوجه شدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "No phone calls, no music out loud, quiet voices. It's for people who want to read or work. Your video call was quite… loud.",
+   "translations": {
+    "fa": "تماس تلفنی نه، موسیقی بلند نه، صدای آروم. برای کسانیه که می‌خوان بخونن یا کار کنن. تماس تصویریت یه‌کم… بلند بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "talking",
+      "sorry",
+      "iran",
+      "was"
+     ],
+     "suggestion": "Sorry! I was talking to my mum in Iran.",
+     "suggestionFa": "ببخشید! داشتم با مامانم تو ایران حرف می‌زدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carriage",
+      "another",
+      "move",
+      "can"
+     ],
+     "suggestion": "Can I move to another carriage?",
+     "suggestionFa": "می‌تونم برم یه واگن دیگه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phone calls",
+     "fa": "تماس‌های تلفنی"
+    },
+    {
+     "word": "out loud",
+     "fa": "با صدای بلند"
+    },
+    {
+     "word": "voices",
+     "fa": "صداها"
+    },
+    {
+     "word": "loud",
+     "fa": "بلند"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK trains have a \"Quiet Zone\" carriage. No phone calls, keep music in headphones, speak softly. People take it seriously!",
+    "fa": "بسیاری از قطارها «واگن سکوت» دارند که در آن تماس تلفنی ممنوع است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i didn't realised",
+      "i not realise"
+     ],
+     "echo": "You didn't realise? No problem.",
+     "better": "Sorry, I didn't realise.",
+     "betterFa": "ببخشید، متوجه نشدم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "Your mum! That's lovely. Coach B is normal. You can call her there. People here take the quiet carriage very seriously.",
+   "translations": {
+    "fa": "مامانت! چه قشنگ. واگن B عادیه. اونجا می‌تونی بهش زنگ بزنی. مردم اینجا واگن سکوت را خیلی جدی می‌گیرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coach",
+      "i'll",
+      "go",
+      "ok"
+     ],
+     "suggestion": "OK. I'll go to Coach B.",
+     "suggestionFa": "باشه. میرم واگن B.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seriously",
+      "angry",
+      "they",
+      "will"
+     ],
+     "suggestion": "Seriously? Will they be angry?",
+     "suggestionFa": "جدی؟ عصبانی میشن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "normal",
+     "fa": "عادی"
+    },
+    {
+     "word": "seriously",
+     "fa": "جدی"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "Not angry. Just… British. They tut. They sigh. They look at you over their newspaper. That's British for \"please stop\".",
+   "translations": {
+    "fa": "عصبانی نه. فقط… بریتانیایی. «نچ» می‌کنن. آه می‌کشن. از بالای روزنامه‌شون نگاهت می‌کنن. این یعنی به زبون بریتانیایی «لطفاً بس کن»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tutted",
+      "there",
+      "over",
+      "man"
+     ],
+     "suggestion": "Ha! That man over there tutted at me!",
+     "suggestionFa": "ها! اون آقا اونجا برام «نچ» کرد!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "tut"
+     ],
+     "suggestion": "What's a tut?",
+     "suggestionFa": "«تات» چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tut",
+     "fa": "صدای «نچ» (نارضایتی)"
+    },
+    {
+     "word": "sigh",
+     "fa": "آه کشیدن"
+    },
+    {
+     "word": "newspaper",
+     "fa": "روزنامه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "A little click with your tongue — \"tsk\". Very powerful here. Now — that lady is playing loud music. Could you help me?",
+   "translations": {
+    "fa": "یه صدای کوچیک با زبون — «تسک». اینجا خیلی قدرتمنده. خب — اون خانم داره بلند موسیقی پخش می‌کنه. میشه کمکم کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "say"
+     ],
+     "suggestion": "Me? What should I say?",
+     "suggestionFa": "من؟ چی بگم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "excuse",
+      "please",
+      "could",
+      "keep"
+     ],
+     "suggestion": "Excuse me, could you keep it down, please?",
+     "suggestionFa": "ببخشید، میشه لطفاً صداش را کم کنید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tongue",
+     "fa": "زبان (عضو)"
+    },
+    {
+     "word": "powerful",
+     "fa": "قدرتمند"
+    },
+    {
+     "word": "keep it down",
+     "fa": "صدا را کم کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Try: \"Excuse me, would you mind using headphones? This is the quiet carriage.\" Polite, but clear. Go on, practise on her.",
+   "translations": {
+    "fa": "امتحان کن: «ببخشید، اشکالی نداره هدفون بزنید؟ اینجا واگن سکوته.» مؤدب، ولی واضح. یالا، باهاش تمرین کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "headphones",
+      "excuse",
+      "using",
+      "would"
+     ],
+     "suggestion": "Excuse me, would you mind using headphones?",
+     "suggestionFa": "ببخشید، اشکالی نداره هدفون بزنید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maya",
+      "shy",
+      "say",
+      "can"
+     ],
+     "suggestion": "I'm too shy. Can you say it, Maya?",
+     "suggestionFa": "خیلی خجالتی‌ام. تو میگی مایا؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "headphones",
+     "fa": "هدفون"
+    },
+    {
+     "word": "polite",
+     "fa": "مؤدب"
+    },
+    {
+     "word": "clear",
+     "fa": "واضح"
+    },
+    {
+     "word": "shy",
+     "fa": "خجالتی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "You did it! She said sorry and put her headphones on. Look — the newspaper man is smiling at you. You're officially British now!",
+   "translations": {
+    "fa": "انجامش دادی! عذرخواهی کرد و هدفونش را گذاشت. ببین — آقای روزنامه‌خون داره بهت لبخند می‌زنه. رسماً بریتانیایی شدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

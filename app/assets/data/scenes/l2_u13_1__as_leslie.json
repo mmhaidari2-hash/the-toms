@@ -106,8 +106,8 @@
       "surname",
       "that's",
       "birth",
-      "let's",
-      "paper"
+      "paper",
+      "first"
      ],
      "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
      "suggestionFa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.",
@@ -131,8 +131,8 @@
       "americans",
       "address",
       "drives",
-      "month",
-      "other"
+      "other",
+      "month"
      ],
      "suggestion": "Yes — day, then month, then year. Americans do it the other way. It drives me mad! Next, your address.",
      "suggestionFa": "آره — روز، بعد ماه، بعد سال. آمریکایی‌ها برعکس می‌نویسن. دیوونه‌م می‌کنه! بعدی، آدرست.",
@@ -154,10 +154,10 @@
     {
      "keywords": [
       "previous",
-      "doctor",
       "before",
+      "doctor",
       "boxes",
-      "have"
+      "seen"
      ],
      "suggestion": "Yes, in the boxes. Now — \"previous GP\". Have you seen a doctor in the UK before?",
      "suggestionFa": "آره، تو این خونه‌ها. حالا — «پزشک قبلی». قبلاً تو بریتانیا دکتر رفتی؟",
@@ -179,10 +179,10 @@
     {
      "keywords": [
       "number",
+      "leave",
       "don't",
-      "write",
       "blank",
-      "leave"
+      "write"
      ],
      "suggestion": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
      "suggestionFa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.",
@@ -204,10 +204,10 @@
     {
      "keywords": [
       "questions",
-      "register",
       "drinking",
+      "register",
       "smoking",
-      "health"
+      "number"
      ],
      "suggestion": "It's your health number. You'll get one after you register. Now, the questions about smoking and drinking…",
      "suggestionFa": "شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…",
@@ -230,9 +230,9 @@
      "keywords": [
       "receptionist",
       "bottom",
-      "let's",
       "boxes",
-      "these"
+      "these",
+      "let's"
      ],
      "suggestion": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
      "suggestionFa": "خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی.",

@@ -72,8 +72,8 @@
     {
      "keywords": [
       "medicine",
-      "time",
-      "dose"
+      "dose",
+      "time"
      ],
      "suggestion": "The medicine, the dose and the time.",
      "suggestionFa": "اسم دارو، مقدار و ساعت.",
@@ -84,9 +84,9 @@
     {
      "keywords": [
       "have",
-      "when",
+      "last",
       "some",
-      "last"
+      "when"
      ],
      "suggestion": "When did he last have some?",
      "suggestionFa": "آخرین بار کی خورده؟",
@@ -133,8 +133,8 @@
      "keywords": [
       "thanks",
       "please",
-      "here",
-      "sign"
+      "sign",
+      "here"
      ],
      "suggestion": "Thanks. Please sign here.",
      "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
@@ -177,10 +177,10 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "hours",
-      "time",
-      "last"
+      "after",
+      "last",
+      "time"
      ],
      "suggestion": "48 hours after the last time?",
      "suggestionFa": "۴۸ ساعت بعد از آخرین بار؟",
@@ -245,8 +245,8 @@
     {
      "keywords": [
       "number",
-      "still",
       "phone",
+      "still",
       "same"
      ],
      "suggestion": "Is your phone number still the same?",

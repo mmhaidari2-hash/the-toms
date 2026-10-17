@@ -25,7 +25,7 @@
       "speak",
       "hello",
       "mummy",
-      "true"
+      "says"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
      "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "persian",
       "school",
-      "learn",
       "hello",
+      "learn",
       "how"
      ],
      "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
@@ -98,9 +98,9 @@
      "keywords": [
       "persian",
       "salaam",
-      "speak",
+      "about",
       "thank",
-      "about"
+      "speak"
      ],
      "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
      "suggestionFa": "سَ-لام! سلام! حالا من فارسی بلدم! «ممنون» چی؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "persian",
-      "french",
+      "english",
       "that's",
-      "speak"
+      "french",
+      "merci"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
      "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "football",
-      "english",
       "there's",
-      "talks",
-      "daddy"
+      "english",
+      "daddy",
+      "telly"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
      "suggestionFa": "ها! بابا هم با تلویزیون حرف می‌زنه. وقتی فوتباله. انگلیسی سخته؟",
@@ -174,8 +174,8 @@
       "spelling",
       "nobody",
       "knife",
-      "ellis",
-      "knows"
+      "knows",
+      "ellis"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
      "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "persian",
+      "english",
       "clever",
       "salaam",
       "merci"

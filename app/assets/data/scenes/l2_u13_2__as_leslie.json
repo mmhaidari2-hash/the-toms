@@ -24,7 +24,7 @@
       "address",
       "letter",
       "proof",
-      "bill",
+      "bank",
       "have"
      ],
      "suggestion": "Proof of address. Hmm. Have you got a bank letter, or a gas bill?",
@@ -106,8 +106,8 @@
       "contract",
       "signed",
       "moved",
-      "door",
-      "room"
+      "room",
+      "door"
      ],
      "suggestion": "It's the contract for your room. You signed it when you moved in next door.",
      "suggestionFa": "قرارداد اتاقته. وقتی اومدی خونهٔ بغلی امضاش کردی.",
@@ -390,8 +390,8 @@
     {
      "keywords": [
       "healthy",
-      "carrot",
       "coffee",
+      "carrot",
       "let's",
       "cakes"
      ],

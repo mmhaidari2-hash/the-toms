@@ -33,9 +33,9 @@
     {
      "keywords": [
       "never",
-      "done",
+      "show",
       "i've",
-      "show"
+      "done"
      ],
      "suggestion": "I've never done it in the UK. Show me?",
      "suggestionFa": "تا حالا تو بریتانیا این کار را نکردم. نشونم میدی؟",
@@ -259,9 +259,9 @@
     },
     {
      "keywords": [
-      "pounds",
+      "enough",
       "thirty",
-      "enough"
+      "pounds"
      ],
      "suggestion": "Thirty pounds is enough.",
      "suggestionFa": "سی پوند کافیه.",
@@ -314,7 +314,7 @@
       "fifty",
       "pump",
       "two",
-      "can"
+      "pay"
      ],
      "suggestion": "Fifty-two! Can I pay at the pump?",
      "suggestionFa": "پنجاه و دو! می‌تونم کنار پمپ پرداخت کنم؟",
@@ -348,9 +348,9 @@
    "branches": [
     {
      "keywords": [
-      "pump",
       "i'll",
       "four",
+      "pump",
       "pay"
      ],
      "suggestion": "Pump four. I'll go and pay.",
@@ -364,7 +364,7 @@
       "nozzle",
       "first",
       "back",
-      "can"
+      "put"
      ],
      "suggestion": "Can I put the nozzle back first?",
      "suggestionFa": "اول نازل را سر جاش بذارم؟",

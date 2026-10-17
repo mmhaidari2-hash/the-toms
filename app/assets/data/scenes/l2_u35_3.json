@@ -1,0 +1,347 @@
+{
+ "id": "l2_u35_3",
+ "characterId": "maya",
+ "title": "Platform change",
+ "titleFa": "تغییر سکو",
+ "setting": "Trains and railcards · Level 2",
+ "settingFa": "قطار و کارت تخفیف",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Hello again! You're running. Are you OK? The Brighton train's changed platforms. Did you hear the announcement?",
+   "translations": {
+    "fa": "دوباره سلام! داری می‌دوی. خوبی؟ قطار برایتون سکوش عوض شده. اعلامیه را شنیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "platform",
+      "which",
+      "now"
+     ],
+     "suggestion": "No! Which platform is it now?",
+     "suggestionFa": "نه! الان کدوم سکوئه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "something",
+      "didn't",
+      "heard"
+     ],
+     "suggestion": "I heard something, but I didn't understand.",
+     "suggestionFa": "یه چیزی شنیدم، ولی نفهمیدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "running",
+     "fa": "دویدن"
+    },
+    {
+     "word": "platforms",
+     "fa": "سکوها"
+    },
+    {
+     "word": "announcement",
+     "fa": "اعلامیه ؛ اطلاعیه"
+    },
+    {
+     "word": "understand",
+     "fa": "فهمیدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "\"The 11:15 to Brighton is now departing from platform 17.\" Not 14. Look at the big board. It's over there, at the end.",
+   "translations": {
+    "fa": "«قطار ۱۱:۱۵ به برایتون اکنون از سکوی ۱۷ حرکت می‌کند.» نه ۱۴. تابلوی بزرگ را ببین. اونجاست، ته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "platform",
+      "have",
+      "long",
+      "how"
+     ],
+     "suggestion": "Platform 17. How long have I got?",
+     "suggestionFa": "سکوی ۱۷. چقدر وقت دارم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seventeen",
+      "that's",
+      "far"
+     ],
+     "suggestion": "Seventeen? That's far!",
+     "suggestionFa": "هفده؟ دوره!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "departing",
+     "fa": "حرکت می‌کند"
+    },
+    {
+     "word": "board",
+     "fa": "تابلو"
+    },
+    {
+     "word": "end",
+     "fa": "انتها"
+    },
+    {
+     "word": "far",
+     "fa": "دور"
+    }
+   ],
+   "cultureNote": {
+    "en": "Platforms can change at the last minute in UK stations. Always check the departure boards and listen for announcements.",
+    "fa": "سکو ممکن است در دقیقهٔ آخر عوض شود؛ همیشه تابلوها را چک کنید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "Four minutes. Walk quickly, don't run on the stairs. I'm on that train too — I'll walk with you.",
+   "translations": {
+    "fa": "چهار دقیقه. تند راه برو، رو پله‌ها ندو. منم سوار همون قطارم — باهات میام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brighton",
+      "thank",
+      "train"
+     ],
+     "suggestion": "Thank you! Is this the train to Brighton?",
+     "suggestionFa": "ممنون! این قطار به برایتونه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "change",
+      "why",
+      "did"
+     ],
+     "suggestion": "Why did it change?",
+     "suggestionFa": "چرا عوض شد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quickly",
+     "fa": "سریع"
+    },
+    {
+     "word": "stairs",
+     "fa": "پله‌ها"
+    },
+    {
+     "word": "walk with",
+     "fa": "همراه رفتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "this is the train to brighton?",
+      "is this train for brighton"
+     ],
+     "echo": "Is this the train to Brighton? Yes!",
+     "better": "Is this the train to Brighton?",
+     "betterFa": "این قطار به برایتون است؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "This is it. It calls at Clapham Junction, East Croydon, Gatwick, then Brighton. Only the front four coaches go to Brighton!",
+   "translations": {
+    "fa": "خودشه. تو کلپم جانکشن، ایست کرویدون، گتویک، بعد برایتون توقف می‌کنه. فقط چهار واگن جلو تا برایتون میرن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "coaches",
+      "other"
+     ],
+     "suggestion": "What happens to the other coaches?",
+     "suggestionFa": "واگن‌های دیگه چی میشن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wrong",
+      "back",
+      "part"
+     ],
+     "suggestion": "I'm at the back. Am I in the wrong part?",
+     "suggestionFa": "من عقبم. تو قسمت اشتباهم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "calls at",
+     "fa": "توقف می‌کند در"
+    },
+    {
+     "word": "coaches",
+     "fa": "واگن‌ها"
+    },
+    {
+     "word": "front",
+     "fa": "جلو"
+    },
+    {
+     "word": "back",
+     "fa": "عقب"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "The back coaches split at Haywards Heath and go somewhere else. Lots of people end up in Littlehampton by mistake!",
+   "translations": {
+    "fa": "واگن‌های عقب تو هیوردز هیث جدا میشن و میرن یه جای دیگه. خیلی‌ها اشتباهی سر از لیتل‌همپتون درمیارن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "front",
+      "i'll",
+      "move",
+      "now"
+     ],
+     "suggestion": "Oh no! I'll move to the front now.",
+     "suggestionFa": "وای نه! الان میرم جلو.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trains",
+      "split",
+      "two"
+     ],
+     "suggestion": "Split? Trains split in two?",
+     "suggestionFa": "جدا؟ قطارها دو تکه میشن؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "split",
+     "fa": "جدا شدن ؛ دو تکه شدن"
+    },
+    {
+     "word": "somewhere else",
+     "fa": "جای دیگر"
+    },
+    {
+     "word": "end up",
+     "fa": "سر درآوردن"
+    },
+    {
+     "word": "by mistake",
+     "fa": "اشتباهی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "They do! Walk through the train while it's at the platform. Coach A to D. You've got two minutes.",
+   "translations": {
+    "fa": "میشن! تا قطار تو سکوئه از داخلش رد شو. واگن A تا D. دو دقیقه وقت داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coach",
+      "there",
+      "seat",
+      "c"
+     ],
+     "suggestion": "Coach C. Is there a seat?",
+     "suggestionFa": "واگن C. صندلی هست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "saved",
+      "thank",
+      "maya",
+      "day"
+     ],
+     "suggestion": "Thank you, Maya. You saved my day!",
+     "suggestionFa": "ممنون مایا. روزم را نجات دادی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walk through",
+     "fa": "از داخل عبور کردن"
+    },
+    {
+     "word": "seat",
+     "fa": "صندلی"
+    },
+    {
+     "word": "saved",
+     "fa": "نجات داد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "Coach C is quiet. Sit down and relax. And next time — always check the board, then listen. Platforms love to change!",
+   "translations": {
+    "fa": "واگن C خلوته. بشین و استراحت کن. دفعهٔ بعد — همیشه تابلو را چک کن، بعد گوش بده. سکوها عاشق عوض شدنن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "postman",
-      "when",
       "came",
+      "when",
       "was"
      ],
      "suggestion": "Yes. I was out when the postman came.",
@@ -122,9 +122,9 @@
   "n3": {
    "id": "n3",
    "speaker": "arthur",
-   "text": "Parcels that need a signature can't go to a neighbour. Now, it says \"Leslie Tom\". Is that you?",
+   "text": "Parcels that need a signature can't go to a neighbour. Now, it says \"Leslie Thompson\". Is that you?",
    "translations": {
-    "fa": "بسته‌هایی که امضا لازم دارن نمی‌تونن برن پیش همسایه. خب، نوشته «لزلی تام». تویی؟"
+    "fa": "بسته‌هایی که امضا لازم دارن نمی‌تونن برن پیش همسایه. خب، نوشته «لزلی تامپسون». تویی؟"
    },
    "branches": [
     {
@@ -144,8 +144,8 @@
      "keywords": [
       "sorry",
       "wrong",
-      "took",
-      "card"
+      "card",
+      "took"
      ],
      "suggestion": "Oh! I took the wrong card. Sorry!",
      "suggestionFa": "اوه! کارت اشتباهی را برداشتم. ببخشید!",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "licence",
       "driving",
+      "licence",
       "photo",
       "here"
      ],
@@ -308,8 +308,8 @@
      "keywords": [
       "arthur",
       "thank",
-      "know",
-      "good"
+      "good",
+      "know"
      ],
      "suggestion": "Good to know. Thank you, Arthur!",
      "suggestionFa": "خوب شد فهمیدم. ممنون آرتور!",

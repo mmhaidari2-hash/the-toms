@@ -82,9 +82,9 @@
     },
     {
      "keywords": [
-      "space",
       "there",
-      "class"
+      "class",
+      "space"
      ],
      "suggestion": "Is there space in the class?",
      "suggestionFa": "تو کلاس جا هست؟",
@@ -129,7 +129,7 @@
       "boxercise",
       "spaces",
       "let's",
-      "then"
+      "book"
      ],
      "suggestion": "Let's book boxercise, then. Two spaces!",
      "suggestionFa": "پس بوکسرسایز رزرو کنیم. دو تا جا!",
@@ -246,8 +246,8 @@
     {
      "keywords": [
       "brilliant",
-      "snored",
       "that's",
+      "snored",
       "yoga"
      ],
      "suggestion": "You snored in yoga? That's brilliant!",
@@ -313,7 +313,7 @@
       "thursday",
       "can't",
       "come",
-      "we"
+      "if"
      ],
      "suggestion": "What if we can't come on Thursday?",
      "suggestionFa": "اگه پنج‌شنبه نتونستیم بیایم چی؟",

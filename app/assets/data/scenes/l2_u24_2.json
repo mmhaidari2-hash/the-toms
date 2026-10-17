@@ -33,8 +33,8 @@
     {
      "keywords": [
       "coats",
-      "here",
       "sell",
+      "here",
       "they"
      ],
      "suggestion": "Do they sell coats here? It's so big!",
@@ -75,7 +75,7 @@
      "keywords": [
       "jumper",
       "items",
-      "then",
+      "take",
       "i'll"
      ],
      "suggestion": "Six items? Then I'll take a jumper too.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "what's",
       "number",
+      "what's",
       "tag"
      ],
      "suggestion": "What's the number tag for?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "sleeves",
-      "small",
-      "short"
+      "short",
+      "small"
      ],
      "suggestion": "It's too small. The sleeves are short.",
      "suggestionFa": "خیلی کوچیکه. آستیناش کوتاهه.",
@@ -143,9 +143,9 @@
     {
      "keywords": [
       "tight",
-      "here",
       "fits",
-      "but"
+      "here",
+      "bit"
      ],
      "suggestion": "It fits! But it's a bit tight here.",
      "suggestionFa": "اندازه‌ست! ولی اینجاش یه‌کم تنگه.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "help",
-      "can",
       "ask",
+      "can",
       "her"
      ],
      "suggestion": "Can I help? I can ask her.",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "possible",
-      "thanks",
       "leslie",
+      "thanks",
       "black"
      ],
      "suggestion": "Thanks, Leslie. In black, if possible.",
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "hood",
+      "i'll",
       "take",
       "has"
      ],
@@ -372,8 +372,8 @@
      "keywords": [
       "anything",
       "buying",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea. Are you buying anything?",
      "suggestionFa": "فکر خوبیه. تو چیزی می‌خری؟",

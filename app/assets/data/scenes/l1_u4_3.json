@@ -82,9 +82,9 @@
     {
      "keywords": [
       "station",
-      "worry",
       "don't",
-      "close"
+      "close",
+      "worry"
      ],
      "suggestion": "Don't worry, the station is close.",
      "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "kettle",
-      "keys",
-      "next"
+      "next",
+      "keys"
      ],
      "suggestion": "Your keys are next to the kettle.",
      "suggestionFa": "کلیدهات کنار کتری‌ان.",
@@ -243,8 +243,8 @@
     {
      "keywords": [
       "shepherd's",
-      "yum",
-      "pie"
+      "pie",
+      "yum"
      ],
      "suggestion": "Shepherd's pie? Yum!",
      "suggestionFa": "پای چوپان؟ به‌به!",
@@ -278,8 +278,8 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "good",
+      "have",
       "bye",
       "day"
      ],

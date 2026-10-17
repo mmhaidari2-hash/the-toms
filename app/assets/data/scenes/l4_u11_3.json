@@ -20,8 +20,8 @@
     {
      "keywords": [
       "learning",
-      "family",
       "friend",
+      "family",
       "about"
      ],
      "suggestion": "Hi, I'm a friend of the family. I'm learning about cars!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "here",
       "wait",
+      "here",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "home",
-      "safe"
+      "safe",
+      "home"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
-      "much",
       "both",
-      "cost"
+      "cost",
+      "much"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "today",
       "let's",
+      "today",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "tyres",
-      "left",
       "long",
+      "left",
       "how"
      ],
      "suggestion": "How long have the tyres got left?",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "winter",
       "before",
+      "winter",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -416,8 +416,8 @@
     {
      "keywords": [
       "garages",
-      "thanks",
       "upsell",
+      "thanks",
       "honest"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",

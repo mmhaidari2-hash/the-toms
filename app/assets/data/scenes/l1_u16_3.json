@@ -61,8 +61,8 @@
    "branches": [
     {
      "keywords": [
-      "small",
       "knife",
+      "small",
       "ok"
      ],
      "suggestion": "OK. This small knife?",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "knives",
-      "where",
+      "clean",
       "hands",
-      "clean"
+      "where"
      ],
      "suggestion": "My hands are clean. Where are the knives?",
      "suggestionFa": "دستام تمیزه. چاقوها کجان؟",
@@ -120,8 +120,8 @@
     },
     {
      "keywords": [
-      "lovely",
-      "smells"
+      "smells",
+      "lovely"
      ],
      "suggestion": "It smells lovely!",
      "suggestionFa": "بوی خوبی می‌ده!",
@@ -172,8 +172,8 @@
      "keywords": [
       "coming",
       "piece",
-      "one",
-      "off"
+      "off",
+      "one"
      ],
      "suggestion": "It's coming off in one piece!",
      "suggestionFa": "داره یه تیکه کنده میشه!",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "longest",
-      "night",
       "poems",
+      "night",
       "fruit"
      ],
      "suggestion": "It's the longest night. We eat fruit and read poems.",

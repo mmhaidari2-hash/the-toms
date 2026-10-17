@@ -19,13 +19,13 @@
    "branches": [
     {
      "keywords": [
+      "thompson",
       "leslie",
       "order",
-      "i've",
-      "come"
+      "i've"
      ],
-     "suggestion": "Yes. I've come to collect an order for Leslie Tom.",
-     "suggestionFa": "آره. اومدم سفارش لزلی تام را تحویل بگیرم.",
+     "suggestion": "Yes. I've come to collect an order for Leslie Thompson.",
+     "suggestionFa": "آره. اومدم سفارش لزلی تامپسون را تحویل بگیرم.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "seven",
-      "nine",
       "four",
+      "nine",
       "two"
      ],
      "suggestion": "It's CC four-seven-nine-two.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "leslie's",
-      "email",
       "phone",
+      "email",
       "show"
      ],
      "suggestion": "It's on Leslie's phone. Can I show you the email?",
@@ -310,8 +310,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "myself",
+      "thanks",
       "i'll",
       "them"
      ],

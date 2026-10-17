@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "talks",
       "about",
+      "talks",
       "doris",
       "tom"
      ],
@@ -53,10 +53,10 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "maggie",
+      "didn't",
       "nana",
-      "tap"
+      "why"
      ],
      "suggestion": "Why didn't you tap, Nana Maggie?",
      "suggestionFa": "چرا کارت نزدی ننه مگی؟",
@@ -120,8 +120,8 @@
      "keywords": [
       "can",
       "age",
-      "get",
-      "one"
+      "one",
+      "get"
      ],
      "suggestion": "At what age can you get one?",
      "suggestionFa": "از چند سالگی میشه گرفتش؟",
@@ -177,7 +177,7 @@
       "years",
       "must",
       "use",
-      "lot"
+      "ten"
      ],
      "suggestion": "Ten years! You must use it a lot.",
      "suggestionFa": "ده سال! حتماً زیاد ازش استفاده می‌کنی.",
@@ -228,8 +228,8 @@
      "keywords": [
       "that's",
       "years",
-      "time",
-      "five"
+      "long",
+      "time"
      ],
      "suggestion": "Five years. That's a long time.",
      "suggestionFa": "پنج سال. مدت زیادیه.",
@@ -241,8 +241,8 @@
      "keywords": [
       "maggie",
       "yours",
-      "when",
-      "nana"
+      "nana",
+      "when"
      ],
      "suggestion": "Nana Maggie, when does yours run out?",
      "suggestionFa": "ننه مگی، مال تو کی تموم میشه؟",
@@ -268,8 +268,8 @@
    "branches": [
     {
      "keywords": [
-      "online",
       "maggie",
+      "online",
       "renew",
       "nana"
      ],
@@ -388,8 +388,8 @@
     {
      "keywords": [
       "maggie",
-      "nana",
       "take",
+      "nana",
       "home"
      ],
      "suggestion": "Nana Maggie, we can take it at home.",

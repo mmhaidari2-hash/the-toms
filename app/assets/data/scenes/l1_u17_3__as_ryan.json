@@ -48,9 +48,9 @@
      "keywords": [
       "school",
       "can't",
-      "wait",
       "late",
-      "cube"
+      "cube",
+      "wait"
      ],
      "suggestion": "I can't wait. I'm late for school! Can I put an ice cube in it?",
      "suggestionFa": "نمی‌تونم صبر کنم. برای مدرسه دیرم شده! می‌شه یه تیکه یخ بندازم توش؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "milky",
-      "good",
-      "idea",
       "milk",
-      "cold"
+      "good",
+      "cold",
+      "idea"
      ],
      "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
      "suggestionFa": "فکر خوبیه. شیر… وای نه! حالا خیلی سرده! و خیلی شیری شد!",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "seconds",
-      "twenty",
       "sugars",
-      "sweet",
+      "twenty",
+      "three",
       "there"
      ],
      "suggestion": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
@@ -124,8 +124,8 @@
       "always",
       "nicola",
       "i'll",
-      "make",
-      "want"
+      "want",
+      "make"
      ],
      "suggestion": "Nicola! She always does that. OK, I'll make a new one. Do you want one?",
      "suggestionFa": "نیکولا! همیشه این کار را می‌کنه. باشه، یکی دیگه درست می‌کنم. تو هم می‌خوای؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "sugar",
+      "water",
       "right",
-      "just",
-      "milk"
+      "milk",
+      "just"
      ],
      "suggestion": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
      "suggestionFa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!",
@@ -198,9 +198,9 @@
      "keywords": [
       "goldilocks",
       "drink",
+      "time",
       "late",
-      "look",
-      "time"
+      "look"
      ],
      "suggestion": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",
      "suggestionFa": "ها! موطلایی! وای نه — ساعت را ببین! خیلی دیرم شد! می‌تونی تو برام بخوریش؟ خداحافظ!",
@@ -225,7 +225,7 @@
       "cheers",
       "later",
       "tell",
-      "see"
+      "mum"
      ],
      "suggestion": "Cheers! See you later! Tell Mum I had breakfast!",
      "suggestionFa": "ممنون! بعداً می‌بینمت! به مامان بگو صبحونه خوردم!",

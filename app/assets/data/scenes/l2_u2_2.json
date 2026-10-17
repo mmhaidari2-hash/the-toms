@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "like",
       "iran",
       "send",
-      "like",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel to Iran, please.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "books",
-      "three",
-      "there"
+      "there",
+      "three"
      ],
      "suggestion": "There are three books.",
      "suggestionFa": "سه‌تا کتاب هست.",
@@ -194,8 +194,8 @@
     },
     {
      "keywords": [
-      "many",
       "only",
+      "many",
       "two"
      ],
      "suggestion": "Not many — only two.",
@@ -283,8 +283,8 @@
     {
      "keywords": [
       "tracked",
-      "i'll",
-      "take"
+      "take",
+      "i'll"
      ],
      "suggestion": "I'll take tracked, please.",
      "suggestionFa": "با رهگیری را می‌گیرم لطفاً.",

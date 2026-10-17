@@ -24,8 +24,8 @@
       "hackney",
       "welcome",
       "right",
-      "farm",
-      "city"
+      "here",
+      "farm"
      ],
      "suggestion": "Welcome to the city farm! It's right here in Hackney. What can you see?",
      "suggestionFa": "به مزرعهٔ شهری خوش اومدی! همین‌جا تو هاکنیه. چی می‌بینی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "that's",
-      "doris",
       "she's",
-      "say",
-      "old"
+      "doris",
+      "old",
+      "say"
      ],
      "suggestion": "Yes! That's Doris the pig. She's very old. What does a pig say?",
      "suggestionFa": "آره! اون دوریس خوکه. خیلی پیره. خوک چی می‌گه؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "sheep",
-      "oink",
       "says",
-      "cow",
+      "oink",
+      "moo",
       "say"
      ],
      "suggestion": "Oink! And a cow says \"moo\". What does a sheep say?",
@@ -98,8 +98,8 @@
      "keywords": [
       "chickens",
       "william",
-      "loves",
       "can't",
+      "loves",
       "well"
      ],
      "suggestion": "Well done! Look, William loves the chickens. Chickens can't fly very well.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "little",
-      "pound",
       "would",
       "goats",
-      "just"
+      "pound",
+      "like"
      ],
      "suggestion": "Just a little. Would you like to feed the goats? It's one pound for a bag.",
      "suggestionFa": "فقط یه کم. می‌خوای به بزها غذا بدی؟ یه کیسه یه پونده.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "everything",
-      "watch",
       "don't",
+      "watch",
       "bite",
-      "coat"
+      "they"
      ],
      "suggestion": "No, they don't bite. But they eat everything! Watch your coat!",
      "suggestionFa": "نه، گاز نمی‌گیرن. ولی همه چی می‌خورن! مواظب کتت باش!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "horses",
-      "horse",
       "there",
-      "look",
-      "like"
+      "horse",
+      "like",
+      "over"
      ],
      "suggestion": "Look over there! A horse. Do you like horses?",
      "suggestionFa": "اونجا را ببین! یه اسب. اسب دوست داری؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "always",
       "hands",
-      "must",
       "wash",
+      "must",
       "farm"
      ],
      "suggestion": "Now we must wash our hands. Always wash your hands at a farm!",
@@ -223,9 +223,9 @@
      "keywords": [
       "william",
       "goodbye",
+      "cream",
       "wants",
-      "doris",
-      "cream"
+      "doris"
      ],
      "suggestion": "Yes, an ice cream at the café! William wants to say goodbye to Doris the pig first. Bye, Doris!",
      "suggestionFa": "آره، یه بستنی تو کافه! ویلیام اول می‌خواد با دوریس خوکه خداحافظی کنه. خداحافظ دوریس!",

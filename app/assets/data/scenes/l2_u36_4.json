@@ -1,0 +1,408 @@
+{
+ "id": "l2_u36_4",
+ "characterId": "weda",
+ "title": "Registering to vote",
+ "titleFa": "ثبت‌نام برای رأی دادن",
+ "setting": "The council · Level 2",
+ "settingFa": "شورای شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Look at this letter, dear. \"Household enquiry — who lives here?\" They send it every year. Are you registered?",
+   "translations": {
+    "fa": "این نامه را ببین عزیزم. «استعلام خانوار — چه کسانی اینجا زندگی می‌کنند؟» هر سال می‌فرستنش. ثبت‌نام کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "registered"
+     ],
+     "suggestion": "Registered for what?",
+     "suggestionFa": "برای چی ثبت‌نام؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "british",
+      "vote",
+      "can"
+     ],
+     "suggestion": "I'm not British. Can I vote?",
+     "suggestionFa": "من بریتانیایی نیستم. می‌تونم رأی بدم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "household",
+     "fa": "خانوار"
+    },
+    {
+     "word": "enquiry",
+     "fa": "استعلام"
+    },
+    {
+     "word": "address",
+     "fa": "آدرس"
+    },
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام‌شده"
+    },
+    {
+     "word": "vote",
+     "fa": "رأی دادن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "The electoral register — the list of voters. Some residents from abroad can vote in local elections. Let's ask Ms Ward.",
+   "translations": {
+    "fa": "فهرست رأی‌دهندگان. بعضی ساکنان خارجی می‌تونن تو انتخابات محلی رأی بدن. بیا از خانم وارد بپرسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eligible",
+      "who"
+     ],
+     "suggestion": "Who is eligible?",
+     "suggestionFa": "کی واجد شرایطه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "elections",
+      "council",
+      "local",
+      "like"
+     ],
+     "suggestion": "Local elections? Like for the council?",
+     "suggestionFa": "انتخابات محلی؟ مثل شورا؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "electoral register",
+     "fa": "فهرست رأی‌دهندگان"
+    },
+    {
+     "word": "voters",
+     "fa": "رأی‌دهندگان"
+    },
+    {
+     "word": "foreign",
+     "fa": "خارجی"
+    },
+    {
+     "word": "local elections",
+     "fa": "انتخابات محلی"
+    },
+    {
+     "word": "eligible",
+     "fa": "واجد شرایط"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "council",
+   "text": "Good question. British, Irish and qualifying Commonwealth citizens can vote. Some EU citizens too, in local elections.",
+   "translations": {
+    "fa": "سؤال خوبیه. شهروندان بریتانیا، ایرلند و کشورهای مشترک‌المنافع واجد شرایط می‌تونن رأی بدن. بعضی شهروندان اتحادیهٔ اروپا هم، در انتخابات محلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "citizens",
+      "iranian",
+      "about"
+     ],
+     "suggestion": "What about Iranian citizens?",
+     "suggestionFa": "شهروندان ایرانی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "check",
+      "need",
+      "visa"
+     ],
+     "suggestion": "So I need to check my visa?",
+     "suggestionFa": "پس باید ویزام را چک کنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "citizens",
+     "fa": "شهروندان"
+    },
+    {
+     "word": "Commonwealth",
+     "fa": "کشورهای مشترک‌المنافع"
+    },
+    {
+     "word": "qualifying",
+     "fa": "واجد شرایط"
+    },
+    {
+     "word": "EU",
+     "fa": "اتحادیهٔ اروپا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Rules for who can vote in the UK depend on nationality and the type of election. Check gov.uk before you register. Registering is free and takes about five minutes.",
+    "fa": "قوانین رأی دادن به ملیت و نوع انتخابات بستگی دارد؛ ثبت‌نام رایگان است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "council",
+   "text": "Iranian citizens can't vote, I'm afraid — not until you become British. But you must still reply to the letter. It's the law.",
+   "translations": {
+    "fa": "متأسفانه شهروندان ایرانی نمی‌تونن رأی بدن — تا وقتی بریتانیایی بشید. ولی بازم باید به نامه جواب بدید. قانونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "shame",
+      "yet"
+     ],
+     "suggestion": "Not yet. That's a shame.",
+     "suggestionFa": "هنوز نه. حیف شد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "household",
+      "letter",
+      "write"
+     ],
+     "suggestion": "What do I write on the household letter?",
+     "suggestionFa": "رو نامهٔ خانوار چی بنویسم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "until",
+     "fa": "تا وقتی"
+    },
+    {
+     "word": "reply",
+     "fa": "جواب دادن"
+    },
+    {
+     "word": "law",
+     "fa": "قانون"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what i write on letter",
+      "what do i writing"
+     ],
+     "echo": "What do you write? Your name and nationality.",
+     "better": "What do I write on the household letter?",
+     "betterFa": "روی نامهٔ خانوار چه بنویسم؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "council",
+   "text": "Leslie lists everyone who lives there — you too, with your nationality. Then the council knows you're not eligible yet. Easy.",
+   "translations": {
+    "fa": "لزلی همهٔ کسانی که اونجا زندگی می‌کنن را می‌نویسه — شما هم، با ملیتتون. بعد شورا می‌دونه هنوز واجد شرایط نیستید. آسونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "citizen",
+      "become",
+      "when",
+      "ok"
+     ],
+     "suggestion": "OK. And when I become a citizen?",
+     "suggestionFa": "باشه. و وقتی شهروند شدم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "important",
+      "history",
+      "credit"
+     ],
+     "suggestion": "Is it important for my credit history?",
+     "suggestionFa": "برای سابقهٔ اعتباریم مهمه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lists",
+     "fa": "فهرست می‌کند"
+    },
+    {
+     "word": "nationality",
+     "fa": "ملیت"
+    },
+    {
+     "word": "become",
+     "fa": "شدن"
+    },
+    {
+     "word": "credit history",
+     "fa": "سابقهٔ اعتباری"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "council",
+   "text": "When you're British, register online. It takes five minutes, with your National Insurance number. It helps your credit score too.",
+   "translations": {
+    "fa": "وقتی شهروند شدید، آنلاین ثبت‌نام کنید. پنج دقیقه طول می‌کشه، با شمارهٔ بیمهٔ ملی‌تون. به امتیاز اعتباریتون هم کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "insurance",
+      "national",
+      "number",
+      "i've"
+     ],
+     "suggestion": "I've got my National Insurance number.",
+     "suggestionFa": "شمارهٔ بیمهٔ ملیم را دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "easy",
+      "five"
+     ],
+     "suggestion": "Five minutes? That's very easy.",
+     "suggestionFa": "پنج دقیقه؟ خیلی آسونه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "National Insurance number",
+     "fa": "شمارهٔ بیمهٔ ملی"
+    },
+    {
+     "word": "credit score",
+     "fa": "امتیاز اعتباری"
+    },
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "One day, dear, you'll vote. George will take you to the polling station in his best tie. He's voted every time since 1968!",
+   "translations": {
+    "fa": "یه روز، عزیزم، رأی میدی. جورج با بهترین کراواتش می‌بردت حوزهٔ رأی‌گیری. از ۱۹۶۸ هر بار رأی داده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "that's",
+      "since"
+     ],
+     "suggestion": "Since 1968? That's amazing!",
+     "suggestionFa": "از ۱۹۶۸؟ فوق‌العاده‌ست!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "george",
+      "save",
+      "love",
+      "tell"
+     ],
+     "suggestion": "I'd love that. Tell George to save the tie.",
+     "suggestionFa": "خیلی دوست دارم. به جورج بگو کراوات را نگه داره.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one day",
+     "fa": "یک روز ؛ روزی"
+    },
+    {
+     "word": "polling station",
+     "fa": "حوزهٔ رأی‌گیری"
+    },
+    {
+     "word": "tie",
+     "fa": "کراوات"
+    },
+    {
+     "word": "election",
+     "fa": "انتخابات"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "He'll be thrilled. Now, let's fill in this form together — your name first. And spell it slowly. My eyes aren't what they were!",
+   "translations": {
+    "fa": "کلی ذوق می‌کنه. حالا، بیا این فرم را با هم پر کنیم — اول اسمت. و آروم هجی کن. چشمام دیگه مثل قبل نیست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -25,7 +25,7 @@
       "don't",
       "pasta",
       "there",
-      "yuck"
+      "like"
      ],
      "suggestion": "Yuck! There are mushrooms in my pasta! I don't like mushrooms!",
      "suggestionFa": "اَه! تو پاستام قارچه! قارچ دوست ندارم!",
@@ -48,9 +48,9 @@
      "keywords": [
       "mushrooms",
       "they're",
-      "slugs",
       "slimy",
-      "tried"
+      "tried",
+      "slugs"
      ],
      "suggestion": "I tried them once. They're slimy. Like slugs! Do you like mushrooms?",
      "suggestionFa": "یه بار امتحان کردم. لزجن. مثل حلزون بی‌صدف! تو قارچ دوست داری؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "don't",
-      "have",
       "then",
       "like",
-      "mine"
+      "here",
+      "have"
      ],
      "suggestion": "Then you can have mine! Here! What don't you like?",
      "suggestionFa": "پس مال منو بخور! بیا! تو چی دوست نداری؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "doesn't",
       "sprouts",
+      "doesn't",
       "they're",
       "olives",
-      "yucky"
+      "daddy"
      ],
      "suggestion": "Olives! They're yucky too! Mummy likes olives. And Daddy doesn't like sprouts.",
      "suggestionFa": "زیتون! اونم بده! مامان زیتون دوست داره. و بابا کلم بروکسل دوست نداره.",
@@ -123,8 +123,8 @@
      "keywords": [
       "cabbages",
       "little",
+      "green",
       "socks",
-      "balls",
       "smell"
      ],
      "suggestion": "Little green balls. Like tiny cabbages. They smell like socks!",
@@ -207,11 +207,11 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "they're",
+      "pudding",
       "what's",
       "don't",
-      "slugs"
+      "still"
      ],
      "suggestion": "Two tiny ones… Mmm. OK, they're not slugs. But I still don't like them. What's for pudding?",
      "suggestionFa": "دو تا کوچولو… ممم. باشه، حلزون نیستن. ولی هنوز دوستشون ندارم. دسر چیه؟",

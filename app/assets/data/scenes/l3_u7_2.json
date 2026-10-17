@@ -75,7 +75,7 @@
       "happens",
       "drop",
       "they",
-      "got"
+      "egg"
      ],
      "suggestion": "Got it. What happens if they drop the egg?",
      "suggestionFa": "فهمیدم. اگه تخم‌مرغ بیفته چی میشه؟",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "children",
-      "race",
       "each",
-      "many"
+      "many",
+      "race"
      ],
      "suggestion": "How many children are in each race?",
      "suggestionFa": "تو هر مسابقه چند تا بچه‌ست؟",
@@ -178,8 +178,8 @@
      "keywords": [
       "something",
       "everyone",
-      "gets",
-      "love"
+      "love",
+      "gets"
      ],
      "suggestion": "I love that everyone gets something.",
      "suggestionFa": "خوشم میاد که همه یه چیزی می‌گیرن.",
@@ -242,9 +242,9 @@
     },
     {
      "keywords": [
+      "over",
       "best",
       "i'll",
-      "over",
       "fall"
      ],
      "suggestion": "I'll try my best not to fall over!",

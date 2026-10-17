@@ -25,7 +25,7 @@
       "tuesday",
       "monday",
       "what's",
-      "days"
+      "week"
      ],
      "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
      "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "wednesday",
-      "there",
       "funny",
+      "there",
       "word",
       "nes"
      ],
@@ -74,8 +74,8 @@
       "saturday",
       "thursday",
       "weekend",
-      "sunday",
-      "friday"
+      "friday",
+      "sunday"
      ],
      "suggestion": "Thursday, Friday, Saturday, Sunday! Saturday and Sunday are the weekend. I love the weekend!",
      "suggestionFa": "پنجشنبه، جمعه، شنبه، یکشنبه! شنبه و یکشنبه آخر هفته‌ان. عاشق آخر هفته‌ام!",
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "thursday",
       "tomorrow",
+      "thursday",
       "fridays",
       "friday",
       "chips"
@@ -192,11 +192,11 @@
    "branches": [
     {
      "keywords": [
-      "chippy",
       "friday",
-      "every",
+      "chippy",
       "daddy",
-      "from"
+      "every",
+      "says"
      ],
      "suggestion": "Yes! Every Friday from the chippy. Daddy says it's the law!",
      "suggestionFa": "آره! هر جمعه از چیپس‌فروشی. بابا می‌گه قانونه!",

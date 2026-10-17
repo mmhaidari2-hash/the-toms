@@ -24,8 +24,8 @@
       "football",
       "saturday",
       "chores",
-      "first",
-      "later"
+      "later",
+      "first"
      ],
      "suggestion": "Right! It's Saturday. Chores first, football later. Can you help me?",
      "suggestionFa": "خب! شنبه‌ست. اول کارهای خونه، بعد فوتبال. کمکم می‌کنی؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "hoover's",
       "hallway",
-      "hoover",
       "stairs",
+      "hoover",
       "under"
      ],
      "suggestion": "Can you hoover the hallway? The hoover's under the stairs.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "monday",
-      "door",
-      "take",
       "ryan",
-      "bins"
+      "bins",
+      "door",
+      "take"
      ],
      "suggestion": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
      "suggestionFa": "کنار در. رایان! می‌تونی سطل‌ها را ببری بیرون؟ دوشنبه روز سطل زباله‌ست.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "recycling",
-      "rubbish",
       "plastic",
-      "paper",
-      "black"
+      "rubbish",
+      "black",
+      "paper"
      ],
      "suggestion": "The blue bin is for recycling — paper, cans and plastic. The black bin is for rubbish.",
      "suggestionFa": "سطل آبی برای بازیافته — کاغذ، قوطی و پلاستیک. سطل سیاه برای زباله.",
@@ -150,7 +150,7 @@
       "britain",
       "always",
       "check",
-      "first"
+      "looks"
      ],
      "suggestion": "Good question! In Britain, always check the sky first. Hmm… it looks OK.",
      "suggestionFa": "سؤال خوبیه! تو بریتانیا، همیشه اول آسمون را نگاه کن. هوم… خوبه.",
@@ -198,9 +198,9 @@
      "keywords": [
       "brilliant",
       "country",
-      "better",
       "chores",
-      "door"
+      "better",
+      "ryan"
      ],
      "suggestion": "By the back door. Brilliant — you're better than Ryan! Do you do chores at home in your country?",
      "suggestionFa": "کنار در پشتی. عالیه — از رایان بهتری! تو کشورت کارهای خونه را انجام می‌دی؟",

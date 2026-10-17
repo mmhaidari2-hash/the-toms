@@ -20,8 +20,8 @@
     {
      "keywords": [
       "principle",
-      "streets",
       "cleaner",
+      "streets",
       "safer"
      ],
      "suggestion": "Good idea, in principle. Cleaner air, safer streets.",
@@ -35,7 +35,7 @@
       "transport",
       "entirely",
       "disaster",
-      "depends"
+      "without"
      ],
      "suggestion": "It depends entirely on public transport. Without that, it's a disaster.",
      "suggestionFa": "کاملاً بستگی به حمل‌ونقل عمومی داره. بدون اون، فاجعه‌ست.",
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "argument",
+      "counter",
       "perhaps",
-      "partial",
-      "counter"
+      "partial"
      ],
      "suggestion": "That's a strong counter-argument. Perhaps a partial ban would work better.",
      "suggestionFa": "استدلال مقابل قویه. شاید یه ممنوعیت جزئی بهتر کار کنه.",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "increases",
+      "evidence",
       "actually",
-      "suggests",
-      "footfall"
+      "suggests"
      ],
      "suggestion": "Actually, evidence from other cities suggests footfall often increases.",
      "suggestionFa": "در واقع، شواهد از شهرهای دیگه نشون می‌ده رفت‌وآمد پیاده اغلب افزایش پیدا می‌کنه.",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "actually",
-      "argument",
       "exercise",
-      "sharpens"
+      "sharpens",
+      "actually",
+      "argument"
      ],
      "suggestion": "That's a useful exercise, actually. It sharpens your argument.",
      "suggestionFa": "راستش تمرین مفیدیه. استدلالت را تیزتر می‌کنه.",

@@ -21,8 +21,8 @@
      "keywords": [
       "driving",
       "tom's",
-      "busy",
-      "help"
+      "help",
+      "busy"
      ],
      "suggestion": "Tom's busy driving. Can I help?",
      "suggestionFa": "تام سرش به رانندگی گرمه. می‌تونم کمک کنم؟",
@@ -69,8 +69,8 @@
     {
      "keywords": [
       "first",
-      "off",
       "bus",
+      "off",
       "get"
      ],
      "suggestion": "First, we get off the bus.",
@@ -254,8 +254,8 @@
      "keywords": [
       "straight",
       "lights",
-      "right",
-      "first"
+      "first",
+      "right"
      ],
      "suggestion": "First, straight on. Then right at the lights.",
      "suggestionFa": "اول، مستقیم. بعد سر چراغ راست.",
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "come",
-      "want"
+      "want",
+      "come"
      ],
      "suggestion": "Do you want me to come with you?",
      "suggestionFa": "می‌خواید باهاتون بیام؟",

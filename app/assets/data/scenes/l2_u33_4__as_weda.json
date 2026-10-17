@@ -1,0 +1,418 @@
+{
+ "id": "l2_u33_4__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Maggie) Collecting for Nana",
+ "titleFa": "(در نقش Nana Maggie) گرفتن دارو برای ننه",
+ "setting": "At the chemist (A2) · Level 2",
+ "settingFa": "در داروخانه (A2)",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u33_4",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Maggie!",
+   "translations": {
+    "fa": "سلام Nana Maggie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescription",
+      "george's",
+      "collect",
+      "tonight",
+      "tablets"
+     ],
+     "suggestion": "Dear, could you collect George's prescription today? My knees are bad, and he needs his heart tablets tonight.",
+     "suggestionFa": "عزیزم، میشه امروز نسخهٔ جورج را بگیری؟ زانوهام اذیت می‌کنن و امشب قرص‌های قلبش را لازم داره.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course, Nana Maggie. What do I need?",
+   "translations": {
+    "fa": "البته ننه مگی. چی لازم دارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "dawson's",
+      "address",
+      "george",
+      "fourth"
+     ],
+     "suggestion": "Yes, Dawson's. You need his name, address and date of birth. George Edward Thompson, born the fourth of March, 1950.",
+     "suggestionFa": "آره، داوسون. اسم، آدرس و تاریخ تولدش را لازم داری. جورج ادوارد تامپسون، متولد چهارم مارس ۱۹۵۰.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Fourth of March, 1950. Let me write it down.",
+   "translations": {
+    "fa": "چهارم مارس ۱۹۵۰. بذار یادداشتش کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "dawson",
+   "text": "Afternoon. Collecting? Whose prescription is it?",
+   "translations": {
+    "fa": "عصر بخیر. برای تحویل؟ نسخهٔ کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "collecting",
+     "fa": "تحویل گرفتن"
+    },
+    {
+     "word": "whose",
+     "fa": "مال چه کسی"
+    },
+    {
+     "word": "husband",
+     "fa": "شوهر"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you collect someone else's prescription, the pharmacist asks for the patient's name, address and date of birth to check it's correct.",
+    "fa": "برای تحویل نسخهٔ دیگری، نام و آدرس و تاریخ تولد بیمار را می‌پرسند."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'm collecting for George Thompson.",
+   "translations": {
+    "fa": "برای جورج تامپسون اومدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "dawson",
+   "text": "Can you confirm his address and date of birth, please? Just to check.",
+   "translations": {
+    "fa": "میشه لطفاً آدرس و تاریخ تولدش را تأیید کنی؟ فقط برای اطمینان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "confirm",
+     "fa": "تأیید کردن"
+    },
+    {
+     "word": "just to check",
+     "fa": "فقط برای اطمینان"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "14 Navarino Road. Fourth of March, 1950.",
+   "translations": {
+    "fa": "۱۴ ناوارینو رود. چهارم مارس ۱۹۵۰."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "dawson",
+   "text": "Thanks. Hmm, not quite ready. The heart tablets are here, but the water tablets are still coming. Can you wait ten minutes?",
+   "translations": {
+    "fa": "ممنون. هوم، کاملاً آماده نیست. قرص‌های قلب اینجاست، ولی قرص‌های ادرارآور هنوز در راهه. می‌تونی ده دقیقه صبر کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "not quite",
+     "fa": "نه کاملاً"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "water tablets",
+     "fa": "قرص‌های ادرارآور"
+    },
+    {
+     "word": "wait",
+     "fa": "صبر کردن"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, I can wait.",
+   "translations": {
+    "fa": "آره، صبر می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "dawson",
+   "text": "Ten minutes, then. Here they are — both. George's medicine has changed. He takes two in the morning now, not one.",
+   "translations": {
+    "fa": "پس ده دقیقه. بفرما — هر دو. داروی جورج عوض شده. الان صبح‌ها دو تا می‌خوره، نه یکی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "changed",
+     "fa": "تغییر کرده"
+    },
+    {
+     "word": "morning",
+     "fa": "صبح"
+    },
+    {
+     "word": "box",
+     "fa": "جعبه"
+    },
+    {
+     "word": "tell",
+     "fa": "گفتن"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Two in the morning. I'll tell Nana Maggie.",
+   "translations": {
+    "fa": "صبح دو تا. به ننه مگی میگم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "dawson",
+   "text": "It's on the label already, in big letters — for Maggie's eyes. Is there anything to pay? No — George is over sixty. Free.",
+   "translations": {
+    "fa": "از قبل رو برچسب نوشته، با حروف درشت — برای چشم‌های مگی. چیزی برای پرداخت هست؟ نه — جورج بالای شصته. رایگان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "label",
+     "fa": "برچسب"
+    },
+    {
+     "word": "already",
+     "fa": "از قبل"
+    },
+    {
+     "word": "letters",
+     "fa": "حروف"
+    },
+    {
+     "word": "over",
+     "fa": "بالای"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thank you, Mr Dawson.",
+   "translations": {
+    "fa": "ممنون آقای داوسون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "you've",
+      "that's",
+      "medal",
+      "thank"
+     ],
+     "suggestion": "You've got them! Thank you, dear. George says you're \"a good lad\". From him, that's like a medal.",
+     "suggestionFa": "گرفتیشون! ممنون عزیزم. جورج میگه تو «پسر خوبی» هستی. از زبون اون، مثل یه مدال می‌مونه.",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Two in the morning now, Nana Maggie.",
+   "translations": {
+    "fa": "الان صبح‌ها دو تا، ننه مگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "victoria",
+      "morning",
+      "fridge",
+      "earned",
+      "sponge"
+     ],
+     "suggestion": "Two in the morning — I'll put a note on the fridge. Now sit down. I've made a Victoria sponge. You've earned a slice.",
+     "suggestionFa": "صبح دو تا — یه یادداشت رو یخچال می‌ذارم. حالا بشین. یه کیک ویکتوریا درست کردم. یه برش حقته.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

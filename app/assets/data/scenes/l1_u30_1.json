@@ -127,8 +127,8 @@
    "branches": [
     {
      "keywords": [
-      "plates",
       "that's",
+      "plates",
       "six"
      ],
      "suggestion": "That's six plates.",
@@ -182,9 +182,9 @@
     },
     {
      "keywords": [
-      "cute",
       "bowl",
-      "duck"
+      "duck",
+      "cute"
      ],
      "suggestion": "The duck bowl is very cute.",
      "suggestionFa": "کاسهٔ اردکی خیلی نازه.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "water",
-      "pour",
-      "i'll"
+      "i'll",
+      "pour"
      ],
      "suggestion": "Yes, I'll pour the water.",
      "suggestionFa": "آره، من آب می‌ریزم.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "together",
-      "hands",
       "let's",
+      "hands",
       "hold"
      ],
      "suggestion": "Hold it with two hands. Let's do it together.",

@@ -135,8 +135,8 @@
      "keywords": [
       "maths",
       "sleep",
-      "then",
-      "test"
+      "test",
+      "need"
      ],
      "suggestion": "A maths test? Then you need sleep!",
      "suggestionFa": "امتحان ریاضی؟ پس خواب لازم داری!",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "i'll",
-      "set",
-      "off"
+      "off",
+      "set"
      ],
      "suggestion": "No, it's off. I'll set it for you.",
      "suggestionFa": "نه، خاموشه. برات تنظیمش می‌کنم.",
@@ -224,7 +224,7 @@
       "radiator",
       "morning",
       "it'll",
-      "put"
+      "dry"
      ],
      "suggestion": "Put it on the radiator. It'll be dry by morning.",
      "suggestionFa": "بذارش رو شوفاژ. تا صبح خشک میشه.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "sure",
-      "ryan"
+      "ryan",
+      "sure"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -404,9 +404,9 @@
     },
     {
      "keywords": [
-      "ryan",
       "good",
       "test",
+      "ryan",
       "luck"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",

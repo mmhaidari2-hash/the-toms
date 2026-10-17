@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "card",
       "same",
+      "card",
       "use",
       "bus"
      ],
@@ -118,8 +118,8 @@
     {
      "keywords": [
       "got",
-      "tap",
-      "out"
+      "out",
+      "tap"
      ],
      "suggestion": "Tap in and tap out. Got it.",
      "suggestionFa": "موقع ورود و خروج کارت بزنم. فهمیدم.",
@@ -130,8 +130,8 @@
     {
      "keywords": [
       "maximum",
-      "much",
       "fare",
+      "much",
       "how"
      ],
      "suggestion": "How much is the maximum fare?",
@@ -188,8 +188,8 @@
     },
     {
      "keywords": [
-      "i'll",
       "take",
+      "i'll",
       "card",
       "out"
      ],
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "don't",
-      "know",
       "find",
+      "know",
       "line"
      ],
      "suggestion": "I don't know. How do I find the line?",
@@ -288,8 +288,8 @@
     },
     {
      "keywords": [
-      "light",
       "thank",
+      "light",
       "blue"
      ],
      "suggestion": "Thank you! Light blue, southbound.",

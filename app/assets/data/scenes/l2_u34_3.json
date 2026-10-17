@@ -1,0 +1,440 @@
+{
+ "id": "l2_u34_3",
+ "characterId": "leslie",
+ "title": "Nicola's reading",
+ "titleFa": "خواندن نیکولا",
+ "setting": "Parents' evening (A2) · Level 2",
+ "settingFa": "جلسهٔ اولیا (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "It's strange being on the parent side of the desk! I'm a teacher, but I'm so nervous. Ms Ellis is lovely, though.",
+   "translations": {
+    "fa": "عجیبه این طرف میز به‌عنوان والد باشم! معلمم، ولی خیلی مضطربم. البته خانم الیس خیلی خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school",
+      "nicola",
+      "don't",
+      "loves"
+     ],
+     "suggestion": "Don't worry. Nicola loves school!",
+     "suggestionFa": "نگران نباش. نیکولا عاشق مدرسه‌ست!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "nervous",
+      "why"
+     ],
+     "suggestion": "Why are you nervous? You're a teacher!",
+     "suggestionFa": "چرا مضطربی؟ تو معلمی!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    },
+    {
+     "word": "side",
+     "fa": "طرف"
+    },
+    {
+     "word": "desk",
+     "fa": "میز"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ellis",
+   "text": "Hello, Leslie! And hello to you — Nicola has told me all about you. You help her with \"the funny English words\".",
+   "translations": {
+    "fa": "سلام لزلی! و سلام به شما — نیکولا همه‌چی را دربارهٔ شما بهم گفته. تو «کلمه‌های خندهٔ انگلیسی» کمکش می‌کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "ellis",
+      "hello",
+      "read"
+     ],
+     "suggestion": "Hello, Ms Ellis. Yes, we read together.",
+     "suggestionFa": "سلام خانم الیس. آره، با هم می‌خونیم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teaches",
+      "words",
+      "she"
+     ],
+     "suggestion": "She teaches me words too!",
+     "suggestionFa": "اونم بهم کلمه یاد میده!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "told",
+     "fa": "گفته"
+    },
+    {
+     "word": "funny",
+     "fa": "خنده‌دار"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "teaches",
+     "fa": "یاد می‌دهد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "How is her reading? She loves books, but she gets cross when she can't read a word.",
+   "translations": {
+    "fa": "خوندنش چطوره؟ عاشق کتابه، ولی وقتی یه کلمه را نمی‌تونه بخونه عصبانی میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cross",
+      "funny",
+      "gets",
+      "she"
+     ],
+     "suggestion": "She gets very cross! It's funny.",
+     "suggestionFa": "خیلی عصبانی میشه! بامزه‌ست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "normal",
+      "five"
+     ],
+     "suggestion": "Is that normal at five?",
+     "suggestionFa": "تو پنج سالگی عادیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reading",
+     "fa": "خواندن"
+    },
+    {
+     "word": "cross",
+     "fa": "عصبانی ؛ دلخور"
+    },
+    {
+     "word": "normal",
+     "fa": "عادی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ellis",
+   "text": "Very normal! She's reading at the expected level — green book band. Her phonics are strong. She can sound out most words.",
+   "translations": {
+    "fa": "خیلی عادی! تو سطح مورد انتظار می‌خونه — باند کتاب سبز. آواشناسیش قویه. بیشتر کلمه‌ها را می‌تونه هجی‌وار بخونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sound",
+      "mean",
+      "out"
+     ],
+     "suggestion": "What does \"sound out\" mean?",
+     "suggestionFa": "«ساوند اوت» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "green",
+      "band",
+      "good"
+     ],
+     "suggestion": "Green band. Is that good?",
+     "suggestionFa": "باند سبز. خوبه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "expected",
+     "fa": "مورد انتظار"
+    },
+    {
+     "word": "book band",
+     "fa": "سطح کتاب ؛ باند"
+    },
+    {
+     "word": "phonics",
+     "fa": "آموزش آوایی"
+    },
+    {
+     "word": "sound out",
+     "fa": "هجی‌وار خواندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "English primary schools teach reading with \"phonics\": children learn letter sounds and blend them — c-a-t, cat. Books are graded by coloured \"book bands\".",
+    "fa": "مدارس ابتدایی انگلیس خواندن را با «فونیکس» آموزش می‌دهند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ellis",
+   "text": "Sounding out is saying each sound, then blending: \"sh-i-p, ship\". She finds tricky words hard — like \"said\" and \"was\".",
+   "translations": {
+    "fa": "هجی‌وار خوندن یعنی هر صدا را بگی، بعد ترکیب کنی: «ش-ی-پ، شیپ». کلمه‌های پیچیده براش سخته — مثل «said» و «was»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hard",
+      "said"
+     ],
+     "suggestion": "\"Said\" is hard for me too!",
+     "suggestionFa": "«said» برای منم سخته!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tricky",
+      "they",
+      "why"
+     ],
+     "suggestion": "Why are they tricky?",
+     "suggestionFa": "چرا پیچیده‌ان؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blending",
+     "fa": "ترکیب کردن"
+    },
+    {
+     "word": "tricky words",
+     "fa": "کلمه‌های بی‌قاعده"
+    },
+    {
+     "word": "hard",
+     "fa": "سخت"
+    },
+    {
+     "word": "ship",
+     "fa": "کشتی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "why they are tricky",
+      "why are tricky they"
+     ],
+     "echo": "Why are they tricky? They break the rules!",
+     "better": "Why are they tricky?",
+     "betterFa": "چرا پیچیده‌اند؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ellis",
+   "text": "Because you can't sound them out — \"s-a-i-d\" doesn't work! You just learn them by heart. We send home a list every Friday.",
+   "translations": {
+    "fa": "چون نمیشه هجی‌وار خوندشون — «س-ا-ی-د» جواب نمیده! فقط باید حفظشون کنی. هر جمعه یه فهرست می‌فرستیم خونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practise",
+      "list",
+      "can",
+      "her"
+     ],
+     "suggestion": "Can I practise the list with her?",
+     "suggestionFa": "می‌تونم فهرست را باهاش تمرین کنم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tables",
+      "times",
+      "heart",
+      "like"
+     ],
+     "suggestion": "By heart. Like times tables?",
+     "suggestionFa": "حفظی. مثل جدول ضرب؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by heart",
+     "fa": "از حفظ"
+    },
+    {
+     "word": "list",
+     "fa": "فهرست"
+    },
+    {
+     "word": "practise",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "times tables",
+     "fa": "جدول ضرب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ellis",
+   "text": "Yes please! Ten minutes a day is enough. Read with her every day, and let her read to William too. She loves being the teacher!",
+   "translations": {
+    "fa": "لطفاً بله! روزی ده دقیقه کافیه. هر روز باهاش بخونید، و بذارید برای ویلیام هم بخونه. عاشق معلم بودنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "easy",
+      "day"
+     ],
+     "suggestion": "Ten minutes a day. That's easy.",
+     "suggestionFa": "روزی ده دقیقه. آسونه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "nicola",
+      "like",
+      "mum"
+     ],
+     "suggestion": "Nicola the teacher! Like her mum.",
+     "suggestionFa": "نیکولای معلم! مثل مامانش.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Like her mum! Thank you, Ms Ellis. That's really helpful.",
+   "translations": {
+    "fa": "مثل مامانش! ممنون خانم الیس. واقعاً مفید بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "we'll",
+      "thank",
+      "every",
+      "read"
+     ],
+     "suggestion": "Thank you. We'll read every day.",
+     "suggestionFa": "ممنون. هر روز می‌خونیم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "student",
+      "love",
+      "will"
+     ],
+     "suggestion": "William will love that. He can be the student!",
+     "suggestionFa": "ویلیام عاشقش میشه. اون می‌تونه شاگرد باشه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "every day",
+     "fa": "هر روز"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    },
+    {
+     "word": "helpful",
+     "fa": "مفید"
+    },
+    {
+     "word": "student",
+     "fa": "شاگرد"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ellis",
+   "text": "Lovely. And Leslie — you're doing a great job. See you at the Christmas play! Nicola's a sheep. A very loud sheep.",
+   "translations": {
+    "fa": "عالی. و لزلی — داری عالی پیش میری. تو نمایش کریسمس می‌بینمتون! نیکولا گوسفنده. یه گوسفند خیلی پرسروصدا."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

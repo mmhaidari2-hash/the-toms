@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "right",
       "heard",
+      "right",
       "have",
-      "fees"
+      "i've"
      ],
      "suggestion": "I am. But I've heard the fees have gone up. Is that right?",
      "suggestionFa": "آره. ولی شنیدم کارمزدها رفته بالا. درسته؟",
@@ -71,8 +71,8 @@
      "keywords": [
       "different",
       "clear",
-      "real",
-      "from"
+      "just",
+      "rate"
      ],
      "suggestion": "Just to be clear — is the rate you give different from the real rate?",
      "suggestionFa": "برای اینکه روشن باشه — نرخی که شما می‌دید با نرخ واقعی فرق داره؟",
@@ -119,9 +119,9 @@
    "branches": [
     {
      "keywords": [
-      "honest",
       "that's",
-      "arthur"
+      "arthur",
+      "honest"
      ],
      "suggestion": "That's very honest of you, Arthur!",
      "suggestionFa": "خیلی صادقید آرتور!",

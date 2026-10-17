@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "pounds",
+      "twelve",
       "says"
      ],
      "suggestion": "It says twelve pounds.",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "family",
-      "tom",
-      "big"
+      "big",
+      "tom"
      ],
      "suggestion": "The big one, Tom. For your family!",
      "suggestionFa": "بزرگه تام. برای خانواده‌ت!",
@@ -152,8 +152,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "mistake",
+      "there's",
       "sorry",
       "think"
      ],
@@ -217,8 +217,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "twenty",
+      "twelve",
       "minus"
      ],
      "suggestion": "Twenty minus twelve is eight.",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "pounds",
-      "should",
-      "change"
+      "change",
+      "should"
      ],
      "suggestion": "It should be eight pounds change.",
      "suggestionFa": "بقیه‌ش باید هشت پوند باشه.",
@@ -272,9 +272,9 @@
     },
     {
      "keywords": [
-      "worry",
       "don't",
-      "about"
+      "about",
+      "worry"
      ],
      "suggestion": "Don't worry about it.",
      "suggestionFa": "نگران نباش.",
@@ -318,7 +318,7 @@
       "fares",
       "every",
       "count",
-      "day"
+      "bus"
      ],
      "suggestion": "You count bus fares every day!",
      "suggestionFa": "تو که هر روز کرایه می‌شمری!",
@@ -365,8 +365,8 @@
      "keywords": [
       "evening",
       "thank",
-      "have",
-      "good"
+      "good",
+      "have"
      ],
      "suggestion": "Thank you! Have a good evening.",
      "suggestionFa": "ممنون! عصر خوبی داشته باشید.",

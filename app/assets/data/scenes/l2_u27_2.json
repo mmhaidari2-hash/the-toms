@@ -21,8 +21,8 @@
      "keywords": [
       "wheelchair",
       "priority",
-      "who",
-      "has"
+      "has",
+      "who"
      ],
      "suggestion": "Who has priority, the wheelchair or the pushchair?",
      "suggestionFa": "کی اولویت داره، ویلچر یا کالسکه؟",
@@ -75,8 +75,8 @@
    "branches": [
     {
      "keywords": [
-      "fold",
       "help",
+      "fold",
       "can",
       "her"
      ],
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "course",
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "Of course. Come here, William.",
      "suggestionFa": "البته. بیا اینجا ویلیام.",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
-      "i'll",
       "fold",
-      "hold"
+      "hold",
+      "i'll"
      ],
      "suggestion": "I'll fold it. You hold William.",
      "suggestionFa": "من تاش می‌کنم. تو ویلیام را بغل کن.",
@@ -191,8 +191,8 @@
    "branches": [
     {
      "keywords": [
-      "going",
       "we're",
+      "going",
       "home"
      ],
      "suggestion": "We're going home, William.",
@@ -204,8 +204,8 @@
     {
      "keywords": [
       "look",
-      "man",
-      "shh"
+      "shh",
+      "man"
      ],
      "suggestion": "Shh, William. Look at the man!",
      "suggestionFa": "هیس ویلیام. اون آقا را ببین!",
@@ -291,8 +291,8 @@
      "keywords": [
       "william",
       "hello",
-      "sir",
-      "say"
+      "say",
+      "sir"
      ],
      "suggestion": "William! Say \"Hello, sir\".",
      "suggestionFa": "ویلیام! بگو «سلام آقا».",
@@ -304,8 +304,8 @@
      "keywords": [
       "wheels",
       "loves",
-      "sorry",
-      "three"
+      "three",
+      "sorry"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
      "suggestionFa": "ببخشید! سه سالشه. عاشق چرخه.",
@@ -352,9 +352,9 @@
     {
      "keywords": [
       "william",
-      "sure",
+      "hold",
       "hand",
-      "hold"
+      "sure"
      ],
      "suggestion": "Sure. William, hold my hand.",
      "suggestionFa": "حتماً. ویلیام، دستم را بگیر.",

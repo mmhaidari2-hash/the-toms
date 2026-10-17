@@ -21,8 +21,8 @@
      "keywords": [
       "thirsty",
       "really",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea. I'm really thirsty.",
      "suggestionFa": "فکر خوبیه. واقعاً تشنمه.",
@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "glass",
       "could",
+      "glass",
       "water"
      ],
      "suggestion": "Could I have a glass of water, please?",
@@ -366,8 +366,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "leslie",
+      "that's",
       "thank",
       "kind"
      ],
@@ -379,9 +379,9 @@
     },
     {
      "keywords": [
-      "time",
       "next",
       "turn",
+      "time",
       "ok"
      ],
      "suggestion": "OK, next time is my turn!",

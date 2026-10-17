@@ -20,8 +20,8 @@
     {
      "keywords": [
       "emotional",
-      "nervous",
       "excited",
+      "nervous",
       "once"
      ],
      "suggestion": "Nervous, excited, emotional — all at once.",
@@ -34,8 +34,8 @@
      "keywords": [
       "honestly",
       "doesn't",
-      "real",
-      "feel"
+      "feel",
+      "real"
      ],
      "suggestion": "Honestly, it doesn't feel real yet.",
      "suggestionFa": "راستش هنوز واقعی به نظر نمیاد.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "terrified",
       "rehearsed",
-      "remember",
-      "sentence"
+      "terrified",
+      "sentence",
+      "remember"
      ],
      "suggestion": "I remember being terrified to speak. I'd rehearsed that sentence for an hour.",
      "suggestionFa": "یادمه از حرف زدن وحشت داشتم. یه ساعت اون جمله را تمرین کرده بودم.",
@@ -89,7 +89,7 @@
       "understood",
       "tudors",
       "three",
-      "words"
+      "about"
      ],
      "suggestion": "You gave me a book about the Tudors, and I understood about three words.",
      "suggestionFa": "یه کتاب دربارهٔ تودورها بهم دادید، و حدود سه کلمه‌اش را فهمیدم.",
@@ -179,8 +179,8 @@
      "keywords": [
       "especially",
       "freedoms",
-      "freedom",
-      "respect"
+      "respect",
+      "kingdom"
      ],
      "suggestion": "\"I will give my loyalty to the United Kingdom and respect its rights and freedoms.\" Freedom, especially.",
      "suggestionFa": "«به بریتانیا وفادار خواهم بود و به حقوق و آزادی‌هایش احترام خواهم گذاشت.» مخصوصاً آزادی.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "officially",
-      "something",
       "belonging",
+      "something",
       "outsider"
      ],
      "suggestion": "Being part of something — belonging officially, after feeling like an outsider for so long.",

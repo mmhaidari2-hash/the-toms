@@ -79,8 +79,8 @@
      "keywords": [
       "switch",
       "i'll",
-      "now",
-      "off"
+      "off",
+      "now"
      ],
      "suggestion": "I'll switch it off now.",
      "suggestionFa": "الان خاموشش می‌کنم.",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "beeping",
-      "keeps",
       "won't",
-      "drain"
+      "drain",
+      "keeps"
      ],
      "suggestion": "It won't drain, and it keeps beeping.",
      "suggestionFa": "آب را خالی نمی‌کنه، و مدام بوق می‌زنه.",
@@ -247,8 +247,8 @@
     },
     {
      "keywords": [
-      "water",
       "there",
+      "water",
       "tray",
       "lot"
      ],
@@ -302,8 +302,8 @@
      "keywords": [
       "there's",
       "fluff",
-      "clip",
-      "hair"
+      "hair",
+      "clip"
      ],
      "suggestion": "There's a hair clip and a lot of fluff.",
      "suggestionFa": "یه گیرهٔ مو و کلی پرز هست.",
@@ -343,8 +343,8 @@
      "keywords": [
       "thank",
       "much",
-      "how",
-      "owe"
+      "owe",
+      "how"
      ],
      "suggestion": "Thank you. How much do we owe you?",
      "suggestionFa": "ممنون. چقدر بدهکاریم؟",
@@ -394,8 +394,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "cheers",
       "kind"
      ],
@@ -408,8 +408,8 @@
     {
      "keywords": [
       "thanks",
-      "will",
-      "help"
+      "help",
+      "will"
      ],
      "suggestion": "I will. Thanks for your help.",
      "suggestionFa": "حتماً. ممنون بابت کمکت.",

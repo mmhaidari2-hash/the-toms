@@ -50,7 +50,7 @@
       "morning",
       "instead",
       "street",
-      "along"
+      "where"
      ],
      "suggestion": "It means a different route. We go along Morning Lane instead of Mare Street. Where were you going?",
      "suggestionFa": "یعنی یه مسیر دیگه. به‌جای مِر استریت از مورنینگ لین میریم. کجا می‌رفتی؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "nearest",
       "morning",
-      "church",
       "market",
-      "minute"
+      "minute",
+      "church"
      ],
      "suggestion": "The nearest stop for the market is Morning Lane, by the church. It's a five-minute walk. Sorry, mate — not my fault!",
      "suggestionFa": "نزدیک‌ترین ایستگاه برای بازار مورنینگ لینه، کنار کلیسا. پنج دقیقه پیاده‌ست. ببخشید رفیق — تقصیر من نیست!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "council's",
-      "chippy",
       "you'll",
+      "chippy",
       "every",
       "smell"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "website",
+      "there's",
       "before",
       "check",
       "about"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "always",
+      "leslie",
       "other",
-      "stop",
-      "step"
+      "says",
+      "mind"
      ],
      "suggestion": "Same stop, other side. And get the big fish — Leslie always says \"the big one\". Mind the step!",
      "suggestionFa": "همون ایستگاه، طرف مقابل. ماهی بزرگه را بگیر — لزلی همیشه میگه «بزرگه». مواظب پله باش!",

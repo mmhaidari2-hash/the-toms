@@ -70,8 +70,8 @@
     {
      "keywords": [
       "don't",
-      "fair",
-      "like"
+      "like",
+      "fair"
      ],
      "suggestion": "It's not fair. You don't like carrots!",
      "suggestionFa": "منصفانه نیست. تو که هویج دوست نداری!",
@@ -156,9 +156,9 @@
    "branches": [
     {
      "keywords": [
+      "doesn't",
       "carrots",
       "buttons",
-      "doesn't",
       "mr"
      ],
      "suggestion": "Mr Buttons doesn't eat carrots!",
@@ -202,8 +202,8 @@
     {
      "keywords": [
       "carrots",
-      "then",
-      "four"
+      "four",
+      "then"
      ],
      "suggestion": "Four carrots, then pudding.",
      "suggestionFa": "چهار تا هویج، بعد دسر.",
@@ -310,8 +310,8 @@
     {
      "keywords": [
       "counting",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "I'm counting! One… two…",
      "suggestionFa": "دارم می‌شمرم! یک… دو…",

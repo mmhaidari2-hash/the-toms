@@ -32,8 +32,8 @@
     {
      "keywords": [
       "something",
-      "quick",
       "let's",
+      "quick",
       "have"
      ],
      "suggestion": "Let's have something quick.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "opener",
-      "ring",
-      "pull"
+      "pull",
+      "ring"
      ],
      "suggestion": "It's a ring pull. No opener!",
      "suggestionFa": "درش حلقه داره. دربازکن نمی‌خواد!",
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "cheese",
       "please",
+      "cheese",
       "lots"
      ],
      "suggestion": "Yes, please! Lots of cheese.",

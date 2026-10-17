@@ -25,7 +25,7 @@
       "scones",
       "let's",
       "flour",
-      "dear"
+      "make"
      ],
      "suggestion": "Let's make scones, dear. Can you get the flour? It's in the cupboard.",
      "suggestionFa": "بیا اسکون درست کنیم عزیزم. آرد را میاری؟ توی کابینته.",
@@ -49,8 +49,8 @@
       "fridge",
       "butter",
       "sugar",
-      "need",
-      "milk"
+      "milk",
+      "need"
      ],
      "suggestion": "The one by the fridge. Now we need butter, sugar and milk.",
      "suggestionFa": "همونی که کنار یخچاله. حالا کره، شکر و شیر لازم داریم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "lovely",
+      "please",
       "spoon",
       "bowl",
       "now"
@@ -122,8 +122,8 @@
      "keywords": [
       "circles",
       "little",
-      "good",
       "milk",
+      "good",
       "more"
      ],
      "suggestion": "Add a little more milk. Good! Now we cut circles.",
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "careful",
+      "fifteen",
       "minutes",
       "think",
       "eight"
@@ -172,9 +172,9 @@
      "keywords": [
       "they're",
       "golden",
-      "smell",
       "ready",
-      "them"
+      "smell",
+      "warm"
      ],
      "suggestion": "Mmm, can you smell them? They're ready! Golden and warm.",
      "suggestionFa": "ممم، بوشون را حس می‌کنی؟ آماده‌اند! طلایی و گرم.",
@@ -199,7 +199,7 @@
       "that's",
       "cream",
       "first",
-      "dear"
+      "then"
      ],
      "suggestion": "Jam first, then cream. That's the Cornish way. Try one, dear.",
      "suggestionFa": "اول مربا، بعد خامه. این روش کورنوالیه. یکی امتحان کن عزیزم.",
@@ -223,8 +223,8 @@
       "natural",
       "nicola",
       "teach",
-      "dear",
-      "time"
+      "time",
+      "next"
      ],
      "suggestion": "You're a natural, dear. Next time, you can teach Nicola!",
      "suggestionFa": "تو ذاتاً بلدی عزیزم. دفعهٔ بعد می‌تونی به نیکولا یاد بدی!",

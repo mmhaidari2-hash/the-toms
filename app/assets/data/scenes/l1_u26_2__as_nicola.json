@@ -24,8 +24,8 @@
       "playground",
       "please",
       "swing",
-      "come",
-      "push"
+      "push",
+      "come"
      ],
      "suggestion": "The playground! Come on! Push me on the swing, please!",
      "suggestionFa": "زمین بازی! بیا! هلم بده روی تاب، لطفاً!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "flying",
-      "higher"
+      "higher",
+      "flying"
      ],
      "suggestion": "Higher! Higher! I'm flying!",
      "suggestionFa": "بالاتر! بالاتر! دارم پرواز می‌کنم!",
@@ -69,10 +69,10 @@
     {
      "keywords": [
       "ladder",
-      "watch",
       "wheee",
       "going",
-      "slide"
+      "slide",
+      "watch"
      ],
      "suggestion": "Now the slide! Watch me. I'm going up the ladder… and down the slide! Wheee!",
      "suggestionFa": "حالا سرسره! منو ببین. دارم از نردبون می‌رم بالا… و از سرسره می‌آم پایین! وییی!",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "climbing",
-      "bridge",
       "follow",
+      "bridge",
       "frame",
       "then"
      ],
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "rascal",
       "castle",
+      "rascal",
       "queen",
       "dirty",
       "top"

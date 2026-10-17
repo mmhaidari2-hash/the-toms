@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "please",
+      "should",
       "today",
       "ready"
      ],
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "thompson",
-      "george",
       "behalf",
+      "george",
       "i've"
      ],
      "suggestion": "Yes. I've come on behalf of George Thompson.",
@@ -118,9 +118,9 @@
    "branches": [
     {
      "keywords": [
-      "there's",
-      "mistake",
       "missing",
+      "mistake",
+      "there's",
       "think"
      ],
      "suggestion": "I think there's been a mistake. One item is missing.",
@@ -196,8 +196,8 @@
     },
     {
      "keywords": [
-      "surgery",
       "mistake",
+      "surgery",
       "by"
      ],
      "suggestion": "Is that a mistake by the surgery?",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "surgery",
       "contact",
+      "surgery",
       "us"
      ],
      "suggestion": "Can you contact the surgery for us?",
@@ -395,8 +395,8 @@
      "keywords": [
       "download",
       "george",
-      "i'll",
-      "help"
+      "help",
+      "i'll"
      ],
      "suggestion": "I'll help George download it.",
      "suggestionFa": "به جورج کمک می‌کنم دانلودش کنه.",

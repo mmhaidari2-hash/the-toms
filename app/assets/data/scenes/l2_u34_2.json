@@ -1,0 +1,409 @@
+{
+ "id": "l2_u34_2",
+ "characterId": "patel",
+ "title": "Ryan's Year 10 report",
+ "titleFa": "کارنامهٔ کلاس دهم رایان",
+ "setting": "Parents' evening (A2) · Level 2",
+ "settingFa": "جلسهٔ اولیا (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "patel",
+   "text": "Good evening, Mrs Thompson. And Mr Thompson on the video — hello! And this is…?",
+   "translations": {
+    "fa": "عصر بخیر خانم تامپسون. و آقای تامپسون رو تصویر — سلام! و ایشون…؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family's",
+      "lodger",
+      "patel",
+      "hello"
+     ],
+     "suggestion": "Hello, Mr Patel. I'm the family's lodger.",
+     "suggestionFa": "سلام آقای پاتل. من مستأجر خانواده هستم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "asked",
+      "notes",
+      "help"
+     ],
+     "suggestion": "Leslie asked me to help with notes.",
+     "suggestionFa": "لزلی ازم خواست برای یادداشت‌برداری کمک کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good evening",
+     "fa": "عصر بخیر ؛ شب بخیر"
+    },
+    {
+     "word": "video",
+     "fa": "تصویر ؛ ویدیو"
+    },
+    {
+     "word": "lodger",
+     "fa": "مستأجر"
+    },
+    {
+     "word": "notes",
+     "fa": "یادداشت‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "patel",
+   "text": "Welcome. Ryan talks about you — \"the lodger who's better at English than me\". Let's look at his report. Overall, he's doing well.",
+   "translations": {
+    "fa": "خوش اومدید. رایان دربارهٔ شما حرف می‌زنه — «مستأجری که انگلیسیش از من بهتره». بیاید کارنامه‌اش را ببینیم. در کل، خوب پیش میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "subjects",
+      "that's",
+      "great",
+      "which"
+     ],
+     "suggestion": "That's great. Which subjects is he good at?",
+     "suggestionFa": "عالیه. تو چه درس‌هایی خوبه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "hard",
+      "ha"
+     ],
+     "suggestion": "Ha! Is he working hard?",
+     "suggestionFa": "ها! سخت کار می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "report",
+     "fa": "کارنامه ؛ گزارش"
+    },
+    {
+     "word": "overall",
+     "fa": "در کل"
+    },
+    {
+     "word": "doing well",
+     "fa": "خوب پیش رفتن"
+    },
+    {
+     "word": "subjects",
+     "fa": "درس‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Year 10, students start GCSE courses. Reports often show a \"predicted grade\" from 9 (top) down to 1.",
+    "fa": "در کلاس دهم دانش‌آموزان دورهٔ GCSE را شروع می‌کنند و نمرهٔ پیش‌بینی ۹ تا ۱ است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "patel",
+   "text": "He's doing very well in PE and Computer Science. He's predicted a 7 in Computing. That's a strong grade.",
+   "translations": {
+    "fa": "تو ورزش و علوم کامپیوتر خیلی خوب پیش میره. پیش‌بینی نمره‌اش تو کامپیوتر ۷ ـه. نمرهٔ قوی‌ایه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "out"
+     ],
+     "suggestion": "A 7! Is that out of 9?",
+     "suggestionFa": "۷! از ۹؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "maths",
+      "about"
+     ],
+     "suggestion": "What about English and Maths?",
+     "suggestionFa": "انگلیسی و ریاضی چی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "PE",
+     "fa": "ورزش مدرسه"
+    },
+    {
+     "word": "Computer Science",
+     "fa": "علوم کامپیوتر"
+    },
+    {
+     "word": "predicted",
+     "fa": "پیش‌بینی‌شده"
+    },
+    {
+     "word": "grade",
+     "fa": "نمره"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what about english and maths?",
+      "and english and maths how?"
+     ],
+     "echo": "English and Maths? Let me look.",
+     "better": "What about English and Maths?",
+     "betterFa": "انگلیسی و ریاضی چطور؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "patel",
+   "text": "Out of 9, yes. English is a 5 — fine. But Maths… a 4. He needs to work on algebra. And homework is sometimes… late.",
+   "translations": {
+    "fa": "از ۹، بله. انگلیسی ۵ ـه — خوبه. ولی ریاضی… ۴. باید روی جبر کار کنه. و تکالیف گاهی… دیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homework",
+      "often",
+      "late",
+      "how"
+     ],
+     "suggestion": "Late homework? How often?",
+     "suggestionFa": "تکلیف دیر؟ چند وقت یک بار؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maths",
+      "help",
+      "can",
+      "we"
+     ],
+     "suggestion": "What can we do to help with Maths?",
+     "suggestionFa": "برای ریاضی چه کمکی می‌تونیم بکنیم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "algebra",
+     "fa": "جبر"
+    },
+    {
+     "word": "homework",
+     "fa": "تکلیف"
+    },
+    {
+     "word": "sometimes",
+     "fa": "گاهی"
+    },
+    {
+     "word": "late",
+     "fa": "دیر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Late? He told me he did it all on the bus! Every day!",
+   "translations": {
+    "fa": "دیر؟ به من گفت همه‌ش را تو اتوبوس انجام میده! هر روز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phone",
+      "maybe",
+      "means",
+      "bus"
+     ],
+     "suggestion": "Maybe on the bus means on his phone, Tom.",
+     "suggestionFa": "شاید «تو اتوبوس» یعنی رو گوشیش، تام.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finish",
+      "patel",
+      "let",
+      "mr"
+     ],
+     "suggestion": "Tom, let Mr Patel finish.",
+     "suggestionFa": "تام، بذار آقای پاتل حرفش را تموم کنه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "told",
+     "fa": "گفت"
+    },
+    {
+     "word": "all",
+     "fa": "همه"
+    },
+    {
+     "word": "every day",
+     "fa": "هر روز"
+    },
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "patel",
+   "text": "Five pieces late this term. Not terrible, but GCSEs start next year. At home, a quiet place and a fixed homework time help.",
+   "translations": {
+    "fa": "این ترم پنج تا تکلیف دیر. افتضاح نیست، ولی سال بعد GCSE شروع میشه. تو خونه، یه جای ساکت و یه ساعت ثابت برای تکلیف کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinner",
+      "fixed",
+      "eight",
+      "after"
+     ],
+     "suggestion": "A fixed time. Maybe after dinner, from seven to eight?",
+     "suggestionFa": "ساعت ثابت. شاید بعد از شام، از هفت تا هشت؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "homework",
+      "during",
+      "phone"
+     ],
+     "suggestion": "And no phone during homework time?",
+     "suggestionFa": "و موقع تکلیف گوشی نه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pieces",
+     "fa": "تکه‌ها ؛ (اینجا) تکلیف‌ها"
+    },
+    {
+     "word": "term",
+     "fa": "ترم"
+    },
+    {
+     "word": "terrible",
+     "fa": "افتضاح"
+    },
+    {
+     "word": "fixed",
+     "fa": "ثابت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "patel",
+   "text": "Exactly — phone in the kitchen, not the bedroom. There's also a free Maths club on Wednesdays after school.",
+   "translations": {
+    "fa": "دقیقاً — گوشی تو آشپزخونه، نه اتاق خواب. یه باشگاه ریاضی رایگان هم چهارشنبه‌ها بعد از مدرسه هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school",
+      "happy",
+      "ryan"
+     ],
+     "suggestion": "Is Ryan happy at school?",
+     "suggestionFa": "رایان تو مدرسه خوشحاله؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "algebra",
+      "maths",
+      "help",
+      "like"
+     ],
+     "suggestion": "I can help him with Maths too. I like algebra!",
+     "suggestionFa": "منم می‌تونم تو ریاضی کمکش کنم. من جبر دوست دارم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bedroom",
+     "fa": "اتاق خواب"
+    },
+    {
+     "word": "club",
+     "fa": "باشگاه ؛ کلاس فوق‌برنامه"
+    },
+    {
+     "word": "after school",
+     "fa": "بعد از مدرسه"
+    },
+    {
+     "word": "happy",
+     "fa": "خوشحال"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "patel",
+   "text": "He's very happy — lots of friends, and he's kind to the younger students. That matters most. I'm afraid our time's up!",
+   "translations": {
+    "fa": "خیلی خوشحاله — کلی دوست داره و با بچه‌های کوچیک‌تر مهربونه. این از همه مهم‌تره. متأسفانه وقتمون تموم شد!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

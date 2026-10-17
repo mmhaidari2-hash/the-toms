@@ -24,8 +24,8 @@
       "worried",
       "morning",
       "what's",
-      "look",
-      "work"
+      "work",
+      "look"
      ],
      "suggestion": "Morning! Off to work? You look worried. What's up?",
      "suggestionFa": "صبح بخیر! داری می‌ری سر کار؟ نگرانی به نظر میای. چی شده؟",
@@ -49,8 +49,8 @@
       "everyone",
       "station",
       "happens",
-      "light",
-      "money"
+      "money",
+      "light"
      ],
      "suggestion": "Red light means no money on it. Happens to everyone. You can top up at the shop, the station, or on the app.",
      "suggestionFa": "چراغ قرمز یعنی پول روش نیست. واسه همه پیش میاد. می‌تونی تو مغازه، ایستگاه، یا با برنامه شارژش کنی.",
@@ -75,7 +75,7 @@
       "london",
       "buses",
       "cash",
-      "show"
+      "free"
      ],
      "suggestion": "Not on the bus, no. Buses are cash-free in London. The corner shop does it. Come on, I'll show you.",
      "suggestionFa": "تو اتوبوس نه. اتوبوس‌های لندن پول نقد قبول نمی‌کنن. مغازهٔ سر کوچه شارژ می‌کنه. بیا، نشونت میدم.",
@@ -123,8 +123,8 @@
      "keywords": [
       "twenty's",
       "exactly",
-      "plenty",
       "change",
+      "hopper",
       "second"
      ],
      "suggestion": "Exactly — twenty's plenty. And \"Hopper fare\": change buses in an hour, and the second one's free.",
@@ -173,9 +173,9 @@
      "keywords": [
       "balance",
       "reader",
-      "pounds",
+      "yellow",
       "twenty",
-      "yellow"
+      "pounds"
      ],
      "suggestion": "Done. Now tap it on the yellow reader, and it says the balance. Twenty pounds! You're a rich man.",
      "suggestionFa": "تموم. حالا بزنش روی دستگاه زرد، موجودی را نشون میده. بیست پوند! مرد پولداری شدی.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "register",
-      "minutes",
       "driving",
-      "online",
-      "leaves"
+      "minutes",
+      "leaves",
+      "online"
      ],
      "suggestion": "Register it online. Then if you lose it, you keep your money. Right — my bus leaves in four minutes. And I'm driving it!",
      "suggestionFa": "آنلاین ثبتش کن. بعد اگه گمش کنی، پولت می‌مونه. خب — اتوبوسم چهار دقیقهٔ دیگه حرکت می‌کنه. و راننده‌ش منم!",

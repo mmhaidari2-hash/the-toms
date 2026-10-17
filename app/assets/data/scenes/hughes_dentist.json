@@ -20,9 +20,9 @@
     {
      "keywords": [
       "something",
+      "drink",
       "tooth",
-      "hurts",
-      "drink"
+      "hurts"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
      "suggestionFa": "آره، یه دندونم وقتی چیز سرد می‌خورم درد می‌گیره.",
@@ -163,9 +163,9 @@
     {
      "keywords": [
       "that's",
+      "week",
       "book",
-      "fine",
-      "week"
+      "next"
      ],
      "suggestion": "That's fine. Can I book it for next week?",
      "suggestionFa": "باشه. می‌تونم برای هفتهٔ بعد وقت بگیرم؟",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "about",
-      "was",
-      "ask"
+      "ask",
+      "was"
      ],
      "suggestion": "I was about to ask that!",
      "suggestionFa": "داشتم همینو می‌پرسیدم!",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "band",
+      "much",
       "how"
      ],
      "suggestion": "How much is Band 2?",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "today",
-      "week",
       "next",
+      "week",
       "pay"
      ],
      "suggestion": "Do I pay today or next week?",
@@ -316,8 +316,8 @@
      "keywords": [
       "appointment",
       "anything",
-      "should",
-      "before"
+      "before",
+      "should"
      ],
      "suggestion": "Should I avoid anything before the appointment?",
      "suggestionFa": "قبل از وقت باید از چیزی پرهیز کنم؟",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "cola",
       "i'll",
-      "hard",
-      "give"
+      "give",
+      "cola",
+      "hard"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",
@@ -382,8 +382,8 @@
     },
     {
      "keywords": [
-      "advice",
       "doctor",
+      "advice",
       "thank",
       "good"
      ],

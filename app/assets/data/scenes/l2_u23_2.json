@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "return",
+      "please",
       "like",
       "i'd"
      ],
@@ -34,7 +34,7 @@
      "keywords": [
       "doesn't",
       "bought",
-      "work",
+      "last",
       "week"
      ],
      "suggestion": "This kettle doesn't work. I bought it last week.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "there's",
       "counter",
+      "there's",
       "water",
       "leaks"
      ],
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "refund",
       "better",
+      "refund",
       "please",
       "i'll"
      ],
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "return",
+      "these",
       "shoes",
-      "thank",
-      "these"
+      "thank"
      ],
      "suggestion": "Thank you. Can I return these shoes too?",
      "suggestionFa": "ممنون. این کفش‌ها را هم می‌تونم پس بدم؟",

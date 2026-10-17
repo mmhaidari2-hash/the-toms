@@ -20,9 +20,9 @@
     {
      "keywords": [
       "phone",
-      "fine",
+      "just",
       "need",
-      "just"
+      "fine"
      ],
      "suggestion": "My phone is fine. I just need a UK SIM.",
      "suggestionFa": "گوشیم خوبه. فقط یه سیم‌کارت بریتانیایی لازم دارم.",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "month",
-      "only",
       "much",
-      "how"
+      "only",
+      "sim"
      ],
      "suggestion": "How much is SIM-only per month?",
      "suggestionFa": "فقط سیم‌کارت ماهی چنده؟",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "much",
       "home",
+      "much",
       "use",
       "fi"
      ],
@@ -260,8 +260,8 @@
      "keywords": [
       "include",
       "pounds",
-      "five",
-      "iran"
+      "iran",
+      "five"
      ],
      "suggestion": "Five pounds is OK. Does it include Iran?",
      "suggestionFa": "پنج پوند خوبه. ایران را هم شامل میشه؟",
@@ -313,9 +313,9 @@
     {
      "keywords": [
       "fifteen",
-      "rather",
       "pounds",
-      "pay"
+      "rather",
+      "i'd"
      ],
      "suggestion": "Fifteen pounds. I'd rather pay monthly.",
      "suggestionFa": "پونزده پوند. ترجیح میدم ماهانه بدم.",
@@ -353,8 +353,8 @@
    "branches": [
     {
      "keywords": [
-      "rolling",
       "freedom",
+      "rolling",
       "like",
       "then"
      ],

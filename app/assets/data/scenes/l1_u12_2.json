@@ -33,8 +33,8 @@
      "keywords": [
       "that's",
       "socks",
-      "lot",
-      "wow"
+      "wow",
+      "lot"
      ],
      "suggestion": "Wow, that's a lot of socks!",
      "suggestionFa": "وای، چه‌قدر جوراب!",
@@ -208,10 +208,10 @@
    "branches": [
     {
      "keywords": [
-      "needs",
       "socks",
-      "tom",
-      "new"
+      "needs",
+      "new",
+      "tom"
      ],
      "suggestion": "Ha! Tom needs new socks.",
      "suggestionFa": "ها! تام جوراب نو لازم داره.",
@@ -223,8 +223,8 @@
      "keywords": [
       "shall",
       "them",
-      "bin",
-      "put"
+      "put",
+      "bin"
      ],
      "suggestion": "Shall I put them in the bin?",
      "suggestionFa": "بندازمشون سطل آشغال؟",
@@ -262,9 +262,9 @@
    "branches": [
     {
      "keywords": [
-      "table",
-      "don't",
       "under",
+      "don't",
+      "table",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three… eight pairs!",
      "suggestionFa": "یک، دو، سه… هشت جفت!",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "we've",
       "think",
+      "we've",
       "got"
      ],
      "suggestion": "I think we've got eight pairs.",

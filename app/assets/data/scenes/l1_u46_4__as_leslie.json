@@ -108,10 +108,10 @@
     {
      "keywords": [
       "samosas",
-      "sweets",
       "coming",
-      "again",
-      "thank"
+      "sweets",
+      "thank",
+      "again"
      ],
      "suggestion": "Thank you for coming! And for the samosas and the sweets. You must come again.",
      "suggestionFa": "ممنون که اومدید! و بابت سمبوسه‌ها و شیرینی‌ها. باید دوباره بیاید.",
@@ -132,11 +132,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "persian",
+      "cooking",
       "some",
-      "take",
-      "wait"
+      "want",
+      "take"
      ],
      "suggestion": "Yes! I want to try your Persian cooking. Wait — take some food home!",
      "suggestionFa": "آره! می‌خوام آشپزی ایرانیت را امتحان کنم. صبر کنید — یه کم غذا ببرید خونه!",
@@ -234,9 +234,9 @@
     {
      "keywords": [
       "night",
+      "text",
+      "live",
       "door",
-      "when",
-      "safe",
       "home"
      ],
      "suggestion": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",

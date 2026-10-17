@@ -47,8 +47,8 @@
     {
      "keywords": [
       "buttons",
-      "floor",
       "table",
+      "floor",
       "mr"
      ],
      "suggestion": "It's on the table and on the floor. And on Mr Buttons!",
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "kitchen",
-      "sink",
       "roll",
       "help",
+      "sink",
       "can"
      ],
      "suggestion": "The kitchen roll is by the sink. Can I help?",
@@ -122,8 +122,8 @@
      "keywords": [
       "sticking",
       "sticky",
-      "socks",
       "floor",
+      "socks",
       "now"
      ],
      "suggestion": "Now the floor is sticky! My socks are sticking! Ew!",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "gentle",
       "dizzy",
-      "will"
+      "wash"
      ],
      "suggestion": "In the washing machine?! Will he be dizzy? OK… but a gentle wash!",
      "suggestionFa": "تو ماشین لباسشویی؟! سرش گیج نمیره؟ باشه… ولی شستشوی ملایم!",

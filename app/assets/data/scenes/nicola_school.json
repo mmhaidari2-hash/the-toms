@@ -25,7 +25,7 @@
       "everyone",
       "nervous",
       "normal",
-      "like"
+      "will"
      ],
      "suggestion": "It's normal to feel nervous. Everyone will like you!",
      "suggestionFa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!",
@@ -37,8 +37,8 @@
      "keywords": [
       "children",
       "today",
-      "same",
-      "lots"
+      "lots",
+      "same"
      ],
      "suggestion": "Lots of children feel the same today.",
      "suggestionFa": "خیلی از بچه‌ها امروز همین حس را دارن.",
@@ -76,7 +76,7 @@
       "promise",
       "three",
       "i'll",
-      "pick"
+      "half"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -127,7 +127,7 @@
       "wonderful",
       "nicola",
       "have",
-      "day"
+      "bye"
      ],
      "suggestion": "Bye, Nicola! Have a wonderful day!",
      "suggestionFa": "خداحافظ نیکولا! روز فوق‌العاده‌ای داشته باشی!",
@@ -138,8 +138,8 @@
     {
      "keywords": [
       "window",
-      "wave",
       "from",
+      "wave",
       "give"
      ],
      "suggestion": "Give me a big wave from the window!",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "Can I see it?",
      "suggestionFa": "می‌تونم ببینمش؟",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "star",
-      "done",
       "well",
-      "gold"
+      "star",
+      "gold",
+      "done"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -330,10 +330,10 @@
     },
     {
      "keywords": [
-      "listen",
       "though",
-      "hart",
-      "miss"
+      "listen",
+      "miss",
+      "hart"
      ],
      "suggestion": "Try to listen to Miss Hart, though.",
      "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "let's",
-      "mum",
-      "ask"
+      "ask",
+      "mum"
      ],
      "suggestion": "Let's ask your mum!",
      "suggestionFa": "بیا از مامانت بپرسیم!",

@@ -62,8 +62,8 @@
      "keywords": [
       "speaking",
       "maggie",
-      "who's",
       "hello",
+      "who's",
       "love"
      ],
      "suggestion": "Hello, love. It's Maggie. Who's speaking?",
@@ -85,8 +85,8 @@
    "branches": [
     {
      "keywords": [
-      "hello",
       "there",
+      "hello",
       "dear",
       "tom",
       "oh"
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "thursday",
       "hospital",
+      "thursday",
       "george",
       "can't"
      ],
@@ -187,9 +187,9 @@
      "keywords": [
       "thank",
       "after",
-      "love",
-      "tell",
-      "call"
+      "call",
+      "back",
+      "love"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
      "suggestionFa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه.",
@@ -213,8 +213,8 @@
       "course",
       "thank",
       "dear",
-      "has",
-      "bye"
+      "bye",
+      "has"
      ],
      "suggestion": "Of course he has! Thank you, dear. Bye-bye!",
      "suggestionFa": "البته که داره! ممنون عزیزم. خداحافظ!",

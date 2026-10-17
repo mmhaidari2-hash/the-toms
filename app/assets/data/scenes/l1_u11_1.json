@@ -220,8 +220,8 @@
    "branches": [
     {
      "keywords": [
-      "leave",
       "eight",
+      "leave",
       "half"
      ],
      "suggestion": "I leave at half eight.",
@@ -289,8 +289,8 @@
     {
      "keywords": [
       "pocket",
-      "they",
-      "coat"
+      "coat",
+      "they"
      ],
      "suggestion": "Are they in your coat pocket?",
      "suggestionFa": "تو جیب کتتن؟",
@@ -330,8 +330,8 @@
      "keywords": [
       "fridge",
       "lunch",
-      "box",
-      "his"
+      "his",
+      "box"
      ],
      "suggestion": "His lunch box is in the fridge.",
      "suggestionFa": "ظرف ناهارش تو یخچاله.",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "take",
-      "can",
-      "him"
+      "him",
+      "can"
      ],
      "suggestion": "I can take it to him.",
      "suggestionFa": "می‌تونم براش ببرم.",
@@ -392,8 +392,8 @@
      "keywords": [
       "always",
       "busy",
-      "bus",
-      "run"
+      "run",
+      "bus"
      ],
      "suggestion": "Busy! I always run for the bus.",
      "suggestionFa": "شلوغ! همیشه دنبال اتوبوس می‌دوم.",

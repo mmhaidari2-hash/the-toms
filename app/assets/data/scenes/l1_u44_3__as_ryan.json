@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "that's",
       "eighty",
       "thanks",
-      "that's",
-      "pound",
-      "white"
+      "white",
+      "pound"
      ],
      "suggestion": "Thanks! OK… one white loaf. That's one pound eighty.",
      "suggestionFa": "ممنون! باشه… یه نون سفید. میشه یک پوند و هشتاد.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
-      "twenty",
       "change",
+      "twenty",
+      "pounds",
       "here",
       "two"
      ],
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "coffee",
       "ninety",
-      "fifty",
-      "three"
+      "pounds",
+      "forty",
+      "fifty"
      ],
      "suggestion": "A cake and a coffee. Three fifty plus two forty… five pounds ninety.",
      "suggestionFa": "یه کیک و یه قهوه. سه و پنجاه به اضافهٔ دو و چهل… پنج پوند و نود.",
@@ -178,9 +178,9 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "change",
       "ninety",
+      "pounds",
       "seven",
       "eight"
      ],

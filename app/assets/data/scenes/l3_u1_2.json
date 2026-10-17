@@ -33,8 +33,8 @@
     {
      "keywords": [
       "never",
-      "did",
       "how",
+      "did",
       "get"
      ],
      "suggestion": "No, never. How did you get it?",
@@ -75,8 +75,8 @@
      "keywords": [
       "found",
       "have",
-      "how",
-      "far"
+      "far",
+      "how"
      ],
      "suggestion": "How have you found it so far?",
      "suggestionFa": "تا حالا چطور بوده؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "anyone",
+      "need",
       "else",
-      "they",
-      "need"
+      "they"
      ],
      "suggestion": "Do they need anyone else?",
      "suggestionFa": "کس دیگه‌ای هم لازم دارن؟",
@@ -145,8 +145,8 @@
     {
      "keywords": [
       "have",
-      "they",
       "paid",
+      "they",
       "yet"
      ],
      "suggestion": "Have they paid you yet?",
@@ -198,8 +198,8 @@
     {
      "keywords": [
       "how",
-      "get",
-      "one"
+      "one",
+      "get"
      ],
      "suggestion": "No. What is it, and how do I get one?",
      "suggestionFa": "نه. چیه و چطوری بگیرمش؟",

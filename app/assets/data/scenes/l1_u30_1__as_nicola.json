@@ -23,9 +23,9 @@
      "keywords": [
       "tonight",
       "charge",
-      "table",
       "mummy",
-      "will"
+      "table",
+      "says"
      ],
      "suggestion": "Mummy says I'm in charge of the table tonight! Will you help me?",
      "suggestionFa": "مامان میگه امشب مسئول میز منم! کمکم می‌کنی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cupboard",
-      "spoons",
       "knives",
+      "spoons",
       "plates",
-      "reach"
+      "can't"
      ],
      "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
      "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "plates",
-      "thank",
       "daddy",
+      "thank",
       "mummy",
-      "nana"
+      "ryan"
      ],
      "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
      "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
@@ -99,7 +99,7 @@
       "william",
       "special",
       "mummy",
-      "duck",
+      "goes",
       "bowl"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
@@ -125,7 +125,7 @@
       "knife",
       "ellis",
       "right",
-      "fork"
+      "left"
      ],
      "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
      "suggestionFa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "glasses",
-      "heavy",
       "water",
+      "heavy",
       "pour",
-      "can"
+      "jug"
      ],
      "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
      "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
@@ -174,8 +174,8 @@
       "triangles",
       "napkins",
       "folded",
-      "them",
-      "like"
+      "like",
+      "them"
      ],
      "suggestion": "And napkins! I folded them like triangles. Do you like them?",
      "suggestionFa": "و دستمال سفره! مثل مثلث تاشون کردم. دوستشون داری؟",
@@ -200,7 +200,7 @@
       "table's",
       "mummy",
       "ready",
-      "down"
+      "time"
      ],
      "suggestion": "MUMMY! The table's ready! Tea time! Everybody sit down!",
      "suggestionFa": "مامان! میز آماده‌ست! وقت شامه! همه بشینید!",

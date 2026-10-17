@@ -1,0 +1,414 @@
+{
+ "id": "l2_u35_1",
+ "characterId": "tom",
+ "title": "Single or return?",
+ "titleFa": "یک‌طرفه یا رفت‌وبرگشت؟",
+ "setting": "Trains and railcards · Level 2",
+ "settingFa": "قطار و کارت تخفیف",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "So you're going to Brighton on Saturday? Lovely. Let's buy the ticket now — it's cheaper in advance. Single or return?",
+   "translations": {
+    "fa": "پس شنبه میری برایتون؟ عالیه. بیا بلیت را الان بخریم — از قبل ارزون‌تره. یک‌طرفه یا رفت‌وبرگشت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "coming",
+      "return",
+      "please"
+     ],
+     "suggestion": "A return, please. I'm coming back on Sunday.",
+     "suggestionFa": "رفت‌وبرگشت، لطفاً. یکشنبه برمی‌گردم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "what's"
+     ],
+     "suggestion": "What's the difference?",
+     "suggestionFa": "فرقش چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in advance",
+     "fa": "از قبل"
+    },
+    {
+     "word": "single",
+     "fa": "یک‌طرفه"
+    },
+    {
+     "word": "return",
+     "fa": "رفت‌وبرگشت"
+    },
+    {
+     "word": "coming back",
+     "fa": "برگشتن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "A single is one way. A return is there and back. Funny thing — in Britain, a return is often only a bit more than a single.",
+   "translations": {
+    "fa": "یک‌طرفه یعنی فقط رفت. رفت‌وبرگشت یعنی رفتن و برگشتن. نکتهٔ جالب — تو بریتانیا، رفت‌وبرگشت اغلب فقط یه‌کم گرون‌تر از یک‌طرفه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "really",
+      "then"
+     ],
+     "suggestion": "Really? Then a return is better.",
+     "suggestionFa": "واقعاً؟ پس رفت‌وبرگشت بهتره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "singles",
+      "cheaper",
+      "which",
+      "two"
+     ],
+     "suggestion": "Which is cheaper, two singles or a return?",
+     "suggestionFa": "کدوم ارزون‌تره، دو تا یک‌طرفه یا یه رفت‌وبرگشت؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one way",
+     "fa": "یک‌طرفه"
+    },
+    {
+     "word": "there and back",
+     "fa": "رفت و برگشت"
+    },
+    {
+     "word": "often",
+     "fa": "اغلب"
+    },
+    {
+     "word": "a bit more",
+     "fa": "کمی بیشتر"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK train fares are complicated! Buying \"in advance\" for a fixed train is cheapest. An \"anytime\" ticket is flexible but expensive.",
+    "fa": "کرایهٔ قطار بریتانیا پیچیده است؛ خرید از قبل برای قطار مشخص ارزان‌ترین است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Sometimes two singles are cheaper! Let's check the app. London Victoria to Brighton… When are you coming back, exactly?",
+   "translations": {
+    "fa": "گاهی دو تا یک‌طرفه ارزون‌ترن! بیا تو اپ ببینیم. لندن ویکتوریا به برایتون… دقیقاً کی برمی‌گردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "evening",
+      "time",
+      "sure",
+      "but"
+     ],
+     "suggestion": "Sunday evening. But I'm not sure what time.",
+     "suggestionFa": "یکشنبه عصر. ولی مطمئن نیستم چه ساعتی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "o'clock",
+      "train",
+      "six"
+     ],
+     "suggestion": "Sunday at six. On the six o'clock train.",
+     "suggestionFa": "یکشنبه ساعت شش. با قطار ساعت شش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    },
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    },
+    {
+     "word": "evening",
+     "fa": "عصر"
+    },
+    {
+     "word": "not sure",
+     "fa": "مطمئن نیستم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "when you are coming back",
+      "when you come back exactly"
+     ],
+     "echo": "When are you coming back? Sunday.",
+     "better": "When are you coming back?",
+     "betterFa": "کی برمی‌گردی؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Not sure? Then get an \"off-peak return\". You can come back on any off-peak train that day. More flexible.",
+   "translations": {
+    "fa": "مطمئن نیستی؟ پس «رفت‌وبرگشت ساعات خلوت» بگیر. اون روز با هر قطار ساعات خلوت می‌تونی برگردی. انعطاف بیشتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "return",
+      "peak",
+      "much",
+      "off"
+     ],
+     "suggestion": "How much is the off-peak return?",
+     "suggestionFa": "رفت‌وبرگشت ساعات خلوت چنده؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "flexible",
+      "friends",
+      "good",
+      "slow"
+     ],
+     "suggestion": "Flexible is good. My friends are slow!",
+     "suggestionFa": "انعطاف خوبه. دوستام کندن!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "off-peak",
+     "fa": "ساعات خلوت"
+    },
+    {
+     "word": "any",
+     "fa": "هر"
+    },
+    {
+     "word": "flexible",
+     "fa": "انعطاف‌پذیر"
+    },
+    {
+     "word": "slow",
+     "fa": "کند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Twenty-eight pounds. An \"advance\" single is only nine, but it's for one train. Miss it and you pay again.",
+   "translations": {
+    "fa": "بیست و هشت پوند. یک‌طرفهٔ «از قبل» فقط نه پونده، ولی برای یه قطار خاصه. از دستش بدی دوباره پول میدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "going",
+      "back",
+      "nine",
+      "then"
+     ],
+     "suggestion": "Nine for going, then off-peak back?",
+     "suggestionFa": "نه پوند برای رفت، بعد برگشت ساعات خلوت؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stress",
+      "return",
+      "take",
+      "i'll"
+     ],
+     "suggestion": "I'll take the off-peak return. Less stress.",
+     "suggestionFa": "رفت‌وبرگشت ساعات خلوت را می‌گیرم. استرس کمتر.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "advance",
+     "fa": "از قبل (بلیت)"
+    },
+    {
+     "word": "miss",
+     "fa": "از دست دادن"
+    },
+    {
+     "word": "pay again",
+     "fa": "دوباره پرداخت کردن"
+    },
+    {
+     "word": "stress",
+     "fa": "استرس"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Clever — mixing is allowed! Advance there, off-peak back: thirty-one total. Hmm, the return's cheaper. Take the return.",
+   "translations": {
+    "fa": "زرنگی — ترکیب کردن مجازه! رفت از قبل، برگشت ساعات خلوت: جمعاً سی و یک. هوم، رفت‌وبرگشت ارزون‌تره. رفت‌وبرگشت را بگیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "return",
+      "print",
+      "ok"
+     ],
+     "suggestion": "OK. Return it is. Do I print it?",
+     "suggestionFa": "باشه. رفت‌وبرگشت. چاپش کنم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "british",
+      "trains",
+      "puzzle"
+     ],
+     "suggestion": "British trains are a puzzle!",
+     "suggestionFa": "قطارهای بریتانیا یه معمان!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mixing",
+     "fa": "ترکیب کردن"
+    },
+    {
+     "word": "allowed",
+     "fa": "مجاز"
+    },
+    {
+     "word": "total",
+     "fa": "جمع"
+    },
+    {
+     "word": "print",
+     "fa": "چاپ کردن"
+    },
+    {
+     "word": "puzzle",
+     "fa": "معما"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "An e-ticket on your phone. QR code at the barriers. And charge your phone — a dead phone means no ticket!",
+   "translations": {
+    "fa": "بلیت الکترونیکی رو گوشیت. کیوآرکد سر گیت. گوشیت را هم شارژ کن — گوشی خاموش یعنی بی‌بلیت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "charger",
+      "point",
+      "good",
+      "take"
+     ],
+     "suggestion": "Good point. I'll take my charger.",
+     "suggestionFa": "نکتهٔ خوبیه. شارژرم را می‌برم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ticket",
+      "paper",
+      "can",
+      "get"
+     ],
+     "suggestion": "Can I get a paper ticket too?",
+     "suggestionFa": "بلیت کاغذی هم می‌تونم بگیرم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "e-ticket",
+     "fa": "بلیت الکترونیکی"
+    },
+    {
+     "word": "barriers",
+     "fa": "گیت‌ها"
+    },
+    {
+     "word": "charge",
+     "fa": "شارژ کردن"
+    },
+    {
+     "word": "dead",
+     "fa": "خاموش ؛ بی‌شارژ"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "You can collect paper ones from the machine. Belt and braces! Enjoy Brighton — and watch out for the seagulls. They steal chips.",
+   "translations": {
+    "fa": "بلیت کاغذی را می‌تونی از دستگاه بگیری. محکم‌کاری! از برایتون لذت ببر — حواست به مرغ‌های دریایی باشه. سیب‌زمینی می‌دزدن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

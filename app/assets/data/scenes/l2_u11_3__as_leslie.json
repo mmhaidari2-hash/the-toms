@@ -25,7 +25,7 @@
       "tonight",
       "making",
       "we're",
-      "have"
+      "made"
      ],
      "suggestion": "Tonight we're making shepherd's pie! Have you ever made one?",
      "suggestionFa": "امشب پای چوپان درست می‌کنیم! تا حالا درست کردی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "potatoes",
       "carrots",
-      "minced",
-      "onions",
-      "mashed"
+      "mashed",
+      "potato",
+      "minced"
      ],
      "suggestion": "Minced lamb, onions, carrots, gravy — and mashed potato on top. First, can you peel the potatoes?",
      "suggestionFa": "گوشت چرخ‌کردهٔ بره، پیاز، هویج، سس — و پوره سیب‌زمینی روش. اول، می‌تونی سیب‌زمینی‌ها را پوست بکنی؟",
@@ -74,8 +74,8 @@
       "quarters",
       "minutes",
       "twenty",
-      "them",
-      "into"
+      "then",
+      "ones"
      ],
      "suggestion": "Six big ones. Then cut them into quarters and boil them for twenty minutes.",
      "suggestionFa": "شش تا بزرگ. بعد چهار قسمتشون کن و بیست دقیقه بجوشونشون.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "pinch",
       "don't",
+      "pinch",
       "onion",
       "salt",
       "next"
@@ -149,7 +149,7 @@
       "worcestershire",
       "splash",
       "sauce",
-      "until",
+      "after",
       "gravy"
      ],
      "suggestion": "Until it's brown. After that, add gravy and a splash of Worcestershire sauce. Can you say \"Worcestershire\"?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "potatoes",
-      "nearly",
       "butter",
-      "mash",
-      "milk"
+      "nearly",
+      "milk",
+      "wuss"
      ],
      "suggestion": "Nearly! It's \"Wuss-ter-sher\". Now mash the potatoes with butter and milk.",
      "suggestionFa": "تقریباً! «ووس‌تر-شر». حالا سیب‌زمینی‌ها را با کره و شیر له کن.",
@@ -198,9 +198,9 @@
      "keywords": [
       "spread",
       "lines",
-      "mash",
-      "oven",
-      "half"
+      "half",
+      "hour",
+      "lots"
      ],
      "suggestion": "Lots! Spread the mash on top, use a fork to make lines, and put it in the oven for half an hour.",
      "suggestionFa": "زیاد! پوره را روش پخش کن، با چنگال خط بنداز، و نیم ساعت بذارش تو فر.",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "natural",
-      "hundred",
       "jealous",
+      "hundred",
       "degrees",
       "crispy"
      ],

@@ -78,8 +78,8 @@
     },
     {
      "keywords": [
-      "start",
-      "daddy"
+      "daddy",
+      "start"
      ],
      "suggestion": "Start with \"To Daddy\".",
      "suggestionFa": "با «به بابا» شروع کن.",
@@ -109,10 +109,10 @@
    "branches": [
     {
      "keywords": [
-      "y",
       "t",
-      "b",
-      "d"
+      "h",
+      "y",
+      "r"
      ],
      "suggestion": "B-I-R-T-H-D-A-Y.",
      "suggestionFa": "بی-آی-آر-تی-اچ-دی-ای-وای.",
@@ -123,9 +123,9 @@
     {
      "keywords": [
       "small",
-      "words",
       "birth",
-      "day"
+      "words",
+      "two"
      ],
      "suggestion": "Birth… day. Two small words!",
      "suggestionFa": "برث… دی. دو تا کلمهٔ کوچیک!",
@@ -153,8 +153,8 @@
      "keywords": [
       "nicola",
       "write",
-      "from",
-      "love"
+      "love",
+      "from"
      ],
      "suggestion": "Write \"Love from Nicola\".",
      "suggestionFa": "بنویس «با عشق، نیکولا».",
@@ -298,8 +298,8 @@
    "branches": [
     {
      "keywords": [
-      "from",
       "love",
+      "from",
       "ok"
      ],
      "suggestion": "OK. \"Love from {you}.\"",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "here's",
-      "yours",
       "under",
+      "yours",
       "name"
      ],
      "suggestion": "Here's my name, under yours.",

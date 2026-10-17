@@ -31,8 +31,8 @@
     {
      "keywords": [
       "doesn't",
-      "worry",
       "don't",
+      "worry",
       "hurt"
      ],
      "suggestion": "Don't worry, Nicola. It doesn't hurt.",
@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "wrong",
       "freya",
+      "wrong",
       "they",
       "look"
      ],
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "chair",
       "magic",
+      "chair",
       "look"
      ],
      "suggestion": "Look, Nicola! A magic chair!",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "think",
-      "high",
-      "goes"
+      "goes",
+      "high"
      ],
      "suggestion": "I think it goes very high!",
      "suggestionFa": "فکر کنم خیلی بالا میره!",
@@ -228,10 +228,10 @@
    "branches": [
     {
      "keywords": [
-      "count",
       "let's",
-      "five",
-      "four"
+      "count",
+      "four",
+      "five"
      ],
      "suggestion": "Let's count, Nicola! Four, five, six…",
      "suggestionFa": "بیا بشمریم نیکولا! چهار، پنج، شش…",
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
-      "lion",
       "like",
       "roar",
+      "lion",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -322,9 +322,9 @@
    "branches": [
     {
      "keywords": [
-      "bring",
       "fairy",
       "tooth",
+      "bring",
       "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
@@ -337,8 +337,8 @@
      "keywords": [
       "pillow",
       "under",
-      "maybe",
-      "falls"
+      "falls",
+      "maybe"
      ],
      "suggestion": "Maybe! When it falls out, put it under your pillow.",
      "suggestionFa": "شاید! وقتی افتاد، بذارش زیر بالشت.",
@@ -380,9 +380,9 @@
    "branches": [
     {
      "keywords": [
-      "sweets",
-      "nicola",
       "leslie",
+      "nicola",
+      "sweets",
       "eats"
      ],
      "suggestion": "Leslie, Nicola eats a lot of sweets!",
@@ -393,8 +393,8 @@
     },
     {
      "keywords": [
-      "teeth",
       "clean",
+      "teeth",
       "look",
       "her"
      ],

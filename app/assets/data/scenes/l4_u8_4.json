@@ -81,10 +81,10 @@
    "branches": [
     {
      "keywords": [
-      "biased",
       "sample",
-      "size",
-      "tiny"
+      "biased",
+      "tiny",
+      "size"
      ],
      "suggestion": "So it's biased and the sample size is tiny.",
      "suggestionFa": "پس مغرضانه‌ست و اندازهٔ نمونه خیلی کوچیکه.",
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "real"
+      "even"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "clip",
-      "look"
+      "just",
+      "clip"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "getting",
-      "harder",
       "what's",
+      "harder",
       "real"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",

@@ -75,8 +75,8 @@
      "keywords": [
       "morning",
       "please",
-      "nurse",
-      "speak"
+      "speak",
+      "nurse"
      ],
      "suggestion": "Good morning. Can I speak to the nurse, please?",
      "suggestionFa": "صبح بخیر. می‌تونم با پرستار صحبت کنم، لطفاً؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "thompson",
-      "calling",
       "william",
-      "hello"
+      "calling",
+      "about"
      ],
      "suggestion": "Hello. I'm calling about William Thompson.",
      "suggestionFa": "سلام. دربارهٔ ویلیام تامپسون زنگ می‌زنم.",
@@ -143,8 +143,8 @@
     },
     {
      "keywords": [
-      "when",
       "free",
+      "when",
       "she"
      ],
      "suggestion": "When is she free?",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "years",
+      "three",
       "ago"
      ],
      "suggestion": "The fifth of March, three years ago.",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "tuesday",
-      "thirty",
       "leslie",
+      "thirty",
       "ten"
      ],
      "suggestion": "Tuesday at ten thirty. Is that OK, Leslie?",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "that's",
-      "fine",
-      "much"
+      "much",
+      "fine"
      ],
      "suggestion": "That's fine. Thank you very much.",
      "suggestionFa": "خوبه. خیلی ممنون.",

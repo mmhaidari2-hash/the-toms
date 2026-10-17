@@ -24,8 +24,8 @@
       "substitutions",
       "supermarket",
       "delivery's",
-      "through",
-      "covered"
+      "covered",
+      "through"
      ],
      "suggestion": "The supermarket delivery's here! Can you get the door? I'm covered in flour. The driver will go through the substitutions.",
      "suggestionFa": "بار سوپرمارکت رسید! میشه درو باز کنی؟ همه‌جام آردیه. راننده جایگزین‌ها را باهات چک می‌کنه.",
@@ -61,9 +61,9 @@
   "r3": {
    "id": "r3",
    "speaker": "courier",
-   "text": "Hiya! Delivery for Tom. Seven bags. There are three substitutions today. Shall I tell you what they are?",
+   "text": "Hiya! Delivery for Thompson. Seven bags. There are three substitutions today. Shall I tell you what they are?",
    "translations": {
-    "fa": "سلام! بار برای تام. هفت کیسه. امروز سه جایگزین هست. بگم چیا هستن؟"
+    "fa": "سلام! بار برای تامپسون. هفت کیسه. امروز سه جایگزین هست. بگم چیا هستن؟"
    },
    "branches": [
     {
@@ -229,9 +229,9 @@
      "keywords": [
       "thrilled",
       "what's",
+      "he'll",
       "loves",
-      "won't",
-      "he'll"
+      "won't"
      ],
      "suggestion": "Tom loves it, but the kids won't eat it. Keep it for Tom, he'll be thrilled. What's the third one?",
      "suggestionFa": "تام عاشقشه، ولی بچه‌ها نمی‌خورنش. نگهش دار برای تام، کلی ذوق می‌کنه. سومی چیه؟",

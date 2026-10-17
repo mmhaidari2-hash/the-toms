@@ -25,7 +25,7 @@
       "shopping",
       "helping",
       "thanks",
-      "away"
+      "mess"
      ],
      "suggestion": "Thanks for helping, Mehdi. The kitchen's a mess. Can you put the shopping away?",
      "suggestionFa": "ممنون که کمک می‌کنی {you}. آشپزخونه به هم ریخته‌ست. می‌تونی خریدها را بچینی؟",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "bottom",
       "fridge",
-      "door",
+      "bottom",
       "milk",
+      "door",
       "goes"
      ],
      "suggestion": "Milk goes in the fridge. In the door, at the bottom.",
@@ -98,8 +98,8 @@
      "keywords": [
       "cupboard",
       "british",
-      "kettle",
       "what's",
+      "kettle",
       "above"
      ],
      "suggestion": "British eggs are fine in the cupboard! The one above the kettle. What's next?",
@@ -124,8 +124,8 @@
       "cupboard",
       "bottom",
       "shelf",
-      "tins",
-      "tall"
+      "tall",
+      "rice"
      ],
      "suggestion": "Rice and tins go in the tall cupboard. The bottom shelf.",
      "suggestionFa": "برنج و کنسروها میرن تو کابینت بلنده. قفسهٔ پایینی.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "actually",
-      "washing",
       "william",
+      "washing",
       "powder",
       "under"
      ],
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "cupboard",
-      "kitchen",
       "perfect",
+      "kitchen",
       "better",
-      "than"
+      "milk"
      ],
      "suggestion": "Perfect. You know my kitchen better than Tom now! He puts the milk in the cupboard!",
      "suggestionFa": "عالی. الان آشپزخونه‌م را از تام بهتر بلدی! اون شیر را تو کابینت می‌ذاره!",

@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
-      "eggs",
-      "many",
       "need",
+      "many",
+      "eggs",
       "how"
      ],
      "suggestion": "How many eggs do we need?",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "twelve",
+      "family",
       "let's",
       "eats"
      ],
@@ -151,7 +151,7 @@
       "enough",
       "check",
       "text",
-      "six"
+      "mum"
      ],
      "suggestion": "Six is enough. Text your mum to check.",
      "suggestionFa": "شش تا کافیه. به مامانت پیام بده چک کن.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "pints",
       "green",
-      "then",
-      "four"
+      "pints",
+      "four",
+      "then"
      ],
      "suggestion": "Green top, then. Four pints?",
      "suggestionFa": "پس درِ سبز. چهار پینت؟",
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "aren't",
-      "there",
       "green",
+      "there",
       "only"
      ],
      "suggestion": "There aren't any red ones. Only green.",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "shall",
-      "here",
       "many",
+      "here",
       "how"
      ],
      "suggestion": "Yes, here. How many shall I get?",
@@ -360,8 +360,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "let's",
+      "great",
       "till",
       "go"
      ],

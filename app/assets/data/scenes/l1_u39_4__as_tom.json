@@ -48,8 +48,8 @@
      "keywords": [
       "recycling",
       "black",
-      "caddy",
       "green",
+      "caddy",
       "brown"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
@@ -74,8 +74,8 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "clean",
-      "rinse"
+      "rinse",
+      "paper"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "eggshells",
-      "little",
       "banana",
+      "little",
       "caddy",
       "skins"
      ],
@@ -125,7 +125,7 @@
       "wrappers",
       "packets",
       "smelly",
-      "crisp"
+      "black"
      ],
      "suggestion": "Black is for everything else. Food wrappers, crisp packets. It's the smelly one!",
      "suggestionFa": "سیاه برای بقیهٔ چیزهاست. کاغذ غذا، پاکت چیپس. همونی که بو میده!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "garden",
       "leaves",
-      "which",
+      "garden",
+      "brown",
       "grass",
-      "brown"
+      "which"
      ],
      "suggestion": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
      "suggestionFa": "سطل قهوه‌ای برای باغچه‌ست. چمن و برگ. حالا، کدوم روز میان؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "recycling",
-      "always",
       "forget",
+      "always",
       "black",
-      "they"
+      "week"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",
@@ -198,9 +198,9 @@
      "keywords": [
       "already",
       "legend",
+      "she's",
       "never",
-      "right",
-      "she's"
+      "right"
      ],
      "suggestion": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",
      "suggestionFa": "اسطوره‌ای! خب، ببریمشون بیرون. خانم خان سطل‌هاش را گذاشته. هیچ‌وقت دیر نمی‌کنه!",

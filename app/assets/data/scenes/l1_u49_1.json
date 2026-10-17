@@ -209,8 +209,8 @@
    "branches": [
     {
      "keywords": [
-      "write",
       "quite",
+      "write",
       "long"
      ],
      "suggestion": "It's quite long. Shall I write it?",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "slowly",
-      "let",
-      "say"
+      "say",
+      "let"
      ],
      "suggestion": "Let me say it slowly for you.",
      "suggestionFa": "بذارید آروم براتون بگمش.",

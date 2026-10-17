@@ -21,8 +21,8 @@
      "keywords": [
       "practical",
       "theory",
-      "pass",
-      "test"
+      "test",
+      "pass"
      ],
      "suggestion": "Yes, you have to pass a theory test and a practical test.",
      "suggestionFa": "آره، باید امتحان تئوری و عملی را قبول بشی.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "months",
       "twelve",
+      "months",
       "after",
-      "only"
+      "need"
      ],
      "suggestion": "Only for twelve months. After that, I need to get a UK one.",
      "suggestionFa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "depends",
       "doesn't",
+      "depends",
       "country",
       "count"
      ],
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "computer",
-      "drive",
-      "don't"
+      "don't",
+      "drive"
      ],
      "suggestion": "You don't have to drive — it's on a computer.",
      "suggestionFa": "لازم نیست رانندگی کنی — رو کامپیوتره.",

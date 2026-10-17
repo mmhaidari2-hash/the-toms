@@ -21,8 +21,8 @@
      "keywords": [
       "current",
       "account",
-      "open",
-      "like"
+      "like",
+      "open"
      ],
      "suggestion": "Yes. I'd like to open a current account.",
      "suggestionFa": "بله. می‌خوام یه حساب جاری باز کنم.",
@@ -150,7 +150,7 @@
       "aren't",
       "family",
       "bills",
-      "name"
+      "live"
      ],
      "suggestion": "I live with a family. The bills aren't in my name.",
      "suggestionFa": "با یه خانواده زندگی می‌کنم. قبض‌ها به اسم من نیست.",
@@ -192,13 +192,13 @@
    "branches": [
     {
      "keywords": [
+      "thompson",
       "family",
       "that's",
-      "right",
-      "tom"
+      "right"
      ],
-     "suggestion": "Yes, that's right. With the Tom family.",
-     "suggestionFa": "بله، درسته. با خانوادهٔ تام.",
+     "suggestion": "Yes, that's right. With the Thompson family.",
+     "suggestionFa": "بله، درسته. با خانوادهٔ تامپسون.",
      "trustDelta": 6,
      "next": "n5",
      "success": true
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "long",
-      "open",
       "take",
+      "open",
       "how"
      ],
      "suggestion": "Yes. How long does it take to open?",
@@ -256,9 +256,9 @@
     {
      "keywords": [
       "what's",
+      "world",
       "debit",
-      "small",
-      "world"
+      "small"
      ],
      "suggestion": "Small world! What's a debit card?",
      "suggestionFa": "دنیا کوچیکه! کارت دبیت چیه؟",
@@ -309,9 +309,9 @@
     {
      "keywords": [
       "great",
+      "pin",
       "how",
-      "get",
-      "pin"
+      "get"
      ],
      "suggestion": "Great. And how do I get my PIN?",
      "suggestionFa": "عالیه. رمزم را چطوری می‌گیرم؟",

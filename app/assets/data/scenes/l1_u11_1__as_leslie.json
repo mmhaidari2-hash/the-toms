@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "usually",
+      "o'clock",
       "morning",
       "seven",
       "time"
@@ -73,8 +73,8 @@
       "everything",
       "porridge",
       "william",
-      "nicola",
-      "cereal"
+      "cereal",
+      "nicola"
      ],
      "suggestion": "Tom has cereal. Nicola has porridge. And William has everything!",
      "suggestionFa": "تام غلات صبحانه می‌خوره. نیکولا فرنی. و ویلیام همه چی!",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "breakfast",
-      "please",
       "before",
+      "please",
       "nicola",
-      "teeth"
+      "after"
      ],
      "suggestion": "Hot oats with milk. Now — Nicola! Brush your teeth, please! Do you brush your teeth before or after breakfast?",
      "suggestionFa": "جو داغ با شیر. حالا — نیکولا! لطفاً مسواک بزن! قبل یا بعد از صبحونه مسواک می‌زنی؟",
@@ -122,9 +122,9 @@
      "keywords": [
       "school",
       "nicola",
+      "leave",
       "house",
-      "eight",
-      "leave"
+      "eight"
      ],
      "suggestion": "Good. I leave at eight. I walk Nicola to school. What time do you leave the house?",
      "suggestionFa": "خوبه. من ساعت هشت می‌رم. نیکولا را پیاده می‌برم مدرسه. تو ساعت چند از خونه می‌ری؟",
@@ -148,8 +148,8 @@
       "always",
       "where",
       "keys",
-      "them",
-      "lose"
+      "lose",
+      "them"
      ],
      "suggestion": "Oh, where are my keys? I always lose my keys! Can you see them?",
      "suggestionFa": "آخ، کلیدهام کجان؟ همیشه کلیدهام را گم می‌کنم! می‌بینیشون؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "lunch",
+      "thank",
       "found",
-      "have",
-      "them"
+      "them",
+      "have"
      ],
      "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
      "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
@@ -198,8 +198,8 @@
       "morning",
       "what's",
       "every",
-      "like",
-      "star"
+      "star",
+      "like"
      ],
      "suggestion": "You're a star. Every morning is like this! What's your morning like?",
      "suggestionFa": "تو یه ستاره‌ای. هر صبح همین‌طوره! صبح تو چطوره؟",
@@ -224,7 +224,7 @@
       "lovely",
       "coats",
       "right",
-      "have"
+      "here"
      ],
      "suggestion": "Ha! Same here. Right, coats on, everybody! Have a lovely day!",
      "suggestionFa": "ها! منم همین‌طور. خب، همه کت‌ها را بپوشید! روز خوبی داشته باشید!",

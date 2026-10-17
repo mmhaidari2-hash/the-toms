@@ -124,9 +124,9 @@
    "branches": [
     {
      "keywords": [
-      "people",
-      "polite",
       "that's",
+      "polite",
+      "people",
       "first"
      ],
      "suggestion": "Let people off first. That's polite.",
@@ -198,8 +198,8 @@
     {
      "keywords": [
       "always",
-      "sorry",
       "doors",
+      "sorry",
       "stand"
      ],
      "suggestion": "I always stand by the doors. Sorry!",
@@ -281,10 +281,10 @@
    "branches": [
     {
      "keywords": [
-      "people",
       "tehran",
+      "people",
       "metro",
-      "time"
+      "talk"
      ],
      "suggestion": "In Tehran, people talk on the metro all the time!",
      "suggestionFa": "تو تهران، مردم تو مترو مدام حرف می‌زنن!",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "i'll",
-      "read",
       "book",
+      "read",
       "ok"
      ],
      "suggestion": "OK. I'll read my book.",

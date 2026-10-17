@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "like",
       "open",
-      "hope",
-      "like"
+      "hope"
      ],
      "suggestion": "I hope you like it. Open it!",
      "suggestionFa": "امیدوارم خوشت بیاد. بازش کن!",
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "older",
-      "when",
-      "hope"
+      "hope",
+      "when"
      ],
      "suggestion": "What do you hope to do when you're older?",
      "suggestionFa": "وقتی بزرگ‌تر شدی امیدواری چی کار کنی؟",
@@ -272,8 +272,8 @@
     },
     {
      "keywords": [
-      "wish",
       "make",
+      "wish",
       "big"
      ],
      "suggestion": "Make a big wish!",

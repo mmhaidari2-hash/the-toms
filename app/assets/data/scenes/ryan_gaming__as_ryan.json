@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "support",
       "chelsea",
-      "don't",
+      "support",
       "d'you",
+      "don't",
       "then"
      ],
      "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "rematch",
       "calling",
+      "rematch",
       "dinner",
-      "mum's",
-      "later"
+      "later",
+      "mum's"
      ],
      "suggestion": "GOAL! Get in! That was well good. Mum's calling — dinner. Rematch later, yeah?",
      "suggestionFa": "گل! ایول! خیلی خوب بود. مامان صدامون می‌کنه — شام. بعداً دوباره بازی کنیم، باشه؟",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "actually",
-      "again",
-      "wanna",
       "three",
-      "best"
+      "wanna",
+      "again",
+      "mate"
      ],
      "suggestion": "Mate, you're actually not bad. Wanna go again? Best of three.",
      "suggestionFa": "رفیق، واقعاً بد نیستی. یه دست دیگه؟ دو از سه.",
@@ -124,8 +124,8 @@
       "controller",
       "cheers",
       "footy",
-      "play",
-      "sick"
+      "back",
+      "pass"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
      "suggestionFa": "عالیه. اون دسته را بده، مرسی. تو وطنت فوتبال بازی می‌کنی؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "support",
       "friends",
+      "support",
       "united",
-      "don't",
-      "d'you"
+      "d'you",
+      "don't"
      ],
      "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
      "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "obviously",
       "liverpool",
+      "obviously",
       "bricking",
       "tomorrow",
       "anyway"
@@ -198,8 +198,8 @@
      "keywords": [
       "algebra",
       "legend",
-      "would",
       "don't",
+      "would",
       "just"
      ],
      "suggestion": "Would you? Legend. It's algebra — I just don't get what x is for.",
@@ -224,8 +224,8 @@
       "actually",
       "alright",
       "cheers",
-      "sense",
-      "makes"
+      "makes",
+      "sense"
      ],
      "suggestion": "Oh! That actually makes sense. Cheers, mate — you're alright, you are.",
      "suggestionFa": "اوه! واقعاً منطقیه. مرسی رفیق — تو آدم خوبی هستی.",

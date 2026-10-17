@@ -1,0 +1,409 @@
+{
+ "id": "l2_u33_2",
+ "characterId": "dawson",
+ "title": "Plasters and cream",
+ "titleFa": "چسب زخم و پماد",
+ "setting": "At the chemist (A2) · Level 2",
+ "settingFa": "در داروخانه (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dawson",
+   "text": "Hello again. You look like you're on a mission. What do you need today?",
+   "translations": {
+    "fa": "دوباره سلام. شبیه کسی هستی که مأموریت داره. امروز چی لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plasters",
+      "leslie",
+      "cream",
+      "sent"
+     ],
+     "suggestion": "Leslie sent me. We need plasters and some cream.",
+     "suggestionFa": "لزلی فرستادم. چسب زخم و یه پماد لازم داریم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "things",
+      "first",
+      "aid",
+      "box"
+     ],
+     "suggestion": "I need things for a first-aid box.",
+     "suggestionFa": "برای جعبهٔ کمک‌های اولیه وسایل لازم دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mission",
+     "fa": "مأموریت"
+    },
+    {
+     "word": "plasters",
+     "fa": "چسب زخم"
+    },
+    {
+     "word": "cream",
+     "fa": "پماد ؛ کرم"
+    },
+    {
+     "word": "first-aid box",
+     "fa": "جعبهٔ کمک‌های اولیه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dawson",
+   "text": "Plasters are on the second shelf, by the till. The children's ones have dinosaurs. What's the cream for?",
+   "translations": {
+    "fa": "چسب زخم‌ها قفسهٔ دوم کنار صندوقه. مال بچه‌ها دایناسوری‌ان. پماد برای چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "touched",
+      "small",
+      "oven",
+      "burn"
+     ],
+     "suggestion": "For a small burn. Tom touched the oven.",
+     "suggestionFa": "برای یه سوختگی کوچیک. تام به فر دست زد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "over",
+      "fell",
+      "park"
+     ],
+     "suggestion": "For William. He fell over in the park.",
+     "suggestionFa": "برای ویلیام. تو پارک زمین خورد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shelf",
+     "fa": "قفسه"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "burn",
+     "fa": "سوختگی"
+    },
+    {
+     "word": "fell over",
+     "fa": "زمین خورد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dawson",
+   "text": "A burn? First, cool water for twenty minutes. Not ice, not butter. Then this burn gel. Is the skin broken?",
+   "translations": {
+    "fa": "سوختگی؟ اول، بیست دقیقه آب خنک. نه یخ، نه کره. بعد این ژل سوختگی. پوستش زخم شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "just",
+      "red"
+     ],
+     "suggestion": "No, it's just red.",
+     "suggestionFa": "نه، فقط قرمزه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "butter",
+      "some",
+      "use"
+     ],
+     "suggestion": "Butter? Some people use butter?",
+     "suggestionFa": "کره؟ بعضیا از کره استفاده می‌کنن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cool",
+     "fa": "خنک"
+    },
+    {
+     "word": "ice",
+     "fa": "یخ"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    },
+    {
+     "word": "burn gel",
+     "fa": "ژل سوختگی"
+    },
+    {
+     "word": "skin",
+     "fa": "پوست"
+    }
+   ],
+   "cultureNote": {
+    "en": "For a small burn, the NHS says: cool it under running water for 20 minutes. Don't use ice, butter or toothpaste.",
+    "fa": "برای سوختگی کوچک ۲۰ دقیقه زیر آب روان خنک کنید."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dawson",
+   "text": "Old wives' tale. Grandmas still say it! Just red — good. The gel will help. If it blisters badly, see the GP.",
+   "translations": {
+    "fa": "خرافهٔ قدیمی. مادربزرگ‌ها هنوز میگنش! فقط قرمز — خوبه. ژل کمک می‌کنه. اگه بد تاول زد، برو پیش پزشک عمومی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blister",
+      "mean"
+     ],
+     "suggestion": "What does \"blister\" mean?",
+     "suggestionFa": "«بلیستر» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "suitable",
+      "gel",
+      "ok"
+     ],
+     "suggestion": "OK. Is this gel suitable for children too?",
+     "suggestionFa": "باشه. این ژل برای بچه‌ها هم مناسبه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "old wives' tale",
+     "fa": "باور خرافی ؛ حرف قدیمی"
+    },
+    {
+     "word": "blisters",
+     "fa": "تاول می‌زند"
+    },
+    {
+     "word": "badly",
+     "fa": "به‌شدت"
+    },
+    {
+     "word": "suitable",
+     "fa": "مناسب"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is suitable for children",
+      "this gel is suitable for kids?"
+     ],
+     "echo": "Suitable for children? Yes, over one.",
+     "better": "Is this gel suitable for children?",
+     "betterFa": "این ژل برای بچه‌ها مناسب است؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dawson",
+   "text": "It's for children over one year old, so William's fine. Anything else for the first-aid box?",
+   "translations": {
+    "fa": "برای بچه‌های بالای یک ساله، پس ویلیام مشکلی نداره. چیز دیگه‌ای برای جعبهٔ کمک‌های اولیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paracetamol",
+      "thermometer",
+      "children's",
+      "some"
+     ],
+     "suggestion": "Yes. A thermometer and some children's paracetamol.",
+     "suggestionFa": "آره. یه دماسنج و یه‌کم پاراستامول بچه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "need",
+      "we"
+     ],
+     "suggestion": "What do you think we need?",
+     "suggestionFa": "به نظرت چی لازم داریم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "year old",
+     "fa": "ساله"
+    },
+    {
+     "word": "thermometer",
+     "fa": "دماسنج"
+    },
+    {
+     "word": "children's paracetamol",
+     "fa": "پاراستامول کودکان"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dawson",
+   "text": "A thermometer, children's paracetamol — the strawberry one — antiseptic wipes and a bandage. That's a good kit.",
+   "translations": {
+    "fa": "یه دماسنج، پاراستامول بچه — توت‌فرنگی — دستمال ضدعفونی و یه باند. این یه کیت خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strawberry",
+      "nicola",
+      "love",
+      "will"
+     ],
+     "suggestion": "Strawberry? Nicola will love it.",
+     "suggestionFa": "توت‌فرنگی؟ نیکولا عاشقش میشه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "antiseptic",
+      "wipes"
+     ],
+     "suggestion": "What are antiseptic wipes for?",
+     "suggestionFa": "دستمال ضدعفونی برای چیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strawberry",
+     "fa": "توت‌فرنگی"
+    },
+    {
+     "word": "antiseptic wipes",
+     "fa": "دستمال ضدعفونی"
+    },
+    {
+     "word": "bandage",
+     "fa": "باند ؛ بانداژ"
+    },
+    {
+     "word": "kit",
+     "fa": "کیت ؛ مجموعه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dawson",
+   "text": "Not too much! The dose is on the box, by age. Always check. Right — fourteen pounds fifty. And tell Tom: oven gloves!",
+   "translations": {
+    "fa": "نه زیاد! دوزش رو جعبه‌ست، بر اساس سن. همیشه چک کن. خب — چهارده پوند و پنجاه. به تام هم بگو: دستکش فر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "i'll",
+      "tell",
+      "him"
+     ],
+     "suggestion": "Ha! I'll tell him. Thank you!",
+     "suggestionFa": "ها! بهش میگم. ممنون!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "card",
+      "can",
+      "pay",
+      "by"
+     ],
+     "suggestion": "Can I pay by card?",
+     "suggestionFa": "می‌تونم با کارت پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dose",
+     "fa": "دوز ؛ مقدار مصرف"
+    },
+    {
+     "word": "age",
+     "fa": "سن"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    },
+    {
+     "word": "oven gloves",
+     "fa": "دستکش فر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dawson",
+   "text": "Card's fine. And keep the box up high, away from little hands. William is a climber, I hear!",
+   "translations": {
+    "fa": "کارت اشکالی نداره. جعبه را هم بالا نگه دار، دور از دست کوچولوها. شنیدم ویلیام اهل بالا رفتنه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

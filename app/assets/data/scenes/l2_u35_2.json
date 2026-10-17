@@ -1,0 +1,402 @@
+{
+ "id": "l2_u35_2",
+ "characterId": "maya",
+ "title": "Off-peak and railcards",
+ "titleFa": "ساعات خلوت و کارت تخفیف",
+ "setting": "Trains and railcards · Level 2",
+ "settingFa": "قطار و کارت تخفیف",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Tickets from Victoria, please! Thank you… oh. This is a peak ticket, but it's half past ten. You paid too much!",
+   "translations": {
+    "fa": "بلیت‌ها از ویکتوریا، لطفاً! ممنون… اوه. این بلیت ساعات شلوغه، ولی ساعت ده و نیمه. زیادی پول دادید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machine",
+      "really",
+      "gave",
+      "one"
+     ],
+     "suggestion": "Really? The machine gave me this one.",
+     "suggestionFa": "واقعاً؟ دستگاه همینو بهم داد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "between",
+      "what's",
+      "peak"
+     ],
+     "suggestion": "What's the difference between peak and off-peak?",
+     "suggestionFa": "فرق ساعات شلوغ و خلوت چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "peak",
+     "fa": "ساعات شلوغ ؛ اوج"
+    },
+    {
+     "word": "half past ten",
+     "fa": "ده و نیم"
+    },
+    {
+     "word": "paid",
+     "fa": "پرداخت کردید"
+    },
+    {
+     "word": "too much",
+     "fa": "زیادی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "Peak is the busy time — before about half nine in the morning, and late afternoon. Off-peak is much cheaper.",
+   "translations": {
+    "fa": "ساعات شلوغ زمان پررفت‌وآمده — قبل از حدود نه و نیم صبح، و آخر بعدازظهر. ساعات خلوت خیلی ارزون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "refund",
+      "know",
+      "get"
+     ],
+     "suggestion": "I didn't know that. Can I get a refund?",
+     "suggestionFa": "نمی‌دونستم. می‌تونم پولم را پس بگیرم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "after",
+      "half",
+      "peak",
+      "nine"
+     ],
+     "suggestion": "So after half nine, I buy off-peak?",
+     "suggestionFa": "پس بعد از نه و نیم، بلیت ساعات خلوت بخرم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "morning",
+     "fa": "صبح"
+    },
+    {
+     "word": "late afternoon",
+     "fa": "آخر بعدازظهر"
+    },
+    {
+     "word": "refund",
+     "fa": "بازپرداخت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Peak times are usually weekday mornings before about 9:30 and early evenings. Off-peak and weekend fares are much cheaper.",
+    "fa": "ساعات اوج معمولاً صبح‌های روز کاری قبل از ۹:۳۰ است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i not know that",
+      "i didn't knew that"
+     ],
+     "echo": "You didn't know that? Lots of people don't!",
+     "better": "I didn't know that.",
+     "betterFa": "نمی‌دانستم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "You can ask at the ticket office for the difference back. There's a small fee. Have you got a railcard?",
+   "translations": {
+    "fa": "می‌تونید از باجهٔ بلیت تفاوت را پس بگیرید. یه هزینهٔ کوچیک داره. کارت تخفیف قطار دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "railcard",
+      "what's"
+     ],
+     "suggestion": "No. What's a railcard?",
+     "suggestionFa": "نه. کارت تخفیف قطار چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "think",
+      "cost",
+      "much"
+     ],
+     "suggestion": "I don't think so. How much does it cost?",
+     "suggestionFa": "فکر نکنم. چقدر هزینه داره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ticket office",
+     "fa": "باجهٔ بلیت ؛ گیشه"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    },
+    {
+     "word": "fee",
+     "fa": "هزینه"
+    },
+    {
+     "word": "railcard",
+     "fa": "کارت تخفیف قطار"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "A railcard gives you a third off train tickets. It's about £35 a year. If you travel a lot, it pays for itself fast.",
+   "translations": {
+    "fa": "کارت تخفیف یک‌سوم از بلیت‌های قطار کم می‌کنه. سالی حدود سی و پنج پونده. اگه زیاد سفر کنید، زود پولش برمی‌گرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "railcard",
+      "which",
+      "third",
+      "off"
+     ],
+     "suggestion": "A third off? Which railcard can I get?",
+     "suggestionFa": "یک‌سوم تخفیف؟ کدوم کارت را می‌تونم بگیرم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thirty",
+      "pounds",
+      "worth",
+      "five"
+     ],
+     "suggestion": "Thirty-five pounds. Is it worth it?",
+     "suggestionFa": "سی و پنج پوند. می‌ارزه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a third off",
+     "fa": "یک‌سوم تخفیف"
+    },
+    {
+     "word": "a year",
+     "fa": "سالانه"
+    },
+    {
+     "word": "pays for itself",
+     "fa": "هزینهٔ خودش را درمی‌آورد"
+    },
+    {
+     "word": "worth it",
+     "fa": "ارزشش را دارد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "How old are you? Under thirty-one? Then the 26–30 Railcard. Over sixty, the Senior Railcard. There's a Family one too.",
+   "translations": {
+    "fa": "چند سالتونه؟ زیر سی و یک؟ پس کارت ۲۶ تا ۳۰. بالای شصت، کارت سالمندان. یه کارت خانواده هم هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirty",
+      "one"
+     ],
+     "suggestion": "I'm thirty. So the 26–30 one?",
+     "suggestionFa": "سی سالمه. پس همون ۲۶ تا ۳۰؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompsons",
+      "railcard",
+      "family"
+     ],
+     "suggestion": "A Family Railcard? For the Thompsons?",
+     "suggestionFa": "کارت خانواده؟ برای تامپسون‌ها؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "senior",
+     "fa": "سالمند"
+    },
+    {
+     "word": "family",
+     "fa": "خانواده"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Perfect timing — at thirty, you just qualify. Buy it online, it's digital. You save a third on most journeys.",
+   "translations": {
+    "fa": "زمان‌بندی عالی — در سی سالگی، درست واجد شرایطی. آنلاین بخریدش، دیجیتاله. تو بیشتر سفرها یک‌سوم صرفه‌جویی می‌کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "valid",
+      "time",
+      "day",
+      "any"
+     ],
+     "suggestion": "Is it valid at any time of day?",
+     "suggestionFa": "هر ساعتی از روز معتبره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tonight",
+      "thank",
+      "maya",
+      "i'll"
+     ],
+     "suggestion": "I'll buy it tonight. Thank you, Maya!",
+     "suggestionFa": "امشب می‌خرمش. ممنون مایا!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "timing",
+     "fa": "زمان‌بندی"
+    },
+    {
+     "word": "qualify",
+     "fa": "واجد شرایط بودن"
+    },
+    {
+     "word": "digital",
+     "fa": "دیجیتال"
+    },
+    {
+     "word": "journeys",
+     "fa": "سفرها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "Not before ten on weekdays — except in July and August. Read the small print! And the Family one is great for Leslie and the kids.",
+   "translations": {
+    "fa": "روزهای کاری نه قبل از ده — به جز تیر و مرداد. ریزنوشته‌ها را بخونید! کارت خانواده هم برای لزلی و بچه‌ها عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "print",
+      "small"
+     ],
+     "suggestion": "The small print! Always the small print.",
+     "suggestionFa": "ریزنوشته‌ها! همیشه ریزنوشته‌ها.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "railcard",
+      "leslie",
+      "family",
+      "about"
+     ],
+     "suggestion": "I'll tell Leslie about the Family Railcard.",
+     "suggestionFa": "به لزلی دربارهٔ کارت خانواده میگم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weekdays",
+     "fa": "روزهای کاری"
+    },
+    {
+     "word": "except",
+     "fa": "به جز"
+    },
+    {
+     "word": "small print",
+     "fa": "ریزنوشته‌ها ؛ شرایط"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "maya",
+   "text": "Do! Kids get sixty per cent off. Right — enjoy the journey. Next stop, East Croydon. Tickets, please!",
+   "translations": {
+    "fa": "حتماً! بچه‌ها شصت درصد تخفیف می‌گیرن. خب — از سفر لذت ببرید. ایستگاه بعد، ایست کرویدون. بلیت‌ها، لطفاً!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

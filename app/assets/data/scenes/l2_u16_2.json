@@ -31,8 +31,8 @@
     {
      "keywords": [
       "labels",
-      "didn't",
       "yellow",
+      "didn't",
       "know"
      ],
      "suggestion": "Yellow labels? I didn't know that.",
@@ -123,8 +123,8 @@
      "keywords": [
       "price",
       "good",
-      "half",
-      "deal"
+      "deal",
+      "half"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "cheaper",
-      "box",
-      "big"
+      "big",
+      "box"
      ],
      "suggestion": "So the big box is cheaper per kilo?",
      "suggestionFa": "پس جعبهٔ بزرگ هر کیلوش ارزون‌تره؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "small",
       "alone",
+      "small",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "seven",
+      "after",
       "why"
      ],
      "suggestion": "Why after seven?",
@@ -393,10 +393,10 @@
     },
     {
      "keywords": [
-      "pasta",
       "don't",
-      "much",
-      "just"
+      "pasta",
+      "just",
+      "much"
      ],
      "suggestion": "Just one. I don't eat much pasta.",
      "suggestionFa": "فقط یکی. زیاد ماکارونی نمی‌خورم.",

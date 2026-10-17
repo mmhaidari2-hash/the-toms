@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
+      "these",
       "socks",
       "pairs",
-      "these",
-      "look",
-      "need"
+      "help",
+      "find"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
      "suggestionFa": "این همه جوراب را ببین! کمکم می‌کنی؟ باید جفت‌ها را پیدا کنیم.",
@@ -50,7 +50,7 @@
       "stars",
       "sock",
       "blue",
-      "see"
+      "one"
      ],
      "suggestion": "This sock is blue with stars. Can you see another blue one?",
      "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "william's",
       "aren't",
-      "sweet",
-      "white",
-      "one's"
+      "one's",
+      "these",
+      "white"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
      "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
-      "socks",
       "tom's",
       "these",
-      "hole"
+      "socks",
+      "grey"
      ],
      "suggestion": "And these big grey socks are Tom's. They've got a hole!",
      "suggestionFa": "و این جوراب‌های طوسی بزرگ مال تامه. سوراخ دارن!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "where's",
-      "other",
       "green",
+      "other",
       "sock",
       "one"
      ],
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "disappear",
-      "washing",
       "machine",
+      "washing",
       "always",
       "socks"
      ],
@@ -200,7 +200,7 @@
       "knows",
       "pairs",
       "count",
-      "have"
+      "many"
      ],
      "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
      "suggestionFa": "هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "drawers",
-      "let's",
       "thank",
       "pairs",
+      "let's",
       "eight"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",

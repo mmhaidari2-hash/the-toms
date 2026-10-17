@@ -155,8 +155,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
-      "take"
+      "take",
+      "time"
      ],
      "suggestion": "Take your time.",
      "suggestionFa": "عجله نکن.",
@@ -197,8 +197,8 @@
    "branches": [
     {
      "keywords": [
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea!",
      "suggestionFa": "فکر خوبیه!",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "swap",
-      "time"
+      "time",
+      "swap"
      ],
      "suggestion": "Is it time to swap?",
      "suggestionFa": "وقت عوض کردنه؟",
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
+      "try",
       "can",
-      "bit",
-      "try"
+      "bit"
      ],
      "suggestion": "Can I try a bit?",
      "suggestionFa": "می‌تونم یه کم امتحان کنم؟",

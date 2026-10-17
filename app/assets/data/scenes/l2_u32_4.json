@@ -33,9 +33,9 @@
     {
      "keywords": [
       "about",
-      "talk",
+      "jade",
       "need",
-      "jade"
+      "talk"
      ],
      "suggestion": "Hi Jade. I need to talk about my membership.",
      "suggestionFa": "سلام جِید. باید دربارهٔ عضویتم صحبت کنم.",
@@ -76,7 +76,7 @@
       "hours",
       "i've",
       "long",
-      "got"
+      "job"
      ],
      "suggestion": "I've got a new job. The hours are very long.",
      "suggestionFa": "یه کار جدید گرفتم. ساعت‌هاش خیلی طولانیه.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "month",
       "money",
-      "tight"
+      "tight",
+      "month"
      ],
      "suggestion": "Money is tight this month.",
      "suggestionFa": "این ماه وضع مالیم تنگه.",
@@ -152,8 +152,8 @@
     {
      "keywords": [
       "music",
-      "well",
       "loud",
+      "well",
       "bit"
      ],
      "suggestion": "Well… the music is a bit loud!",
@@ -238,10 +238,10 @@
    "branches": [
     {
      "keywords": [
-      "freeze",
       "that's",
+      "freeze",
       "let's",
-      "idea"
+      "good"
      ],
      "suggestion": "That's a good idea. Let's freeze it.",
      "suggestionFa": "فکر خوبیه. تعلیقش کنیم.",

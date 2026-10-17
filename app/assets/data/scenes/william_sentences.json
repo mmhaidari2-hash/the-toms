@@ -72,8 +72,8 @@
     {
      "keywords": [
       "people",
-      "ring",
       "bell",
+      "ring",
       "get"
      ],
      "suggestion": "People ring the bell to get off.",
@@ -280,10 +280,10 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "called",
-      "taxis",
-      "black"
+      "london",
+      "black",
+      "taxis"
      ],
      "suggestion": "London taxis are called black cabs.",
      "suggestionFa": "به تاکسی‌های لندن می‌گن black cab.",
@@ -344,8 +344,8 @@
      "keywords": [
       "grandad",
       "daddy",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "Just like Daddy and Grandad!",
      "suggestionFa": "درست مثل بابا و پدربزرگ!",

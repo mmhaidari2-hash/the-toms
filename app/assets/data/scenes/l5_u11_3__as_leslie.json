@@ -24,7 +24,7 @@
       "neighbours",
       "exhausted",
       "number",
-      "again",
+      "music",
       "three"
      ],
      "suggestion": "The new neighbours at number 16 had music on until three again. I'm exhausted. Will you come with me to talk to them?",
@@ -50,7 +50,7 @@
       "better",
       "bother",
       "start",
-      "sorry"
+      "hello"
      ],
      "suggestion": "Good idea. You start — you're better at staying calm. Here goes… Hello! Sorry to bother you.",
      "suggestionFa": "فکر خوبیه. تو شروع کن — تو آروم موندن بهتری. شروع شد… سلام! ببخشید مزاحم میشیم.",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "someone's",
-      "leslie",
       "number",
+      "leslie",
       "coming",
       "hello"
      ],
@@ -270,10 +270,10 @@
     {
      "keywords": [
       "barbecue",
-      "invited",
       "they've",
+      "invited",
       "they'll",
-      "eleven"
+      "agreed"
      ],
      "suggestion": "They've agreed to eleven, and they'll put a rug down. And — they've invited us to a barbecue!",
      "suggestionFa": "قبول کردن تا یازده، و یه فرش پهن می‌کنن. و — ما را به یه باربیکیو دعوت کردن!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "resolution",
-      "saturday",
       "promised",
+      "saturday",
       "conflict",
       "barbecue"
      ],

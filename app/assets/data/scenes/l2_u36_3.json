@@ -1,0 +1,406 @@
+{
+ "id": "l2_u36_3",
+ "characterId": "bennett",
+ "title": "A parking permit",
+ "titleFa": "مجوز پارک",
+ "setting": "The council · Level 2",
+ "settingFa": "شورای شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "Tom asked me to help you with the council website. A parking permit? These library computers are slow, but they work.",
+   "translations": {
+    "fa": "تام ازم خواست با سایت شورا کمکت کنم. مجوز پارک؟ این کامپیوترهای کتابخونه کندن، ولی کار می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parking",
+      "apply",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "Yes. I'd like to apply for a parking permit.",
+     "suggestionFa": "آره. می‌خوام برای مجوز پارک درخواست بدم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ticket",
+      "tom's",
+      "needs",
+      "new"
+     ],
+     "suggestion": "Tom's car got a ticket. He needs a new permit.",
+     "suggestionFa": "ماشین تام جریمه شد. مجوز جدید لازم داره.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "parking permit",
+     "fa": "مجوز پارک"
+    },
+    {
+     "word": "website",
+     "fa": "وب‌سایت"
+    },
+    {
+     "word": "slow",
+     "fa": "کند"
+    },
+    {
+     "word": "ticket",
+     "fa": "جریمه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "A ticket! Poor Tom. In Hackney, you need a resident's permit to park on your street. Has his permit run out?",
+   "translations": {
+    "fa": "جریمه! بیچاره تام. تو هاکنی برای پارک تو خیابون خودت مجوز ساکنین لازمه. مجوزش تموم شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forgot",
+      "last",
+      "week",
+      "ran"
+     ],
+     "suggestion": "Yes. It ran out last week. He forgot!",
+     "suggestionFa": "آره. هفتهٔ پیش تموم شد. یادش رفت!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "resident's",
+      "permit",
+      "what's"
+     ],
+     "suggestion": "What's a resident's permit?",
+     "suggestionFa": "مجوز ساکنین چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "resident's permit",
+     "fa": "مجوز ساکنین"
+    },
+    {
+     "word": "park",
+     "fa": "پارک کردن"
+    },
+    {
+     "word": "run out",
+     "fa": "منقضی شدن"
+    },
+    {
+     "word": "forgot",
+     "fa": "فراموش کرد"
+    }
+   ],
+   "cultureNote": {
+    "en": "In many London streets you need a resident's parking permit. Visitors need a separate visitor permit, often paid by the hour.",
+    "fa": "در بسیاری از خیابان‌های لندن مجوز پارک ساکنین لازم است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bennett",
+   "text": "Let's renew it. \"Resident permit — renew.\" It needs his car registration and proof of address. Have you got them?",
+   "translations": {
+    "fa": "بیا تمدیدش کنیم. «مجوز ساکنین — تمدید.» پلاک ماشینش و مدرک آدرس لازمه. داریشون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "texted",
+      "tom"
+     ],
+     "suggestion": "Tom texted me the registration.",
+     "suggestionFa": "تام پلاک را برام پیامک کرد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "car"
+     ],
+     "suggestion": "What's a car registration?",
+     "suggestionFa": "پلاک ماشین چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "renew",
+     "fa": "تمدید کردن"
+    },
+    {
+     "word": "registration",
+     "fa": "شمارهٔ پلاک"
+    },
+    {
+     "word": "proof of address",
+     "fa": "مدرک آدرس"
+    },
+    {
+     "word": "texted",
+     "fa": "پیامک داد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bennett",
+   "text": "The number plate. And the council tax bill works for address. Now — the price depends on the car. Is it big or small?",
+   "translations": {
+    "fa": "شمارهٔ پلاک. قبض مالیات شورا هم برای آدرس کافیه. خب — قیمت به ماشین بستگی داره. بزرگه یا کوچیک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "petrol",
+      "family",
+      "small",
+      "car"
+     ],
+     "suggestion": "A small family car. Petrol.",
+     "suggestionFa": "یه ماشین خانوادگی کوچیک. بنزینی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "permit",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is the permit?",
+     "suggestionFa": "مجوز چنده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "number plate",
+     "fa": "پلاک خودرو"
+    },
+    {
+     "word": "depends on",
+     "fa": "بستگی دارد به"
+    },
+    {
+     "word": "family car",
+     "fa": "ماشین خانوادگی"
+    },
+    {
+     "word": "petrol",
+     "fa": "بنزینی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how much the permit is",
+      "how many is the permit"
+     ],
+     "echo": "How much is it? Let's see.",
+     "better": "How much is the permit?",
+     "betterFa": "مجوز چند است؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Petrol, small engine… a hundred and forty pounds a year. Electric cars are much cheaper. The council wants cleaner air.",
+   "translations": {
+    "fa": "بنزینی، موتور کوچیک… سالی صد و چهل پوند. ماشین‌های برقی خیلی ارزون‌ترن. شورا هوای تمیزتر می‌خواد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "shocked",
+      "forty",
+      "will"
+     ],
+     "suggestion": "A hundred and forty! Tom will be shocked.",
+     "suggestionFa": "صد و چهل! تام شوکه میشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "process",
+      "long",
+      "take",
+      "how"
+     ],
+     "suggestion": "How long does it take to process?",
+     "suggestionFa": "پردازشش چقدر طول می‌کشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "engine",
+     "fa": "موتور"
+    },
+    {
+     "word": "electric",
+     "fa": "برقی"
+    },
+    {
+     "word": "cleaner air",
+     "fa": "هوای تمیزتر"
+    },
+    {
+     "word": "process",
+     "fa": "پردازش کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "bennett",
+   "text": "It's digital — no paper on the windscreen. It starts in about twenty-four hours. Until then, Tom should park in the car park.",
+   "translations": {
+    "fa": "دیجیتاله — بدون کاغذ رو شیشهٔ جلو. حدود بیست و چهار ساعت دیگه شروع میشه. تا اون موقع، تام باید تو پارکینگ پارک کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ticket",
+      "can",
+      "pay",
+      "we"
+     ],
+     "suggestion": "Can we pay the ticket too?",
+     "suggestionFa": "جریمه را هم می‌تونیم پرداخت کنیم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "visitors",
+      "leslie's",
+      "sister",
+      "coming"
+     ],
+     "suggestion": "And visitors? Leslie's sister is coming.",
+     "suggestionFa": "مهمون‌ها چی؟ خواهر لزلی داره میاد.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "windscreen",
+     "fa": "شیشهٔ جلو ؛ پنجرهٔ جلو"
+    },
+    {
+     "word": "until then",
+     "fa": "تا آن موقع"
+    },
+    {
+     "word": "visitors",
+     "fa": "مهمان‌ها"
+    },
+    {
+     "word": "sister",
+     "fa": "خواهر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "bennett",
+   "text": "Visitor permits are by the hour, on the same website. Pay the ticket within fourteen days — it's half price! Shall we?",
+   "translations": {
+    "fa": "مجوز مهمان ساعتیه، تو همون سایت. جریمه را ظرف چهارده روز بده — نصف قیمته! انجامش بدیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "price",
+      "half",
+      "pay"
+     ],
+     "suggestion": "Yes, let's pay it now. Half price!",
+     "suggestionFa": "آره، بیا الان پرداخت کنیم. نصف قیمت!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "money",
+      "first",
+      "i'll",
+      "ask"
+     ],
+     "suggestion": "I'll ask Tom first. It's his money.",
+     "suggestionFa": "اول از تام می‌پرسم. پول اونه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by the hour",
+     "fa": "ساعتی"
+    },
+    {
+     "word": "within",
+     "fa": "ظرف"
+    },
+    {
+     "word": "half price",
+     "fa": "نصف قیمت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "bennett",
+   "text": "Very wise. And tell Tom to renew on time next year. I've ticked the reminder box. Libraries are good at reminders!",
+   "translations": {
+    "fa": "خیلی عاقلانه. به تام هم بگو سال بعد سر وقت تمدید کنه. گزینهٔ یادآوری را تیک زدم. کتابخونه‌ها تو یادآوری واردن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

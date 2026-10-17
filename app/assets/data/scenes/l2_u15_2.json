@@ -20,8 +20,8 @@
     {
      "keywords": [
       "street",
-      "live",
       "mare",
+      "live",
       "new"
      ],
      "suggestion": "Yes, I'm new. I live on Mare Street.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
-      "here",
+      "good",
       "card",
-      "good"
+      "here"
      ],
      "suggestion": "Good morning. Do I tap my card here?",
      "suggestionFa": "صبح بخیر. کارتم را اینجا بزنم؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "have",
       "tube",
-      "tap",
-      "out"
+      "have",
+      "out",
+      "tap"
      ],
      "suggestion": "So on the Tube I have to tap out?",
      "suggestionFa": "پس تو مترو باید موقع خروج کارت بزنم؟",
@@ -298,8 +298,8 @@
     {
      "keywords": [
       "please",
-      "have",
-      "seat"
+      "seat",
+      "have"
      ],
      "suggestion": "Please, have my seat.",
      "suggestionFa": "بفرمایید، جای من بشینید.",

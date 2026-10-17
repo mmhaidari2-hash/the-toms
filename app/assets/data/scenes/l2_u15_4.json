@@ -128,7 +128,7 @@
       "rucksack",
       "stripe",
       "black",
-      "got"
+      "red"
      ],
      "suggestion": "It's a black rucksack. It's got a red stripe.",
      "suggestionFa": "یه کوله‌پشتی مشکیه. یه نوار قرمز داره.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "small",
       "front",
+      "small",
       "blue",
       "zip"
      ],
@@ -192,8 +192,8 @@
      "keywords": [
       "umbrella",
       "lunch",
-      "book",
-      "just"
+      "just",
+      "book"
      ],
      "suggestion": "Just a book and an umbrella. Oh, and my lunch.",
      "suggestionFa": "فقط یه کتاب و یه چتر. آهان، و ناهارم.",
@@ -322,9 +322,9 @@
     {
      "keywords": [
       "thank",
-      "when",
       "much",
-      "tom"
+      "when",
+      "get"
      ],
      "suggestion": "Thank you so much, Tom! When can I get it?",
      "suggestionFa": "خیلی ممنون تام! کی می‌تونم بگیرمش؟",
@@ -371,10 +371,10 @@
    "branches": [
     {
      "keywords": [
-      "make",
       "just",
+      "make",
       "did",
-      "ha"
+      "up"
      ],
      "suggestion": "Ha! Did you just make that up?",
      "suggestionFa": "ها! همین الان از خودت درآوردی؟",
@@ -386,8 +386,8 @@
      "keywords": [
       "remember",
       "advice",
-      "i'll",
-      "good"
+      "good",
+      "i'll"
      ],
      "suggestion": "Good advice. I'll remember it.",
      "suggestionFa": "توصیهٔ خوبیه. یادم می‌مونه.",

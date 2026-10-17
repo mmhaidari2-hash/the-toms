@@ -25,7 +25,7 @@
       "learning",
       "nappies",
       "potty",
-      "news"
+      "more"
      ],
      "suggestion": "Big news! William's learning to use the potty. No more nappies in the day!",
      "suggestionFa": "خبر بزرگ! ویلیام داره یاد می‌گیره از لگن استفاده کنه. دیگه روزها پوشک نمی‌خواد!",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "remember",
-      "every",
       "needs",
-      "have",
+      "every",
+      "work",
       "hour"
      ],
      "suggestion": "It's hard work! He needs to go every hour. And I have to remember to ask him!",
@@ -130,9 +130,9 @@
      "keywords": [
       "bathroom",
       "potty's",
-      "loves",
       "quick",
-      "have"
+      "loves",
+      "says"
      ],
      "suggestion": "He loves them. Now, if he says \"wee\", we have to be quick! The potty's in the bathroom.",
      "suggestionFa": "عاشقشونه. حالا اگه گفت «جیش»، باید سریع باشیم! لگن تو حمومه.",
@@ -206,8 +206,8 @@
      "keywords": [
       "hands",
       "wash",
-      "need",
       "phew",
+      "need",
       "did"
      ],
      "suggestion": "Go, go, go! … Phew, he did it! Now we need to wash our hands.",
@@ -233,7 +233,7 @@
       "sticker",
       "natural",
       "chart",
-      "gets"
+      "five"
      ],
      "suggestion": "He gets a sticker for his chart. Five stickers and he gets a toy bus. You're a natural, Mehdi!",
      "suggestionFa": "یه برچسب برای جدولش می‌گیره. پنج برچسب، یه اتوبوس اسباب‌بازی. تو ذاتاً بلدی {you}!",

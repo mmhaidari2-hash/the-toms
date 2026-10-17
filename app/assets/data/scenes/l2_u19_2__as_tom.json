@@ -25,7 +25,7 @@
       "british",
       "museum",
       "isn't",
-      "let's"
+      "we're"
      ],
      "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
      "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
@@ -49,8 +49,8 @@
       "overground",
       "victoria",
       "highbury",
-      "colour",
-      "change"
+      "change",
+      "colour"
      ],
      "suggestion": "Every line has a colour. We take the Overground to Highbury, then change to the Victoria line.",
      "suggestionFa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم.",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "tunnels",
       "there's",
       "quicker",
+      "tunnels",
       "lesson",
       "about"
      ],
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "westbound",
       "eastbound",
+      "westbound",
       "central",
       "circus",
-      "that's"
+      "lesson"
      ],
      "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
      "suggestionFa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!",
@@ -175,7 +175,7 @@
       "londoner",
       "about",
       "every",
-      "tube"
+      "then"
      ],
      "suggestion": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
      "suggestionFa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!",

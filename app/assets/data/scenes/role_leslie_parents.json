@@ -21,8 +21,8 @@
      "keywords": [
       "tonight",
       "didn't",
-      "sorry",
-      "speak"
+      "speak",
+      "sorry"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
      "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "leaves",
-      "house",
       "times",
-      "time"
+      "house",
+      "four"
      ],
      "suggestion": "Four times? He leaves the house on time!",
      "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "morning",
+      "chicken",
       "eight",
       "shop"
      ],
@@ -133,7 +133,7 @@
       "drives",
       "check",
       "dad",
-      "his"
+      "tom"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -220,9 +220,9 @@
     {
      "keywords": [
       "football",
-      "reads",
       "count",
-      "news"
+      "reads",
+      "only"
      ],
      "suggestion": "He only reads football news. Does that count?",
      "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
@@ -335,8 +335,8 @@
      "keywords": [
       "wonderful",
       "building",
-      "things",
-      "that's"
+      "that's",
+      "things"
      ],
      "suggestion": "That's wonderful. He loves building things.",
      "suggestionFa": "فوق‌العاده‌ست. عاشق ساختن چیزهاست.",
@@ -385,8 +385,8 @@
     {
      "keywords": [
       "helpful",
-      "thanks",
       "really",
+      "thanks",
       "been"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",

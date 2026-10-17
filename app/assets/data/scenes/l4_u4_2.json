@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "should",
       "please",
+      "should",
       "look",
       "out"
      ],
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "happens",
       "deposit",
-      "when",
-      "move"
+      "happens",
+      "move",
+      "when"
      ],
      "suggestion": "What happens to the deposit when I move out?",
      "suggestionFa": "وقتی بیرون برم ودیعه چی میشه؟",
@@ -151,7 +151,7 @@
       "everything",
       "photos",
       "first",
-      "i'll"
+      "take"
      ],
      "suggestion": "I'll take photos of everything on the first day.",
      "suggestionFa": "روز اول از همه چیز عکس می‌گیرم.",

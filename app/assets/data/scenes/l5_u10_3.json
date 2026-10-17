@@ -20,8 +20,8 @@
     {
      "keywords": [
       "anything",
-      "george",
       "didn't",
+      "george",
       "have"
      ],
      "suggestion": "George, you didn't have to do anything.",
@@ -64,8 +64,8 @@
      "keywords": [
       "possession",
       "treasured",
-      "george",
-      "accept"
+      "accept",
+      "george"
      ],
      "suggestion": "George, I can't accept this. It's your most treasured possession.",
      "suggestionFa": "جورج، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه.",
@@ -75,8 +75,8 @@
     },
     {
      "keywords": [
-      "means",
       "don't",
+      "means",
       "know",
       "much"
      ],
@@ -121,10 +121,10 @@
     },
     {
      "keywords": [
-      "right",
       "never",
-      "felt",
-      "i've"
+      "right",
+      "i've",
+      "home"
      ],
      "suggestion": "I've never felt so at home as I do right now.",
      "suggestionFa": "هیچ‌وقت به اندازهٔ الان احساس در خانه بودن نکرده بودم.",
@@ -176,8 +176,8 @@
      "keywords": [
       "certificate",
       "citizenship",
-      "hang",
-      "i'll"
+      "i'll",
+      "next"
      ],
      "suggestion": "I'll hang it next to my citizenship certificate.",
      "suggestionFa": "کنار گواهی شهروندیم آویزونش می‌کنم.",

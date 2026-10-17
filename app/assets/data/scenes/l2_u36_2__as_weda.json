@@ -1,0 +1,200 @@
+{
+ "id": "l2_u36_2__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Maggie) Reporting a missed bin",
+ "titleFa": "(در نقش Nana Maggie) گزارش جا ماندن سطل زباله",
+ "setting": "The council · Level 2",
+ "settingFa": "شورای شهر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u36_2",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Maggie!",
+   "translations": {
+    "fa": "سلام Nana Maggie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "overflowing",
+      "recycling",
+      "disaster",
+      "thursday",
+      "didn't"
+     ],
+     "suggestion": "Dear, it's a disaster. The bin men didn't empty our recycling bin. It's Thursday and it's overflowing! And the foxes…",
+     "suggestionFa": "عزیزم، فاجعه‌ست. رفتگرها سطل بازیافت ما را خالی نکردن. پنج‌شنبه‌ست و داره سرریز میشه! روباه‌ها هم…",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no. When is your bin day?",
+   "translations": {
+    "fa": "وای نه. روز زباله‌تون کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "tuesday",
+      "report",
+      "else's",
+      "green"
+     ],
+     "suggestion": "Tuesday. Green bin this week. They took everyone else's, but not mine. Can you help me report it? I hate the phone menus.",
+     "suggestionFa": "سه‌شنبه. این هفته سطل سبز. مال همه را بردن، ولی مال منو نه. میشه کمکم کنی گزارشش بدم؟ از منوهای تلفنی متنفرم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "We can do it online. It's quicker.",
+   "translations": {
+    "fa": "می‌تونیم آنلاین انجامش بدیم. سریع‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pavement",
+      "george",
+      "before",
+      "always",
+      "course"
+     ],
+     "suggestion": "Of course I did! On the pavement, lid closed, like always. George did it before he got ill. Now it's my job.",
+     "suggestionFa": "معلومه که گذاشتم! رو پیاده‌رو، در بسته، مثل همیشه. قبل از اینکه جورج مریض بشه، اون این کار را می‌کرد. حالا کار منه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "OK. The website asks: \"What was missed?\"",
+   "translations": {
+    "fa": "باشه. سایت می‌پرسه: «چه چیزی جا ماند؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "treasure",
+      "yoghurt",
+      "there's",
+      "eating",
+      "would"
+     ],
+     "suggestion": "Oh, would you? You're a treasure. Now — tell them it's been two days, and there's a fox eating my yoghurt pots.",
+     "suggestionFa": "وای، این کار را می‌کنی؟ تو یه گنجی. حالا — بهشون بگو دو روزه، و یه روباه داره ظرف ماست‌هام را می‌خوره.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'll write: \"Missed recycling, Tuesday.\"",
+   "translations": {
+    "fa": "می‌نویسم: «بازیافت جا مانده، سه‌شنبه.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "comments",
+      "resident",
+      "elderly",
+      "please",
+      "there"
+     ],
+     "suggestion": "Say the fox! They need to know. Is there a box for comments? Write: \"Elderly resident. Please come soon.\"",
+     "suggestionFa": "روباه را بگو! باید بدونن. جایی برای توضیحات هست؟ بنویس: «ساکن سالمند. لطفاً زود بیایید.»",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Done. They'll collect it within two days.",
+   "translations": {
+    "fa": "تموم. ظرف دو روز می‌برنش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collection",
+      "assisted",
+      "allowed",
+      "seventy",
+      "what's"
+     ],
+     "suggestion": "Seventy-one, dear. I'm allowed to use it when it helps! Two days. And what's that bit about \"assisted collection\"?",
+     "suggestionFa": "هفتاد و یک سال، عزیزم. وقتی کمک کنه اجازه دارم ازش استفاده کنم! دو روز. و اون قسمت «جمع‌آوری کمکی» چیه؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "They take the bin from your door, if you need help.",
+   "translations": {
+    "fa": "اگه کمک لازم داشته باشی، سطل را از دم در می‌برن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george's",
+      "window",
+      "clever",
+      "watch",
+      "apply"
+     ],
+     "suggestion": "Oh! For George's sake, let's apply. Clever lad. Now come in — I'll make tea, and we'll watch the fox from the window.",
+     "suggestionFa": "آه! به خاطر جورج، بیا درخواست بدیم. پسر زرنگ. حالا بیا تو — چای درست می‌کنم و از پنجره روباه را تماشا می‌کنیم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

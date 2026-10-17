@@ -22,7 +22,7 @@
       "indian",
       "what's",
       "don't",
-      "well"
+      "know"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -142,8 +142,8 @@
      "keywords": [
       "vindaloo",
       "spicy",
-      "like",
-      "food"
+      "food",
+      "like"
      ],
      "suggestion": "I like spicy food. I'll try the vindaloo!",
      "suggestionFa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "medium",
       "please",
+      "medium",
       "have",
       "one"
      ],
@@ -259,8 +259,8 @@
      "keywords": [
       "order",
       "hear",
-      "can",
-      "how"
+      "how",
+      "can"
      ],
      "suggestion": "Can I hear how you order?",
      "suggestionFa": "می‌تونم گوش بدم چطور سفارش میدی؟",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "drinks",
-      "let",
+      "buy",
       "but",
-      "buy"
+      "let"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

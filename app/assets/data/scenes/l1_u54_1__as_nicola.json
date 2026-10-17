@@ -25,7 +25,7 @@
       "decorate",
       "market",
       "daddy",
-      "help"
+      "here"
      ],
      "suggestion": "The Christmas tree is here! Daddy got it from the market! Can you help me decorate it?",
      "suggestionFa": "درخت کریسمس رسید! بابا از بازار گرفتش! کمکم می‌کنی تزئینش کنیم؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "bottom",
-      "shiny",
       "small",
+      "shiny",
       "balls",
       "ones"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "snowman",
       "special",
+      "snowman",
       "school",
       "made",
       "one"
@@ -148,9 +148,9 @@
      "keywords": [
       "middle",
       "small",
-      "goes",
       "star",
-      "now"
+      "goes",
+      "but"
      ],
      "suggestion": "In the middle! Now the star. It goes on top! But I'm too small.",
      "suggestionFa": "وسط! حالا ستاره. بالای درخت میره! ولی من خیلی کوچیکم.",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "lights",
       "switch",
-      "ready",
+      "lights",
       "there",
+      "ready",
       "star"
      ],
      "suggestion": "Up, up! There! The star is on top! Switch on the lights! Ready…",
@@ -199,8 +199,8 @@
       "christmas",
       "trees",
       "world",
-      "ooooh",
-      "magic"
+      "magic",
+      "ooooh"
      ],
      "suggestion": "Ooooh! It's MAGIC! It's the best tree in the world! Do you have Christmas trees in Iran?",
      "suggestionFa": "اوووه! جادوییه! بهترین درخت دنیاست! تو ایران درخت کریسمس دارید؟",

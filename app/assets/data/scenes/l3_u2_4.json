@@ -35,7 +35,7 @@
       "problem",
       "feeling",
       "have",
-      "long"
+      "been"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
      "suggestionFa": "مشکلی نیست. چند وقته این‌طوری هستید؟",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "happy",
       "would",
+      "happy",
       "kind",
       "like"
      ],
@@ -138,8 +138,8 @@
      "keywords": [
       "visit",
       "would",
-      "home",
-      "like"
+      "like",
+      "home"
      ],
      "suggestion": "Would you like me to ask for a home visit?",
      "suggestionFa": "می‌خواید درخواست ویزیت خونگی کنم؟",
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "looked",
       "you've",
-      "after",
-      "don't"
+      "looked",
+      "don't",
+      "worry"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "shall",
       "clues",
+      "shall",
       "read"
      ],
      "suggestion": "Shall I read the clues to you?",

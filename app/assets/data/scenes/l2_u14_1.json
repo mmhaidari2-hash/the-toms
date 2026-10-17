@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "library",
       "morning",
+      "library",
       "please",
-      "like"
+      "good"
      ],
      "suggestion": "Good morning. I'd like to join the library, please.",
      "suggestionFa": "صبح بخیر. می‌خوام عضو کتابخانه بشم، لطفاً.",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "street",
-      "mare",
-      "live"
+      "live",
+      "mare"
      ],
      "suggestion": "Yes, I live on Mare Street.",
      "suggestionFa": "بله، تو مِر استریت زندگی می‌کنم.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "here's",
-      "card",
-      "bank"
+      "bank",
+      "card"
      ],
      "suggestion": "Here's my bank card and a letter.",
      "suggestionFa": "این کارت بانکیم و یه نامه.",
@@ -174,8 +174,8 @@
      "keywords": [
       "fifteen",
       "keep",
-      "them",
-      "long"
+      "long",
+      "them"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "borrow",
-      "well",
       "dvds",
+      "well",
       "as"
      ],
      "suggestion": "Can I borrow DVDs as well?",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "book",
       "lose",
+      "book",
       "if"
      ],
      "suggestion": "What if I lose a book?",
@@ -351,8 +351,8 @@
      "keywords": [
       "thank",
       "both",
-      "i'll",
-      "look"
+      "look",
+      "i'll"
      ],
      "suggestion": "Thank you. I'll look at both.",
      "suggestionFa": "ممنون. هر دو را نگاه می‌کنم.",

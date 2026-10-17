@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "scanning",
       "checkout",
+      "scanning",
       "quicker",
       "let's",
-      "scan"
+      "easy"
      ],
      "suggestion": "Let's use the self-checkout, it's quicker. Scan, bag, pay. Easy. You do the scanning, I'll do the bags.",
      "suggestionFa": "بیا از صندوق سلف‌سرویس استفاده کنیم، سریع‌تره. اسکن، کیسه، پرداخت. آسون. تو اسکن کن، من کیسه می‌ذارم.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "barcode",
-      "apples",
       "weighs",
+      "apples",
       "press",
-      "loose"
+      "fruit"
      ],
      "suggestion": "Loose fruit has no barcode. Press \"Look up item\", then \"Fruit and veg\", then \"Apples\". It weighs them.",
      "suggestionFa": "میوهٔ فله بارکد نداره. «جستجوی کالا» را بزن، بعد «میوه و سبزی»، بعد «سیب». خودش وزنشون می‌کنه.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "handbag",
-      "classic",
       "stopped",
+      "classic",
       "scales",
       "i'll"
      ],
@@ -163,8 +163,8 @@
      "keywords": [
       "flashing",
       "member",
-      "staff",
       "light",
+      "staff",
       "means"
      ],
      "suggestion": "Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady?",
@@ -305,8 +305,8 @@
       "checkout",
       "machine",
       "telling",
-      "you've",
-      "better"
+      "better",
+      "you've"
      ],
      "suggestion": "You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom.",
      "suggestionFa": "انجامش دادی! اولین صندوق سلف‌سرویست، فقط یه بار هم دستگاه دعوات کرد. از تام بهتری.",

@@ -56,11 +56,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "fridge",
       "grapes",
-      "there",
-      "snack"
+      "please",
+      "snack",
+      "there"
      ],
      "suggestion": "Can you get him a snack? There are grapes in the fridge. Cut them in half, please.",
      "suggestionFa": "می‌تونی براش خوراکی بیاری؟ تو یخچال انگور هست. لطفاً نصفشون کن.",
@@ -81,9 +81,9 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "little",
       "grapes",
+      "little",
+      "please",
       "aren't",
       "whole"
      ],
@@ -160,9 +160,9 @@
      "keywords": [
       "everything",
       "green",
-      "blue",
+      "week",
       "last",
-      "week"
+      "want"
      ],
      "suggestion": "Everything has to be blue this week. Last week it was green! Do you want to sit with him?",
      "suggestionFa": "این هفته همه چی باید آبی باشه. هفتهٔ پیش سبز بود! می‌خوای کنارش بشینی؟",
@@ -238,8 +238,8 @@
       "cracker",
       "instead",
       "won't",
-      "give",
-      "more"
+      "more",
+      "give"
      ],
      "suggestion": "No more now, or he won't eat his tea. Can you give him a cracker instead?",
      "suggestionFa": "دیگه بسه، وگرنه شامش را نمی‌خوره. می‌تونی به‌جاش یه بیسکویت شور بهش بدی؟",
@@ -312,8 +312,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "taught",
+      "please",
       "thank",
       "nana",
       "him"

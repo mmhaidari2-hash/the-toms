@@ -23,8 +23,8 @@
      "keywords": [
       "starving",
       "o'clock",
-      "shall",
       "lunch",
+      "shall",
       "have"
      ],
      "suggestion": "I'm starving! It's one o'clock. What shall we have for lunch?",
@@ -48,9 +48,9 @@
      "keywords": [
       "something",
       "british",
+      "quick",
       "lunch",
-      "beans",
-      "toast"
+      "beans"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
      "suggestionFa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "toaster",
       "slices",
-      "bread",
       "beans",
+      "bread",
       "i'll"
      ],
      "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "toast's",
-      "cheese",
       "butter",
-      "beans",
-      "yours"
+      "cheese",
+      "yours",
+      "beans"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
      "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "cheese",
       "secret",
-      "sauce",
+      "cheese",
       "brown",
-      "try"
+      "sauce",
+      "bit"
      ],
      "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
      "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "cooking",
+      "minutes",
       "that's",
-      "kind",
-      "wash"
+      "wash",
+      "kind"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",

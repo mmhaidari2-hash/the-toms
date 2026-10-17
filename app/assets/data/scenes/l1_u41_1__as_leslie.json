@@ -47,8 +47,8 @@
     {
      "keywords": [
       "letters",
-      "capital",
       "surname",
+      "capital",
       "office",
       "first"
      ],
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "address",
-      "number",
       "street",
+      "number",
       "family",
-      "mare"
+      "then"
      ],
      "suggestion": "Your family name. Then your address. You're at number ten, Mare Street.",
      "suggestionFa": "اسم فامیلت. بعد آدرست. تو پلاک ده، خیابون مر هستی.",
@@ -124,8 +124,8 @@
       "calendar",
       "number",
       "normal",
-      "phone",
-      "first"
+      "email",
+      "phone"
      ],
      "suggestion": "Use the normal calendar. Day first! Then your phone number and email.",
      "suggestionFa": "از تقویم معمولی استفاده کن. اول روز! بعد شماره تلفن و ایمیلت.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "list",
-      "let",
-      "see"
+      "see",
+      "let"
      ],
      "suggestion": "Let me see the list.",
      "suggestionFa": "بذار لیست را ببینم.",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "thing",
-      "list",
-      "next"
+      "next",
+      "list"
      ],
      "suggestion": "Next thing on the list?",
      "suggestionFa": "چیز بعدی لیست؟",
@@ -202,8 +202,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "gravy",
+      "can't",
       "find",
       "we"
      ],
@@ -269,8 +269,8 @@
     },
     {
      "keywords": [
-      "three",
       "aisle",
+      "three",
       "easy"
      ],
      "suggestion": "Aisle three. Easy!",

@@ -1,0 +1,225 @@
+{
+ "id": "l2_u35_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Single or return?",
+ "titleFa": "(در نقش Tom) یک‌طرفه یا رفت‌وبرگشت؟",
+ "setting": "Trains and railcards · Level 2",
+ "settingFa": "قطار و کارت تخفیف",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u35_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "brighton",
+      "advance",
+      "cheaper",
+      "ticket"
+     ],
+     "suggestion": "So you're going to Brighton on Saturday? Lovely. Let's buy the ticket now — it's cheaper in advance. Single or return?",
+     "suggestionFa": "پس شنبه میری برایتون؟ عالیه. بیا بلیت را الان بخریم — از قبل ارزون‌تره. یک‌طرفه یا رفت‌وبرگشت؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "A return, please. I'm coming back on Sunday.",
+   "translations": {
+    "fa": "رفت‌وبرگشت، لطفاً. یکشنبه برمی‌گردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "britain",
+      "return",
+      "single",
+      "funny",
+      "there"
+     ],
+     "suggestion": "A single is one way. A return is there and back. Funny thing — in Britain, a return is often only a bit more than a single.",
+     "suggestionFa": "یک‌طرفه یعنی فقط رفت. رفت‌وبرگشت یعنی رفتن و برگشتن. نکتهٔ جالب — تو بریتانیا، رفت‌وبرگشت اغلب فقط یه‌کم گرون‌تر از یک‌طرفه‌ست.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Really? Then a return is better.",
+   "translations": {
+    "fa": "واقعاً؟ پس رفت‌وبرگشت بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "victoria",
+      "brighton",
+      "singles",
+      "cheaper"
+     ],
+     "suggestion": "Sometimes two singles are cheaper! Let's check the app. London Victoria to Brighton… When are you coming back, exactly?",
+     "suggestionFa": "گاهی دو تا یک‌طرفه ارزون‌ترن! بیا تو اپ ببینیم. لندن ویکتوریا به برایتون… دقیقاً کی برمی‌گردی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Sunday evening. But I'm not sure what time.",
+   "translations": {
+    "fa": "یکشنبه عصر. ولی مطمئن نیستم چه ساعتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flexible",
+      "return",
+      "train",
+      "then",
+      "more"
+     ],
+     "suggestion": "Not sure? Then get an \"off-peak return\". You can come back on any off-peak train that day. More flexible.",
+     "suggestionFa": "مطمئن نیستی؟ پس «رفت‌وبرگشت ساعات خلوت» بگیر. اون روز با هر قطار ساعات خلوت می‌تونی برگردی. انعطاف بیشتر.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "How much is the off-peak return?",
+   "translations": {
+    "fa": "رفت‌وبرگشت ساعات خلوت چنده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "advance",
+      "single",
+      "twenty",
+      "pounds",
+      "train"
+     ],
+     "suggestion": "Twenty-eight pounds. An \"advance\" single is only nine, but it's for one train. Miss it and you pay again.",
+     "suggestionFa": "بیست و هشت پوند. یک‌طرفهٔ «از قبل» فقط نه پونده، ولی برای یه قطار خاصه. از دستش بدی دوباره پول میدی.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Nine for going, then off-peak back?",
+   "translations": {
+    "fa": "نه پوند برای رفت، بعد برگشت ساعات خلوت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "return's",
+      "allowed",
+      "advance",
+      "cheaper",
+      "thirty"
+     ],
+     "suggestion": "Clever — mixing is allowed! Advance there, off-peak back: thirty-one total. Hmm, the return's cheaper. Take the return.",
+     "suggestionFa": "زرنگی — ترکیب کردن مجازه! رفت از قبل، برگشت ساعات خلوت: جمعاً سی و یک. هوم، رفت‌وبرگشت ارزون‌تره. رفت‌وبرگشت را بگیر.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "OK. Return it is. Do I print it?",
+   "translations": {
+    "fa": "باشه. رفت‌وبرگشت. چاپش کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barriers",
+      "ticket",
+      "charge",
+      "phone",
+      "means"
+     ],
+     "suggestion": "An e-ticket on your phone. QR code at the barriers. And charge your phone — a dead phone means no ticket!",
+     "suggestionFa": "بلیت الکترونیکی رو گوشیت. کیوآرکد سر گیت. گوشیت را هم شارژ کن — گوشی خاموش یعنی بی‌بلیت!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Good point. I'll take my charger.",
+   "translations": {
+    "fa": "نکتهٔ خوبیه. شارژرم را می‌برم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brighton",
+      "seagulls",
+      "collect",
+      "machine",
+      "braces"
+     ],
+     "suggestion": "You can collect paper ones from the machine. Belt and braces! Enjoy Brighton — and watch out for the seagulls. They steal chips.",
+     "suggestionFa": "بلیت کاغذی را می‌تونی از دستگاه بگیری. محکم‌کاری! از برایتون لذت ببر — حواست به مرغ‌های دریایی باشه. سیب‌زمینی می‌دزدن.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

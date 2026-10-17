@@ -1,0 +1,413 @@
+{
+ "id": "l2_u34_1",
+ "characterId": "leslie",
+ "title": "Booking a slot",
+ "titleFa": "گرفتن وقت",
+ "setting": "Parents' evening (A2) · Level 2",
+ "settingFa": "جلسهٔ اولیا (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Help! Parents' evening booking opens at seven, and the good slots go in five minutes. Can you help me book on the school app?",
+   "translations": {
+    "fa": "کمک! رزرو جلسهٔ اولیا ساعت هفت باز میشه و وقت‌های خوب پنج دقیقه‌ای تموم میشن. میشه کمکم کنی تو اپ مدرسه رزرو کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "book",
+      "need",
+      "we"
+     ],
+     "suggestion": "Of course. What do we need to book?",
+     "suggestionFa": "البته. چی باید رزرو کنیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "competition",
+      "minutes",
+      "five"
+     ],
+     "suggestion": "Five minutes? Is it a competition?",
+     "suggestionFa": "پنج دقیقه؟ مسابقه‌ست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "parents' evening",
+     "fa": "جلسهٔ اولیا و مربیان"
+    },
+    {
+     "word": "booking",
+     "fa": "رزرو"
+    },
+    {
+     "word": "slots",
+     "fa": "وقت‌ها"
+    },
+    {
+     "word": "competition",
+     "fa": "مسابقه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "It feels like one! Two meetings: Ryan's form tutor, Mr Patel, and Nicola's teacher, Ms Ellis. Each slot lasts five minutes.",
+   "translations": {
+    "fa": "حس مسابقه داره! دو تا جلسه: معلم راهنمای رایان، آقای پاتل، و معلم نیکولا، خانم الیس. هر وقت پنج دقیقه طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "short",
+      "only"
+     ],
+     "suggestion": "Only five minutes? That's very short.",
+     "suggestionFa": "فقط پنج دقیقه؟ خیلی کوتاهه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "o'clock",
+      "seven",
+      "open",
+      "app"
+     ],
+     "suggestion": "OK. It's seven o'clock. The app is open!",
+     "suggestionFa": "باشه. ساعت هفته. اپ باز شد!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "meetings",
+     "fa": "جلسه‌ها"
+    },
+    {
+     "word": "form tutor",
+     "fa": "معلم راهنما"
+    },
+    {
+     "word": "lasts",
+     "fa": "طول می‌کشد"
+    },
+    {
+     "word": "short",
+     "fa": "کوتاه"
+    }
+   ],
+   "cultureNote": {
+    "en": "At UK parents' evenings, each teacher meeting is usually 5–10 minutes. Parents book slots online, and some schools offer video calls.",
+    "fa": "جلسات اولیا معمولاً ۵ تا ۱۰ دقیقه‌اند و آنلاین رزرو می‌شوند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Quick! Mr Patel first. What's free on Thursday? Read me the times.",
+   "translations": {
+    "fa": "سریع! اول آقای پاتل. پنج‌شنبه چه ساعت‌هایی خالیه؟ ساعت‌ها را برام بخون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "forty",
+      "slot",
+      "six"
+     ],
+     "suggestion": "There's a slot at six-ten and one at six-forty.",
+     "suggestionFa": "یه وقت ساعت شش و ده هست و یکی شش و چهل.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "taken",
+      "seven",
+      "fifty",
+      "left"
+     ],
+     "suggestion": "Most are taken. Only seven-fifty is left.",
+     "suggestionFa": "بیشترش گرفته شده. فقط هفت و پنجاه مونده.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free",
+     "fa": "خالی ؛ آزاد"
+    },
+    {
+     "word": "times",
+     "fa": "ساعت‌ها"
+    },
+    {
+     "word": "taken",
+     "fa": "گرفته شده"
+    },
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is slot at six ten",
+      "there are a slot at six-ten"
+     ],
+     "echo": "There's a slot at six-ten? Take it!",
+     "better": "There's a slot at six-ten.",
+     "betterFa": "یک وقت ساعت شش و ده هست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Six-ten, take it! Now Ms Ellis. We need at least ten minutes between them — the classrooms are far apart.",
+   "translations": {
+    "fa": "شش و ده، بگیرش! حالا خانم الیس. حداقل ده دقیقه بینشون فاصله لازم داریم — کلاس‌ها از هم دورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirty",
+      "ellis",
+      "six",
+      "has"
+     ],
+     "suggestion": "Ms Ellis has six-thirty. Is that OK?",
+     "suggestionFa": "خانم الیس شش و نیم داره. خوبه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "change",
+      "patel",
+      "later",
+      "time"
+     ],
+     "suggestion": "Can we change Mr Patel to a later time?",
+     "suggestionFa": "میشه آقای پاتل را به یه ساعت دیرتر عوض کنیم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at least",
+     "fa": "حداقل"
+    },
+    {
+     "word": "between",
+     "fa": "بین"
+    },
+    {
+     "word": "classrooms",
+     "fa": "کلاس‌ها"
+    },
+    {
+     "word": "far apart",
+     "fa": "دور از هم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Six-thirty is perfect. Booked! Oh — it asks \"In person or online?\" Tom's on a late shift. Can he join by video?",
+   "translations": {
+    "fa": "شش و نیم عالیه. رزرو شد! اوه — می‌پرسه «حضوری یا آنلاین؟» تام شیفت دیره. می‌تونه تصویری بیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "choose",
+      "tom"
+     ],
+     "suggestion": "Yes, choose \"online\" for Tom.",
+     "suggestionFa": "آره، برای تام «آنلاین» را انتخاب کن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "parent",
+      "person",
+      "can",
+      "one"
+     ],
+     "suggestion": "Can one parent go in person and one online?",
+     "suggestionFa": "میشه یه والد حضوری بیاد و یکی آنلاین؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in person",
+     "fa": "حضوری"
+    },
+    {
+     "word": "online",
+     "fa": "آنلاین ؛ برخط"
+    },
+    {
+     "word": "late shift",
+     "fa": "شیفت عصر ؛ دیروقت"
+    },
+    {
+     "word": "join",
+     "fa": "پیوستن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "The school says one link per family, so Tom can watch on his phone in the bus depot. He'll love that.",
+   "translations": {
+    "fa": "مدرسه میگه هر خانواده یه لینک، پس تام می‌تونه تو پارکینگ اتوبوس‌ها رو گوشیش ببینه. عاشقش میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "after",
+      "look",
+      "will"
+     ],
+     "suggestion": "Will you come too? I can look after William.",
+     "suggestionFa": "تو هم میای؟ من می‌تونم مراقب ویلیام باشم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teachers",
+      "should",
+      "ask",
+      "we"
+     ],
+     "suggestion": "What should we ask the teachers?",
+     "suggestionFa": "از معلم‌ها چی بپرسیم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "link",
+     "fa": "لینک"
+    },
+    {
+     "word": "family",
+     "fa": "خانواده"
+    },
+    {
+     "word": "bus depot",
+     "fa": "پارکینگ اتوبوس‌ها"
+    },
+    {
+     "word": "look after",
+     "fa": "مراقبت کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Oh, would you? William at parents' evening is chaos. Let's write three questions for each teacher. Five minutes goes fast!",
+   "translations": {
+    "fa": "وای، این کار را می‌کنی؟ ویلیام تو جلسهٔ اولیا یعنی هرج‌ومرج. بیا برای هر معلم سه تا سؤال بنویسیم. پنج دقیقه زود می‌گذره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "question",
+      "first",
+      "doing",
+      "good"
+     ],
+     "suggestion": "Good idea. First question: \"How is he doing?\"",
+     "suggestionFa": "فکر خوبیه. سؤال اول: «چطور پیش میره؟»",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "notebook",
+      "write",
+      "them",
+      "i'll"
+     ],
+     "suggestion": "I'll write them in my notebook.",
+     "suggestionFa": "تو دفترم می‌نویسمشون.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chaos",
+     "fa": "هرج‌ومرج"
+    },
+    {
+     "word": "questions",
+     "fa": "سؤال‌ها"
+    },
+    {
+     "word": "goes fast",
+     "fa": "زود می‌گذرد"
+    },
+    {
+     "word": "notebook",
+     "fa": "دفترچه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Perfect. \"How is he doing, what can we do at home, and is he happy?\" The three big ones. You'd make a great parent, you know.",
+   "translations": {
+    "fa": "عالیه. «چطور پیش میره، تو خونه چی کار می‌تونیم بکنیم، و خوشحاله؟» سه تا سؤال اصلی. می‌دونی، تو پدر یا مادر خوبی می‌شدی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

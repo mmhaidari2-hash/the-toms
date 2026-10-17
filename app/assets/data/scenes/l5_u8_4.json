@@ -20,8 +20,8 @@
     {
      "keywords": [
       "happened",
-      "hear",
       "need",
+      "hear",
       "oh"
      ],
      "suggestion": "Oh, I need to hear this. What happened?",
@@ -34,8 +34,8 @@
      "keywords": [
       "escape",
       "burnt",
-      "did",
-      "was"
+      "was",
+      "raw"
      ],
      "suggestion": "Was it burnt? Raw? Did it escape?",
      "suggestionFa": "سوخت؟ خام موند؟ فرار کرد؟",
@@ -79,7 +79,7 @@
      "keywords": [
       "incredibly",
       "dangerous",
-      "frying",
+      "turkey",
       "sounds"
      ],
      "suggestion": "Oh no. Deep-frying a turkey sounds incredibly dangerous.",
@@ -146,8 +146,8 @@
      "keywords": [
       "nobody",
       "please",
-      "tell",
-      "hurt"
+      "hurt",
+      "tell"
      ],
      "suggestion": "Please tell me nobody was hurt.",
      "suggestionFa": "لطفاً بگو کسی آسیب ندید.",

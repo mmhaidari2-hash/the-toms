@@ -20,9 +20,9 @@
     {
      "keywords": [
       "where",
+      "find",
       "rice",
-      "huge",
-      "find"
+      "huge"
      ],
      "suggestion": "Yes, it's huge! Where can I find rice?",
      "suggestionFa": "آره، خیلی بزرگه! برنج را کجا پیدا کنم؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "basmati",
-      "thank",
       "seven",
+      "thank",
       "rice"
      ],
      "suggestion": "Seven. Thank you! And basmati rice?",
@@ -142,8 +142,8 @@
    "branches": [
     {
      "keywords": [
-      "there",
       "world",
+      "there",
       "aisle",
       "food"
      ],
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "saffron",
-      "have",
       "from",
-      "iran"
+      "iran",
+      "have"
      ],
      "suggestion": "I'm from Iran. Do you have saffron?",
      "suggestionFa": "اهل ایرانم. زعفرون دارین؟",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "always",
-      "back",
       "milk",
+      "back",
       "why"
      ],
      "suggestion": "Why is milk always at the back?",
@@ -355,10 +355,10 @@
    "branches": [
     {
      "keywords": [
-      "clever",
       "what's",
+      "clever",
       "i'll",
-      "only"
+      "list"
      ],
      "suggestion": "Clever! I'll only buy what's on my list.",
      "suggestionFa": "زرنگی! فقط چیزایی که تو لیستمه می‌خرم.",

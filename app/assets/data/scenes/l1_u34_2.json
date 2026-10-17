@@ -104,10 +104,10 @@
    "branches": [
     {
      "keywords": [
-      "church",
       "behind",
-      "know",
-      "park"
+      "church",
+      "park",
+      "know"
      ],
      "suggestion": "I know it! Behind the church is the park.",
      "suggestionFa": "بلدمش! پشت کلیسا پارکه.",
@@ -160,8 +160,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "letter",
+      "what's",
       "stop"
      ],
      "suggestion": "What's a stop letter?",
@@ -267,8 +267,8 @@
      "keywords": [
       "know",
       "when",
-      "how",
-      "off"
+      "off",
+      "how"
      ],
      "suggestion": "How do I know when to get off?",
      "suggestionFa": "از کجا بفهمم کی پیاده شم؟",

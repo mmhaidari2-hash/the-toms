@@ -68,8 +68,8 @@
     {
      "keywords": [
       "course",
-      "what's",
-      "number"
+      "number",
+      "what's"
      ],
      "suggestion": "Of course. What's the order number?",
      "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
@@ -117,8 +117,8 @@
      "keywords": [
       "supposed",
       "ordered",
-      "arrive",
-      "thirty"
+      "thirty",
+      "arrive"
      ],
      "suggestion": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
      "suggestionFa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه.",
@@ -183,7 +183,7 @@
       "minutes",
       "driver",
       "he's",
-      "five"
+      "away"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "coming",
-      "pizza",
       "sorry",
+      "pizza",
       "now"
      ],
      "suggestion": "They said sorry. The pizza is coming now.",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "didn't",
+      "should",
       "back",
       "call"
      ],
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "they'll",
       "percent",
+      "they'll",
       "give",
       "off"
      ],
@@ -347,8 +347,8 @@
      "keywords": [
       "cookies",
       "added",
-      "they",
-      "free"
+      "free",
+      "they"
      ],
      "suggestion": "It's hot! And they added free cookies.",
      "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",

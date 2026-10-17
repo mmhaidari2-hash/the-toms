@@ -33,8 +33,8 @@
     {
      "keywords": [
       "need",
-      "top",
       "how",
+      "top",
       "up"
      ],
      "suggestion": "I need to top up my Oyster card. How do I do it?",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "can",
-      "top",
       "bus",
+      "top",
       "up"
      ],
      "suggestion": "Can I top up on the bus?",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "should",
+      "thanks",
       "much",
-      "how"
+      "put"
      ],
      "suggestion": "Thanks, Tom. How much should I put on?",
      "suggestionFa": "ممنون تام. چقدر بریزم روش؟",
@@ -131,9 +131,9 @@
     {
      "keywords": [
       "didn't",
-      "know",
       "free",
-      "cash"
+      "cash",
+      "know"
      ],
      "suggestion": "Cash-free? I didn't know that.",
      "suggestionFa": "بدون پول نقد؟ نمی‌دونستم.",
@@ -183,9 +183,9 @@
     },
     {
      "keywords": [
+      "twenty",
       "pounds",
       "enough",
-      "twenty",
       "week"
      ],
      "suggestion": "So twenty pounds is enough for a week?",
@@ -245,8 +245,8 @@
      "keywords": [
       "different",
       "within",
-      "hour",
-      "even"
+      "even",
+      "hour"
      ],
      "suggestion": "Within one hour? Even a different bus?",
      "suggestionFa": "تو یه ساعت؟ حتی یه اتوبوس دیگه؟",
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "pounds",
-      "please",
       "twenty",
+      "please",
       "hello"
      ],
      "suggestion": "Hello. Twenty pounds on this card, please.",

@@ -1,0 +1,404 @@
+{
+ "id": "l2_u36_1",
+ "characterId": "bennett",
+ "title": "Paying council tax",
+ "titleFa": "پرداخت مالیات شورا",
+ "setting": "The council · Level 2",
+ "settingFa": "شورای شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "Good afternoon. The council help desk is here on Tuesdays, in the library. You've got a letter — council tax?",
+   "translations": {
+    "fa": "عصر بخیر. میز کمک شورا سه‌شنبه‌ها اینجاست، تو کتابخونه. یه نامه داری — مالیات شورا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "council",
+      "exactly",
+      "tax"
+     ],
+     "suggestion": "Yes. What is council tax exactly?",
+     "suggestionFa": "آره. مالیات شورا دقیقاً چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "don't",
+      "bill"
+     ],
+     "suggestion": "Yes. I don't understand this bill.",
+     "suggestionFa": "آره. این قبض را نمی‌فهمم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "help desk",
+     "fa": "میز راهنمایی"
+    },
+    {
+     "word": "letter",
+     "fa": "نامه"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شورای محلی"
+    },
+    {
+     "word": "bill",
+     "fa": "قبض"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "Council tax pays for local services — bins, libraries, street lights, parks. Every home pays it. Ms Ward can explain.",
+   "translations": {
+    "fa": "مالیات شورا هزینهٔ خدمات محلی را میده — سطل‌های زباله، کتابخونه‌ها، چراغ‌های خیابون، پارک‌ها. هر خونه‌ای می‌پردازدش. خانم وارد می‌تونه توضیح بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "library",
+      "pays"
+     ],
+     "suggestion": "So it pays for this library too?",
+     "suggestionFa": "پس هزینهٔ همین کتابخونه را هم میده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "even",
+      "room",
+      "rent"
+     ],
+     "suggestion": "Every home? Even if I rent a room?",
+     "suggestionFa": "هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "local services",
+     "fa": "خدمات محلی"
+    },
+    {
+     "word": "bins",
+     "fa": "سطل‌های زباله"
+    },
+    {
+     "word": "street lights",
+     "fa": "چراغ‌های خیابان"
+    },
+    {
+     "word": "rent",
+     "fa": "اجاره کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "council",
+   "text": "Hello, I'm Ms Ward. If you rent a room in a family house, the homeowner pays — the Thompsons. So why is this letter in your name?",
+   "translations": {
+    "fa": "سلام، من خانم وارد هستم. اگه یه اتاق تو خونهٔ یه خانواده اجاره کنید، صاحبخونه می‌پردازه — تامپسون‌ها. پس چرا این نامه به اسم شماست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mistake",
+      "don't",
+      "know"
+     ],
+     "suggestion": "I don't know. Is it a mistake?",
+     "suggestionFa": "نمی‌دونم. اشتباهه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "registered",
+      "because",
+      "maybe",
+      "gp"
+     ],
+     "suggestion": "Maybe because I registered with the GP?",
+     "suggestionFa": "شاید چون پیش پزشک عمومی ثبت‌نام کردم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "homeowner",
+     "fa": "صاحبخانه"
+    },
+    {
+     "word": "in your name",
+     "fa": "به اسم شما"
+    },
+    {
+     "word": "mistake",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام کردم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Council tax is paid by the household, usually the owner or main tenant. Lodgers in a family home don't usually pay it separately.",
+    "fa": "مالیات شورا را معمولاً صاحبخانه یا مستأجر اصلی می‌پردازد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "council",
+   "text": "Let me check… Ah, it's a mistake. Someone added you as a separate flat. I'll fix it. The bill is cancelled.",
+   "translations": {
+    "fa": "بذارید چک کنم… آه، اشتباهه. یکی شما را به‌عنوان یه واحد جدا اضافه کرده. درستش می‌کنم. قبض لغو شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cancelled",
+      "thank",
+      "great"
+     ],
+     "suggestion": "Cancelled? Great! Thank you.",
+     "suggestionFa": "لغو شد؟ عالیه! ممنون.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "confirm",
+      "letter",
+      "will",
+      "get"
+     ],
+     "suggestion": "Will I get a letter to confirm?",
+     "suggestionFa": "نامهٔ تأیید می‌گیرم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "separate",
+     "fa": "جدا"
+    },
+    {
+     "word": "flat",
+     "fa": "آپارتمان ؛ واحد"
+    },
+    {
+     "word": "fix",
+     "fa": "درست کردن"
+    },
+    {
+     "word": "cancelled",
+     "fa": "لغو شد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i will get letter confirm",
+      "will i get a letter for confirm"
+     ],
+     "echo": "A letter to confirm? Yes, in a week.",
+     "better": "Will I get a letter to confirm?",
+     "betterFa": "نامه‌ای برای تأیید دریافت می‌کنم؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "council",
+   "text": "Yes, within ten days. And Leslie's bill — tell her it's paid in ten monthly instalments, April to January.",
+   "translations": {
+    "fa": "بله، ظرف ده روز. و قبض لزلی — بهش بگید در ده قسط ماهانه پرداخت میشه، آوریل تا ژانویه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "why",
+      "ten"
+     ],
+     "suggestion": "Why ten, not twelve?",
+     "suggestionFa": "چرا ده، نه دوازده؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instalments",
+      "instead",
+      "she",
+      "pay"
+     ],
+     "suggestion": "Can she pay in twelve instalments instead?",
+     "suggestionFa": "می‌تونه به‌جاش دوازده قسط بده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "within",
+     "fa": "ظرف"
+    },
+    {
+     "word": "monthly",
+     "fa": "ماهانه"
+    },
+    {
+     "word": "instalments",
+     "fa": "اقساط"
+    },
+    {
+     "word": "instead",
+     "fa": "به‌جای آن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "council",
+   "text": "Ten is standard — February and March are free! But you can ask for twelve. It's smaller each month.",
+   "translations": {
+    "fa": "ده تا استاندارده — فوریه و مارس رایگانه! ولی می‌تونید دوازده تا بخواید. هر ماه کمتر میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discount",
+      "maggie",
+      "george",
+      "lives"
+     ],
+     "suggestion": "And Nana Maggie lives alone with George. Do they get a discount?",
+     "suggestionFa": "ننه مگی با جورج تنها زندگی می‌کنه. تخفیف می‌گیرن؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "know",
+      "good",
+      "i'll"
+     ],
+     "suggestion": "Good to know. I'll tell Leslie.",
+     "suggestionFa": "خوب شد فهمیدم. به لزلی میگم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "standard",
+     "fa": "استاندارد ؛ معمول"
+    },
+    {
+     "word": "smaller",
+     "fa": "کمتر"
+    },
+    {
+     "word": "discount",
+     "fa": "تخفیف"
+    },
+    {
+     "word": "alone",
+     "fa": "تنها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "council",
+   "text": "Two adults, so no single person discount. But George might get help because of his illness. Tell them to call us.",
+   "translations": {
+    "fa": "دو بزرگسال، پس تخفیف تک‌نفره نه. ولی جورج ممکنه به خاطر بیماریش کمک بگیره. بگید بهمون زنگ بزنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "kind",
+      "ward"
+     ],
+     "suggestion": "Thank you, Ms Ward. That's very kind.",
+     "suggestionFa": "ممنون خانم وارد. خیلی لطف دارید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "number",
+      "call",
+      "i'll"
+     ],
+     "suggestion": "I'll help them call. What's the number?",
+     "suggestionFa": "کمکشون می‌کنم زنگ بزنن. شماره چنده؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "adults",
+     "fa": "بزرگسالان"
+    },
+    {
+     "word": "single person discount",
+     "fa": "تخفیف تک‌نفره"
+    },
+    {
+     "word": "illness",
+     "fa": "بیماری"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "bennett",
+   "text": "The number's on the leaflet by the door. And while you're here — your library books are due back on Friday!",
+   "translations": {
+    "fa": "شماره رو بروشور کنار دره. و حالا که اینجایی — کتاب‌های کتابخونه‌ات جمعه باید برگردن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

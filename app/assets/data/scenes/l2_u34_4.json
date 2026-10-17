@@ -1,0 +1,503 @@
+{
+ "id": "l2_u34_4",
+ "characterId": "tom",
+ "title": "Talking about it at home",
+ "titleFa": "صحبت درباره‌اش در خانه",
+ "setting": "Parents' evening (A2) · Level 2",
+ "settingFa": "جلسهٔ اولیا (A2)",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right. Family meeting. Ryan — sit down. Phone on the table. Parents' evening was… interesting.",
+   "translations": {
+    "fa": "خب. جلسهٔ خانوادگی. رایان — بشین. گوشی رو میز. جلسهٔ اولیا… جالب بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "worry",
+      "bad"
+     ],
+     "suggestion": "Don't worry, Ryan. It's not bad!",
+     "suggestionFa": "نگران نباش رایان. بد نیست!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "phone",
+      "down",
+      "put"
+     ],
+     "suggestion": "Ryan, put your phone down, please.",
+     "suggestionFa": "رایان، لطفاً گوشیت را بذار زمین.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Here we go. What did Patel say? Was it bad? I bet it was bad.",
+   "translations": {
+    "fa": "شروع شد. پاتل چی گفت؟ بد بود؟ شرط می‌بندم بد بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wasn't",
+      "mostly",
+      "good",
+      "ryan"
+     ],
+     "suggestion": "It wasn't bad, Ryan. It was mostly good!",
+     "suggestionFa": "بد نبود رایان. بیشترش خوب بود!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "patel",
+      "doing",
+      "said",
+      "well"
+     ],
+     "suggestion": "Mr Patel said you're doing well.",
+     "suggestionFa": "آقای پاتل گفت خوب پیش میری.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "family meeting",
+     "fa": "جلسهٔ خانوادگی"
+    },
+    {
+     "word": "here we go",
+     "fa": "شروع شد"
+    },
+    {
+     "word": "I bet",
+     "fa": "شرط می‌بندم"
+    },
+    {
+     "word": "mostly",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The good news: a predicted 7 in Computing. That's brilliant, son. And Mr Patel said you're kind to the younger kids.",
+   "translations": {
+    "fa": "خبر خوب: پیش‌بینی ۷ تو کامپیوتر. عالیه پسرم. آقای پاتل گفت با بچه‌های کوچیک‌تر مهربونی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done, Ryan! A 7 is great.",
+     "suggestionFa": "آفرین رایان! ۷ عالیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "good",
+      "ones"
+     ],
+     "suggestion": "You're good with the little ones, Ryan.",
+     "suggestionFa": "تو با کوچولوها خوبی، رایان.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Seriously? He said that? Nice. So… what's the bad news?",
+   "translations": {
+    "fa": "جدی؟ اینو گفت؟ خوبه. پس… خبر بد چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "algebra",
+      "maths",
+      "patel",
+      "need"
+     ],
+     "suggestion": "Maths. Mr Patel said you need to work on algebra.",
+     "suggestionFa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "homework",
+      "pieces",
+      "late",
+      "were"
+     ],
+     "suggestion": "Five pieces of homework were late.",
+     "suggestionFa": "پنج تا تکلیف دیر بوده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good news",
+     "fa": "خبر خوب"
+    },
+    {
+     "word": "son",
+     "fa": "پسرم"
+    },
+    {
+     "word": "seriously",
+     "fa": "جدی ؛ واقعاً"
+    },
+    {
+     "word": "bad news",
+     "fa": "خبر بد"
+    }
+   ],
+   "cultureNote": {
+    "en": "To report speech, use \"said that…\": Mr Patel said that Ryan was kind. \"Told\" needs a person: He told us that…",
+    "fa": "برای نقل قول از «said that» استفاده کنید؛ «told» به مفعول نیاز دارد."
+   },
+   "recasts": [
+    {
+     "match": [
+      "mr patel said me",
+      "he said to me that"
+     ],
+     "echo": "Mr Patel said that… Good!",
+     "better": "Mr Patel said that you need to work on algebra.",
+     "betterFa": "آقای پاتل گفت که باید روی جبر کار کنی."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Five late, Ryan. \"I did it on the bus,\" you said! So we've decided. From now on: homework seven to eight. Phone in the kitchen.",
+   "translations": {
+    "fa": "پنج تا دیر، رایان. گفتی «تو اتوبوس انجامش دادم»! پس تصمیم گرفتیم. از حالا به بعد: تکلیف هفت تا هشت. گوشی تو آشپزخونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "eight",
+      "seven",
+      "plan"
+     ],
+     "suggestion": "Seven to eight. That's a good plan.",
+     "suggestionFa": "هفت تا هشت. برنامهٔ خوبیه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "homework",
+      "only",
+      "time",
+      "ryan"
+     ],
+     "suggestion": "Ryan, it's only for homework time.",
+     "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "In the KITCHEN? That's not fair! Everyone in Year 10 has their phone. What if someone messages me?",
+   "translations": {
+    "fa": "تو آشپزخونه؟ منصفانه نیست! همهٔ کلاس دهمیا گوشیشون پیششونه. اگه یکی بهم پیام بده چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "only",
+      "ryan",
+      "one"
+     ],
+     "suggestion": "It's only one hour, Ryan.",
+     "suggestionFa": "فقط یه ساعته رایان.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wait",
+      "they",
+      "can",
+      "ok"
+     ],
+     "suggestion": "They can wait an hour. It's OK.",
+     "suggestionFa": "می‌تونن یه ساعت صبر کنن. اشکالی نداره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "decided",
+     "fa": "تصمیم گرفتیم"
+    },
+    {
+     "word": "from now on",
+     "fa": "از حالا به بعد"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    },
+    {
+     "word": "messages",
+     "fa": "پیام می‌دهد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "One hour. And here's the deal — our lodger likes algebra. Strange man. He can help you on Mondays and Thursdays.",
+   "translations": {
+    "fa": "یه ساعت. و قرارمون اینه — مستأجرمون جبر دوست داره. آدم عجیبیه. می‌تونه دوشنبه‌ها و پنج‌شنبه‌ها کمکت کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "ryan",
+      "can"
+     ],
+     "suggestion": "Yes, I can help you, Ryan.",
+     "suggestionFa": "آره، می‌تونم کمکت کنم رایان.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "numbers",
+      "strange",
+      "like",
+      "just"
+     ],
+     "suggestion": "Strange? I just like numbers!",
+     "suggestionFa": "عجیب؟ فقط عدد دوست دارم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "numbers",
+     "fa": "عددها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "You like algebra? For real? OK… if you explain it better than Mr Patel, maybe.",
+   "translations": {
+    "fa": "تو جبر دوست داری؟ واقعاً؟ باشه… اگه بهتر از آقای پاتل توضیح بدی، شاید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monday",
+      "start",
+      "deal",
+      "we"
+     ],
+     "suggestion": "Deal. We start on Monday!",
+     "suggestionFa": "قبول. از دوشنبه شروع می‌کنیم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "algebra",
+      "puzzle",
+      "you'll",
+      "like"
+     ],
+     "suggestion": "Algebra is like a puzzle. You'll like it.",
+     "suggestionFa": "جبر مثل پازله. خوشت میاد.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deal",
+     "fa": "قرار ؛ معامله"
+    },
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    },
+    {
+     "word": "explain",
+     "fa": "توضیح دادن"
+    },
+    {
+     "word": "puzzle",
+     "fa": "پازل ؛ معما"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "And if your Maths goes up to a 5 by summer… I'll teach you to drive in the car park. When you're seventeen. Don't tell your mum.",
+   "translations": {
+    "fa": "و اگه ریاضیت تا تابستون به ۵ رسید… تو پارکینگ رانندگی یادت میدم. وقتی هفده سالت شد. به مامانت نگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "find",
+      "will",
+      "out"
+     ],
+     "suggestion": "Tom! Leslie will find out!",
+     "suggestionFa": "تام! لزلی می‌فهمه!",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "prize",
+      "great",
+      "ryan"
+     ],
+     "suggestion": "That's a great prize, Ryan.",
+     "suggestionFa": "جایزهٔ خیلی خوبیه رایان.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prize",
+     "fa": "جایزه"
+    },
+    {
+     "word": "find out",
+     "fa": "فهمیدن"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "ryan",
+   "text": "A 5? Easy. Shake on it, Dad. And I want that in writing.",
+   "translations": {
+    "fa": "۵؟ آسونه. دست بده بابا. اینو کتبی می‌خوام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "witness",
+      "heard"
+     ],
+     "suggestion": "I'm the witness! I heard it.",
+     "suggestionFa": "من شاهدم! شنیدم.",
+     "trustDelta": 6,
+     "next": "n11",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fridge",
+      "write",
+      "ha"
+     ],
+     "suggestion": "Ha! Write it on the fridge.",
+     "suggestionFa": "ها! رو یخچال بنویسش.",
+     "trustDelta": 5,
+     "next": "n11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "goes up",
+     "fa": "بالا می‌رود"
+    },
+    {
+     "word": "car park",
+     "fa": "پارکینگ"
+    },
+    {
+     "word": "shake on it",
+     "fa": "دست بدهیم (قبول)"
+    },
+    {
+     "word": "in writing",
+     "fa": "کتبی"
+    },
+    {
+     "word": "witness",
+     "fa": "شاهد"
+    }
+   ]
+  },
+  "n11": {
+   "id": "n11",
+   "speaker": "tom",
+   "text": "On the fridge, signed by the lodger. Official. Now — phone in the kitchen. Starting… now. Ha! Look at his face!",
+   "translations": {
+    "fa": "رو یخچال، با امضای مستأجر. رسمی. حالا — گوشی تو آشپزخونه. از… همین الان. ها! قیافه‌اش را ببین!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

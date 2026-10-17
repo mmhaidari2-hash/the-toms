@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "open",
+      "here",
       "go"
      ],
      "suggestion": "Here you go — go on, open it!",
@@ -123,8 +123,8 @@
      "keywords": [
       "having",
       "hello",
-      "fun",
-      "mia"
+      "mia",
+      "fun"
      ],
      "suggestion": "Hello, Mia! Are you having fun?",
      "suggestionFa": "سلام میا! خوش می‌گذره؟",
@@ -134,8 +134,8 @@
     },
     {
      "keywords": [
-      "like",
-      "glad"
+      "glad",
+      "like"
      ],
      "suggestion": "I'm glad you like it!",
      "suggestionFa": "خوشحالم که دوستش داری!",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "judge",
-      "i'll",
-      "okay"
+      "okay",
+      "i'll"
      ],
      "suggestion": "I'll be the judge, okay?",
      "suggestionFa": "من داور می‌شم، باشه؟",
@@ -217,8 +217,8 @@
    "branches": [
     {
      "keywords": [
-      "love",
       "pink",
+      "love",
       "have",
       "one"
      ],
@@ -262,8 +262,8 @@
    "branches": [
     {
      "keywords": [
-      "jelly",
       "cream",
+      "jelly",
       "yum",
       "ice"
      ],
@@ -275,9 +275,9 @@
     },
     {
      "keywords": [
-      "baker",
+      "mummy",
       "great",
-      "mummy"
+      "baker"
      ],
      "suggestion": "Your mummy is a great baker.",
      "suggestionFa": "مامانت شیرینی‌پز خیلی خوبیه.",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "going",
       "music",
-      "i'll",
-      "keep"
+      "going",
+      "okay",
+      "i'll"
      ],
      "suggestion": "Okay, I'll keep the music going.",
      "suggestionFa": "باشه، من آهنگ را ادامه می‌دم.",

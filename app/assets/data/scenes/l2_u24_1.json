@@ -21,8 +21,8 @@
      "keywords": [
       "where's",
       "please",
-      "shop",
-      "shoe"
+      "shoe",
+      "shop"
      ],
      "suggestion": "I am! Where's the shoe shop, please?",
      "suggestionFa": "هستم! مغازهٔ کفش کجاست، لطفاً؟",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "there",
       "shops",
-      "map",
-      "kai"
+      "there",
+      "kai",
+      "map"
      ],
      "suggestion": "Hi Kai. Is there a map of the shops?",
      "suggestionFa": "سلام کای. نقشهٔ فروشگاه‌ها هست؟",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "shoes",
+      "which",
       "see"
      ],
      "suggestion": "I see it. Which floor are the shoes on?",
@@ -132,8 +132,8 @@
      "keywords": [
       "escalator",
       "there",
-      "then",
-      "lift"
+      "lift",
+      "then"
      ],
      "suggestion": "Escalator, then left. Is there a lift too?",
      "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
@@ -195,8 +195,8 @@
      "keywords": [
       "school",
       "shoes",
-      "five",
-      "year"
+      "year",
+      "five"
      ],
      "suggestion": "Yes, school shoes for a five-year-old.",
      "suggestionFa": "آره، کفش مدرسه برای یه بچهٔ پنج ساله.",
@@ -311,9 +311,9 @@
     },
     {
      "keywords": [
-      "shoe",
-      "shop",
       "good",
+      "shop",
+      "shoe",
       "busy"
      ],
      "suggestion": "Good tip. Is the shoe shop busy now?",
@@ -353,8 +353,8 @@
     {
      "keywords": [
       "counter",
-      "deli",
-      "like"
+      "like",
+      "deli"
      ],
      "suggestion": "A ticket? Like at the deli counter?",
      "suggestionFa": "نوبت؟ مثل پیشخوان اغذیه؟",

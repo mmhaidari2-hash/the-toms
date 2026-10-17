@@ -22,10 +22,10 @@
     {
      "keywords": [
       "finished",
-      "clear",
       "lunch",
-      "table",
-      "mummy"
+      "clear",
+      "mummy",
+      "table"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
      "suggestionFa": "ناهار تموم شد! مامان می‌گه باید میز را جمع کنیم. کمکم می‌کنی؟",
@@ -49,8 +49,8 @@
       "plates",
       "first",
       "them",
-      "sink",
-      "next"
+      "next",
+      "sink"
      ],
      "suggestion": "First, the plates. Put them next to the sink.",
      "suggestionFa": "اول، بشقاب‌ها. بذارشون کنار سینک.",
@@ -73,8 +73,8 @@
      "keywords": [
       "leftovers",
       "they're",
-      "heavy",
       "where",
+      "heavy",
       "i'll"
      ],
      "suggestion": "I'll do the cups. They're not heavy. Where do the leftovers go?",
@@ -100,7 +100,7 @@
       "little",
       "black",
       "caddy",
-      "crisp"
+      "brown"
      ],
      "suggestion": "Yes! The little brown caddy. And the crisp packets go in the black bin.",
      "suggestionFa": "آره! سطل کوچولوی قهوه‌ای. و پاکت‌های چیپس می‌رن تو سطل مشکی.",
@@ -124,8 +124,8 @@
       "recycling",
       "bottles",
       "please",
-      "table",
-      "green"
+      "green",
+      "table"
      ],
      "suggestion": "Bottles go in the recycling. The green box. Now, wipe the table, please.",
      "suggestionFa": "بطری‌ها می‌رن تو بازیافت. جعبهٔ سبز. حالا، میز را دستمال بکش، لطفاً.",
@@ -150,7 +150,7 @@
       "there's",
       "crumb",
       "floor",
-      "tap"
+      "one"
      ],
      "suggestion": "By the tap. Oh, there's a crumb on the floor. And another one!",
      "suggestionFa": "کنار شیر آب. آه، یه خرده نون رو زمینه. و یکی دیگه!",
@@ -175,7 +175,7 @@
       "sweep",
       "under",
       "good",
-      "look"
+      "sink"
      ],
      "suggestion": "Under the sink. I can sweep! Look, I'm very good at sweeping.",
      "suggestionFa": "زیر سینک. من می‌تونم جارو کنم! ببین، من خیلی تو جارو کردن خوبم.",
@@ -199,7 +199,7 @@
       "finished",
       "helpful",
       "kitchen",
-      "clean",
+      "mummy",
       "sweet"
      ],
      "suggestion": "Finished! The kitchen is clean! Mummy, look! Can we have a sweet now? We were very helpful!",

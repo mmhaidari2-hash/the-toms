@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "missed",
       "circus",
       "oxford",
+      "missed",
       "sorry"
      ],
      "suggestion": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
@@ -95,8 +95,8 @@
     },
     {
      "keywords": [
-      "often",
       "night",
+      "often",
       "come",
       "how"
      ],
@@ -191,10 +191,10 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "driver",
+      "should",
       "near",
-      "sit"
+      "why"
      ],
      "suggestion": "Why should I sit near the driver?",
      "suggestionFa": "چرا نزدیک راننده بشینم؟",
@@ -311,9 +311,9 @@
     },
     {
      "keywords": [
-      "when",
       "i'll",
       "text",
+      "when",
       "get"
      ],
      "suggestion": "OK. I'll text you when I get on.",

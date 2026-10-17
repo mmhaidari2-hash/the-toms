@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "should",
       "coming",
+      "should",
       "check",
       "bags"
      ],
@@ -64,9 +64,9 @@
   "n2": {
    "id": "n2",
    "speaker": "courier",
-   "text": "Hiya! Delivery for Tom. Seven bags. There are three substitutions today. Shall I tell you what they are?",
+   "text": "Hiya! Delivery for Thompson. Seven bags. There are three substitutions today. Shall I tell you what they are?",
    "translations": {
-    "fa": "سلام! بار برای تام. هفت کیسه. امروز سه جایگزین هست. بگم چیا هستن؟"
+    "fa": "سلام! بار برای تامپسون. هفت کیسه. امروز سه جایگزین هست. بگم چیا هستن؟"
    },
    "branches": [
     {
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "three",
-      "ok",
-      "go"
+      "go",
+      "ok"
      ],
      "suggestion": "Three? OK. Go on.",
      "suggestionFa": "سه تا؟ باشه. بگید.",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "cheddar",
-      "leslie",
       "mature",
+      "leslie",
       "extra"
      ],
      "suggestion": "Leslie, do you like extra mature cheddar?",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "substitution",
-      "what's",
       "please",
+      "what's",
       "third"
      ],
      "suggestion": "What's the third substitution, please?",
@@ -350,8 +350,8 @@
      "keywords": [
       "princess",
       "reject",
-      "sorry",
-      "pasta"
+      "pasta",
+      "sorry"
      ],
      "suggestion": "Sorry, can we reject the princess pasta?",
      "suggestionFa": "ببخشید، می‌تونیم ماکارونی پرنسسی را رد کنیم؟",

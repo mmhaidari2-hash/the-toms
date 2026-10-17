@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "dev",
-   "text": "Hello again! You're back with a friend. Mr Tom, isn't it? So, today it's the contract phone?",
+   "text": "Hello again! You're back with a friend. Mr Thompson, isn't it? So, today it's the contract phone?",
    "translations": {
-    "fa": "دوباره سلام! با یه دوست برگشتی. آقای تام، درسته؟ پس، امروز گوشی قراردادی؟"
+    "fa": "دوباره سلام! با یه دوست برگشتی. آقای تامپسون، درسته؟ پس، امروز گوشی قراردادی؟"
    },
    "branches": [
     {
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "months",
-      "here",
-      "only",
-      "four"
+      "been",
+      "four",
+      "only"
      ],
      "suggestion": "But I've only been here for four months.",
      "suggestionFa": "ولی من فقط چهار ماهه اینجام.",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "fingers",
       "crossed",
+      "fingers",
       "ok"
      ],
      "suggestion": "OK. Fingers crossed!",
@@ -240,8 +240,8 @@
     {
      "keywords": [
       "really",
-      "man",
-      "tie"
+      "tie",
+      "man"
      ],
      "suggestion": "A man in a tie? Really?",
      "suggestionFa": "یه آقای کراواتی؟ واقعاً؟",
@@ -389,9 +389,9 @@
     {
      "keywords": [
       "clever",
-      "dad",
+      "tom",
       "was",
-      "tom"
+      "dad"
      ],
      "suggestion": "Your dad was clever, Tom.",
      "suggestionFa": "بابات زرنگ بود، تام.",
