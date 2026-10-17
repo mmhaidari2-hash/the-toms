@@ -24,8 +24,8 @@
       "morning",
       "watch",
       "can't",
-      "find",
-      "time"
+      "time",
+      "find"
      ],
      "suggestion": "Morning! What time is it? I can't find my watch.",
      "suggestionFa": "صبح بخیر! ساعت چنده؟ ساعتم را پیدا نمی‌کنم.",
@@ -50,7 +50,7 @@
       "train",
       "eight",
       "late",
-      "half"
+      "past"
      ],
      "suggestion": "Half past? I'm late! My train is at quarter to eight.",
      "suggestionFa": "هفت و نیم؟ دیرم شده! قطارم یک‌ربع به هشته.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "where",
-      "quick",
       "table",
+      "quick",
       "keys",
       "they"
      ],
@@ -99,8 +99,8 @@
       "finish",
       "thanks",
       "today",
-      "them",
-      "time"
+      "time",
+      "them"
      ],
      "suggestion": "Got them, thanks! What time do you finish today?",
      "suggestionFa": "پیداشون کردم، مرسی! امروز کِی تموم می‌کنی؟",
@@ -148,8 +148,8 @@
      "keywords": [
       "right",
       "see",
-      "six",
       "off",
+      "six",
       "bye"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "time's",
       "cheers",
+      "time's",
       "clock",
       "silly",
       "oven"

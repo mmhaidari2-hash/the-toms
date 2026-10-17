@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "mean",
       "peak",
+      "mean",
       "off"
      ],
      "suggestion": "What does off-peak mean?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "fastest",
-      "train",
-      "which"
+      "which",
+      "train"
      ],
      "suggestion": "Which is the fastest train?",
      "suggestionFa": "سریع‌ترین قطار کدومه؟",
@@ -177,7 +177,7 @@
       "returns",
       "please",
       "peak",
-      "two"
+      "off"
      ],
      "suggestion": "Two off-peak returns, please.",
      "suggestionFa": "دوتا بلیت رفت‌وبرگشت غیرپیک لطفاً.",
@@ -275,8 +275,8 @@
      "keywords": [
       "today",
       "i'll",
-      "buy",
-      "one"
+      "one",
+      "buy"
      ],
      "suggestion": "I'll buy one today.",
      "suggestionFa": "امروز یکی می‌خرم.",

@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "plumber",
-   "text": "Afternoon! I'm Gary — the engineer who Tom rang this morning. Where's the boiler?",
+   "text": "Afternoon! I'm Dave — the plumber who Tom rang this morning. Where's the boiler?",
    "translations": {
-    "fa": "عصر بخیر! من گری‌ام — متخصصی که تام امروز صبح بهش زنگ زد. پکیج کجاست؟"
+    "fa": "عصر بخیر! من دیوام — لوله‌کشی که تام امروز صبح بهش زنگ زد. پکیج کجاست؟"
    },
    "branches": [
     {
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "that's",
       "making",
+      "that's",
       "white",
       "noise"
      ],
@@ -46,8 +46,8 @@
    ],
    "newWords": [
     {
-     "word": "engineer",
-     "fa": "متخصص"
+     "word": "plumber",
+     "fa": "لوله‌کش"
     },
     {
      "word": "who",
@@ -76,7 +76,7 @@
       "worried",
       "that's",
       "about",
-      "tom"
+      "one"
      ],
      "suggestion": "Yes, that's the one that Tom was worried about.",
      "suggestionFa": "آره، همونیه که تام نگرانش بود.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "person",
-      "tom's",
       "knows",
+      "tom's",
       "sure"
      ],
      "suggestion": "I'm not sure. Tom's the person who knows.",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "today",
-      "fix",
-      "can"
+      "can",
+      "fix"
      ],
      "suggestion": "Can you fix it today?",
      "suggestionFa": "امروز می‌تونید درستش کنید؟",
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "that's",
-      "would",
       "great",
+      "would",
       "like"
      ],
      "suggestion": "That's great. Would you like a cup of tea?",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "roughly",
-      "cost",
       "much",
-      "will"
+      "will",
+      "cost"
      ],
      "suggestion": "How much will it cost, roughly?",
      "suggestionFa": "تقریباً چقدر میشه؟",
@@ -253,8 +253,8 @@
      "keywords": [
       "happening",
       "should",
-      "again",
-      "there"
+      "there",
+      "again"
      ],
      "suggestion": "Is there anything we should do to stop it happening again?",
      "suggestionFa": "کاری هست که جلوی تکرارش را بگیریم؟",

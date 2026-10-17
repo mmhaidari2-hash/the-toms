@@ -32,8 +32,8 @@
     {
      "keywords": [
       "that's",
-      "doing",
       "right",
+      "doing",
       "how"
      ],
      "suggestion": "That's right. How is he doing?",
@@ -79,7 +79,7 @@
       "finished",
       "science",
       "project",
-      "has"
+      "his"
      ],
      "suggestion": "Has he finished his science project?",
      "suggestionFa": "پروژهٔ علومش را تموم کرده؟",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "help",
       "week",
-      "home"
+      "i'll",
+      "home",
+      "help"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "done",
-      "far",
       "has",
+      "far",
       "he"
      ],
      "suggestion": "What has he done so far?",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "volcano",
       "erupted",
+      "volcano",
       "model",
-      "yet"
+      "has"
      ],
      "suggestion": "A volcano model! Has it erupted yet?",
      "suggestionFa": "ماکت آتشفشان! تا حالا فوران کرده؟",
@@ -287,8 +287,8 @@
     {
      "keywords": [
       "pleased",
-      "she'll",
       "really",
+      "she'll",
       "will"
      ],
      "suggestion": "I will. She'll be really pleased.",

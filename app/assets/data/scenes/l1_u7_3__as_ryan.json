@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "think",
-      "there",
       "white",
+      "there",
       "these",
+      "think",
       "those"
      ],
      "suggestion": "White, I think. These ones or those ones over there?",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "excuse",
       "please",
+      "excuse",
       "these",
-      "size",
-      "nine"
+      "nine",
+      "size"
      ],
      "suggestion": "Excuse me, can I try these in a size nine, please?",
      "suggestionFa": "ببخشید، می‌شه این‌ها را سایز نه امتحان کنم؟",
@@ -125,7 +125,7 @@
       "better",
       "bigger",
       "small",
-      "have"
+      "size"
      ],
      "suggestion": "They're a bit small. Have you got a bigger size? Ah, the tens are better.",
      "suggestionFa": "یه کم کوچیکن. سایز بزرگ‌تر دارید؟ آه، ده بهتره.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "really",
-      "chips",
       "comfy",
-      "want",
+      "chips",
+      "five",
       "some"
      ],
      "suggestion": "Really comfy. And I've got five quid left for chips! Want some?",

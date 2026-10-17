@@ -22,7 +22,7 @@
       "nicola",
       "learn",
       "when",
-      "did"
+      "wow"
      ],
      "suggestion": "Wow, Nicola! When did you learn?",
      "suggestionFa": "وای نیکولا! کی یاد گرفتی؟",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "didn't",
-      "well",
       "done",
-      "give"
+      "give",
+      "well"
      ],
      "suggestion": "You didn't give up. Well done!",
      "suggestionFa": "تسلیم نشدی. آفرین!",
@@ -85,8 +85,8 @@
     },
     {
      "keywords": [
-      "falling",
       "without",
+      "falling",
       "stop",
       "can"
      ],
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "helmets",
-      "course",
       "though",
+      "course",
       "we'll"
      ],
      "suggestion": "Of course. We'll need helmets, though.",

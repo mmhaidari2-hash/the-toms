@@ -25,7 +25,7 @@
       "morning",
       "would",
       "like",
-      "tea"
+      "cup"
      ],
      "suggestion": "Morning! Kettle's on. Would you like a cup of tea?",
      "suggestionFa": "صبح بخیر! کتری روشنه. یه فنجون چای میل داری؟",
@@ -49,7 +49,7 @@
       "people",
       "their",
       "we've",
-      "both",
+      "milk",
       "have"
      ],
      "suggestion": "We've got both. Milk? Most people here have milk in their tea.",
@@ -94,11 +94,11 @@
    "branches": [
     {
      "keywords": [
-      "careful",
       "biscuit",
+      "careful",
       "would",
-      "like",
-      "here"
+      "here",
+      "like"
      ],
      "suggestion": "Ha! Here you go. Careful, it's hot. Would you like a biscuit too?",
      "suggestionFa": "ها! بفرما. مواظب باش، داغه. بیسکویت هم میل داری؟",
@@ -123,7 +123,7 @@
       "chocolate",
       "leslie",
       "love",
-      "want"
+      "best"
      ],
      "suggestion": "Chocolate digestives. The best! Leslie, do you want a tea, love?",
      "suggestionFa": "دایجستیو شکلاتی. بهترینه! لزلی، چای می‌خوای عزیزم؟",
@@ -144,8 +144,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "cheers",
-      "makes",
       "guest",
+      "makes",
       "week",
       "best"
      ],

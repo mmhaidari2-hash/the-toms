@@ -71,7 +71,7 @@
       "pancakes",
       "buttons",
       "though",
-      "lemon",
+      "sugar",
       "yummy"
      ],
      "suggestion": "We eat pancakes with lemon and sugar. Yummy! Mr Buttons is sad, though.",
@@ -94,8 +94,8 @@
     {
      "keywords": [
       "teddies",
-      "always",
       "hungry",
+      "always",
       "he's"
      ],
      "suggestion": "He's hungry! Teddies are always hungry. Are you hungry?",
@@ -142,8 +142,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -258,7 +258,7 @@
       "smiling",
       "happy",
       "ryan",
-      "he's"
+      "look"
      ],
      "suggestion": "Everyone is happy now! Even Ryan. Look, he's smiling!",
      "suggestionFa": "حالا همه خوشحالن! حتی رایان. ببین، داره لبخند می‌زنه!",

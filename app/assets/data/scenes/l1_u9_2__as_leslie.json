@@ -24,8 +24,8 @@
       "feeling",
       "poorly",
       "love",
-      "pale",
-      "look"
+      "look",
+      "pale"
      ],
      "suggestion": "Oh love, you look pale. Are you feeling poorly?",
      "suggestionFa": "آه عزیزم، رنگت پریده. حالت خوب نیست؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "headache",
-      "what's",
       "matter",
+      "what's",
       "have",
       "got"
      ],
@@ -100,7 +100,7 @@
       "thirty",
       "that's",
       "eight",
-      "right"
+      "cough"
      ],
      "suggestion": "Thirty-eight point five. That's a temperature, all right. Have you got a cough?",
      "suggestionFa": "سی‌وهشت و نیم. تبه دیگه. سرفه هم داری؟",
@@ -148,9 +148,9 @@
      "keywords": [
       "tomorrow",
       "course",
-      "worse",
+      "water",
       "we'll",
-      "drink"
+      "worse"
      ],
      "suggestion": "Of course. Drink lots of water and rest. If you're worse tomorrow, we'll call the GP.",
      "suggestionFa": "البته. زیاد آب بخور و استراحت کن. اگه فردا بدتر بودی، به دکتر عمومی زنگ می‌زنیم.",
@@ -173,9 +173,9 @@
      "keywords": [
       "doctor",
       "family",
+      "well",
       "love",
-      "into",
-      "well"
+      "into"
      ],
      "suggestion": "A GP is the family doctor. Now, into bed! Get well soon, love.",
      "suggestionFa": "GP دکتر خانواده‌ست. حالا، برو تو تخت! زود خوب شو عزیزم.",

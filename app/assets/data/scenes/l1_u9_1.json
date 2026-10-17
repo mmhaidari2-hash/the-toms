@@ -31,8 +31,8 @@
     {
      "keywords": [
       "school",
-      "song",
-      "from"
+      "from",
+      "song"
      ],
      "suggestion": "Is this a song from school?",
      "suggestionFa": "این آهنگ مدرسه‌ست؟",
@@ -76,8 +76,8 @@
      "keywords": [
       "that's",
       "mouth",
-      "oops",
-      "nose"
+      "ears",
+      "oops"
      ],
      "suggestion": "Nose, ears… oops, that's my mouth!",
      "suggestionFa": "دماغ، گوش… اوه، این دهنمه!",
@@ -263,8 +263,8 @@
      "keywords": [
       "where",
       "hurt",
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see. Where does it hurt?",
      "suggestionFa": "بذار ببینم. کجات درد می‌کنه؟",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "shall",
-      "get",
       "mum",
+      "get",
       "oh"
      ],
      "suggestion": "Oh no! Shall I get your mum?",
@@ -313,8 +313,8 @@
      "keywords": [
       "dinosaur",
       "plaster",
-      "here's",
-      "better"
+      "better",
+      "here's"
      ],
      "suggestion": "Here's a dinosaur plaster. Better?",
      "suggestionFa": "بفرما یه چسب زخم دایناسوری. بهتره؟",
@@ -324,8 +324,8 @@
     },
     {
      "keywords": [
-      "first",
       "let's",
+      "first",
       "some",
       "put"
      ],

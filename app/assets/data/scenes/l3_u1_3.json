@@ -22,7 +22,7 @@
       "starting",
       "company",
       "tom's",
-      "own"
+      "his"
      ],
      "suggestion": "Yes, Tom's starting his own company.",
      "suggestionFa": "بله، تام داره شرکت خودش را راه می‌ندازه.",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "freelance",
-      "tom's",
-      "going"
+      "going",
+      "tom's"
      ],
      "suggestion": "Tom's going freelance.",
      "suggestionFa": "تام داره مستقل کار می‌کنه.",
@@ -109,8 +109,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "first",
-      "month"
+      "month",
+      "about"
      ],
      "suggestion": "About five thousand pounds a month at first.",
      "suggestionFa": "اول حدود ماهی پنج هزار پوند.",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "projects",
-      "depends",
-      "problem"
+      "problem",
+      "depends"
      ],
      "suggestion": "It depends on the projects. Is that a problem?",
      "suggestionFa": "بستگی به پروژه‌ها داره. مشکلیه؟",
@@ -163,7 +163,7 @@
       "transfer",
       "clients",
       "hardly",
-      "ever"
+      "bank"
      ],
      "suggestion": "Hardly ever. Most clients pay by bank transfer.",
      "suggestionFa": "تقریباً هیچ‌وقت. بیشتر مشتری‌ها با انتقال بانکی پرداخت می‌کنن.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "documents",
-      "last",
       "here",
-      "week"
+      "week",
+      "last"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "register",
-      "cost",
       "much",
+      "cost",
       "how"
      ],
      "suggestion": "How much does it cost to register?",
