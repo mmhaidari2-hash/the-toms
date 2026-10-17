@@ -6,6 +6,9 @@ import 'dart:ui_web' as ui_web;
 
 import 'package:web/web.dart' as web;
 
+import 'speech_result.dart';
+export 'speech_result.dart';
+
 /// Web Speech API (optional STT, en-GB) + MediaRecorder for shadowing. Everything stays on the device.
 class SpeechInput {
   static JSFunction? get _ctor => (globalContext['SpeechRecognition'] ?? globalContext['webkitSpeechRecognition']) as JSFunction?;
@@ -33,6 +36,82 @@ class SpeechInput {
     }).toJS;
     rec.callMethod('start'.toJS);
     return c.future.timeout(const Duration(seconds: 12), onTimeout: () => null);
+  }
+
+  static JSObject? _active;
+
+  /// Detailed recognition: up to 3 alternatives, live partial text and a clear error code
+  /// ('not-allowed' = mic or speech permission denied, 'service-not-allowed' = iPhone Siri/Dictation off,
+  /// 'no-speech', 'audio-capture', 'network', 'aborted'). Must be called straight from a tap (iOS).
+  static Future<SpeechResult> listenDetailed({void Function(String partial)? onPartial}) {
+    final c = Completer<SpeechResult>();
+    final ctor = _ctor;
+    if (ctor == null) return Future.value(const SpeechResult(error: 'unsupported'));
+    stop();
+    final rec = ctor.callAsConstructor<JSObject>();
+    _active = rec;
+    rec['lang'] = 'en-GB'.toJS;
+    rec['interimResults'] = (onPartial != null).toJS;
+    rec['continuous'] = false.toJS;
+    rec['maxAlternatives'] = 3.toJS;
+    final alts = <String>[];
+    double conf = 0;
+    rec['onresult'] = ((JSObject e) {
+      final results = e['results'] as JSObject;
+      final n = (results['length'] as JSNumber).toDartInt;
+      if (n == 0) return;
+      final last = results.callMethod<JSObject>('item'.toJS, (n - 1).toJS);
+      final isFinal = (last['isFinal'] as JSBoolean?)?.toDart ?? true;
+      final m = (last['length'] as JSNumber).toDartInt;
+      final texts = [for (var i = 0; i < m; i++) ((last.callMethod<JSObject>('item'.toJS, i.toJS))['transcript'] as JSString).toDart];
+      if (!isFinal) {
+        if (texts.isNotEmpty) onPartial?.call(texts.first);
+        return;
+      }
+      alts
+        ..clear()
+        ..addAll(texts);
+      conf = ((last.callMethod<JSObject>('item'.toJS, 0.toJS))['confidence'] as JSNumber?)?.toDartDouble ?? 0;
+      if (!c.isCompleted) c.complete(SpeechResult(alternatives: alts, confidence: conf));
+    }).toJS;
+    rec['onerror'] = ((JSObject e) {
+      final code = (e['error'] as JSString?)?.toDart ?? 'error';
+      if (!c.isCompleted) c.complete(SpeechResult(error: code));
+    }).toJS;
+    rec['onend'] = ((JSObject _) {
+      if (_active == rec) _active = null;
+      if (!c.isCompleted) c.complete(alts.isEmpty ? const SpeechResult(error: 'no-speech') : SpeechResult(alternatives: alts, confidence: conf));
+    }).toJS;
+    try {
+      rec.callMethod('start'.toJS);
+    } catch (_) {
+      return Future.value(const SpeechResult(error: 'not-allowed'));
+    }
+    return c.future.timeout(const Duration(seconds: 15), onTimeout: () {
+      stop();
+      return const SpeechResult(error: 'no-speech');
+    });
+  }
+
+  /// Stops listening early (the result so far is still delivered).
+  static void stop() {
+    final a = _active;
+    if (a == null) return;
+    try {
+      a.callMethod('stop'.toJS);
+    } catch (_) {}
+    _active = null;
+  }
+
+  /// 'granted', 'denied', 'prompt' or 'unknown' (Safari may not support the Permissions API).
+  static Future<String> micPermission() async {
+    try {
+      final perms = web.window.navigator.permissions;
+      final st = await perms.query({'name': 'microphone'}.jsify() as JSObject).toDart;
+      return st.state;
+    } catch (_) {
+      return 'unknown';
+    }
   }
 
   static web.MediaRecorder? _rec;

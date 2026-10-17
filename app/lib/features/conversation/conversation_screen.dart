@@ -25,6 +25,8 @@ import '../../core/models/character.dart';
 import '../../core/models/dialogue_node.dart';
 import '../home/home_screen.dart' show ErrorState;
 import '../shared/widgets.dart';
+import '../speaking/speaking_widgets.dart';
+import '../../core/engine/pronunciation.dart';
 import '../place/place_screen.dart' show hitTest;
 import '../../core/models/place.dart';
 
@@ -137,6 +139,11 @@ class _ChatState extends ConsumerState<_Chat> {
   final _unlocked = <String>[];
   SrsItem? _srs;
   String? _myTake;
+  // Speak-the-reply mode
+  PronResult? _pron;
+  int? _pronIdx;
+  String _partial = '';
+  String? _speakNote;
 
   Character get ch => widget.c.character(widget.s.characterId);
   Character _who(String id) => widget.c.characterOrNull(id) ?? ch;
@@ -233,6 +240,8 @@ class _ChatState extends ConsumerState<_Chat> {
   }
 
   Future<void> _send([String? preset]) async {
+    _pron = null;
+    _speakNote = null;
     final text = (preset ?? _input.text).trim();
     final node = _node;
     if (text.isEmpty || _typing || _ended || node == null) return;
@@ -302,15 +311,73 @@ class _ChatState extends ConsumerState<_Chat> {
   Future<void> _speakText(String t, double rate) => Voice.say(_lineSpeaker, t, rate: rate);
 
   Future<void> _mic() async {
-    if (!SpeechInput.sttSupported || _listening) return;
-    setState(() => _listening = true);
-    final heard = await SpeechInput.listen();
-    if (!mounted) return;
-    setState(() => _listening = false);
-    if (heard != null && heard.trim().isNotEmpty) {
-      _input.text = heard;
-      _send();
+    if (_listening) {
+      SpeechInput.stop();
+      return;
     }
+    if (!SpeechInput.sttSupported) {
+      showMicHelp(context, 'unsupported');
+      return;
+    }
+    SpeechInput.stopClip(); // never listen to our own voice clip
+    setState(() {
+      _listening = true;
+      _partial = '';
+      _speakNote = null;
+    });
+    final r = await SpeechInput.listenDetailed(onPartial: (p) {
+      if (mounted) setState(() => _partial = p);
+    });
+    if (!mounted) return;
+    setState(() {
+      _listening = false;
+      _partial = '';
+    });
+    if (!r.ok) {
+      if (r.permissionDenied) {
+        showMicHelp(context, r.error, onType: () => _setSpeakMode(false));
+      } else if (r.error != 'aborted') {
+        setState(() => _speakNote = speechErrorText(r.error));
+      }
+      return;
+    }
+    final targets = [for (final b in _node?.branches ?? const <Branch>[]) b.suggestion];
+    final best = targets.isEmpty ? null : Pronunciation.bestOf(targets, r.alternatives);
+    if (best == null || best.$2.score < 35) {
+      // Free speech that matches no option: send what was heard, like typing it.
+      _input.text = r.best;
+      _send();
+      return;
+    }
+    HapticFeedback.lightImpact();
+    setState(() {
+      _pron = best.$2;
+      _pronIdx = best.$1;
+    });
+    if (best.$2.passed) {
+      final mine = best.$2;
+      await Future.delayed(const Duration(milliseconds: 1600));
+      if (mounted && _pron == mine) _sendPron();
+    }
+  }
+
+  void _sendPron() {
+    final i = _pronIdx, branches = _node?.branches ?? const <Branch>[];
+    if (i == null || i >= branches.length) return;
+    setState(() => _pron = null);
+    _send(branches[i].suggestion);
+  }
+
+  void _setSpeakMode(bool on) {
+    if (on && !SpeechInput.sttSupported) {
+      showMicHelp(context, 'unsupported');
+      return;
+    }
+    ref.read(progressProvider.notifier).setSpeakMode(on);
+    setState(() {
+      _pron = null;
+      _speakNote = null;
+    });
   }
 
   Future<void> _toggleRecord() async {
@@ -815,9 +882,17 @@ class _ChatState extends ConsumerState<_Chat> {
                 if (_node != null && !_typing) _tools(),
                 AnimatedSize(duration: const Duration(milliseconds: 240), curve: Curves.easeOutCubic, child: _panelView()),
                 AnimatedSwitcher(duration: const Duration(milliseconds: 300), child: _fb == null ? const SizedBox.shrink() : _feedback(_fb!)),
-                if (_hints && !_ended) _hintChips(),
+                if ((_hints || _speaking) && !_ended && _pron == null) _hintChips(),
+                if (_pron != null)
+                  PronunciationCard(
+                    result: _pron!,
+                    onRetry: _ended ? null : _mic,
+                    onListen: () => Voice.say('me', _pron!.target),
+                    onSend: _ended ? null : _sendPron,
+                  ),
+                if (_speakNote != null) Padding(padding: const EdgeInsets.only(top: 8), child: Text(_speakNote!, key: const ValueKey('speak-note'), style: const TextStyle(color: Color(0xFFE8C987), fontSize: 13))),
                 const SizedBox(height: 8),
-                _composer(),
+                _speaking ? _speakComposer() : _composer(),
               ],
             ),
           ),
@@ -1021,6 +1096,38 @@ class _ChatState extends ConsumerState<_Chat> {
     ),
   );
 
+  bool get _speaking => ref.read(progressProvider.notifier).speakMode && SpeechInput.sttSupported;
+
+  /// Speak-the-reply composer: one big mic; the reply options above are the targets.
+  Widget _speakComposer() => Row(
+    children: [
+      _round(Icons.keyboard_rounded, Colors.white.withValues(alpha: .1), () => _setSpeakMode(false), tip: 'Type instead'),
+      const SizedBox(width: 8),
+      Expanded(
+        child: Pressable(
+          onTap: _ended ? null : _mic,
+          child: AnimatedContainer(
+            key: const ValueKey('speak-mic'),
+            duration: const Duration(milliseconds: 250),
+            height: 52,
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            decoration: BoxDecoration(color: _listening ? BL.red : Colors.white.withValues(alpha: .1), borderRadius: BorderRadius.circular(99), border: Border.all(color: _listening ? BL.red : const Color(0x88E9B949))),
+            child: Row(children: [
+              Icon(_listening ? Icons.graphic_eq_rounded : Icons.mic_rounded, color: Colors.white),
+              const SizedBox(width: 10),
+              Expanded(child: Text(
+                _ended ? tr(_lang, 'storyDone') : _listening ? (_partial.isEmpty ? 'Listening… say one of the replies' : _partial) : 'Tap and say your reply',
+                maxLines: 1, overflow: TextOverflow.ellipsis,
+                style: TextStyle(color: _listening ? Colors.white : Colors.white70, fontWeight: FontWeight.w700, fontSize: 15),
+              )),
+              if (_listening) const Text('Tap to stop', style: TextStyle(color: Colors.white70, fontSize: 11)),
+            ]),
+          ),
+        ),
+      ),
+    ],
+  );
+
   Widget _composer() => Row(
     children: [
       _round(Icons.lightbulb_rounded, _hints ? BL.gold : Colors.white.withValues(alpha: .1), _ended ? null : () => setState(() => _hints = !_hints), iconColor: _hints ? BL.ink : const Color(0xFFE8C987), tip: 'Ghost hint'),
@@ -1048,10 +1155,8 @@ class _ChatState extends ConsumerState<_Chat> {
         ),
       ),
       const SizedBox(width: 8),
-      if (SpeechInput.sttSupported) ...[
-        _round(_listening ? Icons.graphic_eq_rounded : Icons.mic_rounded, _listening ? BL.red : Colors.white.withValues(alpha: .1), _ended ? null : _mic, tip: 'Speak'),
-        const SizedBox(width: 8),
-      ],
+      _round(Icons.mic_rounded, Colors.white.withValues(alpha: .1), _ended ? null : () => _setSpeakMode(true), tip: SpeechInput.sttSupported ? 'Speak your replies' : 'Speaking not available here'),
+      const SizedBox(width: 8),
       _round(Icons.arrow_upward_rounded, BL.red, _ended ? null : _send, tip: 'Send'),
     ],
   );

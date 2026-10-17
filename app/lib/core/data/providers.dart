@@ -255,6 +255,13 @@ class ProgressController extends Notifier<UserProgress> {
     };
   }
 
+  // ---- Speaking: answer chats by voice (speech recognition + per-word pronunciation scoring).
+  bool get speakMode => state.missionsDone['pref:speakMode'] == 'on';
+  void setSpeakMode(bool on) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:speakMode': on ? 'on' : 'off'});
+    _save();
+  }
+
   // ---- Daily reminder preferences (the reminder itself: PWA notification where allowed, or a calendar .ics).
   String get reminderTime => _m('pref:remind').isEmpty ? '19:00' : _m('pref:remind');
   bool get reminderOn => _m('pref:remindOn') == 'on';

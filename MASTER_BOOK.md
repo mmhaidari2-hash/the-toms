@@ -161,3 +161,16 @@ Profession-specific English tracks led by a family member who does that job, bui
 - **Career Pack preview lock:** after the beta, lesson 1 of each pack is free. Later lessons open with Premium (`pref:premium`), a one-off buy (`pack:<id>`) or demo mode. Locked stones and direct `/lesson/<id>` links show the paywall. The main course is never paywalled.
 - **Certificates** (`/certificate/1..5`, menu "Certificates"): one per level, earned when every unit of the level is finished. Shows a printable certificate with the learner's name; locked levels show % progress.
 - **Real payments and native store builds:** GitHub issue #50 (RevenueCat for iOS/Android, Stripe or RevenueCat Web for the PWA, legal/VAT, store builds, per-level audio downloads).
+
+### Motivation (2026-10-17)
+- XP (practice 5–15, stories 10), a daily goal picker (10/20/30/50 XP), and a streak with freezes (start with 1, earn one per 7-day streak, max 2; a freeze covers one missed day).
+- A weekly league with 9 friendly bots (Bronze to Diamond; top 3 move up, bottom 2 move down). Real online leagues need a backend (see the AI tutor and backend issue).
+- 14 badges and an end-of-lesson celebration screen.
+- Daily reminders: a PWA notification nudge after the chosen time when the app is opened, plus an "Add to calendar" .ics file (daily repeat with alert) that is the reliable option on iPhone. True scheduled push needs a push server (Web Push / FCM) and will come with the native apps.
+
+### Speaking (2026-10-17)
+- Web Speech API (`SpeechRecognition` / `webkitSpeechRecognition`, en-GB, 3 alternatives, live partial text). Works in Chrome (Android/desktop) and Safari on iPhone (iOS 14.5+; needs Dictation on, otherwise the error is "service-not-allowed"). Audio is processed by the browser/OS speech service; the app stores nothing.
+- Per-word pronunciation scoring (`lib/core/engine/pronunciation.dart`): word alignment against the target; contractions, numbers, British/American spellings and homophones count as clear; similar-sounding words count as "nearly". Score = clear + half of nearly; pass at 70%.
+- Speak-the-reply mode in chats (the mic in the composer; saved per learner). The reply options are the targets: the best match is scored and coloured word by word (green/amber/red), auto-sent when it passes, otherwise Retry / Listen / Send anyway. Free speech that matches no option is sent as typed text.
+- Graceful fallback: no recognition → help sheet + typing + Record-and-compare; mic denied → step-by-step permission help for iPhone and Android; no-speech / network errors → a short inline note.
+- Limits: browser STT recognises words, not phonemes, so scoring reflects intelligibility. Phoneme-level scoring (e.g. Azure Pronunciation Assessment or Speechace) is planned with the backend proxy.
