@@ -25,7 +25,7 @@
       "tummy",
       "she's",
       "sofa",
-      "dear"
+      "ache"
      ],
      "suggestion": "Oh dear. Nicola's got a tummy ache. She's on the sofa. Can you sit with her?",
      "suggestionFa": "ای وای. نیکولا دل‌درد داره. رو مبله. می‌تونی پیشش بشینی؟",
@@ -150,8 +150,8 @@
    "branches": [
     {
      "keywords": [
-      "question",
       "somebody",
+      "question",
       "that's",
       "party",
       "found"
@@ -234,8 +234,8 @@
      "keywords": [
       "sweets",
       "you'll",
-      "water",
       "today",
+      "water",
       "small"
      ],
      "suggestion": "You'll be fine, pet. Small sips of water. And no more sweets today!",

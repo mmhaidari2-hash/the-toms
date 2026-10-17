@@ -89,8 +89,8 @@
      "keywords": [
       "cheaper",
       "twelve",
-      "month",
-      "works"
+      "works",
+      "month"
      ],
      "suggestion": "The twelve-month one works out cheaper, so I'll go for that.",
      "suggestionFa": "دوازده‌ماهه ارزون‌تر درمیاد، پس اونو می‌گیرم.",
@@ -143,8 +143,8 @@
      "keywords": [
       "evening",
       "course",
-      "doing",
-      "count"
+      "count",
+      "doing"
      ],
      "suggestion": "I'm doing an evening course — does that count?",
      "suggestionFa": "یه دورهٔ شبانه می‌رم — حساب میشه؟",
@@ -185,8 +185,8 @@
      "keywords": [
       "fitter",
       "weight",
-      "lose",
-      "want"
+      "want",
+      "lose"
      ],
      "suggestion": "I want to get fitter and lose a bit of weight.",
      "suggestionFa": "می‌خوام بدنم آماده‌تر بشه و یه کم وزن کم کنم.",
@@ -254,7 +254,7 @@
       "alright",
       "thanks",
       "before",
-      "gyms"
+      "used"
      ],
      "suggestion": "I'm alright, thanks — I've used gyms before.",
      "suggestionFa": "نه ممنون — قبلاً باشگاه رفتم.",
@@ -292,10 +292,10 @@
    "branches": [
     {
      "keywords": [
-      "sounds",
       "when's",
+      "sounds",
       "class",
-      "yoga"
+      "good"
      ],
      "suggestion": "Yoga sounds good. When's the next class?",
      "suggestionFa": "یوگا خوب به نظر میاد. کلاس بعدی کیه؟",
@@ -307,8 +307,8 @@
      "keywords": [
       "might",
       "hard",
-      "give",
-      "spin"
+      "spin",
+      "give"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -398,9 +398,9 @@
     {
      "keywords": [
       "injury",
-      "fine",
+      "year",
       "last",
-      "knee"
+      "fine"
      ],
      "suggestion": "I had a knee injury last year, but it's fine now.",
      "suggestionFa": "پارسال زانوم آسیب دید، ولی الان خوبه.",

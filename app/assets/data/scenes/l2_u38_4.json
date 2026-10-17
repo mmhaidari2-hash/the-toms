@@ -33,9 +33,9 @@
     {
      "keywords": [
       "painted",
-      "fence",
       "first",
-      "never"
+      "never",
+      "fence"
      ],
      "suggestion": "I've never painted a fence. What do I do first?",
      "suggestionFa": "تا حالا نرده رنگ نکردم. اول چی کار کنم؟",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "brush",
       "first",
+      "brush",
       "sheet",
       "then"
      ],
@@ -138,7 +138,7 @@
       "already",
       "minutes",
       "tired",
-      "two"
+      "arm"
      ],
      "suggestion": "Two minutes. My arm is tired already!",
      "suggestionFa": "دو دقیقه. دستم همین الان خسته شد!",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "along",
-      "like",
-      "wood"
+      "wood",
+      "like"
      ],
      "suggestion": "Along the wood. Like this?",
      "suggestionFa": "در جهت چوب. اینجوری؟",
@@ -214,8 +214,8 @@
      "keywords": [
       "dripped",
       "late",
-      "shoe",
-      "oops"
+      "oops",
+      "shoe"
      ],
      "suggestion": "Oops. Too late. I dripped on my shoe.",
      "suggestionFa": "اوه. دیر شد. رو کفشم چکه کرد.",
@@ -261,10 +261,10 @@
    "branches": [
     {
      "keywords": [
-      "coats",
-      "fence",
       "twice",
-      "whole"
+      "whole",
+      "fence",
+      "coats"
      ],
      "suggestion": "Two coats? The whole fence twice?",
      "suggestionFa": "دو لایه؟ کل نرده را دو بار؟",
@@ -276,8 +276,8 @@
      "keywords": [
       "until",
       "hours",
-      "four",
-      "then"
+      "then",
+      "four"
      ],
      "suggestion": "Four hours? What do we do until then?",
      "suggestionFa": "چهار ساعت؟ تا اون موقع چی کار کنیم؟",
@@ -383,8 +383,8 @@
     {
      "keywords": [
       "iran",
-      "diy",
-      "dad"
+      "dad",
+      "diy"
      ],
      "suggestion": "In Iran, my dad does DIY too!",
      "suggestionFa": "تو ایران، بابام هم کارهای خونه را خودش می‌کنه!",

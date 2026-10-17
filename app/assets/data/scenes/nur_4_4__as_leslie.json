@@ -50,7 +50,7 @@
       "temperature",
       "morning",
       "course",
-      "form",
+      "know",
       "need"
      ],
      "suggestion": "No temperature this morning. Oh, a form — of course. What do you need to know?",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "morning",
+      "here's",
       "twelve",
       "bottle",
-      "here's",
       "seven"
      ],
      "suggestion": "5 ml at twelve. He had some at seven this morning. Here's the bottle — it's got his name on.",
@@ -214,10 +214,10 @@
     {
      "keywords": [
       "william",
-      "number",
       "auntie",
+      "number",
       "thank",
-      "good"
+      "vida"
      ],
      "suggestion": "Same number. Thank you both. Bye, William — be good for Auntie Vida!",
      "suggestionFa": "همون شماره. ممنون از هر دوتون. خداحافظ ویلیام — برای خاله ویدا پسر خوبی باش!",

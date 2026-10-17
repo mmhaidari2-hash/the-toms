@@ -20,8 +20,8 @@
     {
      "keywords": [
       "where",
-      "i'll",
       "help",
+      "i'll",
       "her"
      ],
      "suggestion": "I'll help. Where are her shoes?",
@@ -89,9 +89,9 @@
     {
      "keywords": [
       "upstairs",
-      "i'll",
+      "look",
       "help",
-      "look"
+      "i'll"
      ],
      "suggestion": "I'll look upstairs. Nicola, help me!",
      "suggestionFa": "من طبقهٔ بالا را می‌گردم. نیکولا، کمکم کن!",
@@ -288,9 +288,9 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "o'clock",
-      "i'll",
+      "problem",
+      "walk",
       "nine"
      ],
      "suggestion": "No problem. Nine o'clock. I'll walk with him.",
@@ -341,8 +341,8 @@
    "branches": [
     {
      "keywords": [
-      "luck",
       "good",
+      "luck",
       "bye"
      ],
      "suggestion": "Bye! Good luck!",
@@ -353,10 +353,10 @@
     },
     {
      "keywords": [
-      "lunch",
       "still",
-      "here",
-      "wait"
+      "lunch",
+      "wait",
+      "here"
      ],
      "suggestion": "Wait — her lunch box! It's still here!",
      "suggestionFa": "صبر کن — ظرف ناهارش! هنوز اینجاست!",

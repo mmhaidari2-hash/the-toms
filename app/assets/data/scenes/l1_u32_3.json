@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
+      "many",
       "need",
       "bags",
-      "many",
       "how"
      ],
      "suggestion": "How many bags do we need?",
@@ -84,9 +84,9 @@
     },
     {
      "keywords": [
+      "jelly",
       "let's",
       "start",
-      "jelly",
       "ones"
      ],
      "suggestion": "Let's start with the jelly ones.",
@@ -180,8 +180,8 @@
     {
      "keywords": [
       "sweets",
-      "fewer",
       "fizzy",
+      "fewer",
       "ok"
      ],
      "suggestion": "OK, fewer fizzy sweets.",
@@ -271,8 +271,8 @@
    "branches": [
     {
      "keywords": [
-      "enough",
-      "that's"
+      "that's",
+      "enough"
      ],
      "suggestion": "Yes, that's enough.",
      "suggestionFa": "آره، کافیه.",
@@ -282,8 +282,8 @@
     },
     {
      "keywords": [
-      "sugar",
       "maybe",
+      "sugar",
       "less",
       "bit"
      ],
@@ -328,8 +328,8 @@
      "keywords": [
       "each",
       "half",
-      "pay",
-      "can"
+      "can",
+      "pay"
      ],
      "suggestion": "Can we pay half each?",
      "suggestionFa": "می‌تونیم نصف‌نصف بدیم؟",

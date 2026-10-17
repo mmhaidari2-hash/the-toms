@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "callum",
-      "thanks"
+      "thanks",
+      "callum"
      ],
      "suggestion": "Thanks, Callum.",
      "suggestionFa": "مرسی کالوم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "bother",
       "sorry",
-      "but",
-      "bit"
+      "bit",
+      "but"
      ],
      "suggestion": "Sorry to bother you, but it's a bit cold.",
      "suggestionFa": "ببخشید مزاحم میشم، ولی یه کم سرده.",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "another",
-      "please",
       "that's",
+      "please",
       "could"
      ],
      "suggestion": "That's OK. Could I have another one, please?",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "machine",
       "worries",
+      "machine",
       "coffee",
       "new"
      ],
@@ -208,9 +208,9 @@
     },
     {
      "keywords": [
-      "hurry",
+      "don't",
       "worry",
-      "don't"
+      "hurry"
      ],
      "suggestion": "Don't worry, I'm not in a hurry.",
      "suggestionFa": "نگران نباش، عجله ندارم.",
@@ -253,9 +253,9 @@
     {
      "keywords": [
       "perfect",
+      "thanks",
       "that's",
-      "better",
-      "thanks"
+      "better"
      ],
      "suggestion": "Perfect. That's much better, thanks.",
      "suggestionFa": "عالی. خیلی بهتره، مرسی.",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "careful",
-      "now",
       "hot",
+      "now",
       "ha"
      ],
      "suggestion": "Careful! It's very hot now. Ha!",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "complain",
-      "loudly",
       "people",
-      "iran"
+      "loudly",
+      "more"
      ],
      "suggestion": "In Iran, people complain more loudly!",
      "suggestionFa": "تو ایران، مردم بلندتر شکایت می‌کنن!",

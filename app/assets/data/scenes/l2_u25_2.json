@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "help",
       "came",
+      "help",
       "tom"
      ],
      "suggestion": "Yes. Tom came to help me.",
@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "credit",
+      "what's",
       "check"
      ],
      "suggestion": "What's a credit check?",
@@ -82,8 +82,8 @@
      "keywords": [
       "passport",
       "address",
-      "counts",
-      "here's"
+      "here's",
+      "counts"
      ],
      "suggestion": "Here's my passport. What counts as proof of address?",
      "suggestionFa": "این پاسپورتمه. چی مدرک آدرس حساب میشه؟",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "months",
-      "four",
+      "been",
       "here",
-      "been"
+      "only"
      ],
      "suggestion": "But I've only been here for four months.",
      "suggestionFa": "ولی من فقط چهار ماهه اینجام.",
@@ -339,8 +339,8 @@
     {
      "keywords": [
       "hundred",
-      "pounds",
       "that's",
+      "pounds",
       "much"
      ],
      "suggestion": "A hundred pounds? That's too much.",
@@ -389,8 +389,8 @@
     {
      "keywords": [
       "clever",
-      "dad",
       "was",
+      "dad",
       "tom"
      ],
      "suggestion": "Your dad was clever, Tom.",
@@ -430,9 +430,9 @@
     {
      "keywords": [
       "months",
-      "i'll",
-      "back",
-      "come"
+      "only",
+      "come",
+      "i'll"
      ],
      "suggestion": "Yes. SIM-only, and I'll come back in six months.",
      "suggestionFa": "آره. فقط سیم‌کارت، و شش ماه دیگه برمی‌گردم.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "shall",
       "check",
+      "shall",
       "app"
      ],
      "suggestion": "Shall I check the app?",
@@ -67,9 +67,9 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "number",
-      "course"
+      "course",
+      "what's"
      ],
      "suggestion": "Of course. What's the order number?",
      "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
@@ -117,8 +117,8 @@
      "keywords": [
       "supposed",
       "ordered",
-      "thirty",
-      "arrive"
+      "arrive",
+      "thirty"
      ],
      "suggestion": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
      "suggestionFa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه.",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "calling",
-      "order",
       "about",
+      "order",
       "late"
      ],
      "suggestion": "Hi. I'm calling about order 2479. It's very late.",
@@ -182,8 +182,8 @@
      "keywords": [
       "minutes",
       "driver",
-      "away",
-      "he's"
+      "he's",
+      "away"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "coming",
-      "pizza",
       "sorry",
+      "pizza",
       "now"
      ],
      "suggestion": "They said sorry. The pizza is coming now.",
@@ -232,8 +232,8 @@
      "keywords": [
       "should",
       "didn't",
-      "call",
-      "back"
+      "back",
+      "call"
      ],
      "suggestion": "No, I didn't. Should I call back?",
      "suggestionFa": "نه، نخواستم. دوباره زنگ بزنم؟",
@@ -243,10 +243,10 @@
     },
     {
      "keywords": [
-      "they'll",
       "percent",
+      "they'll",
       "give",
-      "ten"
+      "off"
      ],
      "suggestion": "Yes. They'll give us ten percent off.",
      "suggestionFa": "آره. ده درصد تخفیف بهمون میدن.",

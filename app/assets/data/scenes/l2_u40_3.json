@@ -158,8 +158,8 @@
     {
      "keywords": [
       "wiping",
-      "she's",
       "thank",
+      "she's",
       "now"
      ],
      "suggestion": "She's wiping it now. Thank you!",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "window",
-      "let's",
       "table",
+      "let's",
       "free"
      ],
      "suggestion": "The window table is free. Let's move.",
@@ -256,8 +256,8 @@
    "branches": [
     {
      "keywords": [
-      "better",
       "here's",
+      "better",
       "table",
       "much"
      ],
@@ -306,8 +306,8 @@
      "keywords": [
       "callum",
       "fine",
-      "girl",
-      "nice"
+      "nice",
+      "girl"
      ],
      "suggestion": "It's fine, Callum. The new girl was very nice.",
      "suggestionFa": "اشکالی نداره کالوم. دختر جدید خیلی خوب بود.",
@@ -317,10 +317,10 @@
     },
     {
      "keywords": [
-      "sticky",
       "that's",
-      "other",
-      "table"
+      "sticky",
+      "table",
+      "other"
      ],
      "suggestion": "The other table was a bit sticky, that's all.",
      "suggestionFa": "اون میز یه کم چسبناک بود، همین.",
@@ -367,10 +367,10 @@
     },
     {
      "keywords": [
-      "i'll",
-      "time",
       "next",
-      "pay"
+      "time",
+      "i'll",
+      "can"
      ],
      "suggestion": "Go. I'll pay. You can pay next time.",
      "suggestionFa": "برو. من حساب می‌کنم. دفعهٔ بعد تو حساب کن.",

@@ -30,10 +30,10 @@
     },
     {
      "keywords": [
-      "panic",
       "don't",
-      "i'll",
-      "help"
+      "panic",
+      "help",
+      "i'll"
      ],
      "suggestion": "Don't panic. I'll help you.",
      "suggestionFa": "هول نکن. کمکت می‌کنم.",
@@ -85,9 +85,9 @@
     {
      "keywords": [
       "there's",
+      "sock",
       "here",
-      "blue",
-      "sock"
+      "blue"
      ],
      "suggestion": "There's a sock here, but it's blue.",
      "suggestionFa": "یه جوراب اینجاست، ولی آبیه.",
@@ -141,9 +141,9 @@
     },
     {
      "keywords": [
-      "socks",
       "pants",
-      "but",
+      "socks",
+      "can",
       "see"
      ],
      "suggestion": "I can see pants, but no socks!",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "washing",
-      "they",
-      "here"
+      "here",
+      "they"
      ],
      "suggestion": "Yes! Here they are, in the washing basket.",
      "suggestionFa": "آره! ایناهاشون، تو سبد لباس‌چرک.",

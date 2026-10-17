@@ -20,8 +20,8 @@
     {
      "keywords": [
       "don't",
-      "know",
       "help",
+      "know",
       "can"
      ],
      "suggestion": "I don't know. Can you help me?",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "jumper",
-      "dark",
-      "blue"
+      "blue",
+      "dark"
      ],
      "suggestion": "A dark blue jumper?",
      "suggestionFa": "یه ژاکت سورمه‌ای؟",
@@ -239,9 +239,9 @@
     {
      "keywords": [
       "instead",
+      "take",
       "coat",
-      "i'll",
-      "take"
+      "i'll"
      ],
      "suggestion": "I'll take my coat instead.",
      "suggestionFa": "به جاش کتم را می‌برم.",
@@ -275,8 +275,8 @@
    "branches": [
     {
      "keywords": [
-      "shoes",
       "black",
+      "shoes",
       "i've",
       "got"
      ],

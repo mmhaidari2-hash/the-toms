@@ -49,7 +49,7 @@
       "potatoes",
       "carrots",
       "potato",
-      "minced",
+      "onions",
       "mashed"
      ],
      "suggestion": "Minced lamb, onions, carrots, gravy — and mashed potato on top. First, can you peel the potatoes?",
@@ -74,8 +74,8 @@
       "quarters",
       "minutes",
       "twenty",
-      "then",
-      "them"
+      "ones",
+      "boil"
      ],
      "suggestion": "Six big ones. Then cut them into quarters and boil them for twenty minutes.",
      "suggestionFa": "شش تا بزرگ. بعد چهار قسمتشون کن و بیست دقیقه بجوشونشون.",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "pinch",
       "onion",
       "don't",
+      "pinch",
       "next",
       "salt"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "stirring",
       "carrots",
-      "mince",
       "onion",
-      "then"
+      "mince",
+      "keep"
      ],
      "suggestion": "Ha! Now fry the onion and carrots, then add the mince. Keep stirring.",
      "suggestionFa": "ها! حالا پیاز و هویج را سرخ کن، بعد گوشت را اضافه کن. هم بزن.",
@@ -148,9 +148,9 @@
      "keywords": [
       "worcestershire",
       "splash",
+      "until",
       "after",
-      "gravy",
-      "brown"
+      "gravy"
      ],
      "suggestion": "Until it's brown. After that, add gravy and a splash of Worcestershire sauce. Can you say \"Worcestershire\"?",
      "suggestionFa": "تا قهوه‌ای بشه. بعد از اون، سس و یه کم سس ورسسترشر اضافه کن. می‌تونی بگی «ورسسترشر»؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "potatoes",
-      "butter",
       "nearly",
+      "butter",
       "wuss",
-      "milk"
+      "sher"
      ],
      "suggestion": "Nearly! It's \"Wuss-ter-sher\". Now mash the potatoes with butter and milk.",
      "suggestionFa": "تقریباً! «ووس‌تر-شر». حالا سیب‌زمینی‌ها را با کره و شیر له کن.",
@@ -198,9 +198,9 @@
      "keywords": [
       "spread",
       "lines",
-      "hour",
+      "lots",
       "oven",
-      "fork"
+      "hour"
      ],
      "suggestion": "Lots! Spread the mash on top, use a fork to make lines, and put it in the oven for half an hour.",
      "suggestionFa": "زیاد! پوره را روش پخش کن، با چنگال خط بنداز، و نیم ساعت بذارش تو فر.",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "jealous",
       "degrees",
+      "jealous",
       "hundred",
       "natural",
       "that's"

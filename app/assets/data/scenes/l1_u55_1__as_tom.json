@@ -23,8 +23,8 @@
      "keywords": [
       "neighbour",
       "kettle's",
-      "country",
       "morning",
+      "country",
       "here's"
      ],
      "suggestion": "Morning, neighbour! Kettle's on. Here's a funny thing — I don't know much about your country.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "tehran",
-      "bigger",
       "london",
-      "city",
-      "than"
+      "bigger",
+      "tehran",
+      "than",
+      "city"
      ],
      "suggestion": "Tehran! Is it a big city? Bigger than London?",
      "suggestionFa": "تهران! شهر بزرگیه؟ بزرگ‌تر از لندن؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "traffic",
       "exactly",
-      "where",
-      "drive",
-      "about"
+      "traffic",
+      "about",
+      "don't",
+      "drive"
      ],
      "suggestion": "Traffic! Don't talk to me about traffic. I drive the 38 bus! Where is Iran, exactly?",
      "suggestionFa": "ترافیک! از ترافیک برام نگو. من اتوبوس ۳۸ را می‌رونم! ایران دقیقاً کجاست؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "there",
       "never",
-      "here",
       "july",
-      "well"
+      "well",
+      "here"
      ],
      "suggestion": "Ah, I see. Is it hot there? It's never hot here. Well, one day in July.",
      "suggestionFa": "آها. اونجا گرمه؟ اینجا هیچ‌وقت گرم نیست. خب، یه روز تو ژوئیه.",
@@ -173,8 +173,8 @@
      "keywords": [
       "breakfast",
       "drink",
-      "milk",
       "same",
+      "milk",
       "tea"
      ],
      "suggestion": "Tea for breakfast! Same as us. Do you drink it with milk?",
@@ -198,8 +198,8 @@
      "keywords": [
       "british",
       "she'll",
-      "style",
       "glass",
+      "don't",
       "faint"
      ],
      "suggestion": "In a glass? No milk? Don't tell my mum. She'll faint! Here — one tea, British style. Try it.",
@@ -224,8 +224,8 @@
       "pistachios",
       "persian",
       "leslie",
-      "bring",
-      "don't"
+      "don't",
+      "bring"
      ],
      "suggestion": "Deal! Persian tea next time. And bring pistachios. Don't tell Leslie!",
      "suggestionFa": "قبول! دفعهٔ بعد چای ایرانی. و پسته بیار. به لزلی نگو!",

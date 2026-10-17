@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "calling",
       "absence",
+      "calling",
       "report",
-      "won't"
+      "hello"
      ],
      "suggestion": "Hello. I'm calling to report an absence. Nicola Thompson won't be in today.",
      "suggestionFa": "سلام. زنگ زدم غیبت گزارش بدم. نیکولا تامپسون امروز نمیاد.",
@@ -171,8 +171,8 @@
      "keywords": [
       "thursday",
       "she'll",
-      "hours",
-      "eight"
+      "eight",
+      "forty"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
      "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
@@ -230,10 +230,10 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "friend",
+      "family",
       "added",
-      "last"
+      "term"
      ],
      "suggestion": "Yes, I'm a family friend. Leslie added me last term.",
      "suggestionFa": "آره، دوست خانوادگی‌ام. لزلی ترم پیش اضافه‌م کرد.",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "asked",
-      "sure",
-      "call"
+      "call",
+      "sure"
      ],
      "suggestion": "I'm not sure. Leslie asked me to call.",
      "suggestionFa": "مطمئن نیستم. لزلی ازم خواست زنگ بزنم.",
@@ -369,8 +369,8 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "great",
+      "thank",
       "would"
      ],
      "suggestion": "That would be great, thank you.",

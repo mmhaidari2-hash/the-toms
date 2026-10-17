@@ -23,8 +23,8 @@
     {
      "keywords": [
       "mirrors",
-      "signal",
       "before",
+      "signal",
       "check"
      ],
      "suggestion": "Ryan, check your mirrors and signal before you pull out.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "first",
-      "belt",
-      "seat"
+      "seat",
+      "belt"
      ],
      "suggestion": "Seat belt first, Ryan!",
      "suggestionFa": "اول کمربند، رایان!",
@@ -81,7 +81,7 @@
      "keywords": [
       "everyone",
       "stalls",
-      "worry",
+      "again",
       "don't"
      ],
      "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
@@ -94,8 +94,8 @@
      "keywords": [
       "slowly",
       "clutch",
-      "doing",
-      "bring"
+      "great",
+      "doing"
      ],
      "suggestion": "You're doing great. Just bring the clutch up slowly.",
      "suggestionFa": "خوب داری پیش میری. فقط کلاچ را آروم ول کن.",
@@ -134,9 +134,9 @@
     {
      "keywords": [
       "right",
+      "side",
       "hand",
-      "road",
-      "side"
+      "road"
      ],
      "suggestion": "Yes, but on the right-hand side of the road!",
      "suggestionFa": "آره، ولی سمت راست جاده!",
@@ -232,8 +232,8 @@
      "keywords": [
       "parallel",
       "parking",
-      "good",
-      "luck"
+      "ryan",
+      "good"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
      "suggestionFa": "پارک دوبل؟ موفق باشی رایان!",
@@ -283,8 +283,8 @@
      "keywords": [
       "lesson",
       "first",
-      "bad",
-      "all"
+      "all",
+      "bad"
      ],
      "suggestion": "Not bad at all for a first lesson!",
      "suggestionFa": "برای جلسهٔ اول اصلاً بد نیست!",
@@ -383,8 +383,8 @@
     {
      "keywords": [
       "great",
-      "tom",
       "did",
+      "tom",
       "ha"
      ],
      "suggestion": "Ha! You did great too, Tom.",
@@ -395,10 +395,10 @@
     },
     {
      "keywords": [
+      "ryan",
+      "done",
       "well",
-      "week",
-      "same",
-      "done"
+      "time"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

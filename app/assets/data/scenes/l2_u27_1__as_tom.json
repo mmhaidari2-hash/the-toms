@@ -22,8 +22,8 @@
     {
      "keywords": [
       "diversion",
-      "roadworks",
       "gentlemen",
+      "roadworks",
       "stopping",
       "because"
      ],
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "different",
-      "instead",
       "morning",
+      "instead",
       "street",
-      "along"
+      "route"
      ],
      "suggestion": "It means a different route. We go along Morning Lane instead of Mare Street. Where were you going?",
      "suggestionFa": "یعنی یه مسیر دیگه. به‌جای مِر استریت از مورنینگ لین میریم. کجا می‌رفتی؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "nearest",
       "morning",
-      "market",
+      "nearest",
       "church",
+      "market",
       "minute"
      ],
      "suggestion": "The nearest stop for the market is Morning Lane, by the church. It's a five-minute walk. Sorry, mate — not my fault!",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "council's",
-      "chippy",
       "you'll",
-      "every",
+      "chippy",
+      "right",
       "smell"
      ],
      "suggestion": "The council's! They dig up the same road every year. Walk back past the chippy, then turn right. You'll smell the fish.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "website",
       "there's",
+      "website",
       "before",
-      "weeks",
-      "leave"
+      "check",
+      "about"
      ],
      "suggestion": "Two weeks, the sign says. So, about six weeks. Ha! There's a list on the TfL website. You can check before you leave.",
      "suggestionFa": "تابلو میگه دو هفته. یعنی حدود شش هفته. ها! یه فهرست رو سایت TfL هست. می‌تونی قبل از راه افتادن چک کنی.",
@@ -149,8 +149,8 @@
       "diversions",
       "morning",
       "useful",
-      "times",
-      "shows"
+      "shows",
+      "times"
      ],
      "suggestion": "Yes, the app shows diversions and live times. Very useful. OK — Morning Lane. This is you. Ring the bell!",
      "suggestionFa": "آره، اپ مسیرهای انحرافی و زمان زنده را نشون میده. خیلی به درد می‌خوره. خب — مورنینگ لین. ایستگاه تو. زنگ را بزن!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "always",
+      "leslie",
       "other",
-      "mind",
-      "step"
+      "stop",
+      "mind"
      ],
      "suggestion": "Same stop, other side. And get the big fish — Leslie always says \"the big one\". Mind the step!",
      "suggestionFa": "همون ایستگاه، طرف مقابل. ماهی بزرگه را بگیر — لزلی همیشه میگه «بزرگه». مواظب پله باش!",

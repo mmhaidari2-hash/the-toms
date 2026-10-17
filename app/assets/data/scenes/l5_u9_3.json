@@ -35,7 +35,7 @@
       "transport",
       "disaster",
       "entirely",
-      "depends"
+      "without"
      ],
      "suggestion": "It depends entirely on public transport. Without that, it's a disaster.",
      "suggestionFa": "کاملاً بستگی به حمل‌ونقل عمومی داره. بدون اون، فاجعه‌ست.",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "increases",
-      "footfall",
+      "evidence",
       "actually",
-      "evidence"
+      "footfall"
      ],
      "suggestion": "Actually, evidence from other cities suggests footfall often increases.",
      "suggestionFa": "در واقع، شواهد از شهرهای دیگه نشون می‌ده رفت‌وآمد پیاده اغلب افزایش پیدا می‌کنه.",
@@ -197,8 +197,8 @@
    "branches": [
     {
      "keywords": [
-      "going",
       "there",
+      "going",
       "had",
       "ha"
      ],
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "actually",
-      "argument",
       "exercise",
-      "sharpens"
+      "actually",
+      "sharpens",
+      "argument"
      ],
      "suggestion": "That's a useful exercise, actually. It sharpens your argument.",
      "suggestionFa": "راستش تمرین مفیدیه. استدلالت را تیزتر می‌کنه.",

@@ -82,9 +82,9 @@
     },
     {
      "keywords": [
+      "there",
       "class",
-      "space",
-      "there"
+      "space"
      ],
      "suggestion": "Is there space in the class?",
      "suggestionFa": "تو کلاس جا هست؟",
@@ -129,7 +129,7 @@
       "boxercise",
       "spaces",
       "let's",
-      "book"
+      "then"
      ],
      "suggestion": "Let's book boxercise, then. Two spaces!",
      "suggestionFa": "پس بوکسرسایز رزرو کنیم. دو تا جا!",
@@ -206,8 +206,8 @@
      "keywords": [
       "you'll",
       "there",
-      "i'll",
-      "fine"
+      "fine",
+      "i'll"
      ],
      "suggestion": "You'll be fine, Tom. I'll be there.",
      "suggestionFa": "خوب میشی تام. من اونجام.",
@@ -246,8 +246,8 @@
     {
      "keywords": [
       "brilliant",
-      "snored",
       "that's",
+      "snored",
       "yoga"
      ],
      "suggestion": "You snored in yoga? That's brilliant!",
@@ -258,8 +258,8 @@
     },
     {
      "keywords": [
-      "rather",
       "boxing",
+      "rather",
       "i'd"
      ],
      "suggestion": "I'd rather do boxing too.",
@@ -299,8 +299,8 @@
     {
      "keywords": [
       "dinner",
-      "big",
-      "why"
+      "why",
+      "big"
      ],
      "suggestion": "Why no big dinner?",
      "suggestionFa": "چرا شام سنگین نه؟",

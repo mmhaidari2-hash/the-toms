@@ -75,8 +75,8 @@
    "branches": [
     {
      "keywords": [
-      "fold",
       "help",
+      "fold",
       "can",
       "her"
      ],
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
+      "hold",
       "fold",
-      "i'll",
-      "hold"
+      "i'll"
      ],
      "suggestion": "I'll fold it. You hold William.",
      "suggestionFa": "من تاش می‌کنم. تو ویلیام را بغل کن.",
@@ -242,7 +242,7 @@
       "didn't",
       "know",
       "ramp",
-      "has"
+      "bus"
      ],
      "suggestion": "The bus has a ramp? I didn't know!",
      "suggestionFa": "اتوبوس سطح شیب‌دار داره؟ نمی‌دونستم!",
@@ -291,8 +291,8 @@
      "keywords": [
       "william",
       "hello",
-      "say",
-      "sir"
+      "sir",
+      "say"
      ],
      "suggestion": "William! Say \"Hello, sir\".",
      "suggestionFa": "ویلیام! بگو «سلام آقا».",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "wheels",
-      "three",
+      "loves",
       "sorry",
-      "loves"
+      "three"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
      "suggestionFa": "ببخشید! سه سالشه. عاشق چرخه.",
@@ -352,9 +352,9 @@
     {
      "keywords": [
       "william",
+      "hold",
       "hand",
-      "sure",
-      "hold"
+      "sure"
      ],
      "suggestion": "Sure. William, hold my hand.",
      "suggestionFa": "حتماً. ویلیام، دستم را بگیر.",

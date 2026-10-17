@@ -21,8 +21,8 @@
      "keywords": [
       "thirsty",
       "really",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea. I'm really thirsty.",
      "suggestionFa": "فکر خوبیه. واقعاً تشنمه.",
@@ -66,9 +66,9 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "glass",
-      "could"
+      "could",
+      "water"
      ],
      "suggestion": "Could I have a glass of water, please?",
      "suggestionFa": "می‌شه یه لیوان آب داشته باشم، لطفاً؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "everyone",
-      "wants",
       "drink",
+      "wants",
       "cold"
      ],
      "suggestion": "Everyone wants a cold drink!",
@@ -380,8 +380,8 @@
     {
      "keywords": [
       "next",
-      "time",
       "turn",
+      "time",
       "ok"
      ],
      "suggestion": "OK, next time is my turn!",

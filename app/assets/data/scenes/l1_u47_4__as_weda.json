@@ -24,8 +24,8 @@
       "william's",
       "asleep",
       "would",
-      "last",
-      "like"
+      "time",
+      "last"
      ],
      "suggestion": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
      "suggestionFa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟",
@@ -49,7 +49,7 @@
       "guest",
       "like",
       "down",
-      "how",
+      "sit",
       "tea"
      ],
      "suggestion": "No, no, sit down. You're my guest. How do you like your tea?",
@@ -73,8 +73,8 @@
      "keywords": [
       "builder's",
       "persian",
-      "sugars",
       "strong",
+      "sugars",
       "likes"
      ],
      "suggestion": "Ooh, very Persian! Tom likes his tea \"builder's\" — very strong, two sugars.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "victoria",
-      "workers",
       "morning",
-      "sponge",
-      "strong"
+      "workers",
+      "strong",
+      "sponge"
      ],
      "suggestion": "Strong tea for hard workers! Would you like a slice of Victoria sponge? I made it this morning.",
      "suggestionFa": "چای پررنگ برای آدم‌های سخت‌کوش! یه برش کیک ویکتوریا میل داری؟ امروز صبح پختمش.",
@@ -123,9 +123,9 @@
      "keywords": [
       "nonsense",
       "anybody",
-      "small",
       "piece",
-      "never"
+      "cream",
+      "small"
      ],
      "suggestion": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
      "suggestionFa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "charmer",
       "there's",
+      "charmer",
       "plenty",
       "would",
       "more"

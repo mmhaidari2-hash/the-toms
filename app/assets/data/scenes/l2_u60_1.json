@@ -35,7 +35,7 @@
       "studying",
       "english",
       "doing",
-      "time"
+      "part"
      ],
      "suggestion": "I'm studying English and doing a part-time job.",
      "suggestionFa": "دارم انگلیسی می‌خونم و یه کار پاره‌وقت دارم.",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "about",
+      "been",
       "here",
-      "year",
       "i've"
      ],
      "suggestion": "I've been here for about a year.",
@@ -104,7 +104,7 @@
       "thompsons",
       "practise",
       "long",
-      "but"
+      "lot"
      ],
      "suggestion": "Not long! But I practise a lot. With the Thompsons.",
      "suggestionFa": "زیاد نه! ولی خیلی تمرین می‌کنم. با تامپسون‌ها.",
@@ -138,8 +138,8 @@
    "branches": [
     {
      "keywords": [
-      "play",
       "band",
+      "play",
       "did"
      ],
      "suggestion": "A band? What did you play?",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "victoria",
-      "cooking",
       "walking",
+      "cooking",
       "like"
      ],
      "suggestion": "I like walking in Victoria Park, and cooking.",
@@ -315,8 +315,8 @@
      "keywords": [
       "listen",
       "first",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "OK! I'll come and listen first.",
      "suggestionFa": "باشه! اول میام گوش میدم.",

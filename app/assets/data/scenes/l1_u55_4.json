@@ -81,9 +81,9 @@
     {
      "keywords": [
       "everything",
-      "shops",
       "buses",
-      "money"
+      "money",
+      "shops"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
      "suggestionFa": "همه چی. اتوبوس‌ها، مغازه‌ها، پول!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "wrong",
+      "first",
       "took",
       "bus"
      ],
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "anyone",
       "didn't",
+      "anyone",
       "tell"
      ],
      "suggestion": "No! I didn't tell anyone.",
@@ -238,7 +238,7 @@
       "chips",
       "great",
       "fish",
-      "was"
+      "ate"
      ],
      "suggestion": "I ate fish and chips. It was great!",
      "suggestionFa": "ماهی و سیب‌زمینی خوردم. عالی بود!",
@@ -248,10 +248,10 @@
     },
     {
      "keywords": [
-      "cooked",
       "didn't",
-      "every",
-      "shops"
+      "cooked",
+      "shops",
+      "every"
      ],
      "suggestion": "I cooked rice every day. I didn't know the shops.",
      "suggestionFa": "هر روز برنج پختم. مغازه‌ها را نمی‌شناختم.",
@@ -292,7 +292,7 @@
       "people",
       "sorry",
       "time",
-      "say"
+      "all"
      ],
      "suggestion": "People say \"sorry\" all the time!",
      "suggestionFa": "مردم مدام میگن «ببخشید»!",
@@ -304,8 +304,8 @@
      "keywords": [
       "everyone",
       "queues",
-      "stop",
-      "even"
+      "even",
+      "stop"
      ],
      "suggestion": "Everyone queues. Even at the bus stop!",
      "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",
@@ -345,8 +345,8 @@
      "keywords": [
       "invited",
       "they",
-      "dad",
-      "tea"
+      "tea",
+      "dad"
      ],
      "suggestion": "Your mum and dad. They invited me for tea.",
      "suggestionFa": "مامان و بابات. منو برای عصرونه دعوت کردن.",
@@ -359,7 +359,7 @@
       "drawing",
       "nicola",
       "gave",
-      "was"
+      "cat"
      ],
      "suggestion": "Nicola gave me a drawing. It was a cat!",
      "suggestionFa": "نیکولا یه نقاشی بهم داد. یه گربه بود!",

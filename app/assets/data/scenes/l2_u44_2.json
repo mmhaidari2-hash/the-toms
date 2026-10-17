@@ -72,7 +72,7 @@
      "keywords": [
       "happened",
       "think",
-      "hope",
+      "next",
       "know"
      ],
      "suggestion": "A lot of hope! I think I know what happened next.",
@@ -302,10 +302,10 @@
    "branches": [
     {
      "keywords": [
-      "farm",
-      "stay",
       "kind",
-      "man"
+      "stay",
+      "farm",
+      "did"
      ],
      "suggestion": "What a kind man! Did you stay on the farm?",
      "suggestionFa": "چه مرد مهربونی! تو مزرعه موندید؟",
@@ -317,8 +317,8 @@
      "keywords": [
       "speaking",
       "without",
-      "days",
-      "poor"
+      "poor",
+      "days"
      ],
      "suggestion": "Two days without speaking? Poor Tom!",
      "suggestionFa": "دو روز بدون حرف زدن؟ تام بیچاره!",
@@ -355,7 +355,7 @@
       "lovely",
       "sounds",
       "better",
-      "tent"
+      "than"
      ],
      "suggestion": "That sounds lovely. Better than the tent!",
      "suggestionFa": "قشنگ به نظر میاد. بهتر از چادر!",

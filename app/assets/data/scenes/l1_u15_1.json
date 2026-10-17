@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "share",
       "girls",
+      "let's",
       "toys"
      ],
      "suggestion": "Let's share the toys, girls.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "nicola",
-      "doll",
       "have",
-      "her"
+      "doll",
+      "can"
      ],
      "suggestion": "Nicola, can Mia have her doll?",
      "suggestionFa": "نیکولا، می‌شه میا عروسکش را داشته باشه؟",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "timer",
       "phone",
+      "timer",
       "i've",
       "got"
      ],
@@ -132,8 +132,8 @@
      "keywords": [
       "minutes",
       "five",
-      "ok",
-      "go"
+      "go",
+      "ok"
      ],
      "suggestion": "OK. Five minutes. Go!",
      "suggestionFa": "باشه. پنج دقیقه. شروع!",
@@ -310,10 +310,10 @@
    "branches": [
     {
      "keywords": [
-      "again",
+      "build",
       "let's",
       "never",
-      "build"
+      "again"
      ],
      "suggestion": "Never mind! Let's build it again.",
      "suggestionFa": "عیب نداره! بیاید دوباره بسازیمش.",
@@ -356,10 +356,10 @@
    "branches": [
     {
      "keywords": [
-      "doll",
       "have",
-      "mia",
-      "can"
+      "doll",
+      "can",
+      "now"
      ],
      "suggestion": "Mia, can Nicola have the doll now?",
      "suggestionFa": "میا، الان نیکولا می‌تونه عروسک را برداره؟",

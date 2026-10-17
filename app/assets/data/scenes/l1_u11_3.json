@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "what's",
-      "parcel"
+      "parcel",
+      "what's"
      ],
      "suggestion": "What's in the parcel?",
      "suggestionFa": "تو بسته چیه؟",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "need",
-      "sign"
+      "sign",
+      "need"
      ],
      "suggestion": "Yes. Do I need to sign?",
      "suggestionFa": "بله. لازمه امضا کنم؟",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "like",
-      "here"
+      "here",
+      "like"
      ],
      "suggestion": "Here? Like this?",
      "suggestionFa": "اینجا؟ این‌طوری؟",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "that's",
+      "please",
       "kind"
      ],
      "suggestion": "Yes please, that's very kind.",

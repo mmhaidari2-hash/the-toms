@@ -32,8 +32,8 @@
     {
      "keywords": [
       "worried",
-      "george",
       "doctor",
+      "george",
       "thank"
      ],
      "suggestion": "Thank you, doctor. George is a bit worried.",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "anything",
-      "george",
       "before",
+      "george",
       "need"
      ],
      "suggestion": "Does George need to do anything before?",
@@ -238,8 +238,8 @@
      "keywords": [
       "breakfast",
       "george",
-      "won't",
-      "happy"
+      "happy",
+      "won't"
      ],
      "suggestion": "No breakfast? George won't be happy!",
      "suggestionFa": "صبحونه نه؟ جورج خوشحال نمیشه!",
@@ -251,8 +251,8 @@
      "keywords": [
       "medicine",
       "write",
-      "i'll",
-      "list"
+      "list",
+      "i'll"
      ],
      "suggestion": "I'll write the medicine list for him.",
      "suggestionFa": "فهرست داروهاش را براش می‌نویسم.",
@@ -291,8 +291,8 @@
     {
      "keywords": [
       "can't",
-      "if",
-      "he"
+      "he",
+      "if"
      ],
      "suggestion": "And if he can't go?",
      "suggestionFa": "و اگه نتونه بره؟",

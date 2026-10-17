@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "parcel",
       "office",
-      "let's",
+      "parcel",
       "right",
+      "let's",
       "test"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
@@ -49,8 +49,8 @@
       "straight",
       "perfect",
       "traffic",
-      "bakery",
-      "lights"
+      "lights",
+      "bakery"
      ],
      "suggestion": "Perfect. And I say: go straight on, past the bakery, then turn left at the traffic lights.",
      "suggestionFa": "عالیه. و من می‌گم: مستقیم برو، از نونوایی رد شو، بعد سر چراغ راهنمایی بپیچ چپ.",
@@ -74,8 +74,8 @@
       "opposite",
       "chemist",
       "church",
-      "can't",
-      "right"
+      "right",
+      "can't"
      ],
      "suggestion": "Good! It's on the right, opposite the church, next to the chemist. You can't miss it.",
      "suggestionFa": "خوبه! سمت راسته، روبروی کلیسا، کنار داروخونه. نمی‌شه نبینیش.",
@@ -99,8 +99,8 @@
       "brits",
       "means",
       "even",
-      "easy",
-      "when"
+      "when",
+      "miss"
      ],
      "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
      "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "where's",
-      "station",
       "tourist",
+      "station",
+      "minutes",
       "train"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
@@ -149,8 +149,8 @@
       "brilliant",
       "round",
       "sorry",
-      "just",
-      "here"
+      "from",
+      "sure"
      ],
      "suggestion": "Brilliant! And if you're not sure, just say \"Sorry, I'm not from round here.\"",
      "suggestionFa": "عالی! و اگه مطمئن نیستی، فقط بگو «ببخشید، من اهل اینجا نیستم.»",

@@ -24,8 +24,8 @@
       "pensioners",
       "eighty",
       "people",
-      "games",
-      "party"
+      "party",
+      "games"
      ],
      "suggestion": "Right, the old people have eaten. Nan says we need party games. For pensioners! What do eighty-year-olds even play?",
      "suggestionFa": "خب، پیرها غذا خوردن. مادربزرگ میگه بازی مهمونی لازمه. برای بازنشسته‌ها! آدم‌های هشتاد ساله اصلاً چی بازی می‌کنن؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "actually",
-      "that's",
-      "senior",
       "parcel",
-      "guests"
+      "guests",
+      "that's",
+      "senior"
      ],
      "suggestion": "Fine, \"senior guests\". Pass the parcel? That's for kids! Actually… Doris might love it. Is there a parcel?",
      "suggestionFa": "باشه، «مهمون‌های ارشد». بسته را رد کن؟ اون برای بچه‌هاست! راستش… شاید دوریس عاشقش بشه. بسته داریم؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "everyone",
       "circle",
-      "plays",
-      "music",
-      "layer"
+      "layer",
+      "stops",
+      "music"
      ],
      "suggestion": "OK. Everyone in a circle! I'm the DJ. Pass it on when the music plays. When the music stops, take off one layer.",
      "suggestionFa": "باشه. همه دایره‌وار! من دی‌جی‌ام. وقتی موسیقی پخش میشه ردش کنید. وقتی قطع شد، یه لایه را باز کنید.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "you've",
-      "what's",
       "inside",
-      "sweet",
-      "elvis"
+      "what's",
+      "you've",
+      "layer",
+      "sweet"
      ],
      "suggestion": "Ha! Doris, you've got it! Open one layer. What's inside? A sweet! Again! Elvis, go!",
      "suggestionFa": "ها! دوریس، دست توئه! یه لایه باز کن. توش چیه؟ آب‌نبات! دوباره! الویس، شروع!",
@@ -123,9 +123,9 @@
      "keywords": [
       "knitted",
       "crying",
+      "she's",
       "maybe",
-      "scarf",
-      "doris"
+      "layer"
      ],
      "suggestion": "Me? Never. Maybe. OK, last layer! Doris wins! It's a… scarf. Nana knitted it. In bus-red. She's crying. Good crying.",
      "suggestionFa": "من؟ هرگز. شاید. باشه، آخرین لایه! دوریس برنده شد! یه… شال گردنه. نانا بافته. قرمز اتوبوسی. داره گریه می‌کنه. گریهٔ خوب.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "statues",
-      "instead",
       "musical",
       "someone",
+      "instead",
+      "statues",
       "chairs"
      ],
      "suggestion": "Musical chairs. But — no. Nan says no. \"Someone will break a hip.\" Musical statues instead. When the music stops, freeze!",

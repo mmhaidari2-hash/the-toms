@@ -23,8 +23,8 @@
      "keywords": [
       "kitchen",
       "circle",
-      "let's",
       "shape",
+      "let's",
       "play"
      ],
      "suggestion": "Let's play a game! Find a shape in the kitchen. I can see a circle!",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "sandwich",
       "triangle",
-      "turn",
+      "sandwich",
       "done",
+      "turn",
       "well"
      ],
      "suggestion": "Well done! My turn. The sandwich is a triangle!",
@@ -125,7 +125,7 @@
       "biscuits",
       "that's",
       "about",
-      "hard"
+      "word"
      ],
      "suggestion": "A rectangle! That's a hard word. What about the biscuits?",
      "suggestionFa": "مستطیل! کلمهٔ سختیه. بیسکویت‌ها چی؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "round",
       "mummy",
-      "star",
       "says",
-      "see"
+      "star",
+      "one"
      ],
      "suggestion": "Mummy says yes! A round one. Now, a star! Can you see a star?",
      "suggestionFa": "مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "reading",
-      "fridge",
       "school",
+      "fridge",
       "gold",
-      "star"
+      "from"
      ],
      "suggestion": "Yes! My gold star from school is on the fridge. I got it for reading.",
      "suggestionFa": "آره! ستارهٔ طلایی مدرسه‌ام روی یخچاله. برای کتاب خوندن گرفتمش.",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "let's",
-      "after",
       "thank",
+      "after",
       "again",
-      "good"
+      "let's",
+      "play"
      ],
      "suggestion": "Thank you! You're good at this game. Let's play again after tea!",
      "suggestionFa": "ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!",

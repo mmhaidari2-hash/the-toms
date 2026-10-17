@@ -24,8 +24,8 @@
       "finishes",
       "holidays",
       "excited",
-      "summer",
-      "school"
+      "school",
+      "summer"
      ],
      "suggestion": "School finishes next week! Six weeks of summer holidays. The kids are so excited.",
      "suggestionFa": "مدرسه هفتهٔ دیگه تموم میشه! شش هفته تعطیلات تابستونی. بچه‌ها خیلی هیجان‌زده‌ان.",
@@ -49,8 +49,8 @@
       "cornwall",
       "seaside",
       "august",
-      "we're",
-      "going"
+      "going",
+      "we're"
      ],
      "suggestion": "We're going to go to the seaside in August. To Cornwall! Have you been?",
      "suggestionFa": "قراره آگوست بریم کنار دریا. به کورنوال! رفتی تا حالا؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "beautiful",
       "beaches",
-      "rains",
+      "south",
       "often",
-      "south"
+      "rains"
      ],
      "suggestion": "It's in the south-west. Beautiful beaches! But it often rains.",
      "suggestionFa": "تو جنوب‌غربیه. ساحل‌های قشنگ! ولی اغلب بارون میاد.",
@@ -100,7 +100,7 @@
       "british",
       "degrees",
       "fifteen",
-      "summer"
+      "thirty"
      ],
      "suggestion": "Always! British summer is a surprise. Some days it's thirty degrees, some days it's fifteen.",
      "suggestionFa": "همیشه! تابستون بریتانیا غافلگیرکننده‌ست. بعضی روزها سی درجه‌ست، بعضی روزها پونزده.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "summer",
-      "every",
       "lucky",
       "going",
+      "every",
       "day"
      ],
      "suggestion": "Every day? Lucky you! What are you going to do in the summer?",
@@ -148,8 +148,8 @@
      "keywords": [
       "wonderful",
       "that's",
-      "will",
       "iran",
+      "will",
       "go"
      ],
      "suggestion": "That's wonderful. Will you go to Iran?",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "camping",
-      "nicola",
-      "summer",
       "lovely",
+      "summer",
+      "nicola",
       "sleep"
      ],
      "suggestion": "Oh, how lovely! She must come for tea. Nicola wants to go camping, and Ryan wants to sleep all summer!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "typical",
+      "perfect",
       "that's",
       "garden",
       "summer"

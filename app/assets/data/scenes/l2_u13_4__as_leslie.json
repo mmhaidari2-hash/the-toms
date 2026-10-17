@@ -25,7 +25,7 @@
       "nominated",
       "pharmacy",
       "that's",
-      "where"
+      "thing"
      ],
      "suggestion": "One more thing — the form asks for your \"nominated pharmacy\". That's where your prescriptions go.",
      "suggestionFa": "یه چیز دیگه — فرم «داروخانهٔ انتخابی» را می‌پرسه. نسخه‌هات اونجا میره.",
@@ -48,8 +48,8 @@
      "keywords": [
       "prescription",
       "computer",
-      "doctor",
       "choose",
+      "doctor",
       "paper"
      ],
      "suggestion": "It means the one you choose. The doctor sends your prescription there by computer. No paper!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "supermarket",
-      "minutes'",
       "dawson's",
+      "minutes'",
       "closes",
       "nearer"
      ],
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "dawson's",
-      "maggie",
       "advice",
+      "maggie",
       "lovely",
       "gives"
      ],
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "prescriptions",
-      "they're",
       "quicker",
+      "they're",
       "coughs",
       "rashes"
      ],
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "children",
-      "sixties",
       "england",
+      "sixties",
       "pounds",
-      "price"
+      "fixed"
      ],
      "suggestion": "Here in England it's a fixed price for each item — about ten pounds. Children and over-sixties are free.",
      "suggestionFa": "اینجا تو انگلیس برای هر قلم یه قیمت ثابته — حدود ده پوند. بچه‌ها و بالای شصت سال مجانیه.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "maggie's",
       "dawson's",
+      "maggie's",
       "george",
-      "being",
-      "about"
+      "about",
+      "right"
      ],
      "suggestion": "No, Maggie's free. And George! He says it's the only good thing about being old. Right — write \"Dawson's\". Done!",
      "suggestionFa": "نه، مگی مجانیه. جورج هم! میگه این تنها چیز خوبِ پیری‌ه. خب — بنویس «داوسون». تموم!",

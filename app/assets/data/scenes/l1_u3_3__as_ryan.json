@@ -49,8 +49,8 @@
       "football",
       "that's",
       "laptop",
-      "boots",
-      "these"
+      "these",
+      "boots"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -100,7 +100,7 @@
       "salah",
       "tidy",
       "yeah",
-      "help"
+      "says"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "wardrobe",
-      "shirts",
       "drawer",
+      "shirts",
       "these",
       "jeans"
      ],
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
+      "shelf",
       "books",
       "gross",
-      "shelf",
-      "last",
+      "from",
       "week"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
@@ -173,8 +173,8 @@
      "keywords": [
       "enough",
       "floor",
-      "look",
       "fair",
+      "look",
       "see"
      ],
      "suggestion": "Ha, fair enough. Look — the floor! I can see the floor!",
@@ -200,7 +200,7 @@
       "legend",
       "wanna",
       "play",
-      "fifa"
+      "mate"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",
      "suggestionFa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟",

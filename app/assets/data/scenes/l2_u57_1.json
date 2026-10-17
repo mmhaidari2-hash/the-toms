@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "i'll",
-      "time",
       "ring",
-      "want"
+      "want",
+      "time",
+      "i'll"
      ],
      "suggestion": "Ha! OK, I'll ring. What time do you want?",
      "suggestionFa": "ها! باشه، زنگ می‌زنم. چه ساعتی می‌خوای؟",
@@ -72,7 +72,7 @@
       "please",
       "table",
       "hello",
-      "like"
+      "book"
      ],
      "suggestion": "Hello. I'd like to book a table for two, please.",
      "suggestionFa": "سلام. می‌خوام یه میز دو نفره رزرو کنم، لطفاً.",
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "ringing",
-      "friday",
       "thirty",
+      "friday",
       "seven"
      ],
      "suggestion": "OK, it's ringing. Friday at seven thirty.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "please",
-      "could",
       "table",
+      "could",
       "have"
      ],
      "suggestion": "Could we have a table by the window, please?",
@@ -206,8 +206,8 @@
      "keywords": [
       "booked",
       "tables",
-      "can't",
-      "sorry"
+      "sorry",
+      "can't"
      ],
      "suggestion": "They say window tables can't be booked. Sorry!",
      "suggestionFa": "میگن میزهای کنار پنجره رزرو نمیشن. ببخشید!",
@@ -244,7 +244,7 @@
       "thompson",
       "under",
       "name",
-      "t"
+      "o"
      ],
      "suggestion": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
      "suggestionFa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن.",
@@ -255,8 +255,8 @@
     {
      "keywords": [
       "number",
-      "phone",
       "yours",
+      "phone",
       "mine"
      ],
      "suggestion": "They want a phone number too. Yours or mine?",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "they'll",
-      "they",
       "sing",
+      "they",
       "said"
      ],
      "suggestion": "They said yes! And they'll sing too.",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "maggie",
-      "tell",
-      "nana"
+      "nana",
+      "tell"
      ],
      "suggestion": "Don't forget to tell Nana Maggie!",
      "suggestionFa": "یادت نره به نانا مگی بگی!",

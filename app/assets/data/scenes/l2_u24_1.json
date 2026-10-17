@@ -21,8 +21,8 @@
      "keywords": [
       "where's",
       "please",
-      "shoe",
-      "shop"
+      "shop",
+      "shoe"
      ],
      "suggestion": "I am! Where's the shoe shop, please?",
      "suggestionFa": "هستم! مغازهٔ کفش کجاست، لطفاً؟",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "there",
       "shops",
-      "kai",
-      "map"
+      "there",
+      "map",
+      "kai"
      ],
      "suggestion": "Hi Kai. Is there a map of the shops?",
      "suggestionFa": "سلام کای. نقشهٔ فروشگاه‌ها هست؟",
@@ -132,8 +132,8 @@
      "keywords": [
       "escalator",
       "there",
-      "lift",
-      "then"
+      "then",
+      "lift"
      ],
      "suggestion": "Escalator, then left. Is there a lift too?",
      "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
@@ -260,7 +260,7 @@
       "measure",
       "that's",
       "useful",
-      "they"
+      "feet"
      ],
      "suggestion": "They measure feet? That's useful.",
      "suggestionFa": "پا را اندازه می‌گیرن؟ چه خوب.",
@@ -353,8 +353,8 @@
     {
      "keywords": [
       "counter",
-      "like",
-      "deli"
+      "deli",
+      "like"
      ],
      "suggestion": "A ticket? Like at the deli counter?",
      "suggestionFa": "نوبت؟ مثل پیشخوان اغذیه؟",

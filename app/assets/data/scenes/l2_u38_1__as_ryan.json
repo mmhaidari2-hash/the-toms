@@ -24,8 +24,8 @@
       "he'll",
       "split",
       "takes",
-      "ages",
-      "want"
+      "says",
+      "ages"
      ],
      "suggestion": "Dad says he'll pay me ten quid to wash the car. Ten quid! It takes ages. Want to help? We split it.",
      "suggestionFa": "بابا میگه ده پوند میده ماشین را بشورم. ده پوند! کلی طول می‌کشه. کمک می‌کنی؟ نصف‌نصف.",
@@ -49,7 +49,7 @@
       "sponges",
       "bucket",
       "he'll",
-      "tight",
+      "dad's",
       "water"
      ],
      "suggestion": "Ha, he'll say no. Dad's tight. OK, I've got the bucket and the sponges. Can you fill the bucket with warm water? Add the soap.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "disgusting",
-      "they're",
       "windows",
+      "they're",
       "wheels",
-      "sides"
+      "start"
      ],
      "suggestion": "Start at the top — roof first, then the windows, then the sides. Dirty water runs down. I'll do the wheels. They're disgusting.",
      "suggestionFa": "از بالا شروع کن — اول سقف، بعد شیشه‌ها، بعد بغل‌ها. آب کثیف میره پایین. من چرخ‌ها را می‌شورم. حال‌به‌هم‌زنن.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "finished",
-      "william",
-      "there's",
       "hallway",
-      "you've"
+      "there's",
+      "william",
+      "missed"
      ],
      "suggestion": "There's a step in the hallway. William uses it for the sink. Right — have you finished the roof? Oi! You've missed a bit!",
      "suggestionFa": "تو راهرو یه چارپایه هست. ویلیام برای روشویی ازش استفاده می‌کنه. خب — سقف را تموم کردی؟ هی! یه جا را جا انداختی!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "careful",
       "there's",
+      "careful",
       "always",
-      "every",
-      "rinse"
+      "rinse",
+      "every"
      ],
      "suggestion": "Ha, there's no bit. It's what Dad always says. Gets me every time. Now — the hose. Rinse it all off. Careful… CAREFUL!",
      "suggestionFa": "ها، هیچ جایی نیست. بابا همیشه همینو میگه. هر بار گولم می‌زنه. حالا — شلنگ. همه‌ش را آب بکش. مواظب… مواظب!",
@@ -173,9 +173,9 @@
      "keywords": [
       "getting",
       "where's",
-      "that's",
       "soaked",
-      "bucket"
+      "bucket",
+      "that's"
      ],
      "suggestion": "I'm soaked! Right. That's war. Where's the other bucket? You're getting it now!",
      "suggestionFa": "خیس آب شدم! خب. جنگه. سطل دیگه کجاست؟ الان نوبت توئه!",
@@ -257,11 +257,11 @@
    "branches": [
     {
      "keywords": [
-      "mostly",
-      "really",
       "worked",
+      "really",
+      "mostly",
       "clean",
-      "look"
+      "both"
      ],
      "suggestion": "It's clean, Dad, look! Well, mostly. So… ten quid each? We both worked really hard.",
      "suggestionFa": "تمیزه بابا، ببین! خب، بیشترش. پس… هر کدوم ده پوند؟ هر دومون خیلی زحمت کشیدیم.",

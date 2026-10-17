@@ -33,8 +33,8 @@
     {
      "keywords": [
       "leaves",
-      "times",
       "house",
+      "times",
       "time"
      ],
      "suggestion": "Four times? He leaves the house on time!",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "chicken",
+      "morning",
       "eight",
       "shop"
      ],
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "make",
-      "sure",
       "good",
-      "idea"
+      "idea",
+      "make",
+      "sure"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -133,7 +133,7 @@
       "drives",
       "check",
       "dad",
-      "ask"
+      "bus"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -220,8 +220,8 @@
     {
      "keywords": [
       "football",
-      "count",
       "reads",
+      "count",
       "only"
      ],
      "suggestion": "He only reads football news. Does that count?",
@@ -270,8 +270,8 @@
    "branches": [
     {
      "keywords": [
-      "friends",
       "getting",
+      "friends",
       "how's"
      ],
      "suggestion": "How's he getting on with his friends?",
@@ -282,8 +282,8 @@
     },
     {
      "keywords": [
-      "ready",
-      "gcses"
+      "gcses",
+      "ready"
      ],
      "suggestion": "Is he ready for his GCSEs?",
      "suggestionFa": "برای امتحانات GCSE آماده‌ست؟",
@@ -335,8 +335,8 @@
      "keywords": [
       "wonderful",
       "building",
-      "things",
-      "that's"
+      "that's",
+      "things"
      ],
      "suggestion": "That's wonderful. He loves building things.",
      "suggestionFa": "فوق‌العاده‌ست. عاشق ساختن چیزهاست.",
@@ -385,8 +385,8 @@
     {
      "keywords": [
       "helpful",
-      "really",
       "thanks",
+      "really",
       "been"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",

@@ -61,10 +61,10 @@
     {
      "keywords": [
       "pudding",
-      "nicola",
       "sprout",
-      "then",
-      "have"
+      "nicola",
+      "have",
+      "then"
      ],
      "suggestion": "One sprout, Nicola. Then you can have pudding.",
      "suggestionFa": "یه دونه نیکولا. بعد می‌تونی دسر بخوری.",
@@ -137,9 +137,9 @@
    "branches": [
     {
      "keywords": [
-      "sprouts",
-      "crumble",
       "custard",
+      "crumble",
+      "sprouts",
       "sprout",
       "apple"
      ],
@@ -214,11 +214,11 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "gravy",
-      "half",
+      "let's",
+      "make",
       "deal",
-      "make"
+      "half"
      ],
      "suggestion": "OK, let's make a deal. Cut it in half. Eat half with gravy.",
      "suggestionFa": "خب، بیا یه قرار بذاریم. نصفش کن. نصفش را با سس گوشت بخور.",
@@ -295,7 +295,7 @@
       "crumble",
       "think",
       "have",
-      "can"
+      "now"
      ],
      "suggestion": "Brilliant! Now you can have crumble. What do you think of crumble, Mehdi?",
      "suggestionFa": "عالی! حالا می‌تونی کرامبل بخوری. نظرت دربارهٔ کرامبل چیه {you}؟",

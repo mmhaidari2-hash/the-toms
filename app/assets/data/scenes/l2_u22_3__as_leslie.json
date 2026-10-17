@@ -25,7 +25,7 @@
       "scanning",
       "quicker",
       "let's",
-      "i'll"
+      "self"
      ],
      "suggestion": "Let's use the self-checkout, it's quicker. Scan, bag, pay. Easy. You do the scanning, I'll do the bags.",
      "suggestionFa": "بیا از صندوق سلف‌سرویس استفاده کنیم، سریع‌تره. اسکن، کیسه، پرداخت. آسون. تو اسکن کن، من کیسه می‌ذارم.",
@@ -49,7 +49,7 @@
       "barcode",
       "apples",
       "weighs",
-      "press",
+      "loose",
       "fruit"
      ],
      "suggestion": "Loose fruit has no barcode. Press \"Look up item\", then \"Fruit and veg\", then \"Apples\". It weighs them.",
@@ -136,11 +136,11 @@
    "branches": [
     {
      "keywords": [
-      "classic",
       "handbag",
+      "classic",
       "stopped",
       "scales",
-      "i've"
+      "oops"
      ],
      "suggestion": "Oops — it's my handbag! I've put it on the scales. Classic. I'll move it. Has it stopped?",
      "suggestionFa": "اوه — کیف دستی منه! گذاشتمش رو ترازو. کلاسیک. برش می‌دارم. ساکت شد؟",
@@ -163,9 +163,9 @@
      "keywords": [
       "flashing",
       "member",
+      "staff",
       "light",
-      "means",
-      "staff"
+      "means"
      ],
      "suggestion": "Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady?",
      "suggestionFa": "هوم، چراغ بالاش قرمز چشمک می‌زنه. یعنی یه کارمند لازم داریم. میشه برای اون خانم دست تکون بدی؟",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "checkout",
-      "telling",
       "machine",
-      "you've",
+      "telling",
+      "better",
       "that's"
      ],
      "suggestion": "You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom.",

@@ -70,8 +70,8 @@
     {
      "keywords": [
       "maggie",
-      "hours",
       "shall",
+      "hours",
       "tell"
      ],
      "suggestion": "Two hours! Shall I tell Maggie?",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "scales",
-      "i'll",
       "help",
+      "i'll",
       "him"
      ],
      "suggestion": "I'll help him with the scales.",
@@ -221,8 +221,8 @@
      "keywords": [
       "sense",
       "makes",
-      "else",
-      "they"
+      "they",
+      "else"
      ],
      "suggestion": "That makes sense. What else did they say?",
      "suggestionFa": "منطقیه. دیگه چی گفتن؟",
@@ -254,10 +254,10 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "without",
-      "tasty",
-      "herbs"
+      "persian",
+      "herbs",
+      "tasty"
      ],
      "suggestion": "Persian food uses lots of herbs. It's tasty without salt!",
      "suggestionFa": "غذای ایرانی پر از سبزیه. بی‌نمک هم خوشمزه‌ست!",
@@ -269,8 +269,8 @@
      "keywords": [
       "george",
       "still",
-      "fish",
-      "just"
+      "have",
+      "less"
      ],
      "suggestion": "You can still have fish, George. Just less salt.",
      "suggestionFa": "هنوز می‌تونی ماهی بخوری جورج. فقط نمک کمتر.",
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "pharmacy",
-      "ask",
       "now",
+      "ask",
       "go"
      ],
      "suggestion": "I'll go and ask the pharmacy now.",

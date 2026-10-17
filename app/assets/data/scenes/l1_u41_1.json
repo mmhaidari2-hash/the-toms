@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "write",
       "first",
+      "write",
       "ok"
      ],
      "suggestion": "OK. What do I write first?",
@@ -116,9 +116,9 @@
     {
      "keywords": [
       "postcode",
-      "street",
       "number",
-      "what's"
+      "what's",
+      "street"
      ],
      "suggestion": "Number ten, Mare Street. What's the postcode?",
      "suggestionFa": "پلاک ده، خیابون مر. کد پستی چیه؟",
@@ -128,8 +128,8 @@
     },
     {
      "keywords": [
-      "write",
       "house",
+      "write",
       "flat"
      ],
      "suggestion": "Do I write \"Flat\" or \"House\"?",
@@ -168,8 +168,8 @@
    "branches": [
     {
      "keywords": [
-      "month",
       "first",
+      "month",
       "then",
       "day"
      ],
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "email",
-      "need",
-      "they"
+      "they",
+      "need"
      ],
      "suggestion": "Do they need my email?",
      "suggestionFa": "ایمیلم را لازم دارن؟",
@@ -299,8 +299,8 @@
     },
     {
      "keywords": [
-      "what's",
       "number",
+      "what's",
       "nhs"
      ],
      "suggestion": "What's an NHS number?",
@@ -331,8 +331,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "easy"
      ],
      "suggestion": "Really? That's easy.",

@@ -76,7 +76,7 @@
       "school",
       "about",
       "photo",
-      "ryan"
+      "tell"
      ],
      "suggestion": "Ryan, tell Sal about the school photo.",
      "suggestionFa": "رایان، دربارهٔ عکس مدرسه به سال بگو.",
@@ -212,10 +212,10 @@
     },
     {
      "keywords": [
-      "much",
       "will",
+      "much",
       "take",
-      "how"
+      "off"
      ],
      "suggestion": "How much will you take off the top?",
      "suggestionFa": "از بالا چقدر کوتاه می‌کنی؟",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "looks",
       "great",
+      "looks",
       "ryan"
      ],
      "suggestion": "It looks great, Ryan!",

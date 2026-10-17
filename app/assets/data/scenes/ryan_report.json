@@ -24,8 +24,8 @@
      "keywords": [
       "pleased",
       "that's",
-      "we're",
-      "great"
+      "great",
+      "we're"
      ],
      "suggestion": "That's great news — we're really pleased.",
      "suggestionFa": "خبر خیلی خوبیه — واقعاً خوشحالیم.",
@@ -36,9 +36,9 @@
     {
      "keywords": [
       "school",
+      "never",
       "talks",
-      "about",
-      "never"
+      "about"
      ],
      "suggestion": "Really? He never talks about school at home.",
      "suggestionFa": "واقعاً؟ تو خونه هیچ‌وقت دربارهٔ مدرسه حرف نمی‌زنه.",
@@ -224,8 +224,8 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "mostly",
+      "always",
       "phone",
       "good"
      ],

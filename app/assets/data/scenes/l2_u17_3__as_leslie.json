@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "starving",
-      "children",
       "supposed",
+      "children",
+      "starving",
       "quarter",
       "pizza"
      ],
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "polite",
-      "garlic",
       "pizzas",
+      "garlic",
+      "polite",
       "seven",
       "large"
      ],
@@ -98,8 +98,8 @@
      "keywords": [
       "sorry",
       "they",
-      "say",
-      "did"
+      "did",
+      "say"
      ],
      "suggestion": "What did they say? Did they say sorry?",
      "suggestionFa": "چی گفتن؟ عذرخواهی کردن؟",
@@ -122,9 +122,9 @@
      "keywords": [
       "discount",
       "house",
+      "main",
       "road",
-      "lost",
-      "main"
+      "lost"
      ],
      "suggestion": "Lost? Our house is on the main road! Did you ask for a discount?",
      "suggestionFa": "گم شده؟ خونهٔ ما کنار جادهٔ اصلیه! تخفیف خواستی؟",
@@ -147,8 +147,8 @@
      "keywords": [
       "brilliant",
       "doorbell",
-      "percent",
       "natural",
+      "percent",
       "ten"
      ],
      "suggestion": "Brilliant! Ten percent. You're a natural. Oh — is that the doorbell?",
@@ -170,10 +170,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "plates",
+      "please",
       "check",
-      "send",
+      "cold",
       "back"
      ],
      "suggestion": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
@@ -195,9 +195,9 @@
    "branches": [
     {
      "keywords": [
-      "goodness",
-      "children",
       "forgiven",
+      "children",
+      "goodness",
       "cookies",
       "pizza"
      ],

@@ -115,8 +115,8 @@
     {
      "keywords": [
       "bakery",
-      "left",
       "then",
+      "left",
       "past"
      ],
      "suggestion": "Past the bakery, then left.",
@@ -162,8 +162,8 @@
     {
      "keywords": [
       "three",
-      "four",
       "code",
+      "four",
       "two"
      ],
      "suggestion": "A code? OK, one-two-three-four.",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "there's",
-      "sink",
       "soap",
+      "sink",
       "by"
      ],
      "suggestion": "Yes, there's soap by the sink.",
@@ -266,8 +266,8 @@
     },
     {
      "keywords": [
-      "dryer",
       "there",
+      "dryer",
       "hand"
      ],
      "suggestion": "Is there a hand dryer?",
@@ -314,8 +314,8 @@
     {
      "keywords": [
       "here's",
-      "towel",
-      "paper"
+      "paper",
+      "towel"
      ],
      "suggestion": "Yes, here's a paper towel.",
      "suggestionFa": "آره، بفرما دستمال کاغذی.",

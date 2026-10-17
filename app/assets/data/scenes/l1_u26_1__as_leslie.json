@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "please",
+      "nicola",
       "cross",
-      "park",
-      "hold"
+      "hold",
+      "road"
      ],
      "suggestion": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
      "suggestionFa": "باید از خیابون رد بشیم که بریم پارک. نیکولا، دستم را بگیر، لطفاً.",
@@ -49,8 +49,8 @@
       "crossing",
       "stripes",
       "there's",
-      "black",
-      "zebra"
+      "zebra",
+      "black"
      ],
      "suggestion": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
      "suggestionFa": "آره، یه خط عابر پیاده‌ست. راه‌راه سیاه و سفید، مثل گورخر!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "exactly",
-      "nicola",
       "what's",
+      "nicola",
       "right",
       "again"
      ],
@@ -182,11 +182,11 @@
    "branches": [
     {
      "keywords": [
-      "driver",
-      "waving",
       "coming",
-      "let's",
-      "cross"
+      "waving",
+      "driver",
+      "cross",
+      "let's"
      ],
      "suggestion": "A bus is coming. Wait… Now the driver is waving. It's safe. Let's cross.",
      "suggestionFa": "یه اتوبوس داره میاد. صبر کن… حالا راننده داره دست تکون می‌ده. امنه. بیا رد شیم.",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "traffic",
-      "lights",
       "here's",
+      "lights",
       "green",
       "road"
      ],
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "button",
-      "press",
-      "means",
       "green",
+      "means",
+      "press",
       "stop"
      ],
      "suggestion": "Yes, press the button! The red man means stop. The green man means go.",
@@ -257,11 +257,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
-      "swings",
       "here's",
-      "park",
-      "hand"
+      "swings",
+      "nicola",
+      "done",
+      "park"
      ],
      "suggestion": "Well done, both of you. Here's the park! Nicola, you can let go of my hand now. Run to the swings!",
      "suggestionFa": "آفرین به هر دوتون. اینم پارک! نیکولا، حالا می‌تونی دستم را ول کنی. بدو سمت تاب‌ها!",

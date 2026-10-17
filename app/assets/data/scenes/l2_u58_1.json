@@ -20,8 +20,8 @@
     {
      "keywords": [
       "films",
-      "like",
-      "kind"
+      "kind",
+      "like"
      ],
      "suggestion": "What kind of films do you like?",
      "suggestionFa": "چه نوع فیلمی دوست داری؟",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "either",
       "horror",
+      "either",
       "keen"
      ],
      "suggestion": "I'm not keen on horror either.",
@@ -148,8 +148,8 @@
      "keywords": [
       "notting",
       "let's",
-      "seen",
-      "i've"
+      "i've",
+      "seen"
      ],
      "suggestion": "I've seen Notting Hill. Let's try Paddington.",
      "suggestionFa": "ناتینگ هیل را دیدم. بیا پدینگتون را امتحان کنیم.",
@@ -188,9 +188,9 @@
     {
      "keywords": [
       "immigrant",
-      "london",
+      "that's",
       "polite",
-      "that's"
+      "london"
      ],
      "suggestion": "A polite immigrant in London? That's me!",
      "suggestionFa": "یه مهاجر مؤدب تو لندن؟ این منم!",
@@ -290,8 +290,8 @@
    "branches": [
     {
      "keywords": [
-      "press",
       "ready",
+      "press",
       "play"
      ],
      "suggestion": "Ready! Press play.",

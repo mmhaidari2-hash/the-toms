@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "drawing",
       "daddy's",
-      "front",
+      "drawing",
       "words",
+      "front",
       "help"
      ],
      "suggestion": "I'm drawing a bus on the front. Daddy's bus! Can you help me with the words?",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "birthday",
-      "happy",
       "spell",
+      "happy",
       "daddy",
       "then"
      ],
@@ -98,9 +98,9 @@
      "keywords": [
       "writes",
       "mummy",
-      "then",
-      "love",
-      "done"
+      "done",
+      "from",
+      "love"
      ],
      "suggestion": "Done! Then what? Mummy writes \"Love from\" at the end.",
      "suggestionFa": "تموم شد! بعد چی؟ مامان آخرش می‌نویسه «با عشق از طرف».",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "kisses",
       "should",
+      "kisses",
       "jokes",
-      "write",
-      "daddy"
+      "daddy",
+      "loves"
      ],
      "suggestion": "X X X X X! Lots of kisses! Should I write a joke? Daddy loves jokes.",
      "suggestionFa": "X X X X X! کلی بوس! یه جوک بنویسم؟ بابا عاشق جوکه.",
@@ -150,7 +150,7 @@
       "driver's",
       "ghetti",
       "what's",
-      "food"
+      "made"
      ],
      "suggestion": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
      "suggestionFa": "«غذای محبوب راننده اتوبوس چیه؟ باس-گتی!» خودم ساختمش!",
@@ -173,9 +173,9 @@
      "keywords": [
       "he'll",
       "write",
-      "love",
+      "from",
       "know",
-      "name"
+      "love"
      ],
      "suggestion": "I KNOW! He'll love it! Can you write your name too? It's from both of us.",
      "suggestionFa": "می‌دونم! عاشقش میشه! اسم خودت را هم می‌نویسی؟ از طرف هر دومونه.",
@@ -200,7 +200,7 @@
       "promise",
       "hiding",
       "under",
-      "daddy"
+      "don't"
      ],
      "suggestion": "Now the envelope. I'm hiding it under my bed. Shh! Don't tell Daddy. Pinky promise!",
      "suggestionFa": "حالا پاکت. زیر تختم قایمش می‌کنم. هیس! به بابا نگو. قول انگشت کوچیکه!",

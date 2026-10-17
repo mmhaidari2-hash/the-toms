@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "iron",
       "give",
+      "iron",
       "can"
      ],
      "suggestion": "Yes, I can iron. Give it to me.",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "interview",
-      "luck",
       "good",
+      "luck",
       "job"
      ],
      "suggestion": "A job interview? Good luck, Tom!",
@@ -182,10 +182,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "fill",
-      "now",
-      "yet"
+      "i'll",
+      "yet",
+      "now"
      ],
      "suggestion": "Not yet. I'll fill it now.",
      "suggestionFa": "هنوز نه. الان پرش می‌کنم.",
@@ -303,9 +303,9 @@
    "branches": [
     {
      "keywords": [
-      "hole",
+      "poor",
       "ryan",
-      "poor"
+      "hole"
      ],
      "suggestion": "A hole? Poor Ryan!",
      "suggestionFa": "سوراخ؟ رایان بیچاره!",
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "stand",
+      "when",
       "stop",
-      "i'll",
-      "when"
+      "i'll"
      ],
      "suggestion": "I'll stand it up when I stop.",
      "suggestionFa": "وقتی دست نگه می‌دارم، سرپا می‌ذارمش.",
@@ -466,8 +466,8 @@
     {
      "keywords": [
       "pigeon",
-      "don't",
       "maybe",
+      "don't",
       "part"
      ],
      "suggestion": "Maybe don't say the pigeon part.",

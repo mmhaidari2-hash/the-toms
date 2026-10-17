@@ -137,9 +137,9 @@
     {
      "keywords": [
       "pounds",
-      "worth",
       "about",
-      "forty"
+      "forty",
+      "worth"
      ],
      "suggestion": "How much is it worth? About forty pounds.",
      "suggestionFa": "چقدر ارزش داره؟ حدود چهل پوند.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "gift",
+      "i'll",
       "tick"
      ],
      "suggestion": "It's a gift. I'll tick \"gift\".",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "letters",
       "english",
+      "letters",
       "i'll",
       "try"
      ],
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "birthday",
-      "three",
       "weeks",
-      "two"
+      "three",
+      "her"
      ],
      "suggestion": "Three weeks? Her birthday is in two weeks!",
      "suggestionFa": "سه هفته؟ تولدش دو هفتهٔ دیگه‌ست!",

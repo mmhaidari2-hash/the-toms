@@ -22,7 +22,7 @@
       "counting",
       "birds",
       "hour",
-      "fun"
+      "one"
      ],
      "suggestion": "One hour of counting birds? Fun!",
      "suggestionFa": "یه ساعت شمردن پرنده؟ جالبه!",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "think",
-      "robin"
+      "robin",
+      "think"
      ],
      "suggestion": "I think it's a robin!",
      "suggestionFa": "فکر کنم سینه‌سرخه!",
@@ -150,9 +150,9 @@
     {
      "keywords": [
       "them",
-      "two",
       "can",
-      "see"
+      "see",
+      "two"
      ],
      "suggestion": "I can see two of them.",
      "suggestionFa": "دو تا ازشون می‌بینم.",
@@ -305,8 +305,8 @@
      "keywords": [
       "sparrows",
       "magpies",
-      "three",
-      "robin"
+      "robin",
+      "three"
      ],
      "suggestion": "One robin, two magpies, three blue tits, two sparrows. Eight!",
      "suggestionFa": "یه سینه‌سرخ، دو تا زاغی، سه تا چرخ‌ریسک، دو تا گنجشک. هشت تا!",
@@ -369,9 +369,9 @@
     },
     {
      "keywords": [
-      "look",
       "bird",
       "pond",
+      "look",
       "shh"
      ],
      "suggestion": "Shh! Look — a big bird by the pond!",

@@ -63,8 +63,8 @@
       "yesterday",
       "skip",
       "bath",
-      "but",
-      "had"
+      "had",
+      "but"
      ],
      "suggestion": "But I had a bath yesterday! Can I skip the bath?",
      "suggestionFa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟",
@@ -139,9 +139,9 @@
      "keywords": [
       "after",
       "stars",
+      "have",
       "then",
-      "milk",
-      "have"
+      "milk"
      ],
      "suggestion": "The stars! Then after that, can I have milk?",
      "suggestionFa": "ستاره‌ای! بعد از اون، می‌تونم شیر بخورم؟",
@@ -216,9 +216,9 @@
      "keywords": [
       "sings",
       "stops",
-      "when",
-      "pink",
-      "stop"
+      "stop",
+      "song",
+      "when"
      ],
      "suggestion": "The pink one! It sings a song. When the song stops, I stop!",
      "suggestionFa": "صورتیه! آهنگ می‌خونه. وقتی آهنگ تموم شد، منم تموم می‌کنم!",
@@ -292,10 +292,10 @@
     {
      "keywords": [
       "story",
-      "book",
-      "iran",
       "real",
-      "tell"
+      "from",
+      "iran",
+      "book"
      ],
      "suggestion": "Mehdi! Mehdi! Tell me a story from Iran! Not a book. A real story!",
      "suggestionFa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "start",
-      "i'll",
+      "come",
       "time",
-      "come"
+      "i'll"
      ],
      "suggestion": "Ha! OK, I'll come. What time does it start?",
      "suggestionFa": "ها! باشه، میام. ساعت چند شروع میشه؟",
@@ -86,8 +86,8 @@
      "keywords": [
       "should",
       "leave",
-      "far",
-      "now"
+      "now",
+      "far"
      ],
      "suggestion": "Is it far? We should leave now.",
      "suggestionFa": "دوره؟ باید الان راه بیفتیم.",
@@ -129,9 +129,9 @@
    "branches": [
     {
      "keywords": [
+      "watch",
       "let's",
       "video",
-      "watch",
       "idea"
      ],
      "suggestion": "No idea! Let's watch a video.",
@@ -145,7 +145,7 @@
       "ponytail",
       "twist",
       "round",
-      "make"
+      "then"
      ],
      "suggestion": "Make a ponytail, then twist it round.",
      "suggestionFa": "دم‌اسبی کن، بعد بپیچونش دورش.",
@@ -239,10 +239,10 @@
    "branches": [
     {
      "keywords": [
-      "last",
-      "says",
+      "only",
       "term",
-      "only"
+      "says",
+      "last"
      ],
      "suggestion": "She says no. Only on the last day of term.",
      "suggestionFa": "میگه نه. فقط روز آخر ترم.",
@@ -252,8 +252,8 @@
     },
     {
      "keywords": [
-      "here",
       "wait",
+      "here",
       "hall",
       "can"
      ],
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "hungry",
+      "please",
       "ha"
      ],
      "suggestion": "Ha! Yes please. I'm hungry.",
@@ -371,8 +371,8 @@
     {
      "keywords": [
       "elephant",
-      "starts",
       "dancer",
+      "starts",
       "every"
      ],
      "suggestion": "Every dancer starts like an elephant!",
@@ -413,8 +413,8 @@
      "keywords": [
       "nicola",
       "have",
-      "did",
-      "fun"
+      "fun",
+      "did"
      ],
      "suggestion": "Did you have fun, Nicola?",
      "suggestionFa": "خوش گذشت نیکولا؟",
@@ -424,10 +424,10 @@
     },
     {
      "keywords": [
+      "next",
       "pins",
-      "time",
       "more",
-      "next"
+      "time"
      ],
      "suggestion": "Ha! Next time, more pins!",
      "suggestionFa": "ها! دفعهٔ بعد سنجاق بیشتر!",

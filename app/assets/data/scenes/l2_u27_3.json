@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "oxford",
-      "circus",
       "missed",
+      "circus",
+      "oxford",
       "sorry"
      ],
      "suggestion": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
@@ -191,8 +191,8 @@
    "branches": [
     {
      "keywords": [
-      "driver",
       "should",
+      "driver",
       "near",
       "why"
      ],
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "drunk",
       "merry",
+      "drunk",
       "mean"
      ],
      "suggestion": "Merry? You mean drunk?",
@@ -311,9 +311,9 @@
     },
     {
      "keywords": [
+      "when",
       "text",
       "i'll",
-      "when",
       "get"
      ],
      "suggestion": "OK. I'll text you when I get on.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "fascinating",
-      "identity",
       "national",
+      "identity",
       "sport"
      ],
      "suggestion": "It's fascinating. Sport seems to be part of the national identity.",
@@ -34,7 +34,7 @@
      "keywords": [
       "understand",
       "cricket",
-      "match",
+      "still",
       "don't"
      ],
      "suggestion": "I still don't understand cricket. A match can last five days!",
@@ -75,8 +75,8 @@
      "keywords": [
       "language",
       "built",
-      "play",
-      "fair"
+      "fair",
+      "play"
      ],
      "suggestion": "So fair play is built into the language.",
      "suggestionFa": "پس بازی جوانمردانه تو زبان جا افتاده.",
@@ -89,7 +89,7 @@
       "people",
       "other",
       "here",
-      "team"
+      "clap"
      ],
      "suggestion": "Is that why people clap for the other team here?",
      "suggestionFa": "واسه همینه که مردم اینجا برای تیم مقابل دست می‌زنن؟",
@@ -146,7 +146,7 @@
      "keywords": [
       "losing",
       "skill",
-      "well",
+      "life",
       "love"
      ],
      "suggestion": "I love that. Losing well is a life skill.",
@@ -202,9 +202,9 @@
     },
     {
      "keywords": [
-      "balance",
-      "suppose",
       "perfect",
+      "suppose",
+      "balance",
       "that's"
      ],
      "suggestion": "That's the perfect balance, I suppose.",

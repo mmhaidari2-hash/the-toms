@@ -32,8 +32,8 @@
     {
      "keywords": [
       "year",
-      "last",
-      "once"
+      "once",
+      "last"
      ],
      "suggestion": "Yes, once, last year.",
      "suggestionFa": "آره، یه بار، پارسال.",
@@ -127,9 +127,9 @@
     },
     {
      "keywords": [
-      "water",
       "after",
       "drink",
+      "water",
       "can"
      ],
      "suggestion": "Can I drink water after?",
@@ -221,8 +221,8 @@
      "keywords": [
       "lemonade",
       "though",
-      "i'll",
-      "love"
+      "love",
+      "i'll"
      ],
      "suggestion": "I'll try. I love lemonade, though!",
      "suggestionFa": "سعی می‌کنم. ولی عاشق لیموناتم!",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "thank",
-      "must",
-      "back",
-      "come"
+      "when",
+      "come",
+      "must"
      ],
      "suggestion": "Thank you. When must I come back?",
      "suggestionFa": "ممنون. کی باید برگردم؟",

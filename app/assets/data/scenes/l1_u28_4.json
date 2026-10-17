@@ -115,8 +115,8 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "leaking",
+      "kitchen",
       "tap"
      ],
      "suggestion": "The kitchen tap is leaking.",
@@ -129,8 +129,8 @@
      "keywords": [
       "everywhere",
       "there's",
-      "water",
-      "under"
+      "under",
+      "water"
      ],
      "suggestion": "There's water everywhere under the sink.",
      "suggestionFa": "زیر سینک همه جا آبه.",
@@ -177,8 +177,8 @@
      "keywords": [
       "please",
       "again",
-      "say",
-      "can"
+      "can",
+      "say"
      ],
      "suggestion": "Can you say it again, please?",
      "suggestionFa": "می‌شه دوباره بگی، لطفاً؟",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "double",
-      "three",
       "seven",
+      "three",
       "nine"
      ],
      "suggestion": "Oh seven seven double oh, nine double oh, one two three.",

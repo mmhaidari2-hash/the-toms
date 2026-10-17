@@ -75,8 +75,8 @@
      "keywords": [
       "match",
       "game",
-      "cup",
-      "got"
+      "got",
+      "cup"
      ],
      "suggestion": "Yes! He's got a match on Tuesday. A cup game.",
      "suggestionFa": "آره! سه‌شنبه مسابقه داره. یه بازی جام.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "finishes",
+      "thirty",
       "monday",
-      "better",
-      "thirty"
+      "better"
      ],
      "suggestion": "Would Monday be better? He finishes school at three-thirty.",
      "suggestionFa": "دوشنبه بهتره؟ مدرسه‌اش سه و نیم تموم میشه.",
@@ -193,9 +193,9 @@
     {
      "keywords": [
       "nineteenth",
+      "perfect",
       "instead",
-      "tuesday",
-      "perfect"
+      "tuesday"
      ],
      "suggestion": "Monday the nineteenth, instead of Tuesday. Perfect.",
      "suggestionFa": "دوشنبه نوزدهم، به‌جای سه‌شنبه. عالی.",
@@ -366,8 +366,8 @@
      "keywords": [
       "monday",
       "could",
-      "ryan",
-      "time"
+      "come",
+      "ryan"
      ],
      "suggestion": "Could I come with Ryan on Monday? Same time?",
      "suggestionFa": "میشه دوشنبه با رایان بیام؟ همون ساعت؟",

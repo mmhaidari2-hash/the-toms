@@ -139,9 +139,9 @@
      "keywords": [
       "cleans",
       "feeds",
-      "who",
       "poo",
-      "dog"
+      "dog",
+      "who"
      ],
      "suggestion": "Who feeds the dog? Who cleans up the poo?",
      "suggestionFa": "کی به سگ غذا می‌ده؟ کی کثیفی‌اش را تمیز می‌کنه؟",
@@ -213,8 +213,8 @@
       "small",
       "kind",
       "want",
-      "big",
-      "dog"
+      "dog",
+      "big"
      ],
      "suggestion": "What kind of dog do you want? A big dog or a small dog?",
      "suggestionFa": "چه جور سگی می‌خوای؟ سگ بزرگ یا کوچیک؟",
@@ -360,8 +360,8 @@
    "branches": [
     {
      "keywords": [
-      "goldfish",
       "birthday",
+      "goldfish",
       "maybe",
       "deal",
       "ok"

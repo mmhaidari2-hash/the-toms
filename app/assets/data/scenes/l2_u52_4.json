@@ -22,7 +22,7 @@
       "morning",
       "sophie",
       "check",
-      "like"
+      "we'd"
      ],
      "suggestion": "Sure. Good morning, Sophie. We'd like to check out.",
      "suggestionFa": "حتماً. صبح بخیر سوفی. می‌خوایم تسویه کنیم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "leave",
       "rooms",
-      "time",
-      "have"
+      "have",
+      "time"
      ],
      "suggestion": "What time do we have to leave the rooms?",
      "suggestionFa": "ساعت چند باید اتاق‌ها را خالی کنیم؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "nights",
-      "three",
       "quick",
+      "three",
       "was"
      ],
      "suggestion": "Three nights. That was quick!",
@@ -116,9 +116,9 @@
     {
      "keywords": [
       "minibar",
-      "please",
       "charge",
-      "could"
+      "please",
+      "check"
      ],
      "suggestion": "Could you check the minibar charge, please?",
      "suggestionFa": "میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟",
@@ -182,8 +182,8 @@
      "keywords": [
       "minute",
       "here",
-      "ryan",
-      "come"
+      "come",
+      "ryan"
      ],
      "suggestion": "Ryan, come here a minute.",
      "suggestionFa": "رایان، یه لحظه بیا اینجا.",
@@ -193,9 +193,9 @@
     },
     {
      "keywords": [
-      "i'll",
       "he's",
       "call",
+      "i'll",
       "car"
      ],
      "suggestion": "He's in the car with Tom. I'll call him.",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "minibar",
       "nothing",
+      "minibar",
       "free",
       "ryan"
      ],
@@ -281,9 +281,9 @@
     {
      "keywords": [
       "carry",
-      "desk",
+      "help",
       "bags",
-      "help"
+      "desk"
      ],
      "suggestion": "Can I help carry the bags to the desk?",
      "suggestionFa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟",
@@ -295,8 +295,8 @@
      "keywords": [
       "cream",
       "pier",
-      "get",
-      "ice"
+      "ice",
+      "get"
      ],
      "suggestion": "The pier! Can we get ice cream?",
      "suggestionFa": "اسکله! میشه بستنی بخوریم؟",
@@ -324,8 +324,8 @@
      "keywords": [
       "seagulls",
       "about",
-      "know",
-      "them"
+      "them",
+      "know"
      ],
      "suggestion": "The seagulls! I know about them.",
      "suggestionFa": "مرغ‌های دریایی! درباره‌شون می‌دونم.",

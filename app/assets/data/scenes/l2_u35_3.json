@@ -73,8 +73,8 @@
     {
      "keywords": [
       "platform",
-      "long",
       "have",
+      "long",
       "how"
      ],
      "suggestion": "Platform 17. How long have I got?",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "change",
-      "did",
-      "why"
+      "why",
+      "did"
      ],
      "suggestion": "Why did it change?",
      "suggestionFa": "چرا عوض شد؟",
@@ -188,8 +188,8 @@
    "branches": [
     {
      "keywords": [
-      "coaches",
       "happens",
+      "coaches",
       "other"
      ],
      "suggestion": "What happens to the other coaches?",
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "front",
-      "i'll",
       "move",
+      "i'll",
       "now"
      ],
      "suggestion": "Oh no! I'll move to the front now.",
@@ -293,8 +293,8 @@
    "branches": [
     {
      "keywords": [
-      "coach",
       "there",
+      "coach",
       "seat",
       "c"
      ],

@@ -430,6 +430,8 @@ class PackScreen extends ConsumerWidget {
                 Text(pack.blurb, style: const TextStyle(fontSize: 14, height: 1.35, color: BL.ink)),
                 const SizedBox(height: 4),
                 SizedBox(width: double.infinity, child: Text(pack.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted))),
+                const SizedBox(height: 10),
+                PackDisclaimer(pack.id),
               ]),
             ),
           ),
@@ -455,4 +457,28 @@ class PackScreen extends ConsumerWidget {
       ),
     );
   }
+}
+
+/// Shown at the start of every Career Pack (legal review §5): English practice, not job training.
+class PackDisclaimer extends StatelessWidget {
+  final String packId;
+  const PackDisclaimer(this.packId, {super.key});
+  static const general = 'English-language practice only. Not professional training or an accredited qualification, and it does not replace your employer\'s induction or required training. Always follow your workplace\'s policies.';
+  static const generalFa = 'فقط تمرین زبان انگلیسی است؛ آموزش حرفه‌ای یا مدرک معتبر نیست و جای آموزش‌ها و معارفهٔ محل کارتان را نمی‌گیرد. همیشه از سیاست‌های محل کارتان پیروی کنید.';
+  static const nursery = 'Set in England: it follows the EYFS framework (England only). Ratios and rules vary by setting, age group and staff qualifications, so check your setting\'s policy. This pack does not replace safeguarding, paediatric first aid or Level 2/3 training.';
+  static const nurseryFa = 'بر اساس چارچوب EYFS انگلستان است (فقط انگلستان). نسبت‌ها و قوانین بسته به مهدکودک، سن بچه‌ها و مدرک کارکنان فرق می‌کند؛ سیاست مهدکودک خودتان را بررسی کنید. جای آموزش حفاظت از کودک، کمک‌های اولیهٔ کودکان یا دوره‌های Level 2/3 را نمی‌گیرد.';
+  @override
+  Widget build(BuildContext context) => Container(
+        key: const ValueKey('pack-disclaimer'),
+        width: double.infinity,
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(color: BL.mist.withValues(alpha: .6), borderRadius: BorderRadius.circular(14)),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          const Row(children: [Icon(Icons.info_outline_rounded, size: 16, color: BL.muted), SizedBox(width: 6), Text('Please note', style: TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: BL.ink))]),
+          const SizedBox(height: 4),
+          Text(packId == 'nursery' ? '$general $nursery' : general, style: const TextStyle(fontSize: 12, height: 1.35, color: BL.ink)),
+          const SizedBox(height: 4),
+          SizedBox(width: double.infinity, child: Text(packId == 'nursery' ? '$generalFa $nurseryFa' : generalFa, textDirection: TextDirection.rtl, style: BL.fa(11.5, color: BL.muted))),
+        ]),
+      );
 }

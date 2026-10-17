@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "course",
-      "hi",
-      "ok"
+      "nicola",
+      "ok",
+      "hi"
      ],
      "suggestion": "Of course. Hi, Nicola. Are you OK?",
      "suggestionFa": "البته. سلام نیکولا. خوبی؟",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "feel",
-      "how",
-      "now"
+      "now",
+      "how"
      ],
      "suggestion": "How do you feel now?",
      "suggestionFa": "الان چه حسی داری؟",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "nicola",
-      "thank",
       "makes",
+      "thank",
       "happy"
      ],
      "suggestion": "Thank you, Nicola. That makes me happy.",
@@ -327,8 +327,8 @@
     {
      "keywords": [
       "feel",
-      "how",
-      "now"
+      "now",
+      "how"
      ],
      "suggestion": "How do you feel now?",
      "suggestionFa": "الان چه حسی داری؟",

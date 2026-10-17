@@ -142,7 +142,7 @@
       "vouchers",
       "anything",
       "them",
-      "use"
+      "can"
      ],
      "suggestion": "Vouchers! Can I use them for anything?",
      "suggestionFa": "کوپن! برای هر چیزی می‌تونم استفاده کنم؟",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "later",
-      "app",
-      "can"
+      "can",
+      "app"
      ],
      "suggestion": "Can I do it later on the app?",
      "suggestionFa": "میشه بعداً تو اپ انجامش بدم؟",
@@ -308,8 +308,8 @@
      "keywords": [
       "brilliant",
       "tonight",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "Brilliant. I'll come tonight!",
      "suggestionFa": "عالیه. امشب میام!",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "difference",
-      "what's",
       "before",
+      "what's",
       "best"
      ],
      "suggestion": "What's the difference with \"best before\"?",

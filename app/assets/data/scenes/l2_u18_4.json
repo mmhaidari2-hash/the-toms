@@ -22,7 +22,7 @@
       "missed",
       "where",
       "don't",
-      "stop"
+      "know"
      ],
      "suggestion": "Tom! I missed my stop. I don't know where I am!",
      "suggestionFa": "تام! ایستگاهم را رد کردم. نمی‌دونم کجام!",
@@ -35,7 +35,7 @@
       "asleep",
       "fell",
       "lost",
-      "bus"
+      "now"
      ],
      "suggestion": "I fell asleep on the bus. Now I'm lost.",
      "suggestionFa": "تو اتوبوس خوابم برد. حالا گم شدم.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "screen",
       "oxford",
+      "screen",
       "next",
       "stop"
      ],
@@ -235,7 +235,7 @@
      "keywords": [
       "letter",
       "stop",
-      "big",
+      "can",
       "see"
      ],
      "suggestion": "I can see a stop with a big letter \"S\".",
@@ -303,8 +303,8 @@
     {
      "keywords": [
       "home",
-      "will",
       "long",
+      "will",
       "take"
      ],
      "suggestion": "How long will it take to get home?",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "saving",
+      "thanks",
       "will",
       "tom"
      ],
@@ -353,9 +353,9 @@
     {
      "keywords": [
       "awake",
-      "i'll",
       "stay",
-      "time"
+      "time",
+      "i'll"
      ],
      "suggestion": "OK. And I'll stay awake this time!",
      "suggestionFa": "باشه. و این دفعه بیدار می‌مونم!",

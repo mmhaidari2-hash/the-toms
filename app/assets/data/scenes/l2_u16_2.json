@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "yellow",
       "labels",
+      "yellow",
       "didn't",
       "know"
      ],
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
       "bogof",
+      "price",
       "bags",
       "two"
      ],
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "price",
-      "half",
+      "good",
       "deal",
-      "good"
+      "half"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
-      "where"
+      "where",
+      "price"
      ],
      "suggestion": "Price per kilo? Where is it?",
      "suggestionFa": "قیمت هر کیلو؟ کجاست؟",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "cheaper",
-      "box",
-      "big"
+      "big",
+      "box"
      ],
      "suggestion": "So the big box is cheaper per kilo?",
      "suggestionFa": "پس جعبهٔ بزرگ هر کیلوش ارزون‌تره؟",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "alone",
       "small",
+      "alone",
       "live"
      ],
      "suggestion": "I live alone, so the small one is better.",
@@ -291,8 +291,8 @@
     },
     {
      "keywords": [
-      "discount",
       "stickers",
+      "discount",
       "yellow",
       "like"
      ],
@@ -328,10 +328,10 @@
    "branches": [
     {
      "keywords": [
-      "pence",
       "seven",
-      "i'll",
-      "back"
+      "pence",
+      "come",
+      "i'll"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
      "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",

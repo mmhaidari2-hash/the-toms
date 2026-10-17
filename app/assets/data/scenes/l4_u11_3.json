@@ -20,8 +20,8 @@
     {
      "keywords": [
       "learning",
-      "family",
       "friend",
+      "family",
       "about"
      ],
      "suggestion": "Hi, I'm a friend of the family. I'm learning about cars!",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
-      "take",
       "long",
-      "will"
+      "will",
+      "take"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "here",
       "wait",
+      "here",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "damage",
       "what's",
+      "damage",
       "go"
      ],
      "suggestion": "Go on. What's the damage?",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
-      "much",
       "both",
-      "cost"
+      "cost",
+      "much"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -247,8 +247,8 @@
      "keywords": [
       "second",
       "quote",
-      "could",
-      "first"
+      "first",
+      "could"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "let's",
       "today",
+      "let's",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "tyres",
-      "long",
       "left",
+      "long",
       "how"
      ],
      "suggestion": "How long have the tyres got left?",
@@ -416,9 +416,9 @@
     {
      "keywords": [
       "garages",
-      "honest",
+      "thanks",
       "upsell",
-      "thanks"
+      "honest"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

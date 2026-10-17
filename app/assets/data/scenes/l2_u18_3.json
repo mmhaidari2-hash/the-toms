@@ -74,8 +74,8 @@
      "keywords": [
       "excuse",
       "would",
-      "like",
-      "down"
+      "down",
+      "like"
      ],
      "suggestion": "Excuse me. Would you like to sit down?",
      "suggestionFa": "ببخشید. می‌خواید بشینید؟",
@@ -133,8 +133,8 @@
    "branches": [
     {
      "keywords": [
-      "buggy",
       "where",
+      "buggy",
       "go"
      ],
      "suggestion": "Where does the buggy go?",
@@ -237,8 +237,8 @@
      "keywords": [
       "there's",
       "hello",
-      "here",
-      "seat"
+      "hand",
+      "need"
      ],
      "suggestion": "Hello, sir. Do you need a hand? There's a seat here.",
      "suggestionFa": "سلام آقا. کمک لازم دارید؟ اینجا یه صندلی هست.",
@@ -248,10 +248,10 @@
     },
     {
      "keywords": [
-      "hold",
       "help",
-      "arm",
-      "can"
+      "hold",
+      "can",
+      "arm"
      ],
      "suggestion": "Can I help you? Hold my arm.",
      "suggestionFa": "می‌تونم کمکتون کنم؟ بازوم را بگیرید.",
@@ -350,8 +350,8 @@
     },
     {
      "keywords": [
-      "women",
       "offer",
+      "women",
       "seat",
       "our"
      ],

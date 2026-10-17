@@ -132,8 +132,8 @@
      "keywords": [
       "pounds",
       "quite",
-      "old",
-      "two"
+      "two",
+      "old"
      ],
      "suggestion": "Two pounds? It's quite old.",
      "suggestionFa": "دو پوند؟ نسبتاً قدیمیه.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "antique",
-      "worth",
       "maybe",
+      "worth",
       "lot"
      ],
      "suggestion": "Is it an antique? Maybe it's worth a lot!",
@@ -205,10 +205,10 @@
     },
     {
      "keywords": [
-      "haggles",
       "nervous",
-      "if",
-      "he"
+      "haggles",
+      "he",
+      "if"
      ],
      "suggestion": "I'm nervous. What if he haggles?",
      "suggestionFa": "مضطربم. اگه چونه بزنه چی؟",
@@ -260,8 +260,8 @@
     {
      "keywords": [
       "haggle",
-      "iran",
       "good",
+      "iran",
       "lot"
      ],
      "suggestion": "In Iran we haggle a lot. I'm good at this!",
@@ -429,8 +429,8 @@
      "keywords": [
       "that's",
       "twenty",
-      "cheap",
-      "pence"
+      "pence",
+      "cheap"
      ],
      "suggestion": "Twenty pence. That's cheap for art!",
      "suggestionFa": "بیست پنس. برای هنر ارزونه!",

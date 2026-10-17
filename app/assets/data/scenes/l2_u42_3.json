@@ -21,8 +21,8 @@
      "keywords": [
       "about",
       "tell",
-      "her",
-      "mia"
+      "mia",
+      "her"
      ],
      "suggestion": "Mia! Tell me about her.",
      "suggestionFa": "میا! دربارهٔ‌ش بهم بگو.",
@@ -74,7 +74,7 @@
       "colour",
       "plaits",
       "eyes",
-      "two"
+      "her"
      ],
      "suggestion": "Two plaits! And what colour are her eyes?",
      "suggestionFa": "دو تا گیس! و چشم‌هاش چه رنگیه؟",
@@ -131,7 +131,7 @@
       "what's",
       "shoes",
       "only",
-      "she"
+      "her"
      ],
      "suggestion": "Only her shoes? Ha! What's she like?",
      "suggestionFa": "فقط کفش‌هاش؟ ها! چه جور آدمیه؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "chocolate",
-      "lovely",
       "that's",
+      "lovely",
       "brown"
      ],
      "suggestion": "Brown, like chocolate. That's lovely.",
@@ -212,8 +212,8 @@
      "keywords": [
       "every",
       "kind",
-      "day",
-      "she"
+      "she",
+      "day"
      ],
      "suggestion": "Is she kind to you every day?",
      "suggestionFa": "هر روز با تو مهربونه؟",
@@ -306,8 +306,8 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "tehran",
+      "friend",
       "black",
       "laugh"
      ],
@@ -320,9 +320,9 @@
     {
      "keywords": [
       "glasses",
-      "tall",
+      "name",
       "reza",
-      "name"
+      "tall"
      ],
      "suggestion": "He's tall with glasses. His name is Reza.",
      "suggestionFa": "قدبلنده با عینک. اسمش رضاست.",

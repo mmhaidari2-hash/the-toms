@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "indian",
       "what's",
+      "indian",
       "don't",
-      "well"
+      "know"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -35,7 +35,7 @@
       "chicken",
       "please",
       "curry",
-      "i'll"
+      "have"
      ],
      "suggestion": "I'll have a chicken curry, please.",
      "suggestionFa": "من یه کاری مرغ می‌خورم، لطفاً.",
@@ -90,8 +90,8 @@
      "keywords": [
       "masala",
       "tikka",
-      "how",
-      "hot"
+      "hot",
+      "how"
      ],
      "suggestion": "How hot is the tikka masala?",
      "suggestionFa": "تیکا ماسالا چقدر تنده؟",
@@ -197,7 +197,7 @@
       "persian",
       "please",
       "pilau",
-      "like"
+      "rice"
      ],
      "suggestion": "Pilau rice, please. Like Persian rice!",
      "suggestionFa": "برنج پلو، لطفاً. مثل برنج ایرانی!",
@@ -259,8 +259,8 @@
      "keywords": [
       "order",
       "hear",
-      "how",
-      "can"
+      "can",
+      "how"
      ],
      "suggestion": "Can I hear how you order?",
      "suggestionFa": "می‌تونم گوش بدم چطور سفارش میدی؟",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "much",
-      "how",
-      "all"
+      "all",
+      "how"
      ],
      "suggestion": "How much is it all?",
      "suggestionFa": "همه‌ش چقدر میشه؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "drinks",
-      "but",
       "let",
+      "but",
       "buy"
      ],
      "suggestion": "OK. But let me buy the drinks.",

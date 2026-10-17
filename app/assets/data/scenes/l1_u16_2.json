@@ -32,8 +32,8 @@
     {
      "keywords": [
       "vegetables",
-      "fruit",
       "every",
+      "fruit",
       "five"
      ],
      "suggestion": "Five fruit and vegetables every day!",
@@ -158,9 +158,9 @@
     {
      "keywords": [
       "them",
-      "cut",
       "why",
-      "she"
+      "she",
+      "cut"
      ],
      "suggestion": "Why does she cut them?",
      "suggestionFa": "چرا نصفشون می‌کنه؟",
@@ -170,8 +170,8 @@
     },
     {
      "keywords": [
-      "babies",
       "that's",
+      "babies",
       "safer"
      ],
      "suggestion": "That's safer for babies.",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "three",
-      "more",
       "need",
+      "more",
       "i've"
      ],
      "suggestion": "I've got three. I need two more.",
@@ -382,8 +382,8 @@
     },
     {
      "keywords": [
-      "lunch",
       "salad",
+      "lunch",
       "five",
       "had"
      ],

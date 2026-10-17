@@ -20,8 +20,8 @@
     {
      "keywords": [
       "angel",
-      "tom",
       "bus",
+      "tom",
       "hi"
      ],
      "suggestion": "Hi, Tom! Does this bus go to Angel?",
@@ -123,9 +123,9 @@
     {
      "keywords": [
       "street",
-      "which",
       "upper",
-      "stop"
+      "which",
+      "best"
      ],
      "suggestion": "Which stop is best for Upper Street?",
      "suggestionFa": "برای آپر استریت کدوم ایستگاه بهتره؟",
@@ -135,9 +135,9 @@
     },
     {
      "keywords": [
-      "town",
       "near",
       "hall",
+      "town",
       "sure"
      ],
      "suggestion": "I'm not sure. The one near the town hall.",
@@ -236,7 +236,7 @@
       "something",
       "drive",
       "while",
-      "ask"
+      "can"
      ],
      "suggestion": "Ha! Can I ask you something while you drive?",
      "suggestionFa": "ها! وقتی رانندگی می‌کنی می‌تونم یه چیزی بپرسم؟",
@@ -247,8 +247,8 @@
     {
      "keywords": [
       "thanks",
-      "i'll",
       "here",
+      "i'll",
       "sit"
      ],
      "suggestion": "I'll sit here. Thanks, Tom.",

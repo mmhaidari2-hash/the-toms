@@ -32,8 +32,8 @@
     {
      "keywords": [
       "before",
-      "rains",
-      "sunny"
+      "sunny",
+      "rains"
      ],
      "suggestion": "Before it rains? It's sunny!",
      "suggestionFa": "قبل از بارون؟ آفتابیه!",
@@ -88,8 +88,8 @@
     },
     {
      "keywords": [
-      "these",
       "whose",
+      "these",
       "socks",
       "many"
      ],
@@ -131,8 +131,8 @@
      "keywords": [
       "washing",
       "that's",
-      "three",
-      "times"
+      "times",
+      "three"
      ],
      "suggestion": "Three times a day! That's a lot of washing.",
      "suggestionFa": "روزی سه بار! این کلی لباس شستنه.",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "upside",
-      "down",
       "like",
+      "down",
       "ok"
      ],
      "suggestion": "OK, upside down. Like this?",
@@ -257,10 +257,10 @@
     },
     {
      "keywords": [
-      "let's",
       "maybe",
-      "pass",
-      "wait"
+      "let's",
+      "wait",
+      "pass"
      ],
      "suggestion": "Maybe it will pass. Let's wait.",
      "suggestionFa": "شاید رد بشه. بیا صبر کنیم.",
@@ -315,8 +315,8 @@
      "keywords": [
       "already",
       "strong",
-      "wow",
-      "sun"
+      "sun",
+      "wow"
      ],
      "suggestion": "Wow. Already? The sun is strong.",
      "suggestionFa": "وای. به این زودی؟ آفتاب قویه.",
@@ -326,8 +326,8 @@
     },
     {
      "keywords": [
-      "irons",
       "house",
+      "irons",
       "who"
      ],
      "suggestion": "Who irons in this house?",
@@ -434,9 +434,9 @@
     {
      "keywords": [
       "ryan's",
-      "there",
+      "still",
       "socks",
-      "still"
+      "there"
      ],
      "suggestion": "The socks! Ryan's socks are still out there!",
      "suggestionFa": "جوراب‌ها! جوراب‌های رایان هنوز بیرونن!",

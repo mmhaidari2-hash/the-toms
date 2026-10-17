@@ -24,7 +24,7 @@
       "mobile's",
       "credit",
       "maggie",
-      "doris",
+      "phone",
       "wants"
      ],
      "suggestion": "Maggie just rang from a phone box! Her pay-as-you-go mobile's out of credit. She wants to call Doris. Can you help me top it up?",
@@ -74,8 +74,8 @@
       "online's",
       "quicker",
       "enough",
-      "number",
-      "pounds"
+      "pounds",
+      "number"
      ],
      "suggestion": "Online's quicker. Here — \"Top up any number\". Put in her number. I'd like to top up ten pounds. Is that enough?",
      "suggestionFa": "آنلاین سریع‌تره. ببین — «شارژ هر شماره». شماره‌اش را بزن. می‌خوام ده پوند شارژ کنم. کافیه؟",
@@ -99,8 +99,8 @@
       "unlimited",
       "twenty's",
       "anything",
-      "bundle",
-      "hardly"
+      "hardly",
+      "twenty"
      ],
      "suggestion": "Hardly anything — but she chats to Doris for hours. How much shall I put on? Twenty. Twenty's a bundle with unlimited calls.",
      "suggestionFa": "تقریباً هیچی — ولی ساعت‌ها با دوریس گپ می‌زنه. چقدر شارژ کنم؟ بیست. بیست یه بسته با تماس نامحدوده.",
@@ -125,7 +125,7 @@
       "through",
       "twenty",
       "pounds",
-      "added"
+      "night"
      ],
      "suggestion": "No PIN, just my card. Pay… It's gone through! \"Twenty pounds added to 07…\" Brilliant. Now she can ring Doris all night.",
      "suggestionFa": "بدون رمز، فقط کارت من. پرداخت… انجام شد! «بیست پوند به ۰۷… اضافه شد.» عالی. حالا می‌تونه کل شب به دوریس زنگ بزنه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "instead",
-      "twenty",
+      "she'll",
       "that's",
-      "pounds",
-      "maggie"
+      "number",
+      "pounds"
      ],
      "suggestion": "She can dial a short number. But she won't. She'll ring us instead! Oh — that's her. Hello, Maggie? Yes, it's done! Twenty pounds.",
      "suggestionFa": "می‌تونه یه شمارهٔ کوتاه بگیره. ولی نمی‌گیره. به‌جاش به ما زنگ می‌زنه! اوه — خودشه. الو، مگی؟ آره، انجام شد! بیست پوند.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "monthly",
       "believe",
+      "monthly",
       "thank",
       "going",
       "don't"
@@ -199,8 +199,8 @@
       "maggie's",
       "lessons",
       "trouble",
-      "escape",
-      "sunday"
+      "she'll",
+      "you'll"
      ],
      "suggestion": "Sunday lunch at Maggie's, then phone lessons. She'll make you a cake for your trouble. You'll never escape!",
      "suggestionFa": "ناهار یکشنبه خونهٔ مگی، بعد آموزش تلفن. به‌خاطر زحمتت برات کیک می‌پزه. هیچ‌وقت راه فرار نداری!",

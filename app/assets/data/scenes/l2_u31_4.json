@@ -31,8 +31,8 @@
     {
      "keywords": [
       "doesn't",
-      "worry",
       "don't",
+      "worry",
       "hurt"
      ],
      "suggestion": "Don't worry, Nicola. It doesn't hurt.",
@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
-      "freya",
       "wrong",
-      "they",
-      "look"
+      "freya",
+      "look",
+      "they"
      ],
      "suggestion": "Freya is wrong. They just look.",
      "suggestionFa": "فریا اشتباه می‌کنه. فقط نگاه می‌کنن.",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "magic",
       "chair",
+      "magic",
       "look"
      ],
      "suggestion": "Look, Nicola! A magic chair!",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "nicola",
-      "chair",
       "magic",
+      "chair",
       "sit"
      ],
      "suggestion": "Go on, Nicola. Sit on the magic chair!",
@@ -322,9 +322,9 @@
    "branches": [
     {
      "keywords": [
-      "bring",
       "tooth",
       "fairy",
+      "bring",
       "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
@@ -336,8 +336,8 @@
     {
      "keywords": [
       "pillow",
-      "under",
       "maybe",
+      "under",
       "falls"
      ],
      "suggestion": "Maybe! When it falls out, put it under your pillow.",
@@ -482,8 +482,8 @@
     },
     {
      "keywords": [
-      "jealous",
       "william",
+      "jealous",
       "will"
      ],
      "suggestion": "William will be so jealous!",

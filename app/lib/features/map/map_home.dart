@@ -301,6 +301,7 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.verified_rounded, 'Certificates', 'گواهی‌ها', '/certificate/1'),
     (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
     (Icons.quiz_rounded, 'Placement test', 'آزمون تعیین سطح', '/placement'),
+    (Icons.gavel_rounded, 'Privacy, terms & about', 'حریم خصوصی، شرایط و دربارهٔ اپ', '/legal'),
     (Icons.help_outline_rounded, 'How it works', 'راهنمای برنامه', '/howto'),
   ];
   showModalBottomSheet<void>(

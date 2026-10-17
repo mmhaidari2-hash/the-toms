@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "she's",
       "ellis",
+      "she's",
       "there",
-      "miss"
+      "over"
      ],
      "suggestion": "Ask Miss Ellis. She's over there.",
      "suggestionFa": "از خانم الیس بپرس. اونجاست.",
@@ -80,10 +80,10 @@
    "branches": [
     {
      "keywords": [
-      "levels",
       "nicola",
-      "well",
-      "done"
+      "levels",
+      "done",
+      "well"
      ],
      "suggestion": "Two levels! Well done, Nicola!",
      "suggestionFa": "دو سطح! آفرین نیکولا!",
@@ -93,8 +93,8 @@
     },
     {
      "keywords": [
-      "level",
       "first",
+      "level",
       "pink"
      ],
      "suggestion": "So pink is the first level?",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "spelling",
-      "strange",
-      "english"
+      "english",
+      "strange"
      ],
      "suggestion": "English spelling is very strange!",
      "suggestionFa": "املای انگلیسی خیلی عجیبه!",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "persian",
-      "sounds",
       "simply",
+      "sounds",
       "write"
      ],
      "suggestion": "In Persian we write sounds more simply.",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "reading",
-      "what's",
-      "record"
+      "record",
+      "what's"
      ],
      "suggestion": "What's a reading record?",
      "suggestionFa": "دفتر خوندن چیه؟",
@@ -292,10 +292,10 @@
    "branches": [
     {
      "keywords": [
-      "different",
       "something",
-      "night",
-      "maybe"
+      "different",
+      "maybe",
+      "night"
      ],
      "suggestion": "Maybe write something different each night!",
      "suggestionFa": "شاید هر شب یه چیز متفاوت بنویس!",
@@ -345,7 +345,7 @@
       "tonight",
       "listen",
       "read",
-      "her"
+      "can"
      ],
      "suggestion": "Can I listen to her read tonight?",
      "suggestionFa": "می‌تونم امشب گوش بدم بخونه؟",
@@ -355,10 +355,10 @@
     },
     {
      "keywords": [
-      "lovely",
       "she'll",
+      "lovely",
       "level",
-      "blue"
+      "soon"
      ],
      "suggestion": "Lovely. She'll be blue level soon!",
      "suggestionFa": "قشنگه. به‌زودی سطح آبی میشه!",

@@ -25,7 +25,7 @@
       "posters",
       "messy",
       "sorry",
-      "come"
+      "like"
      ],
      "suggestion": "Come in! Welcome to my room. Sorry, it's a bit messy. Do you like my posters?",
      "suggestionFa": "بیا تو! به اتاقم خوش اومدی. ببخشید، یه کم به‌هم‌ریخته‌ست. پوسترهام را دوست داری؟",
@@ -100,7 +100,7 @@
       "they're",
       "summer",
       "indie",
-      "last"
+      "live"
      ],
      "suggestion": "Indie rock. They're brilliant. I saw them live last summer!",
      "suggestionFa": "ایندی راک. فوق‌العاده‌ان. تابستون پارسال اجرای زنده‌شون را دیدم!",
@@ -149,7 +149,7 @@
       "what's",
       "games",
       "later",
-      "play"
+      "song"
      ],
      "suggestion": "Play me a song later! What's that on my desk? Oh, my old games console.",
      "suggestionFa": "بعداً یه آهنگ برام بذار! اون رو میزم چیه؟ آه، کنسول بازی قدیمیم.",
@@ -172,8 +172,8 @@
      "keywords": [
       "clothes",
       "ancient",
-      "works",
       "under",
+      "works",
       "look"
      ],
      "suggestion": "It works, but it's ancient. Look at my bed — it's under all my clothes!",
@@ -197,9 +197,9 @@
      "keywords": [
       "pigsty",
       "means",
-      "home",
-      "room",
-      "says"
+      "tidy",
+      "says",
+      "home"
      ],
      "suggestion": "Ha! She says my room is a \"pigsty\". That means a home for pigs. Is your room tidy?",
      "suggestionFa": "ها! می‌گه اتاقم «خوکدونیه». یعنی خونهٔ خوک‌ها. اتاق تو مرتبه؟",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "joking",
       "crisps",
+      "joking",
       "let's",
-      "then",
-      "good"
+      "mine",
+      "tidy"
      ],
      "suggestion": "Good. Then you can tidy mine! Just joking. Come on, let's go and get some crisps.",
      "suggestionFa": "خوبه. پس می‌تونی مال منو مرتب کنی! شوخی کردم. بیا، بریم یه کم چیپس بگیریم.",

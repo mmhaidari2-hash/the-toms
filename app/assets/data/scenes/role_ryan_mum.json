@@ -22,7 +22,7 @@
       "maths",
       "fine",
       "i've",
-      "bit"
+      "got"
      ],
      "suggestion": "It was fine. I've got a bit of maths homework.",
      "suggestionFa": "خوب بود. یه کم تکلیف ریاضی دارم.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "toast",
-      "some",
       "have",
+      "some",
       "can"
      ],
      "suggestion": "A bit. Can I have some toast?",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "crisps",
-      "can't",
       "apple",
+      "can't",
       "have"
      ],
      "suggestion": "An apple? Can't I have crisps?",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "quick",
-      "just",
       "fine",
+      "just",
       "one"
      ],
      "suggestion": "Mum! Fine. Just a quick one.",

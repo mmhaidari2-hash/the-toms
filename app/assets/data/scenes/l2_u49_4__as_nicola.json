@@ -24,8 +24,8 @@
       "cutting",
       "scones",
       "cutter",
-      "want",
-      "easy"
+      "star",
+      "says"
      ],
      "suggestion": "Nana says scones are easy. Can I do the cutting? I want the star cutter!",
      "suggestionFa": "نانا میگه اسکون آسونه. می‌تونم من ببرم؟ قالب ستاره را می‌خوام!",
@@ -50,7 +50,7 @@
       "butter",
       "squish",
       "flour",
-      "then"
+      "bowl"
      ],
      "suggestion": "Flour in the bowl. Then butter. Squish it with your fingers! Like this! Squish, squish!",
      "suggestionFa": "آرد تو کاسه. بعد کره. با انگشتات لهش کن! اینجوری! له، له!",
@@ -73,8 +73,8 @@
      "keywords": [
       "together",
       "sticky",
-      "spoon",
       "sugar",
+      "spoon",
       "milk"
      ],
      "suggestion": "Sugar! A big spoon. And milk. Mix it all together. Now it's sticky! Yuck!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "thumb",
       "thick",
+      "thumb",
+      "flat",
       "says",
-      "nana",
       "thin"
      ],
      "suggestion": "Now pat it flat. Not too thin! Nana says as thick as my thumb.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "twist",
       "shiny",
       "brush",
       "don't",
-      "then"
+      "twist",
+      "oops"
      ],
      "suggestion": "Oops. Push, don't twist. Then egg on top to make them shiny. Brush, brush. In the oven!",
      "suggestionFa": "اوپس. فشار بده، نچرخون. بعد تخم‌مرغ رو روشون که براق بشن. بزن، بزن. تو فر!",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "argument",
-      "minutes",
       "grandad",
+      "minutes",
       "twelve",
       "about"
      ],
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "grandad",
-      "wrong",
       "cream",
+      "wrong",
       "first",
       "says"
      ],
@@ -224,8 +224,8 @@
       "cornwall",
       "they're",
       "devon",
-      "ready",
-      "first"
+      "cream",
+      "ready"
      ],
      "suggestion": "Cornwall is jam first. Devon is cream first. I'm Cornwall! Ding! They're ready!",
      "suggestionFa": "کورنوال اول مرباست. دوون اول خامه. من کورنوالی‌ام! دینگ! آماده شدن!",
@@ -248,8 +248,8 @@
      "keywords": [
       "first",
       "then",
-      "team",
       "star",
+      "team",
       "one"
      ],
      "suggestion": "The star one is for you. Jam first! Then you're on my team.",

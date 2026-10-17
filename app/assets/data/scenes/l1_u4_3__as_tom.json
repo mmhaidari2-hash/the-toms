@@ -49,7 +49,7 @@
       "quarter",
       "train",
       "eight",
-      "past",
+      "late",
       "half"
      ],
      "suggestion": "Half past? I'm late! My train is at quarter to eight.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "where",
-      "table",
       "quick",
+      "table",
+      "where",
       "keys",
       "they"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "finish",
+      "thanks",
       "today",
-      "them",
-      "time"
+      "time",
+      "them"
      ],
      "suggestion": "Got them, thanks! What time do you finish today?",
      "suggestionFa": "پیداشون کردم، مرسی! امروز کِی تموم می‌کنی؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "shepherd's",
       "nana's",
-      "making",
       "lovely",
+      "making",
       "don't"
      ],
      "suggestion": "Lovely. Tea is at six, then. Don't be late — Nana's making shepherd's pie!",
@@ -148,8 +148,8 @@
      "keywords": [
       "right",
       "see",
-      "bye",
       "off",
+      "bye",
       "six"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "time's",
       "cheers",
+      "time's",
       "silly",
       "clock",
       "oven"

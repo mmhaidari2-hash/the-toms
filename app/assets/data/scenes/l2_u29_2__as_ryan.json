@@ -49,10 +49,10 @@
     {
      "keywords": [
       "please",
-      "photo",
       "short",
-      "like",
-      "skin"
+      "photo",
+      "fade",
+      "like"
      ],
      "suggestion": "Er… a skin fade, please. Like this photo. But… not too short.",
      "suggestionFa": "اِ… فید، لطفاً. مثل این عکس. ولی… خیلی کوتاه نه.",
@@ -178,7 +178,7 @@
      "keywords": [
       "scissors",
       "length",
-      "just",
+      "tidy",
       "yeah",
       "keep"
      ],
@@ -305,10 +305,10 @@
     {
      "keywords": [
       "front",
-      "still",
       "could",
-      "more",
-      "long"
+      "still",
+      "long",
+      "take"
      ],
      "suggestion": "Could you take a bit more off the top? It's still a bit long at the front.",
      "suggestionFa": "میشه یه‌کم بیشتر از بالا کوتاه کنی؟ جلوش هنوز یه‌کم بلنده.",
@@ -372,9 +372,9 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "twenty",
       "change",
+      "twenty",
+      "that's",
       "right",
       "five"
      ],

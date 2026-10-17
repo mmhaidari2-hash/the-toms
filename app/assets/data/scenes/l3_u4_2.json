@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "more",
       "here",
+      "more",
       "lot",
       "go"
      ],
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "thermostat",
-      "could",
       "maybe",
-      "down"
+      "could",
+      "turn"
      ],
      "suggestion": "Maybe we could turn the thermostat down a bit.",
      "suggestionFa": "شاید بتونیم ترموستات را یه کم پایین بیاریم.",
@@ -87,8 +87,8 @@
      "keywords": [
       "shorter",
       "showers",
-      "i'll",
-      "have"
+      "have",
+      "i'll"
      ],
      "suggestion": "I'll try to have shorter showers too.",
      "suggestionFa": "من هم سعی می‌کنم دوش کوتاه‌تر بگیرم.",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "could",
       "times",
+      "could",
       "cook",
       "week"
      ],
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "like",
-      "rent",
       "more",
-      "help"
+      "help",
+      "like",
+      "rent"
      ],
      "suggestion": "I'd like to pay a bit more rent to help.",
      "suggestionFa": "دوست دارم یه کم اجارهٔ بیشتری بدم کمک کنم.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "meal",
+      "next",
       "week",
-      "next"
+      "meal",
+      "plan"
      ],
      "suggestion": "Deal. I'll make a meal plan for next week.",
      "suggestionFa": "قبول. برای هفتهٔ بعد برنامهٔ غذایی می‌نویسم.",

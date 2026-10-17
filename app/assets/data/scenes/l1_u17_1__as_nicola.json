@@ -47,8 +47,8 @@
     {
      "keywords": [
       "orange",
-      "squash",
       "please",
+      "squash",
       "water"
      ],
      "suggestion": "Not water. Squash, please! Orange squash.",
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "cupboard",
-      "squash",
       "strong",
       "little",
+      "squash",
       "water"
      ],
      "suggestion": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "fridge",
-      "bottle",
       "drinks",
+      "bottle",
+      "fridge",
       "cross",
       "mummy"
      ],
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "green",
-      "want",
+      "which",
+      "blue",
       "milk",
-      "blue"
+      "want"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
+      "green",
       "likes",
       "daddy",
-      "green",
-      "half",
-      "blue"
+      "blue",
+      "half"
      ],
      "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
      "suggestionFa": "آبی پرچربه. سبز نصفه. قرمز بی‌چربی. بابا آبی دوست داره!",
@@ -198,8 +198,8 @@
       "cheers",
       "that's",
       "grown",
-      "say",
-      "ups"
+      "ups",
+      "say"
      ],
      "suggestion": "Cheers! That's what grown-ups say. Cheers!",
      "suggestionFa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!",
@@ -220,8 +220,8 @@
    "branches": [
     {
      "keywords": [
-      "spilled",
       "biscuit",
+      "spilled",
       "don't",
       "mummy",
       "clink"

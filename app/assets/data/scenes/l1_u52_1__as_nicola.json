@@ -71,9 +71,9 @@
     {
      "keywords": [
       "kitchen",
+      "sink",
       "roll",
       "help",
-      "sink",
       "can"
      ],
      "suggestion": "The kitchen roll is by the sink. Can I help?",
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "knocked",
-      "wiping",
       "happen",
+      "wiping",
       "elbow",
       "how"
      ],
@@ -122,8 +122,8 @@
      "keywords": [
       "sticking",
       "sticky",
-      "socks",
       "floor",
+      "socks",
       "now"
      ],
      "suggestion": "Now the floor is sticky! My socks are sticking! Ew!",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "gentle",
       "dizzy",
       "wash"

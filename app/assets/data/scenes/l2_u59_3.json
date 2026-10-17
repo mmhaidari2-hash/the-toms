@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "mean",
       "dust",
-      "gold",
-      "mean"
+      "gold"
      ],
      "suggestion": "Gold dust? What do you mean?",
      "suggestionFa": "کیمیا؟ منظورت چیه؟",
@@ -192,9 +192,9 @@
     {
      "keywords": [
       "tickets",
-      "orient",
       "pounds",
-      "twenty"
+      "twenty",
+      "orient"
      ],
      "suggestion": "Dave said Orient tickets are only twenty pounds.",
      "suggestionFa": "دیو گفت بلیت اورینت فقط بیست پونده.",
@@ -254,9 +254,9 @@
     },
     {
      "keywords": [
-      "post",
-      "will",
       "come",
+      "will",
+      "post",
       "by"
      ],
      "suggestion": "Will the tickets come by post?",

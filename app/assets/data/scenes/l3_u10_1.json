@@ -22,7 +22,7 @@
       "education",
       "because",
       "should",
-      "think"
+      "right"
      ],
      "suggestion": "I'll start. I think it should be free, because education is a right.",
      "suggestionFa": "من شروع می‌کنم. فکر می‌کنم باید رایگان باشه، چون آموزش یه حقه.",
@@ -80,8 +80,8 @@
     {
      "keywords": [
       "educated",
-      "that's",
       "people",
+      "that's",
       "later"
      ],
      "suggestion": "That's true, but educated people pay more tax later.",
@@ -93,8 +93,8 @@
     {
      "keywords": [
       "disagree",
-      "point",
       "still",
+      "point",
       "see"
      ],
      "suggestion": "I see your point, but I still disagree.",
@@ -152,8 +152,8 @@
      "keywords": [
       "degrees",
       "doors",
-      "sure",
-      "open"
+      "open",
+      "sure"
      ],
      "suggestion": "I'm not so sure. Degrees open a lot of doors.",
      "suggestionFa": "زیاد مطمئن نیستم. مدرک کلی در را باز می‌کنه.",
@@ -208,10 +208,10 @@
     },
     {
      "keywords": [
-      "choice",
       "people",
-      "give",
-      "more"
+      "choice",
+      "more",
+      "less"
      ],
      "suggestion": "More or less. Give people a real choice.",
      "suggestionFa": "کم و بیش. به مردم یه انتخاب واقعی بدیم.",

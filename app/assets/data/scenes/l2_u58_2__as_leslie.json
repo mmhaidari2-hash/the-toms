@@ -24,8 +24,8 @@
       "picturehouse",
       "paddington",
       "saturday",
-      "website",
-      "hackney"
+      "hackney",
+      "website"
      ],
      "suggestion": "The new Paddington film's out! The Hackney Picturehouse has it on Saturday. Can you help me book? The website hates me.",
      "suggestionFa": "فیلم جدید پدینگتون اومده! سینمای هکنی پیکچرهاوس شنبه داره. کمکم می‌کنی رزرو کنم؟ سایتش ازم متنفره.",
@@ -50,7 +50,7 @@
       "children",
       "tickets",
       "fifteen",
-      "eleven"
+      "adults"
      ],
      "suggestion": "The eleven a.m. Before William's nap — or he'll scream. Tickets: two adults and three children. Is Ryan a child? He's fifteen.",
      "suggestionFa": "ساعت یازده صبح. قبل از خواب ویلیام — وگرنه جیغ می‌زنه. بلیت: دو بزرگسال و سه بچه. رایان بچه حساب میشه؟ پونزده سالشه.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "family",
-      "people",
       "ticket",
+      "people",
+      "family",
       "he'll",
-      "price"
+      "adult"
      ],
      "suggestion": "An adult! He'll love that. Ooh — and is there a family ticket? Four people for one price? Have a look.",
      "suggestionFa": "بزرگسال! خوشش میاد. اوه — و بلیت خانوادگی هست؟ چهار نفر با یه قیمت؟ یه نگاه بنداز.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "family",
-      "turned",
       "ticket",
-      "three",
-      "would"
+      "turned",
+      "family",
+      "adult",
+      "three"
      ],
      "suggestion": "He turned three last month, so no! Family ticket plus one adult — Tom or me. Now, seats. Where would you like to sit?",
      "suggestionFa": "ماه پیش سه سالش شد، پس نه! بلیت خانوادگی به‌اضافهٔ یه بزرگسال — تام یا من. حالا جاها. کجا می‌خوای بشینی؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "thirteen",
       "learning",
-      "nicola",
+      "thirteen",
       "toilet",
-      "needs"
+      "nicola",
+      "three"
      ],
      "suggestion": "The aisle! You're learning. Nicola needs the toilet three times per film. Row G, seats eight to thirteen. Click!",
      "suggestionFa": "راهرو! داری یاد می‌گیری. نیکولا هر فیلم سه بار دستشویی لازم داره. ردیف G، صندلی هشت تا سیزده. کلیک!",
@@ -174,8 +174,8 @@
       "paddington",
       "saturday",
       "o'clock",
-      "eleven",
-      "lovely"
+      "lovely",
+      "eleven"
      ],
      "suggestion": "Lovely. Saturday, eleven o'clock, Row G. Now I just need to stop Tom from doing his Paddington voice the whole way there.",
      "suggestionFa": "عالی. شنبه، ساعت یازده، ردیف G. حالا فقط باید جلوی تام را بگیرم که کل مسیر صدای پدینگتون درنیاره.",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "saturday",
-      "invited",
       "evening",
+      "invited",
       "priya's",
-      "family"
+      "diwali"
      ],
      "suggestion": "Mehdi, guess what? We've been invited to Priya's for Diwali! Saturday evening. Her whole family will be there.",
      "suggestionFa": "{you}، حدس بزن چی شده؟ برای دیوالی به خونهٔ پریا دعوت شدیم! شنبه عصر. همهٔ خانواده‌اش اونجان.",
@@ -48,8 +48,8 @@
      "keywords": [
       "darkness",
       "festival",
-      "invited",
       "winning",
+      "invited",
       "lights"
      ],
      "suggestion": "Of course you're invited! Diwali is the Hindu festival of lights. It's about light winning over darkness. Good over bad.",
@@ -74,8 +74,8 @@
       "pomegranates",
       "longest",
       "should",
-      "yalda",
-      "night"
+      "night",
+      "don't"
      ],
      "suggestion": "Yalda! The longest night, with pomegranates? You told us. Same idea! Now, what should we bring? I don't want to get it wrong.",
      "suggestionFa": "یلدا! طولانی‌ترین شب، با انار؟ برامون تعریف کردی. همون فکره! حالا، چی ببریم؟ نمی‌خوام اشتباه کنم.",
@@ -99,8 +99,8 @@
       "shouldn't",
       "perfect",
       "parents",
-      "called",
-      "people"
+      "sweets",
+      "called"
      ],
      "suggestion": "Sweets — perfect! Priya says people share sweets called mithai. And we shouldn't bring wine. Her parents don't drink.",
      "suggestionFa": "شیرینی — عالیه! پریا میگه مردم شیرینی‌ای به اسم میتای با هم تقسیم می‌کنن. و نباید شراب ببریم. پدر و مادرش مشروب نمی‌خورن.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
+      "coloured",
       "patterns",
       "there'll",
-      "coloured",
       "rangoli",
-      "called"
+      "powder"
      ],
      "suggestion": "Lovely. Oh, and there'll be little oil lamps called diyas, and rangoli — patterns on the floor in coloured powder.",
      "suggestionFa": "عالیه. آهان، و چراغ‌های روغنی کوچیکی به اسم دیا هست، و رنگولی — طرح‌هایی روی زمین با پودر رنگی.",
@@ -149,7 +149,7 @@
       "something",
       "colourful",
       "finally",
-      "chance",
+      "orange",
       "bright"
      ],
      "suggestion": "Priya said wear something bright and colourful. Tom's got that orange shirt. Finally, a chance to wear it!",
@@ -174,7 +174,7 @@
       "everything",
       "samosas",
       "priya's",
-      "famous",
+      "street",
       "that's"
      ],
      "suggestion": "Easy — \"Happy Diwali!\" That's it. And try everything they give you. Priya's mum's samosas are famous on Mare Street!",
@@ -199,8 +199,8 @@
       "saturday",
       "clothes",
       "o'clock",
-      "bright",
-      "diwali"
+      "sweets",
+      "bright"
      ],
      "suggestion": "Me too! Right — sweets, bright clothes, \"Happy Diwali\", and no wine. Saturday, seven o'clock. I can't wait!",
      "suggestionFa": "منم! خب — شیرینی، لباس روشن، «دیوالی مبارک»، و شراب نه. شنبه، ساعت هفت. بی‌صبرانه منتظرم!",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "haven't",
-      "one",
-      "got"
+      "got",
+      "one"
      ],
      "suggestion": "No, I haven't got one. What is it?",
      "suggestionFa": "نه، ندارم. چی هست؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "loyalty",
-      "card",
-      "free"
+      "free",
+      "card"
      ],
      "suggestion": "A loyalty card? Is it free?",
      "suggestionFa": "کارت باشگاه مشتریان؟ مجانیه؟",
@@ -68,9 +68,9 @@
     {
      "keywords": [
       "pounds",
-      "get",
+      "how",
       "two",
-      "how"
+      "get"
      ],
      "suggestion": "Two pounds! How do I get one?",
      "suggestionFa": "دو پوند! چطوری یکی بگیرم؟",
@@ -241,8 +241,8 @@
      "keywords": [
       "haven't",
       "cat's",
-      "i'll",
-      "name"
+      "name",
+      "i'll"
      ],
      "suggestion": "Ha! I'll use my cat's name. I haven't got a cat.",
      "suggestionFa": "ها! اسم گربه‌ام را می‌ذارم. من گربه ندارم.",
@@ -285,9 +285,9 @@
     },
     {
      "keywords": [
+      "that's",
       "hourly",
       "better",
-      "that's",
       "than"
      ],
      "suggestion": "That's better than my hourly pay!",

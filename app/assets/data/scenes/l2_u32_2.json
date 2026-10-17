@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "where",
       "start",
       "towel",
-      "where",
       "we"
      ],
      "suggestion": "Yes, and a towel. Where do we start?",
@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "speed",
-      "right"
+      "right",
+      "speed"
      ],
      "suggestion": "Is this speed right?",
      "suggestionFa": "این سرعت درسته؟",
@@ -135,8 +135,8 @@
      "keywords": [
       "walking",
       "easy",
-      "run",
-      "can"
+      "can",
+      "run"
      ],
      "suggestion": "Walking is easy. Can I run?",
      "suggestionFa": "راه رفتن آسونه. می‌تونم بدوم؟",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "every",
-      "i'll",
+      "wipe",
       "time",
-      "wipe"
+      "i'll"
      ],
      "suggestion": "I'll wipe it. Every time.",
      "suggestionFa": "تمیزش می‌کنم. هر بار.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "should",
+      "that's",
       "times",
-      "fair"
+      "many"
      ],
      "suggestion": "That's fair. How many times should I lift?",
      "suggestionFa": "منصفانه‌ست. چند بار بلند کنم؟",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "shaking",
-      "ouch",
-      "arms"
+      "arms",
+      "ouch"
      ],
      "suggestion": "Ouch. My arms are shaking!",
      "suggestionFa": "آخ. دستام داره می‌لرزه!",

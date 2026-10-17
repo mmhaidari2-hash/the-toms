@@ -32,11 +32,11 @@
 ## Growth & Monetisation Strategy (added 2026-10-16)
 ### Revenue
 - Freemium: A0–A2 + Tom's home free; B1+ via subscription (~£7.99/mo, £49/yr).
-- Themed packs: IELTS / Life in the UK prep, NHS workplace English, job interview, banking & housing.
+- Themed packs: English-for-exams / Life in the UK prep (original questions; not affiliated with the Home Office), NHS workplace English, job interview, banking & housing.
 - B2B: colleges, local councils, refugee charities, employers of overseas workers (care, warehouse).
 - Live tutor add-on: 15-min calls with British tutors, revenue share.
 ### Global growth
-- AI voice conversation with characters (British accents, pronunciation feedback) — key differentiator vs Duolingo.
+- AI voice conversation with characters (British accents, pronunciation feedback) — a key differentiator (British, not American, English).
 - Weekly serialised episodes of Tom's family life (retention).
 - Regional accents: London, Manchester, Scotland, Wales, Liverpool.
 - Same engine/brand, new families: US, Australia, Canada.
@@ -50,12 +50,12 @@
 
 ## Monetisation — 20 ideas
 
-1. **Visa & citizenship exam tracks** — Life in the UK test prep, IELTS Life Skills A1/B1, plus NHS, job-interview and Universal Credit English.
+1. **Visa & citizenship exam tracks** — Life in the UK test prep (original questions, not affiliated with the Home Office), English for speaking-and-listening exams at A1/B1 (no exam trade marks in store text), plus NHS, job-interview and Universal Credit English.
 2. **B2B licences** — councils, refugee charities, FE colleges, NHS trusts.
 3. **Family plan** — one subscription for the whole household.
 4. **Premium AI voice tutor** — open conversation with the family characters.
 5. **Paid story chapters** — new seasons with the Toms.
-6. **Official level certificates** — CEFR-aligned and shareable.
+6. **Level completion certificates** — aligned to CEFR descriptors, shareable, clearly labelled "Not an accredited qualification. CEFR level is an indication only."
 7. **Employer partnerships** — care, warehouse and hospitality onboarding English.
 8. **20 helper languages** — reach every big migrant community.
 9. **Pre-arrival edition** — learn before you move to the UK.
@@ -125,7 +125,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 
 ## Positioning: the only truly British English app
 
-**Core differentiator.** Duolingo and most of the big apps teach American English, or a neutral English that leans American. The Toms teaches British English all the way through: the vocabulary, the spelling, the accents (Received Pronunciation plus friendly regional voices), and real daily life in a British family home.
+**Core differentiator.** Most of the big apps teach American English, or a neutral English that leans American. The Toms teaches British English all the way through: the vocabulary, the spelling, the accents (Received Pronunciation plus friendly regional voices), and real daily life in a British family home.
 
 ### Content rules (non-negotiable)
 - Always use British spelling: colour, favourite, mum, organise, centre, programme, cosy, pyjamas, grey, tyre.
@@ -137,7 +137,7 @@ Profession-specific English tracks led by a family member who does that job, bui
 ### Store listing / ASO
 - **Title:** The Toms: British English Life
 - **Subtitle (30 chars):** Speak real British English
-- **Keywords:** british english, uk english, learn english uk, british accent, english for uk, ielts, life in the uk, move to uk, english farsi, persian english, british pronunciation, english conversation, esol
+- **Keywords:** british english, uk english, learn english uk, british accent, english for uk, english for exams, life in the uk test practice, move to uk, english farsi, persian english, british pronunciation, english conversation, esol  *(no "ielts", "duolingo", "official", "certified" or other brands' names in store metadata — Apple 2.3.7; see docs/LEGAL_REVIEW.md §11)*
 - **First screenshot caption:** "Not American. Not textbook. Real British English, at home with the Toms."
 - Localised listings for Farsi, Arabic, Urdu, Ukrainian, Polish and Turkish speakers moving to the UK.
 
@@ -146,11 +146,11 @@ Profession-specific English tracks led by a family member who does that job, bui
 - "Cuppa, queue, cheers — English, the British way."
 - "Your British family, in your pocket."
 - "Move to the UK sounding like you already live here."
-- "Duolingo says 'cookie'. Nana says 'biscuit'."
+- "Other apps say 'cookie'. Nana says 'biscuit'." (no competitor names in ads or store text)
 
 ### Marketing
 - Short videos: "British vs American in 10 seconds" (queue/line…), Nana's tea rules, "Words Americans get wrong in the UK".
-- Partner with relocation services, UK universities' international offices, ESOL colleges, NHS international-recruitment teams, and IELTS/Life in the UK prep.
+- Partner with relocation services, UK universities' international offices, ESOL colleges, NHS international-recruitment teams, and exam / Life in the UK prep providers.
 - Find the communities where people talk about moving to the UK (Farsi, Arabic and Ukrainian Telegram and Instagram groups).
 - In-app share card: "I'm learning British English with the Toms".
 - B2B pitch: "Onboard staff into British workplace English."
@@ -191,9 +191,9 @@ Profession-specific English tracks led by a family member who does that job, bui
 4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges.
 5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder.
 6. **Park games**: matching, find-the-object in a painting, speed rounds.
-7. **Life in the UK test prep** (in the Library; premium pack candidate).
+7. **Life in the UK test prep** (in the Library; premium pack candidate; **not affiliated with or endorsed by the Home Office**; original summaries and questions only, no copying or translating handbook text; point users to the official handbook and GOV.UK booking).
 8. **Seasonal events**: Christmas, Halloween, Bonfire Night, Nowruz, Easter — themed town + special lessons.
-9. **Driving School** (premium candidate): instructor English (mirror-signal-manoeuvre, roundabouts, test day) tied to Ryan at 17; Theory Test prep with Highway Code vocabulary, road signs, **original** practice questions (never DVSA's bank), mock tests, Hazard Perception explainer.
+9. **Driving School** (premium candidate; **not affiliated with or endorsed by DVSA**; original questions only, each logged against a Highway Code rule; OGL attribution for the Highway Code and sign images; no DVSA questions, hazard clips, logos or "official" claims without a DVSA licence; call it "hazard awareness practice"): instructor English (mirror-signal-manoeuvre, roundabouts, test day) tied to Ryan at 17; Theory Test prep with Highway Code vocabulary, road signs, **original** practice questions (never DVSA's bank), mock tests, Hazard Perception explainer.
 10. **London Tour** (red sightseeing-bus spot): Big Ben/Elizabeth Tower, Parliament, Westminster Abbey, Buckingham Palace, Tower of London, Tower Bridge, London Bridge, St Paul's, London Eye, British Museum, Trafalgar Square, Camden, Greenwich…; guide narration with web-verified history, Persian, saveable words, quiz, XP; the family tags along; A2–B2 versions.
 11. **UK accents** (Cockney, Scouse, Geordie, Scottish, Welsh, Brummie…) listening with comprehension.
 12. **Phone-call simulator** (GP, bank, energy, school), audio only, hint button — phone box spot.
@@ -203,3 +203,11 @@ Profession-specific English tracks led by a family member who does that job, bui
 16. **Family mode**: parents + kids learn together (kids play Nicola/William), parent progress view — home.
 17. **AI coach "My mistakes"** notebook generating personal practice — home.
 Then Parts 3–5: AI tutor scaffold, Android build, payments scaffold.
+
+### Legal fixes (2026-10-17, from docs/LEGAL_REVIEW.md)
+- Mic wording corrected (EN+FA): speech-to-text is done by the browser's service (Google in Chrome, Apple in Safari), which may process audio on its servers; The Toms never stores or sends recordings itself.
+- Certificates: "Awarded to … for completing The Toms course content", "aligned to CEFR descriptors", and "Not an accredited qualification. CEFR level is an indication only." on the certificate itself.
+- Career Packs: a "Please note" disclaimer on every pack page (language practice only, not training or a qualification; follow your workplace's policies); the nursery pack adds the England-only EYFS context, the ratio caveat (1:8 for 3–5s, 1:13 with a qualified teacher; check your setting) and "does not replace safeguarding / paediatric first aid / Level 2–3 training". The u02 ratio culture note now says the same.
+- New **Privacy, terms & about** screen (`/legal`, menu item): draft Privacy Policy and Terms of Use in EN+FA with placeholders [BUSINESS NAME], [POSTAL ADDRESS], [CONTACT EMAIL]; accurate about local-only storage, no accounts/analytics/ads, speech via the browser, GitHub Pages logs, synthetic voices, trade-mark and non-affiliation lines. Needs a solicitor's review and a public URL before store submission.
+- IMAGE_PROMPTS: "roundel" removed; no-logos rule added. Store keywords and taglines: no Duolingo/IELTS/official.
+- Still open (not code): licensed TTS re-render before charging (edge-tts is personal-use only), ICO fee, DPIA before Family Mode/AI chat, trade-mark search for "The Toms".

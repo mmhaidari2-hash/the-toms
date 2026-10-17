@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "socks",
       "pairs",
       "these",
-      "look",
-      "help"
+      "socks",
+      "help",
+      "look"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
      "suggestionFa": "این همه جوراب را ببین! کمکم می‌کنی؟ باید جفت‌ها را پیدا کنیم.",
@@ -48,9 +48,9 @@
      "keywords": [
       "another",
       "stars",
-      "blue",
       "sock",
-      "see"
+      "blue",
+      "one"
      ],
      "suggestion": "This sock is blue with stars. Can you see another blue one?",
      "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
@@ -99,7 +99,7 @@
       "william's",
       "aren't",
       "sweet",
-      "one's",
+      "these",
       "white"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
+      "these",
       "tom's",
       "socks",
-      "these",
-      "hole"
+      "grey"
      ],
      "suggestion": "And these big grey socks are Tom's. They've got a hole!",
      "suggestionFa": "و این جوراب‌های طوسی بزرگ مال تامه. سوراخ دارن!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "where's",
-      "other",
       "green",
+      "other",
       "sock",
       "one"
      ],
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "disappear",
-      "washing",
       "machine",
+      "washing",
       "always",
       "socks"
      ],
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "nobody",
-      "count",
-      "pairs",
       "knows",
-      "them"
+      "pairs",
+      "count",
+      "have"
      ],
      "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
      "suggestionFa": "هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "drawers",
-      "let's",
-      "eight",
+      "thank",
       "pairs",
-      "thank"
+      "eight",
+      "let's"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",
      "suggestionFa": "هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!",

@@ -24,8 +24,8 @@
       "sandwiches",
       "lunchtime",
       "making",
-      "yours",
-      "would"
+      "would",
+      "yours"
      ],
      "suggestion": "Lunchtime! I'm making sandwiches. What would you like in yours?",
      "suggestionFa": "وقت ناهار! دارم ساندویچ درست می‌کنم. تو مال خودت چی می‌خوای؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "butter",
-      "brown",
       "bread",
+      "brown",
       "want"
      ],
      "suggestion": "Brown bread. Do you want butter on it?",
@@ -96,8 +96,8 @@
     {
      "keywords": [
       "classic",
-      "cheese",
       "pickle",
+      "cheese",
       "sweet",
       "brown"
      ],
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "triangles",
-      "drink",
       "would",
       "fancy",
+      "drink",
       "like"
      ],
      "suggestion": "Triangles. Fancy. Would you like a drink with it?",
@@ -220,9 +220,9 @@
    "branches": [
     {
      "keywords": [
-      "garden",
       "please",
-      "let's",
+      "garden",
+      "right",
       "small",
       "sunny"
      ],

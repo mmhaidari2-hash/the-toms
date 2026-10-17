@@ -22,7 +22,7 @@
       "anything",
       "that's",
       "better",
-      "there"
+      "doing"
      ],
      "suggestion": "That's good to hear. Is there anything I could be doing better?",
      "suggestionFa": "خوشحالم می‌شنوم. چیزی هست که بتونم بهتر انجامش بدم؟",
@@ -35,7 +35,7 @@
       "enjoyed",
       "really",
       "thank",
-      "work"
+      "i've"
      ],
      "suggestion": "Thank you. I've really enjoyed the work so far.",
      "suggestionFa": "ممنون. تا حالا واقعاً از کار لذت بردم.",
@@ -93,7 +93,7 @@
       "appreciate",
       "deadlines",
       "raising",
-      "tight"
+      "quite"
      ],
      "suggestion": "I appreciate you raising it. The deadlines were quite tight.",
      "suggestionFa": "ممنون که مطرحش کردید. مهلت‌ها خیلی تنگ بودن.",
@@ -193,10 +193,10 @@
    "branches": [
     {
      "keywords": [
-      "interested",
       "leadership",
-      "possible",
-      "training"
+      "interested",
+      "training",
+      "possible"
      ],
      "suggestion": "I'd be interested in some leadership training, if possible.",
      "suggestionFa": "اگه ممکن باشه، به آموزش رهبری علاقه دارم.",
@@ -206,8 +206,8 @@
     },
     {
      "keywords": [
-      "software",
       "struggle",
+      "software",
       "honest",
       "been"
      ],

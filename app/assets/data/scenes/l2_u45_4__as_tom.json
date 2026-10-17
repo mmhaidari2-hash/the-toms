@@ -24,8 +24,8 @@
       "leslie's",
       "nothing",
       "william",
-      "ballet",
-      "taking"
+      "taking",
+      "please"
      ],
      "suggestion": "Help. Leslie's taking William to a party, so I'm on ballet duty. I know nothing about ballet. Come with me? Please?",
      "suggestionFa": "کمک. لزلی ویلیام را برده مهمونی، پس نوبت بالهٔ منه. هیچی دربارهٔ باله نمی‌دونم. با من میای؟ لطفاً؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "minutes",
       "starts",
-      "church",
       "change",
+      "church",
       "leslie"
      ],
      "suggestion": "Since last week! It starts at ten, in the church hall. We have to be there ten minutes early to change. Leslie wrote a list.",
@@ -73,8 +73,8 @@
      "keywords": [
       "ponytail",
       "leotard",
-      "ballet",
       "tights",
+      "ballet",
       "shoes"
      ],
      "suggestion": "\"Pink leotard, tights, ballet shoes, hair in a bun.\" A bun! I can do a ponytail, but a bun? Can you do a bun?",
@@ -98,9 +98,9 @@
      "keywords": [
       "youtube",
       "wobbly",
-      "where",
       "we're",
-      "later"
+      "video",
+      "right"
      ],
      "suggestion": "Ten pins and one YouTube video later… it's a bun. A wobbly bun. Right, we're here. Where do I take her?",
      "suggestionFa": "ده تا سنجاق و یه ویدیوی یوتیوب بعد… گوجه شد. یه گوجهٔ لق. خب، رسیدیم. کجا ببرمش؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "children",
       "allowed",
-      "nicola",
+      "change",
       "excuse",
-      "change"
+      "nicola"
      ],
      "suggestion": "Excuse me, where do I take Nicola? Ah — she says the children change in the side room, then go in alone. Am I allowed to watch?",
      "suggestionFa": "ببخشید، نیکولا را کجا ببرم؟ آه — میگه بچه‌ها تو اتاق کناری لباس عوض می‌کنن، بعد تنها میرن تو. اجازه دارم تماشا کنم؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "beautiful",
       "elephants",
+      "beautiful",
       "thumping",
       "dancers",
-      "twelve"
+      "sounds"
      ],
      "suggestion": "Listen — piano music. And thumping. Twelve little dancers, thumping. It sounds like elephants. Beautiful elephants.",
      "suggestionFa": "گوش کن — موسیقی پیانو. و صدای کوبیدن. دوازده رقصندهٔ کوچولو، می‌کوبن. شبیه فیل‌هاست. فیل‌های قشنگ.",
@@ -199,8 +199,8 @@
       "everywhere",
       "totally",
       "time's",
-      "daddy",
-      "comes"
+      "first",
+      "bun's"
      ],
      "suggestion": "Time's up! Here she comes. And… the bun's gone. Totally gone. Hair everywhere. \"Daddy, my bun fell out in the first spin!\"",
      "suggestionFa": "وقت تموم شد! ایناهاش داره میاد. و… گوجه رفت. کاملاً رفت. مو همه‌جا. «بابایی، گوجه‌ام تو اولین چرخش باز شد!»",
@@ -223,8 +223,8 @@
      "keywords": [
       "ballerina",
       "ponytail",
-      "famous",
       "leslie",
+      "famous",
       "going"
      ],
      "suggestion": "She says it was \"the best day ever\" and she's going to be a famous ballerina. With a ponytail. Leslie can do the bun next week.",

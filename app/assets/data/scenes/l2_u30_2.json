@@ -20,8 +20,8 @@
     {
      "keywords": [
       "outside",
-      "kept",
-      "cash"
+      "cash",
+      "kept"
      ],
      "suggestion": "The cash machine outside kept my card!",
      "suggestionFa": "خودپرداز بیرون کارتم را نگه داشت!",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "entered",
-      "three",
       "wrong",
-      "times"
+      "times",
+      "three"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
      "suggestionFa": "آره. سه بار رمز اشتباه زدم.",
@@ -87,8 +87,8 @@
      "keywords": [
       "didn't",
       "come",
-      "out",
-      "put"
+      "put",
+      "out"
      ],
      "suggestion": "No! I put it in and it didn't come out.",
      "suggestionFa": "نه! گذاشتمش تو و بیرون نیومد.",
@@ -193,9 +193,9 @@
    "branches": [
     {
      "keywords": [
+      "when",
       "card",
       "will",
-      "when",
       "get"
      ],
      "suggestion": "When will I get the new card?",
@@ -207,9 +207,9 @@
     {
      "keywords": [
       "cancel",
-      "phone",
       "still",
-      "use"
+      "phone",
+      "can"
      ],
      "suggestion": "Cancel it? Can I still use my phone?",
      "suggestionFa": "باطلش کنید؟ هنوز می‌تونم از گوشیم استفاده کنم؟",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "days",
-      "food",
       "five",
+      "food",
       "how"
      ],
      "suggestion": "Five days? How do I buy food?",
@@ -314,8 +314,8 @@
      "keywords": [
       "fifty",
       "take",
-      "out",
-      "can"
+      "can",
+      "out"
      ],
      "suggestion": "Can I take out fifty pounds?",
      "suggestionFa": "می‌تونم پنجاه پوند بردارم؟",
@@ -351,7 +351,7 @@
      "keywords": [
       "changed",
       "forgot",
-      "last",
+      "week",
       "know"
      ],
      "suggestion": "I know. I changed it last week and forgot!",
@@ -364,8 +364,8 @@
      "keywords": [
       "advice",
       "thank",
-      "much",
-      "good"
+      "good",
+      "much"
      ],
      "suggestion": "Good advice. Thank you so much, Siân.",
      "suggestionFa": "توصیهٔ خوبیه. خیلی ممنون شان.",

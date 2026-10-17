@@ -20,14 +20,14 @@ Style prefix: "Warm painterly realistic illustration, soft golden light, cosy Br
 "Warm painterly realistic illustration, soft golden light, bird's-eye isometric view of a London borough (Hackney), same style as map.webp.
 Every building clearly readable with a painted shop sign: the Toms' red-brick terraced house (front, centre-bottom); Mia's house; a red 38
 double-decker bus at a bus stop; St Mary's primary school with playground; Vida's Nursery (colourful, small garden); London Fields park with
-pond and swings; an Overground/Tube station with roundel sign and clock tower; Callum's café (red awning); The Copper Kettle restaurant;
+pond and swings; an Overground/Tube-style station with a generic round station sign (no TfL roundel) and clock tower; Callum's café (red awning); The Copper Kettle restaurant;
 Dawson's Pharmacy (green cross); a row of small shops (bakery, butcher, greengrocer, Sal's barber pole) and a Saturday market; a big
 supermarket with car park and trolleys; a shopping centre / retail park with Primark- and Argos-style fronts (no real logos); the library &
 Hackney Service Centre (council); a post office (red sign, post box); a bank; Mare Street GP surgery & dentist; Homerton Hospital (A&E sign,
 ambulance); a museum with columns; a cinema; a gym; The Red Lion pub; Mick's Motors garage + petrol station; offices (job interviews); a
 university campus. Leave a calm strip of sky at the top (UI overlays it). No real brand logos, no text other than short shop names."
 ## New scene paintings (lessons currently borrow the nearest painting)
-- tube: Underground platform, roundel, train arriving, Maya (train conductor, TfL uniform) and Tom; escalator in background. (U107; now uses `train`)
+- tube: underground platform with a generic station sign (no TfL roundel, logos or line diagrams), train arriving, Maya (train conductor, generic uniform) and Tom; escalator in background. (U107; now uses `train`)
 - hospital: Homerton outpatients reception + ward bay; Tom with George (76, cardigan, walking stick) in a hospital bed; nurse. (U108; now uses `doctor`)
 - museum: Natural History Museum hall with dinosaur skeleton, Nicola and William looking up, Tom with umbrella. (U109; now uses `train`/`restaurant`)
 - bigsupermarket: large Tesco/Sainsbury's/Asda-style aisles, self-checkout ("unexpected item"), staff member (new character) helping Ryan. (planned)
@@ -54,3 +54,5 @@ Graded-reader covers will use crops of the existing place paintings for now. Bes
 
 ### Planned: London Tour stop paintings (placeholders now)
 Same warm painterly style as the town map, no text/logos, the Thompsons small in the foreground where natural: Elizabeth Tower (Big Ben) from Westminster Bridge; Houses of Parliament from the river; Westminster Abbey west front; Buckingham Palace with the Victoria Memorial; Tower of London White Tower; Tower Bridge raised; London Bridge with the City behind; St Paul's Cathedral dome from Millennium Bridge; London Eye at dusk; British Museum Great Court; Trafalgar Square with Nelson's Column and lions; Camden Lock market; Greenwich Royal Observatory and the Cutty Sark. Plus a red open-top sightseeing bus map icon.
+
+> Legal (docs/LEGAL_REVIEW.md §3–4): never render real logos — no TfL roundel, NHS lozenge, royal arms/cyphers, Parliament portcullis or brand marks. Fictional characters only; no real people or "in the style of" living artists.

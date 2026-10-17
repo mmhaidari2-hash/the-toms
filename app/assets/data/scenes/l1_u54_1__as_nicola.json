@@ -25,7 +25,7 @@
       "decorate",
       "market",
       "daddy",
-      "tree"
+      "from"
      ],
      "suggestion": "The Christmas tree is here! Daddy got it from the market! Can you help me decorate it?",
      "suggestionFa": "درخت کریسمس رسید! بابا از بازار گرفتش! کمکم می‌کنی تزئینش کنیم؟",
@@ -50,7 +50,7 @@
       "lights",
       "daddy",
       "first",
-      "then"
+      "hold"
      ],
      "suggestion": "Daddy says lights first, then baubles. Can you hold this end?",
      "suggestionFa": "بابا میگه اول چراغ، بعد گوی‌ها. می‌تونی این سرش را بگیری؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "bottom",
       "shiny",
-      "small",
       "balls",
+      "small",
       "ones"
      ],
      "suggestion": "The shiny balls! Big ones at the bottom, small ones at the top.",
@@ -148,9 +148,9 @@
      "keywords": [
       "middle",
       "small",
-      "star",
       "goes",
-      "but"
+      "star",
+      "top"
      ],
      "suggestion": "In the middle! Now the star. It goes on top! But I'm too small.",
      "suggestionFa": "وسط! حالا ستاره. بالای درخت میره! ولی من خیلی کوچیکم.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "switch",
       "lights",
+      "switch",
       "ready",
       "there",
       "star"
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "christmas",
-      "world",
-      "trees",
       "magic",
-      "ooooh"
+      "trees",
+      "ooooh",
+      "world"
      ],
      "suggestion": "Ooooh! It's MAGIC! It's the best tree in the world! Do you have Christmas trees in Iran?",
      "suggestionFa": "اوووه! جادوییه! بهترین درخت دنیاست! تو ایران درخت کریسمس دارید؟",

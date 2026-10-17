@@ -80,8 +80,8 @@
     {
      "keywords": [
       "gentle",
-      "oscar",
       "hands",
+      "oscar",
       "use"
      ],
      "suggestion": "Oscar, we use gentle hands.",
@@ -123,7 +123,7 @@
       "william",
       "oscar",
       "feel",
-      "how"
+      "now"
      ],
      "suggestion": "Oscar, how does William feel now?",
      "suggestionFa": "اسکار، ویلیام الان چه حسی داره؟",
@@ -134,8 +134,8 @@
     {
      "keywords": [
       "train",
-      "both",
       "play",
+      "both",
       "can"
      ],
      "suggestion": "Can you both play with the train?",
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "saying",
-      "oscar",
       "thank",
-      "sorry"
+      "sorry",
+      "oscar"
      ],
      "suggestion": "Thank you for saying sorry, Oscar.",
      "suggestionFa": "ممنون که عذرخواهی کردی اسکار.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "train",
-      "well",
       "done",
-      "give"
+      "give",
+      "well"
      ],
      "suggestion": "Well done. Can you give him the train?",
      "suggestionFa": "آفرین. می‌تونی قطار را بهش بدی؟",
@@ -225,8 +225,8 @@
      "keywords": [
       "taking",
       "turns",
-      "idea",
-      "fair"
+      "fair",
+      "good"
      ],
      "suggestion": "Good idea. Taking turns is fair.",
      "suggestionFa": "فکر خوبیه. نوبتی بازی کردن منصفانه‌ست.",
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "oscar",
       "while",
+      "oscar",
       "wait",
       "want"
      ],

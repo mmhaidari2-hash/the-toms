@@ -21,7 +21,7 @@
      "keywords": [
       "usually",
       "take",
-      "but",
+      "bus",
       "bit"
      ],
      "suggestion": "A bit. But I usually take the bus.",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "yesterday",
-      "look",
       "only",
-      "two"
+      "look",
+      "let"
      ],
      "suggestion": "Let me look. Yesterday, only two thousand!",
      "suggestionFa": "بذار ببینم. دیروز فقط دو هزار!",
@@ -143,7 +143,7 @@
      "keywords": [
       "that's",
       "early",
-      "stop",
+      "good",
       "idea"
      ],
      "suggestion": "One stop early. That's a good idea.",
@@ -156,7 +156,7 @@
      "keywords": [
       "drives",
       "he'll",
-      "but",
+      "bus",
       "sad"
      ],
      "suggestion": "But Tom drives my bus! He'll be sad.",
@@ -250,8 +250,8 @@
      "keywords": [
       "sunday",
       "there",
-      "i'll",
-      "walk"
+      "walk",
+      "i'll"
      ],
      "suggestion": "I'll try to walk there on Sunday.",
      "suggestionFa": "سعی می‌کنم یکشنبه اونجا پیاده‌روی کنم.",
@@ -305,7 +305,7 @@
       "friends",
       "walking",
       "easier",
-      "idea"
+      "good"
      ],
      "suggestion": "Good idea. Walking with friends is easier.",
      "suggestionFa": "فکر خوبیه. پیاده‌روی با دوست‌ها راحت‌تره.",
@@ -317,7 +317,7 @@
      "keywords": [
       "thousand",
       "perfect",
-      "three",
+      "steps",
       "ducks"
      ],
      "suggestion": "Three thousand steps and ducks. Perfect!",

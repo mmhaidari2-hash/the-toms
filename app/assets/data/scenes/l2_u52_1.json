@@ -195,7 +195,7 @@
       "where",
       "park",
       "can",
-      "we"
+      "oh"
      ],
      "suggestion": "Oh no. Where can we park?",
      "suggestionFa": "وای نه. کجا می‌تونیم پارک کنیم؟",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "permit",
-      "won't",
       "happy",
+      "won't",
       "only"
      ],
      "suggestion": "Permit only? Tom won't be happy!",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "thank",
-      "i'll",
       "take",
-      "him"
+      "i'll",
+      "now"
      ],
      "suggestion": "Thank you. I'll take it to him now.",
      "suggestionFa": "ممنون. الان براش می‌برمش.",
@@ -302,8 +302,8 @@
      "keywords": [
       "breakfast",
       "lovely",
-      "time",
-      "view"
+      "view",
+      "time"
      ],
      "suggestion": "A sea view! Lovely. What time is breakfast?",
      "suggestionFa": "منظرهٔ دریا! عالی. صبحانه ساعت چنده؟",
@@ -315,8 +315,8 @@
      "keywords": [
       "there",
       "room",
-      "fi",
-      "wi"
+      "wi",
+      "fi"
      ],
      "suggestion": "Is there Wi-Fi in the room?",
      "suggestionFa": "تو اتاق وای‌فای هست؟",
@@ -360,8 +360,8 @@
      "keywords": [
       "eleven",
       "late",
-      "back",
-      "come"
+      "come",
+      "back"
      ],
      "suggestion": "Eleven? What if we come back late?",
      "suggestionFa": "یازده؟ اگه دیر برگشتیم چی؟",

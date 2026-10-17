@@ -93,7 +93,7 @@
       "circumstances",
       "changed",
       "until",
-      "true"
+      "have"
      ],
      "suggestion": "That was true until March, but circumstances have changed.",
      "suggestionFa": "تا مارس درست بود، ولی شرایط عوض شده.",
@@ -146,8 +146,8 @@
      "keywords": [
       "processed",
       "whether",
-      "could",
-      "check"
+      "check",
+      "could"
      ],
      "suggestion": "Could you check whether the April form was processed?",
      "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
@@ -234,9 +234,9 @@
    "branches": [
     {
      "keywords": [
-      "reminder",
       "received",
-      "that's",
+      "reminder",
+      "notice",
       "cancel"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
@@ -365,10 +365,10 @@
     },
     {
      "keywords": [
-      "anything",
       "entitled",
+      "anything",
       "helpful",
-      "that's"
+      "didn't"
      ],
      "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
      "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "resolved",
       "escalate",
+      "resolved",
       "isn't",
       "how"
      ],

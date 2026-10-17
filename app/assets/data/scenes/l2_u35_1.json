@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "coming",
+      "please",
       "return",
       "sunday"
      ],
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "evening",
-      "sure",
       "time",
+      "sure",
       "but"
      ],
      "suggestion": "Sunday evening. But I'm not sure what time.",
@@ -193,9 +193,9 @@
     {
      "keywords": [
       "return",
-      "much",
       "peak",
-      "how"
+      "much",
+      "off"
      ],
      "suggestion": "How much is the off-peak return?",
      "suggestionFa": "رفت‌وبرگشت ساعات خلوت چنده؟",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "going",
-      "then",
       "nine",
-      "back"
+      "back",
+      "then"
      ],
      "suggestion": "Nine for going, then off-peak back?",
      "suggestionFa": "نه پوند برای رفت، بعد برگشت ساعات خلوت؟",
@@ -259,10 +259,10 @@
     },
     {
      "keywords": [
-      "return",
       "stress",
-      "i'll",
-      "less"
+      "return",
+      "less",
+      "take"
      ],
      "suggestion": "I'll take the off-peak return. Less stress.",
      "suggestionFa": "رفت‌وبرگشت ساعات خلوت را می‌گیرم. استرس کمتر.",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "british",
-      "trains",
-      "puzzle"
+      "puzzle",
+      "trains"
      ],
      "suggestion": "British trains are a puzzle!",
      "suggestionFa": "قطارهای بریتانیا یه معمان!",
@@ -358,8 +358,8 @@
      "keywords": [
       "charger",
       "point",
-      "i'll",
-      "good"
+      "good",
+      "take"
      ],
      "suggestion": "Good point. I'll take my charger.",
      "suggestionFa": "نکتهٔ خوبیه. شارژرم را می‌برم.",
@@ -371,8 +371,8 @@
      "keywords": [
       "ticket",
       "paper",
-      "get",
-      "can"
+      "can",
+      "get"
      ],
      "suggestion": "Can I get a paper ticket too?",
      "suggestionFa": "بلیت کاغذی هم می‌تونم بگیرم؟",

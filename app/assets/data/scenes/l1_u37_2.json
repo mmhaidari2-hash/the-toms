@@ -125,8 +125,8 @@
    "branches": [
     {
      "keywords": [
-      "wellies",
       "haven't",
+      "wellies",
       "got"
      ],
      "suggestion": "I haven't got wellies.",
@@ -137,9 +137,9 @@
     },
     {
      "keywords": [
+      "door",
       "next",
       "home",
-      "door",
       "mine"
      ],
      "suggestion": "Mine are at home, next door.",
@@ -213,8 +213,8 @@
     {
      "keywords": [
       "thank",
-      "size",
-      "they"
+      "they",
+      "size"
      ],
      "suggestion": "Thank you. Are they my size?",
      "suggestionFa": "ممنون. اندازهٔ منن؟",

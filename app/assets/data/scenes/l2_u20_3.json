@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "brought",
       "problem",
+      "brought",
       "grapes",
       "some"
      ],
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "like",
-      "cold"
+      "cold",
+      "like"
      ],
      "suggestion": "Like this? It's very cold!",
      "suggestionFa": "این‌جوری؟ خیلی سرده!",
@@ -185,8 +185,8 @@
     },
     {
      "keywords": [
-      "food",
       "here",
+      "food",
       "ok"
      ],
      "suggestion": "Is the food OK here?",
@@ -236,8 +236,8 @@
      "keywords": [
       "anything",
       "george",
-      "need",
-      "poor"
+      "poor",
+      "need"
      ],
      "suggestion": "Poor George. Do you need anything?",
      "suggestionFa": "جورج بیچاره. چیزی لازم داری؟",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "tonight",
-      "coming",
-      "maggie"
+      "maggie",
+      "coming"
      ],
      "suggestion": "Is Maggie coming tonight?",
      "suggestionFa": "مگی امشب میاد؟",
@@ -323,7 +323,7 @@
       "george",
       "some",
       "rest",
-      "get"
+      "bye"
      ],
      "suggestion": "Bye, George. Get some rest!",
      "suggestionFa": "خداحافظ جورج. استراحت کن!",

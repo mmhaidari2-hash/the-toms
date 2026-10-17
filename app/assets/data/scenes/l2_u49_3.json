@@ -21,8 +21,8 @@
      "keywords": [
       "where's",
       "recipe",
-      "sure",
-      "love"
+      "love",
+      "sure"
      ],
      "suggestion": "Sure. I love cooking. Where's the recipe?",
      "suggestionFa": "حتماً. عاشق آشپزی‌ام. دستورش کجاست؟",
@@ -89,9 +89,9 @@
     {
      "keywords": [
       "fridge",
+      "helps",
       "onion",
-      "first",
-      "helps"
+      "first"
      ],
      "suggestion": "Put the onion in the fridge first. It helps!",
      "suggestionFa": "اول پیاز را بذار تو یخچال. کمک می‌کنه!",
@@ -157,7 +157,7 @@
       "minutes",
       "heat",
       "long",
-      "low"
+      "ten"
      ],
      "suggestion": "Low heat. Is ten minutes too long?",
      "suggestionFa": "حرارت کم. ده دقیقه زیاد نیست؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "turmeric",
       "iran",
-      "use",
-      "lot"
+      "lot",
+      "use"
      ],
      "suggestion": "We use turmeric in Iran too! A lot!",
      "suggestionFa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "william",
-      "eating",
       "nicola",
+      "eating",
       "three"
      ],
      "suggestion": "Three? William and Nicola are eating too!",
@@ -322,8 +322,8 @@
    "branches": [
     {
      "keywords": [
-      "already",
       "amazing",
+      "already",
       "smells"
      ],
      "suggestion": "It smells amazing already.",
@@ -337,7 +337,7 @@
       "coconut",
       "creamy",
       "makes",
-      "idea"
+      "good"
      ],
      "suggestion": "Coconut milk makes it creamy. Good idea.",
      "suggestionFa": "شیر نارگیل خامه‌ایش می‌کنه. فکر خوبیه.",
@@ -379,8 +379,8 @@
    "branches": [
     {
      "keywords": [
-      "needs",
       "lemon",
+      "needs",
       "more",
       "salt"
      ],
@@ -434,8 +434,8 @@
      "keywords": [
       "persian",
       "leave",
-      "rice",
-      "best"
+      "best",
+      "rice"
      ],
      "suggestion": "Leave the rice to me. Persian rice is the best!",
      "suggestionFa": "برنج را بسپار به من. برنج ایرانی بهترینه!",
@@ -446,9 +446,9 @@
     {
      "keywords": [
       "first",
+      "show",
       "wash",
-      "i'll",
-      "show"
+      "i'll"
      ],
      "suggestion": "I'll show you. Wash it first.",
      "suggestionFa": "نشونت میدم. اول بشورش.",

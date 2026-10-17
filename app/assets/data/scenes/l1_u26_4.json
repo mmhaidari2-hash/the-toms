@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "hurt",
       "feet",
+      "hurt",
       "but"
      ],
      "suggestion": "Yes, but my feet hurt.",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "went",
-      "park"
+      "park",
+      "went"
      ],
      "suggestion": "We went to the park.",
      "suggestionFa": "رفتیم پارک.",
@@ -261,9 +261,9 @@
    "branches": [
     {
      "keywords": [
+      "was",
       "how",
-      "day",
-      "was"
+      "day"
      ],
      "suggestion": "Yes, how was your day?",
      "suggestionFa": "آره، روزت چطور بود؟",

@@ -22,7 +22,7 @@
       "doesn't",
       "beeped",
       "light",
-      "work"
+      "went"
      ],
      "suggestion": "My Oyster card doesn't work. It beeped and the light went red.",
      "suggestionFa": "کارت اویسترم کار نمی‌کنه. بوق زد و چراغش قرمز شد.",
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "bus",
       "can",
+      "bus",
       "top",
       "up"
      ],
@@ -132,8 +132,8 @@
      "keywords": [
       "didn't",
       "free",
-      "know",
-      "cash"
+      "cash",
+      "know"
      ],
      "suggestion": "Cash-free? I didn't know that.",
      "suggestionFa": "بدون پول نقد؟ نمی‌دونستم.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "pounds",
-      "enough",
       "twenty",
+      "enough",
       "week"
      ],
      "suggestion": "So twenty pounds is enough for a week?",
@@ -245,8 +245,8 @@
      "keywords": [
       "different",
       "within",
-      "even",
-      "hour"
+      "hour",
+      "even"
      ],
      "suggestion": "Within one hour? Even a different bus?",
      "suggestionFa": "تو یه ساعت؟ حتی یه اتوبوس دیگه؟",
@@ -280,8 +280,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "pounds",
+      "please",
       "twenty",
       "hello"
      ],
@@ -340,8 +340,8 @@
      "keywords": [
       "happens",
       "oyster",
-      "card",
-      "lose"
+      "lose",
+      "card"
      ],
      "suggestion": "What happens if I lose my Oyster card?",
      "suggestionFa": "اگه کارتم را گم کنم چی میشه؟",

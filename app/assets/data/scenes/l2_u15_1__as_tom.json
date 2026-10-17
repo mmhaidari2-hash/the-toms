@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "worried",
+      "morning",
       "what's",
       "look",
       "work"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "corner",
       "london",
+      "corner",
       "buses",
-      "come",
-      "show"
+      "cash",
+      "shop"
      ],
      "suggestion": "Not on the bus, no. Buses are cash-free in London. The corner shop does it. Come on, I'll show you.",
      "suggestionFa": "تو اتوبوس نه. اتوبوس‌های لندن پول نقد قبول نمی‌کنن. مغازهٔ سر کوچه شارژ می‌کنه. بیا، نشونت میدم.",
@@ -99,8 +99,8 @@
       "there's",
       "seventy",
       "pounds",
-      "buses",
-      "daily"
+      "daily",
+      "about"
      ],
      "suggestion": "A bus fare is one seventy-five. There's a daily cap, so you never pay more than about five pounds a day on buses.",
      "suggestionFa": "کرایهٔ اتوبوس یک پوند و هفتاد و پنج پنسه. یه سقف روزانه هست، پس روزانه هیچ‌وقت بیشتر از حدود پنج پوند برای اتوبوس نمیدی.",
@@ -123,9 +123,9 @@
      "keywords": [
       "twenty's",
       "exactly",
-      "plenty",
-      "second",
-      "hopper"
+      "hopper",
+      "change",
+      "second"
      ],
      "suggestion": "Exactly — twenty's plenty. And \"Hopper fare\": change buses in an hour, and the second one's free.",
      "suggestionFa": "دقیقاً — بیست تا کافیه. و «کرایهٔ هاپر»: تو یه ساعت اتوبوس عوض کنی، دومی مجانیه.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "morning",
-      "oyster",
       "friend",
+      "oyster",
       "wants",
       "here"
      ],
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "balance",
-      "yellow",
       "reader",
       "twenty",
-      "pounds"
+      "pounds",
+      "yellow"
      ],
      "suggestion": "Done. Now tap it on the yellow reader, and it says the balance. Twenty pounds! You're a rich man.",
      "suggestionFa": "تموم. حالا بزنش روی دستگاه زرد، موجودی را نشون میده. بیست پوند! مرد پولداری شدی.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "register",
-      "minutes",
       "driving",
+      "minutes",
       "online",
       "leaves"
      ],

@@ -79,8 +79,8 @@
     {
      "keywords": [
       "should",
-      "words",
       "exact",
+      "words",
       "his"
      ],
      "suggestion": "Should I write his exact words?",
@@ -129,7 +129,7 @@
       "three",
       "four",
       "five",
-      "two"
+      "big"
      ],
      "suggestion": "He said, \"One, two, three, four, five — it's a big one!\"",
      "suggestionFa": "گفت: «یک، دو، سه، چهار، پنج — یه بزرگشه!»",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "tower",
-      "tall",
-      "look"
+      "look",
+      "tall"
      ],
      "suggestion": "He said, \"Look, a tall tower!\"",
      "suggestionFa": "گفت: «ببین، یه برج بلند!»",
@@ -173,8 +173,8 @@
      "keywords": [
       "counting",
       "maybe",
-      "five",
-      "past"
+      "past",
+      "five"
      ],
      "suggestion": "Counting past five, maybe up to ten.",
      "suggestionFa": "شمردن بیشتر از پنج، شاید تا ده.",
@@ -227,8 +227,8 @@
      "keywords": [
       "uploading",
       "useful",
-      "now",
-      "was"
+      "was",
+      "now"
      ],
      "suggestion": "Uploading it now. That was useful!",
      "suggestionFa": "دارم آپلودش می‌کنم. مفید بود!",

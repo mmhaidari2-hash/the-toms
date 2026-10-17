@@ -25,7 +25,7 @@
       "telling",
       "savings",
       "should",
-      "what's"
+      "shares"
      ],
      "suggestion": "Al keeps telling me I should put my savings into shares. I'm not convinced. What's your take?",
      "suggestionFa": "ال مدام بهم می‌گه پس‌اندازم را تو سهام بذارم. قانع نشدم. نظر تو چیه؟",
@@ -49,8 +49,8 @@
       "downside",
       "afford",
       "gamble",
-      "can't",
-      "money"
+      "right",
+      "can't"
      ],
      "suggestion": "Right. The downside is I could lose money. And with two kids, I can't afford to gamble.",
      "suggestionFa": "درسته. ایرادش اینه که ممکنه پول از دست بدم. و با دوتا بچه، نمی‌تونم ریسک کنم.",
@@ -99,7 +99,7 @@
       "something",
       "nonsense",
       "crypto",
-      "which",
+      "about",
       "would"
      ],
      "suggestion": "Just about. An ISA would be tax-free, which is a big plus. But I'd want something low-risk — no crypto nonsense.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "adviser",
       "bitcoin",
-      "spread",
+      "adviser",
+      "basket",
       "across",
-      "basket"
+      "spread"
      ],
      "suggestion": "Spread across lots — makes sense. Don't put all your eggs in one basket, as my dad would say. Right, I'll book an adviser. And Al can stop going on about Bitcoin.",
      "suggestionFa": "بین کلی پخش شده — منطقیه. همهٔ تخم‌مرغ‌هات را تو یه سبد نذار، به قول بابام. خب، با یه مشاور وقت می‌ذارم. و ال هم دیگه می‌تونه دربارهٔ بیت‌کوین غر نزنه.",

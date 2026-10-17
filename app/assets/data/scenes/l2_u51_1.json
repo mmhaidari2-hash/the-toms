@@ -74,10 +74,10 @@
    "branches": [
     {
      "keywords": [
-      "street",
       "didn't",
-      "know",
-      "mare"
+      "street",
+      "mare",
+      "know"
      ],
      "suggestion": "On Mare Street? I didn't know that!",
      "suggestionFa": "تو خیابون مِیر؟ نمی‌دونستم!",
@@ -142,9 +142,9 @@
     {
      "keywords": [
       "write",
-      "i'll",
+      "tell",
       "down",
-      "tell"
+      "i'll"
      ],
      "suggestion": "Can you tell me now? I'll write it down.",
      "suggestionFa": "میشه الان بگید؟ یادداشتش می‌کنم.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "straight",
-      "library",
       "station",
+      "library",
       "past"
      ],
      "suggestion": "Straight on, past the station and the library.",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "cross",
-      "need",
-      "road"
+      "road",
+      "need"
      ],
      "suggestion": "Do I need to cross the road?",
      "suggestionFa": "باید از خیابون رد بشم؟",
@@ -318,8 +318,8 @@
      "keywords": [
       "phrase",
       "can't",
-      "love",
-      "miss"
+      "miss",
+      "love"
      ],
      "suggestion": "\"You can't miss it.\" I love that phrase.",
      "suggestionFa": "«نمیشه نبینیش.» این عبارت را دوست دارم.",

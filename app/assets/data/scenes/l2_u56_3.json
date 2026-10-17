@@ -54,8 +54,8 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
       "take",
+      "i'll",
       "her"
      ],
      "suggestion": "Yes, I'll take it in for her.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "forty",
-      "luck",
-      "more"
+      "more",
+      "luck"
      ],
      "suggestion": "Forty more! Good luck, Kev.",
      "suggestionFa": "چهل تای دیگه! موفق باشی کِو.",
@@ -214,8 +214,8 @@
    "branches": [
     {
      "keywords": [
-      "shake",
       "don't",
+      "shake",
       "ours"
      ],
      "suggestion": "No! Don't shake it. It's not ours.",
@@ -226,8 +226,8 @@
     },
     {
      "keywords": [
-      "careful",
       "fragile",
+      "careful",
       "says"
      ],
      "suggestion": "It says \"Fragile\". Be careful!",
@@ -284,9 +284,9 @@
     {
      "keywords": [
       "leave",
+      "door",
       "note",
-      "i'll",
-      "door"
+      "i'll"
      ],
      "suggestion": "I'll leave a note on her door too.",
      "suggestionFa": "یه یادداشت هم دم درش می‌ذارم.",
@@ -390,8 +390,8 @@
     {
      "keywords": [
       "fresh",
-      "some",
       "need",
+      "some",
       "door"
      ],
      "suggestion": "No, you do the door. You need some fresh air!",

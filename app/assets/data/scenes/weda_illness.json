@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "quite",
       "shall",
+      "quite",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "like",
-      "he's"
+      "he's",
+      "like"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -132,7 +132,7 @@
       "teatime",
       "toast",
       "only",
-      "bit"
+      "had"
      ],
      "suggestion": "He only had a bit of toast at teatime.",
      "suggestionFa": "سر شام فقط یه کم نون تست خورد.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "calpol",
-      "here's",
       "course",
+      "here's",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "hours",
       "every",
+      "hours",
       "six"
      ],
      "suggestion": "Yes, five ml, every four to six hours.",
@@ -306,7 +306,7 @@
       "should",
       "jumper",
       "take",
-      "off"
+      "his"
      ],
      "suggestion": "Should I take his jumper off?",
      "suggestionFa": "ژاکتش را دربیارم؟",
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "change",
       "things",
+      "change",
       "don't",
       "they"
      ],

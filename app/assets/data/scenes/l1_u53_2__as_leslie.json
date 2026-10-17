@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "address",
+      "postbox",
       "outside",
       "there's",
-      "postbox",
+      "address",
       "write"
      ],
      "suggestion": "There's a postbox outside. The red one. Have you got a pen? I need to write the address.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "postcode",
       "envelope",
-      "middle",
+      "postcode",
       "street",
-      "number"
+      "number",
+      "middle"
      ],
      "suggestion": "In the middle of the envelope. Name, house number, street, town and postcode.",
      "suggestionFa": "وسط پاکت. اسم، شمارهٔ خونه، خیابون، شهر و کد پستی.",
@@ -98,9 +98,9 @@
      "keywords": [
       "collection",
       "comes",
-      "last",
-      "look",
-      "back"
+      "case",
+      "back",
+      "look"
      ],
      "suggestion": "Yes, on the back. In case it comes back. Ooh, look at the box. What time is the last collection?",
      "suggestionFa": "آره، پشتش. اگه برگشت. اوه، صندوق را ببین. آخرین جمع‌آوری کیه؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "collection",
       "empties",
-      "o'clock",
       "postman",
+      "o'clock",
       "before"
      ],
      "suggestion": "When the postman empties the box. It's four o'clock now. We're before the last collection.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "fingers",
-      "good",
       "mind",
+      "case",
       "just",
-      "case"
+      "good"
      ],
      "suggestion": "Good idea — just in case. Can you pop it in the box? Mind your fingers!",
      "suggestionFa": "فکر خوبیه — محض احتیاط. می‌تونی بندازیش تو صندوق؟ مواظب انگشتات باش!",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
-      "potato",
       "she'll",
+      "potato",
+      "nicola",
       "horse",
       "thank"
      ],

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "course",
-      "phone",
       "doris",
+      "phone",
       "see"
      ],
      "suggestion": "Of course, Doris. Let me see your phone.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "where",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "I'll come with you. Where is it?",
      "suggestionFa": "باهاتون میام. کجاست؟",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "towards",
-      "shows",
       "arrow",
-      "shops"
+      "shops",
+      "shows"
      ],
      "suggestion": "The blue arrow shows us. This way — towards the shops.",
      "suggestionFa": "فلش آبی نشونمون میده. از این طرف — سمت مغازه‌ها.",
@@ -201,9 +201,9 @@
     {
      "keywords": [
       "after",
-      "sign",
       "bank",
-      "see"
+      "sign",
+      "can"
      ],
      "suggestion": "Turn left after the bank. I can see the sign.",
      "suggestionFa": "بعد از بانک به چپ بپیچید. تابلو را می‌بینم.",
@@ -252,9 +252,9 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "we've",
-      "back",
+      "let's",
+      "turn",
       "gone"
      ],
      "suggestion": "Yes, we've gone too far. Let's turn back.",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "second",
-      "just",
       "wait",
+      "just",
       "slow"
      ],
      "suggestion": "No, it's just slow. Wait one second.",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "appointment",
-      "luck",
+      "here",
       "good",
-      "here"
+      "luck"
      ],
      "suggestion": "Here it is! Good luck with your appointment.",
      "suggestionFa": "ایناهاش! برای وقتتون موفق باشید.",

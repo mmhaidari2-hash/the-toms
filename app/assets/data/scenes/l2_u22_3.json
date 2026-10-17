@@ -75,8 +75,8 @@
      "keywords": [
       "apples",
       "fruit",
-      "look",
-      "done"
+      "done",
+      "item"
      ],
      "suggestion": "Look up item… fruit… apples. Done!",
      "suggestionFa": "جستجوی کالا… میوه… سیب. تموم!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "machine",
-      "clever",
       "weighs",
+      "clever",
       "them"
      ],
      "suggestion": "It weighs them? Clever machine.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "wrong",
-      "done",
       "have",
+      "done",
       "oh"
      ],
      "suggestion": "Oh no. What have I done wrong?",
@@ -211,8 +211,8 @@
      "keywords": [
       "assistance",
       "hasn't",
-      "says",
-      "wait"
+      "wait",
+      "says"
      ],
      "suggestion": "No, it hasn't. Now it says \"Wait for assistance\".",
      "suggestionFa": "نه، نشده. الان میگه «منتظر کمک بمانید».",
@@ -303,8 +303,8 @@
      "keywords": [
       "scanned",
       "apples",
-      "thank",
-      "twice"
+      "twice",
+      "thank"
      ],
      "suggestion": "Thank you! I've scanned the apples twice, I think.",
      "suggestionFa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "thank",
-      "paid",
       "says",
+      "paid",
       "i've"
      ],
      "suggestion": "I've paid! It says \"Thank you\".",

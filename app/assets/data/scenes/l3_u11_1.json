@@ -97,7 +97,7 @@
       "o'clock",
       "around",
       "think",
-      "stop"
+      "fall"
      ],
      "suggestion": "Around two o'clock. I think I put my hand out to stop the fall.",
      "suggestionFa": "حدود ساعت دو. فکر کنم دستم را دراز کردم که نیفتم.",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "still",
-      "keep",
+      "when",
       "nine",
-      "when"
+      "keep"
      ],
      "suggestion": "A five when I keep still, but a nine if I move it.",
      "suggestionFa": "وقتی تکونش نمی‌دم پنج، ولی اگه حرکتش بدم نه.",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "waiting",
-      "friend",
       "leslie",
+      "friend",
       "room"
      ],
      "suggestion": "My friend Leslie is in the waiting room.",

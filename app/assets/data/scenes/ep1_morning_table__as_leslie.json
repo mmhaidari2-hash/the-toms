@@ -63,8 +63,8 @@
      "keywords": [
       "sourdough",
       "passing",
-      "crumbs",
       "please",
+      "crumbs",
       "would"
      ],
      "suggestion": "Would you mind passing the sourdough, please? And mind the crumbs, Ryan.",
@@ -323,11 +323,11 @@
    "branches": [
     {
      "keywords": [
-      "someone",
       "weather",
-      "coats",
+      "someone",
+      "check",
       "about",
-      "check"
+      "coats"
      ],
      "suggestion": "Deal. Oh, and can someone check the weather? I need to know about coats.",
      "suggestionFa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه.",
@@ -404,11 +404,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola's",
       "everyone",
-      "eight",
+      "nicola's",
       "shoes",
-      "could"
+      "could",
+      "eight"
      ],
      "suggestion": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",
      "suggestionFa": "هشت و ده دقیقه! همه کفش بپوشن. می‌شه کیف کتاب نیکولا را از راهرو بیاری؟",

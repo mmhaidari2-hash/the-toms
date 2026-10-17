@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "number",
-      "course"
+      "course",
+      "what's"
      ],
      "suggestion": "Of course. What's the number?",
      "suggestionFa": "حتماً. شماره چیه؟",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "biscuit",
+      "poor",
       "i'll",
-      "call",
-      "poor"
+      "call"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "neighbour's",
       "eating",
-      "isn't",
-      "hello"
+      "hello",
+      "isn't"
      ],
      "suggestion": "Hello. Our neighbour's cat isn't eating.",
      "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "slowly",
       "moving",
+      "slowly",
       "but"
      ],
      "suggestion": "She's moving, but very slowly.",
@@ -341,7 +341,7 @@
       "neighbour",
       "belongs",
       "sure",
-      "she"
+      "our"
      ],
      "suggestion": "I'm not sure. She belongs to our neighbour.",
      "suggestionFa": "مطمئن نیستم. مال همسایه‌مونه.",
@@ -390,8 +390,8 @@
      "keywords": [
       "should",
       "first",
-      "call",
-      "khan"
+      "khan",
+      "call"
      ],
      "suggestion": "OK. Should we call Mrs Khan first?",
      "suggestionFa": "باشه. اول به خانم خان زنگ بزنیم؟",

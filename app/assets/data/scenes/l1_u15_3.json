@@ -124,9 +124,9 @@
     {
      "keywords": [
       "crisp",
-      "pen",
       "can",
-      "see"
+      "see",
+      "pen"
      ],
      "suggestion": "I can see a pen and a crisp.",
      "suggestionFa": "یه خودکار و یه چیپس می‌بینم.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "there's",
-      "lots",
-      "dust"
+      "dust",
+      "lots"
      ],
      "suggestion": "There's lots of dust!",
      "suggestionFa": "کلی گرد و خاکه!",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "check",
+      "let's",
       "oh"
      ],
      "suggestion": "Oh no! Let's check!",
@@ -276,8 +276,8 @@
     },
     {
      "keywords": [
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea!",
      "suggestionFa": "فکر خوبیه!",

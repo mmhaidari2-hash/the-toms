@@ -136,8 +136,8 @@
      "keywords": [
       "terminates",
       "sounds",
-      "scary",
-      "don't"
+      "don't",
+      "scary"
      ],
      "suggestion": "I don't know. \"Terminates\" sounds scary!",
      "suggestionFa": "نمی‌دونم. «ترمینیتس» ترسناک به نظر میاد!",
@@ -231,8 +231,8 @@
    "branches": [
     {
      "keywords": [
-      "hackney",
       "central",
+      "hackney",
       "now",
       "ok"
      ],
@@ -247,7 +247,7 @@
       "that's",
       "ticket",
       "fair",
-      "same"
+      "good"
      ],
      "suggestion": "Same ticket? Good. That's fair.",
      "suggestionFa": "همون بلیت؟ خوبه. منصفانه‌ست.",
@@ -283,8 +283,8 @@
      "keywords": [
       "stopping",
       "pressed",
-      "says",
-      "sign"
+      "sign",
+      "says"
      ],
      "suggestion": "I pressed it. The sign says \"Bus stopping\".",
      "suggestionFa": "زدم. تابلو نوشته «اتوبوس می‌ایستد».",
@@ -331,8 +331,8 @@
    "branches": [
     {
      "keywords": [
-      "except",
       "course",
+      "except",
       "tom"
      ],
      "suggestion": "Except Tom, of course!",

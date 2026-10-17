@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "thirty",
-      "hot",
-      "two"
+      "that's",
+      "two",
+      "hot"
      ],
      "suggestion": "Thirty-two? That's not hot for me!",
      "suggestionFa": "سی و دو؟ برای من گرم نیست!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "water",
-      "poor",
       "have",
+      "poor",
       "any"
      ],
      "suggestion": "Poor you! Have you got any water?",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "really",
-      "news",
       "they",
+      "news",
       "say"
      ],
      "suggestion": "Really? What do they say on the news?",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "summer",
       "tehran",
+      "summer",
       "forty"
      ],
      "suggestion": "In Tehran, it's forty in summer.",
@@ -258,8 +258,8 @@
     {
      "keywords": [
       "sounds",
-      "water",
       "fight",
+      "water",
       "fun"
      ],
      "suggestion": "A water fight sounds fun!",
@@ -357,8 +357,8 @@
      "keywords": [
       "another",
       "bottle",
-      "take",
-      "i've"
+      "i've",
+      "take"
      ],
      "suggestion": "Yes, take my bottle. I've got another.",
      "suggestionFa": "آره، بطریم را بگیر. یکی دیگه دارم.",

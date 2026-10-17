@@ -114,7 +114,7 @@
       "never",
       "mind",
       "give",
-      "can"
+      "him"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "thursday",
       "hospital",
+      "thursday",
       "george",
       "can't"
      ],
@@ -162,9 +162,9 @@
      "keywords": [
       "instead",
       "friday",
-      "heart",
       "check",
-      "come"
+      "heart",
+      "just"
      ],
      "suggestion": "Yes, just a check-up. His heart. Can I come on Friday instead?",
      "suggestionFa": "آره، فقط معاینه‌ست. قلبش. می‌تونم به جاش جمعه بیام؟",
@@ -185,11 +185,11 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "thank",
+      "after",
       "back",
       "love",
-      "tell"
+      "call"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
      "suggestionFa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه.",
@@ -213,8 +213,8 @@
       "course",
       "thank",
       "dear",
-      "bye",
-      "has"
+      "has",
+      "bye"
      ],
      "suggestion": "Of course he has! Thank you, dear. Bye-bye!",
      "suggestionFa": "البته که داره! ممنون عزیزم. خداحافظ!",

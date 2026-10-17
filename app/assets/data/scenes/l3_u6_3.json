@@ -34,7 +34,7 @@
       "ending",
       "about",
       "sure",
-      "but"
+      "did"
      ],
      "suggestion": "I did, but I'm not sure about the ending.",
      "suggestionFa": "دیدم، ولی دربارهٔ پایانش مطمئن نیستم.",
@@ -71,7 +71,7 @@
       "didn't",
       "bored",
       "mean",
-      "but"
+      "see"
      ],
      "suggestion": "I see what you mean, but I didn't get bored.",
      "suggestionFa": "منظورت را می‌فهمم، ولی خسته نشدم.",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "accent",
       "didn't",
+      "accent",
       "great",
       "know"
      ],
@@ -142,7 +142,7 @@
       "personally",
       "thought",
       "music",
-      "part"
+      "best"
      ],
      "suggestion": "Personally, I thought the music was the best part.",
      "suggestionFa": "من شخصاً فکر کردم موسیقی بهترین قسمتش بود.",
@@ -242,8 +242,8 @@
     },
     {
      "keywords": [
-      "different",
       "something",
+      "different",
       "actually",
       "today"
      ],

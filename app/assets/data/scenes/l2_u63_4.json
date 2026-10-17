@@ -82,8 +82,8 @@
      "keywords": [
       "where's",
       "didn't",
-      "know",
-      "cork"
+      "cork",
+      "know"
      ],
      "suggestion": "I didn't know that! Where's Cork?",
      "suggestionFa": "نمی‌دونستم! کورک کجاست؟",
@@ -134,9 +134,9 @@
    "branches": [
     {
      "keywords": [
-      "irish",
       "tom's",
       "jokes",
+      "irish",
       "ha"
      ],
      "suggestion": "Ha! Irish jokes or Tom's jokes?",
@@ -148,8 +148,8 @@
     {
      "keywords": [
       "celebrate",
-      "london",
-      "people"
+      "people",
+      "london"
      ],
      "suggestion": "Do people celebrate it in London too?",
      "suggestionFa": "تو لندن هم جشنش می‌گیرن؟",
@@ -247,7 +247,7 @@
       "dancing",
       "irish",
       "love",
-      "i'd"
+      "see"
      ],
      "suggestion": "I'd love to see Irish dancing.",
      "suggestionFa": "دوست دارم رقص ایرلندی ببینم.",
@@ -366,10 +366,10 @@
     },
     {
      "keywords": [
-      "irish",
       "there",
-      "food",
-      "will"
+      "irish",
+      "will",
+      "food"
      ],
      "suggestion": "Will there be Irish food too?",
      "suggestionFa": "غذای ایرلندی هم هست؟",

@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "window",
-      "smoke",
+      "before",
       "alarm",
+      "smoke",
       "never"
      ],
      "suggestion": "Ha! Never mind. Open the window before the smoke alarm goes off.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "there",
       "towel",
       "quiet",
-      "there",
       "like",
       "wave"
      ],
@@ -98,9 +98,9 @@
      "keywords": [
       "burner",
       "leslie",
-      "every",
-      "worry",
-      "calls"
+      "calls",
+      "toast",
+      "about"
      ],
      "suggestion": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
      "suggestionFa": "نگرانش نباش! ضرری نکردیم. من هر هفته این کار را می‌کنم. لزلی بهم میگه «سوزانندهٔ نون تست».",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "burner",
+      "butter",
       "toast",
-      "call",
-      "next"
+      "lots",
+      "time"
      ],
      "suggestion": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
      "suggestionFa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!",

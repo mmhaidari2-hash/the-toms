@@ -23,9 +23,9 @@
      "keywords": [
       "cheerful",
       "clothes",
-      "winter",
       "before",
-      "let's"
+      "winter",
+      "cheap"
      ],
      "suggestion": "Right, the value-clothes shop. Cheap and cheerful! You need a warm coat before winter. Let's look.",
      "suggestionFa": "خب، فروشگاه لباس ارزون. ارزون و شاد! قبل از زمستون یه کت گرم لازم داری. بیا ببینیم.",
@@ -74,8 +74,8 @@
       "jumpers",
       "three",
       "don't",
-      "i'll",
-      "here"
+      "wait",
+      "walk"
      ],
      "suggestion": "So you don't walk out with three jumpers on! Go on, try it. I'll wait here. Well? How is it?",
      "suggestionFa": "که با سه تا بلوز تنت بیرون نری! برو، امتحانش کن. همین‌جا منتظرم. خب؟ چطوره؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "excuse",
       "bigger",
       "medium",
-      "let's"
+      "that's",
+      "excuse",
+      "large"
      ],
      "suggestion": "Let's find a bigger size. That's a medium. You need a large. I'll ask the lady. Excuse me — have you got this in large?",
      "suggestionFa": "بیا سایز بزرگ‌تر پیدا کنیم. اون مدیومه. تو لارج لازم داری. از خانمه می‌پرسم. ببخشید — اینو سایز لارج دارین؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
+      "really",
       "that's",
       "colour",
-      "really",
-      "large"
+      "green"
      ],
      "suggestion": "She says they've only got large in green. Here. Try this. Oh! That's a good colour on you. It really suits you.",
      "suggestionFa": "میگه لارج فقط سبز دارن. بیا. اینو امتحان کن. اوه! این رنگ بهت میاد. واقعاً بهت میاد.",
@@ -148,8 +148,8 @@
      "keywords": [
       "sideways",
       "bargain",
+      "london",
       "winter",
-      "that's",
       "twenty"
      ],
      "suggestion": "Twenty-five pounds! For a winter coat, that's a bargain. Does it have a hood? London rain is sideways.",
@@ -174,8 +174,8 @@
       "november",
       "receipt",
       "change",
-      "right",
-      "until"
+      "until",
+      "right"
      ],
      "suggestion": "Very real. Wait until November! Right — pay at the till by the door, and keep the receipt in case you change your mind.",
      "suggestionFa": "خیلی واقعی. صبر کن تا نوامبر! خب — دم در پولش را بده و رسید را نگه دار شاید نظرت عوض شد.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "usually",
+      "william",
       "twenty",
-      "eight",
-      "socks"
+      "pairs",
+      "month"
      ],
      "suggestion": "Usually twenty-eight days here. And me? Just socks for William. He's eaten… I mean, lost… four pairs this month.",
      "suggestionFa": "معمولاً اینجا بیست و هشت روز. و من؟ فقط جوراب برای ویلیام. چهار جفت… یعنی، گم کرده… این ماه چهار جفت.",

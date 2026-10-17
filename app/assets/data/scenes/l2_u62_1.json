@@ -32,8 +32,8 @@
      "keywords": [
       "three",
       "times",
-      "news",
-      "good"
+      "good",
+      "news"
      ],
      "suggestion": "Three times? Is it good news?",
      "suggestionFa": "سه بار؟ خبر خوبیه؟",
@@ -82,10 +82,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "always",
-      "asks",
-      "true"
+      "that's",
+      "true",
+      "asks"
      ],
      "suggestion": "That's true. She always asks \"why?\"",
      "suggestionFa": "درسته. همیشه می‌پرسه «چرا؟»",
@@ -150,8 +150,8 @@
     {
      "keywords": [
       "anything",
-      "there",
       "needs",
+      "there",
       "work"
      ],
      "suggestion": "Is there anything she needs to work on?",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "normal",
       "that's",
+      "normal",
       "isn't",
       "five"
      ],
@@ -205,8 +205,8 @@
      "keywords": [
       "practise",
       "weekend",
-      "her",
-      "can"
+      "can",
+      "her"
      ],
      "suggestion": "We can practise with her at the weekend.",
      "suggestionFa": "می‌تونیم آخر هفته باهاش تمرین کنیم.",
@@ -248,8 +248,8 @@
    "branches": [
     {
      "keywords": [
-      "working",
       "towards",
+      "working",
       "nearly",
       "there"
      ],
@@ -263,8 +263,8 @@
      "keywords": [
       "pizza",
       "aways",
-      "like",
-      "take"
+      "take",
+      "like"
      ],
      "suggestion": "Take-aways? Like a pizza?",
      "suggestionFa": "تفریق؟ مثل پیتزا بیرون‌بر؟",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "report",
-      "last",
       "part",
+      "plan",
       "good"
      ],
      "suggestion": "Good plan! And the last part of the report?",
@@ -366,8 +366,8 @@
      "keywords": [
       "important",
       "that's",
-      "most",
-      "part"
+      "part",
+      "most"
      ],
      "suggestion": "That's the most important part.",
      "suggestionFa": "این مهم‌ترین قسمته.",
@@ -377,10 +377,10 @@
     },
     {
      "keywords": [
-      "lovely",
       "should",
-      "she's",
-      "proud"
+      "lovely",
+      "proud",
+      "she's"
      ],
      "suggestion": "You should be proud. She's lovely.",
      "suggestionFa": "باید افتخار کنی. خیلی دوست‌داشتنیه.",

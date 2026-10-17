@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "welcome",
       "morning",
+      "welcome",
       "aboard",
       "today",
       "where"
@@ -48,8 +48,8 @@
      "keywords": [
       "islington",
       "victoria",
-      "yellow",
       "reader",
+      "yellow",
       "please"
      ],
      "suggestion": "It does! Angel, then Islington, then all the way to Victoria. Tap your card on the yellow reader, please.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "phone's",
-      "which",
       "daily",
+      "which",
       "phone",
-      "fine"
+      "stop"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
      "suggestionFa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟",
@@ -100,7 +100,7 @@
       "islington",
       "minutes",
       "twenty",
-      "about"
+      "green"
      ],
      "suggestion": "Islington Green. Get off there and walk two minutes. How long? About twenty-five minutes, if the traffic's kind.",
      "suggestionFa": "ایزلینگتون گرین. اونجا پیاده شو و دو دقیقه راه برو. چقدر طول می‌کشه؟ حدود بیست و پنج دقیقه، اگه ترافیک مهربون باشه.",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "kidding",
       "there's",
+      "kidding",
+      "right",
       "jokes",
-      "front",
       "forty"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
@@ -173,8 +173,8 @@
      "keywords": [
       "everyone",
       "driving",
-      "number",
       "coming",
+      "number",
       "other"
      ],
      "suggestion": "Coming back, cross the road. Same number, other side. Everyone gets that wrong once. I did, in my first week. Driving!",
@@ -198,9 +198,9 @@
      "keywords": [
       "roundabout",
       "leslie",
-      "tight",
       "round",
-      "we're"
+      "we're",
+      "don't"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
      "suggestionFa": "خب — تو یه میدون مسیر را اشتباه رفتم. به لزلی نگو. محکم بگیر، راه افتادیم!",

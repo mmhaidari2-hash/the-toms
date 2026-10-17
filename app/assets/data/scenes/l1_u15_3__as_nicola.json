@@ -22,10 +22,10 @@
     {
      "keywords": [
       "finished",
-      "picture",
       "missing",
-      "nearly",
-      "jigsaw"
+      "picture",
+      "jigsaw",
+      "nearly"
      ],
      "suggestion": "My jigsaw is nearly finished! It's a picture of a castle. But one piece is missing!",
      "suggestionFa": "پازلم تقریباً تمومه! عکس یه قلعه‌ست. ولی یه تیکه نیست!",
@@ -48,8 +48,8 @@
      "keywords": [
       "piece",
       "seen",
-      "blue",
       "part",
+      "blue",
       "have"
      ],
      "suggestion": "It's a blue piece. Part of the sky. Have you seen it?",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "floor",
       "under",
       "can't",
-      "floor",
-      "look",
-      "sofa"
+      "sofa",
+      "look"
      ],
      "suggestion": "I can't find it on the floor. Can you look under the sofa?",
      "suggestionFa": "رو زمین پیداش نمی‌کنم. می‌تونی زیر مبل را نگاه کنی؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "crisps",
       "crisp",
+      "eats",
       "sofa",
-      "yuck",
       "ryan"
      ],
      "suggestion": "A crisp! Yuck! Ryan eats crisps on the sofa. Is it in the box?",
@@ -228,9 +228,9 @@
      "keywords": [
       "finished",
       "castle",
-      "photo",
       "click",
-      "look"
+      "photo",
+      "take"
      ],
      "suggestion": "Click! Finished! Look at my castle! Can we take a photo for Nana?",
      "suggestionFa": "تق! تموم شد! قلعه‌ام را ببین! می‌شه یه عکس برای نانا بگیریم؟",
@@ -253,9 +253,9 @@
      "keywords": [
       "thousand",
       "another",
-      "joking",
+      "pieces",
       "jigsaw",
-      "pieces"
+      "joking"
      ],
      "suggestion": "Send it to Nana! Now let's do another jigsaw. A thousand pieces! Just joking!",
      "suggestionFa": "برای نانا بفرستش! حالا یه پازل دیگه درست کنیم. هزار تیکه! شوخی کردم!",

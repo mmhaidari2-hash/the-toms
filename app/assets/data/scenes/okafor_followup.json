@@ -31,9 +31,9 @@
     {
      "keywords": [
       "vitamin",
+      "relief",
       "should",
-      "that's",
-      "relief"
+      "that's"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
      "suggestionFa": "خیالم راحت شد. دربارهٔ ویتامین دی چی کار کنم؟",
@@ -85,10 +85,10 @@
     },
     {
      "keywords": [
-      "explain",
       "feeling",
-      "would",
-      "tired"
+      "explain",
+      "tired",
+      "would"
      ],
      "suggestion": "Would that explain why I've been feeling so tired?",
      "suggestionFa": "این می‌تونه توضیح بده چرا این‌قدر خسته‌ام؟",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "intense",
-      "work's",
       "abroad",
+      "work's",
       "family"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
@@ -197,7 +197,7 @@
       "evenings",
       "really",
       "think",
-      "dark"
+      "just"
      ],
      "suggestion": "Not really — I think it's just the dark evenings.",
      "suggestionFa": "نه واقعاً — فکر کنم فقط عصرهای تاریکه.",
@@ -239,7 +239,7 @@
       "myself",
       "refer",
       "open",
-      "i'd"
+      "how"
      ],
      "suggestion": "I'd be open to that. How do I refer myself?",
      "suggestionFa": "حاضرم. چطوری خودم را ارجاع بدم؟",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "therapy",
-      "think",
       "about",
-      "sure"
+      "think",
+      "i'll"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
      "suggestionFa": "مطمئن نیستم درمان برای من باشه، ولی بهش فکر می‌کنم.",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "sitting",
+      "pain",
       "only",
-      "desk",
       "from"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
@@ -310,7 +310,7 @@
       "everything",
       "thorough",
       "that's",
-      "thank"
+      "being"
      ],
      "suggestion": "No, that's everything. Thank you for being so thorough.",
      "suggestionFa": "نه، همین بود. ممنون که این‌قدر دقیق هستید.",
@@ -352,7 +352,7 @@
       "birds",
       "stone",
       "then",
-      "two"
+      "one"
      ],
      "suggestion": "Two birds with one stone, then.",
      "suggestionFa": "پس با یه تیر دو نشون.",
@@ -396,8 +396,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "okafor",
+      "thanks",
       "will",
       "dr"
      ],
@@ -410,8 +410,8 @@
     {
      "keywords": [
       "supplement",
-      "should",
       "before",
+      "should",
       "stop"
      ],
      "suggestion": "Should I stop the supplement before the test?",

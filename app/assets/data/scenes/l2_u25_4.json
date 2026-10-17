@@ -31,8 +31,8 @@
     {
      "keywords": [
       "number",
-      "want",
       "keep",
+      "want",
       "but"
      ],
      "suggestion": "Yes, but I want to keep my number.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "code",
-      "how",
       "get",
-      "pac"
+      "pac",
+      "how"
      ],
      "suggestion": "How do I get a PAC code?",
      "suggestionFa": "کد PAC را چطوری بگیرم؟",
@@ -85,9 +85,9 @@
     {
      "keywords": [
       "difficult",
-      "have",
       "them",
-      "call"
+      "call",
+      "have"
      ],
      "suggestion": "Is it difficult? Do I have to call them?",
      "suggestionFa": "سخته؟ باید بهشون زنگ بزنم؟",
@@ -142,10 +142,10 @@
     },
     {
      "keywords": [
-      "again",
       "seven",
+      "again",
       "five",
-      "six"
+      "can"
      ],
      "suggestion": "Six-five-oh-seven-five? Can you say it again?",
      "suggestionFa": "شش-پنج-صفر-هفت-پنج؟ میشه دوباره بگی؟",
@@ -194,9 +194,9 @@
    "branches": [
     {
      "keywords": [
+      "seven",
       "three",
       "eight",
-      "seven",
       "nine"
      ],
      "suggestion": "It's PAC nine-eight-seven, X-Y-Z, three-two-one.",
@@ -249,8 +249,8 @@
      "keywords": [
       "weekend",
       "phone",
-      "will",
-      "work"
+      "work",
+      "will"
      ],
      "suggestion": "Will my phone work at the weekend?",
      "suggestionFa": "گوشیم آخر هفته کار می‌کنه؟",
@@ -263,7 +263,7 @@
       "monday",
       "then",
       "use",
-      "new"
+      "sim"
      ],
      "suggestion": "By Monday. And then I use the new SIM?",
      "suggestionFa": "تا دوشنبه. بعدش سیم‌کارت جدید را می‌ذارم؟",
@@ -353,10 +353,10 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "maggie",
+      "pounds",
       "forty",
-      "nana"
+      "give"
      ],
      "suggestion": "Forty pounds? Or I give it to Nana Maggie.",
      "suggestionFa": "چهل پوند؟ یا می‌دمش به ننه مگی.",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "locked",
-      "phone",
       "great",
+      "phone",
       "old"
      ],
      "suggestion": "Great! Is the old phone locked?",

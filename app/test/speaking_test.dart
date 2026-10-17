@@ -95,6 +95,13 @@ void main() {
       expect(t.takeException(), isNull);
       expect(find.byKey(const ValueKey('mic-help')), findsOneWidget);
       expect(find.text(e == 'unsupported' ? "Speaking isn't available here" : e == 'service-not-allowed' ? 'Turn on Dictation' : 'Allow the microphone'), findsOneWidget);
+      if (e == 'not-allowed') {
+        final w = t.widget<Text>(find.byKey(const ValueKey('mic-privacy')));
+        expect(w.data, contains('Google in Chrome, Apple in Safari'), reason: 'accurate speech-privacy wording (legal review §7)');
+        expect(w.data, isNot(contains('nothing is recorded or sent')));
+      }
+      await t.ensureVisible(find.text('Type instead'));
+      await t.pumpAndSettle();
       await t.tap(find.text('Type instead'));
       await t.pumpAndSettle();
       expect(typed, isTrue);

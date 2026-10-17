@@ -21,8 +21,8 @@
      "keywords": [
       "friendly",
       "course",
-      "let's",
-      "first"
+      "first",
+      "let's"
      ],
      "suggestion": "Of course. Let's keep it friendly at first.",
      "suggestionFa": "حتماً. اولش دوستانه نگهش داریم.",
@@ -76,7 +76,7 @@
       "number",
       "minute",
       "we're",
-      "from"
+      "have"
      ],
      "suggestion": "Hi, we're from number 12. Have you got a minute?",
      "suggestionFa": "سلام، ما از پلاک ۱۲ هستیم. یه دقیقه وقت دارید؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "welcome",
-      "street",
       "wanted",
+      "street",
       "hello"
      ],
      "suggestion": "Hello! Welcome to the street. We wanted to say hello.",
@@ -139,7 +139,7 @@
       "friendly",
       "hoping",
       "have",
-      "word"
+      "were"
      ],
      "suggestion": "We were hoping to have a friendly word.",
      "suggestionFa": "امیدوار بودیم یه صحبت دوستانه بکنیم.",
@@ -174,9 +174,9 @@
     {
      "keywords": [
       "polite",
-      "could",
+      "maybe",
       "leave",
-      "maybe"
+      "could"
      ],
      "suggestion": "Maybe we could leave a polite note.",
      "suggestionFa": "شاید بتونیم یه یادداشت مؤدبانه بذاریم.",
@@ -241,9 +241,9 @@
     {
      "keywords": [
       "children",
-      "waking",
       "bother",
-      "young"
+      "waking",
+      "we've"
      ],
      "suggestion": "Sorry to bother you. We've got young children, and the late music is waking them.",
      "suggestionFa": "ببخشید مزاحم شدیم. بچهٔ کوچیک داریم، و آهنگ دیروقت بیدارشون می‌کنه.",
@@ -285,9 +285,9 @@
     {
      "keywords": [
       "weeknights",
+      "agree",
       "music",
-      "could",
-      "agree"
+      "could"
      ],
      "suggestion": "Could we agree on music off by eleven on weeknights?",
      "suggestionFa": "می‌تونیم توافق کنیم روزهای هفته تا یازده آهنگ خاموش باشه؟",
@@ -336,8 +336,8 @@
      "keywords": [
       "expected",
       "better",
-      "went",
-      "than"
+      "than",
+      "went"
      ],
      "suggestion": "That went better than expected!",
      "suggestionFa": "بهتر از انتظار پیش رفت!",
@@ -350,7 +350,7 @@
       "barbecue",
       "that's",
       "peace",
-      "make"
+      "nice"
      ],
      "suggestion": "A barbecue — that's a nice way to make peace.",
      "suggestionFa": "باربیکیو — راه قشنگیه برای آشتی.",
@@ -385,9 +385,9 @@
     {
      "keywords": [
       "exchange",
-      "happens",
       "numbers",
-      "again"
+      "happens",
+      "shall"
      ],
      "suggestion": "Shall we exchange numbers, in case it happens again?",
      "suggestionFa": "شماره رد و بدل کنیم، اگه دوباره پیش اومد؟",
@@ -400,7 +400,7 @@
       "council",
       "let's",
       "never",
-      "hope"
+      "need"
      ],
      "suggestion": "Let's hope we never need the council!",
      "suggestionFa": "امیدواریم هیچ‌وقت شورا لازممون نشه!",

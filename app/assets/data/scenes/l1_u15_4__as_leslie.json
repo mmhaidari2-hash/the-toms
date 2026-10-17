@@ -22,10 +22,10 @@
     {
      "keywords": [
       "everybody",
-      "look",
       "tidy",
-      "room",
-      "time"
+      "look",
+      "time",
+      "room"
      ],
      "suggestion": "OK, everybody! It's tidy-up time. Look at this room!",
      "suggestionFa": "خب همگی! وقت مرتب کردنه. این اتاق را ببینید!",
@@ -107,11 +107,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "blocks",
+      "please",
       "thank",
-      "box",
-      "put"
+      "put",
+      "box"
      ],
      "suggestion": "Thank you. Put the blocks in the big box, please.",
      "suggestionFa": "ممنون. مکعب‌ها را بذار تو جعبهٔ بزرگ، لطفاً.",
@@ -133,10 +133,10 @@
     {
      "keywords": [
       "nicola",
-      "books",
       "shelf",
-      "red",
-      "box"
+      "books",
+      "put",
+      "red"
      ],
      "suggestion": "Yes, the red box. Nicola, put your books on the shelf.",
      "suggestionFa": "آره، جعبهٔ قرمز. نیکولا، کتاب‌هات را بذار رو قفسه.",
@@ -239,9 +239,9 @@
    "branches": [
     {
      "keywords": [
+      "please",
       "nicola",
       "pocket",
-      "please",
       "away",
       "pens"
      ],
@@ -318,8 +318,8 @@
     {
      "keywords": [
       "brilliant",
-      "lollies",
       "freezer",
+      "lollies",
       "reward",
       "thank"
      ],

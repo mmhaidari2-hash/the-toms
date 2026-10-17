@@ -21,8 +21,8 @@
      "keywords": [
       "collect",
       "ordered",
-      "online",
-      "thanks"
+      "thanks",
+      "online"
      ],
      "suggestion": "Good, thanks! I ordered a fan online. Where do I collect it?",
      "suggestionFa": "خوب، ممنون! یه پنکه آنلاین سفارش دادم. کجا تحویلش بگیرم؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "catalogue",
-      "need",
       "here",
-      "shop"
+      "shop",
+      "need"
      ],
      "suggestion": "I need the catalogue shop. Is it here?",
      "suggestionFa": "فروشگاه کاتالوگی را لازم دارم. اینجاست؟",
@@ -138,10 +138,10 @@
     },
     {
      "keywords": [
-      "sounds",
       "ticket",
-      "type",
-      "easy"
+      "sounds",
+      "easy",
+      "type"
      ],
      "suggestion": "Type, ticket, board. Sounds easy!",
      "suggestionFa": "تایپ، برگه، تابلو. آسون به نظر میاد!",
@@ -346,8 +346,8 @@
      "keywords": [
       "driver",
       "friend",
-      "help",
-      "will"
+      "will",
+      "help"
      ],
      "suggestion": "The driver is my friend Tom. He will help!",
      "suggestionFa": "رانندهٔ ۳۸ دوستم تامه. کمک می‌کنه!",
@@ -359,8 +359,8 @@
      "keywords": [
       "trolley",
       "thanks",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "A trolley is a good idea. Thanks.",
      "suggestionFa": "چرخ‌دستی فکر خوبیه. ممنون.",

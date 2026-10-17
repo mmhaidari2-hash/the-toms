@@ -33,9 +33,9 @@
     {
      "keywords": [
       "transfer",
+      "bank",
       "like",
-      "back",
-      "bank"
+      "back"
      ],
      "suggestion": "I'd like to pay a friend back by bank transfer.",
      "suggestionFa": "می‌خوام پول یه دوست را با انتقال بانکی پس بدم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "concert",
       "ticket",
-      "from",
-      "paid"
+      "paid",
+      "from"
      ],
      "suggestion": "Callum from the café. He paid for my concert ticket.",
      "suggestionFa": "کالوم از کافه. پول بلیت کنسرتم را داد.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "barista",
-      "friend",
       "called",
+      "friend",
       "he's"
      ],
      "suggestion": "A friend called Callum. He's a barista.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "matches",
-      "good",
-      "name"
+      "name",
+      "good"
      ],
      "suggestion": "It says, \"Name matches\". Good!",
      "suggestionFa": "میگه «نام مطابقت دارد». خوبه!",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "callum",
-      "match",
+      "byrne",
       "close",
-      "byrne"
+      "match"
      ],
      "suggestion": "It says, \"Close match: Callum J Byrne\".",
      "suggestionFa": "میگه «تطابق نزدیک: کالوم جی برن».",
@@ -308,9 +308,9 @@
     },
     {
      "keywords": [
+      "take",
       "long",
       "done",
-      "take",
       "how"
      ],
      "suggestion": "Done. How long does it take?",
@@ -353,9 +353,9 @@
    "branches": [
     {
      "keywords": [
+      "cheers",
       "legend",
       "callum",
-      "cheers",
       "got"
      ],
      "suggestion": "It's Callum: \"Got it, legend! Cheers!\"",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "thanks",
-      "says",
       "fast",
+      "says",
       "was"
      ],
      "suggestion": "He says thanks. That was so fast!",

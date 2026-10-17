@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "morning",
+      "english",
       "class",
       "jump",
-      "get"
+      "how"
      ],
      "suggestion": "Morning! Jump on. So, how do you get to your English class?",
      "suggestionFa": "صبح بخیر! بپر بالا. خب، چطوری میری کلاس انگلیسیت؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "choice",
       "which",
-      "good",
       "best",
-      "take"
+      "take",
+      "good"
      ],
      "suggestion": "Good choice! The best way. Which bus do you take?",
      "suggestionFa": "انتخاب خوبیه! بهترین راه. سوار کدوم اتوبوس میشی؟",
@@ -172,9 +172,9 @@
      "keywords": [
       "upstairs",
       "london",
-      "front",
       "great",
-      "seat"
+      "front",
+      "view"
      ],
      "suggestion": "Upstairs at the front! Like a kid. Best seat in London. Great view.",
      "suggestionFa": "بالا جلو! مثل بچه‌ها. بهترین صندلی لندن. منظرهٔ عالی.",
@@ -197,8 +197,8 @@
      "keywords": [
       "here's",
       "always",
-      "class",
       "funny",
+      "class",
       "faces"
      ],
      "suggestion": "Always the 38! And yes, I can see you. So no funny faces! Here's your stop. Have a good class!",

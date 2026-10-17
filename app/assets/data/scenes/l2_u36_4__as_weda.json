@@ -25,7 +25,7 @@
       "household",
       "enquiry",
       "letter",
-      "every"
+      "lives"
      ],
      "suggestion": "Look at this letter, dear. \"Household enquiry — who lives here?\" They send it every year. Are you registered?",
      "suggestionFa": "این نامه را ببین عزیزم. «استعلام خانوار — چه کسانی اینجا زندگی می‌کنند؟» هر سال می‌فرستنش. ثبت‌نام کردی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "elections",
-      "residents",
       "electoral",
+      "residents",
       "register",
-      "voters"
+      "abroad"
      ],
      "suggestion": "The electoral register — the list of voters. Some residents from abroad can vote in local elections. Let's ask Ms Ward.",
      "suggestionFa": "فهرست رأی‌دهندگان. بعضی ساکنان خارجی می‌تونن تو انتخابات محلی رأی بدن. بیا از خانم وارد بپرسیم.",
@@ -313,9 +313,9 @@
      "keywords": [
       "polling",
       "station",
-      "george",
       "you'll",
-      "every"
+      "george",
+      "since"
      ],
      "suggestion": "One day, dear, you'll vote. George will take you to the polling station in his best tie. He's voted every time since 1968!",
      "suggestionFa": "یه روز، عزیزم، رأی میدی. جورج با بهترین کراواتش می‌بردت حوزهٔ رأی‌گیری. از ۱۹۶۸ هر بار رأی داده!",
@@ -336,8 +336,8 @@
    "branches": [
     {
      "keywords": [
-      "thrilled",
       "together",
+      "thrilled",
       "aren't",
       "slowly",
       "he'll"

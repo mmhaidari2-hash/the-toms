@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "cheese"
+      "cheese",
+      "please"
      ],
      "suggestion": "Cheese, please.",
      "suggestionFa": "پنیر، لطفاً.",
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
-      "please",
       "cheese",
       "tomato",
+      "please",
       "just"
      ],
      "suggestion": "Just cheese and tomato, please.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "sandwich",
-      "crisps",
-      "really"
+      "really",
+      "crisps"
      ],
      "suggestion": "Crisps in a sandwich? Really?",
      "suggestionFa": "چیپس تو ساندویچ؟ واقعاً؟",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "please",
-      "water",
-      "glass"
+      "glass",
+      "water"
      ],
      "suggestion": "A glass of water, please.",
      "suggestionFa": "یه لیوان آب، لطفاً.",

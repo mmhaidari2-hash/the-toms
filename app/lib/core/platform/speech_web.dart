@@ -9,7 +9,10 @@ import 'package:web/web.dart' as web;
 import 'speech_result.dart';
 export 'speech_result.dart';
 
-/// Web Speech API (optional STT, en-GB) + MediaRecorder for shadowing. Everything stays on the device.
+/// Web Speech API (optional STT, en-GB) + MediaRecorder for shadowing.
+/// Privacy: speech-to-text is done by the browser's own speech service (Google in Chrome, Apple in Safari),
+/// which may send the audio to its servers. The Toms never stores or uploads recordings itself;
+/// MediaRecorder clips stay in memory on the device.
 class SpeechInput {
   static JSFunction? get _ctor => (globalContext['SpeechRecognition'] ?? globalContext['webkitSpeechRecognition']) as JSFunction?;
   static bool get sttSupported => _ctor != null;

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "like",
       "send",
+      "like",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -34,8 +34,8 @@
      "keywords": [
       "stamps",
       "could",
-      "have",
-      "some"
+      "some",
+      "have"
      ],
      "suggestion": "Could I have some stamps, please?",
      "suggestionFa": "می‌شه چند تا تمبر بگیرم، لطفاً؟",
@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
-      "problem",
       "there's",
       "perfume",
+      "problem",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
+      "cost",
       "much",
       "will",
-      "cost",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "heavy",
-      "price"
+      "price",
+      "heavy"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "birthday",
-      "tracked",
       "present",
+      "tracked",
       "please"
      ],
      "suggestion": "Tracked, please — it's a birthday present.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "pounds",
-      "write",
-      "value"
+      "value",
+      "write"
      ],
      "suggestion": "Do I write the value in pounds?",
      "suggestionFa": "ارزش را به پوند بنویسم؟",
@@ -323,10 +323,10 @@
     },
     {
      "keywords": [
-      "could",
       "first",
-      "help",
-      "time"
+      "could",
+      "time",
+      "help"
      ],
      "suggestion": "Could you help me with it? It's my first time.",
      "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
@@ -372,8 +372,8 @@
     {
      "keywords": [
       "else",
-      "done",
-      "need"
+      "need",
+      "done"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",

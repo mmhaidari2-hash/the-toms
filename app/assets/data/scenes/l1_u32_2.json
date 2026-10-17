@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "some",
       "have",
+      "some",
       "can"
      ],
      "suggestion": "Can I have some eggs, please?",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "twelve",
-      "eggs",
       "then",
-      "eat"
+      "eggs",
+      "lot"
      ],
      "suggestion": "Twelve, then. I eat a lot of eggs.",
      "suggestionFa": "پس دوازده تا. من خیلی تخم‌مرغ می‌خورم.",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "pieces",
+      "please",
       "small"
      ],
      "suggestion": "Yes, please. Small pieces.",

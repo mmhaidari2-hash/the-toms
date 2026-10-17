@@ -23,8 +23,8 @@
      "keywords": [
       "victoria",
       "sponge",
-      "sunday",
       "excuse",
+      "sunday",
       "right"
      ],
      "suggestion": "Right, cake for Sunday. A Victoria sponge. Excuse me, mate! How much is that?",
@@ -99,11 +99,11 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "here's",
+      "twenty",
       "one",
-      "eat",
-      "lot"
+      "big",
+      "eat"
      ],
      "suggestion": "The big one. My lot eat a lot! Here's a twenty.",
      "suggestionFa": "بزرگه. خانواده‌م زیاد می‌خورن! بفرما یه بیستی.",
@@ -291,7 +291,7 @@
       "driver",
       "maths",
       "thing",
-      "good"
+      "done"
      ],
      "suggestion": "No harm done! Good thing Mehdi is good at maths. I'm a bus driver, not a maths teacher!",
      "suggestionFa": "ضرری نکردیم! خوب شد {you} ریاضیش خوبه. من راننده اتوبوسم، نه معلم ریاضی!",
@@ -366,8 +366,8 @@
     {
      "keywords": [
       "actually",
-      "anymore",
       "mistake",
+      "anymore",
       "cards",
       "don't"
      ],

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "that's",
+      "thanks",
       "all"
      ],
      "suggestion": "Yes, that's all, thanks.",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "please",
-      "some",
-      "eggs"
+      "eggs",
+      "some"
      ],
      "suggestion": "And some eggs, please.",
      "suggestionFa": "و چند تا تخم‌مرغ، لطفاً.",
@@ -157,8 +157,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "own",
-      "got"
+      "got",
+      "own"
      ],
      "suggestion": "No thanks, I've got my own.",
      "suggestionFa": "نه ممنون، خودم دارم.",
@@ -214,8 +214,8 @@
     },
     {
      "keywords": [
-      "here",
       "cash",
+      "here",
       "go"
      ],
      "suggestion": "Cash. Here you go.",
@@ -307,10 +307,10 @@
     },
     {
      "keywords": [
-      "that's",
       "twenty",
+      "that's",
       "years",
-      "long"
+      "time"
      ],
      "suggestion": "Twenty years! That's a long time.",
      "suggestionFa": "بیست سال! مدت زیادیه.",
@@ -344,8 +344,8 @@
    "branches": [
     {
      "keywords": [
-      "useful",
       "that's",
+      "useful",
       "great"
      ],
      "suggestion": "Great, that's very useful.",

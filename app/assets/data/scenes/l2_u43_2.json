@@ -33,9 +33,9 @@
     {
      "keywords": [
       "house",
-      "red",
       "our",
-      "one"
+      "one",
+      "red"
      ],
      "suggestion": "Is that our house? The red one?",
      "suggestionFa": "اون خونهٔ ماست؟ قرمزه؟",
@@ -81,8 +81,8 @@
     },
     {
      "keywords": [
-      "outside",
       "there's",
+      "outside",
       "tree",
       "big"
      ],
@@ -244,8 +244,8 @@
      "keywords": [
       "opposite",
       "course",
-      "stop",
-      "shop"
+      "shop",
+      "stop"
      ],
      "suggestion": "Opposite the shop. The bus stop. Of course!",
      "suggestionFa": "روبه‌روی مغازه. ایستگاه اتوبوس. البته!",
@@ -356,10 +356,10 @@
     },
     {
      "keywords": [
-      "careful",
       "william",
-      "near",
-      "road"
+      "careful",
+      "road",
+      "near"
      ],
      "suggestion": "Be careful near the road, William!",
      "suggestionFa": "نزدیک خیابون مواظب باش ویلیام!",
@@ -398,9 +398,9 @@
     {
      "keywords": [
       "listen",
+      "good",
       "stop",
-      "look",
-      "good"
+      "look"
      ],
      "suggestion": "Good boy. Stop, look, listen.",
      "suggestionFa": "پسر خوب. وایسا، نگاه کن، گوش کن.",
@@ -410,8 +410,8 @@
     },
     {
      "keywords": [
-      "kerb",
-      "show"
+      "show",
+      "kerb"
      ],
      "suggestion": "What is the kerb? Show me.",
      "suggestionFa": "جدول چیه؟ نشونم بده.",

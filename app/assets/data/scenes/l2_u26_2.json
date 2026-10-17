@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "first",
-      "time",
-      "pump"
+      "pump",
+      "time"
      ],
      "suggestion": "Pump four, please. Yes, my first time!",
      "suggestionFa": "پمپ چهار، لطفاً. آره، اولین بارمه!",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "helped",
       "number",
+      "helped",
       "tom"
      ],
      "suggestion": "Number four. Tom helped me.",
@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "bottle",
+      "please",
       "water",
       "have"
      ],
@@ -132,8 +132,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "please",
+      "what's",
       "still",
       "deal"
      ],
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "please",
-      "wants",
       "check",
+      "wants",
       "tom"
      ],
      "suggestion": "Yes, please. Tom wants to check it.",
@@ -310,8 +310,8 @@
     {
      "keywords": [
       "thanks",
-      "good",
       "have",
+      "good",
       "day"
      ],
      "suggestion": "No, thanks. Have a good day!",
@@ -348,8 +348,8 @@
      "keywords": [
       "thanks",
       "bilal",
-      "i'll",
-      "tell"
+      "tell",
+      "i'll"
      ],
      "suggestion": "Thanks, Bilal. I'll tell him.",
      "suggestionFa": "ممنون بلال. بهش میگم.",

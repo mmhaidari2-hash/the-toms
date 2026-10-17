@@ -20,8 +20,8 @@
     {
      "keywords": [
       "everything",
-      "usual",
       "priya",
+      "usual",
       "know"
      ],
      "suggestion": "Ha! Same as usual. You know everything, Priya.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "different",
       "something",
+      "different",
       "looking",
       "today"
      ],
@@ -75,8 +75,8 @@
      "keywords": [
       "saffron",
       "have",
-      "any",
-      "got"
+      "got",
+      "any"
      ],
      "suggestion": "Have you got any saffron?",
      "suggestionFa": "زعفرون دارید؟",
@@ -137,7 +137,7 @@
      "keywords": [
       "that's",
       "pounds",
-      "iran",
+      "five",
       "tiny"
      ],
      "suggestion": "Five pounds for a tiny box. That's the same in Iran!",
@@ -148,10 +148,10 @@
     },
     {
      "keywords": [
-      "thank",
       "taste",
+      "thank",
       "good",
-      "mum"
+      "has"
      ],
      "suggestion": "Thank you. Your mum has good taste!",
      "suggestionFa": "ممنون. مامانت سلیقه‌اش خوبه!",
@@ -217,9 +217,9 @@
     {
      "keywords": [
       "moving",
-      "last",
       "week",
-      "van"
+      "last",
+      "saw"
      ],
      "suggestion": "I saw a moving van last week.",
      "suggestionFa": "هفتهٔ پیش یه ون اسباب‌کشی دیدم.",
@@ -266,9 +266,9 @@
     {
      "keywords": [
       "midnight",
-      "open",
+      "shop",
       "late",
-      "shop"
+      "open"
      ],
      "suggestion": "Midnight! Is the shop open that late?",
      "suggestionFa": "نصف‌شب! مغازه انقدر دیر بازه؟",
@@ -365,8 +365,8 @@
     {
      "keywords": [
       "card",
-      "i'll",
       "from",
+      "take",
       "them"
      ],
      "suggestion": "I'll take them a card from all of us.",

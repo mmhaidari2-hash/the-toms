@@ -22,10 +22,10 @@
     {
      "keywords": [
       "favourite",
-      "yellow",
-      "autumn",
       "orange",
-      "season"
+      "yellow",
+      "season",
+      "autumn"
      ],
      "suggestion": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
      "suggestionFa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…",
@@ -48,8 +48,8 @@
      "keywords": [
       "getting",
       "colder",
-      "warm",
       "have",
+      "warm",
       "coat"
      ],
      "suggestion": "It's getting colder now. Have you got a warm coat?",
@@ -73,9 +73,9 @@
      "keywords": [
       "november",
       "clocks",
+      "cold",
       "back",
-      "need",
-      "cold"
+      "need"
      ],
      "suggestion": "You need one! In November it's cold and wet. And the clocks go back.",
      "suggestionFa": "لازمش داری! تو نوامبر سرد و خیسه. و ساعت‌ها عقب کشیده می‌شن.",
@@ -99,8 +99,8 @@
       "october",
       "o'clock",
       "gloomy",
-      "hour",
-      "back"
+      "back",
+      "hour"
      ],
      "suggestion": "One hour back in October. It gets dark at four o'clock! Very gloomy.",
      "suggestionFa": "یه ساعت عقب تو اکتبر. ساعت چهار تاریک میشه! خیلی دلگیره.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
+      "bonfire",
       "neither",
       "conkers",
-      "bonfire",
-      "autumn",
-      "things"
+      "things",
+      "autumn"
      ],
      "suggestion": "Me neither. But autumn has good things too. Bonfire Night, and conkers!",
      "suggestionFa": "منم همین‌طور. ولی پاییز چیزهای خوب هم داره. شب آتش‌بازی، و بلوط هندی!",
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
+      "poisonous",
       "different",
       "chestnuts",
-      "poisonous",
       "they're",
       "sweet"
      ],
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "chestnuts",
       "christmas",
+      "chestnuts",
+      "collect",
       "roasted",
-      "conkers",
-      "collect"
+      "conkers"
      ],
      "suggestion": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",
      "suggestionFa": "شاه‌بلوط برشته تو کریسمس! عالی. بیا یه کم کانکر برای نیکولا جمع کنیم.",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "chocolate",
-      "champion",
       "autumn's",
-      "that's",
-      "enough"
+      "champion",
+      "enough",
+      "that's"
      ],
      "suggestion": "That's a champion! Ten is enough. Now let's go home for hot chocolate. Autumn's best bit!",
      "suggestionFa": "این قهرمانه! ده تا کافیه. حالا بریم خونه هات چاکلت بخوریم. بهترین بخش پاییز!",

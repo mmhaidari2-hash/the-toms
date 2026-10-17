@@ -23,8 +23,8 @@
      "keywords": [
       "sunflower",
       "planting",
-      "garden",
       "school",
+      "garden",
       "seeds"
      ],
      "suggestion": "Look! My school gave me sunflower seeds. We're planting them in the park garden. Can you help me?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "they're",
-      "little",
       "stripy",
-      "seeds",
-      "mummy"
+      "little",
+      "mummy",
+      "seeds"
      ],
      "suggestion": "Five seeds. They're stripy! Mummy says first we dig a little hole. With my spade!",
      "suggestionFa": "پنج تا دونه. راه‌راهن! مامانی میگه اول یه سوراخ کوچیک می‌کنیم. با بیلچه‌ام!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "finger",
-      "won't",
-      "hello",
       "worry",
-      "don't"
+      "don't",
+      "hello",
+      "won't"
      ],
      "suggestion": "As deep as my finger. Look — a worm! Hello, worm! Don't worry, we won't hurt you.",
      "suggestionFa": "به عمق انگشتم. ببین — یه کرم! سلام کرم! نگران نباش، اذیتت نمی‌کنیم.",
@@ -98,8 +98,8 @@
      "keywords": [
       "pointy",
       "cover",
+      "seed",
       "then",
-      "down",
       "soil"
      ],
      "suggestion": "Now put the seed in. Pointy end down. Then cover it with soil. Pat, pat!",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "watering",
-      "every",
-      "seeds",
       "holes",
-      "water"
+      "seeds",
+      "water",
+      "heavy"
      ],
      "suggestion": "Five seeds, five holes! Now water. Water it every day. Can you hold the watering can? It's heavy.",
      "suggestionFa": "پنج تا دونه، پنج تا سوراخ! حالا آب. هر روز آبش بده. میشه آب‌پاش را نگه داری؟ سنگینه.",
@@ -150,7 +150,7 @@
       "flowers",
       "silly",
       "rains",
-      "long"
+      "when"
      ],
      "suggestion": "When it rains, the sky does it! Silly. How long will it take? I want flowers tomorrow.",
      "suggestionFa": "وقتی بارون میاد، آسمون آبش میده! خنگول. چقدر طول می‌کشه؟ فردا گل می‌خوام.",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "forever",
+      "months",
       "taller",
       "that's",
-      "months",
       "three"
      ],
      "suggestion": "Three MONTHS? That's forever! Will it be taller than Daddy?",
@@ -198,8 +198,8 @@
      "keywords": [
       "sunflower",
       "against",
-      "mia's",
       "every",
+      "mia's",
       "mine"
      ],
      "suggestion": "Yes! A sunflower race! Mine against Mia's. Mine will win. I'll sing to it every day.",

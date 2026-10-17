@@ -22,7 +22,7 @@
       "looks",
       "like",
       "just",
-      "she"
+      "wow"
      ],
      "suggestion": "Wow! Yes, she looks just like him.",
      "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "like",
       "ryan",
-      "look",
-      "cute"
+      "cute",
+      "ears",
+      "look"
      ],
      "suggestion": "Her ears are cute! And who does Ryan look like?",
      "suggestionFa": "گوش‌هاش بانمکه! و رایان شبیه کیه؟",
@@ -90,8 +90,8 @@
     },
     {
      "keywords": [
-      "lovely",
       "that's",
+      "lovely",
       "smile",
       "same"
      ],
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "takes",
       "after",
+      "takes",
       "mean"
      ],
      "suggestion": "What does \"takes after\" mean?",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "looks",
-      "like",
       "he's",
+      "like",
       "but"
      ],
      "suggestion": "So he looks like you, but he's like Tom.",
@@ -201,8 +201,8 @@
      "keywords": [
       "maggie's",
       "think",
-      "nana",
-      "eyes"
+      "eyes",
+      "nana"
      ],
      "suggestion": "William has Nana Maggie's eyes, I think.",
      "suggestionFa": "فکر کنم ویلیام چشم‌های نانا مگی را داره.",
@@ -214,8 +214,8 @@
      "keywords": [
       "nobody",
       "he's",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "William is like nobody! He's just William.",
      "suggestionFa": "ویلیام مثل هیچ‌کس نیست! فقط ویلیامه.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "we've",
-      "same",
       "nose",
-      "dad"
+      "same",
+      "got"
      ],
      "suggestion": "I look like my dad. We've got the same nose.",
      "suggestionFa": "شبیه بابامم. دماغمون یه شکله.",
@@ -301,7 +301,7 @@
       "father",
       "thank",
       "like",
-      "say"
+      "son"
      ],
      "suggestion": "Thank you! \"Like father, like son.\" We say that too.",
      "suggestionFa": "ممنون! «پسر کو ندارد نشان از پدر.» ما هم اینو میگیم.",
@@ -352,10 +352,10 @@
    "branches": [
     {
      "keywords": [
-      "mummy",
       "daddy",
-      "like",
-      "look"
+      "mummy",
+      "look",
+      "like"
      ],
      "suggestion": "Nicola, who do you look like? Mummy or Daddy?",
      "suggestionFa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟",
@@ -410,10 +410,10 @@
     },
     {
      "keywords": [
-      "nicola",
       "you've",
-      "smile",
-      "dad's"
+      "nicola",
+      "dad's",
+      "smile"
      ],
      "suggestion": "You've got your dad's smile, Nicola.",
      "suggestionFa": "تو لبخند بابات را داری نیکولا.",

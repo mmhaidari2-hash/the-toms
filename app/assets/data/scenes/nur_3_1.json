@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "don't",
       "hello",
+      "don't",
       "know",
       "song"
      ],
@@ -124,9 +124,9 @@
     {
      "keywords": [
       "picture",
-      "find",
       "rain",
-      "who"
+      "find",
+      "can"
      ],
      "suggestion": "Yes, it's rainy! Who can find the rain picture?",
      "suggestionFa": "آره، بارونیه! کی می‌تونه عکس بارون را پیدا کنه؟",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "well",
-      "done",
-      "cold"
+      "cold",
+      "done"
      ],
      "suggestion": "Well done! Rainy and cold.",
      "suggestionFa": "آفرین! بارونی و سرد.",
@@ -216,10 +216,10 @@
    "branches": [
     {
      "keywords": [
-      "oscar",
       "daddy",
       "after",
-      "back"
+      "oscar",
+      "come"
      ],
      "suggestion": "Oh, Oscar. Daddy will come back after tea.",
      "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",

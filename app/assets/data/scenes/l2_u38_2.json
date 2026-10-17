@@ -73,8 +73,8 @@
      "keywords": [
       "spiders",
       "they",
-      "how",
-      "big"
+      "big",
+      "how"
      ],
      "suggestion": "Spiders? How big are they?",
      "suggestionFa": "عنکبوت؟ چقدر بزرگن؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "electric",
-      "heavy",
-      "mower"
+      "mower",
+      "heavy"
      ],
      "suggestion": "The mower is heavy! Is it electric?",
      "suggestionFa": "ماشین چمن‌زنی سنگینه! برقیه؟",
@@ -131,7 +131,7 @@
       "dinosaur",
       "there's",
       "ball",
-      "cars"
+      "shoe"
      ],
      "suggestion": "There's a dinosaur, two cars, a ball and a shoe!",
      "suggestionFa": "یه دایناسور، دو تا ماشین، یه توپ و یه کفش هست!",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "first",
-      "pick",
       "toys",
+      "pick",
       "why"
      ],
      "suggestion": "Why do we pick up the toys first?",
@@ -186,8 +186,8 @@
    "branches": [
     {
      "keywords": [
-      "grass",
       "clear",
+      "grass",
       "poor",
       "cars"
      ],
@@ -419,8 +419,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "earned",
+      "please",
       "i've"
      ],
      "suggestion": "Yes please. I've earned it!",

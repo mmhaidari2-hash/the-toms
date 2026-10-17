@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "last",
       "here",
+      "year",
       "came",
-      "year"
+      "iran"
      ],
      "suggestion": "I'm from Iran. I came here last year.",
      "suggestionFa": "اهل ایرانم. پارسال اومدم.",
@@ -172,7 +172,7 @@
       "making",
       "khan",
       "take",
-      "how"
+      "tea"
      ],
      "suggestion": "She did! I'm making tea. How do you take it, Mrs Khan?",
      "suggestionFa": "آره! دارم چای درست می‌کنم. خانم خان چای را چطوری می‌خورید؟",
@@ -219,8 +219,8 @@
    "branches": [
     {
      "keywords": [
-      "going",
-      "where"
+      "where",
+      "going"
      ],
      "suggestion": "Where are you going?",
      "suggestionFa": "کجا می‌رید؟",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "happy",
-      "love",
-      "cats"
+      "cats",
+      "love"
      ],
      "suggestion": "Happy to. I love cats!",
      "suggestionFa": "با کمال میل. عاشق گربه‌ام!",
@@ -321,8 +321,8 @@
      "keywords": [
       "problem",
       "lovely",
-      "trip",
-      "have"
+      "have",
+      "trip"
      ],
      "suggestion": "No problem at all. Have a lovely trip.",
      "suggestionFa": "اصلاً مشکلی نیست. سفر خوبی داشته باشید.",
@@ -332,10 +332,10 @@
     },
     {
      "keywords": [
-      "i'll",
       "care",
       "good",
-      "take"
+      "take",
+      "i'll"
      ],
      "suggestion": "I'll take good care of her.",
      "suggestionFa": "خوب ازش مراقبت می‌کنم.",
@@ -378,8 +378,8 @@
     {
      "keywords": [
       "thank",
-      "love",
-      "food"
+      "food",
+      "love"
      ],
      "suggestion": "I love spicy food! Thank you.",
      "suggestionFa": "عاشق غذای تندم! ممنون.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "yoghurt",
-      "more",
       "have",
+      "more",
       "any"
      ],
      "suggestion": "Have you got any more of this yoghurt?",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "empty",
       "shelf",
+      "empty",
       "sold",
       "out"
      ],
@@ -152,8 +152,8 @@
      "keywords": [
       "lunchtime",
       "morning",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "Six in the morning? I'll come at lunchtime.",
      "suggestionFa": "شش صبح؟ ظهر میام.",
@@ -244,10 +244,10 @@
    "branches": [
     {
      "keywords": [
-      "wipes",
       "can't",
-      "baby",
-      "find"
+      "wipes",
+      "find",
+      "baby"
      ],
      "suggestion": "Yes. I can't find the baby wipes.",
      "suggestionFa": "آره. دستمال مرطوب بچه را پیدا نمی‌کنم.",
@@ -362,10 +362,10 @@
     },
     {
      "keywords": [
-      "packs",
       "great",
-      "i'll",
-      "take"
+      "packs",
+      "take",
+      "i'll"
      ],
      "suggestion": "Great. I'll take three packs.",
      "suggestionFa": "عالیه. سه بسته برمی‌دارم.",

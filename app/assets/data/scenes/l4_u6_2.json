@@ -22,7 +22,7 @@
       "everywhere",
       "prices",
       "worse",
-      "home"
+      "have"
      ],
      "suggestion": "Prices have gone up everywhere. Back home it's even worse.",
      "suggestionFa": "قیمت‌ها همه‌جا رفته بالا. تو کشور من حتی بدتره.",
@@ -35,7 +35,7 @@
       "salaries",
       "weren't",
       "lower",
-      "much"
+      "then"
      ],
      "suggestion": "But salaries were much lower then, weren't they?",
      "suggestionFa": "ولی اون موقع حقوق‌ها خیلی کمتر بود، نه؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "countries",
-      "that's",
       "people",
-      "afford"
+      "afford",
+      "that's"
      ],
      "suggestion": "That's the same in a lot of countries. Young people can't afford to buy.",
      "suggestionFa": "تو خیلی کشورها همینه. جوون‌ها توان خرید ندارن.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "internet",
-      "things",
       "didn't",
+      "things",
       "other"
      ],
      "suggestion": "On the other hand, we have things they didn't have, like the internet.",
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "coping",
       "moment",
+      "coping",
       "bills"
      ],
      "suggestion": "So how are you coping with the bills at the moment?",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "cooking",
-      "could",
       "great",
-      "teach"
+      "teach",
+      "batch"
      ],
      "suggestion": "Batch-cooking is a great idea. Could you teach me?",
      "suggestionFa": "پختن یکجا فکر عالیه. می‌تونی یادم بدی؟",

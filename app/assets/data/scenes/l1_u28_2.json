@@ -75,8 +75,8 @@
      "keywords": [
       "morning",
       "please",
-      "speak",
-      "nurse"
+      "nurse",
+      "speak"
      ],
      "suggestion": "Good morning. Can I speak to the nurse, please?",
      "suggestionFa": "صبح بخیر. می‌تونم با پرستار صحبت کنم، لطفاً؟",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "tuesday",
-      "leslie",
       "thirty",
+      "leslie",
       "ten"
      ],
      "suggestion": "Tuesday at ten thirty. Is that OK, Leslie?",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "please",
       "repeat",
+      "please",
       "time",
       "can"
      ],

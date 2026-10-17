@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "staying",
-      "toms",
-      "good"
+      "morning",
+      "good",
+      "toms"
      ],
      "suggestion": "Good morning! Yes, I'm staying with the Toms.",
      "suggestionFa": "صبح بخیر! بله، پیش تامزها زندگی می‌کنم.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "things",
-      "says",
       "hope",
-      "meet"
+      "says",
+      "nice"
      ],
      "suggestion": "Nice to meet you. I hope she says nice things!",
      "suggestionFa": "از آشنایی‌تون خوشبختم. امیدوارم چیزهای خوبی بگه!",
@@ -70,9 +70,9 @@
     {
      "keywords": [
       "course",
-      "i'll",
       "give",
-      "mum"
+      "i'll",
+      "her"
      ],
      "suggestion": "Of course. I'll give it to her mum.",
      "suggestionFa": "حتماً. به مامانش می‌دم.",
@@ -84,8 +84,8 @@
      "keywords": [
       "taking",
       "where",
-      "sure",
-      "them"
+      "them",
+      "sure"
      ],
      "suggestion": "Sure. Where are you taking them?",
      "suggestionFa": "حتماً. کجا می‌بریدشون؟",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "need",
-      "pay",
-      "she"
+      "she",
+      "pay"
      ],
      "suggestion": "Does she need to pay for it?",
      "suggestionFa": "باید پولش را بده؟",
@@ -234,7 +234,7 @@
      "keywords": [
       "haven't",
       "home",
-      "i'll",
+      "seen",
       "look"
      ],
      "suggestion": "No, I haven't seen it. I'll look for it at home.",
@@ -286,8 +286,8 @@
     {
      "keywords": [
       "she'll",
-      "thank",
-      "happy"
+      "happy",
+      "thank"
      ],
      "suggestion": "Thank you. She'll be so happy.",
      "suggestionFa": "ممنون. خیلی خوشحال میشه.",
@@ -298,9 +298,9 @@
     {
      "keywords": [
       "i'll",
-      "put",
+      "now",
       "her",
-      "bag"
+      "put"
      ],
      "suggestion": "I'll put it in her bag now.",
      "suggestionFa": "الان می‌ذارمش تو کیفش.",

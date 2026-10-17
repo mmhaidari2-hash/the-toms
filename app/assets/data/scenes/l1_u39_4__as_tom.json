@@ -47,10 +47,10 @@
     {
      "keywords": [
       "recycling",
+      "green",
       "black",
-      "caddy",
       "brown",
-      "green"
+      "caddy"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
      "suggestionFa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته.",
@@ -74,8 +74,8 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "paper",
-      "clean"
+      "clean",
+      "rinse"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "eggshells",
-      "banana",
       "little",
+      "banana",
       "skins",
       "caddy"
      ],
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "garden",
       "leaves",
+      "garden",
       "which",
       "grass",
       "brown"
@@ -175,7 +175,7 @@
       "forget",
       "always",
       "black",
-      "swap"
+      "week"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",
@@ -198,9 +198,9 @@
      "keywords": [
       "already",
       "legend",
-      "never",
+      "she's",
       "right",
-      "she's"
+      "never"
      ],
      "suggestion": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",
      "suggestionFa": "اسطوره‌ای! خب، ببریمشون بیرون. خانم خان سطل‌هاش را گذاشته. هیچ‌وقت دیر نمی‌کنه!",

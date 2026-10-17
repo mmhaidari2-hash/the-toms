@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "sure",
       "show",
+      "sure",
       "app"
      ],
      "suggestion": "Sure. Show me the app.",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "looks",
-      "fine",
+      "hair",
       "ryan",
-      "hair"
+      "fine"
      ],
      "suggestion": "Your hair looks fine, Ryan!",
      "suggestionFa": "موهات خوبه رایان!",
@@ -125,9 +125,9 @@
     {
      "keywords": [
       "choose",
-      "skin",
       "fade",
-      "day"
+      "skin",
+      "now"
      ],
      "suggestion": "OK. Skin fade. Now choose a day.",
      "suggestionFa": "باشه. فید. حالا یه روز انتخاب کن.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "tuesday",
-      "slots",
       "there",
+      "slots",
       "any"
      ],
      "suggestion": "Are there any slots on Tuesday?",
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "before",
-      "them",
+      "tell",
       "must",
-      "tell"
+      "them"
      ],
      "suggestion": "It means you must tell them a day before.",
      "suggestionFa": "یعنی باید یه روز قبل بهشون بگی.",
@@ -310,8 +310,8 @@
     {
      "keywords": [
       "warning",
-      "cancel",
       "notice",
+      "cancel",
       "late"
      ],
      "suggestion": "Notice means warning. If you cancel late, you pay.",
@@ -363,8 +363,8 @@
      "keywords": [
       "that's",
       "photo",
-      "show",
-      "easy"
+      "easy",
+      "show"
      ],
      "suggestion": "Show him a photo. That's easy!",
      "suggestionFa": "یه عکس نشونش بده. آسونه!",

@@ -48,9 +48,9 @@
      "keywords": [
       "school",
       "can't",
-      "cube",
+      "wait",
       "late",
-      "wait"
+      "cube"
      ],
      "suggestion": "I can't wait. I'm late for school! Can I put an ice cube in it?",
      "suggestionFa": "نمی‌تونم صبر کنم. برای مدرسه دیرم شده! می‌شه یه تیکه یخ بندازم توش؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "milky",
+      "cold",
       "good",
       "milk",
-      "cold",
       "idea"
      ],
      "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "seconds",
-      "sugars",
       "twenty",
+      "sugars",
       "sweet",
       "three"
      ],
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "always",
-      "want",
+      "nicola",
       "make",
-      "i'll"
+      "i'll",
+      "want"
      ],
      "suggestion": "Nicola! She always does that. OK, I'll make a new one. Do you want one?",
      "suggestionFa": "نیکولا! همیشه این کار را می‌کنه. باشه، یکی دیگه درست می‌کنم. تو هم می‌خوای؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "right",
+      "water",
       "sugar",
       "just",
       "milk"
@@ -198,8 +198,8 @@
      "keywords": [
       "goldilocks",
       "drink",
-      "look",
       "late",
+      "look",
       "time"
      ],
      "suggestion": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",

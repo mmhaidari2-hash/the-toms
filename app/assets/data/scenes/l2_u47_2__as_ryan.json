@@ -23,9 +23,9 @@
      "keywords": [
       "headphones",
       "birthday",
+      "choose",
       "eighty",
-      "better",
-      "choose"
+      "better"
      ],
      "suggestion": "Right. Birthday money: eighty quid. I need new headphones. These two. Help me choose. Which one's better?",
      "suggestionFa": "خب. پول تولد: هشتاد پوند. هدفون جدید لازم دارم. این دو تا. کمکم کن انتخاب کنم. کدوم بهتره؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "heavier",
-      "they're",
       "battery",
+      "they're",
       "lighter",
       "louder"
      ],
@@ -74,7 +74,7 @@
       "announcements",
       "cancelling",
       "anything",
-      "dad's",
+      "noise",
       "can't"
      ],
      "suggestion": "True. And the white ones have noise cancelling. On the bus, you can't hear anything. Dad's announcements — gone!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "quieter",
       "outside",
       "seventy",
+      "quieter",
       "blocks",
-      "black"
+      "noise"
      ],
      "suggestion": "It blocks outside noise. Quieter world. Yeah, the white ones are seventy-five. The black are sixty.",
      "suggestionFa": "صدای بیرون را می‌بنده. دنیای آروم‌تر. آره، سفیده هفتاد و پنجه. مشکیه شصت.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "reviews",
+      "greggs",
       "that's",
       "better",
-      "greggs",
       "sound"
      ],
      "suggestion": "Five quid. That's one Greggs. Hmm. The reviews say the white ones sound much better. Four point eight stars.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "trying",
-      "black",
-      "comfy",
       "can't",
-      "white"
+      "point",
+      "white",
+      "black"
      ],
      "suggestion": "Black ones: four point one. Not as good. OK, trying them on… The white ones are so comfy. I can't hear you at all!",
      "suggestionFa": "مشکیه: چهار و یک دهم. نه به اون خوبی. باشه، دارم امتحانشون می‌کنم… سفیده خیلی راحته. اصلاً صدات را نمی‌شنوم!",
@@ -173,9 +173,9 @@
      "keywords": [
       "usually",
       "better",
-      "sorry",
+      "right",
       "money",
-      "white"
+      "sorry"
      ],
      "suggestion": "Ha! Sorry. Right — white ones. More money, but much better. The more you pay, the better they are. Usually.",
      "suggestionFa": "ها! ببخشید. خب — سفیده. پول بیشتر، ولی خیلی بهتر. هر چی بیشتر پول بدی، بهترن. معمولاً.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "cheapest",
-      "perfect",
       "sausage",
+      "shopper",
       "helping",
-      "shopper"
+      "perfect"
      ],
      "suggestion": "Sure. Five quid for a sausage roll. Perfect day. Cheers for helping. You're a better shopper than Dad. He'd buy the cheapest.",
      "suggestionFa": "مطمئن. پنج پوند برای یه سوسیس رول. روز عالی. مرسی که کمک کردی. از بابا خریدار بهتری هستی. اون ارزون‌ترین را می‌خرید.",

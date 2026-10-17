@@ -135,7 +135,7 @@
       "family",
       "name",
       "kept",
-      "she"
+      "her"
      ],
      "suggestion": "No, she kept her family name.",
      "suggestionFa": "نه، نام خانوادگی خودش را نگه داشت.",
@@ -265,10 +265,10 @@
    "branches": [
     {
      "keywords": [
-      "thompson",
       "margaret",
-      "nicola",
-      "lovely"
+      "thompson",
+      "lovely",
+      "that's"
      ],
      "suggestion": "That's lovely. Nicola Margaret Thompson.",
      "suggestionFa": "چه قشنگ. نیکولا مارگارت تامپسون.",
@@ -280,8 +280,8 @@
      "keywords": [
       "middle",
       "have",
-      "ryan",
-      "name"
+      "name",
+      "ryan"
      ],
      "suggestion": "Does Ryan have a middle name?",
      "suggestionFa": "رایان اسم وسط داره؟",

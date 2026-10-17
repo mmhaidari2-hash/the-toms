@@ -189,8 +189,8 @@
    "branches": [
     {
      "keywords": [
-      "once",
-      "week"
+      "week",
+      "once"
      ],
      "suggestion": "Once a week?",
      "suggestionFa": "هفته‌ای یه بار؟",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "that's",
-      "idea",
-      "good"
+      "good",
+      "idea"
      ],
      "suggestion": "That's a good idea.",
      "suggestionFa": "فکر خوبیه.",
@@ -246,7 +246,7 @@
       "english",
       "class",
       "twice",
-      "week"
+      "have"
      ],
      "suggestion": "I have English class twice a week.",
      "suggestionFa": "هفته‌ای دو بار کلاس انگلیسی دارم.",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "fridays",
       "mondays",
+      "fridays",
       "gym",
       "go"
      ],

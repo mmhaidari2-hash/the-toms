@@ -22,7 +22,7 @@
       "course",
       "first",
       "dough",
-      "make"
+      "need"
      ],
      "suggestion": "Of course. First, we need to make the dough.",
      "suggestionFa": "البته. اول باید خمیر را درست کنیم.",
@@ -35,7 +35,7 @@
       "scones",
       "round",
       "star",
-      "they"
+      "have"
      ],
      "suggestion": "Star scones! Do they have to be round?",
      "suggestionFa": "اسکون ستاره‌ای! باید گرد باشن؟",
@@ -129,7 +129,7 @@
       "flour",
       "won't",
       "more",
-      "bit"
+      "add"
      ],
      "suggestion": "Add a bit more flour. It won't be sticky.",
      "suggestionFa": "یه کم دیگه آرد اضافه کن. چسبناک نمیشه.",
@@ -139,8 +139,8 @@
     },
     {
      "keywords": [
-      "let's",
       "table",
+      "let's",
       "put",
       "ok"
      ],
@@ -265,8 +265,8 @@
      "keywords": [
       "twist",
       "don't",
-      "push",
-      "says"
+      "down",
+      "nana"
      ],
      "suggestion": "Don't twist! Nana says just push down.",
      "suggestionFa": "نچرخون! نانا میگه فقط فشار بده.",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "bake",
+      "long",
       "how"
      ],
      "suggestion": "How long do they bake for?",
@@ -405,10 +405,10 @@
    "branches": [
     {
      "keywords": [
-      "cream",
       "first",
-      "which",
-      "right"
+      "right",
+      "cream",
+      "which"
      ],
      "suggestion": "Jam first or cream first? Which is right?",
      "suggestionFa": "اول مربا یا اول خامه؟ کدوم درسته؟",
@@ -418,10 +418,10 @@
     },
     {
      "keywords": [
+      "each",
       "both",
       "i'll",
-      "each",
-      "try"
+      "one"
      ],
      "suggestion": "I'll try both! One of each.",
      "suggestionFa": "هر دو را امتحان می‌کنم! از هر کدوم یکی.",
@@ -465,8 +465,8 @@
      "keywords": [
       "nicola",
       "golden",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "They're golden and tall! Well done, Nicola!",
      "suggestionFa": "طلایی و بلند شدن! آفرین نیکولا!",

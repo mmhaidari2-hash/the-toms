@@ -22,10 +22,10 @@
     {
      "keywords": [
       "opens",
-      "lido",
-      "look",
       "swim",
-      "week"
+      "lido",
+      "week",
+      "look"
      ],
      "suggestion": "Look at the lido! It opens next week. Can you swim, Mehdi?",
      "suggestionFa": "استخر روباز را ببین! هفتهٔ بعد باز میشه. شنا بلدی {you}؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "great",
-      "well",
       "swim",
+      "well",
       "can"
      ],
      "suggestion": "Great! Can you swim well?",
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "tehran",
-      "where",
       "isn't",
+      "where",
       "swim",
       "iran"
      ],
@@ -98,8 +98,8 @@
       "though",
       "lovely",
       "water",
-      "lido",
-      "swim"
+      "cold",
+      "lido"
      ],
      "suggestion": "How lovely. The lido is cold, though. Can you swim in cold water?",
      "suggestionFa": "چه قشنگ. ولی استخر روباز سرده. تو آب سرد می‌تونی شنا کنی؟",
@@ -122,9 +122,9 @@
      "keywords": [
       "sometimes",
       "eighteen",
-      "screams",
       "degrees",
-      "water"
+      "screams",
+      "can't"
      ],
      "suggestion": "Sometimes eighteen degrees! Tom can't swim in cold water. He screams!",
      "suggestionFa": "گاهی هجده درجه! تام نمی‌تونه تو آب سرد شنا کنه. جیغ می‌زنه!",
@@ -148,7 +148,7 @@
       "splash",
       "can't",
       "jumps",
-      "dive",
+      "like",
       "swim"
      ],
      "suggestion": "Tom can swim, but he can't dive. He jumps in like a big rock! Splash!",
@@ -173,7 +173,7 @@
       "swimming",
       "really",
       "school",
-      "team",
+      "fast",
       "swim"
      ],
      "suggestion": "I can! I was in the swimming team at school. Ryan can swim really fast too.",
@@ -198,8 +198,8 @@
       "armbands",
       "saturday",
       "nicola",
-      "let's",
-      "towel"
+      "brave",
+      "bring"
      ],
      "suggestion": "Nicola can swim with armbands. Let's go on Saturday! Bring a towel and a brave face!",
      "suggestionFa": "نیکولا با بازوبند شنا می‌کنه. شنبه بریم! یه حوله و یه چهرهٔ شجاع بیار!",

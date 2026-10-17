@@ -82,9 +82,9 @@
     },
     {
      "keywords": [
-      "price",
+      "check",
       "extra",
-      "check"
+      "price"
      ],
      "suggestion": "Can I check the price too? Is it extra?",
      "suggestionFa": "میشه قیمت را هم چک کنم؟ جداست؟",
@@ -253,8 +253,8 @@
     {
      "keywords": [
       "afraid",
-      "chips",
       "these",
+      "chips",
       "cold"
      ],
      "suggestion": "These chips are a bit cold, I'm afraid.",
@@ -347,9 +347,9 @@
     {
      "keywords": [
       "actually",
-      "i'll",
       "good",
-      "try"
+      "i'll",
+      "hmm"
      ],
      "suggestion": "OK, I'll try it. Hmm… it's actually good!",
      "suggestionFa": "باشه، امتحان می‌کنم. هوم… راستش خوبه!",
@@ -361,8 +361,8 @@
      "keywords": [
       "ketchup",
       "please",
-      "more",
-      "sour"
+      "sour",
+      "more"
      ],
      "suggestion": "Too sour for me! More ketchup, please.",
      "suggestionFa": "برای من زیادی ترشه! سس گوجهٔ بیشتر لطفاً.",

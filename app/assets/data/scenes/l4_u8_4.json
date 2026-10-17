@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
+      "flag",
       "true",
-      "good",
-      "flag"
+      "good"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "biased",
       "sample",
+      "biased",
       "size",
       "tiny"
      ],
@@ -146,7 +146,7 @@
       "original",
       "source",
       "clip",
-      "just"
+      "look"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "getting",
-      "harder",
       "what's",
+      "harder",
       "tell"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",

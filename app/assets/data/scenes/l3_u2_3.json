@@ -20,9 +20,9 @@
     {
      "keywords": [
       "yesterday",
+      "fell",
       "face",
-      "bike",
-      "fell"
+      "bike"
      ],
      "suggestion": "Yes, I fell off my bike yesterday and hit my face.",
      "suggestionFa": "بله، دیروز از دوچرخه افتادم و صورتم ضربه خورد.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "exactly",
-      "into",
-      "hard"
+      "hard",
+      "into"
      ],
      "suggestion": "Not exactly — I bit into something hard.",
      "suggestionFa": "نه دقیقاً — یه چیز سفت را گاز زدم.",
@@ -76,7 +76,7 @@
       "suddenly",
       "cycling",
       "braked",
-      "work"
+      "when"
      ],
      "suggestion": "I was cycling to work when a dog ran out, so I braked suddenly.",
      "suggestionFa": "داشتم دوچرخه‌سواری می‌کردم برم سر کار که یه سگ پرید بیرون، پس یهو ترمز کردم.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "eating",
       "toffee",
-      "apple",
-      "heard"
+      "eating",
+      "heard",
+      "apple"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -140,9 +140,9 @@
     },
     {
      "keywords": [
-      "home",
-      "some",
       "went",
+      "some",
+      "home",
       "put"
      ],
      "suggestion": "No. I went home and put some ice on it.",
@@ -195,8 +195,8 @@
      "keywords": [
       "much",
       "cost",
-      "how",
-      "nhs"
+      "nhs",
+      "how"
      ],
      "suggestion": "How much will that cost on the NHS?",
      "suggestionFa": "با NHS چقدر هزینه داره؟",
@@ -244,8 +244,8 @@
      "keywords": [
       "definitely",
       "careful",
-      "i'll",
-      "more"
+      "more",
+      "i'll"
      ],
      "suggestion": "I'll definitely be more careful.",
      "suggestionFa": "قطعاً مراقب‌تر می‌شم.",

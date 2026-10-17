@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "what's",
       "sunday",
+      "what's",
       "roast"
      ],
      "suggestion": "What's a Sunday roast?",
@@ -73,8 +73,8 @@
      "keywords": [
       "that's",
       "hours",
-      "time",
-      "long"
+      "long",
+      "time"
      ],
      "suggestion": "Two hours! That's a long time.",
      "suggestionFa": "دو ساعت! زمان زیادیه.",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "yorkshire",
-      "dessert",
       "pudding",
+      "dessert",
       "what's"
      ],
      "suggestion": "What's a Yorkshire pudding? A dessert?",
@@ -243,8 +243,8 @@
      "keywords": [
       "shall",
       "them",
-      "yet",
-      "put"
+      "now",
+      "yet"
      ],
      "suggestion": "Not yet. Shall I put them on now?",
      "suggestionFa": "هنوز نه. الان بذارم؟",
@@ -365,8 +365,8 @@
    "branches": [
     {
      "keywords": [
-      "table",
       "knife",
+      "table",
       "right",
       "lay"
      ],
@@ -379,9 +379,9 @@
     {
      "keywords": [
       "cooking",
-      "keep",
       "open",
-      "door"
+      "door",
+      "keep"
      ],
      "suggestion": "I'll open the door. You keep cooking!",
      "suggestionFa": "من در را باز می‌کنم. تو آشپزی کن!",
@@ -428,8 +428,8 @@
     {
      "keywords": [
       "perfect",
-      "they",
       "look",
+      "they",
       "tom"
      ],
      "suggestion": "They look perfect, Tom!",
@@ -442,8 +442,8 @@
      "keywords": [
       "everyone",
       "should",
-      "down",
-      "tell"
+      "tell",
+      "down"
      ],
      "suggestion": "Should I tell everyone to sit down?",
      "suggestionFa": "به همه بگم بشینن؟",

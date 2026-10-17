@@ -23,9 +23,9 @@
      "keywords": [
       "saturday",
       "phoning",
-      "bengal",
       "having",
-      "nobody"
+      "nobody",
+      "bengal"
      ],
      "suggestion": "It's Saturday night, nobody wants to cook. Curry! I'm phoning the Bengal Tiger. What are you having?",
      "suggestionFa": "شنبه شبه، هیچ‌کس حوصلهٔ آشپزی نداره. کاری! دارم به «ببر بنگال» زنگ می‌زنم. تو چی می‌خوری؟",
@@ -49,8 +49,8 @@
       "everything's",
       "chicken",
       "masala",
-      "always",
-      "leslie"
+      "leslie",
+      "always"
      ],
      "suggestion": "Everything's good! I always have a chicken tikka masala. Leslie has a korma. It's mild.",
      "suggestionFa": "همه چی خوبه! من همیشه چیکن تیکا ماسالا می‌خورم. لزلی کورما می‌خوره. ملایمه.",
@@ -74,8 +74,8 @@
       "vindaloo",
       "masala",
       "medium",
-      "spicy",
-      "cried"
+      "tried",
+      "spicy"
      ],
      "suggestion": "\"Mild\" means not spicy. Tikka masala is medium. A vindaloo is very hot. I tried one once. I cried.",
      "suggestionFa": "«مایلد» یعنی تند نیست. تیکا ماسالا متوسطه. وینتالو خیلی تنده. یه بار امتحانش کردم. گریه کردم.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "poppadoms",
-      "pilau",
-      "brave",
+      "plain",
       "bread",
-      "plain"
+      "brave",
+      "pilau"
      ],
      "suggestion": "Brave man! OK, and rice — pilau rice or plain? And we must get naan bread. And poppadoms!",
      "suggestionFa": "مرد شجاع! باشه، و برنج — برنج پلو یا ساده؟ و حتماً باید نون نان بگیریم. و پاپادوم!",
@@ -123,9 +123,9 @@
      "keywords": [
       "delivery",
       "calling",
+      "sauces",
       "things",
-      "please",
-      "sauces"
+      "please"
      ],
      "suggestion": "Big crispy things. You dip them in sauces. Right, I'm calling. … Hello! I'd like to order a delivery, please.",
      "suggestionFa": "چیزای بزرگ و ترد. تو سس می‌زنیشون. خب، دارم زنگ می‌زنم. … سلام! یه سفارش برای تحویل می‌خوام، لطفاً.",
@@ -148,9 +148,9 @@
      "keywords": [
       "vindaloo",
       "minutes",
-      "garlic",
       "masala",
-      "lovely"
+      "lovely",
+      "garlic"
      ],
      "suggestion": "… Yes, one tikka masala, one korma, one lamb vindaloo, two pilau rice, two garlic naans… Forty minutes? Lovely.",
      "suggestionFa": "… بله، یه تیکا ماسالا، یه کورما، یه وینتالوی گوشت بره، دو تا برنج پلو، دو تا نون سیر… چهل دقیقه؟ عالیه.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "vindaloo",
-      "nicola",
       "drinks",
-      "lassi",
-      "glass"
+      "nicola",
+      "glass",
+      "mango"
      ],
      "suggestion": "Fine — the drinks. Mango lassi for Nicola. And have a glass of milk ready for your vindaloo. Trust me!",
      "suggestionFa": "باشه — نوشیدنی‌ها. لسی انبه برای نیکولا. و یه لیوان شیر برای وینتالوت آماده داشته باش. به من اعتماد کن!",

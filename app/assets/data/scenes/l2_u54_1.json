@@ -33,8 +33,8 @@
     {
      "keywords": [
       "sunflowers",
-      "grow",
       "they",
+      "grow",
       "tall"
      ],
      "suggestion": "Sunflowers! They grow very tall.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "little",
-      "hole",
       "deep",
-      "how"
+      "hole",
+      "dig"
      ],
      "suggestion": "Dig a little hole. How deep?",
      "suggestionFa": "یه سوراخ کوچیک بکن. چقدر عمیق؟",
@@ -154,9 +154,9 @@
     {
      "keywords": [
       "gently",
-      "hole",
+      "next",
       "worm",
-      "next"
+      "hole"
      ],
      "suggestion": "Put the worm next to the hole. Gently!",
      "suggestionFa": "کرم را بذار کنار سوراخ. آروم!",
@@ -205,7 +205,7 @@
       "pointy",
       "down",
       "done",
-      "end"
+      "pat"
      ],
      "suggestion": "Pointy end down. Pat, pat. Done!",
      "suggestionFa": "سر نوک‌تیز پایین. آروم بزن. تموم شد!",
@@ -217,8 +217,8 @@
      "keywords": [
       "close",
       "next",
-      "one",
-      "now"
+      "now",
+      "one"
      ],
      "suggestion": "Now the next one. Not too close!",
      "suggestionFa": "حالا بعدی. نه خیلی نزدیک!",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "water",
-      "much",
-      "here"
+      "here",
+      "much"
      ],
      "suggestion": "Here. Not too much water!",
      "suggestionFa": "بفرما. نه خیلی آب زیاد!",
@@ -268,10 +268,10 @@
     },
     {
      "keywords": [
-      "rains",
       "every",
-      "even",
-      "when"
+      "rains",
+      "when",
+      "even"
      ],
      "suggestion": "Every day? Even when it rains?",
      "suggestionFa": "هر روز؟ حتی وقتی بارون میاد؟",
@@ -366,7 +366,7 @@
       "sunflowers",
       "metres",
       "maybe",
-      "grow"
+      "some"
      ],
      "suggestion": "Maybe! Some sunflowers grow two metres tall.",
      "suggestionFa": "شاید! بعضی آفتابگردون‌ها دو متر بلند میشن.",

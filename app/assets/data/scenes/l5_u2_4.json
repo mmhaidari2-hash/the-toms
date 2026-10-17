@@ -22,7 +22,7 @@
       "honest",
       "third",
       "after",
-      "much"
+      "joke"
      ],
      "suggestion": "To be honest, it got a bit much after the third joke.",
      "suggestionFa": "راستش بعد از شوخی سوم یه کم زیادی شد.",
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "myself",
       "handle",
       "rather",
-      "thanks"
+      "thanks",
+      "myself"
      ],
      "suggestion": "Thanks, but I'd rather handle it myself.",
      "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
@@ -93,7 +93,7 @@
       "awkward",
       "maybe",
       "don't",
-      "make"
+      "want"
      ],
      "suggestion": "Maybe. I don't want to make it awkward.",
      "suggestionFa": "شاید. نمی‌خوام ناجورش کنم.",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "perfect",
-      "that's",
-      "honest"
+      "getting",
+      "honest",
+      "that's"
      ],
      "suggestion": "\"Getting old\" — that's perfect. Not angry, just honest.",
      "suggestionFa": "«کهنه شده» — عالیه. عصبانی نه، فقط صادق.",
@@ -146,8 +146,8 @@
      "keywords": [
       "doesn't",
       "stop",
-      "if",
-      "he"
+      "he",
+      "if"
      ],
      "suggestion": "And if he doesn't stop?",
      "suggestionFa": "و اگه دست برنداشت؟",
@@ -187,8 +187,8 @@
      "keywords": [
       "anyone",
       "don't",
-      "hope",
-      "want"
+      "fall",
+      "hope"
      ],
      "suggestion": "I hope so. I don't want to fall out with anyone.",
      "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",

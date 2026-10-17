@@ -22,10 +22,10 @@
     {
      "keywords": [
       "twenty",
-      "let's",
       "count",
-      "seek",
-      "play"
+      "let's",
+      "play",
+      "seek"
      ],
      "suggestion": "Let's play hide and seek! You count, and I hide. Count to twenty!",
      "suggestionFa": "بیا قایم‌باشک بازی کنیم! تو بشمر، من قایم می‌شم. تا بیست بشمر!",
@@ -204,8 +204,8 @@
      "keywords": [
       "found",
       "find",
-      "how",
-      "did"
+      "did",
+      "how"
      ],
      "suggestion": "You found me! How did you find me?",
      "suggestionFa": "پیدام کردی! چطوری پیدام کردی؟",
@@ -251,11 +251,11 @@
    "branches": [
     {
      "keywords": [
-      "nineteen",
       "eighteen",
+      "nineteen",
       "kitchen",
-      "garden",
-      "twenty"
+      "twenty",
+      "garden"
      ],
      "suggestion": "Eighteen, nineteen, twenty! Are you in the kitchen? Are you in the garden?",
      "suggestionFa": "هجده، نوزده، بیست! تو آشپزخونه‌ای؟ تو باغی؟",
@@ -279,8 +279,8 @@
       "behind",
       "found",
       "again",
-      "turn",
-      "ever"
+      "ever",
+      "best"
      ],
      "suggestion": "Found you! You're behind the door! My turn again! This is the best game ever!",
      "suggestionFa": "پیدات کردم! پشت دری! باز نوبت منه! این بهترین بازی دنیاست!",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "don't",
+      "which",
       "know",
       "how"
      ],
@@ -76,7 +76,7 @@
       "tonight",
       "which",
       "then",
-      "out"
+      "bin"
      ],
      "suggestion": "Which bin goes out tonight, then?",
      "suggestionFa": "پس امشب کدوم سطل بیرون میره؟",
@@ -144,8 +144,8 @@
      "keywords": [
       "rubbish",
       "rinsed",
-      "wash",
-      "have"
+      "have",
+      "wash"
      ],
      "suggestion": "Rinsed? I have to wash the rubbish?",
      "suggestionFa": "شسته؟ باید زباله را بشورم؟",
@@ -190,7 +190,7 @@
       "checks",
       "bins",
       "khan",
-      "our"
+      "mrs"
      ],
      "suggestion": "Mrs Khan checks our bins?",
      "suggestionFa": "خانم خان سطل‌های ما را چک می‌کنه؟",
@@ -201,9 +201,9 @@
     {
      "keywords": [
       "greasy",
-      "black",
       "green",
-      "clean"
+      "clean",
+      "black"
      ],
      "suggestion": "Greasy in black, clean in green. Got it.",
      "suggestionFa": "چرب تو مشکی، تمیز تو سبز. فهمیدم.",
@@ -256,8 +256,8 @@
    "branches": [
     {
      "keywords": [
-      "handle",
       "facing",
+      "handle",
       "road",
       "done"
      ],
@@ -272,7 +272,7 @@
       "khan's",
       "shall",
       "hers",
-      "out"
+      "mrs"
      ],
      "suggestion": "And Mrs Khan's bin? Shall I put hers out too?",
      "suggestionFa": "و سطل خانم خان؟ مال اون را هم بیرون بذارم؟",
@@ -328,7 +328,7 @@
      "keywords": [
       "khan's",
       "empty",
-      "ours",
+      "only",
       "full"
      ],
      "suggestion": "Mrs Khan's bin is empty. Only ours is full!",
@@ -373,7 +373,7 @@
      "keywords": [
       "maggie",
       "month",
-      "last",
+      "know",
       "nana"
      ],
      "suggestion": "I know! I did it for Nana Maggie last month.",

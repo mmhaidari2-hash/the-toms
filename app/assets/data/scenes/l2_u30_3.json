@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "maggie's",
+      "birthday",
       "husband",
       "george"
      ],
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "helped",
-      "old",
-      "man"
+      "man",
+      "old"
      ],
      "suggestion": "It's from an old man I helped.",
      "suggestionFa": "از یه آقای پیری که کمکش کردم.",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "today",
       "visit",
-      "i'll",
-      "he's"
+      "today",
+      "he's",
+      "well"
      ],
      "suggestion": "OK. He's not very well. I'll visit him today.",
      "suggestionFa": "باشه. حالش خیلی خوب نیست. امروز می‌رم دیدنش.",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "instead",
-      "app",
       "can",
+      "app",
       "pay"
      ],
      "suggestion": "Can I pay it in with the app instead?",

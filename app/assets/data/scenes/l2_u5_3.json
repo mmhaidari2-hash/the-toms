@@ -32,8 +32,8 @@
     {
      "keywords": [
       "that's",
-      "doing",
       "right",
+      "doing",
       "how"
      ],
      "suggestion": "That's right. How is he doing?",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "home",
-      "i'll",
       "week",
-      "help"
+      "home",
+      "help",
+      "i'll"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "done",
-      "has",
       "far",
+      "has",
       "he"
      ],
      "suggestion": "What has he done so far?",
@@ -287,8 +287,8 @@
     {
      "keywords": [
       "pleased",
-      "really",
       "she'll",
+      "really",
       "will"
      ],
      "suggestion": "I will. She'll be really pleased.",

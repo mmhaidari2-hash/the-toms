@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "what's",
+      "nicola",
       "hiya",
       "name"
      ],
@@ -48,8 +48,8 @@
       "that's",
       "name",
       "nice",
-      "how",
-      "old"
+      "old",
+      "how"
      ],
      "suggestion": "Mehdi! That's a nice name. How old are you?",
      "suggestionFa": "{you}! چه اسم قشنگی. چند سالته؟",
@@ -73,8 +73,8 @@
       "buttons",
       "name's",
       "teddy",
-      "half",
-      "five"
+      "five",
+      "half"
      ],
      "suggestion": "I'm five. Five and a half! This is my teddy. His name's Mr Buttons.",
      "suggestionFa": "من پنج سالمه. پنج و نیم! این عروسک خرسمه. اسمش آقای دکمه است.",
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "london",
-      "he's",
+      "friend",
+      "from",
       "best",
-      "from"
+      "he's"
      ],
      "suggestion": "Yes! He's my best friend. Are you from London?",
      "suggestionFa": "آره! بهترین دوستمه. اهل لندنی؟",
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "always",
-      "there",
       "mummy",
-      "here",
+      "there",
+      "cold",
       "says"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "teacher",
-      "that's",
       "name's",
+      "that's",
       "leslie",
       "she's"
      ],

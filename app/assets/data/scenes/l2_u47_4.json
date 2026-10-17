@@ -33,8 +33,8 @@
     {
      "keywords": [
       "easiest",
-      "which",
       "phone",
+      "which",
       "use"
      ],
      "suggestion": "Yes. Which phone is the easiest to use?",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "value",
+      "which",
       "best"
      ],
      "suggestion": "Which is the best value?",
@@ -91,8 +91,8 @@
      "keywords": [
       "camera",
       "calls",
-      "needs",
-      "video"
+      "video",
+      "front"
      ],
      "suggestion": "She needs a good front camera for video calls.",
      "suggestionFa": "یه دوربین جلوی خوب برای تماس تصویری لازم داره.",
@@ -199,8 +199,8 @@
    "branches": [
     {
      "keywords": [
-      "honest",
       "that's",
+      "honest",
       "thank",
       "dev"
      ],
@@ -213,8 +213,8 @@
     {
      "keywords": [
       "iran",
-      "will",
-      "work"
+      "work",
+      "will"
      ],
      "suggestion": "Will it work in Iran?",
      "suggestionFa": "تو ایران کار می‌کنه؟",
@@ -319,8 +319,8 @@
     {
      "keywords": [
       "she'll",
-      "love",
-      "pink"
+      "pink",
+      "love"
      ],
      "suggestion": "Pink! She'll love it.",
      "suggestionFa": "صورتی! عاشقش میشه.",

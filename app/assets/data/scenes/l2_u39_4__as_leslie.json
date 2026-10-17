@@ -49,7 +49,7 @@
       "adventure",
       "already",
       "there's",
-      "thanks",
+      "mopped",
       "street"
      ],
      "suggestion": "Already mopped, thanks. There's one on Mare Street, next to the chip shop. Grab those two bags. It's an adventure!",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "machine",
       "clothes",
       "minutes",
-      "machine",
       "powder",
       "start"
      ],
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "machines",
-      "there's",
       "machine",
-      "tenner",
+      "there's",
+      "powder",
       "little"
      ],
      "suggestion": "There's a little machine for powder. One pound. Oh — the machines take coins only. Have you got change? I've only got a tenner.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "delicates",
-      "perfect",
       "setting",
       "there's",
-      "things"
+      "perfect",
+      "thirty"
      ],
      "suggestion": "There's one, but it's always broken. Your coins are perfect. Which setting? Forty for most things. Thirty for the delicates.",
      "suggestionFa": "یکی هست، ولی همیشه خرابه. سکه‌هات عالین. کدوم تنظیم؟ چهل درجه برای بیشتر چیزها. سی برای لباس‌های ظریف.",
@@ -149,8 +149,8 @@
       "delicates",
       "started",
       "learned",
-      "lesson",
-      "blouse"
+      "blouse",
+      "things"
      ],
      "suggestion": "Ha! You learned that lesson. Delicates are soft things — silk, wool, my best blouse. Right, it's started. Now we wait.",
      "suggestionFa": "ها! اون درس را یاد گرفتی. «دلیکیتس» چیزای نرمن — ابریشم، پشم، بهترین بلوز من. خب، شروع شد. حالا صبر می‌کنیم.",
@@ -175,7 +175,7 @@
       "thursday",
       "hackney",
       "that's",
-      "every"
+      "knows"
      ],
      "suggestion": "Read, chat, go to the café. That's Mr Okoye — he's here every Thursday. Hello! He knows everything about Hackney.",
      "suggestionFa": "می‌خونن، گپ می‌زنن، میرن کافه. اون آقای اوکویه‌ست — هر پنج‌شنبه اینجاست. سلام! همه‌چی را دربارهٔ هکنی می‌دونه.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
+      "machine",
       "clothes",
       "minutes",
-      "machine",
-      "that's",
-      "friend"
+      "broken",
+      "twenty"
      ],
      "suggestion": "That's the spirit. Then the dryer: two pounds for twenty minutes. Clean clothes and a new friend. Not bad for a broken machine!",
      "suggestionFa": "همینه. بعد خشک‌کن: دو پوند برای بیست دقیقه. لباس تمیز و یه دوست جدید. برای یه ماشین خراب بد نیست!",

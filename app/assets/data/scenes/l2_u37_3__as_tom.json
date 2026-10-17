@@ -23,9 +23,9 @@
      "keywords": [
       "windscreen",
       "freezing",
-      "covered",
       "through",
-      "morning"
+      "morning",
+      "covered"
      ],
      "suggestion": "Morning! It's freezing. Minus three! Look at the car — covered in frost. I can't see a thing through the windscreen.",
      "suggestionFa": "صبح بخیر! یخ‌بندونه. منفی سه! ماشین را ببین — پر از یخ. از شیشهٔ جلو هیچی نمی‌بینم.",
@@ -50,7 +50,7 @@
       "scraper",
       "that's",
       "lesson",
-      "water"
+      "glass"
      ],
      "suggestion": "No! Never hot water. The glass can crack. That's an expensive lesson. Can you pass me the scraper? It's in the door.",
      "suggestionFa": "نه! هیچ‌وقت آب داغ. شیشه ممکنه ترک برداره. درس گرونیه. میشه کاردک یخ را بهم بدی؟ تو دره.",
@@ -73,9 +73,9 @@
      "keywords": [
       "windscreen",
       "cheers",
-      "engine",
       "scrape",
-      "window"
+      "engine",
+      "heater"
      ],
      "suggestion": "Cheers. You scrape the back window, I'll do the front. And turn the engine on — heater on, fan on the windscreen.",
      "suggestionFa": "مرسی. تو شیشهٔ عقب را بتراش، من جلو را. و موتور را روشن کن — بخاری روشن، فن رو شیشهٔ جلو.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "windows",
       "mirrors",
-      "button",
+      "windows",
       "kettle",
-      "pours"
+      "button",
+      "right"
      ],
      "suggestion": "Red button, top right. Yes, the side windows too, and the mirrors. Mrs Khan next door just pours a kettle on hers. Every year!",
      "suggestionFa": "دکمهٔ قرمز، بالا سمت راست. آره، شیشه‌های بغل هم، و آینه‌ها. خانم خان همسایه هر سال یه کتری آب جوش روی ماشینش می‌ریزه!",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "ideally",
       "fingers",
-      "frozen",
-      "woolly",
-      "proper"
+      "ideally",
+      "gloves",
+      "proper",
+      "woolly"
      ],
      "suggestion": "Not yet — she's lucky! Frozen fingers? Here, my spare gloves. You need proper ones. Woolly ones from Nana, ideally.",
      "suggestionFa": "هنوز نه — خوش‌شانسه! انگشت یخ‌زده؟ بیا، دستکش اضافهٔ من. باید دستکش درست‌حسابی داشته باشی. ترجیحاً پشمی از نانا.",
@@ -150,7 +150,7 @@
       "scarves",
       "arthur",
       "office",
-      "three"
+      "glass"
      ],
      "suggestion": "She knits for everyone. Arthur at the post office has three scarves. Right, done. Mind the ice on the path — it's like glass.",
      "suggestionFa": "برای همه می‌بافه. آرتور تو پستخونه سه تا شال گردن داره. خب، تموم شد. مواظب یخ رو پیاده‌رو باش — مثل شیشه‌ست.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "council",
-      "nearly",
       "stairs",
+      "nearly",
       "under",
       "roads"
      ],
@@ -199,8 +199,8 @@
       "centimetres",
       "completely",
       "weekend",
-      "you'll",
-      "london"
+      "london",
+      "you'll"
      ],
      "suggestion": "Snow? Maybe, at the weekend. Then London stops completely. Two centimetres and no buses! Don't laugh — you'll see.",
      "suggestionFa": "برف؟ شاید آخر هفته. اون‌وقت لندن کاملاً می‌خوابه. دو سانت برف و هیچ اتوبوسی نیست! نخند — می‌بینی.",

@@ -82,9 +82,9 @@
     {
      "keywords": [
       "first",
-      "i'll",
       "then",
-      "help"
+      "help",
+      "i'll"
      ],
      "suggestion": "You try first, then I'll help.",
      "suggestionFa": "اول خودت امتحان کن، بعد کمکت می‌کنم.",
@@ -126,8 +126,8 @@
     },
     {
      "keywords": [
-      "please",
       "behind",
+      "please",
       "oscar",
       "line"
      ],
@@ -163,8 +163,8 @@
    "branches": [
     {
      "keywords": [
-      "wait",
       "turn",
+      "wait",
       "but"
      ],
      "suggestion": "Yes, but wait for your turn.",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "children",
-      "twelve",
-      "adults"
+      "adults",
+      "twelve"
      ],
      "suggestion": "Twelve children and two adults.",
      "suggestionFa": "دوازده بچه و دو بزرگسال.",
@@ -235,8 +235,8 @@
     },
     {
      "keywords": [
-      "count",
       "three",
+      "count",
       "one",
       "let"
      ],
@@ -258,8 +258,8 @@
     }
    ],
    "cultureNote": {
-    "en": "\"Ratios\" are the legal number of adults per child. For ages 3–5 in England it's usually 1 adult to 8 children.",
-    "fa": "نسبت قانونی بزرگسال به کودک."
+    "en": "\"Ratios\" are the legal number of adults per child. Under the EYFS in England it's usually 1 adult to 8 children aged 3–5 (1:13 where a qualified teacher works directly with them); always check your setting's policy.",
+    "fa": "نسبت قانونی بزرگسال به کودک (طبق EYFS در انگلستان)؛ همیشه سیاست مهدکودک خودتان را بررسی کنید."
    }
   },
   "n6": {

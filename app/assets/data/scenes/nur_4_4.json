@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
-      "last",
-      "some",
       "have",
-      "when"
+      "when",
+      "some",
+      "last"
      ],
      "suggestion": "When did he last have some?",
      "suggestionFa": "آخرین بار کی خورده؟",
@@ -146,8 +146,8 @@
      "keywords": [
       "write",
       "we'll",
-      "time",
-      "give"
+      "give",
+      "time"
      ],
      "suggestion": "OK. We'll write the time we give it.",
      "suggestionFa": "باشه. ساعتی که میدیم را می‌نویسیم.",
@@ -179,8 +179,8 @@
      "keywords": [
       "after",
       "hours",
-      "last",
-      "time"
+      "time",
+      "last"
      ],
      "suggestion": "48 hours after the last time?",
      "suggestionFa": "۴۸ ساعت بعد از آخرین بار؟",
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "better",
+      "seem",
       "they",
-      "even",
-      "seem"
+      "even"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
@@ -231,10 +231,10 @@
    "branches": [
     {
      "keywords": [
-      "we'll",
       "worse",
-      "call",
-      "gets"
+      "we'll",
+      "gets",
+      "call"
      ],
      "suggestion": "We'll call you if he gets worse.",
      "suggestionFa": "اگه بدتر شد بهتون زنگ می‌زنیم.",

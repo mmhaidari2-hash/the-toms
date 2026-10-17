@@ -22,7 +22,7 @@
       "antibiotics",
       "ibuprofen",
       "doctor",
-      "them"
+      "gave"
      ],
      "suggestion": "Yes. The doctor gave me antibiotics. Can I take them with ibuprofen?",
      "suggestionFa": "آره. دکتر بهم آنتی‌بیوتیک داده. می‌تونم با ایبوپروفن بخورمشون؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "medicine",
       "question",
+      "medicine",
       "about",
       "have"
      ],
@@ -73,9 +73,9 @@
    "branches": [
     {
      "keywords": [
+      "take",
       "good",
-      "food",
-      "take"
+      "food"
      ],
      "suggestion": "Good. Do I take it with food?",
      "suggestionFa": "خوبه. با غذا بخورمش؟",
@@ -205,10 +205,10 @@
     },
     {
      "keywords": [
-      "alarm",
-      "phone",
       "seven",
-      "i'll"
+      "phone",
+      "alarm",
+      "days"
      ],
      "suggestion": "Seven days. I'll set an alarm on my phone.",
      "suggestionFa": "هفت روز. رو گوشیم زنگ هشدار می‌ذارم.",
@@ -261,8 +261,8 @@
      "keywords": [
       "saturday",
       "party",
-      "has",
-      "tom"
+      "tom",
+      "has"
      ],
      "suggestion": "Tom has a party on Saturday…",
      "suggestionFa": "تام شنبه مهمونی داره…",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "prescriptions",
+      "sure",
       "free",
-      "gets",
-      "sure"
+      "gets"
      ],
      "suggestion": "I'm not sure. Who gets free prescriptions?",
      "suggestionFa": "مطمئن نیستم. کی نسخهٔ رایگان می‌گیره؟",

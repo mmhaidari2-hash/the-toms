@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
-      "better",
-      "thanks",
       "that's",
+      "thanks",
+      "better",
       "much"
      ],
      "suggestion": "Thanks. That's much better.",
@@ -175,9 +175,9 @@
     {
      "keywords": [
       "approval",
-      "says",
       "need",
-      "got"
+      "says",
+      "now"
      ],
      "suggestion": "Got it. Now it says I need approval.",
      "suggestionFa": "فهمیدم. حالا می‌گه تأیید لازم دارم.",
@@ -187,8 +187,8 @@
     },
     {
      "keywords": [
-      "know",
       "easy",
+      "know",
       "when",
       "how"
      ],
@@ -239,8 +239,8 @@
      "keywords": [
       "everything",
       "thanks",
-      "limit",
-      "there"
+      "there",
+      "limit"
      ],
      "suggestion": "Thanks. Is there a limit on everything?",
      "suggestionFa": "ممنون. همه چیز محدودیت داره؟",
@@ -274,8 +274,8 @@
    "branches": [
     {
      "keywords": [
-      "how",
       "get",
+      "how",
       "one"
      ],
      "suggestion": "No. How do I get one?",
@@ -332,8 +332,8 @@
     },
     {
      "keywords": [
-      "cash",
       "here",
+      "cash",
       "can",
       "pay"
      ],

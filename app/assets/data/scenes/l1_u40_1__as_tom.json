@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "scrambled",
       "breakfast",
+      "scrambled",
       "leslie's",
-      "making",
-      "having"
+      "having",
+      "making"
      ],
      "suggestion": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
      "suggestionFa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟",
@@ -50,7 +50,7 @@
       "crack",
       "eight",
       "first",
-      "eggs"
+      "bowl"
      ],
      "suggestion": "First, crack the eggs into the bowl. Eight eggs. Big family!",
      "suggestionFa": "اول، تخم‌مرغ‌ها را تو کاسه بشکن. هشت تا. خانوادهٔ بزرگ!",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "problem",
-      "spoon",
       "whisk",
+      "spoon",
       "fast",
       "them"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "pepper",
-      "fine",
+      "salt",
       "fork",
       "milk",
-      "salt"
+      "fine"
      ],
      "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
      "suggestionFa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "butter",
       "medium",
+      "butter",
       "pinch",
-      "heat",
-      "high"
+      "high",
+      "heat"
      ],
      "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
      "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
@@ -149,8 +149,8 @@
       "stirring",
       "slowly",
       "don't",
-      "stir",
-      "them"
+      "stop",
+      "keep"
      ],
      "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
      "suggestionFa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "they're",
       "cooking",
-      "still",
+      "they're",
+      "toast",
       "ready",
-      "toast"
+      "still"
      ],
      "suggestion": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
      "suggestionFa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟",

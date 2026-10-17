@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "tooth",
       "drink",
+      "water",
       "hurts"
      ],
      "suggestion": "Yes. This tooth hurts when I drink cold water.",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "started",
-      "month",
       "sharp",
+      "month",
       "last"
      ],
      "suggestion": "It started last month. It's sharp!",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "what's",
-      "dull",
-      "ache"
+      "ache",
+      "dull"
      ],
      "suggestion": "What's a dull ache?",
      "suggestionFa": "درد مبهم یعنی چی؟",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
-      "always"
+      "always",
+      "really"
      ],
      "suggestion": "Really? I always rinse!",
      "suggestionFa": "واقعاً؟ من همیشه آب می‌کشم!",
@@ -203,8 +203,8 @@
      "keywords": [
       "remember",
       "don't",
-      "i'll",
-      "spit"
+      "spit",
+      "i'll"
      ],
      "suggestion": "Spit, don't rinse. I'll remember.",
      "suggestionFa": "تف کن، آب نکش. یادم می‌مونه.",
@@ -243,8 +243,8 @@
     {
      "keywords": [
       "hurts",
-      "aah",
-      "one"
+      "one",
+      "aah"
      ],
      "suggestion": "Aah! Yes, that one hurts!",
      "suggestionFa": "آخ! آره، اون یکی درد داره!",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "thank",
-      "come",
       "when",
+      "come",
       "can"
      ],
      "suggestion": "Thank you. When can I come?",

@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "like"
+      "book"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "rahimi",
-      "mehdi",
       "third",
+      "mehdi",
       "may"
      ],
      "suggestion": "It's Mehdi Rahimi, the third of May, 1996.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "surname",
-      "shall",
       "spell",
+      "shall",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -183,7 +183,7 @@
       "thursday",
       "perfect",
       "past",
-      "two"
+      "ten"
      ],
      "suggestion": "Thursday at ten past two is perfect.",
      "suggestionFa": "پنجشنبه دو و ده دقیقه عالیه.",

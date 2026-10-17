@@ -74,8 +74,8 @@
     {
      "keywords": [
       "seven",
-      "four",
       "nine",
+      "four",
       "two"
      ],
      "suggestion": "It's CC four-seven-nine-two.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "everything",
-      "check",
       "there",
+      "check",
       "can"
      ],
      "suggestion": "Is everything there? Can I check?",
@@ -298,8 +298,8 @@
     {
      "keywords": [
       "candles",
-      "please",
       "number",
+      "please",
       "six"
      ],
      "suggestion": "Yes, please! Number six candles.",
@@ -310,10 +310,10 @@
     },
     {
      "keywords": [
-      "myself",
       "thanks",
-      "i'll",
-      "them"
+      "myself",
+      "them",
+      "i'll"
      ],
      "suggestion": "No thanks. I'll get them myself.",
      "suggestionFa": "نه ممنون. خودم برمی‌دارم.",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "anything",
-      "need",
-      "sign"
+      "sign",
+      "need"
      ],
      "suggestion": "I will! Do I need to sign anything?",
      "suggestionFa": "میگم! لازمه چیزی امضا کنم؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "leslie",
-      "thank",
-      "happy"
+      "happy",
+      "thank"
      ],
      "suggestion": "Thank you. Leslie will be so happy.",
      "suggestionFa": "ممنون. لزلی خیلی خوشحال میشه.",

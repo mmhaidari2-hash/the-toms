@@ -244,8 +244,8 @@
     {
      "keywords": [
       "straight",
-      "royal",
       "right",
+      "royal",
       "then"
      ],
      "suggestion": "Right at the Royal Inn, then straight on.",
@@ -257,9 +257,9 @@
     {
      "keywords": [
       "which",
+      "huge",
       "park",
-      "gate",
-      "huge"
+      "gate"
      ],
      "suggestion": "Which gate? The park is huge!",
      "suggestionFa": "کدوم در؟ پارک خیلی بزرگه!",
@@ -347,10 +347,10 @@
    "branches": [
     {
      "keywords": [
-      "text",
-      "i'll",
+      "good",
       "idea",
-      "good"
+      "text",
+      "i'll"
      ],
      "suggestion": "Good idea. I'll text now.",
      "suggestionFa": "فکر خوبیه. الان پیام میدم.",

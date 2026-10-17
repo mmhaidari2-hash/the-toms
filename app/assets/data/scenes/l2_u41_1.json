@@ -22,7 +22,7 @@
       "thompson",
       "morning",
       "check",
-      "like"
+      "book"
      ],
      "suggestion": "Good morning. I'd like to book a check-up for Ryan Thompson.",
      "suggestionFa": "صبح بخیر. می‌خوام برای رایان تامپسون وقت معاینه بگیرم.",
@@ -90,8 +90,8 @@
     {
      "keywords": [
       "flies",
-      "work",
-      "time"
+      "time",
+      "work"
      ],
      "suggestion": "Time flies! Yes, Leslie is at work.",
      "suggestionFa": "زمان می‌گذره! آره، لزلی سر کاره.",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "suits",
-      "ryan",
-      "mean"
+      "mean",
+      "ryan"
      ],
      "suggestion": "That suits me. I mean, it suits Ryan!",
      "suggestionFa": "برام مناسبه. یعنی برای رایان مناسبه!",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "fifteen",
-      "he's",
       "free",
+      "he's",
       "him"
      ],
      "suggestion": "Is it free for him? He's fifteen.",
@@ -410,8 +410,8 @@
      "keywords": [
       "clean",
       "teeth",
-      "i'll",
-      "tell"
+      "tell",
+      "i'll"
      ],
      "suggestion": "I'll tell him. Clean teeth, no mud!",
      "suggestionFa": "بهش میگم. دندون تمیز، بدون گل!",

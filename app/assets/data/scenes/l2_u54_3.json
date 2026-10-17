@@ -86,9 +86,9 @@
     {
      "keywords": [
       "beautiful",
-      "look",
       "tail",
-      "wow"
+      "look",
+      "its"
      ],
      "suggestion": "Wow, it's beautiful. Look at its tail.",
      "suggestionFa": "وای، قشنگه. دمش را ببین.",
@@ -142,7 +142,7 @@
       "nicola",
       "foxes",
       "here",
-      "stay"
+      "pets"
      ],
      "suggestion": "Foxes are not pets, Nicola. Stay here.",
      "suggestionFa": "روباه حیوون خونگی نیست نیکولا. اینجا بمون.",
@@ -195,10 +195,10 @@
    "branches": [
     {
      "keywords": [
-      "under",
       "maybe",
-      "park",
-      "shed"
+      "under",
+      "shed",
+      "park"
      ],
      "suggestion": "In a den. Maybe under a shed or in the park.",
      "suggestionFa": "تو یه لونه. شاید زیر یه انباری یا تو پارک.",
@@ -349,9 +349,9 @@
     {
      "keywords": [
       "tonight",
-      "foxes",
+      "maybe",
       "night",
-      "maybe"
+      "foxes"
      ],
      "suggestion": "Maybe tonight. Foxes come out at night.",
      "suggestionFa": "شاید امشب. روباه‌ها شب‌ها میان بیرون.",
@@ -362,8 +362,8 @@
     {
      "keywords": [
       "thank",
-      "now",
       "fox",
+      "now",
       "ha"
      ],
      "suggestion": "I'm a fox now? Ha! Thank you!",

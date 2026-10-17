@@ -24,8 +24,8 @@
       "beautiful",
       "british",
       "museum",
-      "let's",
-      "we're"
+      "we're",
+      "right"
      ],
      "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
      "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
@@ -49,8 +49,8 @@
       "overground",
       "highbury",
       "victoria",
-      "colour",
-      "change"
+      "change",
+      "colour"
      ],
      "suggestion": "Every line has a colour. We take the Overground to Highbury, then change to the Victoria line.",
      "suggestionFa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم.",
@@ -73,9 +73,9 @@
      "keywords": [
       "tottenham",
       "central",
-      "oxford",
+      "circus",
       "change",
-      "circus"
+      "oxford"
      ],
      "suggestion": "Light blue. We go south to Oxford Circus, then change again. Central line — the red one — two stops to Tottenham Court Road.",
      "suggestionFa": "آبی روشن. به جنوب میریم تا آکسفورد سیرکس، بعد دوباره عوض می‌کنیم. خط سنترال — قرمزه — دو ایستگاه تا تاتنهام کورت رود.",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
+      "tunnels",
       "quicker",
       "there's",
-      "tunnels",
       "lesson",
       "seven"
      ],
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "westbound",
       "eastbound",
+      "westbound",
       "central",
-      "lesson",
-      "that's"
+      "circus",
+      "follow"
      ],
      "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
      "suggestionFa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!",
@@ -148,9 +148,9 @@
      "keywords": [
       "tottenham",
       "minutes'",
+      "london",
       "follow",
-      "museum",
-      "london"
+      "museum"
      ],
      "suggestion": "Forty-two years of London! Here we are — Tottenham Court Road. Mind the gap… and follow me. Five minutes' walk to the museum.",
      "suggestionFa": "چهل و دو سال تو لندن! رسیدیم — تاتنهام کورت رود. مراقب فاصله باش… و دنبالم بیا. پنج دقیقه پیاده تا موزه.",
@@ -173,9 +173,9 @@
      "keywords": [
       "complain",
       "londoner",
-      "every",
       "about",
-      "then"
+      "every",
+      "real"
      ],
      "suggestion": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
      "suggestionFa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!",

@@ -82,9 +82,9 @@
     {
      "keywords": [
       "station",
+      "don't",
       "close",
-      "worry",
-      "don't"
+      "worry"
      ],
      "suggestion": "Don't worry, the station is close.",
      "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "quarter",
-      "four",
-      "past"
+      "past",
+      "four"
      ],
      "suggestion": "At quarter past four.",
      "suggestionFa": "چهار و ربع.",
@@ -243,8 +243,8 @@
     {
      "keywords": [
       "shepherd's",
-      "yum",
-      "pie"
+      "pie",
+      "yum"
      ],
      "suggestion": "Shepherd's pie? Yum!",
      "suggestionFa": "پای چوپان؟ به‌به!",
@@ -278,8 +278,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "have",
+      "good",
       "bye",
       "day"
      ],

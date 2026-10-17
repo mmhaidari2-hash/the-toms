@@ -80,7 +80,7 @@
       "sustainability",
       "distributors",
       "biggest",
-      "london"
+      "strong"
      ],
      "suggestion": "You're one of the biggest distributors in East London, with a strong focus on sustainability.",
      "suggestionFa": "شما یکی از بزرگ‌ترین پخش‌کننده‌های شرق لندنید، با تمرکز قوی روی پایداری.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "expanding",
-      "opened",
       "you've",
+      "opened",
       "depot"
      ],
      "suggestion": "I read that you've just opened a new depot and are expanding fast.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "reorganised",
-      "delivery",
       "customer",
-      "schedule"
+      "schedule",
+      "informed"
      ],
      "suggestion": "Once, a delivery was delayed, so I reorganised the schedule and kept the customer informed.",
      "suggestionFa": "یه بار، یه محموله تأخیر داشت، پس برنامه را دوباره چیدم و مشتری را در جریان گذاشتم.",
@@ -145,8 +145,8 @@
     },
     {
      "keywords": [
-      "separately",
       "colleagues",
+      "separately",
       "compromise",
       "found"
      ],
@@ -203,8 +203,8 @@
     },
     {
      "keywords": [
-      "together",
       "improved",
+      "together",
       "morale",
       "well"
      ],
@@ -252,8 +252,8 @@
      "keywords": [
       "stronger",
       "english",
-      "written",
-      "evening"
+      "evening",
+      "written"
      ],
      "suggestion": "My written English could be stronger, so I'm taking an evening course.",
      "suggestionFa": "انگلیسی نوشتاریم می‌تونه قوی‌تر باشه، برای همین یه دورهٔ شبانه می‌رم.",
@@ -292,8 +292,8 @@
    "branches": [
     {
      "keywords": [
-      "riser",
       "early",
+      "riser",
       "all"
      ],
      "suggestion": "Not at all — I'm an early riser.",
@@ -306,8 +306,8 @@
      "keywords": [
       "that's",
       "first",
-      "long",
-      "fine"
+      "fine",
+      "long"
      ],
      "suggestion": "That's fine, as long as I can get the first bus.",
      "suggestionFa": "مشکلی نیست، تا وقتی که بتونم اولین اتوبوس را بگیرم.",
@@ -407,7 +407,7 @@
       "training",
       "typical",
       "there",
-      "look"
+      "like"
      ],
      "suggestion": "Yes — what does a typical day look like, and is there training?",
      "suggestionFa": "بله — یه روز معمولی چه شکلیه، و آموزش هست؟",
@@ -420,7 +420,7 @@
       "working",
       "enjoy",
       "about",
-      "here"
+      "most"
      ],
      "suggestion": "What do you enjoy most about working here?",
      "suggestionFa": "از کار کردن اینجا بیشتر از همه از چی لذت می‌برید؟",

@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "month",
       "first",
+      "month",
       "then",
       "day"
      ],
@@ -252,8 +252,8 @@
      "keywords": [
       "centre",
       "once",
-      "walk",
-      "only"
+      "only",
+      "walk"
      ],
      "suggestion": "Only once, at a walk-in centre.",
      "suggestionFa": "فقط یه بار، تو یه مرکز بدون وقت قبلی.",
@@ -287,8 +287,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "number",
+      "what's",
       "nhs"
      ],
      "suggestion": "What's an NHS number?",
@@ -299,8 +299,8 @@
     },
     {
      "keywords": [
-      "leave",
       "blank",
+      "leave",
       "i'll",
       "ok"
      ],
@@ -336,9 +336,9 @@
    "branches": [
     {
      "keywords": [
-      "smoke",
       "don't",
-      "drink"
+      "drink",
+      "smoke"
      ],
      "suggestion": "I don't smoke, and I don't drink.",
      "suggestionFa": "سیگار نمی‌کشم، الکل هم نمی‌خورم.",
@@ -351,7 +351,7 @@
       "stopped",
       "before",
       "smoked",
-      "last"
+      "year"
      ],
      "suggestion": "I smoked before, but I stopped last year.",
      "suggestionFa": "قبلاً سیگار می‌کشیدم، ولی پارسال ترک کردم.",
@@ -399,7 +399,7 @@
       "doctor",
       "thank",
       "when",
-      "see"
+      "can"
      ],
      "suggestion": "Thank you. When can I see a doctor?",
      "suggestionFa": "ممنون. کی می‌تونم دکتر ببینم؟",

@@ -25,7 +25,7 @@
       "minutes",
       "starts",
       "twenty",
-      "socks"
+      "match"
      ],
      "suggestion": "I can't find my football socks! The match starts in twenty minutes!",
      "suggestionFa": "جوراب‌های فوتبالم را پیدا نمی‌کنم! بازی بیست دقیقهٔ دیگه شروع میشه!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "drawer",
+      "that's",
       "mine",
       "blue",
       "they"
@@ -98,8 +98,8 @@
      "keywords": [
       "washing",
       "basket",
-      "about",
       "pants",
+      "about",
       "ha"
      ],
      "suggestion": "Ha! Pants. What about the washing basket?",
@@ -147,9 +147,9 @@
      "keywords": [
       "where's",
       "other",
-      "i've",
       "boot",
-      "them"
+      "wear",
+      "i've"
      ],
      "suggestion": "I've got no time to wash them. I'll wear them! Where's my other boot?",
      "suggestionFa": "وقت ندارم بشورمشون. همینا را می‌پوشم! اون یکی کفش فوتبالم کجاست؟",
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "thanks",
-      "water",
       "boots",
       "socks",
+      "water",
       "ready"
      ],
      "suggestion": "Desk, yes. Socks, boots, water, shin pads… I'm ready! Thanks, mate!",
@@ -222,8 +222,8 @@
      "keywords": [
       "loudest",
       "cheers",
-      "nicola",
       "shouts",
+      "nicola",
       "bring"
      ],
      "suggestion": "Cheers! Come and watch if you want. It's at the park. Bring Nicola — she shouts the loudest!",

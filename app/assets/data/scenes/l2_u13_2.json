@@ -22,7 +22,7 @@
       "landlord's",
       "haven't",
       "bills",
-      "name"
+      "bill"
      ],
      "suggestion": "I haven't got a bill yet. The bills are in my landlord's name.",
      "suggestionFa": "هنوز قبض ندارم. قبض‌ها به اسم صاحبخونه‌ست.",
@@ -34,8 +34,8 @@
      "keywords": [
       "letter",
       "home",
-      "bank",
-      "i've"
+      "i've",
+      "bank"
      ],
      "suggestion": "I've got a bank letter, but it's at home.",
      "suggestionFa": "نامهٔ بانک دارم، ولی خونه‌ست.",
@@ -145,9 +145,9 @@
     {
      "keywords": [
       "landlord",
-      "has",
+      "can",
       "him",
-      "ask"
+      "has"
      ],
      "suggestion": "My landlord has it. I can ask him.",
      "suggestionFa": "صاحبخونه‌ام داره. می‌تونم ازش بپرسم.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "course",
-      "i'll",
       "send",
+      "i'll",
       "now"
      ],
      "suggestion": "Of course. I'll send it now.",
@@ -290,7 +290,7 @@
       "before",
       "weeks",
       "then",
-      "get"
+      "ill"
      ],
      "suggestion": "Two weeks? What if I get ill before then?",
      "suggestionFa": "دو هفته؟ اگه قبلش مریض بشم چی؟",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "anything",
-      "bring",
       "great",
+      "bring",
       "need"
      ],
      "suggestion": "Great. Do I need to bring anything?",
@@ -391,8 +391,8 @@
     {
      "keywords": [
       "weight",
-      "cakes",
       "after",
+      "cakes",
       "all"
      ],
      "suggestion": "Weight? Oh no. After all your cakes!",

@@ -22,10 +22,10 @@
    "branches": [
     {
      "keywords": [
-      "sleep",
       "point",
+      "sleep",
       "need",
-      "but"
+      "see"
      ],
      "suggestion": "I see your point, but you need your sleep for school.",
      "suggestionFa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "really",
+      "tired",
       "don't",
-      "you'd",
       "agree"
      ],
      "suggestion": "I don't agree — you'd be really tired at school.",
@@ -75,8 +75,8 @@
      "keywords": [
       "fifteen",
       "ryan's",
-      "later",
-      "older"
+      "older",
+      "later"
      ],
      "suggestion": "Ryan's older. When you're fifteen, you can stay up later too.",
      "suggestionFa": "رایان بزرگ‌تره. وقتی پونزده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "always",
       "afraid",
+      "always",
       "isn't",
       "life"
      ],
@@ -188,8 +188,8 @@
      "keywords": [
       "minutes",
       "asleep",
-      "every",
-      "night"
+      "night",
+      "every"
      ],
      "suggestion": "You say that every night, then fall asleep in five minutes.",
      "suggestionFa": "هر شب همینو می‌گی، بعد پنج دقیقه‌ای خوابت می‌بره.",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "because",
-      "starts",
       "school",
+      "starts",
       "early"
      ],
      "suggestion": "They go to bed early because school starts very early.",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "arguing",
-      "you'll",
       "lawyer",
+      "you'll",
       "maybe"
      ],
      "suggestion": "You're good at arguing! Maybe you'll be a lawyer.",
@@ -341,8 +341,8 @@
      "keywords": [
       "together",
       "let's",
-      "mum",
-      "dad"
+      "dad",
+      "ask"
      ],
      "suggestion": "Let's ask your mum and dad together.",
      "suggestionFa": "بیا با هم از مامان و بابات بپرسیم.",

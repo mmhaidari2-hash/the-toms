@@ -34,8 +34,8 @@
      "keywords": [
       "problem",
       "feeling",
-      "like",
-      "long"
+      "have",
+      "been"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
      "suggestionFa": "مشکلی نیست. چند وقته این‌طوری هستید؟",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "would",
       "happy",
-      "like",
-      "kind"
+      "would",
+      "kind",
+      "like"
      ],
      "suggestion": "I'd be happy to. What kind would you like?",
      "suggestionFa": "با کمال میل. چه نوعی دوست دارید؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "chicken",
-      "mum's",
       "shall",
+      "mum's",
       "soup"
      ],
      "suggestion": "Shall I make my mum's chicken soup?",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "rebook",
       "course",
+      "rebook",
       "shall",
       "them"
      ],
@@ -136,10 +136,10 @@
     },
     {
      "keywords": [
-      "visit",
       "would",
-      "like",
-      "home"
+      "visit",
+      "home",
+      "like"
      ],
      "suggestion": "Would you like me to ask for a home visit?",
      "suggestionFa": "می‌خواید درخواست ویزیت خونگی کنم؟",
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "looked",
       "you've",
-      "after",
-      "worry"
+      "looked",
+      "don't",
+      "after"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",
@@ -222,9 +222,9 @@
    "branches": [
     {
      "keywords": [
-      "want",
       "here",
-      "help"
+      "help",
+      "want"
      ],
      "suggestion": "Here you are. Do you want help with it?",
      "suggestionFa": "بفرمایید. کمک می‌خواید؟",

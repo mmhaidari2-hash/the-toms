@@ -18,6 +18,8 @@ const certLevels = {
 class CertificateScreen extends ConsumerStatefulWidget {
   final int level;
   const CertificateScreen({super.key, required this.level});
+  static const disclaimer = 'Not an accredited qualification. CEFR level is an indication only. Not a CEFR, IELTS, Ofqual-regulated or Home Office-approved English test.';
+  static const disclaimerFa = 'این یک مدرک معتبر/رسمی نیست و سطح CEFR فقط تقریبی است؛ آزمون رسمی زبان (مثل IELTS یا آزمون مورد تأیید وزارت کشور) هم نیست.';
   @override
   ConsumerState<CertificateScreen> createState() => _CertificateScreenState();
 }
@@ -93,20 +95,23 @@ class _CertificateScreenState extends ConsumerState<CertificateScreen> {
                         Text('Certificate of Completion', textAlign: TextAlign.center, style: BL.display(24)),
                         Text('گواهی پایان دوره', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
                         const SizedBox(height: 14),
-                        const Text('This is to certify that', style: TextStyle(fontSize: 12, color: BL.muted)),
+                        const Text('Awarded to', style: TextStyle(fontSize: 12, color: BL.muted)),
                         const SizedBox(height: 6),
                         Text(ctrl.certName.isEmpty ? 'Your name' : ctrl.certName, textAlign: TextAlign.center, style: BL.display(26, color: BL.navy)),
                         Container(height: 1, width: 200, color: BL.mist, margin: const EdgeInsets.symmetric(vertical: 6)),
-                        const Text('has completed', style: TextStyle(fontSize: 12, color: BL.muted)),
+                        const Text('for completing The Toms course content', style: TextStyle(fontSize: 12, color: BL.muted)),
                         const SizedBox(height: 6),
                         Text('Level $lv · $name', textAlign: TextAlign.center, style: BL.display(20)),
-                        Text('$nameFa · $cefr', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
+                        Text('$nameFa · aligned to CEFR descriptors $cefr', textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
                         const SizedBox(height: 6),
                         Text('${units.length} units · ${units.expand((u) => u.lessons).length} lessons of everyday British English', textAlign: TextAlign.center, style: const TextStyle(fontSize: 11.5, color: BL.ink)),
                         const SizedBox(height: 16),
                         Icon(done ? Icons.verified_rounded : Icons.lock_rounded, size: 46, color: done ? const Color(0xFFC9A04C) : BL.muted),
                         const SizedBox(height: 4),
                         Text(done ? 'Tom, Leslie & the family · Hackney, London' : 'Locked', style: const TextStyle(fontSize: 11, fontStyle: FontStyle.italic, color: BL.muted)),
+                        const SizedBox(height: 10),
+                        const Text(CertificateScreen.disclaimer, key: ValueKey('cert-disclaimer'), textAlign: TextAlign.center, style: TextStyle(fontSize: 9.5, color: BL.muted, height: 1.3)),
+                        Text(CertificateScreen.disclaimerFa, textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(9.5, color: BL.muted)),
                       ]),
                     ),
                   ),

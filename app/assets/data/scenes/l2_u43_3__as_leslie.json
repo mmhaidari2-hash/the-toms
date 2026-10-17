@@ -23,9 +23,9 @@
      "keywords": [
       "documentary",
       "watching",
-      "cities",
       "london",
-      "tom's"
+      "cities",
+      "about"
      ],
      "suggestion": "Tom's watching a documentary about cities. He says London is the best city in the world. What do you think?",
      "suggestionFa": "تام داره یه مستند دربارهٔ شهرها می‌بینه. میگه لندن بهترین شهر دنیاست. نظر تو چیه؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "heartbroken",
       "compare",
+      "london",
       "tehran",
-      "busier",
-      "london"
+      "busier"
      ],
      "suggestion": "Ha! He'll be heartbroken. OK — compare them. Is London busier than Tehran?",
      "suggestionFa": "ها! دلش می‌شکنه. باشه — مقایسه‌شون کن. لندن از تهران شلوغ‌تره؟",
@@ -74,8 +74,8 @@
       "transport",
       "imagine",
       "traffic",
-      "public",
-      "london"
+      "london",
+      "public"
      ],
      "suggestion": "Worse than London traffic? I can't imagine! And the public transport? Our Tube is old and hot.",
      "suggestionFa": "از ترافیک لندن بدتر؟ تصورش را هم نمی‌تونم بکنم! و حمل‌ونقل عمومی؟ متروی ما قدیمی و گرمه.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "london",
+      "what's",
       "about",
-      "thing",
-      "again"
+      "again",
+      "thing"
      ],
      "suggestion": "The 38! Tom will love you again. What's the best thing about London for you?",
      "suggestionFa": "۳۸! تام دوباره عاشقت میشه. برای تو بهترین چیز لندن چیه؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "museums",
       "britain",
+      "london",
       "things",
-      "honest",
-      "london"
+      "honest"
      ],
      "suggestion": "True. Free museums are one of the best things about Britain. And the worst thing about London? Be honest!",
      "suggestionFa": "درسته. موزه‌های مجانی یکی از بهترین چیزهای بریتانیاست. و بدترین چیز لندن؟ صادق باش!",
@@ -149,8 +149,8 @@
       "londoner",
       "weather",
       "prefer",
-      "which",
-      "every"
+      "can't",
+      "which"
      ],
      "suggestion": "The rent and the weather. Every Londoner says the same! So, which do you prefer? You can't say both.",
      "suggestionFa": "اجاره و هوا. همهٔ لندنی‌ها همینو میگن! خب، کدوم را ترجیح میدی؟ نمی‌تونی بگی هر دو.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "diplomatic",
-      "prefers",
       "hackney",
+      "prefers",
       "london",
       "hear"
      ],

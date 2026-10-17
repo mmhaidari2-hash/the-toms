@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "pounds",
+      "twelve",
       "says"
      ],
      "suggestion": "It says twelve pounds.",
@@ -120,9 +120,9 @@
     },
     {
      "keywords": [
+      "tom",
       "ask",
-      "box",
-      "tom"
+      "box"
      ],
      "suggestion": "Ask for a box, Tom.",
      "suggestionFa": "یه جعبه بخواه تام.",
@@ -165,8 +165,8 @@
     },
     {
      "keywords": [
-      "pounds",
       "that's",
+      "pounds",
       "three",
       "wrong"
      ],
@@ -229,9 +229,9 @@
     },
     {
      "keywords": [
-      "change",
+      "should",
       "pounds",
-      "should"
+      "change"
      ],
      "suggestion": "It should be eight pounds change.",
      "suggestionFa": "بقیه‌ش باید هشت پوند باشه.",
@@ -272,8 +272,8 @@
     },
     {
      "keywords": [
-      "worry",
       "don't",
+      "worry",
       "about"
      ],
      "suggestion": "Don't worry about it.",
@@ -315,9 +315,9 @@
     },
     {
      "keywords": [
+      "fares",
       "count",
       "every",
-      "fares",
       "bus"
      ],
      "suggestion": "You count bus fares every day!",

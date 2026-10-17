@@ -68,8 +68,8 @@
     {
      "keywords": [
       "freelance",
-      "tom's",
-      "going"
+      "going",
+      "tom's"
      ],
      "suggestion": "Tom's going freelance.",
      "suggestionFa": "تام داره مستقل کار می‌کنه.",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "projects",
-      "depends",
-      "problem"
+      "problem",
+      "depends"
      ],
      "suggestion": "It depends on the projects. Is that a problem?",
      "suggestionFa": "بستگی به پروژه‌ها داره. مشکلیه؟",
@@ -173,8 +173,8 @@
     },
     {
      "keywords": [
-      "month",
       "maybe",
+      "month",
       "once"
      ],
      "suggestion": "Maybe once a month.",
@@ -215,8 +215,8 @@
      "keywords": [
       "long",
       "take",
-      "how",
-      "yet"
+      "yet",
+      "how"
      ],
      "suggestion": "Not yet. How long does it take?",
      "suggestionFa": "هنوز نه. چقدر طول می‌کشه؟",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "documents",
-      "last",
       "here",
-      "week"
+      "week",
+      "last"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",

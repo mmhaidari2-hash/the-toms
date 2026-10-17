@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "worry",
       "don't",
+      "worry",
       "bad"
      ],
      "suggestion": "Don't worry, Ryan. It's not bad!",
@@ -55,8 +55,8 @@
    "branches": [
     {
      "keywords": [
-      "wasn't",
       "mostly",
+      "wasn't",
       "ryan",
       "good"
      ],
@@ -68,10 +68,10 @@
     },
     {
      "keywords": [
-      "patel",
       "doing",
-      "well",
-      "said"
+      "patel",
+      "said",
+      "well"
      ],
      "suggestion": "Mr Patel said you're doing well.",
      "suggestionFa": "آقای پاتل گفت خوب پیش میری.",
@@ -145,9 +145,9 @@
     {
      "keywords": [
       "algebra",
-      "maths",
       "patel",
-      "work"
+      "maths",
+      "need"
      ],
      "suggestion": "Maths. Mr Patel said you need to work on algebra.",
      "suggestionFa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی.",
@@ -159,8 +159,8 @@
      "keywords": [
       "homework",
       "pieces",
-      "late",
-      "were"
+      "were",
+      "late"
      ],
      "suggestion": "Five pieces of homework were late.",
      "suggestionFa": "پنج تا تکلیف دیر بوده.",
@@ -214,9 +214,9 @@
     {
      "keywords": [
       "that's",
-      "eight",
       "seven",
-      "good"
+      "eight",
+      "plan"
      ],
      "suggestion": "Seven to eight. That's a good plan.",
      "suggestionFa": "هفت تا هشت. برنامهٔ خوبیه.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "homework",
-      "ryan",
       "time",
-      "only"
+      "only",
+      "ryan"
      ],
      "suggestion": "Ryan, it's only for homework time.",
      "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "only",
+      "ryan",
       "one"
      ],
      "suggestion": "It's only one hour, Ryan.",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "help",
+      "ryan",
       "can"
      ],
      "suggestion": "Yes, I can help you, Ryan.",
@@ -317,8 +317,8 @@
      "keywords": [
       "strange",
       "numbers",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "Strange? I just like numbers!",
      "suggestionFa": "عجیب؟ فقط عدد دوست دارم!",
@@ -412,8 +412,8 @@
     {
      "keywords": [
       "that's",
-      "prize",
       "great",
+      "prize",
       "ryan"
      ],
      "suggestion": "That's a great prize, Ryan.",

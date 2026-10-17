@@ -25,7 +25,7 @@
       "homework",
       "mummy's",
       "words",
-      "i've"
+      "busy"
      ],
      "suggestion": "I've got spelling homework. Ten words! Can you help me? Mummy's busy.",
      "suggestionFa": "تکلیف املا دارم. ده تا کلمه! کمکم می‌کنی؟ مامان سرش شلوغه.",
@@ -48,9 +48,9 @@
      "keywords": [
       "because",
       "hard",
-      "c",
       "o",
-      "b"
+      "e",
+      "s"
      ],
      "suggestion": "\"Because.\" It's so hard. B-E-C-O-S?",
      "suggestionFa": "«Because». خیلی سخته. بی-ای-سی-او-اس؟",
@@ -75,7 +75,7 @@
       "elephants",
       "always",
       "small",
-      "hart"
+      "says"
      ],
      "suggestion": "Miss Hart says: Big Elephants Can Always Understand Small Elephants!",
      "suggestionFa": "خانم هارت می‌گه: فیل‌های بزرگ همیشه فیل‌های کوچیک را می‌فهمن!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "before",
-      "next",
+      "friend",
       "word",
+      "next",
       "e"
      ],
      "suggestion": "Next word: \"friend.\" Is it I before E?",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "homework",
-      "telly",
-      "mummy",
       "watch",
-      "look"
+      "mummy",
+      "telly",
+      "stop"
      ],
      "suggestion": "Full stop! Done! Mummy, look! I did all my homework! Can I watch telly now?",
      "suggestionFa": "نقطه! تموم! مامان، ببین! همهٔ تکالیفم را انجام دادم! حالا می‌تونم تلویزیون ببینم؟",
@@ -225,7 +225,7 @@
       "helper",
       "better",
       "don't",
-      "even"
+      "done"
      ],
      "suggestion": "Done! You're the best homework helper ever. Even better than Ryan. Don't tell him!",
      "suggestionFa": "تموم! تو بهترین کمک‌کار تکلیف دنیایی. حتی بهتر از رایان. بهش نگو!",

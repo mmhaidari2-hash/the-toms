@@ -71,8 +71,8 @@
     {
      "keywords": [
       "nobody's",
-      "danger",
       "report",
+      "danger",
       "like"
      ],
      "suggestion": "No, nobody's in danger. I'd like to report a stolen bike.",
@@ -136,7 +136,7 @@
       "morning",
       "leaving",
       "seven",
-      "work"
+      "when"
      ],
      "suggestion": "This morning at seven, when he was leaving for work.",
      "suggestionFa": "امروز صبح ساعت هفت، وقتی داشت می‌رفت سر کار.",
@@ -252,10 +252,10 @@
     },
     {
      "keywords": [
-      "second",
       "bought",
+      "second",
       "sorry",
-      "idea"
+      "hand"
      ],
      "suggestion": "No idea, sorry. He bought it second-hand.",
      "suggestionFa": "هیچ ایده‌ای ندارم، ببخشید. دست دوم خریدش.",
@@ -296,7 +296,7 @@
       "neighbour",
       "camera",
       "i'll",
-      "has"
+      "her"
      ],
      "suggestion": "The neighbour has a camera. I'll ask her.",
      "suggestionFa": "همسایه دوربین داره. ازش می‌پرسم.",
@@ -309,7 +309,7 @@
       "anything",
       "didn't",
       "dark",
-      "was"
+      "see"
      ],
      "suggestion": "We didn't see anything. It was dark.",
      "suggestionFa": "چیزی ندیدیم. تاریک بود.",
@@ -344,8 +344,8 @@
     {
      "keywords": [
       "i've",
-      "pen",
-      "got"
+      "got",
+      "pen"
      ],
      "suggestion": "Yes, I've got a pen.",
      "suggestionFa": "آره، خودکار دارم.",

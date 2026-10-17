@@ -22,7 +22,7 @@
       "cooking",
       "myself",
       "night",
-      "scary"
+      "every"
      ],
      "suggestion": "I know. I'll be cooking for myself every night. Scary!",
      "suggestionFa": "می‌دونم. هر شب برای خودم آشپزی می‌کنم. ترسناکه!",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "christmas",
       "collected",
+      "christmas",
       "fifty",
       "boxes"
      ],
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "helping",
+      "still",
       "calls",
-      "video",
-      "still"
+      "video"
      ],
      "suggestion": "I'll still be helping you. We can do video calls.",
      "suggestionFa": "باز هم کمکت می‌کنم. می‌تونیم تماس تصویری بگیریم.",
@@ -144,10 +144,10 @@
     },
     {
      "keywords": [
-      "won't",
       "gcses",
-      "time",
-      "need"
+      "won't",
+      "need",
+      "time"
      ],
      "suggestion": "By the time you take your GCSEs, you won't need me.",
      "suggestionFa": "تا وقتی GCSE‌ها را بدی، دیگه به من نیازی نداری.",
@@ -184,7 +184,7 @@
       "always",
       "course",
       "yours",
-      "sofa"
+      "will"
      ],
      "suggestion": "Of course. The sofa will always be yours.",
      "suggestionFa": "معلومه. مبل همیشه مال توئه.",

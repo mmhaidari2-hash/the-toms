@@ -22,9 +22,9 @@
     {
      "keywords": [
       "provisional",
-      "support",
-      "licence",
       "mirrors",
+      "licence",
+      "support",
       "ryan's"
      ],
      "suggestion": "Right, you're in the back seat as moral support. Ryan's got his provisional licence — tell him to check his mirrors.",
@@ -100,7 +100,7 @@
       "priority",
       "there's",
       "coming",
-      "wrong"
+      "right"
      ],
      "suggestion": "Ha, the wrong side! Right, Ryan, there's a roundabout coming. Who has priority?",
      "suggestionFa": "ها، سمت اشتباه! خب، رایان، یه میدون داره میاد. حق تقدم با کیه؟",
@@ -124,8 +124,8 @@
       "indicate",
       "parking",
       "lovely",
-      "come",
-      "spot"
+      "spot",
+      "left"
      ],
      "suggestion": "Spot on. He did it! Indicate left to come off. Lovely. Next up — parking.",
      "suggestionFa": "دقیقاً. انجامش داد! برای خروج راهنمای چپ بزن. عالی. بعدی — پارک کردن.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "spaces",
       "enough",
+      "spaces",
       "close",
-      "think",
-      "first"
+      "first",
+      "think"
      ],
      "suggestion": "He's… in two spaces. Close enough for a first go! What do you think?",
      "suggestionFa": "اون… تو دو تا جا پارک کرده. برای بار اول کافیه! نظرت چیه؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "asking",
-      "test",
-      "he's",
+      "true",
       "when",
-      "take"
+      "take",
+      "test"
      ],
      "suggestion": "Ha! True. He's asking when he can take his test.",
      "suggestionFa": "ها! درسته. داره می‌پرسه کی می‌تونه امتحان بده.",
@@ -199,7 +199,7 @@
       "driving",
       "exactly",
       "nerves",
-      "seats",
+      "right",
       "can't"
      ],
      "suggestion": "Exactly. Right, swap seats. I'm driving home — my nerves can't take any more.",
