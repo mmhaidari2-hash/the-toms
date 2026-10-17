@@ -139,9 +139,9 @@
     {
      "keywords": [
       "you've",
+      "years",
       "maybe",
-      "lived",
-      "years"
+      "lived"
      ],
      "suggestion": "Maybe add that you've lived here for years.",
      "suggestionFa": "شاید اضافه کنی که سال‌هاست اینجا زندگی می‌کنی.",
@@ -183,10 +183,10 @@
    "branches": [
     {
      "keywords": [
+      "english",
       "classes",
       "mention",
-      "english",
-      "could"
+      "there"
      ],
      "suggestion": "You could mention the English classes there.",
      "suggestionFa": "می‌تونی کلاس‌های انگلیسی اونجا را هم بگی.",
@@ -196,8 +196,8 @@
     },
     {
      "keywords": [
-      "another",
       "suggest",
+      "another",
       "should",
       "money"
      ],
@@ -237,10 +237,10 @@
    "branches": [
     {
      "keywords": [
-      "hearing",
       "forward",
-      "look",
-      "from"
+      "hearing",
+      "from",
+      "look"
      ],
      "suggestion": "Very. And end with \"I look forward to hearing from you.\"",
      "suggestionFa": "خیلی. و با «منتظر پاسخ شما هستم» تمومش کن.",

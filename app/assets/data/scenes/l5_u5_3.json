@@ -1,0 +1,245 @@
+{
+ "id": "l5_u5_3",
+ "characterId": "patel",
+ "title": "A difficult meeting",
+ "titleFa": "جلسهٔ دشوار",
+ "setting": "Difficult conversations · Level 5",
+ "settingFa": "گفتگوهای دشوار",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "patel",
+   "text": "Thank you for coming in. I'm afraid there was an incident today. Ryan was involved in a fight with another student.",
+   "translations": {
+    "fa": "ممنون که اومدید. متأسفانه امروز یه حادثه پیش اومد. رایان با یه دانش‌آموز دیگه درگیر شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doesn't",
+      "fight",
+      "sound",
+      "ryan"
+     ],
+     "suggestion": "A fight? That doesn't sound like Ryan at all.",
+     "suggestionFa": "دعوا؟ اصلاً به رایان نمی‌خوره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happened",
+      "hurt",
+      "he"
+     ],
+     "suggestion": "Is he hurt? What happened?",
+     "suggestionFa": "آسیب دیده؟ چی شد؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "incident",
+     "fa": "حادثه"
+    },
+    {
+     "word": "involved in",
+     "fa": "درگیر"
+    },
+    {
+     "word": "fight",
+     "fa": "دعوا"
+    },
+    {
+     "word": "hurt",
+     "fa": "آسیب‌دیده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "patel",
+   "text": "He's fine — a bruised hand. Apparently another boy made a comment about his grandfather being ill. Ryan pushed him.",
+   "translations": {
+    "fa": "خوبه — دستش کبود شده. ظاهراً یه پسر دیگه دربارهٔ مریضی پدربزرگش یه حرفی زد. رایان هلش داد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diagnosed",
+      "explains",
+      "grandad",
+      "failure"
+     ],
+     "suggestion": "That explains it. His grandad has just been diagnosed with heart failure.",
+     "suggestionFa": "این توضیحش می‌ده. پدربزرگش تازه نارسایی قلبی تشخیص داده شده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "excusing",
+      "stress",
+      "under",
+      "he's"
+     ],
+     "suggestion": "I'm not excusing it, but he's been under a lot of stress.",
+     "suggestionFa": "توجیهش نمی‌کنم، ولی خیلی تحت استرس بوده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bruised",
+     "fa": "کبود"
+    },
+    {
+     "word": "comment",
+     "fa": "حرف/اظهارنظر"
+    },
+    {
+     "word": "pushed",
+     "fa": "هل داد"
+    },
+    {
+     "word": "diagnosed",
+     "fa": "تشخیص داده شد"
+    },
+    {
+     "word": "excusing",
+     "fa": "توجیه کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "patel",
+   "text": "I'm so sorry to hear that. It certainly puts things in context. We still have to follow our behaviour policy, but I'll take that into account.",
+   "translations": {
+    "fa": "خیلی متأسفم که اینو می‌شنوم. قطعاً موضوع را روشن‌تر می‌کنه. باز هم باید سیاست رفتاری‌مون را دنبال کنیم، ولی اینو در نظر می‌گیرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "consequences",
+      "understand",
+      "would"
+     ],
+     "suggestion": "I understand. What would the consequences be?",
+     "suggestionFa": "می‌فهمم. پیامدهاش چی میشه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spoken",
+      "other",
+      "well",
+      "been"
+     ],
+     "suggestion": "Has the other boy been spoken to as well?",
+     "suggestionFa": "با اون پسر دیگه هم صحبت شده؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "puts in context",
+     "fa": "موضوع را روشن می‌کند"
+    },
+    {
+     "word": "behaviour policy",
+     "fa": "سیاست رفتاری"
+    },
+    {
+     "word": "take into account",
+     "fa": "در نظر گرفتن"
+    },
+    {
+     "word": "consequences",
+     "fa": "پیامدها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "patel",
+   "text": "Yes, both boys will have a lunchtime detention, and the other boy's comment will be dealt with separately. And I'd like to offer Ryan time with our school counsellor.",
+   "translations": {
+    "fa": "بله، هر دو پسر یه بازداشت وقت ناهار دارن، و حرف اون پسر جداگانه رسیدگی میشه. و دوست دارم به رایان وقت با مشاور مدرسه پیشنهاد بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counsellor",
+      "really",
+      "that's",
+      "good"
+     ],
+     "suggestion": "That's fair, and the counsellor is a really good idea.",
+     "suggestionFa": "منصفانه‌ست، و مشاور واقعاً فکر خوبیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understanding",
+      "handling",
+      "thank",
+      "such"
+     ],
+     "suggestion": "Thank you for handling this with such understanding.",
+     "suggestionFa": "ممنون که با این‌قدر درک باهاش برخورد کردید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "detention",
+     "fa": "بازداشت مدرسه"
+    },
+    {
+     "word": "dealt with",
+     "fa": "رسیدگی شده"
+    },
+    {
+     "word": "separately",
+     "fa": "جداگانه"
+    },
+    {
+     "word": "counsellor",
+     "fa": "مشاور"
+    }
+   ],
+   "cultureNote": {
+    "en": "British vs American: counsellor (UK) = counselor (US). A \"detention\" means staying in school as a punishment.",
+    "fa": "counsellor املای بریتانیایی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "patel",
+   "text": "Of course. Ryan's a good lad having a hard time. Please let us know how his grandad is doing. We're all thinking of the family.",
+   "translations": {
+    "fa": "حتماً. رایان پسر خوبیه که داره سختی می‌کشه. لطفاً از حال پدربزرگش خبرمون کنید. همه به فکر خانواده هستیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

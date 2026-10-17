@@ -1,0 +1,251 @@
+{
+ "id": "l5_u6_1",
+ "characterId": "bennett",
+ "title": "Register switching",
+ "titleFa": "تغییر سبک گفتار",
+ "setting": "Formal English · Level 5",
+ "settingFa": "انگلیسی رسمی",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "I need your help with a tricky task. The council wants a formal report on the conversation club, but my draft sounds like a chat over tea. Could you look at it?",
+   "translations": {
+    "fa": "برای یه کار سخت کمکتون را لازم دارم. شورا یه گزارش رسمی دربارهٔ باشگاه گفتگو می‌خواد، ولی پیش‌نویس من شبیه گپ سر چایه. می‌تونید نگاهش کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "register",
+      "choosing",
+      "writing",
+      "course"
+     ],
+     "suggestion": "Of course. Formal writing is all about choosing the right register.",
+     "suggestionFa": "حتماً. نوشتن رسمی یعنی انتخاب سبک درست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happy",
+      "first",
+      "line",
+      "read"
+     ],
+     "suggestion": "Happy to. Read me the first line.",
+     "suggestionFa": "با کمال میل. خط اول را برام بخونید.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tricky",
+     "fa": "دشوار"
+    },
+    {
+     "word": "formal report",
+     "fa": "گزارش رسمی"
+    },
+    {
+     "word": "draft",
+     "fa": "پیش‌نویس"
+    },
+    {
+     "word": "register",
+     "fa": "سبک/سطح زبان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "\"Loads of people have turned up every week, and they've got loads better at English.\" I know — dreadful.",
+   "translations": {
+    "fa": "«هر هفته کلی آدم اومدن، و انگلیسیشون کلی بهتر شده.» می‌دونم — افتضاحه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "consistently",
+      "participants",
+      "improvement",
+      "significant"
+     ],
+     "suggestion": "Try: \"Attendance has been consistently high, and participants have shown significant improvement.\"",
+     "suggestionFa": "امتحان کنید: «حضور به‌طور مداوم بالا بوده، و شرکت‌کنندگان پیشرفت چشمگیری نشان داده‌اند.»",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "substantial",
+      "improved",
+      "becomes",
+      "better"
+     ],
+     "suggestion": "\"Loads\" becomes \"a substantial number\", and \"got better\" becomes \"improved\".",
+     "suggestionFa": "«کلی» میشه «تعداد قابل‌توجهی»، و «بهتر شدن» میشه «بهبود یافتن».",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turned up",
+     "fa": "آمدند"
+    },
+    {
+     "word": "dreadful",
+     "fa": "افتضاح"
+    },
+    {
+     "word": "attendance",
+     "fa": "حضور"
+    },
+    {
+     "word": "consistently",
+     "fa": "به‌طور مداوم"
+    },
+    {
+     "word": "significant",
+     "fa": "چشمگیر"
+    },
+    {
+     "word": "substantial",
+     "fa": "قابل‌توجه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Formal English prefers Latin-based words: \"obtain\" (get), \"assist\" (help), \"require\" (need), \"commence\" (start).",
+    "fa": "انگلیسی رسمی واژه‌های لاتین‌ریشه را ترجیح می‌دهد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bennett",
+   "text": "Marvellous! And this bit: \"We need more money or we'll have to stop on Saturdays.\"",
+   "translations": {
+    "fa": "عالیه! و این قسمت: «پول بیشتری لازم داریم وگرنه باید شنبه‌ها تعطیل کنیم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discontinued",
+      "additional",
+      "sessions",
+      "funding"
+     ],
+     "suggestion": "\"Without additional funding, the Saturday sessions may be discontinued.\"",
+     "suggestionFa": "«بدون بودجهٔ اضافی، جلسات شنبه ممکن است متوقف شوند.»",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "investment",
+      "provision",
+      "continued",
+      "required"
+     ],
+     "suggestion": "\"Continued investment is required to sustain the Saturday provision.\"",
+     "suggestionFa": "«ادامهٔ سرمایه‌گذاری برای حفظ خدمات شنبه لازم است.»",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "additional funding",
+     "fa": "بودجهٔ اضافی"
+    },
+    {
+     "word": "discontinued",
+     "fa": "متوقف شده"
+    },
+    {
+     "word": "investment",
+     "fa": "سرمایه‌گذاری"
+    },
+    {
+     "word": "sustain",
+     "fa": "حفظ کردن"
+    },
+    {
+     "word": "provision",
+     "fa": "خدمات"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bennett",
+   "text": "Oh, that's much more persuasive. It sounds like a necessity rather than a complaint. Where did you learn to write like this?",
+   "translations": {
+    "fa": "آه، خیلی متقاعدکننده‌تره. شبیه ضرورت به نظر میاد نه شکایت. از کجا یاد گرفتید این‌طوری بنویسید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letters",
+      "reading",
+      "taught",
+      "arthur"
+     ],
+     "suggestion": "Reading HMRC letters, mostly! Arthur taught me to decode them.",
+     "suggestionFa": "بیشتر از خوندن نامه‌های HMRC! آرتور یادم داد رمزگشاییشون کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "language",
+      "english",
+      "second",
+      "emails"
+     ],
+     "suggestion": "From years of emails at work. Formal is like a second language within English.",
+     "suggestionFa": "از سال‌ها ایمیل سر کار. رسمی مثل یه زبان دوم درون انگلیسیه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "persuasive",
+     "fa": "متقاعدکننده"
+    },
+    {
+     "word": "necessity",
+     "fa": "ضرورت"
+    },
+    {
+     "word": "decode",
+     "fa": "رمزگشایی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Ha! Well, you've come full circle. Would you be willing to co-author the report? Your name deserves to be on it.",
+   "translations": {
+    "fa": "ها! خب، یه دور کامل زدید. حاضرید هم‌نویسندهٔ گزارش باشید؟ اسمتون حقشه که روش باشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

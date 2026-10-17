@@ -1,0 +1,251 @@
+{
+ "id": "l5_u3_2",
+ "characterId": "doris",
+ "title": "Doris's stories",
+ "titleFa": "قصه‌های دوریس",
+ "setting": "Regional voices · Level 5",
+ "settingFa": "صداهای محلی",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Ooh, you'll never guess, love, our Sandra — you know, my eldest — well, she's only gone and got herself engaged! To a fella from Wigan, of all places!",
+   "translations": {
+    "fa": "اوه، باورت نمیشه عزیزم، ساندرای ما — می‌دونی، بزرگه‌م — خب، رفته نامزد کرده! با یه یارو از ویگان، از بین این همه جا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "congratulations",
+      "thing",
+      "wigan",
+      "bad"
+     ],
+     "suggestion": "Congratulations! Is Wigan a bad thing?",
+     "suggestionFa": "تبریک! ویگان چیز بدیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wedding",
+      "when's",
+      "lovely",
+      "that's"
+     ],
+     "suggestion": "That's lovely news, Doris! When's the wedding?",
+     "suggestionFa": "خبر قشنگیه دوریس! عروسی کیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eldest",
+     "fa": "بزرگ‌ترین فرزند"
+    },
+    {
+     "word": "she's only gone and…",
+     "fa": "رفته … کرده (تعجب)"
+    },
+    {
+     "word": "engaged",
+     "fa": "نامزد"
+    },
+    {
+     "word": "fella",
+     "fa": "یارو/مرد"
+    },
+    {
+     "word": "of all places",
+     "fa": "از بین این همه جا"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"She's only gone and done it!\" is a northern way of expressing surprise at what someone has done.",
+    "fa": "she's only gone and… بیان تعجب است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Well, it's not bad as such, it's just — Wigan, you know. Rugby league country. Our family's always been football. Anyway, he's a lovely lad, dead polite, brings flowers and that.",
+   "translations": {
+    "fa": "خب، بد به خودی خود نیست، فقط — ویگانه دیگه. منطقهٔ راگبی لیگ. خانوادهٔ ما همیشه فوتبالی بودن. به هر حال، پسر خوبیه، خیلی مؤدب، گل و این‌ها میاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem"
+     ],
+     "suggestion": "So the problem is the rugby?",
+     "suggestionFa": "پس مشکل راگبیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "marriage",
+      "football",
+      "mixed",
+      "then"
+     ],
+     "suggestion": "Ha! A mixed marriage, then — football and rugby!",
+     "suggestionFa": "ها! پس ازدواج مختلط — فوتبال و راگبی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "as such",
+     "fa": "به خودی خود"
+    },
+    {
+     "word": "rugby league",
+     "fa": "راگبی لیگ"
+    },
+    {
+     "word": "lad",
+     "fa": "پسر"
+    },
+    {
+     "word": "and that",
+     "fa": "و از این چیزها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Fillers like \"you know\", \"and that\", \"like\" and \"anyway\" are very common in informal northern speech.",
+    "fa": "پرکننده‌هایی مثل and that در گفتار شمالی رایج است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Ha! Exactly that. Anyway, the wedding's next June, and I'm in charge of the cake, obviously. Three tiers. And I said to her, I said, \"Sandra, you're not having a naked cake.\"",
+   "translations": {
+    "fa": "ها! دقیقاً همین. به هر حال، عروسی ژوئن بعده، و من مسئول کیکم، معلومه. سه طبقه. و بهش گفتم، گفتم «ساندرا، کیک برهنه نمی‌گیری.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "naked",
+      "earth",
+      "cake"
+     ],
+     "suggestion": "A naked cake? What on earth is that?",
+     "suggestionFa": "کیک برهنه؟ اون دیگه چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "guessing",
+      "approve",
+      "modern",
+      "that's"
+     ],
+     "suggestion": "I'm guessing that's a modern trend you don't approve of?",
+     "suggestionFa": "حدس می‌زنم یه مد جدیده که قبولش نداری؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in charge of",
+     "fa": "مسئول"
+    },
+    {
+     "word": "tiers",
+     "fa": "طبقه‌ها"
+    },
+    {
+     "word": "naked cake",
+     "fa": "کیک بدون روکش"
+    },
+    {
+     "word": "what on earth",
+     "fa": "اصلاً چی"
+    },
+    {
+     "word": "approve of",
+     "fa": "قبول داشتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "No icing on the sides! You can see all the sponge! I said, that's not a cake, that's a cake that's forgotten to get dressed!",
+   "translations": {
+    "fa": "بدون خامه رو کناره‌ها! همهٔ اسفنجش معلومه! گفتم، این کیک نیست، کیکیه که یادش رفته لباس بپوشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "comedian",
+      "should",
+      "doris",
+      "ha"
+     ],
+     "suggestion": "Ha! Doris, you should be a comedian.",
+     "suggestionFa": "ها! دوریس، باید کمدین بشی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "argument",
+      "sandra",
+      "who",
+      "won"
+     ],
+     "suggestion": "So who won the argument — you or Sandra?",
+     "suggestionFa": "خب کی تو بحث برد — شما یا ساندرا؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "icing",
+     "fa": "روکش خامه/شکر"
+    },
+    {
+     "word": "sponge",
+     "fa": "کیک اسفنجی"
+    },
+    {
+     "word": "comedian",
+     "fa": "کمدین"
+    },
+    {
+     "word": "argument",
+     "fa": "بحث"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Me, obviously. Full icing, sugar roses, the lot. Anyway, that's my stop. Tell Tom I said hiya, and you're both invited, by the way. Bring your dancing shoes!",
+   "translations": {
+    "fa": "من، معلومه. خامهٔ کامل، رزهای شکری، همه چی. به هر حال، ایستگاه منه. به تام بگو سلام رسوندم، و راستی هر دوتون دعوتید. کفش رقصتون را بیارید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

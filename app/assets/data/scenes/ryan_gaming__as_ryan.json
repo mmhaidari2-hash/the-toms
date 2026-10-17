@@ -24,8 +24,8 @@
       "alright",
       "bodied",
       "gonna",
-      "good",
-      "fifa"
+      "fifa",
+      "good"
      ],
      "suggestion": "Alright? You any good at FIFA, or are you gonna get bodied?",
      "suggestionFa": "چطوری؟ فیفا بلدی، یا قراره له بشی؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "chelsea",
       "support",
+      "chelsea",
       "don't",
       "d'you",
       "then"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "rematch",
       "calling",
+      "rematch",
       "dinner",
-      "later",
-      "mum's"
+      "mum's",
+      "later"
      ],
      "suggestion": "GOAL! Get in! That was well good. Mum's calling — dinner. Rematch later, yeah?",
      "suggestionFa": "گل! ایول! خیلی خوب بود. مامان صدامون می‌کنه — شام. بعداً دوباره بازی کنیم، باشه؟",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "actually",
-      "wanna",
-      "three",
       "again",
+      "three",
+      "wanna",
       "best"
      ],
      "suggestion": "Mate, you're actually not bad. Wanna go again? Best of three.",
@@ -124,8 +124,8 @@
       "controller",
       "cheers",
       "footy",
-      "sick",
-      "back"
+      "pass",
+      "play"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
      "suggestionFa": "عالیه. اون دسته را بده، مرسی. تو وطنت فوتبال بازی می‌کنی؟",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "friends",
       "support",
+      "friends",
       "united",
       "don't",
       "can't"
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "obviously",
       "liverpool",
+      "obviously",
       "tomorrow",
       "bricking",
       "anyway"

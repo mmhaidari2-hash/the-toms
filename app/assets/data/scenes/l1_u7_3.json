@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "colour",
+      "course",
       "want"
      ],
      "suggestion": "Of course! What colour do you want?",
@@ -175,8 +175,8 @@
     },
     {
      "keywords": [
-      "nine",
-      "size"
+      "size",
+      "nine"
      ],
      "suggestion": "Is nine your size?",
      "suggestionFa": "سایزت نهه؟",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "better",
-      "size",
       "then",
+      "size",
       "ten"
      ],
      "suggestion": "Size ten is better, then.",

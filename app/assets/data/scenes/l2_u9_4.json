@@ -76,7 +76,7 @@
       "afternoon",
       "beautiful",
       "rained",
-      "was"
+      "all"
      ],
      "suggestion": "It was beautiful, but it rained all afternoon.",
      "suggestionFa": "قشنگ بود، ولی کل بعدازظهر بارون اومد.",
@@ -124,9 +124,9 @@
     {
      "keywords": [
       "amazing",
-      "view",
       "from",
-      "was"
+      "view",
+      "top"
      ],
      "suggestion": "The view from the top was amazing.",
      "suggestionFa": "منظره از بالا فوق‌العاده بود.",
@@ -136,8 +136,8 @@
     },
     {
      "keywords": [
-      "pub",
-      "end"
+      "end",
+      "pub"
      ],
      "suggestion": "The pub at the end!",
      "suggestionFa": "پاب آخرش!",

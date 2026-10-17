@@ -1,0 +1,235 @@
+{
+ "id": "l5_u2_3",
+ "characterId": "ryan",
+ "title": "Winding Ryan up",
+ "titleFa": "سربه‌سر گذاشتن رایان",
+ "setting": "Banter · Level 5",
+ "settingFa": "شوخی و سربه‌سر گذاشتن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Did you tell Mum I was scared of the spider in the bathroom? She's been winding me up about it all day!",
+   "translations": {
+    "fa": "تو به مامان گفتی من از عنکبوت تو حموم ترسیدم؟ کل روز داره سربه‌سرم می‌ذاره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mentioned",
+      "defence",
+      "scream",
+      "might"
+     ],
+     "suggestion": "I might have mentioned it. In my defence, you did scream.",
+     "suggestionFa": "شاید اشاره کرده باشم. در دفاع از خودم، تو جیغ زدی.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "never",
+      "grass",
+      "must"
+     ],
+     "suggestion": "Me? I'd never grass you up. It must have been Nicola.",
+     "suggestionFa": "من؟ هیچ‌وقت لوت نمی‌دم. حتماً نیکولا بوده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "winding me up",
+     "fa": "سربه‌سرم گذاشتن"
+    },
+    {
+     "word": "in my defence",
+     "fa": "در دفاع از خودم"
+    },
+    {
+     "word": "scream",
+     "fa": "جیغ زدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Wind someone up\" means tease or annoy them on purpose. \"Are you winding me up?\" = \"Are you joking?\"",
+    "fa": "wind up یعنی سربه‌سر گذاشتن."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "It wasn't a scream, it was a… manly shout of surprise. And it was the size of my hand!",
+   "translations": {
+    "fa": "جیغ نبود، یه… فریاد مردونهٔ تعجب بود. و اندازهٔ دستم بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pence",
+      "ryan",
+      "five",
+      "size"
+     ],
+     "suggestion": "It was the size of a five-pence coin, Ryan.",
+     "suggestionFa": "اندازهٔ یه سکهٔ پنج پنسی بود رایان.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "course",
+      "that's",
+      "manly"
+     ],
+     "suggestion": "A manly shout. Of course. That's what I'll tell everyone.",
+     "suggestionFa": "یه فریاد مردونه. البته. همینو به همه می‌گم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "manly",
+     "fa": "مردانه"
+    },
+    {
+     "word": "shout",
+     "fa": "فریاد"
+    },
+    {
+     "word": "five-pence coin",
+     "fa": "سکهٔ پنج پنسی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "You're taking the mick now. Fine. But you jumped a mile when the smoke alarm went off last week, so we're even.",
+   "translations": {
+    "fa": "الان داری مسخره‌ام می‌کنی. باشه. ولی هفتهٔ پیش وقتی آژیر دود صدا داد یه متر پریدی، پس بی‌حساب شدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "before",
+      "let's",
+      "truce"
+     ],
+     "suggestion": "Fair. Let's call a truce before Nicola joins in.",
+     "suggestionFa": "منصفانه. بیا قبل از اینکه نیکولا هم اضافه بشه آتش‌بس کنیم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anyone",
+      "thing",
+      "would",
+      "scare"
+     ],
+     "suggestion": "That alarm would scare anyone! It's not the same thing at all.",
+     "suggestionFa": "اون آژیر هر کسی را می‌ترسوند! اصلاً یکی نیست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "taking the mick",
+     "fa": "مسخره کردن"
+    },
+    {
+     "word": "jumped a mile",
+     "fa": "از جا پرید"
+    },
+    {
+     "word": "went off",
+     "fa": "به صدا درآمد"
+    },
+    {
+     "word": "even",
+     "fa": "بی‌حساب"
+    },
+    {
+     "word": "truce",
+     "fa": "آتش‌بس"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Taking the mick/mickey\" (or \"taking the piss\", which is ruder) means mocking someone.",
+    "fa": "take the mick یعنی مسخره کردن."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Truce. But if Nicola calls me \"Spider Boy\" one more time, I'm telling everyone you cried at the end of Paddington 2.",
+   "translations": {
+    "fa": "آتش‌بس. ولی اگه نیکولا یه بار دیگه بهم بگه «پسر عنکبوتی»، به همه می‌گم آخر پدینگتون ۲ گریه کردی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paddington",
+      "everyone",
+      "cries",
+      "law"
+     ],
+     "suggestion": "Everyone cries at the end of Paddington 2. It's the law.",
+     "suggestionFa": "همه آخر پدینگتون ۲ گریه می‌کنن. قانونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "really",
+      "ryan",
+      "low"
+     ],
+     "suggestion": "That's low, Ryan. Really low.",
+     "suggestionFa": "این پست بود رایان. واقعاً پست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "that's low",
+     "fa": "این پستی است"
+    },
+    {
+     "word": "the law",
+     "fa": "قانون"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Ha! True, actually. Even Dad cried. Right — truce sealed. Now help me get that spider out of the bath before Mum gets home.",
+   "translations": {
+    "fa": "ها! راستش درسته. حتی بابا گریه کرد. خب — آتش‌بس امضا شد. حالا کمکم کن قبل از اینکه مامان بیاد اون عنکبوت را از وان دربیاریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

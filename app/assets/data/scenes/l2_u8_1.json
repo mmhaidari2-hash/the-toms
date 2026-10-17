@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "someone",
       "account",
-      "speak",
-      "could"
+      "someone",
+      "could",
+      "speak"
      ],
      "suggestion": "Hi. Could I speak to someone about my account?",
      "suggestionFa": "سلام. می‌تونم با کسی دربارهٔ حسابم صحبت کنم؟",
@@ -137,8 +137,8 @@
      "keywords": [
       "machine",
       "doesn't",
-      "cash",
-      "work"
+      "work",
+      "cash"
      ],
      "suggestion": "It doesn't work in the cash machine.",
      "suggestionFa": "تو دستگاه خودپرداز کار نمی‌کنه.",
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "thank",
-      "will",
       "have",
-      "pin"
+      "will",
+      "new"
      ],
      "suggestion": "Thank you. Will it have a new PIN?",
      "suggestionFa": "ممنون. پین جدید داره؟",
@@ -239,8 +239,8 @@
     },
     {
      "keywords": [
-      "repeat",
       "please",
+      "repeat",
       "could",
       "line"
      ],

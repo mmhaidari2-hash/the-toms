@@ -23,8 +23,8 @@
      "keywords": [
       "birthday",
       "present",
-      "seven",
       "bring",
+      "seven",
       "did"
      ],
      "suggestion": "It's my birthday! I'm seven! Did you bring me a present?",
@@ -48,9 +48,9 @@
      "keywords": [
       "dinosaur",
       "could",
+      "real",
       "have",
-      "wish",
-      "real"
+      "love"
      ],
      "suggestion": "A dinosaur book! I love it! I wish I could have a real dinosaur.",
      "suggestionFa": "کتاب دایناسور! عاشقشم! کاش می‌تونستم یه دایناسور واقعی داشته باشم.",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "natural",
-      "museum",
+      "history",
       "london",
+      "museum",
       "mummy"
      ],
      "suggestion": "The Natural History Museum! Mummy says it's in London. I hope we can go soon.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "forever",
-      "today",
       "moves",
       "whale",
+      "today",
       "could"
      ],
      "suggestion": "The big blue whale! And the T-rex that moves. I wish today could last forever.",
@@ -147,7 +147,7 @@
     {
      "keywords": [
       "candles",
-      "when",
+      "time",
       "wish",
       "blow",
       "cake"

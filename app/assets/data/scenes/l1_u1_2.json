@@ -20,8 +20,8 @@
     {
      "keywords": [
       "hello",
-      "nice",
-      "meet"
+      "meet",
+      "nice"
      ],
      "suggestion": "Hello, Tom. Nice to meet you.",
      "suggestionFa": "سلام تام. از آشنایی‌تان خوشوقتم.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "daughter",
-      "sons",
       "have",
+      "sons",
       "two"
      ],
      "suggestion": "So you have two sons and a daughter?",
@@ -226,8 +226,8 @@
     },
     {
      "keywords": [
-      "teenager",
       "fourteen",
+      "teenager",
       "he's"
      ],
      "suggestion": "Fourteen? He's a teenager!",
@@ -267,9 +267,9 @@
     {
      "keywords": [
       "hello",
+      "weda",
       "meet",
-      "nice",
-      "weda"
+      "nice"
      ],
      "suggestion": "Hello, Weda. Nice to meet you.",
      "suggestionFa": "سلام ویدا. از آشنایی‌تون خوشوقتم.",

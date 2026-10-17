@@ -22,7 +22,7 @@
       "sitting",
       "could",
       "where",
-      "i'll"
+      "tell"
      ],
      "suggestion": "Not yet. Could you tell me where I'll be sitting?",
      "suggestionFa": "هنوز نه. می‌تونی بگی من کجا می‌شینم؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "induction",
-      "there's",
       "morning",
+      "there's",
       "thanks"
      ],
      "suggestion": "Thanks, Al. Do you know if there's an induction this morning?",
@@ -75,8 +75,8 @@
      "keywords": [
       "brilliant",
       "booking",
-      "meeting",
-      "telling"
+      "telling",
+      "meeting"
      ],
      "suggestion": "Brilliant. Would you mind telling me how the booking system for meeting rooms works?",
      "suggestionFa": "عالی. اشکالی نداره بگی سیستم رزرو اتاق جلسه چطوری کار می‌کنه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "wondering",
-      "perfect",
       "whether",
+      "perfect",
       "people"
      ],
      "suggestion": "Perfect. I was wondering whether people tend to work from home much.",
@@ -146,8 +146,8 @@
      "keywords": [
       "everyone",
       "whoever",
-      "makes",
-      "guess"
+      "guess",
+      "makes"
      ],
      "suggestion": "Let me guess — whoever makes a brew makes one for everyone?",
      "suggestionFa": "بذار حدس بزنم — هر کی چای درست می‌کنه برای همه درست می‌کنه؟",
@@ -191,8 +191,8 @@
      "keywords": [
       "problems",
       "should",
-      "about",
-      "could"
+      "could",
+      "about"
      ],
      "suggestion": "Noted! Could you tell me who I should ask about IT problems?",
      "suggestionFa": "یادداشت شد! می‌تونی بگی دربارهٔ مشکلات IT از کی بپرسم؟",
@@ -203,9 +203,9 @@
     {
      "keywords": [
       "yoghurts",
+      "from",
       "away",
-      "i'll",
-      "well"
+      "keep"
      ],
      "suggestion": "Ha! I'll keep well away from the yoghurts.",
      "suggestionFa": "ها! از ماست‌ها حسابی دور می‌مونم.",

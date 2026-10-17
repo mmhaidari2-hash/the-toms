@@ -22,7 +22,7 @@
       "starting",
       "company",
       "tom's",
-      "his"
+      "own"
      ],
      "suggestion": "Yes, Tom's starting his own company.",
      "suggestionFa": "بله، تام داره شرکت خودش را راه می‌ندازه.",
@@ -109,8 +109,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "about",
-      "month"
+      "month",
+      "first"
      ],
      "suggestion": "About five thousand pounds a month at first.",
      "suggestionFa": "اول حدود ماهی پنج هزار پوند.",
@@ -173,8 +173,8 @@
     },
     {
      "keywords": [
-      "maybe",
       "month",
+      "maybe",
       "once"
      ],
      "suggestion": "Maybe once a month.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "documents",
-      "week",
+      "last",
       "here",
-      "last"
+      "week"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",

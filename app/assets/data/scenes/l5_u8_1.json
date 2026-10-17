@@ -1,0 +1,247 @@
+{
+ "id": "l5_u8_1",
+ "characterId": "tom",
+ "title": "The anecdote",
+ "titleFa": "خاطره",
+ "setting": "Telling a good story · Level 5",
+ "settingFa": "خوب قصه گفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Go on, tell them the story about your first week in England. The one with the bus. Nicola's never heard it.",
+   "translations": {
+    "fa": "بگو دیگه، قصهٔ هفتهٔ اولت تو انگلستان را براشون تعریف کن. همون اتوبوسه. نیکولا هیچ‌وقت نشنیده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jobcentre",
+      "trying",
+      "three",
+      "right"
+     ],
+     "suggestion": "Right. So, I'd only been here three days, and I was trying to get to the Jobcentre…",
+     "suggestionFa": "باشه. خب، فقط سه روز بود اینجا بودم، و داشتم سعی می‌کردم برم مرکز کاریابی…",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "obviously",
+      "raining",
+      "story",
+      "fine"
+     ],
+     "suggestion": "Oh no, not the bus story! OK, fine. It was raining, obviously…",
+     "suggestionFa": "ای وای، نه قصهٔ اتوبوس! باشه. بارون می‌اومد، معلومه…",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anecdote",
+     "fa": "خاطره"
+    },
+    {
+     "word": "I'd only been",
+     "fa": "فقط … بود که بودم"
+    },
+    {
+     "word": "Jobcentre",
+     "fa": "مرکز کاریابی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British storytellers often set the scene with the past perfect (\"I'd only just arrived…\") and build tension with the past continuous.",
+    "fa": "راویان بریتانیایی با ماضی بعید صحنه را می‌چینند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Ha! Classic opening. Keep going — what happened when you got on?",
+   "translations": {
+    "fa": "ها! شروع کلاسیک. ادامه بده — وقتی سوار شدی چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "insulted",
+      "twenty",
+      "mother",
+      "driver"
+     ],
+     "suggestion": "I held out a twenty-pound note, and the driver just stared at me as if I'd insulted his mother.",
+     "suggestionFa": "یه اسکناس بیست پوندی جلو گرفتم، و راننده همین‌طور بهم زل زد انگار به مادرش توهین کرده بودم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "textbook",
+      "english",
+      "please",
+      "ticket"
+     ],
+     "suggestion": "I said, \"One ticket to the city centre, please,\" in my best textbook English…",
+     "suggestionFa": "گفتم «یه بلیت به مرکز شهر، لطفاً»، با بهترین انگلیسی کتابی‌ام…",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "held out",
+     "fa": "جلو گرفت"
+    },
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    },
+    {
+     "word": "stared",
+     "fa": "زل زد"
+    },
+    {
+     "word": "insulted",
+     "fa": "توهین کرد"
+    },
+    {
+     "word": "textbook",
+     "fa": "کتابی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "And then? Don't stop there — look at Nicola's face!",
+   "translations": {
+    "fa": "و بعد؟ اونجا وای نستا — صورت نیکولا را ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "absolutely",
+      "insulting",
+      "thought",
+      "y'what"
+     ],
+     "suggestion": "He said, \"Y'what, cock?\" And I had absolutely no idea what he meant. I thought he was insulting me!",
+     "suggestionFa": "گفت «Y'what, cock?» و من اصلاً نمی‌دونستم منظورش چیه. فکر کردم داره بهم توهین می‌کنه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "mancunian",
+      "replied",
+      "nodded"
+     ],
+     "suggestion": "He replied with something so fast and so Mancunian that I just nodded and sat down.",
+     "suggestionFa": "یه چیزی اون‌قدر سریع و منچستری جواب داد که فقط سر تکون دادم و نشستم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Y'what",
+     "fa": "چی گفتی (محاوره)"
+    },
+    {
+     "word": "cock",
+     "fa": "رفیق (گویش شمالی، دوستانه)"
+    },
+    {
+     "word": "nodded",
+     "fa": "سر تکان داد"
+    }
+   ],
+   "cultureNote": {
+    "en": "In parts of the north, \"cock\" or \"cocker\" is an old, friendly term of address — like \"mate\".",
+    "fa": "cock در گویش شمالی خطابی دوستانه است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "And here's the best bit…",
+   "translations": {
+    "fa": "و اینجا بهترین قسمتشه…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "embarrassed",
+      "completely",
+      "stockport",
+      "direction"
+     ],
+     "suggestion": "I ended up in Stockport. Completely the wrong direction. I didn't pay, and I was too embarrassed to ask!",
+     "suggestionFa": "آخرش سر از استاکپورت درآوردم. کاملاً جهت اشتباه. پول ندادم، و خجالت می‌کشیدم بپرسم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "terrified",
+      "friendly",
+      "nothing",
+      "turned"
+     ],
+     "suggestion": "It turned out \"cock\" means \"mate\" and he was being friendly. I'd been terrified for nothing!",
+     "suggestionFa": "معلوم شد «cock» یعنی «رفیق» و داشت دوستانه برخورد می‌کرد. بیخودی وحشت کرده بودم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ended up",
+     "fa": "سر درآورد"
+    },
+    {
+     "word": "wrong direction",
+     "fa": "جهت اشتباه"
+    },
+    {
+     "word": "embarrassed",
+     "fa": "خجالت‌زده"
+    },
+    {
+     "word": "turned out",
+     "fa": "معلوم شد"
+    },
+    {
+     "word": "for nothing",
+     "fa": "بیخودی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Ha! And now look at you — you'd tell that driver to keep his hair on. That's the sign of a proper Mancunian. Brilliant storytelling, that.",
+   "translations": {
+    "fa": "ها! و حالا خودت را ببین — به اون راننده می‌گفتی آروم باش. این نشونهٔ یه منچستری واقعیه. قصه‌گویی فوق‌العاده‌ای بود."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

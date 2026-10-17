@@ -20,8 +20,8 @@
     {
      "keywords": [
       "things",
-      "much",
       "just",
+      "much",
       "few"
      ],
      "suggestion": "Not much. Just a few things.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "actually",
-      "friends",
       "cooking",
+      "friends",
       "quite"
      ],
      "suggestion": "Quite a lot, actually. I'm cooking for friends.",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "cooking",
-      "that's",
       "people",
-      "six"
+      "that's",
+      "lot"
      ],
      "suggestion": "Six people. That's a lot of cooking!",
      "suggestionFa": "شش نفر. آشپزی زیادیه!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "three",
-      "only",
-      "many"
+      "many",
+      "only"
      ],
      "suggestion": "Not many — only three.",
      "suggestionFa": "زیاد نه — فقط سه نفر.",
@@ -223,8 +223,8 @@
    "branches": [
     {
      "keywords": [
-      "then",
       "bags",
+      "then",
       "two"
      ],
      "suggestion": "Two bags of crisps, then!",

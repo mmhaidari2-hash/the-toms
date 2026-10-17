@@ -1,0 +1,150 @@
+{
+ "id": "l5_u1_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Reading the room",
+ "titleFa": "(در نقش Tom) درک فضای جمع",
+ "setting": "Reading between the lines · Level 5",
+ "settingFa": "خواندن بین خطوط",
+ "requires": null,
+ "level": "C1",
+ "baseId": "l5_u1_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "leslie's",
+      "barbecue",
+      "saturday",
+      "divorce"
+     ],
+     "suggestion": "Can I ask you something? At the barbecue on Saturday, you asked Leslie's sister about her divorce. Did you notice the room go quiet?",
+     "suggestionFa": "می‌تونم یه چیزی بپرسم؟ تو کباب‌پزی شنبه، از خواهر لزلی دربارهٔ طلاقش پرسیدی. متوجه شدی جمع ساکت شد؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no. I did notice, but I didn't understand why.",
+   "translations": {
+    "fa": "ای وای. متوجه شدم، ولی نفهمیدم چرا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "especially",
+      "personal",
+      "honestly",
+      "private",
+      "polite"
+     ],
+     "suggestion": "Don't worry, no harm done. It's just — Brits tend to keep personal things quite private, especially in a group. She was being polite when she said, \"Oh, it's fine, honestly.\"",
+     "suggestionFa": "نگران نباش، اتفاقی نیفتاد. فقط — بریتانیایی‌ها معمولاً مسائل شخصی را خیلی خصوصی نگه می‌دارن، مخصوصاً تو جمع. وقتی گفت «آه، اشکالی نداره، واقعاً» داشت مؤدب‌بازی درمیاورد.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "So \"honestly, it's fine\" didn't mean it was fine.",
+   "translations": {
+    "fa": "پس «واقعاً، اشکالی نداره» یعنی اشکال داشت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "don't",
+      "thing",
+      "would",
+      "quick"
+     ],
+     "suggestion": "A quick word would be kind, but don't make a big thing of it. Just \"Sorry if I put my foot in it on Saturday.\"",
+     "suggestionFa": "یه حرف کوتاه لطف می‌کنه، ولی بزرگش نکن. فقط «ببخشید اگه شنبه گند زدم.»",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "\"Put my foot in it\" — that's exactly what I did!",
+   "translations": {
+    "fa": "«پام را تو اون کردم» — دقیقاً همون کاری بود که کردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "conversation",
+      "changing",
+      "giveaway",
+      "sausages",
+      "they're"
+     ],
+     "suggestion": "Short answers, looking away, a sudden offer of more sausages… That last one's a dead giveaway. When a Brit offers you food mid-conversation, they're changing the subject.",
+     "suggestionFa": "جواب‌های کوتاه، نگاه به جای دیگه، پیشنهاد یهویی سوسیس بیشتر… اون آخری کاملاً لو می‌ده. وقتی یه بریتانیایی وسط حرف بهت غذا تعارف می‌کنه، داره موضوع را عوض می‌کنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Now I understand why Leslie offered me three sausages in a row!",
+   "translations": {
+    "fa": "حالا می‌فهمم چرا لزلی پشت سر هم سه تا سوسیس بهم تعارف کرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "situations",
+      "pregnant",
+      "honestly",
+      "exactly",
+      "wasn't"
+     ],
+     "suggestion": "Ha! Exactly. Honestly, you read most situations better than I do. I once asked a woman when her baby was due. She wasn't pregnant. Never lived it down.",
+     "suggestionFa": "ها! دقیقاً. راستش، تو بیشتر موقعیت‌ها را بهتر از من می‌خونی. من یه بار از یه خانم پرسیدم بچه‌اش کی به دنیا میاد. باردار نبود. هنوز سرکوفتش را می‌خورم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

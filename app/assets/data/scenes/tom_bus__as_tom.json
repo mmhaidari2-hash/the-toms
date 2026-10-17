@@ -22,10 +22,10 @@
     {
      "keywords": [
       "alright",
-      "headed",
       "reader",
+      "headed",
       "where",
-      "mate"
+      "card"
      ],
      "suggestion": "Alright? Tap your card on the reader, mate. Where you headed?",
      "suggestionFa": "چطوری؟ کارتت را روی دستگاه بزن رفیق. کجا می‌ری؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "roadworks",
       "upstairs",
-      "there's",
+      "minutes",
       "running",
-      "minutes"
+      "there's"
      ],
      "suggestion": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
      "suggestionFa": "می‌ایستد، ولی جادهٔ اسکس تعمیرات دارد، پس حدود ده دقیقه عقبیم. برو طبقهٔ بالا بنشین — بهترین منظرهٔ لندن.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "here's",
       "yellow",
       "reader",
-      "here's",
       "thing",
       "card"
      ],
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "upstairs",
-      "front",
       "let's",
-      "from",
+      "front",
+      "town",
       "best"
      ],
      "suggestion": "Beep — you're in. Let's go upstairs, best view in town from the front seat.",
@@ -125,7 +125,7 @@
       "cinema",
       "that's",
       "flats",
-      "now"
+      "old"
      ],
      "suggestion": "That's the old cinema — it's flats now. Everything's flats now.",
      "suggestionFa": "اون سینمای قدیمیه — الان آپارتمانه. همه‌چیز الان آپارتمانه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "wasn't",
       "gutted",
-      "there",
-      "don't"
+      "leslie",
+      "don't",
+      "there"
      ],
      "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
      "suggestionFa": "خیلی ناراحت. اولین قرارم اونجا بود. به لزلی نگو که با اون نبود!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "driver",
       "cheers",
+      "driver",
       "that's",
-      "press",
-      "would"
+      "would",
+      "press"
      ],
      "suggestion": "Ding! That's us — press the bell, would you? And say cheers to the driver.",
      "suggestionFa": "دینگ! رسیدیم — زنگ را بزن، می‌شه؟ و به راننده بگو مرسی.",

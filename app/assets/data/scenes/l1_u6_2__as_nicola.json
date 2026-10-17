@@ -22,9 +22,9 @@
     {
      "keywords": [
       "dressing",
-      "dress",
       "let's",
-      "have",
+      "dress",
+      "i've",
       "pink"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
@@ -50,7 +50,7 @@
       "hasn't",
       "let's",
       "give",
-      "him"
+      "has"
      ],
      "suggestion": "Has Mr Buttons got a hat? No, he hasn't! Let's give him a hat.",
      "suggestionFa": "آقای دکمه کلاه داره؟ نه، نداره! بیا بهش یه کلاه بدیم.",
@@ -100,7 +100,7 @@
       "jumper",
       "brown",
       "soooo",
-      "put"
+      "got"
      ],
      "suggestion": "Daddy's got a big brown jumper. It's soooo big! Put it on!",
      "suggestionFa": "بابا یه ژاکت قهوه‌ای بزرگ داره. خیلی بزرگه! بپوشش!",
@@ -123,9 +123,9 @@
      "keywords": [
       "trousers",
       "orange",
+      "bear",
       "ones",
-      "like",
-      "bear"
+      "look"
      ],
      "suggestion": "Yes! You look like a bear! Now trousers. The orange ones!",
      "suggestionFa": "آره! شبیه خرس شدی! حالا شلوار. نارنجیه را!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "mummy",
       "photo",
+      "mummy",
       "smile",
       "take",
       "look"
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "dressing",
-      "friend",
       "that's",
+      "friend",
       "photo",
-      "ever"
+      "best"
      ],
      "suggestion": "That's the best photo ever. You're my best dressing-up friend!",
      "suggestionFa": "این بهترین عکس دنیاست. تو بهترین دوست لباس‌بازی منی!",

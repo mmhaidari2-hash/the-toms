@@ -1,0 +1,185 @@
+{
+ "id": "l5_u10_4",
+ "characterId": "tom",
+ "title": "Christmas toast",
+ "titleFa": "سلامتی کریسمس",
+ "setting": "Home · Level 5",
+ "settingFa": "خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right, everyone, glasses up. Before we pull the crackers, someone special is going to make a toast. Go on — the floor's yours.",
+   "translations": {
+    "fa": "خب، همه، لیوان‌ها بالا. قبل از اینکه کراکرها را بکشیم، یه نفر خاص قراره یه سلامتی بگه. بفرما — نوبت توئه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manchester",
+      "suitcase",
+      "arrived",
+      "thank"
+     ],
+     "suggestion": "Thank you, Tom. Three years ago, I arrived in Manchester with one suitcase and no idea what a \"cuppa\" was.",
+     "suggestionFa": "ممنون تام. سه سال پیش، با یه چمدون اومدم منچستر و هیچ نمی‌دونستم «کاپا» چیه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pudding",
+      "already",
+      "because",
+      "nicola"
+     ],
+     "suggestion": "I'll keep it short — mostly because Nicola is already eyeing the pudding.",
+     "suggestionFa": "کوتاهش می‌کنم — بیشتر چون نیکولا داره به دسر چشم می‌دوزه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glasses up",
+     "fa": "لیوان‌ها بالا"
+    },
+    {
+     "word": "crackers",
+     "fa": "کراکر کریسمس"
+    },
+    {
+     "word": "toast",
+     "fa": "سلامتی"
+    },
+    {
+     "word": "the floor's yours",
+     "fa": "نوبت حرف زدن توست"
+    },
+    {
+     "word": "eyeing",
+     "fa": "چشم دوختن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Ha! Carry on — we're all listening. Even Ryan's put his phone down.",
+   "translations": {
+    "fa": "ها! ادامه بده — همه گوش می‌دیم. حتی رایان گوشیش را گذاشته کنار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "somewhere",
+      "stranger",
+      "became",
+      "family"
+     ],
+     "suggestion": "You took me in as a stranger, and somewhere along the way, I became family.",
+     "suggestionFa": "شما منو به عنوان یه غریبه پذیرفتید، و یه جایی وسط راه، خانواده شدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "brilliant",
+      "taught",
+      "solves"
+     ],
+     "suggestion": "You taught me that \"not bad\" means brilliant, and that tea solves everything.",
+     "suggestionFa": "یادم دادید «بد نبود» یعنی فوق‌العاده، و چای همه چیز را حل می‌کنه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "took me in",
+     "fa": "پذیرفتن"
+    },
+    {
+     "word": "stranger",
+     "fa": "غریبه"
+    },
+    {
+     "word": "along the way",
+     "fa": "در طول مسیر"
+    },
+    {
+     "word": "solves",
+     "fa": "حل می‌کند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Don't you dare make Leslie cry before the turkey. Who are you raising your glass to?",
+   "translations": {
+    "fa": "جرأت نداری لزلی را قبل از بوقلمون به گریه بندازی. به سلامتی کی لیوانت را بالا می‌بری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "nicola",
+      "leslie",
+      "toms"
+     ],
+     "suggestion": "To Leslie and Tom, to William and Weda, to Ryan and Nicola — the Toms.",
+     "suggestionFa": "به سلامتی لزلی و تام، ویلیام و ودا، رایان و نیکولا — تامزها.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "somewhere",
+      "everyone",
+      "arrived",
+      "found"
+     ],
+     "suggestion": "To everyone who has ever arrived somewhere new and found a home.",
+     "suggestionFa": "به سلامتی همهٔ کسایی که یه جای جدید رسیدن و یه خونه پیدا کردن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "raising your glass to",
+     "fa": "به سلامتی … نوشیدن"
+    },
+    {
+     "word": "arrived",
+     "fa": "رسید"
+    },
+    {
+     "word": "found a home",
+     "fa": "خانه‌ای پیدا کرد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "To the Toms — and to you. Merry Christmas, everyone. And to our newest British citizen: welcome home. Now, who's brave enough to carve the turkey? Not me. Never again.",
+   "translations": {
+    "fa": "به سلامتی تامزها — و تو. کریسمس همه مبارک. و به جدیدترین شهروند بریتانیاییمون: به خونه خوش اومدی. حالا، کی شجاعت داره بوقلمون را ببره؟ من نه. دیگه هرگز."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
