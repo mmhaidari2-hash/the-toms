@@ -25,7 +25,7 @@
       "didn't",
       "nicola",
       "music",
-      "three"
+      "until"
      ],
      "suggestion": "The new lot next door had music on until three a.m. again. Nicola didn't sleep a wink. I need to say something, but I don't want to start a feud.",
      "suggestionFa": "همسایه‌های جدید بغلی دوباره تا سه صبح موسیقی گذاشته بودن. نیکولا یه لحظه هم نخوابید. باید یه چیزی بگم، ولی نمی‌خوام دعوا راه بندازم.",
@@ -50,7 +50,7 @@
       "twelve",
       "number",
       "don't",
-      "like"
+      "good"
      ],
      "suggestion": "Good idea. So something like: \"Hi, I'm Tom from number twelve. I don't want to make a fuss, but…\"",
      "suggestionFa": "فکر خوبیه. پس یه چیزی مثل: «سلام، من تام از شمارهٔ دوازده‌ام. نمی‌خوام شلوغش کنم، ولی…»",
@@ -73,8 +73,8 @@
      "keywords": [
       "reasonable",
       "they're",
-      "sounds",
       "having",
+      "sounds",
       "if"
      ],
      "suggestion": "That sounds reasonable. And if they're not having it?",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "talking",
       "support",
       "english",
-      "better",
-      "temper"
+      "talking",
+      "temper",
+      "better"
      ],
      "suggestion": "Ha! Yes, come with me — moral support. If it goes badly, you can do the talking. Your English is better than my temper.",
      "suggestionFa": "ها! آره، بیا — حمایت روحی. اگه بد پیش رفت، تو حرف بزن. انگلیسی تو از اعصاب من بهتره.",

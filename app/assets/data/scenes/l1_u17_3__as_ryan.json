@@ -48,9 +48,9 @@
      "keywords": [
       "school",
       "can't",
-      "wait",
       "cube",
-      "late"
+      "late",
+      "wait"
      ],
      "suggestion": "I can't wait. I'm late for school! Can I put an ice cube in it?",
      "suggestionFa": "نمی‌تونم صبر کنم. برای مدرسه دیرم شده! می‌شه یه تیکه یخ بندازم توش؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "milky",
       "good",
+      "milk",
       "cold",
-      "idea",
-      "milk"
+      "idea"
      ],
      "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
      "suggestionFa": "فکر خوبیه. شیر… وای نه! حالا خیلی سرده! و خیلی شیری شد!",
@@ -99,8 +99,8 @@
       "seconds",
       "twenty",
       "sugars",
-      "sweet",
-      "there"
+      "there",
+      "three"
      ],
      "suggestion": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
      "suggestionFa": "بیست ثانیه… بفرما. اه! حالا خیلی شیرینه. کی سه تا قند ریخت توش؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "always",
+      "nicola",
+      "i'll",
       "make",
-      "want",
-      "i'll"
+      "want"
      ],
      "suggestion": "Nicola! She always does that. OK, I'll make a new one. Do you want one?",
      "suggestionFa": "نیکولا! همیشه این کار را می‌کنه. باشه، یکی دیگه درست می‌کنم. تو هم می‌خوای؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "water",
       "right",
+      "water",
       "sugar",
-      "just",
-      "milk"
+      "milk",
+      "just"
      ],
      "suggestion": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
      "suggestionFa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!",
@@ -225,7 +225,7 @@
       "cheers",
       "later",
       "tell",
-      "see"
+      "had"
      ],
      "suggestion": "Cheers! See you later! Tell Mum I had breakfast!",
      "suggestionFa": "ممنون! بعداً می‌بینمت! به مامان بگو صبحونه خوردم!",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "never",
+      "first",
       "time"
      ],
      "suggestion": "No, never. This is my first time.",
@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "year",
+      "last",
       "once",
-      "last"
+      "year"
      ],
      "suggestion": "Yes, once, last year.",
      "suggestionFa": "آره، یه بار، پارسال.",
@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "hurt",
-      "will"
+      "will",
+      "hurt"
      ],
      "suggestion": "Will it hurt?",
      "suggestionFa": "درد داره؟",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "drink",
-      "water",
       "after",
+      "water",
       "can"
      ],
      "suggestion": "Can I drink water after?",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "thank",
+      "come",
       "when",
-      "back",
       "must"
      ],
      "suggestion": "Thank you. When must I come back?",

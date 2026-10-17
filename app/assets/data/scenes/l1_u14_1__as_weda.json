@@ -25,7 +25,7 @@
       "nicola",
       "right",
       "teeth",
-      "love"
+      "time"
      ],
      "suggestion": "Right, Nicola, teeth time! Can you pass me her toothbrush, love? The pink one.",
      "suggestionFa": "خب نیکولا، وقت دندون! عزیزم، مسواکش را بهم می‌دی؟ صورتیه.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -127,7 +127,7 @@
       "nicola",
       "brush",
       "teeth",
-      "back",
+      "fast",
       "down"
      ],
      "suggestion": "Up and down, Nicola. Not too fast. Brush the back teeth, too.",
@@ -150,10 +150,10 @@
     {
      "keywords": [
       "minutes",
-      "let's",
       "songs",
-      "sing",
-      "song"
+      "let's",
+      "song",
+      "sing"
      ],
      "suggestion": "Two minutes. Let's sing a song. Two minutes is two songs!",
      "suggestionFa": "دو دقیقه. بیا یه آهنگ بخونیم. دو دقیقه یعنی دو تا آهنگ!",
@@ -257,7 +257,7 @@
       "toothbrush",
       "lovely",
       "rinse",
-      "cup",
+      "put",
       "now"
      ],
      "suggestion": "Lovely. Now rinse your toothbrush and put it in the cup.",
@@ -281,8 +281,8 @@
      "keywords": [
       "bathroom",
       "helping",
+      "sleep",
       "floor",
-      "knees",
       "story"
      ],
      "suggestion": "Yes, bed! One story, then sleep. Thank you for helping, love. My knees don't like this bathroom floor!",

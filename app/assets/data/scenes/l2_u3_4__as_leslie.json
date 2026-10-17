@@ -25,7 +25,7 @@
       "barbecue",
       "o'clock",
       "having",
-      "we're"
+      "would"
      ],
      "suggestion": "We're having a barbecue on Saturday. Would you like to come? About two o'clock?",
      "suggestionFa": "شنبه کباب‌پزی داریم. دوست داری بیای؟ حدود ساعت دو؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "instead",
-      "sunday",
       "that's",
-      "shame",
-      "roast"
+      "sunday",
+      "going",
+      "shame"
      ],
      "suggestion": "Oh, that's a shame. What about Sunday lunch instead? We're going to do a roast.",
      "suggestionFa": "آه، حیف شد. ناهار یکشنبه چطوره؟ قراره کباب یکشنبه درست کنیم.",
@@ -98,9 +98,9 @@
      "keywords": [
       "anything",
       "people",
+      "means",
       "there",
-      "don't",
-      "means"
+      "don't"
      ],
      "suggestion": "It means more people make it more fun. Is there anything you don't eat?",
      "suggestionFa": "یعنی آدم‌های بیشتر یعنی خوش‌گذرونی بیشتر. چیزی هست که نخوری؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "calendar",
+      "chicken",
       "problem",
       "o'clock",
-      "chicken",
       "sunday"
      ],
      "suggestion": "No problem — we'll do chicken. Shall I write it in the calendar? Sunday, one o'clock.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "yourself",
-      "crumble",
       "pudding",
-      "recipe",
-      "lovely"
+      "crumble",
+      "lovely",
+      "recipe"
      ],
      "suggestion": "Just bring yourself! Well, maybe a pudding. Nana makes a lovely crumble, but she won't share the recipe!",
      "suggestionFa": "فقط خودت را بیار! خب، شاید یه دسر. نانا کرامبل خیلی خوبی درست می‌کنه، ولی دستورش را به کسی نمی‌ده!",

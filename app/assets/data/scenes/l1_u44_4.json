@@ -22,7 +22,7 @@
       "pocket",
       "money",
       "much",
-      "she"
+      "get"
      ],
      "suggestion": "How much pocket money does she get?",
      "suggestionFa": "چقدر پول توجیبی می‌گیره؟",
@@ -113,8 +113,8 @@
    "branches": [
     {
      "keywords": [
-      "save",
       "then",
+      "save",
       "need",
       "up"
      ],
@@ -172,8 +172,8 @@
     },
     {
      "keywords": [
-      "weeks",
       "about",
+      "weeks",
       "eight"
      ],
      "suggestion": "About eight weeks.",
@@ -206,8 +206,8 @@
      "keywords": [
       "sweets",
       "don't",
-      "want",
-      "need"
+      "need",
+      "want"
      ],
      "suggestion": "You don't need sweets. You want sweets!",
      "suggestionFa": "آبنبات لازم نداری. آبنبات می‌خوای!",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "that's",
-      "idea",
-      "fair"
+      "fair",
+      "idea"
      ],
      "suggestion": "That's a fair idea.",
      "suggestionFa": "فکر منصفانه‌ایه.",
@@ -321,8 +321,8 @@
     },
     {
      "keywords": [
-      "mummy",
       "first",
+      "mummy",
       "ask"
      ],
      "suggestion": "Ask Mummy first.",

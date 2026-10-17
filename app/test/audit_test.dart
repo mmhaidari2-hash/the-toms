@@ -112,6 +112,32 @@ void main() {
     expect(lessonIds.every(c.scenes.containsKey), isTrue);
   });
 
+  test('career packs: every lesson wired, every line + reply + word + note has Persian, every line has audio', () {
+    expect(c.course.packs, isNotEmpty);
+    final idx = (j('assets/audio/index.json') as List).cast<String>().toSet();
+    final bad = <String>[];
+    for (final pk in c.course.packs) {
+      expect(pk.lessons.length, greaterThanOrEqualTo(20), reason: pk.id);
+      expect(c.characters.any((x) => x.id == pk.lead), isTrue);
+      for (final l in pk.lessons) {
+        for (final sid in l.sceneIds) {
+          final sc = c.scenes[sid];
+          if (sc == null) { bad.add('$sid missing'); continue; }
+          for (final n in sc.nodes.values) {
+            if (n.text.isNotEmpty && (n.translations['fa'] ?? '').trim().isEmpty) bad.add('$sid/${n.id} line fa');
+            for (final b in n.branches) { if (b.suggestionFa.trim().isEmpty) bad.add('$sid/${n.id} reply fa'); }
+            for (final w in n.newWords) { if (w.fa.trim().isEmpty) bad.add('$sid/${n.id} word ${w.word}'); }
+            if (n.cultureNote != null && n.cultureNote!.fa.trim().isEmpty) bad.add('$sid/${n.id} note fa');
+          }
+        }
+      }
+    }
+    for (final l in spoken(c)) {
+      if (!idx.contains(md5.convert(utf8.encode('${l[0]}|${l[1]}')).toString().substring(0, 16)) && ['vida', 'jo', 'oscar', 'dan', 'harris'].contains(l[0])) bad.add('no audio: $l');
+    }
+    expect(bad, isEmpty, reason: bad.take(20).join('\n'));
+  });
+
   test('every spoken line has a natural-voice mp3', () {
     final idx = (j('assets/audio/index.json') as List).cast<String>().toSet();
     final missing = [for (final l in spoken(c)) if (!idx.contains(md5.convert(utf8.encode('${l[0]}|${l[1]}')).toString().substring(0, 16))) l];

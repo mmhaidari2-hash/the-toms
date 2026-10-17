@@ -25,7 +25,7 @@
       "charge",
       "table",
       "mummy",
-      "says"
+      "will"
      ],
      "suggestion": "Mummy says I'm in charge of the table tonight! Will you help me?",
      "suggestionFa": "مامان میگه امشب مسئول میز منم! کمکم می‌کنی؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "cupboard",
-      "knives",
       "spoons",
+      "knives",
       "plates",
       "can't"
      ],
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "plates",
-      "thank",
-      "mummy",
       "daddy",
-      "nana"
+      "mummy",
+      "thank",
+      "ryan"
      ],
      "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
      "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "special",
       "william",
+      "special",
       "mummy",
-      "goes",
-      "next"
+      "bowl",
+      "duck"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
      "suggestionFa": "ویلیام کاسهٔ مخصوص خودش را داره! روش یه اردکه. کنار مامان میره.",
@@ -123,9 +123,9 @@
      "keywords": [
       "taught",
       "ellis",
-      "knife",
       "right",
-      "goes"
+      "knife",
+      "fork"
      ],
      "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
      "suggestionFa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!",
@@ -150,7 +150,7 @@
       "heavy",
       "water",
       "pour",
-      "now"
+      "jug"
      ],
      "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
      "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
@@ -174,8 +174,8 @@
       "triangles",
       "napkins",
       "folded",
-      "like",
-      "them"
+      "them",
+      "like"
      ],
      "suggestion": "And napkins! I folded them like triangles. Do you like them?",
      "suggestionFa": "و دستمال سفره! مثل مثلث تاشون کردم. دوستشون داری؟",

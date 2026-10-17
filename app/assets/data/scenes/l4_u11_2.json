@@ -144,8 +144,8 @@
     {
      "keywords": [
       "longer",
-      "would",
       "years",
+      "would",
       "mean"
      ],
      "suggestion": "What would a longer tenancy mean — two years?",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "exactly",
-      "clause",
       "what's",
+      "clause",
       "break"
      ],
      "suggestion": "What's a break clause, exactly?",
@@ -293,10 +293,10 @@
     },
     {
      "keywords": [
-      "there",
       "mould",
-      "damp",
-      "flat"
+      "there",
+      "flat",
+      "damp"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -401,7 +401,7 @@
      "keywords": [
       "logistics",
       "company",
-      "work",
+      "full",
       "time"
      ],
      "suggestion": "I work full-time at a logistics company.",
@@ -415,7 +415,7 @@
       "references",
       "assistant",
       "teaching",
-      "will"
+      "need"
      ],
      "suggestion": "I'm a teaching assistant. Will you need references?",
      "suggestionFa": "دستیار معلمم. معرف لازم دارید؟",
@@ -449,9 +449,9 @@
    "branches": [
     {
      "keywords": [
+      "thirty",
       "strict",
       "that's",
-      "thirty",
       "times"
      ],
      "suggestion": "Thirty times? That's quite strict.",
@@ -464,8 +464,8 @@
      "keywords": [
       "guarantor",
       "need",
-      "one",
-      "tom"
+      "tom",
+      "can"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",
      "suggestionFa": "اگه لازم شد تام می‌تونه ضامن بشه؟",

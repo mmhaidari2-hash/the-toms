@@ -41,6 +41,7 @@ final router = GoRouter(
       pageBuilder: (_, s) => _fade(ConversationScreen(key: ValueKey('chat-${s.pathParameters['id']}'), sceneId: s.pathParameters['id']!), s),
     ),
     GoRoute(path: '/course', pageBuilder: (_, s) => _fade(CourseScreen(key: ValueKey('course-${s.uri.queryParameters['level']}'), level: int.tryParse(s.uri.queryParameters['level'] ?? '')), s)),
+    GoRoute(path: '/pack/:id', pageBuilder: (_, s) => _fade(PackScreen(key: ValueKey('pack-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
     GoRoute(path: '/lesson/:id', pageBuilder: (_, s) => _fade(LessonScreen(key: ValueKey('lesson-${s.pathParameters['id']}'), lessonId: s.pathParameters['id']!), s)),
     GoRoute(path: '/practice/:id', pageBuilder: (_, s) => _fade(PracticeScreen(key: ValueKey('practice-${s.pathParameters['id']}'), id: s.pathParameters['id']!), s)),
   ],

@@ -172,9 +172,9 @@
    "branches": [
     {
      "keywords": [
-      "let's",
-      "don't",
       "worry",
+      "don't",
+      "let's",
       "wash"
      ],
      "suggestion": "Don't worry. Let's wash them.",
@@ -338,8 +338,8 @@
      "keywords": [
       "let's",
       "paint",
-      "cats",
-      "like"
+      "like",
+      "cats"
      ],
      "suggestion": "I like cats. Let's paint Biscuit.",
      "suggestionFa": "من گربه دوست دارم. بیا بیسکویت را بکشیم.",
@@ -385,8 +385,8 @@
     {
      "keywords": [
       "fridge",
-      "can",
       "put",
+      "can",
       "we"
      ],
      "suggestion": "Can we put it on the fridge?",

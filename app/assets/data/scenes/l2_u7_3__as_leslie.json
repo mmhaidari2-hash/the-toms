@@ -24,8 +24,8 @@
       "football",
       "watching",
       "george",
-      "love",
-      "were"
+      "were",
+      "love"
      ],
      "suggestion": "Sit down, love. Were you watching the football with George just now?",
      "suggestionFa": "بشین عزیزم. همین الان با جورج فوتبال تماشا می‌کردی؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -100,8 +100,8 @@
     {
      "keywords": [
       "street",
-      "used",
-      "play",
+      "were",
+      "they",
       "when",
       "poor"
      ],
@@ -127,8 +127,8 @@
       "saturday",
       "playing",
       "street",
-      "scout",
-      "train"
+      "after",
+      "scout"
      ],
      "suggestion": "One day he was playing in the street when a scout from the local club saw him. He used to train every Saturday after that.",
      "suggestionFa": "یه روز داشت تو کوچه بازی می‌کرد که یه استعدادیاب از باشگاه محلی دیدش. بعد از اون هر شنبه تمرین می‌کرد.",
@@ -203,7 +203,7 @@
       "hospital",
       "playing",
       "working",
-      "there",
+      "nurse",
       "match"
      ],
      "suggestion": "He was playing in a big match. But he met Mum in the hospital — she was working there as a nurse!",
@@ -225,8 +225,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

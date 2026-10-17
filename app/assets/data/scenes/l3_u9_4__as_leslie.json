@@ -25,7 +25,7 @@
       "wearing",
       "sunday",
       "george",
-      "today"
+      "poppy"
      ],
      "suggestion": "George is wearing his poppy today. It's Remembrance Sunday. Do you know about it?",
      "suggestionFa": "جورج امروز گل شقایقش را زده. یکشنبهٔ یادبوده. دربارهٔ اون می‌دونی؟",
@@ -50,7 +50,7 @@
       "remember",
       "poppies",
       "people",
-      "first"
+      "world"
      ],
      "suggestion": "To remember people who died in wars. Poppies grew on the battlefields after the First World War.",
      "suggestionFa": "برای یاد کسانی که تو جنگ‌ها مُردن. بعد از جنگ جهانی اول گل‌های شقایق تو میدان‌های جنگ رویید.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,7 +130,7 @@
      "keywords": [
       "generation",
       "service",
-      "george",
+      "always",
       "didn't",
       "talked"
      ],
@@ -202,9 +202,9 @@
      "keywords": [
       "memorial",
       "always",
-      "we'll",
+      "means",
       "leave",
-      "means"
+      "we'll"
      ],
      "suggestion": "That means a lot to him. We'll leave at half ten. Wrap up warm — it's always cold at the memorial.",
      "suggestionFa": "این براش خیلی ارزش داره. ساعت ده و نیم راه میفتیم. لباس گرم بپوش — کنار یادبود همیشه سرده.",

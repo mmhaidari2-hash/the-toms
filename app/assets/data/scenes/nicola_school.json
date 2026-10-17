@@ -25,7 +25,7 @@
       "everyone",
       "nervous",
       "normal",
-      "will"
+      "like"
      ],
      "suggestion": "It's normal to feel nervous. Everyone will like you!",
      "suggestionFa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!",
@@ -76,7 +76,7 @@
       "promise",
       "three",
       "pick",
-      "half"
+      "i'll"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "mummy",
-      "will",
       "here",
+      "will",
       "both"
      ],
      "suggestion": "Mummy and I will both be here.",
@@ -127,7 +127,7 @@
       "wonderful",
       "nicola",
       "have",
-      "bye"
+      "day"
      ],
      "suggestion": "Bye, Nicola! Have a wonderful day!",
      "suggestionFa": "خداحافظ نیکولا! روز فوق‌العاده‌ای داشته باشی!",
@@ -138,9 +138,9 @@
     {
      "keywords": [
       "window",
-      "from",
+      "give",
       "wave",
-      "give"
+      "from"
      ],
      "suggestion": "Give me a big wave from the window!",
      "suggestionFa": "از پنجره برام دست تکون بده!",
@@ -221,9 +221,9 @@
    "branches": [
     {
      "keywords": [
-      "star",
       "gold",
       "done",
+      "star",
       "well"
      ],
      "suggestion": "A gold star? Well done you!",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "did",
-      "get"
+      "get",
+      "did"
      ],
      "suggestion": "What did you get it for?",
      "suggestionFa": "برای چی گرفتیش؟",
@@ -332,8 +332,8 @@
      "keywords": [
       "listen",
       "though",
-      "miss",
-      "hart"
+      "hart",
+      "miss"
      ],
      "suggestion": "Try to listen to Miss Hart, though.",
      "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
@@ -382,8 +382,8 @@
      "keywords": [
       "shepherd's",
       "like",
-      "pie",
-      "did"
+      "did",
+      "pie"
      ],
      "suggestion": "Shepherd's pie! Did you like it?",
      "suggestionFa": "پای چوپان! دوستش داشتی؟",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "let's",
-      "mum",
-      "ask"
+      "ask",
+      "mum"
      ],
      "suggestion": "Let's ask your mum!",
      "suggestionFa": "بیا از مامانت بپرسیم!",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "fingers",
-      "you've",
       "earned",
+      "you've",
       "fish"
      ],
      "suggestion": "Fish fingers it is — you've earned it!",

@@ -21,8 +21,8 @@
      "keywords": [
       "everyone",
       "minutes",
-      "more",
-      "five"
+      "five",
+      "more"
      ],
      "suggestion": "Five more minutes, everyone!",
      "suggestionFa": "همه، پنج دقیقه دیگه!",
@@ -113,9 +113,9 @@
     {
      "keywords": [
       "let's",
+      "photo",
       "first",
-      "tower",
-      "photo"
+      "tower"
      ],
      "suggestion": "Let's take a photo of your tower first.",
      "suggestionFa": "بیا اول از برجت عکس بگیریم.",
@@ -126,8 +126,8 @@
     {
      "keywords": [
       "tomorrow",
-      "again",
       "build",
+      "again",
       "can"
      ],
      "suggestion": "You can build it again tomorrow.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "let's",
-      "away",
       "cars",
+      "away",
       "put"
      ],
      "suggestion": "Let's put the cars away too.",
@@ -226,8 +226,8 @@
    "branches": [
     {
      "keywords": [
-      "amazing",
       "tidying",
+      "amazing",
       "thank",
       "oscar"
      ],

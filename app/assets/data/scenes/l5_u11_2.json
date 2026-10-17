@@ -125,7 +125,7 @@
       "recovery",
       "would",
       "look",
-      "his"
+      "age"
      ],
      "suggestion": "What would recovery look like at his age?",
      "suggestionFa": "بهبودی در سن او چه شکلیه؟",
@@ -183,7 +183,7 @@
       "frightening",
       "someone",
       "sounds",
-      "his"
+      "age"
      ],
      "suggestion": "That sounds frightening for someone his age.",
      "suggestionFa": "برای کسی هم‌سن او ترسناک به نظر میاد.",
@@ -243,9 +243,9 @@
     },
     {
      "keywords": [
+      "maybe",
       "needs",
       "think",
-      "maybe",
       "time"
      ],
      "suggestion": "Maybe he needs time to think it over.",
@@ -469,8 +469,8 @@
     {
      "keywords": [
       "exactly",
-      "advice",
       "needed",
+      "advice",
       "thank"
      ],
      "suggestion": "Thank you. That's exactly the advice we needed.",

@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "doctor",
       "should",
+      "doctor",
       "she",
       "see"
      ],
@@ -179,7 +179,7 @@
      "keywords": [
       "happened",
       "time",
-      "she",
+      "now",
       "did"
      ],
      "suggestion": "Yes — time, what happened, what we did and how she is now.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "mention",
-      "wasn't",
       "should",
+      "wasn't",
       "grape"
      ],
      "suggestion": "Should I mention that the grape wasn't cut?",

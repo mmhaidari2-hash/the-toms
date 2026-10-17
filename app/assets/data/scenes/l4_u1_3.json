@@ -22,7 +22,7 @@
       "anything",
       "better",
       "that's",
-      "could"
+      "doing"
      ],
      "suggestion": "That's good to hear. Is there anything I could be doing better?",
      "suggestionFa": "خوشحالم می‌شنوم. چیزی هست که بتونم بهتر انجامش بدم؟",
@@ -93,7 +93,7 @@
       "appreciate",
       "deadlines",
       "raising",
-      "quite"
+      "tight"
      ],
      "suggestion": "I appreciate you raising it. The deadlines were quite tight.",
      "suggestionFa": "ممنون که مطرحش کردید. مهلت‌ها خیلی تنگ بودن.",
@@ -138,7 +138,7 @@
       "pressure",
       "really",
       "would",
-      "some"
+      "take"
      ],
      "suggestion": "That would really help. It would take some pressure off.",
      "suggestionFa": "خیلی کمک می‌کنه. یه کم از فشار کم می‌کنه.",
@@ -150,8 +150,8 @@
      "keywords": [
       "sensible",
       "sounds",
-      "shall",
-      "month"
+      "month",
+      "shall"
      ],
      "suggestion": "Sounds sensible. Shall we try it for the next month?",
      "suggestionFa": "منطقی به نظر میاد. یه ماه امتحانش کنیم؟",
@@ -193,10 +193,10 @@
    "branches": [
     {
      "keywords": [
-      "leadership",
       "interested",
-      "training",
-      "possible"
+      "leadership",
+      "possible",
+      "training"
      ],
      "suggestion": "I'd be interested in some leadership training, if possible.",
      "suggestionFa": "اگه ممکن باشه، به آموزش رهبری علاقه دارم.",
@@ -206,8 +206,8 @@
     },
     {
      "keywords": [
-      "software",
       "struggle",
+      "software",
       "honest",
       "been"
      ],

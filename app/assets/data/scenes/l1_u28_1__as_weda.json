@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -85,8 +85,8 @@
    "branches": [
     {
      "keywords": [
-      "hello",
       "there",
+      "hello",
       "dear",
       "tom",
       "oh"
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "hospital",
       "thursday",
+      "hospital",
       "george",
       "can't"
      ],
@@ -162,8 +162,8 @@
      "keywords": [
       "instead",
       "friday",
-      "check",
       "heart",
+      "check",
       "come"
      ],
      "suggestion": "Yes, just a check-up. His heart. Can I come on Friday instead?",
@@ -185,11 +185,11 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "after",
-      "love",
+      "thank",
+      "tell",
       "call",
-      "back"
+      "love"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
      "suggestionFa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه.",
@@ -213,8 +213,8 @@
       "course",
       "thank",
       "dear",
-      "has",
-      "bye"
+      "bye",
+      "has"
      ],
      "suggestion": "Of course he has! Thank you, dear. Bye-bye!",
      "suggestionFa": "البته که داره! ممنون عزیزم. خداحافظ!",

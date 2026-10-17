@@ -25,7 +25,7 @@
       "wedding",
       "dresses",
       "dress",
-      "hate"
+      "will"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -49,8 +49,8 @@
       "cousin's",
       "wedding",
       "bride",
-      "white",
-      "wears"
+      "wears",
+      "white"
      ],
      "suggestion": "My cousin's wedding. In June. Not white — only the bride wears white!",
      "suggestionFa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!",
@@ -73,8 +73,8 @@
      "keywords": [
       "excuse",
       "twelve",
-      "size",
       "blue",
+      "nice",
       "have"
      ],
      "suggestion": "Ooh, blue is nice. Excuse me, do you have this in a size twelve?",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -206,8 +206,8 @@
      "keywords": [
       "fourteen",
       "honest",
-      "look",
       "i'll",
+      "look",
       "try"
      ],
      "suggestion": "OK, I'll try the fourteen. How does it look? Be honest!",
@@ -230,10 +230,10 @@
     {
      "keywords": [
       "twelve",
-      "let's",
       "order",
-      "now",
-      "big"
+      "let's",
+      "big",
+      "now"
      ],
      "suggestion": "Yes, too big. OK, let's order the twelve. Can I pay now?",
      "suggestionFa": "آره، خیلی بزرگه. باشه، دوازده را سفارش بدیم. می‌تونم الان پرداخت کنم؟",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "thompson",
       "shopping",
+      "thompson",
       "leslie",
       "shoes",
       "thank"

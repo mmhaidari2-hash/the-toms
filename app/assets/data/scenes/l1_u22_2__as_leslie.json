@@ -22,10 +22,10 @@
     {
      "keywords": [
       "favourite",
-      "yellow",
       "autumn",
+      "season",
       "orange",
-      "season"
+      "yellow"
      ],
      "suggestion": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
      "suggestionFa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…",
@@ -73,9 +73,9 @@
      "keywords": [
       "november",
       "clocks",
+      "need",
       "cold",
-      "back",
-      "need"
+      "back"
      ],
      "suggestion": "You need one! In November it's cold and wet. And the clocks go back.",
      "suggestionFa": "لازمش داری! تو نوامبر سرد و خیسه. و ساعت‌ها عقب کشیده می‌شن.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "bonfire",
       "conkers",
       "neither",
-      "autumn",
-      "things"
+      "bonfire",
+      "things",
+      "autumn"
      ],
      "suggestion": "Me neither. But autumn has good things too. Bonfire Night, and conkers!",
      "suggestionFa": "منم همین‌طور. ولی پاییز چیزهای خوب هم داره. شب آتش‌بازی، و بلوط هندی!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "poisonous",
       "chestnuts",
+      "poisonous",
       "different",
       "they're",
       "can't"
@@ -198,8 +198,8 @@
      "keywords": [
       "chestnuts",
       "christmas",
-      "roasted",
       "conkers",
+      "roasted",
       "collect"
      ],
      "suggestion": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",

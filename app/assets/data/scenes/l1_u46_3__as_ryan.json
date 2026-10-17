@@ -23,7 +23,7 @@
      "keywords": [
       "biscuit",
       "would",
-      "like",
+      "told",
       "good",
       "host"
      ],
@@ -74,8 +74,8 @@
       "biscuits",
       "vanilla",
       "middle",
-      "cream",
-      "would"
+      "would",
+      "cream"
      ],
      "suggestion": "Two biscuits with vanilla cream in the middle. Would you like a cup of tea with it?",
      "suggestionFa": "دو تا بیسکویت با خامهٔ وانیلی وسطش. با چای میل دارید؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -152,8 +152,8 @@
       "important",
       "question",
       "dunker",
-      "most",
-      "i've"
+      "i've",
+      "most"
      ],
      "suggestion": "Nah, I've got it. Now, the most important question: are you a dunker?",
      "suggestionFa": "نه، خودم می‌تونم. خب، مهم‌ترین سؤال: تو اهل فرو کردنی؟",
@@ -199,11 +199,11 @@
    "branches": [
     {
      "keywords": [
+      "happens",
       "another",
       "biscuit",
-      "happens",
       "would",
-      "like"
+      "best"
      ],
      "suggestion": "Ha! Biscuit soup. Happens to the best of us. Would you like another one?",
      "suggestionFa": "ها! سوپ بیسکویت. برای بهترین‌ها هم پیش میاد. یکی دیگه میل دارید؟",
@@ -225,10 +225,10 @@
     {
      "keywords": [
       "don't",
-      "take",
+      "them",
       "will",
-      "good",
-      "host"
+      "take",
+      "good"
      ],
      "suggestion": "Take two. Dad will eat them all if you don't! Mum, I was a good host — can I go now?",
      "suggestionFa": "دو تا بردار. اگه نخوری بابا همه را می‌خوره! مامان، میزبان خوبی بودم — حالا می‌تونم برم؟",

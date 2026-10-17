@@ -72,8 +72,8 @@
     {
      "keywords": [
       "medicine",
-      "time",
-      "dose"
+      "dose",
+      "time"
      ],
      "suggestion": "The medicine, the dose and the time.",
      "suggestionFa": "اسم دارو، مقدار و ساعت.",
@@ -83,10 +83,10 @@
     },
     {
      "keywords": [
+      "last",
       "when",
       "have",
-      "some",
-      "last"
+      "some"
      ],
      "suggestion": "When did he last have some?",
      "suggestionFa": "آخرین بار کی خورده؟",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "thanks",
-      "sign",
-      "here"
+      "please",
+      "here",
+      "sign"
      ],
      "suggestion": "Thanks. Please sign here.",
      "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
@@ -146,8 +146,8 @@
      "keywords": [
       "we'll",
       "write",
-      "give",
-      "time"
+      "time",
+      "give"
      ],
      "suggestion": "OK. We'll write the time we give it.",
      "suggestionFa": "باشه. ساعتی که میدیم را می‌نویسیم.",
@@ -177,10 +177,10 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "hours",
-      "time",
-      "last"
+      "after",
+      "last",
+      "time"
      ],
      "suggestion": "48 hours after the last time?",
      "suggestionFa": "۴۸ ساعت بعد از آخرین بار؟",
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "better",
-      "seem",
+      "even",
       "they",
-      "even"
+      "seem"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",

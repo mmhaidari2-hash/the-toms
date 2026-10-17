@@ -23,8 +23,8 @@
      "keywords": [
       "everyone",
       "husband",
-      "love",
       "meet",
+      "love",
       "come"
      ],
      "suggestion": "Come and meet everyone, love. This is my husband, Tom.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -105,8 +105,8 @@
      "keywords": [
       "youngest",
       "william",
-      "monkey",
       "little",
+      "monkey",
       "three"
      ],
      "suggestion": "And this little monkey is William. He's our youngest. He's three.",
@@ -182,8 +182,8 @@
       "upstairs",
       "fifteen",
       "saying",
-      "loves",
-      "hello"
+      "hello",
+      "loves"
      ],
      "suggestion": "He loves saying hello! Ryan is upstairs. He's our son too. He's fifteen.",
      "suggestionFa": "عاشق سلام کردنه! رایان طبقهٔ بالاست. اونم پسرمونه. پونزده سالشه.",
@@ -205,9 +205,9 @@
     {
      "keywords": [
       "margaret",
-      "maggie",
       "that's",
-      "right",
+      "maggie",
+      "tom's",
       "three"
      ],
      "suggestion": "That's right — three kids! And this is Margaret, Tom's mum. The kids call her Nana Maggie.",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -289,8 +289,8 @@
       "questions",
       "family",
       "that's",
-      "whole",
-      "right"
+      "right",
+      "whole"
      ],
      "suggestion": "Right — that's the whole family. Questions? Who is Tom?",
      "suggestionFa": "خب — این کل خانواده‌ست. سؤالی هست؟ تام کیه؟",
@@ -311,10 +311,10 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "welcome",
-      "you've",
+      "perfect",
       "family",
+      "you've",
       "memory"
      ],
      "suggestion": "Perfect! You've got a great memory. Welcome to the family, love.",

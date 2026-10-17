@@ -22,9 +22,9 @@
     {
      "keywords": [
       "favourite",
+      "things",
       "poster",
       "making",
-      "things",
       "about"
      ],
      "suggestion": "Mia and I are making a poster. It's about favourite things!",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "favourite",
-      "colour",
-      "what's"
+      "what's",
+      "colour"
      ],
      "suggestion": "Yes! What's your favourite colour?",
      "suggestionFa": "آره! رنگ مورد علاقه‌ات چیه؟",
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -127,10 +127,10 @@
     {
      "keywords": [
       "favourite",
-      "animal",
       "what's",
-      "love",
-      "pink"
+      "animal",
+      "pink",
+      "love"
      ],
      "suggestion": "I love pink! Now, what's your favourite animal?",
      "suggestionFa": "من عاشق صورتی‌ام! حالا، حیوون مورد علاقه‌ات چیه؟",
@@ -153,9 +153,9 @@
      "keywords": [
       "penguin",
       "they're",
+      "black",
       "funny",
-      "white",
-      "black"
+      "white"
      ],
      "suggestion": "Mine is a penguin! They're black and white and very funny.",
      "suggestionFa": "مال من پنگوئنه! سیاه و سفیدن و خیلی بامزه‌ان.",
@@ -233,8 +233,8 @@
      "keywords": [
       "sundays",
       "poster",
-      "write",
       "makes",
+      "write",
       "nana"
      ],
      "suggestion": "Rice! Nana makes rice on Sundays. Can you write it on the poster?",
@@ -259,8 +259,8 @@
       "persian",
       "pretty",
       "right",
-      "goes",
-      "left"
+      "left",
+      "goes"
      ],
      "suggestion": "Yes! Persian is so pretty. It goes from right to left!",
      "suggestionFa": "آره! فارسی خیلی قشنگه. از راست به چپ می‌ره!",

@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "we're",
       "hello",
       "sorry",
+      "we're",
       "late"
      ],
      "suggestion": "Hello! Sorry we're a bit late.",
@@ -129,8 +129,8 @@
     },
     {
      "keywords": [
-      "brought",
       "persian",
+      "brought",
       "sweets",
       "some"
      ],
@@ -236,8 +236,8 @@
      "keywords": [
       "george",
       "chair",
-      "his",
-      "has"
+      "own",
+      "his"
      ],
      "suggestion": "George has his own chair?",
      "suggestionFa": "جورج صندلی مخصوص داره؟",
@@ -314,8 +314,8 @@
    "branches": [
     {
      "keywords": [
-      "awake",
-      "think"
+      "think",
+      "awake"
      ],
      "suggestion": "I think he's awake.",
      "suggestionFa": "فکر کنم بیداره.",

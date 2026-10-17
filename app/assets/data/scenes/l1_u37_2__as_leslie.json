@@ -48,9 +48,9 @@
      "keywords": [
       "nicola's",
       "wellies",
+      "green",
       "these",
-      "yours",
-      "green"
+      "yours"
      ],
      "suggestion": "Yes, it's Nicola's. And these wellies? The big green ones. Are they yours?",
      "suggestionFa": "آره، مال نیکولاست. و این چکمه‌ها؟ سبزهای بزرگ. مال توئه؟",
@@ -74,8 +74,8 @@
       "wellies",
       "ryan's",
       "where",
-      "muddy",
-      "these"
+      "clean",
+      "muddy"
      ],
      "suggestion": "Ryan's are muddy. These are clean. Where are your wellies, then?",
      "suggestionFa": "مال رایان گلیه. اینا تمیزن. پس چکمه‌های تو کجان؟",
@@ -125,7 +125,7 @@
       "doesn't",
       "borrow",
       "heart",
-      "them"
+      "rain"
      ],
      "suggestion": "Not anymore. He doesn't go out in the rain now, with his heart. Borrow them!",
      "suggestionFa": "دیگه نه. با این قلبش الان زیر بارون نمیره بیرون. قرضشون بگیر!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "everyone",
-      "please",
       "things",
-      "hooks",
-      "boots"
+      "please",
+      "boots",
+      "hooks"
      ],
      "suggestion": "Hang it on the hook, please! Everyone, wet things on the hooks, boots on the mat!",
      "suggestionFa": "لطفاً آویزونش کن رو قلاب! همه، وسایل خیس رو قلاب، چکمه‌ها رو پادری!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "honestly",
       "swimming",
+      "honestly",
       "hallway",
       "coffee",
       "thank"

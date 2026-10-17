@@ -24,8 +24,8 @@
       "cornwall",
       "plants",
       "going",
-      "we're",
-      "water"
+      "could",
+      "we're"
      ],
      "suggestion": "Mehdi, we're going to Cornwall for a week. Could you water our plants?",
      "suggestionFa": "{you}، یه هفته میریم کورنوال. می‌تونی به گلدون‌هامون آب بدی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "windowsill",
-      "these",
-      "thank",
       "every",
-      "ones"
+      "thank",
+      "these",
+      "days"
      ],
      "suggestion": "Thank you! These ones on the windowsill. Every two days is fine.",
      "suggestionFa": "ممنون! اینایی که لب پنجره‌ان. هر دو روز یه بار خوبه.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "doesn't",
-      "cactus",
       "little",
+      "cactus",
       "water",
       "don't"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "goldfish",
       "nicola's",
+      "goldfish",
       "feeding",
-      "desert",
-      "goldie"
+      "goldie",
+      "desert"
      ],
      "suggestion": "It's from the desert! Would you mind feeding Goldie too? Nicola's goldfish.",
      "suggestionFa": "از بیابونه! زحمت غذا دادن به گلدی را هم می‌کشی؟ ماهی قرمز نیکولا.",
@@ -124,8 +124,8 @@
       "nicola",
       "goldie",
       "pinch",
-      "once",
-      "gets"
+      "will",
+      "more"
      ],
      "suggestion": "Just a pinch, once a day. Not more! Nicola will cry if Goldie gets fat.",
      "suggestionFa": "فقط یه ذره، روزی یه بار. نه بیشتر! اگه گلدی چاق بشه نیکولا گریه می‌کنه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "tuesday",
-      "she'll",
       "here's",
-      "spare",
-      "could"
+      "she'll",
+      "could",
+      "spare"
      ],
      "suggestion": "She'll love that! Here's the spare key. Could you put the bins out on Tuesday too?",
      "suggestionFa": "عاشقش میشه! اینم کلید یدک. می‌شه سه‌شنبه سطل‌ها را هم بذاری بیرون؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "recycling",
       "cornwall",
-      "angel",
       "fudge",
+      "angel",
       "bring"
      ],
      "suggestion": "The green one, recycling. You're an angel. I'll bring you some fudge from Cornwall!",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "fourteen",
-      "there's",
       "problem",
+      "there's",
       "thanks",
       "number"
      ],

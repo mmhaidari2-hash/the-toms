@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "him",
       "buy",
-      "did"
+      "did",
+      "him"
      ],
      "suggestion": "What did you buy him?",
      "suggestionFa": "براش چی خریدی؟",
@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "see",
-      "let"
+      "let",
+      "see"
      ],
      "suggestion": "Let me see.",
      "suggestionFa": "بذار ببینم.",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "going",
-      "love",
-      "he's"
+      "he's",
+      "love"
      ],
      "suggestion": "He's going to love it.",
      "suggestionFa": "عاشقش میشه.",
@@ -125,9 +125,9 @@
     {
      "keywords": [
       "first",
-      "mug",
       "put",
-      "box"
+      "box",
+      "mug"
      ],
      "suggestion": "Put the mug in a box first.",
      "suggestionFa": "اول ماگ را بذار تو جعبه.",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "paper",
-      "over",
       "fold",
+      "over",
       "box"
      ],
      "suggestion": "Fold the paper over the box.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "stick",
-      "i'll",
-      "hold"
+      "hold",
+      "i'll"
      ],
      "suggestion": "Hold it, and I'll stick it.",
      "suggestionFa": "تو نگهش دار، من می‌چسبونمش.",
@@ -237,8 +237,8 @@
     {
      "keywords": [
       "first",
-      "piece",
       "small",
+      "piece",
       "cut"
      ],
      "suggestion": "Cut a small piece first.",
@@ -287,8 +287,8 @@
     },
     {
      "keywords": [
-      "again",
       "messy",
+      "again",
       "fold",
       "bit"
      ],

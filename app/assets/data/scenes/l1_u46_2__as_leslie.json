@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "carpet",
       "taking",
-      "hello",
-      "shoes",
-      "sorry"
+      "carpet",
+      "would",
+      "we've",
+      "hello"
      ],
      "suggestion": "Hello! Sorry, would you mind taking your shoes off? We've got a new carpet!",
      "suggestionFa": "سلام! ببخشید، اشکالی نداره کفشاتون را دربیارید؟ فرش نو داریم!",
@@ -48,9 +48,9 @@
      "keywords": [
       "everywhere",
       "strange",
+      "always",
       "really",
-      "thinks",
-      "always"
+      "thinks"
      ],
      "suggestion": "Really? Always? Tom thinks it's strange. He walks everywhere in his boots!",
      "suggestionFa": "واقعاً؟ همیشه؟ تام فکر می‌کنه عجیبه. همه جا با چکمه‌هاش راه میره!",
@@ -75,7 +75,7 @@
       "carpets",
       "persian",
       "famous",
-      "sense"
+      "makes"
      ],
      "suggestion": "That makes sense. Persian carpets are famous! Here, would you like some slippers?",
      "suggestionFa": "منطقیه. فرش ایرانی معروفه! بیا، دمپایی می‌خوای؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -154,10 +154,10 @@
     {
      "keywords": [
       "survive",
-      "carpet",
       "course",
+      "carpet",
       "amina",
-      "keep"
+      "them"
      ],
      "suggestion": "Oh, of course not, Amina! Keep them on. The carpet will survive.",
      "suggestionFa": "آه، معلومه که نه آمینا! بذار پات باشه. فرش طوریش نمیشه.",
@@ -179,10 +179,10 @@
     {
      "keywords": [
       "trainers",
-      "smelly",
       "ryan's",
-      "those",
-      "sorry"
+      "smelly",
+      "about",
+      "those"
      ],
      "suggestion": "On the rack by the door. Next to Ryan's smelly trainers. Sorry about those!",
      "suggestionFa": "رو جاکفشی کنار در. کنار کتونی‌های بدبوی رایان. بابت اونا ببخشید!",
@@ -206,8 +206,8 @@
       "nicola's",
       "through",
       "nearly",
-      "tea's",
-      "ready"
+      "ready",
+      "tea's"
      ],
      "suggestion": "Ha! Come through. Mind the toys on the floor — Nicola's been busy. Tea's nearly ready!",
      "suggestionFa": "ها! بیاید تو. مواظب اسباب‌بازی‌های رو زمین باشید — نیکولا حسابی سرگرم بوده. چای تقریباً آماده‌ست!",

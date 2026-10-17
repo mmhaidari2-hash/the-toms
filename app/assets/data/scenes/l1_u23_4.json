@@ -20,8 +20,8 @@
     {
      "keywords": [
       "receipt",
-      "sure",
       "have",
+      "sure",
       "got"
      ],
      "suggestion": "Sure. Have you got the receipt?",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "there",
+      "lady",
       "over",
-      "good",
-      "lady"
+      "good"
      ],
      "suggestion": "Good. Ask the lady over there.",
      "suggestionFa": "خوبه. از اون خانم اونجا بپرس.",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "him",
-      "big"
+      "big",
+      "him"
      ],
      "suggestion": "It's too big for him.",
      "suggestionFa": "براش خیلی بزرگه.",
@@ -329,8 +329,8 @@
      "keywords": [
       "thanks",
       "going",
-      "wear",
-      "he's"
+      "he's",
+      "wear"
      ],
      "suggestion": "No, thanks. He's going to wear it!",
      "suggestionFa": "نه، ممنون. می‌خواد بپوشدش!",

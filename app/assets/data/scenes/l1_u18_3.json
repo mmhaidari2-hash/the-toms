@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "fridge",
       "what's",
-      "hungry",
-      "fridge"
+      "hungry"
      ],
      "suggestion": "I'm hungry too. What's in the fridge?",
      "suggestionFa": "منم گرسنه‌ام. تو یخچال چی هست؟",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "slices",
+      "please",
       "two"
      ],
      "suggestion": "Two slices, please.",
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "cheese",
+      "please",
       "lots"
      ],
      "suggestion": "Yes, please! Lots of cheese.",
@@ -332,8 +332,8 @@
      "keywords": [
       "strange",
       "good",
-      "bit",
-      "but"
+      "but",
+      "bit"
      ],
      "suggestion": "It's a bit strange, but good!",
      "suggestionFa": "یه کم عجیبه، ولی خوبه!",

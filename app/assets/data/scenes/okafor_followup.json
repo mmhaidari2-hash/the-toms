@@ -31,9 +31,9 @@
     {
      "keywords": [
       "vitamin",
-      "relief",
       "should",
-      "that's"
+      "that's",
+      "relief"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
      "suggestionFa": "خیالم راحت شد. دربارهٔ ویتامین دی چی کار کنم؟",
@@ -75,7 +75,7 @@
       "prescription",
       "chemist",
       "need",
-      "can"
+      "buy"
      ],
      "suggestion": "Do I need a prescription, or can I buy it at the chemist?",
      "suggestionFa": "نسخه لازمه، یا می‌تونم از داروخونه بخرم؟",
@@ -85,8 +85,8 @@
     },
     {
      "keywords": [
-      "feeling",
       "explain",
+      "feeling",
       "would",
       "tired"
      ],
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "honest",
-      "night",
       "great",
+      "night",
       "wake"
      ],
      "suggestion": "Not great, to be honest. I wake up a lot at night.",
@@ -182,9 +182,9 @@
     {
      "keywords": [
       "intense",
-      "work's",
+      "abroad",
       "family",
-      "abroad"
+      "work's"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
      "suggestionFa": "کار خیلی فشرده بوده، و نگران خانواده‌ام در خارجم.",
@@ -197,7 +197,7 @@
       "evenings",
       "really",
       "think",
-      "dark"
+      "just"
      ],
      "suggestion": "Not really — I think it's just the dark evenings.",
      "suggestionFa": "نه واقعاً — فکر کنم فقط عصرهای تاریکه.",
@@ -239,7 +239,7 @@
       "myself",
       "refer",
       "open",
-      "i'd"
+      "how"
      ],
      "suggestion": "I'd be open to that. How do I refer myself?",
      "suggestionFa": "حاضرم. چطوری خودم را ارجاع بدم؟",
@@ -252,7 +252,7 @@
       "therapy",
       "think",
       "about",
-      "sure"
+      "i'll"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
      "suggestionFa": "مطمئن نیستم درمان برای من باشه، ولی بهش فکر می‌کنم.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
-      "pain",
-      "back",
-      "from"
+      "only",
+      "desk",
+      "pain"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -310,7 +310,7 @@
       "everything",
       "thorough",
       "that's",
-      "being"
+      "thank"
      ],
      "suggestion": "No, that's everything. Thank you for being so thorough.",
      "suggestionFa": "نه، همین بود. ممنون که این‌قدر دقیق هستید.",
@@ -349,10 +349,10 @@
    "branches": [
     {
      "keywords": [
-      "stone",
       "birds",
+      "stone",
       "then",
-      "one"
+      "two"
      ],
      "suggestion": "Two birds with one stone, then.",
      "suggestionFa": "پس با یه تیر دو نشون.",
@@ -412,7 +412,7 @@
       "supplement",
       "should",
       "before",
-      "stop"
+      "test"
      ],
      "suggestion": "Should I stop the supplement before the test?",
      "suggestionFa": "قبل از آزمایش مکمل را قطع کنم؟",

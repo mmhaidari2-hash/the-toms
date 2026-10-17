@@ -41,7 +41,7 @@ void main() {
       router.go('/');
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));
       await t.pump(const Duration(seconds: 2));
-      for (final r in ['/', '/diary', '/onboarding', '/course', for (final u in jsonDecode(File('assets/data/course.json').readAsStringSync())['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']], for (final t in jsonDecode(File('assets/data/places.json').readAsStringSync())) for (final p in t['places']) '/place/${p['id']}', for (final id in jsonDecode(File('assets/data/scenes_index.json').readAsStringSync())) '/chat/$id']) {
+      for (final r in ['/', '/diary', '/onboarding', '/course', for (final pk in jsonDecode(File('assets/data/course.json').readAsStringSync())['packs'] ?? []) ...['/pack/${pk['id']}', for (final u in pk['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']]], for (final u in jsonDecode(File('assets/data/course.json').readAsStringSync())['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']], for (final t in jsonDecode(File('assets/data/places.json').readAsStringSync())) for (final p in t['places']) '/place/${p['id']}', for (final id in jsonDecode(File('assets/data/scenes_index.json').readAsStringSync())) '/chat/$id']) {
         router.go(r);
         await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200)));
         await t.pump(const Duration(seconds: 3));

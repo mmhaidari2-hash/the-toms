@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "actually",
       "thrilled",
-      "take",
-      "dave"
+      "actually",
+      "dave",
+      "take"
      ],
      "suggestion": "I take it you're not actually thrilled, Dave?",
      "suggestionFa": "فکر کنم واقعاً خوشحال نیستی، دیو؟",
@@ -35,7 +35,7 @@
       "manchester",
       "happened",
       "before",
-      "shock"
+      "never"
      ],
      "suggestion": "What a shock. Rain in Manchester. Never happened before.",
      "suggestionFa": "چه شوکی. بارون تو منچستر. سابقه نداشته.",
@@ -183,8 +183,8 @@
      "keywords": [
       "anywhere",
       "clearly",
-      "we're",
-      "going"
+      "going",
+      "since"
      ],
      "suggestion": "Go on then. Since we're clearly not going anywhere.",
      "suggestionFa": "باشه. چون معلومه جایی نمی‌ریم.",
@@ -196,8 +196,8 @@
      "keywords": [
       "weather",
       "lovely",
-      "maybe",
-      "ducks"
+      "ducks",
+      "maybe"
      ],
      "suggestion": "Lovely weather for ducks, maybe.",
      "suggestionFa": "شاید برای اردک‌ها هوای عالیه.",

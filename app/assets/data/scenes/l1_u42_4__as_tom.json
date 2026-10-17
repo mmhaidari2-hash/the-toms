@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "those",
-      "buses",
       "bikes",
-      "bike",
-      "ride"
+      "buses",
+      "those",
+      "look",
+      "more"
      ],
      "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "should",
-      "cycle",
-      "lanes",
       "safer",
-      "there"
+      "cycle",
+      "there",
+      "lanes"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
      "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
-      "helmet",
       "should",
+      "helmet",
+      "pounds",
       "wear",
-      "but"
+      "bad"
      ],
      "suggestion": "Not bad. A few pounds. But you should wear a helmet.",
      "suggestionFa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.",
@@ -149,8 +149,8 @@
       "cycle",
       "drive",
       "keep",
-      "here",
-      "lane"
+      "road",
+      "left"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
      "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "pedals",
+      "legs",
       "only",
-      "bike",
-      "down",
-      "know"
+      "know",
+      "down"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
      "suggestionFa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!",

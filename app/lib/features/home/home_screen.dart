@@ -18,6 +18,7 @@ import '../place/place_widgets.dart';
 import '../../core/models/user_progress.dart';
 import '../shared/widgets.dart';
 import 'home_extras.dart';
+import '../course/course_screen.dart' show PackCard;
 import '../../core/engine/mission.dart';
 
 class HomeScreen extends ConsumerWidget {
@@ -104,6 +105,7 @@ class _HomeBody extends ConsumerWidget {
                 FadeSlideIn(delayMs: 60, child: ContinueHero(c)),
                 const SizedBox(height: 14),
                 FadeSlideIn(delayMs: 90, child: CourseCard(c)),
+                for (final pk in c.course.packs) ...[const SizedBox(height: 10), FadeSlideIn(delayMs: 100, child: PackCard(c, pk))],
                 const SizedBox(height: 14),
                 FadeSlideIn(delayMs: 110, child: FamilyTimelineCard(c)),
                 const SizedBox(height: 28),

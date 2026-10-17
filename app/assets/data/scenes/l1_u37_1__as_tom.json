@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "british",
-      "typical",
       "raining",
+      "typical",
+      "british",
       "summer",
-      "third"
+      "again"
      ],
      "suggestion": "Look at that! It's raining again. Third day this week! Typical British summer!",
      "suggestionFa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "sometimes",
       "afternoon",
+      "sometimes",
       "weather",
       "always",
-      "tehran"
+      "what's"
      ],
      "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
      "suggestionFa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "check",
       "going",
-      "phone",
+      "check",
       "lucky",
-      "here"
+      "phone",
+      "stop"
      ],
      "suggestion": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
      "suggestionFa": "گرم و خشک! خوش به حالت. اینجا خاکستری و خیسه. بند میاد؟ بذار با گوشیم ببینم.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "showers",
-      "heavy",
       "means",
-      "then",
+      "heavy",
+      "rain",
       "says"
      ],
      "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
@@ -173,8 +173,8 @@
      "keywords": [
       "exactly",
       "leslie",
-      "comes",
       "watch",
+      "comes",
       "face"
      ],
      "suggestion": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "umbrella",
-      "perfect",
       "british",
       "where's",
+      "perfect",
       "ryan's"
      ],
      "suggestion": "Perfect! You're more British every day. Right, I'm off. Where's my umbrella? Oh no, Ryan's got it again!",

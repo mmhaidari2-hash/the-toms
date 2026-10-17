@@ -29,10 +29,10 @@
     },
     {
      "keywords": [
-      "week",
       "last",
-      "met",
-      "her"
+      "week",
+      "her",
+      "met"
      ],
      "suggestion": "Yes, I met her last week.",
      "suggestionFa": "آره، هفتهٔ پیش دیدمش.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "nice",
       "meet",
+      "nice",
       "khan",
       "mrs"
      ],
@@ -271,8 +271,8 @@
     },
     {
      "keywords": [
-      "everyone",
       "friendly",
+      "everyone",
       "love"
      ],
      "suggestion": "I love it. Everyone is very friendly.",
@@ -317,8 +317,8 @@
      "keywords": [
       "mosque",
       "there",
-      "near",
-      "here"
+      "here",
+      "near"
      ],
      "suggestion": "Is there a mosque near here?",
      "suggestionFa": "این نزدیکی مسجد هست؟",

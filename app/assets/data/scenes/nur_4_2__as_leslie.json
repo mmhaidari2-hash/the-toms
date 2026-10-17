@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "strange",
+      "william",
       "seeing",
       "today",
       "here"
@@ -49,8 +49,8 @@
       "lovely",
       "lunch",
       "fussy",
-      "he's",
-      "been"
+      "week",
+      "home"
      ],
      "suggestion": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
      "suggestionFa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه.",
@@ -73,8 +73,8 @@
      "keywords": [
       "typical",
       "have",
-      "nap",
       "did",
+      "nap",
       "he"
      ],
      "suggestion": "Ha, typical! And did he have a nap?",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -149,14 +149,10 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
-      "accidents",
-      "toilet",
-      "today",
-      "wow"
+      "really"
      ],
-     "suggestion": "Wow, it's brilliant! Any toilet accidents today?",
-     "suggestionFa": "وای، عالیه! امروز خیس‌کاری داشت؟",
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
      "trustDelta": 5,
      "next": "r7",
      "success": true
@@ -166,6 +162,69 @@
   },
   "r7": {
    "id": "r7",
+   "speaker": "nicola",
+   "text": "I came too! Can I see the rocket? Why is it green?",
+   "translations": {
+    "fa": "منم اومدم! می‌تونم موشک را ببینم؟ چرا سبزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chose",
+     "fa": "انتخاب کرد"
+    },
+    {
+     "word": "painted",
+     "fa": "رنگ کرد"
+    },
+    {
+     "word": "himself",
+     "fa": "خودش"
+    }
+   ],
+   "cultureNote": {
+    "en": "Older siblings often come along at pick-up. Greet them too — it helps the younger child feel proud.",
+    "fa": "خواهر و برادرهای بزرگ‌تر هم موقع تحویل عصر میان؛ به اونا هم سلام کن."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Because William chose green!",
+   "translations": {
+    "fa": "چون ویلیام سبز را انتخاب کرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "accidents",
+      "toilet",
+      "today",
+      "any"
+     ],
+     "suggestion": "Wow, it's brilliant! Any toilet accidents today?",
+     "suggestionFa": "وای، عالیه! امروز خیس‌کاری داشت؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
    "speaker": "mehdi",
    "text": "No accidents — he told us every time.",
    "translations": {
@@ -176,21 +235,21 @@
      "keywords": [
       "practitioner",
       "fantastic",
-      "already",
       "nursery",
+      "already",
       "thanks"
      ],
      "suggestion": "Fantastic. Thanks, Mehdi. You sound like a real nursery practitioner already!",
      "suggestionFa": "فوق‌العاده. ممنون {you}. همین الان مثل یه مربی مهد واقعی حرف می‌زنی!",
      "trustDelta": 5,
-     "next": "r8",
+     "next": "r10",
      "success": true
     }
    ],
    "newWords": []
   },
-  "r8": {
-   "id": "r8",
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Leslie! See you later.",
    "translations": {

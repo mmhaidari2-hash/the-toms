@@ -35,7 +35,7 @@
       "nicola",
       "never",
       "grass",
-      "must"
+      "been"
      ],
      "suggestion": "Me? I'd never grass you up. It must have been Nicola.",
      "suggestionFa": "من؟ هیچ‌وقت لوت نمی‌دم. حتماً نیکولا بوده.",
@@ -75,7 +75,7 @@
      "keywords": [
       "pence",
       "ryan",
-      "five",
+      "size",
       "coin"
      ],
      "suggestion": "It was the size of a five-pence coin, Ryan.",
@@ -123,9 +123,9 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "nicola",
-      "truce",
+      "before",
+      "joins",
       "let's"
      ],
      "suggestion": "Fair. Let's call a truce before Nicola joins in.",
@@ -137,9 +137,9 @@
     {
      "keywords": [
       "anyone",
-      "alarm",
       "thing",
-      "scare"
+      "scare",
+      "alarm"
      ],
      "suggestion": "That alarm would scare anyone! It's not the same thing at all.",
      "suggestionFa": "اون آژیر هر کسی را می‌ترسوند! اصلاً یکی نیست.",

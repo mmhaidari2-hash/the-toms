@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "staying",
+      "morning",
       "toms",
       "good"
      ],
@@ -34,8 +34,8 @@
      "keywords": [
       "things",
       "meet",
-      "nice",
-      "hope"
+      "says",
+      "nice"
      ],
      "suggestion": "Nice to meet you. I hope she says nice things!",
      "suggestionFa": "از آشنایی‌تون خوشبختم. امیدوارم چیزهای خوبی بگه!",
@@ -72,7 +72,7 @@
       "course",
       "give",
       "i'll",
-      "mum"
+      "her"
      ],
      "suggestion": "Of course. I'll give it to her mum.",
      "suggestionFa": "حتماً. به مامانش می‌دم.",
@@ -84,8 +84,8 @@
      "keywords": [
       "taking",
       "where",
-      "sure",
-      "them"
+      "them",
+      "sure"
      ],
      "suggestion": "Sure. Where are you taking them?",
      "suggestionFa": "حتماً. کجا می‌بریدشون؟",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "haven't",
-      "home",
       "seen",
-      "look"
+      "look",
+      "i'll"
      ],
      "suggestion": "No, I haven't seen it. I'll look for it at home.",
      "suggestionFa": "نه، ندیدمش. تو خونه دنبالش می‌گردم.",
@@ -298,9 +298,9 @@
     {
      "keywords": [
       "i'll",
+      "now",
       "put",
-      "bag",
-      "now"
+      "her"
      ],
      "suggestion": "I'll put it in her bag now.",
      "suggestionFa": "الان می‌ذارمش تو کیفش.",

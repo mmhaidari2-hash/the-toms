@@ -50,7 +50,7 @@
       "sweetie",
       "nicola",
       "green",
-      "let"
+      "see"
      ],
      "suggestion": "In the top cupboard, the green box. Nicola, sweetie, let me see.",
      "suggestionFa": "تو کابینت بالایی، جعبهٔ سبز. نیکولا، عزیزم، بذار ببینم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "first",
-      "water",
       "wipes",
+      "water",
       "pass",
       "wash"
      ],
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "nicola",
-      "brave",
-      "might",
-      "three"
+      "little",
+      "sting",
+      "three",
+      "might"
      ],
      "suggestion": "It might sting a little. Be brave, Nicola. One, two, three… done!",
      "suggestionFa": "شاید یه کم بسوزه. شجاع باش نیکولا. یک، دو، سه… تموم شد!",
@@ -235,8 +235,8 @@
      "keywords": [
       "better",
       "there",
-      "make",
       "kiss",
+      "make",
       "now"
      ],
      "suggestion": "There. Now a kiss to make it better. Better?",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -308,10 +308,10 @@
     {
      "keywords": [
       "running",
-      "brave",
       "patio",
       "don't",
-      "being"
+      "being",
+      "brave"
      ],
      "suggestion": "Just one, for being so brave. And no more running on the patio, OK? Walk, don't run!",
      "suggestionFa": "فقط یکی، برای این‌همه شجاعت. و دیگه رو پاسیو ندو، باشه؟ راه برو، ندو!",

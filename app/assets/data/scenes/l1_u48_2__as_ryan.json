@@ -23,8 +23,8 @@
      "keywords": [
       "dinner's",
       "watch",
-      "telly",
       "shall",
+      "telly",
       "time"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
@@ -49,8 +49,8 @@
       "football",
       "playing",
       "arsenal",
-      "rather",
-      "boring"
+      "boring",
+      "rather"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Arsenal are playing.",
      "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره.",
@@ -73,8 +73,8 @@
      "keywords": [
       "cartoons",
       "nicola",
-      "wants",
       "spurs",
+      "wants",
       "bake"
      ],
      "suggestion": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "people",
-      "baking",
       "what's",
+      "baking",
+      "people",
       "cakes",
       "loves"
      ],
@@ -149,7 +149,7 @@
       "spoilers",
       "snacks",
       "record",
-      "score",
+      "don't",
       "shall"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "cartoons",
-      "remote's",
       "starting",
+      "remote's",
+      "cartoons",
       "vinegar",
       "crisps"
      ],

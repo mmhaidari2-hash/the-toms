@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "outside",
       "weather",
+      "outside",
       "what's",
       "today",
-      "like"
+      "have"
      ],
      "suggestion": "Have you seen outside? What's the weather like today?",
      "suggestionFa": "بیرون را دیدی؟ امروز هوا چطوره؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "british",
       "typical",
+      "british",
       "weather",
       "sunny",
       "hour"
@@ -99,8 +99,8 @@
       "degrees",
       "october",
       "that's",
-      "eight",
-      "trust"
+      "trust",
+      "eight"
      ],
      "suggestion": "Trust me, you do! It's only eight degrees. That's cold for October.",
      "suggestionFa": "به من اعتماد کن، لازم داری! فقط هشت درجه‌ست. برای اکتبر سرده.",
@@ -124,7 +124,7 @@
       "october",
       "march",
       "lucky",
-      "here",
+      "rain",
       "like"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "wellies",
-      "heavy",
       "means",
-      "stay",
-      "wear"
+      "heavy",
+      "rain",
+      "stay"
      ],
      "suggestion": "It means very heavy rain. Stay dry! And wear your wellies!",
      "suggestionFa": "یعنی بارون خیلی شدید. خشک بمونی! و چکمه‌های لاستیکیت را بپوش!",

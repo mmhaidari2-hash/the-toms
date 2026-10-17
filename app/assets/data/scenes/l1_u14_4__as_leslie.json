@@ -25,7 +25,7 @@
       "they're",
       "bedroom",
       "pyjamas",
-      "bath"
+      "find"
      ],
      "suggestion": "Nicola's out of the bath. Can you find her pyjamas? They're in the bedroom.",
      "suggestionFa": "نیکولا از حموم اومد بیرون. پیژامه‌اش را پیدا می‌کنی؟ تو اتاق خوابه.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "socket",
-      "behind",
       "mirror",
+      "behind",
+      "socket",
       "door",
-      "next"
+      "plug"
      ],
      "suggestion": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",
      "suggestionFa": "آره، کنار آینه‌ست. می‌تونی بزنیش به برق؟ پریز پشت دره.",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -319,7 +319,7 @@
       "choose",
       "nicola",
       "story",
-      "thank"
+      "clean"
      ],
      "suggestion": "Clean, dry and in pyjamas! Thank you, love. Now, warm milk and a story. You choose the book, Nicola!",
      "suggestionFa": "تمیز، خشک و با پیژامه! ممنون عزیزم. حالا شیر گرم و یه قصه. تو کتاب را انتخاب کن نیکولا!",

@@ -21,8 +21,8 @@
      "keywords": [
       "calling",
       "hello",
-      "card",
-      "bank"
+      "bank",
+      "card"
      ],
      "suggestion": "Hello. I'm calling about my new bank card.",
      "suggestionFa": "سلام. دربارهٔ کارت بانکی جدیدم زنگ می‌زنم.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "someone",
       "account",
+      "someone",
       "could",
       "speak"
      ],
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "surname",
-      "shall",
       "spell",
+      "shall",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "doesn't",
       "machine",
+      "doesn't",
       "cash",
       "work"
      ],
@@ -175,7 +175,7 @@
       "thank",
       "have",
       "will",
-      "pin"
+      "new"
      ],
      "suggestion": "Thank you. Will it have a new PIN?",
      "suggestionFa": "ممنون. پین جدید داره؟",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "everything",
-      "that's",
       "thanks",
+      "that's",
       "help"
      ],
      "suggestion": "No, that's everything. Thanks for your help.",
@@ -239,8 +239,8 @@
     },
     {
      "keywords": [
-      "repeat",
       "please",
+      "repeat",
       "could",
       "line"
      ],

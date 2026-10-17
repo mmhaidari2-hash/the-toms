@@ -21,8 +21,8 @@
      "keywords": [
       "account",
       "number",
-      "sure",
-      "have"
+      "have",
+      "sure"
      ],
      "suggestion": "Sure. Have you got the account number?",
      "suggestionFa": "حتماً. شمارهٔ حساب را داری؟",
@@ -121,8 +121,8 @@
      "keywords": [
       "course",
       "josh",
-      "say",
-      "tom"
+      "tom",
+      "can"
      ],
      "suggestion": "Of course. Tom, can you say yes to Josh?",
      "suggestionFa": "حتماً. تام، می‌تونی به جاش بگی آره؟",
@@ -133,7 +133,7 @@
     {
      "keywords": [
       "right",
-      "he's",
+      "here",
       "pass",
       "over"
      ],
@@ -175,8 +175,8 @@
      "keywords": [
       "doesn't",
       "higher",
-      "right",
-      "times"
+      "times",
+      "usual"
      ],
      "suggestion": "It's three times higher than usual. That doesn't seem right.",
      "suggestionFa": "سه برابر معمولیه. به نظر درست نمیاد.",
@@ -249,8 +249,8 @@
      "keywords": [
       "readings",
       "sending",
-      "think",
-      "don't"
+      "don't",
+      "think"
      ],
      "suggestion": "We do, but I don't think it's sending readings.",
      "suggestionFa": "داریم، ولی فکر نکنم خوانش‌ها را بفرسته.",
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "instead",
-      "shall",
       "meter",
-      "photo"
+      "photo",
+      "shall"
      ],
      "suggestion": "Shall I send a photo of the meter instead?",
      "suggestionFa": "به جاش یه عکس از کنتور بفرستم؟",
@@ -348,8 +348,8 @@
      "keywords": [
       "reduced",
       "direct",
-      "could",
-      "debit"
+      "debit",
+      "could"
      ],
      "suggestion": "Could the direct debit be reduced, then?",
      "suggestionFa": "پس می‌شه برداشت مستقیم را کم کرد؟",

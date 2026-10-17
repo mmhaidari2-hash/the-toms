@@ -76,7 +76,7 @@
       "months",
       "twelve",
       "after",
-      "only"
+      "need"
      ],
      "suggestion": "Only for twelve months. After that, I need to get a UK one.",
      "suggestionFa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "doesn't",
       "country",
+      "doesn't",
       "depends",
       "count"
      ],
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "computer",
-      "don't",
-      "drive"
+      "drive",
+      "don't"
      ],
      "suggestion": "You don't have to drive — it's on a computer.",
      "suggestionFa": "لازم نیست رانندگی کنی — رو کامپیوتره.",
@@ -178,8 +178,8 @@
      "keywords": [
       "automatic",
       "manual",
-      "can't",
-      "drive"
+      "drive",
+      "can't"
      ],
      "suggestion": "If you pass in an automatic, you can't drive a manual.",
      "suggestionFa": "اگه با اتومات قبول بشی، نمی‌تونی دنده‌ای برونی.",
@@ -237,7 +237,7 @@
       "remember",
       "you'll",
       "drive",
-      "have"
+      "left"
      ],
      "suggestion": "You'll have to remember to drive on the left!",
      "suggestionFa": "باید یادت باشه از سمت چپ برونی!",

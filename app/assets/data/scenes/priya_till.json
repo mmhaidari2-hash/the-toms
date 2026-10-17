@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "thanks",
+      "that's",
       "all"
      ],
      "suggestion": "Yes, that's all, thanks.",
@@ -157,8 +157,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "got",
-      "own"
+      "own",
+      "got"
      ],
      "suggestion": "No thanks, I've got my own.",
      "suggestionFa": "نه ممنون، خودم دارم.",
@@ -214,8 +214,8 @@
     },
     {
      "keywords": [
-      "here",
       "cash",
+      "here",
       "go"
      ],
      "suggestion": "Cash. Here you go.",
@@ -251,8 +251,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "number",
+      "twelve",
       "live"
      ],
      "suggestion": "Yes, I live at number twelve.",
@@ -310,7 +310,7 @@
       "twenty",
       "that's",
       "years",
-      "long"
+      "time"
      ],
      "suggestion": "Twenty years! That's a long time.",
      "suggestionFa": "بیست سال! مدت زیادیه.",
@@ -344,8 +344,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "useful",
+      "that's",
       "great"
      ],
      "suggestion": "Great, that's very useful.",

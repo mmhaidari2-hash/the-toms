@@ -23,7 +23,7 @@ I wrote this audit against the requirements in the task brief and the revised Ma
 | 3.2 | Character switching: play Mehdi (guest), Ryan, Tom or Leslie, with role-specific scenes | 🟡 | `RolePicker`, `UserProgress.role`, `roles.json`, `{you}` token. There is one role scene per role (A1/A2/B1), not one per level yet |
 | 6 | Nicola milestones M0–M5 (birthday, school, Mia, race, opinion); William M0–M3; Ryan and Tom growth lines | ✅ | `*_growth.json`, `growth_index.json`, scenes `nicola_*`, `william_*`, `ryan_report`, `ryan_driving` |
 | 6 | Soft cap on trust; streak as a small accelerator (≤ +14%); growth visible | ✅ | `GrowthEngine.softTrust/streakBoost`; growth bar on the family cards (home only, never over paintings) |
-| 6 | Set-pieces: birthday, first school day, Weda illness, end-of-year report, driving lesson | ✅ | `moments.json` + `GrowingUpStrip`. Existing paintings are reused as covers; `ryan_driving` falls back to the storybook view |
+| 6 | Set-pieces: birthday, first school day, Maggie illness, end-of-year report, driving lesson | ✅ | `moments.json` + `GrowingUpStrip`. Existing paintings are reused as covers; `ryan_driving` falls back to the storybook view |
 | 7.2 | Daily mission (e.g. "supermarket with no mistakes"), with tracking | ✅ | `core/engine/mission.dart`, `missionsDone`, home mission card |
 | 7.4 | Three speeds per line: Slow / Medium / Normal (`audioBySpeed` first, otherwise TTS) | ✅ | `LevelProfile`, `_speak` |
 | 7.5 | Summary: sentences said, spot-on, recasts, trust per character | ✅ | `_summary` |

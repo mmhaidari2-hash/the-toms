@@ -23,9 +23,9 @@
      "keywords": [
       "pyjamas",
       "nicola",
+      "order",
       "story",
-      "right",
-      "order"
+      "right"
      ],
      "suggestion": "Right, Nicola! Bath, pyjamas, teeth, story. In that order!",
      "suggestionFa": "خب نیکولا! حموم، پیژامه، دندون، قصه. به همین ترتیب!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -178,8 +178,8 @@
       "minutes",
       "timer",
       "teeth",
-      "then",
-      "good"
+      "good",
+      "then"
      ],
      "suggestion": "Good. Then teeth for two minutes. Use the timer. Can you help her, Mehdi?",
      "suggestionFa": "خوبه. بعد دو دقیقه مسواک. از تایمر استفاده کن. کمکش می‌کنی {you}؟",
@@ -200,8 +200,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -257,9 +257,9 @@
    "branches": [
     {
      "keywords": [
-      "tonight",
-      "reading",
       "finally",
+      "reading",
+      "tonight",
       "lovely",
       "lights"
      ],

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "please",
-      "white",
       "could",
-      "flat"
+      "white",
+      "have"
      ],
      "suggestion": "Could I have a flat white, please?",
      "suggestionFa": "می‌شه یه فلت وایت بگیرم، لطفاً؟",
@@ -70,8 +70,8 @@
     },
     {
      "keywords": [
-      "today",
       "large",
+      "today",
       "need"
      ],
      "suggestion": "Large — I need it today!",
@@ -104,9 +104,9 @@
     {
      "keywords": [
       "regular",
-      "away",
       "fine",
-      "take"
+      "take",
+      "away"
      ],
      "suggestion": "Take away, please — regular milk is fine.",
      "suggestionFa": "می‌برم، لطفاً — شیر معمولی خوبه.",
@@ -116,8 +116,8 @@
     },
     {
      "keywords": [
-      "eat",
-      "oat"
+      "oat",
+      "eat"
      ],
      "suggestion": "Eat in, please, with oat milk.",
      "suggestionFa": "اینجا، لطفاً، با شیر جو دوسر.",
@@ -156,9 +156,9 @@
     {
      "keywords": [
       "croissant",
-      "i'll",
+      "have",
       "then",
-      "have"
+      "i'll"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -168,8 +168,8 @@
     },
     {
      "keywords": [
-      "that's",
       "thanks",
+      "that's",
       "all"
      ],
      "suggestion": "No thanks, that's all.",
@@ -340,8 +340,8 @@
      "keywords": [
       "where's",
       "callum",
-      "chippy",
-      "thanks"
+      "thanks",
+      "chippy"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -351,8 +351,8 @@
     },
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "i'll",
       "back"
      ],

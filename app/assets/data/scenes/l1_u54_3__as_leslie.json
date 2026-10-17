@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "sunday",
       "having",
-      "garden",
+      "sunday",
       "easter",
+      "garden",
       "we're"
      ],
      "suggestion": "It's Easter Sunday! We're having an egg hunt in the garden. Will you help me hide the eggs?",
@@ -75,7 +75,7 @@
       "behind",
       "can't",
       "reach",
-      "tree"
+      "high"
      ],
      "suggestion": "Yes, in the tree, not too high. Nicola can't reach. And two behind the shed.",
      "suggestionFa": "آره، تو درخت، نه خیلی بالا. دست نیکولا نمی‌رسه. و دو تا پشت انباری.",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
+      "nicola",
       "twenty",
       "eating",
-      "nicola",
-      "he's",
+      "ryan",
       "says"
      ],
      "suggestion": "Twenty. Ten for Nicola, ten for Mia. Ryan says he's \"too old\". But I saw him eating one!",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -252,8 +252,8 @@
      "keywords": [
       "chocolate",
       "painted",
-      "worlds",
       "spring",
+      "worlds",
       "let's"
      ],
      "suggestion": "Painted eggs! Next spring, let's do both — painted eggs AND chocolate eggs. Best of both worlds!",

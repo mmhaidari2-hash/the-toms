@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "quite",
       "shall",
+      "quite",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -35,8 +35,8 @@
     },
     {
      "keywords": [
-      "normal",
-      "really"
+      "really",
+      "normal"
      ],
      "suggestion": "Not really — he feels normal to me.",
      "suggestionFa": "نه زیاد — به نظرم عادیه.",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "like",
-      "he's"
+      "he's",
+      "like"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -183,9 +183,9 @@
    "branches": [
     {
      "keywords": [
-      "calpol",
-      "here's",
       "course",
+      "here's",
+      "calpol",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -253,8 +253,8 @@
     },
     {
      "keywords": [
-      "every",
       "hours",
+      "every",
       "six"
      ],
      "suggestion": "Yes, five ml, every four to six hours.",
@@ -303,8 +303,8 @@
     },
     {
      "keywords": [
-      "jumper",
       "should",
+      "jumper",
       "take",
       "off"
      ],
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "change",
       "things",
+      "change",
       "don't",
       "they"
      ],

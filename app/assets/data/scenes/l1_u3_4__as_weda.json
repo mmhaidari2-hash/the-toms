@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "outside",
       "flowers",
-      "let's",
+      "outside",
       "today",
-      "sunny"
+      "sunny",
+      "let's"
      ],
      "suggestion": "Let's sit outside, dear. It's sunny today! Look at the flowers.",
      "suggestionFa": "بیا بیرون بشینیم عزیزم. امروز آفتابیه! به گل‌ها نگاه کن.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "daffodils",
       "favourite",
-      "yellow",
+      "daffodils",
       "what's",
-      "colour"
+      "colour",
+      "yellow"
      ],
      "suggestion": "There are red roses and yellow daffodils. What's your favourite colour?",
      "suggestionFa": "رزهای قرمز و نرگس‌های زرد هست. رنگ محبوبت چیه؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "there's",
       "robin",
-      "tree",
       "bird",
+      "tree",
       "can"
      ],
      "suggestion": "There's a bird in the tree. Can you see it? It's a robin.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "there's",
-      "under",
-      "fence",
+      "there",
       "bench",
-      "there"
+      "fence",
+      "under"
      ],
      "suggestion": "There, on the fence. And there's a cat under the bench!",
      "suggestionFa": "اونجا، روی نرده. و یه گربه زیر نیمکته!",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "patel's",
+      "biscuit",
       "that's",
-      "she's",
-      "worry"
+      "worry",
+      "she's"
      ],
      "suggestion": "That's Mrs Patel's cat, Biscuit. Don't worry, she's too lazy!",
      "suggestionFa": "اون گربهٔ خانم پاتله، بیسکویت. نگران نباش، خیلی تنبله!",
@@ -174,7 +174,7 @@
       "fingers",
       "called",
       "plants",
-      "green",
+      "shall",
       "water"
      ],
      "suggestion": "I love it. Green fingers, my mum called it. Shall we water the plants?",
@@ -198,8 +198,8 @@
      "keywords": [
       "garden",
       "happy",
-      "looks",
       "there",
+      "looks",
       "dear"
      ],
      "suggestion": "There we are. The garden looks happy now, and so do you, dear.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "phone",
-      "tom's"
+      "tom's",
+      "phone"
      ],
      "suggestion": "It's Tom's phone.",
      "suggestionFa": "گوشی تامه.",
@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "yours",
       "think",
+      "yours",
       "ryan"
      ],
      "suggestion": "I think it's yours, Ryan!",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "nana's",
       "nicola",
+      "nana's",
       "big"
      ],
      "suggestion": "It's too big for Nicola. It's Nana's.",

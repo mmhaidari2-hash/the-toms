@@ -74,9 +74,9 @@
     },
     {
      "keywords": [
+      "mint",
       "have",
       "they",
-      "mint",
       "got"
      ],
      "suggestion": "Have they got mint tea?",
@@ -125,8 +125,8 @@
      "keywords": [
       "always",
       "same",
-      "she",
-      "has"
+      "has",
+      "she"
      ],
      "suggestion": "She always has the same!",
      "suggestionFa": "همیشه همونو می‌خوره!",
@@ -156,8 +156,8 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
-      "thanks"
+      "thanks",
+      "leslie"
      ],
      "suggestion": "Thanks, Leslie.",
      "suggestionFa": "ممنون لزلی.",
@@ -169,8 +169,8 @@
      "keywords": [
       "please",
       "have",
-      "can",
-      "lid"
+      "lid",
+      "can"
      ],
      "suggestion": "Can I have a lid, please?",
      "suggestionFa": "می‌شه یه درپوش بدید، لطفاً؟",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thanks",
-      "bye",
-      "tea"
+      "tea",
+      "bye"
      ],
      "suggestion": "Bye! Thanks for the tea.",
      "suggestionFa": "خداحافظ! ممنون بابت چای.",

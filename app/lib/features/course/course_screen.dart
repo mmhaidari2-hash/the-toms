@@ -103,6 +103,17 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                         },
                       ),
                     ),
+                  for (final pk in course.packs)
+                    Padding(
+                      padding: const EdgeInsets.only(right: 8),
+                      child: ActionChip(
+                        key: ValueKey('packchip-${pk.id}'),
+                        avatar: const Icon(Icons.work_outline_rounded, size: 16, color: BL.gold),
+                        label: Text(pk.title, style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12.5)),
+                        backgroundColor: BL.paper,
+                        onPressed: () => context.push('/pack/${pk.id}'),
+                      ),
+                    ),
                 ],
               ),
             ),
@@ -180,7 +191,9 @@ class _Stones extends ConsumerWidget {
     final ctrl = ref.read(progressProvider.notifier);
     final course = c.course;
     final items = [...u.lessons.map((l) => (l, false)), (u.lessons.first, true)];
-    final current = course.lessons.where((l) => ctrl.lessonOpen(course, l) && !ctrl.lessonDone(l)).firstOrNull;
+    final pack = course.packOf(u);
+    final current = (pack?.lessons ?? course.lessons).where((l) => ctrl.lessonOpen(course, l) && !ctrl.lessonDone(l)).firstOrNull;
+    final ui = course.units.indexOf(u);
     return Padding(
       padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
       child: Column(
@@ -188,7 +201,7 @@ class _Stones extends ConsumerWidget {
           for (final (i, (l, check)) in items.indexed)
             Builder(
               builder: (context) {
-                final open = check ? ctrl.unitOpen(course, course.units.indexOf(u)) && u.lessons.every(ctrl.lessonDone) || p.unlockAll : ctrl.lessonOpen(course, l);
+                final open = check ? (ui < 0 || ctrl.unitOpen(course, ui)) && u.lessons.every(ctrl.lessonDone) || p.unlockAll : ctrl.lessonOpen(course, l);
                 final done = check ? ctrl.unitPassed(u) : ctrl.lessonDone(l);
                 final here = !check && l == current;
                 final dx = const [0.0, .32, .5, .32, 0.0, -.32, -.5, -.32][i % 8];
@@ -296,6 +309,145 @@ class _LevelHeader extends StatelessWidget {
               ],
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+
+/// Small "PREMIUM" badge for Career Packs (packs are unlocked for now).
+class PremiumBadge extends StatelessWidget {
+  final bool dark;
+  const PremiumBadge({super.key, this.dark = false});
+  @override
+  Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+    decoration: BoxDecoration(
+      gradient: const LinearGradient(colors: [Color(0xFFE9C46A), Color(0xFFC9A04C)]),
+      borderRadius: BorderRadius.circular(99),
+    ),
+    child: const Row(mainAxisSize: MainAxisSize.min, children: [
+      Icon(Icons.workspace_premium_rounded, size: 12, color: BL.ink),
+      SizedBox(width: 3),
+      Text('PREMIUM', style: TextStyle(color: BL.ink, fontSize: 9.5, letterSpacing: 1.1, fontWeight: FontWeight.w900)),
+    ]),
+  );
+}
+
+/// One compact entry per Career Pack (home + course), opens the pack path.
+class PackCard extends ConsumerWidget {
+  final ContentBundle c;
+  final Pack pack;
+  const PackCard(this.c, this.pack, {super.key});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    ref.watch(progressProvider);
+    final ctrl = ref.read(progressProvider.notifier);
+    final all = pack.lessons.toList();
+    final done = all.where(ctrl.lessonDone).length;
+    return Pressable(
+      key: ValueKey('pack-${pack.id}'),
+      onTap: () => context.push('/pack/${pack.id}'),
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(14, 12, 10, 12),
+        decoration: BoxDecoration(color: BL.paper, borderRadius: BorderRadius.circular(22), boxShadow: BL.shadow(.08)),
+        child: Row(children: [
+          Avatar(c.character(pack.lead), size: 50),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              const Row(children: [
+                Text('CAREER PACK', style: TextStyle(fontSize: 10.5, letterSpacing: 1.4, fontWeight: FontWeight.w800, color: BL.red)),
+                SizedBox(width: 8),
+                PremiumBadge(),
+              ]),
+              const SizedBox(height: 2),
+              Text(pack.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(18)),
+              Text('${all.length} lessons · ${pack.levels} · $done done', style: const TextStyle(fontSize: 12.5, color: BL.muted)),
+            ]),
+          ),
+          const Icon(Icons.chevron_right_rounded, color: BL.muted, size: 26),
+        ]),
+      ),
+    );
+  }
+}
+
+/// A Career Pack path: same stepping stones as the course, grouped by CEFR band, free order.
+class PackScreen extends ConsumerWidget {
+  final String id;
+  const PackScreen({super.key, required this.id});
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final c = ref.watch(contentProvider).value;
+    ref.watch(progressProvider);
+    final ctrl = ref.read(progressProvider.notifier);
+    final pack = c?.course.pack(id);
+    if (c == null || pack == null) return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    final pad = MediaQuery.paddingOf(context);
+    final lead = c.character(pack.lead);
+    final all = pack.lessons.toList();
+    final done = all.where(ctrl.lessonDone).length;
+    return Scaffold(
+      backgroundColor: BL.cream,
+      body: CustomScrollView(
+        slivers: [
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 0),
+              child: Row(children: [
+                IconButton(onPressed: () => context.canPop() ? context.pop() : context.go('/course'), icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20)),
+                const Expanded(child: Text('CAREER PACK', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))),
+                Text('$done/${all.length}', style: BL.display(18, color: BL.green)),
+              ]),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(20, 6, 20, 0),
+              child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Avatar(lead, size: 64),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text(pack.title, style: BL.display(26)),
+                    Text(pack.titleFa, textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
+                    const SizedBox(height: 6),
+                    Row(children: [const PremiumBadge(), const SizedBox(width: 8), Text('${pack.levels} · free for now', style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600))]),
+                  ]),
+                ),
+              ]),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(20, 12, 20, 0),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(pack.blurb, style: const TextStyle(fontSize: 14, height: 1.35, color: BL.ink)),
+                const SizedBox(height: 4),
+                SizedBox(width: double.infinity, child: Text(pack.blurbFa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: BL.muted))),
+              ]),
+            ),
+          ),
+          for (var i = 0; i < pack.units.length; i++) ...[
+            if (i == 0 || pack.units[i - 1].cefr != pack.units[i].cefr)
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 26, 20, 0),
+                  child: Row(children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+                      decoration: BoxDecoration(color: BL.navy, borderRadius: BorderRadius.circular(99)),
+                      child: Text(pack.units[i].cefr ?? '', style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 12, letterSpacing: 1.2)),
+                    ),
+                  ]),
+                ),
+              ),
+            SliverPadding(padding: const EdgeInsets.fromLTRB(20, 14, 20, 0), sliver: SliverToBoxAdapter(child: _UnitBanner(c: c, u: pack.units[i], index: i, open: true))),
+            SliverToBoxAdapter(child: _Stones(c: c, u: pack.units[i])),
+          ],
+          SliverToBoxAdapter(child: SizedBox(height: 40 + pad.bottom)),
         ],
       ),
     );

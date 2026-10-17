@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "plumber",
-      "message"
+      "message",
+      "plumber"
      ],
      "suggestion": "Hello, this is a message for the plumber.",
      "suggestionFa": "سلام، این یه پیغام برای لوله‌کشه.",
@@ -115,8 +115,8 @@
    "branches": [
     {
      "keywords": [
-      "kitchen",
       "leaking",
+      "kitchen",
       "tap"
      ],
      "suggestion": "The kitchen tap is leaking.",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "goodbye",
-      "nice",
       "have",
+      "nice",
       "day"
      ],
      "suggestion": "Goodbye. Have a nice day!",

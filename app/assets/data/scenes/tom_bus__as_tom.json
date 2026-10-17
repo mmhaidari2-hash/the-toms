@@ -22,10 +22,10 @@
     {
      "keywords": [
       "alright",
-      "yellow",
       "reader",
       "headed",
-      "where"
+      "yellow",
+      "thing"
      ],
      "suggestion": "Alright? Tap your card on the reader, mate — the yellow thing. Where you headed?",
      "suggestionFa": "سلام؟ کارتت را بزن رو دستگاه رفیق — اون زرده. کجا میری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "piccadilly",
       "roadworks",
-      "there's",
       "minutes",
+      "there's",
       "running"
      ],
      "suggestion": "Phone's fine. Beep — you're in. It goes to Piccadilly, but there's roadworks on Essex Road, so we're running about ten minutes behind.",
@@ -73,8 +73,8 @@
      "keywords": [
       "otherwise",
       "upstairs",
-      "pushed",
       "london",
+      "pushed",
       "angel"
      ],
      "suggestion": "Hop off at Angel and get the Tube if you're pushed. Otherwise grab a seat upstairs — best view in London.",
@@ -98,9 +98,9 @@
      "keywords": [
       "everything's",
       "building",
-      "cinema",
+      "course",
       "that's",
-      "course"
+      "cinema"
      ],
      "suggestion": "Course it is. See that building? That's the old cinema — it's flats now. Everything's flats now.",
      "suggestionFa": "معلومه. اون ساختمون را می‌بینی؟ سینمای قدیمیه — الان آپارتمانه. همه چی الان آپارتمانه.",
@@ -121,9 +121,9 @@
    "branches": [
     {
      "keywords": [
+      "gutted",
       "wasn't",
       "leslie",
-      "gutted",
       "first",
       "there"
      ],
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "piccadilly",
-      "there's",
+      "request",
       "someone",
-      "waiting",
-      "request"
+      "there's",
+      "waiting"
      ],
      "suggestion": "Only if someone rings or there's someone waiting. Request stops, see. Do you know the way from Piccadilly?",
      "suggestionFa": "فقط اگه کسی زنگ بزنه یا کسی منتظر باشه. ایستگاه‌های درخواستی، می‌بینی. راه از پیکادیلی را بلدی؟",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "popcorn",
-      "minute",
       "follow",
       "crowds",
+      "minute",
       "smell"
      ],
      "suggestion": "Easy — it's a five-minute walk. Just follow the crowds and the smell of popcorn.",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "piccadilly",
+      "that's",
       "driver",
       "cheers",
-      "that's",
       "mind"
      ],
      "suggestion": "Ding! That's us — Piccadilly. Off you pop, and say cheers to the driver, eh? Mind the gap!",

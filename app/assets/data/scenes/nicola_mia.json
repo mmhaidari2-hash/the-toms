@@ -23,9 +23,9 @@
     {
      "keywords": [
       "unicorns",
+      "nice",
       "meet",
-      "love",
-      "nice"
+      "love"
      ],
      "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
      "suggestionFa": "آره، عاشق تک‌شاخم! از آشناییت خوشحالم میا.",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
-      "course",
-      "squash",
       "orange",
+      "squash",
+      "course",
       "each"
      ],
      "suggestion": "Of course — orange squash and a biscuit each.",
@@ -126,10 +126,10 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "friend",
-      "live",
-      "here"
+      "family",
+      "here",
+      "live"
      ],
      "suggestion": "No, I'm a family friend. I live here now.",
      "suggestionFa": "نه، دوست خانوادگی‌ام. الان اینجا زندگی می‌کنم.",
@@ -142,7 +142,7 @@
       "brother",
       "sort",
       "like",
-      "her"
+      "big"
      ],
      "suggestion": "Sort of! I'm like her big brother.",
      "suggestionFa": "یه جورایی! مثل داداش بزرگشم.",
@@ -233,8 +233,8 @@
     },
     {
      "keywords": [
-      "cats",
-      "lots"
+      "lots",
+      "cats"
      ],
      "suggestion": "No unicorns, but lots of cats!",
      "suggestionFa": "تک‌شاخ نه، ولی کلی گربه!",
@@ -270,9 +270,9 @@
     {
      "keywords": [
       "like",
-      "i'd",
       "but",
-      "dog"
+      "dog",
+      "i'd"
      ],
      "suggestion": "No, but I'd like a dog one day.",
      "suggestionFa": "نه، ولی یه روز سگ می‌خوام.",
@@ -320,8 +320,8 @@
     {
      "keywords": [
       "afterwards",
-      "okay",
       "tidy",
+      "okay",
       "but"
      ],
      "suggestion": "Okay, but we tidy up afterwards!",

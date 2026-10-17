@@ -61,8 +61,8 @@
    "branches": [
     {
      "keywords": [
-      "small",
       "knife",
+      "small",
       "ok"
      ],
      "suggestion": "OK. This small knife?",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "knives",
-      "where",
       "hands",
+      "where",
       "clean"
      ],
      "suggestion": "My hands are clean. Where are the knives?",
@@ -120,8 +120,8 @@
     },
     {
      "keywords": [
-      "lovely",
-      "smells"
+      "smells",
+      "lovely"
      ],
      "suggestion": "It smells lovely!",
      "suggestionFa": "بوی خوبی می‌ده!",

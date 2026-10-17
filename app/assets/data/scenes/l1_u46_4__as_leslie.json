@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "already",
       "o'clock",
-      "only",
+      "already",
       "nine",
+      "only",
       "off"
      ],
      "suggestion": "Are you off already? It's only nine o'clock!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -108,8 +108,8 @@
     {
      "keywords": [
       "samosas",
-      "sweets",
       "coming",
+      "sweets",
       "again",
       "thank"
      ],
@@ -132,11 +132,11 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "cooking",
-      "home",
+      "persian",
+      "some",
       "take",
-      "wait"
+      "food"
      ],
      "suggestion": "Yes! I want to try your Persian cooking. Wait — take some food home!",
      "suggestionFa": "آره! می‌خوام آشپزی ایرانیت را امتحان کنم. صبر کنید — یه کم غذا ببرید خونه!",
@@ -235,9 +235,9 @@
      "keywords": [
       "night",
       "door",
-      "both",
-      "home",
-      "when"
+      "text",
+      "live",
+      "both"
      ],
      "suggestion": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",
      "suggestionFa": "شب بخیر! وقتی سالم رسیدید پیام بدید. ها — هر دوتون که بغل دستید! خداحافظ!",

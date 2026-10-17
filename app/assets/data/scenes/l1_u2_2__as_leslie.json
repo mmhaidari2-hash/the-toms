@@ -23,8 +23,8 @@
      "keywords": [
       "breakfast",
       "cereal",
-      "we've",
       "would",
+      "we've",
       "right"
      ],
      "suggestion": "Right, breakfast! We've got toast, cereal and eggs. What would you like?",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -128,11 +128,11 @@
    "branches": [
     {
      "keywords": [
-      "people",
-      "orange",
       "nicola",
-      "juice",
-      "would"
+      "orange",
+      "people",
+      "would",
+      "juice"
      ],
      "suggestion": "Nicola, some people love it! Would you like orange juice?",
      "suggestionFa": "نیکولا، بعضیا عاشقشن! آب پرتقال میل داری؟",

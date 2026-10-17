@@ -22,10 +22,10 @@
     {
      "keywords": [
       "presents",
-      "driver",
       "humble",
-      "only",
-      "cake"
+      "driver",
+      "cake",
+      "only"
      ],
      "suggestion": "Wow! Is this all for me? A cake? Presents? I'm only a humble bus driver!",
      "suggestionFa": "وای! همه‌ش برای منه؟ کیک؟ کادو؟ من فقط یه رانندهٔ اتوبوس ساده‌ام!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -158,7 +158,7 @@
       "phwoooo",
       "breath",
       "won't",
-      "then"
+      "true"
      ],
      "suggestion": "Because then it won't come true! OK… one big breath… Phwoooo!",
      "suggestionFa": "چون اون وقت برآورده نمیشه! باشه… یه نفس عمیق… پوووف!",
@@ -179,11 +179,11 @@
    "branches": [
     {
      "keywords": [
-      "candle",
       "that's",
+      "candle",
       "comes",
       "trick",
-      "back"
+      "ryan"
      ],
      "suggestion": "That's a trick candle! It comes back! Ha! Who did this? Ryan!",
      "suggestionFa": "این شمع کلکیه! دوباره روشن میشه! ها! کی این کار را کرد؟ رایان!",
@@ -205,8 +205,8 @@
     {
      "keywords": [
       "favourite",
-      "presents",
       "driver's",
+      "presents",
       "what's",
       "ghetti"
      ],
@@ -233,7 +233,7 @@
       "driver",
       "heard",
       "thank",
-      "best"
+      "ryan"
      ],
      "suggestion": "It's the best joke I've ever heard! And a mug. \"World's Best Bus Driver\"! Thank you, Ryan.",
      "suggestionFa": "بهترین جوکیه که تا حالا شنیدم! و یه ماگ. «بهترین راننده اتوبوس دنیا»! ممنون رایان.",
@@ -255,10 +255,10 @@
     {
      "keywords": [
       "neighbour",
-      "family",
       "lovely",
+      "family",
       "thank",
-      "love"
+      "best"
      ],
      "suggestion": "Love it! Thank you for the cake, and my lovely family. And Mehdi, our best neighbour!",
      "suggestionFa": "عاشقشم! ممنون بابت کیک، و خانوادهٔ نازنینم. و {you}، بهترین همسایه‌مون!",
@@ -280,9 +280,9 @@
     {
      "keywords": [
       "birthday",
+      "where's",
       "cutting",
       "biggest",
-      "where's",
       "leslie"
      ],
      "suggestion": "Yes! Cake! Biggest piece for the birthday boy! Leslie, I'm cutting it. Where's the big knife?",

@@ -73,9 +73,9 @@
      "keywords": [
       "school",
       "happy",
-      "sent",
       "snow",
-      "kids"
+      "sent",
+      "text"
      ],
      "suggestion": "Yes! The school sent a text. It's a snow day! The kids are so happy.",
      "suggestionFa": "آره! مدرسه پیامک داد. روز برفیه! بچه‌ها خیلی خوشحالن.",
@@ -100,7 +100,7 @@
       "slowly",
       "starts",
       "first",
-      "let's"
+      "today"
      ],
      "suggestion": "My bus starts at ten today. Slowly, slowly! Let's build a snowman first.",
      "suggestionFa": "اتوبوسم امروز ساعت ده شروع می‌کنه. یواش یواش! بیا اول یه آدم‌برفی بسازیم.",
@@ -123,8 +123,8 @@
      "keywords": [
       "today's",
       "gloves",
-      "scarf",
       "never",
+      "scarf",
       "then"
      ],
      "suggestion": "Never? Then today's the day! Put on your hat, scarf and gloves.",
@@ -148,9 +148,9 @@
      "keywords": [
       "snowball",
       "small",
-      "then",
-      "body",
-      "roll"
+      "head",
+      "roll",
+      "then"
      ],
      "suggestion": "Roll a big snowball for the body. Then a small one for the head.",
      "suggestionFa": "یه گلوله برفی بزرگ برای بدن بغلتون. بعد یه کوچیک برای سر.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "bringing",
       "nicola's",
+      "bringing",
       "daddy's",
-      "stones",
-      "carrot"
+      "carrot",
+      "stones"
      ],
      "suggestion": "Now a carrot for the nose, and stones for the eyes. Nicola's bringing Daddy's old scarf.",
      "suggestionFa": "حالا یه هویج برای دماغ، و سنگ برای چشما. نیکولا داره شال‌گردن قدیمی بابا را میاره.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "snowball",
-      "frosty",
-      "nicola",
       "ryan's",
+      "nicola",
+      "frosty",
       "coming"
      ],
      "suggestion": "Nicola says his name is \"Mr Frosty\". Uh-oh… snowball fight! Ryan's coming! Run!",

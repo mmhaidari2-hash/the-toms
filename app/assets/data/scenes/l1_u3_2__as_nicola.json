@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "books",
       "about",
       "shelf",
+      "books",
       "next"
      ],
      "suggestion": "What about on the shelf? Next to the books?",
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -196,8 +196,8 @@
      "keywords": [
       "buttons",
       "blocks",
-      "under",
       "thank",
+      "under",
       "mr"
      ],
      "suggestion": "Mr Buttons! You're under the blocks! Thank you, thank you!",
@@ -220,9 +220,9 @@
     {
      "keywords": [
       "count",
-      "play",
       "seek",
       "hide",
+      "play",
       "can"
      ],
      "suggestion": "Can you play hide and seek with me? You hide, I count!",
@@ -246,8 +246,8 @@
      "keywords": [
       "ready",
       "three",
-      "here",
       "come",
+      "here",
       "one"
      ],
      "suggestion": "One, two, three… ready or not, here I come!",

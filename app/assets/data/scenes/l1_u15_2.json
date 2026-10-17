@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "close",
+      "three",
       "eyes",
-      "one"
+      "two"
      ],
      "suggestion": "OK. Close my eyes… one, two, three…",
      "suggestionFa": "باشه. چشمامو می‌بندم… یک، دو، سه…",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "nineteen",
-      "twenty",
-      "coming"
+      "coming",
+      "twenty"
      ],
      "suggestion": "Nineteen, twenty! Coming!",
      "suggestionFa": "نوزده، بیست! اومدم!",
@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "under",
-      "table"
+      "table",
+      "under"
      ],
      "suggestion": "Is she under the table?",
      "suggestionFa": "زیر میزه؟",
@@ -343,8 +343,8 @@
    "branches": [
     {
      "keywords": [
-      "telling",
-      "quietly"
+      "quietly",
+      "telling"
      ],
      "suggestion": "(quietly) I'm not telling!",
      "suggestionFa": "(آروم) نمی‌گم!",

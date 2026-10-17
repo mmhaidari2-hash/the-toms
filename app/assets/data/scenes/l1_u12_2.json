@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "one",
-      "red"
+      "red",
+      "one"
      ],
      "suggestion": "Pink? Is this one pink or red?",
      "suggestionFa": "صورتی؟ این صورتیه یا قرمز؟",
@@ -262,9 +262,9 @@
    "branches": [
     {
      "keywords": [
+      "table",
       "don't",
       "under",
-      "table",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -275,8 +275,8 @@
     },
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "maybe"
      ],
      "suggestion": "Maybe it's in the washing machine.",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "we've",
       "think",
+      "we've",
       "got"
      ],
      "suggestion": "I think we've got eight pairs.",

@@ -24,7 +24,7 @@
       "there",
       "pans",
       "says",
-      "many",
+      "turn",
       "wash"
      ],
      "suggestion": "Ugh. Mum says it's my turn to wash up. There are so many pans!",
@@ -50,7 +50,7 @@
       "cheers",
       "dad's",
       "mate",
-      "want"
+      "turn"
      ],
      "suggestion": "Cheers, mate. Tomorrow it's Dad's turn. Do you want to wash or dry?",
      "suggestionFa": "دمت گرم رفیق. فردا نوبت باباست. می‌خوای بشوری یا خشک کنی؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "cupboard",
-      "plates",
       "here's",
+      "plates",
       "towel",
       "great"
      ],
@@ -99,8 +99,8 @@
       "dishwasher",
       "because",
       "broken",
-      "again",
-      "cloth"
+      "cloth",
+      "again"
      ],
      "suggestion": "It's just this cloth. Why don't we use the dishwasher? Because it's broken. Again!",
      "suggestionFa": "فقط همین پارچه‌ست. چرا از ماشین ظرفشویی استفاده نمی‌کنیم؟ چون خرابه. دوباره!",
@@ -123,9 +123,9 @@
      "keywords": [
       "washing",
       "liquid",
-      "says",
       "week",
-      "next"
+      "pass",
+      "says"
      ],
      "suggestion": "Next week, Mum says. Can you pass the washing-up liquid? It's by the sink.",
      "suggestionFa": "مامان میگه هفتهٔ بعد. می‌تونی مایع ظرفشویی را بدی؟ کنار سینکه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "burnt",
       "again",
-      "dirty",
+      "burnt",
       "beans",
-      "one"
+      "dirty",
+      "dad"
      ],
      "suggestion": "Yep, that one. Ugh, this pan is so dirty. Dad burnt the beans again!",
      "suggestionFa": "آره، همون. اوف، این قابلمه خیلی کثیفه. بابا دوباره لوبیاها را سوزوند!",
@@ -173,8 +173,8 @@
      "keywords": [
       "problem",
       "morning",
-      "water",
       "leave",
+      "shout",
       "dad's"
      ],
      "suggestion": "Good shout. I'll leave it in hot water till morning. Dad's problem now! Ha!",
@@ -199,8 +199,8 @@
       "thanks",
       "quick",
       "done",
-      "one",
-      "two"
+      "two",
+      "was"
      ],
      "suggestion": "Done! That was quick with two of us. Thanks, Mehdi. I owe you one.",
      "suggestionFa": "تموم شد! با دو نفر سریع بود. ممنون {you}. یکی طلبت.",
@@ -223,9 +223,9 @@
      "keywords": [
       "maybe",
       "fancy",
-      "fifa",
-      "deal",
-      "easy"
+      "easy",
+      "game",
+      "i'll"
      ],
      "suggestion": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
      "suggestionFa": "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.",

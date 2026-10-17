@@ -25,7 +25,7 @@
       "cleaning",
       "hoover",
       "worst",
-      "says"
+      "week"
      ],
      "suggestion": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
      "suggestionFa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم.",
@@ -49,8 +49,8 @@
       "vacuum",
       "hoover",
       "chairs",
-      "brand",
-      "means"
+      "means",
+      "brand"
      ],
      "suggestion": "It means vacuum. Hoover is a brand. Can you move the chairs?",
      "suggestionFa": "یعنی جاروبرقی. هوور یه مارکه. می‌تونی صندلی‌ها را جابه‌جا کنی؟",
@@ -74,8 +74,8 @@
       "everywhere",
       "everything",
       "william",
-      "upside",
-      "crumbs"
+      "crumbs",
+      "upside"
      ],
      "suggestion": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
      "suggestionFa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!",
@@ -100,7 +100,7 @@
       "really",
       "loud",
       "hear",
-      "can"
+      "ugh"
      ],
      "suggestion": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
      "suggestionFa": "اوف. باشه، روشنش می‌کنم. خیلی پرسروصداست. صدام را می‌شنوی؟",
@@ -148,8 +148,8 @@
       "nicola",
       "pulled",
       "plug",
-      "bag",
-      "out"
+      "out",
+      "bag"
      ],
      "suggestion": "Not the bag. Nicola pulled the plug out! Nicola!",
      "suggestionFa": "کیسه نیست. نیکولا دوشاخه را کشیده! نیکولا!",
@@ -172,9 +172,9 @@
      "keywords": [
       "nearly",
       "thanks",
-      "under",
+      "right",
       "arm's",
-      "right"
+      "under"
      ],
      "suggestion": "Thanks. Right, nearly done. Can you do under the sofa? My arm's too big.",
      "suggestionFa": "ممنون. خب، تقریباً تمومه. می‌تونی زیر مبل را بکشی؟ دستم خیلی بزرگه.",
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "cleaning",
-      "march",
-      "guess",
+      "isn't",
       "break",
-      "isn't"
+      "march",
+      "guess"
      ],
      "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",
      "suggestionFa": "جورابم! مارس گمش کردم. فکر کنم روز نظافت اون‌قدرا هم بد نیست. استراحت چای؟",

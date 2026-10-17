@@ -24,8 +24,8 @@
       "practice",
       "football",
       "mondays",
-      "busy",
-      "week"
+      "tell",
+      "ryan"
      ],
      "suggestion": "Our week is so busy! Let me tell you. On Mondays, Ryan has football practice.",
      "suggestionFa": "هفتهٔ ما خیلی شلوغه! بذار برات بگم. دوشنبه‌ها، رایان تمرین فوتبال داره.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "tuesdays",
       "swimming",
+      "tuesdays",
       "lessons",
-      "nicola",
-      "monday"
+      "monday",
+      "nicola"
      ],
      "suggestion": "Every Monday at five. On Tuesdays, Nicola has swimming lessons.",
      "suggestionFa": "هر دوشنبه ساعت پنج. سه‌شنبه‌ها، نیکولا کلاس شنا داره.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "leisure",
-      "metres",
       "centre",
+      "metres",
       "swim",
       "now"
      ],
@@ -98,9 +98,9 @@
      "keywords": [
       "wednesdays",
       "meeting",
-      "maggie",
       "school",
-      "nicola"
+      "nicola",
+      "maggie"
      ],
      "suggestion": "On Wednesdays, I have a staff meeting after school. Maggie picks up Nicola.",
      "suggestionFa": "چهارشنبه‌ها بعد از مدرسه جلسهٔ کارکنان دارم. مگی نیکولا را برمی‌داره.",
@@ -149,8 +149,8 @@
       "friday",
       "course",
       "chips",
-      "once",
-      "week"
+      "week",
+      "fish"
      ],
      "suggestion": "Yes, once a week. And Friday is fish and chips, of course! What do you do in a week?",
      "suggestionFa": "آره، هفته‌ای یه بار. و جمعه هم فیش اند چیپس، البته! تو تو یه هفته چی کار می‌کنی؟",
@@ -194,10 +194,10 @@
     {
      "keywords": [
       "sundays",
-      "sunday",
-      "dinner",
       "lovely",
-      "that's"
+      "dinner",
+      "that's",
+      "sunday"
      ],
      "suggestion": "That's lovely. Every Sunday? Your mum must love that. Our Sundays are for a roast dinner — come and join us!",
      "suggestionFa": "چه خوب. هر یکشنبه؟ مامانت حتماً خیلی دوست داره. یکشنبه‌های ما برای کباب یکشنبه‌ست — بیا پیشمون!",

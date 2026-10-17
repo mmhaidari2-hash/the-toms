@@ -82,9 +82,9 @@
     {
      "keywords": [
       "lunch",
-      "peas",
       "most",
-      "his"
+      "peas",
+      "but"
      ],
      "suggestion": "He ate most of his lunch, but no peas.",
      "suggestionFa": "بیشتر ناهارش را خورد، ولی نخود نه.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "hour",
       "from",
+      "hour",
       "two",
       "one"
      ],
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "really",
-      "after",
       "lunch",
+      "after",
       "well"
      ],
      "suggestion": "Yes, he slept really well after lunch.",
@@ -213,6 +213,60 @@
   },
   "n5": {
    "id": "n5",
+   "speaker": "nicola",
+   "text": "I came too! Can I see the rocket? Why is it green?",
+   "translations": {
+    "fa": "منم اومدم! می‌تونم موشک را ببینم؟ چرا سبزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "because",
+      "chose",
+      "green"
+     ],
+     "suggestion": "Because William chose green!",
+     "suggestionFa": "چون ویلیام سبز را انتخاب کرد!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "painted",
+      "himself",
+      "nicola",
+      "he"
+     ],
+     "suggestion": "Hi, Nicola! He painted it himself.",
+     "suggestionFa": "سلام نیکولا! خودش رنگش کرد.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chose",
+     "fa": "انتخاب کرد"
+    },
+    {
+     "word": "painted",
+     "fa": "رنگ کرد"
+    },
+    {
+     "word": "himself",
+     "fa": "خودش"
+    }
+   ],
+   "cultureNote": {
+    "en": "Older siblings often come along at pick-up. Greet them too — it helps the younger child feel proud.",
+    "fa": "خواهر و برادرهای بزرگ‌تر هم موقع تحویل عصر میان؛ به اونا هم سلام کن."
+   }
+  },
+  "n6": {
+   "id": "n6",
    "speaker": "leslie",
    "text": "Wow, it's brilliant! Any toilet accidents today?",
    "translations": {
@@ -229,7 +283,7 @@
      "suggestion": "No accidents — he told us every time.",
      "suggestionFa": "هیچ خیس‌کاری‌ای — هر بار بهمون گفت.",
      "trustDelta": 6,
-     "next": "n6",
+     "next": "n7",
      "success": true
     },
     {
@@ -242,7 +296,7 @@
      "suggestion": "Just one, before lunch. His wet clothes are in his bag.",
      "suggestionFa": "فقط یه بار، قبل از ناهار. لباس‌های خیسش تو کیفشه.",
      "trustDelta": 5,
-     "next": "n6",
+     "next": "n7",
      "success": true
     }
    ],
@@ -261,8 +315,8 @@
     }
    ]
   },
-  "n6": {
-   "id": "n6",
+  "n7": {
+   "id": "n7",
    "speaker": "leslie",
    "text": "Fantastic. Thanks, {you}. You sound like a real nursery practitioner already!",
    "translations": {

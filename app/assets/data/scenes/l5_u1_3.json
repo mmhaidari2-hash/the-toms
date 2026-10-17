@@ -35,7 +35,7 @@
       "questions",
       "depends",
       "follow",
-      "she"
+      "did"
      ],
      "suggestion": "It depends. Did she ask any follow-up questions?",
      "suggestionFa": "بستگی داره. سؤال بعدی هم پرسید؟",
@@ -138,8 +138,8 @@
      "keywords": [
       "suggest",
       "option",
-      "vegan",
-      "lower"
+      "lower",
+      "small"
      ],
      "suggestion": "Suggest a small trial, like one vegan option for a month. Lower risk.",
      "suggestionFa": "یه آزمایش کوچیک پیشنهاد بده، مثلاً یه گزینهٔ وگان برای یه ماه. ریسک کمتر.",
@@ -179,8 +179,8 @@
      "keywords": [
       "follow",
       "leave",
-      "says",
-      "week"
+      "week",
+      "says"
      ],
      "suggestion": "And if she says \"leave it with me\", follow up in a week.",
      "suggestionFa": "و اگه گفت «بسپارش به من»، یه هفته بعد پیگیری کن.",
@@ -190,10 +190,10 @@
     },
     {
      "keywords": [
-      "problem",
       "solving",
-      "yours",
-      "frame"
+      "problem",
+      "frame",
+      "yours"
      ],
      "suggestion": "Frame it as solving her problem, not yours.",
      "suggestionFa": "طوری مطرحش کن که انگار مشکل اون را حل می‌کنه، نه مال خودت.",

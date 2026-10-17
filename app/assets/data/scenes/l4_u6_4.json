@@ -21,8 +21,8 @@
      "keywords": [
       "birthday",
       "mum's",
-      "next",
-      "week"
+      "week",
+      "next"
      ],
      "suggestion": "Yes, my mum's birthday is next week.",
      "suggestionFa": "آره، تولد مامانم هفتهٔ بعده.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "heard",
       "right",
-      "have",
+      "heard",
+      "gone",
       "i've"
      ],
      "suggestion": "I am. But I've heard the fees have gone up. Is that right?",
@@ -71,7 +71,7 @@
      "keywords": [
       "different",
       "clear",
-      "rate",
+      "just",
       "give"
      ],
      "suggestion": "Just to be clear — is the rate you give different from the real rate?",
@@ -84,8 +84,8 @@
      "keywords": [
       "better",
       "mean",
-      "wait",
-      "days"
+      "days",
+      "wait"
      ],
      "suggestion": "Does that mean it's better to wait a few days?",
      "suggestionFa": "یعنی بهتره چند روز صبر کنم؟",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "that's",
-      "honest",
-      "arthur"
+      "arthur",
+      "honest"
      ],
      "suggestion": "That's very honest of you, Arthur!",
      "suggestionFa": "خیلی صادقید آرتور!",

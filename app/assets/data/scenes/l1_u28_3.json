@@ -20,8 +20,8 @@
     {
      "keywords": [
       "ryan's",
-      "phone",
-      "hello"
+      "hello",
+      "phone"
      ],
      "suggestion": "Hello? Ryan's phone.",
      "suggestionFa": "الو؟ گوشی رایان.",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "give",
-      "ha",
-      "ok"
+      "ok",
+      "ha"
      ],
      "suggestion": "Ha! OK. Give it to me.",
      "suggestionFa": "ها! باشه. بدش به من.",
@@ -76,10 +76,10 @@
     },
     {
      "keywords": [
-      "number",
       "you've",
-      "think",
-      "wrong"
+      "number",
+      "wrong",
+      "think"
      ],
      "suggestion": "I think you've got the wrong number.",
      "suggestionFa": "فکر کنم اشتباه گرفتید.",
@@ -179,8 +179,8 @@
      "keywords": [
       "parcel",
       "that's",
-      "good",
-      "luck"
+      "luck",
+      "good"
      ],
      "suggestion": "That's OK. Good luck with the parcel!",
      "suggestionFa": "اشکال نداره. با بسته موفق باشی!",

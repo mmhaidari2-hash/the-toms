@@ -49,8 +49,8 @@
       "nationality",
       "station's",
       "eligible",
-      "minutes",
-      "polling"
+      "primary",
+      "minutes"
      ],
      "suggestion": "It depends on your status and nationality, but you're eligible — you got your polling card. The station's at the primary school. Takes five minutes.",
      "suggestionFa": "بستگی به وضعیت و ملیتت داره، ولی تو واجد شرایطی — کارت رأیت را گرفتی. حوزه تو مدرسهٔ ابتداییه. پنج دقیقه طول می‌کشه.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "candidate",
-      "that's",
       "pencil",
       "ballot",
+      "that's",
       "cross"
      ],
      "suggestion": "Photo ID — that's new. You give your name, they give you a ballot paper, you go into a booth and put a cross next to one candidate. Pencil, not pen.",
@@ -99,7 +99,7 @@
       "tradition",
       "majority",
       "whether",
-      "people",
+      "that's",
       "mostly"
      ],
      "suggestion": "Tradition, mostly! And yes — it's \"first past the post\". Most votes wins, even if it's not a majority. People argue about whether that's fair.",
@@ -123,9 +123,9 @@
      "keywords": [
       "controversial",
       "exactly",
-      "moment",
       "anyway",
-      "that's"
+      "that's",
+      "moment"
      ],
      "suggestion": "Exactly, which is why it's controversial. Anyway — grab your coat. Your first vote here. That's a big moment, that is.",
      "suggestionFa": "دقیقاً، واسه همین بحث‌برانگیزه. به هر حال — کتت را بردار. اولین رأیت اینجا. لحظهٔ بزرگیه، واقعاً.",

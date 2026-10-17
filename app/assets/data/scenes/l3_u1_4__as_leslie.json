@@ -23,9 +23,9 @@
      "keywords": [
       "everyone",
       "right",
-      "love",
-      "news",
-      "some"
+      "them",
+      "some",
+      "tell"
      ],
      "suggestion": "Right, everyone — Tom has some news. Go on, love, tell them.",
      "suggestionFa": "خب، همه — تام یه خبر داره. بگو عزیزم، بهشون بگو.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -104,10 +104,10 @@
     {
      "keywords": [
       "trains",
-      "he'll",
-      "proud",
-      "we're",
-      "night"
+      "night",
+      "means",
+      "every",
+      "proud"
      ],
      "suggestion": "We're so proud of him. It means he'll be home by six every night. No more late trains!",
      "suggestionFa": "خیلی بهش افتخار می‌کنیم. یعنی هر شب تا شش خونه‌ست. دیگه قطار دیروقت نداریم!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "promised",
       "takeaway",
+      "promised",
       "friday",
       "garden",
       "going"
@@ -153,8 +153,8 @@
    "branches": [
     {
      "keywords": [
-      "listening",
       "obviously",
+      "listening",
       "think",
       "pizza",
       "curry"
@@ -238,10 +238,10 @@
     {
      "keywords": [
       "weekend",
-      "visit",
       "going",
-      "pizza",
-      "we're"
+      "visit",
+      "after",
+      "tom's"
      ],
      "suggestion": "Curry and pizza it is. And this weekend we're going to visit Tom's mum. I'll ring her after tea.",
      "suggestionFa": "کاری و پیتزا. و این آخر هفته می‌ریم دیدن مامان تام. بعد از شام بهش زنگ می‌زنم.",
@@ -264,9 +264,9 @@
      "keywords": [
       "tonight",
       "lovely",
-      "going",
       "would",
-      "who's"
+      "going",
+      "right"
      ],
      "suggestion": "Oh, would you? That would be lovely. Right — who's going to wash up tonight? Not all at once!",
      "suggestionFa": "واقعاً؟ خیلی خوب میشه. خب — امشب کی ظرف‌ها را می‌شوره؟ همه با هم نه!",

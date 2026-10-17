@@ -24,8 +24,8 @@
       "tomorrow",
       "getting",
       "centre",
-      "know",
-      "stop"
+      "stop",
+      "know"
      ],
      "suggestion": "You're getting the bus to the Job Centre tomorrow? Do you know the stop?",
      "suggestionFa": "فردا با اتوبوس میری مرکز کاریابی؟ ایستگاه را بلدی؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "opposite",
-      "church",
       "that's",
+      "church",
       "stop",
       "one"
      ],
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "there's",
-      "behind",
       "john's",
+      "behind",
       "clock",
       "park"
      ],
@@ -98,8 +98,8 @@
      "keywords": [
       "minutes",
       "letter",
-      "look",
       "stop",
+      "look",
       "two"
      ],
      "suggestion": "Two minutes. Look for the stop letter. It's stop M.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
-      "other",
-      "which",
       "there",
-      "stops"
+      "stops",
+      "other",
+      "helps"
      ],
      "suggestion": "There are lots of stops near each other. The letter helps. Which bus do you need?",
      "suggestionFa": "کلی ایستگاه نزدیک هم هست. حرفه کمک می‌کنه. کدوم اتوبوس لازمته؟",
@@ -149,7 +149,7 @@
       "seven",
       "angel",
       "stops",
-      "get",
+      "bus",
       "off"
      ],
      "suggestion": "My bus! The 38. Get off at the Angel. Seven stops.",
@@ -199,8 +199,8 @@
       "announcer",
       "tomorrow",
       "exactly",
-      "voice",
-      "early"
+      "shift",
+      "voice"
      ],
      "suggestion": "Exactly! And I'm on the early shift tomorrow. If you see me, wave. I'll do my best announcer voice!",
      "suggestionFa": "دقیقاً! و فردا شیفت صبحم. اگه منو دیدی دست تکون بده. بهترین صدای گوینده‌م را درمیارم!",

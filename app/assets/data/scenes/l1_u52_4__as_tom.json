@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "window",
+      "before",
       "never",
       "smoke",
       "alarm"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "quiet",
-      "there",
       "towel",
-      "like",
-      "wave"
+      "there",
+      "wave",
+      "like"
      ],
      "suggestion": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
      "suggestionFa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!",
@@ -98,9 +98,9 @@
      "keywords": [
       "burner",
       "leslie",
-      "calls",
-      "about",
-      "worry"
+      "worry",
+      "every",
+      "about"
      ],
      "suggestion": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
      "suggestionFa": "نگرانش نباش! ضرری نکردیم. من هر هفته این کار را می‌کنم. لزلی بهم میگه «سوزانندهٔ نون تست».",
@@ -124,8 +124,8 @@
       "toaster",
       "strong",
       "number",
-      "three",
-      "every"
+      "every",
+      "three"
      ],
      "suggestion": "Every week! The toaster is too strong. Put it on number three, not five.",
      "suggestionFa": "هر هفته! توستر زیادی قویه. بذارش رو سه، نه پنج.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "everyone",
-      "perfect",
       "welcome",
+      "perfect",
       "golden",
       "burns"
      ],
@@ -199,8 +199,8 @@
       "burner",
       "butter",
       "toast",
-      "lots",
-      "time"
+      "time",
+      "call"
      ],
      "suggestion": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
      "suggestionFa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!",

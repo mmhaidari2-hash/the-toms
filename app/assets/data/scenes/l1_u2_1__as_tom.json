@@ -49,8 +49,8 @@
       "people",
       "their",
       "we've",
-      "both",
-      "most"
+      "most",
+      "have"
      ],
      "suggestion": "We've got both. Milk? Most people here have milk in their tea.",
      "suggestionFa": "هر دو داریم. شیر؟ بیشتر مردم اینجا چای را با شیر می‌خورن.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "sugar",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "And sugar? One or two?",
      "suggestionFa": "و شکر؟ یکی یا دوتا؟",
@@ -94,11 +94,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "careful",
+      "biscuit",
       "would",
-      "here",
-      "like"
+      "like",
+      "here"
      ],
      "suggestion": "Ha! Here you go. Careful, it's hot. Would you like a biscuit too?",
      "suggestionFa": "ها! بفرما. مواظب باش، داغه. بیسکویت هم میل داری؟",
@@ -122,8 +122,8 @@
       "digestives",
       "chocolate",
       "leslie",
-      "love",
-      "want"
+      "best",
+      "love"
      ],
      "suggestion": "Chocolate digestives. The best! Leslie, do you want a tea, love?",
      "suggestionFa": "دایجستیو شکلاتی. بهترینه! لزلی، چای می‌خوای عزیزم؟",
@@ -144,8 +144,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -251,8 +251,8 @@
       "cheers",
       "makes",
       "guest",
-      "news",
-      "week"
+      "week",
+      "news"
      ],
      "suggestion": "Our guest makes the tea now. Best news all week! Cheers!",
      "suggestionFa": "حالا مهمونمون چای درست می‌کنه. بهترین خبر این هفته! به سلامتی!",

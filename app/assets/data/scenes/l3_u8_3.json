@@ -22,7 +22,7 @@
       "looks",
       "like",
       "bomb",
-      "wow"
+      "hit"
      ],
      "suggestion": "Wow. It looks like a bomb hit it!",
      "suggestionFa": "وای. انگار بمب خورده!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "impossible",
-      "help",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "It's not impossible. I'll help you.",
      "suggestionFa": "غیرممکن نیست. کمکت می‌کنم.",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
-      "dirty",
-      "socks",
       "doing",
+      "socks",
+      "dirty",
       "deal"
      ],
      "suggestion": "Deal. But you're doing the dirty socks!",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "about",
-      "make",
       "also",
+      "make",
       "cup"
      ],
      "suggestion": "How about if you also make me a cup of tea?",
@@ -132,8 +132,8 @@
      "keywords": [
       "clothes",
       "basket",
-      "dirty",
-      "first"
+      "first",
+      "dirty"
      ],
      "suggestion": "First, let's put the dirty clothes in the wash basket.",
      "suggestionFa": "اول، بیا لباس‌های کثیف را بذاریم تو سبد رخت‌چرک.",
@@ -143,8 +143,8 @@
     },
     {
      "keywords": [
-      "start",
       "floor",
+      "start",
       "can't",
       "see"
      ],
@@ -234,8 +234,8 @@
     {
      "keywords": [
       "washing",
-      "fine",
       "week",
+      "fine",
       "but"
      ],
      "suggestion": "Fine. But you're washing up for a week.",

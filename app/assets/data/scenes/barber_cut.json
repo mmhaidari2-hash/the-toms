@@ -33,7 +33,7 @@
      "keywords": [
       "little",
       "just",
-      "bit",
+      "off",
       "top"
      ],
      "suggestion": "Just a little bit off the top, please.",
@@ -79,8 +79,8 @@
     },
     {
      "keywords": [
-      "three",
-      "short"
+      "short",
+      "three"
      ],
      "suggestion": "A three, please — not too short.",
      "suggestionFa": "سه، لطفاً — نه خیلی کوتاه.",
@@ -113,8 +113,8 @@
      "keywords": [
       "started",
       "busy",
-      "job",
-      "new"
+      "new",
+      "job"
      ],
      "suggestion": "Yes, very busy. I started a new job.",
      "suggestionFa": "آره، خیلی شلوغ. یه کار جدید شروع کردم.",
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "football",
-      "follow",
       "really",
+      "follow",
       "don't"
      ],
      "suggestion": "No, I don't really follow football.",
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "please",
+      "little",
       "just",
       "wax"
      ],

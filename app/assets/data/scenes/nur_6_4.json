@@ -75,7 +75,7 @@
      "keywords": [
       "child's",
       "afraid",
-      "can't",
+      "other",
       "share"
      ],
      "suggestion": "I'm afraid I can't share the other child's name.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "exactly",
-      "oscar's",
       "protect",
-      "privacy"
+      "exactly",
+      "privacy",
+      "oscar's"
      ],
      "suggestion": "We'd protect Oscar's privacy in exactly the same way.",
      "suggestionFa": "ما از حریم خصوصی اسکار هم دقیقاً همین‌طور محافظت می‌کنیم.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "shadowing",
-      "teaching",
       "feelings",
+      "teaching",
       "closely"
      ],
      "suggestion": "We're shadowing that child closely and teaching other ways to show feelings.",
@@ -191,7 +191,7 @@
       "accident",
       "should",
       "right",
-      "have"
+      "been"
      ],
      "suggestion": "You're right, it should have been on his accident form at pick-up.",
      "suggestionFa": "حق با شماست، باید موقع بردنش تو فرم حادثه‌اش می‌بود.",
@@ -203,8 +203,8 @@
      "keywords": [
       "wasn't",
       "given",
-      "look",
-      "into"
+      "into",
+      "look"
      ],
      "suggestion": "I'll look into why the form wasn't given to you.",
      "suggestionFa": "بررسی می‌کنم چرا فرم به شما داده نشد.",
@@ -259,9 +259,9 @@
     {
      "keywords": [
       "update",
+      "weeks",
       "we'll",
-      "every",
-      "weeks"
+      "every"
      ],
      "suggestion": "We'll update you every day for the next two weeks.",
      "suggestionFa": "تا دو هفتهٔ آینده هر روز بهتون خبر می‌دیم.",

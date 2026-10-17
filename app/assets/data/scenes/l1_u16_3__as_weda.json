@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "orange",
+      "though",
       "hands",
-      "today",
+      "would",
       "stiff"
      ],
      "suggestion": "Would you like an orange? I'll peel one for you. My hands are a bit stiff today, though.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "lovely",
-      "first",
       "hands",
+      "first",
       "small",
       "knife"
      ],
@@ -75,7 +75,7 @@
       "drawer",
       "next",
       "off",
-      "cut"
+      "top"
      ],
      "suggestion": "In the drawer. Next, cut the top off. Carefully!",
      "suggestionFa": "تو کشو. بعدش، سرش را ببر. با احتیاط!",
@@ -99,8 +99,8 @@
       "perfect",
       "fingers",
       "round",
-      "then",
-      "pull"
+      "peel",
+      "then"
      ],
      "suggestion": "Perfect. Then pull the peel off with your fingers. Round and round.",
      "suggestionFa": "عالی. بعد پوست را با انگشتات بکن. دور تا دور.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "piece",
-      "when",
-      "peel",
-      "girl",
-      "made"
+      "wish",
+      "came",
+      "made",
+      "peel"
      ],
      "suggestion": "One piece! When I was a girl, we made a wish if the peel came off in one piece.",
      "suggestionFa": "یه تیکه! وقتی بچه بودم، اگه پوست یه تیکه کنده میشد آرزو می‌کردیم.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "segments",
+      "finally",
       "bicycle",
       "usually",
-      "finally",
       "break"
      ],
      "suggestion": "Oh, a bicycle, usually! Now, finally, break it into segments.",
@@ -174,8 +174,8 @@
       "christmas",
       "oranges",
       "always",
-      "think",
-      "thank"
+      "juicy",
+      "think"
      ],
      "suggestion": "Thank you, love. Ooh, it's juicy! Oranges always make me think of Christmas.",
      "suggestionFa": "ممنون عزیزم. اوه، چه آبداره! پرتقال همیشه منو یاد کریسمس می‌ندازه.",
@@ -199,7 +199,7 @@
       "christmas",
       "stocking",
       "orange",
-      "treat",
+      "yalda",
       "about"
      ],
      "suggestion": "We got an orange in our Christmas stocking. It was a big treat back then! Tell me about Yalda.",
@@ -223,8 +223,8 @@
      "keywords": [
       "pomegranates",
       "lovely",
-      "poems",
       "night",
+      "poems",
       "yalda"
      ],
      "suggestion": "Poems and pomegranates — how lovely! We must have a Yalda night here this year. I'll make the tea!",

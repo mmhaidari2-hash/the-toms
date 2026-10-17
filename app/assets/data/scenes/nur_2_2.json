@@ -113,9 +113,9 @@
     {
      "keywords": [
       "that's",
-      "one",
+      "pea",
       "can",
-      "pea"
+      "one"
      ],
      "suggestion": "That's OK. Can you try one pea?",
      "suggestionFa": "اشکالی نداره. یه دونه نخود امتحان می‌کنی؟",
@@ -178,10 +178,10 @@
     },
     {
      "keywords": [
-      "clean",
       "plate",
-      "done",
-      "well"
+      "clean",
+      "well",
+      "done"
      ],
      "suggestion": "Well done, a clean plate!",
      "suggestionFa": "آفرین، بشقاب تمیز!",
@@ -215,8 +215,8 @@
    "branches": [
     {
      "keywords": [
-      "some",
       "most",
+      "some",
       "none",
       "all"
      ],

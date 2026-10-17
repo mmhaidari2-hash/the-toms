@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "can't",
+      "where",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "triangle",
-      "can",
-      "eat"
+      "eat",
+      "can"
      ],
      "suggestion": "Can I eat the triangle?",
      "suggestionFa": "می‌تونم مثلث را بخورم؟",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "circles",
-      "they're"
+      "they're",
+      "circles"
      ],
      "suggestion": "They're circles.",
      "suggestionFa": "دایره‌ان.",
@@ -362,8 +362,8 @@
     {
      "keywords": [
       "nicola",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done, Nicola!",
      "suggestionFa": "آفرین نیکولا!",

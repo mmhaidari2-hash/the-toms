@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -104,10 +104,10 @@
     {
      "keywords": [
       "under",
-      "bush",
-      "ball",
       "goal",
-      "shed"
+      "bush",
+      "shed",
+      "ball"
      ],
      "suggestion": "Your goal is the shed! The ball is under the bush. Can you get it?",
      "suggestionFa": "دروازه‌ت انباریه! توپ زیر بوته‌ست. می‌تونی بیاریش؟",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "pass",
       "kick",
+      "pass",
       "mia",
       "off"
      ],
@@ -236,8 +236,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -292,8 +292,8 @@
       "please",
       "kicked",
       "sorry",
-      "khan",
-      "have"
+      "have",
+      "khan"
      ],
      "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",
      "suggestionFa": "تو برو! تو شوتش کردی! بگو «ببخشید خانم خان، می‌شه توپمون را پس بدید، لطفاً؟»",

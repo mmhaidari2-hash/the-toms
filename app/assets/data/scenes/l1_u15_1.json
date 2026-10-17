@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "girls",
-      "share",
       "let's",
+      "share",
+      "girls",
       "toys"
      ],
      "suggestion": "Let's share the toys, girls.",
@@ -35,7 +35,7 @@
       "nicola",
       "doll",
       "have",
-      "can"
+      "mia"
      ],
      "suggestion": "Nicola, can Mia have her doll?",
      "suggestionFa": "نیکولا، می‌شه میا عروسکش را داشته باشه؟",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "phone",
       "timer",
+      "phone",
       "i've",
       "got"
      ],
@@ -132,8 +132,8 @@
      "keywords": [
       "minutes",
       "five",
-      "go",
-      "ok"
+      "ok",
+      "go"
      ],
      "suggestion": "OK. Five minutes. Go!",
      "suggestionFa": "باشه. پنج دقیقه. شروع!",
@@ -163,8 +163,8 @@
    "branches": [
     {
      "keywords": [
-      "teddy",
       "about",
+      "teddy",
       "bear"
      ],
      "suggestion": "What about the teddy bear?",
@@ -177,8 +177,8 @@
      "keywords": [
       "blocks",
       "tower",
-      "let's",
-      "build"
+      "build",
+      "let's"
      ],
      "suggestion": "Let's build a tower with the blocks.",
      "suggestionFa": "بیا با مکعب‌ها یه برج بسازیم.",
@@ -310,10 +310,10 @@
    "branches": [
     {
      "keywords": [
+      "never",
       "again",
-      "let's",
       "build",
-      "never"
+      "let's"
      ],
      "suggestion": "Never mind! Let's build it again.",
      "suggestionFa": "عیب نداره! بیاید دوباره بسازیمش.",
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "that's",
-      "was",
       "fun",
+      "was",
       "ok"
      ],
      "suggestion": "That's OK. It was fun!",
@@ -359,7 +359,7 @@
       "doll",
       "have",
       "now",
-      "can"
+      "mia"
      ],
      "suggestion": "Mia, can Nicola have the doll now?",
      "suggestionFa": "میا، الان نیکولا می‌تونه عروسک را برداره؟",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "waiting",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done for waiting, Nicola.",
      "suggestionFa": "آفرین که صبر کردی نیکولا.",

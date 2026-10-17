@@ -24,7 +24,7 @@
       "carrots",
       "potato",
       "roast",
-      "give",
+      "psst",
       "i'll"
      ],
      "suggestion": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -200,7 +200,7 @@
       "carrots",
       "what's",
       "cream",
-      "i'll"
+      "five"
      ],
      "suggestion": "What's for pudding? If it's ice cream, I'll eat five carrots!",
      "suggestionFa": "دسر چیه؟ اگه بستنی باشه، پنج تا هویج می‌خورم!",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -277,8 +277,8 @@
       "champion",
       "biggest",
       "carrots",
-      "please",
-      "carrot"
+      "carrot",
+      "please"
      ],
      "suggestion": "Done! Five carrots! I'm a carrot champion! Can I have the biggest bowl, please?",
      "suggestionFa": "تموم شد! پنج تا هویج! من قهرمان هویجم! می‌تونم بزرگ‌ترین کاسه را بگیرم، لطفاً؟",

@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
+      "pasghetti",
       "breakfast",
       "something",
-      "pasghetti",
       "william",
       "called"
      ],
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -124,11 +124,11 @@
    "branches": [
     {
      "keywords": [
+      "nicola",
       "animal",
       "aminal",
-      "nicola",
       "three",
-      "said"
+      "week"
      ],
      "suggestion": "Last week he said \"aminal\" for animal. Nicola said it too when she was three!",
      "suggestionFa": "هفتهٔ پیش به حیوان گفت «اَمینال». نیکولا هم وقتی سه سالش بود همینو می‌گفت!",
@@ -150,10 +150,10 @@
     {
      "keywords": [
       "called",
+      "shoos",
       "until",
       "shoes",
-      "shoos",
-      "about"
+      "don't"
      ],
      "suggestion": "Ryan called his shoes \"shoo-shoos\" until he was four! Don't tell him I told you. What about you, Mehdi?",
      "suggestionFa": "رایان تا چهار سالگی به کفشاش می‌گفت «شوشو»! بهش نگی بهت گفتم. تو چی {you}؟",
@@ -227,9 +227,9 @@
      "keywords": [
       "properly",
       "before",
-      "let's",
       "write",
-      "right"
+      "right",
+      "let's"
      ],
      "suggestion": "He does! Right, let's write them in his book before he says them properly.",
      "suggestionFa": "می‌دونه! خب، بیا قبل از اینکه درست بگه، تو دفترش بنویسیمشون.",

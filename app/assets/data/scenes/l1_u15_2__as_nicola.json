@@ -22,10 +22,10 @@
     {
      "keywords": [
       "twenty",
-      "let's",
       "count",
-      "play",
-      "seek"
+      "let's",
+      "seek",
+      "hide"
      ],
      "suggestion": "Let's play hide and seek! You count, and I hide. Count to twenty!",
      "suggestionFa": "بیا قایم‌باشک بازی کنیم! تو بشمر، من قایم می‌شم. تا بیست بشمر!",
@@ -48,8 +48,8 @@
      "keywords": [
       "english",
       "ready",
-      "here",
       "come",
+      "here",
       "say"
      ],
      "suggestion": "No, in English! Ready or not, here I come! You say that.",
@@ -94,8 +94,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -229,8 +229,8 @@
       "finding",
       "twenty",
       "count",
-      "good",
-      "i'll"
+      "i'll",
+      "good"
      ],
      "suggestion": "Now you hide! I'm good at finding. I'll count to twenty.",
      "suggestionFa": "حالا تو قایم شو! من تو پیدا کردن خوبم. تا بیست می‌شمرم.",
@@ -251,8 +251,8 @@
    "branches": [
     {
      "keywords": [
-      "nineteen",
       "eighteen",
+      "nineteen",
       "kitchen",
       "twenty",
       "garden"
@@ -279,8 +279,8 @@
       "behind",
       "again",
       "found",
-      "door",
-      "ever"
+      "game",
+      "door"
      ],
      "suggestion": "Found you! You're behind the door! My turn again! This is the best game ever!",
      "suggestionFa": "پیدات کردم! پشت دری! باز نوبت منه! این بهترین بازی دنیاست!",

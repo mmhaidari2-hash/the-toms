@@ -74,8 +74,8 @@
       "liverpool",
       "saturday",
       "posters",
-      "those",
-      "every"
+      "every",
+      "those"
      ],
      "suggestion": "Every Saturday. Those posters on the wall are my team. Liverpool!",
      "suggestionFa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!",
@@ -99,8 +99,8 @@
       "that's",
       "salah",
       "says",
-      "tidy",
-      "need"
+      "need",
+      "yeah"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -124,8 +124,8 @@
       "wardrobe",
       "shirts",
       "drawer",
-      "those",
-      "jeans"
+      "jeans",
+      "those"
      ],
      "suggestion": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
      "suggestionFa": "اون تی‌شرت‌ها می‌رن توی کشو. این شلوار جین‌ها توی کمد.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "books",
-      "shelf",
       "gross",
+      "shelf",
+      "books",
       "week",
       "last"
      ],
@@ -199,8 +199,8 @@
       "legend",
       "cheers",
       "wanna",
-      "play",
-      "mate"
+      "mate",
+      "fifa"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",
      "suggestionFa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟",

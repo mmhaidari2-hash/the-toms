@@ -80,7 +80,7 @@
       "agreement",
       "address",
       "tenancy",
-      "okay"
+      "i've"
      ],
      "suggestion": "I've got a tenancy agreement — is that okay for address?",
      "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
@@ -165,8 +165,8 @@
    "branches": [
     {
      "keywords": [
-      "rather",
       "thanks",
+      "rather",
       "avoid",
       "i'd"
      ],
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "abroad",
-      "money",
       "great",
+      "money",
       "send"
      ],
      "suggestion": "Great. Can I send money abroad too?",
@@ -313,8 +313,8 @@
      "keywords": [
       "perfect",
       "easy",
-      "app",
-      "use"
+      "use",
+      "app"
      ],
      "suggestion": "Perfect. Is the app easy to use?",
      "suggestionFa": "عالیه. کار با اپ آسونه؟",
@@ -325,8 +325,8 @@
     {
      "keywords": [
       "transfers",
-      "long",
       "take",
+      "long",
       "how"
      ],
      "suggestion": "How long do transfers take?",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "thanks",
-      "scams",
-      "those",
-      "about"
+      "heard",
+      "about",
+      "those"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
      "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
@@ -377,8 +377,8 @@
      "keywords": [
       "careful",
       "i'll",
-      "know",
-      "good"
+      "good",
+      "know"
      ],
      "suggestion": "Good to know. I'll be careful.",
      "suggestionFa": "خوب شد گفتید. مراقبم.",
@@ -434,8 +434,8 @@
     {
      "keywords": [
       "where's",
-      "accent",
       "asking",
+      "accent",
       "don't"
      ],
      "suggestion": "Where's your accent from, if you don't mind me asking?",

@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
+      "long",
       "take",
-      "will",
-      "long"
+      "will"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "wait",
       "here",
+      "wait",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "home",
-      "safe"
+      "safe",
+      "home"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
-      "both",
+      "cost",
       "much",
-      "cost"
+      "both"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -247,8 +247,8 @@
      "keywords": [
       "second",
       "could",
-      "quote",
-      "first"
+      "first",
+      "quote"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "let's",
       "today",
+      "let's",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -356,7 +356,7 @@
       "tyres",
       "long",
       "left",
-      "got"
+      "how"
      ],
      "suggestion": "How long have the tyres got left?",
      "suggestionFa": "لاستیک‌ها چقدر عمر دارن؟",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "before",
       "winter",
+      "before",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",

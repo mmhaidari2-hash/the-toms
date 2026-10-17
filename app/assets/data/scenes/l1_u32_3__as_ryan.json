@@ -24,8 +24,8 @@
       "nicola's",
       "sweets",
       "party",
-      "bags",
-      "here"
+      "them",
+      "bags"
      ],
      "suggestion": "Mum sent me for sweets for Nicola's party bags. You pick and mix them here!",
      "suggestionFa": "مامان فرستادم برای کیسه‌های جشن نیکولا آبنبات بخرم. اینجا خودت قاطی می‌کنی!",
@@ -50,7 +50,7 @@
       "choose",
       "sweets",
       "weigh",
-      "bags"
+      "them"
      ],
      "suggestion": "You choose different sweets and they weigh them. We need ten bags.",
      "suggestionFa": "آبنبات‌های مختلف انتخاب می‌کنی و وزنشون می‌کنن. ده تا کیسه لازمیم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -129,10 +129,10 @@
     {
      "keywords": [
       "fizzy",
+      "ones",
+      "they",
       "says",
-      "make",
-      "many",
-      "they"
+      "make"
      ],
      "suggestion": "Not too many fizzy ones. Mum says they make kids go mad.",
      "suggestionFa": "زیاد گازداری نه. مامان میگه بچه‌ها را دیوونه می‌کنه.",
@@ -231,9 +231,9 @@
      "keywords": [
       "perfect",
       "sound",
-      "sixty",
       "grams",
-      "like"
+      "sixty",
+      "each"
      ],
      "suggestion": "Ha, you sound like Mum. It's perfect. Sixty grams each bag.",
      "suggestionFa": "ها، مثل مامان حرف می‌زنی. عالیه. هر کیسه شصت گرم.",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -304,8 +304,8 @@
     {
      "keywords": [
       "surprise",
-      "sorted",
       "nicola",
+      "sorted",
       "snakes",
       "about"
      ],

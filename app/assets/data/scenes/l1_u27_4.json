@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "nice",
       "he's",
+      "nice",
       "oh"
      ],
      "suggestion": "Oh no! He's very nice.",
@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "where",
       "going",
+      "where",
       "he"
      ],
      "suggestion": "Where is he going?",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "shall",
-      "card",
       "take",
+      "card",
       "we"
      ],
      "suggestion": "Shall we take a card?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "nicola",
-      "card",
-      "from"
+      "from",
+      "card"
      ],
      "suggestion": "This card is from Nicola.",
      "suggestionFa": "این کارت از طرف نیکولاست.",
@@ -163,9 +163,9 @@
     {
      "keywords": [
       "that's",
-      "forty",
       "years",
-      "time"
+      "forty",
+      "long"
      ],
      "suggestion": "Forty years! That's a long time.",
      "suggestionFa": "چهل سال! خیلی زیاده.",
@@ -322,8 +322,8 @@
      "keywords": [
       "bailey",
       "touch",
-      "care",
-      "take"
+      "take",
+      "care"
      ],
      "suggestion": "Take care, Mr Bailey! Keep in touch!",
      "suggestionFa": "مراقب خودتون باشید آقای بیلی! در تماس باشیم!",
@@ -334,8 +334,8 @@
     {
      "keywords": [
       "brighton",
-      "good",
-      "luck"
+      "luck",
+      "good"
      ],
      "suggestion": "Good luck in Brighton!",
      "suggestionFa": "تو برایتون موفق باشید!",

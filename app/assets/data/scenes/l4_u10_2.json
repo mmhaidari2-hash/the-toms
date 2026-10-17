@@ -21,8 +21,8 @@
      "keywords": [
       "explain",
       "course",
-      "would",
-      "first"
+      "first",
+      "would"
      ],
      "suggestion": "Of course. What would you like me to explain first?",
      "suggestionFa": "حتماً. اول چی را توضیح بدم؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "uniform",
-      "they're",
       "worried",
-      "happy"
+      "they're",
+      "about"
      ],
      "suggestion": "Happy to help. They're worried about the uniform.",
      "suggestionFa": "با کمال میل. نگران لباس فرمن.",
@@ -69,9 +69,9 @@
    "branches": [
     {
      "keywords": [
-      "parents",
-      "britain",
       "friends",
+      "britain",
+      "parents",
       "normal"
      ],
      "suggestion": "In Britain, it's normal for parents to chat at the gate — it's a good way to make friends.",
@@ -179,8 +179,8 @@
      "keywords": [
       "thrilled",
       "showing",
-      "nicola",
-      "around"
+      "people",
+      "nicola"
      ],
      "suggestion": "Nicola will be thrilled. She loves showing people around.",
      "suggestionFa": "نیکولا خیلی ذوق می‌کنه. عاشق اینه که جاها را به بقیه نشون بده.",
@@ -190,10 +190,10 @@
     },
     {
      "keywords": [
-      "easier",
       "having",
-      "first",
-      "buddy"
+      "easier",
+      "buddy",
+      "first"
      ],
      "suggestion": "Having a buddy will make her first week so much easier.",
      "suggestionFa": "داشتن یه رفیق هفتهٔ اولش را خیلی راحت‌تر می‌کنه.",

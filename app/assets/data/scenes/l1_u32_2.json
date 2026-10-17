@@ -112,8 +112,8 @@
    "branches": [
     {
      "keywords": [
-      "enough",
       "please",
+      "enough",
       "dozen",
       "half"
      ],
@@ -128,7 +128,7 @@
       "twelve",
       "then",
       "eggs",
-      "eat"
+      "lot"
      ],
      "suggestion": "Twelve, then. I eat a lot of eggs.",
      "suggestionFa": "پس دوازده تا. من خیلی تخم‌مرغ می‌خورم.",
@@ -162,8 +162,8 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "breasts",
+      "chicken",
       "please",
       "two"
      ],
@@ -277,8 +277,8 @@
      "keywords": [
       "question",
       "know",
-      "did",
-      "how"
+      "how",
+      "did"
      ],
      "suggestion": "How did you know my question?",
      "suggestionFa": "از کجا سؤالم را فهمیدید؟",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "pieces",
+      "please",
       "small"
      ],
      "suggestion": "Yes, please. Small pieces.",

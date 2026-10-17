@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "roast",
       "ready",
       "we're",
+      "roast",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -277,7 +277,7 @@
       "please",
       "gravy",
       "could",
-      "more"
+      "have"
      ],
      "suggestion": "Could we have some more gravy, please?",
      "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",
@@ -372,10 +372,10 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "custard",
-      "toffee",
-      "sticky"
+      "pudding",
+      "sticky",
+      "toffee"
      ],
      "suggestion": "Go on then, sticky toffee pudding with custard!",
      "suggestionFa": "باشه پس، پودینگ تافی با کاستارد!",

@@ -115,9 +115,9 @@
     {
      "keywords": [
       "bakery",
-      "left",
+      "then",
       "past",
-      "then"
+      "left"
      ],
      "suggestion": "Past the bakery, then left.",
      "suggestionFa": "بعد از نونوایی، بعد چپ.",
@@ -162,9 +162,9 @@
     {
      "keywords": [
       "three",
-      "code",
       "four",
-      "one"
+      "code",
+      "two"
      ],
      "suggestion": "A code? OK, one-two-three-four.",
      "suggestionFa": "رمز؟ باشه، یک-دو-سه-چهار.",
@@ -176,8 +176,8 @@
      "keywords": [
       "changing",
       "there",
-      "baby",
-      "room"
+      "room",
+      "baby"
      ],
      "suggestion": "Is there a baby-changing room too?",
      "suggestionFa": "اتاق تعویض بچه هم هست؟",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "there's",
-      "sink",
       "soap",
+      "sink",
       "by"
      ],
      "suggestion": "Yes, there's soap by the sink.",
@@ -266,8 +266,8 @@
     },
     {
      "keywords": [
-      "dryer",
       "there",
+      "dryer",
       "hand"
      ],
      "suggestion": "Is there a hand dryer?",

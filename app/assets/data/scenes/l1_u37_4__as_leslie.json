@@ -22,10 +22,10 @@
     {
      "keywords": [
       "stopped",
-      "quick",
       "front",
-      "door",
-      "rain"
+      "quick",
+      "rain",
+      "door"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -103,11 +103,11 @@
    "branches": [
     {
      "keywords": [
-      "yellow",
       "orange",
+      "yellow",
       "seven",
       "green",
-      "rest"
+      "blue"
      ],
      "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, Mehdi?",
      "suggestionFa": "هفت تا! قرمز، نارنجی، زرد، سبز، آبی… می‌تونی بقیه را بگی {you}؟",
@@ -187,11 +187,11 @@
    "branches": [
     {
      "keywords": [
-      "shame",
-      "we'll",
-      "moves",
       "never",
-      "when"
+      "shame",
+      "moves",
+      "we'll",
+      "find"
      ],
      "suggestion": "Ha! We'll never find the end. It moves when you move. What a shame!",
      "suggestionFa": "ها! هیچ‌وقت تهش را پیدا نمی‌کنیم. وقتی حرکت می‌کنی، حرکت می‌کنه. حیف!",
@@ -212,8 +212,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -267,7 +267,7 @@
      "keywords": [
       "raining",
       "lovely",
-      "he'll",
+      "daddy",
       "again",
       "photo"
      ],
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "everyone",
+      "typical",
       "british",
       "wellies",
-      "typical",
       "inside"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",

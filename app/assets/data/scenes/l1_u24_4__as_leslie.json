@@ -49,8 +49,8 @@
       "homesick",
       "normal",
       "that's",
-      "home",
-      "miss"
+      "miss",
+      "home"
      ],
      "suggestion": "Homesick. That's normal. You're a long way from home. What do you miss?",
      "suggestionFa": "دلتنگ وطن. طبیعیه. خیلی از خونه دوری. دلت برای چی تنگ شده؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "cooking",
+      "persian",
       "lovely",
-      "about",
-      "teach"
+      "teach",
+      "about"
      ],
      "suggestion": "Lovely. And how about cooking a Persian dish here? You can teach us!",
      "suggestionFa": "عالی. و چطوره اینجا یه غذای ایرانی بپزی؟ می‌تونی به ما یاد بدی!",
@@ -145,10 +145,10 @@
     {
      "keywords": [
       "saturday",
-      "persian",
       "amazing",
+      "persian",
       "sounds",
-      "let's"
+      "there"
      ],
      "suggestion": "It sounds amazing. Let's go to the Persian shop on Saturday. Is there one near here?",
      "suggestionFa": "خیلی عالی به نظر میاد. بیا شنبه بریم مغازهٔ ایرانی. اینجا نزدیک هست؟",
@@ -170,9 +170,9 @@
     {
      "keywords": [
       "perfect",
+      "fresh",
       "let's",
       "helps",
-      "fresh",
       "walk"
      ],
      "suggestion": "Perfect. Now let's go for a walk. Fresh air helps.",
@@ -194,11 +194,11 @@
    "branches": [
     {
      "keywords": [
-      "you've",
       "family",
       "course",
-      "we'll",
-      "cheer"
+      "you've",
+      "cheer",
+      "we'll"
      ],
      "suggestion": "Of course! And we'll get a cake on the way back. Cheer up, love — you've got a family here too.",
      "suggestionFa": "البته! و تو راه برگشت یه کیک می‌گیریم. شاد باش عزیزم — اینجا هم خانواده داری.",

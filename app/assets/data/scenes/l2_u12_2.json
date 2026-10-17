@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "really",
       "thanks",
-      "fine",
-      "well"
+      "really",
+      "well",
+      "fine"
      ],
      "suggestion": "I'm fine, thanks. Well — not really!",
      "suggestionFa": "خوبم ممنون. خب — نه واقعاً!",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
+      "there's",
       "barcode",
       "bananas",
-      "there's",
       "won't"
      ],
      "suggestion": "The bananas won't scan. There's no barcode.",
@@ -133,8 +133,8 @@
     },
     {
      "keywords": [
-      "that's",
       "thanks",
+      "that's",
       "better",
       "much"
      ],
@@ -175,9 +175,9 @@
     {
      "keywords": [
       "approval",
-      "says",
       "need",
-      "got"
+      "says",
+      "now"
      ],
      "suggestion": "Got it. Now it says I need approval.",
      "suggestionFa": "فهمیدم. حالا می‌گه تأیید لازم دارم.",
@@ -187,9 +187,9 @@
     },
     {
      "keywords": [
-      "when",
       "easy",
       "know",
+      "when",
       "how"
      ],
      "suggestion": "Easy when you know how!",
@@ -239,8 +239,8 @@
      "keywords": [
       "everything",
       "thanks",
-      "there",
-      "limit"
+      "limit",
+      "there"
      ],
      "suggestion": "Thanks. Is there a limit on everything?",
      "suggestionFa": "ممنون. همه چیز محدودیت داره؟",
@@ -274,8 +274,8 @@
    "branches": [
     {
      "keywords": [
-      "get",
       "how",
+      "get",
       "one"
      ],
      "suggestion": "No. How do I get one?",
@@ -391,8 +391,8 @@
     {
      "keywords": [
       "please",
-      "them",
-      "keep"
+      "keep",
+      "them"
      ],
      "suggestion": "Yes please, I keep them.",
      "suggestionFa": "آره لطفاً، نگهشون می‌دارم.",

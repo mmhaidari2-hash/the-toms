@@ -23,8 +23,8 @@
      "keywords": [
       "cupboard",
       "scones",
-      "let's",
       "flour",
+      "let's",
       "dear"
      ],
      "suggestion": "Let's make scones, dear. Can you get the flour? It's in the cupboard.",
@@ -49,8 +49,8 @@
       "fridge",
       "butter",
       "sugar",
-      "need",
-      "milk"
+      "milk",
+      "need"
      ],
      "suggestion": "The one by the fridge. Now we need butter, sugar and milk.",
      "suggestionFa": "همونی که کنار یخچاله. حالا کره، شکر و شیر لازم داریم.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "lovely",
+      "please",
       "spoon",
       "bowl",
-      "now"
+      "big"
      ],
      "suggestion": "Lovely. Now, a bowl and a big spoon, please.",
      "suggestionFa": "عالی. حالا یه کاسه و یه قاشق بزرگ، لطفاً.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "careful",
+      "minutes",
       "fifteen",
-      "eight",
-      "think"
+      "think",
+      "eight"
      ],
      "suggestion": "Eight, I think. Into the oven for fifteen minutes. Careful, it's very hot.",
      "suggestionFa": "فکر کنم هشت‌تا. پونزده دقیقه توی فر. مواظب باش، خیلی داغه.",
@@ -174,7 +174,7 @@
       "golden",
       "ready",
       "smell",
-      "warm"
+      "them"
      ],
      "suggestion": "Mmm, can you smell them? They're ready! Golden and warm.",
      "suggestionFa": "ممم، بوشون را حس می‌کنی؟ آماده‌اند! طلایی و گرم.",
