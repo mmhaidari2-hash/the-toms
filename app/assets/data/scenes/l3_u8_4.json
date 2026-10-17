@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "look",
       "have",
+      "look",
       "let"
      ],
      "suggestion": "Let me have a look at it.",
@@ -126,9 +126,9 @@
     {
      "keywords": [
       "washer",
-      "shop",
       "from",
-      "i'll"
+      "i'll",
+      "shop"
      ],
      "suggestion": "I'll ask Tom to buy a washer from the DIY shop.",
      "suggestionFa": "به تام می‌گم از فروشگاه ابزار یه واشر بخره.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "check",
-      "toy",
       "her",
-      "box"
+      "box",
+      "toy"
      ],
      "suggestion": "Ha! I'll check her toy box.",
      "suggestionFa": "ها! جعبهٔ اسباب‌بازیش را نگاه می‌کنم.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "spare",
-      "case",
       "just",
+      "case",
       "one"
      ],
      "suggestion": "I'll buy a spare one, just in case.",

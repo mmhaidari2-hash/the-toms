@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "outside",
+      "weather",
       "what's",
       "today",
       "like"
@@ -99,8 +99,8 @@
       "october",
       "degrees",
       "that's",
-      "trust",
-      "eight"
+      "eight",
+      "trust"
      ],
      "suggestion": "Trust me, you do! It's only eight degrees. That's cold for October.",
      "suggestionFa": "به من اعتماد کن، لازم داری! فقط هشت درجه‌ست. برای اکتبر سرده.",
@@ -125,7 +125,7 @@
       "march",
       "lucky",
       "like",
-      "here"
+      "rain"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
      "suggestionFa": "خوش به حالت! اینجا از اکتبر تا مارس خیسه. بارون دوست داری؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "wellies",
-      "heavy",
       "means",
-      "rain",
-      "stay"
+      "heavy",
+      "wear",
+      "rain"
      ],
      "suggestion": "It means very heavy rain. Stay dry! And wear your wellies!",
      "suggestionFa": "یعنی بارون خیلی شدید. خشک بمونی! و چکمه‌های لاستیکیت را بپوش!",

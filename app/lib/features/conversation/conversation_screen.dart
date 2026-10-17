@@ -518,11 +518,9 @@ class _ChatState extends ConsumerState<_Chat> {
   @override
   Widget build(BuildContext context) {
     final p = ref.watch(progressProvider);
-    final baseId = widget.s.baseId ?? widget.s.id;
-    final direct = widget.c.hostOf(widget.s.id);
-    final moment = widget.c.moments.where((m) => m.sceneId == baseId).firstOrNull?.cover;
-    final host = direct ?? (moment == null ? widget.c.paintingOf(widget.s.id) : null);
-    final cover = direct?.image ?? moment ?? host?.image;
+    final cv = widget.c.coverOf(widget.s.id);
+    final host = cv.host;
+    final cover = cv.image;
     final pad = MediaQuery.paddingOf(context);
     final h = MediaQuery.sizeOf(context).height;
     final trust = GrowthEngine.softTrust(p.trustMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);

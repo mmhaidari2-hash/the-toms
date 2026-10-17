@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "like",
       "send",
+      "like",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
-      "problem",
-      "there's",
       "perfume",
+      "there's",
+      "problem",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
+      "much",
       "cost",
       "will",
-      "much",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "price",
-      "heavy"
+      "heavy",
+      "price"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -323,10 +323,10 @@
     },
     {
      "keywords": [
-      "first",
       "could",
-      "help",
-      "time"
+      "first",
+      "time",
+      "help"
      ],
      "suggestion": "Could you help me with it? It's my first time.",
      "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
@@ -371,8 +371,8 @@
     },
     {
      "keywords": [
-      "else",
       "need",
+      "else",
       "done"
      ],
      "suggestion": "Done. What else do you need?",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "please",
-      "number"
+      "number",
+      "please"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",

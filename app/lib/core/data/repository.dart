@@ -53,6 +53,18 @@ class ContentBundle {
         withImg.where((p) => p.hotspots.any((h) => h.characterId == base?.characterId)).firstOrNull ??
         withImg.firstOrNull;
   }
+  /// The painting a story opens on. `generic` is true only when nothing specific matched (last-resort painting).
+  ({String? image, Place? host, bool generic}) coverOf(String sceneId) {
+    final baseId = scenes[sceneId]?.baseId ?? sceneId.split('__').first;
+    final direct = hostOf(sceneId);
+    if (direct?.image != null) return (image: direct!.image, host: direct, generic: false);
+    final moment = moments.where((m) => m.sceneId == baseId).firstOrNull?.cover;
+    if (moment != null) return (image: moment, host: direct, generic: false);
+    final p = paintingOf(sceneId);
+    final s = scenes[sceneId]; final base = scenes[baseId] ?? s;
+    final specific = p != null && (p.id == (base?.placeHint ?? s?.placeHint) || p.hotspots.any((h) => h.characterId == base?.characterId));
+    return (image: p?.image, host: p, generic: !specific);
+  }
   Iterable<Place> get places => tiers.expand((t) => t.places);
   Place? place(String id) => places.where((p) => p.id == id).firstOrNull;
   int tierIndexOfScene(String sceneId) => tiers.indexWhere((t) => t.sceneIds.contains(sceneId));
@@ -74,13 +86,9 @@ class ContentRepository {
 
   Future<ContentBundle> load() async {
     final chars = [for (final c in await _json('assets/data/characters.json')) Character.fromJson(c)];
-    final ids = List<String>.from(await _json('assets/data/scenes_index.json'));
-    final scenes = <String, Scene>{};
-    // Parallel: ~150 small files (incl. role variants) must not load one-by-one on iPhone.
-    final loaded = await Future.wait([for (final id in ids) _json('assets/data/scenes/$id.json')]);
-    for (final (i, id) in ids.indexed) {
-      scenes[id] = Scene.fromJson(loaded[i]);
-    }
+    // One bundle (tool/bundle_scenes.py): ~2000 scenes incl. role variants must not be ~2000 requests on iPhone.
+    final bundle = await _json('assets/data/scenes_bundle.json') as Map<String, dynamic>;
+    final scenes = <String, Scene>{for (final e in bundle.entries) e.key: Scene.fromJson(e.value)};
     final ms = <String, List<Milestone>>{};
     for (final id in List<String>.from(await _json('assets/data/growth_index.json'))) {
       final g = await _json('assets/data/${id}_growth.json');

@@ -21,8 +21,8 @@
      "keywords": [
       "friendly",
       "course",
-      "let's",
-      "first"
+      "first",
+      "let's"
      ],
      "suggestion": "Of course. Let's keep it friendly at first.",
      "suggestionFa": "حتماً. اولش دوستانه نگهش داریم.",
@@ -76,7 +76,7 @@
       "number",
       "minute",
       "we're",
-      "have"
+      "from"
      ],
      "suggestion": "Hi, we're from number 12. Have you got a minute?",
      "suggestionFa": "سلام، ما از پلاک ۱۲ هستیم. یه دقیقه وقت دارید؟",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "morning",
-      "three",
       "until",
+      "three",
       "went"
      ],
      "suggestion": "Yes. It went on until three this morning.",
@@ -139,7 +139,7 @@
       "friendly",
       "hoping",
       "word",
-      "were"
+      "have"
      ],
      "suggestion": "We were hoping to have a friendly word.",
      "suggestionFa": "امیدوار بودیم یه صحبت دوستانه بکنیم.",
@@ -175,8 +175,8 @@
      "keywords": [
       "polite",
       "leave",
-      "could",
-      "maybe"
+      "maybe",
+      "could"
      ],
      "suggestion": "Maybe we could leave a polite note.",
      "suggestionFa": "شاید بتونیم یه یادداشت مؤدبانه بذاریم.",
@@ -188,8 +188,8 @@
      "keywords": [
       "realise",
       "perhaps",
-      "walls",
-      "don't"
+      "don't",
+      "walls"
      ],
      "suggestion": "Perhaps they don't realise how thin the walls are.",
      "suggestionFa": "شاید نمی‌دونن دیوارها چقدر نازکن.",
@@ -227,9 +227,9 @@
    "branches": [
     {
      "keywords": [
+      "through",
       "carries",
       "realise",
-      "through",
       "didn't"
      ],
      "suggestion": "We're sure you didn't realise, but the music carries through the walls at night.",
@@ -243,7 +243,7 @@
       "children",
       "waking",
       "bother",
-      "we've"
+      "young"
      ],
      "suggestion": "Sorry to bother you. We've got young children, and the late music is waking them.",
      "suggestionFa": "ببخشید مزاحم شدیم. بچهٔ کوچیک داریم، و آهنگ دیروقت بیدارشون می‌کنه.",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "weeknights",
-      "agree",
       "could",
+      "agree",
       "music"
      ],
      "suggestion": "Could we agree on music off by eleven on weeknights?",
@@ -299,8 +299,8 @@
      "keywords": [
       "headphones",
       "possible",
-      "after",
-      "would"
+      "would",
+      "after"
      ],
      "suggestion": "Would headphones after eleven be possible?",
      "suggestionFa": "امکانش هست بعد از یازده هدفون بزنن؟",
@@ -385,8 +385,8 @@
     {
      "keywords": [
       "exchange",
-      "numbers",
       "happens",
+      "numbers",
       "shall"
      ],
      "suggestion": "Shall we exchange numbers, in case it happens again?",

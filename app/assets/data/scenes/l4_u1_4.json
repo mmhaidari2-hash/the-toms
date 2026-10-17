@@ -20,8 +20,8 @@
     {
      "keywords": [
       "shouldn't",
-      "minute",
       "report",
+      "minute",
       "until"
      ],
      "suggestion": "I know. I shouldn't have left the report until the last minute.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "don't",
-      "want",
       "like",
+      "want",
       "end"
      ],
      "suggestion": "I don't want to end up like that.",
@@ -122,10 +122,10 @@
    "branches": [
     {
      "keywords": [
-      "holiday",
       "usually",
-      "didn't",
-      "people"
+      "holiday",
+      "people",
+      "didn't"
      ],
      "suggestion": "I didn't know that. How many days' holiday do people usually get?",
      "suggestionFa": "نمی‌دونستم. مردم معمولاً چند روز مرخصی دارن؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "manager",
       "earlier",
+      "manager",
       "should",
-      "asked"
+      "maybe"
      ],
      "suggestion": "Maybe I should have asked my manager for help earlier.",
      "suggestionFa": "شاید باید زودتر از مدیرم کمک می‌خواستم.",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "month",
-      "book",
+      "days",
       "next",
-      "days"
+      "book"
      ],
      "suggestion": "I'll book a few days off next month.",
      "suggestionFa": "ماه بعد چند روز مرخصی می‌گیرم.",

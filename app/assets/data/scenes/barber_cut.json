@@ -33,8 +33,8 @@
      "keywords": [
       "little",
       "just",
-      "top",
-      "bit"
+      "bit",
+      "off"
      ],
      "suggestion": "Just a little bit off the top, please.",
      "suggestionFa": "فقط یه کم از بالا، لطفاً.",
@@ -113,8 +113,8 @@
      "keywords": [
       "started",
       "busy",
-      "new",
-      "job"
+      "job",
+      "new"
      ],
      "suggestion": "Yes, very busy. I started a new job.",
      "suggestionFa": "آره، خیلی شلوغ. یه کار جدید شروع کردم.",
@@ -170,8 +170,8 @@
     },
     {
      "keywords": [
-      "fringe",
       "thanks",
+      "fringe",
       "leave"
      ],
      "suggestion": "No, leave the fringe, thanks.",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "please",
-      "trim",
-      "just"
+      "just",
+      "trim"
      ],
      "suggestion": "Yes please, just a trim.",
      "suggestionFa": "آره لطفاً، فقط یه کم مرتب.",

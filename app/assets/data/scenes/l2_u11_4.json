@@ -68,9 +68,9 @@
     {
      "keywords": [
       "nearly",
-      "e",
+      "c",
       "s",
-      "c"
+      "e"
      ],
      "suggestion": "Nearly! It's B-E-C-A-U-S-E.",
      "suggestionFa": "تقریباً! بی-ای-سی-ای-یو-اس-ای.",
@@ -119,8 +119,8 @@
    "branches": [
     {
      "keywords": [
-      "because",
       "letters",
+      "because",
       "clever",
       "that's"
      ],
@@ -176,10 +176,10 @@
    "branches": [
     {
      "keywords": [
-      "f",
-      "d",
       "r",
-      "n"
+      "n",
+      "d",
+      "f"
      ],
      "suggestion": "Yes. F-R-I-E-N-D.",
      "suggestionFa": "آره. اف-آر-آی-ای-ان-دی.",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "fingers",
-      "can",
-      "use"
+      "use",
+      "can"
      ],
      "suggestion": "Yes, you can use your fingers.",
      "suggestionFa": "آره، می‌تونی از انگشتات استفاده کنی.",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "start",
-      "count",
       "seven",
+      "count",
       "five"
      ],
      "suggestion": "Start at seven and count up five.",
@@ -332,9 +332,9 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "that's",
       "lovely",
+      "nicola",
       "aw"
      ],
      "suggestion": "Aw, that's lovely, Nicola.",
@@ -347,8 +347,8 @@
      "keywords": [
       "forget",
       "don't",
-      "stop",
-      "full"
+      "full",
+      "stop"
      ],
      "suggestion": "Don't forget the full stop!",
      "suggestionFa": "نقطهٔ آخر را فراموش نکن!",
@@ -382,8 +382,8 @@
    "branches": [
     {
      "keywords": [
-      "done",
       "well",
+      "done",
       "ask",
       "mum"
      ],

@@ -23,9 +23,9 @@
      "keywords": [
       "everyone",
       "minutes",
-      "shoes",
+      "coats",
       "leave",
-      "right"
+      "shoes"
      ],
      "suggestion": "Right, everyone! Shoes on! Coats on! We leave in five minutes!",
      "suggestionFa": "خب همه! کفش‌ها پا! کت‌ها تن! پنج دقیقه دیگه راه می‌افتیم!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "please",
+      "nicola",
       "help",
       "coat",
       "cold"
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -242,10 +242,10 @@
     {
      "keywords": [
       "behind",
+      "check",
       "let's",
       "close",
-      "check",
-      "bags"
+      "door"
      ],
      "suggestion": "Phew. OK — bags? Check. Keys? Check. Let's go! Close the door behind you!",
      "suggestionFa": "آخیش. خب — کیف‌ها؟ هست. کلیدها؟ هست. بریم! در را پشت سرت ببند!",

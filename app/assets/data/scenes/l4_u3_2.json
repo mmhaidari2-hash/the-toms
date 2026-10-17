@@ -20,8 +20,8 @@
     {
      "keywords": [
       "spreadsheets",
-      "great",
       "tom's",
+      "great",
       "need"
      ],
      "suggestion": "Tom's great with spreadsheets. What do you need?",
@@ -76,7 +76,7 @@
       "advance",
       "apply",
       "have",
-      "how"
+      "far"
      ],
      "suggestion": "How far in advance do you have to apply?",
      "suggestionFa": "چقدر زودتر باید درخواست داد؟",
@@ -88,8 +88,8 @@
      "keywords": [
       "tonight",
       "online",
-      "fill",
-      "form"
+      "form",
+      "fill"
      ],
      "suggestion": "I can fill in the form online tonight.",
      "suggestionFa": "امشب می‌تونم فرم را آنلاین پر کنم.",
@@ -127,10 +127,10 @@
    "branches": [
     {
      "keywords": [
+      "people",
       "shared",
       "dishes",
-      "people",
-      "make"
+      "sign"
      ],
      "suggestion": "I'll make a shared list so people can sign up for dishes.",
      "suggestionFa": "یه لیست مشترک درست می‌کنم تا مردم برای غذاها ثبت‌نام کنن.",
@@ -142,8 +142,8 @@
      "keywords": [
       "something",
       "quiche",
-      "isn't",
-      "bring"
+      "bring",
+      "isn't"
      ],
      "suggestion": "Ha! I'll bring something that isn't a quiche.",
      "suggestionFa": "ها! یه چیزی میارم که کیش نباشه.",
@@ -186,9 +186,9 @@
     {
      "keywords": [
       "chairs",
-      "could",
+      "shade",
       "their",
-      "front"
+      "could"
      ],
      "suggestion": "We could put chairs in the shade near their front doors.",
      "suggestionFa": "می‌تونیم صندلی‌ها را تو سایه نزدیک درهاشون بذاریم.",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "painful",
-      "rash",
-      "i've",
-      "side"
+      "days",
+      "side",
+      "rash"
      ],
      "suggestion": "I've had a painful rash on my side for two days.",
      "suggestionFa": "دو روزه یه جوش دردناک رو پهلوم دارم.",
@@ -35,7 +35,7 @@
       "really",
       "itchy",
       "eyes",
-      "been"
+      "have"
      ],
      "suggestion": "My eyes have been really itchy and red.",
      "suggestionFa": "چشم‌هام خیلی خارش دارن و قرمزن.",
@@ -132,8 +132,8 @@
      "keywords": [
       "pharmacy",
       "that's",
-      "great",
-      "first"
+      "first",
+      "great"
      ],
      "suggestion": "That's great. What is Pharmacy First?",
      "suggestionFa": "عالیه. «اول داروخانه» چیه؟",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "usually",
-      "last",
       "long",
+      "last",
       "how"
      ],
      "suggestion": "How long does it usually last?",
@@ -202,8 +202,8 @@
     {
      "keywords": [
       "contagious",
-      "live",
-      "baby"
+      "baby",
+      "live"
      ],
      "suggestion": "Is it contagious? I live with a baby.",
      "suggestionFa": "مسریه؟ با یه نوزاد زندگی می‌کنم.",

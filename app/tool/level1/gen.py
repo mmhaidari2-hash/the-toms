@@ -79,4 +79,4 @@ json.dump(course,open(os.path.join(A,'course.json'),'w'),ensure_ascii=False,inde
 W={w['word'].lower() for u in course['units'] for l in u['lessons'] for w in l['words']}
 print(len(course['units']),'units',sum(len(u['lessons']) for u in course['units']),'lessons',len(W),'words',sum(l['turns'] for u in course['units'] for l in u['lessons']),'turns')
 # role-switch variants must be rebuilt whenever scenes change
-import subprocess; subprocess.run([sys.executable, os.path.join(H,'..','explore','build.py')], check=True); subprocess.run([sys.executable, os.path.join(H,'..','make_roles.py')], check=True)
+import subprocess; subprocess.run([sys.executable, os.path.join(H,'..','explore','build.py')], check=True); subprocess.run([sys.executable, os.path.join(H,'..','make_roles.py')], check=True); subprocess.run([sys.executable, os.path.join(H,'..','bundle_scenes.py')], check=True)

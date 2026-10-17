@@ -87,8 +87,8 @@
     {
      "keywords": [
       "person",
-      "knows",
       "tom's",
+      "knows",
       "sure"
      ],
      "suggestion": "I'm not sure. Tom's the person who knows.",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "roughly",
-      "cost",
       "much",
-      "will"
+      "will",
+      "cost"
      ],
      "suggestion": "How much will it cost, roughly?",
      "suggestionFa": "تقریباً چقدر میشه؟",

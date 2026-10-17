@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "half",
-      "past"
+      "past",
+      "half"
      ],
      "suggestion": "It's half past seven.",
      "suggestionFa": "ساعت هفت و نیمه.",
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "station",
-      "close",
+      "worry",
       "don't",
-      "worry"
+      "close"
      ],
      "suggestion": "Don't worry, the station is close.",
      "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "quarter",
-      "four",
-      "past"
+      "past",
+      "four"
      ],
      "suggestion": "At quarter past four.",
      "suggestionFa": "چهار و ربع.",
@@ -278,8 +278,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "have",
+      "good",
       "day",
       "bye"
      ],
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "later",
-      "tom",
-      "see"
+      "see",
+      "tom"
      ],
      "suggestion": "See you later, Tom!",
      "suggestionFa": "بعداً می‌بینمت، تام!",

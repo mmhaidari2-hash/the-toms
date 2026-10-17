@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "home",
-      "help",
       "i'll",
-      "week"
+      "home",
+      "week",
+      "help"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",
@@ -174,7 +174,7 @@
       "volcano",
       "erupted",
       "model",
-      "has"
+      "yet"
      ],
      "suggestion": "A volcano model! Has it erupted yet?",
      "suggestionFa": "ماکت آتشفشان! تا حالا فوران کرده؟",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "sounds",
-      "ryan",
-      "like"
+      "like",
+      "ryan"
      ],
      "suggestion": "That sounds like Ryan!",
      "suggestionFa": "این خیلی رایانیه!",
@@ -287,8 +287,8 @@
     {
      "keywords": [
       "pleased",
-      "really",
       "she'll",
+      "really",
       "will"
      ],
      "suggestion": "I will. She'll be really pleased.",

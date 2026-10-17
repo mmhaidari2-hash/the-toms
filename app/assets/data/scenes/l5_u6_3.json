@@ -21,8 +21,8 @@
      "keywords": [
       "certainly",
       "criteria",
-      "against",
-      "suggest"
+      "suggest",
+      "against"
      ],
      "suggestion": "Certainly. I'd suggest we score each answer against the job criteria.",
      "suggestionFa": "حتماً. پیشنهاد می‌کنم هر جواب را بر اساس معیارهای شغل امتیاز بدیم.",
@@ -79,7 +79,7 @@
      "keywords": [
       "nevertheless",
       "understood",
-      "doesn't",
+      "careful",
       "culture"
      ],
      "suggestion": "Understood. Nevertheless, we should be careful that \"culture fit\" doesn't become bias.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "impressions",
-      "specific",
       "examples",
+      "specific",
       "general"
      ],
      "suggestion": "I'll focus on specific examples rather than general impressions.",
@@ -142,7 +142,7 @@
       "themselves",
       "candidates",
       "brilliant",
-      "present"
+      "british"
      ],
      "suggestion": "It does. Some brilliant candidates don't present themselves in a \"British\" way.",
      "suggestionFa": "آره. بعضی داوطلب‌های فوق‌العاده خودشون را به سبک «بریتانیایی» معرفی نمی‌کنن.",
@@ -154,8 +154,8 @@
      "keywords": [
       "directness",
       "interview",
-      "misread",
-      "modesty"
+      "modesty",
+      "misread"
      ],
      "suggestion": "Indeed. Modesty or directness can easily be misread in an interview.",
      "suggestionFa": "در واقع. فروتنی یا رک‌گویی به‌راحتی تو مصاحبه اشتباه برداشت میشه.",
@@ -201,10 +201,10 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "begin",
-      "feels",
-      "first"
+      "let's",
+      "first",
+      "feels"
      ],
      "suggestion": "Yes, let's begin. I'll make sure she feels at ease first.",
      "suggestionFa": "آره، شروع کنیم. اول مطمئن می‌شم راحت باشه.",
@@ -216,8 +216,8 @@
      "keywords": [
       "certainly",
       "water",
-      "shall",
-      "offer"
+      "offer",
+      "shall"
      ],
      "suggestion": "Certainly. Shall I offer her some water?",
      "suggestionFa": "حتماً. بهش آب تعارف کنم؟",

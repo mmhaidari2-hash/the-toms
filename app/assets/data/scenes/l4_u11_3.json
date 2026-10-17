@@ -20,8 +20,8 @@
     {
      "keywords": [
       "learning",
-      "family",
       "friend",
+      "family",
       "about"
      ],
      "suggestion": "Hi, I'm a friend of the family. I'm learning about cars!",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
+      "long",
       "will",
-      "take",
-      "long"
+      "take"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "sounds",
-      "much",
       "good",
+      "much",
       "how"
      ],
      "suggestion": "Sounds good. How much is it?",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "safe",
-      "home"
+      "home",
+      "safe"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
-      "cost",
       "much",
-      "both"
+      "both",
+      "cost"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -246,9 +246,9 @@
     {
      "keywords": [
       "second",
-      "could",
+      "quote",
       "first",
-      "quote"
+      "could"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "today",
       "let's",
+      "today",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "ahead",
-      "good",
       "news",
+      "good",
       "was"
      ],
      "suggestion": "OK, go ahead. What was the good news?",
@@ -343,7 +343,7 @@
       "advisory",
       "those",
       "mean",
-      "fix"
+      "now"
      ],
      "suggestion": "What does \"advisory\" mean? Do we have to fix those now?",
      "suggestionFa": "«توصیه» یعنی چی؟ باید الان تعمیرشون کنیم؟",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "tyres",
-      "left",
       "long",
+      "left",
       "got"
      ],
      "suggestion": "How long have the tyres got left?",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "winter",
       "before",
+      "winter",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -416,9 +416,9 @@
     {
      "keywords": [
       "garages",
-      "honest",
       "upsell",
-      "thanks"
+      "thanks",
+      "honest"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

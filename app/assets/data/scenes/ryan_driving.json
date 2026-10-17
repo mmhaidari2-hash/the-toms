@@ -23,8 +23,8 @@
     {
      "keywords": [
       "mirrors",
-      "signal",
       "before",
+      "signal",
       "check"
      ],
      "suggestion": "Ryan, check your mirrors and signal before you pull out.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "first",
-      "belt",
-      "seat"
+      "seat",
+      "belt"
      ],
      "suggestion": "Seat belt first, Ryan!",
      "suggestionFa": "اول کمربند، رایان!",
@@ -92,10 +92,10 @@
     },
     {
      "keywords": [
-      "clutch",
       "slowly",
-      "bring",
-      "great"
+      "clutch",
+      "doing",
+      "bring"
      ],
      "suggestion": "You're doing great. Just bring the clutch up slowly.",
      "suggestionFa": "خوب داری پیش میری. فقط کلاچ را آروم ول کن.",
@@ -134,9 +134,9 @@
     {
      "keywords": [
       "right",
-      "side",
       "hand",
-      "road"
+      "road",
+      "side"
      ],
      "suggestion": "Yes, but on the right-hand side of the road!",
      "suggestionFa": "آره، ولی سمت راست جاده!",
@@ -232,8 +232,8 @@
      "keywords": [
       "parallel",
       "parking",
-      "good",
-      "ryan"
+      "ryan",
+      "luck"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
      "suggestionFa": "پارک دوبل؟ موفق باشی رایان!",
@@ -245,8 +245,8 @@
      "keywords": [
       "there's",
       "slowly",
-      "take",
-      "rush"
+      "rush",
+      "take"
      ],
      "suggestion": "Take it slowly, there's no rush.",
      "suggestionFa": "آروم انجامش بده، عجله‌ای نیست.",
@@ -283,8 +283,8 @@
      "keywords": [
       "lesson",
       "first",
-      "bad",
-      "all"
+      "all",
+      "bad"
      ],
      "suggestion": "Not bad at all for a first lesson!",
      "suggestionFa": "برای جلسهٔ اول اصلاً بد نیست!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "theory",
-      "needs",
       "first",
+      "needs",
       "pass"
      ],
      "suggestion": "He needs to pass the theory test first.",
@@ -395,10 +395,10 @@
     },
     {
      "keywords": [
+      "well",
+      "ryan",
       "week",
-      "same",
-      "next",
-      "done"
+      "next"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

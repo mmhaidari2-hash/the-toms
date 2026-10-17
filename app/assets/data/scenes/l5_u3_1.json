@@ -20,9 +20,9 @@
     {
      "keywords": [
       "nothing",
-      "cakes",
       "means",
-      "right"
+      "right",
+      "cakes"
      ],
      "suggestion": "\"Nowt\" means \"nothing\", right? I'll take the barm cakes.",
      "suggestionFa": "«نوت» یعنی «هیچی»، درسته؟ نون‌های بارم را برمی‌دارم.",
@@ -34,7 +34,7 @@
      "keywords": [
       "shakespeare",
       "haven't",
-      "class",
+      "since",
       "heard"
      ],
      "suggestion": "Thee? I haven't heard that since my Shakespeare class!",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "summat",
-      "sweet",
       "maybe",
-      "our"
+      "sweet",
+      "kid"
      ],
      "suggestion": "Summat sweet for our kid, maybe?",
      "suggestionFa": "شاید یه چیز شیرین برای داداشم؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "that's",
-      "kind",
       "much",
+      "kind",
       "dead"
      ],
      "suggestion": "Ta very much! That's dead kind of you.",
@@ -148,8 +148,8 @@
     },
     {
      "keywords": [
-      "you've",
       "cheers",
+      "you've",
       "love",
       "made"
      ],

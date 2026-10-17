@@ -126,9 +126,9 @@
     {
      "keywords": [
       "beeping",
+      "keeps",
       "won't",
-      "drain",
-      "keeps"
+      "drain"
      ],
      "suggestion": "It won't drain, and it keeps beeping.",
      "suggestionFa": "آب را خالی نمی‌کنه، و مدام بوق می‌زنه.",
@@ -186,8 +186,8 @@
    "branches": [
     {
      "keywords": [
-      "eight",
       "about",
+      "eight",
       "years"
      ],
      "suggestion": "About eight years old.",
@@ -302,8 +302,8 @@
      "keywords": [
       "there's",
       "fluff",
-      "hair",
-      "clip"
+      "clip",
+      "hair"
      ],
      "suggestion": "There's a hair clip and a lot of fluff.",
      "suggestionFa": "یه گیرهٔ مو و کلی پرز هست.",
@@ -343,8 +343,8 @@
      "keywords": [
       "thank",
       "much",
-      "owe",
-      "how"
+      "how",
+      "owe"
      ],
      "suggestion": "Thank you. How much do we owe you?",
      "suggestionFa": "ممنون. چقدر بدهکاریم؟",
@@ -394,9 +394,9 @@
    "branches": [
     {
      "keywords": [
-      "really",
-      "that's",
       "cheers",
+      "that's",
+      "really",
       "kind"
      ],
      "suggestion": "Cheers, Gaz! That's really kind.",

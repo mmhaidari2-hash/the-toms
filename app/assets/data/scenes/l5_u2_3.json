@@ -75,7 +75,7 @@
      "keywords": [
       "pence",
       "ryan",
-      "coin",
+      "five",
       "size"
      ],
      "suggestion": "It was the size of a five-pence coin, Ryan.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "everyone",
-      "course",
       "that's",
+      "course",
       "manly"
      ],
      "suggestion": "A manly shout. Of course. That's what I'll tell everyone.",
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "nicola",
-      "let's",
-      "truce"
+      "before",
+      "truce",
+      "let's"
      ],
      "suggestion": "Fair. Let's call a truce before Nicola joins in.",
      "suggestionFa": "منصفانه. بیا قبل از اینکه نیکولا هم اضافه بشه آتش‌بس کنیم.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "anyone",
-      "scare",
       "alarm",
+      "scare",
       "would"
      ],
      "suggestion": "That alarm would scare anyone! It's not the same thing at all.",
@@ -198,8 +198,8 @@
     },
     {
      "keywords": [
-      "really",
       "that's",
+      "really",
       "ryan",
       "low"
      ],

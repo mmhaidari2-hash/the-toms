@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "open",
       "here",
+      "open",
       "go"
      ],
      "suggestion": "Here you go — go on, open it!",
@@ -123,8 +123,8 @@
      "keywords": [
       "having",
       "hello",
-      "mia",
-      "fun"
+      "fun",
+      "mia"
      ],
      "suggestion": "Hello, Mia! Are you having fun?",
      "suggestionFa": "سلام میا! خوش می‌گذره؟",
@@ -217,9 +217,9 @@
    "branches": [
     {
      "keywords": [
-      "have",
-      "love",
       "pink",
+      "love",
+      "have",
       "can"
      ],
      "suggestion": "I love fairy cakes! Can I have a pink one?",
@@ -275,9 +275,9 @@
     },
     {
      "keywords": [
-      "mummy",
       "baker",
-      "great"
+      "great",
+      "mummy"
      ],
      "suggestion": "Your mummy is a great baker.",
      "suggestionFa": "مامانت شیرینی‌پز خیلی خوبیه.",
@@ -329,8 +329,8 @@
      "keywords": [
       "forget",
       "don't",
-      "make",
-      "wish"
+      "wish",
+      "make"
      ],
      "suggestion": "Don't forget to make a wish!",
      "suggestionFa": "یادت نره آرزو کنی!",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "music",
       "going",
-      "okay",
-      "keep"
+      "music",
+      "keep",
+      "okay"
      ],
      "suggestion": "Okay, I'll keep the music going.",
      "suggestionFa": "باشه، من آهنگ را ادامه می‌دم.",

@@ -25,7 +25,7 @@
       "dragon",
       "story",
       "about",
-      "real"
+      "want"
      ],
      "suggestion": "I want to tell a story too! It's about a dragon. But it's a real one. Probably.",
      "suggestionFa": "من هم می‌خوام قصه بگم! دربارهٔ یه اژدهاست. ولی واقعیه. احتمالاً.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "because",
-      "behind",
       "nobody",
+      "behind",
       "garden",
       "green"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "story",
       "like",
+      "have",
       "best",
-      "ever",
-      "have"
+      "ever"
      ],
      "suggestion": "The end! Did you like it? Was it the best story ever? You have to say yes.",
      "suggestionFa": "پایان! خوشت اومد؟ بهترین قصهٔ دنیا بود؟ باید بگی آره.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "minister",
       "dinosaur",
+      "minister",
       "became",
-      "about",
-      "prime"
+      "prime",
+      "about"
      ],
      "suggestion": "Yay! Next time I'll tell the one about the dinosaur who became Prime Minister!",
      "suggestionFa": "آخ جون! دفعهٔ بعد قصهٔ دایناسوری را می‌گم که نخست‌وزیر شد!",

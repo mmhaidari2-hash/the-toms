@@ -79,6 +79,10 @@ async def one(k,sp,t,sem):
 async def main():
   sem=asyncio.Semaphore(8); await asyncio.gather(*[one(k,sp,t,sem) for k,(sp,t) in todo])
 asyncio.run(main())
+# 24 kbps speech MP3 (see compress_audio.py) so the full course fits GitHub Pages
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import compress_audio
+from concurrent.futures import ThreadPoolExecutor
+with ThreadPoolExecutor(8) as ex: print(sum(ex.map(compress_audio.one,[f'{k}.mp3' for k,_ in todo if os.path.exists(f'{OUT}/{k}.mp3')])),'new clips compressed')
 for f in os.listdir(OUT):
   if f.endswith('.mp3') and f!='silence.mp3' and f[:-4] not in items: os.remove(f'{OUT}/{f}')
 json.dump(sorted(k for k in items if os.path.exists(f'{OUT}/{k}.mp3')),open(f'{OUT}/index.json','w'))

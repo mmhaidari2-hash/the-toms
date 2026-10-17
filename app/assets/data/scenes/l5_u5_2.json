@@ -22,7 +22,7 @@
       "yourself",
       "couldn't",
       "please",
-      "don't"
+      "blame"
      ],
      "suggestion": "Please don't blame yourself. You couldn't have known.",
      "suggestionFa": "لطفاً خودت را سرزنش نکن. نمی‌تونستی بدونی.",
@@ -129,8 +129,8 @@
      "keywords": [
       "helping",
       "george",
-      "walks",
-      "maybe"
+      "maybe",
+      "walks"
      ],
      "suggestion": "Maybe give him a job — like helping George with his walks.",
      "suggestionFa": "شاید یه کار بهش بدی — مثل کمک به جورج برای پیاده‌روی‌هاش.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "sometimes",
-      "opens",
       "you'd",
+      "opens",
       "talk"
      ],
      "suggestion": "I can talk to him, if you'd like. He sometimes opens up to me.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "you've",
       "family",
+      "you've",
       "since",
       "been"
      ],

@@ -22,7 +22,7 @@
       "started",
       "that's",
       "right",
-      "i've"
+      "just"
      ],
      "suggestion": "Yes, that's right. I've just started a new job.",
      "suggestionFa": "بله، درسته. تازه یه کار جدید شروع کردم.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "agreement",
-      "tenancy",
       "address",
-      "i've"
+      "tenancy",
+      "okay"
      ],
      "suggestion": "I've got a tenancy agreement — is that okay for address?",
      "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "thousand",
-      "salary",
       "pounds",
+      "salary",
       "about"
      ],
      "suggestion": "About two thousand pounds, from my salary.",
@@ -131,8 +131,8 @@
     },
     {
      "keywords": [
-      "first",
       "month",
+      "first",
       "sure",
       "yet"
      ],
@@ -165,8 +165,8 @@
    "branches": [
     {
      "keywords": [
-      "rather",
       "thanks",
+      "rather",
       "avoid",
       "i'd"
      ],
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "explain",
-      "sorry",
-      "could"
+      "could",
+      "sorry"
      ],
      "suggestion": "Sorry, could you explain what an overdraft is?",
      "suggestionFa": "ببخشید، می‌شه توضیح بدید اضافه‌برداشت چیه؟",
@@ -225,9 +225,9 @@
     {
      "keywords": [
       "later",
+      "need",
       "know",
-      "good",
-      "need"
+      "good"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
      "suggestionFa": "خوب شد گفتید. می‌تونم بعداً اضافه‌اش کنم؟",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "abroad",
-      "great",
       "money",
+      "great",
       "send"
      ],
      "suggestion": "Great. Can I send money abroad too?",
@@ -325,8 +325,8 @@
     {
      "keywords": [
       "transfers",
-      "take",
       "long",
+      "take",
       "how"
      ],
      "suggestion": "How long do transfers take?",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "thanks",
-      "about",
       "scams",
-      "heard"
+      "heard",
+      "about"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
      "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
@@ -377,8 +377,8 @@
      "keywords": [
       "careful",
       "good",
-      "know",
-      "i'll"
+      "i'll",
+      "know"
      ],
      "suggestion": "Good to know. I'll be careful.",
      "suggestionFa": "خوب شد گفتید. مراقبم.",

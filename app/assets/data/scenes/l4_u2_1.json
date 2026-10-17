@@ -33,9 +33,9 @@
     {
      "keywords": [
       "minutes",
+      "thanks",
       "thirty",
-      "coming",
-      "thanks"
+      "coming"
      ],
      "suggestion": "OK. First, thanks for coming. Let's keep this to thirty minutes.",
      "suggestionFa": "باشه. اول، ممنون که اومدید. بیاید سی دقیقه تمومش کنیم.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "figures",
-      "gareth",
       "update",
+      "gareth",
       "could"
      ],
      "suggestion": "Gareth, could you give us a quick update on the figures?",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "point",
-      "three",
       "under",
-      "come"
+      "three",
+      "point",
+      "back"
      ],
      "suggestion": "Good point. Let's park that and come back to it under item three.",
      "suggestionFa": "نکتهٔ خوبیه. بیاید فعلاً کنار بذاریمش و تو مورد سه برگردیم سراغش.",
@@ -146,8 +146,8 @@
      "keywords": [
       "agenda",
       "right",
-      "move",
-      "keep"
+      "keep",
+      "move"
      ],
      "suggestion": "You're right. Let's move on and keep to the agenda.",
      "suggestionFa": "حق با توئه. بیاید بریم جلو و به دستور جلسه پایبند باشیم.",
@@ -191,7 +191,7 @@
      "keywords": [
       "extension",
       "tuesday",
-      "could",
+      "tight",
       "until"
      ],
      "suggestion": "It's tight. Could we ask for an extension until Tuesday?",
@@ -263,7 +263,7 @@
       "circulate",
       "afternoon",
       "everyone",
-      "action"
+      "thanks"
      ],
      "suggestion": "Thanks, everyone. I'll circulate the action points this afternoon.",
      "suggestionFa": "ممنون همگی. امروز عصر اقدامات را برای همه می‌فرستم.",

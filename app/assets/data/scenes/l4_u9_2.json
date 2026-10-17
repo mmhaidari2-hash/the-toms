@@ -20,9 +20,9 @@
     {
      "keywords": [
       "overcooked",
-      "medium",
       "afraid",
-      "asked"
+      "medium",
+      "steak"
      ],
      "suggestion": "I'm afraid not. My steak is overcooked — I asked for medium-rare.",
      "suggestionFa": "متأسفانه نه. استیکم زیادی پخته — مدیوم‌رر خواسته بودم.",
@@ -125,7 +125,7 @@
       "appreciate",
       "manager",
       "please",
-      "could"
+      "speak"
      ],
      "suggestion": "I appreciate that, but could I speak to the manager, please?",
      "suggestionFa": "ممنونم، ولی می‌تونم با مدیر صحبت کنم لطفاً؟",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "understanding",
-      "being",
       "thank",
-      "would"
+      "would",
+      "being"
      ],
      "suggestion": "That would be fair. Thank you for being so understanding.",
      "suggestionFa": "منصفانه‌ست. ممنون که این‌قدر درک می‌کنید.",
@@ -176,8 +176,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "sophie",
+      "thanks",
       "fault",
       "all"
      ],
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "mention",
       "helpful",
+      "mention",
       "you've",
-      "been"
+      "i'll"
      ],
      "suggestion": "I'll mention how helpful you've been.",
      "suggestionFa": "می‌گم چقدر کمک کردید.",

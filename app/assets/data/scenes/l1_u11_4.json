@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "time",
+      "ryan",
       "bed"
      ],
      "suggestion": "It's time for bed, Ryan.",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "work",
       "nine",
       "have",
+      "work",
       "but"
      ],
      "suggestion": "No, but I have work at nine.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "ryan",
-      "sure"
+      "sure",
+      "ryan"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -356,9 +356,9 @@
     {
      "keywords": [
       "early",
-      "i've",
       "long",
-      "day"
+      "i've",
+      "got"
      ],
      "suggestion": "Early. I've got a long day.",
      "suggestionFa": "زود. روز طولانی‌ای دارم.",
@@ -392,8 +392,8 @@
    "branches": [
     {
      "keywords": [
-      "funny",
       "thing",
+      "funny",
       "say"
      ],
      "suggestion": "It's a funny thing to say! Night!",
@@ -404,10 +404,10 @@
     },
     {
      "keywords": [
-      "ryan",
+      "luck",
       "good",
       "test",
-      "luck"
+      "ryan"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",
      "suggestionFa": "شب بخیر رایان. تو امتحانت موفق باشی.",

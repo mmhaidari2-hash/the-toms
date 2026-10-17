@@ -73,9 +73,9 @@
      "keywords": [
       "what're",
       "itself",
-      "right",
-      "drive",
-      "won't"
+      "today",
+      "won't",
+      "right"
      ],
      "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "marmite's",
-      "marmite",
-      "warning",
       "toast's",
+      "warning",
+      "marmite",
       "butter"
      ],
      "suggestion": "Toast's up. Butter or Marmite? Fair warning — Marmite's a love-it-or-hate-it thing.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "alright",
+      "sleep",
       "brave",
-      "lorry",
       "sorry",
-      "sleep"
+      "lorry"
      ],
      "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
      "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "today",
       "right",
+      "today",
       "then",
       "up"
      ],
@@ -172,9 +172,9 @@
      "keywords": [
       "forecast",
       "britain",
-      "brolly",
       "spells",
-      "which"
+      "brolly",
+      "sunny"
      ],
      "suggestion": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
      "suggestionFa": "چتر ببر. پیش‌بینی می‌گه آفتابِ گاه‌به‌گاه، که در بریتانیا یعنی «بارون سرت می‌باره».",
@@ -195,10 +195,10 @@
    "branches": [
     {
      "keywords": [
-      "passing",
       "there's",
+      "passing",
       "course",
-      "spare",
+      "could",
       "tesco"
      ],
      "suggestion": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
@@ -224,7 +224,7 @@
       "tonight",
       "right",
       "pints",
-      "dash"
+      "star"
      ],
      "suggestion": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
      "suggestionFa": "دو پاینت نیم‌چرب. تو فوق‌العاده‌ای. خب، باید بدوم — شب می‌بینمت!",
@@ -248,8 +248,8 @@
       "biscuit",
       "don't",
       "last",
-      "nick",
-      "have"
+      "have",
+      "good"
      ],
      "suggestion": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",
      "suggestionFa": "آفرین. روز خوبی داشته باشی — و نذار رایان آخرین بیسکویت را کش برود!",

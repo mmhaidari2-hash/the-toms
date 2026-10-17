@@ -35,7 +35,7 @@
       "interviews",
       "applied",
       "getting",
-      "lots"
+      "jobs"
      ],
      "suggestion": "I've applied for lots of jobs, but I'm not getting interviews.",
      "suggestionFa": "برای کلی کار درخواست دادم، ولی مصاحبه نمی‌گیرم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "statement",
-      "waiting",
       "applied",
+      "waiting",
       "i've"
      ],
      "suggestion": "I've applied, but I'm waiting for the statement.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "remove",
-      "birth",
       "photo",
+      "birth",
       "date"
      ],
      "suggestion": "Should I remove my photo and date of birth?",
@@ -350,10 +350,10 @@
     },
     {
      "keywords": [
-      "time",
       "full",
+      "work",
       "part",
-      "work"
+      "time"
      ],
      "suggestion": "Is it full-time? I work part-time in a café.",
      "suggestionFa": "تمام‌وقته؟ پاره‌وقت تو یه کافه کار می‌کنم.",

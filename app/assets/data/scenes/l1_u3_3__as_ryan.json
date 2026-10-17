@@ -23,8 +23,8 @@
      "keywords": [
       "alright",
       "room's",
-      "messy",
       "sorry",
+      "messy",
       "come"
      ],
      "suggestion": "Alright? Sorry, my room's a bit messy. Come in.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "football",
-      "that's",
       "laptop",
-      "these",
-      "boots"
+      "that's",
+      "boots",
+      "these"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -74,8 +74,8 @@
       "liverpool",
       "saturday",
       "posters",
-      "those",
-      "every"
+      "every",
+      "those"
      ],
      "suggestion": "Every Saturday. Those posters on the wall are my team. Liverpool!",
      "suggestionFa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!",
@@ -98,8 +98,8 @@
      "keywords": [
       "that's",
       "salah",
-      "help",
       "says",
+      "help",
       "yeah"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "wardrobe",
-      "drawer",
       "shirts",
-      "jeans",
-      "those"
+      "drawer",
+      "those",
+      "these"
      ],
      "suggestion": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
      "suggestionFa": "اون تی‌شرت‌ها می‌رن توی کشو. این شلوار جین‌ها توی کمد.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "shelf",
-      "books",
       "gross",
+      "books",
       "last",
-      "week"
+      "from"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
      "suggestionFa": "کتاب‌ها روی قفسه. این ماگ هم مال هفتهٔ پیشه. چندش!",
@@ -175,7 +175,7 @@
       "floor",
       "fair",
       "look",
-      "can"
+      "see"
      ],
      "suggestion": "Ha, fair enough. Look — the floor! I can see the floor!",
      "suggestionFa": "ها، حق داری. ببین — کف اتاق! کف را می‌بینم!",
@@ -199,8 +199,8 @@
       "cheers",
       "legend",
       "wanna",
-      "play",
-      "fifa"
+      "fifa",
+      "mate"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",
      "suggestionFa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟",

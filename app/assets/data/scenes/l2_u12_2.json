@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "really",
       "thanks",
-      "well",
-      "fine"
+      "really",
+      "fine",
+      "well"
      ],
      "suggestion": "I'm fine, thanks. Well — not really!",
      "suggestionFa": "خوبم ممنون. خب — نه واقعاً!",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "barcode",
-      "bananas",
       "there's",
+      "bananas",
       "won't"
      ],
      "suggestion": "The bananas won't scan. There's no barcode.",
@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
-      "better",
-      "thanks",
       "that's",
+      "thanks",
+      "better",
       "much"
      ],
      "suggestion": "Thanks. That's much better.",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "easy",
-      "when",
       "know",
+      "when",
       "how"
      ],
      "suggestion": "Easy when you know how!",
@@ -226,8 +226,8 @@
      "keywords": [
       "packs",
       "only",
-      "why",
-      "two"
+      "two",
+      "why"
      ],
      "suggestion": "Why only two packs?",
      "suggestionFa": "چرا فقط دو بسته؟",

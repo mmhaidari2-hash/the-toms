@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "serious",
       "correct",
       "handled",
-      "serious",
       "concern"
      ],
      "suggestion": "That's correct. I'd like to raise a serious concern about how her case was handled.",
@@ -34,8 +34,8 @@
      "keywords": [
       "authorisation",
       "written",
-      "here",
-      "have"
+      "have",
+      "here"
      ],
      "suggestion": "Yes. I have her written authorisation here.",
      "suggestionFa": "بله. اجازه‌نامهٔ کتبیش اینجاست.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "reported",
-      "victim",
       "within",
+      "victim",
       "clegg"
      ],
      "suggestion": "Mrs Clegg was the victim of a scam call, and she reported it within an hour.",
@@ -140,8 +140,8 @@
     },
     {
      "keywords": [
-      "furthermore",
       "explanation",
+      "furthermore",
       "appreciate",
       "initially"
      ],

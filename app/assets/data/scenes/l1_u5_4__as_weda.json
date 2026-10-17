@@ -23,9 +23,9 @@
      "keywords": [
       "always",
       "early",
+      "past",
       "five",
-      "dear",
-      "bird"
+      "half"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
      "suggestionFa": "من سحرخیزم عزیزم. همیشه ساعت پنج و نیم پا می‌شم.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "sometimes",
-      "patel",
       "every",
+      "patel",
       "then",
       "walk"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "mondays",
-      "market",
       "always",
+      "market",
       "round",
-      "park"
+      "then"
      ],
      "suggestion": "Yes, round the park. Then on Mondays I always go to the market.",
      "suggestionFa": "آره، دور پارک. بعد دوشنبه‌ها همیشه می‌رم بازار.",
@@ -124,8 +124,8 @@
       "vegetables",
       "afternoon",
       "gossip",
-      "watch",
-      "fruit"
+      "fruit",
+      "telly"
      ],
      "suggestion": "Fruit, vegetables, and a bit of gossip! Do you ever watch telly in the afternoon?",
      "suggestionFa": "میوه، سبزی و یه کم غیبت! تو هیچ‌وقت عصرها تلویزیون می‌بینی؟",
@@ -149,8 +149,8 @@
       "programme",
       "always",
       "never",
-      "five",
-      "miss"
+      "quiz",
+      "five"
      ],
      "suggestion": "I never miss my quiz programme at five. And I always go to bed at ten.",
      "suggestionFa": "هیچ‌وقت مسابقهٔ ساعت پنجم را از دست نمی‌دم. و همیشه ساعت ده می‌خوابم.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "things",
       "always",
       "change",
+      "things",
       "never",
-      "dear"
+      "some"
      ],
      "suggestion": "Tea at six, always. Some things never change, dear.",
      "suggestionFa": "شام ساعت شش، همیشه. بعضی چیزها هیچ‌وقت عوض نمی‌شن عزیزم.",

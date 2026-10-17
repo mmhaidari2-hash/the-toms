@@ -48,9 +48,9 @@
      "keywords": [
       "because",
       "hard",
-      "s",
-      "e",
-      "b"
+      "b",
+      "c",
+      "s"
      ],
      "suggestion": "\"Because.\" It's so hard. B-E-C-O-S?",
      "suggestionFa": "«Because». خیلی سخته. بی-ای-سی-او-اس؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "friend",
       "before",
-      "word",
       "next",
+      "word",
       "e"
      ],
      "suggestion": "Next word: \"friend.\" Is it I before E?",
@@ -124,8 +124,8 @@
       "fingers",
       "friend",
       "what's",
-      "maths",
-      "seven"
+      "seven",
+      "maths"
      ],
      "suggestion": "\"Friend.\" I did it! Now maths. What's seven add five? Can I use my fingers?",
      "suggestionFa": "«Friend». تونستم! حالا ریاضی. هفت به اضافهٔ پنج چند میشه؟ می‌تونم از انگشتام استفاده کنم؟",
@@ -174,8 +174,8 @@
       "homework",
       "because",
       "friend",
-      "happy",
-      "helps"
+      "helps",
+      "happy"
      ],
      "suggestion": "\"I am happy because my friend helps me with homework.\" Is that you? Yes, it's you!",
      "suggestionFa": "«خوشحالم چون دوستم تو تکالیف کمکم می‌کنه.» اون تویی؟ آره، تویی!",
@@ -200,7 +200,7 @@
       "watch",
       "mummy",
       "telly",
-      "stop"
+      "done"
      ],
      "suggestion": "Full stop! Done! Mummy, look! I did all my homework! Can I watch telly now?",
      "suggestionFa": "نقطه! تموم! مامان، ببین! همهٔ تکالیفم را انجام دادم! حالا می‌تونم تلویزیون ببینم؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "homework",
-      "better",
       "helper",
+      "better",
       "don't",
-      "than"
+      "done"
      ],
      "suggestion": "Done! You're the best homework helper ever. Even better than Ryan. Don't tell him!",
      "suggestionFa": "تموم! تو بهترین کمک‌کار تکلیف دنیایی. حتی بهتر از رایان. بهش نگو!",

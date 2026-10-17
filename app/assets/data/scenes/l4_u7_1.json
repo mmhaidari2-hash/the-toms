@@ -83,8 +83,8 @@
      "keywords": [
       "available",
       "support",
-      "extra",
-      "maths"
+      "maths",
+      "extra"
      ],
      "suggestion": "Is there any extra support available for maths?",
      "suggestionFa": "پشتیبانی اضافه‌ای برای ریاضی هست؟",
@@ -95,9 +95,9 @@
     {
      "keywords": [
       "staying",
+      "hasn't",
       "gaming",
-      "helped",
-      "hasn't"
+      "helped"
      ],
      "suggestion": "He's been staying up late gaming, which hasn't helped.",
      "suggestionFa": "تا دیروقت بازی می‌کنه، که کمکی نکرده.",
@@ -135,9 +135,9 @@
    "branches": [
     {
      "keywords": [
+      "curfew",
       "screen",
       "leslie",
-      "curfew",
       "about"
      ],
      "suggestion": "I'll talk to Leslie and Tom about a screen curfew.",
@@ -148,8 +148,8 @@
     },
     {
      "keywords": [
-      "won't",
       "right",
+      "won't",
       "like",
       "but"
      ],
@@ -201,7 +201,7 @@
       "fortnight",
       "progress",
       "could",
-      "email"
+      "every"
      ],
      "suggestion": "Could you email us his progress every fortnight?",
      "suggestionFa": "می‌تونید هر دو هفته پیشرفتش را برامون ایمیل کنید؟",

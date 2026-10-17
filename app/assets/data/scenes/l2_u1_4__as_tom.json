@@ -22,10 +22,10 @@
     {
      "keywords": [
       "saturday",
-      "watch",
+      "match",
       "hello",
       "again",
-      "match"
+      "watch"
      ],
      "suggestion": "Hello again! Did you watch the match on Saturday?",
      "suggestionFa": "دوباره سلام! شنبه مسابقه را دیدی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "ninetieth",
-      "minute",
       "didn't",
-      "score",
-      "until"
+      "minute",
+      "until",
+      "score"
      ],
      "suggestion": "We lost, two-one. I went with Ryan. We didn't score until the ninetieth minute!",
      "suggestionFa": "باختیم، دو-یک. با رایان رفتم. تا دقیقهٔ نود گل نزدیم!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "freezing",
-      "course",
-      "ground",
       "didn't",
-      "train"
+      "ground",
+      "course",
+      "bring"
      ],
      "suggestion": "Yeah, we got the train to the ground. It was freezing! Ryan didn't bring a coat, of course.",
      "suggestionFa": "آره، با قطار رفتیم ورزشگاه. یخ‌بندون بود! رایان طبق معمول کت نیاورد.",
@@ -100,7 +100,7 @@
       "bovril",
       "spilt",
       "scarf",
-      "over"
+      "then"
      ],
      "suggestion": "He borrowed my scarf. Then he spilt his Bovril all over it!",
      "suggestionFa": "شال‌گردن منو قرض گرفت. بعد بوریلش را ریخت روش!",
@@ -123,8 +123,8 @@
      "keywords": [
       "anything",
       "weekend",
-      "washed",
       "leslie",
+      "washed",
       "smells"
      ],
      "suggestion": "Leslie washed it twice. It still smells a bit beefy! Did you do anything nice at the weekend?",
@@ -148,9 +148,9 @@
      "keywords": [
       "saturday",
       "here's",
-      "right",
       "match",
-      "stop"
+      "right",
+      "next"
      ],
      "suggestion": "Good for you. Right, here's your stop. Next Saturday, come to the match with us!",
      "suggestionFa": "آفرین. خب، اینم ایستگاهت. شنبهٔ بعد با ما بیا مسابقه!",

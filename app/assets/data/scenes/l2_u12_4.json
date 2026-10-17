@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "number",
+      "what's",
       "course"
      ],
      "suggestion": "Of course. What's the number?",
@@ -33,8 +33,8 @@
      "keywords": [
       "biscuit",
       "call",
-      "poor",
-      "i'll"
+      "i'll",
+      "poor"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "neighbour's",
       "eating",
-      "hello",
-      "isn't"
+      "isn't",
+      "hello"
      ],
      "suggestion": "Hello. Our neighbour's cat isn't eating.",
      "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
@@ -88,7 +88,7 @@
       "looking",
       "unwell",
       "after",
-      "we're"
+      "seems"
      ],
      "suggestion": "Hi. A cat we're looking after seems unwell.",
      "suggestionFa": "سلام. گربه‌ای که ازش نگهداری می‌کنیم مریض به نظر میاد.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "sickness",
       "drinking",
+      "sickness",
       "little",
       "she's"
      ],
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "morning",
-      "sick",
       "once",
-      "was"
+      "sick",
+      "she"
      ],
      "suggestion": "She was sick once this morning.",
      "suggestionFa": "امروز صبح یه بار استفراغ کرد.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, four is fine.",
      "suggestionFa": "آره، چهار خوبه.",
@@ -377,8 +377,8 @@
      "keywords": [
       "that's",
       "we'll",
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, that's fine. We'll see you at four.",
      "suggestionFa": "آره، مشکلی نیست. ساعت چهار می‌بینیمتون.",
@@ -390,8 +390,8 @@
      "keywords": [
       "should",
       "first",
-      "khan",
-      "call"
+      "call",
+      "khan"
      ],
      "suggestion": "OK. Should we call Mrs Khan first?",
      "suggestionFa": "باشه. اول به خانم خان زنگ بزنیم؟",

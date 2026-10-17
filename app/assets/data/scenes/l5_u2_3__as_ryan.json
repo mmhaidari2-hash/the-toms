@@ -25,7 +25,7 @@
       "winding",
       "scared",
       "spider",
-      "she's"
+      "about"
      ],
      "suggestion": "Did you tell Mum I was scared of the spider in the bathroom? She's been winding me up about it all day!",
      "suggestionFa": "تو به مامان گفتی من از عنکبوت تو حموم ترسیدم؟ کل روز داره سربه‌سرم می‌ذاره!",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "surprise",
-      "scream",
       "wasn't",
+      "scream",
       "manly",
       "shout"
      ],
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "jumped",
       "taking",
-      "alarm",
+      "jumped",
       "we're",
-      "smoke"
+      "smoke",
+      "alarm"
      ],
      "suggestion": "You're taking the mick now. Fine. But you jumped a mile when the smoke alarm went off last week, so we're even.",
      "suggestionFa": "الان داری مسخره‌ام می‌کنی. باشه. ولی هفتهٔ پیش وقتی آژیر دود صدا داد یه متر پریدی، پس بی‌حساب شدیم.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "actually",
-      "spider",
       "before",
       "sealed",
-      "cried"
+      "spider",
+      "truce"
      ],
      "suggestion": "Ha! True, actually. Even Dad cried. Right — truce sealed. Now help me get that spider out of the bath before Mum gets home.",
      "suggestionFa": "ها! راستش درسته. حتی بابا گریه کرد. خب — آتش‌بس امضا شد. حالا کمکم کن قبل از اینکه مامان بیاد اون عنکبوت را از وان دربیاریم.",

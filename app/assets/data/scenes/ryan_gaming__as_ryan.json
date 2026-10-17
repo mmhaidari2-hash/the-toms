@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "support",
       "chelsea",
-      "don't",
+      "support",
       "d'you",
+      "don't",
       "then"
      ],
      "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "rematch",
       "calling",
+      "rematch",
       "dinner",
       "mum's",
       "later"
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "actually",
-      "three",
-      "again",
       "wanna",
+      "again",
+      "three",
       "best"
      ],
      "suggestion": "Mate, you're actually not bad. Wanna go again? Best of three.",
@@ -124,8 +124,8 @@
       "controller",
       "cheers",
       "footy",
-      "sick",
-      "play"
+      "pass",
+      "sick"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
      "suggestionFa": "عالیه. اون دسته را بده، مرسی. تو وطنت فوتبال بازی می‌کنی؟",
@@ -149,8 +149,8 @@
       "support",
       "friends",
       "united",
-      "don't",
-      "can't"
+      "d'you",
+      "don't"
      ],
      "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
      "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم.",
@@ -173,8 +173,8 @@
      "keywords": [
       "obviously",
       "liverpool",
-      "tomorrow",
       "bricking",
+      "tomorrow",
       "anyway"
      ],
      "suggestion": "Liverpool, obviously. Dad's lot. Anyway — I've got a maths test tomorrow and I'm bricking it.",

@@ -25,7 +25,7 @@ ContentBundle load() {
   final tiers = [for (final t in j('assets/data/places.json')) Tier.fromJson(t)];
   final moments = [for (final m in j('assets/data/moments.json')) Moment(m['sceneId'], m['cover'])];
   final roles = [for (final r in j('assets/data/roles.json')) RoleDef(r['id'], List<String>.from(r['scenes']))];
-  return ContentBundle(chars, scenes, ms, tiers, moments, roles);
+  return ContentBundle(chars, scenes, ms, tiers, moments, roles, Course.fromJson(j('assets/data/course.json')));
 }
 
 
@@ -94,6 +94,22 @@ void main() {
     File('build/voice_lines.json')
       ..createSync(recursive: true)
       ..writeAsStringSync(jsonEncode(spoken(c)));
+  });
+
+  test('every story (lessons, role-switch variants, explore) opens on a real painting, never a bare avatar', () {
+    final lessonIds = {for (final u in c.course.units) for (final l in u.lessons) ...l.sceneIds};
+    final bad = <String>[];
+    for (final s in c.scenes.values) {
+      final cv = c.coverOf(s.id);
+      final img = cv.image;
+      if (img == null || !File(img).existsSync()) {
+        bad.add('${s.id}: no painting ($img)');
+      } else if (cv.generic && lessonIds.contains(s.baseId ?? s.id)) {
+        bad.add('${s.id}: lesson fell back to a generic painting');
+      }
+    }
+    expect(bad, isEmpty, reason: bad.take(20).join('\n'));
+    expect(lessonIds.every(c.scenes.containsKey), isTrue);
   });
 
   test('every spoken line has a natural-voice mp3', () {

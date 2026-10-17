@@ -24,8 +24,8 @@
       "downstairs",
       "calling",
       "come",
-      "room",
-      "from"
+      "from",
+      "busy"
      ],
      "suggestion": "Hey, it's me. Are you busy? I'm calling from my room — too lazy to come downstairs!",
      "suggestionFa": "سلام، منم. سرت شلوغه؟ از اتاقم زنگ می‌زنم — حال ندارم بیام پایین!",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "superhero",
-      "station",
       "meeting",
+      "station",
       "we're",
       "film"
      ],
@@ -148,8 +148,8 @@
      "keywords": [
       "downstairs",
       "minutes",
-      "sorted",
       "hungry",
+      "sorted",
       "five"
      ],
      "suggestion": "Sorted. See you downstairs in five minutes — I'm hungry!",

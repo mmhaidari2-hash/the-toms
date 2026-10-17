@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "okay",
-      "oops"
+      "oops",
+      "okay"
      ],
      "suggestion": "Oops! Are you okay?",
      "suggestionFa": "اوه! خوبی؟",
@@ -178,8 +178,8 @@
      "keywords": [
       "steps",
       "step",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "One step, two steps!",
      "suggestionFa": "یه قدم، دو قدم!",
@@ -214,8 +214,8 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "steps",
+      "three",
       "well",
       "done"
      ],
@@ -278,8 +278,8 @@
     },
     {
      "keywords": [
-      "let's",
       "mummy",
+      "let's",
       "tell"
      ],
      "suggestion": "Let's tell Mummy!",

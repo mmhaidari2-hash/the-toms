@@ -25,7 +25,7 @@
       "weather",
       "lamb's",
       "under",
-      "poor"
+      "feel"
      ],
      "suggestion": "Poor lamb's a bit under the weather. Can you feel his forehead — does he feel hot?",
      "suggestionFa": "طفلکی یه کم ناخوشه. می‌تونی پیشونیش را لمس کنی — داغه؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "thermometer's",
       "drawer",
-      "under",
+      "check",
       "let's",
-      "check"
+      "under"
      ],
      "suggestion": "Let's check. The thermometer's in the drawer — pop it under his arm.",
      "suggestionFa": "بیا چک کنیم. دماسنج تو کشوئه — بذارش زیر بغلش.",
@@ -73,8 +73,8 @@
      "keywords": [
       "eating",
       "beeps",
-      "until",
       "there",
+      "until",
       "been"
      ],
      "suggestion": "Until it beeps. There — 38.2. Not too bad. Has he been eating?",
@@ -100,7 +100,7 @@
       "calpol",
       "little",
       "their",
-      "water"
+      "could"
      ],
      "suggestion": "Little ones often go off their food. Could you fetch the Calpol from the cupboard and a glass of water?",
      "suggestionFa": "کوچولوها اغلب بی‌اشتها میشن. می‌تونی کالپول را از کابینت بیاری و یه لیوان آب؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "darling",
-      "brave",
-      "let's",
       "there",
-      "mind"
+      "let's",
+      "brave",
+      "cool"
      ],
      "suggestion": "Good. Open wide, my darling… there. Brave boy. Now let's get him cool — not cold, mind.",
      "suggestionFa": "خوبه. دهنت را باز کن عزیزم… بفرما. پسر شجاع. حالا خنکش کنیم — نه سرد، مواظب باش.",
@@ -173,8 +173,8 @@
      "keywords": [
       "otherwise",
       "blanket",
-      "doctors",
       "wrapped",
+      "doctors",
       "light"
      ],
      "suggestion": "Yes, just a vest and a light blanket. In my day, we wrapped them up warm. Doctors say otherwise now.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "everywhere",
-      "closing",
       "mothers",
+      "closing",
       "while",
-      "will"
+      "make"
      ],
      "suggestion": "Mothers everywhere, eh? Look, his eyes are closing. Will you sit with him while I make some tea?",
      "suggestionFa": "مادرها همه جا، ها؟ ببین، چشماش داره بسته میشه. تا من چای درست می‌کنم پیشش می‌شینی؟",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
       "natural",
+      "morning",
       "better",
       "we'll",
       "thank"

@@ -21,8 +21,8 @@
      "keywords": [
       "piccadilly",
       "circus",
-      "going",
-      "there"
+      "there",
+      "going"
      ],
      "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
      "suggestionFa": "دارم میرم پیکادیلی سیرکس. این اتوبوس اونجا وایمیسه؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "phone",
-      "pay",
-      "can"
+      "can",
+      "pay"
      ],
      "suggestion": "Can I pay with my phone?",
      "suggestionFa": "می‌تونم با گوشی پرداخت کنم؟",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "meeting",
       "quicker",
+      "meeting",
       "there",
       "i've"
      ],
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
-      "down",
       "chat",
-      "here"
+      "down",
+      "okay"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "sealed",
-      "lips",
-      "haha"
+      "haha",
+      "lips"
      ],
      "suggestion": "Haha, my lips are sealed!",
      "suggestionFa": "ها ها، لبام دوخته‌ست!",
@@ -237,8 +237,8 @@
     },
     {
      "keywords": [
-      "was",
-      "who"
+      "who",
+      "was"
      ],
      "suggestion": "Who was it with?",
      "suggestionFa": "با کی بود؟",
@@ -329,7 +329,7 @@
       "leicester",
       "meeting",
       "really",
-      "square"
+      "friend"
      ],
      "suggestion": "Not really. I'm meeting a friend near Leicester Square.",
      "suggestionFa": "راستش نه. نزدیک لستر اسکوئر با یه دوست قرار دارم.",
@@ -341,8 +341,8 @@
      "keywords": [
       "phone",
       "i'll",
-      "map",
-      "use"
+      "use",
+      "map"
      ],
      "suggestion": "I'll use the map on my phone.",
      "suggestionFa": "از نقشهٔ گوشیم استفاده می‌کنم.",

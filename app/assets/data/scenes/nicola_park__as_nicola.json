@@ -23,8 +23,8 @@
      "keywords": [
       "pleeease",
       "swings",
-      "will",
       "push",
+      "will",
       "hiya"
      ],
      "suggestion": "Hiya! Will you push me on the swings? Pleeease?",
@@ -49,8 +49,8 @@
       "higher",
       "wheee",
       "ducks",
-      "here",
-      "from"
+      "from",
+      "here"
      ],
      "suggestion": "Higher! Higher! Wheee! Can you see the ducks from up here?",
      "suggestionFa": "بالاتر! بالاتر! ووووی! از این بالا اردک‌ها را می‌بینی؟",
@@ -74,8 +74,8 @@
       "favourite",
       "birthday",
       "what's",
-      "guess",
-      "going"
+      "going",
+      "guess"
      ],
      "suggestion": "Guess what? It's my birthday soon! I'm going to be SIX. What's your favourite cake?",
      "suggestionFa": "می‌دونی چیه؟ به‌زودی تولدمه! شش‌ساله می‌شم. کیک مورد علاقه‌ت چیه؟",
@@ -100,7 +100,7 @@
       "promise",
       "sponge",
       "party",
-      "have"
+      "come"
      ],
      "suggestion": "Victoria sponge with jam! You HAVE to come to my party. Promise?",
      "suggestionFa": "کیک اسفنجی ویکتوریا با مربا! حتماً باید بیای جشنم. قول می‌دی؟",
@@ -124,8 +124,8 @@
       "higher",
       "touch",
       "push",
-      "can",
-      "sky"
+      "sky",
+      "can"
      ],
      "suggestion": "Push me higher! Higher! Can you touch the sky?",
      "suggestionFa": "منو بالاتر هل بده! بالاتر! می‌تونی آسمون را لمس کنی؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "pocket",
-      "ducks",
       "bread",
-      "i've",
-      "feed"
+      "ducks",
+      "grey",
+      "i've"
      ],
      "suggestion": "Grey! Can we feed the ducks? I've got bread in my pocket.",
      "suggestionFa": "خاکستری! می‌تونیم به اردک‌ها غذا بدیم؟ توی جیبم نان دارم.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "naughty",
       "chasing",
-      "other",
+      "naughty",
       "one's",
-      "being"
+      "being",
+      "other"
      ],
      "suggestion": "That one's chasing the other one! Is he being naughty?",
      "suggestionFa": "اون یکی داره اون یکی را دنبال می‌کنه! داره شیطونی می‌کنه؟",
@@ -275,7 +275,7 @@
       "slide",
       "best",
       "race",
-      "yay"
+      "now"
      ],
      "suggestion": "Yay! You're my best friend now. Race you to the slide!",
      "suggestionFa": "آخ‌جون! حالا تو بهترین دوست منی. مسابقه تا سرسره!",

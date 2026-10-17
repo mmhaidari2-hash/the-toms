@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -171,8 +171,8 @@
      "keywords": [
       "thursday",
       "she'll",
-      "forty",
-      "eight"
+      "hours",
+      "forty"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
      "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
@@ -230,10 +230,10 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "friend",
+      "family",
       "added",
-      "last"
+      "term"
      ],
      "suggestion": "Yes, I'm a family friend. Leslie added me last term.",
      "suggestionFa": "آره، دوست خانوادگی‌ام. لزلی ترم پیش اضافه‌م کرد.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "still",
-      "able",
       "will",
+      "able",
       "she"
      ],
      "suggestion": "Will she still be able to go?",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "thank",
-      "would"
+      "would",
+      "great"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

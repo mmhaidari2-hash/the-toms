@@ -72,7 +72,7 @@
       "interested",
       "renewable",
       "student",
-      "energy"
+      "that's"
      ],
      "suggestion": "Say you're a student interested in renewable energy. That's true, isn't it?",
      "suggestionFa": "بگو یه دانش‌آموزی که به انرژی تجدیدپذیر علاقه داره. درسته دیگه؟",
@@ -84,8 +84,8 @@
      "keywords": [
       "conversation",
       "mention",
-      "starter",
-      "charger"
+      "charger",
+      "starter"
      ],
      "suggestion": "Mention your solar charger. It's a great conversation starter.",
      "suggestionFa": "شارژر خورشیدیت را بگو. شروع‌کنندهٔ عالی برای گفتگوئه.",
@@ -132,10 +132,10 @@
     },
     {
      "keywords": [
-      "opinion",
       "comment",
+      "opinion",
       "you've",
-      "just"
+      "seen"
      ],
      "suggestion": "Comment on the talk you've just seen, then ask her opinion.",
      "suggestionFa": "دربارهٔ سخنرانی که دیدی نظر بده، بعد نظرش را بپرس.",
