@@ -7,90 +7,85 @@
  "setting": "Sal's Barbers, Mare Street",
  "settingFa": "آرایشگاه سال، خیابان مِر",
  "requires": null,
- "start": "e1",
+ "start": "n1",
  "nodes": {
-  "e1": {
-   "id": "e1",
+  "n1": {
+   "id": "n1",
    "speaker": "sal",
    "text": "Alright, young man? What are we doing today?",
    "translations": {
-    "fa": "سلام جوون! امروز چی کار کنیم؟"
+    "fa": "سلام جوون؟ امروز چی کار کنیم؟"
    },
    "branches": [
     {
      "keywords": [
-      "short",
-      "back",
       "sides",
-      "trim",
-      "cut",
-      "shorter"
+      "short",
+      "back"
      ],
      "suggestion": "Short back and sides, please.",
-     "suggestionFa": "از پشت و بغل کوتاه، لطفاً.",
-     "trustDelta": 6,
-     "next": "e2",
+     "suggestionFa": "پشت و بغل کوتاه، لطفاً.",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
       "little",
+      "just",
       "bit",
-      "off",
-      "top",
-      "tidy"
+      "off"
      ],
      "suggestion": "Just a little bit off the top, please.",
-     "suggestionFa": "فقط کمی از بالا، لطفاً.",
+     "suggestionFa": "فقط یه کم از بالا، لطفاً.",
      "trustDelta": 6,
-     "next": "e2",
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
     {
      "word": "short back and sides",
-     "fa": "کوتاه از پشت و بغل (مدل کلاسیک)"
+     "fa": "پشت و بغل کوتاه"
     },
     {
-     "word": "a bit off the top",
-     "fa": "کمی از بالا کوتاه کردن"
+     "word": "off the top",
+     "fa": "از بالا"
     }
    ],
    "cultureNote": {
-    "en": "'Short back and sides' is the classic British men's haircut.",
-    "fa": "«Short back and sides» مدل موی کلاسیک مردانهٔ بریتانیایی است."
+    "en": "\"Short back and sides\" is the classic British men's haircut.",
+    "fa": "مدل کلاسیک مردانهٔ بریتانیایی."
    }
   },
-  "e2": {
-   "id": "e2",
+  "n2": {
+   "id": "n2",
    "speaker": "sal",
    "text": "Lovely. What number on the clippers — a two or a three?",
    "translations": {
-    "fa": "عالی. شمارهٔ ماشین چند باشه — دو یا سه؟"
+    "fa": "عالیه. شمارهٔ ماشین چند — دو یا سه؟"
    },
    "branches": [
     {
      "keywords": [
-      "two",
-      "2"
+      "number",
+      "two"
      ],
      "suggestion": "A number two, please.",
      "suggestionFa": "شمارهٔ دو، لطفاً.",
-     "trustDelta": 6,
-     "next": "e3",
+     "trustDelta": 7,
+     "next": "n3",
      "success": true
     },
     {
      "keywords": [
-      "three",
-      "3",
-      "longer"
+      "short",
+      "three"
      ],
      "suggestion": "A three, please — not too short.",
      "suggestionFa": "سه، لطفاً — نه خیلی کوتاه.",
      "trustDelta": 6,
-     "next": "e3",
+     "next": "n3",
      "success": true
     }
    ],
@@ -100,17 +95,202 @@
      "fa": "ماشین اصلاح"
     },
     {
-     "word": "number two",
-     "fa": "شمارهٔ دو (طول مو)"
+     "word": "not too short",
+     "fa": "نه خیلی کوتاه"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "No problem. Busy week?",
+   "translations": {
+    "fa": "مشکلی نیست. هفتهٔ شلوغی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "started",
+      "busy",
+      "new",
+      "job"
+     ],
+     "suggestion": "Yes, very busy. I started a new job.",
+     "suggestionFa": "آره، خیلی شلوغ. یه کار جدید شروع کردم.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "actually",
+      "quiet",
+      "quite",
+      "bad"
+     ],
+     "suggestion": "Not bad. Quite quiet, actually.",
+     "suggestionFa": "بد نبود. راستش نسبتاً آروم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "quiet",
+     "fa": "آرام"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sal",
+   "text": "Good for you. Do you want the fringe shorter too?",
+   "translations": {
+    "fa": "آفرین. جلوی موها را هم کوتاه‌تر می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shorter",
+      "please",
+      "bit"
+     ],
+     "suggestion": "Yes, a bit shorter, please.",
+     "suggestionFa": "آره، یه کم کوتاه‌تر، لطفاً.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fringe",
+      "thanks",
+      "leave"
+     ],
+     "suggestion": "No, leave the fringe, thanks.",
+     "suggestionFa": "نه، جلو را دست نزنید، ممنون.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fringe",
+     "fa": "موی جلوی پیشانی"
+    },
+    {
+     "word": "leave",
+     "fa": "دست نزدن"
     }
    ],
    "cultureNote": {
-    "en": "Clipper numbers set the length: a 'number one' is very short.",
-    "fa": "شماره‌های ماشین طول را تعیین می‌کند: «number one» خیلی کوتاه است."
+    "en": "British \"fringe\" = American \"bangs\".",
+    "fa": "fringe در آمریکا bangs است."
    }
   },
-  "e3": {
-   "id": "e3",
+  "n5": {
+   "id": "n5",
+   "speaker": "sal",
+   "text": "Did you watch the football on Saturday?",
+   "translations": {
+    "fa": "فوتبال شنبه را دیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goal",
+      "end"
+     ],
+     "suggestion": "Yes! What a goal at the end!",
+     "suggestionFa": "آره! چه گلی آخرش!",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "football",
+      "follow",
+      "really",
+      "don't"
+     ],
+     "suggestion": "No, I don't really follow football.",
+     "suggestionFa": "نه، راستش فوتبال دنبال نمی‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "follow",
+     "fa": "دنبال کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Small talk about football or the weather is normal at the barber's.",
+    "fa": "گپ دربارهٔ فوتبال در آرایشگاه رایج است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sal",
+   "text": "Fair enough. Shall I tidy up your beard while I'm at it?",
+   "translations": {
+    "fa": "باشه. حالا که دستم بنده ریشت را هم مرتب کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "just",
+      "trim"
+     ],
+     "suggestion": "Yes please, just a trim.",
+     "suggestionFa": "آره لطفاً، فقط یه کم مرتب.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "like",
+      "long"
+     ],
+     "suggestion": "No thanks, I like it long.",
+     "suggestionFa": "نه ممنون، بلند دوستش دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tidy up",
+     "fa": "مرتب کردن"
+    },
+    {
+     "word": "beard",
+     "fa": "ریش"
+    },
+    {
+     "word": "trim",
+     "fa": "کوتاه کردن مختصر"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
    "speaker": "sal",
    "text": "There you go. Have a look in the mirror — happy with that?",
    "translations": {
@@ -119,51 +299,97 @@
    "branches": [
     {
      "keywords": [
-      "happy",
-      "great",
-      "perfect",
-      "love",
-      "yes",
       "brilliant",
-      "cheers"
+      "cheers",
+      "sal"
      ],
      "suggestion": "Yes, it's brilliant. Cheers, Sal!",
      "suggestionFa": "آره، عالیه. مرسی سال!",
      "trustDelta": 7,
-     "next": "e4",
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shorter",
+      "little",
+      "please",
+      "left"
+     ],
+     "suggestion": "A little shorter on the left, please.",
+     "suggestionFa": "سمت چپ یه کم کوتاه‌تر، لطفاً.",
+     "trustDelta": 6,
+     "next": "n8",
      "success": true
     }
    ],
    "newWords": [
     {
-     "word": "have a look",
-     "fa": "یک نگاه بینداز"
+     "word": "mirror",
+     "fa": "آینه"
+    },
+    {
+     "word": "cheers",
+     "fa": "مرسی"
     }
    ],
    "cultureNote": null
   },
-  "e4": {
-   "id": "e4",
+  "n8": {
+   "id": "n8",
+   "speaker": "sal",
+   "text": "Done. Any wax or gel?",
+   "translations": {
+    "fa": "تموم. واکس یا ژل؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "please",
+      "just",
+      "wax"
+     ],
+     "suggestion": "Just a little wax, please.",
+     "suggestionFa": "فقط یه کم واکس، لطفاً.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "product",
+      "thanks"
+     ],
+     "suggestion": "No product, thanks.",
+     "suggestionFa": "هیچی نزنید، ممنون.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wax",
+     "fa": "واکس مو"
+    },
+    {
+     "word": "product",
+     "fa": "محصول آرایش مو"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
    "speaker": "sal",
    "text": "Nice one. That's twelve quid. Tell your dad he's overdue!",
    "translations": {
-    "fa": "ایول. می‌شه دوازده پوند. به بابات بگو وقت اصلاحش گذشته!"
+    "fa": "عالی. میشه دوازده پوند. به بابات بگو وقت اصلاحش گذشته!"
    },
    "branches": [],
-   "newWords": [
-    {
-     "word": "quid",
-     "fa": "پوند (خودمانی)"
-    },
-    {
-     "word": "overdue",
-     "fa": "عقب‌افتاده"
-    }
-   ],
-   "cultureNote": {
-    "en": "'Quid' is slang for pound — it never takes an 's': 'twelve quid'.",
-    "fa": "«quid» اسلنگ پوند است و هیچ‌وقت s نمی‌گیرد: «twelve quid»."
-   }
+   "newWords": [],
+   "cultureNote": null
   }
  }
 }

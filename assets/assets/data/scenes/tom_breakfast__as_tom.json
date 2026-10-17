@@ -50,7 +50,7 @@
       "strong",
       "sugars",
       "sugar",
-      "mine"
+      "take"
      ],
      "suggestion": "Milk and sugar? I take mine builder's — strong, two sugars.",
      "suggestionFa": "شیر و شکر؟ من مال خودم را «بیلدرز» می‌خورم — پررنگ، با دو قند.",
@@ -75,7 +75,7 @@
       "itself",
       "today",
       "drive",
-      "right"
+      "won't"
      ],
      "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "alright",
-      "brave",
-      "sleep",
       "sorry",
-      "lorry"
+      "brave",
+      "lorry",
+      "sleep"
      ],
      "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
      "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
@@ -174,7 +174,7 @@
       "britain",
       "brolly",
       "spells",
-      "means"
+      "which"
      ],
      "suggestion": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
      "suggestionFa": "چتر ببر. پیش‌بینی می‌گه آفتابِ گاه‌به‌گاه، که در بریتانیا یعنی «بارون سرت می‌باره».",
@@ -247,7 +247,7 @@
      "keywords": [
       "biscuit",
       "don't",
-      "ryan",
+      "good",
       "last",
       "have"
      ],

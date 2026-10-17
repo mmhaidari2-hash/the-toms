@@ -24,11 +24,11 @@
       "children",
       "allowed",
       "should",
-      "agree",
-      "don't"
+      "don't",
+      "until"
      ],
      "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
-     "suggestionFa": "فکر می‌کنم بچه‌ها باید تا ساعت ده بیدار بمونن. موافق نیستی؟",
+     "suggestionFa": "به نظرم بچه‌ها باید اجازه داشته باشن تا ساعت ده بیدار بمونن. موافق نیستی؟",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -41,19 +41,19 @@
    "speaker": "mehdi",
    "text": "I see your point, but you need your sleep for school.",
    "translations": {
-    "fa": "نظرت را می‌فهمم، ولی برای مدرسه به خواب احتیاج داری."
+    "fa": "منظورت را می‌فهمم، ولی برای مدرسه به خواب نیاز داری."
    },
    "branches": [
     {
      "keywords": [
       "that's",
       "stays",
-      "ryan",
+      "fair",
       "late",
-      "fair"
+      "ryan"
      ],
      "suggestion": "But Ryan stays up late! That's not fair.",
-     "suggestionFa": "ولی رایان تا دیر وقت بیدار می‌مونه! این منصفانه نیست.",
+     "suggestionFa": "ولی رایان تا دیروقت بیدار می‌مونه! این عادلانه نیست.",
      "trustDelta": 5,
      "next": "r3",
      "success": true
@@ -64,9 +64,159 @@
   "r3": {
    "id": "r3",
    "speaker": "mehdi",
+   "text": "Ryan's older. When you're fourteen, you can stay up later too.",
+   "translations": {
+    "fa": "رایان بزرگ‌تره. وقتی چهارده سالت شد، تو هم می‌تونی دیرتر بیدار بمونی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reasons",
+      "reason",
+      "should",
+      "telly",
+      "give"
+     ],
+     "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
+     "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "That's a reason, but is it a good one?",
+   "translations": {
+    "fa": "این یه دلیله، ولی دلیل خوبیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reason",
+      "tired",
+      "awake",
+      "wide",
+      "look"
+     ],
+     "suggestion": "Hmm. Okay, reason two: I'm not even tired. Look — I'm wide awake!",
+     "suggestionFa": "هوم. باشه، دلیل دو: اصلاً خسته نیستم. ببین — کاملاً بیدارم!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "You're yawning right now!",
+   "translations": {
+    "fa": "همین الان داری خمیازه می‌کشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "country",
+      "wasn't",
+      "breath",
+      "yawn"
+     ],
+     "suggestion": "That wasn't a yawn. It was a… big breath. What do children do in your country?",
+     "suggestionFa": "اون خمیازه نبود. یه… نفس بزرگ بود. بچه‌ها تو کشور تو چی کار می‌کنن؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Lots of children stay up late, especially in summer.",
+   "translations": {
+    "fa": "خیلی از بچه‌ها دیر می‌خوابن، مخصوصاً تابستون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "countries",
+      "right",
+      "some",
+      "they",
+      "stay"
+     ],
+     "suggestion": "See! In some countries they stay up! So I'm right.",
+     "suggestionFa": "دیدی! تو بعضی کشورها بیدار می‌مونن! پس من درست می‌گم.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Not exactly. Different places have different rules.",
+   "translations": {
+    "fa": "نه دقیقاً. جاهای مختلف قانون‌های مختلفی دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lawyers",
+      "lawyer",
+      "what's",
+      "think",
+      "fair"
+     ],
+     "suggestion": "A lawyer! Yes! Lawyers stay up late, I bet. So what do you think — what's fair?",
+     "suggestionFa": "وکیل! آره! شرط می‌بندم وکیل‌ها دیر می‌خوابن. خب نظرت چیه — چی عادلانه‌ست؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
    "text": "How about a compromise — half eight on Fridays?",
    "translations": {
-    "fa": "یه راه وسط چطوره — جمعه‌ها تا هشت و نیم؟"
+    "fa": "یه راه میانه چطوره — جمعه‌ها هشت و نیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturdays",
+      "without",
+      "moaning",
+      "fridays",
+      "please"
+     ],
+     "suggestion": "Half eight on Fridays AND Saturdays? Please? I'll brush my teeth without moaning.",
+     "suggestionFa": "هشت و نیم جمعه‌ها و شنبه‌ها؟ لطفاً؟ بدون غر زدن مسواک می‌زنم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Fridays and Saturdays — but only if you keep your promise.",
+   "translations": {
+    "fa": "جمعه‌ها و شنبه‌ها — ولی فقط اگه سر قولت بمونی."
    },
    "branches": [
     {
@@ -80,14 +230,14 @@
      "suggestion": "Hmm… deal. But I'm writing it down so you can't forget!",
      "suggestionFa": "هوم… قبول. ولی می‌نویسمش که یادت نره!",
      "trustDelta": 5,
-     "next": "r4",
+     "next": "r10",
      "success": true
     }
    ],
    "newWords": []
   },
-  "r4": {
-   "id": "r4",
+  "r10": {
+   "id": "r10",
    "speaker": "mehdi",
    "text": "Thanks, Nicola! See you later.",
    "translations": {

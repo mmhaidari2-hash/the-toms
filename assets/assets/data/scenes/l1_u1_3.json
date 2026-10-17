@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "today",
       "tired",
+      "today",
       "bit"
      ],
      "suggestion": "I'm a bit tired today.",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "sad",
       "why",
+      "sad",
       "oh",
       "he"
      ],
@@ -269,9 +269,9 @@
     {
      "keywords": [
       "knackered",
-      "right",
       "tired",
-      "means"
+      "means",
+      "right"
      ],
      "suggestion": "Good morning! Knackered means tired, right?",
      "suggestionFa": "صبح بخیر! knackered یعنی خسته، درسته؟",
@@ -353,8 +353,8 @@
    "branches": [
     {
      "keywords": [
-      "he",
-      "ha"
+      "ha",
+      "he"
      ],
      "suggestion": "Ha! Yes, he is.",
      "suggestionFa": "ها! آره، داره می‌زنه.",

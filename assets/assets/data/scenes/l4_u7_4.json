@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "mention",
       "sitting",
-      "she's",
+      "mention",
+      "close",
       "telly"
      ],
      "suggestion": "Now that you mention it, she's been sitting very close to the telly.",
@@ -80,7 +80,7 @@
       "appointment",
       "optician",
       "week",
-      "i'll"
+      "book"
      ],
      "suggestion": "I'll book an appointment with the optician this week.",
      "suggestionFa": "این هفته از بینایی‌سنج وقت می‌گیرم.",
@@ -150,7 +150,7 @@
       "having",
       "should",
       "she's",
-      "test"
+      "tell"
      ],
      "suggestion": "Should we tell her why she's having the test?",
      "suggestionFa": "بهش بگیم چرا معاینه می‌شه؟",
@@ -194,8 +194,8 @@
      "keywords": [
       "guarantee",
       "dinosaur",
-      "she'll",
-      "frames"
+      "frames",
+      "she'll"
      ],
      "suggestion": "She'll want dinosaur frames, I guarantee it.",
      "suggestionFa": "تضمین می‌کنم قاب دایناسوری می‌خواد.",

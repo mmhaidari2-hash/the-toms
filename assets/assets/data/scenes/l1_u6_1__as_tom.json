@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
+      "typical",
       "british",
       "weather",
-      "typical",
       "sunny",
       "hour"
      ],
@@ -74,8 +74,8 @@
       "umbrella",
       "pretty",
       "windy",
-      "much",
-      "coat"
+      "coat",
+      "take"
      ],
      "suggestion": "Pretty much! Take an umbrella. And put your coat on. It's windy too.",
      "suggestionFa": "تقریباً! چتر بردار. و کتت را بپوش. باد هم میاد.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "october",
       "degrees",
+      "october",
       "that's",
       "trust",
       "eight"
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "october",
-      "march",
       "lucky",
+      "march",
       "from",
-      "here"
+      "rain"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
      "suggestionFa": "خوش به حالت! اینجا از اکتبر تا مارس خیسه. بارون دوست داری؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "wellies",
-      "means",
       "heavy",
-      "stay",
-      "wear"
+      "means",
+      "wear",
+      "rain"
      ],
      "suggestion": "It means very heavy rain. Stay dry! And wear your wellies!",
      "suggestionFa": "یعنی بارون خیلی شدید. خشک بمونی! و چکمه‌های لاستیکیت را بپوش!",

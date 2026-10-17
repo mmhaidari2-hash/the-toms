@@ -34,8 +34,8 @@
      "keywords": [
       "someone",
       "account",
-      "speak",
-      "could"
+      "could",
+      "speak"
      ],
      "suggestion": "Hi. Could I speak to someone about my account?",
      "suggestionFa": "سلام. می‌تونم با کسی دربارهٔ حسابم صحبت کنم؟",
@@ -173,8 +173,8 @@
     {
      "keywords": [
       "thank",
-      "will",
       "have",
+      "will",
       "pin"
      ],
      "suggestion": "Thank you. Will it have a new PIN?",
@@ -239,8 +239,8 @@
     },
     {
      "keywords": [
-      "please",
       "repeat",
+      "please",
       "could",
       "line"
      ],

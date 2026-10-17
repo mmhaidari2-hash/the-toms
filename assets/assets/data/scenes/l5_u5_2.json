@@ -76,7 +76,7 @@
       "understandable",
       "completely",
       "positive",
-      "scared"
+      "doctor"
      ],
      "suggestion": "It's completely understandable to feel scared. But the doctor was really positive.",
      "suggestionFa": "کاملاً قابل درکه که بترسی. ولی دکتر واقعاً مثبت بود.",
@@ -88,8 +88,8 @@
      "keywords": [
       "grandad's",
       "medicine",
-      "nicola",
-      "simple"
+      "simple",
+      "nicola"
      ],
      "suggestion": "Keep it simple for Nicola. Say Grandad's heart is a bit tired and needs medicine.",
      "suggestionFa": "برای نیکولا ساده بگو. بگو قلب پدربزرگ یه کم خسته‌ست و دارو لازم داره.",
@@ -127,8 +127,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "helping",
+      "william",
       "maybe",
       "walks"
      ],
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "you've",
+      "family",
       "since",
       "been"
      ],

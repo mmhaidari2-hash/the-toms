@@ -22,7 +22,7 @@
       "honest",
       "third",
       "after",
-      "much"
+      "joke"
      ],
      "suggestion": "To be honest, it got a bit much after the third joke.",
      "suggestionFa": "راستش بعد از شوخی سوم یه کم زیادی شد.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "tiresome",
       "noticing",
+      "tiresome",
       "getting",
       "thanks"
      ],
@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "rather",
-      "thanks",
       "myself",
-      "handle"
+      "handle",
+      "rather",
+      "thanks"
      ],
      "suggestion": "Thanks, but I'd rather handle it myself.",
      "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "awkward",
-      "maybe",
       "don't",
+      "maybe",
       "want"
      ],
      "suggestion": "Maybe. I don't want to make it awkward.",
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "getting",
+      "perfect",
       "honest",
       "that's"
      ],
@@ -188,7 +188,7 @@
       "anyone",
       "don't",
       "want",
-      "hope"
+      "fall"
      ],
      "suggestion": "I hope so. I don't want to fall out with anyone.",
      "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",

@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "can't",
       "catch",
+      "can't",
       "well"
      ],
      "suggestion": "I can't catch very well.",
@@ -128,8 +128,8 @@
      "keywords": [
       "quite",
       "fast",
-      "can",
-      "run"
+      "run",
+      "can"
      ],
      "suggestion": "I can run quite fast.",
      "suggestionFa": "نسبتاً سریع می‌تونم بدوم.",
@@ -183,8 +183,8 @@
     },
     {
      "keywords": [
-      "little",
-      "arabic"
+      "arabic",
+      "little"
      ],
      "suggestion": "I can speak a little Arabic too.",
      "suggestionFa": "یه کم عربی هم بلدم.",
@@ -266,10 +266,10 @@
    "branches": [
     {
      "keywords": [
-      "ball",
       "pass",
-      "can",
-      "try"
+      "ball",
+      "try",
+      "can"
      ],
      "suggestion": "I can try. Pass me the ball!",
      "suggestionFa": "می‌تونم امتحان کنم. توپ را پاس بده!",

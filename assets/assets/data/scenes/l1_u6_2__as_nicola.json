@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dressing",
-      "let's",
       "dress",
-      "play",
-      "pink"
+      "let's",
+      "pink",
+      "i've"
      ],
      "suggestion": "Let's play dressing up! I've got a pink dress. What have you got?",
      "suggestionFa": "بیا لباس‌بازی کنیم! من یه پیرهن صورتی دارم. تو چی داری؟",
@@ -50,7 +50,7 @@
       "hasn't",
       "let's",
       "give",
-      "has"
+      "hat"
      ],
      "suggestion": "Has Mr Buttons got a hat? No, he hasn't! Let's give him a hat.",
      "suggestionFa": "آقای دکمه کلاه داره؟ نه، نداره! بیا بهش یه کلاه بدیم.",
@@ -123,9 +123,9 @@
      "keywords": [
       "trousers",
       "orange",
-      "look",
-      "like",
-      "bear"
+      "ones",
+      "bear",
+      "look"
      ],
      "suggestion": "Yes! You look like a bear! Now trousers. The orange ones!",
      "suggestionFa": "آره! شبیه خرس شدی! حالا شلوار. نارنجیه را!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "photo",
       "smile",
       "mummy",
-      "photo",
-      "look",
-      "take"
+      "take",
+      "look"
      ],
      "suggestion": "Ha ha! Mummy, look! Take a photo! Smile!",
      "suggestionFa": "ها ها! مامان، ببین! عکس بگیر! لبخند بزن!",
@@ -175,7 +175,7 @@
       "friend",
       "that's",
       "photo",
-      "ever"
+      "best"
      ],
      "suggestion": "That's the best photo ever. You're my best dressing-up friend!",
      "suggestionFa": "این بهترین عکس دنیاست. تو بهترین دوست لباس‌بازی منی!",

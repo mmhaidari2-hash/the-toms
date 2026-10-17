@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "concern",
-      "handled",
       "correct",
-      "serious"
+      "handled",
+      "serious",
+      "concern"
      ],
      "suggestion": "That's correct. I'd like to raise a serious concern about how her case was handled.",
      "suggestionFa": "درسته. می‌خوام یه نگرانی جدی دربارهٔ نحوهٔ رسیدگی به پرونده‌اش مطرح کنم.",
@@ -130,7 +130,7 @@
       "entitled",
       "thousand",
       "seeking",
-      "refund"
+      "pounds"
      ],
      "suggestion": "She's seeking a full refund of the two thousand pounds, which she is entitled to.",
      "suggestionFa": "دنبال بازپرداخت کامل دو هزار پوندیه که حقشه.",
@@ -195,8 +195,8 @@
      "keywords": [
       "appreciate",
       "candour",
-      "refund",
-      "expect"
+      "expect",
+      "refund"
      ],
      "suggestion": "I appreciate your candour. When can she expect the refund?",
      "suggestionFa": "از صراحتتون سپاسگزارم. کی می‌تونه انتظار بازپرداخت داشته باشه؟",
@@ -209,7 +209,7 @@
       "acknowledging",
       "compensation",
       "distress",
-      "there"
+      "thank"
      ],
      "suggestion": "Thank you for acknowledging that. Will there be any compensation for the distress?",
      "suggestionFa": "ممنون که پذیرفتید. برای ناراحتی‌اش غرامتی هم در نظر گرفته میشه؟",

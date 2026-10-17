@@ -20,8 +20,8 @@
     {
      "keywords": [
       "slowest",
-      "finish",
       "person",
+      "finish",
       "event"
      ],
      "suggestion": "Only if they add an event for slowest person to finish.",
@@ -34,8 +34,8 @@
      "keywords": [
       "sitting",
       "maybe",
-      "sofa",
-      "gold"
+      "gold",
+      "sofa"
      ],
      "suggestion": "I'd win gold in sitting on the sofa, maybe.",
      "suggestionFa": "شاید تو نشستن رو مبل طلا ببرم.",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "compliment",
-      "arrogant",
       "survival",
-      "accept"
+      "arrogant",
+      "people"
      ],
      "suggestion": "It's survival. If you accept a compliment here, people think you're arrogant.",
      "suggestionFa": "برای بقاست. اگه اینجا تعریف را قبول کنی، فکر می‌کنن مغروری.",
@@ -129,8 +129,8 @@
      "keywords": [
       "difference",
       "miserable",
-      "there's",
-      "between"
+      "between",
+      "there's"
      ],
      "suggestion": "You're right. There's a difference between modest and miserable.",
      "suggestionFa": "حق با توئه. فرقی هست بین فروتن بودن و بدبخت بودن.",
@@ -142,8 +142,8 @@
      "keywords": [
       "honestly",
       "myself",
-      "today",
-      "quite"
+      "quite",
+      "proud"
      ],
      "suggestion": "OK. Honestly? I'm quite proud of myself today.",
      "suggestionFa": "باشه. راستش؟ امروز به خودم افتخار می‌کنم.",
@@ -188,7 +188,7 @@
       "progress",
       "can",
       "six",
-      "row"
+      "now"
      ],
      "suggestion": "And now I can row for six. Progress!",
      "suggestionFa": "و الان شش دقیقه می‌تونم. پیشرفت!",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "brilliant",
-      "thanks",
       "you've",
+      "thanks",
       "coach"
      ],
      "suggestion": "Thanks, Jade. You've been a brilliant coach.",

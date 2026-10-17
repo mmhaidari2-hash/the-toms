@@ -7,78 +7,93 @@
  "setting": "Mare Street Surgery, follow-up",
  "settingFa": "درمانگاه خیابان مِر، پیگیری",
  "requires": null,
- "start": "f1",
+ "start": "n1",
  "nodes": {
-  "f1": {
-   "id": "f1",
+  "n1": {
+   "id": "n1",
    "speaker": "okafor",
    "text": "Good to see you again. Your blood test results came back — overall they're reassuring, but your vitamin D is on the low side.",
    "translations": {
-    "fa": "خوشحالم دوباره می‌بینمت. جواب آزمایش خونت آمده — در کل خیال‌راحت‌کننده است، ولی ویتامین دی‌ات پایین است."
+    "fa": "خوشحالم دوباره می‌بینمتون. نتایج آزمایش خونتون اومده — در مجموع اطمینان‌بخشه، ولی ویتامین دی‌تون پایینه."
    },
    "branches": [
     {
      "keywords": [
-      "vitamin",
-      "low",
-      "mean",
       "serious",
-      "what"
+      "mean"
      ],
      "suggestion": "Is that serious? What does it mean for me?",
-     "suggestionFa": "جدی است؟ برای من یعنی چه؟",
-     "trustDelta": 8,
-     "next": "f2",
+     "suggestionFa": "جدیه؟ برای من چه معنایی داره؟",
+     "trustDelta": 7,
+     "next": "n2",
      "success": true
     },
     {
      "keywords": [
+      "vitamin",
+      "should",
       "relief",
-      "good",
-      "glad",
-      "thank",
-      "that's a relief"
+      "that's"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
-     "suggestionFa": "خیالم راحت شد. برای ویتامین دی چه کنم؟",
-     "trustDelta": 8,
-     "next": "f2",
+     "suggestionFa": "خیالم راحت شد. دربارهٔ ویتامین دی چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
      "success": true
     }
    ],
    "newWords": [
+    {
+     "word": "blood test",
+     "fa": "آزمایش خون"
+    },
     {
      "word": "reassuring",
      "fa": "اطمینان‌بخش"
     },
     {
      "word": "on the low side",
-     "fa": "کمی پایین"
+     "fa": "نسبتاً پایین"
+    },
+    {
+     "word": "relief",
+     "fa": "آسودگی"
     }
    ],
    "cultureNote": null
   },
-  "f2": {
-   "id": "f2",
+  "n2": {
+   "id": "n2",
    "speaker": "okafor",
    "text": "Not at all — it's incredibly common here, given the grey winters. I'd recommend a daily supplement from October to March.",
    "translations": {
-    "fa": "اصلاً — این‌جا با این زمستان‌های ابری خیلی رایج است. توصیه می‌کنم از اکتبر تا مارس روزانه مکمل بخوری."
+    "fa": "اصلاً — با این زمستون‌های خاکستری اینجا خیلی رایجه. یه مکمل روزانه از اکتبر تا مارس پیشنهاد می‌کنم."
    },
    "branches": [
     {
      "keywords": [
       "prescription",
-      "buy",
-      "pharmacy",
       "chemist",
-      "where",
-      "get"
+      "need",
+      "can"
      ],
      "suggestion": "Do I need a prescription, or can I buy it at the chemist?",
-     "suggestionFa": "نسخه لازم دارم یا از داروخانه بخرم؟",
-     "trustDelta": 8,
-     "next": "f3",
+     "suggestionFa": "نسخه لازمه، یا می‌تونم از داروخونه بخرم؟",
+     "trustDelta": 7,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "explain",
+      "feeling",
+      "tired",
+      "would"
+     ],
+     "suggestion": "Would that explain why I've been feeling so tired?",
+     "suggestionFa": "این می‌تونه توضیح بده چرا این‌قدر خسته‌ام؟",
+     "trustDelta": 6,
+     "next": "n3",
      "success": true
     }
    ],
@@ -88,33 +103,349 @@
      "fa": "مکمل"
     },
     {
+     "word": "prescription",
+     "fa": "نسخه"
+    },
+    {
      "word": "chemist",
-     "fa": "داروخانه (بریتانیایی)"
+     "fa": "داروخانه"
     }
    ],
    "cultureNote": {
-    "en": "The NHS genuinely advises everyone in the UK to consider vitamin D in autumn and winter.",
-    "fa": "NHS واقعاً به همه در بریتانیا توصیه می‌کند در پاییز و زمستان ویتامین دی را در نظر بگیرند."
+    "en": "The NHS advises everyone in the UK to consider vitamin D supplements in autumn and winter.",
+    "fa": "NHS مکمل ویتامین دی را در پاییز و زمستان توصیه می‌کند."
    }
   },
-  "f3": {
-   "id": "f3",
+  "n3": {
+   "id": "n3",
    "speaker": "okafor",
-   "text": "Any chemist sells it over the counter — Boots will have it. No need for a prescription.",
+   "text": "Any chemist sells it over the counter. It may well contribute to the fatigue. How's your sleep been?",
    "translations": {
-    "fa": "هر داروخانه‌ای بدون نسخه می‌فروشد — بوتس دارد. نسخه لازم نیست."
+    "fa": "هر داروخونه‌ای بدون نسخه می‌فروشه. ممکنه به خستگی کمک کرده باشه. خوابتون چطور بوده؟"
    },
-   "branches": [],
+   "branches": [
+    {
+     "keywords": [
+      "honest",
+      "great",
+      "night",
+      "wake"
+     ],
+     "suggestion": "Not great, to be honest. I wake up a lot at night.",
+     "suggestionFa": "راستش خیلی خوب نیست. شب‌ها زیاد بیدار می‌شم.",
+     "trustDelta": 7,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reasonable",
+      "mornings",
+      "struggle",
+      "get"
+     ],
+     "suggestion": "Reasonable, but I struggle to get up in the mornings.",
+     "suggestionFa": "معقول، ولی صبح‌ها به‌زور بیدار می‌شم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    }
+   ],
    "newWords": [
     {
      "word": "over the counter",
      "fa": "بدون نسخه"
     },
     {
-     "word": "prescription",
-     "fa": "نسخه"
+     "word": "contribute to",
+     "fa": "کمک کردن به"
+    },
+    {
+     "word": "fatigue",
+     "fa": "خستگی مفرط"
+    },
+    {
+     "word": "struggle",
+     "fa": "به‌زحمت انجام دادن"
     }
    ],
+   "cultureNote": null
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "okafor",
+   "text": "Is anything on your mind? Work, family, money? Stress often shows up as poor sleep.",
+   "translations": {
+    "fa": "چیزی ذهنتون را مشغول کرده؟ کار، خانواده، پول؟ استرس اغلب به شکل خواب بد خودش را نشون می‌ده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "intense",
+      "work's",
+      "family",
+      "abroad"
+     ],
+     "suggestion": "Work's been intense, and I worry about my family abroad.",
+     "suggestionFa": "کار خیلی فشرده بوده، و نگران خانواده‌ام در خارجم.",
+     "trustDelta": 7,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "evenings",
+      "really",
+      "think",
+      "just"
+     ],
+     "suggestion": "Not really — I think it's just the dark evenings.",
+     "suggestionFa": "نه واقعاً — فکر کنم فقط عصرهای تاریکه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on your mind",
+     "fa": "ذهن‌مشغولی"
+    },
+    {
+     "word": "shows up",
+     "fa": "بروز کردن"
+    },
+    {
+     "word": "intense",
+     "fa": "فشرده"
+    },
+    {
+     "word": "abroad",
+     "fa": "خارج از کشور"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "That's understandable. Would you be open to talking to someone? There's a free NHS talking therapy service you can refer yourself to.",
+   "translations": {
+    "fa": "قابل‌درکه. حاضرید با کسی صحبت کنید؟ یه خدمات گفتاردرمانی رایگان NHS هست که می‌تونید خودتون ارجاع بدید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "myself",
+      "refer",
+      "open",
+      "how"
+     ],
+     "suggestion": "I'd be open to that. How do I refer myself?",
+     "suggestionFa": "حاضرم. چطوری خودم را ارجاع بدم؟",
+     "trustDelta": 7,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "therapy",
+      "think",
+      "about",
+      "i'll"
+     ],
+     "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
+     "suggestionFa": "مطمئن نیستم درمان برای من باشه، ولی بهش فکر می‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "understandable",
+     "fa": "قابل درک"
+    },
+    {
+     "word": "open to",
+     "fa": "پذیرای"
+    },
+    {
+     "word": "talking therapy",
+     "fa": "گفتاردرمانی"
+    },
+    {
+     "word": "refer yourself",
+     "fa": "خود را ارجاع دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, you can self-refer to NHS Talking Therapies without seeing a GP first.",
+    "fa": "می‌توانید بدون پزشک عمومی خود را ارجاع دهید."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "It's all online — I'll print you the details. No pressure; it's there if you need it. Anything else bothering you?",
+   "translations": {
+    "fa": "همه‌اش آنلاینه — جزئیاتش را براتون پرینت می‌گیرم. اجباری نیست؛ هر وقت لازم داشتید هست. چیز دیگه‌ای اذیتتون می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sitting",
+      "only",
+      "pain",
+      "from"
+     ],
+     "suggestion": "Only a bit of back pain from sitting at a desk all day.",
+     "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
+     "trustDelta": 7,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "thorough",
+      "that's",
+      "thank"
+     ],
+     "suggestion": "No, that's everything. Thank you for being so thorough.",
+     "suggestionFa": "نه، همین بود. ممنون که این‌قدر دقیق هستید.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no pressure",
+     "fa": "بدون اجبار"
+    },
+    {
+     "word": "bothering",
+     "fa": "اذیت کردن"
+    },
+    {
+     "word": "back pain",
+     "fa": "کمردرد"
+    },
+    {
+     "word": "thorough",
+     "fa": "دقیق و کامل"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "okafor",
+   "text": "Regular breaks help — stand up every half hour. A short walk at lunchtime would also help your vitamin D.",
+   "translations": {
+    "fa": "استراحت منظم کمک می‌کنه — هر نیم ساعت بلند شید. یه پیاده‌روی کوتاه ظهر هم به ویتامین دی کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stone",
+      "birds",
+      "then",
+      "two"
+     ],
+     "suggestion": "Two birds with one stone, then.",
+     "suggestionFa": "پس با یه تیر دو نشون.",
+     "trustDelta": 7,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "outside",
+      "i'll",
+      "more",
+      "get"
+     ],
+     "suggestion": "I'll try to get outside more.",
+     "suggestionFa": "سعی می‌کنم بیشتر برم بیرون.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "regular breaks",
+     "fa": "استراحت منظم"
+    },
+    {
+     "word": "two birds with one stone",
+     "fa": "با یک تیر دو نشان"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "Exactly. Let's recheck your levels in three months. Book with reception on your way out.",
+   "translations": {
+    "fa": "دقیقاً. سه ماه دیگه سطحش را دوباره چک می‌کنیم. موقع رفتن با پذیرش وقت بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "okafor",
+      "will",
+      "dr"
+     ],
+     "suggestion": "Will do. Thanks, Dr Okafor.",
+     "suggestionFa": "حتماً. ممنون دکتر اوکافور.",
+     "trustDelta": 7,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "supplement",
+      "should",
+      "before",
+      "test"
+     ],
+     "suggestion": "Should I stop the supplement before the test?",
+     "suggestionFa": "قبل از آزمایش مکمل را قطع کنم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recheck",
+     "fa": "دوباره بررسی کردن"
+    },
+    {
+     "word": "levels",
+     "fa": "سطوح"
+    },
+    {
+     "word": "reception",
+     "fa": "پذیرش"
+    }
+   ],
+   "cultureNote": null
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "okafor",
+   "text": "No, keep taking it. Any chemist sells it — Boots will have it. Take care, and do get some daylight.",
+   "translations": {
+    "fa": "نه، ادامه بدید. هر داروخونه‌ای داره — بوتس حتماً داره. مراقب خودتون باشید، و حتماً یه کم نور روز بگیرید."
+   },
+   "branches": [],
+   "newWords": [],
    "cultureNote": null
   }
  }

@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "cooked",
       "worked",
       "dinner",
+      "cooked",
       "then"
      ],
      "suggestion": "I worked late and then cooked dinner.",
@@ -208,8 +208,8 @@
      "keywords": [
       "that's",
       "lovely",
-      "band",
-      "play"
+      "play",
+      "band"
      ],
      "suggestion": "That's lovely. Did he use to play in a band?",
      "suggestionFa": "چه قشنگ. قبلاً تو گروه موسیقی می‌زد؟",
@@ -296,9 +296,9 @@
    "branches": [
     {
      "keywords": [
-      "weekend",
       "typical",
-      "british"
+      "british",
+      "weekend"
      ],
      "suggestion": "Typical British weekend!",
      "suggestionFa": "آخر هفتهٔ کاملاً بریتانیایی!",
