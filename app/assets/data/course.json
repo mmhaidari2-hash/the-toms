@@ -12976,6 +12976,1697 @@
      "turns": 9
     }
    ]
+  },
+  {
+   "level": 4,
+   "id": "U36",
+   "title": "Money matters",
+   "titleFa": "امور مالی",
+   "place": "bank",
+   "canDo": "Discuss pensions, savings and financial decisions with confidence",
+   "canDoFa": "دربارهٔ بازنشستگی، پس‌انداز و تصمیم‌های مالی با اطمینان صحبت کنی",
+   "lessons": [
+    {
+     "id": "l4_u6_1",
+     "title": "Workplace pensions",
+     "titleFa": "بازنشستگی محل کار",
+     "lead": "sian",
+     "place": "bank",
+     "grammar": "Explaining processes in the passive: is deducted / will be paid",
+     "grammarFa": "توضیح فرایند با مجهول",
+     "sceneIds": [
+      "l4_u6_1"
+     ],
+     "words": [
+      {
+       "word": "payslip",
+       "fa": "فیش حقوقی"
+      },
+      {
+       "word": "deduction",
+       "fa": "کسری"
+      },
+      {
+       "word": "recognise",
+       "fa": "شناختن"
+      },
+      {
+       "word": "workplace pension",
+       "fa": "بازنشستگی محل کار"
+      },
+      {
+       "word": "signed up",
+       "fa": "ثبت‌نام شده"
+      },
+      {
+       "word": "enrolled",
+       "fa": "ثبت‌نام شده"
+      },
+      {
+       "word": "automatically",
+       "fa": "خودکار"
+      },
+      {
+       "word": "deducted",
+       "fa": "کسر می‌شود"
+      },
+      {
+       "word": "employer",
+       "fa": "کارفرما"
+      },
+      {
+       "word": "on top",
+       "fa": "اضافه بر آن"
+      },
+      {
+       "word": "topped up",
+       "fa": "تکمیل می‌شود"
+      },
+      {
+       "word": "tax relief",
+       "fa": "معافیت مالیاتی"
+      },
+      {
+       "word": "effectively",
+       "fa": "عملاً"
+      },
+      {
+       "word": "opt out",
+       "fa": "انصراف دادن"
+      },
+      {
+       "word": "turning down",
+       "fa": "رد کردن"
+      },
+      {
+       "word": "at the earliest",
+       "fa": "زودترین زمان"
+      },
+      {
+       "word": "invested",
+       "fa": "سرمایه‌گذاری شده"
+      },
+      {
+       "word": "fund",
+       "fa": "صندوق"
+      },
+      {
+       "word": "on your behalf",
+       "fa": "از طرف شما"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u6_2",
+     "title": "A cost-of-living conversation",
+     "titleFa": "گفتگو دربارهٔ هزینهٔ زندگی",
+     "lead": "leslie",
+     "place": "kitchen",
+     "grammar": "Comparing and contrasting: whereas / while / on the other hand",
+     "grammarFa": "مقایسه و تقابل",
+     "sceneIds": [
+      "l4_u6_2"
+     ],
+     "words": [
+      {
+       "word": "weekly shop",
+       "fa": "خرید هفتگی"
+      },
+      {
+       "word": "whereas",
+       "fa": "در حالی که"
+      },
+      {
+       "word": "gone up",
+       "fa": "بالا رفته"
+      },
+      {
+       "word": "salaries",
+       "fa": "حقوق‌ها"
+      },
+      {
+       "word": "wages",
+       "fa": "دستمزد"
+      },
+      {
+       "word": "relative to",
+       "fa": "نسبت به"
+      },
+      {
+       "word": "income",
+       "fa": "درآمد"
+      },
+      {
+       "word": "afford",
+       "fa": "توان مالی داشتن"
+      },
+      {
+       "word": "on the other hand",
+       "fa": "از طرف دیگر"
+      },
+      {
+       "word": "while",
+       "fa": "در حالی که"
+      },
+      {
+       "word": "flights",
+       "fa": "پروازها"
+      },
+      {
+       "word": "electronics",
+       "fa": "وسایل الکترونیکی"
+      },
+      {
+       "word": "coping",
+       "fa": "کنار آمدن"
+      },
+      {
+       "word": "switched",
+       "fa": "تغییر داد"
+      },
+      {
+       "word": "own-brand",
+       "fa": "برند خود فروشگاه"
+      },
+      {
+       "word": "batch-cook",
+       "fa": "یکجا پختن"
+      },
+      {
+       "word": "grab",
+       "fa": "برداشتن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u6_3",
+     "title": "Should I invest?",
+     "titleFa": "سرمایه‌گذاری کنم؟",
+     "lead": "tom",
+     "place": "eveningtea",
+     "grammar": "Weighing up: The upside is… / The downside is… / It depends on…",
+     "grammarFa": "سنجیدن مزایا و معایب",
+     "sceneIds": [
+      "l4_u6_3"
+     ],
+     "words": [
+      {
+       "word": "savings",
+       "fa": "پس‌انداز"
+      },
+      {
+       "word": "shares",
+       "fa": "سهام"
+      },
+      {
+       "word": "convinced",
+       "fa": "قانع"
+      },
+      {
+       "word": "take",
+       "fa": "نظر"
+      },
+      {
+       "word": "upside",
+       "fa": "مزیت"
+      },
+      {
+       "word": "untouched",
+       "fa": "دست‌نخورده"
+      },
+      {
+       "word": "downside",
+       "fa": "عیب"
+      },
+      {
+       "word": "gamble",
+       "fa": "قمار کردن"
+      },
+      {
+       "word": "emergency fund",
+       "fa": "پول اضطراری"
+      },
+      {
+       "word": "at least",
+       "fa": "حداقل"
+      },
+      {
+       "word": "ISA",
+       "fa": "حساب پس‌انداز معاف از مالیات"
+      },
+      {
+       "word": "tax-free",
+       "fa": "معاف از مالیات"
+      },
+      {
+       "word": "plus",
+       "fa": "مزیت"
+      },
+      {
+       "word": "low-risk",
+       "fa": "کم‌ریسک"
+      },
+      {
+       "word": "index fund",
+       "fa": "صندوق شاخص"
+      },
+      {
+       "word": "independent financial adviser",
+       "fa": "مشاور مالی مستقل"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u6_4",
+     "title": "Sending money home",
+     "titleFa": "فرستادن پول به خانه",
+     "lead": "arthur",
+     "place": "postoffice",
+     "grammar": "Asking for clarification: Just to be clear… / Does that mean…?",
+     "grammarFa": "درخواست توضیح",
+     "sceneIds": [
+      "l4_u6_4"
+     ],
+     "words": [
+      {
+       "word": "abroad",
+       "fa": "خارج"
+      },
+      {
+       "word": "regulars",
+       "fa": "مشتری‌های ثابت"
+      },
+      {
+       "word": "fees",
+       "fa": "کارمزدها"
+      },
+      {
+       "word": "exchange rate",
+       "fa": "نرخ ارز"
+      },
+      {
+       "word": "flat fee",
+       "fa": "کارمزد ثابت"
+      },
+      {
+       "word": "just to be clear",
+       "fa": "برای اینکه روشن باشد"
+      },
+      {
+       "word": "providers",
+       "fa": "ارائه‌دهندگان"
+      },
+      {
+       "word": "margin",
+       "fa": "حاشیهٔ سود"
+      },
+      {
+       "word": "mid-market rate",
+       "fa": "نرخ میانگین بازار"
+      },
+      {
+       "word": "correctly",
+       "fa": "درست"
+      },
+      {
+       "word": "mind you",
+       "fa": "البته"
+      },
+      {
+       "word": "cash collection",
+       "fa": "دریافت نقدی"
+      },
+      {
+       "word": "handy",
+       "fa": "مفید"
+      },
+      {
+       "word": "pick up",
+       "fa": "برداشتن"
+      },
+      {
+       "word": "ID",
+       "fa": "مدرک شناسایی"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "id": "U37",
+   "title": "Education",
+   "titleFa": "آموزش",
+   "place": "parentsevening",
+   "canDo": "Navigate the British education system and advocate for a child",
+   "canDoFa": "نظام آموزشی بریتانیا را بشناسی و از کودک حمایت کنی",
+   "lessons": [
+    {
+     "id": "l4_u7_1",
+     "title": "Concerns about Ryan",
+     "titleFa": "نگرانی دربارهٔ رایان",
+     "lead": "patel",
+     "place": "parentsevening",
+     "grammar": "Mixed conditionals: If he had revised, he would be…",
+     "grammarFa": "شرطی ترکیبی",
+     "sceneIds": [
+      "l4_u7_1"
+     ],
+     "words": [
+      {
+       "word": "frank",
+       "fa": "رک"
+      },
+      {
+       "word": "mock results",
+       "fa": "نتایج امتحان آزمایشی"
+      },
+      {
+       "word": "disappointing",
+       "fa": "ناامیدکننده"
+      },
+      {
+       "word": "revised",
+       "fa": "مرور کرد"
+      },
+      {
+       "word": "on track",
+       "fa": "در مسیر"
+      },
+      {
+       "word": "to be fair",
+       "fa": "انصافاً"
+      },
+      {
+       "word": "practically",
+       "fa": "کاربردی"
+      },
+      {
+       "word": "engaged",
+       "fa": "درگیر/علاقه‌مند"
+      },
+      {
+       "word": "staying up late",
+       "fa": "تا دیروقت بیدار ماندن"
+      },
+      {
+       "word": "maths clinic",
+       "fa": "کلاس رفع اشکال ریاضی"
+      },
+      {
+       "word": "concentrate",
+       "fa": "تمرکز کردن"
+      },
+      {
+       "word": "screen curfew",
+       "fa": "ممنوعیت شبانهٔ صفحه"
+      },
+      {
+       "word": "left it until",
+       "fa": "تا … عقب انداخت"
+      },
+      {
+       "word": "review",
+       "fa": "بازبینی"
+      },
+      {
+       "word": "fortnight",
+       "fa": "دو هفته"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u7_2",
+     "title": "The talk",
+     "titleFa": "گفتگوی جدی",
+     "lead": "ryan",
+     "place": "bedroom",
+     "grammar": "Expressing frustration and empathy",
+     "grammarFa": "ابراز ناامیدی و همدلی",
+     "sceneIds": [
+      "l4_u7_2"
+     ],
+     "words": [
+      {
+       "word": "banned",
+       "fa": "ممنوع کرد"
+      },
+      {
+       "word": "school nights",
+       "fa": "شب‌های مدرسه"
+      },
+      {
+       "word": "grassed me up",
+       "fa": "لو داد (عامیانه)"
+      },
+      {
+       "word": "unfair",
+       "fa": "ناعادلانه"
+      },
+      {
+       "word": "lazy",
+       "fa": "تنبل"
+      },
+      {
+       "word": "see the point",
+       "fa": "فایده را دیدن"
+      },
+      {
+       "word": "end up",
+       "fa": "آخرش رسیدن"
+      },
+      {
+       "word": "hated",
+       "fa": "متنفر بود"
+      },
+      {
+       "word": "changed my life",
+       "fa": "زندگی‌ام را تغییر داد"
+      },
+      {
+       "word": "open doors",
+       "fa": "فرصت ایجاد کردن"
+      },
+      {
+       "word": "messed up",
+       "fa": "خراب کرد"
+      },
+      {
+       "word": "panicked",
+       "fa": "هول کرد"
+      },
+      {
+       "word": "gave up",
+       "fa": "ول کرد"
+      },
+      {
+       "word": "revision timetable",
+       "fa": "برنامهٔ مرور"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u7_3",
+     "title": "University applications",
+     "titleFa": "درخواست دانشگاه",
+     "lead": "al",
+     "place": "university",
+     "grammar": "Describing achievements: I've managed to… / I was responsible for…",
+     "grammarFa": "توصیف دستاوردها",
+     "sceneIds": [
+      "l4_u7_3"
+     ],
+     "words": [
+      {
+       "word": "apply for",
+       "fa": "درخواست دادن"
+      },
+      {
+       "word": "personal statement",
+       "fa": "بیانیهٔ شخصی (درخواست دانشگاه)"
+      },
+      {
+       "word": "tricky",
+       "fa": "دشوار"
+      },
+      {
+       "word": "draft",
+       "fa": "پیش‌نویس"
+      },
+      {
+       "word": "admissions tutors",
+       "fa": "مسئولان پذیرش"
+      },
+      {
+       "word": "evidence",
+       "fa": "مدرک"
+      },
+      {
+       "word": "designed",
+       "fa": "طراحی کرد"
+      },
+      {
+       "word": "achieved",
+       "fa": "به دست آورد"
+      },
+      {
+       "word": "opening line",
+       "fa": "جملهٔ آغازین"
+      },
+      {
+       "word": "unpaid",
+       "fa": "بدون حقوق"
+      },
+      {
+       "word": "counts",
+       "fa": "حساب می‌شود"
+      },
+      {
+       "word": "robotics",
+       "fa": "رباتیک"
+      },
+      {
+       "word": "responsible for",
+       "fa": "مسئول"
+      },
+      {
+       "word": "gold",
+       "fa": "طلا (بسیار ارزشمند)"
+      },
+      {
+       "word": "leading",
+       "fa": "رهبری"
+      },
+      {
+       "word": "managed to",
+       "fa": "موفق شد"
+      },
+      {
+       "word": "specific",
+       "fa": "مشخص"
+      },
+      {
+       "word": "convincing",
+       "fa": "قانع‌کننده"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u7_4",
+     "title": "A child who's struggling",
+     "titleFa": "کودکی که مشکل دارد",
+     "lead": "ellis",
+     "place": "firstday",
+     "grammar": "Raising sensitive issues: I've noticed that… / I wonder whether…",
+     "grammarFa": "مطرح کردن مسائل حساس",
+     "sceneIds": [
+      "l4_u7_4"
+     ],
+     "words": [
+      {
+       "word": "quiet word",
+       "fa": "صحبت خصوصی"
+      },
+      {
+       "word": "noticed",
+       "fa": "متوجه شد"
+      },
+      {
+       "word": "the board",
+       "fa": "تخته"
+      },
+      {
+       "word": "squinting",
+       "fa": "چشم تنگ کردن"
+      },
+      {
+       "word": "telly",
+       "fa": "تلویزیون (عامیانه)"
+      },
+      {
+       "word": "realise",
+       "fa": "متوجه شدن"
+      },
+      {
+       "word": "I wonder whether",
+       "fa": "فکر می‌کنم شاید"
+      },
+      {
+       "word": "eyes tested",
+       "fa": "معاینهٔ چشم"
+      },
+      {
+       "word": "affecting",
+       "fa": "تأثیر گذاشتن"
+      },
+      {
+       "word": "handwriting",
+       "fa": "دست‌خط"
+      },
+      {
+       "word": "messier",
+       "fa": "نامرتب‌تر"
+      },
+      {
+       "word": "frustrated",
+       "fa": "کلافه"
+      },
+      {
+       "word": "worksheets",
+       "fa": "برگه‌های تمرین"
+      },
+      {
+       "word": "spotted",
+       "fa": "متوجه شد"
+      },
+      {
+       "word": "keep it light",
+       "fa": "سبک برگزار کردن"
+      },
+      {
+       "word": "make a fuss of",
+       "fa": "تحویل گرفتن"
+      },
+      {
+       "word": "grown-up",
+       "fa": "بزرگ"
+      },
+      {
+       "word": "frames",
+       "fa": "قاب"
+      },
+      {
+       "word": "guarantee",
+       "fa": "تضمین کردن"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "id": "U38",
+   "title": "News and opinions",
+   "titleFa": "اخبار و دیدگاه‌ها",
+   "place": "pub",
+   "canDo": "Discuss current affairs, weigh arguments and challenge claims",
+   "canDoFa": "دربارهٔ رویدادها بحث کنی، استدلال‌ها را بسنجی و ادعاها را به چالش بکشی",
+   "lessons": [
+    {
+     "id": "l4_u8_1",
+     "title": "Pub debate",
+     "titleFa": "بحث در پاب",
+     "lead": "dave",
+     "place": "pub",
+     "grammar": "Challenging claims: Where did you hear that? / That's a bit of a generalisation",
+     "grammarFa": "به چالش کشیدن ادعاها",
+     "sceneIds": [
+      "l4_u8_1"
+     ],
+     "words": [
+      {
+       "word": "council houses",
+       "fa": "خانه‌های اجتماعی شورا"
+      },
+      {
+       "word": "d'you reckon",
+       "fa": "به نظرت"
+      },
+      {
+       "word": "genuinely",
+       "fa": "واقعاً"
+      },
+      {
+       "word": "claim",
+       "fa": "ادعا"
+      },
+      {
+       "word": "generalisation",
+       "fa": "تعمیم"
+      },
+      {
+       "word": "eligible",
+       "fa": "واجد شرایط"
+      },
+      {
+       "word": "source",
+       "fa": "منبع"
+      },
+      {
+       "word": "new arrivals",
+       "fa": "تازه‌واردها"
+      },
+      {
+       "word": "social housing",
+       "fa": "مسکن اجتماعی"
+      },
+      {
+       "word": "decades",
+       "fa": "دهه‌ها"
+      },
+      {
+       "word": "the thing",
+       "fa": "مسئله"
+      },
+      {
+       "word": "waiting list",
+       "fa": "لیست انتظار"
+      },
+      {
+       "word": "blame",
+       "fa": "سرزنش کردن"
+      },
+      {
+       "word": "aimed at",
+       "fa": "متوجه"
+      },
+      {
+       "word": "fair point, well made",
+       "fa": "نکتهٔ خوبی بود، خوب گفتی"
+      },
+      {
+       "word": "changed my mind",
+       "fa": "نظرم را عوض کرد"
+      },
+      {
+       "word": "open to it",
+       "fa": "پذیرا"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u8_2",
+     "title": "Local news",
+     "titleFa": "اخبار محلی",
+     "lead": "callum",
+     "place": "coffee",
+     "grammar": "Passive reporting: It is said that… / He is believed to…",
+     "grammarFa": "گزارش مجهول",
+     "sceneIds": [
+      "l4_u8_2"
+     ],
+     "words": [
+      {
+       "word": "cotton mill",
+       "fa": "کارخانهٔ پنبه"
+      },
+      {
+       "word": "turned into",
+       "fa": "تبدیل شدن به"
+      },
+      {
+       "word": "it is said that",
+       "fa": "گفته می‌شود که"
+      },
+      {
+       "word": "luxury",
+       "fa": "لوکس"
+      },
+      {
+       "word": "affordable",
+       "fa": "مقرون‌به‌صرفه"
+      },
+      {
+       "word": "developer",
+       "fa": "سازنده/توسعه‌دهنده"
+      },
+      {
+       "word": "is believed to",
+       "fa": "گفته می‌شود که"
+      },
+      {
+       "word": "promised",
+       "fa": "قول داد"
+      },
+      {
+       "word": "sceptical",
+       "fa": "بدبین"
+      },
+      {
+       "word": "legally binding",
+       "fa": "الزام‌آور قانونی"
+      },
+      {
+       "word": "was reported to",
+       "fa": "گزارش شد که"
+      },
+      {
+       "word": "planning",
+       "fa": "مجوز ساخت"
+      },
+      {
+       "word": "approved",
+       "fa": "تأیید شد"
+      },
+      {
+       "word": "alleged",
+       "fa": "ادعا شده"
+      },
+      {
+       "word": "viable",
+       "fa": "اقتصادی/عملی"
+      },
+      {
+       "word": "object",
+       "fa": "اعتراض کردن"
+      },
+      {
+       "word": "portal",
+       "fa": "پورتال"
+      },
+      {
+       "word": "there's thought to be",
+       "fa": "گمان می‌رود"
+      },
+      {
+       "word": "public meeting",
+       "fa": "جلسهٔ عمومی"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u8_3",
+     "title": "Election day",
+     "titleFa": "روز انتخابات",
+     "lead": "tom",
+     "place": "hallway",
+     "grammar": "Explaining systems and processes",
+     "grammarFa": "توضیح نظام‌ها و فرایندها",
+     "sceneIds": [
+      "l4_u8_3"
+     ],
+     "words": [
+      {
+       "word": "vote",
+       "fa": "رأی دادن"
+      },
+      {
+       "word": "registered",
+       "fa": "ثبت‌نام شده"
+      },
+      {
+       "word": "local elections",
+       "fa": "انتخابات محلی"
+      },
+      {
+       "word": "citizen",
+       "fa": "شهروند"
+      },
+      {
+       "word": "polling station",
+       "fa": "حوزهٔ رأی‌گیری"
+      },
+      {
+       "word": "status",
+       "fa": "وضعیت"
+      },
+      {
+       "word": "nationality",
+       "fa": "ملیت"
+      },
+      {
+       "word": "eligible",
+       "fa": "واجد شرایط"
+      },
+      {
+       "word": "polling card",
+       "fa": "کارت رأی"
+      },
+      {
+       "word": "photo ID",
+       "fa": "کارت شناسایی عکس‌دار"
+      },
+      {
+       "word": "ballot paper",
+       "fa": "برگهٔ رأی"
+      },
+      {
+       "word": "booth",
+       "fa": "اتاقک"
+      },
+      {
+       "word": "candidate",
+       "fa": "نامزد"
+      },
+      {
+       "word": "first past the post",
+       "fa": "سیستم اکثریت نسبی"
+      },
+      {
+       "word": "majority",
+       "fa": "اکثریت"
+      },
+      {
+       "word": "proportional representation",
+       "fa": "نمایندگی تناسبی"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u8_4",
+     "title": "Fake news workshop",
+     "titleFa": "کارگاه اخبار جعلی",
+     "lead": "al",
+     "place": "conference",
+     "grammar": "Evaluating sources: credible, biased, misleading",
+     "grammarFa": "ارزیابی منابع",
+     "sceneIds": [
+      "l4_u8_4"
+     ],
+     "words": [
+      {
+       "word": "workshop",
+       "fa": "کارگاه"
+      },
+      {
+       "word": "spot",
+       "fa": "تشخیص دادن"
+      },
+      {
+       "word": "misinformation",
+       "fa": "اطلاعات نادرست"
+      },
+      {
+       "word": "headline",
+       "fa": "تیتر"
+      },
+      {
+       "word": "credible",
+       "fa": "معتبر"
+      },
+      {
+       "word": "red flag",
+       "fa": "علامت هشدار"
+      },
+      {
+       "word": "instincts",
+       "fa": "غریزه"
+      },
+      {
+       "word": "funded",
+       "fa": "تأمین مالی شده"
+      },
+      {
+       "word": "participants",
+       "fa": "شرکت‌کنندگان"
+      },
+      {
+       "word": "biased",
+       "fa": "مغرضانه"
+      },
+      {
+       "word": "sample size",
+       "fa": "اندازهٔ نمونه"
+      },
+      {
+       "word": "misleading",
+       "fa": "گمراه‌کننده"
+      },
+      {
+       "word": "outrageous",
+       "fa": "جنجالی"
+      },
+      {
+       "word": "views",
+       "fa": "بازدیدها"
+      },
+      {
+       "word": "original source",
+       "fa": "منبع اصلی"
+      },
+      {
+       "word": "reliable",
+       "fa": "قابل اعتماد"
+      },
+      {
+       "word": "news outlets",
+       "fa": "رسانه‌های خبری"
+      },
+      {
+       "word": "AI-generated",
+       "fa": "ساخته‌شده با هوش مصنوعی"
+      },
+      {
+       "word": "odd",
+       "fa": "عجیب"
+      },
+      {
+       "word": "lip-sync",
+       "fa": "هماهنگی لب"
+      },
+      {
+       "word": "tell",
+       "fa": "تشخیص دادن"
+      },
+      {
+       "word": "pause",
+       "fa": "مکث کردن"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "id": "U39",
+   "title": "Customer service",
+   "titleFa": "خدمات مشتری",
+   "place": "supermarket",
+   "canDo": "Complain effectively, negotiate solutions and know your consumer rights",
+   "canDoFa": "به‌طور مؤثر شکایت کنی، راه‌حل مذاکره کنی و حقوق مصرف‌کننده را بدانی",
+   "lessons": [
+    {
+     "id": "l4_u9_1",
+     "title": "Returning a faulty item",
+     "titleFa": "پس دادن کالای معیوب",
+     "lead": "priya",
+     "place": "supermarket",
+     "grammar": "Consumer rights language: faulty, refund, entitled to",
+     "grammarFa": "زبان حقوق مصرف‌کننده",
+     "sceneIds": [
+      "l4_u9_1"
+     ],
+     "words": [
+      {
+       "word": "kettle",
+       "fa": "کتری"
+      },
+      {
+       "word": "stopped working",
+       "fa": "از کار افتاد"
+      },
+      {
+       "word": "return",
+       "fa": "پس دادن"
+      },
+      {
+       "word": "faulty",
+       "fa": "معیوب"
+      },
+      {
+       "word": "receipt",
+       "fa": "رسید"
+      },
+      {
+       "word": "credit note",
+       "fa": "کارت/برگهٔ اعتبار خرید"
+      },
+      {
+       "word": "bank statement",
+       "fa": "صورت‌حساب بانکی"
+      },
+      {
+       "word": "replacement",
+       "fa": "تعویض"
+      },
+      {
+       "word": "refund",
+       "fa": "بازپرداخت"
+      },
+      {
+       "word": "full",
+       "fa": "کامل"
+      },
+      {
+       "word": "trust",
+       "fa": "اعتماد"
+      },
+      {
+       "word": "entitled to",
+       "fa": "حق داشتن"
+      },
+      {
+       "word": "damaged",
+       "fa": "آسیب‌دیده"
+      },
+      {
+       "word": "dropped",
+       "fa": "افتاده"
+      },
+      {
+       "word": "heating",
+       "fa": "گرم کردن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u9_2",
+     "title": "A disappointing meal",
+     "titleFa": "غذای ناامیدکننده",
+     "lead": "sophie",
+     "place": "restaurant",
+     "grammar": "Escalating politely: I'd like to speak to the manager",
+     "grammarFa": "پیگیری مؤدبانه",
+     "sceneIds": [
+      "l4_u9_2"
+     ],
+     "words": [
+      {
+       "word": "overcooked",
+       "fa": "زیادی پخته"
+      },
+      {
+       "word": "medium-rare",
+       "fa": "نیم‌پز"
+      },
+      {
+       "word": "main course",
+       "fa": "غذای اصلی"
+      },
+      {
+       "word": "short-staffed",
+       "fa": "کم‌نیرو"
+      },
+      {
+       "word": "take it back",
+       "fa": "برگرداندن"
+      },
+      {
+       "word": "running out of time",
+       "fa": "وقت تمام شدن"
+      },
+      {
+       "word": "take off the bill",
+       "fa": "از صورت‌حساب حذف کردن"
+      },
+      {
+       "word": "appreciate",
+       "fa": "قدردانی کردن"
+      },
+      {
+       "word": "manager",
+       "fa": "مدیر"
+      },
+      {
+       "word": "understanding",
+       "fa": "باملاحظه"
+      },
+      {
+       "word": "fetch",
+       "fa": "آوردن"
+      },
+      {
+       "word": "for what it's worth",
+       "fa": "هر ارزشی که دارد"
+      },
+      {
+       "word": "rather know",
+       "fa": "ترجیح دادن دانستن"
+      },
+      {
+       "word": "fault",
+       "fa": "تقصیر"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u9_3",
+     "title": "Train compensation",
+     "titleFa": "غرامت قطار",
+     "lead": "maya",
+     "place": "train",
+     "grammar": "Writing a formal complaint: I am writing to… / I would be grateful if…",
+     "grammarFa": "نوشتن شکایت رسمی",
+     "sceneIds": [
+      "l4_u9_3"
+     ],
+     "words": [
+      {
+       "word": "furious",
+       "fa": "بسیار عصبانی"
+      },
+      {
+       "word": "connection",
+       "fa": "قطار رابط"
+      },
+      {
+       "word": "announcements",
+       "fa": "اعلام‌ها"
+      },
+      {
+       "word": "formal complaint",
+       "fa": "شکایت رسمی"
+      },
+      {
+       "word": "as well as",
+       "fa": "علاوه بر"
+      },
+      {
+       "word": "seriously",
+       "fa": "جدی"
+      },
+      {
+       "word": "respond",
+       "fa": "پاسخ دادن"
+      },
+      {
+       "word": "cancellation",
+       "fa": "لغو"
+      },
+      {
+       "word": "service",
+       "fa": "قطار/سرویس"
+      },
+      {
+       "word": "facts",
+       "fa": "حقایق"
+      },
+      {
+       "word": "impact",
+       "fa": "تأثیر"
+      },
+      {
+       "word": "grateful",
+       "fa": "سپاسگزار"
+      },
+      {
+       "word": "season ticket",
+       "fa": "بلیت فصلی"
+      },
+      {
+       "word": "look forward to",
+       "fa": "منتظر بودن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u9_4",
+     "title": "A scam call",
+     "titleFa": "تماس کلاهبرداری",
+     "lead": "doris",
+     "place": "bus",
+     "grammar": "Giving warnings and advice: Never… / Whatever you do…",
+     "grammarFa": "هشدار و توصیه",
+     "sceneIds": [
+      "l4_u9_4"
+     ],
+     "words": [
+      {
+       "word": "strange",
+       "fa": "عجیب"
+      },
+      {
+       "word": "stolen",
+       "fa": "دزدیده"
+      },
+      {
+       "word": "details",
+       "fa": "اطلاعات"
+      },
+      {
+       "word": "scam",
+       "fa": "کلاهبرداری"
+      },
+      {
+       "word": "savings",
+       "fa": "پس‌انداز"
+      },
+      {
+       "word": "safe account",
+       "fa": "حساب امن"
+      },
+      {
+       "word": "straight away",
+       "fa": "فوراً"
+      },
+      {
+       "word": "professional",
+       "fa": "حرفه‌ای"
+      },
+      {
+       "word": "whatever you do",
+       "fa": "هر کاری می‌کنی"
+      },
+      {
+       "word": "flustered",
+       "fa": "دستپاچه"
+      },
+      {
+       "word": "hung up",
+       "fa": "قطع کرد"
+      },
+      {
+       "word": "in a state",
+       "fa": "آشفته"
+      },
+      {
+       "word": "scammers",
+       "fa": "کلاهبرداران"
+      },
+      {
+       "word": "stay on the line",
+       "fa": "پشت خط ماندن"
+      },
+      {
+       "word": "just to be safe",
+       "fa": "محض احتیاط"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "id": "U40",
+   "title": "Paying it forward",
+   "titleFa": "جبران کردن با کمک به دیگران",
+   "place": "firstday",
+   "canDo": "Mentor a newcomer and reflect on your own journey",
+   "canDoFa": "به یک تازه‌وارد راهنمایی کنی و دربارهٔ مسیر خودت تأمل کنی",
+   "lessons": [
+    {
+     "id": "l4_u10_1",
+     "title": "Meeting a newcomer",
+     "titleFa": "آشنایی با یک تازه‌وارد",
+     "lead": "bennett",
+     "place": "library",
+     "grammar": "Adapting your language: speaking simply and checking understanding",
+     "grammarFa": "ساده‌سازی زبان و بررسی فهم",
+     "sceneIds": [
+      "l4_u10_1"
+     ],
+     "words": [
+      {
+       "word": "mentor",
+       "fa": "راهنمایی کردن"
+      },
+      {
+       "word": "arrived",
+       "fa": "رسید"
+      },
+      {
+       "word": "very beginning",
+       "fa": "اول راه"
+      },
+      {
+       "word": "inspiring",
+       "fa": "الهام‌بخش"
+      },
+      {
+       "word": "honoured",
+       "fa": "مفتخر"
+      },
+      {
+       "word": "position",
+       "fa": "موقعیت"
+      },
+      {
+       "word": "patient",
+       "fa": "صبور"
+      },
+      {
+       "word": "finish my sentences",
+       "fa": "جمله‌هایم را تمام کردن"
+      },
+      {
+       "word": "useful phrases",
+       "fa": "عبارت‌های کاربردی"
+      },
+      {
+       "word": "rather than",
+       "fa": "به جای"
+      },
+      {
+       "word": "native speakers",
+       "fa": "گویشوران بومی"
+      },
+      {
+       "word": "idioms",
+       "fa": "اصطلاحات"
+      },
+      {
+       "word": "without realising",
+       "fa": "بدون اینکه متوجه شوند"
+      },
+      {
+       "word": "say it back",
+       "fa": "تکرار کردن"
+      },
+      {
+       "word": "in her own words",
+       "fa": "با کلمات خودش"
+      },
+      {
+       "word": "introduce",
+       "fa": "معرفی کردن"
+      },
+      {
+       "word": "practising",
+       "fa": "تمرین کردن"
+      },
+      {
+       "word": "offer",
+       "fa": "تعارف کردن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u10_2",
+     "title": "Explaining British school life",
+     "titleFa": "توضیح زندگی مدرسه بریتانیا",
+     "lead": "ellis",
+     "place": "firstday",
+     "grammar": "Explaining culture: In Britain, it's normal to… / You'll find that…",
+     "grammarFa": "توضیح فرهنگ",
+     "sceneIds": [
+      "l4_u10_2"
+     ],
+     "words": [
+      {
+       "word": "interpreting",
+       "fa": "ترجمهٔ شفاهی"
+      },
+      {
+       "word": "starts",
+       "fa": "شروع می‌کند"
+      },
+      {
+       "word": "uniform",
+       "fa": "لباس فرم"
+      },
+      {
+       "word": "you'll find that",
+       "fa": "خواهید دید که"
+      },
+      {
+       "word": "gate",
+       "fa": "در ورودی"
+      },
+      {
+       "word": "chat",
+       "fa": "گپ زدن"
+      },
+      {
+       "word": "school dinners",
+       "fa": "ناهار مدرسه"
+      },
+      {
+       "word": "Reception",
+       "fa": "سال پیش‌دبستانی"
+      },
+      {
+       "word": "halal",
+       "fa": "حلال"
+      },
+      {
+       "word": "relief",
+       "fa": "آسودگی"
+      },
+      {
+       "word": "buddies",
+       "fa": "رفیق‌ها"
+      },
+      {
+       "word": "thrilled",
+       "fa": "بسیار هیجان‌زده"
+      },
+      {
+       "word": "showing around",
+       "fa": "نشان دادن اطراف"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u10_3",
+     "title": "Weda's wisdom",
+     "titleFa": "حکمت ودا",
+     "lead": "weda",
+     "place": "poorly",
+     "grammar": "Reflecting: Looking back… / If I could tell my younger self…",
+     "grammarFa": "تأمل",
+     "sceneIds": [
+      "l4_u10_3"
+     ],
+     "words": [
+      {
+       "word": "mentoring",
+       "fa": "راهنمایی کردن"
+      },
+      {
+       "word": "barely",
+       "fa": "به زور"
+      },
+      {
+       "word": "proper",
+       "fa": "درست و حسابی"
+      },
+      {
+       "word": "looking back",
+       "fa": "با نگاه به گذشته"
+      },
+      {
+       "word": "how far I've come",
+       "fa": "چقدر پیشرفت کرده‌ام"
+      },
+      {
+       "word": "teabag",
+       "fa": "چای کیسه‌ای"
+      },
+      {
+       "word": "the other way round",
+       "fa": "برعکس"
+      },
+      {
+       "word": "outsider",
+       "fa": "غریبه"
+      },
+      {
+       "word": "missing",
+       "fa": "دلتنگ بودن"
+      },
+      {
+       "word": "occasions",
+       "fa": "مناسبت‌ها"
+      },
+      {
+       "word": "came over",
+       "fa": "مهاجرت کرد"
+      },
+      {
+       "word": "welcoming",
+       "fa": "خوش‌برخورد"
+      },
+      {
+       "word": "landlords",
+       "fa": "صاحبخانه‌ها"
+      },
+      {
+       "word": "signs",
+       "fa": "تابلوها"
+      },
+      {
+       "word": "cope",
+       "fa": "کنار آمدن"
+      },
+      {
+       "word": "found my people",
+       "fa": "آدم‌های خودم را پیدا کردم"
+      },
+      {
+       "word": "trained with",
+       "fa": "با … آموزش دید"
+      },
+      {
+       "word": "younger self",
+       "fa": "خود جوان‌تر"
+      },
+      {
+       "word": "belong",
+       "fa": "تعلق داشتن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l4_u10_4",
+     "title": "A speech at the community awards",
+     "titleFa": "سخنرانی در مراسم جوایز محله",
+     "lead": "tom",
+     "place": "eveningtea",
+     "grammar": "Formal speech: It gives me great pleasure… / I'd like to thank…",
+     "grammarFa": "سخنرانی رسمی",
+     "sceneIds": [
+      "l4_u10_4"
+     ],
+     "words": [
+      {
+       "word": "nominated",
+       "fa": "نامزد کرد"
+      },
+      {
+       "word": "award",
+       "fa": "جایزه"
+      },
+      {
+       "word": "ceremony",
+       "fa": "مراسم"
+      },
+      {
+       "word": "speech",
+       "fa": "سخنرانی"
+      },
+      {
+       "word": "terrified",
+       "fa": "وحشت‌زده"
+      },
+      {
+       "word": "saved",
+       "fa": "نجات داد"
+      },
+      {
+       "word": "organised",
+       "fa": "ترتیب داد"
+      },
+      {
+       "word": "draft",
+       "fa": "پیش‌نویس کردن"
+      },
+      {
+       "word": "honour",
+       "fa": "افتخار"
+      },
+      {
+       "word": "on behalf of",
+       "fa": "از طرف"
+      },
+      {
+       "word": "humble",
+       "fa": "فروتن"
+      },
+      {
+       "word": "generous",
+       "fa": "بخشنده"
+      },
+      {
+       "word": "thank-yous",
+       "fa": "تشکرها"
+      },
+      {
+       "word": "welcomed",
+       "fa": "پذیرفت"
+      },
+      {
+       "word": "one of their own",
+       "fa": "یکی از خودشان"
+      },
+      {
+       "word": "steady on",
+       "fa": "آرام‌تر"
+      },
+      {
+       "word": "in tears",
+       "fa": "گریان"
+      },
+      {
+       "word": "acts of kindness",
+       "fa": "کارهای مهربانانه"
+      },
+      {
+       "word": "make room",
+       "fa": "جا باز کردن"
+      }
+     ],
+     "turns": 9
+    }
+   ]
   }
  ]
 }

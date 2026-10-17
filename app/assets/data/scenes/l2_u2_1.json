@@ -72,7 +72,7 @@
       "straight",
       "bakery",
       "left",
-      "past"
+      "then"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
      "suggestionFa": "مستقیم، رد شدن از نونوایی، بعد چپ.",
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "left",
       "road",
+      "left",
       "end"
      ],
      "suggestion": "It's at the end of this road, on the left.",
@@ -276,8 +276,8 @@
    "branches": [
     {
      "keywords": [
-      "sorry",
       "round",
+      "sorry",
       "here",
       "from"
      ],
@@ -289,10 +289,10 @@
     },
     {
      "keywords": [
-      "useful",
       "phrase",
+      "that's",
       "thanks",
-      "that's"
+      "useful"
      ],
      "suggestion": "That's a useful phrase. Thanks!",
      "suggestionFa": "جملهٔ مفیدیه. ممنون!",

@@ -30,7 +30,7 @@
       "question",
       "scones",
       "that's",
-      "first"
+      "cream"
      ],
      "suggestion": "Scones are out. Help yourself to jam — cream first or jam first, that's the question.",
      "suggestionFa": "اسکون‌ها آماده‌ست. خودت مربا بردار — اول خامه یا اول مربا، مسئله این است.",
@@ -51,8 +51,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -267,8 +267,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -383,8 +383,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -437,10 +437,10 @@
     {
      "keywords": [
       "brilliant",
-      "sorted",
       "before",
+      "sorted",
       "scone",
-      "ryan"
+      "have"
      ],
      "suggestion": "Sorted? Brilliant. Now come and have a scone before Ryan eats them all.",
      "suggestionFa": "حل شد؟ عالیه. حالا بیا یه اسکون بخور قبل از این‌که رایان همه‌اش را بخوره.",
@@ -512,8 +512,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

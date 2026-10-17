@@ -22,7 +22,7 @@
       "restaurant",
       "worked",
       "years",
-      "back"
+      "home"
      ],
      "suggestion": "Yes, I worked in a restaurant back home for two years.",
      "suggestionFa": "آره، تو کشور خودم دو سال تو یه رستوران کار کردم.",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
+      "they",
       "paid",
       "have",
-      "they",
       "yet"
      ],
      "suggestion": "Have they paid you yet?",
@@ -197,8 +197,8 @@
     },
     {
      "keywords": [
-      "how",
       "one",
+      "how",
       "get"
      ],
      "suggestion": "No. What is it, and how do I get one?",

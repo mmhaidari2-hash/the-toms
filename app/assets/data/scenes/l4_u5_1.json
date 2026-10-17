@@ -21,8 +21,8 @@
      "keywords": [
       "overwhelmed",
       "feeling",
-      "honest",
-      "lately"
+      "lately",
+      "honest"
      ],
      "suggestion": "To be honest, I've been feeling a bit overwhelmed lately.",
      "suggestionFa": "راستش، این اواخر یه کم احساس فشار زیاد می‌کنم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "better",
       "still",
-      "feel",
-      "days"
+      "most",
+      "down"
      ],
      "suggestion": "Better, but I still feel run down most days.",
      "suggestionFa": "بهتر، ولی هنوز بیشتر روزها بی‌رمقم.",
@@ -130,7 +130,7 @@
       "appetite",
       "focus",
       "can't",
-      "lost"
+      "work"
      ],
      "suggestion": "I've lost my appetite a bit, and I can't focus at work.",
      "suggestionFa": "یه کم اشتهام کم شده، و سر کار نمی‌تونم تمرکز کنم.",
@@ -141,9 +141,9 @@
     {
      "keywords": [
       "snapping",
-      "people",
       "really",
-      "which"
+      "people",
+      "isn't"
      ],
      "suggestion": "Not really, but I've been snapping at people, which isn't like me.",
      "suggestionFa": "نه واقعاً، ولی به آدم‌ها تند می‌شم، که از من بعیده.",
@@ -185,9 +185,9 @@
    "branches": [
     {
      "keywords": [
-      "therapy",
       "talking",
-      "involve"
+      "involve",
+      "therapy"
      ],
      "suggestion": "What does talking therapy involve?",
      "suggestionFa": "گفتاردرمانی شامل چیه؟",

@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "taken",
       "photo",
+      "taken",
       "where",
       "was"
      ],
@@ -69,9 +69,9 @@
     {
      "keywords": [
       "street",
-      "like",
       "high",
-      "then"
+      "then",
+      "like"
      ],
      "suggestion": "What was the High Street like then?",
      "suggestionFa": "خیابون اصلی اون موقع چطور بود؟",
@@ -123,9 +123,9 @@
     {
      "keywords": [
       "sweets",
-      "were",
-      "back",
-      "much"
+      "then",
+      "much",
+      "back"
      ],
      "suggestion": "How much were sweets back then?",
      "suggestionFa": "اون موقع آب‌نبات چند بود؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "every",
       "there",
-      "day",
-      "use"
+      "every",
+      "use",
+      "did"
      ],
      "suggestion": "Did you use to go there every day?",
      "suggestionFa": "هر روز می‌رفتید اونجا؟",
@@ -228,9 +228,9 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "sounds",
-      "lovely"
+      "lovely",
+      "family"
      ],
      "suggestion": "Your family sounds lovely.",
      "suggestionFa": "خانواده‌تون خیلی خوب به نظر میان.",
@@ -294,8 +294,8 @@
     {
      "keywords": [
       "maths",
-      "was",
-      "bad"
+      "bad",
+      "was"
      ],
      "suggestion": "I was bad at maths too!",
      "suggestionFa": "من هم تو ریاضی بد بودم!",

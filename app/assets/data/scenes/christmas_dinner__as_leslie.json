@@ -25,7 +25,7 @@
       "cracker",
       "merry",
       "come",
-      "down"
+      "pull"
      ],
      "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
      "suggestionFa": "کریسمس مبارک! بیا بنشین — با من یک کراکر بکش!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "paper",
       "crown",
+      "paper",
       "bang",
       "joke",
-      "say"
+      "put"
      ],
      "suggestion": "Bang! You won! Put your paper crown on. What does your joke say?",
      "suggestionFa": "بنگ! تو بردی! تاج کاغذی‌ات را بگذار. جوکت چه می‌گوید؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "terrible",
-      "potatoes",
       "blankets",
+      "potatoes",
       "turkey",
       "roast"
      ],
@@ -100,7 +100,7 @@
       "presents",
       "everyone",
       "pudding",
-      "king's"
+      "speech"
      ],
      "suggestion": "Wonderful. Then pudding, presents, and the King's speech at three. Cheers, everyone!",
      "suggestionFa": "عالی. بعد دسر، کادوها، و سخنرانی پادشاه ساعت سه. به سلامتی همه!",

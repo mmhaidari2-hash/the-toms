@@ -46,8 +46,8 @@
      "keywords": [
       "birthday",
       "when's",
-      "march",
-      "tenth"
+      "tenth",
+      "march"
      ],
      "suggestion": "My birthday is the tenth of March. When's your birthday?",
      "suggestionFa": "تولدم دهم مارسه. تولد تو کِیه؟",
@@ -70,8 +70,8 @@
      "keywords": [
       "unicorn",
       "candles",
-      "seven",
       "there",
+      "seven",
       "cake"
      ],
      "suggestion": "Look at my cake! It's a unicorn! And there are seven candles.",
@@ -96,8 +96,8 @@
       "secret",
       "going",
       "made",
-      "wish",
-      "tell"
+      "tell",
+      "wish"
      ],
      "suggestion": "I made a wish! I'm not going to tell you. It's a secret!",
      "suggestionFa": "آرزو کردم! بهت نمی‌گم. رازه!",
@@ -120,8 +120,8 @@
      "keywords": [
       "present",
       "open",
-      "now",
-      "can"
+      "can",
+      "now"
      ],
      "suggestion": "A present! Can I open it now? What is it?",
      "suggestionFa": "کادو! الان می‌تونم بازش کنم؟ چیه؟",
@@ -145,8 +145,8 @@
       "dinosaurs",
       "buttons",
       "tonight",
-      "going",
-      "about"
+      "about",
+      "going"
      ],
      "suggestion": "A book about dinosaurs! I love it! I'm going to read it tonight with Mr Buttons.",
      "suggestionFa": "یه کتاب دربارهٔ دایناسورها! عاشقشم! امشب با آقای دکمه می‌خونمش.",
@@ -167,11 +167,11 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "everyone",
+      "birthday",
       "coming",
-      "thank",
-      "happy"
+      "happy",
+      "thank"
      ],
      "suggestion": "Now everyone sing! Happy birthday to me… Thank you for coming!",
      "suggestionFa": "حالا همه بخونید! تولدم مبارک… ممنون که اومدی!",
