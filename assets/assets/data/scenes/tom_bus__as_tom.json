@@ -22,10 +22,10 @@
     {
      "keywords": [
       "alright",
-      "reader",
       "headed",
+      "reader",
       "where",
-      "mate"
+      "card"
      ],
      "suggestion": "Alright? Tap your card on the reader, mate. Where you headed?",
      "suggestionFa": "چطوری؟ کارتت را روی دستگاه بزن رفیق. کجا می‌ری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "roadworks",
       "upstairs",
-      "there's",
       "minutes",
+      "there's",
       "running"
      ],
      "suggestion": "It does, but there's roadworks on Essex Road so we're running about ten minutes behind. Grab a seat upstairs — best view in London.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "reader",
-      "yellow",
       "here's",
+      "yellow",
+      "reader",
       "thing",
       "card"
      ],
@@ -99,8 +99,8 @@
       "upstairs",
       "front",
       "let's",
-      "view",
-      "from"
+      "beep",
+      "best"
      ],
      "suggestion": "Beep — you're in. Let's go upstairs, best view in town from the front seat.",
      "suggestionFa": "بیپ — رفتی تو. بریم طبقهٔ بالا، بهترین منظرهٔ شهر از صندلی جلو.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "everything's",
-      "that's",
       "cinema",
+      "that's",
       "flats",
-      "old"
+      "now"
      ],
      "suggestion": "That's the old cinema — it's flats now. Everything's flats now.",
      "suggestionFa": "اون سینمای قدیمیه — الان آپارتمانه. همه‌چیز الان آپارتمانه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "gutted",
+      "leslie",
       "wasn't",
-      "there",
-      "first"
+      "don't",
+      "there"
      ],
      "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
      "suggestionFa": "خیلی ناراحت. اولین قرارم اونجا بود. به لزلی نگو که با اون نبود!",
@@ -198,9 +198,9 @@
      "keywords": [
       "quicker",
       "angel",
-      "mind",
+      "tell",
       "tube",
-      "tell"
+      "mind"
      ],
      "suggestion": "Tell you what — hop off at Angel and get the Tube, it's quicker. Mind the gap!",
      "suggestionFa": "ببین — توی ایستگاه انجل پیاده شو و مترو بگیر، سریع‌تره. مراقب فاصله باش!",

@@ -71,8 +71,8 @@
      "keywords": [
       "straight",
       "bakery",
-      "past",
-      "then"
+      "then",
+      "past"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
      "suggestionFa": "مستقیم، رد شدن از نونوایی، بعد چپ.",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "please",
-      "sorry",
       "could",
-      "again"
+      "again",
+      "sorry"
      ],
      "suggestion": "Sorry, could you say that again, please?",
      "suggestionFa": "ببخشید، می‌شه دوباره بگید؟",
@@ -276,8 +276,8 @@
    "branches": [
     {
      "keywords": [
-      "round",
       "sorry",
+      "round",
       "here",
       "from"
      ],
@@ -289,9 +289,9 @@
     },
     {
      "keywords": [
-      "thanks",
-      "useful",
       "phrase",
+      "useful",
+      "thanks",
       "that's"
      ],
      "suggestion": "That's a useful phrase. Thanks!",

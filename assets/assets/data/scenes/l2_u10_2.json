@@ -56,8 +56,8 @@
     {
      "keywords": [
       "under",
-      "five",
       "name",
+      "five",
       "tom"
      ],
      "suggestion": "Yes, under the name Tom, for five.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "mistake",
+      "there's",
       "think",
       "been"
      ],
@@ -160,8 +160,8 @@
     {
      "keywords": [
       "today",
-      "says",
-      "here"
+      "here",
+      "says"
      ],
      "suggestion": "Yes, here it is. It says today.",
      "suggestionFa": "بله، ایناهاش. نوشته امروز.",
@@ -206,7 +206,7 @@
       "possible",
       "that's",
       "would",
-      "wait"
+      "fine"
      ],
      "suggestion": "That's fine. Would it be possible to wait at the bar?",
      "suggestionFa": "اشکالی نداره. ممکنه کنار بار منتظر بمونیم؟",

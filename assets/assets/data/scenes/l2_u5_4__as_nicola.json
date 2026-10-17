@@ -23,8 +23,8 @@
      "keywords": [
       "happened",
       "school",
-      "today",
-      "guess"
+      "guess",
+      "today"
      ],
      "suggestion": "Guess what happened at school today! Guess!",
      "suggestionFa": "حدس بزن امروز تو مدرسه چی شد! حدس بزن!",
@@ -49,7 +49,7 @@
       "brought",
       "called",
       "peanut",
-      "first"
+      "ellis"
      ],
      "suggestion": "No! First, Mrs Ellis brought a hamster to class. It's called Peanut!",
      "suggestionFa": "نه! اول، خانم الیس یه همستر آورد کلاس. اسمش پینات‌ـه!",
@@ -95,10 +95,10 @@
    "branches": [
     {
      "keywords": [
-      "grapes",
       "eating",
-      "found",
+      "grapes",
       "after",
+      "found",
       "lunch"
      ],
      "suggestion": "After that, Mia found it in her lunch box! It was eating her grapes!",
@@ -124,7 +124,7 @@
       "laughed",
       "peanut",
       "crown",
-      "then"
+      "drew"
      ],
      "suggestion": "She laughed and laughed. Then we drew pictures of Peanut. I drew him with a crown.",
      "suggestionFa": "خندید و خندید. بعد عکس پینات را کشیدیم. من با تاج کشیدمش.",
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "because",
-      "class",
       "ellis",
+      "class",
       "king",
-      "he's"
+      "best"
      ],
      "suggestion": "Because he's the king of the class! Here it is. Mrs Ellis said it was the best one.",
      "suggestionFa": "چون پادشاه کلاسه! ایناهاش. خانم الیس گفت بهترینه.",
@@ -172,8 +172,8 @@
      "keywords": [
       "tomorrow",
       "dinosaur",
-      "coming",
       "peanut",
+      "coming",
       "table"
      ],
      "suggestion": "Yes! Next to my dinosaur. And tomorrow Peanut is coming to MY table!",

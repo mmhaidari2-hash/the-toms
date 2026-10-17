@@ -24,8 +24,8 @@
       "please",
       "house",
       "thank",
-      "pass",
-      "milk"
+      "milk",
+      "pass"
      ],
      "suggestion": "In this house we say please and thank you. Can you pass the milk, please?",
      "suggestionFa": "توی این خونه لطفاً و ممنون می‌گیم. می‌شه شیر را بدی، لطفاً؟",
@@ -49,8 +49,8 @@
       "thank",
       "love",
       "want",
-      "now",
-      "ask"
+      "ask",
+      "now"
      ],
      "suggestion": "Thank you, love. Now you ask me. What do you want?",
      "suggestionFa": "ممنون عزیزم. حالا تو از من بخواه. چی می‌خوای؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -210,8 +210,8 @@
      "keywords": [
       "need",
       "past",
-      "get",
       "now",
+      "get",
       "say"
      ],
      "suggestion": "Ha! Now, I need to get past you. What do I say?",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -315,7 +315,7 @@
       "learner",
       "cheers",
       "thanks",
-      "quick"
+      "thank"
      ],
      "suggestion": "Exactly. Cheers, ta, thanks — all mean thank you. You're a quick learner!",
      "suggestionFa": "دقیقاً. cheers، ta، thanks — همه یعنی ممنون. تو سریع یاد می‌گیری!",
