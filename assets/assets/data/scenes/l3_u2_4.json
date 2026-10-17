@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "blanket",
       "another",
+      "blanket",
       "course",
       "shall"
      ],
@@ -34,8 +34,8 @@
      "keywords": [
       "problem",
       "feeling",
-      "like",
-      "have"
+      "been",
+      "like"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
      "suggestionFa": "مشکلی نیست. چند وقته این‌طوری هستید؟",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "would",
       "happy",
-      "like",
-      "kind"
+      "would",
+      "kind",
+      "like"
      ],
      "suggestion": "I'd be happy to. What kind would you like?",
      "suggestionFa": "با کمال میل. چه نوعی دوست دارید؟",
@@ -191,8 +191,8 @@
      "keywords": [
       "you've",
       "looked",
-      "after",
-      "don't"
+      "don't",
+      "after"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",

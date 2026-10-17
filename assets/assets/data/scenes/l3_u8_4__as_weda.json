@@ -24,8 +24,8 @@
       "bathroom",
       "dripping",
       "driving",
-      "keeps",
-      "night"
+      "night",
+      "keeps"
      ],
      "suggestion": "Can you hear that drip, love? The bathroom tap keeps dripping all night. It's driving me mad!",
      "suggestionFa": "اون چکه را می‌شنوی عزیزم؟ شیر حموم تمام شب مدام چکه می‌کنه. داره دیوونه‌م می‌کنه!",
@@ -49,8 +49,8 @@
       "properly",
       "really",
       "won't",
-      "push",
-      "have"
+      "turn",
+      "push"
      ],
      "suggestion": "And the hot tap won't turn off properly. I have to push really hard.",
      "suggestionFa": "و شیر آب گرم درست بسته نمیشه. باید خیلی محکم فشار بدم.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "george",
       "aren't",
+      "george",
       "hands",
       "these",
-      "were"
+      "used"
      ],
      "suggestion": "George used to do all these jobs. But his hands aren't what they were.",
      "suggestionFa": "ویلیام قبلاً همهٔ این کارها را می‌کرد. ولی دستاش دیگه مثل قبل نیستن.",
@@ -99,8 +99,8 @@
       "disappearing",
       "teddy's",
       "nicola",
-      "would",
-      "takes"
+      "keeps",
+      "would"
      ],
      "suggestion": "Would you? You're a gem. Oh, and the bath plug keeps disappearing. I think Nicola takes it for her teddy's bath!",
      "suggestionFa": "واقعاً؟ تو جواهری. آه، و درپوش وان مدام گم میشه. فکر کنم نیکولا برای حموم خرسش برمی‌داره!",

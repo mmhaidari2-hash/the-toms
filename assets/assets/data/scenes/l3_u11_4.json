@@ -1,0 +1,434 @@
+{
+ "id": "l3_u11_4",
+ "characterId": "weda",
+ "title": "The prescription mix-up",
+ "titleFa": "اشتباه در نسخه",
+ "setting": "When things go wrong · Level 3",
+ "settingFa": "وقتی اوضاع خراب می‌شود",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dawson",
+   "text": "Hello again. Picking up George's repeat prescription?",
+   "translations": {
+    "fa": "دوباره سلام. نسخهٔ تکراری جورج را می‌برید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "should",
+      "ready",
+      "today"
+     ],
+     "suggestion": "Yes please. It should be ready today.",
+     "suggestionFa": "آره لطفاً. باید امروز آماده باشه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompson",
+      "behalf",
+      "george",
+      "come"
+     ],
+     "suggestion": "Yes. I've come on behalf of George Thompson.",
+     "suggestionFa": "آره. از طرف جورج تامپسون اومدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "picking up",
+     "fa": "تحویل گرفتن"
+    },
+    {
+     "word": "repeat prescription",
+     "fa": "نسخهٔ تکراری"
+    },
+    {
+     "word": "on behalf of",
+     "fa": "از طرف"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"repeat prescription\" is for regular medication — you order it without seeing the doctor each time.",
+    "fa": "نسخهٔ تکراری برای داروهای منظم است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dawson",
+   "text": "Here we are — three items. Can you confirm his address?",
+   "translations": {
+    "fa": "بفرمایید — سه قلم. می‌تونید آدرسش را تأیید کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hackney",
+      "street",
+      "mare"
+     ],
+     "suggestion": "12 Mare Street, Hackney.",
+     "suggestionFa": "پلاک ۱۲ مِر استریت، هاکنی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "same",
+      "mine",
+      "as"
+     ],
+     "suggestion": "Of course. It's the same as mine.",
+     "suggestionFa": "حتماً. همون آدرس منه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "items",
+     "fa": "اقلام"
+    },
+    {
+     "word": "confirm",
+     "fa": "تأیید کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Hang on, love. There should be four items. Where's his water tablet?",
+   "translations": {
+    "fa": "صبر کن عزیزم. باید چهار قلم باشه. قرص ادرارآورش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missing",
+      "mistake",
+      "there's",
+      "think"
+     ],
+     "suggestion": "I think there's been a mistake. One item is missing.",
+     "suggestionFa": "فکر کنم اشتباهی شده. یه قلم کمه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expecting",
+      "could",
+      "check",
+      "again"
+     ],
+     "suggestion": "Could you check again? We were expecting four.",
+     "suggestionFa": "می‌شه دوباره چک کنید؟ منتظر چهار تا بودیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hang on",
+     "fa": "صبر کن"
+    },
+    {
+     "word": "water tablet",
+     "fa": "قرص ادرارآور"
+    },
+    {
+     "word": "missing",
+     "fa": "کم/گم"
+    },
+    {
+     "word": "expecting",
+     "fa": "انتظار داشتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is a mistake one missing",
+      "is missing one"
+     ],
+     "echo": "One item seems to be missing? Let me check.",
+     "better": "I think one item is missing.",
+     "betterFa": "فکر کنم یه قلم کمه."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dawson",
+   "text": "Let me look… Ah. The surgery only sent three. The furosemide wasn't on the request.",
+   "translations": {
+    "fa": "بذارید ببینم… آه. مطب فقط سه تا فرستاده. فوروسماید تو درخواست نبود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "takes",
+      "every",
+      "day"
+     ],
+     "suggestion": "But he takes it every day. What should we do?",
+     "suggestionFa": "ولی هر روز می‌خوره. چی کار کنیم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surgery",
+      "mistake",
+      "by"
+     ],
+     "suggestion": "Is that a mistake by the surgery?",
+     "suggestionFa": "این اشتباه مطبه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surgery",
+     "fa": "مطب"
+    },
+    {
+     "word": "request",
+     "fa": "درخواست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "He's got two days left. He mustn't run out — it's for his heart.",
+   "translations": {
+    "fa": "دو روز دیگه داره. نباید تموم بشه — برای قلبشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contact",
+      "surgery",
+      "us"
+     ],
+     "suggestion": "Can you contact the surgery for us?",
+     "suggestionFa": "می‌تونید از طرف ما با مطب تماس بگیرید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "emergency",
+      "supply",
+      "there",
+      "give"
+     ],
+     "suggestion": "Is there an emergency supply you can give?",
+     "suggestionFa": "یه ذخیرهٔ اضطراری هست که بتونید بدید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    },
+    {
+     "word": "run out",
+     "fa": "تمام شدن"
+    },
+    {
+     "word": "emergency supply",
+     "fa": "ذخیرهٔ اضطراری"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dawson",
+   "text": "I'll email the surgery now and mark it urgent. It's usually sorted within 48 hours.",
+   "translations": {
+    "fa": "الان به مطب ایمیل می‌زنم و فوریش علامت می‌زنم. معمولاً تا ۴۸ ساعت درست میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ready",
+      "isn't",
+      "time",
+      "if"
+     ],
+     "suggestion": "And if it isn't ready in time?",
+     "suggestionFa": "و اگه به‌موقع آماده نشه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surgery",
+      "should",
+      "thank",
+      "call"
+     ],
+     "suggestion": "Thank you. Should we call the surgery too?",
+     "suggestionFa": "ممنون. ما هم به مطب زنگ بزنیم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "urgent",
+     "fa": "فوری"
+    },
+    {
+     "word": "sorted",
+     "fa": "حل‌شده"
+    },
+    {
+     "word": "in time",
+     "fa": "به‌موقع"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dawson",
+   "text": "If it's not here by Thursday, I can give an emergency supply — a few days' worth. Bring his NHS number.",
+   "translations": {
+    "fa": "اگه تا پنجشنبه نرسید، می‌تونم یه ذخیرهٔ اضطراری بدم — به اندازهٔ چند روز. شمارهٔ NHS‌ش را بیارید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "relief",
+      "where",
+      "find"
+     ],
+     "suggestion": "That's a relief. Where do we find his NHS number?",
+     "suggestionFa": "خیالم راحت شد. شمارهٔ NHS‌ش را کجا پیدا کنیم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "really",
+      "thank"
+     ],
+     "suggestion": "Thank you, that's really helpful.",
+     "suggestionFa": "ممنون، خیلی کمک کرد.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a few days' worth",
+     "fa": "به اندازهٔ چند روز"
+    },
+    {
+     "word": "NHS number",
+     "fa": "شمارهٔ ملی سلامت"
+    },
+    {
+     "word": "relief",
+     "fa": "آسودگی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Pharmacists can give an emergency supply of regular medicines in many cases.",
+    "fa": "داروسازان می‌توانند ذخیرهٔ اضطراری بدهند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dawson",
+   "text": "It's on his NHS app or any letter from the hospital. And use the app to order — it shows exactly what was requested.",
+   "translations": {
+    "fa": "تو اپ NHS‌ش هست یا هر نامه‌ای از بیمارستان. و از اپ برای سفارش استفاده کنید — دقیقاً نشون می‌ده چی درخواست شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "we'll",
+      "app",
+      "set"
+     ],
+     "suggestion": "We'll set up the app tonight.",
+     "suggestionFa": "امشب اپ را راه‌اندازی می‌کنیم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "download",
+      "george",
+      "i'll",
+      "help"
+     ],
+     "suggestion": "I'll help George download it.",
+     "suggestionFa": "به جورج کمک می‌کنم دانلودش کنه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "set up",
+     "fa": "راه‌اندازی کردن"
+    },
+    {
+     "word": "download",
+     "fa": "دانلود کردن"
+    },
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "Thank you, both. Forty years a nurse, and I still get caught out by paperwork! Come on, love — let's get him his tea.",
+   "translations": {
+    "fa": "ممنون، از هر دوتون. چهل سال پرستار بودم، و هنوز گیر کاغذبازی می‌افتم! بیا عزیزم — بریم چاییش را بدیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

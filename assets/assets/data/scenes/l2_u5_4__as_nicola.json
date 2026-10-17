@@ -23,8 +23,8 @@
      "keywords": [
       "happened",
       "school",
-      "today",
-      "guess"
+      "guess",
+      "today"
      ],
      "suggestion": "Guess what happened at school today! Guess!",
      "suggestionFa": "حدس بزن امروز تو مدرسه چی شد! حدس بزن!",
@@ -47,9 +47,9 @@
      "keywords": [
       "brought",
       "hamster",
-      "peanut",
       "called",
-      "ellis"
+      "peanut",
+      "first"
      ],
      "suggestion": "No! First, Mrs Ellis brought a hamster to class. It's called Peanut!",
      "suggestionFa": "نه! اول، خانم الیس یه همستر آورد کلاس. اسمش پینات‌ـه!",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "screamed",
       "everyone",
+      "screamed",
       "escaped",
       "tables",
       "under"
@@ -97,9 +97,9 @@
      "keywords": [
       "eating",
       "grapes",
+      "after",
       "found",
-      "lunch",
-      "after"
+      "lunch"
      ],
      "suggestion": "After that, Mia found it in her lunch box! It was eating her grapes!",
      "suggestionFa": "بعد از اون، میا تو ظرف ناهارش پیداش کرد! داشت انگورهاش را می‌خورد!",

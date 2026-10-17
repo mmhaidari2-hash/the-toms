@@ -1,0 +1,446 @@
+{
+ "id": "l1_u11_2",
+ "characterId": "tom",
+ "title": "Saturday chores",
+ "titleFa": "کارهای خانهٔ شنبه",
+ "setting": "A day at home · Level 1",
+ "settingFa": "یک روز در خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right! It's Saturday. Chores first, football later. Can you help me?",
+   "translations": {
+    "fa": "خب! شنبه‌ست. اول کارهای خونه، بعد فوتبال. کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "can"
+     ],
+     "suggestion": "Of course. What can I do?",
+     "suggestionFa": "حتماً. چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "washing",
+      "sure",
+      "i'll",
+      "up"
+     ],
+     "suggestion": "Sure. I'll do the washing-up.",
+     "suggestionFa": "باشه. ظرف‌ها را می‌شورم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chores",
+     "fa": "کارهای خانه"
+    },
+    {
+     "word": "later",
+     "fa": "بعداً"
+    },
+    {
+     "word": "washing-up",
+     "fa": "ظرف شستن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"washing-up\" = American \"doing the dishes\".",
+    "fa": "washing-up یعنی ظرف شستن."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Can you hoover the hallway? The hoover's under the stairs.",
+   "translations": {
+    "fa": "می‌تونی راهرو را جارو برقی بکشی؟ جاروبرقی زیر پله‌هاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "plug"
+     ],
+     "suggestion": "Yes. Where's the plug?",
+     "suggestionFa": "آره. پریز کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "now"
+     ],
+     "suggestion": "I'll do it now.",
+     "suggestionFa": "الان انجامش می‌دم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hoover",
+     "fa": "جارو برقی (کشیدن)"
+    },
+    {
+     "word": "hallway",
+     "fa": "راهرو"
+    },
+    {
+     "word": "under the stairs",
+     "fa": "زیر پله‌ها"
+    },
+    {
+     "word": "plug",
+     "fa": "پریز/دوشاخه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits often say \"hoover\" (a brand name) for vacuum cleaner.",
+    "fa": "hoover یعنی جاروبرقی."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i hoover now",
+      "i do now"
+     ],
+     "echo": "You'll do it now? Brilliant!",
+     "better": "I'll do it now.",
+     "betterFa": "الان انجامش می‌دم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
+   "translations": {
+    "fa": "کنار در. رایان! می‌تونی سطل‌ها را ببری بیرون؟ دوشنبه روز سطل زباله‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "which",
+      "bin"
+     ],
+     "suggestion": "Which bin is for recycling?",
+     "suggestionFa": "کدوم سطل برای بازیافته؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan",
+      "bins",
+      "help",
+      "can"
+     ],
+     "suggestion": "I can help Ryan with the bins.",
+     "suggestionFa": "می‌تونم به رایان با سطل‌ها کمک کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bins",
+     "fa": "سطل‌های زباله"
+    },
+    {
+     "word": "take out",
+     "fa": "بیرون بردن"
+    },
+    {
+     "word": "bin day",
+     "fa": "روز جمع‌آوری زباله"
+    },
+    {
+     "word": "recycling",
+     "fa": "بازیافت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "The blue bin is for recycling — paper, cans and plastic. The black bin is for rubbish.",
+   "translations": {
+    "fa": "سطل آبی برای بازیافته — کاغذ، قوطی و پلاستیک. سطل سیاه برای زباله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "waste",
+      "food"
+     ],
+     "suggestion": "And food waste?",
+     "suggestionFa": "و پسماند غذا؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "recycling",
+      "blue",
+      "got",
+      "ok"
+     ],
+     "suggestion": "OK, blue for recycling. Got it.",
+     "suggestionFa": "باشه، آبی برای بازیافت. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cans",
+     "fa": "قوطی‌ها"
+    },
+    {
+     "word": "rubbish",
+     "fa": "زباله"
+    },
+    {
+     "word": "food waste",
+     "fa": "پسماند غذا"
+    },
+    {
+     "word": "got it",
+     "fa": "فهمیدم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK councils collect bins on different days, with separate bins for recycling and food waste.",
+    "fa": "شوراها سطل‌های جدا دارند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Food waste goes in the little brown caddy. Now, the washing. Can you hang it on the line?",
+   "translations": {
+    "fa": "پسماند غذا می‌ره تو سطل کوچیک قهوه‌ای. حالا، لباس‌ها. می‌تونی رو بند پهنشون کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "going",
+      "rain"
+     ],
+     "suggestion": "Is it going to rain?",
+     "suggestionFa": "قراره بارون بیاد؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "pegs"
+     ],
+     "suggestion": "Yes. Where are the pegs?",
+     "suggestionFa": "آره. گیره‌ها کجان؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "caddy",
+     "fa": "سطل کوچک"
+    },
+    {
+     "word": "washing",
+     "fa": "لباس‌های شسته"
+    },
+    {
+     "word": "line",
+     "fa": "بند رخت"
+    },
+    {
+     "word": "pegs",
+     "fa": "گیره‌های لباس"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Good question! In Britain, always check the sky first. Hmm… it looks OK.",
+   "translations": {
+    "fa": "سؤال خوبیه! تو بریتانیا، همیشه اول آسمون را نگاه کن. هوم… خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quick",
+      "then",
+      "i'll"
+     ],
+     "suggestion": "I'll be quick, then!",
+     "suggestionFa": "پس سریع انجامش می‌دم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dryer",
+      "maybe",
+      "can",
+      "use"
+     ],
+     "suggestion": "Maybe we can use the dryer.",
+     "suggestionFa": "شاید بتونیم از خشک‌کن استفاده کنیم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check",
+     "fa": "نگاه کردن"
+    },
+    {
+     "word": "sky",
+     "fa": "آسمان"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    },
+    {
+     "word": "dryer",
+     "fa": "خشک‌کن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "The dryer is broken. Typical! I'll call someone on Monday. Can you water the plants too?",
+   "translations": {
+    "fa": "خشک‌کن خرابه. همیشه همین‌طوره! دوشنبه به یکی زنگ می‌زنم. گلدون‌ها را هم آب می‌دی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plants",
+      "water",
+      "i'll"
+     ],
+     "suggestion": "Yes, I'll water the plants.",
+     "suggestionFa": "آره، گل‌ها را آب می‌دم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "watering",
+      "where's",
+      "can"
+     ],
+     "suggestion": "Where's the watering can?",
+     "suggestionFa": "آب‌پاش کجاست؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broken",
+     "fa": "خراب"
+    },
+    {
+     "word": "typical",
+     "fa": "همیشگی/معمول"
+    },
+    {
+     "word": "water the plants",
+     "fa": "آب دادن به گیاهان"
+    },
+    {
+     "word": "watering can",
+     "fa": "آب‌پاش"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "By the back door. Brilliant — you're better than Ryan! Do you do chores at home in your country?",
+   "translations": {
+    "fa": "کنار در پشتی. عالیه — از رایان بهتری! تو کشورت کارهای خونه را انجام می‌دی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "help"
+     ],
+     "suggestion": "Yes, I always help my mum.",
+     "suggestionFa": "آره، همیشه به مامانم کمک می‌کنم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "much"
+     ],
+     "suggestion": "Not much. My mum does everything!",
+     "suggestionFa": "زیاد نه. مامانم همه کار را می‌کنه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "back door",
+     "fa": "در پشتی"
+    },
+    {
+     "word": "help",
+     "fa": "کمک کردن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Ha! Mums are the same everywhere. Right — chores done. Cup of tea, then football?",
+   "translations": {
+    "fa": "ها! مامان‌ها همه جا یه جورن. خب — کارها تموم. یه چای، بعد فوتبال؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

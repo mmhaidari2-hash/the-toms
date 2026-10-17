@@ -22,7 +22,7 @@
       "through",
       "agenda",
       "start",
-      "going"
+      "shall"
      ],
      "suggestion": "Sure. Shall we start by going through the agenda?",
      "suggestionFa": "حتماً. با مرور دستور جلسه شروع کنیم؟",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
+      "point",
       "three",
       "under",
-      "point",
-      "item"
+      "come"
      ],
      "suggestion": "Good point. Let's park that and come back to it under item three.",
      "suggestionFa": "نکتهٔ خوبیه. بیاید فعلاً کنار بذاریمش و تو مورد سه برگردیم سراغش.",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "afternoon",
       "circulate",
+      "afternoon",
       "everyone",
       "action"
      ],

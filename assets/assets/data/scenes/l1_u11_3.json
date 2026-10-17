@@ -1,0 +1,409 @@
+{
+ "id": "l1_u11_3",
+ "characterId": "ryan",
+ "title": "A parcel at the door",
+ "titleFa": "بسته دم در",
+ "setting": "A day at home · Level 1",
+ "settingFa": "یک روز در خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "That's the doorbell! It's probably my parcel. Can you get it? I'm in my pyjamas.",
+   "translations": {
+    "fa": "زنگ دره! احتمالاً بستهٔ منه. می‌تونی در را باز کنی؟ لباس خوابمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i'll",
+      "get",
+      "ok"
+     ],
+     "suggestion": "OK, I'll get it.",
+     "suggestionFa": "باشه، من باز می‌کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "parcel"
+     ],
+     "suggestion": "What's in the parcel?",
+     "suggestionFa": "تو بسته چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doorbell",
+     "fa": "زنگ در"
+    },
+    {
+     "word": "probably",
+     "fa": "احتمالاً"
+    },
+    {
+     "word": "parcel",
+     "fa": "بسته"
+    },
+    {
+     "word": "pyjamas",
+     "fa": "لباس خواب"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pyjamas\" = American \"pajamas\".",
+    "fa": "املای بریتانیایی pyjamas است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "courier",
+   "text": "Hiya! Parcel for Ryan Thompson?",
+   "translations": {
+    "fa": "سلام! بسته برای رایان تامپسون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lives",
+      "here",
+      "he"
+     ],
+     "suggestion": "Yes, he lives here.",
+     "suggestionFa": "بله، اینجا زندگی می‌کنه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sign",
+      "need"
+     ],
+     "suggestion": "Yes. Do I need to sign?",
+     "suggestionFa": "بله. لازمه امضا کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hiya",
+     "fa": "سلام (خودمانی)"
+    },
+    {
+     "word": "lives",
+     "fa": "زندگی می‌کند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "courier",
+   "text": "Yeah, just sign here with your finger, mate. On the screen.",
+   "translations": {
+    "fa": "آره، فقط با انگشتت اینجا امضا کن رفیق. رو صفحه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "here"
+     ],
+     "suggestion": "Here? Like this?",
+     "suggestionFa": "اینجا؟ این‌طوری؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "done",
+      "ok"
+     ],
+     "suggestion": "OK. Done.",
+     "suggestionFa": "باشه. تموم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "finger",
+     "fa": "انگشت"
+    },
+    {
+     "word": "screen",
+     "fa": "صفحه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "courier",
+   "text": "Perfect. There are two parcels, actually. There's one for Leslie too.",
+   "translations": {
+    "fa": "عالیه. راستش دو تا بسته‌ست. یکی هم برای لزلیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parcels",
+      "thank",
+      "two"
+     ],
+     "suggestion": "Two parcels? Thank you.",
+     "suggestionFa": "دو تا بسته؟ ممنون.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "big",
+      "one"
+     ],
+     "suggestion": "Is the big one for Leslie?",
+     "suggestionFa": "بزرگه مال لزلیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "there are",
+     "fa": "وجود دارد (جمع)"
+    },
+    {
+     "word": "there's",
+     "fa": "وجود دارد (مفرد)"
+    },
+    {
+     "word": "actually",
+     "fa": "در واقع"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is two",
+      "there are one"
+     ],
+     "echo": "There are two parcels, yeah!",
+     "better": "There are two parcels.",
+     "betterFa": "دو تا بسته هست."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "courier",
+   "text": "The big one's for Leslie. It's heavy! Shall I put it inside the door?",
+   "translations": {
+    "fa": "بزرگه مال لزلیه. سنگینه! بذارمش داخل در؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "that's",
+      "kind"
+     ],
+     "suggestion": "Yes please, that's very kind.",
+     "suggestionFa": "آره لطفاً، خیلی لطف دارید.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "carry",
+      "can"
+     ],
+     "suggestion": "No thanks, I can carry it.",
+     "suggestionFa": "نه ممنون، خودم می‌تونم ببرمش.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "carry",
+     "fa": "حمل کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "courier",
+   "text": "No problem. Oh — there's also one for next door. Number 14. They're out. Can you take it?",
+   "translations": {
+    "fa": "مشکلی نیست. اوه — یکی هم برای همسایه‌ست. پلاک ۱۴. خونه نیستن. می‌تونی تحویل بگیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "take",
+      "them",
+      "can"
+     ],
+     "suggestion": "Yes, I can take it for them.",
+     "suggestionFa": "آره، می‌تونم براشون بگیرم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "sorry",
+      "soon",
+      "out"
+     ],
+     "suggestion": "Sorry, I'm going out soon.",
+     "suggestionFa": "ببخشید، به زودی بیرون می‌رم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next door",
+     "fa": "همسایهٔ بغلی"
+    },
+    {
+     "word": "out",
+     "fa": "بیرون/خانه نبودن"
+    },
+    {
+     "word": "going out",
+     "fa": "بیرون رفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Couriers often leave parcels with neighbours, and post a card saying where it is.",
+    "fa": "پیک‌ها بسته را پیش همسایه می‌گذارند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "courier",
+   "text": "Cheers! I'll put a card through their door. Have a good one!",
+   "translations": {
+    "fa": "ممنون! یه کارت از لای درشون می‌ندازم. روز خوبی داشته باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bye"
+     ],
+     "suggestion": "You too. Bye!",
+     "suggestionFa": "شما هم. خداحافظ!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "safely",
+      "drive"
+     ],
+     "suggestion": "Thanks. Drive safely!",
+     "suggestionFa": "ممنون. با احتیاط رانندگی کنید!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "have a good one",
+     "fa": "روز خوبی داشته باشی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Mate, is that my parcel? Brilliant! It's my new headphones!",
+   "translations": {
+    "fa": "رفیق، بستهٔ منه؟ عالیه! هدفون جدیدمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "here",
+      "mum",
+      "go"
+     ],
+     "suggestion": "Here you go. And there's one for your mum.",
+     "suggestionFa": "بفرما. و یکی هم برای مامانت.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "next",
+      "door"
+     ],
+     "suggestion": "Yes! And one for next door.",
+     "suggestionFa": "آره! و یکی برای همسایه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "headphones",
+     "fa": "هدفون"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Cheers! Put Mum's on the stairs. And don't tell her I spent all my birthday money!",
+   "translations": {
+    "fa": "مرسی! مال مامان را بذار رو پله‌ها. و بهش نگو همهٔ پول تولدم را خرج کردم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

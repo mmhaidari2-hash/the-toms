@@ -23,9 +23,9 @@
      "keywords": [
       "everyone",
       "minutes",
-      "coats",
-      "right",
-      "shoes"
+      "shoes",
+      "leave",
+      "right"
      ],
      "suggestion": "Right, everyone! Shoes on! Coats on! We leave in five minutes!",
      "suggestionFa": "خب همه! کفش‌ها پا! کت‌ها تن! پنج دقیقه دیگه راه می‌افتیم!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "nicola",
+      "please",
       "help",
       "coat",
       "cold"
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,8 +130,8 @@
      "keywords": [
       "brilliant",
       "forget",
-      "lunch",
       "don't",
+      "lunch",
       "ryan"
      ],
      "suggestion": "Brilliant. Ryan! Don't forget your PE kit! And don't forget your lunch!",
@@ -219,8 +219,8 @@
       "william",
       "don't",
       "down",
-      "has",
-      "got"
+      "got",
+      "eat"
      ],
      "suggestion": "William, don't eat that! Put it down! What has he got?",
      "suggestionFa": "ویلیام، اونو نخور! بذارش زمین! چی دستشه؟",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "behind",
-      "close",
       "let's",
+      "close",
       "check",
       "bags"
      ],
@@ -270,7 +270,7 @@
       "morning",
       "thanks",
       "every",
-      "help"
+      "like"
      ],
      "suggestion": "Good thinking. Every morning is like this! Thanks for your help, love.",
      "suggestionFa": "فکر خوبیه. هر صبح همینطوره! ممنون از کمکت عزیزم.",

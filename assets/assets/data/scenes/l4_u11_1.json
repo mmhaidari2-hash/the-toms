@@ -1,0 +1,479 @@
+{
+ "id": "l4_u11_1",
+ "characterId": "tom",
+ "title": "The shocking energy bill",
+ "titleFa": "قبض برق وحشتناک",
+ "setting": "Bills and paperwork · Level 4",
+ "settingFa": "قبض‌ها و کاغذبازی",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Three hundred and forty quid for one month? That can't be right. Would you ring them? You're calmer than me.",
+   "translations": {
+    "fa": "سیصد و چهل پوند برای یه ماه؟ نمی‌تونه درست باشه. زنگشون می‌زنی؟ تو از من آروم‌تری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "account",
+      "number",
+      "sure",
+      "have"
+     ],
+     "suggestion": "Sure. Have you got the account number?",
+     "suggestionFa": "حتماً. شمارهٔ حساب را داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "estimate",
+      "first",
+      "check",
+      "bill"
+     ],
+     "suggestion": "Let me check the bill first. Is it an estimate?",
+     "suggestionFa": "اول بذار قبض را چک کنم. تخمینیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "can't be right",
+     "fa": "نمی‌تواند درست باشد"
+    },
+    {
+     "word": "calmer",
+     "fa": "آرام‌تر"
+    },
+    {
+     "word": "estimate",
+     "fa": "تخمین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "energy",
+   "text": "Thanks for calling PowerHome Energy, you're speaking to Josh. Can I take your account number?",
+   "translations": {
+    "fa": "ممنون که با پاورهوم انرژی تماس گرفتید، با جاش صحبت می‌کنید. شمارهٔ حسابتون را می‌دید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "calling",
+      "behalf",
+      "tom"
+     ],
+     "suggestion": "It's PH 0045 7721. I'm calling on behalf of Tom Thompson.",
+     "suggestionFa": "PH ۰۰۴۵ ۷۷۲۱. از طرف تام تامپسون زنگ می‌زنم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "query",
+      "bill",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "Yes — PH 0045 7721. I'd like to query a bill.",
+     "suggestionFa": "بله — PH ۰۰۴۵ ۷۷۲۱. می‌خوام دربارهٔ یه قبض سؤال کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on behalf of",
+     "fa": "از طرف"
+    },
+    {
+     "word": "query",
+     "fa": "پرسیدن/اعتراض کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "energy",
+   "text": "Thanks. I'll need Tom to confirm he's happy for you to discuss the account.",
+   "translations": {
+    "fa": "ممنون. لازمه تام تأیید کنه که راضیه شما دربارهٔ حساب صحبت کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "josh",
+      "say",
+      "can"
+     ],
+     "suggestion": "Of course. Tom, can you say yes to Josh?",
+     "suggestionFa": "حتماً. تام، می‌تونی به جاش بگی آره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "right",
+      "i'll",
+      "he's",
+      "pass"
+     ],
+     "suggestion": "He's right here. I'll pass you over.",
+     "suggestionFa": "همین‌جاست. گوشی را بهش می‌دم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "confirm",
+     "fa": "تأیید کردن"
+    },
+    {
+     "word": "discuss",
+     "fa": "صحبت کردن"
+    },
+    {
+     "word": "pass you over",
+     "fa": "گوشی را دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Under data protection rules, companies need the account holder's permission before talking to anyone else.",
+    "fa": "قوانین حفاظت داده مجوز صاحب حساب را می‌خواهد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "energy",
+   "text": "Lovely, that's all sorted. So, what's the issue with the bill?",
+   "translations": {
+    "fa": "عالی، حل شد. خب، مشکل قبض چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doesn't",
+      "higher",
+      "usual",
+      "three"
+     ],
+     "suggestion": "It's three times higher than usual. That doesn't seem right.",
+     "suggestionFa": "سه برابر معمولیه. به نظر درست نمیاد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doubled",
+      "amount",
+      "we've",
+      "year"
+     ],
+     "suggestion": "We've used the same amount as last year, but it's doubled.",
+     "suggestionFa": "همون مقدار پارسال مصرف کردیم، ولی دو برابر شده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "issue",
+     "fa": "مشکل"
+    },
+    {
+     "word": "three times",
+     "fa": "سه برابر"
+    },
+    {
+     "word": "doubled",
+     "fa": "دو برابر شده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is too much expensive",
+      "bill is very high than"
+     ],
+     "echo": "It's much higher than usual? Let's have a look.",
+     "better": "It's much higher than usual.",
+     "betterFa": "خیلی بیشتر از معمولیه."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "energy",
+   "text": "I can see it's based on an estimated reading. Do you have a smart meter?",
+   "translations": {
+    "fa": "می‌بینم بر اساس خوانش تخمینیه. کنتور هوشمند دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stairs",
+      "meter",
+      "under",
+      "old"
+     ],
+     "suggestion": "No, it's an old meter under the stairs.",
+     "suggestionFa": "نه، یه کنتور قدیمی زیر پله‌هاست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "readings",
+      "sending",
+      "don't",
+      "think"
+     ],
+     "suggestion": "We do, but I don't think it's sending readings.",
+     "suggestionFa": "داریم، ولی فکر نکنم خوانش‌ها را بفرسته.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "estimated reading",
+     "fa": "خوانش تخمینی"
+    },
+    {
+     "word": "smart meter",
+     "fa": "کنتور هوشمند"
+    },
+    {
+     "word": "readings",
+     "fa": "خوانش‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "energy",
+   "text": "That explains it. If you give me an actual reading now, I can re-issue the bill.",
+   "translations": {
+    "fa": "این توضیحش می‌ده. اگه الان یه خوانش واقعی بدید، می‌تونم قبض را دوباره صادر کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "moment",
+      "says",
+      "one"
+     ],
+     "suggestion": "One moment… It says 04471.",
+     "suggestionFa": "یه لحظه… نوشته ۰۴۴۷۱.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "photo",
+      "meter",
+      "shall"
+     ],
+     "suggestion": "Shall I send a photo of the meter instead?",
+     "suggestionFa": "به جاش یه عکس از کنتور بفرستم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "actual",
+     "fa": "واقعی"
+    },
+    {
+     "word": "re-issue",
+     "fa": "دوباره صادر کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Sending regular meter readings avoids \"estimated bills\", which can be much too high (or too low).",
+    "fa": "ارسال منظم خوانش جلوی قبض تخمینی را می‌گیرد."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "energy",
+   "text": "Perfect. With that reading, the new bill comes to £112. You've actually been overpaying.",
+   "translations": {
+    "fa": "عالی. با این خوانش، قبض جدید میشه ۱۱۲ پوند. در واقع بیشتر پرداخت کرده بودید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "refund",
+      "that's",
+      "will"
+     ],
+     "suggestion": "That's a huge difference! Will we get a refund?",
+     "suggestionFa": "چه تفاوت بزرگی! پولمون را پس می‌گیریم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reduced",
+      "direct",
+      "could",
+      "debit"
+     ],
+     "suggestion": "Could the direct debit be reduced, then?",
+     "suggestionFa": "پس می‌شه برداشت مستقیم را کم کرد؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comes to",
+     "fa": "بالغ می‌شود"
+    },
+    {
+     "word": "overpaying",
+     "fa": "اضافه پرداختن"
+    },
+    {
+     "word": "refund",
+     "fa": "بازپرداخت"
+    },
+    {
+     "word": "reduced",
+     "fa": "کاهش داده شود"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "energy",
+   "text": "You're £85 in credit. I can refund it or keep it on the account for winter. Which would you prefer?",
+   "translations": {
+    "fa": "۸۵ پوند اعتبار دارید. می‌تونم برگردونم یا برای زمستون تو حساب نگهش دارم. کدوم را ترجیح می‌دید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "winter",
+      "keep"
+     ],
+     "suggestion": "Please keep it for winter.",
+     "suggestionFa": "لطفاً برای زمستون نگهش دارید.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "refund",
+      "bank"
+     ],
+     "suggestion": "A refund to the bank, please.",
+     "suggestionFa": "برگشت به بانک، لطفاً.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in credit",
+     "fa": "بستانکار"
+    },
+    {
+     "word": "prefer",
+     "fa": "ترجیح دادن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "energy",
+   "text": "Done. And I'll book a smart meter engineer, free of charge. Anything else I can help with?",
+   "translations": {
+    "fa": "انجام شد. و یه مأمور کنتور هوشمند رایگان رزرو می‌کنم. کمک دیگه‌ای از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "helpful",
+      "that's",
+      "thank"
+     ],
+     "suggestion": "No, that's everything. Thank you for being so helpful.",
+     "suggestionFa": "نه، همین بود. ممنون که این‌قدر کمک کردید.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "summary",
+      "could",
+      "email",
+      "call"
+     ],
+     "suggestion": "Could you email me a summary of the call?",
+     "suggestionFa": "می‌شه خلاصهٔ تماس را برام ایمیل کنید؟",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free of charge",
+     "fa": "رایگان"
+    },
+    {
+     "word": "summary",
+     "fa": "خلاصه"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "tom",
+   "text": "Eighty-five quid in credit? You're a legend. I'd have shouted at him and got nowhere. Tea's on me.",
+   "translations": {
+    "fa": "هشتاد و پنج پوند اعتبار؟ تو اسطوره‌ای. من سرش داد می‌زدم و به هیچ جا نمی‌رسیدم. چای مهمون من."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

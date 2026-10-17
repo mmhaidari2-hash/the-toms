@@ -21,8 +21,8 @@
      "keywords": [
       "piccadilly",
       "circus",
-      "there",
-      "going"
+      "going",
+      "there"
      ],
      "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
      "suggestionFa": "دارم میرم پیکادیلی سیرکس. این اتوبوس اونجا وایمیسه؟",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "quicker",
       "meeting",
+      "quicker",
       "there",
       "i've"
      ],
@@ -123,8 +123,8 @@
     {
      "keywords": [
       "brilliant",
-      "love",
       "deck",
+      "love",
       "top"
      ],
      "suggestion": "Brilliant, I love the top deck!",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
+      "down",
       "chat",
-      "stay",
-      "okay"
+      "here"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "sealed",
-      "haha",
-      "lips"
+      "lips",
+      "haha"
      ],
      "suggestion": "Haha, my lips are sealed!",
      "suggestionFa": "ها ها، لبام دوخته‌ست!",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "that's",
-      "sign",
       "good",
+      "sign",
       "ha"
      ],
      "suggestion": "Ha! That's not a good sign.",
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "better",
+      "thanks",
       "than",
       "tom"
      ],

@@ -23,9 +23,9 @@
     {
      "keywords": [
       "unicorns",
+      "nice",
       "love",
-      "meet",
-      "nice"
+      "meet"
      ],
      "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
      "suggestionFa": "آره، عاشق تک‌شاخم! از آشناییت خوشحالم میا.",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
+      "squash",
       "orange",
       "course",
-      "squash",
       "each"
      ],
      "suggestion": "Of course — orange squash and a biscuit each.",
@@ -87,8 +87,8 @@
      "keywords": [
       "lunchtime",
       "nearly",
-      "just",
-      "then"
+      "then",
+      "just"
      ],
      "suggestion": "Just one biscuit, then. It's nearly lunchtime.",
      "suggestionFa": "پس فقط یه بیسکویت. نزدیک ناهاره.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "brother",
-      "sort",
       "like",
+      "sort",
       "her"
      ],
      "suggestion": "Sort of! I'm like her big brother.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "away",
       "iran",
+      "away",
       "far"
      ],
      "suggestion": "I'm from Iran. It's far away.",
@@ -233,8 +233,8 @@
     },
     {
      "keywords": [
-      "cats",
-      "lots"
+      "lots",
+      "cats"
      ],
      "suggestion": "No unicorns, but lots of cats!",
      "suggestionFa": "تک‌شاخ نه، ولی کلی گربه!",
@@ -270,9 +270,9 @@
     {
      "keywords": [
       "like",
-      "dog",
-      "i'd",
-      "but"
+      "day",
+      "but",
+      "one"
      ],
      "suggestion": "No, but I'd like a dog one day.",
      "suggestionFa": "نه، ولی یه روز سگ می‌خوام.",
@@ -320,8 +320,8 @@
     {
      "keywords": [
       "afterwards",
-      "tidy",
       "okay",
+      "tidy",
       "but"
      ],
      "suggestion": "Okay, but we tidy up afterwards!",

@@ -1,0 +1,446 @@
+{
+ "id": "l5_u11_4",
+ "characterId": "tom",
+ "title": "Is this call genuine?",
+ "titleFa": "این تماس واقعی است؟",
+ "setting": "Standing up for yourself · Level 5",
+ "settingFa": "از حق خود دفاع کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "My phone says it's the bank's fraud team. They say someone's trying to take money from my account. You're good at this — listen with me.",
+   "translations": {
+    "fa": "گوشیم می‌گه تیم کلاهبرداری بانکه. می‌گن یکی داره سعی می‌کنه از حسابم پول برداره. تو تو این کار خوبی — باهام گوش بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "details",
+      "speaker",
+      "don't",
+      "give"
+     ],
+     "suggestion": "Put it on speaker. Don't give them any details.",
+     "suggestionFa": "بذارش رو بلندگو. هیچ اطلاعاتی بهشون نده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wait",
+      "they",
+      "call",
+      "did"
+     ],
+     "suggestion": "Wait — did they call you, or did you call them?",
+     "suggestionFa": "صبر کن — اونا بهت زنگ زدن یا تو بهشون؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fraud team",
+     "fa": "تیم مقابله با کلاهبرداری"
+    },
+    {
+     "word": "on speaker",
+     "fa": "روی بلندگو"
+    },
+    {
+     "word": "details",
+     "fa": "اطلاعات"
+    }
+   ],
+   "cultureNote": {
+    "en": "Banks will never ask you to move money to a \"safe account\" or share your PIN or full password.",
+    "fa": "بانک هرگز رمز یا انتقال به «حساب امن» نمی‌خواهد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "They called me. The man says I need to move my savings to a \"safe account\" today, before it's too late.",
+   "translations": {
+    "fa": "اونا زنگ زدن. مرده می‌گه باید امروز پس‌اندازم را به یه «حساب امن» منتقل کنم، قبل از اینکه دیر بشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "classic",
+      "that's",
+      "scam",
+      "tom"
+     ],
+     "suggestion": "That's a classic scam, Tom. Hang up now.",
+     "suggestionFa": "این یه کلاهبرداری کلاسیکه تام. همین الان قطع کن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "calling",
+      "branch",
+      "which",
+      "from"
+     ],
+     "suggestion": "Ask him which branch he's calling from — then hang up.",
+     "suggestionFa": "ازش بپرس از کدوم شعبه زنگ می‌زنه — بعد قطع کن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "savings",
+     "fa": "پس‌انداز"
+    },
+    {
+     "word": "safe account",
+     "fa": "حساب امن"
+    },
+    {
+     "word": "classic",
+     "fa": "کلاسیک"
+    },
+    {
+     "word": "hang up",
+     "fa": "قطع کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "He's getting angry. He says if I hang up, I'll lose everything. Should I?",
+   "translations": {
+    "fa": "داره عصبانی میشه. می‌گه اگه قطع کنم، همه چی را از دست می‌دم. قطع کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pressure",
+      "signs",
+      "panic",
+      "fraud"
+     ],
+     "suggestion": "Yes. Pressure and panic are signs of fraud.",
+     "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "comfortable",
+      "directly",
+      "tell",
+      "bank"
+     ],
+     "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
+     "suggestionFa": "بهش بگو: «راحت نیستم. مستقیم به بانکم زنگ می‌زنم.»",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pressure",
+     "fa": "فشار"
+    },
+    {
+     "word": "panic",
+     "fa": "وحشت"
+    },
+    {
+     "word": "signs",
+     "fa": "نشانه‌ها"
+    },
+    {
+     "word": "directly",
+     "fa": "مستقیم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you must hang up quickly",
+      "hang up the phone fast"
+     ],
+     "echo": "Yes, hang up straight away.",
+     "better": "Hang up straight away.",
+     "betterFa": "فوراً قطع کن."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Done. I hung up. My heart's going like the clappers. What now?",
+   "translations": {
+    "fa": "انجام شد. قطع کردم. قلبم تند تند می‌زنه. حالا چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "another",
+      "minutes",
+      "phone",
+      "wait"
+     ],
+     "suggestion": "Wait five minutes, or use another phone, then call 159.",
+     "suggestionFa": "پنج دقیقه صبر کن، یا با یه گوشی دیگه، بعد به ۱۵۹ زنگ بزن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "back",
+      "card"
+     ],
+     "suggestion": "Call the number on the back of your card.",
+     "suggestionFa": "به شمارهٔ پشت کارتت زنگ بزن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "like the clappers",
+     "fa": "خیلی سریع (اصطلاح)"
+    },
+    {
+     "word": "159",
+     "fa": "شمارهٔ امن تماس با بانک"
+    }
+   ],
+   "cultureNote": {
+    "en": "159 is a UK number that connects you safely to your own bank. Scammers can keep a line open, so wait or use a different phone.",
+    "fa": "۱۵۹ شمارهٔ امن بانک است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "Good afternoon, Barclays fraud team, Siân speaking. How can I help?",
+   "translations": {
+    "fa": "عصر بخیر، تیم کلاهبرداری بارکلیز، سیان هستم. چطور کمک کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "suspicious",
+      "asking",
+      "friend",
+      "money"
+     ],
+     "suggestion": "My friend just had a suspicious call asking him to move money.",
+     "suggestionFa": "دوستم یه تماس مشکوک داشت که ازش می‌خواست پول جابه‌جا کنه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "barclays",
+      "claiming",
+      "report",
+      "like"
+     ],
+     "suggestion": "We'd like to report a scam call claiming to be from Barclays.",
+     "suggestionFa": "می‌خوایم یه تماس کلاهبرداری به اسم بارکلیز گزارش بدیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "suspicious",
+     "fa": "مشکوک"
+    },
+    {
+     "word": "claiming",
+     "fa": "ادعا کردن"
+    },
+    {
+     "word": "report",
+     "fa": "گزارش دادن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "You did exactly the right thing. Did you share any codes, passwords or card numbers?",
+   "translations": {
+    "fa": "دقیقاً کار درست را کردید. هیچ کد، رمز یا شمارهٔ کارتی دادید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "all"
+     ],
+     "suggestion": "No, nothing at all.",
+     "suggestionFa": "نه، اصلاً هیچی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stopped",
+      "before",
+      "birth",
+      "gave"
+     ],
+     "suggestion": "He gave his date of birth before I stopped him.",
+     "suggestionFa": "قبل از اینکه جلوش را بگیرم تاریخ تولدش را داد.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "codes",
+     "fa": "کدها"
+    },
+    {
+     "word": "passwords",
+     "fa": "رمزها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sian",
+   "text": "I've checked — no unusual activity. I'll add extra security to the account. You should also report it to Action Fraud.",
+   "translations": {
+    "fa": "چک کردم — فعالیت غیرعادی نیست. یه امنیت اضافه به حساب اضافه می‌کنم. باید به اکشن فراد هم گزارش بدید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "action",
+      "fraud"
+     ],
+     "suggestion": "What's Action Fraud?",
+     "suggestionFa": "اکشن فراد چیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "password",
+      "banking",
+      "online",
+      "should"
+     ],
+     "suggestion": "Should he change his online banking password?",
+     "suggestionFa": "باید رمز بانکداری آنلاینش را عوض کنه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unusual activity",
+     "fa": "فعالیت غیرعادی"
+    },
+    {
+     "word": "extra security",
+     "fa": "امنیت اضافه"
+    },
+    {
+     "word": "Action Fraud",
+     "fa": "مرکز ملی گزارش کلاهبرداری"
+    }
+   ],
+   "cultureNote": {
+    "en": "Action Fraud is the UK's national reporting centre for fraud and cybercrime. You can also forward scam texts to 7726.",
+    "fa": "پیامک‌های کلاهبرداری را به ۷۷۲۶ بفرستید."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sian",
+   "text": "It's the national fraud reporting centre. And yes, change it as a precaution. Honestly, you'd be amazed how many people fall for this.",
+   "translations": {
+    "fa": "مرکز ملی گزارش کلاهبرداریه. و آره، محض احتیاط عوضش کنه. راستش، تعجب می‌کنید چند نفر گول این را می‌خورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "report",
+      "we'll",
+      "thank"
+     ],
+     "suggestion": "We'll report it tonight. Thank you, Siân.",
+     "suggestionFa": "امشب گزارشش می‌دیم. ممنون سیان.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "targeted",
+      "george",
+      "people",
+      "often"
+     ],
+     "suggestion": "I'll warn George and Weda too — older people are often targeted.",
+     "suggestionFa": "به جورج و ودا هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "precaution",
+     "fa": "احتیاط"
+    },
+    {
+     "word": "fall for",
+     "fa": "گول خوردن"
+    },
+    {
+     "word": "warn",
+     "fa": "هشدار دادن"
+    },
+    {
+     "word": "targeted",
+     "fa": "هدف قرار گرفته"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Thank God you were here. Twenty grand, gone, just like that. Right — I'm ringing Dad. He answers every call like it's the Queen.",
+   "translations": {
+    "fa": "خدا را شکر اینجا بودی. بیست هزار پوند، رفته، همین‌طوری. خب — به بابا زنگ می‌زنم. به هر تماسی جواب می‌ده انگار ملکه‌ست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

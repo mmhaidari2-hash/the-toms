@@ -49,8 +49,8 @@
       "football",
       "that's",
       "laptop",
-      "boots",
-      "these"
+      "these",
+      "boots"
      ],
      "suggestion": "This is my desk. That's my laptop. And these are my football boots.",
      "suggestionFa": "این میزمه. اون لپ‌تاپمه. و این‌ها کفش‌های فوتبالمه.",
@@ -74,8 +74,8 @@
       "liverpool",
       "saturday",
       "posters",
-      "every",
-      "those"
+      "those",
+      "every"
      ],
      "suggestion": "Every Saturday. Those posters on the wall are my team. Liverpool!",
      "suggestionFa": "هر شنبه. اون پوسترهای روی دیوار تیممه. لیورپول!",
@@ -99,8 +99,8 @@
       "that's",
       "salah",
       "help",
-      "need",
-      "says"
+      "says",
+      "yeah"
      ],
      "suggestion": "Yeah, that's Salah. Mum says I need to tidy up. Can you help?",
      "suggestionFa": "آره، اون صلاحه. مامان می‌گه باید مرتب کنم. کمک می‌کنی؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "wardrobe",
-      "shirts",
       "drawer",
+      "shirts",
       "jeans",
-      "these"
+      "those"
      ],
      "suggestion": "Those T-shirts go in the drawer. These jeans go in the wardrobe.",
      "suggestionFa": "اون تی‌شرت‌ها می‌رن توی کشو. این شلوار جین‌ها توی کمد.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "books",
       "shelf",
+      "books",
       "gross",
-      "week",
-      "last"
+      "last",
+      "week"
      ],
      "suggestion": "Books go on the shelf. And this mug is from last week. Gross!",
      "suggestionFa": "کتاب‌ها روی قفسه. این ماگ هم مال هفتهٔ پیشه. چندش!",
@@ -199,8 +199,8 @@
       "cheers",
       "legend",
       "wanna",
-      "fifa",
-      "play"
+      "play",
+      "fifa"
      ],
      "suggestion": "Cheers, mate. You're a legend. Wanna play FIFA now?",
      "suggestionFa": "مرسی رفیق. تو بی‌نظیری. حالا فیفا بازی کنیم؟",

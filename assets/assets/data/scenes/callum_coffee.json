@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "white",
       "could",
+      "white",
       "have"
      ],
      "suggestion": "Could I have a flat white, please?",
@@ -105,8 +105,8 @@
      "keywords": [
       "regular",
       "take",
-      "away",
-      "fine"
+      "fine",
+      "away"
      ],
      "suggestion": "Take away, please — regular milk is fine.",
      "suggestionFa": "می‌برم، لطفاً — شیر معمولی خوبه.",
@@ -157,8 +157,8 @@
      "keywords": [
       "croissant",
       "have",
-      "i'll",
-      "then"
+      "then",
+      "i'll"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -257,9 +257,9 @@
     },
     {
      "keywords": [
-      "more",
       "nine",
       "then",
+      "more",
       "go"
      ],
      "suggestion": "Nine more to go, then!",
@@ -294,7 +294,7 @@
       "months",
       "moved",
       "here",
-      "ago"
+      "few"
      ],
      "suggestion": "Yes, I moved here a few months ago.",
      "suggestionFa": "آره، چند ماه پیش اومدم.",
@@ -304,10 +304,10 @@
     },
     {
      "keywords": [
-      "working",
       "started",
+      "working",
       "nearby",
-      "just"
+      "i've"
      ],
      "suggestion": "I've just started working nearby.",
      "suggestionFa": "تازه کار نزدیک اینجا را شروع کردم.",
@@ -339,9 +339,9 @@
     {
      "keywords": [
       "where's",
-      "thanks",
       "callum",
-      "chippy"
+      "chippy",
+      "thanks"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -353,8 +353,8 @@
      "keywords": [
       "really",
       "that's",
-      "back",
-      "sure"
+      "kind",
+      "back"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",
      "suggestionFa": "خیلی لطف دارید. مطمئنم برمی‌گردم.",

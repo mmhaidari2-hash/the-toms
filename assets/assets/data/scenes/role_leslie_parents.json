@@ -33,8 +33,8 @@
     {
      "keywords": [
       "leaves",
-      "house",
       "times",
+      "house",
       "time"
      ],
      "suggestion": "Four times? He leaves the house on time!",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
+      "sure",
       "make",
       "good",
-      "idea",
-      "sure"
+      "idea"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "tom",
-      "bus"
+      "ask",
+      "dad"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -171,7 +171,7 @@
       "english",
       "that's",
       "about",
-      "hear"
+      "good"
      ],
      "suggestion": "That's good to hear. What about English?",
      "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "grandad",
-      "gets",
       "from",
+      "gets",
       "his"
      ],
      "suggestion": "He gets that from his grandad.",
@@ -222,7 +222,7 @@
       "football",
       "count",
       "reads",
-      "only"
+      "news"
      ],
      "suggestion": "He only reads football news. Does that count?",
      "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "library",
-      "i'll",
       "card",
+      "i'll",
       "him"
      ],
      "suggestion": "I'll get him a library card.",
@@ -336,8 +336,8 @@
      "keywords": [
       "wonderful",
       "building",
-      "that's",
-      "things"
+      "things",
+      "that's"
      ],
      "suggestion": "That's wonderful. He loves building things.",
      "suggestionFa": "فوق‌العاده‌ست. عاشق ساختن چیزهاست.",

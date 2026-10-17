@@ -33,9 +33,9 @@
     {
      "keywords": [
       "never",
-      "how",
       "did",
-      "get"
+      "get",
+      "how"
      ],
      "suggestion": "No, never. How did you get it?",
      "suggestionFa": "نه، هیچ‌وقت. چطوری گرفتیش؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "found",
       "have",
-      "how",
-      "far"
+      "far",
+      "how"
      ],
      "suggestion": "How have you found it so far?",
      "suggestionFa": "تا حالا چطور بوده؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "anyone",
-      "they",
       "need",
+      "they",
       "else"
      ],
      "suggestion": "Do they need anyone else?",
@@ -197,9 +197,9 @@
     },
     {
      "keywords": [
-      "how",
+      "one",
       "get",
-      "one"
+      "how"
      ],
      "suggestion": "No. What is it, and how do I get one?",
      "suggestionFa": "نه. چیه و چطوری بگیرمش؟",

@@ -24,7 +24,7 @@
       "christmas",
       "cracker",
       "merry",
-      "come",
+      "pull",
       "down"
      ],
      "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
@@ -50,7 +50,7 @@
       "crown",
       "bang",
       "joke",
-      "won"
+      "say"
      ],
      "suggestion": "Bang! You won! Put your paper crown on. What does your joke say?",
      "suggestionFa": "بنگ! تو بردی! تاج کاغذیت را بذار. جوکت چی می‌گه؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "terrible",
-      "potatoes",
       "blankets",
+      "potatoes",
       "cracker",
       "always"
      ],
@@ -125,7 +125,7 @@
       "cranberry",
       "british",
       "brave",
-      "first"
+      "sauce"
      ],
      "suggestion": "Brave! Tom, pass the cranberry sauce, love. Is this your first British Christmas?",
      "suggestionFa": "شجاع! تام، سس زغال‌اخته را بده عزیزم. این اولین کریسمس بریتانیاییته؟",
@@ -148,9 +148,9 @@
      "keywords": [
       "presents",
       "morning",
-      "lovely",
       "family",
-      "lunch"
+      "lovely",
+      "after"
      ],
      "suggestion": "How lovely. Do you open presents in the morning or after lunch in your family?",
      "suggestionFa": "چه قشنگ. تو خانواده‌تون صبح کادوها را باز می‌کنید یا بعد از ناهار؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "sandwiches",
-      "christmas",
       "wonderful",
-      "leftover",
-      "everyone"
+      "christmas",
+      "everyone",
+      "leftover"
      ],
      "suggestion": "Wonderful. Then games, leftover sandwiches and a nap. Cheers, everyone — Merry Christmas!",
      "suggestionFa": "عالیه. بعد بازی، ساندویچ غذاهای مونده و یه چرت. به سلامتی، همه — کریسمس مبارک!",

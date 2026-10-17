@@ -1,0 +1,478 @@
+{
+ "id": "l5_u11_1__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Weda) Challenging the council",
+ "titleFa": "(در نقش Nana Weda) اعتراض به شورا",
+ "setting": "Standing up for yourself · Level 5",
+ "settingFa": "از حق خود دفاع کردن",
+ "requires": null,
+ "level": "C1",
+ "baseId": "l5_u11_1",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "council",
+   "text": "Good afternoon, Hackney Service Centre, Ms Ward speaking. I understand you're querying a council tax bill?",
+   "translations": {
+    "fa": "عصر بخیر، مرکز خدمات هاکنی، خانم وارد هستم. فهمیدم که دربارهٔ قبض مالیات شورا سؤال دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "querying",
+     "fa": "پرسیدن/اعتراض"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شورای محلی"
+    },
+    {
+     "word": "single person discount",
+     "fa": "تخفیف تک‌نفره"
+    },
+    {
+     "word": "incorrect",
+     "fa": "نادرست"
+    }
+   ],
+   "cultureNote": {
+    "en": "People who live alone get 25% off council tax. Other discounts exist for carers, students and people with disabilities.",
+    "fa": "تنها زندگی کردن ۲۵٪ تخفیف دارد."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
+   "translations": {
+    "fa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "council",
+   "text": "I see. Our records show two adults at the property — George and Weda Thompson.",
+   "translations": {
+    "fa": "متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و ودا تامپسون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "records",
+     "fa": "سوابق"
+    },
+    {
+     "word": "property",
+     "fa": "ملک"
+    },
+    {
+     "word": "diagnosis",
+     "fa": "تشخیص"
+    },
+    {
+     "word": "circumstances",
+     "fa": "شرایط"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "George moved in with Tom and Leslie in March, after his diagnosis.",
+   "translations": {
+    "fa": "جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "confirmation",
+      "online",
+      "filled",
+      "email",
+      "april"
+     ],
+     "suggestion": "I told them in April. I filled in the form online. I even kept the confirmation email.",
+     "suggestionFa": "آوریل بهشون گفتم. فرم را آنلاین پر کردم. حتی ایمیل تأییدش را نگه داشتم.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "We have proof that you were informed in April.",
+   "translations": {
+    "fa": "مدرک داریم که آوریل بهتون اطلاع داده شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "council",
+   "text": "I can see a form was submitted, but it seems it wasn't actioned. I do apologise.",
+   "translations": {
+    "fa": "می‌بینم یه فرم ارسال شده، ولی ظاهراً اقدامی روش نشده. واقعاً عذر می‌خوام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "submitted",
+     "fa": "ارسال شد"
+    },
+    {
+     "word": "actioned",
+     "fa": "اقدام شد"
+    },
+    {
+     "word": "apologise",
+     "fa": "عذرخواهی کردن"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I appreciate the apology. What happens now?",
+   "translations": {
+    "fa": "از عذرخواهی ممنونم. حالا چی میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "council",
+   "text": "I'll backdate the discount to April. That puts the account £212 in credit.",
+   "translations": {
+    "fa": "تخفیف را از آوریل اعمال می‌کنم. این حساب را ۲۱۲ پوند بستانکار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "backdate",
+     "fa": "از تاریخ قبل اعمال کردن"
+    },
+    {
+     "word": "in credit",
+     "fa": "بستانکار"
+    },
+    {
+     "word": "reminder notice",
+     "fa": "اخطاریه"
+    },
+    {
+     "word": "put towards",
+     "fa": "صرف کردن برای"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "That's fair. Could you also cancel the reminder notice she received?",
+   "translations": {
+    "fa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "council",
+   "text": "Certainly — I'll withdraw it, and there'll be no court costs. Is there anything else affecting her household?",
+   "translations": {
+    "fa": "حتماً — پسش می‌گیرم، و هزینهٔ دادگاهی هم نخواهد بود. چیز دیگه‌ای هست که روی خانوارش اثر بذاره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "withdraw",
+     "fa": "پس گرفتن"
+    },
+    {
+     "word": "court costs",
+     "fa": "هزینهٔ دادگاه"
+    },
+    {
+     "word": "household",
+     "fa": "خانوار"
+    },
+    {
+     "word": "carer",
+     "fa": "مراقب"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Weda is George's main carer. Is there support for carers?",
+   "translations": {
+    "fa": "ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "council",
+   "text": "There is. She could apply for a carer's assessment, and possibly Carer's Allowance. I'll send the links.",
+   "translations": {
+    "fa": "هست. می‌تونه برای ارزیابی مراقب درخواست بده، و احتمالاً کمک‌هزینهٔ مراقب. لینک‌ها را می‌فرستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carer's assessment",
+     "fa": "ارزیابی مراقب"
+    },
+    {
+     "word": "Carer's Allowance",
+     "fa": "کمک‌هزینهٔ مراقب"
+    },
+    {
+     "word": "in writing",
+     "fa": "کتبی"
+    },
+    {
+     "word": "entitled to",
+     "fa": "مستحق"
+    }
+   ],
+   "cultureNote": {
+    "en": "A carer's assessment from the council can lead to practical help, breaks and financial support.",
+    "fa": "ارزیابی مراقب به کمک عملی و مالی منجر می‌شود."
+   }
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "I'd appreciate it if you could put that in writing, too.",
+   "translations": {
+    "fa": "ممنون می‌شم اگه اونو کتبی هم بفرستید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "council",
+   "text": "Of course. You'll get written confirmation within ten working days. Your reference is CT-88213.",
+   "translations": {
+    "fa": "البته. ظرف ده روز کاری تأیید کتبی دریافت می‌کنید. شمارهٔ مرجعتون CT-88213 ـه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "written confirmation",
+     "fa": "تأیید کتبی"
+    },
+    {
+     "word": "working days",
+     "fa": "روزهای کاری"
+    },
+    {
+     "word": "reference",
+     "fa": "شمارهٔ مرجع"
+    },
+    {
+     "word": "escalate",
+     "fa": "به مرحلهٔ بالاتر بردن"
+    }
+   ]
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thank you. If it isn't resolved, how do we escalate it?",
+   "translations": {
+    "fa": "ممنون. اگه حل نشد، چطور پیگیری کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "british",
+      "hundred",
+      "polite",
+      "pounds"
+     ],
+     "suggestion": "Two hundred and twelve pounds! Forty years I've paid every bill on time, and they nearly took me to court. You were wonderful, love — firm but polite. Very British.",
+     "suggestionFa": "دویست و دوازده پوند! چهل سال هر قبضی را سر وقت دادم، و نزدیک بود منو ببرن دادگاه. فوق‌العاده بودی عزیزم — محکم ولی مؤدب. خیلی بریتانیایی.",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -21,8 +21,8 @@
      "keywords": [
       "certainly",
       "criteria",
-      "suggest",
-      "against"
+      "against",
+      "suggest"
      ],
      "suggestion": "Certainly. I'd suggest we score each answer against the job criteria.",
      "suggestionFa": "حتماً. پیشنهاد می‌کنم هر جواب را بر اساس معیارهای شغل امتیاز بدیم.",
@@ -79,8 +79,8 @@
      "keywords": [
       "nevertheless",
       "understood",
-      "careful",
-      "doesn't"
+      "doesn't",
+      "culture"
      ],
      "suggestion": "Understood. Nevertheless, we should be careful that \"culture fit\" doesn't become bias.",
      "suggestionFa": "فهمیدم. با این حال، باید مراقب باشیم «تناسب فرهنگی» تبدیل به سوگیری نشه.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "impressions",
-      "examples",
       "specific",
+      "examples",
       "general"
      ],
      "suggestion": "I'll focus on specific examples rather than general impressions.",
@@ -139,8 +139,8 @@
    "branches": [
     {
      "keywords": [
-      "candidates",
       "themselves",
+      "candidates",
       "brilliant",
       "present"
      ],
@@ -154,8 +154,8 @@
      "keywords": [
       "directness",
       "interview",
-      "modesty",
-      "misread"
+      "misread",
+      "modesty"
      ],
      "suggestion": "Indeed. Modesty or directness can easily be misread in an interview.",
      "suggestionFa": "در واقع. فروتنی یا رک‌گویی به‌راحتی تو مصاحبه اشتباه برداشت میشه.",
@@ -201,10 +201,10 @@
    "branches": [
     {
      "keywords": [
-      "feels",
+      "let's",
       "begin",
-      "first",
-      "let's"
+      "feels",
+      "first"
      ],
      "suggestion": "Yes, let's begin. I'll make sure she feels at ease first.",
      "suggestionFa": "آره، شروع کنیم. اول مطمئن می‌شم راحت باشه.",
@@ -215,9 +215,9 @@
     {
      "keywords": [
       "certainly",
+      "water",
       "shall",
-      "offer",
-      "water"
+      "offer"
      ],
      "suggestion": "Certainly. Shall I offer her some water?",
      "suggestionFa": "حتماً. بهش آب تعارف کنم؟",

@@ -1,0 +1,450 @@
+{
+ "id": "l2_u12_1",
+ "characterId": "leslie",
+ "title": "The 8am phone queue",
+ "titleFa": "صف تلفن ساعت هشت",
+ "setting": "Out on errands · Level 2",
+ "settingFa": "بیرون برای کارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "receptionist",
+   "text": "Good morning, Mare Street Surgery, Tracy speaking. Sorry for the wait. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، مطب مِر استریت، تریسی هستم. ببخشید منتظر موندید. چطور کمک کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appointment",
+      "please",
+      "hello",
+      "book"
+     ],
+     "suggestion": "Hello. I'd like to book an appointment, please.",
+     "suggestionFa": "سلام. می‌خوام یه وقت بگیرم، لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "doctor",
+      "today",
+      "need"
+     ],
+     "suggestion": "Hi. I need to see a doctor today, if possible.",
+     "suggestionFa": "سلام. اگه ممکنه باید امروز دکتر را ببینم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surgery",
+     "fa": "مطب پزشک"
+    },
+    {
+     "word": "wait",
+     "fa": "انتظار"
+    },
+    {
+     "word": "book an appointment",
+     "fa": "وقت گرفتن"
+    },
+    {
+     "word": "if possible",
+     "fa": "اگر ممکن است"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many GP surgeries release same-day appointments at 8am, so phone lines are very busy then.",
+    "fa": "وقت‌های همان‌روز ساعت ۸ صبح باز می‌شوند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "receptionist",
+   "text": "Can I take your name and date of birth, please?",
+   "translations": {
+    "fa": "می‌تونم اسم و تاریخ تولدتون را داشته باشم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fourteenth",
+      "nineteen",
+      "haidari",
+      "ninety"
+     ],
+     "suggestion": "It's Mehdi Haidari, fourteenth of May, nineteen ninety-six.",
+     "suggestionFa": "مهدی حیدری، چهاردهم مه، هزار و نهصد و نود و شش.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surname",
+      "spell",
+      "shall",
+      "sure"
+     ],
+     "suggestion": "Sure. Shall I spell my surname?",
+     "suggestionFa": "حتماً. فامیلم را هجی کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    },
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "receptionist",
+   "text": "Thank you. And what's the problem, briefly? It helps me book the right person.",
+   "translations": {
+    "fa": "ممنون. و مشکل چیه، خلاصه؟ کمکم می‌کنه آدم درست را براتون رزرو کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "ache",
+      "days",
+      "bad"
+     ],
+     "suggestion": "I've had a bad ear ache for three days.",
+     "suggestionFa": "سه روزه گوش‌درد شدید دارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "itchy",
+      "rash",
+      "got",
+      "arm"
+     ],
+     "suggestion": "I've got a rash on my arm. It's itchy.",
+     "suggestionFa": "رو دستم جوش زده. می‌خاره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "briefly",
+     "fa": "به‌طور خلاصه"
+    },
+    {
+     "word": "ear ache",
+     "fa": "گوش‌درد"
+    },
+    {
+     "word": "rash",
+     "fa": "بثورات پوستی"
+    },
+    {
+     "word": "itchy",
+     "fa": "خارش‌دار"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "receptionist",
+   "text": "OK. The doctors are fully booked today, I'm afraid. But our pharmacist can see you at eleven.",
+   "translations": {
+    "fa": "باشه. متأسفانه دکترها امروز کامل رزرون. ولی داروساز ما ساعت یازده می‌تونه ببینتون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pharmacist",
+      "they",
+      "help",
+      "can"
+     ],
+     "suggestion": "A pharmacist? Can they help with that?",
+     "suggestionFa": "داروساز؟ می‌تونه برای این کمک کنه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "doctor",
+      "there",
+      "week"
+     ],
+     "suggestion": "Is there anything with a doctor this week?",
+     "suggestionFa": "این هفته وقتی با دکتر هست؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fully booked",
+     "fa": "کاملاً رزرو"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "pharmacist",
+     "fa": "داروساز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i want doctor",
+      "give me doctor"
+     ],
+     "echo": "You'd like to see a doctor? Let me look.",
+     "better": "I'd like to see a doctor, please.",
+     "betterFa": "می‌خوام دکتر را ببینم، لطفاً."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "receptionist",
+   "text": "Yes, pharmacists can treat ear infections now. If they're worried, they'll pass you to the GP.",
+   "translations": {
+    "fa": "آره، داروسازها الان می‌تونن عفونت گوش را درمان کنن. اگه نگران شدن، شما را به پزشک ارجاع می‌دن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "eleven",
+      "fine",
+      "ok"
+     ],
+     "suggestion": "OK, eleven o'clock is fine.",
+     "suggestionFa": "باشه، ساعت یازده خوبه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surgery",
+      "that's",
+      "great"
+     ],
+     "suggestion": "That's great. Is it at the surgery?",
+     "suggestionFa": "عالیه. تو همین مطبه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "treat",
+     "fa": "درمان کردن"
+    },
+    {
+     "word": "infections",
+     "fa": "عفونت‌ها"
+    },
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "pass you to",
+     "fa": "ارجاع دادن به"
+    }
+   ],
+   "cultureNote": {
+    "en": "Since 2024, \"Pharmacy First\" lets pharmacists in England treat common problems like ear ache and sore throats.",
+    "fa": "داروسازان برخی بیماری‌ها را درمان می‌کنند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "receptionist",
+   "text": "Yes, room two, here at the surgery. Are you registered with us at your current address?",
+   "translations": {
+    "fa": "آره، اتاق دو، همین‌جا تو مطب. با آدرس فعلی‌تون پیش ما ثبت‌نام شدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "mare"
+     ],
+     "suggestion": "Yes, 12 Mare Street.",
+     "suggestionFa": "آره، پلاک ۱۲ مِر استریت.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "march",
+      "think",
+      "moved"
+     ],
+     "suggestion": "I think so. I moved in March.",
+     "suggestionFa": "فکر کنم. مارس اسباب‌کشی کردم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام‌شده"
+    },
+    {
+     "word": "current address",
+     "fa": "آدرس فعلی"
+    },
+    {
+     "word": "moved",
+     "fa": "اسباب‌کشی کرد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "receptionist",
+   "text": "Lovely, that's all up to date. Can I have a mobile number for a text reminder?",
+   "translations": {
+    "fa": "عالیه، همه چی به‌روزه. یه شمارهٔ موبایل برای پیامک یادآوری می‌دید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "seven",
+      "oh"
+     ],
+     "suggestion": "Of course. It's oh-seven-seven…",
+     "suggestionFa": "حتماً. صفر هفت هفت…",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "please",
+      "would",
+      "text"
+     ],
+     "suggestion": "Yes please, a text would be helpful.",
+     "suggestionFa": "آره لطفاً، پیامک کمک می‌کنه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "up to date",
+     "fa": "به‌روز"
+    },
+    {
+     "word": "mobile number",
+     "fa": "شمارهٔ موبایل"
+    },
+    {
+     "word": "reminder",
+     "fa": "یادآوری"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits often say \"oh\" instead of \"zero\" when reading phone numbers.",
+    "fa": "در شماره‌ها oh به جای zero می‌گویند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "receptionist",
+   "text": "Done. And if it gets much worse before then — high fever or severe pain — call 111.",
+   "translations": {
+    "fa": "تموم. و اگه تا اون موقع خیلی بدتر شد — تب بالا یا درد شدید — با ۱۱۱ تماس بگیرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "between",
+      "what's"
+     ],
+     "suggestion": "Thank you. What's the difference between 111 and 999?",
+     "suggestionFa": "ممنون. فرق ۱۱۱ و ۹۹۹ چیه؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tracy",
+      "will"
+     ],
+     "suggestion": "I will. Thank you, Tracy.",
+     "suggestionFa": "حتماً. ممنون تریسی.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "much worse",
+     "fa": "خیلی بدتر"
+    },
+    {
+     "word": "fever",
+     "fa": "تب"
+    },
+    {
+     "word": "severe",
+     "fa": "شدید"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "receptionist",
+   "text": "999 is for emergencies — life in danger. 111 is for urgent advice. You're welcome. See you at eleven!",
+   "translations": {
+    "fa": "۹۹۹ برای اورژانسه — جون در خطر. ۱۱۱ برای مشاورهٔ فوری. خواهش می‌کنم. ساعت یازده می‌بینمتون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

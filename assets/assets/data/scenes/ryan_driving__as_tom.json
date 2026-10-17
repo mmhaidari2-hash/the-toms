@@ -22,8 +22,8 @@
     {
      "keywords": [
       "provisional",
-      "mirrors",
       "support",
+      "mirrors",
       "licence",
       "ryan's"
      ],
@@ -50,7 +50,7 @@
       "something",
       "stalled",
       "clutch",
-      "would"
+      "again"
      ],
      "suggestion": "Easy… easy on the clutch! He's stalled it again. Say something encouraging, would you?",
      "suggestionFa": "آروم… کلاچ را آروم! دوباره خاموشش کرد. یه چیز دلگرم‌کننده بگو، باشه؟",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "country",
-      "there",
-      "wants",
       "drive",
+      "wants",
+      "there",
       "round"
      ],
      "suggestion": "There he goes! Now, round the car park. Ryan wants to know — did you drive in your country?",
@@ -124,8 +124,8 @@
       "indicate",
       "parking",
       "lovely",
-      "come",
-      "next"
+      "left",
+      "spot"
      ],
      "suggestion": "Spot on. He did it! Indicate left to come off. Lovely. Next up — parking.",
      "suggestionFa": "دقیقاً. انجامش داد! برای خروج راهنمای چپ بزن. عالی. بعدی — پارک کردن.",
@@ -148,8 +148,8 @@
      "keywords": [
       "enough",
       "spaces",
-      "close",
       "first",
+      "close",
       "think"
      ],
      "suggestion": "He's… in two spaces. Close enough for a first go! What do you think?",
@@ -173,8 +173,8 @@
      "keywords": [
       "asking",
       "he's",
+      "take",
       "true",
-      "when",
       "test"
      ],
      "suggestion": "Ha! True. He's asking when he can take his test.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "driving",
       "exactly",
+      "driving",
       "nerves",
-      "seats",
-      "right"
+      "right",
+      "seats"
      ],
      "suggestion": "Exactly. Right, swap seats. I'm driving home — my nerves can't take any more.",
      "suggestionFa": "دقیقاً. خب، جا عوض کنیم. من می‌رونم خونه — اعصابم دیگه نمی‌کشه.",
@@ -223,9 +223,9 @@
      "keywords": [
       "driving",
       "where",
-      "time",
       "look",
-      "boy"
+      "time",
+      "did"
      ],
      "suggestion": "Look at him — my boy, driving. Where did the time go, eh?",
      "suggestionFa": "نگاش کن — پسرم، داره رانندگی می‌کنه. زمان کجا رفت، ها؟",

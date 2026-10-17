@@ -23,8 +23,8 @@
      "keywords": [
       "always",
       "early",
-      "half",
-      "past",
+      "five",
+      "dear",
       "bird"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
@@ -50,7 +50,7 @@
       "usually",
       "always",
       "first",
-      "have"
+      "then"
      ],
      "suggestion": "I always have a cup of tea first. Then I usually read the newspaper.",
      "suggestionFa": "همیشه اول یه فنجون چای می‌خورم. بعد معمولاً روزنامه می‌خونم.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "sometimes",
-      "every",
       "patel",
-      "walk",
-      "then"
+      "every",
+      "then",
+      "walk"
      ],
      "suggestion": "Every day. Then I sometimes go for a walk with Mrs Patel.",
      "suggestionFa": "هر روز. بعد گاهی با خانم پاتل پیاده‌روی می‌رم.",
@@ -125,7 +125,7 @@
       "afternoon",
       "gossip",
       "watch",
-      "telly"
+      "fruit"
      ],
      "suggestion": "Fruit, vegetables, and a bit of gossip! Do you ever watch telly in the afternoon?",
      "suggestionFa": "میوه، سبزی و یه کم غیبت! تو هیچ‌وقت عصرها تلویزیون می‌بینی؟",
@@ -149,7 +149,7 @@
       "programme",
       "always",
       "never",
-      "quiz",
+      "five",
       "miss"
      ],
      "suggestion": "I never miss my quiz programme at five. And I always go to bed at ten.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
+      "things",
       "always",
       "change",
-      "things",
       "never",
-      "some"
+      "dear"
      ],
      "suggestion": "Tea at six, always. Some things never change, dear.",
      "suggestionFa": "شام ساعت شش، همیشه. بعضی چیزها هیچ‌وقت عوض نمی‌شن عزیزم.",
