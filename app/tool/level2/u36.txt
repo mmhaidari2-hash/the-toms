@@ -1,0 +1,129 @@
+## U124 | The council | شورای شهر | library | Pay council tax, report a missed bin, apply for a parking permit and register to vote | مالیات شورا بپردازی، جا ماندن سطل زباله را گزارش کنی، مجوز پارک بگیری و برای رأی ثبت‌نام کنی
+
+# l2_u36_1 | bennett | Paying council tax | پرداخت مالیات شورا | It pays for… / in ten instalments / Am I entitled to a discount? / single person | هزینهٔ … را می‌پردازد / در ده قسط / تخفیف شامل من می‌شود؟ | library
+bennett: Good afternoon. The council help desk is here on Tuesdays, in the library. You've got a letter — council tax? | عصر بخیر. میز کمک شورا سه‌شنبه‌ها اینجاست، تو کتابخونه. یه نامه داری — مالیات شورا؟
+> Yes. What is council tax exactly? | آره. مالیات شورا دقیقاً چیه؟
+> Yes. I don't understand this bill. | آره. این قبض را نمی‌فهمم.
+W: help desk=میز راهنمایی ; letter=نامه ; council tax=مالیات شورای محلی ; bill=قبض
+bennett: Council tax pays for local services — bins, libraries, street lights, parks. Every home pays it. Ms Ward can explain. | مالیات شورا هزینهٔ خدمات محلی را میده — سطل‌های زباله، کتابخونه‌ها، چراغ‌های خیابون، پارک‌ها. هر خونه‌ای می‌پردازدش. خانم وارد می‌تونه توضیح بده.
+> So it pays for this library too? | پس هزینهٔ همین کتابخونه را هم میده؟
+> Every home? Even if I rent a room? | هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟
+W: local services=خدمات محلی ; bins=سطل‌های زباله ; street lights=چراغ‌های خیابان ; rent=اجاره کردن
+council: Hello, I'm Ms Ward. If you rent a room in a family house, the homeowner pays — the Thompsons. So why is this letter in your name? | سلام، من خانم وارد هستم. اگه یه اتاق تو خونهٔ یه خانواده اجاره کنید، صاحبخونه می‌پردازه — تامپسون‌ها. پس چرا این نامه به اسم شماست؟
+> I don't know. Is it a mistake? | نمی‌دونم. اشتباهه؟
+> Maybe because I registered with the GP? | شاید چون پیش پزشک عمومی ثبت‌نام کردم؟
+W: homeowner=صاحبخانه ; in your name=به اسم شما ; mistake=اشتباه ; registered=ثبت‌نام کردم
+C: Council tax is paid by the household, usually the owner or main tenant. Lodgers in a family home don't usually pay it separately. | مالیات شورا را معمولاً صاحبخانه یا مستأجر اصلی می‌پردازد.
+council: Let me check… Ah, it's a mistake. Someone added you as a separate flat. I'll fix it. The bill is cancelled. | بذارید چک کنم… آه، اشتباهه. یکی شما را به‌عنوان یه واحد جدا اضافه کرده. درستش می‌کنم. قبض لغو شد.
+> Cancelled? Great! Thank you. | لغو شد؟ عالیه! ممنون.
+> Will I get a letter to confirm? | نامهٔ تأیید می‌گیرم؟
+W: separate=جدا ; flat=آپارتمان ؛ واحد ; fix=درست کردن ; cancelled=لغو شد
+X: i will get letter confirm ; will i get a letter for confirm => A letter to confirm? Yes, in a week. | Will I get a letter to confirm? | نامه‌ای برای تأیید دریافت می‌کنم؟
+council: Yes, within ten days. And Leslie's bill — tell her it's paid in ten monthly instalments, April to January. | بله، ظرف ده روز. و قبض لزلی — بهش بگید در ده قسط ماهانه پرداخت میشه، آوریل تا ژانویه.
+> Why ten, not twelve? | چرا ده، نه دوازده؟
+> Can she pay in twelve instalments instead? | می‌تونه به‌جاش دوازده قسط بده؟
+W: within=ظرف ; monthly=ماهانه ; instalments=اقساط ; instead=به‌جای آن
+council: Ten is standard — February and March are free! But you can ask for twelve. It's smaller each month. | ده تا استاندارده — فوریه و مارس رایگانه! ولی می‌تونید دوازده تا بخواید. هر ماه کمتر میشه.
+> And Nana Maggie lives alone with George. Do they get a discount? | ننه مگی با جورج تنها زندگی می‌کنه. تخفیف می‌گیرن؟
+> Good to know. I'll tell Leslie. | خوب شد فهمیدم. به لزلی میگم.
+W: standard=استاندارد ؛ معمول ; smaller=کمتر ; discount=تخفیف ; alone=تنها
+council: Two adults, so no single person discount. But George might get help because of his illness. Tell them to call us. | دو بزرگسال، پس تخفیف تک‌نفره نه. ولی جورج ممکنه به خاطر بیماریش کمک بگیره. بگید بهمون زنگ بزنن.
+> Thank you, Ms Ward. That's very kind. | ممنون خانم وارد. خیلی لطف دارید.
+> I'll help them call. What's the number? | کمکشون می‌کنم زنگ بزنن. شماره چنده؟
+W: adults=بزرگسالان ; single person discount=تخفیف تک‌نفره ; illness=بیماری
+bennett: The number's on the leaflet by the door. And while you're here — your library books are due back on Friday! | شماره رو بروشور کنار دره. و حالا که اینجایی — کتاب‌های کتابخونه‌ات جمعه باید برگردن!
+
+# l2_u36_2 | weda | Reporting a missed bin | گزارش جا ماندن سطل زباله | They didn't collect… / It's been… days / Could you send…? / I'd like to report… | … را نبردند / … روز است / ممکن است بفرستید؟ / می‌خواهم گزارش بدهم | library
+weda: Dear, it's a disaster. The bin men didn't empty our recycling bin. It's Thursday and it's overflowing! And the foxes… | عزیزم، فاجعه‌ست. رفتگرها سطل بازیافت ما را خالی نکردن. پنج‌شنبه‌ست و داره سرریز میشه! روباه‌ها هم…
+> Oh no. When is your bin day? | وای نه. روز زباله‌تون کیه؟
+> Let's report it to the council. | بیا به شورا گزارشش بدیم.
+W: disaster=فاجعه ; bin men=رفتگرها ; recycling bin=سطل بازیافت ; overflowing=سرریز ; foxes=روباه‌ها
+weda: Tuesday. Green bin this week. They took everyone else's, but not mine. Can you help me report it? I hate the phone menus. | سه‌شنبه. این هفته سطل سبز. مال همه را بردن، ولی مال منو نه. میشه کمکم کنی گزارشش بدم؟ از منوهای تلفنی متنفرم.
+> We can do it online. It's quicker. | می‌تونیم آنلاین انجامش بدیم. سریع‌تره.
+> Did you put it out on Monday night? | دوشنبه شب گذاشتیش بیرون؟
+W: green bin=سطل سبز ; took=بردند ; report=گزارش دادن ; phone menus=منوهای تلفنی
+C: Many councils collect rubbish and recycling on different weeks. If your bin is missed, you can report it online, usually within two working days. | اگر سطل زباله جا بماند، معمولاً ظرف دو روز کاری می‌توان آنلاین گزارش داد.
+weda: Of course I did! On the pavement, lid closed, like always. George did it before he got ill. Now it's my job. | معلومه که گذاشتم! رو پیاده‌رو، در بسته، مثل همیشه. قبل از اینکه جورج مریض بشه، اون این کار را می‌کرد. حالا کار منه.
+> OK. The website asks: "What was missed?" | باشه. سایت می‌پرسه: «چه چیزی جا ماند؟»
+> I can put it out for you on Mondays. | دوشنبه‌ها می‌تونم برات بذارمش بیرون.
+W: pavement=پیاده‌رو ; lid=در (سطل) ; like always=مثل همیشه ; ill=مریض
+weda: Oh, would you? You're a treasure. Now — tell them it's been two days, and there's a fox eating my yoghurt pots. | وای، این کار را می‌کنی؟ تو یه گنجی. حالا — بهشون بگو دو روزه، و یه روباه داره ظرف ماست‌هام را می‌خوره.
+> I'll write: "Missed recycling, Tuesday." | می‌نویسم: «بازیافت جا مانده، سه‌شنبه.»
+> Should I say something about the fox? | دربارهٔ روباه چیزی بگم؟
+W: treasure=گنج ؛ عزیز ; yoghurt pots=ظرف‌های ماست ; missed=جا ماند
+X: it is two days ; it has been two day => It's been two days? Let's say that. | It's been two days. | دو روز گذشته است.
+weda: Say the fox! They need to know. Is there a box for comments? Write: "Elderly resident. Please come soon." | روباه را بگو! باید بدونن. جایی برای توضیحات هست؟ بنویس: «ساکن سالمند. لطفاً زود بیایید.»
+> Done. They'll collect it within two days. | تموم. ظرف دو روز می‌برنش.
+> Elderly? You're not elderly, Nana Maggie! | سالمند؟ تو سالمند نیستی، ننه مگی!
+W: comments=توضیحات ؛ نظرات ; elderly=سالمند ; resident=ساکن ; soon=به‌زودی
+weda: Seventy-one, dear. I'm allowed to use it when it helps! Two days. And what's that bit about "assisted collection"? | هفتاد و یک سال، عزیزم. وقتی کمک کنه اجازه دارم ازش استفاده کنم! دو روز. و اون قسمت «جمع‌آوری کمکی» چیه؟
+> They take the bin from your door, if you need help. | اگه کمک لازم داشته باشی، سطل را از دم در می‌برن.
+> Let me read it… it's for people who can't move the bin. | بذار بخونم… برای کسانیه که نمی‌تونن سطل را جابه‌جا کنن.
+W: allowed=مجاز ؛ اجازه داشتن ; assisted collection=جمع‌آوری کمکی ; move=جابه‌جا کردن
+weda: Oh! For George's sake, let's apply. Clever lad. Now come in — I'll make tea, and we'll watch the fox from the window. | آه! به خاطر جورج، بیا درخواست بدیم. پسر زرنگ. حالا بیا تو — چای درست می‌کنم و از پنجره روباه را تماشا می‌کنیم.
+
+# l2_u36_3 | bennett | A parking permit | مجوز پارک | I'd like to apply for… / How much is…? / It takes… to process / a visitor permit | می‌خواهم درخواست بدهم / … چند است؟ / پردازشش … طول می‌کشد / مجوز مهمان | library
+bennett: Tom asked me to help you with the council website. A parking permit? These library computers are slow, but they work. | تام ازم خواست با سایت شورا کمکت کنم. مجوز پارک؟ این کامپیوترهای کتابخونه کندن، ولی کار می‌کنن.
+> Yes. I'd like to apply for a parking permit. | آره. می‌خوام برای مجوز پارک درخواست بدم.
+> Tom's car got a ticket. He needs a new permit. | ماشین تام جریمه شد. مجوز جدید لازم داره.
+W: parking permit=مجوز پارک ; website=وب‌سایت ; slow=کند ; ticket=جریمه
+bennett: A ticket! Poor Tom. In Hackney, you need a resident's permit to park on your street. Has his permit run out? | جریمه! بیچاره تام. تو هاکنی برای پارک تو خیابون خودت مجوز ساکنین لازمه. مجوزش تموم شده؟
+> Yes. It ran out last week. He forgot! | آره. هفتهٔ پیش تموم شد. یادش رفت!
+> What's a resident's permit? | مجوز ساکنین چیه؟
+W: resident's permit=مجوز ساکنین ; park=پارک کردن ; run out=منقضی شدن ; forgot=فراموش کرد
+C: In many London streets you need a resident's parking permit. Visitors need a separate visitor permit, often paid by the hour. | در بسیاری از خیابان‌های لندن مجوز پارک ساکنین لازم است.
+bennett: Let's renew it. "Resident permit — renew." It needs his car registration and proof of address. Have you got them? | بیا تمدیدش کنیم. «مجوز ساکنین — تمدید.» پلاک ماشینش و مدرک آدرس لازمه. داریشون؟
+> Tom texted me the registration. | تام پلاک را برام پیامک کرد.
+> What's a car registration? | پلاک ماشین چیه؟
+W: renew=تمدید کردن ; registration=شمارهٔ پلاک ; proof of address=مدرک آدرس ; texted=پیامک داد
+bennett: The number plate. And the council tax bill works for address. Now — the price depends on the car. Is it big or small? | شمارهٔ پلاک. قبض مالیات شورا هم برای آدرس کافیه. خب — قیمت به ماشین بستگی داره. بزرگه یا کوچیک؟
+> A small family car. Petrol. | یه ماشین خانوادگی کوچیک. بنزینی.
+> How much is the permit? | مجوز چنده؟
+W: number plate=پلاک خودرو ; depends on=بستگی دارد به ; family car=ماشین خانوادگی ; petrol=بنزینی
+X: how much the permit is ; how many is the permit => How much is it? Let's see. | How much is the permit? | مجوز چند است؟
+bennett: Petrol, small engine… a hundred and forty pounds a year. Electric cars are much cheaper. The council wants cleaner air. | بنزینی، موتور کوچیک… سالی صد و چهل پوند. ماشین‌های برقی خیلی ارزون‌ترن. شورا هوای تمیزتر می‌خواد.
+> A hundred and forty! Tom will be shocked. | صد و چهل! تام شوکه میشه.
+> How long does it take to process? | پردازشش چقدر طول می‌کشه؟
+W: engine=موتور ; electric=برقی ; cleaner air=هوای تمیزتر ; process=پردازش کردن
+bennett: It's digital — no paper on the windscreen. It starts in about twenty-four hours. Until then, Tom should park in the car park. | دیجیتاله — بدون کاغذ رو شیشهٔ جلو. حدود بیست و چهار ساعت دیگه شروع میشه. تا اون موقع، تام باید تو پارکینگ پارک کنه.
+> Can we pay the ticket too? | جریمه را هم می‌تونیم پرداخت کنیم؟
+> And visitors? Leslie's sister is coming. | مهمون‌ها چی؟ خواهر لزلی داره میاد.
+W: windscreen=شیشهٔ جلو ؛ پنجرهٔ جلو ; until then=تا آن موقع ; visitors=مهمان‌ها ; sister=خواهر
+bennett: Visitor permits are by the hour, on the same website. Pay the ticket within fourteen days — it's half price! Shall we? | مجوز مهمان ساعتیه، تو همون سایت. جریمه را ظرف چهارده روز بده — نصف قیمته! انجامش بدیم؟
+> Yes, let's pay it now. Half price! | آره، بیا الان پرداخت کنیم. نصف قیمت!
+> I'll ask Tom first. It's his money. | اول از تام می‌پرسم. پول اونه.
+W: by the hour=ساعتی ; within=ظرف ; half price=نصف قیمت
+bennett: Very wise. And tell Tom to renew on time next year. I've ticked the reminder box. Libraries are good at reminders! | خیلی عاقلانه. به تام هم بگو سال بعد سر وقت تمدید کنه. گزینهٔ یادآوری را تیک زدم. کتابخونه‌ها تو یادآوری واردن!
+
+# l2_u36_4 | weda | Registering to vote | ثبت‌نام برای رأی دادن | Can I vote? / Who is eligible? / It only takes five minutes / your National Insurance number | می‌توانم رأی بدهم؟ / چه کسی واجد شرایط است؟ / فقط پنج دقیقه طول می‌کشد / شمارهٔ بیمهٔ ملی | library
+weda: Look at this letter, dear. "Household enquiry — who lives here?" They send it every year. Are you registered? | این نامه را ببین عزیزم. «استعلام خانوار — چه کسانی اینجا زندگی می‌کنند؟» هر سال می‌فرستنش. ثبت‌نام کردی؟
+> Registered for what? | برای چی ثبت‌نام؟
+> I'm not British. Can I vote? | من بریتانیایی نیستم. می‌تونم رأی بدم؟
+W: household=خانوار ; enquiry=استعلام ; address=آدرس ; registered=ثبت‌نام‌شده ; vote=رأی دادن
+weda: The electoral register — the list of voters. Some residents from abroad can vote in local elections. Let's ask Ms Ward. | فهرست رأی‌دهندگان. بعضی ساکنان خارجی می‌تونن تو انتخابات محلی رأی بدن. بیا از خانم وارد بپرسیم.
+> Who is eligible? | کی واجد شرایطه؟
+> Local elections? Like for the council? | انتخابات محلی؟ مثل شورا؟
+W: electoral register=فهرست رأی‌دهندگان ; voters=رأی‌دهندگان ; foreign=خارجی ; local elections=انتخابات محلی ; eligible=واجد شرایط
+council: Good question. British, Irish and qualifying Commonwealth citizens can vote. Some EU citizens too, in local elections. | سؤال خوبیه. شهروندان بریتانیا، ایرلند و کشورهای مشترک‌المنافع واجد شرایط می‌تونن رأی بدن. بعضی شهروندان اتحادیهٔ اروپا هم، در انتخابات محلی.
+> What about Iranian citizens? | شهروندان ایرانی چی؟
+> So I need to check my visa? | پس باید ویزام را چک کنم؟
+W: citizens=شهروندان ; Commonwealth=کشورهای مشترک‌المنافع ; qualifying=واجد شرایط ; EU=اتحادیهٔ اروپا
+C: Rules for who can vote in the UK depend on nationality and the type of election. Check gov.uk before you register. Registering is free and takes about five minutes. | قوانین رأی دادن به ملیت و نوع انتخابات بستگی دارد؛ ثبت‌نام رایگان است.
+council: Iranian citizens can't vote, I'm afraid — not until you become British. But you must still reply to the letter. It's the law. | متأسفانه شهروندان ایرانی نمی‌تونن رأی بدن — تا وقتی بریتانیایی بشید. ولی بازم باید به نامه جواب بدید. قانونه.
+> Not yet. That's a shame. | هنوز نه. حیف شد.
+> What do I write on the household letter? | رو نامهٔ خانوار چی بنویسم؟
+W: I'm afraid=متأسفانه ; until=تا وقتی ; reply=جواب دادن ; law=قانون
+X: what i write on letter ; what do i writing => What do you write? Your name and nationality. | What do I write on the household letter? | روی نامهٔ خانوار چه بنویسم؟
+council: Leslie lists everyone who lives there — you too, with your nationality. Then the council knows you're not eligible yet. Easy. | لزلی همهٔ کسانی که اونجا زندگی می‌کنن را می‌نویسه — شما هم، با ملیتتون. بعد شورا می‌دونه هنوز واجد شرایط نیستید. آسونه.
+> OK. And when I become a citizen? | باشه. و وقتی شهروند شدم؟
+> Is it important for my credit history? | برای سابقهٔ اعتباریم مهمه؟
+W: lists=فهرست می‌کند ; nationality=ملیت ; become=شدن ; credit history=سابقهٔ اعتباری
+council: When you're British, register online. It takes five minutes, with your National Insurance number. It helps your credit score too. | وقتی شهروند شدید، آنلاین ثبت‌نام کنید. پنج دقیقه طول می‌کشه، با شمارهٔ بیمهٔ ملی‌تون. به امتیاز اعتباریتون هم کمک می‌کنه.
+> I've got my National Insurance number. | شمارهٔ بیمهٔ ملیم را دارم.
+> Five minutes? That's very easy. | پنج دقیقه؟ خیلی آسونه.
+W: National Insurance number=شمارهٔ بیمهٔ ملی ; credit score=امتیاز اعتباری ; online=آنلاین
+weda: One day, dear, you'll vote. George will take you to the polling station in his best tie. He's voted every time since 1968! | یه روز، عزیزم، رأی میدی. جورج با بهترین کراواتش می‌بردت حوزهٔ رأی‌گیری. از ۱۹۶۸ هر بار رأی داده!
+> Since 1968? That's amazing! | از ۱۹۶۸؟ فوق‌العاده‌ست!
+> I'd love that. Tell George to save the tie. | خیلی دوست دارم. به جورج بگو کراوات را نگه داره.
+W: one day=یک روز ؛ روزی ; polling station=حوزهٔ رأی‌گیری ; tie=کراوات ; election=انتخابات
+weda: He'll be thrilled. Now, let's fill in this form together — your name first. And spell it slowly. My eyes aren't what they were! | کلی ذوق می‌کنه. حالا، بیا این فرم را با هم پر کنیم — اول اسمت. و آروم هجی کن. چشمام دیگه مثل قبل نیست!
