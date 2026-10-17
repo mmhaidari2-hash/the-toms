@@ -73,6 +73,11 @@ def walk(o):
   elif isinstance(o,list):
     for v in o: walk(v)
 walk(json.load(open(os.path.join(A,'data/places.json'))))
+lib=os.path.join(A,'data/library.json')  # graded readers (tool/make_library.py): narrator reads every sentence
+if os.path.exists(lib):
+  for b in json.load(open(lib))['books']:
+    for c in b['chapters']:
+      for st in c['sentences']: add('narrator',st['en'])
 dump=os.path.join(os.path.dirname(__file__),'..','build','voice_lines.json')  # from test/audit_test.dart (incl. computed X-Ray, ghost hints, words)
 if os.path.exists(dump):
   for sp,t in json.load(open(dump)): add(sp,t)

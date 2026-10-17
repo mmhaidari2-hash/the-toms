@@ -51,3 +51,6 @@ One clip of 6–10 seconds per map region (Home, Neighbourhood, High Street, Tow
 
 ### Planned: Library book covers
 Graded-reader covers will use crops of the existing place paintings for now. Bespoke painted covers (one per book) are to follow.
+
+### Planned: London Tour stop paintings (placeholders now)
+Same warm painterly style as the town map, no text/logos, the Thompsons small in the foreground where natural: Elizabeth Tower (Big Ben) from Westminster Bridge; Houses of Parliament from the river; Westminster Abbey west front; Buckingham Palace with the Victoria Memorial; Tower of London White Tower; Tower Bridge raised; London Bridge with the City behind; St Paul's Cathedral dome from Millennium Bridge; London Eye at dusk; British Museum Great Court; Trafalgar Square with Nelson's Column and lions; Camden Lock market; Greenwich Royal Observatory and the Cutty Sark. Plus a red open-top sightseeing bus map icon.

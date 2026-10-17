@@ -15,6 +15,7 @@ IconData badgeIcon(String id) => switch (id) {
       'goal7' => Icons.track_changes_rounded,
       'words50' => Icons.auto_stories_rounded,
       'league' => Icons.military_tech_rounded,
+      'book1' || 'book5' => Icons.local_library_rounded,
       _ => Icons.star_rounded,
     };
 
@@ -112,7 +113,9 @@ class Celebration extends StatelessWidget {
   final int right, total;
   final VoidCallback onContinue;
   final VoidCallback? onRetry;
-  const Celebration({super.key, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry});
+  /// Overrides for non-lesson uses (e.g. a Library chapter quiz).
+  final String? title, titleFa;
+  const Celebration({super.key, this.title, this.titleFa, required this.award, required this.pass, required this.checkpoint, required this.right, required this.total, required this.onContinue, this.onRetry});
   @override
   Widget build(BuildContext context) {
     final pct = (right * 100 / max(total, 1)).round();
@@ -124,8 +127,8 @@ class Celebration extends StatelessWidget {
           child: Column(mainAxisSize: MainAxisSize.min, children: [
             Icon(pass ? Icons.emoji_events_rounded : Icons.auto_stories_rounded, size: 64, color: pass ? BL.gold : BL.navy),
             const SizedBox(height: 8),
-            Text(pass ? (checkpoint ? 'Unit complete!' : 'Lesson complete!') : 'Good effort!', key: const ValueKey('celebrate-title'), style: BL.display(30), textAlign: TextAlign.center),
-            Text(pass ? (checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${checkpoint ? 70 : 60}٪ برسی.',
+            Text(title ?? (pass ? (checkpoint ? 'Unit complete!' : 'Lesson complete!') : 'Good effort!'), key: const ValueKey('celebrate-title'), style: BL.display(30), textAlign: TextAlign.center),
+            Text(titleFa ?? (pass ? (checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${checkpoint ? 70 : 60}٪ برسی.'),
                 textDirection: TextDirection.rtl, textAlign: TextAlign.center, style: BL.fa(14, color: BL.muted)),
             const SizedBox(height: 16),
             Row(children: [

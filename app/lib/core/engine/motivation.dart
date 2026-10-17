@@ -63,6 +63,8 @@ class Motivation {
     Achievement('goal7', 'Goal getter', 'هدف‌گیر', 'Hit your daily goal 7 times'),
     Achievement('words50', 'Word collector', 'کلکسیون واژه', 'Collect 50 words'),
     Achievement('league', 'Promoted', 'صعود', 'Reach the Silver league'),
+    Achievement('book1', 'Finished!', 'تمامش کردم!', 'Finish a book in the Library'),
+    Achievement('book5', 'Bookworm', 'کتاب‌خوان', 'Finish 5 books in the Library'),
   ];
 }
 

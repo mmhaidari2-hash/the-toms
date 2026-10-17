@@ -174,3 +174,32 @@ Profession-specific English tracks led by a family member who does that job, bui
 - Speak-the-reply mode in chats (the mic in the composer; saved per learner). The reply options are the targets: the best match is scored and coloured word by word (green/amber/red), auto-sent when it passes, otherwise Retry / Listen / Send anyway. Free speech that matches no option is sent as typed text.
 - Graceful fallback: no recognition → help sheet + typing + Record-and-compare; mic denied → step-by-step permission help for iPhone and Android; no-speech / network errors → a short inline note.
 - Limits: browser STT recognises words, not phonemes, so scoring reflects intelligibility. Phoneme-level scoring (e.g. Azure Pronunciation Assessment or Speechace) is planned with the backend proxy.
+
+### Library — graded readers (run 1, 2026-10-17)
+- Reached from the **library spot** on the town map ("Browse the shelves") and the menu (**Library · graded readers**). Route `/library`, reader `/read/<book>?ch=<n>`.
+- Painted wooden shelves, one per CEFR level (A1 → C1); B1–C1 show "coming soon" spines for now. Covers are crops of existing scene paintings (no generated art yet; real covers listed in IMAGE_PROMPTS).
+- **Content:** `app/tool/library/<level>.txt` (DSL: `# book`, `## chapter`, `English | Persian`, `Q:` quiz with the correct option first, `W:` glossary) → `tool/make_library.py` → `assets/data/library.json`. The build **fails if any word has no Persian gloss** (book W: > base function-word dictionary > names > course words, with simple lemmatising), so tap-to-translate never comes up empty.
+- **Run 1:** 8 A1 books (83–113 words, 2 chapters, present simple / have got / can) and 8 A2 books (152–194 words, past simple, going to, comparatives). Original stories about the Thompsons, Mrs Patel's cat Biscuit, Mr Patel's corner shop, Nana Maggie, Brighton, Christmas, a London fox and Ryan's first driving lesson.
+- **Reader:** narrator (en-GB-SoniaNeural, -8%) reads aloud sentence by sentence with highlighting and auto-scroll; long-press a sentence to start there; speed 0.75×–1.15×; Persian translation toggle; tap any word (or phrase like "bus stop") for Persian + **Save to my words** (Leitner box). Chapter quiz (2 questions, shuffled) → Celebration with XP (10, 15 for 100%, 3 for a retry); passing every chapter marks the book **Finished** (green tick on the cover) and earns the **Finished!** / **Bookworm** (5 books) badges.
+- Tests: `test/library_test.dart` (8+ books per shelf, glossary coverage, narrator clip for every sentence, A1/A2 length limits, British spelling, XP/finish logic, full shelf→reader→quiz→finished flow at 375×667).
+- Next runs: B1, B2, C1 shelves (8–12 each), audio-synced word highlighting, a Library section in Progress.
+
+### Feature queue (approved by the user, 2026-10-17) — each a map spot/section, uncluttered, short runs
+1. **Grammar School** (school spot + menu): classrooms "Class A1 · مبتدی" … C1, Ms Ellis explains with a British voice + Persian, Thompson-family examples, gap-fill / reorder / choose / transform, mini test per topic, XP, unlocks in order, links to related lessons.
+2. **Cinema**: short scenes with bilingual subtitles, tap-to-translate, "dub it" mode with a speech score (paintings + audio now; real video later).
+3. **Radio**: a short daily podcast by the characters (Tom's local news, George's grumbles), transcript + Persian.
+4. **Real-life missions**: weekly real-world tasks, tick off, XP/badges.
+5. **Family voice messages**: daily voice notes from Nicola/Leslie/Tom, reply by voice, tied to the reminder.
+6. **Park games**: matching, find-the-object in a painting, speed rounds.
+7. **Life in the UK test prep** (in the Library; premium pack candidate).
+8. **Seasonal events**: Christmas, Halloween, Bonfire Night, Nowruz, Easter — themed town + special lessons.
+9. **Driving School** (premium candidate): instructor English (mirror-signal-manoeuvre, roundabouts, test day) tied to Ryan at 17; Theory Test prep with Highway Code vocabulary, road signs, **original** practice questions (never DVSA's bank), mock tests, Hazard Perception explainer.
+10. **London Tour** (red sightseeing-bus spot): Big Ben/Elizabeth Tower, Parliament, Westminster Abbey, Buckingham Palace, Tower of London, Tower Bridge, London Bridge, St Paul's, London Eye, British Museum, Trafalgar Square, Camden, Greenwich…; guide narration with web-verified history, Persian, saveable words, quiz, XP; the family tags along; A2–B2 versions.
+11. **UK accents** (Cockney, Scouse, Geordie, Scottish, Welsh, Brummie…) listening with comprehension.
+12. **Phone-call simulator** (GP, bank, energy, school), audio only, hint button — phone box spot.
+13. **Job interview practice** with feedback, linked to Career Packs — job centre spot.
+14. **Forms & letters**: UK-style forms (GP registration, job application, school) and formal emails/letters — post office/council spot.
+15. **What Brits really mean**: hidden meanings, small talk, humour, queueing/apologies — pub spot.
+16. **Family mode**: parents + kids learn together (kids play Nicola/William), parent progress view — home.
+17. **AI coach "My mistakes"** notebook generating personal practice — home.
+Then Parts 3–5: AI tutor scaffold, Android build, payments scaffold.

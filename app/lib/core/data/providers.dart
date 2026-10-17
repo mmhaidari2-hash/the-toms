@@ -251,8 +251,38 @@ class ProgressController extends Notifier<UserProgress> {
       'goal7' => goalDays >= 7,
       'words50' => state.leitnerBox.length >= 50,
       'league' => leagueTier >= 1,
+      'book1' => booksDone >= 1,
+      'book5' => booksDone >= 5,
       _ => false,
     };
+  }
+
+  // ---- Library (graded readers): best quiz % per chapter in 'read:<book>:<ch>', finished books in 'read:done:<book>'.
+  int? readScore(String book, int ch) => int.tryParse(state.missionsDone['read:$book:$ch'] ?? '');
+  bool bookDone(String book) => state.missionsDone.containsKey('read:done:$book');
+  int get booksDone => state.missionsDone.keys.where((k) => k.startsWith('read:done:')).length;
+  /// First chapter whose quiz is not passed yet (or 0 when the book is finished).
+  int nextChapter(String book, int chapters) {
+    for (var i = 0; i < chapters; i++) {
+      if ((readScore(book, i) ?? -1) < 50) return i;
+    }
+    return 0;
+  }
+
+  XpAward saveChapter(String book, int ch, int pct, int chapters) {
+    final m = {...state.missionsDone};
+    if (pct > (readScore(book, ch) ?? -1)) m['read:$book:$ch'] = '$pct';
+    final all = List.generate(chapters, (i) => i == ch ? pct : (readScore(book, i) ?? -1)).every((v) => v >= 50);
+    if (all) m.putIfAbsent('read:done:$book', () => Motivation.day(DateTime.now()));
+    state = state.copyWith(missionsDone: m);
+    _save();
+    return awardXp(pct >= 50 ? (pct >= 100 ? 15 : 10) : 3);
+  }
+
+  String pref(String k, [String def = '']) => state.missionsDone['pref:$k'] ?? def;
+  void setPref(String k, String v) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:$k': v});
+    _save();
   }
 
   // ---- Speaking: answer chats by voice (speech recognition + per-word pronunciation scoring).

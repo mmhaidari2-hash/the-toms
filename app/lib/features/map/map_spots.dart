@@ -131,6 +131,30 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
               ]),
             ),
           ]),
+          if (s.id == 'library') ...[
+            const SizedBox(height: 12),
+            Material(
+              color: BL.navy,
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const ValueKey('spot-open-library'),
+                borderRadius: BorderRadius.circular(18),
+                onTap: () {
+                  Navigator.of(sheet).pop();
+                  context.push('/library');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+                  child: Row(children: [
+                    Icon(Icons.local_library_rounded, color: BL.gold),
+                    SizedBox(width: 12),
+                    Expanded(child: Text('Browse the shelves · graded readers', style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 15))),
+                    Icon(Icons.chevron_right_rounded, color: Colors.white),
+                  ]),
+                ),
+              ),
+            ),
+          ],
           const SizedBox(height: 6),
           Text('${ls.length} lessons here  ·  $done done', style: const TextStyle(color: BL.muted, fontWeight: FontWeight.w600, fontSize: 13)),
           const SizedBox(height: 12),
