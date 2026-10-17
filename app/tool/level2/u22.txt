@@ -1,0 +1,133 @@
+## U110 | Big supermarket | سوپرمارکت بزرگ | bigsupermarket | Find things in a big supermarket, ask staff for help and use the self-checkout | در سوپرمارکت بزرگ چیزها را پیدا کنی، از کارکنان کمک بخواهی و از صندوق سلف‌سرویس استفاده کنی
+
+# l2_u22_1 | zara | Which aisle? | کدام راهرو؟ | Where can I find…? / It's in aisle… / next to / opposite / at the end of | کجا پیدا کنم؟ / در راهروی… / کنارِ / روبه‌رویِ / تهِ | bigsupermarket
+zara: Hiya! You look a bit lost. First time in the Superstore? It's massive, isn't it? | سلام! یه‌کم گم‌شده به نظر میای. اولین باره میای سوپراستور؟ خیلی بزرگه، نه؟
+> Yes, it's huge! Where can I find rice? | آره، خیلی بزرگه! برنج را کجا پیدا کنم؟
+> It's my first time. I'm looking for tea. | اولین بارمه. دنبال چای می‌گردم.
+W: lost=گم‌شده ; massive=خیلی بزرگ ; huge=عظیم ; find=پیدا کردن
+zara: Rice and tea are both in aisle seven. Look up — the big green signs have numbers. See "Aisle 7"? | برنج و چای هر دو تو راهروی هفتن. بالا را نگاه کن — تابلوهای بزرگ سبز شماره دارن. «راهروی ۷» را می‌بینی؟
+> Yes, I can see it. Next to the bread? | آره، می‌بینمش. کنار نون؟
+> Seven. Thank you! And basmati rice? | هفت. ممنون! برنج باسماتی چی؟
+W: aisle=راهرو ; signs=تابلوها ; look up=بالا را نگاه کردن ; next to=کنارِ
+X: where i can find ; where is find => Where can I find it? Aisle seven. | Where can I find rice? | برنج را کجا پیدا کنم؟
+C: Big UK supermarkets put numbered signs above every aisle. Staff in uniform are always happy to point the way. | سوپرمارکت‌های بزرگ بالای هر راهرو تابلوی شماره‌دار دارند.
+zara: Just past the bread, yeah. Basmati's on the top shelf, opposite the noodles. The big bags are cheaper per kilo. | آره، درست بعد از نون. باسماتی رو قفسهٔ بالاست، روبه‌روی نودل‌ها. کیسه‌های بزرگ کیلویی ارزون‌ترن.
+> Is there a world food aisle too? | راهروی غذاهای ملل هم هست؟
+> Opposite the noodles. Got it. | روبه‌روی نودل‌ها. فهمیدم.
+W: past=بعد از ؛ گذشته از ; top shelf=قفسهٔ بالا ; opposite=روبه‌رویِ ; per kilo=هر کیلو
+zara: There is! Aisle twelve, "World Foods". Persian, Turkish, Polish, Indian… Where are you from? | هست! راهروی دوازده، «غذاهای ملل». ایرانی، ترکی، لهستانی، هندی… اهل کجایی؟
+> I'm from Iran. Do you have saffron? | اهل ایرانم. زعفرون دارین؟
+> Tehran. I miss Iranian bread! | تهران. دلم برای نون ایرانی تنگ شده!
+W: world foods=غذاهای ملل ; Persian=ایرانی ؛ فارسی ; miss=دلتنگ بودن
+zara: We've got barberries and dried limes in twelve. Saffron is behind the till — it's expensive, so we keep it safe. | زرشک و لیموعمانی تو دوازده داریم. زعفرون پشت صندوقه — گرونه، برای همین نگهش می‌داریم.
+> Behind the till? Why? | پشت صندوق؟ چرا؟
+> Barberries! Brilliant. And where's the milk? | زرشک! عالیه. شیر کجاست؟
+W: barberries=زرشک ; dried limes=لیموعمانی ; behind=پشتِ ; till=صندوق ; safe=امن
+zara: People steal it! Tiny packet, big price. Milk's at the far end, in the fridges along the back wall. | مردم می‌دزدنش! بستهٔ کوچیک، قیمت بالا. شیر ته فروشگاهه، تو یخچال‌های کنار دیوار عقب.
+> At the end of the shop. OK! | ته فروشگاه. باشه!
+> Why is milk always at the back? | چرا شیر همیشه ته فروشگاهه؟
+W: steal=دزدیدن ; far end=انتهای دور ; fridges=یخچال‌ها ; back wall=دیوار عقب
+zara: Ha — so you walk past everything else and buy more! That's the secret. Don't tell my manager I told you. | ها — که از کنار همه‌چیز رد بشی و بیشتر بخری! راز همینه. به مدیرم نگو بهت گفتم.
+> Clever! I'll only buy what's on my list. | زرنگی! فقط چیزایی که تو لیستمه می‌خرم.
+> Your secret is safe with me. | رازت پیش من امنه.
+W: walk past=از کنار رد شدن ; secret=راز ; manager=مدیر ; clever=زرنگ
+zara: Good luck with that! I'm Zara, by the way. If you get lost again, look for a green shirt. We don't bite. | موفق باشی! راستی من زارام. اگه دوباره گم شدی، دنبال یه پیرهن سبز بگرد. گاز نمی‌گیریم.
+
+# l2_u22_2 | zara | Out of stock | ناموجود | Have you got any…? / It's out of stock / Could you check the back? / When will it be back? | دارید؟ / تمام شده / می‌شود انبار را چک کنید؟ / کی می‌آید؟ | bigsupermarket
+zara: Hello again! Did you find everything? You're staring at that empty shelf like it owes you money. | دوباره سلام! همه‌چی را پیدا کردی؟ یه جوری به اون قفسهٔ خالی زل زدی انگار بهت بدهکاره.
+> Have you got any more of this yoghurt? | از این ماست بیشتر دارین؟
+> This shelf is empty. Is it sold out? | این قفسه خالیه. تموم شده؟
+W: staring=زل زدن ; empty=خالی ; owes=بدهکار است ; sold out=تمام‌شده
+X: you have more this ; have you got more of yoghurt => Any more yoghurt? Let me look. | Have you got any more of this yoghurt? | از این ماست بیشتر دارید؟
+zara: The Greek one? Let me scan the label. Hmm… the system says "out of stock". Sorry about that. | ماست یونانی؟ بذار برچسب را اسکن کنم. هوم… سیستم میگه «ناموجود». ببخشید.
+> Could you check in the back, please? | میشه لطفاً تو انبار را نگاه کنید؟
+> Out of stock? When will it be back? | ناموجود؟ کی دوباره میاد؟
+W: scan=اسکن کردن ; label=برچسب ; out of stock=ناموجود ; system=سیستم
+zara: I can check, but the screen says zero. The delivery comes tomorrow morning, about six. | می‌تونم نگاه کنم، ولی صفحه صفر نشون میده. بار فردا صبح میاد، حدود شش.
+> Tomorrow? Is there something similar? | فردا؟ چیز مشابهی هست؟
+> Six in the morning? I'll come at lunchtime. | شش صبح؟ ظهر میام.
+W: delivery=تحویل ؛ بار جدید ; zero=صفر ; similar=مشابه ; lunchtime=وقت ناهار
+C: "Out of stock" means the shop has none left. Staff can often check the stockroom or another branch for you. | یعنی فروشگاه دیگر از آن کالا ندارد.
+zara: The own-brand Greek-style is just as good, and it's half the price. Honestly, I buy it myself. | ماست یونانی‌سبک مارک خود فروشگاه هم همون‌قدر خوبه، نصف قیمتم هست. راستش خودم همینو می‌خرم.
+> Own-brand? What does that mean? | مارک خود فروشگاه؟ یعنی چی؟
+> Half the price? I'll try it. | نصف قیمت؟ امتحانش می‌کنم.
+W: own-brand=مارک خود فروشگاه ; just as good=همان‌قدر خوب ; half the price=نصف قیمت
+zara: Own-brand is the shop's own name on the packet. Same factory sometimes! Do you need anything else? | مارک خود فروشگاه یعنی اسم خود فروشگاه رو بسته‌ست. گاهی همون کارخونه! چیز دیگه‌ای لازم داری؟
+> Yes. I can't find the baby wipes. | آره. دستمال مرطوب بچه را پیدا نمی‌کنم.
+> Do you sell phone chargers? | شارژر گوشی می‌فروشین؟
+W: packet=بسته ; factory=کارخانه ; baby wipes=دستمال مرطوب بچه ; chargers=شارژرها
+zara: Aisle nineteen, baby and toiletries. Chargers are in electricals, near the entrance. For your little one? | راهروی نوزده، بچه و بهداشتی. شارژرها تو بخش لوازم برقین، نزدیک ورودی. برای کوچولوت؟
+> For the Toms. Their son William is three. | برای خانوادهٔ تام. پسرشون ویلیام سه سالشه.
+> No, for a friend. What's "toiletries"? | نه، برای یه دوست. «تویلِتریز» چیه؟
+W: toiletries=لوازم بهداشتی ; electricals=لوازم برقی ; entrance=ورودی ; little one=کوچولو
+zara: Ah, three — the messy age! Get the big pack, it's on offer. Three for two this week. | آه، سه سال — سن شلوغ‌کاری! بستهٔ بزرگ را بگیر، تخفیف داره. این هفته سه تا به قیمت دو تا.
+> Three for two? So one is free? | سه تا به قیمت دو تا؟ یعنی یکیش مجانیه؟
+> Great. I'll take three packs. | عالیه. سه بسته برمی‌دارم.
+W: messy=شلوغ ؛ کثیف‌کار ; on offer=در تخفیف ; three for two=سه به قیمت دو ; pack=بسته
+zara: Exactly — buy two, get the third free. The till does it automatically. You're getting good at this shopping lark! | دقیقاً — دو تا بخر، سومی مجانی. صندوق خودش حساب می‌کنه. داری تو این خرید کردن حرفه‌ای میشی!
+
+# l2_u22_3 | leslie | Unexpected item in the bagging area | کالای غیرمنتظره در محل بسته‌بندی | Present perfect: I've scanned it / It hasn't worked / Can you help? | ماضی نقلی: اسکن کرده‌ام / کار نکرده | bigsupermarket
+leslie: Let's use the self-checkout, it's quicker. Scan, bag, pay. Easy. You do the scanning, I'll do the bags. | بیا از صندوق سلف‌سرویس استفاده کنیم، سریع‌تره. اسکن، کیسه، پرداخت. آسون. تو اسکن کن، من کیسه می‌ذارم.
+> OK. Where's the barcode on these apples? | باشه. بارکد این سیب‌ها کجاست؟
+> I've never used one. Show me first? | تا حالا ازش استفاده نکردم. اول نشونم میدی؟
+W: self-checkout=صندوق سلف‌سرویس ; scan=اسکن کردن ; bag=در کیسه گذاشتن ; barcode=بارکد
+leslie: Loose fruit has no barcode. Press "Look up item", then "Fruit and veg", then "Apples". It weighs them. | میوهٔ فله بارکد نداره. «جستجوی کالا» را بزن، بعد «میوه و سبزی»، بعد «سیب». خودش وزنشون می‌کنه.
+> Look up item… fruit… apples. Done! | جستجوی کالا… میوه… سیب. تموم!
+> It weighs them? Clever machine. | وزنشون می‌کنه؟ دستگاه زرنگیه.
+W: loose=فله ; look up=جستجو کردن ; weighs=وزن می‌کند ; machine=دستگاه
+zara: Uh-oh, I heard that! The machine said "Unexpected item in the bagging area". It wants you to take something off. | اوه، شنیدم! دستگاه گفت «کالای غیرمنتظره در محل بسته‌بندی». می‌خواد یه چیزی را برداری.
+> What? I haven't put anything there! | چی؟ من چیزی اونجا نذاشتم!
+> Oh no. What have I done wrong? | وای نه. چه اشتباهی کردم؟
+W: unexpected=غیرمنتظره ; item=کالا ; bagging area=محل بسته‌بندی ; remove=برداشتن
+X: i don't put nothing ; i not put anything => You haven't put anything there? Ah, my handbag! | I haven't put anything there! | من چیزی آنجا نگذاشته‌ام!
+C: "Unexpected item in the bagging area" is the most famous machine voice in Britain. Everyone hears it. Nobody knows why. | این مشهورترین جملهٔ دستگاه در بریتانیاست.
+leslie: Oops — it's my handbag! I've put it on the scales. Classic. I'll move it. Has it stopped? | اوه — کیف دستی منه! گذاشتمش رو ترازو. کلاسیک. برش می‌دارم. ساکت شد؟
+> Yes, it has stopped. The light is green. | آره، ساکت شد. چراغ سبزه.
+> No, it hasn't. Now it says "Wait for assistance". | نه، نشده. الان میگه «منتظر کمک بمانید».
+W: scales=ترازو ; classic=کلاسیک ؛ همیشگی ; light=چراغ ; assistance=کمک
+leslie: Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady? | هوم، چراغ بالاش قرمز چشمک می‌زنه. یعنی یه کارمند لازم داریم. میشه برای اون خانم دست تکون بدی؟
+> Excuse me! Can you help us, please? | ببخشید! میشه لطفاً کمکمون کنید؟
+> Excuse me! The machine is angry with us. | ببخشید! دستگاه از دستمون عصبانیه.
+W: flashing=چشمک‌زن ; member of staff=کارمند ; wave=دست تکان دادن ; angry=عصبانی
+zara: Me again! Don't worry, it does this to everyone. Let me tap my staff card… there. All sorted. | باز هم من! نگران نباشید، با همه این کار را می‌کنه. بذار کارت کارمندیم را بزنم… بفرمایید. همه‌چی درست شد.
+> Thank you! I've scanned the apples twice, I think. | ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.
+> Thanks, Zara. You saved us! | ممنون زارا. نجاتمون دادی!
+W: sorted=حل شده ; twice=دو بار ; saved=نجات داد
+zara: Twice? Let me look… yep. I've taken one off. See? Total's gone down. Now just pay by card or phone. | دو بار؟ بذار ببینم… آره. یکیش را حذف کردم. می‌بینی؟ جمع کم شد. حالا فقط با کارت یا گوشی پرداخت کن.
+> Card. Do I put it in or tap? | کارت. واردش کنم یا بزنمش؟
+> I've paid! It says "Thank you". | پرداخت کردم! نوشته «متشکریم».
+W: taken off=حذف کرد ; total=جمع کل ; gone down=کم شده ; tap=زدن ؛ لمس کردن
+leslie: You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom. | انجامش دادی! اولین صندوق سلف‌سرویست، فقط یه بار هم دستگاه دعوات کرد. از تام بهتری.
+
+# l2_u22_4 | zara | Age check at the self-checkout | کنترل سن در صندوق سلف‌سرویس | Have you got any ID? / I need to see… / I'm over 18 / You must be… | کارت شناسایی دارید؟ / باید ببینم… / بالای ۱۸ هستم | bigsupermarket
+zara: Hiya! Your screen says "Approval needed". That's the paracetamol and the knives. I just need a quick look at you. | سلام! صفحه‌ات نوشته «تأیید لازم است». به خاطر پاراستامول و چاقوهاست. فقط یه نگاه کوتاه بهت لازم دارم.
+> A look at me? Why? | یه نگاه به من؟ چرا؟
+> Oh, OK. I'm thirty! | آهان، باشه. من سی سالمه!
+W: approval=تأیید ; needed=لازم ; paracetamol=پاراستامول ; knives=چاقوها
+zara: Some things have an age limit. Knives, alcohol, even some glue. We use "Challenge 25". | بعضی چیزها محدودیت سنی دارن. چاقو، الکل، حتی بعضی چسب‌ها. ما از «چالش ۲۵» استفاده می‌کنیم.
+> What's Challenge 25? | چالش ۲۵ چیه؟
+> Glue too? That's surprising. | چسب هم؟ عجیبه.
+W: age limit=محدودیت سنی ; alcohol=الکل ; glue=چسب ; surprising=تعجب‌آور
+zara: If you look under twenty-five, I must ask for ID. You look… well, about twenty-two. Sorry! Have you got any ID? | اگه زیر بیست و پنج به نظر بیای، باید کارت شناسایی بخوام. تو به نظر… خب، حدود بیست و دو میای. ببخشید! کارت شناسایی داری؟
+> Twenty-two? Thank you! Here's my residence card. | بیست و دو؟ ممنون! این کارت اقامتمه.
+> I haven't got my passport with me. Is a photo OK? | پاسپورتم همراهم نیست. عکسش اشکالی نداره؟
+W: ID=کارت شناسایی ; residence card=کارت اقامت ; passport=گذرنامه ; photo=عکس
+X: i have not my passport ; i don't have with me passport => You haven't got it with you? Hmm. | I haven't got my passport with me. | گذرنامه‌ام همراهم نیست.
+C: Under "Challenge 25", shops ask anyone who looks under 25 for photo ID, like a passport, driving licence or PASS card. | فروشگاه‌ها از هر کس زیر ۲۵ به نظر برسد کارت عکس‌دار می‌خواهند.
+zara: A photo on your phone isn't allowed, sorry. It must be the real card. A passport, a driving licence, or a PASS card. | عکس رو گوشی قبول نیست، ببخشید. باید خود کارت باشه. پاسپورت، گواهینامه یا کارت PASS.
+> I've got my provisional driving licence. | گواهینامهٔ موقتم را دارم.
+> What's a PASS card? | کارت PASS چیه؟
+W: allowed=مجاز ; real=واقعی ؛ اصلی ; driving licence=گواهینامه ; provisional=موقت
+zara: A provisional's fine! Let me see… born in 1996. Perfect, you're definitely over eighteen. Approved. | گواهینامهٔ موقت خوبه! بذار ببینم… متولد ۱۹۹۶. عالی، قطعاً بالای هجده‌ای. تأیید شد.
+> Thanks. Do you ask everyone? | ممنون. از همه می‌پرسین؟
+> Great. Can I pay now? | عالیه. الان می‌تونم پرداخت کنم؟
+W: born=متولد ; definitely=قطعاً ; over=بالای ; approved=تأیید شد
+zara: Everyone who looks young. Last week I asked a man of forty. He was so happy, he bought me a coffee! | همه کسایی که جوون به نظر میان. هفتهٔ پیش از یه مرد چهل‌ساله پرسیدم. اون‌قدر خوشحال شد که برام قهوه خرید!
+> Ha! Should I buy you a coffee too? | ها! منم برات قهوه بخرم؟
+> That's a nice compliment, really. | واقعاً تعریف قشنگیه.
+W: young=جوان ; compliment=تعریف ؛ تمجید ; really=واقعاً
+zara: No need, love! Right, you can pay now. And keep that licence in your wallet — you'll need it again. | لازم نیست عزیزم! خب، الان می‌تونی پرداخت کنی. اون گواهینامه را هم تو کیف پولت نگه دار — باز لازمت میشه.
+> I will. Can I pay with my phone? | نگه می‌دارم. با گوشی می‌تونم بپردازم؟
+> Good idea. Thanks for your help, Zara. | فکر خوبیه. ممنون از کمکت زارا.
+W: no need=لازم نیست ; wallet=کیف پول ; again=دوباره
+zara: Phone, card, cash — whatever you like. Have a lovely day. And next time, I'll say you look nineteen! | گوشی، کارت، نقد — هرچی دوست داری. روز خوبی داشته باشی. دفعهٔ بعد میگم به نظر نوزده ساله میای!
