@@ -32,8 +32,8 @@
     {
      "keywords": [
       "give",
-      "ok",
-      "ha"
+      "ha",
+      "ok"
      ],
      "suggestion": "Ha! OK. Give it to me.",
      "suggestionFa": "ها! باشه. بدش به من.",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "happens",
-      "problem"
+      "problem",
+      "happens"
      ],
      "suggestion": "No problem! It happens.",
      "suggestionFa": "مشکلی نیست! پیش میاد.",
@@ -177,8 +177,8 @@
     },
     {
      "keywords": [
-      "that's",
       "parcel",
+      "that's",
       "luck",
       "good"
      ],
@@ -248,8 +248,8 @@
     {
      "keywords": [
       "delivery",
-      "number",
       "driver",
+      "number",
       "wrong"
      ],
      "suggestion": "No, it was a delivery driver. Wrong number!",

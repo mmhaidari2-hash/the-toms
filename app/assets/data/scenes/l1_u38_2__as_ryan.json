@@ -23,9 +23,9 @@
      "keywords": [
       "present",
       "bought",
-      "looks",
+      "can't",
       "awful",
-      "can't"
+      "looks"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
      "suggestionFa": "کمک! برای بابا کادو خریدم، ولی بلد نیستم کادو کنم. افتضاح شده.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "world's",
-      "driver",
       "cheesy",
+      "driver",
       "says",
-      "best"
+      "know"
      ],
      "suggestion": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
      "suggestionFa": "یه ماگ. روش نوشته «بهترین راننده اتوبوس دنیا». می‌دونم، لوسه.",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "genius",
       "easier",
-      "now",
-      "box"
+      "genius",
+      "box",
+      "now"
      ],
      "suggestion": "A box! Genius. It's easier with a box. Now what?",
      "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
@@ -148,8 +148,8 @@
       "triangles",
       "better",
       "right",
-      "like",
-      "ends"
+      "ends",
+      "them"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "write",
-      "nice",
       "gift",
-      "now",
-      "bow"
+      "nice",
+      "top",
+      "now"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "soppy",
-      "don't",
       "mates",
-      "tell",
-      "fine"
+      "don't",
+      "soppy",
+      "ryan",
+      "love"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

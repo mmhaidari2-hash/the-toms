@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "never",
       "tried",
+      "never",
       "i've"
      ],
      "suggestion": "No, I've never tried it.",
@@ -130,9 +130,9 @@
     },
     {
      "keywords": [
-      "have",
-      "ever",
       "used",
+      "ever",
+      "have",
       "one"
      ],
      "suggestion": "Have you ever used one?",
@@ -177,8 +177,8 @@
      "keywords": [
       "never",
       "cold",
-      "i've",
-      "life"
+      "life",
+      "i've"
      ],
      "suggestion": "I've never been so cold in my life!",
      "suggestionFa": "تو عمرم این‌قدر سردم نبوده!",

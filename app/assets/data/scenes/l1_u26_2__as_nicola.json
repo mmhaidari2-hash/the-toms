@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "flying",
-      "higher"
+      "higher",
+      "flying"
      ],
      "suggestion": "Higher! Higher! I'm flying!",
      "suggestionFa": "بالاتر! بالاتر! دارم پرواز می‌کنم!",
@@ -142,8 +142,8 @@
      "keywords": [
       "through",
       "tunnel",
-      "crawl",
       "let's",
+      "crawl",
       "now"
      ],
      "suggestion": "Now let's go through the tunnel. Can you crawl?",
@@ -169,7 +169,7 @@
       "bridge",
       "follow",
       "frame",
-      "onto"
+      "then"
      ],
      "suggestion": "Then over the bridge and onto the climbing frame! Follow me!",
      "suggestionFa": "بعد از روی پل و رو داربست بازی! دنبالم بیا!",
@@ -190,10 +190,10 @@
    "branches": [
     {
      "keywords": [
-      "rascal",
       "castle",
-      "dirty",
+      "rascal",
       "queen",
+      "dirty",
       "top"
      ],
      "suggestion": "I'm at the top! I'm the queen of the castle! You're the dirty rascal!",
@@ -217,9 +217,9 @@
      "keywords": [
       "roundabout",
       "cream",
-      "spin",
       "push",
-      "then"
+      "then",
+      "spin"
      ],
      "suggestion": "It's a game! Now the roundabout. You push, I spin. Then ice cream!",
      "suggestionFa": "یه بازیه! حالا چرخ‌وفلک. تو هل بده، من می‌چرخم. بعد بستنی!",

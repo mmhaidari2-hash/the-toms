@@ -22,10 +22,10 @@
     {
      "keywords": [
       "charlton",
-      "george",
       "anyone",
-      "about",
-      "never"
+      "george",
+      "bobby",
+      "about"
      ],
      "suggestion": "George, tell them about the day you met Bobby Charlton. You never tell anyone.",
      "suggestionFa": "جورج، بهشون بگو روزی که بابی چارلتون را دیدی. هیچ‌وقت به کسی نمی‌گی.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

@@ -24,8 +24,8 @@
       "please",
       "shoes",
       "come",
-      "here",
-      "hall"
+      "hall",
+      "here"
      ],
      "suggestion": "Come in! This is the hall. Shoes off here, please.",
      "suggestionFa": "بیا تو! اینجا راهروئه. لطفاً کفش‌ها را اینجا دربیار.",
@@ -48,9 +48,9 @@
      "keywords": [
       "umbrellas",
       "floors",
+      "three",
       "there",
-      "house",
-      "three"
+      "house"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
      "suggestionFa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره.",
@@ -74,8 +74,8 @@
       "downstairs",
       "kitchen",
       "there's",
-      "living",
-      "garden"
+      "garden",
+      "living"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "downstairs",
+      "upstairs",
       "bedrooms",
       "bathroom",
-      "upstairs",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "window",
       "lovely",
-      "under",
+      "window",
       "let's",
+      "under",
       "room"
      ],
      "suggestion": "It's the room under the roof. It's got a lovely window. Let's go up!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "anything",
       "wardrobe",
+      "anything",
       "there's",
       "there",
-      "desk"
+      "need"
      ],
      "suggestion": "There's a bed, a desk and a wardrobe. Is there anything you need?",
      "suggestionFa": "یه تخت، یه میز تحریر و یه کمد لباس هست. چیزی لازم داری؟",
@@ -199,8 +199,8 @@
       "yourself",
       "course",
       "love",
-      "make",
-      "home"
+      "home",
+      "make"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",

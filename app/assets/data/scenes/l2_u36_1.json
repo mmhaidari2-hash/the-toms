@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "council",
       "exactly",
+      "council",
       "tax"
      ],
      "suggestion": "Yes. What is council tax exactly?",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "every",
-      "room",
-      "even",
-      "home"
+      "rent",
+      "home",
+      "room"
      ],
      "suggestion": "Every home? Even if I rent a room?",
      "suggestionFa": "هر خونه‌ای؟ حتی اگه یه اتاق اجاره کنم؟",
@@ -244,8 +244,8 @@
    "branches": [
     {
      "keywords": [
-      "ten",
-      "why"
+      "why",
+      "ten"
      ],
      "suggestion": "Why ten, not twelve?",
      "suggestionFa": "چرا ده، نه دوازده؟",
@@ -257,8 +257,8 @@
      "keywords": [
       "instalments",
       "instead",
-      "she",
-      "pay"
+      "pay",
+      "she"
      ],
      "suggestion": "Can she pay in twelve instalments instead?",
      "suggestionFa": "می‌تونه به‌جاش دوازده قسط بده؟",
@@ -297,9 +297,9 @@
     {
      "keywords": [
       "discount",
-      "george",
       "maggie",
-      "lives"
+      "george",
+      "alone"
      ],
      "suggestion": "And Nana Maggie lives alone with George. Do they get a discount?",
      "suggestionFa": "ننه مگی با جورج تنها زندگی می‌کنه. تخفیف می‌گیرن؟",
@@ -310,9 +310,9 @@
     {
      "keywords": [
       "leslie",
-      "tell",
       "know",
-      "good"
+      "i'll",
+      "tell"
      ],
      "suggestion": "Good to know. I'll tell Leslie.",
      "suggestionFa": "خوب شد فهمیدم. به لزلی میگم.",
@@ -352,8 +352,8 @@
      "keywords": [
       "that's",
       "thank",
-      "ward",
-      "kind"
+      "kind",
+      "ward"
      ],
      "suggestion": "Thank you, Ms Ward. That's very kind.",
      "suggestionFa": "ممنون خانم وارد. خیلی لطف دارید.",
@@ -363,10 +363,10 @@
     },
     {
      "keywords": [
-      "what's",
       "number",
-      "call",
-      "them"
+      "what's",
+      "i'll",
+      "help"
      ],
      "suggestion": "I'll help them call. What's the number?",
      "suggestionFa": "کمکشون می‌کنم زنگ بزنن. شماره چنده؟",

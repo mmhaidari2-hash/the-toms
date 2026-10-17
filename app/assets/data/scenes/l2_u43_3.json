@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "tehran",
       "better",
-      "think",
-      "sorry"
+      "tehran",
+      "sorry",
+      "think"
      ],
      "suggestion": "I think Tehran is better. Sorry, Tom!",
      "suggestionFa": "فکر کنم تهران بهتره. ببخشید تام!",
@@ -146,8 +146,8 @@
      "keywords": [
       "tehran's",
       "cheaper",
-      "metro",
-      "newer"
+      "newer",
+      "metro"
      ],
      "suggestion": "Tehran's metro is newer and cheaper.",
      "suggestionFa": "متروی تهران جدیدتر و ارزون‌تره.",
@@ -158,8 +158,8 @@
     {
      "keywords": [
       "especially",
-      "london",
       "better",
+      "london",
       "buses"
      ],
      "suggestion": "But London buses are better. Especially the 38!",
@@ -199,9 +199,9 @@
     {
      "keywords": [
       "spaces",
-      "parks",
       "there",
-      "green"
+      "green",
+      "parks"
      ],
      "suggestion": "The parks. There are so many green spaces.",
      "suggestionFa": "پارک‌ها. کلی فضای سبز هست.",
@@ -213,8 +213,8 @@
      "keywords": [
       "museums",
       "free",
-      "them",
-      "most"
+      "most",
+      "them"
      ],
      "suggestion": "The museums. And most of them are free!",
      "suggestionFa": "موزه‌ها. و بیشترشون مجانین!",
@@ -257,9 +257,9 @@
     {
      "keywords": [
       "expensive",
-      "much",
+      "rent",
       "more",
-      "rent"
+      "much"
      ],
      "suggestion": "The rent! It's much more expensive than Tehran.",
      "suggestionFa": "اجاره! خیلی از تهران گرون‌تره.",
@@ -308,9 +308,9 @@
    "branches": [
     {
      "keywords": [
+      "tehran",
       "prefer",
       "london",
-      "tehran",
       "parks"
      ],
      "suggestion": "I prefer Tehran for food, London for parks.",
@@ -323,8 +323,8 @@
      "keywords": [
       "difficult",
       "hackney",
-      "that's",
-      "choose"
+      "choose",
+      "that's"
      ],
      "suggestion": "That's too difficult! Can I choose Hackney?",
      "suggestionFa": "خیلی سخته! میشه هکنی را انتخاب کنم؟",
@@ -362,8 +362,8 @@
    "branches": [
     {
      "keywords": [
-      "secret",
       "leslie",
+      "secret",
       "shh"
      ],
      "suggestion": "Shh, Leslie! It's a secret!",
@@ -423,7 +423,7 @@
       "london",
       "thing",
       "about",
-      "free"
+      "ride"
      ],
      "suggestion": "A free ride! The best thing about London!",
      "suggestionFa": "سواری مجانی! بهترین چیز لندن!",

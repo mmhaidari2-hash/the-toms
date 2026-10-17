@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nobody",
-      "feels",
       "funny",
+      "likes",
       "tummy",
-      "likes"
+      "feels"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
      "suggestionFa": "دلم یه جوریه. اگه هیچ‌کس دوستم نداشته باشه چی؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "three",
+      "half",
       "pick",
       "will",
-      "half",
       "up"
      ],
      "suggestion": "Will you pick me up at half three?",
@@ -75,7 +75,7 @@
       "coming",
       "book",
       "okay",
-      "bye"
+      "bag"
      ],
      "suggestion": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
      "suggestionFa": "باشه. تدی هم میاد، تو کیف کتابم. خداحافظ!",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "painting",
-      "leaves",
-      "orange",
       "autumn",
-      "mine's"
+      "mine's",
+      "orange",
+      "leaves"
      ],
      "suggestion": "You came! It's half three! We did a painting of autumn leaves today. Mine's orange and gold.",
      "suggestionFa": "اومدی! سه و نیمه! امروز نقاشی برگ‌های پاییزی کشیدیم. مال من نارنجی و طلاییه.",
@@ -125,7 +125,7 @@
       "drying",
       "guess",
       "bring",
-      "star"
+      "i'll"
      ],
      "suggestion": "It's drying. I'll bring it home tomorrow. And guess what — I got a gold star!",
      "suggestionFa": "داره خشک میشه. فردا میارمش خونه. و حدس بزن — یه ستارهٔ طلایی گرفتم!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "crayons",
       "sharing",
+      "crayons",
       "friend",
       "she's",
       "best"
@@ -174,8 +174,8 @@
       "sometimes",
       "voices",
       "giggly",
-      "funny",
-      "we're"
+      "we're",
+      "funny"
      ],
      "suggestion": "She does funny voices. Miss Hart says we're a bit too giggly sometimes.",
      "suggestionFa": "صداهای بامزه درمیاره. خانم هارت می‌گه گاهی زیادی ریز ریز می‌خندیم.",
@@ -199,8 +199,8 @@
       "shepherd's",
       "golden",
       "lunch",
-      "time",
-      "will"
+      "then",
+      "time"
      ],
      "suggestion": "I will. We had shepherd's pie for lunch. And then it was \"golden time\"!",
      "suggestionFa": "حتماً. ناهار پای چوپان داشتیم. و بعد «وقت طلایی» بود!",
@@ -224,7 +224,7 @@
       "children",
       "fingers",
       "nervous",
-      "play",
+      "fish",
       "good"
      ],
      "suggestion": "Good children get to play! I'm not nervous now. Can we have fish fingers for tea?",
@@ -247,10 +247,10 @@
     {
      "keywords": [
       "tomorrow",
-      "liked",
-      "again",
       "teddy",
-      "first"
+      "first",
+      "again",
+      "liked"
      ],
      "suggestion": "Yay! Best first day ever. Teddy liked it too. Can I go again tomorrow?",
      "suggestionFa": "آخ جون! بهترین روز اول دنیا. تدی هم دوستش داشت. می‌تونم فردا هم برم؟",

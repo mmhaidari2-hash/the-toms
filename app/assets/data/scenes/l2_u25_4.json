@@ -31,8 +31,8 @@
     {
      "keywords": [
       "number",
-      "want",
       "keep",
+      "want",
       "but"
      ],
      "suggestion": "Yes, but I want to keep my number.",
@@ -73,8 +73,8 @@
      "keywords": [
       "code",
       "get",
-      "pac",
-      "how"
+      "how",
+      "pac"
      ],
      "suggestion": "How do I get a PAC code?",
      "suggestionFa": "کد PAC را چطوری بگیرم؟",
@@ -131,8 +131,8 @@
      "keywords": [
       "here's",
       "reply",
-      "i've",
-      "sent"
+      "sent",
+      "i've"
      ],
      "suggestion": "OK, I've sent it. Oh, here's the reply!",
      "suggestionFa": "باشه، فرستادم. اوه، جوابش اومد!",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "again",
       "seven",
+      "again",
       "five",
       "say"
      ],
@@ -194,9 +194,9 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "seven",
       "eight",
+      "three",
       "nine"
      ],
      "suggestion": "It's PAC nine-eight-seven, X-Y-Z, three-two-one.",
@@ -249,8 +249,8 @@
      "keywords": [
       "weekend",
       "phone",
-      "work",
-      "will"
+      "will",
+      "work"
      ],
      "suggestion": "Will my phone work at the weekend?",
      "suggestionFa": "گوشیم آخر هفته کار می‌کنه؟",
@@ -262,8 +262,8 @@
      "keywords": [
       "monday",
       "then",
-      "use",
-      "new"
+      "new",
+      "use"
      ],
      "suggestion": "By Monday. And then I use the new SIM?",
      "suggestionFa": "تا دوشنبه. بعدش سیم‌کارت جدید را می‌ذارم؟",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "locked",
-      "great",
       "phone",
+      "great",
       "old"
      ],
      "suggestion": "Great! Is the old phone locked?",

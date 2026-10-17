@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "delays",
       "severe",
+      "delays",
       "long",
       "how"
      ],
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "different",
-      "take",
       "line",
+      "take",
       "can"
      ],
      "suggestion": "Can we take a different line?",
@@ -200,7 +200,7 @@
       "company",
       "should",
       "might",
-      "late"
+      "tell"
      ],
      "suggestion": "Should I tell the company I might be late?",
      "suggestionFa": "به شرکت بگم ممکنه دیر برسم؟",
@@ -238,9 +238,9 @@
    "branches": [
     {
      "keywords": [
+      "minutes",
       "there's",
       "failure",
-      "minutes",
       "signal"
      ],
      "suggestion": "\"Sorry, there's a signal failure. I might be ten minutes late.\"",
@@ -302,7 +302,7 @@
       "remember",
       "let's",
       "i'll",
-      "bus"
+      "run"
      ],
      "suggestion": "I'll remember that. Let's run for the bus!",
      "suggestionFa": "یادم می‌مونه. بدو بریم اتوبوس!",

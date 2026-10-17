@@ -23,9 +23,9 @@
      "keywords": [
       "discharged",
       "medicines",
-      "means",
-      "dad's",
-      "being"
+      "first",
+      "today",
+      "dad's"
      ],
      "suggestion": "Good news! Dad's being discharged today. That means he can go home. But first we wait for his medicines.",
      "suggestionFa": "خبر خوب! بابا امروز مرخص میشه. یعنی می‌تونه بره خونه. ولی اول منتظر داروهاش می‌مونیم.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "pharmacy",
+      "tablets",
       "changed",
       "classic",
-      "tablets",
-      "hours"
+      "tests"
      ],
      "suggestion": "The tests were OK. They changed one of his tablets. The pharmacy here is slow — maybe two hours. Classic NHS!",
      "suggestionFa": "آزمایش‌ها خوب بودن. یکی از قرص‌هاش را عوض کردن. داروخانهٔ اینجا کنده — شاید دو ساعت. کلاسیک NHS!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -136,7 +136,7 @@
       "himself",
       "morning",
       "letter",
-      "weigh"
+      "three"
      ],
      "suggestion": "Yes, the discharge letter. It says he has to weigh himself every morning. If he puts on two kilos in three days, call the GP.",
      "suggestionFa": "آره، نامهٔ ترخیص. نوشته باید هر روز صبح خودش را وزن کنه. اگه تو سه روز دو کیلو اضافه کرد، به پزشک عمومی زنگ بزنه.",
@@ -237,8 +237,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "brilliant",
-      "standing",
       "honestly",
+      "standing",
       "you've",
       "thanks"
      ],

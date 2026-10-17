@@ -22,10 +22,10 @@
     {
      "keywords": [
       "pounds",
-      "ninety",
       "bill's",
-      "right",
-      "shall"
+      "ninety",
+      "shall",
+      "great"
      ],
      "suggestion": "Great curry, lads. Right, the bill's here. Ninety-six pounds for four of us. How shall we do it?",
      "suggestionFa": "کاری عالی بود رفقا. خب، صورت‌حساب اومد. نود و شش پوند برای چهار نفرمون. چطوری حساب کنیم؟",
@@ -49,8 +49,8 @@
       "splitting",
       "easiest",
       "three",
-      "water",
-      "naans"
+      "naans",
+      "beers"
      ],
      "suggestion": "Splitting is easiest. But Big Dave had three beers and two naans. And you only had water. Not fair on you.",
      "suggestionFa": "تقسیم آسون‌ترینه. ولی دیو بزرگه سه تا آبجو و دو تا نون خورد. و تو فقط آب خوردی. برای تو منصفانه نیست.",
@@ -98,9 +98,9 @@
      "keywords": [
       "service",
       "remove",
-      "means",
+      "extra",
       "great",
-      "extra"
+      "means"
      ],
      "suggestion": "It means you can ask them to remove it. But the service was great, so we pay it. And no extra tip.",
      "suggestionFa": "یعنی می‌تونی بخوای حذفش کنن. ولی سرویس عالی بود، پس می‌پردازیمش. و انعام اضافه نه.",
@@ -125,7 +125,7 @@
       "thirty",
       "twenty",
       "fifty",
-      "right"
+      "comes"
      ],
      "suggestion": "Right. Al says: Dave pays thirty, you pay fifteen, Al and I pay the rest. That comes to twenty-five-fifty each for us.",
      "suggestionFa": "خب. اَل میگه: دیو سی تا میده، تو پونزده تا، من و اَل بقیه‌اش را. برای ما نفری بیست و پنج و پنجاه میشه.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "waiter's",
-      "bringing",
       "stubborn",
+      "bringing",
+      "waiter's",
       "machine",
       "twenty"
      ],
@@ -175,7 +175,7 @@
       "course",
       "paying",
       "dave's",
-      "while"
+      "coins"
      ],
      "suggestion": "Done. And Big Dave's paying… cash. Of course. With coins. He's counting. This could take a while.",
      "suggestionFa": "تموم شد. و دیو بزرگه داره… نقد میده. معلومه. با سکه. داره می‌شمره. ممکنه یه کم طول بکشه.",
@@ -199,8 +199,8 @@
       "restaurant",
       "somewhere",
       "probably",
-      "persian",
-      "classic"
+      "classic",
+      "persian"
      ],
      "suggestion": "Thirty pounds in two-pence coins, probably. Classic Dave. Same time next month? You choose the restaurant. Somewhere Persian!",
      "suggestionFa": "احتمالاً سی پوند با سکه‌های دو پنسی. دیوِ همیشگی. ماه بعد همین موقع؟ تو رستوران را انتخاب کن. یه جای ایرانی!",

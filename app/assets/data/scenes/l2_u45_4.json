@@ -20,8 +20,8 @@
     {
      "keywords": [
       "start",
-      "come",
       "i'll",
+      "come",
       "time"
      ],
      "suggestion": "Ha! OK, I'll come. What time does it start?",
@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "video",
       "let's",
+      "video",
       "watch",
       "idea"
      ],
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "ponytail",
-      "round",
       "twist",
+      "round",
       "then"
      ],
      "suggestion": "Make a ponytail, then twist it round.",
@@ -239,10 +239,10 @@
    "branches": [
     {
      "keywords": [
-      "last",
       "only",
       "term",
-      "says"
+      "says",
+      "last"
      ],
      "suggestion": "She says no. Only on the last day of term.",
      "suggestionFa": "میگه نه. فقط روز آخر ترم.",
@@ -252,9 +252,9 @@
     },
     {
      "keywords": [
+      "here",
       "wait",
       "hall",
-      "here",
       "can"
      ],
      "suggestion": "Can we wait here, in the hall?",
@@ -318,8 +318,8 @@
      "keywords": [
       "music",
       "here",
-      "hear",
-      "from"
+      "from",
+      "hear"
      ],
      "suggestion": "Can you hear the music from here?",
      "suggestionFa": "از اینجا صدای موسیقی میاد؟",
@@ -413,8 +413,8 @@
      "keywords": [
       "nicola",
       "have",
-      "did",
-      "fun"
+      "fun",
+      "did"
      ],
      "suggestion": "Did you have fun, Nicola?",
      "suggestionFa": "خوش گذشت نیکولا؟",
@@ -426,8 +426,8 @@
      "keywords": [
       "pins",
       "next",
-      "more",
-      "time"
+      "time",
+      "more"
      ],
      "suggestion": "Ha! Next time, more pins!",
      "suggestionFa": "ها! دفعهٔ بعد سنجاق بیشتر!",

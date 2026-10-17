@@ -84,7 +84,7 @@
      "keywords": [
       "that's",
       "great",
-      "tell",
+      "news",
       "i'll"
      ],
      "suggestion": "That's great news! I'll tell him.",
@@ -167,10 +167,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "number",
-      "could",
-      "again"
+      "please",
+      "again",
+      "could"
      ],
      "suggestion": "Could you say the number again, please?",
      "suggestionFa": "میشه شماره را دوباره بگید؟",
@@ -182,8 +182,8 @@
      "keywords": [
       "wednesday",
       "twelfth",
-      "ten",
-      "got"
+      "got",
+      "ten"
      ],
      "suggestion": "Wednesday the twelfth at ten. Got it.",
      "suggestionFa": "چهارشنبه دوازدهم ساعت ده. گرفتم.",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "message",
-      "helen",
       "thank",
-      "pass"
+      "helen",
+      "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
      "suggestionFa": "ممنون هلن. پیغام را می‌رسونم.",

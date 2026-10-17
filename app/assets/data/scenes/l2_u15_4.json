@@ -128,7 +128,7 @@
       "rucksack",
       "stripe",
       "black",
-      "red"
+      "got"
      ],
      "suggestion": "It's a black rucksack. It's got a red stripe.",
      "suggestionFa": "یه کوله‌پشتی مشکیه. یه نوار قرمز داره.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "front",
       "small",
+      "front",
       "blue",
       "zip"
      ],
@@ -282,8 +282,8 @@
    "branches": [
     {
      "keywords": [
-      "has",
       "got",
+      "has",
       "he"
      ],
      "suggestion": "Has he got it?",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "make",
       "just",
+      "make",
       "did",
       "up"
      ],
@@ -386,8 +386,8 @@
      "keywords": [
       "remember",
       "advice",
-      "good",
-      "i'll"
+      "i'll",
+      "good"
      ],
      "suggestion": "Good advice. I'll remember it.",
      "suggestionFa": "توصیهٔ خوبیه. یادم می‌مونه.",

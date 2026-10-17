@@ -22,7 +22,7 @@
       "landlord's",
       "haven't",
       "bills",
-      "name"
+      "bill"
      ],
      "suggestion": "I haven't got a bill yet. The bills are in my landlord's name.",
      "suggestionFa": "هنوز قبض ندارم. قبض‌ها به اسم صاحبخونه‌ست.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "letter",
+      "bank",
       "home",
-      "i've",
-      "bank"
+      "i've"
      ],
      "suggestion": "I've got a bank letter, but it's at home.",
      "suggestionFa": "نامهٔ بانک دارم، ولی خونه‌ست.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "phone",
-      "i've",
       "will",
+      "i've",
       "got"
      ],
      "suggestion": "I've got my tenancy agreement on my phone. Will that do?",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "course",
-      "send",
       "i'll",
+      "send",
       "now"
      ],
      "suggestion": "Of course. I'll send it now.",
@@ -290,7 +290,7 @@
       "before",
       "weeks",
       "then",
-      "two"
+      "ill"
      ],
      "suggestion": "Two weeks? What if I get ill before then?",
      "suggestionFa": "دو هفته؟ اگه قبلش مریض بشم چی؟",

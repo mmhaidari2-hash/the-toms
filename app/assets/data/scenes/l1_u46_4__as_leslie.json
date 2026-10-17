@@ -23,8 +23,8 @@
      "keywords": [
       "o'clock",
       "already",
-      "nine",
       "only",
+      "nine",
       "off"
      ],
      "suggestion": "Are you off already? It's only nine o'clock!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -132,11 +132,11 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "cooking",
+      "persian",
       "want",
-      "wait",
-      "some"
+      "some",
+      "take"
      ],
      "suggestion": "Yes! I want to try your Persian cooking. Wait — take some food home!",
      "suggestionFa": "آره! می‌خوام آشپزی ایرانیت را امتحان کنم. صبر کنید — یه کم غذا ببرید خونه!",
@@ -159,9 +159,9 @@
      "keywords": [
       "there's",
       "here's",
+      "coats",
       "amina",
-      "loads",
-      "coats"
+      "loads"
      ],
      "suggestion": "There's loads! Here's a box for you, and one for Amina. Have you got your coats?",
      "suggestionFa": "کلی هست! اینم یه جعبه برای تو، یکی هم برای آمینا. کتاتون را برداشتید؟",
@@ -234,9 +234,9 @@
     {
      "keywords": [
       "night",
-      "safe",
       "text",
       "live",
+      "home",
       "when"
      ],
      "suggestion": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",

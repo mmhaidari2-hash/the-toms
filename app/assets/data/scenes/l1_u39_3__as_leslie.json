@@ -25,7 +25,7 @@
       "shopping",
       "helping",
       "thanks",
-      "away"
+      "mess"
      ],
      "suggestion": "Thanks for helping, Mehdi. The kitchen's a mess. Can you put the shopping away?",
      "suggestionFa": "ممنون که کمک می‌کنی {you}. آشپزخونه به هم ریخته‌ست. می‌تونی خریدها را بچینی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "bottom",
       "fridge",
+      "door",
       "goes",
-      "milk",
-      "door"
+      "milk"
      ],
      "suggestion": "Milk goes in the fridge. In the door, at the bottom.",
      "suggestionFa": "شیر میره تو یخچال. تو در، پایین.",
@@ -74,8 +74,8 @@
       "cupboard",
       "butter",
       "fridge",
-      "goes",
-      "eggs"
+      "eggs",
+      "goes"
      ],
      "suggestion": "Butter goes in the fridge too. Eggs go in the cupboard.",
      "suggestionFa": "کره هم میره تو یخچال. تخم‌مرغ‌ها میرن تو کابینت.",
@@ -124,8 +124,8 @@
       "cupboard",
       "bottom",
       "shelf",
-      "tins",
-      "rice"
+      "rice",
+      "tins"
      ],
      "suggestion": "Rice and tins go in the tall cupboard. The bottom shelf.",
      "suggestionFa": "برنج و کنسروها میرن تو کابینت بلنده. قفسهٔ پایینی.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "toaster",
       "bananas",
+      "toaster",
       "bread",
       "fruit",
       "next"
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "cupboard",
-      "kitchen",
       "perfect",
+      "kitchen",
       "better",
       "puts"
      ],

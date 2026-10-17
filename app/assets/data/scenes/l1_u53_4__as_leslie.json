@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "collect",
       "postman",
-      "parcel",
+      "collect",
       "missed",
+      "parcel",
       "sorry"
      ],
      "suggestion": "Nana got a card from the postman. \"Sorry we missed you.\" Can you collect her parcel?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "street",
       "office",
-      "high",
+      "street",
       "post",
-      "card"
+      "card",
+      "high"
      ],
      "suggestion": "It says it's at the post office on the high street. You need the card and ID.",
      "suggestionFa": "میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.",
@@ -73,9 +73,9 @@
      "keywords": [
       "signed",
       "card",
-      "nana",
       "take",
-      "back"
+      "back",
+      "nana"
      ],
      "suggestion": "Nana has signed the back of the card. So take your ID and her card.",
      "suggestionFa": "نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

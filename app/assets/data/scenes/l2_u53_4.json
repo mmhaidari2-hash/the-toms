@@ -33,9 +33,9 @@
     {
      "keywords": [
       "transfer",
+      "bank",
       "back",
-      "like",
-      "bank"
+      "like"
      ],
      "suggestion": "I'd like to pay a friend back by bank transfer.",
      "suggestionFa": "می‌خوام پول یه دوست را با انتقال بانکی پس بدم.",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "callum",
-      "byrne",
       "match",
-      "close"
+      "close",
+      "byrne"
      ],
      "suggestion": "It says, \"Close match: Callum J Byrne\".",
      "suggestionFa": "میگه «تطابق نزدیک: کالوم جی برن».",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "done",
-      "long",
       "take",
+      "long",
       "how"
      ],
      "suggestion": "Done. How long does it take?",
@@ -353,8 +353,8 @@
    "branches": [
     {
      "keywords": [
-      "callum",
       "cheers",
+      "callum",
       "legend",
       "got"
      ],

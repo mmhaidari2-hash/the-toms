@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "absence",
       "calling",
+      "absence",
       "report",
-      "won't"
+      "hello"
      ],
      "suggestion": "Hello. I'm calling to report an absence. Nicola Thompson won't be in today.",
      "suggestionFa": "سلام. زنگ زدم غیبت گزارش بدم. نیکولا تامپسون امروز نمیاد.",
@@ -184,8 +184,8 @@
      "keywords": [
       "didn't",
       "thank",
-      "know",
-      "rule"
+      "rule",
+      "know"
      ],
      "suggestion": "I didn't know that rule. Thank you.",
      "suggestionFa": "این قانون را نمی‌دونستم. ممنون.",
@@ -233,7 +233,7 @@
       "family",
       "friend",
       "added",
-      "last"
+      "term"
      ],
      "suggestion": "Yes, I'm a family friend. Leslie added me last term.",
      "suggestionFa": "آره، دوست خانوادگی‌ام. لزلی ترم پیش اضافه‌م کرد.",
@@ -338,8 +338,8 @@
     {
      "keywords": [
       "online",
-      "she",
-      "can"
+      "can",
+      "she"
      ],
      "suggestion": "Can she sign it online?",
      "suggestionFa": "می‌تونه آنلاین امضاش کنه؟",
@@ -369,8 +369,8 @@
    "branches": [
     {
      "keywords": [
-      "would",
       "great",
+      "would",
       "thank"
      ],
      "suggestion": "That would be great, thank you.",

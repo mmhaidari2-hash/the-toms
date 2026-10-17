@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "left",
-      "pump"
+      "pump",
+      "left"
      ],
      "suggestion": "Left. So the pump is on the left.",
      "suggestionFa": "چپ. پس پمپ سمت چپه.",
@@ -248,8 +248,8 @@
      "keywords": [
       "let's",
       "drive",
-      "long",
-      "fill"
+      "fill",
+      "long"
      ],
      "suggestion": "Let's fill it up. It's a long drive.",
      "suggestionFa": "پرش کنیم. راه طولانیه.",
@@ -313,8 +313,8 @@
      "keywords": [
       "fifty",
       "pump",
-      "can",
-      "two"
+      "two",
+      "pay"
      ],
      "suggestion": "Fifty-two! Can I pay at the pump?",
      "suggestionFa": "پنجاه و دو! می‌تونم کنار پمپ پرداخت کنم؟",
@@ -348,8 +348,8 @@
    "branches": [
     {
      "keywords": [
-      "four",
       "i'll",
+      "four",
       "pump",
       "pay"
      ],

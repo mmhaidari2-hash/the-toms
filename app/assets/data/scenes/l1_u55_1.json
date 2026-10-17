@@ -20,8 +20,8 @@
     {
      "keywords": [
       "tehran",
-      "iran",
-      "from"
+      "from",
+      "iran"
      ],
      "suggestion": "I'm from Iran. From Tehran.",
      "suggestionFa": "من اهل ایرانم. اهل تهران.",
@@ -253,10 +253,10 @@
     },
     {
      "keywords": [
-      "poetry",
       "cities",
-      "good",
-      "food"
+      "poetry",
+      "food",
+      "good"
      ],
      "suggestion": "Old cities, poetry and good food.",
      "suggestionFa": "شهرهای قدیمی، شعر و غذای خوب.",
@@ -357,8 +357,8 @@
    "branches": [
     {
      "keywords": [
-      "sugar",
       "drink",
+      "sugar",
       "we"
      ],
      "suggestion": "No, no milk! We drink it with sugar.",
@@ -369,8 +369,8 @@
     },
     {
      "keywords": [
-      "glass",
       "small",
+      "glass",
       "black",
       "tea"
      ],
@@ -425,7 +425,7 @@
      "keywords": [
       "persian",
       "thanks",
-      "make",
+      "i'll",
       "next"
      ],
      "suggestion": "Thanks, Tom. Next time, I'll make Persian tea.",

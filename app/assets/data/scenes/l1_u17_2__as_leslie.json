@@ -22,9 +22,9 @@
     {
      "keywords": [
       "kettle",
+      "shall",
       "fancy",
       "cuppa",
-      "shall",
       "put"
      ],
      "suggestion": "Shall I put the kettle on? Fancy a cuppa?",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "perfect",
-      "that's",
       "teabag",
+      "that's",
       "turn",
       "each"
      ],
@@ -98,8 +98,8 @@
      "keywords": [
       "kettle's",
       "kettle",
-      "boiled",
       "teabag",
+      "boiled",
       "water"
      ],
      "suggestion": "The tin next to the kettle. The kettle's boiled! Pour the water on the teabag.",
@@ -124,7 +124,7 @@
       "minutes",
       "teabag",
       "three",
-      "wait",
+      "then",
       "take"
      ],
      "suggestion": "Now wait two or three minutes. Then take the teabag out. How do you take your tea?",
@@ -148,9 +148,9 @@
      "keywords": [
       "builder's",
       "strong",
+      "milky",
       "likes",
-      "sugar",
-      "milky"
+      "sugar"
      ],
      "suggestion": "I like mine milky with one sugar. Nana likes it strong — \"builder's tea\"!",
      "suggestionFa": "من مال خودمو پرشیر با یه قند دوست دارم. نانا پررنگ دوست داره — «چای بنّایی»!",
@@ -175,7 +175,7 @@
       "sugars",
       "drink",
       "iran",
-      "milk"
+      "lots"
      ],
      "suggestion": "Strong, with lots of milk and two sugars. How do you drink tea in Iran?",
      "suggestionFa": "پررنگ، با کلی شیر و دو تا قند. تو ایران چای را چطوری می‌خورید؟",
@@ -225,7 +225,7 @@
       "dunking",
       "course",
       "cheers",
-      "leave"
+      "falls"
      ],
      "suggestion": "Of course! Dunking is a national sport here. Don't leave it in too long, or it falls in! Cheers, love!",
      "suggestionFa": "البته! زدن بیسکویت تو چای اینجا ورزش ملیه! زیاد نگهش ندار، وگرنه می‌افته! به سلامتی عزیزم!",

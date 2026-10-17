@@ -22,9 +22,9 @@
     {
      "keywords": [
       "languages",
-      "hello",
-      "mummy",
       "speak",
+      "mummy",
+      "hello",
       "true"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "english",
       "bonjour",
+      "english",
       "french",
       "speak",
       "only"
@@ -73,8 +73,8 @@
      "keywords": [
       "persian",
       "school",
-      "learn",
       "hello",
+      "learn",
       "how"
      ],
      "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
@@ -98,8 +98,8 @@
      "keywords": [
       "persian",
       "salaam",
-      "about",
       "speak",
+      "about",
       "thank"
      ],
      "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
@@ -125,7 +125,7 @@
       "persian",
       "that's",
       "french",
-      "peasy"
+      "speak"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
      "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
@@ -149,8 +149,8 @@
       "football",
       "english",
       "there's",
-      "telly",
-      "daddy"
+      "daddy",
+      "talks"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
      "suggestionFa": "ها! بابا هم با تلویزیون حرف می‌زنه. وقتی فوتباله. انگلیسی سخته؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "spelling",
       "nobody",
-      "knows",
+      "ellis",
       "knife",
-      "ellis"
+      "knows"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
      "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",
@@ -198,8 +198,8 @@
      "keywords": [
       "english",
       "persian",
-      "clever",
       "salaam",
+      "clever",
       "teach"
      ],
      "suggestion": "Yes! I'll teach you English, and you teach me Persian. Every day! Salaam! Merci! I'm so clever.",

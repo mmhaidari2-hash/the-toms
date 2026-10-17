@@ -155,8 +155,8 @@
    "branches": [
     {
      "keywords": [
-      "each",
       "just",
+      "each",
       "one"
      ],
      "suggestion": "No, just one of each.",
@@ -167,8 +167,8 @@
     },
     {
      "keywords": [
-      "two",
-      "e's"
+      "e's",
+      "two"
      ],
      "suggestion": "Yes, two E's.",
      "suggestionFa": "آره، دو تا E.",
@@ -209,8 +209,8 @@
    "branches": [
     {
      "keywords": [
-      "quite",
       "write",
+      "quite",
       "long"
      ],
      "suggestion": "It's quite long. Shall I write it?",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "slowly",
-      "let",
-      "say"
+      "say",
+      "let"
      ],
      "suggestion": "Let me say it slowly for you.",
      "suggestionFa": "بذارید آروم براتون بگمش.",

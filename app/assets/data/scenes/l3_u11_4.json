@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "please",
-      "today",
-      "ready"
+      "should",
+      "ready",
+      "today"
      ],
      "suggestion": "Yes please. It should be ready today.",
      "suggestionFa": "آره لطفاً. باید امروز آماده باشه.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "course",
-      "mine",
       "same",
+      "mine",
       "as"
      ],
      "suggestion": "Of course. It's the same as mine.",
@@ -118,9 +118,9 @@
    "branches": [
     {
      "keywords": [
-      "there's",
-      "mistake",
       "missing",
+      "mistake",
+      "there's",
       "think"
      ],
      "suggestion": "I think there's been a mistake. One item is missing.",
@@ -133,8 +133,8 @@
      "keywords": [
       "expecting",
       "check",
-      "could",
-      "again"
+      "again",
+      "could"
      ],
      "suggestion": "Could you check again? We were expecting four.",
      "suggestionFa": "می‌شه دوباره چک کنید؟ منتظر چهار تا بودیم.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "should",
-      "every",
       "takes",
-      "day"
+      "every",
+      "but"
      ],
      "suggestion": "But he takes it every day. What should we do?",
      "suggestionFa": "ولی هر روز می‌خوره. چی کار کنیم؟",
@@ -196,8 +196,8 @@
     },
     {
      "keywords": [
-      "surgery",
       "mistake",
+      "surgery",
       "by"
      ],
      "suggestion": "Is that a mistake by the surgery?",
@@ -327,8 +327,8 @@
    "branches": [
     {
      "keywords": [
-      "relief",
       "number",
+      "relief",
       "where",
       "find"
      ],
@@ -395,8 +395,8 @@
      "keywords": [
       "download",
       "george",
-      "help",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "I'll help George download it.",
      "suggestionFa": "به جورج کمک می‌کنم دانلودش کنه.",

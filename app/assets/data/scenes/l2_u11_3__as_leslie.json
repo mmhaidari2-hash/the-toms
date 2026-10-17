@@ -25,7 +25,7 @@
       "tonight",
       "making",
       "we're",
-      "made"
+      "ever"
      ],
      "suggestion": "Tonight we're making shepherd's pie! Have you ever made one?",
      "suggestionFa": "امشب پای چوپان درست می‌کنیم! تا حالا درست کردی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "potatoes",
       "carrots",
-      "potato",
+      "onions",
       "mashed",
-      "onions"
+      "minced"
      ],
      "suggestion": "Minced lamb, onions, carrots, gravy — and mashed potato on top. First, can you peel the potatoes?",
      "suggestionFa": "گوشت چرخ‌کردهٔ بره، پیاز، هویج، سس — و پوره سیب‌زمینی روش. اول، می‌تونی سیب‌زمینی‌ها را پوست بکنی؟",
@@ -74,8 +74,8 @@
       "quarters",
       "minutes",
       "twenty",
-      "ones",
-      "into"
+      "them",
+      "then"
      ],
      "suggestion": "Six big ones. Then cut them into quarters and boil them for twenty minutes.",
      "suggestionFa": "شش تا بزرگ. بعد چهار قسمتشون کن و بیست دقیقه بجوشونشون.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "onion",
-      "pinch",
       "don't",
-      "salt",
-      "next"
+      "pinch",
+      "next",
+      "chop"
      ],
      "suggestion": "Yes, a pinch of salt. Next, chop the onion. Don't cry!",
      "suggestionFa": "آره، یه ذره نمک. بعدش، پیاز را خرد کن. گریه نکن!",
@@ -123,8 +123,8 @@
      "keywords": [
       "stirring",
       "carrots",
-      "mince",
       "onion",
+      "mince",
       "then"
      ],
      "suggestion": "Ha! Now fry the onion and carrots, then add the mince. Keep stirring.",
@@ -148,9 +148,9 @@
      "keywords": [
       "worcestershire",
       "splash",
-      "sauce",
       "until",
-      "after"
+      "after",
+      "brown"
      ],
      "suggestion": "Until it's brown. After that, add gravy and a splash of Worcestershire sauce. Can you say \"Worcestershire\"?",
      "suggestionFa": "تا قهوه‌ای بشه. بعد از اون، سس و یه کم سس ورسسترشر اضافه کن. می‌تونی بگی «ورسسترشر»؟",
@@ -175,7 +175,7 @@
       "butter",
       "nearly",
       "sher",
-      "milk"
+      "wuss"
      ],
      "suggestion": "Nearly! It's \"Wuss-ter-sher\". Now mash the potatoes with butter and milk.",
      "suggestionFa": "تقریباً! «ووس‌تر-شر». حالا سیب‌زمینی‌ها را با کره و شیر له کن.",
@@ -199,8 +199,8 @@
       "spread",
       "lines",
       "half",
-      "make",
-      "oven"
+      "oven",
+      "make"
      ],
      "suggestion": "Lots! Spread the mash on top, use a fork to make lines, and put it in the oven for half an hour.",
      "suggestionFa": "زیاد! پوره را روش پخش کن، با چنگال خط بنداز، و نیم ساعت بذارش تو فر.",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "degrees",
-      "jealous",
       "natural",
       "hundred",
+      "jealous",
       "that's"
      ],
      "suggestion": "Two hundred degrees. And the lines make it crispy on top — that's the best bit! You're a natural. Tom will be so jealous.",

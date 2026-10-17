@@ -32,8 +32,8 @@
     {
      "keywords": [
       "nobody",
-      "there",
       "rules",
+      "there",
       "told"
      ],
      "suggestion": "Are there rules? Nobody told me!",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "stand",
       "right",
+      "stand",
       "left"
      ],
      "suggestion": "Stand on the right, walk on the left.",
@@ -186,8 +186,8 @@
      "keywords": [
       "carriage",
       "what's",
-      "move",
-      "down"
+      "down",
+      "move"
      ],
      "suggestion": "Move down. What's a carriage?",
      "suggestionFa": "برو جلو. «کریج» چیه؟",
@@ -199,8 +199,8 @@
      "keywords": [
       "always",
       "sorry",
-      "stand",
-      "doors"
+      "doors",
+      "stand"
      ],
      "suggestion": "I always stand by the doors. Sorry!",
      "suggestionFa": "من همیشه کنار در وایمیستم. ببخشید!",
@@ -234,8 +234,8 @@
    "branches": [
     {
      "keywords": [
-      "nobody",
       "really",
+      "nobody",
       "talks"
      ],
      "suggestion": "Really? Nobody talks?",
@@ -281,8 +281,8 @@
    "branches": [
     {
      "keywords": [
-      "people",
       "tehran",
+      "people",
       "metro",
       "talk"
      ],
@@ -294,9 +294,9 @@
     },
     {
      "keywords": [
-      "read",
       "i'll",
       "book",
+      "read",
       "ok"
      ],
      "suggestion": "OK. I'll read my book.",

@@ -22,7 +22,7 @@
       "morning",
       "library",
       "please",
-      "like"
+      "good"
      ],
      "suggestion": "Good morning. I'd like to join the library, please.",
      "suggestionFa": "صبح بخیر. می‌خوام عضو کتابخانه بشم، لطفاً.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "from",
       "will",
+      "from",
       "gp"
      ],
      "suggestion": "Will a letter from the GP do?",
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "fifteen",
+      "keep",
       "long",
-      "them",
-      "keep"
+      "them"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "lose",
       "book",
+      "lose",
       "if"
      ],
      "suggestion": "What if I lose a book?",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "thank",
-      "both",
       "i'll",
+      "both",
       "look"
      ],
      "suggestion": "Thank you. I'll look at both.",

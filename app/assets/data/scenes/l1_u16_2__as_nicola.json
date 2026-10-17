@@ -24,8 +24,8 @@
       "learnt",
       "school",
       "about",
-      "five",
-      "know"
+      "know",
+      "five"
      ],
      "suggestion": "At school we learnt about \"five a day\". Do you know it?",
      "suggestionFa": "تو مدرسه دربارهٔ «پنج در روز» یاد گرفتیم. می‌دونی چیه؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "vegetables",
-      "today",
-      "every",
       "let's",
+      "every",
+      "today",
       "fruit"
      ],
      "suggestion": "Five fruit and vegetables every day! Let's count. What did you eat today?",
@@ -98,9 +98,9 @@
      "keywords": [
       "william",
       "grapes",
-      "green",
       "mummy",
-      "cuts"
+      "green",
+      "half"
      ],
      "suggestion": "Yes! Green grapes. But Mummy cuts them in half for William.",
      "suggestionFa": "آره! انگور سبز. ولی مامان برای ویلیام نصفشون می‌کنه.",
@@ -148,7 +148,7 @@
       "sweetcorn",
       "purple",
       "don't",
-      "like"
+      "peas"
      ],
      "suggestion": "Aubergines are purple! I don't like them. I like peas and sweetcorn.",
      "suggestionFa": "بادمجون بنفشه! دوستش ندارم. نخود فرنگی و ذرت دوست دارم.",
@@ -170,9 +170,9 @@
     {
      "keywords": [
       "carrots",
-      "dark",
-      "nana",
       "says",
+      "nana",
+      "dark",
       "help"
      ],
      "suggestion": "Yes! Carrots help you see in the dark. Nana says so.",
@@ -197,8 +197,8 @@
       "today",
       "many",
       "have",
-      "got",
-      "how"
+      "how",
+      "got"
      ],
      "suggestion": "So, how many have you got today?",
      "suggestionFa": "خب، تو امروز چند تا داری؟",
@@ -221,8 +221,8 @@
      "keywords": [
       "vegetables",
       "tonight",
-      "that's",
       "making",
+      "that's",
       "mummy"
      ],
      "suggestion": "Well done! You get a gold star! Tonight Mummy is making soup. That's lots of vegetables!",

@@ -76,9 +76,9 @@
     {
      "keywords": [
       "onions",
-      "chop",
       "i'll",
-      "used"
+      "used",
+      "chop"
      ],
      "suggestion": "I'll chop the onions. I'm used to it.",
      "suggestionFa": "من پیازها را خرد می‌کنم. عادت دارم.",
@@ -90,8 +90,8 @@
      "keywords": [
       "fridge",
       "onion",
-      "first",
-      "helps"
+      "helps",
+      "first"
      ],
      "suggestion": "Put the onion in the fridge first. It helps!",
      "suggestionFa": "اول پیاز را بذار تو یخچال. کمک می‌کنه!",
@@ -155,9 +155,9 @@
     {
      "keywords": [
       "minutes",
-      "long",
       "heat",
-      "ten"
+      "long",
+      "low"
      ],
      "suggestion": "Low heat. Is ten minutes too long?",
      "suggestionFa": "حرارت کم. ده دقیقه زیاد نیست؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "turmeric",
       "iran",
-      "use",
-      "lot"
+      "lot",
+      "use"
      ],
      "suggestion": "We use turmeric in Iran too! A lot!",
      "suggestionFa": "ما هم تو ایران زردچوبه استفاده می‌کنیم! کلی!",
@@ -393,8 +393,8 @@
     {
      "keywords": [
       "delicious",
-      "chef",
-      "ryan"
+      "ryan",
+      "chef"
      ],
      "suggestion": "It's delicious! You're a chef, Ryan!",
      "suggestionFa": "خوشمزه‌ست! تو آشپزی رایان!",
@@ -434,8 +434,8 @@
      "keywords": [
       "persian",
       "leave",
-      "rice",
-      "best"
+      "best",
+      "rice"
      ],
      "suggestion": "Leave the rice to me. Persian rice is the best!",
      "suggestionFa": "برنج را بسپار به من. برنج ایرانی بهترینه!",
@@ -446,9 +446,9 @@
     {
      "keywords": [
       "first",
-      "wash",
+      "i'll",
       "show",
-      "i'll"
+      "wash"
      ],
      "suggestion": "I'll show you. Wash it first.",
      "suggestionFa": "نشونت میدم. اول بشورش.",

@@ -135,8 +135,8 @@
     {
      "keywords": [
       "letter",
-      "i've",
       "from",
+      "i've",
       "got"
      ],
      "suggestion": "I've got a letter from my GP. Is that OK?",
@@ -193,8 +193,8 @@
     {
      "keywords": [
       "thompson",
-      "that's",
       "family",
+      "that's",
       "right"
      ],
      "suggestion": "Yes, that's right. With the Thompson family.",
@@ -205,9 +205,9 @@
     },
     {
      "keywords": [
-      "open",
-      "long",
       "take",
+      "long",
+      "open",
       "how"
      ],
      "suggestion": "Yes. How long does it take to open?",
@@ -245,7 +245,7 @@
       "arrives",
       "before",
       "phone",
-      "use"
+      "can"
      ],
      "suggestion": "Can I use my phone before the card arrives?",
      "suggestionFa": "قبل از رسیدن کارت می‌تونم از گوشیم استفاده کنم؟",
@@ -256,9 +256,9 @@
     {
      "keywords": [
       "what's",
-      "world",
+      "small",
       "debit",
-      "small"
+      "world"
      ],
      "suggestion": "Small world! What's a debit card?",
      "suggestionFa": "دنیا کوچیکه! کارت دبیت چیه؟",
@@ -309,9 +309,9 @@
     {
      "keywords": [
       "great",
-      "pin",
+      "get",
       "how",
-      "get"
+      "pin"
      ],
      "suggestion": "Great. And how do I get my PIN?",
      "suggestionFa": "عالیه. رمزم را چطوری می‌گیرم؟",

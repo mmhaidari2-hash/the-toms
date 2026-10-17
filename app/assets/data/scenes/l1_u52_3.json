@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "don't",
       "sharp",
-      "touch"
+      "touch",
+      "don't"
      ],
      "suggestion": "Don't touch it! It's sharp.",
      "suggestionFa": "دست نزن! تیزه.",
@@ -210,8 +210,8 @@
      "keywords": [
       "something",
       "ryan",
-      "has",
-      "say"
+      "say",
+      "has"
      ],
      "suggestion": "Ryan has something to say.",
      "suggestionFa": "رایان یه چیزی می‌خواد بگه.",
@@ -263,8 +263,8 @@
      "keywords": [
       "carefully",
       "cleaned",
-      "he",
-      "up"
+      "up",
+      "he"
      ],
      "suggestion": "He cleaned it up carefully.",
      "suggestionFa": "با دقت تمیزش کرد.",
@@ -305,8 +305,8 @@
    "branches": [
     {
      "keywords": [
-      "angry",
       "isn't",
+      "angry",
       "see",
       "she"
      ],
@@ -318,8 +318,8 @@
     },
     {
      "keywords": [
-      "leslie",
       "that's",
+      "leslie",
       "kind"
      ],
      "suggestion": "That's kind, Leslie.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "ride",
       "bike",
+      "ride",
       "can"
      ],
      "suggestion": "Yes, I can ride a bike.",
@@ -79,9 +79,9 @@
     {
      "keywords": [
       "where",
-      "one",
       "get",
-      "can"
+      "can",
+      "one"
      ],
      "suggestion": "Where can I get one?",
      "suggestionFa": "از کجا می‌تونم یکی بگیرم؟",
@@ -265,8 +265,8 @@
     {
      "keywords": [
       "remember",
-      "left",
       "i'll",
+      "left",
       "keep"
      ],
      "suggestion": "Keep left. I'll remember.",
@@ -277,8 +277,8 @@
     },
     {
      "keywords": [
-      "drive",
       "right",
+      "drive",
       "iran",
       "we"
      ],

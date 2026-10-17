@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "george",
-      "about",
-      "sorry"
+      "course",
+      "sorry",
+      "about"
      ],
      "suggestion": "Of course. George, I'm so sorry about Stan.",
      "suggestionFa": "حتماً. جورج، خیلی بابت استن متأسفم.",
@@ -69,10 +69,10 @@
    "branches": [
     {
      "keywords": [
-      "friendship",
       "incredible",
-      "sixty",
-      "years"
+      "friendship",
+      "years",
+      "sixty"
      ],
      "suggestion": "Sixty years. That must have been an incredible friendship.",
      "suggestionFa": "شصت سال. حتماً دوستی فوق‌العاده‌ای بوده.",
@@ -120,8 +120,8 @@
      "keywords": [
       "football",
       "other",
-      "club",
-      "each"
+      "each",
+      "knew"
      ],
      "suggestion": "So you knew each other from the football club?",
      "suggestionFa": "پس همدیگه را از باشگاه فوتبال می‌شناختید؟",
@@ -134,7 +134,7 @@
       "about",
       "tell",
       "like",
-      "was"
+      "him"
      ],
      "suggestion": "Tell me about him. What was he like?",
      "suggestionFa": "از اون بگید. چطور آدمی بود؟",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "teasing",
-      "sounds",
       "behind",
+      "sounds",
       "there"
      ],
      "suggestion": "It sounds like there was a lot of love behind the teasing.",

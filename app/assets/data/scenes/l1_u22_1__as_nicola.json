@@ -22,8 +22,8 @@
     {
      "keywords": [
       "birthday",
-      "summer",
       "when's",
+      "summer",
       "july"
      ],
      "suggestion": "My birthday is in July! It's in the summer. When's your birthday?",
@@ -49,7 +49,7 @@
       "spring",
       "lambs",
       "baby",
-      "may"
+      "has"
      ],
      "suggestion": "May is in the spring! Spring has flowers and baby lambs.",
      "suggestionFa": "مه تو بهاره! بهار گل و بره‌های کوچولو داره.",
@@ -72,8 +72,8 @@
      "keywords": [
       "january",
       "spring",
-      "dark",
       "year",
+      "dark",
       "cold"
      ],
      "suggestion": "New year in spring? Our new year is in January. It's cold and dark!",
@@ -118,8 +118,8 @@
      "keywords": [
       "nowruz",
       "things",
-      "seven",
       "table",
+      "seven",
       "want"
      ],
      "suggestion": "Seven things! Can we do that here? I want a Nowruz table!",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "month",
-      "now",
-      "yay"
+      "yay",
+      "now"
      ],
      "suggestion": "Yay! What month is it now?",
      "suggestionFa": "هورا! الان چه ماهیه؟",
@@ -164,9 +164,9 @@
    "branches": [
     {
      "keywords": [
-      "leaves",
-      "orange",
       "autumn",
+      "orange",
+      "leaves",
       "let's",
       "brown"
      ],
@@ -191,9 +191,9 @@
      "keywords": [
       "favourite",
       "birthday",
-      "what's",
       "school",
-      "wheee"
+      "what's",
+      "month"
      ],
      "suggestion": "Wheee! What's your favourite month? Mine is July. Birthday and no school!",
      "suggestionFa": "ویییی! ماه مورد علاقه‌ات چیه؟ مال من جولایه. تولد و بدون مدرسه!",
@@ -215,10 +215,10 @@
     {
      "keywords": [
       "october",
-      "march",
-      "mummy",
       "let's",
-      "every"
+      "march",
+      "every",
+      "party"
      ],
      "suggestion": "March and July and October! Let's have a party in every month! I'll ask Mummy!",
      "suggestionFa": "مارس و جولای و اکتبر! بیا هر ماه یه مهمونی بگیریم! از مامان می‌پرسم!",

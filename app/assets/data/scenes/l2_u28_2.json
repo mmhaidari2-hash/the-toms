@@ -22,7 +22,7 @@
       "postman",
       "came",
       "when",
-      "was"
+      "out"
      ],
      "suggestion": "Yes. I was out when the postman came.",
      "suggestionFa": "آره. وقتی پستچی اومد بیرون بودم.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "mean",
-      "i've",
       "card",
+      "i've",
+      "mean",
       "got"
      ],
      "suggestion": "I've got a card. What does it mean?",
@@ -142,8 +142,8 @@
     },
     {
      "keywords": [
-      "wrong",
       "sorry",
+      "wrong",
       "card",
       "took"
      ],
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "driving",
       "licence",
+      "driving",
       "photo",
       "here"
      ],
@@ -205,8 +205,8 @@
      "keywords": [
       "tomorrow",
       "didn't",
-      "come",
-      "back"
+      "back",
+      "i'll"
      ],
      "suggestion": "No, she didn't. I'll come back tomorrow.",
      "suggestionFa": "نه، نکرده. فردا برمی‌گردم.",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "school",
-      "books",
       "don't",
+      "books",
       "maybe"
      ],
      "suggestion": "I don't know. Maybe books for school?",
@@ -293,8 +293,8 @@
    "branches": [
     {
      "keywords": [
-      "rebook",
       "choose",
+      "rebook",
       "day",
       "can"
      ],

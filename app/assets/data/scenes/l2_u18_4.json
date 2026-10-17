@@ -33,8 +33,8 @@
     {
      "keywords": [
       "asleep",
-      "lost",
       "fell",
+      "lost",
       "bus"
      ],
      "suggestion": "I fell asleep on the bus. Now I'm lost.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "screen",
       "oxford",
+      "screen",
       "next",
       "stop"
      ],
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "now",
-      "off"
+      "off",
+      "now"
      ],
      "suggestion": "Yes, I'm off. Now what?",
      "suggestionFa": "آره، پیاده شدم. حالا چی؟",
@@ -302,10 +302,10 @@
     },
     {
      "keywords": [
-      "take",
-      "long",
       "will",
-      "home"
+      "home",
+      "take",
+      "long"
      ],
      "suggestion": "How long will it take to get home?",
      "suggestionFa": "چقدر طول می‌کشه برسم خونه؟",

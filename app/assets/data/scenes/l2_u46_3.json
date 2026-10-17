@@ -68,10 +68,10 @@
    "branches": [
     {
      "keywords": [
-      "could",
       "bring",
-      "from",
-      "home"
+      "could",
+      "home",
+      "from"
      ],
      "suggestion": "Oh no. Could I bring it from home?",
      "suggestionFa": "وای نه. می‌تونم از خونه بیارمش؟",
@@ -81,9 +81,9 @@
     },
     {
      "keywords": [
-      "ellis",
       "third",
       "sorry",
+      "ellis",
       "time"
      ],
      "suggestion": "Third time! Sorry, Mrs Ellis.",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "anything",
-      "what's",
       "forget",
+      "what's",
       "don't"
      ],
      "suggestion": "What's in the PE kit? I don't want to forget anything.",
@@ -198,7 +198,7 @@
       "shorts",
       "black",
       "shirt",
-      "pumps"
+      "white"
      ],
      "suggestion": "White T-shirt, navy shorts, black pumps. Got it.",
      "suggestionFa": "تی‌شرت سفید، شلوارک سرمه‌ای، کفش مشکی. فهمیدم.",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "spare",
-      "can't",
       "there",
+      "can't",
       "find"
      ],
      "suggestion": "And if I can't find it? Is there a spare kit?",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "definitely",
-      "then",
       "find",
-      "kit"
+      "then",
+      "her"
      ],
      "suggestion": "Ha! Then I'll definitely find her kit.",
      "suggestionFa": "ها! پس حتماً لباسش را پیدا می‌کنم.",
@@ -310,7 +310,7 @@
       "leslie",
       "that's",
       "great",
-      "tell"
+      "idea"
      ],
      "suggestion": "That's a great idea. I'll tell Leslie.",
      "suggestionFa": "ایدهٔ عالی‌ایه. به لزلی میگم.",
@@ -322,8 +322,8 @@
      "keywords": [
       "promise",
       "happen",
-      "won't",
-      "again"
+      "again",
+      "won't"
      ],
      "suggestion": "It won't happen again. I promise.",
      "suggestionFa": "دیگه تکرار نمیشه. قول میدم.",

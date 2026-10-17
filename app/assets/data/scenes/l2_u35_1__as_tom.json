@@ -50,7 +50,7 @@
       "return",
       "single",
       "there",
-      "funny"
+      "thing"
      ],
      "suggestion": "A single is one way. A return is there and back. Funny thing — in Britain, a return is often only a bit more than a single.",
      "suggestionFa": "یک‌طرفه یعنی فقط رفت. رفت‌وبرگشت یعنی رفتن و برگشتن. نکتهٔ جالب — تو بریتانیا، رفت‌وبرگشت اغلب فقط یه‌کم گرون‌تر از یک‌طرفه‌ست.",
@@ -100,7 +100,7 @@
       "return",
       "train",
       "come",
-      "peak"
+      "then"
      ],
      "suggestion": "Not sure? Then get an \"off-peak return\". You can come back on any off-peak train that day. More flexible.",
      "suggestionFa": "مطمئن نیستی؟ پس «رفت‌وبرگشت ساعات خلوت» بگیر. اون روز با هر قطار ساعات خلوت می‌تونی برگردی. انعطاف بیشتر.",
@@ -125,7 +125,7 @@
       "pounds",
       "twenty",
       "single",
-      "eight"
+      "train"
      ],
      "suggestion": "Twenty-eight pounds. An \"advance\" single is only nine, but it's for one train. Miss it and you pay again.",
      "suggestionFa": "بیست و هشت پوند. یک‌طرفهٔ «از قبل» فقط نه پونده، ولی برای یه قطار خاصه. از دستش بدی دوباره پول میدی.",
@@ -148,9 +148,9 @@
      "keywords": [
       "return's",
       "allowed",
-      "cheaper",
       "advance",
-      "return"
+      "cheaper",
+      "thirty"
      ],
      "suggestion": "Clever — mixing is allowed! Advance there, off-peak back: thirty-one total. Hmm, the return's cheaper. Take the return.",
      "suggestionFa": "زرنگی — ترکیب کردن مجازه! رفت از قبل، برگشت ساعات خلوت: جمعاً سی و یک. هوم، رفت‌وبرگشت ارزون‌تره. رفت‌وبرگشت را بگیر.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "barriers",
-      "charge",
       "ticket",
-      "means",
-      "phone"
+      "charge",
+      "phone",
+      "means"
      ],
      "suggestion": "An e-ticket on your phone. QR code at the barriers. And charge your phone — a dead phone means no ticket!",
      "suggestionFa": "بلیت الکترونیکی رو گوشیت. کیوآرکد سر گیت. گوشیت را هم شارژ کن — گوشی خاموش یعنی بی‌بلیت!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "seagulls",
       "brighton",
+      "seagulls",
       "machine",
       "collect",
       "braces"

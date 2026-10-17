@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "tired",
       "enjoy",
-      "last",
-      "long",
-      "legs"
+      "tired",
+      "walk",
+      "home",
+      "last"
      ],
      "suggestion": "Home at last! My legs are tired. That was a long walk! Did you enjoy it?",
      "suggestionFa": "بالاخره خونه! پاهام خسته‌ان. پیاده‌روی طولانی‌ای بود! خوش گذشت؟",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "we're",
       "about",
       "wants",
-      "we're",
       "walk",
-      "back"
+      "know"
      ],
      "suggestion": "Tom! We're back! Tom wants to know about our walk. What did we do?",
      "suggestionFa": "تام! برگشتیم! تام می‌خواد دربارهٔ پیاده‌رویمون بدونه. چی کار کردیم؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

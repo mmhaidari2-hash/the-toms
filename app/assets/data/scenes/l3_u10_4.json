@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "fast",
       "feel",
       "gone",
-      "fast",
       "home"
      ],
      "suggestion": "It's gone so fast. I feel at home now.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "umbrella",
-      "myself",
       "better",
+      "myself",
       "tell"
      ],
      "suggestion": "I'd tell myself to buy a better umbrella!",
@@ -187,8 +187,8 @@
      "keywords": [
       "university",
       "applied",
-      "i've",
-      "hope"
+      "hope",
+      "i've"
      ],
      "suggestion": "I hope so. I've applied for a job at the university.",
      "suggestionFa": "امیدوارم. برای یه کار تو دانشگاه درخواست دادم.",
@@ -198,10 +198,10 @@
     },
     {
      "keywords": [
-      "love",
       "sure",
-      "yet",
-      "i'd"
+      "love",
+      "i'd",
+      "but"
      ],
      "suggestion": "I'm not sure yet, but I'd love to.",
      "suggestionFa": "هنوز مطمئن نیستم، ولی خیلی دوست دارم.",
@@ -236,8 +236,8 @@
     {
      "keywords": [
       "anywhere",
-      "going",
       "don't",
+      "going",
       "worry"
      ],
      "suggestion": "Don't worry, Al. I'm not going anywhere.",

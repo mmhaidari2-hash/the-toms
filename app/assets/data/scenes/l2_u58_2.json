@@ -20,8 +20,8 @@
     {
      "keywords": [
       "afternoon",
-      "showing",
       "morning",
+      "showing",
       "which"
      ],
      "suggestion": "Sure. Which showing? Morning or afternoon?",
@@ -76,7 +76,7 @@
       "child",
       "adult",
       "under",
-      "ryan"
+      "says"
      ],
      "suggestion": "It says \"Child: under 15\". So Ryan is an adult.",
      "suggestionFa": "نوشته «کودک: زیر ۱۵». پس رایان بزرگساله.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "discount",
       "families",
+      "discount",
       "there"
      ],
      "suggestion": "Is there a discount for families?",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "front",
       "hurts",
+      "front",
       "neck"
      ],
      "suggestion": "Not at the front. It hurts my neck.",
@@ -199,8 +199,8 @@
     },
     {
      "keywords": [
-      "toilet",
       "middle",
+      "toilet",
       "aisle",
       "near"
      ],
@@ -245,9 +245,9 @@
     {
      "keywords": [
       "seats",
-      "five",
+      "need",
       "only",
-      "need"
+      "five"
      ],
      "suggestion": "Six seats? We only need five.",
      "suggestionFa": "شش تا صندلی؟ ما فقط پنج تا لازم داریم.",

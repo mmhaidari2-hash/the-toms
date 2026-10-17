@@ -21,8 +21,8 @@
      "keywords": [
       "stopped",
       "working",
-      "bought",
-      "kettle"
+      "kettle",
+      "bought"
      ],
      "suggestion": "I bought this kettle two weeks ago and it's stopped working.",
      "suggestionFa": "دو هفته پیش این کتری را خریدم و از کار افتاده.",
@@ -88,8 +88,8 @@
      "keywords": [
       "statement",
       "helps",
-      "i've",
-      "bank"
+      "bank",
+      "i've"
      ],
      "suggestion": "I've got the bank statement, if that helps.",
      "suggestionFa": "صورت‌حساب بانکی دارم، اگه کمک می‌کنه.",
@@ -138,8 +138,8 @@
      "keywords": [
       "replacement",
       "different",
-      "long",
-      "fine"
+      "fine",
+      "long"
      ],
      "suggestion": "A replacement is fine, as long as it's a different model.",
      "suggestionFa": "تعویض خوبه، به شرطی که مدل دیگه‌ای باشه.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "stopped",
       "morning",
+      "stopped",
       "heating",
       "just"
      ],
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "carefully",
-      "i've",
       "used",
+      "i've",
       "all"
      ],
      "suggestion": "Not at all. I've used it carefully.",

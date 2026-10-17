@@ -61,9 +61,9 @@
    "branches": [
     {
      "keywords": [
-      "school",
-      "called",
       "dinner",
+      "called",
+      "school",
       "lunch"
      ],
      "suggestion": "Is lunch called \"dinner\" at school?",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "ask",
-      "pat",
-      "mrs"
+      "mrs",
+      "pat"
      ],
      "suggestion": "Ask Mrs Pat, not me!",
      "suggestionFa": "از خانم پت بپرس، نه از من!",

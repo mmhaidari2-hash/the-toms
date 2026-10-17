@@ -24,8 +24,8 @@
       "william's",
       "feeling",
       "better",
-      "look",
-      "good"
+      "good",
+      "news"
      ],
      "suggestion": "Good news! William's feeling better. Look at him!",
      "suggestionFa": "خبر خوب! حال ویلیام بهتره. نگاش کن!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -124,10 +124,10 @@
    "branches": [
     {
      "keywords": [
-      "eating",
-      "that's",
-      "banana",
       "always",
+      "banana",
+      "that's",
+      "eating",
       "let's"
      ],
      "suggestion": "He wants to play — that's always a good sign. Is he eating more? Let's try a banana.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "brilliant",
-      "eating",
-      "better",
       "banana",
+      "better",
+      "eating",
       "worse"
      ],
      "suggestion": "More banana! Brilliant. He's eating better too. And you, Mehdi? Is your cold better or worse?",
@@ -224,8 +224,8 @@
       "william's",
       "banana",
       "sorry",
-      "want",
-      "gave"
+      "some",
+      "want"
      ],
      "suggestion": "Oh no — I gave it to you! I'm so sorry. Do you want some of William's banana? Ha!",
      "suggestionFa": "ای وای — من بهت دادمش! خیلی ببخشید. یه کم از موز ویلیام می‌خوای؟ ها!",
@@ -246,11 +246,11 @@
    "branches": [
     {
      "keywords": [
-      "doctor's",
       "tomorrow",
-      "that's",
+      "doctor's",
       "orders",
-      "school"
+      "school",
+      "that's"
      ],
      "suggestion": "That's true! Tomorrow he can go back to pre-school. And you can go back to bed. Doctor's orders!",
      "suggestionFa": "راسته! فردا می‌تونه برگرده پیش‌دبستانی. و تو می‌تونی برگردی تو تخت. دستور دکتر!",

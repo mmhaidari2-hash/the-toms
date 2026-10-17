@@ -223,8 +223,8 @@
      "keywords": [
       "shall",
       "them",
-      "put",
-      "bin"
+      "bin",
+      "put"
      ],
      "suggestion": "Shall I put them in the bin?",
      "suggestionFa": "بندازمشون سطل آشغال؟",
@@ -262,9 +262,9 @@
    "branches": [
     {
      "keywords": [
+      "table",
       "under",
       "don't",
-      "table",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three… eight pairs!",
      "suggestionFa": "یک، دو، سه… هشت جفت!",

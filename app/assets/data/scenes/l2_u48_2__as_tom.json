@@ -24,8 +24,8 @@
       "someone",
       "coffee",
       "three",
-      "don't",
-      "hurts"
+      "hurts",
+      "don't"
      ],
      "suggestion": "Don't talk to me. I'm on day three of no coffee. Day THREE. My head hurts and I want to bite someone.",
      "suggestionFa": "باهام حرف نزن. روز سومه که قهوه نمی‌خورم. روز سوم. سرم درد می‌کنه و دلم می‌خواد یکی را گاز بگیرم.",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "pressure's",
-      "doctor",
       "okafor",
       "coffee",
+      "doctor",
       "blood"
      ],
      "suggestion": "Doctor Okafor. My blood pressure's a bit high. She said, \"Cut down on coffee, Tom.\" I used to have six a day. Six!",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "completely",
-      "mistake",
       "thought",
+      "mistake",
       "zombie",
       "fine"
      ],
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "change",
-      "coffee",
+      "leslie",
       "twenty",
+      "coffee",
       "shifts"
      ],
      "suggestion": "Decaf? Leslie says that too. \"Decaf after lunch, Tom.\" It's hard to change a habit of twenty years. The early shifts need coffee!",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "persian",
-      "habit",
       "tea's",
+      "habit",
       "many",
       "cups"
      ],
@@ -148,9 +148,9 @@
      "keywords": [
       "together",
       "coffees",
-      "worse",
       "let's",
-      "than"
+      "worse",
+      "i'll"
      ],
      "suggestion": "Ten! You're worse than me! OK. Let's do it together. I'll cut down to two coffees, you cut down to four teas.",
      "suggestionFa": "ده تا! از من بدتری! باشه. بیا با هم انجامش بدیم. من کم می‌کنم به دو تا قهوه، تو کم کن به چهار تا چای.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "headache",
-      "coffee",
       "sneaky",
-      "glass",
-      "drink"
+      "coffee",
+      "helps",
+      "glass"
      ],
      "suggestion": "And no sneaky ones. Jade says drink water when you want coffee. A big glass. It helps the headache too.",
      "suggestionFa": "و یواشکی هم نه. جید میگه هر وقت قهوه خواستی آب بخور. یه لیوان بزرگ. به سردرد هم کمک می‌کنه.",
@@ -198,8 +198,8 @@
      "keywords": [
       "delicious",
       "survive",
-      "cheers",
       "nobody",
+      "cheers",
       "water"
      ],
      "suggestion": "Cheers. Water. Mmm. Delicious. Says nobody ever. Right — see you on day four. If I survive.",

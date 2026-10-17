@@ -72,8 +72,8 @@
     },
     {
      "keywords": [
-      "roses",
       "those",
+      "roses",
       "about"
      ],
      "suggestion": "What about those yellow roses?",
@@ -120,10 +120,10 @@
     },
     {
      "keywords": [
-      "roses",
       "smell",
-      "they",
-      "nice"
+      "roses",
+      "nice",
+      "they"
      ],
      "suggestion": "I prefer roses. They smell nice.",
      "suggestionFa": "من رز را ترجیح میدم. بوی خوبی دارن.",
@@ -164,8 +164,8 @@
    "branches": [
     {
      "keywords": [
-      "roses",
       "let's",
+      "roses",
       "then",
       "get"
      ],
@@ -177,8 +177,8 @@
     },
     {
      "keywords": [
-      "bunch",
       "small",
+      "bunch",
       "buy"
      ],
      "suggestion": "Buy a small bunch.",
@@ -310,8 +310,8 @@
     {
      "keywords": [
       "don't",
-      "them",
-      "drop"
+      "drop",
+      "them"
      ],
      "suggestion": "Don't drop them!",
      "suggestionFa": "نندازیشون!",

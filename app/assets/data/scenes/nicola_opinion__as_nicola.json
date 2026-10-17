@@ -24,8 +24,8 @@
       "children",
       "allowed",
       "should",
-      "agree",
-      "think"
+      "until",
+      "agree"
      ],
      "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
      "suggestionFa": "به نظرم بچه‌ها باید اجازه داشته باشن تا ساعت ده بیدار بمونن. موافق نیستی؟",
@@ -75,7 +75,7 @@
       "should",
       "reason",
       "telly",
-      "give"
+      "late"
      ],
      "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
      "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "reason",
-      "tired",
       "awake",
-      "look",
-      "wide"
+      "tired",
+      "wide",
+      "even"
      ],
      "suggestion": "Hmm. Okay, reason two: I'm not even tired. Look — I'm wide awake!",
      "suggestionFa": "هوم. باشه، دلیل دو: اصلاً خسته نیستم. ببین — کاملاً بیدارم!",
@@ -148,8 +148,8 @@
      "keywords": [
       "countries",
       "right",
-      "they",
       "some",
+      "they",
       "stay"
      ],
      "suggestion": "See! In some countries they stay up! So I'm right.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "lawyers",
-      "lawyer",
       "what's",
+      "lawyer",
       "think",
       "late"
      ],
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "saturdays",
-      "without",
       "fridays",
       "moaning",
+      "without",
       "please"
      ],
      "suggestion": "Half eight on Fridays AND Saturdays? Please? I'll brush my teeth without moaning.",

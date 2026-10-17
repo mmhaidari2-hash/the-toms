@@ -72,8 +72,8 @@
     },
     {
      "keywords": [
-      "school",
-      "closed"
+      "closed",
+      "school"
      ],
      "suggestion": "Is school closed?",
      "suggestionFa": "مدرسه تعطیله؟",
@@ -123,8 +123,8 @@
     {
      "keywords": [
       "today",
-      "have",
-      "work"
+      "work",
+      "have"
      ],
      "suggestion": "Do you have work today?",
      "suggestionFa": "امروز کار داری؟",
@@ -313,8 +313,8 @@
    "branches": [
     {
      "keywords": [
-      "looks",
       "great",
+      "looks",
       "he"
      ],
      "suggestion": "He looks great!",

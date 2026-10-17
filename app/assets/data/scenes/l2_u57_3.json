@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "vegetarian",
       "parmigiana",
+      "vegetarian",
       "aubergine"
      ],
      "suggestion": "Aubergine! Is the parmigiana vegetarian?",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "risotto",
       "contain",
+      "risotto",
       "stock",
       "meat"
      ],
@@ -155,7 +155,7 @@
       "parmigiana",
       "aubergine",
       "reminds",
-      "have"
+      "i'll"
      ],
      "suggestion": "I'll have the parmigiana. Aubergine reminds me of home.",
      "suggestionFa": "پارمیجانا می‌خورم. بادمجون یاد خونه می‌اندازدم.",
@@ -193,9 +193,9 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "veggie",
       "cheese",
+      "please",
       "could"
      ],
      "suggestion": "Could I have it with the veggie cheese, please?",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "leslie's",
       "allergic",
+      "leslie's",
       "lasagne",
       "nuts"
      ],
@@ -307,8 +307,8 @@
      "keywords": [
       "everything",
       "remember",
-      "thanks",
-      "sophie"
+      "sophie",
+      "thanks"
      ],
      "suggestion": "Thanks, Sophie. You remember everything!",
      "suggestionFa": "ممنون سوفی. همه‌چی یادت می‌مونه!",
@@ -318,9 +318,9 @@
     },
     {
      "keywords": [
+      "i'll",
       "tell",
       "said",
-      "i'll",
       "her"
      ],
      "suggestion": "Ha! I'll tell her you said that.",

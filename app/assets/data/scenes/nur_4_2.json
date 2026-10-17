@@ -21,8 +21,8 @@
      "keywords": [
       "leslie",
       "great",
-      "day",
-      "had"
+      "had",
+      "day"
      ],
      "suggestion": "Hi, Leslie! He had a great day.",
      "suggestionFa": "سلام لزلی! روز خیلی خوبی داشت.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "seconds",
-      "all",
-      "had"
+      "had",
+      "all"
      ],
      "suggestion": "Yes, he ate all of it and had seconds!",
      "suggestionFa": "آره، همه‌ش را خورد و دوباره هم گرفت!",
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "lunch",
-      "most",
       "peas",
-      "his"
+      "most",
+      "but"
      ],
      "suggestion": "He ate most of his lunch, but no peas.",
      "suggestionFa": "بیشتر ناهارش را خورد، ولی نخود نه.",
@@ -118,10 +118,10 @@
    "branches": [
     {
      "keywords": [
-      "from",
       "hour",
-      "two",
-      "one"
+      "from",
+      "one",
+      "two"
      ],
      "suggestion": "Yes, he slept for an hour, from one to two.",
      "suggestionFa": "آره، یه ساعت خوابید، از یک تا دو.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "really",
-      "after",
       "lunch",
+      "after",
       "well"
      ],
      "suggestion": "Yes, he slept really well after lunch.",
@@ -177,8 +177,8 @@
      "keywords": [
       "morning",
       "boxes",
-      "made",
-      "from"
+      "from",
+      "made"
      ],
      "suggestion": "He made it from boxes this morning.",
      "suggestionFa": "امروز صبح با جعبه‌ها ساختش.",
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "because",
       "william",
+      "because",
       "green",
       "chose"
      ],
@@ -237,7 +237,7 @@
       "himself",
       "painted",
       "nicola",
-      "he"
+      "hi"
      ],
      "suggestion": "Hi, Nicola! He painted it himself.",
      "suggestionFa": "سلام نیکولا! خودش رنگش کرد.",
@@ -277,8 +277,8 @@
      "keywords": [
       "accidents",
       "every",
-      "told",
-      "time"
+      "time",
+      "told"
      ],
      "suggestion": "No accidents — he told us every time.",
      "suggestionFa": "هیچ خیس‌کاری‌ای — هر بار بهمون گفت.",

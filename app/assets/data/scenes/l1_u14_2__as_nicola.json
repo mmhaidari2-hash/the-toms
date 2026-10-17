@@ -25,7 +25,7 @@
       "hands",
       "dirty",
       "look",
-      "mud"
+      "was"
      ],
      "suggestion": "My hands are dirty! I was in the garden. Look — mud!",
      "suggestionFa": "دستام کثیفه! تو باغ بودم. ببین — گِل!",
@@ -98,9 +98,9 @@
      "keywords": [
       "seconds",
       "twenty",
-      "water",
       "mummy",
-      "first"
+      "first",
+      "water"
      ],
      "suggestion": "First water, then soap. Mummy says twenty seconds.",
      "suggestionFa": "اول آب، بعد صابون. مامان می‌گه بیست ثانیه.",
@@ -125,7 +125,7 @@
       "bubbles",
       "twenty",
       "three",
-      "one"
+      "two"
      ],
      "suggestion": "One, two, three… twenty! Bubbles everywhere!",
      "suggestionFa": "یک، دو، سه… بیست! همه جا حباب!",
@@ -173,7 +173,7 @@
       "before",
       "hands",
       "lunch",
-      "wash",
+      "them",
       "when"
      ],
      "suggestion": "When do you wash your hands? I wash them before lunch.",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "biscuit",
-      "after",
       "tiger",
+      "after",
       "touch",
       "have"
      ],

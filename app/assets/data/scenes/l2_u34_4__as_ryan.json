@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -45,9 +45,9 @@
      "keywords": [
       "patel",
       "here",
+      "did",
       "bad",
-      "was",
-      "did"
+      "was"
      ],
      "suggestion": "Here we go. What did Patel say? Was it bad? I bet it was bad.",
      "suggestionFa": "شروع شد. پاتل چی گفت؟ بد بود؟ شرط می‌بندم بد بود.",
@@ -113,8 +113,8 @@
      "keywords": [
       "seriously",
       "what's",
-      "nice",
       "said",
+      "nice",
       "news"
      ],
      "suggestion": "Seriously? He said that? Nice. So… what's the bad news?",
@@ -157,8 +157,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -179,10 +179,10 @@
    "branches": [
     {
      "keywords": [
-      "messages",
       "everyone",
-      "kitchen",
+      "messages",
       "someone",
+      "kitchen",
       "that's"
      ],
      "suggestion": "In the KITCHEN? That's not fair! Everyone in Year 10 has their phone. What if someone messages me?",
@@ -252,11 +252,11 @@
    "branches": [
     {
      "keywords": [
-      "algebra",
       "explain",
+      "algebra",
       "better",
-      "patel",
-      "maybe"
+      "maybe",
+      "patel"
      ],
      "suggestion": "You like algebra? For real? OK… if you explain it better than Mr Patel, maybe.",
      "suggestionFa": "تو جبر دوست داری؟ واقعاً؟ باشه… اگه بهتر از آقای پاتل توضیح بدی، شاید.",
@@ -298,8 +298,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

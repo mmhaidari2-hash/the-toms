@@ -20,8 +20,8 @@
     {
      "keywords": [
       "person",
-      "real",
       "posh",
+      "real",
       "she"
      ],
      "suggestion": "Very posh! Is she a real person?",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "route",
-      "stop",
       "last",
+      "stop",
       "end"
      ],
      "suggestion": "It's the last stop? The end of the route?",
@@ -231,8 +231,8 @@
    "branches": [
     {
      "keywords": [
-      "hackney",
       "central",
+      "hackney",
       "now",
       "ok"
      ],
@@ -244,10 +244,10 @@
     },
     {
      "keywords": [
-      "ticket",
       "that's",
+      "ticket",
       "fair",
-      "good"
+      "same"
      ],
      "suggestion": "Same ticket? Good. That's fair.",
      "suggestionFa": "همون بلیت؟ خوبه. منصفانه‌ست.",
@@ -283,8 +283,8 @@
      "keywords": [
       "stopping",
       "pressed",
-      "sign",
-      "says"
+      "says",
+      "sign"
      ],
      "suggestion": "I pressed it. The sign says \"Bus stopping\".",
      "suggestionFa": "زدم. تابلو نوشته «اتوبوس می‌ایستد».",
@@ -331,8 +331,8 @@
    "branches": [
     {
      "keywords": [
-      "except",
       "course",
+      "except",
       "tom"
      ],
      "suggestion": "Except Tom, of course!",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "course",
-      "dough",
       "first",
-      "make"
+      "dough",
+      "need"
      ],
      "suggestion": "Of course. First, we need to make the dough.",
      "suggestionFa": "البته. اول باید خمیر را درست کنیم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "scones",
       "round",
-      "they",
-      "star"
+      "star",
+      "have"
      ],
      "suggestion": "Star scones! Do they have to be round?",
      "suggestionFa": "اسکون ستاره‌ای! باید گرد باشن؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "nicola",
-      "hands",
       "white",
+      "hands",
       "all"
      ],
      "suggestion": "Your hands are all white, Nicola!",
@@ -126,8 +126,8 @@
    "branches": [
     {
      "keywords": [
-      "won't",
       "flour",
+      "won't",
       "more",
       "bit"
      ],
@@ -139,8 +139,8 @@
     },
     {
      "keywords": [
-      "table",
       "let's",
+      "table",
       "put",
       "ok"
      ],
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "maybe",
-      "small"
+      "small",
+      "maybe"
      ],
      "suggestion": "Your thumb is very small! Maybe my thumb?",
      "suggestionFa": "شست تو خیلی کوچیکه! شاید شست من؟",
@@ -265,8 +265,8 @@
      "keywords": [
       "don't",
       "twist",
-      "push",
-      "nana"
+      "just",
+      "says"
      ],
      "suggestion": "Don't twist! Nana says just push down.",
      "suggestionFa": "نچرخون! نانا میگه فقط فشار بده.",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "bake",
+      "long",
       "how"
      ],
      "suggestion": "How long do they bake for?",
@@ -405,9 +405,9 @@
    "branches": [
     {
      "keywords": [
-      "which",
-      "first",
       "cream",
+      "first",
+      "which",
       "right"
      ],
      "suggestion": "Jam first or cream first? Which is right?",
@@ -419,8 +419,8 @@
     {
      "keywords": [
       "each",
-      "both",
       "i'll",
+      "both",
       "try"
      ],
      "suggestion": "I'll try both! One of each.",

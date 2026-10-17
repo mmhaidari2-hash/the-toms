@@ -35,7 +35,7 @@
       "station",
       "that's",
       "here's",
-      "first"
+      "train"
      ],
      "suggestion": "Here's the first one. That's the train station.",
      "suggestionFa": "اینم اولی. اون ایستگاه قطاره.",
@@ -88,8 +88,8 @@
      "keywords": [
       "lucky",
       "sunny",
-      "only",
-      "hour"
+      "hour",
+      "only"
      ],
      "suggestion": "It was only sunny for one hour. I was lucky!",
      "suggestionFa": "فقط یه ساعت آفتابی بود. شانس آوردم!",
@@ -150,8 +150,8 @@
     {
      "keywords": [
       "seagull",
-      "stole",
       "cream",
+      "stole",
       "ice"
      ],
      "suggestion": "That's a seagull! It stole my ice cream.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "harbour",
-      "those",
-      "seals"
+      "seals",
+      "those"
      ],
      "suggestion": "This is the harbour. And those are the seals.",
      "suggestionFa": "این بندره. و اون‌ها فک‌ها هستن.",
@@ -251,8 +251,8 @@
      "keywords": [
       "across",
       "walked",
-      "came",
-      "then"
+      "then",
+      "came"
      ],
      "suggestion": "Yes, we walked across. Then the tide came in!",
      "suggestionFa": "آره، پیاده رد شدیم. بعد آب بالا اومد!",
@@ -301,10 +301,10 @@
    "branches": [
     {
      "keywords": [
-      "came",
       "back",
       "boat",
-      "was"
+      "came",
+      "fun"
      ],
      "suggestion": "We came back by boat! It was fun.",
      "suggestionFa": "با قایق برگشتیم! جالب بود.",

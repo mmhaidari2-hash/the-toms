@@ -160,8 +160,8 @@
     {
      "keywords": [
       "missed",
-      "again",
       "start",
+      "again",
       "one"
      ],
      "suggestion": "You missed one. Start again.",
@@ -218,8 +218,8 @@
    "branches": [
     {
      "keywords": [
-      "done",
       "well",
+      "done",
       "did"
      ],
      "suggestion": "Well done! You did it!",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "laces",
-      "tie",
-      "can"
+      "can",
+      "tie"
      ],
      "suggestion": "Can you tie laces?",
      "suggestionFa": "بند کفش را می‌تونی ببندی؟",
@@ -311,7 +311,7 @@
      "keywords": [
       "bunny",
       "loops",
-      "make",
+      "ears",
       "like"
      ],
      "suggestion": "Make two loops, like bunny ears.",

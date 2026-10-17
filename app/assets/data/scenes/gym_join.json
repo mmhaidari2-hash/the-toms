@@ -33,9 +33,9 @@
     {
      "keywords": [
       "first",
-      "just",
+      "pass",
       "like",
-      "pass"
+      "just"
      ],
      "suggestion": "Just a day pass for now — I'd like to try it out first.",
      "suggestionFa": "فعلاً فقط بلیت یه‌روزه — می‌خوام اول امتحانش کنم.",
@@ -89,8 +89,8 @@
      "keywords": [
       "cheaper",
       "twelve",
-      "works",
-      "month"
+      "month",
+      "works"
      ],
      "suggestion": "The twelve-month one works out cheaper, so I'll go for that.",
      "suggestionFa": "دوازده‌ماهه ارزون‌تر درمیاد، پس اونو می‌گیرم.",
@@ -143,8 +143,8 @@
      "keywords": [
       "evening",
       "course",
-      "count",
-      "doing"
+      "doing",
+      "count"
      ],
      "suggestion": "I'm doing an evening course — does that count?",
      "suggestionFa": "یه دورهٔ شبانه می‌رم — حساب میشه؟",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "weight",
       "fitter",
+      "weight",
       "want",
       "lose"
      ],
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "strength",
-      "mostly",
       "reduce",
-      "stress"
+      "stress",
+      "mostly"
      ],
      "suggestion": "Mostly to build strength and reduce stress.",
      "suggestionFa": "بیشتر برای قوی شدن و کم کردن استرس.",
@@ -252,9 +252,9 @@
     {
      "keywords": [
       "alright",
-      "before",
       "thanks",
-      "i've"
+      "before",
+      "gyms"
      ],
      "suggestion": "I'm alright, thanks — I've used gyms before.",
      "suggestionFa": "نه ممنون — قبلاً باشگاه رفتم.",
@@ -292,8 +292,8 @@
    "branches": [
     {
      "keywords": [
-      "sounds",
       "when's",
+      "sounds",
       "class",
       "good"
      ],
@@ -306,9 +306,9 @@
     {
      "keywords": [
       "might",
-      "hard",
+      "give",
       "spin",
-      "give"
+      "hard"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "details",
-      "bank",
-      "sure"
+      "sure",
+      "bank"
      ],
      "suggestion": "Sure — do you need my bank details?",
      "suggestionFa": "البته — مشخصات بانکیم را می‌خواید؟",
@@ -399,7 +399,7 @@
      "keywords": [
       "injury",
       "last",
-      "fine",
+      "knee",
       "year"
      ],
      "suggestion": "I had a knee injury last year, but it's fine now.",

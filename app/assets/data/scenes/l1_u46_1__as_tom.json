@@ -50,7 +50,7 @@
       "kitchen",
       "still",
       "coats",
-      "late"
+      "take"
      ],
      "suggestion": "Late? Not at all! Leslie's still in the kitchen. Let me take your coats.",
      "suggestionFa": "دیر؟ اصلاً! لزلی هنوز تو آشپزخونه‌ست. بذارید کتاتون را بگیرم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "shouldn't",
-      "through",
       "brought",
       "they've",
+      "through",
       "leslie"
      ],
      "suggestion": "You shouldn't have! Leslie, they've brought food! Go through to the living room.",
@@ -157,8 +157,8 @@
    "branches": [
     {
      "keywords": [
-      "george's",
       "anywhere",
+      "george's",
       "that's",
       "though",
       "chair"
@@ -184,9 +184,9 @@
      "keywords": [
       "yourselves",
       "george's",
-      "sofa's",
       "nobody",
-      "house"
+      "sofa's",
+      "chair"
      ],
      "suggestion": "Nobody sits in George's chair! House rule. The sofa's comfy. Make yourselves at home.",
      "suggestionFa": "هیچ‌کس رو صندلی جورج نمی‌شینه! قانون خونه. مبل راحته. راحت باشید.",
@@ -267,10 +267,10 @@
     {
      "keywords": [
       "singing",
+      "coffee",
       "that's",
       "drinks",
-      "coffee",
-      "jiffy"
+      "juice"
      ],
      "suggestion": "Singing! That's my boy. Right, drinks. Tea, coffee, juice? I'll be back in a jiffy!",
      "suggestionFa": "آواز! پسر خودمه. خب، نوشیدنی. چای، قهوه، آبمیوه؟ یه چشم به هم زدن برمی‌گردم!",

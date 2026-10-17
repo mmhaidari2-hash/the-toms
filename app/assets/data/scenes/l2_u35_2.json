@@ -87,9 +87,9 @@
     {
      "keywords": [
       "after",
-      "half",
+      "peak",
       "nine",
-      "peak"
+      "half"
      ],
      "suggestion": "So after half nine, I buy off-peak?",
      "suggestionFa": "پس بعد از نه و نیم، بلیت ساعات خلوت بخرم؟",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "think",
       "don't",
+      "think",
       "cost",
       "much"
      ],
@@ -195,9 +195,9 @@
     {
      "keywords": [
       "railcard",
-      "which",
       "third",
-      "get"
+      "which",
+      "off"
      ],
      "suggestion": "A third off? Which railcard can I get?",
      "suggestionFa": "یک‌سوم تخفیف؟ کدوم کارت را می‌تونم بگیرم؟",
@@ -297,8 +297,8 @@
      "keywords": [
       "valid",
       "time",
-      "any",
-      "day"
+      "day",
+      "any"
      ],
      "suggestion": "Is it valid at any time of day?",
      "suggestionFa": "هر ساعتی از روز معتبره؟",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "always",
-      "print",
-      "small"
+      "small",
+      "print"
      ],
      "suggestion": "The small print! Always the small print.",
      "suggestionFa": "ریزنوشته‌ها! همیشه ریزنوشته‌ها.",

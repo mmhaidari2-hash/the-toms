@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
-      "perfect"
+      "perfect",
+      "o'clock"
      ],
      "suggestion": "Four o'clock is perfect.",
      "suggestionFa": "ساعت چهار عالیه.",
@@ -90,8 +90,8 @@
      "keywords": [
       "quarter",
       "let's",
-      "past",
-      "safe"
+      "safe",
+      "past"
      ],
      "suggestion": "Let's say quarter past four, to be safe.",
      "suggestionFa": "بگیم چهار و ربع، برای احتیاط.",
@@ -184,8 +184,8 @@
    "branches": [
     {
      "keywords": [
-      "phrase",
       "that's",
+      "phrase",
       "useful"
      ],
      "suggestion": "That's a useful phrase!",
@@ -198,7 +198,7 @@
      "keywords": [
       "tuesday",
       "check",
-      "then",
+      "i'll",
       "text"
      ],
      "suggestion": "Then I'll text you on Tuesday to check.",

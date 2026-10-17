@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "leave",
       "rooms",
+      "leave",
       "have",
       "time"
      ],
@@ -116,8 +116,8 @@
     {
      "keywords": [
       "minibar",
-      "please",
       "charge",
+      "please",
       "check"
      ],
      "suggestion": "Could you check the minibar charge, please?",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "snacks",
-      "loves",
       "maybe",
+      "loves",
       "ryan"
      ],
      "suggestion": "Maybe Ryan? He loves snacks!",
@@ -182,8 +182,8 @@
      "keywords": [
       "minute",
       "come",
-      "ryan",
-      "here"
+      "here",
+      "ryan"
      ],
      "suggestion": "Ryan, come here a minute.",
      "suggestionFa": "رایان، یه لحظه بیا اینجا.",
@@ -193,9 +193,9 @@
     },
     {
      "keywords": [
-      "call",
       "i'll",
       "he's",
+      "call",
       "tom"
      ],
      "suggestion": "He's in the car with Tom. I'll call him.",
@@ -224,8 +224,8 @@
      "keywords": [
       "nothing",
       "minibar",
-      "free",
-      "ryan"
+      "ryan",
+      "free"
      ],
      "suggestion": "Nothing in a minibar is free, Ryan!",
      "suggestionFa": "هیچ‌چیز تو مینی‌بار مجانی نیست رایان!",
@@ -281,9 +281,9 @@
     {
      "keywords": [
       "carry",
+      "bags",
       "help",
-      "desk",
-      "bags"
+      "desk"
      ],
      "suggestion": "Can I help carry the bags to the desk?",
      "suggestionFa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟",
@@ -295,8 +295,8 @@
      "keywords": [
       "cream",
       "pier",
-      "get",
-      "ice"
+      "ice",
+      "get"
      ],
      "suggestion": "The pier! Can we get ice cream?",
      "suggestionFa": "اسکله! میشه بستنی بخوریم؟",
@@ -324,8 +324,8 @@
      "keywords": [
       "seagulls",
       "about",
-      "know",
-      "them"
+      "them",
+      "know"
      ],
      "suggestion": "The seagulls! I know about them.",
      "suggestionFa": "مرغ‌های دریایی! درباره‌شون می‌دونم.",

@@ -21,8 +21,8 @@
      "keywords": [
       "headaches",
       "getting",
-      "about",
-      "weeks"
+      "weeks",
+      "about"
      ],
      "suggestion": "I've been getting headaches for about two weeks.",
      "suggestionFa": "حدود دو هفته‌ست سردرد می‌گیرم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "hurting",
-      "since",
       "moved",
+      "since",
       "back"
      ],
      "suggestion": "My back has been hurting since I moved a sofa.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "usually",
       "evening",
-      "worse",
-      "after"
+      "usually",
+      "after",
+      "worse"
      ],
      "suggestion": "It's usually worse in the evening, after work.",
      "suggestionFa": "معمولاً عصرها، بعد از کار، بدتره.",
@@ -88,8 +88,8 @@
      "keywords": [
       "morning",
       "first",
-      "thing",
-      "worst"
+      "worst",
+      "thing"
      ],
      "suggestion": "It's worst first thing in the morning.",
      "suggestionFa": "اول صبح از همه بدتره.",
@@ -142,8 +142,8 @@
      "keywords": [
       "outside",
       "mostly",
-      "work",
-      "many"
+      "many",
+      "work"
      ],
      "suggestion": "Not many. I work outside mostly.",
      "suggestionFa": "زیاد نه. بیشتر بیرون کار می‌کنم.",
@@ -183,8 +183,8 @@
      "keywords": [
       "getting",
       "happen",
-      "them",
-      "will"
+      "will",
+      "keep"
      ],
      "suggestion": "What will happen if I keep getting them?",
      "suggestionFa": "اگه همچنان ادامه پیدا کنه چی میشه؟",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "week",
-      "book",
       "i'll",
-      "test"
+      "test",
+      "week",
+      "book"
      ],
      "suggestion": "I'll book an eye test this week.",
      "suggestionFa": "این هفته وقت معاینهٔ چشم می‌گیرم.",

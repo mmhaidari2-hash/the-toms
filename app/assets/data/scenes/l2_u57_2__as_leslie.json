@@ -25,7 +25,7 @@
       "starters",
       "doris's",
       "hungry",
-      "party"
+      "thank"
      ],
      "suggestion": "My turn to take you out! Thank you for all your help with Doris's party. Now, starters. Are you hungry? I'm starving.",
      "suggestionFa": "نوبت منه تو را ببرم بیرون! ممنون بابت همهٔ کمکت برای مهمونی دوریس. حالا، پیش‌غذا. گرسنه‌ای؟ من دارم می‌میرم از گرسنگی.",
@@ -48,8 +48,8 @@
      "keywords": [
       "appetiser",
       "america",
-      "course",
       "before",
+      "course",
       "garlic"
      ],
      "suggestion": "A small dish before the main course. Like soup, or garlic bread. In America they call it an \"appetiser\". Very fancy.",
@@ -73,9 +73,9 @@
      "keywords": [
       "calamari",
       "garlic",
-      "bread",
-      "khiar",
-      "share"
+      "shall",
+      "share",
+      "hurry"
      ],
      "suggestion": "Ooh, mast-o-khiar! I love that. Shall we share the garlic bread? And the calamari? Tom will eat it all if we don't hurry.",
      "suggestionFa": "اوه، ماست و خیار! عاشقشم. نون سیر را شریک بشیم؟ و کالاماری را؟ اگه عجله نکنیم تام همه‌اش را می‌خوره.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "recommend",
-      "crispy",
-      "here's",
       "sophie",
-      "hello"
+      "here's",
+      "crispy",
+      "squid"
      ],
      "suggestion": "Fried squid rings. Crispy, with lemon. Here's Sophie. Sophie! Hello! What do you recommend?",
      "suggestionFa": "حلقه‌های ماهی مرکب سرخ‌شده. ترد، با لیمو. سوفی اومد. سوفی! سلام! چی پیشنهاد می‌کنی؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -245,11 +245,11 @@
    "branches": [
     {
      "keywords": [
-      "driving",
-      "jealous",
-      "bread's",
       "perfect",
-      "amazing"
+      "driving",
+      "amazing",
+      "jealous",
+      "already"
      ],
      "suggestion": "Perfect. Oh, look — the bread's here already. That smells amazing. Tom's going to be so jealous. He's driving the 38 all day.",
      "suggestionFa": "عالی. اوه، ببین — نون همین الان رسید. چه بوی فوق‌العاده‌ای. تام خیلی حسودیش میشه. کل روز داره ۳۸ را می‌رونه.",
@@ -272,8 +272,8 @@
      "keywords": [
       "disappears",
       "calamari",
-      "furious",
       "friends",
+      "furious",
       "before"
      ],
      "suggestion": "A photo! He'll be furious. Cheers — to Doris, and to good friends. Now, pass the calamari before it disappears!",

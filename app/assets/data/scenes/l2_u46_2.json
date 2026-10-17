@@ -32,9 +32,9 @@
     {
      "keywords": [
       "stick",
-      "sign",
+      "says",
       "stop",
-      "says"
+      "sign"
      ],
      "suggestion": "Her stick says \"STOP\". It's a sign!",
      "suggestionFa": "رو چوبش نوشته «ایست». تابلوئه!",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "girl",
-      "good",
-      "kerb"
+      "kerb",
+      "good"
      ],
      "suggestion": "Wait at the kerb. Good girl.",
      "suggestionFa": "لب جدول وایسا. آفرین دختر خوب.",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "while",
-      "hand",
       "hold",
+      "hand",
       "we"
      ],
      "suggestion": "Hold my hand while we wait.",
@@ -192,8 +192,8 @@
      "keywords": [
       "cross",
       "right",
-      "left",
-      "safe"
+      "safe",
+      "left"
      ],
      "suggestion": "Left, right, left. Is it safe to cross now?",
      "suggestionFa": "چپ، راست، چپ. الان رد شدن امنه؟",
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "other",
-      "iran",
-      "cars",
-      "come"
+      "side",
+      "come",
+      "from"
      ],
      "suggestion": "In Iran, the cars come from the other side!",
      "suggestionFa": "تو ایران، ماشین‌ها از اون طرف میان!",
@@ -263,8 +263,8 @@
      "keywords": [
       "stopped",
       "look",
-      "bus",
-      "has"
+      "has",
+      "bus"
      ],
      "suggestion": "Look, the bus has stopped too!",
      "suggestionFa": "ببین، اتوبوس هم وایساده!",
@@ -358,8 +358,8 @@
     },
     {
      "keywords": [
-      "thank",
       "she's",
+      "thank",
       "kind",
       "say"
      ],
@@ -395,8 +395,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "waiter",
+      "nicola",
       "best"
      ],
      "suggestion": "You're the best waiter, Nicola.",
@@ -408,8 +408,8 @@
     {
      "keywords": [
       "sticker",
-      "waited",
       "nicely",
+      "waited",
       "get"
      ],
      "suggestion": "Can I get a sticker too? I waited nicely!",

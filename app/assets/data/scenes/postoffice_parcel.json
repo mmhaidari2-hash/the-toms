@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "like",
       "send",
+      "like",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
+      "there's",
       "problem",
       "perfume",
-      "there's",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "cost",
-      "will",
       "much",
+      "will",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "birthday",
-      "present",
       "tracked",
+      "present",
       "please"
      ],
      "suggestion": "Tracked, please — it's a birthday present.",
@@ -275,8 +275,8 @@
      "keywords": [
       "standard",
       "there's",
-      "rush",
-      "fine"
+      "fine",
+      "rush"
      ],
      "suggestion": "Standard is fine, there's no rush.",
      "suggestionFa": "معمولی خوبه، عجله‌ای نیست.",
@@ -325,8 +325,8 @@
      "keywords": [
       "first",
       "could",
-      "time",
-      "help"
+      "help",
+      "time"
      ],
      "suggestion": "Could you help me with it? It's my first time.",
      "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
@@ -421,8 +421,8 @@
     {
      "keywords": [
       "instead",
-      "email",
-      "could"
+      "could",
+      "email"
      ],
      "suggestion": "Could you email it to me instead?",
      "suggestionFa": "می‌شه به جاش ایمیلش کنید؟",

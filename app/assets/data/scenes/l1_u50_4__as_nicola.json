@@ -24,8 +24,8 @@
       "carrots",
       "potato",
       "roast",
-      "psst",
-      "give"
+      "i'll",
+      "swap"
      ],
      "suggestion": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
      "suggestionFa": "پیس! {you}! هویجم را بهت میدم اگه سیب‌زمینیت را بهم بدی. عوض کنیم؟",
@@ -49,8 +49,8 @@
       "carrots",
       "that's",
       "three",
-      "good",
-      "swap"
+      "swap",
+      "good"
      ],
      "suggestion": "Three carrots! Three! That's a good swap!",
      "suggestionFa": "سه تا هویج! سه تا! معاملهٔ خوبیه!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "carrots",
+      "pudding",
       "what's",
       "cream",
       "i'll"
@@ -221,8 +221,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -277,8 +277,8 @@
       "champion",
       "biggest",
       "carrots",
-      "please",
-      "carrot"
+      "carrot",
+      "please"
      ],
      "suggestion": "Done! Five carrots! I'm a carrot champion! Can I have the biggest bowl, please?",
      "suggestionFa": "تموم شد! پنج تا هویج! من قهرمان هویجم! می‌تونم بزرگ‌ترین کاسه را بگیرم، لطفاً؟",

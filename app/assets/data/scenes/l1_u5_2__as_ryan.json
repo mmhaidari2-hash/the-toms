@@ -23,8 +23,8 @@
      "keywords": [
       "mondays",
       "monday",
-      "best",
       "like",
+      "best",
       "hate"
      ],
      "suggestion": "Ugh, Monday. I hate Mondays. What day do you like best?",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "wednesdays",
-      "tuesdays",
-      "swimming",
       "football",
+      "swimming",
+      "tuesdays",
       "nicola"
      ],
      "suggestion": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
@@ -75,7 +75,7 @@
       "william",
       "plays",
       "lucky",
-      "goes"
+      "sand"
      ],
      "suggestion": "William goes to nursery. He plays with sand all day. Lucky him!",
      "suggestionFa": "ویلیام می‌ره مهدکودک. کل روز با شن بازی می‌کنه. خوش به حالش!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "hospital",
       "finishes",
+      "hospital",
       "starts",
-      "eight",
-      "works"
+      "works",
+      "eight"
      ],
      "suggestion": "Mum works at the hospital. She starts at eight and finishes at four.",
      "suggestionFa": "مامان توی بیمارستان کار می‌کنه. ساعت هشت شروع می‌کنه و چهار تموم.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "drinks",
       "office",
-      "about",
-      "nurse",
-      "works"
+      "drinks",
+      "works",
+      "she's",
+      "nurse"
      ],
      "suggestion": "Yeah, she's a nurse. Dad works in an office. He drinks about ten cups of tea a day.",
      "suggestionFa": "آره، پرستاره. بابا توی دفتر کار می‌کنه. روزی حدود ده لیوان چای می‌خوره.",
@@ -148,8 +148,8 @@
      "keywords": [
       "thursdays",
       "sundays",
-      "roast",
       "comes",
+      "roast",
       "nana"
      ],
      "suggestion": "On Thursdays Nana comes for tea. On Sundays we have a roast. Best day!",
@@ -174,8 +174,8 @@
       "potatoes",
       "chicken",
       "sunday",
-      "won't",
-      "roast"
+      "gravy",
+      "won't"
      ],
      "suggestion": "Roast chicken, roast potatoes, gravy. Come this Sunday. Mum won't mind!",
      "suggestionFa": "مرغ کبابی، سیب‌زمینی تنوری، سس. این یکشنبه بیا. مامان ناراحت نمی‌شه!",

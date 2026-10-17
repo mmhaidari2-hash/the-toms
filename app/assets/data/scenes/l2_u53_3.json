@@ -21,8 +21,8 @@
      "keywords": [
       "split",
       "shall",
-      "four",
-      "ways"
+      "ways",
+      "four"
      ],
      "suggestion": "Shall we split it four ways?",
      "suggestionFa": "چهار قسمت مساوی کنیم؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "i'll",
-      "pay",
-      "had"
+      "had",
+      "pay"
      ],
      "suggestion": "I'll pay for what I had.",
      "suggestionFa": "من پول چیزی که خوردم را میدم.",
@@ -155,8 +155,8 @@
     },
     {
      "keywords": [
-      "leave",
       "don't",
+      "leave",
       "need",
       "tip"
      ],
@@ -251,9 +251,9 @@
     {
      "keywords": [
       "fifteen",
-      "twenty",
       "little",
-      "let"
+      "twenty",
+      "pay"
      ],
      "suggestion": "Fifteen is too little. Let me pay twenty.",
      "suggestionFa": "پونزده خیلی کمه. بذار بیست بدم.",
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "twenty",
       "please",
+      "twenty",
       "card"
      ],
      "suggestion": "Twenty on this card, please.",
@@ -359,8 +359,8 @@
      "keywords": [
       "coins",
       "many",
-      "has",
-      "how"
+      "got",
+      "has"
      ],
      "suggestion": "Ha! How many coins has he got?",
      "suggestionFa": "ها! چند تا سکه داره؟",
@@ -370,8 +370,8 @@
     },
     {
      "keywords": [
-      "coats",
       "let's",
+      "coats",
       "while",
       "wait"
      ],

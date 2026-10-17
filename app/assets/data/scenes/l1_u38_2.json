@@ -126,8 +126,8 @@
      "keywords": [
       "first",
       "mug",
-      "put",
-      "box"
+      "box",
+      "put"
      ],
      "suggestion": "Put the mug in a box first.",
      "suggestionFa": "اول ماگ را بذار تو جعبه.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "stick",
-      "i'll",
-      "hold"
+      "hold",
+      "i'll"
      ],
      "suggestion": "Hold it, and I'll stick it.",
      "suggestionFa": "تو نگهش دار، من می‌چسبونمش.",
@@ -236,9 +236,9 @@
     },
     {
      "keywords": [
+      "small",
       "piece",
       "first",
-      "small",
       "cut"
      ],
      "suggestion": "Cut a small piece first.",

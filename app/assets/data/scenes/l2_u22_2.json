@@ -22,7 +22,7 @@
       "yoghurt",
       "have",
       "more",
-      "any"
+      "got"
      ],
      "suggestion": "Have you got any more of this yoghurt?",
      "suggestionFa": "از این ماست بیشتر دارین؟",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "please",
-      "could",
-      "check"
+      "check",
+      "could"
      ],
      "suggestion": "Could you check in the back, please?",
      "suggestionFa": "میشه لطفاً تو انبار را نگاه کنید؟",
@@ -152,8 +152,8 @@
      "keywords": [
       "lunchtime",
       "morning",
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "Six in the morning? I'll come at lunchtime.",
      "suggestionFa": "شش صبح؟ ظهر میام.",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "price",
-      "half",
       "i'll",
+      "half",
       "try"
      ],
      "suggestion": "Half the price? I'll try it.",
@@ -244,10 +244,10 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "wipes",
-      "find",
-      "baby"
+      "can't",
+      "baby",
+      "find"
      ],
      "suggestion": "Yes. I can't find the baby wipes.",
      "suggestionFa": "آره. دستمال مرطوب بچه را پیدا نمی‌کنم.",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "free",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "Three for two? So one is free?",
      "suggestionFa": "سه تا به قیمت دو تا؟ یعنی یکیش مجانیه؟",

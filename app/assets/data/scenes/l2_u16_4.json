@@ -34,8 +34,8 @@
      "keywords": [
       "here",
       "some",
-      "buy",
-      "can"
+      "can",
+      "buy"
      ],
      "suggestion": "Can we buy some here?",
      "suggestionFa": "می‌تونیم از اینجا بخریم؟",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "much",
-      "bag",
       "how",
+      "bag",
       "ha"
      ],
      "suggestion": "Ha! How much is a bag?",
@@ -84,8 +84,8 @@
      "keywords": [
       "usually",
       "plastic",
-      "iran",
-      "free"
+      "free",
+      "iran"
      ],
      "suggestion": "In Iran, plastic bags are usually free.",
      "suggestionFa": "تو ایران، کیسه پلاستیکی معمولاً مجانیه.",
@@ -126,7 +126,7 @@
       "things",
       "let's",
       "we've",
-      "lot"
+      "got"
      ],
      "suggestion": "Let's get two. We've got a lot of things.",
      "suggestionFa": "دو تا بگیریم. چیزای زیادی داریم.",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "bottom",
-      "eggs",
       "milk",
+      "eggs",
       "top"
      ],
      "suggestion": "Milk at the bottom, eggs on top.",
@@ -236,10 +236,10 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "bring",
-      "next",
-      "i'll"
+      "thank",
+      "i'll",
+      "next"
      ],
      "suggestion": "Thank you! Next time I'll bring my own bag.",
      "suggestionFa": "ممنون! دفعهٔ بعد کیسهٔ خودم را میارم.",

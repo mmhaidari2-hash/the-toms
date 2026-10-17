@@ -23,9 +23,9 @@
      "keywords": [
       "fourteen",
       "number",
-      "look",
       "khan",
-      "from"
+      "from",
+      "have"
      ],
      "suggestion": "Oh look, it's Mrs Khan from number fourteen. Have you met her?",
      "suggestionFa": "آه ببین، خانم خان از پلاک چهارده‌ست. باهاش آشنا شدی؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "friend",
       "they",
-      "khan",
       "live",
+      "khan",
       "next"
      ],
      "suggestion": "Mrs Khan, this is our friend. They live next door to us.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -291,8 +291,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -407,8 +407,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -462,8 +462,8 @@
      "keywords": [
       "everything",
       "everyone",
-      "friend",
       "you've",
+      "friend",
       "street"
      ],
      "suggestion": "You've got a friend for life now! Amina knows everyone and everything on this street.",

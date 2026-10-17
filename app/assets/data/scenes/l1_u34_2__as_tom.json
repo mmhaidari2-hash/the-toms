@@ -47,8 +47,8 @@
     {
      "keywords": [
       "opposite",
-      "that's",
       "church",
+      "that's",
       "stop",
       "one"
      ],
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "there's",
-      "behind",
       "john's",
+      "behind",
       "clock",
       "park"
      ],
@@ -98,8 +98,8 @@
      "keywords": [
       "minutes",
       "letter",
-      "look",
       "stop",
+      "look",
       "two"
      ],
      "suggestion": "Two minutes. Look for the stop letter. It's stop M.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "letter",
-      "there",
-      "other",
       "helps",
+      "there",
+      "stops",
       "which"
      ],
      "suggestion": "There are lots of stops near each other. The letter helps. Which bus do you need?",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "angel",
       "seven",
       "stops",
-      "get",
+      "angel",
+      "off",
       "bus"
      ],
      "suggestion": "My bus! The 38. Get off at the Angel. Seven stops.",
@@ -174,8 +174,8 @@
       "there's",
       "screen",
       "inside",
-      "voice",
-      "shows"
+      "shows",
+      "voice"
      ],
      "suggestion": "There's a screen inside. It shows the next stop. And a voice says it.",
      "suggestionFa": "داخلش یه صفحه هست. ایستگاه بعدی را نشون میده. یه صدا هم میگه.",
@@ -199,8 +199,8 @@
       "announcer",
       "tomorrow",
       "exactly",
-      "early",
-      "voice"
+      "voice",
+      "shift"
      ],
      "suggestion": "Exactly! And I'm on the early shift tomorrow. If you see me, wave. I'll do my best announcer voice!",
      "suggestionFa": "دقیقاً! و فردا شیفت صبحم. اگه منو دیدی دست تکون بده. بهترین صدای گوینده‌م را درمیارم!",

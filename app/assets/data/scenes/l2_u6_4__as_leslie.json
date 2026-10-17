@@ -22,10 +22,10 @@
     {
      "keywords": [
       "terrible",
-      "honey",
-      "tried",
+      "lemon",
       "sound",
-      "lemon"
+      "honey",
+      "tried"
      ],
      "suggestion": "You sound terrible! Sit down. Have you ever tried honey and lemon?",
      "suggestionFa": "صدات افتضاحه! بشین. تا حالا عسل و لیمو امتحان کردی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "careful",
       "thing",
+      "here",
       "nice",
-      "cold",
-      "here"
+      "best"
      ],
      "suggestion": "It's the best thing for a cold. Here — a nice hot cup. Careful, it's hot!",
      "suggestionFa": "بهترین چیز برای سرماخوردگیه. بیا — یه لیوان داغ. مواظب باش، داغه!",
@@ -74,7 +74,7 @@
       "tablets",
       "bottle",
       "swore",
-      "water",
+      "lemon",
       "honey"
      ],
      "suggestion": "My nan swore by it. She never took tablets — just honey, lemon and a hot water bottle!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "bedroom",
       "british",
+      "bedroom",
       "rubber",
       "houses",
-      "water"
+      "every"
      ],
      "suggestion": "A rubber bag you fill with hot water. I've got one in every bedroom! British houses are cold, you know.",
      "suggestionFa": "یه کیسهٔ لاستیکی که پرش می‌کنی از آب داغ. تو هر اتاق یکی دارم! خونه‌های بریتانیا سردن دیگه.",
@@ -123,9 +123,9 @@
      "keywords": [
       "watched",
       "perfect",
-      "should",
       "course",
-      "early"
+      "should",
+      "night"
      ],
      "suggestion": "Of course. And you should have an early night. Have you ever watched Bake Off? It's perfect for a cold!",
      "suggestionFa": "حتماً. و بهتره زود بخوابی. تا حالا Bake Off دیدی؟ برای سرماخوردگی عالیه!",
@@ -149,8 +149,8 @@
       "british",
       "blanket",
       "baking",
-      "better",
-      "you'll"
+      "you'll",
+      "better"
      ],
      "suggestion": "A baking show. Very British, very cosy. Blanket, tea, Bake Off — you'll feel better in no time.",
      "suggestionFa": "یه برنامهٔ آشپزی. خیلی بریتانیایی، خیلی دنج. پتو، چای، Bake Off — زود حالت خوب میشه.",

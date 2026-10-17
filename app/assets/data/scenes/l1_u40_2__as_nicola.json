@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "bread",
       "press",
+      "bread",
       "down",
-      "two",
-      "put"
+      "now",
+      "two"
      ],
      "suggestion": "Two for me and two for you! Put the bread in. Now I press… down!",
      "suggestionFa": "دو تا برای من و دو تا برای تو! نون را بذار تو. حالا فشار میدم… پایین!",
@@ -73,9 +73,9 @@
      "keywords": [
       "ready",
       "take",
-      "ooh",
+      "pop",
       "hot",
-      "out"
+      "can"
      ],
      "suggestion": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
      "suggestionFa": "پاپ! آماده‌ست! اوه، داغه! داغه! می‌تونی درش بیاری؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "marmite",
-      "salty",
-      "yucky",
-      "loves",
-      "think"
+      "daddy",
+      "think",
+      "brown",
+      "salty"
      ],
      "suggestion": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
      "suggestionFa": "مارمایت قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "funny",
-      "like",
-      "face"
+      "face",
+      "like"
      ],
      "suggestion": "Do you like it? Your face is funny!",
      "suggestionFa": "دوستش داری؟ صورتت خنده‌دار شده!",
@@ -173,7 +173,7 @@
       "putting",
       "daddy",
       "like",
-      "lots"
+      "into"
      ],
      "suggestion": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
      "suggestionFa": "مثل بابایی! حالا رو مال خودم مربا می‌زنم. کلی مربا! می‌تونم مثلثی ببرمش؟",
@@ -194,10 +194,10 @@
    "branches": [
     {
      "keywords": [
-      "everybody",
       "triangles",
-      "better",
+      "everybody",
       "tastes",
+      "better",
       "knows"
      ],
      "suggestion": "Triangles! Toast tastes better in triangles. Everybody knows that!",

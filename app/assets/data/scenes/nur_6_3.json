@@ -126,7 +126,7 @@
       "children",
       "observe",
       "steps",
-      "plan"
+      "next"
      ],
      "suggestion": "I observe my key children and plan next steps from what I see.",
      "suggestionFa": "بچه‌های کلیدی‌ام را مشاهده می‌کنم و از روی چیزی که می‌بینم گام بعدی را برنامه‌ریزی می‌کنم.",
@@ -187,7 +187,7 @@
       "questions",
       "straight",
       "leading",
-      "calmly"
+      "listen"
      ],
      "suggestion": "Listen calmly, not ask leading questions, and tell the DSL straight away.",
      "suggestionFa": "آروم گوش می‌دم، سؤال جهت‌دار نمی‌پرسم و فوراً به DSL می‌گم.",
@@ -199,7 +199,7 @@
      "keywords": [
       "report",
       "exact",
-      "write",
+      "words",
       "their"
      ],
      "suggestion": "I'd write down their exact words and report it the same day.",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "manager",
-      "deputy",
       "leader",
+      "deputy",
       "room"
      ],
      "suggestion": "It's Jo, the room leader, and the manager is the deputy.",
@@ -253,8 +253,8 @@
      "keywords": [
       "safeguarding",
       "entrance",
-      "board",
-      "photo"
+      "photo",
+      "board"
      ],
      "suggestion": "Jo — her photo is on the safeguarding board by the entrance.",
      "suggestionFa": "جو — عکسش رو تابلوی حفاظت کنار ورودیه.",

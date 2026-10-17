@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "prices",
-      "member"
+      "member",
+      "prices"
      ],
      "suggestion": "What are member prices?",
      "suggestionFa": "قیمت اعضا یعنی چی؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "without",
-      "card",
       "more",
+      "card",
       "pay"
      ],
      "suggestion": "So without a card I pay more?",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "please",
+      "number",
       "phone",
       "need"
      ],
@@ -295,8 +295,8 @@
      "keywords": [
       "ninety",
       "still",
-      "cent",
-      "food"
+      "food",
+      "cent"
      ],
      "suggestion": "Ninety per cent? Is the food still OK?",
      "suggestionFa": "نود درصد؟ غذاش هنوز سالمه؟",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "difference",
-      "what's",
       "before",
+      "what's",
       "best"
      ],
      "suggestion": "What's the difference with \"best before\"?",

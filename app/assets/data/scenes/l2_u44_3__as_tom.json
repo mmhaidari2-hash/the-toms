@@ -22,10 +22,10 @@
     {
      "keywords": [
       "christmas",
-      "delayed",
       "airport",
-      "tehran",
-      "summer"
+      "delayed",
+      "summer",
+      "flying"
      ],
      "suggestion": "You're flying to Tehran at Christmas? Check the airport news. Last summer our flight to Spain was delayed for nine hours!",
      "suggestionFa": "کریسمس پرواز داری تهران؟ اخبار فرودگاه را چک کن. تابستون پارسال پرواز ما به اسپانیا نه ساعت تأخیر داشت!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "gatwick",
-      "there",
-      "hours",
-      "storm"
+      "problem",
+      "storm",
+      "spain",
+      "there"
      ],
      "suggestion": "We flew from Gatwick. First, there was a problem with the plane. Then the crew ran out of hours. Then a storm in Spain!",
      "suggestionFa": "از گتویک پرواز کردیم. اول، هواپیما مشکل داشت. بعد ساعت کاری خدمه تموم شد. بعد یه طوفان تو اسپانیا!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "certain",
       "airport",
+      "certain",
+      "number",
       "safety",
-      "waited",
-      "number"
+      "waited"
      ],
      "suggestion": "They can only work a certain number of hours. Safety rules. So we waited for a new crew. Four kids, nine hours, one airport.",
      "suggestionFa": "فقط تعداد مشخصی ساعت می‌تونن کار کنن. قوانین ایمنی. پس منتظر خدمهٔ جدید موندیم. چهار تا بچه، نه ساعت، یه فرودگاه.",
@@ -99,8 +99,8 @@
       "vouchers",
       "william",
       "airline",
-      "pounds",
-      "twelve"
+      "counts",
+      "pounds"
      ],
      "suggestion": "Three! But it felt like four. William counts as two. The airline gave us food vouchers. Twelve pounds each.",
      "suggestionFa": "سه تا! ولی حس چهار تا را داشت. ویلیام دو تا حساب میشه. شرکت هواپیمایی بهمون کوپن غذا داد. هر نفر دوازده پوند.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "compensation",
-      "thousand",
       "sandwich",
-      "claimed",
-      "gatwick"
+      "thousand",
+      "gatwick",
+      "claimed"
      ],
      "suggestion": "Twelve pounds buys one sandwich and a sad coffee at Gatwick. But yes — later we claimed compensation. Over a thousand pounds!",
      "suggestionFa": "با دوازده پوند تو گتویک یه ساندویچ و یه قهوهٔ غمگین می‌خری. ولی آره — بعداً غرامت درخواست کردیم. بیشتر از هزار پوند!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "boarding",
-      "website",
-      "airline",
       "booking",
-      "leslie"
+      "airline",
+      "website",
+      "number"
      ],
      "suggestion": "Leslie found a form on the airline website. You fill it in, send your booking number, and wait. Keep your boarding pass!",
      "suggestionFa": "لزلی یه فرم تو سایت شرکت هواپیمایی پیدا کرد. پرش می‌کنی، شمارهٔ رزروت را می‌فرستی، و صبر می‌کنی. کارت پروازت را نگه دار!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
+      "trolley",
+      "friends",
       "william",
       "luggage",
-      "friends",
-      "trolley",
       "family"
      ],
      "suggestion": "Ryan played FIFA. Nicola made friends with a whole family from Leeds. William slept on the luggage trolley.",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "someone",
       "another",
+      "someone",
       "morning",
       "arrived",
       "that's"
@@ -225,7 +225,7 @@
       "trolley",
       "napping",
       "charger",
-      "tehran"
+      "snacks"
      ],
      "suggestion": "Next time, mate. Over a pint. For Tehran, take snacks, a charger and lots of patience. And maybe a trolley for napping.",
      "suggestionFa": "دفعهٔ بعد رفیق. سر یه لیوان آبجو. برای تهران، خوراکی، شارژر و کلی صبر ببر. و شاید یه چرخ چمدون برای چرت زدن.",

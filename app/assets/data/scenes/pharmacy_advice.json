@@ -20,8 +20,8 @@
     {
      "keywords": [
       "really",
-      "fever",
       "itchy",
+      "fever",
       "eyes"
      ],
      "suggestion": "I've got hay fever — my eyes are really itchy.",
@@ -204,9 +204,9 @@
    "branches": [
     {
      "keywords": [
+      "food",
       "them",
       "take",
-      "food",
       "can"
      ],
      "suggestion": "Can I take them with food?",
@@ -258,7 +258,7 @@
       "anything",
       "that's",
       "there",
-      "fine"
+      "eyes"
      ],
      "suggestion": "That's fine. Is there anything for my eyes too?",
      "suggestionFa": "باشه. برای چشمام هم چیزی هست؟",
@@ -269,9 +269,9 @@
     {
      "keywords": [
       "should",
-      "long",
-      "them",
-      "take"
+      "take",
+      "okay",
+      "them"
      ],
      "suggestion": "Okay. How long should I take them for?",
      "suggestionFa": "باشه. چه مدت باید بخورمشون؟",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thank",
-      "they",
       "much",
+      "they",
       "how"
      ],
      "suggestion": "Thank you. How much are they?",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "shopping",
-      "dresses",
       "wedding",
+      "dresses",
       "dress",
-      "help"
+      "need"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "cousin's",
       "wedding",
-      "bride",
+      "white",
       "wears",
-      "white"
+      "bride"
      ],
      "suggestion": "My cousin's wedding. In June. Not white — only the bride wears white!",
      "suggestionFa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "excuse",
       "twelve",
-      "nice",
+      "excuse",
+      "blue",
       "size",
-      "have"
+      "nice"
      ],
      "suggestion": "Ooh, blue is nice. Excuse me, do you have this in a size twelve?",
      "suggestionFa": "اوه، آبی قشنگه. ببخشید، اینو سایز دوازده دارید؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -206,8 +206,8 @@
      "keywords": [
       "fourteen",
       "honest",
-      "look",
       "i'll",
+      "look",
       "try"
      ],
      "suggestion": "OK, I'll try the fourteen. How does it look? Be honest!",
@@ -233,7 +233,7 @@
       "order",
       "let's",
       "pay",
-      "big"
+      "now"
      ],
      "suggestion": "Yes, too big. OK, let's order the twelve. Can I pay now?",
      "suggestionFa": "آره، خیلی بزرگه. باشه، دوازده را سفارش بدیم. می‌تونم الان پرداخت کنم؟",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "shopping",
       "thompson",
+      "shopping",
       "leslie",
       "shoes",
       "thank"
@@ -335,7 +335,7 @@
       "definitely",
       "patience",
       "coffee",
-      "shoes",
+      "thank",
       "first"
      ],
      "suggestion": "Coffee first, definitely! Then shoes. Thank you for your patience, love. You're a star!",

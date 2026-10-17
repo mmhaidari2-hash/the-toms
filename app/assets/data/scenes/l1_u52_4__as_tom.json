@@ -22,8 +22,8 @@
     {
      "keywords": [
       "something",
-      "burning",
       "morning",
+      "burning",
       "what's",
       "smell"
      ],
@@ -49,8 +49,8 @@
       "before",
       "window",
       "alarm",
-      "never",
-      "smoke"
+      "smoke",
+      "never"
      ],
      "suggestion": "Ha! Never mind. Open the window before the smoke alarm goes off.",
      "suggestionFa": "ها! عیب نداره. قبل از اینکه آژیر دود به صدا دربیاد پنجره را باز کن.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "towel",
-      "there",
       "quiet",
-      "wave",
-      "like"
+      "there",
+      "towel",
+      "like",
+      "wave"
      ],
      "suggestion": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
      "suggestionFa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!",
@@ -96,9 +96,9 @@
    "branches": [
     {
      "keywords": [
-      "burner",
       "leslie",
-      "about",
+      "burner",
+      "worry",
       "every",
       "don't"
      ],
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "toaster",
-      "strong",
       "number",
+      "strong",
       "three",
       "every"
      ],
@@ -149,8 +149,8 @@
       "crumpets",
       "watching",
       "slices",
-      "right",
-      "again"
+      "again",
+      "right"
      ],
      "suggestion": "Five is for crumpets! Right, try again. Two more slices. I'm watching this time!",
      "suggestionFa": "پنج برای کرامپته! خب، دوباره امتحان کن. دو تا برش دیگه. این دفعه حواسم هست!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "burner",
       "butter",
+      "burner",
       "toast",
-      "next",
-      "call"
+      "call",
+      "burn"
      ],
      "suggestion": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
      "suggestionFa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!",

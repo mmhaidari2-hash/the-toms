@@ -23,9 +23,9 @@
      "keywords": [
       "o'clock",
       "already",
-      "phones",
       "that's",
-      "unfair"
+      "unfair",
+      "phones"
      ],
      "suggestion": "Is it ten o'clock already? Mum says phones off at ten. That's so unfair!",
      "suggestionFa": "ساعت ده شد؟ مامان می‌گه گوشی‌ها ساعت ده خاموش. خیلی ناعادلانه‌ست!",
@@ -49,8 +49,8 @@
       "finishing",
       "minutes",
       "just",
-      "late",
-      "game"
+      "game",
+      "late"
      ],
      "suggestion": "Ten minutes! OK. I'm just finishing this game. Do you go to bed late?",
      "suggestionFa": "ده دقیقه! باشه. دارم این بازی را تموم می‌کنم. تو دیر می‌خوابی؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "tomorrow",
       "school",
-      "maths",
       "lucky",
+      "maths",
       "i've"
      ],
      "suggestion": "Lucky you. Have you got school tomorrow? I've got a maths test.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "o'clock",
-      "check",
-      "seven",
       "alarm",
+      "seven",
+      "check",
       "know"
      ],
      "suggestion": "I know, I know. Is my alarm on? Can you check? Seven o'clock.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "machine",
       "washing",
+      "machine",
       "cheers",
       "still",
       "kit"
@@ -148,9 +148,9 @@
      "keywords": [
       "genius",
       "light",
-      "i've",
       "turn",
-      "lamp"
+      "lamp",
+      "i've"
      ],
      "suggestion": "Genius. Can you turn the big light off? I've got my lamp.",
      "suggestionFa": "نابغه. می‌شه چراغ اصلی را خاموش کنی؟ آباژورم را دارم.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "bedbugs",
-      "that's",
       "always",
-      "innit",
-      "night"
+      "that's",
+      "weird",
+      "don't"
      ],
      "suggestion": "Night, then. Don't let the bedbugs bite! That's what Nana always says. Weird, innit?",
      "suggestionFa": "پس شب بخیر. نذار ساس‌ها نیشت بزنن! نانا همیشه اینو می‌گه. عجیبه، نه؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "radiator",
-      "cheers",
       "thanks",
-      "night",
-      "trick"
+      "cheers",
+      "trick",
+      "night"
      ],
      "suggestion": "Cheers, mate. And thanks for the radiator trick. Night!",
      "suggestionFa": "مرسی رفیق. و ممنون بابت ترفند شوفاژ. شب بخیر!",

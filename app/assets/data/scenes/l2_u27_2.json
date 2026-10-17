@@ -21,8 +21,8 @@
      "keywords": [
       "wheelchair",
       "priority",
-      "has",
-      "who"
+      "who",
+      "has"
      ],
      "suggestion": "Who has priority, the wheelchair or the pushchair?",
      "suggestionFa": "کی اولویت داره، ویلچر یا کالسکه؟",
@@ -75,8 +75,8 @@
    "branches": [
     {
      "keywords": [
-      "help",
       "fold",
+      "help",
       "her",
       "can"
      ],
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "course",
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "Of course. Come here, William.",
      "suggestionFa": "البته. بیا اینجا ویلیام.",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
+      "i'll",
       "hold",
-      "fold",
-      "i'll"
+      "fold"
      ],
      "suggestion": "I'll fold it. You hold William.",
      "suggestionFa": "من تاش می‌کنم. تو ویلیام را بغل کن.",
@@ -242,7 +242,7 @@
       "didn't",
       "know",
       "ramp",
-      "has"
+      "bus"
      ],
      "suggestion": "The bus has a ramp? I didn't know!",
      "suggestionFa": "اتوبوس سطح شیب‌دار داره؟ نمی‌دونستم!",
@@ -291,8 +291,8 @@
      "keywords": [
       "william",
       "hello",
-      "sir",
-      "say"
+      "say",
+      "sir"
      ],
      "suggestion": "William! Say \"Hello, sir\".",
      "suggestionFa": "ویلیام! بگو «سلام آقا».",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "wheels",
-      "loves",
       "sorry",
-      "three"
+      "three",
+      "loves"
      ],
      "suggestion": "Sorry! He's three. He loves wheels.",
      "suggestionFa": "ببخشید! سه سالشه. عاشق چرخه.",

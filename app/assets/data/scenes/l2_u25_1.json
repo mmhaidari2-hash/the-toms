@@ -20,8 +20,8 @@
     {
      "keywords": [
       "phone",
-      "need",
       "just",
+      "need",
       "fine"
      ],
      "suggestion": "My phone is fine. I just need a UK SIM.",
@@ -75,7 +75,7 @@
       "month",
       "only",
       "much",
-      "per"
+      "how"
      ],
      "suggestion": "How much is SIM-only per month?",
      "suggestionFa": "فقط سیم‌کارت ماهی چنده؟",
@@ -131,8 +131,8 @@
      "keywords": [
       "family",
       "video",
-      "iran",
-      "call"
+      "call",
+      "iran"
      ],
      "suggestion": "A lot. I video call my family in Iran.",
      "suggestionFa": "زیاد. با خانواده‌ام تو ایران تماس تصویری می‌گیرم.",
@@ -145,7 +145,7 @@
       "home",
       "much",
       "use",
-      "fi"
+      "wi"
      ],
      "suggestion": "Not much. I use Wi-Fi at home.",
      "suggestionFa": "زیاد نه. تو خونه از وای‌فای استفاده می‌کنم.",
@@ -260,8 +260,8 @@
      "keywords": [
       "include",
       "pounds",
-      "iran",
-      "five"
+      "five",
+      "iran"
      ],
      "suggestion": "Five pounds is OK. Does it include Iran?",
      "suggestionFa": "پنج پوند خوبه. ایران را هم شامل میشه؟",
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "cheaper",
-      "months",
       "twelve",
+      "months",
       "which"
      ],
      "suggestion": "Which is cheaper, monthly or twelve months?",
@@ -367,8 +367,8 @@
     {
      "keywords": [
       "staying",
-      "months",
       "twelve",
+      "months",
       "here"
      ],
      "suggestion": "Twelve months. I'm staying here.",

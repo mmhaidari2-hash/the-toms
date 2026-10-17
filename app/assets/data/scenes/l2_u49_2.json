@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "what's",
       "sunday",
+      "what's",
       "roast"
      ],
      "suggestion": "What's a Sunday roast?",
@@ -73,8 +73,8 @@
      "keywords": [
       "that's",
       "hours",
-      "long",
-      "time"
+      "time",
+      "long"
      ],
      "suggestion": "Two hours! That's a long time.",
      "suggestionFa": "دو ساعت! زمان زیادیه.",
@@ -243,8 +243,8 @@
      "keywords": [
       "shall",
       "them",
-      "yet",
-      "put"
+      "put",
+      "now"
      ],
      "suggestion": "Not yet. Shall I put them on now?",
      "suggestionFa": "هنوز نه. الان بذارم؟",
@@ -365,9 +365,9 @@
    "branches": [
     {
      "keywords": [
-      "table",
-      "knife",
       "right",
+      "knife",
+      "table",
       "lay"
      ],
      "suggestion": "I'll lay the table. Knife on the right?",
@@ -379,9 +379,9 @@
     {
      "keywords": [
       "cooking",
-      "door",
       "open",
-      "keep"
+      "keep",
+      "door"
      ],
      "suggestion": "I'll open the door. You keep cooking!",
      "suggestionFa": "من در را باز می‌کنم. تو آشپزی کن!",

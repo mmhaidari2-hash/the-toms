@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "bad"
      ],
      "suggestion": "Don't worry, Ryan. It's not bad!",
@@ -55,8 +55,8 @@
    "branches": [
     {
      "keywords": [
-      "wasn't",
       "mostly",
+      "wasn't",
       "good",
       "ryan"
      ],
@@ -110,8 +110,8 @@
     {
      "keywords": [
       "great",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done, Ryan! A 7 is great.",
      "suggestionFa": "آفرین رایان! ۷ عالیه.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "little",
-      "good",
-      "ones"
+      "ones",
+      "good"
      ],
      "suggestion": "You're good with the little ones, Ryan.",
      "suggestionFa": "تو با کوچولوها خوبی، رایان.",
@@ -145,9 +145,9 @@
     {
      "keywords": [
       "algebra",
-      "patel",
       "maths",
-      "said"
+      "patel",
+      "need"
      ],
      "suggestion": "Maths. Mr Patel said you need to work on algebra.",
      "suggestionFa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی.",
@@ -159,8 +159,8 @@
      "keywords": [
       "homework",
       "pieces",
-      "late",
-      "five"
+      "five",
+      "were"
      ],
      "suggestion": "Five pieces of homework were late.",
      "suggestionFa": "پنج تا تکلیف دیر بوده.",
@@ -216,7 +216,7 @@
       "that's",
       "seven",
       "eight",
-      "plan"
+      "good"
      ],
      "suggestion": "Seven to eight. That's a good plan.",
      "suggestionFa": "هفت تا هشت. برنامهٔ خوبیه.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "homework",
+      "time",
       "only",
-      "ryan",
-      "time"
+      "ryan"
      ],
      "suggestion": "Ryan, it's only for homework time.",
      "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "only",
       "ryan",
+      "only",
       "one"
      ],
      "suggestion": "It's only one hour, Ryan.",
@@ -262,8 +262,8 @@
     },
     {
      "keywords": [
-      "wait",
       "they",
+      "wait",
       "can",
       "ok"
      ],
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "numbers",
       "strange",
+      "numbers",
       "just",
       "like"
      ],

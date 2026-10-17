@@ -61,9 +61,9 @@
     {
      "keywords": [
       "longer",
-      "means",
       "short",
-      "sides"
+      "sides",
+      "means"
      ],
      "suggestion": "He means short at the sides, longer on top.",
      "suggestionFa": "منظورش بغل‌ها کوتاه، بالا بلندتره.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "school",
-      "about",
       "photo",
+      "about",
       "tell"
      ],
      "suggestion": "Ryan, tell Sal about the school photo.",
@@ -177,8 +177,8 @@
     {
      "keywords": [
       "scissors",
-      "want",
       "ryan",
+      "want",
       "top"
      ],
      "suggestion": "Ryan, do you want scissors on top?",
@@ -212,8 +212,8 @@
     },
     {
      "keywords": [
-      "take",
       "will",
+      "take",
       "much",
       "how"
      ],
@@ -316,8 +316,8 @@
     },
     {
      "keywords": [
-      "looks",
       "think",
+      "looks",
       "good"
      ],
      "suggestion": "It looks good. What do you think, Ryan?",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "looks",
       "great",
+      "looks",
       "ryan"
      ],
      "suggestion": "It looks great, Ryan!",
@@ -404,8 +404,8 @@
      "keywords": [
       "please",
       "ryan",
-      "sal",
-      "pay"
+      "pay",
+      "sal"
      ],
      "suggestion": "Ryan, pay Sal, please.",
      "suggestionFa": "رایان، پول سال را بده، لطفاً.",
@@ -441,8 +441,8 @@
      "keywords": [
       "necessary",
       "nice",
-      "tip",
-      "but"
+      "but",
+      "tip"
      ],
      "suggestion": "Yes. A tip is nice, but not necessary.",
      "suggestionFa": "آره. انعام خوبه، ولی لازم نیست.",

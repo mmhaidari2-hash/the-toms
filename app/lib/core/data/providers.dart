@@ -145,7 +145,16 @@ class ProgressController extends Notifier<UserProgress> {
 
   bool lessonDone(Lesson l) => l.sceneIds.every(state.completedScenes.contains) && (practiceScore(l.id) ?? 0) >= 60;
   bool unitPassed(Unit u) => (practiceScore(u.id) ?? 0) >= 70;
-  bool unitOpen(Course c, int i) => state.unlockAll || i == 0 || c.units[i].level <= startLevel || unitPassed(c.units[i - 1]) || c.units[i - 1].lessons.every(lessonDone);
+  /// Units open in order. Levels below the starting level are fully open; at the starting level only its
+  /// first unit opens straight away, the rest follow as the previous unit is finished or its test passed.
+  /// A unit the learner has already played in never locks again.
+  bool unitOpen(Course c, int i) {
+    if (state.unlockAll || i == 0) return true;
+    final u = c.units[i];
+    if (u.level < startLevel) return true;
+    if (u.level == startLevel && c.units[i - 1].level < startLevel) return true; // first unit of the starting level
+    return unitPassed(c.units[i - 1]) || c.units[i - 1].lessons.every(lessonDone) || u.lessons.any((l) => state.completedScenes.any(l.sceneIds.contains));
+  }
 
   /// Course level (1–5) matching the level picked at onboarding (A0–A1 … C1–C2).
   int get startLevel => levelForTier(state.startTier);

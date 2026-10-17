@@ -66,8 +66,8 @@
     {
      "keywords": [
       "veggie",
-      "asked",
       "since",
+      "asked",
       "when"
      ],
      "suggestion": "You asked for veggie? Since when?",
@@ -80,8 +80,8 @@
      "keywords": [
       "terrible",
       "that's",
-      "onion",
-      "rings"
+      "there",
+      "onion"
      ],
      "suggestion": "There are no onion rings. That's terrible!",
      "suggestionFa": "حلقهٔ پیاز نیست. افتضاحه!",
@@ -169,8 +169,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
-      "press"
+      "press",
+      "first"
      ],
      "suggestion": "Press \"wrong item\" first.",
      "suggestionFa": "اول «قلم اشتباه» را بزن.",
@@ -275,8 +275,8 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "missing",
+      "chicken",
       "veggie",
       "burger"
      ],
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "please",
-      "could",
+      "wrong",
       "order",
-      "wrong"
+      "could"
      ],
      "suggestion": "\"Hi. Our order was wrong. Could you help, please?\"",
      "suggestionFa": "«سلام. سفارش ما اشتباه بود. لطفاً کمک می‌کنید؟»",

@@ -23,9 +23,9 @@
      "keywords": [
       "learning",
       "tuesday",
-      "what's",
       "monday",
-      "days"
+      "what's",
+      "week"
      ],
      "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
      "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "wednesday",
-      "funny",
       "there",
+      "funny",
       "word",
-      "day"
+      "nes"
      ],
      "suggestion": "Wednesday is a funny word. Wed-nes-day. Why is there a \"d\"?",
      "suggestionFa": "چهارشنبه کلمهٔ بامزه‌ایه. Wed-nes-day. چرا یه «d» داره؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "thursday",
       "saturday",
+      "thursday",
       "weekend",
       "sunday",
       "friday"
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "mountains",
       "saturdays",
+      "mountains",
       "english",
       "ballet",
       "class"
@@ -192,11 +192,11 @@
    "branches": [
     {
      "keywords": [
-      "chippy",
       "friday",
-      "every",
+      "chippy",
       "daddy",
-      "from"
+      "every",
+      "says"
      ],
      "suggestion": "Yes! Every Friday from the chippy. Daddy says it's the law!",
      "suggestionFa": "آره! هر جمعه از چیپس‌فروشی. بابا می‌گه قانونه!",
@@ -218,10 +218,10 @@
     {
      "keywords": [
       "wednesday",
-      "thursday",
       "saturday",
+      "thursday",
       "tuesday",
-      "sunday"
+      "monday"
      ],
      "suggestion": "Yes, come on Friday! Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday! I did it!",
      "suggestionFa": "آره، جمعه بیا! دوشنبه، سه‌شنبه، چهارشنبه، پنجشنبه، جمعه، شنبه، یکشنبه! تونستم!",

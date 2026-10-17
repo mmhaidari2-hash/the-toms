@@ -22,7 +22,7 @@
       "looks",
       "just",
       "like",
-      "she"
+      "wow"
      ],
      "suggestion": "Wow! Yes, she looks just like him.",
      "suggestionFa": "وای! آره، دقیقاً شبیهشه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "that's",
       "small",
-      "was",
-      "tom"
+      "tom",
+      "was"
      ],
      "suggestion": "That's Tom? He was so small!",
      "suggestionFa": "این تامه؟ چقدر کوچیک بود!",
@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
-      "cute",
-      "look",
       "ears",
+      "cute",
+      "ryan",
       "like"
      ],
      "suggestion": "Her ears are cute! And who does Ryan look like?",
@@ -90,8 +90,8 @@
     },
     {
      "keywords": [
-      "that's",
       "lovely",
+      "that's",
       "smile",
       "same"
      ],
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "looks",
-      "like",
       "he's",
+      "like",
       "tom"
      ],
      "suggestion": "So he looks like you, but he's like Tom.",
@@ -201,8 +201,8 @@
      "keywords": [
       "maggie's",
       "think",
-      "nana",
-      "eyes"
+      "eyes",
+      "nana"
      ],
      "suggestion": "William has Nana Maggie's eyes, I think.",
      "suggestionFa": "فکر کنم ویلیام چشم‌های نانا مگی را داره.",
@@ -213,8 +213,8 @@
     {
      "keywords": [
       "nobody",
-      "he's",
       "like",
+      "he's",
       "just"
      ],
      "suggestion": "William is like nobody! He's just William.",
@@ -301,7 +301,7 @@
       "father",
       "thank",
       "like",
-      "say"
+      "son"
      ],
      "suggestion": "Thank you! \"Like father, like son.\" We say that too.",
      "suggestionFa": "ممنون! «پسر کو ندارد نشان از پدر.» ما هم اینو میگیم.",
@@ -354,8 +354,8 @@
      "keywords": [
       "mummy",
       "daddy",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "Nicola, who do you look like? Mummy or Daddy?",
      "suggestionFa": "نیکولا، تو شبیه کی هستی؟ مامانی یا بابایی؟",
@@ -367,8 +367,8 @@
      "keywords": [
       "looking",
       "photos",
-      "hello",
-      "we're"
+      "we're",
+      "hello"
      ],
      "suggestion": "Hello, Nicola! We're looking at old photos.",
      "suggestionFa": "سلام نیکولا! داریم عکس‌های قدیمی می‌بینیم.",
@@ -410,8 +410,8 @@
     },
     {
      "keywords": [
-      "nicola",
       "you've",
+      "nicola",
       "smile",
       "dad's"
      ],

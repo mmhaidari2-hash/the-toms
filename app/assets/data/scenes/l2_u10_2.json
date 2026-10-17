@@ -56,8 +56,8 @@
     {
      "keywords": [
       "under",
-      "five",
       "name",
+      "five",
       "tom"
      ],
      "suggestion": "Yes, under the name Tom, for five.",
@@ -70,8 +70,8 @@
      "keywords": [
       "o'clock",
       "booked",
-      "table",
-      "seven"
+      "seven",
+      "table"
      ],
      "suggestion": "We booked a table for seven o'clock.",
      "suggestionFa": "برای ساعت هفت میز رزرو کردیم.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "mistake",
+      "there's",
       "think",
       "been"
      ],
@@ -118,8 +118,8 @@
     },
     {
      "keywords": [
-      "online",
       "booked",
+      "online",
       "sure",
       "we"
      ],
@@ -160,8 +160,8 @@
     {
      "keywords": [
       "today",
-      "says",
-      "here"
+      "here",
+      "says"
      ],
      "suggestion": "Yes, here it is. It says today.",
      "suggestionFa": "بله، ایناهاش. نوشته امروز.",
@@ -219,7 +219,7 @@
       "anything",
       "little",
       "sooner",
-      "we've"
+      "there"
      ],
      "suggestion": "We've got a little girl. Is there anything sooner?",
      "suggestionFa": "یه دختر کوچولو داریم. زودتر نمیشه؟",

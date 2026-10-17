@@ -22,8 +22,8 @@
     {
      "keywords": [
       "usually",
-      "o'clock",
       "morning",
+      "o'clock",
       "seven",
       "time"
      ],
@@ -73,8 +73,8 @@
       "everything",
       "porridge",
       "william",
-      "cereal",
-      "nicola"
+      "nicola",
+      "cereal"
      ],
      "suggestion": "Tom has cereal. Nicola has porridge. And William has everything!",
      "suggestionFa": "تام غلات صبحانه می‌خوره. نیکولا فرنی. و ویلیام همه چی!",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "breakfast",
-      "please",
       "before",
       "nicola",
-      "teeth"
+      "please",
+      "after"
      ],
      "suggestion": "Hot oats with milk. Now — Nicola! Brush your teeth, please! Do you brush your teeth before or after breakfast?",
      "suggestionFa": "جو داغ با شیر. حالا — نیکولا! لطفاً مسواک بزن! قبل یا بعد از صبحونه مسواک می‌زنی؟",
@@ -120,10 +120,10 @@
    "branches": [
     {
      "keywords": [
-      "school",
       "nicola",
-      "house",
+      "school",
       "eight",
+      "house",
       "leave"
      ],
      "suggestion": "Good. I leave at eight. I walk Nicola to school. What time do you leave the house?",
@@ -148,8 +148,8 @@
       "always",
       "where",
       "lose",
-      "keys",
-      "them"
+      "them",
+      "keys"
      ],
      "suggestion": "Oh, where are my keys? I always lose my keys! Can you see them?",
      "suggestionFa": "آخ، کلیدهام کجان؟ همیشه کلیدهام را گم می‌کنم! می‌بینیشون؟",
@@ -173,8 +173,8 @@
       "found",
       "lunch",
       "thank",
-      "have",
-      "them"
+      "them",
+      "have"
      ],
      "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
      "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
@@ -198,8 +198,8 @@
       "morning",
       "what's",
       "every",
-      "star",
-      "like"
+      "like",
+      "star"
      ],
      "suggestion": "You're a star. Every morning is like this! What's your morning like?",
      "suggestionFa": "تو یه ستاره‌ای. هر صبح همین‌طوره! صبح تو چطوره؟",

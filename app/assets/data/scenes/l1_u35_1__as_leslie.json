@@ -49,8 +49,8 @@
       "remember",
       "every",
       "needs",
-      "hard",
-      "work"
+      "work",
+      "hour"
      ],
      "suggestion": "It's hard work! He needs to go every hour. And I have to remember to ask him!",
      "suggestionFa": "کار سختیه! باید هر ساعت بره. و من باید یادم باشه ازش بپرسم!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -132,7 +132,7 @@
       "potty's",
       "quick",
       "loves",
-      "says"
+      "them"
      ],
      "suggestion": "He loves them. Now, if he says \"wee\", we have to be quick! The potty's in the bathroom.",
      "suggestionFa": "عاشقشونه. حالا اگه گفت «جیش»، باید سریع باشیم! لگن تو حمومه.",
@@ -205,9 +205,9 @@
     {
      "keywords": [
       "hands",
+      "need",
       "wash",
       "phew",
-      "need",
       "our"
      ],
      "suggestion": "Go, go, go! … Phew, he did it! Now we need to wash our hands.",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "stickers",
-      "sticker",
       "natural",
+      "sticker",
       "chart",
       "five"
      ],

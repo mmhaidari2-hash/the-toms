@@ -85,9 +85,9 @@
     },
     {
      "keywords": [
-      "always",
-      "should",
       "little",
+      "should",
+      "always",
       "carry"
      ],
      "suggestion": "So I should always carry a little cash.",
@@ -145,8 +145,8 @@
      "keywords": [
       "ninety",
       "just",
-      "cash",
-      "nine"
+      "nine",
+      "cash"
      ],
      "suggestion": "One ninety-nine just to get cash?",
      "suggestionFa": "یک و نود و نه فقط برای گرفتن پول؟",
@@ -198,7 +198,7 @@
       "coffee",
       "let's",
       "there",
-      "then"
+      "card"
      ],
      "suggestion": "OK. Then let's get a coffee. Can I pay by card there?",
      "suggestionFa": "باشه. بعد بریم قهوه بگیریم. اونجا می‌تونم با کارت بدم؟",
@@ -209,9 +209,9 @@
     {
      "keywords": [
       "cashpoints",
-      "free",
+      "bank",
       "good",
-      "bank"
+      "free"
      ],
      "suggestion": "Good tip. Bank cashpoints are free.",
      "suggestionFa": "نکتهٔ خوبیه. خودپردازهای بانک رایگانن.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "taking",
-      "long",
       "need",
-      "help"
+      "help",
+      "time"
      ],
      "suggestion": "Do you need help? You're taking a long time!",
      "suggestionFa": "کمک لازم داری؟ خیلی طولش دادی!",
@@ -314,10 +314,10 @@
     },
     {
      "keywords": [
-      "market",
       "thirty",
-      "take",
-      "i'll"
+      "market",
+      "i'll",
+      "take"
      ],
      "suggestion": "I'll take thirty for the market.",
      "suggestionFa": "من سی تا برای بازار می‌گیرم.",

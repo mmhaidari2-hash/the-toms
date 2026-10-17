@@ -82,9 +82,9 @@
     },
     {
      "keywords": [
+      "space",
       "class",
-      "there",
-      "space"
+      "there"
      ],
      "suggestion": "Is there space in the class?",
      "suggestionFa": "تو کلاس جا هست؟",
@@ -141,8 +141,8 @@
      "keywords": [
       "people",
       "won't",
-      "get",
-      "six"
+      "six",
+      "get"
      ],
      "suggestion": "Six people? We won't get in.",
      "suggestionFa": "شش نفر؟ جا گیرمون نمیاد.",
@@ -258,8 +258,8 @@
     },
     {
      "keywords": [
-      "boxing",
       "rather",
+      "boxing",
       "i'd"
      ],
      "suggestion": "I'd rather do boxing too.",
@@ -299,8 +299,8 @@
     {
      "keywords": [
       "dinner",
-      "big",
-      "why"
+      "why",
+      "big"
      ],
      "suggestion": "Why no big dinner?",
      "suggestionFa": "چرا شام سنگین نه؟",
@@ -313,7 +313,7 @@
       "thursday",
       "can't",
       "come",
-      "if"
+      "we"
      ],
      "suggestion": "What if we can't come on Thursday?",
      "suggestionFa": "اگه پنج‌شنبه نتونستیم بیایم چی؟",

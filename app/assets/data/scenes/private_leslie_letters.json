@@ -120,10 +120,10 @@
    "branches": [
     {
      "keywords": [
-      "without",
       "imagine",
-      "phone",
-      "can't"
+      "without",
+      "can't",
+      "phone"
      ],
      "suggestion": "I can't imagine life without a phone!",
      "suggestionFa": "زندگی بدون گوشی را تصور هم نمی‌تونم!",
@@ -136,7 +136,7 @@
       "romantic",
       "letters",
       "though",
-      "feel"
+      "more"
      ],
      "suggestion": "Letters feel more romantic, though.",
      "suggestionFa": "ولی نامه‌ها رمانتیک‌ترن.",
@@ -240,7 +240,7 @@
       "that's",
       "maybe",
       "fell",
-      "him"
+      "why"
      ],
      "suggestion": "Maybe that's why you fell for him!",
      "suggestionFa": "شاید برای همین عاشقش شدی!",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "britain",
+      "more",
       "true",
-      "than",
       "love"
      ],
      "suggestion": "\"More than tea\" — that's true love in Britain!",
@@ -328,8 +328,8 @@
      "keywords": [
       "letters",
       "voice",
-      "notes",
-      "every"
+      "every",
+      "notes"
      ],
      "suggestion": "Not letters, but I send voice notes to my mum every day.",
      "suggestionFa": "نامه نه، ولی هر روز به مامانم پیام صوتی می‌فرستم.",
@@ -374,8 +374,8 @@
     {
      "keywords": [
       "sharing",
-      "these",
       "thank",
+      "these",
       "will"
      ],
      "suggestion": "I will. Thank you for sharing these with me.",
@@ -386,8 +386,8 @@
     },
     {
      "keywords": [
-      "memories",
       "precious",
+      "memories",
       "right"
      ],
      "suggestion": "You're right. Memories are precious.",

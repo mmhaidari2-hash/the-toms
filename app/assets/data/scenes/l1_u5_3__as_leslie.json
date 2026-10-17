@@ -24,8 +24,8 @@
       "william",
       "please",
       "towel",
-      "pass",
-      "bath"
+      "time",
+      "pass"
      ],
      "suggestion": "Bath time, William! Oh, can you help me? Pass me the towel, please.",
      "suggestionFa": "وقت حمومه، ویلیام! آه، کمکم می‌کنی؟ لطفاً حوله را بده.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -102,8 +102,8 @@
       "morning",
       "shower",
       "loves",
-      "duck",
-      "have"
+      "have",
+      "bath"
      ],
      "suggestion": "He loves that duck. Do you have a bath or a shower in the morning?",
      "suggestionFa": "عاشق اون اردکه. تو صبح‌ها وان می‌گیری یا دوش؟",
@@ -213,10 +213,10 @@
     {
      "keywords": [
       "shampoo",
-      "that's",
       "better",
-      "next",
-      "soap"
+      "that's",
+      "soap",
+      "next"
      ],
      "suggestion": "That's better. Can you pass the shampoo? It's next to the soap.",
      "suggestionFa": "بهتر شد. شامپو را می‌دی؟ کنار صابونه.",
@@ -239,9 +239,9 @@
      "keywords": [
       "william",
       "closed",
-      "night",
       "every",
-      "good"
+      "night",
+      "eyes"
      ],
      "suggestion": "Eyes closed, William! Good boy. Does he do this every night? Yes, every night!",
      "suggestionFa": "چشم‌ها بسته، ویلیام! آفرین پسر خوب. هر شب این کار را می‌کنه؟ آره، هر شب!",

@@ -37,6 +37,20 @@ String lessonWhere(Course c, Lesson l) {
 }
 
 /// Round icon + label on the map.
+/// The spot's painted icon (a crop of its own painting, tool/make_spot_icons.py); emoji only as a fallback.
+class SpotIcon extends StatelessWidget {
+  final MapSpot s;
+  final double size;
+  final bool dim;
+  const SpotIcon(this.s, {super.key, this.size = 36, this.dim = false});
+  @override
+  Widget build(BuildContext context) {
+    Widget img = Image.asset('assets/spots/${s.id}.webp', width: size, height: size, fit: BoxFit.cover, errorBuilder: (_, _, _) => SizedBox(width: size, height: size, child: Center(child: Text(s.icon, style: TextStyle(fontSize: size * .55)))));
+    if (dim) img = ColorFiltered(colorFilter: const ColorFilter.matrix([.33, .33, .33, 0, 0, .33, .33, .33, 0, 0, .33, .33, .33, 0, 0, 0, 0, 0, .75, 0]), child: img);
+    return ClipOval(child: img);
+  }
+}
+
 class SpotMarker extends StatelessWidget {
   final MapSpot s;
   final bool open;
@@ -61,7 +75,7 @@ class SpotMarker extends StatelessWidget {
             boxShadow: BL.shadow(.35),
           ),
           child: Stack(clipBehavior: Clip.none, children: [
-            Text(s.icon, style: const TextStyle(fontSize: 20)),
+            SpotIcon(s, size: 36, dim: !open),
             if (!open) const Positioned(right: -8, bottom: -6, child: Icon(Icons.lock_rounded, size: 13, color: Colors.white70)),
           ]),
         ),
@@ -105,7 +119,10 @@ Future<void> showSpotSheet(BuildContext context, WidgetRef ref, MapSpot s, Conte
         padding: EdgeInsets.fromLTRB(18, 0, 18, MediaQuery.paddingOf(context).bottom + 18),
         children: [
           Row(children: [
-            Text(s.icon, style: const TextStyle(fontSize: 34)),
+            Container(
+              decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: BL.gold, width: 2), boxShadow: BL.shadow(.25)),
+              child: SpotIcon(s, size: 52),
+            ),
             const SizedBox(width: 12),
             Expanded(
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

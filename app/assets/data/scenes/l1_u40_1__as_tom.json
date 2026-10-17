@@ -24,8 +24,8 @@
       "breakfast",
       "scrambled",
       "leslie's",
-      "making",
-      "having"
+      "having",
+      "making"
      ],
      "suggestion": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
      "suggestionFa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "family",
+      "crack",
       "eight",
       "first",
-      "crack",
       "eggs"
      ],
      "suggestion": "First, crack the eggs into the bowl. Eight eggs. Big family!",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "pepper",
+      "some",
       "fine",
       "salt",
-      "some",
       "milk"
      ],
      "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "medium",
       "butter",
+      "medium",
       "pinch",
-      "heat",
-      "high"
+      "high",
+      "heat"
      ],
      "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
      "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
@@ -149,8 +149,8 @@
       "stirring",
       "slowly",
       "don't",
-      "stop",
-      "stir"
+      "them",
+      "stop"
      ],
      "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
      "suggestionFa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!",
@@ -173,9 +173,9 @@
      "keywords": [
       "cooking",
       "they're",
-      "toast",
+      "still",
       "ready",
-      "still"
+      "toast"
      ],
      "suggestion": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
      "suggestionFa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "breakfast",
       "perfect",
-      "leslie",
       "served",
+      "leslie",
       "chefs"
      ],
      "suggestion": "Perfect! Breakfast is served. Leslie, wake up! The chefs have been busy!",

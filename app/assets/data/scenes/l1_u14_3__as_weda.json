@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "ready",
-      "check",
       "water",
+      "check",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "bubble",
-      "little",
       "nicola",
+      "that's",
+      "little",
       "just"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -120,10 +120,10 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "william",
-      "there",
+      "where's",
       "can't",
+      "there",
       "see"
      ],
      "suggestion": "Ha! I can't see William. Where's William? There he is!",
@@ -145,10 +145,10 @@
    "branches": [
     {
      "keywords": [
-      "yellow",
       "rubber",
-      "duck",
+      "yellow",
       "pass",
+      "duck",
       "can"
      ],
      "suggestion": "Can you pass me the duck? The yellow rubber duck.",
@@ -225,7 +225,7 @@
       "floor",
       "dear",
       "wet",
-      "get"
+      "can"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
      "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "wash",
-      "hair"
+      "eyes",
+      "like"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -271,8 +271,8 @@
    "branches": [
     {
      "keywords": [
-      "clever",
       "little",
+      "clever",
       "isn't",
       "clean",
       "come"

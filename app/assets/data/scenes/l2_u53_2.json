@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "tapped",
       "didn't",
+      "tapped",
       "card",
       "work"
      ],
@@ -72,10 +72,10 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twelve",
+      "pounds",
       "shop",
-      "was"
+      "big"
      ],
      "suggestion": "It was a big shop. A hundred and twelve pounds.",
      "suggestionFa": "خرید بزرگی بود. صد و دوازده پوند.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "ask",
-      "pin",
-      "why"
+      "why",
+      "pin"
      ],
      "suggestion": "Why does it ask for the PIN?",
      "suggestionFa": "چرا رمز می‌خواد؟",
@@ -212,7 +212,7 @@
      "keywords": [
       "different",
       "didn't",
-      "iran",
+      "bank",
       "know"
      ],
      "suggestion": "I didn't know that. My bank in Iran is different.",
@@ -255,8 +255,8 @@
    "branches": [
     {
      "keywords": [
-      "someone",
       "thought",
+      "someone",
       "stolen",
       "money"
      ],
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "little",
-      "sense",
       "makes",
+      "sense",
       "test"
      ],
      "suggestion": "A little test. That makes sense.",
@@ -313,8 +313,8 @@
    "branches": [
     {
      "keywords": [
-      "freeze",
       "button",
+      "freeze",
       "got"
      ],
      "suggestion": "Freeze it. This button. Got it.",
@@ -382,8 +382,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "insert",
+      "thanks",
       "done",
       "pin"
      ],

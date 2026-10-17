@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
+      "can",
       "bus",
       "top",
-      "can",
       "up"
      ],
      "suggestion": "Can I top up on the bus?",
@@ -120,7 +120,7 @@
       "thanks",
       "should",
       "much",
-      "put"
+      "tom"
      ],
      "suggestion": "Thanks, Tom. How much should I put on?",
      "suggestionFa": "ممنون تام. چقدر بریزم روش؟",
@@ -280,9 +280,9 @@
    "branches": [
     {
      "keywords": [
+      "please",
       "twenty",
       "pounds",
-      "please",
       "hello"
      ],
      "suggestion": "Hello. Twenty pounds on this card, please.",
@@ -293,10 +293,10 @@
     },
     {
      "keywords": [
-      "pay",
       "can",
-      "by",
-      "hi"
+      "pay",
+      "hi",
+      "by"
      ],
      "suggestion": "Hi. Can I pay by card?",
      "suggestionFa": "سلام. می‌تونم با کارت پرداخت کنم؟",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "quarter",
-      "coming",
       "nicola",
       "thanks",
-      "doors"
+      "coming",
+      "three"
      ],
      "suggestion": "Thanks for coming to pick Nicola up with me. The doors open at quarter past three.",
      "suggestionFa": "ممنون که باهام اومدی دنبال نیکولا. درها سه و ربع باز میشن.",
@@ -73,9 +73,9 @@
      "keywords": [
       "sweetheart",
       "hello",
-      "day",
+      "was",
       "how",
-      "was"
+      "day"
      ],
      "suggestion": "Hello, sweetheart! How was your day?",
      "suggestionFa": "سلام عزیزم! روزت چطور بود؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -235,8 +235,8 @@
       "minutes",
       "twenty",
       "bring",
-      "book",
-      "home"
+      "only",
+      "book"
      ],
      "suggestion": "Only for twenty minutes. Did you bring your book bag home?",
      "suggestionFa": "فقط بیست دقیقه. کیف کتابت را آوردی؟",
@@ -261,7 +261,7 @@
       "twenty",
       "right",
       "park",
-      "home"
+      "then"
      ],
      "suggestion": "Phew. Right, twenty minutes at the park, then home for tea and a bath. Off we go!",
      "suggestionFa": "آخیش. خب، بیست دقیقه پارک، بعد خونه برای شام و حموم. بریم!",

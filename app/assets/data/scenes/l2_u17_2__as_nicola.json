@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "friday",
       "having",
+      "friday",
       "chips",
       "fish",
       "tea"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "haddock",
-      "chippy",
       "friday",
-      "every",
-      "daddy"
+      "chippy",
+      "daddy",
+      "every"
      ],
      "suggestion": "Every Friday! Daddy gets it from the chippy. I have cod. Do you want cod or haddock?",
      "suggestionFa": "هر جمعه! بابا از ماهی‌فروشی می‌گیره. من کاد می‌خورم. تو کاد می‌خوای یا هادوک؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "haddock",
       "tastier",
       "they're",
-      "mushy",
-      "don't"
+      "haddock",
+      "daddy",
+      "mushy"
      ],
      "suggestion": "I don't know! They're both fish. Daddy says haddock is tastier. Do you want mushy peas?",
      "suggestionFa": "نمی‌دونم! هر دوشون ماهی‌ان. بابا میگه هادوک خوشمزه‌تره. نخود له شده می‌خوای؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "vinegar",
       "squishy",
-      "green",
-      "don't",
-      "weird"
+      "weird",
+      "loves",
+      "green"
      ],
      "suggestion": "Green and squishy! I don't like them. Ryan loves them. He's weird. Salt and vinegar on your chips?",
      "suggestionFa": "سبز و له! من دوستشون ندارم. رایان عاشقشونه. عجیبه. نمک و سرکه روی سیب‌زمینیت؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "vinegar",
       "really",
-      "mouth",
       "yummy",
+      "mouth",
       "here"
      ],
      "suggestion": "Really! It's yummy. Try one with vinegar. Here! Open your mouth!",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "everything",
-      "ketchup",
-      "william",
       "bananas",
+      "william",
+      "ketchup",
       "puts"
      ],
      "suggestion": "See! Now ketchup. Ketchup is the best. William puts ketchup on EVERYTHING. Even bananas!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "ketchup",
       "vinegar",
-      "funny",
+      "ketchup",
       "makes",
+      "funny",
       "chips"
      ],
      "suggestion": "Ketchup! Vinegar makes my nose funny. Do you have chips in Iran?",
@@ -198,8 +198,8 @@
      "keywords": [
       "amazing",
       "that's",
-      "please",
       "friday",
+      "please",
       "daddy"
      ],
      "suggestion": "Chips with RICE? That's amazing! Daddy, can we have chips with rice next Friday? Please, please, please!",

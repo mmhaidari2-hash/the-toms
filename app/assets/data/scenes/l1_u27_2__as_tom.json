@@ -47,8 +47,8 @@
     {
      "keywords": [
       "problem",
-      "bother",
       "what's",
+      "bother",
       "all"
      ],
      "suggestion": "No bother at all! What's the problem?",
@@ -72,8 +72,8 @@
      "keywords": [
       "disaster",
       "without",
-      "that's",
       "course",
+      "that's",
       "much"
      ],
      "suggestion": "Of course! Tea without milk — that's a disaster! How much do you need?",
@@ -97,9 +97,9 @@
      "keywords": [
       "leslie",
       "bottle",
-      "we've",
       "three",
-      "whole"
+      "whole",
+      "we've"
      ],
      "suggestion": "Take the whole bottle. We've got three. Leslie buys too much!",
      "suggestionFa": "کل بطری را ببر. سه تا داریم. لزلی زیادی می‌خره!",
@@ -147,9 +147,9 @@
      "keywords": [
       "didn't",
       "until",
-      "good",
       "shop",
-      "open"
+      "open",
+      "good"
      ],
      "suggestion": "Good. Why didn't you go to the shop? It's open until ten.",
      "suggestionFa": "خوبه. چرا نرفتی مغازه؟ تا ده بازه.",
@@ -199,7 +199,7 @@
       "sometime",
       "biscuit",
       "that's",
-      "bring"
+      "don't"
      ],
      "suggestion": "Don't be silly! That's what neighbours are for. You can bring me a biscuit sometime!",
      "suggestionFa": "مسخره نشو! همسایه برای همینه. یه وقتی یه بیسکویت برام بیار!",
@@ -221,9 +221,9 @@
     {
      "keywords": [
       "khan's",
+      "close",
       "enjoy",
       "cuppa",
-      "close",
       "mate"
      ],
      "suggestion": "Any time, mate. Enjoy your cuppa! And close the gate — Mrs Khan's cat gets out!",

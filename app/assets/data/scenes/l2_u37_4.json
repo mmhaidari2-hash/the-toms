@@ -20,8 +20,8 @@
     {
      "keywords": [
       "missed",
-      "did",
       "say",
+      "did",
       "she"
      ],
      "suggestion": "No, I missed it. What did she say?",
@@ -87,7 +87,7 @@
       "fourteen",
       "october",
       "that's",
-      "highs"
+      "quite"
      ],
      "suggestion": "Highs of fourteen. That's quite warm for October.",
      "suggestionFa": "حداکثر چهارده. برای اکتبر نسبتاً گرمه.",
@@ -128,7 +128,7 @@
       "seventy",
       "chance",
       "check",
-      "cent"
+      "says"
      ],
      "suggestion": "Let me check my app. It says a seventy per cent chance of rain.",
      "suggestionFa": "بذار اپم را ببینم. میگه هفتاد درصد احتمال بارون.",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "weather",
-      "words",
       "other",
-      "there"
+      "there",
+      "words"
      ],
      "suggestion": "What other weather words are there?",
      "suggestionFa": "دیگه چه کلمه‌های هواشناسی هست؟",
@@ -192,8 +192,8 @@
      "keywords": [
       "showers",
       "write",
-      "them",
-      "i'll"
+      "i'll",
+      "down"
      ],
      "suggestion": "Drizzle, showers, downpour. I'll write them down.",
      "suggestionFa": "دریزل، شاورز، داون‌پور. یادداشتشون می‌کنم.",
@@ -251,8 +251,8 @@
      "keywords": [
       "evening",
       "going",
-      "clear",
-      "it'll"
+      "it'll",
+      "clear"
      ],
      "suggestion": "It'll clear up by the evening. Good — I'm going to the park.",
      "suggestionFa": "تا عصر صاف میشه. خوبه — دارم میرم پارک.",
@@ -265,7 +265,7 @@
       "seasons",
       "again",
       "frost",
-      "then"
+      "four"
      ],
      "suggestion": "Rain, then sun, then frost. Four seasons again!",
      "suggestionFa": "بارون، بعد آفتاب، بعد یخ. باز چهار فصل!",
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "london",
-      "snow",
       "love",
-      "see"
+      "snow",
+      "i'd"
      ],
      "suggestion": "I'd love to see snow in London.",
      "suggestionFa": "خیلی دوست دارم برف لندن را ببینم.",
@@ -406,8 +406,8 @@
     {
      "keywords": [
       "doris",
-      "stay",
       "here",
+      "stay",
       "dry"
      ],
      "suggestion": "Here you are. Stay dry, Doris!",
@@ -421,7 +421,7 @@
       "drizzle",
       "right",
       "knee",
-      "was"
+      "now"
      ],
      "suggestion": "It's drizzle now. Your knee was right!",
      "suggestionFa": "الان نم‌نمه. زانوتون درست گفت!",

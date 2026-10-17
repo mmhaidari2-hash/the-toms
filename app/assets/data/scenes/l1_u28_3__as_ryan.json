@@ -23,9 +23,9 @@
      "keywords": [
       "phone's",
       "ringing",
-      "answer",
-      "scared",
-      "school"
+      "number",
+      "school",
+      "answer"
      ],
      "suggestion": "My phone's ringing, but I don't know this number. Can you answer it? I'm scared it's school!",
      "suggestionFa": "گوشیم داره زنگ می‌زنه، ولی این شماره را نمی‌شناسم. جواب میدی؟ می‌ترسم مدرسه باشه!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -154,8 +154,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -256,8 +256,8 @@
      "keywords": [
       "school",
       "phew",
-      "who",
-      "was"
+      "was",
+      "who"
      ],
      "suggestion": "Who was it? Not school? Phew!",
      "suggestionFa": "کی بود؟ مدرسه نبود؟ وای خدا را شکر!",
@@ -279,10 +279,10 @@
     {
      "keywords": [
       "patterson",
-      "parcel",
-      "scared",
       "school",
-      "lucky"
+      "scared",
+      "parcel",
+      "calls"
      ],
      "suggestion": "Ha! Mrs Patterson. Lucky her, a parcel. Why are you scared of school calls? I'm not!",
      "suggestionFa": "ها! خانم پترسون. خوش به حالش، بسته. چرا از تماس مدرسه می‌ترسی؟ من که نمی‌ترسم!",
@@ -303,11 +303,11 @@
    "branches": [
     {
      "keywords": [
-      "forgot",
-      "answer",
       "school",
-      "again",
-      "don't"
+      "answer",
+      "forgot",
+      "don't",
+      "again"
      ],
      "suggestion": "Me? Never! Well… I forgot my PE kit. Again. Just don't answer if it's school, OK?",
      "suggestionFa": "من؟ هرگز! خب… لباس ورزشم را یادم رفت. دوباره. فقط اگه مدرسه بود جواب نده، باشه؟",

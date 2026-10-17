@@ -21,8 +21,8 @@
      "keywords": [
       "tooth",
       "water",
-      "drink",
-      "hurts"
+      "hurts",
+      "drink"
      ],
      "suggestion": "Yes. This tooth hurts when I drink cold water.",
      "suggestionFa": "آره. این دندون وقتی آب سرد می‌خورم درد می‌گیره.",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "started",
-      "sharp",
       "month",
+      "sharp",
       "last"
      ],
      "suggestion": "It started last month. It's sharp!",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "always",
-      "really"
+      "really",
+      "always"
      ],
      "suggestion": "Really? I always rinse!",
      "suggestionFa": "واقعاً؟ من همیشه آب می‌کشم!",
@@ -203,8 +203,8 @@
      "keywords": [
       "remember",
       "don't",
-      "spit",
-      "i'll"
+      "i'll",
+      "spit"
      ],
      "suggestion": "Spit, don't rinse. I'll remember.",
      "suggestionFa": "تف کن، آب نکش. یادم می‌مونه.",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "thank",
-      "come",
       "when",
+      "come",
       "can"
      ],
      "suggestion": "Thank you. When can I come?",
@@ -355,8 +355,8 @@
     {
      "keywords": [
       "filling",
-      "hurt",
-      "will"
+      "will",
+      "hurt"
      ],
      "suggestion": "Will the filling hurt?",
      "suggestionFa": "پرکردن درد داره؟",

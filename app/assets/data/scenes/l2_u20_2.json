@@ -34,7 +34,7 @@
       "there's",
       "screen",
       "check",
-      "here"
+      "self"
      ],
      "suggestion": "There's a screen here. \"Self check-in\".",
      "suggestionFa": "اینجا یه صفحه هست. «پذیرش خودکار».",
@@ -69,8 +69,8 @@
     {
      "keywords": [
       "george",
-      "don't",
       "worry",
+      "don't",
       "i'll"
      ],
      "suggestion": "Don't worry, George. I'll do it for you.",
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "birth",
-      "date",
       "easy",
+      "date",
       "look"
      ],
      "suggestion": "It's easy. Look — your date of birth.",
@@ -120,8 +120,8 @@
      "keywords": [
       "please",
       "take",
-      "area",
-      "seat"
+      "says",
+      "area"
      ],
      "suggestion": "It says \"Please take a seat in Area C\".",
      "suggestionFa": "نوشته «لطفاً در بخش C بنشینید».",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "walk",
-      "far",
-      "can"
+      "can",
+      "far"
      ],
      "suggestion": "Can George walk that far?",
      "suggestionFa": "جورج می‌تونه تا اونجا راه بره؟",
@@ -324,10 +324,10 @@
     },
     {
      "keywords": [
-      "george",
       "before",
-      "blood",
-      "can't"
+      "george",
+      "can't",
+      "blood"
      ],
      "suggestion": "You can't eat before the blood test, George!",
      "suggestionFa": "قبل از آزمایش خون نمی‌تونی بخوری جورج!",
@@ -362,9 +362,9 @@
     {
      "keywords": [
       "sugars",
-      "soon",
       "back",
-      "milk"
+      "milk",
+      "soon"
      ],
      "suggestion": "One tea, milk and two sugars. Back soon!",
      "suggestionFa": "یه چای، با شیر و دو تا قند. زود برمی‌گردم!",
@@ -375,8 +375,8 @@
     {
      "keywords": [
       "george",
-      "sorry",
-      "rules"
+      "rules",
+      "sorry"
      ],
      "suggestion": "Sorry, George. Rules are rules!",
      "suggestionFa": "ببخشید جورج. قانون قانونه!",

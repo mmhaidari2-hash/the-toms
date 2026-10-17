@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "eggs",
       "need",
+      "eggs",
       "many",
       "how"
      ],
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "twelve",
+      "family",
       "let's",
       "eats"
      ],
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
-      "pints",
       "green",
-      "then",
-      "four"
+      "pints",
+      "four",
+      "then"
      ],
      "suggestion": "Green top, then. Four pints?",
      "suggestionFa": "پس درِ سبز. چهار پینت؟",
@@ -374,9 +374,9 @@
     {
      "keywords": [
       "what's",
+      "ryan",
       "wait",
-      "hand",
-      "ryan"
+      "hand"
      ],
      "suggestion": "Wait, Ryan. What's in your hand?",
      "suggestionFa": "صبر کن رایان. تو دستت چیه؟",
@@ -423,8 +423,8 @@
     },
     {
      "keywords": [
-      "back",
       "ryan",
+      "back",
       "way",
       "put"
      ],

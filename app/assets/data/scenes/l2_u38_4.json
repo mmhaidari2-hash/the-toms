@@ -33,9 +33,9 @@
     {
      "keywords": [
       "painted",
-      "first",
       "fence",
-      "never"
+      "never",
+      "first"
      ],
      "suggestion": "I've never painted a fence. What do I do first?",
      "suggestionFa": "تا حالا نرده رنگ نکردم. اول چی کار کنم؟",
@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
-      "first",
-      "sheet",
       "brush",
+      "sheet",
+      "first",
       "then"
      ],
      "suggestion": "OK. Brush first, then the sheet.",
@@ -150,8 +150,8 @@
      "keywords": [
       "stirring",
       "thick",
-      "ok",
-      "ha"
+      "ha",
+      "ok"
      ],
      "suggestion": "Ha! OK, I'm stirring. It's very thick.",
      "suggestionFa": "ها! باشه، دارم هم می‌زنم. خیلی غلیظه.",
@@ -213,9 +213,9 @@
     {
      "keywords": [
       "dripped",
+      "oops",
       "shoe",
-      "late",
-      "oops"
+      "late"
      ],
      "suggestion": "Oops. Too late. I dripped on my shoe.",
      "suggestionFa": "اوه. دیر شد. رو کفشم چکه کرد.",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "twice",
+      "fence",
       "whole",
-      "coats",
-      "fence"
+      "coats"
      ],
      "suggestion": "Two coats? The whole fence twice?",
      "suggestionFa": "دو لایه؟ کل نرده را دو بار؟",
@@ -276,8 +276,8 @@
      "keywords": [
       "hours",
       "until",
-      "then",
-      "four"
+      "four",
+      "then"
      ],
      "suggestion": "Four hours? What do we do until then?",
      "suggestionFa": "چهار ساعت؟ تا اون موقع چی کار کنیم؟",
@@ -422,8 +422,8 @@
    "branches": [
     {
      "keywords": [
-      "hands",
       "green",
+      "hands",
       "late",
       "his"
      ],

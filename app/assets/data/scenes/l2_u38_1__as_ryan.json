@@ -22,9 +22,9 @@
     {
      "keywords": [
       "takes",
-      "split",
       "he'll",
-      "wash",
+      "split",
+      "ages",
       "want"
      ],
      "suggestion": "Dad says he'll pay me ten quid to wash the car. Ten quid! It takes ages. Want to help? We split it.",
@@ -49,8 +49,8 @@
       "sponges",
       "bucket",
       "water",
-      "dad's",
-      "he'll"
+      "he'll",
+      "tight"
      ],
      "suggestion": "Ha, he'll say no. Dad's tight. OK, I've got the bucket and the sponges. Can you fill the bucket with warm water? Add the soap.",
      "suggestionFa": "ها، میگه نه. بابا خسیسه. باشه، سطل و اسفنج‌ها را دارم. میشه سطل را با آب گرم پر کنی؟ صابون هم بریز.",
@@ -100,7 +100,7 @@
       "they're",
       "windows",
       "wheels",
-      "dirty"
+      "start"
      ],
      "suggestion": "Start at the top — roof first, then the windows, then the sides. Dirty water runs down. I'll do the wheels. They're disgusting.",
      "suggestionFa": "از بالا شروع کن — اول سقف، بعد شیشه‌ها، بعد بغل‌ها. آب کثیف میره پایین. من چرخ‌ها را می‌شورم. حال‌به‌هم‌زنن.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "finished",
-      "there's",
       "hallway",
       "william",
+      "there's",
       "you've"
      ],
      "suggestion": "There's a step in the hallway. William uses it for the sink. Right — have you finished the roof? Oi! You've missed a bit!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "careful",
+      "there's",
       "always",
       "rinse",
       "every"
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "getting",
+      "where's",
+      "soaked",
       "that's",
-      "bucket",
-      "soaked"
+      "bucket"
      ],
      "suggestion": "I'm soaked! Right. That's war. Where's the other bucket? You're getting it now!",
      "suggestionFa": "خیس آب شدم! خب. جنگه. سطل دیگه کجاست؟ الان نوبت توئه!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -261,7 +261,7 @@
       "really",
       "worked",
       "clean",
-      "look"
+      "well"
      ],
      "suggestion": "It's clean, Dad, look! Well, mostly. So… ten quid each? We both worked really hard.",
      "suggestionFa": "تمیزه بابا، ببین! خب، بیشترش. پس… هر کدوم ده پوند؟ هر دومون خیلی زحمت کشیدیم.",

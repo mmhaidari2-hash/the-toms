@@ -31,8 +31,8 @@
     {
      "keywords": [
       "brighton",
-      "didn't",
       "worked",
+      "didn't",
       "hello"
      ],
      "suggestion": "Hello! I didn't know you worked in Brighton.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "that's",
-      "ready",
       "right",
+      "ready",
       "room"
      ],
      "suggestion": "That's right. Is the room ready?",
@@ -195,7 +195,7 @@
       "where",
       "park",
       "can",
-      "oh"
+      "we"
      ],
      "suggestion": "Oh no. Where can we park?",
      "suggestionFa": "وای نه. کجا می‌تونیم پارک کنیم؟",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "permit",
-      "won't",
       "happy",
+      "won't",
       "only"
      ],
      "suggestion": "Permit only? Tom won't be happy!",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "thank",
-      "take",
       "i'll",
-      "now"
+      "take",
+      "him"
      ],
      "suggestion": "Thank you. I'll take it to him now.",
      "suggestionFa": "ممنون. الان براش می‌برمش.",
@@ -315,8 +315,8 @@
      "keywords": [
       "there",
       "room",
-      "wi",
-      "fi"
+      "fi",
+      "wi"
      ],
      "suggestion": "Is there Wi-Fi in the room?",
      "suggestionFa": "تو اتاق وای‌فای هست؟",
@@ -359,9 +359,9 @@
     {
      "keywords": [
       "eleven",
-      "late",
+      "back",
       "come",
-      "back"
+      "late"
      ],
      "suggestion": "Eleven? What if we come back late?",
      "suggestionFa": "یازده؟ اگه دیر برگشتیم چی؟",

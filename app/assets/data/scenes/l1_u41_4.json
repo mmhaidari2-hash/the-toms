@@ -121,8 +121,8 @@
     },
     {
      "keywords": [
-      "rest",
-      "need"
+      "need",
+      "rest"
      ],
      "suggestion": "You need to rest.",
      "suggestionFa": "باید استراحت کنید.",
@@ -171,8 +171,8 @@
     {
      "keywords": [
       "bins",
-      "put",
-      "out"
+      "out",
+      "put"
      ],
      "suggestion": "I can put your bins out.",
      "suggestionFa": "می‌تونم سطل‌هاتون را بذارم بیرون.",
@@ -215,8 +215,8 @@
      "keywords": [
       "tomorrow",
       "bring",
-      "i'll",
-      "milk"
+      "milk",
+      "i'll"
      ],
      "suggestion": "I'll bring milk tomorrow.",
      "suggestionFa": "فردا شیر میارم.",
@@ -257,8 +257,8 @@
    "branches": [
     {
      "keywords": [
-      "khan",
       "luck",
+      "khan",
       "good",
       "mrs"
      ],
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "better",
-      "soon",
       "feel",
+      "soon",
       "hope"
      ],
      "suggestion": "I hope you feel better soon.",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "well",
-      "soon",
       "will",
+      "soon",
       "get"
      ],
      "suggestion": "We will! Get well soon!",
@@ -320,9 +320,9 @@
     },
     {
      "keywords": [
-      "back",
       "take",
-      "care"
+      "care",
+      "back"
      ],
      "suggestion": "Take care of your back.",
      "suggestionFa": "مراقب کمرتون باشید.",

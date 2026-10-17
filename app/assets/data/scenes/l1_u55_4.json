@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "driving",
       "weather",
+      "driving",
       "left",
       "food"
      ],
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "everything",
-      "shops",
       "money",
+      "shops",
       "buses"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "wrong",
+      "first",
       "took",
       "day"
      ],
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "anyone",
+      "didn't",
       "tell"
      ],
      "suggestion": "No! I didn't tell anyone.",
@@ -304,8 +304,8 @@
      "keywords": [
       "everyone",
       "queues",
-      "even",
-      "stop"
+      "stop",
+      "even"
      ],
      "suggestion": "Everyone queues. Even at the bus stop!",
      "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",
@@ -359,7 +359,7 @@
       "drawing",
       "nicola",
       "gave",
-      "was"
+      "cat"
      ],
      "suggestion": "Nicola gave me a drawing. It was a cat!",
      "suggestionFa": "نیکولا یه نقاشی بهم داد. یه گربه بود!",

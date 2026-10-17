@@ -20,8 +20,8 @@
     {
      "keywords": [
       "everyone",
-      "please",
       "circle",
+      "please",
       "sure"
      ],
      "suggestion": "Sure. Everyone, sit in a circle, please.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "hello",
       "don't",
-      "know",
-      "song"
+      "hello",
+      "song",
+      "know"
      ],
      "suggestion": "I don't know the hello song yet.",
      "suggestionFa": "هنوز آهنگ سلام را بلد نیستم.",
@@ -136,8 +136,8 @@
     },
     {
      "keywords": [
-      "done",
       "well",
+      "done",
       "cold"
      ],
      "suggestion": "Well done! Rainy and cold.",
@@ -217,9 +217,9 @@
     {
      "keywords": [
       "after",
-      "daddy",
       "oscar",
-      "come"
+      "daddy",
+      "back"
      ],
      "suggestion": "Oh, Oscar. Daddy will come back after tea.",
      "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",

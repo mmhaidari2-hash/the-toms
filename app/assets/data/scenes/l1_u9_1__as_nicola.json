@@ -23,8 +23,8 @@
      "keywords": [
       "shoulders",
       "let's",
-      "knees",
       "touch",
+      "knees",
       "sing"
      ],
      "suggestion": "Let's sing! Head, shoulders, knees and toes! Touch your head!",
@@ -48,8 +48,8 @@
      "keywords": [
       "faster",
       "touch",
-      "ears",
       "nose",
+      "ears",
       "now"
      ],
      "suggestion": "Yes! Now touch your nose. And your ears. Faster!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "fingers",
-      "i've",
       "many",
+      "i've",
       "have",
-      "ten"
+      "how"
      ],
      "suggestion": "Ha ha! How many fingers have you got? I've got ten!",
      "suggestionFa": "ها ها! چندتا انگشت داری؟ من ده‌تا دارم!",
@@ -100,7 +100,7 @@
       "tickle",
       "tummy",
       "look",
-      "got"
+      "big"
      ],
      "suggestion": "William's got a big tummy. Look! Tickle tickle!",
      "suggestionFa": "ویلیام یه شکم گنده داره. ببین! قلقلک قلقلک!",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "banged",
-      "table",
       "hurts",
+      "table",
       "knee",
       "ow"
      ],
@@ -211,7 +211,7 @@
       "plaster",
       "here",
       "have",
-      "bit"
+      "can"
      ],
      "suggestion": "Here. It's a bit red. Can I have a plaster with a dinosaur on it?",
      "suggestionFa": "اینجا. یه کم قرمزه. می‌شه یه چسب زخم دایناسوری داشته باشم؟",
@@ -233,10 +233,10 @@
     {
      "keywords": [
       "shoulders",
-      "plasters",
       "dinosaur",
+      "plasters",
       "better",
-      "again"
+      "knees"
      ],
      "suggestion": "All better! Dinosaur plasters are magic. Again! Head, shoulders, knees and toes!",
      "suggestionFa": "خوب شد! چسب‌های دایناسوری جادویی‌ان. دوباره! سر، شونه، زانو و انگشت پا!",

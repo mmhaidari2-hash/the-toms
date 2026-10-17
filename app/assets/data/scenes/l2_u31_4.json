@@ -31,8 +31,8 @@
     {
      "keywords": [
       "doesn't",
-      "don't",
       "worry",
+      "don't",
       "hurt"
      ],
      "suggestion": "Don't worry, Nicola. It doesn't hurt.",
@@ -85,8 +85,8 @@
      "keywords": [
       "wrong",
       "freya",
-      "look",
-      "they"
+      "they",
+      "look"
      ],
      "suggestion": "Freya is wrong. They just look.",
      "suggestionFa": "فریا اشتباه می‌کنه. فقط نگاه می‌کنن.",
@@ -149,8 +149,8 @@
      "keywords": [
       "hughes",
       "hello",
-      "mrs",
-      "say"
+      "say",
+      "mrs"
      ],
      "suggestion": "Say hello to Mrs Hughes, Nicola.",
      "suggestionFa": "به خانم هیوز سلام کن نیکولا.",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "think",
-      "high",
-      "goes"
+      "goes",
+      "high"
      ],
      "suggestion": "I think it goes very high!",
      "suggestionFa": "فکر کنم خیلی بالا میره!",
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
-      "lion",
       "like",
       "roar",
+      "lion",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -284,8 +284,8 @@
      "keywords": [
       "wobbly",
       "tooth",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "A wobbly tooth! Well done, Nicola!",
      "suggestionFa": "دندون لق! آفرین نیکولا!",
@@ -323,8 +323,8 @@
     {
      "keywords": [
       "tooth",
-      "fairy",
       "bring",
+      "fairy",
       "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
@@ -337,8 +337,8 @@
      "keywords": [
       "pillow",
       "falls",
-      "under",
-      "maybe"
+      "maybe",
+      "under"
      ],
      "suggestion": "Maybe! When it falls out, put it under your pillow.",
      "suggestionFa": "شاید! وقتی افتاد، بذارش زیر بالشت.",
@@ -380,8 +380,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "leslie",
+      "nicola",
       "sweets",
       "eats"
      ],
@@ -393,8 +393,8 @@
     },
     {
      "keywords": [
-      "teeth",
       "clean",
+      "teeth",
       "look",
       "her"
      ],
@@ -482,8 +482,8 @@
     },
     {
      "keywords": [
-      "jealous",
       "william",
+      "jealous",
       "will"
      ],
      "suggestion": "William will be so jealous!",

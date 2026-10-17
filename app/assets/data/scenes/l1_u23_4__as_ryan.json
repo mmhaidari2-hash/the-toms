@@ -23,9 +23,9 @@
      "keywords": [
       "birthday",
       "massive",
-      "jumper",
       "change",
-      "lovely"
+      "jumper",
+      "bought"
      ],
      "suggestion": "Nana bought me this jumper for my birthday. It's lovely, but it's massive! Can you come with me to change it?",
      "suggestionFa": "نانا برای تولدم این ژاکت را خرید. قشنگه، ولی خیلی بزرگه! باهام میای عوضش کنیم؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "receipt",
+      "change",
       "please",
       "excuse",
-      "change",
       "gift"
      ],
      "suggestion": "Yes, Nana gave me a gift receipt. Excuse me, can I change this, please?",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -230,8 +230,8 @@
      "keywords": [
       "medium",
       "small",
-      "long",
       "arms",
+      "long",
       "hmm"
      ],
      "suggestion": "Hmm. The medium is too small. My arms are long!",
@@ -254,10 +254,10 @@
     {
      "keywords": [
       "goldilocks",
-      "right",
       "large",
-      "just",
-      "like"
+      "right",
+      "like",
+      "just"
      ],
      "suggestion": "The large is just right! Like Goldilocks! Ha.",
      "suggestionFa": "لارج درست اندازه‌ست! مثل موطلایی! ها.",
@@ -335,9 +335,9 @@
      "keywords": [
       "she'll",
       "photo",
-      "love",
-      "nana",
-      "take"
+      "i'll",
+      "send",
+      "love"
      ],
      "suggestion": "Can you take a photo of me for Nana? I'll send it to her. She'll love it.",
      "suggestionFa": "می‌تونی یه عکس ازم برای نانا بگیری؟ براش می‌فرستم. خیلی خوشش میاد.",

@@ -76,7 +76,7 @@
       "bruise",
       "upper",
       "about",
-      "coin"
+      "size"
      ],
      "suggestion": "It was a bruise about the size of a coin, on his upper arm.",
      "suggestionFa": "یه کبودی تقریباً هم‌اندازهٔ سکه، رو بالای بازوش.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "quiet",
       "asked",
-      "then",
+      "quiet",
+      "fell",
       "said"
      ],
      "suggestion": "When I asked, he said \"I fell at home\", then went quiet.",
@@ -197,8 +197,8 @@
      "keywords": [
       "parents",
       "should",
-      "tell",
-      "seen"
+      "seen",
+      "tell"
      ],
      "suggestion": "Should I tell the parents what I've seen?",
      "suggestionFa": "باید چیزی که دیدم را به والدین بگم؟",
@@ -238,8 +238,8 @@
      "keywords": [
       "confidential",
       "discuss",
-      "staff",
-      "don't"
+      "don't",
+      "staff"
      ],
      "suggestion": "Confidential — so I don't discuss it in the staff room.",
      "suggestionFa": "محرمانه — پس تو اتاق کارکنان درباره‌اش حرف نمی‌زنم.",

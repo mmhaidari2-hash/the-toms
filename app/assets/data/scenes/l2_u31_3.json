@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "nervous",
       "needles",
+      "nervous",
       "hate"
      ],
      "suggestion": "Yes, I'm very nervous. I hate needles.",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "little",
-      "long",
+      "will",
       "take",
-      "will"
+      "long"
      ],
      "suggestion": "A little. Will it take long?",
      "suggestionFa": "یه‌کم. طول می‌کشه؟",
@@ -74,8 +74,8 @@
      "keywords": [
       "helps",
       "raise",
-      "hand",
-      "left"
+      "left",
+      "hand"
      ],
      "suggestion": "Raise my left hand. OK. That helps.",
      "suggestionFa": "دست چپم را بالا ببرم. باشه. کمک می‌کنه.",
@@ -149,8 +149,8 @@
     },
     {
      "keywords": [
-      "funny",
       "feels",
+      "funny",
       "lip"
      ],
      "suggestion": "My lip feels funny.",
@@ -193,8 +193,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "feels",
+      "can't",
       "numb",
       "feel"
      ],
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "side",
       "high",
+      "side",
       "bit"
      ],
      "suggestion": "It feels a bit high on this side.",

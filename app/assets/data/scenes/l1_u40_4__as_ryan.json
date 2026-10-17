@@ -24,8 +24,8 @@
       "pancakes",
       "pancake",
       "going",
-      "have",
-      "year"
+      "year",
+      "best"
      ],
      "suggestion": "It's Pancake Day! Best day of the year. Are you going to have pancakes with us?",
      "suggestionFa": "روز پنکیکه! بهترین روز سال. با ما پنکیک می‌خوری؟",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "everyone",
       "february",
       "pancakes",
-      "everyone",
       "tuesday",
-      "going"
+      "march"
      ],
      "suggestion": "It's a Tuesday in February or March. Everyone eats pancakes! I'm going to flip them.",
      "suggestionFa": "یه سه‌شنبه تو فوریه یا مارسه. همه پنکیک می‌خورن! من می‌خوام برشون گردونم.",
@@ -75,7 +75,7 @@
       "batter",
       "going",
       "flour",
-      "made"
+      "easy"
      ],
      "suggestion": "Easy. Flour, eggs, milk. Mum made the batter. I'm going to do the flipping!",
      "suggestionFa": "آسونه. آرد، تخم‌مرغ، شیر. مامان خمیرش را درست کرده. من برگردوندن را انجام میدم!",
@@ -99,8 +99,8 @@
       "really",
       "three",
       "watch",
-      "high",
-      "flip"
+      "flip",
+      "high"
      ],
      "suggestion": "Really high! Watch this… One, two, three… FLIP!",
      "suggestionFa": "خیلی بالا! اینو ببین… یک، دو، سه… فلیپ!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -231,7 +231,7 @@
       "classic",
       "twenty",
       "going",
-      "sugar",
+      "lemon",
       "dad's"
      ],
      "suggestion": "Classic! Lemon and sugar. Next year, I'm going to make twenty. And none on Dad's head!",

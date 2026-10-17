@@ -33,8 +33,8 @@
     {
      "keywords": [
       "board",
-      "mean",
-      "baby"
+      "baby",
+      "mean"
      ],
      "suggestion": "What does \"Baby on board\" mean?",
      "suggestionFa": "«بِیبی آن بورد» یعنی چی؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "please",
-      "take",
       "here",
+      "take",
       "seat"
      ],
      "suggestion": "Hi. Here, please take my seat.",
@@ -133,8 +133,8 @@
    "branches": [
     {
      "keywords": [
-      "buggy",
       "where",
+      "buggy",
       "go"
      ],
      "suggestion": "Where does the buggy go?",
@@ -197,7 +197,7 @@
       "everyone",
       "that's",
       "fair",
-      "good"
+      "rule"
      ],
      "suggestion": "That's a good rule. Fair for everyone.",
      "suggestionFa": "قانون خوبیه. برای همه منصفانه‌ست.",
@@ -237,7 +237,7 @@
      "keywords": [
       "there's",
       "hello",
-      "hand",
+      "need",
       "here"
      ],
      "suggestion": "Hello, sir. Do you need a hand? There's a seat here.",
@@ -248,8 +248,8 @@
     },
     {
      "keywords": [
-      "help",
       "hold",
+      "help",
       "arm",
       "can"
      ],

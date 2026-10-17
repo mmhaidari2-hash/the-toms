@@ -23,9 +23,9 @@
      "keywords": [
       "finished",
       "clear",
-      "lunch",
+      "table",
       "mummy",
-      "table"
+      "lunch"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
      "suggestionFa": "ناهار تموم شد! مامان می‌گه باید میز را جمع کنیم. کمکم می‌کنی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "plates",
       "first",
-      "next",
       "sink",
-      "them"
+      "them",
+      "next"
      ],
      "suggestion": "First, the plates. Put them next to the sink.",
      "suggestionFa": "اول، بشقاب‌ها. بذارشون کنار سینک.",
@@ -75,7 +75,7 @@
       "they're",
       "heavy",
       "where",
-      "cups"
+      "i'll"
      ],
      "suggestion": "I'll do the cups. They're not heavy. Where do the leftovers go?",
      "suggestionFa": "من لیوان‌ها را می‌برم. سنگین نیستن. پس‌مونده‌ها کجا می‌رن؟",
@@ -99,8 +99,8 @@
       "packets",
       "little",
       "crisp",
-      "caddy",
-      "black"
+      "brown",
+      "caddy"
      ],
      "suggestion": "Yes! The little brown caddy. And the crisp packets go in the black bin.",
      "suggestionFa": "آره! سطل کوچولوی قهوه‌ای. و پاکت‌های چیپس می‌رن تو سطل مشکی.",
@@ -124,8 +124,8 @@
       "recycling",
       "bottles",
       "please",
-      "green",
-      "table"
+      "table",
+      "green"
      ],
      "suggestion": "Bottles go in the recycling. The green box. Now, wipe the table, please.",
      "suggestionFa": "بطری‌ها می‌رن تو بازیافت. جعبهٔ سبز. حالا، میز را دستمال بکش، لطفاً.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "another",
       "there's",
+      "another",
       "crumb",
       "floor",
-      "one"
+      "tap"
      ],
      "suggestion": "By the tap. Oh, there's a crumb on the floor. And another one!",
      "suggestionFa": "کنار شیر آب. آه، یه خرده نون رو زمینه. و یکی دیگه!",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "sweeping",
-      "under",
       "sweep",
-      "look",
+      "under",
+      "sink",
       "good"
      ],
      "suggestion": "Under the sink. I can sweep! Look, I'm very good at sweeping.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "finished",
-      "kitchen",
       "helpful",
-      "mummy",
-      "sweet"
+      "kitchen",
+      "clean",
+      "mummy"
      ],
      "suggestion": "Finished! The kitchen is clean! Mummy, look! Can we have a sweet now? We were very helpful!",
      "suggestionFa": "تموم شد! آشپزخونه تمیزه! مامان، ببین! حالا می‌تونیم یه شکلات بخوریم؟ خیلی کمک کردیم!",

@@ -23,8 +23,8 @@
      "keywords": [
       "everyone",
       "register",
-      "hackney",
       "surgery",
+      "hackney",
       "should"
      ],
      "suggestion": "Right, this is our surgery. Everyone in Hackney should register with a GP. It's free. Shall we go in?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -105,9 +105,9 @@
      "keywords": [
       "surname",
       "that's",
-      "birth",
+      "let's",
       "paper",
-      "let's"
+      "birth"
      ],
      "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
      "suggestionFa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.",
@@ -180,9 +180,9 @@
      "keywords": [
       "number",
       "write",
-      "leave",
+      "blank",
       "don't",
-      "blank"
+      "leave"
      ],
      "suggestion": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
      "suggestionFa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.",
@@ -230,9 +230,9 @@
      "keywords": [
       "receptionist",
       "bottom",
-      "these",
       "let's",
-      "boxes"
+      "boxes",
+      "these"
      ],
      "suggestion": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
      "suggestionFa": "خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی.",

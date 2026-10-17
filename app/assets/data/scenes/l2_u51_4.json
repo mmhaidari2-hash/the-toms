@@ -22,7 +22,7 @@
       "course",
       "phone",
       "doris",
-      "let"
+      "see"
      ],
      "suggestion": "Of course, Doris. Let me see your phone.",
      "suggestionFa": "البته دوریس. گوشیتون را ببینم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "where",
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "I'll come with you. Where is it?",
      "suggestionFa": "باهاتون میام. کجاست؟",
@@ -141,7 +141,7 @@
       "let's",
       "moves",
       "walk",
-      "dot"
+      "see"
      ],
      "suggestion": "Let's walk and see if the dot moves.",
      "suggestionFa": "بیاید راه بریم ببینیم نقطه تکون می‌خوره.",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "after",
-      "sign",
       "bank",
+      "sign",
       "see"
      ],
      "suggestion": "Turn left after the bank. I can see the sign.",
@@ -254,8 +254,8 @@
      "keywords": [
       "let's",
       "we've",
-      "turn",
-      "back"
+      "back",
+      "turn"
      ],
      "suggestion": "Yes, we've gone too far. Let's turn back.",
      "suggestionFa": "آره، زیادی رفتیم. بیاید برگردیم.",
@@ -266,9 +266,9 @@
     {
      "keywords": [
       "second",
-      "wait",
+      "just",
       "slow",
-      "just"
+      "wait"
      ],
      "suggestion": "No, it's just slow. Wait one second.",
      "suggestionFa": "نه، فقط کنده. یه ثانیه صبر کنید.",
@@ -364,8 +364,8 @@
      "keywords": [
       "appointment",
       "luck",
-      "good",
-      "here"
+      "here",
+      "good"
      ],
      "suggestion": "Here it is! Good luck with your appointment.",
      "suggestionFa": "ایناهاش! برای وقتتون موفق باشید.",
@@ -375,8 +375,8 @@
     },
     {
      "keywords": [
-      "doris",
       "shall",
+      "doris",
       "wait"
      ],
      "suggestion": "Shall I wait for you, Doris?",

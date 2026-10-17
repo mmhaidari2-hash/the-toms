@@ -29,10 +29,10 @@
     },
     {
      "keywords": [
-      "week",
       "last",
-      "met",
-      "her"
+      "week",
+      "her",
+      "met"
      ],
      "suggestion": "Yes, I met her last week.",
      "suggestionFa": "آره، هفتهٔ پیش دیدمش.",
@@ -105,8 +105,8 @@
    "branches": [
     {
      "keywords": [
-      "meet",
       "khan",
+      "meet",
       "nice",
       "mrs"
      ],
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "tehran",
-      "iran",
-      "from"
+      "from",
+      "iran"
      ],
      "suggestion": "I'm from Tehran, in Iran.",
      "suggestionFa": "از تهرانم، تو ایران.",
@@ -317,8 +317,8 @@
      "keywords": [
       "mosque",
       "there",
-      "here",
-      "near"
+      "near",
+      "here"
      ],
      "suggestion": "Is there a mosque near here?",
      "suggestionFa": "این نزدیکی مسجد هست؟",

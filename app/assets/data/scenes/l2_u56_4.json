@@ -21,8 +21,8 @@
      "keywords": [
       "hundred",
       "about",
-      "they",
-      "talk"
+      "talk",
+      "they"
      ],
      "suggestion": "Two hundred! What do they talk about?",
      "suggestionFa": "دویست تا! دربارهٔ چی حرف می‌زنن؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "thank",
       "hello",
+      "thank",
       "i'll",
       "say"
      ],
@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "reply",
       "happy",
+      "reply",
       "thank",
       "here"
      ],
@@ -83,8 +83,8 @@
     {
      "keywords": [
       "exclamation",
-      "again",
       "marks",
+      "again",
       "two"
      ],
      "suggestion": "Two exclamation marks again! Ha!",
@@ -146,7 +146,7 @@
       "morning",
       "ginger",
       "shed",
-      "saw"
+      "cat"
      ],
      "suggestion": "I saw a big ginger cat by the shed this morning.",
      "suggestionFa": "امروز صبح یه گربهٔ نارنجی بزرگ کنار انباری دیدم.",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "looks",
       "happy",
+      "looks",
       "here",
       "he"
      ],
@@ -294,8 +294,8 @@
     {
      "keywords": [
       "sleepy",
-      "tiger",
       "found",
+      "tiger",
       "he's"
      ],
      "suggestion": "\"Found Tiger! He's fine and very sleepy.\"",
@@ -348,9 +348,9 @@
     {
      "keywords": [
       "group",
+      "idea",
       "mute",
-      "good",
-      "idea"
+      "good"
      ],
      "suggestion": "Mute the group. Good idea!",
      "suggestionFa": "گروه را بی‌صدا کنم. فکر خوبیه!",
@@ -363,7 +363,7 @@
       "reminder",
       "check",
       "first",
-      "shed"
+      "just"
      ],
      "suggestion": "Just a reminder for Tom: check the shed first!",
      "suggestionFa": "فقط یه یادآوری برای تام: اول انباری را چک کن!",

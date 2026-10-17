@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "oxford",
       "missed",
       "circus",
-      "oxford",
       "sorry"
      ],
      "suggestion": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
@@ -34,8 +34,8 @@
      "keywords": [
       "finished",
       "party",
-      "late",
-      "fine"
+      "fine",
+      "late"
      ],
      "suggestion": "I'm fine. The party finished late.",
      "suggestionFa": "خوبم. مهمونی دیر تموم شد.",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "merry",
       "drunk",
+      "merry",
       "mean"
      ],
      "suggestion": "Merry? You mean drunk?",
@@ -311,9 +311,9 @@
     },
     {
      "keywords": [
+      "i'll",
       "text",
       "when",
-      "i'll",
       "get"
      ],
      "suggestion": "OK. I'll text you when I get on.",

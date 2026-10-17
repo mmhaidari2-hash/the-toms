@@ -69,9 +69,9 @@
     {
      "keywords": [
       "street",
+      "high",
       "then",
-      "like",
-      "high"
+      "like"
      ],
      "suggestion": "What was the High Street like then?",
      "suggestionFa": "خیابون اصلی اون موقع چطور بود؟",
@@ -123,9 +123,9 @@
     {
      "keywords": [
       "sweets",
+      "back",
       "were",
-      "then",
-      "back"
+      "then"
      ],
      "suggestion": "How much were sweets back then?",
      "suggestionFa": "اون موقع آب‌نبات چند بود؟",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "lovely",
+      "family",
       "sounds"
      ],
      "suggestion": "Your family sounds lovely.",
@@ -242,8 +242,8 @@
      "keywords": [
       "student",
       "school",
-      "were",
-      "good"
+      "good",
+      "were"
      ],
      "suggestion": "Were you a good student at school?",
      "suggestionFa": "دانش‌آموز خوبی بودید؟",

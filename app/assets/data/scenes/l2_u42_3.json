@@ -74,7 +74,7 @@
       "plaits",
       "colour",
       "eyes",
-      "two"
+      "her"
      ],
      "suggestion": "Two plaits! And what colour are her eyes?",
      "suggestionFa": "دو تا گیس! و چشم‌هاش چه رنگیه؟",
@@ -131,7 +131,7 @@
       "what's",
       "shoes",
       "only",
-      "she"
+      "her"
      ],
      "suggestion": "Only her shoes? Ha! What's she like?",
      "suggestionFa": "فقط کفش‌هاش؟ ها! چه جور آدمیه؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "chocolate",
-      "that's",
       "lovely",
+      "that's",
       "brown"
      ],
      "suggestion": "Brown, like chocolate. That's lovely.",
@@ -200,7 +200,7 @@
       "glitter",
       "strong",
       "views",
-      "like"
+      "both"
      ],
      "suggestion": "Strong views on glitter! What do you both like?",
      "suggestionFa": "نظرات محکم دربارهٔ اکلیل! هر دوتون چی دوست دارید؟",
@@ -306,10 +306,10 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "tehran",
-      "laugh",
-      "black"
+      "friend",
+      "black",
+      "laugh"
      ],
      "suggestion": "My best friend is in Tehran. He's got black hair and a big laugh.",
      "suggestionFa": "بهترین دوستم تو تهرانه. موهاش مشکیه و بلند می‌خنده.",

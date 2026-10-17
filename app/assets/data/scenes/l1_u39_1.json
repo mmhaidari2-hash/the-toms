@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "eater",
       "messy",
+      "eater",
       "he's"
      ],
      "suggestion": "He's a messy eater.",
@@ -172,8 +172,8 @@
    "branches": [
     {
      "keywords": [
-      "can't",
       "sorry",
+      "can't",
       "hear"
      ],
      "suggestion": "Sorry, what? I can't hear you!",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "playing",
-      "trick",
       "she's",
+      "trick",
       "ha"
      ],
      "suggestion": "Ha! She's playing a trick.",
@@ -286,9 +286,9 @@
     },
     {
      "keywords": [
-      "back",
+      "i'll",
       "plug",
-      "i'll"
+      "back"
      ],
      "suggestion": "I'll plug it back in.",
      "suggestionFa": "دوباره وصلش می‌کنم.",
@@ -322,8 +322,8 @@
    "branches": [
     {
      "keywords": [
-      "sofa",
       "i'll",
+      "sofa",
       "ok"
      ],
      "suggestion": "OK, I'll do under the sofa.",
@@ -335,8 +335,8 @@
     {
      "keywords": [
       "there's",
-      "sock",
-      "here"
+      "here",
+      "sock"
      ],
      "suggestion": "There's a sock under here!",
      "suggestionFa": "اینجا یه جوراب هست!",

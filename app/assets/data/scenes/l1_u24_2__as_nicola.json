@@ -22,8 +22,8 @@
     {
      "keywords": [
       "scared",
-      "sleep",
       "can't",
+      "sleep",
       "room",
       "dark"
      ],
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "monsters",
+      "noise",
       "under",
       "heard",
-      "noise",
       "bed"
      ],
      "suggestion": "Of monsters. Under my bed! I heard a noise.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "anything",
-      "see",
       "can",
+      "see",
       "ok"
      ],
      "suggestion": "OK… Can you see anything?",
@@ -99,7 +99,7 @@
       "teddy",
       "noise",
       "fell",
-      "bed"
+      "was"
      ],
      "suggestion": "Mr Buttons! My teddy! He fell off the bed. That was the noise!",
      "suggestionFa": "آقای دکمه! خرسم! از تخت افتاد. اون صدا بود!",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -232,10 +232,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "little",
       "scared",
-      "dark",
+      "little",
+      "please",
+      "were",
       "when"
      ],
      "suggestion": "Yes, please. Nana, were you scared of the dark when you were little?",
@@ -257,8 +257,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

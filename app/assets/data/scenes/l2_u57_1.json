@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "want",
+      "ring",
       "i'll",
-      "time",
-      "ring"
+      "want",
+      "time"
      ],
      "suggestion": "Ha! OK, I'll ring. What time do you want?",
      "suggestionFa": "ها! باشه، زنگ می‌زنم. چه ساعتی می‌خوای؟",
@@ -150,8 +150,8 @@
     },
     {
      "keywords": [
-      "they've",
       "o'clock",
+      "they've",
       "they",
       "say"
      ],
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "please",
-      "could",
       "table",
+      "could",
       "have"
      ],
      "suggestion": "Could we have a table by the window, please?",
@@ -206,8 +206,8 @@
      "keywords": [
       "tables",
       "booked",
-      "can't",
-      "sorry"
+      "sorry",
+      "can't"
      ],
      "suggestion": "They say window tables can't be booked. Sorry!",
      "suggestionFa": "میگن میزهای کنار پنجره رزرو نمیشن. ببخشید!",
@@ -244,7 +244,7 @@
       "thompson",
       "under",
       "name",
-      "o"
+      "h"
      ],
      "suggestion": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
      "suggestionFa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن.",
@@ -257,7 +257,7 @@
       "number",
       "phone",
       "yours",
-      "they"
+      "mine"
      ],
      "suggestion": "They want a phone number too. Yours or mine?",
      "suggestionFa": "شماره تلفن هم می‌خوان. مال تو یا مال من؟",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "maggie",
-      "nana",
-      "tell"
+      "tell",
+      "nana"
      ],
      "suggestion": "Don't forget to tell Nana Maggie!",
      "suggestionFa": "یادت نره به نانا مگی بگی!",

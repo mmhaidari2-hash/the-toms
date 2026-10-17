@@ -21,8 +21,8 @@
      "keywords": [
       "included",
       "service",
-      "check",
-      "first"
+      "let's",
+      "check"
      ],
      "suggestion": "First, let's check if service is included.",
      "suggestionFa": "اول ببینیم سرویس شامله یا نه.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "pounds",
-      "fifty",
       "about",
+      "fifty",
       "bill"
      ],
      "suggestion": "The bill is fifty-two pounds. So about six pounds?",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "same",
       "pubs",
+      "same",
       "caf",
       "s"
      ],
@@ -139,8 +139,8 @@
     },
     {
      "keywords": [
-      "pounds",
       "sophie",
+      "pounds",
       "six",
       "ok"
      ],
@@ -189,9 +189,9 @@
     },
     {
      "keywords": [
-      "leave",
       "let's",
-      "then",
+      "leave",
+      "cash",
       "goes"
      ],
      "suggestion": "Let's leave it in cash. Then it goes to her.",
@@ -300,8 +300,8 @@
      "keywords": [
       "we'll",
       "month",
-      "back",
-      "next"
+      "next",
+      "back"
      ],
      "suggestion": "We'll be back next month.",
      "suggestionFa": "ماه بعد برمی‌گردیم.",

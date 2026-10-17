@@ -132,8 +132,8 @@
     {
      "keywords": [
       "minutes",
-      "wait",
       "i'll",
+      "wait",
       "two"
      ],
      "suggestion": "OK. I'll wait two minutes.",
@@ -176,8 +176,8 @@
     },
     {
      "keywords": [
-      "half",
-      "full"
+      "full",
+      "half"
      ],
      "suggestion": "Half full?",
      "suggestionFa": "نصفه؟",
@@ -220,8 +220,8 @@
      "keywords": [
       "squeeze",
       "done",
-      "air",
-      "out"
+      "out",
+      "air"
      ],
      "suggestion": "Squeeze the air out. Done.",
      "suggestionFa": "هوا را بیرون دادم. تموم شد.",
@@ -273,8 +273,8 @@
      "keywords": [
       "that's",
       "cover",
-      "has",
-      "why"
+      "why",
+      "has"
      ],
      "suggestion": "That's why it has a cover.",
      "suggestionFa": "برای همینه که روکش داره.",
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "please",
-      "cold",
-      "room"
+      "room",
+      "cold"
      ],
      "suggestion": "Yes, please! My room is cold.",
      "suggestionFa": "آره، لطفاً! اتاقم سرده.",

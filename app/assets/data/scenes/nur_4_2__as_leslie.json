@@ -25,7 +25,7 @@
       "brilliant",
       "william",
       "today",
-      "must",
+      "vida",
       "sara"
      ],
      "suggestion": "Hi! You must be Sara — Vida says you're brilliant. How was William today?",
@@ -48,10 +48,10 @@
     {
      "keywords": [
       "lovely",
-      "lunch",
       "fussy",
-      "been",
-      "home"
+      "lunch",
+      "week",
+      "been"
      ],
      "suggestion": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
      "suggestionFa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه.",
@@ -97,8 +97,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -209,11 +209,11 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
       "accidents",
+      "brilliant",
       "toilet",
       "today",
-      "any"
+      "wow"
      ],
      "suggestion": "Wow, it's brilliant! Any toilet accidents today?",
      "suggestionFa": "وای، عالیه! امروز خیس‌کاری داشت؟",

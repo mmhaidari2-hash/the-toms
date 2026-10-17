@@ -73,9 +73,9 @@
     {
      "keywords": [
       "happens",
-      "they",
       "drop",
-      "egg"
+      "they",
+      "got"
      ],
      "suggestion": "Got it. What happens if they drop the egg?",
      "suggestionFa": "فهمیدم. اگه تخم‌مرغ بیفته چی میشه؟",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "wait",
+      "have",
       "run"
      ],
      "suggestion": "Wait — I have to run too?",

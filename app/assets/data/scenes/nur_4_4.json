@@ -22,7 +22,7 @@
       "medicine",
       "morning",
       "first",
-      "form"
+      "fill"
      ],
      "suggestion": "Morning! You have to fill in a medicine form first.",
      "suggestionFa": "صبح بخیر! اول باید فرم دارو را پر کنید.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "medicine",
-      "dose",
-      "time"
+      "time",
+      "dose"
      ],
      "suggestion": "The medicine, the dose and the time.",
      "suggestionFa": "اسم دارو، مقدار و ساعت.",
@@ -83,8 +83,8 @@
     },
     {
      "keywords": [
-      "last",
       "have",
+      "last",
       "when",
       "some"
      ],
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "please",
-      "sign",
-      "here"
+      "thanks",
+      "here",
+      "sign"
      ],
      "suggestion": "Thanks. Please sign here.",
      "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "hours",
       "after",
+      "hours",
       "time",
       "last"
      ],
@@ -192,8 +192,8 @@
      "keywords": [
       "better",
       "seem",
-      "they",
-      "even"
+      "even",
+      "they"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
@@ -231,8 +231,8 @@
    "branches": [
     {
      "keywords": [
-      "worse",
       "we'll",
+      "worse",
       "gets",
       "call"
      ],

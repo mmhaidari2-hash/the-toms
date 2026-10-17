@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nicola's",
-      "tummy",
       "she's",
-      "dear",
-      "ache"
+      "tummy",
+      "ache",
+      "sofa"
      ],
      "suggestion": "Oh dear. Nicola's got a tummy ache. She's on the sofa. Can you sit with her?",
      "suggestionFa": "ای وای. نیکولا دل‌درد داره. رو مبله. می‌تونی پیشش بشینی؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -175,8 +175,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -234,9 +234,9 @@
      "keywords": [
       "sweets",
       "you'll",
-      "water",
       "small",
-      "today"
+      "today",
+      "water"
      ],
      "suggestion": "You'll be fine, pet. Small sips of water. And no more sweets today!",
      "suggestionFa": "خوب میشی عزیزم. آب جرعه جرعه. و امروز دیگه آبنبات نه!",
@@ -312,8 +312,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

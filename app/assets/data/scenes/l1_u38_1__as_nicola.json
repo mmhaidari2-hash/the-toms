@@ -24,8 +24,8 @@
       "tomorrow",
       "birthday",
       "daddy's",
-      "making",
-      "secret"
+      "secret",
+      "making"
      ],
      "suggestion": "It's Daddy's birthday tomorrow! I'm making him a card. It's a secret!",
      "suggestionFa": "فردا تولد باباست! دارم براش کارت درست می‌کنم. رازه!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "drawing",
       "daddy's",
+      "drawing",
       "front",
       "words",
       "help"
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "birthday",
-      "happy",
       "daddy",
+      "happy",
       "spell",
       "then"
      ],
@@ -99,8 +99,8 @@
       "writes",
       "mummy",
       "love",
-      "from",
-      "then"
+      "then",
+      "from"
      ],
      "suggestion": "Done! Then what? Mummy writes \"Love from\" at the end.",
      "suggestionFa": "تموم شد! بعد چی؟ مامان آخرش می‌نویسه «با عشق از طرف».",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "kisses",
-      "jokes",
+      "should",
+      "daddy",
       "write",
-      "loves"
+      "jokes"
      ],
      "suggestion": "X X X X X! Lots of kisses! Should I write a joke? Daddy loves jokes.",
      "suggestionFa": "X X X X X! کلی بوس! یه جوک بنویسم؟ بابا عاشق جوکه.",
@@ -148,8 +148,8 @@
      "keywords": [
       "favourite",
       "driver's",
-      "ghetti",
       "what's",
+      "ghetti",
       "made"
      ],
      "suggestion": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
@@ -174,8 +174,8 @@
       "write",
       "he'll",
       "love",
-      "from",
-      "both"
+      "name",
+      "know"
      ],
      "suggestion": "I KNOW! He'll love it! Can you write your name too? It's from both of us.",
      "suggestionFa": "می‌دونم! عاشقش میشه! اسم خودت را هم می‌نویسی؟ از طرف هر دومونه.",
@@ -199,7 +199,7 @@
       "envelope",
       "promise",
       "hiding",
-      "under",
+      "daddy",
       "pinky"
      ],
      "suggestion": "Now the envelope. I'm hiding it under my bed. Shh! Don't tell Daddy. Pinky promise!",

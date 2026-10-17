@@ -22,7 +22,7 @@
       "confidence",
       "charming",
       "boost",
-      "came"
+      "here"
      ],
      "suggestion": "Charming! And I came here for a confidence boost.",
      "suggestionFa": "چه لطفی! و من اومده بودم اعتماد به نفس بگیرم.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "over",
-      "comb",
       "says",
+      "comb",
+      "over",
       "man"
      ],
      "suggestion": "Says the man with a comb-over!",
@@ -79,8 +79,8 @@
      "keywords": [
       "surprise",
       "don't",
-      "make",
-      "look"
+      "just",
+      "like"
      ],
      "suggestion": "Surprise me. Just don't make me look like Ryan.",
      "suggestionFa": "سورپرایزم کن. فقط شبیه رایانم نکن.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "accurate",
-      "brutal",
       "that's",
-      "sal"
+      "brutal",
+      "but"
      ],
      "suggestion": "That's brutal, Sal. Accurate, but brutal.",
      "suggestionFa": "این بی‌رحمانه بود سال. درست، ولی بی‌رحمانه.",
@@ -141,9 +141,9 @@
     {
      "keywords": [
       "classic",
+      "know",
       "gave",
-      "told",
-      "know"
+      "told"
      ],
      "suggestion": "Ha! He told us you gave him a \"classic\" cut — now I know why.",
      "suggestionFa": "ها! بهمون گفت یه مدل «کلاسیک» براش زدی — حالا فهمیدم چرا.",
@@ -194,8 +194,8 @@
     },
     {
      "keywords": [
-      "actually",
       "promoted",
+      "actually",
       "going",
       "well"
      ],

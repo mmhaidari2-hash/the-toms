@@ -20,8 +20,8 @@
     {
      "keywords": [
       "street",
-      "mare",
       "live",
+      "mare",
       "new"
      ],
      "suggestion": "Yes, I'm new. I live on Mare Street.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "morning",
-      "card",
       "here",
+      "card",
       "good"
      ],
      "suggestion": "Good morning. Do I tap my card here?",
@@ -71,8 +71,8 @@
      "keywords": [
       "have",
       "when",
-      "get",
-      "off"
+      "out",
+      "tap"
      ],
      "suggestion": "Do I have to tap out when I get off?",
      "suggestionFa": "وقتی پیاده می‌شم هم باید کارت بزنم؟",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "have",
       "tube",
-      "tap",
-      "out"
+      "have",
+      "out",
+      "tap"
      ],
      "suggestion": "So on the Tube I have to tap out?",
      "suggestionFa": "پس تو مترو باید موقع خروج کارت بزنم؟",
@@ -402,8 +402,8 @@
      "keywords": [
       "promise",
       "press",
-      "once",
-      "i'll"
+      "i'll",
+      "once"
      ],
      "suggestion": "I'll press it once. Promise!",
      "suggestionFa": "یه بار می‌زنم. قول میدم!",

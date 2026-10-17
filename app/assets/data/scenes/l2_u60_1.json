@@ -35,7 +35,7 @@
       "studying",
       "english",
       "doing",
-      "part"
+      "time"
      ],
      "suggestion": "I'm studying English and doing a part-time job.",
      "suggestionFa": "دارم انگلیسی می‌خونم و یه کار پاره‌وقت دارم.",
@@ -90,8 +90,8 @@
      "keywords": [
       "about",
       "here",
-      "i've",
-      "year"
+      "year",
+      "been"
      ],
      "suggestion": "I've been here for about a year.",
      "suggestionFa": "حدود یه ساله اینجام.",
@@ -104,7 +104,7 @@
       "thompsons",
       "practise",
       "long",
-      "lot"
+      "but"
      ],
      "suggestion": "Not long! But I practise a lot. With the Thompsons.",
      "suggestionFa": "زیاد نه! ولی خیلی تمرین می‌کنم. با تامپسون‌ها.",
@@ -152,8 +152,8 @@
      "keywords": [
       "start",
       "fresh",
-      "came",
-      "here"
+      "here",
+      "came"
      ],
      "suggestion": "Me too — I came here for a fresh start.",
      "suggestionFa": "منم — برای یه شروع تازه اومدم اینجا.",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "maybe",
-      "shy",
-      "bit"
+      "bit",
+      "shy"
      ],
      "suggestion": "Maybe! I'm a bit shy.",
      "suggestionFa": "شاید! یه کم خجالتی‌ام.",
@@ -315,8 +315,8 @@
      "keywords": [
       "listen",
       "first",
-      "come",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "OK! I'll come and listen first.",
      "suggestionFa": "باشه! اول میام گوش میدم.",

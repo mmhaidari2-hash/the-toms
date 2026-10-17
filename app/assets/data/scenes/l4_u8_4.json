@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
+      "true",
       "flag",
-      "good",
-      "true"
+      "good"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -83,8 +83,8 @@
      "keywords": [
       "biased",
       "sample",
-      "size",
-      "tiny"
+      "tiny",
+      "size"
      ],
      "suggestion": "So it's biased and the sample size is tiny.",
      "suggestionFa": "پس مغرضانه‌ست و اندازهٔ نمونه خیلی کوچیکه.",
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "then"
+      "real"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "look",
-      "just"
+      "just",
+      "clip"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -158,8 +158,8 @@
      "keywords": [
       "reliable",
       "reported",
-      "outlets",
-      "whether"
+      "whether",
+      "outlets"
      ],
      "suggestion": "Check whether reliable news outlets have reported it.",
      "suggestionFa": "چک می‌کنم رسانه‌های معتبر گزارشش کردن یا نه.",
@@ -206,9 +206,9 @@
     {
      "keywords": [
       "getting",
-      "what's",
       "harder",
-      "tell"
+      "what's",
+      "real"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",
      "suggestionFa": "تشخیص اینکه چی واقعیه داره سخت‌تر و سخت‌تر میشه.",

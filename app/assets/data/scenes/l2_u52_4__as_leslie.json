@@ -24,7 +24,7 @@
       "sophie's",
       "packing",
       "morning",
-      "tom's",
+      "badly",
       "check"
      ],
      "suggestion": "Last morning! Sad. Can you help me check out? Tom's packing the car — badly. Sophie's at the desk.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "minibar",
       "hundred",
+      "minibar",
       "pounds",
-      "ninety",
-      "what's"
+      "what's",
+      "didn't"
      ],
      "suggestion": "Let me look… Three hundred and ninety pounds. Ah — what's this? \"Minibar, eight pounds\"? We didn't use the minibar.",
      "suggestionFa": "ببینم… سیصد و نود پوند. آه — این چیه؟ «مینی‌بار، هشت پوند»؟ ما از مینی‌بار استفاده نکردیم.",
@@ -124,7 +124,7 @@
       "course",
       "little",
       "fridge",
-      "from"
+      "ryan"
      ],
      "suggestion": "Ryan! Of course. Ryan, did you eat anything from the little fridge?",
      "suggestionFa": "رایان! معلومه. رایان، از یخچال کوچیکه چیزی خوردی؟",
@@ -208,8 +208,8 @@
    "branches": [
     {
      "keywords": [
-      "learned",
       "correct",
+      "learned",
       "lesson",
       "bill's",
       "leave"
@@ -233,8 +233,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -301,8 +301,8 @@
       "definitely",
       "breakfast",
       "auntie's",
-      "review",
-      "sophie"
+      "sophie",
+      "lovely"
      ],
      "suggestion": "Sophie, it was lovely. Your auntie's breakfast — wow. We'll definitely come back. Can I leave a review?",
      "suggestionFa": "سوفی، عالی بود. صبحانهٔ خاله‌ات — وای. حتماً برمی‌گردیم. می‌تونم یه نظر بنویسم؟",
@@ -384,9 +384,9 @@
      "keywords": [
       "mention",
       "special",
-      "dinner",
       "sophie",
-      "drive"
+      "dinner",
+      "chips"
      ],
      "suggestion": "Five stars, and a special mention for the free dinner. Right — pier, chips, then the long drive home. Bye, Sophie!",
      "suggestionFa": "پنج ستاره، و یه اشارهٔ ویژه به شام مجانی. خب — اسکله، چیپس، بعد رانندگی طولانی تا خونه. خداحافظ سوفی!",

@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "indian",
+      "what's",
       "don't",
-      "well"
+      "know"
      ],
      "suggestion": "I don't know Indian food well. What's good?",
      "suggestionFa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟",
@@ -35,7 +35,7 @@
       "chicken",
       "please",
       "curry",
-      "have"
+      "i'll"
      ],
      "suggestion": "I'll have a chicken curry, please.",
      "suggestionFa": "من یه کاری مرغ می‌خورم، لطفاً.",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "mean",
-      "mild"
+      "mild",
+      "mean"
      ],
      "suggestion": "What does \"mild\" mean?",
      "suggestionFa": "«مایلد» یعنی چی؟",
@@ -90,8 +90,8 @@
      "keywords": [
       "masala",
       "tikka",
-      "how",
-      "hot"
+      "hot",
+      "how"
      ],
      "suggestion": "How hot is the tikka masala?",
      "suggestionFa": "تیکا ماسالا چقدر تنده؟",
@@ -142,8 +142,8 @@
      "keywords": [
       "vindaloo",
       "spicy",
-      "like",
-      "food"
+      "food",
+      "like"
      ],
      "suggestion": "I like spicy food. I'll try the vindaloo!",
      "suggestionFa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!",
@@ -153,8 +153,8 @@
     },
     {
      "keywords": [
-      "medium",
       "please",
+      "medium",
       "have",
       "one"
      ],
@@ -197,7 +197,7 @@
       "persian",
       "please",
       "pilau",
-      "rice"
+      "like"
      ],
      "suggestion": "Pilau rice, please. Like Persian rice!",
      "suggestionFa": "برنج پلو، لطفاً. مثل برنج ایرانی!",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "much",
-      "all",
-      "how"
+      "how",
+      "all"
      ],
      "suggestion": "How much is it all?",
      "suggestionFa": "همه‌ش چقدر میشه؟",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "drinks",
+      "but",
       "let",
-      "buy",
-      "but"
+      "buy"
      ],
      "suggestion": "OK. But let me buy the drinks.",
      "suggestionFa": "باشه. ولی بذار نوشیدنی‌ها را من بخرم.",

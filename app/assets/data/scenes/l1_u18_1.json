@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "cheese",
-      "please"
+      "please",
+      "cheese"
      ],
      "suggestion": "Cheese, please.",
      "suggestionFa": "پنیر، لطفاً.",
@@ -119,8 +119,8 @@
    "branches": [
     {
      "keywords": [
-      "little",
-      "please"
+      "please",
+      "little"
      ],
      "suggestion": "Yes, a little butter, please.",
      "suggestionFa": "آره، یه کم کره، لطفاً.",
@@ -161,8 +161,8 @@
     {
      "keywords": [
       "like",
-      "try",
-      "i'd"
+      "i'd",
+      "try"
      ],
      "suggestion": "I'd like to try it.",
      "suggestionFa": "می‌خوام امتحانش کنم.",
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
+      "please",
       "cheese",
       "tomato",
-      "please",
       "just"
      ],
      "suggestion": "Just cheese and tomato, please.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "sandwich",
-      "really",
-      "crisps"
+      "crisps",
+      "really"
      ],
      "suggestion": "Crisps in a sandwich? Really?",
      "suggestionFa": "چیپس تو ساندویچ؟ واقعاً؟",
@@ -336,8 +336,8 @@
      "keywords": [
       "juice",
       "have",
-      "any",
-      "got"
+      "got",
+      "any"
      ],
      "suggestion": "Have we got any juice?",
      "suggestionFa": "آبمیوه داریم؟",

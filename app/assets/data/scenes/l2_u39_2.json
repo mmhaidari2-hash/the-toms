@@ -73,9 +73,9 @@
     {
      "keywords": [
       "iron",
+      "hot",
       "got",
-      "yet",
-      "hot"
+      "yet"
      ],
      "suggestion": "Got it. Is the iron hot yet?",
      "suggestionFa": "فهمیدم. اتو داغ شد؟",
@@ -184,8 +184,8 @@
      "keywords": [
       "i'll",
       "fill",
-      "yet",
-      "now"
+      "now",
+      "yet"
      ],
      "suggestion": "Not yet. I'll fill it now.",
      "suggestionFa": "هنوز نه. الان پرش می‌کنم.",
@@ -303,9 +303,9 @@
    "branches": [
     {
      "keywords": [
-      "poor",
+      "ryan",
       "hole",
-      "ryan"
+      "poor"
      ],
      "suggestion": "A hole? Poor Ryan!",
      "suggestionFa": "سوراخ؟ رایان بیچاره!",
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "stand",
-      "when",
       "i'll",
-      "stop"
+      "stop",
+      "when"
      ],
      "suggestion": "I'll stand it up when I stop.",
      "suggestionFa": "وقتی دست نگه می‌دارم، سرپا می‌ذارمش.",
@@ -426,8 +426,8 @@
     },
     {
      "keywords": [
-      "interview",
-      "questions"
+      "questions",
+      "interview"
      ],
      "suggestion": "What are the interview questions?",
      "suggestionFa": "سؤال‌های مصاحبه چیه؟",
@@ -466,8 +466,8 @@
     {
      "keywords": [
       "pigeon",
-      "don't",
       "maybe",
+      "don't",
       "part"
      ],
      "suggestion": "Maybe don't say the pigeon part.",

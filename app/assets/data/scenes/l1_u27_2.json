@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "borrow",
       "please",
+      "borrow",
       "could",
       "some"
      ],
@@ -134,8 +134,8 @@
      "keywords": [
       "little",
       "just",
-      "one",
-      "cup"
+      "cup",
+      "one"
      ],
      "suggestion": "Just a little. For one cup.",
      "suggestionFa": "فقط یه کم. برای یه فنجون.",
@@ -146,8 +146,8 @@
     {
      "keywords": [
       "maybe",
-      "pint",
-      "half"
+      "half",
+      "pint"
      ],
      "suggestion": "Half a pint, maybe?",
      "suggestionFa": "شاید نیم پاینت؟",
@@ -276,8 +276,8 @@
     {
      "keywords": [
       "didn't",
-      "know",
       "open",
+      "know",
       "was"
      ],
      "suggestion": "I didn't know it was open.",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "tomorrow",
-      "i'll",
       "milk",
+      "i'll",
       "buy"
      ],
      "suggestion": "I'll buy you milk tomorrow.",
@@ -322,8 +322,8 @@
     {
      "keywords": [
       "money",
-      "give",
       "some",
+      "give",
       "can"
      ],
      "suggestion": "Can I give you some money?",

@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "girls",
       "let's",
       "share",
+      "girls",
       "toys"
      ],
      "suggestion": "Let's share the toys, girls.",
@@ -35,7 +35,7 @@
       "nicola",
       "doll",
       "have",
-      "can"
+      "her"
      ],
      "suggestion": "Nicola, can Mia have her doll?",
      "suggestionFa": "نیکولا، می‌شه میا عروسکش را داشته باشه؟",
@@ -176,9 +176,9 @@
     {
      "keywords": [
       "blocks",
-      "tower",
       "let's",
-      "build"
+      "build",
+      "tower"
      ],
      "suggestion": "Let's build a tower with the blocks.",
      "suggestionFa": "بیا با مکعب‌ها یه برج بسازیم.",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "let's",
-      "never",
       "again",
+      "never",
       "build"
      ],
      "suggestion": "Never mind! Let's build it again.",
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "that's",
-      "was",
       "fun",
+      "was",
       "ok"
      ],
      "suggestion": "That's OK. It was fun!",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "waiting",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done for waiting, Nicola.",
      "suggestionFa": "آفرین که صبر کردی نیکولا.",

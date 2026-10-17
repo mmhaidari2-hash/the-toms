@@ -33,9 +33,9 @@
     {
      "keywords": [
       "never",
-      "did",
+      "get",
       "how",
-      "get"
+      "did"
      ],
      "suggestion": "No, never. How did you get it?",
      "suggestionFa": "نه، هیچ‌وقت. چطوری گرفتیش؟",
@@ -133,8 +133,8 @@
      "keywords": [
       "actually",
       "barista",
-      "before",
-      "worked"
+      "worked",
+      "before"
      ],
      "suggestion": "I've worked as a barista before, actually.",
      "suggestionFa": "راستش قبلاً باریستا بودم.",
@@ -144,9 +144,9 @@
     },
     {
      "keywords": [
-      "have",
-      "they",
       "paid",
+      "they",
+      "have",
       "yet"
      ],
      "suggestion": "Have they paid you yet?",
@@ -198,8 +198,8 @@
     {
      "keywords": [
       "get",
-      "one",
-      "how"
+      "how",
+      "one"
      ],
      "suggestion": "No. What is it, and how do I get one?",
      "suggestionFa": "نه. چیه و چطوری بگیرمش؟",

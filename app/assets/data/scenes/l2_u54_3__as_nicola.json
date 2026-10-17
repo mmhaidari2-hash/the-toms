@@ -49,8 +49,8 @@
       "something",
       "sandwich",
       "daddy's",
-      "eating",
-      "orange"
+      "orange",
+      "eating"
      ],
      "suggestion": "By the shed! It's orange with a white tail tip. It's eating something. Is it eating Daddy's sandwich?",
      "suggestionFa": "کنار انباری! نارنجیه با نوک دم سفید. داره یه چیزی می‌خوره. داره ساندویچ بابایی را می‌خوره؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
+      "stroke",
       "please",
       "orange",
-      "stroke",
       "looks",
-      "like"
+      "soft"
      ],
      "suggestion": "Can I stroke it? Please? It looks like a dog. A soft orange dog.",
      "suggestionFa": "می‌تونم نازش کنم؟ لطفاً؟ شبیه سگه. یه سگ نارنجی نرم.",
@@ -98,9 +98,9 @@
      "keywords": [
       "house",
       "where",
-      "look",
-      "just",
-      "live"
+      "i'll",
+      "live",
+      "just"
      ],
      "suggestion": "OK. I'll just look. Where does it live? In a house?",
      "suggestionFa": "باشه. فقط نگاه می‌کنم. کجا زندگی می‌کنه؟ تو یه خونه؟",
@@ -149,8 +149,8 @@
       "biscuit",
       "ginger",
       "little",
-      "give",
-      "name"
+      "cubs",
+      "them"
      ],
      "suggestion": "Cubs! Can we give them a name? The big one is Ginger. The little one is Biscuit!",
      "suggestionFa": "توله! میشه براشون اسم بذاریم؟ بزرگه زنجبیله. کوچولوئه بیسکویت!",
@@ -175,7 +175,7 @@
       "clever",
       "third",
       "mehdi",
-      "away"
+      "they"
      ],
      "suggestion": "The third one is Mehdi! Because it's clever. Oh no — they ran away. Will they come back?",
      "suggestionFa": "سومی مهدیه! چون زرنگه. وای نه — فرار کردن. برمی‌گردن؟",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "tonight",
       "bedtime",
-      "eight",
+      "tonight",
+      "seven",
       "watch",
-      "night"
+      "eight"
      ],
      "suggestion": "Tonight I'll stay awake and watch. All night! Well… till eight. Mummy says bedtime is seven.",
      "suggestionFa": "امشب بیدار می‌مونم و نگاه می‌کنم. کل شب! خب… تا هشت. مامانی میگه وقت خواب هفته.",

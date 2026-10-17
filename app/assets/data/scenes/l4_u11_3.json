@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
+      "will",
       "take",
-      "long",
-      "will"
+      "long"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "wait",
       "here",
+      "wait",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "what's",
       "damage",
+      "what's",
       "go"
      ],
      "suggestion": "Go on. What's the damage?",
@@ -177,8 +177,8 @@
     {
      "keywords": [
       "would",
-      "both",
       "cost",
+      "both",
       "much"
      ],
      "suggestion": "How much would it cost to fix both?",
@@ -246,9 +246,9 @@
     {
      "keywords": [
       "second",
+      "quote",
       "first",
-      "could",
-      "quote"
+      "could"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "ahead",
-      "good",
       "news",
+      "good",
       "was"
      ],
      "suggestion": "OK, go ahead. What was the good news?",
@@ -343,7 +343,7 @@
       "advisory",
       "those",
       "mean",
-      "now"
+      "fix"
      ],
      "suggestion": "What does \"advisory\" mean? Do we have to fix those now?",
      "suggestionFa": "«توصیه» یعنی چی؟ باید الان تعمیرشون کنیم؟",
@@ -354,9 +354,9 @@
     {
      "keywords": [
       "tyres",
-      "long",
       "left",
-      "how"
+      "long",
+      "got"
      ],
      "suggestion": "How long have the tyres got left?",
      "suggestionFa": "لاستیک‌ها چقدر عمر دارن؟",
@@ -416,9 +416,9 @@
     {
      "keywords": [
       "garages",
+      "honest",
       "thanks",
-      "upsell",
-      "honest"
+      "upsell"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

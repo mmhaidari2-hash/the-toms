@@ -140,8 +140,8 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "please",
+      "little",
       "just"
      ],
      "suggestion": "Yes, please. Just a little.",
@@ -154,8 +154,8 @@
      "keywords": [
       "glass",
       "thank",
-      "like",
-      "milk"
+      "milk",
+      "like"
      ],
      "suggestion": "No, thank you. I'd like a glass of milk.",
      "suggestionFa": "نه، ممنون. یه لیوان شیر می‌خوام.",
@@ -293,8 +293,8 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "i'll",
+      "have",
       "one"
      ],
      "suggestion": "I'll have the green one.",

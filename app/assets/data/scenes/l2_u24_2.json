@@ -33,9 +33,9 @@
     {
      "keywords": [
       "coats",
-      "they",
       "here",
-      "sell"
+      "sell",
+      "they"
      ],
      "suggestion": "Do they sell coats here? It's so big!",
      "suggestionFa": "اینجا کت می‌فروشن؟ خیلی بزرگه!",
@@ -75,8 +75,8 @@
      "keywords": [
       "jumper",
       "items",
-      "then",
-      "take"
+      "take",
+      "i'll"
      ],
      "suggestion": "Six items? Then I'll take a jumper too.",
      "suggestionFa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "sleeves",
-      "short",
-      "small"
+      "small",
+      "short"
      ],
      "suggestion": "It's too small. The sleeves are short.",
      "suggestionFa": "خیلی کوچیکه. آستیناش کوتاهه.",
@@ -145,7 +145,7 @@
       "tight",
       "here",
       "fits",
-      "bit"
+      "but"
      ],
      "suggestion": "It fits! But it's a bit tight here.",
      "suggestionFa": "اندازه‌ست! ولی اینجاش یه‌کم تنگه.",
@@ -196,8 +196,8 @@
      "keywords": [
       "help",
       "ask",
-      "her",
-      "can"
+      "can",
+      "her"
      ],
      "suggestion": "Can I help? I can ask her.",
      "suggestionFa": "کمک کنم؟ من ازش می‌پرسم.",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "possible",
-      "thanks",
       "leslie",
+      "thanks",
       "black"
      ],
      "suggestion": "Thanks, Leslie. In black, if possible.",
@@ -261,8 +261,8 @@
     },
     {
      "keywords": [
-      "warm",
-      "suit"
+      "suit",
+      "warm"
      ],
      "suggestion": "It does suit me! And it's warm.",
      "suggestionFa": "واقعاً بهم میاد! گرمم هست.",
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "take",
       "i'll",
+      "take",
       "hood",
       "has"
      ],
@@ -318,8 +318,8 @@
     {
      "keywords": [
       "sideways",
-      "real",
-      "rain"
+      "rain",
+      "real"
      ],
      "suggestion": "Sideways rain? Is that real?",
      "suggestionFa": "بارون کج؟ واقعیه؟",
@@ -359,8 +359,8 @@
      "keywords": [
       "return",
       "long",
-      "how",
-      "can"
+      "can",
+      "how"
      ],
      "suggestion": "How long can I return it for?",
      "suggestionFa": "تا کی می‌تونم پسش بدم؟",
@@ -372,8 +372,8 @@
      "keywords": [
       "anything",
       "buying",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. Are you buying anything?",
      "suggestionFa": "فکر خوبیه. تو چیزی می‌خری؟",

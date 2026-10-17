@@ -73,9 +73,9 @@
      "keywords": [
       "whistle",
       "nobody",
-      "went",
       "then",
-      "won"
+      "went",
+      "ran"
      ],
      "suggestion": "Nobody won. We ran and ran, then the whistle went.",
      "suggestionFa": "هیچ‌کس نبرد. دویدیم و دویدیم، بعد سوت زدن.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "dropped",
-      "oliver",
       "banana",
+      "oliver",
       "apple",
       "fruit"
      ],
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "every",
-      "look",
-      "knee",
-      "hurt",
-      "fell"
+      "then",
+      "over",
+      "fell",
+      "hurt"
      ],
      "suggestion": "Yes! Every day. Then I fell over and hurt my knee. Look!",
      "suggestionFa": "آره! هر روز. بعد افتادم و زانوم درد گرفت. ببین!",
@@ -148,9 +148,9 @@
      "keywords": [
       "sticker",
       "little",
-      "brave",
       "ellis",
-      "gave"
+      "brave",
+      "only"
      ],
      "suggestion": "Only a little bit. Mrs Ellis gave me a sticker. It says \"I was brave\"!",
      "suggestionFa": "فقط یه ذره. خانم الیس بهم یه برچسب داد. روش نوشته «من شجاع بودم»!",
@@ -174,8 +174,8 @@
       "school",
       "fridge",
       "mummy",
-      "play",
-      "iran"
+      "iran",
+      "here"
      ],
      "suggestion": "Here! Mummy says I can put it on the fridge. Did you play at school in Iran?",
      "suggestionFa": "بیا! مامان میگه می‌تونم بچسبونمش رو یخچال. تو ایران تو مدرسه بازی می‌کردی؟",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "tomorrow",
       "football",
+      "tomorrow",
       "dragon",
       "going",
       "likes"

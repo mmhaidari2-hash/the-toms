@@ -21,8 +21,8 @@
      "keywords": [
       "postbox",
       "there",
-      "here",
-      "near"
+      "near",
+      "here"
      ],
      "suggestion": "Is there a postbox near here?",
      "suggestionFa": "این نزدیکی صندوق پست هست؟",
@@ -221,8 +221,8 @@
      "keywords": [
       "today",
       "great",
-      "then",
-      "goes"
+      "goes",
+      "then"
      ],
      "suggestion": "Great. It goes today, then.",
      "suggestionFa": "عالی. پس امروز میره.",
@@ -291,9 +291,9 @@
     },
     {
      "keywords": [
-      "first",
       "let's",
       "stamp",
+      "first",
       "safe"
      ],
      "suggestion": "Let's buy a first-class stamp, to be safe.",

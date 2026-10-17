@@ -127,9 +127,9 @@
     {
      "keywords": [
       "don't",
-      "they",
       "know",
-      "good"
+      "good",
+      "they"
      ],
      "suggestion": "I don't know them. Are they good?",
      "suggestionFa": "نمی‌شناسمشون. خوبن؟",
@@ -279,8 +279,8 @@
     },
     {
      "keywords": [
-      "game",
       "play",
+      "game",
       "can",
       "we"
      ],
@@ -322,8 +322,8 @@
      "keywords": [
       "where's",
       "can't",
-      "see",
-      "bed"
+      "bed",
+      "see"
      ],
      "suggestion": "Where's the bed? I can't see it!",
      "suggestionFa": "تخت کجاست؟ نمی‌بینمش!",
@@ -333,8 +333,8 @@
     },
     {
      "keywords": [
-      "won't",
       "happy",
+      "won't",
       "mum"
      ],
      "suggestion": "Your mum won't be happy!",
@@ -365,8 +365,8 @@
    "branches": [
     {
      "keywords": [
-      "tidy",
-      "room"
+      "room",
+      "tidy"
      ],
      "suggestion": "Yes, my room is very tidy.",
      "suggestionFa": "آره، اتاقم خیلی مرتبه.",

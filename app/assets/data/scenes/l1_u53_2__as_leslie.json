@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "thursday",
+      "birthday",
       "sister",
       "leeds",
       "card"
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "address",
-      "there's",
       "postbox",
+      "there's",
       "outside",
       "write"
      ],
@@ -73,9 +73,9 @@
      "keywords": [
       "postcode",
       "envelope",
+      "number",
       "middle",
-      "street",
-      "number"
+      "street"
      ],
      "suggestion": "In the middle of the envelope. Name, house number, street, town and postcode.",
      "suggestionFa": "وسط پاکت. اسم، شمارهٔ خونه، خیابون، شهر و کد پستی.",
@@ -98,9 +98,9 @@
      "keywords": [
       "collection",
       "comes",
-      "look",
+      "case",
       "last",
-      "case"
+      "back"
      ],
      "suggestion": "Yes, on the back. In case it comes back. Ooh, look at the box. What time is the last collection?",
      "suggestionFa": "آره، پشتش. اگه برگشت. اوه، صندوق را ببین. آخرین جمع‌آوری کیه؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "collection",
+      "postman",
       "o'clock",
       "empties",
-      "postman",
       "before"
      ],
      "suggestion": "When the postman empties the box. It's four o'clock now. We're before the last collection.",
@@ -149,8 +149,8 @@
       "wednesday",
       "thursday",
       "quicker",
-      "should",
-      "second"
+      "arrive",
+      "should"
      ],
      "suggestion": "It should arrive on Wednesday or Thursday. First class is quicker, but this has a second-class stamp.",
      "suggestionFa": "باید چهارشنبه یا پنجشنبه برسه. درجه یک سریع‌تره، ولی این تمبر درجه دو داره.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "fingers",
-      "mind",
+      "idea",
+      "case",
       "just",
-      "good",
-      "idea"
+      "good"
      ],
      "suggestion": "Good idea — just in case. Can you pop it in the box? Mind your fingers!",
      "suggestionFa": "فکر خوبیه — محض احتیاط. می‌تونی بندازیش تو صندوق؟ مواظب انگشتات باش!",
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
+      "nicola",
       "potato",
       "she'll",
-      "nicola",
-      "thank",
+      "horse",
       "looks"
      ],
      "suggestion": "Thank you! She'll love it. Nicola drew a horse on it. Well — she says it's a horse. It looks like a potato!",

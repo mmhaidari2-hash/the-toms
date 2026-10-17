@@ -111,10 +111,10 @@
    "branches": [
     {
      "keywords": [
-      "down",
-      "rest",
       "just",
-      "eyes"
+      "eyes",
+      "rest",
+      "down"
      ],
      "suggestion": "Just lie down and rest your eyes.",
      "suggestionFa": "فقط دراز بکش و چشمات را استراحت بده.",
@@ -161,8 +161,8 @@
      "keywords": [
       "minutes",
       "every",
-      "ten",
-      "why"
+      "why",
+      "ten"
      ],
      "suggestion": "Every ten minutes? Why?",
      "suggestionFa": "هر ده دقیقه؟ چرا؟",
@@ -212,9 +212,9 @@
     {
      "keywords": [
       "sleeping",
-      "he's",
       "like",
-      "baby"
+      "baby",
+      "he's"
      ],
      "suggestion": "He's sleeping like a baby!",
      "suggestionFa": "مثل یه بچه خوابیده!",

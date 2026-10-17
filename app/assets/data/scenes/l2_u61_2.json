@@ -89,8 +89,8 @@
     {
      "keywords": [
       "running",
-      "under",
       "water",
+      "under",
       "cool"
      ],
      "suggestion": "Twenty minutes. Under cool running water.",
@@ -102,9 +102,9 @@
     {
      "keywords": [
       "hurting",
-      "least",
       "stops",
-      "until"
+      "until",
+      "least"
      ],
      "suggestion": "Until it stops hurting. At least twenty minutes.",
      "suggestionFa": "تا وقتی دیگه درد نکنه. حداقل بیست دقیقه.",
@@ -146,9 +146,9 @@
    "branches": [
     {
      "keywords": [
-      "don't",
-      "worry",
       "glove",
+      "worry",
+      "don't",
       "out"
      ],
      "suggestion": "Glove on. Potatoes are out. Don't worry!",
@@ -160,9 +160,9 @@
     {
      "keywords": [
       "turned",
-      "i've",
       "oven",
-      "fine"
+      "fine",
+      "i've"
      ],
      "suggestion": "I've turned the oven off. The potatoes are fine.",
      "suggestionFa": "فر را خاموش کردم. سیب‌زمینی‌ها خوبن.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "show",
-      "big",
-      "how"
+      "how",
+      "big"
      ],
      "suggestion": "How big is it? Show me.",
      "suggestionFa": "چقدر بزرگه؟ نشونم بده.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "loosely",
-      "cover",
       "cling",
+      "cover",
       "film"
      ],
      "suggestion": "Cover it loosely with cling film.",
@@ -312,9 +312,9 @@
     {
      "keywords": [
       "glove",
-      "next",
+      "oven",
       "good",
-      "time"
+      "next"
      ],
      "suggestion": "Good. And next time — oven glove!",
      "suggestionFa": "خوبه. و دفعهٔ بعد — دستکش فر!",

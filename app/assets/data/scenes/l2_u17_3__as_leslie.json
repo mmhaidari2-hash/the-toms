@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "supposed",
       "children",
+      "supposed",
       "starving",
       "quarter",
       "pizza"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "phone's",
       "minutes",
+      "phone's",
       "nearly",
-      "forty",
-      "could"
+      "could",
+      "forty"
      ],
      "suggestion": "The app says \"on its way\" — for forty minutes. Could you call them? My phone's nearly dead.",
      "suggestionFa": "برنامه نوشته «در راهه» — چهل دقیقه‌ست. می‌شه بهشون زنگ بزنی؟ گوشیم تقریباً خاموشه.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "pizzas",
       "polite",
       "garlic",
-      "bread",
-      "large"
+      "pizzas",
+      "large",
+      "seven"
      ],
      "suggestion": "It's two-four-seven-nine. Two large pizzas and garlic bread. Be polite but firm. You're good at that.",
      "suggestionFa": "دو-چهار-هفت-نه. دو تا پیتزای بزرگ و نون سیر. مؤدب ولی محکم باش. تو این کار واردی.",
@@ -98,8 +98,8 @@
      "keywords": [
       "sorry",
       "they",
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "What did they say? Did they say sorry?",
      "suggestionFa": "چی گفتن؟ عذرخواهی کردن؟",
@@ -170,10 +170,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "plates",
+      "please",
       "check",
-      "cold",
+      "i'll",
       "send"
      ],
      "suggestion": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
+      "children",
       "goodness",
       "forgiven",
-      "children",
       "cookies",
-      "pizza"
+      "never"
      ],
      "suggestion": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
      "suggestionFa": "کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند.",

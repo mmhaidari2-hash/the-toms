@@ -75,7 +75,7 @@
       "talking",
       "sorry",
       "iran",
-      "was"
+      "mum"
      ],
      "suggestion": "Sorry! I was talking to my mum in Iran.",
      "suggestionFa": "ببخشید! داشتم با مامانم تو ایران حرف می‌زدم.",
@@ -156,8 +156,8 @@
      "keywords": [
       "seriously",
       "angry",
-      "they",
-      "will"
+      "will",
+      "they"
      ],
      "suggestion": "Seriously? Will they be angry?",
      "suggestionFa": "جدی؟ عصبانی میشن؟",
@@ -250,10 +250,10 @@
     },
     {
      "keywords": [
-      "please",
       "excuse",
+      "please",
       "could",
-      "down"
+      "keep"
      ],
      "suggestion": "Excuse me, could you keep it down, please?",
      "suggestionFa": "ببخشید، میشه لطفاً صداش را کم کنید؟",
@@ -289,8 +289,8 @@
      "keywords": [
       "headphones",
       "excuse",
-      "would",
-      "using"
+      "using",
+      "would"
      ],
      "suggestion": "Excuse me, would you mind using headphones?",
      "suggestionFa": "ببخشید، اشکالی نداره هدفون بزنید؟",
@@ -301,8 +301,8 @@
     {
      "keywords": [
       "maya",
-      "shy",
       "say",
+      "shy",
       "can"
      ],
      "suggestion": "I'm too shy. Can you say it, Maya?",

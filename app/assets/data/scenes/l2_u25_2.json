@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "credit",
+      "what's",
       "check"
      ],
      "suggestion": "What's a credit check?",
@@ -139,9 +139,9 @@
     {
      "keywords": [
       "months",
-      "four",
       "only",
-      "here"
+      "here",
+      "four"
      ],
      "suggestion": "But I've only been here for four months.",
      "suggestionFa": "ولی من فقط چهار ماهه اینجام.",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "crossed",
       "fingers",
+      "crossed",
       "ok"
      ],
      "suggestion": "OK. Fingers crossed!",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "when",
-      "tom",
       "was",
+      "tom",
       "ha"
      ],
      "suggestion": "Ha! When was that, Tom?",
@@ -389,9 +389,9 @@
     {
      "keywords": [
       "clever",
+      "tom",
       "was",
-      "dad",
-      "tom"
+      "dad"
      ],
      "suggestion": "Your dad was clever, Tom.",
      "suggestionFa": "بابات زرنگ بود، تام.",
@@ -430,9 +430,9 @@
     {
      "keywords": [
       "months",
-      "come",
       "only",
-      "back"
+      "back",
+      "i'll"
      ],
      "suggestion": "Yes. SIM-only, and I'll come back in six months.",
      "suggestionFa": "آره. فقط سیم‌کارت، و شش ماه دیگه برمی‌گردم.",
@@ -442,8 +442,8 @@
     },
     {
      "keywords": [
-      "write",
       "steps",
+      "write",
       "down",
       "can"
      ],

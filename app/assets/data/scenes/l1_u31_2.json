@@ -65,8 +65,8 @@
    "branches": [
     {
      "keywords": [
-      "who",
-      "won"
+      "won",
+      "who"
      ],
      "suggestion": "Who won?",
      "suggestionFa": "کی برد؟",
@@ -77,8 +77,8 @@
     {
      "keywords": [
       "catch",
-      "did",
-      "mia"
+      "mia",
+      "did"
      ],
      "suggestion": "Did Mia catch you?",
      "suggestionFa": "میا گرفتت؟",
@@ -317,8 +317,8 @@
     },
     {
      "keywords": [
-      "game",
       "like",
+      "game",
       "tag"
      ],
      "suggestion": "We played a game like tag.",

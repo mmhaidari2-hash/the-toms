@@ -25,7 +25,7 @@
       "barbecue",
       "o'clock",
       "having",
-      "about"
+      "we're"
      ],
      "suggestion": "We're having a barbecue on Saturday. Would you like to come? About two o'clock?",
      "suggestionFa": "شنبه کباب‌پزی داریم. دوست داری بیای؟ حدود ساعت دو؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "instead",
-      "that's",
       "sunday",
-      "about",
-      "shame"
+      "that's",
+      "shame",
+      "going"
      ],
      "suggestion": "Oh, that's a shame. What about Sunday lunch instead? We're going to do a roast.",
      "suggestionFa": "آه، حیف شد. ناهار یکشنبه چطوره؟ قراره کباب یکشنبه درست کنیم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "merrier",
+      "o'clock",
       "invite",
       "friend",
       "shall"
@@ -98,9 +98,9 @@
      "keywords": [
       "anything",
       "people",
-      "means",
       "there",
-      "don't"
+      "don't",
+      "means"
      ],
      "suggestion": "It means more people make it more fun. Is there anything you don't eat?",
      "suggestionFa": "یعنی آدم‌های بیشتر یعنی خوش‌گذرونی بیشتر. چیزی هست که نخوری؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "calendar",
+      "problem",
       "chicken",
       "o'clock",
-      "problem",
       "sunday"
      ],
      "suggestion": "No problem — we'll do chicken. Shall I write it in the calendar? Sunday, one o'clock.",

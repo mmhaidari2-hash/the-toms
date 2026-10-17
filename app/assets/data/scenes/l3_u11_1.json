@@ -140,9 +140,9 @@
     {
      "keywords": [
       "still",
-      "move",
       "five",
-      "when"
+      "nine",
+      "keep"
      ],
      "suggestion": "A five when I keep still, but a nine if I move it.",
      "suggestionFa": "وقتی تکونش نمی‌دم پنج، ولی اگه حرکتش بدم نه.",
@@ -204,8 +204,8 @@
     },
     {
      "keywords": [
-      "thumb",
       "feels",
+      "thumb",
       "numb",
       "bit"
      ],
@@ -247,8 +247,8 @@
      "keywords": [
       "paracetamol",
       "allergies",
-      "half",
-      "took"
+      "took",
+      "half"
      ],
      "suggestion": "I took two paracetamol at half one. No allergies.",
      "suggestionFa": "ساعت یک و نیم دو تا پاراستامول خوردم. حساسیت ندارم.",
@@ -295,9 +295,9 @@
    "branches": [
     {
      "keywords": [
-      "wait",
-      "long",
       "will",
+      "long",
+      "wait",
       "how"
      ],
      "suggestion": "How long will I have to wait?",
@@ -397,8 +397,8 @@
    "branches": [
     {
      "keywords": [
-      "while",
       "drink",
+      "while",
       "wait",
       "will"
      ],

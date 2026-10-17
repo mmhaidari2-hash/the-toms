@@ -21,8 +21,8 @@
      "keywords": [
       "thompson's",
       "discount",
-      "charged",
-      "council"
+      "council",
+      "charged"
      ],
      "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
      "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
@@ -35,7 +35,7 @@
       "incorrect",
       "helping",
       "believe",
-      "that's"
+      "maggie"
      ],
      "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
      "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "diagnosis",
-      "george",
       "leslie",
-      "after"
+      "george",
+      "moved"
      ],
      "suggestion": "George moved in with Tom and Leslie in March, after his diagnosis.",
      "suggestionFa": "جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی.",
@@ -93,7 +93,7 @@
       "circumstances",
       "changed",
       "until",
-      "have"
+      "true"
      ],
      "suggestion": "That was true until March, but circumstances have changed.",
      "suggestionFa": "تا مارس درست بود، ولی شرایط عوض شده.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "appreciate",
-      "apology",
       "happens",
+      "apology",
       "now"
      ],
      "suggestion": "I appreciate the apology. What happens now?",
@@ -236,8 +236,8 @@
      "keywords": [
       "received",
       "reminder",
-      "notice",
-      "cancel"
+      "cancel",
+      "that's"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
      "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
@@ -355,7 +355,7 @@
       "appreciate",
       "writing",
       "could",
-      "put"
+      "i'd"
      ],
      "suggestion": "I'd appreciate it if you could put that in writing, too.",
      "suggestionFa": "ممنون می‌شم اگه اونو کتبی هم بفرستید.",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "anything",
       "entitled",
+      "anything",
       "helpful",
       "didn't"
      ],
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "escalate",
       "resolved",
+      "escalate",
       "isn't",
       "how"
      ],

@@ -67,8 +67,8 @@
     {
      "keywords": [
       "about",
-      "nice",
       "talk",
+      "nice",
       "we"
      ],
      "suggestion": "Nice! What do we talk about?",
@@ -80,8 +80,8 @@
     {
      "keywords": [
       "oscar",
-      "next",
       "i'll",
+      "next",
       "sit"
      ],
      "suggestion": "OK, I'll sit next to Oscar.",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "want",
       "more",
+      "want",
       "pie"
      ],
      "suggestion": "Yes! Do you want more pie?",
@@ -180,8 +180,8 @@
      "keywords": [
       "clean",
       "plate",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done, a clean plate!",
      "suggestionFa": "آفرین، بشقاب تمیز!",
@@ -215,9 +215,9 @@
    "branches": [
     {
      "keywords": [
+      "none",
       "most",
       "some",
-      "none",
       "all"
      ],
      "suggestion": "All, most, some or none. OK.",

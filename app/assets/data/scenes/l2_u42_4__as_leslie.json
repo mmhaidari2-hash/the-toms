@@ -23,9 +23,9 @@
      "keywords": [
       "doesn't",
       "nicola",
-      "phone",
       "years",
-      "photo"
+      "photo",
+      "phone"
      ],
      "suggestion": "Look at this photo on my phone. Tom at five years old, in this park. Doesn't Nicola look like him?",
      "suggestionFa": "این عکس رو گوشیم را ببین. تام تو پنج سالگی، تو همین پارک. نیکولا شبیهش نیست؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "nicola's",
       "cheeky",
-      "stick",
-      "small",
-      "dad's"
+      "smile",
+      "dad's",
+      "small"
      ],
      "suggestion": "Small and cheeky! Yes, same smile, same ears that stick out. Nicola's got her dad's ears. Poor girl!",
      "suggestionFa": "کوچیک و شیطون! آره، همون لبخند، همون گوش‌هایی که بیرون زده. نیکولا گوش‌های باباش را داره. دختر بیچاره!",
@@ -75,7 +75,7 @@
       "always",
       "hungry",
       "takes",
-      "jokes"
+      "after"
      ],
      "suggestion": "Ryan looks like me — dark hair, brown eyes. But he takes after his dad. Football, jokes, and he's always hungry.",
      "suggestionFa": "رایان شبیه منه — موی تیره، چشم قهوه‌ای. ولی اخلاقش به باباش رفته. فوتبال، شوخی، و همیشه گرسنه‌ست.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "character",
-      "someone",
       "usually",
-      "mystery",
+      "someone",
+      "william",
       "similar"
      ],
      "suggestion": "\"Takes after\" means he's similar to someone in his family — usually in character. And William? Total mystery!",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "stubbornness",
-      "maggie's",
       "george's",
+      "maggie's",
       "right",
-      "look"
+      "eyes"
      ],
      "suggestion": "You're right — Maggie's blue eyes! And George's stubbornness. Do you look like your mum or your dad?",
      "suggestionFa": "راست میگی — چشم‌های آبی مگی! و لجبازی جورج. تو شبیه مامانتی یا بابات؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "eyebrows",
       "handsome",
+      "eyebrows",
       "father",
       "photo",
-      "look"
+      "like"
      ],
      "suggestion": "Do you have a photo? Oh, look at him! Yes — same nose, same eyebrows. And very handsome. Like father, like son!",
      "suggestionFa": "عکس داری؟ اوه، نگاهش کن! آره — همون دماغ، همون ابروها. و خیلی خوش‌تیپ. پسر کو ندارد نشان از پدر!",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "patient",
-      "here's",
       "nicola",
+      "here's",
       "house",
       "look"
      ],
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -255,9 +255,9 @@
      "keywords": [
       "goldfish",
       "tonight",
+      "truth",
       "there",
-      "looks",
-      "truth"
+      "looks"
      ],
      "suggestion": "There you are. The truth from a five-year-old. She looks like a goldfish. I'll tell Tom tonight!",
      "suggestionFa": "بفرما. حقیقت از زبون یه بچهٔ پنج ساله. شبیه ماهی قرمزه. امشب به تام میگم!",

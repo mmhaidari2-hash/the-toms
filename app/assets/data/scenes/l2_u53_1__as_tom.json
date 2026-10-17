@@ -24,8 +24,8 @@
       "cashpoint",
       "cleaner",
       "school",
-      "window",
-      "twenty"
+      "twenty",
+      "window"
      ],
      "suggestion": "Quick stop at the cashpoint. The window cleaner comes today, and he only takes cash. Twenty quid. Old school.",
      "suggestionFa": "یه توقف سریع کنار خودپرداز. پنجره‌پاک‌کن امروز میاد، و فقط نقد می‌گیره. بیست پوند. قدیمی.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cleaner",
-      "window",
       "market",
+      "nana's",
       "stalls",
-      "nana's"
+      "window"
      ],
      "suggestion": "Not many. Most shops take cards — tap and go. But some are still \"cash only\": the window cleaner, market stalls, Nana's bingo.",
      "suggestionFa": "نه خیلی‌ها. بیشتر مغازه‌ها کارت قبول می‌کنن — بزن و برو. ولی بعضی‌ها هنوز «فقط نقد»ان: پنجره‌پاک‌کن، غرفه‌های بازار، بینگوی نانا.",
@@ -75,7 +75,7 @@
       "charges",
       "exactly",
       "thirty",
-      "ninety"
+      "twenty"
      ],
      "suggestion": "Exactly. Twenty or thirty quid in your wallet. Just in case. Ah — this cashpoint charges one ninety-nine! No way.",
      "suggestionFa": "دقیقاً. بیست سی پوند تو کیف پولت. محض احتیاط. آه — این خودپرداز یک و نود و نه کارمزد می‌گیره! عمراً.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "minutes'",
-      "outside",
       "robbery",
+      "outside",
       "always",
-      "these"
+      "shops"
      ],
      "suggestion": "The one outside the bank is free. Always use a bank one. These ones in shops — robbery! Come on, two minutes' walk.",
      "suggestionFa": "اونی که بیرون بانکه رایگانه. همیشه از مال بانک استفاده کن. این‌هایی که تو مغازه‌ان — دزدیه! بیا، دو دقیقه پیاده.",
@@ -124,8 +124,8 @@
       "cashpoint",
       "anything",
       "callum's",
-      "carrier",
-      "payment"
+      "payment",
+      "carrier"
      ],
      "suggestion": "Callum's? Card, phone, watch, anything. He'd take payment by carrier pigeon if he could. Right, here's the bank cashpoint.",
      "suggestionFa": "کالوم؟ کارت، گوشی، ساعت، هر چی. اگه می‌تونست با کبوتر نامه‌بر هم پول می‌گرفت. خب، اینم خودپرداز بانک.",
@@ -148,9 +148,9 @@
      "keywords": [
       "emergencies",
       "cleaner",
-      "second",
       "pounds",
-      "forgot"
+      "always",
+      "twenty"
      ],
      "suggestion": "Good man. Always cover the PIN. I forgot mine for a second! Got it. Forty pounds: twenty for the cleaner, twenty for emergencies.",
      "suggestionFa": "آفرین. همیشه رمز را بپوشون. یه لحظه رمزم یادم رفت! یادم اومد. چهل پوند: بیست تا برای پنجره‌پاک‌کن، بیست تا برای مواقع اضطراری.",
@@ -174,8 +174,8 @@
       "emergencies",
       "emergency",
       "william",
-      "there",
-      "cream"
+      "miles",
+      "there"
      ],
      "suggestion": "Emergencies like the ice cream van. It's cash only, and William can hear it from two miles away. Best emergency fund there is.",
      "suggestionFa": "موارد اضطراری مثل ون بستنی. فقط نقده، و ویلیام از دو مایل دورتر صداش را می‌شنوه. بهترین صندوق اضطراری.",

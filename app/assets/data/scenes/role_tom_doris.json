@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "thanks",
+      "cheers",
       "knees",
       "she's"
      ],
@@ -82,7 +82,7 @@
       "doctor",
       "about",
       "been",
-      "have"
+      "them"
      ],
      "suggestion": "Have you been to the doctor about them?",
      "suggestionFa": "برای زانوهات دکتر رفتی؟",
@@ -116,9 +116,9 @@
    "branches": [
     {
      "keywords": [
-      "doris",
       "leave",
       "don't",
+      "doris",
       "long"
      ],
      "suggestion": "Don't leave it too long, Doris.",
@@ -164,8 +164,8 @@
     {
      "keywords": [
       "always",
-      "saved",
       "front",
+      "saved",
       "seat"
      ],
      "suggestion": "I've saved you the front seat as always.",
@@ -178,8 +178,8 @@
      "keywords": [
       "young",
       "will",
-      "sure",
-      "move"
+      "move",
+      "sure"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -211,8 +211,8 @@
     {
      "keywords": [
       "cherries",
-      "doris",
-      "spoil"
+      "spoil",
+      "doris"
      ],
      "suggestion": "Cherries! You spoil me, Doris.",
      "suggestionFa": "آلبالو! لوسم می‌کنی دوریس.",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "slowing",
+      "about",
       "still",
-      "route",
-      "about"
+      "route"
      ],
      "suggestion": "He's slowing down, but he still asks about this old route.",
      "suggestionFa": "داره کند میشه، ولی هنوز سراغ این مسیر قدیمی را می‌گیره.",
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "thanks",
-      "doris",
       "means",
+      "doris",
       "lot"
      ],
      "suggestion": "Thanks, Doris. That means a lot.",

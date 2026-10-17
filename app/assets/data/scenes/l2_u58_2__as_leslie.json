@@ -50,7 +50,7 @@
       "children",
       "fifteen",
       "tickets",
-      "scream"
+      "before"
      ],
      "suggestion": "The eleven a.m. Before William's nap — or he'll scream. Tickets: two adults and three children. Is Ryan a child? He's fifteen.",
      "suggestionFa": "ساعت یازده صبح. قبل از خواب ویلیام — وگرنه جیغ می‌زنه. بلیت: دو بزرگسال و سه بچه. رایان بچه حساب میشه؟ پونزده سالشه.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "family",
-      "people",
       "ticket",
-      "price",
+      "people",
+      "adult",
       "there"
      ],
      "suggestion": "An adult! He'll love that. Ooh — and is there a family ticket? Four people for one price? Have a look.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "family",
-      "turned",
       "ticket",
-      "three",
-      "where"
+      "turned",
+      "adult",
+      "three"
      ],
      "suggestion": "He turned three last month, so no! Family ticket plus one adult — Tom or me. Now, seats. Where would you like to sit?",
      "suggestionFa": "ماه پیش سه سالش شد، پس نه! بلیت خانوادگی به‌اضافهٔ یه بزرگسال — تام یا من. حالا جاها. کجا می‌خوای بشینی؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "thirteen",
       "learning",
-      "toilet",
       "nicola",
-      "times"
+      "toilet",
+      "three"
      ],
      "suggestion": "The aisle! You're learning. Nicola needs the toilet three times per film. Row G, seats eight to thirteen. Click!",
      "suggestionFa": "راهرو! داری یاد می‌گیری. نیکولا هر فیلم سه بار دستشویی لازم داره. ردیف G، صندلی هشت تا سیزده. کلیک!",
@@ -150,7 +150,7 @@
       "obviously",
       "coming",
       "sixth",
-      "hero"
+      "card"
      ],
      "suggestion": "Six — the sixth is for you! You're coming too, obviously. Paddington's your hero now. Pay with my card.",
      "suggestionFa": "شش تا — ششمی برای توئه! معلومه که تو هم میای. پدینگتون الان قهرمانته. با کارت من پرداخت کن.",

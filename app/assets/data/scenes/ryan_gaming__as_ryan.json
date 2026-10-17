@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "chelsea",
       "support",
+      "chelsea",
       "d'you",
       "don't",
-      "talk"
+      "then"
      ],
      "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
      "suggestionFa": "حرف گنده! خب طرفدار کدوم تیمی؟ نگی چلسی.",
@@ -124,8 +124,8 @@
       "controller",
       "cheers",
       "footy",
-      "play",
-      "pass"
+      "home",
+      "sick"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
      "suggestionFa": "عالیه. اون دسته را بده، مرسی. تو وطنت فوتبال بازی می‌کنی؟",
@@ -149,8 +149,8 @@
       "friends",
       "support",
       "united",
-      "d'you",
-      "don't"
+      "can't",
+      "d'you"
      ],
      "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
      "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم.",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "liverpool",
       "obviously",
-      "bricking",
+      "liverpool",
       "tomorrow",
+      "bricking",
       "anyway"
      ],
      "suggestion": "Liverpool, obviously. Dad's lot. Anyway — I've got a maths test tomorrow and I'm bricking it.",
@@ -198,8 +198,8 @@
      "keywords": [
       "algebra",
       "legend",
-      "don't",
       "would",
+      "don't",
       "just"
      ],
      "suggestion": "Would you? Legend. It's algebra — I just don't get what x is for.",

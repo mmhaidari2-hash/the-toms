@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "doris",
       "talks",
+      "doris",
       "about",
       "tom"
      ],
@@ -53,8 +53,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "maggie",
+      "didn't",
       "nana",
       "why"
      ],
@@ -119,9 +119,9 @@
     {
      "keywords": [
       "age",
-      "one",
       "get",
-      "can"
+      "can",
+      "one"
      ],
      "suggestion": "At what age can you get one?",
      "suggestionFa": "از چند سالگی میشه گرفتش؟",
@@ -177,7 +177,7 @@
       "years",
       "must",
       "ten",
-      "use"
+      "lot"
      ],
      "suggestion": "Ten years! You must use it a lot.",
      "suggestionFa": "ده سال! حتماً زیاد ازش استفاده می‌کنی.",
@@ -229,7 +229,7 @@
       "that's",
       "years",
       "five",
-      "long"
+      "time"
      ],
      "suggestion": "Five years. That's a long time.",
      "suggestionFa": "پنج سال. مدت زیادیه.",
@@ -268,10 +268,10 @@
    "branches": [
     {
      "keywords": [
-      "online",
       "maggie",
+      "online",
       "renew",
-      "nana"
+      "help"
      ],
      "suggestion": "I can help you renew it online, Nana Maggie.",
      "suggestionFa": "می‌تونم کمکت کنم آنلاین تمدیدش کنی، ننه مگی.",
@@ -282,8 +282,8 @@
     {
      "keywords": [
       "george",
-      "about",
       "sorry",
+      "about",
       "how"
      ],
      "suggestion": "I'm sorry about George. How is he?",
@@ -388,9 +388,9 @@
     {
      "keywords": [
       "maggie",
-      "take",
+      "home",
       "nana",
-      "home"
+      "take"
      ],
      "suggestion": "Nana Maggie, we can take it at home.",
      "suggestionFa": "ننه مگی، می‌تونیم تو خونه بگیریمش.",

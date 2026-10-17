@@ -24,7 +24,7 @@
       "hospitals",
       "homerton",
       "parking",
-      "check",
+      "costs",
       "lunch"
      ],
      "suggestion": "Here we are, Homerton. I hate hospitals — the parking costs more than my lunch. Dad, sit down. Can you check us in?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -103,11 +103,11 @@
    "branches": [
     {
      "keywords": [
-      "nineteen",
       "thompson",
+      "nineteen",
       "surname",
-      "fifty",
-      "third"
+      "wants",
+      "march"
      ],
      "suggestion": "It wants his surname and date of birth. Thompson, third of March, nineteen fifty.",
      "suggestionFa": "فامیل و تاریخ تولدش را می‌خواد. تامسون، سوم مارس، هزار و نهصد و پنجاه.",
@@ -131,8 +131,8 @@
       "hospitals",
       "coloured",
       "follow",
-      "green",
-      "lines"
+      "floor",
+      "green"
      ],
      "suggestion": "Area C — follow the green line on the floor. Hospitals love coloured lines. Dad, follow the green line!",
      "suggestionFa": "بخش C — خط سبز روی زمین را دنبال کن. بیمارستان‌ها عاشق خطوط رنگی‌ان. بابا، خط سبز را دنبال کن!",
@@ -212,11 +212,11 @@
    "branches": [
     {
      "keywords": [
-      "running",
       "minutes",
+      "running",
       "screen",
       "course",
-      "names"
+      "forty"
      ],
      "suggestion": "Now we wait. The screen calls names. It says \"Running forty minutes late\". Of course it does.",
      "suggestionFa": "حالا منتظر می‌مونیم. صفحه اسم‌ها را صدا می‌زنه. نوشته «چهل دقیقه تأخیر». معلومه که داره.",
@@ -237,8 +237,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -297,8 +297,8 @@
       "nothing",
       "before",
       "sugars",
-      "right",
-      "blood"
+      "blood",
+      "right"
      ],
      "suggestion": "He's right, Dad — nothing before the blood test. Ha! Your face! OK, a tea for me. Milk, two sugars.",
      "suggestionFa": "راست میگه بابا — قبل از آزمایش خون هیچی. ها! قیافه‌ات! باشه، یه چای برای من. شیر، دو تا قند.",

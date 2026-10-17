@@ -22,10 +22,10 @@
     {
      "keywords": [
       "retired",
-      "people",
       "thirty",
-      "route",
-      "years"
+      "people",
+      "years",
+      "route"
      ],
      "suggestion": "Never told many people this. My dad drove the 38 too. Thirty-one years. I took his route when he retired.",
      "suggestionFa": "به خیلی‌ها نگفتم. بابام هم ۳۸ را می‌روند. سی و یک سال. وقتی بازنشسته شد مسیرش را گرفتم.",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "victoria",
-      "between",
       "clapton",
       "pothole",
+      "between",
       "nearly"
      ],
      "suggestion": "Same route, same cab, nearly. He knew every pothole between Victoria and Clapton Pond.",
@@ -74,8 +74,8 @@
       "saturday",
       "upstairs",
       "passed",
-      "front",
-      "house"
+      "twice",
+      "front"
      ],
      "suggestion": "Every Saturday. Front seat upstairs. He'd ding the bell twice when we passed our house — just for me.",
      "suggestionFa": "هر شنبه. صندلی جلوی طبقهٔ بالا. وقتی از جلوی خونه‌مون رد می‌شدیم دو بار زنگ می‌زد — فقط برای من.",
@@ -125,7 +125,7 @@
       "failing",
       "doctor",
       "heart",
-      "he's"
+      "says"
      ],
      "suggestion": "He does. Dad was the same with me. Now it's his heart — the doctor says it's failing. He's seventy-six.",
      "suggestionFa": "عاشقشه. بابا هم با من همین‌طور بود. حالا قلبشه — دکتر می‌گه داره ضعیف میشه. هفتاد و شش سالشه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "mornings",
       "stubborn",
-      "depot",
+      "mornings",
       "still",
-      "wave"
+      "depot",
+      "some"
      ],
      "suggestion": "Stubborn as ever. Some mornings I still wave at the depot like he's in the cab. Daft, eh?",
      "suggestionFa": "مثل همیشه یک‌دنده. بعضی صبح‌ها هنوز به پایانه دست تکون می‌دم انگار تو کابینه. احمقانه‌ست، نه؟",
@@ -175,7 +175,7 @@
       "that's",
       "didn't",
       "don't",
-      "nice"
+      "lost"
      ],
      "suggestion": "Yeah? That's nice, that. You lost someone too, didn't you? You don't have to say.",
      "suggestionFa": "آره؟ قشنگه این. تو هم کسی را از دست دادی، نه؟ لازم نیست بگی.",
@@ -199,8 +199,8 @@
       "whenever",
       "garden's",
       "alright",
-      "that's",
-      "kettle"
+      "kettle",
+      "always"
      ],
      "suggestion": "That's alright, mate. Whenever you're ready. The garden's always here, and so's the kettle.",
      "suggestionFa": "اشکالی نداره رفیق. هر وقت آماده بودی. باغچه همیشه اینجاست، کتری هم همین‌طور.",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "leslie'll",
+      "dad'll",
       "family",
       "that's",
-      "cheers",
-      "dad'll"
+      "cheers"
      ],
      "suggestion": "Cheers, mate. You're family now — that's why I told you. Come on — Dad'll want his tea, and Leslie'll think we've run off.",
      "suggestionFa": "مرسی رفیق. الان جزو خانواده‌ای — برای همین بهت گفتم. بیا — بابا چاییش را می‌خواد، و لزلی فکر می‌کنه فرار کردیم.",

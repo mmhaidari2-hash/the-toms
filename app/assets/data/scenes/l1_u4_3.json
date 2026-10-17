@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "minutes",
+      "fifteen",
       "you've",
       "hurry"
      ],
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "station",
-      "don't",
       "worry",
-      "close"
+      "close",
+      "don't"
      ],
      "suggestion": "Don't worry, the station is close.",
      "suggestionFa": "نگران نباش، ایستگاه نزدیکه.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "kettle",
-      "next",
-      "keys"
+      "keys",
+      "next"
      ],
      "suggestion": "Your keys are next to the kettle.",
      "suggestionFa": "کلیدهات کنار کتری‌ان.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "quarter",
-      "past",
-      "four"
+      "four",
+      "past"
      ],
      "suggestion": "At quarter past four.",
      "suggestionFa": "چهار و ربع.",
@@ -278,8 +278,8 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "good",
+      "have",
       "bye",
       "day"
      ],
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "later",
-      "see",
-      "tom"
+      "tom",
+      "see"
      ],
      "suggestion": "See you later, Tom!",
      "suggestionFa": "بعداً می‌بینمت، تام!",

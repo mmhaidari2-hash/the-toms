@@ -22,8 +22,8 @@
    "branches": [
     {
      "keywords": [
-      "william's",
       "lunchtime",
+      "william's",
       "morning",
       "calpol",
       "cough"
@@ -50,8 +50,8 @@
       "temperature",
       "morning",
       "course",
-      "know",
-      "form"
+      "form",
+      "need"
      ],
      "suggestion": "No temperature this morning. Oh, a form — of course. What do you need to know?",
      "suggestionFa": "امروز صبح تب نداشت. آهان، فرم — البته. چی باید بدونید؟",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "morning",
-      "here's",
-      "twelve",
       "bottle",
+      "twelve",
+      "here's",
       "seven"
      ],
      "suggestion": "5 ml at twelve. He had some at seven this morning. Here's the bottle — it's got his name on.",
@@ -97,8 +97,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "william",
-      "auntie",
       "number",
+      "auntie",
       "thank",
       "vida"
      ],

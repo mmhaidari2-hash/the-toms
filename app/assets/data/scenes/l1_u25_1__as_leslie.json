@@ -73,8 +73,8 @@
       "should",
       "white",
       "shirt",
-      "good",
-      "wear"
+      "then",
+      "blue"
      ],
      "suggestion": "Then a shirt is good. Blue or white? Should you wear a tie?",
      "suggestionFa": "پس پیراهن خوبه. آبی یا سفید؟ کراوات بزنی؟",
@@ -97,9 +97,9 @@
      "keywords": [
       "relaxed",
       "ironed",
+      "shirt",
       "smart",
-      "these",
-      "shirt"
+      "these"
      ],
      "suggestion": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
      "suggestionFa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟",
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "cupboard",
-      "iron's",
-      "jumper",
       "chilly",
+      "jumper",
+      "iron's",
       "about"
      ],
      "suggestion": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
@@ -148,8 +148,8 @@
       "trainers",
       "smart",
       "shoes",
-      "good",
-      "navy"
+      "navy",
+      "good"
      ],
      "suggestion": "Good. Navy is smart. Now — shoes! Not trainers.",
      "suggestionFa": "خوبه. سورمه‌ای شیکه. حالا — کفش! نه کتونی.",
@@ -172,9 +172,9 @@
      "keywords": [
       "interview",
       "perfect",
-      "shoes",
-      "black",
-      "first"
+      "clean",
+      "first",
+      "shoes"
      ],
      "suggestion": "For an interview, yes! Black shoes are perfect. Clean them first!",
      "suggestionFa": "برای مصاحبه، آره! کفش مشکی عالیه. اول تمیزشون کن!",
@@ -198,8 +198,8 @@
       "brilliant",
       "you'll",
       "smart",
-      "look",
-      "luck"
+      "good",
+      "look"
      ],
      "suggestion": "Look at you! Very smart. Good luck! You'll be brilliant.",
      "suggestionFa": "خودت را ببین! خیلی شیک. موفق باشی! عالی می‌شی.",
@@ -223,8 +223,8 @@
       "everyone's",
       "yourself",
       "nervous",
-      "hello",
-      "after"
+      "after",
+      "smile"
      ],
      "suggestion": "Everyone's nervous. Smile, say hello, and be yourself. Text me after!",
      "suggestionFa": "همه استرس دارن. لبخند بزن، سلام کن، و خودت باش. بعدش بهم پیام بده!",

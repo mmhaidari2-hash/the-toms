@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "cancel",
       "afraid",
+      "cancel",
       "like",
       "i'd"
      ],
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "about",
-      "talk",
       "need",
+      "talk",
       "jade"
      ],
      "suggestion": "Hi Jade. I need to talk about my membership.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "hours",
-      "i've",
       "long",
+      "i've",
       "got"
      ],
      "suggestion": "I've got a new job. The hours are very long.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
+      "month",
       "tight",
-      "money",
-      "month"
+      "money"
      ],
      "suggestion": "Money is tight this month.",
      "suggestionFa": "این ماه وضع مالیم تنگه.",
@@ -251,8 +251,8 @@
     },
     {
      "keywords": [
-      "cancel",
       "rather",
+      "cancel",
       "thank",
       "i'd"
      ],

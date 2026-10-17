@@ -249,7 +249,7 @@
       "expect",
       "fixed",
       "nine",
-      "by"
+      "we"
      ],
      "suggestion": "\"We expect it to be fixed by nine p.m.\"",
      "suggestionFa": "«انتظار داریم تا ساعت ۹ شب درست شود.»",
@@ -302,8 +302,8 @@
      "keywords": [
       "unlimited",
       "course",
-      "i've",
-      "data"
+      "data",
+      "i've"
      ],
      "suggestion": "Of course. I've got unlimited data.",
      "suggestionFa": "البته. اینترنت نامحدود دارم.",
@@ -357,8 +357,8 @@
    "branches": [
     {
      "keywords": [
-      "poor",
       "book",
+      "poor",
       "ha"
      ],
      "suggestion": "Ha! A book! Poor Ryan.",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "instead",
-      "cards",
       "let's",
+      "cards",
       "play"
      ],
      "suggestion": "Ryan, let's play cards instead.",
@@ -412,8 +412,8 @@
      "keywords": [
       "working",
       "lights",
-      "green",
-      "again"
+      "again",
+      "green"
      ],
      "suggestion": "Green lights! It's working again.",
      "suggestionFa": "چراغ سبز! دوباره کار می‌کنه.",
@@ -424,9 +424,9 @@
     {
      "keywords": [
       "hotspot",
+      "i'll",
       "turn",
-      "then",
-      "i'll"
+      "then"
      ],
      "suggestion": "I'll turn my hotspot off, then.",
      "suggestionFa": "پس هات‌اسپاتم را خاموش می‌کنم.",

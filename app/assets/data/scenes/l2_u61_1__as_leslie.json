@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "swollen",
       "balloon",
+      "swollen",
       "already",
       "purple",
       "colour"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "should",
-      "though",
       "broken",
-      "stand",
-      "hurts"
+      "though",
+      "should",
+      "hurts",
+      "stand"
      ],
      "suggestion": "I can move my toes. And I can stand on it — just. Hurts like mad, though. Is it broken? Should I go to A&E?",
      "suggestionFa": "انگشت‌هام تکون می‌خورن. و می‌تونم روش وایسم — به‌زور. ولی دیوونه‌وار درد می‌کنه. شکسته؟ باید برم اورژانس؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "probably",
       "tomorrow",
       "injuries",
+      "probably",
       "sprain",
-      "minor"
+      "worse"
      ],
      "suggestion": "Good idea. … The nurse says it's probably a sprain. Rest, ice, and keep it up. If it's worse tomorrow, go to minor injuries.",
      "suggestionFa": "فکر خوبیه. … پرستار میگه احتمالاً رگ‌به‌رگه. استراحت، یخ، و بالا نگهش دار. اگه فردا بدتر شد، برو واحد آسیب‌های جزئی.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "perfect",
+      "sports",
       "drinks",
       "frozen",
-      "sports",
-      "we've"
+      "there"
      ],
      "suggestion": "We've got no ice. Tom used it all for his \"sports drinks\". Is there a bag of frozen peas? Peas are perfect.",
      "suggestionFa": "یخ نداریم. تام همه‌اش را برای «نوشیدنی ورزشیش» مصرف کرد. یه کیسه نخودفرنگی یخ‌زده هست؟ نخودفرنگی عالیه.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "better",
       "anyway",
       "nicola",
+      "better",
+      "that's",
       "house"
      ],
      "suggestion": "Oh, that's better. Cold, but better. The best use of peas in this house — Nicola won't eat them anyway!",

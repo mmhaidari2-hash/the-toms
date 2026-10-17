@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "there",
-      "three",
       "let's",
+      "three",
+      "there",
       "count",
       "many"
      ],
@@ -49,8 +49,8 @@
       "spoons",
       "eight",
       "seven",
-      "nine",
-      "eggs"
+      "eggs",
+      "nine"
      ],
      "suggestion": "Yes! Six eggs. Now the spoons. Seven, eight, nine, ten!",
      "suggestionFa": "آره! شش‌تا تخم‌مرغ. حالا قاشق‌ها. هفت، هشت، نه، ده!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "thirteen",
       "fourteen",
+      "thirteen",
       "fifteen",
       "twelve",
       "eleven"
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuits",
       "nineteen",
+      "biscuits",
       "twenty",
       "many",
-      "tin"
+      "did"
      ],
      "suggestion": "Nineteen, twenty! I did it! How many biscuits are in the tin?",
      "suggestionFa": "نوزده، بیست! تونستم! چندتا بیسکویت توی قوطیه؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "biscuits",
       "always",
-      "bake",
-      "eats",
-      "ryan"
+      "ryan",
+      "some",
+      "them"
      ],
      "suggestion": "Ryan ate them! Ryan always eats the biscuits. Can we bake some more?",
      "suggestionFa": "رایان خوردشون! رایان همیشه بیسکویت‌ها را می‌خوره. می‌شه بیشتر بپزیم؟",
@@ -173,8 +173,8 @@
       "buttons",
       "twelve",
       "one",
-      "ok",
-      "mr"
+      "mr",
+      "ok"
      ],
      "suggestion": "OK, twelve. One for me, one for you, one for Mr Buttons…",
      "suggestionFa": "باشه، دوازده‌تا. یکی برای من، یکی برای تو، یکی برای آقای دکمه…",

@@ -22,7 +22,7 @@
       "counting",
       "birds",
       "hour",
-      "fun"
+      "one"
      ],
      "suggestion": "One hour of counting birds? Fun!",
      "suggestionFa": "یه ساعت شمردن پرنده؟ جالبه!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "birdwatch",
-      "what's",
       "garden",
+      "what's",
       "big"
      ],
      "suggestion": "What's the Big Garden Birdwatch?",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "chest",
-      "got",
-      "red"
+      "red",
+      "got"
      ],
      "suggestion": "It's got a red chest. What is it?",
      "suggestionFa": "سینه‌اش قرمزه. چیه؟",
@@ -151,8 +151,8 @@
      "keywords": [
       "them",
       "see",
-      "two",
-      "can"
+      "can",
+      "two"
      ],
      "suggestion": "I can see two of them.",
      "suggestionFa": "دو تا ازشون می‌بینم.",
@@ -192,8 +192,8 @@
      "keywords": [
       "sorrow",
       "like",
-      "two",
-      "joy"
+      "joy",
+      "two"
      ],
      "suggestion": "One for sorrow, two for joy. I like that.",
      "suggestionFa": "یکی برای غم، دو تا برای شادی. دوستش دارم.",
@@ -253,8 +253,8 @@
      "keywords": [
       "yellow",
       "birds",
-      "blue",
-      "tiny"
+      "tiny",
+      "blue"
      ],
      "suggestion": "Tiny blue and yellow birds!",
      "suggestionFa": "پرنده‌های کوچولوی آبی و زرد!",
@@ -319,7 +319,7 @@
       "pigeons",
       "tehran",
       "birds",
-      "lots"
+      "have"
      ],
      "suggestion": "Eight birds. In Tehran we have lots of pigeons.",
      "suggestionFa": "هشت تا پرنده. تو تهران کلی کبوتر داریم.",
@@ -369,10 +369,10 @@
     },
     {
      "keywords": [
+      "bird",
       "pond",
       "look",
-      "bird",
-      "shh"
+      "big"
      ],
      "suggestion": "Shh! Look — a big bird by the pond!",
      "suggestionFa": "هیس! ببین — یه پرندهٔ بزرگ کنار برکه!",

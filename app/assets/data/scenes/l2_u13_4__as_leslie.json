@@ -50,7 +50,7 @@
       "computer",
       "choose",
       "doctor",
-      "means"
+      "paper"
      ],
      "suggestion": "It means the one you choose. The doctor sends your prescription there by computer. No paper!",
      "suggestionFa": "یعنی همونی که انتخاب می‌کنی. دکتر نسخه‌ات را با کامپیوتر می‌فرسته اونجا. بی‌کاغذ!",
@@ -73,8 +73,8 @@
      "keywords": [
       "supermarket",
       "dawson's",
-      "there's",
       "exactly",
+      "there's",
       "street"
      ],
      "suggestion": "Exactly. Now, there's Dawson's on the high street, or the big one in the supermarket.",
@@ -99,8 +99,8 @@
       "supermarket",
       "minutes'",
       "dawson's",
-      "nearer",
-      "closes"
+      "closes",
+      "nearer"
      ],
      "suggestion": "Dawson's is nearer — two minutes' walk. But it closes at six. The supermarket one is open until ten.",
      "suggestionFa": "داوسون نزدیک‌تره — دو دقیقه پیاده. ولی ساعت شش می‌بنده. اونی که تو سوپرمارکته تا ده بازه.",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "dawson's",
-      "advice",
       "maggie",
+      "advice",
       "lovely",
       "gives"
      ],
@@ -149,8 +149,8 @@
       "prescriptions",
       "quicker",
       "they're",
-      "rashes",
-      "coughs"
+      "coughs",
+      "rashes"
      ],
      "suggestion": "Yes! For coughs, colds, rashes. And they're much quicker than the GP. Do prescriptions cost money in Iran?",
      "suggestionFa": "آره! برای سرفه، سرماخوردگی، جوش. و خیلی سریع‌تر از پزشک عمومی‌ان. تو ایران نسخه پول داره؟",
@@ -175,7 +175,7 @@
       "england",
       "sixties",
       "pounds",
-      "price"
+      "fixed"
      ],
      "suggestion": "Here in England it's a fixed price for each item — about ten pounds. Children and over-sixties are free.",
      "suggestionFa": "اینجا تو انگلیس برای هر قلم یه قیمت ثابته — حدود ده پوند. بچه‌ها و بالای شصت سال مجانیه.",
@@ -196,10 +196,10 @@
    "branches": [
     {
      "keywords": [
-      "maggie's",
       "dawson's",
+      "maggie's",
       "george",
-      "about",
+      "write",
       "thing"
      ],
      "suggestion": "No, Maggie's free. And George! He says it's the only good thing about being old. Right — write \"Dawson's\". Done!",

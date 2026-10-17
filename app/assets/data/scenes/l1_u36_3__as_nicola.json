@@ -24,8 +24,8 @@
       "football",
       "against",
       "garden",
-      "sunny",
-      "let's"
+      "let's",
+      "sunny"
      ],
      "suggestion": "It's sunny! Let's play football in the garden! Me and Mia against you!",
      "suggestionFa": "آفتابیه! بیا تو حیاط فوتبال بازی کنیم! من و میا در برابر تو!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,8 +130,8 @@
      "keywords": [
       "pass",
       "kick",
-      "off",
-      "mia"
+      "mia",
+      "off"
      ],
      "suggestion": "Kick off! Mia, pass to me! Pass! Pass!",
      "suggestionFa": "شروع! میا، پاس بده به من! پاس! پاس!",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "score",
-      "kick",
       "turn",
+      "kick",
       "now",
       "can"
      ],
@@ -236,8 +236,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -289,10 +289,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "kicked",
+      "please",
       "sorry",
-      "have",
+      "khan",
       "ball"
      ],
      "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",

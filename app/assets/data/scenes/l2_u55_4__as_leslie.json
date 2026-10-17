@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "desperate",
       "william's",
+      "desperate",
       "calling",
       "hello",
-      "wave"
+      "love"
      ],
      "suggestion": "You're calling your mum? Can we say hello? I'd love to meet her! William's desperate to wave.",
      "suggestionFa": "داری به مامانت زنگ می‌زنی؟ می‌تونیم سلام کنیم؟ خیلی دوست دارم ببینمش! ویلیام برای دست تکون دادن بی‌تابه.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "midnight",
-      "forget",
       "always",
-      "thing",
-      "three"
+      "forget",
+      "three",
+      "thing"
      ],
      "suggestion": "Midnight? Oh, poor thing — is she awake? Three and a half hours ahead. I always forget.",
      "suggestionFa": "نصف‌شب؟ اوه، بیچاره — بیداره؟ سه ساعت و نیم جلوتره. همیشه یادم میره.",
@@ -74,7 +74,7 @@
       "ringing",
       "lovely",
       "there",
-      "hello",
+      "she's",
       "bless"
      ],
      "suggestion": "Bless her. OK, it's ringing… There she is! Hello! Oh, she's lovely! Can you hear me? Hello, Mrs…?",
@@ -99,8 +99,8 @@
       "picture's",
       "wonderful",
       "family",
-      "parvin",
-      "frozen"
+      "frozen",
+      "parvin"
      ],
      "suggestion": "Hello, Parvin! Your son is wonderful. He's like family. Oh — she's frozen. The picture's stuck.",
      "suggestionFa": "سلام پروین! پسرت فوق‌العاده‌ست. مثل خانواده‌ست. اوه — تصویرش ثابت مونده. تصویر گیر کرده.",
@@ -123,9 +123,9 @@
      "keywords": [
       "mehdi's",
       "william",
-      "hello",
-      "mummy",
-      "audio"
+      "audio",
+      "she's",
+      "mummy"
      ],
      "suggestion": "Try again. Maybe audio only first? … Oh, she's back! Hello again! William, come and say hello to Mehdi's mummy!",
      "suggestionFa": "دوباره امتحان کن. شاید اول فقط صدا؟ … اوه، برگشت! باز سلام! ویلیام، بیا به مامانِ مهدی سلام کن!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -262,7 +262,7 @@
       "saying",
       "she's",
       "tell",
-      "say"
+      "did"
      ],
      "suggestion": "Ha! She's saying something. What did she say? Tell me!",
      "suggestionFa": "ها! داره یه چیزی میگه. چی گفت؟ بهم بگو!",
@@ -308,8 +308,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

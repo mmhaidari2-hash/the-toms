@@ -24,8 +24,8 @@
       "england",
       "alright",
       "first",
-      "like",
-      "year"
+      "week",
+      "like"
      ],
      "suggestion": "Alright? Mum says you came to England this year. What was your first week like?",
      "suggestionFa": "چطوری؟ مامان میگه امسال اومدی انگلیس. هفتهٔ اولت چطور بود؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "strange",
-      "like",
       "food",
+      "like",
       "how"
      ],
      "suggestion": "Strange how? Like, the food?",
@@ -72,8 +72,8 @@
      "keywords": [
       "westfield",
       "hours",
-      "lost",
       "once",
+      "lost",
       "yeah"
      ],
      "suggestion": "Ha, yeah. Did you get lost? I got lost in Westfield once. For two hours.",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "always",
-      "wrong",
       "he'll",
+      "wrong",
       "tell",
-      "did"
+      "dad"
      ],
      "suggestion": "The wrong bus! Did you tell Dad? He'll say it was the 38. It's always the 38.",
      "suggestionFa": "اتوبوس اشتباه! به بابا گفتی؟ میگه ۳۸ بوده. همیشه ۳۸ه.",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "please",
+      "first",
       "smart",
       "beans",
-      "toast",
-      "first"
+      "toast"
      ],
      "suggestion": "Smart. What did you eat that first week? Please say not just beans on toast.",
      "suggestionFa": "زرنگ. اون هفتهٔ اول چی خوردی؟ تو رو خدا نگو فقط لوبیا با نون تست.",
@@ -170,10 +170,10 @@
     {
      "keywords": [
       "anyone",
-      "about",
       "sorry",
+      "about",
       "nice",
-      "see"
+      "did"
      ],
      "suggestion": "Sorry about that. Ha! See, I did it. Was anyone nice to you?",
      "suggestionFa": "ببخشید بابتش. ها! دیدی، منم گفتم. کسی باهات مهربون بود؟",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "everyone",
-      "hackney",
       "welcome",
+      "hackney",
       "anyway",
       "draws"
      ],

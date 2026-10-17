@@ -21,8 +21,8 @@
      "keywords": [
       "anyone",
       "fruit",
-      "free",
-      "pick"
+      "pick",
+      "free"
      ],
      "suggestion": "Free fruit? Can anyone pick them?",
      "suggestionFa": "میوهٔ مجانی؟ هر کسی می‌تونه بچینه؟",
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "these",
+      "soft",
       "ripe",
-      "they",
-      "soft"
+      "they"
      ],
      "suggestion": "These ones are soft. Are they ripe?",
      "suggestionFa": "این‌ها نرمن. رسیده‌ان؟",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "tall",
-      "high",
+      "pick",
       "i'll",
-      "pick"
+      "high",
+      "tall"
      ],
      "suggestion": "I'll pick the high ones. I'm tall.",
      "suggestionFa": "من بالایی‌ها را می‌چینم. قدم بلنده.",
@@ -324,7 +324,7 @@
       "mulberries",
       "black",
       "white",
-      "ones"
+      "have"
      ],
      "suggestion": "We have mulberries. White and black ones.",
      "suggestionFa": "ما توت داریم. سفید و سیاه.",

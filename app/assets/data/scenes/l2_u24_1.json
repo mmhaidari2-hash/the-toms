@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "shops",
       "there",
+      "shops",
       "map",
       "kai"
      ],
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "shoes",
+      "which",
       "see"
      ],
      "suggestion": "I see it. Which floor are the shoes on?",
@@ -132,8 +132,8 @@
      "keywords": [
       "escalator",
       "there",
-      "lift",
-      "then"
+      "then",
+      "lift"
      ],
      "suggestion": "Escalator, then left. Is there a lift too?",
      "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
@@ -260,7 +260,7 @@
       "measure",
       "that's",
       "useful",
-      "they"
+      "feet"
      ],
      "suggestion": "They measure feet? That's useful.",
      "suggestionFa": "پا را اندازه می‌گیرن؟ چه خوب.",
@@ -311,10 +311,10 @@
     },
     {
      "keywords": [
-      "busy",
       "shoe",
+      "shop",
       "good",
-      "shop"
+      "busy"
      ],
      "suggestion": "Good tip. Is the shoe shop busy now?",
      "suggestionFa": "نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟",

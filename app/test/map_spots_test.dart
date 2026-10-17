@@ -95,4 +95,16 @@ void main() {
     debugPrint('DBG ${router.routerDelegate.currentConfiguration.matches.map((m) => m.matchedLocation).toList()} sheet=${find.byKey(const ValueKey('spotsheet-home')).evaluate().length} ex=${t.takeException()}');
     expect(find.byType(LessonScreen), findsOneWidget, reason: 'Start did not open a lesson');
   });
+
+  test('every map spot has its own painted icon (no platform emoji on the map)', () {
+    final spots = jsonDecode(File('assets/data/spots.json').readAsStringSync()) as List;
+    for (final s in spots) {
+      expect(File('assets/spots/${s['id']}.webp').existsSync(), isTrue, reason: '${s['id']} has no painted icon');
+    }
+  });
+
+  test('British English lint passes on every authored line (tool/check_british.py)', () {
+    final r = Process.runSync('python3', ['tool/check_british.py']);
+    expect(r.exitCode, 0, reason: '${r.stdout}${r.stderr}');
+  });
 }

@@ -129,8 +129,8 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "medical",
+      "history",
       "what's"
      ],
      "suggestion": "What's medical history?",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "surgery",
-      "street",
       "okafor",
+      "street",
       "mare"
      ],
      "suggestion": "My GP is Dr Okafor, at Mare Street Surgery.",
@@ -196,8 +196,8 @@
      "keywords": [
       "thought",
       "free",
-      "was",
-      "nhs"
+      "nhs",
+      "was"
      ],
      "suggestion": "Not free? I thought the NHS was free.",
      "suggestionFa": "رایگان نیست؟ فکر می‌کردم NHS رایگانه.",
@@ -301,7 +301,7 @@
       "william",
       "nicola",
       "come",
-      "then"
+      "good"
      ],
      "suggestion": "Good. Nicola and William can come too, then.",
      "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",

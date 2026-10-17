@@ -288,8 +288,8 @@
     {
      "keywords": [
       "paint",
-      "cat",
       "can",
+      "cat",
       "we"
      ],
      "suggestion": "Can we paint a cat?",
@@ -336,10 +336,10 @@
     },
     {
      "keywords": [
-      "paint",
       "let's",
-      "cats",
-      "like"
+      "paint",
+      "like",
+      "cats"
      ],
      "suggestion": "I like cats. Let's paint Biscuit.",
      "suggestionFa": "من گربه دوست دارم. بیا بیسکویت را بکشیم.",
@@ -385,8 +385,8 @@
     {
      "keywords": [
       "fridge",
-      "put",
       "can",
+      "put",
       "we"
      ],
      "suggestion": "Can we put it on the fridge?",

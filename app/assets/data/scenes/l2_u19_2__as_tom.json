@@ -24,8 +24,8 @@
       "beautiful",
       "british",
       "museum",
-      "going",
-      "right"
+      "isn't",
+      "let's"
      ],
      "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
      "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "overground",
-      "highbury",
       "victoria",
-      "colour",
-      "change"
+      "highbury",
+      "change",
+      "colour"
      ],
      "suggestion": "Every line has a colour. We take the Overground to Highbury, then change to the Victoria line.",
      "suggestionFa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم.",
@@ -74,8 +74,8 @@
       "tottenham",
       "central",
       "circus",
-      "oxford",
-      "change"
+      "change",
+      "oxford"
      ],
      "suggestion": "Light blue. We go south to Oxford Circus, then change again. Central line — the red one — two stops to Tottenham Court Road.",
      "suggestionFa": "آبی روشن. به جنوب میریم تا آکسفورد سیرکس، بعد دوباره عوض می‌کنیم. خط سنترال — قرمزه — دو ایستگاه تا تاتنهام کورت رود.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "there's",
-      "tunnels",
       "quicker",
+      "tunnels",
+      "there's",
       "lesson",
-      "about"
+      "learn"
      ],
      "suggestion": "About seven. There's a quicker way, but this way, you learn the Tube. Lesson one: walk on the left in tunnels.",
      "suggestionFa": "حدود هفت تا. یه راه سریع‌تر هست، ولی این‌جوری مترو را یاد می‌گیری. درس اول: تو تونل‌ها از سمت چپ راه برو.",
@@ -124,8 +124,8 @@
       "eastbound",
       "westbound",
       "central",
-      "that's",
-      "oxford"
+      "circus",
+      "lesson"
      ],
      "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
      "suggestionFa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "londoner",
       "complain",
-      "about",
+      "londoner",
       "every",
-      "real"
+      "about",
+      "then"
      ],
      "suggestion": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
      "suggestionFa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!",

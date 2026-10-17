@@ -33,7 +33,7 @@
       "where's",
       "lunch",
       "sure",
-      "box"
+      "her"
      ],
      "suggestion": "Sure. Where's her lunch box?",
      "suggestionFa": "حتماً. ظرف ناهارش کجاست؟",
@@ -138,8 +138,8 @@
      "keywords": [
       "apple",
       "have",
-      "she",
-      "can"
+      "can",
+      "she"
      ],
      "suggestion": "She can have an apple.",
      "suggestionFa": "می‌تونه یه سیب بخوره.",
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "think",
-      "them",
       "ryan",
+      "them",
       "all"
      ],
      "suggestion": "I think Ryan ate them all!",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "sticks",
       "carrot",
+      "sticks",
       "some"
      ],
      "suggestion": "Some carrot sticks?",
@@ -277,9 +277,9 @@
     {
      "keywords": [
       "bottle",
-      "has",
       "got",
-      "she"
+      "she",
+      "has"
      ],
      "suggestion": "Has she got a water bottle?",
      "suggestionFa": "بطری آب داره؟",
@@ -321,9 +321,9 @@
     {
      "keywords": [
       "done",
+      "l",
       "c",
-      "o",
-      "n"
+      "o"
      ],
      "suggestion": "N-I-C-O-L-A. Done!",
      "suggestionFa": "ن-ی-ک-و-ل-ا. تموم!",

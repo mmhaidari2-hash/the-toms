@@ -162,8 +162,8 @@
     {
      "keywords": [
       "three",
-      "four",
       "code",
+      "four",
       "two"
      ],
      "suggestion": "A code? OK, one-two-three-four.",
@@ -176,8 +176,8 @@
      "keywords": [
       "changing",
       "there",
-      "baby",
-      "room"
+      "room",
+      "baby"
      ],
      "suggestion": "Is there a baby-changing room too?",
      "suggestionFa": "اتاق تعویض بچه هم هست؟",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "there's",
-      "soap",
       "sink",
+      "soap",
       "by"
      ],
      "suggestion": "Yes, there's soap by the sink.",
@@ -266,8 +266,8 @@
     },
     {
      "keywords": [
-      "dryer",
       "there",
+      "dryer",
       "hand"
      ],
      "suggestion": "Is there a hand dryer?",

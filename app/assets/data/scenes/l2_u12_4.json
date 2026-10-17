@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "course",
       "what's",
-      "number",
-      "course"
+      "number"
      ],
      "suggestion": "Of course. What's the number?",
      "suggestionFa": "حتماً. شماره چیه؟",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "biscuit",
+      "i'll",
       "poor",
-      "call",
-      "i'll"
+      "call"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -88,7 +88,7 @@
       "looking",
       "unwell",
       "after",
-      "we're"
+      "seems"
      ],
      "suggestion": "Hi. A cat we're looking after seems unwell.",
      "suggestionFa": "سلام. گربه‌ای که ازش نگهداری می‌کنیم مریض به نظر میاد.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "drinking",
       "sickness",
+      "drinking",
       "little",
       "she's"
      ],
@@ -193,7 +193,7 @@
       "morning",
       "sick",
       "once",
-      "was"
+      "she"
      ],
      "suggestion": "She was sick once this morning.",
      "suggestionFa": "امروز صبح یه بار استفراغ کرد.",
@@ -341,7 +341,7 @@
       "neighbour",
       "belongs",
       "sure",
-      "our"
+      "she"
      ],
      "suggestion": "I'm not sure. She belongs to our neighbour.",
      "suggestionFa": "مطمئن نیستم. مال همسایه‌مونه.",
@@ -377,8 +377,8 @@
      "keywords": [
       "that's",
       "we'll",
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, that's fine. We'll see you at four.",
      "suggestionFa": "آره، مشکلی نیست. ساعت چهار می‌بینیمتون.",

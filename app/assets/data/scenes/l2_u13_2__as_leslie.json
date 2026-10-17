@@ -24,8 +24,8 @@
       "address",
       "letter",
       "proof",
-      "bill",
-      "bank"
+      "bank",
+      "bill"
      ],
      "suggestion": "Proof of address. Hmm. Have you got a bank letter, or a gas bill?",
      "suggestionFa": "مدرک آدرس. هوم. نامهٔ بانک داری، یا قبض گاز؟",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -366,9 +366,9 @@
      "keywords": [
       "pressure",
       "weight",
-      "doctor",
       "height",
-      "nurse"
+      "doctor",
+      "quick"
      ],
      "suggestion": "It's a quick chat with a nurse or doctor. Blood pressure, height, weight. Easy!",
      "suggestionFa": "یه گپ کوتاه با پرستار یا دکتره. فشار خون، قد، وزن. آسونه!",
@@ -392,8 +392,8 @@
       "healthy",
       "carrot",
       "coffee",
-      "cakes",
-      "let's"
+      "let's",
+      "cakes"
      ],
      "suggestion": "Ha! My cakes are very healthy. Well, the carrot one is. Come on, let's get a coffee. Job done!",
      "suggestionFa": "ها! کیک‌های من خیلی سالمن. خب، کیک هویجیه هست. بیا، بریم یه قهوه بخوریم. کار تموم شد!",

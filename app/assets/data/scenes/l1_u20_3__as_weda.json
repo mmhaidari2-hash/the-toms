@@ -73,8 +73,8 @@
       "saturdays",
       "children",
       "stories",
-      "people",
-      "helped"
+      "helped",
+      "people"
      ],
      "suggestion": "Not all! I helped people find books. I read stories to children on Saturdays.",
      "suggestionFa": "همه نه! به مردم کمک می‌کردم کتاب پیدا کنن. شنبه‌ها برای بچه‌ها قصه می‌خوندم.",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "saturday",
+      "chair",
       "there",
-      "right",
       "every",
-      "chair"
+      "right"
      ],
      "suggestion": "Every Saturday! She sat right there, on that red chair.",
      "suggestionFa": "هر شنبه! درست اونجا، رو اون صندلی قرمز می‌نشست.",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -231,8 +231,8 @@
       "everywhere",
       "upstairs",
       "carried",
-      "burst",
-      "night"
+      "books",
+      "burst"
      ],
      "suggestion": "A pipe burst in 1998. Water everywhere! We carried the books upstairs all night.",
      "suggestionFa": "سال ۱۹۹۸ یه لوله ترکید. همه جا آب! تمام شب کتاب‌ها را بردیم طبقهٔ بالا.",
@@ -256,7 +256,7 @@
       "computers",
       "customer",
       "come",
-      "just",
+      "them",
       "read"
      ],
      "suggestion": "Most of them! Now I just come here to read and use the computers. I'm a customer now!",
@@ -282,7 +282,7 @@
       "sometimes",
       "library",
       "shall",
-      "i've"
+      "card"
      ],
      "suggestion": "Sometimes. But now I've got time for my grandchildren — and for you! Shall we get you a library card?",
      "suggestionFa": "گاهی. ولی حالا برای نوه‌هام وقت دارم — و برای تو! بریم برات یه کارت کتابخونه بگیریم؟",

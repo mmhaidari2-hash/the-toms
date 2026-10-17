@@ -48,9 +48,9 @@
      "keywords": [
       "dinosaur",
       "could",
-      "wish",
       "love",
-      "real"
+      "book",
+      "wish"
      ],
      "suggestion": "A dinosaur book! I love it! I wish I could have a real dinosaur.",
      "suggestionFa": "کتاب دایناسور! عاشقشم! کاش می‌تونستم یه دایناسور واقعی داشته باشم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "natural",
+      "history",
       "london",
       "museum",
       "mummy"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "forever",
-      "moves",
-      "today",
       "could",
-      "whale"
+      "whale",
+      "moves",
+      "today"
      ],
      "suggestion": "The big blue whale! And the T-rex that moves. I wish today could last forever.",
      "suggestionFa": "نهنگ آبی بزرگ! و تی‌رکسی که تکون می‌خوره. کاش امروز تا ابد طول می‌کشید.",
@@ -123,8 +123,8 @@
      "keywords": [
       "scientist",
       "dinosaur",
-      "doctor",
       "palaeo",
+      "doctor",
       "palae"
      ],
      "suggestion": "I want to be a dinosaur scientist. A palae… palaeo… a dinosaur doctor!",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "candles",
+      "blow",
       "wish",
       "cake",
-      "when",
       "make"
      ],
      "suggestion": "Yes! Now it's time for cake. Can I make a wish when I blow out my candles?",

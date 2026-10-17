@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "circle",
       "walked",
+      "circle",
       "round"
      ],
      "suggestion": "Yes! I walked round in a circle.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "where's",
-      "cheese",
       "excuse",
+      "cheese",
       "stall"
      ],
      "suggestion": "Yes. Excuse me, where's the cheese stall?",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "near",
-      "caf",
-      "way"
+      "way",
+      "caf"
      ],
      "suggestion": "Is it this way, near the café?",
      "suggestionFa": "از این طرفه، نزدیک کافه؟",
@@ -137,8 +137,8 @@
      "keywords": [
       "umbrella",
       "towards",
-      "canal",
-      "green"
+      "green",
+      "canal"
      ],
      "suggestion": "Towards the canal, then the green umbrella.",
      "suggestionFa": "سمت کانال، بعد چتر سبز.",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "olives",
+      "right",
       "after",
-      "thank",
-      "right"
+      "thank"
      ],
      "suggestion": "On my right, after the olives. Thank you!",
      "suggestionFa": "سمت راستم، بعد از زیتون‌ها. ممنون!",
@@ -251,8 +251,8 @@
    "branches": [
     {
      "keywords": [
-      "i've",
       "gone",
+      "i've",
       "see",
       "far"
      ],
@@ -316,8 +316,8 @@
      "keywords": [
       "discount",
       "believe",
-      "when",
-      "i'll"
+      "i'll",
+      "ryan"
      ],
      "suggestion": "A discount from Ryan? I'll believe it when I see it!",
      "suggestionFa": "تخفیف از رایان؟ تا نبینم باور نمی‌کنم!",

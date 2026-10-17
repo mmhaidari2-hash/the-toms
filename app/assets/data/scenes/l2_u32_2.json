@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "make",
       "sure",
+      "make",
       "ok"
      ],
      "suggestion": "Make sure I clip it. OK!",
@@ -135,8 +135,8 @@
      "keywords": [
       "walking",
       "easy",
-      "run",
-      "can"
+      "can",
+      "run"
      ],
      "suggestion": "Walking is easy. Can I run?",
      "suggestionFa": "راه رفتن آسونه. می‌تونم بدوم؟",
@@ -245,7 +245,7 @@
       "that's",
       "should",
       "times",
-      "lift"
+      "fair"
      ],
      "suggestion": "That's fair. How many times should I lift?",
      "suggestionFa": "منصفانه‌ست. چند بار بلند کنم؟",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "shaking",
-      "arms",
-      "ouch"
+      "ouch",
+      "arms"
      ],
      "suggestion": "Ouch. My arms are shaking!",
      "suggestionFa": "آخ. دستام داره می‌لرزه!",
