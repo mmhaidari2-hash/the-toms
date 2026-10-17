@@ -20,8 +20,8 @@
     {
      "keywords": [
       "towels",
-      "here",
       "some",
+      "here",
       "old"
      ],
      "suggestion": "Here are some old towels.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "should",
-      "turn",
       "wall",
+      "turn",
       "off"
      ],
      "suggestion": "Oh no! Should I turn it off at the wall?",
@@ -79,8 +79,8 @@
      "keywords": [
       "switch",
       "i'll",
-      "off",
-      "now"
+      "now",
+      "off"
      ],
      "suggestion": "I'll switch it off now.",
      "suggestionFa": "الان خاموشش می‌کنم.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "sure",
-      "how",
-      "tom"
+      "tom",
+      "how"
      ],
      "suggestion": "I'm not sure. Tom, how old is it?",
      "suggestionFa": "مطمئن نیستم. تام، چند سالشه؟",
@@ -247,8 +247,8 @@
     },
     {
      "keywords": [
-      "there",
       "water",
+      "there",
       "tray",
       "lot"
      ],
@@ -394,9 +394,9 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "really",
       "that's",
+      "cheers",
       "kind"
      ],
      "suggestion": "Cheers, Gaz! That's really kind.",
@@ -408,8 +408,8 @@
     {
      "keywords": [
       "thanks",
-      "help",
-      "will"
+      "will",
+      "help"
      ],
      "suggestion": "I will. Thanks for your help.",
      "suggestionFa": "حتماً. ممنون بابت کمکت.",

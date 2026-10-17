@@ -1,0 +1,402 @@
+{
+ "id": "l2_u24_3",
+ "characterId": "kai",
+ "title": "The catalogue-shop collection point",
+ "titleFa": "تحویل از فروشگاه کاتالوگی",
+ "setting": "Shopping centre · Level 2",
+ "settingFa": "مرکز خرید",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "kai",
+   "text": "Hello again! How did the shoe shopping go? Now what are you looking for?",
+   "translations": {
+    "fa": "دوباره سلام! خرید کفش چطور پیش رفت؟ حالا دنبال چی هستی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collect",
+      "ordered",
+      "thanks",
+      "online"
+     ],
+     "suggestion": "Good, thanks! I ordered a fan online. Where do I collect it?",
+     "suggestionFa": "خوب، ممنون! یه پنکه آنلاین سفارش دادم. کجا تحویلش بگیرم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "catalogue",
+      "shop",
+      "need",
+      "here"
+     ],
+     "suggestion": "I need the catalogue shop. Is it here?",
+     "suggestionFa": "فروشگاه کاتالوگی را لازم دارم. اینجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shopping",
+     "fa": "خرید"
+    },
+    {
+     "word": "ordered",
+     "fa": "سفارش دادم"
+    },
+    {
+     "word": "fan",
+     "fa": "پنکه"
+    },
+    {
+     "word": "catalogue shop",
+     "fa": "فروشگاه کاتالوگی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "kai",
+   "text": "The catalogue shop's on the ground floor, next to the supermarket. Do you have the order number? You'll need it.",
+   "translations": {
+    "fa": "فروشگاه کاتالوگی طبقهٔ همکفه، کنار سوپرمارکت. شمارهٔ سفارش داری؟ لازمش داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "message",
+      "text"
+     ],
+     "suggestion": "Yes, it's in a text message.",
+     "suggestionFa": "آره، تو یه پیامکه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "need",
+      "id"
+     ],
+     "suggestion": "I think so. Do I need ID too?",
+     "suggestionFa": "فکر کنم. کارت شناسایی هم لازمه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next to",
+     "fa": "کنارِ"
+    },
+    {
+     "word": "order number",
+     "fa": "شمارهٔ سفارش"
+    },
+    {
+     "word": "text message",
+     "fa": "پیامک"
+    },
+    {
+     "word": "ID",
+     "fa": "کارت شناسایی"
+    }
+   ],
+   "cultureNote": {
+    "en": "At UK catalogue shops you order online or on a screen in the shop. Then you wait for your number and collect at the counter.",
+    "fa": "در فروشگاه‌های کاتالوگی آنلاین سفارش می‌دهید و از پیشخوان تحویل می‌گیرید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "kai",
+   "text": "Usually just the number. Type it into the screen by the door. It prints a ticket. Then watch the big board.",
+   "translations": {
+    "fa": "معمولاً فقط شماره. دم در تو صفحه تایپش کن. یه برگه چاپ می‌کنه. بعد تابلوی بزرگ را نگاه کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "show"
+     ],
+     "suggestion": "What does the board show?",
+     "suggestionFa": "تابلو چی نشون میده؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sounds",
+      "ticket",
+      "type",
+      "easy"
+     ],
+     "suggestion": "Type, ticket, board. Sounds easy!",
+     "suggestionFa": "تایپ، برگه، تابلو. آسون به نظر میاد!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "type",
+     "fa": "تایپ کردن"
+    },
+    {
+     "word": "prints",
+     "fa": "چاپ می‌کند"
+    },
+    {
+     "word": "ticket",
+     "fa": "برگه"
+    },
+    {
+     "word": "board",
+     "fa": "تابلو"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "kai",
+   "text": "Your ticket number goes from \"Preparing\" to \"Ready to collect\". Then go to Counter 2. It's like a game show.",
+   "translations": {
+    "fa": "شمارهٔ برگه‌ات از «در حال آماده‌سازی» میره به «آمادهٔ تحویل». بعد برو باجهٔ ۲. مثل مسابقهٔ تلویزیونیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "usually",
+      "long",
+      "take",
+      "how"
+     ],
+     "suggestion": "How long does it usually take?",
+     "suggestionFa": "معمولاً چقدر طول می‌کشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "counter",
+      "got"
+     ],
+     "suggestion": "Counter 2. Got it.",
+     "suggestionFa": "باجهٔ ۲. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "preparing",
+     "fa": "در حال آماده‌سازی"
+    },
+    {
+     "word": "ready to collect",
+     "fa": "آمادهٔ تحویل"
+    },
+    {
+     "word": "counter",
+     "fa": "باجه ؛ پیشخوان"
+    },
+    {
+     "word": "game show",
+     "fa": "مسابقهٔ تلویزیونی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how long it take usually",
+      "how much time it takes"
+     ],
+     "echo": "How long? About five minutes.",
+     "better": "How long does it usually take?",
+     "betterFa": "معمولاً چقدر طول می‌کشد؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "kai",
+   "text": "Five minutes, maybe ten on Saturdays. Oh — if the screen says \"Item unavailable\", come back to me.",
+   "translations": {
+    "fa": "پنج دقیقه، شنبه‌ها شاید ده. اوه — اگه صفحه نوشت «کالا موجود نیست»، برگرد پیش من."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "then"
+     ],
+     "suggestion": "What happens then?",
+     "suggestionFa": "اون‌وقت چی میشه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hopefully",
+      "there",
+      "home",
+      "hot"
+     ],
+     "suggestion": "Hopefully it's there. It's very hot at home!",
+     "suggestionFa": "امیدوارم باشه. خونه خیلی گرمه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unavailable",
+     "fa": "ناموجود"
+    },
+    {
+     "word": "hopefully",
+     "fa": "امیدوارم"
+    },
+    {
+     "word": "hot",
+     "fa": "گرم"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "kai",
+   "text": "They'd give you a refund, or order it from another store. But your order says \"reserved\", so you're fine.",
+   "translations": {
+    "fa": "پولت را پس میدن، یا از یه شعبهٔ دیگه سفارش میدن. ولی سفارشت نوشته «رزرو شده»، پس مشکلی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reserved",
+      "carry",
+      "great",
+      "home"
+     ],
+     "suggestion": "Reserved. Great. How do I carry it home?",
+     "suggestionFa": "رزرو شده. عالیه. چطوری ببرمش خونه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "thanks",
+      "know",
+      "kai"
+     ],
+     "suggestion": "Thanks, Kai. You know everything!",
+     "suggestionFa": "ممنون کای. همه‌چی را می‌دونی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "refund",
+     "fa": "بازپرداخت"
+    },
+    {
+     "word": "store",
+     "fa": "فروشگاه ؛ شعبه"
+    },
+    {
+     "word": "reserved",
+     "fa": "رزرو شده"
+    },
+    {
+     "word": "carry",
+     "fa": "حمل کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "kai",
+   "text": "It's a big box. There are trolleys by the car park lift. Or get the 38 — the driver might help!",
+   "translations": {
+    "fa": "جعبه‌اش بزرگه. کنار آسانسور پارکینگ چرخ‌دستی هست. یا سوار ۳۸ شو — شاید راننده کمک کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friend",
+      "driver",
+      "will",
+      "help"
+     ],
+     "suggestion": "The driver is my friend Tom. He will help!",
+     "suggestionFa": "رانندهٔ ۳۸ دوستم تامه. کمک می‌کنه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trolley",
+      "thanks",
+      "idea",
+      "good"
+     ],
+     "suggestion": "A trolley is a good idea. Thanks.",
+     "suggestionFa": "چرخ‌دستی فکر خوبیه. ممنون.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "box",
+     "fa": "جعبه"
+    },
+    {
+     "word": "trolleys",
+     "fa": "چرخ‌دستی‌ها"
+    },
+    {
+     "word": "car park",
+     "fa": "پارکینگ"
+    },
+    {
+     "word": "might",
+     "fa": "شاید"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "kai",
+   "text": "Tom on the 38? Everyone knows Tom! Tell him Kai says hi. Enjoy your fan — and stay cool!",
+   "translations": {
+    "fa": "تام راننده ۳۸؟ همه تام را می‌شناسن! بهش بگو کای سلام رسوند. از پنکه‌ات لذت ببر — و خنک بمون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

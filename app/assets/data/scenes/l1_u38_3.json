@@ -99,8 +99,8 @@
    "branches": [
     {
      "keywords": [
-      "make",
       "wish",
+      "make",
       "tom"
      ],
      "suggestion": "Make a wish, Tom!",
@@ -112,8 +112,8 @@
     {
      "keywords": [
       "can't",
-      "say",
       "why",
+      "say",
       "he"
      ],
      "suggestion": "Why can't he say it?",
@@ -152,9 +152,9 @@
    "branches": [
     {
      "keywords": [
+      "well",
       "them",
       "done",
-      "well",
       "all"
      ],
      "suggestion": "Well done! All of them!",
@@ -215,8 +215,8 @@
     {
      "keywords": [
       "again",
-      "try",
-      "tom"
+      "tom",
+      "try"
      ],
      "suggestion": "Try again, Tom!",
      "suggestionFa": "دوباره امتحان کن تام!",

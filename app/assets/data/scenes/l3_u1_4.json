@@ -150,8 +150,8 @@
     {
      "keywords": [
       "fence",
-      "help",
       "i'll",
+      "help",
       "tom"
      ],
      "suggestion": "I'll help you with the fence, Tom.",
@@ -205,8 +205,8 @@
    "branches": [
     {
      "keywords": [
-      "pizza",
       "curry",
+      "pizza",
       "ryan"
      ],
      "suggestion": "Ryan, pizza or curry?",
@@ -255,8 +255,8 @@
     {
      "keywords": [
       "curry",
-      "vote",
-      "i'll"
+      "i'll",
+      "vote"
      ],
      "suggestion": "I'll vote for curry.",
      "suggestionFa": "من به کاری رأی می‌دم.",
@@ -306,8 +306,8 @@
     {
      "keywords": [
       "shall",
-      "make",
       "cake",
+      "make",
       "her"
      ],
      "suggestion": "Shall I make a cake for her?",

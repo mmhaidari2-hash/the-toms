@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "they're",
       "sprouts",
+      "they're",
       "smelly",
-      "green",
-      "don't"
+      "don't",
+      "green"
      ],
      "suggestion": "Yuck! Sprouts! I don't like sprouts. They're green and smelly!",
      "suggestionFa": "ایش! کلم بروکسل! کلم بروکسل دوست ندارم. سبزه و بوی بد می‌ده!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -189,7 +189,7 @@
       "either",
       "daddy",
       "them",
-      "like"
+      "give"
      ],
      "suggestion": "See! Mehdi doesn't like them either. Can I give mine to Daddy?",
      "suggestionFa": "دیدی! {you} هم دوستشون نداره. می‌شه مال منو بدم بابا؟",
@@ -210,8 +210,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -269,8 +269,8 @@
      "keywords": [
       "cabbage",
       "like",
-      "bad",
       "mmm",
+      "bad",
       "bit"
      ],
      "suggestion": "Mmm… hmm… It's not bad! It's a bit like cabbage.",
@@ -345,8 +345,8 @@
      "keywords": [
       "hundred",
       "crumble",
-      "custard",
       "sprouts",
+      "custard",
       "nicola"
      ],
      "suggestion": "Hot crumble with cold custard! The best! Sprouts — one. Nicola — one hundred points!",

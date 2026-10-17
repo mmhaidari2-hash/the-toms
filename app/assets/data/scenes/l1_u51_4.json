@@ -70,7 +70,7 @@
       "yesterday",
       "better",
       "he's",
-      "than"
+      "much"
      ],
      "suggestion": "He's much better than yesterday.",
      "suggestionFa": "از دیروز خیلی بهتره.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "here's",
-      "banana"
+      "banana",
+      "here's"
      ],
      "suggestion": "Here's a banana.",
      "suggestionFa": "بفرما یه موز.",
@@ -265,8 +265,8 @@
     },
     {
      "keywords": [
-      "today",
       "worse",
+      "today",
       "bit"
      ],
      "suggestion": "A bit worse today.",
@@ -308,10 +308,10 @@
     },
     {
      "keywords": [
-      "adults",
       "little",
       "faster",
-      "than"
+      "adults",
+      "kids"
      ],
      "suggestion": "Ha! Little kids get better faster than adults.",
      "suggestionFa": "ها! بچه‌های کوچیک از بزرگ‌ترها زودتر خوب میشن.",

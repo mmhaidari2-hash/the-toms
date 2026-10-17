@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "think",
       "there",
+      "think",
       "ten"
      ],
      "suggestion": "There are ten ducks, I think.",
@@ -173,9 +173,9 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "stay",
       "i'll",
+      "here",
       "ok"
      ],
      "suggestion": "OK, I'll stay here.",
@@ -318,8 +318,8 @@
      "keywords": [
       "ducklings",
       "that's",
-      "word",
-      "nice"
+      "nice",
+      "word"
      ],
      "suggestion": "Ducklings. That's a nice word.",
      "suggestionFa": "جوجه اردک. کلمهٔ قشنگیه.",
@@ -329,8 +329,8 @@
     },
     {
      "keywords": [
-      "baby",
       "call",
+      "baby",
       "swan"
      ],
      "suggestion": "What do you call a baby swan?",
@@ -375,7 +375,7 @@
       "swings",
       "shall",
       "now",
-      "go"
+      "we"
      ],
      "suggestion": "Shall we go to the swings now?",
      "suggestionFa": "حالا بریم تاب‌ها؟",

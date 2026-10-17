@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "working",
+      "minutes",
       "traffic",
       "stopped",
-      "minutes",
-      "nobody"
+      "working",
+      "lights"
      ],
      "suggestion": "The traffic lights for trains stopped working. Could be ten minutes, could be an hour. Nobody knows.",
      "suggestionFa": "چراغ‌راهنمای قطارها از کار افتاده. ممکنه ده دقیقه باشه، ممکنه یه ساعت. کسی نمی‌دونه.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "suspended",
-      "highbury",
       "victoria",
+      "highbury",
       "between",
       "trains"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "suspended",
-      "instead",
       "stopped",
+      "instead",
       "ticket",
-      "today"
+      "valid"
      ],
      "suggestion": "Suspended means stopped. We could take the 73 bus instead. Your ticket on the Tube is still valid on buses today.",
      "suggestionFa": "«ساسپندد» یعنی متوقف. می‌تونیم به جاش اتوبوس ۷۳ بگیریم. بلیت متروت امروز تو اتوبوس هم معتبره.",
@@ -124,8 +124,8 @@
       "understands",
       "everyone",
       "london",
-      "polite",
-      "delays"
+      "delays",
+      "polite"
      ],
      "suggestion": "Yes — send an email now. Short and polite. Everyone in London understands Tube delays.",
      "suggestionFa": "آره — الان یه ایمیل بفرست. کوتاه و مؤدبانه. همه تو لندن تأخیر مترو را درک می‌کنن.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
-      "delayed",
       "fifteen",
+      "delayed",
       "minutes",
+      "perfect",
       "refund"
      ],
      "suggestion": "Perfect. And if you're delayed over fifteen minutes, you can claim a refund.",
@@ -174,8 +174,8 @@
       "online",
       "driver",
       "coming",
-      "won't",
-      "jokes"
+      "don't",
+      "worry"
      ],
      "suggestion": "Online, later. Now — run! The 73 is coming. Don't worry, it's not my bus, so the driver won't tell jokes. Go, go, go!",
      "suggestionFa": "آنلاین، بعداً. حالا — بدو! ۷۳ داره میاد. نگران نباش، اتوبوس من نیست، پس راننده جوک نمیگه. برو، برو، برو!",

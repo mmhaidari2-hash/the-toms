@@ -1,0 +1,486 @@
+{
+ "id": "l2_u25_3",
+ "characterId": "ryan",
+ "title": "A cracked screen",
+ "titleFa": "صفحهٔ شکسته",
+ "setting": "Phone shop and contract · Level 2",
+ "settingFa": "فروشگاه موبایل و قرارداد",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Don't tell Dad. Please. I dropped my phone at the skate park. Look at the screen. It's like a spider's web.",
+   "translations": {
+    "fa": "به بابا نگو. خواهش می‌کنم. گوشیم را تو پارک اسکیت انداختم. صفحه را ببین. مثل تار عنکبوته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "still",
+      "ryan",
+      "work",
+      "oh"
+     ],
+     "suggestion": "Oh no, Ryan! Does it still work?",
+     "suggestionFa": "وای نه رایان! هنوز کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cracked",
+      "screen",
+      "need",
+      "new"
+     ],
+     "suggestion": "It's very cracked. You need a new screen.",
+     "suggestionFa": "خیلی ترک خورده. صفحهٔ نو لازم داری.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dropped",
+     "fa": "انداختم ؛ افتاد"
+    },
+    {
+     "word": "skate park",
+     "fa": "پارک اسکیت"
+    },
+    {
+     "word": "spider's web",
+     "fa": "تار عنکبوت"
+    },
+    {
+     "word": "cracked",
+     "fa": "ترک‌خورده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "It works, but I cut my finger on it. Can we ask the phone shop guy? Dev? He's sound.",
+   "translations": {
+    "fa": "کار می‌کنه، ولی انگشتم را باهاش بریدم. میشه از مرده تو مغازهٔ موبایل بپرسیم؟ دِو؟ آدم باحالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "let's",
+      "use",
+      "now"
+     ],
+     "suggestion": "Yes, let's go now. Don't use it!",
+     "suggestionFa": "آره، بیا الان بریم. ازش استفاده نکن!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sound",
+      "mean"
+     ],
+     "suggestion": "What does \"sound\" mean?",
+     "suggestionFa": "«ساوند» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cut",
+     "fa": "بریدن"
+    },
+    {
+     "word": "finger",
+     "fa": "انگشت"
+    },
+    {
+     "word": "guy",
+     "fa": "آقا ؛ پسر"
+    },
+    {
+     "word": "sound",
+     "fa": "باحال (عامیانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British slang, \"sound\" means a person is nice and reliable: \"He's sound.\"",
+    "fa": "در عامیانهٔ بریتانیایی «sound» یعنی آدم خوب و قابل‌اعتماد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dev",
+   "text": "Ouch! That's a proper smash. Did you drop it face down? Let me have a look. Hmm. The glass is cracked, but the screen still works.",
+   "translations": {
+    "fa": "آخ! حسابی خرد شده. رو صورت افتاد؟ بذار نگاه کنم. هوم. شیشه‌اش ترک خورده، ولی صفحه هنوز کار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "can",
+      "fix"
+     ],
+     "suggestion": "Can you fix it? How much is it?",
+     "suggestionFa": "می‌تونی درستش کنی؟ چقدر میشه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "will",
+      "long",
+      "take"
+     ],
+     "suggestion": "How long will it take?",
+     "suggestionFa": "چقدر طول می‌کشه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ouch",
+     "fa": "آخ"
+    },
+    {
+     "word": "proper",
+     "fa": "حسابی ؛ واقعی"
+    },
+    {
+     "word": "smash",
+     "fa": "خردشدگی"
+    },
+    {
+     "word": "face down",
+     "fa": "رو به پایین"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how long it will take",
+      "how much time take"
+     ],
+     "echo": "How long will it take? About an hour.",
+     "better": "How long will it take?",
+     "betterFa": "چقدر طول می‌کشد؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dev",
+   "text": "A new screen is a hundred and nine pounds. About an hour. But wait — is it covered by insurance?",
+   "translations": {
+    "fa": "صفحهٔ نو صد و نه پونده. حدود یه ساعت. ولی صبر کن — بیمه داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "that's",
+      "nine",
+      "lot"
+     ],
+     "suggestion": "A hundred and nine? Ryan, that's a lot!",
+     "suggestionFa": "صد و نه؟ رایان، خیلیه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "insured"
+     ],
+     "suggestion": "Ryan, is it insured?",
+     "suggestionFa": "رایان، بیمه داره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "insured",
+     "fa": "بیمه‌شده"
+    },
+    {
+     "word": "a lot",
+     "fa": "زیاد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Insurance? I don't know. Dad set it up. I'm not calling him. You call him!",
+   "translations": {
+    "fa": "بیمه؟ نمی‌دونم. بابا راه انداخت. من بهش زنگ نمی‌زنم. تو زنگ بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ryan",
+      "must",
+      "tell",
+      "dad"
+     ],
+     "suggestion": "Ryan, you must tell your dad.",
+     "suggestionFa": "رایان، باید به بابات بگی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "fine",
+      "text",
+      "tom"
+     ],
+     "suggestion": "Fine. I'll text Tom.",
+     "suggestionFa": "باشه. به تام پیام میدم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "covered",
+     "fa": "تحت پوشش"
+    },
+    {
+     "word": "insurance",
+     "fa": "بیمه"
+    },
+    {
+     "word": "set up",
+     "fa": "راه انداخت ؛ تنظیم کرد"
+    },
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dev",
+   "text": "I can check his account if he says yes. Oh — it's here. \"Accidental damage cover.\" You're in luck, mate.",
+   "translations": {
+    "fa": "اگه اون بگه آره می‌تونم حسابش را چک کنم. اوه — اینجاست. «پوشش آسیب تصادفی.» شانس آوردی رفیق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accidental",
+      "damage",
+      "mean"
+     ],
+     "suggestion": "What does accidental damage mean?",
+     "suggestionFa": "آسیب تصادفی یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lucky",
+      "then",
+      "much",
+      "how"
+     ],
+     "suggestion": "Lucky! How much does he pay then?",
+     "suggestionFa": "چه شانسی! پس چقدر می‌پردازه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "accidental",
+     "fa": "تصادفی ؛ اتفاقی"
+    },
+    {
+     "word": "damage",
+     "fa": "آسیب ؛ خسارت"
+    },
+    {
+     "word": "in luck",
+     "fa": "شانس آوردی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dev",
+   "text": "It means you broke it by mistake, not on purpose. There's a twenty-five-pound excess. That's all.",
+   "translations": {
+    "fa": "یعنی اشتباهی شکستیش، نه عمداً. یه فرانشیز بیست و پنج پوندی داره. همین."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "twenty",
+      "great",
+      "five"
+     ],
+     "suggestion": "Only twenty-five pounds? Great!",
+     "suggestionFa": "فقط بیست و پنج پوند؟ عالیه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "excess",
+      "pays",
+      "tom"
+     ],
+     "suggestion": "So Tom pays the excess?",
+     "suggestionFa": "پس تام فرانشیز را میده؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Twenty-five quid? I've got that from my birthday money. Dad doesn't need to know!",
+   "translations": {
+    "fa": "بیست و پنج پوند؟ از پول تولدم دارمش. لازم نیست بابا بدونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "insurance",
+      "he'll",
+      "know",
+      "his"
+     ],
+     "suggestion": "He'll know. It's his insurance!",
+     "suggestionFa": "می‌فهمه. بیمه مال اونه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "honest",
+      "still",
+      "but"
+     ],
+     "suggestion": "OK, but you should still be honest.",
+     "suggestionFa": "باشه، ولی بازم باید صادق باشی.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by mistake",
+     "fa": "اشتباهی"
+    },
+    {
+     "word": "on purpose",
+     "fa": "عمداً"
+    },
+    {
+     "word": "excess",
+     "fa": "فرانشیز ؛ سهم بیمه‌گذار"
+    },
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Ugh. You sound like Mum. Fine — I'll tell him at tea. Dev, can I get a case too? A really strong one?",
+   "translations": {
+    "fa": "اَه. مثل مامان حرف می‌زنی. باشه — سر شام بهش میگم. دِو، یه قاب هم می‌تونم بگیرم؟ یه دونهٔ خیلی محکم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "protector",
+      "screen",
+      "idea",
+      "good"
+     ],
+     "suggestion": "Good idea. And a screen protector!",
+     "suggestionFa": "فکر خوبیه. یه محافظ صفحه هم!",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dangerous",
+      "phones",
+      "parks",
+      "skate"
+     ],
+     "suggestion": "Get a case. Skate parks are dangerous for phones.",
+     "suggestionFa": "قاب بگیر. پارک اسکیت برای گوشی خطرناکه.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "case",
+     "fa": "قاب"
+    },
+    {
+     "word": "strong",
+     "fa": "محکم"
+    },
+    {
+     "word": "screen protector",
+     "fa": "محافظ صفحه"
+    },
+    {
+     "word": "dangerous",
+     "fa": "خطرناک"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "dev",
+   "text": "Case and screen protector: fifteen pounds. Come back in an hour. And Ryan — phone in your pocket when you skate!",
+   "translations": {
+    "fa": "قاب و محافظ صفحه: پونزده پوند. یه ساعت دیگه برگرد. و رایان — وقتی اسکیت می‌کنی گوشی تو جیبت باشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

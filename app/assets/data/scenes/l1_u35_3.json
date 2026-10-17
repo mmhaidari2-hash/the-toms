@@ -20,8 +20,8 @@
     {
      "keywords": [
       "fruit",
-      "some",
-      "want"
+      "want",
+      "some"
      ],
      "suggestion": "Do you want some fruit?",
      "suggestionFa": "میوه می‌خوای؟",
@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "leslie",
       "hungry",
+      "leslie",
       "he's"
      ],
      "suggestion": "Leslie, he's hungry!",
@@ -179,8 +179,8 @@
     },
     {
      "keywords": [
-      "hold",
-      "want"
+      "want",
+      "hold"
      ],
      "suggestion": "Do you want to hold it?",
      "suggestionFa": "می‌خوای خودت بگیریش؟",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "fast",
-      "wow",
-      "was"
+      "was",
+      "wow"
      ],
      "suggestion": "Wow, that was fast.",
      "suggestionFa": "وای، سریع بود.",

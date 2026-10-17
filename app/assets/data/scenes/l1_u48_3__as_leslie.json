@@ -24,8 +24,8 @@
       "pyjamas",
       "nicola",
       "teeth",
-      "story",
-      "order"
+      "order",
+      "right"
      ],
      "suggestion": "Right, Nicola! Bath, pyjamas, teeth, story. In that order!",
      "suggestionFa": "خب نیکولا! حموم، پیژامه، دندون، قصه. به همین ترتیب!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -101,9 +101,9 @@
      "keywords": [
       "unicorns",
       "pyjamas",
-      "quick",
+      "stars",
       "which",
-      "stars"
+      "quick"
      ],
      "suggestion": "A quick bath. Then which pyjamas? The unicorns or the stars?",
      "suggestionFa": "یه حموم سریع. بعد کدوم پیژامه؟ تک‌شاخی یا ستاره‌ای؟",
@@ -178,8 +178,8 @@
       "minutes",
       "teeth",
       "timer",
-      "then",
-      "good"
+      "good",
+      "then"
      ],
      "suggestion": "Good. Then teeth for two minutes. Use the timer. Can you help her, Mehdi?",
      "suggestionFa": "خوبه. بعد دو دقیقه مسواک. از تایمر استفاده کن. کمکش می‌کنی {you}؟",
@@ -200,8 +200,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -257,11 +257,11 @@
    "branches": [
     {
      "keywords": [
-      "reading",
       "tonight",
       "finally",
-      "lovely",
-      "lights"
+      "reading",
+      "lights",
+      "lovely"
      ],
      "suggestion": "Lovely. Finally, story time and lights out. Who's reading tonight?",
      "suggestionFa": "عالی. در آخر، وقت قصه و خاموش کردن چراغ. امشب کی می‌خونه؟",

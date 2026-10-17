@@ -23,9 +23,9 @@
      "keywords": [
       "discharged",
       "medicines",
-      "dad's",
       "being",
-      "means"
+      "first",
+      "dad's"
      ],
      "suggestion": "Good news! Dad's being discharged today. That means he can go home. But first we wait for his medicines.",
      "suggestionFa": "خبر خوب! بابا امروز مرخص میشه. یعنی می‌تونه بره خونه. ولی اول منتظر داروهاش می‌مونیم.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "pharmacy",
-      "changed",
       "classic",
+      "changed",
       "tablets",
       "maybe"
      ],
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -160,8 +160,8 @@
       "notebook",
       "failure",
       "weight",
-      "water",
-      "heart"
+      "write",
+      "extra"
      ],
      "suggestion": "With heart failure, extra weight can mean water in the body. Mum will write it in her notebook. She loves a notebook.",
      "suggestionFa": "با نارسایی قلبی، وزن اضافه می‌تونه یعنی آب تو بدن. مامان تو دفترش می‌نویسه. عاشق دفترچه‌ست.",
@@ -237,8 +237,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "brilliant",
-      "honestly",
       "standing",
+      "honestly",
       "you've",
       "thanks"
      ],

@@ -1,0 +1,406 @@
+{
+ "id": "l2_u29_1",
+ "characterId": "ryan",
+ "title": "Booking online",
+ "titleFa": "رزرو آنلاین",
+ "setting": "Barber and hairdresser · Level 2",
+ "settingFa": "آرایشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mate, my hair's a disaster. School photo's on Friday. Can you help me book Sal's online? The app is confusing.",
+   "translations": {
+    "fa": "رفیق، موهام فاجعه‌ست. عکس مدرسه جمعه‌ست. میشه کمکم کنی آنلاین از سال وقت بگیرم؟ اپش گیج‌کننده‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure",
+      "show",
+      "app"
+     ],
+     "suggestion": "Sure. Show me the app.",
+     "suggestionFa": "حتماً. اپ را نشونم بده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looks",
+      "ryan",
+      "hair",
+      "fine"
+     ],
+     "suggestion": "Your hair looks fine, Ryan!",
+     "suggestionFa": "موهات خوبه رایان!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "disaster",
+     "fa": "فاجعه"
+    },
+    {
+     "word": "school photo",
+     "fa": "عکس مدرسه"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    },
+    {
+     "word": "confusing",
+     "fa": "گیج‌کننده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Fine? It's like a bird's nest. OK — \"Choose a service\". There's \"Skin fade\", \"Scissor cut\", \"Kids' cut\". Which one?",
+   "translations": {
+    "fa": "خوب؟ مثل لونهٔ پرنده‌ست. خب — «یک سرویس انتخاب کنید». «فید کامل»، «کوتاهی با قیچی»، «کوتاهی بچه». کدوم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "fade",
+      "skin"
+     ],
+     "suggestion": "What's a skin fade?",
+     "suggestionFa": "فید کامل چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifteen",
+      "kids'",
+      "cut"
+     ],
+     "suggestion": "You're fifteen. Not a kids' cut!",
+     "suggestionFa": "پونزده سالته. کوتاهی بچه نه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bird's nest",
+     "fa": "لانهٔ پرنده"
+    },
+    {
+     "word": "service",
+     "fa": "خدمت ؛ سرویس"
+    },
+    {
+     "word": "skin fade",
+     "fa": "فید (کوتاه تا پوست)"
+    },
+    {
+     "word": "scissor cut",
+     "fa": "کوتاهی با قیچی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Skin fade is short at the sides — down to the skin — and longer on top. Everyone's got one. Twenty quid.",
+   "translations": {
+    "fa": "فید یعنی بغل‌ها کوتاه — تا پوست — و بالا بلندتر. همه دارن. بیست پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "choose",
+      "fade",
+      "skin",
+      "day"
+     ],
+     "suggestion": "OK. Skin fade. Now choose a day.",
+     "suggestionFa": "باشه. فید. حالا یه روز انتخاب کن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "twenty",
+      "know",
+      "mum"
+     ],
+     "suggestion": "Twenty pounds? Does your mum know?",
+     "suggestionFa": "بیست پوند؟ مامانت می‌دونه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sides",
+     "fa": "بغل‌ها ؛ کناره‌ها"
+    },
+    {
+     "word": "skin",
+     "fa": "پوست"
+    },
+    {
+     "word": "on top",
+     "fa": "بالا"
+    },
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK barbers use booking apps. \"Walk-ins welcome\" means you can also just turn up and wait.",
+    "fa": "بسیاری از آرایشگاه‌ها رزرو آنلاین دارند؛ «Walk-ins welcome» یعنی بدون نوبت هم می‌شود رفت."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Mum's paying, she said \"Anything but that hair.\" Right — Thursday… \"Fully booked\". Wednesday? Also fully booked.",
+   "translations": {
+    "fa": "مامان پول میده، گفت «هرچی جز این مو». خب — پنج‌شنبه… «کاملاً پر». چهارشنبه؟ اونم پره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesday",
+      "slots",
+      "there",
+      "any"
+     ],
+     "suggestion": "Are there any slots on Tuesday?",
+     "suggestionFa": "سه‌شنبه وقت خالی هست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "popular",
+      "booked",
+      "fully",
+      "sal"
+     ],
+     "suggestion": "Fully booked? Sal is popular!",
+     "suggestionFa": "کاملاً پر؟ سال محبوبه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fully booked",
+     "fa": "کاملاً رزرو شده ؛ پر"
+    },
+    {
+     "word": "slots",
+     "fa": "وقت‌های خالی"
+    },
+    {
+     "word": "popular",
+     "fa": "محبوب"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is any slots",
+      "are there some slot"
+     ],
+     "echo": "Any slots on Tuesday? Let's look.",
+     "better": "Are there any slots on Tuesday?",
+     "betterFa": "سه‌شنبه وقت خالی هست؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Tuesday… four-fifteen! One slot left. But I've got football till four. I'll have to run.",
+   "translations": {
+    "fa": "سه‌شنبه… چهار و ربع! یه وقت مونده. ولی تا چهار فوتبال دارم. مجبورم بدوم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "before",
+      "else",
+      "now"
+     ],
+     "suggestion": "Book it now, before someone else does!",
+     "suggestionFa": "همین الان رزروش کن، قبل از اینکه یکی دیگه بگیره!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "later",
+      "time",
+      "can"
+     ],
+     "suggestion": "Can you book a later time?",
+     "suggestionFa": "می‌تونی یه ساعت دیرتر رزرو کنی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slot",
+     "fa": "وقت ؛ نوبت"
+    },
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    },
+    {
+     "word": "I'll have to",
+     "fa": "مجبور خواهم بود"
+    },
+    {
+     "word": "run",
+     "fa": "دویدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Booked! \"Please arrive five minutes early. Cancellations need 24 hours' notice.\" What's notice?",
+   "translations": {
+    "fa": "رزرو شد! «لطفاً پنج دقیقه زودتر بیایید. لغو نیاز به ۲۴ ساعت اطلاع قبلی دارد.» «نوتیس» چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "before",
+      "them",
+      "tell",
+      "must"
+     ],
+     "suggestion": "It means you must tell them a day before.",
+     "suggestionFa": "یعنی باید یه روز قبل بهشون بگی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "warning",
+      "cancel",
+      "notice",
+      "late"
+     ],
+     "suggestion": "Notice means warning. If you cancel late, you pay.",
+     "suggestionFa": "نوتیس یعنی اطلاع قبلی. اگه دیر لغو کنی، پول میدی.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arrive",
+     "fa": "رسیدن"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "cancellations",
+     "fa": "لغوها"
+    },
+    {
+     "word": "notice",
+     "fa": "اطلاع قبلی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Pay for nothing? No way. I'm not missing it. Thanks, legend. Now I just need to explain the fade to Sal without sounding stupid.",
+   "translations": {
+    "fa": "پول بدم برای هیچی؟ عمراً. از دستش نمیدم. ممنون اسطوره. حالا فقط باید فید را بدون اینکه احمق به نظر بیام به سال توضیح بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practise",
+      "want"
+     ],
+     "suggestion": "Practise with me. What do you want?",
+     "suggestionFa": "با من تمرین کن. چی می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "photo",
+      "easy",
+      "show"
+     ],
+     "suggestion": "Show him a photo. That's easy!",
+     "suggestionFa": "یه عکس نشونش بده. آسونه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "explain",
+     "fa": "توضیح دادن"
+    },
+    {
+     "word": "without",
+     "fa": "بدون"
+    },
+    {
+     "word": "stupid",
+     "fa": "احمق"
+    },
+    {
+     "word": "practise",
+     "fa": "تمرین کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "A photo! Genius. I'll find one of a footballer. Not that one — his hair's worse than mine!",
+   "translations": {
+    "fa": "عکس! نابغه. یه عکس از یه فوتبالیست پیدا می‌کنم. نه اون — موهاش از مال من بدتره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

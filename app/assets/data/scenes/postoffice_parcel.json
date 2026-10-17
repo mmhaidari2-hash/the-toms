@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
+      "there's",
       "perfume",
       "problem",
-      "there's",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
+      "will",
       "much",
       "cost",
-      "will",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "price",
-      "heavy"
+      "heavy",
+      "price"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "birthday",
-      "tracked",
       "present",
+      "tracked",
       "please"
      ],
      "suggestion": "Tracked, please — it's a birthday present.",
@@ -275,8 +275,8 @@
      "keywords": [
       "standard",
       "there's",
-      "rush",
-      "fine"
+      "fine",
+      "rush"
      ],
      "suggestion": "Standard is fine, there's no rush.",
      "suggestionFa": "معمولی خوبه، عجله‌ای نیست.",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "could",
       "first",
+      "could",
       "time",
       "help"
      ],
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
+      "need",
       "else",
-      "done",
-      "need"
+      "done"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",
@@ -421,8 +421,8 @@
     {
      "keywords": [
       "instead",
-      "could",
-      "email"
+      "email",
+      "could"
      ],
      "suggestion": "Could you email it to me instead?",
      "suggestionFa": "می‌شه به جاش ایمیلش کنید؟",

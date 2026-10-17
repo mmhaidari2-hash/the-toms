@@ -1,0 +1,356 @@
+{
+ "id": "l2_u32_1",
+ "characterId": "jade",
+ "title": "Membership options",
+ "titleFa": "انواع عضویت",
+ "setting": "Joining the gym · Level 2",
+ "settingFa": "عضویت در باشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jade",
+   "text": "Hiya! Welcome to Hackney Fitness! I'm Jade. Are you thinking of joining? We've got a great offer this month!",
+   "translations": {
+    "fa": "سلام! به هاکنی فیتنس خوش اومدی! من جِید هستم. به عضویت فکر می‌کنی؟ این ماه یه پیشنهاد عالی داریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "month",
+      "much",
+      "per",
+      "how"
+     ],
+     "suggestion": "Yes. How much is it per month?",
+     "suggestionFa": "آره. ماهی چنده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "included",
+      "what's",
+      "maybe"
+     ],
+     "suggestion": "Maybe. What's included?",
+     "suggestionFa": "شاید. چه چیزهایی شامل میشه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "joining",
+     "fa": "عضو شدن"
+    },
+    {
+     "word": "offer",
+     "fa": "پیشنهاد ویژه"
+    },
+    {
+     "word": "per month",
+     "fa": "ماهانه"
+    },
+    {
+     "word": "included",
+     "fa": "شامل"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jade",
+   "text": "Two options. Peak is £29.99 — any time, all classes. Off-peak is £19.99 — before four and after eight.",
+   "translations": {
+    "fa": "دو تا گزینه. ساعات شلوغ بیست و نه و نود و نه — هر ساعتی، همهٔ کلاس‌ها. ساعات خلوت نوزده و نود و نه — قبل از چهار و بعد از هشت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mean",
+      "off"
+     ],
+     "suggestion": "What does off-peak mean?",
+     "suggestionFa": "«آف‌پیک» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "work",
+      "day"
+     ],
+     "suggestion": "I work in the day. Peak is better for me.",
+     "suggestionFa": "من روزها کار می‌کنم. ساعات شلوغ برام بهتره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "peak",
+     "fa": "ساعات اوج ؛ شلوغ"
+    },
+    {
+     "word": "off-peak",
+     "fa": "ساعات خلوت"
+    },
+    {
+     "word": "classes",
+     "fa": "کلاس‌ها"
+    },
+    {
+     "word": "before",
+     "fa": "قبل از"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Off-peak\" means the quieter, cheaper times. You'll hear it for gyms, trains and electricity too.",
+    "fa": "«off-peak» یعنی ساعات خلوت و ارزان‌تر."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "jade",
+   "text": "Off-peak means quiet times. Cheaper, but you can't come from four to eight. That's when everyone comes after work.",
+   "translations": {
+    "fa": "آف‌پیک یعنی ساعات خلوت. ارزون‌تر، ولی از چهار تا هشت نمی‌تونی بیای. اون موقع همه بعد از کار میان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "joining",
+      "there",
+      "fee"
+     ],
+     "suggestion": "Is there a joining fee?",
+     "suggestionFa": "هزینهٔ ثبت‌نام داره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "before",
+      "work",
+      "come"
+     ],
+     "suggestion": "Can I come in the morning, before work?",
+     "suggestionFa": "می‌تونم صبح، قبل از کار بیام؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quiet",
+     "fa": "خلوت ؛ آرام"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    },
+    {
+     "word": "between",
+     "fa": "بین"
+    },
+    {
+     "word": "evening",
+     "fa": "عصر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is a joining fee?",
+      "is joining fee?"
+     ],
+     "echo": "A joining fee? Not this month!",
+     "better": "Is there a joining fee?",
+     "betterFa": "هزینهٔ ثبت‌نام دارد؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "jade",
+   "text": "Normally twenty pounds, but this month it's free! And we open at six a.m. Early birds love it — it's dead quiet.",
+   "translations": {
+    "fa": "معمولاً بیست پوند، ولی این ماه رایگانه! ساعت شش صبح هم باز می‌کنیم. سحرخیزها عاشقشن — خیلی خلوته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "early",
+      "six",
+      "m"
+     ],
+     "suggestion": "Six a.m.? That's very early!",
+     "suggestionFa": "شش صبح؟ خیلی زوده!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cancel",
+      "great",
+      "time",
+      "free"
+     ],
+     "suggestion": "Free? Great. Can I cancel any time?",
+     "suggestionFa": "رایگان؟ عالیه. هر وقت بخوام می‌تونم لغو کنم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "normally",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "early birds",
+     "fa": "سحرخیزها"
+    },
+    {
+     "word": "dead quiet",
+     "fa": "خیلی خلوت"
+    },
+    {
+     "word": "cancel",
+     "fa": "لغو کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "jade",
+   "text": "Yes — no contract. One month's notice, that's it. Some gyms make you sign for a year, but not us.",
+   "translations": {
+    "fa": "آره — بدون قرارداد. یه ماه اطلاع قبلی، همین. بعضی باشگاه‌ها مجبورت می‌کنن یه ساله امضا کنی، ولی ما نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "month's",
+      "that's",
+      "notice",
+      "fair"
+     ],
+     "suggestion": "One month's notice. That's fair.",
+     "suggestionFa": "یه ماه اطلاع قبلی. منصفانه‌ست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "swimming",
+      "there",
+      "pool"
+     ],
+     "suggestion": "Is there a swimming pool?",
+     "suggestionFa": "استخر داره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contract",
+     "fa": "قرارداد"
+    },
+    {
+     "word": "notice",
+     "fa": "اطلاع قبلی"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jade",
+   "text": "No pool, sorry — that's the leisure centre on the high street. But we've got a sauna! And free towels.",
+   "translations": {
+    "fa": "استخر نه، ببخشید — اون مرکز تفریحی تو خیابون اصلیه. ولی سونا داریم! حوله هم رایگانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "membership",
+      "sauna",
+      "i'll",
+      "take"
+     ],
+     "suggestion": "A sauna! I'll take the peak membership.",
+     "suggestionFa": "سونا! عضویت ساعات شلوغ را می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "pass",
+      "day",
+      "can"
+     ],
+     "suggestion": "Can I try it first? A day pass?",
+     "suggestionFa": "میشه اول امتحانش کنم؟ بلیت یه‌روزه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pool",
+     "fa": "استخر"
+    },
+    {
+     "word": "leisure centre",
+     "fa": "مرکز تفریحی ورزشی"
+    },
+    {
+     "word": "sauna",
+     "fa": "سونا"
+    },
+    {
+     "word": "towels",
+     "fa": "حوله‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "jade",
+   "text": "Brilliant! I'll book your free induction. Bring trainers and water. Tom's a member too, you know. He comes… sometimes.",
+   "translations": {
+    "fa": "انتخاب عالی! جلسهٔ آشنایی رایگانت را رزرو می‌کنم. کتونی و بطری آب بیار. تام هم عضوه، می‌دونستی؟ میاد… گاهی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

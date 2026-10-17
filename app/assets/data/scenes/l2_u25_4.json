@@ -1,0 +1,411 @@
+{
+ "id": "l2_u25_4",
+ "characterId": "dev",
+ "title": "Keeping your number",
+ "titleFa": "نگه داشتن شماره",
+ "setting": "Phone shop and contract · Level 2",
+ "settingFa": "فروشگاه موبایل و قرارداد",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dev",
+   "text": "Hi! You're Leslie's lodger, aren't you? She said you'd come in. You want to switch networks?",
+   "translations": {
+    "fa": "سلام! تو مستأجر لزلی هستی، نه؟ گفت میای. می‌خوای شبکه‌ات را عوض کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "switching",
+      "network"
+     ],
+     "suggestion": "Yes. I'm switching to your network.",
+     "suggestionFa": "آره. دارم به شبکهٔ شما میام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "keep",
+      "want",
+      "but"
+     ],
+     "suggestion": "Yes, but I want to keep my number.",
+     "suggestionFa": "آره، ولی می‌خوام شماره‌ام را نگه دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "switch",
+     "fa": "عوض کردن ؛ تغییر دادن"
+    },
+    {
+     "word": "networks",
+     "fa": "شبکه‌ها"
+    },
+    {
+     "word": "keep",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "number",
+     "fa": "شماره"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dev",
+   "text": "No problem at all. You need a code from your old network. It's called a PAC code. It's free.",
+   "translations": {
+    "fa": "اصلاً مشکلی نیست. از شبکهٔ قبلیت یه کد لازم داری. اسمش کد PAC ـه. مجانیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "code",
+      "how",
+      "get",
+      "pac"
+     ],
+     "suggestion": "How do I get a PAC code?",
+     "suggestionFa": "کد PAC را چطوری بگیرم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difficult",
+      "have",
+      "call",
+      "them"
+     ],
+     "suggestion": "Is it difficult? Do I have to call them?",
+     "suggestionFa": "سخته؟ باید بهشون زنگ بزنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "code",
+     "fa": "کد"
+    },
+    {
+     "word": "PAC code",
+     "fa": "کد انتقال شماره"
+    },
+    {
+     "word": "free",
+     "fa": "مجانی"
+    },
+    {
+     "word": "old",
+     "fa": "قبلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "To keep your number when you switch, text \"PAC\" to 65075. Your old network sends a code. Give it to your new network.",
+    "fa": "برای حفظ شماره «PAC» را به ۶۵۰۷۵ پیامک کنید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dev",
+   "text": "Easy. Just text \"PAC\" to six-five-oh-seven-five. They text you back in a minute. Try it now.",
+   "translations": {
+    "fa": "آسونه. فقط «PAC» را به شش-پنج-صفر-هفت-پنج پیامک کن. یه دقیقه‌ای جواب میدن. همین الان امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "reply",
+      "sent",
+      "i've"
+     ],
+     "suggestion": "OK, I've sent it. Oh, here's the reply!",
+     "suggestionFa": "باشه، فرستادم. اوه، جوابش اومد!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "again",
+      "seven",
+      "five",
+      "say"
+     ],
+     "suggestion": "Six-five-oh-seven-five? Can you say it again?",
+     "suggestionFa": "شش-پنج-صفر-هفت-پنج؟ میشه دوباره بگی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    },
+    {
+     "word": "text back",
+     "fa": "جواب پیامک دادن"
+    },
+    {
+     "word": "minute",
+     "fa": "دقیقه"
+    },
+    {
+     "word": "reply",
+     "fa": "جواب"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i sended it",
+      "i have send it"
+     ],
+     "echo": "You've sent it? Brilliant.",
+     "better": "I've sent it.",
+     "betterFa": "فرستادمش."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dev",
+   "text": "Brilliant. Read me the code, and I'll put it in the system. Your number moves on the next working day.",
+   "translations": {
+    "fa": "عالیه. کد را برام بخون، واردش می‌کنم تو سیستم. شماره‌ات روز کاری بعد منتقل میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eight",
+      "three",
+      "seven",
+      "nine"
+     ],
+     "suggestion": "It's PAC nine-eight-seven, X-Y-Z, three-two-one.",
+     "suggestionFa": "PAC نه-هشت-هفت، ایکس-وای-زد، سه-دو-یک.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "what's",
+      "day"
+     ],
+     "suggestion": "What's a working day?",
+     "suggestionFa": "روز کاری یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "system",
+     "fa": "سیستم"
+    },
+    {
+     "word": "moves",
+     "fa": "منتقل می‌شود"
+    },
+    {
+     "word": "working day",
+     "fa": "روز کاری"
+    },
+    {
+     "word": "next",
+     "fa": "بعدی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dev",
+   "text": "A working day is Monday to Friday, not bank holidays. So — it's Friday today, it'll be done by Monday.",
+   "translations": {
+    "fa": "روز کاری یعنی دوشنبه تا جمعه، نه تعطیلات رسمی. پس — امروز جمعه‌ست، تا دوشنبه انجام میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weekend",
+      "phone",
+      "will",
+      "work"
+     ],
+     "suggestion": "Will my phone work at the weekend?",
+     "suggestionFa": "گوشیم آخر هفته کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "monday",
+      "then",
+      "use",
+      "new"
+     ],
+     "suggestion": "By Monday. And then I use the new SIM?",
+     "suggestionFa": "تا دوشنبه. بعدش سیم‌کارت جدید را می‌ذارم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bank holidays",
+     "fa": "تعطیلات رسمی"
+    },
+    {
+     "word": "done",
+     "fa": "انجام‌شده"
+    },
+    {
+     "word": "weekend",
+     "fa": "آخر هفته"
+    },
+    {
+     "word": "by Monday",
+     "fa": "تا دوشنبه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dev",
+   "text": "Yes — keep the old SIM in until it stops working. Then put the new one in and restart. Your number comes with you.",
+   "translations": {
+    "fa": "آره — سیم‌کارت قدیمی را بذار بمونه تا از کار بیفته. بعد جدید را بذار و ری‌استارت کن. شماره‌ات باهات میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contract",
+      "cancel"
+     ],
+     "suggestion": "And my old contract? Do I cancel it?",
+     "suggestionFa": "قرارداد قدیمیم چی؟ لغوش کنم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "phone",
+      "sell",
+      "can"
+     ],
+     "suggestion": "What about my old phone? Can I sell it?",
+     "suggestionFa": "گوشی قدیمیم چی؟ می‌تونم بفروشمش؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "restart",
+     "fa": "راه‌اندازی دوباره"
+    },
+    {
+     "word": "comes with you",
+     "fa": "همراهت می‌آید"
+    },
+    {
+     "word": "cancel",
+     "fa": "لغو کردن"
+    },
+    {
+     "word": "sell",
+     "fa": "فروختن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dev",
+   "text": "The PAC cancels your old one automatically. Just check your last bill. Your old phone? We do trade-in: up to forty pounds.",
+   "translations": {
+    "fa": "PAC قرارداد قدیمی را خودکار لغو می‌کنه. فقط قبض آخر را چک کن. گوشی قدیمیت؟ ما معاوضه داریم: تا چهل پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "maggie",
+      "forty",
+      "nana"
+     ],
+     "suggestion": "Forty pounds? Or I give it to Nana Maggie.",
+     "suggestionFa": "چهل پوند؟ یا می‌دمش به ننه مگی.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "locked",
+      "great",
+      "phone",
+      "old"
+     ],
+     "suggestion": "Great! Is the old phone locked?",
+     "suggestionFa": "عالیه! گوشی قدیمی قفله؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "automatically",
+     "fa": "خودکار"
+    },
+    {
+     "word": "bill",
+     "fa": "قبض"
+    },
+    {
+     "word": "trade-in",
+     "fa": "معاوضه"
+    },
+    {
+     "word": "locked",
+     "fa": "قفل (به شبکه)"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dev",
+   "text": "Nana Maggie? Then she'll need a big-button setting. I can do it for free. Bring her in — I love a nan.",
+   "translations": {
+    "fa": "ننه مگی؟ پس تنظیمات دکمه‌درشت لازم داره. مجانی برات انجامش میدم. بیارش — من عاشق مادربزرگ‌هام."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

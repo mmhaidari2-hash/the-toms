@@ -21,8 +21,8 @@
      "keywords": [
       "thanks",
       "cheers",
-      "knees",
-      "she's"
+      "she's",
+      "knees"
      ],
      "suggestion": "Cheers, Doris! She's very well, thanks. How are your knees?",
      "suggestionFa": "مرسی دوریس! خیلی خوبه، ممنون. زانوهات چطورن؟",
@@ -81,7 +81,7 @@
      "keywords": [
       "doctor",
       "about",
-      "them",
+      "been",
       "have"
      ],
      "suggestion": "Have you been to the doctor about them?",
@@ -116,8 +116,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "doris",
+      "don't",
       "leave",
       "long"
      ],
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
-      "sure",
+      "will",
       "move",
-      "will"
+      "sure"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -261,10 +261,10 @@
    "branches": [
     {
      "keywords": [
-      "exams",
       "glued",
-      "went",
-      "well"
+      "exams",
+      "well",
+      "went"
      ],
      "suggestion": "Glued to it. But his exams went well.",
      "suggestionFa": "چسبیده. ولی امتحاناش خوب بود.",
@@ -277,7 +277,7 @@
       "learning",
       "heaven",
       "drive",
-      "help"
+      "he's"
      ],
      "suggestion": "He's learning to drive now, heaven help us!",
      "suggestionFa": "الان داره رانندگی یاد می‌گیره، خدا به دادمون برسه!",
@@ -310,8 +310,8 @@
      "keywords": [
       "driving",
       "thirty",
-      "years",
-      "don't"
+      "worry",
+      "years"
      ],
      "suggestion": "I see him, don't worry. Thirty years driving!",
      "suggestionFa": "می‌بینمش، نگران نباش. سی سال رانندگی!",
@@ -321,10 +321,10 @@
     },
     {
      "keywords": [
-      "second",
       "thanks",
+      "second",
       "doris",
-      "pair"
+      "eyes"
      ],
      "suggestion": "Thanks, Doris. You're my second pair of eyes.",
      "suggestionFa": "ممنون دوریس. جفت چشم دوم منی.",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "slowing",
-      "about",
       "still",
+      "about",
       "route"
      ],
      "suggestion": "He's slowing down, but he still asks about this old route.",
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "thanks",
-      "means",
       "doris",
+      "means",
       "lot"
      ],
      "suggestion": "Thanks, Doris. That means a lot.",

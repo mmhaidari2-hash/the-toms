@@ -22,10 +22,10 @@
     {
      "keywords": [
       "everybody",
-      "tidy",
-      "time",
+      "look",
       "room",
-      "look"
+      "time",
+      "tidy"
      ],
      "suggestion": "OK, everybody! It's tidy-up time. Look at this room!",
      "suggestionFa": "خب همگی! وقت مرتب کردنه. این اتاق را ببینید!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -110,8 +110,8 @@
       "please",
       "blocks",
       "thank",
-      "big",
-      "put"
+      "put",
+      "big"
      ],
      "suggestion": "Thank you. Put the blocks in the big box, please.",
      "suggestionFa": "ممنون. مکعب‌ها را بذار تو جعبهٔ بزرگ، لطفاً.",
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "nicola",
-      "shelf",
       "books",
+      "shelf",
       "put",
       "red"
      ],
@@ -240,8 +240,8 @@
     {
      "keywords": [
       "please",
-      "nicola",
       "pocket",
+      "nicola",
       "away",
       "pens"
      ],
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

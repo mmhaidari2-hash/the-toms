@@ -21,8 +21,8 @@
      "keywords": [
       "something",
       "tooth",
-      "drink",
-      "hurts"
+      "hurts",
+      "drink"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
      "suggestionFa": "آره، یه دندونم وقتی چیز سرد می‌خورم درد می‌گیره.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "everything's",
-      "fine",
-      "been"
+      "been",
+      "fine"
      ],
      "suggestion": "No, everything's been fine.",
      "suggestionFa": "نه، همه چی خوب بوده.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "morning",
-      "twice",
-      "night"
+      "night",
+      "twice"
      ],
      "suggestion": "Twice a day, morning and night.",
      "suggestionFa": "روزی دو بار، صبح و شب.",
@@ -164,8 +164,8 @@
      "keywords": [
       "that's",
       "book",
-      "week",
-      "next"
+      "fine",
+      "week"
      ],
      "suggestion": "That's fine. Can I book it for next week?",
      "suggestionFa": "باشه. می‌تونم برای هفتهٔ بعد وقت بگیرم؟",
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "nervous",
-      "hurt",
       "will",
+      "hurt",
       "bit"
      ],
      "suggestion": "Will it hurt? I'm a bit nervous.",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "give",
-      "hard",
+      "cola",
       "i'll",
-      "cola"
+      "hard",
+      "give"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",

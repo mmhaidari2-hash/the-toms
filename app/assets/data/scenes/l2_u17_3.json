@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "check",
       "shall",
+      "check",
       "app"
      ],
      "suggestion": "Shall I check the app?",
@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "course",
+      "what's",
       "number"
      ],
      "suggestion": "Of course. What's the order number?",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "calling",
-      "about",
       "order",
+      "about",
       "late"
      ],
      "suggestion": "Hi. I'm calling about order 2479. It's very late.",
@@ -183,7 +183,7 @@
       "minutes",
       "driver",
       "he's",
-      "lost"
+      "five"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -230,10 +230,10 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "should",
-      "call",
-      "back"
+      "didn't",
+      "back",
+      "call"
      ],
      "suggestion": "No, I didn't. Should I call back?",
      "suggestionFa": "نه، نخواستم. دوباره زنگ بزنم؟",
@@ -243,10 +243,10 @@
     },
     {
      "keywords": [
-      "percent",
       "they'll",
+      "percent",
       "give",
-      "ten"
+      "off"
      ],
      "suggestion": "Yes. They'll give us ten percent off.",
      "suggestionFa": "آره. ده درصد تخفیف بهمون میدن.",

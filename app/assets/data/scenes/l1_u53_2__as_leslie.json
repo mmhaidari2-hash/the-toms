@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "birthday",
       "thursday",
+      "birthday",
       "sister",
       "leeds",
-      "post"
+      "card"
      ],
      "suggestion": "I need to post this card to my sister in Leeds. It's her birthday on Thursday!",
      "suggestionFa": "باید این کارت را برای خواهرم تو لیدز پست کنم. پنجشنبه تولدشه!",
@@ -48,8 +48,8 @@
      "keywords": [
       "postbox",
       "address",
-      "outside",
       "there's",
+      "outside",
       "write"
      ],
      "suggestion": "There's a postbox outside. The red one. Have you got a pen? I need to write the address.",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "postcode",
       "envelope",
-      "number",
+      "postcode",
       "middle",
+      "number",
       "street"
      ],
      "suggestion": "In the middle of the envelope. Name, house number, street, town and postcode.",
@@ -98,8 +98,8 @@
      "keywords": [
       "collection",
       "comes",
-      "case",
       "back",
+      "look",
       "last"
      ],
      "suggestion": "Yes, on the back. In case it comes back. Ooh, look at the box. What time is the last collection?",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "collection",
-      "empties",
       "o'clock",
       "postman",
+      "empties",
       "before"
      ],
      "suggestion": "When the postman empties the box. It's four o'clock now. We're before the last collection.",
@@ -149,8 +149,8 @@
       "wednesday",
       "thursday",
       "quicker",
-      "second",
-      "should"
+      "should",
+      "arrive"
      ],
      "suggestion": "It should arrive on Wednesday or Thursday. First class is quicker, but this has a second-class stamp.",
      "suggestionFa": "باید چهارشنبه یا پنجشنبه برسه. درجه یک سریع‌تره، ولی این تمبر درجه دو داره.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "fingers",
-      "case",
+      "just",
+      "good",
       "idea",
-      "mind",
-      "good"
+      "case"
      ],
      "suggestion": "Good idea — just in case. Can you pop it in the box? Mind your fingers!",
      "suggestionFa": "فکر خوبیه — محض احتیاط. می‌تونی بندازیش تو صندوق؟ مواظب انگشتات باش!",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "nicola",
-      "she'll",
       "potato",
+      "she'll",
       "horse",
-      "looks"
+      "thank"
      ],
      "suggestion": "Thank you! She'll love it. Nicola drew a horse on it. Well — she says it's a horse. It looks like a potato!",
      "suggestionFa": "ممنون! عاشقش میشه. نیکولا روش یه اسب کشید. خب — اون میگه اسبه. شبیه سیب‌زمینیه!",

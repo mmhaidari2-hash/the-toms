@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "hello",
-      "who's"
+      "who's",
+      "hello"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "moment",
+      "please",
       "here",
       "one"
      ],
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "message",
-      "what's",
-      "course"
+      "course",
+      "what's"
      ],
      "suggestion": "Of course. What's the message?",
      "suggestionFa": "البته. پیغام چیه؟",
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "after",
-      "call",
       "back",
-      "six"
+      "call",
+      "got"
      ],
      "suggestion": "Call you back after six. Got it.",
      "suggestionFa": "بعد از شش بهتون زنگ بزنه. فهمیدم.",
@@ -330,8 +330,8 @@
      "keywords": [
       "number",
       "have",
-      "he",
-      "ok"
+      "ok",
+      "he"
      ],
      "suggestion": "OK. Does he have your number?",
      "suggestionFa": "باشه. شماره‌تون را داره؟",

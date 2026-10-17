@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "exactly",
-      "into",
-      "hard"
+      "hard",
+      "into"
      ],
      "suggestion": "Not exactly — I bit into something hard.",
      "suggestionFa": "نه دقیقاً — یه چیز سفت را گاز زدم.",
@@ -76,7 +76,7 @@
       "suddenly",
       "cycling",
       "braked",
-      "work"
+      "when"
      ],
      "suggestion": "I was cycling to work when a dog ran out, so I braked suddenly.",
      "suggestionFa": "داشتم دوچرخه‌سواری می‌کردم برم سر کار که یه سگ پرید بیرون، پس یهو ترمز کردم.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "toffee",
       "eating",
-      "heard",
+      "toffee",
+      "apple",
       "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
@@ -141,9 +141,9 @@
     {
      "keywords": [
       "some",
-      "home",
       "went",
-      "ice"
+      "home",
+      "put"
      ],
      "suggestion": "No. I went home and put some ice on it.",
      "suggestionFa": "نه. رفتم خونه و یخ گذاشتم.",
@@ -195,8 +195,8 @@
      "keywords": [
       "cost",
       "much",
-      "nhs",
-      "how"
+      "how",
+      "nhs"
      ],
      "suggestion": "How much will that cost on the NHS?",
      "suggestionFa": "با NHS چقدر هزینه داره؟",
@@ -244,8 +244,8 @@
      "keywords": [
       "definitely",
       "careful",
-      "more",
-      "i'll"
+      "i'll",
+      "more"
      ],
      "suggestion": "I'll definitely be more careful.",
      "suggestionFa": "قطعاً مراقب‌تر می‌شم.",

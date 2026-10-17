@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "quiet",
       "asked",
-      "then",
-      "when"
+      "quiet",
+      "when",
+      "then"
      ],
      "suggestion": "When I asked, he said \"I fell at home\", then went quiet.",
      "suggestionFa": "وقتی پرسیدم، گفت «تو خونه افتادم»، بعد ساکت شد.",
@@ -184,7 +184,7 @@
      "keywords": [
       "concern",
       "today",
-      "fill",
+      "form",
       "i'll"
      ],
      "suggestion": "I'll fill in a concern form and give it to Jo today.",
@@ -197,8 +197,8 @@
      "keywords": [
       "parents",
       "should",
-      "i've",
-      "seen"
+      "seen",
+      "i've"
      ],
      "suggestion": "Should I tell the parents what I've seen?",
      "suggestionFa": "باید چیزی که دیدم را به والدین بگم؟",

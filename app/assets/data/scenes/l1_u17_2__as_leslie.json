@@ -22,9 +22,9 @@
     {
      "keywords": [
       "kettle",
+      "shall",
       "cuppa",
       "fancy",
-      "shall",
       "put"
      ],
      "suggestion": "Shall I put the kettle on? Fancy a cuppa?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "kettle",
+      "lovely",
       "first",
-      "full",
-      "fill"
+      "fill",
+      "full"
      ],
      "suggestion": "Ooh, lovely! OK, first fill the kettle. Not too full.",
      "suggestionFa": "اوه، عالی! خب، اول کتری را پر کن. نه خیلی پر.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "perfect",
-      "that's",
       "teabag",
+      "that's",
       "turn",
       "each"
      ],
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "kettle's",
-      "boiled",
       "teabag",
+      "boiled",
       "kettle",
       "water"
      ],
@@ -124,8 +124,8 @@
       "minutes",
       "teabag",
       "three",
-      "then",
-      "take"
+      "take",
+      "wait"
      ],
      "suggestion": "Now wait two or three minutes. Then take the teabag out. How do you take your tea?",
      "suggestionFa": "حالا دو سه دقیقه صبر کن. بعد چای کیسه‌ای را دربیار. چایت را چطوری می‌خوری؟",
@@ -148,9 +148,9 @@
      "keywords": [
       "builder's",
       "strong",
-      "sugar",
+      "likes",
       "milky",
-      "likes"
+      "sugar"
      ],
      "suggestion": "I like mine milky with one sugar. Nana likes it strong — \"builder's tea\"!",
      "suggestionFa": "من مال خودمو پرشیر با یه قند دوست دارم. نانا پررنگ دوست داره — «چای بنّایی»!",
@@ -174,8 +174,8 @@
       "sugars",
       "strong",
       "drink",
-      "milk",
-      "lots"
+      "iran",
+      "milk"
      ],
      "suggestion": "Strong, with lots of milk and two sugars. How do you drink tea in Iran?",
      "suggestionFa": "پررنگ، با کلی شیر و دو تا قند. تو ایران چای را چطوری می‌خورید؟",

@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "share",
       "girls",
       "let's",
+      "share",
       "toys"
      ],
      "suggestion": "Let's share the toys, girls.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "nicola",
-      "doll",
       "have",
-      "mia"
+      "doll",
+      "can"
      ],
      "suggestion": "Nicola, can Mia have her doll?",
      "suggestionFa": "نیکولا، می‌شه میا عروسکش را داشته باشه؟",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "phone",
       "timer",
+      "phone",
       "i've",
       "got"
      ],
@@ -132,8 +132,8 @@
      "keywords": [
       "minutes",
       "five",
-      "go",
-      "ok"
+      "ok",
+      "go"
      ],
      "suggestion": "OK. Five minutes. Go!",
      "suggestionFa": "باشه. پنج دقیقه. شروع!",
@@ -176,9 +176,9 @@
     {
      "keywords": [
       "blocks",
-      "build",
       "tower",
-      "let's"
+      "let's",
+      "build"
      ],
      "suggestion": "Let's build a tower with the blocks.",
      "suggestionFa": "بیا با مکعب‌ها یه برج بسازیم.",
@@ -310,9 +310,9 @@
    "branches": [
     {
      "keywords": [
+      "build",
       "never",
       "let's",
-      "build",
       "again"
      ],
      "suggestion": "Never mind! Let's build it again.",
@@ -324,8 +324,8 @@
     {
      "keywords": [
       "that's",
-      "fun",
       "was",
+      "fun",
       "ok"
      ],
      "suggestion": "That's OK. It was fun!",
@@ -356,9 +356,9 @@
    "branches": [
     {
      "keywords": [
-      "doll",
       "have",
-      "mia",
+      "doll",
+      "can",
       "now"
      ],
      "suggestion": "Mia, can Nicola have the doll now?",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "waiting",
-      "done",
-      "well"
+      "well",
+      "done"
      ],
      "suggestion": "Well done for waiting, Nicola.",
      "suggestionFa": "آفرین که صبر کردی نیکولا.",

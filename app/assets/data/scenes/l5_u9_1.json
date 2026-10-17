@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "problems",
       "migrants",
       "lifeline",
-      "problems",
       "granted"
      ],
      "suggestion": "Granted, social media has serious problems. But for migrants, it's a lifeline.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "overlooked",
       "admittedly",
+      "overlooked",
       "benefits",
-      "often"
+      "harms"
      ],
      "suggestion": "Admittedly, the harms are real. That said, the benefits are often overlooked.",
      "suggestionFa": "البته، ضررها واقعی‌ان. با این حال، فواید اغلب نادیده گرفته میشن.",
@@ -109,7 +109,7 @@
       "platforms",
       "designed",
       "problem",
-      "social"
+      "itself"
      ],
      "suggestion": "I'd argue the problem is how platforms are designed, not social media itself.",
      "suggestionFa": "استدلال می‌کنم مشکل نحوهٔ طراحی پلتفرم‌هاست، نه خود رسانه‌های اجتماعی.",
@@ -158,7 +158,7 @@
       "misinformation",
       "internet",
       "existed",
-      "before"
+      "social"
      ],
      "suggestion": "Misinformation existed long before the internet; social media just makes it faster.",
      "suggestionFa": "اطلاعات نادرست خیلی قبل از اینترنت وجود داشت؛ رسانه‌های اجتماعی فقط سریع‌ترش می‌کنن.",
@@ -220,7 +220,7 @@
       "community",
       "arrived",
       "social",
-      "media"
+      "found"
      ],
      "suggestion": "When I arrived alone, social media was how I found my community.",
      "suggestionFa": "وقتی تنها رسیدم، رسانه‌های اجتماعی راه پیدا کردن جامعه‌ام بود.",
@@ -232,8 +232,8 @@
      "keywords": [
       "regulate",
       "answer",
-      "wisely",
-      "reject"
+      "reject",
+      "wisely"
      ],
      "suggestion": "The answer isn't to reject the tool, but to regulate and use it wisely.",
      "suggestionFa": "جواب رد کردن ابزار نیست، بلکه تنظیم کردن و استفادهٔ عاقلانه ازشه.",

@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -61,10 +61,10 @@
     {
      "keywords": [
       "yesterday",
-      "skip",
       "bath",
-      "but",
-      "had"
+      "skip",
+      "can",
+      "but"
      ],
      "suggestion": "But I had a bath yesterday! Can I skip the bath?",
      "suggestionFa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟",
@@ -137,11 +137,11 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "stars",
-      "milk",
+      "after",
+      "have",
       "then",
-      "have"
+      "milk"
      ],
      "suggestion": "The stars! Then after that, can I have milk?",
      "suggestionFa": "ستاره‌ای! بعد از اون، می‌تونم شیر بخورم؟",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -216,9 +216,9 @@
      "keywords": [
       "stops",
       "sings",
-      "pink",
+      "stop",
       "when",
-      "stop"
+      "song"
      ],
      "suggestion": "The pink one! It sings a song. When the song stops, I stop!",
      "suggestionFa": "صورتیه! آهنگ می‌خونه. وقتی آهنگ تموم شد، منم تموم می‌کنم!",
@@ -292,10 +292,10 @@
     {
      "keywords": [
       "story",
-      "book",
-      "from",
       "real",
-      "tell"
+      "iran",
+      "tell",
+      "book"
      ],
      "suggestion": "Mehdi! Mehdi! Tell me a story from Iran! Not a book. A real story!",
      "suggestionFa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!",

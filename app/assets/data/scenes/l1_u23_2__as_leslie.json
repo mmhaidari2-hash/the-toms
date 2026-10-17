@@ -25,7 +25,7 @@
       "wedding",
       "dresses",
       "dress",
-      "will"
+      "hate"
      ],
      "suggestion": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
      "suggestionFa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "excuse",
       "twelve",
-      "blue",
+      "excuse",
+      "have",
       "nice",
-      "size"
+      "blue"
      ],
      "suggestion": "Ooh, blue is nice. Excuse me, do you have this in a size twelve?",
      "suggestionFa": "اوه، آبی قشنگه. ببخشید، اینو سایز دوازده دارید؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -230,10 +230,10 @@
     {
      "keywords": [
       "twelve",
-      "order",
       "let's",
-      "now",
-      "big"
+      "order",
+      "can",
+      "pay"
      ],
      "suggestion": "Yes, too big. OK, let's order the twelve. Can I pay now?",
      "suggestionFa": "آره، خیلی بزرگه. باشه، دوازده را سفارش بدیم. می‌تونم الان پرداخت کنم؟",
@@ -254,8 +254,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "shopping",
       "thompson",
+      "shopping",
       "leslie",
       "shoes",
       "thank"

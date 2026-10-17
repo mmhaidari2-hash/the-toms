@@ -20,8 +20,8 @@
     {
      "keywords": [
       "where's",
-      "milk",
-      "sure"
+      "sure",
+      "milk"
      ],
      "suggestion": "Sure. Where's the milk?",
      "suggestionFa": "حتماً. شیر کجاست؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "pints",
       "milk",
-      "two",
-      "got"
+      "got",
+      "two"
      ],
      "suggestion": "Two pints of milk. Got it!",
      "suggestionFa": "دو پاینت شیر. فهمیدم!",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "where's",
       "washing",
+      "where's",
       "please",
       "liquid"
      ],
@@ -168,10 +168,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "normal",
-      "eggs",
-      "fine"
+      "that's",
+      "fine",
+      "eggs"
      ],
      "suggestion": "That's OK. Normal eggs are fine.",
      "suggestionFa": "اشکال نداره. تخم‌مرغ معمولی خوبه.",
@@ -181,8 +181,8 @@
     },
     {
      "keywords": [
-      "boxes",
       "there",
+      "boxes",
       "any",
       "big"
      ],
@@ -278,8 +278,8 @@
      "keywords": [
       "crisps",
       "have",
-      "got",
-      "any"
+      "any",
+      "got"
      ],
      "suggestion": "Have you got any crisps?",
      "suggestionFa": "چیپس دارید؟",

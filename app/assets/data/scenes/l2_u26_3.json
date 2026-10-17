@@ -1,0 +1,408 @@
+{
+ "id": "l2_u26_3",
+ "characterId": "bilal",
+ "title": "Air for the tyres",
+ "titleFa": "باد لاستیک",
+ "setting": "Petrol station and retail park · Level 2",
+ "settingFa": "پمپ بنزین و مرکز خرید حاشیه شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bilal",
+   "text": "Need a hand with the air? That machine's a bit old and grumpy. Like me! I'll show you.",
+   "translations": {
+    "fa": "برای باد کمک لازم داری؟ اون دستگاه یه‌کم قدیمی و بدعنقه. مثل خودم! نشونت میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "use",
+      "how"
+     ],
+     "suggestion": "Yes, please. How do I use it?",
+     "suggestionFa": "آره، لطفاً. چطوری ازش استفاده کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "coins",
+      "need"
+     ],
+     "suggestion": "Thanks! Does it need coins?",
+     "suggestionFa": "ممنون! سکه لازم داره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "need a hand",
+     "fa": "کمک لازم داشتن"
+    },
+    {
+     "word": "grumpy",
+     "fa": "بدعنق"
+    },
+    {
+     "word": "use",
+     "fa": "استفاده کردن"
+    },
+    {
+     "word": "coins",
+     "fa": "سکه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bilal",
+   "text": "It takes a pound coin, or tap your card. First you have to know the pressure. It's inside the driver's door.",
+   "translations": {
+    "fa": "یه سکهٔ یه‌پوندی می‌خوره، یا کارتت را بزن. اول باید فشار را بدونی. داخل درِ راننده نوشته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "inside",
+      "thirty",
+      "look",
+      "door"
+     ],
+     "suggestion": "Inside the door? Let me look. It says thirty-two.",
+     "suggestionFa": "داخل در؟ بذار ببینم. نوشته سی و دو.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "pressure",
+      "what's",
+      "don't"
+     ],
+     "suggestion": "What's the pressure? I don't understand.",
+     "suggestionFa": "فشار چیه؟ متوجه نمیشم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pressure",
+     "fa": "فشار"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "driver's door",
+     "fa": "درِ راننده"
+    },
+    {
+     "word": "understand",
+     "fa": "فهمیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "The correct tyre pressure is on a sticker inside the driver's door, or in the car handbook. UK machines often use PSI.",
+    "fa": "فشار درست لاستیک روی برچسب داخل در راننده نوشته شده است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bilal",
+   "text": "Thirty-two PSI. Good. Type thirty-two on the machine. Then take the little cap off the tyre valve.",
+   "translations": {
+    "fa": "سی و دو PSI. خوبه. سی و دو را رو دستگاه تایپ کن. بعد درپوش کوچیک سوپاپ لاستیک را بردار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "taken",
+      "i've",
+      "now",
+      "off"
+     ],
+     "suggestion": "I've taken it off. Now what?",
+     "suggestionFa": "برداشتمش. حالا چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "valve",
+      "can't",
+      "see"
+     ],
+     "suggestion": "Where's the valve? I can't see it.",
+     "suggestionFa": "سوپاپ کجاست؟ نمی‌بینمش.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "type",
+     "fa": "تایپ کردن"
+    },
+    {
+     "word": "cap",
+     "fa": "درپوش"
+    },
+    {
+     "word": "valve",
+     "fa": "سوپاپ ؛ والف"
+    },
+    {
+     "word": "take off",
+     "fa": "برداشتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i taked it off",
+      "i have took it"
+     ],
+     "echo": "You've taken it off. Good!",
+     "better": "I've taken it off.",
+     "betterFa": "برداشتمش."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bilal",
+   "text": "Push the hose onto the valve. Hard! It beeps when it's full. Don't put the cap in your pocket — everyone loses it.",
+   "translations": {
+    "fa": "شلنگ را محکم رو سوپاپ فشار بده. محکم! وقتی پر شد بوق می‌زنه. درپوش را تو جیبت نذار — همه گمش می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beeping",
+      "full",
+      "now"
+     ],
+     "suggestion": "It's beeping! Is it full now?",
+     "suggestionFa": "داره بوق می‌زنه! الان پره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happening",
+      "working",
+      "nothing"
+     ],
+     "suggestion": "Nothing is happening. Is it working?",
+     "suggestionFa": "هیچ اتفاقی نمی‌افته. کار می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hose",
+     "fa": "شلنگ"
+    },
+    {
+     "word": "push",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "beeps",
+     "fa": "بوق می‌زند"
+    },
+    {
+     "word": "pocket",
+     "fa": "جیب"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bilal",
+   "text": "Beep means full. Cap back on. Now the other three tyres. Quick — you've got four minutes for your pound!",
+   "translations": {
+    "fa": "بوق یعنی پر. درپوش را ببند. حالا سه تا لاستیک دیگه. زود — برای پوندت چهار دقیقه وقت داری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "better",
+      "four",
+      "i'd"
+     ],
+     "suggestion": "Four minutes? I'd better run!",
+     "suggestionFa": "چهار دقیقه؟ بهتره بدوم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "down",
+      "one",
+      "go"
+     ],
+     "suggestion": "One down, three to go!",
+     "suggestionFa": "یکی تموم، سه تا مونده!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "other",
+     "fa": "دیگر"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    },
+    {
+     "word": "I'd better",
+     "fa": "بهتر است"
+    },
+    {
+     "word": "to go",
+     "fa": "باقی‌مانده"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "bilal",
+   "text": "Ha! Look at you go. And look — this one has a nail in it. See the shiny bit? That's why it was flat.",
+   "translations": {
+    "fa": "ها! ببین چه می‌دوه. و ببین — این یکی میخ توشه. اون تیکهٔ براق را می‌بینی؟ برای همین کم‌باد بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dangerous",
+      "nail"
+     ],
+     "suggestion": "A nail! Is it dangerous?",
+     "suggestionFa": "میخ! خطرناکه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "can",
+      "fix"
+     ],
+     "suggestion": "Can you fix it here?",
+     "suggestionFa": "اینجا می‌تونید درستش کنید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nail",
+     "fa": "میخ"
+    },
+    {
+     "word": "shiny",
+     "fa": "براق"
+    },
+    {
+     "word": "dangerous",
+     "fa": "خطرناک"
+    },
+    {
+     "word": "fix",
+     "fa": "تعمیر کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "bilal",
+   "text": "Not today, but don't drive far on it. Mick at Mick's Motors can fix a puncture for twenty quid. Tell him Bilal sent you.",
+   "translations": {
+    "fa": "امروز نه، ولی باهاش زیاد رانندگی نکن. میک تو تعمیرگاه میک پنچری را بیست پوند درست می‌کنه. بگو بلال فرستادت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "bilal",
+      "star"
+     ],
+     "suggestion": "Thanks, Bilal. You're a star!",
+     "suggestionFa": "ممنون بلال. فوق‌العاده‌ای!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "puncture",
+      "i'll",
+      "tell",
+      "tom"
+     ],
+     "suggestion": "A puncture. I'll tell Tom now.",
+     "suggestionFa": "پنچری. الان به تام میگم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "far",
+     "fa": "دور"
+    },
+    {
+     "word": "puncture",
+     "fa": "پنچری"
+    },
+    {
+     "word": "sent",
+     "fa": "فرستاد"
+    },
+    {
+     "word": "star",
+     "fa": "ستاره ؛ فوق‌العاده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "bilal",
+   "text": "Mick and I go back years. He'll do you a good price. Off you go — and mind the speed bumps!",
+   "translations": {
+    "fa": "من و میک سال‌هاست همدیگه را می‌شناسیم. قیمت خوب بهت میده. برو — حواست به سرعت‌گیرها باشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

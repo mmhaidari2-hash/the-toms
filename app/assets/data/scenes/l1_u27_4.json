@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "where",
       "going",
+      "where",
       "he"
      ],
      "suggestion": "Where is he going?",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "shall",
-      "card",
       "take",
+      "card",
       "we"
      ],
      "suggestion": "Shall we take a card?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "nicola",
-      "card",
-      "from"
+      "from",
+      "card"
      ],
      "suggestion": "This card is from Nicola.",
      "suggestionFa": "این کارت از طرف نیکولاست.",
@@ -213,8 +213,8 @@
      "keywords": [
       "house",
       "near",
-      "sea",
-      "new"
+      "new",
+      "sea"
      ],
      "suggestion": "Is your new house near the sea?",
      "suggestionFa": "خونهٔ جدیدتون نزدیک دریاست؟",
@@ -322,7 +322,7 @@
      "keywords": [
       "bailey",
       "touch",
-      "take",
+      "keep",
       "care"
      ],
      "suggestion": "Take care, Mr Bailey! Keep in touch!",
@@ -334,8 +334,8 @@
     {
      "keywords": [
       "brighton",
-      "luck",
-      "good"
+      "good",
+      "luck"
      ],
      "suggestion": "Good luck in Brighton!",
      "suggestionFa": "تو برایتون موفق باشید!",

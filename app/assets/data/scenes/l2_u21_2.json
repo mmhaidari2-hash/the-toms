@@ -32,9 +32,9 @@
     {
      "keywords": [
       "kensington",
-      "train",
       "right",
-      "south"
+      "south",
+      "train"
      ],
      "suggestion": "South Kensington. Are we on the right train?",
      "suggestionFa": "ساوت کنزینگتون. قطارمون درسته؟",
@@ -118,8 +118,8 @@
      "keywords": [
       "listen",
       "change",
-      "here",
-      "i'll"
+      "i'll",
+      "here"
      ],
      "suggestion": "\"Change here for…\" I'll listen for it.",
      "suggestionFa": "«برای… اینجا عوض کنید». گوش می‌دم.",
@@ -177,8 +177,8 @@
      "keywords": [
       "sandwich",
       "subway",
-      "like",
-      "shop"
+      "shop",
+      "like"
      ],
      "suggestion": "\"Subway\"? Like the sandwich shop?",
      "suggestionFa": "«ساب‌وی»؟ مثل ساندویچ‌فروشی؟",
@@ -228,8 +228,8 @@
    "branches": [
     {
      "keywords": [
-      "surprises",
       "confusing",
+      "surprises",
       "english",
       "full"
      ],

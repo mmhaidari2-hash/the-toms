@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "trying",
-      "office",
       "ticket",
+      "office",
+      "trying",
       "find"
      ],
      "suggestion": "I'm trying to find the ticket office.",
@@ -86,7 +86,7 @@
       "coffee",
       "that's",
       "while",
-      "wait"
+      "i'll"
      ],
      "suggestion": "That's fine, I'll grab a coffee while I wait.",
      "suggestionFa": "اشکالی نداره، تا منتظرم یه قهوه می‌گیرم.",
@@ -174,8 +174,8 @@
     {
      "keywords": [
       "train",
-      "come",
       "back",
+      "come",
       "any"
      ],
      "suggestion": "Can I come back on any train?",
@@ -310,8 +310,8 @@
      "keywords": [
       "before",
       "i'll",
-      "next",
-      "trip"
+      "trip",
+      "next"
      ],
      "suggestion": "I'll get one before my next trip.",
      "suggestionFa": "قبل از سفر بعدیم یکی می‌گیرم.",
@@ -321,8 +321,8 @@
     },
     {
      "keywords": [
-      "saving",
       "that's",
+      "saving",
       "third",
       "big"
      ],

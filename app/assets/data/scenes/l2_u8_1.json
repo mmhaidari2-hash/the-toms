@@ -34,8 +34,8 @@
      "keywords": [
       "someone",
       "account",
-      "speak",
-      "could"
+      "could",
+      "speak"
      ],
      "suggestion": "Hi. Could I speak to someone about my account?",
      "suggestionFa": "سلام. می‌تونم با کسی دربارهٔ حسابم صحبت کنم؟",
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "surname",
-      "spell",
       "shall",
+      "spell",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "machine",
       "doesn't",
+      "machine",
       "cash",
       "work"
      ],
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "thank",
-      "will",
       "have",
-      "new"
+      "will",
+      "pin"
      ],
      "suggestion": "Thank you. Will it have a new PIN?",
      "suggestionFa": "ممنون. پین جدید داره؟",
@@ -239,8 +239,8 @@
     },
     {
      "keywords": [
-      "please",
       "repeat",
+      "please",
       "could",
       "line"
      ],

@@ -24,7 +24,7 @@
       "slippers",
       "fluffy",
       "bother",
-      "seen",
+      "have",
       "dear"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
@@ -49,8 +49,8 @@
       "remember",
       "terrible",
       "memory",
-      "these",
-      "don't"
+      "don't",
+      "under"
      ],
      "suggestion": "I don't remember! My memory is terrible these days. Are they under the bath?",
      "suggestionFa": "یادم نیست! این روزا حافظه‌م افتضاحه. زیر وانن؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "slipper",
-      "can't",
+      "where's",
       "other",
+      "can't",
       "walk"
      ],
      "suggestion": "One! Where's the other one? I can't walk with one slipper!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -176,7 +176,7 @@
       "glasses",
       "never",
       "thank",
-      "seen",
+      "have",
       "dear"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
@@ -198,9 +198,9 @@
    "branches": [
     {
      "keywords": [
+      "william",
       "helpers",
       "without",
-      "william",
       "little",
       "would"
      ],

@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
+      "did",
       "him",
-      "buy",
-      "did"
+      "buy"
      ],
      "suggestion": "What did you buy him?",
      "suggestionFa": "براش چی خریدی؟",
@@ -125,9 +125,9 @@
     {
      "keywords": [
       "first",
-      "put",
       "mug",
-      "box"
+      "box",
+      "put"
      ],
      "suggestion": "Put the mug in a box first.",
      "suggestionFa": "اول ماگ را بذار تو جعبه.",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "paper",
-      "fold",
       "over",
+      "fold",
       "box"
      ],
      "suggestion": "Fold the paper over the box.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "stick",
-      "hold",
-      "i'll"
+      "i'll",
+      "hold"
      ],
      "suggestion": "Hold it, and I'll stick it.",
      "suggestionFa": "تو نگهش دار، من می‌چسبونمش.",
@@ -236,9 +236,9 @@
     },
     {
      "keywords": [
-      "first",
-      "small",
       "piece",
+      "small",
+      "first",
       "cut"
      ],
      "suggestion": "Cut a small piece first.",
@@ -287,8 +287,8 @@
     },
     {
      "keywords": [
-      "again",
       "messy",
+      "again",
       "fold",
       "bit"
      ],

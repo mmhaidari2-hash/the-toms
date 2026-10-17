@@ -67,8 +67,8 @@
     {
      "keywords": [
       "about",
-      "talk",
       "nice",
+      "talk",
       "we"
      ],
      "suggestion": "Nice! What do we talk about?",
@@ -178,10 +178,10 @@
     },
     {
      "keywords": [
-      "clean",
       "plate",
-      "done",
-      "well"
+      "clean",
+      "well",
+      "done"
      ],
      "suggestion": "Well done, a clean plate!",
      "suggestionFa": "آفرین، بشقاب تمیز!",
@@ -215,9 +215,9 @@
    "branches": [
     {
      "keywords": [
-      "none",
-      "some",
       "most",
+      "some",
+      "none",
       "all"
      ],
      "suggestion": "All, most, some or none. OK.",

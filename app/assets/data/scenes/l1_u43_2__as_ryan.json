@@ -24,8 +24,8 @@
       "anything",
       "things",
       "can't",
-      "help",
-      "sent"
+      "sent",
+      "help"
      ],
      "suggestion": "Mum sent me with a list. Ten things! I can't find anything. Help!",
      "suggestionFa": "مامان با یه لیست فرستادم. ده تا چیز! هیچی پیدا نمی‌کنم. کمک!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "walked",
-      "twice",
-      "can't",
+      "round",
       "first",
-      "round"
+      "can't",
+      "twice"
      ],
      "suggestion": "Milk, first. I can't find the milk! I've walked round twice!",
      "suggestionFa": "اول شیر. شیر را پیدا نمی‌کنم! دو بار دور زدم!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "skimmed",
-      "green",
       "never",
-      "blue",
-      "says"
+      "green",
+      "semi",
+      "blue"
      ],
      "suggestion": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
      "suggestionFa": "گرفتم. نیم‌چرب. درِ سبز. مامان میگه هیچ‌وقت آبیه نه.",
@@ -100,7 +100,7 @@
       "liquid",
       "bread",
       "can't",
-      "next"
+      "eggs"
      ],
      "suggestion": "Blue is full fat. Next: eggs, bread, washing-up liquid… I can't find the washing-up liquid!",
      "suggestionFa": "آبی پرچربه. بعدی: تخم‌مرغ، نون، مایع ظرفشویی… مایع ظرفشویی را پیدا نمی‌کنم!",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -228,7 +228,7 @@
       "lifesaver",
       "something",
       "thing",
-      "nice",
+      "last",
       "mean"
      ],
      "suggestion": "You're a lifesaver. Last thing: \"something nice for Mum\". What does that mean?",
@@ -252,8 +252,8 @@
      "keywords": [
       "chocolate",
       "flowers",
-      "remote",
       "forget",
+      "remote",
       "she'll"
      ],
      "suggestion": "Flowers AND chocolate. Then she'll forget I broke the remote. Don't tell her!",

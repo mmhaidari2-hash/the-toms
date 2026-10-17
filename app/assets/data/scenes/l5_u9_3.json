@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "exemptions",
       "deliveries",
+      "exemptions",
       "disabled",
       "drivers"
      ],
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "argument",
-      "partial",
       "perhaps",
+      "partial",
       "counter"
      ],
      "suggestion": "That's a strong counter-argument. Perhaps a partial ban would work better.",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "increases",
-      "evidence",
-      "footfall",
-      "actually"
+      "actually",
+      "suggests",
+      "footfall"
      ],
      "suggestion": "Actually, evidence from other cities suggests footfall often increases.",
      "suggestionFa": "در واقع، شواهد از شهرهای دیگه نشون می‌ده رفت‌وآمد پیاده اغلب افزایش پیدا می‌کنه.",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "exercise",
-      "sharpens",
+      "actually",
       "argument",
-      "actually"
+      "exercise",
+      "sharpens"
      ],
      "suggestion": "That's a useful exercise, actually. It sharpens your argument.",
      "suggestionFa": "راستش تمرین مفیدیه. استدلالت را تیزتر می‌کنه.",

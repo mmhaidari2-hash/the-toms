@@ -32,8 +32,8 @@
     {
      "keywords": [
       "loyalty",
-      "card",
-      "free"
+      "free",
+      "card"
      ],
      "suggestion": "A loyalty card? Is it free?",
      "suggestionFa": "کارت باشگاه مشتریان؟ مجانیه؟",
@@ -70,7 +70,7 @@
       "pounds",
       "how",
       "two",
-      "get"
+      "one"
      ],
      "suggestion": "Two pounds! How do I get one?",
      "suggestionFa": "دو پوند! چطوری یکی بگیرم؟",
@@ -226,9 +226,9 @@
    "branches": [
     {
      "keywords": [
-      "card",
       "done",
       "i've",
+      "card",
       "now"
      ],
      "suggestion": "OK. Done! I've got a card now.",
@@ -273,8 +273,8 @@
     {
      "keywords": [
       "great",
-      "card",
       "i'll",
+      "card",
       "by"
      ],
      "suggestion": "Great! I'll pay by card.",

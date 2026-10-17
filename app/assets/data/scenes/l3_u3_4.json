@@ -21,8 +21,8 @@
      "keywords": [
       "exactly",
       "really",
-      "say",
-      "did"
+      "did",
+      "say"
      ],
      "suggestion": "Really? What exactly did he say?",
      "suggestionFa": "واقعاً؟ دقیقاً چی گفت؟",
@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "say",
       "did",
       "why",
+      "say",
       "he"
      ],
      "suggestion": "Did he say why?",
@@ -176,9 +176,9 @@
    "branches": [
     {
      "keywords": [
-      "sign",
       "come",
-      "i'll"
+      "i'll",
+      "sign"
      ],
      "suggestion": "I'll sign it. And I'll come with you.",
      "suggestionFa": "امضاش می‌کنم. و باهاتون میام.",

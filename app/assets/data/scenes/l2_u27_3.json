@@ -1,0 +1,356 @@
+{
+ "id": "l2_u27_3",
+ "characterId": "tom",
+ "title": "The night bus",
+ "titleFa": "اتوبوس شبانه",
+ "setting": "Bus trouble · Level 2",
+ "settingFa": "دردسرهای اتوبوس",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Hello? It's midnight! Where are you? Leslie's worried. Are you still in town?",
+   "translations": {
+    "fa": "الو؟ نصف شبه! کجایی؟ لزلی نگرانه. هنوز تو شهری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missed",
+      "circus",
+      "oxford",
+      "sorry"
+     ],
+     "suggestion": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
+     "suggestionFa": "ببخشید! تو آکسفورد سیرکس هستم. آخرین مترو را از دست دادم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finished",
+      "party",
+      "late",
+      "fine"
+     ],
+     "suggestion": "I'm fine. The party finished late.",
+     "suggestionFa": "خوبم. مهمونی دیر تموم شد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "midnight",
+     "fa": "نیمه‌شب"
+    },
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "missed",
+     "fa": "از دست دادم"
+    },
+    {
+     "word": "last",
+     "fa": "آخرین"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i missed last tube",
+      "i have miss the last tube"
+     ],
+     "echo": "You've missed the last Tube? Don't worry.",
+     "better": "I've missed the last Tube.",
+     "betterFa": "آخرین مترو را از دست داده‌ام."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "No problem. Get the night bus. The N73 goes from Oxford Street to Stoke Newington. It runs all night.",
+   "translations": {
+    "fa": "مشکلی نیست. سوار اتوبوس شبانه شو. N73 از آکسفورد استریت میره استوک نیوینگتون. تمام شب کار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mean",
+      "n"
+     ],
+     "suggestion": "The N73? What does the N mean?",
+     "suggestionFa": "N73؟ N یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "often",
+      "night",
+      "come",
+      "how"
+     ],
+     "suggestion": "All night? How often does it come?",
+     "suggestionFa": "تمام شب؟ هر چند وقت یه بار میاد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "night bus",
+     "fa": "اتوبوس شبانه"
+    },
+    {
+     "word": "runs",
+     "fa": "کار می‌کند ؛ حرکت می‌کند"
+    },
+    {
+     "word": "all night",
+     "fa": "تمام شب"
+    },
+    {
+     "word": "how often",
+     "fa": "هر چند وقت"
+    }
+   ],
+   "cultureNote": {
+    "en": "London night buses have an \"N\" before the number. They run from about midnight to 5am, and the price is the same as in the day.",
+    "fa": "اتوبوس‌های شبانه با حرف N شروع می‌شوند و قیمتشان مثل روز است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "N for night. Every ten or fifteen minutes. Same price as the day bus. Have you got your card?",
+   "translations": {
+    "fa": "N یعنی شب. هر ده پونزده دقیقه. همون قیمت اتوبوس روز. کارتت همراهته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "battery",
+      "phone",
+      "low"
+     ],
+     "suggestion": "Yes. And my phone battery is low.",
+     "suggestionFa": "آره. و باتری گوشیم کمه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "stop"
+     ],
+     "suggestion": "Yes. Where's the stop?",
+     "suggestionFa": "آره. ایستگاه کجاست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "every",
+     "fa": "هر"
+    },
+    {
+     "word": "minutes",
+     "fa": "دقیقه"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "battery",
+     "fa": "باتری"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Then listen carefully. Stop O, Oxford Circus. Sit downstairs, near the driver. Get off at Stoke Newington police station.",
+   "translations": {
+    "fa": "پس خوب گوش کن. ایستگاه O، آکسفورد سیرکس. طبقهٔ پایین بشین، نزدیک راننده. ایستگاه پلیس استوک نیوینگتون پیاده شو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "driver",
+      "near",
+      "sit"
+     ],
+     "suggestion": "Why should I sit near the driver?",
+     "suggestionFa": "چرا نزدیک راننده بشینم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "downstairs",
+      "station",
+      "police",
+      "stop"
+     ],
+     "suggestion": "Stop O. Downstairs. Police station.",
+     "suggestionFa": "ایستگاه O. پایین. ایستگاه پلیس.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carefully",
+     "fa": "با دقت"
+    },
+    {
+     "word": "downstairs",
+     "fa": "طبقهٔ پایین"
+    },
+    {
+     "word": "near",
+     "fa": "نزدیک"
+    },
+    {
+     "word": "police station",
+     "fa": "کلانتری"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "It's safer at night. Sometimes people upstairs are a bit… merry. Loud singing. Chips everywhere.",
+   "translations": {
+    "fa": "شب امن‌تره. گاهی آدمای طبقهٔ بالا یه‌کم… سرخوشن. آواز بلند. سیب‌زمینی همه‌جا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drunk",
+      "merry",
+      "mean"
+     ],
+     "suggestion": "Merry? You mean drunk?",
+     "suggestionFa": "سرخوش؟ یعنی مست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "downstairs",
+      "chips",
+      "i'll",
+      "sit"
+     ],
+     "suggestion": "I'll sit downstairs. No chips for me!",
+     "suggestionFa": "پایین می‌شینم. سیب‌زمینی نمی‌خوام!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "safer",
+     "fa": "امن‌تر"
+    },
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "merry",
+     "fa": "سرخوش ؛ کمی مست"
+    },
+    {
+     "word": "loud",
+     "fa": "بلند"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Drunk, yes. Mostly harmless. I'll pick you up at the police station in the car. Text me when you're on the bus.",
+   "translations": {
+    "fa": "مست، آره. بیشترشون بی‌آزارن. با ماشین از جلوی کلانتری برت می‌دارم. وقتی سوار اتوبوس شدی پیام بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "don't",
+      "have",
+      "tom"
+     ],
+     "suggestion": "Thanks, Tom. You don't have to!",
+     "suggestionFa": "ممنون تام. لازم نیست!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "i'll",
+      "text",
+      "get"
+     ],
+     "suggestion": "OK. I'll text you when I get on.",
+     "suggestionFa": "باشه. وقتی سوار شدم پیام میدم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "harmless",
+     "fa": "بی‌آزار"
+    },
+    {
+     "word": "pick up",
+     "fa": "سوار کردن ؛ دنبال کسی رفتن"
+    },
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    },
+    {
+     "word": "get on",
+     "fa": "سوار شدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "I know I don't have to. But Leslie won't sleep until you're home. And I won't either. See you soon, mate.",
+   "translations": {
+    "fa": "می‌دونم لازم نیست. ولی لزلی تا تو نرسی خونه نمی‌خوابه. منم نمی‌خوابم. زود می‌بینمت رفیق."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

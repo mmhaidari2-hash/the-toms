@@ -127,8 +127,8 @@
     {
      "keywords": [
       "honest",
-      "night",
       "great",
+      "night",
       "wake"
      ],
      "suggestion": "Not great, to be honest. I wake up a lot at night.",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "reasonable",
-      "mornings",
       "struggle",
-      "but"
+      "mornings",
+      "get"
      ],
      "suggestion": "Reasonable, but I struggle to get up in the mornings.",
      "suggestionFa": "معقول، ولی صبح‌ها به‌زور بیدار می‌شم.",
@@ -182,9 +182,9 @@
     {
      "keywords": [
       "intense",
+      "family",
       "work's",
-      "abroad",
-      "family"
+      "abroad"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
      "suggestionFa": "کار خیلی فشرده بوده، و نگران خانواده‌ام در خارجم.",
@@ -197,7 +197,7 @@
       "evenings",
       "really",
       "think",
-      "just"
+      "dark"
      ],
      "suggestion": "Not really — I think it's just the dark evenings.",
      "suggestionFa": "نه واقعاً — فکر کنم فقط عصرهای تاریکه.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "therapy",
-      "about",
       "think",
-      "sure"
+      "about",
+      "i'll"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
      "suggestionFa": "مطمئن نیستم درمان برای من باشه، ولی بهش فکر می‌کنم.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
-      "desk",
-      "from",
-      "only"
+      "back",
+      "only",
+      "pain"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -310,7 +310,7 @@
       "everything",
       "thorough",
       "that's",
-      "thank"
+      "being"
      ],
      "suggestion": "No, that's everything. Thank you for being so thorough.",
      "suggestionFa": "نه، همین بود. ممنون که این‌قدر دقیق هستید.",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "outside",
-      "more",
       "i'll",
-      "try"
+      "more",
+      "get"
      ],
      "suggestion": "I'll try to get outside more.",
      "suggestionFa": "سعی می‌کنم بیشتر برم بیرون.",
@@ -396,8 +396,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "okafor",
+      "thanks",
       "will",
       "dr"
      ],
@@ -412,7 +412,7 @@
       "supplement",
       "should",
       "before",
-      "stop"
+      "test"
      ],
      "suggestion": "Should I stop the supplement before the test?",
      "suggestionFa": "قبل از آزمایش مکمل را قطع کنم؟",

@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "leslie's",
-      "meeting",
       "teatime",
+      "meeting",
       "right"
      ],
      "suggestion": "Right, it's William's teatime. Leslie's at a meeting. Can you give me a hand?",
@@ -50,7 +50,7 @@
       "always",
       "first",
       "he's",
-      "his"
+      "put"
      ],
      "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
      "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "booster",
       "careful",
-      "fridge",
+      "booster",
       "drawer",
-      "legs"
+      "fridge",
+      "then"
      ],
      "suggestion": "In the drawer by the fridge. Then put him on his booster seat. Careful with his legs.",
      "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بلندکنندهٔ بچه. مواظب پاهاش باش.",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "dinner",
-      "here's",
-      "carrot",
       "mashed",
-      "potato"
+      "carrot",
+      "dinner",
+      "potato",
+      "here's"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
      "suggestionFa": "اینم شامش. پورهٔ هویج و سیب‌زمینی. بعد امتحانش کن. خیلی داغ نباشه!",
@@ -172,9 +172,9 @@
      "keywords": [
       "spoonfuls",
       "william",
-      "brrrm",
       "small",
-      "comes"
+      "comes",
+      "brrrm"
      ],
      "suggestion": "Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm!",
      "suggestionFa": "خوبه. حالا قاشق‌های کوچیک. دهنت را باز کن ویلیام! اتوبوس داره میاد! بررم!",
@@ -243,10 +243,10 @@
     {
      "keywords": [
       "orange",
-      "buses",
-      "right",
       "loves",
-      "wipe"
+      "right",
+      "buses",
+      "then"
      ],
      "suggestion": "He loves buses! Like his dad! Right, then a wipe. His face is orange!",
      "suggestionFa": "عاشق اتوبوسه! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!",

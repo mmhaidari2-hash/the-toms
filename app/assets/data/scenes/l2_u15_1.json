@@ -22,7 +22,7 @@
       "doesn't",
       "beeped",
       "light",
-      "work"
+      "went"
      ],
      "suggestion": "My Oyster card doesn't work. It beeped and the light went red.",
      "suggestionFa": "کارت اویسترم کار نمی‌کنه. بوق زد و چراغش قرمز شد.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "need",
-      "how",
       "top",
+      "how",
       "up"
      ],
      "suggestion": "I need to top up my Oyster card. How do I do it?",
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "top",
       "can",
+      "top",
       "bus",
       "up"
      ],
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "thanks",
+      "should",
       "much",
       "how"
      ],
@@ -131,9 +131,9 @@
     {
      "keywords": [
       "didn't",
-      "cash",
       "know",
-      "free"
+      "free",
+      "cash"
      ],
      "suggestion": "Cash-free? I didn't know that.",
      "suggestionFa": "بدون پول نقد؟ نمی‌دونستم.",
@@ -183,9 +183,9 @@
     },
     {
      "keywords": [
-      "twenty",
-      "enough",
       "pounds",
+      "enough",
+      "twenty",
       "week"
      ],
      "suggestion": "So twenty pounds is enough for a week?",
@@ -280,9 +280,9 @@
    "branches": [
     {
      "keywords": [
+      "pounds",
       "please",
       "twenty",
-      "pounds",
       "hello"
      ],
      "suggestion": "Hello. Twenty pounds on this card, please.",
@@ -340,8 +340,8 @@
      "keywords": [
       "happens",
       "oyster",
-      "card",
-      "lose"
+      "lose",
+      "card"
      ],
      "suggestion": "What happens if I lose my Oyster card?",
      "suggestionFa": "اگه کارتم را گم کنم چی میشه؟",

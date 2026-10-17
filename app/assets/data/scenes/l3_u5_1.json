@@ -35,7 +35,7 @@
       "leslie",
       "ask",
       "her",
-      "go"
+      "we"
      ],
      "suggestion": "We do! Leslie, go on, ask her.",
      "suggestionFa": "آره! لزلی، بپرس.",
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "quickly",
       "dealing",
+      "quickly",
       "thank"
      ],
      "suggestion": "Thank you for dealing with it so quickly.",
@@ -255,8 +255,8 @@
      "keywords": [
       "lunchtime",
       "happy",
-      "now",
-      "she"
+      "she",
+      "now"
      ],
      "suggestion": "Is she happy at lunchtime now?",
      "suggestionFa": "الان سر ناهار خوشحاله؟",
@@ -298,8 +298,8 @@
    "branches": [
     {
      "keywords": [
-      "sounds",
       "nicola",
+      "sounds",
       "like",
       "ha"
      ],
@@ -311,8 +311,8 @@
     },
     {
      "keywords": [
-      "say",
-      "did"
+      "did",
+      "say"
      ],
      "suggestion": "Did you say yes?",
      "suggestionFa": "گفتید آره؟",

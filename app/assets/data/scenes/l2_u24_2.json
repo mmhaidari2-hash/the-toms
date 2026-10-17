@@ -1,0 +1,415 @@
+{
+ "id": "l2_u24_2",
+ "characterId": "leslie",
+ "title": "Fitting rooms",
+ "titleFa": "اتاق پرو",
+ "setting": "Shopping centre · Level 2",
+ "settingFa": "مرکز خرید",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Right, the value-clothes shop. Cheap and cheerful! You need a warm coat before winter. Let's look.",
+   "translations": {
+    "fa": "خب، فروشگاه لباس ارزون. ارزون و شاد! قبل از زمستون یه کت گرم لازم داری. بیا ببینیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "warm",
+      "can",
+      "try"
+     ],
+     "suggestion": "This one looks warm. Can I try it on?",
+     "suggestionFa": "این یکی گرم به نظر میاد. می‌تونم پروش کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coats",
+      "here",
+      "sell",
+      "they"
+     ],
+     "suggestion": "Do they sell coats here? It's so big!",
+     "suggestionFa": "اینجا کت می‌فروشن؟ خیلی بزرگه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "value",
+     "fa": "ارزان ؛ اقتصادی"
+    },
+    {
+     "word": "cheap and cheerful",
+     "fa": "ارزان و خوب"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    },
+    {
+     "word": "coat",
+     "fa": "کت ؛ پالتو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Of course! The fitting rooms are at the back. You can take six items. They give you a number tag.",
+   "translations": {
+    "fa": "البته! اتاق‌های پرو ته فروشگاهه. می‌تونی شش تیکه ببری. یه برچسب شماره بهت میدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jumper",
+      "items",
+      "then",
+      "i'll"
+     ],
+     "suggestion": "Six items? Then I'll take a jumper too.",
+     "suggestionFa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "number",
+      "tag"
+     ],
+     "suggestion": "What's the number tag for?",
+     "suggestionFa": "برچسب شماره برای چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fitting rooms",
+     "fa": "اتاق‌های پرو"
+    },
+    {
+     "word": "items",
+     "fa": "تیکه‌ها ؛ اقلام"
+    },
+    {
+     "word": "number tag",
+     "fa": "برچسب شماره"
+    },
+    {
+     "word": "jumper",
+     "fa": "بلوز بافتنی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK clothes shops, staff count your items into the fitting room and give you a tag. You return the tag when you come out.",
+    "fa": "کارکنان تعداد لباس‌ها را می‌شمارند و برچسب می‌دهند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "So you don't walk out with three jumpers on! Go on, try it. I'll wait here. Well? How is it?",
+   "translations": {
+    "fa": "که با سه تا بلوز تنت بیرون نری! برو، امتحانش کن. همین‌جا منتظرم. خب؟ چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeves",
+      "small",
+      "short"
+     ],
+     "suggestion": "It's too small. The sleeves are short.",
+     "suggestionFa": "خیلی کوچیکه. آستیناش کوتاهه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tight",
+      "here",
+      "fits",
+      "but"
+     ],
+     "suggestion": "It fits! But it's a bit tight here.",
+     "suggestionFa": "اندازه‌ست! ولی اینجاش یه‌کم تنگه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too small",
+     "fa": "خیلی کوچک"
+    },
+    {
+     "word": "sleeves",
+     "fa": "آستین‌ها"
+    },
+    {
+     "word": "fits",
+     "fa": "اندازه است"
+    },
+    {
+     "word": "tight",
+     "fa": "تنگ"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is too much small",
+      "is very small for me"
+     ],
+     "echo": "Too small? Let's get a bigger size.",
+     "better": "It's too small.",
+     "betterFa": "خیلی کوچک است."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Let's find a bigger size. That's a medium. You need a large. I'll ask the lady. Excuse me — have you got this in large?",
+   "translations": {
+    "fa": "بیا سایز بزرگ‌تر پیدا کنیم. اون مدیومه. تو لارج لازم داری. از خانمه می‌پرسم. ببخشید — اینو سایز لارج دارین؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "can",
+      "ask",
+      "her"
+     ],
+     "suggestion": "Can I help? I can ask her.",
+     "suggestionFa": "کمک کنم؟ من ازش می‌پرسم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "thanks",
+      "leslie",
+      "black"
+     ],
+     "suggestion": "Thanks, Leslie. In black, if possible.",
+     "suggestionFa": "ممنون لزلی. اگه بشه، مشکی.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bigger",
+     "fa": "بزرگ‌تر"
+    },
+    {
+     "word": "size",
+     "fa": "سایز ؛ اندازه"
+    },
+    {
+     "word": "medium",
+     "fa": "متوسط"
+    },
+    {
+     "word": "large",
+     "fa": "بزرگ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "She says they've only got large in green. Here. Try this. Oh! That's a good colour on you. It really suits you.",
+   "translations": {
+    "fa": "میگه لارج فقط سبز دارن. بیا. اینو امتحان کن. اوه! این رنگ بهت میاد. واقعاً بهت میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "usually",
+      "really",
+      "don't",
+      "green"
+     ],
+     "suggestion": "Really? I don't usually wear green.",
+     "suggestionFa": "واقعاً؟ من معمولاً سبز نمی‌پوشم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "warm",
+      "suit"
+     ],
+     "suggestion": "It does suit me! And it's warm.",
+     "suggestionFa": "واقعاً بهم میاد! گرمم هست.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "colour",
+     "fa": "رنگ"
+    },
+    {
+     "word": "suits you",
+     "fa": "به تو می‌آید"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "wear",
+     "fa": "پوشیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"It suits you\" is about style or colour. \"It fits you\" is about size.",
+    "fa": "«suits» یعنی به تو می‌آید؛ «fits» یعنی اندازه است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Twenty-five pounds! For a winter coat, that's a bargain. Does it have a hood? London rain is sideways.",
+   "translations": {
+    "fa": "بیست و پنج پوند! برای یه کت زمستونی، مفته. کلاه داره؟ بارون لندن کج می‌باره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i'll",
+      "hood",
+      "take",
+      "has"
+     ],
+     "suggestion": "Yes, it has a hood. I'll take it.",
+     "suggestionFa": "آره، کلاه داره. برش می‌دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sideways",
+      "real",
+      "rain"
+     ],
+     "suggestion": "Sideways rain? Is that real?",
+     "suggestionFa": "بارون کج؟ واقعیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bargain",
+     "fa": "جنس ارزان ؛ مفت"
+    },
+    {
+     "word": "hood",
+     "fa": "کلاه (کاپشن)"
+    },
+    {
+     "word": "sideways",
+     "fa": "کج ؛ از پهلو"
+    },
+    {
+     "word": "take",
+     "fa": "خریدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Very real. Wait until November! Right — pay at the till by the door, and keep the receipt in case you change your mind.",
+   "translations": {
+    "fa": "خیلی واقعی. صبر کن تا نوامبر! خب — دم در پولش را بده و رسید را نگه دار شاید نظرت عوض شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "return",
+      "long",
+      "can",
+      "how"
+     ],
+     "suggestion": "How long can I return it for?",
+     "suggestionFa": "تا کی می‌تونم پسش بدم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "buying",
+      "idea",
+      "good"
+     ],
+     "suggestion": "Good idea. Are you buying anything?",
+     "suggestionFa": "فکر خوبیه. تو چیزی می‌خری؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "in case",
+     "fa": "در صورتی که"
+    },
+    {
+     "word": "change your mind",
+     "fa": "نظرت را عوض کنی"
+    },
+    {
+     "word": "return",
+     "fa": "پس دادن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Usually twenty-eight days here. And me? Just socks for William. He's eaten… I mean, lost… four pairs this month.",
+   "translations": {
+    "fa": "معمولاً اینجا بیست و هشت روز. و من؟ فقط جوراب برای ویلیام. چهار جفت… یعنی، گم کرده… این ماه چهار جفت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

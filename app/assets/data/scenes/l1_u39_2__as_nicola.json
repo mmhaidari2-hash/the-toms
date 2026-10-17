@@ -47,9 +47,9 @@
     {
      "keywords": [
       "what's",
+      "reach",
       "shelf",
       "can't",
-      "reach",
       "high"
      ],
      "suggestion": "You do the high shelf. I can't reach. What's on the high shelf?",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "daddy's",
+      "biscuit",
       "that's",
-      "full",
-      "have"
+      "have",
+      "full"
      ],
      "suggestion": "That's Daddy's biscuit jar! Is it full? Can I have one?",
      "suggestionFa": "اون ظرف بیسکویت باباست! پره؟ می‌تونم یکی بخورم؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "something",
-      "what's",
       "behind",
+      "what's",
       "shiny",
       "jar"
      ],
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "everywhere",
-      "nana's",
       "looked",
+      "nana's",
       "lost",
       "she"
      ],
@@ -148,8 +148,8 @@
      "keywords": [
       "there's",
       "photos",
-      "front",
       "clock",
+      "front",
       "baby"
      ],
      "suggestion": "Now the photos. There's one of me as a baby. In front of the clock!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "sneeze",
-      "atchoo",
-      "that's",
       "little",
+      "atchoo",
+      "sneeze",
+      "that's",
       "makes"
      ],
      "suggestion": "That's Ryan! He was little too! Atchoo! The dust makes me sneeze!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "biscuit",
       "shelves",
+      "biscuit",
       "shiny",
-      "good",
-      "have"
+      "have",
+      "good"
      ],
      "suggestion": "All done! The shelves are shiny. Can I have a biscuit NOW? I was very good!",
      "suggestionFa": "همه‌ش تموم شد! قفسه‌ها براقن. الان می‌تونم بیسکویت بخورم؟ خیلی خوب بودم!",

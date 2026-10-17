@@ -1,0 +1,331 @@
+{
+ "id": "l2_u22_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Unexpected item in the bagging area",
+ "titleFa": "(در نقش Leslie) کالای غیرمنتظره در محل بسته‌بندی",
+ "setting": "Big supermarket · Level 2",
+ "settingFa": "سوپرمارکت بزرگ",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u22_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scanning",
+      "checkout",
+      "quicker",
+      "let's",
+      "scan"
+     ],
+     "suggestion": "Let's use the self-checkout, it's quicker. Scan, bag, pay. Easy. You do the scanning, I'll do the bags.",
+     "suggestionFa": "بیا از صندوق سلف‌سرویس استفاده کنیم، سریع‌تره. اسکن، کیسه، پرداخت. آسون. تو اسکن کن، من کیسه می‌ذارم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "OK. Where's the barcode on these apples?",
+   "translations": {
+    "fa": "باشه. بارکد این سیب‌ها کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barcode",
+      "apples",
+      "weighs",
+      "press",
+      "loose"
+     ],
+     "suggestion": "Loose fruit has no barcode. Press \"Look up item\", then \"Fruit and veg\", then \"Apples\". It weighs them.",
+     "suggestionFa": "میوهٔ فله بارکد نداره. «جستجوی کالا» را بزن، بعد «میوه و سبزی»، بعد «سیب». خودش وزنشون می‌کنه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Look up item… fruit… apples. Done!",
+   "translations": {
+    "fa": "جستجوی کالا… میوه… سیب. تموم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "zara",
+   "text": "Uh-oh, I heard that! The machine said \"Unexpected item in the bagging area\". It wants you to take something off.",
+   "translations": {
+    "fa": "اوه، شنیدم! دستگاه گفت «کالای غیرمنتظره در محل بسته‌بندی». می‌خواد یه چیزی را برداری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unexpected",
+     "fa": "غیرمنتظره"
+    },
+    {
+     "word": "item",
+     "fa": "کالا"
+    },
+    {
+     "word": "bagging area",
+     "fa": "محل بسته‌بندی"
+    },
+    {
+     "word": "remove",
+     "fa": "برداشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Unexpected item in the bagging area\" is the most famous machine voice in Britain. Everyone hears it. Nobody knows why.",
+    "fa": "این مشهورترین جملهٔ دستگاه در بریتانیاست."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What? I haven't put anything there!",
+   "translations": {
+    "fa": "چی؟ من چیزی اونجا نذاشتم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "handbag",
+      "classic",
+      "stopped",
+      "scales",
+      "i'll"
+     ],
+     "suggestion": "Oops — it's my handbag! I've put it on the scales. Classic. I'll move it. Has it stopped?",
+     "suggestionFa": "اوه — کیف دستی منه! گذاشتمش رو ترازو. کلاسیک. برش می‌دارم. ساکت شد؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, it has stopped. The light is green.",
+   "translations": {
+    "fa": "آره، ساکت شد. چراغ سبزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flashing",
+      "member",
+      "staff",
+      "light",
+      "means"
+     ],
+     "suggestion": "Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady?",
+     "suggestionFa": "هوم، چراغ بالاش قرمز چشمک می‌زنه. یعنی یه کارمند لازم داریم. میشه برای اون خانم دست تکون بدی؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Excuse me! Can you help us, please?",
+   "translations": {
+    "fa": "ببخشید! میشه لطفاً کمکمون کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "zara",
+   "text": "Me again! Don't worry, it does this to everyone. Let me tap my staff card… there. All sorted.",
+   "translations": {
+    "fa": "باز هم من! نگران نباشید، با همه این کار را می‌کنه. بذار کارت کارمندیم را بزنم… بفرمایید. همه‌چی درست شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sorted",
+     "fa": "حل شده"
+    },
+    {
+     "word": "twice",
+     "fa": "دو بار"
+    },
+    {
+     "word": "saved",
+     "fa": "نجات داد"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you! I've scanned the apples twice, I think.",
+   "translations": {
+    "fa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "zara",
+   "text": "Twice? Let me look… yep. I've taken one off. See? Total's gone down. Now just pay by card or phone.",
+   "translations": {
+    "fa": "دو بار؟ بذار ببینم… آره. یکیش را حذف کردم. می‌بینی؟ جمع کم شد. حالا فقط با کارت یا گوشی پرداخت کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "taken off",
+     "fa": "حذف کرد"
+    },
+    {
+     "word": "total",
+     "fa": "جمع کل"
+    },
+    {
+     "word": "gone down",
+     "fa": "کم شده"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن ؛ لمس کردن"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Card. Do I put it in or tap?",
+   "translations": {
+    "fa": "کارت. واردش کنم یا بزنمش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "checkout",
+      "machine",
+      "telling",
+      "you've",
+      "better"
+     ],
+     "suggestion": "You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom.",
+     "suggestionFa": "انجامش دادی! اولین صندوق سلف‌سرویست، فقط یه بار هم دستگاه دعوات کرد. از تام بهتری.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

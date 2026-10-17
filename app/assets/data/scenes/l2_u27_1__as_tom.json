@@ -1,0 +1,200 @@
+{
+ "id": "l2_u27_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) The bus is on diversion",
+ "titleFa": "(در نقش Tom) اتوبوس در مسیر انحرافی",
+ "setting": "Bus trouble · Level 2",
+ "settingFa": "دردسرهای اتوبوس",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u27_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diversion",
+      "roadworks",
+      "gentlemen",
+      "stopping",
+      "because"
+     ],
+     "suggestion": "Ladies and gentlemen, sorry! This bus is on diversion because of roadworks on Mare Street. We're not stopping at the market.",
+     "suggestionFa": "خانم‌ها و آقایان، ببخشید! این اتوبوس به خاطر تعمیرات جاده تو مِر استریت در مسیر انحرافیه. ایستگاه بازار توقف نداریم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no. I need the market stop!",
+   "translations": {
+    "fa": "وای نه. من ایستگاه بازار را لازم دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "morning",
+      "instead",
+      "street",
+      "along"
+     ],
+     "suggestion": "It means a different route. We go along Morning Lane instead of Mare Street. Where were you going?",
+     "suggestionFa": "یعنی یه مسیر دیگه. به‌جای مِر استریت از مورنینگ لین میریم. کجا می‌رفتی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "To the market. I need fish for Leslie.",
+   "translations": {
+    "fa": "بازار. برای لزلی ماهی لازم دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nearest",
+      "morning",
+      "church",
+      "market",
+      "minute"
+     ],
+     "suggestion": "The nearest stop for the market is Morning Lane, by the church. It's a five-minute walk. Sorry, mate — not my fault!",
+     "suggestionFa": "نزدیک‌ترین ایستگاه برای بازار مورنینگ لینه، کنار کلیسا. پنج دقیقه پیاده‌ست. ببخشید رفیق — تقصیر من نیست!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Five minutes is OK. Which way do I walk?",
+   "translations": {
+    "fa": "پنج دقیقه خوبه. از کدوم طرف پیاده برم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "council's",
+      "chippy",
+      "you'll",
+      "every",
+      "smell"
+     ],
+     "suggestion": "The council's! They dig up the same road every year. Walk back past the chippy, then turn right. You'll smell the fish.",
+     "suggestionFa": "تقصیر شورا! هر سال همون جاده را می‌کنن. از کنار ماهی‌فروشی برگرد، بعد بپیچ راست. بوی ماهی را حس می‌کنی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ha! Is the diversion for a long time?",
+   "translations": {
+    "fa": "ها! مسیر انحرافی طولانیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "website",
+      "before",
+      "check",
+      "about"
+     ],
+     "suggestion": "Two weeks, the sign says. So, about six weeks. Ha! There's a list on the TfL website. You can check before you leave.",
+     "suggestionFa": "تابلو میگه دو هفته. یعنی حدود شش هفته. ها! یه فهرست رو سایت TfL هست. می‌تونی قبل از راه افتادن چک کنی.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Can I check on the TfL Go app too?",
+   "translations": {
+    "fa": "تو اپ TfL Go هم می‌تونم چک کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diversions",
+      "morning",
+      "useful",
+      "times",
+      "shows"
+     ],
+     "suggestion": "Yes, the app shows diversions and live times. Very useful. OK — Morning Lane. This is you. Ring the bell!",
+     "suggestionFa": "آره، اپ مسیرهای انحرافی و زمان زنده را نشون میده. خیلی به درد می‌خوره. خب — مورنینگ لین. ایستگاه تو. زنگ را بزن!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'm ringing it! Thanks, Tom.",
+   "translations": {
+    "fa": "دارم می‌زنم! ممنون تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "always",
+      "other",
+      "stop",
+      "step"
+     ],
+     "suggestion": "Same stop, other side. And get the big fish — Leslie always says \"the big one\". Mind the step!",
+     "suggestionFa": "همون ایستگاه، طرف مقابل. ماهی بزرگه را بگیر — لزلی همیشه میگه «بزرگه». مواظب پله باش!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

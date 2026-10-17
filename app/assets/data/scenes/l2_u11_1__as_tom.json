@@ -50,7 +50,7 @@
       "thompson",
       "switch",
       "first",
-      "i'll"
+      "ring"
      ],
      "suggestion": "Good idea — switch it off first. I'll ring the engineer. Gaz? Hi, it's Tom Thompson.",
      "suggestionFa": "فکر خوبیه — اول خاموشش کن. به تعمیرکار زنگ می‌زنم. گز؟ سلام، تام تامپسونم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -415,11 +415,11 @@
    "branches": [
     {
      "keywords": [
-      "sandwich",
       "engineer",
-      "earned",
+      "sandwich",
       "you've",
-      "ryan's"
+      "ryan's",
+      "earned"
      ],
      "suggestion": "A sock! I bet it's Ryan's. Right, you've earned a bacon sandwich. Well done, engineer!",
      "suggestionFa": "یه جوراب! شرط می‌بندم مال رایانه. خب، یه ساندویچ بیکن حقته. آفرین، تعمیرکار!",

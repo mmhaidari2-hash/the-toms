@@ -63,8 +63,8 @@
    "branches": [
     {
      "keywords": [
-      "stand",
-      "stool"
+      "stool",
+      "stand"
      ],
      "suggestion": "Stand on this stool.",
      "suggestionFa": "روی این چهارپایه وایسا.",
@@ -74,8 +74,8 @@
     },
     {
      "keywords": [
-      "turn",
       "i'll",
+      "turn",
       "tap"
      ],
      "suggestion": "I'll turn on the tap for you.",
@@ -219,8 +219,8 @@
      "keywords": [
       "rinse",
       "soap",
-      "off",
-      "now"
+      "now",
+      "off"
      ],
      "suggestion": "Now rinse off the soap.",
      "suggestionFa": "حالا صابون را آب بکش.",
@@ -277,8 +277,8 @@
     {
      "keywords": [
       "here's",
-      "hands",
       "towel",
+      "hands",
       "dry"
      ],
      "suggestion": "Here's the towel. Dry your hands.",

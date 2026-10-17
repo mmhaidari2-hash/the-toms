@@ -1,0 +1,417 @@
+{
+ "id": "l2_u29_4",
+ "characterId": "sal",
+ "title": "William's first haircut",
+ "titleFa": "اولین اصلاح ویلیام",
+ "setting": "Barber and hairdresser · Level 2",
+ "settingFa": "آرایشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sal",
+   "text": "Who's this little man? Is this William? His first haircut! Leslie said you'd bring him. Up you get, on the booster seat.",
+   "translations": {
+    "fa": "این آقا کوچولو کیه؟ ویلیامه؟ اولین اصلاحش! لزلی گفت میاریش. بیا بالا، رو صندلی بلند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "he's",
+      "bit"
+     ],
+     "suggestion": "Yes, this is William. He's a bit nervous.",
+     "suggestionFa": "آره، این ویلیامه. یه‌کم مضطربه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chair",
+      "come",
+      "sit",
+      "big"
+     ],
+     "suggestion": "Come on, William. Sit on the big chair!",
+     "suggestionFa": "بیا ویلیام. رو صندلی بزرگ بشین!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first haircut",
+     "fa": "اولین اصلاح"
+    },
+    {
+     "word": "booster seat",
+     "fa": "صندلی بلند (کودک)"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    },
+    {
+     "word": "chair",
+     "fa": "صندلی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "No! Scared! No scissors!",
+   "translations": {
+    "fa": "نه! می‌ترسم! قیچی نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "promise",
+      "won't",
+      "hurt"
+     ],
+     "suggestion": "It won't hurt, William. I promise.",
+     "suggestionFa": "درد نداره ویلیام. قول میدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "then",
+      "i'll",
+      "look"
+     ],
+     "suggestion": "Look, I'll sit first. Then you.",
+     "suggestionFa": "ببین، اول من می‌شینم. بعد تو.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    },
+    {
+     "word": "scissors",
+     "fa": "قیچی"
+    },
+    {
+     "word": "won't hurt",
+     "fa": "درد ندارد"
+    },
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it not hurt",
+      "it won't hurting"
+     ],
+     "echo": "It won't hurt. That's right.",
+     "better": "It won't hurt.",
+     "betterFa": "درد نخواهد داشت."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "Good idea! You sit, and I'll pretend to cut your hair. Snip snip! See, William? Easy. Now your turn?",
+   "translations": {
+    "fa": "فکر خوبیه! تو بشین، منم وانمود می‌کنم موهات را کوتاه می‌کنم. قیچ قیچ! دیدی ویلیام؟ آسونه. حالا نوبت تو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turn",
+      "now"
+     ],
+     "suggestion": "William, your turn now?",
+     "suggestionFa": "ویلیام، حالا نوبت توئه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "hurt",
+      "look"
+     ],
+     "suggestion": "Look, William! It didn't hurt me.",
+     "suggestionFa": "ببین ویلیام! به من درد نداد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "OK. You hold my hand.",
+   "translations": {
+    "fa": "باشه. تو دستم را بگیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brave",
+      "i'll"
+     ],
+     "suggestion": "I'll hold your hand. Be brave!",
+     "suggestionFa": "دستت را می‌گیرم. شجاع باش!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tight",
+      "good",
+      "boy"
+     ],
+     "suggestion": "Good boy. Hold my hand tight.",
+     "suggestionFa": "آفرین پسر خوب. دستم را محکم بگیر.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pretend",
+     "fa": "وانمود کردن"
+    },
+    {
+     "word": "snip",
+     "fa": "قیچ ؛ چیدن"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    },
+    {
+     "word": "tight",
+     "fa": "محکم"
+    }
+   ],
+   "cultureNote": {
+    "en": "A child's first haircut is a big moment. Many barbers give a certificate and keep a little lock of hair for the parents.",
+    "fa": "بسیاری از آرایشگرها برای اولین اصلاح کودک گواهی و یک طره مو می‌دهند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sal",
+   "text": "Brilliant. Now keep still, William. Very still, like a statue. I'm going to use the quiet clippers. Buzz buzz!",
+   "translations": {
+    "fa": "عالیه. حالا تکون نخور ویلیام. خیلی بی‌حرکت، مثل مجسمه. از ماشین بی‌صدا استفاده می‌کنم. بززز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "statue",
+      "still",
+      "keep",
+      "like"
+     ],
+     "suggestion": "Keep still, William. Like a statue!",
+     "suggestionFa": "تکون نخور ویلیام. مثل مجسمه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tickle"
+     ],
+     "suggestion": "Does it tickle, William?",
+     "suggestionFa": "قلقلکت میاد ویلیام؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keep still",
+     "fa": "تکان نخور"
+    },
+    {
+     "word": "statue",
+     "fa": "مجسمه"
+    },
+    {
+     "word": "quiet",
+     "fa": "بی‌صدا"
+    },
+    {
+     "word": "tickle",
+     "fa": "قلقلک دادن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Tickly! Ha ha! Bunny bus!",
+   "translations": {
+    "fa": "قلقلکی! ها ها! اتوبوس خرگوشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bunny",
+      "mean",
+      "bus",
+      "he"
+     ],
+     "suggestion": "Bunny bus? What does he mean?",
+     "suggestionFa": "اتوبوس خرگوشی؟ منظورش چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finished",
+      "william",
+      "nearly",
+      "happy"
+     ],
+     "suggestion": "He's happy now. Nearly finished, William!",
+     "suggestionFa": "الان خوشحاله. تقریباً تموم شد ویلیام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tickly",
+     "fa": "قلقلکی"
+    },
+    {
+     "word": "bunny",
+     "fa": "خرگوش (کودکانه)"
+    },
+    {
+     "word": "nearly",
+     "fa": "تقریباً"
+    },
+    {
+     "word": "finished",
+     "fa": "تمام‌شده"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sal",
+   "text": "Ha! Tom says he calls everything \"bunny bus\". There — finished! Look in the mirror, William. Who's that handsome boy?",
+   "translations": {
+    "fa": "ها! تام میگه به همه‌چی میگه «اتوبوس خرگوشی». بفرما — تموم شد! تو آینه نگاه کن ویلیام. این پسر خوش‌تیپ کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "who's"
+     ],
+     "suggestion": "William, look! Who's that?",
+     "suggestionFa": "ویلیام، ببین! اون کیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "wow"
+     ],
+     "suggestion": "Wow, William! You look great.",
+     "suggestionFa": "وای ویلیام! عالی شدی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Me! Big boy now!",
+   "translations": {
+    "fa": "من! پسر بزرگ شدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "grown",
+      "look",
+      "up"
+     ],
+     "suggestion": "You look so grown up, William!",
+     "suggestionFa": "خیلی بزرگ به نظر میای ویلیام!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "photo",
+      "take",
+      "love"
+     ],
+     "suggestion": "Leslie will love it. Can I take a photo?",
+     "suggestionFa": "لزلی عاشقش میشه. می‌تونم یه عکس بگیرم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "handsome",
+     "fa": "خوش‌تیپ"
+    },
+    {
+     "word": "grown up",
+     "fa": "بزرگ ؛ بالغ"
+    },
+    {
+     "word": "photo",
+     "fa": "عکس"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "sal",
+   "text": "Take lots! And here's a \"My First Haircut\" certificate, and a lock of hair for Mum. First haircuts are free.",
+   "translations": {
+    "fa": "کلی بگیر! این هم یه گواهی «اولین اصلاح من» و یه طره مو برای مامان. اولین اصلاح مجانیه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

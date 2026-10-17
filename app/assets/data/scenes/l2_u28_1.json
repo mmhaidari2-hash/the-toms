@@ -1,0 +1,403 @@
+{
+ "id": "l2_u28_1",
+ "characterId": "arthur",
+ "title": "Tracked or signed for?",
+ "titleFa": "رهگیری یا امضایی؟",
+ "setting": "At the post office · Level 2",
+ "settingFa": "در اداره پست",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Next, please! Ah, my favourite customer. What are we sending today? Pop it on the scales.",
+   "translations": {
+    "fa": "نفر بعدی لطفاً! آه، مشتری محبوبم. امروز چی می‌فرستیم؟ بذارش رو ترازو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manchester",
+      "please",
+      "send",
+      "like"
+     ],
+     "suggestion": "I'd like to send this to Manchester, please.",
+     "suggestionFa": "می‌خوام اینو بفرستم منچستر، لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheapest",
+      "friend",
+      "what's",
+      "book"
+     ],
+     "suggestion": "It's a book for my friend. What's the cheapest way?",
+     "suggestionFa": "یه کتابه برای دوستم. ارزون‌ترین راه چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "send",
+     "fa": "فرستادن"
+    },
+    {
+     "word": "scales",
+     "fa": "ترازو"
+    },
+    {
+     "word": "cheapest",
+     "fa": "ارزان‌ترین"
+    },
+    {
+     "word": "way",
+     "fa": "راه ؛ روش"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Four hundred grams. Second class is cheapest — two to three days. First class is usually next day.",
+   "translations": {
+    "fa": "چهارصد گرم. درجهٔ دو ارزون‌ترینه — دو تا سه روز. درجهٔ یک معمولاً روز بعد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "second",
+      "class",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is second class?",
+     "suggestionFa": "درجهٔ دو چنده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "track",
+      "there",
+      "way"
+     ],
+     "suggestion": "Is there a way to track it?",
+     "suggestionFa": "راهی هست ردیابیش کنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grams",
+     "fa": "گرم"
+    },
+    {
+     "word": "second class",
+     "fa": "درجهٔ دو"
+    },
+    {
+     "word": "first class",
+     "fa": "درجهٔ یک"
+    },
+    {
+     "word": "next day",
+     "fa": "روز بعد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Royal Mail has First Class (usually next day) and Second Class (2–3 working days). You can add tracking or a signature.",
+    "fa": "پست بریتانیا درجهٔ یک و دو دارد و می‌توان ردیابی یا امضا اضافه کرد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Second class is three pounds ten. But if it's valuable, I'd add \"Tracked\". You get a number to follow it online.",
+   "translations": {
+    "fa": "درجهٔ دو سه پوند و ده. ولی اگه باارزشه، «ردیابی» اضافه کن. یه شماره می‌گیری که آنلاین دنبالش کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "valuable",
+      "quite",
+      "book"
+     ],
+     "suggestion": "It's a signed book. It's quite valuable.",
+     "suggestionFa": "یه کتاب امضاشده‌ست. نسبتاً باارزشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "what's"
+     ],
+     "suggestion": "What's the difference with \"Signed For\"?",
+     "suggestionFa": "فرقش با «امضایی» چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "valuable",
+     "fa": "باارزش"
+    },
+    {
+     "word": "tracked",
+     "fa": "ردیابی‌شده"
+    },
+    {
+     "word": "follow",
+     "fa": "دنبال کردن"
+    },
+    {
+     "word": "signed",
+     "fa": "امضاشده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "Signed For means someone signs when it arrives. Tracked shows every step. Special Delivery is both, and insured.",
+   "translations": {
+    "fa": "امضایی یعنی وقتی رسید یکی امضا می‌کنه. ردیابی همهٔ مراحل را نشون میده. «ارسال ویژه» هر دوشه، با بیمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "delivery",
+      "special"
+     ],
+     "suggestion": "Is Special Delivery expensive?",
+     "suggestionFa": "ارسال ویژه گرونه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tracked",
+      "enough",
+      "much",
+      "how"
+     ],
+     "suggestion": "Tracked is enough. How much is it?",
+     "suggestionFa": "ردیابی کافیه. چنده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arrives",
+     "fa": "می‌رسد"
+    },
+    {
+     "word": "step",
+     "fa": "مرحله"
+    },
+    {
+     "word": "insured",
+     "fa": "بیمه‌شده"
+    },
+    {
+     "word": "Special Delivery",
+     "fa": "ارسال ویژه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is enough tracked",
+      "tracked is enough for me?"
+     ],
+     "echo": "Tracked is enough? Good choice.",
+     "better": "Tracked is enough.",
+     "betterFa": "ردیابی کافی است."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "Special Delivery is about eight pounds, guaranteed by one o'clock tomorrow. Tracked 48 is four twenty.",
+   "translations": {
+    "fa": "ارسال ویژه حدود هشت پونده، تضمینی تا ساعت یک فردا. ردیابی ۴۸ چهار و بیسته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tracked",
+      "please",
+      "twenty",
+      "four"
+     ],
+     "suggestion": "Four twenty, please. Tracked 48.",
+     "suggestionFa": "چهار و بیست، لطفاً. ردیابی ۴۸.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheaper",
+      "pounds",
+      "eight",
+      "i'll"
+     ],
+     "suggestion": "Eight pounds! I'll take the cheaper one.",
+     "suggestionFa": "هشت پوند! ارزون‌تره را برمی‌دارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guaranteed",
+     "fa": "تضمینی"
+    },
+    {
+     "word": "tomorrow",
+     "fa": "فردا"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "Very sensible. Any liquids, batteries, or anything sharp inside? I have to ask.",
+   "translations": {
+    "fa": "خیلی معقول. مایعات، باتری، یا چیز تیز داخلشه؟ باید بپرسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "card",
+      "book",
+      "just"
+     ],
+     "suggestion": "No, just a book. And a little card.",
+     "suggestionFa": "نه، فقط یه کتاب. و یه کارت کوچیک.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chocolate",
+      "there's",
+      "inside",
+      "bar"
+     ],
+     "suggestion": "Is chocolate OK? There's a bar inside.",
+     "suggestionFa": "شکلات اشکالی نداره؟ یه شکلات داخلشه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "liquids",
+     "fa": "مایعات"
+    },
+    {
+     "word": "batteries",
+     "fa": "باتری‌ها"
+    },
+    {
+     "word": "sharp",
+     "fa": "تیز"
+    },
+    {
+     "word": "bar",
+     "fa": "شکلات تخته‌ای"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "Chocolate's fine — lucky friend! Here's your receipt with the tracking number. Keep it safe until it arrives.",
+   "translations": {
+    "fa": "شکلات اشکالی نداره — خوش به حال دوستت! این رسیدت با شمارهٔ ردیابی. تا برسه نگهش دار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arthur",
+      "thank",
+      "check",
+      "app"
+     ],
+     "suggestion": "Thank you, Arthur. Can I check it on the app?",
+     "suggestionFa": "ممنون آرتور. تو اپ می‌تونم چکش کنم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "week",
+      "next",
+      "see"
+     ],
+     "suggestion": "Great. See you next week!",
+     "suggestionFa": "عالیه. هفتهٔ بعد می‌بینمت!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "tracking number",
+     "fa": "شمارهٔ ردیابی"
+    },
+    {
+     "word": "keep safe",
+     "fa": "نگه داشتن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "arthur",
+   "text": "On the app or the website, yes. Thirty-one years here, and I still love a good parcel. Mind how you go!",
+   "translations": {
+    "fa": "تو اپ یا سایت، آره. سی و یک ساله اینجام و هنوز عاشق یه بستهٔ خوبم. مواظب خودت باش!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

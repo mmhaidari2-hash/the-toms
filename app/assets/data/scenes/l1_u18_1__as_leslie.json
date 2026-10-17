@@ -49,8 +49,8 @@
       "cucumber",
       "cheese",
       "bread",
-      "brown",
-      "white"
+      "white",
+      "brown"
      ],
      "suggestion": "Cheese, ham, tuna, egg… and cucumber. White bread or brown bread?",
      "suggestionFa": "پنیر، ژامبون، تن ماهی، تخم‌مرغ… و خیار. نون سفید یا نون سبوس‌دار؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "butter",
-      "brown",
       "bread",
+      "brown",
       "want"
      ],
      "suggestion": "Brown bread. Do you want butter on it?",
@@ -98,8 +98,8 @@
       "classic",
       "pickle",
       "cheese",
-      "brown",
-      "sweet"
+      "sweet",
+      "brown"
      ],
      "suggestion": "Cheese and pickle? It's a classic! Pickle is sweet and brown.",
      "suggestionFa": "پنیر و پیکل؟ کلاسیکه! پیکل شیرین و قهوه‌ایه.",
@@ -122,9 +122,9 @@
      "keywords": [
       "sandwich",
       "crisps",
-      "there",
       "wants",
-      "think"
+      "think",
+      "there"
      ],
      "suggestion": "There you go. Ryan wants crisps in his sandwich! What do you think?",
      "suggestionFa": "بفرما. رایان می‌خواد تو ساندویچش چیپس بذاره! نظرت چیه؟",
@@ -148,8 +148,8 @@
       "triangles",
       "popular",
       "squares",
-      "yours",
-      "butty"
+      "butty",
+      "shall"
      ],
      "suggestion": "It's a \"crisp butty\". Very popular here! Shall I cut yours into triangles or squares?",
      "suggestionFa": "بهش می‌گن «کریسپ باتی». اینجا خیلی محبوبه! مال تو را مثلثی ببرم یا مربعی؟",
@@ -222,7 +222,7 @@
      "keywords": [
       "please",
       "garden",
-      "sunny",
+      "small",
       "let's",
       "right"
      ],

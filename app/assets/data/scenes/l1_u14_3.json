@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "fine",
-      "warm"
+      "warm",
+      "fine"
      ],
      "suggestion": "It's warm. It's fine.",
      "suggestionFa": "گرمه. خوبه.",
@@ -31,8 +31,8 @@
     {
      "keywords": [
       "water",
-      "cold",
       "some",
+      "cold",
       "add"
      ],
      "suggestion": "It's a bit hot. Add some cold water.",
@@ -76,8 +76,8 @@
     {
      "keywords": [
       "enough",
-      "that's",
       "nicola",
+      "that's",
       "stop"
      ],
      "suggestion": "Stop, Nicola! That's enough!",
@@ -299,8 +299,8 @@
    "branches": [
     {
      "keywords": [
-      "which",
-      "towel"
+      "towel",
+      "which"
      ],
      "suggestion": "Yes. Which towel?",
      "suggestionFa": "آره. کدوم حوله؟",

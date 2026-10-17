@@ -178,8 +178,8 @@
    "branches": [
     {
      "keywords": [
-      "called",
-      "what's"
+      "what's",
+      "called"
      ],
      "suggestion": "No. What's it called?",
      "suggestionFa": "نه. اسمش چیه؟",
@@ -190,9 +190,9 @@
     {
      "keywords": [
       "minutes",
-      "says",
       "more",
-      "ten"
+      "says",
+      "but"
      ],
      "suggestion": "Yes, but it says ten more minutes.",
      "suggestionFa": "آره، ولی نوشته ده دقیقهٔ دیگه.",
@@ -281,8 +281,8 @@
      "keywords": [
       "message",
       "sorry",
-      "send",
-      "i'll"
+      "i'll",
+      "send"
      ],
      "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
      "suggestionFa": "آره. یه پیام می‌فرستم: «ببخشید، اتوبوس دیر کرده.»",
@@ -293,8 +293,8 @@
     {
      "keywords": [
       "minutes",
-      "twenty",
       "should",
+      "twenty",
       "maybe"
      ],
      "suggestion": "Maybe I should walk. It's only twenty minutes.",
@@ -333,8 +333,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "doris",
+      "right",
       "were"
      ],
      "suggestion": "You were right, Doris!",
@@ -345,10 +345,10 @@
     },
     {
      "keywords": [
-      "buses",
-      "three",
+      "shall",
       "which",
-      "shall"
+      "buses",
+      "three"
      ],
      "suggestion": "Three buses! Which one shall we take?",
      "suggestionFa": "سه تا اتوبوس! کدومش را سوار شیم؟",

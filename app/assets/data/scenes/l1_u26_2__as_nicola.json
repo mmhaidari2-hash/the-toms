@@ -24,8 +24,8 @@
       "playground",
       "please",
       "swing",
-      "push",
-      "come"
+      "come",
+      "push"
      ],
      "suggestion": "The playground! Come on! Push me on the swing, please!",
      "suggestionFa": "زمین بازی! بیا! هلم بده روی تاب، لطفاً!",
@@ -69,10 +69,10 @@
     {
      "keywords": [
       "ladder",
-      "slide",
-      "wheee",
       "watch",
-      "going"
+      "wheee",
+      "going",
+      "slide"
      ],
      "suggestion": "Now the slide! Watch me. I'm going up the ladder… and down the slide! Wheee!",
      "suggestionFa": "حالا سرسره! منو ببین. دارم از نردبون می‌رم بالا… و از سرسره می‌آم پایین! وییی!",
@@ -117,8 +117,8 @@
     {
      "keywords": [
       "stuck",
-      "big",
       "got",
+      "big",
       "ha"
      ],
      "suggestion": "Ha ha ha! You got stuck! You're too big!",
@@ -142,9 +142,9 @@
      "keywords": [
       "through",
       "tunnel",
-      "crawl",
       "let's",
-      "now"
+      "crawl",
+      "can"
      ],
      "suggestion": "Now let's go through the tunnel. Can you crawl?",
      "suggestionFa": "حالا بیا از تونل رد بشیم. می‌تونی چهار دست و پا بری؟",
@@ -166,10 +166,10 @@
     {
      "keywords": [
       "climbing",
-      "follow",
       "bridge",
+      "follow",
       "frame",
-      "over"
+      "then"
      ],
      "suggestion": "Then over the bridge and onto the climbing frame! Follow me!",
      "suggestionFa": "بعد از روی پل و رو داربست بازی! دنبالم بیا!",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "castle",
       "rascal",
+      "castle",
       "queen",
       "dirty",
       "top"
@@ -217,9 +217,9 @@
      "keywords": [
       "roundabout",
       "cream",
+      "then",
       "spin",
-      "game",
-      "push"
+      "game"
      ],
      "suggestion": "It's a game! Now the roundabout. You push, I spin. Then ice cream!",
      "suggestionFa": "یه بازیه! حالا چرخ‌وفلک. تو هل بده، من می‌چرخم. بعد بستنی!",

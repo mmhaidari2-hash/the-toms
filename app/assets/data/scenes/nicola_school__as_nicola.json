@@ -23,9 +23,9 @@
      "keywords": [
       "nobody",
       "tummy",
+      "likes",
       "funny",
-      "feels",
-      "likes"
+      "feels"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
      "suggestionFa": "دلم یه جوریه. اگه هیچ‌کس دوستم نداشته باشه چی؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "three",
-      "half",
-      "will",
       "pick",
+      "will",
+      "half",
       "up"
      ],
      "suggestion": "Will you pick me up at half three?",
@@ -75,7 +75,7 @@
       "coming",
       "book",
       "okay",
-      "bye"
+      "bag"
      ],
      "suggestion": "Okay. Teddy's coming too, in my book bag. Bye-bye!",
      "suggestionFa": "باشه. تدی هم میاد، تو کیف کتابم. خداحافظ!",
@@ -98,9 +98,9 @@
      "keywords": [
       "painting",
       "mine's",
+      "orange",
       "autumn",
-      "leaves",
-      "orange"
+      "leaves"
      ],
      "suggestion": "You came! It's half three! We did a painting of autumn leaves today. Mine's orange and gold.",
      "suggestionFa": "اومدی! سه و نیمه! امروز نقاشی برگ‌های پاییزی کشیدیم. مال من نارنجی و طلاییه.",
@@ -123,8 +123,8 @@
      "keywords": [
       "tomorrow",
       "drying",
-      "guess",
       "bring",
+      "guess",
       "i'll"
      ],
      "suggestion": "It's drying. I'll bring it home tomorrow. And guess what — I got a gold star!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "crayons",
       "sharing",
+      "crayons",
       "friend",
       "she's",
       "best"
@@ -224,8 +224,8 @@
       "children",
       "fingers",
       "nervous",
-      "fish",
-      "good"
+      "play",
+      "have"
      ],
      "suggestion": "Good children get to play! I'm not nervous now. Can we have fish fingers for tea?",
      "suggestionFa": "بچه‌های خوب می‌تونن بازی کنن! دیگه استرس ندارم. می‌شه شام ماهی سوخاری بخوریم؟",
@@ -248,8 +248,8 @@
      "keywords": [
       "tomorrow",
       "again",
-      "liked",
       "teddy",
+      "liked",
       "first"
      ],
      "suggestion": "Yay! Best first day ever. Teddy liked it too. Can I go again tomorrow?",

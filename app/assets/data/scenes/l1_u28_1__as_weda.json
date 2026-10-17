@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -62,8 +62,8 @@
      "keywords": [
       "speaking",
       "maggie",
-      "hello",
       "who's",
+      "hello",
       "love"
      ],
      "suggestion": "Hello, love. It's Maggie. Who's speaking?",
@@ -85,8 +85,8 @@
    "branches": [
     {
      "keywords": [
-      "there",
       "hello",
+      "there",
       "dear",
       "tom",
       "oh"
@@ -112,9 +112,9 @@
      "keywords": [
       "message",
       "never",
-      "mind",
       "give",
-      "him"
+      "mind",
+      "can"
      ],
      "suggestion": "Never mind. Can you give him a message?",
      "suggestionFa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "appointment",
-      "hospital",
       "thursday",
+      "hospital",
       "george",
       "can't"
      ],
@@ -162,9 +162,9 @@
      "keywords": [
       "instead",
       "friday",
-      "heart",
       "check",
-      "come"
+      "heart",
+      "just"
      ],
      "suggestion": "Yes, just a check-up. His heart. Can I come on Friday instead?",
      "suggestionFa": "آره، فقط معاینه‌ست. قلبش. می‌تونم به جاش جمعه بیام؟",
@@ -185,11 +185,11 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "thank",
+      "after",
       "love",
-      "call",
-      "back"
+      "tell",
+      "call"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
      "suggestionFa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه.",

@@ -1,0 +1,200 @@
+{
+ "id": "l2_u27_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) The night bus",
+ "titleFa": "(در نقش Tom) اتوبوس شبانه",
+ "setting": "Bus trouble · Level 2",
+ "settingFa": "دردسرهای اتوبوس",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u27_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie's",
+      "midnight",
+      "worried",
+      "where",
+      "hello"
+     ],
+     "suggestion": "Hello? It's midnight! Where are you? Leslie's worried. Are you still in town?",
+     "suggestionFa": "الو؟ نصف شبه! کجایی؟ لزلی نگرانه. هنوز تو شهری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sorry! I'm at Oxford Circus. I've missed the last Tube.",
+   "translations": {
+    "fa": "ببخشید! تو آکسفورد سیرکس هستم. آخرین مترو را از دست دادم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "newington",
+      "problem",
+      "oxford",
+      "street",
+      "night"
+     ],
+     "suggestion": "No problem. Get the night bus. The N73 goes from Oxford Street to Stoke Newington. It runs all night.",
+     "suggestionFa": "مشکلی نیست. سوار اتوبوس شبانه شو. N73 از آکسفورد استریت میره استوک نیوینگتون. تمام شب کار می‌کنه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "The N73? What does the N mean?",
+   "translations": {
+    "fa": "N73؟ N یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteen",
+      "minutes",
+      "night",
+      "every",
+      "price"
+     ],
+     "suggestion": "N for night. Every ten or fifteen minutes. Same price as the day bus. Have you got your card?",
+     "suggestionFa": "N یعنی شب. هر ده پونزده دقیقه. همون قیمت اتوبوس روز. کارتت همراهته؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes. And my phone battery is low.",
+   "translations": {
+    "fa": "آره. و باتری گوشیم کمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "downstairs",
+      "carefully",
+      "newington",
+      "station",
+      "circus"
+     ],
+     "suggestion": "Then listen carefully. Stop O, Oxford Circus. Sit downstairs, near the driver. Get off at Stoke Newington police station.",
+     "suggestionFa": "پس خوب گوش کن. ایستگاه O، آکسفورد سیرکس. طبقهٔ پایین بشین، نزدیک راننده. ایستگاه پلیس استوک نیوینگتون پیاده شو.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Why should I sit near the driver?",
+   "translations": {
+    "fa": "چرا نزدیک راننده بشینم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "sometimes",
+      "upstairs",
+      "singing",
+      "people"
+     ],
+     "suggestion": "It's safer at night. Sometimes people upstairs are a bit… merry. Loud singing. Chips everywhere.",
+     "suggestionFa": "شب امن‌تره. گاهی آدمای طبقهٔ بالا یه‌کم… سرخوشن. آواز بلند. سیب‌زمینی همه‌جا.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Merry? You mean drunk?",
+   "translations": {
+    "fa": "سرخوش؟ یعنی مست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "harmless",
+      "station",
+      "police",
+      "mostly",
+      "drunk"
+     ],
+     "suggestion": "Drunk, yes. Mostly harmless. I'll pick you up at the police station in the car. Text me when you're on the bus.",
+     "suggestionFa": "مست، آره. بیشترشون بی‌آزارن. با ماشین از جلوی کلانتری برت می‌دارم. وقتی سوار اتوبوس شدی پیام بده.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom. You don't have to!",
+   "translations": {
+    "fa": "ممنون تام. لازم نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "either",
+      "don't",
+      "won't",
+      "until"
+     ],
+     "suggestion": "I know I don't have to. But Leslie won't sleep until you're home. And I won't either. See you soon, mate.",
+     "suggestionFa": "می‌دونم لازم نیست. ولی لزلی تا تو نرسی خونه نمی‌خوابه. منم نمی‌خوابم. زود می‌بینمت رفیق.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

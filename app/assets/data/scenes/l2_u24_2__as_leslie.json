@@ -1,0 +1,225 @@
+{
+ "id": "l2_u24_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Fitting rooms",
+ "titleFa": "(در نقش Leslie) اتاق پرو",
+ "setting": "Shopping centre · Level 2",
+ "settingFa": "مرکز خرید",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u24_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheerful",
+      "clothes",
+      "before",
+      "winter",
+      "let's"
+     ],
+     "suggestion": "Right, the value-clothes shop. Cheap and cheerful! You need a warm coat before winter. Let's look.",
+     "suggestionFa": "خب، فروشگاه لباس ارزون. ارزون و شاد! قبل از زمستون یه کت گرم لازم داری. بیا ببینیم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "This one looks warm. Can I try it on?",
+   "translations": {
+    "fa": "این یکی گرم به نظر میاد. می‌تونم پروش کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fitting",
+      "number",
+      "course",
+      "items",
+      "rooms"
+     ],
+     "suggestion": "Of course! The fitting rooms are at the back. You can take six items. They give you a number tag.",
+     "suggestionFa": "البته! اتاق‌های پرو ته فروشگاهه. می‌تونی شش تیکه ببری. یه برچسب شماره بهت میدن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Six items? Then I'll take a jumper too.",
+   "translations": {
+    "fa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jumpers",
+      "don't",
+      "three",
+      "well",
+      "wait"
+     ],
+     "suggestion": "So you don't walk out with three jumpers on! Go on, try it. I'll wait here. Well? How is it?",
+     "suggestionFa": "که با سه تا بلوز تنت بیرون نری! برو، امتحانش کن. همین‌جا منتظرم. خب؟ چطوره؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "It's too small. The sleeves are short.",
+   "translations": {
+    "fa": "خیلی کوچیکه. آستیناش کوتاهه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medium",
+      "excuse",
+      "that's",
+      "bigger",
+      "large"
+     ],
+     "suggestion": "Let's find a bigger size. That's a medium. You need a large. I'll ask the lady. Excuse me — have you got this in large?",
+     "suggestionFa": "بیا سایز بزرگ‌تر پیدا کنیم. اون مدیومه. تو لارج لازم داری. از خانمه می‌پرسم. ببخشید — اینو سایز لارج دارین؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Can I help? I can ask her.",
+   "translations": {
+    "fa": "کمک کنم؟ من ازش می‌پرسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they've",
+      "colour",
+      "really",
+      "that's",
+      "large"
+     ],
+     "suggestion": "She says they've only got large in green. Here. Try this. Oh! That's a good colour on you. It really suits you.",
+     "suggestionFa": "میگه لارج فقط سبز دارن. بیا. اینو امتحان کن. اوه! این رنگ بهت میاد. واقعاً بهت میاد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Really? I don't usually wear green.",
+   "translations": {
+    "fa": "واقعاً؟ من معمولاً سبز نمی‌پوشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sideways",
+      "bargain",
+      "pounds",
+      "twenty",
+      "london"
+     ],
+     "suggestion": "Twenty-five pounds! For a winter coat, that's a bargain. Does it have a hood? London rain is sideways.",
+     "suggestionFa": "بیست و پنج پوند! برای یه کت زمستونی، مفته. کلاه داره؟ بارون لندن کج می‌باره.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, it has a hood. I'll take it.",
+   "translations": {
+    "fa": "آره، کلاه داره. برش می‌دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "november",
+      "receipt",
+      "change",
+      "right",
+      "until"
+     ],
+     "suggestion": "Very real. Wait until November! Right — pay at the till by the door, and keep the receipt in case you change your mind.",
+     "suggestionFa": "خیلی واقعی. صبر کن تا نوامبر! خب — دم در پولش را بده و رسید را نگه دار شاید نظرت عوض شد.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "How long can I return it for?",
+   "translations": {
+    "fa": "تا کی می‌تونم پسش بدم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "usually",
+      "twenty",
+      "month",
+      "socks"
+     ],
+     "suggestion": "Usually twenty-eight days here. And me? Just socks for William. He's eaten… I mean, lost… four pairs this month.",
+     "suggestionFa": "معمولاً اینجا بیست و هشت روز. و من؟ فقط جوراب برای ویلیام. چهار جفت… یعنی، گم کرده… این ماه چهار جفت.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

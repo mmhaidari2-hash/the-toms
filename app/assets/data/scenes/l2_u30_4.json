@@ -1,0 +1,402 @@
+{
+ "id": "l2_u30_4",
+ "characterId": "tom",
+ "title": "A standing order for rent",
+ "titleFa": "دستور پرداخت دائمی برای اجاره",
+ "setting": "At the bank · Level 2",
+ "settingFa": "در بانک",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Got a minute? Leslie says we should sort out the rent properly now you've got a bank account. No more cash in envelopes!",
+   "translations": {
+    "fa": "یه دقیقه وقت داری؟ لزلی میگه حالا که حساب بانکی داری باید اجاره را درست و حسابی ردیف کنیم. دیگه پول نقد تو پاکت بسه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure",
+      "pay",
+      "how"
+     ],
+     "suggestion": "Sure. How do I pay you?",
+     "suggestionFa": "حتماً. چطوری بهت پرداخت کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "standing",
+      "should",
+      "order",
+      "idea"
+     ],
+     "suggestion": "Good idea. Should I set up a standing order?",
+     "suggestionFa": "فکر خوبیه. دستور پرداخت دائمی بذارم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sort out",
+     "fa": "مرتب کردن ؛ حل کردن"
+    },
+    {
+     "word": "properly",
+     "fa": "درست و حسابی"
+    },
+    {
+     "word": "envelopes",
+     "fa": "پاکت‌ها"
+    },
+    {
+     "word": "standing order",
+     "fa": "دستور پرداخت دائمی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Yes — a standing order. The same amount goes from your account to mine on the same day, every month. Automatic.",
+   "translations": {
+    "fa": "آره — دستور پرداخت دائمی. هر ماه، همون روز، همون مبلغ از حسابت میره به حساب من. خودکار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "how",
+      "set",
+      "up"
+     ],
+     "suggestion": "How do I set it up?",
+     "suggestionFa": "چطوری تنظیمش کنم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forget",
+      "month",
+      "every",
+      "if"
+     ],
+     "suggestion": "Every month? What if I forget?",
+     "suggestionFa": "هر ماه؟ اگه یادم بره چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "amount",
+     "fa": "مبلغ"
+    },
+    {
+     "word": "same day",
+     "fa": "همان روز"
+    },
+    {
+     "word": "automatic",
+     "fa": "خودکار"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "A standing order is a regular payment you control. A direct debit is controlled by the company, for example for gas or phone bills.",
+    "fa": "دستور پرداخت دائمی را خودتان کنترل می‌کنید؛ direct debit را شرکت."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "That's the point — you can't forget. Open your app. Payments, then \"New standing order\". You need my sort code and account number.",
+   "translations": {
+    "fa": "نکته همینه — نمی‌تونی یادت بره. اپت را باز کن. پرداخت‌ها، بعد «دستور پرداخت دائمی جدید». کد شعبه و شمارهٔ حساب من را لازم داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sort",
+      "code"
+     ],
+     "suggestion": "What's a sort code?",
+     "suggestionFa": "کد شعبه چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "account",
+      "number",
+      "ok"
+     ],
+     "suggestion": "OK. What's your account number?",
+     "suggestionFa": "باشه. شمارهٔ حسابت چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "point",
+     "fa": "نکته ؛ هدف"
+    },
+    {
+     "word": "payments",
+     "fa": "پرداخت‌ها"
+    },
+    {
+     "word": "sort code",
+     "fa": "کد شعبه"
+    },
+    {
+     "word": "account number",
+     "fa": "شمارهٔ حساب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Sort code's six numbers — it shows the bank. Mine's 20-45-77. Account number: 4-1-3-6-8-0-9-2. Read it back to me.",
+   "translations": {
+    "fa": "کد شعبه شش رقمه — بانک را نشون میده. مال من ۲۰-۴۵-۷۷ ـه. شمارهٔ حساب: ۴-۱-۳-۶-۸-۰-۹-۲. برام بخونش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seventy",
+      "account",
+      "twenty",
+      "forty"
+     ],
+     "suggestion": "Twenty, forty-five, seventy-seven. Account four one three six…",
+     "suggestionFa": "بیست، چهل و پنج، هفتاد و هفت. حساب چهار یک سه شش…",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "repeat",
+      "slowly",
+      "could",
+      "sorry"
+     ],
+     "suggestion": "Sorry, could you repeat that slowly?",
+     "suggestionFa": "ببخشید، میشه آروم تکرارش کنی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "six",
+     "fa": "شش"
+    },
+    {
+     "word": "shows",
+     "fa": "نشان می‌دهد"
+    },
+    {
+     "word": "read back",
+     "fa": "بازخوانی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Spot on. The app says \"Name check: Thomas Tom. Match.\" Good — that means it's the right person. Always check that.",
+   "translations": {
+    "fa": "دقیقاً. اپ میگه «بررسی نام: توماس تام. مطابقت دارد.» خوبه — یعنی آدم درسته. همیشه اینو چک کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thomas",
+      "tom"
+     ],
+     "suggestion": "Thomas Tom? Your name is Thomas Tom?",
+     "suggestionFa": "توماس تام؟ اسمت توماس تامه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "important",
+      "check",
+      "why"
+     ],
+     "suggestion": "Why is the name check important?",
+     "suggestionFa": "چرا بررسی نام مهمه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spot on",
+     "fa": "دقیقاً درست"
+    },
+    {
+     "word": "name check",
+     "fa": "بررسی نام"
+    },
+    {
+     "word": "match",
+     "fa": "مطابقت"
+    },
+    {
+     "word": "right person",
+     "fa": "شخص درست"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "why name check is important",
+      "why is important name check"
+     ],
+     "echo": "Why is it important? Scams!",
+     "better": "Why is the name check important?",
+     "betterFa": "چرا بررسی نام مهم است؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Don't laugh. My mum had a sense of humour. Name check stops scams. If it says \"no match\", stop and check. Now: amount and date.",
+   "translations": {
+    "fa": "نخند. مامانم شوخ‌طبع بود. بررسی نام جلوی کلاهبرداری را می‌گیره. اگه نوشت «مطابقت ندارد»، دست نگه دار و چک کن. حالا: مبلغ و تاریخ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "pounds",
+      "every",
+      "six"
+     ],
+     "suggestion": "Six hundred pounds, on the first of every month.",
+     "suggestionFa": "ششصد پوند، اول هر ماه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eighth",
+      "twenty",
+      "paid",
+      "get"
+     ],
+     "suggestion": "Is the first of the month OK? I get paid on the twenty-eighth.",
+     "suggestionFa": "اول ماه خوبه؟ من بیست و هشتم حقوق می‌گیرم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sense of humour",
+     "fa": "شوخ‌طبعی"
+    },
+    {
+     "word": "scams",
+     "fa": "کلاهبرداری‌ها"
+    },
+    {
+     "word": "date",
+     "fa": "تاریخ"
+    },
+    {
+     "word": "get paid",
+     "fa": "حقوق گرفتن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "The first is perfect — two days after your payday. Reference: \"Rent, room 3\". Press confirm. Done! See? Easy.",
+   "translations": {
+    "fa": "اول ماه عالیه — دو روز بعد از روز حقوقت. توضیح پرداخت: «اجاره، اتاق ۳». تأیید را بزن. تموم! دیدی؟ آسونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "envelopes",
+      "more",
+      "done"
+     ],
+     "suggestion": "Done! No more envelopes.",
+     "suggestionFa": "تموم! دیگه پاکت نه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "changes",
+      "rent",
+      "if"
+     ],
+     "suggestion": "What if the rent changes?",
+     "suggestionFa": "اگه اجاره عوض بشه چی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "payday",
+     "fa": "روز حقوق"
+    },
+    {
+     "word": "reference",
+     "fa": "توضیح پرداخت"
+    },
+    {
+     "word": "confirm",
+     "fa": "تأیید کردن"
+    },
+    {
+     "word": "changes",
+     "fa": "تغییر می‌کند"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Then you change it in the app. But don't worry — I won't put it up. You do the washing-up. That's worth a lot in this house!",
+   "translations": {
+    "fa": "اون‌وقت تو اپ عوضش می‌کنی. ولی نگران نباش — بالا نمی‌برمش. تو ظرف‌ها را می‌شوری. تو این خونه این خیلی می‌ارزه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

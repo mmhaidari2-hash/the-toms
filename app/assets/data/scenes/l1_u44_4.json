@@ -22,7 +22,7 @@
       "pocket",
       "money",
       "much",
-      "she"
+      "how"
      ],
      "suggestion": "How much pocket money does she get?",
      "suggestionFa": "چقدر پول توجیبی می‌گیره؟",
@@ -113,8 +113,8 @@
    "branches": [
     {
      "keywords": [
-      "need",
       "then",
+      "need",
       "save",
       "up"
      ],
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "unicorn",
-      "sweets",
       "choose",
+      "sweets",
       "one"
      ],
      "suggestion": "Sweets or unicorn? Choose one!",
@@ -173,8 +173,8 @@
     {
      "keywords": [
       "about",
-      "eight",
-      "weeks"
+      "weeks",
+      "eight"
      ],
      "suggestion": "About eight weeks.",
      "suggestionFa": "حدود هشت هفته.",
@@ -206,8 +206,8 @@
      "keywords": [
       "sweets",
       "don't",
-      "need",
-      "want"
+      "want",
+      "need"
      ],
      "suggestion": "You don't need sweets. You want sweets!",
      "suggestionFa": "آبنبات لازم نداری. آبنبات می‌خوای!",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "that's",
-      "fair",
-      "idea"
+      "idea",
+      "fair"
      ],
      "suggestion": "That's a fair idea.",
      "suggestionFa": "فکر منصفانه‌ایه.",

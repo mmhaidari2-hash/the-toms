@@ -20,9 +20,9 @@
     {
      "keywords": [
       "understand",
-      "notice",
       "didn't",
-      "why"
+      "notice",
+      "did"
      ],
      "suggestion": "Oh no. I did notice, but I didn't understand why.",
      "suggestionFa": "ای وای. متوجه شدم، ولی نفهمیدم چرا.",
@@ -71,8 +71,8 @@
      "keywords": [
       "honestly",
       "didn't",
-      "fine",
-      "mean"
+      "mean",
+      "fine"
      ],
      "suggestion": "So \"honestly, it's fine\" didn't mean it was fine.",
      "suggestionFa": "پس «واقعاً، اشکالی نداره» یعنی اشکال داشت.",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "earlier",
       "spotted",
+      "earlier",
       "could",
       "signs"
      ],

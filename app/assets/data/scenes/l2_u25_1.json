@@ -1,0 +1,411 @@
+{
+ "id": "l2_u25_1",
+ "characterId": "dev",
+ "title": "SIM-only or contract?",
+ "titleFa": "فقط سیم‌کارت یا قرارداد؟",
+ "setting": "Phone shop and contract · Level 2",
+ "settingFa": "فروشگاه موبایل و قرارداد",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dev",
+   "text": "Afternoon! I'm Dev. Looking for a new phone, or just a better deal on your old one?",
+   "translations": {
+    "fa": "عصر بخیر! من دِو هستم. دنبال گوشی جدیدی، یا فقط یه طرح بهتر برای گوشی قدیمیت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phone",
+      "fine",
+      "need",
+      "just"
+     ],
+     "suggestion": "My phone is fine. I just need a UK SIM.",
+     "suggestionFa": "گوشیم خوبه. فقط یه سیم‌کارت بریتانیایی لازم دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "what's",
+      "sure"
+     ],
+     "suggestion": "I'm not sure. What's the difference?",
+     "suggestionFa": "مطمئن نیستم. فرقشون چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deal",
+     "fa": "قرارداد ؛ معامله"
+    },
+    {
+     "word": "SIM",
+     "fa": "سیم‌کارت"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    },
+    {
+     "word": "old",
+     "fa": "قدیمی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dev",
+   "text": "Two options. SIM-only: you keep your phone and pay for calls and data. Or a contract: a new phone, paid monthly.",
+   "translations": {
+    "fa": "دو تا گزینه. فقط سیم‌کارت: گوشیت را نگه می‌داری و پول تماس و اینترنت را میدی. یا قرارداد: گوشی نو، با پرداخت ماهانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "month",
+      "only",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is SIM-only per month?",
+     "suggestionFa": "فقط سیم‌کارت ماهی چنده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expensive",
+      "contract",
+      "sounds"
+     ],
+     "suggestion": "A contract sounds expensive.",
+     "suggestionFa": "قرارداد گرون به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "options",
+     "fa": "گزینه‌ها"
+    },
+    {
+     "word": "data",
+     "fa": "اینترنت همراه"
+    },
+    {
+     "word": "contract",
+     "fa": "قرارداد"
+    },
+    {
+     "word": "monthly",
+     "fa": "ماهانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "A UK phone \"contract\" usually lasts 24 months and includes the phone. \"SIM-only\" is cheaper and often just 30 days or 12 months.",
+    "fa": "قرارداد معمولاً ۲۴ ماهه و شامل گوشی است؛ فقط سیم‌کارت ارزان‌تر است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dev",
+   "text": "SIM-only starts at eight pounds a month. Twelve gigs of data, unlimited calls and texts. How much data do you use?",
+   "translations": {
+    "fa": "فقط سیم‌کارت از ماهی هشت پوند شروع میشه. دوازده گیگ اینترنت، تماس و پیامک نامحدود. چقدر اینترنت مصرف می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "video",
+      "iran",
+      "call"
+     ],
+     "suggestion": "A lot. I video call my family in Iran.",
+     "suggestionFa": "زیاد. با خانواده‌ام تو ایران تماس تصویری می‌گیرم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "much",
+      "home",
+      "use",
+      "fi"
+     ],
+     "suggestion": "Not much. I use Wi-Fi at home.",
+     "suggestionFa": "زیاد نه. تو خونه از وای‌فای استفاده می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gigs",
+     "fa": "گیگابایت"
+    },
+    {
+     "word": "unlimited",
+     "fa": "نامحدود"
+    },
+    {
+     "word": "texts",
+     "fa": "پیامک‌ها"
+    },
+    {
+     "word": "video call",
+     "fa": "تماس تصویری"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how many data you use",
+      "how much data do i use"
+     ],
+     "echo": "How much data? Let's look at your phone.",
+     "better": "How much data do you use?",
+     "betterFa": "چقدر اینترنت مصرف می‌کنید؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dev",
+   "text": "Video calls eat data. Over Wi-Fi it's free, though. Can I ask — do you call abroad on the normal phone line?",
+   "translations": {
+    "fa": "تماس تصویری اینترنت را می‌خوره. ولی با وای‌فای مجانیه. می‌تونم بپرسم — با خط معمولی به خارج زنگ می‌زنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "landline",
+      "mum's",
+      "call"
+     ],
+     "suggestion": "Sometimes I call my mum's landline.",
+     "suggestionFa": "گاهی به تلفن ثابت مامانم زنگ می‌زنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "apps",
+      "use"
+     ],
+     "suggestion": "No, I always use apps.",
+     "suggestionFa": "نه، همیشه از اپ استفاده می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "abroad",
+     "fa": "خارج از کشور"
+    },
+    {
+     "word": "though",
+     "fa": "با این حال"
+    },
+    {
+     "word": "landline",
+     "fa": "تلفن ثابت"
+    },
+    {
+     "word": "apps",
+     "fa": "اپلیکیشن‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dev",
+   "text": "Then watch out. International calls are not included. They cost a lot. There's an add-on for five pounds a month.",
+   "translations": {
+    "fa": "پس حواست باشه. تماس بین‌المللی شامل نمیشه. خیلی گرون درمیاد. یه بستهٔ اضافه ماهی پنج پوند هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "add"
+     ],
+     "suggestion": "What's an add-on?",
+     "suggestionFa": "«اَد-آن» چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "include",
+      "pounds",
+      "five",
+      "iran"
+     ],
+     "suggestion": "Five pounds is OK. Does it include Iran?",
+     "suggestionFa": "پنج پوند خوبه. ایران را هم شامل میشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "watch out",
+     "fa": "مراقب باش"
+    },
+    {
+     "word": "international",
+     "fa": "بین‌المللی"
+    },
+    {
+     "word": "included",
+     "fa": "شامل"
+    },
+    {
+     "word": "add-on",
+     "fa": "بستهٔ اضافه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dev",
+   "text": "Let me check… yes, Iran's in \"Zone 2\" — a hundred minutes. So, twenty gigs plus international: fifteen pounds.",
+   "translations": {
+    "fa": "بذار چک کنم… آره، ایران تو «منطقهٔ ۲» ـه — صد دقیقه. پس، بیست گیگ به‌علاوهٔ بین‌الملل: پونزده پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheaper",
+      "months",
+      "twelve",
+      "which"
+     ],
+     "suggestion": "Which is cheaper, monthly or twelve months?",
+     "suggestionFa": "کدوم ارزون‌تره، ماهانه یا دوازده‌ماهه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifteen",
+      "rather",
+      "pounds",
+      "pay"
+     ],
+     "suggestion": "Fifteen pounds. I'd rather pay monthly.",
+     "suggestionFa": "پونزده پوند. ترجیح میدم ماهانه بدم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    },
+    {
+     "word": "zone",
+     "fa": "منطقه"
+    },
+    {
+     "word": "minutes",
+     "fa": "دقیقه"
+    },
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dev",
+   "text": "Twelve months is two pounds cheaper. But thirty-day rolling means you can leave any time. No stress.",
+   "translations": {
+    "fa": "دوازده‌ماهه دو پوند ارزون‌تره. ولی ماه‌به‌ماه یعنی هر وقت خواستی می‌تونی بری. بدون استرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rolling",
+      "freedom",
+      "like",
+      "then"
+     ],
+     "suggestion": "Rolling, then. I like freedom!",
+     "suggestionFa": "پس ماه‌به‌ماه. آزادی را دوست دارم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "staying",
+      "months",
+      "twelve",
+      "here"
+     ],
+     "suggestion": "Twelve months. I'm staying here.",
+     "suggestionFa": "دوازده‌ماهه. من اینجا می‌مونم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rolling",
+     "fa": "ماه‌به‌ماه (قابل تمدید)"
+    },
+    {
+     "word": "leave",
+     "fa": "ترک کردن ؛ لغو کردن"
+    },
+    {
+     "word": "any time",
+     "fa": "هر وقت"
+    },
+    {
+     "word": "freedom",
+     "fa": "آزادی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "dev",
+   "text": "Good choice. I'll just need a bank card for the direct debit. You'll have signal in about an hour. Welcome to the network!",
+   "translations": {
+    "fa": "انتخاب خوبیه. فقط یه کارت بانکی برای برداشت خودکار لازم دارم. حدود یه ساعت دیگه آنتن داری. به شبکه خوش اومدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

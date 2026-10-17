@@ -85,7 +85,7 @@
       "vocabulary",
       "helping",
       "taking",
-      "turn"
+      "also"
      ],
      "suggestion": "It's also helping with turn-taking and new vocabulary.",
      "suggestionFa": "به نوبت گرفتن و واژه‌های جدید هم کمک می‌کنه.",
@@ -126,7 +126,7 @@
       "children",
       "observe",
       "steps",
-      "from"
+      "plan"
      ],
      "suggestion": "I observe my key children and plan next steps from what I see.",
      "suggestionFa": "بچه‌های کلیدی‌ام را مشاهده می‌کنم و از روی چیزی که می‌بینم گام بعدی را برنامه‌ریزی می‌کنم.",
@@ -199,8 +199,8 @@
      "keywords": [
       "report",
       "write",
-      "words",
-      "exact"
+      "exact",
+      "words"
      ],
      "suggestion": "I'd write down their exact words and report it the same day.",
      "suggestionFa": "کلمات دقیقش را می‌نویسم و همون روز گزارش می‌دم.",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "manager",
-      "deputy",
       "leader",
+      "deputy",
       "room"
      ],
      "suggestion": "It's Jo, the room leader, and the manager is the deputy.",

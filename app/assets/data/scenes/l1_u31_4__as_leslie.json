@@ -74,8 +74,8 @@
       "sweetheart",
       "hello",
       "how",
-      "day",
-      "was"
+      "was",
+      "day"
      ],
      "suggestion": "Hello, sweetheart! How was your day?",
      "suggestionFa": "سلام عزیزم! روزت چطور بود؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -236,7 +236,7 @@
       "twenty",
       "bring",
       "book",
-      "only"
+      "home"
      ],
      "suggestion": "Only for twenty minutes. Did you bring your book bag home?",
      "suggestionFa": "فقط بیست دقیقه. کیف کتابت را آوردی؟",

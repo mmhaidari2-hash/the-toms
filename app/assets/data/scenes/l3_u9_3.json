@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "like",
+      "open",
       "hope",
-      "open"
+      "like"
      ],
      "suggestion": "I hope you like it. Open it!",
      "suggestionFa": "امیدوارم خوشت بیاد. بازش کن!",
@@ -65,8 +65,8 @@
     {
      "keywords": [
       "wouldn't",
-      "house",
       "could",
+      "house",
       "wish"
      ],
      "suggestion": "I wish you could too! But it wouldn't fit in the house.",
@@ -78,9 +78,9 @@
     {
      "keywords": [
       "museum",
-      "maybe",
       "visit",
-      "one"
+      "maybe",
+      "see"
      ],
      "suggestion": "Maybe we can visit the museum to see one.",
      "suggestionFa": "شاید بتونیم بریم موزه یکی ببینیم.",
@@ -121,7 +121,7 @@
       "could",
       "train",
       "hope",
-      "go"
+      "we"
      ],
      "suggestion": "I hope so too. We could go on the train.",
      "suggestionFa": "من هم امیدوارم. می‌تونیم با قطار بریم.",
@@ -272,8 +272,8 @@
     },
     {
      "keywords": [
-      "make",
       "wish",
+      "make",
       "big"
      ],
      "suggestion": "Make a big wish!",

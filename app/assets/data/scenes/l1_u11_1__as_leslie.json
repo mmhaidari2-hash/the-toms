@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "usually",
       "o'clock",
+      "usually",
       "morning",
       "seven",
       "time"
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "school",
+      "nicola",
       "house",
-      "leave",
-      "eight"
+      "eight",
+      "leave"
      ],
      "suggestion": "Good. I leave at eight. I walk Nicola to school. What time do you leave the house?",
      "suggestionFa": "خوبه. من ساعت هشت می‌رم. نیکولا را پیاده می‌برم مدرسه. تو ساعت چند از خونه می‌ری؟",
@@ -147,9 +147,9 @@
      "keywords": [
       "always",
       "where",
-      "lose",
       "keys",
-      "them"
+      "them",
+      "lose"
      ],
      "suggestion": "Oh, where are my keys? I always lose my keys! Can you see them?",
      "suggestionFa": "آخ، کلیدهام کجان؟ همیشه کلیدهام را گم می‌کنم! می‌بینیشون؟",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
+      "thank",
       "lunch",
       "found",
-      "thank",
-      "them",
-      "have"
+      "have",
+      "them"
      ],
      "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
      "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
@@ -224,7 +224,7 @@
       "lovely",
       "coats",
       "right",
-      "same"
+      "have"
      ],
      "suggestion": "Ha! Same here. Right, coats on, everybody! Have a lovely day!",
      "suggestionFa": "ها! منم همین‌طور. خب، همه کت‌ها را بپوشید! روز خوبی داشته باشید!",

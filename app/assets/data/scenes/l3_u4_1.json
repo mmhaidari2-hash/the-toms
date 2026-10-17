@@ -22,7 +22,7 @@
       "permission",
       "without",
       "account",
-      "taken"
+      "money"
      ],
      "suggestion": "I think money was taken from my account without my permission.",
      "suggestionFa": "فکر کنم بدون اجازه‌ام از حسابم پول برداشته شده.",
@@ -93,7 +93,7 @@
       "tuesday",
       "morning",
       "paid",
-      "two"
+      "was"
      ],
      "suggestion": "The one on Tuesday. It was paid at two in the morning!",
      "suggestionFa": "مال سه‌شنبه. ساعت دو صبح پرداخت شده!",
@@ -129,8 +129,8 @@
      "keywords": [
       "website",
       "used",
-      "last",
-      "week"
+      "week",
+      "last"
      ],
      "suggestion": "No, but I used it on a website last week.",
      "suggestionFa": "نه، ولی هفتهٔ پیش رو یه سایت ازش استفاده کردم.",
@@ -140,8 +140,8 @@
     },
     {
      "keywords": [
-      "wallet",
       "always",
+      "wallet",
       "don't",
       "think"
      ],
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "relief",
       "that's",
+      "relief",
       "given",
       "card"
      ],

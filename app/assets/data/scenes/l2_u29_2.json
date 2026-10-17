@@ -1,0 +1,497 @@
+{
+ "id": "l2_u29_2",
+ "characterId": "sal",
+ "title": "A skin fade for Ryan",
+ "titleFa": "فید برای رایان",
+ "setting": "Barber and hairdresser · Level 2",
+ "settingFa": "آرایشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sal",
+   "text": "Ryan! And you've brought your bodyguard. Sit down, mate. What are we doing today?",
+   "translations": {
+    "fa": "رایان! محافظت را هم آوردی. بشین رفیق. امروز چی کار کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friday",
+      "school",
+      "photo",
+      "ryan"
+     ],
+     "suggestion": "Hi Sal! Ryan has a school photo on Friday.",
+     "suggestionFa": "سلام سال! رایان جمعه عکس مدرسه داره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "translator",
+      "bodyguard",
+      "his"
+     ],
+     "suggestion": "I'm not his bodyguard. I'm his translator!",
+     "suggestionFa": "من محافظش نیستم. مترجمشم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "translator",
+     "fa": "مترجم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Er… a skin fade, please. Like this photo. But… not too short.",
+   "translations": {
+    "fa": "اِ… فید، لطفاً. مثل این عکس. ولی… خیلی کوتاه نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "longer",
+      "means",
+      "short",
+      "sides"
+     ],
+     "suggestion": "He means short at the sides, longer on top.",
+     "suggestionFa": "منظورش بغل‌ها کوتاه، بالا بلندتره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "about",
+      "photo",
+      "ryan"
+     ],
+     "suggestion": "Ryan, tell Sal about the school photo.",
+     "suggestionFa": "رایان، دربارهٔ عکس مدرسه به سال بگو.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bodyguard",
+     "fa": "محافظ ؛ بادیگارد"
+    },
+    {
+     "word": "skin fade",
+     "fa": "فید"
+    },
+    {
+     "word": "photo",
+     "fa": "عکس"
+    },
+    {
+     "word": "not too short",
+     "fa": "خیلی کوتاه نه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "School photo, is it? Then we'll make you look sharp. Do you want a skin fade, or a number one at the bottom?",
+   "translations": {
+    "fa": "عکس مدرسه، آره؟ پس خوش‌تیپت می‌کنیم. فید تا پوست می‌خوای، یا پایینش شمارهٔ یک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's a number one?",
+     "suggestionFa": "شمارهٔ یک چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "skin"
+     ],
+     "suggestion": "Not skin. A number one, please.",
+     "suggestionFa": "پوست نه. شمارهٔ یک، لطفاً.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sharp",
+     "fa": "خوش‌تیپ ؛ مرتب"
+    },
+    {
+     "word": "number one",
+     "fa": "شمارهٔ یک (طول ماشین)"
+    },
+    {
+     "word": "bottom",
+     "fa": "پایین"
+    }
+   ],
+   "cultureNote": {
+    "en": "Barbers use clipper numbers: a \"number one\" is 3mm, \"number two\" is 6mm, and so on. \"Skin\" means no guard at all.",
+    "fa": "شماره‌های ماشین اصلاح: شمارهٔ یک ۳ میلی‌متر، دو ۶ میلی‌متر."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sal",
+   "text": "The numbers are the clipper guards. One is very short, three millimetres. Two is six. What about the top? Scissors?",
+   "translations": {
+    "fa": "شماره‌ها شونهٔ ماشین‌ان. یک خیلی کوتاهه، سه میلی‌متر. دو، شش. بالا چی؟ قیچی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "sides",
+      "then",
+      "two"
+     ],
+     "suggestion": "Number two at the sides, then.",
+     "suggestionFa": "پس بغل‌ها شمارهٔ دو.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scissors",
+      "ryan",
+      "want",
+      "top"
+     ],
+     "suggestion": "Ryan, do you want scissors on top?",
+     "suggestionFa": "رایان، بالا قیچی می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Yeah, scissors on top. Just tidy it. Keep the length.",
+   "translations": {
+    "fa": "آره، بالا قیچی. فقط مرتبش کن. بلندی را نگه دار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "ryan",
+      "say"
+     ],
+     "suggestion": "Ryan, say \"please\"!",
+     "suggestionFa": "رایان، بگو «لطفاً»!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "much",
+      "take",
+      "will",
+      "top"
+     ],
+     "suggestion": "How much will you take off the top?",
+     "suggestionFa": "از بالا چقدر کوتاه می‌کنی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clipper guards",
+     "fa": "شانه‌های ماشین اصلاح"
+    },
+    {
+     "word": "millimetres",
+     "fa": "میلی‌متر"
+    },
+    {
+     "word": "scissors",
+     "fa": "قیچی"
+    },
+    {
+     "word": "tidy",
+     "fa": "مرتب کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sal",
+   "text": "About an inch. That's two and a half centimetres. You lot use centimetres, I use inches — we'll meet in the middle!",
+   "translations": {
+    "fa": "حدود یه اینچ. یعنی دو و نیم سانتی‌متر. شماها سانتی‌متر استفاده می‌کنین، من اینچ — وسطش به توافق می‌رسیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "inch",
+      "much",
+      "one"
+     ],
+     "suggestion": "One inch. OK, that's not much.",
+     "suggestionFa": "یه اینچ. باشه، زیاد نیست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "confusing",
+      "britain",
+      "inches"
+     ],
+     "suggestion": "Inches! Britain is so confusing.",
+     "suggestionFa": "اینچ! بریتانیا خیلی گیج‌کننده‌ست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inch",
+     "fa": "اینچ"
+    },
+    {
+     "word": "centimetres",
+     "fa": "سانتی‌متر"
+    },
+    {
+     "word": "you lot",
+     "fa": "شماها"
+    },
+    {
+     "word": "meet in the middle",
+     "fa": "به توافق رسیدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sal",
+   "text": "There you go. Have a look in the mirror. Happy? Or could I take a bit more off?",
+   "translations": {
+    "fa": "بفرما. تو آینه نگاه کن. راضی؟ یا یه‌کم بیشتر کوتاه کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happy"
+     ],
+     "suggestion": "Ryan, are you happy with it?",
+     "suggestionFa": "رایان، ازش راضی هستی؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looks",
+      "think",
+      "good"
+     ],
+     "suggestion": "It looks good. What do you think, Ryan?",
+     "suggestionFa": "خوب شده. نظرت چیه رایان؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Could you take a bit more off the top? It's still a bit long at the front.",
+   "translations": {
+    "fa": "میشه یه‌کم بیشتر از بالا کوتاه کنی؟ جلوش هنوز یه‌کم بلنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "great",
+      "ryan"
+     ],
+     "suggestion": "It looks great, Ryan!",
+     "suggestionFa": "عالی شده رایان!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "front",
+      "more",
+      "bit"
+     ],
+     "suggestion": "Yes, a bit more at the front.",
+     "suggestionFa": "آره، یه‌کم بیشتر از جلو.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mirror",
+     "fa": "آینه"
+    },
+    {
+     "word": "take off",
+     "fa": "کوتاه کردن"
+    },
+    {
+     "word": "a bit more",
+     "fa": "کمی بیشتر"
+    },
+    {
+     "word": "front",
+     "fa": "جلو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "can you cut more little",
+      "take a more bit off"
+     ],
+     "echo": "A bit more off? Sure.",
+     "better": "Could you take a bit more off?",
+     "betterFa": "می‌شود کمی بیشتر کوتاه کنید؟"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "sal",
+   "text": "A little more off the front… there. Now you look like a footballer, not a sheepdog. Twenty pounds, please.",
+   "translations": {
+    "fa": "یه‌کم دیگه از جلو… بفرما. حالا شبیه فوتبالیستی، نه سگ گله. بیست پوند، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "ryan",
+      "pay",
+      "sal"
+     ],
+     "suggestion": "Ryan, pay Sal, please.",
+     "suggestionFa": "رایان، پول سال را بده، لطفاً.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sheepdog",
+      "more",
+      "any",
+      "ha"
+     ],
+     "suggestion": "Ha! Not a sheepdog any more.",
+     "suggestionFa": "ها! دیگه سگ گله نیست.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "ryan",
+   "text": "Mum gave me twenty-five. Keep the change, Sal. That's a tip. Right?",
+   "translations": {
+    "fa": "مامان بیست و پنج داد. باقیش مال خودت سال. انعامه. درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "necessary",
+      "nice",
+      "but",
+      "tip"
+     ],
+     "suggestion": "Yes. A tip is nice, but not necessary.",
+     "suggestionFa": "آره. انعام خوبه، ولی لازم نیست.",
+     "trustDelta": 6,
+     "next": "n11",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "mum's",
+      "money",
+      "ryan"
+     ],
+     "suggestion": "Ryan! That's your mum's money!",
+     "suggestionFa": "رایان! اون پول مامانته!",
+     "trustDelta": 5,
+     "next": "n11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sheepdog",
+     "fa": "سگ گله"
+    },
+    {
+     "word": "change",
+     "fa": "پول خرد ؛ باقی پول"
+    },
+    {
+     "word": "tip",
+     "fa": "انعام"
+    },
+    {
+     "word": "necessary",
+     "fa": "لازم"
+    }
+   ]
+  },
+  "n11": {
+   "id": "n11",
+   "speaker": "sal",
+   "text": "Cheers, Ryan! You're a gentleman. Good luck with the photo. And smile — no grumpy face this year!",
+   "translations": {
+    "fa": "مرسی رایان! تو یه جنتلمنی. موفق باشی با عکس. و لبخند بزن — امسال قیافهٔ اخمو نه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

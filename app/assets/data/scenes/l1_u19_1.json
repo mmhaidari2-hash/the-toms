@@ -127,9 +127,9 @@
     {
      "keywords": [
       "don't",
+      "know",
       "them",
-      "they",
-      "know"
+      "they"
      ],
      "suggestion": "I don't know them. Are they good?",
      "suggestionFa": "نمی‌شناسمشون. خوبن؟",
@@ -174,8 +174,8 @@
     {
      "keywords": [
       "concert",
-      "big",
-      "was"
+      "was",
+      "big"
      ],
      "suggestion": "Was it a big concert?",
      "suggestionFa": "کنسرت بزرگی بود؟",
@@ -279,8 +279,8 @@
     },
     {
      "keywords": [
-      "play",
       "game",
+      "play",
       "can",
       "we"
      ],
@@ -322,8 +322,8 @@
      "keywords": [
       "where's",
       "can't",
-      "bed",
-      "see"
+      "see",
+      "bed"
      ],
      "suggestion": "Where's the bed? I can't see it!",
      "suggestionFa": "تخت کجاست؟ نمی‌بینمش!",
@@ -333,8 +333,8 @@
     },
     {
      "keywords": [
-      "happy",
       "won't",
+      "happy",
       "mum"
      ],
      "suggestion": "Your mum won't be happy!",
@@ -365,8 +365,8 @@
    "branches": [
     {
      "keywords": [
-      "room",
-      "tidy"
+      "tidy",
+      "room"
      ],
      "suggestion": "Yes, my room is very tidy.",
      "suggestionFa": "آره، اتاقم خیلی مرتبه.",

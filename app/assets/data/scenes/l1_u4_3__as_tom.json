@@ -22,8 +22,8 @@
     {
      "keywords": [
       "morning",
-      "can't",
       "watch",
+      "can't",
       "time",
       "find"
      ],
@@ -50,7 +50,7 @@
       "train",
       "eight",
       "half",
-      "past"
+      "late"
      ],
      "suggestion": "Half past? I'm late! My train is at quarter to eight.",
      "suggestionFa": "هفت و نیم؟ دیرم شده! قطارم یک‌ربع به هشته.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "where",
       "table",
       "quick",
-      "where",
       "keys",
       "they"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "finish",
+      "thanks",
       "today",
-      "time",
-      "them"
+      "them",
+      "time"
      ],
      "suggestion": "Got them, thanks! What time do you finish today?",
      "suggestionFa": "پیداشون کردم، مرسی! امروز کِی تموم می‌کنی؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "shepherd's",
-      "lovely",
-      "nana's",
       "making",
+      "nana's",
+      "lovely",
       "don't"
      ],
      "suggestion": "Lovely. Tea is at six, then. Don't be late — Nana's making shepherd's pie!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "right",
-      "bye",
-      "off",
+      "see",
       "six",
-      "see"
+      "off",
+      "bye"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
      "suggestionFa": "خب، من رفتم. ساعت شش می‌بینمت! خداحافظ!",

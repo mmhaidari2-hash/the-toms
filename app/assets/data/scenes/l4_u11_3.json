@@ -74,8 +74,8 @@
     {
      "keywords": [
       "sounds",
-      "much",
       "good",
+      "much",
       "how"
      ],
      "suggestion": "Sounds good. How much is it?",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "wait",
       "here",
+      "wait",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -165,8 +165,8 @@
     {
      "keywords": [
       "drive",
-      "safe",
-      "home"
+      "home",
+      "safe"
      ],
      "suggestion": "Is it safe to drive home?",
      "suggestionFa": "رانندگی تا خونه امنه؟",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "would",
-      "cost",
       "much",
-      "both"
+      "both",
+      "cost"
      ],
      "suggestion": "How much would it cost to fix both?",
      "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
@@ -246,9 +246,9 @@
     {
      "keywords": [
       "second",
-      "first",
+      "could",
       "quote",
-      "could"
+      "first"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -295,8 +295,8 @@
     {
      "keywords": [
       "enough",
-      "let's",
       "today",
+      "let's",
       "fair"
      ],
      "suggestion": "Fair enough. Let's do it today.",
@@ -343,7 +343,7 @@
       "advisory",
       "those",
       "mean",
-      "now"
+      "fix"
      ],
      "suggestion": "What does \"advisory\" mean? Do we have to fix those now?",
      "suggestionFa": "«توصیه» یعنی چی؟ باید الان تعمیرشون کنیم؟",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "tyres",
-      "long",
       "left",
+      "long",
       "how"
      ],
      "suggestion": "How long have the tyres got left?",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "before",
       "winter",
+      "before",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -416,9 +416,9 @@
     {
      "keywords": [
       "garages",
+      "thanks",
       "upsell",
-      "honest",
-      "thanks"
+      "honest"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

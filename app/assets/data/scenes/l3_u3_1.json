@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "seven",
       "leeds",
+      "seven",
       "need",
-      "oh"
+      "by"
      ],
      "suggestion": "Oh no! I need to be in Leeds by seven.",
      "suggestionFa": "ای وای! باید تا هفت لیدز باشم.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "instead",
-      "coach",
       "could",
+      "coach",
       "get"
      ],
      "suggestion": "Could we get a coach instead?",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "tickets",
-      "same",
       "idea",
+      "same",
       "good"
      ],
      "suggestion": "Good idea. Can we use the same tickets?",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "what's",
-      "delay",
-      "repay"
+      "repay",
+      "delay"
      ],
      "suggestion": "What's Delay Repay?",
      "suggestionFa": "Delay Repay چیه؟",
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "ticket",
-      "then",
       "keep",
-      "i'll"
+      "i'll",
+      "then"
      ],
      "suggestion": "I'll keep my ticket, then.",
      "suggestionFa": "پس بلیتم را نگه می‌دارم.",

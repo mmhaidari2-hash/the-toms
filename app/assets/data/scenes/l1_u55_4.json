@@ -69,8 +69,8 @@
      "keywords": [
       "driving",
       "weather",
-      "food",
-      "left"
+      "left",
+      "food"
      ],
      "suggestion": "The food, the weather, and driving on the left!",
      "suggestionFa": "غذا، هوا، و رانندگی از سمت چپ!",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "everything",
-      "shops",
       "buses",
+      "shops",
       "money"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
@@ -131,7 +131,7 @@
       "wrong",
       "first",
       "took",
-      "bus"
+      "day"
      ],
      "suggestion": "Yes! I took the wrong bus on my first day.",
      "suggestionFa": "آره! روز اول اتوبوس اشتباه سوار شدم.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "didn't",
       "anyone",
+      "didn't",
       "tell"
      ],
      "suggestion": "No! I didn't tell anyone.",
@@ -238,7 +238,7 @@
       "great",
       "chips",
       "fish",
-      "ate"
+      "was"
      ],
      "suggestion": "I ate fish and chips. It was great!",
      "suggestionFa": "ماهی و سیب‌زمینی خوردم. عالی بود!",
@@ -248,8 +248,8 @@
     },
     {
      "keywords": [
-      "cooked",
       "didn't",
+      "cooked",
       "shops",
       "every"
      ],
@@ -304,8 +304,8 @@
      "keywords": [
       "everyone",
       "queues",
-      "even",
-      "stop"
+      "stop",
+      "even"
      ],
      "suggestion": "Everyone queues. Even at the bus stop!",
      "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",
@@ -345,8 +345,8 @@
      "keywords": [
       "invited",
       "they",
-      "dad",
-      "mum"
+      "tea",
+      "dad"
      ],
      "suggestion": "Your mum and dad. They invited me for tea.",
      "suggestionFa": "مامان و بابات. منو برای عصرونه دعوت کردن.",

@@ -30,9 +30,9 @@
     },
     {
      "keywords": [
-      "yellow",
-      "didn't",
       "labels",
+      "didn't",
+      "yellow",
       "know"
      ],
      "suggestion": "Yellow labels? I didn't know that.",
@@ -82,8 +82,8 @@
      "keywords": [
       "strange",
       "that's",
-      "word",
-      "rude"
+      "rude",
+      "word"
      ],
      "suggestion": "That's a strange word! Is it rude?",
      "suggestionFa": "کلمهٔ عجیبیه! بی‌ادبیه؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "price",
+      "good",
       "half",
-      "deal",
-      "good"
+      "deal"
      ],
      "suggestion": "Half price! Is it a good deal?",
      "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
-      "where"
+      "where",
+      "price"
      ],
      "suggestion": "Price per kilo? Where is it?",
      "suggestionFa": "قیمت هر کیلو؟ کجاست؟",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "cheaper",
-      "big",
-      "box"
+      "box",
+      "big"
      ],
      "suggestion": "So the big box is cheaper per kilo?",
      "suggestionFa": "پس جعبهٔ بزرگ هر کیلوش ارزون‌تره؟",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "seven",
       "after",
+      "seven",
       "why"
      ],
      "suggestion": "Why after seven?",
@@ -328,10 +328,10 @@
    "branches": [
     {
      "keywords": [
-      "seven",
       "pence",
-      "i'll",
-      "back"
+      "seven",
+      "back",
+      "i'll"
      ],
      "suggestion": "Ten pence! I'll come back at seven.",
      "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",
@@ -393,8 +393,8 @@
     },
     {
      "keywords": [
-      "don't",
       "pasta",
+      "don't",
       "much",
       "just"
      ],

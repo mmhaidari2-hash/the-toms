@@ -130,8 +130,8 @@
     {
      "keywords": [
       "maximum",
-      "fare",
       "much",
+      "fare",
       "how"
      ],
      "suggestion": "How much is the maximum fare?",
@@ -188,9 +188,9 @@
     },
     {
      "keywords": [
-      "card",
-      "take",
       "i'll",
+      "take",
+      "card",
       "out"
      ],
      "suggestion": "OK. I'll take the card out.",
@@ -242,9 +242,9 @@
     {
      "keywords": [
       "don't",
-      "line",
+      "know",
       "find",
-      "know"
+      "line"
      ],
      "suggestion": "I don't know. How do I find the line?",
      "suggestionFa": "نمی‌دونم. چطوری خط را پیدا کنم؟",

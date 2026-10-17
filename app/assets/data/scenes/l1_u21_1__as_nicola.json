@@ -25,7 +25,7 @@
       "tuesday",
       "monday",
       "what's",
-      "next"
+      "days"
      ],
      "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
      "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
@@ -50,7 +50,7 @@
       "there",
       "funny",
       "word",
-      "why"
+      "nes"
      ],
      "suggestion": "Wednesday is a funny word. Wed-nes-day. Why is there a \"d\"?",
      "suggestionFa": "چهارشنبه کلمهٔ بامزه‌ایه. Wed-nes-day. چرا یه «d» داره؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "fridays",
       "strange",
-      "friday",
-      "that's"
+      "that's",
+      "friday"
      ],
      "suggestion": "Friday? That's strange! What do you do on Fridays?",
      "suggestionFa": "جمعه؟ عجیبه! جمعه‌ها چی کار می‌کنید؟",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "mountains",
       "saturdays",
+      "mountains",
       "english",
       "ballet",
       "class"
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "tomorrow",
       "thursday",
+      "tomorrow",
       "fridays",
       "friday",
       "chips"

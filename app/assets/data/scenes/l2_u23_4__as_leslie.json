@@ -1,0 +1,393 @@
+{
+ "id": "l2_u23_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Substitutions on a delivery",
+ "titleFa": "(در نقش Leslie) کالای جایگزین در تحویل اینترنتی",
+ "setting": "Returns and click & collect · Level 2",
+ "settingFa": "مرجوعی و سفارش آنلاین",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u23_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "substitutions",
+      "supermarket",
+      "delivery's",
+      "through",
+      "covered"
+     ],
+     "suggestion": "The supermarket delivery's here! Can you get the door? I'm covered in flour. The driver will go through the substitutions.",
+     "suggestionFa": "بار سوپرمارکت رسید! میشه درو باز کنی؟ همه‌جام آردیه. راننده جایگزین‌ها را باهات چک می‌کنه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. What are substitutions?",
+   "translations": {
+    "fa": "حتماً. جایگزین‌ها چی هستن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "courier",
+   "text": "Hiya! Delivery for Tom. Seven bags. There are three substitutions today. Shall I tell you what they are?",
+   "translations": {
+    "fa": "سلام! بار برای تام. هفت کیسه. امروز سه جایگزین هست. بگم چیا هستن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "substitution",
+     "fa": "جایگزین"
+    },
+    {
+     "word": "changed",
+     "fa": "عوض کردید"
+    },
+    {
+     "word": "go on",
+     "fa": "ادامه بده"
+    }
+   ],
+   "cultureNote": {
+    "en": "If an item is out of stock, UK supermarkets may send a similar one instead. You can accept or reject each substitution at the door.",
+    "fa": "می‌توانید کالای جایگزین را دم در قبول یا رد کنید."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, please. What have you changed?",
+   "translations": {
+    "fa": "آره، لطفاً. چی را عوض کردین؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "courier",
+   "text": "You ordered semi-skimmed milk, two pints. They've sent four pints instead. Same price per pint.",
+   "translations": {
+    "fa": "شما شیر نیم‌چرب، دو پاینت سفارش دادید. به‌جاش چهار پاینت فرستادن. همون قیمت به ازای هر پاینت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ordered",
+     "fa": "سفارش دادید"
+    },
+    {
+     "word": "instead",
+     "fa": "به‌جای آن"
+    },
+    {
+     "word": "per pint",
+     "fa": "هر پاینت"
+    },
+    {
+     "word": "a lot",
+     "fa": "زیاد"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Four pints is fine. We drink a lot.",
+   "translations": {
+    "fa": "چهار پاینت خوبه. ما زیاد می‌خوریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "courier",
+   "text": "Next: you wanted cheddar, mild. We've sent extra mature. It's stronger. Do you want to keep it?",
+   "translations": {
+    "fa": "بعدی: پنیر چدار ملایم خواسته بودید. ما خیلی جاافتاده فرستادیم. تندتره. می‌خواید نگهش دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mild",
+     "fa": "ملایم"
+    },
+    {
+     "word": "extra mature",
+     "fa": "خیلی جاافتاده ؛ تند"
+    },
+    {
+     "word": "stronger",
+     "fa": "قوی‌تر ؛ تندتر"
+    },
+    {
+     "word": "reject",
+     "fa": "رد کردن"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Leslie, do you like extra mature cheddar?",
+   "translations": {
+    "fa": "لزلی، چدار خیلی جاافتاده دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thrilled",
+      "what's",
+      "loves",
+      "won't",
+      "he'll"
+     ],
+     "suggestion": "Tom loves it, but the kids won't eat it. Keep it for Tom, he'll be thrilled. What's the third one?",
+     "suggestionFa": "تام عاشقشه، ولی بچه‌ها نمی‌خورنش. نگهش دار برای تام، کلی ذوق می‌کنه. سومی چیه؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "What's the third substitution, please?",
+   "translations": {
+    "fa": "جایگزین سوم چیه، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "courier",
+   "text": "The last one… you ordered William's dinosaur pasta. They've sent… princess pasta. Same shape, really.",
+   "translations": {
+    "fa": "آخری… شما ماکارونی دایناسوری ویلیام را سفارش دادید. فرستادن… ماکارونی پرنسسی. راستش همون شکله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    },
+    {
+     "word": "princess",
+     "fa": "پرنسس"
+    },
+    {
+     "word": "shape",
+     "fa": "شکل"
+    },
+    {
+     "word": "accept",
+     "fa": "قبول کردن"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Oh no. William will not accept that!",
+   "translations": {
+    "fa": "وای نه. ویلیام اینو قبول نمی‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "william",
+   "text": "No! Dinosaur pasghetti! Not princess!",
+   "translations": {
+    "fa": "نه! پاستای دایناسوری! نه پرنسسی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pasghetti",
+     "fa": "اسپاگتی (تلفظ بچگانه)"
+    },
+    {
+     "word": "reject",
+     "fa": "رد کردن"
+    },
+    {
+     "word": "fierce",
+     "fa": "خشن ؛ وحشی"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Sorry, can we reject the princess pasta?",
+   "translations": {
+    "fa": "ببخشید، می‌تونیم ماکارونی پرنسسی را رد کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "courier",
+   "text": "Ha! Rejected — no charge. I'll take it back. Seven bags minus one. Sign here, please. Have a good evening!",
+   "translations": {
+    "fa": "ها! رد شد — هزینه نداره. برش می‌گردونم. هفت کیسه منهای یکی. اینجا امضا کنید، لطفاً. عصر خوبی داشته باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

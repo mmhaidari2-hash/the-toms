@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "these",
-      "pairs",
       "socks",
-      "help",
+      "pairs",
+      "these",
+      "look",
       "need"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
@@ -48,9 +48,9 @@
      "keywords": [
       "another",
       "stars",
-      "blue",
       "sock",
-      "one"
+      "blue",
+      "see"
      ],
      "suggestion": "This sock is blue with stars. Can you see another blue one?",
      "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "william's",
       "aren't",
-      "these",
-      "one's",
-      "white"
+      "sweet",
+      "white",
+      "one's"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
      "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they've",
-      "these",
       "socks",
       "tom's",
-      "grey"
+      "these",
+      "hole"
      ],
      "suggestion": "And these big grey socks are Tom's. They've got a hole!",
      "suggestionFa": "و این جوراب‌های طوسی بزرگ مال تامه. سوراخ دارن!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "where's",
-      "green",
       "other",
+      "green",
       "sock",
-      "now"
+      "one"
      ],
      "suggestion": "Yes, in the bin! Now, one green sock. Where's the other green sock?",
      "suggestionFa": "آره، سطل آشغال! حالا، یه جوراب سبز. اون یکی جوراب سبز کجاست؟",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "nobody",
-      "pairs",
       "knows",
+      "pairs",
       "count",
       "have"
      ],
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "drawers",
+      "let's",
       "thank",
       "pairs",
-      "let's",
       "eight"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",

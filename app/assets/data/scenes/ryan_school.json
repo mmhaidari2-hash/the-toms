@@ -20,8 +20,8 @@
     {
      "keywords": [
       "late",
-      "bus",
-      "was"
+      "was",
+      "bus"
      ],
      "suggestion": "Sorry, sir. The bus was late.",
      "suggestionFa": "ببخشید آقا. اتوبوس دیر کرد.",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "different",
-      "bus",
-      "sir"
+      "sir",
+      "bus"
      ],
      "suggestion": "Different bus, sir!",
      "suggestionFa": "یه اتوبوس دیگه، آقا!",
@@ -215,9 +215,9 @@
     {
      "keywords": [
       "question",
-      "five",
+      "hard",
       "most",
-      "hard"
+      "five"
      ],
      "suggestion": "Most of it. Question five was hard.",
      "suggestionFa": "بیشترش را. سؤال پنج سخت بود.",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "visiting",
-      "school",
       "friend",
+      "school",
       "today"
      ],
      "suggestion": "This is my friend. He's visiting school today.",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "next",
+      "new",
       "sit",
-      "can",
-      "new"
+      "can"
      ],
      "suggestion": "He's new. Can he sit next to me?",
      "suggestionFa": "تازه اومده. می‌تونه کنار من بشینه؟",
@@ -306,8 +306,8 @@
     },
     {
      "keywords": [
-      "instead",
       "canteen",
+      "instead",
       "we'll",
       "go"
      ],
@@ -353,7 +353,7 @@
       "just",
       "text",
       "send",
-      "can"
+      "one"
      ],
      "suggestion": "Can I just send one text, sir?",
      "suggestionFa": "می‌تونم فقط یه پیام بفرستم آقا؟",

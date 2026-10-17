@@ -1,0 +1,411 @@
+{
+ "id": "l2_u24_4",
+ "characterId": "kai",
+ "title": "Lost in the shopping centre",
+ "titleFa": "گم شدن در مرکز خرید",
+ "setting": "Shopping centre · Level 2",
+ "settingFa": "مرکز خرید",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "kai",
+   "text": "Hi! Are you OK? You look worried. Take a breath. How can I help?",
+   "translations": {
+    "fa": "سلام! حالت خوبه؟ نگران به نظر میای. یه نفس بکش. چطور کمکت کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "can't",
+      "three",
+      "he's"
+     ],
+     "suggestion": "I can't find William! He's three.",
+     "suggestionFa": "ویلیام را پیدا نمی‌کنم! سه سالشه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looking",
+      "little",
+      "after",
+      "lost"
+     ],
+     "suggestion": "A little boy is lost. I was looking after him!",
+     "suggestionFa": "یه پسر کوچولو گم شده. من مراقبش بودم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "take a breath",
+     "fa": "نفس کشیدن"
+    },
+    {
+     "word": "can't find",
+     "fa": "پیدا نمی‌کنم"
+    },
+    {
+     "word": "looking after",
+     "fa": "مراقبت کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "kai",
+   "text": "OK. Don't worry, this happens every Saturday. We'll find him. What's his name, and what is he wearing?",
+   "translations": {
+    "fa": "باشه. نگران نباش، هر شنبه این اتفاق می‌افته. پیداش می‌کنیم. اسمش چیه و چی پوشیده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wearing",
+      "william",
+      "he's",
+      "coat"
+     ],
+     "suggestion": "William Tom. He's wearing a red coat.",
+     "suggestionFa": "ویلیام تام. یه کت قرمز پوشیده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinosaur",
+      "wellies",
+      "blue",
+      "has"
+     ],
+     "suggestion": "He has a dinosaur hat! And blue wellies.",
+     "suggestionFa": "یه کلاه دایناسوری داره! و چکمهٔ آبی.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wearing",
+     "fa": "پوشیده"
+    },
+    {
+     "word": "red coat",
+     "fa": "کت قرمز"
+    },
+    {
+     "word": "dinosaur hat",
+     "fa": "کلاه دایناسوری"
+    },
+    {
+     "word": "wellies",
+     "fa": "چکمهٔ لاستیکی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he wear red coat",
+      "he is wear a red coat"
+     ],
+     "echo": "He's wearing a red coat. Good.",
+     "better": "He's wearing a red coat.",
+     "betterFa": "کت قرمز پوشیده است."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "kai",
+   "text": "Red coat, dinosaur hat. Brilliant, that's easy to spot. When did you last see him? And where?",
+   "translations": {
+    "fa": "کت قرمز، کلاه دایناسوری. عالیه، راحت دیده میشه. آخرین بار کی دیدیش؟ کجا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "five",
+      "shop",
+      "ago"
+     ],
+     "suggestion": "Five minutes ago, at the toy shop.",
+     "suggestionFa": "پنج دقیقه پیش، تو مغازهٔ اسباب‌بازی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "escalator",
+      "turned",
+      "around",
+      "gone"
+     ],
+     "suggestion": "Near the escalator. I turned around, and he was gone.",
+     "suggestionFa": "نزدیک پله‌برقی. برگشتم دیدم نیست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "easy to spot",
+     "fa": "راحت دیده‌شدنی"
+    },
+    {
+     "word": "last see",
+     "fa": "آخرین بار دیدن"
+    },
+    {
+     "word": "ago",
+     "fa": "پیش"
+    },
+    {
+     "word": "turned around",
+     "fa": "برگشتم"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK shopping centres have a \"lost child\" procedure. Staff close the doors and use radios. Go straight to a member of staff.",
+    "fa": "مراکز خرید برای کودک گم‌شده روال مشخص دارند. فوراً به کارکنان بگویید."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "kai",
+   "text": "Thanks. I'm calling security on the radio now. \"Code Adam. Red coat, dinosaur hat, three years old.\"",
+   "translations": {
+    "fa": "ممنون. الان با بی‌سیم به نگهبانی زنگ می‌زنم. «کد آدام. کت قرمز، کلاه دایناسوری، سه ساله.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "code",
+      "adam",
+      "mean"
+     ],
+     "suggestion": "What does Code Adam mean?",
+     "suggestionFa": "کد آدام یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "back",
+      "shop",
+      "toy"
+     ],
+     "suggestion": "Should I go back to the toy shop?",
+     "suggestionFa": "برگردم مغازهٔ اسباب‌بازی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "security",
+     "fa": "نگهبانی"
+    },
+    {
+     "word": "radio",
+     "fa": "بی‌سیم"
+    },
+    {
+     "word": "code",
+     "fa": "کد"
+    },
+    {
+     "word": "toy shop",
+     "fa": "اسباب‌بازی‌فروشی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "kai",
+   "text": "It means \"lost child\" — all the staff are looking now. Stay here with me. Have you got his parents' number?",
+   "translations": {
+    "fa": "یعنی «بچهٔ گم‌شده» — همهٔ کارکنان الان دنبالشن. پیش من بمون. شمارهٔ پدر و مادرش را داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "leslie",
+      "call",
+      "now"
+     ],
+     "suggestion": "Yes. Should I call Leslie now?",
+     "suggestionFa": "آره. الان به لزلی زنگ بزنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "driving",
+      "he's",
+      "tom",
+      "bus"
+     ],
+     "suggestion": "His dad is Tom. He's driving the bus.",
+     "suggestionFa": "باباش تامه. داره اتوبوس می‌رونه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "staff",
+     "fa": "کارکنان"
+    },
+    {
+     "word": "stay",
+     "fa": "ماندن"
+    },
+    {
+     "word": "parents",
+     "fa": "پدر و مادر"
+    },
+    {
+     "word": "call",
+     "fa": "زنگ زدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "kai",
+   "text": "Wait — my radio. \"Boy in a dinosaur hat, found in the sweet shop.\" Ha! Of course he is. They're bringing him now.",
+   "translations": {
+    "fa": "صبر کن — بی‌سیمم. «پسری با کلاه دایناسوری، تو مغازهٔ آبنبات پیدا شد.» ها! معلومه. دارن میارنش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goodness",
+      "sweet",
+      "thank",
+      "shop"
+     ],
+     "suggestion": "Oh, thank goodness! The sweet shop!",
+     "suggestionFa": "وای، خدا را شکر! مغازهٔ آبنبات!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "sweets",
+      "loves",
+      "he"
+     ],
+     "suggestion": "Of course! He loves sweets.",
+     "suggestionFa": "معلومه! عاشق آبنباته.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا شد"
+    },
+    {
+     "word": "sweet shop",
+     "fa": "آبنبات‌فروشی"
+    },
+    {
+     "word": "thank goodness",
+     "fa": "خدا را شکر"
+    },
+    {
+     "word": "bringing",
+     "fa": "آوردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Lolly! I got lolly! Hello!",
+   "translations": {
+    "fa": "آبنبات! آبنبات گرفتم! سلام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "never",
+      "again",
+      "away"
+     ],
+     "suggestion": "William! Never run away again, OK?",
+     "suggestionFa": "ویلیام! دیگه هیچ‌وقت فرار نکن، باشه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "lolly",
+      "did",
+      "get"
+     ],
+     "suggestion": "Where did you get a lolly?",
+     "suggestionFa": "آبنبات از کجا آوردی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lolly",
+     "fa": "آبنبات چوبی"
+    },
+    {
+     "word": "run away",
+     "fa": "فرار کردن"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "kai",
+   "text": "The security man gave it to him. Happy ending! Hold his hand now — and maybe don't tell Leslie until you're home.",
+   "translations": {
+    "fa": "نگهبانه بهش داد. پایان خوش! حالا دستش را بگیر — شاید هم تا خونه به لزلی نگی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

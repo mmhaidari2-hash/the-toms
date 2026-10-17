@@ -36,3 +36,6 @@ university campus. Leave a calm strip of sky at the top (UI overlays it). No rea
 - phoneshop: mobile phone shop, display tables, adviser (new character), Ryan choosing a SIM-only deal. (planned)
 - council: Hackney Service Centre counter, Ms Ward (council officer), Maggie with letters. (now uses `library`)
 - cinema: cinema foyer with popcorn and ticket screens, Ryan and friends. (planned)
+
+### Update 2026-10-17 (batch 3b)
+Done and in the app: **bigsupermarket** (Zara + Leslie), **shoppingcentre** (Kai + Leslie + Ryan), **phoneshop** (Dev + Ryan + Tom), **petrol** (Bilal + Tom). Sources in new_art/. Still wanted: tube, hospital, museum, council, cinema, and the detailed town-map painting.

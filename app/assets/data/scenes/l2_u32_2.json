@@ -1,0 +1,406 @@
+{
+ "id": "l2_u32_2",
+ "characterId": "jade",
+ "title": "The induction",
+ "titleFa": "جلسهٔ آشنایی",
+ "setting": "Joining the gym · Level 2",
+ "settingFa": "عضویت در باشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jade",
+   "text": "Morning! Ready for your induction? I'll show you the machines, so you don't hurt yourself. Did you bring water?",
+   "translations": {
+    "fa": "صبح بخیر! برای جلسهٔ آشنایی آماده‌ای؟ دستگاه‌ها را نشونت میدم که به خودت آسیب نزنی. آب آوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "start",
+      "towel",
+      "where",
+      "we"
+     ],
+     "suggestion": "Yes, and a towel. Where do we start?",
+     "suggestionFa": "آره، و حوله. از کجا شروع کنیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ready",
+      "unfit",
+      "bit"
+     ],
+     "suggestion": "I'm ready. I'm a bit unfit!",
+     "suggestionFa": "آماده‌ام. یه‌کم آمادگی جسمانی ندارم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "induction",
+     "fa": "جلسهٔ آشنایی"
+    },
+    {
+     "word": "machines",
+     "fa": "دستگاه‌ها"
+    },
+    {
+     "word": "hurt",
+     "fa": "آسیب زدن"
+    },
+    {
+     "word": "unfit",
+     "fa": "بدون آمادگی جسمانی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jade",
+   "text": "Everyone starts somewhere! First, the treadmill. Press \"Quick start\", then use the arrows. Make sure you clip this to your shirt.",
+   "translations": {
+    "fa": "همه از یه جایی شروع می‌کنن! اول، تردمیل. «شروع سریع» را بزن، بعد از فلش‌ها استفاده کن. حتماً اینو به لباست گیره کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's this clip for?",
+     "suggestionFa": "این گیره برای چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sure",
+      "make",
+      "ok"
+     ],
+     "suggestion": "Make sure I clip it. OK!",
+     "suggestionFa": "حتماً گیره‌اش کنم. باشه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "treadmill",
+     "fa": "تردمیل"
+    },
+    {
+     "word": "arrows",
+     "fa": "فلش‌ها"
+    },
+    {
+     "word": "make sure",
+     "fa": "حتماً ؛ مطمئن شو"
+    },
+    {
+     "word": "clip",
+     "fa": "گیره کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "jade",
+   "text": "It's the safety key. If you fall, it pulls out and the machine stops. Saves your face! Start slow — walking speed.",
+   "translations": {
+    "fa": "کلید ایمنیه. اگه بیفتی، کنده میشه و دستگاه می‌ایسته. صورتت را نجات میده! آروم شروع کن — سرعت پیاده‌روی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "speed",
+      "right"
+     ],
+     "suggestion": "Is this speed right?",
+     "suggestionFa": "این سرعت درسته؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "walking",
+      "easy",
+      "can",
+      "run"
+     ],
+     "suggestion": "Walking is easy. Can I run?",
+     "suggestionFa": "راه رفتن آسونه. می‌تونم بدوم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "safety key",
+     "fa": "کلید ایمنی"
+    },
+    {
+     "word": "fall",
+     "fa": "افتادن"
+    },
+    {
+     "word": "pulls out",
+     "fa": "کنده می‌شود"
+    },
+    {
+     "word": "speed",
+     "fa": "سرعت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "this speed is right?",
+      "is right this speed"
+     ],
+     "echo": "Is this speed right? Perfect.",
+     "better": "Is this speed right?",
+     "betterFa": "این سرعت درست است؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "jade",
+   "text": "Perfect. Now the weights. Don't forget to wipe the machine after you use it. The spray's on the wall. It's gym manners!",
+   "translations": {
+    "fa": "عالیه. حالا وزنه‌ها. یادت نره بعد از استفاده دستگاه را تمیز کنی. اسپری رو دیواره. ادب باشگاهه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manners",
+      "else",
+      "gym"
+     ],
+     "suggestion": "Gym manners? What else?",
+     "suggestionFa": "ادب باشگاه؟ دیگه چی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "i'll",
+      "time",
+      "wipe"
+     ],
+     "suggestion": "I'll wipe it. Every time.",
+     "suggestionFa": "تمیزش می‌کنم. هر بار.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weights",
+     "fa": "وزنه‌ها"
+    },
+    {
+     "word": "wipe",
+     "fa": "پاک کردن ؛ دستمال کشیدن"
+    },
+    {
+     "word": "spray",
+     "fa": "اسپری"
+    },
+    {
+     "word": "manners",
+     "fa": "آداب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Gym etiquette in the UK: wipe machines after use, put weights back, and don't sit on a machine looking at your phone.",
+    "fa": "آداب باشگاه: تمیز کردن دستگاه، برگرداندن وزنه‌ها، و استفادهٔ طولانی از گوشی روی دستگاه نه."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "jade",
+   "text": "Put the weights back on the rack. And don't sit on a machine scrolling your phone for ten minutes. People hate that.",
+   "translations": {
+    "fa": "وزنه‌ها را برگردون سر جاش. و ده دقیقه رو یه دستگاه نشین و گوشیت را بالا پایین نکن. مردم از این متنفرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "should",
+      "times",
+      "fair"
+     ],
+     "suggestion": "That's fair. How many times should I lift?",
+     "suggestionFa": "منصفانه‌ست. چند بار بلند کنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "machine",
+      "someone",
+      "share",
+      "can"
+     ],
+     "suggestion": "Can I share a machine with someone?",
+     "suggestionFa": "می‌تونم دستگاه را با کسی شریکی استفاده کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rack",
+     "fa": "قفسهٔ وزنه"
+    },
+    {
+     "word": "scrolling",
+     "fa": "بالا پایین کردن صفحه"
+    },
+    {
+     "word": "hate",
+     "fa": "متنفر بودن"
+    },
+    {
+     "word": "lift",
+     "fa": "بلند کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jade",
+   "text": "Three sets of ten. Light weight first. Let me see… back straight, slowly… lovely. How does that feel?",
+   "translations": {
+    "fa": "سه ست ده‌تایی. اول وزنهٔ سبک. بذار ببینم… کمر صاف، آروم… عالیه. چه حسی داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "more",
+      "can",
+      "ok"
+     ],
+     "suggestion": "It's OK. I can do more!",
+     "suggestionFa": "خوبه. می‌تونم بیشتر بزنم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shaking",
+      "arms",
+      "ouch"
+     ],
+     "suggestion": "Ouch. My arms are shaking!",
+     "suggestionFa": "آخ. دستام داره می‌لرزه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sets",
+     "fa": "ست‌ها"
+    },
+    {
+     "word": "light",
+     "fa": "سبک"
+    },
+    {
+     "word": "straight",
+     "fa": "صاف"
+    },
+    {
+     "word": "shaking",
+     "fa": "لرزیدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "jade",
+   "text": "Shaking is normal on day one! Tomorrow you'll ache. That's good — it means it's working. Drink lots of water tonight.",
+   "translations": {
+    "fa": "لرزیدن روز اول عادیه! فردا بدنت درد می‌گیره. این خوبه — یعنی داره جواب میده. امشب کلی آب بخور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "often",
+      "come",
+      "how"
+     ],
+     "suggestion": "How often should I come?",
+     "suggestionFa": "چند وقت یک بار بیام؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "useful",
+      "thank",
+      "jade"
+     ],
+     "suggestion": "Thank you, Jade. That was really useful.",
+     "suggestionFa": "ممنون جِید. واقعاً مفید بود.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "normal",
+     "fa": "عادی"
+    },
+    {
+     "word": "ache",
+     "fa": "درد گرفتن (عضلانی)"
+    },
+    {
+     "word": "working",
+     "fa": "جواب دادن"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "jade",
+   "text": "Three times a week is perfect. And come to a class — it's more fun with music. See you Thursday? I'll be watching!",
+   "translations": {
+    "fa": "هفته‌ای سه بار عالیه. یه کلاس هم بیا — با موسیقی بیشتر خوش می‌گذره. پنج‌شنبه می‌بینمت؟ حواسم بهت هست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

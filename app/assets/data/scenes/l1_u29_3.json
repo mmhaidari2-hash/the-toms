@@ -155,8 +155,8 @@
    "branches": [
     {
      "keywords": [
-      "take",
-      "time"
+      "time",
+      "take"
      ],
      "suggestion": "Take your time.",
      "suggestionFa": "عجله نکن.",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "please",
       "orange",
+      "please",
       "juice"
      ],
      "suggestion": "An orange juice, please.",
@@ -284,8 +284,8 @@
      "keywords": [
       "hands",
       "then",
-      "two",
-      "use"
+      "use",
+      "two"
      ],
      "suggestion": "Use two hands, then.",
      "suggestionFa": "پس با دو تا دست.",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
-      "swap"
+      "swap",
+      "time"
      ],
      "suggestion": "Is it time to swap?",
      "suggestionFa": "وقت عوض کردنه؟",

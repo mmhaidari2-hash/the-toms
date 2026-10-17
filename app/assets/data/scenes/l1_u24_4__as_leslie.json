@@ -22,9 +22,9 @@
     {
      "keywords": [
       "today",
-      "love",
-      "down",
       "look",
+      "down",
+      "love",
       "bit"
      ],
      "suggestion": "You look a bit down today. Are you OK, love?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "homesick",
-      "that's",
       "normal",
-      "from",
-      "miss"
+      "that's",
+      "long",
+      "home"
      ],
      "suggestion": "Homesick. That's normal. You're a long way from home. What do you miss?",
      "suggestionFa": "دلتنگ وطن. طبیعیه. خیلی از خونه دوری. دلت برای چی تنگ شده؟",
@@ -145,10 +145,10 @@
     {
      "keywords": [
       "saturday",
-      "persian",
       "amazing",
+      "persian",
       "sounds",
-      "there"
+      "let's"
      ],
      "suggestion": "It sounds amazing. Let's go to the Persian shop on Saturday. Is there one near here?",
      "suggestionFa": "خیلی عالی به نظر میاد. بیا شنبه بریم مغازهٔ ایرانی. اینجا نزدیک هست؟",
@@ -170,9 +170,9 @@
     {
      "keywords": [
       "perfect",
+      "let's",
       "helps",
       "fresh",
-      "let's",
       "walk"
      ],
      "suggestion": "Perfect. Now let's go for a walk. Fresh air helps.",
@@ -197,8 +197,8 @@
       "you've",
       "family",
       "course",
-      "we'll",
-      "cheer"
+      "cheer",
+      "we'll"
      ],
      "suggestion": "Of course! And we'll get a cake on the way back. Cheer up, love — you've got a family here too.",
      "suggestionFa": "البته! و تو راه برگشت یه کیک می‌گیریم. شاد باش عزیزم — اینجا هم خانواده داری.",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "careful",
-      "where",
       "claim",
-      "read"
+      "where",
+      "kind"
      ],
      "suggestion": "Where did you read that? I'd be careful with that kind of claim.",
      "suggestionFa": "کجا خوندی؟ با این جور ادعاها محتاط باش.",
@@ -84,7 +84,7 @@
       "arrivals",
       "housing",
       "social",
-      "years"
+      "can't"
      ],
      "suggestion": "Most new arrivals can't apply for social housing for years.",
      "suggestionFa": "بیشتر تازه‌واردها تا سال‌ها نمی‌تونن برای مسکن اجتماعی درخواست بدن.",
@@ -94,10 +94,10 @@
     },
     {
      "keywords": [
-      "decades",
       "problem",
-      "enough",
-      "houses"
+      "decades",
+      "houses",
+      "enough"
      ],
      "suggestion": "The real problem is that not enough houses have been built for decades.",
      "suggestionFa": "مشکل واقعی اینه که دهه‌هاست خونهٔ کافی ساخته نشده.",
@@ -154,8 +154,8 @@
      "keywords": [
       "understand",
       "people",
-      "wrong",
-      "anger"
+      "aimed",
+      "wrong"
      ],
      "suggestion": "I understand the anger. But it's aimed at the wrong people.",
      "suggestionFa": "خشم را می‌فهمم. ولی به سمت آدم‌های اشتباهیه.",

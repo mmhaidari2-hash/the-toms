@@ -23,8 +23,8 @@
      "keywords": [
       "bottle",
       "chilly",
-      "water",
       "night",
+      "water",
       "could"
      ],
      "suggestion": "Brrr! It's a chilly night. My old bones are cold. Could you fill my hot water bottle, dear?",
@@ -48,8 +48,8 @@
      "keywords": [
       "knitted",
       "rubber",
-      "water",
       "cover",
+      "water",
       "fill"
      ],
      "suggestion": "It's a rubber bag. You fill it with hot water. This one, with the knitted cover.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "knitted",
       "boiling",
+      "knitted",
       "kettle",
-      "water",
-      "don't"
+      "don't",
+      "first"
      ],
      "suggestion": "Yes, I knitted it! Boil the kettle, but don't use boiling water. Let it cool a bit first.",
      "suggestionFa": "آره، خودم بافتمش! کتری را جوش بیار، ولی از آب جوش استفاده نکن. اول بذار یه کم خنک بشه.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "boiling",
       "careful",
+      "boiling",
       "damage",
       "rubber",
-      "water"
+      "don't"
      ],
      "suggestion": "Boiling water can damage the rubber. And be careful — don't fill it to the top!",
      "suggestionFa": "آب جوش لاستیک را خراب می‌کنه. و مواظب باش — تا بالا پرش نکن!",
@@ -148,8 +148,8 @@
      "keywords": [
       "perfect",
       "lovely",
-      "don't",
       "check",
+      "don't",
       "bare"
      ],
      "suggestion": "Let me check. Perfect! Ooh, lovely and warm. Don't put it on bare skin, it can burn.",
@@ -173,9 +173,9 @@
      "keywords": [
       "there's",
       "clever",
+      "thank",
       "sheep",
-      "spare",
-      "thank"
+      "spare"
      ],
      "suggestion": "Clever you! Thank you, dear. Do you want one too? There's a spare one with a sheep on it.",
      "suggestionFa": "آفرین به تو! ممنون عزیزم. تو هم یکی می‌خوای؟ یه یدکی هست که روش گوسفنده.",
@@ -198,9 +198,9 @@
      "keywords": [
       "landlord",
       "heating",
+      "night",
       "never",
-      "sheep",
-      "night"
+      "sheep"
      ],
      "suggestion": "Take the sheep. Your landlord never puts the heating on, I know! Night night, dear. Sleep tight!",
      "suggestionFa": "گوسفنده را ببر. می‌دونم صاحبخونه‌ت هیچ‌وقت شوفاژ را روشن نمی‌کنه! شب بخیر عزیزم. خوب بخوابی!",

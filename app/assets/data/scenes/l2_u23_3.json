@@ -1,0 +1,403 @@
+{
+ "id": "l2_u23_3",
+ "characterId": "zara",
+ "title": "Click and collect",
+ "titleFa": "سفارش آنلاین، تحویل حضوری",
+ "setting": "Returns and click & collect · Level 2",
+ "settingFa": "مرجوعی و سفارش آنلاین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "zara",
+   "text": "Afternoon! Are you here for click and collect? The lockers are broken today, so it's me instead. Sorry!",
+   "translations": {
+    "fa": "عصر بخیر! برای «کلیک و کالکت» اومدی؟ کمدها امروز خرابن، برای همین به‌جاش منم. ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "order",
+      "i've",
+      "come"
+     ],
+     "suggestion": "Yes. I've come to collect an order for Leslie Tom.",
+     "suggestionFa": "آره. اومدم سفارش لزلی تام را تحویل بگیرم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exactly",
+      "click",
+      "zara",
+      "hi"
+     ],
+     "suggestion": "Hi Zara! What is click and collect exactly?",
+     "suggestionFa": "سلام زارا! «کلیک و کالکت» دقیقاً چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "click and collect",
+     "fa": "خرید آنلاین و تحویل حضوری"
+    },
+    {
+     "word": "lockers",
+     "fa": "کمدها ؛ صندوق امانات"
+    },
+    {
+     "word": "instead",
+     "fa": "به‌جای آن"
+    },
+    {
+     "word": "collect",
+     "fa": "تحویل گرفتن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "zara",
+   "text": "You order online, then pick it up here. No delivery fee! What's the order number? It starts with \"CC\".",
+   "translations": {
+    "fa": "آنلاین سفارش میدی، بعد اینجا برش می‌داری. هزینهٔ ارسال نداره! شمارهٔ سفارش چیه؟ با «CC» شروع میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seven",
+      "nine",
+      "four",
+      "two"
+     ],
+     "suggestion": "It's CC four-seven-nine-two.",
+     "suggestionFa": "سی‌سی چهار-هفت-نه-دو هست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie's",
+      "email",
+      "phone",
+      "show"
+     ],
+     "suggestion": "It's on Leslie's phone. Can I show you the email?",
+     "suggestionFa": "رو گوشی لزلیه. میشه ایمیل را نشونت بدم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "order online",
+     "fa": "آنلاین سفارش دادن"
+    },
+    {
+     "word": "pick up",
+     "fa": "برداشتن ؛ تحویل گرفتن"
+    },
+    {
+     "word": "delivery fee",
+     "fa": "هزینهٔ ارسال"
+    },
+    {
+     "word": "order number",
+     "fa": "شمارهٔ سفارش"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Click and collect\" means you buy online and collect from the shop. You usually need the order number and sometimes ID.",
+    "fa": "آنلاین بخرید و از فروشگاه تحویل بگیرید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "The email's perfect — there's a QR code. Let me scan it. Hmm… the order's for Leslie. Are you Leslie?",
+   "translations": {
+    "fa": "ایمیل عالیه — یه کیوآرکد داره. بذار اسکنش کنم. هوم… سفارش برای لزلیه. تو لزلی هستی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collect",
+      "lodger",
+      "asked",
+      "she"
+     ],
+     "suggestion": "No, I'm her lodger. She asked me to collect it.",
+     "suggestionFa": "نه، مستأجرشم. ازم خواست تحویلش بگیرم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "need",
+      "id"
+     ],
+     "suggestion": "No! Do you need her ID?",
+     "suggestionFa": "نه! کارت شناسایی خودش لازمه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "QR code",
+     "fa": "کیوآرکد"
+    },
+    {
+     "word": "lodger",
+     "fa": "مستأجر ؛ هم‌خانه"
+    },
+    {
+     "word": "asked",
+     "fa": "خواست"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she ask me collect it",
+      "she asked me collect"
+     ],
+     "echo": "She asked you to collect it? OK.",
+     "better": "She asked me to collect it.",
+     "betterFa": "از من خواست تحویلش بگیرم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "zara",
+   "text": "That's fine with the QR code. Leslie can add a \"nominee\" next time, too. Right, three bags… and one in the freezer.",
+   "translations": {
+    "fa": "با کیوآرکد مشکلی نیست. لزلی دفعهٔ بعد می‌تونه یه «نماینده» هم اضافه کنه. خب، سه کیسه… و یکی تو فریزر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "there",
+      "check",
+      "can"
+     ],
+     "suggestion": "Is everything there? Can I check?",
+     "suggestionFa": "همه‌چی هست؟ می‌تونم چک کنم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "freezer",
+      "what's",
+      "bag"
+     ],
+     "suggestion": "What's in the freezer bag?",
+     "suggestionFa": "تو کیسهٔ فریزر چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nominee",
+     "fa": "نماینده"
+    },
+    {
+     "word": "bags",
+     "fa": "کیسه‌ها"
+    },
+    {
+     "word": "freezer",
+     "fa": "فریزر"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "zara",
+   "text": "Fish fingers, peas and two tubs of ice cream. And there's one missing: the birthday candles. Out of stock, sorry.",
+   "translations": {
+    "fa": "ماهی سوخاری انگشتی، نخود فرنگی و دو ظرف بستنی. و یکی کمه: شمع تولد. ناموجوده، ببخشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "they're",
+      "party",
+      "oh"
+     ],
+     "suggestion": "Oh no! They're for Nicola's party.",
+     "suggestionFa": "وای نه! برای جشن نیکولاست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "candles",
+      "leslie",
+      "will",
+      "pay"
+     ],
+     "suggestion": "Will Leslie pay for the candles?",
+     "suggestionFa": "لزلی پول شمع‌ها را می‌پردازه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fish fingers",
+     "fa": "ماهی سوخاری انگشتی"
+    },
+    {
+     "word": "tubs",
+     "fa": "ظرف‌ها ؛ قوطی‌ها"
+    },
+    {
+     "word": "missing",
+     "fa": "گم ؛ کم"
+    },
+    {
+     "word": "candles",
+     "fa": "شمع‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "No, she won't pay for missing items. And look — aisle fifteen has candles. Different brand. Shall I grab some?",
+   "translations": {
+    "fa": "نه، پول کالای کم را نمی‌پردازه. ببین — راهروی پونزده شمع داره. یه مارک دیگه. برات بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "candles",
+      "number",
+      "please",
+      "six"
+     ],
+     "suggestion": "Yes, please! Number six candles.",
+     "suggestionFa": "آره، لطفاً! شمع عدد شش.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "myself",
+      "i'll",
+      "them"
+     ],
+     "suggestion": "No thanks. I'll get them myself.",
+     "suggestionFa": "نه ممنون. خودم برمی‌دارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "won't",
+     "fa": "نخواهد"
+    },
+    {
+     "word": "items",
+     "fa": "اقلام ؛ کالاها"
+    },
+    {
+     "word": "brand",
+     "fa": "مارک"
+    },
+    {
+     "word": "grab",
+     "fa": "برداشتن ؛ آوردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "Number six — sparkly ones! Here you go. Pay for those at the till. And tell Nicola \"Happy birthday\" from Zara!",
+   "translations": {
+    "fa": "عدد شش — اکلیلی! بفرما. پولش را دم صندوق بده. به نیکولا هم از طرف زارا بگو «تولدت مبارک»!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "need",
+      "sign"
+     ],
+     "suggestion": "I will! Do I need to sign anything?",
+     "suggestionFa": "میگم! لازمه چیزی امضا کنم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "happy",
+      "thank"
+     ],
+     "suggestion": "Thank you. Leslie will be so happy.",
+     "suggestionFa": "ممنون. لزلی خیلی خوشحال میشه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sparkly",
+     "fa": "اکلیلی ؛ براق"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "zara",
+   "text": "Just your name on the screen with your finger. Lovely. Mind the ice cream — get it home before it melts!",
+   "translations": {
+    "fa": "فقط اسمت را با انگشت رو صفحه بنویس. عالی. حواست به بستنی باشه — قبل از اینکه آب بشه برسونش خونه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

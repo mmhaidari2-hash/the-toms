@@ -24,7 +24,7 @@
       "roared",
       "moved",
       "best",
-      "did",
+      "see",
       "was"
      ],
      "suggestion": "That was the BEST! Did you see the T. rex? It moved! And it roared!",
@@ -48,9 +48,9 @@
      "keywords": [
       "promised",
       "william",
-      "hungry",
+      "little",
       "behind",
-      "little"
+      "hungry"
      ],
      "suggestion": "A little bit. William hid behind Daddy. Now I'm SO hungry. Can we have the cake? Daddy promised!",
      "suggestionFa": "یه ذره. ویلیام پشت بابا قایم شد. حالا خیلی گشنمه. می‌شه کیک بخوریم؟ بابا قول داده!",
@@ -100,7 +100,7 @@
       "please",
       "mummy",
       "magic",
-      "cake"
+      "word"
      ],
      "suggestion": "Chocolate cake! Can you ask the lady? Say \"please\". Mummy says \"please\" is a magic word.",
      "suggestionFa": "کیک شکلاتی! می‌شه از خانمه بخوای؟ بگو «لطفاً». مامان میگه «لطفاً» کلمهٔ جادوییه.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -240,8 +240,8 @@
       "dinosaur",
       "bigger",
       "whale",
-      "house",
-      "cream"
+      "cream",
+      "house"
      ],
      "suggestion": "Extra cream! The dinosaur was bigger than our house. And the whale was bigger than a bus!",
      "suggestionFa": "خامهٔ اضافه! دایناسوره از خونهٔ ما بزرگ‌تر بود. و نهنگ از اتوبوس بزرگ‌تر بود!",
@@ -264,9 +264,9 @@
      "keywords": [
       "dinosaurs",
       "bigger",
-      "buses",
       "loved",
-      "i'll"
+      "buses",
+      "than"
      ],
      "suggestion": "Bigger than TWO buses! I loved the T. rex. When I grow up, I'll dig up dinosaurs!",
      "suggestionFa": "بزرگ‌تر از دو تا اتوبوس! عاشق تیرکس شدم. وقتی بزرگ شدم، دایناسور از زیر خاک درمیارم!",

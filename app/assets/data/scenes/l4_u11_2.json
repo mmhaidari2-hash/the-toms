@@ -87,8 +87,8 @@
     {
      "keywords": [
       "negotiable",
-      "budget",
       "that's",
+      "budget",
       "over"
      ],
      "suggestion": "That's a bit over my budget. Is it negotiable?",
@@ -281,8 +281,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "smoke",
+      "don't",
       "pets"
      ],
      "suggestion": "No pets, and I don't smoke.",
@@ -295,8 +295,8 @@
      "keywords": [
       "there",
       "mould",
-      "damp",
-      "flat"
+      "flat",
+      "damp"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -358,9 +358,9 @@
     },
     {
      "keywords": [
-      "rating",
-      "what's",
       "energy",
+      "what's",
+      "rating",
       "flat"
      ],
      "suggestion": "What's the energy rating of the flat?",
@@ -401,7 +401,7 @@
      "keywords": [
       "logistics",
       "company",
-      "full",
+      "time",
       "work"
      ],
      "suggestion": "I work full-time at a logistics company.",
@@ -415,7 +415,7 @@
       "references",
       "assistant",
       "teaching",
-      "need"
+      "will"
      ],
      "suggestion": "I'm a teaching assistant. Will you need references?",
      "suggestionFa": "دستیار معلمم. معرف لازم دارید؟",
@@ -449,10 +449,10 @@
    "branches": [
     {
      "keywords": [
-      "strict",
       "that's",
+      "strict",
       "thirty",
-      "quite"
+      "times"
      ],
      "suggestion": "Thirty times? That's quite strict.",
      "suggestionFa": "سی برابر؟ نسبتاً سختگیرانه‌ست.",
@@ -464,7 +464,7 @@
      "keywords": [
       "guarantor",
       "need",
-      "one",
+      "tom",
       "can"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",

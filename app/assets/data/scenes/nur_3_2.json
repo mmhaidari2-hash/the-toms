@@ -32,8 +32,8 @@
     {
      "keywords": [
       "please",
-      "words",
       "oscar",
+      "words",
       "use"
      ],
      "suggestion": "Oscar, use your words, please.",
@@ -134,8 +134,8 @@
     {
      "keywords": [
       "train",
-      "both",
       "play",
+      "both",
       "can"
      ],
      "suggestion": "Can you both play with the train?",
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "saying",
-      "thank",
       "sorry",
-      "oscar"
+      "oscar",
+      "thank"
      ],
      "suggestion": "Thank you for saying sorry, Oscar.",
      "suggestionFa": "ممنون که عذرخواهی کردی اسکار.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "train",
-      "done",
       "well",
+      "done",
       "give"
      ],
      "suggestion": "Well done. Can you give him the train?",
@@ -238,8 +238,8 @@
      "keywords": [
       "while",
       "oscar",
-      "wait",
-      "want"
+      "want",
+      "wait"
      ],
      "suggestion": "Oscar, do you want the bus while you wait?",
      "suggestionFa": "اسکار، تا صبر می‌کنی اتوبوس را می‌خوای؟",

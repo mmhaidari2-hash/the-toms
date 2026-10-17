@@ -23,9 +23,9 @@
      "keywords": [
       "astronaut",
       "wants",
-      "want",
       "when",
-      "grow"
+      "grow",
+      "want"
      ],
      "suggestion": "When I grow up, I want to be a vet! Mia wants to be an astronaut!",
      "suggestionFa": "وقتی بزرگ شدم، می‌خوام دامپزشک بشم! میا می‌خواد فضانورد بشه!",
@@ -50,7 +50,7 @@
       "because",
       "poorly",
       "love",
-      "want"
+      "help"
      ],
      "suggestion": "Because I love animals. I want to help poorly dogs and cats.",
      "suggestionFa": "چون عاشق حیوون‌هام. می‌خوام به سگ و گربه‌های مریض کمک کنم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,8 +130,8 @@
      "keywords": [
       "pilot",
       "plane",
-      "can",
-      "fly"
+      "fly",
+      "can"
      ],
      "suggestion": "A pilot! Can you fly a plane?",
      "suggestionFa": "خلبان! می‌تونی هواپیما برونی؟",
@@ -259,8 +259,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -318,8 +318,8 @@
      "keywords": [
       "captain",
       "poorly",
-      "come",
       "he's",
+      "come",
       "moon"
      ],
      "suggestion": "Captain, can we fly to the moon? And can my dog come? He's poorly!",

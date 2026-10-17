@@ -75,8 +75,8 @@
      "keywords": [
       "receipt",
       "here's",
-      "card",
-      "paid"
+      "paid",
+      "card"
      ],
      "suggestion": "Here's the receipt. I paid by card, too.",
      "suggestionFa": "اینم رسید. با کارت هم پرداخت کردم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "statement",
       "helps",
-      "i've",
-      "bank"
+      "bank",
+      "i've"
      ],
      "suggestion": "I've got the bank statement, if that helps.",
      "suggestionFa": "صورت‌حساب بانکی دارم، اگه کمک می‌کنه.",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "refund",
+      "please",
       "don't",
       "trust"
      ],
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "morning",
-      "stopped",
       "heating",
+      "stopped",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "carefully",
-      "i've",
       "used",
+      "i've",
       "all"
      ],
      "suggestion": "Not at all. I've used it carefully.",

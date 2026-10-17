@@ -22,7 +22,7 @@
       "inviting",
       "thanks",
       "tom",
-      "us"
+      "hi"
      ],
      "suggestion": "Hi, Tom. Thanks for inviting us.",
      "suggestionFa": "سلام تام. ممنون که دعوتمون کردی.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "sorry",
       "hello",
       "we're",
-      "sorry",
       "late"
      ],
      "suggestion": "Hello! Sorry we're a bit late.",
@@ -129,10 +129,10 @@
     },
     {
      "keywords": [
-      "brought",
       "persian",
+      "brought",
       "sweets",
-      "shop"
+      "some"
      ],
      "suggestion": "I brought some sweets from the Persian shop.",
      "suggestionFa": "منم از مغازهٔ ایرانی شیرینی آوردم.",
@@ -181,8 +181,8 @@
     },
     {
      "keywords": [
-      "thank",
       "after",
+      "thank",
       "khan",
       "mrs"
      ],
@@ -236,8 +236,8 @@
      "keywords": [
       "george",
       "chair",
-      "his",
-      "own"
+      "own",
+      "his"
      ],
      "suggestion": "George has his own chair?",
      "suggestionFa": "جورج صندلی مخصوص داره؟",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "lovely",
-      "thank",
-      "house"
+      "house",
+      "thank"
      ],
      "suggestion": "Thank you. Your house is lovely.",
      "suggestionFa": "ممنون. خونه‌تون قشنگه.",
@@ -279,8 +279,8 @@
     },
     {
      "keywords": [
-      "here",
-      "warm"
+      "warm",
+      "here"
      ],
      "suggestion": "It's very warm in here.",
      "suggestionFa": "اینجا خیلی گرمه.",

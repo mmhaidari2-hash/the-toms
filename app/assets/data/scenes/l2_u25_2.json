@@ -1,0 +1,487 @@
+{
+ "id": "l2_u25_2",
+ "characterId": "dev",
+ "title": "Credit check and ID",
+ "titleFa": "اعتبارسنجی و مدرک شناسایی",
+ "setting": "Phone shop and contract · Level 2",
+ "settingFa": "فروشگاه موبایل و قرارداد",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dev",
+   "text": "Hello again! You're back with a friend. Mr Tom, isn't it? So, today it's the contract phone?",
+   "translations": {
+    "fa": "دوباره سلام! با یه دوست برگشتی. آقای تام، درسته؟ پس، امروز گوشی قراردادی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "window",
+      "phone",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "Yes. I'd like the phone in the window.",
+     "suggestionFa": "آره. اون گوشی تو ویترین را می‌خوام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "came",
+      "help",
+      "tom"
+     ],
+     "suggestion": "Yes. Tom came to help me.",
+     "suggestionFa": "آره. تام اومد کمکم کنه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contract phone",
+     "fa": "گوشی قراردادی"
+    },
+    {
+     "word": "window",
+     "fa": "ویترین"
+    },
+    {
+     "word": "help",
+     "fa": "کمک کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dev",
+   "text": "Great choice. For a contract, we do a credit check. And I need two things: photo ID and proof of address.",
+   "translations": {
+    "fa": "انتخاب عالی. برای قرارداد، اعتبارسنجی می‌کنیم. دو تا چیز هم لازم دارم: کارت شناسایی عکس‌دار و مدرک آدرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "credit",
+      "what's",
+      "check"
+     ],
+     "suggestion": "What's a credit check?",
+     "suggestionFa": "اعتبارسنجی چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "passport",
+      "address",
+      "counts",
+      "here's"
+     ],
+     "suggestion": "Here's my passport. What counts as proof of address?",
+     "suggestionFa": "این پاسپورتمه. چی مدرک آدرس حساب میشه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "credit check",
+     "fa": "اعتبارسنجی"
+    },
+    {
+     "word": "photo ID",
+     "fa": "کارت شناسایی عکس‌دار"
+    },
+    {
+     "word": "proof of address",
+     "fa": "مدرک آدرس"
+    },
+    {
+     "word": "counts as",
+     "fa": "حساب می‌شود"
+    }
+   ],
+   "cultureNote": {
+    "en": "A credit check looks at your history of paying bills. New arrivals often have a \"thin\" credit file, so contracts can be harder at first.",
+    "fa": "اعتبارسنجی سابقهٔ پرداخت قبض‌ها را بررسی می‌کند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dev",
+   "text": "It checks if you pay your bills on time. A bank statement or a council tax bill from the last three months is fine for address.",
+   "translations": {
+    "fa": "چک می‌کنه قبض‌هات را سر وقت میدی یا نه. صورت‌حساب بانکی یا قبض مالیات شورا از سه ماه اخیر برای آدرس کافیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letter",
+      "bank",
+      "got",
+      "ok"
+     ],
+     "suggestion": "I've got a bank letter. Is that OK?",
+     "suggestionFa": "یه نامهٔ بانکی دارم. خوبه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "months",
+      "here",
+      "only",
+      "four"
+     ],
+     "suggestion": "But I've only been here for four months.",
+     "suggestionFa": "ولی من فقط چهار ماهه اینجام.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on time",
+     "fa": "سر وقت"
+    },
+    {
+     "word": "bank statement",
+     "fa": "صورت‌حساب بانکی"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شورا"
+    },
+    {
+     "word": "letter",
+     "fa": "نامه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i am here since four months",
+      "i've been here since four months"
+     ],
+     "echo": "You've been here for four months? That's fine.",
+     "better": "I've only been here for four months.",
+     "betterFa": "فقط چهار ماه است اینجا هستم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dev",
+   "text": "Four months is fine to try. Let me run it now. It takes about two minutes. Fingers crossed!",
+   "translations": {
+    "fa": "چهار ماه برای امتحان کافیه. بذار الان انجامش بدم. حدود دو دقیقه طول می‌کشه. امیدوار باشیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "crossed",
+      "ok"
+     ],
+     "suggestion": "OK. Fingers crossed!",
+     "suggestionFa": "باشه. امیدوار باشیم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "quick",
+      "two"
+     ],
+     "suggestion": "Two minutes? That's quick.",
+     "suggestionFa": "دو دقیقه؟ چه سریع.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Two minutes? When I got my first phone, it took a week and a man in a tie.",
+   "translations": {
+    "fa": "دو دقیقه؟ وقتی من اولین گوشیم را گرفتم، یه هفته طول کشید و یه آقای کراواتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "when",
+      "tom",
+      "was",
+      "ha"
+     ],
+     "suggestion": "Ha! When was that, Tom?",
+     "suggestionFa": "ها! کی بود تام؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "man",
+      "tie"
+     ],
+     "suggestion": "A man in a tie? Really?",
+     "suggestionFa": "یه آقای کراواتی؟ واقعاً؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "run",
+     "fa": "اجرا کردن"
+    },
+    {
+     "word": "fingers crossed",
+     "fa": "امیدوار باشیم ؛ به امید خدا"
+    },
+    {
+     "word": "tie",
+     "fa": "کراوات"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dev",
+   "text": "Oh. It says \"referred\". Don't panic — that's not a \"no\". It means your credit history is too short.",
+   "translations": {
+    "fa": "اوه. نوشته «ارجاع شد». نگران نشو — این «نه» نیست. یعنی سابقهٔ اعتباریت خیلی کوتاهه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "if"
+     ],
+     "suggestion": "What happens if it's a no?",
+     "suggestionFa": "اگه «نه» باشه چی میشه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "short",
+      "can"
+     ],
+     "suggestion": "Too short? What can I do?",
+     "suggestionFa": "خیلی کوتاهه؟ چی کار می‌تونم بکنم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "referred",
+     "fa": "ارجاع شد"
+    },
+    {
+     "word": "panic",
+     "fa": "وحشت کردن"
+    },
+    {
+     "word": "credit history",
+     "fa": "سابقهٔ اعتباری"
+    },
+    {
+     "word": "short",
+     "fa": "کوتاه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dev",
+   "text": "You can pay a hundred-pound deposit, or choose a cheaper phone. Or go SIM-only and build up your history.",
+   "translations": {
+    "fa": "می‌تونی یه ودیعهٔ صد پوندی بدی، یا یه گوشی ارزون‌تر انتخاب کنی. یا فقط سیم‌کارت بگیری و سابقه‌ات را بسازی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "history",
+      "credit",
+      "build",
+      "how"
+     ],
+     "suggestion": "How do I build up my credit history?",
+     "suggestionFa": "چطوری سابقهٔ اعتباریم را بسازم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hundred",
+      "pounds",
+      "that's",
+      "much"
+     ],
+     "suggestion": "A hundred pounds? That's too much.",
+     "suggestionFa": "صد پوند؟ خیلی زیاده.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deposit",
+     "fa": "ودیعه ؛ پیش‌پرداخت"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    },
+    {
+     "word": "build up",
+     "fa": "ساختن ؛ افزایش دادن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Register to vote, pay bills on time, and don't borrow too much. That's what my dad told me. Good advice, Dev?",
+   "translations": {
+    "fa": "برای رأی دادن ثبت‌نام کن، قبض‌ها را سر وقت بده و زیاد قرض نگیر. اینو بابام بهم گفت. توصیهٔ خوبیه، دِو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "register",
+      "british",
+      "vote",
+      "can"
+     ],
+     "suggestion": "Can I register to vote? I'm not British.",
+     "suggestionFa": "می‌تونم برای رأی ثبت‌نام کنم؟ من بریتانیایی نیستم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clever",
+      "dad",
+      "was",
+      "tom"
+     ],
+     "suggestion": "Your dad was clever, Tom.",
+     "suggestionFa": "بابات زرنگ بود، تام.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "register to vote",
+     "fa": "ثبت‌نام برای رأی"
+    },
+    {
+     "word": "bills",
+     "fa": "قبض‌ها"
+    },
+    {
+     "word": "borrow",
+     "fa": "قرض گرفتن"
+    },
+    {
+     "word": "advice",
+     "fa": "توصیه"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "dev",
+   "text": "Spot on, Tom. And check the council website — some residents can register for local elections. So: SIM-only for now?",
+   "translations": {
+    "fa": "دقیقاً، تام. سایت شورا را هم چک کن — بعضی ساکنان می‌تونن برای انتخابات محلی ثبت‌نام کنن. پس: فعلاً فقط سیم‌کارت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "months",
+      "back",
+      "i'll",
+      "only"
+     ],
+     "suggestion": "Yes. SIM-only, and I'll come back in six months.",
+     "suggestionFa": "آره. فقط سیم‌کارت، و شش ماه دیگه برمی‌گردم.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "steps",
+      "down",
+      "can"
+     ],
+     "suggestion": "OK. Can you write down the steps for me?",
+     "suggestionFa": "باشه. میشه مراحل را برام بنویسی؟",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spot on",
+     "fa": "کاملاً درست"
+    },
+    {
+     "word": "residents",
+     "fa": "ساکنان"
+    },
+    {
+     "word": "local elections",
+     "fa": "انتخابات محلی"
+    },
+    {
+     "word": "steps",
+     "fa": "مراحل"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "dev",
+   "text": "Deal. I'll put a note on your account: \"Come back in April\". The phone in the window will be cheaper by then anyway!",
+   "translations": {
+    "fa": "قبول. یه یادداشت رو حسابت می‌ذارم: «فروردین برگرد». اون گوشی ویترین تا اون موقع به‌هرحال ارزون‌تر میشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

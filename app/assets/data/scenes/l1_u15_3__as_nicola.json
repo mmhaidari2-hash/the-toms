@@ -22,9 +22,9 @@
     {
      "keywords": [
       "finished",
-      "picture",
       "missing",
-      "castle",
+      "picture",
+      "jigsaw",
       "nearly"
      ],
      "suggestion": "My jigsaw is nearly finished! It's a picture of a castle. But one piece is missing!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "piece",
-      "seen",
+      "have",
       "blue",
-      "part",
-      "have"
+      "seen",
+      "part"
      ],
      "suggestion": "It's a blue piece. Part of the sky. Have you seen it?",
      "suggestionFa": "یه تیکهٔ آبیه. یه قسمت از آسمون. دیدیش؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "under",
-      "can't",
       "floor",
-      "sofa",
+      "can't",
+      "under",
+      "look",
       "find"
      ],
      "suggestion": "I can't find it on the floor. Can you look under the sofa?",
@@ -98,9 +98,9 @@
      "keywords": [
       "crisps",
       "crisp",
+      "yuck",
       "ryan",
-      "eats",
-      "sofa"
+      "eats"
      ],
      "suggestion": "A crisp! Yuck! Ryan eats crisps on the sofa. Is it in the box?",
      "suggestionFa": "یه چیپس! ایش! رایان رو مبل چیپس می‌خوره. تو جعبه‌ست؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "william",
       "things",
-      "maybe",
       "mouth",
+      "maybe",
       "puts"
      ],
      "suggestion": "Maybe William has got it. He puts things in his mouth!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

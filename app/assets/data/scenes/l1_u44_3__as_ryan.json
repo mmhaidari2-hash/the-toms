@@ -24,8 +24,8 @@
       "saturday",
       "customer",
       "bakery",
-      "guess",
-      "first"
+      "first",
+      "guess"
      ],
      "suggestion": "Guess what? I've got a Saturday job! At the bakery. Will you be my first customer?",
      "suggestionFa": "حدس بزن چی شده؟ کار شنبه‌ها گرفتم! تو نونوایی. اولین مشتری‌م میشی؟",
@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "that's",
-      "thanks",
       "eighty",
+      "thanks",
+      "that's",
       "pound",
       "white"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "ninety",
       "pounds",
       "coffee",
-      "three",
-      "forty"
+      "ninety",
+      "fifty",
+      "three"
      ],
      "suggestion": "A cake and a coffee. Three fifty plus two forty… five pounds ninety.",
      "suggestionFa": "یه کیک و یه قهوه. سه و پنجاه به اضافهٔ دو و چهل… پنج پوند و نود.",
@@ -178,9 +178,9 @@
    "branches": [
     {
      "keywords": [
-      "ninety",
       "pounds",
       "change",
+      "ninety",
       "seven",
       "eight"
      ],
@@ -262,7 +262,7 @@
       "smiling",
       "please",
       "funny",
-      "next"
+      "have"
      ],
      "suggestion": "Ha ha, very funny. See? I'm smiling. Have a nice day, sir! Next customer, please!",
      "suggestionFa": "ها ها، خیلی بامزه. دیدی؟ دارم لبخند می‌زنم. روز خوبی داشته باشید قربان! مشتری بعدی، لطفاً!",

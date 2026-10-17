@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
       "ryan",
+      "time",
       "bed"
      ],
      "suggestion": "It's time for bed, Ryan.",
@@ -135,7 +135,7 @@
      "keywords": [
       "maths",
       "sleep",
-      "need",
+      "then",
       "test"
      ],
      "suggestion": "A maths test? Then you need sleep!",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "seven",
-      "alarm"
+      "alarm",
+      "seven"
      ],
      "suggestion": "Yes, your alarm is on for seven.",
      "suggestionFa": "آره، زنگت برای هفت روشنه.",
@@ -224,7 +224,7 @@
       "radiator",
       "morning",
       "it'll",
-      "dry"
+      "put"
      ],
      "suggestion": "Put it on the radiator. It'll be dry by morning.",
      "suggestionFa": "بذارش رو شوفاژ. تا صبح خشک میشه.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "ryan",
-      "sure"
+      "sure",
+      "ryan"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -358,7 +358,7 @@
       "early",
       "i've",
       "long",
-      "got"
+      "day"
      ],
      "suggestion": "Early. I've got a long day.",
      "suggestionFa": "زود. روز طولانی‌ای دارم.",
@@ -404,10 +404,10 @@
     },
     {
      "keywords": [
-      "luck",
       "ryan",
+      "good",
       "test",
-      "good"
+      "luck"
      ],
      "suggestion": "Night, Ryan. Good luck in your test.",
      "suggestionFa": "شب بخیر رایان. تو امتحانت موفق باشی.",

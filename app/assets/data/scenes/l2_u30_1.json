@@ -1,0 +1,409 @@
+{
+ "id": "l2_u30_1",
+ "characterId": "sian",
+ "title": "Opening a current account",
+ "titleFa": "افتتاح حساب جاری",
+ "setting": "At the bank · Level 2",
+ "settingFa": "در بانک",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "Good morning! Take a seat. I'm Siân. You've booked an appointment to open an account, is that right?",
+   "translations": {
+    "fa": "صبح بخیر! بفرمایید بنشینید. من شان هستم. برای باز کردن حساب وقت گرفتید، درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "current",
+      "account",
+      "open",
+      "like"
+     ],
+     "suggestion": "Yes. I'd like to open a current account.",
+     "suggestionFa": "بله. می‌خوام یه حساب جاری باز کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "right",
+      "new",
+      "uk"
+     ],
+     "suggestion": "That's right. I'm new in the UK.",
+     "suggestionFa": "درسته. تازه به بریتانیا اومدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take a seat",
+     "fa": "بنشینید"
+    },
+    {
+     "word": "appointment",
+     "fa": "قرار ملاقات ؛ وقت"
+    },
+    {
+     "word": "account",
+     "fa": "حساب"
+    },
+    {
+     "word": "current account",
+     "fa": "حساب جاری"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Lovely. A current account is for everyday money — your wages go in, your bills go out. What do you have with you today?",
+   "translations": {
+    "fa": "عالی. حساب جاری برای پول روزمره‌ست — حقوقتون میاد توش، قبض‌هاتون ازش میره. امروز چی همراهتونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "passport",
+      "visa"
+     ],
+     "suggestion": "My passport and my visa.",
+     "suggestionFa": "پاسپورت و ویزام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exactly",
+      "need"
+     ],
+     "suggestion": "What do I need, exactly?",
+     "suggestionFa": "دقیقاً چی لازم دارم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everyday",
+     "fa": "روزمره"
+    },
+    {
+     "word": "wages",
+     "fa": "دستمزد ؛ حقوق"
+    },
+    {
+     "word": "bills",
+     "fa": "قبض‌ها"
+    },
+    {
+     "word": "visa",
+     "fa": "ویزا"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what i need exactly",
+      "what do i needing"
+     ],
+     "echo": "What do you need? Let me tell you.",
+     "better": "What do I need, exactly?",
+     "betterFa": "دقیقاً چه چیزی لازم دارم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "We need photo ID — your passport is perfect — and proof of address: a letter with your address from the last three months.",
+   "translations": {
+    "fa": "کارت شناسایی عکس‌دار لازم داریم — پاسپورتتون عالیه — و مدرک آدرس. یه نامه با اسم و آدرستون از سه ماه اخیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letter",
+      "i've",
+      "from",
+      "got"
+     ],
+     "suggestion": "I've got a letter from my GP. Is that OK?",
+     "suggestionFa": "یه نامه از پزشک عمومیم دارم. خوبه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "aren't",
+      "family",
+      "bills",
+      "name"
+     ],
+     "suggestion": "I live with a family. The bills aren't in my name.",
+     "suggestionFa": "با یه خانواده زندگی می‌کنم. قبض‌ها به اسم من نیست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "photo ID",
+     "fa": "کارت شناسایی عکس‌دار"
+    },
+    {
+     "word": "proof of address",
+     "fa": "مدرک آدرس"
+    },
+    {
+     "word": "letter",
+     "fa": "نامه"
+    },
+    {
+     "word": "in my name",
+     "fa": "به اسم من"
+    }
+   ],
+   "cultureNote": {
+    "en": "Opening a UK bank account needs ID and proof of address. If you're new, some banks accept a GP letter, a council letter or a tenancy agreement.",
+    "fa": "برای باز کردن حساب، مدرک شناسایی و آدرس لازم است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "A GP registration letter is fine. Lots of newcomers use that. Let me scan them. Now, your address — 10 Mare Street?",
+   "translations": {
+    "fa": "نامهٔ ثبت‌نام پزشک عمومی خوبه. خیلی از تازه‌واردها از همون استفاده می‌کنن. بذارید اسکنشون کنم. خب، آدرستون — ۱۰ مِر استریت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "that's",
+      "right",
+      "tom"
+     ],
+     "suggestion": "Yes, that's right. With the Tom family.",
+     "suggestionFa": "بله، درسته. با خانوادهٔ تام.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "long",
+      "open",
+      "take",
+      "how"
+     ],
+     "suggestion": "Yes. How long does it take to open?",
+     "suggestionFa": "بله. باز کردنش چقدر طول می‌کشه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "registration",
+     "fa": "ثبت‌نام"
+    },
+    {
+     "word": "newcomers",
+     "fa": "تازه‌واردها"
+    },
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "Tom the bus driver? Hackney's a village! The account opens today. Your debit card comes in five to seven days.",
+   "translations": {
+    "fa": "تام رانندهٔ اتوبوس؟ هاکنی یه روستاست! حساب امروز باز میشه. کارت بانکیتون پنج تا هفت روز دیگه میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arrives",
+      "before",
+      "phone",
+      "use"
+     ],
+     "suggestion": "Can I use my phone before the card arrives?",
+     "suggestionFa": "قبل از رسیدن کارت می‌تونم از گوشیم استفاده کنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "debit",
+      "small",
+      "world"
+     ],
+     "suggestion": "Small world! What's a debit card?",
+     "suggestionFa": "دنیا کوچیکه! کارت دبیت چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "village",
+     "fa": "روستا"
+    },
+    {
+     "word": "debit card",
+     "fa": "کارت بانکی (دبیت)"
+    },
+    {
+     "word": "arrives",
+     "fa": "می‌رسد"
+    },
+    {
+     "word": "small world",
+     "fa": "دنیا کوچک است"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "Yes! Download our app and you can pay by phone today. And the card takes money straight from your account. No credit, no debt.",
+   "translations": {
+    "fa": "بله! اپ ما را دانلود کنید، همین امروز با گوشی پرداخت کنید. کارت هم پول را مستقیم از حسابتون برمی‌داره. نه اعتبار، نه بدهی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monthly",
+      "there",
+      "fee"
+     ],
+     "suggestion": "Is there a monthly fee?",
+     "suggestionFa": "هزینهٔ ماهانه داره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "how",
+      "get",
+      "pin"
+     ],
+     "suggestion": "Great. And how do I get my PIN?",
+     "suggestionFa": "عالیه. رمزم را چطوری می‌گیرم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "download",
+     "fa": "دانلود کردن"
+    },
+    {
+     "word": "straight",
+     "fa": "مستقیم"
+    },
+    {
+     "word": "debt",
+     "fa": "بدهی"
+    },
+    {
+     "word": "monthly fee",
+     "fa": "هزینهٔ ماهانه"
+    },
+    {
+     "word": "PIN",
+     "fa": "رمز"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sian",
+   "text": "The basic account is free. Your PIN comes in a separate letter after the card. Never write it down, and never tell anyone.",
+   "translations": {
+    "fa": "حساب پایه رایگانه. رمزتون بعد از کارت جدا با نامه میاد. هیچ‌وقت ننویسیدش و به هیچ‌کس نگید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "even",
+      "tom"
+     ],
+     "suggestion": "Not even Tom?",
+     "suggestionFa": "حتی به تام؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "thank",
+      "i'll",
+      "si"
+     ],
+     "suggestion": "I'll remember it. Thank you, Siân.",
+     "suggestionFa": "به خاطر می‌سپارمش. ممنون شان.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "basic",
+     "fa": "پایه"
+    },
+    {
+     "word": "separate",
+     "fa": "جداگانه"
+    },
+    {
+     "word": "write down",
+     "fa": "نوشتن"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sian",
+   "text": "Especially not Tom! The bank will never ask for your PIN on the phone, either. Right — welcome to the bank. You're official now!",
+   "translations": {
+    "fa": "مخصوصاً به تام نه! بانک هم هیچ‌وقت تلفنی رمزتون را نمی‌خواد. خب — به بانک خوش اومدید. الان دیگه رسمی شدید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "l2_u26_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Flat-pack from the retail park",
+ "titleFa": "(در نقش Tom) مبلمان جعبه‌ای از مرکز خرید",
+ "setting": "Petrol station and retail park · Level 2",
+ "settingFa": "پمپ بنزین و مرکز خرید حاشیه شهر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u26_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wardrobe",
+      "retail",
+      "right",
+      "park",
+      "will"
+     ],
+     "suggestion": "Right. Retail park: done. One wardrobe, flat-pack, for your room. Now the hard part. Will it fit in the car?",
+     "suggestionFa": "خب. مرکز خرید: تموم. یه کمد لباس، جعبه‌ای، برای اتاقت. حالا بخش سخت. تو ماشین جا میشه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I don't know. The box is very long!",
+   "translations": {
+    "fa": "نمی‌دونم. جعبه خیلی درازه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thinking",
+      "heavy",
+      "three",
+      "seats",
+      "hand"
+     ],
+     "suggestion": "Good thinking. Seats down. Now — it's heavy. Can you give me a hand? You take that end. On three. One, two, three!",
+     "suggestionFa": "فکر خوبیه. صندلی‌ها خوابید. حالا — سنگینه. کمکم می‌کنی؟ تو اون سر را بگیر. با سه. یک، دو، سه!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ugh! It's too heavy!",
+   "translations": {
+    "fa": "اوف! خیلی سنگینه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "back's",
+      "though",
+      "years",
+      "close",
+      "won't"
+     ],
+     "suggestion": "Bend your knees, not your back! My back's forty-two years old. It's in. Just. The boot won't close, though.",
+     "suggestionFa": "زانوهات را خم کن، نه کمرت را! کمر من چهل و دو سالشه. رفت تو. به‌زور. ولی درِ صندوق بسته نمیشه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What can we do? Do we have a rope?",
+   "translations": {
+    "fa": "چی کار کنیم؟ طناب داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "professional",
+      "delivery's",
+      "pounds",
+      "slowly",
+      "maggie"
+     ],
+     "suggestion": "Delivery's forty pounds. I've got a bungee cord. Very professional. We'll drive slowly. Like Nana Maggie.",
+     "suggestionFa": "تحویل چهل پونده. من کش بار دارم. خیلی حرفه‌ای. آروم رانندگی می‌کنیم. مثل ننه مگی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Is it legal? With the boot open?",
+   "translations": {
+    "fa": "قانونیه؟ با درِ صندوق باز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "instructions",
+      "nightmare",
+      "doesn't",
+      "stick",
+      "right"
+     ],
+     "suggestion": "It's fine if it's tied down and doesn't stick out too far. Right — home! Then the real nightmare: the instructions.",
+     "suggestionFa": "اگه محکم بسته باشه و زیاد بیرون نزنه مشکلی نیست. خب — خونه! بعد کابوس واقعی: دستورالعمل.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Why are the instructions a nightmare?",
+   "translations": {
+    "fa": "چرا دستورالعمل کابوسه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pictures",
+      "smiling",
+      "hundred",
+      "missing",
+      "screws"
+     ],
+     "suggestion": "No words. Only pictures. A little smiling man. Two hundred screws. And one is always missing. Always.",
+     "suggestionFa": "بدون کلمه. فقط عکس. یه آدمک کوچیکِ خندون. دویست تا پیچ. و همیشه یکی کمه. همیشه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "We can do it together. Step by step.",
+   "translations": {
+    "fa": "با هم می‌تونیم. قدم به قدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "useless",
+      "there's",
+      "screws",
+      "allen",
+      "pizza"
+     ],
+     "suggestion": "There's an Allen key in the box. Tiny. Useless. But I've got a drill. Ryan can help — he's good with screws. And pizza.",
+     "suggestionFa": "یه آچار آلن تو جعبه هست. ریزه. بی‌فایده. ولی من دریل دارم. رایان می‌تونه کمک کنه — با پیچ واردِه. و با پیتزا.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Pizza and building? Good plan.",
+   "translations": {
+    "fa": "پیتزا و ساختن؟ برنامهٔ خوبیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "crash",
+      "just",
+      "kind",
+      "belt"
+     ],
+     "suggestion": "Kind? I just want my car back. Belt on. Off we go, nice and slow — and if you hear a crash, don't look back!",
+     "suggestionFa": "مهربون؟ فقط ماشینم را پس می‌خوام. کمربند ببند. راه افتادیم، آروم و آهسته — اگه صدای تق شنیدی، برنگرد نگاه کنی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

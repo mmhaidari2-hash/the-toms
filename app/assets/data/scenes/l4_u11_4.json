@@ -22,7 +22,7 @@
       "qualifications",
       "finding",
       "like",
-      "help"
+      "uses"
      ],
      "suggestion": "I'd like help finding a job that uses my qualifications.",
      "suggestionFa": "کمک می‌خوام کاری پیدا کنم که از مدارکم استفاده کنه.",
@@ -35,7 +35,7 @@
       "interviews",
       "getting",
       "applied",
-      "jobs"
+      "i've"
      ],
      "suggestion": "I've applied for lots of jobs, but I'm not getting interviews.",
      "suggestionFa": "برای کلی کار درخواست دادم، ولی مصاحبه نمی‌گیرم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "accountant",
       "years",
-      "six",
-      "was"
+      "was",
+      "six"
      ],
      "suggestion": "I was an accountant for six years.",
      "suggestionFa": "شش سال حسابدار بودم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "statement",
-      "waiting",
       "applied",
+      "waiting",
       "i've"
      ],
      "suggestion": "I've applied, but I'm waiting for the statement.",
@@ -350,10 +350,10 @@
     },
     {
      "keywords": [
-      "full",
-      "work",
       "time",
-      "part"
+      "work",
+      "part",
+      "full"
      ],
      "suggestion": "Is it full-time? I work part-time in a café.",
      "suggestionFa": "تمام‌وقته؟ پاره‌وقت تو یه کافه کار می‌کنم.",

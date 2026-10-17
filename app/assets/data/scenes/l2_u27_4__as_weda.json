@@ -1,0 +1,340 @@
+{
+ "id": "l2_u27_4__as_weda",
+ "characterId": "doris",
+ "title": "(As Nana Maggie) Nana Maggie's Freedom Pass",
+ "titleFa": "(در نقش Nana Maggie) کارت سفر رایگان ننه مگی",
+ "setting": "Bus trouble · Level 2",
+ "settingFa": "دردسرهای اتوبوس",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u27_4",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "doris",
+   "text": "Look who's here! Margaret! Sit by me, love. Is this your new lodger? Tom talks about him all the time.",
+   "translations": {
+    "fa": "ببین کی اینجاست! مارگارت! بیا پیش من بشین عزیزم. این مستأجر جدیدته؟ تام همش ازش حرف می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Hello! Yes, I'm the lodger.",
+   "translations": {
+    "fa": "سلام! بله، من مستأجرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teaching",
+      "freedom",
+      "tapped",
+      "didn't",
+      "about"
+     ],
+     "suggestion": "It is, Doris. Hello, dear. I'm teaching him about my Freedom Pass. He tapped his card and I didn't!",
+     "suggestionFa": "خودشه دوریس. سلام عزیزم. دارم بهش دربارهٔ کارت فریدم پسم یاد میدم. اون کارتش را زد و من نزدم!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Why didn't you tap, Nana Maggie?",
+   "translations": {
+    "fa": "چرا کارت نزدی ننه مگی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "doris",
+   "text": "Pensioners in London are entitled to a Freedom Pass. You travel free on buses and the Tube. Show it to the reader.",
+   "translations": {
+    "fa": "بازنشسته‌های لندن حق دارن فریدم پس داشته باشن. با اتوبوس و مترو رایگان سفر می‌کنی. نشونش بده به کارت‌خوان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pensioners",
+     "fa": "بازنشسته‌ها"
+    },
+    {
+     "word": "entitled to",
+     "fa": "حق داشتن ؛ مستحق"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "reader",
+     "fa": "کارت‌خوان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Londoners of State Pension age, and some disabled people, can travel free with a Freedom Pass. You apply through your local council.",
+    "fa": "سالمندان و برخی معلولان با فریدم پس رایگان سفر می‌کنند."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Free? On every bus?",
+   "translations": {
+    "fa": "رایگان؟ تو همهٔ اتوبوس‌ها؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pension",
+      "morning",
+      "every",
+      "years",
+      "after"
+     ],
+     "suggestion": "At pension age. I've had mine ten years. Every bus, any time. The Tube after nine in the morning.",
+     "suggestionFa": "از سن بازنشستگی. ده ساله که دارمش. هر اتوبوسی، هر ساعتی. مترو بعد از نه صبح.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Do you need to apply for it?",
+   "translations": {
+    "fa": "باید براش درخواست بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "doris",
+   "text": "You apply to the council, with a photo. And it's valid for five years. Margaret, yours runs out this year, doesn't it?",
+   "translations": {
+    "fa": "از شورا درخواست میدی، با عکس. پنج سال معتبره. مارگارت، مال تو امسال تموم میشه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "long time",
+     "fa": "مدت طولانی"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Five years. That's a long time.",
+   "translations": {
+    "fa": "پنج سال. مدت زیادیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "december",
+      "usually",
+      "reminds",
+      "george",
+      "forgot"
+     ],
+     "suggestion": "Oh! You're right. It's valid until December. I forgot. George usually reminds me. He's not well.",
+     "suggestionFa": "اوه! راست میگی. تا دسامبر معتبره. یادم رفته بود. جورج معمولاً یادم میندازه. حالش خوب نیست.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I can help you renew it online, Nana Maggie.",
+   "translations": {
+    "fa": "می‌تونم کمکت کنم آنلاین تمدیدش کنی، ننه مگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "computers",
+      "hopeless",
+      "heart's",
+      "online",
+      "would"
+     ],
+     "suggestion": "His heart's tired, dear. But he's still bossy. Online? Would you? I'm hopeless with computers.",
+     "suggestionFa": "قلبش خسته‌ست عزیزم. ولی هنوز رئیس‌بازی درمیاره. آنلاین؟ این کار را می‌کنی؟ من با کامپیوتر اصلاً خوب نیستم.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Of course. We need a new photo.",
+   "translations": {
+    "fa": "البته. یه عکس جدید لازم داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "doris",
+   "text": "A new photo! Margaret, do your hair first. Mine looks like a startled owl. Ten years I've had that face on my pass!",
+   "translations": {
+    "fa": "عکس جدید! مارگارت، اول موهات را درست کن. مال من شبیه جغد ترسیده‌ست. ده ساله این قیافه رو کارتمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "do your hair",
+     "fa": "موهایت را درست کن"
+    },
+    {
+     "word": "startled",
+     "fa": "ترسیده ؛ جاخورده"
+    },
+    {
+     "word": "owl",
+     "fa": "جغد"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Ha! I'm sure it's lovely, Doris.",
+   "translations": {
+    "fa": "ها! مطمئنم قشنگه دوریس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "terror",
+      "lovely",
+      "white",
+      "right",
+      "doris"
+     ],
+     "suggestion": "At home, with a white wall. Lovely. Doris, you're a terror. Right, dear — this is our stop. Ring the bell for an old lady!",
+     "suggestionFa": "تو خونه، با یه دیوار سفید. عالیه. دوریس، تو یه بلایی. خب عزیزم — ایستگاه ماست. برای یه خانم پیر زنگ را بزن!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

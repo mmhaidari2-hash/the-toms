@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "course",
+      "what's",
       "number"
      ],
      "suggestion": "Of course. What's the number?",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "biscuit",
-      "call",
       "i'll",
-      "poor"
+      "poor",
+      "call"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "neighbour's",
       "eating",
-      "hello",
-      "isn't"
+      "isn't",
+      "hello"
      ],
      "suggestion": "Hello. Our neighbour's cat isn't eating.",
      "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
@@ -88,7 +88,7 @@
       "looking",
       "unwell",
       "after",
-      "we're"
+      "seems"
      ],
      "suggestion": "Hi. A cat we're looking after seems unwell.",
      "suggestionFa": "سلام. گربه‌ای که ازش نگهداری می‌کنیم مریض به نظر میاد.",
@@ -193,7 +193,7 @@
       "morning",
       "once",
       "sick",
-      "she"
+      "was"
      ],
      "suggestion": "She was sick once this morning.",
      "suggestionFa": "امروز صبح یه بار استفراغ کرد.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "fine",
-      "four"
+      "four",
+      "fine"
      ],
      "suggestion": "Yes, four is fine.",
      "suggestionFa": "آره، چهار خوبه.",
@@ -390,8 +390,8 @@
      "keywords": [
       "should",
       "first",
-      "call",
-      "khan"
+      "khan",
+      "call"
      ],
      "suggestion": "OK. Should we call Mrs Khan first?",
      "suggestionFa": "باشه. اول به خانم خان زنگ بزنیم؟",

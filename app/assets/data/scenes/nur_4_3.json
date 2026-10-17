@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "did",
       "cry",
-      "he",
-      "ok"
+      "did",
+      "ok",
+      "he"
      ],
      "suggestion": "Is he OK? Did he cry?",
      "suggestionFa": "خوبه؟ گریه کرد؟",
@@ -122,7 +122,7 @@
       "minutes",
       "small",
       "right",
-      "mark"
+      "knee"
      ],
      "suggestion": "\"Small red mark, right knee. Cold pack for five minutes.\"",
      "suggestionFa": "«علامت قرمز کوچک، زانوی راست. پنج دقیقه کیسهٔ سرد.»",
@@ -134,8 +134,8 @@
      "keywords": [
       "should",
       "write",
-      "who",
-      "saw"
+      "saw",
+      "who"
      ],
      "suggestion": "Should we write who saw it?",
      "suggestionFa": "بنویسیم کی دیدش؟",
@@ -195,8 +195,8 @@
      "keywords": [
       "call",
       "dad",
-      "his",
-      "now"
+      "now",
+      "his"
      ],
      "suggestion": "Do we call his dad now?",
      "suggestionFa": "الان به باباش زنگ بزنیم؟",
@@ -240,8 +240,8 @@
     {
      "keywords": [
       "here's",
-      "don't",
       "small",
+      "don't",
       "worry"
      ],
      "suggestion": "Don't worry, it's just a small bump. Here's the form.",
@@ -272,8 +272,8 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "date",
+      "here",
       "just"
      ],
      "suggestion": "Just here, please, and the date.",
@@ -285,9 +285,9 @@
     {
      "keywords": [
       "bottom",
-      "copy",
+      "have",
       "sign",
-      "have"
+      "copy"
      ],
      "suggestion": "Sign at the bottom, please. You can have a copy.",
      "suggestionFa": "لطفاً پایینش امضا کنید. یه نسخه هم می‌تونید داشته باشید.",

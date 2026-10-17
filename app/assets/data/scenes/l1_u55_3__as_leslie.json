@@ -24,8 +24,8 @@
       "family",
       "about",
       "toast",
-      "made",
-      "some"
+      "some",
+      "just"
      ],
      "suggestion": "Come and sit down. I've just made some toast. So, tell me about your family back home.",
      "suggestionFa": "بیا بشین. تازه نون تست درست کردم. خب، از خانواده‌ات تو ایران بگو.",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "tehran",
-      "live",
+      "lovely",
       "they",
+      "live",
       "all"
      ],
      "suggestion": "Lovely. Do they all live in Tehran?",
@@ -73,8 +73,8 @@
      "keywords": [
       "feeling",
       "sister",
-      "lives",
       "leeds",
+      "lives",
       "know"
      ],
      "suggestion": "My sister lives in Leeds, so I know the feeling. What does your dad do?",
@@ -119,8 +119,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "maggie",
+      "family",
       "every",
       "house",
       "nana"
@@ -144,11 +144,11 @@
    "branches": [
     {
      "keywords": [
-      "photos",
       "course",
-      "love",
+      "photos",
+      "have",
       "them",
-      "have"
+      "love"
      ],
      "suggestion": "Of course you do. Have you got any photos? I'd love to see them.",
      "suggestionFa": "معلومه. عکس داری؟ دوست دارم ببینم.",
@@ -172,8 +172,8 @@
       "gorgeous",
       "roses",
       "those",
-      "like",
-      "just"
+      "just",
+      "like"
      ],
      "suggestion": "Oh, how gorgeous! Look at those roses! You look just like your mum, you know.",
      "suggestionFa": "وای، چه قشنگ! اون گل‌های رز را ببین! می‌دونی، خیلی شبیه مامانتی.",
@@ -196,9 +196,9 @@
      "keywords": [
       "kitchen",
       "welcome",
-      "family",
       "sunday",
-      "next"
+      "family",
+      "well"
      ],
      "suggestion": "Well, you're welcome here any time. You're part of the family now. Next Sunday, call them from our kitchen!",
      "suggestionFa": "خب، هر وقت بخوای اینجا قدمت روی چشمه. حالا دیگه جزو خانواده‌ای. یکشنبهٔ بعد از آشپزخونهٔ ما بهشون زنگ بزن!",

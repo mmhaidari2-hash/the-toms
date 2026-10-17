@@ -22,7 +22,7 @@
       "there",
       "said",
       "was",
-      "he"
+      "ha"
      ],
      "suggestion": "Ha! I was there. He said it!",
      "suggestionFa": "ها! من اونجا بودم. گفتش!",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "say",
       "did",
-      "tom"
+      "tom",
+      "say"
      ],
      "suggestion": "What did Tom say?",
      "suggestionFa": "تام چی گفت؟",
@@ -79,8 +79,8 @@
     },
     {
      "keywords": [
-      "silly",
       "being",
+      "silly",
       "was",
       "he"
      ],
@@ -272,8 +272,8 @@
      "keywords": [
       "they're",
       "knows",
-      "he",
-      "ha"
+      "ha",
+      "he"
      ],
      "suggestion": "Ha! He knows they're funny!",
      "suggestionFa": "ها! می‌دونه بامزه‌ان!",

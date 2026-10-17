@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "they",
       "wait",
       "call",
+      "they",
       "did"
      ],
      "suggestion": "Wait — did they call you, or did you call them?",
@@ -76,7 +76,7 @@
       "classic",
       "that's",
       "scam",
-      "now"
+      "tom"
      ],
      "suggestion": "That's a classic scam, Tom. Hang up now.",
      "suggestionFa": "این یه کلاهبرداری کلاسیکه تام. همین الان قطع کن.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "pressure",
+      "signs",
       "fraud",
-      "panic",
-      "signs"
+      "panic"
      ],
      "suggestion": "Yes. Pressure and panic are signs of fraud.",
      "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
@@ -142,8 +142,8 @@
      "keywords": [
       "comfortable",
       "directly",
-      "call",
-      "i'll"
+      "i'll",
+      "call"
      ],
      "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
      "suggestionFa": "بهش بگو: «راحت نیستم. مستقیم به بانکم زنگ می‌زنم.»",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "number",
-      "card",
-      "back"
+      "back",
+      "card"
      ],
      "suggestion": "Call the number on the back of your card.",
      "suggestionFa": "به شمارهٔ پشت کارتت زنگ بزن.",
@@ -242,8 +242,8 @@
     {
      "keywords": [
       "suspicious",
-      "friend",
       "asking",
+      "friend",
       "money"
      ],
      "suggestion": "My friend just had a suspicious call asking him to move money.",
@@ -254,10 +254,10 @@
     },
     {
      "keywords": [
-      "claiming",
       "barclays",
+      "claiming",
       "report",
-      "like"
+      "scam"
      ],
      "suggestion": "We'd like to report a scam call claiming to be from Barclays.",
      "suggestionFa": "می‌خوایم یه تماس کلاهبرداری به اسم بارکلیز گزارش بدیم.",
@@ -305,7 +305,7 @@
       "stopped",
       "before",
       "birth",
-      "date"
+      "gave"
      ],
      "suggestion": "He gave his date of birth before I stopped him.",
      "suggestionFa": "قبل از اینکه جلوش را بگیرم تاریخ تولدش را داد.",
@@ -335,8 +335,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "action",
+      "what's",
       "fraud"
      ],
      "suggestion": "What's Action Fraud?",
@@ -350,7 +350,7 @@
       "password",
       "banking",
       "change",
-      "should"
+      "online"
      ],
      "suggestion": "Should he change his online banking password?",
      "suggestionFa": "باید رمز بانکداری آنلاینش را عوض کنه؟",
@@ -402,9 +402,9 @@
     {
      "keywords": [
       "targeted",
-      "maggie",
       "george",
-      "people"
+      "people",
+      "maggie"
      ],
      "suggestion": "I'll warn George and Maggie too — older people are often targeted.",
      "suggestionFa": "به جورج و مگی هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.",

@@ -1,0 +1,125 @@
+## U120 | Joining the gym | عضویت در باشگاه | gym | Compare memberships, do an induction, book a class and cancel politely | عضویت‌ها را مقایسه کنی، جلسهٔ آشنایی بگذرانی، کلاس رزرو کنی و مؤدبانه لغو کنی
+
+# l2_u32_1 | jade | Membership options | انواع عضویت | What's included? / Is there a joining fee? / off-peak / Can I cancel any time? | چه چیزهایی شامل است؟ / هزینهٔ ثبت‌نام دارد؟ / ساعات خلوت / هر وقت می‌شود لغو کرد؟ | gym
+jade: Hiya! Welcome to Hackney Fitness! I'm Jade. Are you thinking of joining? We've got a great offer this month! | سلام! به هاکنی فیتنس خوش اومدی! من جِید هستم. به عضویت فکر می‌کنی؟ این ماه یه پیشنهاد عالی داریم!
+> Yes. How much is it per month? | آره. ماهی چنده؟
+> Maybe. What's included? | شاید. چه چیزهایی شامل میشه؟
+W: joining=عضو شدن ; offer=پیشنهاد ویژه ; per month=ماهانه ; included=شامل
+jade: Two options. Peak is £29.99 — any time, all classes. Off-peak is £19.99 — before four and after eight. | دو تا گزینه. ساعات شلوغ بیست و نه و نود و نه — هر ساعتی، همهٔ کلاس‌ها. ساعات خلوت نوزده و نود و نه — قبل از چهار و بعد از هشت.
+> What does off-peak mean? | «آف‌پیک» یعنی چی؟
+> I work in the day. Peak is better for me. | من روزها کار می‌کنم. ساعات شلوغ برام بهتره.
+W: peak=ساعات اوج ؛ شلوغ ; off-peak=ساعات خلوت ; classes=کلاس‌ها ; before=قبل از
+C: "Off-peak" means the quieter, cheaper times. You'll hear it for gyms, trains and electricity too. | «off-peak» یعنی ساعات خلوت و ارزان‌تر.
+jade: Off-peak means quiet times. Cheaper, but you can't come from four to eight. That's when everyone comes after work. | آف‌پیک یعنی ساعات خلوت. ارزون‌تر، ولی از چهار تا هشت نمی‌تونی بیای. اون موقع همه بعد از کار میان.
+> Is there a joining fee? | هزینهٔ ثبت‌نام داره؟
+> Can I come in the morning, before work? | می‌تونم صبح، قبل از کار بیام؟
+W: quiet=خلوت ؛ آرام ; cheaper=ارزان‌تر ; between=بین ; evening=عصر
+X: there is a joining fee? ; is joining fee? => A joining fee? Not this month! | Is there a joining fee? | هزینهٔ ثبت‌نام دارد؟
+jade: Normally twenty pounds, but this month it's free! And we open at six a.m. Early birds love it — it's dead quiet. | معمولاً بیست پوند، ولی این ماه رایگانه! ساعت شش صبح هم باز می‌کنیم. سحرخیزها عاشقشن — خیلی خلوته.
+> Six a.m.? That's very early! | شش صبح؟ خیلی زوده!
+> Free? Great. Can I cancel any time? | رایگان؟ عالیه. هر وقت بخوام می‌تونم لغو کنم؟
+W: normally=معمولاً ; early birds=سحرخیزها ; dead quiet=خیلی خلوت ; cancel=لغو کردن
+jade: Yes — no contract. One month's notice, that's it. Some gyms make you sign for a year, but not us. | آره — بدون قرارداد. یه ماه اطلاع قبلی، همین. بعضی باشگاه‌ها مجبورت می‌کنن یه ساله امضا کنی، ولی ما نه.
+> One month's notice. That's fair. | یه ماه اطلاع قبلی. منصفانه‌ست.
+> Is there a swimming pool? | استخر داره؟
+W: contract=قرارداد ; notice=اطلاع قبلی ; sign=امضا کردن ; fair=منصفانه
+jade: No pool, sorry — that's the leisure centre on the high street. But we've got a sauna! And free towels. | استخر نه، ببخشید — اون مرکز تفریحی تو خیابون اصلیه. ولی سونا داریم! حوله هم رایگانه.
+> A sauna! I'll take the peak membership. | سونا! عضویت ساعات شلوغ را می‌گیرم.
+> Can I try it first? A day pass? | میشه اول امتحانش کنم؟ بلیت یه‌روزه؟
+W: pool=استخر ; leisure centre=مرکز تفریحی ورزشی ; sauna=سونا ; towels=حوله‌ها
+jade: Brilliant! I'll book your free induction. Bring trainers and water. Tom's a member too, you know. He comes… sometimes. | انتخاب عالی! جلسهٔ آشنایی رایگانت را رزرو می‌کنم. کتونی و بطری آب بیار. تام هم عضوه، می‌دونستی؟ میاد… گاهی.
+
+# l2_u32_2 | jade | The induction | جلسهٔ آشنایی | Make sure you… / Don't forget to… / How many…? / Is this right? | حتماً … / یادت نرود … / چند تا؟ / درست است؟ | gym
+jade: Morning! Ready for your induction? I'll show you the machines, so you don't hurt yourself. Did you bring water? | صبح بخیر! برای جلسهٔ آشنایی آماده‌ای؟ دستگاه‌ها را نشونت میدم که به خودت آسیب نزنی. آب آوردی؟
+> Yes, and a towel. Where do we start? | آره، و حوله. از کجا شروع کنیم؟
+> I'm ready. I'm a bit unfit! | آماده‌ام. یه‌کم آمادگی جسمانی ندارم!
+W: induction=جلسهٔ آشنایی ; machines=دستگاه‌ها ; hurt=آسیب زدن ; unfit=بدون آمادگی جسمانی
+jade: Everyone starts somewhere! First, the treadmill. Press "Quick start", then use the arrows. Make sure you clip this to your shirt. | همه از یه جایی شروع می‌کنن! اول، تردمیل. «شروع سریع» را بزن، بعد از فلش‌ها استفاده کن. حتماً اینو به لباست گیره کن.
+> What's this clip for? | این گیره برای چیه؟
+> Make sure I clip it. OK! | حتماً گیره‌اش کنم. باشه!
+W: treadmill=تردمیل ; arrows=فلش‌ها ; make sure=حتماً ؛ مطمئن شو ; clip=گیره کردن
+jade: It's the safety key. If you fall, it pulls out and the machine stops. Saves your face! Start slow — walking speed. | کلید ایمنیه. اگه بیفتی، کنده میشه و دستگاه می‌ایسته. صورتت را نجات میده! آروم شروع کن — سرعت پیاده‌روی.
+> Is this speed right? | این سرعت درسته؟
+> Walking is easy. Can I run? | راه رفتن آسونه. می‌تونم بدوم؟
+W: safety key=کلید ایمنی ; fall=افتادن ; pulls out=کنده می‌شود ; speed=سرعت
+X: this speed is right? ; is right this speed => Is this speed right? Perfect. | Is this speed right? | این سرعت درست است؟
+jade: Perfect. Now the weights. Don't forget to wipe the machine after you use it. The spray's on the wall. It's gym manners! | عالیه. حالا وزنه‌ها. یادت نره بعد از استفاده دستگاه را تمیز کنی. اسپری رو دیواره. ادب باشگاهه!
+> Gym manners? What else? | ادب باشگاه؟ دیگه چی؟
+> I'll wipe it. Every time. | تمیزش می‌کنم. هر بار.
+W: weights=وزنه‌ها ; wipe=پاک کردن ؛ دستمال کشیدن ; spray=اسپری ; manners=آداب
+C: Gym etiquette in the UK: wipe machines after use, put weights back, and don't sit on a machine looking at your phone. | آداب باشگاه: تمیز کردن دستگاه، برگرداندن وزنه‌ها، و استفادهٔ طولانی از گوشی روی دستگاه نه.
+jade: Put the weights back on the rack. And don't sit on a machine scrolling your phone for ten minutes. People hate that. | وزنه‌ها را برگردون سر جاش. و ده دقیقه رو یه دستگاه نشین و گوشیت را بالا پایین نکن. مردم از این متنفرن.
+> That's fair. How many times should I lift? | منصفانه‌ست. چند بار بلند کنم؟
+> Can I share a machine with someone? | می‌تونم دستگاه را با کسی شریکی استفاده کنم؟
+W: rack=قفسهٔ وزنه ; scrolling=بالا پایین کردن صفحه ; hate=متنفر بودن ; lift=بلند کردن
+jade: Three sets of ten. Light weight first. Let me see… back straight, slowly… lovely. How does that feel? | سه ست ده‌تایی. اول وزنهٔ سبک. بذار ببینم… کمر صاف، آروم… عالیه. چه حسی داره؟
+> It's OK. I can do more! | خوبه. می‌تونم بیشتر بزنم!
+> Ouch. My arms are shaking! | آخ. دستام داره می‌لرزه!
+W: sets=ست‌ها ; light=سبک ; straight=صاف ; shaking=لرزیدن
+jade: Shaking is normal on day one! Tomorrow you'll ache. That's good — it means it's working. Drink lots of water tonight. | لرزیدن روز اول عادیه! فردا بدنت درد می‌گیره. این خوبه — یعنی داره جواب میده. امشب کلی آب بخور.
+> How often should I come? | چند وقت یک بار بیام؟
+> Thank you, Jade. That was really useful. | ممنون جِید. واقعاً مفید بود.
+W: normal=عادی ; ache=درد گرفتن (عضلانی) ; working=جواب دادن ; useful=مفید
+jade: Three times a week is perfect. And come to a class — it's more fun with music. See you Thursday? I'll be watching! | هفته‌ای سه بار عالیه. یه کلاس هم بیا — با موسیقی بیشتر خوش می‌گذره. پنج‌شنبه می‌بینمت؟ حواسم بهت هست!
+
+# l2_u32_3 | tom | Booking a class | رزرو کلاس | Shall we…? / It's fully booked / There's a waiting list / I'd rather… | بیاییم … ؟ / کاملاً پر است / فهرست انتظار هست / ترجیح می‌دهم | gym
+tom: Right, you and me. A class. Doctor says I need to get fit. Shall we book spin on Thursday? Or boxercise? | خب، تو و من. یه کلاس. دکتر میگه باید رو فرم بیام. پنج‌شنبه کلاس دوچرخه رزرو کنیم؟ یا بوکسرسایز؟
+> What's spin? | «اسپین» چیه؟
+> Boxercise sounds fun. Let's book that. | بوکسرسایز جالب به نظر میاد. همونو رزرو کنیم.
+W: get fit=روی فرم آمدن ; spin=کلاس دوچرخهٔ ثابت ; boxercise=ورزش بوکس هوازی ; book=رزرو کردن
+tom: Spin is cycling on bikes that don't move, with loud music and someone shouting. Very popular. Let me look on the app… | اسپین یعنی رکاب زدن رو دوچرخه‌هایی که حرکت نمی‌کنن، با موسیقی بلند و یکی که داد می‌زنه. خیلی محبوبه. بذار تو اپ ببینم…
+> Shouting? Why? | داد زدن؟ چرا؟
+> Is there space in the class? | تو کلاس جا هست؟
+W: cycling=دوچرخه‌سواری ; bikes=دوچرخه‌ها ; shouting=داد زدن ; popular=محبوب
+C: UK gyms usually need you to book classes on their app. Popular classes fill up fast, and some charge if you don't turn up. | باشگاه‌ها معمولاً رزرو کلاس از طریق اپ را لازم می‌دانند.
+tom: To motivate you! Oh — spin is fully booked. "Join waiting list?" There are six people on it. Boxercise has two spaces. | برای انگیزه دادن! اوه — اسپین کاملاً پره. «به فهرست انتظار بپیوندید؟» شش نفر توشن. بوکسرسایز دو تا جا داره.
+> Let's book boxercise, then. Two spaces! | پس بوکسرسایز رزرو کنیم. دو تا جا!
+> Six people? We won't get in. | شش نفر؟ جا گیرمون نمیاد.
+W: motivate=انگیزه دادن ; fully booked=کاملاً پر ; waiting list=فهرست انتظار ; spaces=جاها
+X: there is two spaces ; there are two space => There are two spaces? Book them! | There are two spaces. | دو جا خالی هست.
+tom: Booked! Thursday, seven p.m. Boxercise with… Jade. Oh no. Jade is very… energetic. Last time I nearly died. | رزرو شد! پنج‌شنبه، هفت عصر. بوکسرسایز با… جِید. ای وای. جِید خیلی… پرانرژیه. دفعهٔ قبل نزدیک بود بمیرم.
+> Ha! Maybe we should do yoga instead. | ها! شاید به‌جاش یوگا بریم.
+> You'll be fine, Tom. I'll be there. | خوب میشی تام. من اونجام.
+W: energetic=پرانرژی ; nearly=تقریباً ؛ نزدیک بود ; died=مرد ; instead=به‌جای آن
+tom: Yoga? I'd rather die boxing than fall asleep on a mat. Last time I did yoga, I snored. Leslie filmed it. | یوگا؟ ترجیح میدم موقع بوکس بمیرم تا اینکه رو تشک خوابم ببره. دفعهٔ آخر که یوگا رفتم، خروپف کردم. لزلی ازش فیلم گرفت.
+> You snored in yoga? That's brilliant! | تو یوگا خروپف کردی؟ عالیه!
+> I'd rather do boxing too. | منم بوکس را ترجیح میدم.
+W: I'd rather=ترجیح می‌دهم ; mat=تشک ; snored=خروپف کرد ; filmed=فیلم گرفت
+tom: It's on Leslie's phone forever. Now — what do we need? Gloves are free at the gym. Bring a towel. And no big dinner before! | تا ابد رو گوشی لزلیه. خب — چی لازم داریم؟ دستکش تو باشگاه رایگانه. حوله بیار. و قبلش شام سنگین نخور!
+> Why no big dinner? | چرا شام سنگین نه؟
+> What if we can't come on Thursday? | اگه پنج‌شنبه نتونستیم بیایم چی؟
+W: forever=برای همیشه ; gloves=دستکش‌ها ; towel=حوله ; dinner=شام
+tom: Cancel on the app before midday, or they charge £5. And no big dinner because… trust me. Boxercise. Jumping. Curry. No. | قبل از ظهر تو اپ لغو کن، وگرنه پنج پوند ازت می‌گیرن. و شام سنگین نه چون… باور کن. بوکسرسایز. پریدن. کاری. نه.
+> Got it. No curry before class! | فهمیدم. قبل از کلاس کاری نه!
+> Before midday. I'll set a reminder. | قبل از ظهر. یادآور می‌ذارم.
+W: midday=ظهر ; charge=هزینه گرفتن ; jumping=پریدن ; reminder=یادآور
+tom: Good man. Thursday, seven. If I don't survive, tell Leslie I love her. And tell Ryan he can't have my car. | آفرین. پنج‌شنبه، هفت. اگه زنده نموندم، به لزلی بگو دوستش دارم. و به رایان بگو ماشینم مال اون نمیشه.
+
+# l2_u32_4 | jade | Cancelling politely | لغو مؤدبانه | I'm afraid I'd like to… / I'm moving / It's not you, it's… / Could I freeze…? | متأسفانه می‌خواهم … / دارم اسباب‌کشی می‌کنم / تقصیر شما نیست / می‌شود تعلیق کنم؟ | gym
+jade: Hiya! You don't look like you're here for a workout. In your coat, at the desk… Is everything OK? | سلام! به نظر نمیاد برای ورزش اومده باشی. با کت، دم میز… همه‌چی خوبه؟
+> I'm afraid I'd like to cancel my membership. | متأسفانه می‌خوام عضویتم را لغو کنم.
+> Hi Jade. I need to talk about my membership. | سلام جِید. باید دربارهٔ عضویتم صحبت کنم.
+W: workout=تمرین ورزشی ; coat=کت ؛ پالتو ; I'm afraid=متأسفانه ; membership=عضویت
+jade: Oh no! You've been doing so well. Can I ask why? It's OK — honest feedback helps us. | ای وای! خیلی خوب پیش می‌رفتی. می‌تونم بپرسم چرا؟ اشکالی نداره — بازخورد صادقانه بهمون کمک می‌کنه.
+> I've got a new job. The hours are very long. | یه کار جدید گرفتم. ساعت‌هاش خیلی طولانیه.
+> Money is tight this month. | این ماه وضع مالیم تنگه.
+W: doing well=خوب پیش رفتن ; feedback=بازخورد ; hours=ساعت‌ها ; tight=تنگ ؛ محدود
+X: i have new job with long hour ; i got the new job => You've got a new job? Congratulations! | I've got a new job. | یک کار جدید گرفته‌ام.
+C: When you cancel politely in English, you soften it: "I'm afraid…", "Unfortunately…", "It's nothing to do with you…". | برای لغو مؤدبانه از عبارات نرم‌کننده استفاده کنید.
+jade: Congratulations! Honestly. It's not about the gym, then? Not the music? The smell of the changing rooms? | تبریک میگم! واقعاً. پس مشکل از باشگاه نیست؟ موسیقی نیست؟ بوی رختکن نیست؟
+> No, no! It's not you, it's my timetable. | نه، نه! تقصیر شما نیست، برنامهٔ زمانیمه.
+> Well… the music is a bit loud! | خب… موسیقی یه‌کم بلنده!
+W: congratulations=تبریک ; honestly=واقعاً ؛ صادقانه ; changing rooms=رختکن ; timetable=برنامهٔ زمانی
+jade: Ha! Everyone says that. Before you cancel — did you know you can freeze your membership? Up to three months, £5 a month. | ها! همه همینو میگن. باشه — قبل از لغو، می‌دونستی می‌تونی عضویتت را تعلیق کنی؟ تا سه ماه، ماهی پنج پوند.
+> Could I freeze it for two months? | می‌تونم دو ماه تعلیقش کنم؟
+> What does "freeze" mean? | «فریز» یعنی چی؟
+W: freeze=تعلیق کردن ؛ منجمد کردن ; up to=تا ; per month=ماهانه
+jade: Freeze means you pause it. You keep your price — prices go up in January. When your new job settles down, you come back. | تعلیق یعنی متوقفش می‌کنی. قیمتت حفظ میشه — قیمت‌ها ژانویه بالا میره. وقتی کار جدیدت جا افتاد، برمی‌گردی.
+> That's a good idea. Let's freeze it. | فکر خوبیه. تعلیقش کنیم.
+> No, thank you. I'd rather cancel. | نه، ممنون. ترجیح میدم لغو کنم.
+W: pause=متوقف کردن موقت ; keep=حفظ کردن ; go up=بالا رفتن ; settles down=جا می‌افتد
+jade: No pressure. I've done it. Frozen until the first of January. I'll send you an email. And Tom? Is he freezing too? | بدون اجبار. انجامش دادم. تعلیق تا اول ژانویه. یه ایمیل برات می‌فرستم. تام چی؟ اونم تعلیق می‌کنه؟
+> Tom? He hasn't come for weeks! | تام؟ چند هفته‌ست نیومده!
+> I think Tom wants to keep coming. | فکر کنم تام می‌خواد ادامه بده.
+W: pressure=فشار ؛ اجبار ; frozen=تعلیق‌شده ; email=ایمیل ; weeks=هفته‌ها
+jade: I knew it! Tell him boxercise misses him. And you — you're always welcome. Good luck with the new job. See you in January! | می‌دونستم! بهش بگو بوکسرسایز دلش براش تنگ شده. و تو — همیشه خوش اومدی. با کار جدید موفق باشی. ژانویه می‌بینمت!

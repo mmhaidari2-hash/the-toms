@@ -1,0 +1,348 @@
+{
+ "id": "l2_u28_3",
+ "characterId": "arthur",
+ "title": "Returning an online order",
+ "titleFa": "پس فرستادن سفارش آنلاین",
+ "setting": "At the post office · Level 2",
+ "settingFa": "در اداره پست",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Hello again! Another parcel? Sending, or returning? We get lots of returns on Mondays.",
+   "translations": {
+    "fa": "دوباره سلام! یه بستهٔ دیگه؟ فرستادن یا پس دادن؟ دوشنبه‌ها کلی مرجوعی داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "returning",
+      "trainers",
+      "small",
+      "these"
+     ],
+     "suggestion": "Returning. These trainers are too small.",
+     "suggestionFa": "پس دادن. این کتونی‌ها خیلی کوچیکن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "return",
+      "code",
+      "i've",
+      "need"
+     ],
+     "suggestion": "I need to return this. I've got a QR code.",
+     "suggestionFa": "باید اینو پس بفرستم. کیوآرکد دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "returning",
+     "fa": "پس دادن"
+    },
+    {
+     "word": "returns",
+     "fa": "مرجوعی‌ها"
+    },
+    {
+     "word": "trainers",
+     "fa": "کتونی‌ها"
+    },
+    {
+     "word": "QR code",
+     "fa": "کیوآرکد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Perfect. Is the return prepaid? It should say on the website. Free returns or paid?",
+   "translations": {
+    "fa": "عالیه. مرجوعی پیش‌پرداخته؟ باید رو سایت نوشته باشه. مرجوعی رایگان یا پولی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "returns",
+      "says",
+      "free"
+     ],
+     "suggestion": "It says \"free returns\".",
+     "suggestionFa": "نوشته «مرجوعی رایگان».",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "prepaid",
+      "mean"
+     ],
+     "suggestion": "What does \"prepaid\" mean?",
+     "suggestionFa": "«پیش‌پرداخت» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prepaid",
+     "fa": "پیش‌پرداخت‌شده"
+    },
+    {
+     "word": "website",
+     "fa": "وب‌سایت"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "paid",
+     "fa": "پولی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many online shops give free returns. You get a QR code or a label. The post office scans it — you often don't need a printer.",
+    "fa": "بسیاری از فروشگاه‌ها مرجوعی رایگان دارند و کیوآرکد می‌دهند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Free — lovely. Show me the QR code and I'll scan it. The label prints here. No printer needed.",
+   "translations": {
+    "fa": "رایگان — عالیه. کیوآرکد را نشونم بده تا اسکنش کنم. برچسب همین‌جا چاپ میشه. چاپگر لازم نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "print",
+      "need"
+     ],
+     "suggestion": "Do I need to print anything?",
+     "suggestionFa": "لازمه چیزی چاپ کنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "phone",
+      "code"
+     ],
+     "suggestion": "Here's the code on my phone.",
+     "suggestionFa": "این کد رو گوشیمه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    },
+    {
+     "word": "label",
+     "fa": "برچسب"
+    },
+    {
+     "word": "prints",
+     "fa": "چاپ می‌شود"
+    },
+    {
+     "word": "printer",
+     "fa": "چاپگر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i need print something",
+      "do i need printing"
+     ],
+     "echo": "Do you need to print? No!",
+     "better": "Do I need to print anything?",
+     "betterFa": "لازم است چیزی چاپ کنم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "No, it's all done. Is the parcel sealed? Hmm — the tape's coming off. Let me add a bit more.",
+   "translations": {
+    "fa": "نه، همه‌ش انجام شد. بسته چسب خورده؟ هوم — چسبش داره کنده میشه. بذار یه‌کم بیشتر بزنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "used",
+      "old",
+      "box"
+     ],
+     "suggestion": "Thanks. I used the old box.",
+     "suggestionFa": "ممنون. از جعبهٔ قدیمی استفاده کردم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "strong",
+      "sorry",
+      "have"
+     ],
+     "suggestion": "Sorry! I didn't have strong tape.",
+     "suggestionFa": "ببخشید! چسب محکم نداشتم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sealed",
+     "fa": "بسته‌شده ؛ چسب‌خورده"
+    },
+    {
+     "word": "tape",
+     "fa": "چسب"
+    },
+    {
+     "word": "coming off",
+     "fa": "کنده شدن"
+    },
+    {
+     "word": "old box",
+     "fa": "جعبهٔ قدیمی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "The old box is perfect. Here's your proof of postage. Keep it until you get your refund.",
+   "translations": {
+    "fa": "جعبهٔ قدیمی عالیه. این رسید ارسالته. تا پولت را پس نگرفتی نگهش دار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "postage",
+      "what's",
+      "proof"
+     ],
+     "suggestion": "What's proof of postage?",
+     "suggestionFa": "رسید ارسال چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "until",
+      "money",
+      "back",
+      "long"
+     ],
+     "suggestion": "How long until I get my money back?",
+     "suggestionFa": "چقدر طول می‌کشه پولم برگرده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "proof of postage",
+     "fa": "رسید ارسال"
+    },
+    {
+     "word": "refund",
+     "fa": "بازپرداخت"
+    },
+    {
+     "word": "money back",
+     "fa": "پول برگشتی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "It shows you sent it. If the shop says \"we never got it\", you show them this. Usually the refund takes five to ten days.",
+   "translations": {
+    "fa": "نشون میده فرستادیش. اگه فروشگاه گفت «هیچ‌وقت نگرفتیم»، اینو نشونشون میدی. معمولاً بازپرداخت پنج تا ده روز طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "receipt",
+      "keep",
+      "i'll",
+      "days"
+     ],
+     "suggestion": "Ten days? I'll keep the receipt.",
+     "suggestionFa": "ده روز؟ رسید را نگه می‌دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "parcels",
+      "shops",
+      "idea",
+      "lose"
+     ],
+     "suggestion": "Good idea. Shops can lose parcels!",
+     "suggestionFa": "فکر خوبیه. فروشگاه‌ها ممکنه بسته گم کنن!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shows",
+     "fa": "نشان می‌دهد"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "They can, and they do. Pop it on the shelf behind you for me. Next! Oh — and buy bigger trainers next time!",
+   "translations": {
+    "fa": "می‌تونن، و این کار را می‌کنن. بذارش رو قفسهٔ پشت سرت. نفر بعد! اوه — دفعهٔ بعد کتونی بزرگ‌تر بخر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

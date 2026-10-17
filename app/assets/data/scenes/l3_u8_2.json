@@ -76,7 +76,7 @@
       "worried",
       "that's",
       "about",
-      "tom"
+      "was"
      ],
      "suggestion": "Yes, that's the one that Tom was worried about.",
      "suggestionFa": "آره، همونیه که تام نگرانش بود.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "person",
-      "knows",
       "tom's",
+      "knows",
       "sure"
      ],
      "suggestion": "I'm not sure. Tom's the person who knows.",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "floor",
       "where",
+      "floor",
       "pipe",
       "wet"
      ],
@@ -195,8 +195,8 @@
      "keywords": [
       "roughly",
       "much",
-      "will",
-      "cost"
+      "cost",
+      "will"
      ],
      "suggestion": "How much will it cost, roughly?",
      "suggestionFa": "تقریباً چقدر میشه؟",

@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "polite",
       "people",
+      "polite",
       "that's",
       "first"
      ],
@@ -186,8 +186,8 @@
      "keywords": [
       "carriage",
       "what's",
-      "down",
-      "move"
+      "move",
+      "down"
      ],
      "suggestion": "Move down. What's a carriage?",
      "suggestionFa": "برو جلو. «کریج» چیه؟",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "always",
-      "stand",
+      "sorry",
       "doors",
-      "sorry"
+      "stand"
      ],
      "suggestion": "I always stand by the doors. Sorry!",
      "suggestionFa": "من همیشه کنار در وایمیستم. ببخشید!",
@@ -234,8 +234,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "nobody",
+      "really",
       "talks"
      ],
      "suggestion": "Really? Nobody talks?",
@@ -294,9 +294,9 @@
     },
     {
      "keywords": [
+      "i'll",
       "read",
       "book",
-      "i'll",
       "ok"
      ],
      "suggestion": "OK. I'll read my book.",

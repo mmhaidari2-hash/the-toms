@@ -1,0 +1,439 @@
+{
+ "id": "l2_u31_4__as_nicola",
+ "characterId": "leslie",
+ "title": "(As Nicola) Nicola's first dentist visit",
+ "titleFa": "(در نقش Nicola) اولین مراجعهٔ نیکولا به دندانپزشک",
+ "setting": "At the dentist · Level 2",
+ "settingFa": "در دندانپزشکی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u31_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "leslie",
+   "text": "Thank you for coming with us. Nicola's very excited and a tiny bit scared. Her first proper check-up!",
+   "translations": {
+    "fa": "ممنون که باهامون اومدی. نیکولا خیلی هیجان‌زده‌ست و یه ذره ترسیده. اولین معاینهٔ واقعیش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "excited",
+     "fa": "هیجان‌زده"
+    },
+    {
+     "word": "tiny bit",
+     "fa": "یه ذره"
+    },
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    },
+    {
+     "word": "proper",
+     "fa": "واقعی ؛ درست"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Hi Nicola! Are you excited?",
+   "translations": {
+    "fa": "سلام نیکولا! هیجان‌زده‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dentist",
+      "teeth",
+      "freya",
+      "said",
+      "will"
+     ],
+     "suggestion": "Will the dentist pull my teeth out? Freya said they pull your teeth out!",
+     "suggestionFa": "دندانپزشک دندونام را می‌کشه؟ فریا گفت دندونات را می‌کشن!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No! The dentist just counts your teeth.",
+   "translations": {
+    "fa": "نه! دندانپزشک فقط دندون‌هات را می‌شمره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "hughes",
+   "text": "Hello, Nicola! I'm Mrs Hughes. Do you want to ride on my magic chair? It goes up and down.",
+   "translations": {
+    "fa": "سلام نیکولا! من خانم هیوز هستم. می‌خوای سوار صندلی جادوییم بشی؟ بالا و پایین میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Look, Nicola! A magic chair!",
+   "translations": {
+    "fa": "ببین نیکولا! یه صندلی جادویی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "chair",
+      "magic",
+      "high",
+      "can"
+     ],
+     "suggestion": "A magic chair? Can it go really high?",
+     "suggestionFa": "صندلی جادویی؟ می‌تونه خیلی بالا بره؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Go on, Nicola. Sit on the magic chair!",
+   "translations": {
+    "fa": "برو نیکولا. رو صندلی جادویی بشین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "hughes",
+   "text": "Whee! Now, can you open your mouth like a lion? Big roar! Let's count your teeth together. One, two, three…",
+   "translations": {
+    "fa": "ویی! حالا، می‌تونی مثل شیر دهنت را باز کنی؟ غرش بزرگ! بیا با هم دندون‌هات را بشمریم. یک، دو، سه…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mouth",
+     "fa": "دهان"
+    },
+    {
+     "word": "lion",
+     "fa": "شیر (حیوان)"
+    },
+    {
+     "word": "roar",
+     "fa": "غرش"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Let's count, Nicola! Four, five, six…",
+   "translations": {
+    "fa": "بیا بشمریم نیکولا! چهار، پنج، شش…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "hughes",
+   "text": "Twenty teeth — and one is wobbly! Look, Mum. Your first grown-up tooth is coming behind it, Nicola.",
+   "translations": {
+    "fa": "بیست تا دندون — و یکیش لقه! ببینید مامان. اولین دندون بزرگسالیت داره پشتش درمیاد نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "growing up",
+     "fa": "بزرگ شدن"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "A wobbly tooth! Well done, Nicola!",
+   "translations": {
+    "fa": "دندون لق! آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wobbly",
+      "tooth",
+      "fairy",
+      "will",
+      "come"
+     ],
+     "suggestion": "A wobbly tooth! Will the tooth fairy come?",
+     "suggestionFa": "دندون لق! پری دندون میاد؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Yes! The tooth fairy will bring a coin.",
+   "translations": {
+    "fa": "آره! پری دندون یه سکه میاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "leslie",
+   "text": "She will, sweetheart. Mrs Hughes, any problems? We do brush twice a day… mostly.",
+   "translations": {
+    "fa": "میاد عزیزم. خانم هیوز، مشکلی هست؟ ما روزی دو بار مسواک می‌زنیم… بیشتر وقت‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweetheart",
+     "fa": "عزیزم"
+    },
+    {
+     "word": "problems",
+     "fa": "مشکلات"
+    },
+    {
+     "word": "mostly",
+     "fa": "بیشتر وقت‌ها"
+    },
+    {
+     "word": "clean",
+     "fa": "تمیز"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Leslie, Nicola eats a lot of sweets!",
+   "translations": {
+    "fa": "لزلی، نیکولا خیلی شیرینی می‌خوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "hughes",
+   "text": "All perfect. Just keep sweets for mealtimes, not all day. And now, Nicola — you can choose a sticker. Which colour would you like?",
+   "translations": {
+    "fa": "همه بی‌نقص. فقط شیرینی را برای وقت غذا نگه دارید، نه کل روز. و حالا نیکولا — می‌تونی یه برچسب انتخاب کنی. چه رنگی دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Which colour, Nicola? Pink?",
+   "translations": {
+    "fa": "چه رنگی نیکولا؟ صورتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "smile",
+      "brave",
+      "show",
+      "pink"
+     ],
+     "suggestion": "The pink one! It says \"Brave Smile\"! Can I show William?",
+     "suggestionFa": "صورتیه! نوشته «لبخند شجاع»! می‌تونم به ویلیام نشونش بدم؟",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Yes! You were very brave, Nicola.",
+   "translations": {
+    "fa": "آره! خیلی شجاع بودی نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "leslie",
+   "text": "He'll want one too. Thank you, Mrs Hughes. And thank you for coming. Next time, it's your turn in the magic chair!",
+   "translations": {
+    "fa": "اونم یکی می‌خواد. ممنون خانم هیوز. ممنون که اومدی. دفعهٔ بعد نوبت توئه رو صندلی جادویی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

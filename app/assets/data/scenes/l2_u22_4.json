@@ -1,0 +1,400 @@
+{
+ "id": "l2_u22_4",
+ "characterId": "zara",
+ "title": "Age check at the self-checkout",
+ "titleFa": "کنترل سن در صندوق سلف‌سرویس",
+ "setting": "Big supermarket · Level 2",
+ "settingFa": "سوپرمارکت بزرگ",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "zara",
+   "text": "Hiya! Your screen says \"Approval needed\". That's the paracetamol and the knives. I just need a quick look at you.",
+   "translations": {
+    "fa": "سلام! صفحه‌ات نوشته «تأیید لازم است». به خاطر پاراستامول و چاقوهاست. فقط یه نگاه کوتاه بهت لازم دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "look",
+      "why"
+     ],
+     "suggestion": "A look at me? Why?",
+     "suggestionFa": "یه نگاه به من؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thirty",
+      "ok",
+      "oh"
+     ],
+     "suggestion": "Oh, OK. I'm thirty!",
+     "suggestionFa": "آهان، باشه. من سی سالمه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "approval",
+     "fa": "تأیید"
+    },
+    {
+     "word": "needed",
+     "fa": "لازم"
+    },
+    {
+     "word": "paracetamol",
+     "fa": "پاراستامول"
+    },
+    {
+     "word": "knives",
+     "fa": "چاقوها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "zara",
+   "text": "Some things have an age limit. Knives, alcohol, even some glue. We use \"Challenge 25\".",
+   "translations": {
+    "fa": "بعضی چیزها محدودیت سنی دارن. چاقو، الکل، حتی بعضی چسب‌ها. ما از «چالش ۲۵» استفاده می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "challenge",
+      "what's"
+     ],
+     "suggestion": "What's Challenge 25?",
+     "suggestionFa": "چالش ۲۵ چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surprising",
+      "that's",
+      "glue"
+     ],
+     "suggestion": "Glue too? That's surprising.",
+     "suggestionFa": "چسب هم؟ عجیبه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "age limit",
+     "fa": "محدودیت سنی"
+    },
+    {
+     "word": "alcohol",
+     "fa": "الکل"
+    },
+    {
+     "word": "glue",
+     "fa": "چسب"
+    },
+    {
+     "word": "surprising",
+     "fa": "تعجب‌آور"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "If you look under twenty-five, I must ask for ID. You look… well, about twenty-two. Sorry! Have you got any ID?",
+   "translations": {
+    "fa": "اگه زیر بیست و پنج به نظر بیای، باید کارت شناسایی بخوام. تو به نظر… خب، حدود بیست و دو میای. ببخشید! کارت شناسایی داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "residence",
+      "here's",
+      "twenty",
+      "thank"
+     ],
+     "suggestion": "Twenty-two? Thank you! Here's my residence card.",
+     "suggestionFa": "بیست و دو؟ ممنون! این کارت اقامتمه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "passport",
+      "haven't",
+      "photo",
+      "got"
+     ],
+     "suggestion": "I haven't got my passport with me. Is a photo OK?",
+     "suggestionFa": "پاسپورتم همراهم نیست. عکسش اشکالی نداره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ID",
+     "fa": "کارت شناسایی"
+    },
+    {
+     "word": "residence card",
+     "fa": "کارت اقامت"
+    },
+    {
+     "word": "passport",
+     "fa": "گذرنامه"
+    },
+    {
+     "word": "photo",
+     "fa": "عکس"
+    }
+   ],
+   "cultureNote": {
+    "en": "Under \"Challenge 25\", shops ask anyone who looks under 25 for photo ID, like a passport, driving licence or PASS card.",
+    "fa": "فروشگاه‌ها از هر کس زیر ۲۵ به نظر برسد کارت عکس‌دار می‌خواهند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i have not my passport",
+      "i don't have with me passport"
+     ],
+     "echo": "You haven't got it with you? Hmm.",
+     "better": "I haven't got my passport with me.",
+     "betterFa": "گذرنامه‌ام همراهم نیست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "zara",
+   "text": "A photo on your phone isn't allowed, sorry. It must be the real card. A passport, a driving licence, or a PASS card.",
+   "translations": {
+    "fa": "عکس رو گوشی قبول نیست، ببخشید. باید خود کارت باشه. پاسپورت، گواهینامه یا کارت PASS."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "provisional",
+      "licence",
+      "driving",
+      "i've"
+     ],
+     "suggestion": "I've got my provisional driving licence.",
+     "suggestionFa": "گواهینامهٔ موقتم را دارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "pass",
+      "card"
+     ],
+     "suggestion": "What's a PASS card?",
+     "suggestionFa": "کارت PASS چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allowed",
+     "fa": "مجاز"
+    },
+    {
+     "word": "real",
+     "fa": "واقعی ؛ اصلی"
+    },
+    {
+     "word": "driving licence",
+     "fa": "گواهینامه"
+    },
+    {
+     "word": "provisional",
+     "fa": "موقت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "zara",
+   "text": "A provisional's fine! Let me see… born in 1996. Perfect, you're definitely over eighteen. Approved.",
+   "translations": {
+    "fa": "گواهینامهٔ موقت خوبه! بذار ببینم… متولد ۱۹۹۶. عالی، قطعاً بالای هجده‌ای. تأیید شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "thanks",
+      "ask"
+     ],
+     "suggestion": "Thanks. Do you ask everyone?",
+     "suggestionFa": "ممنون. از همه می‌پرسین؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "can",
+      "now",
+      "pay"
+     ],
+     "suggestion": "Great. Can I pay now?",
+     "suggestionFa": "عالیه. الان می‌تونم پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "born",
+     "fa": "متولد"
+    },
+    {
+     "word": "definitely",
+     "fa": "قطعاً"
+    },
+    {
+     "word": "over",
+     "fa": "بالای"
+    },
+    {
+     "word": "approved",
+     "fa": "تأیید شد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "Everyone who looks young. Last week I asked a man of forty. He was so happy, he bought me a coffee!",
+   "translations": {
+    "fa": "همه کسایی که جوون به نظر میان. هفتهٔ پیش از یه مرد چهل‌ساله پرسیدم. اون‌قدر خوشحال شد که برام قهوه خرید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coffee",
+      "should",
+      "buy",
+      "ha"
+     ],
+     "suggestion": "Ha! Should I buy you a coffee too?",
+     "suggestionFa": "ها! منم برات قهوه بخرم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "compliment",
+      "really",
+      "that's",
+      "nice"
+     ],
+     "suggestion": "That's a nice compliment, really.",
+     "suggestionFa": "واقعاً تعریف قشنگیه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "young",
+     "fa": "جوان"
+    },
+    {
+     "word": "compliment",
+     "fa": "تعریف ؛ تمجید"
+    },
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "No need, love! Right, you can pay now. And keep that licence in your wallet — you'll need it again.",
+   "translations": {
+    "fa": "لازم نیست عزیزم! خب، الان می‌تونی پرداخت کنی. اون گواهینامه را هم تو کیف پولت نگه دار — باز لازمت میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phone",
+      "will",
+      "can",
+      "pay"
+     ],
+     "suggestion": "I will. Can I pay with my phone?",
+     "suggestionFa": "نگه می‌دارم. با گوشی می‌تونم بپردازم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "idea",
+      "zara",
+      "good"
+     ],
+     "suggestion": "Good idea. Thanks for your help, Zara.",
+     "suggestionFa": "فکر خوبیه. ممنون از کمکت زارا.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no need",
+     "fa": "لازم نیست"
+    },
+    {
+     "word": "wallet",
+     "fa": "کیف پول"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "zara",
+   "text": "Phone, card, cash — whatever you like. Have a lovely day. And next time, I'll say you look nineteen!",
+   "translations": {
+    "fa": "گوشی، کارت، نقد — هرچی دوست داری. روز خوبی داشته باشی. دفعهٔ بعد میگم به نظر نوزده ساله میای!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

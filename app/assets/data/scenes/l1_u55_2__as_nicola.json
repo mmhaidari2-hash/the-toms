@@ -22,10 +22,10 @@
     {
      "keywords": [
       "languages",
-      "mummy",
-      "hello",
       "speak",
-      "says"
+      "hello",
+      "mummy",
+      "true"
      ],
      "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
      "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "persian",
       "school",
-      "hello",
       "learn",
+      "hello",
       "how"
      ],
      "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
@@ -98,9 +98,9 @@
      "keywords": [
       "persian",
       "salaam",
-      "about",
+      "speak",
       "thank",
-      "speak"
+      "about"
      ],
      "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
      "suggestionFa": "سَ-لام! سلام! حالا من فارسی بلدم! «ممنون» چی؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "english",
+      "persian",
       "french",
       "that's",
-      "peasy"
+      "speak"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
      "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "football",
-      "there's",
       "english",
-      "telly",
+      "there's",
+      "talks",
       "daddy"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "english",
+      "persian",
       "clever",
       "salaam",
-      "every"
+      "merci"
      ],
      "suggestion": "Yes! I'll teach you English, and you teach me Persian. Every day! Salaam! Merci! I'm so clever.",
      "suggestionFa": "آره! من بهت انگلیسی یاد میدم، تو بهم فارسی. هر روز! سلام! مرسی! من خیلی باهوشم.",

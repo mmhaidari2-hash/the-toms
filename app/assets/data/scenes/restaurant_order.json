@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "ready",
-      "roast",
       "we're",
+      "roast",
+      "ready",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -116,8 +116,8 @@
      "keywords": [
       "chicken",
       "please",
-      "i'll",
-      "have"
+      "have",
+      "i'll"
      ],
      "suggestion": "I'll have the roast chicken, please.",
      "suggestionFa": "مرغ کبابی می‌گیرم، لطفاً.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "daughter",
       "allergic",
+      "daughter",
       "nuts"
      ],
      "suggestion": "Yes, my daughter is allergic to nuts.",
@@ -372,10 +372,10 @@
    "branches": [
     {
      "keywords": [
-      "custard",
       "pudding",
-      "sticky",
-      "toffee"
+      "custard",
+      "toffee",
+      "sticky"
      ],
      "suggestion": "Go on then, sticky toffee pudding with custard!",
      "suggestionFa": "باشه پس، پودینگ تافی با کاستارد!",
@@ -387,8 +387,8 @@
      "keywords": [
       "please",
       "we're",
-      "full",
-      "just"
+      "just",
+      "full"
      ],
      "suggestion": "Just the bill, please. We're full.",
      "suggestionFa": "فقط صورت‌حساب، لطفاً. سیریم.",

@@ -82,9 +82,9 @@
     {
      "keywords": [
       "first",
+      "then",
       "i'll",
-      "help",
-      "then"
+      "help"
      ],
      "suggestion": "You try first, then I'll help.",
      "suggestionFa": "اول خودت امتحان کن، بعد کمکت می‌کنم.",
@@ -224,8 +224,8 @@
     {
      "keywords": [
       "children",
-      "adults",
-      "twelve"
+      "twelve",
+      "adults"
      ],
      "suggestion": "Twelve children and two adults.",
      "suggestionFa": "دوازده بچه و دو بزرگسال.",
@@ -237,8 +237,8 @@
      "keywords": [
       "count",
       "three",
-      "one",
-      "let"
+      "let",
+      "one"
      ],
      "suggestion": "Let me count: one, two, three…",
      "suggestionFa": "بذار بشمرم: یک، دو، سه…",

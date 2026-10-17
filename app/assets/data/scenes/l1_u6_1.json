@@ -79,8 +79,8 @@
      "keywords": [
       "seasons",
       "four",
-      "day",
-      "one"
+      "one",
+      "day"
      ],
      "suggestion": "Four seasons in one day!",
      "suggestionFa": "چهار فصل در یک روز!",
@@ -143,9 +143,9 @@
     {
      "keywords": [
       "don't",
-      "need",
       "fine",
-      "coat"
+      "coat",
+      "need"
      ],
      "suggestion": "I don't need a coat. I'm fine.",
      "suggestionFa": "کت لازم ندارم. خوبم.",
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "country",
       "october",
+      "country",
       "hot"
      ],
      "suggestion": "In my country it's hot in October.",
@@ -252,8 +252,8 @@
     {
      "keywords": [
       "sound",
-      "love",
-      "rain"
+      "rain",
+      "love"
      ],
      "suggestion": "I love the sound of rain.",
      "suggestionFa": "عاشق صدای بارونم.",

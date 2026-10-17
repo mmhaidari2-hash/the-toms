@@ -126,8 +126,8 @@
      "keywords": [
       "hang",
       "can",
-      "one",
-      "red"
+      "red",
+      "one"
      ],
      "suggestion": "Can I hang this red one?",
      "suggestionFa": "می‌تونم این قرمزه را آویزون کنم؟",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "lift",
       "i'll",
+      "lift",
       "up"
      ],
      "suggestion": "I'll lift you up.",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "carefully",
-      "stand",
-      "chair"
+      "chair",
+      "stand"
      ],
      "suggestion": "Stand on the chair. Carefully!",
      "suggestionFa": "رو صندلی بایست. با احتیاط!",
@@ -314,8 +314,8 @@
     {
      "keywords": [
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "Three, two, one…",
      "suggestionFa": "سه، دو، یک…",

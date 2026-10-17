@@ -182,9 +182,9 @@
     },
     {
      "keywords": [
+      "cute",
       "bowl",
-      "duck",
-      "cute"
+      "duck"
      ],
      "suggestion": "The duck bowl is very cute.",
      "suggestionFa": "کاسهٔ اردکی خیلی نازه.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "ellis",
-      "done",
       "well",
+      "done",
       "mrs"
      ],
      "suggestion": "Well done, Mrs Ellis!",
@@ -233,8 +233,8 @@
      "keywords": [
       "remember",
       "right",
-      "left",
-      "i'll"
+      "i'll",
+      "left"
      ],
      "suggestion": "Left and right. I'll remember.",
      "suggestionFa": "چپ و راست. یادم می‌مونه.",
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "beautiful",
       "triangles",
+      "beautiful",
       "they're"
      ],
      "suggestion": "They're beautiful triangles!",

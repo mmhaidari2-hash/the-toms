@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "ringing",
       "phone's",
-      "answer",
+      "ringing",
       "please",
+      "answer",
       "hands"
      ],
      "suggestion": "The phone's ringing! My hands are wet. Can you answer it, please?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -158,8 +158,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -262,8 +262,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -378,8 +378,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -439,7 +439,7 @@
       "message",
       "thanks",
       "taking",
-      "dad's"
+      "check"
      ],
      "suggestion": "Who was that? Mum? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
      "suggestionFa": "کی بود؟ مامان؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق.",

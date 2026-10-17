@@ -1,0 +1,350 @@
+{
+ "id": "l2_u32_4",
+ "characterId": "jade",
+ "title": "Cancelling politely",
+ "titleFa": "لغو مؤدبانه",
+ "setting": "Joining the gym · Level 2",
+ "settingFa": "عضویت در باشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "jade",
+   "text": "Hiya! You don't look like you're here for a workout. In your coat, at the desk… Is everything OK?",
+   "translations": {
+    "fa": "سلام! به نظر نمیاد برای ورزش اومده باشی. با کت، دم میز… همه‌چی خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cancel",
+      "afraid",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "I'm afraid I'd like to cancel my membership.",
+     "suggestionFa": "متأسفانه می‌خوام عضویتم را لغو کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "talk",
+      "need",
+      "jade"
+     ],
+     "suggestion": "Hi Jade. I need to talk about my membership.",
+     "suggestionFa": "سلام جِید. باید دربارهٔ عضویتم صحبت کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "workout",
+     "fa": "تمرین ورزشی"
+    },
+    {
+     "word": "coat",
+     "fa": "کت ؛ پالتو"
+    },
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "membership",
+     "fa": "عضویت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "jade",
+   "text": "Oh no! You've been doing so well. Can I ask why? It's OK — honest feedback helps us.",
+   "translations": {
+    "fa": "ای وای! خیلی خوب پیش می‌رفتی. می‌تونم بپرسم چرا؟ اشکالی نداره — بازخورد صادقانه بهمون کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hours",
+      "i've",
+      "long",
+      "got"
+     ],
+     "suggestion": "I've got a new job. The hours are very long.",
+     "suggestionFa": "یه کار جدید گرفتم. ساعت‌هاش خیلی طولانیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "month",
+      "money",
+      "tight"
+     ],
+     "suggestion": "Money is tight this month.",
+     "suggestionFa": "این ماه وضع مالیم تنگه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doing well",
+     "fa": "خوب پیش رفتن"
+    },
+    {
+     "word": "feedback",
+     "fa": "بازخورد"
+    },
+    {
+     "word": "hours",
+     "fa": "ساعت‌ها"
+    },
+    {
+     "word": "tight",
+     "fa": "تنگ ؛ محدود"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you cancel politely in English, you soften it: \"I'm afraid…\", \"Unfortunately…\", \"It's nothing to do with you…\".",
+    "fa": "برای لغو مؤدبانه از عبارات نرم‌کننده استفاده کنید."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i have new job with long hour",
+      "i got the new job"
+     ],
+     "echo": "You've got a new job? Congratulations!",
+     "better": "I've got a new job.",
+     "betterFa": "یک کار جدید گرفته‌ام."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "jade",
+   "text": "Congratulations! Honestly. It's not about the gym, then? Not the music? The smell of the changing rooms?",
+   "translations": {
+    "fa": "تبریک میگم! واقعاً. پس مشکل از باشگاه نیست؟ موسیقی نیست؟ بوی رختکن نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "timetable"
+     ],
+     "suggestion": "No, no! It's not you, it's my timetable.",
+     "suggestionFa": "نه، نه! تقصیر شما نیست، برنامهٔ زمانیمه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "music",
+      "well",
+      "loud",
+      "bit"
+     ],
+     "suggestion": "Well… the music is a bit loud!",
+     "suggestionFa": "خب… موسیقی یه‌کم بلنده!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "congratulations",
+     "fa": "تبریک"
+    },
+    {
+     "word": "honestly",
+     "fa": "واقعاً ؛ صادقانه"
+    },
+    {
+     "word": "changing rooms",
+     "fa": "رختکن"
+    },
+    {
+     "word": "timetable",
+     "fa": "برنامهٔ زمانی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "jade",
+   "text": "Ha! Everyone says that. Before you cancel — did you know you can freeze your membership? Up to three months, £5 a month.",
+   "translations": {
+    "fa": "ها! همه همینو میگن. باشه — قبل از لغو، می‌دونستی می‌تونی عضویتت را تعلیق کنی؟ تا سه ماه، ماهی پنج پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "months",
+      "could",
+      "two"
+     ],
+     "suggestion": "Could I freeze it for two months?",
+     "suggestionFa": "می‌تونم دو ماه تعلیقش کنم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mean"
+     ],
+     "suggestion": "What does \"freeze\" mean?",
+     "suggestionFa": "«فریز» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "freeze",
+     "fa": "تعلیق کردن ؛ منجمد کردن"
+    },
+    {
+     "word": "up to",
+     "fa": "تا"
+    },
+    {
+     "word": "per month",
+     "fa": "ماهانه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "jade",
+   "text": "Freeze means you pause it. You keep your price — prices go up in January. When your new job settles down, you come back.",
+   "translations": {
+    "fa": "تعلیق یعنی متوقفش می‌کنی. قیمتت حفظ میشه — قیمت‌ها ژانویه بالا میره. وقتی کار جدیدت جا افتاد، برمی‌گردی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "freeze",
+      "that's",
+      "let's",
+      "idea"
+     ],
+     "suggestion": "That's a good idea. Let's freeze it.",
+     "suggestionFa": "فکر خوبیه. تعلیقش کنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rather",
+      "cancel",
+      "thank",
+      "i'd"
+     ],
+     "suggestion": "No, thank you. I'd rather cancel.",
+     "suggestionFa": "نه، ممنون. ترجیح میدم لغو کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pause",
+     "fa": "متوقف کردن موقت"
+    },
+    {
+     "word": "keep",
+     "fa": "حفظ کردن"
+    },
+    {
+     "word": "go up",
+     "fa": "بالا رفتن"
+    },
+    {
+     "word": "settles down",
+     "fa": "جا می‌افتد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "jade",
+   "text": "No pressure. I've done it. Frozen until the first of January. I'll send you an email. And Tom? Is he freezing too?",
+   "translations": {
+    "fa": "بدون اجبار. انجامش دادم. تعلیق تا اول ژانویه. یه ایمیل برات می‌فرستم. تام چی؟ اونم تعلیق می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hasn't",
+      "weeks",
+      "come",
+      "he"
+     ],
+     "suggestion": "Tom? He hasn't come for weeks!",
+     "suggestionFa": "تام؟ چند هفته‌ست نیومده!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coming",
+      "wants",
+      "think",
+      "keep"
+     ],
+     "suggestion": "I think Tom wants to keep coming.",
+     "suggestionFa": "فکر کنم تام می‌خواد ادامه بده.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pressure",
+     "fa": "فشار ؛ اجبار"
+    },
+    {
+     "word": "frozen",
+     "fa": "تعلیق‌شده"
+    },
+    {
+     "word": "email",
+     "fa": "ایمیل"
+    },
+    {
+     "word": "weeks",
+     "fa": "هفته‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "jade",
+   "text": "I knew it! Tell him boxercise misses him. And you — you're always welcome. Good luck with the new job. See you in January!",
+   "translations": {
+    "fa": "می‌دونستم! بهش بگو بوکسرسایز دلش براش تنگ شده. و تو — همیشه خوش اومدی. با کار جدید موفق باشی. ژانویه می‌بینمت!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

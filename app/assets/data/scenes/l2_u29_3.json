@@ -1,0 +1,358 @@
+{
+ "id": "l2_u29_3",
+ "characterId": "sal",
+ "title": "Just a trim, please",
+ "titleFa": "فقط سرشاخه، لطفاً",
+ "setting": "Barber and hairdresser · Level 2",
+ "settingFa": "آرایشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sal",
+   "text": "Hello, my friend! Your turn. Sit down. Same as last time? Or something new?",
+   "translations": {
+    "fa": "سلام دوست من! نوبت توئه. بشین. مثل دفعهٔ قبل؟ یا یه چیز جدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "short",
+      "trim",
+      "just"
+     ],
+     "suggestion": "Just a trim, please. Not too short.",
+     "suggestionFa": "فقط یه‌کم کوتاه، لطفاً. خیلی کوتاه نه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "scared",
+      "new",
+      "but"
+     ],
+     "suggestion": "Something new. But I'm a bit scared!",
+     "suggestionFa": "یه چیز جدید. ولی یه‌کم می‌ترسم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn",
+     "fa": "نوبت"
+    },
+    {
+     "word": "same",
+     "fa": "همان"
+    },
+    {
+     "word": "trim",
+     "fa": "کوتاه کردن سرشاخه"
+    },
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sal",
+   "text": "A trim is easy. Just tidy the edges, keep the length. And your beard? It's getting quite long.",
+   "translations": {
+    "fa": "سرشاخه آسونه. فقط کناره‌ها را مرتب کنم، بلندی را نگه دارم. ریشت چی؟ داره نسبتاً بلند میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tidy",
+      "can",
+      "up"
+     ],
+     "suggestion": "Can you tidy up my beard too?",
+     "suggestionFa": "ریشم را هم می‌تونی مرتب کنی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shape",
+      "keep",
+      "like",
+      "just"
+     ],
+     "suggestion": "I'd like to keep my beard. Just shape it.",
+     "suggestionFa": "می‌خوام ریشم را نگه دارم. فقط فرمش بده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "edges",
+     "fa": "کناره‌ها"
+    },
+    {
+     "word": "length",
+     "fa": "بلندی"
+    },
+    {
+     "word": "beard",
+     "fa": "ریش"
+    },
+    {
+     "word": "tidy up",
+     "fa": "مرتب کردن"
+    },
+    {
+     "word": "shape",
+     "fa": "فرم دادن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "can you tidy my beard also",
+      "you tidy up beard too?"
+     ],
+     "echo": "Tidy up your beard too? No problem.",
+     "better": "Can you tidy up my beard too?",
+     "betterFa": "ریشم را هم مرتب می‌کنید؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "No problem. Beard trim is five pounds extra. Do you want a hot towel? It's very relaxing. Turkish style.",
+   "translations": {
+    "fa": "مشکلی نیست. اصلاح ریش پنج پوند بیشتره. حولهٔ داغ می‌خوای؟ خیلی آرامش‌بخشه. سبک ترکی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "towel",
+      "hot"
+     ],
+     "suggestion": "A hot towel? Yes, please!",
+     "suggestionFa": "حولهٔ داغ؟ آره، لطفاً!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "trim",
+      "just"
+     ],
+     "suggestion": "No, thanks. Just the trim.",
+     "suggestionFa": "نه، ممنون. فقط اصلاح.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    },
+    {
+     "word": "hot towel",
+     "fa": "حولهٔ داغ"
+    },
+    {
+     "word": "relaxing",
+     "fa": "آرامش‌بخش"
+    },
+    {
+     "word": "style",
+     "fa": "سبک"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK barbers are Turkish or Kurdish-run. A hot towel and a quick flame on the ears are common extras.",
+    "fa": "بسیاری از آرایشگاه‌های بریتانیا ترک یا کرد هستند و حولهٔ داغ معمول است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sal",
+   "text": "So, how long have you lived in Hackney? Your English is getting very good.",
+   "translations": {
+    "fa": "خب، چند وقته تو هاکنی زندگی می‌کنی؟ انگلیسیت داره خیلی خوب میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "months",
+      "about",
+      "thank",
+      "four"
+     ],
+     "suggestion": "About four months. Thank you!",
+     "suggestionFa": "حدود چهار ماه. ممنون!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "barber",
+      "summer",
+      "since",
+      "have"
+     ],
+     "suggestion": "Since the summer. How long have you been a barber?",
+     "suggestionFa": "از تابستون. تو چند وقته آرایشگری؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lived",
+     "fa": "زندگی کرده‌ای"
+    },
+    {
+     "word": "getting",
+     "fa": "شدن"
+    },
+    {
+     "word": "since",
+     "fa": "از ؛ از وقتی"
+    },
+    {
+     "word": "barber",
+     "fa": "آرایشگر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sal",
+   "text": "Twenty years. My dad was a barber in Izmir. I came here at twenty. Like you, no English!",
+   "translations": {
+    "fa": "بیست سال. بابام تو ازمیر آرایشگر بود. من بیست سالگی اومدم اینجا. مثل تو، بدون انگلیسی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "learn",
+      "did",
+      "how"
+     ],
+     "suggestion": "Really? How did you learn?",
+     "suggestionFa": "واقعاً؟ چطوری یاد گرفتی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "turkey",
+      "izmir",
+      "miss"
+     ],
+     "suggestion": "Izmir! Do you miss Turkey?",
+     "suggestionFa": "ازمیر! دلت برای ترکیه تنگ میشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "years",
+     "fa": "سال"
+    },
+    {
+     "word": "came",
+     "fa": "آمدم"
+    },
+    {
+     "word": "learn",
+     "fa": "یاد گرفتن"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ بودن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sal",
+   "text": "By talking to customers all day! Football, weather, football. Right — look in the mirror. How's that?",
+   "translations": {
+    "fa": "با حرف زدن با مشتری‌ها کل روز! فوتبال، هوا، فوتبال. خب — تو آینه نگاه کن. چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "younger",
+      "perfect",
+      "you've",
+      "look"
+     ],
+     "suggestion": "Perfect. You've made me look younger!",
+     "suggestionFa": "عالیه. جوون‌ترم کردی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "could",
+      "beard",
+      "take",
+      "more"
+     ],
+     "suggestion": "Could you take a bit more off the beard?",
+     "suggestionFa": "میشه یه‌کم بیشتر از ریش کوتاه کنی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "customers",
+     "fa": "مشتری‌ها"
+    },
+    {
+     "word": "weather",
+     "fa": "هوا ؛ آب و هوا"
+    },
+    {
+     "word": "younger",
+     "fa": "جوان‌تر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sal",
+   "text": "Younger and handsomer. Fifteen for the trim, five for the beard. Twenty. And next time, bring Tom. His hair needs help!",
+   "translations": {
+    "fa": "جوون‌تر و خوش‌تیپ‌تر. پونزده برای کوتاهی، پنج برای ریش. بیست. دفعهٔ بعد تام را هم بیار. موهاش کمک لازم داره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

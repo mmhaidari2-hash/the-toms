@@ -22,9 +22,9 @@
     {
      "keywords": [
       "dinner's",
-      "telly",
       "watch",
       "shall",
+      "telly",
       "time"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "football",
-      "arsenal",
       "playing",
-      "boring",
-      "rather"
+      "arsenal",
+      "rather",
+      "boring"
      ],
      "suggestion": "The news? Boring! I'd rather watch football. Arsenal are playing.",
      "suggestionFa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره.",
@@ -73,9 +73,9 @@
      "keywords": [
       "cartoons",
       "nicola",
-      "spurs",
       "wants",
-      "game"
+      "spurs",
+      "bake"
      ],
      "suggestion": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
      "suggestionFa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "baking",
       "people",
+      "baking",
       "what's",
-      "cakes",
-      "loves"
+      "loves",
+      "cakes"
      ],
      "suggestion": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
      "suggestionFa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟",
@@ -125,7 +125,7 @@
       "cartoon",
       "minutes",
       "twenty",
-      "shout"
+      "match"
      ],
      "suggestion": "Good shout. Nicola's cartoon is only twenty minutes. Then Mum, then the match.",
      "suggestionFa": "فکر خوبیه. کارتون نیکولا فقط بیست دقیقه‌ست. بعد مامان، بعد بازی.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "spoilers",
-      "snacks",
       "record",
+      "snacks",
       "don't",
-      "score"
+      "shall"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
      "suggestionFa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "remote's",
       "cartoons",
+      "remote's",
       "starting",
       "vinegar",
       "crisps"

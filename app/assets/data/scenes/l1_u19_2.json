@@ -85,8 +85,8 @@
     {
      "keywords": [
       "there's",
-      "sock",
       "here",
+      "sock",
       "blue"
      ],
      "suggestion": "There's a sock here, but it's blue.",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "drawer",
       "shirts",
+      "drawer",
       "full",
       "t"
      ],
@@ -143,8 +143,8 @@
      "keywords": [
       "pants",
       "socks",
-      "but",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "I can see pants, but no socks!",
      "suggestionFa": "شورت می‌بینم، ولی جوراب نه!",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "washing",
-      "here",
-      "they"
+      "they",
+      "here"
      ],
      "suggestion": "Yes! Here they are, in the washing basket.",
      "suggestionFa": "آره! ایناهاشون، تو سبد لباس‌چرک.",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "score",
-      "luck",
-      "goal"
+      "goal",
+      "luck"
      ],
      "suggestion": "Good luck! Score a goal!",
      "suggestionFa": "موفق باشی! گل بزن!",

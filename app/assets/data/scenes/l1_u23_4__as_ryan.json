@@ -23,9 +23,9 @@
      "keywords": [
       "birthday",
       "massive",
-      "lovely",
-      "jumper",
-      "bought"
+      "bought",
+      "change",
+      "jumper"
      ],
      "suggestion": "Nana bought me this jumper for my birthday. It's lovely, but it's massive! Can you come with me to change it?",
      "suggestionFa": "نانا برای تولدم این ژاکت را خرید. قشنگه، ولی خیلی بزرگه! باهام میای عوضش کنیم؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "receipt",
-      "excuse",
       "please",
+      "excuse",
       "change",
       "nana"
      ],
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -254,10 +254,10 @@
     {
      "keywords": [
       "goldilocks",
-      "right",
       "large",
-      "like",
-      "just"
+      "right",
+      "just",
+      "like"
      ],
      "suggestion": "The large is just right! Like Goldilocks! Ha.",
      "suggestionFa": "لارج درست اندازه‌ست! مثل موطلایی! ها.",
@@ -335,8 +335,8 @@
      "keywords": [
       "she'll",
       "photo",
-      "love",
       "nana",
+      "take",
       "i'll"
      ],
      "suggestion": "Can you take a photo of me for Nana? I'll send it to her. She'll love it.",
@@ -358,10 +358,10 @@
    "branches": [
     {
      "keywords": [
-      "handsome",
       "football",
-      "replied",
+      "handsome",
       "already",
+      "replied",
       "nana's"
      ],
      "suggestion": "Nana's replied already! \"Handsome boy! Don't get it muddy at football!\" Ha! She knows me too well.",

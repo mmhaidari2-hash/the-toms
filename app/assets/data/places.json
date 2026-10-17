@@ -2350,6 +2350,190 @@
       ]
      }
     ]
+   },
+   {
+    "id": "bigsupermarket",
+    "title": "Hackney Superstore",
+    "titleFa": "سوپراستور هاکنی",
+    "color": "#2E6B3A",
+    "icon": "local_grocery_store",
+    "hotspots": [
+     {
+      "characterId": "zara",
+      "sceneId": null,
+      "rect": [
+       0.0,
+       0.06,
+       0.45,
+       0.94
+      ],
+      "ambient": {
+       "en": "Tea and coffee? Aisle seven, love — just past the bread.",
+       "fa": "چای و قهوه؟ راهروی هفت، عزیزم — درست بعد از نان."
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.56,
+       0.1,
+       0.32,
+       0.8
+      ],
+      "ambient": {
+       "en": "I came in for milk. Now I've got a full trolley…",
+       "fa": "برای شیر اومدم. حالا یه چرخ‌دستی پُر دارم…"
+      }
+     }
+    ],
+    "image": "assets/places/bigsupermarket.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "shoppingcentre",
+    "title": "Hackney Central shopping centre",
+    "titleFa": "مرکز خرید هکنی سنترال",
+    "color": "#23365C",
+    "icon": "local_mall",
+    "hotspots": [
+     {
+      "characterId": "kai",
+      "sceneId": null,
+      "rect": [
+       0.07,
+       0.12,
+       0.4,
+       0.62
+      ],
+      "ambient": {
+       "en": "Customer Services — how can I help? The directory's just behind you.",
+       "fa": "خدمات مشتریان — چطور کمک کنم؟ راهنمای فروشگاه‌ها پشت سرتونه."
+      }
+     },
+     {
+      "characterId": "leslie",
+      "sceneId": null,
+      "rect": [
+       0.6,
+       0.18,
+       0.18,
+       0.8
+      ],
+      "ambient": {
+       "en": "Shoes for Nicola, a coat for William, and then coffee.",
+       "fa": "کفش برای نیکولا، کت برای ویلیام، بعدش قهوه."
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.77,
+       0.14,
+       0.23,
+       0.86
+      ],
+      "ambient": {
+       "en": "Mum, can we go to the trainer shop? Five minutes!",
+       "fa": "مامان، میشه بریم مغازهٔ کتونی؟ پنج دقیقه!"
+      }
+     }
+    ],
+    "image": "assets/places/shoppingcentre.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "phoneshop",
+    "title": "The phone shop",
+    "titleFa": "فروشگاه موبایل",
+    "color": "#5B2E8C",
+    "icon": "smartphone",
+    "hotspots": [
+     {
+      "characterId": "dev",
+      "sceneId": null,
+      "rect": [
+       0.13,
+       0.1,
+       0.33,
+       0.88
+      ],
+      "ambient": {
+       "en": "SIM-only or a new handset? Let's find what you actually need.",
+       "fa": "فقط سیم‌کارت یا گوشی نو؟ بیایید ببینیم واقعاً چی لازم دارید."
+      }
+     },
+     {
+      "characterId": "ryan",
+      "sceneId": null,
+      "rect": [
+       0.52,
+       0.24,
+       0.24,
+       0.6
+      ],
+      "ambient": {
+       "en": "Everyone in Year 10 has unlimited data, Dad.",
+       "fa": "همهٔ بچه‌های کلاس دهم اینترنت نامحدود دارن، بابا."
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.74,
+       0.06,
+       0.26,
+       0.9
+      ],
+      "ambient": {
+       "en": "Unlimited? How much is unlimited?",
+       "fa": "نامحدود؟ نامحدود چقدر می‌شه؟"
+      }
+     }
+    ],
+    "image": "assets/places/phoneshop.webp",
+    "aspect": 1.7777777777777777
+   },
+   {
+    "id": "petrol",
+    "title": "The petrol station",
+    "titleFa": "پمپ بنزین",
+    "color": "#A8322A",
+    "icon": "local_gas_station",
+    "hotspots": [
+     {
+      "characterId": "bilal",
+      "sceneId": null,
+      "rect": [
+       0.07,
+       0.14,
+       0.24,
+       0.72
+      ],
+      "ambient": {
+       "en": "Pump four? Pay inside when you're done, mate!",
+       "fa": "پمپ چهار؟ تموم شد بیا تو حساب کن، رفیق!"
+      }
+     },
+     {
+      "characterId": "tom",
+      "sceneId": null,
+      "rect": [
+       0.58,
+       0.1,
+       0.25,
+       0.88
+      ],
+      "ambient": {
+       "en": "Diesel's the black one, isn't it? Or the green? Hold on…",
+       "fa": "گازوئیل مشکیه، نه؟ یا سبز؟ صبر کن…"
+      }
+     }
+    ],
+    "image": "assets/places/petrol.webp",
+    "aspect": 1.7777777777777777
    }
   ]
  },

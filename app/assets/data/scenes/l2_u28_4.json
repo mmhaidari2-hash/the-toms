@@ -1,0 +1,348 @@
+{
+ "id": "l2_u28_4",
+ "characterId": "arthur",
+ "title": "Sending a parcel to Tehran",
+ "titleFa": "فرستادن بسته به تهران",
+ "setting": "At the post office · Level 2",
+ "settingFa": "در اداره پست",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "International today? Where's it going? I love an exotic address.",
+   "translations": {
+    "fa": "امروز بین‌المللی؟ کجا میره؟ من عاشق آدرس‌های خارجی‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tehran",
+      "going",
+      "iran"
+     ],
+     "suggestion": "It's going to Tehran, in Iran.",
+     "suggestionFa": "میره تهران، تو ایران.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "birthday",
+      "present",
+      "mother"
+     ],
+     "suggestion": "To my mother. It's a birthday present.",
+     "suggestionFa": "برای مادرم. هدیهٔ تولده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "international",
+     "fa": "بین‌المللی"
+    },
+    {
+     "word": "going",
+     "fa": "رفتن"
+    },
+    {
+     "word": "exotic",
+     "fa": "خارجی ؛ عجیب و دور"
+    },
+    {
+     "word": "address",
+     "fa": "آدرس"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Tehran! Let me check what's allowed. Some countries have rules. What's inside, exactly?",
+   "translations": {
+    "fa": "تهران! بذار ببینم چی مجازه. بعضی کشورها قانون دارن. دقیقاً داخلش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scarf",
+      "photo",
+      "book",
+      "tea"
+     ],
+     "suggestion": "A scarf, some tea and a photo book.",
+     "suggestionFa": "یه روسری، یه‌کم چای و یه آلبوم عکس.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuits",
+      "clothes",
+      "english"
+     ],
+     "suggestion": "Clothes and some English biscuits.",
+     "suggestionFa": "لباس و یه‌کم بیسکویت انگلیسی.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allowed",
+     "fa": "مجاز"
+    },
+    {
+     "word": "rules",
+     "fa": "قوانین"
+    },
+    {
+     "word": "scarf",
+     "fa": "روسری ؛ شال"
+    },
+    {
+     "word": "photo book",
+     "fa": "آلبوم عکس"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Fine, fine. You'll need to fill in a customs form. It says what's inside and how much it's worth.",
+   "translations": {
+    "fa": "خوبه، خوبه. باید یه فرم گمرک پر کنی. می‌نویسه داخلش چیه و چقدر ارزش داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "customs",
+      "what's",
+      "form"
+     ],
+     "suggestion": "What's a customs form?",
+     "suggestionFa": "فرم گمرک چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "worth",
+      "forty",
+      "about"
+     ],
+     "suggestion": "How much is it worth? About forty pounds.",
+     "suggestionFa": "چقدر ارزش داره؟ حدود چهل پوند.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fill in",
+     "fa": "پر کردن"
+    },
+    {
+     "word": "customs form",
+     "fa": "فرم گمرک"
+    },
+    {
+     "word": "worth",
+     "fa": "ارزش داشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Parcels going outside the UK need a customs declaration. Write each item, its value, and tick \"gift\" if it's a present.",
+    "fa": "بسته‌های خارج از بریتانیا اظهارنامهٔ گمرکی لازم دارند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "It goes on the parcel, for the customs officers. Write each item. Then tick: is it a gift, or something you sold?",
+   "translations": {
+    "fa": "رو بسته می‌چسبه، برای مأموران گمرک. هر قلم را بنویس. بعد تیک بزن: هدیه‌ست یا چیزی که فروختی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gift",
+      "i'll",
+      "tick"
+     ],
+     "suggestion": "It's a gift. I'll tick \"gift\".",
+     "suggestionFa": "هدیه‌ست. «هدیه» را تیک می‌زنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "persian",
+      "write"
+     ],
+     "suggestion": "Do I write in English or Persian?",
+     "suggestionFa": "انگلیسی بنویسم یا فارسی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "officers",
+     "fa": "مأموران"
+    },
+    {
+     "word": "item",
+     "fa": "قلم ؛ کالا"
+    },
+    {
+     "word": "tick",
+     "fa": "تیک زدن"
+    },
+    {
+     "word": "gift",
+     "fa": "هدیه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is a gift for my mother",
+      "it is gift"
+     ],
+     "echo": "It's a gift? Tick \"gift\".",
+     "better": "It's a gift.",
+     "betterFa": "هدیه است."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "In English, please, and nice clear letters. Now, the address in Tehran. Can you write it in English letters too?",
+   "translations": {
+    "fa": "انگلیسی، لطفاً، با حروف خوانا. حالا، آدرس تهران. می‌تونی با حروف انگلیسی هم بنویسیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "write",
+      "well",
+      "can"
+     ],
+     "suggestion": "Yes. Can I write it in Persian as well?",
+     "suggestionFa": "آره. می‌تونم به فارسی هم بنویسمش؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "letters",
+      "english",
+      "i'll",
+      "try"
+     ],
+     "suggestion": "In English letters? I'll try.",
+     "suggestionFa": "با حروف انگلیسی؟ امتحان می‌کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clear",
+     "fa": "خوانا ؛ واضح"
+    },
+    {
+     "word": "letters",
+     "fa": "حروف"
+    },
+    {
+     "word": "as well",
+     "fa": "همچنین"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "Both is best — English for us, Persian for the postman in Tehran. It takes two to three weeks. Twenty-four pounds, tracked.",
+   "translations": {
+    "fa": "هر دو بهتره — انگلیسی برای ما، فارسی برای پستچی تهران. دو تا سه هفته طول می‌کشه. بیست و چهار پوند، با ردیابی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "weeks",
+      "three",
+      "two"
+     ],
+     "suggestion": "Three weeks? Her birthday is in two weeks!",
+     "suggestionFa": "سه هفته؟ تولدش دو هفتهٔ دیگه‌ست!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "pounds",
+      "twenty",
+      "four"
+     ],
+     "suggestion": "Twenty-four pounds. That's OK.",
+     "suggestionFa": "بیست و چهار پوند. خوبه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "both",
+     "fa": "هر دو"
+    },
+    {
+     "word": "postman",
+     "fa": "پستچی"
+    },
+    {
+     "word": "weeks",
+     "fa": "هفته‌ها"
+    },
+    {
+     "word": "birthday",
+     "fa": "تولد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "Then send a card by email today, and say \"the parcel is on its way\". Mums love a surprise twice! Mind how you go.",
+   "translations": {
+    "fa": "پس امروز یه کارت با ایمیل بفرست و بگو «بسته تو راهه». مامان‌ها عاشق دو بار سورپرایز شدن هستن! مواظب خودت باش."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

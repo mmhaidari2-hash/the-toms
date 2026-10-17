@@ -1,0 +1,413 @@
+{
+ "id": "l2_u23_2",
+ "characterId": "zara",
+ "title": "Returning something",
+ "titleFa": "پس دادن کالا",
+ "setting": "Returns and click & collect · Level 2",
+ "settingFa": "مرجوعی و سفارش آنلاین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "zara",
+   "text": "Hello, Customer Service desk. Oh, it's you! What's in the box?",
+   "translations": {
+    "fa": "سلام، میز خدمات مشتری. اوه، تویی! تو جعبه چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "return",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "I'd like to return this kettle, please.",
+     "suggestionFa": "می‌خوام این کتری را پس بدم، لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "bought",
+      "work",
+      "week"
+     ],
+     "suggestion": "This kettle doesn't work. I bought it last week.",
+     "suggestionFa": "این کتری کار نمی‌کنه. هفتهٔ پیش خریدمش.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Customer Service desk",
+     "fa": "میز خدمات مشتری"
+    },
+    {
+     "word": "return",
+     "fa": "پس دادن"
+    },
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    },
+    {
+     "word": "doesn't work",
+     "fa": "کار نمی‌کند"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "zara",
+   "text": "Oh dear. What's wrong with it? Does it not turn on?",
+   "translations": {
+    "fa": "ای وای. چه مشکلی داره؟ روشن نمیشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doesn't",
+      "switch",
+      "turns",
+      "off"
+     ],
+     "suggestion": "It turns on, but it doesn't switch off!",
+     "suggestionFa": "روشن میشه، ولی خاموش نمیشه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "counter",
+      "water",
+      "leaks"
+     ],
+     "suggestion": "It leaks. There's water all over the counter.",
+     "suggestionFa": "نشتی داره. همه‌جای کابینت آب میشه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn on",
+     "fa": "روشن شدن"
+    },
+    {
+     "word": "switch off",
+     "fa": "خاموش شدن"
+    },
+    {
+     "word": "leaks",
+     "fa": "نشت می‌کند"
+    },
+    {
+     "word": "counter",
+     "fa": "سطح کابینت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is not switch off",
+      "it doesn't switching off"
+     ],
+     "echo": "It doesn't switch off? That's dangerous!",
+     "better": "It doesn't switch off.",
+     "betterFa": "خاموش نمی‌شود."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "That's not safe at all. Have you got the receipt? Paper, or on the app?",
+   "translations": {
+    "fa": "این اصلاً امن نیست. رسیدش را داری؟ کاغذی یا تو اپ؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "receipt",
+      "here's",
+      "kept"
+     ],
+     "suggestion": "Here's the receipt. I kept it.",
+     "suggestionFa": "این رسیده. نگهش داشتم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "superstore",
+      "scanned",
+      "enough",
+      "card"
+     ],
+     "suggestion": "I scanned my Superstore card. Is that enough?",
+     "suggestionFa": "کارت سوپراستورم را اسکن کردم. کافیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "safe",
+     "fa": "امن"
+    },
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "kept",
+     "fa": "نگه داشتم"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you can return faulty items for a refund. Most shops also accept unwanted items within about 30 days with a receipt.",
+    "fa": "کالای معیوب را می‌توان پس داد و پول گرفت."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "zara",
+   "text": "Perfect, I can find it on your card. Bought on the third, nineteen ninety-nine. Would you like a refund or an exchange?",
+   "translations": {
+    "fa": "عالیه، از روی کارتت پیداش می‌کنم. خرید سوم ماه، نوزده و نود و نه. پولت را پس می‌خوای یا تعویض؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "refund",
+      "better",
+      "please",
+      "i'll"
+     ],
+     "suggestion": "A refund, please. I'll buy a better one.",
+     "suggestionFa": "پس دادن پول، لطفاً. یه بهترش می‌خرم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exchange",
+      "working",
+      "kettle",
+      "same"
+     ],
+     "suggestion": "An exchange. The same kettle, but working!",
+     "suggestionFa": "تعویض. همون کتری، ولی سالم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "refund",
+     "fa": "بازپرداخت پول"
+    },
+    {
+     "word": "exchange",
+     "fa": "تعویض"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    },
+    {
+     "word": "working",
+     "fa": "سالم ؛ کارکن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "zara",
+   "text": "No problem. It goes back to the card you paid with. Can you tap that card here? It takes three to five days.",
+   "translations": {
+    "fa": "مشکلی نیست. پول به همون کارتی که باهاش پرداختی برمی‌گرده. میشه کارت را اینجا بزنی؟ سه تا پنج روز طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "today",
+      "three",
+      "five",
+      "days"
+     ],
+     "suggestion": "Three to five days? Not today?",
+     "suggestionFa": "سه تا پنج روز؟ امروز نه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "paid",
+      "ok"
+     ],
+     "suggestion": "I paid with my phone. Is that OK?",
+     "suggestionFa": "با گوشیم پرداخت کردم. اشکالی نداره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "goes back",
+     "fa": "برمی‌گردد"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن ؛ لمس کردن"
+    },
+    {
+     "word": "takes",
+     "fa": "طول می‌کشد"
+    },
+    {
+     "word": "days",
+     "fa": "روز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "Phone's fine, tap it the same way. Banks are slow, sorry — but you'll see it by Friday. Here's your refund receipt.",
+   "translations": {
+    "fa": "گوشی خوبه، همون‌طوری بزن. بانک‌ها کندن، ببخشید — ولی تا جمعه می‌بینیش. این رسید بازپرداختته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "return",
+      "shoes",
+      "thank",
+      "these"
+     ],
+     "suggestion": "Thank you. Can I return these shoes too?",
+     "suggestionFa": "ممنون. این کفش‌ها را هم می‌تونم پس بدم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "you've",
+      "great",
+      "been"
+     ],
+     "suggestion": "Great. You've been very helpful.",
+     "suggestionFa": "عالیه. خیلی کمک کردی.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slow",
+     "fa": "کند"
+    },
+    {
+     "word": "by Friday",
+     "fa": "تا جمعه"
+    },
+    {
+     "word": "refund receipt",
+     "fa": "رسید بازپرداخت"
+    },
+    {
+     "word": "helpful",
+     "fa": "کمک‌کننده"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "Have they been worn? If they're unworn, in the box, with the tag, yes. If you've worn them in the rain… that's harder!",
+   "translations": {
+    "fa": "پوشیده شدن؟ اگه پوشیده نشدن، تو جعبه، با برچسب، آره. اگه زیر بارون پوشیدیشون… اون سخت‌تره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "unworn",
+      "still",
+      "box"
+     ],
+     "suggestion": "They're unworn. Still in the box.",
+     "suggestionFa": "پوشیده نشدن. هنوز تو جعبه‌ان.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kitchen",
+      "once",
+      "just"
+     ],
+     "suggestion": "Just once. In the kitchen!",
+     "suggestionFa": "فقط یه بار. تو آشپزخونه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worn",
+     "fa": "پوشیده‌شده"
+    },
+    {
+     "word": "unworn",
+     "fa": "نپوشیده"
+    },
+    {
+     "word": "tag",
+     "fa": "برچسب قیمت ؛ اتیکت"
+    },
+    {
+     "word": "harder",
+     "fa": "سخت‌تر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "zara",
+   "text": "Ha! I'll pretend I didn't hear that. They look perfect. Refund done. You're a returns expert now!",
+   "translations": {
+    "fa": "ها! وانمود می‌کنم نشنیدم. بی‌نقص به نظر میان. پول برگشت. الان دیگه متخصص مرجوعی هستی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

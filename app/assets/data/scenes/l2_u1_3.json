@@ -32,8 +32,8 @@
     {
      "keywords": [
       "where",
-      "taken",
       "photo",
+      "taken",
       "was"
      ],
      "suggestion": "Where was this photo taken?",
@@ -69,9 +69,9 @@
     {
      "keywords": [
       "street",
-      "like",
       "then",
-      "high"
+      "high",
+      "like"
      ],
      "suggestion": "What was the High Street like then?",
      "suggestionFa": "خیابون اصلی اون موقع چطور بود؟",
@@ -137,8 +137,8 @@
      "keywords": [
       "there",
       "every",
-      "use",
-      "did"
+      "did",
+      "use"
      ],
      "suggestion": "Did you use to go there every day?",
      "suggestionFa": "هر روز می‌رفتید اونجا؟",
@@ -294,8 +294,8 @@
     {
      "keywords": [
       "maths",
-      "bad",
-      "was"
+      "was",
+      "bad"
      ],
      "suggestion": "I was bad at maths too!",
      "suggestionFa": "من هم تو ریاضی بد بودم!",

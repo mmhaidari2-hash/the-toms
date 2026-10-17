@@ -21,8 +21,8 @@
      "keywords": [
       "happen",
       "dear",
-      "how",
-      "did"
+      "did",
+      "how"
      ],
      "suggestion": "Oh dear! How did it happen?",
      "suggestionFa": "ای وای! چطوری شد؟",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "touch",
       "don't",
-      "sharp",
-      "touch"
+      "sharp"
      ],
      "suggestion": "Don't touch it! It's sharp.",
      "suggestionFa": "دست نزن! تیزه.",
@@ -210,8 +210,8 @@
      "keywords": [
       "something",
       "ryan",
-      "say",
-      "has"
+      "has",
+      "say"
      ],
      "suggestion": "Ryan has something to say.",
      "suggestionFa": "رایان یه چیزی می‌خواد بگه.",
@@ -305,8 +305,8 @@
    "branches": [
     {
      "keywords": [
-      "angry",
       "isn't",
+      "angry",
       "she",
       "see"
      ],

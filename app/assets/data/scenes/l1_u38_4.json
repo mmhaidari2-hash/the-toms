@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "thank",
-      "notes"
+      "notes",
+      "thank"
      ],
      "suggestion": "What are thank-you notes?",
      "suggestionFa": "یادداشت تشکر چیه؟",
@@ -65,8 +65,8 @@
    "branches": [
     {
      "keywords": [
-      "help",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "Yes, I'll help you.",
      "suggestionFa": "آره، کمکت می‌کنم.",
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "really",
-      "every",
       "night",
+      "every",
       "read"
      ],
      "suggestion": "Do you really read it every night?",
@@ -269,9 +269,9 @@
     },
     {
      "keywords": [
-      "only",
       "more",
-      "five"
+      "five",
+      "only"
      ],
      "suggestion": "Only five more!",
      "suggestionFa": "فقط پنج تای دیگه!",
@@ -312,10 +312,10 @@
     },
     {
      "keywords": [
-      "days",
       "five",
-      "one",
-      "day"
+      "days",
+      "day",
+      "one"
      ],
      "suggestion": "One a day. Five days!",
      "suggestionFa": "روزی یکی. پنج روز!",

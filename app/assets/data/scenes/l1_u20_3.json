@@ -122,8 +122,8 @@
      "keywords": [
       "leslie",
       "child",
-      "come",
-      "here"
+      "here",
+      "come"
      ],
      "suggestion": "Did Leslie come here as a child?",
      "suggestionFa": "لزلی بچه که بود میومد اینجا؟",
@@ -203,8 +203,8 @@
     {
      "keywords": [
       "hello",
-      "meet",
-      "nice"
+      "nice",
+      "meet"
      ],
      "suggestion": "Hello! Nice to meet you.",
      "suggestionFa": "سلام! از آشنایی‌تون خوشبختم.",
@@ -214,8 +214,8 @@
     },
     {
      "keywords": [
-      "showing",
       "library",
+      "showing",
       "maggie"
      ],
      "suggestion": "Yes. Maggie is showing me the library.",
@@ -302,8 +302,8 @@
    "branches": [
     {
      "keywords": [
-      "brave",
       "night",
+      "brave",
       "were",
       "all"
      ],
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "working",
-      "here",
-      "miss"
+      "miss",
+      "here"
      ],
      "suggestion": "Do you miss working here?",
      "suggestionFa": "دلتون برای کار اینجا تنگ شده؟",

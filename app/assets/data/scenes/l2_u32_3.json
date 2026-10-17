@@ -1,0 +1,408 @@
+{
+ "id": "l2_u32_3",
+ "characterId": "tom",
+ "title": "Booking a class",
+ "titleFa": "رزرو کلاس",
+ "setting": "Joining the gym · Level 2",
+ "settingFa": "عضویت در باشگاه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right, you and me. A class. Doctor says I need to get fit. Shall we book spin on Thursday? Or boxercise?",
+   "translations": {
+    "fa": "خب، تو و من. یه کلاس. دکتر میگه باید رو فرم بیام. پنج‌شنبه کلاس دوچرخه رزرو کنیم؟ یا بوکسرسایز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "spin"
+     ],
+     "suggestion": "What's spin?",
+     "suggestionFa": "«اسپین» چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "boxercise",
+      "sounds",
+      "let's",
+      "book"
+     ],
+     "suggestion": "Boxercise sounds fun. Let's book that.",
+     "suggestionFa": "بوکسرسایز جالب به نظر میاد. همونو رزرو کنیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get fit",
+     "fa": "روی فرم آمدن"
+    },
+    {
+     "word": "spin",
+     "fa": "کلاس دوچرخهٔ ثابت"
+    },
+    {
+     "word": "boxercise",
+     "fa": "ورزش بوکس هوازی"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Spin is cycling on bikes that don't move, with loud music and someone shouting. Very popular. Let me look on the app…",
+   "translations": {
+    "fa": "اسپین یعنی رکاب زدن رو دوچرخه‌هایی که حرکت نمی‌کنن، با موسیقی بلند و یکی که داد می‌زنه. خیلی محبوبه. بذار تو اپ ببینم…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouting",
+      "why"
+     ],
+     "suggestion": "Shouting? Why?",
+     "suggestionFa": "داد زدن؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "space",
+      "there",
+      "class"
+     ],
+     "suggestion": "Is there space in the class?",
+     "suggestionFa": "تو کلاس جا هست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cycling",
+     "fa": "دوچرخه‌سواری"
+    },
+    {
+     "word": "bikes",
+     "fa": "دوچرخه‌ها"
+    },
+    {
+     "word": "shouting",
+     "fa": "داد زدن"
+    },
+    {
+     "word": "popular",
+     "fa": "محبوب"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK gyms usually need you to book classes on their app. Popular classes fill up fast, and some charge if you don't turn up.",
+    "fa": "باشگاه‌ها معمولاً رزرو کلاس از طریق اپ را لازم می‌دانند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "To motivate you! Oh — spin is fully booked. \"Join waiting list?\" There are six people on it. Boxercise has two spaces.",
+   "translations": {
+    "fa": "برای انگیزه دادن! اوه — اسپین کاملاً پره. «به فهرست انتظار بپیوندید؟» شش نفر توشن. بوکسرسایز دو تا جا داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "boxercise",
+      "spaces",
+      "let's",
+      "then"
+     ],
+     "suggestion": "Let's book boxercise, then. Two spaces!",
+     "suggestionFa": "پس بوکسرسایز رزرو کنیم. دو تا جا!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "won't",
+      "six",
+      "get"
+     ],
+     "suggestion": "Six people? We won't get in.",
+     "suggestionFa": "شش نفر؟ جا گیرمون نمیاد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "motivate",
+     "fa": "انگیزه دادن"
+    },
+    {
+     "word": "fully booked",
+     "fa": "کاملاً پر"
+    },
+    {
+     "word": "waiting list",
+     "fa": "فهرست انتظار"
+    },
+    {
+     "word": "spaces",
+     "fa": "جاها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is two spaces",
+      "there are two space"
+     ],
+     "echo": "There are two spaces? Book them!",
+     "better": "There are two spaces.",
+     "betterFa": "دو جا خالی هست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Booked! Thursday, seven p.m. Boxercise with… Jade. Oh no. Jade is very… energetic. Last time I nearly died.",
+   "translations": {
+    "fa": "رزرو شد! پنج‌شنبه، هفت عصر. بوکسرسایز با… جِید. ای وای. جِید خیلی… پرانرژیه. دفعهٔ قبل نزدیک بود بمیرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "instead",
+      "should",
+      "maybe",
+      "yoga"
+     ],
+     "suggestion": "Ha! Maybe we should do yoga instead.",
+     "suggestionFa": "ها! شاید به‌جاش یوگا بریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "you'll",
+      "there",
+      "i'll",
+      "fine"
+     ],
+     "suggestion": "You'll be fine, Tom. I'll be there.",
+     "suggestionFa": "خوب میشی تام. من اونجام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "energetic",
+     "fa": "پرانرژی"
+    },
+    {
+     "word": "nearly",
+     "fa": "تقریباً ؛ نزدیک بود"
+    },
+    {
+     "word": "died",
+     "fa": "مرد"
+    },
+    {
+     "word": "instead",
+     "fa": "به‌جای آن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Yoga? I'd rather die boxing than fall asleep on a mat. Last time I did yoga, I snored. Leslie filmed it.",
+   "translations": {
+    "fa": "یوگا؟ ترجیح میدم موقع بوکس بمیرم تا اینکه رو تشک خوابم ببره. دفعهٔ آخر که یوگا رفتم، خروپف کردم. لزلی ازش فیلم گرفت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "snored",
+      "that's",
+      "yoga"
+     ],
+     "suggestion": "You snored in yoga? That's brilliant!",
+     "suggestionFa": "تو یوگا خروپف کردی؟ عالیه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rather",
+      "boxing",
+      "i'd"
+     ],
+     "suggestion": "I'd rather do boxing too.",
+     "suggestionFa": "منم بوکس را ترجیح میدم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    },
+    {
+     "word": "mat",
+     "fa": "تشک"
+    },
+    {
+     "word": "snored",
+     "fa": "خروپف کرد"
+    },
+    {
+     "word": "filmed",
+     "fa": "فیلم گرفت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "It's on Leslie's phone forever. Now — what do we need? Gloves are free at the gym. Bring a towel. And no big dinner before!",
+   "translations": {
+    "fa": "تا ابد رو گوشی لزلیه. خب — چی لازم داریم؟ دستکش تو باشگاه رایگانه. حوله بیار. و قبلش شام سنگین نخور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinner",
+      "why",
+      "big"
+     ],
+     "suggestion": "Why no big dinner?",
+     "suggestionFa": "چرا شام سنگین نه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thursday",
+      "can't",
+      "come",
+      "we"
+     ],
+     "suggestion": "What if we can't come on Thursday?",
+     "suggestionFa": "اگه پنج‌شنبه نتونستیم بیایم چی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forever",
+     "fa": "برای همیشه"
+    },
+    {
+     "word": "gloves",
+     "fa": "دستکش‌ها"
+    },
+    {
+     "word": "towel",
+     "fa": "حوله"
+    },
+    {
+     "word": "dinner",
+     "fa": "شام"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Cancel on the app before midday, or they charge £5. And no big dinner because… trust me. Boxercise. Jumping. Curry. No.",
+   "translations": {
+    "fa": "قبل از ظهر تو اپ لغو کن، وگرنه پنج پوند ازت می‌گیرن. و شام سنگین نه چون… باور کن. بوکسرسایز. پریدن. کاری. نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "curry",
+      "class",
+      "got"
+     ],
+     "suggestion": "Got it. No curry before class!",
+     "suggestionFa": "فهمیدم. قبل از کلاس کاری نه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reminder",
+      "midday",
+      "i'll",
+      "set"
+     ],
+     "suggestion": "Before midday. I'll set a reminder.",
+     "suggestionFa": "قبل از ظهر. یادآور می‌ذارم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "midday",
+     "fa": "ظهر"
+    },
+    {
+     "word": "charge",
+     "fa": "هزینه گرفتن"
+    },
+    {
+     "word": "jumping",
+     "fa": "پریدن"
+    },
+    {
+     "word": "reminder",
+     "fa": "یادآور"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Good man. Thursday, seven. If I don't survive, tell Leslie I love her. And tell Ryan he can't have my car.",
+   "translations": {
+    "fa": "آفرین. پنج‌شنبه، هفت. اگه زنده نموندم، به لزلی بگو دوستش دارم. و به رایان بگو ماشینم مال اون نمیشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

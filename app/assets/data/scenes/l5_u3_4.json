@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "stairs",
       "apples",
-      "pears",
-      "heard"
+      "stairs",
+      "isn't",
+      "pears"
      ],
      "suggestion": "I've heard of that! Isn't \"apples and pears\" stairs?",
      "suggestionFa": "دربارهٔ اون شنیدم! «سیب و گلابی» یعنی پله‌ها، نه؟",
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "brilliant",
       "confusing",
+      "brilliant",
       "that's",
       "but"
      ],
@@ -97,7 +97,7 @@
       "phrase",
       "don't",
       "you'd",
-      "full"
+      "have"
      ],
      "suggestion": "So if you don't know the full phrase, you'd have no idea!",
      "suggestionFa": "پس اگه عبارت کامل را ندونی، هیچی نمی‌فهمی!",
@@ -144,8 +144,8 @@
     {
      "keywords": [
       "secret",
-      "like",
       "code",
+      "like",
       "was"
      ],
      "suggestion": "So it was like a secret code.",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "he'll",
+      "have",
       "i'll",
-      "love",
-      "have"
+      "love"
      ],
      "suggestion": "I'll have to tell Tom. He'll love this.",
      "suggestionFa": "باید به تام بگم. عاشقش میشه.",

@@ -1,0 +1,372 @@
+{
+ "id": "l2_u27_2__as_leslie",
+ "characterId": "doris",
+ "title": "(As Leslie) The wheelchair space",
+ "titleFa": "(در نقش Leslie) فضای ویلچر",
+ "setting": "Bus trouble · Level 2",
+ "settingFa": "دردسرهای اتوبوس",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u27_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "doris",
+   "text": "Oh dear. There's a man in a wheelchair waiting at the stop. And a mum with a pushchair is in the space. Tricky!",
+   "translations": {
+    "fa": "ای وای. یه آقایی با ویلچر تو ایستگاه منتظره. یه مامان با کالسکه هم تو اون فضاست. سخته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wheelchair",
+     "fa": "ویلچر"
+    },
+    {
+     "word": "pushchair",
+     "fa": "کالسکه"
+    },
+    {
+     "word": "space",
+     "fa": "فضا"
+    },
+    {
+     "word": "tricky",
+     "fa": "سخت ؛ پیچیده"
+    },
+    {
+     "word": "priority",
+     "fa": "اولویت"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Who has priority, the wheelchair or the pushchair?",
+   "translations": {
+    "fa": "کی اولویت داره، ویلچر یا کالسکه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "doris",
+   "text": "It is Leslie! And the wheelchair has priority. It's the rule. Leslie will need to fold the pushchair or move it.",
+   "translations": {
+    "fa": "خود لزلیه! و ویلچر اولویت داره. قانونه. لزلی باید کالسکه را تا کنه یا جابه‌جاش کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rule",
+     "fa": "قانون"
+    },
+    {
+     "word": "fold",
+     "fa": "تا کردن"
+    },
+    {
+     "word": "move",
+     "fa": "جابه‌جا کردن"
+    },
+    {
+     "word": "asleep",
+     "fa": "خواب"
+    }
+   ],
+   "cultureNote": {
+    "en": "On London buses, wheelchair users have priority in the wheelchair space. Parents with buggies are asked to fold them or move.",
+    "fa": "در اتوبوس‌های لندن کاربران ویلچر در فضای مخصوص اولویت دارند."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Can I help her fold it?",
+   "translations": {
+    "fa": "می‌تونم کمکش کنم تاش کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pushchair",
+      "william",
+      "holding",
+      "asleep",
+      "course"
+     ],
+     "suggestion": "Oh, of course. Would you mind holding William? He's half asleep. I'll fold the pushchair.",
+     "suggestionFa": "آه، البته. اشکالی نداره ویلیام را بغل کنی؟ نیمه‌خوابه. من کالسکه را تا می‌کنم.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Of course. Come here, William.",
+   "translations": {
+    "fa": "البته. بیا اینجا ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "william",
+   "text": "Bus! Big bus! Where we going?",
+   "translations": {
+    "fa": "اتوبوس! اتوبوس بزرگ! کجا میریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "going",
+     "fa": "رفتن"
+    },
+    {
+     "word": "home",
+     "fa": "خانه"
+    },
+    {
+     "word": "look",
+     "fa": "نگاه کردن"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "We're going home, William.",
+   "translations": {
+    "fa": "داریم میریم خونه ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "doris",
+   "text": "The ramp's coming out now. Isn't it clever? It goes \"beep beep beep\". William, can you see the ramp?",
+   "translations": {
+    "fa": "الان سطح شیب‌دار داره بیرون میاد. زرنگه، نه؟ «بیپ بیپ بیپ» می‌کنه. ویلیام، سطح شیب‌دار را می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ramp",
+     "fa": "سطح شیب‌دار"
+    },
+    {
+     "word": "clever",
+     "fa": "زرنگ ؛ هوشمند"
+    },
+    {
+     "word": "slide",
+     "fa": "سرسره"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "The bus has a ramp? I didn't know!",
+   "translations": {
+    "fa": "اتوبوس سطح شیب‌دار داره؟ نمی‌دونستم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "william",
+   "text": "Wheelie man! Hello wheelie man!",
+   "translations": {
+    "fa": "آقای چرخ‌دار! سلام آقای چرخ‌دار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wheelie",
+     "fa": "چرخ‌دار (کودکانه)"
+    },
+    {
+     "word": "sir",
+     "fa": "آقا"
+    },
+    {
+     "word": "wheels",
+     "fa": "چرخ‌ها"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "William! Say \"Hello, sir\".",
+   "translations": {
+    "fa": "ویلیام! بگو «سلام آقا»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pushchair",
+      "goodness",
+      "laughing",
+      "there's",
+      "little"
+     ],
+     "suggestion": "He's laughing, thank goodness. He says \"Hello, little man\". There's room at the back. Can you carry the pushchair?",
+     "suggestionFa": "داره می‌خنده، خدا را شکر. میگه «سلام کوچولو». ته اتوبوس جا هست. میشه کالسکه را بیاری؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Yes. It's heavier than it looks!",
+   "translations": {
+    "fa": "آره. از ظاهرش سنگین‌تره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "doris",
+   "text": "Well done, both of you. That's how the 38 works. Everyone shuffles round a bit, and everyone gets home.",
+   "translations": {
+    "fa": "آفرین به هر دوتون. ۳۸ این‌جوری کار می‌کنه. همه یه‌کم جابه‌جا میشن، و همه می‌رسن خونه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

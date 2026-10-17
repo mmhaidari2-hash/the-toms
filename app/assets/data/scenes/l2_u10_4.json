@@ -34,7 +34,7 @@
       "orange",
       "thanks",
       "juice",
-      "i'll"
+      "have"
      ],
      "suggestion": "I'll have an orange juice, thanks.",
      "suggestionFa": "آب پرتقال می‌خورم، ممنون.",
@@ -101,8 +101,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "going",
+      "where",
       "next",
       "al"
      ],
@@ -256,8 +256,8 @@
      "keywords": [
       "journey",
       "we'd",
-      "love",
-      "long"
+      "long",
+      "love"
      ],
      "suggestion": "We'd love to. Is it a long journey?",
      "suggestionFa": "خیلی دوست داریم. سفرش طولانیه؟",
@@ -320,8 +320,8 @@
      "keywords": [
       "edinburgh",
       "cheers",
-      "luck",
-      "good"
+      "good",
+      "luck"
      ],
      "suggestion": "Cheers! Good luck in Edinburgh!",
      "suggestionFa": "به سلامتی! تو ادینبرو موفق باشی!",

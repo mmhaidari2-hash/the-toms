@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "here",
       "more",
+      "here",
       "lot",
       "go"
      ],
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "thermostat",
-      "maybe",
       "could",
+      "maybe",
       "turn"
      ],
      "suggestion": "Maybe we could turn the thermostat down a bit.",
@@ -85,10 +85,10 @@
     },
     {
      "keywords": [
-      "shorter",
       "showers",
-      "i'll",
-      "have"
+      "shorter",
+      "have",
+      "i'll"
      ],
      "suggestion": "I'll try to have shorter showers too.",
      "suggestionFa": "من هم سعی می‌کنم دوش کوتاه‌تر بگیرم.",
@@ -126,10 +126,10 @@
    "branches": [
     {
      "keywords": [
-      "times",
       "could",
-      "week",
-      "cook"
+      "times",
+      "cook",
+      "week"
      ],
      "suggestion": "I could cook a few times a week.",
      "suggestionFa": "می‌تونم هفته‌ای چند بار آشپزی کنم.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "spend",
-      "food",
       "much",
+      "food",
       "how"
      ],
      "suggestion": "How much do we spend on food?",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "council",
       "exactly",
+      "council",
       "what's",
       "tax"
      ],
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "like",
-      "help",
+      "rent",
       "more",
-      "rent"
+      "like",
+      "help"
      ],
      "suggestion": "I'd like to pay a bit more rent to help.",
      "suggestionFa": "دوست دارم یه کم اجارهٔ بیشتری بدم کمک کنم.",
@@ -242,10 +242,10 @@
    "branches": [
     {
      "keywords": [
+      "meal",
       "i'll",
-      "deal",
-      "next",
-      "meal"
+      "plan",
+      "week"
      ],
      "suggestion": "Deal. I'll make a meal plan for next week.",
      "suggestionFa": "قبول. برای هفتهٔ بعد برنامهٔ غذایی می‌نویسم.",

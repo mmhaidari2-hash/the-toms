@@ -79,8 +79,8 @@
     {
      "keywords": [
       "librarian",
-      "more",
       "time",
+      "more",
       "ask"
      ],
      "suggestion": "Ask the librarian for more time.",
@@ -134,8 +134,8 @@
      "keywords": [
       "bennett",
       "he's",
-      "help",
-      "kind"
+      "kind",
+      "help"
      ],
      "suggestion": "Mr Bennett can help you. He's very kind.",
      "suggestionFa": "آقای بنت می‌تونه کمکت کنه. خیلی مهربونه.",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "course",
-      "have",
       "card",
+      "have",
       "got"
      ],
      "suggestion": "Of course. Have you got your library card?",
@@ -240,8 +240,8 @@
     },
     {
      "keywords": [
-      "don't",
       "worry",
+      "don't",
       "i'll"
      ],
      "suggestion": "Don't worry. I'll type the number for you.",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "renew",
-      "press"
+      "press",
+      "renew"
      ],
      "suggestion": "Yes. Press \"renew all\".",
      "suggestionFa": "آره. «تمدید همه» را بزن.",

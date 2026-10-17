@@ -20,9 +20,9 @@
     {
      "keywords": [
       "nothing",
-      "cakes",
       "means",
-      "right"
+      "right",
+      "cakes"
      ],
      "suggestion": "\"Nowt\" means \"nothing\", right? I'll take the barm cakes.",
      "suggestionFa": "«نوت» یعنی «هیچی»، درسته؟ نون‌های بارم را برمی‌دارم.",
@@ -35,7 +35,7 @@
       "shakespeare",
       "haven't",
       "since",
-      "heard"
+      "class"
      ],
      "suggestion": "Thee? I haven't heard that since my Shakespeare class!",
      "suggestionFa": "«تی»؟ از کلاس شکسپیر تا حالا نشنیده بودم!",
@@ -80,7 +80,7 @@
       "summat",
       "sweet",
       "maybe",
-      "kid"
+      "our"
      ],
      "suggestion": "Summat sweet for our kid, maybe?",
      "suggestionFa": "شاید یه چیز شیرین برای داداشم؟",
@@ -92,8 +92,8 @@
      "keywords": [
       "eccles",
       "cakes",
-      "left",
-      "have"
+      "have",
+      "left"
      ],
      "suggestion": "Have you got any Eccles cakes left?",
      "suggestionFa": "کیک اکلز مونده؟",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
-      "much",
+      "kind",
       "dead",
-      "kind"
+      "much"
      ],
      "suggestion": "Ta very much! That's dead kind of you.",
      "suggestionFa": "خیلی مرسی! خیلی لطف داری.",
@@ -148,8 +148,8 @@
     },
     {
      "keywords": [
-      "cheers",
       "you've",
+      "cheers",
       "love",
       "made"
      ],
@@ -208,8 +208,8 @@
      "keywords": [
       "notebook",
       "northern",
-      "whole",
-      "words"
+      "words",
+      "whole"
      ],
      "suggestion": "I'll add it to my list. I've got a whole notebook of northern words.",
      "suggestionFa": "به لیستم اضافه‌اش می‌کنم. یه دفترچه پر از کلمات شمالی دارم.",

@@ -31,8 +31,8 @@
     {
      "keywords": [
       "today",
-      "let",
-      "pay"
+      "pay",
+      "let"
      ],
      "suggestion": "Let me pay today.",
      "suggestionFa": "بذار امروز من حساب کنم.",
@@ -62,8 +62,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "normal",
+      "please",
       "just"
      ],
      "suggestion": "Just a normal tea, please.",
@@ -169,8 +169,8 @@
      "keywords": [
       "please",
       "have",
-      "lid",
-      "can"
+      "can",
+      "lid"
      ],
      "suggestion": "Can I have a lid, please?",
      "suggestionFa": "می‌شه یه درپوش بدید، لطفاً؟",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thanks",
-      "tea",
-      "bye"
+      "bye",
+      "tea"
      ],
      "suggestion": "Bye! Thanks for the tea.",
      "suggestionFa": "خداحافظ! ممنون بابت چای.",

@@ -1,0 +1,409 @@
+{
+ "id": "l2_u24_1",
+ "characterId": "kai",
+ "title": "Finding the shop",
+ "titleFa": "پیدا کردن فروشگاه",
+ "setting": "Shopping centre · Level 2",
+ "settingFa": "مرکز خرید",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "kai",
+   "text": "Hi there, welcome to Hackney Central! I'm Kai, Customer Services. You look like a man on a mission.",
+   "translations": {
+    "fa": "سلام، به هکنی سنترال خوش اومدی! من کای هستم، خدمات مشتریان. شبیه آدمی هستی که یه مأموریت داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "please",
+      "shop",
+      "shoe"
+     ],
+     "suggestion": "I am! Where's the shoe shop, please?",
+     "suggestionFa": "هستم! مغازهٔ کفش کجاست، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "shops",
+      "map",
+      "kai"
+     ],
+     "suggestion": "Hi Kai. Is there a map of the shops?",
+     "suggestionFa": "سلام کای. نقشهٔ فروشگاه‌ها هست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Customer Services",
+     "fa": "خدمات مشتریان"
+    },
+    {
+     "word": "mission",
+     "fa": "مأموریت"
+    },
+    {
+     "word": "shoe shop",
+     "fa": "کفش‌فروشی"
+    },
+    {
+     "word": "map",
+     "fa": "نقشه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "kai",
+   "text": "The directory's just behind you — the big screen. See the red dot? \"You are here.\" We're on the ground floor.",
+   "translations": {
+    "fa": "راهنمای فروشگاه‌ها درست پشت سرته — اون صفحهٔ بزرگ. نقطهٔ قرمز را می‌بینی؟ «شما اینجا هستید.» ما طبقهٔ همکفیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "shoes",
+      "see"
+     ],
+     "suggestion": "I see it. Which floor are the shoes on?",
+     "suggestionFa": "می‌بینمش. کفش‌ها طبقهٔ چندمن؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ground",
+      "first",
+      "same",
+      "as"
+     ],
+     "suggestion": "Ground floor? Is that the same as first floor?",
+     "suggestionFa": "طبقهٔ همکف؟ همون طبقهٔ اوله؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "directory",
+     "fa": "راهنمای فروشگاه‌ها"
+    },
+    {
+     "word": "dot",
+     "fa": "نقطه"
+    },
+    {
+     "word": "ground floor",
+     "fa": "طبقهٔ همکف"
+    },
+    {
+     "word": "floor",
+     "fa": "طبقه"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, the \"ground floor\" is at street level. The \"first floor\" is one floor up — Americans call that the second floor!",
+    "fa": "طبقهٔ همکف هم‌سطح خیابان است و «طبقهٔ اول» یک طبقه بالاتر."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "kai",
+   "text": "No — in Britain the first floor is upstairs. Shoes are on the first floor. Take the escalator, then turn left.",
+   "translations": {
+    "fa": "نه — تو بریتانیا طبقهٔ اول طبقهٔ بالاست. کفش‌ها طبقهٔ اولن. با پله‌برقی برو بالا، بعد بپیچ چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "escalator",
+      "there",
+      "then",
+      "lift"
+     ],
+     "suggestion": "Escalator, then left. Is there a lift too?",
+     "suggestionFa": "پله‌برقی، بعد چپ. آسانسور هم هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "upstairs",
+      "thanks"
+     ],
+     "suggestion": "Upstairs and left. Thanks!",
+     "suggestionFa": "بالا و چپ. ممنون!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "escalator",
+     "fa": "پله‌برقی"
+    },
+    {
+     "word": "turn left",
+     "fa": "به چپ پیچیدن"
+    },
+    {
+     "word": "lift",
+     "fa": "آسانسور"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "which floor is shoes",
+      "in which floor are shoe"
+     ],
+     "echo": "Which floor? The first floor.",
+     "better": "Which floor are the shoes on?",
+     "betterFa": "کفش‌ها در کدام طبقه‌اند؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "kai",
+   "text": "The lift's by the toilets, past the food court. Handy if you've got a pushchair. Are you shopping for kids?",
+   "translations": {
+    "fa": "آسانسور کنار توالت‌هاست، بعد از فودکورت. اگه کالسکه داری به درد می‌خوره. برای بچه‌ها خرید می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school",
+      "shoes",
+      "five",
+      "year"
+     ],
+     "suggestion": "Yes, school shoes for a five-year-old.",
+     "suggestionFa": "آره، کفش مدرسه برای یه بچهٔ پنج ساله.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "court",
+      "food"
+     ],
+     "suggestion": "What's a food court?",
+     "suggestionFa": "فودکورت چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toilets",
+     "fa": "توالت‌ها"
+    },
+    {
+     "word": "food court",
+     "fa": "فودکورت ؛ محوطهٔ غذاخوری"
+    },
+    {
+     "word": "handy",
+     "fa": "به‌درد‌بخور"
+    },
+    {
+     "word": "pushchair",
+     "fa": "کالسکه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "kai",
+   "text": "School shoes! Then go to the big shoe shop — they measure kids' feet for free. Black shoes, with Velcro, yeah?",
+   "translations": {
+    "fa": "کفش مدرسه! پس برو کفش‌فروشی بزرگه — پای بچه‌ها را مجانی اندازه می‌گیرن. کفش مشکی، با چسب، آره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "velcro",
+      "laces"
+     ],
+     "suggestion": "Velcro? Not laces?",
+     "suggestionFa": "چسبی؟ نه بندی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "measure",
+      "that's",
+      "useful",
+      "feet"
+     ],
+     "suggestion": "They measure feet? That's useful.",
+     "suggestionFa": "پا را اندازه می‌گیرن؟ چه خوب.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "measure",
+     "fa": "اندازه گرفتن"
+    },
+    {
+     "word": "feet",
+     "fa": "پاها"
+    },
+    {
+     "word": "Velcro",
+     "fa": "چسب (پارچه‌ای)"
+    },
+    {
+     "word": "laces",
+     "fa": "بند کفش"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "kai",
+   "text": "At five? Velcro, trust me. Teachers don't want to tie thirty pairs of laces after PE.",
+   "translations": {
+    "fa": "پنج سالگی؟ چسبی، باور کن. معلم‌ها نمی‌خوان بعد از ورزش سی جفت بند کفش ببندن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "that's",
+      "after",
+      "true"
+     ],
+     "suggestion": "Ha! That's true. Where's the café, after?",
+     "suggestionFa": "ها! درسته. کافه بعدش کجاست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shoe",
+      "shop",
+      "good",
+      "busy"
+     ],
+     "suggestion": "Good tip. Is the shoe shop busy now?",
+     "suggestionFa": "نکتهٔ خوبیه. کفش‌فروشی الان شلوغه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "trust me",
+     "fa": "باور کن"
+    },
+    {
+     "word": "tie",
+     "fa": "بستن"
+    },
+    {
+     "word": "pairs",
+     "fa": "جفت‌ها"
+    },
+    {
+     "word": "PE",
+     "fa": "ورزش مدرسه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "kai",
+   "text": "Saturday morning — busy, sorry! Take a ticket at the door and they'll call your number. Café's on the top floor.",
+   "translations": {
+    "fa": "صبح شنبه — شلوغه، ببخشید! دم در یه نوبت بگیر، شماره‌ات را صدا می‌زنن. کافه طبقهٔ آخره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "counter",
+      "deli",
+      "like"
+     ],
+     "suggestion": "A ticket? Like at the deli counter?",
+     "suggestionFa": "نوبت؟ مثل پیشخوان اغذیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "coffee",
+      "shoes",
+      "plan"
+     ],
+     "suggestion": "OK. Ticket, shoes, coffee. Perfect plan.",
+     "suggestionFa": "باشه. نوبت، کفش، قهوه. برنامهٔ عالی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ticket",
+     "fa": "برگهٔ نوبت"
+    },
+    {
+     "word": "call",
+     "fa": "صدا زدن"
+    },
+    {
+     "word": "top floor",
+     "fa": "طبقهٔ آخر"
+    },
+    {
+     "word": "deli counter",
+     "fa": "پیشخوان اغذیه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "kai",
+   "text": "Exactly like that. Come back if you get lost — this desk, under the big \"Customer Services\" sign. Good luck!",
+   "translations": {
+    "fa": "دقیقاً همون‌طوری. اگه گم شدی برگرد — همین میز، زیر تابلوی بزرگ «خدمات مشتریان». موفق باشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "orange",
+      "though",
       "would",
-      "stiff",
+      "hands",
       "today"
      ],
      "suggestion": "Would you like an orange? I'll peel one for you. My hands are a bit stiff today, though.",
@@ -48,9 +48,9 @@
      "keywords": [
       "lovely",
       "knife",
-      "first",
+      "small",
       "hands",
-      "small"
+      "first"
      ],
      "suggestion": "Lovely. First, wash your hands. Then take a small knife.",
      "suggestionFa": "عالی. اول دستات را بشور. بعد یه چاقوی کوچیک بردار.",
@@ -100,7 +100,7 @@
       "perfect",
       "round",
       "peel",
-      "pull"
+      "then"
      ],
      "suggestion": "Perfect. Then pull the peel off with your fingers. Round and round.",
      "suggestionFa": "عالی. بعد پوست را با انگشتات بکن. دور تا دور.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "piece",
-      "made",
       "peel",
-      "came",
-      "when"
+      "made",
+      "when",
+      "wish"
      ],
      "suggestion": "One piece! When I was a girl, we made a wish if the peel came off in one piece.",
      "suggestionFa": "یه تیکه! وقتی بچه بودم، اگه پوست یه تیکه کنده میشد آرزو می‌کردیم.",
@@ -148,8 +148,8 @@
      "keywords": [
       "segments",
       "bicycle",
-      "usually",
       "finally",
+      "usually",
       "break"
      ],
      "suggestion": "Oh, a bicycle, usually! Now, finally, break it into segments.",
@@ -199,8 +199,8 @@
       "christmas",
       "stocking",
       "orange",
-      "about",
-      "treat"
+      "yalda",
+      "about"
      ],
      "suggestion": "We got an orange in our Christmas stocking. It was a big treat back then! Tell me about Yalda.",
      "suggestionFa": "تو جوراب کریسمس‌مون یه پرتقال می‌گرفتیم. اون موقع خیلی چیز ویژه‌ای بود! از یلدا بگو.",

@@ -22,9 +22,9 @@
     {
      "keywords": [
       "victoria",
-      "excuse",
-      "sponge",
       "sunday",
+      "sponge",
+      "excuse",
       "right"
      ],
      "suggestion": "Right, cake for Sunday. A Victoria sponge. Excuse me, mate! How much is that?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -99,11 +99,11 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "twenty",
-      "big",
+      "here's",
+      "lot",
       "one",
-      "eat"
+      "big"
      ],
      "suggestion": "The big one. My lot eat a lot! Here's a twenty.",
      "suggestionFa": "بزرگه. خانواده‌م زیاد می‌خورن! بفرما یه بیستی.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -312,8 +312,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

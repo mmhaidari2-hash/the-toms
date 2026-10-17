@@ -20,9 +20,9 @@
     {
      "keywords": [
       "let's",
-      "ones",
       "some",
-      "find"
+      "find",
+      "ones"
      ],
      "suggestion": "Let's find some new ones.",
      "suggestionFa": "بیا یه جفت نو پیدا کنیم.",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "colour",
       "nicola",
+      "colour",
       "which"
      ],
      "suggestion": "Which colour, Nicola?",
@@ -215,8 +215,8 @@
     },
     {
      "keywords": [
-      "walk",
       "them",
+      "walk",
       "can",
       "she"
      ],
@@ -307,8 +307,8 @@
    "branches": [
     {
      "keywords": [
-      "mirror",
       "nicola",
+      "mirror",
       "walk"
      ],
      "suggestion": "Walk to the mirror, Nicola.",

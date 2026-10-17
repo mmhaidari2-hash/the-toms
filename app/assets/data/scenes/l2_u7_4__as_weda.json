@@ -22,10 +22,10 @@
     {
      "keywords": [
       "asleep",
-      "power",
       "night",
+      "power",
       "about",
-      "hear"
+      "last"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "suddenly",
+      "blowing",
       "raining",
       "reading",
-      "blowing",
       "george"
      ],
      "suggestion": "Oh, you poor thing! It was raining hard and the wind was blowing. George was reading, and suddenly — dark!",
@@ -99,8 +99,8 @@
       "candlelight",
       "batteries",
       "drinking",
-      "sitting",
-      "telling"
+      "telling",
+      "sitting"
      ],
      "suggestion": "Yes, but the batteries were dead! So we were sitting by candlelight, drinking cold tea, and telling stories.",
      "suggestionFa": "آره، ولی باتری‌هاش تموم شده بود! پس زیر نور شمع نشسته بودیم، چای سرد می‌خوردیم و قصه می‌گفتیم.",
@@ -149,7 +149,7 @@
       "batteries",
       "buying",
       "first",
-      "next",
+      "time",
       "fine"
      ],
      "suggestion": "All fine now. But next time, I'm buying new batteries first!",

@@ -85,9 +85,9 @@
     {
      "keywords": [
       "water",
-      "need",
       "much",
-      "they"
+      "they",
+      "need"
      ],
      "suggestion": "How much water do they need?",
      "suggestionFa": "چقدر آب لازم دارن؟",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "goldie",
-      "food",
       "much",
-      "how"
+      "food",
+      "eat"
      ],
      "suggestion": "How much food does Goldie eat?",
      "suggestionFa": "گلدی چقدر غذا می‌خوره?",
@@ -244,7 +244,7 @@
       "goldie",
       "nicola",
       "photo",
-      "send"
+      "i'll"
      ],
      "suggestion": "I'll send Nicola a photo of Goldie!",
      "suggestionFa": "یه عکس از گلدی برای نیکولا می‌فرستم!",
@@ -290,10 +290,10 @@
     },
     {
      "keywords": [
-      "mine",
       "i'll",
-      "same",
-      "sure"
+      "time",
+      "mine",
+      "same"
      ],
      "suggestion": "Sure. I'll put mine out at the same time.",
      "suggestionFa": "حتماً. مال خودم را هم همون موقع می‌ذارم.",

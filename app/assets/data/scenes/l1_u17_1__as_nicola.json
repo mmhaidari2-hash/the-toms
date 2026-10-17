@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
+      "please",
       "squash",
       "orange",
-      "please",
       "water"
      ],
      "suggestion": "Not water. Squash, please! Orange squash.",
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "cupboard",
-      "strong",
-      "squash",
       "little",
+      "squash",
+      "strong",
       "water"
      ],
      "suggestion": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
@@ -97,8 +97,8 @@
      "keywords": [
       "perfect",
       "squash",
-      "want",
       "some",
+      "want",
       "mmm"
      ],
      "suggestion": "Mmm, perfect! Do you want some squash too?",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "bottle",
-      "fridge",
       "drinks",
-      "mummy",
-      "cross"
+      "fridge",
+      "cross",
+      "mummy"
      ],
      "suggestion": "Milk is in the fridge. Ryan drinks milk from the bottle! Mummy gets cross.",
      "suggestionFa": "شیر تو یخچاله. رایان از بطری شیر می‌خوره! مامان عصبانی میشه.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "which",
+      "green",
       "milk",
-      "want",
-      "blue"
+      "blue",
+      "want"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,9 +170,9 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "likes",
       "daddy",
+      "green",
       "half",
       "full"
      ],
@@ -198,8 +198,8 @@
       "cheers",
       "that's",
       "grown",
-      "ups",
-      "say"
+      "say",
+      "ups"
      ],
      "suggestion": "Cheers! That's what grown-ups say. Cheers!",
      "suggestionFa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!",

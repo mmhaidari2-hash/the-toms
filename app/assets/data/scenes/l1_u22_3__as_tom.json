@@ -23,8 +23,8 @@
      "keywords": [
       "snowing",
       "window",
-      "wake",
       "look",
+      "wake",
       "out"
      ],
      "suggestion": "Wake up! Look out of the window! It's snowing!",
@@ -73,8 +73,8 @@
      "keywords": [
       "school",
       "happy",
-      "sent",
       "snow",
+      "sent",
       "kids"
      ],
      "suggestion": "Yes! The school sent a text. It's a snow day! The kids are so happy.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "snowman",
-      "starts",
       "slowly",
-      "build",
-      "let's"
+      "starts",
+      "let's",
+      "build"
      ],
      "suggestion": "My bus starts at ten today. Slowly, slowly! Let's build a snowman first.",
      "suggestionFa": "اتوبوسم امروز ساعت ده شروع می‌کنه. یواش یواش! بیا اول یه آدم‌برفی بسازیم.",
@@ -148,9 +148,9 @@
      "keywords": [
       "snowball",
       "small",
-      "roll",
+      "head",
       "then",
-      "head"
+      "body"
      ],
      "suggestion": "Roll a big snowball for the body. Then a small one for the head.",
      "suggestionFa": "یه گلوله برفی بزرگ برای بدن بغلتون. بعد یه کوچیک برای سر.",
@@ -174,8 +174,8 @@
       "nicola's",
       "bringing",
       "daddy's",
-      "carrot",
-      "stones"
+      "stones",
+      "carrot"
      ],
      "suggestion": "Now a carrot for the nose, and stones for the eyes. Nicola's bringing Daddy's old scarf.",
      "suggestionFa": "حالا یه هویج برای دماغ، و سنگ برای چشما. نیکولا داره شال‌گردن قدیمی بابا را میاره.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "snowball",
-      "frosty",
-      "ryan's",
+      "coming",
       "nicola",
-      "coming"
+      "ryan's",
+      "frosty"
      ],
      "suggestion": "Nicola says his name is \"Mr Frosty\". Uh-oh… snowball fight! Ryan's coming! Run!",
      "suggestionFa": "نیکولا می‌گه اسمش «آقای یخی»ـه. اوه اوه… جنگ گلوله‌برفی! رایان داره میاد! فرار کن!",
@@ -225,7 +225,7 @@
       "chocolate",
       "everyone",
       "inside",
-      "right"
+      "socks"
      ],
      "suggestion": "Ha ha! Brilliant! Right, everyone inside. Hot chocolate and dry socks! The best snow day ever!",
      "suggestionFa": "ها ها! عالی! خب، همه برید تو. هات چاکلت و جوراب خشک! بهترین روز برفی!",

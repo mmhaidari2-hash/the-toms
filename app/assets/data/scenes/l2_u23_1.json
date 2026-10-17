@@ -1,0 +1,409 @@
+{
+ "id": "l2_u23_1",
+ "characterId": "zara",
+ "title": "Loyalty card and yellow stickers",
+ "titleFa": "کارت مشتری و برچسب زرد",
+ "setting": "Returns and click & collect · Level 2",
+ "settingFa": "مرجوعی و سفارش آنلاین",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "zara",
+   "text": "Before you pay — have you got a Superstore card? You'd save one pound twenty on this shop.",
+   "translations": {
+    "fa": "قبل از پرداخت — کارت سوپراستور داری؟ تو همین خرید یه پوند و بیست پنس صرفه‌جویی می‌کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "work",
+      "how"
+     ],
+     "suggestion": "No, I haven't. How does it work?",
+     "suggestionFa": "نه، ندارم. چطوری کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "pound",
+      "free",
+      "one"
+     ],
+     "suggestion": "One pound twenty? Is it free?",
+     "suggestionFa": "یه پوند و بیست؟ مجانیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "save",
+     "fa": "صرفه‌جویی کردن"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "work",
+     "fa": "کار کردن ؛ عمل کردن"
+    },
+    {
+     "word": "free",
+     "fa": "مجانی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "zara",
+   "text": "It's free. You download the app, or take a plastic card. Scan it first, every time. You get member prices and points.",
+   "translations": {
+    "fa": "مجانیه. اپ را دانلود می‌کنی یا کارت پلاستیکی می‌گیری. هر بار اول اسکنش کن. قیمت اعضا و امتیاز می‌گیری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prices",
+      "member"
+     ],
+     "suggestion": "What are member prices?",
+     "suggestionFa": "قیمت اعضا یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "points",
+      "can"
+     ],
+     "suggestion": "Points? What can I do with points?",
+     "suggestionFa": "امتیاز؟ با امتیاز چی کار می‌تونم بکنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "download",
+     "fa": "دانلود کردن"
+    },
+    {
+     "word": "member prices",
+     "fa": "قیمت اعضا"
+    },
+    {
+     "word": "points",
+     "fa": "امتیازها"
+    },
+    {
+     "word": "every time",
+     "fa": "هر بار"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most big UK supermarkets have a free loyalty card. Card holders pay lower \"member\" or \"card\" prices on many items.",
+    "fa": "بیشتر سوپرمارکت‌ها کارت مشتری رایگان دارند و دارندگان آن قیمت کمتری می‌پردازند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "See the purple labels? Two prices. The low one is for card holders. And points turn into vouchers every three months.",
+   "translations": {
+    "fa": "برچسب‌های بنفش را می‌بینی؟ دو تا قیمت. قیمت پایین برای دارندگان کارته. امتیازها هم هر سه ماه تبدیل به کوپن میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "without",
+      "more",
+      "card",
+      "pay"
+     ],
+     "suggestion": "So without a card I pay more?",
+     "suggestionFa": "پس بدون کارت بیشتر می‌پردازم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "vouchers",
+      "them",
+      "use"
+     ],
+     "suggestion": "Vouchers! Can I use them for anything?",
+     "suggestionFa": "کوپن! برای هر چیزی می‌تونم استفاده کنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "labels",
+     "fa": "برچسب‌ها"
+    },
+    {
+     "word": "card holders",
+     "fa": "دارندگان کارت"
+    },
+    {
+     "word": "vouchers",
+     "fa": "کوپن‌ها ؛ بن‌ها"
+    },
+    {
+     "word": "without",
+     "fa": "بدون"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "zara",
+   "text": "Exactly. Without a card, you pay the higher price. Shall I sign you up now? I just need your email address.",
+   "translations": {
+    "fa": "دقیقاً. بدون کارت قیمت بالاتر را می‌پردازی. الان ثبت‌نامت کنم؟ فقط ایمیلت را لازم دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "please",
+      "phone",
+      "need"
+     ],
+     "suggestion": "Yes, please. Do you need my phone number too?",
+     "suggestionFa": "آره، لطفاً. شماره تلفنم هم لازمه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "later",
+      "can",
+      "app"
+     ],
+     "suggestion": "Can I do it later on the app?",
+     "suggestionFa": "میشه بعداً تو اپ انجامش بدم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign up",
+     "fa": "ثبت‌نام کردن"
+    },
+    {
+     "word": "email address",
+     "fa": "آدرس ایمیل"
+    },
+    {
+     "word": "later",
+     "fa": "بعداً"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you need my phone number too?",
+      "need you my number"
+     ],
+     "echo": "My phone number? No, just email.",
+     "better": "Do you need my phone number too?",
+     "betterFa": "شماره تلفنم را هم لازم دارید؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "zara",
+   "text": "Just email. Done — here's a temporary card. Now, a tip: come after seven in the evening for the yellow stickers.",
+   "translations": {
+    "fa": "فقط ایمیل. تموم — این یه کارت موقته. حالا یه نکته: بعد از ساعت هفت عصر بیا برای برچسب‌های زرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stickers",
+      "yellow",
+      "they"
+     ],
+     "suggestion": "Yellow stickers? What are they?",
+     "suggestionFa": "برچسب زرد؟ چی هستن؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "after",
+      "seven",
+      "why"
+     ],
+     "suggestion": "Thanks! Why after seven?",
+     "suggestionFa": "ممنون! چرا بعد از هفت؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "temporary",
+     "fa": "موقت"
+    },
+    {
+     "word": "tip",
+     "fa": "نکته ؛ توصیه"
+    },
+    {
+     "word": "stickers",
+     "fa": "برچسب‌ها"
+    },
+    {
+     "word": "evening",
+     "fa": "عصر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "Reduced food! Bread, salad, chicken — things with today's date. Sometimes ninety per cent off.",
+   "translations": {
+    "fa": "غذای تخفیفی! نون، سالاد، مرغ — چیزایی که تاریخشون امروزه. گاهی نود درصد تخفیف."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ninety",
+      "still",
+      "cent",
+      "food"
+     ],
+     "suggestion": "Ninety per cent? Is the food still OK?",
+     "suggestionFa": "نود درصد؟ غذاش هنوز سالمه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "tonight",
+      "come",
+      "i'll"
+     ],
+     "suggestion": "Brilliant. I'll come tonight!",
+     "suggestionFa": "عالیه. امشب میام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reduced",
+     "fa": "تخفیف‌خورده"
+    },
+    {
+     "word": "date",
+     "fa": "تاریخ"
+    },
+    {
+     "word": "per cent",
+     "fa": "درصد"
+    },
+    {
+     "word": "off",
+     "fa": "تخفیف"
+    }
+   ],
+   "cultureNote": {
+    "en": "A yellow \"reduced\" sticker means the food is near its use-by date. Eat it or freeze it that day.",
+    "fa": "برچسب زرد یعنی تاریخ مصرف کالا نزدیک است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "It's fine if you eat it today, or put it in the freezer. Check the \"use by\" date. That's the important one.",
+   "translations": {
+    "fa": "اگه امروز بخوری یا بذاری فریزر، مشکلی نیست. تاریخ «مصرف تا» را چک کن. اون مهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "before",
+      "what's",
+      "best"
+     ],
+     "suggestion": "What's the difference with \"best before\"?",
+     "suggestionFa": "فرقش با «بهتره قبل از» چیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "i'll",
+      "use",
+      "by"
+     ],
+     "suggestion": "Use by. I'll remember that.",
+     "suggestionFa": "مصرف تا. یادم می‌مونه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "freezer",
+     "fa": "فریزر"
+    },
+    {
+     "word": "use by",
+     "fa": "مصرف تا"
+    },
+    {
+     "word": "best before",
+     "fa": "بهتر است قبل از"
+    },
+    {
+     "word": "important",
+     "fa": "مهم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "zara",
+   "text": "\"Best before\" is about quality — biscuits might go soft. \"Use by\" is about safety. Right, scan your new card and pay!",
+   "translations": {
+    "fa": "«بهتره قبل از» دربارهٔ کیفیته — بیسکویت ممکنه نرم بشه. «مصرف تا» دربارهٔ ایمنیه. خب، کارت جدیدت را اسکن کن و پرداخت کن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

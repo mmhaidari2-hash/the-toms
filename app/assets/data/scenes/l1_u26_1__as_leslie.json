@@ -24,7 +24,7 @@
       "please",
       "nicola",
       "cross",
-      "hold",
+      "road",
       "park"
      ],
      "suggestion": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "crossing",
-      "there's",
       "stripes",
-      "zebra",
-      "black"
+      "there's",
+      "white",
+      "zebra"
      ],
      "suggestion": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
      "suggestionFa": "آره، یه خط عابر پیاده‌ست. راه‌راه سیاه و سفید، مثل گورخر!",
@@ -75,7 +75,7 @@
       "britain",
       "should",
       "always",
-      "drive"
+      "first"
      ],
      "suggestion": "They should stop. But always look first. Remember: in Britain, cars drive on the left!",
      "suggestionFa": "باید وایستن. ولی همیشه اول نگاه کن. یادت باشه: تو بریتانیا ماشین‌ها از سمت چپ می‌رن!",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "exactly",
-      "what's",
       "nicola",
+      "what's",
       "again",
       "right"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,10 +183,10 @@
     {
      "keywords": [
       "driver",
-      "coming",
       "waving",
-      "cross",
-      "let's"
+      "coming",
+      "let's",
+      "cross"
      ],
      "suggestion": "A bus is coming. Wait… Now the driver is waving. It's safe. Let's cross.",
      "suggestionFa": "یه اتوبوس داره میاد. صبر کن… حالا راننده داره دست تکون می‌ده. امنه. بیا رد شیم.",
@@ -208,10 +208,10 @@
     {
      "keywords": [
       "traffic",
-      "here's",
       "lights",
+      "here's",
       "green",
-      "next"
+      "road"
      ],
      "suggestion": "Here's the next road. This one has traffic lights. We wait for the green man.",
      "suggestionFa": "اینم خیابون بعدی. این یکی چراغ راهنمایی داره. منتظر آدمک سبز می‌مونیم.",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "button",
+      "press",
       "green",
       "means",
-      "press",
       "stop"
      ],
      "suggestion": "Yes, press the button! The red man means stop. The green man means go.",
@@ -257,9 +257,9 @@
    "branches": [
     {
      "keywords": [
-      "here's",
-      "nicola",
       "swings",
+      "nicola",
+      "here's",
       "well",
       "park"
      ],

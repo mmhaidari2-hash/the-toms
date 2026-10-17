@@ -21,8 +21,8 @@
      "keywords": [
       "library",
       "please",
-      "join",
-      "like"
+      "like",
+      "join"
      ],
      "suggestion": "I'd like to join the library, please.",
      "suggestionFa": "می‌خوام عضو کتابخونه بشم، لطفاً.",
@@ -76,8 +76,8 @@
      "keywords": [
       "haven't",
       "bring",
-      "next",
-      "time"
+      "time",
+      "next"
      ],
      "suggestion": "I haven't got one with me. Can I bring it next time?",
      "suggestionFa": "همراهم نیست. می‌تونم دفعهٔ بعد بیارمش؟",
@@ -225,7 +225,7 @@
       "children's",
       "that's",
       "where",
-      "know"
+      "good"
      ],
      "suggestion": "That's good to know. Where are the children's books?",
      "suggestionFa": "خوب شد گفتید. کتاب‌های بچه‌ها کجان؟",
@@ -317,10 +317,10 @@
    "branches": [
     {
      "keywords": [
-      "come",
       "free",
+      "love",
       "time",
-      "love"
+      "come"
      ],
      "suggestion": "Free? I'd love to come. What time?",
      "suggestionFa": "رایگان؟ دوست دارم بیام. ساعت چند؟",
@@ -373,7 +373,7 @@
       "helpful",
       "you've",
       "thank",
-      "much"
+      "been"
      ],
      "suggestion": "Thank you so much. You've been very helpful.",
      "suggestionFa": "خیلی ممنون. خیلی کمک کردید.",
@@ -384,8 +384,8 @@
     {
      "keywords": [
       "neighbour",
-      "bring",
       "she's",
+      "bring",
       "i'll"
      ],
      "suggestion": "I'll bring my neighbour. She's new here too.",

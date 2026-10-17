@@ -1,0 +1,352 @@
+{
+ "id": "l2_u31_1",
+ "characterId": "hughes",
+ "title": "Registering with an NHS dentist",
+ "titleFa": "ثبت‌نام در دندانپزشکی NHS",
+ "setting": "At the dentist · Level 2",
+ "settingFa": "در دندانپزشکی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "hughes",
+   "text": "Good morning, Smile Dental Practice, Mrs Hughes speaking. I'm one of the dentists. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، مطب دندانپزشکی اسمایل، هیوز هستم. یکی از دندانپزشک‌ها هستم. چطور کمک کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patients",
+      "taking",
+      "hello",
+      "nhs"
+     ],
+     "suggestion": "Hello. Are you taking on new NHS patients?",
+     "suggestionFa": "سلام. بیمار جدید NHS می‌پذیرید؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "register",
+      "dentist",
+      "please",
+      "like"
+     ],
+     "suggestion": "I'd like to register with a dentist, please.",
+     "suggestionFa": "می‌خوام در یه دندانپزشکی ثبت‌نام کنم، لطفاً.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dental practice",
+     "fa": "مطب دندانپزشکی"
+    },
+    {
+     "word": "taking on",
+     "fa": "پذیرفتن"
+    },
+    {
+     "word": "NHS patients",
+     "fa": "بیماران NHS"
+    },
+    {
+     "word": "register",
+     "fa": "ثبت‌نام کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "hughes",
+   "text": "You're lucky. We've just opened twenty NHS places this week. Most dentists in London have long waiting lists.",
+   "translations": {
+    "fa": "خوش‌شانسید. همین هفته بیست جای NHS باز کردیم. بیشتر دندانپزشکی‌های لندن فهرست انتظار طولانی دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lucky",
+      "need"
+     ],
+     "suggestion": "Lucky me! What do I need to do?",
+     "suggestionFa": "چه شانسی! باید چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "waiting",
+      "there",
+      "list",
+      "here"
+     ],
+     "suggestion": "Is there a waiting list here too?",
+     "suggestionFa": "اینجا هم فهرست انتظار هست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    },
+    {
+     "word": "places",
+     "fa": "جاها ؛ ظرفیت"
+    },
+    {
+     "word": "waiting lists",
+     "fa": "فهرست‌های انتظار"
+    },
+    {
+     "word": "long",
+     "fa": "طولانی"
+    }
+   ],
+   "cultureNote": {
+    "en": "You don't register with an NHS dentist like a GP. You find a practice \"taking on NHS patients\" and book a check-up. Places can be hard to find.",
+    "fa": "پیدا کردن دندانپزشک NHS گاهی سخت است و باید مطبی بیابید که بیمار جدید بپذیرد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "hughes",
+   "text": "Not today! Just fill in this form: medical history, medicines, and your GP's name. Then we'll book your first check-up.",
+   "translations": {
+    "fa": "امروز نه! فقط این فرم را پر کنید: سابقهٔ پزشکی، داروها و اسم پزشک عمومیتون. بعد اولین معاینه‌تون را رزرو می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "history",
+      "medical",
+      "what's"
+     ],
+     "suggestion": "What's medical history?",
+     "suggestionFa": "سابقهٔ پزشکی یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surgery",
+      "okafor",
+      "street",
+      "mare"
+     ],
+     "suggestion": "My GP is Dr Okafor, at Mare Street Surgery.",
+     "suggestionFa": "پزشک عمومیم دکتر اوکافوره، مطب مِر استریت.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fill in",
+     "fa": "پر کردن"
+    },
+    {
+     "word": "medical history",
+     "fa": "سابقهٔ پزشکی"
+    },
+    {
+     "word": "medicines",
+     "fa": "داروها"
+    },
+    {
+     "word": "check-up",
+     "fa": "معاینه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "hughes",
+   "text": "Illnesses you've had, operations, allergies. Now — NHS dentistry isn't free for most adults. Do you know the costs?",
+   "translations": {
+    "fa": "بیماری‌هایی که داشتید، عمل‌ها، حساسیت‌ها. خب — دندانپزشکی NHS برای بیشتر بزرگسال‌ها رایگان نیست. هزینه‌ها را می‌دونید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cost",
+      "much",
+      "how"
+     ],
+     "suggestion": "No. How much does it cost?",
+     "suggestionFa": "نه. هزینه‌اش چقدره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thought",
+      "free",
+      "was",
+      "nhs"
+     ],
+     "suggestion": "Not free? I thought the NHS was free.",
+     "suggestionFa": "رایگان نیست؟ فکر می‌کردم NHS رایگانه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "illnesses",
+     "fa": "بیماری‌ها"
+    },
+    {
+     "word": "operations",
+     "fa": "عمل‌های جراحی"
+    },
+    {
+     "word": "allergies",
+     "fa": "حساسیت‌ها"
+    },
+    {
+     "word": "costs",
+     "fa": "هزینه‌ها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how much it costs",
+      "how much does it costing"
+     ],
+     "echo": "How much does it cost? Let me explain.",
+     "better": "How much does it cost?",
+     "betterFa": "هزینه‌اش چقدر است؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "hughes",
+   "text": "There are three bands. Band 1, a check-up, is about £27. Band 2, fillings, is about £75. Band 3, crowns, is more.",
+   "translations": {
+    "fa": "سه رده هست. ردهٔ ۱، معاینه، حدود بیست و هفت پونده. ردهٔ ۲، پرکردن، حدود هفتاد و پنج. ردهٔ ۳، روکش، بیشتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "private",
+      "cheaper",
+      "that's",
+      "isn't"
+     ],
+     "suggestion": "That's much cheaper than private, isn't it?",
+     "suggestionFa": "خیلی ارزون‌تر از خصوصیه، نه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "free"
+     ],
+     "suggestion": "Are children free?",
+     "suggestionFa": "بچه‌ها رایگانن؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bands",
+     "fa": "رده‌ها ؛ سطوح هزینه"
+    },
+    {
+     "word": "fillings",
+     "fa": "پرکردگی‌ها"
+    },
+    {
+     "word": "crowns",
+     "fa": "روکش‌ها"
+    },
+    {
+     "word": "private",
+     "fa": "خصوصی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "hughes",
+   "text": "Much cheaper. And children under eighteen are free. So are pregnant women, and some people on benefits.",
+   "translations": {
+    "fa": "خیلی ارزون‌تر. بچه‌های زیر هجده سال هم رایگانن. همین‌طور خانم‌های باردار و بعضی از کسانی که کمک‌هزینه می‌گیرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "nicola",
+      "then",
+      "come"
+     ],
+     "suggestion": "Good. Nicola and William can come too, then.",
+     "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "band",
+      "now",
+      "pay"
+     ],
+     "suggestion": "I'm working now. So I pay Band 1?",
+     "suggestionFa": "الان کار می‌کنم. پس ردهٔ ۱ را می‌پردازم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "children",
+     "fa": "بچه‌ها"
+    },
+    {
+     "word": "pregnant",
+     "fa": "باردار"
+    },
+    {
+     "word": "benefits",
+     "fa": "کمک‌هزینه‌های دولتی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "hughes",
+   "text": "Exactly. Thursday at nine for your check-up? Arrive ten minutes early. If you can't come, call us — or we charge.",
+   "translations": {
+    "fa": "دقیقاً. پنج‌شنبه ساعت نه برای معاینه؟ ده دقیقه زودتر بیاید. اگه نمی‌تونید بیاید، زنگ بزنید — وگرنه هزینه می‌گیریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

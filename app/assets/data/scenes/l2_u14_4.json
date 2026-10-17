@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "log",
-      "how"
+      "how",
+      "log"
      ],
      "suggestion": "How do I log in?",
      "suggestionFa": "چطور وارد بشم؟",
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "colour",
-      "black",
-      "white"
+      "white",
+      "black"
      ],
      "suggestion": "Is it black and white or colour?",
      "suggestionFa": "سیاه‌سفیده یا رنگی؟",
@@ -281,8 +281,8 @@
     {
      "keywords": [
       "white",
-      "pages",
       "black",
+      "pages",
       "just"
      ],
      "suggestion": "Just two pages, black and white.",
@@ -296,7 +296,7 @@
       "cheaper",
       "that's",
       "cheap",
-      "shop"
+      "much"
      ],
      "suggestion": "That's cheap. Much cheaper than a shop.",
      "suggestionFa": "ارزونه. خیلی ارزون‌تر از مغازه.",
@@ -346,8 +346,8 @@
     },
     {
      "keywords": [
-      "useful",
       "that's",
+      "useful",
       "book",
       "come"
      ],

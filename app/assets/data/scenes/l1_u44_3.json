@@ -20,8 +20,8 @@
     {
      "keywords": [
       "course",
-      "loaf",
       "i'll",
+      "loaf",
       "buy"
      ],
      "suggestion": "Of course! I'll buy a loaf.",
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
+      "well",
       "ryan",
       "done",
-      "well",
       "job"
      ],
      "suggestion": "A job? Well done, Ryan!",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "pound",
-      "five",
-      "note"
+      "note",
+      "five"
      ],
      "suggestion": "Here's a five-pound note.",
      "suggestionFa": "بفرما یه اسکناس پنج پوندی.",
@@ -216,8 +216,8 @@
      "keywords": [
       "twenty",
       "sorry",
-      "i've",
-      "only"
+      "only",
+      "i've"
      ],
      "suggestion": "I've only got a twenty. Sorry!",
      "suggestionFa": "فقط یه بیستی دارم. ببخشید!",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "counting",
-      "that's",
       "clever",
+      "that's",
       "up"
      ],
      "suggestion": "That's clever, counting up.",

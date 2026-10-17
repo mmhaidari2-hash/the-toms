@@ -1,0 +1,411 @@
+{
+ "id": "l2_u22_1",
+ "characterId": "zara",
+ "title": "Which aisle?",
+ "titleFa": "کدام راهرو؟",
+ "setting": "Big supermarket · Level 2",
+ "settingFa": "سوپرمارکت بزرگ",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "zara",
+   "text": "Hiya! You look a bit lost. First time in the Superstore? It's massive, isn't it?",
+   "translations": {
+    "fa": "سلام! یه‌کم گم‌شده به نظر میای. اولین باره میای سوپراستور؟ خیلی بزرگه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "rice",
+      "huge",
+      "find"
+     ],
+     "suggestion": "Yes, it's huge! Where can I find rice?",
+     "suggestionFa": "آره، خیلی بزرگه! برنج را کجا پیدا کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looking",
+      "first",
+      "time",
+      "tea"
+     ],
+     "suggestion": "It's my first time. I'm looking for tea.",
+     "suggestionFa": "اولین بارمه. دنبال چای می‌گردم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lost",
+     "fa": "گم‌شده"
+    },
+    {
+     "word": "massive",
+     "fa": "خیلی بزرگ"
+    },
+    {
+     "word": "huge",
+     "fa": "عظیم"
+    },
+    {
+     "word": "find",
+     "fa": "پیدا کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "zara",
+   "text": "Rice and tea are both in aisle seven. Look up — the big green signs have numbers. See \"Aisle 7\"?",
+   "translations": {
+    "fa": "برنج و چای هر دو تو راهروی هفتن. بالا را نگاه کن — تابلوهای بزرگ سبز شماره دارن. «راهروی ۷» را می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bread",
+      "next",
+      "can",
+      "see"
+     ],
+     "suggestion": "Yes, I can see it. Next to the bread?",
+     "suggestionFa": "آره، می‌بینمش. کنار نون؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "basmati",
+      "thank",
+      "seven",
+      "rice"
+     ],
+     "suggestion": "Seven. Thank you! And basmati rice?",
+     "suggestionFa": "هفت. ممنون! برنج باسماتی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "aisle",
+     "fa": "راهرو"
+    },
+    {
+     "word": "signs",
+     "fa": "تابلوها"
+    },
+    {
+     "word": "look up",
+     "fa": "بالا را نگاه کردن"
+    },
+    {
+     "word": "next to",
+     "fa": "کنارِ"
+    }
+   ],
+   "cultureNote": {
+    "en": "Big UK supermarkets put numbered signs above every aisle. Staff in uniform are always happy to point the way.",
+    "fa": "سوپرمارکت‌های بزرگ بالای هر راهرو تابلوی شماره‌دار دارند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "where i can find",
+      "where is find"
+     ],
+     "echo": "Where can I find it? Aisle seven.",
+     "better": "Where can I find rice?",
+     "betterFa": "برنج را کجا پیدا کنم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "Just past the bread, yeah. Basmati's on the top shelf, opposite the noodles. The big bags are cheaper per kilo.",
+   "translations": {
+    "fa": "آره، درست بعد از نون. باسماتی رو قفسهٔ بالاست، روبه‌روی نودل‌ها. کیسه‌های بزرگ کیلویی ارزون‌ترن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "world",
+      "aisle",
+      "food"
+     ],
+     "suggestion": "Is there a world food aisle too?",
+     "suggestionFa": "راهروی غذاهای ملل هم هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "opposite",
+      "noodles",
+      "got"
+     ],
+     "suggestion": "Opposite the noodles. Got it.",
+     "suggestionFa": "روبه‌روی نودل‌ها. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "past",
+     "fa": "بعد از ؛ گذشته از"
+    },
+    {
+     "word": "top shelf",
+     "fa": "قفسهٔ بالا"
+    },
+    {
+     "word": "opposite",
+     "fa": "روبه‌رویِ"
+    },
+    {
+     "word": "per kilo",
+     "fa": "هر کیلو"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "zara",
+   "text": "There is! Aisle twelve, \"World Foods\". Persian, Turkish, Polish, Indian… Where are you from?",
+   "translations": {
+    "fa": "هست! راهروی دوازده، «غذاهای ملل». ایرانی، ترکی، لهستانی، هندی… اهل کجایی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saffron",
+      "have",
+      "from",
+      "iran"
+     ],
+     "suggestion": "I'm from Iran. Do you have saffron?",
+     "suggestionFa": "اهل ایرانم. زعفرون دارین؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "iranian",
+      "tehran",
+      "bread",
+      "miss"
+     ],
+     "suggestion": "Tehran. I miss Iranian bread!",
+     "suggestionFa": "تهران. دلم برای نون ایرانی تنگ شده!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "world foods",
+     "fa": "غذاهای ملل"
+    },
+    {
+     "word": "Persian",
+     "fa": "ایرانی ؛ فارسی"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ بودن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "zara",
+   "text": "We've got barberries and dried limes in twelve. Saffron is behind the till — it's expensive, so we keep it safe.",
+   "translations": {
+    "fa": "زرشک و لیموعمانی تو دوازده داریم. زعفرون پشت صندوقه — گرونه، برای همین نگهش می‌داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "till",
+      "why"
+     ],
+     "suggestion": "Behind the till? Why?",
+     "suggestionFa": "پشت صندوق؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "barberries",
+      "brilliant",
+      "where's",
+      "milk"
+     ],
+     "suggestion": "Barberries! Brilliant. And where's the milk?",
+     "suggestionFa": "زرشک! عالیه. شیر کجاست؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "barberries",
+     "fa": "زرشک"
+    },
+    {
+     "word": "dried limes",
+     "fa": "لیموعمانی"
+    },
+    {
+     "word": "behind",
+     "fa": "پشتِ"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "safe",
+     "fa": "امن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "People steal it! Tiny packet, big price. Milk's at the far end, in the fridges along the back wall.",
+   "translations": {
+    "fa": "مردم می‌دزدنش! بستهٔ کوچیک، قیمت بالا. شیر ته فروشگاهه، تو یخچال‌های کنار دیوار عقب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shop",
+      "end",
+      "ok"
+     ],
+     "suggestion": "At the end of the shop. OK!",
+     "suggestionFa": "ته فروشگاه. باشه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "back",
+      "milk",
+      "why"
+     ],
+     "suggestion": "Why is milk always at the back?",
+     "suggestionFa": "چرا شیر همیشه ته فروشگاهه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "steal",
+     "fa": "دزدیدن"
+    },
+    {
+     "word": "far end",
+     "fa": "انتهای دور"
+    },
+    {
+     "word": "fridges",
+     "fa": "یخچال‌ها"
+    },
+    {
+     "word": "back wall",
+     "fa": "دیوار عقب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "Ha — so you walk past everything else and buy more! That's the secret. Don't tell my manager I told you.",
+   "translations": {
+    "fa": "ها — که از کنار همه‌چیز رد بشی و بیشتر بخری! راز همینه. به مدیرم نگو بهت گفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clever",
+      "what's",
+      "i'll",
+      "only"
+     ],
+     "suggestion": "Clever! I'll only buy what's on my list.",
+     "suggestionFa": "زرنگی! فقط چیزایی که تو لیستمه می‌خرم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "secret",
+      "safe"
+     ],
+     "suggestion": "Your secret is safe with me.",
+     "suggestionFa": "رازت پیش من امنه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walk past",
+     "fa": "از کنار رد شدن"
+    },
+    {
+     "word": "secret",
+     "fa": "راز"
+    },
+    {
+     "word": "manager",
+     "fa": "مدیر"
+    },
+    {
+     "word": "clever",
+     "fa": "زرنگ"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "zara",
+   "text": "Good luck with that! I'm Zara, by the way. If you get lost again, look for a green shirt. We don't bite.",
+   "translations": {
+    "fa": "موفق باشی! راستی من زارام. اگه دوباره گم شدی، دنبال یه پیرهن سبز بگرد. گاز نمی‌گیریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

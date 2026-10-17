@@ -47,10 +47,10 @@
     {
      "keywords": [
       "dragons",
+      "played",
       "knight",
       "dragon",
-      "played",
-      "big"
+      "mia"
      ],
      "suggestion": "We played dragons! I was the big dragon. Mia was the knight.",
      "suggestionFa": "اژدهابازی کردیم! من اژدهای بزرگه بودم. میا شوالیه بود.",
@@ -73,8 +73,8 @@
      "keywords": [
       "whistle",
       "nobody",
-      "went",
       "then",
+      "went",
       "ran"
      ],
      "suggestion": "Nobody won. We ran and ran, then the whistle went.",
@@ -99,8 +99,8 @@
       "dropped",
       "oliver",
       "banana",
-      "fruit",
-      "apple"
+      "apple",
+      "fruit"
      ],
      "suggestion": "Then we had fruit. I had an apple. Oliver had a banana. He dropped it!",
      "suggestionFa": "بعد میوه خوردیم. من سیب خوردم. الیور موز خورد. افتاد زمین!",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "every",
-      "over",
-      "hurt",
       "then",
-      "knee"
+      "look",
+      "knee",
+      "hurt"
      ],
      "suggestion": "Yes! Every day. Then I fell over and hurt my knee. Look!",
      "suggestionFa": "آره! هر روز. بعد افتادم و زانوم درد گرفت. ببین!",
@@ -150,7 +150,7 @@
       "little",
       "ellis",
       "brave",
-      "only"
+      "gave"
      ],
      "suggestion": "Only a little bit. Mrs Ellis gave me a sticker. It says \"I was brave\"!",
      "suggestionFa": "فقط یه ذره. خانم الیس بهم یه برچسب داد. روش نوشته «من شجاع بودم»!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "fridge",
       "school",
+      "fridge",
       "mummy",
-      "here",
-      "says"
+      "play",
+      "iran"
      ],
      "suggestion": "Here! Mummy says I can put it on the fridge. Did you play at school in Iran?",
      "suggestionFa": "بیا! مامان میگه می‌تونم بچسبونمش رو یخچال. تو ایران تو مدرسه بازی می‌کردی؟",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "tomorrow",
       "football",
+      "tomorrow",
       "dragon",
       "likes",
       "going"

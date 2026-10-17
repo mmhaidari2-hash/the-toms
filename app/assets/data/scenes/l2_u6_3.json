@@ -20,8 +20,8 @@
     {
      "keywords": [
       "registered",
-      "last",
-      "week"
+      "week",
+      "last"
      ],
      "suggestion": "Yes, I registered last week.",
      "suggestionFa": "آره، هفتهٔ پیش ثبت‌نام کردم.",
@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "before",
       "that's",
-      "never",
-      "right"
+      "before",
+      "right",
+      "never"
      ],
      "suggestion": "That's right. I've never seen a GP here before.",
      "suggestionFa": "درسته. تا حالا اینجا پیش پزشک عمومی نرفتم.",
@@ -86,7 +86,7 @@
      "keywords": [
       "appendix",
       "when",
-      "ten",
+      "was",
       "out"
      ],
      "suggestion": "Yes, I had my appendix out when I was ten.",
@@ -179,7 +179,7 @@
       "stopped",
       "years",
       "used",
-      "two"
+      "ago"
      ],
      "suggestion": "I used to, but I stopped two years ago.",
      "suggestionFa": "قبلاً می‌کشیدم، ولی دو سال پیش ترک کردم.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "appointment",
-      "book",
       "time",
+      "book",
       "next"
      ],
      "suggestion": "How do I book an appointment next time?",

@@ -47,10 +47,10 @@
     {
      "keywords": [
       "recycling",
-      "green",
+      "black",
       "caddy",
-      "brown",
-      "black"
+      "green",
+      "brown"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
      "suggestionFa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته.",
@@ -74,8 +74,8 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "rinse",
-      "first"
+      "clean",
+      "rinse"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "eggshells",
-      "banana",
       "little",
+      "banana",
       "caddy",
       "skins"
      ],
@@ -125,7 +125,7 @@
       "wrappers",
       "packets",
       "smelly",
-      "black"
+      "crisp"
      ],
      "suggestion": "Black is for everything else. Food wrappers, crisp packets. It's the smelly one!",
      "suggestionFa": "سیاه برای بقیهٔ چیزهاست. کاغذ غذا، پاکت چیپس. همونی که بو میده!",
@@ -148,9 +148,9 @@
      "keywords": [
       "garden",
       "leaves",
+      "which",
       "grass",
-      "brown",
-      "which"
+      "brown"
      ],
      "suggestion": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
      "suggestionFa": "سطل قهوه‌ای برای باغچه‌ست. چمن و برگ. حالا، کدوم روز میان؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "recycling",
-      "forget",
       "always",
+      "forget",
       "black",
-      "next"
+      "they"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",

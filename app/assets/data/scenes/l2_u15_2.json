@@ -20,8 +20,8 @@
     {
      "keywords": [
       "street",
-      "mare",
       "live",
+      "mare",
       "new"
      ],
      "suggestion": "Yes, I'm new. I live on Mare Street.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "morning",
-      "card",
       "here",
+      "card",
       "good"
      ],
      "suggestion": "Good morning. Do I tap my card here?",
@@ -69,10 +69,10 @@
    "branches": [
     {
      "keywords": [
-      "when",
       "have",
+      "when",
       "tap",
-      "get"
+      "off"
      ],
      "suggestion": "Do I have to tap out when I get off?",
      "suggestionFa": "وقتی پیاده می‌شم هم باید کارت بزنم؟",
@@ -348,8 +348,8 @@
     },
     {
      "keywords": [
-      "just",
-      "once"
+      "once",
+      "just"
      ],
      "suggestion": "Just once?",
      "suggestionFa": "فقط یه بار؟",

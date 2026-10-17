@@ -22,7 +22,7 @@
       "maths",
       "fine",
       "i've",
-      "was"
+      "bit"
      ],
      "suggestion": "It was fine. I've got a bit of maths homework.",
      "suggestionFa": "خوب بود. یه کم تکلیف ریاضی دارم.",
@@ -68,10 +68,10 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "round",
-      "josh",
-      "come"
+      "after",
+      "come",
+      "deal"
      ],
      "suggestion": "Deal. Can Josh come round after?",
      "suggestionFa": "قبول. جاش می‌تونه بعدش بیاد؟",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "toast",
-      "have",
       "some",
-      "can"
+      "have",
+      "bit"
      ],
      "suggestion": "A bit. Can I have some toast?",
      "suggestionFa": "یه کم. می‌تونم نون تست بخورم؟",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "crisps",
-      "can't",
       "apple",
+      "can't",
       "have"
      ],
      "suggestion": "An apple? Can't I have crisps?",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "promise",
-      "maths",
       "after",
+      "maths",
       "i'll"
      ],
      "suggestion": "I'll tidy it after maths. Promise.",

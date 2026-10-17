@@ -22,9 +22,9 @@
     {
      "keywords": [
       "chemist",
+      "into",
       "dear",
       "need",
-      "into",
       "come"
      ],
      "suggestion": "I need to pop into the chemist, dear. Come with me?",
@@ -73,8 +73,8 @@
      "keywords": [
       "something",
       "recommend",
-      "thank",
       "cough",
+      "thank",
       "dear"
      ],
      "suggestion": "Thank you, dear. Ask the lady: \"Can you recommend something for a cough?\"",
@@ -98,9 +98,9 @@
      "keywords": [
       "spoons",
       "times",
-      "three",
       "syrup",
-      "says"
+      "three",
+      "good"
      ],
      "suggestion": "She says this syrup is good. Two spoons, three times a day.",
      "suggestionFa": "می‌گه این شربت خوبه. دو قاشق، روزی سه بار.",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "horrible",
       "probably",
-      "throat",
+      "horrible",
       "sweets",
+      "throat",
       "honey"
      ],
      "suggestion": "Horrible, probably! Ha. And some throat sweets. Honey and lemon.",
@@ -148,8 +148,8 @@
      "keywords": [
       "treasure",
       "treat",
-      "now",
       "cup",
+      "now",
       "tea"
      ],
      "suggestion": "You're a treasure. Now, a cup of tea at the café? My treat!",

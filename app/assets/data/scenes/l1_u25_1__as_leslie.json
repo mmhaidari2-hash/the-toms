@@ -23,8 +23,8 @@
      "keywords": [
       "interview",
       "you've",
-      "today",
       "going",
+      "today",
       "wear"
      ],
      "suggestion": "You've got a job interview today! Big day! What are you going to wear?",
@@ -48,8 +48,8 @@
      "keywords": [
       "office",
       "let's",
-      "job",
-      "see"
+      "see",
+      "job"
      ],
      "suggestion": "Let's see. Is it an office job?",
      "suggestionFa": "ببینیم. کار دفتریه؟",
@@ -73,8 +73,8 @@
       "should",
       "shirt",
       "white",
-      "blue",
-      "wear"
+      "then",
+      "good"
      ],
      "suggestion": "Then a shirt is good. Blue or white? Should you wear a tie?",
      "suggestionFa": "پس پیراهن خوبه. آبی یا سفید؟ کراوات بزنی؟",
@@ -97,9 +97,9 @@
      "keywords": [
       "relaxed",
       "ironed",
+      "shirt",
       "these",
-      "smart",
-      "shirt"
+      "smart"
      ],
      "suggestion": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
      "suggestionFa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟",
@@ -121,9 +121,9 @@
     {
      "keywords": [
       "cupboard",
-      "jumper",
-      "chilly",
       "iron's",
+      "chilly",
+      "jumper",
       "about"
      ],
      "suggestion": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "trainers",
-      "smart",
       "shoes",
-      "good",
-      "navy"
+      "smart",
+      "navy",
+      "good"
      ],
      "suggestion": "Good. Navy is smart. Now — shoes! Not trainers.",
      "suggestionFa": "خوبه. سورمه‌ای شیکه. حالا — کفش! نه کتونی.",
@@ -172,9 +172,9 @@
      "keywords": [
       "interview",
       "perfect",
-      "shoes",
       "black",
-      "first"
+      "shoes",
+      "clean"
      ],
      "suggestion": "For an interview, yes! Black shoes are perfect. Clean them first!",
      "suggestionFa": "برای مصاحبه، آره! کفش مشکی عالیه. اول تمیزشون کن!",
@@ -198,8 +198,8 @@
       "brilliant",
       "you'll",
       "smart",
-      "luck",
-      "good"
+      "good",
+      "look"
      ],
      "suggestion": "Look at you! Very smart. Good luck! You'll be brilliant.",
      "suggestionFa": "خودت را ببین! خیلی شیک. موفق باشی! عالی می‌شی.",
@@ -223,7 +223,7 @@
       "everyone's",
       "yourself",
       "nervous",
-      "after",
+      "smile",
       "hello"
      ],
      "suggestion": "Everyone's nervous. Smile, say hello, and be yourself. Text me after!",

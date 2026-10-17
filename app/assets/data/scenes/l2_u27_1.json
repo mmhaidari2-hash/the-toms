@@ -1,0 +1,357 @@
+{
+ "id": "l2_u27_1",
+ "characterId": "tom",
+ "title": "The bus is on diversion",
+ "titleFa": "اتوبوس در مسیر انحرافی",
+ "setting": "Bus trouble · Level 2",
+ "settingFa": "دردسرهای اتوبوس",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Ladies and gentlemen, sorry! This bus is on diversion because of roadworks on Mare Street. We're not stopping at the market.",
+   "translations": {
+    "fa": "خانم‌ها و آقایان، ببخشید! این اتوبوس به خاطر تعمیرات جاده تو مِر استریت در مسیر انحرافیه. ایستگاه بازار توقف نداریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "market",
+      "stop",
+      "need",
+      "oh"
+     ],
+     "suggestion": "Oh no. I need the market stop!",
+     "suggestionFa": "وای نه. من ایستگاه بازار را لازم دارم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "diversion",
+      "mean"
+     ],
+     "suggestion": "What does \"on diversion\" mean?",
+     "suggestionFa": "«آن دایورژن» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "diversion",
+     "fa": "مسیر انحرافی"
+    },
+    {
+     "word": "because of",
+     "fa": "به خاطرِ"
+    },
+    {
+     "word": "roadworks",
+     "fa": "تعمیرات جاده"
+    },
+    {
+     "word": "stopping",
+     "fa": "توقف کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It means a different route. We go along Morning Lane instead of Mare Street. Where were you going?",
+   "translations": {
+    "fa": "یعنی یه مسیر دیگه. به‌جای مِر استریت از مورنینگ لین میریم. کجا می‌رفتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "market",
+      "need",
+      "fish"
+     ],
+     "suggestion": "To the market. I need fish for Leslie.",
+     "suggestionFa": "بازار. برای لزلی ماهی لازم دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "street",
+      "number",
+      "mare",
+      "home"
+     ],
+     "suggestion": "Home. Number ten, Mare Street.",
+     "suggestionFa": "خونه. پلاک ده، مِر استریت.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "route",
+     "fa": "مسیر"
+    },
+    {
+     "word": "along",
+     "fa": "در امتداد"
+    },
+    {
+     "word": "instead of",
+     "fa": "به‌جای"
+    },
+    {
+     "word": "going",
+     "fa": "رفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "When roads are closed, buses go \"on diversion\". Yellow signs at bus stops say \"This stop is closed\" and show the nearest open stop.",
+    "fa": "وقتی جاده بسته است اتوبوس مسیرش را عوض می‌کند و تابلوی زرد ایستگاه بسته را اعلام می‌کند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The nearest stop for the market is Morning Lane, by the church. It's a five-minute walk. Sorry, mate — not my fault!",
+   "translations": {
+    "fa": "نزدیک‌ترین ایستگاه برای بازار مورنینگ لینه، کنار کلیسا. پنج دقیقه پیاده‌ست. ببخشید رفیق — تقصیر من نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "which",
+      "walk",
+      "five"
+     ],
+     "suggestion": "Five minutes is OK. Which way do I walk?",
+     "suggestionFa": "پنج دقیقه خوبه. از کدوم طرف پیاده برم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fault",
+      "whose"
+     ],
+     "suggestion": "Not your fault? Whose fault is it?",
+     "suggestionFa": "تقصیر تو نیست؟ تقصیر کیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nearest",
+     "fa": "نزدیک‌ترین"
+    },
+    {
+     "word": "church",
+     "fa": "کلیسا"
+    },
+    {
+     "word": "walk",
+     "fa": "پیاده‌روی"
+    },
+    {
+     "word": "fault",
+     "fa": "تقصیر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "where is nearest stop",
+      "which is stop nearest"
+     ],
+     "echo": "The nearest stop? Morning Lane.",
+     "better": "Where's the nearest stop?",
+     "betterFa": "نزدیک‌ترین ایستگاه کجاست؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "The council's! They dig up the same road every year. Walk back past the chippy, then turn right. You'll smell the fish.",
+   "translations": {
+    "fa": "تقصیر شورا! هر سال همون جاده را می‌کنن. از کنار ماهی‌فروشی برگرد، بعد بپیچ راست. بوی ماهی را حس می‌کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diversion",
+      "time",
+      "long",
+      "ha"
+     ],
+     "suggestion": "Ha! Is the diversion for a long time?",
+     "suggestionFa": "ها! مسیر انحرافی طولانیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chippy",
+      "right",
+      "then",
+      "past"
+     ],
+     "suggestion": "Past the chippy, then right. Got it.",
+     "suggestionFa": "از کنار ماهی‌فروشی، بعد راست. فهمیدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dig up",
+     "fa": "کندن"
+    },
+    {
+     "word": "chippy",
+     "fa": "ماهی و سیب‌زمینی‌فروشی"
+    },
+    {
+     "word": "turn right",
+     "fa": "به راست پیچیدن"
+    },
+    {
+     "word": "smell",
+     "fa": "بو کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Two weeks, the sign says. So, about six weeks. Ha! There's a list on the TfL website. You can check before you leave.",
+   "translations": {
+    "fa": "تابلو میگه دو هفته. یعنی حدود شش هفته. ها! یه فهرست رو سایت TfL هست. می‌تونی قبل از راه افتادن چک کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "check",
+      "app",
+      "tfl",
+      "can"
+     ],
+     "suggestion": "Can I check on the TfL Go app too?",
+     "suggestionFa": "تو اپ TfL Go هم می‌تونم چک کنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "street",
+      "weeks",
+      "poor",
+      "mare"
+     ],
+     "suggestion": "Six weeks! Poor Mare Street.",
+     "suggestionFa": "شش هفته! بیچاره مِر استریت.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "website",
+     "fa": "وب‌سایت"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    },
+    {
+     "word": "leave",
+     "fa": "راه افتادن ؛ رفتن"
+    },
+    {
+     "word": "app",
+     "fa": "اپلیکیشن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Yes, the app shows diversions and live times. Very useful. OK — Morning Lane. This is you. Ring the bell!",
+   "translations": {
+    "fa": "آره، اپ مسیرهای انحرافی و زمان زنده را نشون میده. خیلی به درد می‌خوره. خب — مورنینگ لین. ایستگاه تو. زنگ را بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ringing",
+      "thanks",
+      "tom"
+     ],
+     "suggestion": "I'm ringing it! Thanks, Tom.",
+     "suggestionFa": "دارم می‌زنم! ممنون تام.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "back",
+      "stop",
+      "way"
+     ],
+     "suggestion": "Is there a stop on the way back?",
+     "suggestionFa": "تو راه برگشت ایستگاه هست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "live times",
+     "fa": "زمان‌های زنده"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    },
+    {
+     "word": "ring the bell",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "way back",
+     "fa": "راه برگشت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Same stop, other side. And get the big fish — Leslie always says \"the big one\". Mind the step!",
+   "translations": {
+    "fa": "همون ایستگاه، طرف مقابل. ماهی بزرگه را بگیر — لزلی همیشه میگه «بزرگه». مواظب پله باش!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

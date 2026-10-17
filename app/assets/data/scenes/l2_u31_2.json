@@ -1,0 +1,398 @@
+{
+ "id": "l2_u31_2",
+ "characterId": "hughes",
+ "title": "A check-up",
+ "titleFa": "معاینه",
+ "setting": "At the dentist · Level 2",
+ "settingFa": "در دندانپزشکی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "hughes",
+   "text": "Come in, sit down and lie back. First, a few questions. Any problems with your teeth?",
+   "translations": {
+    "fa": "بیاید تو، بنشینید و دراز بکشید. اول، چند تا سؤال. مشکلی با دندون‌هاتون دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tooth",
+      "water",
+      "drink",
+      "hurts"
+     ],
+     "suggestion": "Yes. This tooth hurts when I drink cold water.",
+     "suggestionFa": "آره. این دندون وقتی آب سرد می‌خورم درد می‌گیره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "think",
+      "fine"
+     ],
+     "suggestion": "No, I think they're fine.",
+     "suggestionFa": "نه، فکر کنم خوبن.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lie back",
+     "fa": "دراز کشیدن ؛ تکیه دادن"
+    },
+    {
+     "word": "questions",
+     "fa": "سؤال‌ها"
+    },
+    {
+     "word": "teeth",
+     "fa": "دندان‌ها"
+    },
+    {
+     "word": "hurts",
+     "fa": "درد می‌کند"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "hughes",
+   "text": "Cold water — that's \"sensitive teeth\". Very common. When did it start? And is it sharp, or a dull ache?",
+   "translations": {
+    "fa": "آب سرد — اسمش «حساسیت دندانه». خیلی رایجه. کی شروع شد؟ تیزه یا یه درد مبهم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "started",
+      "month",
+      "sharp",
+      "last"
+     ],
+     "suggestion": "It started last month. It's sharp!",
+     "suggestionFa": "ماه پیش شروع شد. تیزه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "ache",
+      "dull"
+     ],
+     "suggestion": "What's a dull ache?",
+     "suggestionFa": "درد مبهم یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sensitive",
+     "fa": "حساس"
+    },
+    {
+     "word": "common",
+     "fa": "رایج"
+    },
+    {
+     "word": "sharp",
+     "fa": "تیز"
+    },
+    {
+     "word": "dull ache",
+     "fa": "درد مبهم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is started last month",
+      "it start last month"
+     ],
+     "echo": "It started last month. I'll write that.",
+     "better": "It started last month.",
+     "betterFa": "ماه پیش شروع شد."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "hughes",
+   "text": "Sharp — I'll write that down. How often do you brush your teeth? Be honest — I've heard everything!",
+   "translations": {
+    "fa": "تیز — یادداشتش می‌کنم. چند وقت یک‌بار دندون‌هاتون را مسواک می‌زنید؟ صادق باشید — من همه‌چی شنیدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "night"
+     ],
+     "suggestion": "Twice a day, morning and night.",
+     "suggestionFa": "روزی دو بار، صبح و شب.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes",
+      "once"
+     ],
+     "suggestion": "Once a day. Sometimes twice.",
+     "suggestionFa": "روزی یه بار. گاهی دو بار.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how often",
+     "fa": "چند وقت یک بار"
+    },
+    {
+     "word": "brush",
+     "fa": "مسواک زدن"
+    },
+    {
+     "word": "honest",
+     "fa": "صادق"
+    },
+    {
+     "word": "twice",
+     "fa": "دو بار"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK dentists recommend brushing twice a day for two minutes with fluoride toothpaste, and \"spit, don't rinse\".",
+    "fa": "دندانپزشکان مسواک دو بار در روز و نشستن دهان بعد از آن را توصیه نمی‌کنند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "hughes",
+   "text": "Good. Do you rinse with water afterwards? Most people do. But it washes away the fluoride. Just spit, don't rinse.",
+   "translations": {
+    "fa": "خوبه. بعدش با آب دهانتون را می‌شویید؟ بیشتر مردم این کار را می‌کنن. ولی فلوراید را می‌شوره. فقط تف کنید، آب نکشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "really"
+     ],
+     "suggestion": "Really? I always rinse!",
+     "suggestionFa": "واقعاً؟ من همیشه آب می‌کشم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "don't",
+      "i'll",
+      "spit"
+     ],
+     "suggestion": "Spit, don't rinse. I'll remember.",
+     "suggestionFa": "تف کن، آب نکش. یادم می‌مونه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rinse",
+     "fa": "آب کشیدن ؛ شستن"
+    },
+    {
+     "word": "afterwards",
+     "fa": "بعد از آن"
+    },
+    {
+     "word": "washes away",
+     "fa": "می‌شوید و می‌برد"
+    },
+    {
+     "word": "spit",
+     "fa": "تف کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "hughes",
+   "text": "Right. Open wide, please. I'm just looking… tapping… does it hurt when I tap here?",
+   "translations": {
+    "fa": "خب. لطفاً دهانتون را کامل باز کنید. فقط دارم نگاه می‌کنم… ضربه می‌زنم… وقتی اینجا ضربه می‌زنم درد داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hurts",
+      "one",
+      "aah"
+     ],
+     "suggestion": "Aah! Yes, that one hurts!",
+     "suggestionFa": "آخ! آره، اون یکی درد داره!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strange",
+      "just",
+      "bit",
+      "ok"
+     ],
+     "suggestion": "No, it's OK. Just a bit strange.",
+     "suggestionFa": "نه، خوبه. فقط یه‌کم عجیبه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "open wide",
+     "fa": "دهانت را کامل باز کن"
+    },
+    {
+     "word": "tapping",
+     "fa": "ضربه زدن"
+    },
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "hughes",
+   "text": "I think it's a small hole — a cavity. You'll need a filling, but it's small. And your gums are a little red. Do you floss?",
+   "translations": {
+    "fa": "فکر کنم یه سوراخ کوچیکه — پوسیدگی. یه پرکردن لازم دارید، ولی کوچیکه. لثه‌هاتون هم یه‌کم قرمزه. نخ دندون می‌کشید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "floss"
+     ],
+     "suggestion": "No. What's floss?",
+     "suggestionFa": "نه. نخ دندون چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "important",
+      "really"
+     ],
+     "suggestion": "Not really. Is it important?",
+     "suggestionFa": "نه واقعاً. مهمه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cavity",
+     "fa": "پوسیدگی ؛ حفره"
+    },
+    {
+     "word": "filling",
+     "fa": "پرکردن دندان"
+    },
+    {
+     "word": "gums",
+     "fa": "لثه‌ها"
+    },
+    {
+     "word": "floss",
+     "fa": "نخ دندان کشیدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "hughes",
+   "text": "Very important! Floss, or little brushes between your teeth, every night. I'll give you some. Now let's book the filling.",
+   "translations": {
+    "fa": "خیلی مهمه! نخ دندون، یا برس‌های کوچیک بین دندون‌ها، هر شب. چند تا بهتون میدم. حالا بیاید پرکردن را رزرو کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "come",
+      "when",
+      "can"
+     ],
+     "suggestion": "Thank you. When can I come?",
+     "suggestionFa": "ممنون. کی می‌تونم بیام؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "filling",
+      "will",
+      "hurt"
+     ],
+     "suggestion": "Will the filling hurt?",
+     "suggestionFa": "پرکردن درد داره؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brushes",
+     "fa": "برس‌ها"
+    },
+    {
+     "word": "between",
+     "fa": "بین"
+    },
+    {
+     "word": "every night",
+     "fa": "هر شب"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "hughes",
+   "text": "Next Tuesday at four. And no, you'll have an injection first, so you won't feel a thing. Just a numb lip for an hour or two!",
+   "translations": {
+    "fa": "سه‌شنبهٔ بعد ساعت چهار. و نه، اول آمپول می‌زنید، پس هیچ‌چی حس نمی‌کنید. فقط یه لب بی‌حس برای یکی دو ساعت!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

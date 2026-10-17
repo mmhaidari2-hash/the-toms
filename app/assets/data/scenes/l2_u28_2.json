@@ -1,0 +1,351 @@
+{
+ "id": "l2_u28_2",
+ "characterId": "arthur",
+ "title": "Sorry we missed you",
+ "titleFa": "متأسفیم شما را پیدا نکردیم",
+ "setting": "At the post office · Level 2",
+ "settingFa": "در اداره پست",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Morning! You look like you've got one of my red cards. \"Sorry we missed you\"?",
+   "translations": {
+    "fa": "صبح بخیر! انگار یکی از کارت‌های قرمز من دستته. «متأسفیم شما را پیدا نکردیم»؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "postman",
+      "when",
+      "came",
+      "was"
+     ],
+     "suggestion": "Yes. I was out when the postman came.",
+     "suggestionFa": "آره. وقتی پستچی اومد بیرون بودم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i've",
+      "mean",
+      "card",
+      "got"
+     ],
+     "suggestion": "I've got a card. What does it mean?",
+     "suggestionFa": "یه کارت دارم. یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "missed",
+     "fa": "از دست دادیم ؛ پیدا نکردیم"
+    },
+    {
+     "word": "postman",
+     "fa": "پستچی"
+    },
+    {
+     "word": "out",
+     "fa": "بیرون"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "It means the postman tried, but the parcel needs a signature. So he brought it back here. Have you got ID?",
+   "translations": {
+    "fa": "یعنی پستچی تلاش کرده، ولی بسته امضا لازم داره. برای همین برش گردونده اینجا. کارت شناسایی داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "residence",
+      "card"
+     ],
+     "suggestion": "Yes, my residence card.",
+     "suggestionFa": "آره، کارت اقامتم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbour",
+      "couldn't",
+      "leave",
+      "why"
+     ],
+     "suggestion": "Why couldn't he leave it with a neighbour?",
+     "suggestionFa": "چرا نتونست بدش به همسایه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tried",
+     "fa": "تلاش کرد"
+    },
+    {
+     "word": "signature",
+     "fa": "امضا"
+    },
+    {
+     "word": "brought back",
+     "fa": "برگرداند"
+    },
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    }
+   ],
+   "cultureNote": {
+    "en": "If you miss a delivery, Royal Mail leaves a red \"Sorry we missed you\" card. You can collect at the delivery office or rebook online.",
+    "fa": "اگر بسته را از دست بدهید کارت قرمز می‌گذارند؛ می‌توانید تحویل بگیرید یا دوباره رزرو کنید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Parcels that need a signature can't go to a neighbour. Now, it says \"Leslie Tom\". Is that you?",
+   "translations": {
+    "fa": "بسته‌هایی که امضا لازم دارن نمی‌تونن برن پیش همسایه. خب، نوشته «لزلی تام». تویی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collect",
+      "leslie",
+      "can",
+      "her"
+     ],
+     "suggestion": "No, it's for Leslie. Can I collect it for her?",
+     "suggestionFa": "نه، برای لزلیه. می‌تونم براش بگیرمش؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "wrong",
+      "took",
+      "card"
+     ],
+     "suggestion": "Oh! I took the wrong card. Sorry!",
+     "suggestionFa": "اوه! کارت اشتباهی را برداشتم. ببخشید!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "collect",
+     "fa": "تحویل گرفتن"
+    },
+    {
+     "word": "for her",
+     "fa": "برای او"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i can collect for she",
+      "can i collect it to her"
+     ],
+     "echo": "Collect it for her? Let's see.",
+     "better": "Can I collect it for her?",
+     "betterFa": "می‌توانم برای او تحویل بگیرم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "Yes, if she signs the back of the card, and you bring your ID and a copy of hers. Did she sign it?",
+   "translations": {
+    "fa": "آره، اگه پشت کارت را امضا کرده باشه، و تو کارت شناسایی خودت و یه کپی از مال اون را بیاری. امضا کرده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "licence",
+      "driving",
+      "photo",
+      "here"
+     ],
+     "suggestion": "Yes, here. And a photo of her driving licence.",
+     "suggestionFa": "آره، اینجا. و یه عکس از گواهینامه‌اش.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "didn't",
+      "back",
+      "i'll"
+     ],
+     "suggestion": "No, she didn't. I'll come back tomorrow.",
+     "suggestionFa": "نه، نکرده. فردا برمی‌گردم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "signs",
+     "fa": "امضا می‌کند"
+    },
+    {
+     "word": "back",
+     "fa": "پشت"
+    },
+    {
+     "word": "copy",
+     "fa": "کپی"
+    },
+    {
+     "word": "driving licence",
+     "fa": "گواهینامه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "Signature, your ID, her licence… all good. Let me get it from the back. Oh, it's heavy! What's she ordered?",
+   "translations": {
+    "fa": "امضا، کارت تو، گواهینامهٔ اون… همه خوبه. بذار از پشت بیارمش. اوه، سنگینه! چی سفارش داده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cooker",
+      "think",
+      "slow"
+     ],
+     "suggestion": "I think it's a slow cooker.",
+     "suggestionFa": "فکر کنم آرام‌پزه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "don't",
+      "books",
+      "maybe"
+     ],
+     "suggestion": "I don't know. Maybe books for school?",
+     "suggestionFa": "نمی‌دونم. شاید کتاب برای مدرسه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    },
+    {
+     "word": "ordered",
+     "fa": "سفارش داده"
+    },
+    {
+     "word": "slow cooker",
+     "fa": "آرام‌پز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "A slow cooker! Lovely. My wife makes stew in ours every Sunday. Next time, you can rebook delivery online. Saves a trip.",
+   "translations": {
+    "fa": "آرام‌پز! چه عالی. همسرم هر یکشنبه تو مال ما خورش درست می‌کنه. دفعهٔ بعد می‌تونی ارسال را آنلاین دوباره رزرو کنی. یه رفت‌وآمد صرفه‌جویی میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "choose",
+      "rebook",
+      "can",
+      "day"
+     ],
+     "suggestion": "Rebook? Can I choose a day?",
+     "suggestionFa": "دوباره رزرو؟ می‌تونم روز انتخاب کنم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "arthur",
+      "thank",
+      "know",
+      "good"
+     ],
+     "suggestion": "Good to know. Thank you, Arthur!",
+     "suggestionFa": "خوب شد فهمیدم. ممنون آرتور!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stew",
+     "fa": "خورش ؛ خوراک"
+    },
+    {
+     "word": "rebook",
+     "fa": "دوباره رزرو کردن"
+    },
+    {
+     "word": "saves",
+     "fa": "صرفه‌جویی می‌کند"
+    },
+    {
+     "word": "trip",
+     "fa": "رفت‌وآمد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "Choose a day, or \"deliver to a neighbour\" if it doesn't need a signature. Off you go — and carry it with both hands!",
+   "translations": {
+    "fa": "یه روز انتخاب کن، یا اگه امضا لازم نداره «تحویل به همسایه». برو — با هر دو دست ببرش!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

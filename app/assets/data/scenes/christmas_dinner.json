@@ -22,7 +22,7 @@
       "christmas",
       "three",
       "merry",
-      "okay"
+      "pull"
      ],
      "suggestion": "Merry Christmas! Okay — one, two, three, pull!",
      "suggestionFa": "کریسمس مبارک! باشه — یک، دو، سه، بکش!",
@@ -180,8 +180,8 @@
      "keywords": [
       "sprout",
       "i'll",
-      "one",
-      "try"
+      "try",
+      "one"
      ],
      "suggestion": "I'll try one sprout.",
      "suggestionFa": "یه کلم امتحان می‌کنم.",
@@ -299,8 +299,8 @@
    "branches": [
     {
      "keywords": [
-      "fire",
-      "safe"
+      "safe",
+      "fire"
      ],
      "suggestion": "On fire? Is that safe?!",
      "suggestionFa": "آتیش گرفته؟ امنه؟!",
@@ -360,10 +360,10 @@
     },
     {
      "keywords": [
-      "speech",
       "king's",
-      "hear",
-      "love"
+      "speech",
+      "love",
+      "hear"
      ],
      "suggestion": "I'd love to hear the King's speech.",
      "suggestionFa": "دوست دارم سخنرانی شاه را بشنوم.",

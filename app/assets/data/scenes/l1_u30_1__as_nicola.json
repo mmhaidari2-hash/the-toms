@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cupboard",
-      "knives",
       "spoons",
+      "knives",
       "plates",
-      "can't"
+      "reach"
      ],
      "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
      "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "plates",
-      "mummy",
       "thank",
       "daddy",
-      "ryan"
+      "mummy",
+      "nana"
      ],
      "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
      "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "special",
       "william",
+      "special",
       "mummy",
-      "next",
-      "goes"
+      "duck",
+      "bowl"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
      "suggestionFa": "ویلیام کاسهٔ مخصوص خودش را داره! روش یه اردکه. کنار مامان میره.",
@@ -125,7 +125,7 @@
       "knife",
       "ellis",
       "right",
-      "left"
+      "fork"
      ],
      "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
      "suggestionFa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "glasses",
-      "water",
       "heavy",
+      "water",
       "pour",
-      "now"
+      "can"
      ],
      "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
      "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
@@ -174,8 +174,8 @@
       "triangles",
       "napkins",
       "folded",
-      "like",
-      "them"
+      "them",
+      "like"
      ],
      "suggestion": "And napkins! I folded them like triangles. Do you like them?",
      "suggestionFa": "و دستمال سفره! مثل مثلث تاشون کردم. دوستشون داری؟",

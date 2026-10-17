@@ -23,9 +23,9 @@
     {
      "keywords": [
       "unicorns",
+      "nice",
       "love",
-      "meet",
-      "nice"
+      "meet"
      ],
      "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
      "suggestionFa": "آره، عاشق تک‌شاخم! از آشناییت خوشحالم میا.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "dragons",
-      "honest",
-      "prefer"
+      "prefer",
+      "honest"
      ],
      "suggestion": "I prefer dragons, to be honest!",
      "suggestionFa": "راستش اژدها را ترجیح می‌دم!",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "squash",
       "course",
+      "squash",
       "orange",
       "each"
      ],
@@ -87,8 +87,8 @@
      "keywords": [
       "lunchtime",
       "nearly",
-      "just",
-      "then"
+      "then",
+      "just"
      ],
      "suggestion": "Just one biscuit, then. It's nearly lunchtime.",
      "suggestionFa": "پس فقط یه بیسکویت. نزدیک ناهاره.",
@@ -128,8 +128,8 @@
      "keywords": [
       "family",
       "friend",
-      "live",
-      "here"
+      "here",
+      "live"
      ],
      "suggestion": "No, I'm a family friend. I live here now.",
      "suggestionFa": "نه، دوست خانوادگی‌ام. الان اینجا زندگی می‌کنم.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "brother",
-      "sort",
       "like",
+      "sort",
       "big"
      ],
      "suggestion": "Sort of! I'm like her big brother.",
@@ -233,8 +233,8 @@
     },
     {
      "keywords": [
-      "lots",
-      "cats"
+      "cats",
+      "lots"
      ],
      "suggestion": "No unicorns, but lots of cats!",
      "suggestionFa": "تک‌شاخ نه، ولی کلی گربه!",
@@ -270,9 +270,9 @@
     {
      "keywords": [
       "like",
-      "day",
-      "but",
-      "i'd"
+      "dog",
+      "one",
+      "day"
      ],
      "suggestion": "No, but I'd like a dog one day.",
      "suggestionFa": "نه، ولی یه روز سگ می‌خوام.",
@@ -384,7 +384,7 @@
       "everywhere",
       "crumbs",
       "don't",
-      "but"
+      "get"
      ],
      "suggestion": "Yes, but don't get crumbs everywhere!",
      "suggestionFa": "آره، ولی همه جا را خرده نریزید!",
@@ -394,8 +394,8 @@
     },
     {
      "keywords": [
-      "only",
       "come",
+      "only",
       "can",
       "if"
      ],

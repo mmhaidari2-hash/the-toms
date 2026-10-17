@@ -1,0 +1,407 @@
+{
+ "id": "l2_u22_2",
+ "characterId": "zara",
+ "title": "Out of stock",
+ "titleFa": "ناموجود",
+ "setting": "Big supermarket · Level 2",
+ "settingFa": "سوپرمارکت بزرگ",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "zara",
+   "text": "Hello again! Did you find everything? You're staring at that empty shelf like it owes you money.",
+   "translations": {
+    "fa": "دوباره سلام! همه‌چی را پیدا کردی؟ یه جوری به اون قفسهٔ خالی زل زدی انگار بهت بدهکاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yoghurt",
+      "have",
+      "more",
+      "got"
+     ],
+     "suggestion": "Have you got any more of this yoghurt?",
+     "suggestionFa": "از این ماست بیشتر دارین؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shelf",
+      "empty",
+      "sold",
+      "out"
+     ],
+     "suggestion": "This shelf is empty. Is it sold out?",
+     "suggestionFa": "این قفسه خالیه. تموم شده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "staring",
+     "fa": "زل زدن"
+    },
+    {
+     "word": "empty",
+     "fa": "خالی"
+    },
+    {
+     "word": "owes",
+     "fa": "بدهکار است"
+    },
+    {
+     "word": "sold out",
+     "fa": "تمام‌شده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you have more this",
+      "have you got more of yoghurt"
+     ],
+     "echo": "Any more yoghurt? Let me look.",
+     "better": "Have you got any more of this yoghurt?",
+     "betterFa": "از این ماست بیشتر دارید؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "zara",
+   "text": "The Greek one? Let me scan the label. Hmm… the system says \"out of stock\". Sorry about that.",
+   "translations": {
+    "fa": "ماست یونانی؟ بذار برچسب را اسکن کنم. هوم… سیستم میگه «ناموجود». ببخشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "check",
+      "could"
+     ],
+     "suggestion": "Could you check in the back, please?",
+     "suggestionFa": "میشه لطفاً تو انبار را نگاه کنید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stock",
+      "will",
+      "when",
+      "out"
+     ],
+     "suggestion": "Out of stock? When will it be back?",
+     "suggestionFa": "ناموجود؟ کی دوباره میاد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    },
+    {
+     "word": "label",
+     "fa": "برچسب"
+    },
+    {
+     "word": "out of stock",
+     "fa": "ناموجود"
+    },
+    {
+     "word": "system",
+     "fa": "سیستم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "I can check, but the screen says zero. The delivery comes tomorrow morning, about six.",
+   "translations": {
+    "fa": "می‌تونم نگاه کنم، ولی صفحه صفر نشون میده. بار فردا صبح میاد، حدود شش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "tomorrow",
+      "similar",
+      "there"
+     ],
+     "suggestion": "Tomorrow? Is there something similar?",
+     "suggestionFa": "فردا؟ چیز مشابهی هست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lunchtime",
+      "morning",
+      "i'll",
+      "come"
+     ],
+     "suggestion": "Six in the morning? I'll come at lunchtime.",
+     "suggestionFa": "شش صبح؟ ظهر میام.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "delivery",
+     "fa": "تحویل ؛ بار جدید"
+    },
+    {
+     "word": "zero",
+     "fa": "صفر"
+    },
+    {
+     "word": "similar",
+     "fa": "مشابه"
+    },
+    {
+     "word": "lunchtime",
+     "fa": "وقت ناهار"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Out of stock\" means the shop has none left. Staff can often check the stockroom or another branch for you.",
+    "fa": "یعنی فروشگاه دیگر از آن کالا ندارد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "zara",
+   "text": "The own-brand Greek-style is just as good, and it's half the price. Honestly, I buy it myself.",
+   "translations": {
+    "fa": "ماست یونانی‌سبک مارک خود فروشگاه هم همون‌قدر خوبه، نصف قیمتم هست. راستش خودم همینو می‌خرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brand",
+      "mean",
+      "own"
+     ],
+     "suggestion": "Own-brand? What does that mean?",
+     "suggestionFa": "مارک خود فروشگاه؟ یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "price",
+      "i'll",
+      "half",
+      "try"
+     ],
+     "suggestion": "Half the price? I'll try it.",
+     "suggestionFa": "نصف قیمت؟ امتحانش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "own-brand",
+     "fa": "مارک خود فروشگاه"
+    },
+    {
+     "word": "just as good",
+     "fa": "همان‌قدر خوب"
+    },
+    {
+     "word": "half the price",
+     "fa": "نصف قیمت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "zara",
+   "text": "Own-brand is the shop's own name on the packet. Same factory sometimes! Do you need anything else?",
+   "translations": {
+    "fa": "مارک خود فروشگاه یعنی اسم خود فروشگاه رو بسته‌ست. گاهی همون کارخونه! چیز دیگه‌ای لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wipes",
+      "can't",
+      "find",
+      "baby"
+     ],
+     "suggestion": "Yes. I can't find the baby wipes.",
+     "suggestionFa": "آره. دستمال مرطوب بچه را پیدا نمی‌کنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chargers",
+      "phone",
+      "sell"
+     ],
+     "suggestion": "Do you sell phone chargers?",
+     "suggestionFa": "شارژر گوشی می‌فروشین؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "packet",
+     "fa": "بسته"
+    },
+    {
+     "word": "factory",
+     "fa": "کارخانه"
+    },
+    {
+     "word": "baby wipes",
+     "fa": "دستمال مرطوب بچه"
+    },
+    {
+     "word": "chargers",
+     "fa": "شارژرها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "Aisle nineteen, baby and toiletries. Chargers are in electricals, near the entrance. For your little one?",
+   "translations": {
+    "fa": "راهروی نوزده، بچه و بهداشتی. شارژرها تو بخش لوازم برقین، نزدیک ورودی. برای کوچولوت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "three",
+      "their",
+      "toms"
+     ],
+     "suggestion": "For the Toms. Their son William is three.",
+     "suggestionFa": "برای خانوادهٔ تام. پسرشون ویلیام سه سالشه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "toiletries",
+      "what's",
+      "friend"
+     ],
+     "suggestion": "No, for a friend. What's \"toiletries\"?",
+     "suggestionFa": "نه، برای یه دوست. «تویلِتریز» چیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toiletries",
+     "fa": "لوازم بهداشتی"
+    },
+    {
+     "word": "electricals",
+     "fa": "لوازم برقی"
+    },
+    {
+     "word": "entrance",
+     "fa": "ورودی"
+    },
+    {
+     "word": "little one",
+     "fa": "کوچولو"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "Ah, three — the messy age! Get the big pack, it's on offer. Three for two this week.",
+   "translations": {
+    "fa": "آه، سه سال — سن شلوغ‌کاری! بستهٔ بزرگ را بگیر، تخفیف داره. این هفته سه تا به قیمت دو تا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "free",
+      "one",
+      "two"
+     ],
+     "suggestion": "Three for two? So one is free?",
+     "suggestionFa": "سه تا به قیمت دو تا؟ یعنی یکیش مجانیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "packs",
+      "great",
+      "i'll",
+      "take"
+     ],
+     "suggestion": "Great. I'll take three packs.",
+     "suggestionFa": "عالیه. سه بسته برمی‌دارم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "messy",
+     "fa": "شلوغ ؛ کثیف‌کار"
+    },
+    {
+     "word": "on offer",
+     "fa": "در تخفیف"
+    },
+    {
+     "word": "three for two",
+     "fa": "سه به قیمت دو"
+    },
+    {
+     "word": "pack",
+     "fa": "بسته"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "zara",
+   "text": "Exactly — buy two, get the third free. The till does it automatically. You're getting good at this shopping lark!",
+   "translations": {
+    "fa": "دقیقاً — دو تا بخر، سومی مجانی. صندوق خودش حساب می‌کنه. داری تو این خرید کردن حرفه‌ای میشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

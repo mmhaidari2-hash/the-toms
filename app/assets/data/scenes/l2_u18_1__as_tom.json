@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "welcome",
       "morning",
+      "welcome",
       "aboard",
-      "today",
-      "where"
+      "where",
+      "today"
      ],
      "suggestion": "Morning, sir! Welcome aboard the 38. Oh — it's you! Where are you off to today?",
      "suggestionFa": "صبح بخیر قربان! به ۳۸ خوش اومدی. اوه — تویی! امروز کجا می‌ری؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "islington",
       "victoria",
-      "reader",
       "please",
+      "reader",
       "yellow"
      ],
      "suggestion": "It does! Angel, then Islington, then all the way to Victoria. Tap your card on the yellow reader, please.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "phone's",
-      "phone",
       "daily",
+      "phone",
       "which",
-      "fine"
+      "stop"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
      "suggestionFa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟",
@@ -100,7 +100,7 @@
       "islington",
       "minutes",
       "twenty",
-      "green"
+      "about"
      ],
      "suggestion": "Islington Green. Get off there and walk two minutes. How long? About twenty-five minutes, if the traffic's kind.",
      "suggestionFa": "ایزلینگتون گرین. اونجا پیاده شو و دو دقیقه راه برو. چقدر طول می‌کشه؟ حدود بیست و پنج دقیقه، اگه ترافیک مهربون باشه.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "kidding",
       "there's",
-      "jokes",
+      "kidding",
       "front",
-      "forty"
+      "jokes",
+      "angel"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
      "suggestionFa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "questions",
-      "driving",
       "drivers",
-      "that's",
-      "safety"
+      "driving",
+      "safety",
+      "that's"
      ],
      "suggestion": "Quick questions at the stops, yes. Not while I'm driving — safety first. That's the rule for all drivers.",
      "suggestionFa": "سؤال‌های کوتاه سر ایستگاه‌ها، آره. وقتی رانندگی می‌کنم نه — اول ایمنی. این قانون همهٔ راننده‌هاست.",
@@ -200,7 +200,7 @@
       "leslie",
       "don't",
       "wrong",
-      "drove"
+      "round"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
      "suggestionFa": "خب — تو یه میدون مسیر را اشتباه رفتم. به لزلی نگو. محکم بگیر، راه افتادیم!",

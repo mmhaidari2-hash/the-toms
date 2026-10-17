@@ -33,8 +33,8 @@
     {
      "keywords": [
       "first",
-      "just",
       "like",
+      "just",
       "pass"
      ],
      "suggestion": "Just a day pass for now — I'd like to try it out first.",
@@ -89,8 +89,8 @@
      "keywords": [
       "cheaper",
       "twelve",
-      "month",
-      "works"
+      "works",
+      "month"
      ],
      "suggestion": "The twelve-month one works out cheaper, so I'll go for that.",
      "suggestionFa": "دوازده‌ماهه ارزون‌تر درمیاد، پس اونو می‌گیرم.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "fitter",
       "weight",
+      "fitter",
       "want",
       "lose"
      ],
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "strength",
+      "reduce",
       "stress",
-      "mostly",
-      "reduce"
+      "mostly"
      ],
      "suggestion": "Mostly to build strength and reduce stress.",
      "suggestionFa": "بیشتر برای قوی شدن و کم کردن استرس.",
@@ -254,7 +254,7 @@
       "alright",
       "thanks",
       "before",
-      "used"
+      "gyms"
      ],
      "suggestion": "I'm alright, thanks — I've used gyms before.",
      "suggestionFa": "نه ممنون — قبلاً باشگاه رفتم.",
@@ -292,10 +292,10 @@
    "branches": [
     {
      "keywords": [
-      "when's",
       "sounds",
+      "when's",
       "class",
-      "yoga"
+      "good"
      ],
      "suggestion": "Yoga sounds good. When's the next class?",
      "suggestionFa": "یوگا خوب به نظر میاد. کلاس بعدی کیه؟",
@@ -306,9 +306,9 @@
     {
      "keywords": [
       "might",
-      "give",
       "hard",
-      "spin"
+      "spin",
+      "give"
      ],
      "suggestion": "I might give spin a go. Is it hard?",
      "suggestionFa": "شاید اسپین را امتحان کنم. سخته؟",
@@ -399,8 +399,8 @@
      "keywords": [
       "injury",
       "last",
-      "knee",
-      "year"
+      "year",
+      "fine"
      ],
      "suggestion": "I had a knee injury last year, but it's fine now.",
      "suggestionFa": "پارسال زانوم آسیب دید، ولی الان خوبه.",

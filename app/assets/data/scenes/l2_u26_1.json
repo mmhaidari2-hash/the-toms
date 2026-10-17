@@ -1,0 +1,406 @@
+{
+ "id": "l2_u26_1",
+ "characterId": "tom",
+ "title": "Filling up at pump 4",
+ "titleFa": "بنزین زدن در پمپ ۴",
+ "setting": "Petrol station and retail park · Level 2",
+ "settingFa": "پمپ بنزین و مرکز خرید حاشیه شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right, we need petrol before the retail park. You're learning to drive, so you can do it. Pump four's free.",
+   "translations": {
+    "fa": "خب، قبل از مرکز خرید باید بنزین بزنیم. تو داری رانندگی یاد می‌گیری، پس خودت بزن. پمپ چهار خالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "petrol",
+      "which",
+      "side",
+      "cap"
+     ],
+     "suggestion": "Me? OK. Which side is the petrol cap?",
+     "suggestionFa": "من؟ باشه. درِ باک کدوم طرفه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "done",
+      "i've",
+      "show"
+     ],
+     "suggestion": "I've never done it in the UK. Show me?",
+     "suggestionFa": "تا حالا تو بریتانیا این کار را نکردم. نشونم میدی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "petrol",
+     "fa": "بنزین"
+    },
+    {
+     "word": "retail park",
+     "fa": "مرکز خرید حاشیهٔ شهر"
+    },
+    {
+     "word": "pump",
+     "fa": "پمپ"
+    },
+    {
+     "word": "petrol cap",
+     "fa": "درِ باک"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Look at the little arrow by the fuel light on the dashboard. It points to the side. See? Left.",
+   "translations": {
+    "fa": "به فلش کوچیک کنار چراغ سوخت رو داشبورد نگاه کن. به اون طرف اشاره می‌کنه. می‌بینی؟ چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clever",
+      "never",
+      "knew",
+      "oh"
+     ],
+     "suggestion": "Oh! I never knew that. Clever!",
+     "suggestionFa": "اوه! هیچ‌وقت نمی‌دونستم. چه زرنگ!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pump",
+      "left"
+     ],
+     "suggestion": "Left. So the pump is on the left.",
+     "suggestionFa": "چپ. پس پمپ سمت چپه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arrow",
+     "fa": "فلش ؛ پیکان"
+    },
+    {
+     "word": "fuel light",
+     "fa": "چراغ سوخت"
+    },
+    {
+     "word": "dashboard",
+     "fa": "داشبورد"
+    },
+    {
+     "word": "points",
+     "fa": "اشاره می‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most cars have a small arrow next to the fuel symbol. It shows which side the fuel cap is on.",
+    "fa": "فلش کنار نماد سوخت نشان می‌دهد درِ باک کدام طرف است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Now, careful. Green nozzle is unleaded petrol. Black is diesel. Our car is petrol. Which one do you pick?",
+   "translations": {
+    "fa": "حالا، دقت کن. نازل سبز بنزین بدون سربه. مشکی گازوئیله. ماشین ما بنزینیه. کدوم را برمی‌داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unleaded"
+     ],
+     "suggestion": "The green one. Unleaded.",
+     "suggestionFa": "سبزه. بدون سرب.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "black"
+     ],
+     "suggestion": "The black one? No — the green one!",
+     "suggestionFa": "مشکیه؟ نه — سبزه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    },
+    {
+     "word": "nozzle",
+     "fa": "نازل ؛ سر شلنگ"
+    },
+    {
+     "word": "unleaded",
+     "fa": "بدون سرب"
+    },
+    {
+     "word": "diesel",
+     "fa": "گازوئیل"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, green usually means unleaded petrol and black means diesel. Putting the wrong fuel in can break the engine.",
+    "fa": "سبز یعنی بنزین و مشکی یعنی گازوئیل. سوخت اشتباه به موتور آسیب می‌زند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "green one is petrol unleaded",
+      "it's the unleaded green"
+     ],
+     "echo": "The green one. Unleaded. Perfect.",
+     "better": "The green one is unleaded.",
+     "betterFa": "سبز بدون سرب است."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Phew! I put diesel in a petrol car once. Cost me four hundred quid. Leslie still mentions it. Every Christmas.",
+   "translations": {
+    "fa": "آخیش! من یه بار تو ماشین بنزینی گازوئیل زدم. چهارصد پوند برام آب خورد. لزلی هنوز هر کریسمس بهش اشاره می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hundred",
+      "pounds",
+      "ouch",
+      "four"
+     ],
+     "suggestion": "Four hundred pounds? Ouch!",
+     "suggestionFa": "چهارصد پوند؟ آخ!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "christmas",
+      "every",
+      "poor",
+      "tom"
+     ],
+     "suggestion": "Every Christmas? Poor Tom.",
+     "suggestionFa": "هر کریسمس؟ بیچاره تام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "once",
+     "fa": "یک بار"
+    },
+    {
+     "word": "cost",
+     "fa": "هزینه داشت"
+    },
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "mentions",
+     "fa": "اشاره می‌کند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Right. Squeeze the handle. Watch the screen. How much shall we put in? Thirty pounds? Or fill it up?",
+   "translations": {
+    "fa": "خب. دسته را فشار بده. صفحه را نگاه کن. چقدر بزنیم؟ سی پوند؟ یا پرش کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "drive",
+      "long",
+      "fill"
+     ],
+     "suggestion": "Let's fill it up. It's a long drive.",
+     "suggestionFa": "پرش کنیم. راه طولانیه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "thirty",
+      "enough"
+     ],
+     "suggestion": "Thirty pounds is enough.",
+     "suggestionFa": "سی پوند کافیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squeeze",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "handle",
+     "fa": "دسته"
+    },
+    {
+     "word": "fill it up",
+     "fa": "پرش کن"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "It clicks when it's full. Hear that? Click. Done. Fifty-two pounds. Petrol isn't cheap, is it?",
+   "translations": {
+    "fa": "وقتی پر میشه تق می‌کنه. شنیدی؟ تق. تموم. پنجاه و دو پوند. بنزین ارزون نیست، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "petrol",
+      "cheap",
+      "iran"
+     ],
+     "suggestion": "No! In Iran, petrol is very cheap.",
+     "suggestionFa": "نه! تو ایران بنزین خیلی ارزونه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifty",
+      "pump",
+      "two",
+      "can"
+     ],
+     "suggestion": "Fifty-two! Can I pay at the pump?",
+     "suggestionFa": "پنجاه و دو! می‌تونم کنار پمپ پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clicks",
+     "fa": "تق می‌کند"
+    },
+    {
+     "word": "full",
+     "fa": "پر"
+    },
+    {
+     "word": "cheap",
+     "fa": "ارزان"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Cheap petrol? Don't tell me, I'll cry. This pump doesn't take cards, so we pay inside. Remember the number: pump four.",
+   "translations": {
+    "fa": "بنزین ارزون؟ نگو، گریه‌ام می‌گیره. این پمپ کارت قبول نمی‌کنه، پس داخل پرداخت می‌کنیم. شماره یادت بمونه: پمپ چهار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pump",
+      "i'll",
+      "four",
+      "pay"
+     ],
+     "suggestion": "Pump four. I'll go and pay.",
+     "suggestionFa": "پمپ چهار. میرم پرداخت می‌کنم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nozzle",
+      "first",
+      "back",
+      "can"
+     ],
+     "suggestion": "Can I put the nozzle back first?",
+     "suggestionFa": "اول نازل را سر جاش بذارم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take cards",
+     "fa": "کارت قبول کردن"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "remember",
+     "fa": "به یاد داشتن"
+    },
+    {
+     "word": "put back",
+     "fa": "سر جایش گذاشتن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Yes — always put it back and close the cap. Don't drive off with the nozzle! People do. I've seen it on YouTube.",
+   "translations": {
+    "fa": "آره — همیشه سر جاش بذار و درِ باک را ببند. با نازل راه نیفت! مردم این کار را می‌کنن. تو یوتیوب دیدم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

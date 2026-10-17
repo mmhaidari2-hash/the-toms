@@ -20,8 +20,8 @@
     {
      "keywords": [
       "everyone",
-      "please",
       "circle",
+      "please",
       "sure"
      ],
      "suggestion": "Sure. Everyone, sit in a circle, please.",
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "don't",
       "hello",
-      "song",
-      "know"
+      "don't",
+      "know",
+      "song"
      ],
      "suggestion": "I don't know the hello song yet.",
      "suggestionFa": "هنوز آهنگ سلام را بلد نیستم.",
@@ -136,9 +136,9 @@
     },
     {
      "keywords": [
+      "well",
       "cold",
-      "done",
-      "well"
+      "done"
      ],
      "suggestion": "Well done! Rainy and cold.",
      "suggestionFa": "آفرین! بارونی و سرد.",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "cuddle",
-      "feel",
       "want",
+      "feel",
       "sad"
      ],
      "suggestion": "It's OK to feel sad. Do you want a cuddle?",

@@ -36,8 +36,8 @@
     {
      "keywords": [
       "first",
-      "seat",
-      "belt"
+      "belt",
+      "seat"
      ],
      "suggestion": "Seat belt first, Ryan!",
      "suggestionFa": "اول کمربند، رایان!",
@@ -81,8 +81,8 @@
      "keywords": [
       "everyone",
       "stalls",
-      "don't",
-      "again"
+      "again",
+      "first"
      ],
      "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
      "suggestionFa": "نگران نباش رایان — همه اولش ماشین را خاموش می‌کنن. دوباره امتحان کن.",
@@ -92,9 +92,9 @@
     },
     {
      "keywords": [
-      "slowly",
       "clutch",
-      "bring",
+      "slowly",
+      "doing",
       "great"
      ],
      "suggestion": "You're doing great. Just bring the clutch up slowly.",
@@ -134,9 +134,9 @@
     {
      "keywords": [
       "right",
-      "road",
+      "side",
       "hand",
-      "side"
+      "road"
      ],
      "suggestion": "Yes, but on the right-hand side of the road!",
      "suggestionFa": "آره، ولی سمت راست جاده!",
@@ -232,7 +232,7 @@
      "keywords": [
       "parallel",
       "parking",
-      "ryan",
+      "good",
       "luck"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
@@ -395,10 +395,10 @@
     },
     {
      "keywords": [
-      "ryan",
-      "week",
-      "next",
-      "time"
+      "done",
+      "time",
+      "same",
+      "week"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

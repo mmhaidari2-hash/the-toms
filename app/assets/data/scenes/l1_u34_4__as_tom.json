@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -56,11 +56,11 @@
    "branches": [
     {
      "keywords": [
-      "essex",
       "doris",
-      "next",
-      "will",
-      "stop"
+      "essex",
+      "stop",
+      "road",
+      "will"
      ],
      "suggestion": "Essex Road, Doris. Get off at the next-but-one stop. Mehdi will show you.",
      "suggestionFa": "اسکس رود، دوریس. ایستگاه بعد از بعدی پیاده شو. {you} نشونت میده.",
@@ -158,8 +158,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -262,8 +262,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -304,8 +304,8 @@
       "here's",
       "check",
       "doris",
-      "luck",
-      "stop"
+      "stop",
+      "step"
      ],
      "suggestion": "Here's your stop, Doris! Mind the step. Good luck with the check-up!",
      "suggestionFa": "ایستگاهت رسید دوریس! مواظب پله باش. چکاپت به خیر!",

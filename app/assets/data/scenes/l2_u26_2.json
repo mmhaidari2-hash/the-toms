@@ -1,0 +1,404 @@
+{
+ "id": "l2_u26_2",
+ "characterId": "bilal",
+ "title": "Paying at the kiosk",
+ "titleFa": "پرداخت در باجه",
+ "setting": "Petrol station and retail park · Level 2",
+ "settingFa": "پمپ بنزین و مرکز خرید حاشیه شهر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bilal",
+   "text": "Afternoon, young man! Which pump? I saw you looking at that petrol cap for ages. First time?",
+   "translations": {
+    "fa": "عصر بخیر جوون! کدوم پمپ؟ دیدم کلی به اون درِ باک خیره شده بودی. اولین باره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "first",
+      "pump",
+      "time"
+     ],
+     "suggestion": "Pump four, please. Yes, my first time!",
+     "suggestionFa": "پمپ چهار، لطفاً. آره، اولین بارمه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "helped",
+      "tom"
+     ],
+     "suggestion": "Number four. Tom helped me.",
+     "suggestionFa": "شمارهٔ چهار. تام کمکم کرد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pump",
+     "fa": "پمپ"
+    },
+    {
+     "word": "for ages",
+     "fa": "مدت زیاد"
+    },
+    {
+     "word": "first time",
+     "fa": "اولین بار"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bilal",
+   "text": "Tom! The bus driver? Silver Ford, always in a hurry. Pump four… fifty-two pounds exactly. Anything else?",
+   "translations": {
+    "fa": "تام! رانندهٔ اتوبوس؟ فورد نقره‌ای، همیشه عجله داره. پمپ چهار… دقیقاً پنجاه و دو پوند. چیز دیگه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bottle",
+      "please",
+      "water",
+      "have"
+     ],
+     "suggestion": "Can I have a bottle of water, please?",
+     "suggestionFa": "ممکنه یه بطری آب بدید، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "petrol",
+      "just"
+     ],
+     "suggestion": "No, thanks. Just the petrol.",
+     "suggestionFa": "نه، ممنون. فقط بنزین.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "silver",
+     "fa": "نقره‌ای"
+    },
+    {
+     "word": "in a hurry",
+     "fa": "با عجله"
+    },
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    },
+    {
+     "word": "anything else",
+     "fa": "چیز دیگه‌ای"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "give me a water",
+      "i want water bottle"
+     ],
+     "echo": "A bottle of water? Sure.",
+     "better": "Can I have a bottle of water, please?",
+     "betterFa": "ممکن است یک بطری آب بدهید؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bilal",
+   "text": "Still or sparkling? And we've got a meal deal: sandwich, crisps and a drink, four pounds. Very popular with bus drivers.",
+   "translations": {
+    "fa": "معمولی یا گازدار؟ یه «میل دیل» هم داریم: ساندویچ، چیپس و نوشیدنی، چهار پوند. پیش راننده‌های اتوبوس خیلی محبوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "please",
+      "still",
+      "deal"
+     ],
+     "suggestion": "Still, please. What's a meal deal?",
+     "suggestionFa": "معمولی، لطفاً. «میل دیل» چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sparkling",
+      "deals",
+      "tom",
+      "two"
+     ],
+     "suggestion": "Sparkling. And two meal deals, for me and Tom.",
+     "suggestionFa": "گازدار. و دو تا میل دیل، برای من و تام.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "still",
+     "fa": "بدون گاز"
+    },
+    {
+     "word": "sparkling",
+     "fa": "گازدار"
+    },
+    {
+     "word": "meal deal",
+     "fa": "بستهٔ غذای ارزان"
+    },
+    {
+     "word": "popular",
+     "fa": "محبوب"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"meal deal\" is a fixed-price lunch: a sandwich, a snack and a drink. It's a British institution.",
+    "fa": "«میل دیل» ناهار با قیمت ثابت است: ساندویچ، تنقلات و نوشیدنی."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bilal",
+   "text": "Sandwich, snack, drink — one price. The chicken one's best. Do you want a bag? It's ten pence.",
+   "translations": {
+    "fa": "ساندویچ، تنقلات، نوشیدنی — یه قیمت. مرغیش بهترینه. کیسه می‌خوای؟ ده پنسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "carry",
+      "can"
+     ],
+     "suggestion": "No bag, thanks. I can carry it.",
+     "suggestionFa": "کیسه نه، ممنون. خودم میارمش.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "pence",
+      "ten"
+     ],
+     "suggestion": "Ten pence for a bag? Yes, please.",
+     "suggestionFa": "ده پنس برای کیسه؟ آره، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snack",
+     "fa": "تنقلات"
+    },
+    {
+     "word": "bag",
+     "fa": "کیسه"
+    },
+    {
+     "word": "pence",
+     "fa": "پنس"
+    },
+    {
+     "word": "carry",
+     "fa": "حمل کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bilal",
+   "text": "Lovely. That's sixty pounds altogether. Card or cash? Pop your card in, or tap.",
+   "translations": {
+    "fa": "عالی. روی هم شصت پوند. کارت یا نقد؟ کارتت را بذار تو، یا بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contactless",
+      "i'll",
+      "card",
+      "pay"
+     ],
+     "suggestion": "I'll pay by card. Contactless?",
+     "suggestionFa": "با کارت پرداخت می‌کنم. بدون تماس؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "paying",
+      "sixty",
+      "tom",
+      "oh"
+     ],
+     "suggestion": "Sixty? Oh — Tom is paying!",
+     "suggestionFa": "شصت؟ اوه — تام پرداخت می‌کنه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "روی هم رفته"
+    },
+    {
+     "word": "cash",
+     "fa": "نقد"
+    },
+    {
+     "word": "pop in",
+     "fa": "گذاشتن ؛ وارد کردن"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن ؛ لمس کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "bilal",
+   "text": "Over a hundred pounds you need your PIN, but sixty's fine to tap. There you go. Receipt?",
+   "translations": {
+    "fa": "بالای صد پوند رمز لازمه، ولی شصت را میشه زد. بفرما. رسید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "wants",
+      "check",
+      "tom"
+     ],
+     "suggestion": "Yes, please. Tom wants to check it.",
+     "suggestionFa": "آره، لطفاً. تام می‌خواد چکش کنه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "have",
+      "good",
+      "day"
+     ],
+     "suggestion": "No, thanks. Have a good day!",
+     "suggestionFa": "نه، ممنون. روز خوبی داشته باشید!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "PIN",
+     "fa": "رمز کارت"
+    },
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "bilal",
+   "text": "Tell Tom his tyres look a bit flat. The air machine is next to the car wash. One pound for four minutes.",
+   "translations": {
+    "fa": "به تام بگو لاستیک‌هاش یه‌کم کم‌باد به نظر میان. دستگاه باد کنار کارواشه. یه پوند برای چهار دقیقه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "bilal",
+      "i'll",
+      "tell"
+     ],
+     "suggestion": "Thanks, Bilal. I'll tell him.",
+     "suggestionFa": "ممنون بلال. بهش میگم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tyres",
+      "know",
+      "flat",
+      "how"
+     ],
+     "suggestion": "Flat tyres? How do you know?",
+     "suggestionFa": "لاستیک کم‌باد؟ از کجا می‌دونید؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tyres",
+     "fa": "لاستیک‌ها"
+    },
+    {
+     "word": "flat",
+     "fa": "کم‌باد ؛ پنچر"
+    },
+    {
+     "word": "air machine",
+     "fa": "دستگاه باد"
+    },
+    {
+     "word": "car wash",
+     "fa": "کارواش"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "bilal",
+   "text": "Thirty years at this kiosk, my friend. I know cars better than faces. Safe driving, and say hello to Tom!",
+   "translations": {
+    "fa": "سی سال پشت این باجه، دوست من. ماشین‌ها را از صورت‌ها بهتر می‌شناسم. رانندگی ایمن، به تام هم سلام برسون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

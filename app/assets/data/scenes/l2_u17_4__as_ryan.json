@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "burgers",
       "ordered",
+      "burgers",
       "isn't",
-      "here",
-      "bruv"
+      "bruv",
+      "look"
      ],
      "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
      "suggestionFa": "داداش. برگرها رسیدن، ولی… این چیزی نیست که سفارش دادیم. ببین.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "chicken",
-      "burger",
       "veggie",
-      "there",
-      "onion"
+      "burger",
+      "asked",
+      "where"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
      "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "missing",
       "quality",
+      "missing",
       "what's",
       "wrong",
       "order"
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "message",
       "english",
+      "message",
       "polite",
       "write",
       "than"
@@ -174,8 +174,8 @@
       "refunded",
       "perfect",
       "refund",
-      "we've",
-      "sorry"
+      "sorry",
+      "we've"
      ],
      "suggestion": "Perfect! Send. … Oh, fast! \"Sorry! We've refunded you £8.50.\" A refund! Nice one!",
      "suggestionFa": "عالی! بفرست. … اوه، چه سریع! «متأسفیم! هشت پوند و پنجاه پنس به حسابتان برگرداندیم.» بازپرداخت! ایول!",
@@ -198,9 +198,9 @@
      "keywords": [
       "vegetarian",
       "tomorrow",
-      "waste",
       "don't",
-      "shame"
+      "shame",
+      "waste"
      ],
      "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",
      "suggestionFa": "خب… حیفه هدر بره. می‌خورمش. از فردا گیاه‌خوارم. به مامان نگو!",

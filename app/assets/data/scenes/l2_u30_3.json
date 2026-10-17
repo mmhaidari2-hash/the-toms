@@ -1,0 +1,345 @@
+{
+ "id": "l2_u30_3",
+ "characterId": "sian",
+ "title": "Paying in a cheque",
+ "titleFa": "واریز چک",
+ "setting": "At the bank · Level 2",
+ "settingFa": "در بانک",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "Next, please! Oh, hello. What can I do for you today?",
+   "translations": {
+    "fa": "نفر بعدی، لطفاً! اوه، سلام. امروز چه کمکی می‌تونم بکنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "like",
+      "pay",
+      "i'd"
+     ],
+     "suggestion": "I'd like to pay in this cheque, please.",
+     "suggestionFa": "می‌خوام این چک را واریز کنم، لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone",
+      "gave"
+     ],
+     "suggestion": "Someone gave me a cheque. What do I do with it?",
+     "suggestionFa": "یکی بهم چک داده. باهاش چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next",
+     "fa": "بعدی"
+    },
+    {
+     "word": "pay in",
+     "fa": "واریز کردن"
+    },
+    {
+     "word": "cheque",
+     "fa": "چک"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "A cheque! We don't see many these days. Who is it from?",
+   "translations": {
+    "fa": "چک! این روزها زیاد نمی‌بینیم. از طرف کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "maggie's",
+      "husband",
+      "george"
+     ],
+     "suggestion": "From George, Nana Maggie's husband. For my birthday.",
+     "suggestionFa": "از جورج، شوهر ننه مگی. برای تولدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helped",
+      "old",
+      "man"
+     ],
+     "suggestion": "It's from an old man I helped.",
+     "suggestionFa": "از یه آقای پیری که کمکش کردم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "these days",
+     "fa": "این روزها"
+    },
+    {
+     "word": "husband",
+     "fa": "شوهر"
+    },
+    {
+     "word": "birthday",
+     "fa": "تولد"
+    },
+    {
+     "word": "helped",
+     "fa": "کمک کردم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Cheques are rare in the UK now, but older people still use them. You can pay a cheque in at the bank or by photo in your banking app.",
+    "fa": "چک در بریتانیا کم‌یاب شده ولی سالمندان هنوز از آن استفاده می‌کنند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "How lovely. Older customers love cheques. Is your name spelt correctly? And did he sign it?",
+   "translations": {
+    "fa": "چه قشنگ. مشتری‌های مسن عاشق چکن. اسمتون درست نوشته شده؟ امضا کرده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "signed",
+      "wrong",
+      "spelt",
+      "name"
+     ],
+     "suggestion": "Yes, he signed it. But he spelt my name wrong!",
+     "suggestionFa": "آره، امضا کرده. ولی اسمم را اشتباه نوشته!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "correct",
+      "check",
+      "let"
+     ],
+     "suggestion": "Let me check… yes, it's correct.",
+     "suggestionFa": "بذارید چک کنم… آره، درسته.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spelt",
+     "fa": "هجی شده ؛ نوشته شده"
+    },
+    {
+     "word": "correctly",
+     "fa": "درست"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he spell my name wrong",
+      "he was spelt wrong"
+     ],
+     "echo": "He spelt it wrong? Let me see.",
+     "better": "He spelt my name wrong.",
+     "betterFa": "اسمم را اشتباه نوشت."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "A small mistake is usually OK. It's close enough. Now — the date is 2024? Oh dear. George wrote the wrong year!",
+   "translations": {
+    "fa": "یه اشتباه کوچیک معمولاً اشکالی نداره. به اندازهٔ کافی نزدیکه. خب — تاریخ ۲۰۲۴ـه؟ ای وای. جورج سال را اشتباه نوشته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheque",
+      "good",
+      "now",
+      "oh"
+     ],
+     "suggestion": "Oh no! Is the cheque no good now?",
+     "suggestionFa": "وای نه! الان چک بی‌اعتباره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should"
+     ],
+     "suggestion": "What should I do?",
+     "suggestionFa": "چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mistake",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "close enough",
+     "fa": "به اندازهٔ کافی نزدیک"
+    },
+    {
+     "word": "year",
+     "fa": "سال"
+    },
+    {
+     "word": "no good",
+     "fa": "بی‌فایده"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "A cheque is only valid for six months. Ask George to write the right year and sign next to it. Then come back.",
+   "translations": {
+    "fa": "چک فقط شش ماه معتبره. از جورج بخواید سال درست را بنویسه و کنارش امضا کنه. بعد برگردید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "visit",
+      "today",
+      "well",
+      "he's"
+     ],
+     "suggestion": "OK. He's not very well. I'll visit him today.",
+     "suggestionFa": "باشه. حالش خیلی خوب نیست. امروز می‌رم دیدنش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "can",
+      "app",
+      "pay"
+     ],
+     "suggestion": "Can I pay it in with the app instead?",
+     "suggestionFa": "به‌جاش می‌تونم با اپ واریزش کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "valid",
+     "fa": "معتبر"
+    },
+    {
+     "word": "months",
+     "fa": "ماه‌ها"
+    },
+    {
+     "word": "right",
+     "fa": "درست"
+    },
+    {
+     "word": "next to",
+     "fa": "کنارِ"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sian",
+   "text": "With the app, yes — after he fixes it. Photograph the front, and write your account number on the back. It clears in two days.",
+   "translations": {
+    "fa": "با اپ، آره — بعد از اینکه درستش کرد. از جلوش عکس بگیرید و شمارهٔ حسابتون را پشتش بنویسید. دو روز بعد وصول میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clears",
+      "mean"
+     ],
+     "suggestion": "What does \"clears\" mean?",
+     "suggestionFa": "«کلیرز» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "quick",
+      "days",
+      "two"
+     ],
+     "suggestion": "Two days. That's quick.",
+     "suggestionFa": "دو روز. سریعه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "front",
+     "fa": "جلو"
+    },
+    {
+     "word": "account number",
+     "fa": "شمارهٔ حساب"
+    },
+    {
+     "word": "back",
+     "fa": "پشت"
+    },
+    {
+     "word": "clears",
+     "fa": "وصول می‌شود"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sian",
+   "text": "\"Clears\" means the money is really in your account. Give George my best. Cheques and gentlemen — both rare these days!",
+   "translations": {
+    "fa": "«کلیرز» یعنی پول واقعاً تو حسابتون نشسته. سلام من را به جورج برسونید. چک و جنتلمن — هر دو این روزها کم‌یابن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -171,8 +171,8 @@
     {
      "keywords": [
       "bins",
-      "put",
-      "out"
+      "out",
+      "put"
      ],
      "suggestion": "I can put your bins out.",
      "suggestionFa": "می‌تونم سطل‌هاتون را بذارم بیرون.",
@@ -257,9 +257,9 @@
    "branches": [
     {
      "keywords": [
-      "luck",
-      "khan",
       "good",
+      "khan",
+      "luck",
       "mrs"
      ],
      "suggestion": "Good luck, Mrs Khan.",
@@ -271,9 +271,9 @@
     {
      "keywords": [
       "better",
-      "feel",
       "soon",
-      "hope"
+      "hope",
+      "feel"
      ],
      "suggestion": "I hope you feel better soon.",
      "suggestionFa": "امیدوارم زود بهتر بشید.",
@@ -320,9 +320,9 @@
     },
     {
      "keywords": [
+      "back",
       "care",
-      "take",
-      "back"
+      "take"
      ],
      "suggestion": "Take care of your back.",
      "suggestionFa": "مراقب کمرتون باشید.",

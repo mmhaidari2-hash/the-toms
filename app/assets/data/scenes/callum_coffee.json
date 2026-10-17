@@ -22,7 +22,7 @@
       "please",
       "could",
       "white",
-      "have"
+      "flat"
      ],
      "suggestion": "Could I have a flat white, please?",
      "suggestionFa": "می‌شه یه فلت وایت بگیرم، لطفاً؟",
@@ -105,8 +105,8 @@
      "keywords": [
       "regular",
       "fine",
-      "take",
-      "away"
+      "away",
+      "take"
      ],
      "suggestion": "Take away, please — regular milk is fine.",
      "suggestionFa": "می‌برم، لطفاً — شیر معمولی خوبه.",
@@ -116,8 +116,8 @@
     },
     {
      "keywords": [
-      "oat",
-      "eat"
+      "eat",
+      "oat"
      ],
      "suggestion": "Eat in, please, with oat milk.",
      "suggestionFa": "اینجا، لطفاً، با شیر جو دوسر.",
@@ -156,9 +156,9 @@
     {
      "keywords": [
       "croissant",
-      "have",
       "i'll",
-      "then"
+      "then",
+      "have"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -257,9 +257,9 @@
     },
     {
      "keywords": [
-      "more",
-      "nine",
       "then",
+      "nine",
+      "more",
       "go"
      ],
      "suggestion": "Nine more to go, then!",
@@ -294,7 +294,7 @@
       "months",
       "moved",
       "here",
-      "few"
+      "ago"
      ],
      "suggestion": "Yes, I moved here a few months ago.",
      "suggestionFa": "آره، چند ماه پیش اومدم.",
@@ -304,8 +304,8 @@
     },
     {
      "keywords": [
-      "started",
       "working",
+      "started",
       "nearby",
       "just"
      ],
@@ -339,9 +339,9 @@
     {
      "keywords": [
       "where's",
-      "callum",
       "chippy",
-      "thanks"
+      "thanks",
+      "callum"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -353,7 +353,7 @@
      "keywords": [
       "really",
       "that's",
-      "sure",
+      "back",
       "i'll"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",

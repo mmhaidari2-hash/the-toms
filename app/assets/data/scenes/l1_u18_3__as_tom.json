@@ -48,7 +48,7 @@
      "keywords": [
       "something",
       "british",
-      "quick",
+      "lunch",
       "beans",
       "toast"
      ],
@@ -74,8 +74,8 @@
       "drawer",
       "you'll",
       "opener",
-      "love",
-      "open"
+      "open",
+      "love"
      ],
      "suggestion": "You'll love it. Can you open the tin? The tin opener is in the drawer.",
      "suggestionFa": "عاشقش می‌شی. قوطی را باز می‌کنی؟ دربازکن تو کشوئه.",
@@ -100,7 +100,7 @@
       "slices",
       "bread",
       "beans",
-      "pour"
+      "i'll"
      ],
      "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
      "suggestionFa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟",
@@ -124,7 +124,7 @@
       "please",
       "don't",
       "beans",
-      "burn",
+      "them",
       "stir"
      ],
      "suggestion": "Stir the beans, please. Don't let them burn!",
@@ -149,8 +149,8 @@
       "toast's",
       "cheese",
       "butter",
-      "yours",
-      "beans"
+      "beans",
+      "yours"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
      "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "secret",
       "cheese",
-      "brown",
+      "secret",
       "sauce",
-      "now"
+      "brown",
+      "try"
      ],
      "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
      "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "minutes",
+      "cooking",
       "that's",
-      "five",
-      "only"
+      "kind",
+      "wash"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",

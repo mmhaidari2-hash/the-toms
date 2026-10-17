@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "something",
       "interview",
+      "something",
       "monday",
       "smart"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "please",
-      "tidy",
+      "just",
       "long",
-      "just"
+      "tidy"
      ],
      "suggestion": "Just tidy it up, please. It's too long.",
      "suggestionFa": "فقط مرتبش کن، لطفاً. زیادی بلنده.",
@@ -75,8 +75,8 @@
      "keywords": [
       "sides",
       "take",
-      "but",
-      "off"
+      "off",
+      "but"
      ],
      "suggestion": "Yes, but take a bit off the sides.",
      "suggestionFa": "آره، ولی از بغل‌ها یه کم بزن.",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "fade",
       "then",
+      "fade",
       "low",
       "ok"
      ],
@@ -246,8 +246,8 @@
     },
     {
      "keywords": [
-      "please",
       "little",
+      "please",
       "cooler",
       "bit"
      ],
@@ -291,8 +291,8 @@
     {
      "keywords": [
       "assistant",
-      "teaching",
-      "applying"
+      "applying",
+      "teaching"
      ],
      "suggestion": "I'm applying to be a teaching assistant.",
      "suggestionFa": "برای دستیار معلم درخواست دادم.",
@@ -326,8 +326,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "looks",
+      "great",
       "wow"
      ],
      "suggestion": "Wow, it looks great!",
@@ -339,8 +339,8 @@
     {
      "keywords": [
       "little",
-      "front",
       "could",
+      "front",
       "take"
      ],
      "suggestion": "Could you take a little more off the front?",
@@ -383,8 +383,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "little",
+      "please",
       "just"
      ],
      "suggestion": "Yes please, just a little.",

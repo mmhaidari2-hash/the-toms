@@ -24,8 +24,8 @@
       "please",
       "daddy",
       "have",
-      "can",
-      "dog"
+      "dog",
+      "can"
      ],
      "suggestion": "Daddy, can we have a dog? Please, please, please!",
      "suggestionFa": "بابا، می‌شه یه سگ داشته باشیم؟ لطفاً، لطفاً، لطفاً!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -103,11 +103,11 @@
    "branches": [
     {
      "keywords": [
-      "before",
       "school",
+      "before",
       "every",
       "walk",
-      "day"
+      "dog"
      ],
      "suggestion": "See! I can walk the dog every day. Before school!",
      "suggestionFa": "دیدی! هر روز می‌تونم سگ را ببرم بیرون. قبل از مدرسه!",
@@ -185,8 +185,8 @@
      "keywords": [
       "won't",
       "ryan",
-      "can",
       "bag",
+      "can",
       "ha"
      ],
      "suggestion": "Ha ha! Ryan won't do it. I can do it. With a bag.",
@@ -208,8 +208,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -265,11 +265,11 @@
    "branches": [
     {
      "keywords": [
-      "muffin",
       "fluffy",
       "called",
-      "brown",
-      "small"
+      "muffin",
+      "small",
+      "brown"
      ],
      "suggestion": "A small, brown, fluffy one. Called Muffin!",
      "suggestionFa": "یه کوچیک، قهوه‌ای، پشمالو. به اسم مافین!",
@@ -348,8 +348,8 @@
       "goldfish",
       "don't",
       "scare",
-      "nana",
-      "then"
+      "have",
+      "nana"
      ],
      "suggestion": "Oh. Can we have a goldfish, then? Goldfish don't scare Nana.",
      "suggestionFa": "آه. پس می‌شه یه ماهی قرمز داشته باشیم؟ ماهی قرمز نانا را نمی‌ترسونه.",
@@ -370,8 +370,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -424,8 +424,8 @@
     {
      "keywords": [
       "goldfish",
-      "muffin",
       "called",
+      "muffin",
       "thank",
       "daddy"
      ],

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "winter",
       "choose",
+      "winter",
       "small",
-      "says",
-      "help"
+      "coat",
+      "need"
      ],
      "suggestion": "Mum says I need a new winter coat. My old one is too small. Can you help me choose?",
      "suggestionFa": "مامان می‌گه یه کت زمستونی جدید لازم دارم. قدیمیه خیلی کوچیکه. کمکم می‌کنی انتخاب کنم؟",
@@ -48,8 +48,8 @@
      "keywords": [
       "something",
       "anorak",
-      "dad's",
       "about",
+      "dad's",
       "black"
      ],
      "suggestion": "Something warm. And cool! Not like Dad's anorak. What about this black one?",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "excuse",
-      "green",
       "let's",
+      "green",
       "have",
       "ask"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -232,9 +232,9 @@
      "keywords": [
       "growing",
       "sleeves",
-      "says",
       "much",
-      "long"
+      "long",
+      "says"
      ],
      "suggestion": "The sleeves are long, but Mum says I'm growing. How much is it?",
      "suggestionFa": "آستین‌ها بلنده، ولی مامان می‌گه دارم بزرگ میشم. قیمتش چنده؟",
@@ -255,8 +255,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -317,10 +317,10 @@
     {
      "keywords": [
       "pounds",
-      "forty",
       "eight",
-      "left",
-      "i've"
+      "forty",
+      "i've",
+      "quid"
      ],
      "suggestion": "Mum gave me forty quid. So I've got eight pounds left. Can I buy a hat too?",
      "suggestionFa": "مامان چهل پوند بهم داد. پس هشت پوند برام می‌مونه. می‌تونم یه کلاه هم بخرم؟",
@@ -341,8 +341,8 @@
    "branches": [
     {
      "keywords": [
-      "helping",
       "receipt",
+      "helping",
       "you've",
       "thanks",
       "taste"

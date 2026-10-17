@@ -22,9 +22,9 @@
     {
      "keywords": [
       "something",
+      "school",
       "before",
       "coffee",
-      "school",
       "shall"
      ],
      "suggestion": "Phew! I need a coffee before the school run. Shall I get you something?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "they've",
-      "paid",
-      "lots",
+      "kind",
       "last",
-      "time"
+      "time",
+      "paid"
      ],
      "suggestion": "No, no. You paid last time. What kind of tea? They've got lots.",
      "suggestionFa": "نه، نه. دفعهٔ قبل تو حساب کردی. چه نوع چایی؟ کلی دارن.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -208,7 +208,7 @@
       "reusable",
       "have",
       "cup",
-      "get"
+      "got"
      ],
      "suggestion": "Oh, have you got a reusable cup? You get a discount!",
      "suggestionFa": "آه، لیوان چندبارمصرف داری؟ تخفیف می‌گیری!",
@@ -229,8 +229,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -312,9 +312,9 @@
      "keywords": [
       "minutes",
       "school",
-      "spill",
       "don't",
-      "let's"
+      "let's",
+      "spill"
      ],
      "suggestion": "Right. Ten minutes to school. Let's walk fast — and don't spill the tea!",
      "suggestionFa": "خب. ده دقیقه تا مدرسه. تند راه بریم — و چای را نریز!",

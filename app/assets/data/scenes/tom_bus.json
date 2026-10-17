@@ -73,8 +73,8 @@
     {
      "keywords": [
       "that's",
-      "fine",
-      "rush"
+      "rush",
+      "fine"
      ],
      "suggestion": "That's fine, I'm not in a rush.",
      "suggestionFa": "اشکالی نداره، عجله ندارم.",
@@ -84,8 +84,8 @@
     },
     {
      "keywords": [
-      "quicker",
       "meeting",
+      "quicker",
       "there",
       "i've"
      ],
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
+      "chat",
       "stay",
-      "i'll",
-      "down"
+      "i'll"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -179,8 +179,8 @@
      "keywords": [
       "closed",
       "shame",
-      "when",
-      "were"
+      "were",
+      "when"
      ],
      "suggestion": "Shame! Were you sad when it closed?",
      "suggestionFa": "حیف! وقتی بسته شد ناراحت شدی؟",
@@ -237,8 +237,8 @@
     },
     {
      "keywords": [
-      "was",
-      "who"
+      "who",
+      "was"
      ],
      "suggestion": "Who was it with?",
      "suggestionFa": "با کی بود؟",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "that's",
-      "sign",
       "good",
+      "sign",
       "ha"
      ],
      "suggestion": "Ha! That's not a good sign.",
@@ -328,8 +328,8 @@
      "keywords": [
       "leicester",
       "meeting",
-      "square",
-      "really"
+      "really",
+      "friend"
      ],
      "suggestion": "Not really. I'm meeting a friend near Leicester Square.",
      "suggestionFa": "راستش نه. نزدیک لستر اسکوئر با یه دوست قرار دارم.",
@@ -341,8 +341,8 @@
      "keywords": [
       "phone",
       "i'll",
-      "map",
-      "use"
+      "use",
+      "map"
      ],
      "suggestion": "I'll use the map on my phone.",
      "suggestionFa": "از نقشهٔ گوشیم استفاده می‌کنم.",
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "better",
       "thanks",
+      "better",
       "than",
       "map"
      ],

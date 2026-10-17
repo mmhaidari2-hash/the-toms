@@ -49,8 +49,8 @@
       "collar",
       "maybe",
       "let's",
-      "next",
-      "from"
+      "door",
+      "look"
      ],
      "suggestion": "Maybe it's from next door. Let's look at the collar. What does it say?",
      "suggestionFa": "شاید مال همسایه‌ست. بیا قلاده‌اش را ببینیم. چی نوشته؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "fourteen",
-      "number",
       "khan's",
+      "number",
       "that's",
       "lives"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -204,8 +204,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -320,8 +320,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -373,11 +373,11 @@
    "branches": [
     {
      "keywords": [
-      "samosas",
       "amazing",
+      "samosas",
       "makes",
-      "khan",
-      "must"
+      "must",
+      "khan"
      ],
      "suggestion": "Mrs Khan makes amazing samosas. We must go for that cup of tea!",
      "suggestionFa": "خانم خان سمبوسه‌های فوق‌العاده‌ای درست می‌کنه. حتماً باید برای اون فنجون چای بریم!",

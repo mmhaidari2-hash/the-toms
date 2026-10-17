@@ -74,9 +74,9 @@
     {
      "keywords": [
       "parents",
-      "shiraz",
+      "tehran",
       "sister",
-      "tehran"
+      "shiraz"
      ],
      "suggestion": "My parents live in Tehran. My sister lives in Shiraz.",
      "suggestionFa": "پدر و مادرم تهران زندگی می‌کنن. خواهرم شیراز.",
@@ -134,8 +134,8 @@
    "branches": [
     {
      "keywords": [
-      "teacher",
       "teaches",
+      "teacher",
       "maths"
      ],
      "suggestion": "He's a teacher. He teaches maths.",
@@ -148,8 +148,8 @@
      "keywords": [
       "engineer",
       "retired",
-      "was",
-      "now"
+      "now",
+      "was"
      ],
      "suggestion": "He's retired now. He was an engineer.",
      "suggestionFa": "الان بازنشسته‌ست. مهندس بود.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "family",
-      "boss",
-      "home"
+      "home",
+      "boss"
      ],
      "suggestion": "She works at home. She's the boss of the family!",
      "suggestionFa": "تو خونه کار می‌کنه. رئیس خانواده‌ست!",
@@ -237,7 +237,7 @@
       "sunday",
       "every",
       "call",
-      "much"
+      "them"
      ],
      "suggestion": "Yes, very much. I call them every Sunday.",
      "suggestionFa": "آره، خیلی. هر یکشنبه بهشون زنگ می‌زنم.",
@@ -354,8 +354,8 @@
      "keywords": [
       "really",
       "sister",
-      "like",
-      "look"
+      "look",
+      "like"
      ],
      "suggestion": "Really? My sister says I look like Dad.",
      "suggestionFa": "واقعاً؟ خواهرم میگه شبیه بابام.",

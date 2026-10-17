@@ -21,8 +21,8 @@
      "keywords": [
       "leslie",
       "great",
-      "had",
-      "day"
+      "day",
+      "had"
      ],
      "suggestion": "Hi, Leslie! He had a great day.",
      "suggestionFa": "سلام لزلی! روز خیلی خوبی داشت.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "seconds",
-      "had",
-      "all"
+      "all",
+      "had"
      ],
      "suggestion": "Yes, he ate all of it and had seconds!",
      "suggestionFa": "آره، همه‌ش را خورد و دوباره هم گرفت!",
@@ -82,9 +82,9 @@
     {
      "keywords": [
       "lunch",
-      "peas",
       "most",
-      "his"
+      "peas",
+      "but"
      ],
      "suggestion": "He ate most of his lunch, but no peas.",
      "suggestionFa": "بیشتر ناهارش را خورد، ولی نخود نه.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "hour",
       "from",
+      "hour",
       "two",
       "one"
      ],
@@ -237,7 +237,7 @@
       "himself",
       "painted",
       "nicola",
-      "he"
+      "hi"
      ],
      "suggestion": "Hi, Nicola! He painted it himself.",
      "suggestionFa": "سلام نیکولا! خودش رنگش کرد.",

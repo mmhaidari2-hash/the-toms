@@ -1,0 +1,408 @@
+{
+ "id": "l2_u22_3",
+ "characterId": "leslie",
+ "title": "Unexpected item in the bagging area",
+ "titleFa": "کالای غیرمنتظره در محل بسته‌بندی",
+ "setting": "Big supermarket · Level 2",
+ "settingFa": "سوپرمارکت بزرگ",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Let's use the self-checkout, it's quicker. Scan, bag, pay. Easy. You do the scanning, I'll do the bags.",
+   "translations": {
+    "fa": "بیا از صندوق سلف‌سرویس استفاده کنیم، سریع‌تره. اسکن، کیسه، پرداخت. آسون. تو اسکن کن، من کیسه می‌ذارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barcode",
+      "where's",
+      "apples",
+      "these"
+     ],
+     "suggestion": "OK. Where's the barcode on these apples?",
+     "suggestionFa": "باشه. بارکد این سیب‌ها کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "first",
+      "i've",
+      "used"
+     ],
+     "suggestion": "I've never used one. Show me first?",
+     "suggestionFa": "تا حالا ازش استفاده نکردم. اول نشونم میدی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "self-checkout",
+     "fa": "صندوق سلف‌سرویس"
+    },
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    },
+    {
+     "word": "bag",
+     "fa": "در کیسه گذاشتن"
+    },
+    {
+     "word": "barcode",
+     "fa": "بارکد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Loose fruit has no barcode. Press \"Look up item\", then \"Fruit and veg\", then \"Apples\". It weighs them.",
+   "translations": {
+    "fa": "میوهٔ فله بارکد نداره. «جستجوی کالا» را بزن، بعد «میوه و سبزی»، بعد «سیب». خودش وزنشون می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "apples",
+      "fruit",
+      "done",
+      "look"
+     ],
+     "suggestion": "Look up item… fruit… apples. Done!",
+     "suggestionFa": "جستجوی کالا… میوه… سیب. تموم!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "machine",
+      "weighs",
+      "clever",
+      "them"
+     ],
+     "suggestion": "It weighs them? Clever machine.",
+     "suggestionFa": "وزنشون می‌کنه؟ دستگاه زرنگیه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loose",
+     "fa": "فله"
+    },
+    {
+     "word": "look up",
+     "fa": "جستجو کردن"
+    },
+    {
+     "word": "weighs",
+     "fa": "وزن می‌کند"
+    },
+    {
+     "word": "machine",
+     "fa": "دستگاه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "zara",
+   "text": "Uh-oh, I heard that! The machine said \"Unexpected item in the bagging area\". It wants you to take something off.",
+   "translations": {
+    "fa": "اوه، شنیدم! دستگاه گفت «کالای غیرمنتظره در محل بسته‌بندی». می‌خواد یه چیزی را برداری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "haven't",
+      "there",
+      "put"
+     ],
+     "suggestion": "What? I haven't put anything there!",
+     "suggestionFa": "چی؟ من چیزی اونجا نذاشتم!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wrong",
+      "have",
+      "done",
+      "oh"
+     ],
+     "suggestion": "Oh no. What have I done wrong?",
+     "suggestionFa": "وای نه. چه اشتباهی کردم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unexpected",
+     "fa": "غیرمنتظره"
+    },
+    {
+     "word": "item",
+     "fa": "کالا"
+    },
+    {
+     "word": "bagging area",
+     "fa": "محل بسته‌بندی"
+    },
+    {
+     "word": "remove",
+     "fa": "برداشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Unexpected item in the bagging area\" is the most famous machine voice in Britain. Everyone hears it. Nobody knows why.",
+    "fa": "این مشهورترین جملهٔ دستگاه در بریتانیاست."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i don't put nothing",
+      "i not put anything"
+     ],
+     "echo": "You haven't put anything there? Ah, my handbag!",
+     "better": "I haven't put anything there!",
+     "betterFa": "من چیزی آنجا نگذاشته‌ام!"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Oops — it's my handbag! I've put it on the scales. Classic. I'll move it. Has it stopped?",
+   "translations": {
+    "fa": "اوه — کیف دستی منه! گذاشتمش رو ترازو. کلاسیک. برش می‌دارم. ساکت شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopped",
+      "light",
+      "green",
+      "has"
+     ],
+     "suggestion": "Yes, it has stopped. The light is green.",
+     "suggestionFa": "آره، ساکت شد. چراغ سبزه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "assistance",
+      "hasn't",
+      "wait",
+      "says"
+     ],
+     "suggestion": "No, it hasn't. Now it says \"Wait for assistance\".",
+     "suggestionFa": "نه، نشده. الان میگه «منتظر کمک بمانید».",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scales",
+     "fa": "ترازو"
+    },
+    {
+     "word": "classic",
+     "fa": "کلاسیک ؛ همیشگی"
+    },
+    {
+     "word": "light",
+     "fa": "چراغ"
+    },
+    {
+     "word": "assistance",
+     "fa": "کمک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Hmm, the light on top is flashing red. That means we need a member of staff. Can you wave at that lady?",
+   "translations": {
+    "fa": "هوم، چراغ بالاش قرمز چشمک می‌زنه. یعنی یه کارمند لازم داریم. میشه برای اون خانم دست تکون بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "help",
+      "can"
+     ],
+     "suggestion": "Excuse me! Can you help us, please?",
+     "suggestionFa": "ببخشید! میشه لطفاً کمکمون کنید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "machine",
+      "angry"
+     ],
+     "suggestion": "Excuse me! The machine is angry with us.",
+     "suggestionFa": "ببخشید! دستگاه از دستمون عصبانیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flashing",
+     "fa": "چشمک‌زن"
+    },
+    {
+     "word": "member of staff",
+     "fa": "کارمند"
+    },
+    {
+     "word": "wave",
+     "fa": "دست تکان دادن"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "zara",
+   "text": "Me again! Don't worry, it does this to everyone. Let me tap my staff card… there. All sorted.",
+   "translations": {
+    "fa": "باز هم من! نگران نباشید، با همه این کار را می‌کنه. بذار کارت کارمندیم را بزنم… بفرمایید. همه‌چی درست شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scanned",
+      "apples",
+      "thank",
+      "twice"
+     ],
+     "suggestion": "Thank you! I've scanned the apples twice, I think.",
+     "suggestionFa": "ممنون! فکر کنم سیب‌ها را دو بار اسکن کردم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "saved",
+      "zara",
+      "us"
+     ],
+     "suggestion": "Thanks, Zara. You saved us!",
+     "suggestionFa": "ممنون زارا. نجاتمون دادی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sorted",
+     "fa": "حل شده"
+    },
+    {
+     "word": "twice",
+     "fa": "دو بار"
+    },
+    {
+     "word": "saved",
+     "fa": "نجات داد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "zara",
+   "text": "Twice? Let me look… yep. I've taken one off. See? Total's gone down. Now just pay by card or phone.",
+   "translations": {
+    "fa": "دو بار؟ بذار ببینم… آره. یکیش را حذف کردم. می‌بینی؟ جمع کم شد. حالا فقط با کارت یا گوشی پرداخت کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "card",
+      "tap",
+      "put"
+     ],
+     "suggestion": "Card. Do I put it in or tap?",
+     "suggestionFa": "کارت. واردش کنم یا بزنمش؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "says",
+      "i've",
+      "paid"
+     ],
+     "suggestion": "I've paid! It says \"Thank you\".",
+     "suggestionFa": "پرداخت کردم! نوشته «متشکریم».",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "taken off",
+     "fa": "حذف کرد"
+    },
+    {
+     "word": "total",
+     "fa": "جمع کل"
+    },
+    {
+     "word": "gone down",
+     "fa": "کم شده"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن ؛ لمس کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "You've done it! Your first self-checkout, and only one telling-off from the machine. That's better than Tom.",
+   "translations": {
+    "fa": "انجامش دادی! اولین صندوق سلف‌سرویست، فقط یه بار هم دستگاه دعوات کرد. از تام بهتری."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "often",
       "don't",
-      "nice",
+      "often",
+      "have",
       "good",
-      "week"
+      "nice"
      ],
      "suggestion": "Oh, this is nice. I don't often have a day off! Did you have a good week?",
      "suggestionFa": "آه، چه خوب. من زیاد روز تعطیل ندارم! هفتهٔ خوبی داشتی؟",
@@ -49,8 +49,8 @@
       "brilliant",
       "wednesday",
       "sister",
-      "town",
-      "play"
+      "play",
+      "town"
      ],
      "suggestion": "Me too. On Wednesday I saw a play with my sister in town. It was brilliant.",
      "suggestionFa": "منم. چهارشنبه با خواهرم تو شهر یه نمایش دیدم. عالی بود.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "italian",
+      "pudding",
       "little",
       "royal",
       "place"
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "tiramisu",
-      "nicola",
       "bought",
+      "nicola",
       "shoes",
       "sizes"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "saturday",
       "loved",
-      "wore",
       "them",
-      "did"
+      "wore",
+      "bed"
      ],
      "suggestion": "She loved them. She wore them to bed! What did you do on Saturday?",
      "suggestionFa": "عاشقشون شد. با کفش خوابید! تو شنبه چی کار کردی؟",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "callum's",
       "bringing",
+      "callum's",
       "coffees",
-      "lovely",
+      "callum",
       "sounds"
      ],
      "suggestion": "That sounds lovely. Ooh — Callum's bringing our coffees. Thank you, Callum!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

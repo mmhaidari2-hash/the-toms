@@ -22,10 +22,10 @@
     {
      "keywords": [
       "stopped",
-      "quick",
       "front",
+      "quick",
       "door",
-      "come"
+      "rain"
      ],
      "suggestion": "The rain has stopped! Come to the front door, quick! Look at the sky!",
      "suggestionFa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -103,10 +103,10 @@
    "branches": [
     {
      "keywords": [
-      "yellow",
       "orange",
-      "green",
+      "yellow",
       "seven",
+      "green",
       "blue"
      ],
      "suggestion": "Seven! Red, orange, yellow, green, blue… Can you say the rest, Mehdi?",
@@ -187,9 +187,9 @@
    "branches": [
     {
      "keywords": [
+      "shame",
       "never",
       "we'll",
-      "shame",
       "moves",
       "move"
      ],
@@ -212,8 +212,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -291,9 +291,9 @@
     {
      "keywords": [
       "everyone",
+      "wellies",
       "typical",
       "british",
-      "wellies",
       "people"
      ],
      "suggestion": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",

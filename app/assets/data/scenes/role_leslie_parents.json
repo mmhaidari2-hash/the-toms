@@ -21,8 +21,8 @@
      "keywords": [
       "tonight",
       "didn't",
-      "speak",
-      "sorry"
+      "sorry",
+      "speak"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
      "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
@@ -35,7 +35,7 @@
       "leaves",
       "house",
       "times",
-      "four"
+      "time"
      ],
      "suggestion": "Four times? He leaves the house on time!",
      "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "make",
-      "sure",
+      "good",
       "idea",
-      "good"
+      "make",
+      "sure"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "bus",
-      "tom"
+      "dad",
+      "his"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -171,7 +171,7 @@
       "english",
       "that's",
       "about",
-      "hear"
+      "good"
      ],
      "suggestion": "That's good to hear. What about English?",
      "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
@@ -220,9 +220,9 @@
     {
      "keywords": [
       "football",
-      "count",
       "reads",
-      "only"
+      "count",
+      "news"
      ],
      "suggestion": "He only reads football news. Does that count?",
      "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "library",
-      "card",
       "i'll",
+      "card",
       "him"
      ],
      "suggestion": "I'll get him a library card.",
@@ -385,9 +385,9 @@
     {
      "keywords": [
       "helpful",
-      "really",
       "thanks",
-      "much"
+      "really",
+      "been"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",
      "suggestionFa": "خیلی ممنون — واقعاً مفید بود.",

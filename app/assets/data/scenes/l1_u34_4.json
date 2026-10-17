@@ -69,9 +69,9 @@
     {
      "keywords": [
       "first",
+      "off",
       "bus",
-      "get",
-      "off"
+      "get"
      ],
      "suggestion": "First, we get off the bus.",
      "suggestionFa": "اول از اتوبوس پیاده میشیم.",
@@ -168,8 +168,8 @@
     {
      "keywords": [
       "school",
-      "walk",
-      "past"
+      "past",
+      "walk"
      ],
      "suggestion": "After that, walk past the school.",
      "suggestionFa": "بعد از اون، از جلوی مدرسه رد بشید.",
@@ -254,8 +254,8 @@
      "keywords": [
       "straight",
       "lights",
-      "first",
-      "right"
+      "right",
+      "first"
      ],
      "suggestion": "First, straight on. Then right at the lights.",
      "suggestionFa": "اول، مستقیم. بعد سر چراغ راست.",
