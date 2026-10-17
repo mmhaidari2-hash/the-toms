@@ -1,0 +1,394 @@
+{
+ "id": "l1_u27_3",
+ "characterId": "leslie",
+ "title": "The new family next door",
+ "titleFa": "خانوادهٔ جدید بغلی",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "There's a removal van outside number sixteen! A new family is moving in. Shall we say hello?",
+   "translations": {
+    "fa": "یه ماشین اسباب‌کشی جلوی پلاک شونزده‌ست! یه خانوادهٔ جدید دارن میان. بریم سلام کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "go"
+     ],
+     "suggestion": "Yes, let's go.",
+     "suggestionFa": "آره، بریم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "should",
+      "take",
+      "we"
+     ],
+     "suggestion": "Should we take something?",
+     "suggestionFa": "چیزی ببریم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "removal van",
+     "fa": "ماشین اسباب‌کشی"
+    },
+    {
+     "word": "moving in",
+     "fa": "اسباب‌کشی کردن (آمدن)"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Good idea! Some biscuits. People bring food for new neighbours here.",
+   "translations": {
+    "fa": "فکر خوبیه! یه کم بیسکویت. اینجا مردم برای همسایه‌های جدید خوراکی می‌برن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweets",
+      "bring",
+      "iran",
+      "we"
+     ],
+     "suggestion": "In Iran too! We bring sweets.",
+     "suggestionFa": "تو ایران هم! شیرینی می‌بریم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tradition",
+      "that's",
+      "nice"
+     ],
+     "suggestion": "That's a nice tradition.",
+     "suggestionFa": "رسم قشنگیه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bring",
+     "fa": "آوردن"
+    },
+    {
+     "word": "tradition",
+     "fa": "رسم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Hello! Welcome to the street! I'm Leslie, from number twelve. This is our friend.",
+   "translations": {
+    "fa": "سلام! به خیابون خوش اومدید! من لزلی‌ام، از پلاک دوازده. این دوستمونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "welcome",
+      "hello"
+     ],
+     "suggestion": "Hello! Welcome!",
+     "suggestionFa": "سلام! خوش اومدید!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuits",
+      "these",
+      "hi"
+     ],
+     "suggestion": "Hi! These biscuits are for you.",
+     "suggestionFa": "سلام! این بیسکویت‌ها برای شماست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "welcome",
+     "fa": "خوش آمدید"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "khan",
+   "text": "Yoo-hoo! Leslie! Is that the new family? Ask them their names!",
+   "translations": {
+    "fa": "هوهو! لزلی! این خانوادهٔ جدیده؟ اسمشون را بپرس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "wants",
+      "khan",
+      "know"
+     ],
+     "suggestion": "Ha! Mrs Khan wants to know everything!",
+     "suggestionFa": "ها! خانم خان می‌خواد همه چی را بدونه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "names"
+     ],
+     "suggestion": "What are your names?",
+     "suggestionFa": "اسمتون چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "window",
+     "fa": "پنجره"
+    },
+    {
+     "word": "names",
+     "fa": "اسم‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Ha! Sorry. That's Mrs Khan. Their names are Femi and Grace. They've got two children.",
+   "translations": {
+    "fa": "ها! ببخشید. اون خانم خانه. اسمشون فمی و گریسه. دو تا بچه دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "how",
+      "old"
+     ],
+     "suggestion": "How old are the children?",
+     "suggestionFa": "بچه‌ها چند سالشونه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "girls",
+      "boys",
+      "they"
+     ],
+     "suggestion": "Are they boys or girls?",
+     "suggestionFa": "پسرن یا دختر؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "children",
+     "fa": "بچه‌ها"
+    },
+    {
+     "word": "how old",
+     "fa": "چند ساله"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how old is children",
+      "how old the children are"
+     ],
+     "echo": "How old are they? Let's ask!",
+     "better": "How old are the children?",
+     "betterFa": "بچه‌ها چند سالشونه؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "A boy and a girl. Tunde is seven and Ada is five. Ada can play with Nicola!",
+   "translations": {
+    "fa": "یه پسر و یه دختر. تونده هفت سالشه و آدا پنج. آدا می‌تونه با نیکولا بازی کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "that's"
+     ],
+     "suggestion": "That's perfect!",
+     "suggestionFa": "عالیه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "before",
+      "where",
+      "live",
+      "they"
+     ],
+     "suggestion": "Where did they live before?",
+     "suggestionFa": "قبلاً کجا زندگی می‌کردن؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boy",
+     "fa": "پسر"
+    },
+    {
+     "word": "girl",
+     "fa": "دختر"
+    },
+    {
+     "word": "before",
+     "fa": "قبلاً"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "In Manchester. Femi's got a new job at the hospital. They don't know London at all.",
+   "translations": {
+    "fa": "تو منچستر. فمی یه کار جدید تو بیمارستان گرفته. اصلاً لندن را نمی‌شناسن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "new"
+     ],
+     "suggestion": "I'm new here too!",
+     "suggestionFa": "منم اینجا تازه‌واردم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "around",
+      "them",
+      "show",
+      "can"
+     ],
+     "suggestion": "We can show them around.",
+     "suggestionFa": "می‌تونیم همه جا را نشونشون بدیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    },
+    {
+     "word": "at all",
+     "fa": "اصلاً"
+    },
+    {
+     "word": "show around",
+     "fa": "نشان دادن اطراف"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Lovely. Do they need help with the boxes?",
+   "translations": {
+    "fa": "عالی. برای جعبه‌ها کمک لازم دارن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "boxes",
+      "carry",
+      "some"
+     ],
+     "suggestion": "Shall we carry some boxes?",
+     "suggestionFa": "چند تا جعبه ببریم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strong",
+      "help",
+      "can"
+     ],
+     "suggestion": "I can help. I'm strong!",
+     "suggestionFa": "من می‌تونم کمک کنم. قوی‌ام!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carry",
+     "fa": "حمل کردن"
+    },
+    {
+     "word": "boxes",
+     "fa": "جعبه‌ها"
+    },
+    {
+     "word": "strong",
+     "fa": "قوی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "They said yes, please! Come on, let's help. Then I'll invite them for tea on Sunday.",
+   "translations": {
+    "fa": "گفتن آره، لطفاً! بیا کمک کنیم. بعد یکشنبه برای چای دعوتشون می‌کنم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

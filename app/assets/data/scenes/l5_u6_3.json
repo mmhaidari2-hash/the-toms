@@ -21,8 +21,8 @@
      "keywords": [
       "certainly",
       "criteria",
-      "suggest",
-      "against"
+      "against",
+      "suggest"
      ],
      "suggestion": "Certainly. I'd suggest we score each answer against the job criteria.",
      "suggestionFa": "حتماً. پیشنهاد می‌کنم هر جواب را بر اساس معیارهای شغل امتیاز بدیم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "questions",
-      "regard",
       "course",
+      "regard",
       "shall"
      ],
      "suggestion": "Of course. With regard to the questions, shall we each take two?",
@@ -79,8 +79,8 @@
      "keywords": [
       "nevertheless",
       "understood",
-      "careful",
-      "culture"
+      "culture",
+      "doesn't"
      ],
      "suggestion": "Understood. Nevertheless, we should be careful that \"culture fit\" doesn't become bias.",
      "suggestionFa": "فهمیدم. با این حال، باید مراقب باشیم «تناسب فرهنگی» تبدیل به سوگیری نشه.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "impressions",
-      "examples",
       "specific",
+      "examples",
       "general"
      ],
      "suggestion": "I'll focus on specific examples rather than general impressions.",
@@ -139,8 +139,8 @@
    "branches": [
     {
      "keywords": [
-      "themselves",
       "candidates",
+      "themselves",
       "brilliant",
       "british"
      ],
@@ -202,8 +202,8 @@
     {
      "keywords": [
       "begin",
-      "let's",
       "first",
+      "let's",
       "feels"
      ],
      "suggestion": "Yes, let's begin. I'll make sure she feels at ease first.",
@@ -215,9 +215,9 @@
     {
      "keywords": [
       "certainly",
+      "shall",
       "water",
-      "offer",
-      "shall"
+      "offer"
      ],
      "suggestion": "Certainly. Shall I offer her some water?",
      "suggestionFa": "حتماً. بهش آب تعارف کنم؟",

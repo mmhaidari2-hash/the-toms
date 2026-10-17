@@ -1,0 +1,361 @@
+{
+ "id": "l1_u43_1",
+ "characterId": "priya",
+ "title": "Excuse me, can you help me?",
+ "titleFa": "ببخشید، می‌توانید کمکم کنید؟",
+ "setting": "Asking for help · Level 1",
+ "settingFa": "کمک خواستن",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Hi there! You look a bit lost. Can I help you with anything?",
+   "translations": {
+    "fa": "سلام! یه کم سردرگم به نظر میاید. کمکی از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "excuse",
+      "help",
+      "can"
+     ],
+     "suggestion": "Excuse me, can you help me?",
+     "suggestionFa": "ببخشید، می‌تونید کمکم کنید؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looking",
+      "saffron",
+      "please"
+     ],
+     "suggestion": "Yes, please. I'm looking for saffron.",
+     "suggestionFa": "آره، لطفاً. دنبال زعفرون می‌گردم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lost",
+     "fa": "سردرگم ؛ گم"
+    },
+    {
+     "word": "looking for",
+     "fa": "دنبال ... گشتن"
+    },
+    {
+     "word": "saffron",
+     "fa": "زعفران"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Of course! What are you looking for?",
+   "translations": {
+    "fa": "البته! دنبال چی می‌گردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saffron",
+      "sell"
+     ],
+     "suggestion": "Do you sell saffron?",
+     "suggestionFa": "زعفرون می‌فروشید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spices",
+      "where"
+     ],
+     "suggestion": "Where are the spices?",
+     "suggestionFa": "ادویه‌ها کجان؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sell",
+     "fa": "فروختن"
+    },
+    {
+     "word": "spices",
+     "fa": "ادویه‌ها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you have saffron?",
+      "do you selling saffron"
+     ],
+     "echo": "Do we sell saffron? We do!",
+     "better": "Do you sell saffron?",
+     "betterFa": "زعفرون می‌فروشید؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "We do! Spices are in aisle six. But saffron is behind the till. It's very expensive!",
+   "translations": {
+    "fa": "می‌فروشیم! ادویه‌ها راهروی شیشن. ولی زعفرون پشت صندوقه. خیلی گرونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "till",
+      "why"
+     ],
+     "suggestion": "Why is it behind the till?",
+     "suggestionFa": "چرا پشت صندوقه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "locked",
+      "up"
+     ],
+     "suggestion": "Is it locked up?",
+     "suggestionFa": "قفلش کردید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "aisle",
+     "fa": "راهرو (فروشگاه)"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "expensive",
+     "fa": "گران"
+    },
+    {
+     "word": "locked up",
+     "fa": "قفل‌شده"
+    }
+   ],
+   "cultureNote": {
+    "en": "Small expensive items like saffron, razor blades or perfume are often kept behind the till in UK shops.",
+    "fa": "اقلام گران پشت صندوق."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "People steal it! It's like gold. What are you cooking?",
+   "translations": {
+    "fa": "مردم می‌دزدنش! مثل طلاست. چی می‌پزید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saffron",
+      "persian",
+      "rice"
+     ],
+     "suggestion": "Persian rice with saffron.",
+     "suggestionFa": "برنج ایرانی با زعفرون.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbours",
+      "chicken",
+      "dish"
+     ],
+     "suggestion": "A chicken dish for my neighbours.",
+     "suggestionFa": "یه غذای مرغ برای همسایه‌هام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "steal",
+     "fa": "دزدیدن"
+    },
+    {
+     "word": "gold",
+     "fa": "طلا"
+    },
+    {
+     "word": "dish",
+     "fa": "غذا"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Lovely! Do you need anything else? Basmati rice? We've got big bags.",
+   "translations": {
+    "fa": "عالی! چیز دیگه‌ای لازم دارید؟ برنج باسماتی؟ کیسهٔ بزرگ داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "where",
+      "rice"
+     ],
+     "suggestion": "Yes, please. Where is the rice?",
+     "suggestionFa": "آره، لطفاً. برنج کجاست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yogurt",
+      "show",
+      "can"
+     ],
+     "suggestion": "Can you show me the yogurt too?",
+     "suggestionFa": "ماست را هم نشونم میدید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "basmati",
+     "fa": "باسماتی"
+    },
+    {
+     "word": "anything else",
+     "fa": "چیز دیگری"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Rice is in aisle four, on the bottom shelf. Yogurt is in the fridges at the back.",
+   "translations": {
+    "fa": "برنج تو راهروی چهار، قفسهٔ پایین. ماست تو یخچال‌های ته فروشگاهه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "help"
+     ],
+     "suggestion": "Thank you for your help.",
+     "suggestionFa": "ممنون بابت کمکتون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "back",
+      "ok"
+     ],
+     "suggestion": "At the back. OK.",
+     "suggestionFa": "ته فروشگاه. باشه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bottom shelf",
+     "fa": "قفسهٔ پایین"
+    },
+    {
+     "word": "fridges",
+     "fa": "یخچال‌ها"
+    },
+    {
+     "word": "at the back",
+     "fa": "در عقب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "You're welcome! When you're ready, come to my till. I'll get the saffron for you.",
+   "translations": {
+    "fa": "خواهش می‌کنم! هر وقت آماده بودید بیاید صندوق من. زعفرون را براتون میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "minute",
+      "see"
+     ],
+     "suggestion": "Brilliant. See you in a minute.",
+     "suggestionFa": "عالی. یه دقیقه دیگه می‌بینمتون.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "saffron",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is the saffron?",
+     "suggestionFa": "زعفرون چنده؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "in a minute",
+     "fa": "یک دقیقه دیگر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "About four pounds for a tiny box. Precious stuff! Enjoy your cooking!",
+   "translations": {
+    "fa": "حدود چهار پوند برای یه جعبهٔ کوچولو. چیز گرون‌بهاییه! آشپزی خوش بگذره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

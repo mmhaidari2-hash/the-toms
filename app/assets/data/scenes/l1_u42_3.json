@@ -1,0 +1,362 @@
+{
+ "id": "l1_u42_3",
+ "characterId": "doris",
+ "title": "Walking or driving?",
+ "titleFa": "پیاده یا با ماشین؟",
+ "setting": "Transport words · Level 1",
+ "settingFa": "واژه‌های حمل‌ونقل",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Hello again, dear! Today I'm on the bus. My grandson usually drives me, but he's at work.",
+   "translations": {
+    "fa": "دوباره سلام عزیزم! امروز سوار اتوبوسم. معمولاً نوه‌م منو می‌رسونه، ولی سر کاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doris",
+      "hello",
+      "how"
+     ],
+     "suggestion": "Hello, Doris! How are you?",
+     "suggestionFa": "سلام دوریس! حالتون چطوره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "bus",
+      "car"
+     ],
+     "suggestion": "Do you like the bus or the car?",
+     "suggestionFa": "اتوبوس را دوست دارید یا ماشین؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grandson",
+     "fa": "نوه (پسر)"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "drives",
+     "fa": "می‌راند ؛ با ماشین می‌برد"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "The car is faster. But the bus is cheaper. It's free for me! I've got a Freedom Pass.",
+   "translations": {
+    "fa": "ماشین سریع‌تره. ولی اتوبوس ارزون‌تره. برای من مجانیه! کارت فریدم دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "great",
+      "free"
+     ],
+     "suggestion": "Free? That's great.",
+     "suggestionFa": "مجانی؟ عالیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "freedom",
+      "what's",
+      "pass"
+     ],
+     "suggestion": "What's a Freedom Pass?",
+     "suggestionFa": "کارت فریدم چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "faster",
+     "fa": "سریع‌تر"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Older people in London get a Freedom Pass for free travel on buses and trains.",
+    "fa": "کارت سفر رایگان سالمندان."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Free travel for old ducks like me! Do you drive, dear?",
+   "translations": {
+    "fa": "سفر مجانی برای پیرزن‌هایی مثل من! تو رانندگی می‌کنی عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "car",
+      "got"
+     ],
+     "suggestion": "No. I haven't got a car.",
+     "suggestionFa": "نه. ماشین ندارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drove",
+      "here",
+      "iran",
+      "but"
+     ],
+     "suggestion": "I drove in Iran, but not here.",
+     "suggestionFa": "تو ایران رانندگی می‌کردم، ولی اینجا نه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "old duck",
+     "fa": "(شوخی) پیرزن ؛ عزیزم"
+    },
+    {
+     "word": "drive",
+     "fa": "رانندگی کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Driving in London is terrible. Traffic, parking… Walking is healthier!",
+   "translations": {
+    "fa": "رانندگی تو لندن افتضاحه. ترافیک، پارکینگ… پیاده‌روی سالم‌تره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "healthier",
+      "free"
+     ],
+     "suggestion": "Walking is healthier, and it's free.",
+     "suggestionFa": "پیاده‌روی سالم‌تره، و مجانیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slower",
+      "but"
+     ],
+     "suggestion": "But walking is slower.",
+     "suggestionFa": "ولی پیاده‌روی کندتره.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "traffic",
+     "fa": "ترافیک"
+    },
+    {
+     "word": "parking",
+     "fa": "پارکینگ"
+    },
+    {
+     "word": "healthier",
+     "fa": "سالم‌تر"
+    },
+    {
+     "word": "slower",
+     "fa": "کندتر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "walking is more healthy",
+      "walking is more healthier"
+     ],
+     "echo": "Healthier? Yes, much!",
+     "better": "Walking is healthier.",
+     "betterFa": "پیاده‌روی سالم‌تره."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Slower, yes. But I see more! I walk to the shops every morning. Ten thousand steps!",
+   "translations": {
+    "fa": "کندتر، آره. ولی بیشتر می‌بینم! هر صبح پیاده میرم مغازه. ده هزار قدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "wow",
+      "ten"
+     ],
+     "suggestion": "Ten thousand? Wow!",
+     "suggestionFa": "ده هزار؟ وای!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "than",
+      "more"
+     ],
+     "suggestion": "That's more than me!",
+     "suggestionFa": "از من بیشتره!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "steps",
+     "fa": "قدم‌ها"
+    },
+    {
+     "word": "thousand",
+     "fa": "هزار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Well, maybe five thousand. Ha! What's better, a car or a bus, in Tehran?",
+   "translations": {
+    "fa": "خب، شاید پنج هزار. ها! تو تهران چی بهتره، ماشین یا اتوبوس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "faster",
+      "metro",
+      "car"
+     ],
+     "suggestion": "The metro is faster than a car.",
+     "suggestionFa": "مترو از ماشین سریع‌تره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheaper",
+      "taxis",
+      "here"
+     ],
+     "suggestion": "Taxis are cheaper than here.",
+     "suggestionFa": "تاکسی‌ها از اینجا ارزون‌ترن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "metro",
+     "fa": "مترو"
+    },
+    {
+     "word": "taxis",
+     "fa": "تاکسی‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Cheaper taxis! Lucky you. Here a taxi is more expensive than a holiday! Ah, there's my stop.",
+   "translations": {
+    "fa": "تاکسی ارزون‌تر! خوش به حالت. اینجا تاکسی از تعطیلات گرون‌تره! آه، ایستگاهم رسید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doris",
+      "take",
+      "care",
+      "bye"
+     ],
+     "suggestion": "Bye, Doris! Take care.",
+     "suggestionFa": "خداحافظ دوریس! مراقب باشید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "need",
+      "bag"
+     ],
+     "suggestion": "Do you need help with your bag?",
+     "suggestionFa": "با کیفتون کمک لازم دارید؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "more expensive",
+     "fa": "گران‌تر"
+    },
+    {
+     "word": "holiday",
+     "fa": "تعطیلات"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "No thank you, dear. Walking is good for me, remember! Bye-bye! Bye, Tom!",
+   "translations": {
+    "fa": "نه ممنون عزیزم. پیاده‌روی برام خوبه، یادته! خداحافظ! خداحافظ تام!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

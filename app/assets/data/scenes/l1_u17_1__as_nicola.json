@@ -1,0 +1,249 @@
+{
+ "id": "l1_u17_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Squash or milk?",
+ "titleFa": "(در نقش Nicola) شربت یا شیر؟",
+ "setting": "Drinks · Level 1",
+ "settingFa": "نوشیدنی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u17_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirsty",
+      "please",
+      "drink",
+      "have",
+      "can"
+     ],
+     "suggestion": "I'm thirsty! Can I have a drink, please?",
+     "suggestionFa": "تشنمه! می‌شه یه نوشیدنی بخورم، لطفاً؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. What would you like?",
+   "translations": {
+    "fa": "حتماً. چی میل داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "orange",
+      "squash",
+      "please",
+      "water"
+     ],
+     "suggestion": "Not water. Squash, please! Orange squash.",
+     "suggestionFa": "آب نه. شربت، لطفاً! شربت پرتقال.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What's squash?",
+   "translations": {
+    "fa": "شربت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cupboard",
+      "strong",
+      "little",
+      "squash",
+      "water"
+     ],
+     "suggestion": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
+     "suggestionFa": "تو کابینته. یه کم شربت، بعد کلی آب. نه خیلی غلیظ!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Like this?",
+   "translations": {
+    "fa": "این‌جوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "squash",
+      "some",
+      "want",
+      "mmm"
+     ],
+     "suggestion": "Mmm, perfect! Do you want some squash too?",
+     "suggestionFa": "ممم، عالی! تو هم شربت می‌خوای؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes, please. Just a little.",
+   "translations": {
+    "fa": "آره، لطفاً. فقط یه کم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bottle",
+      "drinks",
+      "fridge",
+      "mummy",
+      "cross"
+     ],
+     "suggestion": "Milk is in the fridge. Ryan drinks milk from the bottle! Mummy gets cross.",
+     "suggestionFa": "شیر تو یخچاله. رایان از بطری شیر می‌خوره! مامان عصبانی میشه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha ha! Not from the bottle!",
+   "translations": {
+    "fa": "ها ها! نه از بطری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "green",
+      "milk",
+      "blue",
+      "want"
+     ],
+     "suggestion": "Which milk do you want? Blue, green or red?",
+     "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What do the colours mean?",
+   "translations": {
+    "fa": "رنگ‌ها یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy",
+      "green",
+      "likes",
+      "blue",
+      "half"
+     ],
+     "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
+     "suggestionFa": "آبی پرچربه. سبز نصفه. قرمز بی‌چربی. بابا آبی دوست داره!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I'll have the green one.",
+   "translations": {
+    "fa": "من سبزه را برمی‌دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "cheers",
+      "grown",
+      "say",
+      "ups"
+     ],
+     "suggestion": "Cheers! That's what grown-ups say. Cheers!",
+     "suggestionFa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Cheers, Nicola!",
+   "translations": {
+    "fa": "به سلامتی نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spilled",
+      "biscuit",
+      "don't",
+      "clink",
+      "mummy"
+     ],
+     "suggestion": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",
+     "suggestionFa": "جرینگ! اوپس — یه کم ریختم. به مامان نگو! می‌شه باهاش یه بیسکویت بخورم؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

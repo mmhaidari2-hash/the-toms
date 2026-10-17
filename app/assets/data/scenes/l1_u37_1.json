@@ -1,0 +1,372 @@
+{
+ "id": "l1_u37_1",
+ "characterId": "tom",
+ "title": "It's raining again",
+ "titleFa": "باز باران می‌بارد",
+ "setting": "Rainy day · Level 1",
+ "settingFa": "روز بارانی",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Look at that! It's raining again. Third day this week! Typical British summer!",
+   "translations": {
+    "fa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "like"
+     ],
+     "suggestion": "Is it always like this?",
+     "suggestionFa": "همیشه همین‌طوره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "raining",
+      "lot"
+     ],
+     "suggestion": "It's raining a lot!",
+     "suggestionFa": "خیلی داره بارون میاد!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "raining",
+     "fa": "باران می‌بارد"
+    },
+    {
+     "word": "typical",
+     "fa": "معمولی ؛ تیپیک"
+    },
+    {
+     "word": "summer",
+     "fa": "تابستان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
+   "translations": {
+    "fa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "dry",
+      "hot"
+     ],
+     "suggestion": "It's hot and dry in summer.",
+     "suggestionFa": "تابستون گرم و خشکه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "winter",
+      "snows"
+     ],
+     "suggestion": "It snows in winter.",
+     "suggestionFa": "زمستون برف میاد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sunny",
+     "fa": "آفتابی"
+    },
+    {
+     "word": "hot",
+     "fa": "گرم"
+    },
+    {
+     "word": "dry",
+     "fa": "خشک"
+    },
+    {
+     "word": "snows",
+     "fa": "برف می‌بارد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
+   "translations": {
+    "fa": "گرم و خشک! خوش به حالت. اینجا خاکستری و خیسه. بند میاد؟ بذار با گوشیم ببینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forecast",
+      "say"
+     ],
+     "suggestion": "What does the forecast say?",
+     "suggestionFa": "پیش‌بینی چی میگه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "think",
+      "rain",
+      "all"
+     ],
+     "suggestion": "I think it's going to rain all day.",
+     "suggestionFa": "فکر کنم کل روز بارون میاد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grey",
+     "fa": "خاکستری"
+    },
+    {
+     "word": "wet",
+     "fa": "خیس"
+    },
+    {
+     "word": "forecast",
+     "fa": "پیش‌بینی هوا"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it will raining all day",
+      "it going to rain"
+     ],
+     "echo": "It's going to rain all day? Probably!",
+     "better": "It's going to rain all day.",
+     "betterFa": "کل روز بارون میاد."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
+   "translations": {
+    "fa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bathroom",
+      "showers",
+      "like"
+     ],
+     "suggestion": "Showers? Like in the bathroom?",
+     "suggestionFa": "دوش؟ مثل حموم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weather",
+      "british",
+      "changes",
+      "lot"
+     ],
+     "suggestion": "British weather changes a lot.",
+     "suggestionFa": "هوای بریتانیا خیلی عوض میشه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "heavy",
+     "fa": "شدید ؛ سنگین"
+    },
+    {
+     "word": "showers",
+     "fa": "رگبار ؛ دوش"
+    },
+    {
+     "word": "changes",
+     "fa": "تغییر می‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Showers\" are short periods of rain. British people talk about the weather all the time — it's a safe small-talk topic.",
+    "fa": "showers یعنی رگبار کوتاه."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Ha! Yes, a shower from the sky! I'm driving all day. The bus gets so wet and steamy.",
+   "translations": {
+    "fa": "ها! آره، دوش از آسمون! من کل روز رانندگی می‌کنم. اتوبوس خیلی خیس و بخار گرفته میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carefully",
+      "drive",
+      "tom"
+     ],
+     "suggestion": "Drive carefully, Tom.",
+     "suggestionFa": "با احتیاط رانندگی کن تام.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "rains",
+      "take",
+      "when"
+     ],
+     "suggestion": "Do more people take the bus when it rains?",
+     "suggestionFa": "وقتی بارون میاد آدم‌های بیشتری سوار اتوبوس میشن؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "steamy",
+     "fa": "بخارگرفته"
+    },
+    {
+     "word": "carefully",
+     "fa": "با احتیاط"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Loads more! Everyone's dripping. And they all say \"Lovely weather!\" That's British humour.",
+   "translations": {
+    "fa": "خیلی بیشتر! همه آب ازشون می‌چکه. و همه میگن «چه هوای خوبی!» این شوخ‌طبعی بریتانیاییه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weather",
+      "lovely",
+      "isn't",
+      "but"
+     ],
+     "suggestion": "\"Lovely weather!\" But it isn't!",
+     "suggestionFa": "«چه هوای خوبی!» ولی نیست!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "joke"
+     ],
+     "suggestion": "So it's a joke?",
+     "suggestionFa": "پس شوخیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loads",
+     "fa": "خیلی زیاد"
+    },
+    {
+     "word": "dripping",
+     "fa": "آب‌چکان"
+    },
+    {
+     "word": "humour",
+     "fa": "شوخ‌طبعی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"humour\", American \"humor\". Saying the opposite as a joke is very British.",
+    "fa": "humour/humor."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
+   "translations": {
+    "fa": "دقیقاً! امتحانش کن. وقتی لزلی اومد تو بهش بگو. صورتش را ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weather",
+      "leslie",
+      "lovely"
+     ],
+     "suggestion": "\"Lovely weather, Leslie!\"",
+     "suggestionFa": "«چه هوای خوبی لزلی!»",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "she's",
+      "laugh"
+     ],
+     "suggestion": "She's going to laugh.",
+     "suggestionFa": "می‌خنده.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "face",
+     "fa": "صورت"
+    },
+    {
+     "word": "laugh",
+     "fa": "خندیدن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Perfect! You're more British every day. Right, I'm off. Where's my umbrella? Oh no, Ryan's got it again!",
+   "translations": {
+    "fa": "عالی! هر روز بریتانیایی‌تر میشی. خب، من رفتم. چترم کو؟ وای نه، باز رایان برداشته!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

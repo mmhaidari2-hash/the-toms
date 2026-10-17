@@ -1,0 +1,385 @@
+{
+ "id": "l1_u17_1",
+ "characterId": "nicola",
+ "title": "Squash or milk?",
+ "titleFa": "شربت یا شیر؟",
+ "setting": "Drinks · Level 1",
+ "settingFa": "نوشیدنی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "I'm thirsty! Can I have a drink, please?",
+   "translations": {
+    "fa": "تشنمه! می‌شه یه نوشیدنی بخورم، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course"
+     ],
+     "suggestion": "Of course. What would you like?",
+     "suggestionFa": "حتماً. چی میل داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "water",
+      "some"
+     ],
+     "suggestion": "Would you like some water?",
+     "suggestionFa": "آب می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thirsty",
+     "fa": "تشنه"
+    },
+    {
+     "word": "drink",
+     "fa": "نوشیدنی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Not water. Squash, please! Orange squash.",
+   "translations": {
+    "fa": "آب نه. شربت، لطفاً! شربت پرتقال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's squash?",
+     "suggestionFa": "شربت چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's"
+     ],
+     "suggestion": "Where's the squash?",
+     "suggestionFa": "شربت کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squash",
+     "fa": "شربت غلیظ رقیق‌شونده"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Squash\" is a sweet fruit syrup you mix with water — very British. Americans don't really have it.",
+    "fa": "اسکواش شربت غلیظ بریتانیایی است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "It's in the cupboard. A little squash, then lots of water. Not too strong!",
+   "translations": {
+    "fa": "تو کابینته. یه کم شربت، بعد کلی آب. نه خیلی غلیظ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strong"
+     ],
+     "suggestion": "Is this too strong?",
+     "suggestionFa": "خیلی غلیظه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cupboard",
+     "fa": "کابینت"
+    },
+    {
+     "word": "strong",
+     "fa": "غلیظ/قوی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Mmm, perfect! Do you want some squash too?",
+   "translations": {
+    "fa": "ممم، عالی! تو هم شربت می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "please",
+      "just"
+     ],
+     "suggestion": "Yes, please. Just a little.",
+     "suggestionFa": "آره، لطفاً. فقط یه کم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "glass",
+      "thank",
+      "like",
+      "milk"
+     ],
+     "suggestion": "No, thank you. I'd like a glass of milk.",
+     "suggestionFa": "نه، ممنون. یه لیوان شیر می‌خوام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "perfect",
+     "fa": "عالی"
+    },
+    {
+     "word": "glass",
+     "fa": "لیوان"
+    },
+    {
+     "word": "milk",
+     "fa": "شیر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i want milk please",
+      "give me milk"
+     ],
+     "echo": "You'd like milk? Here you are.",
+     "better": "I'd like some milk, please.",
+     "betterFa": "یه کم شیر می‌خوام، لطفاً."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Milk is in the fridge. Ryan drinks milk from the bottle! Mummy gets cross.",
+   "translations": {
+    "fa": "شیر تو یخچاله. رایان از بطری شیر می‌خوره! مامان عصبانی میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bottle",
+      "from",
+      "ha"
+     ],
+     "suggestion": "Ha ha! Not from the bottle!",
+     "suggestionFa": "ها ها! نه از بطری!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "nice"
+     ],
+     "suggestion": "That's not very nice!",
+     "suggestionFa": "این کار خوبی نیست!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fridge",
+     "fa": "یخچال"
+    },
+    {
+     "word": "bottle",
+     "fa": "بطری"
+    },
+    {
+     "word": "cross",
+     "fa": "عصبانی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Which milk do you want? Blue, green or red?",
+   "translations": {
+    "fa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "colours",
+      "mean"
+     ],
+     "suggestion": "What do the colours mean?",
+     "suggestionFa": "رنگ‌ها یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "green"
+     ],
+     "suggestion": "Green, please.",
+     "suggestionFa": "سبز، لطفاً.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "which",
+     "fa": "کدام"
+    },
+    {
+     "word": "mean",
+     "fa": "معنی دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British milk bottle tops are colour-coded: blue = whole, green = semi-skimmed, red = skimmed.",
+    "fa": "آبی پرچرب، سبز نیم‌چرب، قرمز بدون چربی."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
+   "translations": {
+    "fa": "آبی پرچربه. سبز نصفه. قرمز بی‌چربی. بابا آبی دوست داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "have",
+      "i'll",
+      "one"
+     ],
+     "suggestion": "I'll have the green one.",
+     "suggestionFa": "من سبزه را برمی‌دارم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "good",
+      "half"
+     ],
+     "suggestion": "Green, please. Half is good.",
+     "suggestionFa": "سبز، لطفاً. نصفه خوبه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "full fat",
+     "fa": "پرچرب"
+    },
+    {
+     "word": "half",
+     "fa": "نیمه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Cheers! That's what grown-ups say. Cheers!",
+   "translations": {
+    "fa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola"
+     ],
+     "suggestion": "Cheers, Nicola!",
+     "suggestionFa": "به سلامتی نیکولا!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clink"
+     ],
+     "suggestion": "Cheers! Clink!",
+     "suggestionFa": "به سلامتی! جرینگ!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheers",
+     "fa": "به سلامتی/ممنون"
+    },
+    {
+     "word": "grown-ups",
+     "fa": "بزرگسالان"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Cheers\" means \"to your health\" when drinking, but Brits also use it to mean \"thanks\" or \"bye\".",
+    "fa": "cheers یعنی ممنون یا خداحافظ هم."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",
+   "translations": {
+    "fa": "جرینگ! اوپس — یه کم ریختم. به مامان نگو! می‌شه باهاش یه بیسکویت بخورم؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

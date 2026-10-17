@@ -1,0 +1,384 @@
+{
+ "id": "l1_u21_3",
+ "characterId": "leslie",
+ "title": "Swimming on Tuesday",
+ "titleFa": "شنا روز سه‌شنبه",
+ "setting": "Days of the week · Level 1",
+ "settingFa": "روزهای هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Our week is so busy! Let me tell you. On Mondays, Ryan has football practice.",
+   "translations": {
+    "fa": "هفتهٔ ما خیلی شلوغه! بذار برات بگم. دوشنبه‌ها، رایان تمرین فوتبال داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "practice",
+      "time"
+     ],
+     "suggestion": "What time is football practice?",
+     "suggestionFa": "تمرین فوتبال ساعت چنده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "monday",
+      "every"
+     ],
+     "suggestion": "Every Monday?",
+     "suggestionFa": "هر دوشنبه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "practice",
+     "fa": "تمرین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Every Monday at five. On Tuesdays, Nicola has swimming lessons.",
+   "translations": {
+    "fa": "هر دوشنبه ساعت پنج. سه‌شنبه‌ها، نیکولا کلاس شنا داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swim",
+      "can",
+      "she"
+     ],
+     "suggestion": "Can she swim?",
+     "suggestionFa": "شنا بلده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lessons",
+      "where"
+     ],
+     "suggestion": "Where are the lessons?",
+     "suggestionFa": "کلاس‌ها کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swimming lessons",
+     "fa": "کلاس شنا"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "At the leisure centre. She can swim ten metres now! Can you swim?",
+   "translations": {
+    "fa": "تو مرکز تفریحی. الان می‌تونه ده متر شنا کنه! تو شنا بلدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swim",
+      "can"
+     ],
+     "suggestion": "Yes, I can swim.",
+     "suggestionFa": "آره، شنا بلدم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "only"
+     ],
+     "suggestion": "Only a little.",
+     "suggestionFa": "فقط یه کم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leisure centre",
+     "fa": "مرکز تفریحی ورزشی"
+    },
+    {
+     "word": "metres",
+     "fa": "متر"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"leisure centre\" = a public sports centre with a pool; \"metre\", American \"meter\".",
+    "fa": "leisure centre مرکز ورزشی عمومی است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "On Wednesdays, I have a staff meeting after school. Weda picks up Nicola.",
+   "translations": {
+    "fa": "چهارشنبه‌ها بعد از مدرسه جلسهٔ کارکنان دارم. ودا نیکولا را برمی‌داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "helpful",
+      "weda"
+     ],
+     "suggestion": "Weda is very helpful.",
+     "suggestionFa": "ودا خیلی کمک می‌کنه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "meeting",
+      "long"
+     ],
+     "suggestion": "Is the meeting long?",
+     "suggestionFa": "جلسه طولانیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "staff meeting",
+     "fa": "جلسهٔ کارکنان"
+    },
+    {
+     "word": "picks up",
+     "fa": "دنبال کسی رفتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Too long! On Thursdays, we go to the supermarket. Big shop!",
+   "translations": {
+    "fa": "خیلی طولانی! پنجشنبه‌ها، می‌ریم سوپرمارکت. خرید بزرگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "once",
+      "week"
+     ],
+     "suggestion": "Once a week?",
+     "suggestionFa": "هفته‌ای یه بار؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "good",
+      "idea"
+     ],
+     "suggestion": "That's a good idea.",
+     "suggestionFa": "فکر خوبیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big shop",
+     "fa": "خرید عمده هفتگی"
+    },
+    {
+     "word": "once a week",
+     "fa": "هفته‌ای یک بار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "one time in week",
+      "one a week"
+     ],
+     "echo": "Once a week? Yes, every Thursday.",
+     "better": "once a week",
+     "betterFa": "هفته‌ای یک بار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Yes, once a week. And Friday is fish and chips, of course! What do you do in a week?",
+   "translations": {
+    "fa": "آره، هفته‌ای یه بار. و جمعه هم فیش اند چیپس، البته! تو تو یه هفته چی کار می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "class",
+      "twice",
+      "have"
+     ],
+     "suggestion": "I have English class twice a week.",
+     "suggestionFa": "هفته‌ای دو بار کلاس انگلیسی دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mondays",
+      "fridays",
+      "gym",
+      "go"
+     ],
+     "suggestion": "I go to the gym on Mondays and Fridays.",
+     "suggestionFa": "دوشنبه‌ها و جمعه‌ها می‌رم باشگاه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "twice a week",
+     "fa": "هفته‌ای دو بار"
+    },
+    {
+     "word": "gym",
+     "fa": "باشگاه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Good for you! And at the weekend?",
+   "translations": {
+    "fa": "آفرین بهت! و آخر هفته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturdays",
+      "clean",
+      "flat"
+     ],
+     "suggestion": "On Saturdays, I clean my flat.",
+     "suggestionFa": "شنبه‌ها خونه‌ام را تمیز می‌کنم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sundays",
+      "family",
+      "call"
+     ],
+     "suggestion": "On Sundays, I call my family.",
+     "suggestionFa": "یکشنبه‌ها به خانواده‌ام زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flat",
+     "fa": "آپارتمان"
+    },
+    {
+     "word": "call",
+     "fa": "زنگ زدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"flat\", American \"apartment\".",
+    "fa": "flat/apartment."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "That's lovely. Every Sunday? Your mum must love that. Our Sundays are for a roast dinner — come and join us!",
+   "translations": {
+    "fa": "چه خوب. هر یکشنبه؟ مامانت حتماً خیلی دوست داره. یکشنبه‌های ما برای کباب یکشنبه‌ست — بیا پیشمون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "love",
+      "i'd"
+     ],
+     "suggestion": "I'd love to. Thank you!",
+     "suggestionFa": "خیلی دوست دارم. ممنون!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sunday",
+      "time"
+     ],
+     "suggestion": "What time on Sunday?",
+     "suggestionFa": "یکشنبه ساعت چند؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roast dinner",
+     "fa": "شام کباب یکشنبه"
+    },
+    {
+     "word": "join",
+     "fa": "پیوستن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Two o'clock. Bring your appetite! Tom makes the gravy, and he's very proud of it.",
+   "translations": {
+    "fa": "ساعت دو. با شکم گرسنه بیا! تام سس را درست می‌کنه، و خیلی بهش افتخار می‌کنه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "id": "l1_u26_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Crossing the road",
+ "titleFa": "(در نقش Leslie) عبور از خیابان",
+ "setting": "Out for a walk · Level 1",
+ "settingFa": "پیاده‌روی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u26_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "nicola",
+      "cross",
+      "road",
+      "hand"
+     ],
+     "suggestion": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
+     "suggestionFa": "باید از خیابون رد بشیم که بریم پارک. نیکولا، دستم را بگیر، لطفاً.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Hold hands, Nicola.",
+   "translations": {
+    "fa": "دست بده نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crossing",
+      "stripes",
+      "there's",
+      "white",
+      "zebra"
+     ],
+     "suggestion": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
+     "suggestionFa": "آره، یه خط عابر پیاده‌ست. راه‌راه سیاه و سفید، مثل گورخر!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ha! Like a zebra!",
+   "translations": {
+    "fa": "ها! مثل گورخر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "britain",
+      "always",
+      "should",
+      "first"
+     ],
+     "suggestion": "They should stop. But always look first. Remember: in Britain, cars drive on the left!",
+     "suggestionFa": "باید وایستن. ولی همیشه اول نگاه کن. یادت باشه: تو بریتانیا ماشین‌ها از سمت چپ می‌رن!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "So I look right first?",
+   "translations": {
+    "fa": "پس اول سمت راست را نگاه کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "nicola",
+      "what's",
+      "right",
+      "again"
+     ],
+     "suggestion": "Exactly! Look right, look left, look right again. Nicola, what's the rule?",
+     "suggestionFa": "دقیقاً! راست، چپ، دوباره راست. نیکولا، قانونش چیه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Tell us the rule, Nicola!",
+   "translations": {
+    "fa": "قانون را بهمون بگو نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "nicola",
+   "text": "Stop, look and listen!",
+   "translations": {
+    "fa": "بایست، نگاه کن و گوش کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rule",
+     "fa": "قانون"
+    },
+    {
+     "word": "stop",
+     "fa": "ایستادن"
+    },
+    {
+     "word": "listen",
+     "fa": "گوش کردن"
+    },
+    {
+     "word": "safe",
+     "fa": "امن"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Well done, Nicola!",
+   "translations": {
+    "fa": "آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coming",
+      "waving",
+      "driver",
+      "let's",
+      "cross"
+     ],
+     "suggestion": "A bus is coming. Wait… Now the driver is waving. It's safe. Let's cross.",
+     "suggestionFa": "یه اتوبوس داره میاد. صبر کن… حالا راننده داره دست تکون می‌ده. امنه. بیا رد شیم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thank you!",
+   "translations": {
+    "fa": "ممنون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "traffic",
+      "lights",
+      "here's",
+      "green",
+      "next"
+     ],
+     "suggestion": "Here's the next road. This one has traffic lights. We wait for the green man.",
+     "suggestionFa": "اینم خیابون بعدی. این یکی چراغ راهنمایی داره. منتظر آدمک سبز می‌مونیم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "What's the green man?",
+   "translations": {
+    "fa": "آدمک سبز چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "button",
+      "press",
+      "means",
+      "green",
+      "stop"
+     ],
+     "suggestion": "Yes, press the button! The red man means stop. The green man means go.",
+     "suggestionFa": "آره، دکمه را فشار بده! آدمک قرمز یعنی بایست. آدمک سبز یعنی برو.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "It's beeping! Green man!",
+   "translations": {
+    "fa": "داره بوق می‌زنه! آدمک سبز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swings",
+      "nicola",
+      "here's",
+      "well",
+      "both"
+     ],
+     "suggestion": "Well done, both of you. Here's the park! Nicola, you can let go of my hand now. Run to the swings!",
+     "suggestionFa": "آفرین به هر دوتون. اینم پارک! نیکولا، حالا می‌تونی دستم را ول کنی. بدو سمت تاب‌ها!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

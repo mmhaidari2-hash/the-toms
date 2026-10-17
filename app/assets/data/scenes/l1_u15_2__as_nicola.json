@@ -1,0 +1,305 @@
+{
+ "id": "l1_u15_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Hide and seek",
+ "titleFa": "(در نقش Nicola) قایم‌باشک",
+ "setting": "Toys and games · Level 1",
+ "settingFa": "اسباب‌بازی‌ها و بازی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u15_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "let's",
+      "count",
+      "seek",
+      "play"
+     ],
+     "suggestion": "Let's play hide and seek! You count, and I hide. Count to twenty!",
+     "suggestionFa": "بیا قایم‌باشک بازی کنیم! تو بشمر، من قایم می‌شم. تا بیست بشمر!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "OK. Close my eyes… one, two, three…",
+   "translations": {
+    "fa": "باشه. چشمامو می‌بندم… یک، دو، سه…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "ready",
+      "come",
+      "here",
+      "say"
+     ],
+     "suggestion": "No, in English! Ready or not, here I come! You say that.",
+     "suggestionFa": "نه، انگلیسی! «حاضر باشی یا نه، دارم میام!» تو اینو بگو.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ready or not, here I come!",
+   "translations": {
+    "fa": "حاضر باشی یا نه، دارم میام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "can't",
+      "find",
+      "hee"
+     ],
+     "suggestion": "Hee hee! You can't find me!",
+     "suggestionFa": "هی هی! نمی‌تونی پیدام کنی!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Is she behind the sofa?",
+   "translations": {
+    "fa": "پشت مبله؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "leslie",
+   "text": "She isn't behind the sofa. I can hear her laughing!",
+   "translations": {
+    "fa": "پشت مبل نیست. صدای خندیدنش را می‌شنوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    },
+    {
+     "word": "laughing",
+     "fa": "خندیدن"
+    },
+    {
+     "word": "cupboard",
+     "fa": "کمد"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Is she under the table?",
+   "translations": {
+    "fa": "زیر میزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "leslie",
+   "text": "Let's look… no, not under the table. Shall we look behind the curtains?",
+   "translations": {
+    "fa": "ببینیم… نه، زیر میز نیست. پشت پرده‌ها را ببینیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "curtains",
+     "fa": "پرده‌ها"
+    },
+    {
+     "word": "feet",
+     "fa": "پاها"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I can see two feet!",
+   "translations": {
+    "fa": "دو تا پا می‌بینم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "found",
+      "find",
+      "did",
+      "how"
+     ],
+     "suggestion": "You found me! How did you find me?",
+     "suggestionFa": "پیدام کردی! چطوری پیدام کردی؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I saw your feet!",
+   "translations": {
+    "fa": "پاهات را دیدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finding",
+      "twenty",
+      "count",
+      "hide",
+      "i'll"
+     ],
+     "suggestion": "Now you hide! I'm good at finding. I'll count to twenty.",
+     "suggestionFa": "حالا تو قایم شو! من تو پیدا کردن خوبم. تا بیست می‌شمرم.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "OK. No looking!",
+   "translations": {
+    "fa": "باشه. نگاه نکن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nineteen",
+      "eighteen",
+      "kitchen",
+      "twenty",
+      "garden"
+     ],
+     "suggestion": "Eighteen, nineteen, twenty! Are you in the kitchen? Are you in the garden?",
+     "suggestionFa": "هجده، نوزده، بیست! تو آشپزخونه‌ای؟ تو باغی؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "(quietly) I'm not telling!",
+   "translations": {
+    "fa": "(آروم) نمی‌گم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "again",
+      "found",
+      "turn",
+      "door"
+     ],
+     "suggestion": "Found you! You're behind the door! My turn again! This is the best game ever!",
+     "suggestionFa": "پیدات کردم! پشت دری! باز نوبت منه! این بهترین بازی دنیاست!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

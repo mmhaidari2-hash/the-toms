@@ -1,0 +1,225 @@
+{
+ "id": "l1_u40_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Stir it, please",
+ "titleFa": "(در نقش Leslie) لطفاً هم بزن",
+ "setting": "Simple cooking · Level 1",
+ "settingFa": "آشپزی ساده",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u40_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "making",
+      "potato",
+      "could",
+      "hands",
+      "full"
+     ],
+     "suggestion": "I'm making leek and potato soup for tea. Could you help me? My hands are full!",
+     "suggestionFa": "دارم برای شام سوپ تره‌فرنگی و سیب‌زمینی درست می‌کنم. می‌شه کمکم کنی؟ دستام پره!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. What's a leek?",
+   "translations": {
+    "fa": "البته. تره‌فرنگی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "onions",
+      "butter",
+      "please",
+      "onion",
+      "could"
+     ],
+     "suggestion": "It's like a big green onion. Could you stir the butter and onions, please?",
+     "suggestionFa": "شبیه یه پیاز سبز بزرگه. لطفاً کره و پیازها را هم می‌زنی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Sure. Like this?",
+   "translations": {
+    "fa": "حتماً. این‌جوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wooden",
+      "spoon",
+      "don't",
+      "leeks",
+      "pass"
+     ],
+     "suggestion": "Yes, the wooden spoon. Don't let them burn. Can you pass me the leeks?",
+     "suggestionFa": "آره، قاشق چوبی. نذار بسوزن. تره‌فرنگی‌ها را می‌دی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Here are the leeks.",
+   "translations": {
+    "fa": "بفرما تره‌فرنگی‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "potatoes",
+      "they're",
+      "inside",
+      "please",
+      "after"
+     ],
+     "suggestion": "Oh, yes please. Wash them first — they're often muddy inside. Could you peel the potatoes after?",
+     "suggestionFa": "آه، آره لطفاً. اول بشورشون — داخلشون معمولاً گلیه. بعدش سیب‌زمینی‌ها را پوست می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No problem. Where's the peeler?",
+   "translations": {
+    "fa": "مشکلی نیست. پوست‌کن کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "peeler's",
+      "drawer",
+      "water",
+      "told",
+      "boil"
+     ],
+     "suggestion": "Told you! The peeler's in the drawer. Can you boil some water too?",
+     "suggestionFa": "گفتم که! پوست‌کن تو کشوئه. یه کم آب هم جوش میاری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Can I use the kettle?",
+   "translations": {
+    "fa": "می‌تونم از کتری استفاده کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle",
+      "faster",
+      "stock",
+      "first",
+      "pour"
+     ],
+     "suggestion": "Yes, kettle first. It's faster. Then pour it in with a stock cube.",
+     "suggestionFa": "آره، اول کتری. سریع‌تره. بعد با یه عصارهٔ مرغ بریزش تو.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "How long does it cook?",
+   "translations": {
+    "fa": "چقدر می‌پزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "twenty",
+      "about",
+      "blend",
+      "could"
+     ],
+     "suggestion": "About twenty minutes. Then we blend it. Could you set a timer?",
+     "suggestionFa": "حدود بیست دقیقه. بعد میکسش می‌کنیم. می‌شه یه تایمر بذاری؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Timer set. Twenty minutes.",
+   "translations": {
+    "fa": "تایمر گذاشتم. بیست دقیقه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "plenty",
+      "lovely",
+      "crusty",
+      "thank"
+     ],
+     "suggestion": "Lovely. Thank you! Could you stay for tea? There's plenty, with crusty bread. You did half the work!",
+     "suggestionFa": "عالی. ممنون! شام می‌مونی؟ زیاده، با نون برشته. نصف کار را تو کردی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

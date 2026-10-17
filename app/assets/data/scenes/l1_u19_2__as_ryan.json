@@ -1,0 +1,249 @@
+{
+ "id": "l1_u19_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Where are my socks?",
+ "titleFa": "(در نقش Ryan) جوراب‌هام کجان؟",
+ "setting": "My bedroom · Level 1",
+ "settingFa": "اتاق خوابم",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u19_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "minutes",
+      "twenty",
+      "starts",
+      "can't"
+     ],
+     "suggestion": "I can't find my football socks! The match starts in twenty minutes!",
+     "suggestionFa": "جوراب‌های فوتبالم را پیدا نمی‌کنم! بازی بیست دقیقهٔ دیگه شروع میشه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What colour are they?",
+   "translations": {
+    "fa": "چه رنگین؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "white",
+      "under",
+      "they",
+      "red",
+      "bed"
+     ],
+     "suggestion": "Red and white. Are they under the bed?",
+     "suggestionFa": "قرمز و سفید. زیر تختن؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, they aren't under the bed.",
+   "translations": {
+    "fa": "نه، زیر تخت نیستن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "drawer",
+      "mine",
+      "blue",
+      "they"
+     ],
+     "suggestion": "Blue? That's not mine. Are they in the drawer?",
+     "suggestionFa": "آبی؟ مال من نیست. تو کشوئن؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "No, the drawer is full of T-shirts.",
+   "translations": {
+    "fa": "نه، کشو پر از تی‌شرته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washing",
+      "basket",
+      "about",
+      "pants",
+      "ha"
+     ],
+     "suggestion": "Ha! Pants. What about the washing basket?",
+     "suggestionFa": "ها! شورت. سبد لباس‌چرک چطور؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes! Here they are, in the washing basket.",
+   "translations": {
+    "fa": "آره! ایناهاشون، تو سبد لباس‌چرک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "smelly",
+      "dirty",
+      "they",
+      "oh"
+     ],
+     "suggestion": "Dirty? Oh no! Are they very smelly?",
+     "suggestionFa": "کثیف؟ وای نه! خیلی بو می‌دن؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes. Very smelly!",
+   "translations": {
+    "fa": "آره. خیلی بو می‌دن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "other",
+      "i've",
+      "boot",
+      "wear"
+     ],
+     "suggestion": "I've got no time to wash them. I'll wear them! Where's my other boot?",
+     "suggestionFa": "وقت ندارم بشورمشون. همینا را می‌پوشم! اون یکی کفش فوتبالم کجاست؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Is it behind the door?",
+   "translations": {
+    "fa": "پشت دره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "bottle",
+      "trophy",
+      "water",
+      "next"
+     ],
+     "suggestion": "Next to the trophy! Brilliant. My water bottle? Have you seen it?",
+     "suggestionFa": "کنار جام! عالی. بطری آبم؟ دیدیش؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "It's on your desk.",
+   "translations": {
+    "fa": "رو میزته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "ready",
+      "water",
+      "boots",
+      "socks"
+     ],
+     "suggestion": "Desk, yes. Socks, boots, water, shin pads… I'm ready! Thanks, mate!",
+     "suggestionFa": "میز، آره. جوراب، کفش، آب، ساق‌بند… آماده‌ام! ممنون رفیق!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Good luck! Score a goal!",
+   "translations": {
+    "fa": "موفق باشی! گل بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "loudest",
+      "nicola",
+      "shouts",
+      "cheers",
+      "bring"
+     ],
+     "suggestion": "Cheers! Come and watch if you want. It's at the park. Bring Nicola — she shouts the loudest!",
+     "suggestionFa": "ممنون! اگه خواستی بیا تماشا. تو پارکه. نیکولا را هم بیار — از همه بلندتر داد می‌زنه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

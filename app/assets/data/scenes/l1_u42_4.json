@@ -1,0 +1,356 @@
+{
+ "id": "l1_u42_4",
+ "characterId": "tom",
+ "title": "Riding a bike",
+ "titleFa": "دوچرخه‌سواری",
+ "setting": "Transport words · Level 1",
+ "settingFa": "واژه‌های حمل‌ونقل",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Look at all those bikes! More bikes than buses now. Do you ride a bike, {you}?",
+   "translations": {
+    "fa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bike",
+      "ride",
+      "can"
+     ],
+     "suggestion": "Yes, I can ride a bike.",
+     "suggestionFa": "آره، دوچرخه‌سواری بلدم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "london",
+      "scary"
+     ],
+     "suggestion": "Not in London. It's scary!",
+     "suggestionFa": "نه تو لندن. ترسناکه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bikes",
+     "fa": "دوچرخه‌ها"
+    },
+    {
+     "word": "ride",
+     "fa": "سوار شدن ؛ راندن"
+    },
+    {
+     "word": "scary",
+     "fa": "ترسناک"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It's safer now. There are cycle lanes. You should try a hire bike.",
+   "translations": {
+    "fa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "bike",
+      "hire"
+     ],
+     "suggestion": "What's a hire bike?",
+     "suggestionFa": "دوچرخهٔ کرایه‌ای چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "get",
+      "can",
+      "one"
+     ],
+     "suggestion": "Where can I get one?",
+     "suggestionFa": "از کجا می‌تونم یکی بگیرم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "safer",
+     "fa": "امن‌تر"
+    },
+    {
+     "word": "cycle lanes",
+     "fa": "مسیر دوچرخه"
+    },
+    {
+     "word": "hire",
+     "fa": "کرایه کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The red ones over there. You use an app. You pay by the half hour.",
+   "translations": {
+    "fa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive"
+     ],
+     "suggestion": "Is it expensive?",
+     "suggestionFa": "گرونه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "download",
+      "i'll",
+      "app"
+     ],
+     "suggestion": "I'll download the app.",
+     "suggestionFa": "اپ را دانلود می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "app",
+     "fa": "برنامهٔ موبایل"
+    },
+    {
+     "word": "download",
+     "fa": "دانلود کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "London's hire bikes are often called \"Boris bikes\" after a former mayor.",
+    "fa": "دوچرخه‌های کرایه‌ای لندن."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Not bad. A few pounds. But you should wear a helmet.",
+   "translations": {
+    "fa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "wear"
+     ],
+     "suggestion": "I should wear a helmet.",
+     "suggestionFa": "باید کلاه ایمنی بذارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "law"
+     ],
+     "suggestion": "Is a helmet the law?",
+     "suggestionFa": "کلاه ایمنی قانونه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "helmet",
+     "fa": "کلاه ایمنی"
+    },
+    {
+     "word": "law",
+     "fa": "قانون"
+    },
+    {
+     "word": "a few",
+     "fa": "چند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you should to wear",
+      "i should wearing"
+     ],
+     "echo": "You should wear a helmet? Exactly!",
+     "better": "I should wear a helmet.",
+     "betterFa": "باید کلاه ایمنی بذارم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "It's not the law, but it's smart. And you shouldn't ride on the pavement.",
+   "translations": {
+    "fa": "قانون نیست، ولی عاقلانه‌ست. و نباید رو پیاده‌رو برونی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "where",
+      "ride"
+     ],
+     "suggestion": "Where should I ride?",
+     "suggestionFa": "کجا باید برونم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pavement",
+      "ok"
+     ],
+     "suggestion": "OK. Not on the pavement.",
+     "suggestionFa": "باشه. نه رو پیاده‌رو.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smart",
+     "fa": "عاقلانه ؛ باهوش"
+    },
+    {
+     "word": "pavement",
+     "fa": "پیاده‌رو"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pavement\", American \"sidewalk\".",
+    "fa": "pavement/sidewalk."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "On the road or in the cycle lane. And keep left! We drive on the left here.",
+   "translations": {
+    "fa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "left",
+      "keep",
+      "i'll"
+     ],
+     "suggestion": "Keep left. I'll remember.",
+     "suggestionFa": "از چپ برم. یادم می‌مونه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drive",
+      "right",
+      "iran",
+      "we"
+     ],
+     "suggestion": "In Iran we drive on the right.",
+     "suggestionFa": "تو ایران از راست رانندگی می‌کنیم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keep left",
+     "fa": "سمت چپ حرکت کن"
+    },
+    {
+     "word": "road",
+     "fa": "جاده ؛ خیابان"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "That's the tricky bit! And one more thing — you shouldn't ride in front of my bus! Ha!",
+   "translations": {
+    "fa": "قسمت سختش همینه! و یه چیز دیگه — نباید جلوی اتوبوس من برونی! ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "promise"
+     ],
+     "suggestion": "I promise!",
+     "suggestionFa": "قول میدم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bike",
+      "ride",
+      "tom"
+     ],
+     "suggestion": "Do you ride a bike, Tom?",
+     "suggestionFa": "تو دوچرخه سواری می‌کنی تام؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tricky",
+     "fa": "دشوار"
+    },
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
+   "translations": {
+    "fa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

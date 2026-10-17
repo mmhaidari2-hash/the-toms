@@ -1,0 +1,488 @@
+{
+ "id": "l1_u13_3",
+ "characterId": "nicola",
+ "title": "Can we have a dog?",
+ "titleFa": "می‌شه سگ داشته باشیم؟",
+ "setting": "Pets and animals · Level 1",
+ "settingFa": "حیوانات خانگی و حیوانات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Daddy, can we have a dog? Please, please, please!",
+   "translations": {
+    "fa": "بابا، می‌شه یه سگ داشته باشیم؟ لطفاً، لطفاً، لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy",
+      "ask"
+     ],
+     "suggestion": "A dog? Ask your daddy!",
+     "suggestionFa": "سگ؟ از بابات بپرس!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exciting",
+      "that's",
+      "wow"
+     ],
+     "suggestion": "Wow, a dog! That's exciting.",
+     "suggestionFa": "وای، سگ! هیجان‌انگیزه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "please",
+     "fa": "لطفاً"
+    },
+    {
+     "word": "exciting",
+     "fa": "هیجان‌انگیز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "A dog? Hmm. Dogs are a lot of work, Nicola. What do you think?",
+   "translations": {
+    "fa": "سگ؟ هوم. سگ‌ها خیلی کار دارن نیکولا. نظر تو چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "work",
+      "dogs",
+      "lot"
+     ],
+     "suggestion": "Dogs are a lot of work.",
+     "suggestionFa": "سگ‌ها خیلی کار دارن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "great",
+      "idea",
+      "dog"
+     ],
+     "suggestion": "I think a dog is a great idea!",
+     "suggestionFa": "فکر کنم سگ فکر خیلی خوبیه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dog",
+     "fa": "سگ"
+    },
+    {
+     "word": "work",
+     "fa": "کار"
+    },
+    {
+     "word": "idea",
+     "fa": "فکر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "See! I can walk the dog every day. Before school!",
+   "translations": {
+    "fa": "دیدی! هر روز می‌تونم سگ را ببرم بیرون. قبل از مدرسه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "rain",
+      "even",
+      "day"
+     ],
+     "suggestion": "Every day? Even in the rain?",
+     "suggestionFa": "هر روز؟ حتی تو بارون؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "that's",
+      "early"
+     ],
+     "suggestion": "That's very early, Nicola.",
+     "suggestionFa": "خیلی زوده نیکولا.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walk the dog",
+     "fa": "سگ را بیرون بردن"
+    },
+    {
+     "word": "every day",
+     "fa": "هر روز"
+    },
+    {
+     "word": "rain",
+     "fa": "باران"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Who feeds the dog? Who cleans up the poo?",
+   "translations": {
+    "fa": "کی به سگ غذا می‌ده؟ کی کثیفی‌اش را تمیز می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "feed",
+      "dog"
+     ],
+     "suggestion": "Nicola can feed the dog.",
+     "suggestionFa": "نیکولا می‌تونه بهش غذا بده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clean",
+      "ryan",
+      "up"
+     ],
+     "suggestion": "Ryan can clean up!",
+     "suggestionFa": "رایان می‌تونه تمیز کنه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "feeds",
+     "fa": "غذا می‌دهد"
+    },
+    {
+     "word": "cleans up",
+     "fa": "تمیز می‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you must pick up your dog's poo in public places, or you can get a fine.",
+    "fa": "باید فضولات سگ را جمع کنید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Ha ha! Ryan won't do it. I can do it. With a bag.",
+   "translations": {
+    "fa": "ها ها! رایان این کار را نمی‌کنه. من می‌تونم. با یه کیسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "good",
+      "girl"
+     ],
+     "suggestion": "Good girl, Nicola!",
+     "suggestionFa": "آفرین نیکولا!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sure"
+     ],
+     "suggestion": "Are you sure?",
+     "suggestionFa": "مطمئنی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sure",
+     "fa": "مطمئن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "What kind of dog do you want? A big dog or a small dog?",
+   "translations": {
+    "fa": "چه جور سگی می‌خوای؟ سگ بزرگ یا کوچیک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "house",
+      "small"
+     ],
+     "suggestion": "A small dog is better for the house.",
+     "suggestionFa": "سگ کوچیک برای خونه بهتره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fluffy",
+      "about",
+      "big"
+     ],
+     "suggestion": "What about a big, fluffy dog?",
+     "suggestionFa": "یه سگ بزرگ و پشمالو چطور؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "نوع"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    },
+    {
+     "word": "fluffy",
+     "fa": "پشمالو"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "A small, brown, fluffy one. Called Muffin!",
+   "translations": {
+    "fa": "یه کوچیک، قهوه‌ای، پشمالو. به اسم مافین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "muffin",
+      "that's",
+      "cute"
+     ],
+     "suggestion": "Muffin! That's a cute name.",
+     "suggestionFa": "مافین! اسم بامزه‌ایه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "already",
+      "you've",
+      "got"
+     ],
+     "suggestion": "You've got a name already!",
+     "suggestionFa": "از الان اسم داری!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cute",
+     "fa": "بامزه"
+    },
+    {
+     "word": "already",
+     "fa": "از قبل"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Hmm. William is very little. And Nana is scared of dogs.",
+   "translations": {
+    "fa": "هوم. ویلیام خیلی کوچیکه. و نانا از سگ می‌ترسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "know",
+      "she"
+     ],
+     "suggestion": "Is she? I didn't know.",
+     "suggestionFa": "واقعاً؟ نمی‌دونستم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "bigger",
+      "maybe",
+      "when"
+     ],
+     "suggestion": "Maybe when William is bigger.",
+     "suggestionFa": "شاید وقتی ویلیام بزرگ‌تر شد.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little",
+     "fa": "کوچک"
+    },
+    {
+     "word": "scared of",
+     "fa": "ترسیدن از"
+    },
+    {
+     "word": "bigger",
+     "fa": "بزرگتر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she scared of dogs",
+      "she is scare of dogs"
+     ],
+     "echo": "She's scared of dogs? Yes, a bit.",
+     "better": "She's scared of dogs.",
+     "betterFa": "از سگ می‌ترسه."
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Oh. Can we have a goldfish, then? Goldfish don't scare Nana.",
+   "translations": {
+    "fa": "آه. پس می‌شه یه ماهی قرمز داشته باشیم؟ ماهی قرمز نانا را نمی‌ترسونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "idea"
+     ],
+     "suggestion": "A goldfish is a good idea.",
+     "suggestionFa": "ماهی قرمز فکر خوبیه.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "easy"
+     ],
+     "suggestion": "Goldfish are easy!",
+     "suggestionFa": "ماهی قرمز آسونه!",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "easy",
+     "fa": "آسان"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "tom",
+   "text": "A goldfish… OK. Maybe for your birthday. Is that a deal?",
+   "translations": {
+    "fa": "ماهی قرمز… باشه. شاید برای تولدت. قبوله؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "that's",
+      "good",
+      "deal"
+     ],
+     "suggestion": "That's a good deal, Nicola!",
+     "suggestionFa": "معاملهٔ خوبیه نیکولا!",
+     "trustDelta": 6,
+     "next": "n11",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "daddy",
+      "say"
+     ],
+     "suggestion": "Say thank you to Daddy!",
+     "suggestionFa": "به بابا بگو ممنون!",
+     "trustDelta": 5,
+     "next": "n11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "goldfish",
+     "fa": "ماهی قرمز"
+    },
+    {
+     "word": "deal",
+     "fa": "قرار/معامله"
+    }
+   ]
+  },
+  "n11": {
+   "id": "n11",
+   "speaker": "nicola",
+   "text": "Yes! Thank you, Daddy! A goldfish called Muffin!",
+   "translations": {
+    "fa": "آره! ممنون بابا! یه ماهی قرمز به اسم مافین!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

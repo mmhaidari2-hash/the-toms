@@ -1,0 +1,404 @@
+{
+ "id": "l1_u15_3",
+ "characterId": "nicola",
+ "title": "The lost jigsaw piece",
+ "titleFa": "تکهٔ گم‌شدهٔ پازل",
+ "setting": "Toys and games · Level 1",
+ "settingFa": "اسباب‌بازی‌ها و بازی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "My jigsaw is nearly finished! It's a picture of a castle. But one piece is missing!",
+   "translations": {
+    "fa": "پازلم تقریباً تمومه! عکس یه قلعه‌ست. ولی یه تیکه نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "colour",
+      "oh"
+     ],
+     "suggestion": "Oh no! What colour is it?",
+     "suggestionFa": "وای نه! چه رنگیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "last",
+      "did",
+      "see"
+     ],
+     "suggestion": "Where did you last see it?",
+     "suggestionFa": "آخرین بار کجا دیدیش؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jigsaw",
+     "fa": "پازل"
+    },
+    {
+     "word": "castle",
+     "fa": "قلعه"
+    },
+    {
+     "word": "piece",
+     "fa": "تکه"
+    },
+    {
+     "word": "missing",
+     "fa": "گم‌شده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "It's a blue piece. Part of the sky. Have you seen it?",
+   "translations": {
+    "fa": "یه تیکهٔ آبیه. یه قسمت از آسمون. دیدیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "seen"
+     ],
+     "suggestion": "No, I haven't seen it.",
+     "suggestionFa": "نه، ندیدمش.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "floor"
+     ],
+     "suggestion": "Is it on the floor?",
+     "suggestionFa": "رو زمینه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "part",
+     "fa": "قسمت"
+    },
+    {
+     "word": "seen",
+     "fa": "دیده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i not see it",
+      "i didn't seen it"
+     ],
+     "echo": "You haven't seen it? Let's look.",
+     "better": "I haven't seen it.",
+     "betterFa": "ندیدمش."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I can't find it on the floor. Can you look under the sofa?",
+   "translations": {
+    "fa": "رو زمین پیداش نمی‌کنم. می‌تونی زیر مبل را نگاه کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crisp",
+      "see",
+      "can",
+      "pen"
+     ],
+     "suggestion": "I can see a pen and a crisp.",
+     "suggestionFa": "یه خودکار و یه چیپس می‌بینم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "dust",
+      "lots"
+     ],
+     "suggestion": "There's lots of dust!",
+     "suggestionFa": "کلی گرد و خاکه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pen",
+     "fa": "خودکار"
+    },
+    {
+     "word": "crisp",
+     "fa": "چیپس"
+    },
+    {
+     "word": "dust",
+     "fa": "گرد و خاک"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"crisps\" are American \"chips\"; British \"chips\" are American \"fries\".",
+    "fa": "crisps/chips و chips/fries."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "A crisp! Yuck! Ryan eats crisps on the sofa. Is it in the box?",
+   "translations": {
+    "fa": "یه چیپس! ایش! رایان رو مبل چیپس می‌خوره. تو جعبه‌ست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "empty"
+     ],
+     "suggestion": "No, the box is empty.",
+     "suggestionFa": "نه، جعبه خالیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shake",
+      "let"
+     ],
+     "suggestion": "Let me shake the box.",
+     "suggestionFa": "بذار جعبه را تکون بدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "box",
+     "fa": "جعبه"
+    },
+    {
+     "word": "empty",
+     "fa": "خالی"
+    },
+    {
+     "word": "shake",
+     "fa": "تکان دادن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Maybe William has got it. He puts things in his mouth!",
+   "translations": {
+    "fa": "شاید ویلیام برداشته. چیزها را می‌ذاره تو دهنش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "check",
+      "oh"
+     ],
+     "suggestion": "Oh no! Let's check!",
+     "suggestionFa": "وای نه! بیا چک کنیم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hand",
+      "his"
+     ],
+     "suggestion": "Is it in his hand?",
+     "suggestionFa": "تو دستشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mouth",
+     "fa": "دهان"
+    },
+    {
+     "word": "hand",
+     "fa": "دست"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Don't worry. William's got his dummy, not the jigsaw. Have you looked in your pocket, Nicola?",
+   "translations": {
+    "fa": "نگران نباشید. ویلیام پستونکش را داره، نه پازل را. جیبت را نگاه کردی نیکولا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "pocket",
+      "check"
+     ],
+     "suggestion": "Check your pocket, Nicola.",
+     "suggestionFa": "جیبت را چک کن نیکولا.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "idea"
+     ],
+     "suggestion": "Good idea!",
+     "suggestionFa": "فکر خوبیه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dummy",
+     "fa": "پستانک"
+    },
+    {
+     "word": "pocket",
+     "fa": "جیب"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"dummy\" = American \"pacifier\".",
+    "fa": "dummy/pacifier."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "My pocket… YES! Here it is! Silly me!",
+   "translations": {
+    "fa": "جیبم… آره! ایناهاش! چه خنگم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "well",
+      "done",
+      "ha"
+     ],
+     "suggestion": "Ha ha! Well done!",
+     "suggestionFa": "ها ها! آفرین!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "put"
+     ],
+     "suggestion": "Put it in, Nicola!",
+     "suggestionFa": "بذارش سر جاش نیکولا!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "silly",
+     "fa": "خنگ/احمقانه"
+    },
+    {
+     "word": "put in",
+     "fa": "گذاشتن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Click! Finished! Look at my castle! Can we take a photo for Nana?",
+   "translations": {
+    "fa": "تق! تموم شد! قلعه‌ام را ببین! می‌شه یه عکس برای نانا بگیریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "smile"
+     ],
+     "suggestion": "Yes. Smile, Nicola!",
+     "suggestionFa": "آره. لبخند بزن نیکولا!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "castle"
+     ],
+     "suggestion": "It's a beautiful castle!",
+     "suggestionFa": "قلعهٔ قشنگیه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finished",
+     "fa": "تمام شد"
+    },
+    {
+     "word": "photo",
+     "fa": "عکس"
+    },
+    {
+     "word": "smile",
+     "fa": "لبخند"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Send it to Nana! Now let's do another jigsaw. A thousand pieces! Just joking!",
+   "translations": {
+    "fa": "برای نانا بفرستش! حالا یه پازل دیگه درست کنیم. هزار تیکه! شوخی کردم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

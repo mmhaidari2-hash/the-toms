@@ -1,0 +1,225 @@
+{
+ "id": "l1_u31_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Playtime",
+ "titleFa": "(در نقش Nicola) زنگ تفریح",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u31_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playtime",
+      "school",
+      "guess",
+      "came",
+      "did"
+     ],
+     "suggestion": "Mehdi! You came to my school! Guess what we did at playtime!",
+     "suggestionFa": "{you}! اومدی مدرسه‌م! حدس بزن زنگ تفریح چی کار کردیم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What did you do?",
+   "translations": {
+    "fa": "چی کار کردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dragons",
+      "played",
+      "knight",
+      "dragon",
+      "mia"
+     ],
+     "suggestion": "We played dragons! I was the big dragon. Mia was the knight.",
+     "suggestionFa": "اژدهابازی کردیم! من اژدهای بزرگه بودم. میا شوالیه بود.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Who won?",
+   "translations": {
+    "fa": "کی برد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whistle",
+      "nobody",
+      "went",
+      "then",
+      "won"
+     ],
+     "suggestion": "Nobody won. We ran and ran, then the whistle went.",
+     "suggestionFa": "هیچ‌کس نبرد. دویدیم و دویدیم، بعد سوت زدن.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Then what happened?",
+   "translations": {
+    "fa": "بعد چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dropped",
+      "oliver",
+      "banana",
+      "fruit",
+      "apple"
+     ],
+     "suggestion": "Then we had fruit. I had an apple. Oliver had a banana. He dropped it!",
+     "suggestionFa": "بعد میوه خوردیم. من سیب خوردم. الیور موز خورد. افتاد زمین!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Oh no! Poor Oliver.",
+   "translations": {
+    "fa": "ای وای! الیور بیچاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "fell",
+      "look",
+      "knee",
+      "then"
+     ],
+     "suggestion": "Yes! Every day. Then I fell over and hurt my knee. Look!",
+     "suggestionFa": "آره! هر روز. بعد افتادم و زانوم درد گرفت. ببین!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ouch! Are you OK?",
+   "translations": {
+    "fa": "آخ! خوبی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticker",
+      "little",
+      "ellis",
+      "brave",
+      "only"
+     ],
+     "suggestion": "Only a little bit. Mrs Ellis gave me a sticker. It says \"I was brave\"!",
+     "suggestionFa": "فقط یه ذره. خانم الیس بهم یه برچسب داد. روش نوشته «من شجاع بودم»!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "You were very brave!",
+   "translations": {
+    "fa": "خیلی شجاع بودی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school",
+      "fridge",
+      "mummy",
+      "here",
+      "play"
+     ],
+     "suggestion": "Here! Mummy says I can put it on the fridge. Did you play at school in Iran?",
+     "suggestionFa": "بیا! مامان میگه می‌تونم بچسبونمش رو یخچال. تو ایران تو مدرسه بازی می‌کردی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, we played football.",
+   "translations": {
+    "fa": "آره، فوتبال بازی می‌کردیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "football",
+      "dragon",
+      "going",
+      "likes"
+     ],
+     "suggestion": "Football! Ryan likes football. Tomorrow I'm going to be a dragon AND play football!",
+     "suggestionFa": "فوتبال! رایان فوتبال دوست داره. فردا می‌خوام اژدها باشم و فوتبال هم بازی کنم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

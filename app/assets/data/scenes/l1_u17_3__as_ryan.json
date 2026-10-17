@@ -1,0 +1,250 @@
+{
+ "id": "l1_u17_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) It's too hot!",
+ "titleFa": "(در نقش Ryan) خیلی داغه!",
+ "setting": "Drinks · Level 1",
+ "settingFa": "نوشیدنی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u17_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coffee's",
+      "tongue",
+      "burnt",
+      "hot",
+      "ow"
+     ],
+     "suggestion": "Ow! My coffee's too hot! I burnt my tongue!",
+     "suggestionFa": "آخ! قهوه‌ام خیلی داغه! زبونم سوخت!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no! Drink some cold water.",
+   "translations": {
+    "fa": "وای نه! یه کم آب سرد بخور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school",
+      "can't",
+      "late",
+      "cube",
+      "wait"
+     ],
+     "suggestion": "I can't wait. I'm late for school! Can I put an ice cube in it?",
+     "suggestionFa": "نمی‌تونم صبر کنم. برای مدرسه دیرم شده! می‌شه یه تیکه یخ بندازم توش؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Coffee with ice? That's strange!",
+   "translations": {
+    "fa": "قهوه با یخ؟ عجیبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "milky",
+      "milk",
+      "cold",
+      "idea",
+      "good"
+     ],
+     "suggestion": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
+     "suggestionFa": "فکر خوبیه. شیر… وای نه! حالا خیلی سرده! و خیلی شیری شد!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Ha ha! You can't win!",
+   "translations": {
+    "fa": "ها ها! نمی‌تونی برنده بشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seconds",
+      "sugars",
+      "twenty",
+      "there",
+      "three"
+     ],
+     "suggestion": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
+     "suggestionFa": "بیست ثانیه… بفرما. اه! حالا خیلی شیرینه. کی سه تا قند ریخت توش؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Not me!",
+   "translations": {
+    "fa": "من نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "always",
+      "make",
+      "want",
+      "i'll"
+     ],
+     "suggestion": "Nicola! She always does that. OK, I'll make a new one. Do you want one?",
+     "suggestionFa": "نیکولا! همیشه این کار را می‌کنه. باشه، یکی دیگه درست می‌کنم. تو هم می‌خوای؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, please. Not too strong.",
+   "translations": {
+    "fa": "آره، لطفاً. نه خیلی غلیظ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "instant",
+      "coffee",
+      "spoon",
+      "much",
+      "one"
+     ],
+     "suggestion": "Instant coffee. One spoon. Is one spoon too much?",
+     "suggestionFa": "قهوهٔ فوری. یه قاشق. یه قاشق زیاده؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "No, one spoon is fine.",
+   "translations": {
+    "fa": "نه، یه قاشق خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "water",
+      "sugar",
+      "milk",
+      "just"
+     ],
+     "suggestion": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
+     "suggestionFa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Like Goldilocks!",
+   "translations": {
+    "fa": "مثل موطلایی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goldilocks",
+      "drink",
+      "late",
+      "look",
+      "time"
+     ],
+     "suggestion": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",
+     "suggestionFa": "ها! موطلایی! وای نه — ساعت را ببین! خیلی دیرم شد! می‌تونی تو برام بخوریش؟ خداحافظ!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Bye, Ryan! Run!",
+   "translations": {
+    "fa": "خداحافظ رایان! بدو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "cheers",
+      "later",
+      "tell",
+      "mum"
+     ],
+     "suggestion": "Cheers! See you later! Tell Mum I had breakfast!",
+     "suggestionFa": "ممنون! بعداً می‌بینمت! به مامان بگو صبحونه خوردم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

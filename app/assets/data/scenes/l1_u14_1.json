@@ -1,0 +1,413 @@
+{
+ "id": "l1_u14_1",
+ "characterId": "weda",
+ "title": "Brushing teeth",
+ "titleFa": "مسواک زدن",
+ "setting": "In the bathroom · Level 1",
+ "settingFa": "در حمام",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Right, Nicola, teeth time! Can you pass me her toothbrush, love? The pink one.",
+   "translations": {
+    "fa": "خب نیکولا، وقت دندون! عزیزم، مسواکش را بهم می‌دی؟ صورتیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "nana"
+     ],
+     "suggestion": "Here you are, Nana.",
+     "suggestionFa": "بفرمایید نانا.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pink",
+      "one"
+     ],
+     "suggestion": "This one? The pink one?",
+     "suggestionFa": "این یکی؟ صورتیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teeth",
+     "fa": "دندان‌ها"
+    },
+    {
+     "word": "toothbrush",
+     "fa": "مسواک"
+    },
+    {
+     "word": "pass",
+     "fa": "دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British people say \"love\" or \"dear\" to friends and family — it's warm, not romantic.",
+    "fa": "love اینجا یعنی عزیزم."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Thank you. And the toothpaste. Just a little bit — the size of a pea.",
+   "translations": {
+    "fa": "ممنون. و خمیردندون. فقط یه کم — اندازهٔ یه نخود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "small"
+     ],
+     "suggestion": "That's very small!",
+     "suggestionFa": "خیلی کمه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toothpaste",
+     "fa": "خمیردندان"
+    },
+    {
+     "word": "size",
+     "fa": "اندازه"
+    },
+    {
+     "word": "pea",
+     "fa": "نخود"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I can do it myself, Nana! I'm a big girl!",
+   "translations": {
+    "fa": "خودم می‌تونم نانا! دختر بزرگی‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK, you do it.",
+     "suggestionFa": "باشه، خودت بکن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "show",
+      "girl",
+      "us"
+     ],
+     "suggestion": "Good girl! Show us.",
+     "suggestionFa": "آفرین! نشونمون بده.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "myself",
+     "fa": "خودم"
+    },
+    {
+     "word": "show",
+     "fa": "نشان دادن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Up and down, Nicola. Not too fast. Brush the back teeth, too.",
+   "translations": {
+    "fa": "بالا و پایین نیکولا. نه خیلی تند. دندون‌های عقب را هم بشور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "down",
+      "up"
+     ],
+     "suggestion": "Up and down, up and down!",
+     "suggestionFa": "بالا و پایین، بالا و پایین!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brush",
+      "long",
+      "how",
+      "we"
+     ],
+     "suggestion": "How long do we brush?",
+     "suggestionFa": "چقدر مسواک بزنیم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "up",
+     "fa": "بالا"
+    },
+    {
+     "word": "down",
+     "fa": "پایین"
+    },
+    {
+     "word": "fast",
+     "fa": "تند"
+    },
+    {
+     "word": "back",
+     "fa": "عقب"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Two minutes. Let's sing a song. Two minutes is two songs!",
+   "translations": {
+    "fa": "دو دقیقه. بیا یه آهنگ بخونیم. دو دقیقه یعنی دو تا آهنگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "song"
+     ],
+     "suggestion": "Which song?",
+     "suggestionFa": "کدوم آهنگ؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "don't",
+      "songs",
+      "know"
+     ],
+     "suggestion": "I don't know any English songs.",
+     "suggestionFa": "هیچ آهنگ انگلیسی بلد نیستم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "minutes",
+     "fa": "دقیقه‌ها"
+    },
+    {
+     "word": "sing",
+     "fa": "خواندن (آواز)"
+    },
+    {
+     "word": "song",
+     "fa": "آهنگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "The NHS advises brushing twice a day for two minutes with fluoride toothpaste.",
+    "fa": "دو بار در روز، دو دقیقه."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "\"Twinkle, Twinkle, Little Star\"! Everybody knows that. Don't swallow the toothpaste, Nicola!",
+   "translations": {
+    "fa": "«چشمک بزن ستاره کوچولو»! همه بلدن. خمیردندون را قورت نده نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "out"
+     ],
+     "suggestion": "Spit it out, Nicola!",
+     "suggestionFa": "تفش کن نیکولا!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "swallow",
+      "don't"
+     ],
+     "suggestion": "Don't swallow! Spit!",
+     "suggestionFa": "قورت نده! تف کن!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swallow",
+     "fa": "قورت دادن"
+    },
+    {
+     "word": "spit",
+     "fa": "تف کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "no swallow",
+      "not swallow it"
+     ],
+     "echo": "Don't swallow it? That's right!",
+     "better": "Don't swallow it!",
+     "betterFa": "قورتش نده!"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Done! Look, Nana! My teeth are shiny!",
+   "translations": {
+    "fa": "تموم شد! ببین نانا! دندونام برق می‌زنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shiny",
+      "done",
+      "well"
+     ],
+     "suggestion": "Very shiny! Well done!",
+     "suggestionFa": "خیلی براق! آفرین!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mouth",
+      "open",
+      "see",
+      "let"
+     ],
+     "suggestion": "Let me see. Open your mouth!",
+     "suggestionFa": "بذار ببینم. دهنت را باز کن!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "done",
+     "fa": "تمام"
+    },
+    {
+     "word": "shiny",
+     "fa": "براق"
+    },
+    {
+     "word": "mouth",
+     "fa": "دهان"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Lovely. Now rinse your toothbrush and put it in the cup.",
+   "translations": {
+    "fa": "عالی. حالا مسواکت را آب بکش و بذارش تو لیوان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "cup"
+     ],
+     "suggestion": "Where's the cup?",
+     "suggestionFa": "لیوان کجاست؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "now",
+      "bed"
+     ],
+     "suggestion": "And now bed?",
+     "suggestionFa": "و حالا خواب؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rinse",
+     "fa": "آب کشیدن"
+    },
+    {
+     "word": "cup",
+     "fa": "لیوان"
+    },
+    {
+     "word": "bed",
+     "fa": "تخت"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "Yes, bed! One story, then sleep. Thank you for helping, love. My knees don't like this bathroom floor!",
+   "translations": {
+    "fa": "آره، خواب! یه قصه، بعد خواب. ممنون که کمک کردی عزیزم. زانوهام از این کف حموم خوششون نمیاد!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

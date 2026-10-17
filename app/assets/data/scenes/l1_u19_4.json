@@ -1,0 +1,367 @@
+{
+ "id": "l1_u19_4",
+ "characterId": "ryan",
+ "title": "Lights out",
+ "titleFa": "خاموشی",
+ "setting": "My bedroom · Level 1",
+ "settingFa": "اتاق خوابم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Is it ten o'clock already? Mum says lights out at ten on school nights.",
+   "translations": {
+    "fa": "ساعت ده شده؟ مامان می‌گه شب‌های مدرسه ساعت ده چراغ خاموش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "time",
+      "bed"
+     ],
+     "suggestion": "Yes, it's ten. Time for bed!",
+     "suggestionFa": "آره، ساعت ده‌ست. وقت خوابه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "five"
+     ],
+     "suggestion": "It's five to ten.",
+     "suggestionFa": "پنج دقیقه به ده‌ست.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lights out",
+     "fa": "خاموشی"
+    },
+    {
+     "word": "school nights",
+     "fa": "شب‌های قبل از مدرسه"
+    },
+    {
+     "word": "already",
+     "fa": "از الان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Ten more minutes. I'm in the middle of a game. Please don't tell Mum!",
+   "translations": {
+    "fa": "ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "that's",
+      "five",
+      "more"
+     ],
+     "suggestion": "Five more minutes. That's all.",
+     "suggestionFa": "پنج دقیقه دیگه. همین.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "you've",
+      "school",
+      "ryan"
+     ],
+     "suggestion": "You've got school tomorrow, Ryan.",
+     "suggestionFa": "فردا مدرسه داری رایان.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in the middle of",
+     "fa": "وسط"
+    },
+    {
+     "word": "tell",
+     "fa": "گفتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "OK, OK. Five minutes. Can you put my alarm on? Seven o'clock.",
+   "translations": {
+    "fa": "باشه، باشه. پنج دقیقه. ساعت زنگ‌دارم را تنظیم می‌کنی؟ ساعت هفت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "done"
+     ],
+     "suggestion": "Seven o'clock. Done.",
+     "suggestionFa": "ساعت هفت. تموم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "early"
+     ],
+     "suggestion": "Seven? That's early!",
+     "suggestionFa": "هفت؟ زوده!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "alarm",
+     "fa": "زنگ ساعت"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "I need to shower before school. Can you close the curtains, please?",
+   "translations": {
+    "fa": "باید قبل از مدرسه دوش بگیرم. پرده‌ها را می‌بندی، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "outside",
+      "dark",
+      "sure"
+     ],
+     "suggestion": "Sure. It's dark outside.",
+     "suggestionFa": "حتماً. بیرون تاریکه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bright",
+      "street",
+      "light"
+     ],
+     "suggestion": "The street light is very bright.",
+     "suggestionFa": "چراغ خیابون خیلی روشنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shower",
+     "fa": "دوش گرفتن"
+    },
+    {
+     "word": "curtains",
+     "fa": "پرده‌ها"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    },
+    {
+     "word": "bright",
+     "fa": "روشن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Thanks. OK, game over. I lost! Where's my phone charger?",
+   "translations": {
+    "fa": "ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "next",
+      "bed"
+     ],
+     "suggestion": "It's next to your bed.",
+     "suggestionFa": "کنار تختته.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pillow",
+      "under",
+      "here"
+     ],
+     "suggestion": "Here it is. Under your pillow!",
+     "suggestionFa": "ایناهاش. زیر بالشته!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "game over",
+     "fa": "پایان بازی"
+    },
+    {
+     "word": "lost",
+     "fa": "باخت"
+    },
+    {
+     "word": "charger",
+     "fa": "شارژر"
+    },
+    {
+     "word": "pillow",
+     "fa": "بالش"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it next to bed",
+      "is next to the bed it"
+     ],
+     "echo": "Next to your bed? Got it.",
+     "better": "It's next to your bed.",
+     "betterFa": "کنار تختته."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Under my pillow! Classic. Mum says no phones in bed. Do you think that's fair?",
+   "translations": {
+    "fa": "زیر بالشم! همیشه همینه. مامان می‌گه گوشی تو تخت ممنوع. فکر می‌کنی منصفانه‌ست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phones",
+      "sleep",
+      "bad"
+     ],
+     "suggestion": "Yes, phones are bad for sleep.",
+     "suggestionFa": "آره، گوشی برای خواب بده.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "said",
+      "same",
+      "mum"
+     ],
+     "suggestion": "Maybe. My mum said the same!",
+     "suggestionFa": "شاید. مامان منم همینو می‌گفت!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    },
+    {
+     "word": "sleep",
+     "fa": "خواب"
+    },
+    {
+     "word": "same",
+     "fa": "همان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British parents set \"no screens in the bedroom\" rules for teenagers to help them sleep.",
+    "fa": "قانون بدون صفحه نمایش در اتاق."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Mums are all the same! OK, phone on the desk. Can you turn the big light off?",
+   "translations": {
+    "fa": "مامان‌ها همه مثل همن! باشه، گوشی رو میز. چراغ بزرگه را خاموش می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "light",
+      "night",
+      "good",
+      "ryan"
+     ],
+     "suggestion": "Light off. Good night, Ryan!",
+     "suggestionFa": "چراغ خاموش. شب بخیر رایان!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sleep",
+      "well"
+     ],
+     "suggestion": "Sleep well!",
+     "suggestionFa": "خوب بخوابی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn off",
+     "fa": "خاموش کردن"
+    },
+    {
+     "word": "good night",
+     "fa": "شب بخیر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Night! Thanks, mate. And don't tell Mum about the extra five minutes!",
+   "translations": {
+    "fa": "شب بخیر! ممنون رفیق. و دربارهٔ اون پنج دقیقهٔ اضافه به مامان چیزی نگو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

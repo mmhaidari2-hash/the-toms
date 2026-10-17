@@ -1,0 +1,356 @@
+{
+ "id": "l1_u41_4",
+ "characterId": "leslie",
+ "title": "Get well soon",
+ "titleFa": "زود خوب شو",
+ "setting": "At the doctor's (basics) · Level 1",
+ "settingFa": "در مطب (پایه)",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Look, there's Mrs Khan in the waiting room. Hello, Amina! Are you OK?",
+   "translations": {
+    "fa": "ببین، خانم خان تو اتاق انتظاره. سلام آمینا! خوبی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hello",
+      "khan",
+      "mrs"
+     ],
+     "suggestion": "Hello, Mrs Khan.",
+     "suggestionFa": "سلام خانم خان.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "well",
+      "look",
+      "she"
+     ],
+     "suggestion": "She doesn't look well.",
+     "suggestionFa": "حالش خوب به نظر نمیاد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waiting room",
+     "fa": "اتاق انتظار"
+    },
+    {
+     "word": "well",
+     "fa": "خوب ؛ سالم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "khan",
+   "text": "Hello, dears. Not really. It's my back. I hurt it in the garden.",
+   "translations": {
+    "fa": "سلام عزیزانم. نه زیاد. کمرمه. تو باغچه آسیب دیده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "hear"
+     ],
+     "suggestion": "I'm sorry to hear that.",
+     "suggestionFa": "متأسفم که اینو می‌شنوم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happened",
+      "oh"
+     ],
+     "suggestion": "Oh no! What happened?",
+     "suggestionFa": "ای وای! چی شد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "back",
+     "fa": "کمر ؛ پشت"
+    },
+    {
+     "word": "hurt",
+     "fa": "آسیب زد"
+    },
+    {
+     "word": "garden",
+     "fa": "باغچه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "khan",
+   "text": "I lifted a big bag of soil. Silly me! Now I can't bend down.",
+   "translations": {
+    "fa": "یه کیسهٔ بزرگ خاک بلند کردم. چه کار احمقانه‌ای! الان نمی‌تونم خم بشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "painful",
+      "sounds"
+     ],
+     "suggestion": "That sounds painful.",
+     "suggestionFa": "دردناک به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "need",
+      "rest"
+     ],
+     "suggestion": "You need to rest.",
+     "suggestionFa": "باید استراحت کنید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lifted",
+     "fa": "بلند کرد"
+    },
+    {
+     "word": "soil",
+     "fa": "خاک"
+    },
+    {
+     "word": "bend down",
+     "fa": "خم شدن"
+    },
+    {
+     "word": "painful",
+     "fa": "دردناک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Can we do anything? Shopping? Walking Tiger? Ha, cats don't need walking.",
+   "translations": {
+    "fa": "کاری از دستمون برمیاد؟ خرید؟ گردوندن تایگر؟ ها، گربه‌ها که گردوندن نمی‌خوان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shopping"
+     ],
+     "suggestion": "I can do your shopping.",
+     "suggestionFa": "می‌تونم خریدتون را بکنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bins",
+      "put",
+      "out"
+     ],
+     "suggestion": "I can put your bins out.",
+     "suggestionFa": "می‌تونم سطل‌هاتون را بذارم بیرون.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shopping",
+     "fa": "خرید"
+    },
+    {
+     "word": "walking",
+     "fa": "گرداندن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "khan",
+   "text": "You're so kind. Yes, the bins, please. Tuesday. And maybe some milk?",
+   "translations": {
+    "fa": "خیلی مهربونی. آره، سطل‌ها، لطفاً. سه‌شنبه. و شاید یه کم شیر؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "all"
+     ],
+     "suggestion": "No problem at all.",
+     "suggestionFa": "اصلاً مشکلی نیست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "bring",
+      "milk",
+      "i'll"
+     ],
+     "suggestion": "I'll bring milk tomorrow.",
+     "suggestionFa": "فردا شیر میارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "maybe",
+     "fa": "شاید"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i will bringing milk",
+      "i bring milk tomorrow morning yes"
+     ],
+     "echo": "You'll bring milk? Thank you!",
+     "better": "I'll bring milk tomorrow.",
+     "betterFa": "فردا شیر میارم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "receptionist",
+   "text": "Mrs Khan? The doctor's ready for you now. Room two.",
+   "translations": {
+    "fa": "خانم خان؟ دکتر الان آماده‌ست. اتاق دو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "khan",
+      "luck",
+      "mrs"
+     ],
+     "suggestion": "Good luck, Mrs Khan.",
+     "suggestionFa": "موفق باشید خانم خان.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "feel",
+      "hope",
+      "soon"
+     ],
+     "suggestion": "I hope you feel better soon.",
+     "suggestionFa": "امیدوارم زود بهتر بشید.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "room",
+     "fa": "اتاق"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Get well soon!\" and \"I hope you feel better\" are common British wishes for someone who is ill.",
+    "fa": "آرزوی بهبودی."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "khan",
+   "text": "Thank you, dears. Pop round for a cup of tea when I'm better!",
+   "translations": {
+    "fa": "ممنون عزیزانم. وقتی بهتر شدم برای یه چای سر بزنید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "well",
+      "will",
+      "soon",
+      "get"
+     ],
+     "suggestion": "We will! Get well soon!",
+     "suggestionFa": "حتماً! زود خوب بشید!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "back",
+      "take",
+      "care"
+     ],
+     "suggestion": "Take care of your back.",
+     "suggestionFa": "مراقب کمرتون باشید.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop round",
+     "fa": "سر زدن"
+    },
+    {
+     "word": "take care",
+     "fa": "مراقب بودن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Poor Amina. Let's make her a get-well card with Nicola tonight. She'll love that!",
+   "translations": {
+    "fa": "آمینای بیچاره. بیا امشب با نیکولا براش یه کارت آرزوی بهبودی درست کنیم. عاشقش میشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

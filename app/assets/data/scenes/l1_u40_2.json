@@ -1,0 +1,366 @@
+{
+ "id": "l1_u40_2",
+ "characterId": "nicola",
+ "title": "Making toast",
+ "titleFa": "درست کردن نان تست",
+ "setting": "Simple cooking · Level 1",
+ "settingFa": "آشپزی ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Can I make toast? Mummy lets me press the button!",
+   "translations": {
+    "fa": "می‌تونم نون تست درست کنم؟ مامان میذاره دکمه را بزنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "but"
+     ],
+     "suggestion": "Yes, but be careful.",
+     "suggestionFa": "آره، ولی مواظب باش.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slices",
+      "many",
+      "how",
+      "ok"
+     ],
+     "suggestion": "OK. How many slices?",
+     "suggestionFa": "باشه. چند تا برش؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toast",
+     "fa": "نان تست"
+    },
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "button",
+     "fa": "دکمه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Two for me and two for you! Put the bread in. Now I press… down!",
+   "translations": {
+    "fa": "دو تا برای من و دو تا برای تو! نون را بذار تو. حالا فشار میدم… پایین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done!",
+     "suggestionFa": "آفرین!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wait",
+      "now",
+      "we"
+     ],
+     "suggestion": "Now we wait.",
+     "suggestionFa": "حالا صبر می‌کنیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "put in",
+     "fa": "داخل گذاشتن"
+    },
+    {
+     "word": "down",
+     "fa": "پایین"
+    },
+    {
+     "word": "wait",
+     "fa": "صبر کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Pop! It's ready! Ooh, hot! Hot! Can you take it out?",
+   "translations": {
+    "fa": "پاپ! آماده‌ست! اوه، داغه! داغه! می‌تونی درش بیاری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "touch",
+      "don't"
+     ],
+     "suggestion": "Yes. Don't touch it.",
+     "suggestionFa": "آره. دست نزن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "plate"
+     ],
+     "suggestion": "Here's a plate.",
+     "suggestionFa": "بفرما یه بشقاب.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop",
+     "fa": "تق (صدای بیرون پریدن)"
+    },
+    {
+     "word": "hot",
+     "fa": "داغ"
+    },
+    {
+     "word": "take out",
+     "fa": "بیرون آوردن"
+    },
+    {
+     "word": "plate",
+     "fa": "بشقاب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "What do you want on your toast? Jam? Butter? Marmite?",
+   "translations": {
+    "fa": "رو نون تستت چی می‌خوای؟ مربا؟ کره؟ مارمایت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butter",
+      "please",
+      "want",
+      "jam"
+     ],
+     "suggestion": "I want butter and jam, please.",
+     "suggestionFa": "کره و مربا می‌خوام، لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "marmite",
+      "what's"
+     ],
+     "suggestion": "What's Marmite?",
+     "suggestionFa": "مارمایت چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam",
+     "fa": "مربا"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    },
+    {
+     "word": "Marmite",
+     "fa": "مارمایت (خمیر مخمر)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Marmite is a salty, dark spread made from yeast. British people say \"you either love it or hate it\".",
+    "fa": "مارمایت را یا دوست دارید یا متنفرید."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i want the butter and the jam",
+      "i wants butter"
+     ],
+     "echo": "Butter and jam? Yummy!",
+     "better": "I'd like butter and jam, please.",
+     "betterFa": "کره و مربا می‌خوام، لطفاً."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Marmite is brown and salty. Daddy loves it. I think it's yucky! Try some!",
+   "translations": {
+    "fa": "مارمایت قهوه‌ای و شوره. بابا عاشقشه. به نظر من حال‌به‌هم‌زنه! یه کم امتحان کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "just",
+      "bit",
+      "ok"
+     ],
+     "suggestion": "OK, just a little bit.",
+     "suggestionFa": "باشه، فقط یه ذره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "No, thank you!",
+     "suggestionFa": "نه، ممنون!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "salty",
+     "fa": "شور"
+    },
+    {
+     "word": "yucky",
+     "fa": "حال‌به‌هم‌زن"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Do you like it? Your face is funny!",
+   "translations": {
+    "fa": "دوستش داری؟ صورتت خنده‌دار شده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "salty"
+     ],
+     "suggestion": "It's very salty!",
+     "suggestionFa": "خیلی شوره!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "actually",
+      "bad"
+     ],
+     "suggestion": "Actually, it's not bad.",
+     "suggestionFa": "راستش، بد نیست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "funny",
+     "fa": "خنده‌دار"
+    },
+    {
+     "word": "actually",
+     "fa": "راستش"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "You're like Daddy! Now I'm putting jam on mine. Lots of jam! Can I cut it into triangles?",
+   "translations": {
+    "fa": "مثل بابایی! حالا رو مال خودم مربا می‌زنم. کلی مربا! می‌تونم مثلثی ببرمش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butter",
+      "knife",
+      "use"
+     ],
+     "suggestion": "Yes. Use the butter knife.",
+     "suggestionFa": "آره. با کاردِ کره ببر.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "triangles",
+      "squares"
+     ],
+     "suggestion": "Squares or triangles?",
+     "suggestionFa": "مربع یا مثلث؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cut",
+     "fa": "بریدن"
+    },
+    {
+     "word": "triangles",
+     "fa": "مثلث‌ها"
+    },
+    {
+     "word": "knife",
+     "fa": "کارد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Triangles! Toast tastes better in triangles. Everybody knows that!",
+   "translations": {
+    "fa": "مثلث! نون تست مثلثی خوشمزه‌تره. همه اینو می‌دونن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,352 @@
+{
+ "id": "l1_u31_4",
+ "characterId": "leslie",
+ "title": "Home time",
+ "titleFa": "وقت رفتن به خانه",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Thanks for coming to pick Nicola up with me. The doors open at quarter past three.",
+   "translations": {
+    "fa": "ممنون که باهام اومدی دنبال نیکولا. درها سه و ربع باز میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "school",
+      "nice",
+      "see"
+     ],
+     "suggestion": "No problem. It's nice to see the school.",
+     "suggestionFa": "مشکلی نیست. دیدن مدرسه خوبه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "pick",
+      "her",
+      "day"
+     ],
+     "suggestion": "Do you pick her up every day?",
+     "suggestionFa": "هر روز میای دنبالش؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pick up",
+     "fa": "دنبال کسی رفتن"
+    },
+    {
+     "word": "quarter past three",
+     "fa": "سه و ربع"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"quarter past three\", Americans also say \"quarter after three\".",
+    "fa": "quarter past/after."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Usually Weda does it. I teach upstairs, so I finish late. Ah, here they come!",
+   "translations": {
+    "fa": "معمولاً ودا میاد. من طبقهٔ بالا درس میدم، دیر تموم می‌کنم. آه، دارن میان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "see",
+      "can"
+     ],
+     "suggestion": "I can see Nicola!",
+     "suggestionFa": "نیکولا را می‌بینم!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "waving",
+      "she's",
+      "us"
+     ],
+     "suggestion": "She's waving at us.",
+     "suggestionFa": "داره برامون دست تکون میده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "waving",
+     "fa": "دست تکان دادن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Hello, sweetheart! How was your day?",
+   "translations": {
+    "fa": "سلام عزیزم! روزت چطور بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learnt",
+      "her",
+      "ask"
+     ],
+     "suggestion": "Ask her what she learnt!",
+     "suggestionFa": "ازش بپرس چی یاد گرفت!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tired",
+      "looks"
+     ],
+     "suggestion": "She looks tired.",
+     "suggestionFa": "خسته به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweetheart",
+     "fa": "عزیزم"
+    },
+    {
+     "word": "how was",
+     "fa": "چطور بود"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Good! We learnt the letter S. S for snake! Sssss!",
+   "translations": {
+    "fa": "خوب! حرف S را یاد گرفتیم. S برای مار! سسسس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "s"
+     ],
+     "suggestion": "S for {you}? No…",
+     "suggestionFa": "S برای {you}؟ نه…",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "good"
+     ],
+     "suggestion": "Very good, Nicola!",
+     "suggestionFa": "خیلی خوبه نیکولا!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "learnt",
+     "fa": "یاد گرفت"
+    },
+    {
+     "word": "letter",
+     "fa": "حرف"
+    },
+    {
+     "word": "snake",
+     "fa": "مار"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"learnt\", American \"learned\" (both are fine in the UK).",
+    "fa": "learnt/learned."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Brilliant! What did you have for dinner?",
+   "translations": {
+    "fa": "عالی! ناهار چی خوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pizza",
+      "was",
+      "day"
+     ],
+     "suggestion": "Was it pizza day?",
+     "suggestionFa": "روز پیتزا بود؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hope",
+      "peas",
+      "ate",
+      "she"
+     ],
+     "suggestion": "I hope she ate the peas!",
+     "suggestionFa": "امیدوارم نخود فرنگی‌ها را خورده باشه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what did you have",
+     "fa": "چی خوردی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Pasta. And I ate THREE peas! Can we go to the park? Pleeease?",
+   "translations": {
+    "fa": "پاستا. و سه تا نخود فرنگی خوردم! می‌شه بریم پارک؟ لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "well",
+      "done",
+      "peas"
+     ],
+     "suggestion": "Three peas! Well done!",
+     "suggestionFa": "سه تا نخود فرنگی! آفرین!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "think"
+     ],
+     "suggestion": "What do you think, Leslie?",
+     "suggestionFa": "نظرت چیه لزلی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pasta",
+     "fa": "پاستا"
+    },
+    {
+     "word": "park",
+     "fa": "پارک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she eated three peas",
+      "she eat three peas"
+     ],
+     "echo": "She ate three peas? Amazing!",
+     "better": "She ate three peas!",
+     "betterFa": "سه تا نخود فرنگی خورد!"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Only for twenty minutes. Did you bring your book bag home?",
+   "translations": {
+    "fa": "فقط بیست دقیقه. کیف کتابت را آوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carrying",
+      "here"
+     ],
+     "suggestion": "Here it is. I'm carrying it.",
+     "suggestionFa": "ایناهاش. من دارمش.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "classroom",
+      "think",
+      "still"
+     ],
+     "suggestion": "I think it's still in the classroom.",
+     "suggestionFa": "فکر کنم هنوز تو کلاسه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Phew. Right, twenty minutes at the park, then home for tea and a bath. Off we go!",
+   "translations": {
+    "fa": "آخیش. خب، بیست دقیقه پارک، بعد خونه برای شام و حموم. بریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

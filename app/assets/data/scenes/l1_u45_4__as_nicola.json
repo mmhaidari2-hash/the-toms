@@ -1,0 +1,224 @@
+{
+ "id": "l1_u45_4__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Nicola can skip",
+ "titleFa": "(در نقش Nicola) نیکولا طناب می‌زند",
+ "setting": "Saying what you can do · Level 1",
+ "settingFa": "گفتن توانایی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u45_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watch",
+      "look",
+      "skip",
+      "rope",
+      "can"
+     ],
+     "suggestion": "Look what I can do! I can skip! With a rope! Watch me!",
+     "suggestionFa": "ببین چی کار بلدم! طناب‌بازی بلدم! با طناب! نگام کن!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Wow! How many can you do?",
+   "translations": {
+    "fa": "وای! چند تا می‌تونی بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "four",
+      "skip",
+      "oops",
+      "two"
+     ],
+     "suggestion": "One, two, three, four… oops! Four! I can do four. Can you skip?",
+     "suggestionFa": "یک، دو، سه، چهار… اوپس! چهار! چهار تا بلدم. تو طناب‌بازی بلدی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Let me try.",
+   "translations": {
+    "fa": "بذار امتحان کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everybody",
+      "under",
+      "feet",
+      "here",
+      "skip"
+     ],
+     "suggestion": "Everybody can skip! Here. Jump when the rope goes under your feet!",
+     "suggestionFa": "همه بلدن! بیا. وقتی طناب از زیر پات رد شد بپر!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "One, two, three… ouch!",
+   "translations": {
+    "fa": "یک، دو، سه… آخ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minute",
+      "twenty",
+      "whole",
+      "skip",
+      "mia"
+     ],
+     "suggestion": "Ha ha! Mia can do twenty. She can skip for a whole minute!",
+     "suggestionFa": "ها ها! میا بیست تا بلده. یه دقیقهٔ کامل طناب می‌زنه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Twenty? Mia is very good!",
+   "translations": {
+    "fa": "بیست؟ میا خیلی خوبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cartwheel",
+      "practise",
+      "watch",
+      "can",
+      "if"
+     ],
+     "suggestion": "Yes! If I practise. Can I do a cartwheel too? Watch!",
+     "suggestionFa": "آره! اگه تمرین کنم. می‌تونم چرخ و فلک هم بزنم؟ نگاه کن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Be careful, Nicola!",
+   "translations": {
+    "fa": "مواظب باش نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cartwheel",
+      "hands",
+      "feet",
+      "can"
+     ],
+     "suggestion": "A cartwheel! Hands, hands, feet, feet! Can you do a cartwheel?",
+     "suggestionFa": "چرخ و فلک! دست، دست، پا، پا! تو بلدی؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "No! I'm too old!",
+   "translations": {
+    "fa": "نه! خیلی پیرم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cartwheels",
+      "can't",
+      "knit",
+      "nana",
+      "old"
+     ],
+     "suggestion": "You're not old! Nana is old. She can't do cartwheels, but she can knit!",
+     "suggestionFa": "تو پیر نیستی! نانا پیره. نمی‌تونه چرخ و فلک بزنه، ولی می‌تونه بافتنی ببافه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Everyone can do something.",
+   "translations": {
+    "fa": "هر کسی یه کاری بلده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teaching",
+      "nana's",
+      "scarf",
+      "small",
+      "next"
+     ],
+     "suggestion": "Not yet! Nana's teaching me. Next week I can show you a scarf. A very, very small scarf!",
+     "suggestionFa": "هنوز نه! نانا داره یادم میده. هفتهٔ بعد بهت یه شال‌گردن نشون میدم. یه شال‌گردن خیلی خیلی کوچیک!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

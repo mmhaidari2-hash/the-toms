@@ -1,0 +1,410 @@
+{
+ "id": "l1_u41_2",
+ "characterId": "okafor",
+ "title": "What's the problem?",
+ "titleFa": "مشکل چیه؟",
+ "setting": "At the doctor's (basics) · Level 1",
+ "settingFa": "در مطب (پایه)",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "Hello, Leslie. Hello, Nicola. And you're the neighbour? Come in. What's the problem today?",
+   "translations": {
+    "fa": "سلام لزلی. سلام نیکولا. و شما همسایه هستید؟ بفرمایید. امروز مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "earache",
+      "nicola",
+      "has"
+     ],
+     "suggestion": "Nicola has an earache.",
+     "suggestionFa": "نیکولا گوش‌درد داره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hurts",
+      "her",
+      "ear"
+     ],
+     "suggestion": "Her ear hurts.",
+     "suggestionFa": "گوشش درد می‌کنه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "problem",
+     "fa": "مشکل"
+    },
+    {
+     "word": "earache",
+     "fa": "گوش‌درد"
+    },
+    {
+     "word": "hurts",
+     "fa": "درد می‌کند"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "My ear hurts! This one. It's very sore.",
+   "translations": {
+    "fa": "گوشم درد می‌کنه! این یکی. خیلی دردناکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "left",
+      "ear"
+     ],
+     "suggestion": "The left ear.",
+     "suggestionFa": "گوش چپ.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "since",
+      "night",
+      "last"
+     ],
+     "suggestion": "Since last night.",
+     "suggestionFa": "از دیشب.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sore",
+     "fa": "دردناک"
+    },
+    {
+     "word": "left",
+     "fa": "چپ"
+    },
+    {
+     "word": "since",
+     "fa": "از"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "Oh dear. Since last night? Has she got a temperature?",
+   "translations": {
+    "fa": "ای وای. از دیشب؟ تب داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little"
+     ],
+     "suggestion": "Yes, a little.",
+     "suggestionFa": "آره، یه کم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "checked",
+      "leslie"
+     ],
+     "suggestion": "Leslie checked it this morning.",
+     "suggestionFa": "لزلی امروز صبح چک کرد.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "temperature",
+     "fa": "تب ؛ دما"
+    },
+    {
+     "word": "checked",
+     "fa": "بررسی کرد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Thirty-eight point two. And she isn't eating much.",
+   "translations": {
+    "fa": "سی و هشت و دو دهم. و زیاد غذا نمی‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "didn't",
+      "eat"
+     ],
+     "suggestion": "She didn't eat breakfast.",
+     "suggestionFa": "صبحونه نخورد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "juice",
+      "only",
+      "some",
+      "had"
+     ],
+     "suggestion": "She only had some juice.",
+     "suggestionFa": "فقط یه کم آبمیوه خورد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "point",
+     "fa": "ممیز"
+    },
+    {
+     "word": "eating",
+     "fa": "خوردن"
+    },
+    {
+     "word": "juice",
+     "fa": "آبمیوه"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK thermometers use Celsius. A child's temperature of 38 °C or more is a fever.",
+    "fa": "۳۸ درجه یعنی تب."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "Let me look. Nicola, I'm going to use my little torch. Are you brave?",
+   "translations": {
+    "fa": "بذار ببینم. نیکولا، می‌خوام از چراغ‌قوهٔ کوچیکم استفاده کنم. شجاعی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "brave"
+     ],
+     "suggestion": "You're brave, Nicola!",
+     "suggestionFa": "تو شجاعی نیکولا!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mummy's",
+      "hand",
+      "hold"
+     ],
+     "suggestion": "Hold Mummy's hand.",
+     "suggestionFa": "دست مامان را بگیر.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "torch",
+     "fa": "چراغ‌قوه"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"torch\", American \"flashlight\".",
+    "fa": "torch/flashlight."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "I'm brave. Ouch! Is my ear poorly?",
+   "translations": {
+    "fa": "من شجاعم. آخ! گوشم مریضه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "checking",
+      "doctor"
+     ],
+     "suggestion": "The doctor is checking.",
+     "suggestionFa": "دکتر داره نگاه می‌کنه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finished",
+      "nearly"
+     ],
+     "suggestion": "Nearly finished!",
+     "suggestionFa": "تقریباً تموم شد!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "poorly",
+     "fa": "مریض"
+    },
+    {
+     "word": "nearly",
+     "fa": "تقریباً"
+    },
+    {
+     "word": "finished",
+     "fa": "تمام"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she ear is ill",
+      "her ear are poorly"
+     ],
+     "echo": "Her ear is poorly? Let's see.",
+     "better": "Her ear is poorly.",
+     "betterFa": "گوشش مریضه."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "okafor",
+   "text": "It's a little bit red. It's an ear infection. It usually gets better on its own in three days.",
+   "translations": {
+    "fa": "یه کم قرمزه. عفونت گوشه. معمولاً خودش تو سه روز خوب میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medicine"
+     ],
+     "suggestion": "No medicine?",
+     "suggestionFa": "دارو لازم نیست؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "home",
+      "can",
+      "we"
+     ],
+     "suggestion": "What can we do at home?",
+     "suggestionFa": "تو خونه چی کار کنیم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "infection",
+     "fa": "عفونت"
+    },
+    {
+     "word": "on its own",
+     "fa": "خودبه‌خود"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "Children's paracetamol for the pain, and lots of drinks. Come back if she's not better on Friday.",
+   "translations": {
+    "fa": "پاراستامول بچه برای درد، و کلی مایعات. اگه تا جمعه خوب نشد برگردید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doctor",
+      "thank"
+     ],
+     "suggestion": "Thank you, doctor.",
+     "suggestionFa": "ممنون آقای دکتر.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "friday",
+      "we'll"
+     ],
+     "suggestion": "Friday. We'll remember.",
+     "suggestionFa": "جمعه. یادمون می‌مونه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paracetamol",
+     "fa": "پاراستامول"
+    },
+    {
+     "word": "pain",
+     "fa": "درد"
+    },
+    {
+     "word": "drinks",
+     "fa": "نوشیدنی‌ها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "okafor",
+   "text": "And Nicola, here's a sticker for being so brave! Take care, everyone.",
+   "translations": {
+    "fa": "و نیکولا، اینم یه برچسب برای این‌همه شجاعت! مراقب باشید، همه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

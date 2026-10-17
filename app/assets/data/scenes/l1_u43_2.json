@@ -1,0 +1,348 @@
+{
+ "id": "l1_u43_2",
+ "characterId": "ryan",
+ "title": "I can't find the milk",
+ "titleFa": "شیر را پیدا نمی‌کنم",
+ "setting": "Asking for help · Level 1",
+ "settingFa": "کمک خواستن",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum sent me with a list. Ten things! I can't find anything. Help!",
+   "translations": {
+    "fa": "مامان با یه لیست فرستادم. ده تا چیز! هیچی پیدا نمی‌کنم. کمک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "list",
+      "see",
+      "let"
+     ],
+     "suggestion": "Let me see the list.",
+     "suggestionFa": "بذار لیست را ببینم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "can't",
+      "find"
+     ],
+     "suggestion": "What can't you find?",
+     "suggestionFa": "چی را پیدا نمی‌کنی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "list",
+     "fa": "فهرست"
+    },
+    {
+     "word": "find",
+     "fa": "پیدا کردن"
+    },
+    {
+     "word": "anything",
+     "fa": "هیچ چیز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Milk, first. I can't find the milk! I've walked round twice!",
+   "translations": {
+    "fa": "اول شیر. شیر را پیدا نمی‌کنم! دو بار دور زدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridges",
+      "back"
+     ],
+     "suggestion": "It's in the fridges at the back.",
+     "suggestionFa": "تو یخچال‌های ته فروشگاهه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "signs",
+      "look"
+     ],
+     "suggestion": "Look at the signs.",
+     "suggestionFa": "به تابلوها نگاه کن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "twice",
+     "fa": "دو بار"
+    },
+    {
+     "word": "walked round",
+     "fa": "دور زدم"
+    },
+    {
+     "word": "signs",
+     "fa": "تابلوها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Got it. Semi-skimmed. Green top. Mum says never the blue one.",
+   "translations": {
+    "fa": "گرفتم. نیم‌چرب. درِ سبز. مامان میگه هیچ‌وقت آبیه نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "blue",
+      "one"
+     ],
+     "suggestion": "What's the blue one?",
+     "suggestionFa": "آبیه چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thing",
+      "list",
+      "next"
+     ],
+     "suggestion": "Next thing on the list?",
+     "suggestionFa": "چیز بعدی لیست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "semi-skimmed",
+     "fa": "نیم‌چرب"
+    },
+    {
+     "word": "top",
+     "fa": "درپوش"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK milk bottle colours: blue = whole milk, green = semi-skimmed, red = skimmed.",
+    "fa": "رنگ درِ شیر."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Blue is full fat. Next: eggs, bread, washing-up liquid… I can't find the washing-up liquid!",
+   "translations": {
+    "fa": "آبی پرچربه. بعدی: تخم‌مرغ، نون، مایع ظرفشویی… مایع ظرفشویی را پیدا نمی‌کنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cleaning",
+      "aisle"
+     ],
+     "suggestion": "It's in the cleaning aisle.",
+     "suggestionFa": "تو راهروی شوینده‌هاست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "staff",
+      "ask"
+     ],
+     "suggestion": "Ask the staff.",
+     "suggestionFa": "از کارکنان بپرس.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cleaning",
+     "fa": "نظافت"
+    },
+    {
+     "word": "staff",
+     "fa": "کارکنان"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Washing-up liquid? Aisle nine, with the cleaning products. Anything else?",
+   "translations": {
+    "fa": "مایع ظرفشویی؟ راهروی نه، کنار مواد شوینده. چیز دیگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gravy",
+      "can't",
+      "find",
+      "we"
+     ],
+     "suggestion": "We can't find the gravy.",
+     "suggestionFa": "سس گریوی را پیدا نمی‌کنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "custard",
+      "seen",
+      "have"
+     ],
+     "suggestion": "Have you seen the custard?",
+     "suggestionFa": "کاستارد را دیدی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "products",
+     "fa": "محصولات"
+    },
+    {
+     "word": "gravy",
+     "fa": "سس گوشت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we can't finding the gravy",
+      "we not can find gravy"
+     ],
+     "echo": "You can't find the gravy? Aisle three!",
+     "better": "We can't find the gravy.",
+     "betterFa": "سس گریوی را پیدا نمی‌کنیم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Gravy and custard are both in aisle three. Next to the stock cubes.",
+   "translations": {
+    "fa": "گریوی و کاستارد هر دو راهروی سه‌ان. کنار عصاره‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "lot"
+     ],
+     "suggestion": "Thanks a lot.",
+     "suggestionFa": "خیلی ممنون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "aisle",
+      "easy"
+     ],
+     "suggestion": "Aisle three. Easy!",
+     "suggestionFa": "راهروی سه. آسونه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "both",
+     "fa": "هر دو"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "You're a lifesaver. Last thing: \"something nice for Mum\". What does that mean?",
+   "translations": {
+    "fa": "تو نجات‌دهنده‌ای. آخرین چیز: «یه چیز خوب برای مامان». یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flowers",
+      "some",
+      "buy",
+      "her"
+     ],
+     "suggestion": "Buy her some flowers.",
+     "suggestionFa": "براش گل بخر.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chocolate"
+     ],
+     "suggestion": "Chocolate!",
+     "suggestionFa": "شکلات!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lifesaver",
+     "fa": "نجات‌دهنده"
+    },
+    {
+     "word": "something nice",
+     "fa": "چیزی خوب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Flowers AND chocolate. Then she'll forget I broke the remote. Don't tell her!",
+   "translations": {
+    "fa": "گل و شکلات. اون وقت یادش میره کنترل را شکستم. بهش نگو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

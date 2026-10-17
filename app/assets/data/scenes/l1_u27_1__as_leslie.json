@@ -1,0 +1,489 @@
+{
+ "id": "l1_u27_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Hello, Mrs Khan",
+ "titleFa": "(در نقش Leslie) سلام، خانم خان",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u27_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fourteen",
+      "number",
+      "look",
+      "have",
+      "from"
+     ],
+     "suggestion": "Oh look, it's Mrs Khan from number fourteen. Have you met her?",
+     "suggestionFa": "آه ببین، خانم خان از پلاک چهارده‌ست. باهاش آشنا شدی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No, not yet.",
+   "translations": {
+    "fa": "نه، هنوز نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friend",
+      "next",
+      "door",
+      "they",
+      "live"
+     ],
+     "suggestion": "Mrs Khan, this is our friend. They live next door to us.",
+     "suggestionFa": "خانم خان، این دوستمونه. بغل خونهٔ ما زندگی می‌کنه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Hello, Mrs Khan.",
+   "translations": {
+    "fa": "سلام خانم خان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "khan",
+   "text": "Hello! Nice to meet you. Welcome to Mare Street!",
+   "translations": {
+    "fa": "سلام! از آشنایی‌تون خوشبختم. به خیابون مِر خوش اومدید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nice to meet you",
+     "fa": "از آشنایی‌تان خوشبختم"
+    },
+    {
+     "word": "welcome",
+     "fa": "خوش آمدید"
+    },
+    {
+     "word": "next door",
+     "fa": "همسایهٔ بغلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Older British people may prefer \"Mrs Khan\" until they say \"Call me Amina\". It's polite to wait.",
+    "fa": "صبر کنید تا اجازهٔ نام کوچک بدهند."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Nice to meet you too, Mrs Khan.",
+   "translations": {
+    "fa": "منم از آشنایی‌تون خوشبختم خانم خان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "khan",
+   "text": "And please call me Amina. Where are you from?",
+   "translations": {
+    "fa": "و لطفاً منو آمینا صدا کنید. اهل کجایید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "where are you from",
+     "fa": "اهل کجایی"
+    },
+    {
+     "word": "from",
+     "fa": "از"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'm Iranian.",
+   "translations": {
+    "fa": "ایرانی‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "khan",
+   "text": "Tehran! My husband went there for work, years ago. He loved the food! How long have you been here?",
+   "translations": {
+    "fa": "تهران! شوهرم سال‌ها پیش برای کار رفت اونجا. عاشق غذاش شد! چند وقته اینجایید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "husband",
+     "fa": "شوهر"
+    },
+    {
+     "word": "years ago",
+     "fa": "سال‌ها پیش"
+    },
+    {
+     "word": "how long",
+     "fa": "چه مدت"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Just three months.",
+   "translations": {
+    "fa": "فقط سه ماه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "khan",
+   "text": "Only three months! And how do you like London?",
+   "translations": {
+    "fa": "فقط سه ماه! لندن را چطور دوست دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "expensive",
+     "fa": "گران"
+    },
+    {
+     "word": "friendly",
+     "fa": "مهربان"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "I like it, but it's very expensive!",
+   "translations": {
+    "fa": "دوستش دارم، ولی خیلی گرونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "khan",
+   "text": "Ha! Very expensive, yes. Do you need anything? I've lived here for thirty years.",
+   "translations": {
+    "fa": "ها! خیلی گرون، آره. چیزی لازم دارید؟ سی ساله اینجا زندگی می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "need",
+     "fa": "لازم داشتن"
+    },
+    {
+     "word": "lived",
+     "fa": "زندگی کرده"
+    },
+    {
+     "word": "doctor's",
+     "fa": "مطب"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Where's a good doctor's?",
+   "translations": {
+    "fa": "یه مطب خوب کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "khan",
+   "text": "The GP on the corner is very good. Dr Okafor. And the mosque is on Hackney Road. Ten minutes' walk.",
+   "translations": {
+    "fa": "مطب سر نبش خیلی خوبه. دکتر اوکافور. و مسجد تو خیابون هاکنیه. ده دقیقه پیاده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "GP",
+     "fa": "پزشک عمومی"
+    },
+    {
+     "word": "corner",
+     "fa": "نبش"
+    },
+    {
+     "word": "walk",
+     "fa": "پیاده"
+    }
+   ],
+   "cultureNote": {
+    "en": "You need to register with a GP (local doctor's surgery) near your home in the UK.",
+    "fa": "باید نزد پزشک محل ثبت‌نام کنید."
+   }
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thank you. That's really helpful.",
+   "translations": {
+    "fa": "ممنون. خیلی کمک کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "khan",
+   "text": "Any time! Come for tea one day. I'm always in. Number fourteen, the green door.",
+   "translations": {
+    "fa": "هر وقت! یه روز برای چای بیاید. همیشه خونه‌ام. پلاک چهارده، در سبز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "any time",
+     "fa": "هر وقت"
+    },
+    {
+     "word": "always in",
+     "fa": "همیشه خانه"
+    }
+   ]
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "mehdi",
+   "text": "I'd love to. Thank you, Amina.",
+   "translations": {
+    "fa": "خیلی دوست دارم. ممنون آمینا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "everyone",
+      "street",
+      "you've",
+      "friend"
+     ],
+     "suggestion": "You've got a friend for life now! Amina knows everyone and everything on this street.",
+     "suggestionFa": "حالا یه دوست مادام‌العمر داری! آمینا همه کس و همه چیز این خیابون را می‌شناسه.",
+     "trustDelta": 5,
+     "next": "r18",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r18": {
+   "id": "r18",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -24,8 +24,8 @@
       "dripping",
       "bathroom",
       "driving",
-      "night",
-      "keeps"
+      "keeps",
+      "night"
      ],
      "suggestion": "Can you hear that drip, love? The bathroom tap keeps dripping all night. It's driving me mad!",
      "suggestionFa": "اون چکه را می‌شنوی عزیزم؟ شیر حموم تمام شب مدام چکه می‌کنه. داره دیوونه‌م می‌کنه!",
@@ -49,7 +49,7 @@
       "properly",
       "really",
       "won't",
-      "push",
+      "turn",
       "hard"
      ],
      "suggestion": "And the hot tap won't turn off properly. I have to push really hard.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "aren't",
       "george",
+      "aren't",
       "these",
       "hands",
-      "they"
+      "jobs"
      ],
      "suggestion": "George used to do all these jobs. But his hands aren't what they were.",
      "suggestionFa": "ویلیام قبلاً همهٔ این کارها را می‌کرد. ولی دستاش دیگه مثل قبل نیستن.",
@@ -99,8 +99,8 @@
       "disappearing",
       "teddy's",
       "nicola",
-      "keeps",
-      "takes"
+      "would",
+      "keeps"
      ],
      "suggestion": "Would you? You're a gem. Oh, and the bath plug keeps disappearing. I think Nicola takes it for her teddy's bath!",
      "suggestionFa": "واقعاً؟ تو جواهری. آه، و درپوش وان مدام گم میشه. فکر کنم نیکولا برای حموم خرسش برمی‌داره!",
@@ -123,8 +123,8 @@
      "keywords": [
       "thinking",
       "handyman",
-      "clever",
       "fair's",
+      "clever",
       "while"
      ],
      "suggestion": "Clever thinking. Right — while you're the handyman, I'll make the tea. Fair's fair!",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "ready",
-      "roast",
       "we're",
+      "roast",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -230,8 +230,8 @@
     },
     {
      "keywords": [
-      "she'll",
       "thanks",
+      "she'll",
       "share"
      ],
      "suggestion": "No thanks, she'll share with me.",
@@ -275,9 +275,9 @@
     {
      "keywords": [
       "please",
-      "could",
       "gravy",
-      "more"
+      "could",
+      "have"
      ],
      "suggestion": "Could we have some more gravy, please?",
      "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",
@@ -372,10 +372,10 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "custard",
-      "sticky",
-      "toffee"
+      "pudding",
+      "toffee",
+      "sticky"
      ],
      "suggestion": "Go on then, sticky toffee pudding with custard!",
      "suggestionFa": "باشه پس، پودینگ تافی با کاستارد!",
@@ -387,8 +387,8 @@
      "keywords": [
       "please",
       "we're",
-      "just",
-      "full"
+      "full",
+      "bill"
      ],
      "suggestion": "Just the bill, please. We're full.",
      "suggestionFa": "فقط صورت‌حساب، لطفاً. سیریم.",

@@ -1,0 +1,401 @@
+{
+ "id": "l1_u32_3",
+ "characterId": "ryan",
+ "title": "A bit more, please",
+ "titleFa": "یه کم بیشتر، لطفاً",
+ "setting": "Sizes and amounts · Level 1",
+ "settingFa": "اندازه‌ها و مقدارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum sent me for sweets for Nicola's party bags. You pick and mix them here!",
+   "translations": {
+    "fa": "مامان فرستادم برای کیسه‌های جشن نیکولا آبنبات بخرم. اینجا خودت قاطی می‌کنی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "pick",
+      "mix"
+     ],
+     "suggestion": "What's pick and mix?",
+     "suggestionFa": "پیک اند میکس چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "many",
+      "need",
+      "bags",
+      "how"
+     ],
+     "suggestion": "How many bags do we need?",
+     "suggestionFa": "چند تا کیسه لازم داریم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweets",
+     "fa": "آبنبات ؛ شیرینی"
+    },
+    {
+     "word": "party bags",
+     "fa": "کیسه‌های هدیه جشن"
+    },
+    {
+     "word": "pick",
+     "fa": "برداشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"sweets\", American \"candy\".",
+    "fa": "sweets/candy."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "You choose different sweets and they weigh them. We need ten bags.",
+   "translations": {
+    "fa": "آبنبات‌های مختلف انتخاب می‌کنی و وزنشون می‌کنن. ده تا کیسه لازمیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bags",
+      "ten",
+      "lot"
+     ],
+     "suggestion": "Ten bags is a lot!",
+     "suggestionFa": "ده تا کیسه زیاده!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "start",
+      "jelly",
+      "ones"
+     ],
+     "suggestion": "Let's start with the jelly ones.",
+     "suggestionFa": "با ژله‌ای‌ها شروع کنیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "different",
+     "fa": "مختلف"
+    },
+    {
+     "word": "weigh",
+     "fa": "وزن کردن"
+    },
+    {
+     "word": "jelly",
+     "fa": "ژله‌ای"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "Here's the scoop. That's two hundred grams. Do you want more?",
+   "translations": {
+    "fa": "اینم پیمانه. این دویست گرمه. بیشتر می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "bit"
+     ],
+     "suggestion": "A bit more, please.",
+     "suggestionFa": "یه کم بیشتر، لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "ten",
+      "lot"
+     ],
+     "suggestion": "A lot more! It's for ten children.",
+     "suggestionFa": "خیلی بیشتر! برای ده تا بچه‌ست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scoop",
+     "fa": "پیمانه ؛ ملاقه"
+    },
+    {
+     "word": "a bit",
+     "fa": "کمی"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "more bit please",
+      "a little bit of more"
+     ],
+     "echo": "A bit more? Here you are.",
+     "better": "A bit more, please.",
+     "betterFa": "یه کم بیشتر، لطفاً."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Not too many fizzy ones. Mum says they make kids go mad.",
+   "translations": {
+    "fa": "زیاد گازداری نه. مامان میگه بچه‌ها را دیوونه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweets",
+      "fewer",
+      "fizzy",
+      "ok"
+     ],
+     "suggestion": "OK, fewer fizzy sweets.",
+     "suggestionFa": "باشه، آبنبات گازدار کمتر.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chocolate",
+      "about"
+     ],
+     "suggestion": "What about chocolate?",
+     "suggestionFa": "شکلات چطور؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fizzy",
+     "fa": "گازدار ؛ ترش جوشان"
+    },
+    {
+     "word": "fewer",
+     "fa": "کمتر (قابل شمارش)"
+    },
+    {
+     "word": "mad",
+     "fa": "دیوانه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Chocolate melts in the bags. Less chocolate, more jelly.",
+   "translations": {
+    "fa": "شکلات تو کیسه‌ها آب میشه. شکلات کمتر، ژله‌ای بیشتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "less",
+      "got"
+     ],
+     "suggestion": "Less chocolate. Got it.",
+     "suggestionFa": "شکلات کمتر. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "snakes",
+      "jelly",
+      "then"
+     ],
+     "suggestion": "Jelly snakes, then!",
+     "suggestionFa": "پس مارهای ژله‌ای!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "melts",
+     "fa": "آب می‌شود"
+    },
+    {
+     "word": "less",
+     "fa": "کمتر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "That's six hundred grams now. Is that enough?",
+   "translations": {
+    "fa": "الان ششصد گرمه. کافیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enough",
+      "that's"
+     ],
+     "suggestion": "Yes, that's enough.",
+     "suggestionFa": "آره، کافیه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "sugar",
+      "less",
+      "lot"
+     ],
+     "suggestion": "Maybe a bit less. It's a lot of sugar!",
+     "suggestionFa": "شاید یه کم کمتر. خیلی شکره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "enough",
+     "fa": "کافی"
+    },
+    {
+     "word": "sugar",
+     "fa": "شکر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Ha, you sound like Mum. It's perfect. Sixty grams each bag.",
+   "translations": {
+    "fa": "ها، مثل مامان حرف می‌زنی. عالیه. هر کیسه شصت گرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is it?",
+     "suggestionFa": "چنده؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "each",
+      "half",
+      "pay",
+      "can"
+     ],
+     "suggestion": "Can we pay half each?",
+     "suggestionFa": "می‌تونیم نصف‌نصف بدیم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "perfect",
+     "fa": "عالی"
+    },
+    {
+     "word": "each",
+     "fa": "هر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "baker",
+   "text": "Six pounds, please. Have a fab party!",
+   "translations": {
+    "fa": "شش پوند، لطفاً. جشن خوبی داشته باشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you!",
+     "suggestionFa": "ممنون!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "money",
+      "gave",
+      "mum"
+     ],
+     "suggestion": "Mum gave me the money.",
+     "suggestionFa": "مامان پول را بهم داده.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fab",
+     "fa": "عالی (عامیانه)"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Sorted. Don't tell Nicola about the snakes. It's a surprise. And don't eat them on the way home!",
+   "translations": {
+    "fa": "تمومه. دربارهٔ مارها به نیکولا نگو. سورپرایزه. و تو راه خونه نخوریشون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

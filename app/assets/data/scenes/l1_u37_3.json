@@ -1,0 +1,374 @@
+{
+ "id": "l1_u37_3",
+ "characterId": "ryan",
+ "title": "Films and popcorn",
+ "titleFa": "فیلم و پاپ‌کورن",
+ "setting": "Rainy day · Level 1",
+ "settingFa": "روز بارانی",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "It's still raining. I'm bored. Why don't we watch a film?",
+   "translations": {
+    "fa": "هنوز داره بارون میاد. حوصله‌م سر رفته. چرا فیلم نبینیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "good",
+      "idea",
+      "film"
+     ],
+     "suggestion": "Good idea. Which film?",
+     "suggestionFa": "فکر خوبیه. کدوم فیلم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "board",
+      "about",
+      "game",
+      "how"
+     ],
+     "suggestion": "How about a board game?",
+     "suggestionFa": "یه بازی رومیزی چطوره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bored",
+     "fa": "بی‌حوصله"
+    },
+    {
+     "word": "film",
+     "fa": "فیلم"
+    },
+    {
+     "word": "board game",
+     "fa": "بازی رومیزی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"film\", American \"movie\". Both are understood.",
+    "fa": "film/movie."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Board games? Nicola cheats at everything! A film is better. How about an action film?",
+   "translations": {
+    "fa": "بازی رومیزی؟ نیکولا تو همه چی تقلب می‌کنه! فیلم بهتره. یه فیلم اکشن چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "action",
+      "films",
+      "like"
+     ],
+     "suggestion": "I like action films.",
+     "suggestionFa": "فیلم اکشن دوست دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "nicola's",
+      "here",
+      "kids"
+     ],
+     "suggestion": "Nicola's here. Something for kids?",
+     "suggestionFa": "نیکولا اینجاست. یه چیزی برای بچه‌ها؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheats",
+     "fa": "تقلب می‌کند"
+    },
+    {
+     "word": "action",
+     "fa": "اکشن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Ugh, you're right. Nicola wants Frozen. Again. Fiftieth time!",
+   "translations": {
+    "fa": "اوف، راست میگی. نیکولا فروزن می‌خواد. دوباره. پنجاهمین بار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paddington",
+      "watch",
+      "don't",
+      "why"
+     ],
+     "suggestion": "Why don't we watch Paddington?",
+     "suggestionFa": "چرا پدینگتون نبینیم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cartoon",
+      "about",
+      "how"
+     ],
+     "suggestion": "How about a cartoon?",
+     "suggestionFa": "یه کارتون چطوره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fiftieth",
+     "fa": "پنجاهمین"
+    },
+    {
+     "word": "cartoon",
+     "fa": "کارتون"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "why we don't watch",
+      "how about watch paddington"
+     ],
+     "echo": "How about watching Paddington? Yes!",
+     "better": "How about watching Paddington?",
+     "betterFa": "دیدن پدینگتون چطوره؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Paddington! Yes. Everyone likes Paddington. Even Dad cries at the end.",
+   "translations": {
+    "fa": "پدینگتون! آره. همه پدینگتون دوست دارن. حتی بابا آخرش گریه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "cries",
+      "tom"
+     ],
+     "suggestion": "Tom cries? Really?",
+     "suggestionFa": "تام گریه می‌کنه؟ واقعاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bear",
+      "love"
+     ],
+     "suggestion": "I love that bear.",
+     "suggestionFa": "عاشق اون خرسم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "even",
+     "fa": "حتی"
+    },
+    {
+     "word": "cries",
+     "fa": "گریه می‌کند"
+    },
+    {
+     "word": "bear",
+     "fa": "خرس"
+    }
+   ],
+   "cultureNote": {
+    "en": "Paddington Bear is a much-loved British character who loves marmalade sandwiches.",
+    "fa": "پدینگتون و ساندویچ مارمالاد."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Every time! Shall we make popcorn? Sweet or salty?",
+   "translations": {
+    "fa": "هر بار! پاپ‌کورن درست کنیم؟ شیرین یا شور؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "salty"
+     ],
+     "suggestion": "Salty, please.",
+     "suggestionFa": "شور، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "both",
+      "make",
+      "why"
+     ],
+     "suggestion": "Why don't we make both?",
+     "suggestionFa": "چرا هر دو را درست نکنیم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "popcorn",
+     "fa": "ذرت بوداده"
+    },
+    {
+     "word": "sweet",
+     "fa": "شیرین"
+    },
+    {
+     "word": "salty",
+     "fa": "شور"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Both! You're a genius. And let's get the duvet from upstairs. Duvet day!",
+   "translations": {
+    "fa": "هر دو! نابغه‌ای. و بیا لحاف را از بالا بیاریم. روز لحاف!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "duvet",
+      "day"
+     ],
+     "suggestion": "What's a duvet day?",
+     "suggestionFa": "روز لحاف یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cushions",
+      "i'll",
+      "get"
+     ],
+     "suggestion": "I'll get the cushions too.",
+     "suggestionFa": "کوسن‌ها را هم میارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "genius",
+     "fa": "نابغه"
+    },
+    {
+     "word": "duvet",
+     "fa": "لحاف"
+    },
+    {
+     "word": "cushions",
+     "fa": "کوسن‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"duvet day\" is a lazy day at home, cosy under a duvet.",
+    "fa": "روز تنبلی زیر لحاف."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Lazy day on the sofa, under a duvet. Best thing about rain! Nicola! Film time!",
+   "translations": {
+    "fa": "روز تنبلی رو مبل، زیر لحاف. بهترین چیز بارون! نیکولا! وقت فیلمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lights",
+      "turn",
+      "off"
+     ],
+     "suggestion": "Turn off the lights!",
+     "suggestionFa": "چراغ‌ها را خاموش کن!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "popcorn",
+      "got",
+      "has"
+     ],
+     "suggestion": "Has everyone got popcorn?",
+     "suggestionFa": "همه پاپ‌کورن دارن؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lazy",
+     "fa": "تنبل"
+    },
+    {
+     "word": "turn off",
+     "fa": "خاموش کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Lights off, popcorn ready, phones away. Wait — Mum said phones away? Fine. Press play!",
+   "translations": {
+    "fa": "چراغ‌ها خاموش، پاپ‌کورن آماده، گوشی‌ها کنار. صبر کن — مامان گفت گوشی‌ها کنار؟ باشه. پلی را بزن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

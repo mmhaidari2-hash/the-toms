@@ -1,0 +1,308 @@
+{
+ "id": "l1_u34_3",
+ "characterId": "tom",
+ "title": "Next to the bank",
+ "titleFa": "کنار بانک",
+ "setting": "Simple directions · Level 1",
+ "settingFa": "آدرس‌دادن ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "I'm on my break. Let's get a coffee. Do you know Mario's café?",
+   "translations": {
+    "fa": "تو استراحتم. بیا یه قهوه بخوریم. کافه ماریو را بلدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where"
+     ],
+     "suggestion": "No. Where is it?",
+     "suggestionFa": "نه. کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "station",
+      "near",
+      "bus"
+     ],
+     "suggestion": "Is it near the bus station?",
+     "suggestionFa": "نزدیک ایستگاه مرکزی اتوبوسه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "break",
+     "fa": "استراحت"
+    },
+    {
+     "word": "café",
+     "fa": "کافه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It's next to the bank. On the high street.",
+   "translations": {
+    "fa": "کنار بانکه. تو خیابون اصلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "next",
+      "see"
+     ],
+     "suggestion": "Next to the bank. I see it!",
+     "suggestionFa": "کنار بانک. می‌بینمش!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which"
+     ],
+     "suggestion": "Which bank?",
+     "suggestionFa": "کدوم بانک؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next to",
+     "fa": "کنار"
+    },
+    {
+     "word": "bank",
+     "fa": "بانک"
+    },
+    {
+     "word": "high street",
+     "fa": "خیابان اصلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"high street\", American \"main street\".",
+    "fa": "high street/main street."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The one where I go. Between the bank and the chemist. Little blue sign.",
+   "translations": {
+    "fa": "همونی که من میرم. بین بانک و داروخونه. یه تابلوی کوچیک آبی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "between",
+      "bank"
+     ],
+     "suggestion": "Between the bank and the chemist.",
+     "suggestionFa": "بین بانک و داروخانه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pharmacy"
+     ],
+     "suggestion": "Is the chemist the pharmacy?",
+     "suggestionFa": "کمیست همون داروخونه‌ست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "between",
+     "fa": "بین"
+    },
+    {
+     "word": "chemist",
+     "fa": "داروخانه"
+    },
+    {
+     "word": "sign",
+     "fa": "تابلو"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"chemist's\", American \"drugstore\". \"Pharmacy\" is used in both.",
+    "fa": "chemist/drugstore."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Yes, same thing. And the bakery is on the corner, opposite.",
+   "translations": {
+    "fa": "آره، یه چیزه. و نونوایی سر نبش، روبروشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "corner",
+      "got"
+     ],
+     "suggestion": "On the corner. Got it.",
+     "suggestionFa": "سر نبش. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "there",
+      "cake",
+      "get"
+     ],
+     "suggestion": "Shall we get a cake there too?",
+     "suggestionFa": "اونجا کیک هم بگیریم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "corner",
+     "fa": "گوشه ؛ نبش"
+    },
+    {
+     "word": "opposite",
+     "fa": "روبرو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "in the corner of street",
+      "at corner"
+     ],
+     "echo": "On the corner? That's right.",
+     "better": "The bakery is on the corner.",
+     "betterFa": "نونوایی سر نبشه."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "No cake! Leslie says I'm getting a belly. Look, there's Mario's! Under the blue sign.",
+   "translations": {
+    "fa": "کیک نه! لزلی میگه شکم آوردم. نگاه کن، کافه ماریو! زیر تابلوی آبی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "small"
+     ],
+     "suggestion": "It's very small.",
+     "suggestionFa": "خیلی کوچیکه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "inside",
+      "table",
+      "there"
+     ],
+     "suggestion": "Is there a table inside?",
+     "suggestionFa": "داخلش میز هست؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "belly",
+     "fa": "شکم"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Small but perfect. Sit by the window. Mario makes the best coffee in Hackney.",
+   "translations": {
+    "fa": "کوچیک ولی عالی. کنار پنجره بشین. ماریو بهترین قهوهٔ هکنی را درست می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "callum's",
+      "better",
+      "than"
+     ],
+     "suggestion": "Better than Callum's?",
+     "suggestionFa": "بهتر از مال کالوم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cappuccino",
+      "have",
+      "i'll"
+     ],
+     "suggestion": "I'll have a cappuccino.",
+     "suggestionFa": "من کاپوچینو می‌خورم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by the window",
+     "fa": "کنار پنجره"
+    },
+    {
+     "word": "best",
+     "fa": "بهترین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Shh! Don't tell Callum. He's Leslie's favourite. Two coffees, fifteen minutes, then back on the bus!",
+   "translations": {
+    "fa": "هیس! به کالوم نگو. محبوب لزلیه. دو تا قهوه، پونزده دقیقه، بعد برگشت به اتوبوس!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

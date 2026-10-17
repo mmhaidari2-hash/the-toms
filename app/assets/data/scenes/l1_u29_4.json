@@ -1,0 +1,409 @@
+{
+ "id": "l1_u29_4",
+ "characterId": "leslie",
+ "title": "Paying the bill",
+ "titleFa": "پرداخت صورت‌حساب",
+ "setting": "At the café · Level 1",
+ "settingFa": "در کافه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "That was a lovely lunch. Shall we ask for the bill?",
+   "translations": {
+    "fa": "ناهار قشنگی بود. صورت‌حساب را بخوایم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "excuse"
+     ],
+     "suggestion": "Yes. Excuse me!",
+     "suggestionFa": "آره. ببخشید!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "waitress",
+      "ask",
+      "let"
+     ],
+     "suggestion": "Let me ask the waitress.",
+     "suggestionFa": "بذار از گارسون بپرسم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bill",
+     "fa": "صورت‌حساب"
+    },
+    {
+     "word": "waitress",
+     "fa": "گارسون (زن)"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"the bill\", American \"the check\".",
+    "fa": "bill/check."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sophie",
+   "text": "Was everything OK for you today?",
+   "translations": {
+    "fa": "امروز همه چیز خوب بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "thank",
+      "was"
+     ],
+     "suggestion": "It was delicious, thank you.",
+     "suggestionFa": "خوشمزه بود، ممنون.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "please",
+      "bill",
+      "have"
+     ],
+     "suggestion": "Yes, lovely. Can we have the bill, please?",
+     "suggestionFa": "آره، عالی. می‌شه صورت‌حساب را بیارید، لطفاً؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everything",
+     "fa": "همه چیز"
+    },
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "give me bill",
+      "bring the bill me"
+     ],
+     "echo": "The bill? Of course.",
+     "better": "Can we have the bill, please?",
+     "betterFa": "می‌شه صورت‌حساب را بیارید؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sophie",
+   "text": "Of course. Here you are. It's thirty-two pounds altogether.",
+   "translations": {
+    "fa": "البته. بفرمایید. جمعاً سی و دو پونده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "split",
+      "shall",
+      "we"
+     ],
+     "suggestion": "Shall we split it?",
+     "suggestionFa": "نصف کنیم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "time",
+      "i'll",
+      "pay"
+     ],
+     "suggestion": "I'll pay this time.",
+     "suggestionFa": "این دفعه من حساب می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "جمعاً"
+    },
+    {
+     "word": "split",
+     "fa": "تقسیم کردن ؛ نصف کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Going Dutch\" or \"splitting the bill\" is very common among British friends.",
+    "fa": "تقسیم صورت‌حساب بین دوستان رایج است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Let's split it. Sixteen pounds each. Is service included?",
+   "translations": {
+    "fa": "بیا نصفش کنیم. نفری شونزده پوند. سرویس حساب شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "isn't",
+      "look",
+      "let"
+     ],
+     "suggestion": "Let me look… No, it isn't.",
+     "suggestionFa": "بذار ببینم… نه، نشده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "included",
+      "service",
+      "mean"
+     ],
+     "suggestion": "What does \"service included\" mean?",
+     "suggestionFa": "«سرویس حساب شده» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "each",
+     "fa": "هر نفر"
+    },
+    {
+     "word": "service",
+     "fa": "انعام ؛ سرویس"
+    },
+    {
+     "word": "included",
+     "fa": "شامل"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "It means a tip. In restaurants we usually leave ten percent.",
+   "translations": {
+    "fa": "یعنی انعام. تو رستوران معمولاً ده درصد می‌ذاریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "three",
+      "about"
+     ],
+     "suggestion": "So about three pounds?",
+     "suggestionFa": "پس حدود سه پوند؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leave",
+      "iran",
+      "tip",
+      "we"
+     ],
+     "suggestion": "In Iran we leave a tip too.",
+     "suggestionFa": "تو ایران هم انعام می‌دیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tip",
+     "fa": "انعام"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "percent",
+     "fa": "درصد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Tipping about 10–12.5% is normal in UK restaurants, but not usual in pubs or cafés at the counter.",
+    "fa": "انعام ۱۰ تا ۱۲.۵ درصد در رستوران."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Yes, about three. So eighteen each, with the tip. Can we pay by card?",
+   "translations": {
+    "fa": "آره، حدود سه. پس با انعام نفری هجده. می‌شه با کارت حساب کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "separately",
+      "can",
+      "pay",
+      "we"
+     ],
+     "suggestion": "Can we pay separately, please?",
+     "suggestionFa": "می‌شه جدا جدا حساب کنیم، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eighteen",
+      "pounds",
+      "cards",
+      "each"
+     ],
+     "suggestion": "Two cards, please. Eighteen pounds each.",
+     "suggestionFa": "دو تا کارت، لطفاً. هر کدوم هجده پوند.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "separately",
+     "fa": "جداگانه"
+    },
+    {
+     "word": "cards",
+     "fa": "کارت‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sophie",
+   "text": "No problem. Here's the card machine. Tap whenever you're ready.",
+   "translations": {
+    "fa": "مشکلی نیست. اینم کارت‌خوان. هر وقت آماده بودید کارت بکشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "done"
+     ],
+     "suggestion": "Thank you. Done.",
+     "suggestionFa": "ممنون. انجام شد.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "approved",
+      "says"
+     ],
+     "suggestion": "It says \"approved\".",
+     "suggestionFa": "نوشته «تأیید شد».",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card machine",
+     "fa": "دستگاه کارت‌خوان"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن کارت"
+    },
+    {
+     "word": "approved",
+     "fa": "تأیید شده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sophie",
+   "text": "Lovely. Thank you both, and have a great afternoon!",
+   "translations": {
+    "fa": "عالی. از هر دوتون ممنون، و بعدازظهر خوبی داشته باشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you! You too.",
+     "suggestionFa": "ممنون! همچنین.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "we'll",
+      "back",
+      "soon",
+      "come"
+     ],
+     "suggestion": "We'll come back soon!",
+     "suggestionFa": "به زودی برمی‌گردیم!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "afternoon",
+     "fa": "بعدازظهر"
+    },
+    {
+     "word": "come back",
+     "fa": "برگشتن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "That was fun. Next time, let's try the Turkish place on the high street. My treat!",
+   "translations": {
+    "fa": "خوش گذشت. دفعهٔ بعد، بیا رستوران ترکی خیابون اصلی را امتحان کنیم. مهمون من!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

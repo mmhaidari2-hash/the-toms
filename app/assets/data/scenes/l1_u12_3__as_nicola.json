@@ -1,0 +1,250 @@
+{
+ "id": "l1_u12_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Shapes in the kitchen",
+ "titleFa": "(در نقش Nicola) شکل‌ها در آشپزخانه",
+ "setting": "Colours and shapes · Level 1",
+ "settingFa": "رنگ‌ها و شکل‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u12_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kitchen",
+      "circle",
+      "let's",
+      "shape",
+      "game"
+     ],
+     "suggestion": "Let's play a game! Find a shape in the kitchen. I can see a circle!",
+     "suggestionFa": "بیا یه بازی کنیم! یه شکل تو آشپزخونه پیدا کن. من یه دایره می‌بینم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Where? I can't see it.",
+   "translations": {
+    "fa": "کجا؟ نمی‌بینمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circle",
+      "clock",
+      "find",
+      "one",
+      "now"
+     ],
+     "suggestion": "Yes! The clock is a circle. Now you find one.",
+     "suggestionFa": "آره! ساعت دایره‌ست. حالا تو یکی پیدا کن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "The window is a square.",
+   "translations": {
+    "fa": "پنجره مربعه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "triangle",
+      "sandwich",
+      "turn",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done! My turn. The sandwich is a triangle!",
+     "suggestionFa": "آفرین! نوبت من. ساندویچ مثلثه!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes! Two triangles.",
+   "translations": {
+    "fa": "آره! دو تا مثلث."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwich",
+      "ryan's",
+      "table",
+      "cross",
+      "shape"
+     ],
+     "suggestion": "No! It's Ryan's sandwich. He gets cross. What shape is the table?",
+     "suggestionFa": "نه! ساندویچ رایانه. عصبانی می‌شه. میز چه شکلیه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "The table is a rectangle.",
+   "translations": {
+    "fa": "میز مستطیله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rectangle",
+      "biscuits",
+      "that's",
+      "about",
+      "hard"
+     ],
+     "suggestion": "A rectangle! That's a hard word. What about the biscuits?",
+     "suggestionFa": "مستطیل! کلمهٔ سختیه. بیسکویت‌ها چی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "They're circles.",
+   "translations": {
+    "fa": "دایره‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "please",
+      "just",
+      "have",
+      "one"
+     ],
+     "suggestion": "Can I have a biscuit? Just one? Please?",
+     "suggestionFa": "می‌تونم یه بیسکویت بخورم؟ فقط یکی؟ لطفاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ask your mum first.",
+   "translations": {
+    "fa": "اول از مامانت بپرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "round",
+      "mummy",
+      "star",
+      "says",
+      "one"
+     ],
+     "suggestion": "Mummy says yes! A round one. Now, a star! Can you see a star?",
+     "suggestionFa": "مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "No. Is there a star in the kitchen?",
+   "translations": {
+    "fa": "نه. تو آشپزخونه ستاره هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reading",
+      "school",
+      "fridge",
+      "star",
+      "gold"
+     ],
+     "suggestion": "Yes! My gold star from school is on the fridge. I got it for reading.",
+     "suggestionFa": "آره! ستارهٔ طلایی مدرسه‌ام روی یخچاله. برای کتاب خوندن گرفتمش.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Well done, Nicola!",
+   "translations": {
+    "fa": "آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "thank",
+      "after",
+      "again",
+      "game"
+     ],
+     "suggestion": "Thank you! You're good at this game. Let's play again after tea!",
+     "suggestionFa": "ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

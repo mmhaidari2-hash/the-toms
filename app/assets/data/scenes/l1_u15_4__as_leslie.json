@@ -1,0 +1,346 @@
+{
+ "id": "l1_u15_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Tidy-up time",
+ "titleFa": "(در نقش Leslie) وقت مرتب کردن",
+ "setting": "Toys and games · Level 1",
+ "settingFa": "اسباب‌بازی‌ها و بازی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u15_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everybody",
+      "tidy",
+      "look",
+      "room",
+      "time"
+     ],
+     "suggestion": "OK, everybody! It's tidy-up time. Look at this room!",
+     "suggestionFa": "خب همگی! وقت مرتب کردنه. این اتاق را ببینید!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Wow, it's very messy!",
+   "translations": {
+    "fa": "وای، خیلی به‌هم‌ریخته‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "Do I have to? I'm tired!",
+   "translations": {
+    "fa": "باید؟ خسته‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have to",
+     "fa": "باید"
+    },
+    {
+     "word": "tired",
+     "fa": "خسته"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes. Let's do it together.",
+   "translations": {
+    "fa": "آره. بیا با هم انجامش بدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blocks",
+      "please",
+      "thank",
+      "big",
+      "put"
+     ],
+     "suggestion": "Thank you. Put the blocks in the big box, please.",
+     "suggestionFa": "ممنون. مکعب‌ها را بذار تو جعبهٔ بزرگ، لطفاً.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "All the blocks?",
+   "translations": {
+    "fa": "همهٔ مکعب‌ها؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "books",
+      "shelf",
+      "red",
+      "put"
+     ],
+     "suggestion": "Yes, the red box. Nicola, put your books on the shelf.",
+     "suggestionFa": "آره، جعبهٔ قرمز. نیکولا، کتاب‌هات را بذار رو قفسه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Nicola, the books go on the shelf.",
+   "translations": {
+    "fa": "نیکولا، کتاب‌ها می‌رن رو قفسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "Let's make it a race! Who can tidy fastest? Go!",
+   "translations": {
+    "fa": "بیا مسابقه‌اش کنیم! کی سریع‌تر مرتب می‌کنه؟ شروع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "race",
+     "fa": "مسابقه"
+    },
+    {
+     "word": "fastest",
+     "fa": "سریع‌ترین"
+    },
+    {
+     "word": "faster",
+     "fa": "سریع‌تر"
+    }
+   ],
+   "cultureNote": {
+    "en": "British children say \"Ready, steady, go!\"; Americans say \"Ready, set, go!\".",
+    "fa": "Ready, steady, go در بریتانیا."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ready, steady, go!",
+   "translations": {
+    "fa": "حاضر، آماده، برو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "teddy",
+      "go"
+     ],
+     "suggestion": "Where does the teddy go?",
+     "suggestionFa": "خرس عروسکی کجا می‌ره؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "On Nicola's bed.",
+   "translations": {
+    "fa": "روی تخت نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "pocket",
+      "please",
+      "pens",
+      "away"
+     ],
+     "suggestion": "On her bed, please. And put the pens away. Not in your pocket, Nicola!",
+     "suggestionFa": "روی تختش، لطفاً. و خودکارها را جمع کن. نه تو جیبت نیکولا!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Ha ha! Put them in the pot.",
+   "translations": {
+    "fa": "ها ها! بذارشون تو لیوان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "nicola",
+   "text": "Finished! I won! The room is clean!",
+   "translations": {
+    "fa": "تموم! من بردم! اتاق تمیزه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "won",
+     "fa": "برد"
+    },
+    {
+     "word": "clean",
+     "fa": "تمیز"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Well done, everybody!",
+   "translations": {
+    "fa": "آفرین به همه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "lollies",
+      "freezer",
+      "reward",
+      "thank"
+     ],
+     "suggestion": "Brilliant! Thank you both. Who wants a reward? Ice lollies from the freezer!",
+     "suggestionFa": "عالی! ممنون از هر دوتون. کی جایزه می‌خواد؟ بستنی یخی از فریزر!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "id": "l1_u15_1",
+ "characterId": "mia",
+ "title": "Sharing toys",
+ "titleFa": "به اشتراک گذاشتن اسباب‌بازی‌ها",
+ "setting": "Toys and games · Level 1",
+ "settingFa": "اسباب‌بازی‌ها و بازی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "mia",
+   "text": "That's my doll! Nicola has got my doll!",
+   "translations": {
+    "fa": "اون عروسک منه! نیکولا عروسکم را برداشته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "share",
+      "let's",
+      "girls",
+      "toys"
+     ],
+     "suggestion": "Let's share the toys, girls.",
+     "suggestionFa": "دخترا، بیاید اسباب‌بازی‌ها را با هم استفاده کنیم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "have",
+      "doll",
+      "her"
+     ],
+     "suggestion": "Nicola, can Mia have her doll?",
+     "suggestionFa": "نیکولا، می‌شه میا عروسکش را داشته باشه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doll",
+     "fa": "عروسک"
+    },
+    {
+     "word": "share",
+     "fa": "به اشتراک گذاشتن"
+    },
+    {
+     "word": "toys",
+     "fa": "اسباب‌بازی‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "But I want to play with it! Mia has got lots of dolls.",
+   "translations": {
+    "fa": "ولی من می‌خوام باهاش بازی کنم! میا کلی عروسک داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turns",
+      "take",
+      "can"
+     ],
+     "suggestion": "You can take turns.",
+     "suggestionFa": "می‌تونید نوبتی بازی کنید.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "then",
+      "mia"
+     ],
+     "suggestion": "First Mia, then you.",
+     "suggestionFa": "اول میا، بعد تو.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take turns",
+     "fa": "نوبتی انجام دادن"
+    },
+    {
+     "word": "lots of",
+     "fa": "خیلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Taking turns\" and \"sharing nicely\" are big lessons in British nurseries and schools.",
+    "fa": "نوبت و اشتراک در مهدکودک‌ها مهم است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "mia",
+   "text": "OK. Five minutes for me, then five minutes for Nicola. Can you count?",
+   "translations": {
+    "fa": "باشه. پنج دقیقه برای من، بعد پنج دقیقه برای نیکولا. می‌تونی بشمری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "timer",
+      "phone",
+      "i've",
+      "got"
+     ],
+     "suggestion": "Yes. I've got a timer on my phone.",
+     "suggestionFa": "آره. رو گوشیم تایمر دارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "five",
+      "ok",
+      "go"
+     ],
+     "suggestion": "OK. Five minutes. Go!",
+     "suggestionFa": "باشه. پنج دقیقه. شروع!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "timer",
+     "fa": "زمان‌سنج"
+    },
+    {
+     "word": "phone",
+     "fa": "گوشی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "What can I play with now? I'm bored.",
+   "translations": {
+    "fa": "حالا با چی بازی کنم؟ حوصله‌ام سر رفته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "teddy",
+      "bear"
+     ],
+     "suggestion": "What about the teddy bear?",
+     "suggestionFa": "خرس عروسکی چطوره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "blocks",
+      "tower",
+      "let's",
+      "build"
+     ],
+     "suggestion": "Let's build a tower with the blocks.",
+     "suggestionFa": "بیا با مکعب‌ها یه برج بسازیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bored",
+     "fa": "بی‌حوصله"
+    },
+    {
+     "word": "teddy bear",
+     "fa": "خرس عروسکی"
+    },
+    {
+     "word": "blocks",
+     "fa": "مکعب‌ها"
+    },
+    {
+     "word": "tower",
+     "fa": "برج"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "A tower! A very tall tower! You put a red block on top.",
+   "translations": {
+    "fa": "یه برج! یه برج خیلی بلند! تو یه مکعب قرمز بذار بالاش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tall",
+      "now"
+     ],
+     "suggestion": "It's very tall now!",
+     "suggestionFa": "حالا خیلی بلنده!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tall",
+     "fa": "بلند"
+    },
+    {
+     "word": "on top",
+     "fa": "بالای"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "mia",
+   "text": "Can I play too? I can put the yellow one on.",
+   "translations": {
+    "fa": "منم می‌تونم بازی کنم؟ من می‌تونم زرده را بذارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "course"
+     ],
+     "suggestion": "Of course! Careful!",
+     "suggestionFa": "البته! مواظب باش!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "turn",
+      "mia"
+     ],
+     "suggestion": "Yes, it's your turn, Mia.",
+     "suggestionFa": "آره، نوبت توئه میا.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    },
+    {
+     "word": "your turn",
+     "fa": "نوبت تو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is your turn",
+      "it your turn"
+     ],
+     "echo": "Your turn? Yes, it's Mia's turn!",
+     "better": "It's your turn.",
+     "betterFa": "نوبت توئه."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "mia",
+   "text": "Oh no! It fell down! Sorry!",
+   "translations": {
+    "fa": "وای نه! افتاد! ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "again",
+      "let's",
+      "build",
+      "never"
+     ],
+     "suggestion": "Never mind! Let's build it again.",
+     "suggestionFa": "عیب نداره! بیاید دوباره بسازیمش.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "was",
+      "fun",
+      "ok"
+     ],
+     "suggestion": "That's OK. It was fun!",
+     "suggestionFa": "اشکال نداره. خوش گذشت!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fell down",
+     "fa": "افتاد"
+    },
+    {
+     "word": "fun",
+     "fa": "سرگرم‌کننده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Ding! Five minutes! It's my turn with the doll now!",
+   "translations": {
+    "fa": "دینگ! پنج دقیقه! حالا نوبت منه با عروسک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "have",
+      "doll",
+      "mia",
+      "now"
+     ],
+     "suggestion": "Mia, can Nicola have the doll now?",
+     "suggestionFa": "میا، الان نیکولا می‌تونه عروسک را برداره؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "waiting",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done for waiting, Nicola.",
+     "suggestionFa": "آفرین که صبر کردی نیکولا.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waiting",
+     "fa": "صبر کردن"
+    },
+    {
+     "word": "now",
+     "fa": "حالا"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "mia",
+   "text": "Here you are, Nicola. You can brush her hair. I'll play with the teddy bear. Sharing is nice!",
+   "translations": {
+    "fa": "بیا نیکولا. می‌تونی موهاش را شونه کنی. من با خرس عروسکی بازی می‌کنم. شریک شدن خوبه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

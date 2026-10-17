@@ -1,0 +1,392 @@
+{
+ "id": "l1_u20_4",
+ "characterId": "nicola",
+ "title": "When I grow up",
+ "titleFa": "وقتی بزرگ شدم",
+ "setting": "Family jobs · Level 1",
+ "settingFa": "شغل‌های خانواده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "When I grow up, I want to be a vet! Mia wants to be an astronaut!",
+   "translations": {
+    "fa": "وقتی بزرگ شدم، می‌خوام دامپزشک بشم! میا می‌خواد فضانورد بشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "why",
+      "vet"
+     ],
+     "suggestion": "A vet? Why?",
+     "suggestionFa": "دامپزشک؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "astronaut",
+      "exciting",
+      "that's"
+     ],
+     "suggestion": "An astronaut! That's exciting!",
+     "suggestionFa": "فضانورد! هیجان‌انگیزه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grow up",
+     "fa": "بزرگ شدن"
+    },
+    {
+     "word": "vet",
+     "fa": "دامپزشک"
+    },
+    {
+     "word": "astronaut",
+     "fa": "فضانورد"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"vet\" is short for \"veterinary surgeon\"; Americans also say \"veterinarian\".",
+    "fa": "vet مخفف veterinary surgeon."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Because I love animals. I want to help poorly dogs and cats.",
+   "translations": {
+    "fa": "چون عاشق حیوون‌هام. می‌خوام به سگ و گربه‌های مریض کمک کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "you'll",
+      "great",
+      "vet"
+     ],
+     "suggestion": "You'll be a great vet.",
+     "suggestionFa": "دامپزشک خیلی خوبی میشی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "horses",
+      "about"
+     ],
+     "suggestion": "What about horses?",
+     "suggestionFa": "اسب‌ها چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "because",
+     "fa": "چون"
+    },
+    {
+     "word": "poorly",
+     "fa": "مریض"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "mia",
+   "text": "I want to go to the moon. And Mars! What did you want to be?",
+   "translations": {
+    "fa": "من می‌خوام برم ماه. و مریخ! تو می‌خواستی چی بشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pilot"
+     ],
+     "suggestion": "I wanted to be a pilot.",
+     "suggestionFa": "می‌خواستم خلبان بشم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "footballer"
+     ],
+     "suggestion": "I wanted to be a footballer!",
+     "suggestionFa": "می‌خواستم فوتبالیست بشم!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moon",
+     "fa": "ماه"
+    },
+    {
+     "word": "Mars",
+     "fa": "مریخ"
+    },
+    {
+     "word": "pilot",
+     "fa": "خلبان"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i want be a pilot",
+      "i wanted be pilot"
+     ],
+     "echo": "You wanted to be a pilot? Cool!",
+     "better": "I wanted to be a pilot.",
+     "betterFa": "می‌خواستم خلبان بشم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "A pilot! Can you fly a plane?",
+   "translations": {
+    "fa": "خلبان! می‌تونی هواپیما برونی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "can't"
+     ],
+     "suggestion": "No, I can't!",
+     "suggestionFa": "نه، نمی‌تونم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "computer",
+      "games",
+      "only"
+     ],
+     "suggestion": "Only in computer games.",
+     "suggestionFa": "فقط تو بازی‌های کامپیوتری.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fly",
+     "fa": "پرواز کردن ؛ راندن هواپیما"
+    },
+    {
+     "word": "plane",
+     "fa": "هواپیما"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "mia",
+   "text": "My daddy is a nurse. He works at night at the hospital.",
+   "translations": {
+    "fa": "بابای من پرستاره. شب‌ها تو بیمارستان کار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "important",
+      "nurses"
+     ],
+     "suggestion": "Nurses are very important.",
+     "suggestionFa": "پرستارها خیلی مهمن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "work",
+      "hard"
+     ],
+     "suggestion": "That's hard work.",
+     "suggestionFa": "کار سختیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    },
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    },
+    {
+     "word": "important",
+     "fa": "مهم"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain both men and women are nurses; \"nurse\" is for everyone.",
+    "fa": "پرستار برای زن و مرد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Ryan wants to be a… what is it? He fixes computers.",
+   "translations": {
+    "fa": "رایان می‌خواد … چی بود؟ کامپیوتر درست می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "technician"
+     ],
+     "suggestion": "An IT technician?",
+     "suggestionFa": "تکنسین فناوری اطلاعات؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "computer",
+      "engineer"
+     ],
+     "suggestion": "A computer engineer?",
+     "suggestionFa": "مهندس کامپیوتر؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fixes",
+     "fa": "تعمیر می‌کند"
+    },
+    {
+     "word": "computers",
+     "fa": "کامپیوترها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Yes! And William wants to be a dinosaur!",
+   "translations": {
+    "fa": "آره! و ویلیام می‌خواد دایناسور بشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaur",
+      "isn't",
+      "ha"
+     ],
+     "suggestion": "Ha ha! A dinosaur isn't a job!",
+     "suggestionFa": "ها ها! دایناسور شغل نیست!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "great",
+      "rawr"
+     ],
+     "suggestion": "Rawr! Great job!",
+     "suggestionFa": "غرررر! شغل خوبیه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "mia",
+   "text": "Let's play jobs! I'm the astronaut, Nicola is the vet, and you're the pilot!",
+   "translations": {
+    "fa": "بیا شغل بازی کنیم! من فضانوردم، نیکولا دامپزشکه، و تو خلبانی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "welcome",
+      "aboard",
+      "ok"
+     ],
+     "suggestion": "OK! Welcome aboard!",
+     "suggestionFa": "باشه! خوش اومدید!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "seatbelts",
+      "fasten"
+     ],
+     "suggestion": "Fasten your seatbelts!",
+     "suggestionFa": "کمربندهاتون را ببندید!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "aboard",
+     "fa": "سوار"
+    },
+    {
+     "word": "fasten",
+     "fa": "بستن"
+    },
+    {
+     "word": "seatbelts",
+     "fa": "کمربندها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Captain, can we fly to the moon? And can my dog come? He's poorly!",
+   "translations": {
+    "fa": "کاپیتان، می‌شه پرواز کنیم بریم ماه؟ و سگم هم بیاد؟ مریضه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

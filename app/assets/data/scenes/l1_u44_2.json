@@ -1,0 +1,356 @@
+{
+ "id": "l1_u44_2",
+ "characterId": "baker",
+ "title": "How much is it?",
+ "titleFa": "چند است؟",
+ "setting": "Numbers and money · Level 1",
+ "settingFa": "عددها و پول",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Good morning! Busy day. What can I get you?",
+   "translations": {
+    "fa": "صبح بخیر! روز شلوغیه. چی بدم خدمتتون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "apple",
+      "pie"
+     ],
+     "suggestion": "How much is the apple pie?",
+     "suggestionFa": "پای سیب چنده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doughnuts"
+     ],
+     "suggestion": "How much are the doughnuts?",
+     "suggestionFa": "دونات‌ها چندن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how much",
+     "fa": "چند ؛ چقدر"
+    },
+    {
+     "word": "apple pie",
+     "fa": "پای سیب"
+    },
+    {
+     "word": "doughnuts",
+     "fa": "دونات‌ها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how much is the doughnuts",
+      "how many is doughnuts"
+     ],
+     "echo": "How much are the doughnuts? Ninety p each!",
+     "better": "How much are the doughnuts?",
+     "betterFa": "دونات‌ها چندن؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "The apple pie is five pounds fifty. The doughnuts are ninety p each.",
+   "translations": {
+    "fa": "پای سیب پنج پوند و پنجاهه. دونات‌ها هر کدوم نود پی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ninety",
+      "that's",
+      "cheap",
+      "each"
+     ],
+     "suggestion": "Ninety p each. That's cheap.",
+     "suggestionFa": "هر کدوم نود پی. ارزونه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "much",
+      "how",
+      "cup",
+      "tea"
+     ],
+     "suggestion": "And how much is a cup of tea?",
+     "suggestionFa": "و یه فنجون چای چنده؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "each",
+     "fa": "هر کدام"
+    },
+    {
+     "word": "cheap",
+     "fa": "ارزان"
+    },
+    {
+     "word": "cup",
+     "fa": "فنجان"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "Tea is one pound twenty. Coffee is two pounds forty.",
+   "translations": {
+    "fa": "چای یک پوند و بیست. قهوه دو پوند و چهل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "pound",
+      "one"
+     ],
+     "suggestion": "One pound twenty.",
+     "suggestionFa": "یک پوند و بیست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "double",
+      "coffee",
+      "price"
+     ],
+     "suggestion": "Coffee is double the price!",
+     "suggestionFa": "قهوه دو برابر قیمته!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "double",
+     "fa": "دو برابر"
+    },
+    {
+     "word": "price",
+     "fa": "قیمت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Prices are said simply: \"£1.20\" is \"one pound twenty\" or \"one twenty\".",
+    "fa": "خواندن قیمت."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "Ha, good maths! Coffee beans are expensive. And sausage rolls are on offer: three for two pounds.",
+   "translations": {
+    "fa": "ها، ریاضیت خوبه! دونهٔ قهوه گرونه. و سوسیس‌رول‌ها حراجن: سه تا دو پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sausage",
+      "what's",
+      "roll"
+     ],
+     "suggestion": "What's a sausage roll?",
+     "suggestionFa": "سوسیس‌رول چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "three"
+     ],
+     "suggestion": "Three, please!",
+     "suggestionFa": "سه تا، لطفاً!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on offer",
+     "fa": "حراج ؛ تخفیف‌دار"
+    },
+    {
+     "word": "sausage roll",
+     "fa": "سوسیس در خمیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "A sausage roll is sausage meat in pastry. Most bakeries also sell vegetarian ones.",
+    "fa": "سوسیس‌رول."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Sausage meat in pastry. We do vegan ones too. How many would you like?",
+   "translations": {
+    "fa": "گوشت سوسیس تو خمیر. وگان هم داریم. چند تا می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "vegan",
+      "ones",
+      "two"
+     ],
+     "suggestion": "Two vegan ones, please.",
+     "suggestionFa": "دو تا وگان، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "much",
+      "how"
+     ],
+     "suggestion": "Three. How much is that?",
+     "suggestionFa": "سه تا. چقدر میشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pastry",
+     "fa": "خمیر شیرینی ؛ پیراشکی"
+    },
+    {
+     "word": "vegan",
+     "fa": "وگان"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "The offer is any three for two pounds. Mix and match!",
+   "translations": {
+    "fa": "تخفیف برای هر سه تایی دو پونده. قاطی هم میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "three",
+      "then",
+      "tea"
+     ],
+     "suggestion": "Then three, please. And a tea.",
+     "suggestionFa": "پس سه تا، لطفاً. و یه چای.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "altogether",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is it altogether?",
+     "suggestionFa": "جمعاً چقدر میشه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "any",
+     "fa": "هر"
+    },
+    {
+     "word": "mix and match",
+     "fa": "ترکیب دلخواه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Three sausage rolls and a tea. That's three pounds twenty, please.",
+   "translations": {
+    "fa": "سه تا سوسیس‌رول و یه چای. میشه سه پوند و بیست، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "pounds",
+      "here's",
+      "three"
+     ],
+     "suggestion": "Here's three pounds twenty.",
+     "suggestionFa": "بفرما سه پوند و بیست.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "card",
+      "can",
+      "pay",
+      "by"
+     ],
+     "suggestion": "Can I pay by card?",
+     "suggestionFa": "می‌تونم با کارت پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "جمعاً"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "baker",
+   "text": "Perfect. Thank you! The sausage rolls are hot, so be careful. Enjoy!",
+   "translations": {
+    "fa": "عالی. ممنون! سوسیس‌رول‌ها داغن، پس مواظب باشید. نوش جان!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

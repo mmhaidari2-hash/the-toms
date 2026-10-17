@@ -1,0 +1,244 @@
+{
+ "id": "l1_u26_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) The playground",
+ "titleFa": "(در نقش Nicola) زمین بازی",
+ "setting": "Out for a walk · Level 1",
+ "settingFa": "پیاده‌روی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u26_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playground",
+      "please",
+      "swing",
+      "come",
+      "push"
+     ],
+     "suggestion": "The playground! Come on! Push me on the swing, please!",
+     "suggestionFa": "زمین بازی! بیا! هلم بده روی تاب، لطفاً!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "OK. Hold on tight!",
+   "translations": {
+    "fa": "باشه. محکم بگیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "higher",
+      "flying"
+     ],
+     "suggestion": "Higher! Higher! I'm flying!",
+     "suggestionFa": "بالاتر! بالاتر! دارم پرواز می‌کنم!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Not too high!",
+   "translations": {
+    "fa": "نه خیلی بالا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ladder",
+      "going",
+      "wheee",
+      "slide",
+      "watch"
+     ],
+     "suggestion": "Now the slide! Watch me. I'm going up the ladder… and down the slide! Wheee!",
+     "suggestionFa": "حالا سرسره! منو ببین. دارم از نردبون می‌رم بالا… و از سرسره می‌آم پایین! وییی!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Brilliant!",
+   "translations": {
+    "fa": "عالی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slide",
+      "now",
+      "go"
+     ],
+     "suggestion": "Now you go on the slide! Go on!",
+     "suggestionFa": "حالا تو برو رو سرسره! برو دیگه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'm too big!",
+   "translations": {
+    "fa": "خیلی بزرگم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stuck",
+      "got",
+      "big",
+      "ha"
+     ],
+     "suggestion": "Ha ha ha! You got stuck! You're too big!",
+     "suggestionFa": "ها ها ها! گیر کردی! خیلی بزرگی!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Help! Pull me out!",
+   "translations": {
+    "fa": "کمک! منو بکش بیرون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "through",
+      "tunnel",
+      "let's",
+      "crawl",
+      "can"
+     ],
+     "suggestion": "Now let's go through the tunnel. Can you crawl?",
+     "suggestionFa": "حالا بیا از تونل رد بشیم. می‌تونی چهار دست و پا بری؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Through the tunnel? I'll try.",
+   "translations": {
+    "fa": "از تونل؟ امتحان می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "climbing",
+      "bridge",
+      "follow",
+      "frame",
+      "onto"
+     ],
+     "suggestion": "Then over the bridge and onto the climbing frame! Follow me!",
+     "suggestionFa": "بعد از روی پل و رو داربست بازی! دنبالم بیا!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Wait for me!",
+   "translations": {
+    "fa": "صبر کن منم بیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rascal",
+      "castle",
+      "dirty",
+      "queen",
+      "top"
+     ],
+     "suggestion": "I'm at the top! I'm the queen of the castle! You're the dirty rascal!",
+     "suggestionFa": "من بالام! من ملکهٔ قلعه‌ام! تو بچه‌شیطونِ کثیفی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Ha ha! What does that mean?",
+   "translations": {
+    "fa": "ها ها! یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "roundabout",
+      "cream",
+      "game",
+      "spin",
+      "then"
+     ],
+     "suggestion": "It's a game! Now the roundabout. You push, I spin. Then ice cream!",
+     "suggestionFa": "یه بازیه! حالا چرخ‌وفلک. تو هل بده، من می‌چرخم. بعد بستنی!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

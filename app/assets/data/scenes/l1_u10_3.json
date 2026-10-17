@@ -12,9 +12,9 @@
   "n1": {
    "id": "n1",
    "speaker": "nicola",
-   "text": "It's my birthday! I'm seven today! Seven!",
+   "text": "It's my birthday! I'm six today! Six!",
    "translations": {
-    "fa": "تولدمه! امروز هفت سالم شد! هفت!"
+    "fa": "تولدمه! امروز شش سالم شد! شش!"
    },
    "branches": [
     {
@@ -31,13 +31,13 @@
     },
     {
      "keywords": [
-      "seven",
-      "big",
+      "six",
+      "now",
       "wow",
-      "now"
+      "big"
      ],
-     "suggestion": "Wow, seven! You're so big now!",
-     "suggestionFa": "وای، هفت! حالا خیلی بزرگ شدی!",
+     "suggestion": "Wow, six! You're so big now!",
+     "suggestionFa": "وای، شش! حالا خیلی بزرگ شدی!",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -53,8 +53,8 @@
      "fa": "تولدت مبارک"
     },
     {
-     "word": "seven",
-     "fa": "هفت"
+     "word": "six",
+     "fa": "شش"
     }
    ]
   },
@@ -119,9 +119,9 @@
   "n3": {
    "id": "n3",
    "speaker": "nicola",
-   "text": "Look at my cake! It's a unicorn! And there are seven candles.",
+   "text": "Look at my cake! It's a unicorn! And there are six candles.",
    "translations": {
-    "fa": "کیکم را ببین! تکشاخه! و هفت‌تا شمع داره."
+    "fa": "کیکم را ببین! تکشاخه! و شش‌تا شمع داره."
    },
    "branches": [
     {
@@ -137,10 +137,10 @@
     },
     {
      "keywords": [
-      "make",
       "wish",
+      "then",
       "blow",
-      "then"
+      "make"
      ],
      "suggestion": "Make a wish, then blow!",
      "suggestionFa": "آرزو کن، بعد فوت کن!",
@@ -183,9 +183,9 @@
     {
      "keywords": [
       "secret",
+      "good",
       "keep",
-      "idea",
-      "good"
+      "idea"
      ],
      "suggestion": "Good idea. Keep it secret!",
      "suggestionFa": "فکر خوبیه. رازش را نگه دار!",
@@ -272,8 +272,8 @@
    "branches": [
     {
      "keywords": [
-      "like",
-      "glad"
+      "glad",
+      "like"
      ],
      "suggestion": "I'm glad you like it.",
      "suggestionFa": "خوشحالم که دوستش داری.",

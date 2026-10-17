@@ -22,8 +22,8 @@
     {
      "keywords": [
       "morning",
-      "watch",
       "can't",
+      "watch",
       "find",
       "time"
      ],
@@ -50,7 +50,7 @@
       "train",
       "eight",
       "late",
-      "half"
+      "past"
      ],
      "suggestion": "Half past? I'm late! My train is at quarter to eight.",
      "suggestionFa": "هفت و نیم؟ دیرم شده! قطارم یک‌ربع به هشته.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "table",
-      "quick",
       "where",
+      "quick",
+      "table",
       "keys",
       "they"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "finish",
+      "thanks",
       "today",
       "time",
       "them"
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "shepherd's",
-      "lovely",
-      "making",
       "nana's",
+      "making",
+      "lovely",
       "don't"
      ],
      "suggestion": "Lovely. Tea is at six, then. Don't be late — Nana's making shepherd's pie!",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "right",
-      "see",
       "six",
       "bye",
+      "see",
       "off"
      ],
      "suggestion": "Right, I'm off. See you at six! Bye!",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "cheers",
       "time's",
-      "clock",
+      "cheers",
       "silly",
+      "clock",
       "oven"
      ],
      "suggestion": "Oh — the time's on the oven clock! Silly me. Cheers!",

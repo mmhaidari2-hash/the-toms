@@ -81,8 +81,8 @@
      "keywords": [
       "everyone",
       "stalls",
-      "again",
-      "worry"
+      "first",
+      "again"
      ],
      "suggestion": "Don't worry, Ryan — everyone stalls at first. Try again.",
      "suggestionFa": "نگران نباش رایان — همه اولش ماشین را خاموش می‌کنن. دوباره امتحان کن.",
@@ -134,9 +134,9 @@
     {
      "keywords": [
       "right",
-      "hand",
       "road",
-      "side"
+      "side",
+      "hand"
      ],
      "suggestion": "Yes, but on the right-hand side of the road!",
      "suggestionFa": "آره، ولی سمت راست جاده!",
@@ -232,7 +232,7 @@
      "keywords": [
       "parallel",
       "parking",
-      "ryan",
+      "good",
       "luck"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
@@ -348,7 +348,7 @@
       "theory",
       "first",
       "needs",
-      "pass"
+      "test"
      ],
      "suggestion": "He needs to pass the theory test first.",
      "suggestionFa": "اول باید امتحان تئوری را قبول بشه.",
@@ -383,8 +383,8 @@
     {
      "keywords": [
       "great",
-      "tom",
       "did",
+      "tom",
       "ha"
      ],
      "suggestion": "Ha! You did great too, Tom.",
@@ -395,10 +395,10 @@
     },
     {
      "keywords": [
-      "well",
-      "ryan",
-      "week",
-      "next"
+      "same",
+      "done",
+      "time",
+      "well"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

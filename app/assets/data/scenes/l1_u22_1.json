@@ -1,0 +1,416 @@
+{
+ "id": "l1_u22_1",
+ "characterId": "nicola",
+ "title": "My birthday month",
+ "titleFa": "ماه تولدم",
+ "setting": "Months and seasons · Level 1",
+ "settingFa": "ماه‌ها و فصل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "My birthday is in July! It's in the summer. When's your birthday?",
+   "translations": {
+    "fa": "تولد من تو جولایه! تو تابستونه. تولد تو کِیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "may"
+     ],
+     "suggestion": "My birthday is in May.",
+     "suggestionFa": "تولد من تو مه‌ست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "december",
+      "winter"
+     ],
+     "suggestion": "It's in December. In the winter.",
+     "suggestionFa": "تو دسامبره. تو زمستون.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "birthday",
+     "fa": "تولد"
+    },
+    {
+     "word": "July",
+     "fa": "ژوئیه"
+    },
+    {
+     "word": "summer",
+     "fa": "تابستان"
+    },
+    {
+     "word": "winter",
+     "fa": "زمستان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Months take \"in\" (in May); dates take \"on\" (on the fifth of May).",
+    "fa": "ماه با in، تاریخ با on."
+   },
+   "recasts": [
+    {
+     "match": [
+      "my birthday is on may",
+      "my birthday in may"
+     ],
+     "echo": "In May? That's spring!",
+     "better": "My birthday is in May.",
+     "betterFa": "تولدم تو مه‌ست."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "May is in the spring! Spring has flowers and baby lambs.",
+   "translations": {
+    "fa": "مه تو بهاره! بهار گل و بره‌های کوچولو داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Do you like spring?",
+     "suggestionFa": "بهار دوست داری؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "year",
+      "iran",
+      "new",
+      "our"
+     ],
+     "suggestion": "In Iran, spring is our new year!",
+     "suggestionFa": "تو ایران، بهار سال نوی ماست!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spring",
+     "fa": "بهار"
+    },
+    {
+     "word": "flowers",
+     "fa": "گل‌ها"
+    },
+    {
+     "word": "lambs",
+     "fa": "بره‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "New year in spring? Our new year is in January. It's cold and dark!",
+   "translations": {
+    "fa": "سال نو تو بهار؟ سال نوی ما تو ژانویه‌ست. سرد و تاریکه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "called",
+      "nowruz",
+      "our"
+     ],
+     "suggestion": "Our new year is called Nowruz.",
+     "suggestionFa": "سال نوی ما اسمش نوروزه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spring",
+      "nice",
+      "time"
+     ],
+     "suggestion": "Spring is a nice time for a new year.",
+     "suggestionFa": "بهار وقت خوبی برای سال نوئه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "new year",
+     "fa": "سال نو"
+    },
+    {
+     "word": "January",
+     "fa": "ژانویه"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ],
+   "cultureNote": {
+    "en": "Nowruz, the Persian New Year, falls on the spring equinox, around the 20th or 21st of March.",
+    "fa": "نوروز حدود ۲۰ یا ۲۱ مارس است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Nowruz! What do you do at Nowruz?",
+   "translations": {
+    "fa": "نوروز! تو نوروز چی کار می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "special",
+      "family",
+      "visit",
+      "food"
+     ],
+     "suggestion": "We visit family and eat special food.",
+     "suggestionFa": "به خانواده سر می‌زنیم و غذای مخصوص می‌خوریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "things",
+      "table",
+      "seven",
+      "put"
+     ],
+     "suggestion": "We put seven things on a table.",
+     "suggestionFa": "هفت تا چیز رو یه سفره می‌ذاریم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "special",
+     "fa": "مخصوص"
+    },
+    {
+     "word": "seven",
+     "fa": "هفت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Seven things! Can we do that here? I want a Nowruz table!",
+   "translations": {
+    "fa": "هفت تا چیز! می‌شه اینجا هم این کار را بکنیم؟ یه سفرهٔ نوروزی می‌خوام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "march"
+     ],
+     "suggestion": "Yes! In March.",
+     "suggestionFa": "آره! تو مارس.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "help",
+      "can"
+     ],
+     "suggestion": "Of course. You can help me.",
+     "suggestionFa": "البته. می‌تونی کمکم کنی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "table",
+     "fa": "میز/سفره"
+    },
+    {
+     "word": "March",
+     "fa": "مارس"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Yay! What month is it now?",
+   "translations": {
+    "fa": "هورا! الان چه ماهیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "think"
+     ],
+     "suggestion": "October, I think.",
+     "suggestionFa": "فکر کنم اکتبر.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "autumn",
+      "now"
+     ],
+     "suggestion": "Now it's October. It's autumn.",
+     "suggestionFa": "الان اکتبره. پاییزه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "month",
+     "fa": "ماه"
+    },
+    {
+     "word": "October",
+     "fa": "اکتبر"
+    },
+    {
+     "word": "autumn",
+     "fa": "پاییز"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"autumn\", American \"fall\".",
+    "fa": "autumn/fall."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Autumn! The leaves are orange and brown. Look! Let's jump in the leaves!",
+   "translations": {
+    "fa": "پاییز! برگ‌ها نارنجی و قهوه‌ای‌ان. ببین! بیا بپریم تو برگ‌ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "jump",
+      "two",
+      "one"
+     ],
+     "suggestion": "One, two, three, jump!",
+     "suggestionFa": "یک، دو، سه، بپر!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crunchy",
+      "leaves",
+      "wow"
+     ],
+     "suggestion": "Wow, crunchy leaves!",
+     "suggestionFa": "وای، برگ‌های خشک خش‌خشی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leaves",
+     "fa": "برگ‌ها"
+    },
+    {
+     "word": "jump",
+     "fa": "پریدن"
+    },
+    {
+     "word": "crunchy",
+     "fa": "خش‌خشی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Wheee! What's your favourite month? Mine is July. Birthday and no school!",
+   "translations": {
+    "fa": "ویییی! ماه مورد علاقه‌ات چیه؟ مال من جولایه. تولد و بدون مدرسه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "because",
+      "nowruz",
+      "march"
+     ],
+     "suggestion": "I like March, because of Nowruz.",
+     "suggestionFa": "مارس را دوست دارم، به‌خاطر نوروز.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "october"
+     ],
+     "suggestion": "I like October. It's beautiful.",
+     "suggestionFa": "اکتبر را دوست دارم. قشنگه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    },
+    {
+     "word": "because of",
+     "fa": "به‌خاطر"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "March and July and October! Let's have a party in every month! I'll ask Mummy!",
+   "translations": {
+    "fa": "مارس و جولای و اکتبر! بیا هر ماه یه مهمونی بگیریم! از مامان می‌پرسم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

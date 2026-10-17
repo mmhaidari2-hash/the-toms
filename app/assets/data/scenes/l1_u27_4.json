@@ -1,0 +1,373 @@
+{
+ "id": "l1_u27_4",
+ "characterId": "tom",
+ "title": "Saying goodbye",
+ "titleFa": "خداحافظی",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Did you hear? Mr Bailey at number six is moving to the seaside. He's leaving tomorrow.",
+   "translations": {
+    "fa": "شنیدی؟ آقای بیلی از پلاک شش داره می‌ره کنار دریا. فردا می‌ره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nice",
+      "he's",
+      "oh"
+     ],
+     "suggestion": "Oh no! He's very nice.",
+     "suggestionFa": "وای نه! خیلی مهربونه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "where",
+      "he"
+     ],
+     "suggestion": "Where is he going?",
+     "suggestionFa": "کجا می‌ره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moving",
+     "fa": "اسباب‌کشی"
+    },
+    {
+     "word": "seaside",
+     "fa": "کنار دریا"
+    },
+    {
+     "word": "leaving",
+     "fa": "رفتن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "To Brighton. To be near his daughter. Let's go and say goodbye.",
+   "translations": {
+    "fa": "به برایتون. که نزدیک دخترش باشه. بیا بریم خداحافظی کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "take",
+      "card",
+      "we"
+     ],
+     "suggestion": "Shall we take a card?",
+     "suggestionFa": "یه کارت ببریم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "good",
+      "idea",
+      "now"
+     ],
+     "suggestion": "Good idea. Let's go now.",
+     "suggestionFa": "فکر خوبیه. بیا الان بریم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "daughter",
+     "fa": "دختر (فرزند)"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brighton is a lively seaside city on the south coast, about an hour from London by train.",
+    "fa": "برایتون شهر ساحلی نزدیک لندن است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Yes, Nicola made a card. Look — a picture of him and his dog. Hello, Mr Bailey!",
+   "translations": {
+    "fa": "آره، نیکولا یه کارت درست کرده. ببین — عکس خودش و سگش. سلام آقای بیلی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goodbye",
+      "hello",
+      "came",
+      "say"
+     ],
+     "suggestion": "Hello! We came to say goodbye.",
+     "suggestionFa": "سلام! اومدیم خداحافظی کنیم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "card",
+      "from"
+     ],
+     "suggestion": "This card is from Nicola.",
+     "suggestionFa": "این کارت از طرف نیکولاست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "picture",
+     "fa": "تصویر"
+    },
+    {
+     "word": "came",
+     "fa": "آمد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "He says thank you. He'll put it on his new fridge. He's lived here for forty years!",
+   "translations": {
+    "fa": "می‌گه ممنون. می‌ذارتش رو یخچال جدیدش. چهل ساله اینجا زندگی کرده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "forty",
+      "years",
+      "long"
+     ],
+     "suggestion": "Forty years! That's a long time.",
+     "suggestionFa": "چهل سال! خیلی زیاده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "you'll",
+      "miss",
+      "him"
+     ],
+     "suggestion": "You'll miss him.",
+     "suggestionFa": "دلتون براش تنگ میشه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forty",
+     "fa": "چهل"
+    },
+    {
+     "word": "a long time",
+     "fa": "مدت طولانی"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ شدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "We will. He always gave Ryan sweets. Ask him about his new home.",
+   "translations": {
+    "fa": "تنگ میشه. همیشه به رایان شکلات می‌داد. ازش دربارهٔ خونهٔ جدیدش بپرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "house",
+      "near",
+      "sea",
+      "new"
+     ],
+     "suggestion": "Is your new house near the sea?",
+     "suggestionFa": "خونهٔ جدیدتون نزدیک دریاست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brighton",
+      "excited",
+      "about"
+     ],
+     "suggestion": "Are you excited about Brighton?",
+     "suggestionFa": "برای برایتون هیجان دارید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweets",
+     "fa": "شکلات ؛ آب‌نبات"
+    },
+    {
+     "word": "sea",
+     "fa": "دریا"
+    },
+    {
+     "word": "excited",
+     "fa": "هیجان‌زده"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"sweets\", American \"candy\".",
+    "fa": "sweets/candy."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "He can see the sea from his bedroom! And he's going to swim every morning. At eighty!",
+   "translations": {
+    "fa": "از اتاق خوابش دریا را می‌بینه! و قراره هر روز صبح شنا کنه. تو هشتاد سالگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing"
+     ],
+     "suggestion": "Amazing!",
+     "suggestionFa": "فوق‌العاده‌ست!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "him"
+     ],
+     "suggestion": "Good for him!",
+     "suggestionFa": "آفرین بهش!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "every morning",
+     "fa": "هر صبح"
+    },
+    {
+     "word": "eighty",
+     "fa": "هشتاد"
+    },
+    {
+     "word": "amazing",
+     "fa": "شگفت‌انگیز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he go swim every morning",
+      "he swims every mornings"
+     ],
+     "echo": "He's going to swim every morning? Brilliant!",
+     "better": "He's going to swim every morning.",
+     "betterFa": "قراره هر صبح شنا کنه."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Right. Let's say goodbye. What do you say to someone who's leaving?",
+   "translations": {
+    "fa": "خب. بیا خداحافظی کنیم. به کسی که داره می‌ره چی می‌گی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bailey",
+      "touch",
+      "take",
+      "care"
+     ],
+     "suggestion": "Take care, Mr Bailey! Keep in touch!",
+     "suggestionFa": "مراقب خودتون باشید آقای بیلی! در تماس باشیم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brighton",
+      "good",
+      "luck"
+     ],
+     "suggestion": "Good luck in Brighton!",
+     "suggestionFa": "تو برایتون موفق باشید!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take care",
+     "fa": "مراقب باش"
+    },
+    {
+     "word": "keep in touch",
+     "fa": "در تماس باش"
+    },
+    {
+     "word": "good luck",
+     "fa": "موفق باشی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Perfect. He says, \"Come and visit! Bring a bucket and spade!\" The street won't be the same.",
+   "translations": {
+    "fa": "عالی. می‌گه «بیاید دیدنم! سطل و بیلچه بیارید!» خیابون دیگه مثل قبل نمی‌شه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

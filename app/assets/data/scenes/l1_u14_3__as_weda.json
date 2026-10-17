@@ -1,0 +1,300 @@
+{
+ "id": "l1_u14_3__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Weda) No more bubbles!",
+ "titleFa": "(در نقش Nana Weda) دیگه حباب بسه!",
+ "setting": "In the bathroom · Level 1",
+ "settingFa": "در حمام",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u14_3",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Weda!",
+   "translations": {
+    "fa": "سلام Nana Weda!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "check",
+      "ready",
+      "water",
+      "bath"
+     ],
+     "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
+     "suggestionFa": "حموم ویلیام آماده‌ست. آب را چک می‌کنی؟ نه خیلی داغ!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "It's warm. It's fine.",
+   "translations": {
+    "fa": "گرمه. خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "nicola",
+      "bubble",
+      "little",
+      "just"
+     ],
+     "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
+     "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Stop, Nicola! That's enough!",
+   "translations": {
+    "fa": "بسه نیکولا! کافیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "william",
+   "text": "Bubbles! More bubbles!",
+   "translations": {
+    "fa": "حباب! حباب بیشتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No more bubbles, William!",
+   "translations": {
+    "fa": "دیگه حباب بسه ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "where's",
+      "can't",
+      "there",
+      "see"
+     ],
+     "suggestion": "Ha! I can't see William. Where's William? There he is!",
+     "suggestionFa": "ها! ویلیام را نمی‌بینم. ویلیام کجاست؟ اوناهاش!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Peekaboo, William!",
+   "translations": {
+    "fa": "دالی، ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yellow",
+      "rubber",
+      "pass",
+      "duck",
+      "can"
+     ],
+     "suggestion": "Can you pass me the duck? The yellow rubber duck.",
+     "suggestionFa": "اردک را بهم می‌دی؟ اردک لاستیکی زرد.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Here's the duck. Quack quack!",
+   "translations": {
+    "fa": "اینم اردک. کوآک کوآک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "william",
+   "text": "Duck! Splash!",
+   "translations": {
+    "fa": "اردک! شلپ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "splash",
+     "fa": "آب پاشیدن"
+    },
+    {
+     "word": "wet",
+     "fa": "خیس"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Oh! I'm all wet!",
+   "translations": {
+    "fa": "آه! خیس خیس شدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "towel",
+      "floor",
+      "dear",
+      "get",
+      "wet"
+     ],
+     "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
+     "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Yes. Which towel?",
+   "translations": {
+    "fa": "آره. کدوم حوله؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doesn't",
+      "gently",
+      "water",
+      "blue",
+      "wash"
+     ],
+     "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
+     "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Close your eyes, William.",
+   "translations": {
+    "fa": "چشماتو ببند ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clever",
+      "little",
+      "clean",
+      "isn't",
+      "come"
+     ],
+     "suggestion": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",
+     "suggestionFa": "زرنگی! حالا تمیز تمیزه. بیا بیرون مرد کوچولو. وقت حموم بهترین وقته، نه؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

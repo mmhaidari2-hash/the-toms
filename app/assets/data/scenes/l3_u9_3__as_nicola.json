@@ -48,9 +48,9 @@
      "keywords": [
       "dinosaur",
       "could",
-      "love",
-      "book",
-      "have"
+      "wish",
+      "have",
+      "book"
      ],
      "suggestion": "A dinosaur book! I love it! I wish I could have a real dinosaur.",
      "suggestionFa": "کتاب دایناسور! عاشقشم! کاش می‌تونستم یه دایناسور واقعی داشته باشم.",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "natural",
       "history",
-      "museum",
+      "natural",
       "london",
+      "museum",
       "mummy"
      ],
      "suggestion": "The Natural History Museum! Mummy says it's in London. I hope we can go soon.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "forever",
-      "could",
       "today",
       "whale",
+      "could",
       "moves"
      ],
      "suggestion": "The big blue whale! And the T-rex that moves. I wish today could last forever.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "candles",
+      "wish",
+      "cake",
       "make",
-      "time",
-      "blow",
-      "cake"
+      "blow"
      ],
      "suggestion": "Yes! Now it's time for cake. Can I make a wish when I blow out my candles?",
      "suggestionFa": "آره! حالا وقت کیکه. وقتی شمع‌هام را فوت می‌کنم می‌تونم آرزو کنم؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "dinosaur",
       "wished",
-      "count",
       "still",
+      "count",
       "said"
      ],
      "suggestion": "I wished for a dinosaur… oops! I said it. Does it still count?",

@@ -23,8 +23,8 @@
      "keywords": [
       "feeling",
       "poorly",
-      "love",
       "look",
+      "love",
       "pale"
      ],
      "suggestion": "Oh love, you look pale. Are you feeling poorly?",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "headache",
-      "matter",
       "what's",
+      "matter",
       "have",
       "got"
      ],
@@ -99,8 +99,8 @@
       "temperature",
       "that's",
       "thirty",
-      "cough",
-      "point"
+      "point",
+      "eight"
      ],
      "suggestion": "Thirty-eight point five. That's a temperature, all right. Have you got a cough?",
      "suggestionFa": "سی‌وهشت و نیم. تبه دیگه. سرفه هم داری؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "paracetamol",
       "sounds",
-      "bring",
       "drink",
-      "i'll"
+      "bring",
+      "some"
      ],
      "suggestion": "Sounds like flu. Go to bed. I'll bring you some paracetamol and a hot drink.",
      "suggestionFa": "به نظر آنفولانزاست. برو بخواب. برات پاراستامول و یه نوشیدنی گرم میارم.",
@@ -148,9 +148,9 @@
      "keywords": [
       "tomorrow",
       "course",
-      "we'll",
+      "worse",
       "drink",
-      "water"
+      "we'll"
      ],
      "suggestion": "Of course. Drink lots of water and rest. If you're worse tomorrow, we'll call the GP.",
      "suggestionFa": "البته. زیاد آب بخور و استراحت کن. اگه فردا بدتر بودی، به دکتر عمومی زنگ می‌زنیم.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "doctor",
       "family",
+      "doctor",
       "well",
       "love",
       "into"

@@ -1,0 +1,376 @@
+{
+ "id": "l1_u24_2__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Weda) I'm scared of the dark",
+ "titleFa": "(در نقش Nana Weda) از تاریکی می‌ترسم",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u24_2",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "nicola",
+   "text": "I can't sleep. I'm scared. It's very dark in my room.",
+   "translations": {
+    "fa": "خوابم نمی‌بره. می‌ترسم. اتاقم خیلی تاریکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sleep",
+     "fa": "خوابیدن"
+    },
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Don't be scared, Nicola.",
+   "translations": {
+    "fa": "نترس نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "Of monsters. Under my bed! I heard a noise.",
+   "translations": {
+    "fa": "از هیولاها. زیر تختم! یه صدایی شنیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "monsters",
+     "fa": "هیولاها"
+    },
+    {
+     "word": "noise",
+     "fa": "صدا"
+    },
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Let's look under the bed together.",
+   "translations": {
+    "fa": "بیا با هم زیر تخت را نگاه کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "nicola",
+   "text": "OK… Can you see anything?",
+   "translations": {
+    "fa": "باشه… چیزی می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anything",
+     "fa": "چیزی"
+    },
+    {
+     "word": "only",
+     "fa": "فقط"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Only a sock and a teddy.",
+   "translations": {
+    "fa": "فقط یه جوراب و یه عروسک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "Mr Buttons! My teddy! He fell off the bed. That was the noise!",
+   "translations": {
+    "fa": "آقای دکمه! خرسم! از تخت افتاد. اون صدا بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fell off",
+     "fa": "افتاد"
+    },
+    {
+     "word": "safe",
+     "fa": "در امان"
+    },
+    {
+     "word": "mystery",
+     "fa": "معما"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Here he is. He's safe now.",
+   "translations": {
+    "fa": "ایناهاش. حالا در امانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "nicola",
+      "what's",
+      "still",
+      "awake"
+     ],
+     "suggestion": "What's all this? Nicola, are you still awake? It's nine o'clock!",
+     "suggestionFa": "این‌ها چیه؟ نیکولا، هنوز بیداری؟ ساعت نهه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "She was a bit scared, Weda.",
+   "translations": {
+    "fa": "یه کم ترسیده بود ودا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweetheart",
+      "landing",
+      "little",
+      "leave",
+      "shall"
+     ],
+     "suggestion": "Oh, sweetheart. Shall I leave the landing light on? And the door open a little?",
+     "suggestionFa": "آه، عزیزدلم. چراغ راهروی بالا را روشن بذارم؟ و در را یه کم باز؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "That's a good idea.",
+   "translations": {
+    "fa": "فکر خوبیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "nicola",
+   "text": "Yes, please. Nana, were you scared of the dark when you were little?",
+   "translations": {
+    "fa": "آره، لطفاً. نانا، تو بچگی از تاریکی می‌ترسیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little",
+     "fa": "کوچک"
+    },
+    {
+     "word": "question",
+     "fa": "سؤال"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "What a good question!",
+   "translations": {
+    "fa": "چه سؤال خوبی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thunder",
+      "scared",
+      "shall",
+      "sang",
+      "sing"
+     ],
+     "suggestion": "Oh yes. I was scared of thunder too. My mum sang to me. Shall I sing to you?",
+     "suggestionFa": "آه آره. از رعد و برق هم می‌ترسیدم. مامانم برام آواز می‌خوند. برات آواز بخونم؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Yes! Sing a song, Weda.",
+   "translations": {
+    "fa": "آره! یه آهنگ بخونید ودا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "already",
+      "little",
+      "asleep",
+      "thank",
+      "she's"
+     ],
+     "suggestion": "\"Hush, little baby, don't say a word…\" Look, she's asleep already. Thank you, love. Night night.",
+     "suggestionFa": "«هیس، بچه کوچولو، هیچی نگو…» ببین، خوابش برد. ممنون عزیزم. شب بخیر.",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "id": "l1_u12_4__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) My favourite colour",
+ "titleFa": "(در نقش Nicola) رنگ مورد علاقه‌ام",
+ "setting": "Colours and shapes · Level 1",
+ "settingFa": "رنگ‌ها و شکل‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u12_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "making",
+      "poster",
+      "things",
+      "about"
+     ],
+     "suggestion": "Mia and I are making a poster. It's about favourite things!",
+     "suggestionFa": "من و میا داریم یه پوستر درست می‌کنیم. دربارهٔ چیزهای مورد علاقه‌ست!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "That's a good idea!",
+   "translations": {
+    "fa": "فکر خوبیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "colour",
+      "what's"
+     ],
+     "suggestion": "Yes! What's your favourite colour?",
+     "suggestionFa": "آره! رنگ مورد علاقه‌ات چیه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "My favourite colour is green.",
+   "translations": {
+    "fa": "رنگ مورد علاقه‌ام سبزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mia",
+   "text": "My favourite colour is purple. Nicola's is pink. Everything is pink!",
+   "translations": {
+    "fa": "رنگ مورد علاقهٔ من بنفشه. مال نیکولا صورتیه. همه چی صورتیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    },
+    {
+     "word": "everything",
+     "fa": "همه چیز"
+    },
+    {
+     "word": "shoes",
+     "fa": "کفش‌ها"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Your bag is pink!",
+   "translations": {
+    "fa": "کیفت صورتیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "animal",
+      "what's",
+      "love",
+      "pink"
+     ],
+     "suggestion": "I love pink! Now, what's your favourite animal?",
+     "suggestionFa": "من عاشق صورتی‌ام! حالا، حیوون مورد علاقه‌ات چیه؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I love horses.",
+   "translations": {
+    "fa": "عاشق اسبم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "penguin",
+      "white",
+      "black",
+      "funny"
+     ],
+     "suggestion": "Mine is a penguin! They're black and white and very funny.",
+     "suggestionFa": "مال من پنگوئنه! سیاه و سفیدن و خیلی بامزه‌ان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Penguins are funny!",
+   "translations": {
+    "fa": "پنگوئن‌ها بامزه‌ان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mia",
+   "text": "We saw penguins at the zoo! Now, favourite food. Mine is pizza.",
+   "translations": {
+    "fa": "تو باغ‌وحش پنگوئن دیدیم! حالا، غذای مورد علاقه. مال من پیتزاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "zoo",
+     "fa": "باغ‌وحش"
+    },
+    {
+     "word": "food",
+     "fa": "غذا"
+    },
+    {
+     "word": "rice",
+     "fa": "برنج"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "My favourite food is rice.",
+   "translations": {
+    "fa": "غذای مورد علاقه‌ام برنجه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sundays",
+      "poster",
+      "makes",
+      "write",
+      "rice"
+     ],
+     "suggestion": "Rice! Nana makes rice on Sundays. Can you write it on the poster?",
+     "suggestionFa": "برنج! نانا یکشنبه‌ها برنج درست می‌کنه. می‌تونی روی پوستر بنویسیش؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Yes. R-I-C-E.",
+   "translations": {
+    "fa": "آره. ر-ا-ی-س."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "pretty",
+      "right",
+      "left",
+      "goes"
+     ],
+     "suggestion": "Yes! Persian is so pretty. It goes from right to left!",
+     "suggestionFa": "آره! فارسی خیلی قشنگه. از راست به چپ می‌ره!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "That's right. You're very clever.",
+   "translations": {
+    "fa": "درسته. خیلی باهوشی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finished",
+      "penguins",
+      "purple",
+      "poster",
+      "pizza"
+     ],
+     "suggestion": "Our poster is finished! Pink, purple, green, penguins and pizza. It's the best poster ever!",
+     "suggestionFa": "پوسترمون تموم شد! صورتی، بنفش، سبز، پنگوئن و پیتزا. بهترین پوستر دنیاست!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

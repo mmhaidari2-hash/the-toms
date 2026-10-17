@@ -1,0 +1,371 @@
+{
+ "id": "l1_u31_1",
+ "characterId": "ellis",
+ "title": "My classroom",
+ "titleFa": "کلاس من",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ellis",
+   "text": "Hello! You must be Nicola's neighbour. Welcome to Reception! Would you like a quick look round?",
+   "translations": {
+    "fa": "سلام! باید همسایهٔ نیکولا باشید. به کلاس آمادگی خوش اومدید! می‌خواید یه نگاه سریع بندازید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "thank"
+     ],
+     "suggestion": "Yes, please. Thank you.",
+     "suggestionFa": "آره، لطفاً. ممنون.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "today",
+      "here"
+     ],
+     "suggestion": "Is Nicola here today?",
+     "suggestionFa": "نیکولا امروز اینجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    },
+    {
+     "word": "Reception",
+     "fa": "کلاس آمادگی"
+    },
+    {
+     "word": "look round",
+     "fa": "گشتن ؛ نگاه کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Reception\" is the first year of primary school in England, for children aged 4–5.",
+    "fa": "Reception اولین سال دبستان."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ellis",
+   "text": "She's outside with the others. This is our classroom. There are twenty-eight children.",
+   "translations": {
+    "fa": "با بقیه بیرونه. این کلاس ماست. بیست و هشت تا بچه هستن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "that's",
+      "eight",
+      "lot"
+     ],
+     "suggestion": "Twenty-eight! That's a lot.",
+     "suggestionFa": "بیست و هشت! خیلیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "assistant",
+      "teaching",
+      "there"
+     ],
+     "suggestion": "Is there a teaching assistant?",
+     "suggestionFa": "دستیار معلم هم هست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "classroom",
+     "fa": "کلاس"
+    },
+    {
+     "word": "twenty-eight",
+     "fa": "بیست و هشت"
+    },
+    {
+     "word": "a lot",
+     "fa": "زیاد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ellis",
+   "text": "Yes, Mr Shah helps me every morning. There's a reading corner over there, with cushions.",
+   "translations": {
+    "fa": "آره، آقای شاه هر صبح کمکم می‌کنه. اون طرف یه گوشهٔ کتابخونی هست، با کوسن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cushions",
+      "comfy",
+      "look"
+     ],
+     "suggestion": "The cushions look comfy.",
+     "suggestionFa": "کوسن‌ها راحت به نظر میان.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "books",
+      "lots"
+     ],
+     "suggestion": "Are there lots of books?",
+     "suggestionFa": "کتاب زیاد هست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reading corner",
+     "fa": "گوشهٔ مطالعه"
+    },
+    {
+     "word": "cushions",
+     "fa": "کوسن‌ها"
+    },
+    {
+     "word": "comfy",
+     "fa": "راحت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ellis",
+   "text": "Hundreds! And there's a sand tray, a water table and a dressing-up box.",
+   "translations": {
+    "fa": "صدها! و یه سینی شن، یه میز آب‌بازی و یه صندوق لباس نمایش هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dressing",
+      "what's",
+      "box",
+      "up"
+     ],
+     "suggestion": "What's a dressing-up box?",
+     "suggestionFa": "صندوق لباس نمایش چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "here",
+      "much"
+     ],
+     "suggestion": "There's so much to do here!",
+     "suggestionFa": "اینجا کلی کار برای انجام دادن هست!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sand",
+     "fa": "شن"
+    },
+    {
+     "word": "dressing-up",
+     "fa": "لباس پوشیدن برای نقش‌بازی"
+    },
+    {
+     "word": "hundreds",
+     "fa": "صدها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is many books",
+      "there are a sand tray"
+     ],
+     "echo": "There are books and there's a sand tray.",
+     "better": "There are lots of books.",
+     "betterFa": "کتاب زیاد هست."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ellis",
+   "text": "It's full of costumes. Nicola loves the dragon one. She roars at everyone!",
+   "translations": {
+    "fa": "پر از لباس‌های نمایشیه. نیکولا عاشق لباس اژدهاست. سر همه غرش می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "nicola",
+      "like"
+     ],
+     "suggestion": "That sounds like Nicola!",
+     "suggestionFa": "این شبیه نیکولاست!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scary"
+     ],
+     "suggestion": "Is it scary?",
+     "suggestionFa": "ترسناکه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "costumes",
+     "fa": "لباس‌های نمایش"
+    },
+    {
+     "word": "dragon",
+     "fa": "اژدها"
+    },
+    {
+     "word": "roars",
+     "fa": "غرش می‌کند"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ellis",
+   "text": "Only a little! Look, there are the children's coat pegs. Each one has a name and a picture.",
+   "translations": {
+    "fa": "فقط یه کم! نگاه کن، اینا جالباسی‌های بچه‌هاست. هر کدوم یه اسم و یه عکس داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "which",
+      "one"
+     ],
+     "suggestion": "Which one is Nicola's?",
+     "suggestionFa": "کدوم مال نیکولاست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helps",
+      "coats",
+      "their",
+      "find"
+     ],
+     "suggestion": "That helps them find their coats.",
+     "suggestionFa": "این کمکشون می‌کنه کتشون را پیدا کنن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coat pegs",
+     "fa": "جالباسی"
+    },
+    {
+     "word": "each",
+     "fa": "هر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ellis",
+   "text": "The one with the teddy bear! She asked for that. Here's our class tortoise too, Speedy.",
+   "translations": {
+    "fa": "اونی که خرس عروسکی داره! خودش خواسته. اینم لاک‌پشت کلاسمون، اسپیدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "speedy",
+      "good",
+      "name",
+      "ha"
+     ],
+     "suggestion": "Speedy? Ha! A good name.",
+     "suggestionFa": "اسپیدی؟ ها! اسم خوبیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tortoise",
+      "feeds",
+      "who"
+     ],
+     "suggestion": "Who feeds the tortoise?",
+     "suggestionFa": "کی به لاک‌پشت غذا میده؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teddy bear",
+     "fa": "خرس عروسکی"
+    },
+    {
+     "word": "tortoise",
+     "fa": "لاک‌پشت"
+    },
+    {
+     "word": "speedy",
+     "fa": "تندرو"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ellis",
+   "text": "The children take turns. Ah, there's the bell. Come and see them line up!",
+   "translations": {
+    "fa": "بچه‌ها نوبتی. آه، زنگه. بیا صف بستنشون را ببین!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

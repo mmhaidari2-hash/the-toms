@@ -56,8 +56,8 @@
    "branches": [
     {
      "keywords": [
-      "consultancy",
-      "engineering"
+      "engineering",
+      "consultancy"
      ],
      "suggestion": "It's an engineering consultancy.",
      "suggestionFa": "یه مشاورهٔ مهندسیه.",
@@ -109,8 +109,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "about",
-      "month"
+      "month",
+      "first"
      ],
      "suggestion": "About five thousand pounds a month at first.",
      "suggestionFa": "اول حدود ماهی پنج هزار پوند.",
@@ -215,8 +215,8 @@
      "keywords": [
       "take",
       "long",
-      "yet",
-      "how"
+      "how",
+      "yet"
      ],
      "suggestion": "Not yet. How long does it take?",
      "suggestionFa": "هنوز نه. چقدر طول می‌کشه؟",
@@ -228,8 +228,8 @@
      "keywords": [
       "documents",
       "last",
-      "week",
-      "here"
+      "here",
+      "week"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "register",
-      "much",
       "cost",
+      "much",
       "how"
      ],
      "suggestion": "How much does it cost to register?",

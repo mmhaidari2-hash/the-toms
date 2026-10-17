@@ -1,0 +1,353 @@
+{
+ "id": "l1_u44_3",
+ "characterId": "ryan",
+ "title": "Counting change",
+ "titleFa": "شمردن بقیهٔ پول",
+ "setting": "Numbers and money · Level 1",
+ "settingFa": "عددها و پول",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Guess what? I've got a Saturday job! At the bakery. Will you be my first customer?",
+   "translations": {
+    "fa": "حدس بزن چی شده؟ کار شنبه‌ها گرفتم! تو نونوایی. اولین مشتری‌م میشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "loaf",
+      "i'll",
+      "buy"
+     ],
+     "suggestion": "Of course! I'll buy a loaf.",
+     "suggestionFa": "البته! یه نون می‌خرم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan",
+      "well",
+      "done",
+      "job"
+     ],
+     "suggestion": "A job? Well done, Ryan!",
+     "suggestionFa": "کار؟ آفرین رایان!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Saturday job",
+     "fa": "کار شنبه‌ها"
+    },
+    {
+     "word": "customer",
+     "fa": "مشتری"
+    },
+    {
+     "word": "loaf",
+     "fa": "قرص نان"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, teenagers from 13 can do light part-time work, like a Saturday job, for a few hours.",
+    "fa": "کار نیمه‌وقت نوجوانان."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Thanks! OK… one white loaf. That's one pound eighty.",
+   "translations": {
+    "fa": "ممنون! باشه… یه نون سفید. میشه یک پوند و هشتاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pound",
+      "five",
+      "note"
+     ],
+     "suggestion": "Here's a five-pound note.",
+     "suggestionFa": "بفرما یه اسکناس پنج پوندی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "two"
+     ],
+     "suggestion": "Here's two pounds.",
+     "suggestionFa": "بفرما دو پوند.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Two pounds. So your change is… twenty p! Here you go.",
+   "translations": {
+    "fa": "دو پوند. پس بقیه‌ش… بیست پی! بفرما."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you.",
+     "suggestionFa": "ممنون.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "right",
+      "check",
+      "let"
+     ],
+     "suggestion": "Is that right? Let me check.",
+     "suggestionFa": "درسته؟ بذار چک کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "بقیهٔ پول"
+    },
+    {
+     "word": "right",
+     "fa": "درست"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "Good, Ryan. Always count the change back. Out loud. Try a harder one.",
+   "translations": {
+    "fa": "خوبه رایان. همیشه بقیهٔ پول را بلند بشمر. یه سخت‌ترش را امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doughnuts",
+      "two",
+      "ok"
+     ],
+     "suggestion": "OK. Two doughnuts, please.",
+     "suggestionFa": "باشه. دو تا دونات، لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coffee",
+      "cake"
+     ],
+     "suggestion": "A cake and a coffee, please.",
+     "suggestionFa": "یه کیک و یه قهوه، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "count back",
+     "fa": "شمردن برگشتی"
+    },
+    {
+     "word": "out loud",
+     "fa": "بلند"
+    },
+    {
+     "word": "harder",
+     "fa": "سخت‌تر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "A cake and a coffee. Three fifty plus two forty… five pounds ninety.",
+   "translations": {
+    "fa": "یه کیک و یه قهوه. سه و پنجاه به اضافهٔ دو و چهل… پنج پوند و نود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "pound",
+      "note",
+      "ten"
+     ],
+     "suggestion": "Here's a ten-pound note.",
+     "suggestionFa": "بفرما یه اسکناس ده پوندی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "sorry",
+      "i've",
+      "only"
+     ],
+     "suggestion": "I've only got a twenty. Sorry!",
+     "suggestionFa": "فقط یه بیستی دارم. ببخشید!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plus",
+     "fa": "به اضافهٔ"
+    },
+    {
+     "word": "only",
+     "fa": "فقط"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "From ten. So… five ninety, six, seven, eight, nine, ten. Four pounds ten change!",
+   "translations": {
+    "fa": "از ده. پس… پنج و نود، شش، هفت، هشت، نه، ده. چهار پوند و ده بقیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "pounds",
+      "four",
+      "ten"
+     ],
+     "suggestion": "Perfect! Four pounds ten.",
+     "suggestionFa": "عالی! چهار پوند و ده.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "counting",
+      "clever",
+      "that's",
+      "up"
+     ],
+     "suggestion": "That's clever, counting up.",
+     "suggestionFa": "باهوشانه‌ست، بالا شمردن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "counting up",
+     "fa": "بالا شمردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "four pound ten change",
+      "my change is four pound and ten"
+     ],
+     "echo": "Four pounds ten? Spot on!",
+     "better": "My change is four pounds ten.",
+     "betterFa": "بقیهٔ پولم چهار پوند و ده‌ئه."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Spot on! You're a natural. Now, the hard part — smile at every customer!",
+   "translations": {
+    "fa": "دقیقاً! ذاتی بلدی. حالا قسمت سخت — به هر مشتری لبخند بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "smile",
+      "ryan",
+      "ha"
+     ],
+     "suggestion": "Ha! Smile, Ryan!",
+     "suggestionFa": "ها! لبخند بزن رایان!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teenager",
+      "smiling",
+      "hard",
+      "he's"
+     ],
+     "suggestion": "He's a teenager. Smiling is hard!",
+     "suggestionFa": "نوجوونه. لبخند زدن سخته!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spot on",
+     "fa": "کاملاً درست"
+    },
+    {
+     "word": "natural",
+     "fa": "ذاتی ؛ بااستعداد"
+    },
+    {
+     "word": "smile",
+     "fa": "لبخند زدن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Ha ha, very funny. See? I'm smiling. Have a nice day, sir! Next customer, please!",
+   "translations": {
+    "fa": "ها ها، خیلی بامزه. دیدی؟ دارم لبخند می‌زنم. روز خوبی داشته باشید قربان! مشتری بعدی، لطفاً!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

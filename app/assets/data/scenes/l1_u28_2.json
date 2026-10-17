@@ -1,0 +1,402 @@
+{
+ "id": "l1_u28_2",
+ "characterId": "leslie",
+ "title": "Can I speak to…?",
+ "titleFa": "می‌تونم با ... صحبت کنم؟",
+ "setting": "Phone basics · Level 1",
+ "settingFa": "مکالمهٔ تلفنی ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Can you ring the surgery for me? I'm driving. Ask to speak to the nurse about William's injections.",
+   "translations": {
+    "fa": "می‌تونی برام به مطب زنگ بزنی؟ دارم رانندگی می‌کنم. بخواه با پرستار دربارهٔ واکسن‌های ویلیام صحبت کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "ok"
+     ],
+     "suggestion": "OK. What's the number?",
+     "suggestionFa": "باشه. شماره چنده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fridge",
+      "sure"
+     ],
+     "suggestion": "Sure. Is the number on the fridge?",
+     "suggestionFa": "حتماً. شماره رو یخچاله؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "surgery",
+     "fa": "مطب"
+    },
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    },
+    {
+     "word": "injections",
+     "fa": "واکسن‌ها ؛ تزریق‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain, a \"surgery\" is a doctor's office, not only an operation.",
+    "fa": "surgery یعنی مطب هم."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "receptionist",
+   "text": "Good morning, Mare Street Surgery. Tracy speaking. How can I help?",
+   "translations": {
+    "fa": "صبح بخیر، مطب مِر استریت. تریسی هستم. چطور کمک کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "please",
+      "speak",
+      "nurse"
+     ],
+     "suggestion": "Good morning. Can I speak to the nurse, please?",
+     "suggestionFa": "صبح بخیر. می‌تونم با پرستار صحبت کنم، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompson",
+      "william",
+      "calling",
+      "hello"
+     ],
+     "suggestion": "Hello. I'm calling about William Thompson.",
+     "suggestionFa": "سلام. دربارهٔ ویلیام تامپسون زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "calling about",
+     "fa": "زنگ زدن دربارهٔ"
+    },
+    {
+     "word": "speak to",
+     "fa": "صحبت کردن با"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i want speak nurse",
+      "give me the nurse"
+     ],
+     "echo": "The nurse? Of course.",
+     "better": "Can I speak to the nurse, please?",
+     "betterFa": "می‌تونم با پرستار صحبت کنم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "receptionist",
+   "text": "I'm sorry, the nurse is busy at the moment. Can I take a message?",
+   "translations": {
+    "fa": "متأسفم، پرستار الان مشغوله. می‌تونم پیغام بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "injections",
+      "william's",
+      "please",
+      "about"
+     ],
+     "suggestion": "Yes, please. It's about William's injections.",
+     "suggestionFa": "آره، لطفاً. دربارهٔ واکسن‌های ویلیامه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "free",
+      "she"
+     ],
+     "suggestion": "When is she free?",
+     "suggestionFa": "کِی آزاده؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at the moment",
+     "fa": "در حال حاضر"
+    },
+    {
+     "word": "take a message",
+     "fa": "پیغام گرفتن"
+    },
+    {
+     "word": "free",
+     "fa": "آزاد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "receptionist",
+   "text": "How old is William? And what's his date of birth?",
+   "translations": {
+    "fa": "ویلیام چند سالشه؟ و تاریخ تولدش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ask",
+      "let"
+     ],
+     "suggestion": "He's one. Let me ask his mum.",
+     "suggestionFa": "یک سالشه. بذار از مامانش بپرسم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "year",
+      "old"
+     ],
+     "suggestion": "He's one year old. His mum is here.",
+     "suggestionFa": "یک ساله‌ست. مامانش اینجاست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "year old",
+     "fa": "ساله"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Tell her the fifth of March! Last year!",
+   "translations": {
+    "fa": "بهش بگو پنجم مارس! پارسال!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "last",
+      "year"
+     ],
+     "suggestion": "The fifth of March, last year.",
+     "suggestionFa": "پنجم مارس، پارسال.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "birthday",
+      "his"
+     ],
+     "suggestion": "His birthday is the fifth of March.",
+     "suggestionFa": "تولدش پنجم مارسه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last year",
+     "fa": "پارسال"
+    },
+    {
+     "word": "fifth",
+     "fa": "پنجم"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "receptionist",
+   "text": "Thank you. William needs his one-year jabs. I can book an appointment for you.",
+   "translations": {
+    "fa": "ممنون. ویلیام واکسن‌های یک‌سالگی‌اش را لازم داره. می‌تونم براتون وقت بگیرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "when"
+     ],
+     "suggestion": "Yes, please. When?",
+     "suggestionFa": "آره، لطفاً. کِی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "jabs"
+     ],
+     "suggestion": "What are jabs?",
+     "suggestionFa": "جَب چیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jabs",
+     "fa": "واکسن (عامیانه)"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits often say \"jabs\" for vaccinations. UK babies have free vaccinations on the NHS.",
+    "fa": "jab یعنی واکسن."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "receptionist",
+   "text": "Next Tuesday at half past ten, with Nurse Adeyemi. Is that OK?",
+   "translations": {
+    "fa": "سه‌شنبهٔ بعد ساعت ده و نیم، با پرستار آدِیمی. خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesday",
+      "thirty",
+      "leslie",
+      "ten"
+     ],
+     "suggestion": "Tuesday at ten thirty. Is that OK, Leslie?",
+     "suggestionFa": "سه‌شنبه ده و نیم. خوبه لزلی؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "repeat",
+      "please",
+      "time",
+      "can"
+     ],
+     "suggestion": "Can you repeat the time, please?",
+     "suggestionFa": "می‌شه ساعت را تکرار کنید، لطفاً؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half past ten",
+     "fa": "ده و نیم"
+    },
+    {
+     "word": "repeat",
+     "fa": "تکرار کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Perfect! Say thank you!",
+   "translations": {
+    "fa": "عالی! بگو ممنون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "fine",
+      "much"
+     ],
+     "suggestion": "That's fine. Thank you very much.",
+     "suggestionFa": "خوبه. خیلی ممنون.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "goodbye",
+      "tracy"
+     ],
+     "suggestion": "Thank you, Tracy. Goodbye!",
+     "suggestionFa": "ممنون تریسی. خداحافظ!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thank you very much",
+     "fa": "خیلی ممنون"
+    },
+    {
+     "word": "goodbye",
+     "fa": "خداحافظ"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "receptionist",
+   "text": "You're welcome. We'll send a text to remind you. Bye now!",
+   "translations": {
+    "fa": "خواهش می‌کنم. یه پیامک یادآوری می‌فرستیم. خداحافظ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

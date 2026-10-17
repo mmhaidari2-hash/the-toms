@@ -33,8 +33,8 @@
     {
      "keywords": [
       "transport",
-      "entirely",
       "disaster",
+      "entirely",
       "depends"
      ],
      "suggestion": "It depends entirely on public transport. Without that, it's a disaster.",
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "argument",
-      "counter",
+      "perhaps",
       "partial",
-      "perhaps"
+      "counter"
      ],
      "suggestion": "That's a strong counter-argument. Perhaps a partial ban would work better.",
      "suggestionFa": "استدلال مقابل قویه. شاید یه ممنوعیت جزئی بهتر کار کنه.",
@@ -210,10 +210,10 @@
     },
     {
      "keywords": [
-      "exercise",
-      "actually",
       "argument",
-      "sharpens"
+      "exercise",
+      "sharpens",
+      "actually"
      ],
      "suggestion": "That's a useful exercise, actually. It sharpens your argument.",
      "suggestionFa": "راستش تمرین مفیدیه. استدلالت را تیزتر می‌کنه.",

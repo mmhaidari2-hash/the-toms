@@ -1,0 +1,356 @@
+{
+ "id": "l1_u25_3",
+ "characterId": "ryan",
+ "title": "Odd socks",
+ "titleFa": "جوراب لنگه به لنگه",
+ "setting": "Getting dressed · Level 1",
+ "settingFa": "لباس پوشیدن",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Is it \"Odd Socks Day\" at school today? Mum says it is. Do you know about it?",
+   "translations": {
+    "fa": "امروز تو مدرسه «روز جوراب لنگه به لنگه»ست؟ مامان می‌گه هست. چیزی دربارهش می‌دونی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "is",
+      "it"
+     ],
+     "suggestion": "No. What is it?",
+     "suggestionFa": "نه. چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "socks",
+      "mean",
+      "odd"
+     ],
+     "suggestion": "Odd socks? What does \"odd\" mean?",
+     "suggestionFa": "جوراب لنگه به لنگه؟ «اود» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "odd socks",
+     "fa": "جوراب لنگه به لنگه"
+    },
+    {
+     "word": "odd",
+     "fa": "ناجور ؛ عجیب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Odd means they don't match. Two different socks! It's for anti-bullying week.",
+   "translations": {
+    "fa": "اود یعنی جور نیستن. دو تا جوراب متفاوت! برای هفتهٔ مبارزه با قلدریه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nice",
+      "idea"
+     ],
+     "suggestion": "What a nice idea!",
+     "suggestionFa": "چه فکر قشنگی!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "socks",
+      "odd",
+      "why"
+     ],
+     "suggestion": "Why odd socks?",
+     "suggestionFa": "چرا جوراب لنگه به لنگه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "match",
+     "fa": "جور بودن"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    },
+    {
+     "word": "anti-bullying",
+     "fa": "ضد قلدری"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Odd Socks Day\" in the UK celebrates being different, during Anti-Bullying Week in November.",
+    "fa": "روز جوراب ناجور برای احترام به تفاوت‌ها."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Because we're all different. And that's OK! So, which socks? Help me choose.",
+   "translations": {
+    "fa": "چون همه‌مون فرق داریم. و اشکالی نداره! خب، کدوم جوراب‌ها؟ کمکم کن انتخاب کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stripes",
+      "red"
+     ],
+     "suggestion": "One red and one with stripes.",
+     "suggestionFa": "یکی قرمز و یکی راه‌راه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yellow",
+      "green"
+     ],
+     "suggestion": "This yellow one and that green one.",
+     "suggestionFa": "این زرده و اون سبزه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stripes",
+     "fa": "راه‌راه"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Stripes! Nice. And this one has got dinosaurs on it. It's Nicola's old one!",
+   "translations": {
+    "fa": "راه‌راه! خوبه. و این یکی دایناسور داره. مال قدیمی نیکولاست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "small"
+     ],
+     "suggestion": "It's too small for you!",
+     "suggestionFa": "برات خیلی کوچیکه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinosaurs",
+      "cool"
+     ],
+     "suggestion": "Dinosaurs are cool!",
+     "suggestionFa": "دایناسورها باحالن!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaurs",
+     "fa": "دایناسورها"
+    },
+    {
+     "word": "too small",
+     "fa": "خیلی کوچک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Ha! It doesn't fit. OK, red and stripes. Do my trousers match my jumper?",
+   "translations": {
+    "fa": "ها! اندازه‌م نیست. باشه، قرمز و راه‌راه. شلوارم به ژاکتم میاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "they",
+      "well",
+      "go"
+     ],
+     "suggestion": "Yes, they go well together.",
+     "suggestionFa": "آره، با هم جورن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "brown",
+      "grey"
+     ],
+     "suggestion": "Not really. Grey and brown?",
+     "suggestionFa": "نه چندان. طوسی و قهوه‌ای؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fit",
+     "fa": "اندازه بودن"
+    },
+    {
+     "word": "go well together",
+     "fa": "به هم آمدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "they go good together",
+      "is going good together"
+     ],
+     "echo": "They go well together? Yes, they do.",
+     "better": "They go well together.",
+     "betterFa": "با هم جورن."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "It's school uniform! Grey trousers, black jumper. Everyone looks the same.",
+   "translations": {
+    "fa": "لباس فرم مدرسه‌ست! شلوار طوسی، ژاکت مشکی. همه شکل همن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "except",
+      "socks",
+      "today"
+     ],
+     "suggestion": "Except for the socks today!",
+     "suggestionFa": "به جز جوراب‌ها امروز!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "uniforms",
+      "british",
+      "schools",
+      "have"
+     ],
+     "suggestion": "Do all British schools have uniforms?",
+     "suggestionFa": "همهٔ مدرسه‌های بریتانیا لباس فرم دارن؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "uniform",
+     "fa": "لباس فرم"
+    },
+    {
+     "word": "the same",
+     "fa": "یکسان"
+    },
+    {
+     "word": "except",
+     "fa": "به جز"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most British schools have a uniform, often with a blazer and a school tie.",
+    "fa": "بیشتر مدارس بریتانیا لباس فرم دارند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Most do. My school has a tie too. I hate ties! Do you wear odd socks sometimes?",
+   "translations": {
+    "fa": "بیشترشون. مدرسهٔ من کراوات هم داره. از کراوات متنفرم! تو گاهی جوراب ناجور می‌پوشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "never",
+      "find",
+      "pair"
+     ],
+     "suggestion": "Every day! I can never find a pair.",
+     "suggestionFa": "هر روز! هیچ‌وقت یه جفت پیدا نمی‌کنم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "matching",
+      "always",
+      "socks",
+      "wear"
+     ],
+     "suggestion": "No, I always wear matching socks.",
+     "suggestionFa": "نه، همیشه جوراب جور می‌پوشم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pair",
+     "fa": "جفت"
+    },
+    {
+     "word": "matching",
+     "fa": "جور"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Ha! Every day is Odd Socks Day for you! Right, I'm late. Socks on, tie on — bye!",
+   "translations": {
+    "fa": "ها! هر روز برای تو روز جوراب ناجوره! خب، دیرم شد. جوراب پام، کراوات گردنم — خداحافظ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

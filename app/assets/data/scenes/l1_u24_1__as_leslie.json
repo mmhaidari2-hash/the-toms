@@ -1,0 +1,432 @@
+{
+ "id": "l1_u24_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Happy and sad",
+ "titleFa": "(در نقش Leslie) شاد و غمگین",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u24_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sitting",
+      "nicola",
+      "school",
+      "today",
+      "quiet"
+     ],
+     "suggestion": "Nicola came home from school very quiet today. She's sitting on the sofa. Can you talk to her?",
+     "suggestionFa": "نیکولا امروز خیلی ساکت از مدرسه اومد. رو مبل نشسته. می‌تونی باهاش حرف بزنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. Hi, Nicola. Are you OK?",
+   "translations": {
+    "fa": "البته. سلام نیکولا. خوبی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "I'm sad. My best friend Mia played with Lily today. Not with me.",
+   "translations": {
+    "fa": "ناراحتم. بهترین دوستم میا امروز با لیلی بازی کرد. نه با من."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "best friend",
+     "fa": "بهترین دوست"
+    },
+    {
+     "word": "played",
+     "fa": "بازی کرد"
+    },
+    {
+     "word": "hard",
+     "fa": "سخت"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Oh, I'm sorry. That's hard.",
+   "translations": {
+    "fa": "آه، متأسفم. سخته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "nicola",
+   "text": "I feel lonely. And a bit angry.",
+   "translations": {
+    "fa": "احساس تنهایی می‌کنم. و یه کم عصبانی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lonely",
+     "fa": "تنها"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    },
+    {
+     "word": "understand",
+     "fa": "فهمیدن"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "It's OK to feel angry.",
+   "translations": {
+    "fa": "عصبانی بودن اشکال نداره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "Do you? Why?",
+   "translations": {
+    "fa": "واقعاً؟ چرا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "because",
+     "fa": "چون"
+    },
+    {
+     "word": "far away",
+     "fa": "دور"
+    },
+    {
+     "word": "country",
+     "fa": "کشور"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Because my family is far away.",
+   "translations": {
+    "fa": "چون خانواده‌ام خیلی دورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "nicola",
+   "text": "That's sad. But you've got us now! We're like your family.",
+   "translations": {
+    "fa": "این غم‌انگیزه. ولی حالا ما را داری! ما مثل خانواده‌تیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "like",
+     "fa": "مثل"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "happy",
+     "fa": "خوشحال"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thank you, Nicola. That makes me happy.",
+   "translations": {
+    "fa": "ممنون نیکولا. این خوشحالم می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "together",
+      "wanted",
+      "today",
+      "maybe"
+     ],
+     "suggestion": "Maybe Mia wanted to play with Lily just today. Tomorrow you can play together.",
+     "suggestionFa": "شاید میا فقط امروز می‌خواست با لیلی بازی کنه. فردا می‌تونید با هم بازی کنید.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "You can all play together!",
+   "translations": {
+    "fa": "همه‌تون می‌تونید با هم بازی کنید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "nicola",
+   "text": "All three of us? Me, Mia and Lily? Hmm… OK. Lily is nice, actually.",
+   "translations": {
+    "fa": "هر سه‌مون؟ من، میا و لیلی؟ هوم… باشه. راستش لیلی مهربونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "three",
+     "fa": "سه"
+    },
+    {
+     "word": "actually",
+     "fa": "راستش"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "That's a great idea!",
+   "translations": {
+    "fa": "فکر عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "nicola",
+   "text": "Better! I feel happy again. Can we have a hug?",
+   "translations": {
+    "fa": "بهتر! دوباره خوشحالم. می‌شه بغلت کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "better",
+     "fa": "بهتر"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "hug",
+     "fa": "بغل"
+    }
+   ]
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Of course! A big hug!",
+   "translations": {
+    "fa": "البته! یه بغل بزرگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "everyone",
+      "thank",
+      "think",
+      "love"
+     ],
+     "suggestion": "Ahh. Thank you, love. You're very good at this. Hot chocolate for everyone, I think!",
+     "suggestionFa": "آه. ممنون عزیزم. تو این کار خیلی خوبی. فکر کنم هات چاکلت برای همه!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "id": "l1_u39_4",
+ "characterId": "tom",
+ "title": "The bins",
+ "titleFa": "سطل‌های زباله",
+ "setting": "Cleaning day · Level 1",
+ "settingFa": "روز نظافت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Bin day tomorrow! The worst job. Can you help me sort the rubbish?",
+   "translations": {
+    "fa": "فردا روز سطل‌هاست! بدترین کار. کمکم می‌کنی زباله‌ها را جدا کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "bin"
+     ],
+     "suggestion": "Yes. Which bin is for what?",
+     "suggestionFa": "آره. کدوم سطل برای چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "many",
+      "bins",
+      "sure"
+     ],
+     "suggestion": "Sure. How many bins are there?",
+     "suggestionFa": "حتماً. چند تا سطل هست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bin day",
+     "fa": "روز جمع‌آوری زباله"
+    },
+    {
+     "word": "sort",
+     "fa": "جدا کردن ؛ دسته‌بندی"
+    },
+    {
+     "word": "rubbish",
+     "fa": "زباله"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"rubbish\" and \"bin\", American \"trash/garbage\" and \"trash can\".",
+    "fa": "rubbish/trash."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Four! Green, black, brown and the food caddy. Green is for recycling.",
+   "translations": {
+    "fa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "goes"
+     ],
+     "suggestion": "What goes in recycling?",
+     "suggestionFa": "چی میره تو بازیافت؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "caddy",
+      "food"
+     ],
+     "suggestion": "What's a food caddy?",
+     "suggestionFa": "سطل غذا چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recycling",
+     "fa": "بازیافت"
+    },
+    {
+     "word": "food caddy",
+     "fa": "سطل کوچک ضایعات غذا"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
+   "translations": {
+    "fa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dirty",
+      "rinse",
+      "i'll"
+     ],
+     "suggestion": "No, it's dirty. I'll rinse it.",
+     "suggestionFa": "نه، کثیفه. آبش می‌کشم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clean"
+     ],
+     "suggestion": "Yes, it's clean.",
+     "suggestionFa": "آره، تمیزه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cardboard",
+     "fa": "مقوا"
+    },
+    {
+     "word": "rinse",
+     "fa": "آب کشیدن"
+    },
+    {
+     "word": "yogurt pot",
+     "fa": "ظرف ماست"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Good lad. Food goes in the little caddy. Banana skins, tea bags, eggshells.",
+   "translations": {
+    "fa": "آفرین. غذا میره تو سطل کوچیک. پوست موز، چای کیسه‌ای، پوست تخم‌مرغ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bags",
+      "tea"
+     ],
+     "suggestion": "Tea bags too?",
+     "suggestionFa": "چای کیسه‌ای هم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "black",
+      "bin",
+      "go"
+     ],
+     "suggestion": "Where does the black bin go?",
+     "suggestionFa": "سطل سیاه چی میشه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "skins",
+     "fa": "پوست‌ها"
+    },
+    {
+     "word": "tea bags",
+     "fa": "چای کیسه‌ای"
+    },
+    {
+     "word": "eggshells",
+     "fa": "پوست تخم‌مرغ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Black is for everything else. Nappies, crisp packets. It's the smelly one!",
+   "translations": {
+    "fa": "سیاه برای بقیهٔ چیزهاست. پوشک، پاکت چیپس. همونی که بو میده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which"
+     ],
+     "suggestion": "Which bin is this for?",
+     "suggestionFa": "این برای کدوم سطله؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "brown",
+      "go"
+     ],
+     "suggestion": "Where does the brown bin go?",
+     "suggestionFa": "سطل قهوه‌ای چی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everything else",
+     "fa": "بقیهٔ چیزها"
+    },
+    {
+     "word": "crisp packets",
+     "fa": "پاکت چیپس"
+    },
+    {
+     "word": "smelly",
+     "fa": "بدبو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "this bin for which",
+      "for which bin is this"
+     ],
+     "echo": "Which bin is this for? The black one!",
+     "better": "Which bin is this for?",
+     "betterFa": "این برای کدوم سطله؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
+   "translations": {
+    "fa": "سطل قهوه‌ای برای باغچه‌ست. چمن و برگ. حالا، کدوم روز میان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesday"
+     ],
+     "suggestion": "Is it Tuesday?",
+     "suggestionFa": "سه‌شنبه‌ست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "website",
+      "council",
+      "let's",
+      "check"
+     ],
+     "suggestion": "Let's check the council website.",
+     "suggestionFa": "بیا سایت شهرداری را چک کنیم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grass",
+     "fa": "چمن"
+    },
+    {
+     "word": "leaves",
+     "fa": "برگ‌ها"
+    },
+    {
+     "word": "council",
+     "fa": "شورای شهر ؛ شهرداری"
+    }
+   ],
+   "cultureNote": {
+    "en": "Each local council in the UK has its own bin rules and collection days — check their website.",
+    "fa": "قوانین هر شهرداری فرق دارد."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Recycling this week. Black bin next week. They swap! I always forget.",
+   "translations": {
+    "fa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridge",
+      "note",
+      "put"
+     ],
+     "suggestion": "Put a note on the fridge.",
+     "suggestionFa": "یه یادداشت رو یخچال بذار.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "monday",
+      "night",
+      "text",
+      "i'll"
+     ],
+     "suggestion": "I'll text you on Monday night.",
+     "suggestionFa": "دوشنبه شب بهت پیام میدم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swap",
+     "fa": "جابه‌جا شدن"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",
+   "translations": {
+    "fa": "اسطوره‌ای! خب، ببریمشون بیرون. خانم خان سطل‌هاش را گذاشته. هیچ‌وقت دیر نمی‌کنه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

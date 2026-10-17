@@ -1,0 +1,130 @@
+## U98 | At the post office (basics) | در اداره پست (پایه) | postoffice | Buy stamps, post letters and collect a parcel | تمبر بخری، نامه پست کنی و بسته تحویل بگیری
+
+# l1_u53_1 | arthur | A stamp, please | یک تمبر، لطفاً | Requests: Can I have…? / I'd like… | درخواست | postoffice
+arthur: Next, please! Good morning. What can I do for you? | نفر بعدی، لطفاً! صبح بخیر. چه کمکی از دستم برمیاد؟
+> Can I have a stamp, please? | می‌شه یه تمبر بدید، لطفاً؟
+> I'd like some stamps, please. | چند تا تمبر می‌خوام، لطفاً.
+W: stamp=تمبر ; next=بعدی
+arthur: Of course. Is it for a letter or a card? In the UK? | البته. برای نامه‌ست یا کارت؟ داخل بریتانیا؟
+> A birthday card, in London. | یه کارت تولد، تو لندن.
+> A letter to my bank. | یه نامه به بانکم.
+W: letter=نامه ; card=کارت
+arthur: Lovely. How many would you like? They come in books of eight too. | عالی. چند تا می‌خواید؟ دفترچه‌های هشت‌تایی هم داریم.
+> Just one, please. | فقط یکی، لطفاً.
+> A book of eight, please. | یه دفترچهٔ هشت‌تایی، لطفاً.
+W: how many=چند تا ; book of stamps=دفترچهٔ تمبر
+X: i would like eight stamp ; i'd like a eight stamps => Eight stamps? A book, then! | I'd like eight stamps, please. | هشت تا تمبر می‌خوام، لطفاً.
+arthur: Good thinking. Stamps never go out of date. Now, the size. Is it a big envelope? | فکر خوبیه. تمبرها هیچ‌وقت تاریخ‌گذشته نمیشن. حالا، اندازه. پاکتش بزرگه؟
+> No, it's a normal envelope. | نه، پاکت معمولیه.
+> It's a big one, A4 size. | بزرگه، اندازهٔ A4.
+W: envelope=پاکت نامه ; size=اندازه ; out of date=تاریخ‌گذشته
+C: Royal Mail prices depend on size: "Letter" (small) and "Large letter" (like A4) cost different amounts. | قیمت بر اساس اندازه.
+arthur: A big one is a "large letter". Let me check it in the slot. It fits! | بزرگه میشه «نامهٔ بزرگ». بذار تو شکاف امتحانش کنم. جا میشه!
+> What's the slot? | شکاف چیه؟
+> How much is a large letter? | نامهٔ بزرگ چنده؟
+W: slot=شکاف ؛ قالب ; fits=جا می‌شود ; large=بزرگ
+arthur: This plastic slot measures it. If it fits, it's a large letter. Anything else today? | این شکاف پلاستیکی اندازه‌ش را می‌گیره. اگه جا بشه، نامهٔ بزرگه. امروز چیز دیگه‌ای؟
+> No, that's all, thanks. | نه، همینه، ممنون.
+> Do you sell envelopes? | پاکت نامه می‌فروشید؟
+W: measures=اندازه می‌گیرد ; that's all=همین است
+arthur: We do — just there, by the cards. That's all? Card or cash? | می‌فروشیم — همون‌جا، کنار کارت‌ها. همینه؟ کارت یا نقد؟
+> Card, please. | کارت، لطفاً.
+> Here's a ten-pound note. | بفرمایید یه اسکناس ده پوندی.
+W: by=کنار ; cash=پول نقد
+arthur: Thank you. Here are your stamps. Stick it top right, love. Have a nice day! | ممنون. بفرمایید تمبرهاتون. بالا سمت راست بچسبونیدش عزیزم. روز خوبی داشته باشید!
+
+# l1_u53_2 | leslie | Posting a card | پست کردن کارت | Time: by / before / at | زمان | postoffice
+leslie: I need to post this card to my sister in Leeds. It's her birthday on Thursday! | باید این کارت را برای خواهرم تو لیدز پست کنم. پنجشنبه تولدشه!
+> Is there a postbox near here? | این نزدیکی صندوق پست هست؟
+> Will it arrive by Thursday? | تا پنجشنبه می‌رسه؟
+W: post=پست کردن ; sister=خواهر ; postbox=صندوق پست
+C: British "post" and "postbox", American "mail" and "mailbox". | post/mail.
+leslie: There's a postbox outside. The red one. Have you got a pen? I need to write the address. | بیرون یه صندوق پست هست. قرمزه. خودکار داری؟ باید آدرس را بنویسم.
+> Here's a pen. | بفرما خودکار.
+> Where does the address go? | آدرس کجا نوشته میشه؟
+W: outside=بیرون ; pen=خودکار ; address=نشانی
+leslie: In the middle of the envelope. Name, house number, street, town and postcode. | وسط پاکت. اسم، شمارهٔ خونه، خیابون، شهر و کد پستی.
+> And the stamp goes top right. | و تمبر بالا سمت راست میره.
+> Do I write my address too? | آدرس خودم را هم بنویسم؟
+W: middle=وسط ; street=خیابان ; town=شهر
+leslie: Yes, on the back. In case it comes back. Ooh, look at the box. What time is the last collection? | آره، پشتش. اگه برگشت. اوه، صندوق را ببین. آخرین جمع‌آوری کیه؟
+> It says 5.30 p.m. | نوشته پنج و نیم بعدازظهر.
+> What's a collection? | جمع‌آوری چیه؟
+W: on the back=پشت ; in case=در صورتی که ; collection=جمع‌آوری
+C: Every UK postbox shows its collection times — when the post is taken away. | ساعت جمع‌آوری روی صندوق.
+leslie: When the postman empties the box. It's four o'clock now. We're before the last collection. | وقتی پستچی صندوق را خالی می‌کنه. الان ساعت چهاره. قبل از آخرین جمع‌آوری هستیم.
+> Great. It goes today, then. | عالی. پس امروز میره.
+> Will it get there by Thursday? | تا پنجشنبه می‌رسه؟
+W: postman=پستچی ; empties=خالی می‌کند ; before=قبل از
+X: will it arrive until thursday ; will it get there at thursday => By Thursday? Hopefully! | Will it arrive by Thursday? | تا پنجشنبه می‌رسه؟
+leslie: It should arrive on Wednesday or Thursday. First class is quicker, but this has a second-class stamp. | باید چهارشنبه یا پنجشنبه برسه. درجه یک سریع‌تره، ولی این تمبر درجه دو داره.
+> Second class is fine. | درجه دو خوبه.
+> Let's buy a first-class stamp, to be safe. | بیا یه تمبر درجه یک بخریم، برای اطمینان.
+W: arrive=رسیدن ; quicker=سریع‌تر ; to be safe=برای اطمینان
+leslie: Good idea — just in case. Can you pop it in the box? Mind your fingers! | فکر خوبیه — محض احتیاط. می‌تونی بندازیش تو صندوق؟ مواظب انگشتات باش!
+> Done! It's in the box. | انجام شد! تو صندوقه.
+> Happy birthday to your sister! | تولد خواهرت مبارک!
+W: pop=انداختن ؛ گذاشتن ; just in case=محض احتیاط
+leslie: Thank you! She'll love it. Nicola drew a horse on it. Well — she says it's a horse. It looks like a potato! | ممنون! عاشقش میشه. نیکولا روش یه اسب کشید. خب — اون میگه اسبه. شبیه سیب‌زمینیه!
+
+# l1_u53_3 | arthur | First or second class? | درجه یک یا دو؟ | Comparing: faster / cheaper / more expensive | مقایسه | postoffice
+arthur: Hello again! Another letter? First or second class? | دوباره سلام! یه نامهٔ دیگه؟ درجه یک یا درجه دو؟
+> What's the difference? | فرقشون چیه؟
+> Which is faster? | کدوم سریع‌تره؟
+W: first class=درجه یک ; second class=درجه دو ; difference=تفاوت
+arthur: First class usually arrives the next day. Second class takes two or three days. | درجه یک معمولاً روز بعد می‌رسه. درجه دو دو سه روز طول می‌کشه.
+> Is first class more expensive? | درجه یک گرون‌تره؟
+> So second class is slower. | پس درجه دو کندتره.
+W: next day=روز بعد ; takes=طول می‌کشد ; slower=کندتر
+arthur: Yes, first class is more expensive. Second class is cheaper. Is it urgent? | آره، درجه یک گرون‌تره. درجه دو ارزون‌تره. فوریه؟
+> Yes, it's urgent. It's for my visa. | آره، فوریه. برای ویزامه.
+> No, it isn't urgent. | نه، فوری نیست.
+W: cheaper=ارزان‌تر ; urgent=فوری ; visa=ویزا
+X: it is more cheap ; second class is more cheaper => It's cheaper? Yes, it is! | Second class is cheaper. | درجه دو ارزون‌تره.
+arthur: For important papers, I'd use Special Delivery. It's the fastest and the safest. | برای مدارک مهم، من از ارسال ویژه استفاده می‌کنم. سریع‌ترین و امن‌ترینه.
+> Is it more expensive than first class? | از درجه یک گرون‌تره؟
+> Why is it safer? | چرا امن‌تره؟
+W: important=مهم ; papers=مدارک ; fastest=سریع‌ترین ; safest=امن‌ترین
+C: For important documents, use "Special Delivery Guaranteed" — it's tracked and must be signed for. | ارسال ویژه با رهگیری.
+arthur: It's tracked, and somebody signs for it. And it arrives before one o'clock tomorrow. | رهگیری میشه، و یکی تحویلش را امضا می‌کنه. و فردا قبل از ساعت یک می‌رسه.
+> OK. Special Delivery, please. | باشه. ارسال ویژه، لطفاً.
+> How do I track it? | چطوری رهگیریش کنم؟
+W: tracked=رهگیری‌شده ; signs for=امضا کردن برای تحویل
+arthur: Wise choice. Here's your receipt. The tracking number is at the top. Keep it safe! | انتخاب عاقلانه. اینم رسیدتون. شمارهٔ رهگیری بالاشه. خوب نگهش دارید!
+> Thank you. I'll check it online. | ممنون. آنلاین چکش می‌کنم.
+> Is the tracking number this one? | شمارهٔ رهگیری اینه؟
+W: receipt=رسید ; tracking number=شمارهٔ رهگیری ; online=آنلاین
+arthur: That's the one. I've worked here forty years, and Special Delivery has never let me down. Good luck with your visa! | همینه. چهل ساله اینجا کار می‌کنم، و ارسال ویژه هیچ‌وقت ناامیدم نکرده. با ویزاتون موفق باشید!
+
+# l1_u53_4 | leslie | A parcel for Nana | بسته‌ای برای نانا | Present perfect basics: It's arrived / I've got… | حال کامل ساده | postoffice
+leslie: Nana got a card from the postman. "Sorry we missed you." Can you collect her parcel? | نانا یه کارت از پستچی گرفت. «متأسفیم که نبودید.» می‌تونی بسته‌ش را تحویل بگیری؟
+> Sure. Where do I go? | حتماً. کجا برم؟
+> What does the card say? | کارت چی میگه؟
+W: missed=نبودید ؛ از دست دادیم ; collect=تحویل گرفتن ; parcel=بسته
+C: When nobody is home, Royal Mail leaves a red "Sorry we missed you" card. | کارت قرمز «متأسفیم که نبودید».
+leslie: It says it's at the post office on the high street. You need the card and ID. | میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.
+> Whose ID? Mine or Nana's? | مدرک کی؟ مال من یا نانا؟
+> Can I take my passport? | می‌تونم پاسپورتم را ببرم؟
+W: ID=مدرک شناسایی ; passport=گذرنامه
+leslie: Nana has signed the back of the card. So take your ID and her card. | نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.
+> She's signed it. Good. | امضاش کرده. خوبه.
+> Has she written my name? | اسم منو نوشته؟
+W: signed=امضا کرده ; back=پشت
+arthur: Hello! Collecting? Can I see the card and your ID, please? | سلام! تحویل گرفتن؟ می‌شه کارت و مدرکتون را ببینم، لطفاً؟
+> Here's the card and my passport. | بفرمایید کارت و پاسپورتم.
+> It's for my neighbour, Mrs Thompson. | برای همسایه‌مه، خانم تامپسون.
+W: collecting=تحویل گرفتن ; neighbour=همسایه
+arthur: Let me look… Ah yes, it's arrived. It's quite heavy! Has she ordered bricks? Ha! | بذار ببینم… آه بله، رسیده. یه کم سنگینه! آجر سفارش داده؟ ها!
+> Ha! I don't know what it is. | ها! نمی‌دونم چیه.
+> I think it's wool for knitting. | فکر کنم کاموا برای بافتنیه.
+W: arrived=رسیده ; heavy=سنگین ; ordered=سفارش داده
+X: it is arrived ; it has arrive => It's arrived? Yes, here it is! | It's arrived. | رسیده.
+arthur: Knitting wool! That's Weda for you. Sign here, please, to say you've got it. | کاموای بافتنی! این همون وداست. لطفاً اینجا امضا کنید که تحویل گرفتید.
+> Here's my signature. | اینم امضام.
+> Where do I sign? | کجا امضا کنم؟
+W: sign=امضا کردن ; signature=امضا
+arthur: Perfect. Give her my best. Tell her the scarf she made me last year is still keeping me warm! | عالی. سلام منو بهش برسونید. بهش بگید شال‌گردنی که پارسال برام بافت هنوز گرمم نگه می‌داره!
+> I will! | حتماً!
+> She knitted you a scarf? | براتون شال‌گردن بافته؟
+W: give her my best=سلام مرا برسان ; scarf=شال‌گردن
+leslie: Nana knits for half of Hackney! Ha! Thanks for collecting it. Let's open it together — I bet it's purple wool. | نانا برای نصف هکنی بافتنی می‌بافه! ها! ممنون که تحویل گرفتی. بیا با هم بازش کنیم — شرط می‌بندم کاموای بنفشه.

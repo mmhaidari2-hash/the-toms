@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "could",
       "white",
+      "could",
       "have"
      ],
      "suggestion": "Could I have a flat white, please?",
@@ -156,9 +156,9 @@
     {
      "keywords": [
       "croissant",
-      "then",
       "have",
-      "i'll"
+      "i'll",
+      "then"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -168,8 +168,8 @@
     },
     {
      "keywords": [
-      "that's",
       "thanks",
+      "that's",
       "all"
      ],
      "suggestion": "No thanks, that's all.",
@@ -257,9 +257,9 @@
     },
     {
      "keywords": [
+      "then",
       "more",
       "nine",
-      "then",
       "go"
      ],
      "suggestion": "Nine more to go, then!",
@@ -294,7 +294,7 @@
       "months",
       "moved",
       "here",
-      "few"
+      "ago"
      ],
      "suggestion": "Yes, I moved here a few months ago.",
      "suggestionFa": "آره، چند ماه پیش اومدم.",
@@ -307,7 +307,7 @@
       "working",
       "started",
       "nearby",
-      "just"
+      "i've"
      ],
      "suggestion": "I've just started working nearby.",
      "suggestionFa": "تازه کار نزدیک اینجا را شروع کردم.",
@@ -340,8 +340,8 @@
      "keywords": [
       "where's",
       "chippy",
-      "callum",
-      "thanks"
+      "thanks",
+      "callum"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -353,7 +353,7 @@
      "keywords": [
       "really",
       "that's",
-      "back",
+      "i'll",
       "kind"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",

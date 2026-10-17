@@ -1,0 +1,366 @@
+{
+ "id": "l1_u40_1",
+ "characterId": "tom",
+ "title": "Scrambled eggs",
+ "titleFa": "تخم‌مرغ همزده",
+ "setting": "Simple cooking · Level 1",
+ "settingFa": "آشپزی ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
+   "translations": {
+    "fa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first"
+     ],
+     "suggestion": "Yes! What do I do first?",
+     "suggestionFa": "آره! اول چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "lie"
+     ],
+     "suggestion": "What's a lie-in?",
+     "suggestionFa": "لای‌این یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lie-in",
+     "fa": "دیرتر بیدار شدن ؛ خوابیدن تا دیروقت"
+    },
+    {
+     "word": "scrambled eggs",
+     "fa": "تخم‌مرغ همزده"
+    },
+    {
+     "word": "breakfast",
+     "fa": "صبحانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"lie-in\" is staying in bed late in the morning — a weekend treat for British parents!",
+    "fa": "lie-in خواب صبح آخر هفته."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "First, crack the eggs into the bowl. Eight eggs. Big family!",
+   "translations": {
+    "fa": "اول، تخم‌مرغ‌ها را تو کاسه بشکن. هشت تا. خانوادهٔ بزرگ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eight",
+      "eggs",
+      "ok"
+     ],
+     "suggestion": "Eight eggs! OK.",
+     "suggestionFa": "هشت تا! باشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "shell",
+      "oops",
+      "some"
+     ],
+     "suggestion": "Oops, there's some shell in it.",
+     "suggestionFa": "اوه، یه کم پوسته افتاد توش.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crack",
+     "fa": "شکستن"
+    },
+    {
+     "word": "bowl",
+     "fa": "کاسه"
+    },
+    {
+     "word": "shell",
+     "fa": "پوسته"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "No problem. Get it out with a spoon. Now whisk them. Fast!",
+   "translations": {
+    "fa": "مشکلی نیست. با قاشق درش بیار. حالا همشون بزن. سریع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "whisk"
+     ],
+     "suggestion": "What do I whisk with?",
+     "suggestionFa": "با چی همش بزنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whisk",
+     "fa": "هم زدن تند ؛ همزن"
+    },
+    {
+     "word": "spoon",
+     "fa": "قاشق"
+    },
+    {
+     "word": "fast",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "With a fork is fine. Add a bit of milk and some salt and pepper.",
+   "translations": {
+    "fa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "how"
+     ],
+     "suggestion": "How much salt?",
+     "suggestionFa": "چقدر نمک؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pinch",
+      "just"
+     ],
+     "suggestion": "Just a pinch of salt?",
+     "suggestionFa": "فقط یه ذره نمک؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "add",
+     "fa": "اضافه کردن"
+    },
+    {
+     "word": "salt",
+     "fa": "نمک"
+    },
+    {
+     "word": "pepper",
+     "fa": "فلفل"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i put salt how much",
+      "how many salt"
+     ],
+     "echo": "How much salt? Just a pinch!",
+     "better": "How much salt?",
+     "betterFa": "چقدر نمک؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "A pinch. Now put butter in the pan. Medium heat, not high.",
+   "translations": {
+    "fa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butter's",
+      "melting"
+     ],
+     "suggestion": "The butter's melting.",
+     "suggestionFa": "کره داره آب میشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pour",
+      "eggs",
+      "now"
+     ],
+     "suggestion": "Now pour in the eggs?",
+     "suggestionFa": "حالا تخم‌مرغ را بریزم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pan",
+     "fa": "تابه"
+    },
+    {
+     "word": "heat",
+     "fa": "حرارت"
+    },
+    {
+     "word": "melting",
+     "fa": "آب می‌شود"
+    },
+    {
+     "word": "pour",
+     "fa": "ریختن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
+   "translations": {
+    "fa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stirring",
+      "getting",
+      "they're",
+      "thick"
+     ],
+     "suggestion": "I'm stirring. They're getting thick.",
+     "suggestionFa": "دارم هم می‌زنم. دارن سفت میشن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "stop"
+     ],
+     "suggestion": "When do I stop?",
+     "suggestionFa": "کی وایستم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stir",
+     "fa": "هم زدن"
+    },
+    {
+     "word": "slowly",
+     "fa": "آهسته"
+    },
+    {
+     "word": "thick",
+     "fa": "سفت ؛ غلیظ"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
+   "translations": {
+    "fa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ready"
+     ],
+     "suggestion": "Yes, the toast is ready.",
+     "suggestionFa": "آره، نون تست آماده‌ست.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter",
+      "shall"
+     ],
+     "suggestion": "Shall I butter the toast?",
+     "suggestionFa": "نون تست را کره بزنم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "soft",
+     "fa": "نرم"
+    },
+    {
+     "word": "take off",
+     "fa": "از روی اجاق برداشتن"
+    },
+    {
+     "word": "toast",
+     "fa": "نان تست"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Perfect! Breakfast is served. Leslie, wake up! The chefs have been busy!",
+   "translations": {
+    "fa": "عالی! صبحونه حاضره. لزلی، بیدار شو! آشپزها حسابی کار کردن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

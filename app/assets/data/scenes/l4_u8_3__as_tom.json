@@ -24,8 +24,8 @@
       "registered",
       "elections",
       "citizen",
-      "local",
-      "right"
+      "right",
+      "local"
      ],
      "suggestion": "Right, I'm off to vote. Are you registered? You can vote in local elections, you know, even if you're not a citizen yet.",
      "suggestionFa": "خب، دارم می‌رم رأی بدم. ثبت‌نام کردی؟ می‌دونی، تو انتخابات محلی می‌تونی رأی بدی، حتی اگه هنوز شهروند نیستی.",
@@ -50,7 +50,7 @@
       "station's",
       "eligible",
       "polling",
-      "minutes"
+      "depends"
      ],
      "suggestion": "It depends on your status and nationality, but you're eligible — you got your polling card. The station's at the primary school. Takes five minutes.",
      "suggestionFa": "بستگی به وضعیت و ملیتت داره، ولی تو واجد شرایطی — کارت رأیت را گرفتی. حوزه تو مدرسهٔ ابتداییه. پنج دقیقه طول می‌کشه.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "candidate",
+      "pencil",
       "that's",
       "ballot",
-      "pencil",
       "paper"
      ],
      "suggestion": "Photo ID — that's new. You give your name, they give you a ballot paper, you go into a booth and put a cross next to one candidate. Pencil, not pen.",
@@ -100,7 +100,7 @@
       "majority",
       "whether",
       "people",
-      "mostly"
+      "that's"
      ],
      "suggestion": "Tradition, mostly! And yes — it's \"first past the post\". Most votes wins, even if it's not a majority. People argue about whether that's fair.",
      "suggestionFa": "بیشتر سنته! و آره — «اول از خط عبور کن»ـه. بیشترین رأی برنده‌ست، حتی اگه اکثریت نباشه. مردم بحث می‌کنن که آیا منصفانه‌ست.",

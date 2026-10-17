@@ -1,0 +1,405 @@
+{
+ "id": "l1_u19_2",
+ "characterId": "ryan",
+ "title": "Where are my socks?",
+ "titleFa": "جوراب‌هام کجان؟",
+ "setting": "My bedroom · Level 1",
+ "settingFa": "اتاق خوابم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "I can't find my football socks! The match starts in twenty minutes!",
+   "translations": {
+    "fa": "جوراب‌های فوتبالم را پیدا نمی‌کنم! بازی بیست دقیقهٔ دیگه شروع میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "colour",
+      "they"
+     ],
+     "suggestion": "What colour are they?",
+     "suggestionFa": "چه رنگین؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "panic",
+      "don't",
+      "help",
+      "i'll"
+     ],
+     "suggestion": "Don't panic. I'll help you.",
+     "suggestionFa": "هول نکن. کمکت می‌کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "find",
+     "fa": "پیدا کردن"
+    },
+    {
+     "word": "match",
+     "fa": "مسابقه"
+    },
+    {
+     "word": "starts",
+     "fa": "شروع می‌شود"
+    },
+    {
+     "word": "panic",
+     "fa": "هول کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Red and white. Are they under the bed?",
+   "translations": {
+    "fa": "قرمز و سفید. زیر تختن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "aren't",
+      "under",
+      "they",
+      "bed"
+     ],
+     "suggestion": "No, they aren't under the bed.",
+     "suggestionFa": "نه، زیر تخت نیستن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "here",
+      "sock",
+      "blue"
+     ],
+     "suggestion": "There's a sock here, but it's blue.",
+     "suggestionFa": "یه جوراب اینجاست، ولی آبیه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "aren't",
+     "fa": "نیستند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "they not under bed",
+      "no they isn't under the bed"
+     ],
+     "echo": "Not under the bed? Hmm.",
+     "better": "They aren't under the bed.",
+     "betterFa": "زیر تخت نیستن."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Blue? That's not mine. Are they in the drawer?",
+   "translations": {
+    "fa": "آبی؟ مال من نیست. تو کشوئن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drawer",
+      "shirts",
+      "full",
+      "t"
+     ],
+     "suggestion": "No, the drawer is full of T-shirts.",
+     "suggestionFa": "نه، کشو پر از تی‌شرته.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "socks",
+      "pants",
+      "see",
+      "can"
+     ],
+     "suggestion": "I can see pants, but no socks!",
+     "suggestionFa": "شورت می‌بینم، ولی جوراب نه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drawer",
+     "fa": "کشو"
+    },
+    {
+     "word": "full of",
+     "fa": "پر از"
+    },
+    {
+     "word": "pants",
+     "fa": "شورت"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pants\" = underwear; American \"pants\" = British \"trousers\"!",
+    "fa": "pants در بریتانیا یعنی شورت."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Ha! Pants. What about the washing basket?",
+   "translations": {
+    "fa": "ها! شورت. سبد لباس‌چرک چطور؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washing",
+      "here",
+      "they"
+     ],
+     "suggestion": "Yes! Here they are, in the washing basket.",
+     "suggestionFa": "آره! ایناهاشون، تو سبد لباس‌چرک.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "dirty",
+      "but"
+     ],
+     "suggestion": "They're in the basket… but they're dirty!",
+     "suggestionFa": "تو سبدن… ولی کثیفن!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "washing basket",
+     "fa": "سبد لباس چرک"
+    },
+    {
+     "word": "dirty",
+     "fa": "کثیف"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Dirty? Oh no! Are they very smelly?",
+   "translations": {
+    "fa": "کثیف؟ وای نه! خیلی بو می‌دن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "smelly"
+     ],
+     "suggestion": "Yes. Very smelly!",
+     "suggestionFa": "آره. خیلی بو می‌دن!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bad"
+     ],
+     "suggestion": "Not too bad.",
+     "suggestionFa": "نه خیلی بد.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smelly",
+     "fa": "بدبو"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "I've got no time to wash them. I'll wear them! Where's my other boot?",
+   "translations": {
+    "fa": "وقت ندارم بشورمشون. همینا را می‌پوشم! اون یکی کفش فوتبالم کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "door"
+     ],
+     "suggestion": "Is it behind the door?",
+     "suggestionFa": "پشت دره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trophy",
+      "shelf",
+      "next"
+     ],
+     "suggestion": "On the shelf, next to the trophy.",
+     "suggestionFa": "رو قفسه، کنار جام.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boot",
+     "fa": "کفش فوتبال"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "trophy",
+     "fa": "جام"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Next to the trophy! Brilliant. My water bottle? Have you seen it?",
+   "translations": {
+    "fa": "کنار جام! عالی. بطری آبم؟ دیدیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "desk"
+     ],
+     "suggestion": "It's on your desk.",
+     "suggestionFa": "رو میزته.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kitchen",
+      "think"
+     ],
+     "suggestion": "I think it's in the kitchen.",
+     "suggestionFa": "فکر کنم تو آشپزخونه‌ست.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "water bottle",
+     "fa": "بطری آب"
+    },
+    {
+     "word": "seen",
+     "fa": "دیده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Desk, yes. Socks, boots, water, shin pads… I'm ready! Thanks, mate!",
+   "translations": {
+    "fa": "میز، آره. جوراب، کفش، آب، ساق‌بند… آماده‌ام! ممنون رفیق!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "score",
+      "goal",
+      "luck"
+     ],
+     "suggestion": "Good luck! Score a goal!",
+     "suggestionFa": "موفق باشی! گل بزن!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "match",
+      "have"
+     ],
+     "suggestion": "Have a good match!",
+     "suggestionFa": "بازی خوبی داشته باشی!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shin pads",
+     "fa": "ساق‌بند"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    },
+    {
+     "word": "score a goal",
+     "fa": "گل زدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Mate\" is a friendly British word for a friend — like \"dude\" in American English.",
+    "fa": "mate یعنی رفیق."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Cheers! Come and watch if you want. It's at the park. Bring Nicola — she shouts the loudest!",
+   "translations": {
+    "fa": "ممنون! اگه خواستی بیا تماشا. تو پارکه. نیکولا را هم بیار — از همه بلندتر داد می‌زنه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

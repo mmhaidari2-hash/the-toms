@@ -1,0 +1,249 @@
+{
+ "id": "l1_u27_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Borrowing some milk",
+ "titleFa": "(در نقش Tom) قرض گرفتن کمی شیر",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u27_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "surprise",
+      "hello",
+      "come",
+      "oh"
+     ],
+     "suggestion": "Oh, hello! What a surprise. Come in! Is everything OK?",
+     "suggestionFa": "آه، سلام! چه غافلگیری‌ای. بیا تو! همه چی مرتبه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sorry to bother you, Tom.",
+   "translations": {
+    "fa": "ببخشید مزاحم شدم تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "bother",
+      "what's",
+      "all"
+     ],
+     "suggestion": "No bother at all! What's the problem?",
+     "suggestionFa": "اصلاً مزاحمتی نیست! مشکل چیه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I've got no milk for my tea.",
+   "translations": {
+    "fa": "برای چایم شیر ندارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "disaster",
+      "without",
+      "that's",
+      "course",
+      "milk"
+     ],
+     "suggestion": "Of course! Tea without milk — that's a disaster! How much do you need?",
+     "suggestionFa": "البته! چای بدون شیر — این یه فاجعه‌ست! چقدر لازم داری؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Just a little. For one cup.",
+   "translations": {
+    "fa": "فقط یه کم. برای یه فنجون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bottle",
+      "leslie",
+      "whole",
+      "we've",
+      "three"
+     ],
+     "suggestion": "Take the whole bottle. We've got three. Leslie buys too much!",
+     "suggestionFa": "کل بطری را ببر. سه تا داریم. لزلی زیادی می‌خره!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Are you sure?",
+   "translations": {
+    "fa": "مطمئنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "sugar",
+      "bags",
+      "have",
+      "got"
+     ],
+     "suggestion": "Definitely. Have you got sugar? Tea bags?",
+     "suggestionFa": "قطعاً. شکر داری؟ چای کیسه‌ای؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, I've got tea bags.",
+   "translations": {
+    "fa": "آره، چای کیسه‌ای دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "until",
+      "shop",
+      "good",
+      "open"
+     ],
+     "suggestion": "Good. Why didn't you go to the shop? It's open until ten.",
+     "suggestionFa": "خوبه. چرا نرفتی مغازه؟ تا ده بازه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's raining, and I'm tired.",
+   "translations": {
+    "fa": "بارون میاد، و خسته‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "superhero",
+      "patel's",
+      "corner",
+      "closes",
+      "enough"
+     ],
+     "suggestion": "Ha! Fair enough. Mr Patel's corner shop never closes. He's like a superhero.",
+     "suggestionFa": "ها! منطقیه. مغازهٔ سر نبش آقای پاتل هیچ‌وقت نمی‌بنده. مثل ابرقهرمانه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I'll buy you milk tomorrow.",
+   "translations": {
+    "fa": "فردا برات شیر می‌خرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neighbours",
+      "sometime",
+      "biscuit",
+      "that's",
+      "bring"
+     ],
+     "suggestion": "Don't be silly! That's what neighbours are for. You can bring me a biscuit sometime!",
+     "suggestionFa": "مسخره نشو! همسایه برای همینه. یه وقتی یه بیسکویت برام بیار!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Deal! Thanks, Tom.",
+   "translations": {
+    "fa": "قبول! ممنون تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "khan's",
+      "close",
+      "enjoy",
+      "cuppa",
+      "mate"
+     ],
+     "suggestion": "Any time, mate. Enjoy your cuppa! And close the gate — Mrs Khan's cat gets out!",
+     "suggestionFa": "هر وقت رفیق. چایت نوش جان! و در حیاط را ببند — گربهٔ خانم خان در میره!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

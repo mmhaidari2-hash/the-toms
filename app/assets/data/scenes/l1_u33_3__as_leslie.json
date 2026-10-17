@@ -1,0 +1,319 @@
+{
+ "id": "l1_u33_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Choosing flowers",
+ "titleFa": "(در نقش Leslie) انتخاب گل",
+ "setting": "The weekend market · Level 1",
+ "settingFa": "بازار آخر هفته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u33_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "because",
+      "flowers",
+      "flower",
+      "stall",
+      "look"
+     ],
+     "suggestion": "Look at the flower stall! I want to buy some flowers for Weda. Just because.",
+     "suggestionFa": "غرفهٔ گل را ببین! می‌خوام برای ودا گل بخرم. همین‌طوری.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What a lovely idea.",
+   "translations": {
+    "fa": "چه فکر قشنگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "Nana likes yellow! Yellow is her favourite colour!",
+   "translations": {
+    "fa": "نانا زرد دوست داره! زرد رنگ محبوبشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yellow",
+     "fa": "زرد"
+    },
+    {
+     "word": "sunflowers",
+     "fa": "گل آفتابگردان"
+    },
+    {
+     "word": "roses",
+     "fa": "رزها"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Sunflowers are yellow.",
+   "translations": {
+    "fa": "آفتابگردون زرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunflowers",
+      "prefer",
+      "which",
+      "roses",
+      "hmm"
+     ],
+     "suggestion": "Sunflowers or roses? Hmm. Which do you prefer, Mehdi?",
+     "suggestionFa": "آفتابگردون یا رز؟ هوم. تو کدوم را ترجیح میدی {you}؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I prefer the sunflowers. They're happy.",
+   "translations": {
+    "fa": "من آفتابگردون را ترجیح میدم. شادن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunflowers",
+      "kitchen",
+      "weda's",
+      "point",
+      "small"
+     ],
+     "suggestion": "Good point. But sunflowers are big. Weda's kitchen is small!",
+     "suggestionFa": "نکتهٔ خوبیه. ولی آفتابگردون‌ها بزرگن. آشپزخونهٔ ودا کوچیکه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Then let's get the roses.",
+   "translations": {
+    "fa": "پس رز بخریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "Can we get daffodils too? They're yellow AND small!",
+   "translations": {
+    "fa": "می‌شه نرگس هم بخریم؟ هم زردن هم کوچیک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "daffodils",
+     "fa": "گل نرگس زرد"
+    },
+    {
+     "word": "good thinking",
+     "fa": "فکر خوب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Daffodils are a symbol of spring in Britain, and the national flower of Wales.",
+    "fa": "نرگس نماد بهار و گل ملی ولز."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Daffodils! Good thinking, Nicola.",
+   "translations": {
+    "fa": "نرگس! فکر خوبیه نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daffodils",
+      "they're",
+      "pounds",
+      "let's",
+      "bunch"
+     ],
+     "suggestion": "No, they're only three pounds a bunch. Let's get a bunch of daffodils and two roses.",
+     "suggestionFa": "نه، دسته‌ای فقط سه پوند. یه دسته نرگس و دو تا رز بخریم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Can we wrap them in paper?",
+   "translations": {
+    "fa": "می‌شه تو کاغذ بپیچیمشون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "nicola",
+   "text": "Me! Me! I'll carry them very carefully. Can I give them to Nana?",
+   "translations": {
+    "fa": "من! من! خیلی با دقت میارمشون. می‌تونم بدمشون به نانا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carefully",
+     "fa": "با دقت"
+    },
+    {
+     "word": "give",
+     "fa": "دادن"
+    },
+    {
+     "word": "drop",
+     "fa": "انداختن"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Of course you can.",
+   "translations": {
+    "fa": "البته که می‌تونی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweetie",
+      "course",
+      "before",
+      "tears",
+      "let's"
+     ],
+     "suggestion": "Of course, sweetie. Nana is going to cry happy tears. Let's go before they wilt!",
+     "suggestionFa": "البته عزیزم. نانا از خوشحالی گریه می‌کنه. بریم قبل از اینکه پژمرده بشن!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

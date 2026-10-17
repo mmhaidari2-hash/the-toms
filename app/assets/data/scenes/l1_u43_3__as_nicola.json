@@ -1,0 +1,322 @@
+{
+ "id": "l1_u43_3__as_nicola",
+ "characterId": "priya",
+ "title": "(As Nicola) Where's the toilet?",
+ "titleFa": "(در نقش Nicola) دستشویی کجاست؟",
+ "setting": "Asking for help · Level 1",
+ "settingFa": "کمک خواستن",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u43_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "priya",
+   "text": "Hi again! Oh, who's this little one?",
+   "translations": {
+    "fa": "دوباره سلام! آه، این کوچولو کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little one",
+     "fa": "کوچولو"
+    },
+    {
+     "word": "toilet",
+     "fa": "دستشویی ؛ توالت"
+    },
+    {
+     "word": "urgent",
+     "fa": "فوری"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"toilet\" or \"loo\", American \"restroom\" or \"bathroom\".",
+    "fa": "toilet/loo/restroom."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "This is Nicola. Is there a toilet here?",
+   "translations": {
+    "fa": "این نیکولاست. اینجا دستشویی هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "need",
+      "wee",
+      "now"
+     ],
+     "suggestion": "I need a wee! Now!",
+     "suggestionFa": "جیش دارم! همین الان!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Quick, Nicola!",
+   "translations": {
+    "fa": "سریع نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "priya",
+   "text": "Customer toilets are at the back, past the bakery. Then turn left.",
+   "translations": {
+    "fa": "دستشویی مشتری‌ها ته فروشگاهه، بعد از نونوایی. بعد بپیچ چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "customer",
+     "fa": "مشتری"
+    },
+    {
+     "word": "past",
+     "fa": "بعد از ؛ از کنار"
+    },
+    {
+     "word": "turn left",
+     "fa": "بپیچ چپ"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Past the bakery, then left.",
+   "translations": {
+    "fa": "بعد از نونوایی، بعد چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "priya",
+   "text": "Not far. Thirty seconds! There's a code on the door. It's one-two-three-four.",
+   "translations": {
+    "fa": "دور نیست. سی ثانیه! رو در یه رمز هست. یک-دو-سه-چهار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "code",
+     "fa": "رمز"
+    },
+    {
+     "word": "door",
+     "fa": "در"
+    },
+    {
+     "word": "baby-changing",
+     "fa": "تعویض پوشک"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "A code? OK, one-two-three-four.",
+   "translations": {
+    "fa": "رمز؟ باشه، یک-دو-سه-چهار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "priya",
+   "text": "Yes, next to the toilets. Hurry!",
+   "translations": {
+    "fa": "آره، کنار دستشویی‌ها. عجله کنید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hurry",
+     "fa": "عجله کردن"
+    },
+    {
+     "word": "run",
+     "fa": "دویدن"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Come on, Nicola. Run!",
+   "translations": {
+    "fa": "بیا نیکولا. بدو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "hands",
+      "phew",
+      "soap",
+      "wash"
+     ],
+     "suggestion": "Made it! Phew! Can I wash my hands? Is there soap?",
+     "suggestionFa": "رسیدیم! آخیش! می‌تونم دستام را بشورم؟ صابون هست؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Yes, there's soap by the sink.",
+   "translations": {
+    "fa": "آره، کنار روشویی صابون هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scared",
+      "towels",
+      "dryer",
+      "paper",
+      "loud"
+     ],
+     "suggestion": "The dryer is SO loud! I'm scared! Can I use paper towels?",
+     "suggestionFa": "خشک‌کن خیلی بلنده! می‌ترسم! می‌تونم دستمال کاغذی استفاده کنم؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Yes, here's a paper towel.",
+   "translations": {
+    "fa": "آره، بفرما دستمال کاغذی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "priya",
+   "text": "All better? Here's a sticker for being so quick! Mind how you go!",
+   "translations": {
+    "fa": "همه چی خوبه؟ اینم یه برچسب برای این‌همه سرعت! مواظب خودتون باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,439 @@
+{
+ "id": "l1_u23_2",
+ "characterId": "priya",
+ "title": "What size?",
+ "titleFa": "چه سایزی؟",
+ "setting": "Clothes shopping · Level 1",
+ "settingFa": "خرید لباس",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "I need a dress for a wedding. Ugh, I hate shopping for dresses! Will you help me?",
+   "translations": {
+    "fa": "یه لباس برای عروسی لازم دارم. اه، از خرید لباس متنفرم! کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wedding",
+      "course",
+      "whose"
+     ],
+     "suggestion": "Of course. Whose wedding is it?",
+     "suggestionFa": "البته. عروسی کیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "colour",
+      "want"
+     ],
+     "suggestion": "Yes! What colour do you want?",
+     "suggestionFa": "آره! چه رنگی می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dress",
+     "fa": "لباس زنانه ؛ پیراهن"
+    },
+    {
+     "word": "wedding",
+     "fa": "عروسی"
+    },
+    {
+     "word": "hate",
+     "fa": "متنفر بودن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "My cousin's wedding. In June. Not white — only the bride wears white!",
+   "translations": {
+    "fa": "عروسی دخترخاله‌ام. تو ژوئن. نه سفید — فقط عروس سفید می‌پوشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "blue"
+     ],
+     "suggestion": "What about blue?",
+     "suggestionFa": "آبی چطوره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pretty",
+      "red",
+      "one"
+     ],
+     "suggestion": "This red one is pretty.",
+     "suggestionFa": "این قرمزه قشنگه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cousin",
+     "fa": "دخترخاله/پسرعمو و..."
+    },
+    {
+     "word": "bride",
+     "fa": "عروس"
+    },
+    {
+     "word": "wears",
+     "fa": "می‌پوشد"
+    }
+   ],
+   "cultureNote": {
+    "en": "At British weddings, guests usually avoid wearing white, so they don't compete with the bride.",
+    "fa": "مهمان‌ها سفید نمی‌پوشند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ooh, blue is nice. Excuse me, do you have this in a size twelve?",
+   "translations": {
+    "fa": "اوه، آبی قشنگه. ببخشید، اینو سایز دوازده دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they've",
+      "twelve",
+      "hope",
+      "got"
+     ],
+     "suggestion": "I hope they've got a twelve.",
+     "suggestionFa": "امیدوارم دوازده داشته باشن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "assistant",
+      "let's",
+      "ask"
+     ],
+     "suggestion": "Let's ask the assistant.",
+     "suggestionFa": "از فروشنده بپرسیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hope",
+     "fa": "امیدوار بودن"
+    },
+    {
+     "word": "assistant",
+     "fa": "فروشنده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Size twelve… I'm sorry, we've only got a ten and a fourteen.",
+   "translations": {
+    "fa": "سایز دوازده… متأسفم، فقط ده و چهارده داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fourteen",
+      "try"
+     ],
+     "suggestion": "Try the fourteen?",
+     "suggestionFa": "چهارده را امتحان کن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twelve",
+      "order",
+      "can"
+     ],
+     "suggestion": "Can you order a twelve?",
+     "suggestionFa": "می‌تونید یه دوازده سفارش بدید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "order",
+     "fa": "سفارش دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK women's sizes (8, 10, 12…) are different from US sizes (a UK 12 is about a US 8).",
+    "fa": "سایزهای بریتانیا با آمریکا فرق دارد."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Yes, we can order it online. It arrives in three days. Or try the fourteen with a belt?",
+   "translations": {
+    "fa": "آره، می‌تونیم آنلاین سفارشش بدیم. سه روزه می‌رسه. یا چهارده را با کمربند امتحان کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fourteen",
+      "let's",
+      "first",
+      "try"
+     ],
+     "suggestion": "Let's try the fourteen first.",
+     "suggestionFa": "بیا اول چهارده را امتحان کنیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "days",
+      "fine"
+     ],
+     "suggestion": "Three days is fine.",
+     "suggestionFa": "سه روز اشکال نداره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    },
+    {
+     "word": "arrives",
+     "fa": "می‌رسد"
+    },
+    {
+     "word": "belt",
+     "fa": "کمربند"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "OK, I'll try the fourteen. How does it look? Be honest!",
+   "translations": {
+    "fa": "باشه، چهارده را امتحان می‌کنم. چطوره؟ صادق باش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "big",
+      "bit"
+     ],
+     "suggestion": "It's a bit big.",
+     "suggestionFa": "یه کم بزرگه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "colour",
+      "long",
+      "but"
+     ],
+     "suggestion": "The colour is lovely, but it's too long.",
+     "suggestionFa": "رنگش قشنگه، ولی خیلی بلنده.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "honest",
+     "fa": "صادق"
+    },
+    {
+     "word": "a bit",
+     "fa": "یه کم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is a bit big",
+      "it bit big"
+     ],
+     "echo": "A bit big? Yes, I think so too.",
+     "better": "It's a bit big.",
+     "betterFa": "یه کم بزرگه."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Yes, too big. OK, let's order the twelve. Can I pay now?",
+   "translations": {
+    "fa": "آره، خیلی بزرگه. باشه، دوازده را سفارش بدیم. می‌تونم الان پرداخت کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "choice",
+      "good"
+     ],
+     "suggestion": "Good choice.",
+     "suggestionFa": "انتخاب خوبیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "till",
+      "pay"
+     ],
+     "suggestion": "Yes, pay at the till.",
+     "suggestionFa": "آره، تو صندوق پرداخت کن.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "choice",
+     "fa": "انتخاب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Yes. It's forty-five pounds. Can I take your name and phone number?",
+   "translations": {
+    "fa": "بله. چهل و پنج پونده. اسم و شماره تلفنتون را می‌دید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "leslie",
+      "name",
+      "her"
+     ],
+     "suggestion": "Her name is Leslie Thompson.",
+     "suggestionFa": "اسمش لزلی تامپسونه.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spell",
+      "shall"
+     ],
+     "suggestion": "Shall I spell it for you?",
+     "suggestionFa": "براتون هجی کنم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phone number",
+     "fa": "شماره تلفن"
+    },
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Leslie Thompson, 07700 900123. Thank you! Now I need shoes. Oh no, more shopping!",
+   "translations": {
+    "fa": "لزلی تامپسون، ۰۷۷۰۰ ۹۰۰۱۲۳. ممنون! حالا کفش لازم دارم. وای نه، خرید بیشتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coffee",
+      "first",
+      "shall",
+      "have"
+     ],
+     "suggestion": "Shall we have a coffee first?",
+     "suggestionFa": "اول یه قهوه بخوریم؟",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "come",
+      "can"
+     ],
+     "suggestion": "Come on, you can do it!",
+     "suggestionFa": "بیا، از پسش برمیای!",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shoes",
+     "fa": "کفش"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "leslie",
+   "text": "Coffee first, definitely! Then shoes. Thank you for your patience, love. You're a star!",
+   "translations": {
+    "fa": "اول قهوه، حتماً! بعد کفش. ممنون از صبرت عزیزم. تو یه ستاره‌ای!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

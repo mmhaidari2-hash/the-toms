@@ -1,0 +1,296 @@
+{
+ "id": "l1_u30_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Feeding William",
+ "titleFa": "(در نقش Tom) غذا دادن به ویلیام",
+ "setting": "Helping at home · Level 1",
+ "settingFa": "کمک در خانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u30_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "leslie's",
+      "meeting",
+      "teatime",
+      "right"
+     ],
+     "suggestion": "Right, it's William's teatime. Leslie's at a meeting. Can you give me a hand?",
+     "suggestionFa": "خب، وقت شام ویلیامه. لزلی جلسه‌ست. یه دستی بهم میدی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. What do I do?",
+   "translations": {
+    "fa": "حتماً. چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hungry",
+      "always",
+      "first",
+      "he's",
+      "bib"
+     ],
+     "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
+     "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "A bus bib! Of course.",
+   "translations": {
+    "fa": "پیش‌بند اتوبوسی! البته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "drawer",
+      "fridge",
+      "chair",
+      "then"
+     ],
+     "suggestion": "In the drawer by the fridge. Then put him in the high chair. Careful with his legs.",
+     "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بچه. مواظب پاهاش باش.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "OK, he's in.",
+   "translations": {
+    "fa": "باشه، نشست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "william",
+   "text": "Num num! Num num!",
+   "translations": {
+    "fa": "نام نام! نام نام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "patience",
+     "fa": "صبر"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "He wants his food!",
+   "translations": {
+    "fa": "غذاش را می‌خواد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "carrot",
+      "dinner",
+      "potato",
+      "mashed"
+     ],
+     "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
+     "suggestionFa": "اینم شامش. پورهٔ هویج و سیب‌زمینی. بعد امتحانش کن. خیلی داغ نباشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's warm, not hot.",
+   "translations": {
+    "fa": "گرمه، داغ نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spoonfuls",
+      "william",
+      "brrrm",
+      "comes",
+      "small"
+     ],
+     "suggestion": "Good. Now small spoonfuls. Open wide, William! Here comes the bus! Brrrm!",
+     "suggestionFa": "خوبه. حالا قاشق‌های کوچیک. دهنت را باز کن ویلیام! اتوبوس داره میاد! بررم!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Here comes the number 38!",
+   "translations": {
+    "fa": "اتوبوس ۳۸ داره میاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "william",
+   "text": "Bus! Mmm!",
+   "translations": {
+    "fa": "بوس! ممم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "He said \"bus\"!",
+   "translations": {
+    "fa": "گفت «اتوبوس»!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "orange",
+      "right",
+      "face",
+      "said",
+      "then"
+     ],
+     "suggestion": "He said BUS! Like his dad! Right, then a wipe. His face is orange!",
+     "suggestionFa": "گفت اتوبوس! مثل باباش! خب، بعد پاک کردن. صورتش نارنجیه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "I'll get a wipe.",
+   "translations": {
+    "fa": "دستمال مرطوب میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "natural",
+      "leslie",
+      "hears",
+      "said"
+     ],
+     "suggestion": "Brilliant job. You're a natural! Wait till Leslie hears he said \"bus\"!",
+     "suggestionFa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشنوه گفت «اتوبوس»!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -34,8 +34,8 @@
      "keywords": [
       "letter",
       "could",
-      "read",
-      "help"
+      "help",
+      "read"
      ],
      "suggestion": "Could you help me read this letter?",
      "suggestionFa": "می‌تونید کمکم کنید این نامه را بخونم؟",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "return",
       "what's",
+      "return",
       "tax"
      ],
      "suggestion": "What's a tax return?",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "order",
-      "mean",
-      "here"
+      "here",
+      "mean"
      ],
      "suggestion": "And what does \"in order to\" mean here?",
      "suggestionFa": "و اینجا «in order to» یعنی چی؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "enclosed",
       "envelope",
+      "enclosed",
       "means",
       "oh"
      ],
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "fine",
       "much",
+      "fine",
       "how"
      ],
      "suggestion": "How much is the fine?",
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "weekend",
-      "i'll",
-      "then"
+      "then",
+      "i'll"
      ],
      "suggestion": "I'll do it this weekend then.",
      "suggestionFa": "پس این آخر هفته انجامش می‌دم.",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "clearer",
-      "arthur",
       "that's",
+      "arthur",
       "thank"
      ],
      "suggestion": "Thank you, Arthur. That's much clearer now.",

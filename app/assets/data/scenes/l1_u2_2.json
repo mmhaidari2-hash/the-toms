@@ -20,8 +20,8 @@
     {
      "keywords": [
       "toast",
-      "like",
       "some",
+      "like",
       "i'd"
      ],
      "suggestion": "I'd like some toast, please.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "yucky",
-      "let",
-      "try"
+      "try",
+      "let"
      ],
      "suggestion": "Yucky? Let me try it!",
      "suggestionFa": "بدمزه؟ بذار امتحانش کنم!",
@@ -178,10 +178,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "orange",
-      "juice",
-      "glass"
+      "please",
+      "glass",
+      "juice"
      ],
      "suggestion": "Yes, a glass of orange juice, please.",
      "suggestionFa": "بله، یه لیوان آب پرتقال، لطفاً.",
@@ -287,8 +287,8 @@
     },
     {
      "keywords": [
-      "prefer",
       "really",
+      "prefer",
       "eggs"
      ],
      "suggestion": "Not really. I prefer eggs.",

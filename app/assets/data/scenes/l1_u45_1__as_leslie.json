@@ -1,0 +1,224 @@
+{
+ "id": "l1_u45_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) I can swim",
+ "titleFa": "(در نقش Leslie) شنا بلدم",
+ "setting": "Saying what you can do · Level 1",
+ "settingFa": "گفتن توانایی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u45_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opens",
+      "lido",
+      "next",
+      "look",
+      "week"
+     ],
+     "suggestion": "Look at the lido! It opens next week. Can you swim, Mehdi?",
+     "suggestionFa": "استخر روباز را ببین! هفتهٔ بعد باز میشه. شنا بلدی {you}؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I can swim.",
+   "translations": {
+    "fa": "آره، شنا بلدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "well",
+      "swim",
+      "can"
+     ],
+     "suggestion": "Great! Can you swim well?",
+     "suggestionFa": "عالی! خوب شنا می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, I can swim very well.",
+   "translations": {
+    "fa": "آره، خیلی خوب شنا می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tehran",
+      "isn't",
+      "where",
+      "swim",
+      "iran"
+     ],
+     "suggestion": "Where did you swim in Iran? Tehran isn't by the sea, is it?",
+     "suggestionFa": "تو ایران کجا شنا می‌کردی؟ تهران کنار دریا نیست، نه؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes! In summer we go to the Caspian Sea.",
+   "translations": {
+    "fa": "آره! تابستون‌ها میریم دریای خزر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "though",
+      "lovely",
+      "water",
+      "lido",
+      "swim"
+     ],
+     "suggestion": "How lovely. The lido is cold, though. Can you swim in cold water?",
+     "suggestionFa": "چه قشنگ. ولی استخر روباز سرده. تو آب سرد می‌تونی شنا کنی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No, I can't! I like warm water.",
+   "translations": {
+    "fa": "نه، نمی‌تونم! آب گرم دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "eighteen",
+      "screams",
+      "degrees",
+      "can't"
+     ],
+     "suggestion": "Sometimes eighteen degrees! Tom can't swim in cold water. He screams!",
+     "suggestionFa": "گاهی هجده درجه! تام نمی‌تونه تو آب سرد شنا کنه. جیغ می‌زنه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha! Can Tom swim well?",
+   "translations": {
+    "fa": "ها! تام خوب شنا می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "splash",
+      "jumps",
+      "can't",
+      "dive",
+      "swim"
+     ],
+     "suggestion": "Tom can swim, but he can't dive. He jumps in like a big rock! Splash!",
+     "suggestionFa": "تام شنا بلده، ولی شیرجه نمی‌تونه. مثل یه سنگ بزرگ می‌پره تو! شالاپ!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Can you dive, Leslie?",
+   "translations": {
+    "fa": "تو شیرجه بلدی لزلی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swimming",
+      "school",
+      "really",
+      "fast",
+      "swim"
+     ],
+     "suggestion": "I can! I was in the swimming team at school. Ryan can swim really fast too.",
+     "suggestionFa": "بلدم! تو مدرسه عضو تیم شنا بودم. رایان هم واقعاً تند شنا می‌کنه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Can Nicola swim?",
+   "translations": {
+    "fa": "نیکولا شنا بلده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "armbands",
+      "nicola",
+      "let's",
+      "towel"
+     ],
+     "suggestion": "Nicola can swim with armbands. Let's go on Saturday! Bring a towel and a brave face!",
+     "suggestionFa": "نیکولا با بازوبند شنا می‌کنه. شنبه بریم! یه حوله و یه چهرهٔ شجاع بیار!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

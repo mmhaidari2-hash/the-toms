@@ -1,0 +1,250 @@
+{
+ "id": "l1_u30_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Washing up",
+ "titleFa": "(در نقش Ryan) شستن ظرف‌ها",
+ "setting": "Helping at home · Level 1",
+ "settingFa": "کمک در خانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u30_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "turn",
+      "many",
+      "pans",
+      "says"
+     ],
+     "suggestion": "Ugh. Mum says it's my turn to wash up. There are so many pans!",
+     "suggestionFa": "اوف. مامان میگه نوبت منه ظرف بشورم. این همه قابلمه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I can help you.",
+   "translations": {
+    "fa": "می‌تونم کمکت کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "cheers",
+      "dad's",
+      "turn",
+      "mate"
+     ],
+     "suggestion": "Cheers, mate. Tomorrow it's Dad's turn. Do you want to wash or dry?",
+     "suggestionFa": "دمت گرم رفیق. فردا نوبت باباست. می‌خوای بشوری یا خشک کنی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I'll wash. You dry.",
+   "translations": {
+    "fa": "من می‌شورم. تو خشک کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cupboard",
+      "here's",
+      "plates",
+      "towel",
+      "great"
+     ],
+     "suggestion": "Great. Here's the tea towel. The plates go in that cupboard.",
+     "suggestionFa": "عالی. اینم حوله آشپزخانه. بشقاب‌ها تو اون کابینت میرن.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What's a tea towel?",
+   "translations": {
+    "fa": "حولهٔ چای یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dishwasher",
+      "because",
+      "broken",
+      "cloth",
+      "again"
+     ],
+     "suggestion": "It's just this cloth. Why don't we use the dishwasher? Because it's broken. Again!",
+     "suggestionFa": "فقط همین پارچه‌ست. چرا از ماشین ظرفشویی استفاده نمی‌کنیم؟ چون خرابه. دوباره!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "When is the repair man coming?",
+   "translations": {
+    "fa": "تعمیرکار کی میاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washing",
+      "liquid",
+      "sink",
+      "next",
+      "pass"
+     ],
+     "suggestion": "Next week, Mum says. Can you pass the washing-up liquid? It's by the sink.",
+     "suggestionFa": "مامان میگه هفتهٔ بعد. می‌تونی مایع ظرفشویی را بدی؟ کنار سینکه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here you are.",
+   "translations": {
+    "fa": "بفرما."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beans",
+      "burnt",
+      "again",
+      "dirty",
+      "yep"
+     ],
+     "suggestion": "Yep, that one. Ugh, this pan is so dirty. Dad burnt the beans again!",
+     "suggestionFa": "آره، همون. اوف، این قابلمه خیلی کثیفه. بابا دوباره لوبیاها را سوزوند!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Leave it to soak.",
+   "translations": {
+    "fa": "بذارش خیس بخوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "problem",
+      "leave",
+      "dad's",
+      "water"
+     ],
+     "suggestion": "Good shout. I'll leave it in hot water till morning. Dad's problem now! Ha!",
+     "suggestionFa": "فکر خوبیه. تا صبح تو آب داغ می‌ذارمش. حالا مشکل باباست! ها!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! Poor Tom.",
+   "translations": {
+    "fa": "ها! تام بیچاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "quick",
+      "done",
+      "two",
+      "one"
+     ],
+     "suggestion": "Done! That was quick with two of us. Thanks, Mehdi. I owe you one.",
+     "suggestionFa": "تموم شد! با دو نفر سریع بود. ممنون {you}. یکی طلبت.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "No problem. Any time.",
+   "translations": {
+    "fa": "مشکلی نیست. هر وقت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maybe",
+      "fancy",
+      "deal",
+      "game",
+      "i'll"
+     ],
+     "suggestion": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
+     "suggestionFa": "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

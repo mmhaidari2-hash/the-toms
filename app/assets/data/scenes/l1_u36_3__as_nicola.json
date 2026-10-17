@@ -1,0 +1,318 @@
+{
+ "id": "l1_u36_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Football in the garden",
+ "titleFa": "(در نقش Nicola) فوتبال در حیاط",
+ "setting": "Hobbies · Level 1",
+ "settingFa": "سرگرمی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u36_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "against",
+      "garden",
+      "let's",
+      "sunny"
+     ],
+     "suggestion": "It's sunny! Let's play football in the garden! Me and Mia against you!",
+     "suggestionFa": "آفتابیه! بیا تو حیاط فوتبال بازی کنیم! من و میا در برابر تو!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Two against one? That's not fair!",
+   "translations": {
+    "fa": "دو به یک؟ منصفانه نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mia",
+   "text": "You're a grown-up. You're bigger! The goal is between the two trees.",
+   "translations": {
+    "fa": "تو بزرگسالی. بزرگ‌تری! دروازه بین اون دو تا درخته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grown-up",
+     "fa": "بزرگسال"
+    },
+    {
+     "word": "goal",
+     "fa": "دروازه ؛ گل"
+    },
+    {
+     "word": "between",
+     "fa": "بین"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "And my goal?",
+   "translations": {
+    "fa": "و دروازهٔ من؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "under",
+      "bush",
+      "ball",
+      "shed",
+      "goal"
+     ],
+     "suggestion": "Your goal is the shed! The ball is under the bush. Can you get it?",
+     "suggestionFa": "دروازه‌ت انباریه! توپ زیر بوته‌ست. می‌تونی بیاریش؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes, here it is.",
+   "translations": {
+    "fa": "آره، ایناهاش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pass",
+      "kick",
+      "mia",
+      "off"
+     ],
+     "suggestion": "Kick off! Mia, pass to me! Pass! Pass!",
+     "suggestionFa": "شروع! میا، پاس بده به من! پاس! پاس!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I'm coming to get it!",
+   "translations": {
+    "fa": "دارم میام بگیرمش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mia",
+   "text": "GOAL! Nicola scored! One–nil to us!",
+   "translations": {
+    "fa": "گل! نیکولا گل زد! یک صفر به نفع ما!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scored",
+     "fa": "گل زد"
+    },
+    {
+     "word": "nil",
+     "fa": "صفر"
+    },
+    {
+     "word": "losing",
+     "fa": "باختن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In football scores, British people say \"nil\" for zero: \"two–nil\".",
+    "fa": "nil یعنی صفر."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Well done, Nicola!",
+   "translations": {
+    "fa": "آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "score",
+      "turn",
+      "kick",
+      "can",
+      "now"
+     ],
+     "suggestion": "Now it's your turn to kick. Can you score?",
+     "suggestionFa": "حالا نوبت توئه شوت بزنی. می‌تونی گل بزنی؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I'm going to kick it hard!",
+   "translations": {
+    "fa": "محکم شوت می‌زنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mia",
+   "text": "Oh no! It went over the fence. Into Mrs Khan's garden!",
+   "translations": {
+    "fa": "ای وای! از رو حصار رفت. تو حیاط خانم خان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fence",
+     "fa": "حصار"
+    },
+    {
+     "word": "over",
+     "fa": "از روی"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Oops! Sorry!",
+   "translations": {
+    "fa": "اوه! ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kicked",
+      "please",
+      "sorry",
+      "back",
+      "ball"
+     ],
+     "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",
+     "suggestionFa": "تو برو! تو شوتش کردی! بگو «ببخشید خانم خان، می‌شه توپمون را پس بدید، لطفاً؟»",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

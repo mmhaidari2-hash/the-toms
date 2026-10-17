@@ -1,0 +1,308 @@
+{
+ "id": "l1_u45_3",
+ "characterId": "leslie",
+ "title": "I can't whistle",
+ "titleFa": "سوت زدن بلد نیستم",
+ "setting": "Saying what you can do · Level 1",
+ "settingFa": "گفتن توانایی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Listen to that bird! I wish I could whistle. I can't whistle at all! Can you?",
+   "translations": {
+    "fa": "به اون پرنده گوش کن! کاش سوت زدن بلد بودم. اصلاً نمی‌تونم سوت بزنم! تو می‌تونی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "listen",
+      "can"
+     ],
+     "suggestion": "Yes, I can whistle. Listen!",
+     "suggestionFa": "آره، سوت بلدم. گوش کن!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "either",
+      "can't"
+     ],
+     "suggestion": "No, I can't whistle either.",
+     "suggestionFa": "نه، منم بلد نیستم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whistle",
+     "fa": "سوت زدن"
+    },
+    {
+     "word": "bird",
+     "fa": "پرنده"
+    },
+    {
+     "word": "at all",
+     "fa": "اصلاً"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Teach me! I'm bad at it. I just blow air. Pfff!",
+   "translations": {
+    "fa": "یادم بده! تو این کار بدم. فقط باد میدم. پففف!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "small",
+      "make",
+      "lips",
+      "like"
+     ],
+     "suggestion": "Make your lips small, like an O.",
+     "suggestionFa": "لب‌هات را کوچیک کن، مثل یه O.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "whistle",
+      "that's",
+      "ha"
+     ],
+     "suggestion": "Ha! That's not a whistle.",
+     "suggestionFa": "ها! این سوت نیست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bad at",
+     "fa": "بد در ؛ ضعیف در"
+    },
+    {
+     "word": "blow",
+     "fa": "دمیدن ؛ فوت کردن"
+    },
+    {
+     "word": "lips",
+     "fa": "لب‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Like an O… Pfff… Phweet! Was that it?",
+   "translations": {
+    "fa": "مثل یه O… پففف… فیییت! همین بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "good"
+     ],
+     "suggestion": "Yes! You're getting good at it!",
+     "suggestionFa": "آره! داری خوب میشی!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "almost",
+      "again",
+      "try"
+     ],
+     "suggestion": "Almost! Try again.",
+     "suggestionFa": "تقریباً! دوباره امتحان کن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "almost",
+     "fa": "تقریباً"
+    },
+    {
+     "word": "good at",
+     "fa": "خوب در"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you are good in whistle",
+      "you good at whistle"
+     ],
+     "echo": "You're good at it? Thank you!",
+     "better": "You're good at whistling!",
+     "betterFa": "تو سوت زدن خوبی!"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Ha! OK, your turn. What can't you do? Everyone has something!",
+   "translations": {
+    "fa": "ها! خب، نوبت توئه. تو چی بلد نیستی؟ هر کسی یه چیزی داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "terrible",
+      "sing"
+     ],
+     "suggestion": "I can't sing. I'm terrible!",
+     "suggestionFa": "آواز بلد نیستم. افتضاحم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "british",
+      "cook",
+      "food"
+     ],
+     "suggestion": "I can't cook British food.",
+     "suggestionFa": "آشپزی بریتانیایی بلد نیستم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sing",
+     "fa": "آواز خواندن"
+    },
+    {
+     "word": "terrible",
+     "fa": "افتضاح"
+    },
+    {
+     "word": "your turn",
+     "fa": "نوبت تو"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Everyone can sing! Can you sing a Persian song for me? Just a little one?",
+   "translations": {
+    "fa": "همه می‌تونن بخونن! می‌تونی برام یه آهنگ فارسی بخونی؟ فقط یه کوچولو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "park",
+      "way"
+     ],
+     "suggestion": "No way! Not in the park!",
+     "suggestionFa": "عمراً! نه تو پارک!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "laugh",
+      "don't",
+      "but",
+      "ok"
+     ],
+     "suggestion": "OK, but don't laugh!",
+     "suggestionFa": "باشه، ولی نخند!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no way",
+     "fa": "عمراً ؛ به هیچ وجه"
+    },
+    {
+     "word": "laugh",
+     "fa": "خندیدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "I won't laugh! … That was beautiful! You're good at singing!",
+   "translations": {
+    "fa": "نمی‌خندم! … قشنگ بود! تو آواز خوندن خوبی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whistling",
+      "thank",
+      "still",
+      "bad"
+     ],
+     "suggestion": "Thank you! I'm still bad at whistling.",
+     "suggestionFa": "ممنون! ولی هنوز تو سوت بدم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "sing",
+      "can"
+     ],
+     "suggestion": "Can you sing, Leslie?",
+     "suggestionFa": "تو آواز بلدی لزلی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    },
+    {
+     "word": "beautiful",
+     "fa": "زیبا"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Only in the car! Tom says I sound like a fox. You practise whistling, I'll practise singing!",
+   "translations": {
+    "fa": "فقط تو ماشین! تام میگه صدام مثل روباهه. تو سوت تمرین کن، منم آواز!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

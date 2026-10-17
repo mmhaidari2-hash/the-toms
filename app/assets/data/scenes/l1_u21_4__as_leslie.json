@@ -1,0 +1,225 @@
+{
+ "id": "l1_u21_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) What day is it today?",
+ "titleFa": "(در نقش Leslie) امروز چه روزی است؟",
+ "setting": "Days of the week · Level 1",
+ "settingFa": "روزهای هفته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u21_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesday",
+      "remember",
+      "today",
+      "can't",
+      "tired"
+     ],
+     "suggestion": "Is it Wednesday today? I'm so tired, I can't remember!",
+     "suggestionFa": "امروز چهارشنبه‌ست؟ خیلی خسته‌ام، یادم نمیاد!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No, it's Thursday.",
+   "translations": {
+    "fa": "نه، پنجشنبه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yesterday",
+      "wednesday",
+      "thursday",
+      "what's",
+      "today"
+     ],
+     "suggestion": "Thursday! So yesterday was Wednesday. What's the date today?",
+     "suggestionFa": "پنجشنبه! پس دیروز چهارشنبه بود. امروز چندمه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "It's the twelfth of March.",
+   "translations": {
+    "fa": "دوازدهم مارسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirteenth",
+      "william's",
+      "tomorrow",
+      "twelfth",
+      "that's"
+     ],
+     "suggestion": "The twelfth! Oh no! William's check-up is on the thirteenth. That's tomorrow!",
+     "suggestionFa": "دوازدهم! وای نه! معاینهٔ ویلیام سیزدهمه. یعنی فردا!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What time is it?",
+   "translations": {
+    "fa": "ساعت چنده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteenth",
+      "saturday",
+      "nicola's",
+      "o'clock",
+      "that's"
+     ],
+     "suggestion": "Ten o'clock. And Saturday is the fifteenth. That's Nicola's party!",
+     "suggestionFa": "ساعت ده. و شنبه پونزدهمه. مهمونی نیکولاست!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A party? Whose party?",
+   "translations": {
+    "fa": "مهمونی؟ مهمونی کی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "present",
+      "centre",
+      "friend",
+      "mia's",
+      "party"
+     ],
+     "suggestion": "Her friend Mia's party. At the soft play centre. We need a present!",
+     "suggestionFa": "مهمونی دوستش میا. تو مرکز بازی سرپوشیده. یه کادو لازم داریم!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Shall we buy it tomorrow?",
+   "translations": {
+    "fa": "فردا بخریمش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "space",
+      "loves",
+      "when",
+      "she"
+     ],
+     "suggestion": "Space! She loves space. When is your birthday?",
+     "suggestionFa": "فضا! عاشق فضاست. تولد تو کِیه؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "My birthday is on the fifth of May.",
+   "translations": {
+    "fa": "تولدم پنجم مه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calendar",
+      "write",
+      "cake",
+      "must",
+      "year"
+     ],
+     "suggestion": "I'll write it on the calendar! We must have a cake. What day is it this year?",
+     "suggestionFa": "رو تقویم می‌نویسمش! باید کیک داشته باشیم. امسال چه روزیه؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I don't know. Let's look.",
+   "translations": {
+    "fa": "نمی‌دونم. بیا نگاه کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "sunday",
+      "joking",
+      "today",
+      "party"
+     ],
+     "suggestion": "A Sunday! Perfect for a party. Now, what day is it today? Ha! Just joking. I need a cup of tea!",
+     "suggestionFa": "یکشنبه! برای مهمونی عالیه. حالا، امروز چه روزیه؟ ها! شوخی کردم. یه فنجون چای لازم دارم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

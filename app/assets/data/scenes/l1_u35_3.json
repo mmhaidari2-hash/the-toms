@@ -1,0 +1,388 @@
+{
+ "id": "l1_u35_3",
+ "characterId": "william",
+ "title": "Bottle time",
+ "titleFa": "وقت شیشهٔ شیر",
+ "setting": "Baby William · Level 1",
+ "settingFa": "ویلیام کوچولو",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "william",
+   "text": "Milk! Milk!",
+   "translations": {
+    "fa": "شیر! شیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "want"
+     ],
+     "suggestion": "Do you want your milk?",
+     "suggestionFa": "شیرت را می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "wants",
+      "he"
+     ],
+     "suggestion": "Leslie, he wants milk!",
+     "suggestionFa": "لزلی، شیر می‌خواد!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "milk",
+     "fa": "شیر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Can you warm his bottle? It's in the fridge. Thirty seconds in the microwave.",
+   "translations": {
+    "fa": "می‌تونی شیشه‌ش را گرم کنی؟ تو یخچاله. سی ثانیه تو مایکروویو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seconds",
+      "thirty",
+      "only"
+     ],
+     "suggestion": "Only thirty seconds?",
+     "suggestionFa": "فقط سی ثانیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shake",
+      "then",
+      "ok"
+     ],
+     "suggestion": "OK. Then shake it?",
+     "suggestionFa": "باشه. بعد تکونش بدم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "warm",
+     "fa": "گرم کردن"
+    },
+    {
+     "word": "bottle",
+     "fa": "شیشهٔ شیر"
+    },
+    {
+     "word": "microwave",
+     "fa": "مایکروویو"
+    },
+    {
+     "word": "shake",
+     "fa": "تکان دادن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Yes, shake it well. Then test it on your wrist. Not too hot!",
+   "translations": {
+    "fa": "آره، خوب تکونش بده. بعد رو مچ دستت امتحانش کن. خیلی داغ نباشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "warm",
+      "hot"
+     ],
+     "suggestion": "It's warm. Not hot.",
+     "suggestionFa": "گرمه. داغ نیست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wrist",
+      "why"
+     ],
+     "suggestion": "On my wrist? Why?",
+     "suggestionFa": "رو مچم؟ چرا؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wrist",
+     "fa": "مچ دست"
+    },
+    {
+     "word": "test",
+     "fa": "امتحان کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Parents in the UK test baby milk on the inside of the wrist — it should feel just warm.",
+    "fa": "امتحان شیر روی مچ."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Mine! Mine!",
+   "translations": {
+    "fa": "مال من! مال من!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "bottle",
+      "here's"
+     ],
+     "suggestion": "Here's your bottle, William.",
+     "suggestionFa": "بفرما شیشه‌ت ویلیام.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "want",
+      "hold"
+     ],
+     "suggestion": "Do you want to hold it?",
+     "suggestionFa": "می‌خوای خودت بگیریش؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mine",
+     "fa": "مال من"
+    },
+    {
+     "word": "hold",
+     "fa": "گرفتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "here your bottle",
+      "this is the your bottle"
+     ],
+     "echo": "Here's your bottle? He's happy!",
+     "better": "Here's your bottle.",
+     "betterFa": "بفرما شیشه‌ت."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "He likes holding it himself now. Big boy! Do you want to sit with him?",
+   "translations": {
+    "fa": "الان دوست داره خودش بگیرتش. پسر بزرگ! می‌خوای کنارش بشینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "love",
+      "i'd"
+     ],
+     "suggestion": "Yes, I'd love to.",
+     "suggestionFa": "آره، خیلی دوست دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sleep",
+      "going",
+      "after",
+      "he"
+     ],
+     "suggestion": "Is he going to sleep after this?",
+     "suggestionFa": "بعد از این می‌خوابه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "himself",
+     "fa": "خودش"
+    },
+    {
+     "word": "sit",
+     "fa": "نشستن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Mmm. All gone!",
+   "translations": {
+    "fa": "ممم. تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "well",
+      "done",
+      "gone",
+      "all"
+     ],
+     "suggestion": "All gone! Well done!",
+     "suggestionFa": "تموم شد! آفرین!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fast",
+      "was",
+      "wow"
+     ],
+     "suggestion": "Wow, that was fast.",
+     "suggestionFa": "وای، سریع بود.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "all gone",
+     "fa": "تمام شد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Now we need to burp him. Pat his back gently. Like this.",
+   "translations": {
+    "fa": "حالا باید آروغش را بگیریم. آروم به پشتش بزن. این‌جوری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gently",
+      "like"
+     ],
+     "suggestion": "Like this? Gently?",
+     "suggestionFa": "این‌جوری؟ آروم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shoulder",
+      "cloth",
+      "i'll",
+      "get"
+     ],
+     "suggestion": "I'll get a cloth for his shoulder.",
+     "suggestionFa": "یه دستمال برای شونه‌ش میارم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "burp",
+     "fa": "آروغ زدن ؛ آروغ گرفتن"
+    },
+    {
+     "word": "pat",
+     "fa": "آرام زدن"
+    },
+    {
+     "word": "gently",
+     "fa": "به آرامی"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "william",
+   "text": "Burp! Ha ha!",
+   "translations": {
+    "fa": "آروغ! ها ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "boy"
+     ],
+     "suggestion": "Good boy!",
+     "suggestionFa": "پسر خوب!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "excuse"
+     ],
+     "suggestion": "Excuse you, William!",
+     "suggestionFa": "عذرخواهی کن ویلیام!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "excuse you",
+     "fa": "(شوخی) بگو ببخشید"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Ha! \"Excuse you\"! He'll be asleep in five minutes. Thank you, nanny {you}!",
+   "translations": {
+    "fa": "ها! «عذرخواهی کن»! پنج دقیقه دیگه خوابه. ممنون پرستار {you}!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

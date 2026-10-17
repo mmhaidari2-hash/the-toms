@@ -1,0 +1,370 @@
+{
+ "id": "l1_u41_3",
+ "characterId": "okafor",
+ "title": "Take this medicine",
+ "titleFa": "این دارو را مصرف کن",
+ "setting": "At the doctor's (basics) · Level 1",
+ "settingFa": "در مطب (پایه)",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "OK, {you}. You've got a chest infection. I'm giving you some antibiotics.",
+   "translations": {
+    "fa": "خب {you}. عفونت قفسهٔ سینه داری. بهت آنتی‌بیوتیک میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "take",
+      "them",
+      "how"
+     ],
+     "suggestion": "How do I take them?",
+     "suggestionFa": "چطوری مصرفشون کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "serious"
+     ],
+     "suggestion": "Is it serious?",
+     "suggestionFa": "جدیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chest infection",
+     "fa": "عفونت قفسهٔ سینه"
+    },
+    {
+     "word": "antibiotics",
+     "fa": "آنتی‌بیوتیک‌ها"
+    },
+    {
+     "word": "serious",
+     "fa": "جدی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "okafor",
+   "text": "No, not serious. Take one tablet three times a day. Morning, afternoon and night.",
+   "translations": {
+    "fa": "نه، جدی نیست. روزی سه بار یه قرص بخور. صبح، بعدازظهر و شب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "times",
+      "day"
+     ],
+     "suggestion": "Three times a day.",
+     "suggestionFa": "روزی سه بار.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "before",
+      "after",
+      "food"
+     ],
+     "suggestion": "Before or after food?",
+     "suggestionFa": "قبل یا بعد از غذا؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tablet",
+     "fa": "قرص"
+    },
+    {
+     "word": "three times a day",
+     "fa": "روزی سه بار"
+    },
+    {
+     "word": "afternoon",
+     "fa": "بعدازظهر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "three time in a day",
+      "three times in day"
+     ],
+     "echo": "Three times a day? Correct.",
+     "better": "Three times a day.",
+     "betterFa": "روزی سه بار."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "With food. Not on an empty stomach. And for seven days.",
+   "translations": {
+    "fa": "با غذا. نه با معدهٔ خالی. و به مدت هفت روز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seven",
+      "ok"
+     ],
+     "suggestion": "Seven days. OK.",
+     "suggestionFa": "هفت روز. باشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "three",
+      "after",
+      "feel"
+     ],
+     "suggestion": "What if I feel better after three days?",
+     "suggestionFa": "اگه بعد از سه روز بهتر شدم چی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "empty stomach",
+     "fa": "معدهٔ خالی"
+    },
+    {
+     "word": "for seven days",
+     "fa": "به مدت هفت روز"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "okafor",
+   "text": "Good question. Finish all the tablets, even if you feel better. It's important.",
+   "translations": {
+    "fa": "سؤال خوبیه. همهٔ قرص‌ها را تموم کن، حتی اگه بهتر شدی. مهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "finish",
+      "them",
+      "i'll",
+      "all"
+     ],
+     "suggestion": "I'll finish them all.",
+     "suggestionFa": "همه‌شون را تموم می‌کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "important",
+      "why"
+     ],
+     "suggestion": "Why is that important?",
+     "suggestionFa": "چرا مهمه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    },
+    {
+     "word": "even if",
+     "fa": "حتی اگر"
+    },
+    {
+     "word": "important",
+     "fa": "مهم"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK doctors always say \"finish the course\" of antibiotics.",
+    "fa": "دورهٔ آنتی‌بیوتیک را کامل کنید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "So the infection doesn't come back. Can you drink alcohol with them? Best not.",
+   "translations": {
+    "fa": "تا عفونت برنگرده. با این‌ها می‌شه الکل خورد؟ بهتره نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drink",
+      "don't"
+     ],
+     "suggestion": "I don't drink alcohol.",
+     "suggestionFa": "من الکل نمی‌خورم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK. No alcohol.",
+     "suggestionFa": "باشه. الکل نه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come back",
+     "fa": "برگشتن"
+    },
+    {
+     "word": "alcohol",
+     "fa": "الکل"
+    },
+    {
+     "word": "best not",
+     "fa": "بهتر است نه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "Easy, then! Here's your prescription. Take it to the pharmacy. Do you pay for prescriptions?",
+   "translations": {
+    "fa": "پس آسونه! اینم نسخه‌ت. ببرش داروخونه. برای نسخه پول میدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescription",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is a prescription?",
+     "suggestionFa": "نسخه چنده؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "know",
+      "pay"
+     ],
+     "suggestion": "I don't know. Do I pay?",
+     "suggestionFa": "نمی‌دونم. پول میدم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "prescription",
+     "fa": "نسخه"
+    },
+    {
+     "word": "pharmacy",
+     "fa": "داروخانه"
+    },
+    {
+     "word": "pay",
+     "fa": "پرداخت کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England a prescription item costs about £10, but many people get them free. In Scotland and Wales they are always free.",
+    "fa": "هزینهٔ نسخه در انگلیس."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "okafor",
+   "text": "If you're working, it's a fixed charge. The pharmacist will explain. Rest and drink lots of water.",
+   "translations": {
+    "fa": "اگه کار می‌کنی، یه هزینهٔ ثابته. داروساز توضیح میده. استراحت کن و کلی آب بخور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "okafor",
+      "thank",
+      "dr"
+     ],
+     "suggestion": "Thank you, Dr Okafor.",
+     "suggestionFa": "ممنون دکتر اوکافور.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "come",
+      "when",
+      "back"
+     ],
+     "suggestion": "When should I come back?",
+     "suggestionFa": "کی برگردم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fixed",
+     "fa": "ثابت"
+    },
+    {
+     "word": "charge",
+     "fa": "هزینه"
+    },
+    {
+     "word": "rest",
+     "fa": "استراحت کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "Only if you're not better in a week, or if you can't breathe well. Take care, {you}!",
+   "translations": {
+    "fa": "فقط اگه تا یه هفته بهتر نشدی، یا نتونستی خوب نفس بکشی. مراقب خودت باش {you}!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

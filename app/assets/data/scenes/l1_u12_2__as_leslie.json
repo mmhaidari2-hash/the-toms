@@ -1,0 +1,250 @@
+{
+ "id": "l1_u12_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Sorting the socks",
+ "titleFa": "(در نقش Leslie) جفت کردن جوراب‌ها",
+ "setting": "Colours and shapes · Level 1",
+ "settingFa": "رنگ‌ها و شکل‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u12_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pairs",
+      "these",
+      "socks",
+      "look",
+      "need"
+     ],
+     "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
+     "suggestionFa": "این همه جوراب را ببین! کمکم می‌کنی؟ باید جفت‌ها را پیدا کنیم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. I can help.",
+   "translations": {
+    "fa": "حتماً. می‌تونم کمک کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "another",
+      "stars",
+      "blue",
+      "sock",
+      "one"
+     ],
+     "suggestion": "This sock is blue with stars. Can you see another blue one?",
+     "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, here it is.",
+   "translations": {
+    "fa": "آره، ایناهاش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "nicola's",
+      "they're",
+      "socks",
+      "pink"
+     ],
+     "suggestion": "Brilliant. Now, two pink socks. They're Nicola's.",
+     "suggestionFa": "عالی. حالا دو تا جوراب صورتی. مال نیکولان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Here are two pink socks.",
+   "translations": {
+    "fa": "این دو تا جوراب صورتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "aren't",
+      "white",
+      "one's",
+      "these"
+     ],
+     "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
+     "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "They're so small!",
+   "translations": {
+    "fa": "خیلی کوچیکن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they've",
+      "tom's",
+      "these",
+      "socks",
+      "hole"
+     ],
+     "suggestion": "And these big grey socks are Tom's. They've got a hole!",
+     "suggestionFa": "و این جوراب‌های طوسی بزرگ مال تامه. سوراخ دارن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha! Tom needs new socks.",
+   "translations": {
+    "fa": "ها! تام جوراب نو لازم داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "other",
+      "green",
+      "sock",
+      "one"
+     ],
+     "suggestion": "Yes, in the bin! Now, one green sock. Where's the other green sock?",
+     "suggestionFa": "آره، سطل آشغال! حالا، یه جوراب سبز. اون یکی جوراب سبز کجاست؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I don't know. Is it under the table?",
+   "translations": {
+    "fa": "نمی‌دونم. زیر میزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "disappear",
+      "washing",
+      "machine",
+      "always",
+      "socks"
+     ],
+     "suggestion": "Good idea! Yes, here it is, in the washing machine. Socks always disappear!",
+     "suggestionFa": "فکر خوبیه! آره، ایناهاش، تو ماشین لباسشویی. جوراب‌ها همیشه غیب می‌شن!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "In my country, too!",
+   "translations": {
+    "fa": "تو کشور منم همین‌طوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nobody",
+      "pairs",
+      "count",
+      "knows",
+      "many"
+     ],
+     "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
+     "suggestionFa": "هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "One, two, three… eight pairs!",
+   "translations": {
+    "fa": "یک، دو، سه… هشت جفت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drawers",
+      "let's",
+      "thank",
+      "pairs",
+      "eight"
+     ],
+     "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",
+     "suggestionFa": "هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

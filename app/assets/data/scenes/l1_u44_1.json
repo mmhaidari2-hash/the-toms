@@ -1,0 +1,370 @@
+{
+ "id": "l1_u44_1",
+ "characterId": "nicola",
+ "title": "Coins and notes",
+ "titleFa": "سکه‌ها و اسکناس‌ها",
+ "setting": "Numbers and money · Level 1",
+ "settingFa": "عددها و پول",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Look! I broke my piggy bank! Can you help me count my money?",
+   "translations": {
+    "fa": "ببین! قلکم را شکستم! کمکم می‌کنی پولم را بشمرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "let's",
+      "count"
+     ],
+     "suggestion": "Of course! Let's count.",
+     "suggestionFa": "البته! بیا بشمریم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coins",
+      "lots",
+      "wow"
+     ],
+     "suggestion": "Wow, lots of coins!",
+     "suggestionFa": "وای، کلی سکه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "piggy bank",
+     "fa": "قلک"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "coins",
+     "fa": "سکه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "What's this little brown one?",
+   "translations": {
+    "fa": "این کوچیکهٔ قهوه‌ای چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "penny",
+      "p"
+     ],
+     "suggestion": "That's a penny. One p.",
+     "suggestionFa": "اون یه پنیه. یک پی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pence"
+     ],
+     "suggestion": "It's one pence.",
+     "suggestionFa": "یک پنیه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "penny",
+     "fa": "پنی"
+    },
+    {
+     "word": "brown",
+     "fa": "قهوه‌ای"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people say \"p\" for pence: \"20p\" = \"twenty p\". 100p = £1.",
+    "fa": "p یعنی پنی."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "And this big silver one? It has seven sides!",
+   "translations": {
+    "fa": "و این بزرگه نقره‌ای؟ هفت تا ضلع داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "fifty",
+      "p"
+     ],
+     "suggestion": "That's fifty p.",
+     "suggestionFa": "اون پنجاه پیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sides",
+      "count"
+     ],
+     "suggestion": "Count the sides with me!",
+     "suggestionFa": "ضلع‌ها را با من بشمر!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "silver",
+     "fa": "نقره‌ای"
+    },
+    {
+     "word": "sides",
+     "fa": "اضلاع"
+    },
+    {
+     "word": "seven",
+     "fa": "هفت"
+    }
+   ],
+   "cultureNote": {
+    "en": "The 20p and 50p coins have seven sides, and the £1 coin has twelve.",
+    "fa": "سکه‌های هفت‌ضلعی."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Seven! And the gold one?",
+   "translations": {
+    "fa": "هفت تا! و طلاییه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "one"
+     ],
+     "suggestion": "That's a pound. A one-pound coin.",
+     "suggestionFa": "اون یه پونده. سکهٔ یک پوندی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "silver",
+      "gold",
+      "two"
+     ],
+     "suggestion": "The two-pound coin is gold and silver.",
+     "suggestionFa": "سکهٔ دو پوندی طلایی و نقره‌ایه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gold",
+     "fa": "طلایی"
+    },
+    {
+     "word": "pound",
+     "fa": "پوند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is one pounds",
+      "that's a one pounds coin"
+     ],
+     "echo": "One pound? Yes!",
+     "better": "That's one pound.",
+     "betterFa": "اون یک پونده."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "I've got a note too! Nana gave me it. It's purple. Is it a lot?",
+   "translations": {
+    "fa": "یه اسکناس هم دارم! نانا بهم داد. بنفشه. زیاده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "that's",
+      "pound",
+      "note"
+     ],
+     "suggestion": "That's a twenty-pound note!",
+     "suggestionFa": "اون اسکناس بیست پوندیه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "rich",
+      "wow"
+     ],
+     "suggestion": "Wow, Nicola. You're rich!",
+     "suggestionFa": "وای نیکولا. پولداری!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    },
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    },
+    {
+     "word": "rich",
+     "fa": "پولدار"
+    }
+   ],
+   "cultureNote": {
+    "en": "British notes: £5 is blue-green, £10 orange, £20 purple, £50 red.",
+    "fa": "رنگ اسکناس‌ها."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Rich! OK, let's put them in piles. Pennies here, pounds there.",
+   "translations": {
+    "fa": "پولدار! باشه، بیا دسته‌شون کنیم. پنی‌ها اینجا، پوندها اونجا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pennies",
+      "make",
+      "ten",
+      "p"
+     ],
+     "suggestion": "Ten pennies make ten p.",
+     "suggestionFa": "ده تا پنی میشه ده پی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pound",
+      "coins",
+      "i've",
+      "here"
+     ],
+     "suggestion": "I've got four pound coins here.",
+     "suggestionFa": "اینجا چهار تا سکهٔ پوندی دارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "piles",
+     "fa": "دسته‌ها ؛ کپه‌ها"
+    },
+    {
+     "word": "make",
+     "fa": "شدن (جمع)"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "So how much is it altogether? Is it a hundred pounds?",
+   "translations": {
+    "fa": "پس جمعاً چقدره؟ صد پونده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "pounds",
+      "fifty",
+      "six"
+     ],
+     "suggestion": "No, it's twenty-six pounds fifty.",
+     "suggestionFa": "نه، بیست و شش پوند و پنجاه پی.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "add",
+      "let",
+      "up"
+     ],
+     "suggestion": "Let me add it up.",
+     "suggestionFa": "بذار جمع بزنم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "جمعاً"
+    },
+    {
+     "word": "add up",
+     "fa": "جمع زدن"
+    },
+    {
+     "word": "hundred",
+     "fa": "صد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Twenty-six pounds fifty! I can buy a unicorn! Or two! Or a pony!",
+   "translations": {
+    "fa": "بیست و شش پوند و پنجاه! می‌تونم یه تک‌شاخ بخرم! یا دو تا! یا یه اسب کوچولو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

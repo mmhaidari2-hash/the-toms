@@ -1,0 +1,393 @@
+{
+ "id": "l1_u12_4",
+ "characterId": "nicola",
+ "title": "My favourite colour",
+ "titleFa": "رنگ مورد علاقه‌ام",
+ "setting": "Colours and shapes · Level 1",
+ "settingFa": "رنگ‌ها و شکل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Mia and I are making a poster. It's about favourite things!",
+   "translations": {
+    "fa": "من و میا داریم یه پوستر درست می‌کنیم. دربارهٔ چیزهای مورد علاقه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "good",
+      "idea"
+     ],
+     "suggestion": "That's a good idea!",
+     "suggestionFa": "فکر خوبیه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "can"
+     ],
+     "suggestion": "Can I help you?",
+     "suggestionFa": "می‌تونم کمکتون کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "poster",
+     "fa": "پوستر"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    },
+    {
+     "word": "things",
+     "fa": "چیزها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Yes! What's your favourite colour?",
+   "translations": {
+    "fa": "آره! رنگ مورد علاقه‌ات چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "colour",
+      "green"
+     ],
+     "suggestion": "My favourite colour is green.",
+     "suggestionFa": "رنگ مورد علاقه‌ام سبزه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "blue",
+      "like"
+     ],
+     "suggestion": "I like blue. It's my favourite.",
+     "suggestionFa": "آبی دوست دارم. مورد علاقمه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "like",
+     "fa": "دوست داشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"favourite\", American \"favorite\".",
+    "fa": "favourite/favorite."
+   },
+   "recasts": [
+    {
+     "match": [
+      "my favourite colour green",
+      "favourite colour is a green"
+     ],
+     "echo": "Your favourite colour is green? Nice!",
+     "better": "My favourite colour is green.",
+     "betterFa": "رنگ مورد علاقه‌ام سبزه."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "mia",
+   "text": "My favourite colour is purple. Nicola's is pink. Everything is pink!",
+   "translations": {
+    "fa": "رنگ مورد علاقهٔ من بنفشه. مال نیکولا صورتیه. همه چی صورتیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bag"
+     ],
+     "suggestion": "Your bag is pink!",
+     "suggestionFa": "کیفت صورتیه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shoes"
+     ],
+     "suggestion": "And your shoes are pink, too.",
+     "suggestionFa": "کفش‌هات هم صورتیه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    },
+    {
+     "word": "everything",
+     "fa": "همه چیز"
+    },
+    {
+     "word": "shoes",
+     "fa": "کفش‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "I love pink! Now, what's your favourite animal?",
+   "translations": {
+    "fa": "من عاشق صورتی‌ام! حالا، حیوون مورد علاقه‌ات چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "horses",
+      "love"
+     ],
+     "suggestion": "I love horses.",
+     "suggestionFa": "عاشق اسبم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "favourite",
+      "animal",
+      "cat"
+     ],
+     "suggestion": "My favourite animal is a cat.",
+     "suggestionFa": "حیوون مورد علاقه‌ام گربه‌ست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "animal",
+     "fa": "حیوان"
+    },
+    {
+     "word": "horses",
+     "fa": "اسب‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Mine is a penguin! They're black and white and very funny.",
+   "translations": {
+    "fa": "مال من پنگوئنه! سیاه و سفیدن و خیلی بامزه‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "penguins",
+      "funny"
+     ],
+     "suggestion": "Penguins are funny!",
+     "suggestionFa": "پنگوئن‌ها بامزه‌ان!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "penguin",
+      "seen",
+      "have"
+     ],
+     "suggestion": "Have you seen a penguin?",
+     "suggestionFa": "تا حالا پنگوئن دیدی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "penguin",
+     "fa": "پنگوئن"
+    },
+    {
+     "word": "mine",
+     "fa": "مال من"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "mia",
+   "text": "We saw penguins at the zoo! Now, favourite food. Mine is pizza.",
+   "translations": {
+    "fa": "تو باغ‌وحش پنگوئن دیدیم! حالا، غذای مورد علاقه. مال من پیتزاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "rice",
+      "food"
+     ],
+     "suggestion": "My favourite food is rice.",
+     "suggestionFa": "غذای مورد علاقه‌ام برنجه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kebabs",
+      "love"
+     ],
+     "suggestion": "I love kebabs.",
+     "suggestionFa": "عاشق کبابم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "zoo",
+     "fa": "باغ‌وحش"
+    },
+    {
+     "word": "food",
+     "fa": "غذا"
+    },
+    {
+     "word": "rice",
+     "fa": "برنج"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Rice! Nana makes rice on Sundays. Can you write it on the poster?",
+   "translations": {
+    "fa": "برنج! نانا یکشنبه‌ها برنج درست می‌کنه. می‌تونی روی پوستر بنویسیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "e",
+      "c",
+      "r"
+     ],
+     "suggestion": "Yes. R-I-C-E.",
+     "suggestionFa": "آره. ر-ا-ی-س.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "write",
+      "can"
+     ],
+     "suggestion": "Can I write it in Persian, too?",
+     "suggestionFa": "می‌تونم فارسی‌اش را هم بنویسم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "write",
+     "fa": "نوشتن"
+    },
+    {
+     "word": "Sundays",
+     "fa": "یکشنبه‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Yes! Persian is so pretty. It goes from right to left!",
+   "translations": {
+    "fa": "آره! فارسی خیلی قشنگه. از راست به چپ می‌ره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clever",
+      "that's",
+      "right"
+     ],
+     "suggestion": "That's right. You're very clever.",
+     "suggestionFa": "درسته. خیلی باهوشی.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "learn",
+      "word",
+      "want"
+     ],
+     "suggestion": "Do you want to learn a Persian word?",
+     "suggestionFa": "می‌خوای یه کلمهٔ فارسی یاد بگیری؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pretty",
+     "fa": "قشنگ"
+    },
+    {
+     "word": "right",
+     "fa": "راست"
+    },
+    {
+     "word": "left",
+     "fa": "چپ"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Our poster is finished! Pink, purple, green, penguins and pizza. It's the best poster ever!",
+   "translations": {
+    "fa": "پوسترمون تموم شد! صورتی، بنفش، سبز، پنگوئن و پیتزا. بهترین پوستر دنیاست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

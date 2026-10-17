@@ -1,0 +1,246 @@
+{
+ "id": "l1_u21_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Monday to Sunday",
+ "titleFa": "(در نقش Nicola) دوشنبه تا یکشنبه",
+ "setting": "Days of the week · Level 1",
+ "settingFa": "روزهای هفته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u21_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learning",
+      "tuesday",
+      "monday",
+      "what's",
+      "next"
+     ],
+     "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
+     "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Wednesday!",
+   "translations": {
+    "fa": "چهارشنبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesday",
+      "there",
+      "funny",
+      "word",
+      "why"
+     ],
+     "suggestion": "Wednesday is a funny word. Wed-nes-day. Why is there a \"d\"?",
+     "suggestionFa": "چهارشنبه کلمهٔ بامزه‌ایه. Wed-nes-day. چرا یه «d» داره؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Nobody knows! You don't say it.",
+   "translations": {
+    "fa": "هیچ‌کس نمی‌دونه! تلفظش نمی‌کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "thursday",
+      "weekend",
+      "friday",
+      "sunday"
+     ],
+     "suggestion": "Thursday, Friday, Saturday, Sunday! Saturday and Sunday are the weekend. I love the weekend!",
+     "suggestionFa": "پنجشنبه، جمعه، شنبه، یکشنبه! شنبه و یکشنبه آخر هفته‌ان. عاشق آخر هفته‌ام!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Me too. No school!",
+   "translations": {
+    "fa": "منم. مدرسه نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strange",
+      "fridays",
+      "friday",
+      "that's"
+     ],
+     "suggestion": "Friday? That's strange! What do you do on Fridays?",
+     "suggestionFa": "جمعه؟ عجیبه! جمعه‌ها چی کار می‌کنید؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "We visit family and have a big lunch.",
+   "translations": {
+    "fa": "به خانواده سر می‌زنیم و یه ناهار مفصل می‌خوریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturdays",
+      "mountains",
+      "english",
+      "ballet",
+      "class"
+     ],
+     "suggestion": "Mountains! On Saturdays I have ballet. What day is your English class?",
+     "suggestionFa": "کوه! من شنبه‌ها باله دارم. کلاس انگلیسیت چه روزیه؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "On Mondays and Wednesdays.",
+   "translations": {
+    "fa": "دوشنبه‌ها و چهارشنبه‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "today",
+      "day"
+     ],
+     "suggestion": "What day is it today?",
+     "suggestionFa": "امروز چه روزیه؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Today is Thursday.",
+   "translations": {
+    "fa": "امروز پنجشنبه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "thursday",
+      "fridays",
+      "friday",
+      "chips"
+     ],
+     "suggestion": "Thursday! Tomorrow is Friday! On Fridays we have fish and chips.",
+     "suggestionFa": "پنجشنبه! فردا جمعه‌ست! جمعه‌ها فیش اند چیپس داریم.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Every Friday?",
+   "translations": {
+    "fa": "هر جمعه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friday",
+      "chippy",
+      "daddy",
+      "every",
+      "says"
+     ],
+     "suggestion": "Yes! Every Friday from the chippy. Daddy says it's the law!",
+     "suggestionFa": "آره! هر جمعه از چیپس‌فروشی. بابا می‌گه قانونه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Ha ha! Your daddy is funny.",
+   "translations": {
+    "fa": "ها ها! بابات بامزه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesday",
+      "saturday",
+      "thursday",
+      "tuesday",
+      "friday"
+     ],
+     "suggestion": "Yes, come on Friday! Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday! I did it!",
+     "suggestionFa": "آره، جمعه بیا! دوشنبه، سه‌شنبه، چهارشنبه، پنجشنبه، جمعه، شنبه، یکشنبه! تونستم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

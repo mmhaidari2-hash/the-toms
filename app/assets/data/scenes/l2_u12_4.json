@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "number",
+      "course",
       "what's",
-      "course"
+      "number"
      ],
      "suggestion": "Of course. What's the number?",
      "suggestionFa": "حتماً. شماره چیه؟",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "biscuit",
-      "call",
+      "poor",
       "i'll",
-      "poor"
+      "call"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "neighbour's",
       "eating",
-      "isn't",
-      "hello"
+      "hello",
+      "isn't"
      ],
      "suggestion": "Hello. Our neighbour's cat isn't eating.",
      "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
@@ -87,7 +87,7 @@
      "keywords": [
       "looking",
       "unwell",
-      "after",
+      "we're",
       "seems"
      ],
      "suggestion": "Hi. A cat we're looking after seems unwell.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "drinking",
       "sickness",
+      "drinking",
       "little",
       "she's"
      ],
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "morning",
-      "once",
       "sick",
-      "she"
+      "once",
+      "was"
      ],
      "suggestion": "She was sick once this morning.",
      "suggestionFa": "امروز صبح یه بار استفراغ کرد.",
@@ -377,8 +377,8 @@
      "keywords": [
       "that's",
       "we'll",
-      "fine",
-      "four"
+      "four",
+      "fine"
      ],
      "suggestion": "Yes, that's fine. We'll see you at four.",
      "suggestionFa": "آره، مشکلی نیست. ساعت چهار می‌بینیمتون.",
@@ -390,8 +390,8 @@
      "keywords": [
       "should",
       "first",
-      "call",
-      "khan"
+      "khan",
+      "call"
      ],
      "suggestion": "OK. Should we call Mrs Khan first?",
      "suggestionFa": "باشه. اول به خانم خان زنگ بزنیم؟",

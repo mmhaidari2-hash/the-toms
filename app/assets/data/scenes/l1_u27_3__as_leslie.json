@@ -1,0 +1,278 @@
+{
+ "id": "l1_u27_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) The new family next door",
+ "titleFa": "(در نقش Leslie) خانوادهٔ جدید بغلی",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u27_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "outside",
+      "removal",
+      "sixteen",
+      "there's",
+      "moving"
+     ],
+     "suggestion": "There's a removal van outside number sixteen! A new family is moving in. Shall we say hello?",
+     "suggestionFa": "یه ماشین اسباب‌کشی جلوی پلاک شونزده‌ست! یه خانوادهٔ جدید دارن میان. بریم سلام کنیم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, let's go.",
+   "translations": {
+    "fa": "آره، بریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neighbours",
+      "biscuits",
+      "people",
+      "bring",
+      "idea"
+     ],
+     "suggestion": "Good idea! Some biscuits. People bring food for new neighbours here.",
+     "suggestionFa": "فکر خوبیه! یه کم بیسکویت. اینجا مردم برای همسایه‌های جدید خوراکی می‌برن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "In Iran too! We bring sweets.",
+   "translations": {
+    "fa": "تو ایران هم! شیرینی می‌بریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "welcome",
+      "street",
+      "number",
+      "leslie",
+      "twelve"
+     ],
+     "suggestion": "Hello! Welcome to the street! I'm Leslie, from number twelve. This is our friend.",
+     "suggestionFa": "سلام! به خیابون خوش اومدید! من لزلی‌ام، از پلاک دوازده. این دوستمونه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Hello! Welcome!",
+   "translations": {
+    "fa": "سلام! خوش اومدید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "khan",
+   "text": "Yoo-hoo! Leslie! Is that the new family? Ask them their names!",
+   "translations": {
+    "fa": "هوهو! لزلی! این خانوادهٔ جدیده؟ اسمشون را بپرس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "window",
+     "fa": "پنجره"
+    },
+    {
+     "word": "names",
+     "fa": "اسم‌ها"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha! Mrs Khan wants to know everything!",
+   "translations": {
+    "fa": "ها! خانم خان می‌خواد همه چی را بدونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "they've",
+      "that's",
+      "names",
+      "grace"
+     ],
+     "suggestion": "Ha! Sorry. That's Mrs Khan. Their names are Femi and Grace. They've got two children.",
+     "suggestionFa": "ها! ببخشید. اون خانم خانه. اسمشون فمی و گریسه. دو تا بچه دارن.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "How old are the children?",
+   "translations": {
+    "fa": "بچه‌ها چند سالشونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "seven",
+      "tunde",
+      "five",
+      "girl"
+     ],
+     "suggestion": "A boy and a girl. Tunde is seven and Ada is five. Ada can play with Nicola!",
+     "suggestionFa": "یه پسر و یه دختر. تونده هفت سالشه و آدا پنج. آدا می‌تونه با نیکولا بازی کنه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "That's perfect!",
+   "translations": {
+    "fa": "عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manchester",
+      "hospital",
+      "femi's",
+      "london",
+      "don't"
+     ],
+     "suggestion": "In Manchester. Femi's got a new job at the hospital. They don't know London at all.",
+     "suggestionFa": "تو منچستر. فمی یه کار جدید تو بیمارستان گرفته. اصلاً لندن را نمی‌شناسن.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I'm new here too!",
+   "translations": {
+    "fa": "منم اینجا تازه‌واردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "boxes",
+      "need",
+      "they",
+      "help"
+     ],
+     "suggestion": "Lovely. Do they need help with the boxes?",
+     "suggestionFa": "عالی. برای جعبه‌ها کمک لازم دارن؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Shall we carry some boxes?",
+   "translations": {
+    "fa": "چند تا جعبه ببریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "invite",
+      "please",
+      "let's",
+      "come"
+     ],
+     "suggestion": "They said yes, please! Come on, let's help. Then I'll invite them for tea on Sunday.",
+     "suggestionFa": "گفتن آره، لطفاً! بیا کمک کنیم. بعد یکشنبه برای چای دعوتشون می‌کنم.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

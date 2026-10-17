@@ -1,0 +1,408 @@
+{
+ "id": "l1_u22_3",
+ "characterId": "tom",
+ "title": "Snow in January",
+ "titleFa": "برف در ژانویه",
+ "setting": "Months and seasons · Level 1",
+ "settingFa": "ماه‌ها و فصل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Wake up! Look out of the window! It's snowing!",
+   "translations": {
+    "fa": "بیدار شو! از پنجره بیرون را ببین! داره برف میاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wow"
+     ],
+     "suggestion": "Wow! Snow!",
+     "suggestionFa": "وای! برف!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lot"
+     ],
+     "suggestion": "Is it a lot of snow?",
+     "suggestionFa": "برف زیادیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snowing",
+     "fa": "برف می‌بارد"
+    },
+    {
+     "word": "window",
+     "fa": "پنجره"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "About ten centimetres! In London that's a lot. Everything stops!",
+   "translations": {
+    "fa": "حدود ده سانتی‌متر! تو لندن این زیاده. همه چی متوقف میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "centimetres",
+      "london",
+      "stops",
+      "ten"
+     ],
+     "suggestion": "Ten centimetres stops London?",
+     "suggestionFa": "ده سانت لندن را متوقف می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "closed"
+     ],
+     "suggestion": "Is school closed?",
+     "suggestionFa": "مدرسه تعطیله؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "centimetres",
+     "fa": "سانتی‌متر"
+    },
+    {
+     "word": "stops",
+     "fa": "متوقف می‌شود"
+    },
+    {
+     "word": "closed",
+     "fa": "تعطیل"
+    }
+   ],
+   "cultureNote": {
+    "en": "Britain rarely gets heavy snow, so even a little can close schools and delay trains — a \"snow day\"!",
+    "fa": "برف کم هم مدارس را تعطیل می‌کند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Yes! The school sent a text. It's a snow day! The kids are so happy.",
+   "translations": {
+    "fa": "آره! مدرسه پیامک داد. روز برفیه! بچه‌ها خیلی خوشحالن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "bus"
+     ],
+     "suggestion": "What about your bus?",
+     "suggestionFa": "اتوبوست چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "today",
+      "work",
+      "have"
+     ],
+     "suggestion": "Do you have work today?",
+     "suggestionFa": "امروز کار داری؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snow day",
+     "fa": "تعطیلی برفی"
+    },
+    {
+     "word": "text",
+     "fa": "پیامک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "My bus starts at ten today. Slowly, slowly! Let's build a snowman first.",
+   "translations": {
+    "fa": "اتوبوسم امروز ساعت ده شروع می‌کنه. یواش یواش! بیا اول یه آدم‌برفی بسازیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "idea"
+     ],
+     "suggestion": "Great idea!",
+     "suggestionFa": "فکر عالیه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "snowman",
+      "built",
+      "never",
+      "i've"
+     ],
+     "suggestion": "I've never built a snowman!",
+     "suggestionFa": "تا حالا آدم‌برفی نساختم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    },
+    {
+     "word": "snowman",
+     "fa": "آدم‌برفی"
+    },
+    {
+     "word": "built",
+     "fa": "ساخت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Never? Then today's the day! Put on your hat, scarf and gloves.",
+   "translations": {
+    "fa": "هیچ‌وقت؟ پس امروز روزشه! کلاه، شال‌گردن و دستکشت را بپوش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gloves",
+      "where"
+     ],
+     "suggestion": "Where are my gloves?",
+     "suggestionFa": "دستکش‌هام کجان؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "boots",
+      "ok"
+     ],
+     "suggestion": "OK. And my boots!",
+     "suggestionFa": "باشه. و چکمه‌هام!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hat",
+     "fa": "کلاه"
+    },
+    {
+     "word": "scarf",
+     "fa": "شال‌گردن"
+    },
+    {
+     "word": "gloves",
+     "fa": "دستکش"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i put my gloves",
+      "put on my glove"
+     ],
+     "echo": "Put on your gloves? Yes, it's freezing!",
+     "better": "I'm putting on my gloves.",
+     "betterFa": "دارم دستکش‌هام را می‌پوشم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Roll a big snowball for the body. Then a small one for the head.",
+   "translations": {
+    "fa": "یه گلوله برفی بزرگ برای بدن بغلتون. بعد یه کوچیک برای سر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "bigger"
+     ],
+     "suggestion": "It's getting bigger and bigger!",
+     "suggestionFa": "داره بزرگ‌تر و بزرگ‌تر میشه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "freezing",
+      "hands"
+     ],
+     "suggestion": "My hands are freezing!",
+     "suggestionFa": "دستام یخ زده!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roll",
+     "fa": "غلتاندن"
+    },
+    {
+     "word": "snowball",
+     "fa": "گلوله برفی"
+    },
+    {
+     "word": "body",
+     "fa": "بدن"
+    },
+    {
+     "word": "head",
+     "fa": "سر"
+    },
+    {
+     "word": "freezing",
+     "fa": "یخ‌زده"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Now a carrot for the nose, and stones for the eyes. Nicola's bringing Daddy's old scarf.",
+   "translations": {
+    "fa": "حالا یه هویج برای دماغ، و سنگ برای چشما. نیکولا داره شال‌گردن قدیمی بابا را میاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "great",
+      "he"
+     ],
+     "suggestion": "He looks great!",
+     "suggestionFa": "عالی شده!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "call",
+      "him",
+      "we"
+     ],
+     "suggestion": "What shall we call him?",
+     "suggestionFa": "اسمش را چی بذاریم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nose",
+     "fa": "بینی"
+    },
+    {
+     "word": "stones",
+     "fa": "سنگ‌ها"
+    },
+    {
+     "word": "eyes",
+     "fa": "چشم‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Nicola says his name is \"Mr Frosty\". Uh-oh… snowball fight! Ryan's coming! Run!",
+   "translations": {
+    "fa": "نیکولا می‌گه اسمش «آقای یخی»ـه. اوه اوه… جنگ گلوله‌برفی! رایان داره میاد! فرار کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ryan",
+      "got"
+     ],
+     "suggestion": "Got you, Ryan!",
+     "suggestionFa": "زدمت رایان!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "face"
+     ],
+     "suggestion": "Help! Not in my face!",
+     "suggestionFa": "کمک! نه تو صورتم!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snowball fight",
+     "fa": "جنگ گلوله‌برفی"
+    },
+    {
+     "word": "face",
+     "fa": "صورت"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Ha ha! Brilliant! Right, everyone inside. Hot chocolate and dry socks! The best snow day ever!",
+   "translations": {
+    "fa": "ها ها! عالی! خب، همه برید تو. هات چاکلت و جوراب خشک! بهترین روز برفی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

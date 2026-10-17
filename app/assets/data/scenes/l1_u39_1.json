@@ -1,0 +1,374 @@
+{
+ "id": "l1_u39_1",
+ "characterId": "ryan",
+ "title": "Hoovering",
+ "titleFa": "جاروبرقی کشیدن",
+ "setting": "Cleaning day · Level 1",
+ "settingFa": "روز نظافت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
+   "translations": {
+    "fa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "can"
+     ],
+     "suggestion": "I can help you.",
+     "suggestionFa": "می‌تونم کمکت کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hoover",
+      "mean"
+     ],
+     "suggestion": "What does \"hoover\" mean?",
+     "suggestionFa": "«هوور» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hoover",
+     "fa": "جاروبرقی کشیدن ؛ جاروبرقی"
+    },
+    {
+     "word": "cleaning",
+     "fa": "نظافت"
+    },
+    {
+     "word": "worst",
+     "fa": "بدترین"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people often say \"hoover\" (a brand name) for \"vacuum\".",
+    "fa": "hoover = vacuum."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "It means vacuum. Hoover is a brand. Can you move the chairs?",
+   "translations": {
+    "fa": "یعنی جاروبرقی. هوور یه مارکه. می‌تونی صندلی‌ها را جابه‌جا کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chairs",
+      "move",
+      "i'll",
+      "sure"
+     ],
+     "suggestion": "Sure. I'll move the chairs.",
+     "suggestionFa": "حتماً. صندلی‌ها را جابه‌جا می‌کنم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "shall",
+      "them",
+      "put"
+     ],
+     "suggestion": "Where shall I put them?",
+     "suggestionFa": "کجا بذارمشون؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brand",
+     "fa": "مارک ؛ برند"
+    },
+    {
+     "word": "move",
+     "fa": "جابه‌جا کردن"
+    },
+    {
+     "word": "chairs",
+     "fa": "صندلی‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
+   "translations": {
+    "fa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "chair",
+      "under",
+      "rice"
+     ],
+     "suggestion": "There's rice under his chair!",
+     "suggestionFa": "زیر صندلیش برنجه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eater",
+      "messy",
+      "he's"
+     ],
+     "suggestion": "He's a messy eater.",
+     "suggestionFa": "غذاخوردنش شلخته‌ست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upside down",
+     "fa": "وارونه"
+    },
+    {
+     "word": "crumbs",
+     "fa": "خرده نان"
+    },
+    {
+     "word": "everywhere",
+     "fa": "همه جا"
+    },
+    {
+     "word": "messy",
+     "fa": "شلخته"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
+   "translations": {
+    "fa": "اوف. باشه، روشنش می‌کنم. خیلی پرسروصداست. صدام را می‌شنوی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "can't",
+      "hear"
+     ],
+     "suggestion": "Sorry, what? I can't hear you!",
+     "suggestionFa": "ببخشید، چی؟ صدات را نمی‌شنوم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "loud",
+      "but"
+     ],
+     "suggestion": "Yes, but it's very loud.",
+     "suggestionFa": "آره، ولی خیلی بلنده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "switch on",
+     "fa": "روشن کردن"
+    },
+    {
+     "word": "loud",
+     "fa": "پرسروصدا"
+    },
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "WHAT? Oh, wait. It's stopped. Is it full?",
+   "translations": {
+    "fa": "چی؟ آه، صبر کن. خاموش شد. پر شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "think",
+      "full",
+      "bag"
+     ],
+     "suggestion": "I think the bag is full.",
+     "suggestionFa": "فکر کنم کیسه‌ش پره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "check",
+      "plug"
+     ],
+     "suggestion": "Check the plug.",
+     "suggestionFa": "دوشاخه را چک کن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "full",
+     "fa": "پر"
+    },
+    {
+     "word": "plug",
+     "fa": "دوشاخه ؛ پریز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i think is full",
+      "the bag full i think"
+     ],
+     "echo": "The bag's full? Probably.",
+     "better": "I think the bag is full.",
+     "betterFa": "فکر کنم کیسه‌ش پره."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Not the bag. Nicola pulled the plug out! Nicola!",
+   "translations": {
+    "fa": "کیسه نیست. نیکولا دوشاخه را کشیده! نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playing",
+      "trick",
+      "she's",
+      "ha"
+     ],
+     "suggestion": "Ha! She's playing a trick.",
+     "suggestionFa": "ها! داره سربه‌سرت میذاره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "back",
+      "plug",
+      "i'll"
+     ],
+     "suggestion": "I'll plug it back in.",
+     "suggestionFa": "دوباره وصلش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pulled out",
+     "fa": "بیرون کشید"
+    },
+    {
+     "word": "plug in",
+     "fa": "به برق زدن"
+    },
+    {
+     "word": "trick",
+     "fa": "شوخی ؛ کلک"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Thanks. Right, nearly done. Can you do under the sofa? My arm's too big.",
+   "translations": {
+    "fa": "ممنون. خب، تقریباً تمومه. می‌تونی زیر مبل را بکشی؟ دستم خیلی بزرگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sofa",
+      "i'll",
+      "ok"
+     ],
+     "suggestion": "OK, I'll do under the sofa.",
+     "suggestionFa": "باشه، زیر مبل را من می‌کشم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "here",
+      "sock"
+     ],
+     "suggestion": "There's a sock under here!",
+     "suggestionFa": "اینجا یه جوراب هست!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nearly",
+     "fa": "تقریباً"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "sock",
+     "fa": "جوراب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",
+   "translations": {
+    "fa": "جورابم! مارس گمش کردم. فکر کنم روز نظافت اون‌قدرا هم بد نیست. استراحت چای؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

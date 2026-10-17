@@ -33,9 +33,9 @@
     {
      "keywords": [
       "morning",
-      "long",
       "will",
-      "take"
+      "take",
+      "long"
      ],
      "suggestion": "Morning. How long will the MOT take?",
      "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "instead",
-      "wait",
       "here",
+      "wait",
       "can"
      ],
      "suggestion": "Can we wait here instead?",
@@ -132,8 +132,8 @@
     },
     {
      "keywords": [
-      "what's",
       "damage",
+      "what's",
       "go"
      ],
      "suggestion": "Go on. What's the damage?",
@@ -246,9 +246,9 @@
     {
      "keywords": [
       "second",
-      "quote",
+      "could",
       "first",
-      "could"
+      "quote"
      ],
      "suggestion": "Could I get a second quote first?",
      "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
@@ -308,8 +308,8 @@
     {
      "keywords": [
       "ahead",
-      "news",
       "good",
+      "news",
       "was"
      ],
      "suggestion": "OK, go ahead. What was the good news?",
@@ -343,7 +343,7 @@
       "advisory",
       "those",
       "mean",
-      "now"
+      "fix"
      ],
      "suggestion": "What does \"advisory\" mean? Do we have to fix those now?",
      "suggestionFa": "«توصیه» یعنی چی؟ باید الان تعمیرشون کنیم؟",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "tyres",
-      "long",
       "left",
+      "long",
       "got"
      ],
      "suggestion": "How long have the tyres got left?",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "replace",
-      "before",
       "winter",
+      "before",
       "we'll"
      ],
      "suggestion": "We'll replace them before winter, then.",
@@ -417,8 +417,8 @@
      "keywords": [
       "garages",
       "upsell",
-      "thanks",
-      "honest"
+      "honest",
+      "thanks"
      ],
      "suggestion": "Thanks for being honest. Lots of garages would upsell.",
      "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",

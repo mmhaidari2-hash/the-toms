@@ -1,0 +1,412 @@
+{
+ "id": "l1_u17_3",
+ "characterId": "ryan",
+ "title": "It's too hot!",
+ "titleFa": "خیلی داغه!",
+ "setting": "Drinks · Level 1",
+ "settingFa": "نوشیدنی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Ow! My coffee's too hot! I burnt my tongue!",
+   "translations": {
+    "fa": "آخ! قهوه‌ام خیلی داغه! زبونم سوخت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drink",
+      "water",
+      "cold",
+      "some"
+     ],
+     "suggestion": "Oh no! Drink some cold water.",
+     "suggestionFa": "وای نه! یه کم آب سرد بخور.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minute",
+      "wait",
+      "cool",
+      "down"
+     ],
+     "suggestion": "Wait a minute. Let it cool down.",
+     "suggestionFa": "یه دقیقه صبر کن. بذار خنک بشه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too hot",
+     "fa": "خیلی داغ"
+    },
+    {
+     "word": "burnt",
+     "fa": "سوزاند"
+    },
+    {
+     "word": "tongue",
+     "fa": "زبان"
+    },
+    {
+     "word": "cool down",
+     "fa": "خنک شدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "I can't wait. I'm late for school! Can I put an ice cube in it?",
+   "translations": {
+    "fa": "نمی‌تونم صبر کنم. برای مدرسه دیرم شده! می‌شه یه تیکه یخ بندازم توش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strange",
+      "coffee",
+      "that's",
+      "ice"
+     ],
+     "suggestion": "Coffee with ice? That's strange!",
+     "suggestionFa": "قهوه با یخ؟ عجیبه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cold",
+      "some",
+      "milk",
+      "put"
+     ],
+     "suggestion": "Put some cold milk in it.",
+     "suggestionFa": "یه کم شیر سرد بریز توش.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "late",
+     "fa": "دیر"
+    },
+    {
+     "word": "ice cube",
+     "fa": "تکه یخ"
+    },
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Good idea. Milk… Oh no! Now it's too cold! And it's too milky!",
+   "translations": {
+    "fa": "فکر خوبیه. شیر… وای نه! حالا خیلی سرده! و خیلی شیری شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "can't",
+      "win",
+      "ha"
+     ],
+     "suggestion": "Ha ha! You can't win!",
+     "suggestionFa": "ها ها! نمی‌تونی برنده بشی!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "microwave",
+      "heat"
+     ],
+     "suggestion": "Heat it in the microwave.",
+     "suggestionFa": "تو مایکروویو گرمش کن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too cold",
+     "fa": "خیلی سرد"
+    },
+    {
+     "word": "microwave",
+     "fa": "مایکروویو"
+    },
+    {
+     "word": "win",
+     "fa": "بردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Twenty seconds… there. Ugh! Now it's too sweet. Who put three sugars in it?",
+   "translations": {
+    "fa": "بیست ثانیه… بفرما. اه! حالا خیلی شیرینه. کی سه تا قند ریخت توش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "not",
+      "me"
+     ],
+     "suggestion": "Not me!",
+     "suggestionFa": "من نه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "maybe",
+      "was"
+     ],
+     "suggestion": "Maybe it was Nicola!",
+     "suggestionFa": "شاید نیکولا بود!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too sweet",
+     "fa": "خیلی شیرین"
+    },
+    {
+     "word": "sugars",
+     "fa": "قندها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is too much sweet",
+      "it too sweet"
+     ],
+     "echo": "It's too sweet? Poor Ryan!",
+     "better": "It's too sweet.",
+     "betterFa": "خیلی شیرینه."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Nicola! She always does that. OK, I'll make a new one. Do you want one?",
+   "translations": {
+    "fa": "نیکولا! همیشه این کار را می‌کنه. باشه، یکی دیگه درست می‌کنم. تو هم می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strong",
+      "please"
+     ],
+     "suggestion": "Yes, please. Not too strong.",
+     "suggestionFa": "آره، لطفاً. نه خیلی غلیظ.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "i've",
+      "tea",
+      "got"
+     ],
+     "suggestion": "No, thanks. I've got tea.",
+     "suggestionFa": "نه، ممنون. چای دارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "new",
+     "fa": "جدید"
+    },
+    {
+     "word": "strong",
+     "fa": "غلیظ"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Instant coffee. One spoon. Is one spoon too much?",
+   "translations": {
+    "fa": "قهوهٔ فوری. یه قاشق. یه قاشق زیاده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fine",
+      "one"
+     ],
+     "suggestion": "No, one spoon is fine.",
+     "suggestionFa": "نه، یه قاشق خوبه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "half"
+     ],
+     "suggestion": "Maybe half a spoon.",
+     "suggestionFa": "شاید نصف قاشق.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "instant",
+     "fa": "فوری"
+    },
+    {
+     "word": "spoon",
+     "fa": "قاشق"
+    },
+    {
+     "word": "fine",
+     "fa": "خوب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Instant coffee is still very popular in British homes, though coffee shops are everywhere.",
+    "fa": "قهوهٔ فوری در خانه‌ها رایج است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Right. Hot water, a bit of milk, no sugar. Now it's just right!",
+   "translations": {
+    "fa": "خب. آب داغ، یه کم شیر، بی‌شکر. حالا درست درسته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goldilocks",
+      "like"
+     ],
+     "suggestion": "Like Goldilocks!",
+     "suggestionFa": "مثل موطلایی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finally",
+      "enjoy"
+     ],
+     "suggestion": "Finally! Enjoy it.",
+     "suggestionFa": "بالاخره! نوش جان.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "just right",
+     "fa": "درست اندازه"
+    },
+    {
+     "word": "finally",
+     "fa": "بالاخره"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Goldilocks and the Three Bears\": porridge too hot, too cold, then \"just right\".",
+    "fa": "قصهٔ موطلایی و سه خرس."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Ha! Goldilocks! Oh no — look at the time! I'm too late! Can you drink it for me? Bye!",
+   "translations": {
+    "fa": "ها! موطلایی! وای نه — ساعت را ببین! خیلی دیرم شد! می‌تونی تو برام بخوریش؟ خداحافظ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ryan",
+      "run",
+      "bye"
+     ],
+     "suggestion": "Bye, Ryan! Run!",
+     "suggestionFa": "خداحافظ رایان! بدو!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coffee",
+      "thanks",
+      "ok"
+     ],
+     "suggestion": "OK! Thanks for the coffee!",
+     "suggestionFa": "باشه! ممنون بابت قهوه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "look at the time",
+     "fa": "ساعت را ببین"
+    },
+    {
+     "word": "run",
+     "fa": "دویدن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Cheers! See you later! Tell Mum I had breakfast!",
+   "translations": {
+    "fa": "ممنون! بعداً می‌بینمت! به مامان بگو صبحونه خوردم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

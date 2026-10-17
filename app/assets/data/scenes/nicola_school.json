@@ -25,7 +25,7 @@
       "everyone",
       "nervous",
       "normal",
-      "will"
+      "like"
      ],
      "suggestion": "It's normal to feel nervous. Everyone will like you!",
      "suggestionFa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!",
@@ -37,8 +37,8 @@
      "keywords": [
       "children",
       "today",
-      "lots",
-      "same"
+      "same",
+      "lots"
      ],
      "suggestion": "Lots of children feel the same today.",
      "suggestionFa": "خیلی از بچه‌ها امروز همین حس را دارن.",
@@ -75,8 +75,8 @@
      "keywords": [
       "promise",
       "three",
-      "pick",
-      "i'll"
+      "i'll",
+      "pick"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -138,8 +138,8 @@
     {
      "keywords": [
       "window",
-      "give",
       "wave",
+      "give",
       "from"
      ],
      "suggestion": "Give me a big wave from the window!",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "Can I see it?",
      "suggestionFa": "می‌تونم ببینمش؟",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "well",
-      "gold",
+      "done",
       "star",
-      "done"
+      "well",
+      "gold"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -332,8 +332,8 @@
      "keywords": [
       "though",
       "listen",
-      "miss",
-      "hart"
+      "hart",
+      "miss"
      ],
      "suggestion": "Try to listen to Miss Hart, though.",
      "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
@@ -382,8 +382,8 @@
      "keywords": [
       "shepherd's",
       "like",
-      "pie",
-      "did"
+      "did",
+      "pie"
      ],
      "suggestion": "Shepherd's pie! Did you like it?",
      "suggestionFa": "پای چوپان! دوستش داشتی؟",

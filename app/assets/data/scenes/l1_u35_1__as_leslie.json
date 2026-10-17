@@ -1,0 +1,271 @@
+{
+ "id": "l1_u35_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Nappy time",
+ "titleFa": "(در نقش Leslie) وقت عوض کردن پوشک",
+ "setting": "Baby William · Level 1",
+ "settingFa": "ویلیام کوچولو",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u35_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "somebody",
+      "things",
+      "nappy",
+      "needs",
+      "pass"
+     ],
+     "suggestion": "Pooh! Somebody needs a new nappy. Can you help me? Just pass me things.",
+     "suggestionFa": "پیف! یکی پوشک نو لازم داره. کمکم می‌کنی؟ فقط وسایل را بهم بده.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. What do you need?",
+   "translations": {
+    "fa": "حتماً. چی لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "changing",
+      "thing",
+      "blue",
+      "need",
+      "sofa"
+     ],
+     "suggestion": "I need the changing mat. It's the blue thing by the sofa.",
+     "suggestionFa": "تشک تعویض لازم دارم. همون چیز آبیه کنار مبل.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Here's the changing mat.",
+   "translations": {
+    "fa": "بفرما تشک تعویض."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "william",
+   "text": "No! No nappy!",
+   "translations": {
+    "fa": "نه! پوشک نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have to",
+     "fa": "مجبور بودن"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Sorry, William. You have to.",
+   "translations": {
+    "fa": "ببخشید ویلیام. باید عوض بشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clean",
+      "wants",
+      "wipes",
+      "nappy",
+      "never"
+     ],
+     "suggestion": "He never wants it! Now I need the wipes. And a clean nappy from the bag.",
+     "suggestionFa": "هیچ‌وقت نمی‌خواد! حالا دستمال مرطوب لازمه. و یه پوشک تمیز از کیف.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here are the wipes.",
+   "translations": {
+    "fa": "بفرما دستمال‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "changing",
+      "kicks",
+      "hold",
+      "feet",
+      "can"
+     ],
+     "suggestion": "Yes, the changing bag. Can you hold his feet? He kicks a lot!",
+     "suggestionFa": "آره، کیف تعویض. می‌تونی پاهاش را نگه داری؟ خیلی لگد می‌زنه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "OK, I'm holding his feet.",
+   "translations": {
+    "fa": "باشه، پاهاش را گرفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "william",
+   "text": "Ha ha! Tickle!",
+   "translations": {
+    "fa": "ها ها! غلغلک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tickle",
+     "fa": "غلغلک"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Tickle tickle, William!",
+   "translations": {
+    "fa": "قلقلک قلقلک ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything's",
+      "hands",
+      "game",
+      "done",
+      "wash"
+     ],
+     "suggestion": "Everything's a game to him. Done! Now we need to wash our hands.",
+     "suggestionFa": "همه چیز براش بازیه. تموم شد! حالا باید دستامون را بشوریم.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "I'll put the nappy in the bin.",
+   "translations": {
+    "fa": "پوشک را میندازم تو سطل."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "natural",
+      "thanks",
+      "about",
+      "times",
+      "next"
+     ],
+     "suggestion": "About six times! Thanks, you're a natural. Next time you can do it on your own! Ha!",
+     "suggestionFa": "حدود شش بار! ممنون، ذاتاً بلدی. دفعهٔ بعد خودت تنهایی انجامش میدی! ها!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

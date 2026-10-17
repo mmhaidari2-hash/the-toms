@@ -1,0 +1,225 @@
+{
+ "id": "l1_u27_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Saying goodbye",
+ "titleFa": "(در نقش Tom) خداحافظی",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u27_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "seaside",
+      "leaving",
+      "moving",
+      "number"
+     ],
+     "suggestion": "Did you hear? Mr Bailey at number six is moving to the seaside. He's leaving tomorrow.",
+     "suggestionFa": "شنیدی؟ آقای بیلی از پلاک شش داره می‌ره کنار دریا. فردا می‌ره.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no! He's very nice.",
+   "translations": {
+    "fa": "وای نه! خیلی مهربونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daughter",
+      "brighton",
+      "goodbye",
+      "let's",
+      "near"
+     ],
+     "suggestion": "To Brighton. To be near his daughter. Let's go and say goodbye.",
+     "suggestionFa": "به برایتون. که نزدیک دخترش باشه. بیا بریم خداحافظی کنیم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Shall we take a card?",
+   "translations": {
+    "fa": "یه کارت ببریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "picture",
+      "nicola",
+      "bailey",
+      "hello",
+      "look"
+     ],
+     "suggestion": "Yes, Nicola made a card. Look — a picture of him and his dog. Hello, Mr Bailey!",
+     "suggestionFa": "آره، نیکولا یه کارت درست کرده. ببین — عکس خودش و سگش. سلام آقای بیلی!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Hello! We came to say goodbye.",
+   "translations": {
+    "fa": "سلام! اومدیم خداحافظی کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridge",
+      "thank",
+      "lived",
+      "years",
+      "he'll"
+     ],
+     "suggestion": "He says thank you. He'll put it on his new fridge. He's lived here for forty years!",
+     "suggestionFa": "می‌گه ممنون. می‌ذارتش رو یخچال جدیدش. چهل ساله اینجا زندگی کرده!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Forty years! That's a long time.",
+   "translations": {
+    "fa": "چهل سال! خیلی زیاده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "sweets",
+      "about",
+      "will",
+      "gave"
+     ],
+     "suggestion": "We will. He always gave Ryan sweets. Ask him about his new home.",
+     "suggestionFa": "تنگ میشه. همیشه به رایان شکلات می‌داد. ازش دربارهٔ خونهٔ جدیدش بپرس.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Is your new house near the sea?",
+   "translations": {
+    "fa": "خونهٔ جدیدتون نزدیک دریاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bedroom",
+      "morning",
+      "eighty",
+      "going",
+      "every"
+     ],
+     "suggestion": "He can see the sea from his bedroom! And he's going to swim every morning. At eighty!",
+     "suggestionFa": "از اتاق خوابش دریا را می‌بینه! و قراره هر روز صبح شنا کنه. تو هشتاد سالگی!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Amazing!",
+   "translations": {
+    "fa": "فوق‌العاده‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "leaving",
+      "goodbye",
+      "let's",
+      "right"
+     ],
+     "suggestion": "Right. Let's say goodbye. What do you say to someone who's leaving?",
+     "suggestionFa": "خب. بیا خداحافظی کنیم. به کسی که داره می‌ره چی می‌گی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Take care, Mr Bailey! Keep in touch!",
+   "translations": {
+    "fa": "مراقب خودتون باشید آقای بیلی! در تماس باشیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "bucket",
+      "street",
+      "visit",
+      "bring"
+     ],
+     "suggestion": "Perfect. He says, \"Come and visit! Bring a bucket and spade!\" The street won't be the same.",
+     "suggestionFa": "عالی. می‌گه «بیاید دیدنم! سطل و بیلچه بیارید!» خیابون دیگه مثل قبل نمی‌شه.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

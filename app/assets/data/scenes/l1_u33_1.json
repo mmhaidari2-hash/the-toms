@@ -1,0 +1,366 @@
+{
+ "id": "l1_u33_1",
+ "characterId": "baker",
+ "title": "Fresh bread",
+ "titleFa": "نان تازه",
+ "setting": "The weekend market · Level 1",
+ "settingFa": "بازار آخر هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Morning! Welcome to my Saturday stall. Everything's fresh from the oven!",
+   "translations": {
+    "fa": "صبح بخیر! به غرفهٔ شنبه‌م خوش اومدی. همه چیز تازه از تنوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "every",
+      "here",
+      "come"
+     ],
+     "suggestion": "Do you come here every Saturday?",
+     "suggestionFa": "هر شنبه اینجا میاید؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fresh",
+      "bread",
+      "today"
+     ],
+     "suggestion": "Is the bread fresh today?",
+     "suggestionFa": "نون امروز تازه‌ست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stall",
+     "fa": "غرفه ؛ دکه"
+    },
+    {
+     "word": "fresh",
+     "fa": "تازه"
+    },
+    {
+     "word": "oven",
+     "fa": "تنور ؛ فر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Broadway Market in Hackney is a famous Saturday street market.",
+    "fa": "بازار برادوی در هکنی."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "Every Saturday, rain or shine! I bake at four in the morning.",
+   "translations": {
+    "fa": "هر شنبه، بارون باشه یا آفتاب! ساعت چهار صبح نون می‌پزم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "that's",
+      "early",
+      "four"
+     ],
+     "suggestion": "Four in the morning? That's early!",
+     "suggestionFa": "چهار صبح؟ خیلی زوده!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "afternoon",
+      "sleep"
+     ],
+     "suggestion": "Do you sleep in the afternoon?",
+     "suggestionFa": "بعدازظهر می‌خوابید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rain or shine",
+     "fa": "در هر شرایطی"
+    },
+    {
+     "word": "bake",
+     "fa": "پختن"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "I have a nap after lunch! Do you want to try the sourdough? Here's a sample.",
+   "translations": {
+    "fa": "بعد از ناهار چرت می‌زنم! می‌خوای نون ساوردو را امتحان کنی؟ بیا یه نمونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "sour",
+      "mmm",
+      "bit"
+     ],
+     "suggestion": "Thank you. Mmm, it's a bit sour.",
+     "suggestionFa": "ممنون. ممم، یه کم ترشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sourdough"
+     ],
+     "suggestion": "What is sourdough?",
+     "suggestionFa": "ساوردو چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nap",
+     "fa": "چرت"
+    },
+    {
+     "word": "sourdough",
+     "fa": "نان خمیرترش"
+    },
+    {
+     "word": "sample",
+     "fa": "نمونه"
+    },
+    {
+     "word": "sour",
+     "fa": "ترش"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "It's bread made slowly, with no yeast. It's a bit sour. Do you like it?",
+   "translations": {
+    "fa": "نونیه که آروم درست میشه، بدون مخمر. یه کم ترشه. دوستش داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lot"
+     ],
+     "suggestion": "Yes, I like it a lot.",
+     "suggestionFa": "آره، خیلی دوستش دارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bread",
+      "iran"
+     ],
+     "suggestion": "It's like bread in Iran!",
+     "suggestionFa": "شبیه نون ایرانه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slowly",
+     "fa": "آهسته"
+    },
+    {
+     "word": "yeast",
+     "fa": "مخمر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i am like it",
+      "i liking it"
+     ],
+     "echo": "You like it? Lovely!",
+     "better": "I like it.",
+     "betterFa": "دوستش دارم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Is it? Which bread do you have in Iran?",
+   "translations": {
+    "fa": "جدی؟ تو ایران چه نونی دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sangak",
+      "have",
+      "long",
+      "we"
+     ],
+     "suggestion": "We have sangak. It's long and flat.",
+     "suggestionFa": "سنگک داریم. بلند و تخته.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "barbari",
+      "seeds",
+      "top"
+     ],
+     "suggestion": "Barbari. It's flat with seeds on top.",
+     "suggestionFa": "بربری. تخته و روش کنجده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flat",
+     "fa": "تخت ؛ مسطح"
+    },
+    {
+     "word": "seeds",
+     "fa": "دانه‌ها ؛ کنجد"
+    },
+    {
+     "word": "long",
+     "fa": "بلند"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "Sounds delicious. There's an Iranian bakery in Kilburn, you know. Now, what can I get you?",
+   "translations": {
+    "fa": "خوشمزه به نظر میاد. می‌دونی، یه نونوایی ایرانی تو کیلبرن هست. خب، چی بدم خدمتت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sourdough",
+      "please",
+      "loaf",
+      "one"
+     ],
+     "suggestion": "One sourdough loaf, please.",
+     "suggestionFa": "یه نون ساوردو، لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "kilburn"
+     ],
+     "suggestion": "Where's Kilburn?",
+     "suggestionFa": "کیلبرن کجاست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    },
+    {
+     "word": "bakery",
+     "fa": "نانوایی"
+    }
+   ],
+   "cultureNote": {
+    "en": "London has many Persian shops and bakeries, especially in north-west London.",
+    "fa": "نانوایی‌های ایرانی در لندن."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Up in north-west London. Here's your sourdough. Four pounds, please.",
+   "translations": {
+    "fa": "شمال غربی لندن. بفرما ساوردو. چهار پوند، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Here you are.",
+     "suggestionFa": "بفرمایید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "expensive",
+      "worth",
+      "but"
+     ],
+     "suggestion": "It's expensive, but it's worth it.",
+     "suggestionFa": "گرونه، ولی می‌ارزه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "expensive",
+     "fa": "گران"
+    },
+    {
+     "word": "worth it",
+     "fa": "ارزشش را دارد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "baker",
+   "text": "It IS worth it! Keep it in a paper bag, not plastic. See you next Saturday!",
+   "translations": {
+    "fa": "واقعاً می‌ارزه! تو کیسهٔ کاغذی نگهش دار، نه پلاستیکی. شنبهٔ بعد می‌بینمت!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

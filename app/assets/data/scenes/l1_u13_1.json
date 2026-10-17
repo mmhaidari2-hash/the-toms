@@ -1,0 +1,409 @@
+{
+ "id": "l1_u13_1",
+ "characterId": "nicola",
+ "title": "Feeding the ducks",
+ "titleFa": "غذا دادن به اردک‌ها",
+ "setting": "Pets and animals · Level 1",
+ "settingFa": "حیوانات خانگی و حیوانات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
+   "translations": {
+    "fa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Yes, here it is.",
+     "suggestionFa": "آره، ایناهاش.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bread"
+     ],
+     "suggestion": "Yes. Is it bread?",
+     "suggestionFa": "آره. نونه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ducks",
+     "fa": "اردک‌ها"
+    },
+    {
+     "word": "pond",
+     "fa": "برکه"
+    },
+    {
+     "word": "bag",
+     "fa": "کیسه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "No! Not bread. Bread is bad for ducks. It's special duck food.",
+   "translations": {
+    "fa": "نه! نون نه. نون برای اردک‌ها بده. غذای مخصوص اردکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "know",
+      "oh"
+     ],
+     "suggestion": "Oh, I didn't know that.",
+     "suggestionFa": "آه، نمی‌دونستم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "ok"
+     ],
+     "suggestion": "OK. What's in it?",
+     "suggestionFa": "باشه. توش چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bad for",
+     "fa": "برای ... بد"
+    },
+    {
+     "word": "special",
+     "fa": "مخصوص"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British parks ask people not to feed ducks bread; oats, peas or duck pellets are better.",
+    "fa": "به اردک‌ها نان ندهید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Oats and seeds. How many ducks can you see?",
+   "translations": {
+    "fa": "جو دوسر و دونه. چند تا اردک می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seven",
+      "see",
+      "can"
+     ],
+     "suggestion": "I can see seven ducks.",
+     "suggestionFa": "هفت تا اردک می‌بینم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "think",
+      "ten"
+     ],
+     "suggestion": "There are ten ducks, I think.",
+     "suggestionFa": "فکر کنم ده تا اردک هست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oats",
+     "fa": "جو دوسر"
+    },
+    {
+     "word": "seeds",
+     "fa": "دانه‌ها"
+    },
+    {
+     "word": "seven",
+     "fa": "هفت"
+    },
+    {
+     "word": "ten",
+     "fa": "ده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is ten ducks",
+      "i see ten duck"
+     ],
+     "echo": "Ten ducks? Yes, there are ten!",
+     "better": "There are ten ducks.",
+     "betterFa": "ده تا اردک هست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
+   "translations": {
+    "fa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "stay",
+      "i'll",
+      "ok"
+     ],
+     "suggestion": "OK, I'll stay here.",
+     "suggestionFa": "باشه، همین‌جا می‌مونم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dangerous"
+     ],
+     "suggestion": "Is it dangerous?",
+     "suggestionFa": "خطرناکه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swan",
+     "fa": "قو"
+    },
+    {
+     "word": "grumpy",
+     "fa": "بداخلاق"
+    },
+    {
+     "word": "close",
+     "fa": "نزدیک"
+    },
+    {
+     "word": "dangerous",
+     "fa": "خطرناک"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain, many swans traditionally belong to the King!",
+    "fa": "قوها در بریتانیا به‌طور سنتی مال پادشاهند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "A bit. Throw the food in the water. Gently!",
+   "translations": {
+    "fa": "یه کم. غذا را بنداز تو آب. آروم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ducks",
+      "here"
+     ],
+     "suggestion": "Here you are, ducks!",
+     "suggestionFa": "بفرمایید، اردک‌ها!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "throw",
+     "fa": "انداختن"
+    },
+    {
+     "word": "water",
+     "fa": "آب"
+    },
+    {
+     "word": "gently",
+     "fa": "آرام"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Yes! Look, the little brown duck is eating. She's got babies!",
+   "translations": {
+    "fa": "آره! ببین، اردک قهوه‌ای کوچولو داره می‌خوره. بچه داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "many",
+      "got",
+      "how",
+      "she"
+     ],
+     "suggestion": "How many babies has she got?",
+     "suggestionFa": "چند تا بچه داره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small"
+     ],
+     "suggestion": "The babies are so small!",
+     "suggestionFa": "بچه‌ها خیلی کوچیکن!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "babies",
+     "fa": "بچه‌ها"
+    },
+    {
+     "word": "eating",
+     "fa": "خوردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "One, two, three, four, five! Five ducklings. Baby ducks are called ducklings.",
+   "translations": {
+    "fa": "یک، دو، سه، چهار، پنج! پنج جوجه اردک. به بچه اردک می‌گن جوجه اردک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ducklings",
+      "that's",
+      "nice",
+      "word"
+     ],
+     "suggestion": "Ducklings. That's a nice word.",
+     "suggestionFa": "جوجه اردک. کلمهٔ قشنگیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "swan",
+      "baby",
+      "call"
+     ],
+     "suggestion": "What do you call a baby swan?",
+     "suggestionFa": "به بچه قو چی می‌گن؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ducklings",
+     "fa": "جوجه اردک‌ها"
+    },
+    {
+     "word": "called",
+     "fa": "نامیده می‌شود"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "A cygnet! Mrs Ellis taught us. Oh, the food is all gone.",
+   "translations": {
+    "fa": "سیگنت! خانم الیس یادمون داد. آه، غذا تموم شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ducks",
+      "bye"
+     ],
+     "suggestion": "Bye-bye, ducks!",
+     "suggestionFa": "خداحافظ اردک‌ها!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "swings",
+      "shall",
+      "now",
+      "we"
+     ],
+     "suggestion": "Shall we go to the swings now?",
+     "suggestionFa": "حالا بریم تاب‌ها؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gone",
+     "fa": "تمام شده"
+    },
+    {
+     "word": "swings",
+     "fa": "تاب‌ها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Yes! Race you to the swings! Bye, ducks! See you next week!",
+   "translations": {
+    "fa": "آره! مسابقه تا تاب‌ها! خداحافظ اردک‌ها! هفتهٔ بعد می‌بینیمتون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,350 @@
+{
+ "id": "l1_u34_4",
+ "characterId": "doris",
+ "title": "Straight on",
+ "titleFa": "مستقیم",
+ "setting": "Simple directions · Level 1",
+ "settingFa": "آدرس‌دادن ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Tom, dear, I need the health centre today. Just a check-up. Which stop is it?",
+   "translations": {
+    "fa": "تام عزیز، امروز باید برم درمانگاه. فقط یه چکاپ. کدوم ایستگاه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "tom's",
+      "help",
+      "busy"
+     ],
+     "suggestion": "Tom's busy driving. Can I help?",
+     "suggestionFa": "تام سرش به رانندگی گرمه. می‌تونم کمک کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "essex",
+      "road",
+      "one"
+     ],
+     "suggestion": "Is it the one on Essex Road?",
+     "suggestionFa": "همونیه که تو اسکس رود؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "health centre",
+     "fa": "درمانگاه"
+    },
+    {
+     "word": "check-up",
+     "fa": "معاینه"
+    },
+    {
+     "word": "busy",
+     "fa": "مشغول"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Essex Road, Doris. Get off at the next-but-one stop. {you} will show you.",
+   "translations": {
+    "fa": "اسکس رود، دوریس. ایستگاه بعد از بعدی پیاده شو. {you} نشونت میده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "get",
+      "off",
+      "bus"
+     ],
+     "suggestion": "First, we get off the bus.",
+     "suggestionFa": "اول از اتوبوس پیاده میشیم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "next",
+      "but",
+      "one"
+     ],
+     "suggestion": "What's \"next-but-one\"?",
+     "suggestionFa": "«بعد از بعدی» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next-but-one",
+     "fa": "دومی بعد از این"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "It means the second stop. Thank you, dear. Then which way?",
+   "translations": {
+    "fa": "یعنی ایستگاه دوم. ممنون عزیزم. بعد از کدوم طرف؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "straight",
+      "go"
+     ],
+     "suggestion": "Then go straight on.",
+     "suggestionFa": "بعد مستقیم برید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lights",
+      "right",
+      "turn"
+     ],
+     "suggestion": "Then turn right at the lights.",
+     "suggestionFa": "بعد سر چراغ بپیچید راست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "second",
+     "fa": "دوم"
+    },
+    {
+     "word": "lights",
+     "fa": "چراغ راهنمایی"
+    },
+    {
+     "word": "which way",
+     "fa": "کدام طرف"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Right at the lights. After that?",
+   "translations": {
+    "fa": "سر چراغ راست. بعد از اون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "left"
+     ],
+     "suggestion": "After that, it's on your left.",
+     "suggestionFa": "بعد از اون، سمت چپتونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "school",
+      "walk",
+      "past"
+     ],
+     "suggestion": "After that, walk past the school.",
+     "suggestionFa": "بعد از اون، از جلوی مدرسه رد بشید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "after that",
+     "fa": "بعد از آن"
+    },
+    {
+     "word": "past",
+     "fa": "از کنار ؛ از جلوی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "after it on left",
+      "after that is in your left"
+     ],
+     "echo": "After that, it's on your left? Lovely.",
+     "better": "After that, it's on your left.",
+     "betterFa": "بعد از اون، سمت چپتونه."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Past the school, then on my left. How many minutes?",
+   "translations": {
+    "fa": "از جلوی مدرسه، بعد سمت چپم. چند دقیقه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "ten"
+     ],
+     "suggestion": "About ten minutes.",
+     "suggestionFa": "حدود ده دقیقه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "five",
+      "far"
+     ],
+     "suggestion": "Not far. Five minutes.",
+     "suggestionFa": "دور نیست. پنج دقیقه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "about",
+     "fa": "حدود"
+    },
+    {
+     "word": "minutes",
+     "fa": "دقیقه‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Can you tell me again? Slowly? My memory is like a sieve!",
+   "translations": {
+    "fa": "می‌شه دوباره بگی؟ آروم؟ حافظه‌م مثل آبکشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "straight",
+      "lights",
+      "right",
+      "first"
+     ],
+     "suggestion": "First, straight on. Then right at the lights.",
+     "suggestionFa": "اول، مستقیم. بعد سر چراغ راست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "after",
+      "left"
+     ],
+     "suggestion": "After that, it's on your left.",
+     "suggestionFa": "بعد از اون، سمت چپتونه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slowly",
+     "fa": "آهسته"
+    },
+    {
+     "word": "memory",
+     "fa": "حافظه"
+    },
+    {
+     "word": "sieve",
+     "fa": "آبکش"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"A memory like a sieve\" is a British idiom for forgetting things easily.",
+    "fa": "حافظه مثل آبکش."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Here's your stop, Doris! Mind the step. Good luck with the check-up!",
+   "translations": {
+    "fa": "ایستگاهت رسید دوریس! مواظب پله باش. چکاپت به خیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doris",
+      "bye"
+     ],
+     "suggestion": "Bye, Doris!",
+     "suggestionFa": "خداحافظ دوریس!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "come",
+      "want"
+     ],
+     "suggestion": "Do you want me to come with you?",
+     "suggestionFa": "می‌خواید باهاتون بیام؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mind",
+     "fa": "مواظب بودن"
+    },
+    {
+     "word": "step",
+     "fa": "پله"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "No, no, I'm fine. Straight on, right, left. Thank you, my dears! See you on Thursday, Tom!",
+   "translations": {
+    "fa": "نه، نه، خوبم. مستقیم، راست، چپ. ممنون عزیزانم! پنجشنبه می‌بینمت تام!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

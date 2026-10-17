@@ -1,0 +1,325 @@
+{
+ "id": "l1_u35_3__as_leslie",
+ "characterId": "william",
+ "title": "(As Leslie) Bottle time",
+ "titleFa": "(در نقش Leslie) وقت شیشهٔ شیر",
+ "setting": "Baby William · Level 1",
+ "settingFa": "ویلیام کوچولو",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u35_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "william",
+   "text": "Milk! Milk!",
+   "translations": {
+    "fa": "شیر! شیر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "milk",
+     "fa": "شیر"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Do you want your milk?",
+   "translations": {
+    "fa": "شیرت را می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "microwave",
+      "seconds",
+      "bottle",
+      "thirty",
+      "fridge"
+     ],
+     "suggestion": "Can you warm his bottle? It's in the fridge. Thirty seconds in the microwave.",
+     "suggestionFa": "می‌تونی شیشه‌ش را گرم کنی؟ تو یخچاله. سی ثانیه تو مایکروویو.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Only thirty seconds?",
+   "translations": {
+    "fa": "فقط سی ثانیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wrist",
+      "shake",
+      "well",
+      "test",
+      "then"
+     ],
+     "suggestion": "Yes, shake it well. Then test it on your wrist. Not too hot!",
+     "suggestionFa": "آره، خوب تکونش بده. بعد رو مچ دستت امتحانش کن. خیلی داغ نباشه!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "It's warm. Not hot.",
+   "translations": {
+    "fa": "گرمه. داغ نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "william",
+   "text": "Mine! Mine!",
+   "translations": {
+    "fa": "مال من! مال من!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mine",
+     "fa": "مال من"
+    },
+    {
+     "word": "hold",
+     "fa": "گرفتن"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here's your bottle, William.",
+   "translations": {
+    "fa": "بفرما شیشه‌ت ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "holding",
+      "himself",
+      "likes",
+      "want",
+      "sit"
+     ],
+     "suggestion": "He likes holding it himself now. Big boy! Do you want to sit with him?",
+     "suggestionFa": "الان دوست داره خودش بگیرتش. پسر بزرگ! می‌خوای کنارش بشینی؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, I'd love to.",
+   "translations": {
+    "fa": "آره، خیلی دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "william",
+   "text": "Mmm. All gone!",
+   "translations": {
+    "fa": "ممم. تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "all gone",
+     "fa": "تمام شد"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "All gone! Well done!",
+   "translations": {
+    "fa": "تموم شد! آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gently",
+      "back",
+      "like",
+      "need",
+      "burp"
+     ],
+     "suggestion": "Now we need to burp him. Pat his back gently. Like this.",
+     "suggestionFa": "حالا باید آروغش را بگیریم. آروم به پشتش بزن. این‌جوری.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Like this? Gently?",
+   "translations": {
+    "fa": "این‌جوری؟ آروم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "william",
+   "text": "Burp! Ha ha!",
+   "translations": {
+    "fa": "آروغ! ها ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "excuse you",
+     "fa": "(شوخی) بگو ببخشید"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Good boy!",
+   "translations": {
+    "fa": "پسر خوب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "asleep",
+      "excuse",
+      "thank",
+      "he'll"
+     ],
+     "suggestion": "Ha! \"Excuse you\"! He'll be asleep in five minutes. Thank you, nanny Mehdi!",
+     "suggestionFa": "ها! «عذرخواهی کن»! پنج دقیقه دیگه خوابه. ممنون پرستار {you}!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

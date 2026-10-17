@@ -1,0 +1,361 @@
+{
+ "id": "l1_u36_1",
+ "characterId": "mia",
+ "title": "I like drawing",
+ "titleFa": "نقاشی دوست دارم",
+ "setting": "Hobbies · Level 1",
+ "settingFa": "سرگرمی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "mia",
+   "text": "Hello! I'm drawing a unicorn. Do you like drawing?",
+   "translations": {
+    "fa": "سلام! دارم یه تک‌شاخ می‌کشم. نقاشی دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drawing",
+      "like"
+     ],
+     "suggestion": "Yes, I like drawing.",
+     "suggestionFa": "آره، نقاشی دوست دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "good"
+     ],
+     "suggestion": "Not really. I'm not good at it.",
+     "suggestionFa": "نه زیاد. خوب بلد نیستم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drawing",
+     "fa": "نقاشی کشیدن"
+    },
+    {
+     "word": "unicorn",
+     "fa": "اسب تک‌شاخ"
+    },
+    {
+     "word": "good at",
+     "fa": "خوب در"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i like draw",
+      "i am like drawing"
+     ],
+     "echo": "You like drawing? Me too!",
+     "better": "I like drawing.",
+     "betterFa": "نقاشی دوست دارم."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "mia",
+   "text": "Everybody's good at drawing! Look, my unicorn has a rainbow tail.",
+   "translations": {
+    "fa": "همه نقاشیشون خوبه! ببین، تک‌شاخ من دُم رنگین‌کمونی داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "mia"
+     ],
+     "suggestion": "It's beautiful, Mia.",
+     "suggestionFa": "قشنگه میا.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "colour",
+      "horn"
+     ],
+     "suggestion": "What colour is the horn?",
+     "suggestionFa": "شاخش چه رنگیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rainbow",
+     "fa": "رنگین‌کمان"
+    },
+    {
+     "word": "tail",
+     "fa": "دُم"
+    },
+    {
+     "word": "horn",
+     "fa": "شاخ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "mia",
+   "text": "Gold! Nicola is drawing too. She's drawing Mr Buttons. What do you like doing?",
+   "translations": {
+    "fa": "طلایی! نیکولا هم داره نقاشی می‌کشه. داره آقای دکمه را می‌کشه. تو چی دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cooking"
+     ],
+     "suggestion": "I like cooking.",
+     "suggestionFa": "آشپزی دوست دارم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reading",
+      "walking"
+     ],
+     "suggestion": "I like reading and walking.",
+     "suggestionFa": "کتاب خوندن و پیاده‌روی دوست دارم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gold",
+     "fa": "طلایی"
+    },
+    {
+     "word": "cooking",
+     "fa": "آشپزی"
+    },
+    {
+     "word": "reading",
+     "fa": "کتاب خواندن"
+    },
+    {
+     "word": "walking",
+     "fa": "پیاده‌روی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "{you} makes yummy rice! With crispy bits on the bottom!",
+   "translations": {
+    "fa": "{you} برنج خوشمزه درست می‌کنه! با تیکه‌های ترد ته‌ش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "called",
+      "tahdig",
+      "that's"
+     ],
+     "suggestion": "That's called tahdig.",
+     "suggestionFa": "اسمش ته‌دیگه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "thank"
+     ],
+     "suggestion": "Thank you, Nicola!",
+     "suggestionFa": "ممنون نیکولا!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crispy",
+     "fa": "ترد"
+    },
+    {
+     "word": "bottom",
+     "fa": "ته"
+    },
+    {
+     "word": "yummy",
+     "fa": "خوشمزه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Tahdig, the crispy rice at the bottom of the pot, is a favourite Persian dish.",
+    "fa": "ته‌دیگ."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "mia",
+   "text": "Tahdig! Funny word. My hobby is ballet. I go every Saturday.",
+   "translations": {
+    "fa": "ته‌دیگ! کلمهٔ بامزه‌ای. سرگرمی من باله‌ست. هر شنبه میرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ballet",
+      "like"
+     ],
+     "suggestion": "Do you like ballet?",
+     "suggestionFa": "باله دوست داری؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "saturday",
+      "that's",
+      "great",
+      "every"
+     ],
+     "suggestion": "Every Saturday? That's great.",
+     "suggestionFa": "هر شنبه؟ عالیه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hobby",
+     "fa": "سرگرمی"
+    },
+    {
+     "word": "ballet",
+     "fa": "باله"
+    },
+    {
+     "word": "every",
+     "fa": "هر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "mia",
+   "text": "I love it! Can you draw something for me? Draw a cat!",
+   "translations": {
+    "fa": "عاشقشم! می‌تونی یه چیزی برام بکشی؟ یه گربه بکش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "ok"
+     ],
+     "suggestion": "OK. Here's a cat.",
+     "suggestionFa": "باشه. اینم یه گربه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drawing",
+      "looks",
+      "like",
+      "but"
+     ],
+     "suggestion": "I'm drawing a cat, but it looks like a dog!",
+     "suggestionFa": "دارم گربه می‌کشم، ولی شبیه سگ شده!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "draw",
+     "fa": "کشیدن"
+    },
+    {
+     "word": "looks like",
+     "fa": "شبیه است"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "mia",
+   "text": "Ha ha! It IS a dog! Nicola, look at {you}'s dog-cat!",
+   "translations": {
+    "fa": "ها ها! واقعاً سگه! نیکولا، گربه‌سگ {you} را ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "animal",
+      "new"
+     ],
+     "suggestion": "It's a new animal!",
+     "suggestionFa": "یه حیوون جدیده!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drawing",
+      "good",
+      "told"
+     ],
+     "suggestion": "I told you I'm not good at drawing!",
+     "suggestionFa": "گفتم نقاشیم خوب نیست!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "animal",
+     "fa": "حیوان"
+    },
+    {
+     "word": "told",
+     "fa": "گفتم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "mia",
+   "text": "It's a \"cog\"! I love it. Can I keep it? I'll put it on my bedroom wall.",
+   "translations": {
+    "fa": "یه «گرسگه»! عاشقشم. می‌تونم نگهش دارم؟ می‌زنمش به دیوار اتاقم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -49,8 +49,8 @@
       "straight",
       "hold",
       "keep",
-      "end",
-      "can"
+      "can",
+      "end"
      ],
      "suggestion": "Can you hold this end? Keep it straight. Is it straight?",
      "suggestionFa": "می‌تونی این سرش را نگه داری؟ صاف نگهش دار. صافه؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "drilling",
       "that's",
-      "cover",
       "drill",
-      "right"
+      "right",
+      "cover"
      ],
      "suggestion": "That's the drill. Right — I'm drilling now. Cover your ears!",
      "suggestionFa": "اون دریله. خب — دارم دریل می‌کنم. گوش‌هات را بگیر!",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "leslie's",
-      "screws",
       "garden",
+      "screws",
       "pass",
-      "him"
+      "got"
      ],
      "suggestion": "Leslie's got him in the garden. Now, can you pass the screws?",
      "suggestionFa": "لزلی توی باغچه نگهش داشته. حالا، پیچ‌ها را می‌دی؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "falling",
+      "perfect",
       "there",
-      "four",
-      "look"
+      "look",
+      "four"
      ],
      "suggestion": "Four. There! Look at that! Is it falling down? No! It's perfect!",
      "suggestionFa": "چهارتا. ایناهاش! ببین! داره می‌افته؟ نه! عالیه!",
@@ -173,9 +173,9 @@
      "keywords": [
       "moving",
       "before",
-      "falls",
       "let's",
-      "cuppa"
+      "cuppa",
+      "falls"
      ],
      "suggestion": "Moving? No, no. It's fine. Let's get a cuppa before it falls down!",
      "suggestionFa": "تکون؟ نه، نه. خوبه. بیا قبل از اینکه بیفته یه چای بخوریم!",

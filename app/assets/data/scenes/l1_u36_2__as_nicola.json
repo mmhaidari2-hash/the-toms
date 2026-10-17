@@ -1,0 +1,251 @@
+{
+ "id": "l1_u36_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Ryan plays guitar",
+ "titleFa": "(در نقش Nicola) رایان گیتار می‌زند",
+ "setting": "Hobbies · Level 1",
+ "settingFa": "سرگرمی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u36_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practises",
+      "that's",
+      "guitar",
+      "listen",
+      "plays"
+     ],
+     "suggestion": "Listen! That's Ryan. He plays the guitar. He practises every day!",
+     "suggestionFa": "گوش کن! رایانه. گیتار می‌زنه. هر روز تمرین می‌کنه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Is he good?",
+   "translations": {
+    "fa": "خوب می‌زنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "better",
+      "mummy",
+      "songs",
+      "plays"
+     ],
+     "suggestion": "He's OK. Mummy says he's getting better. He plays loud songs.",
+     "suggestionFa": "خوبه. مامان میگه داره بهتر میشه. آهنگ‌های بلند می‌زنه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Does he have lessons?",
+   "translations": {
+    "fa": "کلاس میره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesdays",
+      "lessons",
+      "school",
+      "piano",
+      "play"
+     ],
+     "suggestion": "He has lessons at school on Tuesdays. Mia, do you play the piano?",
+     "suggestionFa": "سه‌شنبه‌ها تو مدرسه کلاس داره. میا، تو پیانو می‌زنی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Mia, do you play an instrument?",
+   "translations": {
+    "fa": "میا، سازی می‌زنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mia",
+   "text": "No. I play the recorder at school. It goes squeak!",
+   "translations": {
+    "fa": "نه. تو مدرسه فلوت ریکوردر می‌زنم. صدای جیغ میده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recorder",
+     "fa": "فلوت ریکوردر"
+    },
+    {
+     "word": "squeak",
+     "fa": "جیغ کوچک"
+    }
+   ],
+   "cultureNote": {
+    "en": "Almost every British child learns the recorder at primary school!",
+    "fa": "تقریباً همهٔ بچه‌ها ریکوردر یاد می‌گیرند."
+   }
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha! I played the recorder too.",
+   "translations": {
+    "fa": "ها! منم ریکوردر می‌زدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "drums",
+      "mummy",
+      "pipe",
+      "play"
+     ],
+     "suggestion": "It's a little pipe. You blow it. Does Ryan play the drums? No! Mummy says no drums!",
+     "suggestionFa": "یه لوله کوچیکه. فوتش می‌کنی. رایان درام می‌زنه؟ نه! مامان میگه درام نه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Drums are very loud.",
+   "translations": {
+    "fa": "درام خیلی بلنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "music",
+      "play"
+     ],
+     "suggestion": "Do you play music, Mehdi?",
+     "suggestionFa": "تو موسیقی می‌زنی {you}؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I play the setar a little.",
+   "translations": {
+    "fa": "یه کم سه‌تار می‌زنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "setar"
+     ],
+     "suggestion": "What's a setar?",
+     "suggestionFa": "سه‌تار چیه؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "It's like a small guitar. From Iran.",
+   "translations": {
+    "fa": "شبیه یه گیتار کوچیکه. از ایران."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "dance",
+      "band",
+      "play",
+      "ryan"
+     ],
+     "suggestion": "Can you play it with Ryan? A band! Mia and me can dance. And Mr Buttons can sing!",
+     "suggestionFa": "می‌تونی با رایان بزنیش؟ یه گروه! من و میا می‌رقصیم. و آقای دکمه می‌خونه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

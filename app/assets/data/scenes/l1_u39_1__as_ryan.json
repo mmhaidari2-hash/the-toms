@@ -1,0 +1,224 @@
+{
+ "id": "l1_u39_1__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Hoovering",
+ "titleFa": "(در نقش Ryan) جاروبرقی کشیدن",
+ "setting": "Cleaning day · Level 1",
+ "settingFa": "روز نظافت",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u39_1",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "cleaning",
+      "hoover",
+      "worst",
+      "week"
+     ],
+     "suggestion": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
+     "suggestionFa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I can help you.",
+   "translations": {
+    "fa": "می‌تونم کمکت کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vacuum",
+      "chairs",
+      "hoover",
+      "means",
+      "brand"
+     ],
+     "suggestion": "It means vacuum. Hoover is a brand. Can you move the chairs?",
+     "suggestionFa": "یعنی جاروبرقی. هوور یه مارکه. می‌تونی صندلی‌ها را جابه‌جا کنی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Sure. I'll move the chairs.",
+   "translations": {
+    "fa": "حتماً. صندلی‌ها را جابه‌جا می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "everywhere",
+      "william",
+      "upside",
+      "crumbs"
+     ],
+     "suggestion": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
+     "suggestionFa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "There's rice under his chair!",
+   "translations": {
+    "fa": "زیر صندلیش برنجه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "switching",
+      "really",
+      "loud",
+      "hear",
+      "can"
+     ],
+     "suggestion": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
+     "suggestionFa": "اوف. باشه، روشنش می‌کنم. خیلی پرسروصداست. صدام را می‌شنوی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Sorry, what? I can't hear you!",
+   "translations": {
+    "fa": "ببخشید، چی؟ صدات را نمی‌شنوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopped",
+      "wait",
+      "full",
+      "oh"
+     ],
+     "suggestion": "WHAT? Oh, wait. It's stopped. Is it full?",
+     "suggestionFa": "چی؟ آه، صبر کن. خاموش شد. پر شده؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I think the bag is full.",
+   "translations": {
+    "fa": "فکر کنم کیسه‌ش پره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "pulled",
+      "plug",
+      "out",
+      "bag"
+     ],
+     "suggestion": "Not the bag. Nicola pulled the plug out! Nicola!",
+     "suggestionFa": "کیسه نیست. نیکولا دوشاخه را کشیده! نیکولا!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ha! She's playing a trick.",
+   "translations": {
+    "fa": "ها! داره سربه‌سرت میذاره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nearly",
+      "thanks",
+      "right",
+      "arm's",
+      "under"
+     ],
+     "suggestion": "Thanks. Right, nearly done. Can you do under the sofa? My arm's too big.",
+     "suggestionFa": "ممنون. خب، تقریباً تمومه. می‌تونی زیر مبل را بکشی؟ دستم خیلی بزرگه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "OK, I'll do under the sofa.",
+   "translations": {
+    "fa": "باشه، زیر مبل را من می‌کشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cleaning",
+      "guess",
+      "isn't",
+      "march",
+      "break"
+     ],
+     "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",
+     "suggestionFa": "جورابم! مارس گمش کردم. فکر کنم روز نظافت اون‌قدرا هم بد نیست. استراحت چای؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

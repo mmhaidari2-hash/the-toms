@@ -1,0 +1,200 @@
+{
+ "id": "l1_u35_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Shh, he's sleeping",
+ "titleFa": "(در نقش Leslie) هیس، خوابه",
+ "setting": "Baby William · Level 1",
+ "settingFa": "ویلیام کوچولو",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u35_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "sleeping",
+      "finally",
+      "quiet",
+      "come"
+     ],
+     "suggestion": "Shh! William's sleeping. Finally! Come in, but be very quiet.",
+     "suggestionFa": "هیس! ویلیام خوابه. بالاخره! بیا تو، ولی خیلی ساکت.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sorry. I'll whisper.",
+   "translations": {
+    "fa": "ببخشید. پچ‌پچ می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeping",
+      "monitor",
+      "baby",
+      "look",
+      "he's"
+     ],
+     "suggestion": "No, he's sleeping in his cot. The baby monitor is on. Look, you can see him.",
+     "suggestionFa": "نه، تو تختش خوابیده. دوربین کودک روشنه. ببین، می‌تونی ببینیش.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "He's smiling in his sleep.",
+   "translations": {
+    "fa": "تو خواب لبخند می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "making",
+      "would",
+      "like",
+      "one"
+     ],
+     "suggestion": "His toy bus! Of course. Would you like a cup of tea? I'm making one.",
+     "suggestionFa": "اتوبوس اسباب‌بازیش! معلومه. چای می‌خوری؟ دارم درست می‌کنم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, please. Quietly!",
+   "translations": {
+    "fa": "آره، لطفاً. آروم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "upstairs",
+      "what's",
+      "doing",
+      "thank",
+      "tired"
+     ],
+     "suggestion": "Oh, thank you! I'm so tired. What's Ryan doing upstairs? It's very loud.",
+     "suggestionFa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصداست.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I think he's playing a game.",
+   "translations": {
+    "fa": "فکر کنم داره بازی می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeping",
+      "william",
+      "tell",
+      "text",
+      "him"
+     ],
+     "suggestion": "Can you text him? Tell him William is sleeping.",
+     "suggestionFa": "می‌تونی بهش پیام بدی؟ بگو ویلیام خوابه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "OK. I'm texting him now.",
+   "translations": {
+    "fa": "باشه. الان دارم بهش پیام میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doorbell",
+      "perfect",
+      "ringing",
+      "who's",
+      "bell"
+     ],
+     "suggestion": "Perfect. Oh no — the doorbell! Who's ringing the bell now?",
+     "suggestionFa": "عالی. وای نه — زنگ در! کی الان داره زنگ می‌زنه؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'll get it! Quickly!",
+   "translations": {
+    "fa": "من باز می‌کنم! سریع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeping",
+      "please",
+      "still",
+      "knock",
+      "baby"
+     ],
+     "suggestion": "Phew. He's still sleeping. Next time, put a note on the door: \"Baby sleeping! Please knock!\"",
+     "suggestionFa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت رو در بذار: «بچه خوابه! لطفاً در بزنید!»",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

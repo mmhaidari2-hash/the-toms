@@ -1,0 +1,423 @@
+{
+ "id": "l1_u22_2",
+ "characterId": "leslie",
+ "title": "Autumn leaves",
+ "titleFa": "برگ‌های پاییزی",
+ "setting": "Months and seasons · Level 1",
+ "settingFa": "ماه‌ها و فصل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
+   "translations": {
+    "fa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful"
+     ],
+     "suggestion": "It's beautiful.",
+     "suggestionFa": "قشنگه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "autumn",
+      "iran",
+      "have",
+      "we"
+     ],
+     "suggestion": "We have autumn in Iran, too.",
+     "suggestionFa": "ما هم تو ایران پاییز داریم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "trees",
+     "fa": "درخت‌ها"
+    },
+    {
+     "word": "season",
+     "fa": "فصل"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "It's getting colder now. Have you got a warm coat?",
+   "translations": {
+    "fa": "الان داره سردتر میشه. یه کت گرم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "need",
+      "yet"
+     ],
+     "suggestion": "Not yet. I need one.",
+     "suggestionFa": "هنوز نه. لازم دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bought",
+      "last",
+      "week"
+     ],
+     "suggestion": "Yes, I bought one last week.",
+     "suggestionFa": "آره، هفتهٔ پیش یکی خریدم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "getting colder",
+     "fa": "سردتر شدن"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    },
+    {
+     "word": "coat",
+     "fa": "کت"
+    },
+    {
+     "word": "bought",
+     "fa": "خرید"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "You need one! In November it's cold and wet. And the clocks go back.",
+   "translations": {
+    "fa": "لازمش داری! تو نوامبر سرد و خیسه. و ساعت‌ها عقب کشیده می‌شن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "back",
+      "mean",
+      "go"
+     ],
+     "suggestion": "What does \"the clocks go back\" mean?",
+     "suggestionFa": "«ساعت‌ها عقب کشیده می‌شن» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "change",
+      "here"
+     ],
+     "suggestion": "Do the clocks change here?",
+     "suggestionFa": "اینجا ساعت‌ها عوض می‌شن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "November",
+     "fa": "نوامبر"
+    },
+    {
+     "word": "wet",
+     "fa": "خیس"
+    },
+    {
+     "word": "clocks go back",
+     "fa": "ساعت‌ها یک ساعت عقب می‌روند"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK the clocks go back one hour on the last Sunday of October and forward in late March.",
+    "fa": "ساعت در اکتبر عقب و در مارس جلو می‌رود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "One hour back in October. It gets dark at four o'clock! Very gloomy.",
+   "translations": {
+    "fa": "یه ساعت عقب تو اکتبر. ساعت چهار تاریک میشه! خیلی دلگیره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "that's",
+      "early",
+      "four"
+     ],
+     "suggestion": "Four o'clock? That's early!",
+     "suggestionFa": "ساعت چهار؟ زوده!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "evenings",
+      "don't",
+      "like",
+      "dark"
+     ],
+     "suggestion": "I don't like dark evenings.",
+     "suggestionFa": "عصرهای تاریک را دوست ندارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    },
+    {
+     "word": "gloomy",
+     "fa": "دلگیر"
+    },
+    {
+     "word": "evenings",
+     "fa": "عصرها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Me neither. But autumn has good things too. Bonfire Night, and conkers!",
+   "translations": {
+    "fa": "منم همین‌طور. ولی پاییز چیزهای خوب هم داره. شب آتش‌بازی، و بلوط هندی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "conkers"
+     ],
+     "suggestion": "What are conkers?",
+     "suggestionFa": "کانکر چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fireworks",
+      "love"
+     ],
+     "suggestion": "I love fireworks!",
+     "suggestionFa": "عاشق آتش‌بازی‌ام!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "conkers",
+     "fa": "بلوط هندی"
+    },
+    {
+     "word": "fireworks",
+     "fa": "آتش‌بازی"
+    },
+    {
+     "word": "Bonfire Night",
+     "fa": "شب آتش‌بازی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what is conkers",
+      "what conkers are"
+     ],
+     "echo": "What are conkers? Look!",
+     "better": "What are conkers?",
+     "betterFa": "کانکر چیه؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Look! These shiny brown nuts. Children play a game with them on a string.",
+   "translations": {
+    "fa": "ببین! این دونه‌های قهوه‌ای براق. بچه‌ها با نخ باهاشون بازی می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "shiny"
+     ],
+     "suggestion": "They're very shiny!",
+     "suggestionFa": "خیلی براقن!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "them",
+      "eat",
+      "can"
+     ],
+     "suggestion": "Can you eat them?",
+     "suggestionFa": "می‌شه خوردشون؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shiny",
+     "fa": "براق"
+    },
+    {
+     "word": "nuts",
+     "fa": "دانه‌ها ؛ آجیل"
+    },
+    {
+     "word": "string",
+     "fa": "نخ"
+    }
+   ],
+   "cultureNote": {
+    "en": "Conkers are horse chestnuts — you can't eat them! The game \"conkers\" is a classic British playground game.",
+    "fa": "کانکر خوراکی نیست."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "No! You can't eat them. They're poisonous. Sweet chestnuts are different.",
+   "translations": {
+    "fa": "نه! نمی‌شه خوردشون. سمی‌ان. شاه‌بلوط فرق داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "know",
+      "oh"
+     ],
+     "suggestion": "Oh! Good to know.",
+     "suggestionFa": "آه! خوبه که بدونم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chestnuts",
+      "roasted",
+      "iran",
+      "eat"
+     ],
+     "suggestion": "In Iran we eat roasted chestnuts.",
+     "suggestionFa": "تو ایران شاه‌بلوط برشته می‌خوریم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "poisonous",
+     "fa": "سمی"
+    },
+    {
+     "word": "chestnuts",
+     "fa": "شاه‌بلوط"
+    },
+    {
+     "word": "roasted",
+     "fa": "برشته"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",
+   "translations": {
+    "fa": "شاه‌بلوط برشته تو کریسمس! عالی. بیا یه کم کانکر برای نیکولا جمع کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "big",
+      "one"
+     ],
+     "suggestion": "Here's a big one!",
+     "suggestionFa": "اینجا یه دونه بزرگه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "many",
+      "need",
+      "how",
+      "we"
+     ],
+     "suggestion": "How many do we need?",
+     "suggestionFa": "چند تا لازم داریم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "collect",
+     "fa": "جمع کردن"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "That's a champion! Ten is enough. Now let's go home for hot chocolate. Autumn's best bit!",
+   "translations": {
+    "fa": "این قهرمانه! ده تا کافیه. حالا بریم خونه هات چاکلت بخوریم. بهترین بخش پاییز!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

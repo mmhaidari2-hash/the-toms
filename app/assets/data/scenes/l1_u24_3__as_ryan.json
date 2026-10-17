@@ -1,0 +1,224 @@
+{
+ "id": "l1_u24_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Feeling grumpy",
+ "titleFa": "(در نقش Ryan) بداخلاق بودن",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u24_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leave",
+      "alone",
+      "mood",
+      "bad"
+     ],
+     "suggestion": "Leave me alone. I'm in a bad mood.",
+     "suggestionFa": "ولم کن. حالم خوب نیست.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "OK. But what's wrong?",
+   "translations": {
+    "fa": "باشه. ولی چی شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "detention",
+      "football",
+      "match",
+      "phone"
+     ],
+     "suggestion": "Everything! I lost my phone, I got a detention, and we lost the football match.",
+     "suggestionFa": "همه چی! گوشیم را گم کردم، تنبیه شدم، و مسابقهٔ فوتبال را باختیم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Oh dear. That's a bad day!",
+   "translations": {
+    "fa": "ای وای. روز بدیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homework",
+      "forgot",
+      "again",
+      "fed",
+      "up"
+     ],
+     "suggestion": "I forgot my homework. Again. I'm so fed up!",
+     "suggestionFa": "تکلیفم را یادم رفت. دوباره. خیلی خسته شدم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Everyone forgets sometimes.",
+   "translations": {
+    "fa": "همه گاهی یادشون میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "photos",
+      "going",
+      "angry",
+      "phone",
+      "all"
+     ],
+     "suggestion": "And my phone! All my photos are on it. Mum is going to be so angry.",
+     "suggestionFa": "و گوشیم! همهٔ عکس‌هام روشه. مامان خیلی عصبانی میشه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Where did you last see it?",
+   "translations": {
+    "fa": "آخرین بار کجا دیدیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "right",
+      "phone",
+      "call",
+      "idea"
+     ],
+     "suggestion": "Good idea. Call it! My number is in your phone, right?",
+     "suggestionFa": "فکر خوبیه. زنگ بزن! شماره‌ام تو گوشیته، درسته؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes. Calling now…",
+   "translations": {
+    "fa": "آره. دارم زنگ می‌زنم…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "ringing",
+      "idiot",
+      "hear",
+      "such"
+     ],
+     "suggestion": "I can hear it! It's ringing… in my football bag! I'm such an idiot.",
+     "suggestionFa": "صداش را می‌شنوم! داره زنگ می‌زنه… تو کیف فوتبالم! چه احمقی‌ام.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "You're not an idiot!",
+   "translations": {
+    "fa": "احمق نیستی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "embarrassing",
+      "problem",
+      "thanks",
+      "match",
+      "fixed"
+     ],
+     "suggestion": "Thanks. OK, one problem fixed. The match… we lost five–nil. It was embarrassing.",
+     "suggestionFa": "ممنون. خب، یه مشکل حل شد. مسابقه… پنج هیچ باختیم. خجالت‌آور بود.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Five–nil? Ouch!",
+   "translations": {
+    "fa": "پنج هیچ؟ آخ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "listening",
+      "homework",
+      "better",
+      "before",
+      "thanks"
+     ],
+     "suggestion": "True. And the homework… I'll do it now. Before tea. Thanks for listening, mate. I feel a bit better.",
+     "suggestionFa": "درسته. و تکلیف… الان انجامش می‌دم. قبل از شام. ممنون که گوش دادی رفیق. یه کم حالم بهتر شد.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

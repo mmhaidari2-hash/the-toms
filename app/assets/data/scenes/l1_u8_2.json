@@ -128,8 +128,8 @@
      "keywords": [
       "quite",
       "fast",
-      "run",
-      "can"
+      "can",
+      "run"
      ],
      "suggestion": "I can run quite fast.",
      "suggestionFa": "نسبتاً سریع می‌تونم بدوم.",
@@ -183,8 +183,8 @@
     },
     {
      "keywords": [
-      "little",
-      "arabic"
+      "arabic",
+      "little"
      ],
      "suggestion": "I can speak a little Arabic too.",
      "suggestionFa": "یه کم عربی هم بلدم.",
@@ -266,8 +266,8 @@
    "branches": [
     {
      "keywords": [
-      "ball",
       "pass",
+      "ball",
       "try",
       "can"
      ],

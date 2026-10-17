@@ -1,0 +1,373 @@
+{
+ "id": "l1_u39_2",
+ "characterId": "nicola",
+ "title": "Dusting the shelves",
+ "titleFa": "گردگیری قفسه‌ها",
+ "setting": "Cleaning day · Level 1",
+ "settingFa": "روز نظافت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Mummy gave me a duster! I'm dusting the shelves. Look, I'm a big helper!",
+   "translations": {
+    "fa": "مامان بهم دستمال گردگیری داد! دارم قفسه‌ها را گردگیری می‌کنم. ببین، کمک‌کار بزرگی‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "helper",
+      "great"
+     ],
+     "suggestion": "You're a great helper!",
+     "suggestionFa": "کمک‌کار عالی‌ای هستی!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "dust",
+      "can"
+     ],
+     "suggestion": "Can I help you dust?",
+     "suggestionFa": "می‌تونم تو گردگیری کمکت کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "duster",
+     "fa": "دستمال گردگیری"
+    },
+    {
+     "word": "dusting",
+     "fa": "گردگیری"
+    },
+    {
+     "word": "shelves",
+     "fa": "قفسه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "You do the high shelf. I can't reach. What's on the high shelf?",
+   "translations": {
+    "fa": "تو قفسهٔ بالایی را بکن. دستم نمی‌رسه. رو قفسهٔ بالایی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "shelf",
+      "big",
+      "jar"
+     ],
+     "suggestion": "There's a big jar on the shelf.",
+     "suggestionFa": "یه شیشهٔ بزرگ رو قفسه‌ست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cookbooks",
+      "there",
+      "lots"
+     ],
+     "suggestion": "There are lots of cookbooks.",
+     "suggestionFa": "کلی کتاب آشپزی هست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "high",
+     "fa": "بالا ؛ بلند"
+    },
+    {
+     "word": "reach",
+     "fa": "رسیدن"
+    },
+    {
+     "word": "jar",
+     "fa": "شیشه ؛ ظرف"
+    },
+    {
+     "word": "cookbooks",
+     "fa": "کتاب‌های آشپزی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "That's Daddy's biscuit jar! Is it full? Can I have one?",
+   "translations": {
+    "fa": "اون ظرف بیسکویت باباست! پره؟ می‌تونم یکی بخورم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "mummy",
+      "ask"
+     ],
+     "suggestion": "Ask Mummy first.",
+     "suggestionFa": "اول از مامان بپرس.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cleaning",
+      "after",
+      "maybe"
+     ],
+     "suggestion": "After the cleaning, maybe.",
+     "suggestionFa": "بعد از نظافت، شاید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "biscuit",
+     "fa": "بیسکویت"
+    },
+    {
+     "word": "full",
+     "fa": "پر"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"biscuit\", American \"cookie\" (and an American \"biscuit\" is like a scone).",
+    "fa": "biscuit/cookie."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "OK. Oh! What's behind the jar? Something shiny!",
+   "translations": {
+    "fa": "باشه. آه! پشت ظرف چیه؟ یه چیز براق!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "jar",
+      "key"
+     ],
+     "suggestion": "It's a key. Behind the jar.",
+     "suggestionFa": "یه کلیده. پشت ظرف.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "coin"
+     ],
+     "suggestion": "I think it's a coin.",
+     "suggestionFa": "فکر کنم سکه‌ست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "shiny",
+     "fa": "براق"
+    },
+    {
+     "word": "key",
+     "fa": "کلید"
+    },
+    {
+     "word": "coin",
+     "fa": "سکه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "A key! It's Nana's lost key! She looked everywhere!",
+   "translations": {
+    "fa": "کلید! کلید گم‌شدهٔ ناناست! همه جا را گشت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "table",
+      "put",
+      "her"
+     ],
+     "suggestion": "Put it on the table for her.",
+     "suggestionFa": "بذارش رو میز براش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happy",
+      "will",
+      "nana"
+     ],
+     "suggestion": "Nana will be very happy.",
+     "suggestionFa": "نانا خیلی خوشحال میشه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lost",
+     "fa": "گم‌شده"
+    },
+    {
+     "word": "looked",
+     "fa": "گشت ؛ نگاه کرد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Now the photos. There's one of me as a baby. In front of the clock!",
+   "translations": {
+    "fa": "حالا عکس‌ها. یکی از بچگی منه. جلوی ساعت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "small",
+      "were"
+     ],
+     "suggestion": "You were so small!",
+     "suggestionFa": "خیلی کوچیک بودی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "who's",
+      "next"
+     ],
+     "suggestion": "Who's that next to you?",
+     "suggestionFa": "اونی که کنارته کیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in front of",
+     "fa": "جلوی"
+    },
+    {
+     "word": "clock",
+     "fa": "ساعت"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the photo is front of the clock",
+      "in the front the clock"
+     ],
+     "echo": "In front of the clock? Yes!",
+     "better": "The photo is in front of the clock.",
+     "betterFa": "عکس جلوی ساعته."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "That's Ryan! He was little too! Atchoo! The dust makes me sneeze!",
+   "translations": {
+    "fa": "اون رایانه! اونم کوچیک بود! هاپچه! گرد و خاک عطسه‌م میندازه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bless"
+     ],
+     "suggestion": "Bless you!",
+     "suggestionFa": "عافیت باشه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "window",
+      "let's",
+      "open"
+     ],
+     "suggestion": "Let's open the window.",
+     "suggestionFa": "بیا پنجره را باز کنیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dust",
+     "fa": "گرد و خاک"
+    },
+    {
+     "word": "sneeze",
+     "fa": "عطسه کردن"
+    },
+    {
+     "word": "bless you",
+     "fa": "عافیت باشد"
+    }
+   ],
+   "cultureNote": {
+    "en": "When someone sneezes, British people say \"Bless you!\"",
+    "fa": "Bless you پس از عطسه."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "All done! The shelves are shiny. Can I have a biscuit NOW? I was very good!",
+   "translations": {
+    "fa": "همه‌ش تموم شد! قفسه‌ها براقن. الان می‌تونم بیسکویت بخورم؟ خیلی خوب بودم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

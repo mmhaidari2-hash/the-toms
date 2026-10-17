@@ -1,0 +1,371 @@
+{
+ "id": "l1_u38_2",
+ "characterId": "ryan",
+ "title": "Wrapping a present",
+ "titleFa": "کادو کردن هدیه",
+ "setting": "Birthdays · Level 1",
+ "settingFa": "تولدها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
+   "translations": {
+    "fa": "کمک! برای بابا کادو خریدم، ولی بلد نیستم کادو کنم. افتضاح شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buy",
+      "did",
+      "him"
+     ],
+     "suggestion": "What did you buy him?",
+     "suggestionFa": "براش چی خریدی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "see",
+      "let"
+     ],
+     "suggestion": "Let me see.",
+     "suggestionFa": "بذار ببینم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "present",
+     "fa": "هدیه ؛ کادو"
+    },
+    {
+     "word": "wrap",
+     "fa": "کادوپیچ کردن"
+    },
+    {
+     "word": "awful",
+     "fa": "افتضاح"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
+   "translations": {
+    "fa": "یه ماگ. روش نوشته «بهترین راننده اتوبوس دنیا». می‌دونم، لوسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "going",
+      "he's",
+      "love"
+     ],
+     "suggestion": "He's going to love it.",
+     "suggestionFa": "عاشقش میشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheesy",
+      "mean"
+     ],
+     "suggestion": "Cheesy? What does that mean?",
+     "suggestionFa": "چیزی؟ یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mug",
+     "fa": "لیوان دسته‌دار ؛ ماگ"
+    },
+    {
+     "word": "cheesy",
+     "fa": "لوس ؛ دم‌دستی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Cheesy\" means too sweet or silly in a slightly embarrassing way.",
+    "fa": "cheesy یعنی لوس."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "OK, first cut the paper. Not too small. Where are the scissors?",
+   "translations": {
+    "fa": "باشه، اول کاغذ را ببر. خیلی کوچیک نه. قیچی کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scissors",
+      "here"
+     ],
+     "suggestion": "Here are the scissors.",
+     "suggestionFa": "بفرما قیچی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "put",
+      "box",
+      "mug"
+     ],
+     "suggestion": "Put the mug in a box first.",
+     "suggestionFa": "اول ماگ را بذار تو جعبه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cut",
+     "fa": "بریدن"
+    },
+    {
+     "word": "paper",
+     "fa": "کاغذ"
+    },
+    {
+     "word": "scissors",
+     "fa": "قیچی"
+    },
+    {
+     "word": "box",
+     "fa": "جعبه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "A box! Genius. It's easier with a box. Now what?",
+   "translations": {
+    "fa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paper",
+      "over",
+      "fold",
+      "box"
+     ],
+     "suggestion": "Fold the paper over the box.",
+     "suggestionFa": "کاغذ را رو جعبه تا کن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stick",
+      "i'll",
+      "hold"
+     ],
+     "suggestion": "Hold it, and I'll stick it.",
+     "suggestionFa": "تو نگهش دار، من می‌چسبونمش.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fold",
+     "fa": "تا کردن"
+    },
+    {
+     "word": "stick",
+     "fa": "چسباندن"
+    },
+    {
+     "word": "easier",
+     "fa": "آسان‌تر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you fold paper on box",
+      "folding the paper over"
+     ],
+     "echo": "Fold it over the box? OK!",
+     "better": "Fold the paper over the box.",
+     "betterFa": "کاغذ را رو جعبه تا کن."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Pass the Sellotape. Ugh, it's stuck to my fingers!",
+   "translations": {
+    "fa": "چسب را بده. اوف، به انگشتام چسبید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let",
+      "ha"
+     ],
+     "suggestion": "Ha! Let me do it.",
+     "suggestionFa": "ها! بذار من انجامش بدم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "small",
+      "piece",
+      "cut"
+     ],
+     "suggestion": "Cut a small piece first.",
+     "suggestionFa": "اول یه تیکهٔ کوچیک ببر.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Sellotape",
+     "fa": "چسب نواری"
+    },
+    {
+     "word": "stuck",
+     "fa": "چسبیده"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشت‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"Sellotape\", American \"Scotch tape\".",
+    "fa": "Sellotape/Scotch tape."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Better. Now the ends. Fold them like triangles. Is that right?",
+   "translations": {
+    "fa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect"
+     ],
+     "suggestion": "Yes, perfect!",
+     "suggestionFa": "آره، عالیه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "messy",
+      "again",
+      "fold",
+      "bit"
+     ],
+     "suggestion": "Fold it again. It's a bit messy.",
+     "suggestionFa": "دوباره تاش کن. یه کم نامرتبه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ends",
+     "fa": "دو سر"
+    },
+    {
+     "word": "triangles",
+     "fa": "مثلث‌ها"
+    },
+    {
+     "word": "messy",
+     "fa": "نامرتب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Nice! Now a bow on top. And a gift tag. What do I write?",
+   "translations": {
+    "fa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "happy",
+      "dad"
+     ],
+     "suggestion": "\"Happy birthday, Dad. From Ryan.\"",
+     "suggestionFa": "«تولدت مبارک بابا. از طرف رایان.»",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "love"
+     ],
+     "suggestion": "Write \"Love from Ryan\".",
+     "suggestionFa": "بنویس «با عشق، رایان».",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bow",
+     "fa": "پاپیون ؛ روبان"
+    },
+    {
+     "word": "gift tag",
+     "fa": "برچسب کادو"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
+   "translations": {
+    "fa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "id": "l1_u24_2",
+ "characterId": "weda",
+ "title": "I'm scared of the dark",
+ "titleFa": "از تاریکی می‌ترسم",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "I can't sleep. I'm scared. It's very dark in my room.",
+   "translations": {
+    "fa": "خوابم نمی‌بره. می‌ترسم. اتاقم خیلی تاریکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "don't"
+     ],
+     "suggestion": "Don't be scared, Nicola.",
+     "suggestionFa": "نترس نیکولا.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what",
+      "are",
+      "you"
+     ],
+     "suggestion": "What are you scared of?",
+     "suggestionFa": "از چی می‌ترسی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sleep",
+     "fa": "خوابیدن"
+    },
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Of monsters. Under my bed! I heard a noise.",
+   "translations": {
+    "fa": "از هیولاها. زیر تختم! یه صدایی شنیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "let's",
+      "under",
+      "look"
+     ],
+     "suggestion": "Let's look under the bed together.",
+     "suggestionFa": "بیا با هم زیر تخت را نگاه کنیم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "monsters",
+      "promise",
+      "there"
+     ],
+     "suggestion": "There are no monsters, I promise.",
+     "suggestionFa": "هیولایی نیست، قول می‌دم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "monsters",
+     "fa": "هیولاها"
+    },
+    {
+     "word": "noise",
+     "fa": "صدا"
+    },
+    {
+     "word": "promise",
+     "fa": "قول دادن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is no monsters",
+      "is not monsters"
+     ],
+     "echo": "No monsters? That's right!",
+     "better": "There are no monsters.",
+     "betterFa": "هیولایی نیست."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "OK… Can you see anything?",
+   "translations": {
+    "fa": "باشه… چیزی می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teddy",
+      "only",
+      "sock"
+     ],
+     "suggestion": "Only a sock and a teddy.",
+     "suggestionFa": "فقط یه جوراب و یه عروسک.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slippers",
+      "just"
+     ],
+     "suggestion": "Just your slippers!",
+     "suggestionFa": "فقط دمپایی‌هات!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anything",
+     "fa": "چیزی"
+    },
+    {
+     "word": "only",
+     "fa": "فقط"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Mr Buttons! My teddy! He fell off the bed. That was the noise!",
+   "translations": {
+    "fa": "آقای دکمه! خرسم! از تخت افتاد. اون صدا بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "safe",
+      "he's",
+      "now"
+     ],
+     "suggestion": "Here he is. He's safe now.",
+     "suggestionFa": "ایناهاش. حالا در امانه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mystery",
+      "solved"
+     ],
+     "suggestion": "Mystery solved!",
+     "suggestionFa": "معما حل شد!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fell off",
+     "fa": "افتاد"
+    },
+    {
+     "word": "safe",
+     "fa": "در امان"
+    },
+    {
+     "word": "mystery",
+     "fa": "معما"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "What's all this? Nicola, are you still awake? It's nine o'clock!",
+   "translations": {
+    "fa": "این‌ها چیه؟ نیکولا، هنوز بیداری؟ ساعت نهه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scared",
+      "weda",
+      "was",
+      "bit"
+     ],
+     "suggestion": "She was a bit scared, Weda.",
+     "suggestionFa": "یه کم ترسیده بود ودا.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "buttons",
+      "found",
+      "under",
+      "bed"
+     ],
+     "suggestion": "We found Mr Buttons under the bed.",
+     "suggestionFa": "آقای دکمه را زیر تخت پیدا کردیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "awake",
+     "fa": "بیدار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Oh, sweetheart. Shall I leave the landing light on? And the door open a little?",
+   "translations": {
+    "fa": "آه، عزیزدلم. چراغ راهروی بالا را روشن بذارم؟ و در را یه کم باز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "good",
+      "idea"
+     ],
+     "suggestion": "That's a good idea.",
+     "suggestionFa": "فکر خوبیه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "night",
+      "light",
+      "want"
+     ],
+     "suggestion": "Do you want a night light, Nicola?",
+     "suggestionFa": "چراغ خواب می‌خوای نیکولا؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "landing",
+     "fa": "راهروی طبقهٔ بالا"
+    },
+    {
+     "word": "leave on",
+     "fa": "روشن گذاشتن"
+    },
+    {
+     "word": "night light",
+     "fa": "چراغ خواب"
+    }
+   ],
+   "cultureNote": {
+    "en": "The \"landing\" is the hallway at the top of the stairs in a British house.",
+    "fa": "landing یعنی راهروی بالای پله."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Yes, please. Nana, were you scared of the dark when you were little?",
+   "translations": {
+    "fa": "آره، لطفاً. نانا، تو بچگی از تاریکی می‌ترسیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "question",
+      "good"
+     ],
+     "suggestion": "What a good question!",
+     "suggestionFa": "چه سؤال خوبی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scared",
+      "dark",
+      "was"
+     ],
+     "suggestion": "I was scared of the dark too.",
+     "suggestionFa": "منم از تاریکی می‌ترسیدم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little",
+     "fa": "کوچک"
+    },
+    {
+     "word": "question",
+     "fa": "سؤال"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Oh yes. I was scared of thunder too. My mum sang to me. Shall I sing to you?",
+   "translations": {
+    "fa": "آه آره. از رعد و برق هم می‌ترسیدم. مامانم برام آواز می‌خوند. برات آواز بخونم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sing",
+      "weda",
+      "song"
+     ],
+     "suggestion": "Yes! Sing a song, Weda.",
+     "suggestionFa": "آره! یه آهنگ بخونید ودا.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "that's"
+     ],
+     "suggestion": "That's lovely.",
+     "suggestionFa": "قشنگه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thunder",
+     "fa": "رعد"
+    },
+    {
+     "word": "sang",
+     "fa": "آواز خواند"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "\"Hush, little baby, don't say a word…\" Look, she's asleep already. Thank you, love. Night night.",
+   "translations": {
+    "fa": "«هیس، بچه کوچولو، هیچی نگو…» ببین، خوابش برد. ممنون عزیزم. شب بخیر."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "id": "l1_u35_2",
+ "characterId": "leslie",
+ "title": "William's first word",
+ "titleFa": "اولین کلمهٔ ویلیام",
+ "setting": "Baby William · Level 1",
+ "settingFa": "ویلیام کوچولو",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Tom says William's first word was \"bus\". He's telling everyone!",
+   "translations": {
+    "fa": "تام میگه اولین کلمهٔ ویلیام «اتوبوس» بود. به همه داره میگه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "said",
+      "bus",
+      "he"
+     ],
+     "suggestion": "I was there. He said \"bus\"!",
+     "suggestionFa": "من اونجا بودم. گفت «اتوبوس»!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "word",
+      "his"
+     ],
+     "suggestion": "Was it his first word?",
+     "suggestionFa": "اولین کلمه‌ش بود؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "word",
+     "fa": "کلمه"
+    },
+    {
+     "word": "said",
+     "fa": "گفت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Hmm. I think he said \"Mama\" first. Last week, at breakfast.",
+   "translations": {
+    "fa": "هوم. فکر کنم اول گفت «ماما». هفتهٔ پیش، سر صبحونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "maybe",
+      "hear",
+      "tom"
+     ],
+     "suggestion": "Maybe Tom didn't hear it.",
+     "suggestionFa": "شاید تام نشنیده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "great",
+      "word",
+      "mama"
+     ],
+     "suggestion": "\"Mama\" is a great first word.",
+     "suggestionFa": "«ماما» اولین کلمهٔ خیلی خوبیه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last week",
+     "fa": "هفتهٔ گذشته"
+    },
+    {
+     "word": "breakfast",
+     "fa": "صبحانه"
+    },
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Mama! Mama!",
+   "translations": {
+    "fa": "ماما! ماما!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "said",
+      "he"
+     ],
+     "suggestion": "There! He said it!",
+     "suggestionFa": "ایناهاش! گفت!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "clever",
+      "boy"
+     ],
+     "suggestion": "Clever boy, William!",
+     "suggestionFa": "پسر باهوش ویلیام!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "See! Mama! Can you say \"Daddy\", William?",
+   "translations": {
+    "fa": "دیدی! ماما! می‌تونی بگی «بابا» ویلیام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy",
+      "say"
+     ],
+     "suggestion": "Say \"Daddy\"!",
+     "suggestionFa": "بگو «بابا»!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thinking",
+      "he's"
+     ],
+     "suggestion": "He's thinking.",
+     "suggestionFa": "داره فکر می‌کنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Daddy",
+     "fa": "بابا"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "Bus!",
+   "translations": {
+    "fa": "اتوبوس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy",
+      "bus",
+      "ha"
+     ],
+     "suggestion": "Ha! Not \"Daddy\" — \"bus\"!",
+     "suggestionFa": "ها! نه «بابا» — «اتوبوس»!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "loves",
+      "buses",
+      "he"
+     ],
+     "suggestion": "He really loves buses.",
+     "suggestionFa": "واقعاً عاشق اتوبوسه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "loves",
+     "fa": "عاشق است"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Like father, like son! What was your first word, {you}? Do you know?",
+   "translations": {
+    "fa": "پسر کو ندارد نشان از پدر! اولین کلمهٔ تو چی بود {you}؟ می‌دونی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maman",
+      "says",
+      "mum"
+     ],
+     "suggestion": "My mum says it was \"Maman\".",
+     "suggestionFa": "مامانم میگه «مامان» بود.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "baby",
+      "know"
+     ],
+     "suggestion": "I don't know. I was a baby!",
+     "suggestionFa": "نمی‌دونم. بچه بودم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "like father, like son",
+     "fa": "پسر کو ندارد نشان از پدر"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Maman\" (Persian), \"Mama\", \"Mummy\" — many languages have a similar word for mother!",
+    "fa": "کلمهٔ مادر در زبان‌ها شبیه است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "my first word is maman",
+      "my first word were maman"
+     ],
+     "echo": "It was \"Maman\"? Lovely.",
+     "better": "My first word was \"Maman\".",
+     "betterFa": "اولین کلمه‌م «مامان» بود."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "\"Maman\"! It's like \"Mama\"! Ryan's first word was \"no\". He hasn't changed!",
+   "translations": {
+    "fa": "«مامان»! شبیه «ماما»ئه! اولین کلمهٔ رایان «نه» بود. هنوز عوض نشده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teenagers",
+      "ha"
+     ],
+     "suggestion": "Ha! Teenagers!",
+     "suggestionFa": "ها! نوجوون‌ها!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola's",
+      "first",
+      "word"
+     ],
+     "suggestion": "And Nicola's first word?",
+     "suggestionFa": "و اولین کلمهٔ نیکولا؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "changed",
+     "fa": "عوض شد"
+    },
+    {
+     "word": "teenagers",
+     "fa": "نوجوانان"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "\"Teddy\"! For Mr Buttons, of course. Right, let's write William's words in his baby book.",
+   "translations": {
+    "fa": "«تدی»! برای آقای دکمه، معلومه. خب، بیا کلمه‌های ویلیام را تو دفتر بچگیش بنویسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "mama"
+     ],
+     "suggestion": "Write \"Mama\" first!",
+     "suggestionFa": "اول «ماما» را بنویس!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bus",
+      "tom"
+     ],
+     "suggestion": "Write \"bus\" too, for Tom.",
+     "suggestionFa": "«اتوبوس» را هم بنویس، به خاطر تام.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "baby book",
+     "fa": "دفترچهٔ خاطرات نوزاد"
+    },
+    {
+     "word": "write",
+     "fa": "نوشتن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Fine! \"Mama\" and \"bus\", the same week. Everyone's happy. Don't tell Tom I wrote \"Mama\" first!",
+   "translations": {
+    "fa": "باشه! «ماما» و «اتوبوس»، همون هفته. همه راضی. به تام نگو «ماما» را اول نوشتم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

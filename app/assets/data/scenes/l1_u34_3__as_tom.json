@@ -1,0 +1,199 @@
+{
+ "id": "l1_u34_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Next to the bank",
+ "titleFa": "(در نقش Tom) کنار بانک",
+ "setting": "Simple directions · Level 1",
+ "settingFa": "آدرس‌دادن ساده",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u34_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mario's",
+      "coffee",
+      "let's",
+      "break",
+      "know"
+     ],
+     "suggestion": "I'm on my break. Let's get a coffee. Do you know Mario's café?",
+     "suggestionFa": "تو استراحتم. بیا یه قهوه بخوریم. کافه ماریو را بلدی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No. Where is it?",
+   "translations": {
+    "fa": "نه. کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "bank",
+      "high",
+      "next"
+     ],
+     "suggestion": "It's next to the bank. On the high street.",
+     "suggestionFa": "کنار بانکه. تو خیابون اصلی.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Next to the bank. I see it!",
+   "translations": {
+    "fa": "کنار بانک. می‌بینمش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chemist",
+      "between",
+      "little",
+      "where",
+      "blue"
+     ],
+     "suggestion": "The one where I go. Between the bank and the chemist. Little blue sign.",
+     "suggestionFa": "همونی که من میرم. بین بانک و داروخونه. یه تابلوی کوچیک آبی.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Between the bank and the chemist.",
+   "translations": {
+    "fa": "بین بانک و داروخانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opposite",
+      "corner",
+      "bakery",
+      "thing",
+      "same"
+     ],
+     "suggestion": "Yes, same thing. And the bakery is on the corner, opposite.",
+     "suggestionFa": "آره، یه چیزه. و نونوایی سر نبش، روبروشه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "On the corner. Got it.",
+   "translations": {
+    "fa": "سر نبش. فهمیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "mario's",
+      "there's",
+      "leslie",
+      "belly"
+     ],
+     "suggestion": "No cake! Leslie says I'm getting a belly. Look, there's Mario's! Under the blue sign.",
+     "suggestionFa": "کیک نه! لزلی میگه شکم آوردم. نگاه کن، کافه ماریو! زیر تابلوی آبی.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "It's very small.",
+   "translations": {
+    "fa": "خیلی کوچیکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "hackney",
+      "window",
+      "coffee",
+      "mario"
+     ],
+     "suggestion": "Small but perfect. Sit by the window. Mario makes the best coffee in Hackney.",
+     "suggestionFa": "کوچیک ولی عالی. کنار پنجره بشین. ماریو بهترین قهوهٔ هکنی را درست می‌کنه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Better than Callum's?",
+   "translations": {
+    "fa": "بهتر از مال کالوم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "leslie's",
+      "minutes",
+      "coffees",
+      "fifteen"
+     ],
+     "suggestion": "Shh! Don't tell Callum. He's Leslie's favourite. Two coffees, fifteen minutes, then back on the bus!",
+     "suggestionFa": "هیس! به کالوم نگو. محبوب لزلیه. دو تا قهوه، پونزده دقیقه، بعد برگشت به اتوبوس!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

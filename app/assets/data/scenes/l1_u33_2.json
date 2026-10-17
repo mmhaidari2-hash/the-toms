@@ -1,0 +1,367 @@
+{
+ "id": "l1_u33_2",
+ "characterId": "baker",
+ "title": "Two for a pound",
+ "titleFa": "دو تا یک پوند",
+ "setting": "The weekend market · Level 1",
+ "settingFa": "بازار آخر هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Two for a pound! Croissants, two for a pound! It's nearly closing time!",
+   "translations": {
+    "fa": "دو تا یه پوند! کروسان، دو تا یه پوند! نزدیک وقت جمع کردنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "pound",
+      "cheap",
+      "two"
+     ],
+     "suggestion": "Two for a pound? That's cheap!",
+     "suggestionFa": "دو تا یه پوند؟ ارزونه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "croissant",
+      "much",
+      "how",
+      "one"
+     ],
+     "suggestion": "How much is one croissant?",
+     "suggestionFa": "یه کروسان چنده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "croissants",
+     "fa": "کروسان‌ها"
+    },
+    {
+     "word": "closing time",
+     "fa": "وقت بستن"
+    },
+    {
+     "word": "cheap",
+     "fa": "ارزان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "One is eighty pence. Two is a pound. Two is cheaper!",
+   "translations": {
+    "fa": "یکی هشتاد پنی. دو تا یه پوند. دو تا ارزون‌تره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "then",
+      "i'll"
+     ],
+     "suggestion": "Then I'll have two.",
+     "suggestionFa": "پس دو تا برمی‌دارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "four",
+      "can"
+     ],
+     "suggestion": "Can I have four for two pounds?",
+     "suggestionFa": "می‌شه چهار تا دو پوند بدید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pence",
+     "fa": "پنی"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    }
+   ],
+   "cultureNote": {
+    "en": "At the end of the day, many market traders sell food cheaply so they don't waste it.",
+    "fa": "فروش ارزان آخر روز."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "Four for two pounds. Deal! Do you want pains au chocolat too? Same price.",
+   "translations": {
+    "fa": "چهار تا دو پوند. قبول! پن او شکلات هم می‌خوای؟ همون قیمت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "what's"
+     ],
+     "suggestion": "What's the difference?",
+     "suggestionFa": "فرقشون چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "those",
+      "two"
+     ],
+     "suggestion": "Yes. Two of those, please.",
+     "suggestionFa": "آره. دو تا از اونا، لطفاً.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "same",
+     "fa": "یکسان"
+    },
+    {
+     "word": "price",
+     "fa": "قیمت"
+    },
+    {
+     "word": "difference",
+     "fa": "فرق"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "A pain au chocolat has chocolate inside. It's a bit more expensive in the morning.",
+   "translations": {
+    "fa": "پن او شکلات داخلش شکلات داره. صبح یه کم گرون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "now",
+      "but"
+     ],
+     "suggestion": "But not now?",
+     "suggestionFa": "ولی الان نه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chocolate",
+      "better"
+     ],
+     "suggestion": "Chocolate is better!",
+     "suggestionFa": "شکلاتی بهتره!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "more expensive",
+     "fa": "گران‌تر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "more cheap now",
+      "it is more cheaper"
+     ],
+     "echo": "It's cheaper now? Yes!",
+     "better": "It's cheaper now.",
+     "betterFa": "الان ارزون‌تره."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Not now! Everything is cheaper at four o'clock. The supermarket is more expensive!",
+   "translations": {
+    "fa": "الان نه! ساعت چهار همه چی ارزون‌تره. سوپرمارکت گرون‌تره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket's",
+      "croissants",
+      "better",
+      "than"
+     ],
+     "suggestion": "Your croissants are better than the supermarket's.",
+     "suggestionFa": "کروسان‌های شما از مال سوپرمارکت بهترن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "o'clock",
+      "every",
+      "week",
+      "four"
+     ],
+     "suggestion": "I'll come at four o'clock every week!",
+     "suggestionFa": "هر هفته ساعت چهار میام!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "better than",
+     "fa": "بهتر از"
+    },
+    {
+     "word": "every week",
+     "fa": "هر هفته"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "Ha! Not too often, or I'll go broke! Six pastries, three pounds.",
+   "translations": {
+    "fa": "ها! نه زیاد، وگرنه ورشکست میشم! شیش تا شیرینی، سه پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "pound",
+      "five",
+      "note"
+     ],
+     "suggestion": "Here's a five-pound note.",
+     "suggestionFa": "این یه اسکناس پنج پوندیه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "can",
+      "pay"
+     ],
+     "suggestion": "Can I pay with my phone?",
+     "suggestionFa": "می‌تونم با گوشیم پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "go broke",
+     "fa": "ورشکست شدن"
+    },
+    {
+     "word": "pastries",
+     "fa": "شیرینی‌ها"
+    },
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"note\", American \"bill\" for paper money.",
+    "fa": "note/bill."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Course. And here's two pounds change. Take a free cookie for Nicola too.",
+   "translations": {
+    "fa": "البته. اینم دو پوند بقیه‌ش. یه کلوچهٔ مجانی هم برای نیکولا ببر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thank",
+      "kind"
+     ],
+     "suggestion": "That's so kind. Thank you!",
+     "suggestionFa": "خیلی لطف دارید. ممنون!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "know",
+      "how"
+     ],
+     "suggestion": "How do you know Nicola?",
+     "suggestionFa": "نیکولا را از کجا می‌شناسید؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "بقیهٔ پول"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "cookie",
+     "fa": "کلوچه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "baker",
+   "text": "Everyone round here knows Nicola! She sings to my customers! Enjoy your pastries!",
+   "translations": {
+    "fa": "همه این دور و بر نیکولا را می‌شناسن! برای مشتری‌هام آواز می‌خونه! نوش جان!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

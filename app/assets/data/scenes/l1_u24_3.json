@@ -1,0 +1,368 @@
+{
+ "id": "l1_u24_3",
+ "characterId": "ryan",
+ "title": "Feeling grumpy",
+ "titleFa": "بداخلاق بودن",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Leave me alone. I'm in a bad mood.",
+   "translations": {
+    "fa": "ولم کن. حالم خوب نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "wrong",
+      "but",
+      "ok"
+     ],
+     "suggestion": "OK. But what's wrong?",
+     "suggestionFa": "باشه. ولی چی شده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "talk",
+      "want"
+     ],
+     "suggestion": "Do you want to talk about it?",
+     "suggestionFa": "می‌خوای دربارهش حرف بزنی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "leave me alone",
+     "fa": "ولم کن"
+    },
+    {
+     "word": "bad mood",
+     "fa": "بدخلقی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Everything! I lost my phone, I got a detention, and we lost the football match.",
+   "translations": {
+    "fa": "همه چی! گوشیم را گم کردم، تنبیه شدم، و مسابقهٔ فوتبال را باختیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "dear",
+      "bad",
+      "day"
+     ],
+     "suggestion": "Oh dear. That's a bad day!",
+     "suggestionFa": "ای وای. روز بدیه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "detention",
+      "why"
+     ],
+     "suggestion": "A detention? Why?",
+     "suggestionFa": "تنبیه؟ چرا؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lost",
+     "fa": "گم کرد ؛ باخت"
+    },
+    {
+     "word": "detention",
+     "fa": "تنبیه مدرسه (ماندن بعد از کلاس)"
+    },
+    {
+     "word": "match",
+     "fa": "مسابقه"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"detention\" means staying at school after lessons as a punishment.",
+    "fa": "detention یعنی ماندن در مدرسه بعد از کلاس."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "I forgot my homework. Again. I'm so fed up!",
+   "translations": {
+    "fa": "تکلیفم را یادم رفت. دوباره. خیلی خسته شدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "everyone",
+      "forgets"
+     ],
+     "suggestion": "Everyone forgets sometimes.",
+     "suggestionFa": "همه گاهی یادشون میره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "feel",
+      "fed",
+      "up"
+     ],
+     "suggestion": "I understand. You feel fed up.",
+     "suggestionFa": "می‌فهمم. خسته شدی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forgot",
+     "fa": "فراموش کرد"
+    },
+    {
+     "word": "homework",
+     "fa": "تکلیف"
+    },
+    {
+     "word": "fed up",
+     "fa": "کلافه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "And my phone! All my photos are on it. Mum is going to be so angry.",
+   "translations": {
+    "fa": "و گوشیم! همهٔ عکس‌هام روشه. مامان خیلی عصبانی میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "last",
+      "did",
+      "see"
+     ],
+     "suggestion": "Where did you last see it?",
+     "suggestionFa": "آخرین بار کجا دیدیش؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "let's",
+      "hear",
+      "call"
+     ],
+     "suggestion": "Let's call it. Maybe we can hear it.",
+     "suggestionFa": "بیا بهش زنگ بزنیم. شاید صداش را بشنویم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "photos",
+     "fa": "عکس‌ها"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    },
+    {
+     "word": "last",
+     "fa": "آخرین بار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Good idea. Call it! My number is in your phone, right?",
+   "translations": {
+    "fa": "فکر خوبیه. زنگ بزن! شماره‌ام تو گوشیته، درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "calling",
+      "now"
+     ],
+     "suggestion": "Yes. Calling now…",
+     "suggestionFa": "آره. دارم زنگ می‌زنم…",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "listen",
+      "shh"
+     ],
+     "suggestion": "Shh! Listen!",
+     "suggestionFa": "هیس! گوش کن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "number",
+     "fa": "شماره"
+    },
+    {
+     "word": "listen",
+     "fa": "گوش کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "I can hear it! It's ringing… in my football bag! I'm such an idiot.",
+   "translations": {
+    "fa": "صداش را می‌شنوم! داره زنگ می‌زنه… تو کیف فوتبالم! چه احمقی‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "idiot"
+     ],
+     "suggestion": "You're not an idiot!",
+     "suggestionFa": "احمق نیستی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "problem",
+      "fixed",
+      "one",
+      "ha"
+     ],
+     "suggestion": "Ha! One problem fixed!",
+     "suggestionFa": "ها! یه مشکل حل شد!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ringing",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "idiot",
+     "fa": "احمق"
+    },
+    {
+     "word": "fixed",
+     "fa": "حل شد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you not idiot",
+      "you are not a idiot"
+     ],
+     "echo": "You're not an idiot? Exactly!",
+     "better": "You're not an idiot.",
+     "betterFa": "احمق نیستی."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Thanks. OK, one problem fixed. The match… we lost five–nil. It was embarrassing.",
+   "translations": {
+    "fa": "ممنون. خب، یه مشکل حل شد. مسابقه… پنج هیچ باختیم. خجالت‌آور بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "five",
+      "ouch",
+      "nil"
+     ],
+     "suggestion": "Five–nil? Ouch!",
+     "suggestionFa": "پنج هیچ؟ آخ!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "always",
+      "next",
+      "week"
+     ],
+     "suggestion": "There's always next week.",
+     "suggestionFa": "همیشه هفتهٔ بعد هست.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nil",
+     "fa": "صفر (در ورزش)"
+    },
+    {
+     "word": "embarrassing",
+     "fa": "خجالت‌آور"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British football scores, \"nil\" means zero: \"five–nil\".",
+    "fa": "nil یعنی صفر."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "True. And the homework… I'll do it now. Before tea. Thanks for listening, mate. I feel a bit better.",
+   "translations": {
+    "fa": "درسته. و تکلیف… الان انجامش می‌دم. قبل از شام. ممنون که گوش دادی رفیق. یه کم حالم بهتر شد."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

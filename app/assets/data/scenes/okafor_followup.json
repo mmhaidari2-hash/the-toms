@@ -31,9 +31,9 @@
     {
      "keywords": [
       "vitamin",
-      "that's",
+      "relief",
       "should",
-      "relief"
+      "that's"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
      "suggestionFa": "خیالم راحت شد. دربارهٔ ویتامین دی چی کار کنم؟",
@@ -75,7 +75,7 @@
       "prescription",
       "chemist",
       "need",
-      "buy"
+      "can"
      ],
      "suggestion": "Do I need a prescription, or can I buy it at the chemist?",
      "suggestionFa": "نسخه لازمه، یا می‌تونم از داروخونه بخرم؟",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "honest",
-      "night",
       "great",
+      "night",
       "wake"
      ],
      "suggestion": "Not great, to be honest. I wake up a lot at night.",
@@ -182,9 +182,9 @@
     {
      "keywords": [
       "intense",
-      "abroad",
       "work's",
-      "family"
+      "family",
+      "abroad"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
      "suggestionFa": "کار خیلی فشرده بوده، و نگران خانواده‌ام در خارجم.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "therapy",
-      "about",
       "think",
+      "about",
       "i'll"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
-      "back",
-      "pain",
-      "only"
+      "only",
+      "desk",
+      "back"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -310,7 +310,7 @@
       "everything",
       "thorough",
       "that's",
-      "thank"
+      "being"
      ],
      "suggestion": "No, that's everything. Thank you for being so thorough.",
      "suggestionFa": "نه، همین بود. ممنون که این‌قدر دقیق هستید.",
@@ -352,7 +352,7 @@
       "birds",
       "stone",
       "then",
-      "two"
+      "one"
      ],
      "suggestion": "Two birds with one stone, then.",
      "suggestionFa": "پس با یه تیر دو نشون.",
@@ -363,8 +363,8 @@
     {
      "keywords": [
       "outside",
-      "more",
       "i'll",
+      "more",
       "get"
      ],
      "suggestion": "I'll try to get outside more.",
@@ -396,8 +396,8 @@
    "branches": [
     {
      "keywords": [
-      "okafor",
       "thanks",
+      "okafor",
       "will",
       "dr"
      ],
@@ -410,9 +410,9 @@
     {
      "keywords": [
       "supplement",
-      "should",
       "before",
-      "stop"
+      "should",
+      "test"
      ],
      "suggestion": "Should I stop the supplement before the test?",
      "suggestionFa": "قبل از آزمایش مکمل را قطع کنم؟",

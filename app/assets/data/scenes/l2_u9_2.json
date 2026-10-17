@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "like",
       "best",
+      "like",
       "did"
      ],
      "suggestion": "What did you like best?",
@@ -81,9 +81,9 @@
     {
      "keywords": [
       "funny",
+      "saw",
       "him",
-      "was",
-      "saw"
+      "was"
      ],
      "suggestion": "I saw him! He was so funny.",
      "suggestionFa": "دیدمش! خیلی بامزه بود.",
@@ -128,7 +128,7 @@
       "chips",
       "then",
       "fish",
-      "but"
+      "ate"
      ],
      "suggestion": "Oh no. But then we ate fish and chips!",
      "suggestionFa": "ای وای. ولی بعدش ماهی و چیپس خوردیم!",
@@ -140,8 +140,8 @@
      "keywords": [
       "another",
       "make",
-      "one",
-      "did"
+      "did",
+      "one"
      ],
      "suggestion": "Did you make another one?",
      "suggestionFa": "یکی دیگه ساختی؟",
@@ -254,9 +254,9 @@
     },
     {
      "keywords": [
-      "mummy",
-      "let's",
       "daddy",
+      "let's",
+      "mummy",
       "ask"
      ],
      "suggestion": "Let's ask Mummy and Daddy.",

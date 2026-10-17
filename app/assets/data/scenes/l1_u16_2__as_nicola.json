@@ -1,0 +1,248 @@
+{
+ "id": "l1_u16_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Five a day",
+ "titleFa": "(در نقش Nicola) پنج وعده در روز",
+ "setting": "Fruit and vegetables · Level 1",
+ "settingFa": "میوه و سبزیجات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u16_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learnt",
+      "school",
+      "about",
+      "five",
+      "know"
+     ],
+     "suggestion": "At school we learnt about \"five a day\". Do you know it?",
+     "suggestionFa": "تو مدرسه دربارهٔ «پنج در روز» یاد گرفتیم. می‌دونی چیه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No. What is it?",
+   "translations": {
+    "fa": "نه. چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetables",
+      "let's",
+      "fruit",
+      "today",
+      "count"
+     ],
+     "suggestion": "Five fruit and vegetables every day! Let's count. What did you eat today?",
+     "suggestionFa": "پنج تا میوه و سبزی هر روز! بیا بشمریم. امروز چی خوردی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "An apple and a banana.",
+   "translations": {
+    "fa": "یه سیب و یه موز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strawberries",
+      "favourite",
+      "that's",
+      "two",
+      "had"
+     ],
+     "suggestion": "That's two! I had strawberries. Strawberries are my favourite.",
+     "suggestionFa": "این دو تا! من توت‌فرنگی خوردم. توت‌فرنگی مورد علاقه‌مه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Strawberries are delicious!",
+   "translations": {
+    "fa": "توت‌فرنگی خوشمزه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "grapes",
+      "green",
+      "mummy",
+      "half"
+     ],
+     "suggestion": "Yes! Green grapes. But Mummy cuts them in half for William.",
+     "suggestionFa": "آره! انگور سبز. ولی مامان برای ویلیام نصفشون می‌کنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Why does she cut them?",
+   "translations": {
+    "fa": "چرا نصفشون می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetables",
+      "safer",
+      "like"
+     ],
+     "suggestion": "Yes, it's safer. What vegetables do you like?",
+     "suggestionFa": "آره، امن‌تره. چه سبزی‌هایی دوست داری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I like tomatoes and cucumbers.",
+   "translations": {
+    "fa": "گوجه و خیار دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "aubergines",
+      "sweetcorn",
+      "purple",
+      "don't",
+      "peas"
+     ],
+     "suggestion": "Aubergines are purple! I don't like them. I like peas and sweetcorn.",
+     "suggestionFa": "بادمجون بنفشه! دوستش ندارم. نخود فرنگی و ذرت دوست دارم.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Peas and sweetcorn are vegetables, too.",
+   "translations": {
+    "fa": "نخود و ذرت هم سبزی‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carrots",
+      "says",
+      "nana",
+      "help",
+      "dark"
+     ],
+     "suggestion": "Yes! Carrots help you see in the dark. Nana says so.",
+     "suggestionFa": "آره! هویج کمک می‌کنه تو تاریکی ببینی. نانا این‌جوری می‌گه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! Is that true?",
+   "translations": {
+    "fa": "ها! راسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "today",
+      "many",
+      "have",
+      "how",
+      "got"
+     ],
+     "suggestion": "So, how many have you got today?",
+     "suggestionFa": "خب، تو امروز چند تا داری؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I've got three. I need two more.",
+   "translations": {
+    "fa": "سه تا دارم. دو تای دیگه لازم دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetables",
+      "tonight",
+      "that's",
+      "making",
+      "mummy"
+     ],
+     "suggestion": "Well done! You get a gold star! Tonight Mummy is making soup. That's lots of vegetables!",
+     "suggestionFa": "آفرین! یه ستارهٔ طلایی می‌گیری! امشب مامان سوپ درست می‌کنه. کلی سبزی!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

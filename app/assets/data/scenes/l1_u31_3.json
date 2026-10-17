@@ -1,0 +1,346 @@
+{
+ "id": "l1_u31_3",
+ "characterId": "nicola",
+ "title": "School dinner",
+ "titleFa": "ناهار مدرسه",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Today was pizza day! I love pizza day!",
+   "translations": {
+    "fa": "امروز روز پیتزا بود! عاشق روز پیتزام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "pizza",
+      "day"
+     ],
+     "suggestion": "What's pizza day?",
+     "suggestionFa": "روز پیتزا چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lucky"
+     ],
+     "suggestion": "Lucky you!",
+     "suggestionFa": "خوش به حالت!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pizza",
+     "fa": "پیتزا"
+    },
+    {
+     "word": "love",
+     "fa": "عاشق بودن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "On Fridays we have pizza for dinner. At school! Mondays are fish fingers.",
+   "translations": {
+    "fa": "جمعه‌ها ناهار پیتزا داریم. تو مدرسه! دوشنبه‌ها فیش فینگره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "called",
+      "school",
+      "dinner",
+      "lunch"
+     ],
+     "suggestion": "Is lunch called \"dinner\" at school?",
+     "suggestionFa": "تو مدرسه به ناهار میگن «دینر»؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fingers",
+      "fish",
+      "like"
+     ],
+     "suggestion": "I like fish fingers too.",
+     "suggestionFa": "منم فیش فینگر دوست دارم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fish fingers",
+     "fa": "فیش فینگر"
+    },
+    {
+     "word": "Fridays",
+     "fa": "جمعه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British people call the midday school meal \"school dinner\", and the lunch staff \"dinner ladies\".",
+    "fa": "ناهار مدرسه را «دینر» هم می‌گویند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Yes, school dinner! The dinner ladies give it to us. Mrs Pat is my favourite.",
+   "translations": {
+    "fa": "آره، ناهار مدرسه! خانم‌های ناهار بهمون میدن. خانم پت محبوب منه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "why"
+     ],
+     "suggestion": "Why is she your favourite?",
+     "suggestionFa": "چرا محبوبته؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kind"
+     ],
+     "suggestion": "Is she kind?",
+     "suggestionFa": "مهربونه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinner ladies",
+     "fa": "خانم‌های سرو غذا"
+    },
+    {
+     "word": "favourite",
+     "fa": "محبوب"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"favourite\", American \"favorite\".",
+    "fa": "favourite/favorite."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "She gives me extra custard! Shh, it's a secret. Do you like custard?",
+   "translations": {
+    "fa": "بهم کاستارد اضافه میده! هیس، رازه. تو کاستارد دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweet"
+     ],
+     "suggestion": "I like custard. It's sweet.",
+     "suggestionFa": "کاستارد دوست دارم. شیرینه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "much"
+     ],
+     "suggestion": "I don't like custard very much.",
+     "suggestionFa": "خیلی کاستارد دوست ندارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "custard",
+     "fa": "کاستارد (فرنی شیرین)"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    },
+    {
+     "word": "secret",
+     "fa": "راز"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "I don't like peas. They roll off my plate! Do you like peas?",
+   "translations": {
+    "fa": "من نخود فرنگی دوست ندارم. از بشقابم قل می‌خورن! تو دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes"
+     ],
+     "suggestion": "Yes, I like peas.",
+     "suggestionFa": "آره، نخود فرنگی دوست دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "either",
+      "don't"
+     ],
+     "suggestion": "No. I don't like peas either!",
+     "suggestionFa": "نه. منم نخود فرنگی دوست ندارم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "peas",
+     "fa": "نخود فرنگی"
+    },
+    {
+     "word": "roll",
+     "fa": "قل خوردن"
+    },
+    {
+     "word": "either",
+     "fa": "هم (در منفی)"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i not like peas",
+      "i doesn't like peas"
+     ],
+     "echo": "You don't like peas? Me neither!",
+     "better": "I don't like peas.",
+     "betterFa": "نخود فرنگی دوست ندارم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Me neither! But Mummy says peas make you strong. Is that true?",
+   "translations": {
+    "fa": "منم نه! ولی مامان میگه نخود فرنگی آدم را قوی می‌کنه. راسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetables",
+      "good"
+     ],
+     "suggestion": "Yes, vegetables are good for you.",
+     "suggestionFa": "آره، سبزیجات برات خوبن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "three",
+      "just",
+      "peas"
+     ],
+     "suggestion": "Eat three peas tomorrow. Just three!",
+     "suggestionFa": "فردا سه تا نخود فرنگی بخور. فقط سه تا!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strong",
+     "fa": "قوی"
+    },
+    {
+     "word": "true",
+     "fa": "درست"
+    },
+    {
+     "word": "vegetables",
+     "fa": "سبزیجات"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Three peas… OK. And I'll have extra custard for being brave! Deal?",
+   "translations": {
+    "fa": "سه تا نخود فرنگی… باشه. و برای شجاعتم کاستارد اضافه می‌خورم! قبول؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "deal"
+     ],
+     "suggestion": "Deal!",
+     "suggestionFa": "قبول!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pat",
+      "mrs",
+      "ask"
+     ],
+     "suggestion": "Ask Mrs Pat, not me!",
+     "suggestionFa": "از خانم پت بپرس، نه از من!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deal",
+     "fa": "قبول ؛ معامله"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Ha ha! Next Friday you can come for pizza day. Grown-ups can't though. Sorry!",
+   "translations": {
+    "fa": "ها ها! جمعهٔ بعد بیا روز پیتزا. البته بزرگ‌ترها نمی‌تونن. ببخشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "id": "l1_u45_2",
+ "characterId": "nicola",
+ "title": "Can you ride a bike?",
+ "titleFa": "دوچرخه‌سواری بلدی؟",
+ "setting": "Saying what you can do · Level 1",
+ "settingFa": "گفتن توانایی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Look! I've got a new bike! It's pink! Can you ride a bike?",
+   "translations": {
+    "fa": "ببین! دوچرخهٔ جدید دارم! صورتیه! تو دوچرخه‌سواری بلدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "can"
+     ],
+     "suggestion": "Yes, I can.",
+     "suggestionFa": "آره، بلدم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "well",
+      "but"
+     ],
+     "suggestion": "Yes, but not very well.",
+     "suggestionFa": "آره، ولی نه خیلی خوب.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bike",
+     "fa": "دوچرخه"
+    },
+    {
+     "word": "ride",
+     "fa": "راندن ؛ سوار شدن"
+    },
+    {
+     "word": "new",
+     "fa": "جدید"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "I can't ride without my stabilisers. Daddy says they're coming off today!",
+   "translations": {
+    "fa": "من بدون چرخ کمکی نمی‌تونم برونم. بابا میگه امروز درشون میاره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scared"
+     ],
+     "suggestion": "Are you scared?",
+     "suggestionFa": "می‌ترسی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "can"
+     ],
+     "suggestion": "You can do it, Nicola!",
+     "suggestionFa": "تو می‌تونی نیکولا!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stabilisers",
+     "fa": "چرخ‌های کمکی"
+    },
+    {
+     "word": "without",
+     "fa": "بدون"
+    },
+    {
+     "word": "coming off",
+     "fa": "درآوردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"stabilisers\", American \"training wheels\".",
+    "fa": "stabilisers/training wheels."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "A bit scared. Can you hold the back of my seat?",
+   "translations": {
+    "fa": "یه کم می‌ترسم. می‌تونی پشت صندلیم را بگیری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hold",
+      "can"
+     ],
+     "suggestion": "Yes, I can hold it.",
+     "suggestionFa": "آره، می‌تونم بگیرمش.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "won't",
+      "let",
+      "go"
+     ],
+     "suggestion": "Of course. I won't let go.",
+     "suggestionFa": "البته. ولش نمی‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "seat",
+     "fa": "صندلی ؛ زین"
+    },
+    {
+     "word": "let go",
+     "fa": "رها کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "OK. Can I wear my helmet with the stars?",
+   "translations": {
+    "fa": "باشه. می‌تونم کلاه ایمنی ستاره‌دارم را بذارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "safety",
+      "first"
+     ],
+     "suggestion": "Yes, you can. Safety first!",
+     "suggestionFa": "آره، می‌تونی. اول ایمنی!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strap"
+     ],
+     "suggestion": "Can you do the strap?",
+     "suggestionFa": "می‌تونی بندش را ببندی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "helmet",
+     "fa": "کلاه ایمنی"
+    },
+    {
+     "word": "stars",
+     "fa": "ستاره‌ها"
+    },
+    {
+     "word": "strap",
+     "fa": "بند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "can i to wear",
+      "can i wearing helmet"
+     ],
+     "echo": "Can you wear it? Of course!",
+     "better": "Can I wear my helmet?",
+     "betterFa": "می‌تونم کلاهم را بذارم؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Ready! Push! Push! Are you still holding?",
+   "translations": {
+    "fa": "آماده! هل بده! هل بده! هنوز گرفتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "holding"
+     ],
+     "suggestion": "Yes, I'm holding.",
+     "suggestionFa": "آره، گرفتم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "pedal"
+     ],
+     "suggestion": "Pedal, Nicola, pedal!",
+     "suggestionFa": "پا بزن نیکولا، پا بزن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "push",
+     "fa": "هل دادن"
+    },
+    {
+     "word": "pedal",
+     "fa": "پا زدن ؛ رکاب زدن"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Wheee! Look! I can ride! Are you holding? … You're NOT holding!",
+   "translations": {
+    "fa": "وییی! ببین! می‌تونم برونم! داری می‌گیری؟ … نمی‌گیری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yourself",
+      "doing",
+      "by"
+     ],
+     "suggestion": "You're doing it by yourself!",
+     "suggestionFa": "داری خودت تنهایی میری!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ride",
+      "can",
+      "let",
+      "go"
+     ],
+     "suggestion": "I let go! You can ride!",
+     "suggestionFa": "ولت کردم! تو بلدی برونی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by yourself",
+     "fa": "به تنهایی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "I CAN RIDE A BIKE! All by myself! Can Mr Buttons sit in the basket?",
+   "translations": {
+    "fa": "دوچرخه‌سواری بلدم! خودم تنهایی! آقای دکمه می‌تونه تو سبد بشینه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yes"
+     ],
+     "suggestion": "Yes, he can.",
+     "suggestionFa": "آره، می‌تونه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tight",
+      "hold"
+     ],
+     "suggestion": "Can he hold on tight?",
+     "suggestionFa": "می‌تونه محکم بگیره؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "basket",
+     "fa": "سبد"
+    },
+    {
+     "word": "tight",
+     "fa": "محکم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "He can! Can we race now? You run, I ride. Ready, steady, GO!",
+   "translations": {
+    "fa": "می‌تونه! حالا می‌تونیم مسابقه بدیم؟ تو بدو، من رکاب می‌زنم. حاضر، آماده، برو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

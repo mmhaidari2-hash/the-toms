@@ -20,8 +20,8 @@
     {
      "keywords": [
       "where's",
-      "sure",
-      "milk"
+      "milk",
+      "sure"
      ],
      "suggestion": "Sure. Where's the milk?",
      "suggestionFa": "حتماً. شیر کجاست؟",
@@ -168,10 +168,10 @@
    "branches": [
     {
      "keywords": [
-      "normal",
       "that's",
-      "eggs",
-      "fine"
+      "normal",
+      "fine",
+      "eggs"
      ],
      "suggestion": "That's OK. Normal eggs are fine.",
      "suggestionFa": "اشکال نداره. تخم‌مرغ معمولی خوبه.",
@@ -181,10 +181,10 @@
     },
     {
      "keywords": [
-      "boxes",
       "there",
-      "any",
-      "big"
+      "boxes",
+      "big",
+      "any"
      ],
      "suggestion": "Are there any big boxes?",
      "suggestionFa": "جعبهٔ بزرگ هست؟",

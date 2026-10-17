@@ -1,0 +1,360 @@
+{
+ "id": "l1_u32_2",
+ "characterId": "butcher",
+ "title": "Half a dozen eggs",
+ "titleFa": "نیم دوجین تخم‌مرغ",
+ "setting": "Sizes and amounts · Level 1",
+ "settingFa": "اندازه‌ها و مقدارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "butcher",
+   "text": "Hello there! What would you like?",
+   "translations": {
+    "fa": "سلام! چی میل دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "some",
+      "have",
+      "can"
+     ],
+     "suggestion": "Can I have some eggs, please?",
+     "suggestionFa": "می‌شه چندتا تخم‌مرغ بدید، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chicken",
+      "need"
+     ],
+     "suggestion": "I need eggs and chicken.",
+     "suggestionFa": "تخم‌مرغ و مرغ لازم دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eggs",
+     "fa": "تخم‌مرغ‌ها"
+    },
+    {
+     "word": "chicken",
+     "fa": "مرغ"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "butcher",
+   "text": "Free-range eggs. Half a dozen or a dozen?",
+   "translations": {
+    "fa": "تخم‌مرغ محلی. نیم دوجین یا یه دوجین؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "half"
+     ],
+     "suggestion": "What's half a dozen?",
+     "suggestionFa": "نیم دوجین چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please"
+     ],
+     "suggestion": "A dozen, please.",
+     "suggestionFa": "یه دوجین، لطفاً.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free-range",
+     "fa": "آزاد (مرغ محلی)"
+    },
+    {
+     "word": "dozen",
+     "fa": "دوجین ؛ دوازده تا"
+    },
+    {
+     "word": "half",
+     "fa": "نیم"
+    }
+   ],
+   "cultureNote": {
+    "en": "British shops often sell eggs by six (half a dozen) or twelve (a dozen).",
+    "fa": "تخم‌مرغ شش‌تایی یا دوازده‌تایی."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "butcher",
+   "text": "Half a dozen is six. A dozen is twelve.",
+   "translations": {
+    "fa": "نیم دوجین شش تاست. یه دوجین دوازده تا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "enough",
+      "dozen",
+      "half"
+     ],
+     "suggestion": "Six is enough. Half a dozen, please.",
+     "suggestionFa": "شش تا کافیه. نیم دوجین، لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twelve",
+      "then",
+      "eggs",
+      "lot"
+     ],
+     "suggestion": "Twelve, then. I eat a lot of eggs.",
+     "suggestionFa": "پس دوازده تا. من خیلی تخم‌مرغ می‌خورم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "six",
+     "fa": "شش"
+    },
+    {
+     "word": "twelve",
+     "fa": "دوازده"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "butcher",
+   "text": "Righto. Now, chicken. Breasts or thighs?",
+   "translations": {
+    "fa": "باشه. حالا مرغ. سینه یا ران؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breasts",
+      "chicken",
+      "please",
+      "two"
+     ],
+     "suggestion": "Two chicken breasts, please.",
+     "suggestionFa": "دو تا سینهٔ مرغ، لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thighs",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much are the thighs?",
+     "suggestionFa": "ران‌ها چنده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "breasts",
+     "fa": "سینه"
+    },
+    {
+     "word": "thighs",
+     "fa": "ران"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "butcher",
+   "text": "Thighs are six pounds a kilo. Breasts are nine pounds a kilo.",
+   "translations": {
+    "fa": "ران کیلویی شش پونده. سینه کیلویی نه پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thighs",
+      "half"
+     ],
+     "suggestion": "Half a kilo of thighs, please.",
+     "suggestionFa": "نیم کیلو ران، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "breasts",
+      "one"
+     ],
+     "suggestion": "One kilo of breasts, please.",
+     "suggestionFa": "یه کیلو سینه، لطفاً.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kilo",
+     "fa": "کیلو"
+    },
+    {
+     "word": "a kilo",
+     "fa": "هر کیلو"
+    }
+   ],
+   "cultureNote": {
+    "en": "The UK uses kilos in shops, but many older people still think in pounds and ounces.",
+    "fa": "کیلو و پوند هر دو."
+   },
+   "recasts": [
+    {
+     "match": [
+      "a half kilo",
+      "half of a kilo thighs"
+     ],
+     "echo": "Half a kilo? Sure.",
+     "better": "Half a kilo of thighs, please.",
+     "betterFa": "نیم کیلو ران، لطفاً."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "butcher",
+   "text": "Is it halal? Yes, everything here is halal. Lots of my customers ask.",
+   "translations": {
+    "fa": "حلاله؟ آره، همه چیز اینجا حلاله. خیلی از مشتری‌هام می‌پرسن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "good"
+     ],
+     "suggestion": "Good, thank you.",
+     "suggestionFa": "خوبه، ممنون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "question",
+      "know",
+      "how",
+      "did"
+     ],
+     "suggestion": "How did you know my question?",
+     "suggestionFa": "از کجا سؤالم را فهمیدید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "halal",
+     "fa": "حلال"
+    },
+    {
+     "word": "customers",
+     "fa": "مشتری‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "butcher",
+   "text": "Just a guess! Do you want me to cut it smaller? For a curry, maybe?",
+   "translations": {
+    "fa": "فقط حدس! می‌خوای کوچیک‌ترش کنم؟ مثلاً برای کاری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pieces",
+      "please",
+      "small"
+     ],
+     "suggestion": "Yes, please. Small pieces.",
+     "suggestionFa": "آره، لطفاً. تیکه‌های کوچیک.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "whole",
+      "keep"
+     ],
+     "suggestion": "No, thanks. Keep it whole.",
+     "suggestionFa": "نه ممنون. درسته بمونه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guess",
+     "fa": "حدس"
+    },
+    {
+     "word": "pieces",
+     "fa": "تکه‌ها"
+    },
+    {
+     "word": "whole",
+     "fa": "کامل ؛ درسته"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "butcher",
+   "text": "There you are. Eggs and chicken. Seven pounds fifty. Careful with the eggs!",
+   "translations": {
+    "fa": "بفرمایید. تخم‌مرغ و مرغ. هفت پوند و پنجاه. مواظب تخم‌مرغ‌ها باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

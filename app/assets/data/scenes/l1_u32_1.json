@@ -1,0 +1,373 @@
+{
+ "id": "l1_u32_1",
+ "characterId": "baker",
+ "title": "A big loaf or a small one?",
+ "titleFa": "نان بزرگ یا کوچک؟",
+ "setting": "Sizes and amounts · Level 1",
+ "settingFa": "اندازه‌ها و مقدارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Morning, love! What can I get you today?",
+   "translations": {
+    "fa": "صبح بخیر عزیزم! امروز چی بدم خدمتتون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "loaf"
+     ],
+     "suggestion": "A loaf of bread, please.",
+     "suggestionFa": "یه قرص نون، لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "white",
+      "have",
+      "got"
+     ],
+     "suggestion": "Have you got white bread?",
+     "suggestionFa": "نون سفید دارید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loaf",
+     "fa": "قرص نان"
+    },
+    {
+     "word": "bread",
+     "fa": "نان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "We've got white, brown and seeded. Large or small?",
+   "translations": {
+    "fa": "سفید، سبوس‌دار و دونه‌دار داریم. بزرگ یا کوچیک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "white",
+      "loaf"
+     ],
+     "suggestion": "A large white loaf, please.",
+     "suggestionFa": "یه نون سفید بزرگ، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "how",
+      "big",
+      "one"
+     ],
+     "suggestion": "How big is the large one?",
+     "suggestionFa": "بزرگه چقدره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brown",
+     "fa": "سبوس‌دار ؛ قهوه‌ای"
+    },
+    {
+     "word": "seeded",
+     "fa": "دانه‌دار"
+    },
+    {
+     "word": "large",
+     "fa": "بزرگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK \"brown bread\" means wholemeal or wheat bread.",
+    "fa": "brown bread یعنی نان سبوس‌دار."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "This big one. It's eight hundred grams. The small one is four hundred.",
+   "translations": {
+    "fa": "این بزرگه. هشتصد گرمه. کوچیکه چهارصده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enough",
+      "small"
+     ],
+     "suggestion": "The small one is enough for me.",
+     "suggestionFa": "کوچیکه برام کافیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "family",
+      "please",
+      "i've",
+      "door"
+     ],
+     "suggestion": "The big one, please. I've got a big family next door!",
+     "suggestionFa": "بزرگه، لطفاً. همسایه‌م خانوادهٔ بزرگی داره!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grams",
+     "fa": "گرم"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    },
+    {
+     "word": "hundred",
+     "fa": "صد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "Ha! The Thompsons? Then you need a bigger one! Sliced or unsliced?",
+   "translations": {
+    "fa": "ها! تامپسون‌ها؟ پس بزرگ‌تر لازم داری! برش‌خورده یا نبریده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sliced",
+      "please"
+     ],
+     "suggestion": "Sliced, please.",
+     "suggestionFa": "برش‌خورده، لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "unsliced",
+      "mean"
+     ],
+     "suggestion": "What does \"unsliced\" mean?",
+     "suggestionFa": "«نبریده» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bigger",
+     "fa": "بزرگ‌تر"
+    },
+    {
+     "word": "sliced",
+     "fa": "برش‌خورده"
+    },
+    {
+     "word": "unsliced",
+     "fa": "بریده‌نشده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "more big one",
+      "a more bigger loaf"
+     ],
+     "echo": "A bigger one? Here you go.",
+     "better": "A bigger one, please.",
+     "betterFa": "یه بزرگ‌تر، لطفاً."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "It means in one piece. You cut it at home. Thick slices or thin?",
+   "translations": {
+    "fa": "یعنی یکجا. خودت تو خونه می‌بری. برش ضخیم یا نازک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "toast",
+      "thick"
+     ],
+     "suggestion": "Thick slices, please. For toast.",
+     "suggestionFa": "برش ضخیم، لطفاً. برای نون تست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sandwiches",
+      "better",
+      "thin"
+     ],
+     "suggestion": "Thin slices are better for sandwiches.",
+     "suggestionFa": "برش نازک برای ساندویچ بهتره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "thick",
+     "fa": "ضخیم"
+    },
+    {
+     "word": "thin",
+     "fa": "نازک"
+    },
+    {
+     "word": "slices",
+     "fa": "برش‌ها"
+    },
+    {
+     "word": "toast",
+     "fa": "نان تست"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "baker",
+   "text": "Thick it is. Anything else? The rolls are small, and the baguettes are long!",
+   "translations": {
+    "fa": "ضخیم. چیز دیگه‌ای؟ نون رول‌ها کوچیکن، باگت‌ها بلند!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "rolls",
+      "small",
+      "four"
+     ],
+     "suggestion": "Four small rolls, please.",
+     "suggestionFa": "چهار تا نون رول کوچیک، لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "baguette",
+      "long",
+      "one"
+     ],
+     "suggestion": "One long baguette too.",
+     "suggestionFa": "یه باگت بلند هم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rolls",
+     "fa": "نان گرد کوچک"
+    },
+    {
+     "word": "long",
+     "fa": "بلند"
+    },
+    {
+     "word": "baguette",
+     "fa": "باگت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Bread rolls have many regional names in Britain: bap, cob, barm cake, bun…",
+    "fa": "نام‌های محلی نان گرد."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Lovely. That's three pounds forty altogether.",
+   "translations": {
+    "fa": "عالی. جمعاً سه پوند و چهل میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "here's",
+      "four"
+     ],
+     "suggestion": "Here's four pounds.",
+     "suggestionFa": "بفرما چهار پوند.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "card",
+      "can",
+      "pay",
+      "by"
+     ],
+     "suggestion": "Can I pay by card?",
+     "suggestionFa": "می‌تونم با کارت پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "جمعاً"
+    },
+    {
+     "word": "pay",
+     "fa": "پرداخت کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "baker",
+   "text": "Course you can. Here's your bag. Mind the baguette — it's longer than the bag!",
+   "translations": {
+    "fa": "البته. اینم کیسه‌تون. مواظب باگت باشید — از کیسه بلندتره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

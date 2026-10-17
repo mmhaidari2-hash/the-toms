@@ -1,0 +1,341 @@
+{
+ "id": "l1_u16_4__as_tom",
+ "characterId": "nicola",
+ "title": "(As Tom) Yuck, sprouts!",
+ "titleFa": "(در نقش Tom) ایش، کلم بروکسل!",
+ "setting": "Fruit and vegetables · Level 1",
+ "settingFa": "میوه و سبزیجات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u16_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "nicola",
+   "text": "Yuck! Sprouts! I don't like sprouts. They're green and smelly!",
+   "translations": {
+    "fa": "ایش! کلم بروکسل! کلم بروکسل دوست ندارم. سبزه و بوی بد می‌ده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sprouts",
+     "fa": "کلم بروکسل"
+    },
+    {
+     "word": "smelly",
+     "fa": "بدبو"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brussels sprouts are a famous Christmas vegetable in Britain — people love them or hate them.",
+    "fa": "کلم بروکسل غذای معروف کریسمس است."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Just try one, Nicola.",
+   "translations": {
+    "fa": "فقط یکی امتحان کن نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pudding",
+      "nicola",
+      "sprout",
+      "have",
+      "then"
+     ],
+     "suggestion": "One sprout, Nicola. Then you can have pudding.",
+     "suggestionFa": "یه دونه نیکولا. بعد می‌تونی دسر بخوری.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That's fair. One sprout!",
+   "translations": {
+    "fa": "منصفانه‌ست. یه دونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "nicola",
+   "text": "What's for pudding, Daddy?",
+   "translations": {
+    "fa": "دسر چیه بابا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guess",
+     "fa": "حدس زدن"
+    },
+    {
+     "word": "hope",
+     "fa": "امیدوار بودن"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Let me guess. Ice cream?",
+   "translations": {
+    "fa": "بذار حدس بزنم. بستنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sprouts",
+      "custard",
+      "crumble",
+      "sprout",
+      "apple"
+     ],
+     "suggestion": "Apple crumble and custard! Now, one sprout. What do you like, Mehdi? Do you like sprouts?",
+     "suggestionFa": "کرامبل سیب با کاستارد! حالا، یه دونه. تو چی دوست داری {you}؟ کلم بروکسل دوست داری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I like them with butter.",
+   "translations": {
+    "fa": "با کره دوستشون دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "nicola",
+   "text": "See! Mehdi doesn't like them either. Can I give mine to Daddy?",
+   "translations": {
+    "fa": "دیدی! {you} هم دوستشون نداره. می‌شه مال منو بدم بابا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "either",
+     "fa": "هم (در منفی)"
+    },
+    {
+     "word": "mine",
+     "fa": "مال من"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Nice try, Nicola!",
+   "translations": {
+    "fa": "تلاش خوبی بود نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "gravy",
+      "deal",
+      "make",
+      "half"
+     ],
+     "suggestion": "OK, let's make a deal. Cut it in half. Eat half with gravy.",
+     "suggestionFa": "خب، بیا یه قرار بذاریم. نصفش کن. نصفش را با سس گوشت بخور.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Half is easy, Nicola!",
+   "translations": {
+    "fa": "نصفش آسونه نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "nicola",
+   "text": "Mmm… hmm… It's not bad! It's a bit like cabbage.",
+   "translations": {
+    "fa": "ممم… هوم… بد نیست! یه کم مثل کلمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "not bad",
+     "fa": "بد نیست"
+    },
+    {
+     "word": "cabbage",
+     "fa": "کلم"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Well done, Nicola!",
+   "translations": {
+    "fa": "آفرین نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "crumble",
+      "think",
+      "have",
+      "can"
+     ],
+     "suggestion": "Brilliant! Now you can have crumble. What do you think of crumble, Mehdi?",
+     "suggestionFa": "عالی! حالا می‌تونی کرامبل بخوری. نظرت دربارهٔ کرامبل چیه {you}؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "I love it! It's delicious.",
+   "translations": {
+    "fa": "عاشقشم! خوشمزه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "nicola",
+   "text": "Hot crumble with cold custard! The best! Sprouts — one. Nicola — one hundred points!",
+   "translations": {
+    "fa": "کرامبل گرم با کاستارد سرد! بهترین! کلم بروکسل — یک. نیکولا — صد امتیاز!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

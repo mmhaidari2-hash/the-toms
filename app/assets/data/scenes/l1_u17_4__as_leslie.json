@@ -1,0 +1,410 @@
+{
+ "id": "l1_u17_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A glass of water, please",
+ "titleFa": "(در نقش Leslie) یک لیوان آب، لطفاً",
+ "setting": "Drinks · Level 1",
+ "settingFa": "نوشیدنی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u17_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "drink",
+      "today",
+      "down",
+      "have"
+     ],
+     "suggestion": "It's so hot today! Let's sit down and have a cold drink.",
+     "suggestionFa": "امروز خیلی گرمه! بیا بشینیم و یه نوشیدنی خنک بخوریم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Good idea. I'm really thirsty.",
+   "translations": {
+    "fa": "فکر خوبیه. واقعاً تشنمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "callum",
+   "text": "Hiya! What can I get you?",
+   "translations": {
+    "fa": "سلام! چی براتون بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get",
+     "fa": "آوردن"
+    },
+    {
+     "word": "juice",
+     "fa": "آبمیوه"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Could I have a glass of water, please?",
+   "translations": {
+    "fa": "می‌شه یه لیوان آب داشته باشم، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "callum",
+   "text": "Sure. Tap water is free. Or still or sparkling bottled water?",
+   "translations": {
+    "fa": "حتماً. آب لوله‌کشی رایگانه. یا آب معدنی معمولی یا گازدار؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap water",
+     "fa": "آب لوله‌کشی"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "still",
+     "fa": "بدون گاز"
+    },
+    {
+     "word": "sparkling",
+     "fa": "گازدار"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, places that sell alcohol must give free tap water if you ask. British tap water is safe to drink.",
+    "fa": "آب لوله‌کشی رایگان و سالم است."
+   }
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Tap water is fine, thanks.",
+   "translations": {
+    "fa": "آب لوله‌کشی خوبه، ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "callum",
+   "text": "With ice and lemon?",
+   "translations": {
+    "fa": "با یخ و لیمو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ice",
+     "fa": "یخ"
+    },
+    {
+     "word": "lemon",
+     "fa": "لیمو"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, please. Lots of ice!",
+   "translations": {
+    "fa": "آره، لطفاً. کلی یخ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "callum",
+      "please",
+      "latte",
+      "have"
+     ],
+     "suggestion": "And I'll have an iced latte, please. Callum, is it always this busy?",
+     "suggestionFa": "و من یه لاته سرد می‌خوام، لطفاً. کالوم، همیشه این‌قدر شلوغه؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "It's very busy today!",
+   "translations": {
+    "fa": "امروز خیلی شلوغه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "callum",
+   "text": "It's the sunshine! Twenty-five degrees. That's a heatwave for London!",
+   "translations": {
+    "fa": "به‌خاطر آفتابه! بیست و پنج درجه. برای لندن این موج گرماست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sunshine",
+     "fa": "آفتاب"
+    },
+    {
+     "word": "degrees",
+     "fa": "درجه"
+    },
+    {
+     "word": "heatwave",
+     "fa": "موج گرما"
+    },
+    {
+     "word": "normal",
+     "fa": "عادی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Britain uses Celsius for weather, but older people sometimes talk in Fahrenheit for hot days.",
+    "fa": "سلسیوس رایج است."
+   }
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Twenty-five is not hot in Iran!",
+   "translations": {
+    "fa": "بیست و پنج تو ایران گرم نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "callum",
+   "text": "Lucky you! Here you are: water with ice, and an iced latte. That's three pounds twenty.",
+   "translations": {
+    "fa": "خوش به حالت! بفرما: آب با یخ، و یه لاته سرد. سه پوند و بیست میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lucky you",
+     "fa": "خوش به حالت"
+    },
+    {
+     "word": "pay",
+     "fa": "پرداخت کردن"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Can I pay by card?",
+   "translations": {
+    "fa": "می‌تونم با کارت حساب کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "callum",
+      "treat",
+      "next",
+      "time"
+     ],
+     "suggestion": "No, no, my treat! You can buy next time. Thanks, Callum!",
+     "suggestionFa": "نه نه، مهمون من! دفعهٔ بعد تو بخر. ممنون کالوم!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Thank you, Leslie. That's kind.",
+   "translations": {
+    "fa": "ممنون لزلی. لطف داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "that's",
+      "better",
+      "cheers",
+      "drink"
+     ],
+     "suggestion": "Ahh, that's better. Nothing beats a cold drink on a hot day. Cheers!",
+     "suggestionFa": "آه، بهتر شد. هیچی مثل یه نوشیدنی خنک تو یه روز گرم نیست. به سلامتی!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

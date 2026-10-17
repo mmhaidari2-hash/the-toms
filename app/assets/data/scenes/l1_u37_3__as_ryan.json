@@ -1,0 +1,225 @@
+{
+ "id": "l1_u37_3__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Films and popcorn",
+ "titleFa": "(در نقش Ryan) فیلم و پاپ‌کورن",
+ "setting": "Rainy day · Level 1",
+ "settingFa": "روز بارانی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u37_3",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raining",
+      "still",
+      "bored",
+      "don't",
+      "watch"
+     ],
+     "suggestion": "It's still raining. I'm bored. Why don't we watch a film?",
+     "suggestionFa": "هنوز داره بارون میاد. حوصله‌م سر رفته. چرا فیلم نبینیم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Good idea. Which film?",
+   "translations": {
+    "fa": "فکر خوبیه. کدوم فیلم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "nicola",
+      "better",
+      "action",
+      "cheats"
+     ],
+     "suggestion": "Board games? Nicola cheats at everything! A film is better. How about an action film?",
+     "suggestionFa": "بازی رومیزی؟ نیکولا تو همه چی تقلب می‌کنه! فیلم بهتره. یه فیلم اکشن چطوره؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I like action films.",
+   "translations": {
+    "fa": "فیلم اکشن دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fiftieth",
+      "nicola",
+      "frozen",
+      "wants",
+      "right"
+     ],
+     "suggestion": "Ugh, you're right. Nicola wants Frozen. Again. Fiftieth time!",
+     "suggestionFa": "اوف، راست میگی. نیکولا فروزن می‌خواد. دوباره. پنجاهمین بار!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Why don't we watch Paddington?",
+   "translations": {
+    "fa": "چرا پدینگتون نبینیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paddington",
+      "everyone",
+      "likes",
+      "cries",
+      "even"
+     ],
+     "suggestion": "Paddington! Yes. Everyone likes Paddington. Even Dad cries at the end.",
+     "suggestionFa": "پدینگتون! آره. همه پدینگتون دوست دارن. حتی بابا آخرش گریه می‌کنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Tom cries? Really?",
+   "translations": {
+    "fa": "تام گریه می‌کنه؟ واقعاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "popcorn",
+      "shall",
+      "salty",
+      "every",
+      "sweet"
+     ],
+     "suggestion": "Every time! Shall we make popcorn? Sweet or salty?",
+     "suggestionFa": "هر بار! پاپ‌کورن درست کنیم؟ شیرین یا شور؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Salty, please.",
+   "translations": {
+    "fa": "شور، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "upstairs",
+      "genius",
+      "let's",
+      "duvet",
+      "both"
+     ],
+     "suggestion": "Both! You're a genius. And let's get the duvet from upstairs. Duvet day!",
+     "suggestionFa": "هر دو! نابغه‌ای. و بیا لحاف را از بالا بیاریم. روز لحاف!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What's a duvet day?",
+   "translations": {
+    "fa": "روز لحاف یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "duvet",
+      "about",
+      "thing",
+      "under"
+     ],
+     "suggestion": "Lazy day on the sofa, under a duvet. Best thing about rain! Nicola! Film time!",
+     "suggestionFa": "روز تنبلی رو مبل، زیر لحاف. بهترین چیز بارون! نیکولا! وقت فیلمه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Turn off the lights!",
+   "translations": {
+    "fa": "چراغ‌ها را خاموش کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "popcorn",
+      "lights",
+      "phones",
+      "press",
+      "ready"
+     ],
+     "suggestion": "Lights off, popcorn ready, phones away. Wait — Mum said phones away? Fine. Press play!",
+     "suggestionFa": "چراغ‌ها خاموش، پاپ‌کورن آماده، گوشی‌ها کنار. صبر کن — مامان گفت گوشی‌ها کنار؟ باشه. پلی را بزن!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

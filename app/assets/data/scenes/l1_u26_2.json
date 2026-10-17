@@ -1,0 +1,414 @@
+{
+ "id": "l1_u26_2",
+ "characterId": "nicola",
+ "title": "The playground",
+ "titleFa": "زمین بازی",
+ "setting": "Out for a walk · Level 1",
+ "settingFa": "پیاده‌روی",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "The playground! Come on! Push me on the swing, please!",
+   "translations": {
+    "fa": "زمین بازی! بیا! هلم بده روی تاب، لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tight",
+      "hold",
+      "ok"
+     ],
+     "suggestion": "OK. Hold on tight!",
+     "suggestionFa": "باشه. محکم بگیر!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "higher",
+      "lower"
+     ],
+     "suggestion": "Higher or lower?",
+     "suggestionFa": "بالاتر یا پایین‌تر؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "playground",
+     "fa": "زمین بازی"
+    },
+    {
+     "word": "push",
+     "fa": "هل دادن"
+    },
+    {
+     "word": "swing",
+     "fa": "تاب"
+    },
+    {
+     "word": "hold on",
+     "fa": "محکم گرفتن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Higher! Higher! I'm flying!",
+   "translations": {
+    "fa": "بالاتر! بالاتر! دارم پرواز می‌کنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "not",
+      "too"
+     ],
+     "suggestion": "Not too high!",
+     "suggestionFa": "نه خیلی بالا!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wow"
+     ],
+     "suggestion": "Wow, you're very high!",
+     "suggestionFa": "وای، خیلی بالایی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "higher",
+     "fa": "بالاتر"
+    },
+    {
+     "word": "flying",
+     "fa": "پرواز کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Now the slide! Watch me. I'm going up the ladder… and down the slide! Wheee!",
+   "translations": {
+    "fa": "حالا سرسره! منو ببین. دارم از نردبون می‌رم بالا… و از سرسره می‌آم پایین! وییی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant"
+     ],
+     "suggestion": "Brilliant!",
+     "suggestionFa": "عالی!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "again",
+      "down",
+      "up"
+     ],
+     "suggestion": "Again! Up and down!",
+     "suggestionFa": "دوباره! بالا و پایین!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slide",
+     "fa": "سرسره"
+    },
+    {
+     "word": "up",
+     "fa": "بالا"
+    },
+    {
+     "word": "ladder",
+     "fa": "نردبان"
+    },
+    {
+     "word": "down",
+     "fa": "پایین"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Now you go on the slide! Go on!",
+   "translations": {
+    "fa": "حالا تو برو رو سرسره! برو دیگه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "big"
+     ],
+     "suggestion": "I'm too big!",
+     "suggestionFa": "خیلی بزرگم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "once",
+      "just",
+      "ok"
+     ],
+     "suggestion": "OK, just once!",
+     "suggestionFa": "باشه، فقط یه بار!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too big",
+     "fa": "خیلی بزرگ"
+    },
+    {
+     "word": "once",
+     "fa": "یک بار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i am too much big",
+      "i too big"
+     ],
+     "echo": "You're too big? No you're not!",
+     "better": "I'm too big!",
+     "betterFa": "خیلی بزرگم!"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Ha ha ha! You got stuck! You're too big!",
+   "translations": {
+    "fa": "ها ها ها! گیر کردی! خیلی بزرگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "pull",
+      "out"
+     ],
+     "suggestion": "Help! Pull me out!",
+     "suggestionFa": "کمک! منو بکش بیرون!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "told"
+     ],
+     "suggestion": "I told you!",
+     "suggestionFa": "بهت گفتم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stuck",
+     "fa": "گیر کرده"
+    },
+    {
+     "word": "pull out",
+     "fa": "بیرون کشیدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Now let's go through the tunnel. Can you crawl?",
+   "translations": {
+    "fa": "حالا بیا از تونل رد بشیم. می‌تونی چهار دست و پا بری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "through",
+      "tunnel",
+      "try"
+     ],
+     "suggestion": "Through the tunnel? I'll try.",
+     "suggestionFa": "از تونل؟ امتحان می‌کنم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wait",
+      "end"
+     ],
+     "suggestion": "I'll wait at the end.",
+     "suggestionFa": "من آخرش منتظر می‌مونم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "through",
+     "fa": "از میان"
+    },
+    {
+     "word": "tunnel",
+     "fa": "تونل"
+    },
+    {
+     "word": "crawl",
+     "fa": "چهار دست و پا رفتن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Then over the bridge and onto the climbing frame! Follow me!",
+   "translations": {
+    "fa": "بعد از روی پل و رو داربست بازی! دنبالم بیا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wait"
+     ],
+     "suggestion": "Wait for me!",
+     "suggestionFa": "صبر کن منم بیام!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "bridge"
+     ],
+     "suggestion": "Be careful on the bridge!",
+     "suggestionFa": "رو پل مواظب باش!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "over",
+     "fa": "از روی"
+    },
+    {
+     "word": "bridge",
+     "fa": "پل"
+    },
+    {
+     "word": "climbing frame",
+     "fa": "داربست بازی ؛ میله بالارونده"
+    },
+    {
+     "word": "follow",
+     "fa": "دنبال کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"climbing frame\", American \"jungle gym\".",
+    "fa": "climbing frame/jungle gym."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "I'm at the top! I'm the queen of the castle! You're the dirty rascal!",
+   "translations": {
+    "fa": "من بالام! من ملکهٔ قلعه‌ام! تو بچه‌شیطونِ کثیفی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mean",
+      "ha"
+     ],
+     "suggestion": "Ha ha! What does that mean?",
+     "suggestionFa": "ها ها! یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "king",
+      "can"
+     ],
+     "suggestion": "Can I be the king?",
+     "suggestionFa": "می‌تونم شاه باشم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "top",
+     "fa": "بالا ؛ قله"
+    },
+    {
+     "word": "queen",
+     "fa": "ملکه"
+    },
+    {
+     "word": "castle",
+     "fa": "قلعه"
+    },
+    {
+     "word": "rascal",
+     "fa": "شیطان ؛ بازیگوش"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"I'm the king of the castle, and you're the dirty rascal!\" is an old British playground rhyme.",
+    "fa": "شعر قدیمی زمین بازی."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "It's a game! Now the roundabout. You push, I spin. Then ice cream!",
+   "translations": {
+    "fa": "یه بازیه! حالا چرخ‌وفلک. تو هل بده، من می‌چرخم. بعد بستنی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

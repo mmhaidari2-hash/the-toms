@@ -1,0 +1,375 @@
+{
+ "id": "l1_u18_3",
+ "characterId": "tom",
+ "title": "Beans on toast",
+ "titleFa": "لوبیا روی نان تست",
+ "setting": "Lunchtime · Level 1",
+ "settingFa": "وقت ناهار",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "I'm starving! It's one o'clock. What shall we have for lunch?",
+   "translations": {
+    "fa": "دارم از گرسنگی می‌میرم! ساعت یکه. ناهار چی بخوریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridge",
+      "what's",
+      "hungry"
+     ],
+     "suggestion": "I'm hungry too. What's in the fridge?",
+     "suggestionFa": "منم گرسنه‌ام. تو یخچال چی هست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "let's",
+      "quick",
+      "have"
+     ],
+     "suggestion": "Let's have something quick.",
+     "suggestionFa": "بیا یه چیز سریع بخوریم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "starving",
+     "fa": "خیلی گرسنه"
+    },
+    {
+     "word": "hungry",
+     "fa": "گرسنه"
+    },
+    {
+     "word": "quick",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
+   "translations": {
+    "fa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "never"
+     ],
+     "suggestion": "No, never.",
+     "suggestionFa": "نه، هیچ‌وقت.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "love"
+     ],
+     "suggestion": "Yes, I love it!",
+     "suggestionFa": "آره، عاشقشم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "beans",
+     "fa": "لوبیا"
+    },
+    {
+     "word": "toast",
+     "fa": "نان تست"
+    },
+    {
+     "word": "tried",
+     "fa": "امتحان کرده"
+    }
+   ],
+   "cultureNote": {
+    "en": "Baked beans in tomato sauce on toast is a cheap, quick, classic British meal.",
+    "fa": "لوبیا روی نان تست غذای ساده و کلاسیک است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "You'll love it. Can you open the tin? The tin opener is in the drawer.",
+   "translations": {
+    "fa": "عاشقش می‌شی. قوطی را باز می‌کنی؟ دربازکن تو کشوئه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "one"
+     ],
+     "suggestion": "This one?",
+     "suggestionFa": "این یکی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "opener",
+      "ring",
+      "pull"
+     ],
+     "suggestion": "It's a ring pull. No opener!",
+     "suggestionFa": "درش حلقه داره. دربازکن نمی‌خواد!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tin",
+     "fa": "قوطی"
+    },
+    {
+     "word": "tin opener",
+     "fa": "دربازکن"
+    },
+    {
+     "word": "ring pull",
+     "fa": "درِ حلقه‌دار"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"tin\", American \"can\".",
+    "fa": "tin/can."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
+   "translations": {
+    "fa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slices",
+      "please",
+      "two"
+     ],
+     "suggestion": "Two slices, please.",
+     "suggestionFa": "دو تیکه، لطفاً.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "one"
+     ],
+     "suggestion": "One is enough for me.",
+     "suggestionFa": "برای من یکی کافیه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pan",
+     "fa": "تابه"
+    },
+    {
+     "word": "toaster",
+     "fa": "توستر"
+    },
+    {
+     "word": "slices",
+     "fa": "برش‌ها"
+    },
+    {
+     "word": "each",
+     "fa": "هر کدام"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Stir the beans, please. Don't let them burn!",
+   "translations": {
+    "fa": "لوبیا را هم بزن، لطفاً. نذار بسوزه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stirring",
+      "bubbling",
+      "they're"
+     ],
+     "suggestion": "I'm stirring. They're bubbling!",
+     "suggestionFa": "دارم هم می‌زنم. داره قل می‌زنه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "hot"
+     ],
+     "suggestion": "Is it hot enough?",
+     "suggestionFa": "به اندازهٔ کافی داغه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stir",
+     "fa": "هم زدن"
+    },
+    {
+     "word": "burn",
+     "fa": "سوختن"
+    },
+    {
+     "word": "bubbling",
+     "fa": "قل زدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
+   "translations": {
+    "fa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheese",
+      "please",
+      "lots"
+     ],
+     "suggestion": "Yes, please! Lots of cheese.",
+     "suggestionFa": "آره، لطفاً! کلی پنیر.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "beans",
+      "just"
+     ],
+     "suggestion": "No, thanks. Just beans.",
+     "suggestionFa": "نه، ممنون. فقط لوبیا.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on top",
+     "fa": "روی آن"
+    },
+    {
+     "word": "lots of",
+     "fa": "خیلی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i want with cheese",
+      "yes cheese i want"
+     ],
+     "echo": "With cheese? Good choice!",
+     "better": "Yes, with cheese, please.",
+     "betterFa": "آره، با پنیر، لطفاً."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
+   "translations": {
+    "fa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "mmm"
+     ],
+     "suggestion": "Mmm! It's delicious!",
+     "suggestionFa": "ممم! خوشمزه‌ست!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strange",
+      "good",
+      "but",
+      "bit"
+     ],
+     "suggestion": "It's a bit strange, but good!",
+     "suggestionFa": "یه کم عجیبه، ولی خوبه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "secret",
+     "fa": "راز"
+    },
+    {
+     "word": "brown sauce",
+     "fa": "سس قهوه‌ای"
+    },
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits argue about \"red sauce\" (ketchup) or \"brown sauce\" (HP) — it's a fun debate.",
+    "fa": "سس قرمز یا قهوه‌ای؛ بحث همیشگی."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
+   "translations": {
+    "fa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

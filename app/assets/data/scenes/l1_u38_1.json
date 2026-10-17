@@ -1,0 +1,347 @@
+{
+ "id": "l1_u38_1",
+ "characterId": "nicola",
+ "title": "Making a card",
+ "titleFa": "درست کردن کارت",
+ "setting": "Birthdays · Level 1",
+ "settingFa": "تولدها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "It's Daddy's birthday tomorrow! I'm making him a card. It's a secret!",
+   "translations": {
+    "fa": "فردا تولد باباست! دارم براش کارت درست می‌کنم. رازه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "won't",
+      "tell",
+      "him"
+     ],
+     "suggestion": "I won't tell him.",
+     "suggestionFa": "بهش نمیگم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nice",
+      "idea"
+     ],
+     "suggestion": "What a nice idea!",
+     "suggestionFa": "چه فکر قشنگی!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "secret",
+     "fa": "راز"
+    },
+    {
+     "word": "tomorrow",
+     "fa": "فردا"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "I'm drawing a bus on the front. Daddy's bus! Can you help me with the words?",
+   "translations": {
+    "fa": "دارم رو جلوش یه اتوبوس می‌کشم. اتوبوس بابا! تو کلمه‌ها کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "want",
+      "say"
+     ],
+     "suggestion": "Of course. What do you want to say?",
+     "suggestionFa": "البته. می‌خوای چی بگی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "daddy",
+      "start"
+     ],
+     "suggestion": "Start with \"To Daddy\".",
+     "suggestionFa": "با «به بابا» شروع کن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "front",
+     "fa": "جلو ؛ رو"
+    },
+    {
+     "word": "words",
+     "fa": "کلمه‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "\"To Daddy\". Then \"Happy Birthday\". How do you spell \"birthday\"?",
+   "translations": {
+    "fa": "«به بابا». بعد «تولدت مبارک». «برث‌دی» را چطوری می‌نویسن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "y",
+      "r",
+      "b",
+      "t"
+     ],
+     "suggestion": "B-I-R-T-H-D-A-Y.",
+     "suggestionFa": "بی-آی-آر-تی-اچ-دی-ای-وای.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "words",
+      "birth",
+      "small",
+      "two"
+     ],
+     "suggestion": "Birth… day. Two small words!",
+     "suggestionFa": "برث… دی. دو تا کلمهٔ کوچیک!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Done! Then what? Mummy writes \"Love from\" at the end.",
+   "translations": {
+    "fa": "تموم شد! بعد چی؟ مامان آخرش می‌نویسه «با عشق از طرف»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "write",
+      "from",
+      "love"
+     ],
+     "suggestion": "Write \"Love from Nicola\".",
+     "suggestionFa": "بنویس «با عشق، نیکولا».",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kisses",
+      "some",
+      "add",
+      "x"
+     ],
+     "suggestion": "Add some kisses. X X X.",
+     "suggestionFa": "چندتا بوس اضافه کن. X X X.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "love from",
+     "fa": "با عشق از طرف"
+    },
+    {
+     "word": "kisses",
+     "fa": "بوسه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British cards and texts, \"x\" means a kiss. People often sign \"Love from… xx\".",
+    "fa": "x یعنی بوسه."
+   },
+   "recasts": [
+    {
+     "match": [
+      "love of nicola",
+      "with love nicola from"
+     ],
+     "echo": "\"Love from Nicola\"? Perfect!",
+     "better": "Love from Nicola.",
+     "betterFa": "با عشق، نیکولا."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "X X X X X! Lots of kisses! Should I write a joke? Daddy loves jokes.",
+   "translations": {
+    "fa": "X X X X X! کلی بوس! یه جوک بنویسم؟ بابا عاشق جوکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "joke"
+     ],
+     "suggestion": "Yes! What joke?",
+     "suggestionFa": "آره! چه جوکی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "terrible",
+      "jokes",
+      "his"
+     ],
+     "suggestion": "His jokes are terrible!",
+     "suggestionFa": "جوک‌هاش افتضاحه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "joke",
+     "fa": "جوک"
+    },
+    {
+     "word": "terrible",
+     "fa": "افتضاح"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "\"What's a bus driver's favourite food? Bus-ghetti!\" I made it up!",
+   "translations": {
+    "fa": "«غذای محبوب راننده اتوبوس چیه؟ باس-گتی!» خودم ساختمش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "funny",
+      "ha"
+     ],
+     "suggestion": "Ha! Very funny.",
+     "suggestionFa": "ها! خیلی بامزه‌ست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "daddy's",
+      "that's",
+      "jokes",
+      "bad"
+     ],
+     "suggestion": "That's as bad as Daddy's jokes!",
+     "suggestionFa": "به بدی جوک‌های باباته!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "made it up",
+     "fa": "از خودم ساختم"
+    },
+    {
+     "word": "funny",
+     "fa": "خنده‌دار"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "I KNOW! He'll love it! Can you write your name too? It's from both of us.",
+   "translations": {
+    "fa": "می‌دونم! عاشقش میشه! اسم خودت را هم می‌نویسی؟ از طرف هر دومونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "from",
+      "love",
+      "ok"
+     ],
+     "suggestion": "OK. \"Love from {you}.\"",
+     "suggestionFa": "باشه. «با عشق، {you}».",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "under",
+      "yours",
+      "name"
+     ],
+     "suggestion": "Here's my name, under yours.",
+     "suggestionFa": "اینم اسمم، زیر اسم تو.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "both",
+     "fa": "هر دو"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Now the envelope. I'm hiding it under my bed. Shh! Don't tell Daddy. Pinky promise!",
+   "translations": {
+    "fa": "حالا پاکت. زیر تختم قایمش می‌کنم. هیس! به بابا نگو. قول انگشت کوچیکه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

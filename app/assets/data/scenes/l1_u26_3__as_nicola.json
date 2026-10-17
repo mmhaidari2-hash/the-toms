@@ -1,0 +1,224 @@
+{
+ "id": "l1_u26_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Puddle jumping",
+ "titleFa": "(در نقش Nicola) پریدن در چاله آب",
+ "setting": "Out for a walk · Level 1",
+ "settingFa": "پیاده‌روی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u26_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "puddles",
+      "stopped",
+      "look",
+      "rain",
+      "jump"
+     ],
+     "suggestion": "Look! Big puddles! The rain stopped. Can we jump in them?",
+     "suggestionFa": "ببین! چاله‌های آب بزرگ! بارون بند اومد. می‌تونیم توشون بپریم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Have you got your wellies on?",
+   "translations": {
+    "fa": "چکمه‌هات پاته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wellies",
+      "splash",
+      "ready",
+      "three",
+      "one"
+     ],
+     "suggestion": "Yes! Wellies on! Ready? One, two, three… SPLASH!",
+     "suggestionFa": "آره! چکمه پامه! آماده‌ای؟ یک، دو، سه… شلپ!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What a big splash!",
+   "translations": {
+    "fa": "چه شلپ بزرگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "peppa",
+      "jump",
+      "like",
+      "pig",
+      "one"
+     ],
+     "suggestion": "Like Peppa Pig! Now you jump! In the big one!",
+     "suggestionFa": "مثل پپا پیگ! حالا تو بپر! تو اون بزرگه!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "OK. Here I go… SPLASH!",
+   "translations": {
+    "fa": "باشه. اومدم… شلپ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "trousers",
+      "muddy",
+      "mess",
+      "ha"
+     ],
+     "suggestion": "Ha ha ha! Your trousers are muddy! What a mess!",
+     "suggestionFa": "ها ها ها! شلوارت گِلی شد! چه افتضاحی!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Oh no! Very muddy!",
+   "translations": {
+    "fa": "وای نه! خیلی گلی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rainbow",
+      "there",
+      "trees",
+      "above",
+      "look"
+     ],
+     "suggestion": "Look! A rainbow! Over there, above the trees!",
+     "suggestionFa": "ببین! رنگین‌کمون! اونجا، بالای درخت‌ها!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "What a beautiful rainbow!",
+   "translations": {
+    "fa": "چه رنگین‌کمون قشنگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "purple",
+      "yellow",
+      "orange",
+      "green",
+      "blue"
+     ],
+     "suggestion": "Red, orange, yellow, green, blue… and purple! Six!",
+     "suggestionFa": "قرمز، نارنجی، زرد، سبز، آبی… و بنفش! شش تا!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "There are seven colours.",
+   "translations": {
+    "fa": "هفت تا رنگ هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wellies",
+      "inside",
+      "seven",
+      "socks",
+      "brrr"
+     ],
+     "suggestion": "Seven! Brrr. I'm cold now. My socks are wet inside my wellies.",
+     "suggestionFa": "هفت تا! بررر. الان سردمه. جوراب‌هام تو چکمه خیس شدن.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Oh no! Let's go home.",
+   "translations": {
+    "fa": "وای نه! بیا بریم خونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "jumped",
+      "let's",
+      "silly",
+      "warm"
+     ],
+     "suggestion": "Yes! I jumped too high! Silly me! Let's go home for a warm bath and hot chocolate!",
+     "suggestionFa": "آره! خیلی بالا پریدم! چه خنگم! بیا بریم خونه یه حموم گرم و هات چاکلت!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

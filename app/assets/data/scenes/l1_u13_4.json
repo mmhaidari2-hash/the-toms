@@ -1,0 +1,419 @@
+{
+ "id": "l1_u13_4",
+ "characterId": "leslie",
+ "title": "Animals at the farm",
+ "titleFa": "حیوانات مزرعه",
+ "setting": "Pets and animals · Level 1",
+ "settingFa": "حیوانات خانگی و حیوانات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Welcome to the city farm! It's right here in Hackney. What can you see?",
+   "translations": {
+    "fa": "به مزرعهٔ شهری خوش اومدی! همین‌جا تو هاکنیه. چی می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sheep",
+      "goats",
+      "see",
+      "can"
+     ],
+     "suggestion": "I can see sheep and goats.",
+     "suggestionFa": "گوسفند و بز می‌بینم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "pig",
+      "big"
+     ],
+     "suggestion": "There's a big pig!",
+     "suggestionFa": "یه خوک بزرگ هست!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "farm",
+     "fa": "مزرعه"
+    },
+    {
+     "word": "sheep",
+     "fa": "گوسفند"
+    },
+    {
+     "word": "goats",
+     "fa": "بزها"
+    },
+    {
+     "word": "pig",
+     "fa": "خوک"
+    }
+   ],
+   "cultureNote": {
+    "en": "London has several free \"city farms\" where children can meet farm animals.",
+    "fa": "لندن مزرعه‌های شهری رایگان دارد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Yes! That's Doris the pig. She's very old. What does a pig say?",
+   "translations": {
+    "fa": "آره! اون دوریس خوکه. خیلی پیره. خوک چی می‌گه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oink"
+     ],
+     "suggestion": "Oink oink!",
+     "suggestionFa": "خرخر!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "don't",
+      "know"
+     ],
+     "suggestion": "In English? I don't know.",
+     "suggestionFa": "به انگلیسی؟ نمی‌دونم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "old",
+     "fa": "پیر"
+    },
+    {
+     "word": "say",
+     "fa": "گفتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Oink! And a cow says \"moo\". What does a sheep say?",
+   "translations": {
+    "fa": "خرخر! و گاو می‌گه «ما». گوسفند چی می‌گه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "baa"
+     ],
+     "suggestion": "Baa! Baa!",
+     "suggestionFa": "بع! بع!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "same"
+     ],
+     "suggestion": "Is it the same in Persian?",
+     "suggestionFa": "فارسی‌اش هم همینه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cow",
+     "fa": "گاو"
+    },
+    {
+     "word": "moo",
+     "fa": "ما (صدای گاو)"
+    },
+    {
+     "word": "baa",
+     "fa": "بع"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Well done! Look, William loves the chickens. Chickens can't fly very well.",
+   "translations": {
+    "fa": "آفرین! ببین، ویلیام عاشق مرغ‌هاست. مرغ‌ها خوب نمی‌تونن پرواز کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "they"
+     ],
+     "suggestion": "Can they fly a little?",
+     "suggestionFa": "یه کم می‌تونن پرواز کنن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chickens",
+      "ducks",
+      "can't",
+      "but"
+     ],
+     "suggestion": "Ducks can fly, but chickens can't.",
+     "suggestionFa": "اردک‌ها پرواز می‌کنن، ولی مرغ‌ها نه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chickens",
+     "fa": "مرغ‌ها"
+    },
+    {
+     "word": "fly",
+     "fa": "پرواز کردن"
+    },
+    {
+     "word": "can't",
+     "fa": "نمی‌توانند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Just a little. Would you like to feed the goats? It's one pound for a bag.",
+   "translations": {
+    "fa": "فقط یه کم. می‌خوای به بزها غذا بدی؟ یه کیسه یه پونده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "please",
+      "pound"
+     ],
+     "suggestion": "Yes, please. Here's a pound.",
+     "suggestionFa": "آره، لطفاً. این یه پوند.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "goats",
+      "bite"
+     ],
+     "suggestion": "Do goats bite?",
+     "suggestionFa": "بزها گاز می‌گیرن؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "feed",
+     "fa": "غذا دادن"
+    },
+    {
+     "word": "pound",
+     "fa": "پوند"
+    },
+    {
+     "word": "bite",
+     "fa": "گاز گرفتن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "No, they don't bite. But they eat everything! Watch your coat!",
+   "translations": {
+    "fa": "نه، گاز نمی‌گیرن. ولی همه چی می‌خورن! مواظب کتت باش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeve",
+      "eating",
+      "he's",
+      "oh"
+     ],
+     "suggestion": "Oh no! He's eating my sleeve!",
+     "suggestionFa": "وای نه! داره آستینم را می‌خوره!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "naughty",
+      "goat",
+      "ha"
+     ],
+     "suggestion": "Ha ha! Naughty goat!",
+     "suggestionFa": "ها ها! بز شیطون!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "everything",
+     "fa": "همه چیز"
+    },
+    {
+     "word": "coat",
+     "fa": "کت"
+    },
+    {
+     "word": "sleeve",
+     "fa": "آستین"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "he eat my coat",
+      "he is eat my coat"
+     ],
+     "echo": "He's eating your coat? Oh dear!",
+     "better": "He's eating my coat!",
+     "betterFa": "داره کتم را می‌خوره!"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Look over there! A horse. Do you like horses?",
+   "translations": {
+    "fa": "اونجا را ببین! یه اسب. اسب دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "horses",
+      "love"
+     ],
+     "suggestion": "Yes, I love horses.",
+     "suggestionFa": "آره، عاشق اسبم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "they're",
+      "big",
+      "but"
+     ],
+     "suggestion": "They're beautiful, but very big.",
+     "suggestionFa": "قشنگن، ولی خیلی بزرگن.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "over there",
+     "fa": "آنجا"
+    },
+    {
+     "word": "horse",
+     "fa": "اسب"
+    },
+    {
+     "word": "beautiful",
+     "fa": "زیبا"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Now we must wash our hands. Always wash your hands at a farm!",
+   "translations": {
+    "fa": "حالا باید دستامون را بشوریم. تو مزرعه همیشه دستات را بشور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "sink",
+      "ok"
+     ],
+     "suggestion": "OK. Where's the sink?",
+     "suggestionFa": "باشه. سینک کجاست؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cream",
+      "good",
+      "then",
+      "idea"
+     ],
+     "suggestion": "Good idea. Then an ice cream?",
+     "suggestionFa": "فکر خوبیه. بعد یه بستنی؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wash",
+     "fa": "شستن"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    },
+    {
+     "word": "ice cream",
+     "fa": "بستنی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Yes, an ice cream at the café! William wants to say goodbye to Doris the pig first. Bye, Doris!",
+   "translations": {
+    "fa": "آره، یه بستنی تو کافه! ویلیام اول می‌خواد با دوریس خوکه خداحافظی کنه. خداحافظ دوریس!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

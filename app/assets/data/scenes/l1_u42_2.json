@@ -1,0 +1,360 @@
+{
+ "id": "l1_u42_2",
+ "characterId": "maya",
+ "title": "By train",
+ "titleFa": "با قطار",
+ "setting": "Transport words · Level 1",
+ "settingFa": "واژه‌های حمل‌ونقل",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Hiya! Are you new on this line? You look a bit lost.",
+   "translations": {
+    "fa": "سلام! تو این خط تازه‌کاری؟ یه کم گم‌شده به نظر میای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "highbury",
+      "train"
+     ],
+     "suggestion": "Yes. Is this the train to Highbury?",
+     "suggestionFa": "آره. این قطار هایبریه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stratford",
+      "platform",
+      "going",
+      "which"
+     ],
+     "suggestion": "I'm going to Stratford. Which platform?",
+     "suggestionFa": "دارم میرم استراتفورد. کدوم سکو؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "line",
+     "fa": "خط"
+    },
+    {
+     "word": "lost",
+     "fa": "گم‌شده"
+    },
+    {
+     "word": "platform",
+     "fa": "سکو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "This is the Overground. Platform one for Stratford, platform two for Highbury.",
+   "translations": {
+    "fa": "این اورگراونده. سکوی یک برای استراتفورد، سکوی دو برای هایبری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "platform",
+      "thank",
+      "one"
+     ],
+     "suggestion": "Platform one. Thank you.",
+     "suggestionFa": "سکوی یک. ممنون.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "overground",
+      "what's"
+     ],
+     "suggestion": "What's the Overground?",
+     "suggestionFa": "اورگراوند چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Overground",
+     "fa": "قطار شهری روی زمین لندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "The London Overground is the orange train line. Like the Tube, you can tap in with contactless.",
+    "fa": "اورگراوند خط نارنجی."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "It's like the Tube, but outside. The orange line. When's your train?",
+   "translations": {
+    "fa": "مثل متروئه، ولی روی زمین. خط نارنجی. قطارت کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "when's",
+      "train",
+      "next"
+     ],
+     "suggestion": "When's the next train?",
+     "suggestionFa": "قطار بعدی کیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "timetable",
+      "there",
+      "don't",
+      "know"
+     ],
+     "suggestion": "I don't know. Is there a timetable?",
+     "suggestionFa": "نمی‌دونم. جدول زمانی هست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Tube",
+     "fa": "متروی لندن"
+    },
+    {
+     "word": "timetable",
+     "fa": "جدول زمانی"
+    },
+    {
+     "word": "next",
+     "fa": "بعدی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "when is next train coming",
+      "when the next train is"
+     ],
+     "echo": "When's the next train? Look at the board!",
+     "better": "When's the next train?",
+     "betterFa": "قطار بعدی کیه؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "Look at the board. Next train in four minutes. Did you tap in?",
+   "translations": {
+    "fa": "به تابلو نگاه کن. قطار بعدی چهار دقیقهٔ دیگه. کارت زدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tapped",
+      "gate"
+     ],
+     "suggestion": "Yes, I tapped in at the gate.",
+     "suggestionFa": "آره، دم گیت کارت زدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forgot",
+      "oh"
+     ],
+     "suggestion": "Oh no! I forgot.",
+     "suggestionFa": "ای وای! یادم رفت.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "board",
+     "fa": "تابلو"
+    },
+    {
+     "word": "tap in",
+     "fa": "زدن کارت هنگام ورود"
+    },
+    {
+     "word": "gate",
+     "fa": "گیت ورودی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "Always tap in and tap out. Or you pay the maximum fare!",
+   "translations": {
+    "fa": "همیشه موقع ورود و خروج کارت بزن. وگرنه بیشترین کرایه را میدی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "tip"
+     ],
+     "suggestion": "Thanks for the tip.",
+     "suggestionFa": "ممنون بابت راهنمایی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maximum",
+      "much",
+      "fare",
+      "how"
+     ],
+     "suggestion": "How much is the maximum fare?",
+     "suggestionFa": "بیشترین کرایه چنده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap out",
+     "fa": "زدن کارت هنگام خروج"
+    },
+    {
+     "word": "maximum",
+     "fa": "بیشترین"
+    },
+    {
+     "word": "tip",
+     "fa": "نکته"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Too much! Mind the gap when you get on. It's a big step.",
+   "translations": {
+    "fa": "خیلی زیاد! موقع سوار شدن حواست به فاصله باشه. پله‌ش بلنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mind",
+      "know",
+      "gap",
+      "one"
+     ],
+     "suggestion": "\"Mind the gap\"! I know that one!",
+     "suggestionFa": "«مراقب فاصله باشید»! اینو بلدم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stratford",
+      "stops",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many stops is Stratford?",
+     "suggestionFa": "تا استراتفورد چند ایستگاهه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mind the gap",
+     "fa": "مواظب فاصله باشید"
+    },
+    {
+     "word": "step",
+     "fa": "پله"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Mind the gap\" — the famous London announcement — warns about the space between the train and the platform.",
+    "fa": "Mind the gap."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "Three stops. About ten minutes. Here it comes! Have a good trip!",
+   "translations": {
+    "fa": "سه ایستگاه. حدود ده دقیقه. داره میاد! سفر خوبی داشته باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "maya"
+     ],
+     "suggestion": "Thanks, Maya!",
+     "suggestionFa": "ممنون مایا!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "busy"
+     ],
+     "suggestion": "Is it always this busy?",
+     "suggestionFa": "همیشه این‌قدر شلوغه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "trip",
+     "fa": "سفر"
+    },
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "maya",
+   "text": "At eight in the morning, yes! Squeeze on. Bye!",
+   "translations": {
+    "fa": "ساعت هشت صبح، آره! خودت را جا کن. خداحافظ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

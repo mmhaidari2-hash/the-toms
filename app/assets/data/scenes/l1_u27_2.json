@@ -1,0 +1,408 @@
+{
+ "id": "l1_u27_2",
+ "characterId": "tom",
+ "title": "Borrowing some milk",
+ "titleFa": "قرض گرفتن کمی شیر",
+ "setting": "Meeting neighbours · Level 1",
+ "settingFa": "آشنایی با همسایه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Oh, hello! What a surprise. Come in! Is everything OK?",
+   "translations": {
+    "fa": "آه، سلام! چه غافلگیری‌ای. بیا تو! همه چی مرتبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bother",
+      "sorry",
+      "tom"
+     ],
+     "suggestion": "Sorry to bother you, Tom.",
+     "suggestionFa": "ببخشید مزاحم شدم تام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "problem",
+      "small",
+      "have",
+      "fine"
+     ],
+     "suggestion": "Yes, fine. But I have a small problem.",
+     "suggestionFa": "آره، خوبه. ولی یه مشکل کوچیک دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surprise",
+     "fa": "غافلگیری"
+    },
+    {
+     "word": "bother",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "problem",
+     "fa": "مشکل"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "No bother at all! What's the problem?",
+   "translations": {
+    "fa": "اصلاً مزاحمتی نیست! مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i've",
+      "tea",
+      "got"
+     ],
+     "suggestion": "I've got no milk for my tea.",
+     "suggestionFa": "برای چایم شیر ندارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "borrow",
+      "please",
+      "could",
+      "some"
+     ],
+     "suggestion": "Could I borrow some milk, please?",
+     "suggestionFa": "می‌تونم یه کم شیر قرض بگیرم، لطفاً؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no bother",
+     "fa": "زحمتی نیست"
+    },
+    {
+     "word": "borrow",
+     "fa": "قرض گرفتن"
+    },
+    {
+     "word": "milk",
+     "fa": "شیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Borrowing milk or sugar from a neighbour is a classic British friendly gesture.",
+    "fa": "قرض گرفتن شیر از همسایه رسم دوستانه است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "can i borrow a milk",
+      "i borrow milk please"
+     ],
+     "echo": "Some milk? Of course!",
+     "better": "Could I borrow some milk, please?",
+     "betterFa": "می‌تونم یه کم شیر قرض بگیرم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Of course! Tea without milk — that's a disaster! How much do you need?",
+   "translations": {
+    "fa": "البته! چای بدون شیر — این یه فاجعه‌ست! چقدر لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "just",
+      "cup",
+      "one"
+     ],
+     "suggestion": "Just a little. For one cup.",
+     "suggestionFa": "فقط یه کم. برای یه فنجون.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "half",
+      "pint"
+     ],
+     "suggestion": "Half a pint, maybe?",
+     "suggestionFa": "شاید نیم پاینت؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "disaster",
+     "fa": "فاجعه"
+    },
+    {
+     "word": "pint",
+     "fa": "پاینت (حدود ۵۷۰ میلی‌لیتر)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Milk in the UK is still sold in pints (568 ml) — one of the few things not in metric.",
+    "fa": "شیر هنوز با پاینت فروخته می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Take the whole bottle. We've got three. Leslie buys too much!",
+   "translations": {
+    "fa": "کل بطری را ببر. سه تا داریم. لزلی زیادی می‌خره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure"
+     ],
+     "suggestion": "Are you sure?",
+     "suggestionFa": "مطمئنی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "much"
+     ],
+     "suggestion": "Thank you so much!",
+     "suggestionFa": "خیلی ممنون!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whole",
+     "fa": "کامل"
+    },
+    {
+     "word": "sure",
+     "fa": "مطمئن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Definitely. Have you got sugar? Tea bags?",
+   "translations": {
+    "fa": "قطعاً. شکر داری؟ چای کیسه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bags",
+      "tea"
+     ],
+     "suggestion": "Yes, I've got tea bags.",
+     "suggestionFa": "آره، چای کیسه‌ای دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "some"
+     ],
+     "suggestion": "I've got some, thanks.",
+     "suggestionFa": "دارم، ممنون.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "definitely",
+     "fa": "قطعاً"
+    },
+    {
+     "word": "sugar",
+     "fa": "شکر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Good. Why didn't you go to the shop? It's open until ten.",
+   "translations": {
+    "fa": "خوبه. چرا نرفتی مغازه؟ تا ده بازه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raining",
+      "tired"
+     ],
+     "suggestion": "It's raining, and I'm tired.",
+     "suggestionFa": "بارون میاد، و خسته‌ام.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "open",
+      "know",
+      "was"
+     ],
+     "suggestion": "I didn't know it was open.",
+     "suggestionFa": "نمی‌دونستم بازه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "open",
+     "fa": "باز"
+    },
+    {
+     "word": "until",
+     "fa": "تا"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Ha! Fair enough. Mr Patel's corner shop never closes. He's like a superhero.",
+   "translations": {
+    "fa": "ها! منطقیه. مغازهٔ سر نبش آقای پاتل هیچ‌وقت نمی‌بنده. مثل ابرقهرمانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "milk",
+      "i'll",
+      "buy"
+     ],
+     "suggestion": "I'll buy you milk tomorrow.",
+     "suggestionFa": "فردا برات شیر می‌خرم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "money",
+      "some",
+      "give",
+      "can"
+     ],
+     "suggestion": "Can I give you some money?",
+     "suggestionFa": "می‌تونم یه کم پول بدم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair enough",
+     "fa": "منطقیه"
+    },
+    {
+     "word": "corner shop",
+     "fa": "مغازهٔ سر نبش"
+    },
+    {
+     "word": "superhero",
+     "fa": "ابرقهرمان"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Don't be silly! That's what neighbours are for. You can bring me a biscuit sometime!",
+   "translations": {
+    "fa": "مسخره نشو! همسایه برای همینه. یه وقتی یه بیسکویت برام بیار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "deal",
+      "tom"
+     ],
+     "suggestion": "Deal! Thanks, Tom.",
+     "suggestionFa": "قبول! ممنون تام.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kind"
+     ],
+     "suggestion": "You're very kind.",
+     "suggestionFa": "خیلی مهربونی.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "silly",
+     "fa": "احمقانه"
+    },
+    {
+     "word": "neighbours",
+     "fa": "همسایه‌ها"
+    },
+    {
+     "word": "deal",
+     "fa": "قبول"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Any time, mate. Enjoy your cuppa! And close the gate — Mrs Khan's cat gets out!",
+   "translations": {
+    "fa": "هر وقت رفیق. چایت نوش جان! و در حیاط را ببند — گربهٔ خانم خان در میره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

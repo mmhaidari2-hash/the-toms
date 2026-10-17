@@ -1,0 +1,340 @@
+{
+ "id": "l1_u28_3",
+ "characterId": "ryan",
+ "title": "Wrong number",
+ "titleFa": "شماره اشتباه",
+ "setting": "Phone basics · Level 1",
+ "settingFa": "مکالمهٔ تلفنی ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "My phone's ringing, but I don't know this number. Can you answer it? I'm scared it's school!",
+   "translations": {
+    "fa": "گوشیم داره زنگ می‌زنه، ولی این شماره را نمی‌شناسم. جواب میدی؟ می‌ترسم مدرسه باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ryan's",
+      "phone",
+      "hello"
+     ],
+     "suggestion": "Hello? Ryan's phone.",
+     "suggestionFa": "الو؟ گوشی رایان.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "give",
+      "ok",
+      "ha"
+     ],
+     "suggestion": "Ha! OK. Give it to me.",
+     "suggestionFa": "ها! باشه. بدش به من.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "number",
+     "fa": "شماره"
+    },
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "courier",
+   "text": "Hello, is that Mrs Patterson? I've got a parcel for you.",
+   "translations": {
+    "fa": "الو، خانم پترسون؟ یه بسته براتون دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "patterson",
+      "there's",
+      "sorry",
+      "here"
+     ],
+     "suggestion": "Sorry, there's no Mrs Patterson here.",
+     "suggestionFa": "ببخشید، اینجا خانم پترسونی نیست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "you've",
+      "wrong",
+      "think"
+     ],
+     "suggestion": "I think you've got the wrong number.",
+     "suggestionFa": "فکر کنم اشتباه گرفتید.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "parcel",
+     "fa": "بسته"
+    },
+    {
+     "word": "wrong number",
+     "fa": "شمارهٔ اشتباه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you have wrong number",
+      "it is wrong number"
+     ],
+     "echo": "The wrong number? Oh, sorry!",
+     "better": "I think you've got the wrong number.",
+     "betterFa": "فکر کنم اشتباه گرفتید."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "courier",
+   "text": "Oh! Is this 07700 900456?",
+   "translations": {
+    "fa": "آه! این ۰۷۷۰۰ ۹۰۰۴۵۶ـه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "it's"
+     ],
+     "suggestion": "No, it's 900465.",
+     "suggestionFa": "نه، ۹۰۰۴۶۵ـه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "numbers",
+      "last"
+     ],
+     "suggestion": "No. The last numbers are different.",
+     "suggestionFa": "نه. شماره‌های آخر فرق دارن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last",
+     "fa": "آخر"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    }
+   ],
+   "cultureNote": {
+    "en": "British mobile numbers start with 07 and have eleven digits.",
+    "fa": "شماره موبایل بریتانیا با ۰۷ شروع می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "courier",
+   "text": "Sorry, mate! I mixed up the numbers. Five and six!",
+   "translations": {
+    "fa": "ببخشید رفیق! شماره‌ها را قاطی کردم. پنج و شش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "problem"
+     ],
+     "suggestion": "No problem! It happens.",
+     "suggestionFa": "مشکلی نیست! پیش میاد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "parcel",
+      "good",
+      "luck"
+     ],
+     "suggestion": "That's OK. Good luck with the parcel!",
+     "suggestionFa": "اشکال نداره. با بسته موفق باشی!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mixed up",
+     "fa": "قاطی کرد"
+    },
+    {
+     "word": "it happens",
+     "fa": "پیش می‌آید"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "courier",
+   "text": "Cheers! Have a good day. Bye!",
+   "translations": {
+    "fa": "ممنون! روز خوبی داشته باشی. خداحافظ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheers",
+      "bye"
+     ],
+     "suggestion": "Cheers, bye!",
+     "suggestionFa": "ممنون، خداحافظ!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mate"
+     ],
+     "suggestion": "You too, mate.",
+     "suggestionFa": "همچنین رفیق.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you too",
+     "fa": "همچنین"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Who was it? Not school? Phew!",
+   "translations": {
+    "fa": "کی بود؟ مدرسه نبود؟ وای خدا را شکر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delivery",
+      "driver",
+      "number",
+      "wrong"
+     ],
+     "suggestion": "No, it was a delivery driver. Wrong number!",
+     "suggestionFa": "نه، یه رانندهٔ پیک بود. اشتباه گرفته بود!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "patterson",
+      "mrs"
+     ],
+     "suggestion": "It was for Mrs Patterson.",
+     "suggestionFa": "برای خانم پترسون بود.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "delivery driver",
+     "fa": "رانندهٔ پیک"
+    },
+    {
+     "word": "phew",
+     "fa": "وای (آسودگی)"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Ha! Mrs Patterson. Lucky her, a parcel. Why are you scared of school calls? I'm not!",
+   "translations": {
+    "fa": "ها! خانم پترسون. خوش به حالش، بسته. چرا از تماس مدرسه می‌ترسی؟ من که نمی‌ترسم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scared",
+      "said",
+      "were"
+     ],
+     "suggestion": "You said you were scared!",
+     "suggestionFa": "خودت گفتی می‌ترسی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "wrong",
+      "ryan",
+      "did"
+     ],
+     "suggestion": "Did you do something wrong, Ryan?",
+     "suggestionFa": "کار بدی کردی رایان؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Me? Never! Well… I forgot my PE kit. Again. Just don't answer if it's school, OK?",
+   "translations": {
+    "fa": "من؟ هرگز! خب… لباس ورزشم را یادم رفت. دوباره. فقط اگه مدرسه بود جواب نده، باشه؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

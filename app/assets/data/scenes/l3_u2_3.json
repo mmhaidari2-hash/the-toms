@@ -21,8 +21,8 @@
      "keywords": [
       "yesterday",
       "face",
-      "bike",
-      "fell"
+      "fell",
+      "bike"
      ],
      "suggestion": "Yes, I fell off my bike yesterday and hit my face.",
      "suggestionFa": "بله، دیروز از دوچرخه افتادم و صورتم ضربه خورد.",
@@ -76,7 +76,7 @@
       "suddenly",
       "cycling",
       "braked",
-      "work"
+      "when"
      ],
      "suggestion": "I was cycling to work when a dog ran out, so I braked suddenly.",
      "suggestionFa": "داشتم دوچرخه‌سواری می‌کردم برم سر کار که یه سگ پرید بیرون، پس یهو ترمز کردم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "eating",
       "toffee",
-      "heard",
-      "apple"
+      "apple",
+      "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "straight",
-      "tooth",
       "loose",
-      "away"
+      "tooth",
+      "felt"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
      "suggestionFa": "نه، ولی دندونم فوراً لق شد.",
@@ -140,10 +140,10 @@
     },
     {
      "keywords": [
-      "some",
       "went",
+      "some",
       "home",
-      "ice"
+      "put"
      ],
      "suggestion": "No. I went home and put some ice on it.",
      "suggestionFa": "نه. رفتم خونه و یخ گذاشتم.",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "much",
       "cost",
-      "nhs",
-      "how"
+      "much",
+      "how",
+      "nhs"
      ],
      "suggestion": "How much will that cost on the NHS?",
      "suggestionFa": "با NHS چقدر هزینه داره؟",

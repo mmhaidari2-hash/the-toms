@@ -1,0 +1,308 @@
+{
+ "id": "l1_u29_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Cake for Nicola",
+ "titleFa": "(در نقش Nicola) کیک برای نیکولا",
+ "setting": "At the café · Level 1",
+ "settingFa": "در کافه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u29_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "choose",
+      "should",
+      "cakes",
+      "which",
+      "mummy"
+     ],
+     "suggestion": "Look at all the cakes! Mummy said I can choose one. Which one should I have?",
+     "suggestionFa": "این همه کیک را ببین! مامان گفت می‌تونم یکی انتخاب کنم. کدوم را بخورم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Which one do you like?",
+   "translations": {
+    "fa": "کدوم را دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "both",
+      "pink",
+      "like",
+      "one"
+     ],
+     "suggestion": "The chocolate one or the pink one? I like both!",
+     "suggestionFa": "شکلاتیه یا صورتیه؟ هر دو را دوست دارم!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What's the pink one?",
+   "translations": {
+    "fa": "صورتیه چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "baker",
+   "text": "The pink one is a Battenberg cake. It's got squares inside. Pink and yellow!",
+   "translations": {
+    "fa": "صورتیه کیک بتنبرگه. داخلش مربع داره. صورتی و زرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squares",
+     "fa": "مربع‌ها"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    }
+   ],
+   "cultureNote": {
+    "en": "Battenberg is a classic British cake with a pink and yellow chequered pattern, wrapped in marzipan.",
+    "fa": "بتنبرگ کیک شطرنجی بریتانیایی است."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Squares inside a cake?",
+   "translations": {
+    "fa": "مربع داخل کیک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "battenberg",
+      "chocolate",
+      "squares",
+      "want",
+      "wait"
+     ],
+     "suggestion": "Squares! I want the Battenberg! No, wait… the chocolate! Hmm.",
+     "suggestionFa": "مربع! بتنبرگ می‌خوام! نه، صبر کن… شکلاتی! هوم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Take your time.",
+   "translations": {
+    "fa": "عجله نکن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "battenberg",
+      "chocolate",
+      "halves",
+      "share",
+      "have"
+     ],
+     "suggestion": "Share? Yes! You have the chocolate, I have the Battenberg. Then we swap halves!",
+     "suggestionFa": "شریک؟ آره! تو شکلاتی را بگیر، من بتنبرگ. بعد نصف‌ها را عوض می‌کنیم!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Good idea!",
+   "translations": {
+    "fa": "فکر خوبیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "baker",
+   "text": "Smart girl! One chocolate cake and one Battenberg. Anything to drink?",
+   "translations": {
+    "fa": "دختر باهوش! یه کیک شکلاتی و یه بتنبرگ. نوشیدنی چیزی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glass",
+     "fa": "لیوان"
+    },
+    {
+     "word": "orange juice",
+     "fa": "آب پرتقال"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "A glass of milk for Nicola.",
+   "translations": {
+    "fa": "یه لیوان شیر برای نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "please",
+      "carry",
+      "tray",
+      "can"
+     ],
+     "suggestion": "Can I carry the tray? Please! I'm careful!",
+     "suggestionFa": "می‌تونم سینی را بیارم؟ لطفاً! حواسم هست!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Use two hands, then.",
+   "translations": {
+    "fa": "پس با دو تا دست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "battenberg",
+      "teamwork",
+      "squares",
+      "yummy",
+      "best"
+     ],
+     "suggestion": "Teamwork! Mmm… the Battenberg is yummy! The pink squares are the best.",
+     "suggestionFa": "کار گروهی! ممم… بتنبرگ خوشمزه‌ست! مربع‌های صورتی بهترینن.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Is it time to swap?",
+   "translations": {
+    "fa": "وقت عوض کردنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squares",
+      "here's",
+      "yellow",
+      "sorry",
+      "half"
+     ],
+     "suggestion": "Here's half! Oh, I ate the pink squares. You can have the yellow ones! Sorry! Ha ha!",
+     "suggestionFa": "بیا نصفش! آه، مربع‌های صورتی را خوردم. تو زردها را بخور! ببخشید! ها ها!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

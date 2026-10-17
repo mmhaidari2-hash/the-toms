@@ -1,0 +1,249 @@
+{
+ "id": "l1_u25_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Shirt or jumper?",
+ "titleFa": "(در نقش Leslie) پیراهن یا ژاکت؟",
+ "setting": "Getting dressed · Level 1",
+ "settingFa": "لباس پوشیدن",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u25_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "interview",
+      "you've",
+      "today",
+      "going",
+      "wear"
+     ],
+     "suggestion": "You've got a job interview today! Big day! What are you going to wear?",
+     "suggestionFa": "امروز مصاحبهٔ کاری داری! روز بزرگیه! قراره چی بپوشی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I don't know. Can you help me?",
+   "translations": {
+    "fa": "نمی‌دونم. کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "let's",
+      "see",
+      "job"
+     ],
+     "suggestion": "Let's see. Is it an office job?",
+     "suggestionFa": "ببینیم. کار دفتریه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, in a big office.",
+   "translations": {
+    "fa": "آره، تو یه دفتر بزرگ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "white",
+      "shirt",
+      "blue",
+      "wear"
+     ],
+     "suggestion": "Then a shirt is good. Blue or white? Should you wear a tie?",
+     "suggestionFa": "پس پیراهن خوبه. آبی یا سفید؟ کراوات بزنی؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Should I wear a tie?",
+   "translations": {
+    "fa": "کراوات بزنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "relaxed",
+      "ironed",
+      "shirt",
+      "smart",
+      "these"
+     ],
+     "suggestion": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
+     "suggestionFa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No. Can I borrow your iron?",
+   "translations": {
+    "fa": "نه. می‌تونم اتوت را قرض بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cupboard",
+      "chilly",
+      "jumper",
+      "iron's",
+      "today"
+     ],
+     "suggestion": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
+     "suggestionFa": "اتو تو کمده. و ژاکت چی؟ امروز هوا سرده.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "A dark blue jumper?",
+   "translations": {
+    "fa": "یه ژاکت سورمه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "trainers",
+      "shoes",
+      "smart",
+      "navy",
+      "good"
+     ],
+     "suggestion": "Good. Navy is smart. Now — shoes! Not trainers.",
+     "suggestionFa": "خوبه. سورمه‌ای شیکه. حالا — کفش! نه کتونی.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I've got black shoes.",
+   "translations": {
+    "fa": "کفش مشکی دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "interview",
+      "perfect",
+      "shoes",
+      "clean",
+      "black"
+     ],
+     "suggestion": "For an interview, yes! Black shoes are perfect. Clean them first!",
+     "suggestionFa": "برای مصاحبه، آره! کفش مشکی عالیه. اول تمیزشون کن!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "OK. Where's the shoe polish?",
+   "translations": {
+    "fa": "باشه. واکس کفش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "you'll",
+      "smart",
+      "look",
+      "luck"
+     ],
+     "suggestion": "Look at you! Very smart. Good luck! You'll be brilliant.",
+     "suggestionFa": "خودت را ببین! خیلی شیک. موفق باشی! عالی می‌شی.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you, Leslie. I'm nervous!",
+   "translations": {
+    "fa": "ممنون لزلی. استرس دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "yourself",
+      "nervous",
+      "hello",
+      "after"
+     ],
+     "suggestion": "Everyone's nervous. Smile, say hello, and be yourself. Text me after!",
+     "suggestionFa": "همه استرس دارن. لبخند بزن، سلام کن، و خودت باش. بعدش بهم پیام بده!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

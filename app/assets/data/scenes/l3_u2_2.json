@@ -21,8 +21,8 @@
      "keywords": [
       "prescription",
       "okafor",
-      "from",
-      "i've"
+      "i've",
+      "from"
      ],
      "suggestion": "I've got a prescription from Dr Okafor.",
      "suggestionFa": "یه نسخه از دکتر اوکافور دارم.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "better",
-      "stop",
       "feel",
-      "when"
+      "when",
+      "stop"
      ],
      "suggestion": "Can I stop when I feel better?",
      "suggestionFa": "وقتی بهتر شدم می‌تونم قطع کنم؟",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "that's",
-      "don't",
       "drink",
+      "don't",
       "fine"
      ],
      "suggestion": "I don't drink, so that's fine.",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "much",
-      "owe",
-      "how"
+      "how",
+      "owe"
      ],
      "suggestion": "How much do I owe you?",
      "suggestionFa": "چقدر بدهکارم؟",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "that's",
       "really",
+      "that's",
       "thank",
       "clear"
      ],

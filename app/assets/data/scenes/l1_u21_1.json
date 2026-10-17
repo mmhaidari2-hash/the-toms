@@ -1,0 +1,414 @@
+{
+ "id": "l1_u21_1",
+ "characterId": "nicola",
+ "title": "Monday to Sunday",
+ "titleFa": "دوشنبه تا یکشنبه",
+ "setting": "Days of the week · Level 1",
+ "settingFa": "روزهای هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
+   "translations": {
+    "fa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesday"
+     ],
+     "suggestion": "Wednesday!",
+     "suggestionFa": "چهارشنبه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thursday"
+     ],
+     "suggestion": "Is it Thursday?",
+     "suggestionFa": "پنجشنبه‌ست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "days of the week",
+     "fa": "روزهای هفته"
+    },
+    {
+     "word": "Monday",
+     "fa": "دوشنبه"
+    },
+    {
+     "word": "Tuesday",
+     "fa": "سه‌شنبه"
+    },
+    {
+     "word": "Wednesday",
+     "fa": "چهارشنبه"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain the week usually starts on Monday on calendars.",
+    "fa": "هفته در تقویم‌ها از دوشنبه شروع می‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Wednesday is a funny word. Wed-nes-day. Why is there a \"d\"?",
+   "translations": {
+    "fa": "چهارشنبه کلمهٔ بامزه‌ایه. Wed-nes-day. چرا یه «d» داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nobody",
+      "knows",
+      "don't",
+      "say"
+     ],
+     "suggestion": "Nobody knows! You don't say it.",
+     "suggestionFa": "هیچ‌کس نمی‌دونه! تلفظش نمی‌کنی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "spelling",
+      "english",
+      "strange"
+     ],
+     "suggestion": "English spelling is strange!",
+     "suggestionFa": "املای انگلیسی عجیبه!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "funny",
+     "fa": "بامزه"
+    },
+    {
+     "word": "spelling",
+     "fa": "املا"
+    },
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Thursday, Friday, Saturday, Sunday! Saturday and Sunday are the weekend. I love the weekend!",
+   "translations": {
+    "fa": "پنجشنبه، جمعه، شنبه، یکشنبه! شنبه و یکشنبه آخر هفته‌ان. عاشق آخر هفته‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "school"
+     ],
+     "suggestion": "Me too. No school!",
+     "suggestionFa": "منم. مدرسه نیست!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weekend",
+      "friday",
+      "iran"
+     ],
+     "suggestion": "In Iran, the weekend is Friday.",
+     "suggestionFa": "تو ایران آخر هفته جمعه‌ست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Thursday",
+     "fa": "پنجشنبه"
+    },
+    {
+     "word": "Friday",
+     "fa": "جمعه"
+    },
+    {
+     "word": "Saturday",
+     "fa": "شنبه"
+    },
+    {
+     "word": "Sunday",
+     "fa": "یکشنبه"
+    },
+    {
+     "word": "weekend",
+     "fa": "آخر هفته"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Friday? That's strange! What do you do on Fridays?",
+   "translations": {
+    "fa": "جمعه؟ عجیبه! جمعه‌ها چی کار می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "lunch",
+      "visit",
+      "have"
+     ],
+     "suggestion": "We visit family and have a big lunch.",
+     "suggestionFa": "به خانواده سر می‌زنیم و یه ناهار مفصل می‌خوریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mountains",
+      "go"
+     ],
+     "suggestion": "We go to the mountains.",
+     "suggestionFa": "می‌ریم کوه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "visit",
+     "fa": "دیدن کردن"
+    },
+    {
+     "word": "big lunch",
+     "fa": "ناهار مفصل"
+    },
+    {
+     "word": "mountains",
+     "fa": "کوه‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Mountains! On Saturdays I have ballet. What day is your English class?",
+   "translations": {
+    "fa": "کوه! من شنبه‌ها باله دارم. کلاس انگلیسیت چه روزیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesdays",
+      "mondays"
+     ],
+     "suggestion": "On Mondays and Wednesdays.",
+     "suggestionFa": "دوشنبه‌ها و چهارشنبه‌ها.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "evenings",
+      "thursday"
+     ],
+     "suggestion": "It's on Thursday evenings.",
+     "suggestionFa": "پنجشنبه‌ها عصره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ballet",
+     "fa": "باله"
+    },
+    {
+     "word": "class",
+     "fa": "کلاس"
+    },
+    {
+     "word": "evenings",
+     "fa": "عصرها"
+    }
+   ],
+   "cultureNote": {
+    "en": "We say \"ON Monday\", \"ON Saturdays\" — not \"in\" or \"at\".",
+    "fa": "با روزها از on استفاده کنید."
+   },
+   "recasts": [
+    {
+     "match": [
+      "in monday",
+      "at mondays"
+     ],
+     "echo": "On Mondays? Good!",
+     "better": "On Mondays.",
+     "betterFa": "دوشنبه‌ها."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "What day is it today?",
+   "translations": {
+    "fa": "امروز چه روزیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "today"
+     ],
+     "suggestion": "Today is Thursday.",
+     "suggestionFa": "امروز پنجشنبه‌ست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think"
+     ],
+     "suggestion": "I think it's Thursday.",
+     "suggestionFa": "فکر کنم پنجشنبه‌ست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "today",
+     "fa": "امروز"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Thursday! Tomorrow is Friday! On Fridays we have fish and chips.",
+   "translations": {
+    "fa": "پنجشنبه! فردا جمعه‌ست! جمعه‌ها فیش اند چیپس داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friday",
+      "every"
+     ],
+     "suggestion": "Every Friday?",
+     "suggestionFa": "هر جمعه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chips",
+      "fish",
+      "love"
+     ],
+     "suggestion": "I love fish and chips!",
+     "suggestionFa": "عاشق فیش اند چیپسم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tomorrow",
+     "fa": "فردا"
+    },
+    {
+     "word": "fish and chips",
+     "fa": "ماهی و سیب‌زمینی سرخ‌کرده"
+    }
+   ],
+   "cultureNote": {
+    "en": "Friday fish and chips is an old British tradition.",
+    "fa": "فیش اند چیپس جمعه‌ها سنت قدیمی است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Yes! Every Friday from the chippy. Daddy says it's the law!",
+   "translations": {
+    "fa": "آره! هر جمعه از چیپس‌فروشی. بابا می‌گه قانونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy",
+      "funny",
+      "ha"
+     ],
+     "suggestion": "Ha ha! Your daddy is funny.",
+     "suggestionFa": "ها ها! بابات بامزه‌ست.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friday",
+      "come",
+      "can"
+     ],
+     "suggestion": "Can I come on Friday?",
+     "suggestionFa": "می‌تونم جمعه بیام؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chippy",
+     "fa": "فروشگاه فیش اند چیپس"
+    },
+    {
+     "word": "law",
+     "fa": "قانون"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Yes, come on Friday! Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday! I did it!",
+   "translations": {
+    "fa": "آره، جمعه بیا! دوشنبه، سه‌شنبه، چهارشنبه، پنجشنبه، جمعه، شنبه، یکشنبه! تونستم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

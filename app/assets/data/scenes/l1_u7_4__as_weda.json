@@ -24,8 +24,8 @@
       "chemist",
       "come",
       "need",
-      "into",
-      "dear"
+      "dear",
+      "into"
      ],
      "suggestion": "I need to pop into the chemist, dear. Come with me?",
      "suggestionFa": "باید یه سر برم داروخونه عزیزم. باهام میای؟",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "something",
-      "pharmacy",
       "plasters",
+      "pharmacy",
       "cough",
       "some"
      ],
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "something",
       "recommend",
-      "cough",
+      "something",
       "thank",
-      "lady"
+      "cough",
+      "dear"
      ],
      "suggestion": "Thank you, dear. Ask the lady: \"Can you recommend something for a cough?\"",
      "suggestionFa": "ممنون عزیزم. از خانم بپرس: «می‌تونید یه چیزی برای سرفه پیشنهاد بدید؟»",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "spoons",
-      "syrup",
       "three",
+      "syrup",
       "times",
-      "says"
+      "good"
      ],
      "suggestion": "She says this syrup is good. Two spoons, three times a day.",
      "suggestionFa": "می‌گه این شربت خوبه. دو قاشق، روزی سه بار.",
@@ -148,8 +148,8 @@
      "keywords": [
       "treasure",
       "treat",
-      "now",
       "caf",
+      "now",
       "tea"
      ],
      "suggestion": "You're a treasure. Now, a cup of tea at the café? My treat!",

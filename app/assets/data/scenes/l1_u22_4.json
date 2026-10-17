@@ -1,0 +1,359 @@
+{
+ "id": "l1_u22_4",
+ "characterId": "leslie",
+ "title": "Summer holidays",
+ "titleFa": "تعطیلات تابستان",
+ "setting": "Months and seasons · Level 1",
+ "settingFa": "ماه‌ها و فصل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "School finishes next week! Six weeks of summer holidays. The kids are so excited.",
+   "translations": {
+    "fa": "مدرسه هفتهٔ دیگه تموم میشه! شش هفته تعطیلات تابستونی. بچه‌ها خیلی هیجان‌زده‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "weeks",
+      "long",
+      "six"
+     ],
+     "suggestion": "Six weeks? That's long!",
+     "suggestionFa": "شش هفته؟ طولانیه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going"
+     ],
+     "suggestion": "What are you going to do?",
+     "suggestionFa": "قراره چی کار کنید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finishes",
+     "fa": "تمام می‌شود"
+    },
+    {
+     "word": "summer holidays",
+     "fa": "تعطیلات تابستان"
+    },
+    {
+     "word": "excited",
+     "fa": "هیجان‌زده"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, the summer holidays usually last about six weeks, from late July to early September.",
+    "fa": "تعطیلات تابستان حدود شش هفته است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "We're going to go to the seaside in August. To Cornwall! Have you been?",
+   "translations": {
+    "fa": "قراره آگوست بریم کنار دریا. به کورنوال! رفتی تا حالا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "never",
+      "nice"
+     ],
+     "suggestion": "No, never. Is it nice?",
+     "suggestionFa": "نه، هیچ‌وقت. قشنگه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cornwall",
+      "where"
+     ],
+     "suggestion": "Where is Cornwall?",
+     "suggestionFa": "کورنوال کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seaside",
+     "fa": "کنار دریا"
+    },
+    {
+     "word": "August",
+     "fa": "اوت ؛ آگوست"
+    },
+    {
+     "word": "Cornwall",
+     "fa": "کورنوال"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "It's in the south-west. Beautiful beaches! But it often rains.",
+   "translations": {
+    "fa": "تو جنوب‌غربیه. ساحل‌های قشنگ! ولی اغلب بارون میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "rain"
+     ],
+     "suggestion": "Rain in summer?",
+     "suggestionFa": "بارون تو تابستون؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "umbrella",
+      "take"
+     ],
+     "suggestion": "Take an umbrella!",
+     "suggestionFa": "چتر ببرید!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "south-west",
+     "fa": "جنوب‌غربی"
+    },
+    {
+     "word": "beaches",
+     "fa": "ساحل‌ها"
+    },
+    {
+     "word": "often",
+     "fa": "اغلب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Always! British summer is a surprise. Some days it's thirty degrees, some days it's fifteen.",
+   "translations": {
+    "fa": "همیشه! تابستون بریتانیا غافلگیرکننده‌ست. بعضی روزها سی درجه‌ست، بعضی روزها پونزده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "that's"
+     ],
+     "suggestion": "That's very different!",
+     "suggestionFa": "خیلی فرق داره!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tehran",
+      "every",
+      "hot",
+      "day"
+     ],
+     "suggestion": "In Tehran it's hot every day.",
+     "suggestionFa": "تو تهران هر روز گرمه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surprise",
+     "fa": "غافلگیری"
+    },
+    {
+     "word": "degrees",
+     "fa": "درجه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Every day? Lucky you! What are you going to do in the summer?",
+   "translations": {
+    "fa": "هر روز؟ خوش به حالت! تو تابستون قراره چی کار کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "visit"
+     ],
+     "suggestion": "I'm going to visit my family.",
+     "suggestionFa": "قراره به خانواده‌ام سر بزنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "study"
+     ],
+     "suggestion": "I'm going to study English.",
+     "suggestionFa": "قراره انگلیسی بخونم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "going to",
+     "fa": "قرار است"
+    },
+    {
+     "word": "visit",
+     "fa": "دیدن کردن"
+    },
+    {
+     "word": "study",
+     "fa": "درس خواندن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i going to visit",
+      "i'm go to visit"
+     ],
+     "echo": "You're going to visit your family? Wonderful!",
+     "better": "I'm going to visit my family.",
+     "betterFa": "قراره به خانواده‌ام سر بزنم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "That's wonderful. Will you go to Iran?",
+   "translations": {
+    "fa": "فوق‌العاده‌ست. می‌ری ایران؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "flights",
+      "maybe"
+     ],
+     "suggestion": "Maybe. Flights are expensive.",
+     "suggestionFa": "شاید. بلیط هواپیما گرونه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mother",
+      "going",
+      "come",
+      "here"
+     ],
+     "suggestion": "My mother is going to come here.",
+     "suggestionFa": "مادرم قراره بیاد اینجا.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flights",
+     "fa": "پروازها"
+    },
+    {
+     "word": "expensive",
+     "fa": "گران"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Oh, how lovely! She must come for tea. Nicola wants to go camping, and Ryan wants to sleep all summer!",
+   "translations": {
+    "fa": "آه، چه خوب! حتماً باید برای چای بیاد. نیکولا می‌خواد بره کمپینگ، و رایان می‌خواد کل تابستون بخوابه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "camping",
+      "fun"
+     ],
+     "suggestion": "Camping is fun!",
+     "suggestionFa": "کمپینگ خوش می‌گذره!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teenager",
+      "typical",
+      "ha"
+     ],
+     "suggestion": "Ha ha! Typical teenager!",
+     "suggestionFa": "ها ها! نوجوون معمولی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "camping",
+     "fa": "کمپینگ"
+    },
+    {
+     "word": "typical",
+     "fa": "معمولی/رایج"
+    },
+    {
+     "word": "teenager",
+     "fa": "نوجوان"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Very typical! I'm going to read lots of books and drink lots of tea in the garden. That's my perfect summer!",
+   "translations": {
+    "fa": "خیلی معمولی! من قراره کلی کتاب بخونم و کلی چای تو باغ بخورم. این تابستون عالی منه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

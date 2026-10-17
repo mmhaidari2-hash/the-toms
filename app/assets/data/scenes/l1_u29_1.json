@@ -1,0 +1,399 @@
+{
+ "id": "l1_u29_1",
+ "characterId": "callum",
+ "title": "A hot chocolate, please",
+ "titleFa": "یک هات چاکلت، لطفاً",
+ "setting": "At the café · Level 1",
+ "settingFa": "در کافه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Morning! What can I get you?",
+   "translations": {
+    "fa": "صبح بخیر! چی براتون بیارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "please",
+      "can"
+     ],
+     "suggestion": "Can I have a hot chocolate, please?",
+     "suggestionFa": "می‌شه یه هات چاکلت بدید، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drinks",
+      "got"
+     ],
+     "suggestion": "What hot drinks have you got?",
+     "suggestionFa": "چه نوشیدنی داغی دارید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get",
+     "fa": "آوردن ؛ گرفتن"
+    },
+    {
+     "word": "hot chocolate",
+     "fa": "شیرکاکائو داغ"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Sure. Small, medium or large?",
+   "translations": {
+    "fa": "حتماً. کوچیک، متوسط یا بزرگ؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medium",
+      "please"
+     ],
+     "suggestion": "Medium, please.",
+     "suggestionFa": "متوسط، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "size"
+     ],
+     "suggestion": "What size is the small?",
+     "suggestionFa": "کوچیکه چه اندازه‌ست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "small",
+     "fa": "کوچک"
+    },
+    {
+     "word": "medium",
+     "fa": "متوسط"
+    },
+    {
+     "word": "large",
+     "fa": "بزرگ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Medium. With cream and marshmallows?",
+   "translations": {
+    "fa": "متوسط. با خامه و مارشمالو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "both"
+     ],
+     "suggestion": "Yes, please! Both!",
+     "suggestionFa": "آره، لطفاً! هر دو!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "cream",
+      "just"
+     ],
+     "suggestion": "Just cream, thanks.",
+     "suggestionFa": "فقط خامه، ممنون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cream",
+     "fa": "خامه"
+    },
+    {
+     "word": "marshmallows",
+     "fa": "مارشمالو"
+    },
+    {
+     "word": "both",
+     "fa": "هر دو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i want both",
+      "yes both please give"
+     ],
+     "echo": "Both? Lovely!",
+     "better": "Yes, both, please!",
+     "betterFa": "آره، هر دو، لطفاً!"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Great choice. Which milk would you like? We've got normal, oat or soya.",
+   "translations": {
+    "fa": "انتخاب عالیه. چه شیری؟ معمولی، جو دوسر یا سویا داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "normal",
+      "fine"
+     ],
+     "suggestion": "Normal milk is fine.",
+     "suggestionFa": "شیر معمولی خوبه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "oat"
+     ],
+     "suggestion": "Oat milk, please.",
+     "suggestionFa": "شیر جو دوسر، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oat",
+     "fa": "جو دوسر"
+    },
+    {
+     "word": "soya",
+     "fa": "سویا"
+    },
+    {
+     "word": "normal",
+     "fa": "معمولی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"soya\", American \"soy\". Plant milks are very common in UK cafés.",
+    "fa": "soya/soy."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Anything to eat? The flapjacks are fresh this morning.",
+   "translations": {
+    "fa": "چیزی برای خوردن؟ فلپ‌جک‌ها امروز صبح تازه‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flapjack",
+      "what's"
+     ],
+     "suggestion": "What's a flapjack?",
+     "suggestionFa": "فلپ‌جک چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drink",
+      "thank",
+      "just"
+     ],
+     "suggestion": "No, thank you. Just the drink.",
+     "suggestionFa": "نه، ممنون. فقط نوشیدنی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flapjack",
+     "fa": "شیرینی جو دوسر و شیره"
+    }
+   ],
+   "cultureNote": {
+    "en": "A British flapjack is an oat bar with golden syrup; an American \"flapjack\" is a pancake!",
+    "fa": "flapjack بریتانیایی با آمریکایی فرق دارد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "It's an oat bar with butter and syrup. Very sweet. Try one!",
+   "translations": {
+    "fa": "یه تیکه شیرینی جو دوسره با کره و شیره. خیلی شیرینه. یکی امتحان کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flapjack",
+      "have",
+      "i'll",
+      "ok"
+     ],
+     "suggestion": "OK, I'll have a flapjack too.",
+     "suggestionFa": "باشه، یه فلپ‌جک هم می‌خورم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sounds",
+      "sweet"
+     ],
+     "suggestion": "It sounds too sweet for me.",
+     "suggestionFa": "به نظرم برام خیلی شیرینه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "syrup",
+     "fa": "شیره"
+    },
+    {
+     "word": "sweet",
+     "fa": "شیرین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "Eat in or take away?",
+   "translations": {
+    "fa": "اینجا میل می‌کنید یا می‌برید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eat"
+     ],
+     "suggestion": "Eat in, please.",
+     "suggestionFa": "اینجا، لطفاً.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "away",
+      "take"
+     ],
+     "suggestion": "To take away, please.",
+     "suggestionFa": "برای بیرون، لطفاً.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eat in",
+     "fa": "در محل خوردن"
+    },
+    {
+     "word": "take away",
+     "fa": "بیرون بردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"take away\" = American \"to go\".",
+    "fa": "take away/to go."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "callum",
+   "text": "Lovely. That's four pounds sixty. Card or cash?",
+   "translations": {
+    "fa": "عالی. چهار پوند و شصت میشه. کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "card"
+     ],
+     "suggestion": "Card, please.",
+     "suggestionFa": "کارت، لطفاً.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "fiver",
+      "cash"
+     ],
+     "suggestion": "Cash. Here's a fiver.",
+     "suggestionFa": "نقد. این یه پنج پوندی.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card",
+     "fa": "کارت"
+    },
+    {
+     "word": "cash",
+     "fa": "نقد"
+    },
+    {
+     "word": "fiver",
+     "fa": "اسکناس پنج پوندی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "callum",
+   "text": "Perfect, here's your change. I'll bring it over to your table. Find a seat anywhere!",
+   "translations": {
+    "fa": "عالی، اینم بقیهٔ پولتون. میارمش سر میزتون. هر جا خواستید بشینید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

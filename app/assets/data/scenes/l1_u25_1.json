@@ -1,0 +1,421 @@
+{
+ "id": "l1_u25_1",
+ "characterId": "leslie",
+ "title": "Shirt or jumper?",
+ "titleFa": "پیراهن یا ژاکت؟",
+ "setting": "Getting dressed · Level 1",
+ "settingFa": "لباس پوشیدن",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "You've got a job interview today! Big day! What are you going to wear?",
+   "translations": {
+    "fa": "امروز مصاحبهٔ کاری داری! روز بزرگیه! قراره چی بپوشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "help",
+      "know",
+      "can"
+     ],
+     "suggestion": "I don't know. Can you help me?",
+     "suggestionFa": "نمی‌دونم. کمکم می‌کنی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trousers",
+      "think",
+      "shirt"
+     ],
+     "suggestion": "A shirt and trousers, I think.",
+     "suggestionFa": "فکر کنم یه پیراهن و شلوار.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "interview",
+     "fa": "مصاحبه"
+    },
+    {
+     "word": "wear",
+     "fa": "پوشیدن"
+    },
+    {
+     "word": "trousers",
+     "fa": "شلوار"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"trousers\" = American \"pants\".",
+    "fa": "trousers/pants."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Let's see. Is it an office job?",
+   "translations": {
+    "fa": "ببینیم. کار دفتریه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "big"
+     ],
+     "suggestion": "Yes, in a big office.",
+     "suggestionFa": "آره، تو یه دفتر بزرگ.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shop"
+     ],
+     "suggestion": "No, it's in a shop.",
+     "suggestionFa": "نه، تو یه مغازه‌ست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "office",
+     "fa": "دفتر"
+    },
+    {
+     "word": "shop",
+     "fa": "مغازه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Then a shirt is good. Blue or white? Should you wear a tie?",
+   "translations": {
+    "fa": "پس پیراهن خوبه. آبی یا سفید؟ کراوات بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "wear"
+     ],
+     "suggestion": "Should I wear a tie?",
+     "suggestionFa": "کراوات بزنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "got"
+     ],
+     "suggestion": "I haven't got a tie.",
+     "suggestionFa": "کراوات ندارم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shirt",
+     "fa": "پیراهن"
+    },
+    {
+     "word": "tie",
+     "fa": "کراوات"
+    },
+    {
+     "word": "should",
+     "fa": "باید (توصیه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British offices are now \"smart casual\" — a smart shirt, no tie.",
+    "fa": "بسیاری از دفاتر رسمی-راحت هستند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i should wear tie?",
+      "should i wearing a tie"
+     ],
+     "echo": "Should you wear a tie? Maybe not.",
+     "better": "Should I wear a tie?",
+     "betterFa": "کراوات بزنم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "No tie is fine these days. Smart but relaxed. Is your shirt ironed?",
+   "translations": {
+    "fa": "این روزها بدون کراوات اشکال نداره. شیک ولی راحت. پیراهنت اتو شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "borrow",
+      "iron",
+      "can"
+     ],
+     "suggestion": "No. Can I borrow your iron?",
+     "suggestionFa": "نه. می‌تونم اتوت را قرض بگیرم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ironed",
+      "night",
+      "last"
+     ],
+     "suggestion": "Yes, I ironed it last night.",
+     "suggestionFa": "آره، دیشب اتوش کردم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smart",
+     "fa": "شیک ؛ مرتب"
+    },
+    {
+     "word": "relaxed",
+     "fa": "راحت"
+    },
+    {
+     "word": "ironed",
+     "fa": "اتو شده"
+    },
+    {
+     "word": "borrow",
+     "fa": "قرض گرفتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "The iron's in the cupboard. And what about a jumper? It's chilly today.",
+   "translations": {
+    "fa": "اتو تو کمده. و ژاکت چی؟ امروز هوا سرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jumper",
+      "blue",
+      "dark"
+     ],
+     "suggestion": "A dark blue jumper?",
+     "suggestionFa": "یه ژاکت سورمه‌ای؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "coat",
+      "take",
+      "i'll"
+     ],
+     "suggestion": "I'll take my coat instead.",
+     "suggestionFa": "به جاش کتم را می‌برم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chilly",
+     "fa": "خنک ؛ سرد"
+    },
+    {
+     "word": "dark blue",
+     "fa": "سورمه‌ای"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Good. Navy is smart. Now — shoes! Not trainers.",
+   "translations": {
+    "fa": "خوبه. سورمه‌ای شیکه. حالا — کفش! نه کتونی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shoes",
+      "black",
+      "i've",
+      "got"
+     ],
+     "suggestion": "I've got black shoes.",
+     "suggestionFa": "کفش مشکی دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "trainers",
+      "really",
+      "bad"
+     ],
+     "suggestion": "Are trainers really bad?",
+     "suggestionFa": "کتونی واقعاً بده؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shoes",
+     "fa": "کفش"
+    },
+    {
+     "word": "trainers",
+     "fa": "کفش ورزشی ؛ کتونی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"trainers\" = American \"sneakers\".",
+    "fa": "trainers/sneakers."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "For an interview, yes! Black shoes are perfect. Clean them first!",
+   "translations": {
+    "fa": "برای مصاحبه، آره! کفش مشکی عالیه. اول تمیزشون کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "polish",
+      "shoe",
+      "ok"
+     ],
+     "suggestion": "OK. Where's the shoe polish?",
+     "suggestionFa": "باشه. واکس کفش کجاست؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yesterday",
+      "cleaned",
+      "they're",
+      "clean"
+     ],
+     "suggestion": "They're clean. I cleaned them yesterday.",
+     "suggestionFa": "تمیزن. دیروز تمیزشون کردم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clean",
+     "fa": "تمیز کردن"
+    },
+    {
+     "word": "shoe polish",
+     "fa": "واکس کفش"
+    },
+    {
+     "word": "yesterday",
+     "fa": "دیروز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Look at you! Very smart. Good luck! You'll be brilliant.",
+   "translations": {
+    "fa": "خودت را ببین! خیلی شیک. موفق باشی! عالی می‌شی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "leslie",
+      "thank"
+     ],
+     "suggestion": "Thank you, Leslie. I'm nervous!",
+     "suggestionFa": "ممنون لزلی. استرس دارم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "help"
+     ],
+     "suggestion": "Thanks for your help!",
+     "suggestionFa": "ممنون از کمکت!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good luck",
+     "fa": "موفق باشی"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Everyone's nervous. Smile, say hello, and be yourself. Text me after!",
+   "translations": {
+    "fa": "همه استرس دارن. لبخند بزن، سلام کن، و خودت باش. بعدش بهم پیام بده!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

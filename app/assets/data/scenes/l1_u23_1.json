@@ -1,0 +1,454 @@
+{
+ "id": "l1_u23_1",
+ "characterId": "ryan",
+ "title": "A new coat",
+ "titleFa": "یک کت جدید",
+ "setting": "Clothes shopping · Level 1",
+ "settingFa": "خرید لباس",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum says I need a new winter coat. My old one is too small. Can you help me choose?",
+   "translations": {
+    "fa": "مامان می‌گه یه کت زمستونی جدید لازم دارم. قدیمیه خیلی کوچیکه. کمکم می‌کنی انتخاب کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coat",
+      "kind",
+      "want",
+      "sure"
+     ],
+     "suggestion": "Sure. What kind of coat do you want?",
+     "suggestionFa": "حتماً. چه جور کتی می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "let's",
+      "coats",
+      "look"
+     ],
+     "suggestion": "Of course. Let's look at the coats.",
+     "suggestionFa": "البته. بیا کت‌ها را ببینیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "winter coat",
+     "fa": "کت زمستانی"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Something warm. And cool! Not like Dad's anorak. What about this black one?",
+   "translations": {
+    "fa": "یه چیز گرم. و باحال! نه مثل بادگیر بابا. این مشکیه چطوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "warm"
+     ],
+     "suggestion": "It looks warm.",
+     "suggestionFa": "به نظر گرمه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "green",
+      "like",
+      "one"
+     ],
+     "suggestion": "I like the green one.",
+     "suggestionFa": "من سبزه را دوست دارم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "warm",
+     "fa": "گرم"
+    },
+    {
+     "word": "anorak",
+     "fa": "بادگیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "An \"anorak\" is a waterproof jacket — but calling someone \"an anorak\" means they're a bit of a nerd!",
+    "fa": "anorak همچنین یعنی آدم خوره‌ی یک موضوع."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Green? Hmm. Let's ask. Excuse me, have you got this in green?",
+   "translations": {
+    "fa": "سبز؟ هوم. بیا بپرسیم. ببخشید، اینو سبز دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "good",
+      "idea",
+      "her"
+     ],
+     "suggestion": "Good idea. Ask her.",
+     "suggestionFa": "فکر خوبیه. ازش بپرس.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "excuse",
+      "i'll"
+     ],
+     "suggestion": "I'll ask. Excuse me!",
+     "suggestionFa": "من می‌پرسم. ببخشید!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ask",
+     "fa": "پرسیدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Let me check. Yes, we've got it in green and navy. What size are you?",
+   "translations": {
+    "fa": "بذارید چک کنم. آره، سبز و سورمه‌ای داریم. سایزتون چنده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medium",
+      "think",
+      "he's"
+     ],
+     "suggestion": "He's a medium, I think.",
+     "suggestionFa": "فکر کنم مدیومه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sizes",
+      "have",
+      "got"
+     ],
+     "suggestion": "What sizes have you got?",
+     "suggestionFa": "چه سایزهایی دارید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "navy",
+     "fa": "سورمه‌ای"
+    },
+    {
+     "word": "size",
+     "fa": "سایز"
+    },
+    {
+     "word": "medium",
+     "fa": "متوسط"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Small, medium and large. Try the medium. The changing rooms are over there.",
+   "translations": {
+    "fa": "کوچیک، متوسط و بزرگ. مدیوم را امتحان کنید. اتاق پرو اونجاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you.",
+     "suggestionFa": "ممنون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan",
+      "try",
+      "go"
+     ],
+     "suggestion": "Go on, Ryan, try it on!",
+     "suggestionFa": "برو رایان، امتحانش کن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "large",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "try on",
+     "fa": "پرو کردن"
+    },
+    {
+     "word": "changing rooms",
+     "fa": "اتاق پرو"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "What do you think? Is it OK?",
+   "translations": {
+    "fa": "نظرت چیه؟ خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looks",
+      "great"
+     ],
+     "suggestion": "It looks great on you!",
+     "suggestionFa": "خیلی بهت میاد!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sleeves",
+      "long",
+      "bit"
+     ],
+     "suggestion": "The sleeves are a bit long.",
+     "suggestionFa": "آستین‌هاش یه کم بلنده.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "looks great",
+     "fa": "خوب به نظر می‌رسد"
+    },
+    {
+     "word": "sleeves",
+     "fa": "آستین‌ها"
+    },
+    {
+     "word": "long",
+     "fa": "بلند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is look good",
+      "it look great on you"
+     ],
+     "echo": "It looks great? Thanks!",
+     "better": "It looks great on you.",
+     "betterFa": "خیلی بهت میاد."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "The sleeves are long, but Mum says I'm growing. How much is it?",
+   "translations": {
+    "fa": "آستین‌ها بلنده، ولی مامان می‌گه دارم بزرگ میشم. قیمتش چنده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "forty",
+      "label",
+      "look"
+     ],
+     "suggestion": "Let me look at the label. It's forty pounds.",
+     "suggestionFa": "بذار برچسبش را ببینم. چهل پونده.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "assistant",
+      "shop",
+      "ask"
+     ],
+     "suggestion": "Ask the shop assistant.",
+     "suggestionFa": "از فروشنده بپرس.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "growing",
+     "fa": "رشد کردن"
+    },
+    {
+     "word": "label",
+     "fa": "برچسب"
+    },
+    {
+     "word": "shop assistant",
+     "fa": "فروشنده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "It's forty pounds, but it's twenty percent off today. Thirty-two pounds!",
+   "translations": {
+    "fa": "چهل پونده، ولی امروز بیست درصد تخفیف داره. سی و دو پوند!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "price",
+      "good"
+     ],
+     "suggestion": "That's a good price!",
+     "suggestionFa": "قیمت خوبیه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "percent",
+      "twenty",
+      "off"
+     ],
+     "suggestion": "Twenty percent off? Brilliant!",
+     "suggestionFa": "بیست درصد تخفیف؟ عالی!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "percent",
+     "fa": "درصد"
+    },
+    {
+     "word": "off",
+     "fa": "تخفیف"
+    },
+    {
+     "word": "price",
+     "fa": "قیمت"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"20% off\" means a 20% discount. A \"sale\" is when many things are cheaper.",
+    "fa": "20% off یعنی ۲۰ درصد تخفیف."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Mum gave me forty quid. So I've got eight pounds left. Can I buy a hat too?",
+   "translations": {
+    "fa": "مامان چهل پوند بهم داد. پس هشت پوند برام می‌مونه. می‌تونم یه کلاه هم بخرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "mum",
+      "ask"
+     ],
+     "suggestion": "Ask your mum first!",
+     "suggestionFa": "اول از مامانت بپرس!",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "cold",
+      "idea",
+      "hat"
+     ],
+     "suggestion": "A hat is a good idea. It's cold.",
+     "suggestionFa": "کلاه فکر خوبیه. سرده.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "left",
+     "fa": "باقی‌مانده"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "ryan",
+   "text": "I'll text her. She says yes — but give her the receipt! Thanks for helping, mate. You've got good taste.",
+   "translations": {
+    "fa": "بهش پیام می‌دم. می‌گه آره — ولی رسید را بهش بدم! ممنون که کمک کردی رفیق. سلیقه‌ات خوبه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

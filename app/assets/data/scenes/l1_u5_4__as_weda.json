@@ -23,8 +23,8 @@
      "keywords": [
       "always",
       "early",
-      "past",
       "five",
+      "past",
       "half"
      ],
      "suggestion": "I'm an early bird, dear. I always get up at half past five.",
@@ -50,7 +50,7 @@
       "usually",
       "always",
       "first",
-      "then"
+      "read"
      ],
      "suggestion": "I always have a cup of tea first. Then I usually read the newspaper.",
      "suggestionFa": "همیشه اول یه فنجون چای می‌خورم. بعد معمولاً روزنامه می‌خونم.",
@@ -74,8 +74,8 @@
       "sometimes",
       "every",
       "patel",
-      "then",
-      "walk"
+      "walk",
+      "then"
      ],
      "suggestion": "Every day. Then I sometimes go for a walk with Mrs Patel.",
      "suggestionFa": "هر روز. بعد گاهی با خانم پاتل پیاده‌روی می‌رم.",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "change",
+      "always",
       "things",
       "never",
       "some"

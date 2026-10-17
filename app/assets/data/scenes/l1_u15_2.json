@@ -1,0 +1,392 @@
+{
+ "id": "l1_u15_2",
+ "characterId": "nicola",
+ "title": "Hide and seek",
+ "titleFa": "قایم‌باشک",
+ "setting": "Toys and games · Level 1",
+ "settingFa": "اسباب‌بازی‌ها و بازی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Let's play hide and seek! You count, and I hide. Count to twenty!",
+   "translations": {
+    "fa": "بیا قایم‌باشک بازی کنیم! تو بشمر، من قایم می‌شم. تا بیست بشمر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "close",
+      "eyes",
+      "two"
+     ],
+     "suggestion": "OK. Close my eyes… one, two, three…",
+     "suggestionFa": "باشه. چشمامو می‌بندم… یک، دو، سه…",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "count",
+      "can"
+     ],
+     "suggestion": "Can I count in Persian?",
+     "suggestionFa": "می‌تونم فارسی بشمرم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hide and seek",
+     "fa": "قایم‌باشک"
+    },
+    {
+     "word": "hide",
+     "fa": "قایم شدن"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "No, in English! Ready or not, here I come! You say that.",
+   "translations": {
+    "fa": "نه، انگلیسی! «حاضر باشی یا نه، دارم میام!» تو اینو بگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ready",
+      "here",
+      "come"
+     ],
+     "suggestion": "Ready or not, here I come!",
+     "suggestionFa": "حاضر باشی یا نه، دارم میام!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nineteen",
+      "twenty",
+      "coming"
+     ],
+     "suggestion": "Nineteen, twenty! Coming!",
+     "suggestionFa": "نوزده، بیست! اومدم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "here I come",
+     "fa": "دارم میام"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Ready or not, here I come!\" is what British children shout before seeking.",
+    "fa": "جملهٔ سنتی قایم‌باشک."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Hee hee! You can't find me!",
+   "translations": {
+    "fa": "هی هی! نمی‌تونی پیدام کنی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "sofa",
+      "she"
+     ],
+     "suggestion": "Is she behind the sofa?",
+     "suggestionFa": "پشت مبله؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "where"
+     ],
+     "suggestion": "Nicola? Where are you?",
+     "suggestionFa": "نیکولا؟ کجایی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "sofa",
+     "fa": "مبل"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "She isn't behind the sofa. I can hear her laughing!",
+   "translations": {
+    "fa": "پشت مبل نیست. صدای خندیدنش را می‌شنوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "table",
+      "under"
+     ],
+     "suggestion": "Is she under the table?",
+     "suggestionFa": "زیر میزه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cupboard"
+     ],
+     "suggestion": "Is she in the cupboard?",
+     "suggestionFa": "تو کمده؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    },
+    {
+     "word": "laughing",
+     "fa": "خندیدن"
+    },
+    {
+     "word": "cupboard",
+     "fa": "کمد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she under table",
+      "is under the table she"
+     ],
+     "echo": "Is she under the table? Let's look!",
+     "better": "Is she under the table?",
+     "betterFa": "زیر میزه؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Let's look… no, not under the table. Shall we look behind the curtains?",
+   "translations": {
+    "fa": "ببینیم… نه، زیر میز نیست. پشت پرده‌ها را ببینیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "feet",
+      "see",
+      "can",
+      "two"
+     ],
+     "suggestion": "I can see two feet!",
+     "suggestionFa": "دو تا پا می‌بینم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "curtains",
+      "behind"
+     ],
+     "suggestion": "Yes, behind the curtains!",
+     "suggestionFa": "آره، پشت پرده‌ها!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "curtains",
+     "fa": "پرده‌ها"
+    },
+    {
+     "word": "feet",
+     "fa": "پاها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "You found me! How did you find me?",
+   "translations": {
+    "fa": "پیدام کردی! چطوری پیدام کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "feet",
+      "saw"
+     ],
+     "suggestion": "I saw your feet!",
+     "suggestionFa": "پاهات را دیدم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "laughing",
+      "were"
+     ],
+     "suggestion": "You were laughing!",
+     "suggestionFa": "داشتی می‌خندیدی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "saw",
+     "fa": "دید"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Now you hide! I'm good at finding. I'll count to twenty.",
+   "translations": {
+    "fa": "حالا تو قایم شو! من تو پیدا کردن خوبم. تا بیست می‌شمرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looking",
+      "ok"
+     ],
+     "suggestion": "OK. No looking!",
+     "suggestionFa": "باشه. نگاه نکن!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "close",
+      "eyes"
+     ],
+     "suggestion": "Close your eyes!",
+     "suggestionFa": "چشماتو ببند!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no looking",
+     "fa": "نگاه نکن"
+    },
+    {
+     "word": "good at",
+     "fa": "خوب در"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Eighteen, nineteen, twenty! Are you in the kitchen? Are you in the garden?",
+   "translations": {
+    "fa": "هجده، نوزده، بیست! تو آشپزخونه‌ای؟ تو باغی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quietly",
+      "telling"
+     ],
+     "suggestion": "(quietly) I'm not telling!",
+     "suggestionFa": "(آروم) نمی‌گم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cold"
+     ],
+     "suggestion": "Cold! You're cold!",
+     "suggestionFa": "سرده! سرده!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quietly",
+     "fa": "آرام"
+    },
+    {
+     "word": "telling",
+     "fa": "گفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"You're getting warmer / colder\" helps the seeker: warm means close, cold means far.",
+    "fa": "گرم یعنی نزدیک، سرد یعنی دور."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Found you! You're behind the door! My turn again! This is the best game ever!",
+   "translations": {
+    "fa": "پیدات کردم! پشت دری! باز نوبت منه! این بهترین بازی دنیاست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

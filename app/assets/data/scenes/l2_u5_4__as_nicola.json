@@ -47,9 +47,9 @@
      "keywords": [
       "hamster",
       "brought",
-      "called",
       "peanut",
-      "class"
+      "called",
+      "first"
      ],
      "suggestion": "No! First, Mrs Ellis brought a hamster to class. It's called Peanut!",
      "suggestionFa": "نه! اول، خانم الیس یه همستر آورد کلاس. اسمش پینات‌ـه!",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "screamed",
+      "everyone",
       "escaped",
       "tables",
       "under"
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "grapes",
       "eating",
+      "grapes",
+      "after",
       "lunch",
-      "found",
-      "after"
+      "found"
      ],
      "suggestion": "After that, Mia found it in her lunch box! It was eating her grapes!",
      "suggestionFa": "بعد از اون، میا تو ظرف ناهارش پیداش کرد! داشت انگورهاش را می‌خورد!",
@@ -124,7 +124,7 @@
       "laughed",
       "peanut",
       "crown",
-      "then"
+      "drew"
      ],
      "suggestion": "She laughed and laughed. Then we drew pictures of Peanut. I drew him with a crown.",
      "suggestionFa": "خندید و خندید. بعد عکس پینات را کشیدیم. من با تاج کشیدمش.",
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "because",
-      "class",
       "ellis",
-      "said",
-      "king"
+      "class",
+      "here",
+      "said"
      ],
      "suggestion": "Because he's the king of the class! Here it is. Mrs Ellis said it was the best one.",
      "suggestionFa": "چون پادشاه کلاسه! ایناهاش. خانم الیس گفت بهترینه.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "dinosaur",
       "tomorrow",
+      "dinosaur",
       "coming",
       "peanut",
       "table"

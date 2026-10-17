@@ -1,0 +1,224 @@
+{
+ "id": "l1_u38_2__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Wrapping a present",
+ "titleFa": "(در نقش Ryan) کادو کردن هدیه",
+ "setting": "Birthdays · Level 1",
+ "settingFa": "تولدها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u38_2",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "present",
+      "bought",
+      "looks",
+      "can't",
+      "awful"
+     ],
+     "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
+     "suggestionFa": "کمک! برای بابا کادو خریدم، ولی بلد نیستم کادو کنم. افتضاح شده.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What did you buy him?",
+   "translations": {
+    "fa": "براش چی خریدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "world's",
+      "cheesy",
+      "driver",
+      "know",
+      "best"
+     ],
+     "suggestion": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
+     "suggestionFa": "یه ماگ. روش نوشته «بهترین راننده اتوبوس دنیا». می‌دونم، لوسه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "He's going to love it.",
+   "translations": {
+    "fa": "عاشقش میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scissors",
+      "where",
+      "first",
+      "paper",
+      "small"
+     ],
+     "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
+     "suggestionFa": "باشه، اول کاغذ را ببر. خیلی کوچیک نه. قیچی کجاست؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Here are the scissors.",
+   "translations": {
+    "fa": "بفرما قیچی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "genius",
+      "easier",
+      "box",
+      "now"
+     ],
+     "suggestion": "A box! Genius. It's easier with a box. Now what?",
+     "suggestionFa": "جعبه! نابغه. با جعبه آسون‌تره. حالا چی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Fold the paper over the box.",
+   "translations": {
+    "fa": "کاغذ را رو جعبه تا کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sellotape",
+      "fingers",
+      "stuck",
+      "pass",
+      "ugh"
+     ],
+     "suggestion": "Pass the Sellotape. Ugh, it's stuck to my fingers!",
+     "suggestionFa": "چسب را بده. اوف، به انگشتام چسبید!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha! Let me do it.",
+   "translations": {
+    "fa": "ها! بذار من انجامش بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "triangles",
+      "better",
+      "right",
+      "fold",
+      "ends"
+     ],
+     "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
+     "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, perfect!",
+   "translations": {
+    "fa": "آره، عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "write",
+      "gift",
+      "nice",
+      "top",
+      "tag"
+     ],
+     "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
+     "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "\"Happy birthday, Dad. From Ryan.\"",
+   "translations": {
+    "fa": "«تولدت مبارک بابا. از طرف رایان.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "soppy",
+      "mates",
+      "don't",
+      "tell",
+      "just"
+     ],
+     "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
+     "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

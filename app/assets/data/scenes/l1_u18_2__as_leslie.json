@@ -1,0 +1,225 @@
+{
+ "id": "l1_u18_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A packed lunch",
+ "titleFa": "(در نقش Leslie) ناهار بسته‌بندی",
+ "setting": "Lunchtime · Level 1",
+ "settingFa": "وقت ناهار",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u18_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "nicola's",
+      "packed",
+      "school",
+      "lunch"
+     ],
+     "suggestion": "Nicola's got a school trip tomorrow. She needs a packed lunch. Can you help me?",
+     "suggestionFa": "نیکولا فردا اردوی مدرسه داره. ناهار بسته‌بندی لازم داره. کمکم می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes. What does she need?",
+   "translations": {
+    "fa": "آره. چی لازم داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwich",
+      "purple",
+      "lunch",
+      "first",
+      "bread"
+     ],
+     "suggestion": "Her lunch box is the purple one. First, a sandwich. Have we got any bread?",
+     "suggestionFa": "ظرف ناهارش بنفشه‌ست. اول یه ساندویچ. نون داریم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, there's some bread.",
+   "translations": {
+    "fa": "آره، یه کم نون هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "school",
+      "snack",
+      "half",
+      "nuts"
+     ],
+     "suggestion": "Good, there's half a loaf. Now, a snack. No nuts — the school says no nuts.",
+     "suggestionFa": "خوبه، نصف یه نون هست. حالا، یه خوراکی. بدون آجیل — مدرسه می‌گه آجیل نه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What about a yoghurt?",
+   "translations": {
+    "fa": "ماست چطور؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yoghurt",
+      "crisps",
+      "great",
+      "have",
+      "tube"
+     ],
+     "suggestion": "A yoghurt in a tube! Great. Have we got any crisps?",
+     "suggestionFa": "یه ماست تیوبی! عالی. چیپس داریم؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "There are some in the cupboard.",
+   "translations": {
+    "fa": "تو کابینت هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crisps",
+      "always",
+      "have",
+      "else",
+      "ryan"
+     ],
+     "suggestion": "Ryan! Always Ryan! OK, no crisps. What else can she have?",
+     "suggestionFa": "رایان! همیشه رایان! باشه، چیپس نه. دیگه چی می‌تونه داشته باشه؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Some carrot sticks?",
+   "translations": {
+    "fa": "چند تا هویج قلمی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carrot",
+      "little",
+      "sticks",
+      "drink",
+      "treat"
+     ],
+     "suggestion": "Carrot sticks and a little cake. A treat for the trip! And a drink.",
+     "suggestionFa": "هویج قلمی و یه کیک کوچیک. یه جایزه برای اردو! و یه نوشیدنی.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Water is best for a trip.",
+   "translations": {
+    "fa": "برای اردو آب بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "unicorn",
+      "bottle",
+      "always",
+      "things"
+     ],
+     "suggestion": "Yes, her unicorn bottle. Now, write her name on everything! Things always get lost.",
+     "suggestionFa": "آره، بطری اسب‌شاخدارش. حالا، اسمش را رو همه چی بنویس! همیشه چیزها گم می‌شن.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Where's the pen?",
+   "translations": {
+    "fa": "خودکار کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "remember",
+      "perfect",
+      "morning",
+      "fridge"
+     ],
+     "suggestion": "Perfect. Put it in the fridge. Thank you, love. Now I just need to remember it tomorrow morning!",
+     "suggestionFa": "عالی. بذارش تو یخچال. ممنون عزیزم. حالا فقط باید فردا صبح یادم بمونه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

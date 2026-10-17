@@ -1,0 +1,225 @@
+{
+ "id": "l1_u42_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Riding a bike",
+ "titleFa": "(در نقش Tom) دوچرخه‌سواری",
+ "setting": "Transport words · Level 1",
+ "settingFa": "واژه‌های حمل‌ونقل",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u42_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buses",
+      "those",
+      "bikes",
+      "look",
+      "more"
+     ],
+     "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
+     "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I can ride a bike.",
+   "translations": {
+    "fa": "آره، دوچرخه‌سواری بلدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "there",
+      "cycle",
+      "safer",
+      "lanes"
+     ],
+     "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
+     "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What's a hire bike?",
+   "translations": {
+    "fa": "دوچرخهٔ کرایه‌ای چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "half",
+      "hour",
+      "ones",
+      "over"
+     ],
+     "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
+     "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Is it expensive?",
+   "translations": {
+    "fa": "گرونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "helmet",
+      "pounds",
+      "should",
+      "wear",
+      "but"
+     ],
+     "suggestion": "Not bad. A few pounds. But you should wear a helmet.",
+     "suggestionFa": "بد نیست. چند پوند. ولی باید کلاه ایمنی بذاری.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I should wear a helmet.",
+   "translations": {
+    "fa": "باید کلاه ایمنی بذارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "pavement",
+      "smart",
+      "ride",
+      "but"
+     ],
+     "suggestion": "It's not the law, but it's smart. And you shouldn't ride on the pavement.",
+     "suggestionFa": "قانون نیست، ولی عاقلانه‌ست. و نباید رو پیاده‌رو برونی.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Where should I ride?",
+   "translations": {
+    "fa": "کجا باید برونم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drive",
+      "cycle",
+      "road",
+      "left",
+      "here"
+     ],
+     "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
+     "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Keep left. I'll remember.",
+   "translations": {
+    "fa": "از چپ برم. یادم می‌مونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "that's",
+      "tricky",
+      "front",
+      "thing"
+     ],
+     "suggestion": "That's the tricky bit! And one more thing — you shouldn't ride in front of my bus! Ha!",
+     "suggestionFa": "قسمت سختش همینه! و یه چیز دیگه — نباید جلوی اتوبوس من برونی! ها!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I promise!",
+   "translations": {
+    "fa": "قول میدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pedals",
+      "only",
+      "know",
+      "down",
+      "bike"
+     ],
+     "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",
+     "suggestionFa": "من؟ دوچرخه؟ کل روز نشستم. پاهام فقط پدال اتوبوس را می‌شناسه! ها!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

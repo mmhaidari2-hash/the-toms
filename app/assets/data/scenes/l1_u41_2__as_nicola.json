@@ -1,0 +1,409 @@
+{
+ "id": "l1_u41_2__as_nicola",
+ "characterId": "okafor",
+ "title": "(As Nicola) What's the problem?",
+ "titleFa": "(در نقش Nicola) مشکل چیه؟",
+ "setting": "At the doctor's (basics) · Level 1",
+ "settingFa": "در مطب (پایه)",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u41_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "okafor",
+   "text": "Hello, Leslie. Hello, Nicola. And you're the neighbour? Come in. What's the problem today?",
+   "translations": {
+    "fa": "سلام لزلی. سلام نیکولا. و شما همسایه هستید؟ بفرمایید. امروز مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "problem",
+     "fa": "مشکل"
+    },
+    {
+     "word": "earache",
+     "fa": "گوش‌درد"
+    },
+    {
+     "word": "hurts",
+     "fa": "درد می‌کند"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Nicola has an earache.",
+   "translations": {
+    "fa": "نیکولا گوش‌درد داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hurts",
+      "sore",
+      "ear",
+      "one"
+     ],
+     "suggestion": "My ear hurts! This one. It's very sore.",
+     "suggestionFa": "گوشم درد می‌کنه! این یکی. خیلی دردناکه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "The left ear.",
+   "translations": {
+    "fa": "گوش چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "okafor",
+   "text": "Oh dear. Since last night? Has she got a temperature?",
+   "translations": {
+    "fa": "ای وای. از دیشب؟ تب داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "temperature",
+     "fa": "تب ؛ دما"
+    },
+    {
+     "word": "checked",
+     "fa": "بررسی کرد"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes, a little.",
+   "translations": {
+    "fa": "آره، یه کم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "leslie",
+   "text": "Thirty-eight point two. And she isn't eating much.",
+   "translations": {
+    "fa": "سی و هشت و دو دهم. و زیاد غذا نمی‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "point",
+     "fa": "ممیز"
+    },
+    {
+     "word": "eating",
+     "fa": "خوردن"
+    },
+    {
+     "word": "juice",
+     "fa": "آبمیوه"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK thermometers use Celsius. A child's temperature of 38 °C or more is a fever.",
+    "fa": "۳۸ درجه یعنی تب."
+   }
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "She didn't eat breakfast.",
+   "translations": {
+    "fa": "صبحونه نخورد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "okafor",
+   "text": "Let me look. Nicola, I'm going to use my little torch. Are you brave?",
+   "translations": {
+    "fa": "بذار ببینم. نیکولا، می‌خوام از چراغ‌قوهٔ کوچیکم استفاده کنم. شجاعی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "torch",
+     "fa": "چراغ‌قوه"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"torch\", American \"flashlight\".",
+    "fa": "torch/flashlight."
+   }
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "You're brave, Nicola!",
+   "translations": {
+    "fa": "تو شجاعی نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "poorly",
+      "brave",
+      "ouch",
+      "ear"
+     ],
+     "suggestion": "I'm brave. Ouch! Is my ear poorly?",
+     "suggestionFa": "من شجاعم. آخ! گوشم مریضه؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "The doctor is checking.",
+   "translations": {
+    "fa": "دکتر داره نگاه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "okafor",
+   "text": "It's a little bit red. It's an ear infection. It usually gets better on its own in three days.",
+   "translations": {
+    "fa": "یه کم قرمزه. عفونت گوشه. معمولاً خودش تو سه روز خوب میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "infection",
+     "fa": "عفونت"
+    },
+    {
+     "word": "on its own",
+     "fa": "خودبه‌خود"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "No medicine?",
+   "translations": {
+    "fa": "دارو لازم نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "okafor",
+   "text": "Children's paracetamol for the pain, and lots of drinks. Come back if she's not better on Friday.",
+   "translations": {
+    "fa": "پاراستامول بچه برای درد، و کلی مایعات. اگه تا جمعه خوب نشد برگردید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paracetamol",
+     "fa": "پاراستامول"
+    },
+    {
+     "word": "pain",
+     "fa": "درد"
+    },
+    {
+     "word": "drinks",
+     "fa": "نوشیدنی‌ها"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Thank you, doctor.",
+   "translations": {
+    "fa": "ممنون آقای دکتر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "okafor",
+   "text": "And Nicola, here's a sticker for being so brave! Take care, everyone.",
+   "translations": {
+    "fa": "و نیکولا، اینم یه برچسب برای این‌همه شجاعت! مراقب باشید، همه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,394 @@
+{
+ "id": "l1_u33_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Change, please",
+ "titleFa": "(در نقش Tom) بقیهٔ پول، لطفاً",
+ "setting": "The weekend market · Level 1",
+ "settingFa": "بازار آخر هفته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u33_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "victoria",
+      "sponge",
+      "sunday",
+      "excuse",
+      "right"
+     ],
+     "suggestion": "Right, cake for Sunday. A Victoria sponge. Excuse me, mate! How much is that?",
+     "suggestionFa": "خب، کیک برای یکشنبه. کیک ویکتوریا. ببخشید رفیق! اون چنده؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "It says twelve pounds.",
+   "translations": {
+    "fa": "نوشته دوازده پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "baker",
+   "text": "Twelve pounds for the big one, Tom. Eight for the small one.",
+   "translations": {
+    "fa": "بزرگه دوازده پوند تام. کوچیکه هشت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "small",
+     "fa": "کوچک"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "The big one, Tom. For your family!",
+   "translations": {
+    "fa": "بزرگه تام. برای خانواده‌ت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "twenty",
+      "one",
+      "big",
+      "eat"
+     ],
+     "suggestion": "The big one. My lot eat a lot! Here's a twenty.",
+     "suggestionFa": "بزرگه. خانواده‌م زیاد می‌خورن! بفرما یه بیستی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Do you need a bag?",
+   "translations": {
+    "fa": "کیسه لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "baker",
+   "text": "Here you go, in a box. And your change. Three pounds.",
+   "translations": {
+    "fa": "بفرما، تو جعبه. و بقیهٔ پولت. سه پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "بقیهٔ پول"
+    },
+    {
+     "word": "mistake",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain, start with \"Sorry, I think…\" to point out a mistake politely.",
+    "fa": "با «ببخشید، فکر کنم» مؤدبانه بگویید."
+   }
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Sorry, I think there's a mistake.",
+   "translations": {
+    "fa": "ببخشید، فکر کنم اشتباه شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "baker",
+   "text": "Oh? Let me check. Twenty minus twelve…",
+   "translations": {
+    "fa": "آه؟ بذار ببینم. بیست منهای دوازده…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "minus",
+     "fa": "منها"
+    },
+    {
+     "word": "should be",
+     "fa": "باید باشد"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Twenty minus twelve is eight.",
+   "translations": {
+    "fa": "بیست منهای دوازده میشه هشت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "baker",
+   "text": "Eight! You're right. I'm so sorry, Tom. It's the end of the day. My brain's tired!",
+   "translations": {
+    "fa": "هشت! راست میگی. خیلی ببخشید تام. آخر روزه. مغزم خسته‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brain",
+     "fa": "مغز"
+    },
+    {
+     "word": "it happens",
+     "fa": "پیش می‌آید"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "No problem. It happens.",
+   "translations": {
+    "fa": "مشکلی نیست. پیش میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teacher",
+      "driver",
+      "thing",
+      "maths",
+      "harm"
+     ],
+     "suggestion": "No harm done! Good thing Mehdi is good at maths. I'm a bus driver, not a maths teacher!",
+     "suggestionFa": "ضرری نکردیم! خوب شد {you} ریاضیش خوبه. من راننده اتوبوسم، نه معلم ریاضی!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Leslie is the teacher!",
+   "translations": {
+    "fa": "لزلی معلمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "baker",
+   "text": "Here's another five pounds. And a free jam tart for the trouble!",
+   "translations": {
+    "fa": "اینم پنج پوند دیگه. و یه تارت مربایی مجانی بابت زحمت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jam tart",
+     "fa": "تارت مربایی"
+    },
+    {
+     "word": "trouble",
+     "fa": "زحمت"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "That's very kind.",
+   "translations": {
+    "fa": "خیلی لطف دارید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "mistake",
+      "anymore",
+      "cards",
+      "don't"
+     ],
+     "suggestion": "Free jam tart! Best mistake ever. Actually, Mehdi, I don't take cash on the bus anymore. Only cards! Ha!",
+     "suggestionFa": "تارت مجانی! بهترین اشتباه عمرم. راستش {you}، دیگه تو اتوبوس پول نقد نمی‌گیرم. فقط کارت! ها!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

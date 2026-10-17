@@ -1,0 +1,394 @@
+{
+ "id": "l1_u14_3",
+ "characterId": "weda",
+ "title": "No more bubbles!",
+ "titleFa": "دیگه حباب بسه!",
+ "setting": "In the bathroom · Level 1",
+ "settingFa": "در حمام",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "William's bath is ready. Can you check the water? Not too hot!",
+   "translations": {
+    "fa": "حموم ویلیام آماده‌ست. آب را چک می‌کنی؟ نه خیلی داغ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fine",
+      "warm"
+     ],
+     "suggestion": "It's warm. It's fine.",
+     "suggestionFa": "گرمه. خوبه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "water",
+      "cold",
+      "some",
+      "bit"
+     ],
+     "suggestion": "It's a bit hot. Add some cold water.",
+     "suggestionFa": "یه کم داغه. یه کم آب سرد اضافه کن.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bath",
+     "fa": "وان/حمام"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    },
+    {
+     "word": "hot",
+     "fa": "داغ"
+    }
+   ],
+   "cultureNote": {
+    "en": "Test a baby's bath with your elbow — it should feel warm, not hot.",
+    "fa": "آب حمام نوزاد را با آرنج امتحان کنید."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
+   "translations": {
+    "fa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enough",
+      "nicola",
+      "that's",
+      "stop"
+     ],
+     "suggestion": "Stop, Nicola! That's enough!",
+     "suggestionFa": "بسه نیکولا! کافیه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bubbles",
+      "look",
+      "all",
+      "oh"
+     ],
+     "suggestion": "Oh no! Look at all the bubbles!",
+     "suggestionFa": "وای نه! این همه حباب را ببین!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bubble bath",
+     "fa": "کف حمام"
+    },
+    {
+     "word": "too much",
+     "fa": "خیلی زیاد"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is too many bubbles",
+      "there is too much bubble"
+     ],
+     "echo": "Too many bubbles? Yes, far too many!",
+     "better": "There are too many bubbles!",
+     "betterFa": "خیلی حباب هست!"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Bubbles! More bubbles!",
+   "translations": {
+    "fa": "حباب! حباب بیشتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "more"
+     ],
+     "suggestion": "No more bubbles, William!",
+     "suggestionFa": "دیگه حباب بسه ویلیام!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "loves",
+      "he"
+     ],
+     "suggestion": "He loves the bubbles!",
+     "suggestionFa": "عاشق حباب‌هاست!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Ha! I can't see William. Where's William? There he is!",
+   "translations": {
+    "fa": "ها! ویلیام را نمی‌بینم. ویلیام کجاست؟ اوناهاش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "peekaboo",
+      "william"
+     ],
+     "suggestion": "Peekaboo, William!",
+     "suggestionFa": "دالی، ویلیام!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bubbles",
+      "under",
+      "he's"
+     ],
+     "suggestion": "He's under the bubbles!",
+     "suggestionFa": "زیر حباب‌هاست!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "peekaboo",
+     "fa": "دالی (بازی بچه)"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Can you pass me the duck? The yellow rubber duck.",
+   "translations": {
+    "fa": "اردک را بهم می‌دی؟ اردک لاستیکی زرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "quack"
+     ],
+     "suggestion": "Here's the duck. Quack quack!",
+     "suggestionFa": "اینم اردک. کوآک کوآک!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "is",
+      "this"
+     ],
+     "suggestion": "Is this the duck?",
+     "suggestionFa": "این اردکه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rubber duck",
+     "fa": "اردک لاستیکی"
+    },
+    {
+     "word": "quack",
+     "fa": "صدای اردک"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Duck! Splash!",
+   "translations": {
+    "fa": "اردک! شلپ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "all",
+      "wet",
+      "oh"
+     ],
+     "suggestion": "Oh! I'm all wet!",
+     "suggestionFa": "آه! خیس خیس شدم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "splashing",
+      "william",
+      "much"
+     ],
+     "suggestion": "Not too much splashing, William!",
+     "suggestionFa": "زیاد آب نپاشون ویلیام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "splash",
+     "fa": "آب پاشیدن"
+    },
+    {
+     "word": "wet",
+     "fa": "خیس"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
+   "translations": {
+    "fa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "towel",
+      "which"
+     ],
+     "suggestion": "Yes. Which towel?",
+     "suggestionFa": "آره. کدوم حوله؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "blue",
+      "old",
+      "one"
+     ],
+     "suggestion": "The old blue one?",
+     "suggestionFa": "اون آبی قدیمیه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "floor",
+     "fa": "زمین/کف"
+    },
+    {
+     "word": "old",
+     "fa": "قدیمی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
+   "translations": {
+    "fa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "close",
+      "eyes"
+     ],
+     "suggestion": "Close your eyes, William.",
+     "suggestionFa": "چشماتو ببند ویلیام.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ceiling",
+      "look",
+      "up"
+     ],
+     "suggestion": "Look up at the ceiling!",
+     "suggestionFa": "به سقف نگاه کن!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hair",
+     "fa": "مو"
+    },
+    {
+     "word": "eyes",
+     "fa": "چشم‌ها"
+    },
+    {
+     "word": "ceiling",
+     "fa": "سقف"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",
+   "translations": {
+    "fa": "زرنگی! حالا تمیز تمیزه. بیا بیرون مرد کوچولو. وقت حموم بهترین وقته، نه؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "last",
+      "here",
       "iran",
       "came",
-      "here"
+      "last"
      ],
      "suggestion": "I'm from Iran. I came here last year.",
      "suggestionFa": "اهل ایرانم. پارسال اومدم.",
@@ -135,7 +135,7 @@
       "would",
       "them",
       "like",
-      "cup"
+      "tea"
      ],
      "suggestion": "Would you like a cup of tea with them?",
      "suggestionFa": "با اینا یه فنجون چای میل دارید؟",
@@ -170,8 +170,8 @@
     {
      "keywords": [
       "making",
-      "khan",
       "take",
+      "khan",
       "mrs"
      ],
      "suggestion": "She did! I'm making tea. How do you take it, Mrs Khan?",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "happy",
-      "cats",
-      "love"
+      "love",
+      "cats"
      ],
      "suggestion": "Happy to. I love cats!",
      "suggestionFa": "با کمال میل. عاشق گربه‌ام!",
@@ -332,10 +332,10 @@
     },
     {
      "keywords": [
-      "i'll",
-      "care",
+      "good",
       "take",
-      "good"
+      "care",
+      "i'll"
      ],
      "suggestion": "I'll take good care of her.",
      "suggestionFa": "خوب ازش مراقبت می‌کنم.",

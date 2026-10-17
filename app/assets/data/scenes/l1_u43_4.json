@@ -1,0 +1,349 @@
+{
+ "id": "l1_u43_4",
+ "characterId": "ryan",
+ "title": "Thank you so much",
+ "titleFa": "خیلی ممنون",
+ "setting": "Asking for help · Level 1",
+ "settingFa": "کمک خواستن",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Whoa! Your bag broke! Oranges everywhere! Quick, grab them!",
+   "translations": {
+    "fa": "وای! کیسه‌ت پاره شد! پرتقال همه جا! سریع، برشون دار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "can",
+      "oh"
+     ],
+     "suggestion": "Oh no! Can you help me?",
+     "suggestionFa": "ای وای! کمکم می‌کنی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "sorry"
+     ],
+     "suggestion": "Sorry, everyone!",
+     "suggestionFa": "ببخشید همگی!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broke",
+     "fa": "پاره شد ؛ شکست"
+    },
+    {
+     "word": "oranges",
+     "fa": "پرتقال‌ها"
+    },
+    {
+     "word": "grab",
+     "fa": "قاپیدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "One's rolling under the shelf! Got it!",
+   "translations": {
+    "fa": "یکی داره زیر قفسه قل می‌خوره! گرفتمش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "ryan",
+      "much"
+     ],
+     "suggestion": "Thank you so much, Ryan!",
+     "suggestionFa": "خیلی ممنون رایان!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "catch",
+      "good"
+     ],
+     "suggestion": "Good catch!",
+     "suggestionFa": "خوب گرفتی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rolling",
+     "fa": "قل خوردن"
+    },
+    {
+     "word": "shelf",
+     "fa": "قفسه"
+    },
+    {
+     "word": "catch",
+     "fa": "گرفتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Oh dear! Don't worry. Here's a new bag. A strong one. No charge.",
+   "translations": {
+    "fa": "ای وای! نگران نباشید. اینم یه کیسهٔ نو. محکم. مجانی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "That's really kind of you.",
+     "suggestionFa": "خیلی لطف دارید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you. That's very kind.",
+     "suggestionFa": "ممنون. خیلی لطف کردید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strong",
+     "fa": "محکم"
+    },
+    {
+     "word": "no charge",
+     "fa": "رایگان"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK shops charge for carrier bags, so a free bag is a nice gesture.",
+    "fa": "کیسهٔ پولی در فروشگاه."
+   },
+   "recasts": [
+    {
+     "match": [
+      "thanks for your kind",
+      "you are very kindness"
+     ],
+     "echo": "That's kind? It's nothing!",
+     "better": "That's really kind of you.",
+     "betterFa": "خیلی لطف دارید."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "No problem at all. It happens every day! Are any of them squashed?",
+   "translations": {
+    "fa": "اصلاً مشکلی نیست. هر روز پیش میاد! هیچ‌کدومشون له شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squashed",
+      "bit",
+      "one"
+     ],
+     "suggestion": "This one is a bit squashed.",
+     "suggestionFa": "این یکی یه کم له شده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "fine",
+      "all"
+     ],
+     "suggestion": "No, they're all fine.",
+     "suggestionFa": "نه، همه‌شون سالمن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "squashed",
+     "fa": "له شده"
+    },
+    {
+     "word": "fine",
+     "fa": "سالم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Let me change it for a new one. There you go. Good as new!",
+   "translations": {
+    "fa": "بذار با یه نو عوضش کنم. بفرما. مثل روز اول!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "star"
+     ],
+     "suggestion": "You're a star. Thank you.",
+     "suggestionFa": "تو ستاره‌ای. ممنون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "appreciate",
+      "really",
+      "thanks"
+     ],
+     "suggestion": "Thanks, I really appreciate it.",
+     "suggestionFa": "ممنون، واقعاً قدردانم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "star",
+     "fa": "ستاره ؛ آدم عالی"
+    },
+    {
+     "word": "appreciate",
+     "fa": "قدردانی کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Ha! \"I really appreciate it.\" Very posh. You sound like the King!",
+   "translations": {
+    "fa": "ها! «واقعاً قدردانم.» خیلی اعیونی. مثل شاه حرف می‌زنی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "formal"
+     ],
+     "suggestion": "Is that too formal?",
+     "suggestionFa": "زیادی رسمیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "then",
+      "say"
+     ],
+     "suggestion": "What do you say, then?",
+     "suggestionFa": "پس تو چی میگی؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "posh",
+     "fa": "اعیانی ؛ رسمی"
+    },
+    {
+     "word": "formal",
+     "fa": "رسمی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "It's fine! I just say \"Cheers\" or \"Ta\". Thanks, Priya — cheers!",
+   "translations": {
+    "fa": "خوبه! من فقط میگم «چیرز» یا «تا». ممنون پریا — چیرز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cheers",
+      "priya"
+     ],
+     "suggestion": "Cheers, Priya!",
+     "suggestionFa": "چیرز پریا!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ta"
+     ],
+     "suggestion": "Ta!",
+     "suggestionFa": "تا!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheers",
+     "fa": "ممنون (عامیانه)"
+    },
+    {
+     "word": "ta",
+     "fa": "مرسی (عامیانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Cheers\" and \"ta\" are informal British ways to say thank you.",
+    "fa": "cheers و ta یعنی ممنون."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Ha! Any time, boys. Next time, use two bags for oranges. They're heavy!",
+   "translations": {
+    "fa": "ها! هر وقت خواستید، پسرها. دفعهٔ بعد برای پرتقال دو تا کیسه بگیرید. سنگینن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

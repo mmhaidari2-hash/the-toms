@@ -1,0 +1,383 @@
+{
+ "id": "l1_u30_1",
+ "characterId": "nicola",
+ "title": "Laying the table",
+ "titleFa": "چیدن میز",
+ "setting": "Helping at home · Level 1",
+ "settingFa": "کمک در خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Mummy says I'm in charge of the table tonight! Will you help me?",
+   "translations": {
+    "fa": "مامان میگه امشب مسئول میز منم! کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "need",
+      "we"
+     ],
+     "suggestion": "Of course! What do we need?",
+     "suggestionFa": "البته! چی لازم داریم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "plates",
+      "where"
+     ],
+     "suggestion": "Yes. Where are the plates?",
+     "suggestionFa": "آره. بشقاب‌ها کجان؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in charge",
+     "fa": "مسئول"
+    },
+    {
+     "word": "lay the table",
+     "fa": "چیدن میز"
+    },
+    {
+     "word": "plates",
+     "fa": "بشقاب‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"lay the table\", American \"set the table\".",
+    "fa": "lay/set the table."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
+   "translations": {
+    "fa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plates",
+      "i'll",
+      "get"
+     ],
+     "suggestion": "I'll get the plates for you.",
+     "suggestionFa": "من بشقاب‌ها را برات میارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "stand",
+      "step",
+      "but"
+     ],
+     "suggestion": "Stand on the step, but be careful.",
+     "suggestionFa": "روی چارپایه بایست، ولی مواظب باش.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "knives",
+     "fa": "چاقوها"
+    },
+    {
+     "word": "forks",
+     "fa": "چنگال‌ها"
+    },
+    {
+     "word": "spoons",
+     "fa": "قاشق‌ها"
+    },
+    {
+     "word": "cupboard",
+     "fa": "کابینت"
+    },
+    {
+     "word": "reach",
+     "fa": "رسیدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
+   "translations": {
+    "fa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plates",
+      "that's",
+      "six"
+     ],
+     "suggestion": "That's six plates.",
+     "suggestionFa": "میشه شش تا بشقاب.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "about"
+     ],
+     "suggestion": "What about William?",
+     "suggestionFa": "ویلیام چی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how many",
+     "fa": "چند تا"
+    },
+    {
+     "word": "six",
+     "fa": "شش"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
+   "translations": {
+    "fa": "ویلیام کاسهٔ مخصوص خودش را داره! روش یه اردکه. کنار مامان میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "fork",
+      "go"
+     ],
+     "suggestion": "Where does the fork go?",
+     "suggestionFa": "چنگال کجا میره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bowl",
+      "duck",
+      "cute"
+     ],
+     "suggestion": "The duck bowl is very cute.",
+     "suggestionFa": "کاسهٔ اردکی خیلی نازه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "special",
+     "fa": "مخصوص"
+    },
+    {
+     "word": "bowl",
+     "fa": "کاسه"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
+   "translations": {
+    "fa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ellis",
+      "well",
+      "done",
+      "mrs"
+     ],
+     "suggestion": "Well done, Mrs Ellis!",
+     "suggestionFa": "آفرین به خانم الیس!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "right",
+      "left",
+      "i'll"
+     ],
+     "suggestion": "Left and right. I'll remember.",
+     "suggestionFa": "چپ و راست. یادم می‌مونه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "left",
+     "fa": "چپ"
+    },
+    {
+     "word": "right",
+     "fa": "راست"
+    },
+    {
+     "word": "taught",
+     "fa": "یاد داد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "fork go left",
+      "the fork going in left"
+     ],
+     "echo": "The fork goes on the left? Yes!",
+     "better": "The fork goes on the left.",
+     "betterFa": "چنگال سمت چپ میره."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
+   "translations": {
+    "fa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "pour",
+      "i'll"
+     ],
+     "suggestion": "Yes, I'll pour the water.",
+     "suggestionFa": "آره، من آب می‌ریزم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "hands",
+      "let's",
+      "hold"
+     ],
+     "suggestion": "Hold it with two hands. Let's do it together.",
+     "suggestionFa": "با دو تا دست بگیرش. با هم انجامش بدیم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glasses",
+     "fa": "لیوان‌ها"
+    },
+    {
+     "word": "pour",
+     "fa": "ریختن"
+    },
+    {
+     "word": "jug",
+     "fa": "پارچ"
+    },
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "And napkins! I folded them like triangles. Do you like them?",
+   "translations": {
+    "fa": "و دستمال سفره! مثل مثلث تاشون کردم. دوستشون داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "triangles",
+      "they're"
+     ],
+     "suggestion": "They're beautiful triangles!",
+     "suggestionFa": "مثلث‌های قشنگی‌ان!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helper",
+      "great"
+     ],
+     "suggestion": "You're a great helper.",
+     "suggestionFa": "کمک‌کار عالی‌ای هستی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "napkins",
+     "fa": "دستمال سفره"
+    },
+    {
+     "word": "folded",
+     "fa": "تا کرد"
+    },
+    {
+     "word": "triangles",
+     "fa": "مثلث‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "MUMMY! The table's ready! Tea time! Everybody sit down!",
+   "translations": {
+    "fa": "مامان! میز آماده‌ست! وقت شامه! همه بشینید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

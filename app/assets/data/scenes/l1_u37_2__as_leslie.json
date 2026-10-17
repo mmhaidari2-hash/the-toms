@@ -1,0 +1,225 @@
+{
+ "id": "l1_u37_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Umbrellas and boots",
+ "titleFa": "(در نقش Leslie) چتر و چکمه",
+ "setting": "Rainy day · Level 1",
+ "settingFa": "روز بارانی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u37_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hallway's",
+      "umbrella",
+      "things",
+      "whose",
+      "full"
+     ],
+     "suggestion": "The hallway's full of wet things! Whose umbrella is this? The pink one.",
+     "suggestionFa": "راهرو پر از وسایل خیسه! این چتر مال کیه؟ صورتیه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I think it's Nicola's.",
+   "translations": {
+    "fa": "فکر کنم مال نیکولاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "wellies",
+      "yours",
+      "these",
+      "green"
+     ],
+     "suggestion": "Yes, it's Nicola's. And these wellies? The big green ones. Are they yours?",
+     "suggestionFa": "آره، مال نیکولاست. و این چکمه‌ها؟ سبزهای بزرگ. مال توئه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, they're mine.",
+   "translations": {
+    "fa": "آره، مال منن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wellies",
+      "ryan's",
+      "clean",
+      "where",
+      "muddy"
+     ],
+     "suggestion": "Ryan's are muddy. These are clean. Where are your wellies, then?",
+     "suggestionFa": "مال رایان گلیه. اینا تمیزن. پس چکمه‌های تو کجان؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I haven't got wellies.",
+   "translations": {
+    "fa": "من چکمه ندارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george's",
+      "wellies",
+      "london",
+      "these",
+      "some"
+     ],
+     "suggestion": "No wellies? In London? You need some! Ah, these are George's.",
+     "suggestionFa": "چکمه نداری؟ تو لندن؟ لازم داری! آه، اینا مال جورجه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Does George wear them?",
+   "translations": {
+    "fa": "جورج می‌پوشتشون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anymore",
+      "doesn't",
+      "borrow",
+      "heart",
+      "rain"
+     ],
+     "suggestion": "Not anymore. He doesn't go out in the rain now, with his heart. Borrow them!",
+     "suggestionFa": "دیگه نه. با این قلبش الان زیر بارون نمیره بیرون. قرضشون بگیر!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thank you. Are they my size?",
+   "translations": {
+    "fa": "ممنون. اندازهٔ منن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "soaking",
+      "whose",
+      "floor",
+      "coat",
+      "them"
+     ],
+     "suggestion": "Try them on. And whose coat is this on the floor? It's soaking!",
+     "suggestionFa": "امتحانشون کن. و این کت رو زمین مال کیه؟ خیس آبه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That's Tom's coat.",
+   "translations": {
+    "fa": "کت تامه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "things",
+      "please",
+      "hooks",
+      "boots"
+     ],
+     "suggestion": "Hang it on the hook, please! Everyone, wet things on the hooks, boots on the mat!",
+     "suggestionFa": "لطفاً آویزونش کن رو قلاب! همه، وسایل خیس رو قلاب، چکمه‌ها رو پادری!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "OK, boss!",
+   "translations": {
+    "fa": "چشم رئیس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "honestly",
+      "swimming",
+      "hallway",
+      "coffee",
+      "thank"
+     ],
+     "suggestion": "By the door. Thank you! Honestly, this hallway is like a swimming pool. I need a coffee.",
+     "suggestionFa": "کنار در. ممنون! راستی این راهرو شبیه استخر شده. یه قهوه لازم دارم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

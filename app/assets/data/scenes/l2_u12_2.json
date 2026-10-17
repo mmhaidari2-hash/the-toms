@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
-      "that's",
-      "thanks",
       "better",
+      "thanks",
+      "that's",
       "much"
      ],
      "suggestion": "Thanks. That's much better.",
@@ -187,9 +187,9 @@
     },
     {
      "keywords": [
+      "when",
       "easy",
       "know",
-      "when",
       "how"
      ],
      "suggestion": "Easy when you know how!",
@@ -274,9 +274,9 @@
    "branches": [
     {
      "keywords": [
-      "one",
+      "how",
       "get",
-      "how"
+      "one"
      ],
      "suggestion": "No. How do I get one?",
      "suggestionFa": "نه. چطوری بگیرم؟",
@@ -334,8 +334,8 @@
      "keywords": [
       "cash",
       "here",
-      "pay",
-      "can"
+      "can",
+      "pay"
      ],
      "suggestion": "Can I pay with cash here?",
      "suggestionFa": "اینجا می‌تونم نقد بدم؟",
@@ -391,8 +391,8 @@
     {
      "keywords": [
       "please",
-      "keep",
-      "them"
+      "them",
+      "keep"
      ],
      "suggestion": "Yes please, I keep them.",
      "suggestionFa": "آره لطفاً، نگهشون می‌دارم.",

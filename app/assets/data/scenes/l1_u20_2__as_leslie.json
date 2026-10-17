@@ -1,0 +1,223 @@
+{
+ "id": "l1_u20_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Leslie at work",
+ "titleFa": "(در نقش Leslie) لزلی سر کار",
+ "setting": "Family jobs · Level 1",
+ "settingFa": "شغل‌های خانواده",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u20_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola's",
+      "teacher",
+      "school",
+      "know",
+      "job"
+     ],
+     "suggestion": "Do you know my job? I'm a teacher at Nicola's school.",
+     "suggestionFa": "شغل منو می‌دونی؟ تو مدرسهٔ نیکولا معلمم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "A teacher? What do you teach?",
+   "translations": {
+    "fa": "معلم؟ چی درس می‌دی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "reception",
+      "nicola's",
+      "they're",
+      "teach"
+     ],
+     "suggestion": "No, I teach Year Four. They're eight and nine. Nicola's in Reception. I teach everything!",
+     "suggestionFa": "نه، من کلاس چهارم درس می‌دم. هشت و نه ساله‌ان. نیکولا تو پیش‌دبستانیه. همه چی درس می‌دم!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That sounds lovely.",
+   "translations": {
+    "fa": "به نظر خیلی قشنگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "laugh",
+      "cries",
+      "every",
+      "child"
+     ],
+     "suggestion": "I love them! Every day is different. Some days a child cries, some days they make me laugh.",
+     "suggestionFa": "عاشقشونم! هر روز فرق داره. بعضی روزها یه بچه گریه می‌کنه، بعضی روزها منو می‌خندونن.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What time do you start?",
+   "translations": {
+    "fa": "ساعت چند شروع می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collect",
+      "nicola",
+      "finish",
+      "eight",
+      "three"
+     ],
+     "suggestion": "I start at half past eight and finish at half past three. Then I collect Nicola.",
+     "suggestionFa": "ساعت هشت و نیم شروع می‌کنم و سه و نیم تموم می‌کنم. بعد نیکولا را برمی‌دارم.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "That's very handy.",
+   "translations": {
+    "fa": "خیلی راحته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "william",
+      "family",
+      "looks",
+      "after"
+     ],
+     "suggestion": "Weda looks after William. She's wonderful. What does your family do?",
+     "suggestionFa": "ودا از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "My father is a doctor.",
+   "translations": {
+    "fa": "پدرم دکتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "interesting",
+      "like",
+      "she"
+     ],
+     "suggestion": "Interesting! Does she like it?",
+     "suggestionFa": "جالبه! دوستش داره؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, she likes numbers.",
+   "translations": {
+    "fa": "آره، اعداد دوست داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spellings",
+      "tonight",
+      "little",
+      "twenty",
+      "lovely"
+     ],
+     "suggestion": "Lovely. Oh, I must mark these spellings tonight. Twenty-eight little books!",
+     "suggestionFa": "عالی. آه، امشب باید این دیکته‌ها را تصحیح کنم. بیست و هشت تا دفتر کوچولو!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Can I help you?",
+   "translations": {
+    "fa": "می‌تونم کمکت کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "stars",
+      "would",
+      "gold",
+      "love"
+     ],
+     "suggestion": "Ooh, would you? You can put the gold stars on! The children love gold stars.",
+     "suggestionFa": "اوه، واقعاً؟ می‌تونی ستاره‌های طلایی را بچسبونی! بچه‌ها عاشق ستارهٔ طلایی‌ان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

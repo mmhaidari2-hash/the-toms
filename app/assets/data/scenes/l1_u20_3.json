@@ -1,0 +1,407 @@
+{
+ "id": "l1_u20_3",
+ "characterId": "weda",
+ "title": "Nana's old job",
+ "titleFa": "شغل قدیمی نانا",
+ "setting": "Family jobs · Level 1",
+ "settingFa": "شغل‌های خانواده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Do you know, I worked here at this library for thirty years!",
+   "translations": {
+    "fa": "می‌دونستی، من سی سال همین‌جا تو این کتابخونه کار کردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "thirty",
+      "years"
+     ],
+     "suggestion": "Really? Thirty years?",
+     "suggestionFa": "واقعاً؟ سی سال؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "librarian",
+      "were"
+     ],
+     "suggestion": "Were you a librarian?",
+     "suggestionFa": "کتابدار بودید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worked",
+     "fa": "کار کرد"
+    },
+    {
+     "word": "library",
+     "fa": "کتابخانه"
+    },
+    {
+     "word": "librarian",
+     "fa": "کتابدار"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Yes, I was a librarian. I loved it. Books, books, books!",
+   "translations": {
+    "fa": "آره، کتابدار بودم. عاشقش بودم. کتاب، کتاب، کتاب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "day"
+     ],
+     "suggestion": "What did you do every day?",
+     "suggestionFa": "هر روز چی کار می‌کردید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "books",
+      "read",
+      "all"
+     ],
+     "suggestion": "Did you read all the books?",
+     "suggestionFa": "همهٔ کتاب‌ها را خوندید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loved",
+     "fa": "دوست داشت"
+    },
+    {
+     "word": "every day",
+     "fa": "هر روز"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Not all! I helped people find books. I read stories to children on Saturdays.",
+   "translations": {
+    "fa": "همه نه! به مردم کمک می‌کردم کتاب پیدا کنن. شنبه‌ها برای بچه‌ها قصه می‌خوندم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "sounds"
+     ],
+     "suggestion": "That sounds wonderful.",
+     "suggestionFa": "خیلی قشنگ به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "child",
+      "here",
+      "come"
+     ],
+     "suggestion": "Did Leslie come here as a child?",
+     "suggestionFa": "لزلی بچه که بود میومد اینجا؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "helped",
+     "fa": "کمک کرد"
+    },
+    {
+     "word": "read",
+     "fa": "خواند"
+    },
+    {
+     "word": "stories",
+     "fa": "داستان‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Every Saturday! She sat right there, on that red chair.",
+   "translations": {
+    "fa": "هر شنبه! درست اونجا، رو اون صندلی قرمز می‌نشست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweet",
+      "how"
+     ],
+     "suggestion": "On that chair? How sweet!",
+     "suggestionFa": "رو اون صندلی؟ چه ناز!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "same"
+     ],
+     "suggestion": "Is it the same chair?",
+     "suggestionFa": "همون صندلیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sat",
+     "fa": "نشست"
+    },
+    {
+     "word": "chair",
+     "fa": "صندلی"
+    },
+    {
+     "word": "same",
+     "fa": "همان"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Hello, Weda! Lovely to see you. Is this your friend?",
+   "translations": {
+    "fa": "سلام ودا! خوشحالم می‌بینمت. این دوستته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hello",
+      "nice",
+      "meet"
+     ],
+     "suggestion": "Hello! Nice to meet you.",
+     "suggestionFa": "سلام! از آشنایی‌تون خوشبختم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "showing",
+      "library",
+      "weda"
+     ],
+     "suggestion": "Yes. Weda is showing me the library.",
+     "suggestionFa": "آره. ودا داره کتابخونه را نشونم می‌ده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lovely to see you",
+     "fa": "خوشحالم می‌بینمت"
+    },
+    {
+     "word": "showing",
+     "fa": "نشان دادن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "bennett",
+   "text": "Weda was my boss. She was the best boss! Did she tell you about the flood?",
+   "translations": {
+    "fa": "ودا رئیس من بود. بهترین رئیس بود! ماجرای سیل را برات تعریف کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened"
+     ],
+     "suggestion": "No. What happened?",
+     "suggestionFa": "نه. چی شد؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "library",
+      "flood"
+     ],
+     "suggestion": "A flood? In the library?",
+     "suggestionFa": "سیل؟ تو کتابخونه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boss",
+     "fa": "رئیس"
+    },
+    {
+     "word": "flood",
+     "fa": "سیل"
+    },
+    {
+     "word": "happened",
+     "fa": "اتفاق افتاد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what happen",
+      "what is happened"
+     ],
+     "echo": "What happened? Oh, it's a good story!",
+     "better": "What happened?",
+     "betterFa": "چی شد؟"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "A pipe burst in 1998. Water everywhere! We carried the books upstairs all night.",
+   "translations": {
+    "fa": "سال ۱۹۹۸ یه لوله ترکید. همه جا آب! تمام شب کتاب‌ها را بردیم طبقهٔ بالا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brave",
+      "night",
+      "were",
+      "all"
+     ],
+     "suggestion": "All night? You were very brave.",
+     "suggestionFa": "تمام شب؟ خیلی شجاع بودید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "books",
+      "save",
+      "did"
+     ],
+     "suggestion": "Did you save the books?",
+     "suggestionFa": "کتاب‌ها را نجات دادید؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pipe",
+     "fa": "لوله"
+    },
+    {
+     "word": "burst",
+     "fa": "ترکید"
+    },
+    {
+     "word": "carried",
+     "fa": "حمل کرد"
+    },
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Most of them! Now I just come here to read and use the computers. I'm a customer now!",
+   "translations": {
+    "fa": "بیشترشون را! حالا فقط میام اینجا که بخونم و از کامپیوترها استفاده کنم. الان مشتری‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "working",
+      "here",
+      "miss"
+     ],
+     "suggestion": "Do you miss working here?",
+     "suggestionFa": "دلتون برای کار اینجا تنگ شده؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "library",
+      "lucky",
+      "have"
+     ],
+     "suggestion": "The library is lucky to have you.",
+     "suggestionFa": "کتابخونه خوش‌شانسه که شما را داره.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "customer",
+     "fa": "مشتری"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ بودن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "Sometimes. But now I've got time for my grandchildren — and for you! Shall we get you a library card?",
+   "translations": {
+    "fa": "گاهی. ولی حالا برای نوه‌هام وقت دارم — و برای تو! بریم برات یه کارت کتابخونه بگیریم؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

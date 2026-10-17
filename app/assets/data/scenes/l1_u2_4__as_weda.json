@@ -23,8 +23,8 @@
      "keywords": [
       "cupboard",
       "scones",
-      "flour",
       "let's",
+      "flour",
       "make"
      ],
      "suggestion": "Let's make scones, dear. Can you get the flour? It's in the cupboard.",
@@ -49,8 +49,8 @@
       "butter",
       "fridge",
       "sugar",
-      "need",
-      "milk"
+      "milk",
+      "need"
      ],
      "suggestion": "The one by the fridge. Now we need butter, sugar and milk.",
      "suggestionFa": "همونی که کنار یخچاله. حالا کره، شکر و شیر لازم داریم.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "lovely",
+      "please",
       "spoon",
       "bowl",
-      "now"
+      "big"
      ],
      "suggestion": "Lovely. Now, a bowl and a big spoon, please.",
      "suggestionFa": "عالی. حالا یه کاسه و یه قاشق بزرگ، لطفاً.",
@@ -122,9 +122,9 @@
      "keywords": [
       "circles",
       "little",
-      "good",
       "milk",
-      "more"
+      "more",
+      "good"
      ],
      "suggestion": "Add a little more milk. Good! Now we cut circles.",
      "suggestionFa": "یه کم دیگه شیر اضافه کن. خوبه! حالا دایره می‌بُریم.",
@@ -148,8 +148,8 @@
       "careful",
       "minutes",
       "fifteen",
-      "think",
-      "eight"
+      "eight",
+      "think"
      ],
      "suggestion": "Eight, I think. Into the oven for fifteen minutes. Careful, it's very hot.",
      "suggestionFa": "فکر کنم هشت‌تا. پونزده دقیقه توی فر. مواظب باش، خیلی داغه.",
@@ -199,7 +199,7 @@
       "that's",
       "cream",
       "first",
-      "then"
+      "dear"
      ],
      "suggestion": "Jam first, then cream. That's the Cornish way. Try one, dear.",
      "suggestionFa": "اول مربا، بعد خامه. این روش کورنوالیه. یکی امتحان کن عزیزم.",
@@ -224,7 +224,7 @@
       "nicola",
       "teach",
       "next",
-      "time"
+      "dear"
      ],
      "suggestion": "You're a natural, dear. Next time, you can teach Nicola!",
      "suggestionFa": "تو ذاتاً بلدی عزیزم. دفعهٔ بعد می‌تونی به نیکولا یاد بدی!",

@@ -1,0 +1,257 @@
+{
+ "id": "l1_u40_4__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Pancake Day",
+ "titleFa": "(در نقش Ryan) روز پنکیک",
+ "setting": "Simple cooking · Level 1",
+ "settingFa": "آشپزی ساده",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u40_4",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pancakes",
+      "pancake",
+      "going",
+      "year",
+      "have"
+     ],
+     "suggestion": "It's Pancake Day! Best day of the year. Are you going to have pancakes with us?",
+     "suggestionFa": "روز پنکیکه! بهترین روز سال. با ما پنکیک می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes! What's Pancake Day?",
+   "translations": {
+    "fa": "آره! روز پنکیک چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pancakes",
+      "everyone",
+      "february",
+      "tuesday",
+      "going"
+     ],
+     "suggestion": "It's a Tuesday in February or March. Everyone eats pancakes! I'm going to flip them.",
+     "suggestionFa": "یه سه‌شنبه تو فوریه یا مارسه. همه پنکیک می‌خورن! من می‌خوام برشون گردونم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Can you flip them?",
+   "translations": {
+    "fa": "بلدی برشون گردونی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flipping",
+      "batter",
+      "going",
+      "flour",
+      "milk"
+     ],
+     "suggestion": "Easy. Flour, eggs, milk. Mum made the batter. I'm going to do the flipping!",
+     "suggestionFa": "آسونه. آرد، تخم‌مرغ، شیر. مامان خمیرش را درست کرده. من برگردوندن را انجام میدم!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What's batter?",
+   "translations": {
+    "fa": "بتر چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "three",
+      "watch",
+      "flip",
+      "high"
+     ],
+     "suggestion": "Really high! Watch this… One, two, three… FLIP!",
+     "suggestionFa": "خیلی بالا! اینو ببین… یک، دو، سه… فلیپ!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Wow! You caught it!",
+   "translations": {
+    "fa": "وای! گرفتیش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "caught",
+      "going",
+      "brave",
+      "try",
+      "now"
+     ],
+     "suggestion": "Ha, I caught it! Now you try. Are you going to be brave?",
+     "suggestionFa": "ها، گرفتمش! حالا تو امتحان کن. می‌خوای شجاع باشی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I'm going to try.",
+   "translations": {
+    "fa": "امتحان می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ceiling",
+      "dad's",
+      "head",
+      "oh",
+      "go"
+     ],
+     "suggestion": "Go on! … Oh! It's on the ceiling! No — it's on Dad's head!",
+     "suggestionFa": "بزن دیگه! … آه! رفت رو سقف! نه — رو سر بابا افتاد!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Sorry, Tom!",
+   "translations": {
+    "fa": "ببخشید تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "tom",
+   "text": "Now that's a pancake hat! Nice one. What are you going to put on yours, Mehdi?",
+   "translations": {
+    "fa": "این شد کلاه پنکیکی! خوب بود. رو مال خودت چی می‌خوای بذاری {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lemon",
+     "fa": "لیمو"
+    },
+    {
+     "word": "sugar",
+     "fa": "شکر"
+    }
+   ],
+   "cultureNote": {
+    "en": "The classic British pancake topping is lemon juice and sugar.",
+    "fa": "لیمو و شکر رایج‌ترین رویه."
+   }
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Lemon and sugar, please.",
+   "translations": {
+    "fa": "لیمو و شکر، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "classic",
+      "twenty",
+      "dad's",
+      "going",
+      "lemon"
+     ],
+     "suggestion": "Classic! Lemon and sugar. Next year, I'm going to make twenty. And none on Dad's head!",
+     "suggestionFa": "کلاسیک! لیمو و شکر. سال بعد می‌خوام بیست تا درست کنم. و هیچ‌کدوم رو سر بابا نیفته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

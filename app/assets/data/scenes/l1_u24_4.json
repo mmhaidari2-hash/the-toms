@@ -1,0 +1,366 @@
+{
+ "id": "l1_u24_4",
+ "characterId": "leslie",
+ "title": "Cheer up!",
+ "titleFa": "شاد باش!",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "You look a bit down today. Are you OK, love?",
+   "translations": {
+    "fa": "امروز یه کم دمغی. خوبی عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "homesick",
+      "bit"
+     ],
+     "suggestion": "I'm a bit homesick.",
+     "suggestionFa": "یه کم دلتنگ وطنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tired",
+      "fine",
+      "just"
+     ],
+     "suggestion": "I'm fine, just tired.",
+     "suggestionFa": "خوبم، فقط خسته‌ام.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "down",
+     "fa": "دمغ ؛ ناراحت"
+    },
+    {
+     "word": "homesick",
+     "fa": "دلتنگ وطن"
+    },
+    {
+     "word": "tired",
+     "fa": "خسته"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Homesick. That's normal. You're a long way from home. What do you miss?",
+   "translations": {
+    "fa": "دلتنگ وطن. طبیعیه. خیلی از خونه دوری. دلت برای چی تنگ شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cooking",
+      "mum's"
+     ],
+     "suggestion": "I miss my mum's cooking.",
+     "suggestionFa": "دلم برای دستپخت مامانم تنگ شده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friends"
+     ],
+     "suggestion": "I miss my friends.",
+     "suggestionFa": "دلم برای دوستام تنگ شده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "normal",
+     "fa": "طبیعی"
+    },
+    {
+     "word": "miss",
+     "fa": "دلتنگ بودن"
+    },
+    {
+     "word": "cooking",
+     "fa": "آشپزی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i miss to my mum",
+      "i am missing my mother cooking"
+     ],
+     "echo": "You miss your mum's cooking? Of course.",
+     "better": "I miss my mum's cooking.",
+     "betterFa": "دلم برای دستپخت مامانم تنگ شده."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Of course. Why don't you call her tonight?",
+   "translations": {
+    "fa": "البته. چرا امشب بهش زنگ نمی‌زنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "evening",
+      "tehran",
+      "good",
+      "idea"
+     ],
+     "suggestion": "Good idea. It's evening in Tehran.",
+     "suggestionFa": "فکر خوبیه. تو تهران عصره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sunday",
+      "every",
+      "call",
+      "her"
+     ],
+     "suggestion": "I call her every Sunday.",
+     "suggestionFa": "هر یکشنبه بهش زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "why don't you",
+     "fa": "چرا ... نمی‌کنی"
+    },
+    {
+     "word": "tonight",
+     "fa": "امشب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Lovely. And how about cooking a Persian dish here? You can teach us!",
+   "translations": {
+    "fa": "عالی. و چطوره اینجا یه غذای ایرانی بپزی؟ می‌تونی به ما یاد بدی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "would",
+      "fun"
+     ],
+     "suggestion": "Really? That would be fun!",
+     "suggestionFa": "واقعاً؟ خیلی خوش می‌گذره!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ghormeh",
+      "sabzi",
+      "make",
+      "can"
+     ],
+     "suggestion": "I can make ghormeh sabzi.",
+     "suggestionFa": "می‌تونم قرمه‌سبزی درست کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how about",
+     "fa": "چطور است"
+    },
+    {
+     "word": "dish",
+     "fa": "غذا"
+    },
+    {
+     "word": "teach",
+     "fa": "یاد دادن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Ghormeh sabzi! What's in it?",
+   "translations": {
+    "fa": "قرمه‌سبزی! توش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lemons",
+      "dried",
+      "beans",
+      "meat"
+     ],
+     "suggestion": "Herbs, beans, meat and dried lemons.",
+     "suggestionFa": "سبزی، لوبیا، گوشت و لیمو عمانی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "delicious",
+      "green",
+      "lots"
+     ],
+     "suggestion": "Lots of green herbs. It's delicious!",
+     "suggestionFa": "کلی سبزی. خوشمزه‌ست!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "herbs",
+     "fa": "سبزی"
+    },
+    {
+     "word": "beans",
+     "fa": "لوبیا"
+    },
+    {
+     "word": "meat",
+     "fa": "گوشت"
+    },
+    {
+     "word": "dried lemons",
+     "fa": "لیمو عمانی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "It sounds amazing. Let's go to the Persian shop on Saturday. Is there one near here?",
+   "translations": {
+    "fa": "خیلی عالی به نظر میاد. بیا شنبه بریم مغازهٔ ایرانی. اینجا نزدیک هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "high"
+     ],
+     "suggestion": "Yes, there's one on the high street.",
+     "suggestionFa": "آره، یکی تو خیابون اصلی هست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "london",
+      "north",
+      "think"
+     ],
+     "suggestion": "I think there's one in north London.",
+     "suggestionFa": "فکر کنم یکی تو شمال لندن هست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "near",
+     "fa": "نزدیک"
+    },
+    {
+     "word": "high street",
+     "fa": "خیابان اصلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "London has many Persian shops and restaurants, especially in Kensington and north-west London.",
+    "fa": "لندن مغازه‌های ایرانی زیادی دارد."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Perfect. Now let's go for a walk. Fresh air helps.",
+   "translations": {
+    "fa": "عالی. حالا بیا بریم قدم بزنیم. هوای تازه کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coat",
+      "get",
+      "let",
+      "ok"
+     ],
+     "suggestion": "OK. Let me get my coat.",
+     "suggestionFa": "باشه. بذار کتم را بیارم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "come",
+      "can"
+     ],
+     "suggestion": "Can William come too?",
+     "suggestionFa": "ویلیام هم می‌تونه بیاد؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walk",
+     "fa": "پیاده‌روی"
+    },
+    {
+     "word": "fresh air",
+     "fa": "هوای تازه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Of course! And we'll get a cake on the way back. Cheer up, love — you've got a family here too.",
+   "translations": {
+    "fa": "البته! و تو راه برگشت یه کیک می‌گیریم. شاد باش عزیزم — اینجا هم خانواده داری."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

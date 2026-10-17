@@ -1,0 +1,378 @@
+{
+ "id": "l1_u30_4",
+ "characterId": "leslie",
+ "title": "Watering the plants",
+ "titleFa": "آب دادن به گلدان‌ها",
+ "setting": "Helping at home · Level 1",
+ "settingFa": "کمک در خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "{you}, we're going to Cornwall for a week. Could you water our plants?",
+   "translations": {
+    "fa": "{you}، یه هفته میریم کورنوال. می‌تونی به گلدون‌هامون آب بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "often",
+      "how"
+     ],
+     "suggestion": "Of course. How often?",
+     "suggestionFa": "البته. هر چند وقت؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "problem",
+      "plants",
+      "which"
+     ],
+     "suggestion": "Yes, no problem. Which plants?",
+     "suggestionFa": "آره، مشکلی نیست. کدوم گلدون‌ها؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "water",
+     "fa": "آب دادن"
+    },
+    {
+     "word": "plants",
+     "fa": "گیاهان ؛ گلدان‌ها"
+    },
+    {
+     "word": "how often",
+     "fa": "هر چند وقت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Cornwall in south-west England is a very popular family holiday place.",
+    "fa": "کورنوال مقصد محبوب تعطیلات."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Thank you! These ones on the windowsill. Every two days is fine.",
+   "translations": {
+    "fa": "ممنون! اینایی که لب پنجره‌ان. هر دو روز یه بار خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "days",
+      "two",
+      "ok"
+     ],
+     "suggestion": "Every two days. OK.",
+     "suggestionFa": "هر دو روز. باشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "water",
+      "much",
+      "need",
+      "they"
+     ],
+     "suggestion": "How much water do they need?",
+     "suggestionFa": "چقدر آب لازم دارن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "windowsill",
+     "fa": "لبهٔ پنجره"
+    },
+    {
+     "word": "every two days",
+     "fa": "هر دو روز"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Just a little. Half a cup each. The cactus doesn't need any. Don't water it!",
+   "translations": {
+    "fa": "فقط یه کم. هر کدوم نصف لیوان. کاکتوس اصلاً لازم نداره. بهش آب نده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "for"
+     ],
+     "suggestion": "No water for the cactus.",
+     "suggestionFa": "به کاکتوس آب نمیدم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "need",
+      "why"
+     ],
+     "suggestion": "Why doesn't the cactus need water?",
+     "suggestionFa": "چرا کاکتوس آب نمی‌خواد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a little",
+     "fa": "کمی"
+    },
+    {
+     "word": "half",
+     "fa": "نصف"
+    },
+    {
+     "word": "cactus",
+     "fa": "کاکتوس"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "It's from the desert! Would you mind feeding Goldie too? Nicola's goldfish.",
+   "translations": {
+    "fa": "از بیابونه! زحمت غذا دادن به گلدی را هم می‌کشی؟ ماهی قرمز نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "mind",
+      "all"
+     ],
+     "suggestion": "I don't mind at all.",
+     "suggestionFa": "اصلاً زحمتی نیست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "goldie",
+      "much",
+      "food",
+      "how"
+     ],
+     "suggestion": "How much food does Goldie eat?",
+     "suggestionFa": "گلدی چقدر غذا می‌خوره?",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "would you mind",
+     "fa": "زحمتش را می‌کشی ؛ اشکالی ندارد"
+    },
+    {
+     "word": "goldfish",
+     "fa": "ماهی قرمز"
+    },
+    {
+     "word": "desert",
+     "fa": "بیابان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Answer \"Would you mind…?\" with \"Not at all\" or \"No problem\" — \"Yes\" means you DO mind!",
+    "fa": "جواب منفی یعنی موافقت."
+   },
+   "recasts": [
+    {
+     "match": [
+      "yes i mind",
+      "i am not mind"
+     ],
+     "echo": "Not at all? Wonderful!",
+     "better": "I don't mind at all.",
+     "betterFa": "اصلاً زحمتی نیست."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Just a pinch, once a day. Not more! Nicola will cry if Goldie gets fat.",
+   "translations": {
+    "fa": "فقط یه ذره، روزی یه بار. نه بیشتر! اگه گلدی چاق بشه نیکولا گریه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pinch",
+      "once",
+      "day",
+      "got"
+     ],
+     "suggestion": "A pinch once a day. Got it.",
+     "suggestionFa": "یه ذره روزی یه بار. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "goldie",
+      "photo",
+      "send"
+     ],
+     "suggestion": "I'll send Nicola a photo of Goldie!",
+     "suggestionFa": "یه عکس از گلدی برای نیکولا می‌فرستم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pinch",
+     "fa": "یک ذره"
+    },
+    {
+     "word": "once a day",
+     "fa": "روزی یه بار"
+    },
+    {
+     "word": "fat",
+     "fa": "چاق"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "She'll love that! Here's the spare key. Could you put the bins out on Tuesday too?",
+   "translations": {
+    "fa": "عاشقش میشه! اینم کلید یدک. می‌شه سه‌شنبه سطل‌ها را هم بذاری بیرون؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "week",
+      "bin"
+     ],
+     "suggestion": "Which bin is it this week?",
+     "suggestionFa": "این هفته کدوم سطل؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sure",
+      "mine",
+      "i'll",
+      "same"
+     ],
+     "suggestion": "Sure. I'll put mine out at the same time.",
+     "suggestionFa": "حتماً. مال خودم را هم همون موقع می‌ذارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spare key",
+     "fa": "کلید یدک"
+    },
+    {
+     "word": "bins",
+     "fa": "سطل‌های زباله"
+    },
+    {
+     "word": "put out",
+     "fa": "بیرون گذاشتن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "The green one, recycling. You're an angel. I'll bring you some fudge from Cornwall!",
+   "translations": {
+    "fa": "سبزه، بازیافت. فرشته‌ای. از کورنوال برات فاج میارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "fudge"
+     ],
+     "suggestion": "Fudge? Yes, please!",
+     "suggestionFa": "فاج؟ آره لطفاً!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "holiday",
+      "lovely",
+      "have"
+     ],
+     "suggestion": "Have a lovely holiday!",
+     "suggestionFa": "تعطیلات خوبی داشته باشید!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recycling",
+     "fa": "بازیافت"
+    },
+    {
+     "word": "angel",
+     "fa": "فرشته"
+    },
+    {
+     "word": "fudge",
+     "fa": "فاج (نوعی شیرینی)"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Thanks, love. And if there's a problem, Mrs Khan at number fourteen has our number too.",
+   "translations": {
+    "fa": "ممنون عزیزم. و اگه مشکلی بود، خانم خان پلاک چهارده هم شماره‌مون را داره."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

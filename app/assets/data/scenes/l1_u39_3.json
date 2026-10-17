@@ -1,0 +1,367 @@
+{
+ "id": "l1_u39_3",
+ "characterId": "leslie",
+ "title": "Where does this go?",
+ "titleFa": "این کجا می‌رود؟",
+ "setting": "Cleaning day · Level 1",
+ "settingFa": "روز نظافت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Thanks for helping, {you}. The kitchen's a mess. Can you put the shopping away?",
+   "translations": {
+    "fa": "ممنون که کمک می‌کنی {you}. آشپزخونه به هم ریخته‌ست. می‌تونی خریدها را بچینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "milk",
+      "go"
+     ],
+     "suggestion": "Yes. Where does the milk go?",
+     "suggestionFa": "آره. شیر کجا میره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "start",
+      "sure"
+     ],
+     "suggestion": "Sure. Where do I start?",
+     "suggestionFa": "حتماً. از کجا شروع کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mess",
+     "fa": "به‌هم‌ریختگی"
+    },
+    {
+     "word": "put away",
+     "fa": "سر جایش گذاشتن"
+    },
+    {
+     "word": "shopping",
+     "fa": "خرید"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Milk goes in the fridge. In the door, at the bottom.",
+   "translations": {
+    "fa": "شیر میره تو یخچال. تو در، پایین."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "eggs",
+      "got"
+     ],
+     "suggestion": "Got it. What about the eggs?",
+     "suggestionFa": "فهمیدم. تخم‌مرغ چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter"
+     ],
+     "suggestion": "And the butter?",
+     "suggestionFa": "و کره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fridge",
+     "fa": "یخچال"
+    },
+    {
+     "word": "door",
+     "fa": "در"
+    },
+    {
+     "word": "bottom",
+     "fa": "پایین"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Butter goes in the fridge too. Eggs go in the cupboard.",
+   "translations": {
+    "fa": "کره هم میره تو یخچال. تخم‌مرغ‌ها میرن تو کابینت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridge"
+     ],
+     "suggestion": "In the cupboard? Not the fridge?",
+     "suggestionFa": "تو کابینت؟ نه یخچال؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "ok"
+     ],
+     "suggestion": "OK. Which cupboard?",
+     "suggestionFa": "باشه. کدوم کابینت؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cupboard",
+     "fa": "کابینت"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, eggs are often kept in the cupboard, not the fridge. In America they must go in the fridge.",
+    "fa": "تخم‌مرغ بیرون از یخچال."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "British eggs are fine in the cupboard! The one above the kettle. What's next?",
+   "translations": {
+    "fa": "تخم‌مرغ بریتانیایی تو کابینت خوبه! همونی که بالای کتریه. بعدی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rice",
+      "big",
+      "bag"
+     ],
+     "suggestion": "A big bag of rice.",
+     "suggestionFa": "یه کیسهٔ بزرگ برنج.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomatoes",
+      "tins"
+     ],
+     "suggestion": "Tins of tomatoes.",
+     "suggestionFa": "کنسرو گوجه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "above",
+     "fa": "بالای"
+    },
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    },
+    {
+     "word": "tins",
+     "fa": "قوطی‌ها ؛ کنسروها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Rice and tins go in the tall cupboard. The bottom shelf.",
+   "translations": {
+    "fa": "برنج و کنسروها میرن تو کابینت بلنده. قفسهٔ پایینی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "bread",
+      "go"
+     ],
+     "suggestion": "Where does the bread go?",
+     "suggestionFa": "نون کجا میره؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "heavy"
+     ],
+     "suggestion": "They're very heavy!",
+     "suggestionFa": "خیلی سنگینن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tall",
+     "fa": "بلند"
+    },
+    {
+     "word": "bottom shelf",
+     "fa": "قفسهٔ پایینی"
+    },
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "where go the bread",
+      "the bread where goes"
+     ],
+     "echo": "Where does the bread go? In the bread bin!",
+     "better": "Where does the bread go?",
+     "betterFa": "نون کجا میره؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "In the bread bin, next to the toaster. And the bananas go in the fruit bowl.",
+   "translations": {
+    "fa": "تو جانونی، کنار توستر. و موزها میرن تو کاسهٔ میوه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "done"
+     ],
+     "suggestion": "Done! What's this?",
+     "suggestionFa": "تموم شد! این چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "washing",
+      "powder",
+      "where",
+      "go"
+     ],
+     "suggestion": "Where does the washing powder go?",
+     "suggestionFa": "پودر لباسشویی کجا میره؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bread bin",
+     "fa": "جانانی"
+    },
+    {
+     "word": "toaster",
+     "fa": "توستر"
+    },
+    {
+     "word": "fruit bowl",
+     "fa": "کاسهٔ میوه"
+    },
+    {
+     "word": "washing powder",
+     "fa": "پودر لباسشویی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Washing powder goes under the sink. Up high, actually. Away from William!",
+   "translations": {
+    "fa": "پودر لباسشویی میره زیر سینک. راستش، بالا. دور از دسترس ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "babies",
+      "touch",
+      "good"
+     ],
+     "suggestion": "Good idea. Babies touch everything.",
+     "suggestionFa": "فکر خوبیه. بچه‌ها به همه چی دست می‌زنن.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shelf",
+      "i'll",
+      "put",
+      "top"
+     ],
+     "suggestion": "I'll put it on the top shelf.",
+     "suggestionFa": "می‌ذارمش رو قفسهٔ بالایی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    },
+    {
+     "word": "away from",
+     "fa": "دور از"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Perfect. You know my kitchen better than Tom now! He puts the milk in the cupboard!",
+   "translations": {
+    "fa": "عالی. الان آشپزخونه‌م را از تام بهتر بلدی! اون شیر را تو کابینت می‌ذاره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

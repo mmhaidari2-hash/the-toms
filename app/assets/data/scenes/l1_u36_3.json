@@ -1,0 +1,362 @@
+{
+ "id": "l1_u36_3",
+ "characterId": "nicola",
+ "title": "Football in the garden",
+ "titleFa": "فوتبال در حیاط",
+ "setting": "Hobbies · Level 1",
+ "settingFa": "سرگرمی‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "It's sunny! Let's play football in the garden! Me and Mia against you!",
+   "translations": {
+    "fa": "آفتابیه! بیا تو حیاط فوتبال بازی کنیم! من و میا در برابر تو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "against",
+      "that's",
+      "fair",
+      "two"
+     ],
+     "suggestion": "Two against one? That's not fair!",
+     "suggestionFa": "دو به یک؟ منصفانه نیست!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "play",
+      "ok"
+     ],
+     "suggestion": "OK! Let's play!",
+     "suggestionFa": "باشه! بیاید بازی کنیم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "garden",
+     "fa": "حیاط ؛ باغچه"
+    },
+    {
+     "word": "against",
+     "fa": "در برابر"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"garden\", American \"yard\" (for the grass area by a house).",
+    "fa": "garden/yard."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "mia",
+   "text": "You're a grown-up. You're bigger! The goal is between the two trees.",
+   "translations": {
+    "fa": "تو بزرگسالی. بزرگ‌تری! دروازه بین اون دو تا درخته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goal"
+     ],
+     "suggestion": "And my goal?",
+     "suggestionFa": "و دروازهٔ من؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "ball"
+     ],
+     "suggestion": "Where's the ball?",
+     "suggestionFa": "توپ کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grown-up",
+     "fa": "بزرگسال"
+    },
+    {
+     "word": "goal",
+     "fa": "دروازه ؛ گل"
+    },
+    {
+     "word": "between",
+     "fa": "بین"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Your goal is the shed! The ball is under the bush. Can you get it?",
+   "translations": {
+    "fa": "دروازه‌ت انباریه! توپ زیر بوته‌ست. می‌تونی بیاریش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Yes, here it is.",
+     "suggestionFa": "آره، ایناهاش.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "muddy"
+     ],
+     "suggestion": "It's very muddy!",
+     "suggestionFa": "خیلی گلیه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shed",
+     "fa": "انباری"
+    },
+    {
+     "word": "bush",
+     "fa": "بوته"
+    },
+    {
+     "word": "muddy",
+     "fa": "گلی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Kick off! Mia, pass to me! Pass! Pass!",
+   "translations": {
+    "fa": "شروع! میا، پاس بده به من! پاس! پاس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coming",
+      "get"
+     ],
+     "suggestion": "I'm coming to get it!",
+     "suggestionFa": "دارم میام بگیرمش!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "pass",
+      "mia"
+     ],
+     "suggestion": "Good pass, Mia!",
+     "suggestionFa": "پاس خوبی بود میا!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kick off",
+     "fa": "شروع بازی"
+    },
+    {
+     "word": "pass",
+     "fa": "پاس دادن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "mia",
+   "text": "GOAL! Nicola scored! One–nil to us!",
+   "translations": {
+    "fa": "گل! نیکولا گل زد! یک صفر به نفع ما!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done, Nicola!",
+     "suggestionFa": "آفرین نیکولا!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "losing",
+      "nil",
+      "one"
+     ],
+     "suggestion": "One–nil? I'm losing!",
+     "suggestionFa": "یک صفر؟ دارم می‌بازم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scored",
+     "fa": "گل زد"
+    },
+    {
+     "word": "nil",
+     "fa": "صفر"
+    },
+    {
+     "word": "losing",
+     "fa": "باختن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In football scores, British people say \"nil\" for zero: \"two–nil\".",
+    "fa": "nil یعنی صفر."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Now it's your turn to kick. Can you score?",
+   "translations": {
+    "fa": "حالا نوبت توئه شوت بزنی. می‌تونی گل بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "going",
+      "hard"
+     ],
+     "suggestion": "I'm going to kick it hard!",
+     "suggestionFa": "محکم شوت می‌زنم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "gently",
+      "can"
+     ],
+     "suggestion": "Can I kick it gently? You're little!",
+     "suggestionFa": "می‌تونم آروم شوت بزنم؟ شما کوچیکید!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn",
+     "fa": "نوبت"
+    },
+    {
+     "word": "hard",
+     "fa": "محکم"
+    },
+    {
+     "word": "gently",
+     "fa": "آرام"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i will kicking it",
+      "i going to kick"
+     ],
+     "echo": "You're going to kick it? Go on!",
+     "better": "I'm going to kick it.",
+     "betterFa": "می‌خوام شوتش کنم."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "mia",
+   "text": "Oh no! It went over the fence. Into Mrs Khan's garden!",
+   "translations": {
+    "fa": "ای وای! از رو حصار رفت. تو حیاط خانم خان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "oops"
+     ],
+     "suggestion": "Oops! Sorry!",
+     "suggestionFa": "اوه! ببخشید!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "khan",
+      "mrs",
+      "ask"
+     ],
+     "suggestion": "Let's go and ask Mrs Khan.",
+     "suggestionFa": "بریم از خانم خان بپرسیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fence",
+     "fa": "حصار"
+    },
+    {
+     "word": "over",
+     "fa": "از روی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",
+   "translations": {
+    "fa": "تو برو! تو شوتش کردی! بگو «ببخشید خانم خان، می‌شه توپمون را پس بدید، لطفاً؟»"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

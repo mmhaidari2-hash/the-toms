@@ -1,0 +1,332 @@
+{
+ "id": "l1_u32_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) That's enough",
+ "titleFa": "(در نقش Tom) همین کافیه",
+ "setting": "Sizes and amounts · Level 1",
+ "settingFa": "اندازه‌ها و مقدارها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u32_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "sausages",
+      "barbecue",
+      "people",
+      "twenty"
+     ],
+     "suggestion": "Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need?",
+     "suggestionFa": "خب! باربیکیو شنبه. بیست نفر! سوسیس می‌خرم. چند تا لازم داریم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Two each? Forty sausages.",
+   "translations": {
+    "fa": "نفری دو تا؟ چهل تا سوسیس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "butcher",
+   "text": "Forty sausages? Tom, you'll have too many. Not everyone eats two.",
+   "translations": {
+    "fa": "چهل تا سوسیس؟ تام، زیادی میشه. همه دو تا نمی‌خورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too many",
+     "fa": "بیش از حد (قابل شمارش)"
+    },
+    {
+     "word": "everyone",
+     "fa": "همه"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thirty is enough, then.",
+   "translations": {
+    "fa": "پس سی تا کافیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "burgers",
+      "thirty",
+      "enough",
+      "five",
+      "true"
+     ],
+     "suggestion": "Ha! True. OK, thirty-five. And burgers. Is ten enough?",
+     "suggestionFa": "ها! راسته. باشه، سی و پنج. و برگر. ده تا کافیه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No, ten isn't enough.",
+   "translations": {
+    "fa": "نه، ده تا کافی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "burgers",
+      "fifteen",
+      "wings",
+      "loves"
+     ],
+     "suggestion": "Fifteen burgers, then. And chicken wings for Weda. She loves them.",
+     "suggestionFa": "پس پونزده تا برگر. و بال مرغ برای ودا. عاشقشه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Are the sausages pork?",
+   "translations": {
+    "fa": "سوسیس‌ها خوکن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "butcher",
+   "text": "Most are pork, but I've got chicken and lamb ones. Halal too.",
+   "translations": {
+    "fa": "بیشترشون خوکن، ولی مرغی و برّه‌ای هم دارم. حلال هم هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lamb",
+     "fa": "گوشت برّه"
+    },
+    {
+     "word": "most",
+     "fa": "بیشترشان"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ten lamb ones, please.",
+   "translations": {
+    "fa": "ده تا برّه‌ای، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "marinated",
+      "thinking",
+      "kebabs",
+      "grown",
+      "meat"
+     ],
+     "suggestion": "Good thinking. Plus marinated kebabs for the grown-ups. Is that too much meat?",
+     "suggestionFa": "فکر خوبیه. به علاوه کباب مزه‌دار برای بزرگ‌ترها. گوشت زیادی نیست؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, that's too much meat!",
+   "translations": {
+    "fa": "آره، گوشت زیادیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetables",
+      "barbecue",
+      "leslie",
+      "some",
+      "corn"
+     ],
+     "suggestion": "Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob.",
+     "suggestionFa": "سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Corn is good.",
+   "translations": {
+    "fa": "ذرت خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "butcher",
+   "text": "Peppers I haven't got, Tom. This is a butcher's! Try the greengrocer next door.",
+   "translations": {
+    "fa": "فلفل ندارم تام. اینجا قصابیه! سبزی‌فروشی بغل را امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "butcher's",
+     "fa": "قصابی"
+    },
+    {
+     "word": "greengrocer",
+     "fa": "سبزی‌فروش"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Ha! Of course.",
+   "translations": {
+    "fa": "ها! معلومه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie's",
+      "hackney",
+      "that's",
+      "enough",
+      "pounds"
+     ],
+     "suggestion": "That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me.",
+     "suggestionFa": "این گوشت برای سیر کردن کل هکنی بسه! پنجاه و دو پوند… آخ. لزلی منو می‌کشه.",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

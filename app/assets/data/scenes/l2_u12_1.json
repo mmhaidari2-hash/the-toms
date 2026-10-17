@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "book"
+      "like"
      ],
      "suggestion": "Hello. I'd like to book an appointment, please.",
      "suggestionFa": "سلام. می‌خوام یه وقت بگیرم، لطفاً.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "surname",
-      "shall",
       "spell",
+      "shall",
       "sure"
      ],
      "suggestion": "Sure. Shall I spell my surname?",
@@ -142,8 +142,8 @@
      "keywords": [
       "itchy",
       "rash",
-      "got",
-      "arm"
+      "arm",
+      "got"
      ],
      "suggestion": "I've got a rash on my arm. It's itchy.",
      "suggestionFa": "رو دستم جوش زده. می‌خاره.",
@@ -310,9 +310,9 @@
     },
     {
      "keywords": [
-      "think",
+      "march",
       "moved",
-      "march"
+      "think"
      ],
      "suggestion": "I think so. I moved in March.",
      "suggestionFa": "فکر کنم. مارس اسباب‌کشی کردم.",

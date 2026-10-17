@@ -1,0 +1,250 @@
+{
+ "id": "l1_u17_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Making a cup of tea",
+ "titleFa": "(در نقش Leslie) درست کردن یک فنجان چای",
+ "setting": "Drinks · Level 1",
+ "settingFa": "نوشیدنی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u17_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle",
+      "shall",
+      "fancy",
+      "cuppa",
+      "put"
+     ],
+     "suggestion": "Shall I put the kettle on? Fancy a cuppa?",
+     "suggestionFa": "کتری را بذارم؟ یه چای می‌چسبه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, please! I'd love one.",
+   "translations": {
+    "fa": "آره، لطفاً! خیلی دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle",
+      "lovely",
+      "first",
+      "full",
+      "fill"
+     ],
+     "suggestion": "Ooh, lovely! OK, first fill the kettle. Not too full.",
+     "suggestionFa": "اوه، عالی! خب، اول کتری را پر کن. نه خیلی پر.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "How much water?",
+   "translations": {
+    "fa": "چقدر آب؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "that's",
+      "teabag",
+      "turn",
+      "each"
+     ],
+     "suggestion": "That's perfect. Turn it on. Now, a teabag in each mug.",
+     "suggestionFa": "عالیه. روشنش کن. حالا، یه چای کیسه‌ای تو هر ماگ.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Where are the teabags?",
+   "translations": {
+    "fa": "چای کیسه‌ای‌ها کجان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kettle's",
+      "kettle",
+      "boiled",
+      "teabag",
+      "water"
+     ],
+     "suggestion": "The tin next to the kettle. The kettle's boiled! Pour the water on the teabag.",
+     "suggestionFa": "قوطی کنار کتری. کتری جوش اومد! آب را روی چای کیسه‌ای بریز.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Like this? It's very hot.",
+   "translations": {
+    "fa": "این‌جوری؟ خیلی داغه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "teabag",
+      "three",
+      "take",
+      "then"
+     ],
+     "suggestion": "Now wait two or three minutes. Then take the teabag out. How do you take your tea?",
+     "suggestionFa": "حالا دو سه دقیقه صبر کن. بعد چای کیسه‌ای را دربیار. چایت را چطوری می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "With milk, please. No sugar.",
+   "translations": {
+    "fa": "با شیر، لطفاً. بی‌شکر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "builder's",
+      "strong",
+      "milky",
+      "likes",
+      "sugar"
+     ],
+     "suggestion": "I like mine milky with one sugar. Nana likes it strong — \"builder's tea\"!",
+     "suggestionFa": "من مال خودمو پرشیر با یه قند دوست دارم. نانا پررنگ دوست داره — «چای بنّایی»!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What's builder's tea?",
+   "translations": {
+    "fa": "چای بنّایی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strong",
+      "sugars",
+      "drink",
+      "milk",
+      "lots"
+     ],
+     "suggestion": "Strong, with lots of milk and two sugars. How do you drink tea in Iran?",
+     "suggestionFa": "پررنگ، با کلی شیر و دو تا قند. تو ایران چای را چطوری می‌خورید؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "In small glasses, without milk.",
+   "translations": {
+    "fa": "تو استکان‌های کوچیک، بدون شیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "clever",
+      "mouth",
+      "must",
+      "how"
+     ],
+     "suggestion": "In your mouth? How clever! I must try that. Biscuit?",
+     "suggestionFa": "تو دهن؟ چه هوشمندانه! باید امتحانش کنم. بیسکویت؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, please. A digestive.",
+   "translations": {
+    "fa": "آره، لطفاً. یه دایجستیو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "national",
+      "dunking",
+      "course",
+      "cheers",
+      "leave"
+     ],
+     "suggestion": "Of course! Dunking is a national sport here. Don't leave it in too long, or it falls in! Cheers, love!",
+     "suggestionFa": "البته! زدن بیسکویت تو چای اینجا ورزش ملیه! زیاد نگهش ندار، وگرنه می‌افته! به سلامتی عزیزم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

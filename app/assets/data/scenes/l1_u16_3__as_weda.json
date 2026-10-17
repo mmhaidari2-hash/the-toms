@@ -1,0 +1,250 @@
+{
+ "id": "l1_u16_3__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Weda) Peeling an orange",
+ "titleFa": "(در نقش Nana Weda) پوست کندن پرتقال",
+ "setting": "Fruit and vegetables · Level 1",
+ "settingFa": "میوه و سبزیجات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u16_3",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Weda!",
+   "translations": {
+    "fa": "سلام Nana Weda!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "though",
+      "orange",
+      "today",
+      "would",
+      "hands"
+     ],
+     "suggestion": "Would you like an orange? I'll peel one for you. My hands are a bit stiff today, though.",
+     "suggestionFa": "پرتقال می‌خوای؟ برات یکی پوست می‌کنم. ولی دستام امروز یه کم خشکه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Thank you. Can I help you?",
+   "translations": {
+    "fa": "ممنون. می‌تونم کمکتون کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "knife",
+      "first",
+      "hands",
+      "small"
+     ],
+     "suggestion": "Lovely. First, wash your hands. Then take a small knife.",
+     "suggestionFa": "عالی. اول دستات را بشور. بعد یه چاقوی کوچیک بردار.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "OK. This small knife?",
+   "translations": {
+    "fa": "باشه. این چاقوی کوچیک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carefully",
+      "drawer",
+      "next",
+      "cut",
+      "top"
+     ],
+     "suggestion": "In the drawer. Next, cut the top off. Carefully!",
+     "suggestionFa": "تو کشو. بعدش، سرش را ببر. با احتیاط!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Like this?",
+   "translations": {
+    "fa": "این‌جوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "fingers",
+      "round",
+      "peel",
+      "pull"
+     ],
+     "suggestion": "Perfect. Then pull the peel off with your fingers. Round and round.",
+     "suggestionFa": "عالی. بعد پوست را با انگشتات بکن. دور تا دور.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "The peel is very thick.",
+   "translations": {
+    "fa": "پوستش خیلی کلفته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "piece",
+      "peel",
+      "wish",
+      "girl",
+      "came"
+     ],
+     "suggestion": "One piece! When I was a girl, we made a wish if the peel came off in one piece.",
+     "suggestionFa": "یه تیکه! وقتی بچه بودم، اگه پوست یه تیکه کنده میشد آرزو می‌کردیم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "What did you wish for?",
+   "translations": {
+    "fa": "چی آرزو می‌کردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "segments",
+      "bicycle",
+      "usually",
+      "finally",
+      "break"
+     ],
+     "suggestion": "Oh, a bicycle, usually! Now, finally, break it into segments.",
+     "suggestionFa": "آه، معمولاً یه دوچرخه! حالا، در آخر، پره‌پره‌اش کن.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Here's one for you, Weda.",
+   "translations": {
+    "fa": "این یکی برای شما ودا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "oranges",
+      "always",
+      "juicy",
+      "thank"
+     ],
+     "suggestion": "Thank you, love. Ooh, it's juicy! Oranges always make me think of Christmas.",
+     "suggestionFa": "ممنون عزیزم. اوه، چه آبداره! پرتقال همیشه منو یاد کریسمس می‌ندازه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Why Christmas?",
+   "translations": {
+    "fa": "چرا کریسمس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "stocking",
+      "orange",
+      "yalda",
+      "about"
+     ],
+     "suggestion": "We got an orange in our Christmas stocking. It was a big treat back then! Tell me about Yalda.",
+     "suggestionFa": "تو جوراب کریسمس‌مون یه پرتقال می‌گرفتیم. اون موقع خیلی چیز ویژه‌ای بود! از یلدا بگو.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "It's the longest night. We eat fruit and read poems.",
+   "translations": {
+    "fa": "طولانی‌ترین شبه. میوه می‌خوریم و شعر می‌خونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pomegranates",
+      "lovely",
+      "poems",
+      "yalda",
+      "night"
+     ],
+     "suggestion": "Poems and pomegranates — how lovely! We must have a Yalda night here this year. I'll make the tea!",
+     "suggestionFa": "شعر و انار — چه قشنگ! امسال حتماً باید اینجا شب یلدا بگیریم. من چای درست می‌کنم!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

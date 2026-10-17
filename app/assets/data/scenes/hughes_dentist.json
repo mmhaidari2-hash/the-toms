@@ -20,8 +20,8 @@
     {
      "keywords": [
       "something",
-      "drink",
       "hurts",
+      "drink",
       "tooth"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "everything's",
-      "fine",
-      "been"
+      "been",
+      "fine"
      ],
      "suggestion": "No, everything's been fine.",
      "suggestionFa": "نه، همه چی خوب بوده.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "morning",
-      "twice",
-      "night"
+      "night",
+      "twice"
      ],
      "suggestion": "Twice a day, morning and night.",
      "suggestionFa": "روزی دو بار، صبح و شب.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "should",
+      "really",
       "more"
      ],
      "suggestion": "Not really. I should do it more.",
@@ -163,8 +163,8 @@
     {
      "keywords": [
       "that's",
-      "week",
       "next",
+      "fine",
       "book"
      ],
      "suggestion": "That's fine. Can I book it for next week?",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "about",
-      "ask",
-      "was"
+      "was",
+      "ask"
      ],
      "suggestion": "I was about to ask that!",
      "suggestionFa": "داشتم همینو می‌پرسیدم!",
@@ -316,8 +316,8 @@
      "keywords": [
       "appointment",
       "anything",
-      "should",
-      "before"
+      "before",
+      "should"
      ],
      "suggestion": "Should I avoid anything before the appointment?",
      "suggestionFa": "قبل از وقت باید از چیزی پرهیز کنم؟",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "give",
-      "hard",
       "i'll",
-      "cola"
+      "cola",
+      "give",
+      "hard"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",

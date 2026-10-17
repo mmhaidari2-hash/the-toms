@@ -1,0 +1,360 @@
+{
+ "id": "l1_u34_1",
+ "characterId": "doris",
+ "title": "Left or right?",
+ "titleFa": "چپ یا راست؟",
+ "setting": "Simple directions · Level 1",
+ "settingFa": "آدرس‌دادن ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Excuse me, young man. Do you know the way to the library? I always forget!",
+   "translations": {
+    "fa": "ببخشید پسرم. راه کتابخونه را بلدی؟ همیشه یادم میره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "near"
+     ],
+     "suggestion": "Yes. It's near here.",
+     "suggestionFa": "آره. نزدیک همین‌جاست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "sorry",
+      "check",
+      "new"
+     ],
+     "suggestion": "Sorry, I'm new here. Let me check my phone.",
+     "suggestionFa": "ببخشید، من اینجا تازه‌واردم. بذارید با گوشیم ببینم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the way to",
+     "fa": "راه رسیدن به"
+    },
+    {
+     "word": "library",
+     "fa": "کتابخانه"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Oh, you're a dear. Is it left or right from the bus stop?",
+   "translations": {
+    "fa": "آه، چه نازنینی. از ایستگاه اتوبوس چپه یا راست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "left",
+      "stop",
+      "turn",
+      "bus"
+     ],
+     "suggestion": "Turn left at the bus stop.",
+     "suggestionFa": "تو ایستگاه بپیچید چپ.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "right"
+     ],
+     "suggestion": "It's on the right.",
+     "suggestionFa": "سمت راسته.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn",
+     "fa": "پیچیدن"
+    },
+    {
+     "word": "left",
+     "fa": "چپ"
+    },
+    {
+     "word": "right",
+     "fa": "راست"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Left. And then? My legs aren't what they used to be, so not too far, I hope!",
+   "translations": {
+    "fa": "چپ. و بعد؟ پاهام دیگه مثل قبل نیستن، امیدوارم خیلی دور نباشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "straight",
+      "then",
+      "go"
+     ],
+     "suggestion": "Then go straight on.",
+     "suggestionFa": "بعد مستقیم برید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "about",
+      "five"
+     ],
+     "suggestion": "It's about five minutes.",
+     "suggestionFa": "حدود پنج دقیقه‌ست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "then",
+     "fa": "بعد"
+    },
+    {
+     "word": "straight on",
+     "fa": "مستقیم"
+    },
+    {
+     "word": "far",
+     "fa": "دور"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"straight on\", American \"straight ahead\".",
+    "fa": "straight on/ahead."
+   },
+   "recasts": [
+    {
+     "match": [
+      "you go to straight",
+      "go direct on"
+     ],
+     "echo": "Straight on? Lovely.",
+     "better": "Go straight on.",
+     "betterFa": "مستقیم برید."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Five minutes. I can do that. Is it on this side of the road?",
+   "translations": {
+    "fa": "پنج دقیقه. از پسش برمیام. این طرف خیابونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "other"
+     ],
+     "suggestion": "No, it's on the other side.",
+     "suggestionFa": "نه، اون طرف خیابونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yes",
+      "this"
+     ],
+     "suggestion": "Yes, on this side.",
+     "suggestionFa": "آره، همین طرف.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "side",
+     "fa": "طرف"
+    },
+    {
+     "word": "road",
+     "fa": "جاده ؛ خیابان"
+    },
+    {
+     "word": "other",
+     "fa": "دیگر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Then I need to cross. Is there a zebra crossing?",
+   "translations": {
+    "fa": "پس باید رد بشم. خط عابر پیاده هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "post",
+      "by"
+     ],
+     "suggestion": "Yes, by the post office.",
+     "suggestionFa": "آره، کنار اداره پست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "traffic",
+      "lights",
+      "safer",
+      "use"
+     ],
+     "suggestion": "Use the traffic lights. It's safer.",
+     "suggestionFa": "از چراغ راهنما استفاده کنید. امن‌تره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cross",
+     "fa": "رد شدن"
+    },
+    {
+     "word": "zebra crossing",
+     "fa": "خط عابر پیاده"
+    },
+    {
+     "word": "traffic lights",
+     "fa": "چراغ راهنمایی"
+    }
+   ],
+   "cultureNote": {
+    "en": "On a zebra crossing, cars must stop for you. Look right first — UK traffic drives on the left!",
+    "fa": "اول به راست نگاه کنید؛ رانندگی از چپ."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Lovely. Left, straight on, cross by the post office. Can you write it down for me?",
+   "translations": {
+    "fa": "عالی. چپ، مستقیم، کنار پست رد شو. می‌تونی برام بنویسیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "here"
+     ],
+     "suggestion": "Of course. Here you are.",
+     "suggestionFa": "البته. بفرمایید.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "walk",
+      "can"
+     ],
+     "suggestion": "I can walk with you.",
+     "suggestionFa": "می‌تونم باهاتون بیام.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "write down",
+     "fa": "یادداشت کردن"
+    },
+    {
+     "word": "walk with",
+     "fa": "همراهی کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Oh, you are kind. Tom on the 38 says you're a good lad. He's right!",
+   "translations": {
+    "fa": "آه، چقدر مهربونی. تام راننده ۳۸ میگه پسر خوبی هستی. راست میگه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "know"
+     ],
+     "suggestion": "You know Tom?",
+     "suggestionFa": "تام را می‌شناسید؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbour"
+     ],
+     "suggestion": "Tom is my neighbour!",
+     "suggestionFa": "تام همسایهٔ منه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lad",
+     "fa": "پسر (عامیانه)"
+    },
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "Everybody knows Tom! His jokes are terrible, but he always waits for me. Come on, then — library!",
+   "translations": {
+    "fa": "همه تام را می‌شناسن! جوک‌هاش افتضاحه، ولی همیشه منتظرم می‌مونه. بیا بریم — کتابخونه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

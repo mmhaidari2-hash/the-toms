@@ -1,0 +1,409 @@
+{
+ "id": "l1_u24_1",
+ "characterId": "leslie",
+ "title": "Happy and sad",
+ "titleFa": "شاد و غمگین",
+ "setting": "Feelings · Level 1",
+ "settingFa": "احساسات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Nicola came home from school very quiet today. She's sitting on the sofa. Can you talk to her?",
+   "translations": {
+    "fa": "نیکولا امروز خیلی ساکت از مدرسه اومد. رو مبل نشسته. می‌تونی باهاش حرف بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "nicola",
+      "ok",
+      "hi"
+     ],
+     "suggestion": "Of course. Hi, Nicola. Are you OK?",
+     "suggestionFa": "البته. سلام نیکولا. خوبی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sad",
+      "she"
+     ],
+     "suggestion": "Is she sad?",
+     "suggestionFa": "ناراحته؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    },
+    {
+     "word": "sitting",
+     "fa": "نشسته"
+    },
+    {
+     "word": "sad",
+     "fa": "غمگین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "I'm sad. My best friend Mia played with Lily today. Not with me.",
+   "translations": {
+    "fa": "ناراحتم. بهترین دوستم میا امروز با لیلی بازی کرد. نه با من."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "sorry",
+      "hard",
+      "oh"
+     ],
+     "suggestion": "Oh, I'm sorry. That's hard.",
+     "suggestionFa": "آه، متأسفم. سخته.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "feel",
+      "how",
+      "now"
+     ],
+     "suggestion": "How do you feel now?",
+     "suggestionFa": "الان چه حسی داری؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "best friend",
+     "fa": "بهترین دوست"
+    },
+    {
+     "word": "played",
+     "fa": "بازی کرد"
+    },
+    {
+     "word": "hard",
+     "fa": "سخت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I feel lonely. And a bit angry.",
+   "translations": {
+    "fa": "احساس تنهایی می‌کنم. و یه کم عصبانی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "angry",
+      "ok"
+     ],
+     "suggestion": "It's OK to feel angry.",
+     "suggestionFa": "عصبانی بودن اشکال نداره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "sometimes",
+      "lonely"
+     ],
+     "suggestion": "I understand. I feel lonely sometimes too.",
+     "suggestionFa": "می‌فهمم. منم گاهی احساس تنهایی می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lonely",
+     "fa": "تنها"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    },
+    {
+     "word": "understand",
+     "fa": "فهمیدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i feel lonely too sometimes me",
+      "i am lonely sometime"
+     ],
+     "echo": "You feel lonely sometimes? Me too.",
+     "better": "I feel lonely sometimes too.",
+     "betterFa": "منم گاهی احساس تنهایی می‌کنم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Do you? Why?",
+   "translations": {
+    "fa": "واقعاً؟ چرا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "away",
+      "far"
+     ],
+     "suggestion": "Because my family is far away.",
+     "suggestionFa": "چون خانواده‌ام خیلی دورن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "country",
+      "new"
+     ],
+     "suggestion": "Because I'm in a new country.",
+     "suggestionFa": "چون تو یه کشور جدیدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "because",
+     "fa": "چون"
+    },
+    {
+     "word": "far away",
+     "fa": "دور"
+    },
+    {
+     "word": "country",
+     "fa": "کشور"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "That's sad. But you've got us now! We're like your family.",
+   "translations": {
+    "fa": "این غم‌انگیزه. ولی حالا ما را داری! ما مثل خانواده‌تیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "makes",
+      "happy",
+      "thank"
+     ],
+     "suggestion": "Thank you, Nicola. That makes me happy.",
+     "suggestionFa": "ممنون نیکولا. این خوشحالم می‌کنه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kind"
+     ],
+     "suggestion": "You're very kind.",
+     "suggestionFa": "خیلی مهربونی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "like",
+     "fa": "مثل"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "happy",
+     "fa": "خوشحال"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Maybe Mia wanted to play with Lily just today. Tomorrow you can play together.",
+   "translations": {
+    "fa": "شاید میا فقط امروز می‌خواست با لیلی بازی کنه. فردا می‌تونید با هم بازی کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "play",
+      "can",
+      "all"
+     ],
+     "suggestion": "You can all play together!",
+     "suggestionFa": "همه‌تون می‌تونید با هم بازی کنید!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "nicola",
+      "ask",
+      "mia"
+     ],
+     "suggestion": "Ask Mia tomorrow, Nicola.",
+     "suggestionFa": "فردا از میا بپرس نیکولا.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "tomorrow",
+     "fa": "فردا"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "All three of us? Me, Mia and Lily? Hmm… OK. Lily is nice, actually.",
+   "translations": {
+    "fa": "هر سه‌مون؟ من، میا و لیلی؟ هوم… باشه. راستش لیلی مهربونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "great",
+      "idea"
+     ],
+     "suggestion": "That's a great idea!",
+     "suggestionFa": "فکر عالیه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "feel",
+      "how",
+      "now"
+     ],
+     "suggestion": "How do you feel now?",
+     "suggestionFa": "الان چه حسی داری؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "three",
+     "fa": "سه"
+    },
+    {
+     "word": "actually",
+     "fa": "راستش"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Better! I feel happy again. Can we have a hug?",
+   "translations": {
+    "fa": "بهتر! دوباره خوشحالم. می‌شه بغلت کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "hug",
+      "big"
+     ],
+     "suggestion": "Of course! A big hug!",
+     "suggestionFa": "البته! یه بغل بزرگ!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "come"
+     ],
+     "suggestion": "Come here!",
+     "suggestionFa": "بیا اینجا!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "better",
+     "fa": "بهتر"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "hug",
+     "fa": "بغل"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Ahh. Thank you, love. You're very good at this. Hot chocolate for everyone, I think!",
+   "translations": {
+    "fa": "آه. ممنون عزیزم. تو این کار خیلی خوبی. فکر کنم هات چاکلت برای همه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

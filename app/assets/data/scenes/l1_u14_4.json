@@ -1,0 +1,419 @@
+{
+ "id": "l1_u14_4",
+ "characterId": "leslie",
+ "title": "Getting dry",
+ "titleFa": "خشک شدن",
+ "setting": "In the bathroom · Level 1",
+ "settingFa": "در حمام",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Nicola's out of the bath. Can you find her pyjamas? They're in the bedroom.",
+   "translations": {
+    "fa": "نیکولا از حموم اومد بیرون. پیژامه‌اش را پیدا می‌کنی؟ تو اتاق خوابه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bedroom",
+      "where"
+     ],
+     "suggestion": "Where in the bedroom?",
+     "suggestionFa": "کجای اتاق خواب؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they",
+      "bed"
+     ],
+     "suggestion": "Are they on the bed?",
+     "suggestionFa": "روی تختن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pyjamas",
+     "fa": "پیژامه"
+    },
+    {
+     "word": "bedroom",
+     "fa": "اتاق خواب"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pyjamas\", American \"pajamas\".",
+    "fa": "pyjamas/pajamas."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "They're under her pillow. The ones with rainbows.",
+   "translations": {
+    "fa": "زیر بالشش‌ان. همونایی که رنگین‌کمون دارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "them",
+      "got"
+     ],
+     "suggestion": "Got them!",
+     "suggestionFa": "پیداشون کردم!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "they"
+     ],
+     "suggestion": "Here they are!",
+     "suggestionFa": "ایناهاشون!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "pillow",
+     "fa": "بالش"
+    },
+    {
+     "word": "rainbows",
+     "fa": "رنگین‌کمان‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I'm cold! Wrap me in the big towel!",
+   "translations": {
+    "fa": "سردمه! منو تو حولهٔ بزرگه بپیچ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here",
+      "snug",
+      "bug",
+      "as"
+     ],
+     "suggestion": "Here you are. Snug as a bug!",
+     "suggestionFa": "بفرما. مثل یه حشره تو پیله!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better"
+     ],
+     "suggestion": "Is that better?",
+     "suggestionFa": "بهتر شد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wrap",
+     "fa": "پیچیدن"
+    },
+    {
+     "word": "snug",
+     "fa": "گرم و نرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Snug as a bug in a rug\" is a cosy British bedtime phrase.",
+    "fa": "عبارت خودمانی برای گرم و نرم."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Now dry your hair, Nicola. Where's the hairdryer?",
+   "translations": {
+    "fa": "حالا موهات را خشک کن نیکولا. سشوار کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drawer"
+     ],
+     "suggestion": "Is it in the drawer?",
+     "suggestionFa": "تو کشوئه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mirror",
+      "think",
+      "next"
+     ],
+     "suggestion": "I think it's next to the mirror.",
+     "suggestionFa": "فکر کنم کنار آینه‌ست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hairdryer",
+     "fa": "سشوار"
+    },
+    {
+     "word": "drawer",
+     "fa": "کشو"
+    },
+    {
+     "word": "mirror",
+     "fa": "آینه"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",
+   "translations": {
+    "fa": "آره، کنار آینه‌ست. می‌تونی بزنیش به برق؟ پریز پشت دره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "now",
+      "ok"
+     ],
+     "suggestion": "OK. It's on now.",
+     "suggestionFa": "باشه. حالا روشنه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "britain",
+      "plugs"
+     ],
+     "suggestion": "In Britain, plugs are different!",
+     "suggestionFa": "تو بریتانیا دوشاخه‌ها فرق دارن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plug in",
+     "fa": "به برق زدن"
+    },
+    {
+     "word": "socket",
+     "fa": "پریز"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "plugs",
+     "fa": "دوشاخه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British plugs have three square pins. Bathrooms usually have no normal sockets for safety.",
+    "fa": "دوشاخهٔ بریتانیایی سه پایهٔ مربعی دارد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Too hot! Too loud!",
+   "translations": {
+    "fa": "خیلی داغه! خیلی سروصدا داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "sorry"
+     ],
+     "suggestion": "Sorry! Is this better?",
+     "suggestionFa": "ببخشید! این بهتره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "nearly",
+      "still",
+      "done"
+     ],
+     "suggestion": "Sit still, Nicola. Nearly done.",
+     "suggestionFa": "آروم بشین نیکولا. تقریباً تمومه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loud",
+     "fa": "پرسروصدا"
+    },
+    {
+     "word": "still",
+     "fa": "بی‌حرکت"
+    },
+    {
+     "word": "nearly",
+     "fa": "تقریباً"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is too loud",
+      "it too loud"
+     ],
+     "echo": "It's too loud? I'll turn it down.",
+     "better": "It's too loud!",
+     "betterFa": "خیلی سروصدا داره!"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Now pyjamas on. Where are her slippers?",
+   "translations": {
+    "fa": "حالا پیژامه بپوش. دمپایی‌هاش کجان؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "door",
+      "by"
+     ],
+     "suggestion": "They're by the door.",
+     "suggestionFa": "دم درن.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "under",
+      "can't",
+      "they",
+      "them"
+     ],
+     "suggestion": "I can't see them. Are they under the bed?",
+     "suggestionFa": "نمی‌بینمشون. زیر تختن؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slippers",
+     "fa": "دمپایی‌ها"
+    },
+    {
+     "word": "by",
+     "fa": "کنار"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Here! In the bath! Oops. They're wet now.",
+   "translations": {
+    "fa": "اینجا! تو وان! اوپس. حالا خیسن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "oh"
+     ],
+     "suggestion": "Oh, Nicola!",
+     "suggestionFa": "آه، نیکولا!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "socks",
+      "never",
+      "mind",
+      "wear"
+     ],
+     "suggestion": "Never mind. Wear your socks.",
+     "suggestionFa": "عیب نداره. جوراب‌هات را بپوش.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oops",
+     "fa": "اوپس"
+    },
+    {
+     "word": "never mind",
+     "fa": "عیب ندارد"
+    },
+    {
+     "word": "wear",
+     "fa": "پوشیدن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Clean, dry and in pyjamas! Thank you, love. Now, warm milk and a story. You choose the book, Nicola!",
+   "translations": {
+    "fa": "تمیز، خشک و با پیژامه! ممنون عزیزم. حالا شیر گرم و یه قصه. تو کتاب را انتخاب کن نیکولا!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

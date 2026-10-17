@@ -1,0 +1,414 @@
+{
+ "id": "l1_u16_3",
+ "characterId": "weda",
+ "title": "Peeling an orange",
+ "titleFa": "پوست کندن پرتقال",
+ "setting": "Fruit and vegetables · Level 1",
+ "settingFa": "میوه و سبزیجات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Would you like an orange? I'll peel one for you. My hands are a bit stiff today, though.",
+   "translations": {
+    "fa": "پرتقال می‌خوای؟ برات یکی پوست می‌کنم. ولی دستام امروز یه کم خشکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "help"
+     ],
+     "suggestion": "Thank you. Can I help you?",
+     "suggestionFa": "ممنون. می‌تونم کمکتون کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weda",
+      "peel"
+     ],
+     "suggestion": "I can peel it, Weda.",
+     "suggestionFa": "من پوستش را می‌کنم ودا.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "peel",
+     "fa": "پوست کندن"
+    },
+    {
+     "word": "stiff",
+     "fa": "خشک (مفصل)"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Lovely. First, wash your hands. Then take a small knife.",
+   "translations": {
+    "fa": "عالی. اول دستات را بشور. بعد یه چاقوی کوچیک بردار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knife",
+      "small",
+      "ok"
+     ],
+     "suggestion": "OK. This small knife?",
+     "suggestionFa": "باشه. این چاقوی کوچیک؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "knives",
+      "where",
+      "hands",
+      "clean"
+     ],
+     "suggestion": "My hands are clean. Where are the knives?",
+     "suggestionFa": "دستام تمیزه. چاقوها کجان؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "then",
+     "fa": "بعد"
+    },
+    {
+     "word": "knife",
+     "fa": "چاقو"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "In the drawer. Next, cut the top off. Carefully!",
+   "translations": {
+    "fa": "تو کشو. بعدش، سرش را ببر. با احتیاط!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lovely",
+      "smells"
+     ],
+     "suggestion": "It smells lovely!",
+     "suggestionFa": "بوی خوبی می‌ده!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next",
+     "fa": "بعد"
+    },
+    {
+     "word": "cut off",
+     "fa": "بریدن"
+    },
+    {
+     "word": "carefully",
+     "fa": "با احتیاط"
+    },
+    {
+     "word": "smells",
+     "fa": "بو می‌دهد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Perfect. Then pull the peel off with your fingers. Round and round.",
+   "translations": {
+    "fa": "عالی. بعد پوست را با انگشتات بکن. دور تا دور."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thick",
+      "peel"
+     ],
+     "suggestion": "The peel is very thick.",
+     "suggestionFa": "پوستش خیلی کلفته.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coming",
+      "piece",
+      "off",
+      "one"
+     ],
+     "suggestion": "It's coming off in one piece!",
+     "suggestionFa": "داره یه تیکه کنده میشه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pull",
+     "fa": "کشیدن"
+    },
+    {
+     "word": "fingers",
+     "fa": "انگشتان"
+    },
+    {
+     "word": "thick",
+     "fa": "کلفت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the peel is thick very",
+      "peel very thick"
+     ],
+     "echo": "Very thick? Yes, it's a big one!",
+     "better": "The peel is very thick.",
+     "betterFa": "پوستش خیلی کلفته."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "One piece! When I was a girl, we made a wish if the peel came off in one piece.",
+   "translations": {
+    "fa": "یه تیکه! وقتی بچه بودم، اگه پوست یه تیکه کنده میشد آرزو می‌کردیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "did"
+     ],
+     "suggestion": "What did you wish for?",
+     "suggestionFa": "چی آرزو می‌کردید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "make",
+      "can"
+     ],
+     "suggestion": "Can I make a wish?",
+     "suggestionFa": "می‌تونم آرزو کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wish",
+     "fa": "آرزو"
+    },
+    {
+     "word": "girl",
+     "fa": "دختر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Oh, a bicycle, usually! Now, finally, break it into segments.",
+   "translations": {
+    "fa": "آه، معمولاً یه دوچرخه! حالا، در آخر، پره‌پره‌اش کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "weda",
+      "one"
+     ],
+     "suggestion": "Here's one for you, Weda.",
+     "suggestionFa": "این یکی برای شما ودا.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pieces",
+      "there",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many pieces are there?",
+     "suggestionFa": "چند تا پره داره؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finally",
+     "fa": "در آخر"
+    },
+    {
+     "word": "segments",
+     "fa": "پره‌ها"
+    },
+    {
+     "word": "bicycle",
+     "fa": "دوچرخه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Thank you, love. Ooh, it's juicy! Oranges always make me think of Christmas.",
+   "translations": {
+    "fa": "ممنون عزیزم. اوه، چه آبداره! پرتقال همیشه منو یاد کریسمس می‌ندازه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "christmas",
+      "why"
+     ],
+     "suggestion": "Why Christmas?",
+     "suggestionFa": "چرا کریسمس؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oranges",
+      "yalda",
+      "iran",
+      "eat"
+     ],
+     "suggestion": "In Iran we eat oranges at Yalda.",
+     "suggestionFa": "تو ایران شب یلدا پرتقال می‌خوریم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "juicy",
+     "fa": "آبدار"
+    },
+    {
+     "word": "Christmas",
+     "fa": "کریسمس"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many older Britons remember getting an orange in their Christmas stocking as a special treat.",
+    "fa": "پرتقال در جوراب کریسمس، هدیهٔ قدیمی."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "We got an orange in our Christmas stocking. It was a big treat back then! Tell me about Yalda.",
+   "translations": {
+    "fa": "تو جوراب کریسمس‌مون یه پرتقال می‌گرفتیم. اون موقع خیلی چیز ویژه‌ای بود! از یلدا بگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "longest",
+      "poems",
+      "night",
+      "fruit"
+     ],
+     "suggestion": "It's the longest night. We eat fruit and read poems.",
+     "suggestionFa": "طولانی‌ترین شبه. میوه می‌خوریم و شعر می‌خونیم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pomegranates",
+      "family",
+      "stay",
+      "late"
+     ],
+     "suggestion": "We stay up late with family and eat pomegranates.",
+     "suggestionFa": "با خانواده تا دیروقت بیدار می‌مونیم و انار می‌خوریم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "treat",
+     "fa": "چیز ویژه"
+    },
+    {
+     "word": "longest",
+     "fa": "طولانی‌ترین"
+    },
+    {
+     "word": "poems",
+     "fa": "شعرها"
+    },
+    {
+     "word": "pomegranates",
+     "fa": "انارها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "Poems and pomegranates — how lovely! We must have a Yalda night here this year. I'll make the tea!",
+   "translations": {
+    "fa": "شعر و انار — چه قشنگ! امسال حتماً باید اینجا شب یلدا بگیریم. من چای درست می‌کنم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,408 @@
+{
+ "id": "l1_u16_1",
+ "characterId": "leslie",
+ "title": "At the greengrocer's",
+ "titleFa": "در سبزی‌فروشی",
+ "setting": "Fruit and vegetables · Level 1",
+ "settingFa": "میوه و سبزیجات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "This is Raj's shop. His fruit and veg are the best on the high street. What do we need?",
+   "translations": {
+    "fa": "این مغازهٔ راجه. میوه و سبزی‌اش بهترینِ خیابون اصلیه. چی لازم داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bananas",
+      "apples",
+      "need",
+      "we"
+     ],
+     "suggestion": "We need apples and bananas.",
+     "suggestionFa": "سیب و موز لازم داریم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "look",
+      "list",
+      "let"
+     ],
+     "suggestion": "Let me look at the list.",
+     "suggestionFa": "بذار فهرست را ببینم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fruit",
+     "fa": "میوه"
+    },
+    {
+     "word": "veg",
+     "fa": "سبزی"
+    },
+    {
+     "word": "high street",
+     "fa": "خیابان اصلی"
+    },
+    {
+     "word": "list",
+     "fa": "فهرست"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Veg\" is short for vegetables. \"Fruit and veg\" is a very common British phrase.",
+    "fa": "veg مخفف vegetables است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Apples, bananas, carrots and potatoes. Can you ask for the apples?",
+   "translations": {
+    "fa": "سیب، موز، هویج و سیب‌زمینی. تو سیب‌ها را می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "excuse",
+      "have",
+      "can"
+     ],
+     "suggestion": "Excuse me, can I have six apples, please?",
+     "suggestionFa": "ببخشید، می‌شه شش تا سیب بدید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "green",
+      "hello"
+     ],
+     "suggestion": "Hello! Six green apples, please.",
+     "suggestionFa": "سلام! شش تا سیب سبز، لطفاً.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "apples",
+     "fa": "سیب‌ها"
+    },
+    {
+     "word": "carrots",
+     "fa": "هویج‌ها"
+    },
+    {
+     "word": "potatoes",
+     "fa": "سیب‌زمینی‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "Six apples. Red or green? The red ones are very sweet today.",
+   "translations": {
+    "fa": "شش تا سیب. قرمز یا سبز؟ قرمزها امروز خیلی شیرینن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ones",
+      "just"
+     ],
+     "suggestion": "Just the red ones.",
+     "suggestionFa": "فقط قرمزها.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "three",
+      "green"
+     ],
+     "suggestion": "Three red and three green, please.",
+     "suggestionFa": "سه تا قرمز و سه تا سبز، لطفاً.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweet",
+     "fa": "شیرین"
+    },
+    {
+     "word": "today",
+     "fa": "امروز"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "There you go. Anything else, love?",
+   "translations": {
+    "fa": "بفرما. چیز دیگه، عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "how"
+     ],
+     "suggestion": "Yes. How much are the bananas?",
+     "suggestionFa": "آره. موزها قیمتش چنده؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "bunch"
+     ],
+     "suggestion": "A bunch of bananas, please.",
+     "suggestionFa": "یه شونه موز، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anything else",
+     "fa": "چیز دیگری"
+    },
+    {
+     "word": "bunch",
+     "fa": "دسته/شانه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how much is bananas",
+      "how many are the bananas"
+     ],
+     "echo": "How much are the bananas? Eighty pence.",
+     "better": "How much are the bananas?",
+     "betterFa": "موزها چنده؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Bananas are eighty pence a bunch. These are ripe. Those are a bit green.",
+   "translations": {
+    "fa": "موزها شونه‌ای هشتاد پنی‌ان. اینا رسیده‌ان. اونا یه کم کالن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "take",
+      "i'll",
+      "ripe"
+     ],
+     "suggestion": "I'll take the ripe ones.",
+     "suggestionFa": "رسیده‌ها را برمی‌دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "longer",
+      "green",
+      "they"
+     ],
+     "suggestion": "The green ones, please. They last longer.",
+     "suggestionFa": "سبزها، لطفاً. بیشتر می‌مونن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pence",
+     "fa": "پنی"
+    },
+    {
+     "word": "ripe",
+     "fa": "رسیده"
+    },
+    {
+     "word": "last",
+     "fa": "دوام آوردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Good thinking. Now, a kilo of carrots and two kilos of potatoes.",
+   "translations": {
+    "fa": "فکر خوبیه. حالا یه کیلو هویج و دو کیلو سیب‌زمینی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kilos",
+      "kilo",
+      "two"
+     ],
+     "suggestion": "A kilo of carrots and two kilos of potatoes, please.",
+     "suggestionFa": "یه کیلو هویج و دو کیلو سیب‌زمینی، لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "have",
+      "can"
+     ],
+     "suggestion": "Can I have carrots and potatoes, please?",
+     "suggestionFa": "می‌شه هویج و سیب‌زمینی بدید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kilo",
+     "fa": "کیلو"
+    }
+   ],
+   "cultureNote": {
+    "en": "The UK uses kilos in shops, but many older people still think in pounds (lb) and ounces.",
+    "fa": "فروشگاه‌ها کیلو، ولی سالمندان پوند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "baker",
+   "text": "Lovely. Would you like a bag? It's ten pence.",
+   "translations": {
+    "fa": "عالی. کیسه می‌خواید؟ ده پنیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "i've",
+      "bag",
+      "got"
+     ],
+     "suggestion": "No, thanks. I've got a bag.",
+     "suggestionFa": "نه، ممنون. کیسه دارم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please"
+     ],
+     "suggestion": "Yes, please.",
+     "suggestionFa": "آره، لطفاً.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bag",
+     "fa": "کیسه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British shops charge for plastic bags, so people bring their own \"bag for life\".",
+    "fa": "فروشگاه‌ها برای کیسه پول می‌گیرند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "baker",
+   "text": "That's five pounds forty altogether.",
+   "translations": {
+    "fa": "جمعاً پنج پوند و چهل میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "pound",
+      "note",
+      "ten"
+     ],
+     "suggestion": "Here's a ten-pound note.",
+     "suggestionFa": "این یه اسکناس ده پوندی.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "card",
+      "can",
+      "pay",
+      "by"
+     ],
+     "suggestion": "Can I pay by card?",
+     "suggestionFa": "می‌تونم با کارت پرداخت کنم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "altogether",
+     "fa": "جمعاً"
+    },
+    {
+     "word": "note",
+     "fa": "اسکناس"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "baker",
+   "text": "Of course. Tap here… Done. Thanks, love! See you next week, Leslie! Have a lovely day!",
+   "translations": {
+    "fa": "البته. اینجا بزنید… تموم. ممنون عزیزم! هفتهٔ بعد می‌بینمت لزلی! روز خوبی داشته باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

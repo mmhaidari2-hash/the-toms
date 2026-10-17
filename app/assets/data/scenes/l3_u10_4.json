@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "feel",
-      "home",
+      "fast",
       "gone",
-      "fast"
+      "feel",
+      "home"
      ],
      "suggestion": "It's gone so fast. I feel at home now.",
      "suggestionFa": "خیلی زود گذشت. الان احساس می‌کنم خونه‌مه.",
@@ -35,7 +35,7 @@
       "remember",
       "strange",
       "nervous",
-      "first"
+      "being"
      ],
      "suggestion": "Strange! I remember being so nervous at first.",
      "suggestionFa": "عجیبه! یادمه اولش خیلی استرس داشتم.",
@@ -76,7 +76,7 @@
       "definitely",
       "weather",
       "never",
-      "seen"
+      "i've"
      ],
      "suggestion": "Definitely the weather. I've never seen so much rain!",
      "suggestionFa": "قطعاً هوا. هیچ‌وقت این‌قدر بارون ندیده بودم!",
@@ -187,8 +187,8 @@
      "keywords": [
       "university",
       "applied",
-      "hope",
-      "i've"
+      "i've",
+      "hope"
      ],
      "suggestion": "I hope so. I've applied for a job at the university.",
      "suggestionFa": "امیدوارم. برای یه کار تو دانشگاه درخواست دادم.",
@@ -198,10 +198,10 @@
     },
     {
      "keywords": [
-      "love",
       "sure",
-      "yet",
-      "i'd"
+      "love",
+      "i'd",
+      "but"
      ],
      "suggestion": "I'm not sure yet, but I'd love to.",
      "suggestionFa": "هنوز مطمئن نیستم، ولی خیلی دوست دارم.",
@@ -237,8 +237,8 @@
      "keywords": [
       "anywhere",
       "worry",
-      "don't",
-      "going"
+      "going",
+      "don't"
      ],
      "suggestion": "Don't worry, Al. I'm not going anywhere.",
      "suggestionFa": "نگران نباش ال. هیچ‌جا نمی‌رم.",

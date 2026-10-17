@@ -1,0 +1,324 @@
+{
+ "id": "l1_u37_4__as_nicola",
+ "characterId": "leslie",
+ "title": "(As Nicola) Rainbow!",
+ "titleFa": "(در نقش Nicola) رنگین‌کمان!",
+ "setting": "Rainy day · Level 1",
+ "settingFa": "روز بارانی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u37_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "leslie",
+   "text": "The rain has stopped! Come to the front door, quick! Look at the sky!",
+   "translations": {
+    "fa": "بارون بند اومد! سریع بیا دم در! آسمون را ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stopped",
+     "fa": "متوقف شد"
+    },
+    {
+     "word": "front door",
+     "fa": "در ورودی"
+    },
+    {
+     "word": "sky",
+     "fa": "آسمان"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Wow! A rainbow!",
+   "translations": {
+    "fa": "وای! رنگین‌کمون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rainbow",
+      "colours",
+      "there",
+      "mummy",
+      "many"
+     ],
+     "suggestion": "A RAINBOW! How many colours are there, Mummy?",
+     "suggestionFa": "رنگین‌کمون! چند تا رنگ داره مامان؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "There are seven colours.",
+   "translations": {
+    "fa": "هفت تا رنگ داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "leslie",
+   "text": "Seven! Red, orange, yellow, green, blue… Can you say the rest, Mehdi?",
+   "translations": {
+    "fa": "هفت تا! قرمز، نارنجی، زرد، سبز، آبی… می‌تونی بقیه را بگی {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the rest",
+     "fa": "بقیه"
+    },
+    {
+     "word": "indigo",
+     "fa": "نیلی"
+    },
+    {
+     "word": "violet",
+     "fa": "بنفش"
+    }
+   ],
+   "cultureNote": {
+    "en": "British children learn \"Richard Of York Gave Battle In Vain\" to remember the rainbow colours.",
+    "fa": "جملهٔ یادآور رنگ‌ها."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Indigo and violet.",
+   "translations": {
+    "fa": "نیلی و بنفش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rainbow",
+      "pretty",
+      "there",
+      "gold",
+      "how"
+     ],
+     "suggestion": "How pretty! Is there gold at the end of the rainbow?",
+     "suggestionFa": "چه خوشگله! ته رنگین‌کمون طلا هست؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "That's a story from Ireland.",
+   "translations": {
+    "fa": "اون یه قصهٔ ایرلندیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "leslie",
+   "text": "Ha! We'll never find the end. It moves when you move. What a shame!",
+   "translations": {
+    "fa": "ها! هیچ‌وقت تهش را پیدا نمی‌کنیم. وقتی حرکت می‌کنی، حرکت می‌کنه. حیف!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "never",
+     "fa": "هرگز"
+    },
+    {
+     "word": "moves",
+     "fa": "حرکت می‌کند"
+    },
+    {
+     "word": "what a shame",
+     "fa": "حیف"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "What a shame!",
+   "translations": {
+    "fa": "حیف!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy",
+      "photo",
+      "take",
+      "he's",
+      "can"
+     ],
+     "suggestion": "Can I take a photo for Daddy? He's on the bus!",
+     "suggestionFa": "می‌تونم برای بابا عکس بگیرم؟ تو اتوبوسه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Here's my phone.",
+   "translations": {
+    "fa": "بیا گوشیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "leslie",
+   "text": "What a lovely photo! Send it to Daddy. He'll love it. Oh — it's raining again!",
+   "translations": {
+    "fa": "چه عکس قشنگی! بفرستش برای بابا. عاشقش میشه. آه — باز داره بارون میاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "typical",
+     "fa": "همیشگی ؛ معمول"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Typical!",
+   "translations": {
+    "fa": "معمولیه دیگه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "leslie",
+   "text": "\"Typical!\" That's what British people say. Inside, everyone! Wellies off!",
+   "translations": {
+    "fa": "«معمولیه!» این چیزیه که بریتانیایی‌ها میگن. همه بیاید تو! چکمه‌ها را دربیارید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

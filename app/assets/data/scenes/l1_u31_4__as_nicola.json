@@ -1,0 +1,340 @@
+{
+ "id": "l1_u31_4__as_nicola",
+ "characterId": "leslie",
+ "title": "(As Nicola) Home time",
+ "titleFa": "(در نقش Nicola) وقت رفتن به خانه",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u31_4",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "leslie",
+   "text": "Thanks for coming to pick Nicola up with me. The doors open at quarter past three.",
+   "translations": {
+    "fa": "ممنون که باهام اومدی دنبال نیکولا. درها سه و ربع باز میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pick up",
+     "fa": "دنبال کسی رفتن"
+    },
+    {
+     "word": "quarter past three",
+     "fa": "سه و ربع"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"quarter past three\", Americans also say \"quarter after three\".",
+    "fa": "quarter past/after."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No problem. It's nice to see the school.",
+   "translations": {
+    "fa": "مشکلی نیست. دیدن مدرسه خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "leslie",
+   "text": "Usually Weda does it. I teach upstairs, so I finish late. Ah, here they come!",
+   "translations": {
+    "fa": "معمولاً ودا میاد. من طبقهٔ بالا درس میدم، دیر تموم می‌کنم. آه، دارن میان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "waving",
+     "fa": "دست تکان دادن"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I can see Nicola!",
+   "translations": {
+    "fa": "نیکولا را می‌بینم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "leslie",
+   "text": "Hello, sweetheart! How was your day?",
+   "translations": {
+    "fa": "سلام عزیزم! روزت چطور بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweetheart",
+     "fa": "عزیزم"
+    },
+    {
+     "word": "how was",
+     "fa": "چطور بود"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ask her what she learnt!",
+   "translations": {
+    "fa": "ازش بپرس چی یاد گرفت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learnt",
+      "letter",
+      "snake",
+      "sssss",
+      "good"
+     ],
+     "suggestion": "Good! We learnt the letter S. S for snake! Sssss!",
+     "suggestionFa": "خوب! حرف S را یاد گرفتیم. S برای مار! سسسس!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "S for Mehdi? No…",
+   "translations": {
+    "fa": "S برای {you}؟ نه…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "leslie",
+   "text": "Brilliant! What did you have for dinner?",
+   "translations": {
+    "fa": "عالی! ناهار چی خوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what did you have",
+     "fa": "چی خوردی"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Was it pizza day?",
+   "translations": {
+    "fa": "روز پیتزا بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pleeease",
+      "three",
+      "pasta",
+      "peas",
+      "park"
+     ],
+     "suggestion": "Pasta. And I ate THREE peas! Can we go to the park? Pleeease?",
+     "suggestionFa": "پاستا. و سه تا نخود فرنگی خوردم! می‌شه بریم پارک؟ لطفاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Three peas! Well done!",
+   "translations": {
+    "fa": "سه تا نخود فرنگی! آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "leslie",
+   "text": "Only for twenty minutes. Did you bring your book bag home?",
+   "translations": {
+    "fa": "فقط بیست دقیقه. کیف کتابت را آوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "book bag",
+     "fa": "کیف کتاب"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Here it is. I'm carrying it.",
+   "translations": {
+    "fa": "ایناهاش. من دارمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "leslie",
+   "text": "Phew. Right, twenty minutes at the park, then home for tea and a bath. Off we go!",
+   "translations": {
+    "fa": "آخیش. خب، بیست دقیقه پارک، بعد خونه برای شام و حموم. بریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

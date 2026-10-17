@@ -1,0 +1,367 @@
+{
+ "id": "l1_u42_1",
+ "characterId": "tom",
+ "title": "By bus",
+ "titleFa": "با اتوبوس",
+ "setting": "Transport words · Level 1",
+ "settingFa": "واژه‌های حمل‌ونقل",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning! Jump on. So, how do you get to your English class?",
+   "translations": {
+    "fa": "صبح بخیر! بپر بالا. خب، چطوری میری کلاس انگلیسیت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bus",
+      "by",
+      "go"
+     ],
+     "suggestion": "I go by bus.",
+     "suggestionFa": "با اتوبوس میرم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "usually",
+      "walk"
+     ],
+     "suggestion": "Usually I walk.",
+     "suggestionFa": "معمولاً پیاده میرم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get to",
+     "fa": "رسیدن به"
+    },
+    {
+     "word": "by bus",
+     "fa": "با اتوبوس"
+    },
+    {
+     "word": "walk",
+     "fa": "پیاده رفتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Say \"by bus\", \"by train\", \"by car\" — but \"on foot\" for walking.",
+    "fa": "by bus / on foot."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i go with bus",
+      "i go by the bus"
+     ],
+     "echo": "You go by bus? Good choice!",
+     "better": "I go by bus.",
+     "betterFa": "با اتوبوس میرم."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Good choice! The best way. Which bus do you take?",
+   "translations": {
+    "fa": "انتخاب خوبیه! بهترین راه. سوار کدوم اتوبوس میشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "take"
+     ],
+     "suggestion": "I take the 38.",
+     "suggestionFa": "سوار ۳۸ میشم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes"
+     ],
+     "suggestion": "Sometimes the 55.",
+     "suggestionFa": "گاهی ۵۵.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take",
+     "fa": "سوار شدن"
+    },
+    {
+     "word": "which",
+     "fa": "کدام"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The 38! My bus! How long does it take?",
+   "translations": {
+    "fa": "۳۸! اتوبوس من! چقدر طول می‌کشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "twenty",
+      "takes"
+     ],
+     "suggestion": "It takes twenty minutes.",
+     "suggestionFa": "بیست دقیقه طول می‌کشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "hour",
+      "half"
+     ],
+     "suggestion": "About half an hour.",
+     "suggestionFa": "حدود نیم ساعت.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how long",
+     "fa": "چه مدت"
+    },
+    {
+     "word": "takes",
+     "fa": "طول می‌کشد"
+    },
+    {
+     "word": "half an hour",
+     "fa": "نیم ساعت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "In the rush hour it's forty minutes! How do you pay?",
+   "translations": {
+    "fa": "ساعت شلوغی چهل دقیقه‌ست! چطوری پرداخت می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contactless",
+      "bank"
+     ],
+     "suggestion": "With my bank card. Contactless.",
+     "suggestionFa": "با کارت بانکیم. بدون تماس.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "oyster",
+      "i've",
+      "got"
+     ],
+     "suggestion": "I've got an Oyster card.",
+     "suggestionFa": "کارت اویستر دارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rush hour",
+     "fa": "ساعت شلوغی"
+    },
+    {
+     "word": "contactless",
+     "fa": "پرداخت بدون تماس"
+    },
+    {
+     "word": "Oyster card",
+     "fa": "کارت حمل‌ونقل لندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "London buses don't take cash. Use contactless or an Oyster card. One bus fare covers unlimited buses for an hour (the \"Hopper\").",
+    "fa": "اتوبوس لندن نقد نمی‌گیرد."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Perfect. And with the Hopper fare, you can change buses for free in an hour.",
+   "translations": {
+    "fa": "عالی. و با کرایهٔ هاپر، تو یه ساعت می‌تونی مجانی اتوبوس عوض کنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "great",
+      "free"
+     ],
+     "suggestion": "For free? That's great.",
+     "suggestionFa": "مجانی؟ عالیه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "hopper",
+      "fare"
+     ],
+     "suggestion": "What's the Hopper fare?",
+     "suggestionFa": "کرایهٔ هاپر چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "عوض کردن"
+    },
+    {
+     "word": "for free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "fare",
+     "fa": "کرایه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "One fare, many buses, one hour. Do you go upstairs or downstairs?",
+   "translations": {
+    "fa": "یه کرایه، چند تا اتوبوس، یه ساعت. طبقه بالا میری یا پایین؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "upstairs",
+      "front"
+     ],
+     "suggestion": "Upstairs, at the front!",
+     "suggestionFa": "بالا، جلو!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "downstairs",
+      "easier"
+     ],
+     "suggestion": "Downstairs. It's easier.",
+     "suggestionFa": "پایین. راحت‌تره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "downstairs",
+     "fa": "طبقهٔ پایین"
+    },
+    {
+     "word": "front",
+     "fa": "جلو"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Upstairs at the front! Like a kid. Best seat in London. Great view.",
+   "translations": {
+    "fa": "بالا جلو! مثل بچه‌ها. بهترین صندلی لندن. منظرهٔ عالی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "drive",
+      "ever",
+      "bus"
+     ],
+     "suggestion": "Do you ever drive a different bus?",
+     "suggestionFa": "هیچ‌وقت اتوبوس دیگه‌ای می‌رونی؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mirror",
+      "see",
+      "can"
+     ],
+     "suggestion": "Can you see me in your mirror?",
+     "suggestionFa": "منو تو آینه‌ت می‌بینی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seat",
+     "fa": "صندلی"
+    },
+    {
+     "word": "view",
+     "fa": "منظره"
+    },
+    {
+     "word": "mirror",
+     "fa": "آینه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Always the 38! And yes, I can see you. So no funny faces! Here's your stop. Have a good class!",
+   "translations": {
+    "fa": "همیشه ۳۸! و آره، می‌بینمت. پس شکلک درنیار! ایستگاهت رسید. کلاس خوبی داشته باشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

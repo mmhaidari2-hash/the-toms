@@ -1,0 +1,365 @@
+{
+ "id": "l1_u43_3",
+ "characterId": "priya",
+ "title": "Where's the toilet?",
+ "titleFa": "دستشویی کجاست؟",
+ "setting": "Asking for help · Level 1",
+ "settingFa": "کمک خواستن",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Hi again! Oh, who's this little one?",
+   "translations": {
+    "fa": "دوباره سلام! آه، این کوچولو کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "there",
+      "here"
+     ],
+     "suggestion": "This is Nicola. Is there a toilet here?",
+     "suggestionFa": "این نیکولاست. اینجا دستشویی هست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "urgent",
+      "sorry"
+     ],
+     "suggestion": "Sorry, it's urgent. Where's the toilet?",
+     "suggestionFa": "ببخشید، فوریه. دستشویی کجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "little one",
+     "fa": "کوچولو"
+    },
+    {
+     "word": "toilet",
+     "fa": "دستشویی ؛ توالت"
+    },
+    {
+     "word": "urgent",
+     "fa": "فوری"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"toilet\" or \"loo\", American \"restroom\" or \"bathroom\".",
+    "fa": "toilet/loo/restroom."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "I need a wee! Now!",
+   "translations": {
+    "fa": "جیش دارم! همین الان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "quick"
+     ],
+     "suggestion": "Quick, Nicola!",
+     "suggestionFa": "سریع نیکولا!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "we're",
+      "hold"
+     ],
+     "suggestion": "Hold on, we're going!",
+     "suggestionFa": "یه کم صبر کن، داریم میریم!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wee",
+     "fa": "جیش (کودکانه)"
+    },
+    {
+     "word": "hold on",
+     "fa": "صبر کن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Customer toilets are at the back, past the bakery. Then turn left.",
+   "translations": {
+    "fa": "دستشویی مشتری‌ها ته فروشگاهه، بعد از نونوایی. بعد بپیچ چپ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bakery",
+      "then",
+      "left",
+      "past"
+     ],
+     "suggestion": "Past the bakery, then left.",
+     "suggestionFa": "بعد از نونوایی، بعد چپ.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "far"
+     ],
+     "suggestion": "Is it far?",
+     "suggestionFa": "دوره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "customer",
+     "fa": "مشتری"
+    },
+    {
+     "word": "past",
+     "fa": "بعد از ؛ از کنار"
+    },
+    {
+     "word": "turn left",
+     "fa": "بپیچ چپ"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Not far. Thirty seconds! There's a code on the door. It's one-two-three-four.",
+   "translations": {
+    "fa": "دور نیست. سی ثانیه! رو در یه رمز هست. یک-دو-سه-چهار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "code",
+      "four",
+      "two"
+     ],
+     "suggestion": "A code? OK, one-two-three-four.",
+     "suggestionFa": "رمز؟ باشه، یک-دو-سه-چهار.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "changing",
+      "there",
+      "baby",
+      "room"
+     ],
+     "suggestion": "Is there a baby-changing room too?",
+     "suggestionFa": "اتاق تعویض بچه هم هست؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "code",
+     "fa": "رمز"
+    },
+    {
+     "word": "door",
+     "fa": "در"
+    },
+    {
+     "word": "baby-changing",
+     "fa": "تعویض پوشک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Yes, next to the toilets. Hurry!",
+   "translations": {
+    "fa": "آره، کنار دستشویی‌ها. عجله کنید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "come",
+      "run"
+     ],
+     "suggestion": "Come on, Nicola. Run!",
+     "suggestionFa": "بیا نیکولا. بدو!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you!",
+     "suggestionFa": "ممنون!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hurry",
+     "fa": "عجله کردن"
+    },
+    {
+     "word": "run",
+     "fa": "دویدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Made it! Phew! Can I wash my hands? Is there soap?",
+   "translations": {
+    "fa": "رسیدیم! آخیش! می‌تونم دستام را بشورم؟ صابون هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "sink",
+      "soap",
+      "by"
+     ],
+     "suggestion": "Yes, there's soap by the sink.",
+     "suggestionFa": "آره، کنار روشویی صابون هست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dryer",
+      "there",
+      "hand"
+     ],
+     "suggestion": "Is there a hand dryer?",
+     "suggestionFa": "خشک‌کن دست هست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "made it",
+     "fa": "رسیدیم ؛ موفق شدیم"
+    },
+    {
+     "word": "soap",
+     "fa": "صابون"
+    },
+    {
+     "word": "hand dryer",
+     "fa": "دست‌خشک‌کن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is there the soap",
+      "there is soap?"
+     ],
+     "echo": "Is there soap? Yes, by the sink.",
+     "better": "Is there any soap?",
+     "betterFa": "صابون هست؟"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "The dryer is SO loud! I'm scared! Can I use paper towels?",
+   "translations": {
+    "fa": "خشک‌کن خیلی بلنده! می‌ترسم! می‌تونم دستمال کاغذی استفاده کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "towel",
+      "paper"
+     ],
+     "suggestion": "Yes, here's a paper towel.",
+     "suggestionFa": "آره، بفرما دستمال کاغذی.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "noisy",
+      "only",
+      "ok"
+     ],
+     "suggestion": "It's OK. It's only noisy.",
+     "suggestionFa": "اشکالی نداره. فقط پرسروصداست.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paper towels",
+     "fa": "حوله کاغذی"
+    },
+    {
+     "word": "scared",
+     "fa": "ترسیده"
+    },
+    {
+     "word": "noisy",
+     "fa": "پرسروصدا"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "All better? Here's a sticker for being so quick! Mind how you go!",
+   "translations": {
+    "fa": "همه چی خوبه؟ اینم یه برچسب برای این‌همه سرعت! مواظب خودتون باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

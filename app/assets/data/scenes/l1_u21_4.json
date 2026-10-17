@@ -1,0 +1,361 @@
+{
+ "id": "l1_u21_4",
+ "characterId": "leslie",
+ "title": "What day is it today?",
+ "titleFa": "امروز چه روزی است؟",
+ "setting": "Days of the week · Level 1",
+ "settingFa": "روزهای هفته",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Is it Wednesday today? I'm so tired, I can't remember!",
+   "translations": {
+    "fa": "امروز چهارشنبه‌ست؟ خیلی خسته‌ام، یادم نمیاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thursday"
+     ],
+     "suggestion": "No, it's Thursday.",
+     "suggestionFa": "نه، پنجشنبه‌ست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wednesday"
+     ],
+     "suggestion": "Yes, it's Wednesday.",
+     "suggestionFa": "آره، چهارشنبه‌ست.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tired",
+     "fa": "خسته"
+    },
+    {
+     "word": "remember",
+     "fa": "به یاد آوردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Thursday! So yesterday was Wednesday. What's the date today?",
+   "translations": {
+    "fa": "پنجشنبه! پس دیروز چهارشنبه بود. امروز چندمه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "march"
+     ],
+     "suggestion": "It's the twelfth of March.",
+     "suggestionFa": "دوازدهم مارسه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "look",
+      "let"
+     ],
+     "suggestion": "Let me look at my phone. The twelfth.",
+     "suggestionFa": "بذار گوشیم را ببینم. دوازدهم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yesterday",
+     "fa": "دیروز"
+    },
+    {
+     "word": "date",
+     "fa": "تاریخ"
+    },
+    {
+     "word": "twelfth",
+     "fa": "دوازدهم"
+    },
+    {
+     "word": "March",
+     "fa": "مارس"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people say \"the twelfth of March\" and write 12/03 — day first. Americans write 03/12.",
+    "fa": "تاریخ بریتانیایی روز اول."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "The twelfth! Oh no! William's check-up is on the thirteenth. That's tomorrow!",
+   "translations": {
+    "fa": "دوازدهم! وای نه! معاینهٔ ویلیام سیزدهمه. یعنی فردا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "time"
+     ],
+     "suggestion": "What time is it?",
+     "suggestionFa": "ساعت چنده؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remembered",
+      "worry",
+      "don't"
+     ],
+     "suggestion": "Don't worry. You remembered!",
+     "suggestionFa": "نگران نباش. یادت اومد!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check-up",
+     "fa": "معاینه"
+    },
+    {
+     "word": "thirteenth",
+     "fa": "سیزدهم"
+    },
+    {
+     "word": "tomorrow",
+     "fa": "فردا"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Ten o'clock. And Saturday is the fifteenth. That's Nicola's party!",
+   "translations": {
+    "fa": "ساعت ده. و شنبه پونزدهمه. مهمونی نیکولاست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whose"
+     ],
+     "suggestion": "A party? Whose party?",
+     "suggestionFa": "مهمونی؟ مهمونی کی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kind"
+     ],
+     "suggestion": "What kind of party?",
+     "suggestionFa": "چه جور مهمونی‌ای؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fifteenth",
+     "fa": "پانزدهم"
+    },
+    {
+     "word": "party",
+     "fa": "مهمانی"
+    },
+    {
+     "word": "whose",
+     "fa": "مال چه کسی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Her friend Mia's party. At the soft play centre. We need a present!",
+   "translations": {
+    "fa": "مهمونی دوستش میا. تو مرکز بازی سرپوشیده. یه کادو لازم داریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "shall",
+      "buy",
+      "we"
+     ],
+     "suggestion": "Shall we buy it tomorrow?",
+     "suggestionFa": "فردا بخریمش؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "mia"
+     ],
+     "suggestion": "What does Mia like?",
+     "suggestionFa": "میا چی دوست داره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "soft play",
+     "fa": "مرکز بازی سرپوشیده"
+    },
+    {
+     "word": "present",
+     "fa": "کادو"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Soft play\" centres — indoor playgrounds with padded slides — are hugely popular for children's parties.",
+    "fa": "مراکز بازی سرپوشیده برای جشن کودکان."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Space! She loves space. When is your birthday?",
+   "translations": {
+    "fa": "فضا! عاشق فضاست. تولد تو کِیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "fifth",
+      "may"
+     ],
+     "suggestion": "My birthday is on the fifth of May.",
+     "suggestionFa": "تولدم پنجم مه‌ست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twentieth",
+      "june"
+     ],
+     "suggestion": "It's in June. The twentieth.",
+     "suggestionFa": "تو ژوئنه. بیستم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "space",
+     "fa": "فضا"
+    },
+    {
+     "word": "birthday",
+     "fa": "تولد"
+    },
+    {
+     "word": "fifth",
+     "fa": "پنجم"
+    },
+    {
+     "word": "May",
+     "fa": "مه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "my birthday is in 5 may",
+      "birthday is at fifth may"
+     ],
+     "echo": "On the fifth of May? Lovely!",
+     "better": "My birthday is on the fifth of May.",
+     "betterFa": "تولدم پنجم مه‌ست."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "I'll write it on the calendar! We must have a cake. What day is it this year?",
+   "translations": {
+    "fa": "رو تقویم می‌نویسمش! باید کیک داشته باشیم. امسال چه روزیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "don't",
+      "look",
+      "know"
+     ],
+     "suggestion": "I don't know. Let's look.",
+     "suggestionFa": "نمی‌دونم. بیا نگاه کنیم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sunday",
+      "think"
+     ],
+     "suggestion": "I think it's a Sunday.",
+     "suggestionFa": "فکر کنم یکشنبه‌ست.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "write",
+     "fa": "نوشتن"
+    },
+    {
+     "word": "this year",
+     "fa": "امسال"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "A Sunday! Perfect for a party. Now, what day is it today? Ha! Just joking. I need a cup of tea!",
+   "translations": {
+    "fa": "یکشنبه! برای مهمونی عالیه. حالا، امروز چه روزیه؟ ها! شوخی کردم. یه فنجون چای لازم دارم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

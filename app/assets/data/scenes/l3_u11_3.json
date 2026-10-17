@@ -31,8 +31,8 @@
      "keywords": [
       "course",
       "them",
-      "call",
-      "i'll"
+      "i'll",
+      "call"
      ],
      "suggestion": "Of course. I'll call them now.",
      "suggestionFa": "حتماً. الان زنگشون می‌زنم.",
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "nobody's",
-      "danger",
       "report",
+      "danger",
       "like"
      ],
      "suggestion": "No, nobody's in danger. I'd like to report a stolen bike.",
@@ -122,8 +122,8 @@
      "keywords": [
       "railings",
       "chained",
-      "about",
-      "night"
+      "night",
+      "about"
      ],
      "suggestion": "Last night at about ten. It was chained to the railings.",
      "suggestionFa": "دیشب حدود ده. به نرده‌ها زنجیر شده بود.",
@@ -133,10 +133,10 @@
     },
     {
      "keywords": [
-      "morning",
       "leaving",
+      "morning",
       "seven",
-      "work"
+      "when"
      ],
      "suggestion": "This morning at seven, when he was leaving for work.",
      "suggestionFa": "امروز صبح ساعت هفت، وقتی داشت می‌رفت سر کار.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "child",
-      "seat",
       "back",
+      "seat",
       "red"
      ],
      "suggestion": "It's red, with a child seat on the back.",
@@ -242,7 +242,7 @@
       "bikeregister",
       "think",
       "i'll",
-      "ask"
+      "him"
      ],
      "suggestion": "I'll ask him. I think it's on BikeRegister.",
      "suggestionFa": "ازش می‌پرسم. فکر کنم تو بایک‌رجیستر هست.",
@@ -255,7 +255,7 @@
       "bought",
       "second",
       "sorry",
-      "hand"
+      "idea"
      ],
      "suggestion": "No idea, sorry. He bought it second-hand.",
      "suggestionFa": "هیچ ایده‌ای ندارم، ببخشید. دست دوم خریدش.",
@@ -296,7 +296,7 @@
       "neighbour",
       "camera",
       "i'll",
-      "has"
+      "her"
      ],
      "suggestion": "The neighbour has a camera. I'll ask her.",
      "suggestionFa": "همسایه دوربین داره. ازش می‌پرسم.",
@@ -398,7 +398,7 @@
       "marketplaces",
       "online",
       "should",
-      "thank"
+      "check"
      ],
      "suggestion": "Thank you. Should he check online marketplaces?",
      "suggestionFa": "ممنون. باید بازارهای آنلاین را چک کنه؟",

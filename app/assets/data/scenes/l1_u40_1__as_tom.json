@@ -1,0 +1,225 @@
+{
+ "id": "l1_u40_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Scrambled eggs",
+ "titleFa": "(در نقش Tom) تخم‌مرغ همزده",
+ "setting": "Simple cooking · Level 1",
+ "settingFa": "آشپزی ساده",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u40_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scrambled",
+      "breakfast",
+      "leslie's",
+      "having",
+      "making"
+     ],
+     "suggestion": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
+     "suggestionFa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes! What do I do first?",
+   "translations": {
+    "fa": "آره! اول چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "crack",
+      "eight",
+      "first",
+      "bowl"
+     ],
+     "suggestion": "First, crack the eggs into the bowl. Eight eggs. Big family!",
+     "suggestionFa": "اول، تخم‌مرغ‌ها را تو کاسه بشکن. هشت تا. خانوادهٔ بزرگ!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Eight eggs! OK.",
+   "translations": {
+    "fa": "هشت تا! باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "spoon",
+      "whisk",
+      "fast",
+      "them"
+     ],
+     "suggestion": "No problem. Get it out with a spoon. Now whisk them. Fast!",
+     "suggestionFa": "مشکلی نیست. با قاشق درش بیار. حالا همشون بزن. سریع!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Like this?",
+   "translations": {
+    "fa": "این‌جوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pepper",
+      "milk",
+      "some",
+      "fork",
+      "salt"
+     ],
+     "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
+     "suggestionFa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "How much salt?",
+   "translations": {
+    "fa": "چقدر نمک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medium",
+      "butter",
+      "pinch",
+      "heat",
+      "high"
+     ],
+     "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
+     "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "The butter's melting.",
+   "translations": {
+    "fa": "کره داره آب میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stirring",
+      "slowly",
+      "don't",
+      "pour",
+      "stop"
+     ],
+     "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
+     "suggestionFa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'm stirring. They're getting thick.",
+   "translations": {
+    "fa": "دارم هم می‌زنم. دارن سفت میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "cooking",
+      "still",
+      "toast",
+      "ready"
+     ],
+     "suggestion": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
+     "suggestionFa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, the toast is ready.",
+   "translations": {
+    "fa": "آره، نون تست آماده‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "perfect",
+      "served",
+      "leslie",
+      "chefs"
+     ],
+     "suggestion": "Perfect! Breakfast is served. Leslie, wake up! The chefs have been busy!",
+     "suggestionFa": "عالی! صبحونه حاضره. لزلی، بیدار شو! آشپزها حسابی کار کردن!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

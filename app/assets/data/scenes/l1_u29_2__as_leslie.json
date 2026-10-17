@@ -1,0 +1,339 @@
+{
+ "id": "l1_u29_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Eat in or take away?",
+ "titleFa": "(در نقش Leslie) اینجا یا بیرون؟",
+ "setting": "At the café · Level 1",
+ "settingFa": "در کافه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u29_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "before",
+      "school",
+      "coffee",
+      "shall"
+     ],
+     "suggestion": "Phew! I need a coffee before the school run. Shall I get you something?",
+     "suggestionFa": "وای! قبل از بردن بچه‌ها به مدرسه یه قهوه لازم دارم. برات چیزی بگیرم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, please. A tea.",
+   "translations": {
+    "fa": "آره، لطفاً. یه چای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they've",
+      "paid",
+      "kind",
+      "last",
+      "lots"
+     ],
+     "suggestion": "No, no. You paid last time. What kind of tea? They've got lots.",
+     "suggestionFa": "نه، نه. دفعهٔ قبل تو حساب کردی. چه نوع چایی؟ کلی دارن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Just a normal tea, please.",
+   "translations": {
+    "fa": "فقط یه چای معمولی، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "callum",
+   "text": "Hi, Leslie! The usual? A flat white?",
+   "translations": {
+    "fa": "سلام لزلی! همیشگی؟ یه فلت وایت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the usual",
+     "fa": "همیشگی"
+    },
+    {
+     "word": "flat white",
+     "fa": "فلت وایت (نوعی قهوه)"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What's a flat white?",
+   "translations": {
+    "fa": "فلت وایت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "callum",
+      "friend",
+      "please",
+      "take",
+      "mint"
+     ],
+     "suggestion": "Yes, please, Callum. And a mint tea for my friend. To take away.",
+     "suggestionFa": "آره، لطفاً کالوم. و یه چای نعناع برای دوستم. برای بیرون.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie.",
+   "translations": {
+    "fa": "ممنون لزلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "callum",
+   "text": "Coming up. Do you want a cup holder? Two hot drinks are tricky!",
+   "translations": {
+    "fa": "الان میارم. جالیوانی می‌خواید؟ دو تا نوشیدنی داغ سخته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cup holder",
+     "fa": "جالیوانی"
+    },
+    {
+     "word": "tricky",
+     "fa": "سخت ؛ دردسرساز"
+    },
+    {
+     "word": "carry",
+     "fa": "حمل کردن"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, please. That's helpful.",
+   "translations": {
+    "fa": "آره، لطفاً. کمک می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discount",
+      "reusable",
+      "have",
+      "get",
+      "got"
+     ],
+     "suggestion": "Oh, have you got a reusable cup? You get a discount!",
+     "suggestionFa": "آه، لیوان چندبارمصرف داری؟ تخفیف می‌گیری!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "No. I forgot it.",
+   "translations": {
+    "fa": "نه. یادم رفت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "callum",
+   "text": "Here you go. Careful, they're hot! That's six pounds ten, please.",
+   "translations": {
+    "fa": "بفرمایید. مواظب باشید، داغن! شش پوند و ده میشه، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    },
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "get the door",
+     "fa": "باز کردن در"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Shall I hold the drinks?",
+   "translations": {
+    "fa": "نوشیدنی‌ها را نگه دارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "callum",
+      "thank",
+      "star",
+      "bye"
+     ],
+     "suggestion": "Thank you! You're a star. Bye, Callum!",
+     "suggestionFa": "ممنون! ستاره‌ای. خداحافظ کالوم!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Bye! Thanks for the tea.",
+   "translations": {
+    "fa": "خداحافظ! ممنون بابت چای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "school",
+      "let's",
+      "spill",
+      "right"
+     ],
+     "suggestion": "Right. Ten minutes to school. Let's walk fast — and don't spill the tea!",
+     "suggestionFa": "خب. ده دقیقه تا مدرسه. تند راه بریم — و چای را نریز!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

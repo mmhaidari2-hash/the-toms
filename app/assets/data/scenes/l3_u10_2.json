@@ -33,8 +33,8 @@
     {
      "keywords": [
       "presentation",
-      "sure",
       "long",
+      "sure",
       "how"
      ],
      "suggestion": "Sure. How long is your presentation?",
@@ -79,7 +79,7 @@
      "keywords": [
       "though",
       "slowly",
-      "great",
+      "start",
       "speak"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "explain",
-      "made",
       "good",
-      "why"
+      "made",
+      "now"
      ],
      "suggestion": "Good. Now explain why you made it.",
      "suggestionFa": "خوبه. حالا توضیح بده چرا ساختیش.",
@@ -147,7 +147,7 @@
       "number",
       "charge",
       "maybe",
-      "long"
+      "take"
      ],
      "suggestion": "Maybe give a number — how long does it take to charge?",
      "suggestionFa": "شاید یه عدد بدی — شارژ کردن چقدر طول می‌کشه؟",
@@ -190,9 +190,9 @@
     {
      "keywords": [
       "judges",
+      "will",
       "love",
-      "joke",
-      "will"
+      "joke"
      ],
      "suggestion": "Ha! The judges will love that joke.",
      "suggestionFa": "ها! داورها عاشق این شوخی میشن.",
@@ -245,8 +245,8 @@
      "keywords": [
       "brilliant",
       "about",
-      "they",
-      "will"
+      "will",
+      "they"
      ],
      "suggestion": "Brilliant! What will you say if they ask about the cost?",
      "suggestionFa": "عالی! اگه دربارهٔ هزینه بپرسن چی می‌گی؟",
@@ -256,10 +256,10 @@
     },
     {
      "keywords": [
-      "you'll",
       "really",
+      "you'll",
       "great",
-      "ryan"
+      "good"
      ],
      "suggestion": "That was really good, Ryan. You'll be great.",
      "suggestionFa": "خیلی خوب بود رایان. عالی میشی.",

@@ -1,0 +1,418 @@
+{
+ "id": "l1_u20_1",
+ "characterId": "tom",
+ "title": "What does Tom do?",
+ "titleFa": "تام چه کاره است؟",
+ "setting": "Family jobs · Level 1",
+ "settingFa": "شغل‌های خانواده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning! Off to work soon. Do you know what I do?",
+   "translations": {
+    "fa": "صبح بخیر! به زودی می‌رم سر کار. می‌دونی من چه کاره‌ام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tom"
+     ],
+     "suggestion": "No. What do you do, Tom?",
+     "suggestionFa": "نه. چه کاره‌ای تام؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "driver"
+     ],
+     "suggestion": "Are you a driver?",
+     "suggestionFa": "راننده‌ای؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "work",
+     "fa": "کار"
+    },
+    {
+     "word": "driver",
+     "fa": "راننده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "I'm a bus driver. I drive the number 38 bus through Hackney every day.",
+   "translations": {
+    "fa": "راننده اتوبوسم. هر روز اتوبوس شمارهٔ ۳۸ را تو هاکنی می‌رونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "busy"
+     ],
+     "suggestion": "That sounds busy!",
+     "suggestionFa": "به نظر شلوغه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "job"
+     ],
+     "suggestion": "Do you like your job?",
+     "suggestionFa": "کارت را دوست داری؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bus driver",
+     "fa": "رانندهٔ اتوبوس"
+    },
+    {
+     "word": "drive",
+     "fa": "راندن"
+    },
+    {
+     "word": "through",
+     "fa": "از میان"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "I love it, most days! Rush hour is crazy. Hundreds of people!",
+   "translations": {
+    "fa": "بیشتر روزها عاشقشم! ساعت شلوغی دیوونه‌کننده‌ست. صدها نفر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "imagine",
+      "can"
+     ],
+     "suggestion": "I can imagine!",
+     "suggestionFa": "می‌تونم تصور کنم!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weekends",
+      "work"
+     ],
+     "suggestion": "Do you work at weekends?",
+     "suggestionFa": "آخر هفته‌ها کار می‌کنی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crazy",
+     "fa": "دیوانه‌کننده"
+    },
+    {
+     "word": "rush hour",
+     "fa": "ساعت شلوغی"
+    },
+    {
+     "word": "hundreds",
+     "fa": "صدها"
+    },
+    {
+     "word": "imagine",
+     "fa": "تصور کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Sometimes. I start at six and finish at three. What about you? What do you do?",
+   "translations": {
+    "fa": "گاهی. ساعت شش شروع می‌کنم و سه تموم می‌کنم. تو چی؟ چه کاره‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineer"
+     ],
+     "suggestion": "I'm an engineer.",
+     "suggestionFa": "مهندسم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looking",
+      "moment",
+      "job"
+     ],
+     "suggestion": "I'm looking for a job at the moment.",
+     "suggestionFa": "فعلاً دنبال کارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "start",
+     "fa": "شروع کردن"
+    },
+    {
+     "word": "finish",
+     "fa": "تمام کردن"
+    },
+    {
+     "word": "engineer",
+     "fa": "مهندس"
+    },
+    {
+     "word": "at the moment",
+     "fa": "فعلاً"
+    }
+   ],
+   "cultureNote": {
+    "en": "In English we say \"I'm AN engineer\" — with \"a\" or \"an\" before jobs.",
+    "fa": "قبل از شغل a/an می‌آید."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i am engineer",
+      "i engineer"
+     ],
+     "echo": "You're an engineer? Brilliant!",
+     "better": "I'm an engineer.",
+     "betterFa": "مهندسم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Good for you. It's not easy to find a job in a new country. What did you do back home?",
+   "translations": {
+    "fa": "آفرین بهت. پیدا کردن کار تو یه کشور جدید آسون نیست. تو کشورت چی کار می‌کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "worked"
+     ],
+     "suggestion": "I worked in an office.",
+     "suggestionFa": "تو یه دفتر کار می‌کردم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "was"
+     ],
+     "suggestion": "I was a teacher.",
+     "suggestionFa": "معلم بودم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "easy",
+     "fa": "آسان"
+    },
+    {
+     "word": "new",
+     "fa": "جدید"
+    },
+    {
+     "word": "back home",
+     "fa": "در کشور خودم"
+    },
+    {
+     "word": "office",
+     "fa": "دفتر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the Jobcentre is great.",
+   "translations": {
+    "fa": "کارمند دفتری! مطمئنم اینجا یه چیزی پیدا می‌کنی. دوستم آقای اوسی تو جاب‌سنتر عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jobcentre",
+      "what's"
+     ],
+     "suggestion": "What's the Jobcentre?",
+     "suggestionFa": "جاب‌سنتر چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "that's",
+      "kind",
+      "tom"
+     ],
+     "suggestion": "Thanks, Tom. That's kind.",
+     "suggestionFa": "ممنون تام. لطف داری.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Jobcentre",
+     "fa": "مرکز کاریابی"
+    },
+    {
+     "word": "sure",
+     "fa": "مطمئن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Jobcentre Plus is the government office that helps people find work.",
+    "fa": "جاب‌سنتر اداره دولتی کاریابی است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "It's a government office. They help people find work. Free!",
+   "translations": {
+    "fa": "یه ادارهٔ دولتیه. به مردم کمک می‌کنن کار پیدا کنن. رایگان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "great",
+      "free"
+     ],
+     "suggestion": "Free? That's great.",
+     "suggestionFa": "رایگان؟ عالیه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "address",
+      "give",
+      "can"
+     ],
+     "suggestion": "Can you give me the address?",
+     "suggestionFa": "می‌تونی آدرسش را بدی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "government",
+     "fa": "دولت"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "address",
+     "fa": "آدرس"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "I'll text it to you. Right, I'm off. Where are my keys? Ah, here! See you at teatime!",
+   "translations": {
+    "fa": "برات پیامکش می‌کنم. خب، من رفتم. کلیدام کجان؟ آه، اینجان! سر شام می‌بینمت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "work",
+      "good",
+      "have",
+      "day"
+     ],
+     "suggestion": "Have a good day at work!",
+     "suggestionFa": "روز خوبی سر کار داشته باشی!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bye",
+      "tom"
+     ],
+     "suggestion": "Bye, Tom!",
+     "suggestionFa": "خداحافظ تام!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    },
+    {
+     "word": "keys",
+     "fa": "کلیدها"
+    },
+    {
+     "word": "teatime",
+     "fa": "وقت شام"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Cheers! Don't let Nicola eat all the biscuits!",
+   "translations": {
+    "fa": "ممنون! نذار نیکولا همهٔ بیسکویت‌ها را بخوره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "id": "l1_u16_2",
+ "characterId": "nicola",
+ "title": "Five a day",
+ "titleFa": "پنج وعده در روز",
+ "setting": "Fruit and vegetables · Level 1",
+ "settingFa": "میوه و سبزیجات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "At school we learnt about \"five a day\". Do you know it?",
+   "translations": {
+    "fa": "تو مدرسه دربارهٔ «پنج در روز» یاد گرفتیم. می‌دونی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "no",
+      "what",
+      "is"
+     ],
+     "suggestion": "No. What is it?",
+     "suggestionFa": "نه. چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "vegetables",
+      "every",
+      "fruit",
+      "five"
+     ],
+     "suggestion": "Five fruit and vegetables every day!",
+     "suggestionFa": "پنج تا میوه و سبزی هر روز!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "learnt",
+     "fa": "یاد گرفت"
+    },
+    {
+     "word": "every day",
+     "fa": "هر روز"
+    }
+   ],
+   "cultureNote": {
+    "en": "The NHS \"5 A Day\" campaign tells people to eat five portions of fruit and veg daily.",
+    "fa": "کمپین ۵ در روز."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Five fruit and vegetables every day! Let's count. What did you eat today?",
+   "translations": {
+    "fa": "پنج تا میوه و سبزی هر روز! بیا بشمریم. امروز چی خوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "banana",
+      "apple"
+     ],
+     "suggestion": "An apple and a banana.",
+     "suggestionFa": "یه سیب و یه موز.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "breakfast",
+      "orange",
+      "had"
+     ],
+     "suggestion": "I had an orange for breakfast.",
+     "suggestionFa": "صبحونه یه پرتقال خوردم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "orange",
+     "fa": "پرتقال"
+    },
+    {
+     "word": "breakfast",
+     "fa": "صبحانه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "That's two! I had strawberries. Strawberries are my favourite.",
+   "translations": {
+    "fa": "این دو تا! من توت‌فرنگی خوردم. توت‌فرنگی مورد علاقه‌مه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strawberries",
+      "delicious"
+     ],
+     "suggestion": "Strawberries are delicious!",
+     "suggestionFa": "توت‌فرنگی خوشمزه‌ست!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grapes",
+      "like"
+     ],
+     "suggestion": "Do you like grapes?",
+     "suggestionFa": "انگور دوست داری؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strawberries",
+     "fa": "توت‌فرنگی"
+    },
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    },
+    {
+     "word": "grapes",
+     "fa": "انگور"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Yes! Green grapes. But Mummy cuts them in half for William.",
+   "translations": {
+    "fa": "آره! انگور سبز. ولی مامان برای ویلیام نصفشون می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "them",
+      "she",
+      "cut",
+      "why"
+     ],
+     "suggestion": "Why does she cut them?",
+     "suggestionFa": "چرا نصفشون می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "babies",
+      "that's",
+      "safer"
+     ],
+     "suggestion": "That's safer for babies.",
+     "suggestionFa": "برای بچه‌ها امن‌تره.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cuts",
+     "fa": "برش می‌دهد"
+    },
+    {
+     "word": "half",
+     "fa": "نصف"
+    },
+    {
+     "word": "safer",
+     "fa": "امن‌تر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Parents in the UK are told to cut grapes lengthways for small children to prevent choking.",
+    "fa": "انگور را برای کودکان از طول ببرید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Yes, it's safer. What vegetables do you like?",
+   "translations": {
+    "fa": "آره، امن‌تره. چه سبزی‌هایی دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cucumbers",
+      "tomatoes",
+      "like"
+     ],
+     "suggestion": "I like tomatoes and cucumbers.",
+     "suggestionFa": "گوجه و خیار دوست دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "aubergines",
+      "love"
+     ],
+     "suggestion": "I love aubergines!",
+     "suggestionFa": "عاشق بادمجونم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "vegetables",
+     "fa": "سبزیجات"
+    },
+    {
+     "word": "tomatoes",
+     "fa": "گوجه‌ها"
+    },
+    {
+     "word": "cucumbers",
+     "fa": "خیارها"
+    },
+    {
+     "word": "aubergines",
+     "fa": "بادمجان‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"aubergine\", \"courgette\"; American \"eggplant\", \"zucchini\".",
+    "fa": "aubergine/eggplant و courgette/zucchini."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i like tomato",
+      "i likes tomatoes"
+     ],
+     "echo": "You like tomatoes? Me too!",
+     "better": "I like tomatoes.",
+     "betterFa": "گوجه دوست دارم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Aubergines are purple! I don't like them. I like peas and sweetcorn.",
+   "translations": {
+    "fa": "بادمجون بنفشه! دوستش ندارم. نخود فرنگی و ذرت دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetables",
+      "sweetcorn",
+      "peas"
+     ],
+     "suggestion": "Peas and sweetcorn are vegetables, too.",
+     "suggestionFa": "نخود و ذرت هم سبزی‌ان.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carrots",
+      "eat"
+     ],
+     "suggestion": "Do you eat carrots?",
+     "suggestionFa": "هویج می‌خوری؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    },
+    {
+     "word": "peas",
+     "fa": "نخود فرنگی"
+    },
+    {
+     "word": "sweetcorn",
+     "fa": "ذرت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Yes! Carrots help you see in the dark. Nana says so.",
+   "translations": {
+    "fa": "آره! هویج کمک می‌کنه تو تاریکی ببینی. نانا این‌جوری می‌گه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "true",
+      "ha"
+     ],
+     "suggestion": "Ha! Is that true?",
+     "suggestionFa": "ها! راسته؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "maybe"
+     ],
+     "suggestion": "Maybe a little!",
+     "suggestionFa": "شاید یه کم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dark",
+     "fa": "تاریکی"
+    },
+    {
+     "word": "true",
+     "fa": "درست"
+    }
+   ],
+   "cultureNote": {
+    "en": "The \"carrots help you see in the dark\" story comes from the Second World War.",
+    "fa": "این داستان از جنگ جهانی دوم است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "So, how many have you got today?",
+   "translations": {
+    "fa": "خب، تو امروز چند تا داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "three",
+      "i've",
+      "need",
+      "more"
+     ],
+     "suggestion": "I've got three. I need two more.",
+     "suggestionFa": "سه تا دارم. دو تای دیگه لازم دارم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "salad",
+      "lunch",
+      "five",
+      "had"
+     ],
+     "suggestion": "Five! I had salad at lunch.",
+     "suggestionFa": "پنج تا! ناهار سالاد خوردم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "salad",
+     "fa": "سالاد"
+    },
+    {
+     "word": "lunch",
+     "fa": "ناهار"
+    },
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Well done! You get a gold star! Tonight Mummy is making soup. That's lots of vegetables!",
+   "translations": {
+    "fa": "آفرین! یه ستارهٔ طلایی می‌گیری! امشب مامان سوپ درست می‌کنه. کلی سبزی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

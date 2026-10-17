@@ -22,11 +22,11 @@
     {
      "keywords": [
       "birthday",
-      "seven",
-      "today"
+      "today",
+      "six"
      ],
-     "suggestion": "It's my birthday! I'm seven today! Seven!",
-     "suggestionFa": "تولدمه! امروز هفت سالم شد! هفت!",
+     "suggestion": "It's my birthday! I'm six today! Six!",
+     "suggestionFa": "تولدمه! امروز شش سالم شد! شش!",
      "trustDelta": 5,
      "next": "r2",
      "success": true
@@ -46,8 +46,8 @@
      "keywords": [
       "birthday",
       "when's",
-      "march",
-      "tenth"
+      "tenth",
+      "march"
      ],
      "suggestion": "My birthday is the tenth of March. When's your birthday?",
      "suggestionFa": "تولدم دهم مارسه. تولد تو کِیه؟",
@@ -68,14 +68,14 @@
    "branches": [
     {
      "keywords": [
-      "candles",
       "unicorn",
+      "candles",
       "there",
-      "seven",
+      "cake",
       "look"
      ],
-     "suggestion": "Look at my cake! It's a unicorn! And there are seven candles.",
-     "suggestionFa": "کیکم را ببین! تکشاخه! و هفت‌تا شمع داره.",
+     "suggestion": "Look at my cake! It's a unicorn! And there are six candles.",
+     "suggestionFa": "کیکم را ببین! تکشاخه! و شش‌تا شمع داره.",
      "trustDelta": 5,
      "next": "r4",
      "success": true
@@ -95,9 +95,9 @@
      "keywords": [
       "secret",
       "going",
-      "made",
+      "wish",
       "tell",
-      "wish"
+      "made"
      ],
      "suggestion": "I made a wish! I'm not going to tell you. It's a secret!",
      "suggestionFa": "آرزو کردم! بهت نمی‌گم. رازه!",
@@ -120,8 +120,8 @@
      "keywords": [
       "present",
       "open",
-      "now",
-      "can"
+      "can",
+      "now"
      ],
      "suggestion": "A present! Can I open it now? What is it?",
      "suggestionFa": "کادو! الان می‌تونم بازش کنم؟ چیه؟",
@@ -145,8 +145,8 @@
       "dinosaurs",
       "buttons",
       "tonight",
-      "going",
-      "about"
+      "about",
+      "going"
      ],
      "suggestion": "A book about dinosaurs! I love it! I'm going to read it tonight with Mr Buttons.",
      "suggestionFa": "یه کتاب دربارهٔ دایناسورها! عاشقشم! امشب با آقای دکمه می‌خونمش.",

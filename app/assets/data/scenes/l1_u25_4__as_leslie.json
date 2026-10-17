@@ -1,0 +1,225 @@
+{
+ "id": "l1_u25_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Wellies on!",
+ "titleFa": "(در نقش Leslie) چکمه‌ها را بپوش!",
+ "setting": "Getting dressed · Level 1",
+ "settingFa": "لباس پوشیدن",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u25_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "pouring",
+      "wellies",
+      "school",
+      "walk"
+     ],
+     "suggestion": "It's pouring with rain! But we must walk to school. Everyone, wellies on!",
+     "suggestionFa": "داره سیل‌آسا بارون میاد! ولی باید پیاده بریم مدرسه. همه چکمه‌هاتون را بپوشید!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What are wellies?",
+   "translations": {
+    "fa": "ولی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raincoat",
+      "nicola",
+      "rubber",
+      "please",
+      "yours"
+     ],
+     "suggestion": "Rubber boots! Yours are by the door. Nicola, put your raincoat on, please.",
+     "suggestionFa": "چکمه‌های لاستیکی! مال تو کنار دره. نیکولا، بارونیت را بپوش، لطفاً.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Nicola, here's your raincoat.",
+   "translations": {
+    "fa": "نیکولا، اینم بارونیت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "yellow",
+      "cover",
+      "needs",
+      "hood"
+     ],
+     "suggestion": "Yes, the yellow one with the hood. And William needs his rain cover on the pram.",
+     "suggestionFa": "آره، زرده که کلاه داره. و ویلیام روکش بارونی کالسکه‌اش را لازم داره.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I'll put the rain cover on.",
+   "translations": {
+    "fa": "من روکش بارونی را می‌ذارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "umbrella",
+      "basket",
+      "under",
+      "pram",
+      "have"
+     ],
+     "suggestion": "It's under the pram, in the basket. Have you got an umbrella?",
+     "suggestionFa": "زیر کالسکه، تو سبده. چتر داری؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Yes, a big one.",
+   "translations": {
+    "fa": "آره، یه بزرگ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "puddles",
+      "let's",
+      "stand",
+      "ready",
+      "tom's"
+     ],
+     "suggestion": "Take Tom's. It's in the hall stand. Ready? Let's go! Mind the puddles!",
+     "suggestionFa": "مال تام را بردار. تو جاچتریه. آماده‌ای؟ بریم! مواظب چاله‌های آب باش!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Nicola is jumping in the puddles!",
+   "translations": {
+    "fa": "نیکولا داره تو چاله‌ها می‌پره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wellies",
+      "that's",
+      "nicola",
+      "here's",
+      "school"
+     ],
+     "suggestion": "That's what wellies are for, Nicola! Jump! Here's school. Now, take your wellies off. Put your shoes on.",
+     "suggestionFa": "چکمه برای همینه نیکولا! بپر! اینم مدرسه. حالا، چکمه‌هات را دربیار. کفش‌هات را بپوش.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Here are her school shoes.",
+   "translations": {
+    "fa": "اینم کفش‌های مدرسه‌اش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "classroom",
+      "wellies",
+      "wellie",
+      "door",
+      "rack"
+     ],
+     "suggestion": "In the wellie rack, by the classroom door. Lots of wellies in a row!",
+     "suggestionFa": "تو جاچکمه‌ای، کنار در کلاس. کلی چکمه تو یه ردیف!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "They're all different colours!",
+   "translations": {
+    "fa": "همه رنگای مختلفن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weather",
+      "raining",
+      "wellies",
+      "typical",
+      "british"
+     ],
+     "suggestion": "Right, home time for us. Don't take your wellies off yet — it's still raining. Typical British weather!",
+     "suggestionFa": "خب، وقت خونه رفتن ماست. هنوز چکمه‌هات را درنیار — هنوز بارون میاد. آب‌وهوای معمولی بریتانیا!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

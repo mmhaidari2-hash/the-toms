@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "send",
       "like",
+      "send",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -166,8 +166,8 @@
     },
     {
      "keywords": [
-      "perfume",
       "there's",
+      "perfume",
       "problem",
       "small"
      ],
@@ -211,8 +211,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "cost",
+      "much",
       "will",
       "how"
      ],
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "heavy",
-      "price"
+      "price",
+      "heavy"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -261,8 +261,8 @@
     {
      "keywords": [
       "birthday",
-      "present",
       "tracked",
+      "present",
       "please"
      ],
      "suggestion": "Tracked, please — it's a birthday present.",
@@ -275,8 +275,8 @@
      "keywords": [
       "standard",
       "there's",
-      "rush",
-      "fine"
+      "fine",
+      "rush"
      ],
      "suggestion": "Standard is fine, there's no rush.",
      "suggestionFa": "معمولی خوبه، عجله‌ای نیست.",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "could",
       "first",
+      "could",
       "time",
       "help"
      ],
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
+      "done",
       "need",
-      "else",
-      "done"
+      "else"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "number",
-      "please"
+      "please",
+      "number"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",

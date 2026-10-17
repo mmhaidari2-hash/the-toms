@@ -1,0 +1,350 @@
+{
+ "id": "l1_u18_4",
+ "characterId": "nicola",
+ "title": "Clearing the table",
+ "titleFa": "جمع کردن میز",
+ "setting": "Lunchtime · Level 1",
+ "settingFa": "وقت ناهار",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
+   "translations": {
+    "fa": "ناهار تموم شد! مامان می‌گه باید میز را جمع کنیم. کمکم می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "course",
+      "let's"
+     ],
+     "suggestion": "Of course. Let's do it together.",
+     "suggestionFa": "البته. بیا با هم انجامش بدیم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first"
+     ],
+     "suggestion": "Yes. What do I do first?",
+     "suggestionFa": "آره. اول چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clear the table",
+     "fa": "جمع کردن میز"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "First, the plates. Put them next to the sink.",
+   "translations": {
+    "fa": "اول، بشقاب‌ها. بذارشون کنار سینک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plates",
+      "all"
+     ],
+     "suggestion": "All the plates?",
+     "suggestionFa": "همهٔ بشقاب‌ها؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "careful",
+      "heavy",
+      "ok"
+     ],
+     "suggestion": "OK. Careful, they're heavy!",
+     "suggestionFa": "باشه. مواظب باش، سنگینن!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plates",
+     "fa": "بشقاب‌ها"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    },
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "I'll do the cups. They're not heavy. Where do the leftovers go?",
+   "translations": {
+    "fa": "من لیوان‌ها را می‌برم. سنگین نیستن. پس‌مونده‌ها کجا می‌رن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "food"
+     ],
+     "suggestion": "In the food bin.",
+     "suggestionFa": "تو سطل غذا.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "brown"
+     ],
+     "suggestion": "In the brown bin, I think.",
+     "suggestionFa": "فکر کنم تو سطل قهوه‌ای.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cups",
+     "fa": "لیوان‌ها"
+    },
+    {
+     "word": "leftovers",
+     "fa": "پس‌مانده غذا"
+    },
+    {
+     "word": "food bin",
+     "fa": "سطل غذا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British councils collect food waste separately in a small \"food caddy\" or brown bin.",
+    "fa": "زبالهٔ غذایی جدا جمع می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Yes! The little brown caddy. And the crisp packets go in the black bin.",
+   "translations": {
+    "fa": "آره! سطل کوچولوی قهوه‌ای. و پاکت‌های چیپس می‌رن تو سطل مشکی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "juice"
+     ],
+     "suggestion": "And the juice bottle?",
+     "suggestionFa": "و بطری آبمیوه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "recycling"
+     ],
+     "suggestion": "Is the bottle for recycling?",
+     "suggestionFa": "بطری برای بازیافته؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "caddy",
+     "fa": "سطل کوچک"
+    },
+    {
+     "word": "packets",
+     "fa": "پاکت‌ها"
+    },
+    {
+     "word": "recycling",
+     "fa": "بازیافت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Bottles go in the recycling. The green box. Now, wipe the table, please.",
+   "translations": {
+    "fa": "بطری‌ها می‌رن تو بازیافت. جعبهٔ سبز. حالا، میز را دستمال بکش، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "cloth"
+     ],
+     "suggestion": "Where's the cloth?",
+     "suggestionFa": "دستمال کجاست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wiping",
+      "now"
+     ],
+     "suggestion": "I'm wiping it now.",
+     "suggestionFa": "دارم دستمال می‌کشم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wipe",
+     "fa": "دستمال کشیدن"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "where is cloth",
+      "where the cloth"
+     ],
+     "echo": "Where's the cloth? By the tap.",
+     "better": "Where's the cloth?",
+     "betterFa": "دستمال کجاست؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "By the tap. Oh, there's a crumb on the floor. And another one!",
+   "translations": {
+    "fa": "کنار شیر آب. آه، یه خرده نون رو زمینه. و یکی دیگه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "floor",
+      "sweep"
+     ],
+     "suggestion": "Let's sweep the floor.",
+     "suggestionFa": "بیا زمین را جارو کنیم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "dustpan",
+      "brush"
+     ],
+     "suggestion": "Where's the dustpan and brush?",
+     "suggestionFa": "خاک‌انداز و جارو کجاست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crumb",
+     "fa": "خرده نان"
+    },
+    {
+     "word": "sweep",
+     "fa": "جارو کردن"
+    },
+    {
+     "word": "dustpan and brush",
+     "fa": "خاک‌انداز و جارو"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Under the sink. I can sweep! Look, I'm very good at sweeping.",
+   "translations": {
+    "fa": "زیر سینک. من می‌تونم جارو کنم! ببین، من خیلی تو جارو کردن خوبم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant"
+     ],
+     "suggestion": "You're brilliant at it!",
+     "suggestionFa": "تو این کار عالی هستی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "well",
+      "done",
+      "wow"
+     ],
+     "suggestion": "Wow! Well done, Nicola!",
+     "suggestionFa": "وای! آفرین نیکولا!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brilliant",
+     "fa": "عالی"
+    },
+    {
+     "word": "good at",
+     "fa": "ماهر در"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Finished! The kitchen is clean! Mummy, look! Can we have a sweet now? We were very helpful!",
+   "translations": {
+    "fa": "تموم شد! آشپزخونه تمیزه! مامان، ببین! حالا می‌تونیم یه شکلات بخوریم؟ خیلی کمک کردیم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

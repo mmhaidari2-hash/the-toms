@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "saturday",
       "football",
+      "saturday",
       "chores",
-      "later",
+      "right",
       "first"
      ],
      "suggestion": "Right! It's Saturday. Chores first, football later. Can you help me?",
@@ -48,8 +48,8 @@
      "keywords": [
       "hoover's",
       "hallway",
-      "hoover",
       "stairs",
+      "hoover",
       "under"
      ],
      "suggestion": "Can you hoover the hallway? The hoover's under the stairs.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "monday",
-      "door",
-      "next",
       "bins",
+      "next",
+      "door",
       "take"
      ],
      "suggestion": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "recycling",
-      "rubbish",
       "plastic",
-      "paper",
-      "black"
+      "rubbish",
+      "black",
+      "paper"
      ],
      "suggestion": "The blue bin is for recycling — paper, cans and plastic. The black bin is for rubbish.",
      "suggestionFa": "سطل آبی برای بازیافته — کاغذ، قوطی و پلاستیک. سطل سیاه برای زباله.",
@@ -150,7 +150,7 @@
       "britain",
       "always",
       "check",
-      "first"
+      "looks"
      ],
      "suggestion": "Good question! In Britain, always check the sky first. Hmm… it looks OK.",
      "suggestionFa": "سؤال خوبیه! تو بریتانیا، همیشه اول آسمون را نگاه کن. هوم… خوبه.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "typical",
       "someone",
+      "typical",
+      "broken",
       "monday",
-      "plants",
-      "broken"
+      "plants"
      ],
      "suggestion": "The dryer is broken. Typical! I'll call someone on Monday. Can you water the plants too?",
      "suggestionFa": "خشک‌کن خرابه. همیشه همین‌طوره! دوشنبه به یکی زنگ می‌زنم. گلدون‌ها را هم آب می‌دی؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "brilliant",
       "country",
-      "chores",
       "better",
-      "door"
+      "chores",
+      "back"
      ],
      "suggestion": "By the back door. Brilliant — you're better than Ryan! Do you do chores at home in your country?",
      "suggestionFa": "کنار در پشتی. عالیه — از رایان بهتری! تو کشورت کارهای خونه را انجام می‌دی؟",
@@ -225,7 +225,7 @@
       "football",
       "chores",
       "right",
-      "then"
+      "mums"
      ],
      "suggestion": "Ha! Mums are the same everywhere. Right — chores done. Cup of tea, then football?",
      "suggestionFa": "ها! مامان‌ها همه جا یه جورن. خب — کارها تموم. یه چای، بعد فوتبال؟",

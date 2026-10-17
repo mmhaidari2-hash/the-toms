@@ -1,0 +1,406 @@
+{
+ "id": "l1_u19_3",
+ "characterId": "leslie",
+ "title": "Making the bed",
+ "titleFa": "مرتب کردن تخت",
+ "setting": "My bedroom · Level 1",
+ "settingFa": "اتاق خوابم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "It's sheet-changing day! Can you help me with Ryan's bed? He's at football.",
+   "translations": {
+    "fa": "امروز روز عوض کردن ملافه‌ست! تو تخت رایان کمکم می‌کنی؟ رفته فوتبال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sure"
+     ],
+     "suggestion": "Sure. What do I do?",
+     "suggestionFa": "حتماً. چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "messy"
+     ],
+     "suggestion": "Of course. It's very messy!",
+     "suggestionFa": "البته. خیلی به‌هم‌ریخته‌ست!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sheet",
+     "fa": "ملافه"
+    },
+    {
+     "word": "changing",
+     "fa": "عوض کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "First, take the pillowcases off. Put them in the basket.",
+   "translations": {
+    "fa": "اول، روبالشی‌ها را دربیار. بذارشون تو سبد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pillowcases",
+      "two",
+      "ok"
+     ],
+     "suggestion": "OK. Two pillowcases.",
+     "suggestionFa": "باشه. دو تا روبالشی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "next",
+      "done"
+     ],
+     "suggestion": "Done. What next?",
+     "suggestionFa": "تموم. بعدش چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pillowcases",
+     "fa": "روبالشی‌ها"
+    },
+    {
+     "word": "take off",
+     "fa": "درآوردن"
+    },
+    {
+     "word": "basket",
+     "fa": "سبد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Now the duvet cover. This is the hard bit!",
+   "translations": {
+    "fa": "حالا روکش لحاف. این قسمت سخته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wow",
+      "big"
+     ],
+     "suggestion": "Wow, it's very big!",
+     "suggestionFa": "وای، خیلی بزرگه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "let's"
+     ],
+     "suggestion": "Let's do it together.",
+     "suggestionFa": "بیا با هم انجامش بدیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "duvet",
+     "fa": "لحاف"
+    },
+    {
+     "word": "cover",
+     "fa": "روکش"
+    },
+    {
+     "word": "hard bit",
+     "fa": "قسمت سخت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Brits say \"duvet\"; Americans often say \"comforter\". Putting the cover on is a famous struggle!",
+    "fa": "duvet/comforter."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Take the sheet off the mattress too. Oh! What's that under the mattress?",
+   "translations": {
+    "fa": "ملافه را هم از روی تشک بردار. آه! اون زیر تشک چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "bar"
+     ],
+     "suggestion": "It's a chocolate bar!",
+     "suggestionFa": "یه شکلاته!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "comic",
+      "think"
+     ],
+     "suggestion": "I think it's a comic!",
+     "suggestionFa": "فکر کنم یه کتاب مصوره!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mattress",
+     "fa": "تشک"
+    },
+    {
+     "word": "chocolate bar",
+     "fa": "شکلات"
+    },
+    {
+     "word": "comic",
+     "fa": "کتاب مصور"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Chocolate! Ryan! Right, put the clean sheet on. Pull the corners tight.",
+   "translations": {
+    "fa": "شکلات! رایان! خب، ملافهٔ تمیز را بنداز. گوشه‌ها را محکم بکش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like"
+     ],
+     "suggestion": "Like this?",
+     "suggestionFa": "این‌جوری؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "corners",
+      "tight",
+      "now"
+     ],
+     "suggestion": "The corners are tight now.",
+     "suggestionFa": "گوشه‌ها الان محکمن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clean",
+     "fa": "تمیز"
+    },
+    {
+     "word": "corners",
+     "fa": "گوشه‌ها"
+    },
+    {
+     "word": "tight",
+     "fa": "محکم"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Now the duvet. Put your arms in the cover, hold the corners and shake!",
+   "translations": {
+    "fa": "حالا لحاف. دستات را بکن تو روکش، گوشه‌ها را بگیر و تکون بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shake"
+     ],
+     "suggestion": "Shake, shake, shake!",
+     "suggestionFa": "تکون، تکون، تکون!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "inside",
+      "cover",
+      "help"
+     ],
+     "suggestion": "Help! I'm inside the cover!",
+     "suggestionFa": "کمک! رفتم تو روکش!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arms",
+     "fa": "دست‌ها/بازوها"
+    },
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "shake",
+     "fa": "تکان دادن"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i am in inside cover",
+      "help i in cover"
+     ],
+     "echo": "You're inside the cover? Ha ha!",
+     "better": "I'm inside the cover!",
+     "betterFa": "رفتم تو روکش!"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Ha ha! Everyone does that the first time. Now the pillowcases.",
+   "translations": {
+    "fa": "ها ها! همه بار اول این کار را می‌کنن. حالا روبالشی‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "grey",
+      "blue",
+      "one"
+     ],
+     "suggestion": "This one is blue, that one is grey.",
+     "suggestionFa": "این یکی آبیه، اون یکی طوسی.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pillows",
+      "easy",
+      "done"
+     ],
+     "suggestion": "Easy! Pillows done.",
+     "suggestionFa": "آسونه! بالش‌ها تموم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grey",
+     "fa": "طوسی"
+    },
+    {
+     "word": "easy",
+     "fa": "آسان"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Fold the blanket and put it on the end of the bed.",
+   "translations": {
+    "fa": "پتو را تا کن و بذارش پایین تخت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "half",
+      "fold"
+     ],
+     "suggestion": "Fold it in half?",
+     "suggestionFa": "نصف تاش کنم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finished",
+      "there",
+      "all",
+      "we"
+     ],
+     "suggestion": "There we go. All finished!",
+     "suggestionFa": "بفرما. همه تموم!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fold",
+     "fa": "تا کردن"
+    },
+    {
+     "word": "blanket",
+     "fa": "پتو"
+    },
+    {
+     "word": "end",
+     "fa": "انتها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Beautiful! Ryan won't know his own bed. Now, let's change ours — just kidding! A cup of tea first.",
+   "translations": {
+    "fa": "قشنگه! رایان تخت خودش را نمی‌شناسه. حالا، بریم مال خودمون را عوض کنیم — شوخی کردم! اول یه فنجون چای."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

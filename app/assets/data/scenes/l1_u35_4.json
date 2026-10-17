@@ -1,0 +1,320 @@
+{
+ "id": "l1_u35_4",
+ "characterId": "leslie",
+ "title": "Shh, he's sleeping",
+ "titleFa": "هیس، خوابه",
+ "setting": "Baby William · Level 1",
+ "settingFa": "ویلیام کوچولو",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Shh! William's sleeping. Finally! Come in, but be very quiet.",
+   "translations": {
+    "fa": "هیس! ویلیام خوابه. بالاخره! بیا تو، ولی خیلی ساکت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whisper",
+      "sorry",
+      "i'll"
+     ],
+     "suggestion": "Sorry. I'll whisper.",
+     "suggestionFa": "ببخشید. پچ‌پچ می‌کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sleeping",
+      "sofa",
+      "he"
+     ],
+     "suggestion": "Is he sleeping on the sofa?",
+     "suggestionFa": "رو مبل خوابیده؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sleeping",
+     "fa": "خوابیده"
+    },
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    },
+    {
+     "word": "whisper",
+     "fa": "پچ‌پچ کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "No, he's sleeping in his cot. The baby monitor is on. Look, you can see him.",
+   "translations": {
+    "fa": "نه، تو تختش خوابیده. دوربین کودک روشنه. ببین، می‌تونی ببینیش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "smiling",
+      "sleep",
+      "he's",
+      "his"
+     ],
+     "suggestion": "He's smiling in his sleep.",
+     "suggestionFa": "تو خواب لبخند می‌زنه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "holding",
+      "what's",
+      "he"
+     ],
+     "suggestion": "What's he holding?",
+     "suggestionFa": "چی دستشه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cot",
+     "fa": "تخت نوزاد"
+    },
+    {
+     "word": "baby monitor",
+     "fa": "دستگاه پایش نوزاد"
+    },
+    {
+     "word": "smiling",
+     "fa": "لبخند می‌زند"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"cot\", American \"crib\".",
+    "fa": "cot/crib."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "His toy bus! Of course. Would you like a cup of tea? I'm making one.",
+   "translations": {
+    "fa": "اتوبوس اسباب‌بازیش! معلومه. چای می‌خوری؟ دارم درست می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quietly",
+      "please"
+     ],
+     "suggestion": "Yes, please. Quietly!",
+     "suggestionFa": "آره، لطفاً. آروم!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "making",
+      "rest"
+     ],
+     "suggestion": "I'm making it. You rest.",
+     "suggestionFa": "من درست می‌کنم. تو استراحت کن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toy",
+     "fa": "اسباب‌بازی"
+    },
+    {
+     "word": "making",
+     "fa": "درست می‌کند"
+    },
+    {
+     "word": "rest",
+     "fa": "استراحت کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i make it now",
+      "i am make tea"
+     ],
+     "echo": "You're making it? Thank you!",
+     "better": "I'm making it.",
+     "betterFa": "من دارم درست می‌کنم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Oh, thank you! I'm so tired. What's Ryan doing upstairs? It's very loud.",
+   "translations": {
+    "fa": "آه، ممنون! خیلی خسته‌م. رایان بالا چی کار می‌کنه؟ خیلی سروصداست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "playing",
+      "think",
+      "game"
+     ],
+     "suggestion": "I think he's playing a game.",
+     "suggestionFa": "فکر کنم داره بازی می‌کنه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "listening",
+      "music"
+     ],
+     "suggestion": "He's listening to music.",
+     "suggestionFa": "داره موسیقی گوش میده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "loud",
+     "fa": "بلند ؛ پرسروصدا"
+    },
+    {
+     "word": "listening",
+     "fa": "گوش می‌دهد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Can you text him? Tell him William is sleeping.",
+   "translations": {
+    "fa": "می‌تونی بهش پیام بدی؟ بگو ویلیام خوابه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "texting",
+      "now",
+      "ok"
+     ],
+     "suggestion": "OK. I'm texting him now.",
+     "suggestionFa": "باشه. الان دارم بهش پیام میدم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tell",
+      "i'll",
+      "go",
+      "up"
+     ],
+     "suggestion": "I'll go up and tell him.",
+     "suggestionFa": "میرم بالا بهش میگم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    },
+    {
+     "word": "go up",
+     "fa": "بالا رفتن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Perfect. Oh no — the doorbell! Who's ringing the bell now?",
+   "translations": {
+    "fa": "عالی. وای نه — زنگ در! کی الان داره زنگ می‌زنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quickly",
+      "i'll",
+      "get"
+     ],
+     "suggestion": "I'll get it! Quickly!",
+     "suggestionFa": "من باز می‌کنم! سریع!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "postman",
+      "think"
+     ],
+     "suggestion": "It's the postman, I think.",
+     "suggestionFa": "فکر کنم پستچیه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doorbell",
+     "fa": "زنگ در"
+    },
+    {
+     "word": "ringing",
+     "fa": "زنگ می‌زند"
+    },
+    {
+     "word": "postman",
+     "fa": "پستچی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Phew. He's still sleeping. Next time, put a note on the door: \"Baby sleeping! Please knock!\"",
+   "translations": {
+    "fa": "آخیش. هنوز خوابه. دفعهٔ بعد، یه یادداشت رو در بذار: «بچه خوابه! لطفاً در بزنید!»"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,357 @@
+{
+ "id": "l1_u44_4",
+ "characterId": "leslie",
+ "title": "Saving pocket money",
+ "titleFa": "پس‌انداز پول توجیبی",
+ "setting": "Numbers and money · Level 1",
+ "settingFa": "عددها و پول",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Nicola wants to spend all her money on sweets! I'm trying to teach her to save.",
+   "translations": {
+    "fa": "نیکولا می‌خواد همهٔ پولش را خرج آبنبات کنه! دارم سعی می‌کنم پس‌انداز کردن را یادش بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pocket",
+      "money",
+      "much",
+      "get"
+     ],
+     "suggestion": "How much pocket money does she get?",
+     "suggestionFa": "چقدر پول توجیبی می‌گیره؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "saving",
+      "hard",
+      "kids"
+     ],
+     "suggestion": "Saving is hard for kids.",
+     "suggestionFa": "پس‌انداز برای بچه‌ها سخته.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spend",
+     "fa": "خرج کردن"
+    },
+    {
+     "word": "save",
+     "fa": "پس‌انداز کردن"
+    },
+    {
+     "word": "pocket money",
+     "fa": "پول توجیبی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pocket money\", American \"allowance\".",
+    "fa": "pocket money/allowance."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Two pounds a week. For tidying her room. Nicola, what do you want to buy?",
+   "translations": {
+    "fa": "هفته‌ای دو پوند. برای مرتب کردن اتاقش. نیکولا، می‌خوای چی بخری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "want"
+     ],
+     "suggestion": "What do you want, Nicola?",
+     "suggestionFa": "چی می‌خوای نیکولا؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "toy"
+     ],
+     "suggestion": "Is it a toy?",
+     "suggestionFa": "اسباب‌بازیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tidying",
+     "fa": "مرتب کردن"
+    },
+    {
+     "word": "a week",
+     "fa": "در هفته"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "A big unicorn from the toy shop! It's fifteen pounds. And sweets. Today!",
+   "translations": {
+    "fa": "یه تک‌شاخ بزرگ از اسباب‌بازی‌فروشی! پونزده پونده. و آبنبات. امروز!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "then",
+      "need",
+      "save",
+      "up"
+     ],
+     "suggestion": "Then you need to save up.",
+     "suggestionFa": "پس باید پس‌انداز کنی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "unicorn",
+      "choose",
+      "sweets",
+      "one"
+     ],
+     "suggestion": "Sweets or unicorn? Choose one!",
+     "suggestionFa": "آبنبات یا تک‌شاخ؟ یکی را انتخاب کن!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toy shop",
+     "fa": "اسباب‌بازی‌فروشی"
+    },
+    {
+     "word": "save up",
+     "fa": "پول جمع کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Exactly. If you save two pounds every week, how many weeks?",
+   "translations": {
+    "fa": "دقیقاً. اگه هر هفته دو پوند پس‌انداز کنی، چند هفته میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fifteen",
+      "divided",
+      "two",
+      "by"
+     ],
+     "suggestion": "Fifteen divided by two…",
+     "suggestionFa": "پونزده تقسیم بر دو…",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eight",
+      "weeks",
+      "about"
+     ],
+     "suggestion": "About eight weeks.",
+     "suggestionFa": "حدود هشت هفته.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "divided by",
+     "fa": "تقسیم بر"
+    },
+    {
+     "word": "weeks",
+     "fa": "هفته‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Eight weeks?! That's forever! I need sweets now!",
+   "translations": {
+    "fa": "هشت هفته؟! این یعنی یه عمر! الان آبنبات لازم دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sweets",
+      "don't",
+      "need",
+      "want"
+     ],
+     "suggestion": "You don't need sweets. You want sweets!",
+     "suggestionFa": "آبنبات لازم نداری. آبنبات می‌خوای!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "just",
+      "bag",
+      "one"
+     ],
+     "suggestion": "Just one small bag?",
+     "suggestionFa": "فقط یه کیسهٔ کوچیک؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "forever",
+     "fa": "برای همیشه ؛ مدت خیلی طولانی"
+    },
+    {
+     "word": "need",
+     "fa": "لازم داشتن"
+    },
+    {
+     "word": "want",
+     "fa": "خواستن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she need to save",
+      "she needs save"
+     ],
+     "echo": "She needs to save? Exactly!",
+     "better": "She needs to save up.",
+     "betterFa": "باید پس‌انداز کنه."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Good point! What about this: fifty p for sweets, one pound fifty in the piggy bank?",
+   "translations": {
+    "fa": "نکتهٔ خوبیه! این چطوره: پنجاه پی برای آبنبات، یک پوند و پنجاه تو قلک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "fair",
+      "idea"
+     ],
+     "suggestion": "That's a fair idea.",
+     "suggestionFa": "فکر منصفانه‌ایه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weeks",
+      "then",
+      "ten"
+     ],
+     "suggestion": "Then it's ten weeks.",
+     "suggestionFa": "پس میشه ده هفته.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    },
+    {
+     "word": "what about",
+     "fa": "چطور است"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Ten weeks… OK. But can I help {you} with jobs? For extra money?",
+   "translations": {
+    "fa": "ده هفته… باشه. ولی می‌تونم تو کارها به {you} کمک کنم؟ برای پول اضافه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plants",
+      "water",
+      "can"
+     ],
+     "suggestion": "You can water my plants!",
+     "suggestionFa": "می‌تونی به گلدون‌هام آب بدی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "mummy",
+      "ask"
+     ],
+     "suggestion": "Ask Mummy first.",
+     "suggestionFa": "اول از مامان بپرس.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "jobs",
+     "fa": "کارها ؛ وظایف"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ha! A little businesswoman. Fine — fifty p for watering. Just don't flood his kitchen!",
+   "translations": {
+    "fa": "ها! یه تاجر کوچولو. باشه — پنجاه پی برای آب دادن. فقط آشپزخونه‌ش را آب نبر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

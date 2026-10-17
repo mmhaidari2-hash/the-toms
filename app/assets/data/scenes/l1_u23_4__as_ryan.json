@@ -1,0 +1,387 @@
+{
+ "id": "l1_u23_4__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Too big, too small",
+ "titleFa": "(در نقش Ryan) خیلی بزرگ، خیلی کوچک",
+ "setting": "Clothes shopping · Level 1",
+ "settingFa": "خرید لباس",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u23_4",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "massive",
+      "change",
+      "jumper",
+      "bought"
+     ],
+     "suggestion": "Nana bought me this jumper for my birthday. It's lovely, but it's massive! Can you come with me to change it?",
+     "suggestionFa": "نانا برای تولدم این ژاکت را خرید. قشنگه، ولی خیلی بزرگه! باهام میای عوضش کنیم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Have you got the receipt?",
+   "translations": {
+    "fa": "حتماً. رسید داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "receipt",
+      "change",
+      "excuse",
+      "please",
+      "gift"
+     ],
+     "suggestion": "Yes, Nana gave me a gift receipt. Excuse me, can I change this, please?",
+     "suggestionFa": "آره، نانا یه رسید هدیه بهم داد. ببخشید، می‌شه اینو عوض کنم، لطفاً؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Good. Ask the lady over there.",
+   "translations": {
+    "fa": "خوبه. از اون خانم اونجا بپرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "priya",
+   "text": "Of course. What's wrong with it?",
+   "translations": {
+    "fa": "البته. مشکلش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gift receipt",
+     "fa": "رسید هدیه"
+    },
+    {
+     "word": "wrong",
+     "fa": "مشکل"
+    },
+    {
+     "word": "smaller",
+     "fa": "کوچکتر"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"gift receipt\" lets someone return or exchange a present without seeing the price.",
+    "fa": "رسید هدیه بدون قیمت."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It's too big for him.",
+   "translations": {
+    "fa": "براش خیلی بزرگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "priya",
+   "text": "It's an extra large. Do you want a medium?",
+   "translations": {
+    "fa": "این ایکس‌لارجه. مدیوم می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extra large",
+     "fa": "خیلی بزرگ"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, a medium, please.",
+   "translations": {
+    "fa": "آره، مدیوم، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "priya",
+   "text": "Here's a medium. The changing rooms are on the left.",
+   "translations": {
+    "fa": "اینم مدیوم. اتاق پرو سمت چپه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on the left",
+     "fa": "سمت چپ"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you. Go on, Ryan.",
+   "translations": {
+    "fa": "ممنون. برو رایان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "medium",
+      "small",
+      "arms",
+      "long",
+      "hmm"
+     ],
+     "suggestion": "Hmm. The medium is too small. My arms are long!",
+     "suggestionFa": "هوم. مدیوم خیلی کوچیکه. دستام بلندن!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Try the large, then.",
+   "translations": {
+    "fa": "پس لارج را امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goldilocks",
+      "large",
+      "right",
+      "just",
+      "like"
+     ],
+     "suggestion": "The large is just right! Like Goldilocks! Ha.",
+     "suggestionFa": "لارج درست اندازه‌ست! مثل موطلایی! ها.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "It looks good on you.",
+   "translations": {
+    "fa": "بهت میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "priya",
+   "text": "Lovely. Same price, so it's a simple swap. Would you like a bag?",
+   "translations": {
+    "fa": "عالی. همون قیمته، پس یه تعویض سادست. کیسه می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "same",
+     "fa": "همان"
+    },
+    {
+     "word": "swap",
+     "fa": "تعویض"
+    },
+    {
+     "word": "simple",
+     "fa": "ساده"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "No, thanks. He's going to wear it!",
+   "translations": {
+    "fa": "نه، ممنون. می‌خواد بپوشدش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "she'll",
+      "photo",
+      "take",
+      "send",
+      "i'll"
+     ],
+     "suggestion": "Can you take a photo of me for Nana? I'll send it to her. She'll love it.",
+     "suggestionFa": "می‌تونی یه عکس ازم برای نانا بگیری؟ براش می‌فرستم. خیلی خوشش میاد.",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Smile! Say cheese!",
+   "translations": {
+    "fa": "لبخند بزن! بگو سیب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "handsome",
+      "replied",
+      "already",
+      "nana's"
+     ],
+     "suggestion": "Nana's replied already! \"Handsome boy! Don't get it muddy at football!\" Ha! She knows me too well.",
+     "suggestionFa": "نانا جواب داد! «پسر خوش‌تیپ! سر فوتبال گِلیش نکنی!» ها! خیلی خوب منو می‌شناسه.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

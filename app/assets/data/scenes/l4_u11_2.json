@@ -281,8 +281,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "smoke",
+      "don't",
       "pets"
      ],
      "suggestion": "No pets, and I don't smoke.",
@@ -293,8 +293,8 @@
     },
     {
      "keywords": [
-      "mould",
       "there",
+      "mould",
       "flat",
       "damp"
      ],
@@ -401,8 +401,8 @@
      "keywords": [
       "logistics",
       "company",
-      "full",
-      "work"
+      "work",
+      "full"
      ],
      "suggestion": "I work full-time at a logistics company.",
      "suggestionFa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم.",
@@ -415,7 +415,7 @@
       "references",
       "assistant",
       "teaching",
-      "need"
+      "will"
      ],
      "suggestion": "I'm a teaching assistant. Will you need references?",
      "suggestionFa": "دستیار معلمم. معرف لازم دارید؟",
@@ -449,10 +449,10 @@
    "branches": [
     {
      "keywords": [
+      "strict",
       "thirty",
       "that's",
-      "strict",
-      "times"
+      "quite"
      ],
      "suggestion": "Thirty times? That's quite strict.",
      "suggestionFa": "سی برابر؟ نسبتاً سختگیرانه‌ست.",
@@ -464,8 +464,8 @@
      "keywords": [
       "guarantor",
       "need",
-      "can",
-      "one"
+      "tom",
+      "can"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",
      "suggestionFa": "اگه لازم شد تام می‌تونه ضامن بشه؟",

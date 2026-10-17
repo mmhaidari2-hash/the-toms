@@ -1,0 +1,362 @@
+{
+ "id": "l1_u20_2",
+ "characterId": "leslie",
+ "title": "Leslie at work",
+ "titleFa": "لزلی سر کار",
+ "setting": "Family jobs · Level 1",
+ "settingFa": "شغل‌های خانواده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Do you know my job? I'm a teacher at Nicola's school.",
+   "translations": {
+    "fa": "شغل منو می‌دونی؟ تو مدرسهٔ نیکولا معلمم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teacher",
+      "teach"
+     ],
+     "suggestion": "A teacher? What do you teach?",
+     "suggestionFa": "معلم؟ چی درس می‌دی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "class"
+     ],
+     "suggestion": "Is Nicola in your class?",
+     "suggestionFa": "نیکولا تو کلاس شماست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teacher",
+     "fa": "معلم"
+    },
+    {
+     "word": "teach",
+     "fa": "درس دادن"
+    },
+    {
+     "word": "class",
+     "fa": "کلاس"
+    }
+   ],
+   "cultureNote": {
+    "en": "English primary schools go from Reception (age 4–5) to Year 6 (age 10–11).",
+    "fa": "مدارس ابتدایی از Reception تا Year 6."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "No, I teach Year Four. They're eight and nine. Nicola's in Reception. I teach everything!",
+   "translations": {
+    "fa": "نه، من کلاس چهارم درس می‌دم. هشت و نه ساله‌ان. نیکولا تو پیش‌دبستانیه. همه چی درس می‌دم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "lovely"
+     ],
+     "suggestion": "That sounds lovely.",
+     "suggestionFa": "به نظر خیلی قشنگه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "like"
+     ],
+     "suggestion": "Do you like children?",
+     "suggestionFa": "بچه دوست داری؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Year Four",
+     "fa": "کلاس چهارم"
+    },
+    {
+     "word": "Reception",
+     "fa": "پیش‌دبستانی"
+    },
+    {
+     "word": "everything",
+     "fa": "همه چیز"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "I love them! Every day is different. Some days a child cries, some days they make me laugh.",
+   "translations": {
+    "fa": "عاشقشونم! هر روز فرق داره. بعضی روزها یه بچه گریه می‌کنه، بعضی روزها منو می‌خندونن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "start",
+      "time"
+     ],
+     "suggestion": "What time do you start?",
+     "suggestionFa": "ساعت چند شروع می‌کنی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "work",
+      "hard"
+     ],
+     "suggestion": "Is it hard work?",
+     "suggestionFa": "کار سختیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    },
+    {
+     "word": "cries",
+     "fa": "گریه می‌کند"
+    },
+    {
+     "word": "laugh",
+     "fa": "خندیدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "I start at half past eight and finish at half past three. Then I collect Nicola.",
+   "translations": {
+    "fa": "ساعت هشت و نیم شروع می‌کنم و سه و نیم تموم می‌کنم. بعد نیکولا را برمی‌دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "handy"
+     ],
+     "suggestion": "That's very handy.",
+     "suggestionFa": "خیلی راحته.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "looks",
+      "after",
+      "who"
+     ],
+     "suggestion": "Who looks after William?",
+     "suggestionFa": "کی از ویلیام مراقبت می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half past",
+     "fa": "و نیم"
+    },
+    {
+     "word": "collect",
+     "fa": "برداشتن/دنبال کسی رفتن"
+    },
+    {
+     "word": "handy",
+     "fa": "راحت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Weda looks after William. She's wonderful. What does your family do?",
+   "translations": {
+    "fa": "ودا از ویلیام مراقبت می‌کنه. فوق‌العاده‌ست. خانوادهٔ تو چی کار می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "father",
+      "doctor"
+     ],
+     "suggestion": "My father is a doctor.",
+     "suggestionFa": "پدرم دکتره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mother",
+      "works",
+      "bank"
+     ],
+     "suggestion": "My mother works in a bank.",
+     "suggestionFa": "مادرم تو بانک کار می‌کنه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "looks after",
+     "fa": "مراقبت می‌کند"
+    },
+    {
+     "word": "father",
+     "fa": "پدر"
+    },
+    {
+     "word": "mother",
+     "fa": "مادر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "my mother work in bank",
+      "mother is work in a bank"
+     ],
+     "echo": "Your mother works in a bank? Interesting!",
+     "better": "My mother works in a bank.",
+     "betterFa": "مادرم تو بانک کار می‌کنه."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Interesting! Does she like it?",
+   "translations": {
+    "fa": "جالبه! دوستش داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "numbers",
+      "likes",
+      "she"
+     ],
+     "suggestion": "Yes, she likes numbers.",
+     "suggestionFa": "آره، اعداد دوست داره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "retired",
+      "she's",
+      "now"
+     ],
+     "suggestion": "She's retired now.",
+     "suggestionFa": "الان بازنشسته‌ست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "interesting",
+     "fa": "جالب"
+    },
+    {
+     "word": "numbers",
+     "fa": "اعداد"
+    },
+    {
+     "word": "retired",
+     "fa": "بازنشسته"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Lovely. Oh, I must mark these spellings tonight. Twenty-eight little books!",
+   "translations": {
+    "fa": "عالی. آه، امشب باید این دیکته‌ها را تصحیح کنم. بیست و هشت تا دفتر کوچولو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "can"
+     ],
+     "suggestion": "Can I help you?",
+     "suggestionFa": "می‌تونم کمکت کنم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "work",
+      "lot"
+     ],
+     "suggestion": "That's a lot of work!",
+     "suggestionFa": "کار زیادیه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mark",
+     "fa": "تصحیح کردن"
+    },
+    {
+     "word": "spellings",
+     "fa": "دیکته‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ooh, would you? You can put the gold stars on! The children love gold stars.",
+   "translations": {
+    "fa": "اوه، واقعاً؟ می‌تونی ستاره‌های طلایی را بچسبونی! بچه‌ها عاشق ستارهٔ طلایی‌ان."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

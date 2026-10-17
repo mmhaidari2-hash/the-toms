@@ -1,0 +1,427 @@
+{
+ "id": "l1_u14_2",
+ "characterId": "nicola",
+ "title": "Washing hands",
+ "titleFa": "شستن دست‌ها",
+ "setting": "In the bathroom · Level 1",
+ "settingFa": "در حمام",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "My hands are dirty! I was in the garden. Look — mud!",
+   "translations": {
+    "fa": "دستام کثیفه! تو باغ بودم. ببین — گِل!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "hands",
+      "wash"
+     ],
+     "suggestion": "Wash your hands, Nicola.",
+     "suggestionFa": "دستات را بشور نیکولا.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dirty",
+      "dear",
+      "oh"
+     ],
+     "suggestion": "Oh dear! Very dirty!",
+     "suggestionFa": "ای وای! خیلی کثیف!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dirty",
+     "fa": "کثیف"
+    },
+    {
+     "word": "mud",
+     "fa": "گل"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Can you help me? I can't reach the tap.",
+   "translations": {
+    "fa": "کمکم می‌کنی؟ دستم به شیر آب نمی‌رسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stool",
+      "stand"
+     ],
+     "suggestion": "Stand on this stool.",
+     "suggestionFa": "روی این چهارپایه وایسا.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "turn",
+      "tap"
+     ],
+     "suggestion": "I'll turn on the tap for you.",
+     "suggestionFa": "من شیر را برات باز می‌کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reach",
+     "fa": "رسیدن"
+    },
+    {
+     "word": "tap",
+     "fa": "شیر آب"
+    },
+    {
+     "word": "stool",
+     "fa": "چهارپایه"
+    },
+    {
+     "word": "turn on",
+     "fa": "باز کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"tap\" = American \"faucet\".",
+    "fa": "tap/faucet."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Brr! It's cold! I want warm water.",
+   "translations": {
+    "fa": "برر! سرده! آب گرم می‌خوام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "moment",
+      "wait",
+      "warm",
+      "now"
+     ],
+     "suggestion": "Wait a moment. Now it's warm.",
+     "suggestionFa": "یه لحظه صبر کن. حالا گرمه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better"
+     ],
+     "suggestion": "Is that better?",
+     "suggestionFa": "بهتر شد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cold",
+     "fa": "سرد"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    },
+    {
+     "word": "moment",
+     "fa": "لحظه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "First water, then soap. Mummy says twenty seconds.",
+   "translations": {
+    "fa": "اول آب، بعد صابون. مامان می‌گه بیست ثانیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "count",
+      "let's"
+     ],
+     "suggestion": "Let's count to twenty.",
+     "suggestionFa": "بیا تا بیست بشمریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "hands",
+      "rub"
+     ],
+     "suggestion": "Rub your hands together.",
+     "suggestionFa": "دستات را به هم بمال.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "then",
+     "fa": "بعد"
+    },
+    {
+     "word": "soap",
+     "fa": "صابون"
+    },
+    {
+     "word": "seconds",
+     "fa": "ثانیه‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "One, two, three… twenty! Bubbles everywhere!",
+   "translations": {
+    "fa": "یک، دو، سه… بیست! همه جا حباب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rinse",
+      "soap",
+      "off",
+      "now"
+     ],
+     "suggestion": "Now rinse off the soap.",
+     "suggestionFa": "حالا صابون را آب بکش.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forget",
+      "nails",
+      "don't"
+     ],
+     "suggestion": "Don't forget your nails!",
+     "suggestionFa": "ناخن‌هات را یادت نره!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bubbles",
+     "fa": "حباب‌ها"
+    },
+    {
+     "word": "everywhere",
+     "fa": "همه جا"
+    },
+    {
+     "word": "nails",
+     "fa": "ناخن‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "All clean! Where's the towel?",
+   "translations": {
+    "fa": "همه تمیز! حوله کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hook"
+     ],
+     "suggestion": "It's on the hook.",
+     "suggestionFa": "روی آویزه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "towel",
+      "hands",
+      "dry"
+     ],
+     "suggestion": "Here's the towel. Dry your hands.",
+     "suggestionFa": "این حوله. دستات را خشک کن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clean",
+     "fa": "تمیز"
+    },
+    {
+     "word": "towel",
+     "fa": "حوله"
+    },
+    {
+     "word": "hook",
+     "fa": "آویز"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "When do you wash your hands? I wash them before lunch.",
+   "translations": {
+    "fa": "تو کِی دستات را می‌شوری؟ من قبل از ناهار می‌شورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hands",
+      "wash",
+      "eat"
+     ],
+     "suggestion": "I wash my hands before I eat.",
+     "suggestionFa": "قبل از غذا دستام را می‌شورم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cooking",
+      "toilet",
+      "after"
+     ],
+     "suggestion": "After the toilet and before cooking.",
+     "suggestionFa": "بعد از دستشویی و قبل از آشپزی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "before",
+     "fa": "قبل"
+    },
+    {
+     "word": "after",
+     "fa": "بعد"
+    },
+    {
+     "word": "toilet",
+     "fa": "توالت"
+    },
+    {
+     "word": "cooking",
+     "fa": "آشپزی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people say \"the toilet\" or \"the loo\"; Americans say \"the bathroom\" or \"the restroom\".",
+    "fa": "toilet/loo و bathroom/restroom."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i wash hands before eat",
+      "before i eating"
+     ],
+     "echo": "Before you eat? Me too!",
+     "better": "I wash my hands before I eat.",
+     "betterFa": "قبل از غذا دستام را می‌شورم."
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Me too! And after I touch Tiger the cat. Can I have a biscuit now?",
+   "translations": {
+    "fa": "منم! و بعد از اینکه به تایگر گربه دست می‌زنم. حالا می‌تونم بیسکویت بخورم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "one"
+     ],
+     "suggestion": "Yes, one biscuit.",
+     "suggestionFa": "آره، یه بیسکویت.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "mummy",
+      "ask"
+     ],
+     "suggestion": "Ask Mummy first.",
+     "suggestionFa": "اول از مامان بپرس.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "touch",
+     "fa": "لمس کردن"
+    },
+    {
+     "word": "biscuit",
+     "fa": "بیسکویت"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Mummy! Can I have a biscuit? She says yes! A chocolate one!",
+   "translations": {
+    "fa": "مامان! می‌تونم بیسکویت بخورم؟ می‌گه آره! یه شکلاتی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "l1_u31_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) School dinner",
+ "titleFa": "(در نقش Nicola) ناهار مدرسه",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u31_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "today",
+      "pizza",
+      "love",
+      "day",
+      "was"
+     ],
+     "suggestion": "Today was pizza day! I love pizza day!",
+     "suggestionFa": "امروز روز پیتزا بود! عاشق روز پیتزام!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What's pizza day?",
+   "translations": {
+    "fa": "روز پیتزا چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridays",
+      "mondays",
+      "fingers",
+      "dinner",
+      "school"
+     ],
+     "suggestion": "On Fridays we have pizza for dinner. At school! Mondays are fish fingers.",
+     "suggestionFa": "جمعه‌ها ناهار پیتزا داریم. تو مدرسه! دوشنبه‌ها فیش فینگره.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Is lunch called \"dinner\" at school?",
+   "translations": {
+    "fa": "تو مدرسه به ناهار میگن «دینر»؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "ladies",
+      "dinner",
+      "school",
+      "give"
+     ],
+     "suggestion": "Yes, school dinner! The dinner ladies give it to us. Mrs Pat is my favourite.",
+     "suggestionFa": "آره، ناهار مدرسه! خانم‌های ناهار بهمون میدن. خانم پت محبوب منه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Why is she your favourite?",
+   "translations": {
+    "fa": "چرا محبوبته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "custard",
+      "secret",
+      "gives",
+      "extra",
+      "like"
+     ],
+     "suggestion": "She gives me extra custard! Shh, it's a secret. Do you like custard?",
+     "suggestionFa": "بهم کاستارد اضافه میده! هیس، رازه. تو کاستارد دوست داری؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I like custard. It's sweet.",
+   "translations": {
+    "fa": "کاستارد دوست دارم. شیرینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "plate",
+      "roll",
+      "peas",
+      "they"
+     ],
+     "suggestion": "I don't like peas. They roll off my plate! Do you like peas?",
+     "suggestionFa": "من نخود فرنگی دوست ندارم. از بشقابم قل می‌خورن! تو دوست داری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, I like peas.",
+   "translations": {
+    "fa": "آره، نخود فرنگی دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neither",
+      "strong",
+      "mummy",
+      "make",
+      "true"
+     ],
+     "suggestion": "Me neither! But Mummy says peas make you strong. Is that true?",
+     "suggestionFa": "منم نه! ولی مامان میگه نخود فرنگی آدم را قوی می‌کنه. راسته؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, vegetables are good for you.",
+   "translations": {
+    "fa": "آره، سبزیجات برات خوبن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "custard",
+      "being",
+      "brave",
+      "three",
+      "extra"
+     ],
+     "suggestion": "Three peas… OK. And I'll have extra custard for being brave! Deal?",
+     "suggestionFa": "سه تا نخود فرنگی… باشه. و برای شجاعتم کاستارد اضافه می‌خورم! قبول؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Deal!",
+   "translations": {
+    "fa": "قبول!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friday",
+      "though",
+      "can't",
+      "pizza",
+      "sorry"
+     ],
+     "suggestion": "Ha ha! Next Friday you can come for pizza day. Grown-ups can't though. Sorry!",
+     "suggestionFa": "ها ها! جمعهٔ بعد بیا روز پیتزا. البته بزرگ‌ترها نمی‌تونن. ببخشید!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

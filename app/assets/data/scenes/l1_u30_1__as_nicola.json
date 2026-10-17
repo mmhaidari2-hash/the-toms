@@ -1,0 +1,225 @@
+{
+ "id": "l1_u30_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Laying the table",
+ "titleFa": "(در نقش Nicola) چیدن میز",
+ "setting": "Helping at home · Level 1",
+ "settingFa": "کمک در خانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u30_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "charge",
+      "table",
+      "mummy",
+      "will"
+     ],
+     "suggestion": "Mummy says I'm in charge of the table tonight! Will you help me?",
+     "suggestionFa": "مامان میگه امشب مسئول میز منم! کمکم می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course! What do we need?",
+   "translations": {
+    "fa": "البته! چی لازم داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cupboard",
+      "spoons",
+      "plates",
+      "knives",
+      "can't"
+     ],
+     "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
+     "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I'll get the plates for you.",
+   "translations": {
+    "fa": "من بشقاب‌ها را برات میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plates",
+      "thank",
+      "daddy",
+      "mummy",
+      "many"
+     ],
+     "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
+     "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "That's six plates.",
+   "translations": {
+    "fa": "میشه شش تا بشقاب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "special",
+      "mummy",
+      "bowl",
+      "next"
+     ],
+     "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
+     "suggestionFa": "ویلیام کاسهٔ مخصوص خودش را داره! روش یه اردکه. کنار مامان میره.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Where does the fork go?",
+   "translations": {
+    "fa": "چنگال کجا میره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "taught",
+      "knife",
+      "right",
+      "ellis",
+      "left"
+     ],
+     "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
+     "suggestionFa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Well done, Mrs Ellis!",
+   "translations": {
+    "fa": "آفرین به خانم الیس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "glasses",
+      "heavy",
+      "water",
+      "pour",
+      "can"
+     ],
+     "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
+     "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, I'll pour the water.",
+   "translations": {
+    "fa": "آره، من آب می‌ریزم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "triangles",
+      "napkins",
+      "folded",
+      "them",
+      "like"
+     ],
+     "suggestion": "And napkins! I folded them like triangles. Do you like them?",
+     "suggestionFa": "و دستمال سفره! مثل مثلث تاشون کردم. دوستشون داری؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "They're beautiful triangles!",
+   "translations": {
+    "fa": "مثلث‌های قشنگی‌ان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everybody",
+      "table's",
+      "ready",
+      "mummy",
+      "down"
+     ],
+     "suggestion": "MUMMY! The table's ready! Tea time! Everybody sit down!",
+     "suggestionFa": "مامان! میز آماده‌ست! وقت شامه! همه بشینید!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

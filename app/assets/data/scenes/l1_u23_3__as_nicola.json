@@ -1,0 +1,417 @@
+{
+ "id": "l1_u23_3__as_nicola",
+ "characterId": "priya",
+ "title": "(As Nicola) Trying on shoes",
+ "titleFa": "(در نقش Nicola) امتحان کردن کفش",
+ "setting": "Clothes shopping · Level 1",
+ "settingFa": "خرید لباس",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u23_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squashed",
+      "school",
+      "shoes",
+      "today",
+      "mummy"
+     ],
+     "suggestion": "My school shoes hurt! My toes are squashed! Mummy says new shoes today.",
+     "suggestionFa": "کفش‌های مدرسه‌ام درد می‌کنن! انگشتای پام له شدن! مامان می‌گه امروز کفش نو.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Let's find some new ones.",
+   "translations": {
+    "fa": "بیا یه جفت نو پیدا کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "priya",
+   "text": "Hello, young lady! Shall we measure your feet? Put your foot here.",
+   "translations": {
+    "fa": "سلام خانم کوچولو! پاهات را اندازه بگیریم؟ پات را بذار اینجا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "measure",
+     "fa": "اندازه گرفتن"
+    },
+    {
+     "word": "foot",
+     "fa": "پا"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British shoe shops measure children's feet for length and width before selling school shoes.",
+    "fa": "فروشگاه‌ها پای کودک را اندازه می‌گیرند."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Go on, Nicola. Put your foot on it.",
+   "translations": {
+    "fa": "برو نیکولا. پات را بذار روش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "priya",
+   "text": "Size eleven! She was a ten. What colour would you like, Nicola?",
+   "translations": {
+    "fa": "سایز یازده! قبلاً ده بود. چه رنگی می‌خوای نیکولا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "colour",
+     "fa": "رنگ"
+    },
+    {
+     "word": "fast",
+     "fa": "سریع"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Which colour, Nicola?",
+   "translations": {
+    "fa": "کدوم رنگ نیکولا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lights",
+      "shoes",
+      "best",
+      "pink"
+     ],
+     "suggestion": "Pink with lights! Shoes with lights are the best!",
+     "suggestionFa": "صورتی با چراغ! کفش چراغ‌دار بهترینه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "School shoes must be black, Nicola.",
+   "translations": {
+    "fa": "کفش مدرسه باید مشکی باشه نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "priya",
+   "text": "For school, black is best. Try these black ones with a sparkle on the side.",
+   "translations": {
+    "fa": "برای مدرسه، مشکی بهتره. اینای مشکی که کنارش برق می‌زنه را امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sparkle",
+     "fa": "درخشش"
+    },
+    {
+     "word": "side",
+     "fa": "کنار"
+    },
+    {
+     "word": "walk",
+     "fa": "راه رفتن"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "They're nice, Nicola!",
+   "translations": {
+    "fa": "قشنگن نیکولا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "tight",
+      "hurt",
+      "they"
+     ],
+     "suggestion": "They're too tight! They hurt!",
+     "suggestionFa": "خیلی تنگن! درد می‌کنن!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Try a bigger size.",
+   "translations": {
+    "fa": "یه سایز بزرگ‌تر امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "priya",
+   "text": "Here's eleven and a half. How do they feel? Walk to the mirror.",
+   "translations": {
+    "fa": "اینم یازده و نیم. چطورن؟ تا آینه راه برو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mirror",
+     "fa": "آینه"
+    },
+    {
+     "word": "feel",
+     "fa": "حس داشتن"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Walk to the mirror, Nicola.",
+   "translations": {
+    "fa": "تا آینه راه برو نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "sparkle",
+      "better",
+      "comfy",
+      "look"
+     ],
+     "suggestion": "Better! They're comfy! Look, they sparkle!",
+     "suggestionFa": "بهتره! راحتن! ببین، برق می‌زنن!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Perfect! Do you like them?",
+   "translations": {
+    "fa": "عالی! دوستشون داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "priya",
+   "text": "Good. There's room to grow. That's thirty-five pounds, please.",
+   "translations": {
+    "fa": "خوبه. جا برای بزرگ شدن داره. سی و پنج پوند میشه، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "room",
+     "fa": "جا"
+    },
+    {
+     "word": "grow",
+     "fa": "بزرگ شدن"
+    }
+   ]
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Here you are.",
+   "translations": {
+    "fa": "بفرمایید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "shoes",
+      "happy",
+      "toes",
+      "wear"
+     ],
+     "suggestion": "Thank you! Can I wear them now? Bye-bye, old shoes! My toes are happy!",
+     "suggestionFa": "ممنون! می‌تونم الان بپوشمشون؟ خداحافظ کفش‌های قدیمی! انگشتای پام خوشحالن!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

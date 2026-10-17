@@ -1,0 +1,464 @@
+{
+ "id": "l1_u28_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Hello, who's speaking?",
+ "titleFa": "(در نقش Tom) الو، شما؟",
+ "setting": "Phone basics · Level 1",
+ "settingFa": "مکالمهٔ تلفنی ساده",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u28_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phone's",
+      "ringing",
+      "answer",
+      "please",
+      "hands"
+     ],
+     "suggestion": "The phone's ringing! My hands are wet. Can you answer it, please?",
+     "suggestionFa": "تلفن داره زنگ می‌زنه! دستام خیسه. می‌تونی جواب بدی، لطفاً؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Hello, who's calling?",
+   "translations": {
+    "fa": "الو، کی زنگ می‌زنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "weda",
+   "text": "Hello, love. It's Weda. Who's speaking?",
+   "translations": {
+    "fa": "الو عزیزم. ودام. شما؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "who's speaking",
+     "fa": "کی صحبت می‌کند"
+    },
+    {
+     "word": "it's",
+     "fa": "منم"
+    }
+   ],
+   "cultureNote": {
+    "en": "On the phone, English speakers say \"It's Tom\" or \"This is Tom\", not \"I am Tom\".",
+    "fa": "پشت تلفن می‌گویند It's Tom."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Hi, Weda! It's Mehdi.",
+   "translations": {
+    "fa": "سلام ودا! {you} هستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "weda",
+   "text": "Oh, hello, dear! Is Tom there?",
+   "translations": {
+    "fa": "آه، سلام عزیزم! تام اونجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "there",
+     "fa": "آنجا"
+    },
+    {
+     "word": "one moment",
+     "fa": "یک لحظه"
+    },
+    {
+     "word": "busy",
+     "fa": "مشغول"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, he's here. One moment, please.",
+   "translations": {
+    "fa": "آره، اینجاست. یه لحظه، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "weda",
+   "text": "Never mind. Can you give him a message?",
+   "translations": {
+    "fa": "عیب نداره. می‌تونی یه پیغام بهش بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "message",
+     "fa": "پیغام"
+    },
+    {
+     "word": "pen",
+     "fa": "خودکار"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Of course. What's the message?",
+   "translations": {
+    "fa": "البته. پیغام چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "weda",
+   "text": "I can't come on Thursday. George has a hospital appointment.",
+   "translations": {
+    "fa": "پنجشنبه نمی‌تونم بیام. جورج وقت بیمارستان داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "appointment",
+     "fa": "وقت (ملاقات)"
+    },
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Not Thursday. OK.",
+   "translations": {
+    "fa": "پنجشنبه نه. باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "weda",
+   "text": "Yes, just a check-up. His heart. Can I come on Friday instead?",
+   "translations": {
+    "fa": "آره، فقط معاینه‌ست. قلبش. می‌تونم به جاش جمعه بیام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check-up",
+     "fa": "معاینه"
+    },
+    {
+     "word": "heart",
+     "fa": "قلب"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    },
+    {
+     "word": "writing down",
+     "fa": "یادداشت کردن"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "I'll ask Tom.",
+   "translations": {
+    "fa": "از تام می‌پرسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "weda",
+   "text": "Thank you, love. Tell him to call me back after six.",
+   "translations": {
+    "fa": "ممنون عزیزم. بهش بگو بعد از شش بهم زنگ بزنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "call back",
+     "fa": "دوباره زنگ زدن"
+    },
+    {
+     "word": "after",
+     "fa": "بعد از"
+    },
+    {
+     "word": "got it",
+     "fa": "فهمیدم"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Call you back after six. Got it.",
+   "translations": {
+    "fa": "بعد از شش بهتون زنگ بزنه. فهمیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "weda",
+   "text": "Of course he has! Thank you, dear. Bye-bye!",
+   "translations": {
+    "fa": "البته که داره! ممنون عزیزم. خداحافظ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bye-bye",
+     "fa": "خداحافظ"
+    },
+    {
+     "word": "take care",
+     "fa": "مراقب باش"
+    },
+    {
+     "word": "love to",
+     "fa": "سلام برسان به"
+    }
+   ]
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Bye, Weda! Take care!",
+   "translations": {
+    "fa": "خداحافظ ودا! مراقب خودتون باشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thursday",
+      "message",
+      "taking",
+      "thanks",
+      "check"
+     ],
+     "suggestion": "Who was that? Weda? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
+     "suggestionFa": "کی بود؟ ودا؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق.",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

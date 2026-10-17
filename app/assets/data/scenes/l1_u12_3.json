@@ -1,0 +1,411 @@
+{
+ "id": "l1_u12_3",
+ "characterId": "nicola",
+ "title": "Shapes in the kitchen",
+ "titleFa": "شکل‌ها در آشپزخانه",
+ "setting": "Colours and shapes · Level 1",
+ "settingFa": "رنگ‌ها و شکل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Let's play a game! Find a shape in the kitchen. I can see a circle!",
+   "translations": {
+    "fa": "بیا یه بازی کنیم! یه شکل تو آشپزخونه پیدا کن. من یه دایره می‌بینم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "can't",
+      "see"
+     ],
+     "suggestion": "Where? I can't see it.",
+     "suggestionFa": "کجا؟ نمی‌بینمش.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clock"
+     ],
+     "suggestion": "Is it the clock?",
+     "suggestionFa": "ساعته؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "game",
+     "fa": "بازی"
+    },
+    {
+     "word": "shape",
+     "fa": "شکل"
+    },
+    {
+     "word": "circle",
+     "fa": "دایره"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Yes! The clock is a circle. Now you find one.",
+   "translations": {
+    "fa": "آره! ساعت دایره‌ست. حالا تو یکی پیدا کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "window",
+      "square"
+     ],
+     "suggestion": "The window is a square.",
+     "suggestionFa": "پنجره مربعه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "circle",
+      "plate"
+     ],
+     "suggestion": "The plate is a circle, too.",
+     "suggestionFa": "بشقاب هم دایره‌ست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clock",
+     "fa": "ساعت"
+    },
+    {
+     "word": "window",
+     "fa": "پنجره"
+    },
+    {
+     "word": "square",
+     "fa": "مربع"
+    },
+    {
+     "word": "plate",
+     "fa": "بشقاب"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Well done! My turn. The sandwich is a triangle!",
+   "translations": {
+    "fa": "آفرین! نوبت من. ساندویچ مثلثه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "triangles",
+      "two"
+     ],
+     "suggestion": "Yes! Two triangles.",
+     "suggestionFa": "آره! دو تا مثلث.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "triangle",
+      "eat",
+      "can"
+     ],
+     "suggestion": "Can I eat the triangle?",
+     "suggestionFa": "می‌تونم مثلث را بخورم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "triangle",
+     "fa": "مثلث"
+    },
+    {
+     "word": "sandwich",
+     "fa": "ساندویچ"
+    },
+    {
+     "word": "my turn",
+     "fa": "نوبت من"
+    }
+   ],
+   "cultureNote": {
+    "en": "British children often have sandwiches cut into triangles — \"posh\" sandwiches!",
+    "fa": "ساندویچ مثلثی در بریتانیا رایج است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "No! It's Ryan's sandwich. He gets cross. What shape is the table?",
+   "translations": {
+    "fa": "نه! ساندویچ رایانه. عصبانی می‌شه. میز چه شکلیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "table"
+     ],
+     "suggestion": "The table is a rectangle.",
+     "suggestionFa": "میز مستطیله.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think"
+     ],
+     "suggestion": "I think it's a rectangle.",
+     "suggestionFa": "فکر کنم مستطیله.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cross",
+     "fa": "عصبانی"
+    },
+    {
+     "word": "table",
+     "fa": "میز"
+    },
+    {
+     "word": "rectangle",
+     "fa": "مستطیل"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "table is rectangle",
+      "is a rectangle table"
+     ],
+     "echo": "It's a rectangle? Yes!",
+     "better": "The table is a rectangle.",
+     "betterFa": "میز مستطیله."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "A rectangle! That's a hard word. What about the biscuits?",
+   "translations": {
+    "fa": "مستطیل! کلمهٔ سختیه. بیسکویت‌ها چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circles",
+      "they're"
+     ],
+     "suggestion": "They're circles.",
+     "suggestionFa": "دایره‌ان.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "squares",
+      "some"
+     ],
+     "suggestion": "Some are squares.",
+     "suggestionFa": "بعضی‌هاشون مربعن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hard",
+     "fa": "سخت"
+    },
+    {
+     "word": "biscuits",
+     "fa": "بیسکویت‌ها"
+    },
+    {
+     "word": "some",
+     "fa": "بعضی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"biscuit\" = American \"cookie\". An American \"biscuit\" is like a British scone.",
+    "fa": "biscuit/cookie."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Can I have a biscuit? Just one? Please?",
+   "translations": {
+    "fa": "می‌تونم یه بیسکویت بخورم؟ فقط یکی؟ لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "mum",
+      "ask"
+     ],
+     "suggestion": "Ask your mum first.",
+     "suggestionFa": "اول از مامانت بپرس.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "just",
+      "one",
+      "ok"
+     ],
+     "suggestion": "Just one, OK?",
+     "suggestionFa": "فقط یکی، باشه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "just one",
+     "fa": "فقط یکی"
+    },
+    {
+     "word": "ask",
+     "fa": "پرسیدن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Mummy says yes! A round one. Now, a star! Can you see a star?",
+   "translations": {
+    "fa": "مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kitchen",
+      "there",
+      "star"
+     ],
+     "suggestion": "No. Is there a star in the kitchen?",
+     "suggestionFa": "نه. تو آشپزخونه ستاره هست؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fridge"
+     ],
+     "suggestion": "Yes! On the fridge.",
+     "suggestionFa": "آره! روی یخچال.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "round",
+     "fa": "گرد"
+    },
+    {
+     "word": "star",
+     "fa": "ستاره"
+    },
+    {
+     "word": "fridge",
+     "fa": "یخچال"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Yes! My gold star from school is on the fridge. I got it for reading.",
+   "translations": {
+    "fa": "آره! ستارهٔ طلایی مدرسه‌ام روی یخچاله. برای کتاب خوندن گرفتمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done, Nicola!",
+     "suggestionFa": "آفرین نیکولا!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clever"
+     ],
+     "suggestion": "You're very clever!",
+     "suggestionFa": "خیلی باهوشی!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gold",
+     "fa": "طلایی"
+    },
+    {
+     "word": "reading",
+     "fa": "خواندن"
+    },
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "nicola",
+   "text": "Thank you! You're good at this game. Let's play again after tea!",
+   "translations": {
+    "fa": "ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

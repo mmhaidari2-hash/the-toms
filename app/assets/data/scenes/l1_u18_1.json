@@ -1,0 +1,412 @@
+{
+ "id": "l1_u18_1",
+ "characterId": "leslie",
+ "title": "Making sandwiches",
+ "titleFa": "درست کردن ساندویچ",
+ "setting": "Lunchtime · Level 1",
+ "settingFa": "وقت ناهار",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Lunchtime! I'm making sandwiches. What would you like in yours?",
+   "translations": {
+    "fa": "وقت ناهار! دارم ساندویچ درست می‌کنم. تو مال خودت چی می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "cheese"
+     ],
+     "suggestion": "Cheese, please.",
+     "suggestionFa": "پنیر، لطفاً.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "have",
+      "got",
+      "we"
+     ],
+     "suggestion": "What have we got?",
+     "suggestionFa": "چی داریم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lunchtime",
+     "fa": "وقت ناهار"
+    },
+    {
+     "word": "sandwiches",
+     "fa": "ساندویچ‌ها"
+    },
+    {
+     "word": "cheese",
+     "fa": "پنیر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Cheese, ham, tuna, egg… and cucumber. White bread or brown bread?",
+   "translations": {
+    "fa": "پنیر، ژامبون، تن ماهی، تخم‌مرغ… و خیار. نون سفید یا نون سبوس‌دار؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bread",
+      "brown"
+     ],
+     "suggestion": "Brown bread, please.",
+     "suggestionFa": "نون سبوس‌دار، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "white"
+     ],
+     "suggestion": "White, please.",
+     "suggestionFa": "سفید، لطفاً.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ham",
+     "fa": "ژامبون"
+    },
+    {
+     "word": "tuna",
+     "fa": "تن ماهی"
+    },
+    {
+     "word": "egg",
+     "fa": "تخم‌مرغ"
+    },
+    {
+     "word": "brown bread",
+     "fa": "نان سبوس‌دار"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British Muslims, Jews and vegetarians avoid ham — it's always fine to ask what's in a sandwich.",
+    "fa": "می‌توانید محتویات ساندویچ را بپرسید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Brown bread. Do you want butter on it?",
+   "translations": {
+    "fa": "نون سبوس‌دار. کره می‌خوای روش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "please"
+     ],
+     "suggestion": "Yes, a little butter, please.",
+     "suggestionFa": "آره، یه کم کره، لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks"
+     ],
+     "suggestion": "No butter, thanks.",
+     "suggestionFa": "کره نه، ممنون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "butter",
+     "fa": "کره"
+    },
+    {
+     "word": "a little",
+     "fa": "کمی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Cheese and pickle? It's a classic! Pickle is sweet and brown.",
+   "translations": {
+    "fa": "پنیر و پیکل؟ کلاسیکه! پیکل شیرین و قهوه‌ایه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "try",
+      "i'd"
+     ],
+     "suggestion": "I'd like to try it.",
+     "suggestionFa": "می‌خوام امتحانش کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomato",
+      "please",
+      "cheese",
+      "just"
+     ],
+     "suggestion": "Just cheese and tomato, please.",
+     "suggestionFa": "فقط پنیر و گوجه، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pickle",
+     "fa": "ترشی شیرین انگلیسی"
+    },
+    {
+     "word": "classic",
+     "fa": "کلاسیک"
+    },
+    {
+     "word": "tomato",
+     "fa": "گوجه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Branston Pickle\" is a sweet, chunky brown chutney — cheese and pickle is a classic British sandwich.",
+    "fa": "پنیر و ترشی ساندویچ کلاسیک است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "There you go. Ryan wants crisps in his sandwich! What do you think?",
+   "translations": {
+    "fa": "بفرما. رایان می‌خواد تو ساندویچش چیپس بذاره! نظرت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwich",
+      "crisps",
+      "really"
+     ],
+     "suggestion": "Crisps in a sandwich? Really?",
+     "suggestionFa": "چیپس تو ساندویچ؟ واقعاً؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crunchy",
+      "sounds"
+     ],
+     "suggestion": "That sounds crunchy!",
+     "suggestionFa": "به نظر خرت‌خرتیه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crisps",
+     "fa": "چیپس"
+    },
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "crunchy",
+     "fa": "ترد"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"crisp sandwich\" or \"crisp butty\" is a real (and loved) British snack.",
+    "fa": "ساندویچ چیپس واقعاً وجود دارد!"
+   },
+   "recasts": [
+    {
+     "match": [
+      "is crisps in sandwich",
+      "crisps is in sandwich"
+     ],
+     "echo": "Crisps in a sandwich? Yes, really!",
+     "better": "Crisps in a sandwich?",
+     "betterFa": "چیپس تو ساندویچ؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "It's a \"crisp butty\". Very popular here! Shall I cut yours into triangles or squares?",
+   "translations": {
+    "fa": "بهش می‌گن «کریسپ باتی». اینجا خیلی محبوبه! مال تو را مثلثی ببرم یا مربعی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "triangles",
+      "please"
+     ],
+     "suggestion": "Triangles, please.",
+     "suggestionFa": "مثلثی، لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "don't",
+      "cut"
+     ],
+     "suggestion": "Don't cut it, thanks.",
+     "suggestionFa": "نبرش، ممنون.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "butty",
+     "fa": "ساندویچ (عامیانهٔ شمال)"
+    },
+    {
+     "word": "popular",
+     "fa": "محبوب"
+    },
+    {
+     "word": "triangles",
+     "fa": "مثلث‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Triangles. Fancy. Would you like a drink with it?",
+   "translations": {
+    "fa": "مثلثی. شیک. باهاش نوشیدنی می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "glass",
+      "water"
+     ],
+     "suggestion": "A glass of water, please.",
+     "suggestionFa": "یه لیوان آب، لطفاً.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "juice",
+      "have",
+      "any",
+      "got"
+     ],
+     "suggestion": "Have we got any juice?",
+     "suggestionFa": "آبمیوه داریم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fancy",
+     "fa": "شیک"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "There's apple juice in the fridge. Help yourself!",
+   "translations": {
+    "fa": "آب سیب تو یخچاله. از خودت پذیرایی کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "shall",
+      "some",
+      "get"
+     ],
+     "suggestion": "Thanks! Shall I get some for you?",
+     "suggestionFa": "ممنون! برای شما هم بیارم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "delicious",
+      "looks",
+      "thank"
+     ],
+     "suggestion": "Thank you. This looks delicious!",
+     "suggestionFa": "ممنون. خیلی خوشمزه به نظر میاد!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "help yourself",
+     "fa": "از خودت پذیرایی کن"
+    },
+    {
+     "word": "looks",
+     "fa": "به نظر می‌رسد"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Yes, please, a small one. Right, let's eat in the garden. It's sunny!",
+   "translations": {
+    "fa": "آره، لطفاً، یه کم. خب، بیا تو باغ بخوریم. آفتابیه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

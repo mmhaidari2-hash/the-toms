@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "have",
       "look",
+      "have",
       "let"
      ],
      "suggestion": "Let me have a look at it.",
@@ -88,9 +88,9 @@
     },
     {
      "keywords": [
-      "don't",
       "might",
       "break",
+      "don't",
       "hard"
      ],
      "suggestion": "Don't push too hard — you might break it.",
@@ -127,8 +127,8 @@
      "keywords": [
       "washer",
       "from",
-      "i'll",
-      "shop"
+      "shop",
+      "i'll"
      ],
      "suggestion": "I'll ask Tom to buy a washer from the DIY shop.",
      "suggestionFa": "به تام می‌گم از فروشگاه ابزار یه واشر بخره.",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "watched",
-      "about",
       "video",
+      "about",
       "can"
      ],
      "suggestion": "I can do it. I watched a video about it.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "spare",
-      "just",
       "case",
+      "just",
       "one"
      ],
      "suggestion": "I'll buy a spare one, just in case.",

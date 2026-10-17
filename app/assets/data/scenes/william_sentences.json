@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "ding",
       "goes",
+      "ding",
       "off"
      ],
      "suggestion": "Ding ding! Off it goes!",
@@ -122,8 +122,8 @@
      "keywords": [
       "waved",
       "back",
-      "see",
-      "did"
+      "did",
+      "see"
      ],
      "suggestion": "Daddy waved back! Did you see?",
      "suggestionFa": "بابا هم دست تکون داد! دیدی؟",
@@ -167,9 +167,9 @@
     {
      "keywords": [
       "floors",
-      "that's",
       "decker",
-      "double"
+      "double",
+      "that's"
      ],
      "suggestion": "That's a double-decker. Two floors!",
      "suggestionFa": "اون دوطبقه‌ست. دو طبقه!",
@@ -179,9 +179,9 @@
     },
     {
      "keywords": [
+      "let's",
       "buses",
-      "count",
-      "let's"
+      "count"
      ],
      "suggestion": "Let's count the buses.",
      "suggestionFa": "بیا اتوبوس‌ها را بشمریم.",
@@ -369,8 +369,8 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "driver",
+      "you'll",
       "great",
       "bus"
      ],

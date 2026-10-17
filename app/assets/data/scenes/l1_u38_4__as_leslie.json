@@ -1,0 +1,337 @@
+{
+ "id": "l1_u38_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Thank-you notes",
+ "titleFa": "(در نقش Leslie) یادداشت تشکر",
+ "setting": "Birthdays · Level 1",
+ "settingFa": "تولدها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u38_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "presents",
+      "birthday",
+      "writing",
+      "nicola"
+     ],
+     "suggestion": "Right, Nicola. Tomorrow you're writing thank-you notes. For your birthday presents!",
+     "suggestionFa": "خب نیکولا. فردا یادداشت تشکر می‌نویسی. برای کادوهای تولدت!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What are thank-you notes?",
+   "translations": {
+    "fa": "یادداشت تشکر چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "Boring! Do I have to? Can Mehdi help me?",
+   "translations": {
+    "fa": "خسته‌کننده‌ست! مجبورم؟ {you} کمکم می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boring",
+     "fa": "کسل‌کننده"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, I'll help you.",
+   "translations": {
+    "fa": "آره، کمکت می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "thank",
+      "first",
+      "gave",
+      "book"
+     ],
+     "suggestion": "Thank you! First, Nana. She gave Nicola a book.",
+     "suggestionFa": "ممنون! اول، نانا. به نیکولا یه کتاب داد.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "\"Dear Nana, thank you for the book.\"",
+   "translations": {
+    "fa": "«نانای عزیز، ممنون بابت کتاب.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "nicola",
+   "text": "The one about dinosaurs! Write \"I love it. I read it every night.\"",
+   "translations": {
+    "fa": "همونی که دربارهٔ دایناسورهاست! بنویس «عاشقشم. هر شب می‌خونمش.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaurs",
+     "fa": "دایناسورها"
+    },
+    {
+     "word": "every night",
+     "fa": "هر شب"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Good! That's a nice thing to say.",
+   "translations": {
+    "fa": "خوبه! حرف قشنگیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "nicola",
+   "text": "Mummy reads it! Next, Mia. She gave me hair clips. And she came to my party.",
+   "translations": {
+    "fa": "مامان می‌خونه! بعدی، میا. بهم گیرهٔ مو داد. و اومد جشنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hair clips",
+     "fa": "گیرهٔ مو"
+    },
+    {
+     "word": "party",
+     "fa": "جشن"
+    },
+    {
+     "word": "coming",
+     "fa": "آمدن"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "\"Thank you for coming to my party.\"",
+   "translations": {
+    "fa": "«ممنون که اومدی جشنم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "picture",
+      "nicola",
+      "lovely",
+      "more",
+      "both"
+     ],
+     "suggestion": "Both! Lovely. Then draw a picture and sign it. How many more, Nicola?",
+     "suggestionFa": "هر دو! عالی. بعد یه نقاشی بکش و امضاش کن. چند تای دیگه مونده نیکولا؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Let's count.",
+   "translations": {
+    "fa": "بیا بشمریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "nicola",
+   "text": "Five?! My hand is tired! Can I just say \"thank you\" on the phone?",
+   "translations": {
+    "fa": "پنج تا؟! دستم خسته شده! می‌شه فقط تلفنی بگم «ممنون»؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hand",
+     "fa": "دست"
+    },
+    {
+     "word": "tired",
+     "fa": "خسته"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "A note is better.",
+   "translations": {
+    "fa": "یادداشت بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "helping",
+      "great",
+      "thank",
+      "write",
+      "next"
+     ],
+     "suggestion": "Great idea — one a day! And next year you can write one to Mehdi too. Thank you for helping!",
+     "suggestionFa": "فکر عالیه — روزی یکی! و سال بعد یکی هم برای {you} می‌نویسی. ممنون بابت کمک!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

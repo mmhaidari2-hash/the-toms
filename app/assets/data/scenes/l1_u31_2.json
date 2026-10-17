@@ -1,0 +1,353 @@
+{
+ "id": "l1_u31_2",
+ "characterId": "nicola",
+ "title": "Playtime",
+ "titleFa": "زنگ تفریح",
+ "setting": "My school day · Level 1",
+ "settingFa": "روز مدرسهٔ من",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "{you}! You came to my school! Guess what we did at playtime!",
+   "translations": {
+    "fa": "{you}! اومدی مدرسه‌م! حدس بزن زنگ تفریح چی کار کردیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what",
+      "do"
+     ],
+     "suggestion": "What did you do?",
+     "suggestionFa": "چی کار کردید؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "play",
+      "tag"
+     ],
+     "suggestion": "Did you play tag?",
+     "suggestionFa": "گرگم به هوا بازی کردید؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "playtime",
+     "fa": "زنگ تفریح"
+    },
+    {
+     "word": "guess",
+     "fa": "حدس زدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"playtime\" or \"break\", American \"recess\".",
+    "fa": "playtime/recess."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "We played dragons! I was the big dragon. Mia was the knight.",
+   "translations": {
+    "fa": "اژدهابازی کردیم! من اژدهای بزرگه بودم. میا شوالیه بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "who",
+      "won"
+     ],
+     "suggestion": "Who won?",
+     "suggestionFa": "کی برد؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "catch",
+      "did",
+      "mia"
+     ],
+     "suggestion": "Did Mia catch you?",
+     "suggestionFa": "میا گرفتت؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "played",
+     "fa": "بازی کردیم"
+    },
+    {
+     "word": "knight",
+     "fa": "شوالیه"
+    },
+    {
+     "word": "won",
+     "fa": "برد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Nobody won. We ran and ran, then the whistle went.",
+   "translations": {
+    "fa": "هیچ‌کس نبرد. دویدیم و دویدیم، بعد سوت زدن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "then"
+     ],
+     "suggestion": "Then what happened?",
+     "suggestionFa": "بعد چی شد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lot",
+      "ran"
+     ],
+     "suggestion": "You ran a lot!",
+     "suggestionFa": "خیلی دویدی!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ran",
+     "fa": "دویدیم"
+    },
+    {
+     "word": "whistle",
+     "fa": "سوت"
+    },
+    {
+     "word": "nobody",
+     "fa": "هیچ‌کس"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Then we had fruit. I had an apple. Oliver had a banana. He dropped it!",
+   "translations": {
+    "fa": "بعد میوه خوردیم. من سیب خوردم. الیور موز خورد. افتاد زمین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oliver",
+      "poor",
+      "oh"
+     ],
+     "suggestion": "Oh no! Poor Oliver.",
+     "suggestionFa": "ای وای! الیور بیچاره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "every",
+      "fruit",
+      "have",
+      "day"
+     ],
+     "suggestion": "Do you have fruit every day?",
+     "suggestionFa": "هر روز میوه می‌خورید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fruit",
+     "fa": "میوه"
+    },
+    {
+     "word": "dropped",
+     "fa": "انداخت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Young children in English state schools get a free piece of fruit or vegetable every day.",
+    "fa": "میوهٔ رایگان روزانه."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Yes! Every day. Then I fell over and hurt my knee. Look!",
+   "translations": {
+    "fa": "آره! هر روز. بعد افتادم و زانوم درد گرفت. ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ouch",
+      "ok"
+     ],
+     "suggestion": "Ouch! Are you OK?",
+     "suggestionFa": "آخ! خوبی؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "did",
+      "cry"
+     ],
+     "suggestion": "Did you cry?",
+     "suggestionFa": "گریه کردی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fell over",
+     "fa": "زمین خورد"
+    },
+    {
+     "word": "hurt",
+     "fa": "آسیب دید"
+    },
+    {
+     "word": "knee",
+     "fa": "زانو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you falled",
+      "you fall over yesterday"
+     ],
+     "echo": "You fell over? Poor you!",
+     "better": "You fell over.",
+     "betterFa": "زمین خوردی."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Only a little bit. Mrs Ellis gave me a sticker. It says \"I was brave\"!",
+   "translations": {
+    "fa": "فقط یه ذره. خانم الیس بهم یه برچسب داد. روش نوشته «من شجاع بودم»!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brave",
+      "were"
+     ],
+     "suggestion": "You were very brave!",
+     "suggestionFa": "خیلی شجاع بودی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sticker",
+      "see",
+      "can"
+     ],
+     "suggestion": "Can I see the sticker?",
+     "suggestionFa": "می‌تونم برچسب را ببینم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sticker",
+     "fa": "برچسب"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Here! Mummy says I can put it on the fridge. Did you play at school in Iran?",
+   "translations": {
+    "fa": "بیا! مامان میگه می‌تونم بچسبونمش رو یخچال. تو ایران تو مدرسه بازی می‌کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football"
+     ],
+     "suggestion": "Yes, we played football.",
+     "suggestionFa": "آره، فوتبال بازی می‌کردیم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "game",
+      "like",
+      "tag"
+     ],
+     "suggestion": "We played a game like tag.",
+     "suggestionFa": "یه بازی شبیه گرگم به هوا.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "football",
+     "fa": "فوتبال"
+    },
+    {
+     "word": "game",
+     "fa": "بازی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Football! Ryan likes football. Tomorrow I'm going to be a dragon AND play football!",
+   "translations": {
+    "fa": "فوتبال! رایان فوتبال دوست داره. فردا می‌خوام اژدها باشم و فوتبال هم بازی کنم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

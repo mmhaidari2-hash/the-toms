@@ -84,7 +84,7 @@
      "keywords": [
       "that's",
       "great",
-      "i'll",
+      "tell",
       "news"
      ],
      "suggestion": "That's great news! I'll tell him.",
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "number",
+      "please",
       "could",
       "again"
      ],
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "message",
-      "thank",
       "helen",
-      "i'll"
+      "thank",
+      "pass"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
      "suggestionFa": "ممنون هلن. پیغام را می‌رسونم.",
@@ -237,7 +237,7 @@
       "thanks",
       "today",
       "he'll",
-      "back"
+      "ring"
      ],
      "suggestion": "Thanks. He'll ring you back today.",
      "suggestionFa": "ممنون. امروز بهتون زنگ می‌زنه.",

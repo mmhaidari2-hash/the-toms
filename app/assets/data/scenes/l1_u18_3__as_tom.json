@@ -1,0 +1,225 @@
+{
+ "id": "l1_u18_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Beans on toast",
+ "titleFa": "(در نقش Tom) لوبیا روی نان تست",
+ "setting": "Lunchtime · Level 1",
+ "settingFa": "وقت ناهار",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u18_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "starving",
+      "o'clock",
+      "shall",
+      "lunch",
+      "have"
+     ],
+     "suggestion": "I'm starving! It's one o'clock. What shall we have for lunch?",
+     "suggestionFa": "دارم از گرسنگی می‌میرم! ساعت یکه. ناهار چی بخوریم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I'm hungry too. What's in the fridge?",
+   "translations": {
+    "fa": "منم گرسنه‌ام. تو یخچال چی هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "british",
+      "tried",
+      "beans",
+      "lunch"
+     ],
+     "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
+     "suggestionFa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, never.",
+   "translations": {
+    "fa": "نه، هیچ‌وقت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opener",
+      "drawer",
+      "you'll",
+      "love",
+      "open"
+     ],
+     "suggestion": "You'll love it. Can you open the tin? The tin opener is in the drawer.",
+     "suggestionFa": "عاشقش می‌شی. قوطی را باز می‌کنی؟ دربازکن تو کشوئه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "This one?",
+   "translations": {
+    "fa": "این یکی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toaster",
+      "slices",
+      "beans",
+      "bread",
+      "pour"
+     ],
+     "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
+     "suggestionFa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Two slices, please.",
+   "translations": {
+    "fa": "دو تیکه، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "beans",
+      "don't",
+      "burn",
+      "stir"
+     ],
+     "suggestion": "Stir the beans, please. Don't let them burn!",
+     "suggestionFa": "لوبیا را هم بزن، لطفاً. نذار بسوزه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I'm stirring. They're bubbling!",
+   "translations": {
+    "fa": "دارم هم می‌زنم. داره قل می‌زنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toast's",
+      "butter",
+      "cheese",
+      "beans",
+      "ready"
+     ],
+     "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
+     "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, please! Lots of cheese.",
+   "translations": {
+    "fa": "آره، لطفاً! کلی پنیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "secret",
+      "cheese",
+      "sauce",
+      "brown",
+      "top"
+     ],
+     "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
+     "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Mmm! It's delicious!",
+   "translations": {
+    "fa": "ممم! خوشمزه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "cooking",
+      "that's",
+      "only",
+      "five"
+     ],
+     "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
+     "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,429 @@
+{
+ "id": "l1_u26_1",
+ "characterId": "leslie",
+ "title": "Crossing the road",
+ "titleFa": "عبور از خیابان",
+ "setting": "Out for a walk · Level 1",
+ "settingFa": "پیاده‌روی",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "We need to cross the road to get to the park. Nicola, hold my hand, please.",
+   "translations": {
+    "fa": "باید از خیابون رد بشیم که بریم پارک. نیکولا، دستم را بگیر، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "hands",
+      "hold"
+     ],
+     "suggestion": "Hold hands, Nicola.",
+     "suggestionFa": "دست بده نیکولا.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crossing",
+      "there"
+     ],
+     "suggestion": "Is there a crossing?",
+     "suggestionFa": "گذرگاه عابر پیاده هست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cross",
+     "fa": "عبور کردن"
+    },
+    {
+     "word": "road",
+     "fa": "خیابان"
+    },
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "crossing",
+     "fa": "گذرگاه عابر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Yes, there's a zebra crossing. Black and white stripes, like a zebra!",
+   "translations": {
+    "fa": "آره، یه خط عابر پیاده‌ست. راه‌راه سیاه و سفید، مثل گورخر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "zebra",
+      "like",
+      "ha"
+     ],
+     "suggestion": "Ha! Like a zebra!",
+     "suggestionFa": "ها! مثل گورخر!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cars",
+      "stop",
+      "us"
+     ],
+     "suggestion": "Do cars stop for us?",
+     "suggestionFa": "ماشین‌ها برامون وایمیسن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "zebra crossing",
+     "fa": "خط عابر پیاده"
+    },
+    {
+     "word": "stripes",
+     "fa": "راه‌راه"
+    },
+    {
+     "word": "zebra",
+     "fa": "گورخر"
+    }
+   ],
+   "cultureNote": {
+    "en": "At a British zebra crossing, drivers must stop if someone is waiting to cross. The orange lights are \"Belisha beacons\".",
+    "fa": "راننده‌ها در خط عابر باید بایستند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "They should stop. But always look first. Remember: in Britain, cars drive on the left!",
+   "translations": {
+    "fa": "باید وایستن. ولی همیشه اول نگاه کن. یادت باشه: تو بریتانیا ماشین‌ها از سمت چپ می‌رن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "look"
+     ],
+     "suggestion": "So I look right first?",
+     "suggestionFa": "پس اول سمت راست را نگاه کنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drive",
+      "cars",
+      "iran"
+     ],
+     "suggestion": "In Iran, cars drive on the right.",
+     "suggestionFa": "تو ایران ماشین‌ها از سمت راست می‌رن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "always",
+     "fa": "همیشه"
+    },
+    {
+     "word": "first",
+     "fa": "اول"
+    },
+    {
+     "word": "left",
+     "fa": "چپ"
+    },
+    {
+     "word": "right",
+     "fa": "راست"
+    }
+   ],
+   "cultureNote": {
+    "en": "In London, the ground often says \"LOOK RIGHT\" or \"LOOK LEFT\" to help visitors.",
+    "fa": "روی زمین نوشته «به راست نگاه کن»."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i look the right first",
+      "first i looking right"
+     ],
+     "echo": "Look right first? Exactly!",
+     "better": "I look right first.",
+     "betterFa": "اول راست را نگاه می‌کنم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Exactly! Look right, look left, look right again. Nicola, what's the rule?",
+   "translations": {
+    "fa": "دقیقاً! راست، چپ، دوباره راست. نیکولا، قانونش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tell",
+      "us"
+     ],
+     "suggestion": "Tell us the rule, Nicola!",
+     "suggestionFa": "قانون را بهمون بگو نیکولا!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "know"
+     ],
+     "suggestion": "Do you know the rule, Nicola?",
+     "suggestionFa": "قانون را بلدی نیکولا؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tell",
+     "fa": "گفتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Stop, look and listen!",
+   "translations": {
+    "fa": "بایست، نگاه کن و گوش کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done, Nicola!",
+     "suggestionFa": "آفرین نیکولا!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "girl",
+      "safe",
+      "now"
+     ],
+     "suggestion": "Good girl! Is it safe now?",
+     "suggestionFa": "آفرین! الان امنه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rule",
+     "fa": "قانون"
+    },
+    {
+     "word": "stop",
+     "fa": "ایستادن"
+    },
+    {
+     "word": "listen",
+     "fa": "گوش کردن"
+    },
+    {
+     "word": "safe",
+     "fa": "امن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "A bus is coming. Wait… Now the driver is waving. It's safe. Let's cross.",
+   "translations": {
+    "fa": "یه اتوبوس داره میاد. صبر کن… حالا راننده داره دست تکون می‌ده. امنه. بیا رد شیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Thank you!",
+     "suggestionFa": "ممنون!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "driver",
+      "wave"
+     ],
+     "suggestion": "Wave to the driver, Nicola!",
+     "suggestionFa": "برای راننده دست تکون بده نیکولا!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coming",
+     "fa": "آمدن"
+    },
+    {
+     "word": "waving",
+     "fa": "دست تکان دادن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Here's the next road. This one has traffic lights. We wait for the green man.",
+   "translations": {
+    "fa": "اینم خیابون بعدی. این یکی چراغ راهنمایی داره. منتظر آدمک سبز می‌مونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "green",
+      "man"
+     ],
+     "suggestion": "What's the green man?",
+     "suggestionFa": "آدمک سبز چیه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "button",
+      "shall",
+      "press"
+     ],
+     "suggestion": "Shall I press the button?",
+     "suggestionFa": "دکمه را فشار بدم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "traffic lights",
+     "fa": "چراغ راهنمایی"
+    },
+    {
+     "word": "green man",
+     "fa": "آدمک سبز"
+    },
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "button",
+     "fa": "دکمه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Yes, press the button! The red man means stop. The green man means go.",
+   "translations": {
+    "fa": "آره، دکمه را فشار بده! آدمک قرمز یعنی بایست. آدمک سبز یعنی برو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beeping",
+      "green",
+      "man"
+     ],
+     "suggestion": "It's beeping! Green man!",
+     "suggestionFa": "داره بوق می‌زنه! آدمک سبز!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "can",
+      "now",
+      "we",
+      "go"
+     ],
+     "suggestion": "We can go now.",
+     "suggestionFa": "الان می‌تونیم بریم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "red man",
+     "fa": "آدمک قرمز"
+    },
+    {
+     "word": "means",
+     "fa": "یعنی"
+    },
+    {
+     "word": "beeping",
+     "fa": "بوق زدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "At many UK pedestrian crossings, a beeping sound tells blind people when it's safe to cross.",
+    "fa": "صدای بوق برای نابینایان است."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Well done, both of you. Here's the park! Nicola, you can let go of my hand now. Run to the swings!",
+   "translations": {
+    "fa": "آفرین به هر دوتون. اینم پارک! نیکولا، حالا می‌تونی دستم را ول کنی. بدو سمت تاب‌ها!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

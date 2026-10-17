@@ -21,8 +21,8 @@
      "keywords": [
       "qualifications",
       "finding",
-      "like",
-      "help"
+      "help",
+      "like"
      ],
      "suggestion": "I'd like help finding a job that uses my qualifications.",
      "suggestionFa": "کمک می‌خوام کاری پیدا کنم که از مدارکم استفاده کنه.",
@@ -35,7 +35,7 @@
       "interviews",
       "applied",
       "getting",
-      "jobs"
+      "i've"
      ],
      "suggestion": "I've applied for lots of jobs, but I'm not getting interviews.",
      "suggestionFa": "برای کلی کار درخواست دادم، ولی مصاحبه نمی‌گیرم.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "remove",
-      "photo",
       "birth",
+      "photo",
       "date"
      ],
      "suggestion": "Should I remove my photo and date of birth?",
@@ -350,8 +350,8 @@
     },
     {
      "keywords": [
-      "full",
       "work",
+      "full",
       "part",
       "time"
      ],

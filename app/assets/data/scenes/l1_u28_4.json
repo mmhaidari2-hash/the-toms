@@ -1,0 +1,361 @@
+{
+ "id": "l1_u28_4",
+ "characterId": "leslie",
+ "title": "Call me back",
+ "titleFa": "به من زنگ بزن",
+ "setting": "Phone basics · Level 1",
+ "settingFa": "مکالمهٔ تلفنی ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The plumber isn't answering. It's the voicemail. Can you leave a message? I talk too fast!",
+   "translations": {
+    "fa": "لوله‌کش جواب نمی‌ده. پیغام‌گیره. تو پیغام می‌ذاری؟ من خیلی تند حرف می‌زنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "don't",
+      "fast",
+      "talk"
+     ],
+     "suggestion": "Ha! You don't talk too fast, Leslie!",
+     "suggestionFa": "ها! تو تند حرف نمی‌زنی لزلی!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "say",
+      "ok"
+     ],
+     "suggestion": "OK. What do I say?",
+     "suggestionFa": "باشه. چی بگم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plumber",
+     "fa": "لوله‌کش"
+    },
+    {
+     "word": "voicemail",
+     "fa": "پیغام‌گیر صوتی"
+    },
+    {
+     "word": "leave",
+     "fa": "گذاشتن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Say your name, the problem and my phone number. Slowly! Here — after the beep.",
+   "translations": {
+    "fa": "اسمت، مشکل و شماره‌ام را بگو. آروم! بیا — بعد از بوق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plumber",
+      "message"
+     ],
+     "suggestion": "Hello, this is a message for the plumber.",
+     "suggestionFa": "سلام، این یه پیغام برای لوله‌کشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompson",
+      "calling",
+      "leslie",
+      "name"
+     ],
+     "suggestion": "Hello. My name is {you}. I'm calling for Leslie Thompson.",
+     "suggestionFa": "سلام. اسمم {you} است. از طرف لزلی تامپسون زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    },
+    {
+     "word": "beep",
+     "fa": "بوق"
+    }
+   ],
+   "cultureNote": {
+    "en": "When leaving a voicemail, say who you are, why you're calling and your number — twice.",
+    "fa": "در پیغام صوتی نام، دلیل و شماره را بگویید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Good! Now the problem. The kitchen tap is leaking.",
+   "translations": {
+    "fa": "خوبه! حالا مشکل. شیر آشپزخونه چکه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kitchen",
+      "leaking",
+      "tap"
+     ],
+     "suggestion": "The kitchen tap is leaking.",
+     "suggestionFa": "شیر آشپزخونه چکه می‌کنه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everywhere",
+      "there's",
+      "water",
+      "under"
+     ],
+     "suggestion": "There's water everywhere under the sink.",
+     "suggestionFa": "زیر سینک همه جا آبه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "شیر آب"
+    },
+    {
+     "word": "leaking",
+     "fa": "چکه کردن"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the tap is leak",
+      "tap leaking"
+     ],
+     "echo": "The tap is leaking? Right.",
+     "better": "The kitchen tap is leaking.",
+     "betterFa": "شیر آشپزخونه چکه می‌کنه."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Now the number. Oh seven seven double oh, nine double oh, one two three.",
+   "translations": {
+    "fa": "حالا شماره. صفر هفت هفت دو تا صفر، نه دو تا صفر، یک دو سه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "again",
+      "say",
+      "can"
+     ],
+     "suggestion": "Can you say it again, please?",
+     "suggestionFa": "می‌شه دوباره بگی، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "double",
+      "three",
+      "seven",
+      "nine"
+     ],
+     "suggestion": "Oh seven seven double oh, nine double oh, one two three.",
+     "suggestionFa": "صفر هفت هفت دو صفر، نه دو صفر، یک دو سه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "oh",
+     "fa": "صفر (در شماره)"
+    },
+    {
+     "word": "double",
+     "fa": "دوتا"
+    }
+   ],
+   "cultureNote": {
+    "en": "In phone numbers, Brits often say \"oh\" for 0 and \"double\" for two of the same: \"double oh\".",
+    "fa": "oh یعنی صفر و double یعنی دوتا."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Perfect! Say it again, slowly. And ask him to call back today.",
+   "translations": {
+    "fa": "عالی! دوباره آروم بگو. و ازش بخواه امروز دوباره زنگ بزنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank"
+     ],
+     "suggestion": "Please call back today. Thank you!",
+     "suggestionFa": "لطفاً امروز دوباره زنگ بزنید. ممنون!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "could",
+      "us"
+     ],
+     "suggestion": "Could you call us back today, please?",
+     "suggestionFa": "می‌شه لطفاً امروز بهمون زنگ بزنید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "today",
+     "fa": "امروز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Lovely. And say goodbye. Then press the red button.",
+   "translations": {
+    "fa": "عالی. و خداحافظی کن. بعد دکمهٔ قرمز را بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "bye"
+     ],
+     "suggestion": "Thanks. Bye!",
+     "suggestionFa": "ممنون. خداحافظ!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "goodbye",
+      "nice",
+      "have",
+      "day"
+     ],
+     "suggestion": "Goodbye. Have a nice day!",
+     "suggestionFa": "خداحافظ. روز خوبی داشته باشید!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "red",
+     "fa": "قرمز"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Brilliant! You sounded very professional. Better than me!",
+   "translations": {
+    "fa": "عالی! خیلی حرفه‌ای به نظر رسیدی. بهتر از من!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "thank",
+      "was"
+     ],
+     "suggestion": "Thank you! I was nervous.",
+     "suggestionFa": "ممنون! استرس داشتم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "practised",
+      "numbers"
+     ],
+     "suggestion": "I practised my numbers!",
+     "suggestionFa": "شماره‌هام را تمرین کردم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "professional",
+     "fa": "حرفه‌ای"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    },
+    {
+     "word": "practised",
+     "fa": "تمرین کرد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Oh! My phone's ringing already. It's him! The plumber. You see? A good message works!",
+   "translations": {
+    "fa": "آه! گوشیم از الان داره زنگ می‌زنه. خودشه! لوله‌کش. دیدی؟ یه پیغام خوب جواب می‌ده!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

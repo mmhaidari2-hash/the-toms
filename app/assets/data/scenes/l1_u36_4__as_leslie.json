@@ -1,0 +1,286 @@
+{
+ "id": "l1_u36_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Reading with Nana",
+ "titleFa": "(در نقش Leslie) کتاب خواندن با نانا",
+ "setting": "Hobbies · Level 1",
+ "settingFa": "سرگرمی‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u36_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reading",
+      "friday",
+      "girls",
+      "every",
+      "look"
+     ],
+     "suggestion": "Shh, look. Weda is reading to the girls. She does it every Friday.",
+     "suggestionFa": "هیس، ببین. ودا داره برای دخترها کتاب می‌خونه. هر جمعه این کار را می‌کنه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "That's lovely.",
+   "translations": {
+    "fa": "چقدر قشنگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "gruffalo",
+      "always",
+      "choose",
+      "girls",
+      "every"
+     ],
+     "suggestion": "\"The Gruffalo\". The girls always choose that one! They know every word.",
+     "suggestionFa": "«گروفالو». دخترها همیشه همونو انتخاب می‌کنن! همهٔ کلمه‌هاش را بلدن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Do they always choose it?",
+   "translations": {
+    "fa": "همیشه همونو انتخاب می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "weda",
+   "text": "And the big, hairy monster opened his mouth and said… ROAR!",
+   "translations": {
+    "fa": "و هیولای بزرگ و پشمالو دهنش را باز کرد و گفت… غرررش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hairy",
+     "fa": "پشمالو"
+    },
+    {
+     "word": "monster",
+     "fa": "هیولا"
+    },
+    {
+     "word": "mouth",
+     "fa": "دهان"
+    },
+    {
+     "word": "roar",
+     "fa": "غرش"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Weda reads very well!",
+   "translations": {
+    "fa": "ودا خیلی خوب می‌خونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "voices",
+      "read",
+      "lot",
+      "she"
+     ],
+     "suggestion": "She does the voices too. Do you read a lot, Mehdi?",
+     "suggestionFa": "صداها را هم درمیاره. تو زیاد کتاب می‌خونی {you}؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, I usually read at night.",
+   "translations": {
+    "fa": "آره، معمولاً شب‌ها می‌خونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children's",
+      "they're",
+      "library",
+      "borrows",
+      "english"
+     ],
+     "suggestion": "Try children's books! They're easy English. Weda borrows them from the library.",
+     "suggestionFa": "کتاب بچه‌ها را امتحان کن! انگلیسی آسونی دارن. ودا از کتابخونه قرض می‌گیرتشون.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That's a good idea.",
+   "translations": {
+    "fa": "فکر خوبیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "library",
+      "never",
+      "weda",
+      "just",
+      "pays"
+     ],
+     "suggestion": "Yes, it's free! You just need a library card. Weda never pays.",
+     "suggestionFa": "آره، مجانیه! فقط کارت کتابخونه لازمه. ودا هیچ‌وقت پول نمیده.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I never go to the library. I should!",
+   "translations": {
+    "fa": "من هیچ‌وقت کتابخونه نمیرم. باید برم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "weda",
+   "text": "Of course, dear! Come with me on Tuesday. Mr Bennett is very helpful. Now — the end!",
+   "translations": {
+    "fa": "البته عزیزم! سه‌شنبه با من بیا. آقای بنت خیلی کمک می‌کنه. حالا — پایان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "helpful",
+     "fa": "کمک‌کننده"
+    },
+    {
+     "word": "the end",
+     "fa": "پایان"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Again! Again!",
+   "translations": {
+    "fa": "دوباره! دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "nicola",
+      "again",
+      "sound",
+      "word"
+     ],
+     "suggestion": "Ha! Now you sound like Nicola. \"Again!\" is her favourite word. Weda, one more time?",
+     "suggestionFa": "ها! حالا مثل نیکولا حرف می‌زنی. «دوباره!» کلمهٔ محبوبشه. ودا، یه بار دیگه؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

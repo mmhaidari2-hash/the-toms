@@ -76,7 +76,7 @@
       "worried",
       "that's",
       "about",
-      "one"
+      "tom"
      ],
      "suggestion": "Yes, that's the one that Tom was worried about.",
      "suggestionFa": "آره، همونیه که تام نگرانش بود.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "person",
-      "tom's",
       "knows",
+      "tom's",
       "sure"
      ],
      "suggestion": "I'm not sure. Tom's the person who knows.",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "floor",
       "where",
+      "floor",
       "pipe",
       "wet"
      ],
@@ -181,8 +181,8 @@
     {
      "keywords": [
       "that's",
-      "great",
       "would",
+      "great",
       "like"
      ],
      "suggestion": "That's great. Would you like a cup of tea?",

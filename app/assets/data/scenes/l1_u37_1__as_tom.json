@@ -1,0 +1,225 @@
+{
+ "id": "l1_u37_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) It's raining again",
+ "titleFa": "(در نقش Tom) باز باران می‌بارد",
+ "setting": "Rainy day · Level 1",
+ "settingFa": "روز بارانی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u37_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raining",
+      "british",
+      "typical",
+      "summer",
+      "again"
+     ],
+     "suggestion": "Look at that! It's raining again. Third day this week! Typical British summer!",
+     "suggestionFa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Is it always like this?",
+   "translations": {
+    "fa": "همیشه همین‌طوره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "afternoon",
+      "sometimes",
+      "weather",
+      "always",
+      "what's"
+     ],
+     "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
+     "suggestionFa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "It's hot and dry in summer.",
+   "translations": {
+    "fa": "تابستون گرم و خشکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "check",
+      "going",
+      "lucky",
+      "phone",
+      "here"
+     ],
+     "suggestion": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
+     "suggestionFa": "گرم و خشک! خوش به حالت. اینجا خاکستری و خیسه. بند میاد؟ بذار با گوشیم ببینم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What does the forecast say?",
+   "translations": {
+    "fa": "پیش‌بینی چی میگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "showers",
+      "heavy",
+      "means",
+      "more",
+      "lots"
+     ],
+     "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
+     "suggestionFa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Showers? Like in the bathroom?",
+   "translations": {
+    "fa": "دوش؟ مثل حموم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "shower",
+      "steamy",
+      "gets",
+      "from"
+     ],
+     "suggestion": "Ha! Yes, a shower from the sky! I'm driving all day. The bus gets so wet and steamy.",
+     "suggestionFa": "ها! آره، دوش از آسمون! من کل روز رانندگی می‌کنم. اتوبوس خیلی خیس و بخار گرفته میشه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Drive carefully, Tom.",
+   "translations": {
+    "fa": "با احتیاط رانندگی کن تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "dripping",
+      "weather",
+      "british",
+      "that's"
+     ],
+     "suggestion": "Loads more! Everyone's dripping. And they all say \"Lovely weather!\" That's British humour.",
+     "suggestionFa": "خیلی بیشتر! همه آب ازشون می‌چکه. و همه میگن «چه هوای خوبی!» این شوخ‌طبعی بریتانیاییه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "\"Lovely weather!\" But it isn't!",
+   "translations": {
+    "fa": "«چه هوای خوبی!» ولی نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "leslie",
+      "comes",
+      "watch",
+      "face"
+     ],
+     "suggestion": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
+     "suggestionFa": "دقیقاً! امتحانش کن. وقتی لزلی اومد تو بهش بگو. صورتش را ببین!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "\"Lovely weather, Leslie!\"",
+   "translations": {
+    "fa": "«چه هوای خوبی لزلی!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "umbrella",
+      "perfect",
+      "british",
+      "where's",
+      "ryan's"
+     ],
+     "suggestion": "Perfect! You're more British every day. Right, I'm off. Where's my umbrella? Oh no, Ryan's got it again!",
+     "suggestionFa": "عالی! هر روز بریتانیایی‌تر میشی. خب، من رفتم. چترم کو؟ وای نه، باز رایان برداشته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "id": "l1_u21_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Bin day",
+ "titleFa": "(در نقش Tom) روز زباله",
+ "setting": "Days of the week · Level 1",
+ "settingFa": "روزهای هفته",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u21_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesday",
+      "seven",
+      "comes",
+      "lorry",
+      "help"
+     ],
+     "suggestion": "Oh no, it's Tuesday! It's bin day! The bin lorry comes at seven. Can you help me?",
+     "suggestionFa": "وای نه، سه‌شنبه‌ست! روز زباله‌ست! ماشین زباله ساعت هفت میاد. کمکم می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes. What do I do?",
+   "translations": {
+    "fa": "آره. چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "garden",
+      "black",
+      "green",
+      "next"
+     ],
+     "suggestion": "This week it's the black bin and the recycling. Next week, the green garden bin.",
+     "suggestionFa": "این هفته سطل مشکی و بازیافته. هفتهٔ بعد، سطل سبز باغچه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Every week is different?",
+   "translations": {
+    "fa": "هر هفته فرق داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "complicated",
+      "calendar",
+      "council",
+      "fridge",
+      "sends"
+     ],
+     "suggestion": "It's very complicated! The council sends a calendar. It's on the fridge.",
+     "suggestionFa": "خیلی پیچیده‌ست! شورا یه تقویم می‌فرسته. رو یخچاله.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Let me check the calendar.",
+   "translations": {
+    "fa": "بذار تقویم را ببینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "bottles",
+      "there",
+      "paper",
+      "take"
+     ],
+     "suggestion": "Can you take the recycling box? Bottles, tins and paper go in there.",
+     "suggestionFa": "می‌تونی جعبهٔ بازیافت را ببری؟ بطری‌ها، قوطی‌ها و کاغذها می‌رن اونجا.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What about this pizza box?",
+   "translations": {
+    "fa": "این جعبهٔ پیتزا چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strange",
+      "greasy",
+      "boxes",
+      "black",
+      "pizza"
+     ],
+     "suggestion": "Pizza box… it's greasy. Greasy boxes go in the black bin. Strange, but true!",
+     "suggestionFa": "جعبهٔ پیتزا… چربه. جعبه‌های چرب می‌رن تو سطل مشکی. عجیبه، ولی راسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I didn't know that!",
+   "translations": {
+    "fa": "نمی‌دونستم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "front",
+      "house",
+      "bins",
+      "road",
+      "take"
+     ],
+     "suggestion": "Take the bins to the front of the house. By the gate. Not in the road!",
+     "suggestionFa": "سطل‌ها را ببر جلوی خونه. کنار در حیاط. نه تو خیابون!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "By the gate. Got it.",
+   "translations": {
+    "fa": "کنار در. فهمیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "wheels",
+      "lorry",
+      "pull",
+      "look"
+     ],
+     "suggestion": "It's got wheels! Pull it. Look, there's the lorry! Just in time!",
+     "suggestionFa": "چرخ داره! بکشش. ببین، ماشین زباله اومد! درست به موقع!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Phew! Just in time!",
+   "translations": {
+    "fa": "وای! درست به موقع!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "thank",
+      "lads",
+      "hard",
+      "they"
+     ],
+     "suggestion": "Morning, lads! Say thank you to the bin men. They do a hard job.",
+     "suggestionFa": "صبح بخیر بچه‌ها! از رفتگرها تشکر کن. کار سختی می‌کنن.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you! Have a good day!",
+   "translations": {
+    "fa": "ممنون! روز خوبی داشته باشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "freezing",
+      "tuesday",
+      "inside",
+      "great",
+      "back"
+     ],
+     "suggestion": "Great job. Same time next Tuesday! Now, back inside. It's freezing!",
+     "suggestionFa": "کارت عالی بود. سه‌شنبهٔ بعد همین موقع! حالا، برگردیم تو. یخ‌بندونه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

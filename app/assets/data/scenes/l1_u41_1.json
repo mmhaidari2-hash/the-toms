@@ -1,0 +1,384 @@
+{
+ "id": "l1_u41_1",
+ "characterId": "leslie",
+ "title": "My name and address",
+ "titleFa": "نام و نشانی من",
+ "setting": "At the doctor's (basics) · Level 1",
+ "settingFa": "در مطب (پایه)",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "First, you need to register at the surgery. Here's the form. I'll help you.",
+   "translations": {
+    "fa": "اول باید تو مطب ثبت‌نام کنی. اینم فرم. کمکت می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surgery",
+      "what's",
+      "thank"
+     ],
+     "suggestion": "Thank you. What's a surgery?",
+     "suggestionFa": "ممنون. «سرجری» چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "first",
+      "ok"
+     ],
+     "suggestion": "OK. What do I write first?",
+     "suggestionFa": "باشه. اول چی بنویسم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "register",
+     "fa": "ثبت‌نام کردن"
+    },
+    {
+     "word": "surgery",
+     "fa": "مطب ؛ درمانگاه"
+    },
+    {
+     "word": "form",
+     "fa": "فرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, \"surgery\" also means a GP's practice — not only an operation!",
+    "fa": "surgery یعنی مطب هم هست."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "The GP's office. First, your full name. Surname in capital letters.",
+   "translations": {
+    "fa": "مطب دکتر عمومی. اول، اسم کاملت. نام خانوادگی با حروف بزرگ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's a surname?",
+     "suggestionFa": "سرنیم یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "long"
+     ],
+     "suggestion": "My surname is long!",
+     "suggestionFa": "نام خانوادگیم بلنده!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "full name",
+     "fa": "نام کامل"
+    },
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    },
+    {
+     "word": "capital letters",
+     "fa": "حروف بزرگ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Your family name. Then your address. You're at number ten, Mare Street.",
+   "translations": {
+    "fa": "اسم فامیلت. بعد آدرست. تو پلاک ده، خیابون مر هستی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "postcode",
+      "number",
+      "street",
+      "what's"
+     ],
+     "suggestion": "Number ten, Mare Street. What's the postcode?",
+     "suggestionFa": "پلاک ده، خیابون مر. کد پستی چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "house",
+      "write",
+      "flat"
+     ],
+     "suggestion": "Do I write \"Flat\" or \"House\"?",
+     "suggestionFa": "بنویسم «آپارتمان» یا «خونه»؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "address",
+     "fa": "نشانی"
+    },
+    {
+     "word": "number",
+     "fa": "شماره ؛ پلاک"
+    },
+    {
+     "word": "postcode",
+     "fa": "کد پستی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"postcode\", American \"zip code\". Every UK address has a postcode, like SW1A 1AA.",
+    "fa": "postcode/zip code."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "The postcode is the same as ours. I'll write it. Now, date of birth. Day, month, year.",
+   "translations": {
+    "fa": "کد پستی مثل مال ماست. من می‌نویسمش. حالا، تاریخ تولد. روز، ماه، سال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "month",
+      "then",
+      "day"
+     ],
+     "suggestion": "Day first, then month?",
+     "suggestionFa": "اول روز، بعد ماه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "calendar",
+      "iran",
+      "use"
+     ],
+     "suggestion": "In Iran we use a different calendar!",
+     "suggestionFa": "تو ایران تقویم دیگه‌ای داریم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "day",
+     "fa": "روز"
+    },
+    {
+     "word": "month",
+     "fa": "ماه"
+    },
+    {
+     "word": "year",
+     "fa": "سال"
+    },
+    {
+     "word": "calendar",
+     "fa": "تقویم"
+    }
+   ],
+   "cultureNote": {
+    "en": "The UK writes dates day/month/year (05/05/1996); the US writes month/day/year.",
+    "fa": "ترتیب تاریخ."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i borned in",
+      "my birth date are"
+     ],
+     "echo": "Your date of birth is…? Write the day first.",
+     "better": "My date of birth is the fifth of May.",
+     "betterFa": "تاریخ تولدم پنجم مه‌ست."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Use the normal calendar. Day first! Then your phone number and email.",
+   "translations": {
+    "fa": "از تقویم معمولی استفاده کن. اول روز! بعد شماره تلفن و ایمیلت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "starts",
+      "phone"
+     ],
+     "suggestion": "My phone number starts with 07.",
+     "suggestionFa": "شماره‌م با ۰۷ شروع میشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "email",
+      "need",
+      "they"
+     ],
+     "suggestion": "Do they need my email?",
+     "suggestionFa": "ایمیلم را لازم دارن؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "phone number",
+     "fa": "شماره تلفن"
+    },
+    {
+     "word": "email",
+     "fa": "ایمیل"
+    },
+    {
+     "word": "starts with",
+     "fa": "شروع می‌شود با"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "receptionist",
+   "text": "Yes, please. We send reminders by text and email. Do you have an NHS number?",
+   "translations": {
+    "fa": "بله، لطفاً. یادآوری‌ها را با پیامک و ایمیل می‌فرستیم. شماره NHS دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't"
+     ],
+     "suggestion": "No, I don't.",
+     "suggestionFa": "نه، ندارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "number",
+      "nhs"
+     ],
+     "suggestion": "What's an NHS number?",
+     "suggestionFa": "شماره NHS چیه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reminders",
+     "fa": "یادآوری‌ها"
+    },
+    {
+     "word": "NHS",
+     "fa": "خدمات ملی سلامت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "receptionist",
+   "text": "That's fine. We'll give you one. You don't need ID or proof of address to register.",
+   "translations": {
+    "fa": "اشکالی نداره. یکی بهتون میدیم. برای ثبت‌نام مدرک هویت یا نشانی لازم نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "that's",
+      "easy"
+     ],
+     "suggestion": "Really? That's easy.",
+     "suggestionFa": "واقعاً؟ آسونه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doctor",
+      "when",
+      "see",
+      "can"
+     ],
+     "suggestion": "When can I see a doctor?",
+     "suggestionFa": "کی می‌تونم دکتر را ببینم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ID",
+     "fa": "مدرک شناسایی"
+    },
+    {
+     "word": "proof of address",
+     "fa": "مدرک نشانی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Anyone in England can register with a GP for free — you don't need ID, an address proof or immigration status.",
+    "fa": "ثبت‌نام رایگان در GP."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "receptionist",
+   "text": "After two or three days. We'll text you. Welcome to the practice!",
+   "translations": {
+    "fa": "بعد از دو سه روز. براتون پیامک می‌فرستیم. به مطب خوش اومدید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

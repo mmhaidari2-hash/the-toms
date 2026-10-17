@@ -20,8 +20,8 @@
     {
      "keywords": [
       "agree",
-      "sure",
-      "legs"
+      "legs",
+      "sure"
      ],
      "suggestion": "I'm not sure my legs agree!",
      "suggestionFa": "مطمئن نیستم پاهام موافق باشن!",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "brutal",
-      "seven",
       "eight",
+      "seven",
       "ok"
      ],
      "suggestion": "OK… seven… eight… this is brutal!",
@@ -76,8 +76,8 @@
    "branches": [
     {
      "keywords": [
-      "barely",
       "remind",
+      "barely",
       "could",
       "don't"
      ],
@@ -91,8 +91,8 @@
      "keywords": [
       "difference",
       "mood",
-      "made",
-      "real"
+      "real",
+      "made"
      ],
      "suggestion": "It's made a real difference to my mood, too.",
      "suggestionFa": "رو حالم هم واقعاً تأثیر گذاشته.",
@@ -132,8 +132,8 @@
      "keywords": [
       "nights",
       "light",
-      "most",
-      "much"
+      "much",
+      "most"
      ],
      "suggestion": "Much better. I'm out like a light most nights.",
      "suggestionFa": "خیلی بهتر. بیشتر شب‌ها فوراً خوابم می‌بره.",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "although",
+      "phone",
       "check",
-      "still",
-      "phone"
+      "still"
      ],
      "suggestion": "Better, although I still check my phone too late.",
      "suggestionFa": "بهتر، هرچند هنوز تا دیروقت گوشیم را چک می‌کنم.",
@@ -182,8 +182,8 @@
      "keywords": [
       "kilometres",
       "train",
-      "long",
-      "give"
+      "give",
+      "long"
      ],
      "suggestion": "Ten kilometres? I'll give it a go, as long as you train me.",
      "suggestionFa": "ده کیلومتر؟ امتحانش می‌کنم، به شرطی که تو مربیم باشی.",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "charity",
+      "could",
       "money",
-      "maybe",
-      "raise"
+      "maybe"
      ],
      "suggestion": "Maybe. Could I raise money for charity at the same time?",
      "suggestionFa": "شاید. می‌تونم همزمان برای خیریه پول جمع کنم؟",

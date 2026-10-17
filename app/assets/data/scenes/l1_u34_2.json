@@ -1,0 +1,354 @@
+{
+ "id": "l1_u34_2",
+ "characterId": "tom",
+ "title": "Where's the bus stop?",
+ "titleFa": "ایستگاه اتوبوس کجاست؟",
+ "setting": "Simple directions · Level 1",
+ "settingFa": "آدرس‌دادن ساده",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "You're getting the bus to the Job Centre tomorrow? Do you know the stop?",
+   "translations": {
+    "fa": "فردا با اتوبوس میری مرکز کاریابی؟ ایستگاه را بلدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "stop",
+      "bus"
+     ],
+     "suggestion": "No. Where's the bus stop?",
+     "suggestionFa": "نه. ایستگاه اتوبوس کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shop",
+      "one",
+      "by"
+     ],
+     "suggestion": "Is it the one by the shop?",
+     "suggestionFa": "همونیه که کنار مغازه‌ست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bus stop",
+     "fa": "ایستگاه اتوبوس"
+    },
+    {
+     "word": "Job Centre",
+     "fa": "مرکز کاریابی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Not that one. That's for the 55. Your stop is opposite the church.",
+   "translations": {
+    "fa": "اون نه. اون مال ۵۵ـه. ایستگاه تو روبروی کلیساست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opposite",
+      "ok"
+     ],
+     "suggestion": "Opposite the church. OK.",
+     "suggestionFa": "روبروی کلیسا. باشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which"
+     ],
+     "suggestion": "Which church?",
+     "suggestionFa": "کدوم کلیسا؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "opposite",
+     "fa": "روبرو"
+    },
+    {
+     "word": "church",
+     "fa": "کلیسا"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "St John's. The big one with the clock. Behind it, there's a park.",
+   "translations": {
+    "fa": "سنت جان. بزرگه که ساعت داره. پشتش یه پارکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "church",
+      "behind",
+      "park",
+      "know"
+     ],
+     "suggestion": "I know it! Behind the church is the park.",
+     "suggestionFa": "بلدمش! پشت کلیسا پارکه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "from",
+      "far"
+     ],
+     "suggestion": "Is it far from here?",
+     "suggestionFa": "از اینجا دوره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "clock",
+     "fa": "ساعت"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the park is in behind church",
+      "the park behind of church"
+     ],
+     "echo": "Behind the church? Spot on.",
+     "better": "The park is behind the church.",
+     "betterFa": "پارک پشت کلیساست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Two minutes. Look for the stop letter. It's stop M.",
+   "translations": {
+    "fa": "دو دقیقه. دنبال حرف ایستگاه بگرد. ایستگاه M ـه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "letter",
+      "stop"
+     ],
+     "suggestion": "What's a stop letter?",
+     "suggestionFa": "حرف ایستگاه چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "that's",
+      "easy",
+      "m"
+     ],
+     "suggestion": "M. That's easy to remember.",
+     "suggestionFa": "M. یادم موندنش آسونه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "look for",
+     "fa": "دنبال گشتن"
+    },
+    {
+     "word": "letter",
+     "fa": "حرف"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many London bus stops have a letter on top, like \"M\", to help you find the right one.",
+    "fa": "ایستگاه‌های لندن حرف دارند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "There are lots of stops near each other. The letter helps. Which bus do you need?",
+   "translations": {
+    "fa": "کلی ایستگاه نزدیک هم هست. حرفه کمک می‌کنه. کدوم اتوبوس لازمته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bus"
+     ],
+     "suggestion": "The 38. Your bus!",
+     "suggestionFa": "۳۸. اتوبوس خودت!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "tell",
+      "know",
+      "can"
+     ],
+     "suggestion": "I don't know. Can you tell me?",
+     "suggestionFa": "نمی‌دونم. می‌شه بهم بگی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "near",
+     "fa": "نزدیک"
+    },
+    {
+     "word": "each other",
+     "fa": "همدیگر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "My bus! The 38. Get off at the Angel. Seven stops.",
+   "translations": {
+    "fa": "اتوبوس خودم! ۳۸. ایستگاه انجل پیاده شو. هفت ایستگاه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "stops",
+      "seven",
+      "will"
+     ],
+     "suggestion": "Seven stops. Will you be driving?",
+     "suggestionFa": "هفت ایستگاه. تو رانندگی می‌کنی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "when",
+      "know",
+      "get",
+      "how"
+     ],
+     "suggestion": "How do I know when to get off?",
+     "suggestionFa": "از کجا بفهمم کی پیاده شم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "seven",
+     "fa": "هفت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "There's a screen inside. It shows the next stop. And a voice says it.",
+   "translations": {
+    "fa": "داخلش یه صفحه هست. ایستگاه بعدی را نشون میده. یه صدا هم میگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "button",
+      "press",
+      "then",
+      "red"
+     ],
+     "suggestion": "Then I press the red button.",
+     "suggestionFa": "بعد دکمهٔ قرمز را فشار میدم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "helpful",
+      "that's"
+     ],
+     "suggestion": "That's helpful for me.",
+     "suggestionFa": "این برام کمکه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "screen",
+     "fa": "صفحه نمایش"
+    },
+    {
+     "word": "next",
+     "fa": "بعدی"
+    },
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "button",
+     "fa": "دکمه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Exactly! And I'm on the early shift tomorrow. If you see me, wave. I'll do my best announcer voice!",
+   "translations": {
+    "fa": "دقیقاً! و فردا شیفت صبحم. اگه منو دیدی دست تکون بده. بهترین صدای گوینده‌م را درمیارم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

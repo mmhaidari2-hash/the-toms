@@ -1,0 +1,293 @@
+{
+ "id": "l1_u26_4__as_tom",
+ "characterId": "leslie",
+ "title": "(As Tom) Walking home",
+ "titleFa": "(در نقش Tom) پیاده برگشتن به خانه",
+ "setting": "Out for a walk · Level 1",
+ "settingFa": "پیاده‌روی",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u26_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "leslie",
+   "text": "Home at last! My legs are tired. That was a long walk! Did you enjoy it?",
+   "translations": {
+    "fa": "بالاخره خونه! پاهام خسته‌ان. پیاده‌روی طولانی‌ای بود! خوش گذشت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at last",
+     "fa": "بالاخره"
+    },
+    {
+     "word": "legs",
+     "fa": "پاها"
+    },
+    {
+     "word": "tired",
+     "fa": "خسته"
+    },
+    {
+     "word": "enjoy",
+     "fa": "لذت بردن"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I loved it!",
+   "translations": {
+    "fa": "آره، عاشقش شدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "leslie",
+   "text": "Tom! We're back! Tom wants to know about our walk. What did we do?",
+   "translations": {
+    "fa": "تام! برگشتیم! تام می‌خواد دربارهٔ پیاده‌رویمون بدونه. چی کار کردیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "back",
+     "fa": "برگشته"
+    },
+    {
+     "word": "went",
+     "fa": "رفت"
+    },
+    {
+     "word": "canal",
+     "fa": "کانال"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "We went to the park.",
+   "translations": {
+    "fa": "رفتیم پارک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "canal",
+      "did",
+      "see"
+     ],
+     "suggestion": "The canal? Lovely. What did you see?",
+     "suggestionFa": "کانال؟ عالی. چی دیدید؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "We saw lots of boats.",
+   "translations": {
+    "fa": "کلی قایق دیدیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "narrowboats",
+      "people",
+      "nicola",
+      "always",
+      "wanted"
+     ],
+     "suggestion": "Narrowboats! People live on them. I always wanted one. Did Nicola behave?",
+     "suggestionFa": "قایق‌های باریک! مردم توشون زندگی می‌کنن. همیشه یکی می‌خواستم. نیکولا خوب رفتار کرد؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "She was very good.",
+   "translations": {
+    "fa": "خیلی خوب بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "typical",
+      "drink",
+      "stop",
+      "did",
+      "ha"
+     ],
+     "suggestion": "Ha! Typical. Did you stop for a drink?",
+     "suggestionFa": "ها! معمولی. برای نوشیدنی وایستادید؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, we had a coffee at the café.",
+   "translations": {
+    "fa": "آره، تو کافه یه قهوه خوردیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "leslie",
+   "text": "In October! Nicola wanted ice cream. It was freezing! How was your day, Tom?",
+   "translations": {
+    "fa": "تو اکتبر! نیکولا بستنی خواست. یخ‌بندون بود! روزت چطور بود تام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "freezing",
+     "fa": "یخ‌زده ؛ خیلی سرد"
+    },
+    {
+     "word": "day",
+     "fa": "روز"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, how was your day?",
+   "translations": {
+    "fa": "آره، روزت چطور بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "morning",
+      "potato",
+      "drove",
+      "quiet"
+     ],
+     "suggestion": "Quiet. I drove the 38 all morning. Then I made soup for everyone! Leek and potato.",
+     "suggestionFa": "آروم. کل صبح ۳۸ را روندم. بعد برای همه سوپ درست کردم! تره‌فرنگی و سیب‌زمینی.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Mmm! That smells good.",
+   "translations": {
+    "fa": "ممم! بوی خوبی میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "leslie",
+   "text": "Perfect! Boots off, coats on the hooks, and soup on the table. Thank you for a lovely walk!",
+   "translations": {
+    "fa": "عالی! چکمه‌ها درآورده، کت‌ها رو آویز، و سوپ رو میز. ممنون بابت یه پیاده‌روی قشنگ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

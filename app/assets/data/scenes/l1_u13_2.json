@@ -1,0 +1,407 @@
+{
+ "id": "l1_u13_2",
+ "characterId": "leslie",
+ "title": "The neighbour's cat",
+ "titleFa": "گربهٔ همسایه",
+ "setting": "Pets and animals · Level 1",
+ "settingFa": "حیوانات خانگی و حیوانات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "There's a cat in our hallway! It's orange with white paws. Is it yours?",
+   "translations": {
+    "fa": "یه گربه تو راهرومونه! نارنجیه با پنجه‌های سفید. مال توئه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "isn't"
+     ],
+     "suggestion": "No, it isn't my cat.",
+     "suggestionFa": "نه، گربهٔ من نیست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "got"
+     ],
+     "suggestion": "No. I haven't got a cat.",
+     "suggestionFa": "نه. من گربه ندارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hallway",
+     "fa": "راهرو"
+    },
+    {
+     "word": "orange",
+     "fa": "نارنجی"
+    },
+    {
+     "word": "paws",
+     "fa": "پنجه‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Maybe it's from next door. Let's look at the collar. What does it say?",
+   "translations": {
+    "fa": "شاید مال همسایه‌ست. بیا قلاده‌اش را ببینیم. چی نوشته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tiger",
+      "says"
+     ],
+     "suggestion": "It says \"Tiger\".",
+     "suggestionFa": "نوشته «تایگر».",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "number",
+      "name"
+     ],
+     "suggestion": "There's a name and a number.",
+     "suggestionFa": "یه اسم و یه شماره هست.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next door",
+     "fa": "همسایهٔ بغلی"
+    },
+    {
+     "word": "collar",
+     "fa": "قلاده"
+    },
+    {
+     "word": "number",
+     "fa": "شماره"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Tiger! That's Mrs Khan's cat. She lives at number fourteen.",
+   "translations": {
+    "fa": "تایگر! گربهٔ خانم خانه. پلاک چهارده زندگی می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "take",
+      "home",
+      "him"
+     ],
+     "suggestion": "Shall we take him home?",
+     "suggestionFa": "ببریمش خونه‌اش؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "call",
+      "can",
+      "her"
+     ],
+     "suggestion": "Can you call her?",
+     "suggestionFa": "می‌تونی بهش زنگ بزنی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lives",
+     "fa": "زندگی می‌کند"
+    },
+    {
+     "word": "fourteen",
+     "fa": "چهارده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "khan",
+   "text": "Hello, Leslie! Oh, Tiger! You naughty boy! I'm so sorry. Is he in your house again?",
+   "translations": {
+    "fa": "سلام لزلی! آه، تایگر! پسر شیطون! خیلی ببخشید. باز تو خونه‌تونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friendly",
+      "ok"
+     ],
+     "suggestion": "It's OK. He's very friendly.",
+     "suggestionFa": "اشکال نداره. خیلی مهربونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hallway"
+     ],
+     "suggestion": "Yes, he's in the hallway.",
+     "suggestionFa": "آره، تو راهروئه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "naughty",
+     "fa": "شیطان"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "friendly",
+     "fa": "مهربان"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "khan",
+   "text": "He loves your house. I think you give him food!",
+   "translations": {
+    "fa": "عاشق خونهٔ شماست. فکر کنم بهش غذا می‌دید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "don't",
+      "well",
+      "we"
+     ],
+     "suggestion": "No, we don't! Well… a little.",
+     "suggestionFa": "نه، نمی‌دیم! خب… یه کم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "gives",
+      "think",
+      "milk"
+     ],
+     "suggestion": "Nicola gives him milk, I think.",
+     "suggestionFa": "فکر کنم نیکولا بهش شیر می‌ده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a little",
+     "fa": "کمی"
+    },
+    {
+     "word": "milk",
+     "fa": "شیر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we not give food",
+      "we don't gives food"
+     ],
+     "echo": "You don't give him food? Ha ha!",
+     "better": "We don't give him food.",
+     "betterFa": "بهش غذا نمی‌دیم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "khan",
+   "text": "Milk isn't good for cats, you know. Have you got any pets?",
+   "translations": {
+    "fa": "شیر برای گربه‌ها خوب نیست، می‌دونی. حیوون خونگی دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "dog",
+      "i'd",
+      "but"
+     ],
+     "suggestion": "No, but I'd like a dog.",
+     "suggestionFa": "نه، ولی دلم یه سگ می‌خواد.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "iran",
+      "had",
+      "cat"
+     ],
+     "suggestion": "I had a cat in Iran.",
+     "suggestionFa": "تو ایران یه گربه داشتم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pets",
+     "fa": "حیوانات خانگی"
+    },
+    {
+     "word": "dog",
+     "fa": "سگ"
+    },
+    {
+     "word": "had",
+     "fa": "داشتم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Britain is a nation of pet lovers: about half of homes have a pet.",
+    "fa": "تقریباً نیمی از خانه‌ها حیوان خانگی دارند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "khan",
+   "text": "Lovely! What was its name?",
+   "translations": {
+    "fa": "چه خوب! اسمش چی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pishi",
+      "name",
+      "her"
+     ],
+     "suggestion": "Her name was Pishi.",
+     "suggestionFa": "اسمش پیشی بود.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "young",
+      "can't"
+     ],
+     "suggestion": "I can't remember. I was very young.",
+     "suggestionFa": "یادم نیست. خیلی کوچیک بودم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "name",
+     "fa": "اسم"
+    },
+    {
+     "word": "remember",
+     "fa": "به یاد آوردن"
+    },
+    {
+     "word": "young",
+     "fa": "جوان/کوچک"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "khan",
+   "text": "How sweet! Come on, Tiger. Home time. Thank you both. Come round for a cup of tea soon!",
+   "translations": {
+    "fa": "چه ناز! بیا تایگر. وقت خونه رفتنه. ممنون از هر دوتون. به زودی برای یه فنجون چای بیاید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "soon",
+      "khan",
+      "see"
+     ],
+     "suggestion": "Thank you, Mrs Khan. See you soon!",
+     "suggestionFa": "ممنون خانم خان. به زودی می‌بینمتون!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tiger",
+      "bye"
+     ],
+     "suggestion": "Bye, Tiger!",
+     "suggestionFa": "خداحافظ تایگر!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come round",
+     "fa": "سر زدن"
+    },
+    {
+     "word": "soon",
+     "fa": "به زودی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Mrs Khan makes amazing samosas. We must go for that cup of tea!",
+   "translations": {
+    "fa": "خانم خان سمبوسه‌های فوق‌العاده‌ای درست می‌کنه. حتماً باید برای اون فنجون چای بریم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

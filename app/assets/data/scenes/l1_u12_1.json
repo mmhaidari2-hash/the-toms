@@ -1,0 +1,425 @@
+{
+ "id": "l1_u12_1",
+ "characterId": "mia",
+ "title": "Painting with Mia",
+ "titleFa": "نقاشی با میا",
+ "setting": "Colours and shapes · Level 1",
+ "settingFa": "رنگ‌ها و شکل‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "mia",
+   "text": "Hello! I'm painting a house. Do you want to paint too?",
+   "translations": {
+    "fa": "سلام! دارم یه خونه نقاشی می‌کنم. تو هم می‌خوای نقاشی کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "paint"
+     ],
+     "suggestion": "Yes, please! What can I paint?",
+     "suggestionFa": "آره، لطفاً! چی نقاشی کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brush",
+      "have"
+     ],
+     "suggestion": "Yes! Can I have a brush?",
+     "suggestionFa": "آره! می‌شه یه قلم‌مو داشته باشم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "painting",
+     "fa": "نقاشی کردن"
+    },
+    {
+     "word": "house",
+     "fa": "خانه"
+    },
+    {
+     "word": "brush",
+     "fa": "قلم‌مو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "mia",
+   "text": "Here's a brush. Paint the sun! What colour is the sun?",
+   "translations": {
+    "fa": "بیا این قلم‌مو. خورشید را بکش! خورشید چه رنگیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sun"
+     ],
+     "suggestion": "The sun is yellow.",
+     "suggestionFa": "خورشید زرده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think"
+     ],
+     "suggestion": "It's yellow, I think.",
+     "suggestionFa": "فکر کنم زرده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sun",
+     "fa": "خورشید"
+    },
+    {
+     "word": "yellow",
+     "fa": "زرد"
+    },
+    {
+     "word": "colour",
+     "fa": "رنگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "British English writes \"colour\"; American English writes \"color\".",
+    "fa": "بریتانیایی colour، آمریکایی color."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "mia",
+   "text": "Yes! Yellow. Now the door. My door is red. What colour is your door?",
+   "translations": {
+    "fa": "آره! زرد. حالا در. در من قرمزه. در تو چه رنگیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "blue"
+     ],
+     "suggestion": "My door is blue.",
+     "suggestionFa": "در من آبیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "green"
+     ],
+     "suggestion": "My door is green.",
+     "suggestionFa": "در من سبزه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "door",
+     "fa": "در"
+    },
+    {
+     "word": "red",
+     "fa": "قرمز"
+    },
+    {
+     "word": "blue",
+     "fa": "آبی"
+    },
+    {
+     "word": "green",
+     "fa": "سبز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "my door blue",
+      "door is a blue"
+     ],
+     "echo": "Your door is blue? Lovely!",
+     "better": "My door is blue.",
+     "betterFa": "در من آبیه."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "mia",
+   "text": "Oh no! I've got red paint on my hands!",
+   "translations": {
+    "fa": "وای نه! رنگ قرمز روی دستامه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "worry",
+      "don't",
+      "let's",
+      "them"
+     ],
+     "suggestion": "Don't worry. Let's wash them.",
+     "suggestionFa": "نگران نباش. بیا بشوریمشون.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hands",
+      "red",
+      "ha"
+     ],
+     "suggestion": "Ha ha! Your hands are red!",
+     "suggestionFa": "ها ها! دستات قرمزه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paint",
+     "fa": "رنگ"
+    },
+    {
+     "word": "hands",
+     "fa": "دست‌ها"
+    },
+    {
+     "word": "wash",
+     "fa": "شستن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "mia",
+   "text": "Now we need a tree. Trees are green and brown. Can you paint the tree?",
+   "translations": {
+    "fa": "حالا یه درخت لازم داریم. درخت‌ها سبز و قهوه‌ای‌ان. می‌تونی درخت را بکشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "paint",
+      "brown",
+      "can"
+     ],
+     "suggestion": "Yes, I can. Where's the brown paint?",
+     "suggestionFa": "آره، می‌تونم. رنگ قهوه‌ای کجاست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "tree",
+      "big",
+      "ok"
+     ],
+     "suggestion": "OK. A big tree or a small tree?",
+     "suggestionFa": "باشه. درخت بزرگ یا کوچیک؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tree",
+     "fa": "درخت"
+    },
+    {
+     "word": "brown",
+     "fa": "قهوه‌ای"
+    },
+    {
+     "word": "big",
+     "fa": "بزرگ"
+    },
+    {
+     "word": "small",
+     "fa": "کوچک"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "mia",
+   "text": "A big tree! Next to the house. That's lovely!",
+   "translations": {
+    "fa": "یه درخت بزرگ! کنار خونه. چه قشنگه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "thank",
+      "next"
+     ],
+     "suggestion": "Thank you! What's next?",
+     "suggestionFa": "ممنون! بعدش چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "paint",
+      "can",
+      "cat",
+      "we"
+     ],
+     "suggestion": "Can we paint a cat?",
+     "suggestionFa": "می‌شه یه گربه بکشیم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next to",
+     "fa": "کنار"
+    },
+    {
+     "word": "lovely",
+     "fa": "قشنگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Lovely\" is a very common British word for \"nice\" or \"great\".",
+    "fa": "lovely در بریتانیا خیلی رایج است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "mia",
+   "text": "A cat! My cat is black and white. His name is Biscuit.",
+   "translations": {
+    "fa": "یه گربه! گربهٔ من سیاه و سفیده. اسمش بیسکویته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "funny",
+      "name"
+     ],
+     "suggestion": "Biscuit! That's a funny name.",
+     "suggestionFa": "بیسکویت! اسم بامزه‌ایه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "paint",
+      "cats",
+      "like"
+     ],
+     "suggestion": "I like cats. Let's paint Biscuit.",
+     "suggestionFa": "من گربه دوست دارم. بیا بیسکویت را بکشیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "black",
+     "fa": "سیاه"
+    },
+    {
+     "word": "white",
+     "fa": "سفید"
+    },
+    {
+     "word": "funny",
+     "fa": "بامزه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "mia",
+   "text": "Look! The sky is blue, the sun is yellow, and Biscuit is in the garden.",
+   "translations": {
+    "fa": "ببین! آسمون آبیه، خورشید زرده، و بیسکویت تو باغه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "picture"
+     ],
+     "suggestion": "It's a beautiful picture!",
+     "suggestionFa": "عکس خیلی قشنگیه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fridge",
+      "put",
+      "can",
+      "we"
+     ],
+     "suggestion": "Can we put it on the fridge?",
+     "suggestionFa": "می‌شه بذاریمش روی یخچال؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sky",
+     "fa": "آسمان"
+    },
+    {
+     "word": "garden",
+     "fa": "باغ"
+    },
+    {
+     "word": "picture",
+     "fa": "تصویر"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "mia",
+   "text": "Yes! Mummy puts all my pictures on the fridge. Thank you for painting with me!",
+   "translations": {
+    "fa": "آره! مامان همهٔ نقاشی‌هامو روی یخچال می‌ذاره. ممنون که باهام نقاشی کردی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

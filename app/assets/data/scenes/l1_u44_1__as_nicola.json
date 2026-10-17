@@ -1,0 +1,222 @@
+{
+ "id": "l1_u44_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Coins and notes",
+ "titleFa": "(در نقش Nicola) سکه‌ها و اسکناس‌ها",
+ "setting": "Numbers and money · Level 1",
+ "settingFa": "عددها و پول",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u44_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "piggy",
+      "money",
+      "broke",
+      "count",
+      "look"
+     ],
+     "suggestion": "Look! I broke my piggy bank! Can you help me count my money?",
+     "suggestionFa": "ببین! قلکم را شکستم! کمکم می‌کنی پولم را بشمرم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course! Let's count.",
+   "translations": {
+    "fa": "البته! بیا بشمریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "little",
+      "brown",
+      "one"
+     ],
+     "suggestion": "What's this little brown one?",
+     "suggestionFa": "این کوچیکهٔ قهوه‌ای چیه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That's a penny. One p.",
+   "translations": {
+    "fa": "اون یه پنیه. یک پی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "silver",
+      "seven",
+      "sides",
+      "one",
+      "big"
+     ],
+     "suggestion": "And this big silver one? It has seven sides!",
+     "suggestionFa": "و این بزرگه نقره‌ای؟ هفت تا ضلع داره!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "That's fifty p.",
+   "translations": {
+    "fa": "اون پنجاه پیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seven",
+      "gold",
+      "one"
+     ],
+     "suggestion": "Seven! And the gold one?",
+     "suggestionFa": "هفت تا! و طلاییه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "That's a pound. A one-pound coin.",
+   "translations": {
+    "fa": "اون یه پونده. سکهٔ یک پوندی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "purple",
+      "i've",
+      "gave",
+      "note",
+      "nana"
+     ],
+     "suggestion": "I've got a note too! Nana gave me it. It's purple. Is it a lot?",
+     "suggestionFa": "یه اسکناس هم دارم! نانا بهم داد. بنفشه. زیاده؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "That's a twenty-pound note!",
+   "translations": {
+    "fa": "اون اسکناس بیست پوندیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pennies",
+      "pounds",
+      "let's",
+      "there",
+      "piles"
+     ],
+     "suggestion": "Rich! OK, let's put them in piles. Pennies here, pounds there.",
+     "suggestionFa": "پولدار! باشه، بیا دسته‌شون کنیم. پنی‌ها اینجا، پوندها اونجا.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ten pennies make ten p.",
+   "translations": {
+    "fa": "ده تا پنی میشه ده پی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "altogether",
+      "hundred",
+      "pounds",
+      "much",
+      "how"
+     ],
+     "suggestion": "So how much is it altogether? Is it a hundred pounds?",
+     "suggestionFa": "پس جمعاً چقدره؟ صد پونده؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "No, it's twenty-six pounds fifty.",
+   "translations": {
+    "fa": "نه، بیست و شش پوند و پنجاه پی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unicorn",
+      "twenty",
+      "pounds",
+      "fifty",
+      "pony"
+     ],
+     "suggestion": "Twenty-six pounds fifty! I can buy a unicorn! Or two! Or a pony!",
+     "suggestionFa": "بیست و شش پوند و پنجاه! می‌تونم یه تک‌شاخ بخرم! یا دو تا! یا یه اسب کوچولو!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

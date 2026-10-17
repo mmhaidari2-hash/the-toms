@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "spelling",
       "homework",
+      "spelling",
       "mummy's",
       "words",
-      "help"
+      "i've"
      ],
      "suggestion": "I've got spelling homework. Ten words! Can you help me? Mummy's busy.",
      "suggestionFa": "تکلیف املا دارم. ده تا کلمه! کمکم می‌کنی؟ مامان سرش شلوغه.",
@@ -48,9 +48,9 @@
      "keywords": [
       "because",
       "hard",
-      "b",
-      "c",
-      "s"
+      "e",
+      "o",
+      "c"
      ],
      "suggestion": "\"Because.\" It's so hard. B-E-C-O-S?",
      "suggestionFa": "«Because». خیلی سخته. بی-ای-سی-او-اس؟",
@@ -75,7 +75,7 @@
       "elephants",
       "always",
       "small",
-      "says"
+      "miss"
      ],
      "suggestion": "Miss Hart says: Big Elephants Can Always Understand Small Elephants!",
      "suggestionFa": "خانم هارت می‌گه: فیل‌های بزرگ همیشه فیل‌های کوچیک را می‌فهمن!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "before",
+      "friend",
       "next",
       "word",
       "e"
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "fingers",
-      "friend",
       "what's",
+      "friend",
       "seven",
       "maths"
      ],
@@ -150,7 +150,7 @@
       "because",
       "twelve",
       "eleven",
-      "write"
+      "eight"
      ],
      "suggestion": "Eight, nine, ten, eleven, twelve! Twelve! Now I have to write a sentence with \"because\".",
      "suggestionFa": "هشت، نه، ده، یازده، دوازده! دوازده! حالا باید یه جمله با «because» بنویسم.",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "homework",
-      "watch",
-      "mummy",
       "telly",
-      "done"
+      "mummy",
+      "watch",
+      "look"
      ],
      "suggestion": "Full stop! Done! Mummy, look! I did all my homework! Can I watch telly now?",
      "suggestionFa": "نقطه! تموم! مامان، ببین! همهٔ تکالیفم را انجام دادم! حالا می‌تونم تلویزیون ببینم؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "homework",
-      "helper",
       "better",
+      "helper",
       "don't",
-      "done"
+      "tell"
      ],
      "suggestion": "Done! You're the best homework helper ever. Even better than Ryan. Don't tell him!",
      "suggestionFa": "تموم! تو بهترین کمک‌کار تکلیف دنیایی. حتی بهتر از رایان. بهش نگو!",

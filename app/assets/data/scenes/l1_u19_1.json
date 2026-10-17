@@ -1,0 +1,410 @@
+{
+ "id": "l1_u19_1",
+ "characterId": "ryan",
+ "title": "Ryan's posters",
+ "titleFa": "پوسترهای رایان",
+ "setting": "My bedroom · Level 1",
+ "settingFa": "اتاق خوابم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Come in! Welcome to my room. Sorry, it's a bit messy. Do you like my posters?",
+   "translations": {
+    "fa": "بیا تو! به اتاقم خوش اومدی. ببخشید، یه کم به‌هم‌ریخته‌ست. پوسترهام را دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "who's"
+     ],
+     "suggestion": "Yes! Who's that?",
+     "suggestionFa": "آره! اون کیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "cool"
+     ],
+     "suggestion": "They're cool!",
+     "suggestionFa": "باحالن!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "posters",
+     "fa": "پوسترها"
+    },
+    {
+     "word": "messy",
+     "fa": "نامرتب"
+    },
+    {
+     "word": "cool",
+     "fa": "باحال"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "That's Bukayo Saka. He's a footballer. He plays for Arsenal. Do you like football?",
+   "translations": {
+    "fa": "اون بوکایو ساکاست. فوتبالیسته. برای آرسنال بازی می‌کنه. فوتبال دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "love"
+     ],
+     "suggestion": "Yes, I love football.",
+     "suggestionFa": "آره، عاشق فوتبالم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "basketball",
+      "really",
+      "like"
+     ],
+     "suggestion": "Not really. I like basketball.",
+     "suggestionFa": "نه چندان. بسکتبال دوست دارم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "footballer",
+     "fa": "فوتبالیست"
+    },
+    {
+     "word": "plays for",
+     "fa": "بازی می‌کند برای"
+    },
+    {
+     "word": "football",
+     "fa": "فوتبال"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"football\" is American \"soccer\". American \"football\" is a different sport.",
+    "fa": "football/soccer."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Basketball's cool too. That one's my favourite band. They're from Manchester.",
+   "translations": {
+    "fa": "بسکتبال هم باحاله. اون یکی گروه مورد علاقه‌مه. اهل منچسترن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "music",
+      "kind"
+     ],
+     "suggestion": "What kind of music is it?",
+     "suggestionFa": "چه نوع موسیقی‌ایه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "good",
+      "they",
+      "them"
+     ],
+     "suggestion": "I don't know them. Are they good?",
+     "suggestionFa": "نمی‌شناسمشون. خوبن؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "band",
+     "fa": "گروه موسیقی"
+    },
+    {
+     "word": "music",
+     "fa": "موسیقی"
+    },
+    {
+     "word": "kind",
+     "fa": "نوع"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Indie rock. They're brilliant. I saw them live last summer!",
+   "translations": {
+    "fa": "ایندی راک. فوق‌العاده‌ان. تابستون پارسال اجرای زنده‌شون را دیدم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lucky"
+     ],
+     "suggestion": "Lucky you!",
+     "suggestionFa": "خوش به حالت!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "concert",
+      "was",
+      "big"
+     ],
+     "suggestion": "Was it a big concert?",
+     "suggestionFa": "کنسرت بزرگی بود؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "live",
+     "fa": "زنده"
+    },
+    {
+     "word": "last summer",
+     "fa": "تابستان گذشته"
+    },
+    {
+     "word": "concert",
+     "fa": "کنسرت"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Massive! Who's your favourite singer?",
+   "translations": {
+    "fa": "خیلی بزرگ! خوانندهٔ مورد علاقه‌ات کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "adele",
+      "like"
+     ],
+     "suggestion": "I like Adele.",
+     "suggestionFa": "من ادل دوست دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "favourite",
+      "persian",
+      "singer",
+      "don't"
+     ],
+     "suggestion": "My favourite singer is Persian. You don't know him.",
+     "suggestionFa": "خوانندهٔ مورد علاقه‌ام ایرانیه. نمی‌شناسیش.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "massive",
+     "fa": "خیلی بزرگ"
+    },
+    {
+     "word": "singer",
+     "fa": "خواننده"
+    }
+   ],
+   "cultureNote": {
+    "en": "Adele is from Tottenham, in north London, not far from Hackney.",
+    "fa": "ادل اهل تاتنهام لندن است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "my favourite singer adele",
+      "adele is favourite me"
+     ],
+     "echo": "Adele is your favourite? Good choice!",
+     "better": "My favourite singer is Adele.",
+     "betterFa": "خوانندهٔ مورد علاقه‌ام ادله."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Play me a song later! What's that on my desk? Oh, my old games console.",
+   "translations": {
+    "fa": "بعداً یه آهنگ برام بذار! اون رو میزم چیه؟ آه، کنسول بازی قدیمیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "still",
+      "work"
+     ],
+     "suggestion": "Does it still work?",
+     "suggestionFa": "هنوز کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "game",
+      "play",
+      "can",
+      "we"
+     ],
+     "suggestion": "Can we play a game?",
+     "suggestionFa": "می‌تونیم یه بازی کنیم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "desk",
+     "fa": "میز تحریر"
+    },
+    {
+     "word": "games console",
+     "fa": "کنسول بازی"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    },
+    {
+     "word": "work",
+     "fa": "کار کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "It works, but it's ancient. Look at my bed — it's under all my clothes!",
+   "translations": {
+    "fa": "کار می‌کنه، ولی خیلی قدیمیه. تختم را ببین — زیر همهٔ لباس‌هامه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "can't",
+      "see",
+      "bed"
+     ],
+     "suggestion": "Where's the bed? I can't see it!",
+     "suggestionFa": "تخت کجاست؟ نمی‌بینمش!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "won't",
+      "happy",
+      "mum"
+     ],
+     "suggestion": "Your mum won't be happy!",
+     "suggestionFa": "مامانت خوشحال نمی‌شه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ancient",
+     "fa": "خیلی قدیمی"
+    },
+    {
+     "word": "clothes",
+     "fa": "لباس‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Ha! She says my room is a \"pigsty\". That means a home for pigs. Is your room tidy?",
+   "translations": {
+    "fa": "ها! می‌گه اتاقم «خوکدونیه». یعنی خونهٔ خوک‌ها. اتاق تو مرتبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tidy",
+      "room"
+     ],
+     "suggestion": "Yes, my room is very tidy.",
+     "suggestionFa": "آره، اتاقم خیلی مرتبه.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always"
+     ],
+     "suggestion": "Not always!",
+     "suggestionFa": "نه همیشه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pigsty",
+     "fa": "خوکدانی"
+    },
+    {
+     "word": "tidy",
+     "fa": "مرتب"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Good. Then you can tidy mine! Just joking. Come on, let's go and get some crisps.",
+   "translations": {
+    "fa": "خوبه. پس می‌تونی مال منو مرتب کنی! شوخی کردم. بیا، بریم یه کم چیپس بگیریم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

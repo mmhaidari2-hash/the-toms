@@ -1,0 +1,403 @@
+{
+ "id": "l1_u30_2",
+ "characterId": "ryan",
+ "title": "Washing up",
+ "titleFa": "شستن ظرف‌ها",
+ "setting": "Helping at home · Level 1",
+ "settingFa": "کمک در خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Ugh. Mum says it's my turn to wash up. There are so many pans!",
+   "translations": {
+    "fa": "اوف. مامان میگه نوبت منه ظرف بشورم. این همه قابلمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "can"
+     ],
+     "suggestion": "I can help you.",
+     "suggestionFa": "می‌تونم کمکت کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "whose",
+      "turn"
+     ],
+     "suggestion": "Whose turn is it tomorrow?",
+     "suggestionFa": "فردا نوبت کیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turn",
+     "fa": "نوبت"
+    },
+    {
+     "word": "wash up",
+     "fa": "ظرف شستن"
+    },
+    {
+     "word": "pans",
+     "fa": "قابلمه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"wash up\" / \"do the washing-up\" = American \"do the dishes\".",
+    "fa": "washing-up/dishes."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Cheers, mate. Tomorrow it's Dad's turn. Do you want to wash or dry?",
+   "translations": {
+    "fa": "دمت گرم رفیق. فردا نوبت باباست. می‌خوای بشوری یا خشک کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wash"
+     ],
+     "suggestion": "I'll wash. You dry.",
+     "suggestionFa": "من می‌شورم. تو خشک کن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "plates"
+     ],
+     "suggestion": "I'll dry the plates.",
+     "suggestionFa": "من بشقاب‌ها را خشک می‌کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wash",
+     "fa": "شستن"
+    },
+    {
+     "word": "dry",
+     "fa": "خشک کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Great. Here's the tea towel. The plates go in that cupboard.",
+   "translations": {
+    "fa": "عالی. اینم حوله آشپزخانه. بشقاب‌ها تو اون کابینت میرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "towel",
+      "tea"
+     ],
+     "suggestion": "What's a tea towel?",
+     "suggestionFa": "حولهٔ چای یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "plate",
+      "first",
+      "pass",
+      "ok"
+     ],
+     "suggestion": "OK. Pass me the first plate.",
+     "suggestionFa": "باشه. اولین بشقاب را بده.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tea towel",
+     "fa": "حوله آشپزخانه"
+    },
+    {
+     "word": "pass",
+     "fa": "دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"tea towel\" is a cloth for drying dishes; Americans say \"dish towel\".",
+    "fa": "tea towel/dish towel."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "It's just this cloth. Why don't we use the dishwasher? Because it's broken. Again!",
+   "translations": {
+    "fa": "فقط همین پارچه‌ست. چرا از ماشین ظرفشویی استفاده نمی‌کنیم؟ چون خرابه. دوباره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "repair",
+      "coming",
+      "when",
+      "man"
+     ],
+     "suggestion": "When is the repair man coming?",
+     "suggestionFa": "تعمیرکار کی میاد؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "washing",
+      "fine",
+      "hand",
+      "by"
+     ],
+     "suggestion": "Washing by hand is fine.",
+     "suggestionFa": "با دست شستن هم خوبه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dishwasher",
+     "fa": "ماشین ظرفشویی"
+    },
+    {
+     "word": "broken",
+     "fa": "خراب"
+    },
+    {
+     "word": "by hand",
+     "fa": "با دست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Next week, Mum says. Can you pass the washing-up liquid? It's by the sink.",
+   "translations": {
+    "fa": "مامان میگه هفتهٔ بعد. می‌تونی مایع ظرفشویی را بدی؟ کنار سینکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Here you are.",
+     "suggestionFa": "بفرما.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bottle",
+      "green"
+     ],
+     "suggestion": "This green bottle?",
+     "suggestionFa": "این بطری سبز؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "washing-up liquid",
+     "fa": "مایع ظرفشویی"
+    },
+    {
+     "word": "sink",
+     "fa": "سینک"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Yep, that one. Ugh, this pan is so dirty. Dad burnt the beans again!",
+   "translations": {
+    "fa": "آره، همون. اوف، این قابلمه خیلی کثیفه. بابا دوباره لوبیاها را سوزوند!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leave",
+      "soak"
+     ],
+     "suggestion": "Leave it to soak.",
+     "suggestionFa": "بذارش خیس بخوره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scrubber",
+      "use"
+     ],
+     "suggestion": "Use the scrubber on it.",
+     "suggestionFa": "با اسکاچ بشورش.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dirty",
+     "fa": "کثیف"
+    },
+    {
+     "word": "burnt",
+     "fa": "سوزاند"
+    },
+    {
+     "word": "soak",
+     "fa": "خیس خوردن"
+    },
+    {
+     "word": "scrubber",
+     "fa": "اسکاچ"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "let it soaking",
+      "leave it for soak"
+     ],
+     "echo": "Leave it to soak? Good idea.",
+     "better": "Leave it to soak.",
+     "betterFa": "بذار خیس بخوره."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Good shout. I'll leave it in hot water till morning. Dad's problem now! Ha!",
+   "translations": {
+    "fa": "فکر خوبیه. تا صبح تو آب داغ می‌ذارمش. حالا مشکل باباست! ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "poor",
+      "tom",
+      "ha"
+     ],
+     "suggestion": "Ha! Poor Tom.",
+     "suggestionFa": "ها! تام بیچاره.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "naughty",
+      "that's",
+      "ryan",
+      "bit"
+     ],
+     "suggestion": "That's a bit naughty, Ryan.",
+     "suggestionFa": "یه کم شیطونیه رایان.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good shout",
+     "fa": "فکر خوب (عامیانه)"
+    },
+    {
+     "word": "poor",
+     "fa": "بیچاره"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Done! That was quick with two of us. Thanks, {you}. I owe you one.",
+   "translations": {
+    "fa": "تموم شد! با دو نفر سریع بود. ممنون {you}. یکی طلبت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "any"
+     ],
+     "suggestion": "No problem. Any time.",
+     "suggestionFa": "مشکلی نیست. هر وقت.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "next",
+      "can"
+     ],
+     "suggestion": "You can help me next time!",
+     "suggestionFa": "دفعهٔ بعد تو کمکم کن!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quick",
+     "fa": "سریع"
+    },
+    {
+     "word": "I owe you one",
+     "fa": "یکی طلبت"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Deal. Fancy a game of FIFA now? I'll go easy on you. Maybe.",
+   "translations": {
+    "fa": "قبول. حالا یه دست فیفا پایه‌ای؟ باهات راه میام. شاید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

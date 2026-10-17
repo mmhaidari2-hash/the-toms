@@ -22,7 +22,7 @@
       "permission",
       "account",
       "without",
-      "money"
+      "taken"
      ],
      "suggestion": "I think money was taken from my account without my permission.",
      "suggestionFa": "فکر کنم بدون اجازه‌ام از حسابم پول برداشته شده.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "charged",
-      "thing",
       "twice",
+      "thing",
       "same"
      ],
      "suggestion": "I was charged twice for the same thing.",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "online",
       "ninety",
+      "online",
       "pounds",
       "never"
      ],
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "website",
-      "last",
       "week",
-      "used"
+      "used",
+      "last"
      ],
      "suggestion": "No, but I used it on a website last week.",
      "suggestionFa": "نه، ولی هفتهٔ پیش رو یه سایت ازش استفاده کردم.",
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "relief",
+      "that's",
       "given",
       "card"
      ],
@@ -201,7 +201,7 @@
       "happening",
       "again",
       "stop",
-      "can"
+      "how"
      ],
      "suggestion": "How can I stop this happening again?",
      "suggestionFa": "چطوری جلوی تکرارش را بگیرم؟",

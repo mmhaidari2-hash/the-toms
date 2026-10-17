@@ -1,0 +1,391 @@
+{
+ "id": "l1_u32_4",
+ "characterId": "tom",
+ "title": "That's enough",
+ "titleFa": "همین کافیه",
+ "setting": "Sizes and amounts · Level 1",
+ "settingFa": "اندازه‌ها و مقدارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need?",
+   "translations": {
+    "fa": "خب! باربیکیو شنبه. بیست نفر! سوسیس می‌خرم. چند تا لازم داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sausages",
+      "forty",
+      "each",
+      "two"
+     ],
+     "suggestion": "Two each? Forty sausages.",
+     "suggestionFa": "نفری دو تا؟ چهل تا سوسیس.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "people",
+      "lot"
+     ],
+     "suggestion": "Twenty people is a lot!",
+     "suggestionFa": "بیست نفر زیاده!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "barbecue",
+     "fa": "کباب‌پز ؛ باربیکیو"
+    },
+    {
+     "word": "sausages",
+     "fa": "سوسیس‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British barbecues often feature sausages and burgers — and a lot of hoping it won't rain!",
+    "fa": "باربیکیو و امید به نباریدن باران."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "butcher",
+   "text": "Forty sausages? Tom, you'll have too many. Not everyone eats two.",
+   "translations": {
+    "fa": "چهل تا سوسیس؟ تام، زیادی میشه. همه دو تا نمی‌خورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirty",
+      "enough",
+      "then"
+     ],
+     "suggestion": "Thirty is enough, then.",
+     "suggestionFa": "پس سی تا کافیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "five",
+      "ryan",
+      "eats"
+     ],
+     "suggestion": "Ryan eats five!",
+     "suggestionFa": "رایان پنج تا می‌خوره!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too many",
+     "fa": "بیش از حد (قابل شمارش)"
+    },
+    {
+     "word": "everyone",
+     "fa": "همه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Ha! True. OK, thirty-five. And burgers. Is ten enough?",
+   "translations": {
+    "fa": "ها! راسته. باشه، سی و پنج. و برگر. ده تا کافیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enough",
+      "isn't"
+     ],
+     "suggestion": "No, ten isn't enough.",
+     "suggestionFa": "نه، ده تا کافی نیست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fine"
+     ],
+     "suggestion": "Ten is fine.",
+     "suggestionFa": "ده تا خوبه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "burgers",
+     "fa": "همبرگرها"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "ten is not enough burger",
+      "is no enough"
+     ],
+     "echo": "Not enough? Fair point.",
+     "better": "Ten isn't enough.",
+     "betterFa": "ده تا کافی نیست."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Fifteen burgers, then. And chicken wings for Weda. She loves them.",
+   "translations": {
+    "fa": "پس پونزده تا برگر. و بال مرغ برای ودا. عاشقشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sausages"
+     ],
+     "suggestion": "Are the sausages pork?",
+     "suggestionFa": "سوسیس‌ها خوکن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "eat",
+      "tom"
+     ],
+     "suggestion": "I don't eat pork, Tom.",
+     "suggestionFa": "من گوشت خوک نمی‌خورم تام.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pork",
+     "fa": "گوشت خوک"
+    },
+    {
+     "word": "wings",
+     "fa": "بال‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "butcher",
+   "text": "Most are pork, but I've got chicken and lamb ones. Halal too.",
+   "translations": {
+    "fa": "بیشترشون خوکن، ولی مرغی و برّه‌ای هم دارم. حلال هم هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "lamb",
+      "ten"
+     ],
+     "suggestion": "Ten lamb ones, please.",
+     "suggestionFa": "ده تا برّه‌ای، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chicken",
+      "weda"
+     ],
+     "suggestion": "Chicken ones for me and Weda.",
+     "suggestionFa": "مرغی برای من و ودا.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lamb",
+     "fa": "گوشت برّه"
+    },
+    {
+     "word": "most",
+     "fa": "بیشترشان"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Good thinking. Plus marinated kebabs for the grown-ups. Is that too much meat?",
+   "translations": {
+    "fa": "فکر خوبیه. به علاوه کباب مزه‌دار برای بزرگ‌ترها. گوشت زیادی نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "much",
+      "meat"
+     ],
+     "suggestion": "Yes, that's too much meat!",
+     "suggestionFa": "آره، گوشت زیادیه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "vegetables",
+      "some",
+      "get"
+     ],
+     "suggestion": "Get some vegetables too.",
+     "suggestionFa": "یه کم سبزیجات هم بگیر.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "marinated",
+     "fa": "مزه‌دار شده ؛ خوابانده"
+    },
+    {
+     "word": "meat",
+     "fa": "گوشت"
+    },
+    {
+     "word": "too much",
+     "fa": "بیش از حد (غیرقابل شمارش)"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob.",
+   "translations": {
+    "fa": "سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "corn",
+      "good"
+     ],
+     "suggestion": "Corn is good.",
+     "suggestionFa": "ذرت خوبه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "peppers",
+      "skewers"
+     ],
+     "suggestion": "And peppers for skewers?",
+     "suggestionFa": "و فلفل دلمه برای سیخ؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "corn on the cob",
+     "fa": "بلال"
+    },
+    {
+     "word": "peppers",
+     "fa": "فلفل دلمه‌ای"
+    },
+    {
+     "word": "skewers",
+     "fa": "سیخ‌ها"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "butcher",
+   "text": "Peppers I haven't got, Tom. This is a butcher's! Try the greengrocer next door.",
+   "translations": {
+    "fa": "فلفل ندارم تام. اینجا قصابیه! سبزی‌فروشی بغل را امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "ha"
+     ],
+     "suggestion": "Ha! Of course.",
+     "suggestionFa": "ها! معلومه.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shopping",
+      "enough",
+      "that's",
+      "today"
+     ],
+     "suggestion": "That's enough shopping for today!",
+     "suggestionFa": "برای امروز خرید بسه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "butcher's",
+     "fa": "قصابی"
+    },
+    {
+     "word": "greengrocer",
+     "fa": "سبزی‌فروش"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me.",
+   "translations": {
+    "fa": "این گوشت برای سیر کردن کل هکنی بسه! پنجاه و دو پوند… آخ. لزلی منو می‌کشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
