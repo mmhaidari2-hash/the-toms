@@ -23,9 +23,9 @@
      "keywords": [
       "office",
       "parcel",
-      "right",
       "let's",
-      "post"
+      "right",
+      "need"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
      "suggestionFa": "خب، بیا امتحانت کنیم! باید یه بسته پست کنی. چطوری راه اداره پست را می‌پرسی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "straight",
-      "traffic",
       "perfect",
-      "bakery",
-      "lights"
+      "traffic",
+      "lights",
+      "bakery"
      ],
      "suggestion": "Perfect. And I say: go straight on, past the bakery, then turn left at the traffic lights.",
      "suggestionFa": "عالیه. و من می‌گم: مستقیم برو، از نونوایی رد شو، بعد سر چراغ راهنمایی بپیچ چپ.",
@@ -74,8 +74,8 @@
       "opposite",
       "chemist",
       "church",
-      "right",
-      "can't"
+      "can't",
+      "right"
      ],
      "suggestion": "Good! It's on the right, opposite the church, next to the chemist. You can't miss it.",
      "suggestionFa": "خوبه! سمت راسته، روبروی کلیسا، کنار داروخونه. نمی‌شه نبینیش.",
@@ -98,9 +98,9 @@
      "keywords": [
       "brits",
       "means",
-      "when",
-      "miss",
-      "easy"
+      "easy",
+      "even",
+      "miss"
      ],
      "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
      "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "station",
-      "where's",
-      "tourist",
       "minutes",
+      "tourist",
+      "where's",
+      "station",
       "about"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
@@ -149,8 +149,8 @@
       "brilliant",
       "round",
       "sorry",
-      "just",
-      "from"
+      "from",
+      "just"
      ],
      "suggestion": "Brilliant! And if you're not sure, just say \"Sorry, I'm not from round here.\"",
      "suggestionFa": "عالی! و اگه مطمئن نیستی، فقط بگو «ببخشید، من اهل اینجا نیستم.»",

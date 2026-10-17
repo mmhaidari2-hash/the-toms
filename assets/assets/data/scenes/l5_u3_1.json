@@ -1,0 +1,251 @@
+{
+ "id": "l5_u3_1",
+ "characterId": "baker",
+ "title": "Northern expressions",
+ "titleFa": "اصطلاحات شمالی",
+ "setting": "Regional voices · Level 5",
+ "settingFa": "صداهای محلی",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "baker",
+   "text": "Now then! What can I get thee? We've got nowt left but a couple of barm cakes, I'm afraid. Busy morning.",
+   "translations": {
+    "fa": "سلام! چی بهت بدم؟ متأسفانه جز دو تا نون بارم هیچی نمونده. صبح شلوغی بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "means",
+      "right",
+      "cakes"
+     ],
+     "suggestion": "\"Nowt\" means \"nothing\", right? I'll take the barm cakes.",
+     "suggestionFa": "«نوت» یعنی «هیچی»، درسته؟ نون‌های بارم را برمی‌دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shakespeare",
+      "haven't",
+      "since",
+      "heard"
+     ],
+     "suggestion": "Thee? I haven't heard that since my Shakespeare class!",
+     "suggestionFa": "«تی»؟ از کلاس شکسپیر تا حالا نشنیده بودم!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "now then",
+     "fa": "سلام (شمالی)"
+    },
+    {
+     "word": "thee",
+     "fa": "تو (گویشی)"
+    },
+    {
+     "word": "nowt",
+     "fa": "هیچ"
+    },
+    {
+     "word": "barm cake",
+     "fa": "نان گرد نرم شمالی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Northern England, \"nowt\" = nothing, \"owt\" = anything, \"summat\" = something. \"Barm cake\" is a Lancashire bread roll.",
+    "fa": "nowt یعنی هیچ، owt یعنی هر چیز."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "baker",
+   "text": "Ha! My grandad still says \"thee\" and \"thou\". Proper old Lancashire, that. Is there owt else you're after?",
+   "translations": {
+    "fa": "ها! پدربزرگم هنوز «تی» و «داو» می‌گه. لنکشایری اصیل. چیز دیگه‌ای هم می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summat",
+      "maybe",
+      "sweet",
+      "our"
+     ],
+     "suggestion": "Summat sweet for our kid, maybe?",
+     "suggestionFa": "شاید یه چیز شیرین برای داداشم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eccles",
+      "cakes",
+      "have",
+      "left"
+     ],
+     "suggestion": "Have you got any Eccles cakes left?",
+     "suggestionFa": "کیک اکلز مونده؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "owt",
+     "fa": "هر چیز"
+    },
+    {
+     "word": "after",
+     "fa": "دنبال"
+    },
+    {
+     "word": "summat",
+     "fa": "یک چیزی"
+    },
+    {
+     "word": "our kid",
+     "fa": "برادر/خواهر (گویشی)"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Our kid\" is a Mancunian expression for your brother or sister — or a close mate.",
+    "fa": "our kid یعنی برادر یا خواهر."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "baker",
+   "text": "\"Our kid\"! Listen to you, talking like a proper Manc. Two Eccles cakes left — I'll throw them in for nowt. Call it a reward for the effort.",
+   "translations": {
+    "fa": "«اور کید»! به خودت گوش کن، مثل یه منچستری واقعی حرف می‌زنی. دو تا کیک اکلز مونده — مجانی می‌ذارم برات. اسمش را بذار جایزهٔ زحمتت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "kind",
+      "much",
+      "dead"
+     ],
+     "suggestion": "Ta very much! That's dead kind of you.",
+     "suggestionFa": "خیلی مرسی! خیلی لطف داری.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheers",
+      "you've",
+      "love",
+      "made"
+     ],
+     "suggestion": "Cheers, love. You've made my day.",
+     "suggestionFa": "ممنون عزیزم. روزم را ساختی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "throw in",
+     "fa": "اضافه کردن مجانی"
+    },
+    {
+     "word": "reward",
+     "fa": "جایزه"
+    },
+    {
+     "word": "ta",
+     "fa": "مرسی"
+    },
+    {
+     "word": "dead kind",
+     "fa": "خیلی مهربان"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Ta\" is informal British for \"thank you\". In the north, \"dead\" is often used to mean \"very\": \"dead nice\", \"dead good\".",
+    "fa": "ta یعنی مرسی؛ dead یعنی خیلی."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "baker",
+   "text": "\"Dead kind\" — you've been here too long! Here's another one: if someone says they're \"mither-ing\", they're nagging or bothering you.",
+   "translations": {
+    "fa": "«دد کایند» — زیادی اینجا موندی! یکی دیگه: اگه کسی بگه داره «مایدر» می‌کنه، یعنی داره غر می‌زنه یا اذیتت می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mithering",
+      "leslie",
+      "phone",
+      "ryan"
+     ],
+     "suggestion": "Like Ryan mithering Leslie for a new phone?",
+     "suggestionFa": "مثل وقتی رایان برای گوشی جدید لزلی را اذیت می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "notebook",
+      "northern",
+      "whole",
+      "words"
+     ],
+     "suggestion": "I'll add it to my list. I've got a whole notebook of northern words.",
+     "suggestionFa": "به لیستم اضافه‌اش می‌کنم. یه دفترچه پر از کلمات شمالی دارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mithering",
+     "fa": "غر زدن/اذیت کردن"
+    },
+    {
+     "word": "nagging",
+     "fa": "نق زدن"
+    },
+    {
+     "word": "bothering",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "notebook",
+     "fa": "دفترچه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "baker",
+   "text": "Exactly like that! Right, off you go. Mind how you go — it's a bit parky out there. That means cold, before you ask.",
+   "translations": {
+    "fa": "دقیقاً همین! خب، برو. مراقب باش — یه کم «پارکی»ـه بیرون. یعنی سرد، قبل از اینکه بپرسی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

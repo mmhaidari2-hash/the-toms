@@ -74,8 +74,8 @@
     {
      "keywords": [
       "spoons",
-      "well",
       "done",
+      "well",
       "ten"
      ],
      "suggestion": "Ten spoons. Well done!",
@@ -224,10 +224,10 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "let's",
-      "ask",
-      "mum"
+      "first",
+      "mum",
+      "ask"
      ],
      "suggestion": "Let's ask your mum first.",
      "suggestionFa": "بیا اول از مامانت بپرسیم.",
@@ -238,7 +238,7 @@
     {
      "keywords": [
       "shall",
-      "make",
+      "good",
       "many",
       "idea"
      ],

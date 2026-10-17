@@ -1,0 +1,239 @@
+{
+ "id": "l5_u10_1",
+ "characterId": "bennett",
+ "title": "The citizenship ceremony",
+ "titleFa": "مراسم شهروندی",
+ "setting": "Home · Level 5",
+ "settingFa": "خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "I wouldn't have missed this for the world. Your citizenship ceremony! How are you feeling? Nervous?",
+   "translations": {
+    "fa": "به هیچ قیمتی این را از دست نمی‌دادم. مراسم شهروندیتون! چه حسی دارید؟ استرس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "emotional",
+      "nervous",
+      "excited",
+      "once"
+     ],
+     "suggestion": "Nervous, excited, emotional — all at once.",
+     "suggestionFa": "استرس، هیجان، احساساتی — همه با هم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "honestly",
+      "doesn't",
+      "feel",
+      "real"
+     ],
+     "suggestion": "Honestly, it doesn't feel real yet.",
+     "suggestionFa": "راستش هنوز واقعی به نظر نمیاد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wouldn't have missed it for the world",
+     "fa": "به هیچ قیمتی از دست نمی‌دادم"
+    },
+    {
+     "word": "citizenship ceremony",
+     "fa": "مراسم شهروندی"
+    },
+    {
+     "word": "emotional",
+     "fa": "احساساتی"
+    }
+   ],
+   "cultureNote": {
+    "en": "New British citizens attend a ceremony where they make an oath or affirmation of allegiance and a pledge to respect the UK's rights and freedoms.",
+    "fa": "شهروندان جدید در مراسمی سوگند یاد می‌کنند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "It's perfectly natural. Do you remember the day you first walked into my library, asking for a \"book about the English\"?",
+   "translations": {
+    "fa": "کاملاً طبیعیه. یادتون میاد اولین روزی که وارد کتابخونه‌ام شدید و یه «کتاب دربارهٔ انگلیسی‌ها» خواستید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rehearsed",
+      "terrified",
+      "remember",
+      "sentence"
+     ],
+     "suggestion": "I remember being terrified to speak. I'd rehearsed that sentence for an hour.",
+     "suggestionFa": "یادمه از حرف زدن وحشت داشتم. یه ساعت اون جمله را تمرین کرده بودم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understood",
+      "tudors",
+      "words",
+      "about"
+     ],
+     "suggestion": "You gave me a book about the Tudors, and I understood about three words.",
+     "suggestionFa": "یه کتاب دربارهٔ تودورها بهم دادید، و حدود سه کلمه‌اش را فهمیدم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "terrified",
+     "fa": "وحشت‌زده"
+    },
+    {
+     "word": "rehearsed",
+     "fa": "تمرین کرده بود"
+    },
+    {
+     "word": "the Tudors",
+     "fa": "خاندان تودور"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bennett",
+   "text": "Ha! I did, didn't I? Not my finest recommendation. And now you're co-authoring council reports and mentoring others.",
+   "translations": {
+    "fa": "ها! آره، نه؟ بهترین پیشنهادم نبود. و حالا دارید گزارش‌های شورا را هم‌نویسی می‌کنید و دیگران را راهنمایی می‌کنید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "possible",
+      "without",
+      "people",
+      "would"
+     ],
+     "suggestion": "None of it would have been possible without people like you.",
+     "suggestionFa": "هیچ کدومش بدون آدم‌هایی مثل شما ممکن نبود.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "worth",
+      "every",
+      "step",
+      "road"
+     ],
+     "suggestion": "It's been a long road, but every step was worth it.",
+     "suggestionFa": "راه طولانی‌ای بوده، ولی هر قدمش ارزشش را داشت.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finest",
+     "fa": "بهترین"
+    },
+    {
+     "word": "co-authoring",
+     "fa": "هم‌نویسی"
+    },
+    {
+     "word": "mentoring",
+     "fa": "راهنمایی کردن"
+    },
+    {
+     "word": "worth it",
+     "fa": "ارزشش را داشت"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bennett",
+   "text": "You're too kind. But the effort was yours. When you say the pledge today, which part will mean the most to you?",
+   "translations": {
+    "fa": "خیلی لطف دارید. ولی تلاش مال خودتون بود. وقتی امروز سوگند را می‌گید، کدوم قسمتش براتون از همه معنادارتره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "especially",
+      "freedoms",
+      "kingdom",
+      "freedom"
+     ],
+     "suggestion": "\"I will give my loyalty to the United Kingdom and respect its rights and freedoms.\" Freedom, especially.",
+     "suggestionFa": "«به بریتانیا وفادار خواهم بود و به حقوق و آزادی‌هایش احترام خواهم گذاشت.» مخصوصاً آزادی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "officially",
+      "belonging",
+      "something",
+      "outsider"
+     ],
+     "suggestion": "Being part of something — belonging officially, after feeling like an outsider for so long.",
+     "suggestionFa": "بخشی از چیزی بودن — رسماً تعلق داشتن، بعد از اینکه این همه مدت حس غریبه بودن داشتم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pledge",
+     "fa": "سوگند/تعهد"
+    },
+    {
+     "word": "loyalty",
+     "fa": "وفاداری"
+    },
+    {
+     "word": "rights and freedoms",
+     "fa": "حقوق و آزادی‌ها"
+    },
+    {
+     "word": "officially",
+     "fa": "رسماً"
+    },
+    {
+     "word": "outsider",
+     "fa": "غریبه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Then say it with your whole heart. And afterwards, there's tea and cake at the Toms'. Leslie's made a Victoria sponge the size of a small car. I'm told that's a family expression.",
+   "translations": {
+    "fa": "پس با تمام وجود بگیدش. و بعدش، خونهٔ تامزها چای و کیکه. لزلی یه کیک ویکتوریا اندازهٔ یه ماشین کوچیک درست کرده. شنیدم این یه اصطلاح خانوادگیه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

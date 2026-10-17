@@ -1,0 +1,225 @@
+{
+ "id": "l5_u5_1",
+ "characterId": "okafor",
+ "title": "Breaking difficult news",
+ "titleFa": "دادن خبر سخت",
+ "setting": "Difficult conversations · Level 5",
+ "settingFa": "گفتگوهای دشوار",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "Thank you for coming in with William. I wanted to talk to you both about his test results. Please, take a seat.",
+   "translations": {
+    "fa": "ممنون که با ویلیام اومدید. می‌خواستم با هر دوتون دربارهٔ نتایج آزمایشش صحبت کنم. لطفاً بنشینید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "course",
+      "right",
+      "all"
+     ],
+     "suggestion": "Of course. Is everything all right?",
+     "suggestionFa": "حتماً. همه چیز خوبه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "couldn't",
+      "leslie",
+      "said",
+      "here"
+     ],
+     "suggestion": "Leslie couldn't come, so I said I'd be here for him.",
+     "suggestionFa": "لزلی نتونست بیاد، پس گفتم کنارش باشم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "test results",
+     "fa": "نتایج آزمایش"
+    },
+    {
+     "word": "take a seat",
+     "fa": "بنشینید"
+    },
+    {
+     "word": "be here for him",
+     "fa": "کنارش بودن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "okafor",
+   "text": "I'm afraid the scans show his heart isn't pumping as strongly as it should. It's called heart failure. I know that sounds frightening.",
+   "translations": {
+    "fa": "متأسفانه اسکن‌ها نشون می‌ده قلبش به اندازهٔ کافی قوی پمپاژ نمی‌کنه. بهش می‌گن نارسایی قلبی. می‌دونم ترسناک به نظر میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "frightening",
+      "practice",
+      "sound",
+      "mean"
+     ],
+     "suggestion": "That does sound frightening. What does it mean in practice?",
+     "suggestionFa": "واقعاً ترسناکه. در عمل یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "treated",
+      "can"
+     ],
+     "suggestion": "Is it something that can be treated?",
+     "suggestionFa": "چیزیه که قابل درمان باشه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scans",
+     "fa": "اسکن‌ها"
+    },
+    {
+     "word": "pumping",
+     "fa": "پمپاژ کردن"
+    },
+    {
+     "word": "heart failure",
+     "fa": "نارسایی قلبی"
+    },
+    {
+     "word": "frightening",
+     "fa": "ترسناک"
+    },
+    {
+     "word": "in practice",
+     "fa": "در عمل"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "Despite the name, it doesn't mean the heart has stopped. With the right medication, many people live well for years. I know this is a lot to take in.",
+   "translations": {
+    "fa": "با وجود اسمش، به این معنی نیست که قلب ایستاده. با داروی درست، خیلی‌ها سال‌ها خوب زندگی می‌کنن. می‌دونم هضمش سخته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "explaining",
+      "clearly",
+      "thank"
+     ],
+     "suggestion": "It is. Thank you for explaining it so clearly.",
+     "suggestionFa": "آره. ممنون که این‌قدر واضح توضیح دادید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "questions",
+      "william",
+      "have",
+      "any"
+     ],
+     "suggestion": "William, are you OK? Do you have any questions?",
+     "suggestionFa": "ویلیام، خوبید؟ سؤالی دارید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "despite",
+     "fa": "با وجود"
+    },
+    {
+     "word": "medication",
+     "fa": "دارو"
+    },
+    {
+     "word": "take in",
+     "fa": "هضم کردن/درک کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Can I still walk?",
+   "translations": {
+    "fa": "هنوز می‌تونم راه برم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "matters",
+      "that's",
+      "walks",
+      "most"
+     ],
+     "suggestion": "That's what matters most to him — his walks to the park.",
+     "suggestionFa": "این برای اون از همه مهم‌تره — پیاده‌روی‌هاش تا پارک.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "independence",
+      "keep",
+      "able",
+      "will"
+     ],
+     "suggestion": "Will he be able to keep his independence?",
+     "suggestionFa": "می‌تونه استقلالش را حفظ کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "matters",
+     "fa": "مهم است"
+    },
+    {
+     "word": "independence",
+     "fa": "استقلال"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "Absolutely — gentle exercise is actually good for you, William. We'll refer you to a heart failure nurse, and I'll write everything down. Take it one day at a time.",
+   "translations": {
+    "fa": "قطعاً — ورزش ملایم در واقع براتون خوبه، ویلیام. شما را به یه پرستار نارسایی قلبی ارجاع می‌دیم، و همه چیز را می‌نویسم. یه روز در میون پیش برید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

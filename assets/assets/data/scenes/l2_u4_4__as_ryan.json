@@ -25,7 +25,7 @@
       "ordered",
       "coffee",
       "wrong",
-      "mate"
+      "hate"
      ],
      "suggestion": "Mate, this is wrong. I ordered a hot chocolate and this is a coffee. I hate coffee!",
      "suggestionFa": "رفیق، این اشتباهه. من شکلات داغ سفارش دادم و این قهوه‌ست. از قهوه متنفرم!",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "complain",
-      "brits",
       "never",
-      "just",
+      "brits",
+      "moan",
       "fine"
      ],
      "suggestion": "OK, you do it. Brits never complain — we just say \"it's fine\" and then moan at home!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

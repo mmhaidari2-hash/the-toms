@@ -22,8 +22,8 @@
     {
      "keywords": [
       "doing",
-      "home",
       "love",
+      "home",
       "hi"
      ],
      "suggestion": "Hi love, it's me. Are you at home? What are you doing?",
@@ -47,8 +47,8 @@
      "keywords": [
       "homework",
       "lovely",
-      "check",
       "doing",
+      "check",
       "ryan"
      ],
      "suggestion": "Lovely. Is Ryan doing his homework? Can you check?",
@@ -70,11 +70,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "what's",
+      "nicola",
       "doing",
-      "tell",
-      "knew"
+      "knew",
+      "tell"
      ],
      "suggestion": "I knew it! Tell him to turn it off. What's Nicola doing?",
      "suggestionFa": "می‌دونستم! بهش بگو خاموشش کنه. نیکولا چی کار می‌کنه؟",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "goodness",
       "sleeping",
+      "goodness",
       "waiting",
       "usual",
       "thank"
@@ -145,8 +145,8 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "minutes",
+      "getting",
       "twenty",
       "please",
       "love"

@@ -1,0 +1,235 @@
+{
+ "id": "l5_u1_2",
+ "characterId": "dave",
+ "title": "Irony at the pub",
+ "titleFa": "کنایه در پاب",
+ "setting": "Reading between the lines · Level 5",
+ "settingFa": "خواندن بین خطوط",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dave",
+   "text": "Oh, marvellous. Absolutely marvellous. The match has been postponed because of a waterlogged pitch. In Manchester. Who could have predicted rain?",
+   "translations": {
+    "fa": "اوه، عالیه. واقعاً عالیه. مسابقه به خاطر خیس بودن زمین عقب افتاد. تو منچستر. کی می‌تونست بارون را پیش‌بینی کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thrilled",
+      "actually",
+      "take",
+      "dave"
+     ],
+     "suggestion": "I take it you're not actually thrilled, Dave?",
+     "suggestionFa": "فکر کنم واقعاً خوشحال نیستی، دیو؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "manchester",
+      "happened",
+      "before",
+      "never"
+     ],
+     "suggestion": "What a shock. Rain in Manchester. Never happened before.",
+     "suggestionFa": "چه شوکی. بارون تو منچستر. سابقه نداشته.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "marvellous",
+     "fa": "عالی (اینجا با طعنه)"
+    },
+    {
+     "word": "postponed",
+     "fa": "به تعویق افتاد"
+    },
+    {
+     "word": "waterlogged",
+     "fa": "آب‌گرفته"
+    },
+    {
+     "word": "pitch",
+     "fa": "زمین بازی"
+    },
+    {
+     "word": "predicted",
+     "fa": "پیش‌بینی کرد"
+    }
+   ],
+   "cultureNote": {
+    "en": "British sarcasm is often delivered deadpan — with a straight face — so the listener has to spot the irony.",
+    "fa": "طعنهٔ بریتانیایی اغلب با چهرهٔ جدی گفته می‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dave",
+   "text": "Ha! Look at you, getting the sarcasm. Two years ago you'd have said \"Oh, I'm sorry to hear that!\"",
+   "translations": {
+    "fa": "ها! نگات کن، طعنه را می‌گیری. دو سال پیش می‌گفتی «آه، متأسفم که اینو می‌شنوم!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lessons",
+      "taking",
+      "best",
+      "from"
+     ],
+     "suggestion": "I've been taking lessons from the best.",
+     "suggestionFa": "از بهترین‌ها درس گرفتم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "practice",
+      "weather",
+      "plenty",
+      "well"
+     ],
+     "suggestion": "Well, I've had plenty of practice with this weather.",
+     "suggestionFa": "خب، با این هوا کلی تمرین داشتم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "getting the sarcasm",
+     "fa": "فهمیدن طعنه"
+    },
+    {
+     "word": "plenty of practice",
+     "fa": "تمرین زیاد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dave",
+   "text": "Too right. Mind you, sarcasm can backfire. My brother-in-law's from Texas. I told him our new stadium was \"a modest little thing\". He believed me!",
+   "translations": {
+    "fa": "دقیقاً. البته، طعنه می‌تونه نتیجهٔ برعکس بده. برادرزنم اهل تگزاسه. بهش گفتم ورزشگاه جدیدمون «یه چیز کوچیک و ساده‌ست». باور کرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "translate",
+      "cultures",
+      "doesn't",
+      "because"
+     ],
+     "suggestion": "Because irony doesn't always translate across cultures.",
+     "suggestionFa": "چون کنایه همیشه بین فرهنگ‌ها ترجمه نمیشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thousand",
+      "seventy",
+      "seats",
+      "then"
+     ],
+     "suggestion": "Ha! And then he saw seventy thousand seats?",
+     "suggestionFa": "ها! و بعد هفتاد هزار صندلی را دید؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "backfire",
+     "fa": "نتیجهٔ معکوس دادن"
+    },
+    {
+     "word": "brother-in-law",
+     "fa": "برادرزن/شوهرخواهر"
+    },
+    {
+     "word": "modest",
+     "fa": "ساده/کوچک"
+    },
+    {
+     "word": "translate",
+     "fa": "منتقل شدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dave",
+   "text": "Spot on. He said, \"Modest? It's enormous!\" and I said, \"Yes, Gary, that's the joke.\" Took him a week. Anyway — another round? Lovely weather for it.",
+   "translations": {
+    "fa": "دقیقاً. گفت «ساده؟ این که غول‌پیکره!» و من گفتم «آره گری، شوخیش همینه.» یه هفته طول کشید. به هر حال — یه دور دیگه؟ هوای عالی‌ایه براش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anywhere",
+      "clearly",
+      "we're",
+      "since"
+     ],
+     "suggestion": "Go on then. Since we're clearly not going anywhere.",
+     "suggestionFa": "باشه. چون معلومه جایی نمی‌ریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weather",
+      "lovely",
+      "maybe",
+      "ducks"
+     ],
+     "suggestion": "Lovely weather for ducks, maybe.",
+     "suggestionFa": "شاید برای اردک‌ها هوای عالیه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "another round",
+     "fa": "یک دور دیگر نوشیدنی"
+    },
+    {
+     "word": "clearly",
+     "fa": "معلوم است"
+    },
+    {
+     "word": "lovely weather for ducks",
+     "fa": "هوای بارانی (اصطلاح)"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dave",
+   "text": "\"Lovely weather for ducks\" — you're practically a local now. I'm putting you down as an honorary Mancunian.",
+   "translations": {
+    "fa": "«هوای عالی برای اردک‌ها» — دیگه عملاً محلی شدی. اسمت را به عنوان منچستری افتخاری می‌نویسم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

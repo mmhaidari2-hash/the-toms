@@ -22,7 +22,7 @@
       "scientists",
       "published",
       "where",
-      "know"
+      "want"
      ],
      "suggestion": "I'd want to know which scientists and where it was published.",
      "suggestionFa": "می‌خوام بدونم کدوم دانشمندان و کجا منتشر شده.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
-      "true",
+      "good",
       "flag",
-      "good"
+      "true"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -83,8 +83,8 @@
      "keywords": [
       "sample",
       "biased",
-      "tiny",
-      "size"
+      "size",
+      "tiny"
      ],
      "suggestion": "So it's biased and the sample size is tiny.",
      "suggestionFa": "پس مغرضانه‌ست و اندازهٔ نمونه خیلی کوچیکه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "just",
-      "clip"
+      "look",
+      "just"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -158,8 +158,8 @@
      "keywords": [
       "reliable",
       "reported",
-      "outlets",
-      "whether"
+      "whether",
+      "outlets"
      ],
      "suggestion": "Check whether reliable news outlets have reported it.",
      "suggestionFa": "چک می‌کنم رسانه‌های معتبر گزارشش کردن یا نه.",
@@ -206,8 +206,8 @@
     {
      "keywords": [
       "getting",
-      "harder",
       "what's",
+      "harder",
       "tell"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "pause",
       "share",
+      "pause",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

@@ -1,0 +1,211 @@
+{
+ "id": "l5_u10_3",
+ "characterId": "william",
+ "title": "William's blessing",
+ "titleFa": "دعای خیر ویلیام",
+ "setting": "Home · Level 5",
+ "settingFa": "خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Dad's been wanting to give you something. He's been practising what to say all week, haven't you, Dad?",
+   "translations": {
+    "fa": "بابا می‌خواسته یه چیزی بهت بده. کل هفته داشته تمرین می‌کرده چی بگه، مگه نه بابا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "william",
+      "didn't",
+      "have"
+     ],
+     "suggestion": "William, you didn't have to do anything.",
+     "suggestionFa": "ویلیام، لازم نبود کاری بکنید.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "touched"
+     ],
+     "suggestion": "I'm touched. What is it?",
+     "suggestionFa": "تحت تأثیر قرار گرفتم. چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "practising",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "touched",
+     "fa": "تحت تأثیر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "Bobby's luggage tag. For you.",
+   "translations": {
+    "fa": "برچسب چمدون بابی. برای تو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "possession",
+      "treasured",
+      "william",
+      "accept"
+     ],
+     "suggestion": "William, I can't accept this. It's your most treasured possession.",
+     "suggestionFa": "ویلیام، نمی‌تونم قبولش کنم. باارزش‌ترین دارایی‌تونه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "means",
+      "don't",
+      "know",
+      "much"
+     ],
+     "suggestion": "I don't know what to say. This means so much.",
+     "suggestionFa": "نمی‌دونم چی بگم. خیلی ارزش داره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "luggage tag",
+     "fa": "برچسب چمدان"
+    },
+    {
+     "word": "treasured possession",
+     "fa": "دارایی ارزشمند"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "He wants you to have it. He said you're the only one who really listened to the story. And that you're one of us now.",
+   "translations": {
+    "fa": "می‌خواد مال تو باشه. گفت تو تنها کسی هستی که واقعاً به قصه گوش دادی. و اینکه الان یکی از مایی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "treasure",
+      "forever",
+      "william",
+      "thank"
+     ],
+     "suggestion": "I'll treasure it forever. Thank you, William.",
+     "suggestionFa": "تا ابد مثل گنج نگهش می‌دارم. ممنون ویلیام.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "right",
+      "felt",
+      "home"
+     ],
+     "suggestion": "I've never felt so at home as I do right now.",
+     "suggestionFa": "هیچ‌وقت به اندازهٔ الان احساس در خانه بودن نکرده بودم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one of us",
+     "fa": "یکی از ما"
+    },
+    {
+     "word": "treasure",
+     "fa": "گرامی داشتن"
+    },
+    {
+     "word": "forever",
+     "fa": "تا ابد"
+    },
+    {
+     "word": "at home",
+     "fa": "در خانه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Welcome home, son.",
+   "translations": {
+    "fa": "به خونه خوش اومدی پسرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "thank",
+      "means"
+     ],
+     "suggestion": "Thank you. That means everything.",
+     "suggestionFa": "ممنون. این یعنی همه چیز.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "citizenship",
+      "certificate",
+      "i'll",
+      "next"
+     ],
+     "suggestion": "I'll hang it next to my citizenship certificate.",
+     "suggestionFa": "کنار گواهی شهروندیم آویزونش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "welcome home",
+     "fa": "به خانه خوش آمدی"
+    },
+    {
+     "word": "certificate",
+     "fa": "گواهی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Oh, now look — you've set us all off. Pass the tissues, someone. And put the kettle on. Some things never change.",
+   "translations": {
+    "fa": "آه، حالا ببین — همه‌مون را به گریه انداختی. یکی دستمال‌ها را بده. و کتری را بذار. بعضی چیزها هیچ‌وقت عوض نمیشن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

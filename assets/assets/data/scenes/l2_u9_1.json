@@ -12,33 +12,31 @@
   "n1": {
    "id": "n1",
    "speaker": "maya",
-   "text": "Excuse me, is anyone sitting here? These trains are always busier on Fridays.",
+   "text": "Tickets, please! Sorry it's so packed — these trains are always busier on Fridays.",
    "translations": {
-    "fa": "ببخشید، کسی اینجا می‌شینه؟ این قطارها جمعه‌ها همیشه شلوغ‌ترن."
+    "fa": "بلیت‌ها لطفاً! ببخشید این‌قدر شلوغه — این قطارها جمعه‌ها همیشه شلوغ‌ترن."
    },
    "branches": [
     {
      "keywords": [
-      "please",
-      "down",
-      "free",
-      "sit"
+      "here's",
+      "ticket",
+      "going"
      ],
-     "suggestion": "No, it's free. Please sit down.",
-     "suggestionFa": "نه، خالیه. بفرمایید بشینید.",
+     "suggestion": "Here's my ticket. I'm going to York.",
+     "suggestionFa": "اینم بلیتم. دارم می‌رم یورک.",
      "trustDelta": 6,
      "next": "n2",
      "success": true
     },
     {
      "keywords": [
-      "going",
-      "ahead",
-      "where",
-      "go"
+      "next",
+      "here",
+      "stop"
      ],
-     "suggestion": "No, go ahead. Where are you going?",
-     "suggestionFa": "نه، بفرمایید. کجا می‌رید؟",
+     "suggestion": "Here you are. Is York the next stop?",
+     "suggestionFa": "بفرمایید. یورک ایستگاه بعدیه؟",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -46,29 +44,29 @@
    ],
    "newWords": [
     {
-     "word": "anyone",
-     "fa": "کسی"
+     "word": "tickets",
+     "fa": "بلیت‌ها"
+    },
+    {
+     "word": "packed",
+     "fa": "خیلی شلوغ"
     },
     {
      "word": "busier",
      "fa": "شلوغ‌تر"
     },
     {
-     "word": "free",
-     "fa": "خالی"
-    },
-    {
-     "word": "go ahead",
-     "fa": "بفرمایید"
+     "word": "next stop",
+     "fa": "ایستگاه بعدی"
     }
    ]
   },
   "n2": {
    "id": "n2",
    "speaker": "maya",
-   "text": "Thanks! I'm going to York for the weekend. Have you been?",
+   "text": "Thanks! York's two stops away. I'm from there, actually. Have you been before?",
    "translations": {
-    "fa": "ممنون! برای آخر هفته می‌رم یورک. رفتید تا حالا؟"
+    "fa": "ممنون! یورک دو ایستگاه دیگه‌ست. راستش من اهل اونجام. قبلاً رفتید؟"
    },
    "branches": [
     {
@@ -123,8 +121,8 @@
      "keywords": [
       "relaxing",
       "sounds",
-      "than",
-      "city"
+      "city",
+      "than"
      ],
      "suggestion": "It sounds more relaxing than a big city.",
      "suggestionFa": "از یه شهر بزرگ آرامش‌بخش‌تر به نظر میاد.",
@@ -189,8 +187,8 @@
     {
      "keywords": [
       "should",
-      "there",
-      "visit"
+      "visit",
+      "there"
      ],
      "suggestion": "What should I visit there?",
      "suggestionFa": "اونجا کجا را ببینم؟",
@@ -229,9 +227,9 @@
     {
      "keywords": [
       "love",
-      "day",
+      "i'd",
       "one",
-      "i'd"
+      "day"
      ],
      "suggestion": "I'd love to go one day.",
      "suggestionFa": "دوست دارم یه روز برم.",
@@ -274,9 +272,9 @@
   "n6": {
    "id": "n6",
    "speaker": "maya",
-   "text": "Only ten minutes on foot. Oh — this is my stop! Enjoy the rest of your journey!",
+   "text": "Only ten minutes on foot. Right, I'd better check the next carriage. Enjoy York!",
    "translations": {
-    "fa": "فقط ده دقیقه پیاده. آه — ایستگاه منه! بقیهٔ سفرتون خوش!"
+    "fa": "فقط ده دقیقه پیاده. خب، بهتره واگن بعدی را چک کنم. از یورک لذت ببرید!"
    },
    "branches": [],
    "newWords": []

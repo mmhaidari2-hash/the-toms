@@ -1,0 +1,238 @@
+{
+ "id": "l5_u3_4",
+ "characterId": "arthur",
+ "title": "Arthur's London past",
+ "titleFa": "گذشتهٔ لندنی آرتور",
+ "setting": "Regional voices · Level 5",
+ "settingFa": "صداهای محلی",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Did you know I grew up in the East End of London? Proper Cockney, born within the sound of Bow Bells. My old man used to talk in rhyming slang all day.",
+   "translations": {
+    "fa": "می‌دونستی من تو ایست‌اند لندن بزرگ شدم؟ کاکنی اصیل، تو شعاع صدای ناقوس‌های بو به دنیا اومدم. پیرمردم کل روز با عامیانهٔ قافیه‌ای حرف می‌زد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rhyming",
+      "slang",
+      "work",
+      "how"
+     ],
+     "suggestion": "Rhyming slang? How does that work?",
+     "suggestionFa": "عامیانهٔ قافیه‌ای؟ چطوری کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stairs",
+      "apples",
+      "isn't",
+      "heard"
+     ],
+     "suggestion": "I've heard of that! Isn't \"apples and pears\" stairs?",
+     "suggestionFa": "دربارهٔ اون شنیدم! «سیب و گلابی» یعنی پله‌ها، نه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "East End",
+     "fa": "شرق لندن"
+    },
+    {
+     "word": "Cockney",
+     "fa": "کاکنی (اهل شرق لندن)"
+    },
+    {
+     "word": "Bow Bells",
+     "fa": "ناقوس‌های کلیسای بو"
+    },
+    {
+     "word": "my old man",
+     "fa": "پدرم"
+    },
+    {
+     "word": "rhyming slang",
+     "fa": "عامیانهٔ قافیه‌ای"
+    }
+   ],
+   "cultureNote": {
+    "en": "Cockney rhyming slang replaces a word with a phrase that rhymes with it, then often drops the rhyming part: \"stairs\" → \"apples and pears\" → \"apples\".",
+    "fa": "در این عامیانه کلمه با عبارت هم‌قافیه جایگزین می‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Spot on! So you'd say, \"I'm going up the apples.\" Or \"Use your loaf\" — loaf of bread, head. Use your head!",
+   "translations": {
+    "fa": "دقیقاً! پس می‌گی «دارم می‌رم بالای سیب‌ها.» یا «از نونت استفاده کن» — قرص نون، سر. از سرت استفاده کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "confusing",
+      "brilliant",
+      "that's",
+      "but"
+     ],
+     "suggestion": "That's brilliant. Confusing, but brilliant.",
+     "suggestionFa": "فوق‌العاده‌ست. گیج‌کننده، ولی فوق‌العاده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phrase",
+      "don't",
+      "you'd",
+      "full"
+     ],
+     "suggestion": "So if you don't know the full phrase, you'd have no idea!",
+     "suggestionFa": "پس اگه عبارت کامل را ندونی، هیچی نمی‌فهمی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loaf",
+     "fa": "قرص نان"
+    },
+    {
+     "word": "use your loaf",
+     "fa": "از سرت استفاده کن"
+    },
+    {
+     "word": "confusing",
+     "fa": "گیج‌کننده"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "That was the point! Some say it started so the police and outsiders couldn't understand. \"Have a butcher's\" — butcher's hook, look.",
+   "translations": {
+    "fa": "نکته همین بود! بعضی‌ها می‌گن شروع شد تا پلیس و غریبه‌ها نفهمن. «یه قصابی بنداز» — قلاب قصاب، نگاه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butcher's",
+      "look",
+      "have"
+     ],
+     "suggestion": "\"Have a butcher's at this\" — have a look at this?",
+     "suggestionFa": "«یه قصابی به این بنداز» — یعنی یه نگاه به این بنداز؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "secret",
+      "like",
+      "code",
+      "was"
+     ],
+     "suggestion": "So it was like a secret code.",
+     "suggestionFa": "پس مثل یه رمز مخفی بود.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "outsiders",
+     "fa": "غریبه‌ها"
+    },
+    {
+     "word": "butcher's hook",
+     "fa": "قلاب قصاب"
+    },
+    {
+     "word": "have a butcher's",
+     "fa": "نگاه کن"
+    },
+    {
+     "word": "secret code",
+     "fa": "رمز مخفی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "You've got it! Of course, most people only use a few now — \"porkies\" for lies, from \"pork pies\". Don't you go telling porkies!",
+   "translations": {
+    "fa": "گرفتی! البته، الان بیشتر مردم فقط چندتاش را به کار می‌برن — «پورکیز» برای دروغ، از «پای گوشت خوک». نری پورکی بگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "porkies",
+      "arthur",
+      "honest",
+      "never"
+     ],
+     "suggestion": "I would never tell porkies, Arthur. Honest!",
+     "suggestionFa": "من هیچ‌وقت پورکی نمی‌گم آرتور. راست می‌گم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "he'll",
+      "love",
+      "i'll",
+      "have"
+     ],
+     "suggestion": "I'll have to tell Tom. He'll love this.",
+     "suggestionFa": "باید به تام بگم. عاشقش میشه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "porkies",
+     "fa": "دروغ‌ها"
+    },
+    {
+     "word": "pork pies",
+     "fa": "پای گوشت خوک"
+    },
+    {
+     "word": "honest",
+     "fa": "راست می‌گویم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "Ha! Now you're talking. Here — have a butcher's at this old photo. That's me and my brother outside our dad's shop, 1962. Feels like another world.",
+   "translations": {
+    "fa": "ها! حالا شد. بیا — یه قصابی به این عکس قدیمی بنداز. منم و برادرم جلوی مغازهٔ بابام، ۱۹۶۲. انگار یه دنیای دیگه‌ست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "l5_u3_3",
+ "characterId": "maya",
+ "title": "Accents across Britain",
+ "titleFa": "لهجه‌های بریتانیا",
+ "setting": "Regional voices · Level 5",
+ "settingFa": "صداهای محلی",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Tickets, please! Oh, hello again. Off to Bristol today? You'll love it — that's my home turf. Just don't laugh at the accent.",
+   "translations": {
+    "fa": "بلیت‌ها لطفاً! آه، دوباره سلام. امروز می‌ری بریستول؟ عاشقش می‌شی — اونجا محلهٔ خودمه. فقط به لهجه نخند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "regional",
+      "accents",
+      "never",
+      "laugh"
+     ],
+     "suggestion": "I'd never laugh! I love regional accents.",
+     "suggestionFa": "هیچ‌وقت نمی‌خندم! عاشق لهجه‌های محلی‌ام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "manchester",
+      "different",
+      "accent",
+      "from"
+     ],
+     "suggestion": "Is it very different from the Manchester accent?",
+     "suggestionFa": "خیلی با لهجهٔ منچستر فرق داره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "home turf",
+     "fa": "محلهٔ خود"
+    },
+    {
+     "word": "regional accents",
+     "fa": "لهجه‌های محلی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "Completely. We add an \"L\" to words ending in \"a\" — so \"idea\" becomes \"ideal\" and \"area\" becomes \"areal\". And everything is \"lush\".",
+   "translations": {
+    "fa": "کاملاً. ما به کلمه‌هایی که با «a» تموم میشن یه «L» اضافه می‌کنیم — پس «idea» میشه «ideal» و «area» میشه «areal». و همه چی «لاش»ـه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "meaning",
+      "lovely",
+      "lush"
+     ],
+     "suggestion": "\"Lush\" — meaning lovely?",
+     "suggestionFa": "«لاش» — یعنی قشنگ؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "confusion",
+      "doesn't",
+      "cause"
+     ],
+     "suggestion": "Doesn't that cause confusion?",
+     "suggestionFa": "باعث سردرگمی نمیشه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ending in",
+     "fa": "به پایان رسیدن با"
+    },
+    {
+     "word": "lush",
+     "fa": "عالی (گویش غرب)"
+    },
+    {
+     "word": "confusion",
+     "fa": "سردرگمی"
+    }
+   ],
+   "cultureNote": {
+    "en": "The \"Bristol L\" is a famous feature of the Bristol accent. In the West Country, \"lush\" means great or lovely.",
+    "fa": "Bristol L یک ویژگی معروف لهجهٔ بریستول است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "All the time! Mind you, people used to judge accents a lot. When I started on the trains, a passenger told me I sounded \"a bit farmer\".",
+   "translations": {
+    "fa": "همیشه! البته، مردم قبلاً خیلی دربارهٔ لهجه قضاوت می‌کردن. وقتی تو قطار شروع به کار کردم، یه مسافر بهم گفت یه کم «کشاورزی» به نظر میام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accents",
+      "that's",
+      "rude",
+      "part"
+     ],
+     "suggestion": "That's so rude. Accents are part of who you are.",
+     "suggestionFa": "خیلی بی‌ادبانه‌ست. لهجه‌ها بخشی از هویت آدمه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "saying",
+      "accent",
+      "before"
+     ],
+     "suggestion": "I've felt that too. Some people hear my accent before they hear what I'm saying.",
+     "suggestionFa": "من هم حسش کردم. بعضی‌ها قبل از حرفم، لهجه‌ام را می‌شنون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "judge",
+     "fa": "قضاوت کردن"
+    },
+    {
+     "word": "passenger",
+     "fa": "مسافر"
+    },
+    {
+     "word": "farmer",
+     "fa": "کشاورز"
+    },
+    {
+     "word": "part of who you are",
+     "fa": "بخشی از هویت تو"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "That's exactly it. Things are changing, though — there are loads of regional voices on telly now. What does your family think of your English accent?",
+   "translations": {
+    "fa": "دقیقاً همینه. ولی اوضاع داره عوض میشه — الان کلی صدای محلی تو تلویزیون هست. خانواده‌ات دربارهٔ لهجهٔ انگلیسیت چی فکر می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mancunian",
+      "queen",
+      "sound",
+      "they"
+     ],
+     "suggestion": "They say I sound like a mix of the Queen and a Mancunian!",
+     "suggestionFa": "می‌گن شبیه ترکیبی از ملکه و یه منچستری‌ام!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "started",
+      "saying",
+      "love"
+     ],
+     "suggestion": "My mum says I've started saying \"love\" to everyone.",
+     "suggestionFa": "مامانم می‌گه شروع کردم به همه «عزیزم» بگم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loads of",
+     "fa": "کلی"
+    },
+    {
+     "word": "telly",
+     "fa": "تلویزیون"
+    },
+    {
+     "word": "mix",
+     "fa": "ترکیب"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "Ha! That's the best combination there is. Never lose it. Right, enjoy Bristol — and if anyone offers you cider, take it slowly. It's lush, but it's lethal.",
+   "translations": {
+    "fa": "ها! بهترین ترکیب ممکنه. هیچ‌وقت از دستش نده. خب، از بریستول لذت ببر — و اگه کسی بهت سیدر تعارف کرد، آروم بخور. عالیه، ولی کشنده‌ست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

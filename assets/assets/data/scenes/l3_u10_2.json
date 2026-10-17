@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "though",
       "slowly",
-      "speak",
-      "great"
+      "though",
+      "great",
+      "speak"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
      "suggestionFa": "شروع عالی. ولی یه کم آهسته‌تر حرف بزن.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "explain",
-      "made",
       "good",
+      "made",
       "now"
      ],
      "suggestion": "Good. Now explain why you made it.",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "works",
-      "show",
       "them",
-      "nice"
+      "nice",
+      "show"
      ],
      "suggestion": "Nice. Can you show them how it works?",
      "suggestionFa": "خوبه. می‌تونی نشونشون بدی چطور کار می‌کنه؟",
@@ -147,7 +147,7 @@
       "charge",
       "number",
       "maybe",
-      "long"
+      "give"
      ],
      "suggestion": "Maybe give a number — how long does it take to charge?",
      "suggestionFa": "شاید یه عدد بدی — شارژ کردن چقدر طول می‌کشه؟",
@@ -245,8 +245,8 @@
      "keywords": [
       "brilliant",
       "about",
-      "cost",
-      "will"
+      "they",
+      "cost"
      ],
      "suggestion": "Brilliant! What will you say if they ask about the cost?",
      "suggestionFa": "عالی! اگه دربارهٔ هزینه بپرسن چی می‌گی؟",
@@ -256,10 +256,10 @@
     },
     {
      "keywords": [
-      "really",
       "you'll",
+      "really",
       "great",
-      "ryan"
+      "good"
      ],
      "suggestion": "That was really good, Ryan. You'll be great.",
      "suggestionFa": "خیلی خوب بود رایان. عالی میشی.",

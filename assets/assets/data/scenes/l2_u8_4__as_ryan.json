@@ -23,9 +23,9 @@
      "keywords": [
       "downstairs",
       "calling",
-      "from",
-      "lazy",
-      "come"
+      "come",
+      "busy",
+      "room"
      ],
      "suggestion": "Hey, it's me. Are you busy? I'm calling from my room — too lazy to come downstairs!",
      "suggestionFa": "سلام، منم. سرت شلوغه؟ از اتاقم زنگ می‌زنم — حال ندارم بیام پایین!",
@@ -48,9 +48,9 @@
      "keywords": [
       "saturday",
       "cinema",
-      "going",
       "doing",
-      "come"
+      "going",
+      "jake"
      ],
      "suggestion": "What are you doing on Saturday? Me and Jake are going to the cinema. Want to come?",
      "suggestionFa": "شنبه چی کار می‌کنی؟ من و جیک داریم می‌ریم سینما. میای؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "superhero",
-      "station",
       "meeting",
+      "station",
       "we're",
       "film"
      ],
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "obviously",
-      "booking",
       "nando's",
       "tickets",
+      "booking",
       "don't"
      ],
      "suggestion": "Nando's, obviously! OK, I'm booking the tickets now. Don't tell Mum it's a 15!",
@@ -148,8 +148,8 @@
      "keywords": [
       "downstairs",
       "minutes",
-      "hungry",
       "sorted",
+      "hungry",
       "five"
      ],
      "suggestion": "Sorted. See you downstairs in five minutes — I'm hungry!",

@@ -1,0 +1,276 @@
+{
+ "id": "l5_u8_2",
+ "characterId": "nicola",
+ "title": "Nicola's story",
+ "titleFa": "قصهٔ نیکولا",
+ "setting": "Telling a good story · Level 5",
+ "settingFa": "خوب قصه گفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "I want to tell a story too! It's about a dragon. But it's a real one. Probably.",
+   "translations": {
+    "fa": "من هم می‌خوام قصه بگم! دربارهٔ یه اژدهاست. ولی واقعیه. احتمالاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "real",
+      "tell",
+      "ooh"
+     ],
+     "suggestion": "Ooh, a real dragon? Tell us everything!",
+     "suggestionFa": "اوه، یه اژدهای واقعی؟ همه چی را بگو!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "meet",
+      "did"
+     ],
+     "suggestion": "Where did you meet this dragon?",
+     "suggestionFa": "این اژدها را کجا دیدی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dragon",
+     "fa": "اژدها"
+    },
+    {
+     "word": "probably",
+     "fa": "احتمالاً"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "In the garden! Behind the shed. He was green and sad because nobody would play with him.",
+   "translations": {
+    "fa": "تو باغ! پشت انباری. سبز بود و ناراحت چون هیچ‌کس باهاش بازی نمی‌کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dragon",
+      "poor",
+      "did",
+      "oh"
+     ],
+     "suggestion": "Oh no, poor dragon. What did you do?",
+     "suggestionFa": "ای وای، اژدهای بیچاره. چی کار کردی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wouldn't",
+      "anybody",
+      "play",
+      "him"
+     ],
+     "suggestion": "Why wouldn't anybody play with him?",
+     "suggestionFa": "چرا هیچ‌کس باهاش بازی نمی‌کرد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shed",
+     "fa": "انباری"
+    },
+    {
+     "word": "nobody",
+     "fa": "هیچ‌کس"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Because he breathed fire by accident when he sneezed! So I gave him a tissue.",
+   "translations": {
+    "fa": "چون وقتی عطسه می‌کرد تصادفی آتیش بیرون می‌داد! پس بهش یه دستمال دادم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tissue",
+      "catch",
+      "fire",
+      "kind"
+     ],
+     "suggestion": "That was very kind. Did the tissue catch fire?",
+     "suggestionFa": "خیلی مهربونی کردی. دستمال آتیش گرفت؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sneezing",
+      "clever",
+      "stop",
+      "idea"
+     ],
+     "suggestion": "Clever idea! Did it stop him sneezing?",
+     "suggestionFa": "فکر هوشمندانه‌ای! عطسه‌اش را بند آورد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "breathed fire",
+     "fa": "آتش بیرون داد"
+    },
+    {
+     "word": "by accident",
+     "fa": "تصادفی"
+    },
+    {
+     "word": "sneezed",
+     "fa": "عطسه کرد"
+    },
+    {
+     "word": "tissue",
+     "fa": "دستمال کاغذی"
+    },
+    {
+     "word": "catch fire",
+     "fa": "آتش گرفتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Yes, it burned up! So I gave him Grandad's handkerchief instead. That's why Grandad can't find it.",
+   "translations": {
+    "fa": "آره، سوخت! پس به جاش دستمال پارچه‌ای پدربزرگ را بهش دادم. واسه همینه که پدربزرگ پیداش نمی‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "handkerchief",
+      "mystery",
+      "missing",
+      "that's"
+     ],
+     "suggestion": "So that's the mystery of the missing handkerchief solved!",
+     "suggestionFa": "پس معمای دستمال گم‌شده حل شد!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "grandad",
+      "think",
+      "will",
+      "back"
+     ],
+     "suggestion": "Ha! I think Grandad will want it back.",
+     "suggestionFa": "ها! فکر کنم پدربزرگ پسش بخواد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "burned up",
+     "fa": "کاملاً سوخت"
+    },
+    {
+     "word": "handkerchief",
+     "fa": "دستمال پارچه‌ای"
+    },
+    {
+     "word": "mystery",
+     "fa": "معما"
+    },
+    {
+     "word": "missing",
+     "fa": "گم‌شده"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "The end! Did you like it? Was it the best story ever? You have to say yes.",
+   "translations": {
+    "fa": "پایان! خوشت اومد؟ بهترین قصهٔ دنیا بود؟ باید بگی آره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "heard",
+      "story",
+      "twist"
+     ],
+     "suggestion": "It was the best story I've ever heard. Brilliant twist at the end!",
+     "suggestionFa": "بهترین قصه‌ای بود که تا حالا شنیدم. پیچش عالی آخرش!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "storyteller",
+      "absolutely",
+      "natural",
+      "nicola"
+     ],
+     "suggestion": "Absolutely. You're a natural storyteller, Nicola.",
+     "suggestionFa": "قطعاً. تو یه قصه‌گوی ذاتی هستی نیکولا.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "the end",
+     "fa": "پایان"
+    },
+    {
+     "word": "twist",
+     "fa": "پیچش داستان"
+    },
+    {
+     "word": "natural storyteller",
+     "fa": "قصه‌گوی ذاتی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Yay! Next time I'll tell the one about the dinosaur who became Prime Minister!",
+   "translations": {
+    "fa": "آخ جون! دفعهٔ بعد قصهٔ دایناسوری را می‌گم که نخست‌وزیر شد!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -12,16 +12,16 @@
   "n1": {
    "id": "n1",
    "speaker": "maya",
-   "text": "You look furious. Did you miss your connection too? This is the third time this month.",
+   "text": "Tickets, please… oh dear, you look furious. Did you miss your connection?",
    "translations": {
-    "fa": "خیلی عصبانی به نظر میای. تو هم قطار رابطت را از دست دادی؟ این سومین بار این ماهه."
+    "fa": "بلیت‌ها لطفاً… ای وای، خیلی عصبانی به نظر میاید. قطار رابطتون را از دست دادید؟"
    },
    "branches": [
     {
      "keywords": [
       "important",
-      "meeting",
       "because",
+      "meeting",
       "missed"
      ],
      "suggestion": "I did. And I missed an important meeting because of it.",
@@ -32,13 +32,12 @@
     },
     {
      "keywords": [
-      "announcements",
-      "nobody",
-      "made",
-      "any"
+      "third",
+      "month",
+      "time"
      ],
-     "suggestion": "Yes, and nobody made any announcements.",
-     "suggestionFa": "آره، و هیچ‌کس هیچ اعلامی نکرد.",
+     "suggestion": "Yes, and it's the third time this month.",
+     "suggestionFa": "آره، و این سومین بار این ماهه.",
      "trustDelta": 5,
      "next": "n2",
      "success": true
@@ -62,9 +61,9 @@
   "n2": {
    "id": "n2",
    "speaker": "maya",
-   "text": "I always write a formal complaint as well as claiming Delay Repay. They take you more seriously.",
+   "text": "I'm really sorry. Off the record — write a formal complaint as well as claiming Delay Repay. Head office takes it more seriously.",
    "translations": {
-    "fa": "من همیشه علاوه بر درخواست Delay Repay یه شکایت رسمی هم می‌نویسم. جدی‌ترت می‌گیرن."
+    "fa": "واقعاً متأسفم. بین خودمون — علاوه بر درخواست Delay Repay یه شکایت رسمی هم بنویسید. دفتر مرکزی جدی‌تر می‌گیره."
    },
    "branches": [
     {
@@ -84,8 +83,8 @@
      "keywords": [
       "actually",
       "respond",
-      "ever",
-      "they"
+      "they",
+      "ever"
      ],
      "suggestion": "Do they ever actually respond?",
      "suggestionFa": "واقعاً جواب می‌دن؟",
@@ -96,6 +95,10 @@
    ],
    "newWords": [
     {
+     "word": "off the record",
+     "fa": "بین خودمان"
+    },
+    {
      "word": "formal complaint",
      "fa": "شکایت رسمی"
     },
@@ -104,12 +107,8 @@
      "fa": "علاوه بر"
     },
     {
-     "word": "seriously",
-     "fa": "جدی"
-    },
-    {
-     "word": "respond",
-     "fa": "پاسخ دادن"
+     "word": "head office",
+     "fa": "دفتر مرکزی"
     }
    ]
   },
@@ -138,8 +137,8 @@
      "keywords": [
       "happened",
       "mention",
-      "should",
-      "before"
+      "before",
+      "should"
      ],
      "suggestion": "Should I mention that it's happened before?",
      "suggestionFa": "بگم که قبلاً هم اتفاق افتاده؟",
@@ -170,9 +169,9 @@
   "n4": {
    "id": "n4",
    "speaker": "maya",
-   "text": "Definitely both. Then say what you want: \"I would be grateful if you could refund my season ticket for that day and explain what's being done.\"",
+   "text": "Definitely both. Then say what you want: \"I would be grateful if you could refund my ticket and explain what's being done.\"",
    "translations": {
-    "fa": "قطعاً هر دو. بعد بگو چی می‌خوای: «سپاسگزار خواهم بود اگر هزینهٔ بلیت فصلی آن روز را بازپرداخت کنید و توضیح دهید چه اقداماتی انجام می‌شود.»"
+    "fa": "قطعاً هر دو. بعد بگید چی می‌خواید: «سپاسگزار خواهم بود اگر هزینهٔ بلیتم را بازپرداخت کنید و توضیح دهید چه اقداماتی انجام می‌شود.»"
    },
    "branches": [
     {
@@ -208,8 +207,8 @@
      "fa": "سپاسگزار"
     },
     {
-     "word": "season ticket",
-     "fa": "بلیت فصلی"
+     "word": "refund",
+     "fa": "بازپرداخت"
     },
     {
      "word": "look forward to",
@@ -224,9 +223,9 @@
   "n5": {
    "id": "n5",
    "speaker": "maya",
-   "text": "That's the trick — polite but firm. Anger gets ignored; facts get refunds. And if they don't reply in forty days, go to the Rail Ombudsman.",
+   "text": "That's the trick — polite but firm. Anger gets ignored; facts get refunds. If they don't reply in forty days, go to the Rail Ombudsman. You didn't hear it from me!",
    "translations": {
-    "fa": "نکته همینه — مؤدب ولی محکم. عصبانیت نادیده گرفته میشه؛ حقایق بازپرداخت می‌گیرن. و اگه تا چهل روز جواب ندادن، برو سراغ بازرس راه‌آهن."
+    "fa": "نکته همینه — مؤدب ولی محکم. عصبانیت نادیده گرفته میشه؛ حقایق بازپرداخت می‌گیرن. اگه تا چهل روز جواب ندادن، برید سراغ بازرس راه‌آهن. از من نشنیدید!"
    },
    "branches": [],
    "newWords": []

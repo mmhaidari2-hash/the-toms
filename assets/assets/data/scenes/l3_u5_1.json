@@ -35,7 +35,7 @@
       "leslie",
       "ask",
       "her",
-      "go"
+      "we"
      ],
      "suggestion": "We do! Leslie, go on, ask her.",
      "suggestionFa": "آره! لزلی، بپرس.",
@@ -188,8 +188,8 @@
     {
      "keywords": [
       "thing",
-      "told",
       "same",
+      "told",
       "she"
      ],
      "suggestion": "She told me the same thing.",
@@ -241,8 +241,8 @@
    "branches": [
     {
      "keywords": [
-      "dealing",
       "quickly",
+      "dealing",
       "thank"
      ],
      "suggestion": "Thank you for dealing with it so quickly.",
@@ -311,8 +311,8 @@
     },
     {
      "keywords": [
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "Did you say yes?",
      "suggestionFa": "گفتید آره؟",

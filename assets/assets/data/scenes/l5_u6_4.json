@@ -1,0 +1,251 @@
+{
+ "id": "l5_u6_4",
+ "characterId": "al",
+ "title": "Writing a reference",
+ "titleFa": "نوشتن توصیه‌نامه",
+ "setting": "Formal English · Level 5",
+ "settingFa": "انگلیسی رسمی",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "Big favour — you've worked with Farah for a year now. Would you write her a character reference for her citizenship application?",
+   "translations": {
+    "fa": "یه لطف بزرگ — الان یه ساله با فرح کار می‌کنی. براش یه توصیه‌نامهٔ شخصیتی برای درخواست شهروندی می‌نویسی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delighted",
+      "reference",
+      "character",
+      "include"
+     ],
+     "suggestion": "I'd be delighted. What should a character reference include?",
+     "suggestionFa": "با کمال میل. یه توصیه‌نامهٔ شخصیتی چی باید داشته باشه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "community",
+      "course",
+      "asset",
+      "she'd"
+     ],
+     "suggestion": "Of course. She'd be an asset to any community.",
+     "suggestionFa": "حتماً. برای هر جامعه‌ای یه سرمایه‌ست.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "favour",
+     "fa": "لطف"
+    },
+    {
+     "word": "character reference",
+     "fa": "توصیه‌نامهٔ شخصیتی"
+    },
+    {
+     "word": "citizenship",
+     "fa": "شهروندی"
+    },
+    {
+     "word": "application",
+     "fa": "درخواست"
+    },
+    {
+     "word": "asset",
+     "fa": "سرمایه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Applications for British citizenship require two referees who have known you for at least three years — one must be a professional person.",
+    "fa": "درخواست شهروندی به دو معرف نیاز دارد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "How long you've known her, in what capacity, and specific qualities. Formal, but warm. How would you open it?",
+   "translations": {
+    "fa": "چند وقته می‌شناسیش، در چه نقشی، و ویژگی‌های مشخص. رسمی، ولی گرم. چطوری شروعش می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "volunteer",
+      "capacity",
+      "mentor",
+      "haddad"
+     ],
+     "suggestion": "\"I have known Ms Farah Haddad for three years in my capacity as her volunteer mentor.\"",
+     "suggestionFa": "«من خانم فرح حداد را سه سال است در نقش منتور داوطلبش می‌شناسم.»",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "application",
+      "haddad's",
+      "pleasure",
+      "support"
+     ],
+     "suggestion": "\"It is with great pleasure that I write in support of Ms Haddad's application.\"",
+     "suggestionFa": "«با کمال میل در حمایت از درخواست خانم حداد می‌نویسم.»",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "in what capacity",
+     "fa": "در چه نقشی"
+    },
+    {
+     "word": "qualities",
+     "fa": "ویژگی‌ها"
+    },
+    {
+     "word": "in support of",
+     "fa": "در حمایت از"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Lovely. Now the qualities — but with evidence. Not just \"she's nice\".",
+   "translations": {
+    "fa": "عالیه. حالا ویژگی‌ها — ولی با مدرک. نه فقط «آدم خوبیه»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "demonstrated",
+      "volunteering",
+      "exceptional",
+      "dedication"
+     ],
+     "suggestion": "\"She has demonstrated exceptional dedication, volunteering weekly at the library.\"",
+     "suggestionFa": "«او تعهد استثنایی نشان داده، هر هفته در کتابخانه داوطلبی می‌کند.»",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "consistently",
+      "integrity",
+      "reliable",
+      "honest"
+     ],
+     "suggestion": "\"I can attest to her integrity; she is consistently reliable and honest.\"",
+     "suggestionFa": "«می‌توانم صداقت او را گواهی کنم؛ او همواره قابل اعتماد و درستکار است.»",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "demonstrated",
+     "fa": "نشان داده"
+    },
+    {
+     "word": "exceptional",
+     "fa": "استثنایی"
+    },
+    {
+     "word": "dedication",
+     "fa": "تعهد"
+    },
+    {
+     "word": "attest to",
+     "fa": "گواهی کردن"
+    },
+    {
+     "word": "integrity",
+     "fa": "درستکاری"
+    },
+    {
+     "word": "reliable",
+     "fa": "قابل اعتماد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "\"Attest to her integrity\" — very good. And how will you close?",
+   "translations": {
+    "fa": "«گواهی صداقتش» — خیلی خوب. و چطوری تمومش می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recommending",
+      "information",
+      "hesitation",
+      "further"
+     ],
+     "suggestion": "\"I have no hesitation in recommending her, and I would be happy to provide further information.\"",
+     "suggestionFa": "«بی‌هیچ تردیدی او را توصیه می‌کنم، و خوشحال می‌شوم اطلاعات بیشتری ارائه دهم.»",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "outstanding",
+      "citizen",
+      "british",
+      "make"
+     ],
+     "suggestion": "\"She would make an outstanding British citizen.\"",
+     "suggestionFa": "«او شهروند بریتانیایی برجسته‌ای خواهد شد.»",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hesitation",
+     "fa": "تردید"
+    },
+    {
+     "word": "recommending",
+     "fa": "توصیه کردن"
+    },
+    {
+     "word": "further",
+     "fa": "بیشتر"
+    },
+    {
+     "word": "outstanding",
+     "fa": "برجسته"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "Perfect. Honestly, it's moving — the mentee and mentor, both applying for citizenship. Have you sent yours in yet?",
+   "translations": {
+    "fa": "عالیه. راستش تأثیرگذاره — منتی و منتور، هر دو برای شهروندی درخواست می‌دن. مال خودت را فرستادی؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

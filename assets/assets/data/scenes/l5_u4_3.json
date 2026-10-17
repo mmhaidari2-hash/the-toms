@@ -1,0 +1,251 @@
+{
+ "id": "l5_u4_3",
+ "characterId": "sian",
+ "title": "A business pitch",
+ "titleFa": "ارائهٔ پیشنهاد تجاری",
+ "setting": "Idioms at work · Level 5",
+ "settingFa": "اصطلاحات در محیط کار",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sian",
+   "text": "So, you're looking for a small business loan for this language café idea. Let's hear the pitch. You've got ten minutes, and I'm all ears.",
+   "translations": {
+    "fa": "پس، برای این ایدهٔ کافه زبان دنبال وام کسب‌وکار کوچیکید. بیاید پیشنهاد را بشنویم. ده دقیقه وقت دارید، و سراپا گوشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "newcomers",
+      "practise",
+      "nutshell",
+      "english"
+     ],
+     "suggestion": "Thank you. In a nutshell, it's a café where newcomers practise English with locals.",
+     "suggestionFa": "ممنون. به طور خلاصه، کافه‌ایه که تازه‌واردها با محلی‌ها انگلیسی تمرین می‌کنن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "solving",
+      "problem",
+      "we're",
+      "start"
+     ],
+     "suggestion": "Let me start with the problem we're solving.",
+     "suggestionFa": "بذارید با مشکلی که حل می‌کنیم شروع کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loan",
+     "fa": "وام"
+    },
+    {
+     "word": "pitch",
+     "fa": "ارائهٔ پیشنهاد"
+    },
+    {
+     "word": "all ears",
+     "fa": "سراپا گوش"
+    },
+    {
+     "word": "in a nutshell",
+     "fa": "به طور خلاصه"
+    },
+    {
+     "word": "newcomers",
+     "fa": "تازه‌واردها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sian",
+   "text": "Interesting. Who's your target market, and why would they pay?",
+   "translations": {
+    "fa": "جالبه. بازار هدفتون کیه، و چرا پول بدن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "manchester",
+      "migrants",
+      "thousand",
+      "greater"
+     ],
+     "suggestion": "There are over forty thousand recent migrants in Greater Manchester alone.",
+     "suggestionFa": "فقط تو منچستر بزرگ بیش از چهل هزار مهاجر تازه هست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "affordable",
+      "expensive",
+      "something",
+      "language"
+     ],
+     "suggestion": "Language classes are expensive and formal. We offer something affordable and social.",
+     "suggestionFa": "کلاس‌های زبان گرون و رسمی‌ان. ما یه چیز مقرون‌به‌صرفه و اجتماعی ارائه می‌دیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "target market",
+     "fa": "بازار هدف"
+    },
+    {
+     "word": "recent migrants",
+     "fa": "مهاجران اخیر"
+    },
+    {
+     "word": "Greater Manchester",
+     "fa": "منچستر بزرگ"
+    },
+    {
+     "word": "affordable",
+     "fa": "مقرون‌به‌صرفه"
+    },
+    {
+     "word": "social",
+     "fa": "اجتماعی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sian",
+   "text": "OK. What's your unique selling point? There are plenty of cafés in town.",
+   "translations": {
+    "fa": "باشه. نقطهٔ قوت منحصربه‌فردتون چیه؟ کلی کافه تو شهر هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "conversation",
+      "volunteers",
+      "trained",
+      "lesson"
+     ],
+     "suggestion": "Our volunteers are trained conversation hosts, so it's café and lesson in one.",
+     "suggestionFa": "داوطلب‌هامون میزبان گفتگوی آموزش‌دیده‌ان، پس کافه و کلاس با همه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "already",
+      "library",
+      "results"
+     ],
+     "suggestion": "We've already run a pilot at the library with brilliant results.",
+     "suggestionFa": "قبلاً یه آزمایشی تو کتابخونه با نتایج فوق‌العاده اجرا کردیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unique selling point",
+     "fa": "مزیت رقابتی منحصربه‌فرد"
+    },
+    {
+     "word": "trained",
+     "fa": "آموزش‌دیده"
+    },
+    {
+     "word": "hosts",
+     "fa": "میزبانان"
+    },
+    {
+     "word": "pilot",
+     "fa": "طرح آزمایشی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sian",
+   "text": "A pilot — good. Investors love evidence. And how will you break even?",
+   "translations": {
+    "fa": "یه طرح آزمایشی — خوبه. سرمایه‌گذارها عاشق مدرکن. و چطوری به نقطهٔ سربه‌سر می‌رسید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "partnerships",
+      "employers",
+      "councils",
+      "through"
+     ],
+     "suggestion": "Through coffee sales, plus partnerships with local councils and employers.",
+     "suggestionFa": "با فروش قهوه، به اضافهٔ همکاری با شوراهای محلی و کارفرماها.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "breaking",
+      "eighteen",
+      "project",
+      "within"
+     ],
+     "suggestion": "We project breaking even within eighteen months.",
+     "suggestionFa": "پیش‌بینی می‌کنیم ظرف هجده ماه به سربه‌سر برسیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "investors",
+     "fa": "سرمایه‌گذاران"
+    },
+    {
+     "word": "evidence",
+     "fa": "مدرک"
+    },
+    {
+     "word": "break even",
+     "fa": "به نقطهٔ سربه‌سر رسیدن"
+    },
+    {
+     "word": "partnerships",
+     "fa": "همکاری‌ها"
+    },
+    {
+     "word": "project",
+     "fa": "پیش‌بینی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sian",
+   "text": "That's a strong pitch — clear problem, real evidence, realistic numbers. I'll need a full business plan, but off the record, I think you're onto something.",
+   "translations": {
+    "fa": "ارائهٔ قوی‌ایه — مشکل واضح، مدرک واقعی، اعداد واقع‌بینانه. یه طرح کسب‌وکار کامل لازم دارم، ولی بین خودمون، فکر می‌کنم دست رو یه چیز خوب گذاشتید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

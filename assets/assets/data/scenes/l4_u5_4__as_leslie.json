@@ -22,10 +22,10 @@
     {
      "keywords": [
       "talking",
-      "passed",
       "friend",
-      "dad's",
-      "since"
+      "passed",
+      "since",
+      "would"
      ],
      "suggestion": "Dad's been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
      "suggestionFa": "بابا از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -156,9 +156,9 @@
      "keywords": [
       "goalkeeper",
       "rubbish",
-      "always",
+      "missed",
       "they'd",
-      "missed"
+      "always"
      ],
      "suggestion": "Stan was the goalkeeper. Dad always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
      "suggestionFa": "استن دروازه‌بان بود. بابا همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن.",
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

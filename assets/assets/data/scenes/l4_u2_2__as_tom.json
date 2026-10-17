@@ -48,9 +48,9 @@
      "keywords": [
       "deadline",
       "missed",
-      "blunt",
       "again",
-      "needs"
+      "needs",
+      "blunt"
      ],
      "suggestion": "\"Matt, you missed the deadline again. This needs to stop.\" Too blunt?",
      "suggestionFa": "«مت، دوباره مهلت را رد کردی. این باید تموم بشه.» زیادی رکه؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "timelines",
       "expecting",
+      "timelines",
       "client's",
-      "having",
-      "friday"
+      "friday",
+      "having"
      ],
      "suggestion": "\"It might be worth us having a quick chat about timelines, as the client's expecting it on Friday.\"",
      "suggestionFa": "«شاید ارزشش را داشته باشه یه گپ کوتاه دربارهٔ زمان‌بندی‌ها بزنیم، چون مشتری جمعه منتظرشه.»",
@@ -124,7 +124,7 @@
       "wondering",
       "britain",
       "cheers",
-      "shout",
+      "means",
       "funny"
      ],
      "suggestion": "Good shout. \"Let me know if I can help in any way. Cheers, Tom.\" Sent. Funny — in Britain, \"I was just wondering\" means \"do it now\"!",

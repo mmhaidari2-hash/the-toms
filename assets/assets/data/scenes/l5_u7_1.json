@@ -1,0 +1,242 @@
+{
+ "id": "l5_u7_1",
+ "characterId": "priya",
+ "title": "The art of queuing",
+ "titleFa": "هنر صف ایستادن",
+ "setting": "Being British · Level 5",
+ "settingFa": "بریتانیایی بودن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Did you see that? A man just pushed in front of an old lady at the till, and nobody said a word. Everyone just tutted. So British.",
+   "translations": {
+    "fa": "دیدی؟ یه مرد همین الان جلوی یه خانم مسن تو صف صندوق پرید، و هیچ‌کس یه کلمه هم نگفت. همه فقط «نچ» کردن. خیلی بریتانیایی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "deafening",
+      "tutting",
+      "saw",
+      "was"
+     ],
+     "suggestion": "I saw! The tutting was deafening.",
+     "suggestionFa": "دیدم! «نچ‌نچ» کر کننده بود.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "directly",
+      "confront",
+      "nobody",
+      "ever"
+     ],
+     "suggestion": "Why does nobody ever confront them directly?",
+     "suggestionFa": "چرا هیچ‌کس هیچ‌وقت مستقیم باهاشون برخورد نمی‌کنه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pushed in",
+     "fa": "جلوی صف پرید"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    },
+    {
+     "word": "tutted",
+     "fa": "نچ‌نچ کرد"
+    },
+    {
+     "word": "deafening",
+     "fa": "کرکننده"
+    },
+    {
+     "word": "confront",
+     "fa": "رودررو شدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Queue-jumping is a serious social crime in Britain, but people usually show disapproval with tutting, sighing or pointed looks rather than words.",
+    "fa": "پریدن جلوی صف در بریتانیا زشت است؛ مردم با «نچ» اعتراض می‌کنند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Because confrontation is the worst thing imaginable! We'd rather suffer in silence and complain about it for a week afterwards.",
+   "translations": {
+    "fa": "چون برخورد رودررو بدترین چیز قابل تصوره! ترجیح می‌دیم در سکوت رنج بکشیم و بعدش یه هفته شکایت کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "aggressive",
+      "passive",
+      "that's"
+     ],
+     "suggestion": "That's very passive-aggressive.",
+     "suggestionFa": "خیلی پرخاشگری منفعلانه‌ست.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "immediately",
+      "someone",
+      "shouted",
+      "would"
+     ],
+     "suggestion": "Back home, someone would have shouted at him immediately.",
+     "suggestionFa": "تو کشور من، یکی فوراً سرش داد می‌زد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "confrontation",
+     "fa": "رودررویی"
+    },
+    {
+     "word": "imaginable",
+     "fa": "قابل تصور"
+    },
+    {
+     "word": "suffer in silence",
+     "fa": "در سکوت رنج کشیدن"
+    },
+    {
+     "word": "passive-aggressive",
+     "fa": "پرخاشگر منفعل"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Honestly, part of me wishes we did that! What are the other unwritten rules that confused you when you arrived?",
+   "translations": {
+    "fa": "راستش، یه بخشی از من آرزو می‌کنه این کار را می‌کردیم! قوانین نانوشتهٔ دیگه‌ای که وقتی اومدی گیجت کرد چی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "someone",
+      "saying",
+      "sorry",
+      "bumps"
+     ],
+     "suggestion": "Saying sorry when someone else bumps into you.",
+     "suggestionFa": "معذرت‌خواهی وقتی یکی دیگه بهت می‌خوره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "escalators",
+      "standing",
+      "shouted",
+      "london"
+     ],
+     "suggestion": "Standing on the right on escalators — I got shouted at in London!",
+     "suggestionFa": "ایستادن سمت راست تو پله‌برقی — تو لندن سرم داد زدن!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unwritten rules",
+     "fa": "قوانین نانوشته"
+    },
+    {
+     "word": "bumps into",
+     "fa": "برخورد می‌کند"
+    },
+    {
+     "word": "escalators",
+     "fa": "پله‌برقی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Ha! The sorry thing is real. I once apologised to a lamppost. And the escalator rule is sacred in London — stand on the right, walk on the left.",
+   "translations": {
+    "fa": "ها! قضیهٔ معذرت‌خواهی واقعیه. من یه بار از یه تیر چراغ‌برق عذرخواهی کردم. و قانون پله‌برقی تو لندن مقدسه — سمت راست بایست، سمت چپ راه برو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "furniture",
+      "british",
+      "caught",
+      "saying"
+     ],
+     "suggestion": "I've caught myself saying sorry to furniture. I'm fully British now.",
+     "suggestionFa": "خودم را دیدم که از مبل عذرخواهی می‌کنم. دیگه کاملاً بریتانیایی شدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "changing",
+      "younger",
+      "people",
+      "these"
+     ],
+     "suggestion": "Do you think these rules are changing with younger people?",
+     "suggestionFa": "فکر می‌کنی این قوانین با جوون‌ترها داره عوض میشه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lamppost",
+     "fa": "تیر چراغ‌برق"
+    },
+    {
+     "word": "sacred",
+     "fa": "مقدس"
+    },
+    {
+     "word": "caught myself",
+     "fa": "خودم را در حال … دیدم"
+    },
+    {
+     "word": "furniture",
+     "fa": "مبلمان"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "A bit, maybe. But the queue will outlive us all. Right — next customer, please! And sir, I think you'll find the queue starts back there.",
+   "translations": {
+    "fa": "شاید یه کم. ولی صف از همهٔ ما بیشتر عمر می‌کنه. خب — مشتری بعدی لطفاً! و آقا، فکر کنم متوجه بشید صف از اون عقب شروع میشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

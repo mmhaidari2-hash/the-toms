@@ -1,0 +1,243 @@
+{
+ "id": "l5_u7_3",
+ "characterId": "dave",
+ "title": "Class and accent",
+ "titleFa": "طبقه و لهجه",
+ "setting": "Being British · Level 5",
+ "settingFa": "بریتانیایی بودن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dave",
+   "text": "My nephew got into Oxford! First in the family to go to uni. But he says some of the posh kids there make him feel like he doesn't belong.",
+   "translations": {
+    "fa": "خواهرزاده‌ام قبول شد آکسفورد! اولین نفر خانواده که می‌ره دانشگاه. ولی می‌گه بعضی بچه‌پولدارهای اونجا باعث میشن حس کنه جاش اونجا نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "achievement",
+      "that's",
+      "sorry",
+      "feels"
+     ],
+     "suggestion": "That's a huge achievement. I'm sorry he feels like that.",
+     "suggestionFa": "دستاورد بزرگیه. متأسفم که این حس را داره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "britain",
+      "still",
+      "class",
+      "such"
+     ],
+     "suggestion": "Is class still such a big deal in Britain?",
+     "suggestionFa": "طبقه هنوز تو بریتانیا این‌قدر مهمه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nephew",
+     "fa": "خواهرزاده/برادرزاده"
+    },
+    {
+     "word": "got into",
+     "fa": "قبول شد"
+    },
+    {
+     "word": "posh",
+     "fa": "اعیانی/پولدار"
+    },
+    {
+     "word": "belong",
+     "fa": "تعلق داشتن"
+    },
+    {
+     "word": "big deal",
+     "fa": "مسئلهٔ مهم"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Posh\" is informal for upper-class or expensive. Class in Britain is often linked to accent, schooling and even vocabulary.",
+    "fa": "posh یعنی اعیانی."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dave",
+   "text": "Less than it was, but yeah. It's subtle. They notice how you say \"bath\" and \"grass\", whether you say \"dinner\" or \"tea\" for your evening meal.",
+   "translations": {
+    "fa": "کمتر از قبل، ولی آره. ظریفه. متوجه میشن «bath» و «grass» را چطوری می‌گی، اینکه برای شام می‌گی «dinner» یا «tea»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "northern",
+      "working",
+      "evening",
+      "thing"
+     ],
+     "suggestion": "So \"tea\" for the evening meal is a northern, working-class thing?",
+     "suggestionFa": "پس «tea» برای شام یه چیز شمالی و طبقهٔ کارگره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fascinating",
+      "that's",
+      "also",
+      "sad"
+     ],
+     "suggestion": "That's fascinating, but also a bit sad.",
+     "suggestionFa": "جذابه، ولی یه کم هم غم‌انگیزه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "subtle",
+     "fa": "ظریف"
+    },
+    {
+     "word": "evening meal",
+     "fa": "وعدهٔ شام"
+    },
+    {
+     "word": "working-class",
+     "fa": "طبقهٔ کارگر"
+    },
+    {
+     "word": "fascinating",
+     "fa": "جذاب"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dave",
+   "text": "Spot on. Down south and posh, they'd say \"dinner\" or even \"supper\". My nephew says \"tea\" and gets funny looks. What would you tell him?",
+   "translations": {
+    "fa": "دقیقاً. جنوبی‌ها و اعیانی‌ها می‌گن «dinner» یا حتی «supper». خواهرزاده‌ام می‌گه «tea» و بهش نگاه عجیب می‌کنن. تو بهش چی می‌گی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "earned",
+      "accent",
+      "place",
+      "story"
+     ],
+     "suggestion": "Tell him his accent is part of his story, and he earned his place.",
+     "suggestionFa": "بهش بگو لهجه‌اش بخشی از داستانشه، و جاش را به دست آورده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "generation",
+      "students",
+      "first",
+      "other"
+     ],
+     "suggestion": "I'd say: find the other first-generation students. He won't be alone.",
+     "suggestionFa": "می‌گم: بقیهٔ دانشجوهای نسل اول را پیدا کن. تنها نیست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "funny looks",
+     "fa": "نگاه‌های عجیب"
+    },
+    {
+     "word": "earned his place",
+     "fa": "جایش را به دست آورد"
+    },
+    {
+     "word": "first-generation",
+     "fa": "نسل اول"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dave",
+   "text": "Good advice, that. You know a bit about not belonging, I suppose — and look at you now. Pub quiz champion, honorary Manc.",
+   "translations": {
+    "fa": "توصیهٔ خوبیه. فکر کنم تو یه چیزهایی دربارهٔ تعلق نداشتن می‌دونی — و حالا خودت را ببین. قهرمان مسابقهٔ پاب، منچستری افتخاری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "welcome",
+      "people",
+      "made",
+      "time"
+     ],
+     "suggestion": "It took time, but people here made me feel welcome.",
+     "suggestionFa": "زمان برد، ولی مردم اینجا باعث شدن احساس خوش‌آمد کنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "outsider",
+      "actually",
+      "stronger",
+      "feeling"
+     ],
+     "suggestion": "Feeling like an outsider can actually make you stronger.",
+     "suggestionFa": "حس غریبه بودن واقعاً می‌تونه قوی‌ترت کنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "not belonging",
+     "fa": "تعلق نداشتن"
+    },
+    {
+     "word": "champion",
+     "fa": "قهرمان"
+    },
+    {
+     "word": "honorary",
+     "fa": "افتخاری"
+    },
+    {
+     "word": "outsider",
+     "fa": "غریبه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dave",
+   "text": "I'll tell him that. Maybe you could have a chat with him at Christmas? He'd listen to you more than his daft uncle.",
+   "translations": {
+    "fa": "اینو بهش می‌گم. شاید بتونی کریسمس باهاش یه گپی بزنی؟ به حرف تو بیشتر از داییِ خلش گوش می‌ده."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

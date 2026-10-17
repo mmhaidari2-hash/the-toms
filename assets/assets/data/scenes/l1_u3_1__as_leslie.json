@@ -49,8 +49,8 @@
       "umbrellas",
       "floors",
       "house",
-      "there",
-      "three"
+      "three",
+      "there"
      ],
      "suggestion": "On the rack, next to the umbrellas. There are three floors in our house.",
      "suggestionFa": "روی جاکفشی، کنار چترها. خونهٔ ما سه طبقه داره.",
@@ -74,8 +74,8 @@
       "downstairs",
       "there's",
       "kitchen",
-      "garden",
-      "living"
+      "living",
+      "garden"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "downstairs",
-      "bedrooms",
-      "upstairs",
       "bathroom",
+      "upstairs",
+      "bedrooms",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -123,9 +123,9 @@
      "keywords": [
       "bedrooms",
       "there",
-      "four",
+      "room",
       "loft",
-      "room"
+      "four"
      ],
      "suggestion": "There are four bedrooms. Your room is in the loft, at the top.",
      "suggestionFa": "چهار اتاق‌خواب هست. اتاق تو زیرشیروونیه، بالای بالا.",
@@ -198,8 +198,8 @@
      "keywords": [
       "yourself",
       "course",
-      "home",
       "love",
+      "home",
       "make"
      ],
      "suggestion": "Of course, love. Make yourself at home!",

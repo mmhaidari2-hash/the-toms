@@ -1,0 +1,251 @@
+{
+ "id": "l5_u2_4",
+ "characterId": "al",
+ "title": "When banter goes too far",
+ "titleFa": "وقتی شوخی از حد می‌گذرد",
+ "setting": "Banter · Level 5",
+ "settingFa": "شوخی و سربه‌سر گذاشتن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "Can I have a word? At the team lunch, Gareth kept making jokes about your accent. Everyone laughed, but you went a bit quiet. Are you OK?",
+   "translations": {
+    "fa": "می‌تونم یه حرفی بزنم؟ سر ناهار تیم، گرت مدام دربارهٔ لهجه‌ات شوخی می‌کرد. همه خندیدن، ولی تو یه کم ساکت شدی. خوبی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "honest",
+      "after",
+      "third",
+      "much"
+     ],
+     "suggestion": "To be honest, it got a bit much after the third joke.",
+     "suggestionFa": "راستش بعد از شوخی سوم یه کم زیادی شد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tiresome",
+      "noticing",
+      "getting",
+      "thanks"
+     ],
+     "suggestion": "I'm fine, but thanks for noticing. It was getting tiresome.",
+     "suggestionFa": "خوبم، ولی ممنون که متوجه شدی. داشت خسته‌کننده می‌شد.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "have a word",
+     "fa": "صحبت کوتاه"
+    },
+    {
+     "word": "accent",
+     "fa": "لهجه"
+    },
+    {
+     "word": "went quiet",
+     "fa": "ساکت شد"
+    },
+    {
+     "word": "a bit much",
+     "fa": "کمی زیاده‌روی"
+    },
+    {
+     "word": "tiresome",
+     "fa": "خسته‌کننده"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "That's fair. Banter's meant to go both ways, and it's not banter if one person isn't laughing. Would you like me to say something?",
+   "translations": {
+    "fa": "منصفانه‌ست. شوخی باید دوطرفه باشه، و اگه یه نفر نخنده دیگه شوخی نیست. می‌خوای من یه چیزی بگم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rather",
+      "thanks",
+      "handle",
+      "myself"
+     ],
+     "suggestion": "Thanks, but I'd rather handle it myself.",
+     "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "awkward",
+      "maybe",
+      "don't",
+      "want"
+     ],
+     "suggestion": "Maybe. I don't want to make it awkward.",
+     "suggestionFa": "شاید. نمی‌خوام ناجورش کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "both ways",
+     "fa": "دوطرفه"
+    },
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    },
+    {
+     "word": "handle",
+     "fa": "حل کردن"
+    },
+    {
+     "word": "awkward",
+     "fa": "ناجور"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Good on you. If you do talk to him, keep it light but clear. Something like, \"Gareth, I can take a joke, but the accent thing's getting old.\"",
+   "translations": {
+    "fa": "آفرین. اگه باهاش حرف زدی، سبک ولی واضح بگو. یه چیزی مثل: «گرت، من شوخی سرم میشه، ولی قضیهٔ لهجه دیگه کهنه شده.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "getting",
+      "honest",
+      "that's"
+     ],
+     "suggestion": "\"Getting old\" — that's perfect. Not angry, just honest.",
+     "suggestionFa": "«کهنه شده» — عالیه. عصبانی نه، فقط صادق.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "stop",
+      "if",
+      "he"
+     ],
+     "suggestion": "And if he doesn't stop?",
+     "suggestionFa": "و اگه دست برنداشت؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good on you",
+     "fa": "آفرین"
+    },
+    {
+     "word": "keep it light",
+     "fa": "سبک نگه دار"
+    },
+    {
+     "word": "take a joke",
+     "fa": "شوخی را پذیرفتن"
+    },
+    {
+     "word": "getting old",
+     "fa": "تکراری/کهنه شدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Then it's an HR conversation — and you'd be completely right to have it. But honestly, Gareth's not malicious, just clueless. He'll be mortified.",
+   "translations": {
+    "fa": "اون‌وقت یه گفتگو با منابع انسانیه — و کاملاً حق داری انجامش بدی. ولی راستش، گرت بدجنس نیست، فقط نمی‌فهمه. خیلی خجالت می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anyone",
+      "don't",
+      "hope",
+      "fall"
+     ],
+     "suggestion": "I hope so. I don't want to fall out with anyone.",
+     "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone's",
+      "thanks",
+      "helps",
+      "know"
+     ],
+     "suggestion": "Thanks, Al. It helps to know someone's got my back.",
+     "suggestionFa": "ممنون ال. خوبه بدونم یکی هوام را داره.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "HR",
+     "fa": "منابع انسانی"
+    },
+    {
+     "word": "malicious",
+     "fa": "بدخواه"
+    },
+    {
+     "word": "clueless",
+     "fa": "بی‌خبر"
+    },
+    {
+     "word": "mortified",
+     "fa": "بسیار شرمنده"
+    },
+    {
+     "word": "fall out",
+     "fa": "قهر کردن"
+    },
+    {
+     "word": "got my back",
+     "fa": "پشتم است"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "Always, mate. And for the record, your accent's lovely. Gareth's from Bolton — he's hardly in a position to judge. Now that's banter.",
+   "translations": {
+    "fa": "همیشه رفیق. و برای اینکه ثبت بشه، لهجه‌ات قشنگه. گرت اهل بولتونه — اصلاً در موقعیتی نیست که قضاوت کنه. این میشه شوخی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
