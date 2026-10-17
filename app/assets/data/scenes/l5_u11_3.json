@@ -1,0 +1,434 @@
+{
+ "id": "l5_u11_3",
+ "characterId": "leslie",
+ "title": "The noise complaint",
+ "titleFa": "شکایت سر و صدا",
+ "setting": "Standing up for yourself · Level 5",
+ "settingFa": "از حق خود دفاع کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The new neighbours at number 16 had music on until three again. I'm exhausted. Will you come with me to talk to them?",
+   "translations": {
+    "fa": "همسایه‌های جدید پلاک ۱۶ دوباره تا ساعت سه آهنگ گذاشتن. داغونم. باهام میای باهاشون حرف بزنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friendly",
+      "course",
+      "let's",
+      "first"
+     ],
+     "suggestion": "Of course. Let's keep it friendly at first.",
+     "suggestionFa": "حتماً. اولش دوستانه نگهش داریم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "plan",
+      "say",
+      "we"
+     ],
+     "suggestion": "Yes. Shall we plan what to say?",
+     "suggestionFa": "آره. برنامه بریزیم چی بگیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "exhausted",
+     "fa": "بسیار خسته"
+    },
+    {
+     "word": "keep it friendly",
+     "fa": "دوستانه نگه داشتن"
+    },
+    {
+     "word": "plan",
+     "fa": "برنامه‌ریزی کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Councils advise talking to neighbours calmly first; formal complaints come later.",
+    "fa": "ابتدا گفتگوی آرام توصیه می‌شود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Good idea. You start — you're better at staying calm. Here goes… Hello! Sorry to bother you.",
+   "translations": {
+    "fa": "فکر خوبیه. تو شروع کن — تو آروم موندن بهتری. شروع شد… سلام! ببخشید مزاحم میشیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "minute",
+      "we're",
+      "have"
+     ],
+     "suggestion": "Hi, we're from number 12. Have you got a minute?",
+     "suggestionFa": "سلام، ما از پلاک ۱۲ هستیم. یه دقیقه وقت دارید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "welcome",
+      "wanted",
+      "street",
+      "hello"
+     ],
+     "suggestion": "Hello! Welcome to the street. We wanted to say hello.",
+     "suggestionFa": "سلام! به خیابون خوش اومدید. خواستیم سلام کنیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "here goes",
+     "fa": "شروع کنیم"
+    },
+    {
+     "word": "bother",
+     "fa": "مزاحم شدن"
+    },
+    {
+     "word": "have you got a minute",
+     "fa": "یک دقیقه وقت دارید"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "khan",
+   "text": "Oh, it's you! I was just going to number 16 myself. They're not answering. The music again?",
+   "translations": {
+    "fa": "آه، شمایید! خودم داشتم می‌رفتم پلاک ۱۶. جواب نمی‌دن. باز آهنگ؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "three",
+      "until",
+      "went"
+     ],
+     "suggestion": "Yes. It went on until three this morning.",
+     "suggestionFa": "آره. تا ساعت سه صبح ادامه داشت.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friendly",
+      "hoping",
+      "word",
+      "were"
+     ],
+     "suggestion": "We were hoping to have a friendly word.",
+     "suggestionFa": "امیدوار بودیم یه صحبت دوستانه بکنیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "answering",
+     "fa": "جواب دادن"
+    },
+    {
+     "word": "went on",
+     "fa": "ادامه داشت"
+    },
+    {
+     "word": "a friendly word",
+     "fa": "صحبت دوستانه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "khan",
+   "text": "I'm on nights at the hospital, so I sleep in the day. But last night even I couldn't sleep!",
+   "translations": {
+    "fa": "من شب‌ها تو بیمارستانم، پس روزها می‌خوابم. ولی دیشب حتی منم نتونستم بخوابم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "polite",
+      "leave",
+      "could",
+      "maybe"
+     ],
+     "suggestion": "Maybe we could leave a polite note.",
+     "suggestionFa": "شاید بتونیم یه یادداشت مؤدبانه بذاریم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "realise",
+      "perhaps",
+      "walls",
+      "don't"
+     ],
+     "suggestion": "Perhaps they don't realise how thin the walls are.",
+     "suggestionFa": "شاید نمی‌دونن دیوارها چقدر نازکن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on nights",
+     "fa": "شیفت شب"
+    },
+    {
+     "word": "polite note",
+     "fa": "یادداشت مؤدبانه"
+    },
+    {
+     "word": "realise",
+     "fa": "متوجه شدن"
+    },
+    {
+     "word": "thin",
+     "fa": "نازک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Someone's coming… Oh. Hello. I'm Leslie, from number 12.",
+   "translations": {
+    "fa": "یکی داره میاد… اوه. سلام. من لزلی‌ام، از پلاک ۱۲."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carries",
+      "realise",
+      "through",
+      "didn't"
+     ],
+     "suggestion": "We're sure you didn't realise, but the music carries through the walls at night.",
+     "suggestionFa": "مطمئنیم متوجه نبودید، ولی صدای آهنگ شب‌ها از دیوار رد میشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "waking",
+      "bother",
+      "we've"
+     ],
+     "suggestion": "Sorry to bother you. We've got young children, and the late music is waking them.",
+     "suggestionFa": "ببخشید مزاحم شدیم. بچهٔ کوچیک داریم، و آهنگ دیروقت بیدارشون می‌کنه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carries",
+     "fa": "منتقل می‌شود"
+    },
+    {
+     "word": "waking",
+     "fa": "بیدار کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you make very much noise",
+      "your music is too much loud"
+     ],
+     "echo": "The music's very loud? I'll mention it gently.",
+     "better": "We're sure you didn't realise how loud the music is.",
+     "betterFa": "مطمئنیم متوجه نبودید صدای آهنگ چقدر بلنده."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "khan",
+   "text": "They say they're sorry — it was a birthday. But they work evenings and are often up late.",
+   "translations": {
+    "fa": "می‌گن متأسفن — تولد بود. ولی عصرها کار می‌کنن و اغلب دیر بیدارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weeknights",
+      "agree",
+      "could",
+      "music"
+     ],
+     "suggestion": "Could we agree on music off by eleven on weeknights?",
+     "suggestionFa": "می‌تونیم توافق کنیم روزهای هفته تا یازده آهنگ خاموش باشه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "headphones",
+      "possible",
+      "after",
+      "would"
+     ],
+     "suggestion": "Would headphones after eleven be possible?",
+     "suggestionFa": "امکانش هست بعد از یازده هدفون بزنن؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weeknights",
+     "fa": "شب‌های وسط هفته"
+    },
+    {
+     "word": "agree on",
+     "fa": "توافق کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Councils treat noise between 11pm and 7am more seriously; persistent noise can be a \"statutory nuisance\".",
+    "fa": "سروصدای بین ۱۱ شب تا ۷ صبح جدی‌تر است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "They've agreed to eleven, and they'll put a rug down. And — they've invited us to a barbecue!",
+   "translations": {
+    "fa": "قبول کردن تا یازده، و یه فرش پهن می‌کنن. و — ما را به یه باربیکیو دعوت کردن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expected",
+      "better",
+      "went",
+      "than"
+     ],
+     "suggestion": "That went better than expected!",
+     "suggestionFa": "بهتر از انتظار پیش رفت!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "barbecue",
+      "that's",
+      "peace",
+      "make"
+     ],
+     "suggestion": "A barbecue — that's a nice way to make peace.",
+     "suggestionFa": "باربیکیو — راه قشنگیه برای آشتی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rug",
+     "fa": "فرش کوچک"
+    },
+    {
+     "word": "barbecue",
+     "fa": "کباب در فضای باز"
+    },
+    {
+     "word": "make peace",
+     "fa": "آشتی کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "khan",
+   "text": "You see? A cup of tea and a kind word solve more than complaining to the council. I'll bring samosas to the barbecue!",
+   "translations": {
+    "fa": "می‌بینی؟ یه فنجون چای و یه کلمهٔ مهربون بیشتر از شکایت به شورا مشکل حل می‌کنه. سمبوسه میارم باربیکیو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exchange",
+      "numbers",
+      "happens",
+      "shall"
+     ],
+     "suggestion": "Shall we exchange numbers, in case it happens again?",
+     "suggestionFa": "شماره رد و بدل کنیم، اگه دوباره پیش اومد؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "council",
+      "let's",
+      "never",
+      "need"
+     ],
+     "suggestion": "Let's hope we never need the council!",
+     "suggestionFa": "امیدواریم هیچ‌وقت شورا لازممون نشه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "exchange numbers",
+     "fa": "شماره رد و بدل کردن"
+    },
+    {
+     "word": "in case",
+     "fa": "در صورتی که"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Numbers swapped, rug promised, barbecue Saturday. Honestly, that's the most British conflict resolution I've ever seen. Let's go and sleep!",
+   "translations": {
+    "fa": "شماره‌ها رد و بدل شد، فرش قول داده شد، باربیکیو شنبه. راستش، این بریتانیایی‌ترین حل اختلافی بود که تا حالا دیدم. بریم بخوابیم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

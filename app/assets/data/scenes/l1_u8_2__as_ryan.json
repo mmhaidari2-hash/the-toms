@@ -23,9 +23,9 @@
      "keywords": [
       "football",
       "player",
-      "need",
       "play",
-      "come"
+      "need",
+      "more"
      ],
      "suggestion": "Can you play football? Come on, we need one more player.",
      "suggestionFa": "فوتبال بلدی؟ بیا، یه بازیکن دیگه لازم داریم.",
@@ -48,8 +48,8 @@
      "keywords": [
       "rubbish",
       "keeper",
-      "goal",
       "nice",
+      "goal",
       "can"
      ],
      "suggestion": "Nice. Can you go in goal? Our keeper is rubbish.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "languages",
-      "farsi",
       "other",
-      "speak",
-      "right"
+      "farsi",
+      "right",
+      "speak"
      ],
      "suggestion": "Can you speak other languages? You speak Farsi, right?",
      "suggestionFa": "زبان‌های دیگه بلدی؟ فارسی بلدی، نه؟",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "bonjour",
       "english",
+      "bonjour",
       "french",
       "that's",
       "speak"
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "really",
+      "score",
       "great",
       "means",
-      "score",
       "peng"
      ],
      "suggestion": "Deal! \"Sick\" means great, \"peng\" means really nice. Now, can you score?",
@@ -174,8 +174,8 @@
       "definitely",
       "same",
       "play",
-      "time",
-      "week"
+      "week",
+      "time"
      ],
      "suggestion": "Get in! What a goal! You can definitely play. Same time next week?",
      "suggestionFa": "ایول! چه گلی! قطعاً بلدی بازی کنی. هفتهٔ بعد همین ساعت؟",

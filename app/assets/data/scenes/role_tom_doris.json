@@ -81,8 +81,8 @@
      "keywords": [
       "doctor",
       "about",
-      "been",
-      "them"
+      "have",
+      "been"
      ],
      "suggestion": "Have you been to the doctor about them?",
      "suggestionFa": "برای زانوهات دکتر رفتی؟",
@@ -116,9 +116,9 @@
    "branches": [
     {
      "keywords": [
-      "don't",
-      "doris",
       "leave",
+      "doris",
+      "don't",
       "long"
      ],
      "suggestion": "Don't leave it too long, Doris.",
@@ -166,7 +166,7 @@
       "always",
       "front",
       "saved",
-      "seat"
+      "i've"
      ],
      "suggestion": "I've saved you the front seat as always.",
      "suggestionFa": "مثل همیشه صندلی جلو را برات نگه داشتم.",
@@ -177,9 +177,9 @@
     {
      "keywords": [
       "young",
+      "move",
       "will",
-      "sure",
-      "move"
+      "sure"
      ],
      "suggestion": "That young man will move for you, I'm sure.",
      "suggestionFa": "اون مرد جوون حتماً برات جا باز می‌کنه.",
@@ -211,8 +211,8 @@
     {
      "keywords": [
       "cherries",
-      "doris",
-      "spoil"
+      "spoil",
+      "doris"
      ],
      "suggestion": "Cherries! You spoil me, Doris.",
      "suggestionFa": "آلبالو! لوسم می‌کنی دوریس.",
@@ -310,8 +310,8 @@
      "keywords": [
       "driving",
       "thirty",
-      "don't",
-      "worry"
+      "worry",
+      "years"
      ],
      "suggestion": "I see him, don't worry. Thirty years driving!",
      "suggestionFa": "می‌بینمش، نگران نباش. سی سال رانندگی!",
@@ -324,7 +324,7 @@
       "thanks",
       "second",
       "doris",
-      "pair"
+      "eyes"
      ],
      "suggestion": "Thanks, Doris. You're my second pair of eyes.",
      "suggestionFa": "ممنون دوریس. جفت چشم دوم منی.",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "slowing",
-      "still",
       "about",
+      "still",
       "route"
      ],
      "suggestion": "He's slowing down, but he still asks about this old route.",

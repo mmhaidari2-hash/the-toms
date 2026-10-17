@@ -1,0 +1,421 @@
+{
+ "id": "l3_u11_2",
+ "characterId": "leslie",
+ "title": "Calling the school office",
+ "titleFa": "تماس با دفتر مدرسه",
+ "setting": "When things go wrong · Level 3",
+ "settingFa": "وقتی اوضاع خراب می‌شود",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "schooloffice",
+   "text": "Good morning, St Mary's Primary, Mrs Price speaking.",
+   "translations": {
+    "fa": "صبح بخیر، دبستان سنت مری، خانم پرایس هستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "absence",
+      "calling",
+      "report",
+      "won't"
+     ],
+     "suggestion": "Hello. I'm calling to report an absence. Nicola Thompson won't be in today.",
+     "suggestionFa": "سلام. زنگ زدم غیبت گزارش بدم. نیکولا تامپسون امروز نمیاد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "afraid",
+      "ill",
+      "hi"
+     ],
+     "suggestion": "Hi. I'm afraid Nicola Thompson is ill today.",
+     "suggestionFa": "سلام. متأسفانه نیکولا تامپسون امروز مریضه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "report an absence",
+     "fa": "گزارش غیبت"
+    },
+    {
+     "word": "won't be in",
+     "fa": "نخواهد آمد"
+    },
+    {
+     "word": "ill",
+     "fa": "بیمار"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "schooloffice",
+   "text": "Thank you for letting us know. Which class is she in?",
+   "translations": {
+    "fa": "ممنون که خبر دادید. تو کدوم کلاسه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hart's",
+      "she's",
+      "miss"
+     ],
+     "suggestion": "She's in Year 2, Miss Hart's class.",
+     "suggestionFa": "کلاس دومه، کلاس خانم هارت.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "robins",
+      "think"
+     ],
+     "suggestion": "Year 2 — Robins class, I think.",
+     "suggestionFa": "کلاس دوم — کلاس رابین‌ها، فکر کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "letting us know",
+     "fa": "خبر دادن"
+    },
+    {
+     "word": "Year 2",
+     "fa": "کلاس دوم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Primary classes in England often have animal or tree names, like \"Robins\" or \"Oak\".",
+    "fa": "کلاس‌ها اغلب اسم حیوان یا درخت دارند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "schooloffice",
+   "text": "Lovely. And what's the reason for the absence?",
+   "translations": {
+    "fa": "عالی. و دلیل غیبت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "temperature",
+      "night",
+      "sick",
+      "been"
+     ],
+     "suggestion": "She's been sick in the night and has a temperature.",
+     "suggestionFa": "شب استفراغ کرده و تب داره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cough",
+      "cold",
+      "bad",
+      "got"
+     ],
+     "suggestion": "She's got a bad cold and a cough.",
+     "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reason",
+     "fa": "دلیل"
+    },
+    {
+     "word": "been sick",
+     "fa": "استفراغ کرده"
+    },
+    {
+     "word": "temperature",
+     "fa": "تب"
+    },
+    {
+     "word": "cold",
+     "fa": "سرماخوردگی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "schooloffice",
+   "text": "Oh dear. If it's sickness, she needs to stay off for 48 hours after the last time she was sick.",
+   "translations": {
+    "fa": "آخ. اگه استفراغه، باید تا ۴۸ ساعت بعد از آخرین باری که استفراغ کرده خونه بمونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thursday",
+      "she'll",
+      "forty",
+      "eight"
+     ],
+     "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
+     "suggestionFa": "چهل و هشت ساعت؟ پس پنجشنبه برمی‌گرده؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "thank",
+      "know",
+      "rule"
+     ],
+     "suggestion": "I didn't know that rule. Thank you.",
+     "suggestionFa": "این قانون را نمی‌دونستم. ممنون.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stay off",
+     "fa": "در خانه ماندن"
+    },
+    {
+     "word": "forty-eight hours",
+     "fa": "۴۸ ساعت"
+    }
+   ],
+   "cultureNote": {
+    "en": "The \"48-hour rule\" for sickness and diarrhoea helps stop bugs spreading in schools.",
+    "fa": "قانون ۴۸ ساعته برای جلوگیری از شیوع است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "she come back thursday",
+      "she will comes back"
+     ],
+     "echo": "She'll come back on Thursday? Yes, if she's well.",
+     "better": "She'll come back on Thursday.",
+     "betterFa": "پنجشنبه برمی‌گرده."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "schooloffice",
+   "text": "Exactly, as long as she's well. Can I check — are you on our contact list?",
+   "translations": {
+    "fa": "دقیقاً، به شرطی که خوب باشه. می‌تونم چک کنم — شما تو فهرست تماس ما هستید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "friend",
+      "added",
+      "last"
+     ],
+     "suggestion": "Yes, I'm a family friend. Leslie added me last term.",
+     "suggestionFa": "آره، دوست خانوادگی‌ام. لزلی ترم پیش اضافه‌م کرد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "asked",
+      "sure",
+      "call"
+     ],
+     "suggestion": "I'm not sure. Leslie asked me to call.",
+     "suggestionFa": "مطمئن نیستم. لزلی ازم خواست زنگ بزنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "contact list",
+     "fa": "فهرست تماس"
+    },
+    {
+     "word": "family friend",
+     "fa": "دوست خانوادگی"
+    },
+    {
+     "word": "last term",
+     "fa": "ترم پیش"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "schooloffice",
+   "text": "I can see you here — that's fine. Oh, one thing: it's the school trip on Friday.",
+   "translations": {
+    "fa": "اینجا می‌بینمتون — مشکلی نیست. اوه، یه چیز: جمعه اردوی مدرسه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "paid",
+      "has"
+     ],
+     "suggestion": "Has Leslie paid for it?",
+     "suggestionFa": "لزلی پولش را داده؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "still",
+      "able",
+      "will",
+      "she"
+     ],
+     "suggestion": "Will she still be able to go?",
+     "suggestionFa": "هنوز می‌تونه بره؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "school trip",
+     "fa": "اردوی مدرسه"
+    },
+    {
+     "word": "paid",
+     "fa": "پرداخت کرد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "schooloffice",
+   "text": "She can still go if she's better. But we haven't had the consent form back yet.",
+   "translations": {
+    "fa": "اگه بهتر باشه هنوز می‌تونه بره. ولی هنوز فرم رضایت را پس نگرفتیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "leslie",
+      "i'll",
+      "ask"
+     ],
+     "suggestion": "I'll ask Leslie to sign it tonight.",
+     "suggestionFa": "از لزلی می‌خوام امشب امضاش کنه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "online",
+      "she",
+      "can"
+     ],
+     "suggestion": "Can she sign it online?",
+     "suggestionFa": "می‌تونه آنلاین امضاش کنه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "consent form",
+     "fa": "فرم رضایت‌نامه"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "schooloffice",
+   "text": "Yes, on the school app — it's quicker. Would you like me to send the work home for her?",
+   "translations": {
+    "fa": "آره، تو اپ مدرسه — سریع‌تره. می‌خواید تکالیفش را بفرستم خونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "thank",
+      "would"
+     ],
+     "suggestion": "That would be great, thank you.",
+     "suggestionFa": "عالی میشه، ممنون.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "resting",
+      "she'll",
+      "need"
+     ],
+     "suggestion": "No need, she'll be resting.",
+     "suggestionFa": "لازم نیست، استراحت می‌کنه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "app",
+     "fa": "اپلیکیشن"
+    },
+    {
+     "word": "quicker",
+     "fa": "سریع‌تر"
+    },
+    {
+     "word": "resting",
+     "fa": "استراحت کردن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "schooloffice",
+   "text": "Lovely. I've marked her as ill. I hope she feels better soon — give her our love!",
+   "translations": {
+    "fa": "عالی. غیبتش را مریضی ثبت کردم. امیدوارم زود خوب بشه — از طرف ما سلام برسونید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,509 @@
+{
+ "id": "l5_u11_2",
+ "characterId": "tom",
+ "title": "A difficult choice",
+ "titleFa": "انتخابی دشوار",
+ "setting": "Standing up for yourself · Level 5",
+ "settingFa": "از حق خود دفاع کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "Thanks for coming in, Tom. As George's son, I wanted to talk through his options before he decides.",
+   "translations": {
+    "fa": "ممنون که اومدی تام. به عنوان پسر جورج، خواستم قبل از تصمیمش گزینه‌ها را مرور کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "support",
+      "thank",
+      "here",
+      "tom"
+     ],
+     "suggestion": "Thank you. I'm here to support Tom and George.",
+     "suggestionFa": "ممنون. اینجام که از تام و جورج حمایت کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wanted",
+      "course",
+      "notes",
+      "take"
+     ],
+     "suggestion": "Of course. George wanted me to take notes.",
+     "suggestionFa": "البته. جورج ازم خواست یادداشت بردارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "talk through",
+     "fa": "مرور کردن"
+    },
+    {
+     "word": "options",
+     "fa": "گزینه‌ها"
+    },
+    {
+     "word": "take notes",
+     "fa": "یادداشت برداشتن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "okafor",
+   "text": "The specialist has suggested a device — an ICD — that can restart his heart if it stops. It means a small operation.",
+   "translations": {
+    "fa": "متخصص یه دستگاه پیشنهاد داده — ICD — که اگه قلبش بایسته می‌تونه دوباره راهش بندازه. یعنی یه عمل کوچیک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "benefits",
+      "risks",
+      "main"
+     ],
+     "suggestion": "What are the main benefits and risks?",
+     "suggestionFa": "مهم‌ترین فواید و خطراتش چیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "likely",
+      "heart",
+      "would",
+      "stop"
+     ],
+     "suggestion": "How likely is it that his heart would stop?",
+     "suggestionFa": "احتمال اینکه قلبش بایسته چقدره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "specialist",
+     "fa": "متخصص"
+    },
+    {
+     "word": "device",
+     "fa": "دستگاه"
+    },
+    {
+     "word": "restart",
+     "fa": "دوباره راه انداختن"
+    },
+    {
+     "word": "operation",
+     "fa": "عمل جراحی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "It reduces the risk of sudden death significantly. Risks are infection and, occasionally, unnecessary shocks.",
+   "translations": {
+    "fa": "خطر مرگ ناگهانی را خیلی کاهش می‌ده. خطراتش عفونت و گاهی شوک‌های غیرضروریه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recovery",
+      "would",
+      "look",
+      "age"
+     ],
+     "suggestion": "What would recovery look like at his age?",
+     "suggestionFa": "بهبودی در سن او چه شکلیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "unnecessary",
+      "explain",
+      "could",
+      "shock"
+     ],
+     "suggestion": "Could you explain what an unnecessary shock feels like?",
+     "suggestionFa": "می‌تونید توضیح بدید شوک غیرضروری چه حسی داره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reduces",
+     "fa": "کاهش می‌دهد"
+    },
+    {
+     "word": "sudden death",
+     "fa": "مرگ ناگهانی"
+    },
+    {
+     "word": "significantly",
+     "fa": "به‌طور قابل‌توجه"
+    },
+    {
+     "word": "infection",
+     "fa": "عفونت"
+    },
+    {
+     "word": "recovery",
+     "fa": "بهبودی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "okafor",
+   "text": "Usually a night in hospital and no driving for a month. Some people describe a shock as being kicked in the chest.",
+   "translations": {
+    "fa": "معمولاً یه شب بیمارستان و یه ماه رانندگی ممنوع. بعضی‌ها شوک را مثل لگد خوردن به سینه توصیف می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "frightening",
+      "someone",
+      "sounds",
+      "age"
+     ],
+     "suggestion": "That sounds frightening for someone his age.",
+     "suggestionFa": "برای کسی هم‌سن او ترسناک به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "afterwards",
+      "couldn't",
+      "month",
+      "drive"
+     ],
+     "suggestion": "So he couldn't drive for a month afterwards?",
+     "suggestionFa": "پس یه ماه بعدش نمی‌تونه رانندگی کنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "describe",
+     "fa": "توصیف کردن"
+    },
+    {
+     "word": "kicked",
+     "fa": "لگد خورده"
+    },
+    {
+     "word": "chest",
+     "fa": "سینه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Dad hates hospitals. He says he's had a good innings and doesn't want a fuss.",
+   "translations": {
+    "fa": "بابا از بیمارستان متنفره. می‌گه عمر خوبی کرده و نمی‌خواد شلوغش کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understandable",
+      "decision",
+      "that's",
+      "end"
+     ],
+     "suggestion": "That's understandable. It's his decision in the end.",
+     "suggestionFa": "قابل درکه. در نهایت تصمیم خودشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maybe",
+      "think",
+      "needs",
+      "time"
+     ],
+     "suggestion": "Maybe he needs time to think it over.",
+     "suggestionFa": "شاید وقت لازم داره که بهش فکر کنه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "had a good innings",
+     "fa": "عمر خوبی کرده (اصطلاح کریکت)"
+    },
+    {
+     "word": "fuss",
+     "fa": "شلوغ‌بازی"
+    },
+    {
+     "word": "in the end",
+     "fa": "در نهایت"
+    },
+    {
+     "word": "think it over",
+     "fa": "فکر کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"A good innings\" comes from cricket: it means a long, full life.",
+    "fa": "اصطلاحی از کریکت به معنی عمر طولانی."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "Exactly. On the one hand, it could extend his life; on the other, quality of life matters most to many patients.",
+   "translations": {
+    "fa": "دقیقاً. از یه طرف، ممکنه عمرش را طولانی کنه؛ از طرف دیگه، برای خیلی از بیمارها کیفیت زندگی مهم‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "advise",
+      "would",
+      "his",
+      "gp"
+     ],
+     "suggestion": "What would you advise, as his GP?",
+     "suggestionFa": "به عنوان پزشکش، شما چه توصیه‌ای می‌کنید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "device",
+      "later",
+      "turn"
+     ],
+     "suggestion": "Is it possible to turn the device off later?",
+     "suggestionFa": "ممکنه بعداً دستگاه را خاموش کرد؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extend",
+     "fa": "طولانی کردن"
+    },
+    {
+     "word": "quality of life",
+     "fa": "کیفیت زندگی"
+    },
+    {
+     "word": "advise",
+     "fa": "توصیه کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what you advise",
+      "what do you advices"
+     ],
+     "echo": "What would I advise? Let me be honest.",
+     "better": "What would you advise?",
+     "betterFa": "شما چه توصیه‌ای می‌کنید؟"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "okafor",
+   "text": "I can't decide for him, but I'd encourage him to see the specialist and ask everything. And yes — it can be switched off.",
+   "translations": {
+    "fa": "نمی‌تونم به جاش تصمیم بگیرم، ولی تشویقش می‌کنم متخصص را ببینه و همه چیز را بپرسه. و آره — میشه خاموشش کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reassure",
+      "control",
+      "losing",
+      "might"
+     ],
+     "suggestion": "That might reassure him. He fears losing control.",
+     "suggestionFa": "شاید بهش اطمینان بده. از دست دادن کنترل می‌ترسونش.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "appointment",
+      "questions",
+      "could",
+      "bring"
+     ],
+     "suggestion": "Could we bring a list of questions to that appointment?",
+     "suggestionFa": "می‌تونیم یه فهرست سؤال به اون وقت بیاریم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "encourage",
+     "fa": "تشویق کردن"
+    },
+    {
+     "word": "switched off",
+     "fa": "خاموش شده"
+    },
+    {
+     "word": "reassure",
+     "fa": "اطمینان دادن"
+    },
+    {
+     "word": "control",
+     "fa": "کنترل"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "Please do. Also think about an advance care plan — writing down what he wants if he becomes very unwell.",
+   "translations": {
+    "fa": "حتماً. به یه برنامهٔ مراقبت پیشاپیش هم فکر کنید — نوشتن اینکه اگه خیلی بدحال شد چی می‌خواد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "conversation",
+      "upsetting",
+      "without",
+      "start"
+     ],
+     "suggestion": "How do we start that conversation without upsetting him?",
+     "suggestionFa": "چطور اون گفتگو را بدون ناراحت کردنش شروع کنیم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "same",
+      "will",
+      "as"
+     ],
+     "suggestion": "Is that the same as a will?",
+     "suggestionFa": "این همون وصیت‌نامه‌ست؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "advance care plan",
+     "fa": "برنامهٔ مراقبت پیشاپیش"
+    },
+    {
+     "word": "upsetting",
+     "fa": "ناراحت کردن"
+    },
+    {
+     "word": "will",
+     "fa": "وصیت‌نامه"
+    }
+   ],
+   "cultureNote": {
+    "en": "An advance care plan records a person's wishes about future treatment; it's different from a legal will about money and property.",
+    "fa": "با وصیت‌نامهٔ مالی فرق دارد."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "okafor",
+   "text": "Different — it's about care, not money. Start with \"What matters most to you?\" People often find it a relief.",
+   "translations": {
+    "fa": "فرق داره — دربارهٔ مراقبته، نه پول. با «چی برات از همه مهم‌تره؟» شروع کنید. آدم‌ها اغلب احساس سبکی می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "matters",
+      "gentle",
+      "most"
+     ],
+     "suggestion": "\"What matters most to you?\" — that's gentle.",
+     "suggestionFa": "«چی برات از همه مهم‌تره؟» — ملایمه.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exactly",
+      "needed",
+      "advice",
+      "thank"
+     ],
+     "suggestion": "Thank you. That's exactly the advice we needed.",
+     "suggestionFa": "ممنون. دقیقاً همون توصیه‌ای بود که لازم داشتیم.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "matters",
+     "fa": "مهم است"
+    },
+    {
+     "word": "relief",
+     "fa": "آسودگی"
+    },
+    {
+     "word": "gentle",
+     "fa": "ملایم"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "tom",
+   "text": "Thanks, Doctor. I think I know his answer already: Nicola, his garden, and seeing United win the league. One out of three's realistic.",
+   "translations": {
+    "fa": "ممنون دکتر. فکر کنم جوابش را از قبل می‌دونم: نیکولا، باغچه‌اش، و دیدن قهرمانی یونایتد. یکی از سه تا واقع‌بینانه‌ست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

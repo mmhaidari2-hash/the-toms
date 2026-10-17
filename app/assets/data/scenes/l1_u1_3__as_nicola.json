@@ -72,7 +72,7 @@
       "buttons",
       "though",
       "lemon",
-      "sugar"
+      "yummy"
      ],
      "suggestion": "We eat pancakes with lemon and sugar. Yummy! Mr Buttons is sad, though.",
      "suggestionFa": "پنکیک را با لیمو و شکر می‌خوریم. به‌به! ولی آقای دکمه ناراحته.",
@@ -142,8 +142,8 @@
    "branches": [
     {
      "keywords": [
-      "hm",
-      "mm"
+      "mm",
+      "hm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "pancakes",
-      "let's",
       "table",
+      "let's",
       "have",
       "yay"
      ],

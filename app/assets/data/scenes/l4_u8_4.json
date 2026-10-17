@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
+      "good",
       "true",
-      "flag",
-      "good"
+      "flag"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "real"
+      "even"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -156,10 +156,10 @@
     },
     {
      "keywords": [
-      "reported",
       "reliable",
-      "outlets",
-      "whether"
+      "reported",
+      "whether",
+      "outlets"
      ],
      "suggestion": "Check whether reliable news outlets have reported it.",
      "suggestionFa": "چک می‌کنم رسانه‌های معتبر گزارشش کردن یا نه.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "pause",
       "share",
+      "pause",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

@@ -1,0 +1,435 @@
+{
+ "id": "l2_u12_3",
+ "characterId": "sal",
+ "title": "At the hairdresser's",
+ "titleFa": "در آرایشگاه",
+ "setting": "Out on errands · Level 2",
+ "settingFa": "بیرون برای کارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sal",
+   "text": "Hello again! Leslie says you want a new style. Take a seat. What are we thinking?",
+   "translations": {
+    "fa": "دوباره سلام! لزلی می‌گه یه مدل جدید می‌خوای. بشین. به چی فکر می‌کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "interview",
+      "monday",
+      "smart"
+     ],
+     "suggestion": "Something smart. I've got a job interview on Monday.",
+     "suggestionFa": "یه چیز مرتب. دوشنبه مصاحبهٔ کاری دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "tidy",
+      "just",
+      "long"
+     ],
+     "suggestion": "Just tidy it up, please. It's too long.",
+     "suggestionFa": "فقط مرتبش کن، لطفاً. زیادی بلنده.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "style",
+     "fa": "مدل"
+    },
+    {
+     "word": "take a seat",
+     "fa": "بنشین"
+    },
+    {
+     "word": "smart",
+     "fa": "مرتب و شیک"
+    },
+    {
+     "word": "tidy up",
+     "fa": "مرتب کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sal",
+   "text": "An interview! Good luck. Shall I keep the length on top?",
+   "translations": {
+    "fa": "مصاحبه! موفق باشی. بلندی بالا را نگه دارم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sides",
+      "take",
+      "off",
+      "bit"
+     ],
+     "suggestion": "Yes, but take a bit off the sides.",
+     "suggestionFa": "آره، ولی از بغل‌ها یه کم بزن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shorter",
+      "please",
+      "top"
+     ],
+     "suggestion": "No, shorter on top too, please.",
+     "suggestionFa": "نه، بالا هم کوتاه‌تر، لطفاً.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "length",
+     "fa": "بلندی"
+    },
+    {
+     "word": "take off",
+     "fa": "کوتاه کردن"
+    },
+    {
+     "word": "sides",
+     "fa": "بغل‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sal",
+   "text": "Lovely. Do you want a fade on the sides, or scissors all over?",
+   "translations": {
+    "fa": "عالیه. بغل‌ها را فِید می‌خوای، یا همه جا با قیچی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "fade"
+     ],
+     "suggestion": "What's a fade?",
+     "suggestionFa": "فِید چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scissors",
+      "nothing",
+      "please",
+      "modern"
+     ],
+     "suggestion": "Scissors all over, please. Nothing too modern.",
+     "suggestionFa": "همه جا با قیچی، لطفاً. هیچ چیز خیلی مدرن نه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fade",
+     "fa": "کوتاهی تدریجی"
+    },
+    {
+     "word": "scissors",
+     "fa": "قیچی"
+    },
+    {
+     "word": "all over",
+     "fa": "همه جا"
+    },
+    {
+     "word": "modern",
+     "fa": "مدرن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sal",
+   "text": "A fade goes from very short at the bottom to longer at the top. Very smart.",
+   "translations": {
+    "fa": "فِید از خیلی کوتاه پایین تا بلندتر بالا می‌ره. خیلی شیکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fade",
+      "then",
+      "low",
+      "ok"
+     ],
+     "suggestion": "OK, a low fade then. Not too short.",
+     "suggestionFa": "باشه، پس یه فِید ملایم. نه خیلی کوتاه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "i'll",
+      "try",
+      "but"
+     ],
+     "suggestion": "I'll try it! But not too short, please.",
+     "suggestionFa": "امتحانش می‌کنم! ولی نه خیلی کوتاه، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bottom",
+     "fa": "پایین"
+    },
+    {
+     "word": "top",
+     "fa": "بالا"
+    },
+    {
+     "word": "low fade",
+     "fa": "فید ملایم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "not very short too",
+      "no too short"
+     ],
+     "echo": "Not too short — got it.",
+     "better": "Not too short, please.",
+     "betterFa": "نه خیلی کوتاه، لطفاً."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sal",
+   "text": "Got it. I'll wash it first. Is the water OK? Not too hot?",
+   "translations": {
+    "fa": "فهمیدم. اول می‌شورمش. آب خوبه؟ خیلی داغ نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "thanks"
+     ],
+     "suggestion": "It's perfect, thanks.",
+     "suggestionFa": "عالیه، ممنون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "please",
+      "cooler",
+      "bit"
+     ],
+     "suggestion": "A little bit cooler, please.",
+     "suggestionFa": "یه کم خنک‌تر، لطفاً.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wash",
+     "fa": "شستن"
+    },
+    {
+     "word": "cooler",
+     "fa": "خنک‌تر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sal",
+   "text": "So, what's the job?",
+   "translations": {
+    "fa": "خب، کار چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "warehouse",
+      "office"
+     ],
+     "suggestion": "It's in a warehouse office.",
+     "suggestionFa": "تو دفتر یه انباره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "assistant",
+      "teaching",
+      "applying"
+     ],
+     "suggestion": "I'm applying to be a teaching assistant.",
+     "suggestionFa": "برای دستیار معلم درخواست دادم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "warehouse",
+     "fa": "انبار"
+    },
+    {
+     "word": "applying",
+     "fa": "درخواست دادن"
+    },
+    {
+     "word": "teaching assistant",
+     "fa": "دستیار معلم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sal",
+   "text": "Brilliant. You'll smash it. Right — have a look. I can show you the back in the mirror.",
+   "translations": {
+    "fa": "عالیه. می‌ترکونی. خب — یه نگاه بنداز. می‌تونم پشتش را تو آینه نشونت بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "looks",
+      "wow"
+     ],
+     "suggestion": "Wow, it looks great!",
+     "suggestionFa": "وای، عالی شده!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "could",
+      "front",
+      "more"
+     ],
+     "suggestion": "Could you take a little more off the front?",
+     "suggestionFa": "می‌شه از جلو یه کم دیگه بزنی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smash it",
+     "fa": "عالی انجامش دادن"
+    },
+    {
+     "word": "the back",
+     "fa": "پشت"
+    },
+    {
+     "word": "mirror",
+     "fa": "آینه"
+    },
+    {
+     "word": "the front",
+     "fa": "جلو"
+    }
+   ],
+   "cultureNote": {
+    "en": "It's normal to ask for small changes before you pay — hairdressers expect it.",
+    "fa": "درخواست تغییر کوچک قبل از پرداخت عادی است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "sal",
+   "text": "No problem… there. Any product? A bit of wax keeps it neat for the interview.",
+   "translations": {
+    "fa": "مشکلی نیست… بفرما. محصولی بزنم؟ یه کم واکس برای مصاحبه مرتب نگهش می‌داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "please",
+      "just"
+     ],
+     "suggestion": "Yes please, just a little.",
+     "suggestionFa": "آره لطفاً، فقط یه کم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "much",
+      "how"
+     ],
+     "suggestion": "No thanks. How much is it?",
+     "suggestionFa": "نه ممنون. چقدر میشه؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "product",
+     "fa": "محصول آرایشی مو"
+    },
+    {
+     "word": "wax",
+     "fa": "واکس"
+    },
+    {
+     "word": "neat",
+     "fa": "مرتب"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "sal",
+   "text": "That's eighteen pounds. And come back in four weeks to keep the fade sharp. Good luck on Monday!",
+   "translations": {
+    "fa": "میشه هجده پوند. و چهار هفتهٔ دیگه برگرد که فِید تیز بمونه. دوشنبه موفق باشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

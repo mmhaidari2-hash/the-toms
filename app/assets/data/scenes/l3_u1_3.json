@@ -22,7 +22,7 @@
       "starting",
       "company",
       "tom's",
-      "his"
+      "own"
      ],
      "suggestion": "Yes, Tom's starting his own company.",
      "suggestionFa": "بله، تام داره شرکت خودش را راه می‌ندازه.",
@@ -34,8 +34,8 @@
      "keywords": [
       "about",
       "tell",
-      "tom",
-      "her"
+      "her",
+      "tom"
      ],
      "suggestion": "Go on, Tom. Tell her about it.",
      "suggestionFa": "بگو تام. بهش توضیح بده.",
@@ -56,8 +56,8 @@
    "branches": [
     {
      "keywords": [
-      "engineering",
-      "consultancy"
+      "consultancy",
+      "engineering"
      ],
      "suggestion": "It's an engineering consultancy.",
      "suggestionFa": "یه مشاورهٔ مهندسیه.",
@@ -109,8 +109,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "month",
-      "about"
+      "about",
+      "month"
      ],
      "suggestion": "About five thousand pounds a month at first.",
      "suggestionFa": "اول حدود ماهی پنج هزار پوند.",
@@ -163,7 +163,7 @@
       "transfer",
       "clients",
       "hardly",
-      "bank"
+      "most"
      ],
      "suggestion": "Hardly ever. Most clients pay by bank transfer.",
      "suggestionFa": "تقریباً هیچ‌وقت. بیشتر مشتری‌ها با انتقال بانکی پرداخت می‌کنن.",
@@ -173,8 +173,8 @@
     },
     {
      "keywords": [
-      "month",
       "maybe",
+      "month",
       "once"
      ],
      "suggestion": "Maybe once a month.",
@@ -213,8 +213,8 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "take",
+      "long",
       "how",
       "yet"
      ],
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "documents",
-      "here",
       "week",
-      "last"
+      "last",
+      "here"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",
@@ -285,8 +285,8 @@
     {
      "keywords": [
       "register",
-      "cost",
       "much",
+      "cost",
       "how"
      ],
      "suggestion": "How much does it cost to register?",

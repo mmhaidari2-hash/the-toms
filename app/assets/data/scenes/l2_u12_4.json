@@ -1,0 +1,429 @@
+{
+ "id": "l2_u12_4",
+ "characterId": "leslie",
+ "title": "Calling the vet",
+ "titleFa": "تماس با دامپزشک",
+ "setting": "Out on errands · Level 2",
+ "settingFa": "بیرون برای کارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Mrs Khan's cat, Biscuit, isn't eating. I'm worried. Can you ring the vet while I hold her?",
+   "translations": {
+    "fa": "گربهٔ خانم خان، بیسکویت، غذا نمی‌خوره. نگرانم. تا من نگهش می‌دارم می‌تونی به دامپزشک زنگ بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "number",
+      "course"
+     ],
+     "suggestion": "Of course. What's the number?",
+     "suggestionFa": "حتماً. شماره چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuit",
+      "call",
+      "poor",
+      "i'll"
+     ],
+     "suggestion": "Poor Biscuit. I'll call now.",
+     "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "vet",
+     "fa": "دامپزشک"
+    },
+    {
+     "word": "worried",
+     "fa": "نگران"
+    },
+    {
+     "word": "hold",
+     "fa": "نگه داشتن"
+    },
+    {
+     "word": "poor",
+     "fa": "طفلکی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "vet",
+   "text": "Hackney Animal Clinic, Dr Rees speaking. What seems to be the problem?",
+   "translations": {
+    "fa": "کلینیک حیوانات هاکنی، دکتر ریس هستم. مشکل چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neighbour's",
+      "eating",
+      "hello",
+      "isn't"
+     ],
+     "suggestion": "Hello. Our neighbour's cat isn't eating.",
+     "suggestionFa": "سلام. گربهٔ همسایه‌مون غذا نمی‌خوره.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looking",
+      "unwell",
+      "after",
+      "we're"
+     ],
+     "suggestion": "Hi. A cat we're looking after seems unwell.",
+     "suggestionFa": "سلام. گربه‌ای که ازش نگهداری می‌کنیم مریض به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "what seems to be the problem",
+     "fa": "مشکل چیست"
+    },
+    {
+     "word": "looking after",
+     "fa": "نگهداری کردن"
+    },
+    {
+     "word": "unwell",
+     "fa": "بیمار"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "vet",
+   "text": "I see. How long hasn't she eaten for?",
+   "translations": {
+    "fa": "متوجهم. چند وقته غذا نخورده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yesterday",
+      "morning",
+      "since"
+     ],
+     "suggestion": "Since yesterday morning.",
+     "suggestionFa": "از دیروز صبح.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "half",
+      "day"
+     ],
+     "suggestion": "About a day and a half.",
+     "suggestionFa": "حدود یک روز و نیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "since",
+     "fa": "از (زمان)"
+    },
+    {
+     "word": "yesterday morning",
+     "fa": "دیروز صبح"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she not eat since yesterday",
+      "she no eating"
+     ],
+     "echo": "She hasn't eaten since yesterday? OK.",
+     "better": "She hasn't eaten since yesterday.",
+     "betterFa": "از دیروز غذا نخورده."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "vet",
+   "text": "Is she drinking water? Any sickness or diarrhoea?",
+   "translations": {
+    "fa": "آب می‌خوره؟ استفراغ یا اسهال داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sickness",
+      "drinking",
+      "little",
+      "she's"
+     ],
+     "suggestion": "She's drinking a little. No sickness.",
+     "suggestionFa": "یه کم آب می‌خوره. استفراغ نه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "sick",
+      "once",
+      "was"
+     ],
+     "suggestion": "She was sick once this morning.",
+     "suggestionFa": "امروز صبح یه بار استفراغ کرد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sickness",
+     "fa": "استفراغ"
+    },
+    {
+     "word": "diarrhoea",
+     "fa": "اسهال"
+    },
+    {
+     "word": "was sick",
+     "fa": "استفراغ کرد"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British English, \"to be sick\" usually means to vomit.",
+    "fa": "be sick در بریتانیا یعنی استفراغ کردن."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "vet",
+   "text": "OK. Is she moving normally? Hiding? Cats hide when they don't feel well.",
+   "translations": {
+    "fa": "باشه. عادی حرکت می‌کنه؟ قایم میشه؟ گربه‌ها وقتی حالشون خوب نیست قایم میشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hiding",
+      "under",
+      "sofa"
+     ],
+     "suggestion": "Yes, she's hiding under the sofa.",
+     "suggestionFa": "آره، زیر مبل قایم شده.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "moving",
+      "slowly",
+      "but"
+     ],
+     "suggestion": "She's moving, but very slowly.",
+     "suggestionFa": "حرکت می‌کنه، ولی خیلی آروم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "normally",
+     "fa": "به‌طور عادی"
+    },
+    {
+     "word": "hiding",
+     "fa": "پنهان شدن"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "vet",
+   "text": "Right. I'd like to see her today, just to be safe. I have a slot at four. Is that OK?",
+   "translations": {
+    "fa": "خب. می‌خوام امروز ببینمش، محض احتیاط. ساعت چهار یه وقت دارم. خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "four",
+      "fine"
+     ],
+     "suggestion": "Yes, four is fine.",
+     "suggestionFa": "آره، چهار خوبه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "earlier",
+      "have"
+     ],
+     "suggestion": "Do you have anything earlier?",
+     "suggestionFa": "زودتر وقت دارید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "to be safe",
+     "fa": "محض احتیاط"
+    },
+    {
+     "word": "slot",
+     "fa": "وقت خالی"
+    },
+    {
+     "word": "earlier",
+     "fa": "زودتر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "vet",
+   "text": "Four is my earliest. Bring her in a carrier. Is she registered with us?",
+   "translations": {
+    "fa": "چهار زودترین وقتمه. با کیف حمل بیاریدش. پیش ما ثبت‌نام شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "under",
+      "khan",
+      "mrs"
+     ],
+     "suggestion": "Yes, under Mrs Khan.",
+     "suggestionFa": "آره، به اسم خانم خان.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbour",
+      "belongs",
+      "sure",
+      "she"
+     ],
+     "suggestion": "I'm not sure. She belongs to our neighbour.",
+     "suggestionFa": "مطمئن نیستم. مال همسایه‌مونه.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carrier",
+     "fa": "کیف حمل حیوان"
+    },
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام‌شده"
+    },
+    {
+     "word": "belongs to",
+     "fa": "متعلق است به"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "vet",
+   "text": "I've found her — Biscuit Khan, age nine. A first consultation is forty-five pounds. Is that alright?",
+   "translations": {
+    "fa": "پیداش کردم — بیسکویت خان، نه ساله. معاینهٔ اول چهل و پنج پونده. اشکالی نداره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "we'll",
+      "four",
+      "fine"
+     ],
+     "suggestion": "Yes, that's fine. We'll see you at four.",
+     "suggestionFa": "آره، مشکلی نیست. ساعت چهار می‌بینیمتون.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "first",
+      "khan",
+      "call"
+     ],
+     "suggestion": "OK. Should we call Mrs Khan first?",
+     "suggestionFa": "باشه. اول به خانم خان زنگ بزنیم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "consultation",
+     "fa": "معاینه/مشاوره"
+    },
+    {
+     "word": "alright",
+     "fa": "اشکالی ندارد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Vets in the UK are private — there's no NHS for pets — so many owners buy pet insurance.",
+    "fa": "دامپزشکی خصوصی است؛ بیمهٔ حیوان رایج است."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "vet",
+   "text": "Good idea — let her know. Try a little warm chicken before you come. See you at four.",
+   "translations": {
+    "fa": "فکر خوبیه — بهش خبر بدید. قبل از اومدن یه کم مرغ گرم امتحان کنید. ساعت چهار می‌بینمتون."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "stopped",
       "working",
+      "stopped",
       "kettle",
       "bought"
      ],
@@ -75,8 +75,8 @@
      "keywords": [
       "receipt",
       "here's",
-      "card",
-      "paid"
+      "paid",
+      "card"
      ],
      "suggestion": "Here's the receipt. I paid by card, too.",
      "suggestionFa": "اینم رسید. با کارت هم پرداخت کردم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "statement",
       "helps",
-      "bank",
-      "i've"
+      "i've",
+      "bank"
      ],
      "suggestion": "I've got the bank statement, if that helps.",
      "suggestionFa": "صورت‌حساب بانکی دارم، اگه کمک می‌کنه.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "morning",
-      "stopped",
       "heating",
+      "stopped",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",

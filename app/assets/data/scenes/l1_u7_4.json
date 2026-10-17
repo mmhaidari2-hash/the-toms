@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "ask",
-      "can"
+      "can",
+      "ask"
      ],
      "suggestion": "I can ask for you.",
      "suggestionFa": "من می‌تونم براتون بپرسم.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "medicine",
-      "hello",
       "needs",
+      "hello",
       "nana"
      ],
      "suggestion": "Hello, my nana needs cough medicine.",
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "spoons",
-      "times",
       "three",
+      "times",
       "day"
      ],
      "suggestion": "Two spoons, three times a day. OK!",

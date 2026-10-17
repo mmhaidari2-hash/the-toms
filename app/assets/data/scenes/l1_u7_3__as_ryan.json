@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "white",
+      "those",
       "these",
       "there",
-      "think",
-      "those",
-      "white"
+      "think"
      ],
      "suggestion": "White, I think. These ones or those ones over there?",
      "suggestionFa": "سفید، فکر کنم. این‌ها یا اون‌هایی که اونجان؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "thirty",
       "pounds",
+      "thirty",
+      "those",
       "these",
-      "forty",
-      "those"
+      "forty"
      ],
      "suggestion": "Those are forty-five pounds. These are thirty-five. Hmm.",
      "suggestionFa": "اون‌ها چهل‌وپنج پوندن. این‌ها سی‌وپنج. هوم.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "they're",
-      "bigger",
       "better",
+      "bigger",
       "small",
-      "have"
+      "tens"
      ],
      "suggestion": "They're a bit small. Have you got a bigger size? Ah, the tens are better.",
      "suggestionFa": "یه کم کوچیکن. سایز بزرگ‌تر دارید؟ آه، ده بهتره.",
@@ -149,8 +149,8 @@
       "really",
       "comfy",
       "chips",
-      "want",
-      "five"
+      "five",
+      "left"
      ],
      "suggestion": "Really comfy. And I've got five quid left for chips! Want some?",
      "suggestionFa": "خیلی راحتن. و پنج پوند هم برای سیب‌زمینی سرخ‌کرده موند! می‌خوای؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "chippy's",
       "corner",
-      "chips",
       "round",
-      "come"
+      "chips",
+      "life"
      ],
      "suggestion": "Nah, chips are life. Come on, the chippy's round the corner!",
      "suggestionFa": "نه بابا، چیپس زندگیه. بیا، مغازهٔ فیش‌اند‌چیپس سر کوچه‌ست!",

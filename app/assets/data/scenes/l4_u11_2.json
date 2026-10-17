@@ -1,0 +1,511 @@
+{
+ "id": "l4_u11_2",
+ "characterId": "tom",
+ "title": "Renting a flat",
+ "titleFa": "اجارهٔ آپارتمان",
+ "setting": "Bills and paperwork · Level 4",
+ "settingFa": "قبض‌ها و کاغذبازی",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "agent",
+   "text": "Hi! You must be here for the viewing. I'm Olivia from Hackney Homes. Shall we go up? It's deceptively spacious.",
+   "translations": {
+    "fa": "سلام! حتماً برای بازدید اومدید. من اولیویا از هاکنی هومزم. بریم بالا؟ از اونی که به نظر میاد بزرگ‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "opinion",
+      "second",
+      "tom's",
+      "come"
+     ],
+     "suggestion": "Yes, hi. Tom's come with me for a second opinion.",
+     "suggestionFa": "آره، سلام. تام برای نظر دوم باهام اومده.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "deceptively",
+      "spacious",
+      "olivia",
+      "small"
+     ],
+     "suggestion": "Hi Olivia. \"Deceptively spacious\" — does that mean small?",
+     "suggestionFa": "سلام اولیویا. «بزرگ‌تر از ظاهر» — یعنی کوچیکه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "viewing",
+     "fa": "بازدید ملک"
+    },
+    {
+     "word": "deceptively spacious",
+     "fa": "بزرگ‌تر از آنچه به نظر می‌رسد"
+    },
+    {
+     "word": "second opinion",
+     "fa": "نظر دوم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Estate agents' language is famous: \"cosy\" often means tiny; \"up-and-coming area\" means not fashionable yet.",
+    "fa": "زبان مشاوران املاک معروف است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "agent",
+   "text": "Ha! It's a one-bed, fifty square metres. Rent is £1,650 a month.",
+   "translations": {
+    "fa": "ها! یه‌خوابه‌ست، پنجاه متر مربع. اجاره ماهی ۱۶۵۰ پونده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "included",
+      "bills",
+      "rent",
+      "any"
+     ],
+     "suggestion": "Are any bills included in the rent?",
+     "suggestionFa": "قبض‌ها تو اجاره حسابه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "negotiable",
+      "that's",
+      "budget",
+      "over"
+     ],
+     "suggestion": "That's a bit over my budget. Is it negotiable?",
+     "suggestionFa": "یه کم بالاتر از بودجه‌مه. قابل مذاکره‌ست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one-bed",
+     "fa": "یک‌خوابه"
+    },
+    {
+     "word": "square metres",
+     "fa": "متر مربع"
+    },
+    {
+     "word": "included",
+     "fa": "شامل"
+    },
+    {
+     "word": "budget",
+     "fa": "بودجه"
+    },
+    {
+     "word": "negotiable",
+     "fa": "قابل مذاکره"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "agent",
+   "text": "Bills aren't included, but council tax is band B. The landlord might consider £1,600 for a longer tenancy.",
+   "translations": {
+    "fa": "قبض‌ها حساب نیست، ولی مالیات شورا گروه B ـه. صاحبخونه برای اجارهٔ طولانی‌تر شاید ۱۶۰۰ را قبول کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minimum",
+      "long",
+      "how"
+     ],
+     "suggestion": "How long is the minimum tenancy?",
+     "suggestionFa": "حداقل مدت اجاره چقدره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "longer",
+      "years",
+      "would",
+      "mean"
+     ],
+     "suggestion": "What would a longer tenancy mean — two years?",
+     "suggestionFa": "اجارهٔ طولانی‌تر یعنی چی — دو سال؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "council tax band",
+     "fa": "گروه مالیات شورا"
+    },
+    {
+     "word": "landlord",
+     "fa": "صاحبخانه"
+    },
+    {
+     "word": "tenancy",
+     "fa": "اجاره‌نامه/مدت اجاره"
+    },
+    {
+     "word": "minimum",
+     "fa": "حداقل"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "agent",
+   "text": "Twelve months minimum, with a break clause at six. For £1,600 he'd want eighteen months.",
+   "translations": {
+    "fa": "حداقل دوازده ماه، با یه بند فسخ در ماه شش. برای ۱۶۰۰ هجده ماه می‌خواد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "clause",
+      "what's",
+      "break"
+     ],
+     "suggestion": "What's a break clause, exactly?",
+     "suggestionFa": "بند فسخ دقیقاً چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eighteen",
+      "months",
+      "could",
+      "work"
+     ],
+     "suggestion": "Eighteen months could work for me.",
+     "suggestionFa": "هجده ماه برام شدنیه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "break clause",
+     "fa": "بند فسخ"
+    },
+    {
+     "word": "exactly",
+     "fa": "دقیقاً"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Ask about the deposit, and whether it's protected. That's important.",
+   "translations": {
+    "fa": "دربارهٔ ودیعه بپرس، و اینکه حفاظت‌شده هست یا نه. مهمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "protection",
+      "scheme",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is the deposit, and is it in a protection scheme?",
+     "suggestionFa": "ودیعه چقدره، و تو طرح حفاظت هست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "protected"
+     ],
+     "suggestion": "Is the deposit protected?",
+     "suggestionFa": "ودیعه حفاظت‌شده‌ست؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deposit",
+     "fa": "ودیعه"
+    },
+    {
+     "word": "protected",
+     "fa": "حفاظت‌شده"
+    },
+    {
+     "word": "protection scheme",
+     "fa": "طرح حفاظت"
+    }
+   ],
+   "cultureNote": {
+    "en": "In England, landlords must put your deposit in a government-approved scheme within 30 days, and it's capped at five weeks' rent.",
+    "fa": "ودیعه باید در طرح دولتی باشد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "agent",
+   "text": "Five weeks' rent, in the DPS scheme. Holding deposit is one week. Do you have pets or smoke?",
+   "translations": {
+    "fa": "اجارهٔ پنج هفته، تو طرح DPS. ودیعهٔ نگهداری یه هفته‌ست. حیوون دارید یا سیگار می‌کشید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "smoke",
+      "pets"
+     ],
+     "suggestion": "No pets, and I don't smoke.",
+     "suggestionFa": "حیوون ندارم، و سیگار نمی‌کشم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mould",
+      "there",
+      "damp",
+      "flat"
+     ],
+     "suggestion": "No. Is there any damp or mould in the flat?",
+     "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "holding deposit",
+     "fa": "ودیعهٔ نگهداری"
+    },
+    {
+     "word": "pets",
+     "fa": "حیوانات خانگی"
+    },
+    {
+     "word": "damp",
+     "fa": "رطوبت"
+    },
+    {
+     "word": "mould",
+     "fa": "کپک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is damp",
+      "have it mould"
+     ],
+     "echo": "Any damp or mould? Good question.",
+     "better": "Is there any damp or mould?",
+     "betterFa": "رطوبت یا کپک داره؟"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "agent",
+   "text": "Good question. There was a little in the bathroom, but the landlord fitted an extractor fan.",
+   "translations": {
+    "fa": "سؤال خوبیه. یه کم تو حموم بود، ولی صاحبخونه یه هواکش نصب کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bathroom",
+      "ceiling",
+      "can",
+      "see"
+     ],
+     "suggestion": "Can I see the bathroom ceiling?",
+     "suggestionFa": "می‌تونم سقف حموم را ببینم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "rating",
+      "energy",
+      "flat"
+     ],
+     "suggestion": "What's the energy rating of the flat?",
+     "suggestionFa": "رتبهٔ انرژی آپارتمان چیه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fitted",
+     "fa": "نصب کرد"
+    },
+    {
+     "word": "extractor fan",
+     "fa": "هواکش"
+    },
+    {
+     "word": "ceiling",
+     "fa": "سقف"
+    },
+    {
+     "word": "energy rating",
+     "fa": "رتبهٔ انرژی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "agent",
+   "text": "Of course — and it's EPC band C, so heating shouldn't be too bad. What do you do for work, if you don't mind me asking?",
+   "translations": {
+    "fa": "حتماً — و رتبهٔ EPC گروه C ـه، پس گرمایش نباید خیلی بد باشه. اگه ناراحت نمی‌شید، کارتون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "logistics",
+      "company",
+      "time",
+      "full"
+     ],
+     "suggestion": "I work full-time at a logistics company.",
+     "suggestionFa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "references",
+      "assistant",
+      "teaching",
+      "need"
+     ],
+     "suggestion": "I'm a teaching assistant. Will you need references?",
+     "suggestionFa": "دستیار معلمم. معرف لازم دارید؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "EPC",
+     "fa": "گواهی عملکرد انرژی"
+    },
+    {
+     "word": "logistics",
+     "fa": "لجستیک"
+    },
+    {
+     "word": "references",
+     "fa": "معرف‌ها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "agent",
+   "text": "Yes, we'll check references, your right to rent and affordability. Usually income of thirty times the monthly rent.",
+   "translations": {
+    "fa": "آره، معرف‌ها، حق اجاره و توان پرداختتون را چک می‌کنیم. معمولاً درآمد سی برابر اجارهٔ ماهانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thirty",
+      "that's",
+      "strict",
+      "quite"
+     ],
+     "suggestion": "Thirty times? That's quite strict.",
+     "suggestionFa": "سی برابر؟ نسبتاً سختگیرانه‌ست.",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "guarantor",
+      "need",
+      "one",
+      "can"
+     ],
+     "suggestion": "Can Tom be a guarantor if I need one?",
+     "suggestionFa": "اگه لازم شد تام می‌تونه ضامن بشه؟",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "right to rent",
+     "fa": "حق اجاره (بررسی اقامت)"
+    },
+    {
+     "word": "affordability",
+     "fa": "توان پرداخت"
+    },
+    {
+     "word": "strict",
+     "fa": "سختگیرانه"
+    },
+    {
+     "word": "guarantor",
+     "fa": "ضامن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Landlords must check every adult tenant's \"right to rent\" — their immigration status — before a tenancy starts.",
+    "fa": "بررسی وضعیت اقامت الزامی است."
+   }
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "tom",
+   "text": "I'd be happy to. Right, Olivia — can we have a proper look at that bathroom? And I want to test the water pressure.",
+   "translations": {
+    "fa": "با کمال میل. خب، اولیویا — می‌تونیم یه نگاه درست به اون حموم بندازیم؟ و می‌خوام فشار آب را امتحان کنم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

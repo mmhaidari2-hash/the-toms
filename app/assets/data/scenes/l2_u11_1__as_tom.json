@@ -1,0 +1,444 @@
+{
+ "id": "l2_u11_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) The washing machine's broken",
+ "titleFa": "(در نقش Tom) ماشین لباسشویی خراب شده",
+ "setting": "Running the house · Level 2",
+ "settingFa": "ادارهٔ خانه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u11_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "brilliant",
+      "machine",
+      "washing",
+      "there's"
+     ],
+     "suggestion": "Oh, brilliant. The washing machine won't drain. There's water everywhere! Can you grab some towels?",
+     "suggestionFa": "عالی شد. ماشین لباسشویی آب را خالی نمی‌کنه. همه جا آبه! می‌تونی چند تا حوله بیاری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Here are some old towels.",
+   "translations": {
+    "fa": "اینم چند تا حولهٔ قدیمی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "engineer",
+      "switch",
+      "first",
+      "ring"
+     ],
+     "suggestion": "Good idea — switch it off first. I'll ring the engineer. Gaz? Hi, it's Tom Thompson.",
+     "suggestionFa": "فکر خوبیه — اول خاموشش کن. به تعمیرکار زنگ می‌زنم. گز؟ سلام، تام تامپسونم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I'll switch it off now.",
+   "translations": {
+    "fa": "الان خاموشش می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "engineer",
+   "text": "Alright, Tom. What's the problem with it, then?",
+   "translations": {
+    "fa": "سلام تام. خب، مشکلش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keeps beeping",
+     "fa": "مدام بوق می‌زند"
+    },
+    {
+     "word": "drum",
+     "fa": "دیگ ماشین لباسشویی"
+    },
+    {
+     "word": "smells",
+     "fa": "بو می‌دهد"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It won't drain, and it keeps beeping.",
+   "translations": {
+    "fa": "آب را خالی نمی‌کنه، و مدام بوق می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "engineer",
+   "text": "Sounds like the filter's blocked. Usually a sock. How old is the machine?",
+   "translations": {
+    "fa": "به نظر میاد فیلتر گرفته. معمولاً یه جوراب. ماشین چند سالشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "filter",
+     "fa": "فیلتر"
+    },
+    {
+     "word": "blocked",
+     "fa": "گرفته"
+    },
+    {
+     "word": "sock",
+     "fa": "جوراب"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "About eight years old.",
+   "translations": {
+    "fa": "حدود هشت سال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "engineer",
+   "text": "Tell you what — try the filter first. Bottom right, behind the little door. Put a tray under it!",
+   "translations": {
+    "fa": "ببین — اول فیلتر را امتحان کن. پایین سمت راست، پشت در کوچیک. یه سینی زیرش بذار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tell you what",
+     "fa": "ببین چی می‌گم"
+    },
+    {
+     "word": "bottom right",
+     "fa": "پایین سمت راست"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "tray",
+     "fa": "سینی"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "OK, I've found the little door.",
+   "translations": {
+    "fa": "باشه، در کوچیک را پیدا کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "engineer",
+   "text": "Loads! Unscrew it slowly. Anything in there?",
+   "translations": {
+    "fa": "کلی! آروم بازش کن. چیزی توشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unscrew",
+     "fa": "پیچ را باز کردن"
+    },
+    {
+     "word": "coins",
+     "fa": "سکه‌ها"
+    },
+    {
+     "word": "hair clip",
+     "fa": "گیرهٔ مو"
+    },
+    {
+     "word": "fluff",
+     "fa": "پرز"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Yes! A sock and two coins.",
+   "translations": {
+    "fa": "آره! یه جوراب و دو تا سکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "engineer",
+   "text": "Told you! Clean it, screw it back, and run a rinse. If it still won't drain, I'll come round Thursday.",
+   "translations": {
+    "fa": "گفتم که! تمیزش کن، ببندش، و یه آبکشی بزن. اگه باز آب را خالی نکرد، پنجشنبه میام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "screw back",
+     "fa": "دوباره بستن"
+    },
+    {
+     "word": "run a rinse",
+     "fa": "یک دور آبکشی"
+    },
+    {
+     "word": "come round",
+     "fa": "آمدن"
+    },
+    {
+     "word": "owe",
+     "fa": "بدهکار بودن"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thank you. How much do we owe you?",
+   "translations": {
+    "fa": "ممنون. چقدر بدهکاریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "engineer",
+   "text": "Nothing for a phone call, mate. Tell Tom to check the kids' pockets! Ta-ra.",
+   "translations": {
+    "fa": "برای یه تماس تلفنی هیچی، رفیق. به تام بگو جیب بچه‌ها را چک کنه! خداحافظ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pockets",
+     "fa": "جیب‌ها"
+    },
+    {
+     "word": "ta-ra",
+     "fa": "خداحافظ (عامیانه)"
+    }
+   ]
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Cheers, Gaz! That's really kind.",
+   "translations": {
+    "fa": "مرسی گز! خیلی لطف داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineer",
+      "sandwich",
+      "you've",
+      "earned",
+      "ryan's"
+     ],
+     "suggestion": "A sock! I bet it's Ryan's. Right, you've earned a bacon sandwich. Well done, engineer!",
+     "suggestionFa": "یه جوراب! شرط می‌بندم مال رایانه. خب، یه ساندویچ بیکن حقته. آفرین، تعمیرکار!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

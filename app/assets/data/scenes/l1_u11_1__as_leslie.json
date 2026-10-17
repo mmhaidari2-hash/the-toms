@@ -1,0 +1,249 @@
+{
+ "id": "l1_u11_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) The morning rush",
+ "titleFa": "(در نقش Leslie) شلوغی صبح",
+ "setting": "A day at home · Level 1",
+ "settingFa": "یک روز در خانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u11_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "usually",
+      "morning",
+      "seven",
+      "time"
+     ],
+     "suggestion": "Morning! It's seven o'clock. What time do you usually get up?",
+     "suggestionFa": "صبح بخیر! ساعت هفته. معمولاً ساعت چند بیدار می‌شی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I usually get up at seven.",
+   "translations": {
+    "fa": "معمولاً ساعت هفت بیدار می‌شم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "morning",
+      "lovely",
+      "have"
+     ],
+     "suggestion": "Lovely. Do you have breakfast in the morning?",
+     "suggestionFa": "عالیه. صبح‌ها صبحونه می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, I have toast and tea.",
+   "translations": {
+    "fa": "آره، نون تست و چای می‌خورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "porridge",
+      "william",
+      "nicola",
+      "cereal"
+     ],
+     "suggestion": "Tom has cereal. Nicola has porridge. And William has everything!",
+     "suggestionFa": "تام غلات صبحانه می‌خوره. نیکولا فرنی. و ویلیام همه چی!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Ha! William loves food.",
+   "translations": {
+    "fa": "ها! ویلیام عاشق غذاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "nicola",
+      "please",
+      "before",
+      "after"
+     ],
+     "suggestion": "Hot oats with milk. Now — Nicola! Brush your teeth, please! Do you brush your teeth before or after breakfast?",
+     "suggestionFa": "جو داغ با شیر. حالا — نیکولا! لطفاً مسواک بزن! قبل یا بعد از صبحونه مسواک می‌زنی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "After breakfast.",
+   "translations": {
+    "fa": "بعد از صبحونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "school",
+      "leave",
+      "house",
+      "eight"
+     ],
+     "suggestion": "Good. I leave at eight. I walk Nicola to school. What time do you leave the house?",
+     "suggestionFa": "خوبه. من ساعت هشت می‌رم. نیکولا را پیاده می‌برم مدرسه. تو ساعت چند از خونه می‌ری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I leave at half eight.",
+   "translations": {
+    "fa": "هشت و نیم می‌رم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "where",
+      "them",
+      "lose",
+      "keys"
+     ],
+     "suggestion": "Oh, where are my keys? I always lose my keys! Can you see them?",
+     "suggestionFa": "آخ، کلیدهام کجان؟ همیشه کلیدهام را گم می‌کنم! می‌بینیشون؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, they're on the table.",
+   "translations": {
+    "fa": "آره، رو میزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "found",
+      "lunch",
+      "them",
+      "have"
+     ],
+     "suggestion": "Found them! Thank you. Tom! Have you got your lunch?",
+     "suggestionFa": "پیداشون کردم! ممنون. تام! ناهارت را برداشتی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "His lunch box is in the fridge.",
+   "translations": {
+    "fa": "ظرف ناهارش تو یخچاله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "what's",
+      "every",
+      "like",
+      "star"
+     ],
+     "suggestion": "You're a star. Every morning is like this! What's your morning like?",
+     "suggestionFa": "تو یه ستاره‌ای. هر صبح همین‌طوره! صبح تو چطوره؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "My mornings are quiet. I read the news.",
+   "translations": {
+    "fa": "صبح‌هام آرومه. اخبار می‌خونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everybody",
+      "lovely",
+      "right",
+      "coats",
+      "same"
+     ],
+     "suggestion": "Ha! Same here. Right, coats on, everybody! Have a lovely day!",
+     "suggestionFa": "ها! منم همین‌طور. خب، همه کت‌ها را بپوشید! روز خوبی داشته باشید!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

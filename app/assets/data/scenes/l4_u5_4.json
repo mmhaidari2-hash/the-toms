@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "george",
       "course",
-      "sorry",
-      "about"
+      "george",
+      "about",
+      "sorry"
      ],
      "suggestion": "Of course. George, I'm so sorry about Stan.",
      "suggestionFa": "حتماً. جورج، خیلی بابت استن متأسفم.",
@@ -34,7 +34,7 @@
      "keywords": [
       "friends",
       "happy",
-      "long",
+      "they",
       "were"
      ],
      "suggestion": "I'd be happy to. How long were they friends?",
@@ -121,7 +121,7 @@
       "football",
       "other",
       "knew",
-      "club"
+      "each"
      ],
      "suggestion": "So you knew each other from the football club?",
      "suggestionFa": "پس همدیگه را از باشگاه فوتبال می‌شناختید؟",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "about",
-      "tell",
       "like",
+      "tell",
       "was"
      ],
      "suggestion": "Tell me about him. What was he like?",
@@ -166,7 +166,7 @@
      "keywords": [
       "brothers",
       "saying",
-      "more",
+      "they",
       "were"
      ],
      "suggestion": "So what you're saying is, they were more like brothers.",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "teasing",
-      "sounds",
       "behind",
+      "sounds",
       "there"
      ],
      "suggestion": "It sounds like there was a lot of love behind the teasing.",

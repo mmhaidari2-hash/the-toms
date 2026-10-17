@@ -1,0 +1,430 @@
+{
+ "id": "l2_u12_2",
+ "characterId": "priya",
+ "title": "The self-checkout",
+ "titleFa": "صندوق خودپرداز",
+ "setting": "Out on errands · Level 2",
+ "settingFa": "بیرون برای کارها",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "You alright there? You look a bit stuck with that machine.",
+   "translations": {
+    "fa": "اونجا خوبی؟ به نظر میاد با اون دستگاه گیر کردی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unexpected",
+      "bagging",
+      "saying",
+      "keeps"
+     ],
+     "suggestion": "Yes, it keeps saying \"unexpected item in bagging area\".",
+     "suggestionFa": "آره، مدام می‌گه «کالای غیرمنتظره در قسمت کیسه».",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "thanks",
+      "well",
+      "fine"
+     ],
+     "suggestion": "I'm fine, thanks. Well — not really!",
+     "suggestionFa": "خوبم ممنون. خب — نه واقعاً!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stuck",
+     "fa": "گیر کرده"
+    },
+    {
+     "word": "keeps saying",
+     "fa": "مدام می‌گوید"
+    },
+    {
+     "word": "unexpected item",
+     "fa": "کالای غیرمنتظره"
+    },
+    {
+     "word": "bagging area",
+     "fa": "قسمت کیسه‌گذاری"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Unexpected item in the bagging area\" is a famously annoying British self-checkout message.",
+    "fa": "این پیام معروف و آزاردهنده است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Ha! Everyone hates that. Is your own bag on the scale?",
+   "translations": {
+    "fa": "ها! همه از اون متنفرن. کیسهٔ خودت رو ترازوئه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "there",
+      "put"
+     ],
+     "suggestion": "Yes. Shouldn't I put it there?",
+     "suggestionFa": "آره. نباید اونجا بذارمش؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "oh"
+     ],
+     "suggestion": "Oh! Yes, it is. Sorry.",
+     "suggestionFa": "اوه! آره، هست. ببخشید.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scale",
+     "fa": "ترازو"
+    },
+    {
+     "word": "shouldn't",
+     "fa": "نباید"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Press \"I'm using my own bag\" first. There you go. Now scan your items.",
+   "translations": {
+    "fa": "اول بزن «از کیسهٔ خودم استفاده می‌کنم». بفرما. حالا اجناست را اسکن کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barcode",
+      "bananas",
+      "there's",
+      "won't"
+     ],
+     "suggestion": "The bananas won't scan. There's no barcode.",
+     "suggestionFa": "موزها اسکن نمی‌شن. بارکد ندارن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "thanks",
+      "that's",
+      "much"
+     ],
+     "suggestion": "Thanks. That's much better.",
+     "suggestionFa": "ممنون. خیلی بهتره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    },
+    {
+     "word": "items",
+     "fa": "اقلام"
+    },
+    {
+     "word": "barcode",
+     "fa": "بارکد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "For fruit, press \"Look up item\", then \"Bananas\". Put them on the scale. It weighs them.",
+   "translations": {
+    "fa": "برای میوه، بزن «جستجوی کالا»، بعد «موز». بذارشون رو ترازو. وزنشون می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "approval",
+      "need",
+      "says",
+      "got"
+     ],
+     "suggestion": "Got it. Now it says I need approval.",
+     "suggestionFa": "فهمیدم. حالا می‌گه تأیید لازم دارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "easy",
+      "when",
+      "know",
+      "how"
+     ],
+     "suggestion": "Easy when you know how!",
+     "suggestionFa": "وقتی بلد باشی آسونه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "look up",
+     "fa": "جستجو کردن"
+    },
+    {
+     "word": "weighs",
+     "fa": "وزن می‌کند"
+    },
+    {
+     "word": "approval",
+     "fa": "تأیید"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "That's the paracetamol — we have to check. Only two packs per person. You're fine.",
+   "translations": {
+    "fa": "این پاراستامولـه — باید چک کنیم. فقط دو بسته برای هر نفر. مشکلی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "packs",
+      "only",
+      "why",
+      "two"
+     ],
+     "suggestion": "Why only two packs?",
+     "suggestionFa": "چرا فقط دو بسته؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "thanks",
+      "limit",
+      "there"
+     ],
+     "suggestion": "Thanks. Is there a limit on everything?",
+     "suggestionFa": "ممنون. همه چیز محدودیت داره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "per person",
+     "fa": "برای هر نفر"
+    },
+    {
+     "word": "limit",
+     "fa": "محدودیت"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK shops limit painkillers like paracetamol to two packs per person, for safety.",
+    "fa": "خرید مسکن به دو بسته محدود است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "It's a safety rule. Do you have a Clubcard? You get the cheaper price with it.",
+   "translations": {
+    "fa": "یه قانون ایمنیه. کلاب‌کارت داری؟ باهاش قیمت ارزون‌تر می‌گیری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "one",
+      "get",
+      "how"
+     ],
+     "suggestion": "No. How do I get one?",
+     "suggestionFa": "نه. چطوری بگیرم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone"
+     ],
+     "suggestion": "Yes, it's on my phone.",
+     "suggestionFa": "آره، رو گوشیمه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "safety rule",
+     "fa": "قانون ایمنی"
+    },
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most big UK supermarkets have loyalty cards with special member prices.",
+    "fa": "سوپرمارکت‌ها کارت وفاداری دارند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "Download the app — it's free. Scan it here. Lovely, you saved £2.40. Card or cash?",
+   "translations": {
+    "fa": "اپ را دانلود کن — رایگانه. اینجا اسکنش کن. عالی، ۲.۴۰ پوند صرفه‌جویی کردی. کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contactless",
+      "please",
+      "card"
+     ],
+     "suggestion": "Card, please. Contactless.",
+     "suggestionFa": "کارت، لطفاً. بدون تماس.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cash",
+      "here",
+      "pay",
+      "can"
+     ],
+     "suggestion": "Can I pay with cash here?",
+     "suggestionFa": "اینجا می‌تونم نقد بدم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "download",
+     "fa": "دانلود کردن"
+    },
+    {
+     "word": "saved",
+     "fa": "صرفه‌جویی کرد"
+    },
+    {
+     "word": "contactless",
+     "fa": "بدون تماس"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i pay card",
+      "i will to pay card"
+     ],
+     "echo": "Paying by card? Lovely.",
+     "better": "I'll pay by card.",
+     "betterFa": "با کارت پرداخت می‌کنم."
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Just tap it on the reader. Do you want your receipt?",
+   "translations": {
+    "fa": "فقط بزنش رو دستگاه. رسیدت را می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks"
+     ],
+     "suggestion": "No thanks.",
+     "suggestionFa": "نه ممنون.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "keep",
+      "them"
+     ],
+     "suggestion": "Yes please, I keep them.",
+     "suggestionFa": "آره لطفاً، نگهشون می‌دارم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "زدن"
+    },
+    {
+     "word": "reader",
+     "fa": "دستگاه کارت‌خوان"
+    },
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "priya",
+   "text": "Sorted! Next time you'll be a self-checkout pro. Have a good one!",
+   "translations": {
+    "fa": "حله! دفعهٔ بعد حرفه‌ای صندوق خودپرداز میشی. روز خوبی داشته باشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

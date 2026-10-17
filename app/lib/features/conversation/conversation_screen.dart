@@ -518,8 +518,11 @@ class _ChatState extends ConsumerState<_Chat> {
   @override
   Widget build(BuildContext context) {
     final p = ref.watch(progressProvider);
-    final host = widget.c.hostOf(widget.s.id);
-    final cover = host?.image ?? widget.c.moments.where((m) => m.sceneId == widget.s.id).firstOrNull?.cover;
+    final baseId = widget.s.baseId ?? widget.s.id;
+    final direct = widget.c.hostOf(widget.s.id);
+    final moment = widget.c.moments.where((m) => m.sceneId == baseId).firstOrNull?.cover;
+    final host = direct ?? (moment == null ? widget.c.paintingOf(widget.s.id) : null);
+    final cover = direct?.image ?? moment ?? host?.image;
     final pad = MediaQuery.paddingOf(context);
     final h = MediaQuery.sizeOf(context).height;
     final trust = GrowthEngine.softTrust(p.trustMap[_lineSpeaker.isEmpty ? ch.id : _lineSpeaker] ?? 0);
@@ -533,7 +536,7 @@ class _ChatState extends ConsumerState<_Chat> {
               ? Image.asset(cover, fit: BoxFit.cover, alignment: Alignment(_focusX(host, sp.id), 0))
               : Container(
                   decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [ch.color.withValues(alpha: .55), const Color(0xFF1B140F)])),
-                  child: Center(child: Avatar(sp, size: 150)),
+                  child: Align(alignment: const Alignment(-.85, -.55), child: Avatar(sp, size: 44)),
                 ),
         ),
         Positioned(

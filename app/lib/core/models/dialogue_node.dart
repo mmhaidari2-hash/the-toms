@@ -121,7 +121,10 @@ class Scene {
 
   /// Role switching: this is a variant of [baseId] where the learner speaks as [playAs] and Mehdi is an NPC.
   final String? baseId, playAs;
-  const Scene({this.baseId, this.playAs, this.memory, this.requiresTrust, this.episode, 
+
+  /// Optional painting (place id) for scenes not hosted by a place hotspot or lesson.
+  final String? placeHint;
+  const Scene({this.baseId, this.playAs, this.placeHint, this.memory, this.requiresTrust, this.episode, 
     required this.id,
     required this.characterId,
     this.level = 'A1',
@@ -146,6 +149,7 @@ class Scene {
       episode: j['episode'],
       baseId: j['baseId'],
       playAs: j['playAs'],
+      placeHint: j['place'],
       title: j['title'],
       titleFa: j['titleFa'],
       setting: j['setting'],

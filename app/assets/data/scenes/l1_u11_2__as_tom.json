@@ -1,0 +1,250 @@
+{
+ "id": "l1_u11_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Saturday chores",
+ "titleFa": "(در نقش Tom) کارهای خانهٔ شنبه",
+ "setting": "A day at home · Level 1",
+ "settingFa": "یک روز در خانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u11_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "football",
+      "chores",
+      "right",
+      "first"
+     ],
+     "suggestion": "Right! It's Saturday. Chores first, football later. Can you help me?",
+     "suggestionFa": "خب! شنبه‌ست. اول کارهای خونه، بعد فوتبال. کمکم می‌کنی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. What can I do?",
+   "translations": {
+    "fa": "حتماً. چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hoover's",
+      "hallway",
+      "stairs",
+      "hoover",
+      "under"
+     ],
+     "suggestion": "Can you hoover the hallway? The hoover's under the stairs.",
+     "suggestionFa": "می‌تونی راهرو را جارو برقی بکشی؟ جاروبرقی زیر پله‌هاست.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes. Where's the plug?",
+   "translations": {
+    "fa": "آره. پریز کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "monday",
+      "bins",
+      "take",
+      "door",
+      "ryan"
+     ],
+     "suggestion": "Next to the door. Ryan! Can you take the bins out? It's bin day on Monday.",
+     "suggestionFa": "کنار در. رایان! می‌تونی سطل‌ها را ببری بیرون؟ دوشنبه روز سطل زباله‌ست.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Which bin is for recycling?",
+   "translations": {
+    "fa": "کدوم سطل برای بازیافته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "recycling",
+      "plastic",
+      "rubbish",
+      "black",
+      "paper"
+     ],
+     "suggestion": "The blue bin is for recycling — paper, cans and plastic. The black bin is for rubbish.",
+     "suggestionFa": "سطل آبی برای بازیافته — کاغذ، قوطی و پلاستیک. سطل سیاه برای زباله.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "And food waste?",
+   "translations": {
+    "fa": "و پسماند غذا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "washing",
+      "little",
+      "brown",
+      "waste",
+      "caddy"
+     ],
+     "suggestion": "Food waste goes in the little brown caddy. Now, the washing. Can you hang it on the line?",
+     "suggestionFa": "پسماند غذا می‌ره تو سطل کوچیک قهوه‌ای. حالا، لباس‌ها. می‌تونی رو بند پهنشون کنی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Is it going to rain?",
+   "translations": {
+    "fa": "قراره بارون بیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "question",
+      "britain",
+      "always",
+      "first",
+      "check"
+     ],
+     "suggestion": "Good question! In Britain, always check the sky first. Hmm… it looks OK.",
+     "suggestionFa": "سؤال خوبیه! تو بریتانیا، همیشه اول آسمون را نگاه کن. هوم… خوبه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'll be quick, then!",
+   "translations": {
+    "fa": "پس سریع انجامش می‌دم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "typical",
+      "someone",
+      "monday",
+      "plants",
+      "broken"
+     ],
+     "suggestion": "The dryer is broken. Typical! I'll call someone on Monday. Can you water the plants too?",
+     "suggestionFa": "خشک‌کن خرابه. همیشه همین‌طوره! دوشنبه به یکی زنگ می‌زنم. گلدون‌ها را هم آب می‌دی؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, I'll water the plants.",
+   "translations": {
+    "fa": "آره، گل‌ها را آب می‌دم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "country",
+      "chores",
+      "better",
+      "than"
+     ],
+     "suggestion": "By the back door. Brilliant — you're better than Ryan! Do you do chores at home in your country?",
+     "suggestionFa": "کنار در پشتی. عالیه — از رایان بهتری! تو کشورت کارهای خونه را انجام می‌دی؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, I always help my mum.",
+   "translations": {
+    "fa": "آره، همیشه به مامانم کمک می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "football",
+      "chores",
+      "right",
+      "same"
+     ],
+     "suggestion": "Ha! Mums are the same everywhere. Right — chores done. Cup of tea, then football?",
+     "suggestionFa": "ها! مامان‌ها همه جا یه جورن. خب — کارها تموم. یه چای، بعد فوتبال؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

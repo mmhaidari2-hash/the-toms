@@ -1,0 +1,452 @@
+{
+ "id": "l2_u11_3",
+ "characterId": "leslie",
+ "title": "Cooking shepherd's pie",
+ "titleFa": "پختن پای چوپان",
+ "setting": "Running the house · Level 2",
+ "settingFa": "ادارهٔ خانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Tonight we're making shepherd's pie! Have you ever made one?",
+   "translations": {
+    "fa": "امشب پای چوپان درست می‌کنیم! تا حالا درست کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "never"
+     ],
+     "suggestion": "No, never. What's in it?",
+     "suggestionFa": "نه، هیچ‌وقت. توش چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "disaster",
+      "once",
+      "was",
+      "but"
+     ],
+     "suggestion": "Once, but it was a disaster!",
+     "suggestionFa": "یه بار، ولی فاجعه شد!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shepherd's pie",
+     "fa": "پای گوشت چرخ‌کرده و پوره"
+    },
+    {
+     "word": "ever",
+     "fa": "تا حالا"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    },
+    {
+     "word": "disaster",
+     "fa": "فاجعه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Minced lamb, onions, carrots, gravy — and mashed potato on top. First, can you peel the potatoes?",
+   "translations": {
+    "fa": "گوشت چرخ‌کردهٔ بره، پیاز، هویج، سس — و پوره سیب‌زمینی روش. اول، می‌تونی سیب‌زمینی‌ها را پوست بکنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "peeler",
+      "sure"
+     ],
+     "suggestion": "Sure. Where's the peeler?",
+     "suggestionFa": "حتماً. پوست‌کن کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "potatoes",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many potatoes?",
+     "suggestionFa": "چند تا سیب‌زمینی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "minced",
+     "fa": "چرخ‌کرده"
+    },
+    {
+     "word": "lamb",
+     "fa": "گوشت بره"
+    },
+    {
+     "word": "mashed potato",
+     "fa": "پورهٔ سیب‌زمینی"
+    },
+    {
+     "word": "peel",
+     "fa": "پوست کندن"
+    },
+    {
+     "word": "peeler",
+     "fa": "پوست‌کن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Shepherd's pie uses lamb; \"cottage pie\" is the same dish with beef.",
+    "fa": "با گوشت گاو اسمش cottage pie است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Six big ones. Then cut them into quarters and boil them for twenty minutes.",
+   "translations": {
+    "fa": "شش تا بزرگ. بعد چهار قسمتشون کن و بیست دقیقه بجوشونشون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "salt",
+      "add",
+      "ok"
+     ],
+     "suggestion": "OK. Do I add salt to the water?",
+     "suggestionFa": "باشه. به آب نمک اضافه کنم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "twenty",
+      "timer",
+      "i'll"
+     ],
+     "suggestion": "Twenty minutes. I'll set a timer.",
+     "suggestionFa": "بیست دقیقه. یه تایمر تنظیم می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quarters",
+     "fa": "چهار قسمت"
+    },
+    {
+     "word": "boil",
+     "fa": "جوشاندن"
+    },
+    {
+     "word": "salt",
+     "fa": "نمک"
+    },
+    {
+     "word": "timer",
+     "fa": "تایمر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Yes, a pinch of salt. Next, chop the onion. Don't cry!",
+   "translations": {
+    "fa": "آره، یه ذره نمک. بعدش، پیاز را خرد کن. گریه نکن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watering",
+      "late",
+      "eyes"
+     ],
+     "suggestion": "Too late! My eyes are watering.",
+     "suggestionFa": "دیگه دیره! چشمام داره آب میاد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chopping",
+      "really",
+      "small"
+     ],
+     "suggestion": "I'm chopping it really small.",
+     "suggestionFa": "دارم خیلی ریز خردش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a pinch of",
+     "fa": "یک ذره"
+    },
+    {
+     "word": "chop",
+     "fa": "خرد کردن"
+    },
+    {
+     "word": "watering",
+     "fa": "آب افتادن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Ha! Now fry the onion and carrots, then add the mince. Keep stirring.",
+   "translations": {
+    "fa": "ها! حالا پیاز و هویج را سرخ کن، بعد گوشت را اضافه کن. هم بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "already",
+      "amazing",
+      "smells"
+     ],
+     "suggestion": "It smells amazing already.",
+     "suggestionFa": "از همین الان بوی محشری می‌ده.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mince",
+      "long",
+      "fry",
+      "how"
+     ],
+     "suggestion": "How long do I fry the mince?",
+     "suggestionFa": "گوشت را چقدر سرخ کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fry",
+     "fa": "سرخ کردن"
+    },
+    {
+     "word": "mince",
+     "fa": "گوشت چرخ‌کرده"
+    },
+    {
+     "word": "stirring",
+     "fa": "هم زدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i am fry",
+      "i frying"
+     ],
+     "echo": "You're frying it? Lovely.",
+     "better": "I'm frying it.",
+     "betterFa": "دارم سرخش می‌کنم."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Until it's brown. After that, add gravy and a splash of Worcestershire sauce. Can you say \"Worcestershire\"?",
+   "translations": {
+    "fa": "تا قهوه‌ای بشه. بعد از اون، سس و یه کم سس ورسسترشر اضافه کن. می‌تونی بگی «ورسسترشر»؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shire",
+      "ces",
+      "ter",
+      "wor"
+     ],
+     "suggestion": "Wor-ces-ter-shire?",
+     "suggestionFa": "ور-سس-تر-شر؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "impossible",
+      "word"
+     ],
+     "suggestion": "No! That word is impossible.",
+     "suggestionFa": "نه! این کلمه غیرممکنه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brown",
+     "fa": "قهوه‌ای"
+    },
+    {
+     "word": "a splash of",
+     "fa": "یک کمی (مایع)"
+    },
+    {
+     "word": "Worcestershire sauce",
+     "fa": "سس ورسسترشر"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Worcestershire\" is pronounced \"WUSS-ter-sher\". Even Brits get it wrong!",
+    "fa": "تلفظ آن «ووستِرشِر» است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Nearly! It's \"Wuss-ter-sher\". Now mash the potatoes with butter and milk.",
+   "translations": {
+    "fa": "تقریباً! «ووس‌تر-شر». حالا سیب‌زمینی‌ها را با کره و شیر له کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "butter",
+      "lots"
+     ],
+     "suggestion": "Lots of butter?",
+     "suggestionFa": "کرهٔ زیاد؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they're",
+      "smooth",
+      "really",
+      "done"
+     ],
+     "suggestion": "Done. They're really smooth.",
+     "suggestionFa": "تموم. خیلی نرمن.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mash",
+     "fa": "له کردن"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    },
+    {
+     "word": "smooth",
+     "fa": "نرم و یکدست"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Lots! Spread the mash on top, use a fork to make lines, and put it in the oven for half an hour.",
+   "translations": {
+    "fa": "زیاد! پوره را روش پخش کن، با چنگال خط بنداز، و نیم ساعت بذارش تو فر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lines",
+      "fork",
+      "why"
+     ],
+     "suggestion": "Why the lines with the fork?",
+     "suggestionFa": "چرا با چنگال خط بندازیم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "temperature",
+      "goes"
+     ],
+     "suggestion": "In it goes! What temperature?",
+     "suggestionFa": "رفت تو! چه دمایی؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spread",
+     "fa": "پخش کردن"
+    },
+    {
+     "word": "fork",
+     "fa": "چنگال"
+    },
+    {
+     "word": "oven",
+     "fa": "فر"
+    },
+    {
+     "word": "half an hour",
+     "fa": "نیم ساعت"
+    },
+    {
+     "word": "temperature",
+     "fa": "دما"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Two hundred degrees. And the lines make it crispy on top — that's the best bit! You're a natural. Tom will be so jealous.",
+   "translations": {
+    "fa": "دویست درجه. و خط‌ها روش را ترد می‌کنن — بهترین قسمتشه! استعداد داری. تام خیلی حسودیش میشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

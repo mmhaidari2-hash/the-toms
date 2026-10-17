@@ -21,8 +21,8 @@
      "keywords": [
       "practical",
       "theory",
-      "pass",
-      "test"
+      "test",
+      "pass"
      ],
      "suggestion": "Yes, you have to pass a theory test and a practical test.",
      "suggestionFa": "آره، باید امتحان تئوری و عملی را قبول بشی.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "again",
-      "take",
       "mine",
+      "take",
       "here"
      ],
      "suggestion": "Yes. I have to take mine again here.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "months",
+      "twelve",
       "after",
-      "only"
+      "need"
      ],
      "suggestion": "Only for twelve months. After that, I need to get a UK one.",
      "suggestionFa": "فقط دوازده ماه. بعدش باید یه گواهی‌نامهٔ بریتانیایی بگیرم.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "depends",
       "doesn't",
+      "depends",
       "country",
       "count"
      ],
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "questions",
-      "answer",
       "hazard",
+      "answer",
       "fifty"
      ],
      "suggestion": "You have to answer fifty questions and do a hazard test.",
@@ -237,7 +237,7 @@
       "remember",
       "you'll",
       "drive",
-      "have"
+      "left"
      ],
      "suggestion": "You'll have to remember to drive on the left!",
      "suggestionFa": "باید یادت باشه از سمت چپ برونی!",

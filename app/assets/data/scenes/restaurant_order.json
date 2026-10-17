@@ -20,8 +20,8 @@
     {
      "keywords": [
       "ready",
-      "we're",
       "roast",
+      "we're",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "water",
-      "jug",
-      "tap"
+      "tap",
+      "jug"
      ],
      "suggestion": "A jug of tap water, please.",
      "suggestionFa": "یه پارچ آب لوله‌کشی، لطفاً.",
@@ -116,8 +116,8 @@
      "keywords": [
       "chicken",
       "please",
-      "have",
-      "i'll"
+      "i'll",
+      "have"
      ],
      "suggestion": "I'll have the roast chicken, please.",
      "suggestionFa": "مرغ کبابی می‌گیرم، لطفاً.",
@@ -277,7 +277,7 @@
       "please",
       "could",
       "gravy",
-      "more"
+      "have"
      ],
      "suggestion": "Could we have some more gravy, please?",
      "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",
@@ -372,8 +372,8 @@
    "branches": [
     {
      "keywords": [
-      "pudding",
       "custard",
+      "pudding",
       "toffee",
       "sticky"
      ],
@@ -387,7 +387,7 @@
      "keywords": [
       "please",
       "we're",
-      "just",
+      "full",
       "bill"
      ],
      "suggestion": "Just the bill, please. We're full.",

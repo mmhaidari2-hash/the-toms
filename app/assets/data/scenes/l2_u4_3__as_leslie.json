@@ -23,8 +23,8 @@
      "keywords": [
       "takeaway",
       "tonight",
-      "tired",
       "about",
+      "tired",
       "cook"
      ],
      "suggestion": "I'm too tired to cook tonight. How about a takeaway?",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "deserve",
-      "indian",
       "that's",
-      "let's",
-      "chips"
+      "indian",
+      "chips",
+      "sweet"
      ],
      "suggestion": "That's sweet, but you deserve a night off too. Let's get Indian or fish and chips?",
      "suggestionFa": "لطف داری، ولی تو هم لیاقت یه شب استراحت را داری. هندی بگیریم یا فیش‌اند‌چیپس؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "quicker",
       "online",
-      "order",
       "shall",
+      "order",
       "ring"
      ],
      "suggestion": "Ha! Good idea, it's quicker. Shall we order online or ring them?",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "small",
-      "brave",
+      "large",
       "chips",
-      "mushy",
-      "large"
+      "brave",
+      "small",
+      "mushy"
      ],
      "suggestion": "Brave! Go on then. Ask for a large cod, two small chips, and mushy peas for Nana.",
      "suggestionFa": "شجاع! بفرما. یه ماهی کاد بزرگ، دوتا سیب‌زمینی کوچیک و نخود له‌شده برای نانا بخواه.",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "mashed",
-      "table",
-      "loves",
       "don't",
+      "table",
+      "while",
       "green"
      ],
      "suggestion": "Mashed green peas — Nana loves them. Why don't you lay the table while we wait?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "straight",
-      "british",
       "turning",
-      "chippy",
-      "proper"
+      "british",
+      "proper",
+      "chippy"
      ],
      "suggestion": "Ha, you're turning British! Proper chippy night — straight out of the paper, on the sofa.",
      "suggestionFa": "ها، داری بریتانیایی میشی! یه شب فیش‌اند‌چیپسی واقعی — مستقیم از کاغذ، رو مبل.",

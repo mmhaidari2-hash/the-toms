@@ -1,0 +1,444 @@
+{
+ "id": "l3_u11_3",
+ "characterId": "tom",
+ "title": "Reporting a stolen bike",
+ "titleFa": "گزارش دوچرخهٔ دزدیده‌شده",
+ "setting": "When things go wrong · Level 3",
+ "settingFa": "وقتی اوضاع خراب می‌شود",
+ "requires": null,
+ "start": "n1",
+ "level": "B1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "My bike's gone! It was locked outside the house. Can you call 101 while I look around?",
+   "translations": {
+    "fa": "دوچرخه‌ام رفته! بیرون خونه قفل بود. تا من دور و بر را می‌گردم می‌تونی به ۱۰۱ زنگ بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "not"
+     ],
+     "suggestion": "101? Not 999?",
+     "suggestionFa": "۱۰۱؟ نه ۹۹۹؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "i'll",
+      "them",
+      "call"
+     ],
+     "suggestion": "Of course. I'll call them now.",
+     "suggestionFa": "حتماً. الان زنگشون می‌زنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gone",
+     "fa": "رفته/ناپدید"
+    },
+    {
+     "word": "locked",
+     "fa": "قفل‌شده"
+    },
+    {
+     "word": "look around",
+     "fa": "گشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Call 999 if a crime is happening now or someone is in danger. For other crimes, call 101 or report online.",
+    "fa": "۹۹۹ برای اضطراری، ۱۰۱ برای بقیه."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "police",
+   "text": "Police non-emergency line, PC Lewis speaking. Is anyone in immediate danger?",
+   "translations": {
+    "fa": "خط غیراضطراری پلیس، مأمور لوییس هستم. کسی در خطر فوری هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nobody's",
+      "danger",
+      "report",
+      "like"
+     ],
+     "suggestion": "No, nobody's in danger. I'd like to report a stolen bike.",
+     "suggestionFa": "نه، کسی در خطر نیست. می‌خوام یه دوچرخهٔ دزدیده‌شده گزارش بدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friend's",
+      "outside",
+      "house",
+      "from"
+     ],
+     "suggestion": "No. My friend's bike was stolen from outside his house.",
+     "suggestionFa": "نه. دوچرخهٔ دوستم از بیرون خونه‌اش دزدیده شد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "non-emergency",
+     "fa": "غیراضطراری"
+    },
+    {
+     "word": "immediate danger",
+     "fa": "خطر فوری"
+    },
+    {
+     "word": "stolen",
+     "fa": "دزدیده‌شده"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "police",
+   "text": "OK. When did you last see the bike?",
+   "translations": {
+    "fa": "باشه. آخرین بار کی دوچرخه را دیدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "railings",
+      "chained",
+      "night",
+      "about"
+     ],
+     "suggestion": "Last night at about ten. It was chained to the railings.",
+     "suggestionFa": "دیشب حدود ده. به نرده‌ها زنجیر شده بود.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "leaving",
+      "seven",
+      "when"
+     ],
+     "suggestion": "This morning at seven, when he was leaving for work.",
+     "suggestionFa": "امروز صبح ساعت هفت، وقتی داشت می‌رفت سر کار.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chained",
+     "fa": "زنجیرشده"
+    },
+    {
+     "word": "railings",
+     "fa": "نرده‌ها"
+    },
+    {
+     "word": "leaving",
+     "fa": "رفتن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i see it last night",
+      "i saw it in last night"
+     ],
+     "echo": "You saw it last night? Right.",
+     "better": "I saw it last night.",
+     "betterFa": "دیشب دیدمش."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "police",
+   "text": "Right. Can you describe the bike? Make, colour, anything distinctive?",
+   "translations": {
+    "fa": "خب. می‌تونید دوچرخه را توصیف کنید؟ مارک، رنگ، چیز خاصی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "raleigh",
+      "basket",
+      "black",
+      "blue"
+     ],
+     "suggestion": "It's a blue Raleigh with a black basket.",
+     "suggestionFa": "یه رالی آبیه با یه سبد مشکی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "child",
+      "back",
+      "seat",
+      "red"
+     ],
+     "suggestion": "It's red, with a child seat on the back.",
+     "suggestionFa": "قرمزه، با یه صندلی بچه پشتش.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "describe",
+     "fa": "توصیف کردن"
+    },
+    {
+     "word": "make",
+     "fa": "مارک/سازنده"
+    },
+    {
+     "word": "distinctive",
+     "fa": "متمایز"
+    },
+    {
+     "word": "basket",
+     "fa": "سبد"
+    },
+    {
+     "word": "child seat",
+     "fa": "صندلی بچه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "police",
+   "text": "Do you know the frame number? It's usually under the pedals. Or is it registered on BikeRegister?",
+   "translations": {
+    "fa": "شمارهٔ بدنه را می‌دونید؟ معمولاً زیر پدال‌هاست. یا تو بایک‌رجیستر ثبت شده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bikeregister",
+      "think",
+      "i'll",
+      "ask"
+     ],
+     "suggestion": "I'll ask him. I think it's on BikeRegister.",
+     "suggestionFa": "ازش می‌پرسم. فکر کنم تو بایک‌رجیستر هست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "second",
+      "bought",
+      "sorry",
+      "hand"
+     ],
+     "suggestion": "No idea, sorry. He bought it second-hand.",
+     "suggestionFa": "هیچ ایده‌ای ندارم، ببخشید. دست دوم خریدش.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "frame number",
+     "fa": "شمارهٔ بدنه"
+    },
+    {
+     "word": "pedals",
+     "fa": "پدال‌ها"
+    },
+    {
+     "word": "second-hand",
+     "fa": "دست دوم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Registering your bike's frame number (e.g. on BikeRegister) makes it much more likely to be returned.",
+    "fa": "ثبت شمارهٔ بدنه احتمال پیدا شدن را بیشتر می‌کند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "police",
+   "text": "That would really help. Was anyone seen? Is there a doorbell camera on the street?",
+   "translations": {
+    "fa": "خیلی کمک می‌کنه. کسی دیده شده؟ دوربین زنگ در تو خیابون هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neighbour",
+      "camera",
+      "i'll",
+      "has"
+     ],
+     "suggestion": "The neighbour has a camera. I'll ask her.",
+     "suggestionFa": "همسایه دوربین داره. ازش می‌پرسم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "didn't",
+      "dark",
+      "was"
+     ],
+     "suggestion": "We didn't see anything. It was dark.",
+     "suggestionFa": "چیزی ندیدیم. تاریک بود.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "doorbell camera",
+     "fa": "دوربین زنگ در"
+    },
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "police",
+   "text": "Great. If you get footage, you can upload it to our website. I'll give you a crime reference number. Ready?",
+   "translations": {
+    "fa": "عالیه. اگه فیلم گرفتید، می‌تونید رو سایت ما آپلود کنید. یه شمارهٔ پرونده بهتون می‌دم. آماده‌اید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i've",
+      "got",
+      "pen"
+     ],
+     "suggestion": "Yes, I've got a pen.",
+     "suggestionFa": "آره، خودکار دارم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "could",
+      "text"
+     ],
+     "suggestion": "Could you text it to me instead?",
+     "suggestionFa": "می‌شه به جاش پیامکش کنید؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "footage",
+     "fa": "فیلم ضبط‌شده"
+    },
+    {
+     "word": "upload",
+     "fa": "بارگذاری"
+    },
+    {
+     "word": "crime reference number",
+     "fa": "شمارهٔ پروندهٔ جرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "You often need a crime reference number to claim on your home or bike insurance.",
+    "fa": "برای بیمه شمارهٔ پرونده لازم است."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "police",
+   "text": "It's 01-4472-26. We'll also text it. Honestly, bikes are rarely found, but it does happen.",
+   "translations": {
+    "fa": "۰۱-۴۴۷۲-۲۶. پیامکش هم می‌کنیم. راستش دوچرخه به‌ندرت پیدا میشه، ولی اتفاق می‌افته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "marketplaces",
+      "online",
+      "should",
+      "thank"
+     ],
+     "suggestion": "Thank you. Should he check online marketplaces?",
+     "suggestionFa": "ممنون. باید بازارهای آنلاین را چک کنه؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "understand",
+      "thanks",
+      "help"
+     ],
+     "suggestion": "I understand. Thanks for your help.",
+     "suggestionFa": "می‌فهمم. ممنون بابت کمکتون.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rarely",
+     "fa": "به‌ندرت"
+    },
+    {
+     "word": "online marketplaces",
+     "fa": "بازارهای آنلاین"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "police",
+   "text": "Good idea — but if he spots it, don't confront the seller. Call us. Take care, and lock it to something solid next time.",
+   "translations": {
+    "fa": "فکر خوبیه — ولی اگه دیدش، با فروشنده درگیر نشه. به ما زنگ بزنه. مراقب باشید، و دفعهٔ بعد به یه چیز محکم قفلش کنید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

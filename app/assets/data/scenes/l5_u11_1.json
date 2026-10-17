@@ -1,0 +1,467 @@
+{
+ "id": "l5_u11_1",
+ "characterId": "weda",
+ "title": "Challenging the council",
+ "titleFa": "اعتراض به شورا",
+ "setting": "Standing up for yourself · Level 5",
+ "settingFa": "از حق خود دفاع کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "C1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "council",
+   "text": "Good afternoon, Hackney Service Centre, Ms Ward speaking. I understand you're querying a council tax bill?",
+   "translations": {
+    "fa": "عصر بخیر، مرکز خدمات هاکنی، خانم وارد هستم. فهمیدم که دربارهٔ قبض مالیات شورا سؤال دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson's",
+      "discount",
+      "charged",
+      "council"
+     ],
+     "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
+     "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "incorrect",
+      "helping",
+      "believe",
+      "that's"
+     ],
+     "suggestion": "That's right. I'm helping Weda — we believe the bill is incorrect.",
+     "suggestionFa": "درسته. دارم به ودا کمک می‌کنم — معتقدیم قبض اشتباهه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "querying",
+     "fa": "پرسیدن/اعتراض"
+    },
+    {
+     "word": "council tax",
+     "fa": "مالیات شورای محلی"
+    },
+    {
+     "word": "single person discount",
+     "fa": "تخفیف تک‌نفره"
+    },
+    {
+     "word": "incorrect",
+     "fa": "نادرست"
+    }
+   ],
+   "cultureNote": {
+    "en": "People who live alone get 25% off council tax. Other discounts exist for carers, students and people with disabilities.",
+    "fa": "تنها زندگی کردن ۲۵٪ تخفیف دارد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "council",
+   "text": "I see. Our records show two adults at the property — George and Weda Thompson.",
+   "translations": {
+    "fa": "متوجهم. سوابق ما دو بزرگسال در ملک نشون می‌ده — جورج و ودا تامپسون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "diagnosis",
+      "leslie",
+      "george",
+      "after"
+     ],
+     "suggestion": "George moved in with Tom and Leslie in March, after his diagnosis.",
+     "suggestionFa": "جورج مارس بعد از تشخیص بیماریش رفت پیش تام و لزلی.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "circumstances",
+      "changed",
+      "until",
+      "have"
+     ],
+     "suggestion": "That was true until March, but circumstances have changed.",
+     "suggestionFa": "تا مارس درست بود، ولی شرایط عوض شده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "records",
+     "fa": "سوابق"
+    },
+    {
+     "word": "property",
+     "fa": "ملک"
+    },
+    {
+     "word": "diagnosis",
+     "fa": "تشخیص"
+    },
+    {
+     "word": "circumstances",
+     "fa": "شرایط"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "I told them in April. I filled in the form online. I even kept the confirmation email.",
+   "translations": {
+    "fa": "آوریل بهشون گفتم. فرم را آنلاین پر کردم. حتی ایمیل تأییدش را نگه داشتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "informed",
+      "proof",
+      "were",
+      "have"
+     ],
+     "suggestion": "We have proof that you were informed in April.",
+     "suggestionFa": "مدرک داریم که آوریل بهتون اطلاع داده شده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "processed",
+      "whether",
+      "could",
+      "check"
+     ],
+     "suggestion": "Could you check whether the April form was processed?",
+     "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "confirmation email",
+     "fa": "ایمیل تأیید"
+    },
+    {
+     "word": "proof",
+     "fa": "مدرک"
+    },
+    {
+     "word": "informed",
+     "fa": "مطلع شده"
+    },
+    {
+     "word": "processed",
+     "fa": "پردازش شده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "council",
+   "text": "I can see a form was submitted, but it seems it wasn't actioned. I do apologise.",
+   "translations": {
+    "fa": "می‌بینم یه فرم ارسال شده، ولی ظاهراً اقدامی روش نشده. واقعاً عذر می‌خوام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appreciate",
+      "happens",
+      "apology",
+      "now"
+     ],
+     "suggestion": "I appreciate the apology. What happens now?",
+     "suggestionFa": "از عذرخواهی ممنونم. حالا چی میشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "council's",
+      "mistake",
+      "side"
+     ],
+     "suggestion": "So the mistake is on the council's side?",
+     "suggestionFa": "پس اشتباه از طرف شوراست؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "submitted",
+     "fa": "ارسال شد"
+    },
+    {
+     "word": "actioned",
+     "fa": "اقدام شد"
+    },
+    {
+     "word": "apologise",
+     "fa": "عذرخواهی کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "council",
+   "text": "I'll backdate the discount to April. That puts the account £212 in credit.",
+   "translations": {
+    "fa": "تخفیف را از آوریل اعمال می‌کنم. این حساب را ۲۱۲ پوند بستانکار می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "received",
+      "reminder",
+      "cancel",
+      "notice"
+     ],
+     "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
+     "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "refunded",
+      "towards",
+      "future",
+      "bills"
+     ],
+     "suggestion": "Would that be refunded or put towards future bills?",
+     "suggestionFa": "پس داده میشه یا برای قبض‌های آینده حساب میشه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "backdate",
+     "fa": "از تاریخ قبل اعمال کردن"
+    },
+    {
+     "word": "in credit",
+     "fa": "بستانکار"
+    },
+    {
+     "word": "reminder notice",
+     "fa": "اخطاریه"
+    },
+    {
+     "word": "put towards",
+     "fa": "صرف کردن برای"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you must to cancel",
+      "you cancel the letter please"
+     ],
+     "echo": "You'd like the reminder cancelled? Certainly.",
+     "better": "I'd like the reminder notice cancelled, please.",
+     "betterFa": "می‌خوام اخطاریه لغو بشه، لطفاً."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "council",
+   "text": "Certainly — I'll withdraw it, and there'll be no court costs. Is there anything else affecting her household?",
+   "translations": {
+    "fa": "حتماً — پسش می‌گیرم، و هزینهٔ دادگاهی هم نخواهد بود. چیز دیگه‌ای هست که روی خانوارش اثر بذاره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george's",
+      "support",
+      "carers",
+      "carer"
+     ],
+     "suggestion": "Weda is George's main carer. Is there support for carers?",
+     "suggestionFa": "ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorting",
+      "thank",
+      "know"
+     ],
+     "suggestion": "Not that I know of. Thank you for sorting this.",
+     "suggestionFa": "تا جایی که می‌دونم نه. ممنون که درستش کردید.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "withdraw",
+     "fa": "پس گرفتن"
+    },
+    {
+     "word": "court costs",
+     "fa": "هزینهٔ دادگاه"
+    },
+    {
+     "word": "household",
+     "fa": "خانوار"
+    },
+    {
+     "word": "carer",
+     "fa": "مراقب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "council",
+   "text": "There is. She could apply for a carer's assessment, and possibly Carer's Allowance. I'll send the links.",
+   "translations": {
+    "fa": "هست. می‌تونه برای ارزیابی مراقب درخواست بده، و احتمالاً کمک‌هزینهٔ مراقب. لینک‌ها را می‌فرستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appreciate",
+      "writing",
+      "could",
+      "put"
+     ],
+     "suggestion": "I'd appreciate it if you could put that in writing, too.",
+     "suggestionFa": "ممنون می‌شم اگه اونو کتبی هم بفرستید.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "entitled",
+      "anything",
+      "helpful",
+      "really"
+     ],
+     "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
+     "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "carer's assessment",
+     "fa": "ارزیابی مراقب"
+    },
+    {
+     "word": "Carer's Allowance",
+     "fa": "کمک‌هزینهٔ مراقب"
+    },
+    {
+     "word": "in writing",
+     "fa": "کتبی"
+    },
+    {
+     "word": "entitled to",
+     "fa": "مستحق"
+    }
+   ],
+   "cultureNote": {
+    "en": "A carer's assessment from the council can lead to practical help, breaks and financial support.",
+    "fa": "ارزیابی مراقب به کمک عملی و مالی منجر می‌شود."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "council",
+   "text": "Of course. You'll get written confirmation within ten working days. Your reference is CT-88213.",
+   "translations": {
+    "fa": "البته. ظرف ده روز کاری تأیید کتبی دریافت می‌کنید. شمارهٔ مرجعتون CT-88213 ـه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "escalate",
+      "resolved",
+      "isn't",
+      "how"
+     ],
+     "suggestion": "Thank you. If it isn't resolved, how do we escalate it?",
+     "suggestionFa": "ممنون. اگه حل نشد، چطور پیگیری کنیم؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "patience",
+      "ward",
+      "ms"
+     ],
+     "suggestion": "Thank you for your patience, Ms Ward.",
+     "suggestionFa": "ممنون از صبرتون خانم وارد.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "written confirmation",
+     "fa": "تأیید کتبی"
+    },
+    {
+     "word": "working days",
+     "fa": "روزهای کاری"
+    },
+    {
+     "word": "reference",
+     "fa": "شمارهٔ مرجع"
+    },
+    {
+     "word": "escalate",
+     "fa": "به مرحلهٔ بالاتر بردن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "Two hundred and twelve pounds! Forty years I've paid every bill on time, and they nearly took me to court. You were wonderful, love — firm but polite. Very British.",
+   "translations": {
+    "fa": "دویست و دوازده پوند! چهل سال هر قبضی را سر وقت دادم، و نزدیک بود منو ببرن دادگاه. فوق‌العاده بودی عزیزم — محکم ولی مؤدب. خیلی بریتانیایی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

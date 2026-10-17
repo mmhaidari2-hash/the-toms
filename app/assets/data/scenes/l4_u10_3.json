@@ -35,7 +35,7 @@
       "believe",
       "looking",
       "can't",
-      "back"
+      "come"
      ],
      "suggestion": "Looking back, I can't believe how far I've come.",
      "suggestionFa": "وقتی به گذشته نگاه می‌کنم، باورم نمیشه چقدر پیشرفت کردم.",
@@ -80,7 +80,7 @@
       "outsider",
       "feeling",
       "people",
-      "when"
+      "kind"
      ],
      "suggestion": "Feeling like an outsider, even when people were kind.",
      "suggestionFa": "حس غریبه بودن، حتی وقتی مردم مهربون بودن.",
@@ -139,10 +139,10 @@
    "branches": [
     {
      "keywords": [
-      "you'd",
       "moved",
-      "weda",
-      "idea"
+      "you'd",
+      "idea",
+      "weda"
      ],
      "suggestion": "I had no idea you'd moved here too, Weda.",
      "suggestionFa": "نمی‌دونستم شما هم مهاجرت کردید ودا.",
@@ -153,9 +153,9 @@
     {
      "keywords": [
       "must",
-      "cope",
-      "have",
-      "hard"
+      "been",
+      "hard",
+      "cope"
      ],
      "suggestion": "That must have been so hard. How did you cope?",
      "suggestionFa": "حتماً خیلی سخت بوده. چطور کنار اومدید؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "belong",
       "feel",
-      "part",
-      "like"
+      "like",
+      "part"
      ],
      "suggestion": "I feel like I belong now. You're a big part of that.",
      "suggestionFa": "الان حس می‌کنم اینجا جای منه. شما بخش بزرگی ازش هستید.",

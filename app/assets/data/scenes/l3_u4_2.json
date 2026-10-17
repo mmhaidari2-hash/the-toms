@@ -75,7 +75,7 @@
       "thermostat",
       "could",
       "maybe",
-      "turn"
+      "down"
      ],
      "suggestion": "Maybe we could turn the thermostat down a bit.",
      "suggestionFa": "شاید بتونیم ترموستات را یه کم پایین بیاریم.",
@@ -87,8 +87,8 @@
      "keywords": [
       "showers",
       "shorter",
-      "i'll",
-      "have"
+      "have",
+      "i'll"
      ],
      "suggestion": "I'll try to have shorter showers too.",
      "suggestionFa": "من هم سعی می‌کنم دوش کوتاه‌تر بگیرم.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "spend",
-      "much",
       "food",
+      "much",
       "how"
      ],
      "suggestion": "How much do we spend on food?",
@@ -180,8 +180,8 @@
    "branches": [
     {
      "keywords": [
-      "council",
       "exactly",
+      "council",
       "what's",
       "tax"
      ],
@@ -193,9 +193,9 @@
     },
     {
      "keywords": [
-      "rent",
       "like",
       "more",
+      "rent",
       "help"
      ],
      "suggestion": "I'd like to pay a bit more rent to help.",

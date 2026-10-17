@@ -39,7 +39,20 @@ class ContentBundle {
   Character? characterOrNull(String id) => characters.where((c) => c.id == id).firstOrNull;
   /// Scenes only playable in a given role (Sec 3.2 character switching).
   String? roleOfScene(String id) => roles.where((r) => r.scenes.contains(id)).firstOrNull?.id;
-  Place? hostOf(String sceneId) => places.where((p) => p.sceneIds.contains(sceneId)).firstOrNull ?? (course.placeOfScene(sceneId) == null ? null : place(course.placeOfScene(sceneId)!));
+  /// The place whose painting hosts this scene. Role-switch variants use their base scene's place.
+  Place? hostOf(String sceneId) {
+    final id = scenes[sceneId]?.baseId ?? sceneId.split('__').first;
+    return places.where((p) => p.sceneIds.contains(id)).firstOrNull ?? (course.placeOfScene(id) == null ? null : place(course.placeOfScene(id)!));
+  }
+  /// Fallback painting so a story never opens without a scene: explicit hint, then a painting featuring the lead.
+  Place? paintingOf(String sceneId) {
+    final s = scenes[sceneId]; final base = scenes[s?.baseId ?? sceneId.split('__').first] ?? s;
+    final hint = base?.placeHint ?? s?.placeHint;
+    final withImg = places.where((p) => p.image != null);
+    return (hint == null ? null : place(hint)) ??
+        withImg.where((p) => p.hotspots.any((h) => h.characterId == base?.characterId)).firstOrNull ??
+        withImg.firstOrNull;
+  }
   Iterable<Place> get places => tiers.expand((t) => t.places);
   Place? place(String id) => places.where((p) => p.id == id).firstOrNull;
   int tierIndexOfScene(String sceneId) => tiers.indexWhere((t) => t.sceneIds.contains(sceneId));

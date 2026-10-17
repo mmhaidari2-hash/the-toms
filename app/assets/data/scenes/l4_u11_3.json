@@ -1,0 +1,460 @@
+{
+ "id": "l4_u11_3",
+ "characterId": "tom",
+ "title": "MOT at Mick's Motors",
+ "titleFa": "معاینهٔ فنی در تعمیرگاه میک",
+ "setting": "Bills and paperwork · Level 4",
+ "settingFa": "قبض‌ها و کاغذبازی",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "mechanic",
+   "text": "Morning, Tom! Brought young Ryan's car in for its MOT, eh? Keys on the counter. Who's your mate?",
+   "translations": {
+    "fa": "صبح بخیر تام! ماشین رایان را برای معاینه آوردی، ها؟ کلید رو پیشخون. رفیقت کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learning",
+      "family",
+      "friend",
+      "about"
+     ],
+     "suggestion": "Hi, I'm a friend of the family. I'm learning about cars!",
+     "suggestionFa": "سلام، دوست خانوادگی‌ام. دارم دربارهٔ ماشین یاد می‌گیرم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "will",
+      "take",
+      "long"
+     ],
+     "suggestion": "Morning. How long will the MOT take?",
+     "suggestionFa": "صبح بخیر. معاینه چقدر طول می‌کشه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "MOT",
+     "fa": "معاینهٔ فنی سالانه"
+    },
+    {
+     "word": "counter",
+     "fa": "پیشخوان"
+    },
+    {
+     "word": "mate",
+     "fa": "رفیق"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, cars over three years old need an MOT test every year to be legal on the road.",
+    "fa": "خودروهای بالای سه سال باید سالانه معاینه شوند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "mechanic",
+   "text": "About an hour. Pop next door for a coffee. I'll ring you if there's anything.",
+   "translations": {
+    "fa": "حدود یه ساعت. برو بغل یه قهوه بخور. اگه چیزی بود زنگت می‌زنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sounds",
+      "much",
+      "good",
+      "how"
+     ],
+     "suggestion": "Sounds good. How much is it?",
+     "suggestionFa": "خوبه. چقدر میشه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "instead",
+      "wait",
+      "here",
+      "can"
+     ],
+     "suggestion": "Can we wait here instead?",
+     "suggestionFa": "می‌تونیم به جاش اینجا منتظر بمونیم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop next door",
+     "fa": "یه سر به بغل زدن"
+    },
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "mechanic",
+   "text": "Fifty-four pound eighty, the max the government allows. Right… bad news and good news.",
+   "translations": {
+    "fa": "پنجاه و چهار پوند و هشتاد، حداکثری که دولت اجازه می‌ده. خب… خبر بد و خبر خوب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "first",
+      "news",
+      "bad"
+     ],
+     "suggestion": "Bad news first, please.",
+     "suggestionFa": "اول خبر بد، لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "damage",
+      "go"
+     ],
+     "suggestion": "Go on. What's the damage?",
+     "suggestionFa": "بگو. چقدر خرابی داره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "max",
+     "fa": "حداکثر"
+    },
+    {
+     "word": "the damage",
+     "fa": "هزینه/خسارت (شوخی)"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "mechanic",
+   "text": "It's failed. The front brake pads are worn, and a headlight bulb's gone.",
+   "translations": {
+    "fa": "رد شد. لنت‌های ترمز جلو ساییده شدن، و یه لامپ چراغ جلو سوخته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drive",
+      "safe",
+      "home"
+     ],
+     "suggestion": "Is it safe to drive home?",
+     "suggestionFa": "رانندگی تا خونه امنه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "would",
+      "cost",
+      "much",
+      "both"
+     ],
+     "suggestion": "How much would it cost to fix both?",
+     "suggestionFa": "تعمیر هر دو چقدر هزینه داره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "failed",
+     "fa": "رد شد"
+    },
+    {
+     "word": "brake pads",
+     "fa": "لنت ترمز"
+    },
+    {
+     "word": "worn",
+     "fa": "ساییده"
+    },
+    {
+     "word": "headlight bulb",
+     "fa": "لامپ چراغ جلو"
+    },
+    {
+     "word": "gone",
+     "fa": "سوخته"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is safe for drive",
+      "can drive it safe"
+     ],
+     "echo": "Is it safe to drive? Good question.",
+     "better": "Is it safe to drive?",
+     "betterFa": "رانندگی باهاش امنه؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "mechanic",
+   "text": "Brake pads, I wouldn't. They're \"dangerous\" on the sheet. Pads and bulb, £140 all in. I can do it today.",
+   "translations": {
+    "fa": "با لنت ترمز، من این کار را نمی‌کنم. رو برگه «خطرناک» نوشته شده. لنت و لامپ، ۱۴۰ پوند همه‌اش. امروز انجامش می‌دم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "including",
+      "please",
+      "ahead",
+      "vat"
+     ],
+     "suggestion": "Please go ahead. Is that including VAT?",
+     "suggestionFa": "لطفاً انجامش بدید. با مالیات ارزش افزوده‌ست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "second",
+      "could",
+      "first",
+      "quote"
+     ],
+     "suggestion": "Could I get a second quote first?",
+     "suggestionFa": "می‌تونم اول یه قیمت دیگه بگیرم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dangerous",
+     "fa": "خطرناک"
+    },
+    {
+     "word": "all in",
+     "fa": "همه‌چیز حساب"
+    },
+    {
+     "word": "go ahead",
+     "fa": "ادامه بده"
+    },
+    {
+     "word": "VAT",
+     "fa": "مالیات بر ارزش افزوده"
+    },
+    {
+     "word": "quote",
+     "fa": "برآورد قیمت"
+    }
+   ],
+   "cultureNote": {
+    "en": "If an MOT finds a \"dangerous\" fault, you mustn't drive the car until it's repaired.",
+    "fa": "با نقص «خطرناک» نباید رانندگی کرد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "mechanic",
+   "text": "All in, VAT included. You're welcome to shop around, but you can't drive it away with those pads.",
+   "translations": {
+    "fa": "همه‌اش، با مالیات. اگه بخواید می‌تونید جای دیگه هم بپرسید، ولی با این لنت‌ها نمی‌تونید ببرید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "enough",
+      "today",
+      "let's",
+      "fair"
+     ],
+     "suggestion": "Fair enough. Let's do it today.",
+     "suggestionFa": "منطقیه. بیا امروز انجامش بدیم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ahead",
+      "good",
+      "news",
+      "was"
+     ],
+     "suggestion": "OK, go ahead. What was the good news?",
+     "suggestionFa": "باشه، انجامش بده. خبر خوب چی بود؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shop around",
+     "fa": "قیمت‌ها را مقایسه کردن"
+    },
+    {
+     "word": "fair enough",
+     "fa": "منطقیه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "mechanic",
+   "text": "The good news? Everything else is spot on. Two advisories: tyres are close to the limit, and there's a bit of rust underneath.",
+   "translations": {
+    "fa": "خبر خوب؟ بقیه همه عالیه. دو تا توصیه: لاستیک‌ها نزدیک حدن، و زیرش یه کم زنگ‌زدگیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "advisory",
+      "those",
+      "mean",
+      "fix"
+     ],
+     "suggestion": "What does \"advisory\" mean? Do we have to fix those now?",
+     "suggestionFa": "«توصیه» یعنی چی؟ باید الان تعمیرشون کنیم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tyres",
+      "left",
+      "long",
+      "got"
+     ],
+     "suggestion": "How long have the tyres got left?",
+     "suggestionFa": "لاستیک‌ها چقدر عمر دارن؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spot on",
+     "fa": "عالی"
+    },
+    {
+     "word": "advisories",
+     "fa": "توصیه‌ها"
+    },
+    {
+     "word": "tyres",
+     "fa": "لاستیک‌ها"
+    },
+    {
+     "word": "limit",
+     "fa": "حد مجاز"
+    },
+    {
+     "word": "rust",
+     "fa": "زنگ‌زدگی"
+    },
+    {
+     "word": "underneath",
+     "fa": "زیر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "mechanic",
+   "text": "Advisories pass, but keep an eye on them. Tyres — maybe two or three months. The legal limit is 1.6 millimetres.",
+   "translations": {
+    "fa": "توصیه‌ها قبولن، ولی حواستون بهشون باشه. لاستیک‌ها — شاید دو سه ماه. حد قانونی ۱.۶ میلی‌متره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "replace",
+      "winter",
+      "before",
+      "we'll"
+     ],
+     "suggestion": "We'll replace them before winter, then.",
+     "suggestionFa": "پس قبل از زمستون عوضشون می‌کنیم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "garages",
+      "honest",
+      "upsell",
+      "thanks"
+     ],
+     "suggestion": "Thanks for being honest. Lots of garages would upsell.",
+     "suggestionFa": "ممنون که صادقی. خیلی از تعمیرگاه‌ها بیشتر می‌فروشن.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keep an eye on",
+     "fa": "مراقب بودن"
+    },
+    {
+     "word": "legal limit",
+     "fa": "حد قانونی"
+    },
+    {
+     "word": "replace",
+     "fa": "عوض کردن"
+    },
+    {
+     "word": "upsell",
+     "fa": "فروش اضافه"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "That's why I've come to Mick for twenty years. Right, kettle on, Mick? We'll wait.",
+   "translations": {
+    "fa": "برای همینه که بیست ساله پیش میک میام. خب، کتری روشنه میک؟ منتظر می‌مونیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

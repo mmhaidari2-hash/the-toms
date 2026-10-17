@@ -20,6 +20,19 @@ V={ # speaker -> (voice, pitch, rate)
  'butcher':('en-GB-RyanNeural','-20Hz','+0%'),'plumber':('en-GB-ThomasNeural','-18Hz','+2%'),
  'ellis':('en-GB-LibbyNeural','-12Hz','-10%'),'coach':('en-GB-RyanNeural','-10Hz','+6%'),
  'george':('en-GB-ThomasNeural','-16Hz','-14%'),
+ 'courier':('en-GB-ThomasNeural','-6Hz','+10%'),
+ 'engineer':('en-GB-RyanNeural','-14Hz','+2%'),
+ 'khan':('en-IN-NeerjaNeural','-10Hz','-4%'),
+ 'receptionist':('en-GB-SoniaNeural','-6Hz','+4%'),
+ 'vet':('en-GB-LibbyNeural','-2Hz','+0%'),
+ 'triage':('en-GB-LibbyNeural','-8Hz','+6%'),
+ 'schooloffice':('en-GB-SoniaNeural','-10Hz','-2%'),
+ 'police':('en-GB-RyanNeural','-4Hz','+0%'),
+ 'energy':('en-GB-ThomasNeural','+2Hz','+6%'),
+ 'agent':('en-GB-SoniaNeural','+4Hz','+8%'),
+ 'mechanic':('en-GB-RyanNeural','-20Hz','-4%'),
+ 'workcoach':('en-GB-ThomasNeural','-10Hz','-2%'),
+ 'council':('en-GB-LibbyNeural','-10Hz','+0%'),
  'narrator':('en-GB-SoniaNeural','+0Hz','-8%'),
 }
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
@@ -60,7 +73,7 @@ async def one(k,sp,t,sem):
   async with sem:
     for i in range(4):
       try:
-        await edge_tts.Communicate(t,v,pitch=p,rate=r).save(f'{OUT}/{k}.tmp'); os.replace(f'{OUT}/{k}.tmp',f'{OUT}/{k}.mp3'); return
+        await asyncio.wait_for(edge_tts.Communicate(t,v,pitch=p,rate=r).save(f'{OUT}/{k}.tmp'),40); os.replace(f'{OUT}/{k}.tmp',f'{OUT}/{k}.mp3'); return
       except Exception as e: await asyncio.sleep(2+i*3)
     print('FAIL',k,sp,t)
 async def main():
