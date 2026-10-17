@@ -1,0 +1,239 @@
+{
+ "id": "l4_u8_3",
+ "characterId": "tom",
+ "title": "Election day",
+ "titleFa": "روز انتخابات",
+ "setting": "News and opinions · Level 4",
+ "settingFa": "اخبار و دیدگاه‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right, I'm off to vote. Are you registered? You can vote in local elections, you know, even if you're not a citizen yet.",
+   "translations": {
+    "fa": "خب، دارم می‌رم رأی بدم. ثبت‌نام کردی؟ می‌دونی، تو انتخابات محلی می‌تونی رأی بدی، حتی اگه هنوز شهروند نیستی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "citizens",
+      "british",
+      "thought",
+      "really"
+     ],
+     "suggestion": "Really? I thought only British citizens could vote.",
+     "suggestionFa": "واقعاً؟ فکر می‌کردم فقط شهروندهای بریتانیایی می‌تونن رأی بدن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "registered",
+      "polling",
+      "where's",
+      "station"
+     ],
+     "suggestion": "I registered last month. Where's the polling station?",
+     "suggestionFa": "ماه پیش ثبت‌نام کردم. حوزهٔ رأی‌گیری کجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "vote",
+     "fa": "رأی دادن"
+    },
+    {
+     "word": "registered",
+     "fa": "ثبت‌نام شده"
+    },
+    {
+     "word": "local elections",
+     "fa": "انتخابات محلی"
+    },
+    {
+     "word": "citizen",
+     "fa": "شهروند"
+    },
+    {
+     "word": "polling station",
+     "fa": "حوزهٔ رأی‌گیری"
+    }
+   ],
+   "cultureNote": {
+    "en": "The rules vary: in England, many foreign residents can vote in local elections, while in Scotland and Wales any legal resident can vote locally.",
+    "fa": "قوانین رأی محلی در بخش‌های بریتانیا متفاوت است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It depends on your status and nationality, but you're eligible — you got your polling card. The station's at the primary school. Takes five minutes.",
+   "translations": {
+    "fa": "بستگی به وضعیت و ملیتت داره، ولی تو واجد شرایطی — کارت رأیت را گرفتی. حوزه تو مدرسهٔ ابتداییه. پنج دقیقه طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bring",
+      "need"
+     ],
+     "suggestion": "What do I need to bring?",
+     "suggestionFa": "چی باید بیارم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "actually",
+      "voting",
+      "work",
+      "how"
+     ],
+     "suggestion": "How does the voting actually work?",
+     "suggestionFa": "رأی دادن دقیقاً چطوریه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "status",
+     "fa": "وضعیت"
+    },
+    {
+     "word": "nationality",
+     "fa": "ملیت"
+    },
+    {
+     "word": "eligible",
+     "fa": "واجد شرایط"
+    },
+    {
+     "word": "polling card",
+     "fa": "کارت رأی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Photo ID — that's new. You give your name, they give you a ballot paper, you go into a booth and put a cross next to one candidate. Pencil, not pen.",
+   "translations": {
+    "fa": "کارت شناسایی عکس‌دار — این جدیده. اسمت را می‌گی، یه برگهٔ رأی بهت می‌دن، می‌ری تو اتاقک و کنار یه نامزد ضربدر می‌زنی. با مداد، نه خودکار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pencil",
+      "why"
+     ],
+     "suggestion": "Why a pencil?",
+     "suggestionFa": "چرا مداد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "whoever",
+      "votes",
+      "gets",
+      "most"
+     ],
+     "suggestion": "And whoever gets the most votes wins?",
+     "suggestionFa": "و هر کی بیشترین رأی را بیاره برنده‌ست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "photo ID",
+     "fa": "کارت شناسایی عکس‌دار"
+    },
+    {
+     "word": "ballot paper",
+     "fa": "برگهٔ رأی"
+    },
+    {
+     "word": "booth",
+     "fa": "اتاقک"
+    },
+    {
+     "word": "candidate",
+     "fa": "نامزد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Tradition, mostly! And yes — it's \"first past the post\". Most votes wins, even if it's not a majority. People argue about whether that's fair.",
+   "translations": {
+    "fa": "بیشتر سنته! و آره — «اول از خط عبور کن»ـه. بیشترین رأی برنده‌ست، حتی اگه اکثریت نباشه. مردم بحث می‌کنن که آیا منصفانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "representation",
+      "proportional",
+      "countries",
+      "instead"
+     ],
+     "suggestion": "Some countries use proportional representation instead.",
+     "suggestionFa": "بعضی کشورها به جاش نمایندگی تناسبی دارن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "candidate",
+      "percent",
+      "thirty",
+      "could"
+     ],
+     "suggestion": "So a candidate could win with only thirty percent?",
+     "suggestionFa": "پس یه نامزد می‌تونه فقط با سی درصد برنده بشه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first past the post",
+     "fa": "سیستم اکثریت نسبی"
+    },
+    {
+     "word": "majority",
+     "fa": "اکثریت"
+    },
+    {
+     "word": "proportional representation",
+     "fa": "نمایندگی تناسبی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Exactly, which is why it's controversial. Anyway — grab your coat. Your first vote here. That's a big moment, that is.",
+   "translations": {
+    "fa": "دقیقاً، واسه همین بحث‌برانگیزه. به هر حال — کتت را بردار. اولین رأیت اینجا. لحظهٔ بزرگیه، واقعاً."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

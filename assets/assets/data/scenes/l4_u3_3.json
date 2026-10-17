@@ -1,0 +1,243 @@
+{
+ "id": "l4_u3_3",
+ "characterId": "arthur",
+ "title": "Persuading a neighbour",
+ "titleFa": "متقاعد کردن همسایه",
+ "setting": "Giving back · Level 4",
+ "settingFa": "کمک به جامعه",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "I've heard about this community garden idea. I'm sorry, but I'm against it. That empty plot behind the post office is where I park my van.",
+   "translations": {
+    "fa": "دربارهٔ این ایدهٔ باغ اجتماعی شنیدم. متأسفم، ولی مخالفم. اون زمین خالی پشت پستخونه جاییه که ونم را پارک می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understand",
+      "community",
+      "wouldn't",
+      "better"
+     ],
+     "suggestion": "I understand. But wouldn't it be better if it was used by the whole community?",
+     "suggestionFa": "می‌فهمم. ولی بهتر نیست کل محله ازش استفاده کنن؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "parking",
+      "another",
+      "nearby",
+      "space"
+     ],
+     "suggestion": "Could we find you another parking space nearby?",
+     "suggestionFa": "می‌تونیم یه جای پارک دیگه نزدیک براتون پیدا کنیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "community garden",
+     "fa": "باغ اجتماعی"
+    },
+    {
+     "word": "against",
+     "fa": "مخالف"
+    },
+    {
+     "word": "plot",
+     "fa": "قطعه زمین"
+    },
+    {
+     "word": "van",
+     "fa": "ون"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "It's just rubbish and weeds at the moment, I'll give you that. But a garden means people, noise, mess…",
+   "translations": {
+    "fa": "فعلاً فقط آشغال و علف هرزه، قبول دارم. ولی باغ یعنی آدم، سر و صدا، به‌هم‌ریختگی…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "customers",
+      "office",
+      "people",
+      "think"
+     ],
+     "suggestion": "Think of it this way: more people means more customers for the post office.",
+     "suggestionFa": "این‌طوری فکر کنید: آدم بیشتر یعنی مشتری بیشتر برای پستخونه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "volunteers",
+      "twenty",
+      "looked",
+      "we've"
+     ],
+     "suggestion": "We'd make sure it's well looked after. We've got twenty volunteers.",
+     "suggestionFa": "مطمئن می‌شیم خوب نگهداری بشه. بیست تا داوطلب داریم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weeds",
+     "fa": "علف هرز"
+    },
+    {
+     "word": "I'll give you that",
+     "fa": "قبول دارم"
+    },
+    {
+     "word": "mess",
+     "fa": "بی‌نظمی"
+    },
+    {
+     "word": "customers",
+     "fa": "مشتریان"
+    },
+    {
+     "word": "looked after",
+     "fa": "نگهداری شده"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Hmm. More customers… I hadn't thought of that. But who'd be responsible if something goes wrong?",
+   "translations": {
+    "fa": "هوم. مشتری بیشتر… به این فکر نکرده بودم. ولی اگه مشکلی پیش بیاد کی مسئوله؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "residents'",
+      "insurance",
+      "setting",
+      "we're"
+     ],
+     "suggestion": "We're setting up a residents' committee, and we'll have insurance.",
+     "suggestionFa": "داریم یه کمیتهٔ ساکنان راه می‌ندازیم، و بیمه هم داریم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "could",
+      "join",
+      "run",
+      "say"
+     ],
+     "suggestion": "You could join the committee and have a say in how it's run.",
+     "suggestionFa": "می‌تونید عضو کمیته بشید و تو نحوهٔ اداره‌اش نظر بدید.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "responsible",
+     "fa": "مسئول"
+    },
+    {
+     "word": "committee",
+     "fa": "کمیته"
+    },
+    {
+     "word": "insurance",
+     "fa": "بیمه"
+    },
+    {
+     "word": "have a say",
+     "fa": "حق نظر داشتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "Me? On a committee? Well… my late wife always wanted a vegetable patch. She'd have loved this.",
+   "translations": {
+    "fa": "من؟ تو کمیته؟ خب… همسر مرحومم همیشه یه باغچهٔ سبزی می‌خواست. عاشق این می‌شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "after",
+      "maybe",
+      "could",
+      "name"
+     ],
+     "suggestion": "Then maybe we could name a bed after her.",
+     "suggestionFa": "پس شاید بتونیم یه کرت را به اسمش نام‌گذاری کنیم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sounds",
+      "she'd",
+      "like",
+      "part"
+     ],
+     "suggestion": "It sounds like she'd want you to be part of it.",
+     "suggestionFa": "به نظر میاد دلش می‌خواست شما جزوش باشید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "late wife",
+     "fa": "همسر مرحوم"
+    },
+    {
+     "word": "vegetable patch",
+     "fa": "باغچهٔ سبزی"
+    },
+    {
+     "word": "bed",
+     "fa": "کرت"
+    },
+    {
+     "word": "name after",
+     "fa": "به نام … نامیدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "Margaret's Patch… You've talked me round, you lot. Put me down for the committee. And I'll find somewhere else for the van.",
+   "translations": {
+    "fa": "باغچهٔ مارگارت… شماها راضیم کردید. اسمم را برای کمیته بنویسید. و برای ون یه جای دیگه پیدا می‌کنم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

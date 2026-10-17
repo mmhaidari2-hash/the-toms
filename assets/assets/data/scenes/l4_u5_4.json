@@ -1,0 +1,226 @@
+{
+ "id": "l4_u5_4",
+ "characterId": "william",
+ "title": "Talking to William",
+ "titleFa": "گفتگو با ویلیام",
+ "setting": "Wellbeing · Level 4",
+ "settingFa": "سلامت روان و جسم",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Dad's been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
+   "translations": {
+    "fa": "بابا از وقتی دوستش استن فوت کرده یه کم دل‌گرفته‌ست. یه مدت پیشش می‌شینی؟ دوست داره با تو حرف بزنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "course",
+      "about",
+      "sorry"
+     ],
+     "suggestion": "Of course. William, I'm so sorry about Stan.",
+     "suggestionFa": "حتماً. ویلیام، خیلی بابت استن متأسفم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "friends",
+      "happy",
+      "were",
+      "long"
+     ],
+     "suggestion": "I'd be happy to. How long were they friends?",
+     "suggestionFa": "با کمال میل. چند وقت دوست بودن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "low",
+     "fa": "دل‌گرفته"
+    },
+    {
+     "word": "passed away",
+     "fa": "فوت کرد"
+    },
+    {
+     "word": "for a while",
+     "fa": "مدتی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "Sixty years. Best mate.",
+   "translations": {
+    "fa": "شصت سال. بهترین رفیق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "incredible",
+      "friendship",
+      "sixty",
+      "years"
+     ],
+     "suggestion": "Sixty years. That must have been an incredible friendship.",
+     "suggestionFa": "شصت سال. حتماً دوستی فوق‌العاده‌ای بوده.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "terribly",
+      "miss",
+      "him"
+     ],
+     "suggestion": "You must miss him terribly.",
+     "suggestionFa": "حتماً خیلی دلتون براش تنگ شده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "best mate",
+     "fa": "بهترین رفیق"
+    },
+    {
+     "word": "incredible",
+     "fa": "باورنکردنی"
+    },
+    {
+     "word": "terribly",
+     "fa": "به شدت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "We played football. Every Saturday.",
+   "translations": {
+    "fa": "فوتبال بازی می‌کردیم. هر شنبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "other",
+      "knew",
+      "club"
+     ],
+     "suggestion": "So you knew each other from the football club?",
+     "suggestionFa": "پس همدیگه را از باشگاه فوتبال می‌شناختید؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "like",
+      "tell",
+      "was"
+     ],
+     "suggestion": "Tell me about him. What was he like?",
+     "suggestionFa": "از اون بگید. چطور آدمی بود؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "each other",
+     "fa": "یکدیگر"
+    },
+    {
+     "word": "what was he like",
+     "fa": "چطور آدمی بود"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Stan was the goalkeeper. Dad always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
+   "translations": {
+    "fa": "استن دروازه‌بان بود. بابا همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brothers",
+      "saying",
+      "were",
+      "more"
+     ],
+     "suggestion": "So what you're saying is, they were more like brothers.",
+     "suggestionFa": "پس می‌گید بیشتر مثل برادر بودن.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teasing",
+      "sounds",
+      "behind",
+      "there"
+     ],
+     "suggestion": "It sounds like there was a lot of love behind the teasing.",
+     "suggestionFa": "به نظر میاد پشت سر به سر گذاشتن‌ها کلی محبت بود.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "goalkeeper",
+     "fa": "دروازه‌بان"
+    },
+    {
+     "word": "argue",
+     "fa": "بحث کردن"
+    },
+    {
+     "word": "pint",
+     "fa": "یک لیوان آبجو"
+    },
+    {
+     "word": "teasing",
+     "fa": "سر به سر گذاشتن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Affectionate teasing (\"banter\") is a big part of British friendship, especially between men.",
+    "fa": "شوخی و سر به سر گذاشتن بخشی از دوستی بریتانیایی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "Yes. Brothers. Thank you, son.",
+   "translations": {
+    "fa": "آره. برادر. ممنون پسرم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

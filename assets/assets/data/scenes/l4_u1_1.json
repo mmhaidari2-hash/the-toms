@@ -1,0 +1,251 @@
+{
+ "id": "l4_u1_1",
+ "characterId": "al",
+ "title": "First day in the office",
+ "titleFa": "روز اول در دفتر",
+ "setting": "A new job · Level 4",
+ "settingFa": "کار جدید",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "Welcome aboard! I know you've been looking forward to this. Has anyone shown you round yet?",
+   "translations": {
+    "fa": "خوش اومدی! می‌دونم مشتاقش بودی. کسی تا حالا اطراف را نشونت داده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sitting",
+      "where",
+      "could",
+      "i'll"
+     ],
+     "suggestion": "Not yet. Could you tell me where I'll be sitting?",
+     "suggestionFa": "هنوز نه. می‌تونی بگی من کجا می‌شینم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "induction",
+      "morning",
+      "there's",
+      "thanks"
+     ],
+     "suggestion": "Thanks, Al. Do you know if there's an induction this morning?",
+     "suggestionFa": "ممنون ال. می‌دونی امروز صبح جلسهٔ آشنایی هست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "welcome aboard",
+     "fa": "خوش آمدی (به تیم)"
+    },
+    {
+     "word": "looking forward to",
+     "fa": "مشتاق"
+    },
+    {
+     "word": "shown round",
+     "fa": "اطراف را نشان دادن"
+    },
+    {
+     "word": "induction",
+     "fa": "جلسهٔ آشنایی/آموزش اولیه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "There's an induction at eleven, but before that, let me give you the tour. You're next to me, by the window — lucky you.",
+   "translations": {
+    "fa": "ساعت یازده یه جلسهٔ آشنایی هست، ولی قبلش بذار دورت بدم. کنار من نشستی، کنار پنجره — خوش به حالت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "meeting",
+      "telling",
+      "booking"
+     ],
+     "suggestion": "Brilliant. Would you mind telling me how the booking system for meeting rooms works?",
+     "suggestionFa": "عالی. اشکالی نداره بگی سیستم رزرو اتاق جلسه چطوری کار می‌کنه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wondering",
+      "perfect",
+      "whether",
+      "people"
+     ],
+     "suggestion": "Perfect. I was wondering whether people tend to work from home much.",
+     "suggestionFa": "عالیه. داشتم فکر می‌کردم آیا مردم زیاد از خونه کار می‌کنن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tour",
+     "fa": "گشت"
+    },
+    {
+     "word": "lucky you",
+     "fa": "خوش به حالت"
+    },
+    {
+     "word": "booking system",
+     "fa": "سیستم رزرو"
+    },
+    {
+     "word": "I was wondering whether",
+     "fa": "می‌خواستم بدانم آیا"
+    },
+    {
+     "word": "tend to",
+     "fa": "معمولاً"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "Most of us are hybrid — three days in, two at home. Fridays are pretty quiet. Oh, and the kitchen etiquette is serious business here.",
+   "translations": {
+    "fa": "بیشترمون ترکیبی هستیم — سه روز دفتر، دو روز خونه. جمعه‌ها خیلی خلوته. آه، و آداب آشپزخونه اینجا خیلی جدیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "etiquette",
+      "kitchen",
+      "mean",
+      "by"
+     ],
+     "suggestion": "What do you mean by \"kitchen etiquette\"?",
+     "suggestionFa": "منظورت از آداب آشپزخونه چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "whoever",
+      "makes",
+      "guess"
+     ],
+     "suggestion": "Let me guess — whoever makes a brew makes one for everyone?",
+     "suggestionFa": "بذار حدس بزنم — هر کی چای درست می‌کنه برای همه درست می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hybrid",
+     "fa": "ترکیبی (دفتر و خانه)"
+    },
+    {
+     "word": "etiquette",
+     "fa": "آداب"
+    },
+    {
+     "word": "serious business",
+     "fa": "کار جدی"
+    },
+    {
+     "word": "brew",
+     "fa": "چای (عامیانه)"
+    }
+   ],
+   "cultureNote": {
+    "en": "In many British offices, if you make yourself a tea, you're expected to offer to make one for the people around you — the \"tea round\".",
+    "fa": "در دفاتر بریتانیایی وقتی چای می‌ریزید به اطرافیان هم تعارف می‌کنید."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Spot on. The tea round is sacred. And whatever you do, don't eat anything labelled with someone else's name. Gareth from accounts is still bitter about his yoghurt.",
+   "translations": {
+    "fa": "دقیقاً. دور چای مقدسه. و هر کاری می‌کنی، چیزی که اسم کس دیگه‌ای روشه نخور. گرت از حسابداری هنوز بابت ماستش دلخوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problems",
+      "should",
+      "noted",
+      "about"
+     ],
+     "suggestion": "Noted! Could you tell me who I should ask about IT problems?",
+     "suggestionFa": "یادداشت شد! می‌تونی بگی دربارهٔ مشکلات IT از کی بپرسم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yoghurts",
+      "i'll",
+      "well",
+      "keep"
+     ],
+     "suggestion": "Ha! I'll keep well away from the yoghurts.",
+     "suggestionFa": "ها! از ماست‌ها حسابی دور می‌مونم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sacred",
+     "fa": "مقدس"
+    },
+    {
+     "word": "labelled",
+     "fa": "برچسب‌خورده"
+    },
+    {
+     "word": "accounts",
+     "fa": "حسابداری"
+    },
+    {
+     "word": "bitter",
+     "fa": "دلخور"
+    },
+    {
+     "word": "noted",
+     "fa": "یادداشت شد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "The IT helpdesk — just raise a ticket on the intranet. Right, I'll leave you to settle in. Any questions, give me a shout!",
+   "translations": {
+    "fa": "واحد پشتیبانی IT — فقط تو اینترانت یه درخواست ثبت کن. خب، می‌ذارمت جا بیفتی. هر سؤالی داشتی صدام کن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

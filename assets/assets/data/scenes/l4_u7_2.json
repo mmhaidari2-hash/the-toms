@@ -1,0 +1,235 @@
+{
+ "id": "l4_u7_2",
+ "characterId": "ryan",
+ "title": "The talk",
+ "titleFa": "گفتگوی جدی",
+ "setting": "Education · Level 4",
+ "settingFa": "آموزش",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum's banned my PlayStation on school nights. Mrs Patel grassed me up, didn't she? This is so unfair.",
+   "translations": {
+    "fa": "مامان پلی‌استیشنم را شب‌های مدرسه ممنوع کرده. خانم پاتل لوم داد، نه؟ این خیلی ناعادلانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "worried",
+      "unfair",
+      "about",
+      "feels"
+     ],
+     "suggestion": "I know it feels unfair. But she's worried about you.",
+     "suggestionFa": "می‌دونم ناعادلانه به نظر میاد. ولی نگرانته.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "didn't",
+      "wants",
+      "grass",
+      "well"
+     ],
+     "suggestion": "She didn't grass you up. She wants you to do well.",
+     "suggestionFa": "لوت نداد. می‌خواد موفق بشی.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "banned",
+     "fa": "ممنوع کرد"
+    },
+    {
+     "word": "school nights",
+     "fa": "شب‌های مدرسه"
+    },
+    {
+     "word": "grassed me up",
+     "fa": "لو داد (عامیانه)"
+    },
+    {
+     "word": "unfair",
+     "fa": "ناعادلانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Grass someone up\" is British slang for telling on someone. A \"grass\" is an informer.",
+    "fa": "grass up یعنی لو دادن."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Everyone thinks I'm lazy. I'm not. I just don't see the point of French. When am I ever going to use it?",
+   "translations": {
+    "fa": "همه فکر می‌کنن تنبلم. نیستم. فقط فایدهٔ فرانسوی را نمی‌فهمم. کی قراره ازش استفاده کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "exactly",
+      "school",
+      "about"
+     ],
+     "suggestion": "I get it. I felt exactly the same about English at school.",
+     "suggestionFa": "می‌فهمم. من هم تو مدرسه دقیقاً همین حس را دربارهٔ انگلیسی داشتم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "engineers",
+      "paris",
+      "might",
+      "world"
+     ],
+     "suggestion": "Engineers work all over the world. You might end up in Paris!",
+     "suggestionFa": "مهندس‌ها تو همهٔ دنیا کار می‌کنن. ممکنه آخرش پاریس باشی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lazy",
+     "fa": "تنبل"
+    },
+    {
+     "word": "see the point",
+     "fa": "فایده را دیدن"
+    },
+    {
+     "word": "end up",
+     "fa": "آخرش رسیدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Really? And now you speak it every day. Did you not hate it?",
+   "translations": {
+    "fa": "واقعاً؟ و الان هر روز باهاش حرف می‌زنی. ازش متنفر نبودی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "learning",
+      "changed",
+      "lessons",
+      "grammar"
+     ],
+     "suggestion": "I hated the grammar lessons. But learning it changed my whole life.",
+     "suggestionFa": "از درس‌های گرامر متنفر بودم. ولی یاد گرفتنش کل زندگیم را عوض کرد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "realised",
+      "until",
+      "could",
+      "doors"
+     ],
+     "suggestion": "I did, until I realised it could open doors for me.",
+     "suggestionFa": "بودم، تا اینکه فهمیدم می‌تونه درها را برام باز کنه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hated",
+     "fa": "متنفر بود"
+    },
+    {
+     "word": "changed my life",
+     "fa": "زندگی‌ام را تغییر داد"
+    },
+    {
+     "word": "open doors",
+     "fa": "فرصت ایجاد کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Fair. Look, I know I messed up the mocks. I just panicked and then gave up revising. It all felt too much.",
+   "translations": {
+    "fa": "منصفانه. ببین، می‌دونم امتحان آزمایشی را خراب کردم. فقط هول کردم و بعد مرور را ول کردم. همه‌ش زیادی سنگین بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "timetable",
+      "together",
+      "revision",
+      "honest"
+     ],
+     "suggestion": "That's really honest of you. Shall we make a revision timetable together?",
+     "suggestionFa": "خیلی صادقانه‌ست. با هم یه برنامهٔ مرور بنویسیم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "completely",
+      "normal",
+      "alone",
+      "don't"
+     ],
+     "suggestion": "It's completely normal to feel like that. You don't have to do it alone.",
+     "suggestionFa": "کاملاً عادیه این حس را داشته باشی. لازم نیست تنهایی انجامش بدی.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "messed up",
+     "fa": "خراب کرد"
+    },
+    {
+     "word": "panicked",
+     "fa": "هول کرد"
+    },
+    {
+     "word": "gave up",
+     "fa": "ول کرد"
+    },
+    {
+     "word": "revision timetable",
+     "fa": "برنامهٔ مرور"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Yeah… OK. A timetable. But with breaks. And if I stick to it for a month, I'm asking Mum for my PlayStation back on Fridays. Deal?",
+   "translations": {
+    "fa": "آره… باشه. یه برنامه. ولی با استراحت. و اگه یه ماه بهش پایبند بمونم، از مامان می‌خوام جمعه‌ها پلی‌استیشنم را پس بده. قبول؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

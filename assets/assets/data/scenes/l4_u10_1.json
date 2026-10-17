@@ -1,0 +1,247 @@
+{
+ "id": "l4_u10_1",
+ "characterId": "bennett",
+ "title": "Meeting a newcomer",
+ "titleFa": "آشنایی با یک تازه‌وارد",
+ "setting": "Paying it forward · Level 4",
+ "settingFa": "جبران کردن با کمک به دیگران",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "Thank you for agreeing to mentor Farah. She arrived from Syria last month and her English is still at the very beginning. I think she'll find you inspiring.",
+   "translations": {
+    "fa": "ممنون که قبول کردید منتور فرح باشید. ماه پیش از سوریه اومده و انگلیسیش هنوز خیلی اول راهه. فکر کنم شما براش الهام‌بخش باشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "honoured",
+      "remember",
+      "exactly",
+      "felt"
+     ],
+     "suggestion": "I'm honoured. I remember exactly how that felt.",
+     "suggestionFa": "مفتخرم. دقیقاً یادمه چه حسی داشت.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "things",
+      "slowly",
+      "simple",
+      "speak"
+     ],
+     "suggestion": "I'll speak slowly and keep things simple.",
+     "suggestionFa": "آهسته حرف می‌زنم و همه چیز را ساده نگه می‌دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mentor",
+     "fa": "راهنمایی کردن"
+    },
+    {
+     "word": "arrived",
+     "fa": "رسید"
+    },
+    {
+     "word": "very beginning",
+     "fa": "اول راه"
+    },
+    {
+     "word": "inspiring",
+     "fa": "الهام‌بخش"
+    },
+    {
+     "word": "honoured",
+     "fa": "مفتخر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "Lovely. What would you say helped you most when you were in her position?",
+   "translations": {
+    "fa": "عالیه. به نظرتون وقتی تو موقعیت اون بودید چی بیشتر از همه کمکتون کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sentences",
+      "patient",
+      "finish",
+      "people"
+     ],
+     "suggestion": "People who were patient and didn't finish my sentences for me.",
+     "suggestionFa": "آدم‌هایی که صبور بودن و جمله‌هام را برام تموم نمی‌کردن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learning",
+      "phrases",
+      "grammar",
+      "useful"
+     ],
+     "suggestion": "Learning useful phrases first, rather than grammar rules.",
+     "suggestionFa": "اول یاد گرفتن عبارت‌های کاربردی، به جای قواعد گرامر.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "position",
+     "fa": "موقعیت"
+    },
+    {
+     "word": "patient",
+     "fa": "صبور"
+    },
+    {
+     "word": "finish my sentences",
+     "fa": "جمله‌هایم را تمام کردن"
+    },
+    {
+     "word": "useful phrases",
+     "fa": "عبارت‌های کاربردی"
+    },
+    {
+     "word": "rather than",
+     "fa": "به جای"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bennett",
+   "text": "Very wise. One more thing — native speakers often use idioms without realising. How will you make sure she understands?",
+   "translations": {
+    "fa": "خیلی حکیمانه. یه چیز دیگه — بومی‌ها اغلب بدون اینکه متوجه بشن اصطلاح به کار می‌برن. چطور مطمئن می‌شید می‌فهمه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "asking",
+      "words",
+      "check",
+      "back"
+     ],
+     "suggestion": "I'll check by asking her to say it back in her own words.",
+     "suggestionFa": "با اینکه ازش بخوام با کلمات خودش تکرار کنه چک می‌کنم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "raining",
+      "idioms",
+      "avoid",
+      "first"
+     ],
+     "suggestion": "I'll avoid idioms like \"it's raining cats and dogs\" at first!",
+     "suggestionFa": "اولش از اصطلاح‌هایی مثل «بارون مثل دم اسب» دوری می‌کنم!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "native speakers",
+     "fa": "گویشوران بومی"
+    },
+    {
+     "word": "idioms",
+     "fa": "اصطلاحات"
+    },
+    {
+     "word": "without realising",
+     "fa": "بدون اینکه متوجه شوند"
+    },
+    {
+     "word": "say it back",
+     "fa": "تکرار کردن"
+    },
+    {
+     "word": "in her own words",
+     "fa": "با کلمات خودش"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bennett",
+   "text": "Ha! Good luck with that — it's very hard to avoid in Manchester. She's just arrived. Shall I introduce you?",
+   "translations": {
+    "fa": "ها! موفق باشید — تو منچستر دوری کردن ازش خیلی سخته. همین الان رسید. معرفیتون کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "practising",
+      "arabic",
+      "first",
+      "hello"
+     ],
+     "suggestion": "Yes, please. I'll say hello in Arabic first — I've been practising.",
+     "suggestionFa": "آره لطفاً. اول به عربی سلام می‌کنم — تمرین کردم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "helps",
+      "offer",
+      "cup"
+     ],
+     "suggestion": "Please. I'll offer her a cup of tea. That always helps.",
+     "suggestionFa": "لطفاً. یه چای بهش تعارف می‌کنم. همیشه کمک می‌کنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "introduce",
+     "fa": "معرفی کردن"
+    },
+    {
+     "word": "practising",
+     "fa": "تمرین کردن"
+    },
+    {
+     "word": "offer",
+     "fa": "تعارف کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Perfect. You know, two years ago you were the nervous one walking through that door. Look at you now.",
+   "translations": {
+    "fa": "عالیه. می‌دونید، دو سال پیش شما همونی بودید که با استرس از اون در وارد شد. حالا خودتون را ببینید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

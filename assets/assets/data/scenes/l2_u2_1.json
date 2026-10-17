@@ -71,7 +71,7 @@
      "keywords": [
       "straight",
       "bakery",
-      "then",
+      "left",
       "past"
      ],
      "suggestion": "Straight on, past the bakery, then left.",
@@ -83,9 +83,9 @@
     {
      "keywords": [
       "please",
+      "sorry",
       "could",
-      "again",
-      "sorry"
+      "again"
      ],
      "suggestion": "Sorry, could you say that again, please?",
      "suggestionFa": "ببخشید، می‌شه دوباره بگید؟",
@@ -187,8 +187,8 @@
     },
     {
      "keywords": [
-      "here",
       "from",
+      "here",
       "far"
      ],
      "suggestion": "Is it far from here?",
@@ -236,8 +236,8 @@
     },
     {
      "keywords": [
-      "road",
       "left",
+      "road",
       "end"
      ],
      "suggestion": "It's at the end of this road, on the left.",
@@ -289,8 +289,8 @@
     },
     {
      "keywords": [
-      "phrase",
       "useful",
+      "phrase",
       "thanks",
       "that's"
      ],

@@ -1,0 +1,235 @@
+{
+ "id": "l4_u2_2",
+ "characterId": "tom",
+ "title": "The tricky email",
+ "titleFa": "ایمیل حساس",
+ "setting": "Workplace communication · Level 4",
+ "settingFa": "ارتباطات محیط کار",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Can I get a second opinion? A colleague keeps missing deadlines, and I need to email him without sounding like I'm having a go.",
+   "translations": {
+    "fa": "می‌تونم یه نظر دوم بگیرم؟ یه همکار مدام مهلت‌ها را رد می‌کنه، و باید بهش ایمیل بزنم بدون اینکه به نظر بیاد دارم بهش می‌تازم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "written",
+      "sure",
+      "have",
+      "far"
+     ],
+     "suggestion": "Sure. What have you written so far?",
+     "suggestionFa": "حتماً. تا حالا چی نوشتی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "course",
+      "emails",
+      "these"
+     ],
+     "suggestion": "Of course. The tone is everything in these emails.",
+     "suggestionFa": "حتماً. تو این ایمیل‌ها لحن همه چیزه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "second opinion",
+     "fa": "نظر دوم"
+    },
+    {
+     "word": "colleague",
+     "fa": "همکار"
+    },
+    {
+     "word": "having a go",
+     "fa": "حمله کردن (لفظی)"
+    },
+    {
+     "word": "tone",
+     "fa": "لحن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "\"Matt, you missed the deadline again. This needs to stop.\" Too blunt?",
+   "translations": {
+    "fa": "«مت، دوباره مهلت را رد کردی. این باید تموم بشه.» زیادی رکه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "positive",
+      "starting",
+      "british"
+     ],
+     "suggestion": "Much too blunt for a British office! Try starting with something positive.",
+     "suggestionFa": "برای یه دفتر بریتانیایی خیلی زیادی رکه! با یه چیز مثبت شروع کن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "defensive",
+      "clear",
+      "might",
+      "get"
+     ],
+     "suggestion": "It's clear, but he might get defensive.",
+     "suggestionFa": "واضحه، ولی ممکنه حالت دفاعی بگیره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "blunt",
+     "fa": "رک/بی‌پرده"
+    },
+    {
+     "word": "positive",
+     "fa": "مثبت"
+    },
+    {
+     "word": "defensive",
+     "fa": "دفاعی"
+    }
+   ],
+   "cultureNote": {
+    "en": "British workplace English is often indirect. \"I was just wondering…\" or \"It might be worth…\" softens requests and criticism.",
+    "fa": "انگلیسی کاری بریتانیایی غیرمستقیم است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Fair. How about: \"Hi Matt, hope you're well. I was just wondering how the report's coming along?\"",
+   "translations": {
+    "fa": "منصفانه. این چطوره: «سلام مت، امیدوارم خوب باشی. می‌خواستم بدونم گزارش چطور پیش می‌ره؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "deadline",
+      "mention",
+      "better",
+      "gently"
+     ],
+     "suggestion": "Much better. Then you could mention the deadline gently.",
+     "suggestionFa": "خیلی بهتر. بعد می‌تونی آروم مهلت را اشاره کنی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "blocking",
+      "there's",
+      "maybe"
+     ],
+     "suggestion": "Good. Maybe ask if there's anything blocking him.",
+     "suggestionFa": "خوبه. شاید بپرسی چیزی جلوش را گرفته.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "coming along",
+     "fa": "پیش رفتن"
+    },
+    {
+     "word": "gently",
+     "fa": "به آرامی"
+    },
+    {
+     "word": "blocking",
+     "fa": "مانع شدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "\"It might be worth us having a quick chat about timelines, as the client's expecting it on Friday.\"",
+   "translations": {
+    "fa": "«شاید ارزشش را داشته باشه یه گپ کوتاه دربارهٔ زمان‌بندی‌ها بزنیم، چون مشتری جمعه منتظرشه.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "friendly",
+      "perfect",
+      "firm",
+      "but"
+     ],
+     "suggestion": "Perfect. It's firm but friendly.",
+     "suggestionFa": "عالیه. محکم ولی دوستانه‌ست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "offer",
+      "maybe",
+      "blame"
+     ],
+     "suggestion": "Maybe offer to help, so it doesn't feel like blame.",
+     "suggestionFa": "شاید پیشنهاد کمک بدی، تا حس سرزنش نده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "worth",
+     "fa": "ارزش داشتن"
+    },
+    {
+     "word": "timelines",
+     "fa": "زمان‌بندی"
+    },
+    {
+     "word": "firm",
+     "fa": "محکم"
+    },
+    {
+     "word": "blame",
+     "fa": "سرزنش"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Good shout. \"Let me know if I can help in any way. Cheers, Tom.\" Sent. Funny — in Britain, \"I was just wondering\" means \"do it now\"!",
+   "translations": {
+    "fa": "پیشنهاد خوبی بود. «اگه هر کمکی از دستم برمیاد خبرم کن. مرسی، تام.» فرستاده شد. جالبه — تو بریتانیا، «فقط می‌خواستم بدونم» یعنی «همین الان انجامش بده»!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

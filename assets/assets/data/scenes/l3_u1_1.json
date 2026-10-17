@@ -22,7 +22,7 @@
       "experience",
       "about",
       "tell",
-      "her"
+      "tom"
      ],
      "suggestion": "Tom, tell her about your experience.",
      "suggestionFa": "تام، از تجربه‌ات بگو.",
@@ -71,7 +71,7 @@
      "keywords": [
       "working",
       "tom's",
-      "tram",
+      "been",
       "line"
      ],
      "suggestion": "Tom's been working on the new tram line too.",
@@ -123,8 +123,8 @@
     },
     {
      "keywords": [
-      "projects",
       "managing",
+      "projects",
       "since"
      ],
      "suggestion": "He's been managing projects since 2019.",
@@ -179,7 +179,7 @@
       "family",
       "closer",
       "like",
-      "work"
+      "more"
      ],
      "suggestion": "I'd like to work closer to home and see my family more.",
      "suggestionFa": "دوست دارم نزدیک‌تر به خونه کار کنم و خانواده‌ام را بیشتر ببینم.",
@@ -223,8 +223,8 @@
      "keywords": [
       "sometimes",
       "extra",
-      "work",
-      "find"
+      "find",
+      "work"
      ],
      "suggestion": "I sometimes find it hard to say no to extra work.",
      "suggestionFa": "گاهی سخته که به کار اضافه نه بگم.",
@@ -276,8 +276,8 @@
     {
      "keywords": [
       "typical",
-      "look",
       "like",
+      "look",
       "day"
      ],
      "suggestion": "What does a typical day look like?",
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "decision",
-      "make",
+      "when",
       "will",
-      "when"
+      "make"
      ],
      "suggestion": "When will you make a decision?",
      "suggestionFa": "کی تصمیم می‌گیرید؟",

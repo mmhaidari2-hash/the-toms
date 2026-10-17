@@ -1,0 +1,243 @@
+{
+ "id": "l4_u9_4",
+ "characterId": "doris",
+ "title": "A scam call",
+ "titleFa": "تماس کلاهبرداری",
+ "setting": "Customer service · Level 4",
+ "settingFa": "خدمات مشتری",
+ "requires": null,
+ "start": "n1",
+ "level": "B2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Tom, I had a very strange phone call this morning. A man said he was from my bank and that someone had stolen my money!",
+   "translations": {
+    "fa": "تام، امروز صبح یه تماس خیلی عجیب داشتم. یه مرد گفت از بانکمه و یکی پولم را دزدیده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "details",
+      "doris",
+      "any",
+      "ask"
+     ],
+     "suggestion": "Oh no. Did he ask you for any details, Doris?",
+     "suggestionFa": "ای وای. ازتون اطلاعاتی خواست دوریس؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exactly",
+      "sounds",
+      "like",
+      "scam"
+     ],
+     "suggestion": "That sounds like a scam. What did he say exactly?",
+     "suggestionFa": "به نظر کلاهبرداری میاد. دقیقاً چی گفت؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    },
+    {
+     "word": "stolen",
+     "fa": "دزدیده"
+    },
+    {
+     "word": "details",
+     "fa": "اطلاعات"
+    },
+    {
+     "word": "scam",
+     "fa": "کلاهبرداری"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "He said I needed to move my savings to a \"safe account\" straight away. He knew my name and my address! He sounded so professional.",
+   "translations": {
+    "fa": "گفت باید فوراً پس‌اندازم را به یه «حساب امن» منتقل کنم. اسم و آدرسم را می‌دونست! خیلی حرفه‌ای به نظر می‌رسید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whatever",
+      "banks",
+      "don't",
+      "money"
+     ],
+     "suggestion": "Whatever you do, don't move any money. Banks never ask you to do that.",
+     "suggestionFa": "هر کاری می‌کنید، هیچ پولی منتقل نکنید. بانک‌ها هیچ‌وقت چنین چیزی نمی‌خوان.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "code",
+      "give",
+      "him"
+     ],
+     "suggestion": "Did you give him anything — your PIN or a code?",
+     "suggestionFa": "چیزی بهش دادید — پین یا کد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "savings",
+     "fa": "پس‌انداز"
+    },
+    {
+     "word": "safe account",
+     "fa": "حساب امن"
+    },
+    {
+     "word": "straight away",
+     "fa": "فوراً"
+    },
+    {
+     "word": "professional",
+     "fa": "حرفه‌ای"
+    },
+    {
+     "word": "whatever you do",
+     "fa": "هر کاری می‌کنی"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Safe account\" scams are common in the UK. A real bank will never ask you to move money or tell you your PIN.",
+    "fa": "بانک واقعی هرگز نمی‌گوید پول را منتقل کنید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "No, I got flustered and hung up. Then he rang back! Twice! I've been in a state all morning.",
+   "translations": {
+    "fa": "نه، هول کردم و قطع کردم. بعد دوباره زنگ زد! دو بار! کل صبح حالم بد بوده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hanging",
+      "exactly",
+      "thing",
+      "right"
+     ],
+     "suggestion": "You did exactly the right thing by hanging up.",
+     "suggestionFa": "دقیقاً کار درست را کردید که قطع کردید.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "number",
+      "phone",
+      "using"
+     ],
+     "suggestion": "Let's call your bank using the number on your card — from a different phone.",
+     "suggestionFa": "بیاید با شمارهٔ روی کارتتون به بانک زنگ بزنیم — از یه گوشی دیگه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flustered",
+     "fa": "دستپاچه"
+    },
+    {
+     "word": "hung up",
+     "fa": "قطع کرد"
+    },
+    {
+     "word": "in a state",
+     "fa": "آشفته"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Why a different phone?",
+   "translations": {
+    "fa": "چرا یه گوشی دیگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "scammers",
+      "called",
+      "you've"
+     ],
+     "suggestion": "Scammers sometimes stay on the line, so you think you've called the bank.",
+     "suggestionFa": "کلاهبردارها گاهی پشت خط می‌مونن، تا فکر کنید به بانک زنگ زدید.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone",
+      "number",
+      "gives",
+      "never"
+     ],
+     "suggestion": "Just to be safe. Never ring back a number someone gives you.",
+     "suggestionFa": "فقط محض احتیاط. هیچ‌وقت به شماره‌ای که کسی بهتون داده زنگ نزنید.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scammers",
+     "fa": "کلاهبرداران"
+    },
+    {
+     "word": "stay on the line",
+     "fa": "پشت خط ماندن"
+    },
+    {
+     "word": "just to be safe",
+     "fa": "محض احتیاط"
+    }
+   ],
+   "cultureNote": {
+    "en": "You can report scam calls to the national fraud line Action Fraud, or call 159 to reach your bank safely.",
+    "fa": "با ۱۵۹ به‌طور امن با بانک تماس بگیرید."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Well I never. How clever and wicked they are. Thank you, love. I'll tell everyone at the WI on Thursday — forewarned is forearmed!",
+   "translations": {
+    "fa": "ای وای. چقدر زرنگ و شرورن. ممنون عزیزم. پنجشنبه به همه تو انجمن زنان می‌گم — آگاهی پیشگیریه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}
