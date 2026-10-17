@@ -1,0 +1,140 @@
+## U119 | At the dentist | در دندانپزشکی | dentist | Register with an NHS dentist, have a check-up, get a filling and help a child at her first visit | در دندانپزشکی NHS ثبت‌نام کنی، معاینه شوی، دندانت را پر کنی و در اولین مراجعهٔ بچه کمک کنی
+
+# l2_u31_1 | hughes | Registering with an NHS dentist | ثبت‌نام در دندانپزشکی NHS | Are you taking on…? / Is there a waiting list? / How much does it cost? / I'm entitled to… | بیمار جدید می‌پذیرید؟ / فهرست انتظار هست؟ / هزینه‌اش چقدر است؟ | dentist
+hughes: Good morning, Smile Dental Practice, Mrs Hughes speaking. I'm one of the dentists. How can I help? | صبح بخیر، مطب دندانپزشکی اسمایل، هیوز هستم. یکی از دندانپزشک‌ها هستم. چطور کمک کنم؟
+> Hello. Are you taking on new NHS patients? | سلام. بیمار جدید NHS می‌پذیرید؟
+> I'd like to register with a dentist, please. | می‌خوام در یه دندانپزشکی ثبت‌نام کنم، لطفاً.
+W: dental practice=مطب دندانپزشکی ; taking on=پذیرفتن ; NHS patients=بیماران NHS ; register=ثبت‌نام کردن
+hughes: You're lucky. We've just opened twenty NHS places this week. Most dentists in London have long waiting lists. | خوش‌شانسید. همین هفته بیست جای NHS باز کردیم. بیشتر دندانپزشکی‌های لندن فهرست انتظار طولانی دارن.
+> Lucky me! What do I need to do? | چه شانسی! باید چی کار کنم؟
+> Is there a waiting list here too? | اینجا هم فهرست انتظار هست؟
+W: lucky=خوش‌شانس ; places=جاها ؛ ظرفیت ; waiting lists=فهرست‌های انتظار ; long=طولانی
+C: You don't register with an NHS dentist like a GP. You find a practice "taking on NHS patients" and book a check-up. Places can be hard to find. | پیدا کردن دندانپزشک NHS گاهی سخت است و باید مطبی بیابید که بیمار جدید بپذیرد.
+hughes: Not today! Just fill in this form: medical history, medicines, and your GP's name. Then we'll book your first check-up. | امروز نه! فقط این فرم را پر کنید: سابقهٔ پزشکی، داروها و اسم پزشک عمومیتون. بعد اولین معاینه‌تون را رزرو می‌کنیم.
+> What's medical history? | سابقهٔ پزشکی یعنی چی؟
+> My GP is Dr Okafor, at Mare Street Surgery. | پزشک عمومیم دکتر اوکافوره، مطب مِر استریت.
+W: fill in=پر کردن ; medical history=سابقهٔ پزشکی ; medicines=داروها ; check-up=معاینه
+hughes: Illnesses you've had, operations, allergies. Now — NHS dentistry isn't free for most adults. Do you know the costs? | بیماری‌هایی که داشتید، عمل‌ها، حساسیت‌ها. خب — دندانپزشکی NHS برای بیشتر بزرگسال‌ها رایگان نیست. هزینه‌ها را می‌دونید؟
+> No. How much does it cost? | نه. هزینه‌اش چقدره؟
+> Not free? I thought the NHS was free. | رایگان نیست؟ فکر می‌کردم NHS رایگانه.
+W: illnesses=بیماری‌ها ; operations=عمل‌های جراحی ; allergies=حساسیت‌ها ; costs=هزینه‌ها
+X: how much it costs ; how much does it costing => How much does it cost? Let me explain. | How much does it cost? | هزینه‌اش چقدر است؟
+hughes: There are three bands. Band 1, a check-up, is about £27. Band 2, fillings, is about £75. Band 3, crowns, is more. | سه رده هست. ردهٔ ۱، معاینه، حدود بیست و هفت پونده. ردهٔ ۲، پرکردن، حدود هفتاد و پنج. ردهٔ ۳، روکش، بیشتر.
+> That's much cheaper than private, isn't it? | خیلی ارزون‌تر از خصوصیه، نه؟
+> Are children free? | بچه‌ها رایگانن؟
+W: bands=رده‌ها ؛ سطوح هزینه ; fillings=پرکردگی‌ها ; crowns=روکش‌ها ; private=خصوصی
+hughes: Much cheaper. And children under eighteen are free. So are pregnant women, and some people on benefits. | خیلی ارزون‌تر. بچه‌های زیر هجده سال هم رایگانن. همین‌طور خانم‌های باردار و بعضی از کسانی که کمک‌هزینه می‌گیرن.
+> Good. Nicola and William can come too, then. | خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.
+> I'm working now. So I pay Band 1? | الان کار می‌کنم. پس ردهٔ ۱ را می‌پردازم؟
+W: children=بچه‌ها ; pregnant=باردار ; benefits=کمک‌هزینه‌های دولتی
+hughes: Exactly. Thursday at nine for your check-up? Arrive ten minutes early. If you can't come, call us — or we charge. | دقیقاً. پنج‌شنبه ساعت نه برای معاینه؟ ده دقیقه زودتر بیاید. اگه نمی‌تونید بیاید، زنگ بزنید — وگرنه هزینه می‌گیریم.
+
+# l2_u31_2 | hughes | A check-up | معاینه | Open wide / Does it hurt when…? / You need to floss / How often do you…? | دهانت را باز کن / وقتی … درد می‌کند؟ / باید نخ دندان بکشی / چند وقت یک‌بار …؟ | dentist
+hughes: Come in, sit down and lie back. First, a few questions. Any problems with your teeth? | بیاید تو، بنشینید و دراز بکشید. اول، چند تا سؤال. مشکلی با دندون‌هاتون دارید؟
+> Yes. This tooth hurts when I drink cold water. | آره. این دندون وقتی آب سرد می‌خورم درد می‌گیره.
+> No, I think they're fine. | نه، فکر کنم خوبن.
+W: lie back=دراز کشیدن ؛ تکیه دادن ; questions=سؤال‌ها ; teeth=دندان‌ها ; hurts=درد می‌کند
+hughes: Cold water — that's "sensitive teeth". Very common. When did it start? And is it sharp, or a dull ache? | آب سرد — اسمش «حساسیت دندانه». خیلی رایجه. کی شروع شد؟ تیزه یا یه درد مبهم؟
+> It started last month. It's sharp! | ماه پیش شروع شد. تیزه!
+> What's a dull ache? | درد مبهم یعنی چی؟
+W: sensitive=حساس ; common=رایج ; sharp=تیز ; dull ache=درد مبهم
+X: it is started last month ; it start last month => It started last month. I'll write that. | It started last month. | ماه پیش شروع شد.
+hughes: Sharp — I'll write that down. How often do you brush your teeth? Be honest — I've heard everything! | تیز — یادداشتش می‌کنم. چند وقت یک‌بار دندون‌هاتون را مسواک می‌زنید؟ صادق باشید — من همه‌چی شنیدم!
+> Twice a day, morning and night. | روزی دو بار، صبح و شب.
+> Once a day. Sometimes twice. | روزی یه بار. گاهی دو بار.
+W: how often=چند وقت یک بار ; brush=مسواک زدن ; honest=صادق ; twice=دو بار
+C: UK dentists recommend brushing twice a day for two minutes with fluoride toothpaste, and "spit, don't rinse". | دندانپزشکان مسواک دو بار در روز و نشستن دهان بعد از آن را توصیه نمی‌کنند.
+hughes: Good. Do you rinse with water afterwards? Most people do. But it washes away the fluoride. Just spit, don't rinse. | خوبه. بعدش با آب دهانتون را می‌شویید؟ بیشتر مردم این کار را می‌کنن. ولی فلوراید را می‌شوره. فقط تف کنید، آب نکشید.
+> Really? I always rinse! | واقعاً؟ من همیشه آب می‌کشم!
+> Spit, don't rinse. I'll remember. | تف کن، آب نکش. یادم می‌مونه.
+W: rinse=آب کشیدن ؛ شستن ; afterwards=بعد از آن ; washes away=می‌شوید و می‌برد ; spit=تف کردن
+hughes: Right. Open wide, please. I'm just looking… tapping… does it hurt when I tap here? | خب. لطفاً دهانتون را کامل باز کنید. فقط دارم نگاه می‌کنم… ضربه می‌زنم… وقتی اینجا ضربه می‌زنم درد داره؟
+> Aah! Yes, that one hurts! | آخ! آره، اون یکی درد داره!
+> No, it's OK. Just a bit strange. | نه، خوبه. فقط یه‌کم عجیبه.
+W: open wide=دهانت را کامل باز کن ; tapping=ضربه زدن ; strange=عجیب
+hughes: I think it's a small hole — a cavity. You'll need a filling, but it's small. And your gums are a little red. Do you floss? | فکر کنم یه سوراخ کوچیکه — پوسیدگی. یه پرکردن لازم دارید، ولی کوچیکه. لثه‌هاتون هم یه‌کم قرمزه. نخ دندون می‌کشید؟
+> No. What's floss? | نه. نخ دندون چیه؟
+> Not really. Is it important? | نه واقعاً. مهمه؟
+W: cavity=پوسیدگی ؛ حفره ; filling=پرکردن دندان ; gums=لثه‌ها ; floss=نخ دندان کشیدن
+hughes: Very important! Floss, or little brushes between your teeth, every night. I'll give you some. Now let's book the filling. | خیلی مهمه! نخ دندون، یا برس‌های کوچیک بین دندون‌ها، هر شب. چند تا بهتون میدم. حالا بیاید پرکردن را رزرو کنیم.
+> Thank you. When can I come? | ممنون. کی می‌تونم بیام؟
+> Will the filling hurt? | پرکردن درد داره؟
+W: brushes=برس‌ها ; between=بین ; every night=هر شب ; book=رزرو کردن
+hughes: Next Tuesday at four. And no, you'll have an injection first, so you won't feel a thing. Just a numb lip for an hour or two! | سه‌شنبهٔ بعد ساعت چهار. و نه، اول آمپول می‌زنید، پس هیچ‌چی حس نمی‌کنید. فقط یه لب بی‌حس برای یکی دو ساعت!
+
+# l2_u31_3 | hughes | A filling | پرکردن دندان | I'm nervous / Can you stop if…? / It feels numb / I can't feel… | مضطربم / می‌شود اگر … دست نگه دارید؟ / بی‌حس است / حس نمی‌کنم | dentist
+hughes: Hello again! Today's the filling. You look a bit pale. Are you nervous? | دوباره سلام! امروز پرکردنه. یه‌کم رنگ‌پریده‌اید. مضطربید؟
+> Yes, I'm very nervous. I hate needles. | آره، خیلی مضطربم. از سوزن متنفرم.
+> A little. Will it take long? | یه‌کم. طول می‌کشه؟
+W: pale=رنگ‌پریده ; nervous=مضطرب ؛ عصبی ; hate=متنفر بودن ; needles=سوزن‌ها
+hughes: Lots of people are. Here's a tip: if you want me to stop, raise your left hand. I'll stop straight away. | خیلی‌ها همین‌طورن. یه نکته: اگه خواستید دست نگه دارم، دست چپتون را بالا ببرید. فوراً متوقف می‌کنم.
+> Raise my left hand. OK. That helps. | دست چپم را بالا ببرم. باشه. کمک می‌کنه.
+> Can you stop if it hurts? | اگه درد گرفت، می‌تونید دست نگه دارید؟
+W: tip=نکته ; raise=بالا بردن ; left hand=دست چپ ; straight away=فوراً
+X: can you stopping if it hurt ; you can stop if hurts? => Can I stop if it hurts? Yes, of course. | Can you stop if it hurts? | اگر درد گرفت می‌توانید متوقف شوید؟
+hughes: Of course. First, the numbing gel, then a tiny injection. A little scratch… there. All done. Now we wait five minutes. | البته. اول ژل بی‌حسی، بعد یه آمپول خیلی کوچیک. یه خراش کوچیک… بفرمایید. تموم شد. حالا پنج دقیقه صبر می‌کنیم.
+> That wasn't bad at all! | اصلاً بد نبود!
+> My lip feels funny. | لبم حس عجیبی داره.
+W: numbing gel=ژل بی‌حسی ; injection=آمپول ؛ تزریق ; scratch=خراش ; wait=صبر کردن
+C: Before a filling, dentists use a local anaesthetic, so the area goes numb. Don't eat hot food until the feeling comes back. | پیش از پرکردن، دندانپزشک بی‌حسی موضعی می‌زند.
+hughes: That's the anaesthetic working. Can you feel your lip? Tap it with your finger. | این یعنی بی‌حسی داره کار می‌کنه. لبتون را حس می‌کنید؟ با انگشت بهش ضربه بزنید.
+> No, I can't feel it. It feels numb. | نه، حسش نمی‌کنم. بی‌حسه.
+> A bit. Should I wait longer? | یه‌کم. بیشتر صبر کنم؟
+W: anaesthetic=داروی بی‌حسی ؛ بی‌حس‌کننده ; feel=حس کردن ; numb=بی‌حس ; longer=بیشتر
+hughes: Numb is perfect. I'm starting now. The drill is loud, but you won't feel pain. Breathe slowly through your nose. | بی‌حسی عالیه. الان شروع می‌کنم. مته صداش بلنده، ولی درد حس نمی‌کنید. آروم از بینی نفس بکشید.
+> Through my nose. OK. | از بینی. باشه.
+> Can I listen to music? | می‌تونم موسیقی گوش بدم؟
+W: drill=مته ؛ دریل ; loud=بلند ; pain=درد ; breathe=نفس کشیدن ; nose=بینی
+hughes: Of course! Put your earphones in. Ten minutes… done! A small white filling. Bite down gently. Does it feel too high? | البته! هندزفری‌تون را بذارید. ده دقیقه… تموم! یه پرکردن سفید کوچیک. آروم گاز بگیرید. حس می‌کنید خیلی بلنده؟
+> It feels a bit high on this side. | این طرف یه‌کم بلند حس میشه.
+> No, it feels normal. Thank you! | نه، عادیه. ممنون!
+W: earphones=هندزفری ؛ هدفون ; white=سفید ; bite down=گاز گرفتن ; high=بلند
+hughes: A bit high — I'll polish it… better? Good. Now, don't eat for two hours, and no hot drinks. You might bite your cheek! | یه‌کم بلند — صیقلش میدم… بهتر شد؟ خوبه. حالا دو ساعت چیزی نخورید و نوشیدنی داغ هم نه. ممکنه گونه‌تون را گاز بگیرید!
+> Two hours? I'm hungry already! | دو ساعت؟ همین الان گرسنه‌ام!
+> No hot tea? That's hard for a British home! | چای داغ نه؟ برای یه خونهٔ بریتانیایی سخته!
+W: polish=صیقل دادن ; hot drinks=نوشیدنی‌های داغ ; cheek=گونه ; hungry=گرسنه
+hughes: Ha! Leslie will survive without your tea-making for two hours. Pay at reception — Band 2. And you were very brave! | ها! لزلی دو ساعت بدون چای درست کردن تو زنده می‌مونه. در پذیرش پرداخت کنید — ردهٔ ۲. خیلی هم شجاع بودید!
+
+# l2_u31_4 | leslie | Nicola's first dentist visit | اولین مراجعهٔ نیکولا به دندانپزشک | Let's count… / You're being so brave / What colour…? / a sticker | بیا بشماریم / خیلی شجاعی / چه رنگی؟ / برچسب | dentist
+leslie: Thank you for coming with us. Nicola's very excited and a tiny bit scared. Her first proper check-up! | ممنون که باهامون اومدی. نیکولا خیلی هیجان‌زده‌ست و یه ذره ترسیده. اولین معاینهٔ واقعیش!
+> Hi Nicola! Are you excited? | سلام نیکولا! هیجان‌زده‌ای؟
+> Don't worry, Nicola. It doesn't hurt. | نگران نباش نیکولا. درد نداره.
+W: excited=هیجان‌زده ; tiny bit=یه ذره ; scared=ترسیده ; proper=واقعی ؛ درست
+nicola: Will the dentist pull my teeth out? Freya said they pull your teeth out! | دندانپزشک دندونام را می‌کشه؟ فریا گفت دندونات را می‌کشن!
+> No! The dentist just counts your teeth. | نه! دندانپزشک فقط دندون‌هات را می‌شمره.
+> Freya is wrong. They just look. | فریا اشتباه می‌کنه. فقط نگاه می‌کنن.
+W: pull out=کشیدن ؛ بیرون آوردن ; counts=می‌شمارد ; wrong=اشتباه ; look=نگاه کردن
+X: dentist only count teeth ; the dentist just count your teeth => The dentist counts your teeth. Yes! | The dentist just counts your teeth. | دندانپزشک فقط دندان‌هایت را می‌شمارد.
+hughes: Hello, Nicola! I'm Mrs Hughes. Do you want to ride on my magic chair? It goes up and down. | سلام نیکولا! من خانم هیوز هستم. می‌خوای سوار صندلی جادوییم بشی؟ بالا و پایین میره.
+> Look, Nicola! A magic chair! | ببین نیکولا! یه صندلی جادویی!
+> Say hello to Mrs Hughes, Nicola. | به خانم هیوز سلام کن نیکولا.
+nicola: A magic chair? Can it go really high? | صندلی جادویی؟ می‌تونه خیلی بالا بره؟
+> Go on, Nicola. Sit on the magic chair! | برو نیکولا. رو صندلی جادویی بشین!
+> I think it goes very high! | فکر کنم خیلی بالا میره!
+W: magic=جادویی ; ride=سوار شدن ; up and down=بالا و پایین ; high=بالا ؛ بلند
+C: NHS dental care is free for children. Dentists advise a first visit when the first teeth come in, and check-ups every six to twelve months. | دندانپزشکی NHS برای کودکان رایگان است.
+hughes: Whee! Now, can you open your mouth like a lion? Big roar! Let's count your teeth together. One, two, three… | ویی! حالا، می‌تونی مثل شیر دهنت را باز کنی؟ غرش بزرگ! بیا با هم دندون‌هات را بشمریم. یک، دو، سه…
+> Let's count, Nicola! Four, five, six… | بیا بشمریم نیکولا! چهار، پنج، شش…
+> Roar, Nicola! Like a big lion. | غرش کن نیکولا! مثل یه شیر بزرگ.
+W: mouth=دهان ; lion=شیر (حیوان) ; roar=غرش ; together=با هم
+hughes: Twenty teeth — and one is wobbly! Look, Mum. Your first grown-up tooth is coming behind it, Nicola. | بیست تا دندون — و یکیش لقه! ببینید مامان. اولین دندون بزرگسالیت داره پشتش درمیاد نیکولا.
+> A wobbly tooth! Well done, Nicola! | دندون لق! آفرین نیکولا!
+> Nicola, you're growing up! | نیکولا، داری بزرگ میشی!
+W: growing up=بزرگ شدن
+nicola: A wobbly tooth! Will the tooth fairy come? | دندون لق! پری دندون میاد؟
+> Yes! The tooth fairy will bring a coin. | آره! پری دندون یه سکه میاره.
+> Maybe! When it falls out, put it under your pillow. | شاید! وقتی افتاد، بذارش زیر بالشت.
+W: wobbly=لق ; grown-up tooth=دندان دائمی ; tooth fairy=پری دندان ; pillow=بالش
+C: When a child loses a tooth, British parents say the "tooth fairy" takes it from under the pillow and leaves a coin. | در بریتانیا «پری دندان» دندان افتاده را برمی‌دارد و سکه می‌گذارد.
+leslie: She will, sweetheart. Mrs Hughes, any problems? We do brush twice a day… mostly. | میاد عزیزم. خانم هیوز، مشکلی هست؟ ما روزی دو بار مسواک می‌زنیم… بیشتر وقت‌ها.
+> Leslie, Nicola eats a lot of sweets! | لزلی، نیکولا خیلی شیرینی می‌خوره!
+> Her teeth look very clean. | دندون‌هاش خیلی تمیز به نظر میاد.
+W: sweetheart=عزیزم ; problems=مشکلات ; mostly=بیشتر وقت‌ها ; clean=تمیز
+hughes: All perfect. Just keep sweets for mealtimes, not all day. And now, Nicola — you can choose a sticker. Which colour would you like? | همه بی‌نقص. فقط شیرینی را برای وقت غذا نگه دارید، نه کل روز. و حالا نیکولا — می‌تونی یه برچسب انتخاب کنی. چه رنگی دوست داری؟
+> Which colour, Nicola? Pink? | چه رنگی نیکولا؟ صورتی؟
+> Good girl, Nicola. Choose one! | دختر خوب نیکولا. یکی انتخاب کن!
+nicola: The pink one! It says "Brave Smile"! Can I show William? | صورتیه! نوشته «لبخند شجاع»! می‌تونم به ویلیام نشونش بدم؟
+> Yes! You were very brave, Nicola. | آره! خیلی شجاع بودی نیکولا.
+> William will be so jealous! | ویلیام خیلی حسودیش میشه!
+W: sticker=برچسب ; pink=صورتی ; brave=شجاع ; jealous=حسود
+leslie: He'll want one too. Thank you, Mrs Hughes. And thank you for coming. Next time, it's your turn in the magic chair! | اونم یکی می‌خواد. ممنون خانم هیوز. ممنون که اومدی. دفعهٔ بعد نوبت توئه رو صندلی جادویی!
