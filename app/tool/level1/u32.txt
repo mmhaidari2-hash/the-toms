@@ -1,0 +1,143 @@
+## U77 | Sizes and amounts | اندازه‌ها و مقدارها | bakery | Ask for sizes and amounts when you shop | هنگام خرید اندازه و مقدار بخواهی
+
+# l1_u32_1 | baker | A big loaf or a small one? | نان بزرگ یا کوچک؟ | Big / small / bigger / smaller | بزرگ / کوچک / بزرگ‌تر | bakery
+baker: Morning, love! What can I get you today? | صبح بخیر عزیزم! امروز چی بدم خدمتتون؟
+> A loaf of bread, please. | یه قرص نون، لطفاً.
+> Have you got white bread? | نون سفید دارید؟
+W: loaf=قرص نان ; bread=نان
+baker: We've got white, brown and seeded. Large or small? | سفید، سبوس‌دار و دونه‌دار داریم. بزرگ یا کوچیک؟
+> A large white loaf, please. | یه نون سفید بزرگ، لطفاً.
+> How big is the large one? | بزرگه چقدره؟
+W: brown=سبوس‌دار ؛ قهوه‌ای ; seeded=دانه‌دار ; large=بزرگ
+C: In the UK "brown bread" means wholemeal or wheat bread. | brown bread یعنی نان سبوس‌دار.
+baker: This big one. It's eight hundred grams. The small one is four hundred. | این بزرگه. هشتصد گرمه. کوچیکه چهارصده.
+> The small one is enough for me. | کوچیکه برام کافیه.
+> The big one, please. I've got a big family next door! | بزرگه، لطفاً. همسایه‌م خانوادهٔ بزرگی داره!
+W: grams=گرم ; enough=کافی ; hundred=صد
+baker: Ha! The Thompsons? Then you need a bigger one! Sliced or unsliced? | ها! تامپسون‌ها؟ پس بزرگ‌تر لازم داری! برش‌خورده یا نبریده؟
+> Sliced, please. | برش‌خورده، لطفاً.
+> What does "unsliced" mean? | «نبریده» یعنی چی؟
+W: bigger=بزرگ‌تر ; sliced=برش‌خورده ; unsliced=بریده‌نشده
+X: more big one ; a more bigger loaf => A bigger one? Here you go. | A bigger one, please. | یه بزرگ‌تر، لطفاً.
+baker: It means in one piece. You cut it at home. Thick slices or thin? | یعنی یکجا. خودت تو خونه می‌بری. برش ضخیم یا نازک؟
+> Thick slices, please. For toast. | برش ضخیم، لطفاً. برای نون تست.
+> Thin slices are better for sandwiches. | برش نازک برای ساندویچ بهتره.
+W: thick=ضخیم ; thin=نازک ; slices=برش‌ها ; toast=نان تست
+baker: Thick it is. Anything else? The rolls are small, and the baguettes are long! | ضخیم. چیز دیگه‌ای؟ نون رول‌ها کوچیکن، باگت‌ها بلند!
+> Four small rolls, please. | چهار تا نون رول کوچیک، لطفاً.
+> One long baguette too. | یه باگت بلند هم.
+W: rolls=نان گرد کوچک ; long=بلند ; baguette=باگت
+C: Bread rolls have many regional names in Britain: bap, cob, barm cake, bun… | نام‌های محلی نان گرد.
+baker: Lovely. That's three pounds forty altogether. | عالی. جمعاً سه پوند و چهل میشه.
+> Here's four pounds. | بفرما چهار پوند.
+> Can I pay by card? | می‌تونم با کارت پرداخت کنم؟
+W: altogether=جمعاً ; pay=پرداخت کردن
+baker: Course you can. Here's your bag. Mind the baguette — it's longer than the bag! | البته. اینم کیسه‌تون. مواظب باگت باشید — از کیسه بلندتره!
+
+# l1_u32_2 | butcher | Half a dozen eggs | نیم دوجین تخم‌مرغ | Numbers and amounts: a dozen, half, a kilo | دوجین، نیم، کیلو | bakery
+butcher: Hello there! What would you like? | سلام! چی میل دارید؟
+> Can I have some eggs, please? | می‌شه چندتا تخم‌مرغ بدید، لطفاً؟
+> I need eggs and chicken. | تخم‌مرغ و مرغ لازم دارم.
+W: eggs=تخم‌مرغ‌ها ; chicken=مرغ
+butcher: Free-range eggs. Half a dozen or a dozen? | تخم‌مرغ محلی. نیم دوجین یا یه دوجین؟
+> What's half a dozen? | نیم دوجین چیه؟
+> A dozen, please. | یه دوجین، لطفاً.
+W: free-range=آزاد (مرغ محلی) ; dozen=دوجین ؛ دوازده تا ; half=نیم
+C: British shops often sell eggs by six (half a dozen) or twelve (a dozen). | تخم‌مرغ شش‌تایی یا دوازده‌تایی.
+butcher: Half a dozen is six. A dozen is twelve. | نیم دوجین شش تاست. یه دوجین دوازده تا.
+> Six is enough. Half a dozen, please. | شش تا کافیه. نیم دوجین، لطفاً.
+> Twelve, then. I eat a lot of eggs. | پس دوازده تا. من خیلی تخم‌مرغ می‌خورم.
+W: six=شش ; twelve=دوازده ; enough=کافی
+butcher: Righto. Now, chicken. Breasts or thighs? | باشه. حالا مرغ. سینه یا ران؟
+> Two chicken breasts, please. | دو تا سینهٔ مرغ، لطفاً.
+> How much are the thighs? | ران‌ها چنده؟
+W: breasts=سینه ; thighs=ران
+butcher: Thighs are six pounds a kilo. Breasts are nine pounds a kilo. | ران کیلویی شش پونده. سینه کیلویی نه پوند.
+> Half a kilo of thighs, please. | نیم کیلو ران، لطفاً.
+> One kilo of breasts, please. | یه کیلو سینه، لطفاً.
+W: kilo=کیلو ; a kilo=هر کیلو
+X: a half kilo ; half of a kilo thighs => Half a kilo? Sure. | Half a kilo of thighs, please. | نیم کیلو ران، لطفاً.
+C: The UK uses kilos in shops, but many older people still think in pounds and ounces. | کیلو و پوند هر دو.
+butcher: Is it halal? Yes, everything here is halal. Lots of my customers ask. | حلاله؟ آره، همه چیز اینجا حلاله. خیلی از مشتری‌هام می‌پرسن.
+> Good, thank you. | خوبه، ممنون.
+> How did you know my question? | از کجا سؤالم را فهمیدید؟
+W: halal=حلال ; customers=مشتری‌ها
+butcher: Just a guess! Do you want me to cut it smaller? For a curry, maybe? | فقط حدس! می‌خوای کوچیک‌ترش کنم؟ مثلاً برای کاری؟
+> Yes, please. Small pieces. | آره، لطفاً. تیکه‌های کوچیک.
+> No, thanks. Keep it whole. | نه ممنون. درسته بمونه.
+W: guess=حدس ; pieces=تکه‌ها ; whole=کامل ؛ درسته
+butcher: There you are. Eggs and chicken. Seven pounds fifty. Careful with the eggs! | بفرمایید. تخم‌مرغ و مرغ. هفت پوند و پنجاه. مواظب تخم‌مرغ‌ها باشید!
+
+# l1_u32_3 | ryan | A bit more, please | یه کم بیشتر، لطفاً | More / less / a bit / a lot | بیشتر / کمتر | bakery
+ryan: Mum sent me for sweets for Nicola's party bags. You pick and mix them here! | مامان فرستادم برای کیسه‌های جشن نیکولا آبنبات بخرم. اینجا خودت قاطی می‌کنی!
+> What's pick and mix? | پیک اند میکس چیه؟
+> How many bags do we need? | چند تا کیسه لازم داریم؟
+W: sweets=آبنبات ؛ شیرینی ; party bags=کیسه‌های هدیه جشن ; pick=برداشتن
+C: British "sweets", American "candy". | sweets/candy.
+ryan: You choose different sweets and they weigh them. We need ten bags. | آبنبات‌های مختلف انتخاب می‌کنی و وزنشون می‌کنن. ده تا کیسه لازمیم.
+> Ten bags is a lot! | ده تا کیسه زیاده!
+> Let's start with the jelly ones. | با ژله‌ای‌ها شروع کنیم.
+W: different=مختلف ; weigh=وزن کردن ; jelly=ژله‌ای
+baker: Here's the scoop. That's two hundred grams. Do you want more? | اینم پیمانه. این دویست گرمه. بیشتر می‌خواید؟
+> A bit more, please. | یه کم بیشتر، لطفاً.
+> A lot more! It's for ten children. | خیلی بیشتر! برای ده تا بچه‌ست.
+W: scoop=پیمانه ؛ ملاقه ; a bit=کمی ; more=بیشتر
+X: more bit please ; a little bit of more => A bit more? Here you are. | A bit more, please. | یه کم بیشتر، لطفاً.
+ryan: Not too many fizzy ones. Mum says they make kids go mad. | زیاد گازداری نه. مامان میگه بچه‌ها را دیوونه می‌کنه.
+> OK, fewer fizzy sweets. | باشه، آبنبات گازدار کمتر.
+> What about chocolate? | شکلات چطور؟
+W: fizzy=گازدار ؛ ترش جوشان ; fewer=کمتر (قابل شمارش) ; mad=دیوانه
+ryan: Chocolate melts in the bags. Less chocolate, more jelly. | شکلات تو کیسه‌ها آب میشه. شکلات کمتر، ژله‌ای بیشتر.
+> Less chocolate. Got it. | شکلات کمتر. فهمیدم.
+> Jelly snakes, then! | پس مارهای ژله‌ای!
+W: melts=آب می‌شود ; less=کمتر
+baker: That's six hundred grams now. Is that enough? | الان ششصد گرمه. کافیه؟
+> Yes, that's enough. | آره، کافیه.
+> Maybe a bit less. It's a lot of sugar! | شاید یه کم کمتر. خیلی شکره!
+W: enough=کافی ; sugar=شکر
+ryan: Ha, you sound like Mum. It's perfect. Sixty grams each bag. | ها، مثل مامان حرف می‌زنی. عالیه. هر کیسه شصت گرم.
+> How much is it? | چنده؟
+> Can we pay half each? | می‌تونیم نصف‌نصف بدیم؟
+W: perfect=عالی ; each=هر
+baker: Six pounds, please. Have a fab party! | شش پوند، لطفاً. جشن خوبی داشته باشید!
+> Thank you! | ممنون!
+> Mum gave me the money. | مامان پول را بهم داده.
+W: fab=عالی (عامیانه)
+ryan: Sorted. Don't tell Nicola about the snakes. It's a surprise. And don't eat them on the way home! | تمومه. دربارهٔ مارها به نیکولا نگو. سورپرایزه. و تو راه خونه نخوریشون!
+
+# l1_u32_4 | tom | That's enough | همین کافیه | Too much / too many / not enough | زیاد / کافی نیست | bakery
+tom: Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need? | خب! باربیکیو شنبه. بیست نفر! سوسیس می‌خرم. چند تا لازم داریم؟
+> Two each? Forty sausages. | نفری دو تا؟ چهل تا سوسیس.
+> Twenty people is a lot! | بیست نفر زیاده!
+W: barbecue=کباب‌پز ؛ باربیکیو ; sausages=سوسیس‌ها
+C: British barbecues often feature sausages and burgers — and a lot of hoping it won't rain! | باربیکیو و امید به نباریدن باران.
+butcher: Forty sausages? Tom, you'll have too many. Not everyone eats two. | چهل تا سوسیس؟ تام، زیادی میشه. همه دو تا نمی‌خورن.
+> Thirty is enough, then. | پس سی تا کافیه.
+> Ryan eats five! | رایان پنج تا می‌خوره!
+W: too many=بیش از حد (قابل شمارش) ; everyone=همه
+tom: Ha! True. OK, thirty-five. And burgers. Is ten enough? | ها! راسته. باشه، سی و پنج. و برگر. ده تا کافیه؟
+> No, ten isn't enough. | نه، ده تا کافی نیست.
+> Ten is fine. | ده تا خوبه.
+W: burgers=همبرگرها ; enough=کافی
+X: ten is not enough burger ; is no enough => Not enough? Fair point. | Ten isn't enough. | ده تا کافی نیست.
+tom: Fifteen burgers, then. And chicken wings for Weda. She loves them. | پس پونزده تا برگر. و بال مرغ برای ودا. عاشقشه.
+> Are the sausages pork? | سوسیس‌ها خوکن؟
+> I don't eat pork, Tom. | من گوشت خوک نمی‌خورم تام.
+W: pork=گوشت خوک ; wings=بال‌ها
+butcher: Most are pork, but I've got chicken and lamb ones. Halal too. | بیشترشون خوکن، ولی مرغی و برّه‌ای هم دارم. حلال هم هست.
+> Ten lamb ones, please. | ده تا برّه‌ای، لطفاً.
+> Chicken ones for me and Weda. | مرغی برای من و ودا.
+W: lamb=گوشت برّه ; most=بیشترشان
+tom: Good thinking. Plus marinated kebabs for the grown-ups. Is that too much meat? | فکر خوبیه. به علاوه کباب مزه‌دار برای بزرگ‌ترها. گوشت زیادی نیست؟
+> Yes, that's too much meat! | آره، گوشت زیادیه!
+> Get some vegetables too. | یه کم سبزیجات هم بگیر.
+W: marinated=مزه‌دار شده ؛ خوابانده ; meat=گوشت ; too much=بیش از حد (غیرقابل شمارش)
+tom: Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob. | سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت.
+> Corn is good. | ذرت خوبه.
+> And peppers for skewers? | و فلفل دلمه برای سیخ؟
+W: corn on the cob=بلال ; peppers=فلفل دلمه‌ای ; skewers=سیخ‌ها
+butcher: Peppers I haven't got, Tom. This is a butcher's! Try the greengrocer next door. | فلفل ندارم تام. اینجا قصابیه! سبزی‌فروشی بغل را امتحان کن.
+> Ha! Of course. | ها! معلومه.
+> That's enough shopping for today! | برای امروز خرید بسه!
+W: butcher's=قصابی ; greengrocer=سبزی‌فروش
+tom: That's enough meat to feed Hackney! Fifty-two pounds… ouch. Leslie's going to kill me. | این گوشت برای سیر کردن کل هکنی بسه! پنجاه و دو پوند… آخ. لزلی منو می‌کشه.
