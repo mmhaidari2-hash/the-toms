@@ -51,7 +51,7 @@ class PremiumScreen extends ConsumerWidget {
                   textAlign: TextAlign.center, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white70)),
             ]),
           ),
-          if (pk != null) ...[
+          if (pk != null && !beta) ...[
             const SizedBox(height: 14),
             Text('You tried the free first lesson of ${pk.title}. Unlock the rest with Premium or buy the pack once.',
                 textAlign: TextAlign.center, style: const TextStyle(fontSize: 13.5, color: BL.ink, height: 1.3)),
