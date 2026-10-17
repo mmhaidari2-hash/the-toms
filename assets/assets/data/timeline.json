@@ -13,9 +13,9 @@
    "ages": {
     "tom": 42,
     "leslie": 39,
-    "ryan": 16,
+    "ryan": 15,
     "nicola": 5,
-    "william": 1,
+    "william": 3,
     "weda": 71
    },
    "stages": {
@@ -24,12 +24,12 @@
      "کلاس آمادگی · A0–A1"
     ],
     "william": [
-     "Baby babble",
-     "زبان‌باز کردن"
+     "Pre-school · little sentences",
+     "پیش‌دبستانی · جمله‌های کوچک"
     ],
     "ryan": [
-     "Year 11 · GCSEs",
-     "سال یازدهم · امتحانات GCSE"
+     "Year 10 · starting GCSEs",
+     "سال دهم · شروع دورهٔ GCSE"
     ]
    },
    "opens": [
@@ -50,23 +50,23 @@
    "ages": {
     "tom": 42,
     "leslie": 39,
-    "ryan": 16,
+    "ryan": 15,
     "nicola": 6,
-    "william": 2,
+    "william": 3,
     "weda": 72
    },
    "stages": {
     "nicola": [
-     "Year 1 · A1",
-     "سال اول · A1"
+     "Reception · reading · A1",
+     "کلاس آمادگی · خواندن · A1"
     ],
     "william": [
-     "First words",
-     "اولین کلمه‌ها"
+     "Chatterbox · \"Why?\"",
+     "پرحرف · «چرا؟»"
     ],
     "ryan": [
-     "Exam season",
-     "فصل امتحان"
+     "Year 10 · mock exams",
+     "سال دهم · امتحان‌های آزمایشی"
     ]
    },
    "opens": [
@@ -82,33 +82,32 @@
    "title": "A year later",
    "titleFa": "یک سال بعد",
    "threshold": 30,
-   "story": "A whole year has gone by. Ryan is learning to drive, William has started nursery, and Nicola has a best friend, Mia.",
-   "storyFa": "یک سال کامل گذشت. رایان رانندگی یاد می‌گیرد، ویلیام مهدکودک را شروع کرده و نیکولا یک دوست صمیمی به اسم میا دارد.",
+   "story": "A whole year has gone by. William has started Reception in a tiny uniform, Ryan is in his GCSE year, and Nicola has a best friend, Mia.",
+   "storyFa": "یک سال کامل گذشت. ویلیام با یک یونیفرم کوچولو کلاس آمادگی را شروع کرده، رایان در سال امتحانات GCSE است و نیکولا یک دوست صمیمی به اسم میا دارد.",
    "ages": {
     "tom": 43,
     "leslie": 40,
-    "ryan": 17,
+    "ryan": 16,
     "nicola": 6,
-    "william": 2,
+    "william": 4,
     "weda": 72
    },
    "stages": {
     "nicola": [
-     "Year 2 · A1–A2",
-     "سال دوم · A1–A2"
+     "Year 1 · A1–A2",
+     "سال اول · A1–A2"
     ],
     "william": [
-     "Two-word sentences · nursery",
-     "جمله‌های دوکلمه‌ای · مهدکودک"
+     "Reception · first school year",
+     "کلاس آمادگی · اولین سال مدرسه"
     ],
     "ryan": [
-     "Sixth form · learner driver",
-     "پیش‌دانشگاهی · هنرجوی رانندگی"
+     "Year 11 · GCSE year",
+     "سال یازدهم · سال امتحانات GCSE"
     ]
    },
    "opens": [
-    "nicola_mia",
-    "ryan_driving"
+    "nicola_mia"
    ]
   },
   {
@@ -119,28 +118,28 @@
    "title": "Sports day summer",
    "titleFa": "تابستانِ روز ورزش",
    "threshold": 50,
-   "story": "Nicola is seven now and has opinions about everything. Leslie turned forty — and still says she's thirty-nine.",
-   "storyFa": "نیکولا حالا هفت‌ساله است و دربارهٔ همه چیز نظر دارد. لزلی چهل‌ساله شد — و هنوز می‌گوید سی‌ونه!",
+   "story": "Nicola is seven now and has opinions about everything. Ryan has finished his GCSEs, William turned five, and Leslie turned forty — and still says she's thirty-nine.",
+   "storyFa": "نیکولا حالا هفت‌ساله است و دربارهٔ همه چیز نظر دارد. رایان امتحانات GCSE را تمام کرده، ویلیام پنج‌ساله شد و لزلی چهل‌ساله شد — و هنوز می‌گوید سی‌ونه!",
    "ages": {
     "tom": 43,
     "leslie": 40,
-    "ryan": 17,
+    "ryan": 16,
     "nicola": 7,
-    "william": 3,
+    "william": 5,
     "weda": 73
    },
    "stages": {
     "nicola": [
-     "Year 2 · A2",
-     "سال دوم · A2"
+     "Year 1 · A2",
+     "سال اول · A2"
     ],
     "william": [
-     "Little sentences",
-     "جمله‌های کوچک"
+     "Turned five · reads his name",
+     "پنج‌ساله شد · اسمش را می‌خواند"
     ],
     "ryan": [
-     "Passed his driving test!",
-     "امتحان رانندگی را قبول شد!"
+     "GCSEs done!",
+     "امتحانات GCSE تمام شد!"
     ]
    },
    "opens": [
@@ -157,24 +156,94 @@
    "title": "Big changes",
    "titleFa": "تغییرهای بزرگ",
    "threshold": 75,
-   "story": "Two years with the Toms. Ryan is off to university, William starts school nursery in a tiny uniform, and Nana says you're family now.",
-   "storyFa": "دو سال با تامزها. رایان به دانشگاه می‌رود، ویلیام با یک یونیفرم کوچولو کلاس نرسری مدرسه را شروع می‌کند و نانا می‌گوید تو حالا عضو خانواده‌ای.",
+   "story": "Two years with the Toms. Ryan is in sixth form and learning to drive, William is in Year 1 and reads you his school books, and Nana says you're family now.",
+   "storyFa": "دو سال با خانوادهٔ تامز. رایان در دورهٔ پیش‌دانشگاهی است و رانندگی یاد می‌گیرد، ویلیام کلاس اول است و کتاب‌های مدرسه‌اش را برایت می‌خواند، و نانا می‌گوید حالا تو هم عضو خانواده‌ای.",
    "ages": {
     "tom": 44,
     "leslie": 41,
-    "ryan": 18,
+    "ryan": 17,
     "nicola": 7,
-    "william": 3,
+    "william": 5,
     "weda": 73
    },
    "stages": {
     "nicola": [
-     "Year 3 · A2–B1",
-     "سال سوم · A2–B1"
+     "Year 2 · A2",
+     "سال دوم · A2"
     ],
     "william": [
-     "School nursery · chatterbox",
-     "کلاس نرسری مدرسه · پرحرف"
+     "Year 1 · phonics",
+     "سال اول · آواشناسی"
+    ],
+    "ryan": [
+     "Sixth form · learner driver",
+     "پیش‌دانشگاهی · هنرجوی رانندگی"
+    ]
+   },
+   "opens": [
+    "ryan_driving"
+   ]
+  },
+  {
+   "id": "Y3S",
+   "year": 3,
+   "season": "Summer",
+   "seasonFa": "تابستان",
+   "title": "L plates off",
+   "titleFa": "خداحافظ پلاک L",
+   "threshold": 100,
+   "story": "Ryan passed his driving test first time — Tom still grips the door handle. William is six and never stops asking questions.",
+   "storyFa": "رایان امتحان رانندگی را بار اول قبول شد — تام هنوز دستگیرهٔ در را محکم می‌گیرد. ویلیام شش‌ساله است و یک‌ریز سؤال می‌پرسد.",
+   "ages": {
+    "tom": 44,
+    "leslie": 41,
+    "ryan": 17,
+    "nicola": 8,
+    "william": 6,
+    "weda": 74
+   },
+   "stages": {
+    "nicola": [
+     "Year 2 · A2–B1",
+     "سال دوم · A2–B1"
+    ],
+    "william": [
+     "Year 1 · reading to Nana",
+     "سال اول · برای نانا کتاب می‌خواند"
+    ],
+    "ryan": [
+     "Passed his driving test!",
+     "امتحان رانندگی را قبول شد!"
+    ]
+   },
+   "opens": []
+  },
+  {
+   "id": "Y4A",
+   "year": 4,
+   "season": "Autumn",
+   "seasonFa": "پاییز",
+   "title": "Off to uni",
+   "titleFa": "راهی دانشگاه",
+   "threshold": 130,
+   "story": "Three years with the Toms. Ryan is eighteen and off to university, William starts Year 2, and the house feels quieter — for about a day.",
+   "storyFa": "سه سال با خانوادهٔ تامز. رایان هجده‌ساله است و راهی دانشگاه، ویلیام کلاس دوم را شروع می‌کند و خانه ساکت‌تر شده — حدوداً یک روز.",
+   "ages": {
+    "tom": 45,
+    "leslie": 42,
+    "ryan": 18,
+    "nicola": 8,
+    "william": 6,
+    "weda": 74
+   },
+   "stages": {
+    "nicola": [
+     "Year 3 · B1",
+     "سال سوم · B1"
+    ],
+    "william": [
+     "Year 2 · chatterbox",
+     "سال دوم · پرحرف"
     ],
     "ryan": [
      "University fresher",

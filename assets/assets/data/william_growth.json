@@ -3,20 +3,20 @@
  "milestones": [
   {
    "id": "M0",
-   "title": "Baby babble",
-   "titleFa": "غان‌وغون نوزاد",
+   "title": "Little chatterbox",
+   "titleFa": "پرحرف کوچولو",
    "threshold": 0,
-   "description": "Single words: more, ball, ta.",
-   "descriptionFa": "کلمه‌های تکی: بیشتر، توپ، مرسی.",
+   "description": "Short sentences: \"I want juice!\" \"Look, a bus!\"",
+   "descriptionFa": "جمله‌های کوتاه: «آب‌میوه می‌خوام!» «ببین، اتوبوس!»",
    "unlocks": []
   },
   {
    "id": "M1",
-   "title": "First steps",
-   "titleFa": "اولین قدم‌ها",
+   "title": "Look, I can hop!",
+   "titleFa": "ببین، می‌تونم لی‌لی کنم!",
    "threshold": 20,
-   "description": "William takes his first wobbly steps.",
-   "descriptionFa": "ویلیام اولین قدم‌های لرزانش را برمی‌دارد.",
+   "description": "William learns to jump and hop on cushion stepping stones.",
+   "descriptionFa": "ویلیام پریدن و لی‌لی کردن روی سنگ‌چینِ کوسنی را یاد می‌گیرد.",
    "unlocks": [
     "william_steps"
    ]
@@ -34,11 +34,11 @@
   },
   {
    "id": "M3",
-   "title": "Two-word sentences",
-   "titleFa": "جمله‌های دوکلمه‌ای",
+   "title": "A million questions",
+   "titleFa": "یک میلیون سؤال",
    "threshold": 50,
-   "description": "'Daddy bus!' — William starts to chat.",
-   "descriptionFa": "«بابا اتوبوس!» — ویلیام شروع به حرف زدن می‌کند.",
+   "description": "\"Why does the bus go ding ding?\" — William asks about everything.",
+   "descriptionFa": "«چرا اتوبوس دینگ دینگ می‌کنه؟» — ویلیام دربارهٔ همه چیز می‌پرسد.",
    "unlocks": [
     "william_sentences"
    ]
