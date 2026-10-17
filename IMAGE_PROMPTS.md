@@ -45,3 +45,9 @@ The full list with prompts is in `app/tool/audit/IMAGE_PROMPTS.md`:
 - Sara's painted portrait (the current one is a flat interim drawing; apply with `finish_sara.sh`)
 - museum and cinema paintings
 - repaint driving and bigsupermarket in the house style
+
+### Planned: short video intro per map section (pending the media tools fix)
+One clip of 6–10 seconds per map region (Home, Neighbourhood, High Street, Town centre, The city, Career Packs), in the painted house style with a gentle camera move and the family in the scene. Each plays once when a region first opens, with a skip button. Will be produced when generated media files can reach the box.
+
+### Planned: Library book covers
+Graded-reader covers will use crops of the existing place paintings for now. Bespoke painted covers (one per book) are to follow.
