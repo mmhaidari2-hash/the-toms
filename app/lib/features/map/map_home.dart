@@ -242,6 +242,8 @@ void showAppMenu(BuildContext context, WidgetRef ref) {
     (Icons.route_rounded, 'Course path', 'مسیر درس‌ها', '/course'),
     (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
     if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
+    (Icons.workspace_premium_outlined, 'Premium (free in beta)', 'اشتراک ویژه (رایگان در دورهٔ آزمایشی)', '/premium'),
+    (Icons.verified_rounded, 'Certificates', 'گواهی‌ها', '/certificate/1'),
     (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
     (Icons.quiz_rounded, 'Placement test', 'آزمون تعیین سطح', '/placement'),
     (Icons.help_outline_rounded, 'How it works', 'راهنمای برنامه', '/howto'),

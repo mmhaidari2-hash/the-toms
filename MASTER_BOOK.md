@@ -154,3 +154,10 @@ Profession-specific English tracks led by a family member who does that job, bui
 - Find the communities where people talk about moving to the UK (Farsi, Arabic and Ukrainian Telegram and Instagram groups).
 - In-app share card: "I'm learning British English with the Toms".
 - B2B pitch: "Onboard staff into British workplace English."
+
+### Monetisation (prep done 2026-10-17)
+- **Premium screen** (`/premium`, menu "Premium (free in beta)"): Yearly £34.99 (save 42%, 7-day trial), Monthly £4.99, Career Pack one-off £9.99. Prices are config in `lib/core/data/premium.dart` (`PremiumConfig`).
+- **Beta-free state:** `PremiumConfig.betaFree = true`. Every pack is open, prices are shown struck through as "FREE in beta", and no payment is ever taken. When the flag is false the screen says "Coming soon".
+- **Career Pack preview lock:** after the beta, lesson 1 of each pack is free. Later lessons open with Premium (`pref:premium`), a one-off buy (`pack:<id>`) or demo mode. Locked stones and direct `/lesson/<id>` links show the paywall. The main course is never paywalled.
+- **Certificates** (`/certificate/1..5`, menu "Certificates"): one per level, earned when every unit of the level is finished. Shows a printable certificate with the learner's name; locked levels show % progress.
+- **Real payments and native store builds:** GitHub issue #50 (RevenueCat for iOS/Android, Stripe or RevenueCat Web for the PWA, legal/VAT, store builds, per-level audio downloads).

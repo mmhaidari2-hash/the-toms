@@ -210,7 +210,7 @@ class _Stones extends ConsumerWidget {
                 return Align(
                   alignment: Alignment(dx, 0),
                   child: Pressable(
-                    onTap: open ? () => context.push(check ? '/practice/${u.id}' : '/lesson/${l.id}') : null,
+                    onTap: open ? () => context.push(check ? '/practice/${u.id}' : '/lesson/${l.id}') : (ui < 0 && !check ? () => context.push('/premium?pack=${course.packOf(u)?.id ?? ''}') : null),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 8),
                       child: Column(
@@ -417,7 +417,7 @@ class PackScreen extends ConsumerWidget {
                     Text(pack.title, style: BL.display(26)),
                     Text(pack.titleFa, textDirection: TextDirection.rtl, style: BL.fa(13, color: BL.muted)),
                     const SizedBox(height: 6),
-                    Row(children: [const PremiumBadge(), const SizedBox(width: 8), Text('${pack.levels} · free for now', style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600))]),
+                    Row(children: [const PremiumBadge(), const SizedBox(width: 8), Text(PremiumConfig.betaFree ? '${pack.levels} · free in beta' : '${pack.levels} · lesson 1 free', style: const TextStyle(fontSize: 12, color: BL.muted, fontWeight: FontWeight.w600))]),
                   ]),
                 ),
               ]),

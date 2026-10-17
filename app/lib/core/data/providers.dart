@@ -14,6 +14,8 @@ import '../models/place.dart';
 import '../models/user_progress.dart';
 import 'progress_store.dart';
 import 'repository.dart';
+import 'premium.dart';
+export 'premium.dart';
 
 final progressStoreProvider = Provider<ProgressStore>((_) => MemoryProgressStore());
 final clockProvider = Provider<DateTime Function()>((_) => DateTime.now);
@@ -167,8 +169,31 @@ class ProgressController extends Notifier<UserProgress> {
   bool lessonOpen(Course c, Lesson l) {
     final u = c.unitOf(l.id)!;
     final ui = c.units.indexOf(u), li = u.lessons.indexOf(l);
-    if (ui < 0) return c.packOf(u)?.unlocked ?? true; // Career Pack lessons: free order, unlocked for now
+    if (ui < 0) { // Career Pack lessons: free order; the first lesson is a free preview, the rest need the pack
+      final pk = c.packOf(u);
+      return pk == null || packOwned(pk) || pk.lessons.first.id == l.id;
+    }
     return unitOpen(c, ui) && (state.unlockAll || li == 0 || lessonDone(u.lessons[li - 1]));
+  }
+
+  // ---- Premium (display-only until real payments exist; see PremiumConfig).
+  bool get hasPremium => PremiumConfig.betaFree || state.unlockAll || state.missionsDone['pref:premium'] == 'on';
+  bool packOwned(Pack p) => !p.premium || hasPremium || state.missionsDone['pack:${p.id}'] == 'owned';
+
+  // ---- Certificates: a level is complete when every one of its units is finished (all lessons done or test passed).
+  List<Unit> levelUnits(Course c, int level) => c.units.where((u) => u.level == level).toList();
+  bool levelComplete(Course c, int level) {
+    final us = levelUnits(c, level);
+    return us.isNotEmpty && us.every((u) => unitPassed(u) || u.lessons.every(lessonDone));
+  }
+  double levelProgress(Course c, int level) {
+    final ls = levelUnits(c, level).expand((u) => u.lessons).toList();
+    return ls.isEmpty ? 0 : ls.where(lessonDone).length / ls.length;
+  }
+  String get certName => state.missionsDone['pref:name'] ?? '';
+  void setCertName(String v) {
+    state = state.copyWith(missionsDone: {...state.missionsDone, 'pref:name': v.trim()});
+    _save();
   }
 
   // ---- Character growth over time: the family calendar advances with your progress.

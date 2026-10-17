@@ -9,6 +9,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/platform/voice.dart';
 import '../shared/widgets.dart';
+import '../premium/premium_screen.dart';
 
 /// One lesson: painting, what you'll learn, the words, then Story → Practice.
 class LessonScreen extends ConsumerWidget {
@@ -24,6 +25,8 @@ class LessonScreen extends ConsumerWidget {
       return const NavLoading();
     }
     final u = c.course.unitOf(l.id)!;
+    final pk = c.course.packOf(u);
+    if (pk != null && !ctrl.lessonOpen(c.course, l)) return PremiumScreen(pack: pk.id); // Career Pack beyond the free first lesson
     final img = c.place(l.place)?.image;
     final storyDone = l.sceneIds.every(p.completedScenes.contains);
     final score = ctrl.practiceScore(l.id);

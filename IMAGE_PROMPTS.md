@@ -39,3 +39,9 @@ university campus. Leave a calm strip of sky at the top (UI overlays it). No rea
 
 ### Update 2026-10-17 (batch 3b)
 Done and in the app: **bigsupermarket** (Zara + Leslie), **shoppingcentre** (Kai + Leslie + Ryan), **phoneshop** (Dev + Ryan + Tom), **petrol** (Bilal + Tom). Sources in new_art/. Still wanted: tube, hospital, museum, council, cinema, and the detailed town-map painting.
+
+### Quality audit 2026-10-17
+The full list with prompts is in `app/tool/audit/IMAGE_PROMPTS.md`:
+- Sara's painted portrait (the current one is a flat interim drawing; apply with `finish_sara.sh`)
+- museum and cinema paintings
+- repaint driving and bigsupermarket in the house style

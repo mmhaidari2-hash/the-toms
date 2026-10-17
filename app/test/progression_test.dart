@@ -117,12 +117,13 @@ void main() {
     expect(p.missionsDone['course:${all.first.id}'], '100');
   });
 
-  test('Career Packs: premium-flagged, every lesson playable (no payments yet), map region open', () {
+  test('Career Packs: premium-flagged, free during the beta, map region open', () {
     expect(course.packs, isNotEmpty);
+    expect(PremiumConfig.betaFree, isTrue, reason: 'no real payments yet: the beta must stay free');
     final c = ctrlWith();
     for (final pk in course.packs) {
       expect(pk.premium, isTrue, reason: pk.id);
-      expect(pk.unlocked, isTrue, reason: '${pk.id}: packs stay unlocked until payments exist');
+      expect(pk.unlocked, isTrue, reason: '${pk.id}: the pack region stays visible (free preview)');
       for (final l in pk.lessons) {
         expect(c.lessonOpen(course, l), isTrue, reason: l.id);
       }
@@ -131,6 +132,45 @@ void main() {
     }
     // Pack lessons never hijack the main Continue button.
     expect(c.nextLesson(course)!.id, all.first.id);
+  });
+
+  test('Career Packs after the beta: only the first lesson is a free preview; Premium, a one-off buy or demo mode open the rest', () {
+    PremiumConfig.betaFree = false;
+    addTearDown(() => PremiumConfig.betaFree = true);
+    for (final pk in course.packs) {
+      final ls = pk.lessons.toList();
+      final free = ctrlWith();
+      expect(free.lessonOpen(course, ls.first), isTrue, reason: '${pk.id}: first lesson is the free preview');
+      expect(ls.skip(1).where((l) => free.lessonOpen(course, l)), isEmpty, reason: '${pk.id}: the rest is locked');
+      expect(free.packOwned(pk), isFalse);
+      final bought = ctrlWith(extra: {'pack:${pk.id}': 'owned'});
+      expect(ls.every((l) => bought.lessonOpen(course, l)), isTrue);
+      final prem = ctrlWith(extra: {'pref:premium': 'on'});
+      expect(ls.every((l) => prem.lessonOpen(course, l)), isTrue);
+      final demo = ctrlWith()..setUnlockAll(true);
+      expect(ls.every((l) => demo.lessonOpen(course, l)), isTrue);
+      expect(regionOpen(free, course, mapRegions.firstWhere((r) => r.pack == pk.id)), isTrue, reason: 'region stays open for the preview');
+    }
+    // The main course is never behind the paywall.
+    final c = ctrlWith(done: all.take(8));
+    expect(c.lessonOpen(course, all[8]), isTrue);
+  });
+
+  test('certificates: a level is complete only when all its units are finished', () {
+    final l1 = course.units.where((u) => u.level == 1).expand((u) => u.lessons).toList();
+    expect(ctrlWith().levelComplete(course, 1), isFalse);
+    final half = ctrlWith(done: l1.take(l1.length ~/ 2));
+    expect(half.levelComplete(course, 1), isFalse);
+    expect(half.levelProgress(course, 1), closeTo(.5, .02));
+    final full = ctrlWith(done: l1);
+    expect(full.levelComplete(course, 1), isTrue);
+    expect(full.levelComplete(course, 2), isFalse);
+    // Passing every unit test also earns it.
+    final tests = ctrlWith(extra: {for (final u in course.units.where((u) => u.level == 1)) 'course:${u.id}': '80'});
+    expect(tests.levelComplete(course, 1), isTrue);
+    for (var lv = 1; lv <= 5; lv++) {
+      expect(ctrlWith().levelUnits(course, lv), isNotEmpty, reason: 'level $lv has units');
+    }
   });
 
   test('demo mode (unlock all) opens every lesson and region', () {
