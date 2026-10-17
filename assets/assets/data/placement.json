@@ -1,0 +1,250 @@
+{
+ "items": [
+  {
+   "level": 1,
+   "type": "listen",
+   "speaker": "leslie",
+   "text": "Lovely. Is Ryan doing his homework? Can you check?",
+   "fa": "چه خوب. رایان داره تکلیفش را انجام می‌ده؟ می‌تونی چک کنی؟",
+   "choices": [
+    "Lovely. Is Ryan doing his homework? Can you check?",
+    "Brilliant! Mine is… I'm going to tell fewer jokes.",
+    "It's amazing! Try one. Salt and vinegar. Go on!"
+   ],
+   "choicesFa": [
+    "چه خوب. رایان داره تکلیفش را انجام می‌ده؟ می‌تونی چک کنی؟",
+    "عالی! مال من… می‌خوام کمتر جوک بگم.",
+    "فوق‌العاده‌ست! یکی امتحان کن. نمک و سرکه. یالا!"
+   ],
+   "answer": "Lovely. Is Ryan doing his homework? Can you check?"
+  },
+  {
+   "level": 1,
+   "type": "listen",
+   "speaker": "leslie",
+   "text": "You look a bit down today. Are you OK, love?",
+   "fa": "امروز یه کم دمغی. خوبی عزیزم؟",
+   "choices": [
+    "Thank you. Put the blocks in the big box, please.",
+    "You look a bit down today. Are you OK, love?",
+    "Nice. Can you go in goal? Our keeper is rubbish."
+   ],
+   "choicesFa": [
+    "ممنون. مکعب‌ها را بذار تو جعبهٔ بزرگ، لطفاً.",
+    "امروز یه کم دمغی. خوبی عزیزم؟",
+    "عالی. می‌تونی دروازه‌بان باشی؟ دروازه‌بانمون افتضاحه."
+   ],
+   "answer": "You look a bit down today. Are you OK, love?"
+  },
+  {
+   "level": 1,
+   "type": "choice",
+   "text": "Nicola ___ five years old.",
+   "fa": "نیکولا پنج سالشه.",
+   "choices": [
+    "are",
+    "am",
+    "is"
+   ],
+   "answer": "is"
+  },
+  {
+   "level": 2,
+   "type": "listen",
+   "speaker": "arthur",
+   "text": "Next, please! Morning. What can I do for you today?",
+   "fa": "نفر بعدی لطفاً! صبح بخیر. امروز چه کمکی می‌تونم بکنم؟",
+   "choices": [
+    "Sorted. See you downstairs in five minutes — I'm hungry!",
+    "Miss Hart says: Big Elephants Can Always Understand Small Elephants!",
+    "Next, please! Morning. What can I do for you today?"
+   ],
+   "choicesFa": [
+    "حله. پنج دقیقه دیگه پایین می‌بینمت — گرسنه‌ام!",
+    "خانم هارت می‌گه: فیل‌های بزرگ همیشه فیل‌های کوچیک را می‌فهمن!",
+    "نفر بعدی لطفاً! صبح بخیر. امروز چه کمکی می‌تونم بکنم؟"
+   ],
+   "answer": "Next, please! Morning. What can I do for you today?"
+  },
+  {
+   "level": 2,
+   "type": "listen",
+   "speaker": "sian",
+   "text": "Good morning, Northgate Bank, Sian speaking. How can I help?",
+   "fa": "صبح بخیر، بانک نورث‌گیت، سیان هستم. چه کمکی می‌تونم بکنم؟",
+   "choices": [
+    "Good morning, Northgate Bank, Sian speaking. How can I help?",
+    "Right — coffee? I need one badly after this morning!",
+    "Can I take your name and date of birth, please?"
+   ],
+   "choicesFa": [
+    "صبح بخیر، بانک نورث‌گیت، سیان هستم. چه کمکی می‌تونم بکنم؟",
+    "خب — قهوه؟ بعد از امروز صبح شدیداً بهش نیاز دارم!",
+    "می‌تونم اسم و تاریخ تولدتون را داشته باشم؟"
+   ],
+   "answer": "Good morning, Northgate Bank, Sian speaking. How can I help?"
+  },
+  {
+   "level": 2,
+   "type": "choice",
+   "text": "Yesterday we ___ to the park.",
+   "fa": "دیروز رفتیم پارک.",
+   "choices": [
+    "go",
+    "went",
+    "going"
+   ],
+   "answer": "went"
+  },
+  {
+   "level": 3,
+   "type": "listen",
+   "speaker": "triage",
+   "text": "Thank you. Have you taken any painkillers? And are you allergic to anything?",
+   "fa": "ممنون. مسکن خوردید؟ و به چیزی حساسیت دارید؟",
+   "choices": [
+    "Not at all. And how often will you need to pay in cash?",
+    "Ha! That, my friend, is the great mystery of British paperwork. Good luck!",
+    "Thank you. Have you taken any painkillers? And are you allergic to anything?"
+   ],
+   "choicesFa": [
+    "اصلاً. و هر چند وقت یه بار نیاز دارید پول نقد واریز کنید؟",
+    "ها! این، دوست من، راز بزرگ کاغذبازی بریتانیاییه. موفق باشید!",
+    "ممنون. مسکن خوردید؟ و به چیزی حساسیت دارید؟"
+   ],
+   "answer": "Thank you. Have you taken any painkillers? And are you allergic to anything?"
+  },
+  {
+   "level": 3,
+   "type": "listen",
+   "speaker": "police",
+   "text": "OK. When did you last see the bike?",
+   "fa": "باشه. آخرین بار کی دوچرخه را دیدید؟",
+   "choices": [
+    "Lovely. And what's the reason for the absence?",
+    "OK. When did you last see the bike?",
+    "Hello, how can I help? You look a bit worried."
+   ],
+   "choicesFa": [
+    "عالی. و دلیل غیبت چیه؟",
+    "باشه. آخرین بار کی دوچرخه را دیدید؟",
+    "سلام، چه کمکی می‌تونم بکنم؟ یه کم نگران به نظر میاید."
+   ],
+   "answer": "OK. When did you last see the bike?"
+  },
+  {
+   "level": 3,
+   "type": "choice",
+   "text": "I've lived in London ___ two years.",
+   "fa": "دو ساله تو لندن زندگی می‌کنم.",
+   "choices": [
+    "from",
+    "since",
+    "for"
+   ],
+   "answer": "for"
+  },
+  {
+   "level": 4,
+   "type": "listen",
+   "speaker": "jade",
+   "text": "That's the best bit, isn't it? Exercise is brilliant for stress. How's your sleep been?",
+   "fa": "بهترین قسمتش همینه، نه؟ ورزش برای استرس عالیه. خوابت چطوره؟",
+   "choices": [
+    "Twelve months minimum, with a break clause at six. For £1,600 he'd want eighteen months.",
+    "Come in. Last time we spoke about your sleep. How have things been since then?",
+    "That's the best bit, isn't it? Exercise is brilliant for stress. How's your sleep been?"
+   ],
+   "choicesFa": [
+    "حداقل دوازده ماه، با یه بند فسخ در ماه شش. برای ۱۶۰۰ هجده ماه می‌خواد.",
+    "بفرمایید. دفعهٔ قبل دربارهٔ خوابتون صحبت کردیم. از اون موقع اوضاع چطور بوده؟",
+    "بهترین قسمتش همینه، نه؟ ورزش برای استرس عالیه. خوابت چطوره؟"
+   ],
+   "answer": "That's the best bit, isn't it? Exercise is brilliant for stress. How's your sleep been?"
+  },
+  {
+   "level": 4,
+   "type": "listen",
+   "speaker": "bennett",
+   "text": "Well, if Maggie hadn't introduced us, we'd never have met. Funny how things work out.",
+   "fa": "خب، اگه مگی ما را به هم معرفی نکرده بود، هیچ‌وقت همدیگه را نمی‌دیدیم. جالبه کارها چطور پیش می‌ره.",
+   "choices": [
+    "About an hour. Pop next door for a coffee. I'll ring you if there's anything.",
+    "Well, if Maggie hadn't introduced us, we'd never have met. Funny how things work out.",
+    "Come in. Last time we spoke about your sleep. How have things been since then?"
+   ],
+   "choicesFa": [
+    "حدود یه ساعت. برو بغل یه قهوه بخور. اگه چیزی بود زنگت می‌زنم.",
+    "خب، اگه مگی ما را به هم معرفی نکرده بود، هیچ‌وقت همدیگه را نمی‌دیدیم. جالبه کارها چطور پیش می‌ره.",
+    "بفرمایید. دفعهٔ قبل دربارهٔ خوابتون صحبت کردیم. از اون موقع اوضاع چطور بوده؟"
+   ],
+   "answer": "Well, if Maggie hadn't introduced us, we'd never have met. Funny how things work out."
+  },
+  {
+   "level": 4,
+   "type": "choice",
+   "text": "If I ___ known, I would have called you.",
+   "fa": "اگه می‌دونستم، بهت زنگ می‌زدم.",
+   "choices": [
+    "had",
+    "would",
+    "have"
+   ],
+   "answer": "had"
+  },
+  {
+   "level": 5,
+   "type": "listen",
+   "speaker": "ryan",
+   "text": "So, uni starts Monday. Leeds. Engineering. And yes, I'm filming it. Can't believe I'm actually going.",
+   "fa": "خب، دانشگاه دوشنبه شروع میشه. لیدز. مهندسی. و آره، دارم فیلمش را می‌گیرم. باورم نمیشه واقعاً دارم می‌رم.",
+   "choices": [
+    "Good afternoon, Hackney Service Centre, Ms Ward speaking. I understand you're querying a council tax bill?",
+    "Personal best on the rowing machine! Look at you go. You'll be in the Olympics next.",
+    "So, uni starts Monday. Leeds. Engineering. And yes, I'm filming it. Can't believe I'm actually going."
+   ],
+   "choicesFa": [
+    "عصر بخیر، مرکز خدمات هاکنی، خانم وارد هستم. فهمیدم که دربارهٔ قبض مالیات شورا سؤال دارید؟",
+    "رکورد شخصی روی دستگاه پارو! نگات کن. دفعهٔ بعد المپیکی.",
+    "خب، دانشگاه دوشنبه شروع میشه. لیدز. مهندسی. و آره، دارم فیلمش را می‌گیرم. باورم نمیشه واقعاً دارم می‌رم."
+   ],
+   "answer": "So, uni starts Monday. Leeds. Engineering. And yes, I'm filming it. Can't believe I'm actually going."
+  },
+  {
+   "level": 5,
+   "type": "listen",
+   "speaker": "khan",
+   "text": "Oh, it's you! I was just going to number 16 myself. They're not answering. The music again?",
+   "fa": "آه، شمایید! خودم داشتم می‌رفتم پلاک ۱۶. جواب نمی‌دن. باز آهنگ؟",
+   "choices": [
+    "I want to tell a story too! It's about a dragon. But it's a real one. Probably.",
+    "The end! Did you like it? Was it the best story ever? You have to say yes.",
+    "Oh, it's you! I was just going to number 16 myself. They're not answering. The music again?"
+   ],
+   "choicesFa": [
+    "من هم می‌خوام قصه بگم! دربارهٔ یه اژدهاست. ولی واقعیه. احتمالاً.",
+    "پایان! خوشت اومد؟ بهترین قصهٔ دنیا بود؟ باید بگی آره.",
+    "آه، شمایید! خودم داشتم می‌رفتم پلاک ۱۶. جواب نمی‌دن. باز آهنگ؟"
+   ],
+   "answer": "Oh, it's you! I was just going to number 16 myself. They're not answering. The music again?"
+  },
+  {
+   "level": 5,
+   "type": "choice",
+   "text": "\"It's not bad\" from a Brit usually means…",
+   "fa": "«بد نیست» از زبان یه بریتانیایی یعنی…",
+   "choices": [
+    "It's terrible",
+    "They don't know",
+    "It's quite good"
+   ],
+   "answer": "It's quite good"
+  }
+ ],
+ "speak": {
+  "type": "speak",
+  "speaker": "tom",
+  "text": "And sugar? One or two?",
+  "fa": "و شکر؟ یکی یا دوتا؟"
+ }
+}
