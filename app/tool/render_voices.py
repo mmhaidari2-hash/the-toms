@@ -42,8 +42,12 @@ V={ # speaker -> (voice, pitch, rate)
  'narrator':('en-GB-SoniaNeural','+0Hz','-8%'),
 }
 def key(sp,t): return hashlib.md5(f'{sp}|{t}'.encode()).hexdigest()[:16]
+# TTS-only respellings for Persian words the British voices mangle (audit 2026-10)
+PRON={r'\bsetar\b':'seh-taar',r'\bSimorgh\b':'See-morgh'}
 def clean(t):
-  t=t.replace('{you}','Mehdi'); t=re.sub(r'\*[^*]*\*','',t)
+  t=t.replace('{you}','Mehdi')
+  for a,b in PRON.items(): t=re.sub(a,b,t)
+  t=re.sub(r'\*[^*]*\*','',t)
   t=re.sub(r'[\U0001F000-\U0001FFFF\u2600-\u27BF]','',t); return t.strip()
 items={}
 def add(sp,t):
