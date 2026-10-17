@@ -47,10 +47,10 @@
     {
      "keywords": [
       "lovely",
-      "lunch",
       "fussy",
-      "week",
-      "home"
+      "lunch",
+      "been",
+      "he's"
      ],
      "suggestion": "Lovely! Did he eat his lunch? He's been fussy at home this week.",
      "suggestionFa": "چه خوب! ناهارش را خورد؟ این هفته تو خونه بدغذایی می‌کنه.",
@@ -75,7 +75,7 @@
       "have",
       "did",
       "nap",
-      "he"
+      "ha"
      ],
      "suggestion": "Ha, typical! And did he have a nap?",
      "suggestionFa": "ها، معمولیه! چرت هم زد؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -212,7 +212,7 @@
       "accidents",
       "toilet",
       "today",
-      "any"
+      "wow"
      ],
      "suggestion": "Wow, it's brilliant! Any toilet accidents today?",
      "suggestionFa": "وای، عالیه! امروز خیس‌کاری داشت؟",
@@ -235,8 +235,8 @@
      "keywords": [
       "practitioner",
       "fantastic",
-      "nursery",
       "already",
+      "nursery",
       "thanks"
      ],
      "suggestion": "Fantastic. Thanks, Mehdi. You sound like a real nursery practitioner already!",

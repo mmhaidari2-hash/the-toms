@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "those",
       "nicer",
+      "those",
       "ones"
      ],
      "suggestion": "Those ones are nicer.",
@@ -120,8 +120,8 @@
      "keywords": [
       "cheaper",
       "these",
-      "they",
-      "look"
+      "look",
+      "they"
      ],
      "suggestion": "These are cheaper and they look good.",
      "suggestionFa": "این‌ها ارزون‌ترن و خوب به نظر میان.",
@@ -131,8 +131,8 @@
     },
     {
      "keywords": [
-      "those",
       "first",
+      "those",
       "try"
      ],
      "suggestion": "Try those on first.",

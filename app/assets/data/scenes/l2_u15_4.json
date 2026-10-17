@@ -1,0 +1,425 @@
+{
+ "id": "l2_u15_4",
+ "characterId": "tom",
+ "title": "Lost property",
+ "titleFa": "اشیای گمشده",
+ "setting": "Buses and Oyster · Level 2",
+ "settingFa": "اتوبوس و کارت اویستر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Hello, mate! You look stressed. Everything alright?",
+   "translations": {
+    "fa": "سلام رفیق! استرسی به نظر میای. همه چی روبه‌راهه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yesterday",
+      "bus"
+     ],
+     "suggestion": "No. I left my bag on the bus yesterday.",
+     "suggestionFa": "نه. دیروز کیفم را تو اتوبوس جا گذاشتم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "can't",
+      "find"
+     ],
+     "suggestion": "I can't find my bag. I think I left it on the 38.",
+     "suggestionFa": "کیفم را پیدا نمی‌کنم. فکر کنم تو ۳۸ جاش گذاشتم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stressed",
+     "fa": "پراسترس"
+    },
+    {
+     "word": "left",
+     "fa": "جا گذاشتم"
+    },
+    {
+     "word": "bag",
+     "fa": "کیف"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Oh no. Don't panic. Which bus? What time?",
+   "translations": {
+    "fa": "ای وای. هول نکن. کدوم اتوبوس؟ ساعت چند؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "about",
+      "six"
+     ],
+     "suggestion": "The 38, at about six o'clock.",
+     "suggestionFa": "۳۸، حدود ساعت شش.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "evening",
+      "think",
+      "sure"
+     ],
+     "suggestion": "I'm not sure. In the evening, I think.",
+     "suggestionFa": "مطمئن نیستم. فکر کنم عصر.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "panic",
+     "fa": "وحشت کردن ؛ هول کردن"
+    },
+    {
+     "word": "about",
+     "fa": "حدود"
+    },
+    {
+     "word": "not sure",
+     "fa": "مطمئن نیستم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i leave bag",
+      "i forget my bag in"
+     ],
+     "echo": "You left it on the bus? OK.",
+     "better": "I left my bag on the bus.",
+     "betterFa": "کیفم را در اتوبوس جا گذاشتم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Six o'clock — that's Gary's shift. Gary checks every seat at the end. What does it look like?",
+   "translations": {
+    "fa": "ساعت شش — شیفت گریه. گری آخر کار همهٔ صندلی‌ها را چک می‌کنه. چه شکلیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rucksack",
+      "stripe",
+      "black",
+      "red"
+     ],
+     "suggestion": "It's a black rucksack. It's got a red stripe.",
+     "suggestionFa": "یه کوله‌پشتی مشکیه. یه نوار قرمز داره.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "front",
+      "small",
+      "blue",
+      "zip"
+     ],
+     "suggestion": "It's small and blue, with a zip on the front.",
+     "suggestionFa": "کوچیک و آبیه، جلوش یه زیپ داره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shift",
+     "fa": "شیفت"
+    },
+    {
+     "word": "rucksack",
+     "fa": "کوله‌پشتی"
+    },
+    {
+     "word": "stripe",
+     "fa": "نوار"
+    },
+    {
+     "word": "zip",
+     "fa": "زیپ"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "OK. What's inside? Anything important?",
+   "translations": {
+    "fa": "باشه. توش چیه؟ چیز مهمی هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "laptop",
+      "keys"
+     ],
+     "suggestion": "My laptop! And my keys.",
+     "suggestionFa": "لپ‌تاپم! و کلیدهام.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "umbrella",
+      "lunch",
+      "book",
+      "just"
+     ],
+     "suggestion": "Just a book and an umbrella. Oh, and my lunch.",
+     "suggestionFa": "فقط یه کتاب و یه چتر. آهان، و ناهارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "inside",
+     "fa": "داخل"
+    },
+    {
+     "word": "laptop",
+     "fa": "لپ‌تاپ"
+    },
+    {
+     "word": "keys",
+     "fa": "کلیدها"
+    },
+    {
+     "word": "umbrella",
+     "fa": "چتر"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Right. First, it goes back to the bus garage. After a few days, it goes to TfL Lost Property. You can report it online.",
+   "translations": {
+    "fa": "خب. اول، برمی‌گرده به پارکینگ اتوبوس. بعد از چند روز، میره به بخش اشیای گمشدهٔ TfL. می‌تونی آنلاین گزارشش بدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "report",
+      "write"
+     ],
+     "suggestion": "What do I write in the report?",
+     "suggestionFa": "تو گزارش چی بنویسم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "garage",
+      "call",
+      "can"
+     ],
+     "suggestion": "Can I call the garage?",
+     "suggestionFa": "می‌تونم به پارکینگ زنگ بزنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bus garage",
+     "fa": "پارکینگ اتوبوس‌ها ؛ گاراژ"
+    },
+    {
+     "word": "lost property",
+     "fa": "اشیای گمشده"
+    },
+    {
+     "word": "report",
+     "fa": "گزارش دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Transport for London (TfL) keeps lost items. You can report a lost item online and they'll contact you.",
+    "fa": "TfL اشیای گمشده را نگه می‌دارد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Better — I'll call Gary now. … Gary! Any rucksacks on the six o'clock 38? Black… red stripe?",
+   "translations": {
+    "fa": "بهتر — الان به گری زنگ می‌زنم. … گری! تو ۳۸ ساعت شش کوله‌پشتی بوده؟ مشکی… نوار قرمز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "got",
+      "has",
+      "he"
+     ],
+     "suggestion": "Has he got it?",
+     "suggestionFa": "دستش هست؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "say"
+     ],
+     "suggestion": "Please say yes!",
+     "suggestionFa": "تو رو خدا بگو آره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "please say yes",
+     "fa": "خواهش می‌کنم بگو آره"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "He's got it! It's at the garage. And — he says there's a cheese sandwich in it. He didn't eat it. Probably.",
+   "translations": {
+    "fa": "دستشه! تو پارکینگه. و — میگه توش یه ساندویچ پنیره. نخوردش. احتمالاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "much",
+      "when",
+      "get"
+     ],
+     "suggestion": "Thank you so much, Tom! When can I get it?",
+     "suggestionFa": "خیلی ممنون تام! کی می‌تونم بگیرمش؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sandwich",
+      "don't",
+      "mind",
+      "eat"
+     ],
+     "suggestion": "He can eat the sandwich! I don't mind.",
+     "suggestionFa": "ساندویچ را بخوره! اشکالی نداره.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "probably",
+     "fa": "احتمالاً"
+    },
+    {
+     "word": "get",
+     "fa": "گرفتن"
+    },
+    {
+     "word": "I don't mind",
+     "fa": "برایم مهم نیست"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Come with me tomorrow morning. Bring ID. And next time, a tip: always look back at your seat. \"Look back, don't lose your pack!\"",
+   "translations": {
+    "fa": "فردا صبح با من بیا. کارت شناسایی بیار. و دفعهٔ بعد، یه نکته: همیشه به صندلیت نگاه کن. «برگرد ببین، کوله را جا نذار!»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "just",
+      "make",
+      "did",
+      "ha"
+     ],
+     "suggestion": "Ha! Did you just make that up?",
+     "suggestionFa": "ها! همین الان از خودت درآوردی؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "advice",
+      "i'll",
+      "good"
+     ],
+     "suggestion": "Good advice. I'll remember it.",
+     "suggestionFa": "توصیهٔ خوبیه. یادم می‌مونه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tip",
+     "fa": "نکته ؛ توصیه"
+    },
+    {
+     "word": "look back",
+     "fa": "به پشت نگاه کردن"
+    },
+    {
+     "word": "make up",
+     "fa": "از خود ساختن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "I did! Twenty years on the buses, and I'm still a poet. Leslie says I'm a terrible poet. But she's wrong!",
+   "translations": {
+    "fa": "آره! بیست سال اتوبوس‌رانی، و هنوز شاعرم. لزلی میگه شاعر افتضاحی‌ام. ولی اشتباه می‌کنه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

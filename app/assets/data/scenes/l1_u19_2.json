@@ -30,10 +30,10 @@
     },
     {
      "keywords": [
-      "panic",
       "don't",
-      "i'll",
-      "help"
+      "panic",
+      "help",
+      "i'll"
      ],
      "suggestion": "Don't panic. I'll help you.",
      "suggestionFa": "هول نکن. کمکت می‌کنم.",
@@ -85,9 +85,9 @@
     {
      "keywords": [
       "there's",
+      "sock",
       "here",
-      "blue",
-      "sock"
+      "blue"
      ],
      "suggestion": "There's a sock here, but it's blue.",
      "suggestionFa": "یه جوراب اینجاست، ولی آبیه.",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "shirts",
       "drawer",
+      "shirts",
       "full",
       "t"
      ],
@@ -143,8 +143,8 @@
      "keywords": [
       "pants",
       "socks",
-      "see",
-      "but"
+      "but",
+      "see"
      ],
      "suggestion": "I can see pants, but no socks!",
      "suggestionFa": "شورت می‌بینم، ولی جوراب نه!",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "score",
-      "goal",
-      "luck"
+      "luck",
+      "goal"
      ],
      "suggestion": "Good luck! Score a goal!",
      "suggestionFa": "موفق باشی! گل بزن!",

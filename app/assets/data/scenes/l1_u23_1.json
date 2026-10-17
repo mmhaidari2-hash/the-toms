@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "coat",
-      "want",
       "sure",
+      "want",
+      "coat",
       "kind"
      ],
      "suggestion": "Sure. What kind of coat do you want?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "course",
-      "let's",
       "coats",
+      "let's",
       "look"
      ],
      "suggestion": "Of course. Let's look at the coats.",
@@ -245,8 +245,8 @@
    "branches": [
     {
      "keywords": [
-      "looks",
-      "great"
+      "great",
+      "looks"
      ],
      "suggestion": "It looks great on you!",
      "suggestionFa": "خیلی بهت میاد!",

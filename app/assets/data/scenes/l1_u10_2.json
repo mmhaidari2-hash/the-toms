@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "tom's",
-      "phone"
+      "phone",
+      "tom's"
      ],
      "suggestion": "It's Tom's phone.",
      "suggestionFa": "گوشی تامه.",
@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "think",
       "yours",
+      "think",
       "ryan"
      ],
      "suggestion": "I think it's yours, Ryan!",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "they're",
-      "house",
       "funny",
+      "house",
       "same"
      ],
      "suggestion": "Funny — they're in the same house!",
@@ -114,8 +114,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "nana's",
+      "nicola",
       "big"
      ],
      "suggestion": "It's too big for Nicola. It's Nana's.",
@@ -268,8 +268,8 @@
     },
     {
      "keywords": [
-      "going",
       "happy",
+      "going",
       "mum's"
      ],
      "suggestion": "Your mum's going to be very happy!",

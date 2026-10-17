@@ -20,8 +20,8 @@
     {
      "keywords": [
       "ready",
-      "we're",
       "roast",
+      "we're",
       "beef"
      ],
      "suggestion": "We're ready. Could I have the roast beef, please?",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "allergic",
       "daughter",
+      "allergic",
       "nuts"
      ],
      "suggestion": "Yes, my daughter is allergic to nuts.",
@@ -230,8 +230,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "she'll",
+      "thanks",
       "share"
      ],
      "suggestion": "No thanks, she'll share with me.",
@@ -275,9 +275,9 @@
     {
      "keywords": [
       "please",
-      "gravy",
       "could",
-      "have"
+      "gravy",
+      "more"
      ],
      "suggestion": "Could we have some more gravy, please?",
      "suggestionFa": "می‌شه یه کم سس بیشتر بیارید؟",
@@ -388,7 +388,7 @@
       "please",
       "we're",
       "full",
-      "bill"
+      "just"
      ],
      "suggestion": "Just the bill, please. We're full.",
      "suggestionFa": "فقط صورت‌حساب، لطفاً. سیریم.",

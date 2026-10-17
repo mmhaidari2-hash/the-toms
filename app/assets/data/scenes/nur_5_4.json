@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "favourite",
       "comforter",
+      "favourite",
       "have",
       "toy"
      ],
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "toilet",
-      "call",
-      "home"
+      "home",
+      "call"
      ],
      "suggestion": "What does she call the toilet at home?",
      "suggestionFa": "تو خونه به دستشویی چی می‌گه؟",
@@ -167,9 +167,9 @@
     {
      "keywords": [
       "normal",
-      "worry",
       "don't",
-      "first"
+      "first",
+      "worry"
      ],
      "suggestion": "Don't worry, it's normal for her to cry at first.",
      "suggestionFa": "نگران نباشید، طبیعیه که اولش گریه کنه.",
@@ -180,9 +180,9 @@
     {
      "keywords": [
       "settled",
-      "we'll",
       "she's",
-      "photo"
+      "photo",
+      "we'll"
      ],
      "suggestion": "We'll send you a photo when she's settled.",
      "suggestionFa": "وقتی آروم شد یه عکس براتون می‌فرستیم.",

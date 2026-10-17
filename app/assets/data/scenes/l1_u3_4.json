@@ -130,8 +130,8 @@
     {
      "keywords": [
       "chest",
-      "red",
-      "got"
+      "got",
+      "red"
      ],
      "suggestion": "Yes! It's got a red chest.",
      "suggestionFa": "آره! سینه‌اش قرمزه.",
@@ -141,8 +141,8 @@
     },
     {
      "keywords": [
-      "can't",
       "where",
+      "can't",
       "see"
      ],
      "suggestion": "Where? I can't see it.",
@@ -190,8 +190,8 @@
     {
      "keywords": [
       "bird",
-      "see",
       "can",
+      "see",
       "oh"
      ],
      "suggestion": "Oh no, the cat can see the bird!",
@@ -238,10 +238,10 @@
     },
     {
      "keywords": [
-      "looks",
       "happy",
-      "fat",
-      "she"
+      "looks",
+      "she",
+      "fat"
      ],
      "suggestion": "She looks very fat and happy.",
      "suggestionFa": "خیلی چاق و خوشحال به نظر میاد.",

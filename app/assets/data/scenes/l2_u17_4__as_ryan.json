@@ -1,0 +1,225 @@
+{
+ "id": "l2_u17_4__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Wrong order",
+ "titleFa": "(در نقش Ryan) سفارش اشتباه",
+ "setting": "Takeaways · Level 2",
+ "settingFa": "غذای بیرون‌بر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u17_4",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "burgers",
+      "ordered",
+      "isn't",
+      "here",
+      "bruv"
+     ],
+     "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
+     "suggestionFa": "داداش. برگرها رسیدن، ولی… این چیزی نیست که سفارش دادیم. ببین.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What's wrong with it?",
+   "translations": {
+    "fa": "مشکلش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chicken",
+      "burger",
+      "veggie",
+      "there",
+      "onion"
+     ],
+     "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
+     "suggestionFa": "من برگر گیاهی خواستم. این مرغه. و حلقه‌های پیازم کجاست؟ حلقهٔ پیاز نیست!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "You asked for veggie? Since when?",
+   "translations": {
+    "fa": "گیاهی خواستی؟ از کی تا حالا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetarian",
+      "complain",
+      "tuesday",
+      "except",
+      "mostly"
+     ],
+     "suggestion": "Since Tuesday. I'm vegetarian now. Well, mostly. Except bacon. Can you help me complain?",
+     "suggestionFa": "از سه‌شنبه. الان گیاه‌خوارم. خب، بیشترش. به جز بیکن. کمکم می‌کنی شکایت کنم؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Sure. Let's use the app. There's a \"help\" button.",
+   "translations": {
+    "fa": "حتماً. بیا از برنامه استفاده کنیم. یه دکمهٔ «کمک» هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missing",
+      "quality",
+      "what's",
+      "wrong",
+      "order"
+     ],
+     "suggestion": "OK, \"help\". It says: \"What's wrong with your order?\" Missing item, wrong item, or quality?",
+     "suggestionFa": "باشه، «کمک». نوشته: «سفارشت چه مشکلی داره؟» قلم جاافتاده، قلم اشتباه، یا کیفیت؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Press \"wrong item\" first.",
+   "translations": {
+    "fa": "اول «قلم اشتباه» را بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "evidence",
+      "burger",
+      "don't",
+      "wants",
+      "photo"
+     ],
+     "suggestion": "Now it wants a photo. Hold the burger up. No — don't eat it! It's evidence!",
+     "suggestionFa": "حالا عکس می‌خواد. برگر را بگیر بالا. نه — نخورش! مدرکه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Sorry! It smells good.",
+   "translations": {
+    "fa": "ببخشید! بوش خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "message",
+      "english",
+      "polite",
+      "write",
+      "than"
+     ],
+     "suggestion": "Now we write a message. You write it, your English is more polite than mine.",
+     "suggestionFa": "حالا یه پیام می‌نویسیم. تو بنویس، انگلیسیت از من مؤدبانه‌تره.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "\"Hello. We asked for a veggie burger, but we got chicken. Also, the onion rings are missing.\"",
+   "translations": {
+    "fa": "«سلام. ما برگر گیاهی خواستیم، ولی مرغ گرفتیم. همچنین حلقهٔ پیاز نیومده.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "refunded",
+      "perfect",
+      "refund",
+      "we've",
+      "sorry"
+     ],
+     "suggestion": "Perfect! Send. … Oh, fast! \"Sorry! We've refunded you £8.50.\" A refund! Nice one!",
+     "suggestionFa": "عالی! بفرست. … اوه، چه سریع! «متأسفیم! هشت پوند و پنجاه پنس به حسابتان برگرداندیم.» بازپرداخت! ایول!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Great! So what now?",
+   "translations": {
+    "fa": "عالیه! خب حالا چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetarian",
+      "tomorrow",
+      "waste",
+      "don't",
+      "shame"
+     ],
+     "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",
+     "suggestionFa": "خب… حیفه هدر بره. می‌خورمش. از فردا گیاه‌خوارم. به مامان نگو!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

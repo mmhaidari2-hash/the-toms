@@ -1,0 +1,391 @@
+{
+ "id": "l2_u20_1",
+ "characterId": "okafor",
+ "title": "The hospital letter",
+ "titleFa": "نامهٔ بیمارستان",
+ "setting": "Hospital visits · Level 2",
+ "settingFa": "بیمارستان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "Hello, Tom. Hello again! Tom says George got a letter from the hospital. Shall we read it together?",
+   "translations": {
+    "fa": "سلام تام. باز سلام! تام میگه جورج یه نامه از بیمارستان گرفته. با هم بخونیمش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "please",
+      "formal"
+     ],
+     "suggestion": "Yes, please. The English is very formal.",
+     "suggestionFa": "بله، لطفاً. انگلیسیش خیلی رسمیه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "worried",
+      "doctor",
+      "george",
+      "thank"
+     ],
+     "suggestion": "Thank you, doctor. George is a bit worried.",
+     "suggestionFa": "ممنون دکتر. جورج یه‌کم نگرانه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    },
+    {
+     "word": "letter",
+     "fa": "نامه"
+    },
+    {
+     "word": "formal",
+     "fa": "رسمی"
+    },
+    {
+     "word": "worried",
+     "fa": "نگران"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "okafor",
+   "text": "It says: \"You have been referred to the heart failure clinic.\" Referred means I sent him to the specialists.",
+   "translations": {
+    "fa": "نوشته: «شما به درمانگاه نارسایی قلبی ارجاع داده شده‌اید.» ارجاع یعنی من فرستادمش پیش متخصص‌ها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "appointment",
+      "normal"
+     ],
+     "suggestion": "So it's a normal appointment?",
+     "suggestionFa": "پس یه وقت معمولیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "specialists",
+      "mean"
+     ],
+     "suggestion": "What does \"specialists\" mean?",
+     "suggestionFa": "«متخصص‌ها» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "referred",
+     "fa": "ارجاع داده شده"
+    },
+    {
+     "word": "heart failure",
+     "fa": "نارسایی قلبی"
+    },
+    {
+     "word": "clinic",
+     "fa": "درمانگاه"
+    },
+    {
+     "word": "specialists",
+     "fa": "متخصصان"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "Yes, a check-up. Specialists are doctors who only do hearts. It's at Homerton Hospital, Outpatients, Level two.",
+   "translations": {
+    "fa": "آره، یه معاینه. متخصص‌ها دکترهایی‌ان که فقط قلب کار می‌کنن. تو بیمارستان هومرتون، درمانگاه سرپایی، طبقهٔ دو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "outpatients"
+     ],
+     "suggestion": "What are \"Outpatients\"?",
+     "suggestionFa": "«اوت‌پیشنتس» چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "appointment",
+      "when"
+     ],
+     "suggestion": "When is the appointment?",
+     "suggestionFa": "وقتش کیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check-up",
+     "fa": "معاینه"
+    },
+    {
+     "word": "outpatients",
+     "fa": "درمانگاه سرپایی"
+    },
+    {
+     "word": "level two",
+     "fa": "طبقهٔ دو"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Outpatients\" are people who visit hospital for an appointment and go home the same day.",
+    "fa": "بیمار سرپایی همان روز به خانه برمی‌گردد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "okafor",
+   "text": "Outpatients means you visit and go home the same day — no bed. It's next Tuesday at quarter past nine.",
+   "translations": {
+    "fa": "سرپایی یعنی میای و همون روز میری خونه — بدون تخت. سه‌شنبهٔ بعد ساعت نه و ربعه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quarter",
+      "arrive",
+      "should",
+      "early"
+     ],
+     "suggestion": "Quarter past nine. We should arrive early.",
+     "suggestionFa": "نه و ربع. باید زود برسیم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "george",
+      "before",
+      "need"
+     ],
+     "suggestion": "Does George need to do anything before?",
+     "suggestionFa": "جورج قبلش باید کاری بکنه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "same day",
+     "fa": "همان روز"
+    },
+    {
+     "word": "bed",
+     "fa": "تخت"
+    },
+    {
+     "word": "quarter past nine",
+     "fa": "نه و ربع"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we should to arrive",
+      "we must arriving early"
+     ],
+     "echo": "You should arrive early, yes.",
+     "better": "We should arrive early.",
+     "betterFa": "باید زود برسیم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "Good question. It says: \"Please bring a list of your medicines.\" And \"Do not eat for two hours before your blood test.\"",
+   "translations": {
+    "fa": "سؤال خوبیه. نوشته: «لطفاً فهرست داروهایتان را بیاورید.» و «دو ساعت قبل از آزمایش خون چیزی نخورید.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "breakfast",
+      "george",
+      "happy",
+      "won't"
+     ],
+     "suggestion": "No breakfast? George won't be happy!",
+     "suggestionFa": "صبحونه نه؟ جورج خوشحال نمیشه!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "medicine",
+      "write",
+      "list",
+      "i'll"
+     ],
+     "suggestion": "I'll write the medicine list for him.",
+     "suggestionFa": "فهرست داروهاش را براش می‌نویسم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "list",
+     "fa": "فهرست"
+    },
+    {
+     "word": "medicines",
+     "fa": "داروها"
+    },
+    {
+     "word": "blood test",
+     "fa": "آزمایش خون"
+    },
+    {
+     "word": "before",
+     "fa": "قبل از"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "Ha! He can eat after. And here: \"If you need to change your appointment, call the number below.\"",
+   "translations": {
+    "fa": "ها! بعدش می‌تونه بخوره. و اینجا: «اگر نیاز به تغییر وقت دارید، با شمارهٔ زیر تماس بگیرید.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "can't",
+      "he",
+      "if"
+     ],
+     "suggestion": "And if he can't go?",
+     "suggestionFa": "و اگه نتونه بره؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone",
+      "him",
+      "can"
+     ],
+     "suggestion": "Can someone go with him?",
+     "suggestionFa": "کسی می‌تونه باهاش بره؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "تغییر دادن"
+    },
+    {
+     "word": "number below",
+     "fa": "شمارهٔ زیر"
+    },
+    {
+     "word": "someone",
+     "fa": "کسی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "okafor",
+   "text": "Always call — don't just miss it. And yes, he can bring someone. Will you go with him? Two pairs of ears are better than one.",
+   "translations": {
+    "fa": "همیشه زنگ بزنید — همین‌طوری نرید. و آره، می‌تونه یکی را با خودش ببره. باهاش میری؟ دو جفت گوش بهتر از یکیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "tom",
+      "go"
+     ],
+     "suggestion": "Yes. I'll go with George and Tom.",
+     "suggestionFa": "آره. با جورج و تام میرم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "course",
+      "notes",
+      "take",
+      "him"
+     ],
+     "suggestion": "Of course. I'll take notes for him.",
+     "suggestionFa": "البته. براش یادداشت برمی‌دارم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "miss",
+     "fa": "از دست دادن"
+    },
+    {
+     "word": "pairs",
+     "fa": "جفت‌ها"
+    },
+    {
+     "word": "take notes",
+     "fa": "یادداشت برداشتن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "Wonderful. George is lucky to have you. And tell him from me: no bacon sandwich on Tuesday morning!",
+   "translations": {
+    "fa": "عالیه. جورج خوش‌شانسه که تو را داره. و از طرف من بهش بگو: سه‌شنبه صبح ساندویچ بیکن نه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

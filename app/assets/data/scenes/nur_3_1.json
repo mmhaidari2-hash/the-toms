@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "hello",
       "don't",
+      "hello",
       "song",
       "know"
      ],
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "william",
+      "weather",
       "what's",
       "like"
      ],
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "picture",
-      "find",
       "rain",
+      "find",
       "who"
      ],
      "suggestion": "Yes, it's rainy! Who can find the rain picture?",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "cold",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "Well done! Rainy and cold.",
      "suggestionFa": "آفرین! بارونی و سرد.",
@@ -216,10 +216,10 @@
    "branches": [
     {
      "keywords": [
-      "oscar",
-      "daddy",
       "after",
-      "come"
+      "daddy",
+      "oscar",
+      "back"
      ],
      "suggestion": "Oh, Oscar. Daddy will come back after tea.",
      "suggestionFa": "اوه اسکار. بابا بعد از عصرونه برمی‌گرده.",
@@ -269,7 +269,7 @@
       "swimming",
       "little",
       "ducks",
-      "went"
+      "five"
      ],
      "suggestion": "Five little ducks went swimming one day!",
      "suggestionFa": "پنج اردک کوچولو یه روز رفتن شنا!",

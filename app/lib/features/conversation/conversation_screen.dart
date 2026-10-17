@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import '../shared/nav.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/platform/voice.dart';
@@ -557,11 +558,7 @@ class _ChatState extends ConsumerState<_Chat> {
             padding: EdgeInsets.fromLTRB(8, pad.top + 4, 10, 26),
             child: Row(
               children: [
-                IconButton(
-                  onPressed: () => context.canPop() ? context.pop() : context.go('/'),
-                  style: IconButton.styleFrom(backgroundColor: Colors.black26),
-                  icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white, size: 18),
-                ),
+                const NavButtons(light: true),
                 const SizedBox(width: 8),
                 Expanded(
                   child: Column(

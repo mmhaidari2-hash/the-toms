@@ -1,0 +1,332 @@
+{
+ "id": "l2_u19_1",
+ "characterId": "maya",
+ "title": "Contactless at the barriers",
+ "titleFa": "کارت بی‌تماس سر گیت",
+ "setting": "The Tube · Level 2",
+ "settingFa": "متروی لندن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Hello! You look a bit lost. First time on the Underground?",
+   "translations": {
+    "fa": "سلام! یه‌کم گیج به نظر میای. اولین باره سوار مترو میشی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "barriers",
+      "through",
+      "how",
+      "get"
+     ],
+     "suggestion": "Yes. How do I get through the barriers?",
+     "suggestionFa": "آره. چطوری از گیت‌ها رد بشم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ticket",
+      "need",
+      "buy"
+     ],
+     "suggestion": "Yes. Do I need to buy a ticket?",
+     "suggestionFa": "آره. باید بلیت بخرم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Underground",
+     "fa": "متروی لندن"
+    },
+    {
+     "word": "barriers",
+     "fa": "گیت‌ها ؛ موانع"
+    },
+    {
+     "word": "get through",
+     "fa": "رد شدن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "No ticket needed. You need to tap your bank card or phone on the yellow circle. The gate opens.",
+   "translations": {
+    "fa": "بلیت لازم نیست. باید کارت بانکی یا گوشیت را روی دایرهٔ زرد بزنی. گیت باز میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "card",
+      "same",
+      "use",
+      "bus"
+     ],
+     "suggestion": "Can I use the same card as on the bus?",
+     "suggestionFa": "می‌تونم از همون کارتی که تو اتوبوس می‌زنم استفاده کنم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "open",
+      "if"
+     ],
+     "suggestion": "What if it doesn't open?",
+     "suggestionFa": "اگه باز نشد چی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap",
+     "fa": "زدن ؛ لمس کردن"
+    },
+    {
+     "word": "gate",
+     "fa": "دروازه ؛ گیت"
+    },
+    {
+     "word": "opens",
+     "fa": "باز می‌شود"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "Yes, the same card. And make sure you tap out at the end too. Or you pay the maximum fare.",
+   "translations": {
+    "fa": "آره، همون کارت. و مطمئن شو آخر مسیر هم موقع خروج کارت بزنی. وگرنه بیشترین کرایه را میدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "got",
+      "tap",
+      "out"
+     ],
+     "suggestion": "Tap in and tap out. Got it.",
+     "suggestionFa": "موقع ورود و خروج کارت بزنم. فهمیدم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maximum",
+      "fare",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is the maximum fare?",
+     "suggestionFa": "بیشترین کرایه چقدره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "make sure",
+     "fa": "مطمئن شو"
+    },
+    {
+     "word": "tap out",
+     "fa": "کارت زدن هنگام خروج"
+    },
+    {
+     "word": "maximum fare",
+     "fa": "حداکثر کرایه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i must tap out also",
+      "i need tap out"
+     ],
+     "echo": "Tap out too, yes.",
+     "better": "I need to tap out too.",
+     "betterFa": "باید هنگام خروج هم کارت بزنم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "Up to about nine pounds! Oh — and don't touch in with your wallet. Two cards together confuse the reader.",
+   "translations": {
+    "fa": "تا حدود نُه پوند! آهان — و با کیف پولت کارت نزن. دو تا کارت با هم دستگاه را گیج می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happens",
+      "why"
+     ],
+     "suggestion": "Why? What happens?",
+     "suggestionFa": "چرا؟ چی میشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "card",
+      "take",
+      "i'll",
+      "out"
+     ],
+     "suggestion": "OK. I'll take the card out.",
+     "suggestionFa": "باشه. کارت را درمیارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wallet",
+     "fa": "کیف پول"
+    },
+    {
+     "word": "confuse",
+     "fa": "گیج کردن"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Card clash\": if you tap a purse with two contactless cards, the reader may charge the wrong one.",
+    "fa": "اگر کیف با دو کارت را بزنی، ممکن است از کارت اشتباه کسر شود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "It might charge the wrong card. We call it \"card clash\". Now, which line do you need?",
+   "translations": {
+    "fa": "ممکنه از کارت اشتباه پول برداره. بهش میگیم «تداخل کارت». خب، کدوم خط لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circus",
+      "oxford",
+      "going"
+     ],
+     "suggestion": "I'm going to Oxford Circus.",
+     "suggestionFa": "دارم میرم آکسفورد سیرکس.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "line",
+      "find",
+      "know"
+     ],
+     "suggestion": "I don't know. How do I find the line?",
+     "suggestionFa": "نمی‌دونم. چطوری خط را پیدا کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "line",
+     "fa": "خط"
+    },
+    {
+     "word": "card clash",
+     "fa": "تداخل کارت"
+    },
+    {
+     "word": "charge",
+     "fa": "پول کسر کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Victoria line — the light blue one. Follow the blue signs to the platform. Southbound, not northbound!",
+   "translations": {
+    "fa": "خط ویکتوریا — آبی روشن. تابلوهای آبی را تا سکو دنبال کن. به سمت جنوب، نه شمال!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mean"
+     ],
+     "suggestion": "Southbound. What does that mean?",
+     "suggestionFa": "ساوت‌باوند. یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "light",
+      "thank",
+      "blue"
+     ],
+     "suggestion": "Thank you! Light blue, southbound.",
+     "suggestionFa": "ممنون! آبی روشن، سمت جنوب.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "platform",
+     "fa": "سکو"
+    },
+    {
+     "word": "southbound",
+     "fa": "به سمت جنوب"
+    },
+    {
+     "word": "northbound",
+     "fa": "به سمت شمال"
+    },
+    {
+     "word": "signs",
+     "fa": "تابلوها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "It means going south. Brixton direction. You've got this! And if you get lost, ask anyone in a TfL uniform.",
+   "translations": {
+    "fa": "یعنی به سمت جنوب. جهت بریکستون. از پسش برمیای! و اگه گم شدی، از هر کسی با یونیفرم TfL بپرس."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

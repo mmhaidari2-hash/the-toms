@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "exactly",
-      "hard",
-      "into"
+      "into",
+      "hard"
      ],
      "suggestion": "Not exactly — I bit into something hard.",
      "suggestionFa": "نه دقیقاً — یه چیز سفت را گاز زدم.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "eating",
       "toffee",
-      "crack",
-      "apple"
+      "eating",
+      "heard",
+      "crack"
      ],
      "suggestion": "I was eating a toffee apple and heard a crack.",
      "suggestionFa": "داشتم سیب کاراملی می‌خوردم که یه صدای ترک شنیدم.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "straight",
-      "loose",
       "tooth",
+      "loose",
       "felt"
      ],
      "suggestion": "No, but my tooth felt loose straight away.",
@@ -140,10 +140,10 @@
     },
     {
      "keywords": [
-      "went",
       "some",
       "home",
-      "put"
+      "went",
+      "ice"
      ],
      "suggestion": "No. I went home and put some ice on it.",
      "suggestionFa": "نه. رفتم خونه و یخ گذاشتم.",
@@ -195,8 +195,8 @@
      "keywords": [
       "cost",
       "much",
-      "how",
-      "nhs"
+      "nhs",
+      "how"
      ],
      "suggestion": "How much will that cost on the NHS?",
      "suggestionFa": "با NHS چقدر هزینه داره؟",

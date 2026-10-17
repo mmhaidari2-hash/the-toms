@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "what's",
+      "course",
       "number"
      ],
      "suggestion": "Of course. What's the number?",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "biscuit",
-      "poor",
       "call",
-      "i'll"
+      "i'll",
+      "poor"
      ],
      "suggestion": "Poor Biscuit. I'll call now.",
      "suggestionFa": "بیسکویت طفلکی. الان زنگ می‌زنم.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "morning",
-      "sick",
       "once",
+      "sick",
       "she"
      ],
      "suggestion": "She was sick once this morning.",
@@ -243,8 +243,8 @@
     },
     {
      "keywords": [
-      "moving",
       "slowly",
+      "moving",
       "but"
      ],
      "suggestion": "She's moving, but very slowly.",
@@ -279,8 +279,8 @@
    "branches": [
     {
      "keywords": [
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, four is fine.",
      "suggestionFa": "آره، چهار خوبه.",
@@ -341,7 +341,7 @@
       "neighbour",
       "belongs",
       "sure",
-      "our"
+      "she"
      ],
      "suggestion": "I'm not sure. She belongs to our neighbour.",
      "suggestionFa": "مطمئن نیستم. مال همسایه‌مونه.",
@@ -377,8 +377,8 @@
      "keywords": [
       "that's",
       "we'll",
-      "four",
-      "fine"
+      "fine",
+      "four"
      ],
      "suggestion": "Yes, that's fine. We'll see you at four.",
      "suggestionFa": "آره، مشکلی نیست. ساعت چهار می‌بینیمتون.",

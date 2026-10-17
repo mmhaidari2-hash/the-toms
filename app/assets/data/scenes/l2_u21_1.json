@@ -1,0 +1,339 @@
+{
+ "id": "l2_u21_1",
+ "characterId": "tom",
+ "title": "Museums are free",
+ "titleFa": "موزه‌ها رایگان‌اند",
+ "setting": "A day at the museum · Level 2",
+ "settingFa": "یک روز در موزه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Half-term! The kids are bored, it's raining, and I've got a day off. Any ideas?",
+   "translations": {
+    "fa": "تعطیلات میان‌ترم! بچه‌ها حوصله‌شون سر رفته، بارون میاد، و من مرخصی‌ام. ایده‌ای داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "museum",
+      "don't",
+      "why",
+      "go"
+     ],
+     "suggestion": "Why don't we go to a museum?",
+     "suggestionFa": "چرا نریم موزه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cinema",
+      "about",
+      "how"
+     ],
+     "suggestion": "How about the cinema?",
+     "suggestionFa": "سینما چطوره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half-term",
+     "fa": "تعطیلات میان‌ترم"
+    },
+    {
+     "word": "bored",
+     "fa": "بی‌حوصله"
+    },
+    {
+     "word": "day off",
+     "fa": "روز مرخصی"
+    },
+    {
+     "word": "museum",
+     "fa": "موزه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most big national museums in the UK are free. You can donate if you want.",
+    "fa": "بیشتر موزه‌های ملی بریتانیا رایگان‌اند."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "The cinema costs fifty quid for five of us! But museums are free. Free! My favourite word.",
+   "translations": {
+    "fa": "سینما برای پنج نفرمون پنجاه پوند خرج داره! ولی موزه‌ها مجانی‌ان. مجانی! کلمهٔ مورد علاقه‌ام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "them",
+      "free",
+      "all"
+     ],
+     "suggestion": "Free? All of them?",
+     "suggestionFa": "مجانی؟ همه‌شون؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "history",
+      "natural",
+      "museum",
+      "let's"
+     ],
+     "suggestion": "Let's go to the Natural History Museum!",
+     "suggestionFa": "بیا بریم موزهٔ تاریخ طبیعی!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "favourite",
+     "fa": "مورد علاقه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "why we don't go",
+      "why not we go"
+     ],
+     "echo": "Why don't we go? Great idea.",
+     "better": "Why don't we go to a museum?",
+     "betterFa": "چرا به موزه نرویم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The big national ones, yes. There's a box for donations, if you want. Nicola wants to see the dinosaurs.",
+   "translations": {
+    "fa": "ملی‌های بزرگ، آره. یه صندوق برای کمک مالی هست، اگه خواستی. نیکولا می‌خواد دایناسورها را ببینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaurs",
+      "william",
+      "will",
+      "love"
+     ],
+     "suggestion": "Dinosaurs! William will love it too.",
+     "suggestionFa": "دایناسور! ویلیام هم عاشقش میشه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tickets",
+      "need",
+      "book",
+      "we"
+     ],
+     "suggestion": "Do we need to book tickets?",
+     "suggestionFa": "باید بلیت رزرو کنیم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "national",
+     "fa": "ملی"
+    },
+    {
+     "word": "donations",
+     "fa": "کمک‌های مالی"
+    },
+    {
+     "word": "dinosaurs",
+     "fa": "دایناسورها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Good point. You can book a free time slot online. It's busy in half-term. Let's book eleven o'clock.",
+   "translations": {
+    "fa": "نکتهٔ خوبیه. می‌تونی آنلاین یه وقت مجانی رزرو کنی. تو میان‌ترم شلوغه. ساعت یازده را رزرو کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eleven",
+      "there",
+      "good",
+      "how"
+     ],
+     "suggestion": "Eleven is good. How do we get there?",
+     "suggestionFa": "یازده خوبه. چطوری بریم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "book",
+      "i'll",
+      "now"
+     ],
+     "suggestion": "I'll book it now on my phone.",
+     "suggestionFa": "الان با گوشیم رزروش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good point",
+     "fa": "نکتهٔ خوب"
+    },
+    {
+     "word": "time slot",
+     "fa": "بازهٔ زمانی ؛ نوبت"
+    },
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Train from Hackney Central, then the Tube to South Kensington. There's a tunnel from the station to the museum. No rain!",
+   "translations": {
+    "fa": "قطار از هاکنی سنترال، بعد مترو تا ساوت کنزینگتون. از ایستگاه تا موزه یه تونل هست. بدون بارون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tunnel",
+      "that's",
+      "clever"
+     ],
+     "suggestion": "A tunnel? That's clever.",
+     "suggestionFa": "تونل؟ هوشمندانه‌ست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "lunch",
+      "bring",
+      "we"
+     ],
+     "suggestion": "Should we bring lunch?",
+     "suggestionFa": "ناهار بیاریم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tunnel",
+     "fa": "تونل"
+    },
+    {
+     "word": "clever",
+     "fa": "هوشمندانه"
+    },
+    {
+     "word": "bring",
+     "fa": "آوردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "The café is expensive, so Leslie's making sandwiches. But we'll buy one cake. For the experience.",
+   "translations": {
+    "fa": "کافه گرونه، پس لزلی داره ساندویچ درست می‌کنه. ولی یه کیک می‌خریم. برای تجربه‌ش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "people",
+      "five",
+      "cake",
+      "one"
+     ],
+     "suggestion": "One cake for five people?",
+     "suggestionFa": "یه کیک برای پنج نفر؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sounds",
+      "like",
+      "plan",
+      "good"
+     ],
+     "suggestion": "That sounds like a good plan.",
+     "suggestionFa": "برنامهٔ خوبی به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "expensive",
+     "fa": "گران"
+    },
+    {
+     "word": "sandwiches",
+     "fa": "ساندویچ‌ها"
+    },
+    {
+     "word": "experience",
+     "fa": "تجربه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "One big cake! It's a plan, then. Wellies, umbrellas, sandwiches, children. In that order. Meet at the station at ten!",
+   "translations": {
+    "fa": "یه کیک بزرگ! پس برنامه همینه. چکمه، چتر، ساندویچ، بچه‌ها. به همین ترتیب. ساعت ده تو ایستگاه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

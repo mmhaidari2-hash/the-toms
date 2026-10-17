@@ -1,0 +1,361 @@
+{
+ "id": "l2_u20_3",
+ "characterId": "tom",
+ "title": "Visiting George on the ward",
+ "titleFa": "ملاقات جورج در بخش",
+ "setting": "Hospital visits · Level 2",
+ "settingFa": "بیمارستان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Dad's staying in for two nights — just for tests. Visiting hours are two till eight. Thanks for coming with me.",
+   "translations": {
+    "fa": "بابا دو شب بستری می‌مونه — فقط برای آزمایش. ساعت ملاقات دو تا هشته. ممنون که باهام اومدی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "which",
+      "ward",
+      "he"
+     ],
+     "suggestion": "Of course. Which ward is he on?",
+     "suggestionFa": "البته. تو کدوم بخشه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "problem",
+      "brought",
+      "grapes",
+      "some"
+     ],
+     "suggestion": "No problem. I brought some grapes.",
+     "suggestionFa": "خواهش می‌کنم. یه‌کم انگور آوردم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "staying in",
+     "fa": "بستری ماندن"
+    },
+    {
+     "word": "visiting hours",
+     "fa": "ساعت ملاقات"
+    },
+    {
+     "word": "ward",
+     "fa": "بخش بیمارستان"
+    },
+    {
+     "word": "grapes",
+     "fa": "انگور"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Ward 4B. First, gel your hands. There's a dispenser by the door. The nurses are strict about it.",
+   "translations": {
+    "fa": "بخش ۴B. اول، دست‌هات را ژل بزن. کنار در یه دستگاه هست. پرستارها سر این خیلی سخت‌گیرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "like",
+      "cold"
+     ],
+     "suggestion": "Like this? It's very cold!",
+     "suggestionFa": "این‌جوری؟ خیلی سرده!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strict",
+      "they",
+      "why"
+     ],
+     "suggestion": "Why are they so strict?",
+     "suggestionFa": "چرا این‌قدر سخت‌گیرن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gel",
+     "fa": "ژل ضدعفونی زدن"
+    },
+    {
+     "word": "dispenser",
+     "fa": "دستگاه پخش‌کن"
+    },
+    {
+     "word": "strict",
+     "fa": "سخت‌گیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Always clean your hands when you enter and leave a hospital ward. It stops infections spreading.",
+    "fa": "هنگام ورود و خروج از بخش دست‌ها را ضدعفونی کنید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "george",
+   "text": "Ah! My visitors! Come in, come in. Have you brought me a pint and a pie?",
+   "translations": {
+    "fa": "آه! ملاقاتی‌هام! بیاید تو، بیاید تو. برام یه آبجو و یه پای آوردید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "healthy",
+      "grapes"
+     ],
+     "suggestion": "No, George. Grapes! Healthy grapes.",
+     "suggestionFa": "نه جورج. انگور! انگور سالم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "feeling",
+      "how"
+     ],
+     "suggestion": "How are you feeling, George?",
+     "suggestionFa": "حالت چطوره جورج؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "visitors",
+     "fa": "ملاقات‌کنندگان"
+    },
+    {
+     "word": "pint",
+     "fa": "یک لیوان آبجو"
+    },
+    {
+     "word": "pie",
+     "fa": "پای"
+    },
+    {
+     "word": "healthy",
+     "fa": "سالم"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "george",
+   "text": "Grapes. Everybody brings grapes. I'm alright, lad. Bit tired. They take my blood every four hours. Vampires!",
+   "translations": {
+    "fa": "انگور. همه انگور میارن. خوبم پسر. یه‌کم خسته. هر چهار ساعت ازم خون می‌گیرن. خون‌آشام‌ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sleeping",
+      "well"
+     ],
+     "suggestion": "Are you sleeping well?",
+     "suggestionFa": "خوب می‌خوابی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "food",
+      "ok"
+     ],
+     "suggestion": "Is the food OK here?",
+     "suggestionFa": "غذای اینجا خوبه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tired",
+     "fa": "خسته"
+    },
+    {
+     "word": "blood",
+     "fa": "خون"
+    },
+    {
+     "word": "vampires",
+     "fa": "خون‌آشام‌ها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "george",
+   "text": "Sleeping? The man in the next bed snores like a bus engine. And the food… it's beige. Everything is beige.",
+   "translations": {
+    "fa": "خواب؟ مرد تخت بغلی مثل موتور اتوبوس خروپف می‌کنه. و غذا… کِرِمیه. همه چی کرمی‌رنگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "persian",
+      "beige",
+      "bring"
+     ],
+     "suggestion": "Beige food? Ha! I'll bring you Persian rice tomorrow.",
+     "suggestionFa": "غذای کرمی؟ ها! فردا برات برنج ایرانی میارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "george",
+      "poor",
+      "need"
+     ],
+     "suggestion": "Poor George. Do you need anything?",
+     "suggestionFa": "جورج بیچاره. چیزی لازم داری؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "snores",
+     "fa": "خروپف می‌کند"
+    },
+    {
+     "word": "engine",
+     "fa": "موتور"
+    },
+    {
+     "word": "beige",
+     "fa": "کرم‌رنگ ؛ بی‌رنگ‌ورو"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "george",
+   "text": "Persian rice! Now you're talking. And my glasses — Maggie forgot them. And the newspaper, for the football.",
+   "translations": {
+    "fa": "برنج ایرانی! حالا شد یه چیزی. و عینکم — مگی یادش رفت. و روزنامه، برای فوتبال."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "newspaper",
+      "tomorrow",
+      "glasses",
+      "bring"
+     ],
+     "suggestion": "Glasses and a newspaper. I'll bring them tomorrow.",
+     "suggestionFa": "عینک و روزنامه. فردا میارمشون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tonight",
+      "coming",
+      "maggie"
+     ],
+     "suggestion": "Is Maggie coming tonight?",
+     "suggestionFa": "مگی امشب میاد؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glasses",
+     "fa": "عینک"
+    },
+    {
+     "word": "forgot",
+     "fa": "فراموش کرد"
+    },
+    {
+     "word": "newspaper",
+     "fa": "روزنامه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Mum's coming at six. Right, Dad, the nurse is coming — that means \"visitors out\". We'll see you tomorrow.",
+   "translations": {
+    "fa": "مامان ساعت شش میاد. خب بابا، پرستار داره میاد — یعنی «ملاقاتی‌ها بیرون». فردا می‌بینیمت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "rest",
+      "some",
+      "bye"
+     ],
+     "suggestion": "Bye, George. Get some rest!",
+     "suggestionFa": "خداحافظ جورج. استراحت کن!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "glasses",
+      "forget",
+      "won't"
+     ],
+     "suggestion": "See you tomorrow. I won't forget your glasses.",
+     "suggestionFa": "فردا می‌بینمت. عینکت یادم نمیره.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "george",
+   "text": "Thank you for coming, both of you. Don't tell Maggie, but you're better company than the grapes.",
+   "translations": {
+    "fa": "ممنون که اومدید، هر دوتون. به مگی نگید، ولی شما از انگورها همدم بهتری هستید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

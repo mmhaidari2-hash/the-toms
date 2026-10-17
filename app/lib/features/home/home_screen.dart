@@ -17,6 +17,7 @@ import '../../core/models/place.dart';
 import '../place/place_widgets.dart';
 import '../../core/models/user_progress.dart';
 import '../shared/widgets.dart';
+import '../shared/nav.dart';
 import 'home_extras.dart';
 import '../course/course_screen.dart' show PackCard;
 import '../../core/engine/mission.dart';
@@ -87,8 +88,14 @@ class _HomeBody extends ConsumerWidget {
       bottom: false,
       child: CustomScrollView(
         slivers: [
+          PinnedHeaderSliver(
+            child: ColoredBox(
+              color: Theme.of(context).scaffoldBackgroundColor,
+              child: const Padding(padding: EdgeInsets.fromLTRB(14, 8, 14, 6), child: Align(alignment: Alignment.centerLeft, child: NavButtons())),
+            ),
+          ),
           SliverPadding(
-            padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
+            padding: const EdgeInsets.fromLTRB(20, 4, 20, 0),
             sliver: SliverList.list(
               children: [
                 FadeSlideIn(

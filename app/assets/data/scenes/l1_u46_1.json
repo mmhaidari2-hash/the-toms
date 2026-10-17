@@ -33,8 +33,8 @@
     {
      "keywords": [
       "hello",
-      "sorry",
       "we're",
+      "sorry",
       "late"
      ],
      "suggestion": "Hello! Sorry we're a bit late.",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "umbrella",
-      "where",
       "shall",
+      "where",
       "put"
      ],
      "suggestion": "Where shall I put my umbrella?",
@@ -129,10 +129,10 @@
     },
     {
      "keywords": [
-      "persian",
       "brought",
+      "persian",
       "sweets",
-      "some"
+      "shop"
      ],
      "suggestion": "I brought some sweets from the Persian shop.",
      "suggestionFa": "منم از مغازهٔ ایرانی شیرینی آوردم.",
@@ -236,8 +236,8 @@
      "keywords": [
       "george",
       "chair",
-      "own",
-      "his"
+      "his",
+      "own"
      ],
      "suggestion": "George has his own chair?",
      "suggestionFa": "جورج صندلی مخصوص داره؟",
@@ -314,8 +314,8 @@
    "branches": [
     {
      "keywords": [
-      "think",
-      "awake"
+      "awake",
+      "think"
      ],
      "suggestion": "I think he's awake.",
      "suggestionFa": "فکر کنم بیداره.",

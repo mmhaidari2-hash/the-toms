@@ -1,0 +1,472 @@
+{
+ "id": "l2_u14_3",
+ "characterId": "weda",
+ "title": "Rhyme time for William",
+ "titleFa": "ساعت شعر برای ویلیام",
+ "setting": "Library life · Level 2",
+ "settingFa": "الکتابخانه و زندگی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "It's Rhyme Time! Every Tuesday the library has songs for little ones. William loves it. Don't you, William?",
+   "translations": {
+    "fa": "ساعت شعره! هر سه‌شنبه کتابخانه برای کوچولوها آهنگ داره. ویلیام عاشقشه. مگه نه ویلیام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "singing",
+      "hello",
+      "like"
+     ],
+     "suggestion": "Hello, William! Do you like singing?",
+     "suggestionFa": "سلام ویلیام! آواز خوندن دوست داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rhyme",
+      "time",
+      "we"
+     ],
+     "suggestion": "Rhyme Time? What do we do?",
+     "suggestionFa": "ساعت شعر؟ چی کار می‌کنیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "I love singing! Bus song!",
+   "translations": {
+    "fa": "من آواز دوست دارم! آهنگ اتوبوس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "song",
+      "bus",
+      "one"
+     ],
+     "suggestion": "The bus song? Which one is that?",
+     "suggestionFa": "آهنگ اتوبوس؟ کدوم یکی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "william",
+      "hello",
+      "shall"
+     ],
+     "suggestion": "Hello, William! Shall we sing together?",
+     "suggestionFa": "سلام ویلیام! با هم بخونیم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Rhyme Time",
+     "fa": "ساعت شعر کودکان"
+    },
+    {
+     "word": "little ones",
+     "fa": "کوچولوها"
+    },
+    {
+     "word": "singing",
+     "fa": "آواز خواندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most UK libraries run free \"Rhyme Time\" sessions for babies and toddlers, with songs and nursery rhymes.",
+    "fa": "بیشتر کتابخانه‌ها جلسه‌های رایگان شعر و آواز برای کودکان دارند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "\"The Wheels on the Bus\". Of course! His grandad drove the 38 for thirty-one years. It's in the blood!",
+   "translations": {
+    "fa": "«چرخ‌های اتوبوس». معلومه! پدربزرگش سی و یک سال ۳۸ را رونده. تو خونشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drives",
+      "dad",
+      "his",
+      "now"
+     ],
+     "suggestion": "And his dad drives the 38 now!",
+     "suggestionFa": "و باباش الان ۳۸ را می‌رونه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "teach",
+      "words",
+      "know"
+     ],
+     "suggestion": "I don't know the words. Can you teach me?",
+     "suggestionFa": "من شعرش را بلد نیستم. یادم میدی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wheels",
+     "fa": "چرخ‌ها"
+    },
+    {
+     "word": "grandad",
+     "fa": "پدربزرگ"
+    },
+    {
+     "word": "in the blood",
+     "fa": "در خون ؛ ارثی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Round and round! Do it with me!",
+   "translations": {
+    "fa": "دور و دور! با من انجامش بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "round",
+      "like"
+     ],
+     "suggestion": "Like this? Round and round!",
+     "suggestionFa": "این‌جوری؟ دور و دور!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "show",
+      "ok"
+     ],
+     "suggestion": "OK, William. You show me.",
+     "suggestionFa": "باشه ویلیام. تو نشونم بده.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "round and round",
+     "fa": "دور و دور"
+    },
+    {
+     "word": "with me",
+     "fa": "با من"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Lovely. Next verse: \"The wipers on the bus go swish, swish, swish\". Arms like this.",
+   "translations": {
+    "fa": "قشنگه. بند بعد: «برف‌پاک‌کن‌های اتوبوس می‌کنن ویش، ویش، ویش». دست‌ها این‌جوری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swish"
+     ],
+     "suggestion": "Swish, swish, swish!",
+     "suggestionFa": "ویش، ویش، ویش!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wipers"
+     ],
+     "suggestion": "What are wipers?",
+     "suggestionFa": "«وایپر» چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "verse",
+     "fa": "بند شعر"
+    },
+    {
+     "word": "wipers",
+     "fa": "برف‌پاک‌کن"
+    },
+    {
+     "word": "arms",
+     "fa": "دست‌ها ؛ بازوها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what is wiper",
+      "wipers is what"
+     ],
+     "echo": "Wipers? They clean the window.",
+     "better": "What are wipers?",
+     "betterFa": "برف‌پاک‌کن چیست؟"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "They clean the window when it rains. So in England, they're very busy! Now the horn.",
+   "translations": {
+    "fa": "وقتی بارون میاد شیشه را تمیز می‌کنن. پس تو انگلیس خیلی سرشون شلوغه! حالا بوق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beep"
+     ],
+     "suggestion": "Beep, beep, beep!",
+     "suggestionFa": "بوق، بوق، بوق!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "horn",
+      "can"
+     ],
+     "suggestion": "William, can you do the horn?",
+     "suggestionFa": "ویلیام، می‌تونی صدای بوق دربیاری؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Beep beep beep! I'm the loudest!",
+   "translations": {
+    "fa": "بوق بوق بوق! صدای من از همه بلندتره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "loudest",
+      "done",
+      "well"
+     ],
+     "suggestion": "You ARE the loudest. Well done!",
+     "suggestionFa": "واقعاً صدات از همه بلندتره. آفرین!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "library",
+      "william",
+      "loud",
+      "shh"
+     ],
+     "suggestion": "Shh, William. Not so loud — it's a library!",
+     "suggestionFa": "هیس ویلیام. نه این‌قدر بلند — اینجا کتابخونه‌ست!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "horn",
+     "fa": "بوق"
+    },
+    {
+     "word": "loudest",
+     "fa": "بلندترین"
+    },
+    {
+     "word": "well done",
+     "fa": "آفرین"
+    },
+    {
+     "word": "not so loud",
+     "fa": "نه این‌قدر بلند"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "It's fine — at Rhyme Time, everyone's loud. Even Mr Bennett sings. Badly!",
+   "translations": {
+    "fa": "اشکالی نداره — تو ساعت شعر همه بلندن. حتی آقای بنت آواز می‌خونه. افتضاح!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bennett",
+      "poor",
+      "mr",
+      "ha"
+     ],
+     "suggestion": "Ha! Poor Mr Bennett.",
+     "suggestionFa": "ها! بیچاره آقای بنت.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finished",
+      "now"
+     ],
+     "suggestion": "Is it finished now?",
+     "suggestionFa": "الان تموم شد؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "william",
+   "text": "Nana, can I have a book?",
+   "translations": {
+    "fa": "نانا، می‌تونم یه کتاب بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "would",
+      "like",
+      "book"
+     ],
+     "suggestion": "Which book would you like?",
+     "suggestionFa": "کدوم کتاب را می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n10",
+     "success": true
+    },
+    {
+     "keywords": [
+      "together",
+      "choose",
+      "let's",
+      "one"
+     ],
+     "suggestion": "Let's choose one together.",
+     "suggestionFa": "بیا با هم یکی انتخاب کنیم.",
+     "trustDelta": 5,
+     "next": "n10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ]
+  },
+  "n10": {
+   "id": "n10",
+   "speaker": "william",
+   "text": "The bus one! And the dinosaur one!",
+   "translations": {
+    "fa": "مال اتوبوس! و مال دایناسور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "books",
+      "two",
+      "ok"
+     ],
+     "suggestion": "Two books? OK!",
+     "suggestionFa": "دو تا کتاب؟ باشه!",
+     "trustDelta": 6,
+     "next": "n11",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "choices",
+      "good"
+     ],
+     "suggestion": "Good choices, William!",
+     "suggestionFa": "انتخاب‌های خوبیه ویلیام!",
+     "trustDelta": 5,
+     "next": "n11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    },
+    {
+     "word": "choices",
+     "fa": "انتخاب‌ها"
+    }
+   ]
+  },
+  "n11": {
+   "id": "n11",
+   "speaker": "weda",
+   "text": "Children can borrow books on their own card, you know. William's got one. He's very proud of it. Come on, let's go and stamp them.",
+   "translations": {
+    "fa": "می‌دونی، بچه‌ها با کارت خودشون می‌تونن کتاب بگیرن. ویلیام یکی داره. خیلی بهش افتخار می‌کنه. بیا، بریم ثبتشون کنیم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

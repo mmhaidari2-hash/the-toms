@@ -1,0 +1,225 @@
+{
+ "id": "l2_u15_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Topping up the Oyster card",
+ "titleFa": "(در نقش Tom) شارژ کردن کارت اویستر",
+ "setting": "Buses and Oyster · Level 2",
+ "settingFa": "اتوبوس و کارت اویستر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u15_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "worried",
+      "morning",
+      "what's",
+      "work",
+      "look"
+     ],
+     "suggestion": "Morning! Off to work? You look worried. What's up?",
+     "suggestionFa": "صبح بخیر! داری می‌ری سر کار؟ نگرانی به نظر میای. چی شده؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "My Oyster card doesn't work. It beeped and the light went red.",
+   "translations": {
+    "fa": "کارت اویسترم کار نمی‌کنه. بوق زد و چراغش قرمز شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "happens",
+      "station",
+      "means",
+      "light"
+     ],
+     "suggestion": "Red light means no money on it. Happens to everyone. You can top up at the shop, the station, or on the app.",
+     "suggestionFa": "چراغ قرمز یعنی پول روش نیست. واسه همه پیش میاد. می‌تونی تو مغازه، ایستگاه، یا با برنامه شارژش کنی.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Which is the quickest?",
+   "translations": {
+    "fa": "کدوم سریع‌تره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "london",
+      "corner",
+      "buses",
+      "i'll",
+      "shop"
+     ],
+     "suggestion": "Not on the bus, no. Buses are cash-free in London. The corner shop does it. Come on, I'll show you.",
+     "suggestionFa": "تو اتوبوس نه. اتوبوس‌های لندن پول نقد قبول نمی‌کنن. مغازهٔ سر کوچه شارژ می‌کنه. بیا، نشونت میدم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom. How much should I put on?",
+   "translations": {
+    "fa": "ممنون تام. چقدر بریزم روش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "seventy",
+      "pounds",
+      "never",
+      "about"
+     ],
+     "suggestion": "A bus fare is one seventy-five. There's a daily cap, so you never pay more than about five pounds a day on buses.",
+     "suggestionFa": "کرایهٔ اتوبوس یک پوند و هفتاد و پنج پنسه. یه سقف روزانه هست، پس روزانه هیچ‌وقت بیشتر از حدود پنج پوند برای اتوبوس نمیدی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What's a daily cap?",
+   "translations": {
+    "fa": "سقف روزانه چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty's",
+      "exactly",
+      "second",
+      "hopper",
+      "plenty"
+     ],
+     "suggestion": "Exactly — twenty's plenty. And \"Hopper fare\": change buses in an hour, and the second one's free.",
+     "suggestionFa": "دقیقاً — بیست تا کافیه. و «کرایهٔ هاپر»: تو یه ساعت اتوبوس عوض کنی، دومی مجانیه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "The second bus is free? Brilliant!",
+   "translations": {
+    "fa": "اتوبوس دوم مجانیه؟ عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "oyster",
+      "friend",
+      "wants",
+      "here"
+     ],
+     "suggestion": "Any bus. Here we are. Morning, Raj! My friend wants to top up his Oyster.",
+     "suggestionFa": "هر اتوبوسی. رسیدیم. صبح بخیر راج! دوستم می‌خواد اویسترش را شارژ کنه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Hello. Twenty pounds on this card, please.",
+   "translations": {
+    "fa": "سلام. بیست پوند روی این کارت، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "balance",
+      "reader",
+      "yellow",
+      "pounds",
+      "twenty"
+     ],
+     "suggestion": "Done. Now tap it on the yellow reader, and it says the balance. Twenty pounds! You're a rich man.",
+     "suggestionFa": "تموم. حالا بزنش روی دستگاه زرد، موجودی را نشون میده. بیست پوند! مرد پولداری شدی.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks for your help, Tom!",
+   "translations": {
+    "fa": "ممنون از کمکت تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "register",
+      "minutes",
+      "driving",
+      "online",
+      "leaves"
+     ],
+     "suggestion": "Register it online. Then if you lose it, you keep your money. Right — my bus leaves in four minutes. And I'm driving it!",
+     "suggestionFa": "آنلاین ثبتش کن. بعد اگه گمش کنی، پولت می‌مونه. خب — اتوبوسم چهار دقیقهٔ دیگه حرکت می‌کنه. و راننده‌ش منم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

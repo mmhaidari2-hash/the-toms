@@ -111,8 +111,8 @@
     {
      "keywords": [
       "seven",
-      "see",
-      "can"
+      "can",
+      "see"
      ],
      "suggestion": "I can see seven ducks.",
      "suggestionFa": "هفت تا اردک می‌بینم.",
@@ -174,8 +174,8 @@
     {
      "keywords": [
       "here",
-      "i'll",
       "stay",
+      "i'll",
       "ok"
      ],
      "suggestion": "OK, I'll stay here.",
@@ -274,9 +274,9 @@
     {
      "keywords": [
       "many",
-      "she",
       "how",
-      "has"
+      "she",
+      "got"
      ],
      "suggestion": "How many babies has she got?",
      "suggestionFa": "چند تا بچه داره؟",
@@ -318,8 +318,8 @@
      "keywords": [
       "ducklings",
       "that's",
-      "nice",
-      "word"
+      "word",
+      "nice"
      ],
      "suggestion": "Ducklings. That's a nice word.",
      "suggestionFa": "جوجه اردک. کلمهٔ قشنگیه.",
@@ -329,9 +329,9 @@
     },
     {
      "keywords": [
+      "baby",
       "call",
-      "swan",
-      "baby"
+      "swan"
      ],
      "suggestion": "What do you call a baby swan?",
      "suggestionFa": "به بچه قو چی می‌گن؟",
@@ -375,7 +375,7 @@
       "swings",
       "shall",
       "now",
-      "we"
+      "go"
      ],
      "suggestion": "Shall we go to the swings now?",
      "suggestionFa": "حالا بریم تاب‌ها؟",

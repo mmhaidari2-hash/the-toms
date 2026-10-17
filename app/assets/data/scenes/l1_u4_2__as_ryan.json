@@ -24,8 +24,8 @@
       "seventeen",
       "sixteen",
       "march",
-      "old",
-      "how"
+      "how",
+      "old"
      ],
      "suggestion": "So how old are you? I'm sixteen. Seventeen in March!",
      "suggestionFa": "خب چند سالته؟ من شونزده سالمه. مارس هفده می‌شم!",
@@ -48,8 +48,8 @@
      "keywords": [
       "william",
       "forever",
-      "nicola",
       "thirty",
+      "nicola",
       "she's"
      ],
      "suggestion": "Nicola is six, William is one. Mum says she's \"thirty-nine forever\"!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "mobile",
-      "forty",
-      "don't",
       "dad's",
-      "tell"
+      "don't",
+      "forty",
+      "told"
      ],
      "suggestion": "Dad's forty-two. Don't tell him I told you! Have you got a mobile?",
      "suggestionFa": "بابا چهل‌ودوئه. بهش نگی من گفتم! موبایل داری؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "what's",
-      "family",
       "number",
+      "family",
+      "what's",
       "group",
-      "chat"
+      "i'll"
      ],
      "suggestion": "What's your number? I'll add you to the family group chat.",
      "suggestionFa": "شماره‌ات چنده؟ اضافه‌ات می‌کنم به گروه خانوادگی.",

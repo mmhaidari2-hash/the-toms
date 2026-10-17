@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "message",
-      "plumber"
+      "plumber",
+      "message"
      ],
      "suggestion": "Hello, this is a message for the plumber.",
      "suggestionFa": "سلام، این یه پیغام برای لوله‌کشه.",
@@ -177,8 +177,8 @@
      "keywords": [
       "please",
       "again",
-      "say",
-      "can"
+      "can",
+      "say"
      ],
      "suggestion": "Can you say it again, please?",
      "suggestionFa": "می‌شه دوباره بگی، لطفاً؟",

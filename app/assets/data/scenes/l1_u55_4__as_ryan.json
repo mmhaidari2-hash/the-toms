@@ -1,0 +1,223 @@
+{
+ "id": "l1_u55_4__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) My first week in Britain",
+ "titleFa": "(در نقش Ryan) اولین هفته‌ام در بریتانیا",
+ "setting": "Talking about me · Level 1",
+ "settingFa": "دربارهٔ خودم",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u55_4",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "alright",
+      "england",
+      "first",
+      "came",
+      "like"
+     ],
+     "suggestion": "Alright? Mum says you came to England this year. What was your first week like?",
+     "suggestionFa": "چطوری؟ مامان میگه امسال اومدی انگلیس. هفتهٔ اولت چطور بود؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "It was strange! Everything was new.",
+   "translations": {
+    "fa": "عجیب بود! همه چی جدید بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strange",
+      "like",
+      "food",
+      "how"
+     ],
+     "suggestion": "Strange how? Like, the food?",
+     "suggestionFa": "عجیب یعنی چی؟ مثلاً غذا؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "The food, the weather, and driving on the left!",
+   "translations": {
+    "fa": "غذا، هوا، و رانندگی از سمت چپ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "westfield",
+      "hours",
+      "lost",
+      "once",
+      "yeah"
+     ],
+     "suggestion": "Ha, yeah. Did you get lost? I got lost in Westfield once. For two hours.",
+     "suggestionFa": "ها، آره. گم شدی؟ من یه بار تو وست‌فیلد گم شدم. دو ساعت.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes! I took the wrong bus on my first day.",
+   "translations": {
+    "fa": "آره! روز اول اتوبوس اشتباه سوار شدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "always",
+      "wrong",
+      "he'll",
+      "tell",
+      "bus"
+     ],
+     "suggestion": "The wrong bus! Did you tell Dad? He'll say it was the 38. It's always the 38.",
+     "suggestionFa": "اتوبوس اشتباه! به بابا گفتی؟ میگه ۳۸ بوده. همیشه ۳۸ه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No! I didn't tell anyone.",
+   "translations": {
+    "fa": "نه! به هیچ‌کس نگفتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "smart",
+      "beans",
+      "first",
+      "toast"
+     ],
+     "suggestion": "Smart. What did you eat that first week? Please say not just beans on toast.",
+     "suggestionFa": "زرنگ. اون هفتهٔ اول چی خوردی؟ تو رو خدا نگو فقط لوبیا با نون تست.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "I ate fish and chips. It was great!",
+   "translations": {
+    "fa": "ماهی و سیب‌زمینی خوردم. عالی بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weirdest",
+      "respect",
+      "thing",
+      "was"
+     ],
+     "suggestion": "Respect. What was the weirdest thing?",
+     "suggestionFa": "دمت گرم. عجیب‌ترین چیز چی بود؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "People say \"sorry\" all the time!",
+   "translations": {
+    "fa": "مردم مدام میگن «ببخشید»!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anyone",
+      "about",
+      "sorry",
+      "nice",
+      "did"
+     ],
+     "suggestion": "Sorry about that. Ha! See, I did it. Was anyone nice to you?",
+     "suggestionFa": "ببخشید بابتش. ها! دیدی، منم گفتم. کسی باهات مهربون بود؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Your mum and dad. They invited me for tea.",
+   "translations": {
+    "fa": "مامان و بابات. منو برای عصرونه دعوت کردن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "welcome",
+      "hackney",
+      "anyway",
+      "draws"
+     ],
+     "suggestion": "A cat? That was you, mate. She draws everyone as a cat. Anyway — welcome to Hackney!",
+     "suggestionFa": "گربه؟ اون تو بودی رفیق. همه را گربه می‌کشه. به هر حال — به هاکنی خوش اومدی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

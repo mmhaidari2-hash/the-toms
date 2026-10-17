@@ -23,8 +23,8 @@
      "keywords": [
       "happened",
       "school",
-      "today",
-      "guess"
+      "guess",
+      "today"
      ],
      "suggestion": "Guess what happened at school today! Guess!",
      "suggestionFa": "حدس بزن امروز تو مدرسه چی شد! حدس بزن!",
@@ -45,11 +45,11 @@
    "branches": [
     {
      "keywords": [
-      "brought",
       "hamster",
-      "called",
+      "brought",
       "peanut",
-      "first"
+      "called",
+      "ellis"
      ],
      "suggestion": "No! First, Mrs Ellis brought a hamster to class. It's called Peanut!",
      "suggestionFa": "نه! اول، خانم الیس یه همستر آورد کلاس. اسمش پینات‌ـه!",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "screamed",
       "everyone",
+      "screamed",
       "escaped",
       "tables",
       "under"
@@ -95,11 +95,11 @@
    "branches": [
     {
      "keywords": [
-      "grapes",
       "eating",
+      "grapes",
       "after",
-      "lunch",
-      "found"
+      "found",
+      "lunch"
      ],
      "suggestion": "After that, Mia found it in her lunch box! It was eating her grapes!",
      "suggestionFa": "بعد از اون، میا تو ظرف ناهارش پیداش کرد! داشت انگورهاش را می‌خورد!",
@@ -124,7 +124,7 @@
       "laughed",
       "peanut",
       "crown",
-      "drew"
+      "then"
      ],
      "suggestion": "She laughed and laughed. Then we drew pictures of Peanut. I drew him with a crown.",
      "suggestionFa": "خندید و خندید. بعد عکس پینات را کشیدیم. من با تاج کشیدمش.",
@@ -148,8 +148,8 @@
       "because",
       "ellis",
       "class",
-      "best",
-      "said"
+      "king",
+      "here"
      ],
      "suggestion": "Because he's the king of the class! Here it is. Mrs Ellis said it was the best one.",
      "suggestionFa": "چون پادشاه کلاسه! ایناهاش. خانم الیس گفت بهترینه.",

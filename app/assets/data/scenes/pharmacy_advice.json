@@ -204,9 +204,9 @@
    "branches": [
     {
      "keywords": [
-      "them",
-      "take",
       "food",
+      "take",
+      "them",
       "can"
      ],
      "suggestion": "Can I take them with food?",
@@ -258,7 +258,7 @@
       "anything",
       "that's",
       "there",
-      "fine"
+      "eyes"
      ],
      "suggestion": "That's fine. Is there anything for my eyes too?",
      "suggestionFa": "باشه. برای چشمام هم چیزی هست؟",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "should",
+      "take",
       "them",
-      "okay",
       "long"
      ],
      "suggestion": "Okay. How long should I take them for?",
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "thank",
-      "they",
       "much",
+      "they",
       "how"
      ],
      "suggestion": "Thank you. How much are they?",
@@ -370,8 +370,8 @@
     {
      "keywords": [
       "prescription",
-      "will",
-      "need"
+      "need",
+      "will"
      ],
      "suggestion": "Will do. Do I need a prescription?",
      "suggestionFa": "حتماً. نسخه لازمه؟",

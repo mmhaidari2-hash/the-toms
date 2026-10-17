@@ -1,0 +1,344 @@
+{
+ "id": "l2_u20_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Outpatients reception",
+ "titleFa": "(در نقش Tom) پذیرش درمانگاه سرپایی",
+ "setting": "Hospital visits · Level 2",
+ "settingFa": "بیمارستان",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u20_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hospitals",
+      "homerton",
+      "parking",
+      "check",
+      "lunch"
+     ],
+     "suggestion": "Here we are, Homerton. I hate hospitals — the parking costs more than my lunch. Dad, sit down. Can you check us in?",
+     "suggestionFa": "رسیدیم، هومرتون. از بیمارستان متنفرم — پارکینگش از ناهارم گرون‌تره. بابا، بشین. می‌تونی پذیرشمون را انجام بدی؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Where is the reception?",
+   "translations": {
+    "fa": "حتماً. پذیرش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "george",
+   "text": "The machine? Oh, I don't trust machines. In my day you gave your name to a nurse.",
+   "translations": {
+    "fa": "دستگاه؟ اوه، من به دستگاه‌ها اعتماد ندارم. زمان ما اسمت را به پرستار می‌دادی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "machine",
+     "fa": "دستگاه"
+    },
+    {
+     "word": "trust",
+     "fa": "اعتماد کردن"
+    },
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Don't worry, George. I'll do it for you.",
+   "translations": {
+    "fa": "نگران نباش جورج. من برات انجامش میدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nineteen",
+      "thompson",
+      "surname",
+      "third",
+      "wants"
+     ],
+     "suggestion": "It wants his surname and date of birth. Thompson, third of March, nineteen fifty.",
+     "suggestionFa": "فامیل و تاریخ تولدش را می‌خواد. تامسون، سوم مارس، هزار و نهصد و پنجاه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It says \"Please take a seat in Area C\".",
+   "translations": {
+    "fa": "نوشته «لطفاً در بخش C بنشینید»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hospitals",
+      "coloured",
+      "follow",
+      "green",
+      "lines"
+     ],
+     "suggestion": "Area C — follow the green line on the floor. Hospitals love coloured lines. Dad, follow the green line!",
+     "suggestionFa": "بخش C — خط سبز روی زمین را دنبال کن. بیمارستان‌ها عاشق خطوط رنگی‌ان. بابا، خط سبز را دنبال کن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Come on, George. Follow the green line!",
+   "translations": {
+    "fa": "بیا جورج. خط سبز را دنبال کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "george",
+   "text": "I'm not a train, son.",
+   "translations": {
+    "fa": "من قطار نیستم، پسرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "floor",
+     "fa": "کف ؛ زمین"
+    },
+    {
+     "word": "coloured lines",
+     "fa": "خطوط رنگی"
+    },
+    {
+     "word": "son",
+     "fa": "پسرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK hospitals use coloured lines on the floor to guide you to departments.",
+    "fa": "خطوط رنگی کف بیمارستان مسیر بخش‌ها را نشان می‌دهد."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! George, take my arm.",
+   "translations": {
+    "fa": "ها! جورج، بازوم را بگیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "running",
+      "minutes",
+      "course",
+      "screen",
+      "names"
+     ],
+     "suggestion": "Now we wait. The screen calls names. It says \"Running forty minutes late\". Of course it does.",
+     "suggestionFa": "حالا منتظر می‌مونیم. صفحه اسم‌ها را صدا می‌زنه. نوشته «چهل دقیقه تأخیر». معلومه که داره.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Forty minutes! Shall I get some coffee?",
+   "translations": {
+    "fa": "چهل دقیقه! قهوه بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "george",
+   "text": "Get me a tea, lad. And a biscuit. Dr Okafor said no bacon. He didn't say no biscuits.",
+   "translations": {
+    "fa": "برام یه چای بگیر پسر. و یه بیسکویت. دکتر اوکافور گفت بیکن نه. نگفت بیسکویت نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lad",
+     "fa": "پسر (عامیانه)"
+    },
+    {
+     "word": "biscuit",
+     "fa": "بیسکویت"
+    },
+    {
+     "word": "blood test",
+     "fa": "آزمایش خون"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "A tea and a biscuit. Tom, what would you like?",
+   "translations": {
+    "fa": "یه چای و یه بیسکویت. تام، تو چی می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "before",
+      "sugars",
+      "right",
+      "blood"
+     ],
+     "suggestion": "He's right, Dad — nothing before the blood test. Ha! Your face! OK, a tea for me. Milk, two sugars.",
+     "suggestionFa": "راست میگه بابا — قبل از آزمایش خون هیچی. ها! قیافه‌ات! باشه، یه چای برای من. شیر، دو تا قند.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "One tea, milk and two sugars. Back soon!",
+   "translations": {
+    "fa": "یه چای، با شیر و دو تا قند. زود برمی‌گردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "george",
+   "text": "Fine. But after the test, I'm having two biscuits. And you two are paying.",
+   "translations": {
+    "fa": "باشه. ولی بعد از آزمایش دو تا بیسکویت می‌خورم. و شما دو تا حساب می‌کنید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

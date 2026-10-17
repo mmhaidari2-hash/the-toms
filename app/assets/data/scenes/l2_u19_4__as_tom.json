@@ -1,0 +1,200 @@
+{
+ "id": "l2_u19_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Signal failure",
+ "titleFa": "(در نقش Tom) خرابی سیگنال",
+ "setting": "The Tube · Level 2",
+ "settingFa": "متروی لندن",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u19_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "announcement",
+      "brilliant",
+      "victoria",
+      "failure",
+      "severe"
+     ],
+     "suggestion": "Oh, here we go. Listen to the announcement. \"Severe delays on the Victoria line due to a signal failure.\" Brilliant.",
+     "suggestionFa": "اوه، شروع شد. به اعلان گوش کن. «تأخیر شدید در خط ویکتوریا به دلیل خرابی سیگنال.» عالی شد.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What's a signal failure?",
+   "translations": {
+    "fa": "خرابی سیگنال چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "working",
+      "traffic",
+      "stopped",
+      "minutes",
+      "nobody"
+     ],
+     "suggestion": "The traffic lights for trains stopped working. Could be ten minutes, could be an hour. Nobody knows.",
+     "suggestionFa": "چراغ‌راهنمای قطارها از کار افتاده. ممکنه ده دقیقه باشه، ممکنه یه ساعت. کسی نمی‌دونه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I have an interview at ten!",
+   "translations": {
+    "fa": "من ساعت ده مصاحبه دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "suspended",
+      "highbury",
+      "victoria",
+      "between",
+      "trains"
+     ],
+     "suggestion": "Let's check the board. \"Part suspended between Highbury and Victoria.\" So no trains there at all.",
+     "suggestionFa": "بیا تابلو را چک کنیم. «بین هایبری و ویکتوریا بخشی تعطیل است.» یعنی اونجا اصلاً قطاری نیست.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Suspended? What does that mean?",
+   "translations": {
+    "fa": "«ساسپندد»؟ یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "suspended",
+      "instead",
+      "stopped",
+      "ticket",
+      "today"
+     ],
+     "suggestion": "Suspended means stopped. We could take the 73 bus instead. Your ticket on the Tube is still valid on buses today.",
+     "suggestionFa": "«ساسپندد» یعنی متوقف. می‌تونیم به جاش اتوبوس ۷۳ بگیریم. بلیت متروت امروز تو اتوبوس هم معتبره.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Great. Where's the bus stop?",
+   "translations": {
+    "fa": "عالیه. ایستگاه اتوبوس کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "understands",
+      "everyone",
+      "london",
+      "polite",
+      "delays"
+     ],
+     "suggestion": "Yes — send an email now. Short and polite. Everyone in London understands Tube delays.",
+     "suggestionFa": "آره — الان یه ایمیل بفرست. کوتاه و مؤدبانه. همه تو لندن تأخیر مترو را درک می‌کنن.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "\"Sorry, there's a signal failure. I might be ten minutes late.\"",
+   "translations": {
+    "fa": "«ببخشید، سیگنال خراب شده. ممکنه ده دقیقه دیر کنم.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "delayed",
+      "fifteen",
+      "minutes",
+      "refund"
+     ],
+     "suggestion": "Perfect. And if you're delayed over fifteen minutes, you can claim a refund.",
+     "suggestionFa": "عالیه. و اگه بیشتر از پونزده دقیقه تأخیر داشتی، می‌تونی بازپرداخت بگیری.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Really? How do I do that?",
+   "translations": {
+    "fa": "واقعاً؟ چطوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "online",
+      "driver",
+      "coming",
+      "won't",
+      "jokes"
+     ],
+     "suggestion": "Online, later. Now — run! The 73 is coming. Don't worry, it's not my bus, so the driver won't tell jokes. Go, go, go!",
+     "suggestionFa": "آنلاین، بعداً. حالا — بدو! ۷۳ داره میاد. نگران نباش، اتوبوس من نیست، پس راننده جوک نمیگه. برو، برو، برو!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "choose",
       "should",
-      "cakes",
+      "choose",
       "mummy",
+      "cakes",
       "which"
      ],
      "suggestion": "Look at all the cakes! Mummy said I can choose one. Which one should I have?",
@@ -48,8 +48,8 @@
      "keywords": [
       "chocolate",
       "pink",
-      "both",
       "like",
+      "both",
       "one"
      ],
      "suggestion": "The chocolate one or the pink one? I like both!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -157,7 +157,7 @@
       "chocolate",
       "halves",
       "share",
-      "have"
+      "swap"
      ],
      "suggestion": "Share? Yes! You have the chocolate, I have the Battenberg. Then we swap halves!",
      "suggestionFa": "شریک؟ آره! تو شکلاتی را بگیر، من بتنبرگ. بعد نصف‌ها را عوض می‌کنیم!",
@@ -283,7 +283,7 @@
       "here's",
       "yellow",
       "sorry",
-      "pink"
+      "half"
      ],
      "suggestion": "Here's half! Oh, I ate the pink squares. You can have the yellow ones! Sorry! Ha ha!",
      "suggestionFa": "بیا نصفش! آه، مربع‌های صورتی را خوردم. تو زردها را بخور! ببخشید! ها ها!",

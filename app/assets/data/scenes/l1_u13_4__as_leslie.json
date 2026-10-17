@@ -25,7 +25,7 @@
       "hackney",
       "right",
       "farm",
-      "city"
+      "here"
      ],
      "suggestion": "Welcome to the city farm! It's right here in Hackney. What can you see?",
      "suggestionFa": "به مزرعهٔ شهری خوش اومدی! همین‌جا تو هاکنیه. چی می‌بینی؟",
@@ -49,8 +49,8 @@
       "that's",
       "she's",
       "doris",
-      "say",
-      "pig"
+      "pig",
+      "old"
      ],
      "suggestion": "Yes! That's Doris the pig. She's very old. What does a pig say?",
      "suggestionFa": "آره! اون دوریس خوکه. خیلی پیره. خوک چی می‌گه؟",
@@ -74,8 +74,8 @@
       "sheep",
       "says",
       "oink",
-      "say",
-      "cow"
+      "cow",
+      "moo"
      ],
      "suggestion": "Oink! And a cow says \"moo\". What does a sheep say?",
      "suggestionFa": "خرخر! و گاو می‌گه «ما». گوسفند چی می‌گه؟",
@@ -100,7 +100,7 @@
       "william",
       "can't",
       "loves",
-      "done"
+      "well"
      ],
      "suggestion": "Well done! Look, William loves the chickens. Chickens can't fly very well.",
      "suggestionFa": "آفرین! ببین، ویلیام عاشق مرغ‌هاست. مرغ‌ها خوب نمی‌تونن پرواز کنن.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "everything",
-      "watch",
       "don't",
+      "watch",
       "they",
       "coat"
      ],
@@ -174,8 +174,8 @@
       "horses",
       "horse",
       "there",
-      "look",
-      "over"
+      "over",
+      "like"
      ],
      "suggestion": "Look over there! A horse. Do you like horses?",
      "suggestionFa": "اونجا را ببین! یه اسب. اسب دوست داری؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "always",
       "hands",
-      "farm",
       "wash",
+      "farm",
       "must"
      ],
      "suggestion": "Now we must wash our hands. Always wash your hands at a farm!",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "goodbye",
+      "william",
+      "wants",
       "first",
-      "cream",
-      "wants"
+      "cream"
      ],
      "suggestion": "Yes, an ice cream at the café! William wants to say goodbye to Doris the pig first. Bye, Doris!",
      "suggestionFa": "آره، یه بستنی تو کافه! ویلیام اول می‌خواد با دوریس خوکه خداحافظی کنه. خداحافظ دوریس!",

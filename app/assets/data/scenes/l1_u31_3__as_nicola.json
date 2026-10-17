@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "today",
       "pizza",
+      "today",
       "love",
       "day",
       "was"
@@ -49,8 +49,8 @@
       "fridays",
       "fingers",
       "mondays",
-      "school",
-      "dinner"
+      "dinner",
+      "school"
      ],
      "suggestion": "On Fridays we have pizza for dinner. At school! Mondays are fish fingers.",
      "suggestionFa": "جمعه‌ها ناهار پیتزا داریم. تو مدرسه! دوشنبه‌ها فیش فینگره.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "favourite",
-      "school",
       "dinner",
       "ladies",
+      "school",
       "give"
      ],
      "suggestion": "Yes, school dinner! The dinner ladies give it to us. Mrs Pat is my favourite.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "plate",
       "don't",
-      "they",
+      "plate",
       "roll",
-      "like"
+      "like",
+      "peas"
      ],
      "suggestion": "I don't like peas. They roll off my plate! Do you like peas?",
      "suggestionFa": "من نخود فرنگی دوست ندارم. از بشقابم قل می‌خورن! تو دوست داری؟",
@@ -149,8 +149,8 @@
       "neither",
       "strong",
       "mummy",
-      "says",
-      "true"
+      "make",
+      "says"
      ],
      "suggestion": "Me neither! But Mummy says peas make you strong. Is that true?",
      "suggestionFa": "منم نه! ولی مامان میگه نخود فرنگی آدم را قوی می‌کنه. راسته؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "custard",
-      "three",
       "being",
-      "extra",
-      "brave"
+      "three",
+      "brave",
+      "extra"
      ],
      "suggestion": "Three peas… OK. And I'll have extra custard for being brave! Deal?",
      "suggestionFa": "سه تا نخود فرنگی… باشه. و برای شجاعتم کاستارد اضافه می‌خورم! قبول؟",
@@ -199,8 +199,8 @@
       "friday",
       "though",
       "can't",
-      "grown",
-      "pizza"
+      "pizza",
+      "sorry"
      ],
      "suggestion": "Ha ha! Next Friday you can come for pizza day. Grown-ups can't though. Sorry!",
      "suggestionFa": "ها ها! جمعهٔ بعد بیا روز پیتزا. البته بزرگ‌ترها نمی‌تونن. ببخشید!",

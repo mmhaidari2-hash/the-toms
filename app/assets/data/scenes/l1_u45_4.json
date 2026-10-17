@@ -20,8 +20,8 @@
     {
      "keywords": [
       "many",
-      "can",
       "wow",
+      "can",
       "how"
      ],
      "suggestion": "Wow! How many can you do?",
@@ -82,8 +82,8 @@
     {
      "keywords": [
       "can't",
-      "skip",
-      "rope"
+      "rope",
+      "skip"
      ],
      "suggestion": "I can't skip with a rope.",
      "suggestionFa": "من نمی‌تونم طناب بزنم.",
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
-      "day",
       "can",
-      "one"
+      "one",
+      "day"
      ],
      "suggestion": "Can you do twenty one day?",
      "suggestionFa": "یه روز می‌تونی بیست تا بزنی؟",

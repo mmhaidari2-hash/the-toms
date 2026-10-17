@@ -1,0 +1,278 @@
+{
+ "id": "l2_u13_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Filling in the registration form",
+ "titleFa": "(در نقش Leslie) پر کردن فرم ثبت‌نام",
+ "setting": "Registering with a GP · Level 2",
+ "settingFa": "ثبت‌نام نزد پزشک عمومی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u13_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "register",
+      "surgery",
+      "hackney",
+      "should"
+     ],
+     "suggestion": "Right, this is our surgery. Everyone in Hackney should register with a GP. It's free. Shall we go in?",
+     "suggestionFa": "خب، این مطب ماست. هر کسی تو هاکنی باید پیش یه پزشک عمومی ثبت‌نام کنه. مجانیه. بریم تو؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, let's go. What do I need to do?",
+   "translations": {
+    "fa": "آره، بریم. باید چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "receptionist",
+   "text": "Hello, Mare Street Surgery. Are you registering? You can do it online, or I can give you a paper form.",
+   "translations": {
+    "fa": "سلام، مطب مِر استریت. برای ثبت‌نام اومدید؟ می‌تونید آنلاین انجامش بدید، یا یه فرم کاغذی بهتون بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    },
+    {
+     "word": "paper form",
+     "fa": "فرم کاغذی"
+    },
+    {
+     "word": "registering",
+     "fa": "در حال ثبت‌نام"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "A paper form, please.",
+   "translations": {
+    "fa": "فرم کاغذی، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surname",
+      "that's",
+      "birth",
+      "let's",
+      "first"
+     ],
+     "suggestion": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
+     "suggestionFa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Day first, then month?",
+   "translations": {
+    "fa": "اول روز، بعد ماه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "americans",
+      "address",
+      "drives",
+      "month",
+      "other"
+     ],
+     "suggestion": "Yes — day, then month, then year. Americans do it the other way. It drives me mad! Next, your address.",
+     "suggestionFa": "آره — روز، بعد ماه، بعد سال. آمریکایی‌ها برعکس می‌نویسن. دیوونه‌م می‌کنه! بعدی، آدرست.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "10 Mare Street, Hackney. What's the postcode?",
+   "translations": {
+    "fa": "پلاک ۱۰ مِر استریت، هاکنی. کد پستی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "previous",
+      "before",
+      "doctor",
+      "boxes",
+      "seen"
+     ],
+     "suggestion": "Yes, in the boxes. Now — \"previous GP\". Have you seen a doctor in the UK before?",
+     "suggestionFa": "آره، تو این خونه‌ها. حالا — «پزشک قبلی». قبلاً تو بریتانیا دکتر رفتی؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "No, never. This is my first time.",
+   "translations": {
+    "fa": "نه، هیچ‌وقت. این اولین بارمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "don't",
+      "write",
+      "blank",
+      "leave"
+     ],
+     "suggestion": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
+     "suggestionFa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "What's an NHS number?",
+   "translations": {
+    "fa": "شمارهٔ NHS چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "questions",
+      "drinking",
+      "register",
+      "smoking",
+      "number"
+     ],
+     "suggestion": "It's your health number. You'll get one after you register. Now, the questions about smoking and drinking…",
+     "suggestionFa": "شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I don't smoke, and I don't drink.",
+   "translations": {
+    "fa": "سیگار نمی‌کشم، الکل هم نمی‌خورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "receptionist",
+      "bottom",
+      "these",
+      "boxes",
+      "let's"
+     ],
+     "suggestion": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
+     "suggestionFa": "خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Here you are. Is that everything?",
+   "translations": {
+    "fa": "بفرمایید. همه چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "receptionist",
+   "text": "Thank you. Nearly everything! I just need proof of your address. A letter or a bill is fine.",
+   "translations": {
+    "fa": "ممنون. تقریباً همه چی! فقط یه مدرک آدرس لازم دارم. یه نامه یا قبض کافیه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

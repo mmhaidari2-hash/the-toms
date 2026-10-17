@@ -1,0 +1,452 @@
+{
+ "id": "l2_u14_3__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Maggie) Rhyme time for William",
+ "titleFa": "(در نقش Nana Maggie) ساعت شعر برای ویلیام",
+ "setting": "Library life · Level 2",
+ "settingFa": "الکتابخانه و زندگی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u14_3",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Maggie!",
+   "translations": {
+    "fa": "سلام Nana Maggie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tuesday",
+      "william",
+      "library",
+      "little",
+      "don't"
+     ],
+     "suggestion": "It's Rhyme Time! Every Tuesday the library has songs for little ones. William loves it. Don't you, William?",
+     "suggestionFa": "ساعت شعره! هر سه‌شنبه کتابخانه برای کوچولوها آهنگ داره. ویلیام عاشقشه. مگه نه ویلیام؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Hello, William! Do you like singing?",
+   "translations": {
+    "fa": "سلام ویلیام! آواز خوندن دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "william",
+   "text": "I love singing! Bus song!",
+   "translations": {
+    "fa": "من آواز دوست دارم! آهنگ اتوبوس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Rhyme Time",
+     "fa": "ساعت شعر کودکان"
+    },
+    {
+     "word": "little ones",
+     "fa": "کوچولوها"
+    },
+    {
+     "word": "singing",
+     "fa": "آواز خواندن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most UK libraries run free \"Rhyme Time\" sessions for babies and toddlers, with songs and nursery rhymes.",
+    "fa": "بیشتر کتابخانه‌ها جلسه‌های رایگان شعر و آواز برای کودکان دارند."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "The bus song? Which one is that?",
+   "translations": {
+    "fa": "آهنگ اتوبوس؟ کدوم یکی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "grandad",
+      "thirty",
+      "wheels",
+      "course",
+      "drove"
+     ],
+     "suggestion": "\"The Wheels on the Bus\". Of course! His grandad drove the 38 for thirty-one years. It's in the blood!",
+     "suggestionFa": "«چرخ‌های اتوبوس». معلومه! پدربزرگش سی و یک سال ۳۸ را رونده. تو خونشه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "And his dad drives the 38 now!",
+   "translations": {
+    "fa": "و باباش الان ۳۸ را می‌رونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "william",
+   "text": "Round and round! Do it with me!",
+   "translations": {
+    "fa": "دور و دور! با من انجامش بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "round and round",
+     "fa": "دور و دور"
+    },
+    {
+     "word": "with me",
+     "fa": "با من"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Like this? Round and round!",
+   "translations": {
+    "fa": "این‌جوری؟ دور و دور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "wipers",
+      "swish",
+      "verse",
+      "next"
+     ],
+     "suggestion": "Lovely. Next verse: \"The wipers on the bus go swish, swish, swish\". Arms like this.",
+     "suggestionFa": "قشنگه. بند بعد: «برف‌پاک‌کن‌های اتوبوس می‌کنن ویش، ویش، ویش». دست‌ها این‌جوری.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Swish, swish, swish!",
+   "translations": {
+    "fa": "ویش، ویش، ویش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "england",
+      "they're",
+      "window",
+      "rains",
+      "clean"
+     ],
+     "suggestion": "They clean the window when it rains. So in England, they're very busy! Now the horn.",
+     "suggestionFa": "وقتی بارون میاد شیشه را تمیز می‌کنن. پس تو انگلیس خیلی سرشون شلوغه! حالا بوق.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Beep, beep, beep!",
+   "translations": {
+    "fa": "بوق، بوق، بوق!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "william",
+   "text": "Beep beep beep! I'm the loudest!",
+   "translations": {
+    "fa": "بوق بوق بوق! صدای من از همه بلندتره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "horn",
+     "fa": "بوق"
+    },
+    {
+     "word": "loudest",
+     "fa": "بلندترین"
+    },
+    {
+     "word": "well done",
+     "fa": "آفرین"
+    },
+    {
+     "word": "not so loud",
+     "fa": "نه این‌قدر بلند"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "You ARE the loudest. Well done!",
+   "translations": {
+    "fa": "واقعاً صدات از همه بلندتره. آفرین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone's",
+      "bennett",
+      "badly",
+      "sings",
+      "rhyme"
+     ],
+     "suggestion": "It's fine — at Rhyme Time, everyone's loud. Even Mr Bennett sings. Badly!",
+     "suggestionFa": "اشکالی نداره — تو ساعت شعر همه بلندن. حتی آقای بنت آواز می‌خونه. افتضاح!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Ha! Poor Mr Bennett.",
+   "translations": {
+    "fa": "ها! بیچاره آقای بنت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "william",
+   "text": "Nana, can I have a book?",
+   "translations": {
+    "fa": "نانا، می‌تونم یه کتاب بگیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    }
+   ]
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Which book would you like?",
+   "translations": {
+    "fa": "کدوم کتاب را می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "william",
+   "text": "The bus one! And the dinosaur one!",
+   "translations": {
+    "fa": "مال اتوبوس! و مال دایناسور!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r16",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    },
+    {
+     "word": "choices",
+     "fa": "انتخاب‌ها"
+    }
+   ]
+  },
+  "r16": {
+   "id": "r16",
+   "speaker": "mehdi",
+   "text": "Two books? OK!",
+   "translations": {
+    "fa": "دو تا کتاب؟ باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "children",
+      "borrow",
+      "proud",
+      "books"
+     ],
+     "suggestion": "Children can borrow books on their own card, you know. William's got one. He's very proud of it. Come on, let's go and stamp them.",
+     "suggestionFa": "می‌دونی، بچه‌ها با کارت خودشون می‌تونن کتاب بگیرن. ویلیام یکی داره. خیلی بهش افتخار می‌کنه. بیا، بریم ثبتشون کنیم.",
+     "trustDelta": 5,
+     "next": "r17",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r17": {
+   "id": "r17",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

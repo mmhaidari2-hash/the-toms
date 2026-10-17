@@ -21,8 +21,8 @@
      "keywords": [
       "account",
       "number",
-      "have",
-      "sure"
+      "sure",
+      "have"
      ],
      "suggestion": "Sure. Have you got the account number?",
      "suggestionFa": "حتماً. شمارهٔ حساب را داری؟",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "estimate",
-      "check",
       "first",
+      "check",
       "bill"
      ],
      "suggestion": "Let me check the bill first. Is it an estimate?",
@@ -121,7 +121,7 @@
      "keywords": [
       "course",
       "josh",
-      "tom",
+      "say",
       "can"
      ],
      "suggestion": "Of course. Tom, can you say yes to Josh?",
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "right",
-      "here",
-      "pass",
+      "he's",
+      "i'll",
       "over"
      ],
      "suggestion": "He's right here. I'll pass you over.",
@@ -175,8 +175,8 @@
      "keywords": [
       "doesn't",
       "higher",
-      "times",
-      "usual"
+      "three",
+      "times"
      ],
      "suggestion": "It's three times higher than usual. That doesn't seem right.",
      "suggestionFa": "سه برابر معمولیه. به نظر درست نمیاد.",
@@ -189,7 +189,7 @@
       "doubled",
       "amount",
       "we've",
-      "last"
+      "same"
      ],
      "suggestion": "We've used the same amount as last year, but it's doubled.",
      "suggestionFa": "همون مقدار پارسال مصرف کردیم، ولی دو برابر شده.",
@@ -298,8 +298,8 @@
      "keywords": [
       "instead",
       "meter",
-      "photo",
-      "shall"
+      "shall",
+      "photo"
      ],
      "suggestion": "Shall I send a photo of the meter instead?",
      "suggestionFa": "به جاش یه عکس از کنتور بفرستم؟",
@@ -334,8 +334,8 @@
     {
      "keywords": [
       "difference",
-      "refund",
       "that's",
+      "refund",
       "huge"
      ],
      "suggestion": "That's a huge difference! Will we get a refund?",

@@ -1,0 +1,291 @@
+{
+ "id": "l2_u21_3__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) The museum café",
+ "titleFa": "(در نقش Nicola) کافهٔ موزه",
+ "setting": "A day at the museum · Level 2",
+ "settingFa": "یک روز در موزه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u21_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "roared",
+      "moved",
+      "best",
+      "did",
+      "was"
+     ],
+     "suggestion": "That was the BEST! Did you see the T. rex? It moved! And it roared!",
+     "suggestionFa": "فوق‌العاده بود! تیرکس را دیدی؟ تکون خورد! و غرش کرد!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I saw it! It was scary!",
+   "translations": {
+    "fa": "دیدمش! ترسناک بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "promised",
+      "william",
+      "hungry",
+      "behind",
+      "little"
+     ],
+     "suggestion": "A little bit. William hid behind Daddy. Now I'm SO hungry. Can we have the cake? Daddy promised!",
+     "suggestionFa": "یه ذره. ویلیام پشت بابا قایم شد. حالا خیلی گشنمه. می‌شه کیک بخوریم؟ بابا قول داده!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes. Let's look at the cakes.",
+   "translations": {
+    "fa": "آره. بیا کیک‌ها را ببینیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwiches",
+      "chocolate",
+      "dinosaur",
+      "there's",
+      "boring"
+     ],
+     "suggestion": "Sandwiches first. Boring! OK. Look — there's a dinosaur cookie! And a chocolate cake. Which one?",
+     "suggestionFa": "اول ساندویچ. خسته‌کننده! باشه. ببین — کلوچهٔ دایناسوری هست! و کیک شکلاتی. کدومش؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Let's share the chocolate cake.",
+   "translations": {
+    "fa": "بیا کیک شکلاتی را شریکی بخوریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "please",
+      "mummy",
+      "magic",
+      "cake"
+     ],
+     "suggestion": "Chocolate cake! Can you ask the lady? Say \"please\". Mummy says \"please\" is a magic word.",
+     "suggestionFa": "کیک شکلاتی! می‌شه از خانمه بخوای؟ بگو «لطفاً». مامان میگه «لطفاً» کلمهٔ جادوییه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Hello. Could we have a chocolate cake, please?",
+   "translations": {
+    "fa": "سلام. می‌شه یه کیک شکلاتی بدید، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "sophie",
+   "text": "Of course! Wait — I know you! I work at the Copper Kettle at weekends. This is my weekday job. Small world!",
+   "translations": {
+    "fa": "حتماً! صبر کن — من شما را می‌شناسم! آخر هفته‌ها تو کاپر کتل کار می‌کنم. این کار وسط هفته‌امه. دنیا کوچیکه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weekday",
+     "fa": "روز وسط هفته"
+    },
+    {
+     "word": "small world",
+     "fa": "دنیا کوچک است"
+    },
+    {
+     "word": "surprise",
+     "fa": "غافلگیری"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Sophie! What a surprise!",
+   "translations": {
+    "fa": "سوفی! چه غافلگیری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "sophie",
+   "text": "Six pounds fifty. Museum prices, I'm afraid! I'll put extra cream on it for you.",
+   "translations": {
+    "fa": "شش پوند و پنجاه. قیمت موزه‌ای، متأسفانه! براتون خامهٔ اضافه می‌ذارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    },
+    {
+     "word": "cream",
+     "fa": "خامه"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thank you, Sophie! That's very kind.",
+   "translations": {
+    "fa": "ممنون سوفی! خیلی لطف داری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaur",
+      "bigger",
+      "whale",
+      "house",
+      "cream"
+     ],
+     "suggestion": "Extra cream! The dinosaur was bigger than our house. And the whale was bigger than a bus!",
+     "suggestionFa": "خامهٔ اضافه! دایناسوره از خونهٔ ما بزرگ‌تر بود. و نهنگ از اتوبوس بزرگ‌تر بود!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Bigger than Daddy's bus?",
+   "translations": {
+    "fa": "بزرگ‌تر از اتوبوس بابا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaurs",
+      "bigger",
+      "buses",
+      "loved",
+      "i'll"
+     ],
+     "suggestion": "Bigger than TWO buses! I loved the T. rex. When I grow up, I'll dig up dinosaurs!",
+     "suggestionFa": "بزرگ‌تر از دو تا اتوبوس! عاشق تیرکس شدم. وقتی بزرگ شدم، دایناسور از زیر خاک درمیارم!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -23,9 +23,9 @@
     {
      "keywords": [
       "unicorns",
-      "nice",
+      "love",
       "meet",
-      "love"
+      "nice"
      ],
      "suggestion": "Yes, I love unicorns! Nice to meet you, Mia.",
      "suggestionFa": "آره، عاشق تک‌شاخم! از آشناییت خوشحالم میا.",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "squash",
       "course",
+      "orange",
       "each"
      ],
      "suggestion": "Of course — orange squash and a biscuit each.",
@@ -87,8 +87,8 @@
      "keywords": [
       "lunchtime",
       "nearly",
-      "then",
-      "just"
+      "just",
+      "then"
      ],
      "suggestion": "Just one biscuit, then. It's nearly lunchtime.",
      "suggestionFa": "پس فقط یه بیسکویت. نزدیک ناهاره.",
@@ -126,10 +126,10 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "family",
-      "here",
-      "live"
+      "friend",
+      "live",
+      "here"
      ],
      "suggestion": "No, I'm a family friend. I live here now.",
      "suggestionFa": "نه، دوست خانوادگی‌ام. الان اینجا زندگی می‌کنم.",
@@ -270,8 +270,8 @@
     {
      "keywords": [
       "like",
+      "day",
       "but",
-      "dog",
       "i'd"
      ],
      "suggestion": "No, but I'd like a dog one day.",
@@ -333,8 +333,8 @@
     {
      "keywords": [
       "blanket",
-      "i'll",
       "roof",
+      "i'll",
       "get"
      ],
      "suggestion": "Yes! I'll get a blanket for the roof.",

@@ -1,0 +1,384 @@
+{
+ "id": "l2_u18_2",
+ "characterId": "doris",
+ "title": "Next stop, please",
+ "titleFa": "ایستگاه بعدی، لطفاً",
+ "setting": "On the 38 · Level 2",
+ "settingFa": "سوار اتوبوس ۳۸",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Listen, dear. \"The next stop is Hackney Central.\" That's the voice. She's very posh, isn't she?",
+   "translations": {
+    "fa": "گوش کن عزیزم. «ایستگاه بعدی هاکنی سنترال.» این صداست. خیلی لفظ‌قلمه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "person",
+      "posh",
+      "real",
+      "she"
+     ],
+     "suggestion": "Very posh! Is she a real person?",
+     "suggestionFa": "خیلی لفظ‌قلم! آدم واقعیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "screen",
+      "can",
+      "see"
+     ],
+     "suggestion": "I can see it on the screen too.",
+     "suggestionFa": "روی صفحه هم می‌بینمش.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next stop",
+     "fa": "ایستگاه بعدی"
+    },
+    {
+     "word": "posh",
+     "fa": "اعیانی ؛ لفظ‌قلم"
+    },
+    {
+     "word": "screen",
+     "fa": "صفحه‌نمایش"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "She's a recording. And the screen shows it in big letters. Very useful for people like me with bad ears.",
+   "translations": {
+    "fa": "ضبط‌شده‌ست. و صفحه با حروف درشت نشونش میده. برای آدمایی مثل من که گوششون سنگینه خیلی به درد می‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "getting",
+      "which",
+      "stop",
+      "off"
+     ],
+     "suggestion": "Which stop are you getting off at?",
+     "suggestionFa": "تو کدوم ایستگاه پیاده میشی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "useful",
+      "here",
+      "new"
+     ],
+     "suggestion": "It's useful for me too. I'm new here.",
+     "suggestionFa": "برای منم مفیده. تازه اومدم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "recording",
+     "fa": "صدای ضبط‌شده"
+    },
+    {
+     "word": "letters",
+     "fa": "حروف"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    },
+    {
+     "word": "bad ears",
+     "fa": "گوش سنگین"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "The market. Three more stops. Now listen again: \"This bus terminates at Victoria.\" What does that mean, do you think?",
+   "translations": {
+    "fa": "بازار. سه ایستگاه دیگه. حالا دوباره گوش کن: «این اتوبوس در ویکتوریا خاتمه می‌یابد.» به نظرت یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "route",
+      "stop",
+      "last",
+      "end"
+     ],
+     "suggestion": "It's the last stop? The end of the route?",
+     "suggestionFa": "آخرین ایستگاهه؟ ته مسیر؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "terminates",
+      "sounds",
+      "don't",
+      "scary"
+     ],
+     "suggestion": "I don't know. \"Terminates\" sounds scary!",
+     "suggestionFa": "نمی‌دونم. «ترمینیتس» ترسناک به نظر میاد!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "terminates",
+     "fa": "خاتمه می‌یابد ؛ آخر خط است"
+    },
+    {
+     "word": "route",
+     "fa": "مسیر"
+    },
+    {
+     "word": "scary",
+     "fa": "ترسناک"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"This bus terminates here\" means everyone must get off. Sometimes buses terminate early because of delays.",
+    "fa": "یعنی همه باید پیاده شوند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "is last stop",
+      "it is end of route"
+     ],
+     "echo": "The end of the route, yes.",
+     "better": "It's the end of the route.",
+     "betterFa": "آخر مسیر است."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Exactly — the end of the line. Sometimes they say \"This bus will terminate early\". Then everyone groans.",
+   "translations": {
+    "fa": "دقیقاً — آخر خط. گاهی میگن «این اتوبوس زودتر خاتمه می‌یابد». اون‌وقت همه غر می‌زنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they",
+      "why"
+     ],
+     "suggestion": "Why do they do that?",
+     "suggestionFa": "چرا این کار را می‌کنن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "then"
+     ],
+     "suggestion": "What do you do then?",
+     "suggestionFa": "اون‌وقت چی کار می‌کنی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "end of the line",
+     "fa": "آخر خط"
+    },
+    {
+     "word": "early",
+     "fa": "زودتر"
+    },
+    {
+     "word": "groans",
+     "fa": "ناله می‌کند ؛ غر می‌زند"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "To catch up when they're late. You just get off and wait for the next one. Same ticket — it's free.",
+   "translations": {
+    "fa": "برای جبران وقتی دیر کردن. فقط پیاده میشی و منتظر بعدی می‌مونی. همون بلیت — مجانیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "central",
+      "hackney",
+      "now",
+      "ok"
+     ],
+     "suggestion": "OK. Is this Hackney Central now?",
+     "suggestionFa": "باشه. الان اینجا هاکنی سنتراله؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ticket",
+      "that's",
+      "fair",
+      "same"
+     ],
+     "suggestion": "Same ticket? Good. That's fair.",
+     "suggestionFa": "همون بلیت؟ خوبه. منصفانه‌ست.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "catch up",
+     "fa": "جبران کردن ؛ رسیدن"
+    },
+    {
+     "word": "wait",
+     "fa": "صبر کردن"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Yes, this is it. Now — the next one is \"Mare Street\". You'll want to ring for that. Go on, press the red button.",
+   "translations": {
+    "fa": "آره، اینجاست. حالا — بعدی «مِر استریت»ه. برای اون باید زنگ بزنی. یالا، دکمهٔ قرمز را بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stopping",
+      "pressed",
+      "sign",
+      "says"
+     ],
+     "suggestion": "I pressed it. The sign says \"Bus stopping\".",
+     "suggestionFa": "زدم. تابلو نوشته «اتوبوس می‌ایستد».",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "stand",
+      "now",
+      "up"
+     ],
+     "suggestion": "Should I stand up now?",
+     "suggestionFa": "الان پاشم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "bus stopping",
+     "fa": "اتوبوس می‌ایستد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Wait until the bus stops, dear. Hold the pole if you stand. These drivers brake like they're in Formula One.",
+   "translations": {
+    "fa": "صبر کن تا اتوبوس وایسه عزیزم. اگه پا میشی میله را بگیر. این راننده‌ها یه جوری ترمز می‌گیرن انگار تو فرمول یکن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "except",
+      "course",
+      "tom"
+     ],
+     "suggestion": "Except Tom, of course!",
+     "suggestionFa": "به جز تام، البته!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "thanks",
+      "doris",
+      "see"
+     ],
+     "suggestion": "Thanks, Doris. See you tomorrow?",
+     "suggestionFa": "ممنون دوریس. فردا می‌بینمت؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pole",
+     "fa": "میله"
+    },
+    {
+     "word": "brake",
+     "fa": "ترمز گرفتن"
+    },
+    {
+     "word": "except",
+     "fa": "به جز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "Tom's the worst! Only joking. See you tomorrow, dear. Same seat, same time. That's how we do it on the 38.",
+   "translations": {
+    "fa": "تام از همه بدتره! شوخی کردم. فردا می‌بینمت عزیزم. همون صندلی، همون ساعت. ما تو ۳۸ این‌جوری‌ایم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

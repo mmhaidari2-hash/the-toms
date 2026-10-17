@@ -22,9 +22,9 @@
     {
      "keywords": [
       "drink",
-      "today",
       "let's",
-      "have",
+      "today",
+      "cold",
       "down"
      ],
      "suggestion": "It's so hot today! Let's sit down and have a cold drink.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -162,8 +162,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -215,11 +215,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "please",
       "callum",
+      "always",
       "latte",
-      "i'll"
+      "have"
      ],
      "suggestion": "And I'll have an iced latte, please. Callum, is it always this busy?",
      "suggestionFa": "و من یه لاته سرد می‌خوام، لطفاً. کالوم، همیشه این‌قدر شلوغه؟",
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -359,8 +359,8 @@
       "thanks",
       "callum",
       "treat",
-      "time",
-      "next"
+      "next",
+      "time"
      ],
      "suggestion": "No, no, my treat! You can buy next time. Thanks, Callum!",
      "suggestionFa": "نه نه، مهمون من! دفعهٔ بعد تو بخر. ممنون کالوم!",
@@ -382,9 +382,9 @@
     {
      "keywords": [
       "nothing",
+      "cheers",
       "that's",
       "better",
-      "cheers",
       "drink"
      ],
      "suggestion": "Ahh, that's better. Nothing beats a cold drink on a hot day. Cheers!",

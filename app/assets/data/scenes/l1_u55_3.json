@@ -1,0 +1,393 @@
+{
+ "id": "l1_u55_3",
+ "characterId": "leslie",
+ "title": "My family back home",
+ "titleFa": "خانواده‌ام در وطن",
+ "setting": "Talking about me · Level 1",
+ "settingFa": "دربارهٔ خودم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Come and sit down. I've just made some toast. So, tell me about your family back home.",
+   "translations": {
+    "fa": "بیا بشین. تازه نون تست درست کردم. خب، از خانواده‌ات تو ایران بگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "well",
+      "dad",
+      "mum"
+     ],
+     "suggestion": "Thanks. Well, I've got a mum, a dad and a sister.",
+     "suggestionFa": "ممنون. خب، یه مامان، یه بابا و یه خواهر دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brothers",
+      "family",
+      "big",
+      "two"
+     ],
+     "suggestion": "I've got a big family! Two brothers and a sister.",
+     "suggestionFa": "خانوادهٔ بزرگی دارم! دو تا برادر و یه خواهر.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "back home",
+     "fa": "در وطن"
+    },
+    {
+     "word": "toast",
+     "fa": "نان تست"
+    },
+    {
+     "word": "sister",
+     "fa": "خواهر"
+    },
+    {
+     "word": "brothers",
+     "fa": "برادرها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Lovely. Do they all live in Tehran?",
+   "translations": {
+    "fa": "چه خوب. همه‌شون تهران زندگی می‌کنن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parents",
+      "shiraz",
+      "sister",
+      "tehran"
+     ],
+     "suggestion": "My parents live in Tehran. My sister lives in Shiraz.",
+     "suggestionFa": "پدر و مادرم تهران زندگی می‌کنن. خواهرم شیراز.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "street",
+      "same",
+      "they",
+      "all"
+     ],
+     "suggestion": "Yes, they all live in the same street!",
+     "suggestionFa": "آره، همه‌شون تو یه خیابون زندگی می‌کنن!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "parents",
+     "fa": "پدر و مادر"
+    },
+    {
+     "word": "live",
+     "fa": "زندگی کردن"
+    },
+    {
+     "word": "same",
+     "fa": "همان"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "my parents lives",
+      "they lives in"
+     ],
+     "echo": "Your parents live in Tehran?",
+     "better": "My parents live in Tehran.",
+     "betterFa": "پدر و مادرم در تهران زندگی می‌کنند."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "My sister lives in Leeds, so I know the feeling. What does your dad do?",
+   "translations": {
+    "fa": "خواهر من لیدز زندگی می‌کنه، پس این حس را می‌شناسم. بابات چی کاره‌ست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teacher",
+      "teaches",
+      "maths"
+     ],
+     "suggestion": "He's a teacher. He teaches maths.",
+     "suggestionFa": "معلمه. ریاضی درس میده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "engineer",
+      "retired",
+      "was",
+      "now"
+     ],
+     "suggestion": "He's retired now. He was an engineer.",
+     "suggestionFa": "الان بازنشسته‌ست. مهندس بود.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "teacher",
+     "fa": "معلم"
+    },
+    {
+     "word": "maths",
+     "fa": "ریاضی"
+    },
+    {
+     "word": "retired",
+     "fa": "بازنشسته"
+    },
+    {
+     "word": "engineer",
+     "fa": "مهندس"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "A teacher, like me! And your mum?",
+   "translations": {
+    "fa": "معلم، مثل من! مامانت چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hospital",
+      "nurse"
+     ],
+     "suggestion": "She's a nurse. She works at a hospital.",
+     "suggestionFa": "پرستاره. تو بیمارستان کار می‌کنه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "family",
+      "boss",
+      "home"
+     ],
+     "suggestion": "She works at home. She's the boss of the family!",
+     "suggestionFa": "تو خونه کار می‌کنه. رئیس خانواده‌ست!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    },
+    {
+     "word": "hospital",
+     "fa": "بیمارستان"
+    },
+    {
+     "word": "boss",
+     "fa": "رئیس"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Ha! Every family has a boss. In this house it's Nana Maggie. Do you miss them?",
+   "translations": {
+    "fa": "ها! هر خانواده‌ای یه رئیس داره. تو این خونه نانا مگیه. دلت براشون تنگ میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "every",
+      "call",
+      "much"
+     ],
+     "suggestion": "Yes, very much. I call them every Sunday.",
+     "suggestionFa": "آره، خیلی. هر یکشنبه بهشون زنگ می‌زنم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cooking",
+      "mum's",
+      "most",
+      "miss"
+     ],
+     "suggestion": "Yes. I miss my mum's cooking most!",
+     "suggestionFa": "آره. بیشتر از همه دلم برای دست‌پخت مامانم تنگ میشه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "miss",
+     "fa": "دلتنگ بودن"
+    },
+    {
+     "word": "call",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "cooking",
+     "fa": "آشپزی ؛ دست‌پخت"
+    },
+    {
+     "word": "most",
+     "fa": "بیشتر از همه"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain, \"Nana\" or \"Nan\" is a warm name for a grandmother.",
+    "fa": "Nana یا Nan نام محبت‌آمیز مادربزرگ است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Of course you do. Have you got any photos? I'd love to see them.",
+   "translations": {
+    "fa": "معلومه. عکس داری؟ دوست دارم ببینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sister",
+      "phone",
+      "baby",
+      "here"
+     ],
+     "suggestion": "Yes, here on my phone. This is my sister and her baby.",
+     "suggestionFa": "آره، اینجا تو گوشیم. این خواهرمه با بچه‌اش.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "garden",
+      "their",
+      "dad",
+      "mum"
+     ],
+     "suggestion": "This is my mum and dad in their garden.",
+     "suggestionFa": "این مامان و بابامن تو باغچه‌شون.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "photos",
+     "fa": "عکس‌ها"
+    },
+    {
+     "word": "phone",
+     "fa": "گوشی"
+    },
+    {
+     "word": "garden",
+     "fa": "باغچه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Oh, how gorgeous! Look at those roses! You look just like your mum, you know.",
+   "translations": {
+    "fa": "وای، چه قشنگ! اون گل‌های رز را ببین! می‌دونی، خیلی شبیه مامانتی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everybody"
+     ],
+     "suggestion": "Everybody says that!",
+     "suggestionFa": "همه همینو میگن!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "sister",
+      "like",
+      "look"
+     ],
+     "suggestion": "Really? My sister says I look like Dad.",
+     "suggestionFa": "واقعاً؟ خواهرم میگه شبیه بابام.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gorgeous",
+     "fa": "خیلی زیبا"
+    },
+    {
+     "word": "roses",
+     "fa": "گل‌های رز"
+    },
+    {
+     "word": "look like",
+     "fa": "شبیه بودن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Well, you're welcome here any time. You're part of the family now. Next Sunday, call them from our kitchen!",
+   "translations": {
+    "fa": "خب، هر وقت بخوای اینجا قدمت روی چشمه. حالا دیگه جزو خانواده‌ای. یکشنبهٔ بعد از آشپزخونهٔ ما بهشون زنگ بزن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

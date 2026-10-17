@@ -23,9 +23,9 @@
      "keywords": [
       "everyone",
       "right",
-      "them",
+      "love",
       "some",
-      "tell"
+      "them"
      ],
      "suggestion": "Right, everyone — Tom has some news. Go on, love, tell them.",
      "suggestionFa": "خب، همه — تام یه خبر داره. بگو عزیزم، بهشون بگو.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -130,9 +130,9 @@
      "keywords": [
       "takeaway",
       "promised",
-      "friday",
       "garden",
-      "going"
+      "friday",
+      "think"
      ],
      "suggestion": "Well, I think we're going to have a takeaway on Friday. And Tom's promised to fix the garden fence at last!",
      "suggestionFa": "خب، فکر کنم جمعه غذا بیرون‌بر می‌گیریم. و تام قول داده بالاخره نردهٔ باغچه را درست کنه!",
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "obviously",
       "listening",
-      "think",
+      "obviously",
       "pizza",
-      "curry"
+      "curry",
+      "think"
      ],
      "suggestion": "A curry, I think. Ryan will want pizza, obviously. Ryan, are you listening?",
      "suggestionFa": "فکر کنم کاری. رایان معلومه پیتزا می‌خواد. رایان، داری گوش می‌دی؟",
@@ -238,10 +238,10 @@
     {
      "keywords": [
       "weekend",
-      "going",
-      "visit",
+      "tom's",
       "after",
-      "tom's"
+      "we're",
+      "pizza"
      ],
      "suggestion": "Curry and pizza it is. And this weekend we're going to visit Tom's mum. I'll ring her after tea.",
      "suggestionFa": "کاری و پیتزا. و این آخر هفته می‌ریم دیدن مامان تام. بعد از شام بهش زنگ می‌زنم.",
@@ -265,8 +265,8 @@
       "tonight",
       "lovely",
       "would",
-      "going",
-      "right"
+      "right",
+      "who's"
      ],
      "suggestion": "Oh, would you? That would be lovely. Right — who's going to wash up tonight? Not all at once!",
      "suggestionFa": "واقعاً؟ خیلی خوب میشه. خب — امشب کی ظرف‌ها را می‌شوره؟ همه با هم نه!",

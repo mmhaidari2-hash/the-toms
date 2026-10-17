@@ -1,0 +1,441 @@
+{
+ "id": "l2_u13_1",
+ "characterId": "leslie",
+ "title": "Filling in the registration form",
+ "titleFa": "پر کردن فرم ثبت‌نام",
+ "setting": "Registering with a GP · Level 2",
+ "settingFa": "ثبت‌نام نزد پزشک عمومی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Right, this is our surgery. Everyone in Hackney should register with a GP. It's free. Shall we go in?",
+   "translations": {
+    "fa": "خب، این مطب ماست. هر کسی تو هاکنی باید پیش یه پزشک عمومی ثبت‌نام کنه. مجانیه. بریم تو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "go"
+     ],
+     "suggestion": "Yes, let's go. What do I need to do?",
+     "suggestionFa": "آره، بریم. باید چی کار کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "appointment",
+      "first"
+     ],
+     "suggestion": "Do I need an appointment first?",
+     "suggestionFa": "اول وقت قبلی لازمه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surgery",
+     "fa": "مطب"
+    },
+    {
+     "word": "register",
+     "fa": "ثبت‌نام کردن"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "appointment",
+     "fa": "وقت قبلی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK you register with one local GP surgery. Seeing a GP on the NHS is free.",
+    "fa": "ثبت‌نام نزد پزشک عمومی محلی رایگان است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "receptionist",
+   "text": "Hello, Mare Street Surgery. Are you registering? You can do it online, or I can give you a paper form.",
+   "translations": {
+    "fa": "سلام، مطب مِر استریت. برای ثبت‌نام اومدید؟ می‌تونید آنلاین انجامش بدید، یا یه فرم کاغذی بهتون بدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "paper",
+      "form"
+     ],
+     "suggestion": "A paper form, please.",
+     "suggestionFa": "فرم کاغذی، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "register",
+      "online",
+      "like",
+      "fine"
+     ],
+     "suggestion": "I'd like to register, yes. Online is fine.",
+     "suggestionFa": "بله، می‌خوام ثبت‌نام کنم. آنلاین خوبه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    },
+    {
+     "word": "paper form",
+     "fa": "فرم کاغذی"
+    },
+    {
+     "word": "registering",
+     "fa": "در حال ثبت‌نام"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Let's do paper. I'll help you. First name, surname — that's easy. Then date of birth.",
+   "translations": {
+    "fa": "بیا کاغذی پر کنیم. کمکت می‌کنم. اسم کوچیک، فامیل — آسونه. بعد تاریخ تولد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "month",
+      "then",
+      "day"
+     ],
+     "suggestion": "Day first, then month?",
+     "suggestionFa": "اول روز، بعد ماه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surname",
+      "family",
+      "name"
+     ],
+     "suggestion": "Is \"surname\" my family name?",
+     "suggestionFa": "«سرنیم» همون نام خانوادگیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first name",
+     "fa": "نام کوچک"
+    },
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    },
+    {
+     "word": "date of birth",
+     "fa": "تاریخ تولد"
+    },
+    {
+     "word": "month",
+     "fa": "ماه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "first month then day",
+      "month first"
+     ],
+     "echo": "Day first here — like 14/05.",
+     "better": "In the UK, we write the day first.",
+     "betterFa": "در بریتانیا اول روز را می‌نویسیم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Yes — day, then month, then year. Americans do it the other way. It drives me mad! Next, your address.",
+   "translations": {
+    "fa": "آره — روز، بعد ماه، بعد سال. آمریکایی‌ها برعکس می‌نویسن. دیوونه‌م می‌کنه! بعدی، آدرست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hackney",
+      "street",
+      "what's",
+      "mare"
+     ],
+     "suggestion": "10 Mare Street, Hackney. What's the postcode?",
+     "suggestionFa": "پلاک ۱۰ مِر استریت، هاکنی. کد پستی چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "here"
+     ],
+     "suggestion": "Do I write the postcode here?",
+     "suggestionFa": "کد پستی را اینجا بنویسم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "address",
+     "fa": "آدرس"
+    },
+    {
+     "word": "postcode",
+     "fa": "کد پستی"
+    },
+    {
+     "word": "the other way",
+     "fa": "برعکس"
+    }
+   ],
+   "cultureNote": {
+    "en": "A UK postcode looks like \"E8 4RL\". It's very important on forms and for deliveries.",
+    "fa": "کد پستی بریتانیا مثل E8 4RL است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Yes, in the boxes. Now — \"previous GP\". Have you seen a doctor in the UK before?",
+   "translations": {
+    "fa": "آره، تو این خونه‌ها. حالا — «پزشک قبلی». قبلاً تو بریتانیا دکتر رفتی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "first",
+      "never",
+      "time"
+     ],
+     "suggestion": "No, never. This is my first time.",
+     "suggestionFa": "نه، هیچ‌وقت. این اولین بارمه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "centre",
+      "only",
+      "walk",
+      "once"
+     ],
+     "suggestion": "Only once, at a walk-in centre.",
+     "suggestionFa": "فقط یه بار، تو یه مرکز بدون وقت قبلی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "previous",
+     "fa": "قبلی"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    },
+    {
+     "word": "walk-in centre",
+     "fa": "درمانگاه بدون وقت قبلی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Then write \"none\". And here — \"NHS number\". If you don't know it, leave it blank.",
+   "translations": {
+    "fa": "پس بنویس «ندارم». و اینجا — «شمارهٔ NHS». اگه نمی‌دونی، خالی بذار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "number",
+      "nhs"
+     ],
+     "suggestion": "What's an NHS number?",
+     "suggestionFa": "شمارهٔ NHS چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "blank",
+      "leave",
+      "i'll",
+      "ok"
+     ],
+     "suggestion": "OK, I'll leave it blank.",
+     "suggestionFa": "باشه، خالی می‌ذارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "none",
+     "fa": "هیچ ؛ ندارد"
+    },
+    {
+     "word": "leave it blank",
+     "fa": "خالی گذاشتن"
+    },
+    {
+     "word": "NHS number",
+     "fa": "شمارهٔ ملی سلامت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "It's your health number. You'll get one after you register. Now, the questions about smoking and drinking…",
+   "translations": {
+    "fa": "شمارهٔ سلامتته. بعد از ثبت‌نام یکی می‌گیری. حالا، سؤال‌های سیگار و الکل…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drink",
+      "don't",
+      "smoke"
+     ],
+     "suggestion": "I don't smoke, and I don't drink.",
+     "suggestionFa": "سیگار نمی‌کشم، الکل هم نمی‌خورم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stopped",
+      "smoked",
+      "before",
+      "last"
+     ],
+     "suggestion": "I smoked before, but I stopped last year.",
+     "suggestionFa": "قبلاً سیگار می‌کشیدم، ولی پارسال ترک کردم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smoking",
+     "fa": "سیگار کشیدن"
+    },
+    {
+     "word": "drinking",
+     "fa": "نوشیدن الکل"
+    },
+    {
+     "word": "stopped",
+     "fa": "ترک کردم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Good. Tick these boxes. Then sign and date at the bottom. Done! Let's give it to the receptionist.",
+   "translations": {
+    "fa": "خوبه. این خونه‌ها را تیک بزن. بعد پایینش امضا کن و تاریخ بزن. تموم! بدیمش به منشی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "here"
+     ],
+     "suggestion": "Here you are. Is that everything?",
+     "suggestionFa": "بفرمایید. همه چیه؟",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doctor",
+      "thank",
+      "when",
+      "see"
+     ],
+     "suggestion": "Thank you. When can I see a doctor?",
+     "suggestionFa": "ممنون. کی می‌تونم دکتر ببینم؟",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tick",
+     "fa": "تیک زدن"
+    },
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "bottom",
+     "fa": "پایین"
+    },
+    {
+     "word": "receptionist",
+     "fa": "منشی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "receptionist",
+   "text": "Thank you. Nearly everything! I just need proof of your address. A letter or a bill is fine.",
+   "translations": {
+    "fa": "ممنون. تقریباً همه چی! فقط یه مدرک آدرس لازم دارم. یه نامه یا قبض کافیه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "id": "l2_u16_1__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) A shopping list",
+ "titleFa": "(در نقش Ryan) فهرست خرید",
+ "setting": "Food shopping · Level 2",
+ "settingFa": "خرید مواد غذایی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u16_1",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sensible",
+      "charge",
+      "take",
+      "sent",
+      "said"
+     ],
+     "suggestion": "Mum sent me with a list. She said, \"Take Mehdi, he's sensible.\" So, er… you're in charge.",
+     "suggestionFa": "مامان با یه لیست فرستادم. گفت: «{you} را ببر، عاقله.» پس، اِ… مسئولش تویی.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "OK! What's on the list?",
+   "translations": {
+    "fa": "باشه! چی تو لیسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crisps",
+      "onions",
+      "cheese",
+      "apples",
+      "harsh"
+     ],
+     "suggestion": "\"Milk, eggs, some apples, a few onions, a bit of cheese, and NO crisps, Ryan.\" Harsh.",
+     "suggestionFa": "«شیر، تخم‌مرغ، چند تا سیب، چند تا پیاز، یه‌کم پنیر، و چیپس نه، رایان.» بی‌رحمانه‌ست.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "How many eggs do we need?",
+   "translations": {
+    "fa": "چند تا تخم‌مرغ لازم داریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "twelve",
+      "boxes",
+      "eggs",
+      "here"
+     ],
+     "suggestion": "She didn't say. Six? Twelve? Eggs come in boxes of six or twelve here.",
+     "suggestionFa": "نگفته. شش تا؟ دوازده تا؟ اینجا تخم‌مرغ تو جعبه‌های شش‌تایی یا دوازده‌تایی میاد.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Let's get twelve. Your family eats a lot.",
+   "translations": {
+    "fa": "دوازده تا بگیریم. خانواده‌ات زیاد می‌خورن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "there's",
+      "sundays",
+      "twelve",
+      "types"
+     ],
+     "suggestion": "Twelve. Dad eats four on Sundays. Right, milk — what kind? There's like ten different types.",
+     "suggestionFa": "دوازده تا. بابا یکشنبه‌ها چهار تا می‌خوره. خب، شیر — چه نوعی؟ انگار ده نوع مختلف هست.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What does your family usually buy?",
+   "translations": {
+    "fa": "خانواده‌ات معمولاً چی می‌خرن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "skimmed",
+      "george",
+      "that's",
+      "babies",
+      "green"
+     ],
+     "suggestion": "Green top. That's semi-skimmed. Blue is whole milk, red is skimmed. Mum says blue is \"for babies and George\".",
+     "suggestionFa": "درِ سبز. اون نیم‌چربه. آبی شیر پرچربه، قرمز بدون چربی. مامان میگه آبی «برای بچه‌ها و جورجه».",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Green top, then. Four pints?",
+   "translations": {
+    "fa": "پس درِ سبز. چهار پینت؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "skimmed",
+      "grandad",
+      "apples",
+      "water",
+      "there"
+     ],
+     "suggestion": "Grandad says skimmed milk is \"white water\". Four pints — done. Now, apples. Are there any red ones?",
+     "suggestionFa": "پدربزرگ میگه شیر بدون چربی «آب سفیده». چهار پاینت — تموم. حالا سیب. سیب قرمز هست؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "There aren't any red ones. Only green.",
+   "translations": {
+    "fa": "سیب قرمز نیست. فقط سبز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nearly",
+      "onions",
+      "nicola",
+      "anyway",
+      "cheese"
+     ],
+     "suggestion": "Get six. Nicola only eats the skin anyway. Weird kid. Onions, cheese… OK, we're nearly done!",
+     "suggestionFa": "شش تا بگیر. نیکولا به‌هرحال فقط پوستش را می‌خوره. بچهٔ عجیبیه. پیاز، پنیر… خب، تقریباً تموم شد!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Great. Let's go to the till.",
+   "translations": {
+    "fa": "عالیه. بریم صندوق."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing",
+      "crisps",
+      "please",
+      "share",
+      "don't"
+     ],
+     "suggestion": "Nothing! It's… it's a very small bag of crisps. Don't tell Mum. Please. I'll share!",
+     "suggestionFa": "هیچی! این… یه بستهٔ خیلی کوچیک چیپسه. به مامان نگو. خواهش می‌کنم. شریکی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "OK, but only if you share.",
+   "translations": {
+    "fa": "باشه، ولی فقط اگه شریکی بخوریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "flavour",
+      "vinegar",
+      "british",
+      "legend"
+     ],
+     "suggestion": "Deal. You're a legend. Salt and vinegar — your favourite now, yeah? It's the best British flavour. Fact.",
+     "suggestionFa": "قبول. تو اسطوره‌ای. نمک و سرکه — از این به بعد مورد علاقه‌ات، نه؟ بهترین طعم بریتانیاییه. واقعیت.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

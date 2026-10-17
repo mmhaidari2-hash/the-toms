@@ -20,9 +20,9 @@
     {
      "keywords": [
       "there",
-      "bird",
-      "time",
-      "once"
+      "once",
+      "upon",
+      "time"
      ],
      "suggestion": "Once upon a time, there was a big bird.",
      "suggestionFa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "mountain",
-      "she",
       "big",
+      "she",
       "as"
      ],
      "suggestion": "She was as big as a mountain!",
@@ -133,8 +133,8 @@
     {
      "keywords": [
       "magic",
-      "nest",
-      "tree"
+      "tree",
+      "nest"
      ],
      "suggestion": "In a nest in a magic tree.",
      "suggestionFa": "تو یه لونه رو یه درخت جادویی.",
@@ -180,8 +180,8 @@
      "keywords": [
       "people",
       "scary",
-      "but",
-      "bad"
+      "bad",
+      "but"
      ],
      "suggestion": "She was kind, but she was scary to bad people!",
      "suggestionFa": "مهربون بود، ولی برای آدم‌های بد ترسناک بود!",
@@ -217,8 +217,8 @@
      "keywords": [
       "little",
       "found",
-      "one",
-      "day"
+      "boy",
+      "one"
      ],
      "suggestion": "One day, she found a little baby boy.",
      "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "looked",
-      "after",
-      "years"
+      "years",
+      "after"
      ],
      "suggestion": "Yes. She looked after him for years.",
      "suggestionFa": "آره. سال‌ها ازش مراقبت کرد.",
@@ -286,10 +286,10 @@
     },
     {
      "keywords": [
+      "gave",
       "food",
-      "warm",
       "kept",
-      "gave"
+      "warm"
      ],
      "suggestion": "She gave him food and kept him warm.",
      "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",

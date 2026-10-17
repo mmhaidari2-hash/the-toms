@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "tom",
-      "diy"
+      "diy",
+      "tom"
      ],
      "suggestion": "Can you do DIY, Tom?",
      "suggestionFa": "تعمیرات بلدی تام؟",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "can't",
-      "see",
-      "any"
+      "any",
+      "see"
      ],
      "suggestion": "I can't see any screws.",
      "suggestionFa": "هیچ پیچی نمی‌بینم.",
@@ -258,10 +258,10 @@
    "branches": [
     {
      "keywords": [
-      "looks",
       "great",
-      "well",
-      "done"
+      "looks",
+      "done",
+      "well"
      ],
      "suggestion": "Well done! It looks great.",
      "suggestionFa": "آفرین! عالی شده.",

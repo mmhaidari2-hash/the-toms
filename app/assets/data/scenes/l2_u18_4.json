@@ -1,0 +1,393 @@
+{
+ "id": "l2_u18_4",
+ "characterId": "tom",
+ "title": "I missed my stop",
+ "titleFa": "ایستگاهم را رد کردم",
+ "setting": "On the 38 · Level 2",
+ "settingFa": "سوار اتوبوس ۳۸",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Hello? It's Tom. I'm on my break. You called me three times — are you alright?",
+   "translations": {
+    "fa": "الو؟ تامم. تو استراحتمم. سه بار زنگ زدی — حالت خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "missed",
+      "don't",
+      "where",
+      "stop"
+     ],
+     "suggestion": "Tom! I missed my stop. I don't know where I am!",
+     "suggestionFa": "تام! ایستگاهم را رد کردم. نمی‌دونم کجام!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "asleep",
+      "lost",
+      "fell",
+      "bus"
+     ],
+     "suggestion": "I fell asleep on the bus. Now I'm lost.",
+     "suggestionFa": "تو اتوبوس خوابم برد. حالا گم شدم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "break",
+     "fa": "استراحت ؛ زنگ تفریح"
+    },
+    {
+     "word": "missed my stop",
+     "fa": "ایستگاهم را رد کردم"
+    },
+    {
+     "word": "fell asleep",
+     "fa": "خوابم برد"
+    },
+    {
+     "word": "lost",
+     "fa": "گم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Don't worry, it happens to everyone. Which bus are you on, and what does the screen say?",
+   "translations": {
+    "fa": "نگران نباش، واسه همه پیش میاد. سوار کدوم اتوبوسی، و صفحه چی نشون میده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "screen",
+      "oxford",
+      "stop",
+      "next"
+     ],
+     "suggestion": "The 55. The screen says \"Next stop: Oxford Circus\".",
+     "suggestionFa": "۵۵. صفحه نوشته «ایستگاه بعدی: آکسفورد سیرکس».",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "piccadilly"
+     ],
+     "suggestion": "I'm on the 38. It says \"Piccadilly Circus\".",
+     "suggestionFa": "سوار ۳۸ام. نوشته «پیکادیلی سیرکس».",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "screen",
+     "fa": "صفحه‌نمایش"
+    },
+    {
+     "word": "says",
+     "fa": "نوشته است"
+    },
+    {
+     "word": "next stop",
+     "fa": "ایستگاه بعدی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Ha! You went right into the West End. OK — get off at the next stop. Don't panic.",
+   "translations": {
+    "fa": "ها! رفتی وسط وست‌اند. باشه — ایستگاه بعدی پیاده شو. هول نکن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "alarm",
+      "have",
+      "set"
+     ],
+     "suggestion": "I should have set an alarm.",
+     "suggestionFa": "باید آلارم می‌ذاشتم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pressing",
+      "bell",
+      "now",
+      "ok"
+     ],
+     "suggestion": "OK. I'm pressing the bell now.",
+     "suggestionFa": "باشه. دارم زنگ را می‌زنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "West End",
+     "fa": "مرکز شهر لندن (منطقهٔ تئاترها)"
+    },
+    {
+     "word": "panic",
+     "fa": "وحشت کردن"
+    },
+    {
+     "word": "alarm",
+     "fa": "زنگ هشدار"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"I should have…\" talks about a past mistake: \"I should have checked\", \"I should have asked\".",
+    "fa": "should have برای اشتباه گذشته به کار می‌رود."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i should set alarm",
+      "i must have set"
+     ],
+     "echo": "You should have set an alarm? Next time!",
+     "better": "I should have set an alarm.",
+     "betterFa": "باید زنگ هشدار می‌گذاشتم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Next time, use the map on your phone. It buzzes before your stop. Right, are you off?",
+   "translations": {
+    "fa": "دفعهٔ بعد، از نقشهٔ گوشیت استفاده کن. قبل از ایستگاهت ویبره می‌زنه. خب، پیاده شدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "off",
+      "now"
+     ],
+     "suggestion": "Yes, I'm off. Now what?",
+     "suggestionFa": "آره، پیاده شدم. حالا چی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "there",
+      "here",
+      "lot"
+     ],
+     "suggestion": "Yes. There are a lot of people here!",
+     "suggestionFa": "آره. اینجا خیلی شلوغه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "buzzes",
+     "fa": "ویبره می‌زند"
+    },
+    {
+     "word": "are you off",
+     "fa": "پیاده شدی؟"
+    },
+    {
+     "word": "a lot of",
+     "fa": "زیاد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Cross the road and find the stop for the same bus going the other way. Look for the letter on the sign.",
+   "translations": {
+    "fa": "از خیابون رد شو و ایستگاه همون اتوبوس در جهت مخالف را پیدا کن. دنبال حرف روی تابلو بگرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letter",
+      "stop",
+      "big",
+      "see"
+     ],
+     "suggestion": "I can see a stop with a big letter \"S\".",
+     "suggestionFa": "یه ایستگاه با یه حرف بزرگ «S» می‌بینم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "again",
+      "have",
+      "pay"
+     ],
+     "suggestion": "Do I have to pay again?",
+     "suggestionFa": "باید دوباره پول بدم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "other way",
+     "fa": "جهت مخالف"
+    },
+    {
+     "word": "letter",
+     "fa": "حرف (الفبا)"
+    },
+    {
+     "word": "sign",
+     "fa": "تابلو"
+    },
+    {
+     "word": "pay again",
+     "fa": "دوباره پرداخت کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "London bus stops have letters (like \"Stop S\") so you can find the right one on a map.",
+    "fa": "ایستگاه‌های اتوبوس لندن حرف دارند."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Stop S, perfect. And no, with the Hopper fare it's free within an hour. Use the same card!",
+   "translations": {
+    "fa": "ایستگاه S، عالیه. و نه، با کرایهٔ هاپر تو یه ساعت مجانیه. با همون کارت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "goodness",
+      "thank",
+      "free"
+     ],
+     "suggestion": "Free? Thank goodness!",
+     "suggestionFa": "مجانی؟ خدا را شکر!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "take",
+      "long",
+      "will",
+      "home"
+     ],
+     "suggestion": "How long will it take to get home?",
+     "suggestionFa": "چقدر طول می‌کشه برسم خونه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Hopper fare",
+     "fa": "کرایهٔ هاپر"
+    },
+    {
+     "word": "within",
+     "fa": "ظرف ؛ در طول"
+    },
+    {
+     "word": "thank goodness",
+     "fa": "خدا را شکر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "About fifty minutes. Bad news: I'm not driving it. Good news: no jokes. Text me when you're on, OK?",
+   "translations": {
+    "fa": "حدود پنجاه دقیقه. خبر بد: من رانندش نیستم. خبر خوب: جوکی در کار نیست. وقتی سوار شدی بهم پیام بده، باشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saving",
+      "thanks",
+      "will",
+      "tom"
+     ],
+     "suggestion": "I will. Thanks for saving me, Tom!",
+     "suggestionFa": "حتماً. ممنون که نجاتم دادی تام!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "awake",
+      "i'll",
+      "time",
+      "stay"
+     ],
+     "suggestion": "OK. And I'll stay awake this time!",
+     "suggestionFa": "باشه. و این دفعه بیدار می‌مونم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "text",
+     "fa": "پیامک دادن"
+    },
+    {
+     "word": "saving",
+     "fa": "نجات دادن"
+    },
+    {
+     "word": "stay awake",
+     "fa": "بیدار ماندن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Saving you? All part of the service. Tom's Travel Help — open seven days a week. Fees: one Persian tea.",
+   "translations": {
+    "fa": "نجاتت دادم؟ جزو خدماته. خدمات سفر تام — هفت روز هفته باز. هزینه: یه چای ایرانی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

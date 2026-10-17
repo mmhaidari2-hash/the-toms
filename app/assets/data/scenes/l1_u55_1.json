@@ -1,0 +1,468 @@
+{
+ "id": "l1_u55_1",
+ "characterId": "tom",
+ "title": "My country",
+ "titleFa": "کشور من",
+ "setting": "Talking about me · Level 1",
+ "settingFa": "دربارهٔ خودم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning, neighbour! Kettle's on. Here's a funny thing — I don't know much about your country.",
+   "translations": {
+    "fa": "صبح بخیر همسایه! کتری روشنه. یه چیز جالب — من زیاد دربارهٔ کشورت نمی‌دونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tehran",
+      "from",
+      "iran"
+     ],
+     "suggestion": "I'm from Iran. From Tehran.",
+     "suggestionFa": "من اهل ایرانم. اهل تهران.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "anything",
+      "ask"
+     ],
+     "suggestion": "Ask me anything!",
+     "suggestionFa": "هر چی می‌خوای بپرس!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    },
+    {
+     "word": "kettle",
+     "fa": "کتری"
+    },
+    {
+     "word": "country",
+     "fa": "کشور"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Tehran! Is it a big city? Bigger than London?",
+   "translations": {
+    "fa": "تهران! شهر بزرگیه؟ بزرگ‌تر از لندن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "million",
+      "people",
+      "about",
+      "nine"
+     ],
+     "suggestion": "Yes, it's very big. About nine million people.",
+     "suggestionFa": "آره، خیلی بزرگه. حدود نُه میلیون نفر.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "traffic",
+      "lots",
+      "busy"
+     ],
+     "suggestion": "It's big and very busy. Lots of traffic!",
+     "suggestionFa": "بزرگ و خیلی شلوغه. ترافیک زیاد!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "city",
+     "fa": "شهر"
+    },
+    {
+     "word": "million",
+     "fa": "میلیون"
+    },
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "traffic",
+     "fa": "ترافیک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it very big",
+      "is very bigger"
+     ],
+     "echo": "Very big? Wow!",
+     "better": "It's very big.",
+     "betterFa": "خیلی بزرگه."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Traffic! Don't talk to me about traffic. I drive the 38 bus! Where is Iran, exactly?",
+   "translations": {
+    "fa": "ترافیک! از ترافیک برام نگو. من اتوبوس ۳۸ را می‌رونم! ایران دقیقاً کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "middle",
+      "turkey",
+      "next",
+      "east"
+     ],
+     "suggestion": "It's in the Middle East, next to Turkey.",
+     "suggestionFa": "تو خاورمیانه‌ست، کنار ترکیه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "caspian",
+      "south",
+      "asia",
+      "sea"
+     ],
+     "suggestion": "It's in Asia, south of the Caspian Sea.",
+     "suggestionFa": "تو آسیاست، جنوب دریای خزر.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Middle East",
+     "fa": "خاورمیانه"
+    },
+    {
+     "word": "next to",
+     "fa": "کنار"
+    },
+    {
+     "word": "south",
+     "fa": "جنوب"
+    },
+    {
+     "word": "sea",
+     "fa": "دریا"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Ah, I see. Is it hot there? It's never hot here. Well, one day in July.",
+   "translations": {
+    "fa": "آها. اونجا گرمه؟ اینجا هیچ‌وقت گرم نیست. خب، یه روز تو ژوئیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "summer",
+      "cold",
+      "hot"
+     ],
+     "suggestion": "It's hot in summer and cold in winter.",
+     "suggestionFa": "تابستون گرمه و زمستون سرد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mountains",
+      "tehran",
+      "snow",
+      "has"
+     ],
+     "suggestion": "Tehran has snow in winter! And mountains.",
+     "suggestionFa": "تهران زمستون برف داره! و کوه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "summer",
+     "fa": "تابستان"
+    },
+    {
+     "word": "winter",
+     "fa": "زمستان"
+    },
+    {
+     "word": "snow",
+     "fa": "برف"
+    },
+    {
+     "word": "mountains",
+     "fa": "کوه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people love talking about the weather. It's an easy way to start a chat.",
+    "fa": "بریتانیایی‌ها عاشق حرف زدن دربارهٔ هوا هستند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Snow and mountains? Brilliant. What is Iran famous for?",
+   "translations": {
+    "fa": "برف و کوه؟ عالیه. ایران به چی معروفه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pistachios",
+      "carpets",
+      "famous"
+     ],
+     "suggestion": "It's famous for carpets and pistachios.",
+     "suggestionFa": "به فرش و پسته معروفه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "poetry",
+      "cities",
+      "food",
+      "good"
+     ],
+     "suggestion": "Old cities, poetry and good food.",
+     "suggestionFa": "شهرهای قدیمی، شعر و غذای خوب.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "famous for",
+     "fa": "معروف به"
+    },
+    {
+     "word": "carpets",
+     "fa": "فرش‌ها"
+    },
+    {
+     "word": "pistachios",
+     "fa": "پسته"
+    },
+    {
+     "word": "poetry",
+     "fa": "شعر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is famous of",
+      "famous with carpets"
+     ],
+     "echo": "Famous for carpets? Lovely.",
+     "better": "It's famous for carpets.",
+     "betterFa": "به فرش معروفه."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Pistachios! I love them. Leslie hides them from me. What do people eat for breakfast?",
+   "translations": {
+    "fa": "پسته! عاشقشم. لزلی ازم قایمشون می‌کنه. مردم صبحونه چی می‌خورن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "cheese",
+      "eggs"
+     ],
+     "suggestion": "Bread, cheese and tea. Sometimes eggs.",
+     "suggestionFa": "نون، پنیر و چای. گاهی تخم‌مرغ.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "butter",
+      "flat",
+      "jam"
+     ],
+     "suggestion": "Flat bread with butter and jam. And tea!",
+     "suggestionFa": "نون صاف با کره و مربا. و چای!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bread",
+     "fa": "نان"
+    },
+    {
+     "word": "cheese",
+     "fa": "پنیر"
+    },
+    {
+     "word": "butter",
+     "fa": "کره"
+    },
+    {
+     "word": "flat bread",
+     "fa": "نان صاف"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Tea for breakfast! Same as us. Do you drink it with milk?",
+   "translations": {
+    "fa": "چای برای صبحونه! مثل ما. با شیر می‌خورید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "drink",
+      "sugar",
+      "we"
+     ],
+     "suggestion": "No, no milk! We drink it with sugar.",
+     "suggestionFa": "نه، شیر نه! با قند می‌خوریم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "black",
+      "glass",
+      "small",
+      "tea"
+     ],
+     "suggestion": "No milk. Black tea in a small glass.",
+     "suggestionFa": "بی‌شیر. چای سیاه تو استکان کوچیک.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sugar",
+     "fa": "قند ؛ شکر"
+    },
+    {
+     "word": "glass",
+     "fa": "لیوان ؛ استکان"
+    },
+    {
+     "word": "black tea",
+     "fa": "چای سیاه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most British people drink tea with milk. Ask \"Milk?\" before you make someone a cup.",
+    "fa": "بیشتر بریتانیایی‌ها چای را با شیر می‌نوشند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "In a glass? No milk? Don't tell my mum. She'll faint! Here — one tea, British style. Try it.",
+   "translations": {
+    "fa": "تو لیوان؟ بی‌شیر؟ به مامانم نگو. غش می‌کنه! بیا — یه چای، به سبک بریتانیایی. امتحانش کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "different",
+      "nice",
+      "mmm",
+      "but"
+     ],
+     "suggestion": "Mmm. It's… different. But nice!",
+     "suggestionFa": "ممم. یه‌کم… فرق داره. ولی خوبه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "thanks",
+      "i'll",
+      "time"
+     ],
+     "suggestion": "Thanks, Tom. Next time, I'll make Persian tea.",
+     "suggestionFa": "ممنون تام. دفعهٔ بعد، من چای ایرانی درست می‌کنم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "style",
+     "fa": "سبک"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    },
+    {
+     "word": "different",
+     "fa": "متفاوت"
+    },
+    {
+     "word": "next time",
+     "fa": "دفعهٔ بعد"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "tom",
+   "text": "Deal! Persian tea next time. And bring pistachios. Don't tell Leslie!",
+   "translations": {
+    "fa": "قبول! دفعهٔ بعد چای ایرانی. و پسته بیار. به لزلی نگو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

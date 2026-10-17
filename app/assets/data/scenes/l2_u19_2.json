@@ -1,0 +1,342 @@
+{
+ "id": "l2_u19_2",
+ "characterId": "tom",
+ "title": "Changing lines",
+ "titleFa": "عوض کردن خط",
+ "setting": "The Tube · Level 2",
+ "settingFa": "متروی لندن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
+   "translations": {
+    "fa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "colourful",
+      "confusing",
+      "but"
+     ],
+     "suggestion": "It's very colourful! But it's confusing.",
+     "suggestionFa": "خیلی رنگارنگه! ولی گیج‌کننده‌ست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "which",
+      "take",
+      "line"
+     ],
+     "suggestion": "Which line do we take first?",
+     "suggestionFa": "اول کدوم خط را سوار شیم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "day off",
+     "fa": "روز مرخصی"
+    },
+    {
+     "word": "Tube map",
+     "fa": "نقشهٔ مترو"
+    },
+    {
+     "word": "colourful",
+     "fa": "رنگارنگ"
+    },
+    {
+     "word": "confusing",
+     "fa": "گیج‌کننده"
+    }
+   ],
+   "cultureNote": {
+    "en": "The famous Tube map isn't to scale. Stations that look far apart can be a short walk.",
+    "fa": "نقشهٔ مترو با مقیاس واقعی نیست."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Every line has a colour. We take the Overground to Highbury, then change to the Victoria line.",
+   "translations": {
+    "fa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "highbury",
+      "change",
+      "where",
+      "then"
+     ],
+     "suggestion": "Change at Highbury. Then where?",
+     "suggestionFa": "تو هایبری عوض کنیم. بعد کجا؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "victoria",
+      "colour",
+      "line"
+     ],
+     "suggestion": "What colour is the Victoria line?",
+     "suggestionFa": "خط ویکتوریا چه رنگیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "عوض کردن (خط)"
+    },
+    {
+     "word": "Overground",
+     "fa": "قطار شهری اورگراند"
+    },
+    {
+     "word": "then",
+     "fa": "بعد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Light blue. We go south to Oxford Circus, then change again. Central line — the red one — two stops to Tottenham Court Road.",
+   "translations": {
+    "fa": "آبی روشن. به جنوب میریم تا آکسفورد سیرکس، بعد دوباره عوض می‌کنیم. خط سنترال — قرمزه — دو ایستگاه تا تاتنهام کورت رود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "quicker",
+      "changes",
+      "there",
+      "two"
+     ],
+     "suggestion": "Two changes? Is there a quicker way?",
+     "suggestionFa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "altogether",
+      "stops",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many stops altogether?",
+     "suggestionFa": "روی هم چند ایستگاه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "south",
+     "fa": "جنوب"
+    },
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "altogether",
+     "fa": "روی هم ؛ در مجموع"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how much stops",
+      "how many stop altogether"
+     ],
+     "echo": "How many stops? About seven.",
+     "better": "How many stops altogether?",
+     "betterFa": "روی هم چند ایستگاه؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "About seven. There's a quicker way, but this way, you learn the Tube. Lesson one: walk on the left in tunnels.",
+   "translations": {
+    "fa": "حدود هفت تا. یه راه سریع‌تر هست، ولی این‌جوری مترو را یاد می‌گیری. درس اول: تو تونل‌ها از سمت چپ راه برو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "left",
+      "like"
+     ],
+     "suggestion": "On the left? Like driving!",
+     "suggestionFa": "سمت چپ؟ مثل رانندگی!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "lesson",
+      "what's",
+      "two"
+     ],
+     "suggestion": "OK, teacher! What's lesson two?",
+     "suggestionFa": "باشه استاد! درس دوم چیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quicker",
+     "fa": "سریع‌تر"
+    },
+    {
+     "word": "tunnels",
+     "fa": "تونل‌ها"
+    },
+    {
+     "word": "on the left",
+     "fa": "سمت چپ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
+   "translations": {
+    "fa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eastbound",
+      "minutes",
+      "train",
+      "next"
+     ],
+     "suggestion": "Eastbound. And the next train is in two minutes.",
+     "suggestionFa": "سمت شرق. و قطار بعدی دو دقیقهٔ دیگه‌ست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "how",
+      "all"
+     ],
+     "suggestion": "How do you remember all this?",
+     "suggestionFa": "چطوری همهٔ اینا یادت می‌مونه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "eastbound",
+     "fa": "به سمت شرق"
+    },
+    {
+     "word": "westbound",
+     "fa": "به سمت غرب"
+    },
+    {
+     "word": "wrong way",
+     "fa": "راه اشتباه"
+    },
+    {
+     "word": "remember",
+     "fa": "به یاد آوردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Forty-two years of London! Here we are — Tottenham Court Road. Mind the gap… and follow me. Five minutes' walk to the museum.",
+   "translations": {
+    "fa": "چهل و دو سال تو لندن! رسیدیم — تاتنهام کورت رود. مراقب فاصله باش… و دنبالم بیا. پنج دقیقه پیاده تا موزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "alone",
+      "easy",
+      "time",
+      "next"
+     ],
+     "suggestion": "That was easy. I can do it alone next time.",
+     "suggestionFa": "آسون بود. دفعهٔ بعد تنهایی می‌تونم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "exit",
+      "take",
+      "we"
+     ],
+     "suggestion": "Which exit do we take?",
+     "suggestionFa": "از کدوم خروجی بریم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mind the gap",
+     "fa": "مراقب فاصله باشید"
+    },
+    {
+     "word": "exit",
+     "fa": "خروجی"
+    },
+    {
+     "word": "alone",
+     "fa": "تنها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
+   "translations": {
+    "fa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

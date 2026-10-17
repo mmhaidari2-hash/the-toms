@@ -1,0 +1,335 @@
+{
+ "id": "l2_u19_3",
+ "characterId": "maya",
+ "title": "Mind the gap",
+ "titleFa": "مراقب فاصله باشید",
+ "setting": "The Tube · Level 2",
+ "settingFa": "متروی لندن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Morning! Rush hour on the Tube — it's busy, isn't it? A few rules make it easier. Want to hear them?",
+   "translations": {
+    "fa": "صبح بخیر! ساعت شلوغی مترو — شلوغه، نه؟ چند تا قانون آسون‌ترش می‌کنه. می‌خوای بشنوی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "please",
+      "hurry"
+     ],
+     "suggestion": "Yes, please. Everyone is in a hurry!",
+     "suggestionFa": "آره، لطفاً. همه عجله دارن!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nobody",
+      "rules",
+      "there",
+      "told"
+     ],
+     "suggestion": "Are there rules? Nobody told me!",
+     "suggestionFa": "قانون هست؟ کسی بهم نگفته!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rush hour",
+     "fa": "ساعت شلوغی"
+    },
+    {
+     "word": "busy",
+     "fa": "شلوغ"
+    },
+    {
+     "word": "in a hurry",
+     "fa": "عجله داشتن"
+    },
+    {
+     "word": "rules",
+     "fa": "قوانین"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "Rule one: on the escalator, stand on the right. The left is for people walking. Londoners get very angry about this!",
+   "translations": {
+    "fa": "قانون یک: روی پله‌برقی، سمت راست وایسا. سمت چپ برای کسایی‌ه که راه میرن. لندنی‌ها سر این خیلی عصبانی میشن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stand",
+      "right",
+      "left"
+     ],
+     "suggestion": "Stand on the right, walk on the left.",
+     "suggestionFa": "سمت راست وایسا، سمت چپ راه برو.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "escalator",
+      "people",
+      "why"
+     ],
+     "suggestion": "Why do people walk on the escalator?",
+     "suggestionFa": "چرا مردم روی پله‌برقی راه میرن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "escalator",
+     "fa": "پله‌برقی"
+    },
+    {
+     "word": "stand",
+     "fa": "ایستادن"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    }
+   ],
+   "cultureNote": {
+    "en": "On London escalators, always stand on the right. People in a hurry walk up on the left.",
+    "fa": "روی پله‌برقی لندن سمت راست بایستید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "Because they're late! Rule two: when the train comes, let people off first. Then get on.",
+   "translations": {
+    "fa": "چون دیرشونه! قانون دو: وقتی قطار میاد، اول بذار مردم پیاده شن. بعد سوار شو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "polite",
+      "people",
+      "that's",
+      "first"
+     ],
+     "suggestion": "Let people off first. That's polite.",
+     "suggestionFa": "اول بذار پیاده شن. مؤدبانه‌ست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "train",
+      "full",
+      "if"
+     ],
+     "suggestion": "And if the train is full?",
+     "suggestionFa": "و اگه قطار پر بود؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "let people off",
+     "fa": "بگذار پیاده شوند"
+    },
+    {
+     "word": "get on",
+     "fa": "سوار شدن"
+    },
+    {
+     "word": "full",
+     "fa": "پر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "let people go off first",
+      "first people off"
+     ],
+     "echo": "Let people off first, yes.",
+     "better": "Let people off first.",
+     "betterFa": "اول بگذارید پیاده شوند."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "Then wait for the next one. Another comes in two minutes. Rule three: move down inside the carriage. Don't stop by the doors.",
+   "translations": {
+    "fa": "اون‌وقت منتظر بعدی بمون. دو دقیقهٔ دیگه یکی دیگه میاد. قانون سه: داخل واگن برو جلو. کنار درها وای‌نستا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carriage",
+      "what's",
+      "down",
+      "move"
+     ],
+     "suggestion": "Move down. What's a carriage?",
+     "suggestionFa": "برو جلو. «کریج» چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "stand",
+      "doors",
+      "sorry"
+     ],
+     "suggestion": "I always stand by the doors. Sorry!",
+     "suggestionFa": "من همیشه کنار در وایمیستم. ببخشید!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "move down",
+     "fa": "جلوتر رفتن ؛ داخل رفتن"
+    },
+    {
+     "word": "carriage",
+     "fa": "واگن"
+    },
+    {
+     "word": "doors",
+     "fa": "درها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "A carriage is one part of the train. And rule four — the big one: on the Tube, we don't talk to strangers.",
+   "translations": {
+    "fa": "واگن یه قسمت از قطاره. و قانون چهار — مهم‌ترینش: تو مترو، با غریبه‌ها حرف نمی‌زنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "nobody",
+      "talks"
+     ],
+     "suggestion": "Really? Nobody talks?",
+     "suggestionFa": "واقعاً؟ هیچ‌کس حرف نمی‌زنه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "talking",
+      "but"
+     ],
+     "suggestion": "But you're talking to me!",
+     "suggestionFa": "ولی تو داری با من حرف می‌زنی!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strangers",
+     "fa": "غریبه‌ها"
+    },
+    {
+     "word": "nobody",
+     "fa": "هیچ‌کس"
+    },
+    {
+     "word": "talk",
+     "fa": "حرف زدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Ha! I'm staff — it's my job. People read, or look at their phones. A smile is fine. A long chat is… unusual.",
+   "translations": {
+    "fa": "ها! من کارمندم — کارمه. مردم کتاب می‌خونن، یا به گوشیشون نگاه می‌کنن. یه لبخند اشکالی نداره. یه گپ طولانی… غیرعادیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "people",
+      "tehran",
+      "metro",
+      "time"
+     ],
+     "suggestion": "In Tehran, people talk on the metro all the time!",
+     "suggestionFa": "تو تهران، مردم تو مترو مدام حرف می‌زنن!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "read",
+      "book",
+      "i'll",
+      "ok"
+     ],
+     "suggestion": "OK. I'll read my book.",
+     "suggestionFa": "باشه. کتابم را می‌خونم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "staff",
+     "fa": "کارمند"
+    },
+    {
+     "word": "unusual",
+     "fa": "غیرعادی"
+    },
+    {
+     "word": "all the time",
+     "fa": "همیشه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "Lovely! And when you hear \"Mind the gap\", look down. There's a space by the platform. Have a good day!",
+   "translations": {
+    "fa": "عالی! و وقتی شنیدی «مراقب فاصله باشید»، پایین را نگاه کن. کنار سکو یه فاصله‌ست. روز خوبی داشته باشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

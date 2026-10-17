@@ -1,0 +1,391 @@
+{
+ "id": "l2_u14_4",
+ "characterId": "bennett",
+ "title": "Using the computers",
+ "titleFa": "استفاده از کامپیوترها",
+ "setting": "Library life · Level 2",
+ "settingFa": "الکتابخانه و زندگی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "bennett",
+   "text": "Hello again! You look busy. Can I help?",
+   "translations": {
+    "fa": "باز سلام! سرتون شلوغ به نظر میاد. کمک می‌خواید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "computer",
+      "please",
+      "here",
+      "use"
+     ],
+     "suggestion": "Yes, please. Can I use a computer here?",
+     "suggestionFa": "بله، لطفاً. می‌تونم اینجا از کامپیوتر استفاده کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "possible",
+      "print",
+      "need",
+      "cv"
+     ],
+     "suggestion": "I need to print a CV. Is that possible?",
+     "suggestionFa": "باید یه رزومه پرینت بگیرم. ممکنه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "busy",
+     "fa": "مشغول"
+    },
+    {
+     "word": "computer",
+     "fa": "کامپیوتر"
+    },
+    {
+     "word": "print",
+     "fa": "چاپ کردن"
+    },
+    {
+     "word": "CV",
+     "fa": "رزومه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "bennett",
+   "text": "Of course. With your library card, you get one free hour a day. Just log in with your card number.",
+   "translations": {
+    "fa": "حتماً. با کارت کتابخانه، روزی یه ساعت رایگان دارید. فقط با شمارهٔ کارت وارد بشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "log",
+      "how"
+     ],
+     "suggestion": "How do I log in?",
+     "suggestionFa": "چطور وارد بشم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "thank",
+      "hour",
+      "one"
+     ],
+     "suggestion": "One hour is enough. Thank you.",
+     "suggestionFa": "یه ساعت کافیه. ممنون.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free",
+     "fa": "رایگان"
+    },
+    {
+     "word": "log in",
+     "fa": "وارد شدن"
+    },
+    {
+     "word": "enough",
+     "fa": "کافی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "bennett",
+   "text": "Type the long number on the back of the card here. And then your PIN.",
+   "translations": {
+    "fa": "شمارهٔ بلند پشت کارت را اینجا تایپ کنید. بعد رمزتون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wrong",
+      "says",
+      "hmm",
+      "pin"
+     ],
+     "suggestion": "It says \"wrong PIN\". Hmm.",
+     "suggestionFa": "نوشته «رمز اشتباه». هوم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "ok"
+     ],
+     "suggestion": "OK, I'm in! It's working.",
+     "suggestionFa": "باشه، وارد شدم! داره کار می‌کنه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "back",
+     "fa": "پشت"
+    },
+    {
+     "word": "type",
+     "fa": "تایپ کردن"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "bennett",
+   "text": "Ah, these computers are very fussy. Try again slowly. Number one is often a seven. Don't ask me why.",
+   "translations": {
+    "fa": "آه، این کامپیوترها خیلی بدقلقن. دوباره آروم امتحان کنید. شمارهٔ یک اغلب هفته. نپرسید چرا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "logged",
+      "got",
+      "now"
+     ],
+     "suggestion": "Got it! I'm logged in now.",
+     "suggestionFa": "گرفتم! الان وارد شدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "still"
+     ],
+     "suggestion": "It's still not working.",
+     "suggestionFa": "هنوز کار نمی‌کنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fussy",
+     "fa": "بدقلق ؛ ایرادگیر"
+    },
+    {
+     "word": "slowly",
+     "fa": "آهسته"
+    },
+    {
+     "word": "logged in",
+     "fa": "وارد شده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it not work",
+      "it don't working"
+     ],
+     "echo": "It's not working? Let me look.",
+     "better": "It's not working.",
+     "betterFa": "کار نمی‌کند."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "bennett",
+   "text": "Excellent. Now, your CV is on your email? Open it and press \"print\". The printer is by the stairs.",
+   "translations": {
+    "fa": "عالیه. خب، رزومه‌تون تو ایمیلتونه؟ بازش کنید و «پرینت» را بزنید. پرینتر کنار پله‌هاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "printing",
+      "cost",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much does printing cost?",
+     "suggestionFa": "پرینت چقدر هزینه داره؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "colour",
+      "black",
+      "white"
+     ],
+     "suggestion": "Is it black and white or colour?",
+     "suggestionFa": "سیاه‌سفیده یا رنگی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "printer",
+     "fa": "چاپگر"
+    },
+    {
+     "word": "stairs",
+     "fa": "پله‌ها"
+    },
+    {
+     "word": "cost",
+     "fa": "هزینه داشتن"
+    },
+    {
+     "word": "colour",
+     "fa": "رنگی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "bennett",
+   "text": "Fifteen pence a page for black and white. Colour is fifty. You pay at the machine — cards are fine.",
+   "translations": {
+    "fa": "صفحه‌ای پونزده پنی برای سیاه‌سفید. رنگی پنجاه. پای دستگاه پرداخت می‌کنید — کارت هم قبوله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "white",
+      "pages",
+      "black",
+      "just"
+     ],
+     "suggestion": "Just two pages, black and white.",
+     "suggestionFa": "فقط دو صفحه، سیاه‌سفید.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheaper",
+      "that's",
+      "cheap",
+      "shop"
+     ],
+     "suggestion": "That's cheap. Much cheaper than a shop.",
+     "suggestionFa": "ارزونه. خیلی ارزون‌تر از مغازه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "page",
+     "fa": "صفحه"
+    },
+    {
+     "word": "machine",
+     "fa": "دستگاه"
+    },
+    {
+     "word": "cheap",
+     "fa": "ارزان"
+    }
+   ],
+   "cultureNote": {
+    "en": "Libraries also offer free Wi-Fi, help with job applications, and sometimes free English conversation clubs.",
+    "fa": "کتابخانه‌ها وای‌فای رایگان و کمک برای درخواست کار دارند."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "bennett",
+   "text": "It is. Are you applying for jobs? We have a job club on Thursdays. They help with CVs and interviews.",
+   "translations": {
+    "fa": "همین‌طوره. دنبال کار هستید؟ پنجشنبه‌ها یه باشگاه کاریابی داریم. برای رزومه و مصاحبه کمک می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thursday",
+      "really",
+      "time"
+     ],
+     "suggestion": "Really? What time is it on Thursday?",
+     "suggestionFa": "واقعاً؟ پنجشنبه ساعت چنده؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "useful",
+      "that's",
+      "book",
+      "come"
+     ],
+     "suggestion": "That's useful. Can I just come, or do I book?",
+     "suggestionFa": "مفیده. همین‌طوری بیام، یا رزرو کنم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "applying for",
+     "fa": "درخواست دادن برای"
+    },
+    {
+     "word": "job club",
+     "fa": "باشگاه کاریابی"
+    },
+    {
+     "word": "interviews",
+     "fa": "مصاحبه‌ها"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "bennett",
+   "text": "Ten till twelve. Just come along. There's free tea, and the biscuits are… well, they're biscuits. Good luck!",
+   "translations": {
+    "fa": "ده تا دوازده. همین‌طوری بیاید. چای مجانی هست، و بیسکویت‌ها… خب، بیسکویتن دیگه. موفق باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

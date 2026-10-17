@@ -65,8 +65,8 @@
     {
      "keywords": [
       "ringing",
-      "thanks",
       "doctor",
+      "thanks",
       "back"
      ],
      "suggestion": "Thanks for ringing back, doctor.",
@@ -117,8 +117,8 @@
     {
      "keywords": [
       "check",
-      "i'll",
-      "sure"
+      "sure",
+      "i'll"
      ],
      "suggestion": "I'm not sure. I'll check.",
      "suggestionFa": "مطمئن نیستم. نگاه می‌کنم.",
@@ -153,9 +153,9 @@
     {
      "keywords": [
       "bring",
-      "four",
+      "i'll",
       "fine",
-      "i'll"
+      "four"
      ],
      "suggestion": "Four is fine. I'll bring him.",
      "suggestionFa": "چهار خوبه. میارمش.",
@@ -197,9 +197,9 @@
    "branches": [
     {
      "keywords": [
+      "i'll",
       "some",
       "give",
-      "i'll",
       "now"
      ],
      "suggestion": "OK. I'll give him some now.",

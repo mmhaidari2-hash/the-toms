@@ -1,0 +1,390 @@
+{
+ "id": "l2_u21_3",
+ "characterId": "nicola",
+ "title": "The museum café",
+ "titleFa": "کافهٔ موزه",
+ "setting": "A day at the museum · Level 2",
+ "settingFa": "یک روز در موزه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "That was the BEST! Did you see the T. rex? It moved! And it roared!",
+   "translations": {
+    "fa": "فوق‌العاده بود! تیرکس را دیدی؟ تکون خورد! و غرش کرد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scary",
+      "saw"
+     ],
+     "suggestion": "I saw it! It was scary!",
+     "suggestionFa": "دیدمش! ترسناک بود!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scared",
+      "huge",
+      "were"
+     ],
+     "suggestion": "It was huge. Were you scared?",
+     "suggestionFa": "خیلی بزرگ بود. ترسیدی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "T. rex",
+     "fa": "تیرانوسور ؛ تیرکس"
+    },
+    {
+     "word": "moved",
+     "fa": "حرکت کرد"
+    },
+    {
+     "word": "roared",
+     "fa": "غرید"
+    },
+    {
+     "word": "huge",
+     "fa": "عظیم"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "A little bit. William hid behind Daddy. Now I'm SO hungry. Can we have the cake? Daddy promised!",
+   "translations": {
+    "fa": "یه ذره. ویلیام پشت بابا قایم شد. حالا خیلی گشنمه. می‌شه کیک بخوریم؟ بابا قول داده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cakes",
+      "let's",
+      "look"
+     ],
+     "suggestion": "Yes. Let's look at the cakes.",
+     "suggestionFa": "آره. بیا کیک‌ها را ببینیم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sandwiches",
+      "first",
+      "then",
+      "cake"
+     ],
+     "suggestion": "Sandwiches first, then cake.",
+     "suggestionFa": "اول ساندویچ، بعد کیک.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a little bit",
+     "fa": "یک ذره"
+    },
+    {
+     "word": "hid",
+     "fa": "پنهان شد"
+    },
+    {
+     "word": "hungry",
+     "fa": "گرسنه"
+    },
+    {
+     "word": "promised",
+     "fa": "قول داد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Sandwiches first. Boring! OK. Look — there's a dinosaur cookie! And a chocolate cake. Which one?",
+   "translations": {
+    "fa": "اول ساندویچ. خسته‌کننده! باشه. ببین — کلوچهٔ دایناسوری هست! و کیک شکلاتی. کدومش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "share",
+      "let's",
+      "cake"
+     ],
+     "suggestion": "Let's share the chocolate cake.",
+     "suggestionFa": "بیا کیک شکلاتی را شریکی بخوریم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "choose",
+      "nicola"
+     ],
+     "suggestion": "You choose, Nicola.",
+     "suggestionFa": "تو انتخاب کن نیکولا.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boring",
+     "fa": "خسته‌کننده"
+    },
+    {
+     "word": "cookie",
+     "fa": "کلوچه"
+    },
+    {
+     "word": "share",
+     "fa": "تقسیم کردن ؛ شریکی خوردن"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we share chocolate",
+      "can we sharing"
+     ],
+     "echo": "Share the chocolate cake? Yes!",
+     "better": "Let's share the chocolate cake.",
+     "betterFa": "بیا کیک شکلاتی را شریکی بخوریم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Chocolate cake! Can you ask the lady? Say \"please\". Mummy says \"please\" is a magic word.",
+   "translations": {
+    "fa": "کیک شکلاتی! می‌شه از خانمه بخوای؟ بگو «لطفاً». مامان میگه «لطفاً» کلمهٔ جادوییه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hello",
+      "could",
+      "have",
+      "we"
+     ],
+     "suggestion": "Hello. Could we have a chocolate cake, please?",
+     "suggestionFa": "سلام. می‌شه یه کیک شکلاتی بدید، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forks",
+      "five",
+      "one"
+     ],
+     "suggestion": "One chocolate cake and five forks, please.",
+     "suggestionFa": "یه کیک شکلاتی و پنج تا چنگال، لطفاً.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "magic",
+     "fa": "جادویی"
+    },
+    {
+     "word": "forks",
+     "fa": "چنگال‌ها"
+    },
+    {
+     "word": "lady",
+     "fa": "خانم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "Of course! Wait — I know you! I work at the Copper Kettle at weekends. This is my weekday job. Small world!",
+   "translations": {
+    "fa": "حتماً! صبر کن — من شما را می‌شناسم! آخر هفته‌ها تو کاپر کتل کار می‌کنم. این کار وسط هفته‌امه. دنیا کوچیکه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surprise",
+      "sophie"
+     ],
+     "suggestion": "Sophie! What a surprise!",
+     "suggestionFa": "سوفی! چه غافلگیری!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "world",
+      "cake",
+      "much"
+     ],
+     "suggestion": "Small world! How much is the cake?",
+     "suggestionFa": "دنیا کوچیکه! کیک چنده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weekday",
+     "fa": "روز وسط هفته"
+    },
+    {
+     "word": "small world",
+     "fa": "دنیا کوچک است"
+    },
+    {
+     "word": "surprise",
+     "fa": "غافلگیری"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sophie",
+   "text": "Six pounds fifty. Museum prices, I'm afraid! I'll put extra cream on it for you.",
+   "translations": {
+    "fa": "شش پوند و پنجاه. قیمت موزه‌ای، متأسفانه! براتون خامهٔ اضافه می‌ذارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sophie",
+      "that's",
+      "thank",
+      "kind"
+     ],
+     "suggestion": "Thank you, Sophie! That's very kind.",
+     "suggestionFa": "ممنون سوفی! خیلی لطف داری.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fifty",
+      "cake",
+      "six",
+      "one"
+     ],
+     "suggestion": "Six fifty! For one cake?",
+     "suggestionFa": "شش و پنجاه! برای یه کیک؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'm afraid",
+     "fa": "متأسفانه"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    },
+    {
+     "word": "cream",
+     "fa": "خامه"
+    },
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Extra cream! The dinosaur was bigger than our house. And the whale was bigger than a bus!",
+   "translations": {
+    "fa": "خامهٔ اضافه! دایناسوره از خونهٔ ما بزرگ‌تر بود. و نهنگ از اتوبوس بزرگ‌تر بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "daddy's",
+      "bigger",
+      "than",
+      "bus"
+     ],
+     "suggestion": "Bigger than Daddy's bus?",
+     "suggestionFa": "بزرگ‌تر از اتوبوس بابا؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "favourite",
+      "which",
+      "was"
+     ],
+     "suggestion": "Which was your favourite?",
+     "suggestionFa": "کدومش را بیشتر دوست داشتی؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "skeleton",
+     "fa": "اسکلت"
+    },
+    {
+     "word": "whale",
+     "fa": "نهنگ"
+    },
+    {
+     "word": "bigger than",
+     "fa": "بزرگ‌تر از"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Bigger than TWO buses! I loved the T. rex. When I grow up, I'll dig up dinosaurs!",
+   "translations": {
+    "fa": "بزرگ‌تر از دو تا اتوبوس! عاشق تیرکس شدم. وقتی بزرگ شدم، دایناسور از زیر خاک درمیارم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

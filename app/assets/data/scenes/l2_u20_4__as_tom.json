@@ -1,0 +1,323 @@
+{
+ "id": "l2_u20_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Going home",
+ "titleFa": "(در نقش Tom) ترخیص و برگشت به خانه",
+ "setting": "Hospital visits · Level 2",
+ "settingFa": "بیمارستان",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u20_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discharged",
+      "medicines",
+      "dad's",
+      "being",
+      "means"
+     ],
+     "suggestion": "Good news! Dad's being discharged today. That means he can go home. But first we wait for his medicines.",
+     "suggestionFa": "خبر خوب! بابا امروز مرخص میشه. یعنی می‌تونه بره خونه. ولی اول منتظر داروهاش می‌مونیم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "That's great news! How long do we wait?",
+   "translations": {
+    "fa": "خبر خیلی خوبیه! چقدر منتظر بمونیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pharmacy",
+      "changed",
+      "classic",
+      "tablets",
+      "maybe"
+     ],
+     "suggestion": "The tests were OK. They changed one of his tablets. The pharmacy here is slow — maybe two hours. Classic NHS!",
+     "suggestionFa": "آزمایش‌ها خوب بودن. یکی از قرص‌هاش را عوض کردن. داروخانهٔ اینجا کنده — شاید دو ساعت. کلاسیک NHS!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Two hours! Shall I tell Maggie?",
+   "translations": {
+    "fa": "دو ساعت! به مگی بگم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "george",
+   "text": "No paying! I'm over sixty — prescriptions are free. Best thing about getting old, that.",
+   "translations": {
+    "fa": "پول نه! بالای شصت سالمه — نسخه مجانیه. بهترین چیزِ پیر شدن همینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "over sixty",
+     "fa": "بالای شصت"
+    },
+    {
+     "word": "prescriptions",
+     "fa": "نسخه‌ها"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you leave hospital, you usually get a \"discharge letter\". A copy also goes to your GP.",
+    "fa": "هنگام ترخیص نامهٔ ترخیص می‌دهند و نسخه‌ای به پزشک عمومی می‌رود."
+   }
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Lucky you, George!",
+   "translations": {
+    "fa": "خوش به حالت جورج!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "discharge",
+      "morning",
+      "himself",
+      "letter",
+      "kilos"
+     ],
+     "suggestion": "Yes, the discharge letter. It says he has to weigh himself every morning. If he puts on two kilos in three days, call the GP.",
+     "suggestionFa": "آره، نامهٔ ترخیص. نوشته باید هر روز صبح خودش را وزن کنه. اگه تو سه روز دو کیلو اضافه کرد، به پزشک عمومی زنگ بزنه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Why every morning?",
+   "translations": {
+    "fa": "چرا هر روز صبح؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "notebook",
+      "failure",
+      "weight",
+      "water",
+      "heart"
+     ],
+     "suggestion": "With heart failure, extra weight can mean water in the body. Mum will write it in her notebook. She loves a notebook.",
+     "suggestionFa": "با نارسایی قلبی، وزن اضافه می‌تونه یعنی آب تو بدن. مامان تو دفترش می‌نویسه. عاشق دفترچه‌ست.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That makes sense. What else did they say?",
+   "translations": {
+    "fa": "منطقیه. دیگه چی گفتن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "george",
+   "text": "And less salt, they said. No more crisps. No more chips. Life is over!",
+   "translations": {
+    "fa": "و نمک کمتر، گفتن. دیگه چیپس نه. دیگه سیب‌زمینی سرخ‌کرده نه. زندگی تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extra weight",
+     "fa": "وزن اضافه"
+    },
+    {
+     "word": "less salt",
+     "fa": "نمک کمتر"
+    },
+    {
+     "word": "herbs",
+     "fa": "سبزی‌های معطر"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Persian food uses lots of herbs. It's tasty without salt!",
+   "translations": {
+    "fa": "غذای ایرانی پر از سبزیه. بی‌نمک هم خوشمزه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "george",
+   "text": "Herbs, eh? Fine. You cook, I'll eat. Deal? Now, son, find that pharmacy and get me out of here!",
+   "translations": {
+    "fa": "سبزی، ها؟ باشه. تو بپز، من می‌خورم. قبول؟ حالا پسرم، اون داروخانه را پیدا کن و منو از اینجا ببر بیرون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deal",
+     "fa": "قبول ؛ معامله"
+    },
+    {
+     "word": "get me out",
+     "fa": "مرا بیرون ببر"
+    },
+    {
+     "word": "cook",
+     "fa": "آشپزی کردن"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Deal! I'll cook on Sunday.",
+   "translations": {
+    "fa": "قبول! یکشنبه آشپزی می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "honestly",
+      "standing",
+      "you've",
+      "thanks"
+     ],
+     "suggestion": "Thanks, mate. Honestly — you've been brilliant this week. Dad says you're the son he never had. I'm standing right here, Dad!",
+     "suggestionFa": "ممنون رفیق. راستش — این هفته فوق‌العاده بودی. بابا میگه تو پسری هستی که هیچ‌وقت نداشته. من همین‌جا وایسادم بابا!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

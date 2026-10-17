@@ -1,0 +1,441 @@
+{
+ "id": "l2_u15_2",
+ "characterId": "doris",
+ "title": "Tapping in",
+ "titleFa": "کارت زدن",
+ "setting": "Buses and Oyster · Level 2",
+ "settingFa": "اتوبوس و کارت اویستر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Morning, dear. You're new on the 38, aren't you? I know everyone on this bus.",
+   "translations": {
+    "fa": "صبح بخیر عزیزم. تو ۳۸ تازه‌واردی، نه؟ من همهٔ آدمای این اتوبوس را می‌شناسم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "mare",
+      "live",
+      "new"
+     ],
+     "suggestion": "Yes, I'm new. I live on Mare Street.",
+     "suggestionFa": "بله، تازه‌واردم. تو مِر استریت زندگی می‌کنم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "morning",
+      "card",
+      "here",
+      "good"
+     ],
+     "suggestion": "Good morning. Do I tap my card here?",
+     "suggestionFa": "صبح بخیر. کارتم را اینجا بزنم؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dear",
+     "fa": "عزیزم"
+    },
+    {
+     "word": "new",
+     "fa": "تازه‌وارد"
+    },
+    {
+     "word": "everyone",
+     "fa": "همه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "On the yellow circle, by the driver. You have to tap in when you get on.",
+   "translations": {
+    "fa": "روی دایرهٔ زرد، کنار راننده. وقتی سوار می‌شی باید کارت بزنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "when",
+      "have",
+      "tap",
+      "get"
+     ],
+     "suggestion": "Do I have to tap out when I get off?",
+     "suggestionFa": "وقتی پیاده می‌شم هم باید کارت بزنم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doesn't",
+      "beep",
+      "if"
+     ],
+     "suggestion": "And if it doesn't beep?",
+     "suggestionFa": "و اگه بوق نزد؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yellow circle",
+     "fa": "دایرهٔ زرد"
+    },
+    {
+     "word": "tap in",
+     "fa": "کارت زدن هنگام سوار شدن"
+    },
+    {
+     "word": "get on",
+     "fa": "سوار شدن"
+    },
+    {
+     "word": "get off",
+     "fa": "پیاده شدن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "No, you don't have to tap out on buses. Only on the Tube and trains. Buses are one price.",
+   "translations": {
+    "fa": "نه، تو اتوبوس لازم نیست موقع پیاده شدن کارت بزنی. فقط تو مترو و قطار. اتوبوس یه قیمت داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "journey",
+      "that's",
+      "price",
+      "easy"
+     ],
+     "suggestion": "That's easy. One price for any journey.",
+     "suggestionFa": "آسونه. یه قیمت برای هر مسیری.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "have",
+      "tube",
+      "tap",
+      "out"
+     ],
+     "suggestion": "So on the Tube I have to tap out?",
+     "suggestionFa": "پس تو مترو باید موقع خروج کارت بزنم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tap out",
+     "fa": "کارت زدن هنگام خروج"
+    },
+    {
+     "word": "Tube",
+     "fa": "متروی لندن"
+    },
+    {
+     "word": "journey",
+     "fa": "سفر ؛ مسیر"
+    }
+   ],
+   "cultureNote": {
+    "en": "If you forget to tap out on the Tube, you pay the maximum fare. On buses you only tap in.",
+    "fa": "اگر در مترو هنگام خروج کارت نزنی، بیشترین کرایه را می‌پردازی."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i have tap out",
+      "i must to tap"
+     ],
+     "echo": "You have to tap out on the Tube, yes.",
+     "better": "You have to tap out on the Tube.",
+     "betterFa": "در مترو باید هنگام خروج کارت بزنی."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "Yes, or they charge you the most expensive fare. My friend Pat forgot once. Eight pounds! She still talks about it.",
+   "translations": {
+    "fa": "آره، وگرنه گرون‌ترین کرایه را ازت می‌گیرن. دوستم پت یه بار یادش رفت. هشت پوند! هنوز درباره‌ش حرف می‌زنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "pounds",
+      "eight",
+      "i'll"
+     ],
+     "suggestion": "Eight pounds! I'll remember.",
+     "suggestionFa": "هشت پوند! یادم می‌مونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "poor",
+      "pat"
+     ],
+     "suggestion": "Poor Pat!",
+     "suggestionFa": "بیچاره پت!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "charge",
+     "fa": "پول گرفتن"
+    },
+    {
+     "word": "most expensive",
+     "fa": "گران‌ترین"
+    },
+    {
+     "word": "forgot",
+     "fa": "فراموش کرد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Now, a few rules. You don't have to stand if there's a seat. But give that seat to anyone who needs it.",
+   "translations": {
+    "fa": "خب، چند تا قانون. اگه صندلی هست لازم نیست وایسی. ولی اون صندلی را به هر کی لازم داره بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "priority",
+      "course",
+      "seats",
+      "like"
+     ],
+     "suggestion": "Of course. Like the priority seats?",
+     "suggestionFa": "البته. مثل صندلی‌های اولویت‌دار؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "needs",
+      "most",
+      "who"
+     ],
+     "suggestion": "Who needs it most?",
+     "suggestionFa": "کی بیشتر لازم داره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rules",
+     "fa": "قوانین"
+    },
+    {
+     "word": "seat",
+     "fa": "صندلی"
+    },
+    {
+     "word": "priority seats",
+     "fa": "صندلی‌های اولویت‌دار"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Older people, pregnant ladies, people with a stick. And me! I'm eighty-one, you know.",
+   "translations": {
+    "fa": "آدمای مسن، خانم‌های باردار، کسایی که عصا دارن. و من! می‌دونی، هشتاد و یک سالمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eighty",
+      "don't",
+      "look",
+      "one"
+     ],
+     "suggestion": "Eighty-one? You don't look it!",
+     "suggestionFa": "هشتاد و یک؟ اصلاً بهت نمیاد!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "have",
+      "seat"
+     ],
+     "suggestion": "Please, have my seat.",
+     "suggestionFa": "بفرمایید، جای من بشینید.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "older people",
+     "fa": "افراد مسن"
+    },
+    {
+     "word": "pregnant",
+     "fa": "باردار"
+    },
+    {
+     "word": "stick",
+     "fa": "عصا"
+    },
+    {
+     "word": "you don't look it",
+     "fa": "بهت نمی‌آید"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Charmer! Thank you, dear. Oh, and you have to press the bell before your stop. The red button.",
+   "translations": {
+    "fa": "زبون‌باز! ممنون عزیزم. آهان، و باید قبل از ایستگاهت زنگ را بزنی. دکمهٔ قرمز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "press",
+      "when"
+     ],
+     "suggestion": "When do I press it?",
+     "suggestionFa": "کی بزنمش؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "just",
+      "once"
+     ],
+     "suggestion": "Just once?",
+     "suggestionFa": "فقط یه بار؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "charmer",
+     "fa": "زبان‌باز ؛ دلبر"
+    },
+    {
+     "word": "bell",
+     "fa": "زنگ"
+    },
+    {
+     "word": "stop",
+     "fa": "ایستگاه"
+    },
+    {
+     "word": "button",
+     "fa": "دکمه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "Just once — when you hear the name of the stop before yours. Ring it twice and the driver gets grumpy. Unless it's Tom!",
+   "translations": {
+    "fa": "فقط یه بار — وقتی اسم ایستگاه قبل از ایستگاهت را شنیدی. دو بار بزنی راننده بداخلاق میشه. مگه اینکه تام باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "grumpy",
+      "never",
+      "gets",
+      "tom"
+     ],
+     "suggestion": "Tom never gets grumpy.",
+     "suggestionFa": "تام هیچ‌وقت بداخلاق نمیشه.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "promise",
+      "press",
+      "once",
+      "i'll"
+     ],
+     "suggestion": "I'll press it once. Promise!",
+     "suggestionFa": "یه بار می‌زنم. قول میدم!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "once",
+     "fa": "یک بار"
+    },
+    {
+     "word": "twice",
+     "fa": "دو بار"
+    },
+    {
+     "word": "grumpy",
+     "fa": "بداخلاق"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "doris",
+   "text": "Tom tells jokes instead. That's worse! Ooh, this is my stop. Ring the bell for me, dear. Once!",
+   "translations": {
+    "fa": "تام به جاش جوک میگه. اون بدتره! اوه، اینجا ایستگاه منه. زنگ را برام بزن عزیزم. یه بار!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

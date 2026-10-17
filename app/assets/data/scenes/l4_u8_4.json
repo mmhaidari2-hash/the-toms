@@ -33,8 +33,8 @@
     {
      "keywords": [
       "sounds",
-      "flag",
       "true",
+      "flag",
       "good"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
@@ -81,10 +81,10 @@
    "branches": [
     {
      "keywords": [
-      "sample",
       "biased",
-      "size",
-      "tiny"
+      "sample",
+      "tiny",
+      "size"
      ],
      "suggestion": "So it's biased and the sample size is tiny.",
      "suggestionFa": "پس مغرضانه‌ست و اندازهٔ نمونه خیلی کوچیکه.",
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "even"
+      "then"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "look",
-      "clip"
+      "clip",
+      "look"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -156,8 +156,8 @@
     },
     {
      "keywords": [
-      "reported",
       "reliable",
+      "reported",
       "whether",
       "outlets"
      ],
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "pause",
       "share",
+      "pause",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

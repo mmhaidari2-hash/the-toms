@@ -25,7 +25,7 @@
       "hands",
       "dirty",
       "look",
-      "was"
+      "mud"
      ],
      "suggestion": "My hands are dirty! I was in the garden. Look — mud!",
      "suggestionFa": "دستام کثیفه! تو باغ بودم. ببین — گِل!",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "reach",
       "can't",
+      "reach",
       "help",
       "tap",
       "can"
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "water",
-      "warm",
-      "cold",
       "want",
+      "cold",
+      "warm",
       "brr"
      ],
      "suggestion": "Brr! It's cold! I want warm water.",
@@ -98,9 +98,9 @@
      "keywords": [
       "seconds",
       "twenty",
-      "first",
+      "water",
       "mummy",
-      "water"
+      "first"
      ],
      "suggestion": "First water, then soap. Mummy says twenty seconds.",
      "suggestionFa": "اول آب، بعد صابون. مامان می‌گه بیست ثانیه.",
@@ -125,7 +125,7 @@
       "bubbles",
       "twenty",
       "three",
-      "one"
+      "two"
      ],
      "suggestion": "One, two, three… twenty! Bubbles everywhere!",
      "suggestionFa": "یک، دو، سه… بیست! همه جا حباب!",
@@ -173,8 +173,8 @@
       "before",
       "hands",
       "lunch",
-      "them",
-      "when"
+      "when",
+      "wash"
      ],
      "suggestion": "When do you wash your hands? I wash them before lunch.",
      "suggestionFa": "تو کِی دستات را می‌شوری؟ من قبل از ناهار می‌شورم.",
@@ -196,9 +196,9 @@
     {
      "keywords": [
       "biscuit",
-      "touch",
-      "after",
       "tiger",
+      "after",
+      "touch",
       "have"
      ],
      "suggestion": "Me too! And after I touch Tiger the cat. Can I have a biscuit now?",
@@ -223,8 +223,8 @@
       "chocolate",
       "biscuit",
       "mummy",
-      "have",
-      "says"
+      "says",
+      "have"
      ],
      "suggestion": "Mummy! Can I have a biscuit? She says yes! A chocolate one!",
      "suggestionFa": "مامان! می‌تونم بیسکویت بخورم؟ می‌گه آره! یه شکلاتی!",

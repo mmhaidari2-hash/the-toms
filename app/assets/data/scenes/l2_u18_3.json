@@ -1,0 +1,391 @@
+{
+ "id": "l2_u18_3",
+ "characterId": "doris",
+ "title": "Giving up your seat",
+ "titleFa": "دادن جای خود به دیگران",
+ "setting": "On the 38 · Level 2",
+ "settingFa": "سوار اتوبوس ۳۸",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Psst, dear. That lady with the badge. Look — \"Baby on board\". She's been standing since the market.",
+   "translations": {
+    "fa": "پیس، عزیزم. اون خانم با اون نشان. ببین — «بچه در راه». از بازار تا حالا سرپا وایساده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "offer",
+      "seat",
+      "her"
+     ],
+     "suggestion": "Oh! Should I offer her my seat?",
+     "suggestionFa": "اوه! جام را بهش تعارف کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "board",
+      "baby",
+      "mean"
+     ],
+     "suggestion": "What does \"Baby on board\" mean?",
+     "suggestionFa": "«بِیبی آن بورد» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "badge",
+     "fa": "نشان ؛ بج"
+    },
+    {
+     "word": "baby on board",
+     "fa": "بچه در راه است"
+    },
+    {
+     "word": "standing",
+     "fa": "ایستاده"
+    }
+   ],
+   "cultureNote": {
+    "en": "TfL gives free \"Baby on board\" badges to pregnant women, and \"Please offer me a seat\" badges to people who need one.",
+    "fa": "TfL به زنان باردار نشان مخصوص می‌دهد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "It means she's expecting. Yes, offer it. Nicely. Not too loud — some people get embarrassed.",
+   "translations": {
+    "fa": "یعنی بارداره. آره، تعارف کن. با احترام. نه خیلی بلند — بعضیا خجالت می‌کشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "excuse",
+      "would",
+      "like",
+      "down"
+     ],
+     "suggestion": "Excuse me. Would you like to sit down?",
+     "suggestionFa": "ببخشید. می‌خواید بشینید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "seat",
+      "take",
+      "here"
+     ],
+     "suggestion": "Hi. Here, please take my seat.",
+     "suggestionFa": "سلام. بفرمایید، جای من بشینید.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "expecting",
+     "fa": "باردار"
+    },
+    {
+     "word": "nicely",
+     "fa": "با احترام ؛ مؤدبانه"
+    },
+    {
+     "word": "embarrassed",
+     "fa": "خجالت‌زده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you want sit",
+      "you like sit down"
+     ],
+     "echo": "Would you like to sit down? Lovely.",
+     "better": "Would you like to sit down?",
+     "betterFa": "می‌خواهید بنشینید؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "Look at her smile! \"Thank you so much.\" See? A little kindness. Now, a man with a buggy is getting on.",
+   "translations": {
+    "fa": "لبخندش را ببین! «خیلی ممنون.» دیدی؟ یه ذره مهربونی. حالا، یه آقا با کالسکه داره سوار میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where",
+      "buggy",
+      "go"
+     ],
+     "suggestion": "Where does the buggy go?",
+     "suggestionFa": "کالسکه کجا میره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "standing",
+      "should",
+      "space",
+      "move"
+     ],
+     "suggestion": "Should I move? I'm standing in the space.",
+     "suggestionFa": "جابه‌جا بشم؟ تو جای مخصوص وایسادم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kindness",
+     "fa": "مهربانی"
+    },
+    {
+     "word": "buggy",
+     "fa": "کالسکهٔ بچه"
+    },
+    {
+     "word": "space",
+     "fa": "فضا ؛ جا"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "In the big space in the middle. But if a wheelchair user comes, the wheelchair has priority. That's the rule.",
+   "translations": {
+    "fa": "تو فضای بزرگ وسط. ولی اگه یه نفر با ویلچر بیاد، ویلچر اولویت داره. این قانونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buggy",
+      "fold",
+      "has"
+     ],
+     "suggestion": "So the buggy has to fold?",
+     "suggestionFa": "پس کالسکه باید جمع بشه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "that's",
+      "fair",
+      "rule"
+     ],
+     "suggestion": "That's a good rule. Fair for everyone.",
+     "suggestionFa": "قانون خوبیه. برای همه منصفانه‌ست.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "middle",
+     "fa": "وسط"
+    },
+    {
+     "word": "wheelchair",
+     "fa": "ویلچر ؛ صندلی چرخدار"
+    },
+    {
+     "word": "priority",
+     "fa": "اولویت"
+    },
+    {
+     "word": "fold",
+     "fa": "تا کردن ؛ جمع کردن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "If there's no room, yes, they fold it. Ooh — and there's Mr Okoro with his stick. Can you help him to a seat?",
+   "translations": {
+    "fa": "اگه جا نباشه، آره، جمعش می‌کنن. اوه — و آقای اوکورو با عصاش. می‌تونی کمکش کنی بشینه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "hello",
+      "need",
+      "hand"
+     ],
+     "suggestion": "Hello, sir. Do you need a hand? There's a seat here.",
+     "suggestionFa": "سلام آقا. کمک لازم دارید؟ اینجا یه صندلی هست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "help",
+      "hold",
+      "can",
+      "arm"
+     ],
+     "suggestion": "Can I help you? Hold my arm.",
+     "suggestionFa": "می‌تونم کمکتون کنم؟ بازوم را بگیرید.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stick",
+     "fa": "عصا"
+    },
+    {
+     "word": "need a hand",
+     "fa": "کمک لازم داشتن"
+    },
+    {
+     "word": "hold",
+     "fa": "گرفتن"
+    },
+    {
+     "word": "arm",
+     "fa": "بازو"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Lovely. He's eighty-six and he still goes to the market every day. Now you have to stand! How does it feel?",
+   "translations": {
+    "fa": "عالی. هشتاد و شش سالشه و هنوز هر روز میره بازار. حالا تو باید وایسی! چه حسی داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "standing",
+      "don't",
+      "feels",
+      "good"
+     ],
+     "suggestion": "It feels good. I don't mind standing.",
+     "suggestionFa": "حس خوبی داره. وایسادن برام مهم نیست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "young",
+      "fine",
+      "legs"
+     ],
+     "suggestion": "My legs are young. It's fine!",
+     "suggestionFa": "پاهام جوونن. اشکالی نداره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "feels",
+     "fa": "حس می‌کند"
+    },
+    {
+     "word": "I don't mind",
+     "fa": "برایم مهم نیست ؛ اشکالی ندارد"
+    },
+    {
+     "word": "legs",
+     "fa": "پاها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "In Iran, do young people stand up for older people?",
+   "translations": {
+    "fa": "تو ایران، جوونا جلوی پای بزرگ‌ترها بلند میشن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "important",
+      "always",
+      "us"
+     ],
+     "suggestion": "Yes, always. It's very important to us.",
+     "suggestionFa": "آره، همیشه. برامون خیلی مهمه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "women",
+      "offer",
+      "seat",
+      "our"
+     ],
+     "suggestion": "Yes. And we offer our seat to women too.",
+     "suggestionFa": "آره. و جامون را به خانم‌ها هم تعارف می‌کنیم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "young people",
+     "fa": "جوان‌ها"
+    },
+    {
+     "word": "stand up for",
+     "fa": "جلوی پای کسی بلند شدن"
+    },
+    {
+     "word": "offer",
+     "fa": "تعارف کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "Good. Your mum raised you well. Some young ones here pretend to be asleep! Not you, dear. You're one of us now.",
+   "translations": {
+    "fa": "خوبه. مامانت خوب بزرگت کرده. بعضی جوونای اینجا خودشون را به خواب می‌زنن! نه تو، عزیزم. حالا دیگه یکی از مایی."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

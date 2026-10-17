@@ -20,8 +20,8 @@
     {
      "keywords": [
       "happened",
-      "doris",
-      "hello"
+      "hello",
+      "doris"
      ],
      "suggestion": "Hello, Doris! What happened?",
      "suggestionFa": "سلام دوریس! چی شد؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "owner",
+      "where",
       "way"
      ],
      "suggestion": "No way! Where was the owner?",
@@ -151,8 +151,8 @@
    "branches": [
     {
      "keywords": [
-      "some",
       "give",
+      "some",
       "did"
      ],
      "suggestion": "Did you give it some?",

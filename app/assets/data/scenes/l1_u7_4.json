@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "can",
-      "ask"
+      "ask",
+      "can"
      ],
      "suggestion": "I can ask for you.",
      "suggestionFa": "من می‌تونم براتون بپرسم.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "recommend",
       "something",
+      "recommend",
       "excuse",
       "can"
      ],
@@ -169,8 +169,8 @@
     {
      "keywords": [
       "spoons",
-      "times",
       "three",
+      "times",
       "two"
      ],
      "suggestion": "Two spoons, three times a day. OK!",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "better",
-      "soon",
       "feel",
+      "soon",
       "hope"
      ],
      "suggestion": "I hope you feel better soon.",

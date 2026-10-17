@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "socks",
       "these",
       "pairs",
-      "need",
-      "find"
+      "socks",
+      "help",
+      "need"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
      "suggestionFa": "این همه جوراب را ببین! کمکم می‌کنی؟ باید جفت‌ها را پیدا کنیم.",
@@ -98,9 +98,9 @@
      "keywords": [
       "william's",
       "aren't",
-      "sweet",
-      "white",
-      "these"
+      "these",
+      "one's",
+      "white"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
      "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "they've",
-      "tom's",
-      "socks",
       "these",
+      "socks",
+      "tom's",
       "grey"
      ],
      "suggestion": "And these big grey socks are Tom's. They've got a hole!",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "where's",
-      "other",
       "green",
+      "other",
       "sock",
       "now"
      ],
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "disappear",
-      "machine",
       "washing",
+      "machine",
       "always",
       "socks"
      ],
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "nobody",
+      "pairs",
       "knows",
       "count",
-      "pairs",
-      "them"
+      "have"
      ],
      "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
      "suggestionFa": "هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "drawers",
-      "let's",
       "thank",
-      "eight",
-      "pairs"
+      "pairs",
+      "let's",
+      "eight"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",
      "suggestionFa": "هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!",

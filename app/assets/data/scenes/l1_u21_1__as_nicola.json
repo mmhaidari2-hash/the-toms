@@ -25,7 +25,7 @@
       "tuesday",
       "monday",
       "what's",
-      "days"
+      "next"
      ],
      "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
      "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
@@ -50,7 +50,7 @@
       "there",
       "funny",
       "word",
-      "wed"
+      "why"
      ],
      "suggestion": "Wednesday is a funny word. Wed-nes-day. Why is there a \"d\"?",
      "suggestionFa": "چهارشنبه کلمهٔ بامزه‌ایه. Wed-nes-day. چرا یه «d» داره؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "thursday",
       "saturday",
+      "thursday",
       "weekend",
-      "friday",
-      "sunday"
+      "sunday",
+      "friday"
      ],
      "suggestion": "Thursday, Friday, Saturday, Sunday! Saturday and Sunday are the weekend. I love the weekend!",
      "suggestionFa": "پنجشنبه، جمعه، شنبه، یکشنبه! شنبه و یکشنبه آخر هفته‌ان. عاشق آخر هفته‌ام!",
@@ -96,10 +96,10 @@
    "branches": [
     {
      "keywords": [
-      "strange",
       "fridays",
-      "that's",
-      "friday"
+      "strange",
+      "friday",
+      "that's"
      ],
      "suggestion": "Friday? That's strange! What do you do on Fridays?",
      "suggestionFa": "جمعه؟ عجیبه! جمعه‌ها چی کار می‌کنید؟",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "saturdays",
       "mountains",
+      "saturdays",
       "english",
       "ballet",
       "class"
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "thursday",
       "tomorrow",
+      "thursday",
       "fridays",
       "friday",
       "chips"
@@ -192,11 +192,11 @@
    "branches": [
     {
      "keywords": [
-      "friday",
       "chippy",
-      "daddy",
+      "friday",
       "every",
-      "says"
+      "daddy",
+      "from"
      ],
      "suggestion": "Yes! Every Friday from the chippy. Daddy says it's the law!",
      "suggestionFa": "آره! هر جمعه از چیپس‌فروشی. بابا می‌گه قانونه!",
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "wednesday",
-      "thursday",
       "saturday",
+      "thursday",
       "tuesday",
       "monday"
      ],

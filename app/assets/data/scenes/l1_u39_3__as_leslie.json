@@ -48,9 +48,9 @@
      "keywords": [
       "fridge",
       "bottom",
+      "milk",
       "door",
-      "goes",
-      "milk"
+      "goes"
      ],
      "suggestion": "Milk goes in the fridge. In the door, at the bottom.",
      "suggestionFa": "شیر میره تو یخچال. تو در، پایین.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cupboard",
-      "fridge",
       "butter",
-      "eggs",
-      "goes"
+      "fridge",
+      "goes",
+      "eggs"
      ],
      "suggestion": "Butter goes in the fridge too. Eggs go in the cupboard.",
      "suggestionFa": "کره هم میره تو یخچال. تخم‌مرغ‌ها میرن تو کابینت.",
@@ -124,8 +124,8 @@
       "cupboard",
       "bottom",
       "shelf",
-      "tins",
-      "rice"
+      "tall",
+      "tins"
      ],
      "suggestion": "Rice and tins go in the tall cupboard. The bottom shelf.",
      "suggestionFa": "برنج و کنسروها میرن تو کابینت بلنده. قفسهٔ پایینی.",
@@ -148,9 +148,9 @@
      "keywords": [
       "toaster",
       "bananas",
-      "fruit",
       "bread",
-      "bowl"
+      "fruit",
+      "next"
      ],
      "suggestion": "In the bread bin, next to the toaster. And the bananas go in the fruit bowl.",
      "suggestionFa": "تو جانونی، کنار توستر. و موزها میرن تو کاسهٔ میوه.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "actually",
-      "william",
       "washing",
+      "william",
       "powder",
       "under"
      ],
@@ -200,7 +200,7 @@
       "perfect",
       "kitchen",
       "better",
-      "puts"
+      "milk"
      ],
      "suggestion": "Perfect. You know my kitchen better than Tom now! He puts the milk in the cupboard!",
      "suggestionFa": "عالی. الان آشپزخونه‌م را از تام بهتر بلدی! اون شیر را تو کابینت می‌ذاره!",

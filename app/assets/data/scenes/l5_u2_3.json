@@ -35,7 +35,7 @@
       "nicola",
       "never",
       "grass",
-      "been"
+      "must"
      ],
      "suggestion": "Me? I'd never grass you up. It must have been Nicola.",
      "suggestionFa": "من؟ هیچ‌وقت لوت نمی‌دم. حتماً نیکولا بوده.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "pence",
-      "ryan",
       "size",
+      "ryan",
       "coin"
      ],
      "suggestion": "It was the size of a five-pence coin, Ryan.",
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "before",
-      "joins",
-      "let's"
+      "nicola",
+      "truce",
+      "joins"
      ],
      "suggestion": "Fair. Let's call a truce before Nicola joins in.",
      "suggestionFa": "منصفانه. بیا قبل از اینکه نیکولا هم اضافه بشه آتش‌بس کنیم.",
@@ -188,7 +188,7 @@
       "paddington",
       "everyone",
       "cries",
-      "law"
+      "end"
      ],
      "suggestion": "Everyone cries at the end of Paddington 2. It's the law.",
      "suggestionFa": "همه آخر پدینگتون ۲ گریه می‌کنن. قانونه.",
@@ -198,8 +198,8 @@
     },
     {
      "keywords": [
-      "that's",
       "really",
+      "that's",
       "ryan",
       "low"
      ],

@@ -23,8 +23,8 @@
      "keywords": [
       "starving",
       "o'clock",
-      "lunch",
       "shall",
+      "lunch",
       "have"
      ],
      "suggestion": "I'm starving! It's one o'clock. What shall we have for lunch?",
@@ -48,8 +48,8 @@
      "keywords": [
       "something",
       "british",
-      "tried",
-      "lunch",
+      "quick",
+      "beans",
       "toast"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "drawer",
+      "you'll",
       "opener",
-      "open",
-      "love"
+      "love",
+      "open"
      ],
      "suggestion": "You'll love it. Can you open the tin? The tin opener is in the drawer.",
      "suggestionFa": "عاشقش می‌شی. قوطی را باز می‌کنی؟ دربازکن تو کشوئه.",
@@ -98,9 +98,9 @@
      "keywords": [
       "toaster",
       "slices",
-      "beans",
       "bread",
-      "each"
+      "beans",
+      "pour"
      ],
      "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
      "suggestionFa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟",
@@ -124,8 +124,8 @@
       "please",
       "don't",
       "beans",
-      "them",
-      "burn"
+      "burn",
+      "stir"
      ],
      "suggestion": "Stir the beans, please. Don't let them burn!",
      "suggestionFa": "لوبیا را هم بزن، لطفاً. نذار بسوزه!",
@@ -149,8 +149,8 @@
       "toast's",
       "cheese",
       "butter",
-      "ready",
-      "yours"
+      "yours",
+      "beans"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
      "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "cheese",
       "secret",
+      "cheese",
       "brown",
       "sauce",
       "now"

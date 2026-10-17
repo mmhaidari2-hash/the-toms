@@ -1,0 +1,368 @@
+{
+ "id": "l2_u16_3",
+ "characterId": "priya",
+ "title": "Loyalty card",
+ "titleFa": "کارت باشگاه مشتریان",
+ "setting": "Food shopping · Level 2",
+ "settingFa": "خرید مواد غذایی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "That's twenty-three pounds forty. Have you got a loyalty card?",
+   "translations": {
+    "fa": "می‌شه بیست و سه پوند و چهل پنس. کارت باشگاه مشتریان داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "got",
+      "one"
+     ],
+     "suggestion": "No, I haven't got one. What is it?",
+     "suggestionFa": "نه، ندارم. چی هست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "loyalty",
+      "card",
+      "free"
+     ],
+     "suggestion": "A loyalty card? Is it free?",
+     "suggestionFa": "کارت باشگاه مشتریان؟ مجانیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loyalty card",
+     "fa": "کارت باشگاه مشتریان"
+    },
+    {
+     "word": "pounds",
+     "fa": "پوند"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "It's free. You get points every time you shop, and member prices. Today you'd save… two pounds ten.",
+   "translations": {
+    "fa": "مجانیه. هر بار خرید می‌کنی امتیاز می‌گیری، و قیمت اعضا. امروز صرفه‌جویی می‌کردی… دو پوند و ده پنس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "how",
+      "two",
+      "get"
+     ],
+     "suggestion": "Two pounds! How do I get one?",
+     "suggestionFa": "دو پوند! چطوری یکی بگیرم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "points",
+      "can"
+     ],
+     "suggestion": "What can I do with the points?",
+     "suggestionFa": "با امتیازها چی کار می‌تونم بکنم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "points",
+     "fa": "امتیازها"
+    },
+    {
+     "word": "member prices",
+     "fa": "قیمت اعضا"
+    },
+    {
+     "word": "save",
+     "fa": "پس‌انداز کردن ؛ صرفه‌جویی کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how i get one",
+      "how can get it"
+     ],
+     "echo": "How do you get one? Easy.",
+     "better": "How do I get one?",
+     "betterFa": "چطور یکی بگیرم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Download the app — it takes two minutes. Name, email, postcode. Then I scan your phone.",
+   "translations": {
+    "fa": "برنامه را دانلود کن — دو دقیقه طول می‌کشه. اسم، ایمیل، کد پستی. بعد گوشیت را اسکن می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "phone",
+      "have",
+      "give"
+     ],
+     "suggestion": "Do I have to give my phone number?",
+     "suggestionFa": "باید شمارهٔ تلفنم را بدم؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "downloading",
+      "now",
+      "ok"
+     ],
+     "suggestion": "OK, I'm downloading it now.",
+     "suggestionFa": "باشه، دارم دانلودش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "download",
+     "fa": "دانلود کردن"
+    },
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    },
+    {
+     "word": "postcode",
+     "fa": "کد پستی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Most UK supermarkets have loyalty schemes like Clubcard or Nectar. Members often get lower prices.",
+    "fa": "بیشتر سوپرمارکت‌ها برنامهٔ وفاداری دارند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "No, just email is fine. Don't worry, there's a queue but nobody's in a rush. Well, that man is.",
+   "translations": {
+    "fa": "نه، فقط ایمیل کافیه. نگران نباش، صف هست ولی کسی عجله نداره. خب، اون آقا داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nearly",
+      "sorry",
+      "done"
+     ],
+     "suggestion": "Sorry! I'm nearly done.",
+     "suggestionFa": "ببخشید! تقریباً تموم شد.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "password",
+      "asking"
+     ],
+     "suggestion": "It's asking for a password.",
+     "suggestionFa": "داره رمز می‌خواد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "queue",
+     "fa": "صف"
+    },
+    {
+     "word": "in a rush",
+     "fa": "عجله داشتن"
+    },
+    {
+     "word": "password",
+     "fa": "رمز عبور"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Make it something you'll remember. Not \"password\". My brother used \"password\". Got hacked in a week!",
+   "translations": {
+    "fa": "یه چیزی بذار که یادت بمونه. نه «پسورد». داداشم «پسورد» گذاشته بود. تو یه هفته هک شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "card",
+      "done",
+      "i've",
+      "now"
+     ],
+     "suggestion": "OK. Done! I've got a card now.",
+     "suggestionFa": "باشه. تموم! حالا کارت دارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "haven't",
+      "cat's",
+      "i'll",
+      "name"
+     ],
+     "suggestion": "Ha! I'll use my cat's name. I haven't got a cat.",
+     "suggestionFa": "ها! اسم گربه‌ام را می‌ذارم. من گربه ندارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "remember",
+     "fa": "به خاطر سپردن"
+    },
+    {
+     "word": "hacked",
+     "fa": "هک شد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Perfect. Scanning… beep! Now it's twenty-one pounds thirty. See? Two pounds for two minutes.",
+   "translations": {
+    "fa": "عالیه. دارم اسکن می‌کنم… بیپ! حالا شد بیست و یک پوند و سی. دیدی؟ دو پوند برای دو دقیقه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "card",
+      "i'll",
+      "by"
+     ],
+     "suggestion": "Great! I'll pay by card.",
+     "suggestionFa": "عالیه! با کارت پرداخت می‌کنم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "hourly",
+      "that's",
+      "than"
+     ],
+     "suggestion": "That's better than my hourly pay!",
+     "suggestionFa": "از دستمزد ساعتی من بهتره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scanning",
+     "fa": "در حال اسکن"
+    },
+    {
+     "word": "pay by card",
+     "fa": "با کارت پرداخت کردن"
+    },
+    {
+     "word": "hourly pay",
+     "fa": "دستمزد ساعتی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "Ha! Not quite. Tap here. Do you want the receipt?",
+   "translations": {
+    "fa": "ها! نه دقیقاً. اینجا بزن. رسید می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks"
+     ],
+     "suggestion": "No, thanks.",
+     "suggestionFa": "نه، ممنون.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "please",
+      "check"
+     ],
+     "suggestion": "Yes, please. I check everything.",
+     "suggestionFa": "بله، لطفاً. من همه چی را چک می‌کنم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Very careful! I like that. And your points are on the app — you've got forty-two already. Save them for Christmas. Everyone does!",
+   "translations": {
+    "fa": "خیلی دقیق! خوشم میاد. و امتیازهات تو برنامه‌ست — همین الان چهل و دو تا داری. برای کریسمس نگهشون دار. همه این کار را می‌کنن!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

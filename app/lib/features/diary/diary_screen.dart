@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../shared/nav.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/platform/voice.dart';
@@ -30,18 +31,19 @@ class DiaryScreen extends ConsumerWidget {
             ? const Center(child: CircularProgressIndicator())
             : CustomScrollView(
                 slivers: [
-                  SliverPadding(
-                    padding: const EdgeInsets.fromLTRB(8, 8, 20, 6),
-                    sliver: SliverToBoxAdapter(
+                  PinnedHeaderSliver(
+                    child: ColoredBox(color: Theme.of(context).scaffoldBackgroundColor, child: Padding(
+                      padding: const EdgeInsets.fromLTRB(8, 8, 20, 6),
                       child: Row(
                         children: [
-                          IconButton(onPressed: () => context.canPop() ? context.pop() : context.go('/'), icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20)),
+                          const NavButtons(),
+                          const SizedBox(width: 10),
                           Text('Diary', style: BL.display(30)),
                           const Spacer(),
                           Text(tr(lang, 'diary'), textDirection: dirOf(lang), style: BL.fa(13)),
                         ],
                       ),
-                    ),
+                    )),
                   ),
                   SliverPadding(
                     padding: const EdgeInsets.fromLTRB(20, 0, 20, 14),
@@ -225,7 +227,8 @@ class _ReplayState extends ConsumerState<ReplayScreen> {
               padding: const EdgeInsets.fromLTRB(4, 4, 16, 4),
               child: Row(
                 children: [
-                  IconButton(onPressed: () => context.canPop() ? context.pop() : context.go('/diary'), icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20)),
+                  const NavBack(fallback: '/diary'),
+                  const SizedBox(width: 8),
                   Avatar(ch, size: 40),
                   const SizedBox(width: 10),
                   Expanded(

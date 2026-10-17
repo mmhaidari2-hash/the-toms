@@ -37,8 +37,8 @@
      "keywords": [
       "children",
       "today",
-      "same",
-      "lots"
+      "lots",
+      "same"
      ],
      "suggestion": "Lots of children feel the same today.",
      "suggestionFa": "خیلی از بچه‌ها امروز همین حس را دارن.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
+      "both",
       "here",
-      "will",
-      "both"
+      "will"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -139,8 +139,8 @@
      "keywords": [
       "window",
       "give",
-      "wave",
-      "from"
+      "from",
+      "wave"
      ],
      "suggestion": "Give me a big wave from the window!",
      "suggestionFa": "از پنجره برام دست تکون بده!",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "Can I see it?",
      "suggestionFa": "می‌تونم ببینمش؟",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
-      "gold",
+      "well",
       "done",
       "star",
-      "well"
+      "gold"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -330,10 +330,10 @@
     },
     {
      "keywords": [
-      "listen",
       "though",
-      "hart",
-      "miss"
+      "listen",
+      "miss",
+      "hart"
      ],
      "suggestion": "Try to listen to Miss Hart, though.",
      "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
@@ -368,8 +368,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "golden",
+      "what's",
       "time"
      ],
      "suggestion": "What's golden time?",
@@ -382,8 +382,8 @@
      "keywords": [
       "shepherd's",
       "like",
-      "did",
-      "pie"
+      "pie",
+      "did"
      ],
      "suggestion": "Shepherd's pie! Did you like it?",
      "suggestionFa": "پای چوپان! دوستش داشتی؟",
@@ -418,8 +418,8 @@
     {
      "keywords": [
       "let's",
-      "ask",
-      "mum"
+      "mum",
+      "ask"
      ],
      "suggestion": "Let's ask your mum!",
      "suggestionFa": "بیا از مامانت بپرسیم!",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "fingers",
-      "earned",
       "you've",
+      "earned",
       "fish"
      ],
      "suggestion": "Fish fingers it is — you've earned it!",

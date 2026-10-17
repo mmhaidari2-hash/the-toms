@@ -24,7 +24,7 @@
       "sausages",
       "saturday",
       "barbecue",
-      "twenty",
+      "buying",
       "people"
      ],
      "suggestion": "Right! Barbecue on Saturday. Twenty people! I'm buying sausages. How many do we need?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -124,8 +124,8 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "burgers",
+      "chicken",
       "fifteen",
       "maggie",
       "wings"
@@ -228,8 +228,8 @@
       "vegetables",
       "barbecue",
       "leslie",
-      "some",
-      "fine"
+      "fine",
+      "some"
      ],
      "suggestion": "Vegetables? At a barbecue? You're as bad as Leslie! Fine. Some corn on the cob.",
      "suggestionFa": "سبزیجات؟ تو باربیکیو؟ عین لزلی هستی! باشه. یه کم ذرت.",
@@ -250,8 +250,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "open",
+      "here",
       "go"
      ],
      "suggestion": "Here you go — go on, open it!",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "judge",
-      "i'll",
-      "okay"
+      "okay",
+      "i'll"
      ],
      "suggestion": "I'll be the judge, okay?",
      "suggestionFa": "من داور می‌شم، باشه؟",
@@ -220,7 +220,7 @@
       "have",
       "pink",
       "love",
-      "one"
+      "can"
      ],
      "suggestion": "I love fairy cakes! Can I have a pink one?",
      "suggestionFa": "عاشق کیک فنجونی‌ام! یه صورتی می‌تونم بردارم؟",
@@ -275,9 +275,9 @@
     },
     {
      "keywords": [
-      "mummy",
       "baker",
-      "great"
+      "great",
+      "mummy"
      ],
      "suggestion": "Your mummy is a great baker.",
      "suggestionFa": "مامانت شیرینی‌پز خیلی خوبیه.",
@@ -329,8 +329,8 @@
      "keywords": [
       "forget",
       "don't",
-      "wish",
-      "make"
+      "make",
+      "wish"
      ],
      "suggestion": "Don't forget to make a wish!",
      "suggestionFa": "یادت نره آرزو کنی!",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
-      "music",
       "going",
-      "keep",
+      "music",
+      "i'll",
       "okay"
      ],
      "suggestion": "Okay, I'll keep the music going.",

@@ -22,8 +22,8 @@
     {
      "keywords": [
       "alright",
-      "reader",
       "headed",
+      "reader",
       "yellow",
       "thing"
      ],
@@ -49,7 +49,7 @@
       "piccadilly",
       "roadworks",
       "minutes",
-      "there's",
+      "phone's",
       "running"
      ],
      "suggestion": "Phone's fine. Beep — you're in. It goes to Piccadilly, but there's roadworks on Essex Road, so we're running about ten minutes behind.",
@@ -98,8 +98,8 @@
      "keywords": [
       "everything's",
       "building",
-      "course",
       "that's",
+      "course",
       "cinema"
      ],
      "suggestion": "Course it is. See that building? That's the old cinema — it's flats now. Everything's flats now.",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "gutted",
-      "wasn't",
       "leslie",
-      "first",
+      "wasn't",
+      "don't",
       "there"
      ],
      "suggestion": "Gutted. I had my first date there. Don't tell Leslie it wasn't with her!",
@@ -148,9 +148,9 @@
      "keywords": [
       "someone's",
       "ringing",
-      "asleep",
+      "sharon",
       "called",
-      "sharon"
+      "asleep"
      ],
      "suggestion": "A girl called Sharon. She chose the film, then fell asleep. Hold on — someone's ringing the bell.",
      "suggestionFa": "یه دختر به اسم شارون. فیلم را اون انتخاب کرد، بعد خوابش برد. صبر کن — یکی داره زنگ می‌زنه.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "piccadilly",
-      "request",
       "someone",
-      "there's",
-      "waiting"
+      "request",
+      "waiting",
+      "there's"
      ],
      "suggestion": "Only if someone rings or there's someone waiting. Request stops, see. Do you know the way from Piccadilly?",
      "suggestionFa": "فقط اگه کسی زنگ بزنه یا کسی منتظر باشه. ایستگاه‌های درخواستی، می‌بینی. راه از پیکادیلی را بلدی؟",
@@ -198,8 +198,8 @@
      "keywords": [
       "popcorn",
       "follow",
-      "crowds",
       "minute",
+      "crowds",
       "smell"
      ],
      "suggestion": "Easy — it's a five-minute walk. Just follow the crowds and the smell of popcorn.",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "piccadilly",
+      "cheers",
       "that's",
       "driver",
-      "cheers",
       "mind"
      ],
      "suggestion": "Ding! That's us — Piccadilly. Off you pop, and say cheers to the driver, eh? Mind the gap!",

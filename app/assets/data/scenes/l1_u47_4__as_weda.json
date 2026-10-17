@@ -25,7 +25,7 @@
       "asleep",
       "would",
       "dear",
-      "time"
+      "like"
      ],
      "suggestion": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
      "suggestionFa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "guest",
-      "down",
       "like",
-      "tea",
+      "down",
+      "how",
       "sit"
      ],
      "suggestion": "No, no, sit down. You're my guest. How do you like your tea?",
@@ -124,8 +124,8 @@
       "nonsense",
       "anybody",
       "never",
-      "cream",
-      "piece"
+      "piece",
+      "cream"
      ],
      "suggestion": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
      "suggestionFa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه.",
@@ -150,7 +150,7 @@
       "there's",
       "plenty",
       "would",
-      "more"
+      "like"
      ],
      "suggestion": "Oh, you're a charmer! Would you like more tea? There's plenty in the pot.",
      "suggestionFa": "آه، چه زبون‌بازی! چای بیشتر میل داری؟ تو قوری زیاده.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "george",
-      "years",
       "fifty",
+      "years",
       "nice",
       "just"
      ],

@@ -46,9 +46,9 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "squash",
       "orange",
+      "please",
       "water"
      ],
      "suggestion": "Not water. Squash, please! Orange squash.",
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "cupboard",
-      "squash",
       "strong",
+      "squash",
       "little",
       "water"
      ],
@@ -97,8 +97,8 @@
      "keywords": [
       "perfect",
       "squash",
-      "some",
       "want",
+      "some",
       "mmm"
      ],
      "suggestion": "Mmm, perfect! Do you want some squash too?",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
+      "bottle",
       "fridge",
       "drinks",
-      "bottle",
       "mummy",
       "cross"
      ],
@@ -147,9 +147,9 @@
      "keywords": [
       "green",
       "which",
-      "blue",
       "milk",
-      "want"
+      "want",
+      "blue"
      ],
      "suggestion": "Which milk do you want? Blue, green or red?",
      "suggestionFa": "کدوم شیر را می‌خوای؟ آبی، سبز یا قرمز؟",
@@ -170,10 +170,10 @@
    "branches": [
     {
      "keywords": [
-      "daddy",
       "green",
       "likes",
-      "blue",
+      "daddy",
+      "half",
       "full"
      ],
      "suggestion": "Blue is full fat. Green is half. Red is no fat. Daddy likes blue!",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "cheers",
+      "that's",
       "grown",
-      "say",
-      "ups"
+      "ups",
+      "say"
      ],
      "suggestion": "Cheers! That's what grown-ups say. Cheers!",
      "suggestionFa": "به سلامتی! اینو بزرگ‌ترها می‌گن. به سلامتی!",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "spilled",
       "biscuit",
-      "mummy",
+      "spilled",
       "don't",
-      "clink"
+      "clink",
+      "mummy"
      ],
      "suggestion": "Clink! Oops — I spilled a bit. Don't tell Mummy! Can I have a biscuit with it?",
      "suggestionFa": "جرینگ! اوپس — یه کم ریختم. به مامان نگو! می‌شه باهاش یه بیسکویت بخورم؟",

@@ -1,0 +1,460 @@
+{
+ "id": "l2_u16_1",
+ "characterId": "ryan",
+ "title": "A shopping list",
+ "titleFa": "فهرست خرید",
+ "setting": "Food shopping · Level 2",
+ "settingFa": "خرید مواد غذایی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum sent me with a list. She said, \"Take {you}, he's sensible.\" So, er… you're in charge.",
+   "translations": {
+    "fa": "مامان با یه لیست فرستادم. گفت: «{you} را ببر، عاقله.» پس، اِ… مسئولش تویی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "ok"
+     ],
+     "suggestion": "OK! What's on the list?",
+     "suggestionFa": "باشه! چی تو لیسته؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sensible",
+      "let's",
+      "see"
+     ],
+     "suggestion": "Sensible? Me? Let's see the list.",
+     "suggestionFa": "عاقل؟ من؟ بذار لیست را ببینم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "list",
+     "fa": "فهرست ؛ لیست"
+    },
+    {
+     "word": "sensible",
+     "fa": "عاقل ؛ معقول"
+    },
+    {
+     "word": "in charge",
+     "fa": "مسئول"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "\"Milk, eggs, some apples, a few onions, a bit of cheese, and NO crisps, Ryan.\" Harsh.",
+   "translations": {
+    "fa": "«شیر، تخم‌مرغ، چند تا سیب، چند تا پیاز، یه‌کم پنیر، و چیپس نه، رایان.» بی‌رحمانه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "need",
+      "eggs",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many eggs do we need?",
+     "suggestionFa": "چند تا تخم‌مرغ لازم داریم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crisps",
+      "knows",
+      "well",
+      "mum"
+     ],
+     "suggestion": "No crisps! Your mum knows you well.",
+     "suggestionFa": "چیپس نه! مامانت خوب می‌شناستت.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "a few",
+     "fa": "چند تا"
+    },
+    {
+     "word": "a bit of",
+     "fa": "کمی"
+    },
+    {
+     "word": "onions",
+     "fa": "پیازها"
+    },
+    {
+     "word": "crisps",
+     "fa": "چیپس"
+    },
+    {
+     "word": "harsh",
+     "fa": "بی‌رحمانه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "how much eggs",
+      "how many egg we need"
+     ],
+     "echo": "How many eggs? Good question.",
+     "better": "How many eggs do we need?",
+     "betterFa": "چند تا تخم‌مرغ لازم داریم؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "She didn't say. Six? Twelve? Eggs come in boxes of six or twelve here.",
+   "translations": {
+    "fa": "نگفته. شش تا؟ دوازده تا؟ اینجا تخم‌مرغ تو جعبه‌های شش‌تایی یا دوازده‌تایی میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "twelve",
+      "let's",
+      "eats"
+     ],
+     "suggestion": "Let's get twelve. Your family eats a lot.",
+     "suggestionFa": "دوازده تا بگیریم. خانواده‌ات زیاد می‌خورن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "check",
+      "text",
+      "six"
+     ],
+     "suggestion": "Six is enough. Text your mum to check.",
+     "suggestionFa": "شش تا کافیه. به مامانت پیام بده چک کن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boxes",
+     "fa": "جعبه‌ها"
+    },
+    {
+     "word": "a lot",
+     "fa": "زیاد"
+    },
+    {
+     "word": "check",
+     "fa": "بررسی کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, eggs are sold in boxes of six or twelve. A box of six is often called \"half a dozen\".",
+    "fa": "تخم‌مرغ در جعبه‌های ۶ یا ۱۲ تایی فروخته می‌شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Twelve. Dad eats four on Sundays. Right, milk — what kind? There's like ten different types.",
+   "translations": {
+    "fa": "دوازده تا. بابا یکشنبه‌ها چهار تا می‌خوره. خب، شیر — چه نوعی؟ انگار ده نوع مختلف هست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "usually",
+      "family",
+      "buy"
+     ],
+     "suggestion": "What does your family usually buy?",
+     "suggestionFa": "خانواده‌ات معمولاً چی می‌خرن؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "there",
+      "milk",
+      "any"
+     ],
+     "suggestion": "Is there any difference? Milk is milk!",
+     "suggestionFa": "فرقی دارن؟ شیر، شیره!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "نوع"
+    },
+    {
+     "word": "types",
+     "fa": "انواع"
+    },
+    {
+     "word": "usually",
+     "fa": "معمولاً"
+    },
+    {
+     "word": "difference",
+     "fa": "فرق"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Green top. That's semi-skimmed. Blue is whole milk, red is skimmed. Mum says blue is \"for babies and George\".",
+   "translations": {
+    "fa": "درِ سبز. اون نیم‌چربه. آبی شیر پرچربه، قرمز بدون چربی. مامان میگه آبی «برای بچه‌ها و جورجه»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pints",
+      "green",
+      "then",
+      "four"
+     ],
+     "suggestion": "Green top, then. Four pints?",
+     "suggestionFa": "پس درِ سبز. چهار پینت؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "george",
+      "why",
+      "ha"
+     ],
+     "suggestion": "Ha! Why George?",
+     "suggestionFa": "ها! چرا جورج؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "green top",
+     "fa": "درِ سبز"
+    },
+    {
+     "word": "semi-skimmed",
+     "fa": "نیم‌چرب"
+    },
+    {
+     "word": "whole milk",
+     "fa": "شیر پرچرب"
+    },
+    {
+     "word": "pints",
+     "fa": "پاینت (واحد حجم)"
+    }
+   ],
+   "cultureNote": {
+    "en": "British milk bottles have coloured tops: blue = whole, green = semi-skimmed, red = skimmed.",
+    "fa": "رنگ در بطری شیر نوع آن را نشان می‌دهد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Grandad says skimmed milk is \"white water\". Four pints — done. Now, apples. Are there any red ones?",
+   "translations": {
+    "fa": "پدربزرگ میگه شیر بدون چربی «آب سفیده». چهار پاینت — تموم. حالا سیب. سیب قرمز هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "aren't",
+      "there",
+      "green",
+      "ones"
+     ],
+     "suggestion": "There aren't any red ones. Only green.",
+     "suggestionFa": "سیب قرمز نیست. فقط سبز.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "here",
+      "many",
+      "how"
+     ],
+     "suggestion": "Yes, here. How many shall I get?",
+     "suggestionFa": "آره، اینجا. چند تا بردارم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "any",
+     "fa": "هیچ ؛ هیچ‌کدام"
+    },
+    {
+     "word": "only",
+     "fa": "فقط"
+    },
+    {
+     "word": "shall",
+     "fa": "بهتر است ؛ آیا"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there isn't some",
+      "there are not some"
+     ],
+     "echo": "There aren't any? Oh well.",
+     "better": "There aren't any red ones.",
+     "betterFa": "سیب قرمز نیست."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Get six. Nicola only eats the skin anyway. Weird kid. Onions, cheese… OK, we're nearly done!",
+   "translations": {
+    "fa": "شش تا بگیر. نیکولا به‌هرحال فقط پوستش را می‌خوره. بچهٔ عجیبیه. پیاز، پنیر… خب، تقریباً تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "let's",
+      "till",
+      "go"
+     ],
+     "suggestion": "Great. Let's go to the till.",
+     "suggestionFa": "عالیه. بریم صندوق.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "ryan",
+      "wait",
+      "hand"
+     ],
+     "suggestion": "Wait, Ryan. What's in your hand?",
+     "suggestionFa": "صبر کن رایان. تو دستت چیه؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "skin",
+     "fa": "پوست"
+    },
+    {
+     "word": "nearly done",
+     "fa": "تقریباً تمام"
+    },
+    {
+     "word": "till",
+     "fa": "صندوق"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Nothing! It's… it's a very small bag of crisps. Don't tell Mum. Please. I'll share!",
+   "translations": {
+    "fa": "هیچی! این… یه بستهٔ خیلی کوچیک چیپسه. به مامان نگو. خواهش می‌کنم. شریکی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "share",
+      "only",
+      "but",
+      "ok"
+     ],
+     "suggestion": "OK, but only if you share.",
+     "suggestionFa": "باشه، ولی فقط اگه شریکی بخوریم.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan",
+      "back",
+      "put",
+      "way"
+     ],
+     "suggestion": "No way! Put it back, Ryan.",
+     "suggestionFa": "به هیچ وجه! برش گردون رایان.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "share",
+     "fa": "شریک شدن ؛ تقسیم کردن"
+    },
+    {
+     "word": "put it back",
+     "fa": "برگرداندن"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "ryan",
+   "text": "Deal. You're a legend. Salt and vinegar — your favourite now, yeah? It's the best British flavour. Fact.",
+   "translations": {
+    "fa": "قبول. تو اسطوره‌ای. نمک و سرکه — از این به بعد مورد علاقه‌ات، نه؟ بهترین طعم بریتانیاییه. واقعیت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

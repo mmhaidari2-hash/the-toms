@@ -1,0 +1,397 @@
+{
+ "id": "l1_u55_4",
+ "characterId": "ryan",
+ "title": "My first week in Britain",
+ "titleFa": "اولین هفته‌ام در بریتانیا",
+ "setting": "Talking about me · Level 1",
+ "settingFa": "دربارهٔ خودم",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Alright? Mum says you came to England this year. What was your first week like?",
+   "translations": {
+    "fa": "چطوری؟ مامان میگه امسال اومدی انگلیس. هفتهٔ اولت چطور بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "strange",
+      "new"
+     ],
+     "suggestion": "It was strange! Everything was new.",
+     "suggestionFa": "عجیب بود! همه چی جدید بود.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "exciting",
+      "hard",
+      "but"
+     ],
+     "suggestion": "It was hard, but exciting.",
+     "suggestionFa": "سخت بود، ولی هیجان‌انگیز.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first week",
+     "fa": "هفتهٔ اول"
+    },
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    },
+    {
+     "word": "exciting",
+     "fa": "هیجان‌انگیز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Strange how? Like, the food?",
+   "translations": {
+    "fa": "عجیب یعنی چی؟ مثلاً غذا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driving",
+      "weather",
+      "food",
+      "left"
+     ],
+     "suggestion": "The food, the weather, and driving on the left!",
+     "suggestionFa": "غذا، هوا، و رانندگی از سمت چپ!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "shops",
+      "buses",
+      "money"
+     ],
+     "suggestion": "Everything. The buses, the shops, the money!",
+     "suggestionFa": "همه چی. اتوبوس‌ها، مغازه‌ها، پول!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weather",
+     "fa": "هوا"
+    },
+    {
+     "word": "on the left",
+     "fa": "سمت چپ"
+    },
+    {
+     "word": "money",
+     "fa": "پول"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "drive in left",
+      "on left side"
+     ],
+     "echo": "On the left? Yeah, it's weird.",
+     "better": "People drive on the left.",
+     "betterFa": "مردم از سمت چپ رانندگی می‌کنند."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Ha, yeah. Did you get lost? I got lost in Westfield once. For two hours.",
+   "translations": {
+    "fa": "ها، آره. گم شدی؟ من یه بار تو وست‌فیلد گم شدم. دو ساعت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wrong",
+      "first",
+      "took",
+      "bus"
+     ],
+     "suggestion": "Yes! I took the wrong bus on my first day.",
+     "suggestionFa": "آره! روز اول اتوبوس اشتباه سوار شدم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "used",
+      "map"
+     ],
+     "suggestion": "No, I used the map on my phone.",
+     "suggestionFa": "نه، از نقشهٔ گوشیم استفاده کردم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "got lost",
+     "fa": "گم شدم"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    },
+    {
+     "word": "took",
+     "fa": "سوار شدم ؛ گرفتم"
+    },
+    {
+     "word": "map",
+     "fa": "نقشه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "The wrong bus! Did you tell Dad? He'll say it was the 38. It's always the 38.",
+   "translations": {
+    "fa": "اتوبوس اشتباه! به بابا گفتی؟ میگه ۳۸ بوده. همیشه ۳۸ه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "anyone",
+      "tell"
+     ],
+     "suggestion": "No! I didn't tell anyone.",
+     "suggestionFa": "نه! به هیچ‌کس نگفتم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wasn't",
+      "was"
+     ],
+     "suggestion": "It wasn't the 38. It was the 55!",
+     "suggestionFa": "۳۸ نبود. ۵۵ بود!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anyone",
+     "fa": "هیچ‌کس ؛ کسی"
+    },
+    {
+     "word": "always",
+     "fa": "همیشه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i not tell",
+      "i didn't told"
+     ],
+     "echo": "You didn't tell him? Smart.",
+     "better": "I didn't tell him.",
+     "betterFa": "بهش نگفتم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Smart. What did you eat that first week? Please say not just beans on toast.",
+   "translations": {
+    "fa": "زرنگ. اون هفتهٔ اول چی خوردی؟ تو رو خدا نگو فقط لوبیا با نون تست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "chips",
+      "fish",
+      "ate"
+     ],
+     "suggestion": "I ate fish and chips. It was great!",
+     "suggestionFa": "ماهی و سیب‌زمینی خوردم. عالی بود!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cooked",
+      "didn't",
+      "shops",
+      "every"
+     ],
+     "suggestion": "I cooked rice every day. I didn't know the shops.",
+     "suggestionFa": "هر روز برنج پختم. مغازه‌ها را نمی‌شناختم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ate",
+     "fa": "خوردم"
+    },
+    {
+     "word": "cooked",
+     "fa": "پختم"
+    },
+    {
+     "word": "rice",
+     "fa": "برنج"
+    }
+   ],
+   "cultureNote": {
+    "en": "Fish and chips is a classic British takeaway, often eaten on Fridays.",
+    "fa": "ماهی و سیب‌زمینی غذای بیرون‌بر کلاسیک بریتانیاست."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Respect. What was the weirdest thing?",
+   "translations": {
+    "fa": "دمت گرم. عجیب‌ترین چیز چی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "people",
+      "sorry",
+      "time",
+      "say"
+     ],
+     "suggestion": "People say \"sorry\" all the time!",
+     "suggestionFa": "مردم مدام میگن «ببخشید»!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "queues",
+      "even",
+      "stop"
+     ],
+     "suggestion": "Everyone queues. Even at the bus stop!",
+     "suggestionFa": "همه صف وایمیستن. حتی تو ایستگاه اتوبوس!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weirdest",
+     "fa": "عجیب‌ترین"
+    },
+    {
+     "word": "all the time",
+     "fa": "همیشه ؛ مدام"
+    },
+    {
+     "word": "queues",
+     "fa": "صف می‌ایستد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Queuing is very important in Britain. Pushing in is very rude.",
+    "fa": "صف ایستادن در بریتانیا خیلی مهم است."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Sorry about that. Ha! See, I did it. Was anyone nice to you?",
+   "translations": {
+    "fa": "ببخشید بابتش. ها! دیدی، منم گفتم. کسی باهات مهربون بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "invited",
+      "they",
+      "dad",
+      "mum"
+     ],
+     "suggestion": "Your mum and dad. They invited me for tea.",
+     "suggestionFa": "مامان و بابات. منو برای عصرونه دعوت کردن.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drawing",
+      "nicola",
+      "gave",
+      "was"
+     ],
+     "suggestion": "Nicola gave me a drawing. It was a cat!",
+     "suggestionFa": "نیکولا یه نقاشی بهم داد. یه گربه بود!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nice",
+     "fa": "مهربان"
+    },
+    {
+     "word": "invited",
+     "fa": "دعوت کرد"
+    },
+    {
+     "word": "drawing",
+     "fa": "نقاشی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "A cat? That was you, mate. She draws everyone as a cat. Anyway — welcome to Hackney!",
+   "translations": {
+    "fa": "گربه؟ اون تو بودی رفیق. همه را گربه می‌کشه. به هر حال — به هاکنی خوش اومدی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

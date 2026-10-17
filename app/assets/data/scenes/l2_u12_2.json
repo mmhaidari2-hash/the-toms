@@ -34,8 +34,8 @@
      "keywords": [
       "thanks",
       "really",
-      "well",
-      "fine"
+      "fine",
+      "well"
      ],
      "suggestion": "I'm fine, thanks. Well — not really!",
      "suggestionFa": "خوبم ممنون. خب — نه واقعاً!",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
-      "there's",
-      "barcode",
       "bananas",
+      "barcode",
+      "there's",
       "won't"
      ],
      "suggestion": "The bananas won't scan. There's no barcode.",
@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
+      "better",
       "thanks",
       "that's",
-      "better",
       "much"
      ],
      "suggestion": "Thanks. That's much better.",
@@ -187,9 +187,9 @@
     },
     {
      "keywords": [
-      "easy",
-      "know",
       "when",
+      "know",
+      "easy",
       "how"
      ],
      "suggestion": "Easy when you know how!",
@@ -239,8 +239,8 @@
      "keywords": [
       "everything",
       "thanks",
-      "limit",
-      "there"
+      "there",
+      "limit"
      ],
      "suggestion": "Thanks. Is there a limit on everything?",
      "suggestionFa": "ممنون. همه چیز محدودیت داره؟",
@@ -275,8 +275,8 @@
     {
      "keywords": [
       "how",
-      "get",
-      "one"
+      "one",
+      "get"
      ],
      "suggestion": "No. How do I get one?",
      "suggestionFa": "نه. چطوری بگیرم؟",
@@ -332,8 +332,8 @@
     },
     {
      "keywords": [
-      "cash",
       "here",
+      "cash",
       "can",
       "pay"
      ],

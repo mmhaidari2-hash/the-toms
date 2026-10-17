@@ -1,0 +1,326 @@
+{
+ "id": "l2_u21_4",
+ "characterId": "tom",
+ "title": "What was the best bit?",
+ "titleFa": "بهترین قسمتش چه بود؟",
+ "setting": "A day at the museum · Level 2",
+ "settingFa": "یک روز در موزه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Shh. Look — they're both asleep. Five hours of dinosaurs. Best babysitter in London, that museum.",
+   "translations": {
+    "fa": "هیس. ببین — هر دوشون خوابن. پنج ساعت دایناسور. بهترین پرستار بچهٔ لندن، اون موزه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "sweet",
+      "sleep",
+      "when"
+     ],
+     "suggestion": "They're so sweet when they sleep.",
+     "suggestionFa": "وقتی می‌خوابن خیلی بامزه‌ان.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tired"
+     ],
+     "suggestion": "I'm tired too!",
+     "suggestionFa": "منم خسته‌ام!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "asleep",
+     "fa": "خواب"
+    },
+    {
+     "word": "babysitter",
+     "fa": "پرستار بچه"
+    },
+    {
+     "word": "sweet",
+     "fa": "بامزه ؛ دوست‌داشتنی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "So, what was the best bit for you?",
+   "translations": {
+    "fa": "خب، بهترین قسمتش برای تو چی بود؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "earthquake",
+      "room",
+      "best",
+      "was"
+     ],
+     "suggestion": "The best bit was the earthquake room.",
+     "suggestionFa": "بهترین قسمت اتاق زلزله بود.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "crystals",
+      "enjoyed",
+      "gems"
+     ],
+     "suggestion": "I enjoyed the gems and crystals.",
+     "suggestionFa": "از جواهرات و کریستال‌ها لذت بردم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "best bit",
+     "fa": "بهترین قسمت"
+    },
+    {
+     "word": "earthquake",
+     "fa": "زلزله"
+    },
+    {
+     "word": "gems",
+     "fa": "جواهرات"
+    },
+    {
+     "word": "crystals",
+     "fa": "کریستال‌ها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the most best bit",
+      "best part is was"
+     ],
+     "echo": "The best bit? Tell me!",
+     "better": "The best bit was the earthquake room.",
+     "betterFa": "بهترین قسمت اتاق زلزله بود."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "The earthquake room! The supermarket one that shakes. Do you get earthquakes in Iran?",
+   "translations": {
+    "fa": "اتاق زلزله! همون سوپرمارکتی که تکون می‌خوره. تو ایران زلزله میاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sometimes",
+      "tehran",
+      "fault",
+      "near"
+     ],
+     "suggestion": "Yes, sometimes. Tehran is near a fault line.",
+     "suggestionFa": "آره، گاهی. تهران نزدیک یه گسله.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "room",
+      "felt",
+      "real"
+     ],
+     "suggestion": "Yes. So the room felt very real to me.",
+     "suggestionFa": "آره. برای همین اون اتاق برام خیلی واقعی بود.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shakes",
+     "fa": "می‌لرزد"
+    },
+    {
+     "word": "fault line",
+     "fa": "خط گسل"
+    },
+    {
+     "word": "real",
+     "fa": "واقعی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Wow. I didn't know that. What surprised you most today?",
+   "translations": {
+    "fa": "واو. نمی‌دونستم. امروز چی بیشتر از همه غافلگیرت کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "free"
+     ],
+     "suggestion": "I didn't expect it to be free!",
+     "suggestionFa": "انتظار نداشتم مجانی باشه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "many"
+     ],
+     "suggestion": "I didn't expect so many people!",
+     "suggestionFa": "انتظار این‌همه آدم را نداشتم!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surprised",
+     "fa": "غافلگیر کرد"
+    },
+    {
+     "word": "expect",
+     "fa": "انتظار داشتن"
+    },
+    {
+     "word": "so many",
+     "fa": "این‌همه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"I didn't expect…\" is a useful way to talk about surprises: \"I didn't expect it to be so big.\"",
+    "fa": "I didn't expect برای گفتن غافلگیری به کار می‌رود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Free, and full of history. In Iran, are there big museums too?",
+   "translations": {
+    "fa": "مجانی، و پر از تاریخ. تو ایران هم موزه‌های بزرگ هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "national",
+      "amazing",
+      "tehran"
+     ],
+     "suggestion": "Yes! The National Museum in Tehran is amazing.",
+     "suggestionFa": "آره! موزهٔ ملی تهران فوق‌العاده‌ست.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "isfahan",
+      "whole",
+      "like",
+      "city"
+     ],
+     "suggestion": "Yes, and in Isfahan the whole city is like a museum.",
+     "suggestionFa": "آره، و تو اصفهان کل شهر مثل موزه‌ست.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "history",
+     "fa": "تاریخ"
+    },
+    {
+     "word": "whole",
+     "fa": "کل ؛ تمام"
+    },
+    {
+     "word": "amazing",
+     "fa": "شگفت‌انگیز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "The whole city? I'd love to see that one day. You can be our guide!",
+   "translations": {
+    "fa": "کل شهر؟ دوست دارم یه روز ببینمش. تو می‌تونی راهنمامون باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "you'd",
+      "love",
+      "i'd",
+      "all"
+     ],
+     "suggestion": "I'd love that! You'd all love Isfahan.",
+     "suggestionFa": "خیلی دوست دارم! همه‌تون عاشق اصفهان میشید.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dinosaurs",
+      "deal",
+      "but"
+     ],
+     "suggestion": "Deal. But no dinosaurs in Isfahan!",
+     "suggestionFa": "قبول. ولی تو اصفهان دایناسور نیست!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "one day",
+     "fa": "یک روز ؛ روزی"
+    },
+    {
+     "word": "guide",
+     "fa": "راهنما"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "No dinosaurs? Then Nicola's not coming. Ha! Shh, next stop is ours. You take William, I'll take Nicola. Gently…",
+   "translations": {
+    "fa": "دایناسور نیست؟ پس نیکولا نمیاد. ها! هیس، ایستگاه بعدی مال ماست. تو ویلیام را بغل کن، من نیکولا را. آروم…"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

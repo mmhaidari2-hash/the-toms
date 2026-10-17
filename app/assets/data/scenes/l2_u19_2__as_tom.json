@@ -1,0 +1,200 @@
+{
+ "id": "l2_u19_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Changing lines",
+ "titleFa": "(در نقش Tom) عوض کردن خط",
+ "setting": "The Tube · Level 2",
+ "settingFa": "متروی لندن",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u19_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful",
+      "british",
+      "museum",
+      "we're",
+      "isn't"
+     ],
+     "suggestion": "Right, it's my day off and we're going to the British Museum. Let's look at the Tube map. Isn't it beautiful?",
+     "suggestionFa": "خب، امروز مرخصیم و داریم میریم موزهٔ بریتانیا. بیا نقشهٔ مترو را ببینیم. قشنگ نیست؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "It's very colourful! But it's confusing.",
+   "translations": {
+    "fa": "خیلی رنگارنگه! ولی گیج‌کننده‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "overground",
+      "victoria",
+      "highbury",
+      "change",
+      "colour"
+     ],
+     "suggestion": "Every line has a colour. We take the Overground to Highbury, then change to the Victoria line.",
+     "suggestionFa": "هر خط یه رنگ داره. اورگراند را تا هایبری می‌گیریم، بعد به خط ویکتوریا عوض می‌کنیم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Change at Highbury. Then where?",
+   "translations": {
+    "fa": "تو هایبری عوض کنیم. بعد کجا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tottenham",
+      "central",
+      "oxford",
+      "circus",
+      "change"
+     ],
+     "suggestion": "Light blue. We go south to Oxford Circus, then change again. Central line — the red one — two stops to Tottenham Court Road.",
+     "suggestionFa": "آبی روشن. به جنوب میریم تا آکسفورد سیرکس، بعد دوباره عوض می‌کنیم. خط سنترال — قرمزه — دو ایستگاه تا تاتنهام کورت رود.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Two changes? Is there a quicker way?",
+   "translations": {
+    "fa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tunnels",
+      "there's",
+      "quicker",
+      "lesson",
+      "about"
+     ],
+     "suggestion": "About seven. There's a quicker way, but this way, you learn the Tube. Lesson one: walk on the left in tunnels.",
+     "suggestionFa": "حدود هفت تا. یه راه سریع‌تر هست، ولی این‌جوری مترو را یاد می‌گیری. درس اول: تو تونل‌ها از سمت چپ راه برو.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "On the left? Like driving!",
+   "translations": {
+    "fa": "سمت چپ؟ مثل رانندگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "westbound",
+      "eastbound",
+      "central",
+      "oxford",
+      "follow"
+     ],
+     "suggestion": "Lesson two: at Oxford Circus, follow the signs that say \"Central line, eastbound\". Never westbound. That's the wrong way!",
+     "suggestionFa": "درس دوم: تو آکسفورد سیرکس، تابلوهایی که نوشته «خط سنترال، سمت شرق» را دنبال کن. هیچ‌وقت سمت غرب نه. اون راه اشتباهه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Eastbound. And the next train is in two minutes.",
+   "translations": {
+    "fa": "سمت شرق. و قطار بعدی دو دقیقهٔ دیگه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tottenham",
+      "minutes'",
+      "london",
+      "follow",
+      "museum"
+     ],
+     "suggestion": "Forty-two years of London! Here we are — Tottenham Court Road. Mind the gap… and follow me. Five minutes' walk to the museum.",
+     "suggestionFa": "چهل و دو سال تو لندن! رسیدیم — تاتنهام کورت رود. مراقب فاصله باش… و دنبالم بیا. پنج دقیقه پیاده تا موزه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That was easy. I can do it alone next time.",
+   "translations": {
+    "fa": "آسون بود. دفعهٔ بعد تنهایی می‌تونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "complain",
+      "londoner",
+      "about",
+      "every",
+      "real"
+     ],
+     "suggestion": "Exit two, then left. See? Now you're a real Londoner. You complain about the Tube and use it every day!",
+     "suggestionFa": "خروجی دو، بعد چپ. دیدی؟ حالا یه لندنی واقعی هستی. از مترو غر می‌زنی و هر روز سوارش میشی!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

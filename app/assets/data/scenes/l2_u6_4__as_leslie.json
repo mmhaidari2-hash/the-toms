@@ -22,10 +22,10 @@
     {
      "keywords": [
       "terrible",
-      "lemon",
       "sound",
+      "honey",
       "tried",
-      "honey"
+      "lemon"
      ],
      "suggestion": "You sound terrible! Sit down. Have you ever tried honey and lemon?",
      "suggestionFa": "صدات افتضاحه! بشین. تا حالا عسل و لیمو امتحان کردی؟",
@@ -49,8 +49,8 @@
       "careful",
       "thing",
       "nice",
-      "best",
-      "cold"
+      "cold",
+      "here"
      ],
      "suggestion": "It's the best thing for a cold. Here — a nice hot cup. Careful, it's hot!",
      "suggestionFa": "بهترین چیز برای سرماخوردگیه. بیا — یه لیوان داغ. مواظب باش، داغه!",
@@ -73,7 +73,7 @@
      "keywords": [
       "tablets",
       "bottle",
-      "lemon",
+      "water",
       "never",
       "swore"
      ],
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "british",
       "bedroom",
+      "british",
       "rubber",
       "houses",
       "water"
@@ -125,7 +125,7 @@
       "watched",
       "should",
       "course",
-      "night"
+      "early"
      ],
      "suggestion": "Of course. And you should have an early night. Have you ever watched Bake Off? It's perfect for a cold!",
      "suggestionFa": "حتماً. و بهتره زود بخوابی. تا حالا Bake Off دیدی؟ برای سرماخوردگی عالیه!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "british",
       "blanket",
-      "you'll",
+      "british",
       "baking",
-      "better"
+      "better",
+      "you'll"
      ],
      "suggestion": "A baking show. Very British, very cosy. Blanket, tea, Bake Off — you'll feel better in no time.",
      "suggestionFa": "یه برنامهٔ آشپزی. خیلی بریتانیایی، خیلی دنج. پتو، چای، Bake Off — زود حالت خوب میشه.",

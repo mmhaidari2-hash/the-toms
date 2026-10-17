@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "favourite",
       "daffodils",
+      "favourite",
+      "yellow",
       "what's",
-      "colour",
-      "yellow"
+      "colour"
      ],
      "suggestion": "There are red roses and yellow daffodils. What's your favourite colour?",
      "suggestionFa": "رزهای قرمز و نرگس‌های زرد هست. رنگ محبوبت چیه؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "there's",
       "robin",
-      "bird",
       "tree",
-      "can"
+      "bird",
+      "see"
      ],
      "suggestion": "There's a bird in the tree. Can you see it? It's a robin.",
      "suggestionFa": "یه پرنده روی درخته. می‌بینیش؟ سینه‌سرخه.",
@@ -98,9 +98,9 @@
      "keywords": [
       "there's",
       "there",
+      "under",
       "bench",
-      "fence",
-      "under"
+      "fence"
      ],
      "suggestion": "There, on the fence. And there's a cat under the bench!",
      "suggestionFa": "اونجا، روی نرده. و یه گربه زیر نیمکته!",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "patel's",
       "biscuit",
+      "patel's",
       "that's",
-      "worry",
-      "she's"
+      "don't",
+      "worry"
      ],
      "suggestion": "That's Mrs Patel's cat, Biscuit. Don't worry, she's too lazy!",
      "suggestionFa": "اون گربهٔ خانم پاتله، بیسکویت. نگران نباش، خیلی تنبله!",
@@ -172,9 +172,9 @@
     {
      "keywords": [
       "fingers",
-      "called",
       "plants",
-      "shall",
+      "called",
+      "green",
       "water"
      ],
      "suggestion": "I love it. Green fingers, my mum called it. Shall we water the plants?",

@@ -1,0 +1,434 @@
+{
+ "id": "l2_u16_2",
+ "characterId": "priya",
+ "title": "Special offers",
+ "titleFa": "تخفیف‌های ویژه",
+ "setting": "Food shopping · Level 2",
+ "settingFa": "خرید مواد غذایی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "priya",
+   "text": "Hiya! Doing a big shop today? Don't forget to look at the yellow labels. That's where the offers are.",
+   "translations": {
+    "fa": "سلام! امروز خرید بزرگ داری؟ برچسب‌های زرد یادت نره. تخفیف‌ها اونجان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "offers",
+      "kind"
+     ],
+     "suggestion": "What kind of offers?",
+     "suggestionFa": "چه نوع تخفیف‌هایی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yellow",
+      "didn't",
+      "labels",
+      "know"
+     ],
+     "suggestion": "Yellow labels? I didn't know that.",
+     "suggestionFa": "برچسب‌های زرد؟ نمی‌دونستم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big shop",
+     "fa": "خرید عمده ؛ خرید هفتگی"
+    },
+    {
+     "word": "labels",
+     "fa": "برچسب‌ها"
+    },
+    {
+     "word": "offers",
+     "fa": "تخفیف‌ها ؛ پیشنهادها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "priya",
+   "text": "Look — \"Buy one, get one free\" on pasta. We call it \"BOGOF\". Funny word, isn't it?",
+   "translations": {
+    "fa": "ببین — «یکی بخر، یکی مجانی» روی ماکارونی. بهش میگیم «باگاف». کلمهٔ بامزه‌ایه، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "price",
+      "bogof",
+      "bags",
+      "two"
+     ],
+     "suggestion": "Bogof! So two bags for one price?",
+     "suggestionFa": "باگاف! پس دو بسته به قیمت یکی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strange",
+      "that's",
+      "word",
+      "rude"
+     ],
+     "suggestion": "That's a strange word! Is it rude?",
+     "suggestionFa": "کلمهٔ عجیبیه! بی‌ادبیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "buy one get one free",
+     "fa": "یکی بخر یکی رایگان"
+    },
+    {
+     "word": "pasta",
+     "fa": "پاستا ؛ ماکارونی"
+    },
+    {
+     "word": "rude",
+     "fa": "بی‌ادبانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"BOGOF\" = Buy One Get One Free. Also look for \"3 for 2\" and \"half price\".",
+    "fa": "BOGOF یعنی یکی بخر، یکی رایگان."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "priya",
+   "text": "Ha! No, it's not rude. Yes — two bags for one price. And these biscuits are half price. Only a pound.",
+   "translations": {
+    "fa": "ها! نه، بی‌ادبی نیست. آره — دو بسته به قیمت یکی. و این بیسکویت‌ها نصف قیمتن. فقط یه پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "price",
+      "half",
+      "deal",
+      "good"
+     ],
+     "suggestion": "Half price! Is it a good deal?",
+     "suggestionFa": "نصف قیمت! معاملهٔ خوبیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuits",
+      "really",
+      "don't",
+      "need"
+     ],
+     "suggestion": "I don't really need biscuits.",
+     "suggestionFa": "راستش بیسکویت لازم ندارم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half price",
+     "fa": "نیم‌بها"
+    },
+    {
+     "word": "deal",
+     "fa": "معامله"
+    },
+    {
+     "word": "need",
+     "fa": "نیاز داشتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "priya",
+   "text": "Hmm, careful. Sometimes the \"before\" price was only high for a week! Check the price per kilo. Small print, here.",
+   "translations": {
+    "fa": "هوم، مواظب باش. گاهی قیمت «قبلی» فقط یه هفته بالا بوده! قیمت هر کیلو را چک کن. ریز نوشته، اینجا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "price",
+      "where"
+     ],
+     "suggestion": "Price per kilo? Where is it?",
+     "suggestionFa": "قیمت هر کیلو؟ کجاست؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cheaper",
+      "big",
+      "box"
+     ],
+     "suggestion": "So the big box is cheaper per kilo?",
+     "suggestionFa": "پس جعبهٔ بزرگ هر کیلوش ارزون‌تره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "careful",
+     "fa": "مراقب"
+    },
+    {
+     "word": "price per kilo",
+     "fa": "قیمت هر کیلو"
+    },
+    {
+     "word": "small print",
+     "fa": "ریزنویس"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is more cheap",
+      "more cheaper"
+     ],
+     "echo": "Cheaper? Let's compare.",
+     "better": "The big box is cheaper.",
+     "betterFa": "جعبهٔ بزرگ ارزان‌تر است."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "priya",
+   "text": "Yeah — the big box is cheaper per kilo, but only if you eat it all. Otherwise it's a waste.",
+   "translations": {
+    "fa": "آره — جعبهٔ بزرگ هر کیلوش ارزون‌تره، ولی فقط اگه همه‌ش را بخوری. وگرنه هدر رفته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "small",
+      "alone",
+      "live"
+     ],
+     "suggestion": "I live alone, so the small one is better.",
+     "suggestionFa": "تنها زندگی می‌کنم، پس کوچیکه بهتره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbours",
+      "children",
+      "they'll",
+      "three"
+     ],
+     "suggestion": "My neighbours have three children. They'll eat it!",
+     "suggestionFa": "همسایه‌هام سه تا بچه دارن. اونا می‌خورن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "otherwise",
+     "fa": "وگرنه"
+    },
+    {
+     "word": "waste",
+     "fa": "اتلاف ؛ هدر"
+    },
+    {
+     "word": "alone",
+     "fa": "تنها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "priya",
+   "text": "Smart. And here's my top tip: come after seven. That's when we put the yellow stickers on the bread.",
+   "translations": {
+    "fa": "زرنگ. و این بهترین توصیهٔ منه: بعد از هفت بیا. اون موقع برچسب‌های زرد را روی نون می‌زنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seven",
+      "after",
+      "why"
+     ],
+     "suggestion": "Why after seven?",
+     "suggestionFa": "چرا بعد از هفت؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stickers",
+      "discount",
+      "yellow",
+      "like"
+     ],
+     "suggestion": "Yellow stickers? Like a discount?",
+     "suggestionFa": "برچسب زرد؟ مثل تخفیف؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "top tip",
+     "fa": "بهترین توصیه"
+    },
+    {
+     "word": "stickers",
+     "fa": "برچسب‌ها"
+    },
+    {
+     "word": "discount",
+     "fa": "تخفیف"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "priya",
+   "text": "Reduced price! Today's bread, fresh but cheap. Sometimes ten pence! But don't tell everyone. It's a secret.",
+   "translations": {
+    "fa": "قیمت کم‌شده! نون امروز، تازه ولی ارزون. گاهی ده پنی! ولی به همه نگو. رازه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seven",
+      "pence",
+      "i'll",
+      "back"
+     ],
+     "suggestion": "Ten pence! I'll come back at seven.",
+     "suggestionFa": "ده پنی! ساعت هفت برمی‌گردم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "freeze",
+      "bread",
+      "can"
+     ],
+     "suggestion": "Can I freeze the bread?",
+     "suggestionFa": "می‌تونم نون را فریز کنم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "reduced",
+     "fa": "کاهش‌یافته"
+    },
+    {
+     "word": "fresh",
+     "fa": "تازه"
+    },
+    {
+     "word": "freeze",
+     "fa": "منجمد کردن ؛ فریز کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Supermarkets reduce prices on food near its \"use by\" date, usually in the evening.",
+    "fa": "سوپرمارکت‌ها عصرها قیمت غذاهای نزدیک به تاریخ را کم می‌کنند."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "priya",
+   "text": "Yes! Freeze it and toast it from frozen. Students do it all the time. Right, the pasta — one bag or two?",
+   "translations": {
+    "fa": "آره! فریزش کن و یخ‌زده تستش کن. دانشجوها همیشه این کار را می‌کنن. خب، ماکارونی — یه بسته یا دو تا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "free",
+      "two"
+     ],
+     "suggestion": "Two, please. It's free!",
+     "suggestionFa": "دو تا لطفاً. مجانیه!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "pasta",
+      "much",
+      "just"
+     ],
+     "suggestion": "Just one. I don't eat much pasta.",
+     "suggestionFa": "فقط یکی. زیاد ماکارونی نمی‌خورم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toast",
+     "fa": "برشته کردن"
+    },
+    {
+     "word": "from frozen",
+     "fa": "از حالت یخ‌زده"
+    },
+    {
+     "word": "students",
+     "fa": "دانشجوها"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "priya",
+   "text": "You're learning fast! Soon you'll be a professional British shopper. Next lesson: complaining about the price of butter!",
+   "translations": {
+    "fa": "داری سریع یاد می‌گیری! به‌زودی یه خریدار حرفه‌ای بریتانیایی میشی. درس بعدی: غر زدن دربارهٔ قیمت کره!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

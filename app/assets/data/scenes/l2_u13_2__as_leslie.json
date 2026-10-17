@@ -1,0 +1,418 @@
+{
+ "id": "l2_u13_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Proof of address",
+ "titleFa": "(در نقش Leslie) مدرک آدرس",
+ "setting": "Registering with a GP · Level 2",
+ "settingFa": "ثبت‌نام نزد پزشک عمومی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u13_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "address",
+      "letter",
+      "proof",
+      "bank",
+      "bill"
+     ],
+     "suggestion": "Proof of address. Hmm. Have you got a bank letter, or a gas bill?",
+     "suggestionFa": "مدرک آدرس. هوم. نامهٔ بانک داری، یا قبض گاز؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I haven't got a bill yet. The bills are in my landlord's name.",
+   "translations": {
+    "fa": "هنوز قبض ندارم. قبض‌ها به اسم صاحبخونه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "receptionist",
+   "text": "That's OK. Have you got a tenancy agreement? Or a letter from the council?",
+   "translations": {
+    "fa": "اشکالی نداره. قرارداد اجاره دارید؟ یا نامه‌ای از شهرداری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tenancy agreement",
+     "fa": "قرارداد اجاره"
+    },
+    {
+     "word": "council",
+     "fa": "شورای محلی ؛ شهرداری"
+    },
+    {
+     "word": "will that do",
+     "fa": "کافی است؟"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I've got my tenancy agreement on my phone. Will that do?",
+   "translations": {
+    "fa": "قرارداد اجاره‌ام تو گوشیمه. اون کافیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "contract",
+      "signed",
+      "moved",
+      "next",
+      "when"
+     ],
+     "suggestion": "It's the contract for your room. You signed it when you moved in next door.",
+     "suggestionFa": "قرارداد اتاقته. وقتی اومدی خونهٔ بغلی امضاش کردی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Oh yes! I've got a photo of it.",
+   "translations": {
+    "fa": "آهان آره! یه عکس ازش دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "receptionist",
+   "text": "A photo on your phone is fine. Could you email it to us? Here's our address.",
+   "translations": {
+    "fa": "عکس تو گوشی کافیه. می‌شه برامون ایمیلش کنید؟ این آدرس ماست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "email",
+     "fa": "ایمیل کردن"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    },
+    {
+     "word": "send",
+     "fa": "فرستادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Surgeries can't refuse to register you just because you have no proof of address. But it helps.",
+    "fa": "مطب نمی‌تواند فقط به خاطر نداشتن مدرک آدرس ثبت‌نام را رد کند."
+   }
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Of course. I'll send it now.",
+   "translations": {
+    "fa": "حتماً. الان می‌فرستم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "receptionist",
+   "text": "Lovely, I've got it. And some photo ID? A passport or a driving licence?",
+   "translations": {
+    "fa": "عالیه، رسید. و یه کارت شناسایی عکس‌دار؟ پاسپورت یا گواهینامه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "photo ID",
+     "fa": "کارت شناسایی عکس‌دار"
+    },
+    {
+     "word": "passport",
+     "fa": "گذرنامه"
+    },
+    {
+     "word": "driving licence",
+     "fa": "گواهینامه"
+    },
+    {
+     "word": "residence permit",
+     "fa": "اجازهٔ اقامت"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Here's my passport.",
+   "translations": {
+    "fa": "این پاسپورتمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "receptionist",
+   "text": "That's perfect, thank you. Your registration takes about two weeks. We'll send you a text.",
+   "translations": {
+    "fa": "عالیه، ممنون. ثبت‌نامتون حدود دو هفته طول می‌کشه. پیامک براتون می‌فرستیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "registration",
+     "fa": "ثبت‌نام"
+    },
+    {
+     "word": "takes",
+     "fa": "طول می‌کشد"
+    },
+    {
+     "word": "text",
+     "fa": "پیامک"
+    },
+    {
+     "word": "ill",
+     "fa": "بیمار"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Two weeks? What if I get ill before then?",
+   "translations": {
+    "fa": "دو هفته؟ اگه قبلش مریض بشم چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "receptionist",
+   "text": "You can still call us, or call 111. And we'll invite you for a new patient check.",
+   "translations": {
+    "fa": "باز هم می‌تونید به ما زنگ بزنید، یا ۱۱۱. و برای معاینهٔ بیمار جدید دعوتتون می‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "still",
+     "fa": "هنوز ؛ باز هم"
+    },
+    {
+     "word": "invite",
+     "fa": "دعوت کردن"
+    },
+    {
+     "word": "new patient",
+     "fa": "بیمار جدید"
+    }
+   ]
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "What's a new patient check?",
+   "translations": {
+    "fa": "معاینهٔ بیمار جدید چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pressure",
+      "weight",
+      "doctor",
+      "height",
+      "quick"
+     ],
+     "suggestion": "It's a quick chat with a nurse or doctor. Blood pressure, height, weight. Easy!",
+     "suggestionFa": "یه گپ کوتاه با پرستار یا دکتره. فشار خون، قد، وزن. آسونه!",
+     "trustDelta": 5,
+     "next": "r14",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r14": {
+   "id": "r14",
+   "speaker": "mehdi",
+   "text": "Weight? Oh no. After all your cakes!",
+   "translations": {
+    "fa": "وزن؟ ای وای. بعد از این‌همه کیک تو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "healthy",
+      "carrot",
+      "coffee",
+      "cakes",
+      "let's"
+     ],
+     "suggestion": "Ha! My cakes are very healthy. Well, the carrot one is. Come on, let's get a coffee. Job done!",
+     "suggestionFa": "ها! کیک‌های من خیلی سالمن. خب، کیک هویجیه هست. بیا، بریم یه قهوه بخوریم. کار تموم شد!",
+     "trustDelta": 5,
+     "next": "r15",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r15": {
+   "id": "r15",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

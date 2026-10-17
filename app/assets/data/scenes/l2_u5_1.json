@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "staying",
       "morning",
+      "staying",
       "toms",
       "good"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "things",
-      "meet",
-      "says",
-      "nice"
+      "hope",
+      "nice",
+      "meet"
      ],
      "suggestion": "Nice to meet you. I hope she says nice things!",
      "suggestionFa": "از آشنایی‌تون خوشبختم. امیدوارم چیزهای خوبی بگه!",
@@ -70,9 +70,9 @@
     {
      "keywords": [
       "course",
-      "give",
       "i'll",
-      "her"
+      "give",
+      "mum"
      ],
      "suggestion": "Of course. I'll give it to her mum.",
      "suggestionFa": "حتماً. به مامانش می‌دم.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "need",
-      "she",
-      "pay"
+      "pay",
+      "she"
      ],
      "suggestion": "Does she need to pay for it?",
      "suggestionFa": "باید پولش را بده؟",
@@ -178,8 +178,8 @@
      "keywords": [
       "yesterday",
       "animals",
-      "about",
-      "loves"
+      "loves",
+      "about"
      ],
      "suggestion": "She loves animals. She told me about them yesterday.",
      "suggestionFa": "عاشق حیوون‌هاست. دیروز دربارهٔ اونا بهم گفت.",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "haven't",
+      "i'll",
       "seen",
-      "look",
-      "i'll"
+      "look"
      ],
      "suggestion": "No, I haven't seen it. I'll look for it at home.",
      "suggestionFa": "نه، ندیدمش. تو خونه دنبالش می‌گردم.",
@@ -298,9 +298,9 @@
     {
      "keywords": [
       "i'll",
-      "now",
+      "her",
       "put",
-      "her"
+      "now"
      ],
      "suggestion": "I'll put it in her bag now.",
      "suggestionFa": "الان می‌ذارمش تو کیفش.",

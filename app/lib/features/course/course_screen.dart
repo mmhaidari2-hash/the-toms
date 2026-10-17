@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../shared/nav.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
@@ -33,7 +34,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
     final c = ref.watch(contentProvider).value;
     ref.watch(progressProvider);
     final ctrl = ref.read(progressProvider.notifier);
-    if (c == null) return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    if (c == null) return const NavLoading();
     final course = c.course;
     final done = course.lessons.where(ctrl.lessonDone).length;
     final levels = course.units.map((u) => u.level).toSet().toList()..sort();
@@ -56,12 +57,13 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
       body: CustomScrollView(
         primary: true,
         slivers: [
-          SliverPadding(
-            padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
-            sliver: SliverToBoxAdapter(
+          PinnedHeaderSliver(
+            child: ColoredBox(color: BL.cream, child: Padding(
+              padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
               child: Row(
                 children: [
-                  IconButton(onPressed: () => context.canPop() ? context.pop() : context.go('/'), icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20)),
+                  const NavButtons(),
+                  const SizedBox(width: 10),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -74,7 +76,7 @@ class _CourseScreenState extends ConsumerState<CourseScreen> {
                   Text('$done/${course.lessons.length}', style: BL.display(18, color: BL.green)),
                 ],
               ),
-            ),
+            )),
           ),
           // Level chips: tap a level to jump straight to its own units.
           SliverToBoxAdapter(
@@ -384,7 +386,7 @@ class PackScreen extends ConsumerWidget {
     ref.watch(progressProvider);
     final ctrl = ref.read(progressProvider.notifier);
     final pack = c?.course.pack(id);
-    if (c == null || pack == null) return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    if (c == null || pack == null) return const NavLoading();
     final pad = MediaQuery.paddingOf(context);
     final lead = c.character(pack.lead);
     final all = pack.lessons.toList();
@@ -393,15 +395,16 @@ class PackScreen extends ConsumerWidget {
       backgroundColor: BL.cream,
       body: CustomScrollView(
         slivers: [
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 0),
+          PinnedHeaderSliver(
+            child: ColoredBox(color: BL.cream, child: Padding(
+              padding: EdgeInsets.fromLTRB(8, pad.top + 6, 20, 4),
               child: Row(children: [
-                IconButton(onPressed: () => context.canPop() ? context.pop() : context.go('/course'), icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20)),
+                const NavButtons(),
+                const SizedBox(width: 10),
                 const Expanded(child: Text('CAREER PACK', style: TextStyle(fontSize: 11, letterSpacing: 1.6, fontWeight: FontWeight.w800, color: BL.red))),
                 Text('$done/${all.length}', style: BL.display(18, color: BL.green)),
               ]),
-            ),
+            )),
           ),
           SliverToBoxAdapter(
             child: Padding(

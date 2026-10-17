@@ -47,9 +47,9 @@
     {
      "keywords": [
       "please",
-      "butter",
       "onions",
-      "could",
+      "butter",
+      "green",
       "onion"
      ],
      "suggestion": "It's like a big green onion. Could you stir the butter and onions, please?",
@@ -73,9 +73,9 @@
      "keywords": [
       "wooden",
       "spoon",
-      "leeks",
       "don't",
-      "them"
+      "leeks",
+      "burn"
      ],
      "suggestion": "Yes, the wooden spoon. Don't let them burn. Can you pass me the leeks?",
      "suggestionFa": "آره، قاشق چوبی. نذار بسوزن. تره‌فرنگی‌ها را می‌دی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "potatoes",
       "they're",
-      "inside",
       "please",
-      "first"
+      "inside",
+      "often"
      ],
      "suggestion": "Oh, yes please. Wash them first — they're often muddy inside. Could you peel the potatoes after?",
      "suggestionFa": "آه، آره لطفاً. اول بشورشون — داخلشون معمولاً گلیه. بعدش سیب‌زمینی‌ها را پوست می‌کنی؟",
@@ -125,7 +125,7 @@
       "drawer",
       "water",
       "some",
-      "boil"
+      "told"
      ],
      "suggestion": "Told you! The peeler's in the drawer. Can you boil some water too?",
      "suggestionFa": "گفتم که! پوست‌کن تو کشوئه. یه کم آب هم جوش میاری؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "kettle",
       "faster",
-      "first",
+      "kettle",
       "stock",
-      "pour"
+      "first",
+      "cube"
      ],
      "suggestion": "Yes, kettle first. It's faster. Then pour it in with a stock cube.",
      "suggestionFa": "آره، اول کتری. سریع‌تره. بعد با یه عصارهٔ مرغ بریزش تو.",
@@ -174,8 +174,8 @@
       "minutes",
       "twenty",
       "blend",
-      "could",
-      "about"
+      "about",
+      "timer"
      ],
      "suggestion": "About twenty minutes. Then we blend it. Could you set a timer?",
      "suggestionFa": "حدود بیست دقیقه. بعد میکسش می‌کنیم. می‌شه یه تایمر بذاری؟",
@@ -200,7 +200,7 @@
       "lovely",
       "plenty",
       "crusty",
-      "could"
+      "bread"
      ],
      "suggestion": "Lovely. Thank you! Could you stay for tea? There's plenty, with crusty bread. You did half the work!",
      "suggestionFa": "عالی. ممنون! شام می‌مونی؟ زیاده، با نون برشته. نصف کار را تو کردی!",

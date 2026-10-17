@@ -77,10 +77,10 @@
    "branches": [
     {
      "keywords": [
-      "rather",
-      "myself",
       "thanks",
-      "handle"
+      "myself",
+      "handle",
+      "rather"
      ],
      "suggestion": "Thanks, but I'd rather handle it myself.",
      "suggestionFa": "ممنون، ولی ترجیح می‌دم خودم حلش کنم.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "awkward",
-      "don't",
       "maybe",
+      "don't",
       "make"
      ],
      "suggestion": "Maybe. I don't want to make it awkward.",
@@ -131,8 +131,8 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "getting",
+      "perfect",
       "honest",
       "that's"
      ],
@@ -187,8 +187,8 @@
      "keywords": [
       "anyone",
       "don't",
-      "want",
-      "hope"
+      "hope",
+      "fall"
      ],
      "suggestion": "I hope so. I don't want to fall out with anyone.",
      "suggestionFa": "امیدوارم. نمی‌خوام با کسی شکرآب بشم.",
@@ -201,7 +201,7 @@
       "someone's",
       "thanks",
       "helps",
-      "know"
+      "back"
      ],
      "suggestion": "Thanks, Al. It helps to know someone's got my back.",
      "suggestionFa": "ممنون ال. خوبه بدونم یکی هوام را داره.",

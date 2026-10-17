@@ -24,8 +24,8 @@
       "william's",
       "running",
       "hello",
-      "dear",
-      "duck"
+      "pass",
+      "dear"
      ],
      "suggestion": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
      "suggestionFa": "سلام عزیزم! دارم وان ویلیام را پر می‌کنم. اردکش را بهم میدی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "question",
       "always",
+      "elbow",
       "right",
-      "check",
-      "elbow"
+      "check"
      ],
      "suggestion": "Good question. I always check with my elbow. Like this. It's just right.",
      "suggestionFa": "سؤال خوبیه. من همیشه با آرنجم امتحان می‌کنم. این‌جوری. درست اندازه‌ست.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -153,7 +153,7 @@
       "washing",
       "hates",
       "thank",
-      "dear"
+      "sing"
      ],
      "suggestion": "Thank you, dear. Now I'm washing his hair. He hates this part. Sing something!",
      "suggestionFa": "ممنون عزیزم. حالا دارم موهاش را می‌شورم. از این قسمت متنفره. یه چیزی بخون!",

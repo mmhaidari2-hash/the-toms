@@ -22,9 +22,9 @@
     {
      "keywords": [
       "william's",
-      "ready",
       "check",
       "water",
+      "ready",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "that's",
       "bubble",
+      "nicola",
       "little",
-      "much"
+      "good"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
      "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -120,10 +120,10 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "where's",
-      "can't",
+      "william",
       "there",
+      "can't",
       "see"
      ],
      "suggestion": "Ha! I can't see William. Where's William? There he is!",
@@ -147,8 +147,8 @@
      "keywords": [
       "rubber",
       "yellow",
-      "duck",
       "pass",
+      "duck",
       "can"
      ],
      "suggestion": "Can you pass me the duck? The yellow rubber duck.",
@@ -224,8 +224,8 @@
       "towel",
       "floor",
       "dear",
-      "get",
-      "wet"
+      "wet",
+      "get"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
      "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "hair",
-      "blue"
+      "blue",
+      "like"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -271,11 +271,11 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "clever",
+      "little",
       "isn't",
       "clean",
-      "time"
+      "bath"
      ],
      "suggestion": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",
      "suggestionFa": "زرنگی! حالا تمیز تمیزه. بیا بیرون مرد کوچولو. وقت حموم بهترین وقته، نه؟",

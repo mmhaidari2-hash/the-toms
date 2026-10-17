@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "first",
       "sorry",
+      "first",
       "bath"
      ],
      "suggestion": "No, sorry. Bath first.",
@@ -170,9 +170,9 @@
     },
     {
      "keywords": [
-      "brush",
       "teeth",
-      "after"
+      "after",
+      "brush"
      ],
      "suggestion": "After milk, you brush your teeth.",
      "suggestionFa": "بعد از شیر، دندونات را مسواک می‌زنی.",
@@ -227,8 +227,8 @@
     {
      "keywords": [
       "minutes",
-      "long",
       "time",
+      "long",
       "two"
      ],
      "suggestion": "Two minutes is a long time!",
@@ -320,8 +320,8 @@
     },
     {
      "keywords": [
-      "nicola",
       "choose",
+      "nicola",
       "book"
      ],
      "suggestion": "Nicola, choose a book.",

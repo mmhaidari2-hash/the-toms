@@ -22,10 +22,10 @@
     {
      "keywords": [
       "ducks",
-      "have",
+      "food",
+      "lots",
       "pond",
-      "look",
-      "food"
+      "have"
      ],
      "suggestion": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
      "suggestionFa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟",
@@ -49,8 +49,8 @@
       "special",
       "ducks",
       "bread",
-      "duck",
-      "food"
+      "food",
+      "duck"
      ],
      "suggestion": "No! Not bread. Bread is bad for ducks. It's special duck food.",
      "suggestionFa": "نه! نون نه. نون برای اردک‌ها بده. غذای مخصوص اردکه.",
@@ -75,7 +75,7 @@
       "seeds",
       "oats",
       "many",
-      "can"
+      "how"
      ],
      "suggestion": "Oats and seeds. How many ducks can you see?",
      "suggestionFa": "جو دوسر و دونه. چند تا اردک می‌بینی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "grumpy",
       "don't",
+      "swans",
       "close",
-      "white",
-      "swans"
+      "white"
      ],
      "suggestion": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
      "suggestionFa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "gently",
-      "throw",
       "water",
+      "throw",
       "food",
       "bit"
      ],
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "eating",
-      "little",
       "babies",
+      "little",
       "brown",
       "she's"
      ],
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "taught",
       "cygnet",
+      "taught",
       "ellis",
-      "gone",
-      "food"
+      "food",
+      "gone"
      ],
      "suggestion": "A cygnet! Mrs Ellis taught us. Oh, the food is all gone.",
      "suggestionFa": "سیگنت! خانم الیس یادمون داد. آه، غذا تموم شد.",
@@ -223,9 +223,9 @@
      "keywords": [
       "swings",
       "ducks",
-      "week",
+      "next",
       "race",
-      "next"
+      "week"
      ],
      "suggestion": "Yes! Race you to the swings! Bye, ducks! See you next week!",
      "suggestionFa": "آره! مسابقه تا تاب‌ها! خداحافظ اردک‌ها! هفتهٔ بعد می‌بینیمتون!",

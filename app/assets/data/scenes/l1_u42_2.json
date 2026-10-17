@@ -32,8 +32,8 @@
      "keywords": [
       "stratford",
       "platform",
-      "which",
-      "going"
+      "going",
+      "which"
      ],
      "suggestion": "I'm going to Stratford. Which platform?",
      "suggestionFa": "دارم میرم استراتفورد. کدوم سکو؟",
@@ -123,8 +123,8 @@
     {
      "keywords": [
       "timetable",
-      "there",
       "don't",
+      "there",
       "know"
      ],
      "suggestion": "I don't know. Is there a timetable?",
@@ -264,10 +264,10 @@
    "branches": [
     {
      "keywords": [
-      "mind",
       "know",
-      "one",
-      "gap"
+      "mind",
+      "gap",
+      "one"
      ],
      "suggestion": "\"Mind the gap\"! I know that one!",
      "suggestionFa": "«مراقب فاصله باشید»! اینو بلدم!",

@@ -1,0 +1,386 @@
+{
+ "id": "l2_u15_3",
+ "characterId": "doris",
+ "title": "The bus is late",
+ "titleFa": "اتوبوس دیر کرده",
+ "setting": "Buses and Oyster · Level 2",
+ "settingFa": "اتوبوس و کارت اویستر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "doris",
+   "text": "Hello again, dear. Have you been waiting long? This bus should come every eight minutes.",
+   "translations": {
+    "fa": "باز سلام عزیزم. خیلی وقته منتظری؟ این اتوبوس باید هر هشت دقیقه بیاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supposed",
+      "minutes",
+      "twenty",
+      "past"
+     ],
+     "suggestion": "Twenty minutes! It was supposed to come at ten past.",
+     "suggestionFa": "بیست دقیقه! قرار بود ده دقیقه گذشته بیاد.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "going",
+      "late",
+      "work"
+     ],
+     "suggestion": "Yes. I'm going to be late for work.",
+     "suggestionFa": "آره. دیرم میشه سر کار.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waiting",
+     "fa": "منتظر بودن"
+    },
+    {
+     "word": "should",
+     "fa": "باید ؛ قرار است"
+    },
+    {
+     "word": "supposed to",
+     "fa": "قرار بود"
+    },
+    {
+     "word": "late",
+     "fa": "دیر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "doris",
+   "text": "Oh dear. Look at the sign. It says \"38 — due\". It said \"due\" ten minutes ago too!",
+   "translations": {
+    "fa": "ای وای. تابلو را ببین. نوشته «۳۸ — در راه». ده دقیقه پیش هم نوشته بود «در راه»!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mean",
+      "due"
+     ],
+     "suggestion": "What does \"due\" mean?",
+     "suggestionFa": "«دیو» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wrong",
+      "think",
+      "sign"
+     ],
+     "suggestion": "The sign is wrong, I think.",
+     "suggestionFa": "فکر کنم تابلو اشتباهه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign",
+     "fa": "تابلو"
+    },
+    {
+     "word": "due",
+     "fa": "مورد انتظار ؛ در راه"
+    },
+    {
+     "word": "ago",
+     "fa": "پیش"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what mean due",
+      "due is mean"
+     ],
+     "echo": "What does \"due\" mean? It means \"coming now\".",
+     "better": "What does \"due\" mean?",
+     "betterFa": "«due» یعنی چه؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "doris",
+   "text": "It means it should be here now. Ha! Apparently there's an accident on Mare Street.",
+   "translations": {
+    "fa": "یعنی باید الان اینجا باشه. ها! ظاهراً تو مِر استریت تصادف شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accident",
+      "everyone",
+      "hope",
+      "ok"
+     ],
+     "suggestion": "An accident? I hope everyone is OK.",
+     "suggestionFa": "تصادف؟ امیدوارم همه سالم باشن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "know",
+      "how"
+     ],
+     "suggestion": "How do you know?",
+     "suggestionFa": "از کجا می‌دونی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "apparently",
+     "fa": "ظاهراً"
+    },
+    {
+     "word": "accident",
+     "fa": "تصادف"
+    },
+    {
+     "word": "I hope",
+     "fa": "امیدوارم"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "doris",
+   "text": "The man next to me read it on his phone. There's an app with live times. Have you got it?",
+   "translations": {
+    "fa": "مردی که کنارم بود تو گوشیش خوند. یه برنامه با زمان‌های لحظه‌ای هست. داریش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "called",
+      "what's"
+     ],
+     "suggestion": "No. What's it called?",
+     "suggestionFa": "نه. اسمش چیه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "says",
+      "more",
+      "ten"
+     ],
+     "suggestion": "Yes, but it says ten more minutes.",
+     "suggestionFa": "آره، ولی نوشته ده دقیقهٔ دیگه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "live times",
+     "fa": "زمان‌های لحظه‌ای"
+    },
+    {
+     "word": "app",
+     "fa": "برنامه"
+    },
+    {
+     "word": "called",
+     "fa": "به نام"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many Londoners use apps like Citymapper or TfL Go to check live bus times.",
+    "fa": "لندنی‌ها از برنامه‌هایی برای دیدن زمان لحظه‌ای اتوبوس استفاده می‌کنند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "doris",
+   "text": "Ten more minutes. Typical! You know what happens next? Three 38s will come together.",
+   "translations": {
+    "fa": "ده دقیقهٔ دیگه. مثل همیشه! می‌دونی بعدش چی میشه؟ سه تا ۳۸ با هم میان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "always",
+      "buses",
+      "come"
+     ],
+     "suggestion": "Why do buses always come together?",
+     "suggestionFa": "چرا اتوبوس‌ها همیشه با هم میان؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yesterday",
+      "happened",
+      "ha"
+     ],
+     "suggestion": "Ha! That happened yesterday!",
+     "suggestionFa": "ها! دیروز همین شد!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "typical",
+     "fa": "همیشگی ؛ مثل همیشه"
+    },
+    {
+     "word": "together",
+     "fa": "با هم"
+    },
+    {
+     "word": "happened",
+     "fa": "اتفاق افتاد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "doris",
+   "text": "Nobody knows, dear. It's one of life's mysteries. Should you call your boss?",
+   "translations": {
+    "fa": "هیچ‌کس نمی‌دونه عزیزم. یکی از رازهای زندگیه. نباید به رئیست زنگ بزنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "message",
+      "sorry",
+      "send",
+      "i'll"
+     ],
+     "suggestion": "Yes. I'll send a message: \"Sorry, the bus is late.\"",
+     "suggestionFa": "آره. یه پیام می‌فرستم: «ببخشید، اتوبوس دیر کرده.»",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "twenty",
+      "should",
+      "maybe"
+     ],
+     "suggestion": "Maybe I should walk. It's only twenty minutes.",
+     "suggestionFa": "شاید باید پیاده برم. فقط بیست دقیقه‌ست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boss",
+     "fa": "رئیس"
+    },
+    {
+     "word": "message",
+     "fa": "پیام"
+    },
+    {
+     "word": "maybe",
+     "fa": "شاید"
+    },
+    {
+     "word": "walk",
+     "fa": "پیاده رفتن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "doris",
+   "text": "Walk? In this drizzle? You'll be soaked! Oh — look! Here they come. One, two… three! What did I tell you?",
+   "translations": {
+    "fa": "پیاده؟ تو این نم‌نم بارون؟ خیس آب میشی! اوه — ببین! دارن میان. یک، دو… سه! نگفتم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "doris",
+      "were"
+     ],
+     "suggestion": "You were right, Doris!",
+     "suggestionFa": "حق با تو بود دوریس!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "buses",
+      "three",
+      "which",
+      "shall"
+     ],
+     "suggestion": "Three buses! Which one shall we take?",
+     "suggestionFa": "سه تا اتوبوس! کدومش را سوار شیم؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drizzle",
+     "fa": "نم‌نم باران"
+    },
+    {
+     "word": "soaked",
+     "fa": "خیس آب"
+    },
+    {
+     "word": "right",
+     "fa": "درست"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "doris",
+   "text": "The last one — it's always empty. And look who's driving it. Tom! He'll have a joke ready. Brace yourself.",
+   "translations": {
+    "fa": "آخری — همیشه خالیه. و ببین رانندش کیه. تام! حتماً یه جوک آماده داره. خودت را آماده کن."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

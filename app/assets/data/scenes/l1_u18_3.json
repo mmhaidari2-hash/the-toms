@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "fridge",
       "what's",
-      "hungry"
+      "hungry",
+      "fridge"
      ],
      "suggestion": "I'm hungry too. What's in the fridge?",
      "suggestionFa": "منم گرسنه‌ام. تو یخچال چی هست؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "something",
-      "let's",
       "quick",
+      "let's",
       "have"
      ],
      "suggestion": "Let's have something quick.",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "opener",
-      "pull",
-      "ring"
+      "ring",
+      "pull"
      ],
      "suggestion": "It's a ring pull. No opener!",
      "suggestionFa": "درش حلقه داره. دربازکن نمی‌خواد!",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "slices",
       "please",
+      "slices",
       "two"
      ],
      "suggestion": "Two slices, please.",
@@ -217,8 +217,8 @@
    "branches": [
     {
      "keywords": [
-      "stirring",
       "bubbling",
+      "stirring",
       "they're"
      ],
      "suggestion": "I'm stirring. They're bubbling!",
@@ -264,8 +264,8 @@
    "branches": [
     {
      "keywords": [
-      "cheese",
       "please",
+      "cheese",
       "lots"
      ],
      "suggestion": "Yes, please! Lots of cheese.",

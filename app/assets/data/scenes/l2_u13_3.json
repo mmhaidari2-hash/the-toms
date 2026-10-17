@@ -1,0 +1,444 @@
+{
+ "id": "l2_u13_3",
+ "characterId": "okafor",
+ "title": "The new patient check",
+ "titleFa": "معاینهٔ بیمار جدید",
+ "setting": "Registering with a GP · Level 2",
+ "settingFa": "ثبت‌نام نزد پزشک عمومی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "okafor",
+   "text": "Hello, come in. I'm Dr Okafor. This is your new patient check — just a few questions. How are you today?",
+   "translations": {
+    "fa": "سلام، بفرمایید. من دکتر اوکافور هستم. این معاینهٔ بیمار جدیدتونه — فقط چند تا سؤال. امروز چطورید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nervous",
+      "thank",
+      "fine",
+      "bit"
+     ],
+     "suggestion": "I'm fine, thank you. A bit nervous.",
+     "suggestionFa": "خوبم، ممنون. یه‌کم استرس دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "meet",
+      "nice",
+      "well"
+     ],
+     "suggestion": "Very well, thanks. Nice to meet you.",
+     "suggestionFa": "خیلی خوب، ممنون. از آشنایی‌تون خوشحالم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "new patient check",
+     "fa": "معاینهٔ بیمار جدید"
+    },
+    {
+     "word": "questions",
+     "fa": "سؤال‌ها"
+    },
+    {
+     "word": "nervous",
+     "fa": "مضطرب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "okafor",
+   "text": "No need to be nervous. Do you have any health problems? Asthma, diabetes, anything like that?",
+   "translations": {
+    "fa": "لازم نیست نگران باشید. مشکل سلامتی دارید؟ آسم، دیابت، چیزی مثل این؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problems",
+      "health",
+      "don't",
+      "any"
+     ],
+     "suggestion": "No, I don't have any health problems.",
+     "suggestionFa": "نه، هیچ مشکل سلامتی ندارم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "spring",
+      "fever",
+      "hay"
+     ],
+     "suggestion": "I have hay fever in spring. That's all.",
+     "suggestionFa": "بهار حساسیت فصلی دارم. همین.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "health problems",
+     "fa": "مشکلات سلامتی"
+    },
+    {
+     "word": "asthma",
+     "fa": "آسم"
+    },
+    {
+     "word": "diabetes",
+     "fa": "دیابت"
+    },
+    {
+     "word": "hay fever",
+     "fa": "تب یونجه ؛ حساسیت فصلی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i don't have no",
+      "i have not any"
+     ],
+     "echo": "No health problems? Good.",
+     "better": "I don't have any health problems.",
+     "betterFa": "هیچ مشکل سلامتی ندارم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "okafor",
+   "text": "Good. Are you taking any medicine at the moment?",
+   "translations": {
+    "fa": "خوبه. الان دارویی مصرف می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nothing"
+     ],
+     "suggestion": "No, nothing.",
+     "suggestionFa": "نه، هیچی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "vitamin",
+      "winter",
+      "just",
+      "d"
+     ],
+     "suggestion": "Just vitamin D in the winter.",
+     "suggestionFa": "فقط ویتامین D تو زمستون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "taking medicine",
+     "fa": "دارو مصرف کردن"
+    },
+    {
+     "word": "at the moment",
+     "fa": "در حال حاضر"
+    },
+    {
+     "word": "vitamin D",
+     "fa": "ویتامین D"
+    }
+   ],
+   "cultureNote": {
+    "en": "The NHS suggests everyone takes vitamin D in autumn and winter, because there's not much sun.",
+    "fa": "NHS توصیه می‌کند در پاییز و زمستان ویتامین D مصرف شود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "okafor",
+   "text": "Very sensible. Any allergies? To medicines, or to food?",
+   "translations": {
+    "fa": "خیلی عاقلانه. حساسیتی دارید؟ به دارو، یا غذا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "penicillin",
+      "allergic"
+     ],
+     "suggestion": "I'm allergic to penicillin.",
+     "suggestionFa": "به پنی‌سیلین حساسیت دارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "allergies",
+      "know",
+      "far",
+      "as"
+     ],
+     "suggestion": "No allergies, as far as I know.",
+     "suggestionFa": "تا جایی که می‌دونم، حساسیتی ندارم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allergies",
+     "fa": "حساسیت‌ها"
+    },
+    {
+     "word": "allergic to",
+     "fa": "حساسیت داشتن به"
+    },
+    {
+     "word": "as far as I know",
+     "fa": "تا جایی که می‌دانم"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "okafor",
+   "text": "Thank you, I'll write that down. How often do you exercise? Walking counts!",
+   "translations": {
+    "fa": "ممنون، یادداشتش می‌کنم. چند وقت یه بار ورزش می‌کنید؟ پیاده‌روی هم حساب میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "every",
+      "walk",
+      "work",
+      "day"
+     ],
+     "suggestion": "I walk to work every day.",
+     "suggestionFa": "هر روز پیاده می‌رم سر کار.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "never",
+      "often",
+      "i've",
+      "been"
+     ],
+     "suggestion": "Not very often. I've never been to a gym here.",
+     "suggestionFa": "نه خیلی. اینجا هیچ‌وقت باشگاه نرفتم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how often",
+     "fa": "چند وقت یک بار"
+    },
+    {
+     "word": "exercise",
+     "fa": "ورزش کردن"
+    },
+    {
+     "word": "counts",
+     "fa": "حساب می‌شود"
+    },
+    {
+     "word": "never",
+     "fa": "هرگز"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "okafor",
+   "text": "Walking is great. Now let's check your blood pressure. Roll up your sleeve. A little squeeze…",
+   "translations": {
+    "fa": "پیاده‌روی عالیه. حالا فشارتون را بگیریم. آستینتون را بالا بزنید. یه‌کم فشار میاد…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tight",
+      "bit"
+     ],
+     "suggestion": "It's a bit tight!",
+     "suggestionFa": "یه‌کم سفته!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "normal",
+      "ok"
+     ],
+     "suggestion": "OK. Is it normal?",
+     "suggestionFa": "باشه. نرماله؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "roll up",
+     "fa": "بالا زدن"
+    },
+    {
+     "word": "sleeve",
+     "fa": "آستین"
+    },
+    {
+     "word": "squeeze",
+     "fa": "فشار"
+    },
+    {
+     "word": "tight",
+     "fa": "سفت"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "okafor",
+   "text": "One twenty over seventy-eight. That's perfect. Now step on the scales for me, please.",
+   "translations": {
+    "fa": "صد و بیست روی هفتاد و هشت. عالیه. حالا لطفاً برید روی ترازو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shoes",
+      "take",
+      "off"
+     ],
+     "suggestion": "Do I take my shoes off?",
+     "suggestionFa": "کفشم را دربیارم؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "number",
+      "don't",
+      "tell"
+     ],
+     "suggestion": "Please don't tell me the number!",
+     "suggestionFa": "لطفاً عدد را بهم نگید!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scales",
+     "fa": "ترازو"
+    },
+    {
+     "word": "step on",
+     "fa": "رفتن روی"
+    },
+    {
+     "word": "shoes off",
+     "fa": "کفش درآوردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "okafor",
+   "text": "Shoes off, yes. All fine — you're a healthy weight. Last question: do you have anyone to talk to here?",
+   "translations": {
+    "fa": "کفش‌ها را دربیارید، بله. همه چی خوبه — وزنتون سالمه. آخرین سؤال: اینجا کسی را دارید باهاش حرف بزنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "neighbours",
+      "they're",
+      "family",
+      "like"
+     ],
+     "suggestion": "Yes, my neighbours. They're like family.",
+     "suggestionFa": "آره، همسایه‌هام. مثل خانواده‌ان.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes",
+      "lonely",
+      "really",
+      "feel"
+     ],
+     "suggestion": "Not really. I sometimes feel lonely.",
+     "suggestionFa": "نه زیاد. گاهی احساس تنهایی می‌کنم.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anyone",
+     "fa": "کسی"
+    },
+    {
+     "word": "neighbours",
+     "fa": "همسایه‌ها"
+    },
+    {
+     "word": "lonely",
+     "fa": "تنها ؛ دلتنگ"
+    }
+   ],
+   "cultureNote": {
+    "en": "GPs ask about loneliness because it affects health. You can always talk to your GP about feelings.",
+    "fa": "پزشکان دربارهٔ تنهایی هم می‌پرسند؛ چون روی سلامت اثر دارد."
+   }
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "okafor",
+   "text": "That's good to hear. And if you ever feel low, come and see us. That's what we're here for. Welcome to the practice!",
+   "translations": {
+    "fa": "خوشحالم که می‌شنوم. و اگه یه وقت حالتون گرفته بود، بیاید پیش ما. ما برای همین اینجاییم. به مطب خوش اومدید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

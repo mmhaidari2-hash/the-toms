@@ -1,0 +1,330 @@
+{
+ "id": "l2_u21_2",
+ "characterId": "maya",
+ "title": "South Kensington",
+ "titleFa": "ساوت کنزینگتون",
+ "setting": "A day at the museum · Level 2",
+ "settingFa": "یک روز در موزه",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "maya",
+   "text": "Morning! Big group today. Where are you all off to?",
+   "translations": {
+    "fa": "صبح بخیر! امروز گروه بزرگیه. همه‌تون کجا می‌رید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "natural",
+      "history",
+      "museum"
+     ],
+     "suggestion": "The Natural History Museum!",
+     "suggestionFa": "موزهٔ تاریخ طبیعی!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kensington",
+      "train",
+      "right",
+      "south"
+     ],
+     "suggestion": "South Kensington. Are we on the right train?",
+     "suggestionFa": "ساوت کنزینگتون. قطارمون درسته؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "group",
+     "fa": "گروه"
+    },
+    {
+     "word": "off to",
+     "fa": "رفتن به"
+    },
+    {
+     "word": "right train",
+     "fa": "قطار درست"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "maya",
+   "text": "You are. This train goes to Highbury. Change there for the Victoria line, then the Piccadilly line at Green Park.",
+   "translations": {
+    "fa": "درسته. این قطار میره هایبری. اونجا به خط ویکتوریا عوض کنید، بعد تو گرین پارک خط پیکادیلی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "changes",
+      "two",
+      "ok"
+     ],
+     "suggestion": "Two changes. OK.",
+     "suggestionFa": "دو بار عوض کنیم. باشه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "down",
+      "can"
+     ],
+     "suggestion": "Can you write that down for me?",
+     "suggestionFa": "می‌شه برام بنویسیدش؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "change",
+     "fa": "عوض کردن"
+    },
+    {
+     "word": "Piccadilly line",
+     "fa": "خط پیکادیلی"
+    },
+    {
+     "word": "write down",
+     "fa": "یادداشت کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "maya",
+   "text": "Easier: just listen. The voice says \"Change here for the Piccadilly line.\" That's your cue.",
+   "translations": {
+    "fa": "آسون‌تر: فقط گوش کنید. صدا میگه «برای خط پیکادیلی اینجا عوض کنید.» اون علامتتونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "listen",
+      "change",
+      "here",
+      "i'll"
+     ],
+     "suggestion": "\"Change here for…\" I'll listen for it.",
+     "suggestionFa": "«برای… اینجا عوض کنید». گوش می‌دم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "cue"
+     ],
+     "suggestion": "What's a \"cue\"?",
+     "suggestionFa": "«کیو» چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "easier",
+     "fa": "آسان‌تر"
+    },
+    {
+     "word": "listen for",
+     "fa": "منتظر شنیدن بودن"
+    },
+    {
+     "word": "cue",
+     "fa": "نشانه ؛ علامت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "change here to piccadilly",
+      "change in here for"
+     ],
+     "echo": "\"Change here for the Piccadilly line.\"",
+     "better": "Change here for the Piccadilly line.",
+     "betterFa": "برای خط پیکادیلی اینجا عوض کنید."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "maya",
+   "text": "A cue is a signal to do something. Oh, and at South Ken, follow the signs: \"Museums — subway\".",
+   "translations": {
+    "fa": "«کیو» یعنی نشونه‌ای برای انجام یه کاری. آهان، و تو ساوت کن، تابلوها را دنبال کنید: «موزه‌ها — زیرگذر»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwich",
+      "subway",
+      "like",
+      "shop"
+     ],
+     "suggestion": "\"Subway\"? Like the sandwich shop?",
+     "suggestionFa": "«ساب‌وی»؟ مثل ساندویچ‌فروشی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "station",
+      "from",
+      "far"
+     ],
+     "suggestion": "Is it far from the station?",
+     "suggestionFa": "از ایستگاه دوره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "signal",
+     "fa": "علامت"
+    },
+    {
+     "word": "signs",
+     "fa": "تابلوها"
+    },
+    {
+     "word": "subway",
+     "fa": "زیرگذر"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British English, a \"subway\" is a tunnel for walking under a road. The train system is the \"Underground\" or \"Tube\".",
+    "fa": "در انگلیسی بریتانیایی subway یعنی زیرگذر عابر پیاده."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "maya",
+   "text": "Ha! No — in British English a subway is a tunnel for people. In America it's the train. Confusing, isn't it?",
+   "translations": {
+    "fa": "ها! نه — تو انگلیسی بریتانیایی «ساب‌وی» تونل عابر پیاده‌ست. تو آمریکا یعنی قطار. گیج‌کننده‌ست، نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surprises",
+      "confusing",
+      "english",
+      "full"
+     ],
+     "suggestion": "Very confusing! English is full of surprises.",
+     "suggestionFa": "خیلی گیج‌کننده! انگلیسی پر از غافلگیریه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "london",
+      "tube",
+      "say"
+     ],
+     "suggestion": "So in London I say \"Tube\".",
+     "suggestionFa": "پس تو لندن میگم «تیوب».",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "confusing",
+     "fa": "گیج‌کننده"
+    },
+    {
+     "word": "full of",
+     "fa": "پر از"
+    },
+    {
+     "word": "surprises",
+     "fa": "غافلگیری‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "maya",
+   "text": "Exactly. And one last thing — with children, hold hands on the platform. And please take all your belongings!",
+   "translations": {
+    "fa": "دقیقاً. و یه چیز آخر — با بچه‌ها، روی سکو دستشون را بگیرید. و لطفاً همهٔ وسایلتون را بردارید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "hand",
+      "hold"
+     ],
+     "suggestion": "Nicola, hold my hand!",
+     "suggestionFa": "نیکولا، دستم را بگیر!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sandwiches",
+      "forget",
+      "won't",
+      "we"
+     ],
+     "suggestion": "We won't forget the sandwiches.",
+     "suggestionFa": "ساندویچ‌ها یادمون نمیره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hold hands",
+     "fa": "دست گرفتن"
+    },
+    {
+     "word": "belongings",
+     "fa": "وسایل شخصی"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "maya",
+   "text": "Especially not the sandwiches! Highbury next. Enjoy the dinosaurs — and say hello to Hope the whale for me!",
+   "translations": {
+    "fa": "مخصوصاً ساندویچ‌ها! بعدی هایبری. از دایناسورها لذت ببرید — و از طرف من به نهنگ «هوپ» سلام کنید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

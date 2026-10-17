@@ -25,7 +25,7 @@
       "cleaning",
       "hoover",
       "worst",
-      "week"
+      "have"
      ],
      "suggestion": "Saturday cleaning day. Worst day of the week. Mum says I have to hoover.",
      "suggestionFa": "شنبه روز نظافت. بدترین روز هفته. مامان میگه باید جاروبرقی بکشم.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "vacuum",
       "hoover",
+      "vacuum",
       "chairs",
       "means",
       "brand"
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "everywhere",
       "everything",
+      "everywhere",
       "william",
-      "crumbs",
-      "upside"
+      "upside",
+      "crumbs"
      ],
      "suggestion": "On the table. Upside down. There are crumbs everywhere. William drops everything!",
      "suggestionFa": "رو میز. برعکس. همه جا خرده‌ریزه. ویلیام همه چی را میندازه!",
@@ -98,8 +98,8 @@
      "keywords": [
       "switching",
       "really",
-      "loud",
       "hear",
+      "loud",
       "ugh"
      ],
      "suggestion": "Ugh. OK, I'm switching it on. It's really loud. Can you hear me?",
@@ -172,9 +172,9 @@
      "keywords": [
       "nearly",
       "thanks",
-      "right",
+      "under",
       "arm's",
-      "under"
+      "right"
      ],
      "suggestion": "Thanks. Right, nearly done. Can you do under the sofa? My arm's too big.",
      "suggestionFa": "ممنون. خب، تقریباً تمومه. می‌تونی زیر مبل را بکشی؟ دستم خیلی بزرگه.",
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "cleaning",
-      "isn't",
-      "break",
       "march",
-      "guess"
+      "guess",
+      "break",
+      "isn't"
      ],
      "suggestion": "My sock! I lost that in March. Cleaning day isn't that bad, I guess. Tea break?",
      "suggestionFa": "جورابم! مارس گمش کردم. فکر کنم روز نظافت اون‌قدرا هم بد نیست. استراحت چای؟",

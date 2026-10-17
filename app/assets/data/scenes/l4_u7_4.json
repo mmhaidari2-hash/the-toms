@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "sitting",
       "mention",
+      "sitting",
       "close",
-      "she's"
+      "telly"
      ],
      "suggestion": "Now that you mention it, she's been sitting very close to the telly.",
      "suggestionFa": "حالا که می‌گید، خیلی نزدیک تلویزیون می‌شینه.",
@@ -79,8 +79,8 @@
      "keywords": [
       "appointment",
       "optician",
-      "week",
-      "book"
+      "book",
+      "i'll"
      ],
      "suggestion": "I'll book an appointment with the optician this week.",
      "suggestionFa": "این هفته از بینایی‌سنج وقت می‌گیرم.",
@@ -93,7 +93,7 @@
       "affecting",
       "learning",
       "telling",
-      "could"
+      "thank"
      ],
      "suggestion": "Thank you for telling us. Could it be affecting her learning?",
      "suggestionFa": "ممنون که بهمون گفتید. ممکنه رو یادگیریش تأثیر بذاره؟",
@@ -150,7 +150,7 @@
       "should",
       "having",
       "she's",
-      "tell"
+      "test"
      ],
      "suggestion": "Should we tell her why she's having the test?",
      "suggestionFa": "بهش بگیم چرا معاینه می‌شه؟",
@@ -205,9 +205,9 @@
     },
     {
      "keywords": [
-      "that's",
-      "handle",
       "lovely",
+      "handle",
+      "that's",
       "thank"
      ],
      "suggestion": "That's a lovely way to handle it. Thank you.",

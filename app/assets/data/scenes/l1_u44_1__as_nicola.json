@@ -21,10 +21,10 @@
    "branches": [
     {
      "keywords": [
-      "piggy",
       "money",
-      "broke",
       "count",
+      "broke",
+      "piggy",
       "bank"
      ],
      "suggestion": "Look! I broke my piggy bank! Can you help me count my money?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "what's",
+      "little",
       "brown",
       "one"
      ],
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "silver",
-      "seven",
       "sides",
+      "seven",
       "big",
       "one"
      ],
@@ -120,9 +120,9 @@
      "keywords": [
       "purple",
       "nana",
+      "note",
       "i've",
-      "gave",
-      "note"
+      "gave"
      ],
      "suggestion": "I've got a note too! Nana gave me it. It's purple. Is it a lot?",
      "suggestionFa": "یه اسکناس هم دارم! نانا بهم داد. بنفشه. زیاده؟",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "unicorn",
-      "twenty",
       "pounds",
+      "twenty",
       "fifty",
       "pony"
      ],

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "favourite",
-      "autumn",
       "season",
-      "orange",
-      "yellow"
+      "autumn",
+      "yellow",
+      "orange"
      ],
      "suggestion": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
      "suggestionFa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…",
@@ -49,8 +49,8 @@
       "getting",
       "colder",
       "warm",
-      "have",
-      "coat"
+      "coat",
+      "have"
      ],
      "suggestion": "It's getting colder now. Have you got a warm coat?",
      "suggestionFa": "الان داره سردتر میشه. یه کت گرم داری؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "november",
       "clocks",
-      "need",
       "cold",
-      "back"
+      "back",
+      "need"
      ],
      "suggestion": "You need one! In November it's cold and wet. And the clocks go back.",
      "suggestionFa": "لازمش داری! تو نوامبر سرد و خیسه. و ساعت‌ها عقب کشیده می‌شن.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "october",
+      "o'clock",
       "gloomy",
       "hour",
-      "dark"
+      "four"
      ],
      "suggestion": "One hour back in October. It gets dark at four o'clock! Very gloomy.",
      "suggestionFa": "یه ساعت عقب تو اکتبر. ساعت چهار تاریک میشه! خیلی دلگیره.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "conkers",
-      "neither",
       "bonfire",
-      "things",
-      "autumn"
+      "neither",
+      "conkers",
+      "autumn",
+      "things"
      ],
      "suggestion": "Me neither. But autumn has good things too. Bonfire Night, and conkers!",
      "suggestionFa": "منم همین‌طور. ولی پاییز چیزهای خوب هم داره. شب آتش‌بازی، و بلوط هندی!",
@@ -148,9 +148,9 @@
      "keywords": [
       "children",
       "string",
-      "brown",
+      "these",
       "shiny",
-      "these"
+      "brown"
      ],
      "suggestion": "Look! These shiny brown nuts. Children play a game with them on a string.",
      "suggestionFa": "ببین! این دونه‌های قهوه‌ای براق. بچه‌ها با نخ باهاشون بازی می‌کنن.",
@@ -198,9 +198,9 @@
      "keywords": [
       "chestnuts",
       "christmas",
-      "conkers",
+      "collect",
       "roasted",
-      "collect"
+      "conkers"
      ],
      "suggestion": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",
      "suggestionFa": "شاه‌بلوط برشته تو کریسمس! عالی. بیا یه کم کانکر برای نیکولا جمع کنیم.",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "chocolate",
-      "champion",
       "autumn's",
+      "champion",
       "that's",
       "enough"
      ],

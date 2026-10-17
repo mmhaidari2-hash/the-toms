@@ -178,10 +178,10 @@
    "branches": [
     {
      "keywords": [
-      "orange",
       "please",
-      "juice",
-      "glass"
+      "orange",
+      "glass",
+      "juice"
      ],
      "suggestion": "Yes, a glass of orange juice, please.",
      "suggestionFa": "بله، یه لیوان آب پرتقال، لطفاً.",
@@ -227,8 +227,8 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
-      "here's"
+      "here's",
+      "nicola"
      ],
      "suggestion": "Here's a spoon, Nicola.",
      "suggestionFa": "این قاشق، نیکولا.",
@@ -287,8 +287,8 @@
     },
     {
      "keywords": [
-      "really",
       "prefer",
+      "really",
       "eggs"
      ],
      "suggestion": "Not really. I prefer eggs.",

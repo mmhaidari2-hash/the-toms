@@ -24,8 +24,8 @@
       "tired",
       "enjoy",
       "legs",
-      "home",
-      "walk"
+      "walk",
+      "last"
      ],
      "suggestion": "Home at last! My legs are tired. That was a long walk! Did you enjoy it?",
      "suggestionFa": "بالاخره خونه! پاهام خسته‌ان. پیاده‌روی طولانی‌ای بود! خوش گذشت؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "about",
-      "we're",
       "wants",
-      "know",
-      "walk"
+      "we're",
+      "walk",
+      "back"
      ],
      "suggestion": "Tom! We're back! Tom wants to know about our walk. What did we do?",
      "suggestionFa": "تام! برگشتیم! تام می‌خواد دربارهٔ پیاده‌رویمون بدونه. چی کار کردیم؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -183,8 +183,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -322,9 +322,9 @@
      "keywords": [
       "perfect",
       "lovely",
-      "table",
       "coats",
-      "thank"
+      "table",
+      "hooks"
      ],
      "suggestion": "Perfect! Boots off, coats on the hooks, and soup on the table. Thank you for a lovely walk!",
      "suggestionFa": "عالی! چکمه‌ها درآورده، کت‌ها رو آویز، و سوپ رو میز. ممنون بابت یه پیاده‌روی قشنگ!",

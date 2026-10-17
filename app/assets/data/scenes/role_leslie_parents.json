@@ -21,8 +21,8 @@
      "keywords": [
       "tonight",
       "didn't",
-      "sorry",
-      "speak"
+      "speak",
+      "sorry"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
      "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "leaves",
-      "times",
       "house",
-      "time"
+      "times",
+      "four"
      ],
      "suggestion": "Four times? He leaves the house on time!",
      "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
@@ -118,9 +118,9 @@
     {
      "keywords": [
       "make",
+      "sure",
       "idea",
-      "good",
-      "sure"
+      "good"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "ask",
-      "his"
+      "bus",
+      "tom"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -233,8 +233,8 @@
     {
      "keywords": [
       "library",
-      "i'll",
       "card",
+      "i'll",
       "him"
      ],
      "suggestion": "I'll get him a library card.",
@@ -282,8 +282,8 @@
     },
     {
      "keywords": [
-      "gcses",
-      "ready"
+      "ready",
+      "gcses"
      ],
      "suggestion": "Is he ready for his GCSEs?",
      "suggestionFa": "برای امتحانات GCSE آماده‌ست؟",
@@ -335,8 +335,8 @@
      "keywords": [
       "wonderful",
       "building",
-      "that's",
-      "things"
+      "things",
+      "that's"
      ],
      "suggestion": "That's wonderful. He loves building things.",
      "suggestionFa": "فوق‌العاده‌ست. عاشق ساختن چیزهاست.",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "patel",
       "thank",
+      "patel",
       "will",
       "mrs"
      ],
@@ -385,9 +385,9 @@
     {
      "keywords": [
       "helpful",
-      "thanks",
       "really",
-      "been"
+      "thanks",
+      "much"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",
      "suggestionFa": "خیلی ممنون — واقعاً مفید بود.",

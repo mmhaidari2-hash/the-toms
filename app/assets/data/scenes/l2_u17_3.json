@@ -1,0 +1,386 @@
+{
+ "id": "l2_u17_3",
+ "characterId": "leslie",
+ "title": "The delivery is late",
+ "titleFa": "تحویل دیر شده",
+ "setting": "Takeaways · Level 2",
+ "settingFa": "غذای بیرون‌بر",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The pizza was supposed to be here at seven. It's quarter to eight! The children are starving.",
+   "translations": {
+    "fa": "قرار بود پیتزا ساعت هفت اینجا باشه. یه ربع به هشته! بچه‌ها از گشنگی دارن می‌میرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "check",
+      "shall",
+      "app"
+     ],
+     "suggestion": "Shall I check the app?",
+     "suggestionFa": "برنامه را چک کنم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "restaurant",
+      "let's",
+      "call"
+     ],
+     "suggestion": "Let's call the restaurant.",
+     "suggestionFa": "بیا به رستوران زنگ بزنیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "supposed to",
+     "fa": "قرار بود"
+    },
+    {
+     "word": "quarter to",
+     "fa": "یک ربع به"
+    },
+    {
+     "word": "starving",
+     "fa": "خیلی گرسنه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "The app says \"on its way\" — for forty minutes. Could you call them? My phone's nearly dead.",
+   "translations": {
+    "fa": "برنامه نوشته «در راهه» — چهل دقیقه‌ست. می‌شه بهشون زنگ بزنی؟ گوشیم تقریباً خاموشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "course",
+      "number"
+     ],
+     "suggestion": "Of course. What's the order number?",
+     "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sure",
+      "did",
+      "we"
+     ],
+     "suggestion": "Sure. What did we order?",
+     "suggestionFa": "حتماً. چی سفارش دادیم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on its way",
+     "fa": "در راه"
+    },
+    {
+     "word": "nearly dead",
+     "fa": "تقریباً خاموش (باتری)"
+    },
+    {
+     "word": "order number",
+     "fa": "شمارهٔ سفارش"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "It's two-four-seven-nine. Two large pizzas and garlic bread. Be polite but firm. You're good at that.",
+   "translations": {
+    "fa": "دو-چهار-هفت-نه. دو تا پیتزای بزرگ و نون سیر. مؤدب ولی محکم باش. تو این کار واردی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supposed",
+      "ordered",
+      "arrive",
+      "thirty"
+     ],
+     "suggestion": "Hello. We ordered at six thirty. It was supposed to arrive at seven.",
+     "suggestionFa": "سلام. ساعت شش و نیم سفارش دادیم. قرار بود ساعت هفت برسه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "calling",
+      "about",
+      "order",
+      "late"
+     ],
+     "suggestion": "Hi. I'm calling about order 2479. It's very late.",
+     "suggestionFa": "سلام. دربارهٔ سفارش ۲۴۷۹ زنگ می‌زنم. خیلی دیر شده.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "polite",
+     "fa": "مؤدب"
+    },
+    {
+     "word": "firm",
+     "fa": "محکم ؛ قاطع"
+    },
+    {
+     "word": "arrive",
+     "fa": "رسیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you complain in Britain, stay polite. \"I'm afraid…\" and \"Could you…?\" work better than anger.",
+    "fa": "در شکایت کردن مؤدب بمانید."
+   },
+   "recasts": [
+    {
+     "match": [
+      "we order at six",
+      "we have ordered at"
+     ],
+     "echo": "You ordered at six thirty?",
+     "better": "We ordered at six thirty.",
+     "betterFa": "ساعت شش و نیم سفارش دادیم."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "What did they say? Did they say sorry?",
+   "translations": {
+    "fa": "چی گفتن؟ عذرخواهی کردن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "driver",
+      "he's",
+      "lost"
+     ],
+     "suggestion": "They said the driver got lost. He's five minutes away.",
+     "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "coming",
+      "pizza",
+      "sorry",
+      "now"
+     ],
+     "suggestion": "They said sorry. The pizza is coming now.",
+     "suggestionFa": "عذرخواهی کردن. پیتزا داره میاد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "driver",
+     "fa": "راننده"
+    },
+    {
+     "word": "got lost",
+     "fa": "گم شد"
+    },
+    {
+     "word": "away",
+     "fa": "فاصله"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Lost? Our house is on the main road! Did you ask for a discount?",
+   "translations": {
+    "fa": "گم شده؟ خونهٔ ما کنار جادهٔ اصلیه! تخفیف خواستی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "didn't",
+      "should",
+      "call",
+      "back"
+     ],
+     "suggestion": "No, I didn't. Should I call back?",
+     "suggestionFa": "نه، نخواستم. دوباره زنگ بزنم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "percent",
+      "they'll",
+      "give",
+      "ten"
+     ],
+     "suggestion": "Yes. They'll give us ten percent off.",
+     "suggestionFa": "آره. ده درصد تخفیف بهمون میدن.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "main road",
+     "fa": "جادهٔ اصلی"
+    },
+    {
+     "word": "discount",
+     "fa": "تخفیف"
+    },
+    {
+     "word": "percent",
+     "fa": "درصد"
+    },
+    {
+     "word": "call back",
+     "fa": "دوباره زنگ زدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Brilliant! Ten percent. You're a natural. Oh — is that the doorbell?",
+   "translations": {
+    "fa": "عالیه! ده درصد. ذاتاً بلدی. اوه — صدای زنگ دره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall"
+     ],
+     "suggestion": "Yes! Shall I get it?",
+     "suggestionFa": "آره! من باز کنم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "finally",
+      "plates",
+      "i'll"
+     ],
+     "suggestion": "Finally! I'll get the plates.",
+     "suggestionFa": "بالاخره! من بشقاب‌ها را میارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "natural",
+     "fa": "ذاتاً مستعد"
+    },
+    {
+     "word": "doorbell",
+     "fa": "زنگ در"
+    },
+    {
+     "word": "finally",
+     "fa": "بالاخره"
+    },
+    {
+     "word": "plates",
+     "fa": "بشقاب‌ها"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Get the door, I'll get the plates. And please check it's hot. If it's cold, we send it back.",
+   "translations": {
+    "fa": "تو در را باز کن، من بشقاب میارم. و لطفاً چک کن داغ باشه. اگه سرد بود، پسش می‌فرستیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "warm",
+      "but"
+     ],
+     "suggestion": "It's warm. Not hot, but warm.",
+     "suggestionFa": "گرمه. داغ نه، ولی گرمه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cookies",
+      "added",
+      "they",
+      "free"
+     ],
+     "suggestion": "It's hot! And they added free cookies.",
+     "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "warm",
+     "fa": "گرم ؛ ولرم"
+    },
+    {
+     "word": "send back",
+     "fa": "پس فرستادن"
+    },
+    {
+     "word": "added",
+     "fa": "اضافه کردند"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Free cookies? Then all is forgiven. Children! Pizza! … Goodness, I've never seen them run so fast.",
+   "translations": {
+    "fa": "کلوچهٔ مجانی؟ پس همه چی بخشیده شد. بچه‌ها! پیتزا! … وای، هیچ‌وقت ندیده بودم این‌قدر تند بدوند."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

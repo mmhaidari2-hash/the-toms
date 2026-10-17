@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import '../shared/nav.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
@@ -169,7 +169,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
   @override
   Widget build(BuildContext context) {
     final c = ref.watch(contentProvider).value;
-    if (c == null) return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    if (c == null) return const NavLoading();
     _init(c);
     final items = _items!;
     final pad = MediaQuery.paddingOf(context);
@@ -185,7 +185,8 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
                 children: [
                   Row(
                     children: [
-                      IconButton(onPressed: () => context.pop(), icon: const Icon(Icons.close_rounded)),
+                      NavBack(fallback: '/course'),
+                      const SizedBox(width: 8),
                       Expanded(
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(99),
@@ -421,7 +422,7 @@ class _PracticeState extends ConsumerState<PracticeScreen> {
             Text(pass ? (checkpoint ? 'واحد تمام شد! واحد بعدی باز شد.' : 'آفرین! درس بعدی باز شد.') : 'یک بار دیگر تمرین کن تا به ${checkpoint ? 70 : 60}٪ برسی.', textDirection: TextDirection.rtl, style: BL.fa(14)),
             const SizedBox(height: 26),
             FilledButton(
-              onPressed: () => context.pop(),
+              onPressed: () => goBack(context, '/course'),
               style: FilledButton.styleFrom(backgroundColor: BL.red, padding: const EdgeInsets.symmetric(horizontal: 38, vertical: 16)),
               child: const Text('Continue', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
             ),

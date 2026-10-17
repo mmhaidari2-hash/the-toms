@@ -1,0 +1,225 @@
+{
+ "id": "l2_u17_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Ordering a curry",
+ "titleFa": "(در نقش Tom) سفارش کاری",
+ "setting": "Takeaways · Level 2",
+ "settingFa": "غذای بیرون‌بر",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u17_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "phoning",
+      "nobody",
+      "bengal",
+      "having"
+     ],
+     "suggestion": "It's Saturday night, nobody wants to cook. Curry! I'm phoning the Bengal Tiger. What are you having?",
+     "suggestionFa": "شنبه شبه، هیچ‌کس حوصلهٔ آشپزی نداره. کاری! دارم به «ببر بنگال» زنگ می‌زنم. تو چی می‌خوری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I don't know Indian food well. What's good?",
+   "translations": {
+    "fa": "غذای هندی را خوب نمی‌شناسم. چی خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything's",
+      "chicken",
+      "leslie",
+      "masala",
+      "always"
+     ],
+     "suggestion": "Everything's good! I always have a chicken tikka masala. Leslie has a korma. It's mild.",
+     "suggestionFa": "همه چی خوبه! من همیشه چیکن تیکا ماسالا می‌خورم. لزلی کورما می‌خوره. ملایمه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "What does \"mild\" mean?",
+   "translations": {
+    "fa": "«مایلد» یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vindaloo",
+      "medium",
+      "masala",
+      "tikka",
+      "means"
+     ],
+     "suggestion": "\"Mild\" means not spicy. Tikka masala is medium. A vindaloo is very hot. I tried one once. I cried.",
+     "suggestionFa": "«مایلد» یعنی تند نیست. تیکا ماسالا متوسطه. وینتالو خیلی تنده. یه بار امتحانش کردم. گریه کردم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I like spicy food. I'll try the vindaloo!",
+   "translations": {
+    "fa": "غذای تند دوست دارم. وینتالو را امتحان می‌کنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "poppadoms",
+      "bread",
+      "pilau",
+      "brave",
+      "plain"
+     ],
+     "suggestion": "Brave man! OK, and rice — pilau rice or plain? And we must get naan bread. And poppadoms!",
+     "suggestionFa": "مرد شجاع! باشه، و برنج — برنج پلو یا ساده؟ و حتماً باید نون نان بگیریم. و پاپادوم!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Pilau rice, please. Like Persian rice!",
+   "translations": {
+    "fa": "برنج پلو، لطفاً. مثل برنج ایرانی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delivery",
+      "calling",
+      "sauces",
+      "please",
+      "crispy"
+     ],
+     "suggestion": "Big crispy things. You dip them in sauces. Right, I'm calling. … Hello! I'd like to order a delivery, please.",
+     "suggestionFa": "چیزای بزرگ و ترد. تو سس می‌زنیشون. خب، دارم زنگ می‌زنم. … سلام! یه سفارش برای تحویل می‌خوام، لطفاً.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Don't forget the vindaloo!",
+   "translations": {
+    "fa": "وینتالو یادت نره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vindaloo",
+      "minutes",
+      "lovely",
+      "masala",
+      "garlic"
+     ],
+     "suggestion": "… Yes, one tikka masala, one korma, one lamb vindaloo, two pilau rice, two garlic naans… Forty minutes? Lovely.",
+     "suggestionFa": "… بله، یه تیکا ماسالا، یه کورما، یه وینتالوی گوشت بره، دو تا برنج پلو، دو تا نون سیر… چهل دقیقه؟ عالیه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Forty minutes! I'm hungry now.",
+   "translations": {
+    "fa": "چهل دقیقه! الان گشنمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "paying",
+      "pounds",
+      "guest",
+      "forty"
+     ],
+     "suggestion": "Forty-two pounds. I'm paying — you're our guest. You pay next time. With your Persian rice!",
+     "suggestionFa": "چهل و دو پوند. من حساب می‌کنم — تو مهمون مایی. دفعهٔ بعد تو حساب کن. با برنج ایرانیت!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Deal! Thank you, Tom.",
+   "translations": {
+    "fa": "قبول! ممنون تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vindaloo",
+      "nicola",
+      "drinks",
+      "trust",
+      "lassi"
+     ],
+     "suggestion": "Fine — the drinks. Mango lassi for Nicola. And have a glass of milk ready for your vindaloo. Trust me!",
+     "suggestionFa": "باشه — نوشیدنی‌ها. لسی انبه برای نیکولا. و یه لیوان شیر برای وینتالوت آماده داشته باش. به من اعتماد کن!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

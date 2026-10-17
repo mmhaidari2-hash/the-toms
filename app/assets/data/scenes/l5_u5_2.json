@@ -22,7 +22,7 @@
       "couldn't",
       "yourself",
       "please",
-      "known"
+      "don't"
      ],
      "suggestion": "Please don't blame yourself. You couldn't have known.",
      "suggestionFa": "لطفاً خودت را سرزنش نکن. نمی‌تونستی بدونی.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "honest",
       "calmer",
+      "honest",
       "calm",
       "than"
      ],
@@ -76,7 +76,7 @@
       "understandable",
       "completely",
       "positive",
-      "doctor"
+      "really"
      ],
      "suggestion": "It's completely understandable to feel scared. But the doctor was really positive.",
      "suggestionFa": "کاملاً قابل درکه که بترسی. ولی دکتر واقعاً مثبت بود.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "sometimes",
-      "opens",
       "you'd",
+      "opens",
       "talk"
      ],
      "suggestion": "I can talk to him, if you'd like. He sometimes opens up to me.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "you've",
       "family",
+      "you've",
       "since",
       "been"
      ],

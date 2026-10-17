@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "what's",
+      "course",
       "first",
       "word"
      ],
@@ -68,9 +68,9 @@
     {
      "keywords": [
       "nearly",
-      "b",
       "s",
-      "c"
+      "e",
+      "b"
      ],
      "suggestion": "Nearly! It's B-E-C-A-U-S-E.",
      "suggestionFa": "تقریباً! بی-ای-سی-ای-یو-اس-ای.",
@@ -121,8 +121,8 @@
      "keywords": [
       "letters",
       "because",
-      "clever",
-      "that's"
+      "that's",
+      "clever"
      ],
      "suggestion": "That's clever! The first letters spell \"because\".",
      "suggestionFa": "باهوشانه‌ست! حرف اول‌ها «because» میشه.",
@@ -176,9 +176,9 @@
    "branches": [
     {
      "keywords": [
+      "r",
       "d",
       "f",
-      "r",
       "n"
      ],
      "suggestion": "Yes. F-R-I-E-N-D.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "before",
       "except",
+      "before",
       "after",
       "c"
      ],
@@ -238,8 +238,8 @@
     },
     {
      "keywords": [
-      "start",
       "seven",
+      "start",
       "count",
       "five"
      ],
@@ -332,8 +332,8 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "nicola",
+      "that's",
       "lovely",
       "aw"
      ],
@@ -347,8 +347,8 @@
      "keywords": [
       "forget",
       "don't",
-      "full",
-      "stop"
+      "stop",
+      "full"
      ],
      "suggestion": "Don't forget the full stop!",
      "suggestionFa": "نقطهٔ آخر را فراموش نکن!",
@@ -397,8 +397,8 @@
      "keywords": [
       "first",
       "book",
-      "bag",
-      "put"
+      "put",
+      "bag"
      ],
      "suggestion": "First, put your book in your bag.",
      "suggestionFa": "اول، کتابت را بذار تو کیفت.",

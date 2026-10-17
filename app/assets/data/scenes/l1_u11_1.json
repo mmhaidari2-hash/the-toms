@@ -220,8 +220,8 @@
    "branches": [
     {
      "keywords": [
-      "leave",
       "eight",
+      "leave",
       "half"
      ],
      "suggestion": "I leave at half eight.",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "mondays",
-      "work",
+      "home",
       "from",
-      "home"
+      "work"
      ],
      "suggestion": "I work from home on Mondays.",
      "suggestionFa": "دوشنبه‌ها از خونه کار می‌کنم.",
@@ -289,8 +289,8 @@
     {
      "keywords": [
       "pocket",
-      "coat",
-      "they"
+      "they",
+      "coat"
      ],
      "suggestion": "Are they in your coat pocket?",
      "suggestionFa": "تو جیب کتتن؟",
@@ -330,8 +330,8 @@
      "keywords": [
       "fridge",
       "lunch",
-      "box",
-      "his"
+      "his",
+      "box"
      ],
      "suggestion": "His lunch box is in the fridge.",
      "suggestionFa": "ظرف ناهارش تو یخچاله.",
@@ -342,8 +342,8 @@
     {
      "keywords": [
       "take",
-      "can",
-      "him"
+      "him",
+      "can"
      ],
      "suggestion": "I can take it to him.",
      "suggestionFa": "می‌تونم براش ببرم.",
@@ -392,8 +392,8 @@
      "keywords": [
       "always",
       "busy",
-      "run",
-      "bus"
+      "bus",
+      "run"
      ],
      "suggestion": "Busy! I always run for the bus.",
      "suggestionFa": "شلوغ! همیشه دنبال اتوبوس می‌دوم.",

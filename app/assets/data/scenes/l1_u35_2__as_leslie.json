@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
+      "something",
       "pasghetti",
       "breakfast",
-      "something",
       "william",
       "called"
      ],
@@ -48,8 +48,8 @@
      "keywords": [
       "yesterday",
       "william",
-      "minutes",
       "laughed",
+      "minutes",
       "bunny"
      ],
      "suggestion": "Tom laughed for ten minutes. And yesterday William said the bus was \"a big red bunny\"!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -128,7 +128,7 @@
       "animal",
       "aminal",
       "three",
-      "week"
+      "when"
      ],
      "suggestion": "Last week he said \"aminal\" for animal. Nicola said it too when she was three!",
      "suggestionFa": "هفتهٔ پیش به حیوان گفت «اَمینال». نیکولا هم وقتی سه سالش بود همینو می‌گفت!",
@@ -150,10 +150,10 @@
     {
      "keywords": [
       "called",
-      "shoos",
-      "until",
+      "don't",
+      "about",
       "shoes",
-      "don't"
+      "until"
      ],
      "suggestion": "Ryan called his shoes \"shoo-shoos\" until he was four! Don't tell him I told you. What about you, Mehdi?",
      "suggestionFa": "رایان تا چهار سالگی به کفشاش می‌گفت «شوشو»! بهش نگی بهت گفتم. تو چی {you}؟",
@@ -228,8 +228,8 @@
       "properly",
       "before",
       "write",
-      "right",
-      "let's"
+      "let's",
+      "right"
      ],
      "suggestion": "He does! Right, let's write them in his book before he says them properly.",
      "suggestionFa": "می‌دونه! خب، بیا قبل از اینکه درست بگه، تو دفترش بنویسیمشون.",

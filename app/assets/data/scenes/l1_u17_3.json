@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "some",
       "milk",
       "cold",
+      "some",
       "put"
      ],
      "suggestion": "Put some cold milk in it.",
@@ -224,8 +224,8 @@
    "branches": [
     {
      "keywords": [
-      "strong",
-      "please"
+      "please",
+      "strong"
      ],
      "suggestion": "Yes, please. Not too strong.",
      "suggestionFa": "آره، لطفاً. نه خیلی غلیظ.",
@@ -237,8 +237,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "tea",
-      "got"
+      "got",
+      "tea"
      ],
      "suggestion": "No, thanks. I've got tea.",
      "suggestionFa": "نه، ممنون. چای دارم.",
@@ -376,8 +376,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "coffee",
+      "thanks",
       "ok"
      ],
      "suggestion": "OK! Thanks for the coffee!",

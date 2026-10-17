@@ -25,7 +25,7 @@
       "parcel",
       "let's",
       "right",
-      "need"
+      "post"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
      "suggestionFa": "خب، بیا امتحانت کنیم! باید یه بسته پست کنی. چطوری راه اداره پست را می‌پرسی؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "straight",
-      "perfect",
       "traffic",
-      "bakery",
-      "lights"
+      "perfect",
+      "lights",
+      "bakery"
      ],
      "suggestion": "Perfect. And I say: go straight on, past the bakery, then turn left at the traffic lights.",
      "suggestionFa": "عالیه. و من می‌گم: مستقیم برو، از نونوایی رد شو، بعد سر چراغ راهنمایی بپیچ چپ.",
@@ -98,9 +98,9 @@
      "keywords": [
       "means",
       "brits",
-      "easy",
+      "when",
       "even",
-      "miss"
+      "easy"
      ],
      "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
      "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
+      "where's",
       "tourist",
       "station",
-      "where's",
       "minutes",
-      "train"
+      "about"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
      "suggestionFa": "حدود پنج دقیقه پیاده. حالا تو امتحان کن. من توریستم. ایستگاه قطار کجاست؟",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "brilliant",
-      "round",
       "sorry",
-      "here",
-      "sure"
+      "round",
+      "from",
+      "here"
      ],
      "suggestion": "Brilliant! And if you're not sure, just say \"Sorry, I'm not from round here.\"",
      "suggestionFa": "عالی! و اگه مطمئن نیستی، فقط بگو «ببخشید، من اهل اینجا نیستم.»",

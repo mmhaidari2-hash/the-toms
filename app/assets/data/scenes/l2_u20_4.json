@@ -1,0 +1,357 @@
+{
+ "id": "l2_u20_4",
+ "characterId": "tom",
+ "title": "Going home",
+ "titleFa": "ترخیص و برگشت به خانه",
+ "setting": "Hospital visits · Level 2",
+ "settingFa": "بیمارستان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Good news! Dad's being discharged today. That means he can go home. But first we wait for his medicines.",
+   "translations": {
+    "fa": "خبر خوب! بابا امروز مرخص میشه. یعنی می‌تونه بره خونه. ولی اول منتظر داروهاش می‌مونیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "great",
+      "news",
+      "long"
+     ],
+     "suggestion": "That's great news! How long do we wait?",
+     "suggestionFa": "خبر خیلی خوبیه! چقدر منتظر بمونیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "discharged",
+      "tests",
+      "were",
+      "ok"
+     ],
+     "suggestion": "Discharged? So the tests were OK?",
+     "suggestionFa": "مرخص؟ پس آزمایش‌ها خوب بودن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "discharged",
+     "fa": "مرخص شده ؛ ترخیص شده"
+    },
+    {
+     "word": "medicines",
+     "fa": "داروها"
+    },
+    {
+     "word": "tests",
+     "fa": "آزمایش‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "The tests were OK. They changed one of his tablets. The pharmacy here is slow — maybe two hours. Classic NHS!",
+   "translations": {
+    "fa": "آزمایش‌ها خوب بودن. یکی از قرص‌هاش را عوض کردن. داروخانهٔ اینجا کنده — شاید دو ساعت. کلاسیک NHS!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie",
+      "hours",
+      "shall",
+      "tell"
+     ],
+     "suggestion": "Two hours! Shall I tell Maggie?",
+     "suggestionFa": "دو ساعت! به مگی بگم؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "medicines",
+      "pay",
+      "we"
+     ],
+     "suggestion": "Do we pay for the medicines?",
+     "suggestionFa": "برای داروها پول میدیم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tablets",
+     "fa": "قرص‌ها"
+    },
+    {
+     "word": "slow",
+     "fa": "کند"
+    },
+    {
+     "word": "classic",
+     "fa": "معمول ؛ همیشگی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "george",
+   "text": "No paying! I'm over sixty — prescriptions are free. Best thing about getting old, that.",
+   "translations": {
+    "fa": "پول نه! بالای شصت سالمه — نسخه مجانیه. بهترین چیزِ پیر شدن همینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "lucky"
+     ],
+     "suggestion": "Lucky you, George!",
+     "suggestionFa": "خوش به حالت جورج!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "doctor",
+      "letter",
+      "give",
+      "did"
+     ],
+     "suggestion": "Did the doctor give you a letter?",
+     "suggestionFa": "دکتر بهت نامه داد؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "over sixty",
+     "fa": "بالای شصت"
+    },
+    {
+     "word": "prescriptions",
+     "fa": "نسخه‌ها"
+    },
+    {
+     "word": "free",
+     "fa": "رایگان"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you leave hospital, you usually get a \"discharge letter\". A copy also goes to your GP.",
+    "fa": "هنگام ترخیص نامهٔ ترخیص می‌دهند و نسخه‌ای به پزشک عمومی می‌رود."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Yes, the discharge letter. It says he has to weigh himself every morning. If he puts on two kilos in three days, call the GP.",
+   "translations": {
+    "fa": "آره، نامهٔ ترخیص. نوشته باید هر روز صبح خودش را وزن کنه. اگه تو سه روز دو کیلو اضافه کرد، به پزشک عمومی زنگ بزنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "morning",
+      "every",
+      "why"
+     ],
+     "suggestion": "Why every morning?",
+     "suggestionFa": "چرا هر روز صبح؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scales",
+      "help",
+      "i'll",
+      "him"
+     ],
+     "suggestion": "I'll help him with the scales.",
+     "suggestionFa": "با ترازو کمکش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "weigh himself",
+     "fa": "خودش را وزن کردن"
+    },
+    {
+     "word": "puts on",
+     "fa": "اضافه کردن (وزن)"
+    },
+    {
+     "word": "scales",
+     "fa": "ترازو"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "With heart failure, extra weight can mean water in the body. Mum will write it in her notebook. She loves a notebook.",
+   "translations": {
+    "fa": "با نارسایی قلبی، وزن اضافه می‌تونه یعنی آب تو بدن. مامان تو دفترش می‌نویسه. عاشق دفترچه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "makes",
+      "sense",
+      "else",
+      "they"
+     ],
+     "suggestion": "That makes sense. What else did they say?",
+     "suggestionFa": "منطقیه. دیگه چی گفتن؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "organised",
+      "maggie"
+     ],
+     "suggestion": "Maggie is very organised.",
+     "suggestionFa": "مگی خیلی منظمه.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "george",
+   "text": "And less salt, they said. No more crisps. No more chips. Life is over!",
+   "translations": {
+    "fa": "و نمک کمتر، گفتن. دیگه چیپس نه. دیگه سیب‌زمینی سرخ‌کرده نه. زندگی تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "without",
+      "persian",
+      "tasty",
+      "herbs"
+     ],
+     "suggestion": "Persian food uses lots of herbs. It's tasty without salt!",
+     "suggestionFa": "غذای ایرانی پر از سبزیه. بی‌نمک هم خوشمزه‌ست!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "george",
+      "still",
+      "fish",
+      "just"
+     ],
+     "suggestion": "You can still have fish, George. Just less salt.",
+     "suggestionFa": "هنوز می‌تونی ماهی بخوری جورج. فقط نمک کمتر.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "extra weight",
+     "fa": "وزن اضافه"
+    },
+    {
+     "word": "less salt",
+     "fa": "نمک کمتر"
+    },
+    {
+     "word": "herbs",
+     "fa": "سبزی‌های معطر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "george",
+   "text": "Herbs, eh? Fine. You cook, I'll eat. Deal? Now, son, find that pharmacy and get me out of here!",
+   "translations": {
+    "fa": "سبزی، ها؟ باشه. تو بپز، من می‌خورم. قبول؟ حالا پسرم، اون داروخانه را پیدا کن و منو از اینجا ببر بیرون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "deal",
+      "cook"
+     ],
+     "suggestion": "Deal! I'll cook on Sunday.",
+     "suggestionFa": "قبول! یکشنبه آشپزی می‌کنم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pharmacy",
+      "ask",
+      "now",
+      "go"
+     ],
+     "suggestion": "I'll go and ask the pharmacy now.",
+     "suggestionFa": "الان میرم از داروخانه بپرسم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "deal",
+     "fa": "قبول ؛ معامله"
+    },
+    {
+     "word": "get me out",
+     "fa": "مرا بیرون ببر"
+    },
+    {
+     "word": "cook",
+     "fa": "آشپزی کردن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Thanks, mate. Honestly — you've been brilliant this week. Dad says you're the son he never had. I'm standing right here, Dad!",
+   "translations": {
+    "fa": "ممنون رفیق. راستش — این هفته فوق‌العاده بودی. بابا میگه تو پسری هستی که هیچ‌وقت نداشته. من همین‌جا وایسادم بابا!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

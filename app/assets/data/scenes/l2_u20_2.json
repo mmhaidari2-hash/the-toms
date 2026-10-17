@@ -1,0 +1,401 @@
+{
+ "id": "l2_u20_2",
+ "characterId": "tom",
+ "title": "Outpatients reception",
+ "titleFa": "پذیرش درمانگاه سرپایی",
+ "setting": "Hospital visits · Level 2",
+ "settingFa": "بیمارستان",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Here we are, Homerton. I hate hospitals — the parking costs more than my lunch. Dad, sit down. Can you check us in?",
+   "translations": {
+    "fa": "رسیدیم، هومرتون. از بیمارستان متنفرم — پارکینگش از ناهارم گرون‌تره. بابا، بشین. می‌تونی پذیرشمون را انجام بدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "reception",
+      "where",
+      "sure"
+     ],
+     "suggestion": "Sure. Where is the reception?",
+     "suggestionFa": "حتماً. پذیرش کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there's",
+      "screen",
+      "check",
+      "here"
+     ],
+     "suggestion": "There's a screen here. \"Self check-in\".",
+     "suggestionFa": "اینجا یه صفحه هست. «پذیرش خودکار».",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check in",
+     "fa": "پذیرش شدن ؛ ورود ثبت کردن"
+    },
+    {
+     "word": "reception",
+     "fa": "پذیرش"
+    },
+    {
+     "word": "self check-in",
+     "fa": "پذیرش خودکار"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "george",
+   "text": "The machine? Oh, I don't trust machines. In my day you gave your name to a nurse.",
+   "translations": {
+    "fa": "دستگاه؟ اوه، من به دستگاه‌ها اعتماد ندارم. زمان ما اسمت را به پرستار می‌دادی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "don't",
+      "worry",
+      "i'll"
+     ],
+     "suggestion": "Don't worry, George. I'll do it for you.",
+     "suggestionFa": "نگران نباش جورج. من برات انجامش میدم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "birth",
+      "date",
+      "look",
+      "easy"
+     ],
+     "suggestion": "It's easy. Look — your date of birth.",
+     "suggestionFa": "آسونه. ببین — تاریخ تولدت.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "machine",
+     "fa": "دستگاه"
+    },
+    {
+     "word": "trust",
+     "fa": "اعتماد کردن"
+    },
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "It wants his surname and date of birth. Thompson, third of March, nineteen fifty.",
+   "translations": {
+    "fa": "فامیل و تاریخ تولدش را می‌خواد. تامسون، سوم مارس، هزار و نهصد و پنجاه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "seat",
+      "take",
+      "area"
+     ],
+     "suggestion": "It says \"Please take a seat in Area C\".",
+     "suggestionFa": "نوشته «لطفاً در بخش C بنشینید».",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "working",
+      "let's",
+      "desk",
+      "ask"
+     ],
+     "suggestion": "It's not working. Let's ask at the desk.",
+     "suggestionFa": "کار نمی‌کنه. بیا از میز بپرسیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    },
+    {
+     "word": "take a seat",
+     "fa": "بنشینید"
+    },
+    {
+     "word": "area",
+     "fa": "بخش ؛ ناحیه"
+    },
+    {
+     "word": "desk",
+     "fa": "میز"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Area C — follow the green line on the floor. Hospitals love coloured lines. Dad, follow the green line!",
+   "translations": {
+    "fa": "بخش C — خط سبز روی زمین را دنبال کن. بیمارستان‌ها عاشق خطوط رنگی‌ان. بابا، خط سبز را دنبال کن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "follow",
+      "green",
+      "line",
+      "come"
+     ],
+     "suggestion": "Come on, George. Follow the green line!",
+     "suggestionFa": "بیا جورج. خط سبز را دنبال کن!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "walk",
+      "far",
+      "can"
+     ],
+     "suggestion": "Can George walk that far?",
+     "suggestionFa": "جورج می‌تونه تا اونجا راه بره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "george",
+   "text": "I'm not a train, son.",
+   "translations": {
+    "fa": "من قطار نیستم، پسرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "take",
+      "arm",
+      "ha"
+     ],
+     "suggestion": "Ha! George, take my arm.",
+     "suggestionFa": "ها! جورج، بازوم را بگیر.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "window",
+      "there",
+      "area",
+      "over"
+     ],
+     "suggestion": "Area C is over there, by the window.",
+     "suggestionFa": "بخش C اونجاست، کنار پنجره.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "floor",
+     "fa": "کف ؛ زمین"
+    },
+    {
+     "word": "coloured lines",
+     "fa": "خطوط رنگی"
+    },
+    {
+     "word": "son",
+     "fa": "پسرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many UK hospitals use coloured lines on the floor to guide you to departments.",
+    "fa": "خطوط رنگی کف بیمارستان مسیر بخش‌ها را نشان می‌دهد."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Now we wait. The screen calls names. It says \"Running forty minutes late\". Of course it does.",
+   "translations": {
+    "fa": "حالا منتظر می‌مونیم. صفحه اسم‌ها را صدا می‌زنه. نوشته «چهل دقیقه تأخیر». معلومه که داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "coffee",
+      "forty",
+      "shall"
+     ],
+     "suggestion": "Forty minutes! Shall I get some coffee?",
+     "suggestionFa": "چهل دقیقه! قهوه بگیرم؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "here",
+      "caf"
+     ],
+     "suggestion": "Is there a café here?",
+     "suggestionFa": "اینجا کافه هست؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wait",
+     "fa": "منتظر ماندن"
+    },
+    {
+     "word": "calls",
+     "fa": "صدا می‌زند"
+    },
+    {
+     "word": "running late",
+     "fa": "با تأخیر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "george",
+   "text": "Get me a tea, lad. And a biscuit. Dr Okafor said no bacon. He didn't say no biscuits.",
+   "translations": {
+    "fa": "برام یه چای بگیر پسر. و یه بیسکویت. دکتر اوکافور گفت بیکن نه. نگفت بیسکویت نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "biscuit",
+      "would",
+      "like",
+      "tea"
+     ],
+     "suggestion": "A tea and a biscuit. Tom, what would you like?",
+     "suggestionFa": "یه چای و یه بیسکویت. تام، تو چی می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "before",
+      "george",
+      "can't",
+      "blood"
+     ],
+     "suggestion": "You can't eat before the blood test, George!",
+     "suggestionFa": "قبل از آزمایش خون نمی‌تونی بخوری جورج!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lad",
+     "fa": "پسر (عامیانه)"
+    },
+    {
+     "word": "biscuit",
+     "fa": "بیسکویت"
+    },
+    {
+     "word": "blood test",
+     "fa": "آزمایش خون"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "He's right, Dad — nothing before the blood test. Ha! Your face! OK, a tea for me. Milk, two sugars.",
+   "translations": {
+    "fa": "راست میگه بابا — قبل از آزمایش خون هیچی. ها! قیافه‌ات! باشه، یه چای برای من. شیر، دو تا قند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sugars",
+      "back",
+      "milk",
+      "soon"
+     ],
+     "suggestion": "One tea, milk and two sugars. Back soon!",
+     "suggestionFa": "یه چای، با شیر و دو تا قند. زود برمی‌گردم!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "george",
+      "sorry",
+      "rules"
+     ],
+     "suggestion": "Sorry, George. Rules are rules!",
+     "suggestionFa": "ببخشید جورج. قانون قانونه!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "george",
+   "text": "Fine. But after the test, I'm having two biscuits. And you two are paying.",
+   "translations": {
+    "fa": "باشه. ولی بعد از آزمایش دو تا بیسکویت می‌خورم. و شما دو تا حساب می‌کنید."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

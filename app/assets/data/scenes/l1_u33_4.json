@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twelve",
+      "pounds",
       "says"
      ],
      "suggestion": "It says twelve pounds.",
@@ -67,8 +67,8 @@
     {
      "keywords": [
       "family",
-      "tom",
-      "big"
+      "big",
+      "tom"
      ],
      "suggestion": "The big one, Tom. For your family!",
      "suggestionFa": "بزرگه تام. برای خانواده‌ت!",
@@ -120,9 +120,9 @@
     },
     {
      "keywords": [
-      "box",
+      "ask",
       "tom",
-      "ask"
+      "box"
      ],
      "suggestion": "Ask for a box, Tom.",
      "suggestionFa": "یه جعبه بخواه تام.",
@@ -154,8 +154,8 @@
      "keywords": [
       "mistake",
       "there's",
-      "think",
-      "sorry"
+      "sorry",
+      "think"
      ],
      "suggestion": "Sorry, I think there's a mistake.",
      "suggestionFa": "ببخشید، فکر کنم اشتباه شده.",
@@ -167,8 +167,8 @@
      "keywords": [
       "pounds",
       "that's",
-      "three",
-      "wrong"
+      "wrong",
+      "three"
      ],
      "suggestion": "Three pounds? That's wrong.",
      "suggestionFa": "سه پوند؟ اشتباهه.",
@@ -217,8 +217,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "twenty",
+      "twelve",
       "minus"
      ],
      "suggestion": "Twenty minus twelve is eight.",
@@ -230,8 +230,8 @@
     {
      "keywords": [
       "pounds",
-      "should",
-      "change"
+      "change",
+      "should"
      ],
      "suggestion": "It should be eight pounds change.",
      "suggestionFa": "بقیه‌ش باید هشت پوند باشه.",
@@ -273,8 +273,8 @@
     {
      "keywords": [
       "about",
-      "worry",
-      "don't"
+      "don't",
+      "worry"
      ],
      "suggestion": "Don't worry about it.",
      "suggestionFa": "نگران نباش.",
@@ -315,9 +315,9 @@
     },
     {
      "keywords": [
+      "fares",
       "every",
       "count",
-      "fares",
       "bus"
      ],
      "suggestion": "You count bus fares every day!",

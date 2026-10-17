@@ -21,8 +21,8 @@
      "keywords": [
       "qualifications",
       "finding",
-      "uses",
-      "like"
+      "like",
+      "help"
      ],
      "suggestion": "I'd like help finding a job that uses my qualifications.",
      "suggestionFa": "کمک می‌خوام کاری پیدا کنم که از مدارکم استفاده کنه.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "interviews",
-      "applied",
       "getting",
-      "lots"
+      "applied",
+      "jobs"
      ],
      "suggestion": "I've applied for lots of jobs, but I'm not getting interviews.",
      "suggestionFa": "برای کلی کار درخواست دادم، ولی مصاحبه نمی‌گیرم.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "statement",
-      "applied",
       "waiting",
+      "applied",
       "i've"
      ],
      "suggestion": "I've applied, but I'm waiting for the statement.",
@@ -183,8 +183,8 @@
     {
      "keywords": [
       "remove",
-      "photo",
       "birth",
+      "photo",
       "date"
      ],
      "suggestion": "Should I remove my photo and date of birth?",

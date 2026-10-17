@@ -1,0 +1,439 @@
+{
+ "id": "l2_u14_2",
+ "characterId": "weda",
+ "title": "Renewing books",
+ "titleFa": "تمدید کتاب",
+ "setting": "Library life · Level 2",
+ "settingFa": "الکتابخانه و زندگی",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Hello, love! Fancy seeing you here. I'm returning my books. Well — some of them.",
+   "translations": {
+    "fa": "سلام عزیزم! چه جالب اینجا دیدمت. دارم کتاب‌هام را پس میدم. خب — بعضی‌هاش را."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie",
+      "hello",
+      "some",
+      "only"
+     ],
+     "suggestion": "Hello, Maggie! Why only some?",
+     "suggestionFa": "سلام مگی! چرا فقط بعضی‌هاش؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reading",
+      "hi"
+     ],
+     "suggestion": "Hi! What are you reading?",
+     "suggestionFa": "سلام! چی می‌خونی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fancy seeing you",
+     "fa": "چه جالب که دیدمت"
+    },
+    {
+     "word": "returning",
+     "fa": "پس دادن"
+    },
+    {
+     "word": "some",
+     "fa": "بعضی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "This one's a murder mystery. I haven't finished it. It's due back today, but I need to know who did it!",
+   "translations": {
+    "fa": "این یکی داستان جنایی‌ه. تمومش نکردم. امروز باید پسش بدم، ولی باید بفهمم کار کی بوده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "renew",
+      "can"
+     ],
+     "suggestion": "Can you renew it?",
+     "suggestionFa": "می‌تونی تمدیدش کنی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "librarian",
+      "more",
+      "time",
+      "ask"
+     ],
+     "suggestion": "Ask the librarian for more time.",
+     "suggestionFa": "از کتابدار وقت بیشتر بخواه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "murder mystery",
+     "fa": "داستان جنایی"
+    },
+    {
+     "word": "finished",
+     "fa": "تمام کرده"
+    },
+    {
+     "word": "due back",
+     "fa": "موعد برگشت"
+    },
+    {
+     "word": "librarian",
+     "fa": "کتابدار"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Renew it? Can you do that? In my day you paid a fine of two pence a day!",
+   "translations": {
+    "fa": "تمدیدش کنم؟ میشه؟ زمان ما روزی دو پنی جریمه می‌دادی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "online",
+      "books",
+      "renew",
+      "desk"
+     ],
+     "suggestion": "Yes, you can renew books online, or at the desk.",
+     "suggestionFa": "آره، می‌شه کتاب‌ها را آنلاین یا سر میز تمدید کرد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bennett",
+      "he's",
+      "help",
+      "kind"
+     ],
+     "suggestion": "Mr Bennett can help you. He's very kind.",
+     "suggestionFa": "آقای بنت می‌تونه کمکت کنه. خیلی مهربونه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "renew",
+     "fa": "تمدید کردن"
+    },
+    {
+     "word": "in my day",
+     "fa": "زمان ما"
+    },
+    {
+     "word": "pence",
+     "fa": "پنی"
+    },
+    {
+     "word": "desk",
+     "fa": "میز"
+    }
+   ],
+   "cultureNote": {
+    "en": "You can usually renew a library book online, by phone, or at the desk — unless someone else has reserved it.",
+    "fa": "معمولاً می‌توان کتاب را تمدید کرد مگر اینکه کس دیگری رزرو کرده باشد."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Online? I can't do online. My phone is for calls and photos of the grandchildren. Will you show me?",
+   "translations": {
+    "fa": "آنلاین؟ من آنلاین بلد نیستم. گوشی من برای تماس و عکس نوه‌هاست. نشونم میدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "have",
+      "card",
+      "got"
+     ],
+     "suggestion": "Of course. Have you got your library card?",
+     "suggestionFa": "حتماً. کارت کتابخانه‌ات را داری؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "first",
+      "sure",
+      "open",
+      "app"
+     ],
+     "suggestion": "Sure. First, open the library app.",
+     "suggestionFa": "حتماً. اول، برنامهٔ کتابخانه را باز کن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grandchildren",
+     "fa": "نوه‌ها"
+    },
+    {
+     "word": "show",
+     "fa": "نشان دادن"
+    },
+    {
+     "word": "app",
+     "fa": "برنامه"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Here's my card. It's a bit bent — William used it as a ticket for his toy bus.",
+   "translations": {
+    "fa": "این کارتمه. یه‌کم خم شده — ویلیام به‌عنوان بلیت اتوبوس اسباب‌بازیش ازش استفاده کرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "works",
+      "still",
+      "here",
+      "ha"
+     ],
+     "suggestion": "Ha! The number still works. Type it here.",
+     "suggestionFa": "ها! شماره هنوز کار می‌کنه. اینجا تایپش کن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "worry",
+      "i'll"
+     ],
+     "suggestion": "Don't worry. I'll type the number for you.",
+     "suggestionFa": "نگران نباش. شماره را برات تایپ می‌کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bent",
+     "fa": "خم"
+    },
+    {
+     "word": "toy",
+     "fa": "اسباب‌بازی"
+    },
+    {
+     "word": "type",
+     "fa": "تایپ کردن"
+    },
+    {
+     "word": "still works",
+     "fa": "هنوز کار می‌کند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "the number work still",
+      "still is working"
+     ],
+     "echo": "Still works? Good.",
+     "better": "The number still works.",
+     "betterFa": "شماره هنوز کار می‌کند."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Now it wants a PIN. Oh dear. Is it my birthday? Or George's?",
+   "translations": {
+    "fa": "حالا رمز می‌خواد. ای وای. تاریخ تولد خودمه؟ یا جورج؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "first",
+      "try"
+     ],
+     "suggestion": "Try your birthday first.",
+     "suggestionFa": "اول تاریخ تولد خودت را امتحان کن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "secret",
+      "don't",
+      "tell"
+     ],
+     "suggestion": "Don't tell me! It's your secret.",
+     "suggestionFa": "به من نگو! رازِ خودته.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "PIN",
+     "fa": "رمز"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    },
+    {
+     "word": "secret",
+     "fa": "راز"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "It's George's. Forty-eight years married — it's always George. Right — \"renew\". Shall I press it?",
+   "translations": {
+    "fa": "مال جورجه. چهل و هشت سال ازدواج — همیشه جورجه. خب — «تمدید». فشارش بدم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "renew",
+      "press"
+     ],
+     "suggestion": "Yes. Press \"renew all\".",
+     "suggestionFa": "آره. «تمدید همه» را بزن.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "them",
+      "book",
+      "just"
+     ],
+     "suggestion": "Just this book, or all of them?",
+     "suggestionFa": "فقط این کتاب، یا همه‌شون؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "married",
+     "fa": "ازدواج‌کرده"
+    },
+    {
+     "word": "press",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "all",
+     "fa": "همه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Renewed! Three more weeks! Thank you, love. Now I'm going to sit by the window and find out who did it.",
+   "translations": {
+    "fa": "تمدید شد! سه هفتهٔ دیگه! ممنونم عزیزم. حالا می‌رم کنار پنجره بشینم و بفهمم کار کی بوده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ending",
+      "don't",
+      "enjoy",
+      "tell"
+     ],
+     "suggestion": "Enjoy it! Don't tell me the ending.",
+     "suggestionFa": "لذت ببر! آخرش را به من نگو.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gardener",
+      "think",
+      "was"
+     ],
+     "suggestion": "I think it was the gardener.",
+     "suggestionFa": "فکر کنم کار باغبونه.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "find out",
+     "fa": "فهمیدن"
+    },
+    {
+     "word": "ending",
+     "fa": "پایان"
+    },
+    {
+     "word": "gardener",
+     "fa": "باغبان"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "weda",
+   "text": "The gardener? Oh, you've ruined it now! I'm only joking. Off you go — and thank you, sweetheart.",
+   "translations": {
+    "fa": "باغبون؟ وای، حالا خرابش کردی! شوخی کردم. برو دیگه — و ممنونم عزیز دلم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

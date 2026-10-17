@@ -1,0 +1,200 @@
+{
+ "id": "l2_u16_4__as_ryan",
+ "characterId": "ryan",
+ "title": "(As Ryan) Bags for life",
+ "titleFa": "(در نقش Ryan) کیسه‌های دائمی",
+ "setting": "Food shopping · Level 2",
+ "settingFa": "خرید مواد غذایی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u16_4",
+ "playAs": "ryan",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Ryan!",
+   "translations": {
+    "fa": "سلام Ryan!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forgot",
+      "stairs",
+      "fifty",
+      "about",
+      "under"
+     ],
+     "suggestion": "Oh no. We forgot the bags. Mum's going to kill me. She's got about fifty under the stairs!",
+     "suggestionFa": "ای وای. کیسه‌ها یادمون رفت. مامان منو می‌کشه. حدود پنجاه تا زیر پله‌ها داره!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Fifty bags? Why so many?",
+   "translations": {
+    "fa": "پنجاه تا کیسه؟ چرا این‌قدر زیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "because",
+      "british",
+      "forgets",
+      "that's"
+     ],
+     "suggestion": "Because everyone forgets them. So you buy new ones. Then you have fifty. That's the British way.",
+     "suggestionFa": "چون همه یادشون میره. پس جدید می‌خری. بعد پنجاه تا داری. روش بریتانیاییه دیگه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ha! How much is a bag?",
+   "translations": {
+    "fa": "ها! کیسه چنده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strong",
+      "again",
+      "every",
+      "sixty",
+      "pence"
+     ],
+     "suggestion": "Not here. You pay for every bag. A \"bag for life\" is sixty pence. It's strong. You use it again and again.",
+     "suggestionFa": "اینجا نه. برای هر کیسه پول میدی. «کیسهٔ دائمی» شصت پنسه. محکمه. بارها و بارها ازش استفاده می‌کنی.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Let's get two. We've got a lot of things.",
+   "translations": {
+    "fa": "دو تا بگیریم. چیزای زیادی داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "bottom",
+      "stuff",
+      "heavy",
+      "break"
+     ],
+     "suggestion": "Two. Eggs at the top! If they break, Mum will REALLY kill me. Put the heavy stuff at the bottom.",
+     "suggestionFa": "دو تا. تخم‌مرغ بالا! اگه بشکنن، مامان واقعاً منو می‌کشه. چیزای سنگین را بذار ته.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Milk at the bottom, eggs on top.",
+   "translations": {
+    "fa": "شیر ته، تخم‌مرغ بالا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "compliment",
+      "perfect",
+      "that's",
+      "maggie",
+      "she's"
+     ],
+     "suggestion": "Perfect. You pack like Nana Maggie. That's a compliment, by the way. She's a pro.",
+     "suggestionFa": "عالیه. مثل نانا مگی بسته‌بندی می‌کنی. اینو تعریف بگیر. اون حرفه‌ایه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Thank you! Next time I'll bring my own bag.",
+   "translations": {
+    "fa": "ممنون! دفعهٔ بعد کیسهٔ خودم را میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "rucksack",
+      "always",
+      "today",
+      "will",
+      "well"
+     ],
+     "suggestion": "True. Hey — tip: keep a bag in your rucksack. Always. I've got one now. Well — I will have one. From today.",
+     "suggestionFa": "راسته. هی — یه نکته: همیشه یه کیسه تو کوله‌ات نگه دار. همیشه. من الان یکی دارم. خب — از امروز خواهم داشت.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Good idea. Shall we go home now?",
+   "translations": {
+    "fa": "فکر خوبیه. بریم خونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bringing",
+      "these",
+      "we're",
+      "she's",
+      "laugh"
+     ],
+     "suggestion": "Yeah. Oh — and we're bringing these bags home. So now Mum has fifty-two. She's going to laugh. Or cry.",
+     "suggestionFa": "آره. آهان — و این کیسه‌ها را می‌بریم خونه. پس حالا مامان پنجاه و دو تا داره. یا می‌خنده. یا گریه می‌کنه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Ryan! See you later.",
+   "translations": {
+    "fa": "ممنون Ryan! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -32,8 +32,8 @@
      "keywords": [
       "vitamin",
       "should",
-      "that's",
-      "relief"
+      "relief",
+      "that's"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
      "suggestionFa": "خیالم راحت شد. دربارهٔ ویتامین دی چی کار کنم؟",
@@ -85,8 +85,8 @@
     },
     {
      "keywords": [
-      "explain",
       "feeling",
+      "explain",
       "would",
       "tired"
      ],
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "honest",
-      "great",
       "night",
+      "great",
       "wake"
      ],
      "suggestion": "Not great, to be honest. I wake up a lot at night.",
@@ -182,9 +182,9 @@
     {
      "keywords": [
       "intense",
+      "work's",
       "abroad",
-      "family",
-      "work's"
+      "family"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
      "suggestionFa": "کار خیلی فشرده بوده، و نگران خانواده‌ام در خارجم.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "therapy",
-      "think",
       "about",
-      "i'll"
+      "think",
+      "sure"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
      "suggestionFa": "مطمئن نیستم درمان برای من باشه، ولی بهش فکر می‌کنم.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
-      "only",
       "desk",
-      "pain"
+      "from",
+      "only"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -349,10 +349,10 @@
    "branches": [
     {
      "keywords": [
-      "birds",
       "stone",
+      "birds",
       "then",
-      "two"
+      "one"
      ],
      "suggestion": "Two birds with one stone, then.",
      "suggestionFa": "پس با یه تیر دو نشون.",
@@ -396,8 +396,8 @@
    "branches": [
     {
      "keywords": [
-      "okafor",
       "thanks",
+      "okafor",
       "will",
       "dr"
      ],
@@ -412,7 +412,7 @@
       "supplement",
       "should",
       "before",
-      "test"
+      "stop"
      ],
      "suggestion": "Should I stop the supplement before the test?",
      "suggestionFa": "قبل از آزمایش مکمل را قطع کنم؟",

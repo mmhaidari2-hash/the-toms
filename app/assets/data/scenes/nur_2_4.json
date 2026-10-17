@@ -82,9 +82,9 @@
     {
      "keywords": [
       "first",
-      "then",
+      "i'll",
       "help",
-      "i'll"
+      "then"
      ],
      "suggestion": "You try first, then I'll help.",
      "suggestionFa": "اول خودت امتحان کن، بعد کمکت می‌کنم.",
@@ -163,8 +163,8 @@
    "branches": [
     {
      "keywords": [
-      "wait",
       "turn",
+      "wait",
       "but"
      ],
      "suggestion": "Yes, but wait for your turn.",
@@ -237,8 +237,8 @@
      "keywords": [
       "count",
       "three",
-      "let",
-      "one"
+      "one",
+      "let"
      ],
      "suggestion": "Let me count: one, two, three…",
      "suggestionFa": "بذار بشمرم: یک، دو، سه…",

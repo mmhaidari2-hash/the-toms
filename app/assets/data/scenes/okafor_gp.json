@@ -20,8 +20,8 @@
     {
      "keywords": [
       "temperature",
-      "about",
       "cough",
+      "about",
       "week"
      ],
      "suggestion": "I've had a bad cough and a temperature for about a week.",
@@ -34,8 +34,8 @@
      "keywords": [
       "something",
       "hurting",
-      "lifted",
-      "back's"
+      "back's",
+      "lifted"
      ],
      "suggestion": "My back's been hurting since I lifted something heavy.",
      "suggestionFa": "از وقتی یه چیز سنگین بلند کردم کمرم درد می‌کنه.",
@@ -77,7 +77,7 @@
       "caught",
       "monday",
       "after",
-      "rain"
+      "last"
      ],
      "suggestion": "Last Monday, after I got caught in the rain.",
      "suggestionFa": "دوشنبهٔ گذشته، بعد از اینکه زیر بارون موندم.",
@@ -347,8 +347,8 @@
      "keywords": [
       "certify",
       "seven",
-      "days",
-      "self"
+      "self",
+      "days"
      ],
      "suggestion": "No, I can self-certify for seven days.",
      "suggestionFa": "نه، تا هفت روز خودم می‌تونم گواهی بدم.",

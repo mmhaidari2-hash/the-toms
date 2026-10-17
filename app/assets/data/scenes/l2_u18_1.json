@@ -1,0 +1,393 @@
+{
+ "id": "l2_u18_1",
+ "characterId": "tom",
+ "title": "Asking the driver",
+ "titleFa": "پرسیدن از راننده",
+ "setting": "On the 38 · Level 2",
+ "settingFa": "سوار اتوبوس ۳۸",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning, sir! Welcome aboard the 38. Oh — it's you! Where are you off to today?",
+   "translations": {
+    "fa": "صبح بخیر قربان! به ۳۸ خوش اومدی. اوه — تویی! امروز کجا می‌ری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "angel",
+      "bus",
+      "tom",
+      "hi"
+     ],
+     "suggestion": "Hi, Tom! Does this bus go to Angel?",
+     "suggestionFa": "سلام تام! این اتوبوس میره اِینجل؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "islington",
+      "morning",
+      "centre",
+      "need"
+     ],
+     "suggestion": "Morning! I need to go to the job centre in Islington.",
+     "suggestionFa": "صبح بخیر! باید برم مرکز کاریابی ایزلینگتون.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "aboard",
+     "fa": "سوار ؛ داخل"
+    },
+    {
+     "word": "off to",
+     "fa": "رفتن به"
+    },
+    {
+     "word": "job centre",
+     "fa": "مرکز کاریابی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "It does! Angel, then Islington, then all the way to Victoria. Tap your card on the yellow reader, please.",
+   "translations": {
+    "fa": "میره! اِینجل، بعد ایزلینگتون، بعد تا ته خط ویکتوریا. لطفاً کارتت را بزن روی دستگاه زرد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "paying",
+      "phone",
+      "by",
+      "ok"
+     ],
+     "suggestion": "I'm paying by phone. Is that OK?",
+     "suggestionFa": "با گوشی پرداخت می‌کنم. اشکالی نداره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beeped",
+      "green",
+      "done"
+     ],
+     "suggestion": "Done. It beeped green.",
+     "suggestionFa": "زدم. بوق زد و سبز شد.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "all the way",
+     "fa": "تا انتها"
+    },
+    {
+     "word": "tap",
+     "fa": "زدن ؛ لمس کردن"
+    },
+    {
+     "word": "reader",
+     "fa": "کارت‌خوان"
+    }
+   ],
+   "cultureNote": {
+    "en": "You can pay on London buses with an Oyster card, a contactless bank card, or a phone. Always use the same one all day.",
+    "fa": "در اتوبوس می‌توان با اویستر، کارت بانکی بی‌تماس یا گوشی پرداخت کرد."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
+   "translations": {
+    "fa": "گوشی خوبه. فقط تمام روز از همون گوشی استفاده کن تا سقف روزانه شامل حالت بشه. کدوم ایستگاه لازم داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "street",
+      "upper",
+      "which",
+      "best"
+     ],
+     "suggestion": "Which stop is best for Upper Street?",
+     "suggestionFa": "برای آپر استریت کدوم ایستگاه بهتره؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "near",
+      "hall",
+      "town",
+      "sure"
+     ],
+     "suggestion": "I'm not sure. The one near the town hall.",
+     "suggestionFa": "مطمئن نیستم. اونی که نزدیک ساختمان شهرداریه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "daily cap",
+     "fa": "سقف روزانه"
+    },
+    {
+     "word": "which stop",
+     "fa": "کدام ایستگاه"
+    },
+    {
+     "word": "town hall",
+     "fa": "ساختمان شهرداری"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "which stop is better for",
+      "what stop i need"
+     ],
+     "echo": "Which stop for Upper Street? Islington Green.",
+     "better": "Which stop is best for Upper Street?",
+     "betterFa": "برای آپر استریت کدام ایستگاه بهتر است؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Islington Green. Get off there and walk two minutes. How long? About twenty-five minutes, if the traffic's kind.",
+   "translations": {
+    "fa": "ایزلینگتون گرین. اونجا پیاده شو و دو دقیقه راه برو. چقدر طول می‌کشه؟ حدود بیست و پنج دقیقه، اگه ترافیک مهربون باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "twenty",
+      "that's",
+      "fine"
+     ],
+     "suggestion": "Twenty-five minutes. That's fine.",
+     "suggestionFa": "بیست و پنج دقیقه. خوبه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "traffic",
+      "isn't",
+      "kind",
+      "if"
+     ],
+     "suggestion": "And if the traffic isn't kind?",
+     "suggestionFa": "و اگه ترافیک مهربون نباشه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get off",
+     "fa": "پیاده شدن"
+    },
+    {
+     "word": "walk",
+     "fa": "پیاده رفتن"
+    },
+    {
+     "word": "traffic",
+     "fa": "ترافیک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
+   "translations": {
+    "fa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "while",
+      "drive",
+      "ask"
+     ],
+     "suggestion": "Ha! Can I ask you something while you drive?",
+     "suggestionFa": "ها! وقتی رانندگی می‌کنی می‌تونم یه چیزی بپرسم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "i'll",
+      "here",
+      "sit"
+     ],
+     "suggestion": "I'll sit here. Thanks, Tom.",
+     "suggestionFa": "همین‌جا می‌شینم. ممنون تام.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seat",
+     "fa": "صندلی"
+    },
+    {
+     "word": "front",
+     "fa": "جلو"
+    },
+    {
+     "word": "kidding",
+     "fa": "شوخی کردن"
+    },
+    {
+     "word": "while",
+     "fa": "در حالی که"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Quick questions at the stops, yes. Not while I'm driving — safety first. That's the rule for all drivers.",
+   "translations": {
+    "fa": "سؤال‌های کوتاه سر ایستگاه‌ها، آره. وقتی رانندگی می‌کنم نه — اول ایمنی. این قانون همهٔ راننده‌هاست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coming",
+      "right",
+      "side",
+      "back"
+     ],
+     "suggestion": "OK. Is this the right side for coming back?",
+     "suggestionFa": "باشه. برای برگشتن همین طرفه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "safety",
+      "first",
+      "got"
+     ],
+     "suggestion": "Got it. Safety first!",
+     "suggestionFa": "فهمیدم. اول ایمنی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "safety",
+     "fa": "ایمنی"
+    },
+    {
+     "word": "rule",
+     "fa": "قانون"
+    },
+    {
+     "word": "right side",
+     "fa": "طرف درست"
+    }
+   ],
+   "cultureNote": {
+    "en": "Don't chat to the driver while the bus is moving. Ask your question when the bus is at a stop.",
+    "fa": "وقتی اتوبوس حرکت می‌کند با راننده صحبت نکنید."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Coming back, cross the road. Same number, other side. Everyone gets that wrong once. I did, in my first week. Driving!",
+   "translations": {
+    "fa": "برای برگشتن، از خیابون رد شو. همون شماره، طرف مقابل. همه یه بار اشتباه می‌کنن. من هفتهٔ اول اشتباه کردم. وقتی راننده بودم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "driver",
+      "wrong",
+      "got",
+      "as"
+     ],
+     "suggestion": "You got on the wrong side? As the driver?",
+     "suggestionFa": "تو طرف اشتباه سوار شدی؟ به‌عنوان راننده؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "other",
+      "i'll"
+     ],
+     "suggestion": "I'll remember: other side.",
+     "suggestionFa": "یادم می‌مونه: طرف مقابل.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cross the road",
+     "fa": "از خیابان رد شدن"
+    },
+    {
+     "word": "other side",
+     "fa": "طرف مقابل"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",
+   "translations": {
+    "fa": "خب — تو یه میدون مسیر را اشتباه رفتم. به لزلی نگو. محکم بگیر، راه افتادیم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

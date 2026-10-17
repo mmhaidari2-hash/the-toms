@@ -24,8 +24,8 @@
       "slippers",
       "fluffy",
       "bother",
-      "dear",
-      "pink"
+      "seen",
+      "dear"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
      "suggestionFa": "ای بابا! دمپایی‌هام را دیدی عزیزم؟ صورتی پشمالوها.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "terrible",
       "remember",
+      "terrible",
       "memory",
-      "don't",
-      "these"
+      "these",
+      "don't"
      ],
      "suggestion": "I don't remember! My memory is terrible these days. Are they under the bath?",
      "suggestionFa": "یادم نیست! این روزا حافظه‌م افتضاحه. زیر وانن؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -176,8 +176,8 @@
       "glasses",
       "never",
       "thank",
-      "dear",
-      "have"
+      "seen",
+      "dear"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
      "suggestionFa": "ممنون عزیزم. یه کم خیسه، ولی عیب نداره. عینکم را هم دیدی؟",
@@ -198,9 +198,9 @@
    "branches": [
     {
      "keywords": [
-      "william",
-      "without",
       "helpers",
+      "without",
+      "william",
       "little",
       "would"
      ],

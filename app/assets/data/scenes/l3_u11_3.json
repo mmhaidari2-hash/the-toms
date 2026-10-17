@@ -30,9 +30,9 @@
     {
      "keywords": [
       "course",
-      "them",
       "call",
-      "i'll"
+      "i'll",
+      "them"
      ],
      "suggestion": "Of course. I'll call them now.",
      "suggestionFa": "حتماً. الان زنگشون می‌زنم.",
@@ -71,8 +71,8 @@
     {
      "keywords": [
       "nobody's",
-      "danger",
       "report",
+      "danger",
       "like"
      ],
      "suggestion": "No, nobody's in danger. I'd like to report a stolen bike.",
@@ -122,8 +122,8 @@
      "keywords": [
       "railings",
       "chained",
-      "about",
-      "night"
+      "night",
+      "about"
      ],
      "suggestion": "Last night at about ten. It was chained to the railings.",
      "suggestionFa": "دیشب حدود ده. به نرده‌ها زنجیر شده بود.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "child",
-      "back",
       "seat",
+      "back",
       "red"
      ],
      "suggestion": "It's red, with a child seat on the back.",
@@ -242,7 +242,7 @@
       "bikeregister",
       "think",
       "i'll",
-      "him"
+      "ask"
      ],
      "suggestion": "I'll ask him. I think it's on BikeRegister.",
      "suggestionFa": "ازش می‌پرسم. فکر کنم تو بایک‌رجیستر هست.",
@@ -252,8 +252,8 @@
     },
     {
      "keywords": [
-      "second",
       "bought",
+      "second",
       "sorry",
       "hand"
      ],
@@ -296,7 +296,7 @@
       "neighbour",
       "camera",
       "i'll",
-      "has"
+      "ask"
      ],
      "suggestion": "The neighbour has a camera. I'll ask her.",
      "suggestionFa": "همسایه دوربین داره. ازش می‌پرسم.",
@@ -396,9 +396,9 @@
     {
      "keywords": [
       "marketplaces",
-      "online",
       "should",
-      "check"
+      "online",
+      "thank"
      ],
      "suggestion": "Thank you. Should he check online marketplaces?",
      "suggestionFa": "ممنون. باید بازارهای آنلاین را چک کنه؟",

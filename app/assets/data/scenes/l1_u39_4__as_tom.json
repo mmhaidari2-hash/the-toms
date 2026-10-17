@@ -24,8 +24,8 @@
       "tomorrow",
       "rubbish",
       "worst",
-      "sort",
-      "help"
+      "help",
+      "sort"
      ],
      "suggestion": "Bin day tomorrow! The worst job. Can you help me sort the rubbish?",
      "suggestionFa": "فردا روز سطل‌هاست! بدترین کار. کمکم می‌کنی زباله‌ها را جدا کنیم؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "recycling",
-      "brown",
+      "green",
       "caddy",
-      "black",
-      "green"
+      "brown",
+      "black"
      ],
      "suggestion": "Four! Green, black, brown and the food caddy. Green is for recycling.",
      "suggestionFa": "چهار تا! سبز، سیاه، قهوه‌ای و سطل غذا. سبز برای بازیافته.",
@@ -74,7 +74,7 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "paper",
+      "rinse",
       "first"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
@@ -125,7 +125,7 @@
       "wrappers",
       "packets",
       "smelly",
-      "crisp"
+      "black"
      ],
      "suggestion": "Black is for everything else. Food wrappers, crisp packets. It's the smelly one!",
      "suggestionFa": "سیاه برای بقیهٔ چیزهاست. کاغذ غذا، پاکت چیپس. همونی که بو میده!",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "leaves",
       "garden",
-      "brown",
+      "leaves",
       "grass",
+      "brown",
       "which"
      ],
      "suggestion": "The brown bin is for the garden. Grass and leaves. Now, which day do they come?",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "recycling",
-      "always",
       "forget",
+      "always",
       "black",
-      "week"
+      "next"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",
@@ -199,8 +199,8 @@
       "already",
       "legend",
       "never",
-      "she's",
-      "right"
+      "right",
+      "she's"
      ],
      "suggestion": "You're a legend! Right, out they go. Mrs Khan already put hers out. She's never late!",
      "suggestionFa": "اسطوره‌ای! خب، ببریمشون بیرون. خانم خان سطل‌هاش را گذاشته. هیچ‌وقت دیر نمی‌کنه!",

@@ -1,0 +1,225 @@
+{
+ "id": "l1_u55_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) My languages",
+ "titleFa": "(در نقش Nicola) زبان‌های من",
+ "setting": "Talking about me · Level 1",
+ "settingFa": "دربارهٔ خودم",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u55_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "languages",
+      "mummy",
+      "hello",
+      "speak",
+      "says"
+     ],
+     "suggestion": "Hello! Mummy says you speak TWO languages. Is that true?",
+     "suggestionFa": "سلام! مامان میگه تو دو تا زبان حرف می‌زنی. راسته؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes. I speak Persian and English.",
+   "translations": {
+    "fa": "آره. فارسی و انگلیسی حرف می‌زنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bonjour",
+      "english",
+      "french",
+      "speak",
+      "only"
+     ],
+     "suggestion": "Wow! I only speak English. And a bit of French. Bonjour!",
+     "suggestionFa": "واو! من فقط انگلیسی حرف می‌زنم. و یه کوچولو فرانسوی. بونژور!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Bonjour, Nicola! Very good!",
+   "translations": {
+    "fa": "بونژور نیکولا! خیلی خوب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "school",
+      "hello",
+      "learn",
+      "how"
+     ],
+     "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
+     "suggestionFa": "تو مدرسه یاد می‌گیریم. «سلام» را فارسی چی میگن؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "We say \"salaam\".",
+   "translations": {
+    "fa": "میگیم «سلام»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "salaam",
+      "about",
+      "thank",
+      "speak"
+     ],
+     "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
+     "suggestionFa": "سَ-لام! سلام! حالا من فارسی بلدم! «ممنون» چی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "\"Merci\". Like French!",
+   "translations": {
+    "fa": "«مرسی». مثل فرانسوی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "english",
+      "french",
+      "that's",
+      "peasy"
+     ],
+     "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
+     "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "No. I speak Persian to my mum on the phone.",
+   "translations": {
+    "fa": "نه. پشت تلفن با مامانم فارسی حرف می‌زنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "there's",
+      "english",
+      "telly",
+      "daddy"
+     ],
+     "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
+     "suggestionFa": "ها! بابا هم با تلویزیون حرف می‌زنه. وقتی فوتباله. انگلیسی سخته؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, a bit. Spelling is very hard!",
+   "translations": {
+    "fa": "آره، یه‌کم. املاش خیلی سخته!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "spelling",
+      "nobody",
+      "knife",
+      "ellis",
+      "knows"
+     ],
+     "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
+     "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "English is a funny language.",
+   "translations": {
+    "fa": "انگلیسی زبان عجیبیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "english",
+      "clever",
+      "salaam",
+      "every"
+     ],
+     "suggestion": "Yes! I'll teach you English, and you teach me Persian. Every day! Salaam! Merci! I'm so clever.",
+     "suggestionFa": "آره! من بهت انگلیسی یاد میدم، تو بهم فارسی. هر روز! سلام! مرسی! من خیلی باهوشم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

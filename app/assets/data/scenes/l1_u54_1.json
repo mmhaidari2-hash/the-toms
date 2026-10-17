@@ -125,9 +125,9 @@
     {
      "keywords": [
       "hang",
-      "red",
       "can",
-      "one"
+      "one",
+      "red"
      ],
      "suggestion": "Can I hang this red one?",
      "suggestionFa": "می‌تونم این قرمزه را آویزون کنم؟",
@@ -232,8 +232,8 @@
     },
     {
      "keywords": [
-      "where",
       "shall",
+      "where",
       "put",
       "we"
      ],
@@ -314,8 +314,8 @@
     {
      "keywords": [
       "three",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "Three, two, one…",
      "suggestionFa": "سه، دو، یک…",

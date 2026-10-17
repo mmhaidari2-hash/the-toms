@@ -132,7 +132,7 @@
       "teatime",
       "toast",
       "only",
-      "bit"
+      "had"
      ],
      "suggestion": "He only had a bit of toast at teatime.",
      "suggestionFa": "سر شام فقط یه کم نون تست خورد.",
@@ -144,8 +144,8 @@
      "keywords": [
       "pushed",
       "dinner",
-      "away",
-      "much"
+      "much",
+      "away"
      ],
      "suggestion": "Not much. He pushed his dinner away.",
      "suggestionFa": "زیاد نه. شامش را پس زد.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "course",
-      "here's",
       "calpol",
+      "here's",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "lullaby",
       "persian",
+      "lullaby",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

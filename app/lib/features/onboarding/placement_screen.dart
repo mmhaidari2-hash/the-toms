@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import '../shared/nav.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -131,7 +132,9 @@ class _PlacementState extends ConsumerState<PlacementScreen> {
         child: Column(children: [
           SizedBox(height: pad.top + 8),
           Row(children: [
-            IconButton(onPressed: () => context.canPop() ? context.pop() : context.go('/onboarding'), icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white70, size: 20)),
+            const SizedBox(width: 8),
+            NavBack(light: true, fallback: ref.read(progressProvider).onboarded ? '/' : '/onboarding'),
+            const SizedBox(width: 10),
             Expanded(child: Text('PLACEMENT TEST · ~5 MIN', style: const TextStyle(color: BL.gold, fontSize: 11, letterSpacing: 1.5, fontWeight: FontWeight.w800))),
             TextButton(key: const ValueKey('placement-skip'), onPressed: () => _finish(1), child: const Text('Skip', style: TextStyle(color: Colors.white70, fontWeight: FontWeight.w700))),
           ]),

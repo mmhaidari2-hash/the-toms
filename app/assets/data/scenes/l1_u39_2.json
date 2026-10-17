@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "dust",
       "help",
+      "dust",
       "can"
      ],
      "suggestion": "Can I help you dust?",
@@ -168,8 +168,8 @@
     {
      "keywords": [
       "behind",
-      "jar",
-      "key"
+      "key",
+      "jar"
      ],
      "suggestion": "It's a key. Behind the jar.",
      "suggestionFa": "یه کلیده. پشت ظرف.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "table",
-      "put",
-      "her"
+      "her",
+      "put"
      ],
      "suggestion": "Put it on the table for her.",
      "suggestionFa": "بذارش رو میز براش.",
@@ -231,8 +231,8 @@
     {
      "keywords": [
       "happy",
-      "nana",
-      "will"
+      "will",
+      "nana"
      ],
      "suggestion": "Nana will be very happy.",
      "suggestionFa": "نانا خیلی خوشحال میشه.",

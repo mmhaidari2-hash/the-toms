@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "another",
       "blanket",
+      "another",
       "course",
       "shall"
      ],
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "problem",
       "feeling",
-      "long",
+      "problem",
+      "like",
       "been"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "you've",
       "looked",
-      "worry",
-      "don't"
+      "you've",
+      "don't",
+      "after"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",
@@ -223,8 +223,8 @@
     {
      "keywords": [
       "here",
-      "want",
-      "help"
+      "help",
+      "want"
      ],
      "suggestion": "Here you are. Do you want help with it?",
      "suggestionFa": "بفرمایید. کمک می‌خواید؟",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "clues",
       "shall",
+      "clues",
       "read"
      ],
      "suggestion": "Shall I read the clues to you?",

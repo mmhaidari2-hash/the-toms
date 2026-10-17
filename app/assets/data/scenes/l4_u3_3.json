@@ -35,7 +35,7 @@
       "another",
       "parking",
       "nearby",
-      "space"
+      "could"
      ],
      "suggestion": "Could we find you another parking space nearby?",
      "suggestionFa": "می‌تونیم یه جای پارک دیگه نزدیک براتون پیدا کنیم؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "customers",
-      "people",
       "office",
-      "think"
+      "people",
+      "means"
      ],
      "suggestion": "Think of it this way: more people means more customers for the post office.",
      "suggestionFa": "این‌طوری فکر کنید: آدم بیشتر یعنی مشتری بیشتر برای پستخونه.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "volunteers",
-      "twenty",
       "looked",
+      "twenty",
       "after"
      ],
      "suggestion": "We'd make sure it's well looked after. We've got twenty volunteers.",
@@ -134,7 +134,7 @@
       "residents'",
       "insurance",
       "setting",
-      "we'll"
+      "we're"
      ],
      "suggestion": "We're setting up a residents' committee, and we'll have insurance.",
      "suggestionFa": "داریم یه کمیتهٔ ساکنان راه می‌ندازیم، و بیمه هم داریم.",
@@ -146,8 +146,8 @@
      "keywords": [
       "could",
       "join",
-      "run",
-      "how"
+      "how",
+      "run"
      ],
      "suggestion": "You could join the committee and have a say in how it's run.",
      "suggestionFa": "می‌تونید عضو کمیته بشید و تو نحوهٔ اداره‌اش نظر بدید.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "maybe",
-      "could",
       "after",
+      "could",
       "then"
      ],
      "suggestion": "Then maybe we could name a bed after her.",
@@ -200,8 +200,8 @@
      "keywords": [
       "sounds",
       "she'd",
-      "part",
-      "like"
+      "like",
+      "part"
      ],
      "suggestion": "It sounds like she'd want you to be part of it.",
      "suggestionFa": "به نظر میاد دلش می‌خواست شما جزوش باشید.",

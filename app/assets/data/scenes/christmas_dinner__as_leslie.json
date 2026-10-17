@@ -25,7 +25,7 @@
       "cracker",
       "merry",
       "pull",
-      "come"
+      "down"
      ],
      "suggestion": "Merry Christmas! Come and sit down — pull a cracker with me!",
      "suggestionFa": "کریسمس مبارک! بیا بشین — یه کراکر با من بکش!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "paper",
       "crown",
-      "joke",
+      "paper",
       "bang",
+      "joke",
       "put"
      ],
      "suggestion": "Bang! You won! Put your paper crown on. What does your joke say?",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "terrible",
       "potatoes",
+      "terrible",
       "blankets",
       "cracker",
-      "always"
+      "turkey"
      ],
      "suggestion": "Ha! Terrible! Cracker jokes are always terrible. Would you like turkey, pigs in blankets and roast potatoes?",
      "suggestionFa": "ها! افتضاح! جوک‌های کراکر همیشه افتضاحن. بوقلمون، سوسیس پیچیده و سیب‌زمینی تنوری می‌خوای؟",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "cranberry",
       "christmas",
+      "cranberry",
       "british",
       "first",
-      "sauce"
+      "brave"
      ],
      "suggestion": "Brave! Tom, pass the cranberry sauce, love. Is this your first British Christmas?",
      "suggestionFa": "شجاع! تام، سس زغال‌اخته را بده عزیزم. این اولین کریسمس بریتانیاییته؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "christmas",
-      "british",
       "pudding",
-      "that's",
-      "eating"
+      "british",
+      "eating",
+      "that's"
      ],
      "suggestion": "Eating a lot — that's very British too! Now, who wants Christmas pudding? It's on fire!",
      "suggestionFa": "زیاد خوردن — اینم خیلی بریتانیاییه! حالا، کی پودینگ کریسمس می‌خواد؟ آتیش گرفته!",
@@ -198,8 +198,8 @@
      "keywords": [
       "perfectly",
       "everyone",
-      "speech",
       "king's",
+      "speech",
       "mostly"
      ],
      "suggestion": "Perfectly safe! Well, mostly. Now, everyone — the King's speech is at three. Then a walk.",

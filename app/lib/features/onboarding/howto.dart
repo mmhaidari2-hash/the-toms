@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:go_router/go_router.dart';
 
 import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../shared/widgets.dart';
+import '../shared/nav.dart';
 
 class _Page {
   final String who, en, fa;
@@ -118,7 +118,10 @@ class HowToScreen extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
     body: Container(
       decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xFF22355C), BL.ink])),
-      child: SafeArea(bottom: false, child: HowToPages(onDone: () => context.canPop() ? context.pop() : context.go('/'))),
+      child: SafeArea(bottom: false, child: Column(children: [
+        const Padding(padding: EdgeInsets.fromLTRB(10, 6, 10, 0), child: Align(alignment: Alignment.centerLeft, child: NavButtons(light: true))),
+        Expanded(child: HowToPages(onDone: () => goBack(context))),
+      ])),
     ),
   );
 }

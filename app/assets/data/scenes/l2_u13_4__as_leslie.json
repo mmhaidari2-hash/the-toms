@@ -1,0 +1,225 @@
+{
+ "id": "l2_u13_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Choosing a pharmacy",
+ "titleFa": "(در نقش Leslie) انتخاب داروخانه",
+ "setting": "Registering with a GP · Level 2",
+ "settingFa": "ثبت‌نام نزد پزشک عمومی",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u13_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescriptions",
+      "nominated",
+      "pharmacy",
+      "that's",
+      "thing"
+     ],
+     "suggestion": "One more thing — the form asks for your \"nominated pharmacy\". That's where your prescriptions go.",
+     "suggestionFa": "یه چیز دیگه — فرم «داروخانهٔ انتخابی» را می‌پرسه. نسخه‌هات اونجا میره.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What does \"nominated\" mean?",
+   "translations": {
+    "fa": "«نامینیتد» یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescription",
+      "computer",
+      "doctor",
+      "choose",
+      "sends"
+     ],
+     "suggestion": "It means the one you choose. The doctor sends your prescription there by computer. No paper!",
+     "suggestionFa": "یعنی همونی که انتخاب می‌کنی. دکتر نسخه‌ات را با کامپیوتر می‌فرسته اونجا. بی‌کاغذ!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "That's clever. So I just go and collect it?",
+   "translations": {
+    "fa": "چه هوشمندانه. پس فقط می‌رم و تحویل می‌گیرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket",
+      "dawson's",
+      "there's",
+      "exactly",
+      "street"
+     ],
+     "suggestion": "Exactly. Now, there's Dawson's on the high street, or the big one in the supermarket.",
+     "suggestionFa": "دقیقاً. خب، داروخانهٔ داوسون تو خیابون اصلی هست، یا اون بزرگه تو سوپرمارکت.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Which one is nearer to my house?",
+   "translations": {
+    "fa": "کدومش به خونه‌ام نزدیک‌تره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket",
+      "minutes'",
+      "dawson's",
+      "closes",
+      "nearer"
+     ],
+     "suggestion": "Dawson's is nearer — two minutes' walk. But it closes at six. The supermarket one is open until ten.",
+     "suggestionFa": "داوسون نزدیک‌تره — دو دقیقه پیاده. ولی ساعت شش می‌بنده. اونی که تو سوپرمارکته تا ده بازه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I finish work at six. That's a problem.",
+   "translations": {
+    "fa": "من ساعت شش کارم تموم میشه. این مشکله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dawson's",
+      "lovely",
+      "advice",
+      "maggie",
+      "gives"
+     ],
+     "suggestion": "Nana Maggie uses Dawson's. Mr Dawson's lovely. He gives good advice — free!",
+     "suggestionFa": "نانا مگی از داوسون استفاده می‌کنه. آقای داوسون خیلی نازنینه. توصیه‌های خوبی میده — مجانی!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Free advice? From a pharmacist?",
+   "translations": {
+    "fa": "توصیهٔ مجانی؟ از داروساز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "prescriptions",
+      "they're",
+      "quicker",
+      "rashes",
+      "coughs"
+     ],
+     "suggestion": "Yes! For coughs, colds, rashes. And they're much quicker than the GP. Do prescriptions cost money in Iran?",
+     "suggestionFa": "آره! برای سرفه، سرماخوردگی، جوش. و خیلی سریع‌تر از پزشک عمومی‌ان. تو ایران نسخه پول داره؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, but with insurance it's cheaper.",
+   "translations": {
+    "fa": "آره، ولی با بیمه ارزون‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "sixties",
+      "england",
+      "pounds",
+      "about"
+     ],
+     "suggestion": "Here in England it's a fixed price for each item — about ten pounds. Children and over-sixties are free.",
+     "suggestionFa": "اینجا تو انگلیس برای هر قلم یه قیمت ثابته — حدود ده پوند. بچه‌ها و بالای شصت سال مجانیه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "So Nana Maggie doesn't pay?",
+   "translations": {
+    "fa": "پس نانا مگی پول نمیده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie's",
+      "dawson's",
+      "george",
+      "being",
+      "about"
+     ],
+     "suggestion": "No, Maggie's free. And George! He says it's the only good thing about being old. Right — write \"Dawson's\". Done!",
+     "suggestionFa": "نه، مگی مجانیه. جورج هم! میگه این تنها چیز خوبِ پیری‌ه. خب — بنویس «داوسون». تموم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

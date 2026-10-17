@@ -21,8 +21,8 @@
      "keywords": [
       "everyone",
       "minutes",
-      "five",
-      "more"
+      "more",
+      "five"
      ],
      "suggestion": "Five more minutes, everyone!",
      "suggestionFa": "همه، پنج دقیقه دیگه!",
@@ -112,10 +112,10 @@
    "branches": [
     {
      "keywords": [
-      "let's",
-      "photo",
       "first",
-      "tower"
+      "let's",
+      "tower",
+      "photo"
      ],
      "suggestion": "Let's take a photo of your tower first.",
      "suggestionFa": "بیا اول از برجت عکس بگیریم.",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "let's",
-      "cars",
       "away",
+      "cars",
       "put"
      ],
      "suggestion": "Let's put the cars away too.",

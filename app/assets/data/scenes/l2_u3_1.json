@@ -35,7 +35,7 @@
       "something",
       "going",
       "ideas",
-      "try"
+      "any"
      ],
      "suggestion": "I'm going to try something new. Any ideas?",
      "suggestionFa": "می‌خوام یه چیز جدید امتحان کنم. ایده‌ای داری؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "wedding",
       "going",
-      "next",
-      "week"
+      "week",
+      "next"
      ],
      "suggestion": "No, I'm going to a wedding next week.",
      "suggestionFa": "نه، هفتهٔ بعد می‌رم عروسی.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "sides",
-      "long",
       "keep",
+      "long",
       "can"
      ],
      "suggestion": "Can you keep the sides long too?",
@@ -323,9 +323,9 @@
    "branches": [
     {
      "keywords": [
-      "looks",
+      "great",
       "thank",
-      "great"
+      "looks"
      ],
      "suggestion": "It looks great. Thank you!",
      "suggestionFa": "عالی شده. ممنون!",

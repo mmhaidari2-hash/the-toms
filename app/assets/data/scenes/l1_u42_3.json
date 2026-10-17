@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "doris",
       "hello",
+      "doris",
       "how"
      ],
      "suggestion": "Hello, Doris! How are you?",
@@ -120,8 +120,8 @@
     {
      "keywords": [
       "haven't",
-      "car",
-      "got"
+      "got",
+      "car"
      ],
      "suggestion": "No. I haven't got a car.",
      "suggestionFa": "نه. ماشین ندارم.",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "drove",
-      "iran",
       "here",
+      "iran",
       "but"
      ],
      "suggestion": "I drove in Iran, but not here.",
@@ -314,8 +314,8 @@
     {
      "keywords": [
       "doris",
-      "take",
       "care",
+      "take",
       "bye"
      ],
      "suggestion": "Bye, Doris! Take care.",

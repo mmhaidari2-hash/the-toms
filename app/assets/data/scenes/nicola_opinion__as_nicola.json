@@ -24,8 +24,8 @@
       "children",
       "allowed",
       "should",
-      "until",
-      "agree"
+      "agree",
+      "don't"
      ],
      "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
      "suggestionFa": "به نظرم بچه‌ها باید اجازه داشته باشن تا ساعت ده بیدار بمونن. موافق نیستی؟",
@@ -49,8 +49,8 @@
       "that's",
       "stays",
       "ryan",
-      "late",
-      "fair"
+      "fair",
+      "late"
      ],
      "suggestion": "But Ryan stays up late! That's not fair.",
      "suggestionFa": "ولی رایان تا دیروقت بیدار می‌مونه! این عادلانه نیست.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "reasons",
-      "reason",
       "should",
+      "reason",
       "telly",
-      "miss"
+      "hart"
      ],
      "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
      "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "saturdays",
-      "without",
       "fridays",
       "moaning",
+      "without",
       "please"
      ],
      "suggestion": "Half eight on Fridays AND Saturdays? Please? I'll brush my teeth without moaning.",
@@ -224,8 +224,8 @@
       "writing",
       "forget",
       "can't",
-      "deal",
-      "down"
+      "down",
+      "deal"
      ],
      "suggestion": "Hmm… deal. But I'm writing it down so you can't forget!",
      "suggestionFa": "هوم… قبول. ولی می‌نویسمش که یادت نره!",

@@ -33,8 +33,8 @@
     {
      "keywords": [
       "cooking",
-      "badly",
       "while",
+      "badly",
       "hand"
      ],
      "suggestion": "I cut my hand badly while I was cooking.",
@@ -97,7 +97,7 @@
       "o'clock",
       "around",
       "think",
-      "stop"
+      "fall"
      ],
      "suggestion": "Around two o'clock. I think I put my hand out to stop the fall.",
      "suggestionFa": "حدود ساعت دو. فکر کنم دستم را دراز کردم که نیفتم.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "throbbing",
-      "about",
-      "seven"
+      "seven",
+      "about"
      ],
      "suggestion": "About a seven. It's throbbing.",
      "suggestionFa": "حدود هفت. ضربان داره.",
@@ -140,9 +140,9 @@
     {
      "keywords": [
       "still",
-      "when",
       "nine",
-      "five"
+      "when",
+      "move"
      ],
      "suggestion": "A five when I keep still, but a nine if I move it.",
      "suggestionFa": "وقتی تکونش نمی‌دم پنج، ولی اگه حرکتش بدم نه.",
@@ -247,8 +247,8 @@
      "keywords": [
       "paracetamol",
       "allergies",
-      "took",
-      "half"
+      "half",
+      "took"
      ],
      "suggestion": "I took two paracetamol at half one. No allergies.",
      "suggestionFa": "ساعت یک و نیم دو تا پاراستامول خوردم. حساسیت ندارم.",
@@ -295,9 +295,9 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "will",
       "wait",
+      "long",
       "how"
      ],
      "suggestion": "How long will I have to wait?",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "waiting",
-      "leslie",
       "friend",
+      "leslie",
       "room"
      ],
      "suggestion": "My friend Leslie is in the waiting room.",
@@ -399,8 +399,8 @@
      "keywords": [
       "while",
       "drink",
-      "wait",
-      "will"
+      "will",
+      "wait"
      ],
      "suggestion": "I will. Can I eat or drink while I wait?",
      "suggestionFa": "حتماً. موقع انتظار می‌تونم بخورم یا بنوشم؟",

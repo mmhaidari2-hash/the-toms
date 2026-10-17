@@ -22,9 +22,9 @@
     {
      "keywords": [
       "talking",
-      "friend",
-      "passed",
       "george",
+      "passed",
+      "friend",
       "would"
      ],
      "suggestion": "George has been a bit low since his friend Stan passed away. Would you sit with him for a while? He likes talking to you.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",
@@ -156,9 +156,9 @@
      "keywords": [
       "goalkeeper",
       "rubbish",
+      "george",
       "always",
-      "they'd",
-      "missed"
+      "they'd"
      ],
      "suggestion": "Stan was the goalkeeper. George always said he was rubbish, but he never missed a match. They'd argue about it every week, and then go for a pint.",
      "suggestionFa": "استن دروازه‌بان بود. جورج همیشه می‌گفت افتضاحه، ولی هیچ‌وقت یه مسابقه را از دست نداد. هر هفته سرش بحث می‌کردن، و بعد می‌رفتن یه آبجو بخورن.",
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "mm",
-      "hm"
+      "hm",
+      "mm"
      ],
      "suggestion": "Mm-hm.",
      "suggestionFa": "آهان.",

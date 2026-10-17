@@ -80,7 +80,7 @@
       "agreement",
       "address",
       "tenancy",
-      "i've"
+      "okay"
      ],
      "suggestion": "I've got a tenancy agreement — is that okay for address?",
      "suggestionFa": "قرارداد اجاره دارم — برای آدرس قبوله؟",
@@ -119,8 +119,8 @@
     {
      "keywords": [
       "thousand",
-      "salary",
       "pounds",
+      "salary",
       "about"
      ],
      "suggestion": "About two thousand pounds, from my salary.",
@@ -165,8 +165,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "rather",
+      "thanks",
       "avoid",
       "i'd"
      ],
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "explain",
-      "could",
-      "sorry"
+      "sorry",
+      "could"
      ],
      "suggestion": "Sorry, could you explain what an overdraft is?",
      "suggestionFa": "ببخشید، می‌شه توضیح بدید اضافه‌برداشت چیه؟",
@@ -214,7 +214,7 @@
       "monthly",
       "there",
       "avoid",
-      "then"
+      "i'll"
      ],
      "suggestion": "I'll avoid it, then. Is there a monthly fee?",
      "suggestionFa": "پس ازش پرهیز می‌کنم. هزینهٔ ماهانه داره؟",
@@ -225,8 +225,8 @@
     {
      "keywords": [
       "later",
-      "know",
       "need",
+      "know",
       "good"
      ],
      "suggestion": "Good to know. Can I add it later if I need it?",
@@ -313,8 +313,8 @@
      "keywords": [
       "perfect",
       "easy",
-      "use",
-      "app"
+      "app",
+      "use"
      ],
      "suggestion": "Perfect. Is the app easy to use?",
      "suggestionFa": "عالیه. کار با اپ آسونه؟",
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "thanks",
-      "heard",
-      "about",
-      "those"
+      "scams",
+      "those",
+      "heard"
      ],
      "suggestion": "Thanks — I've heard about those scams.",
      "suggestionFa": "ممنون — دربارهٔ این کلاهبرداری‌ها شنیدم.",
@@ -434,8 +434,8 @@
     {
      "keywords": [
       "where's",
-      "asking",
       "accent",
+      "asking",
       "don't"
      ],
      "suggestion": "Where's your accent from, if you don't mind me asking?",

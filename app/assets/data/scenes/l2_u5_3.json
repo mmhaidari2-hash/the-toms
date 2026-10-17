@@ -77,9 +77,9 @@
     {
      "keywords": [
       "finished",
-      "project",
       "science",
-      "has"
+      "project",
+      "his"
      ],
      "suggestion": "Has he finished his science project?",
      "suggestionFa": "پروژهٔ علومش را تموم کرده؟",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "week",
-      "help",
       "i'll",
-      "home"
+      "help",
+      "home",
+      "week"
      ],
      "suggestion": "I'll help him at home this week.",
      "suggestionFa": "این هفته تو خونه کمکش می‌کنم.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "done",
-      "has",
       "far",
+      "has",
       "he"
      ],
      "suggestion": "What has he done so far?",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "sounds",
-      "ryan",
-      "like"
+      "like",
+      "ryan"
      ],
      "suggestion": "That sounds like Ryan!",
      "suggestionFa": "این خیلی رایانیه!",

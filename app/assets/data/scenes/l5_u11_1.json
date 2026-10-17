@@ -21,8 +21,8 @@
      "keywords": [
       "thompson's",
       "discount",
-      "charged",
-      "council"
+      "council",
+      "charged"
      ],
      "suggestion": "Yes. Mrs Thompson's been charged full council tax, but she should get a single person discount.",
      "suggestionFa": "بله. از خانم تامپسون مالیات کامل گرفتن، ولی باید تخفیف تک‌نفره بگیره.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "incorrect",
-      "helping",
       "believe",
-      "that's"
+      "helping",
+      "maggie"
      ],
      "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
      "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
@@ -93,7 +93,7 @@
       "circumstances",
       "changed",
       "until",
-      "have"
+      "true"
      ],
      "suggestion": "That was true until March, but circumstances have changed.",
      "suggestionFa": "تا مارس درست بود، ولی شرایط عوض شده.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "appreciate",
-      "apology",
       "happens",
+      "apology",
       "now"
      ],
      "suggestion": "I appreciate the apology. What happens now?",
@@ -236,8 +236,8 @@
      "keywords": [
       "reminder",
       "received",
-      "cancel",
-      "notice"
+      "notice",
+      "that's"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
      "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
@@ -301,8 +301,8 @@
      "keywords": [
       "george's",
       "support",
-      "carers",
-      "maggie"
+      "maggie",
+      "carers"
      ],
      "suggestion": "Maggie is George's main carer. Is there support for carers?",
      "suggestionFa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "anything",
       "entitled",
+      "anything",
       "helpful",
       "really"
      ],
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "escalate",
       "resolved",
+      "escalate",
       "isn't",
       "how"
      ],

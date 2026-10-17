@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "bikes",
       "buses",
+      "bikes",
       "those",
-      "look",
-      "more"
+      "ride",
+      "than"
      ],
      "suggestion": "Look at all those bikes! More bikes than buses now. Do you ride a bike, Mehdi?",
      "suggestionFa": "این همه دوچرخه را ببین! الان دوچرخه از اتوبوس بیشتره. تو دوچرخه سواری می‌کنی {you}؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "should",
-      "safer",
-      "cycle",
       "there",
-      "lanes"
+      "safer",
+      "lanes",
+      "cycle"
      ],
      "suggestion": "It's safer now. There are cycle lanes. You should try a hire bike.",
      "suggestionFa": "الان امن‌تره. مسیر دوچرخه هست. باید یه دوچرخهٔ کرایه‌ای امتحان کنی.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "there",
-      "hour",
-      "ones",
       "half",
-      "over"
+      "over",
+      "hour",
+      "ones"
      ],
      "suggestion": "The red ones over there. You use an app. You pay by the half hour.",
      "suggestionFa": "اون قرمزها اونجا. با یه اپ. هر نیم ساعت پول میدی.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "should",
-      "helmet",
       "pounds",
+      "helmet",
       "wear",
       "bad"
      ],
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "cycle",
       "drive",
-      "keep",
-      "road",
-      "left"
+      "cycle",
+      "here",
+      "left",
+      "keep"
      ],
      "suggestion": "On the road or in the cycle lane. And keep left! We drive on the left here.",
      "suggestionFa": "تو خیابون یا مسیر دوچرخه. و از چپ برو! اینجا از چپ رانندگی می‌کنیم.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "shouldn't",
-      "tricky",
       "that's",
+      "tricky",
       "thing",
       "front"
      ],
@@ -198,8 +198,8 @@
      "keywords": [
       "pedals",
       "legs",
+      "bike",
       "only",
-      "know",
       "down"
      ],
      "suggestion": "Me? On a bike? I sit down all day. My legs only know the pedals of a bus! Ha!",

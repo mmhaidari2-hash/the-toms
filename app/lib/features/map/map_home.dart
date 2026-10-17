@@ -6,6 +6,7 @@ import '../../app/theme.dart';
 import '../../core/data/providers.dart';
 import '../../core/data/repository.dart';
 import '../shared/widgets.dart';
+import 'map_spots.dart';
 
 /// A region of the painted roadmap. [rects] are normalised (x, y, w, h) tap areas on map.webp.
 class MapRegion {
@@ -81,6 +82,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
     if (c == null) {
       return Scaffold(backgroundColor: BL.ink, body: Center(child: async.hasError ? FilledButton(onPressed: () => ref.invalidate(contentProvider), child: const Text('Try again')) : const CircularProgressIndicator(color: BL.gold)));
     }
+    final spots = ref.watch(spotsProvider).value ?? const <MapSpot>[];
     final next = ctrl.nextLesson(c.course);
     final nu = next == null ? null : c.course.unitOf(next.id);
     return Scaffold(
@@ -112,10 +114,18 @@ class _MapHomeState extends ConsumerState<MapHome> {
                       left: rc[0] * w, top: rc[1] * h, width: rc[2] * w, height: rc[3] * h,
                       child: GestureDetector(key: ValueKey('region-${r.id}-${r.rects.indexOf(rc)}'), behavior: HitTestBehavior.opaque, onTap: () => _open(r, c)),
                     ),
-                for (final r in mapRegions)
+                // The living town: every building / object opens the lessons set there.
+                for (final s in spots)
                   Positioned(
-                    left: r.pin.dx * w - 80, top: r.pin.dy * h, width: 160,
-                    child: Center(child: _Pin(r: r, open: regionOpen(ctrl, c.course, r), here: r.level != null && r.level == nu?.level, onTap: () => _open(r, c))),
+                    left: s.x * w - 46, top: s.y * h - 20,
+                    child: SpotMarker(
+                      s: s,
+                      open: spotLessons(c.course, s).any((l) => ctrl.lessonOpen(c.course, l)),
+                      onTap: () {
+                        ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                        showSpotSheet(context, ref, s, c);
+                      },
+                    ),
                   ),
               ]),
             ),
@@ -123,7 +133,7 @@ class _MapHomeState extends ConsumerState<MapHome> {
           // Top bar
           Positioned(
             left: 0, right: 0, top: 0,
-            child: IgnorePointer(child: Container(height: pad.top + 84, decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xCC140E0A), Color(0x00140E0A)])))),
+            child: IgnorePointer(child: Container(height: pad.top + 130, decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xCC140E0A), Color(0x00140E0A)])))),
           ),
           Positioned(
             left: 20, right: 10, top: pad.top + 10,
@@ -134,6 +144,19 @@ class _MapHomeState extends ConsumerState<MapHome> {
                 showAppMenu(context, ref);
               }),
             ]),
+          ),
+          // Level areas: one chip per level (and pack), tap to open that level's path.
+          Positioned(
+            left: 0, right: 0, top: pad.top + 58, height: 50,
+            child: ListView(
+              key: const ValueKey('level-strip'),
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: 14),
+              children: [
+                for (final r in mapRegions)
+                  Padding(padding: const EdgeInsets.only(right: 8), child: _Pin(r: r, open: regionOpen(ctrl, c.course, r), here: r.level != null && r.level == nu?.level, onTap: () => _open(r, c))),
+              ],
+            ),
           ),
           // One big Continue button
           Positioned(
@@ -193,20 +216,20 @@ class _Pin extends StatelessWidget {
     key: ValueKey('pin-${r.id}'),
     onTap: onTap,
     child: Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
         color: open ? const Color(0xF2FBF3E4) : const Color(0xD9201813),
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: here ? BL.red : (open ? BL.gold : Colors.white24), width: here ? 2.2 : 1.2),
         boxShadow: BL.shadow(.25),
       ),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
+      child: Column(mainAxisSize: MainAxisSize.min, mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.start, children: [
         Row(mainAxisSize: MainAxisSize.min, children: [
-          if (!open) const Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.lock_rounded, size: 13, color: Colors.white70)),
-          if (r.pack != null) const Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.workspace_premium_rounded, size: 13, color: Color(0xFFC9A04C))),
-          Text(r.title, style: TextStyle(fontWeight: FontWeight.w800, fontSize: 13, color: open ? BL.ink : Colors.white)),
+          if (!open) const Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.lock_rounded, size: 12, color: Colors.white70)),
+          if (r.pack != null) const Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.workspace_premium_rounded, size: 12, color: Color(0xFFC9A04C))),
+          Text(r.title, style: TextStyle(fontWeight: FontWeight.w800, fontSize: 12.5, color: open ? BL.ink : Colors.white)),
         ]),
-        Text(open ? r.sub : 'Needs Level ${r.level}', style: TextStyle(fontSize: 10.5, fontWeight: FontWeight.w600, color: open ? BL.muted : Colors.white60)),
+        Text(open ? r.sub : 'Needs Level ${r.level}', style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600, color: open ? BL.muted : Colors.white60)),
       ]),
     ),
   );

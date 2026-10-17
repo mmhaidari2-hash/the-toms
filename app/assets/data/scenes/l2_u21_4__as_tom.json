@@ -1,0 +1,198 @@
+{
+ "id": "l2_u21_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) What was the best bit?",
+ "titleFa": "(در نقش Tom) بهترین قسمتش چه بود؟",
+ "setting": "A day at the museum · Level 2",
+ "settingFa": "یک روز در موزه",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u21_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "babysitter",
+      "dinosaurs",
+      "they're",
+      "london",
+      "museum"
+     ],
+     "suggestion": "Shh. Look — they're both asleep. Five hours of dinosaurs. Best babysitter in London, that museum.",
+     "suggestionFa": "هیس. ببین — هر دوشون خوابن. پنج ساعت دایناسور. بهترین پرستار بچهٔ لندن، اون موزه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "They're so sweet when they sleep.",
+   "translations": {
+    "fa": "وقتی می‌خوابن خیلی بامزه‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "best",
+      "was",
+      "bit"
+     ],
+     "suggestion": "So, what was the best bit for you?",
+     "suggestionFa": "خب، بهترین قسمتش برای تو چی بود؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "The best bit was the earthquake room.",
+   "translations": {
+    "fa": "بهترین قسمت اتاق زلزله بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "supermarket",
+      "earthquakes",
+      "earthquake",
+      "shakes",
+      "iran"
+     ],
+     "suggestion": "The earthquake room! The supermarket one that shakes. Do you get earthquakes in Iran?",
+     "suggestionFa": "اتاق زلزله! همون سوپرمارکتی که تکون می‌خوره. تو ایران زلزله میاد؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes, sometimes. Tehran is near a fault line.",
+   "translations": {
+    "fa": "آره، گاهی. تهران نزدیک یه گسله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surprised",
+      "didn't",
+      "today",
+      "most",
+      "know"
+     ],
+     "suggestion": "Wow. I didn't know that. What surprised you most today?",
+     "suggestionFa": "واو. نمی‌دونستم. امروز چی بیشتر از همه غافلگیرت کرد؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I didn't expect it to be free!",
+   "translations": {
+    "fa": "انتظار نداشتم مجانی باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "museums",
+      "history",
+      "there",
+      "full",
+      "free"
+     ],
+     "suggestion": "Free, and full of history. In Iran, are there big museums too?",
+     "suggestionFa": "مجانی، و پر از تاریخ. تو ایران هم موزه‌های بزرگ هست؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes! The National Museum in Tehran is amazing.",
+   "translations": {
+    "fa": "آره! موزهٔ ملی تهران فوق‌العاده‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whole",
+      "guide",
+      "love",
+      "city",
+      "i'd"
+     ],
+     "suggestion": "The whole city? I'd love to see that one day. You can be our guide!",
+     "suggestionFa": "کل شهر؟ دوست دارم یه روز ببینمش. تو می‌تونی راهنمامون باشی!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I'd love that! You'd all love Isfahan.",
+   "translations": {
+    "fa": "خیلی دوست دارم! همه‌تون عاشق اصفهان میشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dinosaurs",
+      "nicola's",
+      "william",
+      "nicola",
+      "gently"
+     ],
+     "suggestion": "No dinosaurs? Then Nicola's not coming. Ha! Shh, next stop is ours. You take William, I'll take Nicola. Gently…",
+     "suggestionFa": "دایناسور نیست؟ پس نیکولا نمیاد. ها! هیس، ایستگاه بعدی مال ماست. تو ویلیام را بغل کن، من نیکولا را. آروم…",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

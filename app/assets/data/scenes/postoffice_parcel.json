@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "send",
       "like",
+      "send",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -34,8 +34,8 @@
      "keywords": [
       "stamps",
       "could",
-      "have",
-      "some"
+      "some",
+      "have"
      ],
      "suggestion": "Could I have some stamps, please?",
      "suggestionFa": "می‌شه چند تا تمبر بگیرم، لطفاً؟",
@@ -111,8 +111,8 @@
     {
      "keywords": [
       "clothes",
-      "some",
-      "book"
+      "book",
+      "some"
      ],
      "suggestion": "Some clothes and a book.",
      "suggestionFa": "چند تا لباس و یه کتاب.",
@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
-      "there's",
       "perfume",
       "problem",
+      "there's",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "much",
       "cost",
+      "will",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "heavy",
-      "price"
+      "price",
+      "heavy"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "pounds",
-      "write",
-      "value"
+      "value",
+      "write"
      ],
      "suggestion": "Do I write the value in pounds?",
      "suggestionFa": "ارزش را به پوند بنویسم؟",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "first",
       "could",
+      "first",
       "time",
       "help"
      ],
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
-      "need",
+      "else",
       "done",
-      "else"
+      "need"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "number",
-      "please"
+      "please",
+      "number"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",
@@ -421,8 +421,8 @@
     {
      "keywords": [
       "instead",
-      "email",
-      "could"
+      "could",
+      "email"
      ],
      "suggestion": "Could you email it to me instead?",
      "suggestionFa": "می‌شه به جاش ایمیلش کنید؟",
