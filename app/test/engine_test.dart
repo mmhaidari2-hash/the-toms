@@ -42,8 +42,8 @@ ContentBundle load() {
 void main() {
   final c = load();
 
-  test('content integrity: six characters, every branch target exists', () {
-    expect(c.characters.where((e) => e.family).map((e) => e.id), ['tom', 'leslie', 'william', 'nicola', 'ryan', 'weda']);
+  test('content integrity: seven family characters, every branch target exists', () {
+    expect(c.characters.where((e) => e.family).map((e) => e.id), ['tom', 'leslie', 'william', 'nicola', 'ryan', 'weda', 'george']);
     for (final s in c.scenes.values) {
       expect(s.nodes.containsKey(s.start), isTrue);
       for (final n in s.nodes.values) {
