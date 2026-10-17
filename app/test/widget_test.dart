@@ -18,7 +18,21 @@ void main() {
     for (var i = 0; i < 40 && find.text('The Toms').evaluate().isEmpty; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 250))); await t.pump(const Duration(milliseconds: 100)); }
     await t.pump(const Duration(milliseconds: 500));
     expect(find.text('The Toms'), findsOneWidget);
+    // Decluttered home: the map + one big Continue button; the old home lives behind the menu at /family.
+    expect(find.byKey(const ValueKey('continue')), findsOneWidget);
+    expect(find.byKey(const ValueKey('pin-home')), findsOneWidget);
+    expect(find.text('Play'), findsNothing);
+    await t.tap(find.byKey(const ValueKey('menu')));
+    await t.pump(const Duration(milliseconds: 600));
+    expect(find.byKey(const ValueKey('menu-/howto')), findsOneWidget);
+    expect(t.takeException(), isNull);
+    Navigator.of(t.element(find.byKey(const ValueKey('menu-/howto')))).pop();
+    await t.pump(const Duration(milliseconds: 600));
+    router.go('/family');
+    for (var i = 0; i < 20 && find.text('Play').evaluate().isEmpty; i++) { await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200))); await t.pump(const Duration(milliseconds: 100)); }
     expect(find.text('Play'), findsOneWidget);
+    router.go('/');
+    await t.pump(const Duration(seconds: 1));
   });
 
   // Real metrics (the default test font is a wide box font that fakes overflows).
@@ -41,7 +55,7 @@ void main() {
       router.go('/');
       await t.runAsync(() => Future.delayed(const Duration(milliseconds: 300)));
       await t.pump(const Duration(seconds: 2));
-      for (final r in ['/', '/diary', '/onboarding', '/course', for (final pk in jsonDecode(File('assets/data/course.json').readAsStringSync())['packs'] ?? []) ...['/pack/${pk['id']}', for (final u in pk['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']]], for (final u in jsonDecode(File('assets/data/course.json').readAsStringSync())['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']], for (final t in jsonDecode(File('assets/data/places.json').readAsStringSync())) for (final p in t['places']) '/place/${p['id']}', for (final id in jsonDecode(File('assets/data/scenes_index.json').readAsStringSync())) '/chat/$id']) {
+      for (final r in ['/', '/family', '/placement', '/howto', '/diary', '/onboarding', '/course', for (final pk in jsonDecode(File('assets/data/course.json').readAsStringSync())['packs'] ?? []) ...['/pack/${pk['id']}', for (final u in pk['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']]], for (final u in jsonDecode(File('assets/data/course.json').readAsStringSync())['units']) ...['/practice/${u['id']}', for (final l in u['lessons']) ...['/lesson/${l['id']}', '/practice/${l['id']}']], for (final t in jsonDecode(File('assets/data/places.json').readAsStringSync())) for (final p in t['places']) '/place/${p['id']}', for (final id in jsonDecode(File('assets/data/scenes_index.json').readAsStringSync())) '/chat/$id']) {
         router.go(r);
         await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200)));
         await t.pump(const Duration(seconds: 3));

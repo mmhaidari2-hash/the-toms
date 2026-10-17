@@ -92,6 +92,11 @@ class ProgressController extends Notifier<UserProgress> {
     _save();
   }
 
+  void setStartTier(int tier) {
+    state = state.copyWith(startTier: tier);
+    _save();
+  }
+
   void setLang(String lang) {
     state = state.copyWith(lang: lang);
     _save();

@@ -11,6 +11,8 @@ import 'package:british_life/core/models/place.dart';
 import 'package:british_life/core/engine/connected_speech.dart';
 import 'package:british_life/core/engine/recast_engine.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:british_life/features/map/map_home.dart' show mapRegions, mapImage;
+import 'package:british_life/features/onboarding/placement_screen.dart' show placementResult;
 
 import 'package:british_life/features/place/place_screen.dart' show hitTest;
 
@@ -110,6 +112,42 @@ void main() {
     }
     expect(bad, isEmpty, reason: bad.take(20).join('\n'));
     expect(lessonIds.every(c.scenes.containsKey), isTrue);
+  });
+
+  test('placement test: every level has listening items with audio + a choice item; answers are among choices', () {
+    final pj = j('assets/data/placement.json');
+    final idx = (j('assets/audio/index.json') as List).cast<String>().toSet();
+    for (var lv = 1; lv <= 5; lv++) {
+      final its = [for (final i in pj['items']) if (i['level'] == lv) i];
+      expect(its.where((i) => i['type'] == 'listen').length, greaterThanOrEqualTo(2), reason: 'level $lv');
+      expect(its.where((i) => i['type'] == 'choice'), isNotEmpty, reason: 'level $lv');
+      for (final i in its) {
+        expect(List<String>.from(i['choices']), contains(i['answer']));
+        expect(List<String>.from(i['choices']).toSet().length, i['choices'].length);
+        if (i['type'] == 'listen') {
+          expect(idx.contains(md5.convert(utf8.encode('${i['speaker']}|${i['text']}')).toString().substring(0, 16)), isTrue, reason: i['text']);
+          expect((i['choicesFa'] as List).length, i['choices'].length);
+        }
+      }
+    }
+    final sp = pj['speak'];
+    expect(idx.contains(md5.convert(utf8.encode('${sp['speaker']}|${sp['text']}')).toString().substring(0, 16)), isTrue);
+    expect(placementResult([true, true, false, null, null]), 2);
+    expect(placementResult([false]), 1);
+    expect(placementResult([true, true, true, true, true]), 5);
+  });
+
+  test('map: one region per course level (1-5) + each Career Pack, tap areas inside the map', () {
+    expect({for (final r in mapRegions) if (r.level != null) r.level}, {1, 2, 3, 4, 5});
+    for (final pk in c.course.packs) {
+      expect(mapRegions.where((r) => r.pack == pk.id), isNotEmpty, reason: pk.id);
+    }
+    expect(File(mapImage).existsSync(), isTrue);
+    for (final r in mapRegions) {
+      for (final rc in r.rects) {
+        expect(rc[0] >= 0 && rc[1] >= 0 && rc[0] + rc[2] <= 1.001 && rc[1] + rc[3] <= 1.001, isTrue, reason: r.id);
+      }
+    }
   });
 
   test('career packs: every lesson wired, every line + reply + word + note has Persian, every line has audio', () {

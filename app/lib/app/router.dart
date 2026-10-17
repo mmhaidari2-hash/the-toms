@@ -1,3 +1,6 @@
+import '../features/map/map_home.dart';
+import '../features/onboarding/placement_screen.dart';
+import '../features/onboarding/howto.dart';
 import '../features/course/course_screen.dart';
 import '../features/course/lesson_screen.dart';
 import '../features/course/practice_screen.dart';
@@ -25,7 +28,10 @@ CustomTransitionPage<void> _fade(Widget child, GoRouterState s) => CustomTransit
 
 final router = GoRouter(
   routes: [
-    GoRoute(path: '/', pageBuilder: (_, s) => _fade(const HomeScreen(), s)),
+    GoRoute(path: '/', pageBuilder: (_, s) => _fade(const MapHome(), s)),
+    GoRoute(path: '/family', pageBuilder: (_, s) => _fade(const HomeScreen(), s)),
+    GoRoute(path: '/placement', pageBuilder: (_, s) => _fade(const PlacementScreen(), s)),
+    GoRoute(path: '/howto', pageBuilder: (_, s) => _fade(const HowToScreen(), s)),
     GoRoute(path: '/onboarding', pageBuilder: (_, s) => _fade(const OnboardingScreen(), s)),
     GoRoute(path: '/diary', pageBuilder: (_, s) => _fade(const DiaryScreen(), s)),
     GoRoute(

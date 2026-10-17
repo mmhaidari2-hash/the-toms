@@ -1,0 +1,250 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+
+import '../../app/theme.dart';
+import '../../core/data/providers.dart';
+import '../../core/data/repository.dart';
+import '../shared/widgets.dart';
+
+/// A region of the painted roadmap. [rects] are normalised (x, y, w, h) tap areas on map.webp.
+class MapRegion {
+  final String id, title, titleFa, sub;
+  final int? level; // course level it opens (null = Career Pack)
+  final String? pack;
+  final Offset pin; // label anchor (normalised)
+  final List<List<double>> rects;
+  const MapRegion(this.id, this.title, this.titleFa, this.sub, this.pin, this.rects, {this.level, this.pack});
+}
+
+const mapImage = 'assets/places/map.webp';
+const mapAspect = 1280 / 720;
+
+const mapRegions = [
+  MapRegion('home', 'Home', 'خانه', 'Level 1 · A0→A1', Offset(.48, .58), [[.36, .55, .24, .40]], level: 1),
+  MapRegion('neighbourhood', 'Neighbourhood', 'محله', 'Level 2 · A1→A2', Offset(.84, .56), [[.66, .48, .33, .44], [.17, .52, .18, .2]], level: 2),
+  MapRegion('highstreet', 'High Street', 'خیابان اصلی', 'Level 3 · A2→B1', Offset(.53, .40), [[.28, .36, .46, .19]], level: 3),
+  MapRegion('town', 'Town centre', 'مرکز شهر', 'Level 4 · B1→B2', Offset(.30, .21), [[.03, .14, .95, .22]], level: 4),
+  MapRegion('city', 'The city', 'شهر بزرگ', 'Level 5 · B2→C1', Offset(.55, .06), [[.12, .0, .86, .14]], level: 5),
+  MapRegion('nursery', "Vida's Nursery", 'مهدکودک ویدا', 'Career Pack · Premium', Offset(.11, .5), [[.02, .47, .15, .18]], pack: 'nursery'),
+];
+
+/// Is a map region open for this learner? Level regions follow the course gating; packs are unlocked for now.
+bool regionOpen(ProgressController ctrl, Course course, MapRegion r) {
+  if (r.pack != null) return course.pack(r.pack!)?.unlocked ?? false;
+  final i = course.units.indexWhere((u) => u.level == r.level);
+  return i >= 0 && ctrl.unitOpen(course, i);
+}
+
+/// First screen: the painted map of home → neighbourhood → town, one big Continue button, everything else in the menu.
+class MapHome extends ConsumerStatefulWidget {
+  const MapHome({super.key});
+  @override
+  ConsumerState<MapHome> createState() => _MapHomeState();
+}
+
+class _MapHomeState extends ConsumerState<MapHome> {
+  final _scroll = ScrollController();
+  bool _centred = false;
+
+  void _open(MapRegion r, ContentBundle c) {
+    final ctrl = ref.read(progressProvider.notifier);
+    if (!regionOpen(ctrl, c.course, r)) {
+      final need = r.level ?? 1;
+      ScaffoldMessenger.of(context).hideCurrentSnackBar();
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        behavior: SnackBarBehavior.floating,
+        duration: const Duration(seconds: 3),
+        // Float above the Continue button so it never covers it.
+        margin: EdgeInsets.fromLTRB(16, 0, 16, MediaQuery.paddingOf(context).bottom + 100),
+        content: Text('${r.title} opens at Level $need. Finish Level ${need - 1} — or take the placement test.'),
+        action: SnackBarAction(label: 'Test', onPressed: () => context.push('/placement')),
+      ));
+      return;
+    }
+    ScaffoldMessenger.of(context).hideCurrentSnackBar();
+    context.push(r.pack != null ? '/pack/${r.pack}' : '/course?level=${r.level}');
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final async = ref.watch(contentProvider);
+    final p = ref.watch(progressProvider);
+    final ctrl = ref.read(progressProvider.notifier);
+    if (!p.onboarded) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (context.mounted) context.go('/onboarding');
+      });
+    }
+    final c = async.value;
+    final pad = MediaQuery.paddingOf(context);
+    if (c == null) {
+      return Scaffold(backgroundColor: BL.ink, body: Center(child: async.hasError ? FilledButton(onPressed: () => ref.invalidate(contentProvider), child: const Text('Try again')) : const CircularProgressIndicator(color: BL.gold)));
+    }
+    final next = ctrl.nextLesson(c.course);
+    final nu = next == null ? null : c.course.unitOf(next.id);
+    return Scaffold(
+      backgroundColor: BL.ink,
+      body: LayoutBuilder(builder: (context, box) {
+        final h = box.maxHeight, w = h * mapAspect;
+        if (!_centred) {
+          _centred = true;
+          final lv = nu?.level ?? 1;
+          final r = mapRegions.firstWhere((r) => r.level == lv);
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            if (_scroll.hasClients) _scroll.jumpTo((r.pin.dx * w - box.maxWidth / 2).clamp(0, _scroll.position.maxScrollExtent));
+          });
+        }
+        return Stack(children: [
+          SingleChildScrollView(
+            key: const ValueKey('map-scroll'),
+            controller: _scroll,
+            scrollDirection: Axis.horizontal,
+            physics: const ClampingScrollPhysics(),
+            child: SizedBox(
+              width: w,
+              height: h,
+              child: Stack(children: [
+                Positioned.fill(child: Image.asset(mapImage, fit: BoxFit.cover)),
+                for (final r in mapRegions)
+                  for (final rc in r.rects)
+                    Positioned(
+                      left: rc[0] * w, top: rc[1] * h, width: rc[2] * w, height: rc[3] * h,
+                      child: GestureDetector(key: ValueKey('region-${r.id}-${r.rects.indexOf(rc)}'), behavior: HitTestBehavior.opaque, onTap: () => _open(r, c)),
+                    ),
+                for (final r in mapRegions)
+                  Positioned(
+                    left: r.pin.dx * w - 80, top: r.pin.dy * h, width: 160,
+                    child: Center(child: _Pin(r: r, open: regionOpen(ctrl, c.course, r), here: r.level != null && r.level == nu?.level, onTap: () => _open(r, c))),
+                  ),
+              ]),
+            ),
+          ),
+          // Top bar
+          Positioned(
+            left: 0, right: 0, top: 0,
+            child: IgnorePointer(child: Container(height: pad.top + 84, decoration: const BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Color(0xCC140E0A), Color(0x00140E0A)])))),
+          ),
+          Positioned(
+            left: 20, right: 10, top: pad.top + 10,
+            child: Row(children: [
+              Expanded(child: Text('The Toms', style: BL.display(28, color: Colors.white).copyWith(shadows: const [Shadow(blurRadius: 8, color: Colors.black54)]))),
+              _RoundBtn(key: const ValueKey('menu'), icon: Icons.menu_rounded, onTap: () {
+                ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                showAppMenu(context, ref);
+              }),
+            ]),
+          ),
+          // One big Continue button
+          Positioned(
+            left: 16, right: 16, bottom: pad.bottom + 16,
+            child: Pressable(
+              key: const ValueKey('continue'),
+              onTap: () {
+                ScaffoldMessenger.of(context).hideCurrentSnackBar();
+                context.push(next == null ? '/course' : '/lesson/${next.id}');
+              },
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(16, 12, 12, 12),
+                decoration: BoxDecoration(color: BL.red, borderRadius: BorderRadius.circular(26), boxShadow: BL.shadow(.35)),
+                child: Row(children: [
+                  if (next != null) Avatar(c.character(next.lead), size: 46, ring: false),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+                      Text(nu == null ? 'ALL DONE' : 'CONTINUE · LEVEL ${nu.level} · UNIT ${c.course.numberInLevel(nu)}', style: const TextStyle(color: Color(0xFFFFD9A0), fontSize: 10.5, letterSpacing: 1.3, fontWeight: FontWeight.w800)),
+                      Text(next?.title ?? 'Continue lesson', maxLines: 1, overflow: TextOverflow.ellipsis, style: BL.display(19, color: Colors.white)),
+                    ]),
+                  ),
+                  Container(
+                    width: 46, height: 46,
+                    decoration: const BoxDecoration(color: Color(0xFFFBF3E4), shape: BoxShape.circle),
+                    child: const Icon(Icons.play_arrow_rounded, color: BL.ink, size: 28),
+                  ),
+                ]),
+              ),
+            ),
+          ),
+        ]);
+      }),
+    );
+  }
+}
+
+class _RoundBtn extends StatelessWidget {
+  final IconData icon;
+  final VoidCallback onTap;
+  const _RoundBtn({super.key, required this.icon, required this.onTap});
+  @override
+  Widget build(BuildContext context) => Material(
+    color: Colors.white.withValues(alpha: .92),
+    shape: const CircleBorder(),
+    child: IconButton(onPressed: onTap, icon: Icon(icon, color: BL.ink), tooltip: 'Menu'),
+  );
+}
+
+class _Pin extends StatelessWidget {
+  final MapRegion r;
+  final bool open, here;
+  final VoidCallback onTap;
+  const _Pin({required this.r, required this.open, required this.here, required this.onTap});
+  @override
+  Widget build(BuildContext context) => GestureDetector(
+    key: ValueKey('pin-${r.id}'),
+    onTap: onTap,
+    child: Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: open ? const Color(0xF2FBF3E4) : const Color(0xD9201813),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: here ? BL.red : (open ? BL.gold : Colors.white24), width: here ? 2.2 : 1.2),
+        boxShadow: BL.shadow(.25),
+      ),
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Row(mainAxisSize: MainAxisSize.min, children: [
+          if (!open) const Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.lock_rounded, size: 13, color: Colors.white70)),
+          if (r.pack != null) const Padding(padding: EdgeInsets.only(right: 4), child: Icon(Icons.workspace_premium_rounded, size: 13, color: Color(0xFFC9A04C))),
+          Text(r.title, style: TextStyle(fontWeight: FontWeight.w800, fontSize: 13, color: open ? BL.ink : Colors.white)),
+        ]),
+        Text(open ? r.sub : 'Needs Level ${r.level}', style: TextStyle(fontSize: 10.5, fontWeight: FontWeight.w600, color: open ? BL.muted : Colors.white60)),
+      ]),
+    ),
+  );
+}
+
+/// Everything that used to crowd the home screen.
+void showAppMenu(BuildContext context, WidgetRef ref) {
+  final c = ref.read(contentProvider).value;
+  final items = <(IconData, String, String, String)>[
+    (Icons.route_rounded, 'Course path', 'مسیر درس‌ها', '/course'),
+    (Icons.family_restroom_rounded, 'Family, stories & stats', 'خانواده، داستان‌ها و آمار', '/family'),
+    if (c != null) for (final pk in c.course.packs) (Icons.workspace_premium_rounded, pk.title, pk.titleFa, '/pack/${pk.id}'),
+    (Icons.menu_book_rounded, 'Diary', 'دفتر خاطرات', '/diary'),
+    (Icons.quiz_rounded, 'Placement test', 'آزمون تعیین سطح', '/placement'),
+    (Icons.help_outline_rounded, 'How it works', 'راهنمای برنامه', '/howto'),
+  ];
+  showModalBottomSheet<void>(
+    context: context,
+    backgroundColor: BL.cream,
+    showDragHandle: true,
+    isScrollControlled: true,
+    shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(26))),
+    builder: (sheet) => SafeArea(
+      child: SingleChildScrollView(child: Column(mainAxisSize: MainAxisSize.min, children: [
+        for (final (icon, en, fa, route) in items)
+          ListTile(
+            key: ValueKey('menu-$route'),
+            leading: Icon(icon, color: BL.navy),
+            title: Text(en, style: const TextStyle(fontWeight: FontWeight.w700)),
+            subtitle: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12, color: BL.muted)),
+            trailing: const Icon(Icons.chevron_right_rounded),
+            onTap: () {
+              Navigator.of(sheet).pop();
+              context.push(route);
+            },
+          ),
+        const SizedBox(height: 8),
+      ])),
+    ),
+  );
+}
