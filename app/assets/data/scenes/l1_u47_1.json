@@ -1,0 +1,356 @@
+{
+ "id": "l1_u47_1",
+ "characterId": "weda",
+ "title": "Nana's bath time",
+ "titleFa": "وقت حمام با نانا",
+ "setting": "Nana's corner · Level 1",
+ "settingFa": "گوشهٔ نانا",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Hello, dear! I'm running William's bath. Can you pass me his duck?",
+   "translations": {
+    "fa": "سلام عزیزم! دارم وان ویلیام را پر می‌کنم. اردکش را بهم میدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "duck"
+     ],
+     "suggestion": "Here's the duck.",
+     "suggestionFa": "بفرما اردک.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "water",
+      "hot"
+     ],
+     "suggestion": "Is the water too hot?",
+     "suggestionFa": "آب خیلی داغ نیست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "running a bath",
+     "fa": "پر کردن وان"
+    },
+    {
+     "word": "duck",
+     "fa": "اردک"
+    },
+    {
+     "word": "pass",
+     "fa": "دادن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Good question. I always check with my elbow. Like this. It's just right.",
+   "translations": {
+    "fa": "سؤال خوبیه. من همیشه با آرنجم امتحان می‌کنم. این‌جوری. درست اندازه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "elbow",
+      "why"
+     ],
+     "suggestion": "With your elbow? Why?",
+     "suggestionFa": "با آرنجتون؟ چرا؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "right",
+      "just",
+      "good"
+     ],
+     "suggestion": "Just right. Good.",
+     "suggestionFa": "درست اندازه. خوبه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "check",
+     "fa": "امتحان کردن"
+    },
+    {
+     "word": "elbow",
+     "fa": "آرنج"
+    },
+    {
+     "word": "just right",
+     "fa": "درست اندازه"
+    }
+   ],
+   "cultureNote": {
+    "en": "An old British tip: test a baby's bath with your elbow, which feels heat more than your hand.",
+    "fa": "تست آب با آرنج."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Bath! Splash!",
+   "translations": {
+    "fa": "حموم! شالاپ!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "splashing",
+      "he's"
+     ],
+     "suggestion": "He's splashing!",
+     "suggestionFa": "داره آب می‌پاشه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "getting",
+      "wet"
+     ],
+     "suggestion": "I'm getting wet!",
+     "suggestionFa": "دارم خیس میشم!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "splash",
+     "fa": "آب پاشیدن"
+    },
+    {
+     "word": "wet",
+     "fa": "خیس"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Ha! He's splashing everyone. Can you hand me the baby shampoo? The yellow bottle.",
+   "translations": {
+    "fa": "ها! داره رو همه آب می‌پاشه. شامپوی بچه را میدی؟ بطری زرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "one"
+     ],
+     "suggestion": "This one?",
+     "suggestionFa": "این یکی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weda",
+      "here"
+     ],
+     "suggestion": "Here you are, Weda.",
+     "suggestionFa": "بفرمایید ودا.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shampoo",
+     "fa": "شامپو"
+    },
+    {
+     "word": "bottle",
+     "fa": "بطری"
+    },
+    {
+     "word": "hand",
+     "fa": "دادن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "here you go the shampoo",
+      "here is you are"
+     ],
+     "echo": "Here you are? Thank you, dear.",
+     "better": "Here you are.",
+     "betterFa": "بفرمایید."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Thank you, dear. Now I'm washing his hair. He hates this part. Sing something!",
+   "translations": {
+    "fa": "ممنون عزیزم. حالا دارم موهاش را می‌شورم. از این قسمت متنفره. یه چیزی بخون!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twinkle",
+      "little",
+      "star"
+     ],
+     "suggestion": "Twinkle, twinkle, little star…",
+     "suggestionFa": "چشمک بزن، چشمک بزن، ستارهٔ کوچولو…",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wheels",
+      "round",
+      "bus",
+      "go"
+     ],
+     "suggestion": "The wheels on the bus go round and round!",
+     "suggestionFa": "چرخ‌های اتوبوس می‌چرخن و می‌چرخن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "washing",
+     "fa": "شستن"
+    },
+    {
+     "word": "hair",
+     "fa": "مو"
+    },
+    {
+     "word": "hates",
+     "fa": "متنفر است"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "william",
+   "text": "Bus! Bus! More!",
+   "translations": {
+    "fa": "اتوبوس! اتوبوس! بیشتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "loves",
+      "song",
+      "he"
+     ],
+     "suggestion": "He loves that song.",
+     "suggestionFa": "عاشق این آهنگه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "round"
+     ],
+     "suggestion": "Round and round!",
+     "suggestionFa": "می‌چرخه و می‌چرخه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    },
+    {
+     "word": "round",
+     "fa": "دور"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "You're a star. All done! Now I'm getting the towel. Can you hold him? Careful, he's slippery!",
+   "translations": {
+    "fa": "تو ستاره‌ای. تموم شد! حالا دارم حوله را میارم. می‌تونی نگهش داری؟ مواظب باش، لیزه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "holding",
+      "him"
+     ],
+     "suggestion": "I'm holding him.",
+     "suggestionFa": "گرفتمش.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "like",
+      "fish",
+      "he's"
+     ],
+     "suggestion": "He's like a fish!",
+     "suggestionFa": "مثل ماهیه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "towel",
+     "fa": "حوله"
+    },
+    {
+     "word": "slippery",
+     "fa": "لیز"
+    },
+    {
+     "word": "careful",
+     "fa": "مواظب"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Ha! A little fish. Wrap him up. Lovely. Now pyjamas and bed, little one. Say night night!",
+   "translations": {
+    "fa": "ها! یه ماهی کوچولو. بپیچش. عالی. حالا پیژامه و تخت، کوچولو. بگو شب بخیر!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

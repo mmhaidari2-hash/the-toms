@@ -25,7 +25,7 @@
       "english",
       "class",
       "jump",
-      "get"
+      "how"
      ],
      "suggestion": "Morning! Jump on. So, how do you get to your English class?",
      "suggestionFa": "صبح بخیر! بپر بالا. خب، چطوری میری کلاس انگلیسیت؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "choice",
       "which",
-      "take",
+      "good",
       "best",
-      "good"
+      "take"
      ],
      "suggestion": "Good choice! The best way. Which bus do you take?",
      "suggestionFa": "انتخاب خوبیه! بهترین راه. سوار کدوم اتوبوس میشی؟",
@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
-      "long",
       "take",
-      "bus",
-      "how"
+      "long",
+      "how",
+      "bus"
      ],
      "suggestion": "The 38! My bus! How long does it take?",
      "suggestionFa": "۳۸! اتوبوس من! چقدر طول می‌کشه؟",
@@ -97,9 +97,9 @@
      "keywords": [
       "minutes",
       "forty",
-      "rush",
       "hour",
-      "pay"
+      "rush",
+      "how"
      ],
      "suggestion": "In the rush hour it's forty minutes! How do you pay?",
      "suggestionFa": "ساعت شلوغی چهل دقیقه‌ست! چطوری پرداخت می‌کنی؟",
@@ -124,7 +124,7 @@
       "change",
       "hopper",
       "buses",
-      "fare"
+      "free"
      ],
      "suggestion": "Perfect. And with the Hopper fare, you can change buses for free in an hour.",
      "suggestionFa": "عالی. و با کرایهٔ هاپر، تو یه ساعت می‌تونی مجانی اتوبوس عوض کنی.",
@@ -148,8 +148,8 @@
       "downstairs",
       "upstairs",
       "buses",
-      "fare",
-      "many"
+      "many",
+      "hour"
      ],
      "suggestion": "One fare, many buses, one hour. Do you go upstairs or downstairs?",
      "suggestionFa": "یه کرایه، چند تا اتوبوس، یه ساعت. طبقه بالا میری یا پایین؟",
@@ -197,9 +197,9 @@
      "keywords": [
       "here's",
       "always",
-      "faces",
+      "funny",
       "class",
-      "funny"
+      "faces"
      ],
      "suggestion": "Always the 38! And yes, I can see you. So no funny faces! Here's your stop. Have a good class!",
      "suggestionFa": "همیشه ۳۸! و آره، می‌بینمت. پس شکلک درنیار! ایستگاهت رسید. کلاس خوبی داشته باشی!",

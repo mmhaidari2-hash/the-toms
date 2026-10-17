@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "favourite",
       "daffodils",
+      "favourite",
       "colour",
-      "what's",
-      "yellow"
+      "yellow",
+      "what's"
      ],
      "suggestion": "There are red roses and yellow daffodils. What's your favourite colour?",
      "suggestionFa": "رزهای قرمز و نرگس‌های زرد هست. رنگ محبوبت چیه؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "there's",
       "robin",
-      "bird",
       "tree",
-      "can"
+      "bird",
+      "see"
      ],
      "suggestion": "There's a bird in the tree. Can you see it? It's a robin.",
      "suggestionFa": "یه پرنده روی درخته. می‌بینیش؟ سینه‌سرخه.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "there's",
-      "fence",
       "bench",
       "there",
-      "under"
+      "under",
+      "fence"
      ],
      "suggestion": "There, on the fence. And there's a cat under the bench!",
      "suggestionFa": "اونجا، روی نرده. و یه گربه زیر نیمکته!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
-      "patel's",
       "biscuit",
+      "patel's",
       "that's",
-      "she's",
+      "worry",
       "don't"
      ],
      "suggestion": "That's Mrs Patel's cat, Biscuit. Don't worry, she's too lazy!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "fingers",
-      "called",
       "plants",
+      "called",
       "shall",
-      "water"
+      "green"
      ],
      "suggestion": "I love it. Green fingers, my mum called it. Shall we water the plants?",
      "suggestionFa": "عاشقشم. مادرم بهش می‌گفت «انگشت‌های سبز». به گیاه‌ها آب بدیم؟",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "garden",
+      "happy",
       "looks",
       "there",
-      "happy",
       "dear"
      ],
      "suggestion": "There we are. The garden looks happy now, and so do you, dear.",

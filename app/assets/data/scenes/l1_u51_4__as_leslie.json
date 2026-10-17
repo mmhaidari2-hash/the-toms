@@ -1,0 +1,275 @@
+{
+ "id": "l1_u51_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Feeling better",
+ "titleFa": "(در نقش Leslie) احساس بهتر",
+ "setting": "Under the weather · Level 1",
+ "settingFa": "کسالت",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u51_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "feeling",
+      "better",
+      "look",
+      "good"
+     ],
+     "suggestion": "Good news! William's feeling better. Look at him!",
+     "suggestionFa": "خبر خوب! حال ویلیام بهتره. نگاش کن!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "He's smiling again!",
+   "translations": {
+    "fa": "دوباره داره لبخند می‌زنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yesterday",
+      "thirty",
+      "normal",
+      "point",
+      "nine"
+     ],
+     "suggestion": "Yes! Thirty-six point nine. Normal. He was so hot yesterday.",
+     "suggestionFa": "آره! سی و شش و نه دهم. نرماله. دیروز خیلی داغ بود.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "He's much better than yesterday.",
+   "translations": {
+    "fa": "از دیروز خیلی بهتره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "william",
+   "text": "Ball! Play!",
+   "translations": {
+    "fa": "توپ! بازی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ball",
+     "fa": "توپ"
+    },
+    {
+     "word": "play",
+     "fa": "بازی کردن"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "He wants to play!",
+   "translations": {
+    "fa": "می‌خواد بازی کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "banana",
+      "that's",
+      "eating",
+      "always",
+      "let's"
+     ],
+     "suggestion": "He wants to play — that's always a good sign. Is he eating more? Let's try a banana.",
+     "suggestionFa": "می‌خواد بازی کنه — این همیشه نشونهٔ خوبیه. بیشتر می‌خوره؟ بیا یه موز امتحان کنیم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here's a banana.",
+   "translations": {
+    "fa": "بفرما یه موز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "william",
+   "text": "Nana! More!",
+   "translations": {
+    "fa": "نانا! بیشتر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "more",
+     "fa": "بیشتر"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "He wants more!",
+   "translations": {
+    "fa": "بیشتر می‌خواد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "better",
+      "eating",
+      "banana",
+      "worse"
+     ],
+     "suggestion": "More banana! Brilliant. He's eating better too. And you, Mehdi? Is your cold better or worse?",
+     "suggestionFa": "موز بیشتر! عالی. بهتر هم می‌خوره. و تو {you}؟ سرماخوردگیت بهتره یا بدتر؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "It's better, thanks.",
+   "translations": {
+    "fa": "بهتره، ممنون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "banana",
+      "sorry",
+      "want",
+      "gave"
+     ],
+     "suggestion": "Oh no — I gave it to you! I'm so sorry. Do you want some of William's banana? Ha!",
+     "suggestionFa": "ای وای — من بهت دادمش! خیلی ببخشید. یه کم از موز ویلیام می‌خوای؟ ها!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "No thanks. Tea is better!",
+   "translations": {
+    "fa": "نه ممنون. چای بهتره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doctor's",
+      "tomorrow",
+      "orders",
+      "that's",
+      "group"
+     ],
+     "suggestion": "That's true! Tomorrow he can go back to baby group with Nana. And you can go back to bed. Doctor's orders!",
+     "suggestionFa": "راسته! فردا می‌تونه با نانا برگرده گروه بازی بچه‌ها. و تو می‌تونی برگردی تو تخت. دستور دکتر!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

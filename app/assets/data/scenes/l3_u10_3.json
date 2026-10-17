@@ -20,8 +20,8 @@
     {
      "keywords": [
       "families",
-      "weekends",
       "terrible",
+      "weekends",
       "that's"
      ],
      "suggestion": "That's terrible! Lots of families use it at weekends.",
@@ -140,8 +140,8 @@
      "keywords": [
       "you've",
       "lived",
-      "maybe",
-      "years"
+      "years",
+      "maybe"
      ],
      "suggestion": "Maybe add that you've lived here for years.",
      "suggestionFa": "شاید اضافه کنی که سال‌هاست اینجا زندگی می‌کنی.",
@@ -183,10 +183,10 @@
    "branches": [
     {
      "keywords": [
-      "classes",
       "mention",
       "english",
-      "could"
+      "classes",
+      "there"
      ],
      "suggestion": "You could mention the English classes there.",
      "suggestionFa": "می‌تونی کلاس‌های انگلیسی اونجا را هم بگی.",
@@ -237,10 +237,10 @@
    "branches": [
     {
      "keywords": [
-      "forward",
       "hearing",
-      "from",
-      "look"
+      "forward",
+      "look",
+      "from"
      ],
      "suggestion": "Very. And end with \"I look forward to hearing from you.\"",
      "suggestionFa": "خیلی. و با «منتظر پاسخ شما هستم» تمومش کن.",
@@ -253,7 +253,7 @@
       "volunteer",
       "name",
       "down",
-      "i'd"
+      "put"
      ],
      "suggestion": "I'd volunteer! Put my name down.",
      "suggestionFa": "من داوطلب میشم! اسمم را بنویس.",

@@ -1,0 +1,354 @@
+{
+ "id": "l1_u52_3",
+ "characterId": "ryan",
+ "title": "A broken cup",
+ "titleFa": "فنجان شکسته",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Oh no, no, no! I broke Mum's favourite mug! The one with the cats!",
+   "translations": {
+    "fa": "ای وای، نه، نه! ماگ محبوب مامان را شکستم! اونی که گربه‌ها داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happen",
+      "dear",
+      "did",
+      "how"
+     ],
+     "suggestion": "Oh dear! How did it happen?",
+     "suggestionFa": "ای وای! چطوری شد؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "touch",
+      "don't",
+      "sharp"
+     ],
+     "suggestion": "Don't touch it! It's sharp.",
+     "suggestionFa": "دست نزن! تیزه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broke",
+     "fa": "شکست"
+    },
+    {
+     "word": "mug",
+     "fa": "ماگ ؛ لیوان دسته‌دار"
+    },
+    {
+     "word": "sharp",
+     "fa": "تیز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "It slipped out of my hand. It was an accident! She's going to kill me!",
+   "translations": {
+    "fa": "از دستم لیز خورد. اتفاقی بود! منو می‌کشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "won't",
+      "kill",
+      "she"
+     ],
+     "suggestion": "She won't kill you!",
+     "suggestionFa": "نمی‌کشتت!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "truth",
+      "just",
+      "tell",
+      "her"
+     ],
+     "suggestion": "Just tell her the truth.",
+     "suggestionFa": "فقط حقیقت را بهش بگو.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slipped",
+     "fa": "لیز خورد"
+    },
+    {
+     "word": "accident",
+     "fa": "اتفاق ؛ تصادف"
+    },
+    {
+     "word": "truth",
+     "fa": "حقیقت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "First, help me pick it up. Careful. Get the dustpan and brush.",
+   "translations": {
+    "fa": "اول کمکم کن جمعش کنم. با احتیاط. خاک‌انداز و جارو را بیار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dustpan",
+      "here's"
+     ],
+     "suggestion": "Here's the dustpan.",
+     "suggestionFa": "بفرما خاک‌انداز.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "newspaper",
+      "pieces",
+      "put",
+      "big"
+     ],
+     "suggestion": "Put the big pieces in newspaper.",
+     "suggestionFa": "تیکه‌های بزرگ را تو روزنامه بذار.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pick up",
+     "fa": "جمع کردن"
+    },
+    {
+     "word": "dustpan and brush",
+     "fa": "خاک‌انداز و جارو"
+    },
+    {
+     "word": "pieces",
+     "fa": "تکه‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Good idea. OK, she's coming. What do I say?",
+   "translations": {
+    "fa": "فکر خوبیه. خب، داره میاد. چی بگم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "sorry",
+      "mum"
+     ],
+     "suggestion": "Say \"I'm really sorry, Mum.\"",
+     "suggestionFa": "بگو «واقعاً متأسفم مامان.»",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "accident",
+      "was"
+     ],
+     "suggestion": "Say \"It was an accident.\"",
+     "suggestionFa": "بگو «اتفاقی بود.»",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "sorry",
+     "fa": "متأسف"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "What was that noise? Oh… my cat mug.",
+   "translations": {
+    "fa": "این صدا چی بود؟ آه… ماگ گربه‌ایم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "ryan",
+      "say",
+      "has"
+     ],
+     "suggestion": "Ryan has something to say.",
+     "suggestionFa": "رایان یه چیزی می‌خواد بگه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "accident",
+      "leslie",
+      "was"
+     ],
+     "suggestion": "It was an accident, Leslie.",
+     "suggestionFa": "اتفاقی بود لزلی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "noise",
+     "fa": "صدا ؛ سروصدا"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Mum, I'm really, really sorry. It slipped. I'll buy you a new one.",
+   "translations": {
+    "fa": "مامان، واقعاً واقعاً متأسفم. لیز خورد. یه نو برات می‌خرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "sorry",
+      "he's"
+     ],
+     "suggestion": "He's really sorry.",
+     "suggestionFa": "واقعاً متأسفه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carefully",
+      "cleaned",
+      "up",
+      "he"
+     ],
+     "suggestion": "He cleaned it up carefully.",
+     "suggestionFa": "با دقت تمیزش کرد.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slipped",
+     "fa": "لیز خورد"
+    },
+    {
+     "word": "new one",
+     "fa": "یکی نو"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i am sorry for broke",
+      "sorry for i broken it"
+     ],
+     "echo": "You're sorry you broke it? I know.",
+     "better": "I'm sorry I broke it.",
+     "betterFa": "متأسفم که شکستمش."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Thank you for telling me, Ryan. And for cleaning up. It's only a mug. Accidents happen.",
+   "translations": {
+    "fa": "ممنون که بهم گفتی رایان. و که تمیزش کردی. فقط یه ماگه. اتفاق پیش میاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "isn't",
+      "angry",
+      "see",
+      "she"
+     ],
+     "suggestion": "See? She isn't angry.",
+     "suggestionFa": "دیدی؟ عصبانی نیست.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "that's",
+      "kind"
+     ],
+     "suggestion": "That's kind, Leslie.",
+     "suggestionFa": "لطف داری لزلی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "telling",
+     "fa": "گفتن"
+    },
+    {
+     "word": "angry",
+     "fa": "عصبانی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "But you can buy me a new one. With your Saturday money! Cats, please. Big cats!",
+   "translations": {
+    "fa": "ولی می‌تونی یه نو برام بخری. با پول کار شنبه‌ت! گربه‌دار، لطفاً. گربه‌های بزرگ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

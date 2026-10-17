@@ -1,0 +1,361 @@
+{
+ "id": "l1_u54_4",
+ "characterId": "tom",
+ "title": "Happy New Year",
+ "titleFa": "سال نو مبارک",
+ "setting": "Holiday words · Level 1",
+ "settingFa": "واژه‌های تعطیلات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Two minutes to midnight! Everybody, get your drinks! The fireworks are on the telly!",
+   "translations": {
+    "fa": "دو دقیقه به نیمه‌شب! همه، نوشیدنی‌هاتون را بردارید! آتش‌بازی تو تلویزیونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "juice",
+      "i've",
+      "got"
+     ],
+     "suggestion": "I've got my juice!",
+     "suggestionFa": "آبمیوه‌م را دارم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fireworks",
+      "where"
+     ],
+     "suggestion": "Where are the fireworks?",
+     "suggestionFa": "آتش‌بازی کجاست؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "midnight",
+     "fa": "نیمه‌شب"
+    },
+    {
+     "word": "fireworks",
+     "fa": "آتش‌بازی"
+    },
+    {
+     "word": "drinks",
+     "fa": "نوشیدنی‌ها"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "By the river, at Big Ben. Millions of people watch it. Ten seconds! Count with me!",
+   "translations": {
+    "fa": "کنار رودخونه، کنار بیگ بن. میلیون‌ها نفر نگاش می‌کنن. ده ثانیه! با من بشمرید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eight",
+      "nine",
+      "ten"
+     ],
+     "suggestion": "Ten, nine, eight…",
+     "suggestionFa": "ده، نه، هشت…",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "three",
+      "one",
+      "two"
+     ],
+     "suggestion": "Three, two, one…",
+     "suggestionFa": "سه، دو، یک…",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "river",
+     "fa": "رودخانه"
+    },
+    {
+     "word": "millions",
+     "fa": "میلیون‌ها"
+    },
+    {
+     "word": "count",
+     "fa": "شمردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "On New Year's Eve, London's fireworks over the Thames start when Big Ben strikes midnight.",
+    "fa": "آتش‌بازی سال نو لندن."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "HAPPY NEW YEAR! Happy New Year, love! Happy New Year, {you}!",
+   "translations": {
+    "fa": "سال نو مبارک! سال نو مبارک عزیزم! سال نو مبارک {you}!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tom"
+     ],
+     "suggestion": "Happy New Year, Tom!",
+     "suggestionFa": "سال نو مبارک تام!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone"
+     ],
+     "suggestion": "Happy New Year, everyone!",
+     "suggestionFa": "سال نو مبارک به همه!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "New Year",
+     "fa": "سال نو"
+    },
+    {
+     "word": "everyone",
+     "fa": "همه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Now — New Year's resolutions! What are you going to do this year?",
+   "translations": {
+    "fa": "حالا — تصمیم‌های سال نو! امسال می‌خوای چی کار کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "english",
+      "better",
+      "speak"
+     ],
+     "suggestion": "I'm going to speak better English.",
+     "suggestionFa": "می‌خوام بهتر انگلیسی حرف بزنم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "find",
+      "job"
+     ],
+     "suggestion": "I'm going to find a job.",
+     "suggestionFa": "می‌خوام یه کار پیدا کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "resolutions",
+     "fa": "تصمیم‌های سال نو"
+    },
+    {
+     "word": "going to",
+     "fa": "قصد داشتن"
+    },
+    {
+     "word": "job",
+     "fa": "کار"
+    }
+   ],
+   "cultureNote": {
+    "en": "New Year's resolutions are promises to yourself — like doing more exercise. Most are forgotten by February!",
+    "fa": "تصمیم‌های سال نو."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i will going to speak",
+      "i going to find job"
+     ],
+     "echo": "You're going to find a job? Brilliant!",
+     "better": "I'm going to find a job.",
+     "betterFa": "می‌خوام یه کار پیدا کنم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Brilliant! Mine is… I'm going to tell fewer jokes.",
+   "translations": {
+    "fa": "عالی! مال من… می‌خوام کمتر جوک بگم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jokes",
+      "love",
+      "tom",
+      "we"
+     ],
+     "suggestion": "No, Tom! We love your jokes!",
+     "suggestionFa": "نه تام! ما عاشق جوک‌هاتیم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "good",
+      "one"
+     ],
+     "suggestion": "That's a good one!",
+     "suggestionFa": "این خوبه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fewer",
+     "fa": "کمتر"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ha! He says that every year. Mine is to drink less coffee.",
+   "translations": {
+    "fa": "ها! هر سال همینو میگه. مال من اینه که کمتر قهوه بخورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "that's",
+      "hard"
+     ],
+     "suggestion": "That's hard, Leslie!",
+     "suggestionFa": "سخته لزلی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "luck",
+      "good"
+     ],
+     "suggestion": "Good luck with that!",
+     "suggestionFa": "موفق باشی!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "less",
+     "fa": "کمتر"
+    },
+    {
+     "word": "coffee",
+     "fa": "قهوه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Now we hold hands and sing \"Auld Lang Syne\". It's Scottish. Nobody knows the words!",
+   "translations": {
+    "fa": "حالا دست همدیگه را می‌گیریم و «اولد لنگ ساین» می‌خونیم. اسکاتلندیه. هیچ‌کس کلماتش را بلد نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "either",
+      "don't",
+      "words",
+      "know"
+     ],
+     "suggestion": "I don't know the words either!",
+     "suggestionFa": "منم کلماتش را بلد نیستم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "just",
+      "then",
+      "hum"
+     ],
+     "suggestion": "Just hum, then!",
+     "suggestionFa": "پس فقط زمزمه کن!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hold hands",
+     "fa": "دست گرفتن"
+    },
+    {
+     "word": "Scottish",
+     "fa": "اسکاتلندی"
+    },
+    {
+     "word": "hum",
+     "fa": "زمزمه کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "At midnight, people cross arms, hold hands and sing \"Auld Lang Syne\", an old Scottish song.",
+    "fa": "آهنگ اولد لنگ ساین."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Perfect! When is your New Year, {you}? Nowruz, in March? Then we can celebrate twice. Two New Years!",
+   "translations": {
+    "fa": "عالی! سال نو تو کیه {you}؟ نوروز، تو مارس؟ پس می‌تونیم دو بار جشن بگیریم. دو تا سال نو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

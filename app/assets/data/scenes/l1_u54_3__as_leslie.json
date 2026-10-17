@@ -1,0 +1,279 @@
+{
+ "id": "l1_u54_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Easter eggs",
+ "titleFa": "(در نقش Leslie) تخم‌مرغ‌های عید پاک",
+ "setting": "Holiday words · Level 1",
+ "settingFa": "واژه‌های تعطیلات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u54_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "garden",
+      "sunday",
+      "easter",
+      "having",
+      "we're"
+     ],
+     "suggestion": "It's Easter Sunday! We're having an egg hunt in the garden. Will you help me hide the eggs?",
+     "suggestionFa": "یکشنبهٔ عید پاکه! تو حیاط تخم‌مرغ‌بازی داریم. کمکم می‌کنی تخم‌مرغ‌ها را قایم کنیم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes! What's an egg hunt?",
+   "translations": {
+    "fa": "آره! تخم‌مرغ‌بازی چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flowerpot",
+      "chocolate",
+      "little",
+      "under",
+      "find"
+     ],
+     "suggestion": "Little chocolate eggs. We hide them, and the kids find them. Put one under that flowerpot.",
+     "suggestionFa": "تخم‌مرغ‌های شکلاتی کوچیک. ما قایمشون می‌کنیم، بچه‌ها پیداشون می‌کنن. یکی زیر اون گلدون بذار.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "One under the flowerpot.",
+   "translations": {
+    "fa": "یکی زیر گلدون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "nicola",
+      "reach",
+      "can't",
+      "high"
+     ],
+     "suggestion": "Yes, in the tree, not too high. Nicola can't reach. And two behind the shed.",
+     "suggestionFa": "آره، تو درخت، نه خیلی بالا. دست نیکولا نمی‌رسه. و دو تا پشت انباری.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Behind the shed. Done!",
+   "translations": {
+    "fa": "پشت انباری. انجام شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twenty",
+      "nicola",
+      "eating",
+      "says",
+      "he's"
+     ],
+     "suggestion": "Twenty. Ten for Nicola, ten for Mia. Ryan says he's \"too old\". But I saw him eating one!",
+     "suggestionFa": "بیست تا. ده تا برای نیکولا، ده تا برای میا. رایان میگه «زیادی بزرگه». ولی دیدم داره یکی می‌خوره!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ha! Nobody is too old for chocolate.",
+   "translations": {
+    "fa": "ها! هیچ‌کس برای شکلات زیادی بزرگ نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "nicola",
+   "text": "Can we start? Can we START? I've got my basket!",
+   "translations": {
+    "fa": "می‌تونیم شروع کنیم؟ می‌تونیم شروع کنیم؟ سبدم را آوردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "start",
+     "fa": "شروع کردن"
+    },
+    {
+     "word": "basket",
+     "fa": "سبد"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ready, steady, go!",
+   "translations": {
+    "fa": "حاضر، آماده، برو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "nicola",
+   "text": "I found one! And another one! There's one behind the shed! Mia, there's one in the tree!",
+   "translations": {
+    "fa": "یکی پیدا کردم! و یکی دیگه! پشت انباری یکی هست! میا، تو درخت یکی هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "another",
+     "fa": "یکی دیگر"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Well done, girls!",
+   "translations": {
+    "fa": "آفرین دخترها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "everyone",
+      "people",
+      "easter",
+      "happy"
+     ],
+     "suggestion": "Too late! Chocolate faces! Ha! Happy Easter, everyone. Do people have chocolate eggs in Iran?",
+     "suggestionFa": "دیر شد! صورت‌های شکلاتی! ها! عید پاک مبارک همه. تو ایران تخم‌مرغ شکلاتی دارید؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "No, but we paint eggs at Nowruz!",
+   "translations": {
+    "fa": "نه، ولی تو نوروز تخم‌مرغ رنگ می‌کنیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "painted",
+      "worlds",
+      "spring",
+      "let's"
+     ],
+     "suggestion": "Painted eggs! Next spring, let's do both — painted eggs AND chocolate eggs. Best of both worlds!",
+     "suggestionFa": "تخم‌مرغ رنگی! بهار بعد، بیا هر دو را انجام بدیم — تخم‌مرغ رنگی و شکلاتی. بهترین هر دو دنیا!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

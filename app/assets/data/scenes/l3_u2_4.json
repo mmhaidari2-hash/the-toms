@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "another",
       "blanket",
+      "another",
       "course",
       "shall"
      ],
@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "feeling",
       "problem",
-      "have",
-      "like"
+      "feeling",
+      "like",
+      "have"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
      "suggestionFa": "مشکلی نیست. چند وقته این‌طوری هستید؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "chicken",
-      "shall",
       "mum's",
+      "shall",
       "soup"
      ],
      "suggestion": "Shall I make my mum's chicken soup?",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "rebook",
+      "course",
       "shall",
       "them"
      ],
@@ -136,8 +136,8 @@
     },
     {
      "keywords": [
-      "visit",
       "would",
+      "visit",
       "like",
       "home"
      ],
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "looked",
       "you've",
-      "worry",
-      "don't"
+      "looked",
+      "don't",
+      "after"
      ],
      "suggestion": "Don't worry. You've looked after me so much.",
      "suggestionFa": "نگران نباشید. شما خیلی از من مراقبت کردید.",
@@ -223,8 +223,8 @@
     {
      "keywords": [
       "help",
-      "here",
-      "want"
+      "want",
+      "here"
      ],
      "suggestion": "Here you are. Do you want help with it?",
      "suggestionFa": "بفرمایید. کمک می‌خواید؟",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "clues",
       "shall",
+      "clues",
       "read"
      ],
      "suggestion": "Shall I read the clues to you?",

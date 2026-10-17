@@ -1,0 +1,333 @@
+{
+ "id": "l1_u46_2",
+ "characterId": "leslie",
+ "title": "Shoes off, please",
+ "titleFa": "لطفاً کفش‌ها را دربیاورید",
+ "setting": "Visitors · Level 1",
+ "settingFa": "مهمان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Hello! Sorry, would you mind taking your shoes off? We've got a new carpet!",
+   "translations": {
+    "fa": "سلام! ببخشید، اشکالی نداره کفشاتون را دربیارید؟ فرش نو داریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "problem",
+      "course"
+     ],
+     "suggestion": "Of course. No problem.",
+     "suggestionFa": "البته. مشکلی نیست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "iran",
+      "we"
+     ],
+     "suggestion": "We always do that in Iran.",
+     "suggestionFa": "ما تو ایران همیشه این کار را می‌کنیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "shoes off",
+     "fa": "کفش‌ها را درآوردن"
+    },
+    {
+     "word": "carpet",
+     "fa": "فرش ؛ موکت"
+    },
+    {
+     "word": "would you mind",
+     "fa": "اشکالی دارد"
+    }
+   ],
+   "cultureNote": {
+    "en": "Some British homes ask guests to take shoes off; others don't. If you're not sure, ask \"Shoes on or off?\"",
+    "fa": "کفش در خانه‌های بریتانیایی."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Really? Always? Tom thinks it's strange. He walks everywhere in his boots!",
+   "translations": {
+    "fa": "واقعاً؟ همیشه؟ تام فکر می‌کنه عجیبه. همه جا با چکمه‌هاش راه میره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "inside",
+      "rude",
+      "iran",
+      "wear"
+     ],
+     "suggestion": "In Iran, it's very rude to wear shoes inside.",
+     "suggestionFa": "تو ایران پوشیدن کفش تو خونه خیلی بی‌ادبیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "carpets",
+      "dirty",
+      "clean"
+     ],
+     "suggestion": "Shoes are dirty. Carpets are clean.",
+     "suggestionFa": "کفش کثیفه. فرش تمیزه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strange",
+     "fa": "عجیب"
+    },
+    {
+     "word": "boots",
+     "fa": "چکمه‌ها"
+    },
+    {
+     "word": "rude",
+     "fa": "بی‌ادبانه"
+    },
+    {
+     "word": "inside",
+     "fa": "داخل"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "That makes sense. Persian carpets are famous! Here, would you like some slippers?",
+   "translations": {
+    "fa": "منطقیه. فرش ایرانی معروفه! بیا، دمپایی می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "feet",
+      "cold"
+     ],
+     "suggestion": "Yes, please. My feet are cold.",
+     "suggestionFa": "آره، لطفاً. پاهام سرده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "socks",
+      "fine"
+     ],
+     "suggestion": "No thanks. Socks are fine.",
+     "suggestionFa": "نه ممنون. جوراب کافیه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "makes sense",
+     "fa": "منطقی است"
+    },
+    {
+     "word": "slippers",
+     "fa": "دمپایی‌ها"
+    },
+    {
+     "word": "socks",
+     "fa": "جوراب‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "khan",
+   "text": "Do you mind if I keep my shoes on, Leslie? My back is still bad. Bending is hard.",
+   "translations": {
+    "fa": "اشکالی نداره کفشم پام بمونه، لزلی؟ کمرم هنوز بده. خم شدن سخته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "khan",
+      "mrs",
+      "let"
+     ],
+     "suggestion": "Let me help you, Mrs Khan.",
+     "suggestionFa": "بذارید کمکتون کنم خانم خان.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "i'll",
+      "down",
+      "sit"
+     ],
+     "suggestion": "Sit down. I'll do it.",
+     "suggestionFa": "بشینید. من انجامش میدم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "keep on",
+     "fa": "به پا نگه داشتن"
+    },
+    {
+     "word": "bending",
+     "fa": "خم شدن"
+    },
+    {
+     "word": "hard",
+     "fa": "سخت"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "do you mind if i keeping",
+      "you mind if i keep?"
+     ],
+     "echo": "Do I mind? Not at all!",
+     "better": "Do you mind if I keep my shoes on?",
+     "betterFa": "اشکالی نداره کفشم پام بمونه؟"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Oh, of course not, Amina! Keep them on. The carpet will survive.",
+   "translations": {
+    "fa": "آه، معلومه که نه آمینا! بذار پات باشه. فرش طوریش نمیشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "leslie",
+      "that's",
+      "kind"
+     ],
+     "suggestion": "That's kind, Leslie.",
+     "suggestionFa": "لطف داری لزلی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "shoes",
+      "where",
+      "put"
+     ],
+     "suggestion": "Where shall I put my shoes?",
+     "suggestionFa": "کفشام را کجا بذارم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "of course not",
+     "fa": "البته که نه"
+    },
+    {
+     "word": "survive",
+     "fa": "دوام آوردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "On the rack by the door. Next to Ryan's smelly trainers. Sorry about those!",
+   "translations": {
+    "fa": "رو جاکفشی کنار در. کنار کتونی‌های بدبوی رایان. بابت اونا ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "smelly",
+      "really",
+      "they",
+      "ha"
+     ],
+     "suggestion": "Ha! They really are smelly.",
+     "suggestionFa": "ها! واقعاً بو میدن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "worse",
+      "seen",
+      "i've"
+     ],
+     "suggestion": "I've seen worse!",
+     "suggestionFa": "بدترش را دیدم!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rack",
+     "fa": "جاکفشی ؛ قفسه"
+    },
+    {
+     "word": "trainers",
+     "fa": "کفش ورزشی"
+    },
+    {
+     "word": "smelly",
+     "fa": "بدبو"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"trainers\", American \"sneakers\".",
+    "fa": "trainers/sneakers."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Ha! Come through. Mind the toys on the floor — Nicola's been busy. Tea's nearly ready!",
+   "translations": {
+    "fa": "ها! بیاید تو. مواظب اسباب‌بازی‌های رو زمین باشید — نیکولا حسابی سرگرم بوده. چای تقریباً آماده‌ست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

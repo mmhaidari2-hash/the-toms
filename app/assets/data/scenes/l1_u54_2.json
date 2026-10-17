@@ -1,0 +1,363 @@
+{
+ "id": "l1_u54_2",
+ "characterId": "ryan",
+ "title": "Presents under the tree",
+ "titleFa": "هدیه‌های زیر درخت",
+ "setting": "Holiday words · Level 1",
+ "settingFa": "واژه‌های تعطیلات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Look at all the presents under the tree! I'm going to find mine.",
+   "translations": {
+    "fa": "این‌همه کادو زیر درخت را ببین! می‌خوام مال خودم را پیدا کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "open",
+      "them",
+      "yet"
+     ],
+     "suggestion": "Don't open them yet!",
+     "suggestionFa": "هنوز بازشون نکن!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "yours",
+      "ones"
+     ],
+     "suggestion": "Which ones are yours?",
+     "suggestionFa": "کدوماش مال توئه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "presents",
+     "fa": "هدیه‌ها"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "yet",
+     "fa": "هنوز"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "I'm only looking! This big one says \"To Ryan, love from Santa\".",
+   "translations": {
+    "fa": "فقط دارم نگاه می‌کنم! این بزرگه نوشته «به رایان، با عشق از طرف بابانوئل»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "santa"
+     ],
+     "suggestion": "Santa? Really?",
+     "suggestionFa": "بابانوئل؟ واقعاً؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think"
+     ],
+     "suggestion": "What do you think it is?",
+     "suggestionFa": "فکر می‌کنی چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Santa",
+     "fa": "بابانوئل"
+    },
+    {
+     "word": "love from",
+     "fa": "با عشق از طرف"
+    }
+   ],
+   "cultureNote": {
+    "en": "British children often call Santa \"Father Christmas\".",
+    "fa": "Father Christmas همان بابانوئل."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Ha! Santa has Mum's handwriting. I think it's a football shirt. Shake it!",
+   "translations": {
+    "fa": "ها! بابانوئل خط مامان را داره. فکر کنم پیراهن فوتباله. تکونش بده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "doesn't",
+      "noise",
+      "make"
+     ],
+     "suggestion": "It doesn't make a noise.",
+     "suggestionFa": "صدا نمیده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clothes",
+      "think",
+      "soft"
+     ],
+     "suggestion": "It's soft. I think it's clothes.",
+     "suggestionFa": "نرمه. فکر کنم لباسه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "handwriting",
+     "fa": "دست‌خط"
+    },
+    {
+     "word": "shake",
+     "fa": "تکان دادن"
+    },
+    {
+     "word": "soft",
+     "fa": "نرم"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "Clothes! Yes! Whose is this little one? It's got your name on it!",
+   "translations": {
+    "fa": "لباس! آره! این کوچیکه مال کیه؟ اسم تو روشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "For me? Really?",
+     "suggestionFa": "برای من؟ واقعاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "from",
+      "who"
+     ],
+     "suggestion": "Who is it from?",
+     "suggestionFa": "از طرف کیه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "whose",
+     "fa": "مال چه کسی"
+    },
+    {
+     "word": "name",
+     "fa": "نام"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "\"To {you}, from Nicola\". She wrapped it herself. Look at all the tape!",
+   "translations": {
+    "fa": "«به {you}، از طرف نیکولا». خودش کادوش کرده. این‌همه چسب را ببین!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticky",
+      "ha"
+     ],
+     "suggestion": "Ha! It's very… sticky.",
+     "suggestionFa": "ها! خیلی… چسبناکه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "kind",
+      "her"
+     ],
+     "suggestion": "That's so kind of her.",
+     "suggestionFa": "خیلی لطف کرده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wrapped",
+     "fa": "کادو کرد"
+    },
+    {
+     "word": "herself",
+     "fa": "خودش"
+    },
+    {
+     "word": "tape",
+     "fa": "چسب نواری"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "When do you open presents in Iran? At Nowruz?",
+   "translations": {
+    "fa": "تو ایران کی کادو باز می‌کنید؟ تو نوروز؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nowruz",
+      "gifts",
+      "we"
+     ],
+     "suggestion": "Yes. At Nowruz, we give money and gifts.",
+     "suggestionFa": "آره. تو نوروز، پول و هدیه میدیم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "people",
+      "older",
+      "new"
+     ],
+     "suggestion": "Older people give children new money.",
+     "suggestionFa": "بزرگ‌ترها به بچه‌ها پول نو میدن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gifts",
+     "fa": "هدیه‌ها"
+    },
+    {
+     "word": "money",
+     "fa": "پول"
+    },
+    {
+     "word": "older",
+     "fa": "بزرگ‌تر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we are give money",
+      "we gives money at nowruz"
+     ],
+     "echo": "You give money at Nowruz? Lucky!",
+     "better": "We give money at Nowruz.",
+     "betterFa": "تو نوروز پول میدیم."
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Money?! I want Nowruz too! Here, we open presents on Christmas morning. Mum says not before seven!",
+   "translations": {
+    "fa": "پول؟! منم نوروز می‌خوام! اینجا صبح کریسمس کادو باز می‌کنیم. مامان میگه نه قبل از ساعت هفت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "that's",
+      "early",
+      "seven"
+     ],
+     "suggestion": "Seven o'clock! That's early!",
+     "suggestionFa": "ساعت هفت! زوده!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "wake",
+      "five",
+      "will"
+     ],
+     "suggestion": "Nicola will wake up at five!",
+     "suggestionFa": "نیکولا ساعت پنج بیدار میشه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Christmas morning",
+     "fa": "صبح کریسمس"
+    },
+    {
+     "word": "early",
+     "fa": "زود"
+    },
+    {
+     "word": "wake up",
+     "fa": "بیدار شدن"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Five? Last year it was half four! Right, put that back. If Mum sees us, no presents for anyone!",
+   "translations": {
+    "fa": "پنج؟ پارسال چهار و نیم بود! خب، اونو بذار سر جاش. اگه مامان ببینه، به هیچ‌کس کادو نمی‌رسه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

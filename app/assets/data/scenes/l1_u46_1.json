@@ -1,0 +1,367 @@
+{
+ "id": "l1_u46_1",
+ "characterId": "tom",
+ "title": "Come in!",
+ "titleFa": "بفرمایید داخل!",
+ "setting": "Visitors · Level 1",
+ "settingFa": "مهمان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Ah, you're here! Come in, come in! And Mrs Khan too. Lovely!",
+   "translations": {
+    "fa": "آه، اومدید! بیاید تو، بیاید تو! و خانم خان هم. عالی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "inviting",
+      "thanks",
+      "tom",
+      "us"
+     ],
+     "suggestion": "Hi, Tom. Thanks for inviting us.",
+     "suggestionFa": "سلام تام. ممنون که دعوتمون کردی.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "hello",
+      "we're",
+      "late"
+     ],
+     "suggestion": "Hello! Sorry we're a bit late.",
+     "suggestionFa": "سلام! ببخشید یه کم دیر کردیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "come in",
+     "fa": "بفرمایید داخل"
+    },
+    {
+     "word": "inviting",
+     "fa": "دعوت کردن"
+    },
+    {
+     "word": "late",
+     "fa": "دیر"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Late? Not at all! Leslie's still in the kitchen. Let me take your coats.",
+   "translations": {
+    "fa": "دیر؟ اصلاً! لزلی هنوز تو آشپزخونه‌ست. بذارید کتاتون را بگیرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thank",
+      "here"
+     ],
+     "suggestion": "Here you are. Thank you.",
+     "suggestionFa": "بفرما. ممنون.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "umbrella",
+      "shall",
+      "where",
+      "put"
+     ],
+     "suggestion": "Where shall I put my umbrella?",
+     "suggestionFa": "چترم را کجا بذارم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take",
+     "fa": "گرفتن"
+    },
+    {
+     "word": "coats",
+     "fa": "کت‌ها"
+    },
+    {
+     "word": "umbrella",
+     "fa": "چتر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "khan",
+   "text": "Thank you, Tom. I brought some samosas. Still warm!",
+   "translations": {
+    "fa": "ممنون تام. یه کم سمبوسه آوردم. هنوز گرمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "amazing",
+      "smell",
+      "they"
+     ],
+     "suggestion": "They smell amazing!",
+     "suggestionFa": "بوشون عالیه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "brought",
+      "sweets",
+      "shop"
+     ],
+     "suggestion": "I brought some sweets from the Persian shop.",
+     "suggestionFa": "منم از مغازهٔ ایرانی شیرینی آوردم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brought",
+     "fa": "آورد"
+    },
+    {
+     "word": "samosas",
+     "fa": "سمبوسه‌ها"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "In Britain it's polite to bring a small gift when you visit: flowers, chocolates, wine or something homemade.",
+    "fa": "هدیهٔ کوچک برای میزبان."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "You shouldn't have! Leslie, they've brought food! Go through to the living room.",
+   "translations": {
+    "fa": "زحمت کشیدید! لزلی، غذا آوردن! بفرمایید به اتاق نشیمن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "way"
+     ],
+     "suggestion": "Which way is it?",
+     "suggestionFa": "از کدوم طرفه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "after",
+      "khan",
+      "mrs"
+     ],
+     "suggestion": "Thank you. After you, Mrs Khan.",
+     "suggestionFa": "ممنون. اول شما خانم خان.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "you shouldn't have",
+     "fa": "زحمت کشیدید (تعارف)"
+    },
+    {
+     "word": "go through",
+     "fa": "رفتن به"
+    },
+    {
+     "word": "living room",
+     "fa": "اتاق نشیمن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"You shouldn't have!\" is a polite way to say thank you for a gift — it doesn't mean \"don't\".",
+    "fa": "تعارف انگلیسی."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "First door on the left. Sit anywhere. Not that chair though — that's George's chair!",
+   "translations": {
+    "fa": "در اول سمت چپ. هر جا خواستید بشینید. ولی اون صندلی نه — اون صندلی جورجه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "where",
+      "sit"
+     ],
+     "suggestion": "Where should I sit?",
+     "suggestionFa": "کجا بشینم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "george",
+      "chair",
+      "own",
+      "his"
+     ],
+     "suggestion": "George has his own chair?",
+     "suggestionFa": "جورج صندلی مخصوص داره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "anywhere",
+     "fa": "هر جا"
+    },
+    {
+     "word": "though",
+     "fa": "ولی ؛ با این حال"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Nobody sits in George's chair! House rule. The sofa's comfy. Make yourselves at home.",
+   "translations": {
+    "fa": "هیچ‌کس رو صندلی جورج نمی‌شینه! قانون خونه. مبل راحته. راحت باشید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "thank",
+      "house"
+     ],
+     "suggestion": "Thank you. Your house is lovely.",
+     "suggestionFa": "ممنون. خونه‌تون قشنگه.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "warm",
+      "here"
+     ],
+     "suggestion": "It's very warm in here.",
+     "suggestionFa": "اینجا خیلی گرمه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "house rule",
+     "fa": "قانون خانه"
+    },
+    {
+     "word": "comfy",
+     "fa": "راحت"
+    },
+    {
+     "word": "make yourself at home",
+     "fa": "راحت باش"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "khan",
+   "text": "Thank you, Tom. It's very cosy. Is that William I can hear?",
+   "translations": {
+    "fa": "ممنون تام. خیلی دنجه. این صدای ویلیامه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "think",
+      "awake"
+     ],
+     "suggestion": "I think he's awake.",
+     "suggestionFa": "فکر کنم بیداره.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "singing"
+     ],
+     "suggestion": "He's singing!",
+     "suggestionFa": "داره آواز می‌خونه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cosy",
+     "fa": "دنج ؛ گرم و نرم"
+    },
+    {
+     "word": "awake",
+     "fa": "بیدار"
+    },
+    {
+     "word": "hear",
+     "fa": "شنیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"cosy\", American \"cozy\".",
+    "fa": "cosy/cozy."
+   }
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Singing! That's my boy. Right, drinks. Tea, coffee, juice? I'll be back in a jiffy!",
+   "translations": {
+    "fa": "آواز! پسر خودمه. خب، نوشیدنی. چای، قهوه، آبمیوه؟ یه چشم به هم زدن برمی‌گردم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

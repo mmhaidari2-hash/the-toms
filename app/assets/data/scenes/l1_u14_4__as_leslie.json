@@ -132,7 +132,7 @@
       "where's",
       "nicola",
       "hair",
-      "dry"
+      "now"
      ],
      "suggestion": "Now dry your hair, Nicola. Where's the hairdryer?",
      "suggestionFa": "حالا موهات را خشک کن نیکولا. سشوار کجاست؟",
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
+      "mirror",
       "socket",
       "behind",
-      "mirror",
       "next",
-      "door"
+      "plug"
      ],
      "suggestion": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",
      "suggestionFa": "آره، کنار آینه‌ست. می‌تونی بزنیش به برق؟ پریز پشت دره.",
@@ -318,8 +318,8 @@
       "pyjamas",
       "nicola",
       "choose",
-      "thank",
-      "clean"
+      "story",
+      "thank"
      ],
      "suggestion": "Clean, dry and in pyjamas! Thank you, love. Now, warm milk and a story. You choose the book, Nicola!",
      "suggestionFa": "تمیز، خشک و با پیژامه! ممنون عزیزم. حالا شیر گرم و یه قصه. تو کتاب را انتخاب کن نیکولا!",

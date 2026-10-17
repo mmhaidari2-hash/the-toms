@@ -1,0 +1,225 @@
+{
+ "id": "l1_u51_3__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Weda) Hot water bottle",
+ "titleFa": "(در نقش Nana Weda) کیسهٔ آب گرم",
+ "setting": "Under the weather · Level 1",
+ "settingFa": "کسالت",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u51_3",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Weda!",
+   "translations": {
+    "fa": "سلام Nana Weda!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chilly",
+      "bottle",
+      "bones",
+      "night",
+      "could"
+     ],
+     "suggestion": "Brrr! It's a chilly night. My old bones are cold. Could you fill my hot water bottle, dear?",
+     "suggestionFa": "بررر! شب سردیه. استخونای پیرم سرده. می‌شه کیسهٔ آب گرمم را پر کنی عزیزم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. Where is it?",
+   "translations": {
+    "fa": "البته. کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knitted",
+      "rubber",
+      "cover",
+      "water",
+      "fill"
+     ],
+     "suggestion": "It's a rubber bag. You fill it with hot water. This one, with the knitted cover.",
+     "suggestionFa": "یه کیسهٔ لاستیکیه. با آب داغ پرش می‌کنی. همین که روکش بافتنی داره.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Did you knit the cover?",
+   "translations": {
+    "fa": "روکشش را خودتون بافتید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knitted",
+      "boiling",
+      "kettle",
+      "don't",
+      "first"
+     ],
+     "suggestion": "Yes, I knitted it! Boil the kettle, but don't use boiling water. Let it cool a bit first.",
+     "suggestionFa": "آره، خودم بافتمش! کتری را جوش بیار، ولی از آب جوش استفاده نکن. اول بذار یه کم خنک بشه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Why not boiling water?",
+   "translations": {
+    "fa": "چرا آب جوش نه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "careful",
+      "boiling",
+      "rubber",
+      "damage",
+      "don't"
+     ],
+     "suggestion": "Boiling water can damage the rubber. And be careful — don't fill it to the top!",
+     "suggestionFa": "آب جوش لاستیک را خراب می‌کنه. و مواظب باش — تا بالا پرش نکن!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "How much water?",
+   "translations": {
+    "fa": "چقدر آب؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squeeze",
+      "thirds",
+      "tight",
+      "screw",
+      "about"
+     ],
+     "suggestion": "About two-thirds full. Then squeeze out the air and screw the top on tight.",
+     "suggestionFa": "حدود دو سوم. بعد هواش را فشار بده بیرون و درش را محکم ببند.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Squeeze the air out. Done.",
+   "translations": {
+    "fa": "هوا را بیرون دادم. تموم شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "lovely",
+      "check",
+      "don't",
+      "burn"
+     ],
+     "suggestion": "Let me check. Perfect! Ooh, lovely and warm. Don't put it on bare skin, it can burn.",
+     "suggestionFa": "بذار ببینم. عالی! اوه، گرم و خوب. رو پوست لخت نذار، ممکنه بسوزونه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That's why it has a cover.",
+   "translations": {
+    "fa": "برای همینه که روکش داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "clever",
+      "thank",
+      "spare",
+      "sheep"
+     ],
+     "suggestion": "Clever you! Thank you, dear. Do you want one too? There's a spare one with a sheep on it.",
+     "suggestionFa": "آفرین به تو! ممنون عزیزم. تو هم یکی می‌خوای؟ یه یدکی هست که روش گوسفنده.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, please! My room is cold.",
+   "translations": {
+    "fa": "آره، لطفاً! اتاقم سرده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "landlord",
+      "heating",
+      "night",
+      "tight",
+      "never"
+     ],
+     "suggestion": "Take the sheep. Your landlord never puts the heating on, I know! Night night, dear. Sleep tight!",
+     "suggestionFa": "گوسفنده را ببر. می‌دونم صاحبخونه‌ت هیچ‌وقت شوفاژ را روشن نمی‌کنه! شب بخیر عزیزم. خوب بخوابی!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Weda! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Weda! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

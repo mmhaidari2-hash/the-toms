@@ -50,7 +50,7 @@
       "nicola",
       "bubble",
       "little",
-      "just"
+      "much"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
      "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "where's",
+      "william",
       "can't",
       "there",
       "see"
@@ -145,10 +145,10 @@
    "branches": [
     {
      "keywords": [
-      "yellow",
       "rubber",
-      "pass",
+      "yellow",
       "duck",
+      "pass",
       "can"
      ],
      "suggestion": "Can you pass me the duck? The yellow rubber duck.",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "towel",
       "floor",
+      "towel",
       "dear",
-      "get",
-      "wet"
+      "wet",
+      "can"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
      "suggestionFa": "ای وای، خیس شدی! و زمین خیسه. یه حوله برای زمین میاری؟",
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "blue",
-      "wash"
+      "like",
+      "hair"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -271,11 +271,11 @@
    "branches": [
     {
      "keywords": [
-      "clever",
       "little",
-      "clean",
+      "clever",
       "isn't",
-      "come"
+      "clean",
+      "time"
      ],
      "suggestion": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",
      "suggestionFa": "زرنگی! حالا تمیز تمیزه. بیا بیرون مرد کوچولو. وقت حموم بهترین وقته، نه؟",

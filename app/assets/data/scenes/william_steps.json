@@ -127,8 +127,8 @@
     },
     {
      "keywords": [
-      "again",
       "never",
+      "again",
       "mind",
       "try"
      ],
@@ -178,8 +178,8 @@
      "keywords": [
       "steps",
       "step",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One step, two steps!",
      "suggestionFa": "یه قدم، دو قدم!",
@@ -214,10 +214,10 @@
    "branches": [
     {
      "keywords": [
-      "three",
       "steps",
-      "done",
-      "well"
+      "three",
+      "well",
+      "done"
      ],
      "suggestion": "Three steps! Well done!",
      "suggestionFa": "سه قدم! آفرین!",
@@ -310,7 +310,7 @@
       "walking",
       "leslie",
       "quick",
-      "he's"
+      "come"
      ],
      "suggestion": "Leslie, come quick! He's walking!",
      "suggestionFa": "لزلی، زود بیا! داره راه میره!",
@@ -366,8 +366,8 @@
     },
     {
      "keywords": [
-      "teddy's",
-      "waiting"
+      "waiting",
+      "teddy's"
      ],
      "suggestion": "Teddy's waiting for you!",
      "suggestionFa": "تدی منتظرته!",

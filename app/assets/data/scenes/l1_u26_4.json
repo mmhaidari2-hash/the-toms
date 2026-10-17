@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "how",
       "was",
+      "how",
       "day"
      ],
      "suggestion": "Yes, how was your day?",
@@ -275,8 +275,8 @@
      "keywords": [
       "today",
       "work",
-      "did",
-      "tom"
+      "tom",
+      "did"
      ],
      "suggestion": "Did you work today, Tom?",
      "suggestionFa": "امروز کار کردی تام؟",
@@ -320,8 +320,8 @@
      "keywords": [
       "perfect",
       "after",
-      "walk",
-      "long"
+      "long",
+      "walk"
      ],
      "suggestion": "Perfect after a long walk!",
      "suggestionFa": "بعد از یه پیاده‌روی طولانی عالیه!",

@@ -112,8 +112,8 @@
     {
      "keywords": [
       "every",
-      "rain",
       "even",
+      "rain",
       "day"
      ],
      "suggestion": "Every day? Even in the rain?",
@@ -124,8 +124,8 @@
     },
     {
      "keywords": [
-      "nicola",
       "that's",
+      "nicola",
       "early"
      ],
      "suggestion": "That's very early, Nicola.",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "better",
-      "house",
-      "small"
+      "small",
+      "house"
      ],
      "suggestion": "A small dog is better for the house.",
      "suggestionFa": "سگ کوچیک برای خونه بهتره.",
@@ -298,8 +298,8 @@
    "branches": [
     {
      "keywords": [
-      "muffin",
       "that's",
+      "muffin",
       "cute"
      ],
      "suggestion": "Muffin! That's a cute name.",
@@ -402,8 +402,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "A goldfish is a good idea.",
      "suggestionFa": "ماهی قرمز فکر خوبیه.",
@@ -439,10 +439,10 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "that's",
-      "good",
-      "deal"
+      "nicola",
+      "deal",
+      "good"
      ],
      "suggestion": "That's a good deal, Nicola!",
      "suggestionFa": "معاملهٔ خوبیه نیکولا!",
@@ -452,8 +452,8 @@
     },
     {
      "keywords": [
-      "thank",
       "daddy",
+      "thank",
       "say"
      ],
      "suggestion": "Say thank you to Daddy!",

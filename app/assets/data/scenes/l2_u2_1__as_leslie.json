@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "parcel",
+      "office",
       "let's",
       "right",
-      "test"
+      "post"
      ],
      "suggestion": "Right, let's test you! You need to post a parcel. How do you ask the way to the post office?",
      "suggestionFa": "خب، بیا امتحانت کنیم! باید یه بسته پست کنی. چطوری راه اداره پست را می‌پرسی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "brits",
       "means",
-      "miss",
+      "find",
       "even",
-      "find"
+      "when"
      ],
      "suggestion": "It means it's easy to find. Brits say it a lot — even when it's very easy to miss!",
      "suggestionFa": "یعنی پیدا کردنش آسونه. بریتانیایی‌ها زیاد می‌گن — حتی وقتی خیلی راحت می‌شه ندیدش!",
@@ -121,10 +121,10 @@
    "branches": [
     {
      "keywords": [
+      "tourist",
       "where's",
       "minutes",
       "station",
-      "tourist",
       "train"
      ],
      "suggestion": "About five minutes on foot. Now you try. I'm a tourist. Where's the train station?",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "brilliant",
-      "round",
       "sorry",
+      "round",
       "here",
       "just"
      ],
@@ -175,7 +175,7 @@
       "natural",
       "office",
       "let's",
-      "come"
+      "post"
      ],
      "suggestion": "You're a natural. Come on, let's actually go to the post office now!",
      "suggestionFa": "تو استعدادشو داری. بیا، حالا واقعاً بریم اداره پست!",

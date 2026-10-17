@@ -76,7 +76,7 @@
       "advance",
       "apply",
       "have",
-      "far"
+      "how"
      ],
      "suggestion": "How far in advance do you have to apply?",
      "suggestionFa": "چقدر زودتر باید درخواست داد؟",
@@ -88,8 +88,8 @@
      "keywords": [
       "tonight",
       "online",
-      "form",
-      "fill"
+      "fill",
+      "form"
      ],
      "suggestion": "I can fill in the form online tonight.",
      "suggestionFa": "امشب می‌تونم فرم را آنلاین پر کنم.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "shared",
-      "people",
       "dishes",
-      "make"
+      "people",
+      "sign"
      ],
      "suggestion": "I'll make a shared list so people can sign up for dishes.",
      "suggestionFa": "یه لیست مشترک درست می‌کنم تا مردم برای غذاها ثبت‌نام کنن.",
@@ -142,8 +142,8 @@
      "keywords": [
       "something",
       "quiche",
-      "isn't",
-      "bring"
+      "bring",
+      "isn't"
      ],
      "suggestion": "Ha! I'll bring something that isn't a quiche.",
      "suggestionFa": "ها! یه چیزی میارم که کیش نباشه.",
@@ -186,7 +186,7 @@
     {
      "keywords": [
       "chairs",
-      "could",
+      "their",
       "front",
       "shade"
      ],

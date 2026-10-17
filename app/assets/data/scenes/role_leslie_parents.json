@@ -33,9 +33,9 @@
     {
      "keywords": [
       "leaves",
-      "house",
       "times",
-      "four"
+      "house",
+      "time"
      ],
      "suggestion": "Four times? He leaves the house on time!",
      "suggestionFa": "چهار بار؟ سر وقت از خونه میره!",
@@ -117,9 +117,9 @@
    "branches": [
     {
      "keywords": [
-      "good",
-      "make",
       "sure",
+      "make",
+      "good",
       "idea"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
@@ -132,8 +132,8 @@
      "keywords": [
       "drives",
       "check",
-      "bus",
-      "his"
+      "his",
+      "tom"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -171,7 +171,7 @@
       "english",
       "that's",
       "about",
-      "good"
+      "hear"
      ],
      "suggestion": "That's good to hear. What about English?",
      "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
@@ -222,7 +222,7 @@
       "football",
       "count",
       "reads",
-      "news"
+      "only"
      ],
      "suggestion": "He only reads football news. Does that count?",
      "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
@@ -233,9 +233,9 @@
     {
      "keywords": [
       "library",
-      "i'll",
       "card",
-      "him"
+      "i'll",
+      "get"
      ],
      "suggestion": "I'll get him a library card.",
      "suggestionFa": "براش کارت کتابخونه می‌گیرم.",
@@ -270,8 +270,8 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "friends",
+      "getting",
       "how's"
      ],
      "suggestion": "How's he getting on with his friends?",
@@ -372,8 +372,8 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "patel",
+      "thank",
       "will",
       "mrs"
      ],

@@ -23,9 +23,9 @@
      "keywords": [
       "ducks",
       "look",
+      "have",
       "food",
-      "pond",
-      "have"
+      "pond"
      ],
      "suggestion": "Look! Ducks! Lots of ducks on the pond! Have you got the bag of food?",
      "suggestionFa": "ببین! اردک! کلی اردک روی برکه! کیسهٔ غذا را آوردی؟",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "seeds",
       "ducks",
+      "seeds",
       "oats",
       "many",
       "how"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "grumpy",
-      "white",
-      "close",
       "don't",
-      "swans"
+      "close",
+      "swans",
+      "white"
      ],
      "suggestion": "And one swan! It's big and white. Swans can be grumpy. Don't get too close!",
      "suggestionFa": "و یه قو! بزرگ و سفیده. قوها ممکنه بداخلاق باشن. خیلی نزدیک نشو!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
+      "babies",
       "eating",
       "little",
-      "babies",
-      "she's",
-      "brown"
+      "brown",
+      "she's"
      ],
      "suggestion": "Yes! Look, the little brown duck is eating. She's got babies!",
      "suggestionFa": "آره! ببین، اردک قهوه‌ای کوچولو داره می‌خوره. بچه داره!",
@@ -173,8 +173,8 @@
      "keywords": [
       "ducklings",
       "called",
-      "ducks",
       "three",
+      "ducks",
       "baby"
      ],
      "suggestion": "One, two, three, four, five! Five ducklings. Baby ducks are called ducklings.",
@@ -199,8 +199,8 @@
       "taught",
       "cygnet",
       "ellis",
-      "food",
-      "gone"
+      "gone",
+      "food"
      ],
      "suggestion": "A cygnet! Mrs Ellis taught us. Oh, the food is all gone.",
      "suggestionFa": "سیگنت! خانم الیس یادمون داد. آه، غذا تموم شد.",

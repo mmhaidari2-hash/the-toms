@@ -19,9 +19,9 @@
    "branches": [
     {
      "keywords": [
-      "coat",
-      "kind",
       "want",
+      "kind",
+      "coat",
       "sure"
      ],
      "suggestion": "Sure. What kind of coat do you want?",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "course",
-      "let's",
       "coats",
+      "let's",
       "look"
      ],
      "suggestion": "Of course. Let's look at the coats.",
@@ -112,8 +112,8 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "idea",
+      "good",
       "her"
      ],
      "suggestion": "Good idea. Ask her.",
@@ -304,8 +304,8 @@
     {
      "keywords": [
       "pounds",
-      "forty",
       "label",
+      "forty",
       "look"
      ],
      "suggestion": "Let me look at the label. It's forty pounds.",
@@ -417,9 +417,9 @@
     },
     {
      "keywords": [
+      "idea",
       "good",
       "cold",
-      "idea",
       "hat"
      ],
      "suggestion": "A hat is a good idea. It's cold.",

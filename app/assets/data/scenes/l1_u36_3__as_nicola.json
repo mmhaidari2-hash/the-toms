@@ -104,10 +104,10 @@
     {
      "keywords": [
       "under",
-      "bush",
-      "ball",
+      "goal",
       "shed",
-      "goal"
+      "ball",
+      "bush"
      ],
      "suggestion": "Your goal is the shed! The ball is under the bush. Can you get it?",
      "suggestionFa": "دروازه‌ت انباریه! توپ زیر بوته‌ست. می‌تونی بیاریش؟",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "pass",
       "kick",
+      "pass",
       "mia",
       "off"
      ],
@@ -212,10 +212,10 @@
     {
      "keywords": [
       "score",
-      "turn",
       "kick",
-      "can",
-      "now"
+      "turn",
+      "now",
+      "can"
      ],
      "suggestion": "Now it's your turn to kick. Can you score?",
      "suggestionFa": "حالا نوبت توئه شوت بزنی. می‌تونی گل بزنی؟",
@@ -292,8 +292,8 @@
       "kicked",
       "please",
       "sorry",
-      "back",
-      "ball"
+      "have",
+      "back"
      ],
      "suggestion": "You go! You kicked it! Say \"Sorry, Mrs Khan, can we have our ball back, please?\"",
      "suggestionFa": "تو برو! تو شوتش کردی! بگو «ببخشید خانم خان، می‌شه توپمون را پس بدید، لطفاً؟»",

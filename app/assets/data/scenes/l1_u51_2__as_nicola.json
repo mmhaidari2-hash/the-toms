@@ -1,0 +1,294 @@
+{
+ "id": "l1_u51_2__as_nicola",
+ "characterId": "weda",
+ "title": "(As Nicola) A tummy ache",
+ "titleFa": "(در نقش Nicola) دل‌درد",
+ "setting": "Under the weather · Level 1",
+ "settingFa": "کسالت",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u51_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "weda",
+   "text": "Oh dear. Nicola's got a tummy ache. She's on the sofa. Can you sit with her?",
+   "translations": {
+    "fa": "ای وای. نیکولا دل‌درد داره. رو مبله. می‌تونی پیشش بشینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tummy ache",
+     "fa": "دل‌درد"
+    },
+    {
+     "word": "sofa",
+     "fa": "مبل"
+    },
+    {
+     "word": "what's wrong",
+     "fa": "چه شده"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Tummy\" is a gentle, childish word for stomach.",
+    "fa": "tummy واژهٔ کودکانهٔ شکم."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Of course. What's wrong, Nicola?",
+   "translations": {
+    "fa": "البته. چی شده نیکولا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hurts",
+      "tummy",
+      "ow"
+     ],
+     "suggestion": "My tummy hurts! Ow!",
+     "suggestionFa": "دلم درد می‌کنه! آخ!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Where does it hurt?",
+   "translations": {
+    "fa": "کجات درد می‌کنه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "middle",
+      "wobbly",
+      "here",
+      "all"
+     ],
+     "suggestion": "Here. In the middle. It's all wobbly.",
+     "suggestionFa": "اینجا. وسطش. همه‌ش قار و قور می‌کنه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What did you eat today?",
+   "translations": {
+    "fa": "امروز چی خوردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "weda",
+   "text": "That's the question! Somebody found the party bags. All ten of them!",
+   "translations": {
+    "fa": "سؤال همینه! یکی کیسه‌های جشن را پیدا کرده. همهٔ ده تاش را!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "party bags",
+     "fa": "کیسه‌های هدیه جشن"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ten party bags?!",
+   "translations": {
+    "fa": "ده تا کیسهٔ جشن؟!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "nana",
+      "only",
+      "will",
+      "five"
+     ],
+     "suggestion": "Only five… or six. Sorry, Nana. Will I be OK?",
+     "suggestionFa": "فقط پنج تا… یا شیش تا. ببخشید نانا. خوب میشم؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes, you'll be fine.",
+   "translations": {
+    "fa": "آره، خوب میشی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "weda",
+   "text": "You'll be fine, pet. Small sips of water. And no more sweets today!",
+   "translations": {
+    "fa": "خوب میشی عزیزم. آب جرعه جرعه. و امروز دیگه آبنبات نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pet",
+     "fa": "عزیزم (محاوره‌ای)"
+    },
+    {
+     "word": "sips",
+     "fa": "جرعه‌ها"
+    },
+    {
+     "word": "blanket",
+     "fa": "پتو"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Here's some water, Nicola.",
+   "translations": {
+    "fa": "بیا یه کم آب نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "circles",
+      "stroke",
+      "please",
+      "fluffy",
+      "tummy"
+     ],
+     "suggestion": "Yes please. The fluffy one. Can you stroke my tummy? Nana does it in circles.",
+     "suggestionFa": "آره لطفاً. پشمالوئه. می‌تونی شکمم را نوازش کنی؟ نانا دایره‌ای این کار را می‌کنه.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Like this? In circles?",
+   "translations": {
+    "fa": "این‌جوری؟ دایره‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "sweets",
+      "don't",
+      "never",
+      "again"
+     ],
+     "suggestion": "A bit better. I don't want ANY sweets. Never again! … Well, maybe next week.",
+     "suggestionFa": "یه کم بهتره. هیچ آبنباتی نمی‌خوام. دیگه هیچ‌وقت! … خب، شاید هفتهٔ بعد.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

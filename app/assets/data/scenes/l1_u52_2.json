@@ -1,0 +1,397 @@
+{
+ "id": "l1_u52_2",
+ "characterId": "leslie",
+ "title": "A grazed knee",
+ "titleFa": "زانوی زخمی",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Oh no! Nicola fell over in the garden. Her knee is bleeding. Can you get the first aid kit?",
+   "translations": {
+    "fa": "ای وای! نیکولا تو حیاط افتاد. زانوش داره خون میاد. می‌تونی جعبهٔ کمک‌های اولیه را بیاری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where"
+     ],
+     "suggestion": "Yes! Where is it?",
+     "suggestionFa": "آره! کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "she",
+      "ok"
+     ],
+     "suggestion": "Is she OK?",
+     "suggestionFa": "خوبه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fell over",
+     "fa": "زمین خورد"
+    },
+    {
+     "word": "bleeding",
+     "fa": "خونریزی"
+    },
+    {
+     "word": "first aid kit",
+     "fa": "جعبهٔ کمک‌های اولیه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "In the top cupboard, the green box. Nicola, sweetie, let me see.",
+   "translations": {
+    "fa": "تو کابینت بالایی، جعبهٔ سبز. نیکولا، عزیزم، بذار ببینم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "here's",
+      "green",
+      "box"
+     ],
+     "suggestion": "Here's the green box.",
+     "suggestionFa": "بفرما جعبهٔ سبز.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "graze",
+      "only"
+     ],
+     "suggestion": "It's only a little graze.",
+     "suggestionFa": "فقط یه خراش کوچیکه.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cupboard",
+     "fa": "کابینت"
+    },
+    {
+     "word": "graze",
+     "fa": "خراش"
+    },
+    {
+     "word": "let me see",
+     "fa": "بگذار ببینم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "It hurts! It's got stones in it! Waaah!",
+   "translations": {
+    "fa": "درد می‌کنه! توش سنگریزه‌ست! واااای!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "brave"
+     ],
+     "suggestion": "You're very brave, Nicola.",
+     "suggestionFa": "خیلی شجاعی نیکولا.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mummy's",
+      "here",
+      "ok"
+     ],
+     "suggestion": "It's OK. Mummy's here.",
+     "suggestionFa": "اشکالی نداره. مامان اینجاست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hurts",
+     "fa": "درد می‌کند"
+    },
+    {
+     "word": "stones",
+     "fa": "سنگریزه‌ها"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "First, we wash it with water. Can you pass me the wipes?",
+   "translations": {
+    "fa": "اول با آب می‌شوریمش. دستمال‌های مرطوب را میدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wipes",
+      "here"
+     ],
+     "suggestion": "Here are the wipes.",
+     "suggestionFa": "بفرما دستمال‌ها.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sting",
+      "will"
+     ],
+     "suggestion": "Will it sting?",
+     "suggestionFa": "می‌سوزه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wash",
+     "fa": "شستن"
+    },
+    {
+     "word": "wipes",
+     "fa": "دستمال‌های مرطوب"
+    },
+    {
+     "word": "sting",
+     "fa": "سوزش داشتن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "It might sting a little. Be brave, Nicola. One, two, three… done!",
+   "translations": {
+    "fa": "شاید یه کم بسوزه. شجاع باش نیکولا. یک، دو، سه… تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "clean",
+      "well",
+      "done",
+      "all"
+     ],
+     "suggestion": "Well done! All clean.",
+     "suggestionFa": "آفرین! همه‌ش تمیز شد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wasn't",
+      "bad"
+     ],
+     "suggestion": "That wasn't so bad!",
+     "suggestionFa": "اون‌قدرا هم بد نبود!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "might",
+     "fa": "ممکن است"
+    },
+    {
+     "word": "clean",
+     "fa": "تمیز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it might stings",
+      "it might to sting"
+     ],
+     "echo": "It might sting? Just a little.",
+     "better": "It might sting a little.",
+     "betterFa": "شاید یه کم بسوزه."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Can I have a plaster? A dinosaur one!",
+   "translations": {
+    "fa": "می‌تونم چسب زخم بزنم؟ یه دایناسوری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plaster",
+      "here's"
+     ],
+     "suggestion": "Here's a dinosaur plaster.",
+     "suggestionFa": "بیا یه چسب زخم دایناسوری.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "want"
+     ],
+     "suggestion": "Which dinosaur do you want?",
+     "suggestionFa": "کدوم دایناسور را می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "plaster",
+     "fa": "چسب زخم"
+    },
+    {
+     "word": "dinosaur",
+     "fa": "دایناسور"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"plaster\", American \"Band-Aid\".",
+    "fa": "plaster/Band-Aid."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "There. Now a kiss to make it better. Better?",
+   "translations": {
+    "fa": "ایناهاش. حالا یه بوس که خوب بشه. بهتر شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "better",
+      "feel",
+      "now"
+     ],
+     "suggestion": "Do you feel better now?",
+     "suggestionFa": "الان بهتری؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "big",
+      "hug"
+     ],
+     "suggestion": "Big hug, Nicola!",
+     "suggestionFa": "بغل گنده نیکولا!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kiss",
+     "fa": "بوس"
+    },
+    {
+     "word": "better",
+     "fa": "بهتر"
+    },
+    {
+     "word": "hug",
+     "fa": "بغل"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Better. Can I have a biscuit? Biscuits make knees better too!",
+   "translations": {
+    "fa": "بهتر. می‌تونم یه بیسکویت بخورم؟ بیسکویت زانو را هم خوب می‌کنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nice",
+      "try",
+      "ha"
+     ],
+     "suggestion": "Ha! Nice try!",
+     "suggestionFa": "ها! تلاش خوبی بود!",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mummy",
+      "ask"
+     ],
+     "suggestion": "Ask Mummy!",
+     "suggestionFa": "از مامان بپرس!",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nice try",
+     "fa": "تلاش خوبی بود"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "leslie",
+   "text": "Just one, for being so brave. And no more running on the patio, OK? Walk, don't run!",
+   "translations": {
+    "fa": "فقط یکی، برای این‌همه شجاعت. و دیگه رو پاسیو ندو، باشه؟ راه برو، ندو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

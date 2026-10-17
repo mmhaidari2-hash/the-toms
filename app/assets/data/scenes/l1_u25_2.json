@@ -160,8 +160,8 @@
     {
      "keywords": [
       "missed",
-      "again",
       "start",
+      "again",
       "one"
      ],
      "suggestion": "You missed one. Start again.",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "laces",
-      "can",
-      "tie"
+      "tie",
+      "can"
      ],
      "suggestion": "Can you tie laces?",
      "suggestionFa": "بند کفش را می‌تونی ببندی؟",
@@ -309,9 +309,9 @@
    "branches": [
     {
      "keywords": [
-      "bunny",
       "loops",
-      "make",
+      "bunny",
+      "ears",
       "like"
      ],
      "suggestion": "Make two loops, like bunny ears.",
@@ -323,9 +323,9 @@
     {
      "keywords": [
       "cross",
+      "over",
       "pull",
-      "them",
-      "over"
+      "them"
      ],
      "suggestion": "Cross them over and pull.",
      "suggestionFa": "ضربدری‌شون کن و بکش.",

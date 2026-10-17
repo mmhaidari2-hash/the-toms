@@ -1,0 +1,225 @@
+{
+ "id": "l1_u53_2__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Posting a card",
+ "titleFa": "(در نقش Leslie) پست کردن کارت",
+ "setting": "At the post office (basics) · Level 1",
+ "settingFa": "در اداره پست (پایه)",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u53_2",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "thursday",
+      "sister",
+      "leeds",
+      "post"
+     ],
+     "suggestion": "I need to post this card to my sister in Leeds. It's her birthday on Thursday!",
+     "suggestionFa": "باید این کارت را برای خواهرم تو لیدز پست کنم. پنجشنبه تولدشه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Is there a postbox near here?",
+   "translations": {
+    "fa": "این نزدیکی صندوق پست هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "postbox",
+      "outside",
+      "address",
+      "write"
+     ],
+     "suggestion": "There's a postbox outside. The red one. Have you got a pen? I need to write the address.",
+     "suggestionFa": "بیرون یه صندوق پست هست. قرمزه. خودکار داری؟ باید آدرس را بنویسم.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Here's a pen.",
+   "translations": {
+    "fa": "بفرما خودکار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "postcode",
+      "envelope",
+      "street",
+      "number",
+      "middle"
+     ],
+     "suggestion": "In the middle of the envelope. Name, house number, street, town and postcode.",
+     "suggestionFa": "وسط پاکت. اسم، شمارهٔ خونه، خیابون، شهر و کد پستی.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "And the stamp goes top right.",
+   "translations": {
+    "fa": "و تمبر بالا سمت راست میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collection",
+      "comes",
+      "look",
+      "time",
+      "case"
+     ],
+     "suggestion": "Yes, on the back. In case it comes back. Ooh, look at the box. What time is the last collection?",
+     "suggestionFa": "آره، پشتش. اگه برگشت. اوه، صندوق را ببین. آخرین جمع‌آوری کیه؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It says 5.30 p.m.",
+   "translations": {
+    "fa": "نوشته پنج و نیم بعدازظهر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collection",
+      "postman",
+      "o'clock",
+      "empties",
+      "before"
+     ],
+     "suggestion": "When the postman empties the box. It's four o'clock now. We're before the last collection.",
+     "suggestionFa": "وقتی پستچی صندوق را خالی می‌کنه. الان ساعت چهاره. قبل از آخرین جمع‌آوری هستیم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Great. It goes today, then.",
+   "translations": {
+    "fa": "عالی. پس امروز میره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesday",
+      "thursday",
+      "quicker",
+      "second",
+      "arrive"
+     ],
+     "suggestion": "It should arrive on Wednesday or Thursday. First class is quicker, but this has a second-class stamp.",
+     "suggestionFa": "باید چهارشنبه یا پنجشنبه برسه. درجه یک سریع‌تره، ولی این تمبر درجه دو داره.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Second class is fine.",
+   "translations": {
+    "fa": "درجه دو خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "just",
+      "mind",
+      "good",
+      "case"
+     ],
+     "suggestion": "Good idea — just in case. Can you pop it in the box? Mind your fingers!",
+     "suggestionFa": "فکر خوبیه — محض احتیاط. می‌تونی بندازیش تو صندوق؟ مواظب انگشتات باش!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Done! It's in the box.",
+   "translations": {
+    "fa": "انجام شد! تو صندوقه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "she'll",
+      "potato",
+      "horse",
+      "thank"
+     ],
+     "suggestion": "Thank you! She'll love it. Nicola drew a horse on it. Well — she says it's a horse. It looks like a potato!",
+     "suggestionFa": "ممنون! عاشقش میشه. نیکولا روش یه اسب کشید. خب — اون میگه اسبه. شبیه سیب‌زمینیه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

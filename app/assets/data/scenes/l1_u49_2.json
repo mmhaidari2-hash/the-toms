@@ -1,0 +1,319 @@
+{
+ "id": "l1_u49_2",
+ "characterId": "leslie",
+ "title": "My surname",
+ "titleFa": "نام خانوادگی من",
+ "setting": "Spelling and names · Level 1",
+ "settingFa": "هجی کردن و نام‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The kids call me \"Mrs Thompson\" at school. It's funny — I was \"Miss Parker\" before I married Tom!",
+   "translations": {
+    "fa": "بچه‌ها تو مدرسه منو «خانم تامپسون» صدا می‌کنن. خنده‌داره — قبل از ازدواج با تام «دوشیزه پارکر» بودم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surname",
+      "change",
+      "did"
+     ],
+     "suggestion": "Did you change your surname?",
+     "suggestionFa": "نام خانوادگیت را عوض کردی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "difference",
+      "between",
+      "what's",
+      "miss"
+     ],
+     "suggestion": "What's the difference between Miss and Mrs?",
+     "suggestionFa": "فرق Miss و Mrs چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "married",
+     "fa": "ازدواج کرد"
+    },
+    {
+     "word": "change",
+     "fa": "عوض کردن"
+    },
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "\"Miss\" is for a woman who isn't married. \"Mrs\" is for a married woman. And \"Ms\" is for anyone.",
+   "translations": {
+    "fa": "«میس» برای زن مجرده. «میسز» برای زن متأهل. و «میز» برای همه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "easier",
+      "ms"
+     ],
+     "suggestion": "So Ms is easier!",
+     "suggestionFa": "پس Ms آسون‌تره!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "always",
+      "men",
+      "mr"
+     ],
+     "suggestion": "And men are always \"Mr\"?",
+     "suggestionFa": "و مردها همیشه «مستر»ن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "married",
+     "fa": "متأهل"
+    },
+    {
+     "word": "anyone",
+     "fa": "هر کسی"
+    },
+    {
+     "word": "easier",
+     "fa": "آسان‌تر"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British women use \"Ms\" because it doesn't show if they are married.",
+    "fa": "Ms بدون اشاره به تأهل."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Yes! Men are lucky. Always \"Mr\". Did your mum change her name when she married?",
+   "translations": {
+    "fa": "آره! مردها خوش‌شانسن. همیشه «مستر». مامانت وقتی ازدواج کرد اسمش را عوض کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surname",
+      "their",
+      "women",
+      "keep"
+     ],
+     "suggestion": "No. In Iran, women keep their surname.",
+     "suggestionFa": "نه. تو ایران زن‌ها نام خانوادگیشون را نگه می‌دارن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "family",
+      "name",
+      "kept",
+      "her"
+     ],
+     "suggestion": "No, she kept her family name.",
+     "suggestionFa": "نه، نام خانوادگی خودش را نگه داشت.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kept",
+     "fa": "نگه داشت"
+    },
+    {
+     "word": "family name",
+     "fa": "نام خانوادگی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she keeped her name",
+      "she was keep her name"
+     ],
+     "echo": "She kept her name? Interesting!",
+     "better": "She kept her name.",
+     "betterFa": "اسم خودش را نگه داشت."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Really? I like that. Lots of women here keep their names now too. Some use both!",
+   "translations": {
+    "fa": "واقعاً؟ خوشم میاد. الان اینجا هم خیلی از زن‌ها اسمشون را نگه می‌دارن. بعضی هر دو را استفاده می‌کنن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "surname",
+      "double",
+      "names",
+      "both"
+     ],
+     "suggestion": "Both names? Like a double surname?",
+     "suggestionFa": "هر دو اسم؟ مثل یه نام خانوادگی دوتایی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "about"
+     ],
+     "suggestion": "What about the children?",
+     "suggestionFa": "بچه‌ها چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "both",
+     "fa": "هر دو"
+    },
+    {
+     "word": "double",
+     "fa": "دوتایی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Yes, with a hyphen. Like \"Parker-Thompson\". Our kids are just Thompson. What's your middle name?",
+   "translations": {
+    "fa": "آره، با خط تیره. مثل «پارکر-تامپسون». بچه‌های ما فقط تامپسونن. اسم وسطت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "have"
+     ],
+     "suggestion": "I don't have a middle name.",
+     "suggestionFa": "من اسم وسط ندارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's a middle name?",
+     "suggestionFa": "اسم وسط چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hyphen",
+     "fa": "خط تیره"
+    },
+    {
+     "word": "middle name",
+     "fa": "نام میانی"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British people have a middle name, often from a grandparent.",
+    "fa": "نام میانی از پدربزرگ یا مادربزرگ."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "A second first name! Mine is Rose, after my nan. Nicola's is Weda, after Nana!",
+   "translations": {
+    "fa": "یه اسم کوچیک دوم! مال من رُزه، به اسم مادربزرگم. مال نیکولا وداست، به اسم نانا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "lovely",
+      "that's",
+      "nicola"
+     ],
+     "suggestion": "That's lovely. Nicola Weda Thompson.",
+     "suggestionFa": "چه قشنگ. نیکولا ودا تامپسون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "middle",
+      "have",
+      "ryan",
+      "name"
+     ],
+     "suggestion": "Does Ryan have a middle name?",
+     "suggestionFa": "رایان اسم وسط داره؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "second",
+     "fa": "دوم"
+    },
+    {
+     "word": "after",
+     "fa": "به نام ؛ به یاد"
+    },
+    {
+     "word": "nan",
+     "fa": "مادربزرگ"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Ryan George Thompson. After Grandad. Don't tell him I told you — he says \"George\" is an old man's name!",
+   "translations": {
+    "fa": "رایان جورج تامپسون. به اسم پدربزرگ. نگی بهت گفتم — میگه «جورج» اسم پیرمرداست!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

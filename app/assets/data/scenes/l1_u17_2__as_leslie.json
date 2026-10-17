@@ -22,9 +22,9 @@
     {
      "keywords": [
       "kettle",
-      "shall",
-      "fancy",
       "cuppa",
+      "fancy",
+      "shall",
       "put"
      ],
      "suggestion": "Shall I put the kettle on? Fancy a cuppa?",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "kettle",
       "lovely",
+      "kettle",
       "first",
       "full",
       "fill"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "perfect",
-      "that's",
       "teabag",
-      "turn",
-      "each"
+      "that's",
+      "each",
+      "turn"
      ],
      "suggestion": "That's perfect. Turn it on. Now, a teabag in each mug.",
      "suggestionFa": "عالیه. روشنش کن. حالا، یه چای کیسه‌ای تو هر ماگ.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "kettle's",
-      "kettle",
       "boiled",
       "teabag",
+      "kettle",
       "water"
      ],
      "suggestion": "The tin next to the kettle. The kettle's boiled! Pour the water on the teabag.",
@@ -124,7 +124,7 @@
       "minutes",
       "teabag",
       "three",
-      "take",
+      "wait",
       "then"
      ],
      "suggestion": "Now wait two or three minutes. Then take the teabag out. How do you take your tea?",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "strong",
       "sugars",
+      "strong",
       "drink",
-      "milk",
+      "iran",
       "lots"
      ],
      "suggestion": "Strong, with lots of milk and two sugars. How do you drink tea in Iran?",
@@ -223,8 +223,8 @@
      "keywords": [
       "national",
       "dunking",
-      "course",
       "cheers",
+      "course",
       "leave"
      ],
      "suggestion": "Of course! Dunking is a national sport here. Don't leave it in too long, or it falls in! Cheers, love!",

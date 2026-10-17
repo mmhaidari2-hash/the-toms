@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -171,7 +171,7 @@
      "keywords": [
       "thursday",
       "she'll",
-      "eight",
+      "hours",
       "forty"
      ],
      "suggestion": "Forty-eight hours? So she'll be back on Thursday?",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "still",
-      "will",
       "able",
+      "will",
       "she"
      ],
      "suggestion": "Will she still be able to go?",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
+      "would",
       "thank",
-      "great",
-      "would"
+      "great"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

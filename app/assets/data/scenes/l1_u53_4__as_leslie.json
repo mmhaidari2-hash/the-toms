@@ -1,0 +1,337 @@
+{
+ "id": "l1_u53_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A parcel for Nana",
+ "titleFa": "(در نقش Leslie) بسته‌ای برای نانا",
+ "setting": "At the post office (basics) · Level 1",
+ "settingFa": "در اداره پست (پایه)",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u53_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "postman",
+      "collect",
+      "parcel",
+      "missed",
+      "sorry"
+     ],
+     "suggestion": "Nana got a card from the postman. \"Sorry we missed you.\" Can you collect her parcel?",
+     "suggestionFa": "نانا یه کارت از پستچی گرفت. «متأسفیم که نبودید.» می‌تونی بسته‌ش را تحویل بگیری؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Where do I go?",
+   "translations": {
+    "fa": "حتماً. کجا برم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "office",
+      "street",
+      "post",
+      "high",
+      "says"
+     ],
+     "suggestion": "It says it's at the post office on the high street. You need the card and ID.",
+     "suggestionFa": "میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Whose ID? Mine or Nana's?",
+   "translations": {
+    "fa": "مدرک کی؟ مال من یا نانا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "signed",
+      "nana",
+      "back",
+      "card",
+      "take"
+     ],
+     "suggestion": "Nana has signed the back of the card. So take your ID and her card.",
+     "suggestionFa": "نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "She's signed it. Good.",
+   "translations": {
+    "fa": "امضاش کرده. خوبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "arthur",
+   "text": "Hello! Collecting? Can I see the card and your ID, please?",
+   "translations": {
+    "fa": "سلام! تحویل گرفتن؟ می‌شه کارت و مدرکتون را ببینم، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "collecting",
+     "fa": "تحویل گرفتن"
+    },
+    {
+     "word": "neighbour",
+     "fa": "همسایه"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here's the card and my passport.",
+   "translations": {
+    "fa": "بفرمایید کارت و پاسپورتم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "arthur",
+   "text": "Let me look… Ah yes, it's arrived. It's quite heavy! Has she ordered bricks? Ha!",
+   "translations": {
+    "fa": "بذار ببینم… آه بله، رسیده. یه کم سنگینه! آجر سفارش داده؟ ها!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "arrived",
+     "fa": "رسیده"
+    },
+    {
+     "word": "heavy",
+     "fa": "سنگین"
+    },
+    {
+     "word": "ordered",
+     "fa": "سفارش داده"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Ha! I don't know what it is.",
+   "translations": {
+    "fa": "ها! نمی‌دونم چیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "arthur",
+   "text": "Knitting wool! That's Weda for you. Sign here, please, to say you've got it.",
+   "translations": {
+    "fa": "کاموای بافتنی! این همون وداست. لطفاً اینجا امضا کنید که تحویل گرفتید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sign",
+     "fa": "امضا کردن"
+    },
+    {
+     "word": "signature",
+     "fa": "امضا"
+    }
+   ]
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Here's my signature.",
+   "translations": {
+    "fa": "اینم امضام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "arthur",
+   "text": "Perfect. Give her my best. Tell her the scarf she made me last year is still keeping me warm!",
+   "translations": {
+    "fa": "عالی. سلام منو بهش برسونید. بهش بگید شال‌گردنی که پارسال برام بافت هنوز گرمم نگه می‌داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "give her my best",
+     "fa": "سلام مرا برسان"
+    },
+    {
+     "word": "scarf",
+     "fa": "شال‌گردن"
+    }
+   ]
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "I will!",
+   "translations": {
+    "fa": "حتماً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collecting",
+      "together",
+      "hackney",
+      "thanks",
+      "purple"
+     ],
+     "suggestion": "Nana knits for half of Hackney! Ha! Thanks for collecting it. Let's open it together — I bet it's purple wool.",
+     "suggestionFa": "نانا برای نصف هکنی بافتنی می‌بافه! ها! ممنون که تحویل گرفتی. بیا با هم بازش کنیم — شرط می‌بندم کاموای بنفشه.",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -70,8 +70,8 @@
     },
     {
      "keywords": [
-      "today",
       "large",
+      "today",
       "need"
      ],
      "suggestion": "Large — I need it today!",
@@ -104,8 +104,8 @@
     {
      "keywords": [
       "regular",
-      "away",
       "fine",
+      "away",
       "take"
      ],
      "suggestion": "Take away, please — regular milk is fine.",
@@ -116,8 +116,8 @@
     },
     {
      "keywords": [
-      "oat",
-      "eat"
+      "eat",
+      "oat"
      ],
      "suggestion": "Eat in, please, with oat milk.",
      "suggestionFa": "اینجا، لطفاً، با شیر جو دوسر.",
@@ -157,8 +157,8 @@
      "keywords": [
       "croissant",
       "have",
-      "i'll",
-      "then"
+      "then",
+      "i'll"
      ],
      "suggestion": "Go on then, I'll have a croissant.",
      "suggestionFa": "باشه پس، یه کروسان می‌گیرم.",
@@ -168,8 +168,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "that's",
+      "thanks",
       "all"
      ],
      "suggestion": "No thanks, that's all.",
@@ -257,9 +257,9 @@
     },
     {
      "keywords": [
+      "nine",
       "then",
       "more",
-      "nine",
       "go"
      ],
      "suggestion": "Nine more to go, then!",
@@ -340,8 +340,8 @@
      "keywords": [
       "where's",
       "chippy",
-      "thanks",
-      "callum"
+      "callum",
+      "thanks"
      ],
      "suggestion": "Thanks, Callum. Where's the best chippy, then?",
      "suggestionFa": "ممنون کالم. پس بهترین ماهی‌وچیپسی کجاست؟",
@@ -353,7 +353,7 @@
      "keywords": [
       "really",
       "that's",
-      "i'll",
+      "back",
       "kind"
      ],
      "suggestion": "That's really kind. I'm sure I'll be back.",

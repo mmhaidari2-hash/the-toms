@@ -20,8 +20,8 @@
     {
      "keywords": [
       "cappuccino",
-      "get",
-      "can"
+      "can",
+      "get"
      ],
      "suggestion": "Can I get a cappuccino, please?",
      "suggestionFa": "می‌شه یه کاپوچینو بدید لطفاً؟",
@@ -33,8 +33,8 @@
      "keywords": [
       "have",
       "i'll",
-      "tea",
-      "pot"
+      "pot",
+      "tea"
      ],
      "suggestion": "I'll have a pot of tea, please.",
      "suggestionFa": "یه قوری چای می‌خوام لطفاً.",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "large",
-      "away",
       "take",
+      "away",
       "one"
      ],
      "suggestion": "A large one to take away.",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "phone",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by phone?",

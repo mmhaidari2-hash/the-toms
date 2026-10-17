@@ -1,0 +1,299 @@
+{
+ "id": "l1_u49_3",
+ "characterId": "nicola",
+ "title": "Writing my name",
+ "titleFa": "نوشتن نامم",
+ "setting": "Spelling and names · Level 1",
+ "settingFa": "هجی کردن و نام‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Look! I can write my name! N-I-C-O-L-A. Is it right?",
+   "translations": {
+    "fa": "ببین! می‌تونم اسمم را بنویسم! ان-آی-سی-او-ال-ای. درسته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect"
+     ],
+     "suggestion": "Yes, it's perfect!",
+     "suggestionFa": "آره، عالیه!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "capital",
+      "nearly",
+      "use",
+      "n"
+     ],
+     "suggestion": "Nearly! Use a capital N.",
+     "suggestionFa": "تقریباً! از N بزرگ استفاده کن.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "write",
+     "fa": "نوشتن"
+    },
+    {
+     "word": "right",
+     "fa": "درست"
+    },
+    {
+     "word": "capital",
+     "fa": "بزرگ (حرف)"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Mrs Ellis says names start with a big letter. Big N, then small letters.",
+   "translations": {
+    "fa": "خانم الیس میگه اسم‌ها با حرف بزرگ شروع میشن. N بزرگ، بعد حروف کوچیک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "capital",
+      "that's",
+      "right",
+      "n"
+     ],
+     "suggestion": "That's right. Capital N.",
+     "suggestionFa": "درسته. N بزرگ.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "small",
+      "c",
+      "l",
+      "o"
+     ],
+     "suggestion": "And small i, c, o, l, a.",
+     "suggestionFa": "و i، c، o، l، a کوچیک.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "big letter",
+     "fa": "حرف بزرگ"
+    },
+    {
+     "word": "small letters",
+     "fa": "حروف کوچک"
+    }
+   ],
+   "cultureNote": {
+    "en": "Teachers in England say \"capital letters\" and \"lower-case\" or \"small letters\".",
+    "fa": "capital/lower-case."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Now can I write YOUR name? How do I start?",
+   "translations": {
+    "fa": "حالا می‌تونم اسم تو را بنویسم؟ چطوری شروع کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "capital",
+      "letter"
+     ],
+     "suggestion": "With a capital letter!",
+     "suggestionFa": "با یه حرف بزرگ!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "write",
+      "i'll",
+      "copy"
+     ],
+     "suggestion": "I'll write it, and you copy it.",
+     "suggestionFa": "من می‌نویسمش، تو ازش رونویسی کن.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "start",
+     "fa": "شروع کردن"
+    },
+    {
+     "word": "copy",
+     "fa": "رونویسی کردن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "OK. Ooh, it's hard. Can you write it in Persian too?",
+   "translations": {
+    "fa": "باشه. اوه، سخته. می‌تونی به فارسی هم بنویسیش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "left",
+      "goes",
+      "sure"
+     ],
+     "suggestion": "Sure. Persian goes from right to left.",
+     "suggestionFa": "حتماً. فارسی از راست به چپ نوشته میشه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here"
+     ],
+     "suggestion": "Here it is in Persian.",
+     "suggestionFa": "اینم به فارسی.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hard",
+     "fa": "سخت"
+    },
+    {
+     "word": "right to left",
+     "fa": "از راست به چپ"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Right to left! Backwards! Is there a capital letter in Persian?",
+   "translations": {
+    "fa": "از راست به چپ! برعکس! تو فارسی حرف بزرگ هست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "capital",
+      "there"
+     ],
+     "suggestion": "No, there are no capital letters.",
+     "suggestionFa": "نه، حرف بزرگ نداره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "change",
+      "shape",
+      "but"
+     ],
+     "suggestion": "But letters change shape!",
+     "suggestionFa": "ولی حروف شکلشون عوض میشه!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "backwards",
+     "fa": "برعکس"
+    },
+    {
+     "word": "shape",
+     "fa": "شکل"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is not capital letters",
+      "it have no capital"
+     ],
+     "echo": "There are no capital letters? Wow!",
+     "better": "There are no capital letters.",
+     "betterFa": "حرف بزرگ نداره."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "No capitals?! Lucky! Can you write MY name in Persian?",
+   "translations": {
+    "fa": "حرف بزرگ نداره؟! خوش به حالشون! می‌تونی اسم منو به فارسی بنویسی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "here's",
+      "nicola"
+     ],
+     "suggestion": "Here's Nicola in Persian.",
+     "suggestionFa": "اینم نیکولا به فارسی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "looks",
+      "like"
+     ],
+     "suggestion": "It looks like this.",
+     "suggestionFa": "این‌جوری میشه.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lucky",
+     "fa": "خوش‌شانس"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "It's so pretty! Like a little snake and dots! I'm going to show Mrs Ellis!",
+   "translations": {
+    "fa": "خیلی قشنگه! مثل یه مار کوچولو و نقطه! می‌خوام به خانم الیس نشونش بدم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

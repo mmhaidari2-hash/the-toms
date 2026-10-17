@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "who's",
-      "hello"
+      "hello",
+      "who's"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -190,8 +190,8 @@
     },
     {
      "keywords": [
-      "get",
       "pen",
+      "get",
       "let"
      ],
      "suggestion": "Yes. Let me get a pen.",
@@ -366,8 +366,8 @@
     {
      "keywords": [
       "take",
-      "care",
-      "weda"
+      "weda",
+      "care"
      ],
      "suggestion": "Bye, Weda! Take care!",
      "suggestionFa": "خداحافظ ودا! مراقب خودتون باشید!",
@@ -405,9 +405,9 @@
   "n9": {
    "id": "n9",
    "speaker": "tom",
-   "text": "Who was that? Weda? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
+   "text": "Who was that? Mum? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
    "translations": {
-    "fa": "کی بود؟ ودا؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق."
+    "fa": "کی بود؟ مامان؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق."
    },
    "branches": [],
    "newWords": []

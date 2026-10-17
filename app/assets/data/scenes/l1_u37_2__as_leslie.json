@@ -48,9 +48,9 @@
      "keywords": [
       "nicola's",
       "wellies",
-      "yours",
       "these",
-      "green"
+      "green",
+      "yours"
      ],
      "suggestion": "Yes, it's Nicola's. And these wellies? The big green ones. Are they yours?",
      "suggestionFa": "آره، مال نیکولاست. و این چکمه‌ها؟ سبزهای بزرگ. مال توئه؟",
@@ -73,7 +73,7 @@
      "keywords": [
       "wellies",
       "ryan's",
-      "clean",
+      "these",
       "where",
       "muddy"
      ],
@@ -100,7 +100,7 @@
       "wellies",
       "london",
       "these",
-      "some"
+      "need"
      ],
      "suggestion": "No wellies? In London? You need some! Ah, these are George's.",
      "suggestionFa": "چکمه نداری؟ تو لندن؟ لازم داری! آه، اینا مال جورجه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "soaking",
-      "whose",
       "floor",
-      "coat",
-      "them"
+      "whose",
+      "them",
+      "coat"
      ],
      "suggestion": "Try them on. And whose coat is this on the floor? It's soaking!",
      "suggestionFa": "امتحانشون کن. و این کت رو زمین مال کیه؟ خیس آبه!",
@@ -174,8 +174,8 @@
       "everyone",
       "things",
       "please",
-      "hooks",
-      "boots"
+      "boots",
+      "hooks"
      ],
      "suggestion": "Hang it on the hook, please! Everyone, wet things on the hooks, boots on the mat!",
      "suggestionFa": "لطفاً آویزونش کن رو قلاب! همه، وسایل خیس رو قلاب، چکمه‌ها رو پادری!",
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "honestly",
       "swimming",
+      "honestly",
       "hallway",
       "coffee",
       "thank"

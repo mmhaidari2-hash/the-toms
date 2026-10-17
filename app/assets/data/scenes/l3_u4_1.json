@@ -20,8 +20,8 @@
     {
      "keywords": [
       "permission",
-      "account",
       "without",
+      "account",
       "taken"
      ],
      "suggestion": "I think money was taken from my account without my permission.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "charged",
-      "twice",
       "thing",
+      "twice",
       "same"
      ],
      "suggestion": "I was charged twice for the same thing.",
@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
-      "ninety",
-      "online",
       "pounds",
+      "online",
+      "ninety",
       "never"
      ],
      "suggestion": "This one — ninety-nine pounds to an online shop I've never used.",
@@ -93,7 +93,7 @@
       "morning",
       "tuesday",
       "paid",
-      "two"
+      "was"
      ],
      "suggestion": "The one on Tuesday. It was paid at two in the morning!",
      "suggestionFa": "مال سه‌شنبه. ساعت دو صبح پرداخت شده!",
@@ -129,8 +129,8 @@
      "keywords": [
       "website",
       "week",
-      "used",
-      "last"
+      "last",
+      "used"
      ],
      "suggestion": "No, but I used it on a website last week.",
      "suggestionFa": "نه، ولی هفتهٔ پیش رو یه سایت ازش استفاده کردم.",
@@ -201,7 +201,7 @@
       "happening",
       "again",
       "stop",
-      "how"
+      "can"
      ],
      "suggestion": "How can I stop this happening again?",
      "suggestionFa": "چطوری جلوی تکرارش را بگیرم؟",
@@ -241,8 +241,8 @@
      "keywords": [
       "sorting",
       "thank",
-      "good",
-      "know"
+      "know",
+      "good"
      ],
      "suggestion": "Good to know. Thank you for sorting it out.",
      "suggestionFa": "خوب شد دونستم. ممنون که حلش کردید.",

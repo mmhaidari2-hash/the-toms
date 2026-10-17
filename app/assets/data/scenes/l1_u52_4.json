@@ -1,0 +1,355 @@
+{
+ "id": "l1_u52_4",
+ "characterId": "tom",
+ "title": "It's OK, don't worry",
+ "titleFa": "اشکال ندارد، نگران نباش",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Morning! Ooh, what's that smell? Is something burning?",
+   "translations": {
+    "fa": "صبح بخیر! اوه، این بو چیه؟ چیزی داره می‌سوزه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "oh"
+     ],
+     "suggestion": "Oh no! The toast!",
+     "suggestionFa": "وای نه! نون تست!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sorry",
+      "burnt",
+      "tom"
+     ],
+     "suggestion": "Sorry, Tom. I burnt the toast.",
+     "suggestionFa": "ببخشید تام. نون تست را سوزوندم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smell",
+     "fa": "بو"
+    },
+    {
+     "word": "burning",
+     "fa": "سوختن"
+    },
+    {
+     "word": "burnt",
+     "fa": "سوزاند"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Ha! Never mind. Open the window before the smoke alarm goes off.",
+   "translations": {
+    "fa": "ها! عیب نداره. قبل از اینکه آژیر دود به صدا دربیاد پنجره را باز کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beeping",
+      "late"
+     ],
+     "suggestion": "Too late! It's beeping!",
+     "suggestionFa": "دیر شد! داره بوق می‌زنه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "window",
+      "key"
+     ],
+     "suggestion": "Where's the window key?",
+     "suggestionFa": "کلید پنجره کجاست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "never mind",
+     "fa": "عیبی ندارد"
+    },
+    {
+     "word": "smoke alarm",
+     "fa": "آژیر دود"
+    },
+    {
+     "word": "goes off",
+     "fa": "به صدا درآمدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Every UK home should have a working smoke alarm. Never take the battery out!",
+    "fa": "آژیر دود الزامی است."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
+   "translations": {
+    "fa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "embarrassed",
+      "sorry"
+     ],
+     "suggestion": "Sorry. I'm so embarrassed.",
+     "suggestionFa": "ببخشید. خیلی خجالت می‌کشم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "wake",
+      "did",
+      "up"
+     ],
+     "suggestion": "Did I wake everyone up?",
+     "suggestionFa": "همه را بیدار کردم؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wave",
+     "fa": "تکان دادن"
+    },
+    {
+     "word": "tea towel",
+     "fa": "حوله آشپزخانه"
+    },
+    {
+     "word": "embarrassed",
+     "fa": "خجالت‌زده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
+   "translations": {
+    "fa": "نگرانش نباش! ضرری نکردیم. من هر هفته این کار را می‌کنم. لزلی بهم میگه «سوزانندهٔ نون تست»."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "every",
+      "week"
+     ],
+     "suggestion": "Really? Every week?",
+     "suggestionFa": "واقعاً؟ هر هفته؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "makes",
+      "feel"
+     ],
+     "suggestion": "That makes me feel better.",
+     "suggestionFa": "این حالم را بهتر می‌کنه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no harm done",
+     "fa": "طوری نشد ؛ ضرری ندارد"
+    },
+    {
+     "word": "every week",
+     "fa": "هر هفته"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "don't worry for it",
+      "no worry about it"
+     ],
+     "echo": "Don't worry about it? Thanks, Tom.",
+     "better": "Don't worry about it.",
+     "betterFa": "نگرانش نباش."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Every week! The toaster is too strong. Put it on number three, not five.",
+   "translations": {
+    "fa": "هر هفته! توستر زیادی قویه. بذارش رو سه، نه پنج."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "number",
+      "three",
+      "ok"
+     ],
+     "suggestion": "Number three. OK.",
+     "suggestionFa": "شمارهٔ سه. باشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "five",
+      "put"
+     ],
+     "suggestion": "I put it on five!",
+     "suggestionFa": "رو پنج گذاشته بودم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toaster",
+     "fa": "توستر"
+    },
+    {
+     "word": "strong",
+     "fa": "قوی"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Five is for crumpets! Right, try again. Two more slices. I'm watching this time!",
+   "translations": {
+    "fa": "پنج برای کرامپته! خب، دوباره امتحان کن. دو تا برش دیگه. این دفعه حواسم هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crumpets"
+     ],
+     "suggestion": "What are crumpets?",
+     "suggestionFa": "کرامپت چیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "about",
+      "being",
+      "nice"
+     ],
+     "suggestion": "Thanks for being so nice about it.",
+     "suggestionFa": "ممنون که این‌قدر باهاش کنار اومدی.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "crumpets",
+     "fa": "نان کرامپت"
+    },
+    {
+     "word": "slices",
+     "fa": "برش‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "Crumpets are soft, spongy British bread rounds, toasted and eaten with lots of butter.",
+    "fa": "کرامپت."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "You're welcome! Perfect golden toast. See? Everyone burns toast. It's not a big deal.",
+   "translations": {
+    "fa": "خواهش می‌کنم! نون تست طلایی عالی. دیدی؟ همه نون تست می‌سوزونن. چیز مهمی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "now"
+     ],
+     "suggestion": "It's perfect now!",
+     "suggestionFa": "الان عالیه!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "tom"
+     ],
+     "suggestion": "Thank you, Tom.",
+     "suggestionFa": "ممنون تام.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "golden",
+     "fa": "طلایی"
+    },
+    {
+     "word": "big deal",
+     "fa": "مسئلهٔ مهم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
+   "translations": {
+    "fa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

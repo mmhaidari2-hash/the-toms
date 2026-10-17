@@ -23,8 +23,8 @@
      "keywords": [
       "starving",
       "o'clock",
-      "shall",
       "lunch",
+      "shall",
       "have"
      ],
      "suggestion": "I'm starving! It's one o'clock. What shall we have for lunch?",
@@ -48,9 +48,9 @@
      "keywords": [
       "something",
       "british",
+      "lunch",
       "tried",
-      "beans",
-      "lunch"
+      "toast"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
      "suggestionFa": "یه چیز سریع… لوبیا روی نون تست! بهترین ناهار بریتانیایی. امتحانش کردی؟",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "opener",
       "drawer",
       "you'll",
+      "opener",
       "love",
       "open"
      ],
@@ -98,9 +98,9 @@
      "keywords": [
       "toaster",
       "slices",
-      "beans",
       "bread",
-      "pour"
+      "beans",
+      "i'll"
      ],
      "suggestion": "Pour the beans in the pan. I'll put the bread in the toaster. Two slices each?",
      "suggestionFa": "لوبیا را بریز تو تابه. من نون را می‌ذارم تو توستر. هر نفر دو تیکه؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "please",
-      "beans",
       "don't",
+      "beans",
       "burn",
       "stir"
      ],
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "toast's",
-      "butter",
       "cheese",
-      "beans",
-      "ready"
+      "butter",
+      "ready",
+      "toast"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
      "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "secret",
       "cheese",
-      "sauce",
+      "secret",
       "brown",
-      "top"
+      "sauce",
+      "now"
      ],
      "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
      "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
@@ -199,8 +199,8 @@
       "minutes",
       "cooking",
       "that's",
-      "only",
-      "five"
+      "kind",
+      "only"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",

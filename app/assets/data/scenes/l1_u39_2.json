@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "help",
       "dust",
+      "help",
       "can"
      ],
      "suggestion": "Can I help you dust?",
@@ -132,8 +132,8 @@
     {
      "keywords": [
       "cleaning",
-      "after",
-      "maybe"
+      "maybe",
+      "after"
      ],
      "suggestion": "After the cleaning, maybe.",
      "suggestionFa": "بعد از نظافت، شاید.",
@@ -231,8 +231,8 @@
     {
      "keywords": [
       "happy",
-      "will",
-      "nana"
+      "nana",
+      "will"
      ],
      "suggestion": "Nana will be very happy.",
      "suggestionFa": "نانا خیلی خوشحال میشه.",

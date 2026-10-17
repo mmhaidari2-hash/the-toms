@@ -1,0 +1,323 @@
+{
+ "id": "l1_u47_4",
+ "characterId": "weda",
+ "title": "Tea with Nana",
+ "titleFa": "چای با نانا",
+ "setting": "Nana's corner · Level 1",
+ "settingFa": "گوشهٔ نانا",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
+   "translations": {
+    "fa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "love",
+      "one",
+      "i'd"
+     ],
+     "suggestion": "Yes, please. I'd love one.",
+     "suggestionFa": "آره، لطفاً. خیلی دوست دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weda",
+      "make",
+      "let"
+     ],
+     "suggestion": "Let me make it, Weda.",
+     "suggestionFa": "بذارید من درست کنم ودا.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "asleep",
+     "fa": "خواب"
+    },
+    {
+     "word": "at last",
+     "fa": "بالاخره"
+    },
+    {
+     "word": "would you like",
+     "fa": "میل داری"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "No, no, sit down. You're my guest. How do you like your tea?",
+   "translations": {
+    "fa": "نه، نه، بشین. مهمون منی. چای را چطوری دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "strong"
+     ],
+     "suggestion": "Strong, with a little milk.",
+     "suggestionFa": "پررنگ، با یه کم شیر.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "black",
+      "just"
+     ],
+     "suggestion": "No milk, please. Just black.",
+     "suggestionFa": "بدون شیر، لطفاً. فقط ساده.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "guest",
+     "fa": "مهمان"
+    },
+    {
+     "word": "strong",
+     "fa": "پررنگ ؛ قوی"
+    },
+    {
+     "word": "black",
+     "fa": "بدون شیر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Ooh, very Persian! Tom likes his tea \"builder's\" — very strong, two sugars.",
+   "translations": {
+    "fa": "اوه، خیلی ایرانی! تام چایش را «بنایی» دوست داره — خیلی پررنگ، دو تا قند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "builder's",
+      "what's"
+     ],
+     "suggestion": "What's builder's tea?",
+     "suggestionFa": "چای بنایی چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cubes",
+      "sugar",
+      "drink",
+      "iran"
+     ],
+     "suggestion": "In Iran, we drink tea with sugar cubes.",
+     "suggestionFa": "تو ایران با قند چای می‌خوریم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "builder's tea",
+     "fa": "چای پررنگ کارگری"
+    },
+    {
+     "word": "sugar cubes",
+     "fa": "قند حبه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Builder's tea\" is strong black tea with milk and sugar — named after workers who drink lots of it.",
+    "fa": "چای بنایی."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Strong tea for hard workers! Would you like a slice of Victoria sponge? I made it this morning.",
+   "translations": {
+    "fa": "چای پررنگ برای آدم‌های سخت‌کوش! یه برش کیک ویکتوریا میل داری؟ امروز صبح پختمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "piece",
+      "small",
+      "just"
+     ],
+     "suggestion": "Yes, please. Just a small piece.",
+     "suggestionFa": "آره، لطفاً. فقط یه تیکهٔ کوچیک.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "full"
+     ],
+     "suggestion": "No, thank you. I'm full.",
+     "suggestionFa": "نه، ممنون. سیرم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slice",
+     "fa": "برش"
+    },
+    {
+     "word": "piece",
+     "fa": "تکه"
+    },
+    {
+     "word": "full",
+     "fa": "سیر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "yes please a small one piece",
+      "yes please little piece"
+     ],
+     "echo": "A small piece? Here you are.",
+     "better": "Yes, please. Just a small piece.",
+     "betterFa": "آره، لطفاً. فقط یه تیکهٔ کوچیک."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
+   "translations": {
+    "fa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delicious",
+      "thank"
+     ],
+     "suggestion": "Thank you. It's delicious!",
+     "suggestionFa": "ممنون. خوشمزه‌ست!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ever",
+      "best",
+      "cake"
+     ],
+     "suggestion": "This is the best cake ever.",
+     "suggestionFa": "این بهترین کیک دنیاست.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nonsense",
+     "fa": "مزخرف ؛ بی‌معنی"
+    },
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British hosts often insist on cake — a polite \"Just a small piece, then\" usually works best!",
+    "fa": "اصرار میزبان به کیک."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Oh, you're a charmer! Would you like more tea? There's plenty in the pot.",
+   "translations": {
+    "fa": "آه، چه زبون‌بازی! چای بیشتر میل داری؟ تو قوری زیاده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "just",
+      "half",
+      "cup"
+     ],
+     "suggestion": "Yes, please. Just half a cup.",
+     "suggestionFa": "آره، لطفاً. فقط نصف فنجون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "perfect",
+      "thank",
+      "more",
+      "was"
+     ],
+     "suggestion": "No more, thank you. That was perfect.",
+     "suggestionFa": "دیگه نه، ممنون. عالی بود.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "charmer",
+     "fa": "زبان‌باز ؛ دلربا"
+    },
+    {
+     "word": "plenty",
+     "fa": "زیاد"
+    },
+    {
+     "word": "pot",
+     "fa": "قوری"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "This is nice. Just you, me and a pot of tea. George and I did this for fifty years!",
+   "translations": {
+    "fa": "چه خوبه. فقط تو، من و یه قوری چای. من و جورج پنجاه سال این کار را می‌کردیم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nobody",
-      "feels",
-      "tummy",
       "likes",
-      "funny"
+      "tummy",
+      "funny",
+      "feels"
      ],
      "suggestion": "My tummy feels funny. What if nobody likes me?",
      "suggestionFa": "دلم یه جوریه. اگه هیچ‌کس دوستم نداشته باشه چی؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "three",
-      "will",
-      "half",
       "pick",
+      "half",
+      "will",
       "up"
      ],
      "suggestion": "Will you pick me up at half three?",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "painting",
+      "orange",
       "leaves",
-      "autumn",
       "mine's",
-      "orange"
+      "autumn"
      ],
      "suggestion": "You came! It's half three! We did a painting of autumn leaves today. Mine's orange and gold.",
      "suggestionFa": "اومدی! سه و نیمه! امروز نقاشی برگ‌های پاییزی کشیدیم. مال من نارنجی و طلاییه.",
@@ -123,9 +123,9 @@
      "keywords": [
       "tomorrow",
       "drying",
-      "bring",
       "guess",
-      "star"
+      "bring",
+      "home"
      ],
      "suggestion": "It's drying. I'll bring it home tomorrow. And guess what — I got a gold star!",
      "suggestionFa": "داره خشک میشه. فردا میارمش خونه. و حدس بزن — یه ستارهٔ طلایی گرفتم!",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "sharing",
       "crayons",
+      "sharing",
       "friend",
       "she's",
       "best"
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "sometimes",
-      "voices",
       "giggly",
+      "voices",
       "we're",
       "funny"
      ],
@@ -199,8 +199,8 @@
       "shepherd's",
       "golden",
       "lunch",
-      "will",
-      "time"
+      "time",
+      "will"
      ],
      "suggestion": "I will. We had shepherd's pie for lunch. And then it was \"golden time\"!",
      "suggestionFa": "حتماً. ناهار پای چوپان داشتیم. و بعد «وقت طلایی» بود!",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "children",
-      "fingers",
       "nervous",
-      "play",
+      "fingers",
+      "good",
       "have"
      ],
      "suggestion": "Good children get to play! I'm not nervous now. Can we have fish fingers for tea?",
@@ -247,9 +247,9 @@
     {
      "keywords": [
       "tomorrow",
-      "first",
-      "again",
       "teddy",
+      "again",
+      "first",
       "liked"
      ],
      "suggestion": "Yay! Best first day ever. Teddy liked it too. Can I go again tomorrow?",

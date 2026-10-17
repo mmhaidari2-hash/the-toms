@@ -1,0 +1,352 @@
+{
+ "id": "l1_u46_3",
+ "characterId": "ryan",
+ "title": "Would you like a biscuit?",
+ "titleFa": "بیسکویت میل دارید؟",
+ "setting": "Visitors · Level 1",
+ "settingFa": "مهمان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Mum told me to be a good host. Would you like a biscuit?",
+   "translations": {
+    "fa": "مامان گفت میزبان خوبی باشم. بیسکویت میل دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "thank"
+     ],
+     "suggestion": "Yes, please. Thank you.",
+     "suggestionFa": "آره، لطفاً. ممنون.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuits",
+      "they",
+      "kind"
+     ],
+     "suggestion": "What kind of biscuits are they?",
+     "suggestionFa": "چه جور بیسکویتی‌ان؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "host",
+     "fa": "میزبان"
+    },
+    {
+     "word": "would you like",
+     "fa": "میل دارید ؛ می‌خواهید"
+    },
+    {
+     "word": "biscuit",
+     "fa": "بیسکویت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Chocolate digestives, custard creams and rich tea. Help yourself!",
+   "translations": {
+    "fa": "دایجستیو شکلاتی، کاستارد کریم و ریچ تی. بفرمایید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "please",
+      "like",
+      "one"
+     ],
+     "suggestion": "I'd like a chocolate one, please.",
+     "suggestionFa": "یه شکلاتی می‌خوام، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "custard",
+      "what's",
+      "cream"
+     ],
+     "suggestion": "What's a custard cream?",
+     "suggestionFa": "کاستارد کریم چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "digestives",
+     "fa": "بیسکویت سبوس‌دار"
+    },
+    {
+     "word": "help yourself",
+     "fa": "بفرمایید ؛ خودتان بردارید"
+    }
+   ],
+   "cultureNote": {
+    "en": "Digestives, custard creams and rich tea are classic British biscuits, perfect with tea.",
+    "fa": "بیسکویت‌های کلاسیک بریتانیایی."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i would like the chocolate",
+      "i like a chocolate one please"
+     ],
+     "echo": "Would you like a chocolate one? Here you go!",
+     "better": "I'd like a chocolate one, please.",
+     "betterFa": "یه شکلاتی می‌خوام، لطفاً."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Two biscuits with vanilla cream in the middle. Would you like a cup of tea with it?",
+   "translations": {
+    "fa": "دو تا بیسکویت با خامهٔ وانیلی وسطش. با چای میل دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "sugar",
+      "milk"
+     ],
+     "suggestion": "Yes, please. With milk, no sugar.",
+     "suggestionFa": "آره، لطفاً. با شیر، بدون شکر.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "water",
+      "just"
+     ],
+     "suggestion": "Just water for me, thanks.",
+     "suggestionFa": "برای من فقط آب، ممنون.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "middle",
+     "fa": "وسط"
+    },
+    {
+     "word": "vanilla",
+     "fa": "وانیل"
+    },
+    {
+     "word": "sugar",
+     "fa": "شکر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "khan",
+   "text": "Ryan, what a gentleman! Could I have a tea too, love? Milk and two sugars.",
+   "translations": {
+    "fa": "رایان، چه آقایی! منم یه چای می‌تونم بخورم عزیزم؟ با شیر و دو تا قند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sugars",
+      "tooth",
+      "sweet",
+      "two"
+     ],
+     "suggestion": "Two sugars! Sweet tooth!",
+     "suggestionFa": "دو تا قند! شکمو!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "help",
+      "ryan"
+     ],
+     "suggestion": "Shall I help you, Ryan?",
+     "suggestionFa": "کمکت کنم رایان؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gentleman",
+     "fa": "آقا ؛ مرد مؤدب"
+    },
+    {
+     "word": "sweet tooth",
+     "fa": "شیرینی‌دوست"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Nah, I've got it. Now, the most important question: are you a dunker?",
+   "translations": {
+    "fa": "نه، خودم می‌تونم. خب، مهم‌ترین سؤال: تو اهل فرو کردنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "dunker",
+      "what's"
+     ],
+     "suggestion": "What's a dunker?",
+     "suggestionFa": "«دانکر» چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "dunk"
+     ],
+     "suggestion": "Yes! I dunk everything.",
+     "suggestionFa": "آره! همه چی را فرو می‌کنم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dunk",
+     "fa": "فرو کردن (در چای)"
+    }
+   ],
+   "cultureNote": {
+    "en": "Dunking biscuits in tea is a much-loved (and much-argued-about) British habit.",
+    "fa": "فرو کردن بیسکویت در چای."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "You dunk your biscuit in your tea. But not too long, or it falls in! Try it.",
+   "translations": {
+    "fa": "بیسکویتت را تو چایت فرو می‌کنی. ولی نه زیاد، وگرنه می‌افته! امتحان کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "good",
+      "mmm"
+     ],
+     "suggestion": "Mmm, that's good!",
+     "suggestionFa": "ممم، خوبه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "fell",
+      "oh"
+     ],
+     "suggestion": "Oh no, it fell in!",
+     "suggestionFa": "ای وای، افتاد تو!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "falls in",
+     "fa": "می‌افتد داخل"
+    },
+    {
+     "word": "too long",
+     "fa": "بیش از حد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Ha! Biscuit soup. Happens to the best of us. Would you like another one?",
+   "translations": {
+    "fa": "ها! سوپ بیسکویت. برای بهترین‌ها هم پیش میاد. یکی دیگه میل دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "full"
+     ],
+     "suggestion": "No thanks, I'm full.",
+     "suggestionFa": "نه ممنون، سیرم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "just",
+      "more",
+      "one"
+     ],
+     "suggestion": "Just one more, please.",
+     "suggestionFa": "فقط یکی دیگه، لطفاً.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "another",
+     "fa": "یکی دیگر"
+    },
+    {
+     "word": "full",
+     "fa": "سیر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ryan",
+   "text": "Take two. Dad will eat them all if you don't! Mum, I was a good host — can I go now?",
+   "translations": {
+    "fa": "دو تا بردار. اگه نخوری بابا همه را می‌خوره! مامان، میزبان خوبی بودم — حالا می‌تونم برم؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

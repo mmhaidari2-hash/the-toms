@@ -1,0 +1,236 @@
+{
+ "id": "l1_u50_2__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) I don't like mushrooms",
+ "titleFa": "(در نقش Nicola) قارچ دوست ندارم",
+ "setting": "Likes and dislikes · Level 1",
+ "settingFa": "علاقه‌ها و بیزاری‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u50_2",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mushrooms",
+      "don't",
+      "there",
+      "pasta",
+      "like"
+     ],
+     "suggestion": "Yuck! There are mushrooms in my pasta! I don't like mushrooms!",
+     "suggestionFa": "اَه! تو پاستام قارچه! قارچ دوست ندارم!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Have you tried them?",
+   "translations": {
+    "fa": "امتحانشون کردی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mushrooms",
+      "they're",
+      "slugs",
+      "tried",
+      "slimy"
+     ],
+     "suggestion": "I tried them once. They're slimy. Like slugs! Do you like mushrooms?",
+     "suggestionFa": "یه بار امتحان کردم. لزجن. مثل حلزون بی‌صدف! تو قارچ دوست داری؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Yes, I like mushrooms a lot.",
+   "translations": {
+    "fa": "آره، خیلی قارچ دوست دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "don't",
+      "here",
+      "have",
+      "mine",
+      "like"
+     ],
+     "suggestion": "Then you can have mine! Here! What don't you like?",
+     "suggestionFa": "پس مال منو بخور! بیا! تو چی دوست نداری؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I don't like spicy food.",
+   "translations": {
+    "fa": "غذای تند دوست ندارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "sprouts",
+      "doesn't",
+      "olives",
+      "mummy"
+     ],
+     "suggestion": "Olives! They're yucky too! Mummy likes olives. And Daddy doesn't like sprouts.",
+     "suggestionFa": "زیتون! اونم بده! مامان زیتون دوست داره. و بابا کلم بروکسل دوست نداره.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "What are sprouts?",
+   "translations": {
+    "fa": "اسپراوت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cabbages",
+      "little",
+      "smell",
+      "balls",
+      "socks"
+     ],
+     "suggestion": "Little green balls. Like tiny cabbages. They smell like socks!",
+     "suggestionFa": "توپ‌های کوچیک سبز. مثل کلم‌های کوچولو. بوی جوراب میدن!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Ha! Socks!",
+   "translations": {
+    "fa": "ها! جوراب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "leslie",
+   "text": "Nicola, two mushrooms, then you can have pudding. Deal?",
+   "translations": {
+    "fa": "نیکولا، دو تا قارچ، بعد می‌تونی دسر بخوری. قبول؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pudding",
+     "fa": "دسر"
+    },
+    {
+     "word": "deal",
+     "fa": "قبول ؛ معامله"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people often say \"pudding\" or \"pud\" for any dessert.",
+    "fa": "pudding یعنی دسر."
+   }
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "That's fair, Nicola.",
+   "translations": {
+    "fa": "منصفانه‌ست نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "pudding",
+      "what's",
+      "slugs",
+      "still"
+     ],
+     "suggestion": "Two tiny ones… Mmm. OK, they're not slugs. But I still don't like them. What's for pudding?",
+     "suggestionFa": "دو تا کوچولو… ممم. باشه، حلزون نیستن. ولی هنوز دوستشون ندارم. دسر چیه؟",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

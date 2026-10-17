@@ -22,10 +22,10 @@
     {
      "keywords": [
       "favourite",
-      "autumn",
       "season",
+      "orange",
       "yellow",
-      "orange"
+      "autumn"
      ],
      "suggestion": "Look at the trees! Autumn is my favourite season. Red, orange, yellow…",
      "suggestionFa": "درخت‌ها را ببین! پاییز فصل مورد علاقهٔ منه. قرمز، نارنجی، زرد…",
@@ -48,9 +48,9 @@
      "keywords": [
       "getting",
       "colder",
+      "have",
       "warm",
-      "coat",
-      "have"
+      "coat"
      ],
      "suggestion": "It's getting colder now. Have you got a warm coat?",
      "suggestionFa": "الان داره سردتر میشه. یه کت گرم داری؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "november",
       "clocks",
-      "back",
       "cold",
+      "back",
       "need"
      ],
      "suggestion": "You need one! In November it's cold and wet. And the clocks go back.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "october",
+      "o'clock",
       "gloomy",
-      "back",
-      "four"
+      "dark",
+      "hour"
      ],
      "suggestion": "One hour back in October. It gets dark at four o'clock! Very gloomy.",
      "suggestionFa": "یه ساعت عقب تو اکتبر. ساعت چهار تاریک میشه! خیلی دلگیره.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "conkers",
-      "neither",
       "bonfire",
-      "autumn",
-      "things"
+      "neither",
+      "conkers",
+      "things",
+      "autumn"
      ],
      "suggestion": "Me neither. But autumn has good things too. Bonfire Night, and conkers!",
      "suggestionFa": "منم همین‌طور. ولی پاییز چیزهای خوب هم داره. شب آتش‌بازی، و بلوط هندی!",
@@ -148,9 +148,9 @@
      "keywords": [
       "children",
       "string",
-      "shiny",
       "these",
-      "brown"
+      "brown",
+      "shiny"
      ],
      "suggestion": "Look! These shiny brown nuts. Children play a game with them on a string.",
      "suggestionFa": "ببین! این دونه‌های قهوه‌ای براق. بچه‌ها با نخ باهاشون بازی می‌کنن.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "poisonous",
-      "chestnuts",
       "different",
+      "chestnuts",
       "they're",
-      "can't"
+      "sweet"
      ],
      "suggestion": "No! You can't eat them. They're poisonous. Sweet chestnuts are different.",
      "suggestionFa": "نه! نمی‌شه خوردشون. سمی‌ان. شاه‌بلوط فرق داره.",
@@ -198,9 +198,9 @@
      "keywords": [
       "chestnuts",
       "christmas",
+      "roasted",
       "collect",
-      "conkers",
-      "roasted"
+      "conkers"
      ],
      "suggestion": "Roasted chestnuts at Christmas! Lovely. Let's collect some conkers for Nicola.",
      "suggestionFa": "شاه‌بلوط برشته تو کریسمس! عالی. بیا یه کم کانکر برای نیکولا جمع کنیم.",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "chocolate",
-      "autumn's",
       "champion",
+      "autumn's",
       "that's",
       "enough"
      ],

@@ -25,7 +25,7 @@
       "everyone",
       "telling",
       "first",
-      "word"
+      "says"
      ],
      "suggestion": "Tom says William's first word was \"bus\". He's telling everyone!",
      "suggestionFa": "تام میگه اولین کلمهٔ ویلیام «اتوبوس» بود. به همه داره میگه!",
@@ -50,7 +50,7 @@
       "first",
       "think",
       "mama",
-      "week"
+      "said"
      ],
      "suggestion": "Hmm. I think he said \"Mama\" first. Last week, at breakfast.",
      "suggestionFa": "هوم. فکر کنم اول گفت «ماما». هفتهٔ پیش، سر صبحونه.",
@@ -123,8 +123,8 @@
       "william",
       "daddy",
       "mama",
-      "can",
-      "see"
+      "see",
+      "say"
      ],
      "suggestion": "See! Mama! Can you say \"Daddy\", William?",
      "suggestionFa": "دیدی! ماما! می‌تونی بگی «بابا» ویلیام؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "father",
       "first",
-      "word",
       "know",
-      "like"
+      "like",
+      "word"
      ],
      "suggestion": "Like father, like son! What was your first word, Mehdi? Do you know?",
      "suggestionFa": "پسر کو ندارد نشان از پدر! اولین کلمهٔ تو چی بود {you}؟ می‌دونی؟",
@@ -249,8 +249,8 @@
       "william's",
       "buttons",
       "course",
-      "let's",
-      "words"
+      "words",
+      "teddy"
      ],
      "suggestion": "\"Teddy\"! For Mr Buttons, of course. Right, let's write William's words in his baby book.",
      "suggestionFa": "«تدی»! برای آقای دکمه، معلومه. خب، بیا کلمه‌های ویلیام را تو دفتر بچگیش بنویسیم.",
@@ -273,9 +273,9 @@
      "keywords": [
       "everyone's",
       "wrote",
-      "first",
       "don't",
-      "happy"
+      "happy",
+      "first"
      ],
      "suggestion": "Fine! \"Mama\" and \"bus\", the same week. Everyone's happy. Don't tell Tom I wrote \"Mama\" first!",
      "suggestionFa": "باشه! «ماما» و «اتوبوس»، همون هفته. همه راضی. به تام نگو «ماما» را اول نوشتم!",

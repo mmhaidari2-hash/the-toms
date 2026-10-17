@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "please",
+      "should",
       "today",
       "ready"
      ],
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "thompson",
-      "george",
       "behalf",
-      "i've"
+      "george",
+      "come"
      ],
      "suggestion": "Yes. I've come on behalf of George Thompson.",
      "suggestionFa": "آره. از طرف جورج تامپسون اومدم.",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "course",
-      "mine",
       "same",
+      "mine",
       "as"
      ],
      "suggestion": "Of course. It's the same as mine.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "mistake",
       "there's",
+      "mistake",
       "missing",
       "think"
      ],
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "expecting",
-      "could",
       "again",
-      "check"
+      "check",
+      "could"
      ],
      "suggestion": "Could you check again? We were expecting four.",
      "suggestionFa": "می‌شه دوباره چک کنید؟ منتظر چهار تا بودیم.",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "should",
-      "every",
       "takes",
+      "every",
       "day"
      ],
      "suggestion": "But he takes it every day. What should we do?",
@@ -196,8 +196,8 @@
     },
     {
      "keywords": [
-      "surgery",
       "mistake",
+      "surgery",
       "by"
      ],
      "suggestion": "Is that a mistake by the surgery?",
@@ -277,8 +277,8 @@
    "branches": [
     {
      "keywords": [
-      "ready",
       "isn't",
+      "ready",
       "time",
       "if"
      ],

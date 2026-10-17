@@ -1,0 +1,308 @@
+{
+ "id": "l1_u47_3",
+ "characterId": "weda",
+ "title": "Old photos",
+ "titleFa": "عکس‌های قدیمی",
+ "setting": "Nana's corner · Level 1",
+ "settingFa": "گوشهٔ نانا",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Look what I found in the cupboard! My old photo album. Would you like to see?",
+   "translations": {
+    "fa": "ببین تو کمد چی پیدا کردم! آلبوم عکس قدیمیم. می‌خوای ببینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please"
+     ],
+     "suggestion": "Yes, please!",
+     "suggestionFa": "آره، لطفاً!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "these",
+      "old"
+     ],
+     "suggestion": "Are these very old?",
+     "suggestionFa": "خیلی قدیمی‌ان؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "photo album",
+     "fa": "آلبوم عکس"
+    },
+    {
+     "word": "old",
+     "fa": "قدیمی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Very old! This is me. I was twenty. Wasn't I pretty?",
+   "translations": {
+    "fa": "خیلی قدیمی! این منم. بیست سالم بود. خوشگل نبودم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beautiful"
+     ],
+     "suggestion": "You were beautiful!",
+     "suggestionFa": "خیلی زیبا بودید!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where"
+     ],
+     "suggestion": "Where were you?",
+     "suggestionFa": "کجا بودید؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "was",
+     "fa": "بود"
+    },
+    {
+     "word": "pretty",
+     "fa": "زیبا"
+    },
+    {
+     "word": "were",
+     "fa": "بودی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "I was in Brighton, at the seaside. And this is George. He was very handsome!",
+   "translations": {
+    "fa": "برایتون بودم، کنار دریا. و این جورجه. خیلی خوش‌تیپ بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "porter",
+      "then"
+     ],
+     "suggestion": "Was George a porter then?",
+     "suggestionFa": "جورج اون موقع باربر بود؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "black",
+      "hair",
+      "his"
+     ],
+     "suggestion": "His hair was very black!",
+     "suggestionFa": "موهاش خیلی مشکی بود!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "seaside",
+     "fa": "کنار دریا"
+    },
+    {
+     "word": "handsome",
+     "fa": "خوش‌تیپ"
+    },
+    {
+     "word": "porter",
+     "fa": "باربر"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Yes, he was a porter at Piccadilly station, in Manchester. And look — here's a little boy. Who is it?",
+   "translations": {
+    "fa": "آره، باربر ایستگاه پیکادلی منچستر بود. و ببین — اینم یه پسر کوچولو. کیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tom"
+     ],
+     "suggestion": "Is that Tom?",
+     "suggestionFa": "این تامه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ryan",
+      "was"
+     ],
+     "suggestion": "Was it Ryan?",
+     "suggestionFa": "رایان بود؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "station",
+     "fa": "ایستگاه"
+    },
+    {
+     "word": "little boy",
+     "fa": "پسر کوچک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "It's Tom! He was five. He was very naughty. He was always on a bus, even then!",
+   "translations": {
+    "fa": "تامه! پنج سالش بود. خیلی شیطون بود. حتی اون موقع هم همیشه تو اتوبوس بود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cute",
+      "tom",
+      "was",
+      "ha"
+     ],
+     "suggestion": "Ha! Tom was cute.",
+     "suggestionFa": "ها! تام بامزه بود.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happy",
+      "then",
+      "were"
+     ],
+     "suggestion": "Were you happy then?",
+     "suggestionFa": "اون موقع خوشحال بودید؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "naughty",
+     "fa": "شیطان"
+    },
+    {
+     "word": "even then",
+     "fa": "حتی آن موقع"
+    },
+    {
+     "word": "cute",
+     "fa": "بامزه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "tom were naughty",
+      "tom was very naught"
+     ],
+     "echo": "Tom was naughty? Very!",
+     "better": "Tom was very naughty.",
+     "betterFa": "تام خیلی شیطون بود."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Very happy. Times were hard, but we were happy. Were your parents young in your photos?",
+   "translations": {
+    "fa": "خیلی خوشحال. اوضاع سخت بود، ولی خوشحال بودیم. پدر و مادرت تو عکس‌هات جوون بودن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "young",
+      "mum",
+      "was"
+     ],
+     "suggestion": "Yes. My mum was very young.",
+     "suggestionFa": "آره. مامانم خیلی جوون بود.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "photos",
+      "phone"
+     ],
+     "suggestion": "My photos are on my phone!",
+     "suggestionFa": "عکس‌های من تو گوشیمه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "times",
+     "fa": "دوران ؛ زمانه"
+    },
+    {
+     "word": "hard",
+     "fa": "سخت"
+    },
+    {
+     "word": "parents",
+     "fa": "والدین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "On your phone! Show me one, dear. I want to see your family. Is that your mum? She has kind eyes.",
+   "translations": {
+    "fa": "تو گوشیت! یکی نشونم بده عزیزم. می‌خوام خانواده‌ت را ببینم. این مامانته؟ چشمای مهربونی داره."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

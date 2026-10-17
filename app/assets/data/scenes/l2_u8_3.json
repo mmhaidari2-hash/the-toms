@@ -20,8 +20,8 @@
     {
      "keywords": [
       "message",
-      "tom's",
       "sorry",
+      "tom's",
       "take"
      ],
      "suggestion": "No, sorry, Tom's out. Can I take a message?",
@@ -84,7 +84,7 @@
      "keywords": [
       "that's",
       "great",
-      "tell",
+      "i'll",
       "news"
      ],
      "suggestion": "That's great news! I'll tell him.",
@@ -167,10 +167,10 @@
    "branches": [
     {
      "keywords": [
-      "number",
       "please",
-      "could",
-      "again"
+      "number",
+      "again",
+      "could"
      ],
      "suggestion": "Could you say the number again, please?",
      "suggestionFa": "میشه شماره را دوباره بگید؟",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "message",
-      "helen",
       "thank",
-      "pass"
+      "helen",
+      "i'll"
      ],
      "suggestion": "Thank you, Helen. I'll pass on the message.",
      "suggestionFa": "ممنون هلن. پیغام را می‌رسونم.",
@@ -235,8 +235,8 @@
     {
      "keywords": [
       "thanks",
-      "today",
       "he'll",
+      "today",
       "ring"
      ],
      "suggestion": "Thanks. He'll ring you back today.",

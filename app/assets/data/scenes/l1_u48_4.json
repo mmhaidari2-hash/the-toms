@@ -1,0 +1,377 @@
+{
+ "id": "l1_u48_4",
+ "characterId": "nicola",
+ "title": "Story time",
+ "titleFa": "وقت قصه",
+ "setting": "Evening routine · Level 1",
+ "settingFa": "برنامهٔ شبانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "I'm in bed! Mr Buttons is here too. Tell me a story from Iran! Please!",
+   "translations": {
+    "fa": "تو تختم! آقای دکمه هم اینجاست. یه قصه از ایران بگو! لطفاً!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "bird",
+      "time",
+      "once"
+     ],
+     "suggestion": "Once upon a time, there was a big bird.",
+     "suggestionFa": "یکی بود یکی نبود، یه پرندهٔ بزرگ بود.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "about",
+      "story",
+      "king",
+      "want"
+     ],
+     "suggestion": "OK. Do you want a story about a king?",
+     "suggestionFa": "باشه. یه قصه دربارهٔ یه پادشاه می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "once upon a time",
+     "fa": "روزی روزگاری ؛ یکی بود یکی نبود"
+    },
+    {
+     "word": "bird",
+     "fa": "پرنده"
+    },
+    {
+     "word": "king",
+     "fa": "پادشاه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Persian stories often start \"Yeki bood, yeki nabood\" — \"One was, one wasn't\" — like \"Once upon a time\".",
+    "fa": "یکی بود یکی نبود."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "A big bird! How big? Bigger than a bus?",
+   "translations": {
+    "fa": "یه پرندهٔ بزرگ! چقدر بزرگ؟ بزرگ‌تر از اتوبوس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "simorgh",
+      "bigger",
+      "house",
+      "name"
+     ],
+     "suggestion": "Bigger than a house! Her name was Simorgh.",
+     "suggestionFa": "بزرگ‌تر از یه خونه! اسمش سیمرغ بود.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mountain",
+      "big",
+      "she",
+      "as"
+     ],
+     "suggestion": "She was as big as a mountain!",
+     "suggestionFa": "به بزرگی یه کوه بود!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bigger than",
+     "fa": "بزرگ‌تر از"
+    },
+    {
+     "word": "mountain",
+     "fa": "کوه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "Simorgh! Where did she live?",
+   "translations": {
+    "fa": "سیمرغ! کجا زندگی می‌کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mountain",
+      "lived",
+      "high",
+      "top"
+     ],
+     "suggestion": "She lived on top of a high mountain.",
+     "suggestionFa": "بالای یه کوه بلند زندگی می‌کرد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "magic",
+      "nest",
+      "tree"
+     ],
+     "suggestion": "In a nest in a magic tree.",
+     "suggestionFa": "تو یه لونه رو یه درخت جادویی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lived",
+     "fa": "زندگی می‌کرد"
+    },
+    {
+     "word": "nest",
+     "fa": "لانه"
+    },
+    {
+     "word": "magic",
+     "fa": "جادویی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "Ooh. Was she kind or scary?",
+   "translations": {
+    "fa": "اوه. مهربون بود یا ترسناک؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wise"
+     ],
+     "suggestion": "She was very kind and very wise.",
+     "suggestionFa": "خیلی مهربون و خیلی دانا بود.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "scary",
+      "but",
+      "bad"
+     ],
+     "suggestion": "She was kind, but she was scary to bad people!",
+     "suggestionFa": "مهربون بود، ولی برای آدم‌های بد ترسناک بود!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "wise",
+     "fa": "دانا"
+    },
+    {
+     "word": "scary",
+     "fa": "ترسناک"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "What did she do?",
+   "translations": {
+    "fa": "چی کار کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "found",
+      "day",
+      "one"
+     ],
+     "suggestion": "One day, she found a little baby boy.",
+     "suggestionFa": "یه روز، یه پسر بچه پیدا کرد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mountain",
+      "saved"
+     ],
+     "suggestion": "She saved a baby on the mountain.",
+     "suggestionFa": "یه بچه را رو کوه نجات داد.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "saved",
+     "fa": "نجات داد"
+    },
+    {
+     "word": "one day",
+     "fa": "یک روز"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "she find a baby",
+      "she founded a baby"
+     ],
+     "echo": "She found a baby? Then what?",
+     "better": "She found a baby.",
+     "betterFa": "یه بچه پیدا کرد."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "A baby! Like William? Did she look after him?",
+   "translations": {
+    "fa": "یه بچه! مثل ویلیام؟ ازش مراقبت کرد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "looked",
+      "years",
+      "after"
+     ],
+     "suggestion": "Yes. She looked after him for years.",
+     "suggestionFa": "آره. سال‌ها ازش مراقبت کرد.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "warm",
+      "gave",
+      "food",
+      "kept"
+     ],
+     "suggestion": "She gave him food and kept him warm.",
+     "suggestionFa": "بهش غذا داد و گرمش نگه داشت.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "look after",
+     "fa": "مراقبت کردن"
+    },
+    {
+     "word": "years",
+     "fa": "سال‌ها"
+    },
+    {
+     "word": "warm",
+     "fa": "گرم"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "Like Nana looks after William! Then what happened? Did he grow up?",
+   "translations": {
+    "fa": "مثل نانا که از ویلیام مراقبت می‌کنه! بعد چی شد؟ بزرگ شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "became",
+      "grew",
+      "hero",
+      "he"
+     ],
+     "suggestion": "He grew up and became a hero.",
+     "suggestionFa": "بزرگ شد و قهرمان شد.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tomorrow",
+      "that's",
+      "night",
+      "shh"
+     ],
+     "suggestion": "Shh. That's for tomorrow night!",
+     "suggestionFa": "هیس. اون برای فردا شبه!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grow up",
+     "fa": "بزرگ شدن"
+    },
+    {
+     "word": "hero",
+     "fa": "قهرمان"
+    },
+    {
+     "word": "became",
+     "fa": "شد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Tomorrow night?! OK… Simorgh is my favourite now. Night night, {you}. Night night, Simorgh…",
+   "translations": {
+    "fa": "فردا شب؟! باشه… الان سیمرغ محبوب منه. شب بخیر {you}. شب بخیر سیمرغ…"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

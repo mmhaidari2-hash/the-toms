@@ -21,8 +21,8 @@
      "keywords": [
       "overwhelmed",
       "feeling",
-      "lately",
-      "honest"
+      "honest",
+      "lately"
      ],
      "suggestion": "To be honest, I've been feeling a bit overwhelmed lately.",
      "suggestionFa": "راستش، این اواخر یه کم احساس فشار زیاد می‌کنم.",
@@ -35,7 +35,7 @@
       "better",
       "still",
       "feel",
-      "most"
+      "days"
      ],
      "suggestion": "Better, but I still feel run down most days.",
      "suggestionFa": "بهتر، ولی هنوز بیشتر روزها بی‌رمقم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "worrying",
       "intense",
-      "family",
-      "work's"
+      "work's",
+      "family"
      ],
      "suggestion": "Work's been intense, and I've been worrying about my family back home.",
      "suggestionFa": "کار سنگین بوده، و نگران خانواده‌ام تو وطنم هستم.",
@@ -88,8 +88,8 @@
      "keywords": [
       "something",
       "happen",
-      "edge",
-      "feel"
+      "feel",
+      "time"
      ],
      "suggestion": "I feel on edge all the time, as if something bad is about to happen.",
      "suggestionFa": "همیشه عصبی‌ام، انگار یه اتفاق بد قراره بیفته.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "appetite",
-      "focus",
       "can't",
-      "lost"
+      "focus",
+      "work"
      ],
      "suggestion": "I've lost my appetite a bit, and I can't focus at work.",
      "suggestionFa": "یه کم اشتهام کم شده، و سر کار نمی‌تونم تمرکز کنم.",
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "talking",
       "therapy",
+      "talking",
       "involve"
      ],
      "suggestion": "What does talking therapy involve?",
@@ -199,8 +199,8 @@
      "keywords": [
       "waiting",
       "there",
-      "list",
-      "long"
+      "long",
+      "list"
      ],
      "suggestion": "Is there a long waiting list?",
      "suggestionFa": "لیست انتظار طولانیه؟",

@@ -22,9 +22,9 @@
     {
      "keywords": [
       "provisional",
-      "support",
       "licence",
       "mirrors",
+      "support",
       "ryan's"
      ],
      "suggestion": "Right, you're in the back seat as moral support. Ryan's got his provisional licence — tell him to check his mirrors.",
@@ -50,7 +50,7 @@
       "something",
       "stalled",
       "clutch",
-      "would"
+      "again"
      ],
      "suggestion": "Easy… easy on the clutch! He's stalled it again. Say something encouraging, would you?",
      "suggestionFa": "آروم… کلاچ را آروم! دوباره خاموشش کرد. یه چیز دلگرم‌کننده بگو، باشه؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "country",
-      "round",
       "wants",
-      "there",
-      "drive"
+      "drive",
+      "round",
+      "there"
      ],
      "suggestion": "There he goes! Now, round the car park. Ryan wants to know — did you drive in your country?",
      "suggestionFa": "راه افتاد! حالا، دور پارکینگ. رایان می‌خواد بدونه — تو کشورت رانندگی می‌کردی؟",
@@ -100,7 +100,7 @@
       "priority",
       "there's",
       "coming",
-      "right"
+      "wrong"
      ],
      "suggestion": "Ha, the wrong side! Right, Ryan, there's a roundabout coming. Who has priority?",
      "suggestionFa": "ها، سمت اشتباه! خب، رایان، یه میدون داره میاد. حق تقدم با کیه؟",
@@ -125,7 +125,7 @@
       "parking",
       "lovely",
       "next",
-      "come"
+      "left"
      ],
      "suggestion": "Spot on. He did it! Indicate left to come off. Lovely. Next up — parking.",
      "suggestionFa": "دقیقاً. انجامش داد! برای خروج راهنمای چپ بزن. عالی. بعدی — پارک کردن.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "enough",
       "spaces",
-      "close",
+      "enough",
       "first",
-      "think"
+      "think",
+      "close"
      ],
      "suggestion": "He's… in two spaces. Close enough for a first go! What do you think?",
      "suggestionFa": "اون… تو دو تا جا پارک کرده. برای بار اول کافیه! نظرت چیه؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "asking",
-      "true",
-      "take",
+      "when",
       "test",
-      "he's"
+      "he's",
+      "true"
      ],
      "suggestion": "Ha! True. He's asking when he can take his test.",
      "suggestionFa": "ها! درسته. داره می‌پرسه کی می‌تونه امتحان بده.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "exactly",
       "driving",
+      "exactly",
       "nerves",
-      "seats",
-      "can't"
+      "can't",
+      "seats"
      ],
      "suggestion": "Exactly. Right, swap seats. I'm driving home — my nerves can't take any more.",
      "suggestionFa": "دقیقاً. خب، جا عوض کنیم. من می‌رونم خونه — اعصابم دیگه نمی‌کشه.",
@@ -225,7 +225,7 @@
       "where",
       "look",
       "time",
-      "did"
+      "him"
      ],
      "suggestion": "Look at him — my boy, driving. Where did the time go, eh?",
      "suggestionFa": "نگاش کن — پسرم، داره رانندگی می‌کنه. زمان کجا رفت، ها؟",

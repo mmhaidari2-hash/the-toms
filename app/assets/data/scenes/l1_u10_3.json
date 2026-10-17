@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "six",
-      "now",
       "wow",
-      "big"
+      "big",
+      "now",
+      "six"
      ],
      "suggestion": "Wow, six! You're so big now!",
      "suggestionFa": "وای، شش! حالا خیلی بزرگ شدی!",
@@ -183,9 +183,9 @@
     {
      "keywords": [
       "secret",
-      "good",
       "keep",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. Keep it secret!",
      "suggestionFa": "فکر خوبیه. رازش را نگه دار!",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "present",
-      "nicola",
-      "here's"
+      "here's",
+      "nicola"
      ],
      "suggestion": "Here's your present, Nicola.",
      "suggestionFa": "بفرما کادوت، نیکولا.",
@@ -272,8 +272,8 @@
    "branches": [
     {
      "keywords": [
-      "glad",
-      "like"
+      "like",
+      "glad"
      ],
      "suggestion": "I'm glad you like it.",
      "suggestionFa": "خوشحالم که دوستش داری.",

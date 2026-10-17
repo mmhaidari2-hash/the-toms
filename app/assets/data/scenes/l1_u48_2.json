@@ -1,0 +1,325 @@
+{
+ "id": "l1_u48_2",
+ "characterId": "ryan",
+ "title": "Telly time",
+ "titleFa": "وقت تلویزیون",
+ "setting": "Evening routine · Level 1",
+ "settingFa": "برنامهٔ شبانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Dinner's done. Telly time! What shall we watch?",
+   "translations": {
+    "fa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "watch",
+      "news",
+      "we"
+     ],
+     "suggestion": "Shall we watch the news?",
+     "suggestionFa": "اخبار ببینیم؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "football",
+      "there",
+      "any"
+     ],
+     "suggestion": "Is there any football on?",
+     "suggestionFa": "فوتبال داره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "telly",
+     "fa": "تلویزیون (عامیانه)"
+    },
+    {
+     "word": "watch",
+     "fa": "تماشا کردن"
+    },
+    {
+     "word": "news",
+     "fa": "اخبار"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Telly\" is informal British English for television. Americans say \"TV\".",
+    "fa": "telly/TV."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "The news? Boring! I'd rather watch football. Arsenal are playing.",
+   "translations": {
+    "fa": "اخبار؟ کسل‌کننده‌ست! ترجیح میدم فوتبال ببینم. آرسنال بازی داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "football",
+      "rather",
+      "watch",
+      "i'd"
+     ],
+     "suggestion": "OK. I'd rather watch football too.",
+     "suggestionFa": "باشه. منم ترجیح میدم فوتبال ببینم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "playing",
+      "they",
+      "who"
+     ],
+     "suggestion": "Who are they playing?",
+     "suggestionFa": "با کی بازی دارن؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "I'd rather",
+     "fa": "ترجیح می‌دهم"
+    },
+    {
+     "word": "playing",
+     "fa": "بازی می‌کنند"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i rather watch football",
+      "i'd rather to watch"
+     ],
+     "echo": "You'd rather watch football? Same!",
+     "better": "I'd rather watch football.",
+     "betterFa": "ترجیح میدم فوتبال ببینم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Spurs. Big game! But Nicola wants cartoons and Mum wants Bake Off.",
+   "translations": {
+    "fa": "اسپرز. بازی بزرگیه! ولی نیکولا کارتون می‌خواد و مامان بیک آف."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "bake",
+      "off"
+     ],
+     "suggestion": "What's Bake Off?",
+     "suggestionFa": "بیک آف چیه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "different",
+      "shows",
+      "three"
+     ],
+     "suggestion": "Three different shows!",
+     "suggestionFa": "سه تا برنامهٔ مختلف!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cartoons",
+     "fa": "کارتون‌ها"
+    },
+    {
+     "word": "shows",
+     "fa": "برنامه‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"The Great British Bake Off\" is a very popular TV baking competition.",
+    "fa": "مسابقهٔ آشپزی بیک آف."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
+   "translations": {
+    "fa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cartoons",
+      "nicola",
+      "first"
+     ],
+     "suggestion": "Cartoons first, for Nicola.",
+     "suggestionFa": "اول کارتون، برای نیکولا.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "watch",
+      "phone",
+      "match",
+      "can"
+     ],
+     "suggestion": "We can watch the match on your phone.",
+     "suggestionFa": "می‌تونیم بازی را رو گوشیت ببینیم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "baking",
+     "fa": "شیرینی‌پزی"
+    },
+    {
+     "word": "tent",
+     "fa": "چادر"
+    },
+    {
+     "word": "rule",
+     "fa": "قانون"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "Good shout. Nicola's cartoon is only twenty minutes. Then Mum, then the match.",
+   "translations": {
+    "fa": "فکر خوبیه. کارتون نیکولا فقط بیست دقیقه‌ست. بعد مامان، بعد بازی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eight",
+      "match",
+      "but"
+     ],
+     "suggestion": "But the match is at eight.",
+     "suggestionFa": "ولی بازی ساعت هشته.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "record",
+      "can",
+      "we"
+     ],
+     "suggestion": "We can record it.",
+     "suggestionFa": "می‌تونیم ضبطش کنیم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "good shout",
+     "fa": "فکر خوب"
+    },
+    {
+     "word": "record",
+     "fa": "ضبط کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
+   "translations": {
+    "fa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "popcorn",
+      "crisps"
+     ],
+     "suggestion": "Crisps or popcorn?",
+     "suggestionFa": "چیپس یا پاپ‌کورن؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "rather",
+      "fruit",
+      "have",
+      "i'd"
+     ],
+     "suggestion": "I'd rather have fruit.",
+     "suggestionFa": "ترجیح میدم میوه بخورم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spoilers",
+     "fa": "لو دادن داستان ؛ اسپویلر"
+    },
+    {
+     "word": "score",
+     "fa": "نتیجه"
+    },
+    {
+     "word": "snacks",
+     "fa": "خوراکی‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"crisps\", American \"chips\". British \"chips\" = American \"fries\".",
+    "fa": "crisps/chips."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Fruit? Who are you, Mum? Crisps. Salt and vinegar. Right, remote's mine. Sit down — cartoons are starting!",
+   "translations": {
+    "fa": "میوه؟ تو کی هستی، مامان؟ چیپس. نمک و سرکه. خب، کنترل مال منه. بشین — کارتون داره شروع میشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

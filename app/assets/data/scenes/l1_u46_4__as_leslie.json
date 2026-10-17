@@ -1,0 +1,262 @@
+{
+ "id": "l1_u46_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Thanks for coming",
+ "titleFa": "(در نقش Leslie) ممنون که آمدید",
+ "setting": "Visitors · Level 1",
+ "settingFa": "مهمان‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u46_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "already",
+      "nine",
+      "only",
+      "off"
+     ],
+     "suggestion": "Are you off already? It's only nine o'clock!",
+     "suggestionFa": "دارید میرید؟ تازه ساعت نهه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, I've got work tomorrow.",
+   "translations": {
+    "fa": "آره، فردا کار دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "khan",
+   "text": "I'm an old lady, Leslie! Nine is very late for me. Thank you for a lovely evening.",
+   "translations": {
+    "fa": "من یه پیرزنم لزلی! نه برای من خیلی دیره. ممنون بابت یه شب عالی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lovely",
+     "fa": "دلپذیر"
+    },
+    {
+     "word": "evening",
+     "fa": "شب ؛ عصر"
+    },
+    {
+     "word": "having us",
+     "fa": "میزبانی ما"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Thanks for having me/us\" is the standard British way to thank a host.",
+    "fa": "Thanks for having us."
+   }
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Thank you for having us.",
+   "translations": {
+    "fa": "ممنون که مهمونمون کردید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "samosas",
+      "coming",
+      "sweets",
+      "thank",
+      "again"
+     ],
+     "suggestion": "Thank you for coming! And for the samosas and the sweets. You must come again.",
+     "suggestionFa": "ممنون که اومدید! و بابت سمبوسه‌ها و شیرینی‌ها. باید دوباره بیاید.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "We'd love to.",
+   "translations": {
+    "fa": "خیلی دوست داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "cooking",
+      "want",
+      "wait",
+      "home"
+     ],
+     "suggestion": "Yes! I want to try your Persian cooking. Wait — take some food home!",
+     "suggestionFa": "آره! می‌خوام آشپزی ایرانیت را امتحان کنم. صبر کنید — یه کم غذا ببرید خونه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Oh no, that's too much.",
+   "translations": {
+    "fa": "آه نه، خیلی زیاده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there's",
+      "here's",
+      "loads",
+      "amina",
+      "coats"
+     ],
+     "suggestion": "There's loads! Here's a box for you, and one for Amina. Have you got your coats?",
+     "suggestionFa": "کلی هست! اینم یه جعبه برای تو، یکی هم برای آمینا. کتاتون را برداشتید؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Yes. And my umbrella.",
+   "translations": {
+    "fa": "آره. و چترم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "khan",
+   "text": "Mehdi, can you walk me home? It's only next door, but it's dark.",
+   "translations": {
+    "fa": "{you}، منو تا خونه می‌رسونی؟ همین بغله، ولی تاریکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walk someone home",
+     "fa": "کسی را تا خانه رساندن"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Of course, Mrs Khan.",
+   "translations": {
+    "fa": "البته خانم خان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "night",
+      "safe",
+      "when",
+      "home",
+      "door"
+     ],
+     "suggestion": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",
+     "suggestionFa": "شب بخیر! وقتی سالم رسیدید پیام بدید. ها — هر دوتون که بغل دستید! خداحافظ!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

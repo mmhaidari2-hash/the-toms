@@ -33,8 +33,8 @@
      "keywords": [
       "problem",
       "small",
-      "have",
-      "fine"
+      "fine",
+      "have"
      ],
      "suggestion": "Yes, fine. But I have a small problem.",
      "suggestionFa": "آره، خوبه. ولی یه مشکل کوچیک دارم.",
@@ -69,8 +69,8 @@
     {
      "keywords": [
       "i've",
-      "tea",
-      "got"
+      "got",
+      "tea"
      ],
      "suggestion": "I've got no milk for my tea.",
      "suggestionFa": "برای چایم شیر ندارم.",
@@ -80,8 +80,8 @@
     },
     {
      "keywords": [
-      "borrow",
       "please",
+      "borrow",
       "could",
       "some"
      ],
@@ -134,8 +134,8 @@
      "keywords": [
       "little",
       "just",
-      "cup",
-      "one"
+      "one",
+      "cup"
      ],
      "suggestion": "Just a little. For one cup.",
      "suggestionFa": "فقط یه کم. برای یه فنجون.",
@@ -276,8 +276,8 @@
     {
      "keywords": [
       "didn't",
-      "open",
       "know",
+      "open",
       "was"
      ],
      "suggestion": "I didn't know it was open.",
@@ -309,8 +309,8 @@
     {
      "keywords": [
       "tomorrow",
-      "milk",
       "i'll",
+      "milk",
       "buy"
      ],
      "suggestion": "I'll buy you milk tomorrow.",

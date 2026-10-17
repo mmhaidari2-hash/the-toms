@@ -20,8 +20,8 @@
     {
      "keywords": [
       "parcel",
-      "like",
       "send",
+      "like",
       "i'd"
      ],
      "suggestion": "I'd like to send this parcel, please.",
@@ -34,8 +34,8 @@
      "keywords": [
       "stamps",
       "could",
-      "have",
-      "some"
+      "some",
+      "have"
      ],
      "suggestion": "Could I have some stamps, please?",
      "suggestionFa": "می‌شه چند تا تمبر بگیرم، لطفاً؟",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "cost",
-      "much",
       "will",
+      "much",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "pounds",
-      "write",
-      "value"
+      "value",
+      "write"
      ],
      "suggestion": "Do I write the value in pounds?",
      "suggestionFa": "ارزش را به پوند بنویسم؟",
@@ -323,10 +323,10 @@
     },
     {
      "keywords": [
-      "first",
       "could",
-      "time",
-      "help"
+      "first",
+      "help",
+      "time"
      ],
      "suggestion": "Could you help me with it? It's my first time.",
      "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
@@ -371,8 +371,8 @@
     },
     {
      "keywords": [
-      "done",
       "need",
+      "done",
       "else"
      ],
      "suggestion": "Done. What else do you need?",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "please",
-      "number"
+      "number",
+      "please"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",

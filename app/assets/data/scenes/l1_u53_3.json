@@ -1,0 +1,320 @@
+{
+ "id": "l1_u53_3",
+ "characterId": "arthur",
+ "title": "First or second class?",
+ "titleFa": "درجه یک یا دو؟",
+ "setting": "At the post office (basics) · Level 1",
+ "settingFa": "در اداره پست (پایه)",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Hello again! Another letter? First or second class?",
+   "translations": {
+    "fa": "دوباره سلام! یه نامهٔ دیگه؟ درجه یک یا درجه دو؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "difference",
+      "what's"
+     ],
+     "suggestion": "What's the difference?",
+     "suggestionFa": "فرقشون چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "faster",
+      "which"
+     ],
+     "suggestion": "Which is faster?",
+     "suggestionFa": "کدوم سریع‌تره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "first class",
+     "fa": "درجه یک"
+    },
+    {
+     "word": "second class",
+     "fa": "درجه دو"
+    },
+    {
+     "word": "difference",
+     "fa": "تفاوت"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "First class usually arrives the next day. Second class takes two or three days.",
+   "translations": {
+    "fa": "درجه یک معمولاً روز بعد می‌رسه. درجه دو دو سه روز طول می‌کشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "first",
+      "more"
+     ],
+     "suggestion": "Is first class more expensive?",
+     "suggestionFa": "درجه یک گرون‌تره؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slower",
+      "second"
+     ],
+     "suggestion": "So second class is slower.",
+     "suggestionFa": "پس درجه دو کندتره.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "next day",
+     "fa": "روز بعد"
+    },
+    {
+     "word": "takes",
+     "fa": "طول می‌کشد"
+    },
+    {
+     "word": "slower",
+     "fa": "کندتر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Yes, first class is more expensive. Second class is cheaper. Is it urgent?",
+   "translations": {
+    "fa": "آره، درجه یک گرون‌تره. درجه دو ارزون‌تره. فوریه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "visa"
+     ],
+     "suggestion": "Yes, it's urgent. It's for my visa.",
+     "suggestionFa": "آره، فوریه. برای ویزامه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "isn't"
+     ],
+     "suggestion": "No, it isn't urgent.",
+     "suggestionFa": "نه، فوری نیست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheaper",
+     "fa": "ارزان‌تر"
+    },
+    {
+     "word": "urgent",
+     "fa": "فوری"
+    },
+    {
+     "word": "visa",
+     "fa": "ویزا"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it is more cheap",
+      "second class is more cheaper"
+     ],
+     "echo": "It's cheaper? Yes, it is!",
+     "better": "Second class is cheaper.",
+     "betterFa": "درجه دو ارزون‌تره."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "For important papers, I'd use Special Delivery. It's the fastest and the safest.",
+   "translations": {
+    "fa": "برای مدارک مهم، من از ارسال ویژه استفاده می‌کنم. سریع‌ترین و امن‌ترینه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "first",
+      "class",
+      "than"
+     ],
+     "suggestion": "Is it more expensive than first class?",
+     "suggestionFa": "از درجه یک گرون‌تره؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "safer",
+      "why"
+     ],
+     "suggestion": "Why is it safer?",
+     "suggestionFa": "چرا امن‌تره؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "important",
+     "fa": "مهم"
+    },
+    {
+     "word": "papers",
+     "fa": "مدارک"
+    },
+    {
+     "word": "fastest",
+     "fa": "سریع‌ترین"
+    },
+    {
+     "word": "safest",
+     "fa": "امن‌ترین"
+    }
+   ],
+   "cultureNote": {
+    "en": "For important documents, use \"Special Delivery Guaranteed\" — it's tracked and must be signed for.",
+    "fa": "ارسال ویژه با رهگیری."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "It's tracked, and somebody signs for it. And it arrives before one o'clock tomorrow.",
+   "translations": {
+    "fa": "رهگیری میشه، و یکی تحویلش را امضا می‌کنه. و فردا قبل از ساعت یک می‌رسه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "delivery",
+      "special",
+      "please",
+      "ok"
+     ],
+     "suggestion": "OK. Special Delivery, please.",
+     "suggestionFa": "باشه. ارسال ویژه، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "track",
+      "how"
+     ],
+     "suggestion": "How do I track it?",
+     "suggestionFa": "چطوری رهگیریش کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tracked",
+     "fa": "رهگیری‌شده"
+    },
+    {
+     "word": "signs for",
+     "fa": "امضا کردن برای تحویل"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "Wise choice. Here's your receipt. The tracking number is at the top. Keep it safe!",
+   "translations": {
+    "fa": "انتخاب عاقلانه. اینم رسیدتون. شمارهٔ رهگیری بالاشه. خوب نگهش دارید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "online",
+      "check",
+      "thank",
+      "i'll"
+     ],
+     "suggestion": "Thank you. I'll check it online.",
+     "suggestionFa": "ممنون. آنلاین چکش می‌کنم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tracking",
+      "number",
+      "one"
+     ],
+     "suggestion": "Is the tracking number this one?",
+     "suggestionFa": "شمارهٔ رهگیری اینه؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "receipt",
+     "fa": "رسید"
+    },
+    {
+     "word": "tracking number",
+     "fa": "شمارهٔ رهگیری"
+    },
+    {
+     "word": "online",
+     "fa": "آنلاین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "That's the one. Forty years here, and Special Delivery has never let me down. Good luck!",
+   "translations": {
+    "fa": "همینه. چهل سال اینجام، و ارسال ویژه هیچ‌وقت ناامیدم نکرده. موفق باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

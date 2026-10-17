@@ -50,7 +50,7 @@
       "middle",
       "please",
       "don't",
-      "tell"
+      "game"
      ],
      "suggestion": "Ten more minutes. I'm in the middle of a game. Please don't tell Mum!",
      "suggestionFa": "ده دقیقه دیگه. وسط یه بازی‌ام. خواهش می‌کنم به مامان نگو!",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "o'clock",
       "minutes",
+      "o'clock",
       "alarm",
       "seven",
       "five"
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "curtains",
-      "please",
       "shower",
+      "please",
       "before",
       "school"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "charger",
+      "where's",
       "thanks",
       "phone",
       "lost"
@@ -173,7 +173,7 @@
      "keywords": [
       "light",
       "phone",
-      "turn",
+      "desk",
       "mums",
       "same"
      ],
@@ -198,9 +198,9 @@
      "keywords": [
       "minutes",
       "thanks",
-      "about",
       "don't",
-      "night"
+      "extra",
+      "about"
      ],
      "suggestion": "Night! Thanks, mate. And don't tell Mum about the extra five minutes!",
      "suggestionFa": "شب بخیر! ممنون رفیق. و دربارهٔ اون پنج دقیقهٔ اضافه به مامان چیزی نگو!",

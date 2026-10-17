@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "split",
       "shall",
+      "split",
       "we"
      ],
      "suggestion": "Shall we split it?",
@@ -133,8 +133,8 @@
     },
     {
      "keywords": [
-      "time",
       "i'll",
+      "time",
       "pay"
      ],
      "suggestion": "I'll pay this time.",
@@ -218,8 +218,8 @@
     {
      "keywords": [
       "pounds",
-      "three",
-      "about"
+      "about",
+      "three"
      ],
      "suggestion": "So about three pounds?",
      "suggestionFa": "پس حدود سه پوند؟",
@@ -271,8 +271,8 @@
     {
      "keywords": [
       "separately",
-      "can",
       "pay",
+      "can",
       "we"
      ],
      "suggestion": "Can we pay separately, please?",
@@ -373,8 +373,8 @@
     {
      "keywords": [
       "we'll",
-      "back",
       "soon",
+      "back",
       "come"
      ],
      "suggestion": "We'll come back soon!",

@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "thanks",
       "really",
-      "fine",
-      "well"
+      "thanks",
+      "well",
+      "fine"
      ],
      "suggestion": "I'm fine, thanks. Well — not really!",
      "suggestionFa": "خوبم ممنون. خب — نه واقعاً!",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "barcode",
       "there's",
+      "barcode",
       "bananas",
       "won't"
      ],
@@ -133,9 +133,9 @@
     },
     {
      "keywords": [
-      "better",
-      "thanks",
       "that's",
+      "thanks",
+      "better",
       "much"
      ],
      "suggestion": "Thanks. That's much better.",
@@ -175,9 +175,9 @@
     {
      "keywords": [
       "approval",
-      "need",
       "says",
-      "got"
+      "need",
+      "now"
      ],
      "suggestion": "Got it. Now it says I need approval.",
      "suggestionFa": "فهمیدم. حالا می‌گه تأیید لازم دارم.",
@@ -187,9 +187,9 @@
     },
     {
      "keywords": [
-      "when",
-      "easy",
       "know",
+      "easy",
+      "when",
       "how"
      ],
      "suggestion": "Easy when you know how!",
@@ -274,9 +274,9 @@
    "branches": [
     {
      "keywords": [
+      "one",
       "how",
-      "get",
-      "one"
+      "get"
      ],
      "suggestion": "No. How do I get one?",
      "suggestionFa": "نه. چطوری بگیرم؟",
@@ -334,8 +334,8 @@
      "keywords": [
       "cash",
       "here",
-      "can",
-      "pay"
+      "pay",
+      "can"
      ],
      "suggestion": "Can I pay with cash here?",
      "suggestionFa": "اینجا می‌تونم نقد بدم؟",
@@ -391,8 +391,8 @@
     {
      "keywords": [
       "please",
-      "them",
-      "keep"
+      "keep",
+      "them"
      ],
      "suggestion": "Yes please, I keep them.",
      "suggestionFa": "آره لطفاً، نگهشون می‌دارم.",

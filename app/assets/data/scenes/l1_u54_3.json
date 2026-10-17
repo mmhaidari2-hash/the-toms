@@ -1,0 +1,366 @@
+{
+ "id": "l1_u54_3",
+ "characterId": "leslie",
+ "title": "Easter eggs",
+ "titleFa": "تخم‌مرغ‌های عید پاک",
+ "setting": "Holiday words · Level 1",
+ "settingFa": "واژه‌های تعطیلات",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "It's Easter Sunday! We're having an egg hunt in the garden. Will you help me hide the eggs?",
+   "translations": {
+    "fa": "یکشنبهٔ عید پاکه! تو حیاط تخم‌مرغ‌بازی داریم. کمکم می‌کنی تخم‌مرغ‌ها را قایم کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "hunt",
+      "egg"
+     ],
+     "suggestion": "Yes! What's an egg hunt?",
+     "suggestionFa": "آره! تخم‌مرغ‌بازی چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "chocolate",
+      "they",
+      "eggs"
+     ],
+     "suggestion": "Are they chocolate eggs?",
+     "suggestionFa": "تخم‌مرغ‌های شکلاتی‌ان؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Easter",
+     "fa": "عید پاک"
+    },
+    {
+     "word": "egg hunt",
+     "fa": "بازی پیدا کردن تخم‌مرغ"
+    },
+    {
+     "word": "hide",
+     "fa": "قایم کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "At Easter, British children look for small chocolate eggs hidden in the garden.",
+    "fa": "شکار تخم‌مرغ شکلاتی."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Little chocolate eggs. We hide them, and the kids find them. Put one under that flowerpot.",
+   "translations": {
+    "fa": "تخم‌مرغ‌های شکلاتی کوچیک. ما قایمشون می‌کنیم، بچه‌ها پیداشون می‌کنن. یکی زیر اون گلدون بذار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flowerpot",
+      "under"
+     ],
+     "suggestion": "One under the flowerpot.",
+     "suggestionFa": "یکی زیر گلدون.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shall",
+      "tree",
+      "put"
+     ],
+     "suggestion": "Shall I put one in the tree?",
+     "suggestionFa": "یکی تو درخت بذارم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flowerpot",
+     "fa": "گلدان"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    },
+    {
+     "word": "tree",
+     "fa": "درخت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Yes, in the tree, not too high. Nicola can't reach. And two behind the shed.",
+   "translations": {
+    "fa": "آره، تو درخت، نه خیلی بالا. دست نیکولا نمی‌رسه. و دو تا پشت انباری."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "behind",
+      "done",
+      "shed"
+     ],
+     "suggestion": "Behind the shed. Done!",
+     "suggestionFa": "پشت انباری. انجام شد!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "there",
+      "eggs",
+      "many",
+      "how"
+     ],
+     "suggestion": "How many eggs are there?",
+     "suggestionFa": "چند تا تخم‌مرغ هست؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "high",
+     "fa": "بالا ؛ بلند"
+    },
+    {
+     "word": "reach",
+     "fa": "رسیدن"
+    },
+    {
+     "word": "behind",
+     "fa": "پشت"
+    },
+    {
+     "word": "shed",
+     "fa": "انباری"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Twenty. Ten for Nicola, ten for Mia. Ryan says he's \"too old\". But I saw him eating one!",
+   "translations": {
+    "fa": "بیست تا. ده تا برای نیکولا، ده تا برای میا. رایان میگه «زیادی بزرگه». ولی دیدم داره یکی می‌خوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chocolate",
+      "nobody",
+      "old",
+      "ha"
+     ],
+     "suggestion": "Ha! Nobody is too old for chocolate.",
+     "suggestionFa": "ها! هیچ‌کس برای شکلات زیادی بزرگ نیست.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "should",
+      "hide",
+      "some",
+      "ryan"
+     ],
+     "suggestion": "Should we hide some for Ryan?",
+     "suggestionFa": "چندتا برای رایان قایم کنیم؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "too old",
+     "fa": "بیش از حد بزرگ"
+    },
+    {
+     "word": "eating",
+     "fa": "خوردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "nobody too old to chocolate",
+      "nobody is too old of chocolate"
+     ],
+     "echo": "Too old for chocolate? Never!",
+     "better": "Nobody is too old for chocolate.",
+     "betterFa": "هیچ‌کس برای شکلات زیادی بزرگ نیست."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Can we start? Can we START? I've got my basket!",
+   "translations": {
+    "fa": "می‌تونیم شروع کنیم؟ می‌تونیم شروع کنیم؟ سبدم را آوردم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "steady",
+      "ready",
+      "go"
+     ],
+     "suggestion": "Ready, steady, go!",
+     "suggestionFa": "حاضر، آماده، برو!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "flowerpot",
+      "under",
+      "look"
+     ],
+     "suggestion": "Look under the flowerpot!",
+     "suggestionFa": "زیر گلدون را نگاه کن!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "start",
+     "fa": "شروع کردن"
+    },
+    {
+     "word": "basket",
+     "fa": "سبد"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "I found one! And another one! There's one behind the shed! Mia, there's one in the tree!",
+   "translations": {
+    "fa": "یکی پیدا کردم! و یکی دیگه! پشت انباری یکی هست! میا، تو درخت یکی هست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "girls",
+      "well",
+      "done"
+     ],
+     "suggestion": "Well done, girls!",
+     "suggestionFa": "آفرین دخترها!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "them",
+      "all",
+      "now"
+     ],
+     "suggestion": "Don't eat them all now!",
+     "suggestionFa": "همه‌شون را الان نخورید!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "found",
+     "fa": "پیدا کرد"
+    },
+    {
+     "word": "another",
+     "fa": "یکی دیگر"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Too late! Chocolate faces! Ha! Happy Easter, everyone. Do people have chocolate eggs in Iran?",
+   "translations": {
+    "fa": "دیر شد! صورت‌های شکلاتی! ها! عید پاک مبارک همه. تو ایران تخم‌مرغ شکلاتی دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nowruz",
+      "paint",
+      "but"
+     ],
+     "suggestion": "No, but we paint eggs at Nowruz!",
+     "suggestionFa": "نه، ولی تو نوروز تخم‌مرغ رنگ می‌کنیم!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "painted",
+      "have",
+      "haft",
+      "sin"
+     ],
+     "suggestion": "We have painted eggs on the haft-sin.",
+     "suggestionFa": "رو سفرهٔ هفت‌سین تخم‌مرغ رنگی داریم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "paint",
+     "fa": "رنگ کردن"
+    },
+    {
+     "word": "painted eggs",
+     "fa": "تخم‌مرغ رنگی"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Painted eggs! Next spring, let's do both — painted eggs AND chocolate eggs. Best of both worlds!",
+   "translations": {
+    "fa": "تخم‌مرغ رنگی! بهار بعد، بیا هر دو را انجام بدیم — تخم‌مرغ رنگی و شکلاتی. بهترین هر دو دنیا!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,309 @@
+{
+ "id": "l1_u46_4",
+ "characterId": "leslie",
+ "title": "Thanks for coming",
+ "titleFa": "ممنون که آمدید",
+ "setting": "Visitors · Level 1",
+ "settingFa": "مهمان‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Are you off already? It's only nine o'clock!",
+   "translations": {
+    "fa": "دارید میرید؟ تازه ساعت نهه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tomorrow",
+      "work",
+      "i've",
+      "got"
+     ],
+     "suggestion": "Yes, I've got work tomorrow.",
+     "suggestionFa": "آره، فردا کار دارم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "khan",
+      "late",
+      "mrs"
+     ],
+     "suggestion": "It's late for Mrs Khan.",
+     "suggestionFa": "برای خانم خان دیروقته.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "off",
+     "fa": "رفتن"
+    },
+    {
+     "word": "already",
+     "fa": "به این زودی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "khan",
+   "text": "I'm an old lady, Leslie! Nine is very late for me. Thank you for a lovely evening.",
+   "translations": {
+    "fa": "من یه پیرزنم لزلی! نه برای من خیلی دیره. ممنون بابت یه شب عالی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "having",
+      "thank",
+      "us"
+     ],
+     "suggestion": "Thank you for having us.",
+     "suggestionFa": "ممنون که مهمونمون کردید.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "delicious",
+      "food",
+      "was"
+     ],
+     "suggestion": "The food was delicious.",
+     "suggestionFa": "غذا خیلی خوشمزه بود.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lovely",
+     "fa": "دلپذیر"
+    },
+    {
+     "word": "evening",
+     "fa": "شب ؛ عصر"
+    },
+    {
+     "word": "having us",
+     "fa": "میزبانی ما"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Thanks for having me/us\" is the standard British way to thank a host.",
+    "fa": "Thanks for having us."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Thank you for coming! And for the samosas and the sweets. You must come again.",
+   "translations": {
+    "fa": "ممنون که اومدید! و بابت سمبوسه‌ها و شیرینی‌ها. باید دوباره بیاید."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "we'd",
+      "love"
+     ],
+     "suggestion": "We'd love to.",
+     "suggestionFa": "خیلی دوست داریم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "next",
+      "come",
+      "time",
+      "mine"
+     ],
+     "suggestion": "Next time, come to mine!",
+     "suggestionFa": "دفعهٔ بعد بیاید خونهٔ من!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "must",
+     "fa": "باید"
+    },
+    {
+     "word": "come again",
+     "fa": "دوباره آمدن"
+    },
+    {
+     "word": "mine",
+     "fa": "خانهٔ من"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Yes! I want to try your Persian cooking. Wait — take some food home!",
+   "translations": {
+    "fa": "آره! می‌خوام آشپزی ایرانیت را امتحان کنم. صبر کنید — یه کم غذا ببرید خونه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "much",
+      "oh"
+     ],
+     "suggestion": "Oh no, that's too much.",
+     "suggestionFa": "آه نه، خیلی زیاده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thank",
+      "kind"
+     ],
+     "suggestion": "Thank you. That's very kind.",
+     "suggestionFa": "ممنون. خیلی لطف داری.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take home",
+     "fa": "به خانه بردن"
+    },
+    {
+     "word": "too much",
+     "fa": "بیش از حد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "There's loads! Here's a box for you, and one for Amina. Have you got your coats?",
+   "translations": {
+    "fa": "کلی هست! اینم یه جعبه برای تو، یکی هم برای آمینا. کتاتون را برداشتید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "umbrella"
+     ],
+     "suggestion": "Yes. And my umbrella.",
+     "suggestionFa": "آره. و چترم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "scarf"
+     ],
+     "suggestion": "Where's my scarf?",
+     "suggestionFa": "شال‌گردنم کجاست؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "loads",
+     "fa": "خیلی زیاد"
+    },
+    {
+     "word": "box",
+     "fa": "ظرف ؛ جعبه"
+    },
+    {
+     "word": "scarf",
+     "fa": "شال‌گردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "thanks for have us",
+      "thank you for having we"
+     ],
+     "echo": "Thanks for having you? Any time!",
+     "better": "Thanks for having us.",
+     "betterFa": "ممنون که مهمونمون کردید."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "khan",
+   "text": "{you}, can you walk me home? It's only next door, but it's dark.",
+   "translations": {
+    "fa": "{you}، منو تا خونه می‌رسونی؟ همین بغله، ولی تاریکه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "khan",
+      "mrs"
+     ],
+     "suggestion": "Of course, Mrs Khan.",
+     "suggestionFa": "البته خانم خان.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "take",
+      "arm"
+     ],
+     "suggestion": "Take my arm.",
+     "suggestionFa": "دستم را بگیرید.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "walk someone home",
+     "fa": "کسی را تا خانه رساندن"
+    },
+    {
+     "word": "dark",
+     "fa": "تاریک"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",
+   "translations": {
+    "fa": "شب بخیر! وقتی سالم رسیدید پیام بدید. ها — هر دوتون که بغل دستید! خداحافظ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -47,10 +47,10 @@
     {
      "keywords": [
       "dragons",
-      "played",
       "knight",
       "dragon",
-      "mia"
+      "played",
+      "was"
      ],
      "suggestion": "We played dragons! I was the big dragon. Mia was the knight.",
      "suggestionFa": "اژدهابازی کردیم! من اژدهای بزرگه بودم. میا شوالیه بود.",
@@ -75,7 +75,7 @@
       "nobody",
       "went",
       "then",
-      "won"
+      "ran"
      ],
      "suggestion": "Nobody won. We ran and ran, then the whistle went.",
      "suggestionFa": "هیچ‌کس نبرد. دویدیم و دویدیم، بعد سوت زدن.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "every",
-      "fell",
       "look",
-      "knee",
-      "then"
+      "fell",
+      "hurt",
+      "knee"
      ],
      "suggestion": "Yes! Every day. Then I fell over and hurt my knee. Look!",
      "suggestionFa": "آره! هر روز. بعد افتادم و زانوم درد گرفت. ببین!",
@@ -150,7 +150,7 @@
       "little",
       "ellis",
       "brave",
-      "only"
+      "says"
      ],
      "suggestion": "Only a little bit. Mrs Ellis gave me a sticker. It says \"I was brave\"!",
      "suggestionFa": "فقط یه ذره. خانم الیس بهم یه برچسب داد. روش نوشته «من شجاع بودم»!",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "school",
       "fridge",
+      "school",
       "mummy",
       "here",
       "play"
@@ -196,8 +196,8 @@
    "branches": [
     {
      "keywords": [
-      "tomorrow",
       "football",
+      "tomorrow",
       "dragon",
       "going",
       "likes"

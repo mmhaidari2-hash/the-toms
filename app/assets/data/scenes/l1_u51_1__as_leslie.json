@@ -1,0 +1,200 @@
+{
+ "id": "l1_u51_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A cold",
+ "titleFa": "(در نقش Leslie) سرماخوردگی",
+ "setting": "Under the weather · Level 1",
+ "settingFa": "کسالت",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u51_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "running",
+      "atchoo",
+      "throat",
+      "awful",
+      "sore"
+     ],
+     "suggestion": "Atchoo! Oh, I feel awful. My nose is running and my throat is sore.",
+     "suggestionFa": "هاپچه! آه، حالم افتضاحه. آبریزش بینی دارم و گلوم درد می‌کنه.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Bless you! You've got a cold.",
+   "translations": {
+    "fa": "عافیت باشه! سرما خوردی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "waiting",
+      "should",
+      "thirty",
+      "school"
+     ],
+     "suggestion": "But I've got thirty children waiting for me! Should I go to school?",
+     "suggestionFa": "ولی سی تا بچه منتظرمن! برم مدرسه؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, you shouldn't. Stay at home.",
+   "translations": {
+    "fa": "نه، نباید بری. خونه بمون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "little",
+      "thirty",
+      "today",
+      "point",
+      "seven"
+     ],
+     "suggestion": "A little bit. Thirty-seven point eight. But the Year 4s have a test today!",
+     "suggestionFa": "یه کم. سی و هفت و هشت دهم. ولی کلاس چهارمی‌ها امروز امتحان دارن!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "You should call the school.",
+   "translations": {
+    "fa": "باید به مدرسه زنگ بزنی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "though",
+      "guilty",
+      "right",
+      "i'll",
+      "call"
+     ],
+     "suggestion": "You're right. I'll call in sick. I hate it, though. I feel so guilty!",
+     "suggestionFa": "راست میگی. زنگ می‌زنم مرخصی استعلاجی می‌گیرم. ولی ازش متنفرم. خیلی عذاب وجدان دارم!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "You shouldn't feel guilty.",
+   "translations": {
+    "fa": "نباید عذاب وجدان داشته باشی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "should",
+      "cold",
+      "true",
+      "give"
+     ],
+     "suggestion": "True. And I shouldn't give my cold to the kids. What should I do now?",
+     "suggestionFa": "درسته. و نباید سرماخوردگیم را به بچه‌ها بدم. حالا چی کار کنم؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "You should go back to bed.",
+   "translations": {
+    "fa": "باید برگردی تو تخت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lovely",
+      "sounds",
+      "nicola",
+      "school",
+      "tom's"
+     ],
+     "suggestion": "Bed sounds lovely. But who takes Nicola to school? Tom's on the early shift.",
+     "suggestionFa": "تخت عالیه. ولی کی نیکولا را می‌بره مدرسه؟ تام شیفت صبحه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "I can take her.",
+   "translations": {
+    "fa": "من می‌تونم ببرمش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "you'll",
+      "don't",
+      "close",
+      "angel",
+      "book"
+     ],
+     "suggestion": "You're an angel! Her book bag is by the door. And don't come too close — you'll get ill too!",
+     "suggestionFa": "فرشته‌ای! کیف کتابش کنار دره. و خیلی نزدیک نیا — تو هم مریض میشی!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

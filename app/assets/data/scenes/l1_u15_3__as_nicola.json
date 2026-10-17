@@ -22,8 +22,8 @@
     {
      "keywords": [
       "finished",
-      "picture",
       "missing",
+      "picture",
       "jigsaw",
       "nearly"
      ],
@@ -48,9 +48,9 @@
      "keywords": [
       "piece",
       "part",
-      "blue",
       "have",
-      "seen"
+      "seen",
+      "blue"
      ],
      "suggestion": "It's a blue piece. Part of the sky. Have you seen it?",
      "suggestionFa": "یه تیکهٔ آبیه. یه قسمت از آسمون. دیدیش؟",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "can't",
-      "under",
       "floor",
+      "under",
       "look",
-      "sofa"
+      "find"
      ],
      "suggestion": "I can't find it on the floor. Can you look under the sofa?",
      "suggestionFa": "رو زمین پیداش نمی‌کنم. می‌تونی زیر مبل را نگاه کنی؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "crisps",
       "crisp",
-      "yuck",
+      "eats",
       "sofa",
-      "eats"
+      "ryan"
      ],
      "suggestion": "A crisp! Yuck! Ryan eats crisps on the sofa. Is it in the box?",
      "suggestionFa": "یه چیپس! ایش! رایان رو مبل چیپس می‌خوره. تو جعبه‌ست؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "william",
       "things",
-      "maybe",
       "mouth",
+      "maybe",
       "puts"
      ],
      "suggestion": "Maybe William has got it. He puts things in his mouth!",
@@ -228,8 +228,8 @@
      "keywords": [
       "finished",
       "castle",
-      "click",
       "photo",
+      "click",
       "look"
      ],
      "suggestion": "Click! Finished! Look at my castle! Can we take a photo for Nana?",
@@ -253,8 +253,8 @@
      "keywords": [
       "thousand",
       "another",
-      "jigsaw",
       "joking",
+      "jigsaw",
       "pieces"
      ],
      "suggestion": "Send it to Nana! Now let's do another jigsaw. A thousand pieces! Just joking!",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "towels",
-      "here",
       "some",
+      "here",
       "old"
      ],
      "suggestion": "Here are some old towels.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "should",
-      "wall",
       "turn",
+      "wall",
       "off"
      ],
      "suggestion": "Oh no! Should I turn it off at the wall?",
@@ -79,8 +79,8 @@
      "keywords": [
       "switch",
       "i'll",
-      "now",
-      "off"
+      "off",
+      "now"
      ],
      "suggestion": "I'll switch it off now.",
      "suggestionFa": "الان خاموشش می‌کنم.",
@@ -126,8 +126,8 @@
     {
      "keywords": [
       "beeping",
-      "won't",
       "keeps",
+      "won't",
       "drain"
      ],
      "suggestion": "It won't drain, and it keeps beeping.",
@@ -186,8 +186,8 @@
    "branches": [
     {
      "keywords": [
-      "eight",
       "about",
+      "eight",
       "years"
      ],
      "suggestion": "About eight years old.",
@@ -199,8 +199,8 @@
     {
      "keywords": [
       "sure",
-      "how",
-      "tom"
+      "tom",
+      "how"
      ],
      "suggestion": "I'm not sure. Tom, how old is it?",
      "suggestionFa": "مطمئن نیستم. تام، چند سالشه؟",
@@ -236,8 +236,8 @@
      "keywords": [
       "little",
       "found",
-      "i've",
-      "door"
+      "door",
+      "i've"
      ],
      "suggestion": "OK, I've found the little door.",
      "suggestionFa": "باشه، در کوچیک را پیدا کردم.",
@@ -247,8 +247,8 @@
     },
     {
      "keywords": [
-      "water",
       "there",
+      "water",
       "tray",
       "lot"
      ],
@@ -302,8 +302,8 @@
      "keywords": [
       "there's",
       "fluff",
-      "clip",
-      "hair"
+      "hair",
+      "clip"
      ],
      "suggestion": "There's a hair clip and a lot of fluff.",
      "suggestionFa": "یه گیرهٔ مو و کلی پرز هست.",
@@ -395,8 +395,8 @@
     {
      "keywords": [
       "really",
-      "that's",
       "cheers",
+      "that's",
       "kind"
      ],
      "suggestion": "Cheers, Gaz! That's really kind.",

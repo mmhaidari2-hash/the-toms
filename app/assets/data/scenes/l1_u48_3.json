@@ -1,0 +1,356 @@
+{
+ "id": "l1_u48_3",
+ "characterId": "leslie",
+ "title": "Pyjamas on",
+ "titleFa": "پیژامه بپوش",
+ "setting": "Evening routine · Level 1",
+ "settingFa": "برنامهٔ شبانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Right, Nicola! Bath, pyjamas, teeth, story. In that order!",
+   "translations": {
+    "fa": "خب نیکولا! حموم، پیژامه، دندون، قصه. به همین ترتیب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "first",
+      "bath"
+     ],
+     "suggestion": "First a bath, Nicola.",
+     "suggestionFa": "اول حموم نیکولا.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "jobs",
+      "lot"
+     ],
+     "suggestion": "That's a lot of jobs!",
+     "suggestionFa": "کلی کاره!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pyjamas",
+     "fa": "پیژامه"
+    },
+    {
+     "word": "teeth",
+     "fa": "دندان‌ها"
+    },
+    {
+     "word": "order",
+     "fa": "ترتیب"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pyjamas\", American \"pajamas\".",
+    "fa": "pyjamas/pajamas."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "But I had a bath yesterday! Can I skip the bath?",
+   "translations": {
+    "fa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sorry",
+      "first",
+      "bath"
+     ],
+     "suggestion": "No, sorry. Bath first.",
+     "suggestionFa": "نه، ببخشید. اول حموم.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quick",
+      "then",
+      "one"
+     ],
+     "suggestion": "A quick one, then.",
+     "suggestionFa": "پس یه سریعش.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "yesterday",
+     "fa": "دیروز"
+    },
+    {
+     "word": "skip",
+     "fa": "رد کردن ؛ نرفتن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "A quick bath. Then which pyjamas? The unicorns or the stars?",
+   "translations": {
+    "fa": "یه حموم سریع. بعد کدوم پیژامه؟ تک‌شاخی یا ستاره‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unicorns"
+     ],
+     "suggestion": "The unicorns!",
+     "suggestionFa": "تک‌شاخی!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "nicola",
+      "which",
+      "like",
+      "ones"
+     ],
+     "suggestion": "Which ones do you like, Nicola?",
+     "suggestionFa": "کدوم را دوست داری نیکولا؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unicorns",
+     "fa": "تک‌شاخ‌ها"
+    },
+    {
+     "word": "stars",
+     "fa": "ستاره‌ها"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "The stars! Then after that, can I have milk?",
+   "translations": {
+    "fa": "ستاره‌ای! بعد از اون، می‌تونم شیر بخورم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pyjamas",
+      "first",
+      "then"
+     ],
+     "suggestion": "First pyjamas, then milk.",
+     "suggestionFa": "اول پیژامه، بعد شیر.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teeth",
+      "brush",
+      "after"
+     ],
+     "suggestion": "After milk, you brush your teeth.",
+     "suggestionFa": "بعد از شیر، دندونات را مسواک می‌زنی.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "after that",
+     "fa": "بعد از آن"
+    },
+    {
+     "word": "brush",
+     "fa": "مسواک زدن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "first milk after pyjamas",
+      "after pyjamas then milk is"
+     ],
+     "echo": "Pyjamas first, then milk? Yes!",
+     "better": "First pyjamas, then milk.",
+     "betterFa": "اول پیژامه، بعد شیر."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Good. Then teeth for two minutes. Use the timer. Can you help her, {you}?",
+   "translations": {
+    "fa": "خوبه. بعد دو دقیقه مسواک. از تایمر استفاده کن. کمکش می‌کنی {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toothbrush",
+      "where's",
+      "sure",
+      "her"
+     ],
+     "suggestion": "Sure. Where's her toothbrush?",
+     "suggestionFa": "حتماً. مسواکش کجاست؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "time",
+      "long",
+      "two"
+     ],
+     "suggestion": "Two minutes is a long time!",
+     "suggestionFa": "دو دقیقه زیاده!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toothbrush",
+     "fa": "مسواک"
+    },
+    {
+     "word": "timer",
+     "fa": "زمان‌سنج"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "The pink one! It sings a song. When the song stops, I stop!",
+   "translations": {
+    "fa": "صورتیه! آهنگ می‌خونه. وقتی آهنگ تموم شد، منم تموم می‌کنم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "down",
+      "up"
+     ],
+     "suggestion": "Up and down, Nicola.",
+     "suggestionFa": "بالا و پایین نیکولا.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forget",
+      "don't",
+      "teeth",
+      "back"
+     ],
+     "suggestion": "Don't forget the back teeth!",
+     "suggestionFa": "دندونای عقب را یادت نره!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stops",
+     "fa": "تمام می‌شود"
+    },
+    {
+     "word": "back teeth",
+     "fa": "دندان‌های عقب"
+    },
+    {
+     "word": "forget",
+     "fa": "فراموش کردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Lovely. Finally, story time and lights out. Who's reading tonight?",
+   "translations": {
+    "fa": "عالی. در آخر، وقت قصه و خاموش کردن چراغ. امشب کی می‌خونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tonight",
+      "read",
+      "can"
+     ],
+     "suggestion": "I can read tonight.",
+     "suggestionFa": "امشب من می‌تونم بخونم.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "choose",
+      "nicola",
+      "book"
+     ],
+     "suggestion": "Nicola, choose a book.",
+     "suggestionFa": "نیکولا، یه کتاب انتخاب کن.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finally",
+     "fa": "در آخر"
+    },
+    {
+     "word": "lights out",
+     "fa": "خاموش کردن چراغ"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "{you}! {you}! Tell me a story from Iran! Not a book. A real story!",
+   "translations": {
+    "fa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

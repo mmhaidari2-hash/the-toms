@@ -21,8 +21,8 @@
      "keywords": [
       "worried",
       "unfair",
-      "she's",
-      "about"
+      "feels",
+      "she's"
      ],
      "suggestion": "I know it feels unfair. But she's worried about you.",
      "suggestionFa": "می‌دونم ناعادلانه به نظر میاد. ولی نگرانته.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "didn't",
-      "grass",
       "wants",
+      "grass",
       "well"
      ],
      "suggestion": "She didn't grass you up. She wants you to do well.",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "exactly",
       "english",
+      "exactly",
       "school",
       "about"
      ],
@@ -91,9 +91,9 @@
     {
      "keywords": [
       "engineers",
-      "paris",
+      "world",
       "might",
-      "world"
+      "paris"
      ],
      "suggestion": "Engineers work all over the world. You might end up in Paris!",
      "suggestionFa": "مهندس‌ها تو همهٔ دنیا کار می‌کنن. ممکنه آخرش پاریس باشی!",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "learning",
-      "changed",
       "grammar",
-      "lessons"
+      "lessons",
+      "changed"
      ],
      "suggestion": "I hated the grammar lessons. But learning it changed my whole life.",
      "suggestionFa": "از درس‌های گرامر متنفر بودم. ولی یاد گرفتنش کل زندگیم را عوض کرد.",
@@ -141,9 +141,9 @@
     {
      "keywords": [
       "realised",
-      "could",
       "doors",
-      "until"
+      "until",
+      "could"
      ],
      "suggestion": "I did, until I realised it could open doors for me.",
      "suggestionFa": "بودم، تا اینکه فهمیدم می‌تونه درها را برام باز کنه.",
@@ -192,8 +192,8 @@
      "keywords": [
       "completely",
       "normal",
-      "alone",
-      "don't"
+      "don't",
+      "alone"
      ],
      "suggestion": "It's completely normal to feel like that. You don't have to do it alone.",
      "suggestionFa": "کاملاً عادیه این حس را داشته باشی. لازم نیست تنهایی انجامش بدی.",

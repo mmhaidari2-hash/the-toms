@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "red",
-      "one"
+      "one",
+      "red"
      ],
      "suggestion": "Pink? Is this one pink or red?",
      "suggestionFa": "صورتی؟ این صورتیه یا قرمز؟",
@@ -208,10 +208,10 @@
    "branches": [
     {
      "keywords": [
-      "needs",
       "socks",
-      "new",
-      "tom"
+      "needs",
+      "tom",
+      "new"
      ],
      "suggestion": "Ha! Tom needs new socks.",
      "suggestionFa": "ها! تام جوراب نو لازم داره.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "under",
-      "table",
       "don't",
+      "table",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "three",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three… eight pairs!",
      "suggestionFa": "یک، دو، سه… هشت جفت!",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "we've",
       "think",
+      "we've",
       "got"
      ],
      "suggestion": "I think we've got eight pairs.",

@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "fancy",
+      "great",
       "idea"
      ],
      "suggestion": "Great idea! What do you fancy?",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "friday",
-      "about",
       "chips",
+      "about",
       "fish"
      ],
      "suggestion": "How about fish and chips? It's Friday!",
@@ -173,8 +173,8 @@
      "keywords": [
       "online",
       "easier",
-      "let's",
-      "order"
+      "order",
+      "let's"
      ],
      "suggestion": "Let's order online. It's easier.",
      "suggestionFa": "بیا آنلاین سفارش بدیم. راحت‌تره.",
@@ -240,9 +240,9 @@
     },
     {
      "keywords": [
-      "large",
-      "chips",
       "small",
+      "chips",
+      "large",
       "two"
      ],
      "suggestion": "A large cod, two small chips, mushy peas. Got it!",

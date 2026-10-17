@@ -79,8 +79,8 @@
      "keywords": [
       "though",
       "slowly",
-      "start",
-      "speak"
+      "speak",
+      "start"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
      "suggestionFa": "شروع عالی. ولی یه کم آهسته‌تر حرف بزن.",
@@ -93,7 +93,7 @@
       "explain",
       "good",
       "made",
-      "now"
+      "why"
      ],
      "suggestion": "Good. Now explain why you made it.",
      "suggestionFa": "خوبه. حالا توضیح بده چرا ساختیش.",
@@ -132,9 +132,9 @@
     {
      "keywords": [
       "works",
-      "them",
+      "nice",
       "show",
-      "nice"
+      "them"
      ],
      "suggestion": "Nice. Can you show them how it works?",
      "suggestionFa": "خوبه. می‌تونی نشونشون بدی چطور کار می‌کنه؟",
@@ -144,10 +144,10 @@
     },
     {
      "keywords": [
-      "number",
       "charge",
+      "number",
       "maybe",
-      "take"
+      "give"
      ],
      "suggestion": "Maybe give a number — how long does it take to charge?",
      "suggestionFa": "شاید یه عدد بدی — شارژ کردن چقدر طول می‌کشه؟",
@@ -191,8 +191,8 @@
      "keywords": [
       "judges",
       "will",
-      "love",
-      "joke"
+      "joke",
+      "love"
      ],
      "suggestion": "Ha! The judges will love that joke.",
      "suggestionFa": "ها! داورها عاشق این شوخی میشن.",
@@ -204,8 +204,8 @@
      "keywords": [
       "finish",
       "going",
-      "how",
-      "now"
+      "now",
+      "how"
      ],
      "suggestion": "Now, how are you going to finish?",
      "suggestionFa": "حالا، چطوری می‌خوای تمومش کنی؟",
@@ -245,8 +245,8 @@
      "keywords": [
       "brilliant",
       "about",
-      "will",
-      "they"
+      "they",
+      "cost"
      ],
      "suggestion": "Brilliant! What will you say if they ask about the cost?",
      "suggestionFa": "عالی! اگه دربارهٔ هزینه بپرسن چی می‌گی؟",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "really",
       "you'll",
+      "really",
       "great",
       "good"
      ],

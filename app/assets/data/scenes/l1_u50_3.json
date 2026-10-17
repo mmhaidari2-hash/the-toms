@@ -1,0 +1,357 @@
+{
+ "id": "l1_u50_3",
+ "characterId": "tom",
+ "title": "Favourite food",
+ "titleFa": "غذای محبوب",
+ "setting": "Likes and dislikes · Level 1",
+ "settingFa": "علاقه‌ها و بیزاری‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Question for the table! What's everyone's favourite food? Mine is a Sunday roast!",
+   "translations": {
+    "fa": "سؤال برای همه! غذای محبوب همه چیه؟ مال من کباب یکشنبه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sunday",
+      "what's",
+      "roast"
+     ],
+     "suggestion": "What's a Sunday roast?",
+     "suggestionFa": "کباب یکشنبه چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ghormeh",
+      "sabzi",
+      "mine"
+     ],
+     "suggestion": "Mine is ghormeh sabzi.",
+     "suggestionFa": "مال من قورمه‌سبزیه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "favourite",
+     "fa": "محبوب"
+    },
+    {
+     "word": "Sunday roast",
+     "fa": "غذای کبابی یکشنبه"
+    }
+   ],
+   "cultureNote": {
+    "en": "A Sunday roast is roast meat, roast potatoes, vegetables, Yorkshire pudding and gravy — a British tradition.",
+    "fa": "ناهار سنتی یکشنبه."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Roast beef, roast potatoes, Yorkshire puddings, gravy… Heaven! What's yours, {you}?",
+   "translations": {
+    "fa": "رست‌بیف، سیب‌زمینی تنوری، یورکشایر پودینگ، گریوی… بهشت! مال تو چیه {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "ghormeh",
+      "sabzi"
+     ],
+     "suggestion": "My favourite is ghormeh sabzi.",
+     "suggestionFa": "محبوب من قورمه‌سبزیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kebab",
+      "love",
+      "rice"
+     ],
+     "suggestion": "I love kebab with rice.",
+     "suggestionFa": "عاشق چلوکبابم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "heaven",
+     "fa": "بهشت"
+    },
+    {
+     "word": "Yorkshire pudding",
+     "fa": "یورکشایر پودینگ"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "my favourite food are",
+      "my favourite is the kebab rice"
+     ],
+     "echo": "Your favourite is kebab with rice? Yum!",
+     "better": "My favourite is kebab with rice.",
+     "betterFa": "محبوب من چلوکبابه."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Ghormeh… sabzi? What's in it?",
+   "translations": {
+    "fa": "قورمه… سبزی؟ توش چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beans",
+      "lamb",
+      "stew"
+     ],
+     "suggestion": "It's a stew with herbs, beans and lamb.",
+     "suggestionFa": "یه خورش با سبزی، لوبیا و گوشت برّه‌ست.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lemons",
+      "green",
+      "dried",
+      "lots"
+     ],
+     "suggestion": "Lots of green herbs and dried lemons.",
+     "suggestionFa": "کلی سبزی و لیمو عمانی.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stew",
+     "fa": "خورش"
+    },
+    {
+     "word": "herbs",
+     "fa": "سبزیجات معطر"
+    },
+    {
+     "word": "beans",
+     "fa": "لوبیا"
+    },
+    {
+     "word": "dried lemons",
+     "fa": "لیمو عمانی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "It sounds delicious! My favourite is Indian. A chicken tikka masala.",
+   "translations": {
+    "fa": "خوشمزه به نظر میاد! محبوب من هندیه. چیکن تیکا ماسالا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "curry",
+      "like"
+     ],
+     "suggestion": "I like curry too.",
+     "suggestionFa": "منم کاری دوست دارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "british",
+      "food"
+     ],
+     "suggestion": "Is that British food?",
+     "suggestionFa": "اون غذای بریتانیاییه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "delicious",
+     "fa": "خوشمزه"
+    },
+    {
+     "word": "curry",
+     "fa": "کاری"
+    }
+   ],
+   "cultureNote": {
+    "en": "Chicken tikka masala is often called one of Britain's favourite dishes, though it comes from British-Indian cooking.",
+    "fa": "تیکا ماسالا غذای محبوب بریتانیایی."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "My favourite is fish fingers! With ketchup! And Mr Buttons likes honey.",
+   "translations": {
+    "fa": "محبوب من فیش فینگره! با کچاپ! و آقای دکمه عسل دوست داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "winnie",
+      "like",
+      "pooh"
+     ],
+     "suggestion": "Like Winnie the Pooh!",
+     "suggestionFa": "مثل وینی پو!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "choice",
+      "nicola",
+      "good"
+     ],
+     "suggestion": "Good choice, Nicola.",
+     "suggestionFa": "انتخاب خوبیه نیکولا.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "honey",
+     "fa": "عسل"
+    },
+    {
+     "word": "choice",
+     "fa": "انتخاب"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Pizza. Obviously. And William's favourite is… everything on the floor!",
+   "translations": {
+    "fa": "پیتزا. معلومه. و محبوب ویلیام… همه چی که رو زمینه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "favourite",
+      "pudding",
+      "what's",
+      "tom"
+     ],
+     "suggestion": "Ha! What's your favourite pudding, Tom?",
+     "suggestionFa": "ها! دسر محبوبت چیه تام؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bananas",
+      "william",
+      "likes"
+     ],
+     "suggestion": "William likes bananas.",
+     "suggestionFa": "ویلیام موز دوست داره.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "obviously",
+     "fa": "معلوم است"
+    },
+    {
+     "word": "floor",
+     "fa": "زمین"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Sticky toffee pudding with custard! OK, decision made. {you}, will you cook ghormeh sabzi for us one day?",
+   "translations": {
+    "fa": "پودینگ تافی چسبناک با کاستارد! خب، تصمیم گرفته شد. {you}، یه روز برامون قورمه‌سبزی درست می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "next"
+     ],
+     "suggestion": "Yes! Next Sunday.",
+     "suggestionFa": "آره! یکشنبهٔ بعد.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "roast",
+      "make",
+      "only",
+      "if"
+     ],
+     "suggestion": "Only if you make a Sunday roast for me!",
+     "suggestionFa": "فقط اگه تو برام کباب یکشنبه درست کنی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sticky toffee",
+     "fa": "تافی چسبناک"
+    },
+    {
+     "word": "decision",
+     "fa": "تصمیم"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Deal! Roast one week, ghormeh sabzi the next. Best neighbours in Hackney!",
+   "translations": {
+    "fa": "قبول! یه هفته کباب، هفتهٔ بعد قورمه‌سبزی. بهترین همسایه‌های هکنی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

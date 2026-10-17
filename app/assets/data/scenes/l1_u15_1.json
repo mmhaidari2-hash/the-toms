@@ -33,8 +33,8 @@
     {
      "keywords": [
       "nicola",
-      "have",
       "doll",
+      "have",
       "her"
      ],
      "suggestion": "Nicola, can Mia have her doll?",
@@ -117,8 +117,8 @@
    "branches": [
     {
      "keywords": [
-      "timer",
       "phone",
+      "timer",
       "i've",
       "got"
      ],
@@ -176,9 +176,9 @@
     {
      "keywords": [
       "blocks",
-      "tower",
+      "build",
       "let's",
-      "build"
+      "tower"
      ],
      "suggestion": "Let's build a tower with the blocks.",
      "suggestionFa": "بیا با مکعب‌ها یه برج بسازیم.",
@@ -310,10 +310,10 @@
    "branches": [
     {
      "keywords": [
-      "again",
-      "let's",
       "build",
-      "never"
+      "again",
+      "never",
+      "let's"
      ],
      "suggestion": "Never mind! Let's build it again.",
      "suggestionFa": "عیب نداره! بیاید دوباره بسازیمش.",
@@ -356,10 +356,10 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "doll",
-      "mia",
-      "now"
+      "have",
+      "now",
+      "can"
      ],
      "suggestion": "Mia, can Nicola have the doll now?",
      "suggestionFa": "میا، الان نیکولا می‌تونه عروسک را برداره؟",

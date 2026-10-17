@@ -20,9 +20,9 @@
     {
      "keywords": [
       "many",
-      "how",
       "wow",
-      "can"
+      "can",
+      "how"
      ],
      "suggestion": "Wow! How many can you do?",
      "suggestionFa": "وای! چند تا می‌تونی بزنی؟",
@@ -115,8 +115,8 @@
      "keywords": [
       "three",
       "ouch",
-      "two",
-      "one"
+      "one",
+      "two"
      ],
      "suggestion": "One, two, three… ouch!",
      "suggestionFa": "یک، دو، سه… آخ!",
@@ -126,8 +126,8 @@
     },
     {
      "keywords": [
-      "did",
-      "ten"
+      "ten",
+      "did"
      ],
      "suggestion": "I did ten!",
      "suggestionFa": "ده تا زدم!",
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
+      "one",
       "can",
-      "day",
-      "one"
+      "day"
      ],
      "suggestion": "Can you do twenty one day?",
      "suggestionFa": "یه روز می‌تونی بیست تا بزنی؟",
@@ -273,7 +273,7 @@
      "keywords": [
       "promise",
       "can't",
-      "try",
+      "but",
       "can"
      ],
      "suggestion": "I can try, but I can't promise!",

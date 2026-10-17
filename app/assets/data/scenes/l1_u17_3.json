@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "drink",
       "water",
-      "cold",
-      "some"
+      "drink",
+      "some",
+      "cold"
      ],
      "suggestion": "Oh no! Drink some cold water.",
      "suggestionFa": "وای نه! یه کم آب سرد بخور.",
@@ -34,8 +34,8 @@
      "keywords": [
       "minute",
       "wait",
-      "cool",
-      "down"
+      "down",
+      "cool"
      ],
      "suggestion": "Wait a minute. Let it cool down.",
      "suggestionFa": "یه دقیقه صبر کن. بذار خنک بشه.",
@@ -86,9 +86,9 @@
     },
     {
      "keywords": [
-      "cold",
       "some",
       "milk",
+      "cold",
       "put"
      ],
      "suggestion": "Put some cold milk in it.",
@@ -237,8 +237,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "tea",
-      "got"
+      "got",
+      "tea"
      ],
      "suggestion": "No, thanks. I've got tea.",
      "suggestionFa": "نه، ممنون. چای دارم.",
@@ -365,8 +365,8 @@
     {
      "keywords": [
       "ryan",
-      "run",
-      "bye"
+      "bye",
+      "run"
      ],
      "suggestion": "Bye, Ryan! Run!",
      "suggestionFa": "خداحافظ رایان! بدو!",

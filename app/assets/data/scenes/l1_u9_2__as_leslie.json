@@ -47,8 +47,8 @@
     {
      "keywords": [
       "headache",
-      "what's",
       "matter",
+      "what's",
       "have",
       "got"
      ],
@@ -99,8 +99,8 @@
       "temperature",
       "that's",
       "thirty",
-      "point",
-      "eight"
+      "cough",
+      "point"
      ],
      "suggestion": "Thirty-eight point five. That's a temperature, all right. Have you got a cough?",
      "suggestionFa": "سی‌وهشت و نیم. تبه دیگه. سرفه هم داری؟",
@@ -125,7 +125,7 @@
       "sounds",
       "drink",
       "bring",
-      "some"
+      "i'll"
      ],
      "suggestion": "Sounds like flu. Go to bed. I'll bring you some paracetamol and a hot drink.",
      "suggestionFa": "به نظر آنفولانزاست. برو بخواب. برات پاراستامول و یه نوشیدنی گرم میارم.",
@@ -148,9 +148,9 @@
      "keywords": [
       "tomorrow",
       "course",
-      "worse",
+      "we'll",
       "drink",
-      "we'll"
+      "worse"
      ],
      "suggestion": "Of course. Drink lots of water and rest. If you're worse tomorrow, we'll call the GP.",
      "suggestionFa": "البته. زیاد آب بخور و استراحت کن. اگه فردا بدتر بودی، به دکتر عمومی زنگ می‌زنیم.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "doctor",
-      "well",
+      "family",
       "love",
-      "into"
+      "well",
+      "soon"
      ],
      "suggestion": "A GP is the family doctor. Now, into bed! Get well soon, love.",
      "suggestionFa": "GP دکتر خانواده‌ست. حالا، برو تو تخت! زود خوب شو عزیزم.",

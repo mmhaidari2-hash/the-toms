@@ -23,8 +23,8 @@
      "keywords": [
       "sleepyhead",
       "morning",
-      "wake",
       "time",
+      "wake",
       "get"
      ],
      "suggestion": "Wake up, sleepyhead! It's morning! What time do you get up?",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "daddy",
       "don't",
       "mummy",
+      "daddy",
       "wake",
-      "they"
+      "like"
      ],
      "suggestion": "I get up at six! I wake up Mummy and Daddy. They don't like it!",
      "suggestionFa": "من ساعت شش پا می‌شم! مامان و بابا را بیدار می‌کنم. خوششون نمیاد!",
@@ -148,9 +148,9 @@
      "keywords": [
       "breakfast",
       "important",
-      "meal",
-      "most",
-      "says"
+      "nana",
+      "says",
+      "meal"
      ],
      "suggestion": "You need breakfast! Nana says it's the most important meal.",
      "suggestionFa": "تو صبحانه لازم داری! نانا می‌گه مهم‌ترین وعده‌ست.",

@@ -23,8 +23,8 @@
      "keywords": [
       "william's",
       "leslie's",
-      "meeting",
       "teatime",
+      "meeting",
       "right"
      ],
      "suggestion": "Right, it's William's teatime. Leslie's at a meeting. Can you give me a hand?",
@@ -50,7 +50,7 @@
       "always",
       "first",
       "he's",
-      "bib"
+      "one"
      ],
      "suggestion": "He's always hungry! First, put his bib on. The one with the bus on it. Ha!",
      "suggestionFa": "همیشه گرسنه‌ست! اول، پیش‌بندش را ببند. اونی که روش اتوبوسه. ها!",
@@ -75,7 +75,7 @@
       "drawer",
       "fridge",
       "chair",
-      "then"
+      "high"
      ],
      "suggestion": "In the drawer by the fridge. Then put him in the high chair. Careful with his legs.",
      "suggestionFa": "تو کشوی کنار یخچال. بعد بذارش رو صندلی بچه. مواظب پاهاش باش.",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "carrot",
+      "mashed",
       "dinner",
       "potato",
-      "mashed"
+      "here's"
      ],
      "suggestion": "Here's his dinner. Mashed carrot and potato. Then test it. Not too hot!",
      "suggestionFa": "اینم شامش. پورهٔ هویج و سیب‌زمینی. بعد امتحانش کن. خیلی داغ نباشه!",
@@ -244,8 +244,8 @@
      "keywords": [
       "orange",
       "right",
+      "like",
       "face",
-      "said",
       "then"
      ],
      "suggestion": "He said BUS! Like his dad! Right, then a wipe. His face is orange!",
@@ -271,7 +271,7 @@
       "natural",
       "leslie",
       "hears",
-      "said"
+      "wait"
      ],
      "suggestion": "Brilliant job. You're a natural! Wait till Leslie hears he said \"bus\"!",
      "suggestionFa": "کارت عالی بود. ذاتی بلدی! صبر کن لزلی بشنوه گفت «اتوبوس»!",

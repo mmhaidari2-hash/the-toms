@@ -24,8 +24,8 @@
       "kettle's",
       "morning",
       "boiled",
-      "fancy",
-      "cuppa"
+      "cuppa",
+      "fancy"
      ],
      "suggestion": "Morning! Kettle's just boiled — fancy a cuppa?",
      "suggestionFa": "صبح بخیر! کتری تازه جوش آمده — یک چای می‌خوری؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "builder's",
-      "strong",
       "sugars",
+      "strong",
       "sugar",
-      "milk"
+      "mine"
      ],
      "suggestion": "Milk and sugar? I take mine builder's — strong, two sugars.",
      "suggestionFa": "شیر و شکر؟ من مال خودم را «بیلدرز» می‌خورم — پررنگ، با دو قند.",
@@ -73,9 +73,9 @@
      "keywords": [
       "what're",
       "itself",
+      "drive",
       "today",
-      "right",
-      "drive"
+      "won't"
      ],
      "suggestion": "Right, I'm off — the 38 won't drive itself. What're you up to today?",
      "suggestionFa": "خب، من رفتم — اتوبوس ۳۸ خودش رانندگی نمی‌کند. امروز چه برنامه‌ای داری؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "alright",
-      "sleep",
-      "lorry",
       "sorry",
-      "brave"
+      "lorry",
+      "brave",
+      "sleep"
      ],
      "suggestion": "Ha! Brave. So — sleep alright? The bins go out at six, sorry if the lorry woke you.",
      "suggestionFa": "ها! شجاعی. خب — خوب خوابیدی؟ سطل‌ها ساعت شش بیرون می‌رن، ببخش اگه کامیون بیدارت کرد.",
@@ -172,8 +172,8 @@
      "keywords": [
       "forecast",
       "britain",
-      "brolly",
       "spells",
+      "brolly",
       "means"
      ],
      "suggestion": "Take a brolly. Forecast says sunny spells, which in Britain means 'it will rain on you'.",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "passing",
       "there's",
+      "passing",
       "course",
-      "could",
-      "spare"
+      "tesco",
+      "could"
      ],
      "suggestion": "Course you can — there's a spare by the door. If you're passing Tesco, could you grab some milk?",
      "suggestionFa": "معلومه — یکی اضافه کنار در هست. اگه از جلوی تسکو رد شدی، می‌شه شیر بگیری؟",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "skimmed",
       "tonight",
+      "skimmed",
       "pints",
       "right",
-      "i've"
+      "dash"
      ],
      "suggestion": "Two pints of semi-skimmed. You're a star. Right, I've got to dash — see you tonight!",
      "suggestionFa": "دو پاینت نیم‌چرب. تو فوق‌العاده‌ای. خب، باید بدوم — شب می‌بینمت!",
@@ -247,9 +247,9 @@
      "keywords": [
       "biscuit",
       "don't",
-      "last",
-      "have",
-      "nick"
+      "good",
+      "nick",
+      "have"
      ],
      "suggestion": "Good on you. Have a good one — and don't let Ryan nick the last biscuit!",
      "suggestionFa": "آفرین. روز خوبی داشته باشی — و نذار رایان آخرین بیسکویت را کش برود!",

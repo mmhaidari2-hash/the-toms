@@ -56,11 +56,11 @@
    "branches": [
     {
      "keywords": [
-      "played",
       "friend",
+      "played",
       "today",
-      "lily",
-      "best"
+      "best",
+      "lily"
      ],
      "suggestion": "I'm sad. My best friend Mia played with Lily today. Not with me.",
      "suggestionFa": "ناراحتم. بهترین دوستم میا امروز با لیلی بازی کرد. نه با من.",
@@ -207,7 +207,7 @@
       "three",
       "lily",
       "nice",
-      "all"
+      "hmm"
      ],
      "suggestion": "All three of us? Me, Mia and Lily? Hmm… OK. Lily is nice, actually.",
      "suggestionFa": "هر سه‌مون؟ من، میا و لیلی؟ هوم… باشه. راستش لیلی مهربونه.",
@@ -229,8 +229,8 @@
     {
      "keywords": [
       "better",
-      "again",
       "happy",
+      "again",
       "have",
       "feel"
      ],

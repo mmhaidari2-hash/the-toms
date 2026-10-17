@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "look",
       "list",
+      "look",
       "let"
      ],
      "suggestion": "Let me look at the list.",
@@ -88,8 +88,8 @@
     },
     {
      "keywords": [
-      "green",
-      "hello"
+      "hello",
+      "green"
      ],
      "suggestion": "Hello! Six green apples, please.",
      "suggestionFa": "سلام! شش تا سیب سبز، لطفاً.",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "ones",
-      "just"
+      "just",
+      "ones"
      ],
      "suggestion": "Just the red ones.",
      "suggestionFa": "فقط قرمزها.",
@@ -135,8 +135,8 @@
     {
      "keywords": [
       "please",
-      "three",
-      "green"
+      "green",
+      "three"
      ],
      "suggestion": "Three red and three green, please.",
      "suggestionFa": "سه تا قرمز و سه تا سبز، لطفاً.",
@@ -313,8 +313,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "bag",
-      "got"
+      "got",
+      "bag"
      ],
      "suggestion": "No, thanks. I've got a bag.",
      "suggestionFa": "نه، ممنون. کیسه دارم.",
@@ -368,8 +368,8 @@
     {
      "keywords": [
       "card",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by card?",

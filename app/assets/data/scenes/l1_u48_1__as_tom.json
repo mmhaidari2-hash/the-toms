@@ -1,0 +1,306 @@
+{
+ "id": "l1_u48_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) What's for tea?",
+ "titleFa": "(در نقش Tom) شام چیه؟",
+ "setting": "Evening routine · Level 1",
+ "settingFa": "برنامهٔ شبانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u48_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "starving",
+      "what's",
+      "home",
+      "tea"
+     ],
+     "suggestion": "I'm home! I'm starving! What's for tea?",
+     "suggestionFa": "اومدم خونه! دارم از گشنگی می‌میرم! شام چیه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "We're having spaghetti bolognese.",
+   "translations": {
+    "fa": "اسپاگتی بولونز داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "leslie",
+   "text": "Spag bol! Ryan's favourite. It's ready in ten minutes. Can you lay the table, Tom?",
+   "translations": {
+    "fa": "اسپاگ بول! غذای محبوب رایان. ده دقیقه دیگه آماده‌ست. میز را می‌چینی تام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lay the table",
+     "fa": "چیدن میز"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "I'll help you, Tom.",
+   "translations": {
+    "fa": "کمکت می‌کنم تام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "bolognese",
+      "spaghetti",
+      "shorten",
+      "short"
+     ],
+     "suggestion": "Short for spaghetti bolognese. We Brits shorten everything! How was your day, Mehdi?",
+     "suggestionFa": "کوتاه‌شدهٔ اسپاگتی بولونز. ما بریتانیایی‌ها همه چی را کوتاه می‌کنیم! روزت چطور بود {you}؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "It was good, thanks. Busy.",
+   "translations": {
+    "fa": "خوب بود، ممنون. شلوغ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliantly",
+      "english",
+      "pigeon",
+      "angel",
+      "doing"
+     ],
+     "suggestion": "English class! You're doing brilliantly. My day? A pigeon got on the bus. At the Angel!",
+     "suggestionFa": "کلاس انگلیسی! داری عالی پیش میری. روز من؟ یه کبوتر سوار اتوبوس شد. تو انجل!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "A pigeon? What happened?",
+   "translations": {
+    "fa": "کبوتر؟ چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "islington",
+      "upstairs",
+      "didn't",
+      "front",
+      "like"
+     ],
+     "suggestion": "Ha! No, it didn't pay! It sat upstairs, at the front. Like you! Then it got off at Islington.",
+     "suggestionFa": "ها! نه، کرایه نداد! طبقهٔ بالا، جلو نشست. مثل تو! بعد تو ایزلینگتون پیاده شد.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "That's so funny!",
+   "translations": {
+    "fa": "خیلی بامزه‌ست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "leslie",
+   "text": "Tea's ready! Everyone sit down. Would you like parmesan, Mehdi?",
+   "translations": {
+    "fa": "شام آماده‌ست! همه بشینید. پارمزان می‌خوای {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sit down",
+     "fa": "نشستن"
+    },
+    {
+     "word": "parmesan",
+     "fa": "پنیر پارمزان"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Yes, please. Lots!",
+   "translations": {
+    "fa": "آره، لطفاً. زیاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "nicola",
+   "text": "I want lots too! And no green bits!",
+   "translations": {
+    "fa": "منم زیاد می‌خوام! و تیکه‌های سبز نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "green bits",
+     "fa": "تکه‌های سبز"
+    },
+    {
+     "word": "herbs",
+     "fa": "سبزیجات معطر"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "The green bits are herbs.",
+   "translations": {
+    "fa": "تیکه‌های سبز سبزیجات معطرن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "pigeon",
+      "phones",
+      "wants",
+      "means"
+     ],
+     "suggestion": "Right. Phones away, everyone. Ryan, that means you! Now, who wants to hear about my pigeon?",
+     "suggestionFa": "خب. همه گوشی‌ها کنار. رایان، یعنی تو! حالا کی می‌خواد دربارهٔ کبوترم بشنوه؟",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

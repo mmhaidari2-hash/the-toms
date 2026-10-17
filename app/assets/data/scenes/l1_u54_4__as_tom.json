@@ -1,0 +1,252 @@
+{
+ "id": "l1_u54_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Happy New Year",
+ "titleFa": "(در نقش Tom) سال نو مبارک",
+ "setting": "Holiday words · Level 1",
+ "settingFa": "واژه‌های تعطیلات",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u54_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fireworks",
+      "everybody",
+      "midnight",
+      "minutes",
+      "drinks"
+     ],
+     "suggestion": "Two minutes to midnight! Everybody, get your drinks! The fireworks are on the telly!",
+     "suggestionFa": "دو دقیقه به نیمه‌شب! همه، نوشیدنی‌هاتون را بردارید! آتش‌بازی تو تلویزیونه!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "I've got my juice!",
+   "translations": {
+    "fa": "آبمیوه‌م را دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "millions",
+      "seconds",
+      "people",
+      "river",
+      "count"
+     ],
+     "suggestion": "By the river, at Big Ben. Millions of people watch it. Ten seconds! Count with me!",
+     "suggestionFa": "کنار رودخونه، کنار بیگ بن. میلیون‌ها نفر نگاش می‌کنن. ده ثانیه! با من بشمرید!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Ten, nine, eight…",
+   "translations": {
+    "fa": "ده، نه، هشت…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happy",
+      "year",
+      "love",
+      "new"
+     ],
+     "suggestion": "HAPPY NEW YEAR! Happy New Year, love! Happy New Year, Mehdi!",
+     "suggestionFa": "سال نو مبارک! سال نو مبارک عزیزم! سال نو مبارک {you}!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Happy New Year, Tom!",
+   "translations": {
+    "fa": "سال نو مبارک تام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "resolutions",
+      "year's",
+      "going",
+      "year",
+      "now"
+     ],
+     "suggestion": "Now — New Year's resolutions! What are you going to do this year?",
+     "suggestionFa": "حالا — تصمیم‌های سال نو! امسال می‌خوای چی کار کنی؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "I'm going to speak better English.",
+   "translations": {
+    "fa": "می‌خوام بهتر انگلیسی حرف بزنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "jokes",
+      "going",
+      "fewer",
+      "mine"
+     ],
+     "suggestion": "Brilliant! Mine is… I'm going to tell fewer jokes.",
+     "suggestionFa": "عالی! مال من… می‌خوام کمتر جوک بگم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "No, Tom! We love your jokes!",
+   "translations": {
+    "fa": "نه تام! ما عاشق جوک‌هاتیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "leslie",
+   "text": "Ha! He says that every year. Mine is to drink less coffee.",
+   "translations": {
+    "fa": "ها! هر سال همینو میگه. مال من اینه که کمتر قهوه بخورم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "less",
+     "fa": "کمتر"
+    },
+    {
+     "word": "coffee",
+     "fa": "قهوه"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "That's hard, Leslie!",
+   "translations": {
+    "fa": "سخته لزلی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "scottish",
+      "nobody",
+      "words",
+      "hands",
+      "knows"
+     ],
+     "suggestion": "Now we hold hands and sing \"Auld Lang Syne\". It's Scottish. Nobody knows the words!",
+     "suggestionFa": "حالا دست همدیگه را می‌گیریم و «اولد لنگ ساین» می‌خونیم. اسکاتلندیه. هیچ‌کس کلماتش را بلد نیست!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "I don't know the words either!",
+   "translations": {
+    "fa": "منم کلماتش را بلد نیستم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "celebrate",
+      "perfect",
+      "nowruz",
+      "twice",
+      "years"
+     ],
+     "suggestion": "Perfect! When is your New Year, Mehdi? Nowruz, in March? Then we can celebrate twice. Two New Years!",
+     "suggestionFa": "عالی! سال نو تو کیه {you}؟ نوروز، تو مارس؟ پس می‌تونیم دو بار جشن بگیریم. دو تا سال نو!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

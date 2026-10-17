@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "what's",
       "return",
+      "what's",
       "tax"
      ],
      "suggestion": "What's a tax return?",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "order",
-      "here",
-      "mean"
+      "mean",
+      "here"
      ],
      "suggestion": "And what does \"in order to\" mean here?",
      "suggestionFa": "و اینجا «in order to» یعنی چی؟",
@@ -239,8 +239,8 @@
     {
      "keywords": [
       "clearer",
-      "that's",
       "arthur",
+      "that's",
       "thank"
      ],
      "suggestion": "Thank you, Arthur. That's much clearer now.",

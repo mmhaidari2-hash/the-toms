@@ -1,0 +1,225 @@
+{
+ "id": "l1_u52_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) It's OK, don't worry",
+ "titleFa": "(در نقش Tom) اشکال ندارد، نگران نباش",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u52_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "burning",
+      "morning",
+      "what's",
+      "smell"
+     ],
+     "suggestion": "Morning! Ooh, what's that smell? Is something burning?",
+     "suggestionFa": "صبح بخیر! اوه، این بو چیه؟ چیزی داره می‌سوزه؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no! The toast!",
+   "translations": {
+    "fa": "وای نه! نون تست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "window",
+      "before",
+      "never",
+      "alarm",
+      "smoke"
+     ],
+     "suggestion": "Ha! Never mind. Open the window before the smoke alarm goes off.",
+     "suggestionFa": "ها! عیب نداره. قبل از اینکه آژیر دود به صدا دربیاد پنجره را باز کن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Too late! It's beeping!",
+   "translations": {
+    "fa": "دیر شد! داره بوق می‌زنه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "there",
+      "towel",
+      "quiet",
+      "like",
+      "wave"
+     ],
+     "suggestion": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
+     "suggestionFa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Sorry. I'm so embarrassed.",
+   "translations": {
+    "fa": "ببخشید. خیلی خجالت می‌کشم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "burner",
+      "leslie",
+      "worry",
+      "don't",
+      "calls"
+     ],
+     "suggestion": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
+     "suggestionFa": "نگرانش نباش! ضرری نکردیم. من هر هفته این کار را می‌کنم. لزلی بهم میگه «سوزانندهٔ نون تست».",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Really? Every week?",
+   "translations": {
+    "fa": "واقعاً؟ هر هفته؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "toaster",
+      "number",
+      "strong",
+      "three",
+      "every"
+     ],
+     "suggestion": "Every week! The toaster is too strong. Put it on number three, not five.",
+     "suggestionFa": "هر هفته! توستر زیادی قویه. بذارش رو سه، نه پنج.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Number three. OK.",
+   "translations": {
+    "fa": "شمارهٔ سه. باشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "crumpets",
+      "watching",
+      "slices",
+      "again",
+      "right"
+     ],
+     "suggestion": "Five is for crumpets! Right, try again. Two more slices. I'm watching this time!",
+     "suggestionFa": "پنج برای کرامپته! خب، دوباره امتحان کن. دو تا برش دیگه. این دفعه حواسم هست!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What are crumpets?",
+   "translations": {
+    "fa": "کرامپت چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everyone",
+      "welcome",
+      "perfect",
+      "golden",
+      "burns"
+     ],
+     "suggestion": "You're welcome! Perfect golden toast. See? Everyone burns toast. It's not a big deal.",
+     "suggestionFa": "خواهش می‌کنم! نون تست طلایی عالی. دیدی؟ همه نون تست می‌سوزونن. چیز مهمی نیست.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "It's perfect now!",
+   "translations": {
+    "fa": "الان عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "burner",
+      "butter",
+      "toast",
+      "time",
+      "next"
+     ],
+     "suggestion": "Now — butter, and lots of it. And next time, if I burn it, you can call me \"the toast burner\" too!",
+     "suggestionFa": "حالا — کره، و زیاد. و دفعهٔ بعد، اگه من سوزوندم، تو هم می‌تونی بهم بگی «سوزانندهٔ نون تست»!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "fridge",
       "bottom",
+      "fridge",
       "milk",
       "door",
       "goes"
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cupboard",
-      "butter",
       "fridge",
-      "goes",
-      "eggs"
+      "butter",
+      "eggs",
+      "goes"
      ],
      "suggestion": "Butter goes in the fridge too. Eggs go in the cupboard.",
      "suggestionFa": "کره هم میره تو یخچال. تخم‌مرغ‌ها میرن تو کابینت.",
@@ -124,8 +124,8 @@
       "cupboard",
       "bottom",
       "shelf",
-      "rice",
-      "tins"
+      "tins",
+      "tall"
      ],
      "suggestion": "Rice and tins go in the tall cupboard. The bottom shelf.",
      "suggestionFa": "برنج و کنسروها میرن تو کابینت بلنده. قفسهٔ پایینی.",
@@ -200,7 +200,7 @@
       "perfect",
       "kitchen",
       "better",
-      "milk"
+      "know"
      ],
      "suggestion": "Perfect. You know my kitchen better than Tom now! He puts the milk in the cupboard!",
      "suggestionFa": "عالی. الان آشپزخونه‌م را از تام بهتر بلدی! اون شیر را تو کابینت می‌ذاره!",

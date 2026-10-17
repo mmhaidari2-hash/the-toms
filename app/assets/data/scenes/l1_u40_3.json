@@ -158,8 +158,8 @@
    "branches": [
     {
      "keywords": [
-      "where's",
       "problem",
+      "where's",
       "peeler"
      ],
      "suggestion": "No problem. Where's the peeler?",
@@ -172,8 +172,8 @@
      "keywords": [
       "there's",
       "inside",
-      "mud",
-      "one"
+      "one",
+      "mud"
      ],
      "suggestion": "There's mud inside this one!",
      "suggestionFa": "تو این یکی گله!",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "kettle",
-      "can",
-      "use"
+      "use",
+      "can"
      ],
      "suggestion": "Can I use the kettle?",
      "suggestionFa": "می‌تونم از کتری استفاده کنم؟",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "cook",
       "long",
+      "cook",
       "how"
      ],
      "suggestion": "How long does it cook?",

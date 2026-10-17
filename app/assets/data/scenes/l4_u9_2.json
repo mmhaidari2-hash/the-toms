@@ -22,7 +22,7 @@
       "overcooked",
       "medium",
       "afraid",
-      "steak"
+      "asked"
      ],
      "suggestion": "I'm afraid not. My steak is overcooked — I asked for medium-rare.",
      "suggestionFa": "متأسفانه نه. استیکم زیادی پخته — مدیوم‌رر خواسته بودم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "waiting",
       "minutes",
-      "honest",
-      "course"
+      "course",
+      "honest"
      ],
      "suggestion": "To be honest, we've been waiting forty-five minutes for the main course.",
      "suggestionFa": "راستش، چهل و پنج دقیقه‌ست منتظر غذای اصلی هستیم.",
@@ -125,7 +125,7 @@
       "appreciate",
       "manager",
       "please",
-      "could"
+      "speak"
      ],
      "suggestion": "I appreciate that, but could I speak to the manager, please?",
      "suggestionFa": "ممنونم، ولی می‌تونم با مدیر صحبت کنم لطفاً؟",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "understanding",
-      "being",
+      "thank",
       "would",
-      "thank"
+      "being"
      ],
      "suggestion": "That would be fair. Thank you for being so understanding.",
      "suggestionFa": "منصفانه‌ست. ممنون که این‌قدر درک می‌کنید.",
@@ -189,10 +189,10 @@
     },
     {
      "keywords": [
-      "helpful",
       "mention",
+      "helpful",
       "you've",
-      "been"
+      "i'll"
      ],
      "suggestion": "I'll mention how helpful you've been.",
      "suggestionFa": "می‌گم چقدر کمک کردید.",

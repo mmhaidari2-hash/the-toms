@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
+      "flag",
       "good",
-      "true",
-      "flag"
+      "true"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -81,8 +81,8 @@
    "branches": [
     {
      "keywords": [
-      "sample",
       "biased",
+      "sample",
       "tiny",
       "size"
      ],
@@ -97,7 +97,7 @@
       "misleading",
       "headline",
       "study",
-      "real"
+      "then"
      ],
      "suggestion": "The headline is misleading, then, even if the study is real.",
      "suggestionFa": "پس تیتر گمراه‌کننده‌ست، حتی اگه پژوهش واقعی باشه.",
@@ -145,8 +145,8 @@
      "keywords": [
       "original",
       "source",
-      "clip",
-      "just"
+      "look",
+      "clip"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
      "suggestionFa": "دنبال منبع اصلی می‌گردم، نه فقط یه کلیپ.",
@@ -158,8 +158,8 @@
      "keywords": [
       "reported",
       "reliable",
-      "whether",
-      "outlets"
+      "outlets",
+      "whether"
      ],
      "suggestion": "Check whether reliable news outlets have reported it.",
      "suggestionFa": "چک می‌کنم رسانه‌های معتبر گزارشش کردن یا نه.",
@@ -208,7 +208,7 @@
       "getting",
       "what's",
       "harder",
-      "real"
+      "tell"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",
      "suggestionFa": "تشخیص اینکه چی واقعیه داره سخت‌تر و سخت‌تر میشه.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "share",
       "pause",
+      "share",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

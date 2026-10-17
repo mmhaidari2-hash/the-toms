@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "open",
+      "here",
       "go"
      ],
      "suggestion": "Here you go — go on, open it!",
@@ -134,8 +134,8 @@
     },
     {
      "keywords": [
-      "glad",
-      "like"
+      "like",
+      "glad"
      ],
      "suggestion": "I'm glad you like it!",
      "suggestionFa": "خوشحالم که دوستش داری!",
@@ -178,8 +178,8 @@
     {
      "keywords": [
       "judge",
-      "i'll",
-      "okay"
+      "okay",
+      "i'll"
      ],
      "suggestion": "I'll be the judge, okay?",
      "suggestionFa": "من داور می‌شم، باشه؟",
@@ -217,9 +217,9 @@
    "branches": [
     {
      "keywords": [
-      "have",
-      "pink",
       "love",
+      "pink",
+      "have",
       "can"
      ],
      "suggestion": "I love fairy cakes! Can I have a pink one?",
@@ -262,10 +262,10 @@
    "branches": [
     {
      "keywords": [
-      "cream",
       "jelly",
-      "yum",
-      "ice"
+      "cream",
+      "ice",
+      "yum"
      ],
      "suggestion": "Jelly and ice cream — yum!",
      "suggestionFa": "ژله و بستنی — به‌به!",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "music",
       "going",
-      "i'll",
-      "okay"
+      "music",
+      "okay",
+      "keep"
      ],
      "suggestion": "Okay, I'll keep the music going.",
      "suggestionFa": "باشه، من آهنگ را ادامه می‌دم.",

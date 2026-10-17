@@ -113,9 +113,9 @@
    "branches": [
     {
      "keywords": [
+      "save",
       "then",
       "need",
-      "save",
       "up"
      ],
      "suggestion": "Then you need to save up.",
@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "fifteen",
       "divided",
+      "fifteen",
       "two",
       "by"
      ],
@@ -172,9 +172,9 @@
     },
     {
      "keywords": [
-      "eight",
+      "about",
       "weeks",
-      "about"
+      "eight"
      ],
      "suggestion": "About eight weeks.",
      "suggestionFa": "حدود هشت هفته.",
@@ -206,8 +206,8 @@
      "keywords": [
       "sweets",
       "don't",
-      "need",
-      "want"
+      "want",
+      "need"
      ],
      "suggestion": "You don't need sweets. You want sweets!",
      "suggestionFa": "آبنبات لازم نداری. آبنبات می‌خوای!",
@@ -219,8 +219,8 @@
      "keywords": [
       "small",
       "just",
-      "bag",
-      "one"
+      "one",
+      "bag"
      ],
      "suggestion": "Just one small bag?",
      "suggestionFa": "فقط یه کیسهٔ کوچیک؟",
@@ -266,8 +266,8 @@
     {
      "keywords": [
       "that's",
-      "fair",
-      "idea"
+      "idea",
+      "fair"
      ],
      "suggestion": "That's a fair idea.",
      "suggestionFa": "فکر منصفانه‌ایه.",

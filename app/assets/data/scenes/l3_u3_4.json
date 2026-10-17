@@ -68,8 +68,8 @@
     {
      "keywords": [
       "that's",
-      "doris",
       "quite",
+      "doris",
       "far"
      ],
      "suggestion": "That's quite far for you, Doris.",
@@ -81,8 +81,8 @@
     {
      "keywords": [
       "say",
-      "did",
       "why",
+      "did",
       "he"
      ],
      "suggestion": "Did he say why?",
@@ -176,9 +176,9 @@
    "branches": [
     {
      "keywords": [
-      "come",
       "sign",
-      "i'll"
+      "i'll",
+      "come"
      ],
      "suggestion": "I'll sign it. And I'll come with you.",
      "suggestionFa": "امضاش می‌کنم. و باهاتون میام.",
@@ -240,10 +240,10 @@
     },
     {
      "keywords": [
-      "drive",
       "there",
-      "told",
-      "he'd"
+      "drive",
+      "he'd",
+      "told"
      ],
      "suggestion": "Tom told me he'd drive us there.",
      "suggestionFa": "تام بهم گفت ما را می‌رسونه.",

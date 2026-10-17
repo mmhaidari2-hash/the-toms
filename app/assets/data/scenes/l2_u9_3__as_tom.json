@@ -24,8 +24,8 @@
       "manchester",
       "beautiful",
       "district",
-      "place",
-      "going"
+      "we're",
+      "place"
      ],
      "suggestion": "Right, boots on! We're going to the Peak District. It's the most beautiful place near Manchester.",
      "suggestionFa": "خب، چکمه‌ها پات! داریم می‌ریم پیک دیستریکت. قشنگ‌ترین جای نزدیک منچستره.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "district",
       "mountain",
-      "scafell",
+      "district",
       "highest",
-      "doing"
+      "scafell",
+      "we're"
      ],
      "suggestion": "No, the highest mountain is Scafell Pike, in the Lake District. Today we're doing an easy one — about eight miles.",
      "suggestionFa": "نه، بلندترین کوه اسکافل پایکه، تو لیک دیستریکت. امروز یه مسیر آسون می‌ریم — حدود هشت مایل.",
@@ -75,7 +75,7 @@
       "kilometres",
       "thirteen",
       "there's",
-      "about"
+      "worry"
      ],
      "suggestion": "About thirteen kilometres. Don't worry, there's a pub at the end. Have you got a waterproof?",
      "suggestionFa": "حدود سیزده کیلومتر. نگران نباش، آخرش یه پاب هست. بارونی داری؟",
@@ -98,8 +98,8 @@
      "keywords": [
       "england",
       "warmest",
-      "always",
       "oldest",
+      "always",
       "going"
      ],
      "suggestion": "It's England, mate — it's always going to rain! Take mine. It's the oldest but the warmest.",
@@ -123,9 +123,9 @@
      "keywords": [
       "sandwiches",
       "phone's",
-      "snacks",
       "signal",
-      "leslie"
+      "leslie",
+      "snacks"
      ],
      "suggestion": "Water, snacks and a map. My phone's the worst for signal up there. Leslie made sandwiches.",
      "suggestionFa": "آب، تنقلات و نقشه. گوشی من بالای کوه بدترین آنتن را داره. لزلی ساندویچ درست کرده.",
@@ -150,7 +150,7 @@
       "leslie",
       "let's",
       "three",
-      "right"
+      "worst"
      ],
      "suggestion": "Leslie, definitely. I'm the worst — I once got us lost for three hours! Right, let's go.",
      "suggestionFa": "لزلی، قطعاً. من بدترینم — یه بار سه ساعت گممون کردم! خب، بریم.",

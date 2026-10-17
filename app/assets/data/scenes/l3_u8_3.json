@@ -22,7 +22,7 @@
       "looks",
       "like",
       "bomb",
-      "hit"
+      "wow"
      ],
      "suggestion": "Wow. It looks like a bomb hit it!",
      "suggestionFa": "وای. انگار بمب خورده!",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "impossible",
-      "help",
-      "i'll"
+      "i'll",
+      "help"
      ],
      "suggestion": "It's not impossible. I'll help you.",
      "suggestionFa": "غیرممکن نیست. کمکت می‌کنم.",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "dirty",
-      "doing",
       "socks",
+      "doing",
       "deal"
      ],
      "suggestion": "Deal. But you're doing the dirty socks!",
@@ -88,7 +88,7 @@
       "about",
       "also",
       "make",
-      "tea"
+      "cup"
      ],
      "suggestion": "How about if you also make me a cup of tea?",
      "suggestionFa": "چطوره یه چای هم برام درست کنی؟",
@@ -143,9 +143,9 @@
     },
     {
      "keywords": [
-      "start",
-      "floor",
       "can't",
+      "floor",
+      "start",
       "see"
      ],
      "suggestion": "Let's start with the floor. I can't see it!",

@@ -23,9 +23,9 @@
      "keywords": [
       "finished",
       "lunch",
-      "clear",
       "table",
-      "mummy"
+      "mummy",
+      "clear"
      ],
      "suggestion": "Lunch is finished! Mummy says we must clear the table. Can you help me?",
      "suggestionFa": "ناهار تموم شد! مامان می‌گه باید میز را جمع کنیم. کمکم می‌کنی؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "leftovers",
       "they're",
-      "heavy",
       "where",
-      "cups"
+      "heavy",
+      "i'll"
      ],
      "suggestion": "I'll do the cups. They're not heavy. Where do the leftovers go?",
      "suggestionFa": "من لیوان‌ها را می‌برم. سنگین نیستن. پس‌مونده‌ها کجا می‌رن؟",
@@ -99,7 +99,7 @@
       "packets",
       "little",
       "crisp",
-      "black",
+      "caddy",
       "brown"
      ],
      "suggestion": "Yes! The little brown caddy. And the crisp packets go in the black bin.",
@@ -124,8 +124,8 @@
       "recycling",
       "bottles",
       "please",
-      "green",
-      "table"
+      "table",
+      "green"
      ],
      "suggestion": "Bottles go in the recycling. The green box. Now, wipe the table, please.",
      "suggestionFa": "بطری‌ها می‌رن تو بازیافت. جعبهٔ سبز. حالا، میز را دستمال بکش، لطفاً.",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "another",
       "there's",
-      "crumb",
+      "another",
       "floor",
+      "crumb",
       "tap"
      ],
      "suggestion": "By the tap. Oh, there's a crumb on the floor. And another one!",
@@ -197,10 +197,10 @@
     {
      "keywords": [
       "finished",
-      "helpful",
       "kitchen",
-      "clean",
-      "sweet"
+      "helpful",
+      "sweet",
+      "mummy"
      ],
      "suggestion": "Finished! The kitchen is clean! Mummy, look! Can we have a sweet now? We were very helpful!",
      "suggestionFa": "تموم شد! آشپزخونه تمیزه! مامان، ببین! حالا می‌تونیم یه شکلات بخوریم؟ خیلی کمک کردیم!",

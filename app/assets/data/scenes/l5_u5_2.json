@@ -22,7 +22,7 @@
       "yourself",
       "couldn't",
       "please",
-      "known"
+      "don't"
      ],
      "suggestion": "Please don't blame yourself. You couldn't have known.",
      "suggestionFa": "لطفاً خودت را سرزنش نکن. نمی‌تونستی بدونی.",
@@ -76,7 +76,7 @@
       "understandable",
       "completely",
       "positive",
-      "really"
+      "scared"
      ],
      "suggestion": "It's completely understandable to feel scared. But the doctor was really positive.",
      "suggestionFa": "کاملاً قابل درکه که بترسی. ولی دکتر واقعاً مثبت بود.",
@@ -88,8 +88,8 @@
      "keywords": [
       "grandad's",
       "medicine",
-      "nicola",
-      "simple"
+      "simple",
+      "nicola"
      ],
      "suggestion": "Keep it simple for Nicola. Say Grandad's heart is a bit tired and needs medicine.",
      "suggestionFa": "برای نیکولا ساده بگو. بگو قلب پدربزرگ یه کم خسته‌ست و دارو لازم داره.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "family",
       "you've",
+      "family",
       "since",
       "been"
      ],

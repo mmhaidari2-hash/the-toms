@@ -24,7 +24,7 @@
       "nicola",
       "sweets",
       "trying",
-      "money",
+      "spend",
       "teach"
      ],
      "suggestion": "Nicola wants to spend all her money on sweets! I'm trying to teach her to save.",
@@ -49,8 +49,8 @@
       "tidying",
       "nicola",
       "pounds",
-      "week",
-      "room"
+      "want",
+      "week"
      ],
      "suggestion": "Two pounds a week. For tidying her room. Nicola, what do you want to buy?",
      "suggestionFa": "هفته‌ای دو پوند. برای مرتب کردن اتاقش. نیکولا، می‌خوای چی بخری؟",
@@ -126,9 +126,9 @@
      "keywords": [
       "exactly",
       "pounds",
-      "weeks",
       "every",
-      "week"
+      "weeks",
+      "many"
      ],
      "suggestion": "Exactly. If you save two pounds every week, how many weeks?",
      "suggestionFa": "دقیقاً. اگه هر هفته دو پوند پس‌انداز کنی، چند هفته میشه؟",
@@ -286,7 +286,7 @@
       "watering",
       "kitchen",
       "little",
-      "fifty"
+      "don't"
      ],
      "suggestion": "Ha! A little businesswoman. Fine — fifty p for watering. Just don't flood his kitchen!",
      "suggestionFa": "ها! یه تاجر کوچولو. باشه — پنجاه پی برای آب دادن. فقط آشپزخونه‌ش را آب نبر!",

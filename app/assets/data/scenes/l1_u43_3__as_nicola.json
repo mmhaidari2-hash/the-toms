@@ -61,8 +61,8 @@
     {
      "keywords": [
       "need",
-      "wee",
-      "now"
+      "now",
+      "wee"
      ],
      "suggestion": "I need a wee! Now!",
      "suggestionFa": "جیش دارم! همین الان!",
@@ -247,11 +247,11 @@
    "branches": [
     {
      "keywords": [
-      "there",
       "hands",
+      "there",
+      "made",
       "phew",
-      "soap",
-      "wash"
+      "soap"
      ],
      "suggestion": "Made it! Phew! Can I wash my hands? Is there soap?",
      "suggestionFa": "رسیدیم! آخیش! می‌تونم دستام را بشورم؟ صابون هست؟",
@@ -272,10 +272,10 @@
    "branches": [
     {
      "keywords": [
-      "scared",
       "towels",
-      "dryer",
+      "scared",
       "paper",
+      "dryer",
       "loud"
      ],
      "suggestion": "The dryer is SO loud! I'm scared! Can I use paper towels?",

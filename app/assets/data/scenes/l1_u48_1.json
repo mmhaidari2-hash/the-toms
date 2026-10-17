@@ -1,0 +1,357 @@
+{
+ "id": "l1_u48_1",
+ "characterId": "tom",
+ "title": "What's for tea?",
+ "titleFa": "شام چیه؟",
+ "setting": "Evening routine · Level 1",
+ "settingFa": "برنامهٔ شبانه",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "I'm home! I'm starving! What's for tea?",
+   "translations": {
+    "fa": "اومدم خونه! دارم از گشنگی می‌میرم! شام چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bolognese",
+      "spaghetti",
+      "having",
+      "we're"
+     ],
+     "suggestion": "We're having spaghetti bolognese.",
+     "suggestionFa": "اسپاگتی بولونز داریم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie",
+      "don't",
+      "know",
+      "ask"
+     ],
+     "suggestion": "I don't know. Ask Leslie!",
+     "suggestionFa": "نمی‌دونم. از لزلی بپرس!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "starving",
+     "fa": "خیلی گرسنه"
+    },
+    {
+     "word": "tea",
+     "fa": "شام (در بعضی مناطق)"
+    },
+    {
+     "word": "spaghetti",
+     "fa": "اسپاگتی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In much of Britain, \"tea\" can mean the evening meal; others say \"dinner\" or \"supper\".",
+    "fa": "tea یعنی شام."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Spag bol! Ryan's favourite. It's ready in ten minutes. Can you lay the table, Tom?",
+   "translations": {
+    "fa": "اسپاگ بول! غذای محبوب رایان. ده دقیقه دیگه آماده‌ست. میز را می‌چینی تام؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "help",
+      "i'll",
+      "tom"
+     ],
+     "suggestion": "I'll help you, Tom.",
+     "suggestionFa": "کمکت می‌کنم تام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "spag",
+      "bol"
+     ],
+     "suggestion": "What's spag bol?",
+     "suggestionFa": "اسپاگ بول چیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "lay the table",
+     "fa": "چیدن میز"
+    },
+    {
+     "word": "ready",
+     "fa": "آماده"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Short for spaghetti bolognese. We Brits shorten everything! How was your day, {you}?",
+   "translations": {
+    "fa": "کوتاه‌شدهٔ اسپاگتی بولونز. ما بریتانیایی‌ها همه چی را کوتاه می‌کنیم! روزت چطور بود {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thanks",
+      "busy",
+      "good",
+      "was"
+     ],
+     "suggestion": "It was good, thanks. Busy.",
+     "suggestionFa": "خوب بود، ممنون. شلوغ.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "english",
+      "tiring",
+      "class",
+      "had"
+     ],
+     "suggestion": "Tiring. I had my English class.",
+     "suggestionFa": "خسته‌کننده. کلاس انگلیسی داشتم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "short for",
+     "fa": "کوتاه‌شدهٔ"
+    },
+    {
+     "word": "shorten",
+     "fa": "کوتاه کردن"
+    },
+    {
+     "word": "tiring",
+     "fa": "خسته‌کننده"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "English class! You're doing brilliantly. My day? A pigeon got on the bus. At the Angel!",
+   "translations": {
+    "fa": "کلاس انگلیسی! داری عالی پیش میری. روز من؟ یه کبوتر سوار اتوبوس شد. تو انجل!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "pigeon"
+     ],
+     "suggestion": "A pigeon? What happened?",
+     "suggestionFa": "کبوتر؟ چی شد؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pay",
+      "did"
+     ],
+     "suggestion": "Did it pay?",
+     "suggestionFa": "کرایه داد؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "brilliantly",
+     "fa": "عالی"
+    },
+    {
+     "word": "pigeon",
+     "fa": "کبوتر"
+    },
+    {
+     "word": "happened",
+     "fa": "اتفاق افتاد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Ha! No, it didn't pay! It sat upstairs, at the front. Like you! Then it got off at Islington.",
+   "translations": {
+    "fa": "ها! نه، کرایه نداد! طبقهٔ بالا، جلو نشست. مثل تو! بعد تو ایزلینگتون پیاده شد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "funny"
+     ],
+     "suggestion": "That's so funny!",
+     "suggestionFa": "خیلی بامزه‌ست!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pigeon",
+      "clever"
+     ],
+     "suggestion": "A very clever pigeon.",
+     "suggestionFa": "یه کبوتر خیلی باهوش.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sat",
+     "fa": "نشست"
+    },
+    {
+     "word": "got off",
+     "fa": "پیاده شد"
+    },
+    {
+     "word": "clever",
+     "fa": "باهوش"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Tea's ready! Everyone sit down. Would you like parmesan, {you}?",
+   "translations": {
+    "fa": "شام آماده‌ست! همه بشینید. پارمزان می‌خوای {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "lots"
+     ],
+     "suggestion": "Yes, please. Lots!",
+     "suggestionFa": "آره، لطفاً. زیاد!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "little",
+      "thanks",
+      "just"
+     ],
+     "suggestion": "Just a little, thanks.",
+     "suggestionFa": "فقط یه کم، ممنون.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sit down",
+     "fa": "نشستن"
+    },
+    {
+     "word": "parmesan",
+     "fa": "پنیر پارمزان"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "yes please many",
+      "a lot please of cheese"
+     ],
+     "echo": "Lots of cheese? Here you go!",
+     "better": "Lots, please!",
+     "betterFa": "زیاد، لطفاً!"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "I want lots too! And no green bits!",
+   "translations": {
+    "fa": "منم زیاد می‌خوام! و تیکه‌های سبز نه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "herbs"
+     ],
+     "suggestion": "The green bits are herbs.",
+     "suggestionFa": "تیکه‌های سبز سبزیجات معطرن.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good"
+     ],
+     "suggestion": "Green bits are good for you!",
+     "suggestionFa": "تیکه‌های سبز برات خوبن!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "green bits",
+     "fa": "تکه‌های سبز"
+    },
+    {
+     "word": "herbs",
+     "fa": "سبزیجات معطر"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "Right. Phones away, everyone. Ryan, that means you! Now, who wants to hear about my pigeon?",
+   "translations": {
+    "fa": "خب. همه گوشی‌ها کنار. رایان، یعنی تو! حالا کی می‌خواد دربارهٔ کبوترم بشنوه؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

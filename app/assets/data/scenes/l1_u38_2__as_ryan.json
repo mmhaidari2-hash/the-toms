@@ -23,8 +23,8 @@
      "keywords": [
       "present",
       "bought",
-      "looks",
       "can't",
+      "looks",
       "awful"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
@@ -74,8 +74,8 @@
       "scissors",
       "where",
       "first",
-      "paper",
-      "small"
+      "small",
+      "paper"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
      "suggestionFa": "باشه، اول کاغذ را ببر. خیلی کوچیک نه. قیچی کجاست؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "genius",
       "easier",
+      "genius",
       "box",
       "now"
      ],
@@ -149,7 +149,7 @@
       "better",
       "right",
       "fold",
-      "ends"
+      "like"
      ],
      "suggestion": "Better. Now the ends. Fold them like triangles. Is that right?",
      "suggestionFa": "بهتر شد. حالا دو طرفش. مثل مثلث تاشون کن. درسته؟",
@@ -173,8 +173,8 @@
       "write",
       "gift",
       "nice",
-      "top",
-      "tag"
+      "now",
+      "top"
      ],
      "suggestion": "Nice! Now a bow on top. And a gift tag. What do I write?",
      "suggestionFa": "خوبه! حالا یه پاپیون روش. و یه برچسب کادو. چی بنویسم؟",
@@ -196,10 +196,10 @@
     {
      "keywords": [
       "soppy",
-      "mates",
       "don't",
-      "tell",
-      "just"
+      "mates",
+      "just",
+      "love"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

@@ -1,0 +1,312 @@
+{
+ "id": "l1_u47_2",
+ "characterId": "weda",
+ "title": "Nana's slippers",
+ "titleFa": "دمپایی‌های نانا",
+ "setting": "Nana's corner · Level 1",
+ "settingFa": "گوشهٔ نانا",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
+   "translations": {
+    "fa": "ای بابا! دمپایی‌هام را دیدی عزیزم؟ صورتی پشمالوها."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "leave",
+      "where",
+      "them"
+     ],
+     "suggestion": "No, I haven't. Where did you leave them?",
+     "suggestionFa": "نه، ندیدم. کجا گذاشتیدشون؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bathroom",
+      "they"
+     ],
+     "suggestion": "Are they in the bathroom?",
+     "suggestionFa": "تو حمومن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bother",
+     "fa": "ای بابا"
+    },
+    {
+     "word": "slippers",
+     "fa": "دمپایی‌ها"
+    },
+    {
+     "word": "fluffy",
+     "fa": "پشمالو"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "I don't remember! My memory is terrible these days. Are they under the bath?",
+   "translations": {
+    "fa": "یادم نیست! این روزا حافظه‌م افتضاحه. زیر وانن؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "aren't",
+      "under",
+      "they",
+      "bath"
+     ],
+     "suggestion": "No, they aren't under the bath.",
+     "suggestionFa": "نه، زیر وان نیستن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "behind",
+      "door",
+      "see",
+      "one"
+     ],
+     "suggestion": "I can see one! Behind the door.",
+     "suggestionFa": "یکی را می‌بینم! پشت در.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "remember",
+     "fa": "یادآوردن"
+    },
+    {
+     "word": "memory",
+     "fa": "حافظه"
+    },
+    {
+     "word": "under",
+     "fa": "زیر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "One! Where's the other one? I can't walk with one slipper!",
+   "translations": {
+    "fa": "یکی! اون یکی کجاست؟ با یه دمپایی که نمی‌تونم راه برم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bedroom"
+     ],
+     "suggestion": "Is it in your bedroom?",
+     "suggestionFa": "تو اتاق خوابتونه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "maybe",
+      "has"
+     ],
+     "suggestion": "Maybe William has it.",
+     "suggestionFa": "شاید ویلیام داره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "other",
+     "fa": "دیگر"
+    },
+    {
+     "word": "walk",
+     "fa": "راه رفتن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "william",
+   "text": "Mine! Shoe!",
+   "translations": {
+    "fa": "مال منه! کفش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "nana's",
+      "have"
+     ],
+     "suggestion": "William! You have Nana's slipper!",
+     "suggestionFa": "ویلیام! دمپایی نانا دست توئه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "shoe"
+     ],
+     "suggestion": "It's not a shoe, it's a slipper!",
+     "suggestionFa": "کفش نیست، دمپاییه!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mine",
+     "fa": "مال من"
+    },
+    {
+     "word": "shoe",
+     "fa": "کفش"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "You cheeky monkey! Is he chewing it?",
+   "translations": {
+    "fa": "ای شیطون! داره می‌جوئدش؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chewing",
+      "he's"
+     ],
+     "suggestion": "Yes, he's chewing it!",
+     "suggestionFa": "آره، داره می‌جوئدش!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "nana",
+      "give"
+     ],
+     "suggestion": "Give it to Nana, William.",
+     "suggestionFa": "بده به نانا ویلیام.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "cheeky monkey",
+     "fa": "شیطون (شوخی)"
+    },
+    {
+     "word": "chewing",
+     "fa": "جویدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Cheeky monkey\" is a loving British way to tell off a naughty child.",
+    "fa": "cheeky monkey."
+   },
+   "recasts": [
+    {
+     "match": [
+      "he chewing it",
+      "he is chew it"
+     ],
+     "echo": "He's chewing it? Oh dear!",
+     "better": "He's chewing it.",
+     "betterFa": "داره می‌جوئدش."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
+   "translations": {
+    "fa": "ممنون عزیزم. یه کم خیسه، ولی عیب نداره. عینکم را هم دیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "they're",
+      "head",
+      "weda"
+     ],
+     "suggestion": "They're on your head, Weda!",
+     "suggestionFa": "رو سرتونه ودا!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where",
+      "have",
+      "last",
+      "them"
+     ],
+     "suggestion": "Where did you last have them?",
+     "suggestionFa": "آخرین بار کجا داشتیدشون؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "glasses",
+     "fa": "عینک"
+    },
+    {
+     "word": "never mind",
+     "fa": "عیبی ندارد"
+    },
+    {
+     "word": "last",
+     "fa": "آخرین بار"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "On my head! Oh, silly me. What would I do without you? You and William, my little helpers!",
+   "translations": {
+    "fa": "رو سرم! آه، چه حواس‌پرتی. بدون تو چی کار می‌کردم؟ تو و ویلیام، کمک‌کارهای کوچولوی من!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

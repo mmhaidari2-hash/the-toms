@@ -1,0 +1,199 @@
+{
+ "id": "l1_u52_1__as_nicola",
+ "characterId": "nicola",
+ "title": "(As Nicola) Oops, I spilled it!",
+ "titleFa": "(در نقش Nicola) اوه، ریختمش!",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u52_1",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nicola!",
+   "translations": {
+    "fa": "سلام Nicola!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everywhere",
+      "spilled",
+      "sorry",
+      "juice",
+      "oops"
+     ],
+     "suggestion": "Oops! I spilled my juice! It's everywhere! Sorry! Sorry!",
+     "suggestionFa": "اوه! آبمیوه‌م را ریختم! همه جا ریخت! ببخشید! ببخشید!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Don't worry. It's only juice.",
+   "translations": {
+    "fa": "نگران نباش. فقط آبمیوه‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "floor",
+      "table",
+      "mr"
+     ],
+     "suggestion": "It's on the table and on the floor. And on Mr Buttons!",
+     "suggestionFa": "رو میز و رو زمینه. و رو آقای دکمه!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Where's a cloth?",
+   "translations": {
+    "fa": "دستمال کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "kitchen",
+      "sink",
+      "roll",
+      "help",
+      "can"
+     ],
+     "suggestion": "The kitchen roll is by the sink. Can I help?",
+     "suggestionFa": "دستمال کاغذی کنار سینکه. می‌تونم کمک کنم؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Yes. You wipe the table.",
+   "translations": {
+    "fa": "آره. تو میز را پاک کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "knocked",
+      "happen",
+      "wiping",
+      "elbow",
+      "how"
+     ],
+     "suggestion": "I'm wiping! How did it happen? I knocked it with my elbow!",
+     "suggestionFa": "دارم پاک می‌کنم! چطوری شد؟ با آرنجم زدمش!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Accidents happen.",
+   "translations": {
+    "fa": "اتفاقه دیگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sticking",
+      "sticky",
+      "floor",
+      "socks",
+      "now"
+     ],
+     "suggestion": "Now the floor is sticky! My socks are sticking! Ew!",
+     "suggestionFa": "حالا زمین چسبناکه! جورابام دارن می‌چسبن! اَه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Let's mop the floor.",
+   "translations": {
+    "fa": "بیا زمین را تی بکشیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "buttons",
+      "smells",
+      "apple",
+      "about",
+      "like"
+     ],
+     "suggestion": "What about Mr Buttons? Is he OK? He smells like apple!",
+     "suggestionFa": "آقای دکمه چی؟ خوبه؟ بوی سیب میده!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "He needs a bath!",
+   "translations": {
+    "fa": "حموم لازمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "machine",
+      "washing",
+      "gentle",
+      "dizzy",
+      "will"
+     ],
+     "suggestion": "In the washing machine?! Will he be dizzy? OK… but a gentle wash!",
+     "suggestionFa": "تو ماشین لباسشویی؟! سرش گیج نمیره؟ باشه… ولی شستشوی ملایم!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

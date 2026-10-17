@@ -21,9 +21,9 @@
    "branches": [
     {
      "keywords": [
-      "raining",
-      "british",
       "typical",
+      "british",
+      "raining",
       "summer",
       "again"
      ],
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "afternoon",
       "sometimes",
+      "afternoon",
       "weather",
-      "always",
-      "what's"
+      "tehran",
+      "always"
      ],
      "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
      "suggestionFa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "check",
       "going",
-      "lucky",
       "phone",
+      "lucky",
       "here"
      ],
      "suggestion": "Hot and dry! Lucky you. Here it's grey and wet. Is it going to stop? Let me check my phone.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "showers",
-      "heavy",
       "means",
-      "more",
-      "lots"
+      "heavy",
+      "says",
+      "rain"
      ],
      "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
      "suggestionFa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر.",
@@ -150,7 +150,7 @@
       "dripping",
       "weather",
       "british",
-      "that's"
+      "lovely"
      ],
      "suggestion": "Loads more! Everyone's dripping. And they all say \"Lovely weather!\" That's British humour.",
      "suggestionFa": "خیلی بیشتر! همه آب ازشون می‌چکه. و همه میگن «چه هوای خوبی!» این شوخ‌طبعی بریتانیاییه.",
@@ -173,9 +173,9 @@
      "keywords": [
       "exactly",
       "leslie",
-      "comes",
       "watch",
-      "face"
+      "comes",
+      "when"
      ],
      "suggestion": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
      "suggestionFa": "دقیقاً! امتحانش کن. وقتی لزلی اومد تو بهش بگو. صورتش را ببین!",
@@ -198,8 +198,8 @@
      "keywords": [
       "umbrella",
       "perfect",
-      "british",
       "where's",
+      "british",
       "ryan's"
      ],
      "suggestion": "Perfect! You're more British every day. Right, I'm off. Where's my umbrella? Oh no, Ryan's got it again!",

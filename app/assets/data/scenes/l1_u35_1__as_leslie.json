@@ -23,9 +23,9 @@
      "keywords": [
       "somebody",
       "things",
-      "nappy",
       "needs",
-      "pass"
+      "nappy",
+      "just"
      ],
      "suggestion": "Pooh! Somebody needs a new nappy. Can you help me? Just pass me things.",
      "suggestionFa": "پیف! یکی پوشک نو لازم داره. کمکم می‌کنی؟ فقط وسایل را بهم بده.",
@@ -48,9 +48,9 @@
      "keywords": [
       "changing",
       "thing",
-      "blue",
+      "sofa",
       "need",
-      "sofa"
+      "blue"
      ],
      "suggestion": "I need the changing mat. It's the blue thing by the sofa.",
      "suggestionFa": "تشک تعویض لازم دارم. همون چیز آبیه کنار مبل.",
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "clean",
-      "wants",
       "wipes",
+      "never",
       "nappy",
-      "never"
+      "clean",
+      "wants"
      ],
      "suggestion": "He never wants it! Now I need the wipes. And a clean nappy from the bag.",
      "suggestionFa": "هیچ‌وقت نمی‌خواد! حالا دستمال مرطوب لازمه. و یه پوشک تمیز از کیف.",
@@ -147,9 +147,9 @@
      "keywords": [
       "changing",
       "kicks",
-      "hold",
       "feet",
-      "can"
+      "hold",
+      "his"
      ],
      "suggestion": "Yes, the changing bag. Can you hold his feet? He kicks a lot!",
      "suggestionFa": "آره، کیف تعویض. می‌تونی پاهاش را نگه داری؟ خیلی لگد می‌زنه!",
@@ -219,9 +219,9 @@
      "keywords": [
       "everything's",
       "hands",
-      "game",
       "done",
-      "wash"
+      "game",
+      "need"
      ],
      "suggestion": "Everything's a game to him. Done! Now we need to wash our hands.",
      "suggestionFa": "همه چیز براش بازیه. تموم شد! حالا باید دستامون را بشوریم.",
@@ -244,9 +244,9 @@
      "keywords": [
       "natural",
       "thanks",
-      "about",
       "times",
-      "next"
+      "about",
+      "time"
      ],
      "suggestion": "About six times! Thanks, you're a natural. Next time you can do it on your own! Ha!",
      "suggestionFa": "حدود شش بار! ممنون، ذاتاً بلدی. دفعهٔ بعد خودت تنهایی انجامش میدی! ها!",

@@ -1,0 +1,313 @@
+{
+ "id": "l1_u50_1",
+ "characterId": "ryan",
+ "title": "I love chips",
+ "titleFa": "عاشق سیب‌زمینی سرخ‌کرده‌ام",
+ "setting": "Likes and dislikes · Level 1",
+ "settingFa": "علاقه‌ها و بیزاری‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ryan",
+   "text": "Chips for tea! Best night of the week. Do you like chips?",
+   "translations": {
+    "fa": "شام چیپس! بهترین شب هفته. سیب‌زمینی سرخ‌کرده دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chips",
+      "love"
+     ],
+     "suggestion": "I love chips!",
+     "suggestionFa": "عاشق چیپسم!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "them",
+      "mind"
+     ],
+     "suggestion": "I don't mind them.",
+     "suggestionFa": "برام فرقی نمی‌کنه.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chips",
+     "fa": "سیب‌زمینی سرخ‌کرده"
+    },
+    {
+     "word": "love",
+     "fa": "عاشق بودن"
+    },
+    {
+     "word": "don't mind",
+     "fa": "فرقی نمی‌کند"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"I don't mind\" means \"it's OK for me\" — not strong like or dislike.",
+    "fa": "I don't mind یعنی برایم فرقی ندارد."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ryan",
+   "text": "Don't mind? They're the best! Ketchup or mayo? Big question.",
+   "translations": {
+    "fa": "فرقی نمی‌کنه؟ بهترینن! کچاپ یا مایونز؟ سؤال مهم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ketchup",
+      "please"
+     ],
+     "suggestion": "Ketchup, please.",
+     "suggestionFa": "کچاپ، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "better",
+      "mayo",
+      "like"
+     ],
+     "suggestion": "I like mayo better.",
+     "suggestionFa": "مایونز را بیشتر دوست دارم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ketchup",
+     "fa": "سس گوجه"
+    },
+    {
+     "word": "mayo",
+     "fa": "مایونز"
+    },
+    {
+     "word": "better",
+     "fa": "بیشتر ؛ بهتر"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ryan",
+   "text": "Mayo! Like the Belgians. I like both. But Dad hates mayo!",
+   "translations": {
+    "fa": "مایونز! مثل بلژیکی‌ها. من هر دو را دوست دارم. ولی بابا از مایونز متنفره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mayo",
+      "tom",
+      "why"
+     ],
+     "suggestion": "Why does Tom hate mayo?",
+     "suggestionFa": "چرا تام از مایونز بدش میاد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everything",
+      "ketchup"
+     ],
+     "suggestion": "I hate ketchup on everything.",
+     "suggestionFa": "من از کچاپ رو همه چی متنفرم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "both",
+     "fa": "هر دو"
+    },
+    {
+     "word": "hates",
+     "fa": "متنفر است"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "tom is hate mayo",
+      "tom hating mayo"
+     ],
+     "echo": "Tom hates mayo? It's true!",
+     "better": "Tom hates mayo.",
+     "betterFa": "تام از مایونز متنفره."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ryan",
+   "text": "He says it's \"too wobbly\". Weird. Do you like vinegar on your chips?",
+   "translations": {
+    "fa": "میگه «زیادی لرزونه». عجیبه. سرکه رو چیپست دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really",
+      "chips"
+     ],
+     "suggestion": "Vinegar on chips? Really?",
+     "suggestionFa": "سرکه رو چیپس؟ واقعاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "like",
+      "sour"
+     ],
+     "suggestion": "I don't like vinegar. It's sour.",
+     "suggestionFa": "سرکه دوست ندارم. ترشه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "wobbly",
+     "fa": "لرزان"
+    },
+    {
+     "word": "vinegar",
+     "fa": "سرکه"
+    },
+    {
+     "word": "sour",
+     "fa": "ترش"
+    }
+   ],
+   "cultureNote": {
+    "en": "Salt and vinegar on chips is a classic British combination.",
+    "fa": "نمک و سرکه روی چیپس."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ryan",
+   "text": "It's amazing! Try one. Salt and vinegar. Go on!",
+   "translations": {
+    "fa": "فوق‌العاده‌ست! یکی امتحان کن. نمک و سرکه. یالا!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mmm"
+     ],
+     "suggestion": "Mmm! I like it!",
+     "suggestionFa": "ممم! دوستش دارم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "don't"
+     ],
+     "suggestion": "No, I really don't like it.",
+     "suggestionFa": "نه، واقعاً دوستش ندارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "amazing",
+     "fa": "فوق‌العاده"
+    },
+    {
+     "word": "try",
+     "fa": "امتحان کردن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ryan",
+   "text": "Your face! Ha! What about gravy? Northerners love chips with gravy.",
+   "translations": {
+    "fa": "صورتت! ها! گریوی چطور؟ شمالی‌ها عاشق چیپس با گریوی‌ان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "chips",
+      "i'd",
+      "try"
+     ],
+     "suggestion": "Gravy on chips? I'd like to try that.",
+     "suggestionFa": "گریوی رو چیپس؟ دوست دارم امتحانش کنم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't"
+     ],
+     "suggestion": "I don't like gravy.",
+     "suggestionFa": "گریوی دوست ندارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "gravy",
+     "fa": "سس گوشت"
+    },
+    {
+     "word": "Northerners",
+     "fa": "اهالی شمال انگلیس"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the North of England, \"chips and gravy\" is popular; in Scotland, chips with \"salt and sauce\".",
+    "fa": "چیپس و گریوی در شمال."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ryan",
+   "text": "Fair enough. More for me! Pass the chips. Last one's mine!",
+   "translations": {
+    "fa": "حق داری. بیشتر برای من! چیپس‌ها را بده. آخریش مال منه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

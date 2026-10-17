@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
+      "bags",
       "many",
       "need",
-      "bags",
       "how"
      ],
      "suggestion": "How many bags do we need?",
@@ -84,9 +84,9 @@
     },
     {
      "keywords": [
+      "jelly",
       "let's",
       "start",
-      "jelly",
       "ones"
      ],
      "suggestion": "Let's start with the jelly ones.",
@@ -271,8 +271,8 @@
    "branches": [
     {
      "keywords": [
-      "enough",
-      "that's"
+      "that's",
+      "enough"
      ],
      "suggestion": "Yes, that's enough.",
      "suggestionFa": "آره، کافیه.",
@@ -282,8 +282,8 @@
     },
     {
      "keywords": [
-      "maybe",
       "sugar",
+      "maybe",
       "less",
       "lot"
      ],

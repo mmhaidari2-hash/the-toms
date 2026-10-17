@@ -127,8 +127,8 @@
     {
      "keywords": [
       "teddy",
-      "only",
-      "sock"
+      "sock",
+      "only"
      ],
      "suggestion": "Only a sock and a teddy.",
      "suggestionFa": "فقط یه جوراب و یه عروسک.",
@@ -169,9 +169,9 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "safe",
       "he's",
+      "here",
       "now"
      ],
      "suggestion": "Here he is. He's safe now.",
@@ -264,8 +264,8 @@
     {
      "keywords": [
       "that's",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "That's a good idea.",
      "suggestionFa": "فکر خوبیه.",
@@ -359,9 +359,9 @@
    "branches": [
     {
      "keywords": [
+      "song",
       "sing",
-      "weda",
-      "song"
+      "weda"
      ],
      "suggestion": "Yes! Sing a song, Weda.",
      "suggestionFa": "آره! یه آهنگ بخونید ودا.",

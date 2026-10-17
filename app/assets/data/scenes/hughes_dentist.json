@@ -20,9 +20,9 @@
     {
      "keywords": [
       "something",
-      "hurts",
       "drink",
-      "tooth"
+      "tooth",
+      "hurts"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
      "suggestionFa": "آره، یه دندونم وقتی چیز سرد می‌خورم درد می‌گیره.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "everything's",
-      "been",
-      "fine"
+      "fine",
+      "been"
      ],
      "suggestion": "No, everything's been fine.",
      "suggestionFa": "نه، همه چی خوب بوده.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "morning",
-      "night",
-      "twice"
+      "twice",
+      "night"
      ],
      "suggestion": "Twice a day, morning and night.",
      "suggestionFa": "روزی دو بار، صبح و شب.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "really",
+      "should",
       "more"
      ],
      "suggestion": "Not really. I should do it more.",
@@ -163,9 +163,9 @@
     {
      "keywords": [
       "that's",
-      "next",
+      "book",
       "fine",
-      "book"
+      "next"
      ],
      "suggestion": "That's fine. Can I book it for next week?",
      "suggestionFa": "باشه. می‌تونم برای هفتهٔ بعد وقت بگیرم؟",
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "nervous",
-      "hurt",
       "will",
+      "hurt",
       "bit"
      ],
      "suggestion": "Will it hurt? I'm a bit nervous.",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "band",
+      "much",
       "how"
      ],
      "suggestion": "How much is Band 2?",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "today",
-      "week",
       "next",
+      "week",
       "pay"
      ],
      "suggestion": "Do I pay today or next week?",
@@ -316,8 +316,8 @@
      "keywords": [
       "appointment",
       "anything",
-      "before",
-      "should"
+      "should",
+      "before"
      ],
      "suggestion": "Should I avoid anything before the appointment?",
      "suggestionFa": "قبل از وقت باید از چیزی پرهیز کنم؟",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "i'll",
-      "cola",
       "give",
-      "hard"
+      "cola",
+      "hard",
+      "i'll"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",

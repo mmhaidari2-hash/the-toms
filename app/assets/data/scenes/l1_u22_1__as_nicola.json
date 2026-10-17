@@ -72,8 +72,8 @@
      "keywords": [
       "january",
       "spring",
-      "year",
       "cold",
+      "year",
       "dark"
      ],
      "suggestion": "New year in spring? Our new year is in January. It's cold and dark!",
@@ -116,11 +116,11 @@
    "branches": [
     {
      "keywords": [
-      "nowruz",
       "things",
-      "seven",
+      "nowruz",
       "table",
-      "here"
+      "seven",
+      "want"
      ],
      "suggestion": "Seven things! Can we do that here? I want a Nowruz table!",
      "suggestionFa": "هفت تا چیز! می‌شه اینجا هم این کار را بکنیم؟ یه سفرهٔ نوروزی می‌خوام!",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "month",
-      "yay",
-      "now"
+      "now",
+      "yay"
      ],
      "suggestion": "Yay! What month is it now?",
      "suggestionFa": "هورا! الان چه ماهیه؟",
@@ -164,9 +164,9 @@
    "branches": [
     {
      "keywords": [
+      "orange",
       "leaves",
       "autumn",
-      "orange",
       "let's",
       "brown"
      ],
@@ -191,9 +191,9 @@
      "keywords": [
       "favourite",
       "birthday",
-      "what's",
       "school",
-      "wheee"
+      "what's",
+      "month"
      ],
      "suggestion": "Wheee! What's your favourite month? Mine is July. Birthday and no school!",
      "suggestionFa": "ویییی! ماه مورد علاقه‌ات چیه؟ مال من جولایه. تولد و بدون مدرسه!",
@@ -215,9 +215,9 @@
     {
      "keywords": [
       "october",
-      "let's",
-      "march",
       "month",
+      "let's",
+      "mummy",
       "every"
      ],
      "suggestion": "March and July and October! Let's have a party in every month! I'll ask Mummy!",

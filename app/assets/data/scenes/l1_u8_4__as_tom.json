@@ -23,8 +23,8 @@
      "keywords": [
       "putting",
       "shelf",
-      "give",
       "hand",
+      "give",
       "can"
      ],
      "suggestion": "Can you give me a hand? I'm putting up a shelf.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "straight",
-      "hold",
       "keep",
-      "can",
-      "end"
+      "hold",
+      "end",
+      "can"
      ],
      "suggestion": "Can you hold this end? Keep it straight. Is it straight?",
      "suggestionFa": "می‌تونی این سرش را نگه داری؟ صاف نگهش دار. صافه؟",
@@ -74,8 +74,8 @@
       "toolbox",
       "drill",
       "pass",
-      "can",
-      "hmm"
+      "hmm",
+      "can"
      ],
      "suggestion": "Hmm. Can you pass me the drill? It's in the toolbox.",
      "suggestionFa": "هوم. می‌تونی دریل را بدی؟ توی جعبه ابزاره.",
@@ -99,8 +99,8 @@
       "drilling",
       "that's",
       "drill",
-      "right",
-      "cover"
+      "cover",
+      "right"
      ],
      "suggestion": "That's the drill. Right — I'm drilling now. Cover your ears!",
      "suggestionFa": "اون دریله. خب — دارم دریل می‌کنم. گوش‌هات را بگیر!",
@@ -125,7 +125,7 @@
       "garden",
       "screws",
       "pass",
-      "got"
+      "now"
      ],
      "suggestion": "Leslie's got him in the garden. Now, can you pass the screws?",
      "suggestionFa": "لزلی توی باغچه نگهش داشته. حالا، پیچ‌ها را می‌دی؟",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "falling",
       "perfect",
+      "falling",
       "there",
       "look",
-      "four"
+      "down"
      ],
      "suggestion": "Four. There! Look at that! Is it falling down? No! It's perfect!",
      "suggestionFa": "چهارتا. ایناهاش! ببین! داره می‌افته؟ نه! عالیه!",

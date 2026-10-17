@@ -1,0 +1,320 @@
+{
+ "id": "l1_u48_3__as_nicola",
+ "characterId": "leslie",
+ "title": "(As Nicola) Pyjamas on",
+ "titleFa": "(در نقش Nicola) پیژامه بپوش",
+ "setting": "Evening routine · Level 1",
+ "settingFa": "برنامهٔ شبانه",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u48_3",
+ "playAs": "nicola",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "leslie",
+   "text": "Right, Nicola! Bath, pyjamas, teeth, story. In that order!",
+   "translations": {
+    "fa": "خب نیکولا! حموم، پیژامه، دندون، قصه. به همین ترتیب!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pyjamas",
+     "fa": "پیژامه"
+    },
+    {
+     "word": "teeth",
+     "fa": "دندان‌ها"
+    },
+    {
+     "word": "order",
+     "fa": "ترتیب"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"pyjamas\", American \"pajamas\".",
+    "fa": "pyjamas/pajamas."
+   }
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "First a bath, Nicola.",
+   "translations": {
+    "fa": "اول حموم نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yesterday",
+      "bath",
+      "skip",
+      "but",
+      "can"
+     ],
+     "suggestion": "But I had a bath yesterday! Can I skip the bath?",
+     "suggestionFa": "ولی دیروز حموم کردم! می‌شه حموم را نرم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No, sorry. Bath first.",
+   "translations": {
+    "fa": "نه، ببخشید. اول حموم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "leslie",
+   "text": "A quick bath. Then which pyjamas? The unicorns or the stars?",
+   "translations": {
+    "fa": "یه حموم سریع. بعد کدوم پیژامه؟ تک‌شاخی یا ستاره‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unicorns",
+     "fa": "تک‌شاخ‌ها"
+    },
+    {
+     "word": "stars",
+     "fa": "ستاره‌ها"
+    }
+   ]
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "The unicorns!",
+   "translations": {
+    "fa": "تک‌شاخی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "after",
+      "stars",
+      "have",
+      "then",
+      "milk"
+     ],
+     "suggestion": "The stars! Then after that, can I have milk?",
+     "suggestionFa": "ستاره‌ای! بعد از اون، می‌تونم شیر بخورم؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "First pyjamas, then milk.",
+   "translations": {
+    "fa": "اول پیژامه، بعد شیر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "leslie",
+   "text": "Good. Then teeth for two minutes. Use the timer. Can you help her, Mehdi?",
+   "translations": {
+    "fa": "خوبه. بعد دو دقیقه مسواک. از تایمر استفاده کن. کمکش می‌کنی {you}؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "toothbrush",
+     "fa": "مسواک"
+    },
+    {
+     "word": "timer",
+     "fa": "زمان‌سنج"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Sure. Where's her toothbrush?",
+   "translations": {
+    "fa": "حتماً. مسواکش کجاست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stops",
+      "sings",
+      "pink",
+      "when",
+      "song"
+     ],
+     "suggestion": "The pink one! It sings a song. When the song stops, I stop!",
+     "suggestionFa": "صورتیه! آهنگ می‌خونه. وقتی آهنگ تموم شد، منم تموم می‌کنم!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Up and down, Nicola.",
+   "translations": {
+    "fa": "بالا و پایین نیکولا."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "leslie",
+   "text": "Lovely. Finally, story time and lights out. Who's reading tonight?",
+   "translations": {
+    "fa": "عالی. در آخر، وقت قصه و خاموش کردن چراغ. امشب کی می‌خونه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "finally",
+     "fa": "در آخر"
+    },
+    {
+     "word": "lights out",
+     "fa": "خاموش کردن چراغ"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "I can read tonight.",
+   "translations": {
+    "fa": "امشب من می‌تونم بخونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "story",
+      "book",
+      "tell",
+      "from",
+      "iran"
+     ],
+     "suggestion": "Mehdi! Mehdi! Tell me a story from Iran! Not a book. A real story!",
+     "suggestionFa": "{you}! {you}! برام یه قصه از ایران بگو! نه کتاب. یه قصهٔ واقعی!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Nicola! See you later.",
+   "translations": {
+    "fa": "ممنون Nicola! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

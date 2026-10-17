@@ -22,9 +22,9 @@
     {
      "keywords": [
       "victoria",
+      "excuse",
       "sponge",
       "sunday",
-      "excuse",
       "right"
      ],
      "suggestion": "Right, cake for Sunday. A Victoria sponge. Excuse me, mate! How much is that?",
@@ -99,11 +99,11 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "twenty",
-      "one",
+      "here's",
+      "eat",
       "big",
-      "eat"
+      "one"
      ],
      "suggestion": "The big one. My lot eat a lot! Here's a twenty.",
      "suggestionFa": "بزرگه. خانواده‌م زیاد می‌خورن! بفرما یه بیستی.",
@@ -289,9 +289,9 @@
      "keywords": [
       "teacher",
       "driver",
-      "thing",
       "maths",
-      "harm"
+      "thing",
+      "done"
      ],
      "suggestion": "No harm done! Good thing Mehdi is good at maths. I'm a bus driver, not a maths teacher!",
      "suggestionFa": "ضرری نکردیم! خوب شد {you} ریاضیش خوبه. من راننده اتوبوسم، نه معلم ریاضی!",
@@ -368,8 +368,8 @@
       "actually",
       "mistake",
       "anymore",
-      "cards",
-      "don't"
+      "don't",
+      "cards"
      ],
      "suggestion": "Free jam tart! Best mistake ever. Actually, Mehdi, I don't take cash on the bus anymore. Only cards! Ha!",
      "suggestionFa": "تارت مجانی! بهترین اشتباه عمرم. راستش {you}، دیگه تو اتوبوس پول نقد نمی‌گیرم. فقط کارت! ها!",

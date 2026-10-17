@@ -74,9 +74,9 @@
     },
     {
      "keywords": [
-      "how",
+      "one",
       "big",
-      "one"
+      "how"
      ],
      "suggestion": "How big is the large one?",
      "suggestionFa": "بزرگه چقدره؟",
@@ -125,9 +125,9 @@
     },
     {
      "keywords": [
-      "family",
       "please",
-      "i've",
+      "family",
+      "next",
       "door"
      ],
      "suggestion": "The big one, please. I've got a big family next door!",
@@ -220,8 +220,8 @@
     {
      "keywords": [
       "please",
-      "toast",
-      "thick"
+      "thick",
+      "toast"
      ],
      "suggestion": "Thick slices, please. For toast.",
      "suggestionFa": "برش ضخیم، لطفاً. برای نون تست.",
@@ -272,8 +272,8 @@
     {
      "keywords": [
       "please",
-      "rolls",
       "small",
+      "rolls",
       "four"
      ],
      "suggestion": "Four small rolls, please.",
@@ -337,8 +337,8 @@
     {
      "keywords": [
       "card",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by card?",

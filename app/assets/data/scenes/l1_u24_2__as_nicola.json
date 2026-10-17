@@ -22,10 +22,10 @@
     {
      "keywords": [
       "scared",
-      "sleep",
       "can't",
-      "room",
-      "dark"
+      "sleep",
+      "dark",
+      "room"
      ],
      "suggestion": "I can't sleep. I'm scared. It's very dark in my room.",
      "suggestionFa": "خوابم نمی‌بره. می‌ترسم. اتاقم خیلی تاریکه.",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "monsters",
-      "heard",
       "noise",
       "under",
+      "heard",
       "bed"
      ],
      "suggestion": "Of monsters. Under my bed! I heard a noise.",
@@ -96,10 +96,10 @@
     {
      "keywords": [
       "buttons",
-      "noise",
       "teddy",
+      "noise",
       "fell",
-      "off"
+      "bed"
      ],
      "suggestion": "Mr Buttons! My teddy! He fell off the bed. That was the noise!",
      "suggestionFa": "آقای دکمه! خرسم! از تخت افتاد. اون صدا بود!",
@@ -232,11 +232,11 @@
    "branches": [
     {
      "keywords": [
+      "please",
       "little",
       "scared",
-      "please",
-      "nana",
-      "when"
+      "when",
+      "were"
      ],
      "suggestion": "Yes, please. Nana, were you scared of the dark when you were little?",
      "suggestionFa": "آره، لطفاً. نانا، تو بچگی از تاریکی می‌ترسیدی؟",

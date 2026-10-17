@@ -1,0 +1,350 @@
+{
+ "id": "l1_u53_1",
+ "characterId": "arthur",
+ "title": "A stamp, please",
+ "titleFa": "یک تمبر، لطفاً",
+ "setting": "At the post office (basics) · Level 1",
+ "settingFa": "در اداره پست (پایه)",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "arthur",
+   "text": "Next, please! Good morning. What can I do for you?",
+   "translations": {
+    "fa": "نفر بعدی، لطفاً! صبح بخیر. چه کمکی از دستم برمیاد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "stamp",
+      "have",
+      "can"
+     ],
+     "suggestion": "Can I have a stamp, please?",
+     "suggestionFa": "می‌شه یه تمبر بدید، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "stamps",
+      "some",
+      "like",
+      "i'd"
+     ],
+     "suggestion": "I'd like some stamps, please.",
+     "suggestionFa": "چند تا تمبر می‌خوام، لطفاً.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stamp",
+     "fa": "تمبر"
+    },
+    {
+     "word": "next",
+     "fa": "بعدی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "arthur",
+   "text": "Of course. Is it for a letter or a card? In the UK?",
+   "translations": {
+    "fa": "البته. برای نامه‌ست یا کارت؟ داخل بریتانیا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "london",
+      "card"
+     ],
+     "suggestion": "A birthday card, in London.",
+     "suggestionFa": "یه کارت تولد، تو لندن.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "letter",
+      "bank"
+     ],
+     "suggestion": "A letter to my bank.",
+     "suggestionFa": "یه نامه به بانکم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "letter",
+     "fa": "نامه"
+    },
+    {
+     "word": "card",
+     "fa": "کارت"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "arthur",
+   "text": "Lovely. How many would you like? They come in books of eight too.",
+   "translations": {
+    "fa": "عالی. چند تا می‌خواید؟ دفترچه‌های هشت‌تایی هم داریم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "just",
+      "one"
+     ],
+     "suggestion": "Just one, please.",
+     "suggestionFa": "فقط یکی، لطفاً.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eight",
+      "book"
+     ],
+     "suggestion": "A book of eight, please.",
+     "suggestionFa": "یه دفترچهٔ هشت‌تایی، لطفاً.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how many",
+     "fa": "چند تا"
+    },
+    {
+     "word": "book of stamps",
+     "fa": "دفترچهٔ تمبر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i would like eight stamp",
+      "i'd like a eight stamps"
+     ],
+     "echo": "Eight stamps? A book, then!",
+     "better": "I'd like eight stamps, please.",
+     "betterFa": "هشت تا تمبر می‌خوام، لطفاً."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "arthur",
+   "text": "Good thinking. Stamps never go out of date. Now, the size. Is it a big envelope?",
+   "translations": {
+    "fa": "فکر خوبیه. تمبرها هیچ‌وقت تاریخ‌گذشته نمیشن. حالا، اندازه. پاکتش بزرگه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "envelope",
+      "normal"
+     ],
+     "suggestion": "No, it's a normal envelope.",
+     "suggestionFa": "نه، پاکت معمولیه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "size",
+      "one",
+      "big"
+     ],
+     "suggestion": "It's a big one, A4 size.",
+     "suggestionFa": "بزرگه، اندازهٔ A4.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "envelope",
+     "fa": "پاکت نامه"
+    },
+    {
+     "word": "size",
+     "fa": "اندازه"
+    },
+    {
+     "word": "out of date",
+     "fa": "تاریخ‌گذشته"
+    }
+   ],
+   "cultureNote": {
+    "en": "Royal Mail prices depend on size: \"Letter\" (small) and \"Large letter\" (like A4) cost different amounts.",
+    "fa": "قیمت بر اساس اندازه."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "arthur",
+   "text": "A big one is a \"large letter\". Let me check it in the slot. It fits!",
+   "translations": {
+    "fa": "بزرگه میشه «نامهٔ بزرگ». بذار تو شکاف امتحانش کنم. جا میشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "slot"
+     ],
+     "suggestion": "What's the slot?",
+     "suggestionFa": "شکاف چیه؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "letter",
+      "large",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much is a large letter?",
+     "suggestionFa": "نامهٔ بزرگ چنده؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slot",
+     "fa": "شکاف ؛ قالب"
+    },
+    {
+     "word": "fits",
+     "fa": "جا می‌شود"
+    },
+    {
+     "word": "large",
+     "fa": "بزرگ"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "arthur",
+   "text": "This plastic slot measures it. If it fits, it's a large letter. Anything else today?",
+   "translations": {
+    "fa": "این شکاف پلاستیکی اندازه‌ش را می‌گیره. اگه جا بشه، نامهٔ بزرگه. امروز چیز دیگه‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "thanks",
+      "all"
+     ],
+     "suggestion": "No, that's all, thanks.",
+     "suggestionFa": "نه، همینه، ممنون.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "envelopes",
+      "sell"
+     ],
+     "suggestion": "Do you sell envelopes?",
+     "suggestionFa": "پاکت نامه می‌فروشید؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "measures",
+     "fa": "اندازه می‌گیرد"
+    },
+    {
+     "word": "that's all",
+     "fa": "همین است"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "arthur",
+   "text": "We do — just there, by the cards. That's all? Card or cash?",
+   "translations": {
+    "fa": "می‌فروشیم — همون‌جا، کنار کارت‌ها. همینه؟ کارت یا نقد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "card"
+     ],
+     "suggestion": "Card, please.",
+     "suggestionFa": "کارت، لطفاً.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here's",
+      "pound",
+      "note",
+      "ten"
+     ],
+     "suggestion": "Here's a ten-pound note.",
+     "suggestionFa": "بفرمایید یه اسکناس ده پوندی.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "by",
+     "fa": "کنار"
+    },
+    {
+     "word": "cash",
+     "fa": "پول نقد"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "arthur",
+   "text": "Thank you. Here are your stamps. Stick it top right, love. Have a nice day!",
+   "translations": {
+    "fa": "ممنون. بفرمایید تمبرهاتون. بالا سمت راست بچسبونیدش عزیزم. روز خوبی داشته باشید!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

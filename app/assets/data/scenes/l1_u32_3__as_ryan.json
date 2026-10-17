@@ -24,8 +24,8 @@
       "nicola's",
       "sweets",
       "party",
-      "here",
-      "bags"
+      "bags",
+      "here"
      ],
      "suggestion": "Mum sent me for sweets for Nicola's party bags. You pick and mix them here!",
      "suggestionFa": "مامان فرستادم برای کیسه‌های جشن نیکولا آبنبات بخرم. اینجا خودت قاطی می‌کنی!",
@@ -50,7 +50,7 @@
       "choose",
       "sweets",
       "weigh",
-      "need"
+      "bags"
      ],
      "suggestion": "You choose different sweets and they weigh them. We need ten bags.",
      "suggestionFa": "آبنبات‌های مختلف انتخاب می‌کنی و وزنشون می‌کنن. ده تا کیسه لازمیم.",
@@ -129,10 +129,10 @@
     {
      "keywords": [
       "fizzy",
-      "make",
-      "many",
       "ones",
-      "kids"
+      "many",
+      "says",
+      "make"
      ],
      "suggestion": "Not too many fizzy ones. Mum says they make kids go mad.",
      "suggestionFa": "زیاد گازداری نه. مامان میگه بچه‌ها را دیوونه می‌کنه.",
@@ -156,8 +156,8 @@
       "chocolate",
       "jelly",
       "melts",
-      "more",
-      "bags"
+      "bags",
+      "less"
      ],
      "suggestion": "Chocolate melts in the bags. Less chocolate, more jelly.",
      "suggestionFa": "شکلات تو کیسه‌ها آب میشه. شکلات کمتر، ژله‌ای بیشتر.",
@@ -231,9 +231,9 @@
      "keywords": [
       "perfect",
       "grams",
-      "sixty",
       "sound",
-      "each"
+      "sixty",
+      "like"
      ],
      "suggestion": "Ha, you sound like Mum. It's perfect. Sixty grams each bag.",
      "suggestionFa": "ها، مثل مامان حرف می‌زنی. عالیه. هر کیسه شصت گرم.",
@@ -304,10 +304,10 @@
     {
      "keywords": [
       "surprise",
-      "snakes",
       "nicola",
+      "snakes",
       "sorted",
-      "about"
+      "don't"
      ],
      "suggestion": "Sorted. Don't tell Nicola about the snakes. It's a surprise. And don't eat them on the way home!",
      "suggestionFa": "تمومه. دربارهٔ مارها به نیکولا نگو. سورپرایزه. و تو راه خونه نخوریشون!",

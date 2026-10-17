@@ -1,0 +1,349 @@
+{
+ "id": "l1_u49_1",
+ "characterId": "ellis",
+ "title": "How do you spell it?",
+ "titleFa": "چطور هجی می‌شود؟",
+ "setting": "Spelling and names · Level 1",
+ "settingFa": "هجی کردن و نام‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ellis",
+   "text": "Thank you for volunteering! Every visitor needs a badge. What's your name?",
+   "translations": {
+    "fa": "ممنون که داوطلب شدید! هر بازدیدکننده‌ای کارت لازم داره. اسمتون چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "name"
+     ],
+     "suggestion": "My name is {you}.",
+     "suggestionFa": "اسمم {you} ئه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "neighbour",
+      "nicola's"
+     ],
+     "suggestion": "I'm Nicola's neighbour, {you}.",
+     "suggestionFa": "من همسایهٔ نیکولا هستم، {you}.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "volunteering",
+     "fa": "داوطلب شدن"
+    },
+    {
+     "word": "visitor",
+     "fa": "بازدیدکننده"
+    },
+    {
+     "word": "badge",
+     "fa": "کارت شناسایی ؛ نشان"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK schools always ask visitors to sign in and wear a badge, for the children's safety.",
+    "fa": "ثبت ورود و کارت بازدیدکننده."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ellis",
+   "text": "Lovely. And how do you spell that?",
+   "translations": {
+    "fa": "عالی. و چطوری هجی میشه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "write",
+      "can"
+     ],
+     "suggestion": "Can I write it for you?",
+     "suggestionFa": "می‌تونم براتون بنویسمش؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "slowly",
+      "spell",
+      "i'll"
+     ],
+     "suggestion": "I'll spell it slowly.",
+     "suggestionFa": "آروم هجیش می‌کنم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spell",
+     "fa": "هجی کردن"
+    },
+    {
+     "word": "slowly",
+     "fa": "آهسته"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ellis",
+   "text": "Yes, slowly, please. My hearing isn't great with all these children!",
+   "translations": {
+    "fa": "آره، آروم لطفاً. با این همه بچه گوشم خوب نمی‌شنوه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "n"
+     ],
+     "suggestion": "Is it M or N? It's M.",
+     "suggestionFa": "M یا N؟ M ـه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "mother"
+     ],
+     "suggestion": "M for mother.",
+     "suggestionFa": "M مثل مادر.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hearing",
+     "fa": "شنوایی"
+    },
+    {
+     "word": "great",
+     "fa": "عالی"
+    }
+   ],
+   "cultureNote": {
+    "en": "To make spelling clear, people say \"M for mother\", \"B for bus\", etc.",
+    "fa": "M for mother برای وضوح."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ellis",
+   "text": "M for mother, perfect. Is that with a double letter?",
+   "translations": {
+    "fa": "M مثل مادر، عالی. حرف دوتایی داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "just",
+      "each",
+      "one"
+     ],
+     "suggestion": "No, just one of each.",
+     "suggestionFa": "نه، از هر کدوم یکی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "e's",
+      "two"
+     ],
+     "suggestion": "Yes, two E's.",
+     "suggestionFa": "آره، دو تا E.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "double letter",
+     "fa": "حرف تکراری"
+    },
+    {
+     "word": "each",
+     "fa": "هر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there are two e",
+      "is two e's"
+     ],
+     "echo": "Two E's? Thank you!",
+     "better": "It has two E's.",
+     "betterFa": "دو تا E داره."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ellis",
+   "text": "Thank you. And your surname? We need it for the signing-in book.",
+   "translations": {
+    "fa": "ممنون. و نام خانوادگیتون؟ برای دفتر ثبت ورود لازمه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "write",
+      "quite",
+      "long"
+     ],
+     "suggestion": "It's quite long. Shall I write it?",
+     "suggestionFa": "یه کم بلنده. بنویسمش؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "surname",
+      "spell"
+     ],
+     "suggestion": "Shall I spell my surname?",
+     "suggestionFa": "نام خانوادگیم را هجی کنم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "surname",
+     "fa": "نام خانوادگی"
+    },
+    {
+     "word": "signing-in book",
+     "fa": "دفتر ثبت ورود"
+    },
+    {
+     "word": "quite",
+     "fa": "نسبتاً"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ellis",
+   "text": "Write it here, please. Oh, that's a beautiful name. How do you say it?",
+   "translations": {
+    "fa": "لطفاً اینجا بنویسیدش. آه، چه اسم قشنگی. چطوری تلفظش می‌کنید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slowly",
+      "say",
+      "let"
+     ],
+     "suggestion": "Let me say it slowly for you.",
+     "suggestionFa": "بذارید آروم براتون بگمش.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "people",
+      "wrong",
+      "most",
+      "get"
+     ],
+     "suggestion": "Most people get it wrong!",
+     "suggestionFa": "بیشتر آدم‌ها اشتباه میگن!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "say",
+     "fa": "گفتن ؛ تلفظ کردن"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ellis",
+   "text": "I'll practise! Here's your badge. The children will call you \"Mr\" and your first name.",
+   "translations": {
+    "fa": "تمرین می‌کنم! اینم کارتتون. بچه‌ها شما را «آقای» به اضافهٔ اسم کوچیکتون صدا می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "fine"
+     ],
+     "suggestion": "That's fine.",
+     "suggestionFa": "خوبه.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "children",
+      "ellis",
+      "call",
+      "mrs"
+     ],
+     "suggestion": "Do the children call you Mrs Ellis?",
+     "suggestionFa": "بچه‌ها شما را خانم الیس صدا می‌کنن؟",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "badge",
+     "fa": "کارت ؛ نشان"
+    },
+    {
+     "word": "first name",
+     "fa": "نام کوچک"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "ellis",
+   "text": "Yes, or just \"Miss\"! Now, come and meet the children. They're very excited!",
+   "translations": {
+    "fa": "آره، یا فقط «میس»! حالا بیاید بچه‌ها را ببینید. خیلی هیجان‌زده‌ان!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -23,8 +23,8 @@
      "keywords": [
       "evening",
       "ringing",
-      "whose",
       "phone",
+      "whose",
       "been"
      ],
      "suggestion": "Whose phone is this? It's been ringing all evening.",
@@ -49,8 +49,8 @@
       "calling",
       "pocket",
       "mine's",
-      "dad's",
-      "mum's"
+      "mum's",
+      "dad's"
      ],
      "suggestion": "Not mine. Mine's in my pocket. Ah, it's Dad's. Mum's calling him!",
      "suggestionFa": "مال من نیست. مال من توی جیبمه. آه، مال باباست. مامان داره بهش زنگ می‌زنه!",
@@ -75,7 +75,7 @@
       "classic",
       "nana's",
       "whose",
-      "coat"
+      "pink"
      ],
      "suggestion": "Classic. And whose is this pink coat? Nicola's or Nana's?",
      "suggestionFa": "کلاسیکه. این کت صورتی مال کیه؟ نیکولا یا نانا؟",
@@ -145,11 +145,11 @@
    "branches": [
     {
      "keywords": [
-      "chuffed",
       "hallway",
+      "chuffed",
       "sorted",
-      "going",
-      "mum's"
+      "mum's",
+      "going"
      ],
      "suggestion": "Sorted. The hallway is tidy. Mum's going to be well chuffed.",
      "suggestionFa": "ردیف شد. راهرو مرتبه. مامان خیلی کیف می‌کنه.",
@@ -170,8 +170,8 @@
    "branches": [
     {
      "keywords": [
-      "chuffed",
       "pleased",
+      "chuffed",
       "really",
       "means",
       "well"

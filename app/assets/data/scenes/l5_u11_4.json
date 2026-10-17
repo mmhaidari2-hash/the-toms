@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "wait",
-      "call",
       "they",
+      "call",
+      "wait",
       "did"
      ],
      "suggestion": "Wait — did they call you, or did you call them?",
@@ -129,8 +129,8 @@
      "keywords": [
       "pressure",
       "panic",
-      "signs",
-      "fraud"
+      "fraud",
+      "signs"
      ],
      "suggestion": "Yes. Pressure and panic are signs of fraud.",
      "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
@@ -142,8 +142,8 @@
      "keywords": [
       "comfortable",
       "directly",
-      "tell",
-      "bank"
+      "i'll",
+      "call"
      ],
      "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
      "suggestionFa": "بهش بگو: «راحت نیستم. مستقیم به بانکم زنگ می‌زنم.»",
@@ -195,7 +195,7 @@
       "another",
       "minutes",
       "phone",
-      "wait"
+      "then"
      ],
      "suggestion": "Wait five minutes, or use another phone, then call 159.",
      "suggestionFa": "پنج دقیقه صبر کن، یا با یه گوشی دیگه، بعد به ۱۵۹ زنگ بزن.",
@@ -349,8 +349,8 @@
      "keywords": [
       "password",
       "banking",
-      "change",
-      "online"
+      "online",
+      "change"
      ],
      "suggestion": "Should he change his online banking password?",
      "suggestionFa": "باید رمز بانکداری آنلاینش را عوض کنه؟",
@@ -390,8 +390,8 @@
      "keywords": [
       "tonight",
       "report",
-      "we'll",
-      "thank"
+      "thank",
+      "we'll"
      ],
      "suggestion": "We'll report it tonight. Thank you, Siân.",
      "suggestionFa": "امشب گزارشش می‌دیم. ممنون سیان.",
@@ -402,9 +402,9 @@
     {
      "keywords": [
       "targeted",
-      "george",
       "people",
-      "often"
+      "george",
+      "older"
      ],
      "suggestion": "I'll warn George and Weda too — older people are often targeted.",
      "suggestionFa": "به جورج و ودا هم هشدار می‌دم — افراد مسن اغلب هدف قرار می‌گیرن.",

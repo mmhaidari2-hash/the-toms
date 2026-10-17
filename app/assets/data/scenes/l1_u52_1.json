@@ -1,0 +1,317 @@
+{
+ "id": "l1_u52_1",
+ "characterId": "nicola",
+ "title": "Oops, I spilled it!",
+ "titleFa": "اوه، ریختمش!",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "nicola",
+   "text": "Oops! I spilled my juice! It's everywhere! Sorry! Sorry!",
+   "translations": {
+    "fa": "اوه! آبمیوه‌م را ریختم! همه جا ریخت! ببخشید! ببخشید!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "worry",
+      "don't",
+      "juice",
+      "only"
+     ],
+     "suggestion": "Don't worry. It's only juice.",
+     "suggestionFa": "نگران نباش. فقط آبمیوه‌ست.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "clean",
+      "let's",
+      "dear",
+      "oh"
+     ],
+     "suggestion": "Oh dear! Let's clean it up.",
+     "suggestionFa": "ای وای! بیا تمیزش کنیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spilled",
+     "fa": "ریخت"
+    },
+    {
+     "word": "everywhere",
+     "fa": "همه جا"
+    },
+    {
+     "word": "clean up",
+     "fa": "تمیز کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people often write \"spilt\"; Americans write \"spilled\". Both are fine.",
+    "fa": "spilt/spilled."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "It's on the table and on the floor. And on Mr Buttons!",
+   "translations": {
+    "fa": "رو میز و رو زمینه. و رو آقای دکمه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "cloth"
+     ],
+     "suggestion": "Where's a cloth?",
+     "suggestionFa": "دستمال کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "buttons",
+      "poor",
+      "mr"
+     ],
+     "suggestion": "Poor Mr Buttons!",
+     "suggestionFa": "آقای دکمهٔ بیچاره!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "floor",
+     "fa": "زمین ؛ کف"
+    },
+    {
+     "word": "cloth",
+     "fa": "دستمال ؛ پارچه"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "nicola",
+   "text": "The kitchen roll is by the sink. Can I help?",
+   "translations": {
+    "fa": "دستمال کاغذی کنار سینکه. می‌تونم کمک کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "table",
+      "wipe"
+     ],
+     "suggestion": "Yes. You wipe the table.",
+     "suggestionFa": "آره. تو میز را پاک کن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "please",
+      "hold",
+      "cup"
+     ],
+     "suggestion": "Hold the cup, please.",
+     "suggestionFa": "لطفاً لیوان را نگه دار.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kitchen roll",
+     "fa": "دستمال کاغذی آشپزخانه"
+    },
+    {
+     "word": "wipe",
+     "fa": "پاک کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "British \"kitchen roll\", American \"paper towels\".",
+    "fa": "kitchen roll/paper towels."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "nicola",
+   "text": "I'm wiping! How did it happen? I knocked it with my elbow!",
+   "translations": {
+    "fa": "دارم پاک می‌کنم! چطوری شد؟ با آرنجم زدمش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accidents",
+      "happen"
+     ],
+     "suggestion": "Accidents happen.",
+     "suggestionFa": "اتفاقه دیگه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "careful",
+      "elbows"
+     ],
+     "suggestion": "Be careful with your elbows!",
+     "suggestionFa": "مواظب آرنجت باش!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "knocked",
+     "fa": "زد ؛ تکان داد"
+    },
+    {
+     "word": "elbow",
+     "fa": "آرنج"
+    },
+    {
+     "word": "accidents",
+     "fa": "اتفاق‌ها"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you knocked it the elbow",
+      "you knock it with elbow"
+     ],
+     "echo": "You knocked it with your elbow? That happens!",
+     "better": "You knocked it with your elbow.",
+     "betterFa": "با آرنجت زدیش."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "nicola",
+   "text": "Now the floor is sticky! My socks are sticking! Ew!",
+   "translations": {
+    "fa": "حالا زمین چسبناکه! جورابام دارن می‌چسبن! اَه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "floor",
+      "let's",
+      "mop"
+     ],
+     "suggestion": "Let's mop the floor.",
+     "suggestionFa": "بیا زمین را تی بکشیم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "socks",
+      "take",
+      "off"
+     ],
+     "suggestion": "Take your socks off.",
+     "suggestionFa": "جورابات را دربیار.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sticky",
+     "fa": "چسبناک"
+    },
+    {
+     "word": "mop",
+     "fa": "تی کشیدن"
+    },
+    {
+     "word": "socks",
+     "fa": "جوراب‌ها"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "What about Mr Buttons? Is he OK? He smells like apple!",
+   "translations": {
+    "fa": "آقای دکمه چی؟ خوبه؟ بوی سیب میده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "needs",
+      "bath",
+      "he"
+     ],
+     "suggestion": "He needs a bath!",
+     "suggestionFa": "حموم لازمه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "machine",
+      "wash",
+      "can",
+      "him"
+     ],
+     "suggestion": "We can wash him in the machine.",
+     "suggestionFa": "می‌تونیم تو ماشین بشوریمش.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smells like",
+     "fa": "بوی ... می‌دهد"
+    },
+    {
+     "word": "machine",
+     "fa": "ماشین (لباسشویی)"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "nicola",
+   "text": "In the washing machine?! Will he be dizzy? OK… but a gentle wash!",
+   "translations": {
+    "fa": "تو ماشین لباسشویی؟! سرش گیج نمیره؟ باشه… ولی شستشوی ملایم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

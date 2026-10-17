@@ -1,0 +1,312 @@
+{
+ "id": "l1_u49_4",
+ "characterId": "ellis",
+ "title": "Letters of the alphabet",
+ "titleFa": "حروف الفبا",
+ "setting": "Spelling and names · Level 1",
+ "settingFa": "هجی کردن و نام‌ها",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "ellis",
+   "text": "In Reception, we learn letter sounds first. Not names. \"A\" is \"a\" for apple. Do you know phonics?",
+   "translations": {
+    "fa": "تو کلاس آمادگی، اول صدای حروف را یاد می‌گیریم. نه اسمشون را. «ای» میشه «اَ» مثل اپل. فونیکس بلدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phonics",
+      "what's"
+     ],
+     "suggestion": "What's phonics?",
+     "suggestionFa": "فونیکس چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "learnt",
+      "letter",
+      "names",
+      "first"
+     ],
+     "suggestion": "I learnt letter names first.",
+     "suggestionFa": "من اول اسم حروف را یاد گرفتم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "letter sounds",
+     "fa": "صدای حروف"
+    },
+    {
+     "word": "phonics",
+     "fa": "آموزش آوایی"
+    },
+    {
+     "word": "learnt",
+     "fa": "یاد گرفت"
+    }
+   ],
+   "cultureNote": {
+    "en": "Children in England learn to read with \"phonics\" — the sounds letters make, not their names.",
+    "fa": "آموزش خواندن با فونیکس."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "ellis",
+   "text": "It's how children learn to read. \"C-A-T\" — c, a, t — \"cat\"! Let's try. What's this word?",
+   "translations": {
+    "fa": "این‌جوری بچه‌ها خوندن یاد می‌گیرن. «سی-ای-تی» — ک، اَ، ت — «کت»! بیاید امتحان کنیم. این کلمه چیه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "g",
+      "o",
+      "d"
+     ],
+     "suggestion": "D-O-G. Dog!",
+     "suggestionFa": "دی-او-جی. داگ!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "is",
+      "it"
+     ],
+     "suggestion": "Is it \"dog\"?",
+     "suggestionFa": "«داگ»ه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "word",
+     "fa": "کلمه"
+    },
+    {
+     "word": "cat",
+     "fa": "گربه"
+    },
+    {
+     "word": "dog",
+     "fa": "سگ"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "ellis",
+   "text": "Brilliant! You're a natural. Now, the tricky one. How do you say the last letter of the alphabet?",
+   "translations": {
+    "fa": "عالی! استعدادش را دارید. حالا یکی سخت. آخرین حرف الفبا را چطوری میگید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "zed"
+     ],
+     "suggestion": "Zed.",
+     "suggestionFa": "زِد.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "zee"
+     ],
+     "suggestion": "Zee?",
+     "suggestionFa": "زی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "last",
+     "fa": "آخرین"
+    },
+    {
+     "word": "alphabet",
+     "fa": "الفبا"
+    },
+    {
+     "word": "tricky",
+     "fa": "دشوار"
+    }
+   ],
+   "cultureNote": {
+    "en": "The British say \"zed\" for Z; Americans say \"zee\".",
+    "fa": "zed/zee."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "ellis",
+   "text": "\"Zed\" here! \"Zee\" is American. The children love songs. Do you know the alphabet song?",
+   "translations": {
+    "fa": "اینجا «زِد»! «زی» آمریکاییه. بچه‌ها عاشق آهنگن. آهنگ الفبا را بلدید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "b",
+      "c",
+      "d"
+     ],
+     "suggestion": "Yes. A, B, C, D…",
+     "suggestionFa": "آره. ای، بی، سی، دی…",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teach",
+      "can"
+     ],
+     "suggestion": "No. Can you teach me?",
+     "suggestionFa": "نه. می‌تونید یادم بدید؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "song",
+     "fa": "آهنگ"
+    },
+    {
+     "word": "teach",
+     "fa": "یاد دادن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "ellis",
+   "text": "Lovely. Now, how many letters are there in the English alphabet?",
+   "translations": {
+    "fa": "عالی. حالا الفبای انگلیسی چند تا حرف داره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "letters",
+      "there"
+     ],
+     "suggestion": "There are twenty-six letters.",
+     "suggestionFa": "بیست و شش تا حرف داره.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "thirty",
+      "has",
+      "two"
+     ],
+     "suggestion": "Twenty-six. Persian has thirty-two!",
+     "suggestionFa": "بیست و شش. فارسی سی و دو تا داره!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how many",
+     "fa": "چند تا"
+    },
+    {
+     "word": "twenty-six",
+     "fa": "بیست و شش"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is twenty six letter",
+      "it has twenty six letter"
+     ],
+     "echo": "Twenty-six letters? Correct!",
+     "better": "There are twenty-six letters.",
+     "betterFa": "بیست و شش تا حرف داره."
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "ellis",
+   "text": "Thirty-two! Wow. Which letter is the hardest in English for you?",
+   "translations": {
+    "fa": "سی و دو! وای. کدوم حرف انگلیسی برات سخت‌تره؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hard",
+      "say",
+      "w"
+     ],
+     "suggestion": "W. It's hard to say.",
+     "suggestionFa": "W. گفتنش سخته.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persian",
+      "sound",
+      "th"
+     ],
+     "suggestion": "The \"th\" sound. It's not in Persian.",
+     "suggestionFa": "صدای «ث». تو فارسی نیست.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hardest",
+     "fa": "سخت‌ترین"
+    },
+    {
+     "word": "sound",
+     "fa": "صدا"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "ellis",
+   "text": "\"Th\" is hard for lots of people. Tongue between your teeth: \"Th-ank you\". Perfect!",
+   "translations": {
+    "fa": "«ث» برای خیلی‌ها سخته. زبون بین دندون‌ها: «ثنک یو». عالی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

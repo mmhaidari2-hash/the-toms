@@ -63,8 +63,8 @@
       "speaking",
       "hello",
       "who's",
-      "weda",
-      "love"
+      "love",
+      "weda"
      ],
      "suggestion": "Hello, love. It's Weda. Who's speaking?",
      "suggestionFa": "الو عزیزم. ودام. شما؟",
@@ -164,7 +164,7 @@
       "friday",
       "check",
       "heart",
-      "come"
+      "just"
      ],
      "suggestion": "Yes, just a check-up. His heart. Can I come on Friday instead?",
      "suggestionFa": "آره، فقط معاینه‌ست. قلبش. می‌تونم به جاش جمعه بیام؟",
@@ -187,8 +187,8 @@
      "keywords": [
       "thank",
       "after",
+      "love",
       "back",
-      "tell",
       "call"
      ],
      "suggestion": "Thank you, love. Tell him to call me back after six.",
@@ -213,8 +213,8 @@
       "course",
       "thank",
       "dear",
-      "bye",
-      "has"
+      "has",
+      "bye"
      ],
      "suggestion": "Of course he has! Thank you, dear. Bye-bye!",
      "suggestionFa": "البته که داره! ممنون عزیزم. خداحافظ!",
@@ -250,9 +250,9 @@
   "r10": {
    "id": "r10",
    "speaker": "tom",
-   "text": "Who was that? Weda? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
+   "text": "Who was that? Mum? What did she say? Ah, Thursday — Dad's heart check. Thanks for taking the message, mate.",
    "translations": {
-    "fa": "کی بود؟ ودا؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق."
+    "fa": "کی بود؟ مامان؟ چی گفت؟ آه، پنجشنبه — معاینهٔ قلب بابا. ممنون که پیغام را گرفتی رفیق."
    },
    "branches": [],
    "newWords": []

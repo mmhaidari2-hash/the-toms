@@ -125,11 +125,11 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "where's",
+      "minutes",
+      "like",
       "four",
-      "goes",
-      "like"
+      "goes"
      ],
      "suggestion": "Mum, where's my PE kit? The bus goes in, like, four minutes!",
      "suggestionFa": "مامان، لباس ورزشم کجاست؟ اتوبوس تا، مثلاً، چهار دقیقهٔ دیگه می‌ره!",
@@ -202,11 +202,11 @@
    "branches": [
     {
      "keywords": [
-      "william",
       "where's",
+      "william",
       "nicked",
-      "other",
-      "right"
+      "again",
+      "other"
      ],
      "suggestion": "Where's my other shoe? It was RIGHT here. Has William nicked it again?",
      "suggestionFa": "لنگهٔ دیگه کفشم کجاست؟ همین‌جا بود. ویلیام دوباره برداشته؟",
@@ -361,9 +361,9 @@
     {
      "keywords": [
       "practice",
-      "school",
       "cheers",
-      "footy",
+      "school",
+      "don't",
       "after"
      ],
      "suggestion": "Cheers! Mum, I'm off. Don't wait up — footy practice after school.",

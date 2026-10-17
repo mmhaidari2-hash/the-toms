@@ -56,8 +56,8 @@
    "branches": [
     {
      "keywords": [
-      "engineering",
-      "consultancy"
+      "consultancy",
+      "engineering"
      ],
      "suggestion": "It's an engineering consultancy.",
      "suggestionFa": "یه مشاورهٔ مهندسیه.",
@@ -109,8 +109,8 @@
      "keywords": [
       "thousand",
       "pounds",
-      "month",
-      "first"
+      "first",
+      "month"
      ],
      "suggestion": "About five thousand pounds a month at first.",
      "suggestionFa": "اول حدود ماهی پنج هزار پوند.",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "projects",
-      "depends",
-      "problem"
+      "problem",
+      "depends"
      ],
      "suggestion": "It depends on the projects. Is that a problem?",
      "suggestionFa": "بستگی به پروژه‌ها داره. مشکلیه؟",
@@ -163,7 +163,7 @@
       "transfer",
       "clients",
       "hardly",
-      "most"
+      "ever"
      ],
      "suggestion": "Hardly ever. Most clients pay by bank transfer.",
      "suggestionFa": "تقریباً هیچ‌وقت. بیشتر مشتری‌ها با انتقال بانکی پرداخت می‌کنن.",
@@ -213,10 +213,10 @@
    "branches": [
     {
      "keywords": [
-      "take",
       "long",
-      "how",
-      "yet"
+      "take",
+      "yet",
+      "how"
      ],
      "suggestion": "Not yet. How long does it take?",
      "suggestionFa": "هنوز نه. چقدر طول می‌کشه؟",
@@ -228,8 +228,8 @@
      "keywords": [
       "documents",
       "last",
-      "here",
-      "week"
+      "week",
+      "here"
      ],
      "suggestion": "Yes, last week. Here are the documents.",
      "suggestionFa": "آره، هفتهٔ پیش. این مدارکشه.",

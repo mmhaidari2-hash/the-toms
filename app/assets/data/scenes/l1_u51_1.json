@@ -1,0 +1,317 @@
+{
+ "id": "l1_u51_1",
+ "characterId": "leslie",
+ "title": "A cold",
+ "titleFa": "سرماخوردگی",
+ "setting": "Under the weather · Level 1",
+ "settingFa": "کسالت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Atchoo! Oh, I feel awful. My nose is running and my throat is sore.",
+   "translations": {
+    "fa": "هاپچه! آه، حالم افتضاحه. آبریزش بینی دارم و گلوم درد می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "you've",
+      "bless",
+      "cold",
+      "got"
+     ],
+     "suggestion": "Bless you! You've got a cold.",
+     "suggestionFa": "عافیت باشه! سرما خوردی.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "tired",
+      "look"
+     ],
+     "suggestion": "You look really tired.",
+     "suggestionFa": "خیلی خسته به نظر میای.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "awful",
+     "fa": "افتضاح"
+    },
+    {
+     "word": "running nose",
+     "fa": "آبریزش بینی"
+    },
+    {
+     "word": "sore throat",
+     "fa": "گلودرد"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people often say they're \"under the weather\" when they feel a bit ill.",
+    "fa": "under the weather یعنی کمی کسالت."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "But I've got thirty children waiting for me! Should I go to school?",
+   "translations": {
+    "fa": "ولی سی تا بچه منتظرمن! برم مدرسه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "home",
+      "stay"
+     ],
+     "suggestion": "No, you shouldn't. Stay at home.",
+     "suggestionFa": "نه، نباید بری. خونه بمون.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "temperature",
+      "have",
+      "got"
+     ],
+     "suggestion": "Have you got a temperature?",
+     "suggestionFa": "تب داری؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "should",
+     "fa": "باید (توصیه)"
+    },
+    {
+     "word": "stay at home",
+     "fa": "در خانه ماندن"
+    },
+    {
+     "word": "temperature",
+     "fa": "تب"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "A little bit. Thirty-seven point eight. But the Year 4s have a test today!",
+   "translations": {
+    "fa": "یه کم. سی و هفت و هشت دهم. ولی کلاس چهارمی‌ها امروز امتحان دارن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "should",
+      "school",
+      "call"
+     ],
+     "suggestion": "You should call the school.",
+     "suggestionFa": "باید به مدرسه زنگ بزنی.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "teacher",
+      "another",
+      "test",
+      "can"
+     ],
+     "suggestion": "Another teacher can do the test.",
+     "suggestionFa": "یه معلم دیگه می‌تونه امتحان بگیره.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "test",
+     "fa": "امتحان"
+    },
+    {
+     "word": "call",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "another",
+     "fa": "یک ... دیگر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "you should to call",
+      "you should calling the school"
+     ],
+     "echo": "You should call the school? You're right.",
+     "better": "You should call the school.",
+     "betterFa": "باید به مدرسه زنگ بزنی."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "You're right. I'll call in sick. I hate it, though. I feel so guilty!",
+   "translations": {
+    "fa": "راست میگی. زنگ می‌زنم مرخصی استعلاجی می‌گیرم. ولی ازش متنفرم. خیلی عذاب وجدان دارم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shouldn't",
+      "guilty",
+      "feel"
+     ],
+     "suggestion": "You shouldn't feel guilty.",
+     "suggestionFa": "نباید عذاب وجدان داشته باشی.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "sometimes",
+      "everyone",
+      "gets",
+      "ill"
+     ],
+     "suggestion": "Everyone gets ill sometimes.",
+     "suggestionFa": "همه گاهی مریض میشن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "call in sick",
+     "fa": "اطلاع دادن مرخصی استعلاجی"
+    },
+    {
+     "word": "guilty",
+     "fa": "گناهکار ؛ عذاب وجدان"
+    }
+   ],
+   "cultureNote": {
+    "en": "In the UK, you can take up to seven days off sick without a doctor's note (\"self-certification\").",
+    "fa": "تا هفت روز بدون گواهی پزشک."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "True. And I shouldn't give my cold to the kids. What should I do now?",
+   "translations": {
+    "fa": "درسته. و نباید سرماخوردگیم را به بچه‌ها بدم. حالا چی کار کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "back",
+      "bed",
+      "go"
+     ],
+     "suggestion": "You should go back to bed.",
+     "suggestionFa": "باید برگردی تو تخت.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "drink",
+      "water",
+      "lots"
+     ],
+     "suggestion": "You should drink lots of water.",
+     "suggestionFa": "باید کلی آب بخوری.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "give",
+     "fa": "دادن ؛ سرایت دادن"
+    },
+    {
+     "word": "back to bed",
+     "fa": "برگشتن به تخت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Bed sounds lovely. But who takes Nicola to school? Tom's on the early shift.",
+   "translations": {
+    "fa": "تخت عالیه. ولی کی نیکولا را می‌بره مدرسه؟ تام شیفت صبحه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "i"
+     ],
+     "suggestion": "I can take her.",
+     "suggestionFa": "من می‌تونم ببرمش.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weda"
+     ],
+     "suggestion": "Can Weda take her?",
+     "suggestionFa": "ودا می‌تونه ببرتش؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "early shift",
+     "fa": "شیفت صبح"
+    },
+    {
+     "word": "take",
+     "fa": "بردن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "You're an angel! Her book bag is by the door. And don't come too close — you'll get ill too!",
+   "translations": {
+    "fa": "فرشته‌ای! کیف کتابش کنار دره. و خیلی نزدیک نیا — تو هم مریض میشی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

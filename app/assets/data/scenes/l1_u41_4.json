@@ -121,8 +121,8 @@
     },
     {
      "keywords": [
-      "need",
-      "rest"
+      "rest",
+      "need"
      ],
      "suggestion": "You need to rest.",
      "suggestionFa": "باید استراحت کنید.",
@@ -215,8 +215,8 @@
      "keywords": [
       "tomorrow",
       "bring",
-      "milk",
-      "i'll"
+      "i'll",
+      "milk"
      ],
      "suggestion": "I'll bring milk tomorrow.",
      "suggestionFa": "فردا شیر میارم.",
@@ -257,9 +257,9 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "khan",
       "luck",
+      "good",
       "mrs"
      ],
      "suggestion": "Good luck, Mrs Khan.",
@@ -272,8 +272,8 @@
      "keywords": [
       "better",
       "feel",
-      "hope",
-      "soon"
+      "soon",
+      "hope"
      ],
      "suggestion": "I hope you feel better soon.",
      "suggestionFa": "امیدوارم زود بهتر بشید.",
@@ -320,8 +320,8 @@
     },
     {
      "keywords": [
-      "back",
       "take",
+      "back",
       "care"
      ],
      "suggestion": "Take care of your back.",

@@ -1,0 +1,351 @@
+{
+ "id": "l1_u52_3__as_leslie",
+ "characterId": "ryan",
+ "title": "(As Leslie) A broken cup",
+ "titleFa": "(در نقش Leslie) فنجان شکسته",
+ "setting": "Little accidents · Level 1",
+ "settingFa": "اتفاق‌های کوچک",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u52_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "ryan",
+   "text": "Oh no, no, no! I broke Mum's favourite mug! The one with the cats!",
+   "translations": {
+    "fa": "ای وای، نه، نه! ماگ محبوب مامان را شکستم! اونی که گربه‌ها داره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "broke",
+     "fa": "شکست"
+    },
+    {
+     "word": "mug",
+     "fa": "ماگ ؛ لیوان دسته‌دار"
+    },
+    {
+     "word": "sharp",
+     "fa": "تیز"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh dear! How did it happen?",
+   "translations": {
+    "fa": "ای وای! چطوری شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "ryan",
+   "text": "It slipped out of my hand. It was an accident! She's going to kill me!",
+   "translations": {
+    "fa": "از دستم لیز خورد. اتفاقی بود! منو می‌کشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slipped",
+     "fa": "لیز خورد"
+    },
+    {
+     "word": "accident",
+     "fa": "اتفاق ؛ تصادف"
+    },
+    {
+     "word": "truth",
+     "fa": "حقیقت"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "She won't kill you!",
+   "translations": {
+    "fa": "نمی‌کشتت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "ryan",
+   "text": "First, help me pick it up. Careful. Get the dustpan and brush.",
+   "translations": {
+    "fa": "اول کمکم کن جمعش کنم. با احتیاط. خاک‌انداز و جارو را بیار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pick up",
+     "fa": "جمع کردن"
+    },
+    {
+     "word": "dustpan and brush",
+     "fa": "خاک‌انداز و جارو"
+    },
+    {
+     "word": "pieces",
+     "fa": "تکه‌ها"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Here's the dustpan.",
+   "translations": {
+    "fa": "بفرما خاک‌انداز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "ryan",
+   "text": "Good idea. OK, she's coming. What do I say?",
+   "translations": {
+    "fa": "فکر خوبیه. خب، داره میاد. چی بگم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "really",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "sorry",
+     "fa": "متأسف"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Say \"I'm really sorry, Mum.\"",
+   "translations": {
+    "fa": "بگو «واقعاً متأسفم مامان.»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "noise",
+      "mug",
+      "was",
+      "cat",
+      "oh"
+     ],
+     "suggestion": "What was that noise? Oh… my cat mug.",
+     "suggestionFa": "این صدا چی بود؟ آه… ماگ گربه‌ایم.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Ryan has something to say.",
+   "translations": {
+    "fa": "رایان یه چیزی می‌خواد بگه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "ryan",
+   "text": "Mum, I'm really, really sorry. It slipped. I'll buy you a new one.",
+   "translations": {
+    "fa": "مامان، واقعاً واقعاً متأسفم. لیز خورد. یه نو برات می‌خرم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "slipped",
+     "fa": "لیز خورد"
+    },
+    {
+     "word": "new one",
+     "fa": "یکی نو"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "He's really sorry.",
+   "translations": {
+    "fa": "واقعاً متأسفه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "accidents",
+      "cleaning",
+      "telling",
+      "happen",
+      "thank"
+     ],
+     "suggestion": "Thank you for telling me, Ryan. And for cleaning up. It's only a mug. Accidents happen.",
+     "suggestionFa": "ممنون که بهم گفتی رایان. و که تمیزش کردی. فقط یه ماگه. اتفاق پیش میاد.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "See? She isn't angry.",
+   "translations": {
+    "fa": "دیدی؟ عصبانی نیست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "saturday",
+      "please",
+      "money",
+      "cats",
+      "but"
+     ],
+     "suggestion": "But you can buy me a new one. With your Saturday money! Cats, please. Big cats!",
+     "suggestionFa": "ولی می‌تونی یه نو برام بخری. با پول کار شنبه‌ت! گربه‌دار، لطفاً. گربه‌های بزرگ!",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -1,0 +1,368 @@
+{
+ "id": "l1_u51_3",
+ "characterId": "weda",
+ "title": "Hot water bottle",
+ "titleFa": "کیسهٔ آب گرم",
+ "setting": "Under the weather · Level 1",
+ "settingFa": "کسالت",
+ "requires": null,
+ "start": "n1",
+ "level": "A1",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Brrr! It's a chilly night. My old bones are cold. Could you fill my hot water bottle, dear?",
+   "translations": {
+    "fa": "بررر! شب سردیه. استخونای پیرم سرده. می‌شه کیسهٔ آب گرمم را پر کنی عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "course",
+      "where"
+     ],
+     "suggestion": "Of course. Where is it?",
+     "suggestionFa": "البته. کجاست؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bottle",
+      "what's",
+      "water",
+      "hot"
+     ],
+     "suggestion": "What's a hot water bottle?",
+     "suggestionFa": "کیسهٔ آب گرم چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chilly",
+     "fa": "سرد ؛ خنک"
+    },
+    {
+     "word": "bones",
+     "fa": "استخوان‌ها"
+    },
+    {
+     "word": "hot water bottle",
+     "fa": "کیسهٔ آب گرم"
+    }
+   ],
+   "cultureNote": {
+    "en": "Many British homes use a rubber hot water bottle to warm the bed on cold nights.",
+    "fa": "کیسهٔ آب گرم رایج است."
+   }
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "It's a rubber bag. You fill it with hot water. This one, with the knitted cover.",
+   "translations": {
+    "fa": "یه کیسهٔ لاستیکیه. با آب داغ پرش می‌کنی. همین که روکش بافتنی داره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cover",
+      "knit",
+      "did"
+     ],
+     "suggestion": "Did you knit the cover?",
+     "suggestionFa": "روکشش را خودتون بافتید؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kettle",
+      "shall",
+      "boil"
+     ],
+     "suggestion": "Shall I boil the kettle?",
+     "suggestionFa": "کتری را جوش بیارم؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rubber",
+     "fa": "لاستیکی"
+    },
+    {
+     "word": "fill",
+     "fa": "پر کردن"
+    },
+    {
+     "word": "knitted cover",
+     "fa": "روکش بافتنی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Yes, I knitted it! Boil the kettle, but don't use boiling water. Let it cool a bit first.",
+   "translations": {
+    "fa": "آره، خودم بافتمش! کتری را جوش بیار، ولی از آب جوش استفاده نکن. اول بذار یه کم خنک بشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "boiling",
+      "water",
+      "why"
+     ],
+     "suggestion": "Why not boiling water?",
+     "suggestionFa": "چرا آب جوش نه؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "minutes",
+      "i'll",
+      "wait",
+      "two"
+     ],
+     "suggestion": "OK. I'll wait two minutes.",
+     "suggestionFa": "باشه. دو دقیقه صبر می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boiling",
+     "fa": "در حال جوش"
+    },
+    {
+     "word": "cool",
+     "fa": "خنک شدن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Boiling water can damage the rubber. And be careful — don't fill it to the top!",
+   "translations": {
+    "fa": "آب جوش لاستیک را خراب می‌کنه. و مواظب باش — تا بالا پرش نکن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "water",
+      "much",
+      "how"
+     ],
+     "suggestion": "How much water?",
+     "suggestionFa": "چقدر آب؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "half",
+      "full"
+     ],
+     "suggestion": "Half full?",
+     "suggestionFa": "نصفه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "damage",
+     "fa": "آسیب زدن"
+    },
+    {
+     "word": "top",
+     "fa": "بالا ؛ سر"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "don't fill it the top",
+      "not fill to top"
+     ],
+     "echo": "Don't fill it to the top? Right!",
+     "better": "Don't fill it to the top.",
+     "betterFa": "تا بالا پرش نکن."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "About two-thirds full. Then squeeze out the air and screw the top on tight.",
+   "translations": {
+    "fa": "حدود دو سوم. بعد هواش را فشار بده بیرون و درش را محکم ببند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "squeeze",
+      "done",
+      "air",
+      "out"
+     ],
+     "suggestion": "Squeeze the air out. Done.",
+     "suggestionFa": "هوا را بیرون دادم. تموم شد.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "enough",
+      "tight",
+      "top"
+     ],
+     "suggestion": "Is the top tight enough?",
+     "suggestionFa": "درش به اندازهٔ کافی محکمه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "two-thirds",
+     "fa": "دو سوم"
+    },
+    {
+     "word": "squeeze",
+     "fa": "فشار دادن"
+    },
+    {
+     "word": "screw",
+     "fa": "پیچاندن"
+    },
+    {
+     "word": "tight",
+     "fa": "محکم"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "Let me check. Perfect! Ooh, lovely and warm. Don't put it on bare skin, it can burn.",
+   "translations": {
+    "fa": "بذار ببینم. عالی! اوه، گرم و خوب. رو پوست لخت نذار، ممکنه بسوزونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "cover",
+      "has",
+      "why"
+     ],
+     "suggestion": "That's why it has a cover.",
+     "suggestionFa": "برای همینه که روکش داره.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "weda",
+      "here"
+     ],
+     "suggestion": "Here you are, Weda.",
+     "suggestionFa": "بفرمایید ودا.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bare skin",
+     "fa": "پوست لخت"
+    },
+    {
+     "word": "burn",
+     "fa": "سوزاندن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Clever you! Thank you, dear. Do you want one too? There's a spare one with a sheep on it.",
+   "translations": {
+    "fa": "آفرین به تو! ممنون عزیزم. تو هم یکی می‌خوای؟ یه یدکی هست که روش گوسفنده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "room",
+      "cold"
+     ],
+     "suggestion": "Yes, please! My room is cold.",
+     "suggestionFa": "آره، لطفاً! اتاقم سرده.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thanks",
+      "duvet",
+      "thick",
+      "i've"
+     ],
+     "suggestion": "No thanks. I've got a thick duvet.",
+     "suggestionFa": "نه ممنون. لحاف کلفت دارم.",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spare",
+     "fa": "یدک"
+    },
+    {
+     "word": "sheep",
+     "fa": "گوسفند"
+    },
+    {
+     "word": "thick",
+     "fa": "کلفت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "weda",
+   "text": "Take the sheep. Your landlord never puts the heating on, I know! Night night, dear. Sleep tight!",
+   "translations": {
+    "fa": "گوسفنده را ببر. می‌دونم صاحبخونه‌ت هیچ‌وقت شوفاژ را روشن نمی‌کنه! شب بخیر عزیزم. خوب بخوابی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

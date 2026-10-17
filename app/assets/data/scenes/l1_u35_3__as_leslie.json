@@ -51,8 +51,8 @@
       "microwave",
       "seconds",
       "bottle",
-      "thirty",
-      "fridge"
+      "fridge",
+      "thirty"
      ],
      "suggestion": "Can you warm his bottle? It's in the fridge. Thirty seconds in the microwave.",
      "suggestionFa": "می‌تونی شیشه‌ش را گرم کنی؟ تو یخچاله. سی ثانیه تو مایکروویو.",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "wrist",
       "shake",
+      "wrist",
       "well",
       "test",
       "then"
@@ -224,10 +224,10 @@
     {
      "keywords": [
       "gently",
+      "burp",
       "back",
       "like",
-      "need",
-      "burp"
+      "need"
      ],
      "suggestion": "Now we need to burp him. Pat his back gently. Like this.",
      "suggestionFa": "حالا باید آروغش را بگیریم. آروم به پشتش بزن. این‌جوری.",
@@ -297,10 +297,10 @@
     {
      "keywords": [
       "minutes",
-      "asleep",
       "excuse",
-      "thank",
-      "he'll"
+      "asleep",
+      "he'll",
+      "thank"
      ],
      "suggestion": "Ha! \"Excuse you\"! He'll be asleep in five minutes. Thank you, nanny Mehdi!",
      "suggestionFa": "ها! «عذرخواهی کن»! پنج دقیقه دیگه خوابه. ممنون پرستار {you}!",

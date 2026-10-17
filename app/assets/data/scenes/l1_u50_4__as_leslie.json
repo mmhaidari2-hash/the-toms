@@ -1,0 +1,316 @@
+{
+ "id": "l1_u50_4__as_leslie",
+ "characterId": "nicola",
+ "title": "(As Leslie) Swap?",
+ "titleFa": "(در نقش Leslie) عوض کنیم؟",
+ "setting": "Likes and dislikes · Level 1",
+ "settingFa": "علاقه‌ها و بیزاری‌ها",
+ "requires": null,
+ "level": "A1",
+ "baseId": "l1_u50_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "nicola",
+   "text": "Psst! Mehdi! I'll give you my carrots if you give me your roast potato. Swap?",
+   "translations": {
+    "fa": "پیس! {you}! هویجم را بهت میدم اگه سیب‌زمینیت را بهم بدی. عوض کنیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swap",
+     "fa": "عوض کردن ؛ معامله"
+    },
+    {
+     "word": "carrots",
+     "fa": "هویج‌ها"
+    },
+    {
+     "word": "if",
+     "fa": "اگر"
+    }
+   ]
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No way! I love roast potatoes!",
+   "translations": {
+    "fa": "عمراً! عاشق سیب‌زمینی تنوری‌ام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "nicola",
+   "text": "Three carrots! Three! That's a good swap!",
+   "translations": {
+    "fa": "سه تا هویج! سه تا! معاملهٔ خوبیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    },
+    {
+     "word": "deal",
+     "fa": "قبول"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "It's not fair. You don't like carrots!",
+   "translations": {
+    "fa": "منصفانه نیست. تو که هویج دوست نداری!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "swapping",
+      "carrots",
+      "nicola",
+      "please",
+      "eat"
+     ],
+     "suggestion": "Nicola! I can see you. No swapping. Eat your own carrots, please.",
+     "suggestionFa": "نیکولا! دارم می‌بینمت. معامله ممنوع. لطفاً هویج خودت را بخور.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Sorry, Leslie!",
+   "translations": {
+    "fa": "ببخشید لزلی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "nicola",
+   "text": "But Mummy… carrots are boring. Can I swap with Mr Buttons?",
+   "translations": {
+    "fa": "ولی مامان… هویج کسل‌کننده‌ست. می‌تونم با آقای دکمه عوض کنم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boring",
+     "fa": "کسل‌کننده"
+    },
+    {
+     "word": "teddies",
+     "fa": "خرس‌های عروسکی"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Mr Buttons doesn't eat carrots!",
+   "translations": {
+    "fa": "آقای دکمه که هویج نمی‌خوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "carrots",
+      "pudding",
+      "don't",
+      "have",
+      "four"
+     ],
+     "suggestion": "Eat four carrots and you can have pudding. If you don't, no pudding.",
+     "suggestionFa": "چهار تا هویج بخور، اون وقت دسر داری. اگه نخوری، دسر نداری.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Four carrots, then pudding.",
+   "translations": {
+    "fa": "چهار تا هویج، بعد دسر."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "nicola",
+   "text": "What's for pudding? If it's ice cream, I'll eat five carrots!",
+   "translations": {
+    "fa": "دسر چیه؟ اگه بستنی باشه، پنج تا هویج می‌خورم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ice cream",
+     "fa": "بستنی"
+    },
+    {
+     "word": "apple crumble",
+     "fa": "کرامبل سیب"
+    }
+   ],
+   "cultureNote": {
+    "en": "Apple crumble with custard is a classic British pudding.",
+    "fa": "کرامبل سیب."
+   }
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "It's apple crumble!",
+   "translations": {
+    "fa": "کرامبل سیبه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "starting",
+      "crumble",
+      "carrots",
+      "please",
+      "cream"
+     ],
+     "suggestion": "Apple crumble AND ice cream. So five carrots, please. Starting… now!",
+     "suggestionFa": "کرامبل سیب و بستنی. پس پنج تا هویج، لطفاً. از… الان!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Go, Nicola, go!",
+   "translations": {
+    "fa": "برو نیکولا، برو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "nicola",
+   "text": "Done! Five carrots! I'm a carrot champion! Can I have the biggest bowl, please?",
+   "translations": {
+    "fa": "تموم شد! پنج تا هویج! من قهرمان هویجم! می‌تونم بزرگ‌ترین کاسه را بگیرم، لطفاً؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

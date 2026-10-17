@@ -146,8 +146,8 @@
      "keywords": [
       "processed",
       "whether",
-      "could",
-      "check"
+      "check",
+      "could"
      ],
      "suggestion": "Could you check whether the April form was processed?",
      "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "appreciate",
-      "happens",
       "apology",
+      "happens",
       "now"
      ],
      "suggestion": "I appreciate the apology. What happens now?",
@@ -234,10 +234,10 @@
    "branches": [
     {
      "keywords": [
-      "reminder",
       "received",
-      "notice",
-      "cancel"
+      "reminder",
+      "cancel",
+      "that's"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
      "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
@@ -302,7 +302,7 @@
       "george's",
       "support",
       "carers",
-      "carer"
+      "there"
      ],
      "suggestion": "Weda is George's main carer. Is there support for carers?",
      "suggestionFa": "ودا مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
@@ -355,7 +355,7 @@
       "appreciate",
       "writing",
       "could",
-      "i'd"
+      "put"
      ],
      "suggestion": "I'd appreciate it if you could put that in writing, too.",
      "suggestionFa": "ممنون می‌شم اگه اونو کتبی هم بفرستید.",
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "escalate",
       "resolved",
+      "escalate",
       "isn't",
       "how"
      ],

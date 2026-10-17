@@ -81,8 +81,8 @@
     {
      "keywords": [
       "five",
-      "ryan",
-      "eats"
+      "eats",
+      "ryan"
      ],
      "suggestion": "Ryan eats five!",
      "suggestionFa": "رایان پنج تا می‌خوره!",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "don't",
-      "eat",
-      "tom"
+      "tom",
+      "eat"
      ],
      "suggestion": "I don't eat pork, Tom.",
      "suggestionFa": "من گوشت خوک نمی‌خورم تام.",
@@ -250,8 +250,8 @@
     {
      "keywords": [
       "that's",
-      "much",
-      "meat"
+      "meat",
+      "much"
      ],
      "suggestion": "Yes, that's too much meat!",
      "suggestionFa": "آره، گوشت زیادیه!",
@@ -308,8 +308,8 @@
     },
     {
      "keywords": [
-      "peppers",
-      "skewers"
+      "skewers",
+      "peppers"
      ],
      "suggestion": "And peppers for skewers?",
      "suggestionFa": "و فلفل دلمه برای سیخ؟",
@@ -355,8 +355,8 @@
     {
      "keywords": [
       "shopping",
-      "enough",
       "that's",
+      "enough",
       "today"
      ],
      "suggestion": "That's enough shopping for today!",

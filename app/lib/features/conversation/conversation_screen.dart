@@ -24,6 +24,8 @@ import '../../core/models/character.dart';
 import '../../core/models/dialogue_node.dart';
 import '../home/home_screen.dart' show ErrorState;
 import '../shared/widgets.dart';
+import '../place/place_screen.dart' show hitTest;
+import '../../core/models/place.dart';
 
 class ConversationScreen extends ConsumerWidget {
   final String sceneId;
@@ -115,6 +117,8 @@ class _ChatState extends ConsumerState<_Chat> {
   final _focus = FocusNode();
   DialogueNode? _node;
   String _lineSpeaker = '';
+  Hotspot? _tapped;
+  Offset? _tapAt;
   String _line = '';
   String _raw = '';
   double get _autoRate => const ['A0', 'A1'].contains(widget.s.level) ? Voice.rates[1] : 1.0;
@@ -531,7 +535,7 @@ class _ChatState extends ConsumerState<_Chat> {
         Positioned.fill(
           bottom: h * .30,
           child: cover != null
-              ? Image.asset(cover, fit: BoxFit.cover, alignment: Alignment(_focusX(host, sp.id), 0))
+              ? _paintingLayer(cover, host, sp)
               : Container(
                   decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [ch.color.withValues(alpha: .55), const Color(0xFF1B140F)])),
                   child: Align(alignment: const Alignment(-.85, -.55), child: Avatar(sp, size: 44)),
@@ -541,9 +545,11 @@ class _ChatState extends ConsumerState<_Chat> {
           top: 0,
           left: 0,
           right: 0,
-          child: Container(
+          child: Stack(children: [
+            // Gradient is decoration only: it must never swallow taps meant for the painting.
+            Positioned.fill(child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Colors.black.withValues(alpha: .55), Colors.transparent]))))),
+            Padding(
             padding: EdgeInsets.fromLTRB(8, pad.top + 4, 10, 26),
-            decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [Colors.black.withValues(alpha: .55), Colors.transparent])),
             child: Row(
               children: [
                 IconButton(
@@ -570,9 +576,120 @@ class _ChatState extends ConsumerState<_Chat> {
               ],
             ),
           ),
+          ]),
         ),
+        if (_tapped != null) Positioned(left: 12, right: 12, top: pad.top + 64, child: _tapCard(_tapped!)),
         Positioned(left: 0, right: 0, bottom: 0, child: _sheet(sp, trust, pad, h)),
       ],
+    );
+  }
+
+  /// The painting with live tap areas. BoxFit.cover + alignment, so taps are mapped back into
+  /// image space using the same scale/offset Flutter uses to paint it.
+  Widget _paintingLayer(String cover, Place? host, Character sp) {
+    final ax = _focusX(host, sp.id);
+    final img = Image.asset(cover, fit: BoxFit.cover, alignment: Alignment(ax, 0));
+    if (host == null || host.image != cover || host.hotspots.isEmpty) return img;
+    return LayoutBuilder(builder: (context, box) {
+      final bw = box.maxWidth, bh = box.maxHeight, ar = host.aspect;
+      // BoxFit.cover: scale so the image covers the box; overflow is cropped per alignment.
+      final iw = bw / bh > ar ? bw : bh * ar, ih = iw / ar;
+      final ox = (bw - iw) * (ax + 1) / 2, oy = (bh - ih) / 2;
+      return GestureDetector(
+        behavior: HitTestBehavior.opaque,
+        onTapUp: (d) {
+          final x = (d.localPosition.dx - ox) / iw, y = (d.localPosition.dy - oy) / ih;
+          final me = widget.s.playAs ?? ref.read(progressProvider).role;
+          final hs = hitTest(host.hotspots.where((h) => h.isProp || h.characterId != me), x, y);
+          if (hs != null) _onPaintingTap(hs, d.localPosition);
+        },
+        child: Stack(fit: StackFit.expand, children: [
+          img,
+          if (_tapAt != null) Positioned(left: _tapAt!.dx - 22, top: _tapAt!.dy - 22, width: 44, height: 44, child: IgnorePointer(child: DecoratedBox(decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: const Color(0xFFE9B949), width: 2.5))))),
+        ]),
+      );
+    });
+  }
+
+  void _onPaintingTap(Hotspot h, Offset at) {
+    HapticFeedback.selectionClick();
+    setState(() { _tapAt = at; _tapped = h; });
+    Future.delayed(const Duration(milliseconds: 500), () { if (mounted && _tapAt == at) setState(() => _tapAt = null); });
+    if (h.isProp) {
+      Voice.say('narrator', h.prop!.word, rate: .9).then((_) { if (mounted && _tapped == h) Voice.say('narrator', h.prop!.phrase, rate: .9); });
+    } else if (h.characterId == _lineSpeaker && _raw.isNotEmpty) {
+      Voice.say(_lineSpeaker, _raw, rate: _autoRate, shown: _line); // tap the speaker = hear the line again
+    } else {
+      final l = _personLine(h);
+      if (l.raw.isNotEmpty) Voice.say(h.characterId, l.raw, shown: l.en);
+    }
+  }
+
+  /// What a tapped (non-speaking) person says: their ambient line, else their latest line in
+  /// this story, else their first line in it, so every person in the painting answers with audio.
+  ({String en, String raw, String? fa}) _personLine(Hotspot h) {
+    if (h.ambientEn != null) return (en: h.ambientEn!, raw: h.ambientEn!, fa: h.ambientFa);
+    final m = _msgs.lastWhere((m) => m.speaker == h.characterId && m.system == null && m.text.isNotEmpty, orElse: () => const _Msg('', ''));
+    DialogueNode? firstBy(String? sid) => widget.c.scenes[sid]?.nodes.values.where((n) => n.speaker == h.characterId).firstOrNull;
+    final n = m.node ?? firstBy(widget.s.id) ?? firstBy(h.sceneId) ?? firstBy(widget.c.characterOrNull(h.characterId)?.starterScene);
+    if (n != null) return (en: _t(n.text), raw: n.text, fa: lineTranslation(n.translations, _lang));
+    if (m.text.isNotEmpty) return (en: m.text, raw: m.text, fa: null);
+    return (en: '', raw: '', fa: null);
+  }
+
+  /// "Switch to them": the tapped person's own story, when it's a different, playable one.
+  String? _switchScene(Hotspot h) {
+    final sid = h.sceneId;
+    if (h.isProp || sid == null || sid == (widget.s.baseId ?? widget.s.id)) return null;
+    final s = widget.c.scenes[sid];
+    return s != null && ref.read(progressProvider.notifier).canPlay(s, widget.c) ? sid : null;
+  }
+
+  Widget _tapCard(Hotspot h) {
+    const gold = Color(0xFFE8C987);
+    final prop = h.prop;
+    final ch = prop == null ? widget.c.characterOrNull(h.characterId) : null;
+    final speaking = prop == null && h.characterId == _lineSpeaker;
+    final pl = prop == null && !speaking ? _personLine(h) : null;
+    final en = prop != null ? prop.word : speaking ? _line : pl!.en;
+    final fa = prop != null ? prop.fa : speaking ? _lineFa : pl!.fa;
+    final sw = _switchScene(h);
+    return Material(
+      color: Colors.transparent,
+      child: Container(
+        key: ValueKey('tapcard-${prop?.id ?? h.characterId}'),
+        padding: const EdgeInsets.fromLTRB(14, 10, 8, 10),
+        decoration: BoxDecoration(color: const Color(0xEE1E150F), borderRadius: BorderRadius.circular(18), border: Border.all(color: const Color(0xFFC9A45C), width: 1.1)),
+        child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          if (ch != null) Padding(padding: const EdgeInsets.only(right: 10), child: Avatar(ch, size: 32, ring: false)) else const Padding(padding: EdgeInsets.only(right: 10, top: 2), child: Text('✦', style: TextStyle(color: gold, fontSize: 18))),
+          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+            Text(ch?.name ?? 'WORD', style: const TextStyle(color: gold, fontSize: 11, letterSpacing: 1.1, fontWeight: FontWeight.w800)),
+            if (en.isNotEmpty) Text(en, style: BL.display(15.5, color: const Color(0xFFFBF3E4), w: FontWeight.w500)),
+            if (fa != null && fa.isNotEmpty) SizedBox(width: double.infinity, child: Text(fa, textDirection: TextDirection.rtl, style: BL.fa(12.5, color: Colors.white60))),
+            if (prop != null) ...[
+              const SizedBox(height: 4),
+              Text('“${prop.phrase}”', style: const TextStyle(color: Colors.white, fontSize: 13.5)),
+              SizedBox(width: double.infinity, child: Text(prop.phraseFa, textDirection: TextDirection.rtl, style: BL.fa(12, color: Colors.white54))),
+            ],
+            if (sw != null && ch != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: GestureDetector(
+                  onTap: () { setState(() => _tapped = null); context.push('/chat/$sw'); },
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                    decoration: BoxDecoration(color: const Color(0x33E8C987), borderRadius: BorderRadius.circular(14), border: Border.all(color: gold, width: .8)),
+                    child: Text('Talk to ${ch.name} ›', style: const TextStyle(color: gold, fontSize: 12.5, fontWeight: FontWeight.w700)),
+                  ),
+                ),
+              ),
+          ])),
+          Column(mainAxisSize: MainAxisSize.min, children: [
+            IconButton(visualDensity: VisualDensity.compact, tooltip: tr(_lang, 'listen'), onPressed: () => _onPaintingTap(h, _tapAt ?? Offset.zero), icon: const Icon(Icons.volume_up_rounded, color: gold, size: 20)),
+            IconButton(visualDensity: VisualDensity.compact, onPressed: () => setState(() => _tapped = null), icon: const Icon(Icons.close_rounded, color: Colors.white38, size: 18)),
+          ]),
+        ]),
+      ),
     );
   }
 

@@ -47,10 +47,10 @@
     {
      "keywords": [
       "three",
+      "oops",
       "four",
       "skip",
-      "oops",
-      "two"
+      "one"
      ],
      "suggestion": "One, two, three, four… oops! Four! I can do four. Can you skip?",
      "suggestionFa": "یک، دو، سه، چهار… اوپس! چهار! چهار تا بلدم. تو طناب‌بازی بلدی؟",
@@ -73,9 +73,9 @@
      "keywords": [
       "everybody",
       "under",
-      "feet",
+      "jump",
       "here",
-      "skip"
+      "when"
      ],
      "suggestion": "Everybody can skip! Here. Jump when the rope goes under your feet!",
      "suggestionFa": "همه بلدن! بیا. وقتی طناب از زیر پات رد شد بپر!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "minute",
       "twenty",
+      "minute",
       "whole",
       "skip",
       "mia"
@@ -172,8 +172,8 @@
      "keywords": [
       "cartwheels",
       "can't",
-      "knit",
       "nana",
+      "knit",
       "old"
      ],
      "suggestion": "You're not old! Nana is old. She can't do cartwheels, but she can knit!",
