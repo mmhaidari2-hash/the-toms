@@ -23,8 +23,8 @@
      "keywords": [
       "putting",
       "shelf",
-      "hand",
       "give",
+      "hand",
       "can"
      ],
      "suggestion": "Can you give me a hand? I'm putting up a shelf.",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "straight",
-      "hold",
       "keep",
-      "can",
-      "end"
+      "hold",
+      "end",
+      "can"
      ],
      "suggestion": "Can you hold this end? Keep it straight. Is it straight?",
      "suggestionFa": "می‌تونی این سرش را نگه داری؟ صاف نگهش دار. صافه؟",
@@ -125,7 +125,7 @@
       "garden",
       "screws",
       "pass",
-      "can"
+      "now"
      ],
      "suggestion": "Leslie's got him in the garden. Now, can you pass the screws?",
      "suggestionFa": "لزلی توی باغچه نگهش داشته. حالا، پیچ‌ها را می‌دی؟",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "perfect",
       "falling",
+      "perfect",
       "there",
-      "down",
+      "look",
       "four"
      ],
      "suggestion": "Four. There! Look at that! Is it falling down? No! It's perfect!",
@@ -173,9 +173,9 @@
      "keywords": [
       "before",
       "moving",
+      "falls",
       "let's",
-      "cuppa",
-      "falls"
+      "cuppa"
      ],
      "suggestion": "Moving? No, no. It's fine. Let's get a cuppa before it falls down!",
      "suggestionFa": "تکون؟ نه، نه. خوبه. بیا قبل از اینکه بیفته یه چای بخوریم!",

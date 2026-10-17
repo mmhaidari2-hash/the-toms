@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "faulty",
       "return",
+      "faulty",
       "like",
       "i'd"
      ],
@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "refund",
-      "don't",
-      "trust"
+      "please",
+      "trust",
+      "don't"
      ],
      "suggestion": "A full refund, please. I don't trust this model any more.",
      "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
@@ -181,9 +181,9 @@
    "branches": [
     {
      "keywords": [
-      "heating",
-      "morning",
       "stopped",
+      "morning",
+      "heating",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "carefully",
-      "used",
       "i've",
+      "used",
       "all"
      ],
      "suggestion": "Not at all. I've used it carefully.",

@@ -1,0 +1,222 @@
+{
+ "id": "l5_u8_3__as_leslie",
+ "characterId": "william",
+ "title": "(As Leslie) William's war story",
+ "titleFa": "(در نقش Leslie) قصهٔ ویلیام",
+ "setting": "Telling a good story · Level 5",
+ "settingFa": "خوب قصه گفتن",
+ "requires": null,
+ "level": "C1",
+ "baseId": "l5_u8_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "charlton",
+      "anyone",
+      "bobby",
+      "never",
+      "about"
+     ],
+     "suggestion": "Dad, tell them about the day you met Bobby Charlton. You never tell anyone.",
+     "suggestionFa": "بابا، بهشون بگو روزی که بابی چارلتون را دیدی. هیچ‌وقت به کسی نمی‌گی.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "You met Bobby Charlton, William? The Manchester United legend?",
+   "translations": {
+    "fa": "شما بابی چارلتون را دیدید ویلیام؟ اسطورهٔ منچستر یونایتد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "william",
+   "text": "Nineteen sixty-eight. Train station.",
+   "translations": {
+    "fa": "هزار و نهصد و شصت و هشت. ایستگاه قطار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "station",
+     "fa": "ایستگاه"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "What happened at the station?",
+   "translations": {
+    "fa": "تو ایستگاه چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "piccadilly",
+      "suitcase",
+      "carried",
+      "bobby's",
+      "porter"
+     ],
+     "suggestion": "It was! Dad was a porter at Piccadilly then. The team came back with the cup, and Dad carried Bobby's suitcase.",
+     "suggestionFa": "آره! بابا اون موقع باربر پیکادلی بود. تیم با جام برگشت، و بابا چمدون بابی را حمل کرد.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "You carried his suitcase? That's incredible!",
+   "translations": {
+    "fa": "چمدونش را حمل کردید؟ باورنکردنیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "william",
+   "text": "He said, \"Thanks, lad.\" And smiled.",
+   "translations": {
+    "fa": "گفت «ممنون پسر.» و لبخند زد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "moment",
+     "fa": "لحظه"
+    },
+    {
+     "word": "clearly",
+     "fa": "به‌وضوح"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "What a moment. Did you keep anything from that day?",
+   "translations": {
+    "fa": "چه لحظه‌ای. از اون روز چیزی نگه داشتید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wouldn't",
+      "luggage",
+      "bedroom",
+      "anyone",
+      "frame"
+     ],
+     "suggestion": "He kept the luggage tag. It's in a frame in his bedroom. He's never shown anyone — but I think he'd show you. Wouldn't you, Dad?",
+     "suggestionFa": "برچسب چمدون را نگه داشت. تو یه قاب تو اتاق خوابشه. هیچ‌وقت به کسی نشونش نداده — ولی فکر کنم به تو نشون بده. مگه نه بابا؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "I'd be honoured, William.",
+   "translations": {
+    "fa": "مفتخر می‌شم ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mm",
+      "hm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "william",
+   "text": "Come on, then. Best day ever.",
+   "translations": {
+    "fa": "بیا پس. بهترین روز عمرم."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

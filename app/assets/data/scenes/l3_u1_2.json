@@ -22,7 +22,7 @@
       "restaurant",
       "worked",
       "years",
-      "home"
+      "back"
      ],
      "suggestion": "Yes, I worked in a restaurant back home for two years.",
      "suggestionFa": "آره، تو کشور خودم دو سال تو یه رستوران کار کردم.",
@@ -34,8 +34,8 @@
      "keywords": [
       "never",
       "did",
-      "get",
-      "how"
+      "how",
+      "get"
      ],
      "suggestion": "No, never. How did you get it?",
      "suggestionFa": "نه، هیچ‌وقت. چطوری گرفتیش؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "found",
       "have",
-      "how",
-      "far"
+      "far",
+      "how"
      ],
      "suggestion": "How have you found it so far?",
      "suggestionFa": "تا حالا چطور بوده؟",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "anyone",
-      "they",
+      "need",
       "else",
-      "need"
+      "they"
      ],
      "suggestion": "Do they need anyone else?",
      "suggestionFa": "کس دیگه‌ای هم لازم دارن؟",
@@ -144,8 +144,8 @@
     },
     {
      "keywords": [
-      "they",
       "have",
+      "they",
       "paid",
       "yet"
      ],
@@ -197,9 +197,9 @@
     },
     {
      "keywords": [
+      "get",
       "how",
-      "one",
-      "get"
+      "one"
      ],
      "suggestion": "No. What is it, and how do I get one?",
      "suggestionFa": "نه. چیه و چطوری بگیرمش؟",

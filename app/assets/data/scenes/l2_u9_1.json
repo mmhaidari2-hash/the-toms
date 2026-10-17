@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "next",
+      "stop",
       "here",
-      "stop"
+      "next"
      ],
      "suggestion": "Here you are. Is York the next stop?",
      "suggestionFa": "بفرمایید. یورک ایستگاه بعدیه؟",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "london",
       "better",
+      "london",
       "than"
      ],
      "suggestion": "Better than London?",
@@ -187,8 +187,8 @@
     {
      "keywords": [
       "should",
-      "visit",
-      "there"
+      "there",
+      "visit"
      ],
      "suggestion": "What should I visit there?",
      "suggestionFa": "اونجا کجا را ببینم؟",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "love",
-      "i'd",
       "one",
-      "day"
+      "day",
+      "i'd"
      ],
      "suggestion": "I'd love to go one day.",
      "suggestionFa": "دوست دارم یه روز برم.",

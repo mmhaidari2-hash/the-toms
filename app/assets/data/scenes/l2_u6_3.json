@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "that's",
       "before",
-      "never",
-      "right"
+      "that's",
+      "right",
+      "never"
      ],
      "suggestion": "That's right. I've never seen a GP here before.",
      "suggestionFa": "درسته. تا حالا اینجا پیش پزشک عمومی نرفتم.",
@@ -86,7 +86,7 @@
      "keywords": [
       "appendix",
       "when",
-      "out",
+      "was",
       "ten"
      ],
      "suggestion": "Yes, I had my appendix out when I was ten.",
@@ -179,7 +179,7 @@
       "stopped",
       "years",
       "used",
-      "but"
+      "ago"
      ],
      "suggestion": "I used to, but I stopped two years ago.",
      "suggestionFa": "قبلاً می‌کشیدم، ولی دو سال پیش ترک کردم.",
@@ -214,9 +214,9 @@
     {
      "keywords": [
       "appointment",
+      "book",
       "next",
-      "time",
-      "book"
+      "time"
      ],
      "suggestion": "How do I book an appointment next time?",
      "suggestionFa": "دفعهٔ بعد چطور وقت بگیرم؟",

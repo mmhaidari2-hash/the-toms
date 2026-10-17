@@ -29,8 +29,8 @@
     },
     {
      "keywords": [
-      "past",
-      "half"
+      "half",
+      "past"
      ],
      "suggestion": "It's half past seven.",
      "suggestionFa": "ساعت هفت و نیمه.",
@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "fifteen",
+      "minutes",
       "you've",
       "hurry"
      ],
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "kettle",
-      "next",
-      "keys"
+      "keys",
+      "next"
      ],
      "suggestion": "Your keys are next to the kettle.",
      "suggestionFa": "کلیدهات کنار کتری‌ان.",
@@ -195,8 +195,8 @@
     {
      "keywords": [
       "quarter",
-      "past",
-      "four"
+      "four",
+      "past"
      ],
      "suggestion": "At quarter past four.",
      "suggestionFa": "چهار و ربع.",
@@ -243,8 +243,8 @@
     {
      "keywords": [
       "shepherd's",
-      "yum",
-      "pie"
+      "pie",
+      "yum"
      ],
      "suggestion": "Shepherd's pie? Yum!",
      "suggestionFa": "پای چوپان؟ به‌به!",
@@ -278,10 +278,10 @@
    "branches": [
     {
      "keywords": [
-      "have",
       "good",
-      "day",
-      "bye"
+      "have",
+      "bye",
+      "day"
      ],
      "suggestion": "Bye! Have a good day!",
      "suggestionFa": "خداحافظ! روز خوبی داشته باشی!",
@@ -292,8 +292,8 @@
     {
      "keywords": [
       "later",
-      "tom",
-      "see"
+      "see",
+      "tom"
      ],
      "suggestion": "See you later, Tom!",
      "suggestionFa": "بعداً می‌بینمت، تام!",

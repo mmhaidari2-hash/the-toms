@@ -16246,6 +16246,1681 @@
      "turns": 9
     }
    ]
+  },
+  {
+   "level": 5,
+   "id": "U46",
+   "title": "Formal English",
+   "titleFa": "انگلیسی رسمی",
+   "place": "library",
+   "canDo": "Switch confidently between formal and informal registers",
+   "canDoFa": "با اطمینان بین سبک رسمی و غیررسمی جابه‌جا شوی",
+   "lessons": [
+    {
+     "id": "l5_u6_1",
+     "title": "Register switching",
+     "titleFa": "تغییر سبک گفتار",
+     "lead": "bennett",
+     "place": "library",
+     "grammar": "Formal vs informal equivalents: \"get\" vs \"obtain\", \"help\" vs \"assist\"",
+     "grammarFa": "معادل‌های رسمی و غیررسمی",
+     "sceneIds": [
+      "l5_u6_1"
+     ],
+     "words": [
+      {
+       "word": "tricky",
+       "fa": "دشوار"
+      },
+      {
+       "word": "formal report",
+       "fa": "گزارش رسمی"
+      },
+      {
+       "word": "draft",
+       "fa": "پیش‌نویس"
+      },
+      {
+       "word": "register",
+       "fa": "سبک/سطح زبان"
+      },
+      {
+       "word": "turned up",
+       "fa": "آمدند"
+      },
+      {
+       "word": "dreadful",
+       "fa": "افتضاح"
+      },
+      {
+       "word": "attendance",
+       "fa": "حضور"
+      },
+      {
+       "word": "consistently",
+       "fa": "به‌طور مداوم"
+      },
+      {
+       "word": "significant",
+       "fa": "چشمگیر"
+      },
+      {
+       "word": "substantial",
+       "fa": "قابل‌توجه"
+      },
+      {
+       "word": "additional funding",
+       "fa": "بودجهٔ اضافی"
+      },
+      {
+       "word": "discontinued",
+       "fa": "متوقف شده"
+      },
+      {
+       "word": "investment",
+       "fa": "سرمایه‌گذاری"
+      },
+      {
+       "word": "sustain",
+       "fa": "حفظ کردن"
+      },
+      {
+       "word": "provision",
+       "fa": "خدمات"
+      },
+      {
+       "word": "persuasive",
+       "fa": "متقاعدکننده"
+      },
+      {
+       "word": "necessity",
+       "fa": "ضرورت"
+      },
+      {
+       "word": "decode",
+       "fa": "رمزگشایی کردن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u6_2",
+     "title": "A formal complaint meeting",
+     "titleFa": "جلسهٔ شکایت رسمی",
+     "lead": "sian",
+     "place": "bank",
+     "grammar": "Formal spoken English: I would like to raise… / I must stress…",
+     "grammarFa": "انگلیسی گفتاری رسمی",
+     "sceneIds": [
+      "l5_u6_2"
+     ],
+     "words": [
+      {
+       "word": "formal complaint",
+       "fa": "شکایت رسمی"
+      },
+      {
+       "word": "on behalf of",
+       "fa": "از طرف"
+      },
+      {
+       "word": "raise a concern",
+       "fa": "نگرانی مطرح کردن"
+      },
+      {
+       "word": "authorisation",
+       "fa": "اجازه‌نامه"
+      },
+      {
+       "word": "go ahead",
+       "fa": "بفرمایید"
+      },
+      {
+       "word": "victim",
+       "fa": "قربانی"
+      },
+      {
+       "word": "must stress",
+       "fa": "باید تأکید کنم"
+      },
+      {
+       "word": "guidance",
+       "fa": "راهنمایی"
+      },
+      {
+       "word": "outcome",
+       "fa": "نتیجه"
+      },
+      {
+       "word": "seeking",
+       "fa": "درخواست کردن"
+      },
+      {
+       "word": "entitled",
+       "fa": "محق"
+      },
+      {
+       "word": "furthermore",
+       "fa": "علاوه بر این"
+      },
+      {
+       "word": "initially",
+       "fa": "در ابتدا"
+      },
+      {
+       "word": "rejected",
+       "fa": "رد شد"
+      },
+      {
+       "word": "reviewed",
+       "fa": "بررسی کرد"
+      },
+      {
+       "word": "appears to",
+       "fa": "به نظر می‌رسد"
+      },
+      {
+       "word": "reimbursement",
+       "fa": "بازپرداخت/جبران"
+      },
+      {
+       "word": "candour",
+       "fa": "صراحت"
+      },
+      {
+       "word": "acknowledging",
+       "fa": "پذیرفتن"
+      },
+      {
+       "word": "distress",
+       "fa": "پریشانی"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u6_3",
+     "title": "Chairing a formal panel",
+     "titleFa": "ادارهٔ هیئت رسمی",
+     "lead": "clarke",
+     "place": "interview",
+     "grammar": "Formal discourse markers: Moreover / Nevertheless / With regard to",
+     "grammarFa": "نشانگرهای گفتمانی رسمی",
+     "sceneIds": [
+      "l5_u6_3"
+     ],
+     "words": [
+      {
+       "word": "sit on the panel",
+       "fa": "عضو هیئت بودن"
+      },
+      {
+       "word": "candidate",
+       "fa": "داوطلب"
+      },
+      {
+       "word": "assess",
+       "fa": "ارزیابی کردن"
+      },
+      {
+       "word": "criteria",
+       "fa": "معیارها"
+      },
+      {
+       "word": "with regard to",
+       "fa": "در مورد"
+      },
+      {
+       "word": "cover",
+       "fa": "پوشش دادن"
+      },
+      {
+       "word": "moreover",
+       "fa": "علاوه بر این"
+      },
+      {
+       "word": "value",
+       "fa": "ارزش قائل بودن"
+      },
+      {
+       "word": "nevertheless",
+       "fa": "با این حال"
+      },
+      {
+       "word": "bias",
+       "fa": "سوگیری"
+      },
+      {
+       "word": "impressions",
+       "fa": "برداشت‌ها"
+      },
+      {
+       "word": "in fact",
+       "fa": "در واقع"
+      },
+      {
+       "word": "culture add",
+       "fa": "افزودن فرهنگی"
+      },
+      {
+       "word": "perspective",
+       "fa": "دیدگاه"
+      },
+      {
+       "word": "indeed",
+       "fa": "در واقع"
+      },
+      {
+       "word": "modesty",
+       "fa": "فروتنی"
+      },
+      {
+       "word": "misread",
+       "fa": "اشتباه برداشت کردن"
+      },
+      {
+       "word": "precisely",
+       "fa": "دقیقاً"
+      },
+      {
+       "word": "consequently",
+       "fa": "در نتیجه"
+      },
+      {
+       "word": "polish",
+       "fa": "ظاهر براق"
+      },
+      {
+       "word": "at ease",
+       "fa": "راحت"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u6_4",
+     "title": "Writing a reference",
+     "titleFa": "نوشتن توصیه‌نامه",
+     "lead": "al",
+     "place": "university",
+     "grammar": "Formal evaluative language",
+     "grammarFa": "زبان ارزیابی رسمی",
+     "sceneIds": [
+      "l5_u6_4"
+     ],
+     "words": [
+      {
+       "word": "favour",
+       "fa": "لطف"
+      },
+      {
+       "word": "character reference",
+       "fa": "توصیه‌نامهٔ شخصیتی"
+      },
+      {
+       "word": "citizenship",
+       "fa": "شهروندی"
+      },
+      {
+       "word": "application",
+       "fa": "درخواست"
+      },
+      {
+       "word": "asset",
+       "fa": "سرمایه"
+      },
+      {
+       "word": "in what capacity",
+       "fa": "در چه نقشی"
+      },
+      {
+       "word": "qualities",
+       "fa": "ویژگی‌ها"
+      },
+      {
+       "word": "in support of",
+       "fa": "در حمایت از"
+      },
+      {
+       "word": "demonstrated",
+       "fa": "نشان داده"
+      },
+      {
+       "word": "exceptional",
+       "fa": "استثنایی"
+      },
+      {
+       "word": "dedication",
+       "fa": "تعهد"
+      },
+      {
+       "word": "attest to",
+       "fa": "گواهی کردن"
+      },
+      {
+       "word": "integrity",
+       "fa": "درستکاری"
+      },
+      {
+       "word": "reliable",
+       "fa": "قابل اعتماد"
+      },
+      {
+       "word": "hesitation",
+       "fa": "تردید"
+      },
+      {
+       "word": "recommending",
+       "fa": "توصیه کردن"
+      },
+      {
+       "word": "further",
+       "fa": "بیشتر"
+      },
+      {
+       "word": "outstanding",
+       "fa": "برجسته"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 5,
+   "id": "U47",
+   "title": "Being British",
+   "titleFa": "بریتانیایی بودن",
+   "place": "supermarket",
+   "canDo": "Discuss unwritten rules, class, sport and national identity",
+   "canDoFa": "دربارهٔ قوانین نانوشته، طبقه، ورزش و هویت ملی بحث کنی",
+   "lessons": [
+    {
+     "id": "l5_u7_1",
+     "title": "The art of queuing",
+     "titleFa": "هنر صف ایستادن",
+     "lead": "priya",
+     "place": "supermarket",
+     "grammar": "Unwritten rules and politeness norms",
+     "grammarFa": "قوانین نانوشته",
+     "sceneIds": [
+      "l5_u7_1"
+     ],
+     "words": [
+      {
+       "word": "pushed in",
+       "fa": "جلوی صف پرید"
+      },
+      {
+       "word": "till",
+       "fa": "صندوق"
+      },
+      {
+       "word": "tutted",
+       "fa": "نچ‌نچ کرد"
+      },
+      {
+       "word": "deafening",
+       "fa": "کرکننده"
+      },
+      {
+       "word": "confront",
+       "fa": "رودررو شدن"
+      },
+      {
+       "word": "confrontation",
+       "fa": "رودررویی"
+      },
+      {
+       "word": "imaginable",
+       "fa": "قابل تصور"
+      },
+      {
+       "word": "suffer in silence",
+       "fa": "در سکوت رنج کشیدن"
+      },
+      {
+       "word": "passive-aggressive",
+       "fa": "پرخاشگر منفعل"
+      },
+      {
+       "word": "unwritten rules",
+       "fa": "قوانین نانوشته"
+      },
+      {
+       "word": "bumps into",
+       "fa": "برخورد می‌کند"
+      },
+      {
+       "word": "escalators",
+       "fa": "پله‌برقی"
+      },
+      {
+       "word": "lamppost",
+       "fa": "تیر چراغ‌برق"
+      },
+      {
+       "word": "sacred",
+       "fa": "مقدس"
+      },
+      {
+       "word": "caught myself",
+       "fa": "خودم را در حال … دیدم"
+      },
+      {
+       "word": "furniture",
+       "fa": "مبلمان"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u7_2",
+     "title": "Sporting culture",
+     "titleFa": "فرهنگ ورزشی",
+     "lead": "coach",
+     "place": "sportsday",
+     "grammar": "Talking about sport, fairness and \"good sportsmanship\"",
+     "grammarFa": "ورزش و جوانمردی",
+     "sceneIds": [
+      "l5_u7_2"
+     ],
+     "words": [
+      {
+       "word": "helping out",
+       "fa": "کمک کردن"
+      },
+      {
+       "word": "obsession",
+       "fa": "وسواس"
+      },
+      {
+       "word": "national identity",
+       "fa": "هویت ملی"
+      },
+      {
+       "word": "cricket",
+       "fa": "کریکت"
+      },
+      {
+       "word": "draw",
+       "fa": "مساوی"
+      },
+      {
+       "word": "it's not cricket",
+       "fa": "ناعادلانه است"
+      },
+      {
+       "word": "fair play",
+       "fa": "بازی جوانمردانه"
+      },
+      {
+       "word": "clap",
+       "fa": "دست زدن"
+      },
+      {
+       "word": "sportsmanship",
+       "fa": "روحیهٔ ورزشی"
+      },
+      {
+       "word": "humbly",
+       "fa": "با فروتنی"
+      },
+      {
+       "word": "gracefully",
+       "fa": "با وقار"
+      },
+      {
+       "word": "soft",
+       "fa": "نرم/لوس"
+      },
+      {
+       "word": "life skill",
+       "fa": "مهارت زندگی"
+      },
+      {
+       "word": "drive",
+       "fa": "انگیزه"
+      },
+      {
+       "word": "grace",
+       "fa": "وقار"
+      },
+      {
+       "word": "sack race",
+       "fa": "مسابقهٔ گونی"
+      },
+      {
+       "word": "fiercely",
+       "fa": "به شدت"
+      },
+      {
+       "word": "competitive",
+       "fa": "رقابتی"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u7_3",
+     "title": "Class and accent",
+     "titleFa": "طبقه و لهجه",
+     "lead": "dave",
+     "place": "pub",
+     "grammar": "Discussing sensitive social topics",
+     "grammarFa": "بحث دربارهٔ موضوعات اجتماعی حساس",
+     "sceneIds": [
+      "l5_u7_3"
+     ],
+     "words": [
+      {
+       "word": "nephew",
+       "fa": "خواهرزاده/برادرزاده"
+      },
+      {
+       "word": "got into",
+       "fa": "قبول شد"
+      },
+      {
+       "word": "posh",
+       "fa": "اعیانی/پولدار"
+      },
+      {
+       "word": "belong",
+       "fa": "تعلق داشتن"
+      },
+      {
+       "word": "big deal",
+       "fa": "مسئلهٔ مهم"
+      },
+      {
+       "word": "subtle",
+       "fa": "ظریف"
+      },
+      {
+       "word": "evening meal",
+       "fa": "وعدهٔ شام"
+      },
+      {
+       "word": "working-class",
+       "fa": "طبقهٔ کارگر"
+      },
+      {
+       "word": "fascinating",
+       "fa": "جذاب"
+      },
+      {
+       "word": "funny looks",
+       "fa": "نگاه‌های عجیب"
+      },
+      {
+       "word": "earned his place",
+       "fa": "جایش را به دست آورد"
+      },
+      {
+       "word": "first-generation",
+       "fa": "نسل اول"
+      },
+      {
+       "word": "not belonging",
+       "fa": "تعلق نداشتن"
+      },
+      {
+       "word": "champion",
+       "fa": "قهرمان"
+      },
+      {
+       "word": "honorary",
+       "fa": "افتخاری"
+      },
+      {
+       "word": "outsider",
+       "fa": "غریبه"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u7_4",
+     "title": "British food debates",
+     "titleFa": "بحث‌های غذایی بریتانیا",
+     "lead": "sophie",
+     "place": "restaurant",
+     "grammar": "Expressing strong preferences and mock outrage",
+     "grammarFa": "ابراز ترجیح قوی و خشم ساختگی",
+     "sceneIds": [
+      "l5_u7_4"
+     ],
+     "words": [
+      {
+       "word": "settle an argument",
+       "fa": "دعوایی را حل کردن"
+      },
+      {
+       "word": "rhyme with",
+       "fa": "قافیه داشتن با"
+      },
+      {
+       "word": "getting involved",
+       "fa": "درگیر شدن"
+      },
+      {
+       "word": "while we're at it",
+       "fa": "حالا که اینجاییم"
+      },
+      {
+       "word": "Devon",
+       "fa": "دوون"
+      },
+      {
+       "word": "Cornwall",
+       "fa": "کورنوال"
+      },
+      {
+       "word": "civilised",
+       "fa": "متمدنانه"
+      },
+      {
+       "word": "on the grounds that",
+       "fa": "به این دلیل که"
+      },
+      {
+       "word": "riot",
+       "fa": "شورش"
+      },
+      {
+       "word": "outraged",
+       "fa": "خشمگین"
+      },
+      {
+       "word": "Sunday roast",
+       "fa": "کباب یکشنبه"
+      },
+      {
+       "word": "mint sauce",
+       "fa": "سس نعناع"
+      },
+      {
+       "word": "die on this hill",
+       "fa": "تا آخر از عقیده دفاع کردن"
+      },
+      {
+       "word": "Yorkshire puddings",
+       "fa": "پودینگ یورکشایر"
+      },
+      {
+       "word": "except",
+       "fa": "به جز"
+      },
+      {
+       "word": "roast potatoes",
+       "fa": "سیب‌زمینی تنوری"
+      },
+      {
+       "word": "queue-jumpers",
+       "fa": "کسانی که در صف جلو می‌زنند"
+      },
+      {
+       "word": "lovable",
+       "fa": "دوست‌داشتنی"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 5,
+   "id": "U48",
+   "title": "Telling a good story",
+   "titleFa": "خوب قصه گفتن",
+   "place": "eveningtea",
+   "canDo": "Tell vivid anecdotes with timing, suspense and humour",
+   "canDoFa": "خاطره‌ها را با زمان‌بندی، تعلیق و طنز تعریف کنی",
+   "lessons": [
+    {
+     "id": "l5_u8_1",
+     "title": "The anecdote",
+     "titleFa": "خاطره",
+     "lead": "tom",
+     "place": "eveningtea",
+     "grammar": "Narrative tenses and dramatic timing",
+     "grammarFa": "زمان‌های روایی و زمان‌بندی نمایشی",
+     "sceneIds": [
+      "l5_u8_1"
+     ],
+     "words": [
+      {
+       "word": "anecdote",
+       "fa": "خاطره"
+      },
+      {
+       "word": "I'd only been",
+       "fa": "فقط … بود که بودم"
+      },
+      {
+       "word": "Jobcentre",
+       "fa": "مرکز کاریابی"
+      },
+      {
+       "word": "held out",
+       "fa": "جلو گرفت"
+      },
+      {
+       "word": "note",
+       "fa": "اسکناس"
+      },
+      {
+       "word": "stared",
+       "fa": "زل زد"
+      },
+      {
+       "word": "insulted",
+       "fa": "توهین کرد"
+      },
+      {
+       "word": "textbook",
+       "fa": "کتابی"
+      },
+      {
+       "word": "Y'what",
+       "fa": "چی گفتی (محاوره)"
+      },
+      {
+       "word": "cock",
+       "fa": "رفیق (گویش شمالی، دوستانه)"
+      },
+      {
+       "word": "nodded",
+       "fa": "سر تکان داد"
+      },
+      {
+       "word": "ended up",
+       "fa": "سر درآورد"
+      },
+      {
+       "word": "wrong direction",
+       "fa": "جهت اشتباه"
+      },
+      {
+       "word": "embarrassed",
+       "fa": "خجالت‌زده"
+      },
+      {
+       "word": "turned out",
+       "fa": "معلوم شد"
+      },
+      {
+       "word": "for nothing",
+       "fa": "بیخودی"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u8_2",
+     "title": "Nicola's story",
+     "titleFa": "قصهٔ نیکولا",
+     "lead": "nicola",
+     "place": "birthday",
+     "grammar": "Encouraging a storyteller and asking for details",
+     "grammarFa": "تشویق قصه‌گو و پرسیدن جزئیات",
+     "sceneIds": [
+      "l5_u8_2"
+     ],
+     "words": [
+      {
+       "word": "dragon",
+       "fa": "اژدها"
+      },
+      {
+       "word": "probably",
+       "fa": "احتمالاً"
+      },
+      {
+       "word": "shed",
+       "fa": "انباری"
+      },
+      {
+       "word": "nobody",
+       "fa": "هیچ‌کس"
+      },
+      {
+       "word": "breathed fire",
+       "fa": "آتش بیرون داد"
+      },
+      {
+       "word": "by accident",
+       "fa": "تصادفی"
+      },
+      {
+       "word": "sneezed",
+       "fa": "عطسه کرد"
+      },
+      {
+       "word": "tissue",
+       "fa": "دستمال کاغذی"
+      },
+      {
+       "word": "catch fire",
+       "fa": "آتش گرفتن"
+      },
+      {
+       "word": "burned up",
+       "fa": "کاملاً سوخت"
+      },
+      {
+       "word": "handkerchief",
+       "fa": "دستمال پارچه‌ای"
+      },
+      {
+       "word": "mystery",
+       "fa": "معما"
+      },
+      {
+       "word": "missing",
+       "fa": "گم‌شده"
+      },
+      {
+       "word": "the end",
+       "fa": "پایان"
+      },
+      {
+       "word": "twist",
+       "fa": "پیچش داستان"
+      },
+      {
+       "word": "natural storyteller",
+       "fa": "قصه‌گوی ذاتی"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l5_u8_3",
+     "title": "William's war story",
+     "titleFa": "قصهٔ ویلیام",
+     "lead": "william",
+     "place": "living",
+     "grammar": "Listening to and drawing out a reluctant storyteller",
+     "grammarFa": "بیرون کشیدن قصه از یک راوی کم‌حرف",
+     "sceneIds": [
+      "l5_u8_3"
+     ],
+     "words": [
+      {
+       "word": "legend",
+       "fa": "اسطوره"
+      },
+      {
+       "word": "sharing",
+       "fa": "در میان گذاشتن"
+      },
+      {
+       "word": "station",
+       "fa": "ایستگاه"
+      },
+      {
+       "word": "porter",
+       "fa": "باربر"
+      },
+      {
+       "word": "Piccadilly",
+       "fa": "ایستگاه پیکادلی منچستر"
+      },
+      {
+       "word": "cup",
+       "fa": "جام"
+      },
+      {
+       "word": "suitcase",
+       "fa": "چمدان"
+      },
+      {
+       "word": "moment",
+       "fa": "لحظه"
+      },
+      {
+       "word": "clearly",
+       "fa": "به‌وضوح"
+      },
+      {
+       "word": "luggage tag",
+       "fa": "برچسب چمدان"
+      },
+      {
+       "word": "frame",
+       "fa": "قاب"
+      },
+      {
+       "word": "honoured",
+       "fa": "مفتخر"
+      }
+     ],
+     "turns": 11
+    },
+    {
+     "id": "l5_u8_4",
+     "title": "A Christmas disaster",
+     "titleFa": "فاجعهٔ کریسمس",
+     "lead": "leslie",
+     "place": "christmas",
+     "grammar": "Comic exaggeration and hyperbole",
+     "grammarFa": "اغراق کمیک",
+     "sceneIds": [
+      "l5_u8_4"
+     ],
+     "words": [
+      {
+       "word": "disaster",
+       "fa": "فاجعه"
+      },
+      {
+       "word": "turkey",
+       "fa": "بوقلمون"
+      },
+      {
+       "word": "burnt",
+       "fa": "سوخته"
+      },
+      {
+       "word": "raw",
+       "fa": "خام"
+      },
+      {
+       "word": "escape",
+       "fa": "فرار کردن"
+      },
+      {
+       "word": "insisted on",
+       "fa": "اصرار کرد"
+      },
+      {
+       "word": "deep-frying",
+       "fa": "سرخ کردن در روغن زیاد"
+      },
+      {
+       "word": "exaggerating",
+       "fa": "اغراق کردن"
+      },
+      {
+       "word": "lowered",
+       "fa": "پایین گذاشت"
+      },
+      {
+       "word": "enormous",
+       "fa": "عظیم"
+      },
+      {
+       "word": "fire brigade",
+       "fa": "آتش‌نشانی"
+      },
+      {
+       "word": "flames",
+       "fa": "شعله‌ها"
+      },
+      {
+       "word": "eyebrows",
+       "fa": "ابروها"
+      },
+      {
+       "word": "grew back",
+       "fa": "دوباره رشد کرد"
+      },
+      {
+       "word": "beans on toast",
+       "fa": "لوبیا روی نان تست"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 5,
+   "id": "U49",
+   "title": "The art of argument",
+   "titleFa": "هنر استدلال",
+   "place": "university",
+   "canDo": "Debate complex issues with nuance, concession and evidence",
+   "canDoFa": "دربارهٔ مسائل پیچیده با ظرافت، امتیازدهی و شواهد بحث کنی",
+   "lessons": [
+    {
+     "id": "l5_u9_1",
+     "title": "A formal debate",
+     "titleFa": "مناظرهٔ رسمی",
+     "lead": "al",
+     "place": "university",
+     "grammar": "Concession and counter-argument: Granted… / Admittedly… / That said…",
+     "grammarFa": "امتیازدهی و استدلال مقابل",
+     "sceneIds": [
+      "l5_u9_1"
+     ],
+     "words": [
+      {
+       "word": "debating society",
+       "fa": "انجمن مناظره"
+      },
+      {
+       "word": "motion",
+       "fa": "موضوع مناظره"
+      },
+      {
+       "word": "this house",
+       "fa": "این مجلس (عبارت رسمی مناظره)"
+      },
+      {
+       "word": "opposing",
+       "fa": "مخالف"
+      },
+      {
+       "word": "granted",
+       "fa": "قبول دارم"
+      },
+      {
+       "word": "lifeline",
+       "fa": "شریان حیاتی"
+      },
+      {
+       "word": "admittedly",
+       "fa": "البته/باید اعتراف کرد"
+      },
+      {
+       "word": "overlooked",
+       "fa": "نادیده گرفته"
+      },
+      {
+       "word": "fuelling",
+       "fa": "تشدید کردن"
+      },
+      {
+       "word": "mental health crisis",
+       "fa": "بحران سلامت روان"
+      },
+      {
+       "word": "valid",
+       "fa": "معتبر"
+      },
+      {
+       "word": "correlation",
+       "fa": "همبستگی"
+      },
+      {
+       "word": "causation",
+       "fa": "علیت"
+      },
+      {
+       "word": "platforms",
+       "fa": "پلتفرم‌ها"
+      },
+      {
+       "word": "distinction",
+       "fa": "تمایز"
+      },
+      {
+       "word": "misinformation",
+       "fa": "اطلاعات نادرست"
+      },
+      {
+       "word": "conspiracy theories",
+       "fa": "نظریه‌های توطئه"
+      },
+      {
+       "word": "yet",
+       "fa": "با این حال"
+      },
+      {
+       "word": "fact-checkers",
+       "fa": "راستی‌آزمایان"
+      },
+      {
+       "word": "in real time",
+       "fa": "به‌لحظه"
+      },
+      {
+       "word": "closing",
+       "fa": "پایانی"
+      },
+      {
+       "word": "audience",
+       "fa": "مخاطبان"
+      },
+      {
+       "word": "reject",
+       "fa": "رد کردن"
+      },
+      {
+       "word": "regulate",
+       "fa": "قانون‌گذاری کردن"
+      },
+      {
+       "word": "wisely",
+       "fa": "عاقلانه"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u9_2",
+     "title": "Arguing with a teenager",
+     "titleFa": "بحث با یک نوجوان",
+     "lead": "ryan",
+     "place": "conference",
+     "grammar": "Staying calm and reasoned under pressure",
+     "grammarFa": "حفظ آرامش و منطق تحت فشار",
+     "sceneIds": [
+      "l5_u9_2"
+     ],
+     "words": [
+      {
+       "word": "content creator",
+       "fa": "تولیدکنندهٔ محتوا"
+      },
+      {
+       "word": "loads of",
+       "fa": "کلی"
+      },
+      {
+       "word": "waste",
+       "fa": "هدر دادن"
+      },
+      {
+       "word": "followers",
+       "fa": "دنبال‌کنندگان"
+      },
+      {
+       "word": "debt",
+       "fa": "بدهی"
+      },
+      {
+       "word": "impressive",
+       "fa": "چشمگیر"
+      },
+      {
+       "word": "student loans",
+       "fa": "وام دانشجویی"
+      },
+      {
+       "word": "whatever",
+       "fa": "هر چی (بی‌اعتنایی)"
+      },
+      {
+       "word": "lecture",
+       "fa": "موعظه کردن"
+      },
+      {
+       "word": "genuinely",
+       "fa": "واقعاً"
+      },
+      {
+       "word": "choose",
+       "fa": "انتخاب کردن"
+      },
+      {
+       "word": "degree",
+       "fa": "مدرک"
+      },
+      {
+       "word": "channel",
+       "fa": "کانال"
+      },
+      {
+       "word": "profile",
+       "fa": "اعتبار/وجهه"
+      },
+      {
+       "word": "graduates",
+       "fa": "فارغ‌التحصیلان"
+      },
+      {
+       "word": "win-win",
+       "fa": "برد-برد"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u9_3",
+     "title": "Playing devil's advocate",
+     "titleFa": "وکیل مدافع شیطان",
+     "lead": "callum",
+     "place": "coffee",
+     "grammar": "Hypothetical arguments: Suppose… / Let's say… / Devil's advocate",
+     "grammarFa": "استدلال فرضی",
+     "sceneIds": [
+      "l5_u9_3"
+     ],
+     "words": [
+      {
+       "word": "devil's advocate",
+       "fa": "وکیل مدافع شیطان (طرفداری عمدی از دیدگاه مقابل)"
+      },
+      {
+       "word": "suppose",
+       "fa": "فرض کن"
+      },
+      {
+       "word": "banned",
+       "fa": "ممنوع کرد"
+      },
+      {
+       "word": "in principle",
+       "fa": "در اصل"
+      },
+      {
+       "word": "entirely",
+       "fa": "کاملاً"
+      },
+      {
+       "word": "disabled",
+       "fa": "معلول"
+      },
+      {
+       "word": "tradesman",
+       "fa": "کارگر فنی"
+      },
+      {
+       "word": "exemptions",
+       "fa": "معافیت‌ها"
+      },
+      {
+       "word": "deliveries",
+       "fa": "تحویل‌ها"
+      },
+      {
+       "word": "partial",
+       "fa": "جزئی"
+      },
+      {
+       "word": "retail parks",
+       "fa": "مراکز خرید بیرون شهر"
+      },
+      {
+       "word": "high street",
+       "fa": "خیابان اصلی"
+      },
+      {
+       "word": "evidence",
+       "fa": "شواهد"
+      },
+      {
+       "word": "footfall",
+       "fa": "تعداد رهگذران"
+      },
+      {
+       "word": "pedestrian",
+       "fa": "پیاده"
+      },
+      {
+       "word": "for the record",
+       "fa": "برای ثبت"
+      },
+      {
+       "word": "hold your ground",
+       "fa": "سر حرف خود ماندن"
+      },
+      {
+       "word": "had me going",
+       "fa": "داشتی گولم می‌زدی"
+      },
+      {
+       "word": "sharpens",
+       "fa": "تیز می‌کند"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u9_4",
+     "title": "Agreeing to disagree",
+     "titleFa": "توافق بر عدم توافق",
+     "lead": "dave",
+     "place": "pub",
+     "grammar": "Ending a disagreement gracefully",
+     "grammarFa": "پایان دادن مؤدبانه به اختلاف",
+     "sceneIds": [
+      "l5_u9_4"
+     ],
+     "words": [
+      {
+       "word": "pints",
+       "fa": "لیوان‌های آبجو"
+      },
+      {
+       "word": "fight me",
+       "fa": "بیا بحث کن (شوخی)"
+      },
+      {
+       "word": "suspect",
+       "fa": "حدس زدن"
+      },
+      {
+       "word": "view",
+       "fa": "دیدگاه"
+      },
+      {
+       "word": "take",
+       "fa": "نظر"
+      },
+      {
+       "word": "immigrant",
+       "fa": "مهاجر"
+      },
+      {
+       "word": "welcome",
+       "fa": "خوش‌آمد"
+      },
+      {
+       "word": "concerns",
+       "fa": "نگرانی‌ها"
+      },
+      {
+       "word": "harm",
+       "fa": "ضرر"
+      },
+      {
+       "word": "ignored",
+       "fa": "نادیده گرفته"
+      },
+      {
+       "word": "left behind",
+       "fa": "جامانده"
+      },
+      {
+       "word": "heard",
+       "fa": "شنیده شدن"
+      },
+      {
+       "word": "agree to disagree",
+       "fa": "توافق بر عدم توافق"
+      },
+      {
+       "word": "round",
+       "fa": "دور نوشیدنی"
+      },
+      {
+       "word": "fall out",
+       "fa": "قهر کردن"
+      }
+     ],
+     "turns": 9
+    }
+   ]
+  },
+  {
+   "level": 5,
+   "id": "U50",
+   "title": "Home",
+   "titleFa": "خانه",
+   "place": "christmas",
+   "canDo": "Reflect on your journey, belonging and the future — fluently and naturally",
+   "canDoFa": "دربارهٔ مسیر، تعلق و آینده‌ات روان و طبیعی صحبت کنی",
+   "lessons": [
+    {
+     "id": "l5_u10_1",
+     "title": "The citizenship ceremony",
+     "titleFa": "مراسم شهروندی",
+     "lead": "bennett",
+     "place": "library",
+     "grammar": "Formal ceremonial language and personal reflection",
+     "grammarFa": "زبان تشریفاتی و تأمل شخصی",
+     "sceneIds": [
+      "l5_u10_1"
+     ],
+     "words": [
+      {
+       "word": "wouldn't have missed it for the world",
+       "fa": "به هیچ قیمتی از دست نمی‌دادم"
+      },
+      {
+       "word": "citizenship ceremony",
+       "fa": "مراسم شهروندی"
+      },
+      {
+       "word": "emotional",
+       "fa": "احساساتی"
+      },
+      {
+       "word": "terrified",
+       "fa": "وحشت‌زده"
+      },
+      {
+       "word": "rehearsed",
+       "fa": "تمرین کرده بود"
+      },
+      {
+       "word": "the Tudors",
+       "fa": "خاندان تودور"
+      },
+      {
+       "word": "finest",
+       "fa": "بهترین"
+      },
+      {
+       "word": "co-authoring",
+       "fa": "هم‌نویسی"
+      },
+      {
+       "word": "mentoring",
+       "fa": "راهنمایی کردن"
+      },
+      {
+       "word": "worth it",
+       "fa": "ارزشش را داشت"
+      },
+      {
+       "word": "pledge",
+       "fa": "سوگند/تعهد"
+      },
+      {
+       "word": "loyalty",
+       "fa": "وفاداری"
+      },
+      {
+       "word": "rights and freedoms",
+       "fa": "حقوق و آزادی‌ها"
+      },
+      {
+       "word": "officially",
+       "fa": "رسماً"
+      },
+      {
+       "word": "outsider",
+       "fa": "غریبه"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u10_2",
+     "title": "Ryan's goodbye",
+     "titleFa": "خداحافظی رایان",
+     "lead": "ryan",
+     "place": "bedroom",
+     "grammar": "Expressing deep feelings casually",
+     "grammarFa": "ابراز احساسات عمیق به زبان خودمانی",
+     "sceneIds": [
+      "l5_u10_2"
+     ],
+     "words": [
+      {
+       "word": "uni",
+       "fa": "دانشگاه"
+      },
+      {
+       "word": "filming",
+       "fa": "فیلم گرفتن"
+      },
+      {
+       "word": "proud",
+       "fa": "مفتخر"
+      },
+      {
+       "word": "rubbish at",
+       "fa": "افتضاح در"
+      },
+      {
+       "word": "loads",
+       "fa": "خیلی"
+      },
+      {
+       "word": "throwing away",
+       "fa": "هدر دادن"
+      },
+      {
+       "word": "nagged",
+       "fa": "غر زد"
+      },
+      {
+       "word": "big brother",
+       "fa": "برادر بزرگ"
+      },
+      {
+       "word": "get my jokes",
+       "fa": "شوخی‌هایم را می‌فهمد"
+      },
+      {
+       "word": "annoying",
+       "fa": "رو اعصاب"
+      },
+      {
+       "word": "swap",
+       "fa": "عوض کردن"
+      },
+      {
+       "word": "harsh",
+       "fa": "بی‌رحمانه"
+      },
+      {
+       "word": "visit",
+       "fa": "دیدن آمدن"
+      },
+      {
+       "word": "embarrass",
+       "fa": "خجالت‌زده کردن"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u10_3",
+     "title": "William's blessing",
+     "titleFa": "دعای خیر ویلیام",
+     "lead": "william",
+     "place": "living",
+     "grammar": "Responding to praise and blessings gracefully",
+     "grammarFa": "پاسخ مؤدبانه به تعریف و دعا",
+     "sceneIds": [
+      "l5_u10_3"
+     ],
+     "words": [
+      {
+       "word": "practising",
+       "fa": "تمرین کردن"
+      },
+      {
+       "word": "touched",
+       "fa": "تحت تأثیر"
+      },
+      {
+       "word": "luggage tag",
+       "fa": "برچسب چمدان"
+      },
+      {
+       "word": "treasured possession",
+       "fa": "دارایی ارزشمند"
+      },
+      {
+       "word": "one of us",
+       "fa": "یکی از ما"
+      },
+      {
+       "word": "treasure",
+       "fa": "گرامی داشتن"
+      },
+      {
+       "word": "forever",
+       "fa": "تا ابد"
+      },
+      {
+       "word": "at home",
+       "fa": "در خانه"
+      },
+      {
+       "word": "welcome home",
+       "fa": "به خانه خوش آمدی"
+      },
+      {
+       "word": "certificate",
+       "fa": "گواهی"
+      }
+     ],
+     "turns": 9
+    },
+    {
+     "id": "l5_u10_4",
+     "title": "Christmas toast",
+     "titleFa": "سلامتی کریسمس",
+     "lead": "tom",
+     "place": "christmas",
+     "grammar": "Giving a heartfelt toast with humour",
+     "grammarFa": "سلامتی صمیمانه با طنز",
+     "sceneIds": [
+      "l5_u10_4"
+     ],
+     "words": [
+      {
+       "word": "glasses up",
+       "fa": "لیوان‌ها بالا"
+      },
+      {
+       "word": "crackers",
+       "fa": "کراکر کریسمس"
+      },
+      {
+       "word": "toast",
+       "fa": "سلامتی"
+      },
+      {
+       "word": "the floor's yours",
+       "fa": "نوبت حرف زدن توست"
+      },
+      {
+       "word": "eyeing",
+       "fa": "چشم دوختن"
+      },
+      {
+       "word": "took me in",
+       "fa": "پذیرفتن"
+      },
+      {
+       "word": "stranger",
+       "fa": "غریبه"
+      },
+      {
+       "word": "along the way",
+       "fa": "در طول مسیر"
+      },
+      {
+       "word": "solves",
+       "fa": "حل می‌کند"
+      },
+      {
+       "word": "raising your glass to",
+       "fa": "به سلامتی … نوشیدن"
+      },
+      {
+       "word": "arrived",
+       "fa": "رسید"
+      },
+      {
+       "word": "found a home",
+       "fa": "خانه‌ای پیدا کرد"
+      }
+     ],
+     "turns": 7
+    }
+   ]
   }
  ]
 }

@@ -251,9 +251,9 @@
     {
      "keywords": [
       "lunchboxes",
-      "crisps",
       "nicola",
-      "wants",
+      "crisps",
+      "right",
       "apple"
      ],
      "suggestion": "Right, lunchboxes. Nicola wants crisps, I say an apple. Back me up?",
@@ -325,9 +325,9 @@
      "keywords": [
       "weather",
       "someone",
-      "about",
+      "coats",
       "check",
-      "coats"
+      "about"
      ],
      "suggestion": "Deal. Oh, and can someone check the weather? I need to know about coats.",
      "suggestionFa": "قبول. آهان، کسی آب‌وهوا را چک می‌کنه؟ باید بدونم کاپشن لازمه.",
@@ -404,10 +404,10 @@
    "branches": [
     {
      "keywords": [
-      "everyone",
       "nicola's",
-      "shoes",
+      "everyone",
       "could",
+      "shoes",
       "eight"
      ],
      "suggestion": "Ten past eight! Shoes on, everyone. Could you grab Nicola's book bag from the hall?",

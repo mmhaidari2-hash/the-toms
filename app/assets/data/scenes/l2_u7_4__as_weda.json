@@ -22,10 +22,10 @@
     {
      "keywords": [
       "asleep",
-      "about",
       "night",
       "power",
-      "were"
+      "about",
+      "last"
      ],
      "suggestion": "Did you hear about the power cut last night? Were you asleep?",
      "suggestionFa": "دربارهٔ قطعی برق دیشب شنیدی؟ خواب بودی؟",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "candles",
-      "william",
       "looking",
+      "william",
+      "candles",
       "scared",
-      "worse"
+      "torch"
      ],
      "suggestion": "Not scared — I've had worse! I found the candles while William was looking for the torch.",
      "suggestionFa": "نه ترسیده — بدترش را دیدم! وقتی ویلیام دنبال چراغ‌قوه می‌گشت من شمع‌ها را پیدا کردم.",
@@ -124,8 +124,8 @@
       "electric",
       "kettle's",
       "william",
-      "lights",
-      "asleep"
+      "asleep",
+      "lights"
      ],
      "suggestion": "The kettle's electric, love! When the lights came back on, William was fast asleep in his chair.",
      "suggestionFa": "کتری برقیه عزیزم! وقتی برق‌ها اومد، ویلیام تو صندلیش خواب عمیق بود.",
