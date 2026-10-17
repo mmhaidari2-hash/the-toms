@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "phone",
-      "tom's"
+      "tom's",
+      "phone"
      ],
      "suggestion": "It's Tom's phone.",
      "suggestionFa": "گوشی تامه.",
@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "yours",
       "think",
+      "yours",
       "ryan"
      ],
      "suggestion": "I think it's yours, Ryan!",
@@ -268,9 +268,9 @@
     },
     {
      "keywords": [
+      "going",
       "mum's",
-      "happy",
-      "going"
+      "happy"
      ],
      "suggestion": "Your mum's going to be very happy!",
      "suggestionFa": "مامانت خیلی خوشحال می‌شه!",

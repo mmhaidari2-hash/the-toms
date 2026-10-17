@@ -50,7 +50,7 @@
       "electoral",
       "elections",
       "register",
-      "abroad"
+      "voters"
      ],
      "suggestion": "The electoral register — the list of voters. Some residents from abroad can vote in local elections. Let's ask Ms Ward.",
      "suggestionFa": "فهرست رأی‌دهندگان. بعضی ساکنان خارجی می‌تونن تو انتخابات محلی رأی بدن. بیا از خانم وارد بپرسیم.",
@@ -311,11 +311,11 @@
    "branches": [
     {
      "keywords": [
-      "polling",
       "station",
+      "polling",
       "george",
       "you'll",
-      "every"
+      "since"
      ],
      "suggestion": "One day, dear, you'll vote. George will take you to the polling station in his best tie. He's voted every time since 1968!",
      "suggestionFa": "یه روز، عزیزم، رأی میدی. جورج با بهترین کراواتش می‌بردت حوزهٔ رأی‌گیری. از ۱۹۶۸ هر بار رأی داده!",
@@ -336,8 +336,8 @@
    "branches": [
     {
      "keywords": [
-      "thrilled",
       "together",
+      "thrilled",
       "slowly",
       "aren't",
       "let's"

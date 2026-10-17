@@ -34,8 +34,8 @@
      "keywords": [
       "leave",
       "rooms",
-      "time",
-      "have"
+      "have",
+      "time"
      ],
      "suggestion": "What time do we have to leave the rooms?",
      "suggestionFa": "ساعت چند باید اتاق‌ها را خالی کنیم؟",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "nights",
-      "three",
       "quick",
+      "three",
       "was"
      ],
      "suggestion": "Three nights. That was quick!",
@@ -116,9 +116,9 @@
     {
      "keywords": [
       "minibar",
-      "charge",
       "please",
-      "could"
+      "charge",
+      "check"
      ],
      "suggestion": "Could you check the minibar charge, please?",
      "suggestionFa": "میشه هزینهٔ مینی‌بار را چک کنید لطفاً؟",
@@ -181,9 +181,9 @@
     {
      "keywords": [
       "minute",
-      "here",
       "come",
-      "ryan"
+      "ryan",
+      "here"
      ],
      "suggestion": "Ryan, come here a minute.",
      "suggestionFa": "رایان، یه لحظه بیا اینجا.",
@@ -193,10 +193,10 @@
     },
     {
      "keywords": [
-      "i'll",
       "call",
+      "i'll",
       "he's",
-      "him"
+      "tom"
      ],
      "suggestion": "He's in the car with Tom. I'll call him.",
      "suggestionFa": "با تام تو ماشینه. صداش می‌کنم.",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "minibar",
       "nothing",
+      "minibar",
       "free",
       "ryan"
      ],
@@ -281,9 +281,9 @@
     {
      "keywords": [
       "carry",
+      "help",
       "desk",
-      "bags",
-      "help"
+      "bags"
      ],
      "suggestion": "Can I help carry the bags to the desk?",
      "suggestionFa": "میشه کمک کنم کیف‌ها را ببرم پشت میز؟",
@@ -295,8 +295,8 @@
      "keywords": [
       "cream",
       "pier",
-      "ice",
-      "get"
+      "get",
+      "ice"
      ],
      "suggestion": "The pier! Can we get ice cream?",
      "suggestionFa": "اسکله! میشه بستنی بخوریم؟",
@@ -382,8 +382,8 @@
      "keywords": [
       "tonight",
       "review",
-      "let's",
-      "write"
+      "write",
+      "let's"
      ],
      "suggestion": "Yes, let's write a review tonight.",
      "suggestionFa": "آره، بیا امشب یه نظر بنویسیم.",

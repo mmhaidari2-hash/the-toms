@@ -75,7 +75,7 @@
       "month",
       "only",
       "much",
-      "sim"
+      "per"
      ],
      "suggestion": "How much is SIM-only per month?",
      "suggestionFa": "فقط سیم‌کارت ماهی چنده؟",
@@ -131,8 +131,8 @@
      "keywords": [
       "family",
       "video",
-      "call",
-      "iran"
+      "iran",
+      "call"
      ],
      "suggestion": "A lot. I video call my family in Iran.",
      "suggestionFa": "زیاد. با خانواده‌ام تو ایران تماس تصویری می‌گیرم.",
@@ -260,8 +260,8 @@
      "keywords": [
       "include",
       "pounds",
-      "five",
-      "iran"
+      "iran",
+      "five"
      ],
      "suggestion": "Five pounds is OK. Does it include Iran?",
      "suggestionFa": "پنج پوند خوبه. ایران را هم شامل میشه؟",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "fifteen",
-      "pounds",
       "rather",
+      "pounds",
       "i'd"
      ],
      "suggestion": "Fifteen pounds. I'd rather pay monthly.",
@@ -353,10 +353,10 @@
    "branches": [
     {
      "keywords": [
-      "rolling",
       "freedom",
-      "then",
-      "like"
+      "rolling",
+      "like",
+      "then"
      ],
      "suggestion": "Rolling, then. I like freedom!",
      "suggestionFa": "پس ماه‌به‌ماه. آزادی را دوست دارم!",

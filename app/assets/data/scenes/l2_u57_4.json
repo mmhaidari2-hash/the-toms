@@ -1,0 +1,339 @@
+{
+ "id": "l2_u57_4",
+ "characterId": "tom",
+ "title": "Tipping",
+ "titleFa": "انعام دادن",
+ "setting": "Going out · Level 2",
+ "settingFa": "بیرون رفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Lovely meal, that. I'm stuffed. Right — the bill. Sophie's coming. How much do we tip? I never know.",
+   "translations": {
+    "fa": "غذای خوبی بود. ترکیدم. خب — صورت‌حساب. سوفی داره میاد. چقدر انعام بدیم؟ من هیچ‌وقت نمی‌دونم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "included",
+      "service",
+      "check",
+      "first"
+     ],
+     "suggestion": "First, let's check if service is included.",
+     "suggestionFa": "اول ببینیم سرویس شامله یا نه.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "usually",
+      "people",
+      "here",
+      "much"
+     ],
+     "suggestion": "How much do people usually tip here?",
+     "suggestionFa": "اینجا معمولاً مردم چقدر انعام میدن؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stuffed",
+     "fa": "خیلی سیر"
+    },
+    {
+     "word": "the bill",
+     "fa": "صورت‌حساب"
+    },
+    {
+     "word": "tip",
+     "fa": "انعام دادن"
+    },
+    {
+     "word": "included",
+     "fa": "شامل"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Good thinking. It says \"Service not included\". So we add something. Usually ten to fifteen percent in a restaurant.",
+   "translations": {
+    "fa": "فکر خوبیه. نوشته «سرویس شامل نیست». پس یه چیزی اضافه می‌کنیم. معمولاً ده تا پونزده درصد تو رستوران."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "fifty",
+      "about",
+      "bill"
+     ],
+     "suggestion": "The bill is fifty-two pounds. So about six pounds?",
+     "suggestionFa": "صورت‌حساب پنجاه و دو پونده. پس حدود شش پوند؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "same",
+      "pubs",
+      "caf",
+      "s"
+     ],
+     "suggestion": "Is it the same in cafés and pubs?",
+     "suggestionFa": "تو کافه و پاب هم همینه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "service",
+     "fa": "سرویس ؛ خدمات"
+    },
+    {
+     "word": "percent",
+     "fa": "درصد"
+    },
+    {
+     "word": "add",
+     "fa": "اضافه کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK restaurants, 10–12.5% is a normal tip if service isn't included. In pubs and cafés where you order at the bar, tipping isn't expected.",
+    "fa": "در رستوران ۱۰ تا ۱۲.۵ درصد معمول است؛ در پاب و کافه‌ای که سر پیشخوان سفارش می‌دهید انعام لازم نیست."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Spot on. And in pubs you don't tip at the bar. Some people say \"and one for yourself\", but that's old-school.",
+   "translations": {
+    "fa": "دقیقاً. و تو پاب سر پیشخون انعام نمیدی. بعضی‌ها میگن «یکی هم برای خودت»، ولی اون قدیمیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yourself",
+      "mean",
+      "one"
+     ],
+     "suggestion": "\"One for yourself\"? What does that mean?",
+     "suggestionFa": "«یکی هم برای خودت»؟ یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pounds",
+      "sophie",
+      "six",
+      "ok"
+     ],
+     "suggestion": "OK. So, six pounds for Sophie?",
+     "suggestionFa": "باشه. پس شش پوند برای سوفی؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "spot on",
+     "fa": "دقیقاً"
+    },
+    {
+     "word": "bar",
+     "fa": "پیشخوان ؛ بار"
+    },
+    {
+     "word": "old-school",
+     "fa": "قدیمی ؛ سنتی"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "It means \"buy yourself a drink\". Six pounds is fine, but Sophie was brilliant. Let's make it ten. She's saving for drama school.",
+   "translations": {
+    "fa": "یعنی «برای خودت یه نوشیدنی بخر». شش پوند خوبه، ولی سوفی فوق‌العاده بود. بیا ده بدیم. داره برای مدرسهٔ بازیگری پس‌انداز می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pounds",
+      "shall",
+      "card",
+      "ten"
+     ],
+     "suggestion": "Ten pounds. Shall we pay by card?",
+     "suggestionFa": "ده پوند. با کارت بپردازیم؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leave",
+      "let's",
+      "then",
+      "goes"
+     ],
+     "suggestion": "Let's leave it in cash. Then it goes to her.",
+     "suggestionFa": "بیا نقد بذاریم. اون‌وقت به خودش می‌رسه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "saving",
+     "fa": "پس‌انداز کردن"
+    },
+    {
+     "word": "drama school",
+     "fa": "مدرسهٔ بازیگری"
+    },
+    {
+     "word": "cash",
+     "fa": "نقد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "we leave a tip in cash",
+      "leave tip with cash"
+     ],
+     "echo": "Leave the tip in cash? Good idea!",
+     "better": "Let's leave the tip in cash.",
+     "betterFa": "بیا انعام را نقد بگذاریم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "Here's the card machine. Oh, and — wait. Is that a tenner on the table? You don't have to!",
+   "translations": {
+    "fa": "اینم دستگاه کارت. اوه، و — صبر کنید. اون یه ده پوندی رو میزه؟ لازم نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "sophie",
+      "thank"
+     ],
+     "suggestion": "It's for you, Sophie. Thank you for everything.",
+     "suggestionFa": "برای توئه سوفی. ممنون بابت همه‌چی.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "brilliant",
+      "change",
+      "please",
+      "were"
+     ],
+     "suggestion": "Please, keep the change. You were brilliant.",
+     "suggestionFa": "لطفاً، باقی‌اش مال خودت. فوق‌العاده بودی.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card machine",
+     "fa": "دستگاه کارت‌خوان"
+    },
+    {
+     "word": "tenner",
+     "fa": "اسکناس ده پوندی"
+    },
+    {
+     "word": "keep the change",
+     "fa": "باقی‌اش مال خودت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sophie",
+   "text": "You're so kind. That's my train fare to my audition next week! Come back soon — I'll save you the window table.",
+   "translations": {
+    "fa": "خیلی مهربونید. این کرایهٔ قطارم برای تست بازیگری هفتهٔ بعده! زود برگردید — میز کنار پنجره را براتون نگه می‌دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "audition",
+      "luck",
+      "good"
+     ],
+     "suggestion": "Good luck with the audition!",
+     "suggestionFa": "تو تست بازیگری موفق باشی!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "we'll",
+      "month",
+      "back",
+      "next"
+     ],
+     "suggestion": "We'll be back next month.",
+     "suggestionFa": "ماه بعد برمی‌گردیم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "train fare",
+     "fa": "کرایهٔ قطار"
+    },
+    {
+     "word": "audition",
+     "fa": "تست بازیگری"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Ten pounds, a train fare and a window table. Best investment I've made all year. Come on — let's walk it off.",
+   "translations": {
+    "fa": "ده پوند، یه کرایهٔ قطار و یه میز کنار پنجره. بهترین سرمایه‌گذاری امسالم. بیا — بریم یه کم پیاده‌روی کنیم تا غذا هضم بشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

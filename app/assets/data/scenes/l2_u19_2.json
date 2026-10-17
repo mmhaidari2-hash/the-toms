@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "colourful",
       "confusing",
+      "colourful",
       "but"
      ],
      "suggestion": "It's very colourful! But it's confusing.",
@@ -31,10 +31,10 @@
     },
     {
      "keywords": [
-      "first",
       "which",
-      "line",
-      "take"
+      "first",
+      "take",
+      "line"
      ],
      "suggestion": "Which line do we take first?",
      "suggestionFa": "اول کدوم خط را سوار شیم؟",
@@ -125,10 +125,10 @@
    "branches": [
     {
      "keywords": [
-      "changes",
       "quicker",
+      "changes",
       "there",
-      "way"
+      "two"
      ],
      "suggestion": "Two changes? Is there a quicker way?",
      "suggestionFa": "دو بار عوض کنیم؟ راه سریع‌تری نیست؟",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "remember",
-      "how",
-      "all"
+      "all",
+      "how"
      ],
      "suggestion": "How do you remember all this?",
      "suggestionFa": "چطوری همهٔ اینا یادت می‌مونه؟",
@@ -290,8 +290,8 @@
      "keywords": [
       "alone",
       "next",
-      "time",
-      "easy"
+      "easy",
+      "time"
      ],
      "suggestion": "That was easy. I can do it alone next time.",
      "suggestionFa": "آسون بود. دفعهٔ بعد تنهایی می‌تونم.",

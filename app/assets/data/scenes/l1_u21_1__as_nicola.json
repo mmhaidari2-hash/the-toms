@@ -23,9 +23,9 @@
      "keywords": [
       "learning",
       "tuesday",
-      "monday",
       "what's",
-      "next"
+      "monday",
+      "days"
      ],
      "suggestion": "I'm learning the days of the week! Monday, Tuesday… um… what's next?",
      "suggestionFa": "دارم روزهای هفته را یاد می‌گیرم! دوشنبه، سه‌شنبه… اِم… بعدی چیه؟",
@@ -50,7 +50,7 @@
       "funny",
       "there",
       "word",
-      "why"
+      "day"
      ],
      "suggestion": "Wednesday is a funny word. Wed-nes-day. Why is there a \"d\"?",
      "suggestionFa": "چهارشنبه کلمهٔ بامزه‌ایه. Wed-nes-day. چرا یه «d» داره؟",
@@ -74,8 +74,8 @@
       "thursday",
       "saturday",
       "weekend",
-      "friday",
-      "sunday"
+      "sunday",
+      "friday"
      ],
      "suggestion": "Thursday, Friday, Saturday, Sunday! Saturday and Sunday are the weekend. I love the weekend!",
      "suggestionFa": "پنجشنبه، جمعه، شنبه، یکشنبه! شنبه و یکشنبه آخر هفته‌ان. عاشق آخر هفته‌ام!",
@@ -98,8 +98,8 @@
      "keywords": [
       "strange",
       "fridays",
-      "friday",
-      "that's"
+      "that's",
+      "friday"
      ],
      "suggestion": "Friday? That's strange! What do you do on Fridays?",
      "suggestionFa": "جمعه؟ عجیبه! جمعه‌ها چی کار می‌کنید؟",
@@ -120,8 +120,8 @@
    "branches": [
     {
      "keywords": [
-      "saturdays",
       "mountains",
+      "saturdays",
       "english",
       "ballet",
       "class"
@@ -167,8 +167,8 @@
    "branches": [
     {
      "keywords": [
-      "thursday",
       "tomorrow",
+      "thursday",
       "fridays",
       "friday",
       "chips"
@@ -192,10 +192,10 @@
    "branches": [
     {
      "keywords": [
-      "friday",
       "chippy",
-      "daddy",
+      "friday",
       "every",
+      "daddy",
       "from"
      ],
      "suggestion": "Yes! Every Friday from the chippy. Daddy says it's the law!",
@@ -221,7 +221,7 @@
       "thursday",
       "saturday",
       "tuesday",
-      "friday"
+      "sunday"
      ],
      "suggestion": "Yes, come on Friday! Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday! I did it!",
      "suggestionFa": "آره، جمعه بیا! دوشنبه، سه‌شنبه، چهارشنبه، پنجشنبه، جمعه، شنبه، یکشنبه! تونستم!",

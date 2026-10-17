@@ -23,8 +23,8 @@
      "keywords": [
       "astronaut",
       "wants",
-      "when",
       "want",
+      "when",
       "grow"
      ],
      "suggestion": "When I grow up, I want to be a vet! Mia wants to be an astronaut!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "because",
       "animals",
+      "because",
       "poorly",
-      "help",
-      "cats"
+      "want",
+      "love"
      ],
      "suggestion": "Because I love animals. I want to help poorly dogs and cats.",
      "suggestionFa": "چون عاشق حیوون‌هام. می‌خوام به سگ و گربه‌های مریض کمک کنم.",
@@ -128,10 +128,10 @@
    "branches": [
     {
      "keywords": [
-      "pilot",
       "plane",
-      "fly",
-      "can"
+      "pilot",
+      "can",
+      "fly"
      ],
      "suggestion": "A pilot! Can you fly a plane?",
      "suggestionFa": "خلبان! می‌تونی هواپیما برونی؟",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "computers",
-      "fixes",
       "wants",
+      "fixes",
       "ryan",
       "he"
      ],

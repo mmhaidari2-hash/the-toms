@@ -72,8 +72,8 @@
     {
      "keywords": [
       "where's",
-      "excuse",
       "cheese",
+      "excuse",
       "stall"
      ],
      "suggestion": "Yes. Excuse me, where's the cheese stall?",
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "near",
-      "way",
-      "caf"
+      "caf",
+      "way"
      ],
      "suggestion": "Is it this way, near the café?",
      "suggestionFa": "از این طرفه، نزدیک کافه؟",
@@ -137,8 +137,8 @@
      "keywords": [
       "umbrella",
       "towards",
-      "green",
-      "canal"
+      "canal",
+      "green"
      ],
      "suggestion": "Towards the canal, then the green umbrella.",
      "suggestionFa": "سمت کانال، بعد چتر سبز.",
@@ -251,8 +251,8 @@
    "branches": [
     {
      "keywords": [
-      "gone",
       "i've",
+      "gone",
       "see",
       "far"
      ],
@@ -316,8 +316,8 @@
      "keywords": [
       "discount",
       "believe",
-      "i'll",
-      "when"
+      "when",
+      "i'll"
      ],
      "suggestion": "A discount from Ryan? I'll believe it when I see it!",
      "suggestionFa": "تخفیف از رایان؟ تا نبینم باور نمی‌کنم!",

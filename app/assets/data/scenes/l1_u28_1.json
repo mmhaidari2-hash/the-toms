@@ -20,8 +20,8 @@
     {
      "keywords": [
       "calling",
-      "who's",
-      "hello"
+      "hello",
+      "who's"
      ],
      "suggestion": "Hello, who's calling?",
      "suggestionFa": "الو، کی زنگ می‌زنه؟",
@@ -179,8 +179,8 @@
     {
      "keywords": [
       "message",
-      "course",
-      "what's"
+      "what's",
+      "course"
      ],
      "suggestion": "Of course. What's the message?",
      "suggestionFa": "البته. پیغام چیه؟",
@@ -190,9 +190,9 @@
     },
     {
      "keywords": [
-      "let",
+      "pen",
       "get",
-      "pen"
+      "let"
      ],
      "suggestion": "Yes. Let me get a pen.",
      "suggestionFa": "آره. بذار یه خودکار بیارم.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "i'll",
-      "tom",
-      "ask"
+      "ask",
+      "tom"
      ],
      "suggestion": "I'll ask Tom.",
      "suggestionFa": "از تام می‌پرسم.",
@@ -274,8 +274,8 @@
     },
     {
      "keywords": [
-      "writing",
       "instead",
+      "writing",
       "friday",
       "down"
      ],
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "after",
-      "back",
       "call",
-      "six"
+      "back",
+      "got"
      ],
      "suggestion": "Call you back after six. Got it.",
      "suggestionFa": "بعد از شش بهتون زنگ بزنه. فهمیدم.",
@@ -366,8 +366,8 @@
     {
      "keywords": [
       "maggie",
-      "care",
-      "take"
+      "take",
+      "care"
      ],
      "suggestion": "Bye, Maggie! Take care!",
      "suggestionFa": "خداحافظ مگی! مراقب خودتون باشید!",

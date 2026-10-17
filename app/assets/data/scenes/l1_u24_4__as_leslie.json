@@ -23,8 +23,8 @@
      "keywords": [
       "today",
       "look",
-      "down",
       "love",
+      "down",
       "bit"
      ],
      "suggestion": "You look a bit down today. Are you OK, love?",
@@ -49,7 +49,7 @@
       "homesick",
       "that's",
       "normal",
-      "home",
+      "long",
       "from"
      ],
      "suggestion": "Homesick. That's normal. You're a long way from home. What do you miss?",
@@ -75,7 +75,7 @@
       "course",
       "don't",
       "call",
-      "why"
+      "her"
      ],
      "suggestion": "Of course. Why don't you call her tonight?",
      "suggestionFa": "البته. چرا امشب بهش زنگ نمی‌زنی؟",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "persian",
+      "cooking",
       "lovely",
       "about",
       "teach"
@@ -145,10 +145,10 @@
     {
      "keywords": [
       "saturday",
-      "amazing",
       "persian",
+      "amazing",
       "sounds",
-      "let's"
+      "there"
      ],
      "suggestion": "It sounds amazing. Let's go to the Persian shop on Saturday. Is there one near here?",
      "suggestionFa": "خیلی عالی به نظر میاد. بیا شنبه بریم مغازهٔ ایرانی. اینجا نزدیک هست؟",
@@ -170,8 +170,8 @@
     {
      "keywords": [
       "perfect",
-      "let's",
       "helps",
+      "let's",
       "fresh",
       "walk"
      ],
@@ -194,11 +194,11 @@
    "branches": [
     {
      "keywords": [
-      "you've",
-      "course",
       "family",
-      "cheer",
-      "we'll"
+      "course",
+      "you've",
+      "we'll",
+      "cheer"
      ],
      "suggestion": "Of course! And we'll get a cake on the way back. Cheer up, love — you've got a family here too.",
      "suggestionFa": "البته! و تو راه برگشت یه کیک می‌گیریم. شاد باش عزیزم — اینجا هم خانواده داری.",

@@ -33,8 +33,8 @@
     {
      "keywords": [
       "return",
-      "need",
       "i've",
+      "need",
       "code"
      ],
      "suggestion": "I need to return this. I've got a QR code.",
@@ -74,8 +74,8 @@
     {
      "keywords": [
       "returns",
-      "says",
-      "free"
+      "free",
+      "says"
      ],
      "suggestion": "It says \"free returns\".",
      "suggestionFa": "نوشته «مرجوعی رایگان».",
@@ -193,8 +193,8 @@
      "keywords": [
       "thanks",
       "used",
-      "old",
-      "box"
+      "box",
+      "old"
      ],
      "suggestion": "Thanks. I used the old box.",
      "suggestionFa": "ممنون. از جعبهٔ قدیمی استفاده کردم.",
@@ -257,10 +257,10 @@
     },
     {
      "keywords": [
-      "until",
       "money",
-      "back",
-      "long"
+      "until",
+      "long",
+      "back"
      ],
      "suggestion": "How long until I get my money back?",
      "suggestionFa": "چقدر طول می‌کشه پولم برگرده؟",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "receipt",
+      "days",
       "i'll",
-      "keep",
-      "days"
+      "keep"
      ],
      "suggestion": "Ten days? I'll keep the receipt.",
      "suggestionFa": "ده روز؟ رسید را نگه می‌دارم.",
@@ -309,8 +309,8 @@
      "keywords": [
       "parcels",
       "shops",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. Shops can lose parcels!",
      "suggestionFa": "فکر خوبیه. فروشگاه‌ها ممکنه بسته گم کنن!",

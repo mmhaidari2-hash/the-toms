@@ -78,7 +78,7 @@
       "upside",
       "shirts",
       "right",
-      "down"
+      "pegs"
      ],
      "suggestion": "Two pegs. Shirts upside down or the right way up?",
      "suggestionFa": "دو تا گیره. پیرهن‌ها سروته یا صاف؟",
@@ -187,8 +187,8 @@
    "branches": [
     {
      "keywords": [
-      "half",
       "fold",
+      "half",
       "end",
       "ok"
      ],
@@ -257,10 +257,10 @@
     },
     {
      "keywords": [
-      "maybe",
       "let's",
-      "will",
-      "wait"
+      "maybe",
+      "wait",
+      "pass"
      ],
      "suggestion": "Maybe it will pass. Let's wait.",
      "suggestionFa": "شاید رد بشه. بیا صبر کنیم.",
@@ -315,8 +315,8 @@
      "keywords": [
       "already",
       "strong",
-      "wow",
-      "sun"
+      "sun",
+      "wow"
      ],
      "suggestion": "Wow. Already? The sun is strong.",
      "suggestionFa": "وای. به این زودی؟ آفتاب قویه.",
@@ -368,8 +368,8 @@
      "keywords": [
       "minutes",
       "that's",
-      "fast",
-      "five"
+      "five",
+      "fast"
      ],
      "suggestion": "Five minutes! That's very fast.",
      "suggestionFa": "پنج دقیقه! خیلی سریعه.",
@@ -381,8 +381,8 @@
      "keywords": [
       "taught",
       "iron",
-      "can",
-      "mum"
+      "mum",
+      "can"
      ],
      "suggestion": "I can iron. My mum taught me.",
      "suggestionFa": "من اتو بلدم. مامانم یادم داد.",
@@ -422,8 +422,8 @@
      "keywords": [
       "sheets",
       "i've",
-      "run",
-      "got"
+      "got",
+      "run"
      ],
      "suggestion": "I've got the sheets! Run!",
      "suggestionFa": "ملافه‌ها را گرفتم! بدو!",
@@ -434,9 +434,9 @@
     {
      "keywords": [
       "ryan's",
-      "there",
       "still",
-      "socks"
+      "socks",
+      "there"
      ],
      "suggestion": "The socks! Ryan's socks are still out there!",
      "suggestionFa": "جوراب‌ها! جوراب‌های رایان هنوز بیرونن!",

@@ -1,0 +1,200 @@
+{
+ "id": "l2_u59_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Watching the match",
+ "titleFa": "(در نقش Tom) تماشای مسابقه",
+ "setting": "Football fan · Level 2",
+ "settingFa": "طرفدار فوتبال",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u59_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lemonade",
+      "arsenal",
+      "lion's",
+      "london",
+      "packed"
+     ],
+     "suggestion": "North London derby! Arsenal versus Spurs. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
+     "suggestionFa": "دربی شمال لندن! آرسنال مقابل اسپرز. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Yes, please. What's the score?",
+   "translations": {
+    "fa": "آره، لطفاً. نتیجه چنده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seconds",
+      "texting",
+      "arsenal",
+      "minutes",
+      "that's"
+     ],
+     "suggestion": "Nil-nil. Twenty minutes gone. Arsenal in red — that's us. Spurs in white. Ryan's at his mate's, texting me every thirty seconds.",
+     "suggestionFa": "صفر صفر. بیست دقیقه گذشته. آرسنال قرمز — ما هستیم. اسپرز سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Nil-nil. So it's a draw at the moment?",
+   "translations": {
+    "fa": "صفر صفر. پس فعلاً مساویه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "three",
+      "blind",
+      "foul",
+      "just"
+     ],
+     "suggestion": "That's just how we say it. Two-nil, three-nil… Oh! OH! That was a foul! Ref! Are you blind?!",
+     "suggestionFa": "همین‌جوری میگیم دیگه. دو-صفر، سه-صفر… اوه! اوه! خطا بود! داور! کوری؟!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Was it a foul? He just fell over!",
+   "translations": {
+    "fa": "خطا بود؟ فقط افتاد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arsenal",
+      "saka's",
+      "taking",
+      "right",
+      "come"
+     ],
+     "suggestion": "Free kick to Arsenal! Right on the edge of the box. Saka's taking it. Come on, Saka… come on…",
+     "suggestionFa": "ضربهٔ آزاد برای آرسنال! درست لب محوطه. ساکا می‌زنه. یالا ساکا… یالا…",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Come on, Arsenal!",
+   "translations": {
+    "fa": "یالا آرسنال!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "jumping",
+      "spilled",
+      "corner",
+      "dave's",
+      "goaaal"
+     ],
+     "suggestion": "GOAAAL! Get IN! One-nil! Did you see that?! Top corner! The whole pub's jumping. Dave's spilled his pint!",
+     "suggestionFa": "گووول! آره! یک-صفر! دیدی؟! گوشهٔ بالا! کل پاب داره بالا پایین می‌پره. دیو لیوانش را ریخت!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "What a goal! Brilliant!",
+   "translations": {
+    "fa": "چه گلی! فوق‌العاده!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "celebration",
+      "exclamation",
+      "doesn't",
+      "orient",
+      "eight"
+     ],
+     "suggestion": "Dave? He's Orient, he doesn't care. He just likes a celebration. Oh — my phone. Ryan: \"GET IN!!!!\" Eight exclamation marks.",
+     "suggestionFa": "دیو؟ اون طرفدار اورینته، براش مهم نیست. فقط جشن دوست داره. اوه — گوشیم. رایان: «آره!!!!» هشت تا علامت تعجب.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ha! Tell him I said \"Get in\" too!",
+   "translations": {
+    "fa": "ها! بهش بگو منم گفتم آره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "afternoon",
+      "lemonade",
+      "another",
+      "seventy",
+      "minutes"
+     ],
+     "suggestion": "Seventy minutes! Too long. My heart can't take it. Another lemonade? This could be a long afternoon.",
+     "suggestionFa": "هفتاد دقیقه! خیلی زیاده. قلبم طاقت نداره. یه لیموناد دیگه؟ این می‌تونه یه بعدازظهر طولانی بشه.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

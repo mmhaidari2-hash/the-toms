@@ -33,8 +33,8 @@
     {
      "keywords": [
       "twenty",
-      "wait",
       "gave",
+      "wait",
       "ten"
      ],
      "suggestion": "Wait — I gave you a twenty, not a ten.",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "pound",
-      "note",
-      "gave"
+      "gave",
+      "note"
      ],
      "suggestion": "No, I gave you a twenty-pound note.",
      "suggestionFa": "نه، من یه اسکناس بیست پوندی دادم.",
@@ -364,7 +364,7 @@
      "keywords": [
       "coffee",
       "always",
-      "best",
+      "come",
       "back"
      ],
      "suggestion": "I'll always come back. Your coffee is the best.",
@@ -375,8 +375,8 @@
     },
     {
      "keywords": [
-      "count",
       "front",
+      "count",
       "next",
       "time"
      ],

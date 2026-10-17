@@ -1,0 +1,358 @@
+{
+ "id": "l2_u60_1",
+ "characterId": "callum",
+ "title": "Meeting a new friend",
+ "titleFa": "آشنایی با دوست جدید",
+ "setting": "Making friends · Level 2",
+ "settingFa": "دوست پیدا کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "Quiet morning, this. Usual flat white? You know, you come in every day and I don't even know what you do. So, what do you do?",
+   "translations": {
+    "fa": "صبح آرومیه. فلت وایت همیشگی؟ می‌دونی، هر روز میای و من حتی نمی‌دونم چی کار می‌کنی. خب، چی کار می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "engineering",
+      "engineer",
+      "looking",
+      "well"
+     ],
+     "suggestion": "I'm an engineer. Well, I'm looking for engineering work.",
+     "suggestionFa": "مهندسم. خب، دنبال کار مهندسی‌ام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "studying",
+      "english",
+      "doing",
+      "part"
+     ],
+     "suggestion": "I'm studying English and doing a part-time job.",
+     "suggestionFa": "دارم انگلیسی می‌خونم و یه کار پاره‌وقت دارم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quiet",
+     "fa": "آرام"
+    },
+    {
+     "word": "usual",
+     "fa": "همیشگی"
+    },
+    {
+     "word": "what do you do",
+     "fa": "شغلت چیست"
+    },
+    {
+     "word": "part-time",
+     "fa": "پاره‌وقت"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"What do you do?\" means \"What's your job?\". It's a very common first question when British people get to know someone.",
+    "fa": "«What do you do?» یعنی شغلت چیست؛ سؤال رایج آشنایی است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "what you do",
+      "what are you doing for job"
+     ],
+     "echo": "What do you do? Good question!",
+     "better": "So, what do you do?",
+     "betterFa": "خب، چه کار می‌کنی؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "Nice one. Good luck with it. How long have you been in London? You sound like you've been here years.",
+   "translations": {
+    "fa": "چه خوب. موفق باشی. چند وقته تو لندنی؟ طوری حرف می‌زنی انگار سال‌هاست اینجایی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "about",
+      "here",
+      "i've",
+      "year"
+     ],
+     "suggestion": "I've been here for about a year.",
+     "suggestionFa": "حدود یه ساله اینجام.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompsons",
+      "practise",
+      "long",
+      "lot"
+     ],
+     "suggestion": "Not long! But I practise a lot. With the Thompsons.",
+     "suggestionFa": "زیاد نه! ولی خیلی تمرین می‌کنم. با تامپسون‌ها.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "how long have you been",
+     "fa": "چند وقت است که هستی"
+    },
+    {
+     "word": "sound like",
+     "fa": "به نظر می‌رسد"
+    },
+    {
+     "word": "years",
+     "fa": "سال‌ها"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "The Thompsons! Tom's jokes are a whole English course on their own. I came down from Manchester five years ago. With a band.",
+   "translations": {
+    "fa": "تامپسون‌ها! جوک‌های تام خودش یه دورهٔ کامل انگلیسیه. من پنج سال پیش از منچستر اومدم. با یه گروه موسیقی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "play",
+      "band",
+      "did"
+     ],
+     "suggestion": "A band? What did you play?",
+     "suggestionFa": "گروه موسیقی؟ چی می‌زدی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "start",
+      "fresh",
+      "came",
+      "here"
+     ],
+     "suggestion": "Me too — I came here for a fresh start.",
+     "suggestionFa": "منم — برای یه شروع تازه اومدم اینجا.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "on their own",
+     "fa": "به‌تنهایی"
+    },
+    {
+     "word": "came down",
+     "fa": "آمدم (از شمال به جنوب)"
+    },
+    {
+     "word": "band",
+     "fa": "گروه موسیقی"
+    },
+    {
+     "word": "fresh start",
+     "fa": "شروع تازه"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Bass guitar. The band split up after six months. The others went home. I stayed — for London, and for the coffee.",
+   "translations": {
+    "fa": "گیتار باس. گروه بعد از شش ماه از هم پاشید. بقیه برگشتن. من موندم — به‌خاطر لندن، و به‌خاطر قهوه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "still",
+      "play"
+     ],
+     "suggestion": "Do you still play?",
+     "suggestionFa": "هنوز می‌زنی؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "that's",
+      "about",
+      "good",
+      "band"
+     ],
+     "suggestion": "That's sad about the band. But good for us!",
+     "suggestionFa": "حیف شد گروه. ولی برای ما خوب شد!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "bass guitar",
+     "fa": "گیتار باس"
+    },
+    {
+     "word": "split up",
+     "fa": "از هم پاشید"
+    },
+    {
+     "word": "stayed",
+     "fa": "ماندم"
+    },
+    {
+     "word": "still",
+     "fa": "هنوز"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "Every Thursday, open mic at the Chats Palace. Badly! What about you? What do you do for fun, when you're not working?",
+   "translations": {
+    "fa": "هر پنجشنبه، اوپن میک تو چتس پالاس. بد! تو چی؟ برای تفریح چی کار می‌کنی، وقتی کار نمی‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "instrument",
+      "persian",
+      "setar",
+      "play"
+     ],
+     "suggestion": "I play the setar. It's a Persian instrument.",
+     "suggestionFa": "سه‌تار می‌زنم. یه ساز ایرانیه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "victoria",
+      "walking",
+      "cooking",
+      "like"
+     ],
+     "suggestion": "I like walking in Victoria Park, and cooking.",
+     "suggestionFa": "پیاده‌روی تو ویکتوریا پارک و آشپزی را دوست دارم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "open mic",
+     "fa": "برنامهٔ اجرای آزاد"
+    },
+    {
+     "word": "badly",
+     "fa": "بد"
+    },
+    {
+     "word": "for fun",
+     "fa": "برای تفریح"
+    },
+    {
+     "word": "instrument",
+     "fa": "ساز"
+    }
+   ],
+   "cultureNote": {
+    "en": "To keep a conversation going, answer and then ask back: \"What about you?\" or \"And you?\".",
+    "fa": "برای ادامهٔ گفت‌وگو، جواب بدهید و بعد بپرسید «تو چطور؟»."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "No way! You play an instrument? You have to come on Thursday. Bring it! A Persian-Manchester jam. It'll be legendary.",
+   "translations": {
+    "fa": "جدی؟ ساز می‌زنی؟ باید پنجشنبه بیای. بیارش! یه جم ایرانی-منچستری. افسانه‌ای میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maybe",
+      "shy",
+      "bit"
+     ],
+     "suggestion": "Maybe! I'm a bit shy.",
+     "suggestionFa": "شاید! یه کم خجالتی‌ام.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "listen",
+      "first",
+      "come",
+      "i'll"
+     ],
+     "suggestion": "OK! I'll come and listen first.",
+     "suggestionFa": "باشه! اول میام گوش میدم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "no way",
+     "fa": "جدی؟ ؛ امکان ندارد"
+    },
+    {
+     "word": "jam",
+     "fa": "نوازندگی گروهی بداهه"
+    },
+    {
+     "word": "legendary",
+     "fa": "افسانه‌ای"
+    },
+    {
+     "word": "shy",
+     "fa": "خجالتی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "Deal. Listening counts. Here's your flat white — on the house today. For my new bandmate!",
+   "translations": {
+    "fa": "قبول. گوش دادن هم حساب میشه. اینم فلت وایتت — امروز مهمون مایی. برای هم‌گروهی جدیدم!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

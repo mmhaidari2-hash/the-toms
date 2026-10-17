@@ -20,8 +20,8 @@
     {
      "keywords": [
       "haven't",
-      "one",
-      "got"
+      "got",
+      "one"
      ],
      "suggestion": "No, I haven't got one. What is it?",
      "suggestionFa": "نه، ندارم. چی هست؟",
@@ -68,9 +68,9 @@
     {
      "keywords": [
       "pounds",
-      "one",
       "how",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "Two pounds! How do I get one?",
      "suggestionFa": "دو پوند! چطوری یکی بگیرم؟",
@@ -226,9 +226,9 @@
    "branches": [
     {
      "keywords": [
-      "i've",
       "card",
       "done",
+      "i've",
       "now"
      ],
      "suggestion": "OK. Done! I've got a card now.",
@@ -241,8 +241,8 @@
      "keywords": [
       "haven't",
       "cat's",
-      "i'll",
-      "name"
+      "name",
+      "i'll"
      ],
      "suggestion": "Ha! I'll use my cat's name. I haven't got a cat.",
      "suggestionFa": "ها! اسم گربه‌ام را می‌ذارم. من گربه ندارم.",
@@ -285,9 +285,9 @@
     },
     {
      "keywords": [
-      "hourly",
       "better",
       "that's",
+      "hourly",
       "than"
      ],
      "suggestion": "That's better than my hourly pay!",

@@ -1,0 +1,338 @@
+{
+ "id": "l2_u59_2",
+ "characterId": "dave",
+ "title": "Which team do you support?",
+ "titleFa": "طرفدار کدام تیمی؟",
+ "setting": "Football fan · Level 2",
+ "settingFa": "طرفدار فوتبال",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "dave",
+   "text": "All right, quiz champion? Watching football with Tom now? So which team do you support? Careful. Wrong answer, you're barred.",
+   "translations": {
+    "fa": "چطوری قهرمان مسابقه؟ الان با تام فوتبال می‌بینی؟ خب طرفدار کدوم تیمی؟ مواظب باش. جواب غلط، دیگه راهت نمیدم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "support",
+      "arsenal",
+      "like"
+     ],
+     "suggestion": "I support Arsenal, like Tom.",
+     "suggestionFa": "طرفدار آرسنالم، مثل تام.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "football",
+      "really",
+      "into",
+      "here"
+     ],
+     "suggestion": "I'm not really into football. I'm just here for Tom.",
+     "suggestionFa": "زیاد اهل فوتبال نیستم. فقط به‌خاطر تام اینجام.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "support",
+     "fa": "طرفدار بودن"
+    },
+    {
+     "word": "barred",
+     "fa": "ممنوع‌الورود"
+    },
+    {
+     "word": "into",
+     "fa": "علاقه‌مند به"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people \"support\" a team (not \"are fans of\" so much). It's often a family thing, passed from parents to children.",
+    "fa": "بریتانیایی‌ها تیمی را «support» می‌کنند؛ طرفداری تیم اغلب خانوادگی است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i am support arsenal",
+      "i supporting arsenal"
+     ],
+     "echo": "You support Arsenal? Oh dear!",
+     "better": "I support Arsenal.",
+     "betterFa": "طرفدار آرسنال هستم."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "dave",
+   "text": "Ha! Honest. I like it. Me? Leyton Orient. Forty years. My dad took me when I was six. The O's! Brisbane Road!",
+   "translations": {
+    "fa": "ها! صادقانه. خوشم اومد. من؟ لیتون اورینت. چهل سال. بابام وقتی شش سالم بود منو برد. اوز! بریزبن رود!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "orient",
+      "leyton"
+     ],
+     "suggestion": "Leyton Orient? Where's that?",
+     "suggestionFa": "لیتون اورینت؟ کجاست؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "forty",
+      "years",
+      "they",
+      "team"
+     ],
+     "suggestion": "Forty years! Are they a good team?",
+     "suggestionFa": "چهل سال! تیم خوبیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "Brisbane Road",
+     "fa": "ورزشگاه بریزبن رود"
+    },
+    {
+     "word": "took me",
+     "fa": "مرا برد"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "dave",
+   "text": "East London, just up the road. Good? Ha! We're in League One — the third division. We lose a lot. But we lose together.",
+   "translations": {
+    "fa": "شرق لندن، همین بالای خیابون. خوب؟ ها! ما تو لیگ یکیم — دستهٔ سوم. زیاد می‌بازیم. ولی با هم می‌بازیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "support",
+      "don't",
+      "team",
+      "why"
+     ],
+     "suggestion": "Why don't you support a big team?",
+     "suggestionFa": "چرا طرفدار یه تیم بزرگ نیستی؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "beautiful",
+      "together",
+      "that's",
+      "lose"
+     ],
+     "suggestion": "\"We lose together.\" That's beautiful.",
+     "suggestionFa": "«با هم می‌بازیم.» چه قشنگه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "just up the road",
+     "fa": "همین نزدیکی"
+    },
+    {
+     "word": "League One",
+     "fa": "لیگ یک (دستهٔ سوم)"
+    },
+    {
+     "word": "division",
+     "fa": "دسته"
+    },
+    {
+     "word": "lose",
+     "fa": "باختن"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "dave",
+   "text": "Big team? Never. A real fan supports their local team. Tom's from Hackney and supports Arsenal — I let it go. He's family.",
+   "translations": {
+    "fa": "تیم بزرگ؟ هیچ‌وقت. طرفدار واقعی از تیم محلیش حمایت می‌کنه. تام اهل هکنیه و طرفدار آرسنال — بیخیالش شدم. فامیله."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hackney",
+      "arsenal",
+      "isn't",
+      "from"
+     ],
+     "suggestion": "Arsenal isn't far from Hackney, is it?",
+     "suggestionFa": "آرسنال از هکنی دور نیست، نه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "persepolis",
+      "esteghlal",
+      "supports",
+      "everyone"
+     ],
+     "suggestion": "In Iran, everyone supports Persepolis or Esteghlal.",
+     "suggestionFa": "تو ایران، همه طرفدار پرسپولیس یا استقلالن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "local",
+     "fa": "محلی"
+    },
+    {
+     "word": "let it go",
+     "fa": "بی‌خیالش شدم"
+    },
+    {
+     "word": "family",
+     "fa": "خانواده ؛ مثل خانواده"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "dave",
+   "text": "Persepolis or Esteghlal! Like Celtic and Rangers, eh? Al says Glasgow's mad on match day. Which one are you?",
+   "translations": {
+    "fa": "پرسپولیس یا استقلال! مثل سلتیک و رنجرز، ها؟ آل میگه گلاسکو روز مسابقه دیوونه‌خونه‌ست. تو کدومی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persepolis",
+      "like",
+      "red"
+     ],
+     "suggestion": "Persepolis! Red, like Arsenal.",
+     "suggestionFa": "پرسپولیس! قرمز، مثل آرسنال.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "esteghlal",
+      "support",
+      "really",
+      "can't"
+     ],
+     "suggestion": "Esteghlal. Blue, so I can't support Arsenal really!",
+     "suggestionFa": "استقلال. آبی، پس واقعاً نمی‌تونم طرفدار آرسنال باشم!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mad",
+     "fa": "دیوانه‌وار ؛ شلوغ"
+    },
+    {
+     "word": "match day",
+     "fa": "روز مسابقه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Big rivalries are part of British football culture: Celtic v Rangers, Arsenal v Spurs, Liverpool v Everton. Keep the banter friendly!",
+    "fa": "رقابت‌های بزرگ بخشی از فرهنگ فوتبال است؛ شوخی‌ها را دوستانه نگه دارید."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "dave",
+   "text": "Good answer. Here's an idea: come to an Orient game with me. Twenty quid. Pie at half-time. You'll fall in love.",
+   "translations": {
+    "fa": "جواب خوبی بود. یه پیشنهاد: با من بیا یه بازی اورینت. بیست پوند. پای سر نیمه. عاشقش میشی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "when's",
+      "game",
+      "next",
+      "love"
+     ],
+     "suggestion": "I'd love to! When's the next home game?",
+     "suggestionFa": "خیلی دوست دارم! بازی خونگی بعدی کیه؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they",
+      "will",
+      "win"
+     ],
+     "suggestion": "Will they win?",
+     "suggestionFa": "می‌برن؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "quid",
+     "fa": "پوند (عامیانه)"
+    },
+    {
+     "word": "pie",
+     "fa": "پای (کیک گوشتی)"
+    },
+    {
+     "word": "half-time",
+     "fa": "بین دو نیمه"
+    },
+    {
+     "word": "home game",
+     "fa": "بازی خانگی"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "dave",
+   "text": "Win? Don't be daft. But the pies are excellent. Saturday week. I'll pick you up. Wear something warm — the stands are freezing.",
+   "translations": {
+    "fa": "ببرن؟ خل نشو. ولی پای‌هاش عالیه. شنبهٔ هفتهٔ بعد. میام دنبالت. یه چیز گرم بپوش — سکوها یخ‌زده‌ان."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "message",
-      "plumber"
+      "plumber",
+      "message"
      ],
      "suggestion": "Hello, this is a message for the plumber.",
      "suggestionFa": "سلام، این یه پیغام برای لوله‌کشه.",
@@ -115,8 +115,8 @@
    "branches": [
     {
      "keywords": [
-      "leaking",
       "kitchen",
+      "leaking",
       "tap"
      ],
      "suggestion": "The kitchen tap is leaking.",
@@ -177,8 +177,8 @@
      "keywords": [
       "please",
       "again",
-      "can",
-      "say"
+      "say",
+      "can"
      ],
      "suggestion": "Can you say it again, please?",
      "suggestionFa": "می‌شه دوباره بگی، لطفاً؟",
@@ -189,8 +189,8 @@
     {
      "keywords": [
       "double",
-      "three",
       "seven",
+      "three",
       "nine"
      ],
      "suggestion": "Oh seven seven double oh, nine double oh, one two three.",

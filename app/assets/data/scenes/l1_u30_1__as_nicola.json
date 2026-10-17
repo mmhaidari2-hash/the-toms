@@ -47,10 +47,10 @@
     {
      "keywords": [
       "cupboard",
-      "spoons",
-      "knives",
       "plates",
-      "reach"
+      "knives",
+      "spoons",
+      "can't"
      ],
      "suggestion": "Plates, knives, forks and spoons. The plates are in the cupboard. I can't reach!",
      "suggestionFa": "بشقاب، چاقو، چنگال و قاشق. بشقاب‌ها تو کابینتن. دستم نمی‌رسه!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "plates",
-      "thank",
-      "daddy",
       "mummy",
-      "nana"
+      "daddy",
+      "thank",
+      "many"
      ],
      "suggestion": "Thank you! How many plates? Mummy, Daddy, Ryan, me, you… and Nana!",
      "suggestionFa": "ممنون! چند تا بشقاب؟ مامان، بابا، رایان، من، تو… و نانا!",
@@ -99,8 +99,8 @@
       "special",
       "william",
       "mummy",
-      "next",
-      "bowl"
+      "duck",
+      "goes"
      ],
      "suggestion": "William has his special bowl! It's got a duck on it. It goes next to Mummy.",
      "suggestionFa": "ویلیام کاسهٔ مخصوص خودش را داره! روش یه اردکه. کنار مامان میره.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "taught",
-      "ellis",
       "right",
       "knife",
-      "fork"
+      "ellis",
+      "goes"
      ],
      "suggestion": "The fork goes on the left. The knife goes on the right. Mrs Ellis taught us!",
      "suggestionFa": "چنگال سمت چپ میره. چاقو سمت راست. خانم الیس یادمون داد!",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "glasses",
-      "heavy",
       "water",
+      "heavy",
       "pour",
-      "jug"
+      "now"
      ],
      "suggestion": "Now the glasses. Can you pour the water? The jug is too heavy for me.",
      "suggestionFa": "حالا لیوان‌ها. می‌تونی آب بریزی؟ پارچ برام خیلی سنگینه.",
@@ -200,7 +200,7 @@
       "table's",
       "mummy",
       "ready",
-      "time"
+      "down"
      ],
      "suggestion": "MUMMY! The table's ready! Tea time! Everybody sit down!",
      "suggestionFa": "مامان! میز آماده‌ست! وقت شامه! همه بشینید!",

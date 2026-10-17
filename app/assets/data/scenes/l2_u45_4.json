@@ -20,9 +20,9 @@
     {
      "keywords": [
       "start",
-      "time",
+      "come",
       "i'll",
-      "come"
+      "time"
      ],
      "suggestion": "Ha! OK, I'll come. What time does it start?",
      "suggestionFa": "ها! باشه، میام. ساعت چند شروع میشه؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "ballet",
       "nicola",
+      "ballet",
       "since",
       "when"
      ],
@@ -86,8 +86,8 @@
      "keywords": [
       "should",
       "leave",
-      "now",
-      "far"
+      "far",
+      "now"
      ],
      "suggestion": "Is it far? We should leave now.",
      "suggestionFa": "دوره؟ باید الان راه بیفتیم.",
@@ -129,9 +129,9 @@
    "branches": [
     {
      "keywords": [
-      "watch",
-      "let's",
       "video",
+      "let's",
+      "watch",
       "idea"
      ],
      "suggestion": "No idea! Let's watch a video.",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "ponytail",
-      "twist",
       "round",
+      "twist",
       "then"
      ],
      "suggestion": "Make a ponytail, then twist it round.",
@@ -252,9 +252,9 @@
     },
     {
      "keywords": [
+      "wait",
       "hall",
       "here",
-      "wait",
       "can"
      ],
      "suggestion": "Can we wait here, in the hall?",
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "hungry",
       "please",
+      "hungry",
       "ha"
      ],
      "suggestion": "Ha! Yes please. I'm hungry.",
@@ -317,9 +317,9 @@
     {
      "keywords": [
       "music",
+      "here",
       "hear",
-      "from",
-      "here"
+      "from"
      ],
      "suggestion": "Can you hear the music from here?",
      "suggestionFa": "از اینجا صدای موسیقی میاد؟",
@@ -424,10 +424,10 @@
     },
     {
      "keywords": [
+      "pins",
       "next",
-      "time",
       "more",
-      "pins"
+      "time"
      ],
      "suggestion": "Ha! Next time, more pins!",
      "suggestionFa": "ها! دفعهٔ بعد سنجاق بیشتر!",

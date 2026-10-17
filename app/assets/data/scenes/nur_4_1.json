@@ -34,8 +34,8 @@
      "keywords": [
       "shall",
       "oscar",
-      "coat",
-      "hang"
+      "hang",
+      "coat"
      ],
      "suggestion": "Hi, Oscar! Shall we hang up your coat?",
      "suggestionFa": "سلام اسکار! کتت را آویزون کنیم؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "thanks",
-      "snack",
       "write",
-      "toast"
+      "toast",
+      "snack"
      ],
      "suggestion": "Thanks, I'll write that down. He can have toast at snack time.",
      "suggestionFa": "ممنون، یادداشتش می‌کنم. وقت خوراکی می‌تونه نون تست بخوره.",
@@ -148,8 +148,8 @@
     {
      "keywords": [
       "password",
-      "please",
       "what's",
+      "please",
       "her"
      ],
      "suggestion": "What's her password, please?",
@@ -247,10 +247,10 @@
     },
     {
      "keywords": [
-      "know",
+      "hand",
       "hold",
-      "want",
-      "hand"
+      "know",
+      "want"
      ],
      "suggestion": "I know you're sad. Do you want to hold my hand?",
      "suggestionFa": "می‌دونم غمگینی. می‌خوای دستم را بگیری؟",

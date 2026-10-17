@@ -23,8 +23,8 @@
      "keywords": [
       "present",
       "bought",
-      "awful",
       "looks",
+      "awful",
       "can't"
      ],
      "suggestion": "Help! I bought Dad a present, but I can't wrap. It looks awful.",
@@ -49,7 +49,7 @@
       "world's",
       "driver",
       "cheesy",
-      "know",
+      "says",
       "best"
      ],
      "suggestion": "A mug. It says \"World's Best Bus Driver\". Cheesy, I know.",
@@ -73,9 +73,9 @@
      "keywords": [
       "scissors",
       "paper",
-      "where",
       "small",
-      "first"
+      "first",
+      "where"
      ],
      "suggestion": "OK, first cut the paper. Not too small. Where are the scissors?",
      "suggestionFa": "باشه، اول کاغذ را ببر. خیلی کوچیک نه. قیچی کجاست؟",
@@ -171,8 +171,8 @@
     {
      "keywords": [
       "write",
-      "gift",
       "nice",
+      "gift",
       "now",
       "bow"
      ],
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "mates",
-      "don't",
       "soppy",
-      "fine",
-      "just"
+      "don't",
+      "mates",
+      "tell",
+      "fine"
      ],
      "suggestion": "\"Love\"? Too soppy! Just \"From Ryan\". OK, fine… \"Love from Ryan\". Don't tell my mates!",
      "suggestionFa": "«عشق»؟ زیادی احساساتیه! فقط «از طرف رایان». باشه، خب… «با عشق، رایان». به دوستام نگو!",

@@ -22,7 +22,7 @@
       "thompson",
       "morning",
       "check",
-      "book"
+      "like"
      ],
      "suggestion": "Good morning. I'd like to book a check-up for Ryan Thompson.",
      "suggestionFa": "صبح بخیر. می‌خوام برای رایان تامپسون وقت معاینه بگیرم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "reminder",
-      "letter",
       "hughes",
+      "letter",
       "hello"
      ],
      "suggestion": "Hello, Mrs Hughes. We got a reminder letter for Ryan.",
@@ -212,8 +212,8 @@
     {
      "keywords": [
       "suits",
-      "ryan",
-      "mean"
+      "mean",
+      "ryan"
      ],
      "suggestion": "That suits me. I mean, it suits Ryan!",
      "suggestionFa": "برام مناسبه. یعنی برای رایان مناسبه!",
@@ -261,9 +261,9 @@
     {
      "keywords": [
       "leslie",
-      "birth",
       "don't",
-      "know"
+      "birth",
+      "text"
      ],
      "suggestion": "Sorry, I don't know his date of birth. Can Leslie text you?",
      "suggestionFa": "ببخشید، تاریخ تولدش را نمی‌دونم. لزلی می‌تونه بهتون پیام بده؟",
@@ -364,8 +364,8 @@
     {
      "keywords": [
       "fifteen",
-      "free",
       "he's",
+      "free",
       "him"
      ],
      "suggestion": "Is it free for him? He's fifteen.",
@@ -410,8 +410,8 @@
      "keywords": [
       "teeth",
       "clean",
-      "i'll",
-      "tell"
+      "tell",
+      "i'll"
      ],
      "suggestion": "I'll tell him. Clean teeth, no mud!",
      "suggestionFa": "بهش میگم. دندون تمیز، بدون گل!",

@@ -34,8 +34,8 @@
      "keywords": [
       "working",
       "leslie",
-      "she's",
-      "asked"
+      "asked",
+      "she's"
      ],
      "suggestion": "Yes. Leslie asked me to help. She's working.",
      "suggestionFa": "آره. لزلی ازم خواست کمک کنم. سر کاره.",
@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "tell",
+      "much",
       "use",
-      "dev"
+      "how"
      ],
      "suggestion": "Ryan, tell Dev how much you use.",
      "suggestionFa": "رایان، به دِو بگو چقدر مصرف می‌کنی.",
@@ -110,9 +110,9 @@
    "branches": [
     {
      "keywords": [
+      "unlimited",
       "expensive",
       "gigabytes",
-      "unlimited",
       "thirty"
      ],
      "suggestion": "Unlimited is expensive. What about thirty gigabytes?",
@@ -124,8 +124,8 @@
     {
      "keywords": [
       "fifteen",
-      "pounds",
       "leslie",
+      "pounds",
       "month"
      ],
      "suggestion": "Leslie said not more than fifteen pounds a month.",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "extra",
-      "zero",
       "hear",
+      "zero",
       "ryan"
      ],
      "suggestion": "Ryan, did you hear that? Zero extra.",
@@ -328,8 +328,8 @@
      "keywords": [
       "every",
       "april",
-      "much",
-      "goes"
+      "goes",
+      "much"
      ],
      "suggestion": "It goes up every April? How much?",
      "suggestionFa": "هر آوریل میره بالا؟ چقدر؟",
@@ -396,10 +396,10 @@
     },
     {
      "keywords": [
-      "here",
-      "them",
+      "sell",
       "good",
-      "sell"
+      "them",
+      "here"
      ],
      "suggestion": "A good case. Do you sell them here?",
      "suggestionFa": "یه قاب خوب. اینجا می‌فروشید؟",
@@ -435,8 +435,8 @@
      "keywords": [
       "bill",
       "case",
-      "can",
-      "add"
+      "add",
+      "can"
      ],
      "suggestion": "Can we add the case to the bill?",
      "suggestionFa": "میشه قاب را به صورت‌حساب اضافه کنیم؟",

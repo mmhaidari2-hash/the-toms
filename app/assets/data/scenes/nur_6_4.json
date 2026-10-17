@@ -75,8 +75,8 @@
      "keywords": [
       "child's",
       "afraid",
-      "other",
-      "can't"
+      "can't",
+      "other"
      ],
      "suggestion": "I'm afraid I can't share the other child's name.",
      "suggestionFa": "متأسفانه نمی‌تونم اسم بچهٔ دیگه را بگم.",
@@ -86,10 +86,10 @@
     },
     {
      "keywords": [
-      "protect",
+      "privacy",
       "oscar's",
       "exactly",
-      "privacy"
+      "protect"
      ],
      "suggestion": "We'd protect Oscar's privacy in exactly the same way.",
      "suggestionFa": "ما از حریم خصوصی اسکار هم دقیقاً همین‌طور محافظت می‌کنیم.",
@@ -191,7 +191,7 @@
       "accident",
       "should",
       "right",
-      "been"
+      "pick"
      ],
      "suggestion": "You're right, it should have been on his accident form at pick-up.",
      "suggestionFa": "حق با شماست، باید موقع بردنش تو فرم حادثه‌اش می‌بود.",
@@ -203,8 +203,8 @@
      "keywords": [
       "wasn't",
       "given",
-      "i'll",
-      "into"
+      "into",
+      "look"
      ],
      "suggestion": "I'll look into why the form wasn't given to you.",
      "suggestionFa": "بررسی می‌کنم چرا فرم به شما داده نشد.",
@@ -248,7 +248,7 @@
       "manager",
       "would",
       "week",
-      "like"
+      "meet"
      ],
      "suggestion": "Would you like to meet Jo and the manager this week?",
      "suggestionFa": "می‌خواید این هفته با جو و مدیر جلسه داشته باشید؟",
@@ -259,8 +259,8 @@
     {
      "keywords": [
       "update",
-      "every",
       "we'll",
+      "every",
       "weeks"
      ],
      "suggestion": "We'll update you every day for the next two weeks.",

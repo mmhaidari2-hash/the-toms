@@ -21,8 +21,8 @@
      "keywords": [
       "usually",
       "take",
-      "but",
-      "bus"
+      "bus",
+      "bit"
      ],
      "suggestion": "A bit. But I usually take the bus.",
      "suggestionFa": "یه کم. ولی معمولاً اتوبوس می‌گیرم.",
@@ -35,7 +35,7 @@
       "morning",
       "happy",
       "jade",
-      "six"
+      "how"
      ],
      "suggestion": "Morning, Jade. How are you so happy at six?",
      "suggestionFa": "صبح بخیر جید. چطوری ساعت شش انقدر خوشحالی؟",
@@ -88,7 +88,7 @@
       "yesterday",
       "only",
       "look",
-      "two"
+      "let"
      ],
      "suggestion": "Let me look. Yesterday, only two thousand!",
      "suggestionFa": "بذار ببینم. دیروز فقط دو هزار!",
@@ -143,8 +143,8 @@
      "keywords": [
       "that's",
       "early",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "One stop early. That's a good idea.",
      "suggestionFa": "یه ایستگاه زودتر. فکر خوبیه.",
@@ -156,8 +156,8 @@
      "keywords": [
       "drives",
       "he'll",
-      "sad",
-      "but"
+      "bus",
+      "tom"
      ],
      "suggestion": "But Tom drives my bus! He'll be sad.",
      "suggestionFa": "ولی تام اتوبوسم را می‌رونه! ناراحت میشه.",
@@ -205,8 +205,8 @@
      "keywords": [
       "instead",
       "that's",
-      "funny",
-      "email"
+      "email",
+      "funny"
      ],
      "suggestion": "Walk instead of email? That's funny.",
      "suggestionFa": "به‌جای ایمیل راه برم؟ خنده‌داره.",
@@ -250,8 +250,8 @@
      "keywords": [
       "sunday",
       "there",
-      "i'll",
-      "walk"
+      "walk",
+      "i'll"
      ],
      "suggestion": "I'll try to walk there on Sunday.",
      "suggestionFa": "سعی می‌کنم یکشنبه اونجا پیاده‌روی کنم.",
@@ -262,8 +262,8 @@
     {
      "keywords": [
       "street",
-      "from",
       "mare",
+      "from",
       "far"
      ],
      "suggestion": "Is it far from Mare Street?",
@@ -302,10 +302,10 @@
    "branches": [
     {
      "keywords": [
-      "walking",
       "friends",
+      "walking",
       "easier",
-      "good"
+      "idea"
      ],
      "suggestion": "Good idea. Walking with friends is easier.",
      "suggestionFa": "فکر خوبیه. پیاده‌روی با دوست‌ها راحت‌تره.",
@@ -317,7 +317,7 @@
      "keywords": [
       "thousand",
       "perfect",
-      "steps",
+      "three",
       "ducks"
      ],
      "suggestion": "Three thousand steps and ducks. Perfect!",

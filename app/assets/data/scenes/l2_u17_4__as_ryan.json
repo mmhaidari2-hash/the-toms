@@ -24,7 +24,7 @@
       "ordered",
       "burgers",
       "isn't",
-      "here",
+      "look",
       "bruv"
      ],
      "suggestion": "Bruv. The burgers are here, but… this isn't what we ordered. Look.",
@@ -49,7 +49,7 @@
       "chicken",
       "burger",
       "veggie",
-      "rings",
+      "there",
       "onion"
      ],
      "suggestion": "I asked for a veggie burger. This is chicken. And where are my onion rings? There are no onion rings!",
@@ -123,9 +123,9 @@
      "keywords": [
       "evidence",
       "burger",
-      "photo",
+      "wants",
       "don't",
-      "wants"
+      "photo"
      ],
      "suggestion": "Now it wants a photo. Hold the burger up. No — don't eat it! It's evidence!",
      "suggestionFa": "حالا عکس می‌خواد. برگر را بگیر بالا. نه — نخورش! مدرکه!",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "message",
       "english",
+      "message",
       "polite",
       "write",
-      "more"
+      "than"
      ],
      "suggestion": "Now we write a message. You write it, your English is more polite than mine.",
      "suggestionFa": "حالا یه پیام می‌نویسیم. تو بنویس، انگلیسیت از من مؤدبانه‌تره.",
@@ -198,8 +198,8 @@
      "keywords": [
       "vegetarian",
       "tomorrow",
-      "waste",
       "shame",
+      "waste",
       "don't"
      ],
      "suggestion": "Well… it's a shame to waste it. I'll eat it. Vegetarian from tomorrow. Don't tell Mum!",

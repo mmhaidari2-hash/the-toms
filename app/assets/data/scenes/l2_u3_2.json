@@ -22,7 +22,7 @@
       "appointment",
       "please",
       "hello",
-      "book"
+      "like"
      ],
      "suggestion": "Hello, I'd like to book an appointment, please.",
      "suggestionFa": "سلام، می‌خواستم یه وقت بگیرم لطفاً.",
@@ -131,8 +131,8 @@
     {
      "keywords": [
       "rahimi",
-      "mehdi",
       "third",
+      "mehdi",
       "may"
      ],
      "suggestion": "It's Mehdi Rahimi, the third of May, 1996.",
@@ -194,8 +194,8 @@
     {
      "keywords": [
       "morning",
-      "please",
       "friday",
+      "please",
       "could"
      ],
      "suggestion": "Could I have Friday morning, please?",
@@ -233,7 +233,7 @@
       "double",
       "seven",
       "nine",
-      "one"
+      "two"
      ],
      "suggestion": "It's oh-seven-seven-double-oh, nine-one-two…",
      "suggestionFa": "صفر-هفت-هفت-دو صفر، نه-یک-دو…",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "instead",
-      "email",
-      "could"
+      "could",
+      "email"
      ],
      "suggestion": "Could you email me instead?",
      "suggestionFa": "می‌شه به جاش ایمیل بزنید؟",
@@ -285,8 +285,8 @@
      "keywords": [
       "charge",
       "there",
-      "will",
-      "miss"
+      "miss",
+      "will"
      ],
      "suggestion": "I will. Is there a charge if I miss it?",
      "suggestionFa": "باشه. اگه نیام هزینه داره؟",
@@ -297,8 +297,8 @@
     {
      "keywords": [
       "minutes",
-      "early",
       "thank",
+      "early",
       "much"
      ],
      "suggestion": "Ten minutes early. Thank you very much.",

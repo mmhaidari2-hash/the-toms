@@ -20,8 +20,8 @@
     {
      "keywords": [
       "important",
-      "meeting",
       "because",
+      "meeting",
       "missed"
      ],
      "suggestion": "I did. And I missed an important meeting because of it.",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "month",
       "third",
+      "month",
       "time"
      ],
      "suggestion": "Yes, and it's the third time this month.",
@@ -137,8 +137,8 @@
      "keywords": [
       "happened",
       "mention",
-      "before",
-      "should"
+      "should",
+      "before"
      ],
      "suggestion": "Should I mention that it's happened before?",
      "suggestionFa": "بگم که قبلاً هم اتفاق افتاده؟",

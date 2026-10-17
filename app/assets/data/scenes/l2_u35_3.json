@@ -73,8 +73,8 @@
     {
      "keywords": [
       "platform",
-      "have",
       "long",
+      "have",
       "how"
      ],
      "suggestion": "Platform 17. How long have I got?",
@@ -130,8 +130,8 @@
     {
      "keywords": [
       "brighton",
-      "thank",
-      "train"
+      "train",
+      "thank"
      ],
      "suggestion": "Thank you! Is this the train to Brighton?",
      "suggestionFa": "ممنون! این قطار به برایتونه؟",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "change",
-      "why",
-      "did"
+      "did",
+      "why"
      ],
      "suggestion": "Why did it change?",
      "suggestionFa": "چرا عوض شد؟",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "wrong",
-      "part",
-      "back"
+      "back",
+      "part"
      ],
      "suggestion": "I'm at the back. Am I in the wrong part?",
      "suggestionFa": "من عقبم. تو قسمت اشتباهم؟",
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "front",
-      "i'll",
       "move",
+      "i'll",
       "now"
      ],
      "suggestion": "Oh no! I'll move to the front now.",
@@ -293,8 +293,8 @@
    "branches": [
     {
      "keywords": [
-      "coach",
       "there",
+      "coach",
       "seat",
       "c"
      ],
@@ -306,8 +306,8 @@
     },
     {
      "keywords": [
-      "saved",
       "thank",
+      "saved",
       "maya",
       "day"
      ],

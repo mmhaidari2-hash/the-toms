@@ -32,10 +32,10 @@
     },
     {
      "keywords": [
-      "feeling",
       "problem",
-      "been",
-      "like"
+      "feeling",
+      "long",
+      "have"
      ],
      "suggestion": "No problem. How long have you been feeling like this?",
      "suggestionFa": "مشکلی نیست. چند وقته این‌طوری هستید؟",
@@ -89,7 +89,7 @@
       "chicken",
       "mum's",
       "shall",
-      "soup"
+      "make"
      ],
      "suggestion": "Shall I make my mum's chicken soup?",
      "suggestionFa": "سوپ مرغ مامانم را درست کنم؟",
@@ -123,8 +123,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "rebook",
+      "course",
       "shall",
       "them"
      ],
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "looked",
       "you've",
+      "looked",
       "after",
       "don't"
      ],
@@ -222,9 +222,9 @@
    "branches": [
     {
      "keywords": [
+      "help",
       "want",
-      "here",
-      "help"
+      "here"
      ],
      "suggestion": "Here you are. Do you want help with it?",
      "suggestionFa": "بفرمایید. کمک می‌خواید؟",

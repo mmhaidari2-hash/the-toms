@@ -21,8 +21,8 @@
      "keywords": [
       "anyone",
       "fruit",
-      "them",
-      "free"
+      "free",
+      "pick"
      ],
      "suggestion": "Free fruit? Can anyone pick them?",
      "suggestionFa": "میوهٔ مجانی؟ هر کسی می‌تونه بچینه؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "crumble",
       "another",
+      "crumble",
       "please"
      ],
      "suggestion": "Another crumble! Yes please.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "these",
-      "they",
       "ripe",
+      "they",
       "soft"
      ],
      "suggestion": "These ones are soft. Are they ripe?",
@@ -211,9 +211,9 @@
     {
      "keywords": [
       "tall",
-      "pick",
       "high",
-      "i'll"
+      "i'll",
+      "pick"
      ],
      "suggestion": "I'll pick the high ones. I'm tall.",
      "suggestionFa": "من بالایی‌ها را می‌چینم. قدم بلنده.",
@@ -322,8 +322,8 @@
     {
      "keywords": [
       "mulberries",
-      "white",
       "black",
+      "white",
       "ones"
      ],
      "suggestion": "We have mulberries. White and black ones.",
@@ -365,7 +365,7 @@
       "crumbles",
       "george",
       "nana",
-      "one"
+      "two"
      ],
      "suggestion": "Two crumbles! One for Nana and George?",
      "suggestionFa": "دو تا کرامبل! یکی برای نانا و جورج؟",
@@ -375,8 +375,8 @@
     },
     {
      "keywords": [
-      "freeze",
       "winter",
+      "freeze",
       "let's",
       "some"
      ],

@@ -66,8 +66,8 @@
    "branches": [
     {
      "keywords": [
-      "can",
-      "ask"
+      "ask",
+      "can"
      ],
      "suggestion": "I can ask for you.",
      "suggestionFa": "من می‌تونم براتون بپرسم.",
@@ -78,8 +78,8 @@
     {
      "keywords": [
       "plasters",
-      "let's",
       "first",
+      "let's",
       "find"
      ],
      "suggestion": "Let's find the plasters first.",
@@ -171,7 +171,7 @@
       "spoons",
       "times",
       "three",
-      "two"
+      "day"
      ],
      "suggestion": "Two spoons, three times a day. OK!",
      "suggestionFa": "دو قاشق، روزی سه بار. باشه!",
@@ -216,9 +216,9 @@
    "branches": [
     {
      "keywords": [
+      "honey",
       "lemon",
       "colds",
-      "honey",
       "good"
      ],
      "suggestion": "Honey and lemon is good for colds.",
@@ -230,9 +230,9 @@
     {
      "keywords": [
       "better",
-      "hope",
       "soon",
-      "feel"
+      "feel",
+      "hope"
      ],
      "suggestion": "I hope you feel better soon.",
      "suggestionFa": "امیدوارم زود خوب بشید.",

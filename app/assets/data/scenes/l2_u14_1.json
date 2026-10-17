@@ -22,7 +22,7 @@
       "morning",
       "library",
       "please",
-      "good"
+      "like"
      ],
      "suggestion": "Good morning. I'd like to join the library, please.",
      "suggestionFa": "صبح بخیر. می‌خوام عضو کتابخانه بشم، لطفاً.",
@@ -81,8 +81,8 @@
      "keywords": [
       "minutes",
       "about",
-      "away",
-      "five"
+      "five",
+      "away"
      ],
      "suggestion": "Yes, about five minutes away.",
      "suggestionFa": "بله، حدود پنج دقیقه فاصله.",
@@ -137,8 +137,8 @@
     {
      "keywords": [
       "here's",
-      "card",
-      "bank"
+      "bank",
+      "card"
      ],
      "suggestion": "Here's my bank card and a letter.",
      "suggestionFa": "این کارت بانکیم و یه نامه.",
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "fifteen",
+      "long",
       "them",
-      "keep",
-      "long"
+      "keep"
      ],
      "suggestion": "Fifteen! How long can I keep them?",
      "suggestionFa": "پونزده تا! تا کی می‌تونم نگهشون دارم؟",
@@ -238,8 +238,8 @@
     {
      "keywords": [
       "that's",
-      "fines",
       "great",
+      "fines",
       "news"
      ],
      "suggestion": "No fines? That's great news.",
@@ -250,8 +250,8 @@
     },
     {
      "keywords": [
-      "book",
       "lose",
+      "book",
       "if"
      ],
      "suggestion": "What if I lose a book?",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "persian",
-      "any",
-      "got"
+      "got",
+      "any"
      ],
      "suggestion": "Have you got any books in Persian?",
      "suggestionFa": "کتاب فارسی دارید؟",
@@ -351,8 +351,8 @@
      "keywords": [
       "thank",
       "both",
-      "look",
-      "i'll"
+      "i'll",
+      "look"
      ],
      "suggestion": "Thank you. I'll look at both.",
      "suggestionFa": "ممنون. هر دو را نگاه می‌کنم.",

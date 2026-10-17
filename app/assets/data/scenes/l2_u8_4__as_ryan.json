@@ -23,9 +23,9 @@
      "keywords": [
       "downstairs",
       "calling",
-      "lazy",
       "come",
-      "room"
+      "room",
+      "from"
      ],
      "suggestion": "Hey, it's me. Are you busy? I'm calling from my room — too lazy to come downstairs!",
      "suggestionFa": "سلام، منم. سرت شلوغه؟ از اتاقم زنگ می‌زنم — حال ندارم بیام پایین!",
@@ -48,9 +48,9 @@
      "keywords": [
       "saturday",
       "cinema",
-      "doing",
       "going",
-      "come"
+      "doing",
+      "want"
      ],
      "suggestion": "What are you doing on Saturday? Me and Jake are going to the cinema. Want to come?",
      "suggestionFa": "شنبه چی کار می‌کنی؟ من و جیک داریم می‌ریم سینما. میای؟",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "superhero",
-      "meeting",
       "station",
+      "meeting",
       "we're",
       "film"
      ],
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "picking",
       "getting",
+      "picking",
       "jake's",
       "we're",
-      "then"
+      "town"
      ],
      "suggestion": "We're getting the 42 into town. Then Jake's dad is picking us up at six.",
      "suggestionFa": "با ۴۲ می‌ریم مرکز شهر. بعد بابای جیک ساعت شش میاد دنبالمون.",

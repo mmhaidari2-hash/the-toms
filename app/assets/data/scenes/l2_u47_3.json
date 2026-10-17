@@ -20,9 +20,9 @@
     {
      "keywords": [
       "hackney",
-      "course",
       "coffee",
-      "best"
+      "course",
+      "make"
      ],
      "suggestion": "Of course! You make the best coffee in Hackney.",
      "suggestionFa": "البته! تو بهترین قهوهٔ هکنی را درست می‌کنی.",
@@ -78,7 +78,7 @@
       "library",
       "cosier",
       "cosy",
-      "but"
+      "caf"
      ],
      "suggestion": "It's very cosy. But the library café is cosier.",
      "suggestionFa": "خیلی دنجه. ولی کافهٔ کتابخونه دنج‌تره.",
@@ -146,7 +146,7 @@
       "definitely",
       "nicest",
       "white",
-      "ever"
+      "i've"
      ],
      "suggestion": "Definitely the best. The nicest flat white I've ever had.",
      "suggestionFa": "قطعاً بهترین. بهترین فلت وایتی که تا حالا خوردم.",
@@ -158,8 +158,8 @@
      "keywords": [
       "mario's",
       "good",
-      "one",
-      "caf"
+      "caf",
+      "one"
      ],
      "suggestion": "One of the best. Mario's café is good too.",
      "suggestionFa": "یکی از بهترین‌ها. کافهٔ ماریو هم خوبه.",
@@ -197,8 +197,8 @@
    "branches": [
     {
      "keywords": [
-      "mario",
       "rival",
+      "mario",
       "ha"
      ],
      "suggestion": "Ha! Is Mario your rival?",
@@ -318,8 +318,8 @@
     },
     {
      "keywords": [
-      "course",
       "coffee",
+      "course",
       "good"
      ],
      "suggestion": "Good coffee, of course!",

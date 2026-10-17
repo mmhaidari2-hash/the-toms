@@ -32,8 +32,8 @@
     {
      "keywords": [
       "nobody",
-      "rules",
       "there",
+      "rules",
       "told"
      ],
      "suggestion": "Are there rules? Nobody told me!",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "people",
-      "polite",
       "that's",
+      "polite",
       "first"
      ],
      "suggestion": "Let people off first. That's polite.",
@@ -186,8 +186,8 @@
      "keywords": [
       "carriage",
       "what's",
-      "down",
-      "move"
+      "move",
+      "down"
      ],
      "suggestion": "Move down. What's a carriage?",
      "suggestionFa": "برو جلو. «کریج» چیه؟",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "always",
-      "doors",
+      "sorry",
       "stand",
-      "sorry"
+      "doors"
      ],
      "suggestion": "I always stand by the doors. Sorry!",
      "suggestionFa": "من همیشه کنار در وایمیستم. ببخشید!",
@@ -284,7 +284,7 @@
       "people",
       "tehran",
       "metro",
-      "time"
+      "talk"
      ],
      "suggestion": "In Tehran, people talk on the metro all the time!",
      "suggestionFa": "تو تهران، مردم تو مترو مدام حرف می‌زنن!",
@@ -294,9 +294,9 @@
     },
     {
      "keywords": [
-      "book",
       "read",
       "i'll",
+      "book",
       "ok"
      ],
      "suggestion": "OK. I'll read my book.",

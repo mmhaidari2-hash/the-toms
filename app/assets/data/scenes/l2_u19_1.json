@@ -21,8 +21,8 @@
      "keywords": [
       "barriers",
       "through",
-      "how",
-      "get"
+      "get",
+      "how"
      ],
      "suggestion": "Yes. How do I get through the barriers?",
      "suggestionFa": "آره. چطوری از گیت‌ها رد بشم؟",
@@ -68,10 +68,10 @@
    "branches": [
     {
      "keywords": [
-      "same",
       "card",
+      "same",
       "use",
-      "can"
+      "bus"
      ],
      "suggestion": "Can I use the same card as on the bus?",
      "suggestionFa": "می‌تونم از همون کارتی که تو اتوبوس می‌زنم استفاده کنم؟",
@@ -117,9 +117,9 @@
    "branches": [
     {
      "keywords": [
-      "out",
       "tap",
-      "got"
+      "got",
+      "out"
      ],
      "suggestion": "Tap in and tap out. Got it.",
      "suggestionFa": "موقع ورود و خروج کارت بزنم. فهمیدم.",
@@ -188,9 +188,9 @@
     },
     {
      "keywords": [
-      "i'll",
-      "card",
       "take",
+      "card",
+      "i'll",
       "out"
      ],
      "suggestion": "OK. I'll take the card out.",
@@ -242,9 +242,9 @@
     {
      "keywords": [
       "don't",
-      "know",
       "line",
-      "find"
+      "find",
+      "know"
      ],
      "suggestion": "I don't know. How do I find the line?",
      "suggestionFa": "نمی‌دونم. چطوری خط را پیدا کنم؟",

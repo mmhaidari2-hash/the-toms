@@ -22,7 +22,7 @@
       "doesn't",
       "beeped",
       "light",
-      "work"
+      "went"
      ],
      "suggestion": "My Oyster card doesn't work. It beeped and the light went red.",
      "suggestionFa": "کارت اویسترم کار نمی‌کنه. بوق زد و چراغش قرمز شد.",
@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "can",
-      "top",
       "bus",
+      "top",
+      "can",
       "up"
      ],
      "suggestion": "Can I top up on the bus?",
@@ -117,10 +117,10 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "thanks",
+      "should",
       "much",
-      "tom"
+      "put"
      ],
      "suggestion": "Thanks, Tom. How much should I put on?",
      "suggestionFa": "ممنون تام. چقدر بریزم روش؟",
@@ -184,8 +184,8 @@
     {
      "keywords": [
       "enough",
-      "pounds",
       "twenty",
+      "pounds",
       "week"
      ],
      "suggestion": "So twenty pounds is enough for a week?",
@@ -280,9 +280,9 @@
    "branches": [
     {
      "keywords": [
-      "please",
-      "pounds",
       "twenty",
+      "pounds",
+      "please",
       "hello"
      ],
      "suggestion": "Hello. Twenty pounds on this card, please.",
@@ -293,10 +293,10 @@
     },
     {
      "keywords": [
-      "can",
       "pay",
-      "hi",
-      "by"
+      "can",
+      "by",
+      "hi"
      ],
      "suggestion": "Hi. Can I pay by card?",
      "suggestionFa": "سلام. می‌تونم با کارت پرداخت کنم؟",

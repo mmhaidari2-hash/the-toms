@@ -1,0 +1,363 @@
+{
+ "id": "l2_u57_3",
+ "characterId": "sophie",
+ "title": "Vegetarian options",
+ "titleFa": "غذای گیاهی",
+ "setting": "Going out · Level 2",
+ "settingFa": "بیرون رفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "sophie",
+   "text": "Right, mains! Leslie's having the lasagne. And you? You were asking about vegetarian options earlier?",
+   "translations": {
+    "fa": "خب، غذای اصلی! لزلی لازانیا می‌خوره. و تو؟ قبلاً دربارهٔ غذای گیاهی می‌پرسیدی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fridays",
+      "moment",
+      "don't",
+      "meat"
+     ],
+     "suggestion": "Yes. I don't eat meat on Fridays at the moment.",
+     "suggestionFa": "آره. فعلاً جمعه‌ها گوشت نمی‌خورم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "vegetarian",
+      "dishes",
+      "which"
+     ],
+     "suggestion": "Yes. Which dishes are vegetarian?",
+     "suggestionFa": "آره. کدوم غذاها گیاهی‌ان؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mains",
+     "fa": "غذاهای اصلی"
+    },
+    {
+     "word": "vegetarian",
+     "fa": "گیاهی"
+    },
+    {
+     "word": "options",
+     "fa": "گزینه‌ها"
+    },
+    {
+     "word": "at the moment",
+     "fa": "فعلاً"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "sophie",
+   "text": "Easy! Look for the little green V on the menu. The mushroom risotto, the margherita pizza and the aubergine parmigiana.",
+   "translations": {
+    "fa": "راحته! دنبال V سبز کوچیک تو منو بگرد. ریزوتوی قارچ، پیتزا مارگاریتا و پارمیجانای بادمجون."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "vegetarian",
+      "parmigiana",
+      "aubergine"
+     ],
+     "suggestion": "Aubergine! Is the parmigiana vegetarian?",
+     "suggestionFa": "بادمجون! پارمیجانا گیاهیه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "risotto",
+      "contain",
+      "stock",
+      "meat"
+     ],
+     "suggestion": "Does the risotto contain meat stock?",
+     "suggestionFa": "ریزوتو آب‌گوشت داره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "mushroom",
+     "fa": "قارچ"
+    },
+    {
+     "word": "aubergine",
+     "fa": "بادمجان"
+    },
+    {
+     "word": "contain",
+     "fa": "داشتن ؛ شامل بودن"
+    },
+    {
+     "word": "meat stock",
+     "fa": "آب‌گوشت"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Vegetarian\" means no meat or fish. \"Vegan\" means no animal products at all: no cheese, eggs, milk or honey.",
+    "fa": "گیاهی یعنی بدون گوشت و ماهی؛ وگان یعنی بدون هیچ محصول حیوانی."
+   },
+   "recasts": [
+    {
+     "match": [
+      "is the parmigiana vegetarians",
+      "it is vegetarian the parmigiana"
+     ],
+     "echo": "Is it vegetarian? Yes, it is!",
+     "better": "Is the parmigiana vegetarian?",
+     "betterFa": "پارمیجانا گیاهی است؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "sophie",
+   "text": "Good question. The risotto uses vegetable stock, so it's fine. The parmigiana's vegetarian too, but there's parmesan on top.",
+   "translations": {
+    "fa": "سؤال خوبیه. ریزوتو آب سبزیجات داره، پس اشکالی نداره. پارمیجانا هم گیاهیه، ولی روش پارمزانه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "parmesan",
+      "problem",
+      "why"
+     ],
+     "suggestion": "Why is the parmesan a problem?",
+     "suggestionFa": "چرا پارمزان مشکله؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "parmigiana",
+      "aubergine",
+      "reminds",
+      "have"
+     ],
+     "suggestion": "I'll have the parmigiana. Aubergine reminds me of home.",
+     "suggestionFa": "پارمیجانا می‌خورم. بادمجون یاد خونه می‌اندازدم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "vegetable stock",
+     "fa": "آب سبزیجات"
+    },
+    {
+     "word": "on top",
+     "fa": "رویش"
+    },
+    {
+     "word": "parmesan",
+     "fa": "پنیر پارمزان"
+    },
+    {
+     "word": "reminds",
+     "fa": "یادآوری می‌کند"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "sophie",
+   "text": "Real parmesan uses rennet from calves, so strict vegetarians avoid it. Chef can use a veggie hard cheese instead.",
+   "translations": {
+    "fa": "پارمزان واقعی از مایهٔ پنیر گوساله استفاده می‌کنه، پس گیاه‌خوارهای سخت‌گیر ازش دوری می‌کنن. سرآشپز می‌تونه به‌جاش پنیر سفت گیاهی بزنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "veggie",
+      "cheese",
+      "could"
+     ],
+     "suggestion": "Could I have it with the veggie cheese, please?",
+     "suggestionFa": "میشه با پنیر گیاهی باشه، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "strict",
+      "fine"
+     ],
+     "suggestion": "It's fine, I'm not that strict.",
+     "suggestionFa": "اشکالی نداره، انقدر سخت‌گیر نیستم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rennet",
+     "fa": "مایهٔ پنیر"
+    },
+    {
+     "word": "calves",
+     "fa": "گوساله‌ها"
+    },
+    {
+     "word": "strict",
+     "fa": "سخت‌گیر"
+    },
+    {
+     "word": "avoid",
+     "fa": "دوری کردن"
+    },
+    {
+     "word": "instead",
+     "fa": "به جای آن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "No problem. And do you have any allergies? Nuts, gluten, anything? We have to ask everyone.",
+   "translations": {
+    "fa": "مشکلی نیست. و حساسیت داری؟ آجیل، گلوتن، چیزی؟ باید از همه بپرسیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "allergies",
+      "thanks"
+     ],
+     "suggestion": "No allergies, thanks.",
+     "suggestionFa": "حساسیت ندارم، ممنون.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "leslie's",
+      "allergic",
+      "lasagne",
+      "nuts"
+     ],
+     "suggestion": "Leslie's allergic to nuts. Is the lasagne OK?",
+     "suggestionFa": "لزلی به آجیل حساسیت داره. لازانیا مشکلی نداره؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allergies",
+     "fa": "حساسیت‌ها"
+    },
+    {
+     "word": "nuts",
+     "fa": "آجیل ؛ مغزها"
+    },
+    {
+     "word": "gluten",
+     "fa": "گلوتن"
+    },
+    {
+     "word": "allergic",
+     "fa": "حساس"
+    }
+   ],
+   "cultureNote": {
+    "en": "UK restaurants must tell you about 14 main allergens, such as nuts, milk, eggs and gluten. Always tell staff about allergies.",
+    "fa": "رستوران‌ها باید دربارهٔ ۱۴ آلرژن اصلی اطلاعات بدهند؛ حساسیت را به کارکنان بگویید."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sophie",
+   "text": "Leslie? She's not allergic, she just hates walnuts! But I'll double-check with chef. Lasagne and parmigiana, coming up.",
+   "translations": {
+    "fa": "لزلی؟ حساسیت نداره، فقط از گردو بدش میاد! ولی با سرآشپز دوباره چک می‌کنم. لازانیا و پارمیجانا، الان میارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "everything",
+      "remember",
+      "thanks",
+      "sophie"
+     ],
+     "suggestion": "Thanks, Sophie. You remember everything!",
+     "suggestionFa": "ممنون سوفی. همه‌چی یادت می‌مونه!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tell",
+      "said",
+      "i'll",
+      "her"
+     ],
+     "suggestion": "Ha! I'll tell her you said that.",
+     "suggestionFa": "ها! بهش میگم اینو گفتی.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "hates",
+     "fa": "متنفر است"
+    },
+    {
+     "word": "walnuts",
+     "fa": "گردو"
+    },
+    {
+     "word": "double-check",
+     "fa": "دوباره بررسی کردن"
+    },
+    {
+     "word": "coming up",
+     "fa": "الان آماده می‌شود"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "sophie",
+   "text": "Remembering things is my superpower. That, and carrying five plates at once. Enjoy!",
+   "translations": {
+    "fa": "یادم موندن چیزها ابرقدرت منه. اون و حمل پنج تا بشقاب با هم. نوش جون!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

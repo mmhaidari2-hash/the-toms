@@ -74,8 +74,8 @@
       "umbrella",
       "pretty",
       "windy",
-      "much",
-      "take"
+      "coat",
+      "much"
      ],
      "suggestion": "Pretty much! Take an umbrella. And put your coat on. It's windy too.",
      "suggestionFa": "تقریباً! چتر بردار. و کتت را بپوش. باد هم میاد.",
@@ -125,7 +125,7 @@
       "march",
       "lucky",
       "like",
-      "here"
+      "from"
      ],
      "suggestion": "Lucky you! Here, it's wet from October to March. Do you like the rain?",
      "suggestionFa": "خوش به حالت! اینجا از اکتبر تا مارس خیسه. بارون دوست داری؟",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "wellies",
-      "heavy",
       "means",
+      "heavy",
       "rain",
       "wear"
      ],

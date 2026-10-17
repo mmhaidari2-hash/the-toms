@@ -21,8 +21,8 @@
      "keywords": [
       "family's",
       "lodger",
-      "patel",
-      "hello"
+      "hello",
+      "patel"
      ],
      "suggestion": "Hello, Mr Patel. I'm the family's lodger.",
      "suggestionFa": "سلام آقای پاتل. من مستأجر خانواده هستم.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "leslie",
-      "notes",
       "asked",
+      "notes",
       "help"
      ],
      "suggestion": "Leslie asked me to help with notes.",
@@ -141,8 +141,8 @@
     {
      "keywords": [
       "english",
-      "about",
-      "maths"
+      "maths",
+      "about"
      ],
      "suggestion": "What about English and Maths?",
      "suggestionFa": "انگلیسی و ریاضی چی؟",
@@ -245,9 +245,9 @@
    "branches": [
     {
      "keywords": [
+      "means",
       "phone",
       "maybe",
-      "means",
       "bus"
      ],
      "suggestion": "Maybe on the bus means on his phone, Tom.",
@@ -300,8 +300,8 @@
     {
      "keywords": [
       "dinner",
-      "fixed",
       "after",
+      "seven",
       "eight"
      ],
      "suggestion": "A fixed time. Maybe after dinner, from seven to eight?",

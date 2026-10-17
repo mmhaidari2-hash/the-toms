@@ -74,9 +74,9 @@
     {
      "keywords": [
       "forgot",
-      "last",
       "week",
-      "out"
+      "last",
+      "ran"
      ],
      "suggestion": "Yes. It ran out last week. He forgot!",
      "suggestionFa": "آره. هفتهٔ پیش تموم شد. یادش رفت!",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "resident's",
-      "permit",
-      "what's"
+      "what's",
+      "permit"
      ],
      "suggestion": "What's a resident's permit?",
      "suggestionFa": "مجوز ساکنین چیه؟",
@@ -244,8 +244,8 @@
    "branches": [
     {
      "keywords": [
-      "hundred",
       "shocked",
+      "hundred",
       "forty",
       "will"
      ],
@@ -299,8 +299,8 @@
     {
      "keywords": [
       "ticket",
-      "can",
       "pay",
+      "can",
       "we"
      ],
      "suggestion": "Can we pay the ticket too?",
@@ -352,8 +352,8 @@
    "branches": [
     {
      "keywords": [
-      "price",
       "let's",
+      "price",
       "half",
       "now"
      ],
@@ -365,10 +365,10 @@
     },
     {
      "keywords": [
-      "first",
       "money",
+      "first",
       "i'll",
-      "ask"
+      "tom"
      ],
      "suggestion": "I'll ask Tom first. It's his money.",
      "suggestionFa": "اول از تام می‌پرسم. پول اونه.",

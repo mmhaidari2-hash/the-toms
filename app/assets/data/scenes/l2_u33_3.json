@@ -22,7 +22,7 @@
       "antibiotics",
       "ibuprofen",
       "doctor",
-      "them"
+      "gave"
      ],
      "suggestion": "Yes. The doctor gave me antibiotics. Can I take them with ibuprofen?",
      "suggestionFa": "آره. دکتر بهم آنتی‌بیوتیک داده. می‌تونم با ایبوپروفن بخورمشون؟",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "medicine",
       "question",
+      "medicine",
       "about",
       "have"
      ],
@@ -73,9 +73,9 @@
    "branches": [
     {
      "keywords": [
+      "food",
       "good",
-      "take",
-      "food"
+      "take"
      ],
      "suggestion": "Good. Do I take it with food?",
      "suggestionFa": "خوبه. با غذا بخورمش؟",
@@ -150,7 +150,7 @@
       "first",
       "times",
       "many",
-      "eat"
+      "day"
      ],
      "suggestion": "Eat first. OK. How many times a day?",
      "suggestionFa": "اول غذا. باشه. روزی چند بار؟",
@@ -206,9 +206,9 @@
     {
      "keywords": [
       "phone",
-      "seven",
       "alarm",
-      "i'll"
+      "seven",
+      "days"
      ],
      "suggestion": "Seven days. I'll set an alarm on my phone.",
      "suggestionFa": "هفت روز. رو گوشیم زنگ هشدار می‌ذارم.",
@@ -261,8 +261,8 @@
      "keywords": [
       "saturday",
       "party",
-      "tom",
-      "has"
+      "has",
+      "tom"
      ],
      "suggestion": "Tom has a party on Saturday…",
      "suggestionFa": "تام شنبه مهمونی داره…",
@@ -349,8 +349,8 @@
      "keywords": [
       "think",
       "much",
-      "how",
-      "pay"
+      "pay",
+      "how"
      ],
      "suggestion": "I pay, I think. How much is it?",
      "suggestionFa": "فکر کنم پولش را میدم. چنده؟",

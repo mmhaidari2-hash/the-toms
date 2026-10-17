@@ -73,8 +73,8 @@
      "keywords": [
       "that's",
       "hours",
-      "time",
-      "long"
+      "long",
+      "time"
      ],
      "suggestion": "Two hours! That's a long time.",
      "suggestionFa": "دو ساعت! زمان زیادیه.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "george",
-      "eats",
-      "five"
+      "five",
+      "eats"
      ],
      "suggestion": "Five? George eats five!",
      "suggestionFa": "پنج تا؟ جورج پنج تا می‌خوره!",
@@ -243,8 +243,8 @@
      "keywords": [
       "shall",
       "them",
-      "now",
-      "yet"
+      "yet",
+      "put"
      ],
      "suggestion": "Not yet. Shall I put them on now?",
      "suggestionFa": "هنوز نه. الان بذارم؟",
@@ -365,8 +365,8 @@
    "branches": [
     {
      "keywords": [
-      "knife",
       "table",
+      "knife",
       "right",
       "lay"
      ],
@@ -379,9 +379,9 @@
     {
      "keywords": [
       "cooking",
-      "keep",
       "door",
-      "open"
+      "open",
+      "keep"
      ],
      "suggestion": "I'll open the door. You keep cooking!",
      "suggestionFa": "من در را باز می‌کنم. تو آشپزی کن!",
@@ -442,8 +442,8 @@
      "keywords": [
       "everyone",
       "should",
-      "down",
-      "tell"
+      "tell",
+      "down"
      ],
      "suggestion": "Should I tell everyone to sit down?",
      "suggestionFa": "به همه بگم بشینن؟",

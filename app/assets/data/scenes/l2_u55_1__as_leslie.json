@@ -22,10 +22,10 @@
     {
      "keywords": [
       "screaming",
-      "reports",
       "tonight",
-      "thirty",
-      "ryan's"
+      "reports",
+      "ryan's",
+      "thirty"
      ],
      "suggestion": "The Wi-Fi's down! Again! I've got thirty reports to write tonight, and Ryan's screaming about his game. Can you help?",
      "suggestionFa": "وای‌فای قطعه! باز! امشب سی تا کارنامه باید بنویسم، و رایان سر بازیش داد می‌زنه. کمک می‌کنی؟",
@@ -49,8 +49,8 @@
       "everyone",
       "router's",
       "stairs",
-      "under",
-      "phone"
+      "tom's",
+      "under"
      ],
      "suggestion": "Everyone. Ryan, me, Tom's phone. The router's under the stairs. Tom says \"turn it off and on\", but I don't know which box.",
      "suggestionFa": "همه. رایان، من، گوشی تام. روتر زیر پله‌هاست. تام میگه «خاموش و روشنش کن»، ولی نمی‌دونم کدوم جعبه‌ست.",
@@ -74,8 +74,8 @@
       "seconds",
       "thirty",
       "lights",
-      "let's",
-      "count"
+      "count",
+      "again"
      ],
      "suggestion": "Red lights. Hmm. OK — off at the wall. Wait thirty seconds. Then on again. Let's count. One… two…",
      "suggestionFa": "چراغ قرمز. هوم. باشه — از پریز خاموشش کن. سی ثانیه صبر کن. بعد دوباره روشن. بیا بشمریم. یک… دو…",
@@ -100,7 +100,7 @@
       "shouting",
       "website",
       "orange",
-      "keeps"
+      "going"
      ],
      "suggestion": "Orange, then… red again. It keeps going red! Ryan! Stop shouting! Right — let's check the provider's website. On your phone data.",
      "suggestionFa": "نارنجی، بعد… باز قرمز. مدام قرمز میشه! رایان! داد نزن! خب — بیا سایت شرکت اینترنت را چک کنیم. با اینترنت گوشیت.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "reports",
       "hotspot",
-      "phone",
+      "reports",
       "hours",
-      "just"
+      "phone",
+      "nine"
      ],
      "suggestion": "Nine p.m.? Two hours! My reports! Can I use your phone as a hotspot? Just for half an hour?",
      "suggestionFa": "نه شب؟ دو ساعت! کارنامه‌هام! می‌تونم از گوشیت به‌عنوان هات‌اسپات استفاده کنم؟ فقط نیم ساعت؟",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "nothing",
       "looking",
+      "nothing",
       "outage",
-      "like",
-      "hero"
+      "read",
+      "like"
      ],
      "suggestion": "You're a hero. Ryan — it's an outage. Nothing we can do. Go and read a book! … He's looking at me like I'm mad.",
      "suggestionFa": "تو قهرمانی. رایان — قطعیه. کاری از دستمون برنمیاد. برو یه کتاب بخون! … طوری نگاهم می‌کنه انگار دیوونه‌ام.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "cheering",
-      "working",
       "minutes",
+      "working",
       "ryan's",
       "lights"
      ],
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "tonight's",
-      "between",
-      "hotspot",
       "website",
+      "hotspot",
+      "between",
       "lesson"
      ],
      "suggestion": "Thank you. Tonight's lesson: off and on, check the website, use a hotspot. And never, ever get between Ryan and his Wi-Fi!",

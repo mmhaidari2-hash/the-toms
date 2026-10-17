@@ -56,8 +56,8 @@
     {
      "keywords": [
       "under",
-      "name",
       "five",
+      "name",
       "tom"
      ],
      "suggestion": "Yes, under the name Tom, for five.",
@@ -118,8 +118,8 @@
     },
     {
      "keywords": [
-      "booked",
       "online",
+      "booked",
       "sure",
       "we"
      ],
@@ -206,7 +206,7 @@
       "possible",
       "that's",
       "would",
-      "fine"
+      "wait"
      ],
      "suggestion": "That's fine. Would it be possible to wait at the bar?",
      "suggestionFa": "اشکالی نداره. ممکنه کنار بار منتظر بمونیم؟",
@@ -217,9 +217,9 @@
     {
      "keywords": [
       "anything",
-      "sooner",
       "little",
-      "there"
+      "sooner",
+      "we've"
      ],
      "suggestion": "We've got a little girl. Is there anything sooner?",
      "suggestionFa": "یه دختر کوچولو داریم. زودتر نمیشه؟",

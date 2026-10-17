@@ -20,8 +20,8 @@
     {
      "keywords": [
       "please",
-      "how",
-      "use"
+      "use",
+      "how"
      ],
      "suggestion": "Yes, please. How do I use it?",
      "suggestionFa": "آره، لطفاً. چطوری ازش استفاده کنم؟",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "inside",
       "thirty",
-      "says",
+      "inside",
+      "door",
       "look"
      ],
      "suggestion": "Inside the door? Let me look. It says thirty-two.",
@@ -131,8 +131,8 @@
      "keywords": [
       "taken",
       "i've",
-      "off",
-      "now"
+      "now",
+      "off"
      ],
      "suggestion": "I've taken it off. Now what?",
      "suggestionFa": "برداشتمش. حالا چی؟",
@@ -143,8 +143,8 @@
     {
      "keywords": [
       "where's",
-      "can't",
       "valve",
+      "can't",
       "see"
      ],
      "suggestion": "Where's the valve? I can't see it.",
@@ -207,8 +207,8 @@
     {
      "keywords": [
       "happening",
-      "working",
-      "nothing"
+      "nothing",
+      "working"
      ],
      "suggestion": "Nothing is happening. Is it working?",
      "suggestionFa": "هیچ اتفاقی نمی‌افته. کار می‌کنه؟",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "here",
-      "can",
-      "fix"
+      "fix",
+      "can"
      ],
      "suggestion": "Can you fix it here?",
      "suggestionFa": "اینجا می‌تونید درستش کنید؟",
@@ -364,9 +364,9 @@
     {
      "keywords": [
       "puncture",
-      "i'll",
       "tell",
-      "now"
+      "i'll",
+      "tom"
      ],
      "suggestion": "A puncture. I'll tell Tom now.",
      "suggestionFa": "پنچری. الان به تام میگم.",

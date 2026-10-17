@@ -1,0 +1,362 @@
+{
+ "id": "l2_u61_3",
+ "characterId": "weda",
+ "title": "A wasp sting",
+ "titleFa": "نیش زنبور",
+ "setting": "Accidents and injuries · Level 2",
+ "settingFa": "حادثه و آسیب",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "weda",
+   "text": "Ooh! Ooh, you little devil! A wasp's stung me. On my arm. Right through my cardigan! Can you have a look, love?",
+   "translations": {
+    "fa": "اوه! اوه، ای شیطون کوچولو! یه زنبور نیشم زد. رو بازوم. درست از روی ژاکتم! می‌تونی یه نگاه بندازی عزیزم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "exactly",
+      "where",
+      "see",
+      "oh"
+     ],
+     "suggestion": "Oh no! Let me see. Where exactly?",
+     "suggestionFa": "وای نه! بذار ببینم. دقیقاً کجا؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "maggie",
+      "down",
+      "look",
+      "sit"
+     ],
+     "suggestion": "Sit down, Maggie. Let me look.",
+     "suggestionFa": "بشین مگی. بذار نگاه کنم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "devil",
+     "fa": "شیطان"
+    },
+    {
+     "word": "wasp",
+     "fa": "زنبور"
+    },
+    {
+     "word": "stung",
+     "fa": "نیش زد"
+    },
+    {
+     "word": "cardigan",
+     "fa": "ژاکت دکمه‌دار"
+    },
+    {
+     "word": "love",
+     "fa": "عزیزم"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "a wasp sting me",
+      "i was sting"
+     ],
+     "echo": "A wasp stung you? Let me see!",
+     "better": "A wasp has stung me.",
+     "betterFa": "یک زنبور نیشم زد."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "weda",
+   "text": "Just here. It's red and it stings like nobody's business. Wasps don't leave a sting behind, do they? Bees do.",
+   "translations": {
+    "fa": "همین‌جا. قرمزه و خیلی می‌سوزه. زنبورها نیششون را جا نمی‌ذارن، نه؟ زنبور عسل‌ها جا می‌ذارن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "there",
+      "wasp",
+      "was"
+     ],
+     "suggestion": "No sting in there. It was definitely a wasp.",
+     "suggestionFa": "نیشی اون تو نیست. قطعاً زنبور بود.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "can't",
+      "spot",
+      "just",
+      "red"
+     ],
+     "suggestion": "I can't see a sting. Just a red spot.",
+     "suggestionFa": "نیش نمی‌بینم. فقط یه نقطهٔ قرمز.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stings",
+     "fa": "می‌سوزد ؛ نیش می‌زند"
+    },
+    {
+     "word": "like nobody's business",
+     "fa": "خیلی زیاد"
+    },
+    {
+     "word": "leave behind",
+     "fa": "جا گذاشتن"
+    },
+    {
+     "word": "bees",
+     "fa": "زنبورهای عسل"
+    }
+   ],
+   "cultureNote": {
+    "en": "A bee usually leaves its sting in the skin: scrape it out sideways with a fingernail or card. Wasps don't leave a sting, so they can sting again.",
+    "fa": "زنبور عسل نیشش را جا می‌گذارد؛ آن را با ناخن یا کارت از کنار بیرون بیاورید."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "weda",
+   "text": "Good. Now, a cold flannel, please. In the bathroom. That's what my mum always did. And maybe a cup of tea. For the shock.",
+   "translations": {
+    "fa": "خوبه. حالا، یه دستمال سرد، لطفاً. تو حموم. مامانم همیشه این کار را می‌کرد. و شاید یه فنجون چای. برای شوک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "flannel",
+      "here's",
+      "cold",
+      "hold"
+     ],
+     "suggestion": "Here's a cold flannel. Hold it on your arm.",
+     "suggestionFa": "بفرما یه دستمال سرد. رو بازوت نگهش دار.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "kettle's",
+      "allergic",
+      "stings"
+     ],
+     "suggestion": "Kettle's on! Are you allergic to stings?",
+     "suggestionFa": "کتری روشنه! به نیش حساسیت داری؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "flannel",
+     "fa": "دستمال صورت"
+    },
+    {
+     "word": "bathroom",
+     "fa": "حمام"
+    },
+    {
+     "word": "shock",
+     "fa": "شوک"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "weda",
+   "text": "Allergic? No, love. Seventy-one years and lots of stings. But if your lips swell up, or you can't breathe — that's 999.",
+   "translations": {
+    "fa": "حساسیت؟ نه عزیزم. هفتاد و یک سال و کلی نیش. ولی اگه لبت ورم کنه یا نتونی نفس بکشی — اون ۹۹۹ه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "remember",
+      "breathe",
+      "can't",
+      "i'll"
+     ],
+     "suggestion": "999 if you can't breathe. I'll remember that.",
+     "suggestionFa": "۹۹۹ اگه نتونی نفس بکشی. یادم می‌مونه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "bigger",
+      "looks",
+      "arm",
+      "bit"
+     ],
+     "suggestion": "Your arm looks a bit bigger now.",
+     "suggestionFa": "الان بازوت یه کم بزرگ‌تر به نظر میاد.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allergic",
+     "fa": "حساس ؛ آلرژیک"
+    },
+    {
+     "word": "lips",
+     "fa": "لب‌ها"
+    },
+    {
+     "word": "swell up",
+     "fa": "ورم کردن"
+    },
+    {
+     "word": "breathe",
+     "fa": "نفس کشیدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Call 999 if someone has trouble breathing, a swollen face or throat, or feels faint after a sting. This is an emergency called anaphylaxis.",
+    "fa": "اگر بعد از نیش تنفس سخت شد یا صورت ورم کرد، با ۹۹۹ تماس بگیرید؛ این شوک آنافیلاکسی است."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "weda",
+   "text": "A bit bigger, yes. Normal swelling. If it's getting worse tomorrow, I'll ask the pharmacist. Mr Dawson's very good with stings.",
+   "translations": {
+    "fa": "یه کم بزرگ‌تر، آره. ورم عادیه. اگه فردا بدتر شد، از داروساز می‌پرسم. آقای داوسون با نیش خیلی واردِه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pharmacist",
+      "cream",
+      "give",
+      "can"
+     ],
+     "suggestion": "The pharmacist can give you a cream.",
+     "suggestionFa": "داروساز می‌تونه بهت کرم بده.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "antihistamine",
+      "shall",
+      "get"
+     ],
+     "suggestion": "Shall I get you an antihistamine?",
+     "suggestionFa": "برات آنتی‌هیستامین بیارم؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swelling",
+     "fa": "ورم"
+    },
+    {
+     "word": "getting worse",
+     "fa": "بدتر شدن"
+    },
+    {
+     "word": "pharmacist",
+     "fa": "داروساز"
+    },
+    {
+     "word": "antihistamine",
+     "fa": "آنتی‌هیستامین"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "weda",
+   "text": "An antihistamine would be lovely. Top drawer, next to George's pills. Thank you, love. You're a better nurse than my George!",
+   "translations": {
+    "fa": "آنتی‌هیستامین عالیه. کشوی بالا، کنار قرص‌های جرج. ممنون عزیزم. تو از جرج من پرستار بهتری هستی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "george",
+      "don't",
+      "tell",
+      "ha"
+     ],
+     "suggestion": "Ha! Don't tell George.",
+     "suggestionFa": "ها! به جرج نگو.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "here",
+      "tea"
+     ],
+     "suggestion": "Here you are. And your tea!",
+     "suggestionFa": "بفرما. و چایت!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "tablet",
+     "fa": "قرص"
+    },
+    {
+     "word": "drawer",
+     "fa": "کشو"
+    },
+    {
+     "word": "pills",
+     "fa": "قرص‌ها"
+    },
+    {
+     "word": "nurse",
+     "fa": "پرستار"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "weda",
+   "text": "Lovely. Now, where's that wasp? Ah — by the jam. Of course. Shut the window, love, before he brings his friends.",
+   "translations": {
+    "fa": "عالی. حالا، اون زنبوره کجاست؟ آه — کنار مربا. معلومه. پنجره را ببند عزیزم، قبل از اینکه دوستاش را بیاره."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -23,9 +23,9 @@
      "keywords": [
       "school",
       "about",
-      "today",
       "socks",
-      "know"
+      "today",
+      "says"
      ],
      "suggestion": "Is it \"Odd Socks Day\" at school today? Mum says it is. Do you know about it?",
      "suggestionFa": "امروز تو مدرسه «روز جوراب لنگه به لنگه»ست؟ مامان می‌گه هست. چیزی دربارهش می‌دونی؟",
@@ -50,7 +50,7 @@
       "bullying",
       "match",
       "means",
-      "don't"
+      "socks"
      ],
      "suggestion": "Odd means they don't match. Two different socks! It's for anti-bullying week.",
      "suggestionFa": "اود یعنی جور نیستن. دو تا جوراب متفاوت! برای هفتهٔ مبارزه با قلدریه.",
@@ -100,7 +100,7 @@
       "nicola's",
       "stripes",
       "nice",
-      "got"
+      "one"
      ],
      "suggestion": "Stripes! Nice. And this one has got dinosaurs on it. It's Nicola's old one!",
      "suggestionFa": "راه‌راه! خوبه. و این یکی دایناسور داره. مال قدیمی نیکولاست!",
@@ -149,8 +149,8 @@
       "everyone",
       "trousers",
       "uniform",
-      "jumper",
-      "school"
+      "school",
+      "jumper"
      ],
      "suggestion": "It's school uniform! Grey trousers, black jumper. Everyone looks the same.",
      "suggestionFa": "لباس فرم مدرسه‌ست! شلوار طوسی، ژاکت مشکی. همه شکل همن.",
@@ -174,7 +174,7 @@
       "sometimes",
       "school",
       "socks",
-      "hate",
+      "wear",
       "ties"
      ],
      "suggestion": "Most do. My school has a tie too. I hate ties! Do you wear odd socks sometimes?",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
+      "socks",
       "right",
       "every",
-      "socks",
       "late",
-      "bye"
+      "tie"
      ],
      "suggestion": "Ha! Every day is Odd Socks Day for you! Right, I'm late. Socks on, tie on — bye!",
      "suggestionFa": "ها! هر روز برای تو روز جوراب ناجوره! خب، دیرم شد. جوراب پام، کراوات گردنم — خداحافظ!",

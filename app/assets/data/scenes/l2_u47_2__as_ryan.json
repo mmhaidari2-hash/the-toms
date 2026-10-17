@@ -23,9 +23,9 @@
      "keywords": [
       "headphones",
       "birthday",
+      "better",
       "choose",
-      "eighty",
-      "better"
+      "eighty"
      ],
      "suggestion": "Right. Birthday money: eighty quid. I need new headphones. These two. Help me choose. Which one's better?",
      "suggestionFa": "خب. پول تولد: هشتاد پوند. هدفون جدید لازم دارم. این دو تا. کمکم کن انتخاب کنم. کدوم بهتره؟",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "lighter",
-      "they're",
       "heavier",
       "battery",
-      "louder"
+      "lighter",
+      "they're",
+      "longer"
      ],
      "suggestion": "The black ones are louder and the battery lasts longer — thirty hours. But they're heavier. The white ones are lighter.",
      "suggestionFa": "مشکیه صداش بلندتره و باتریش بیشتر دووم میاره — سی ساعت. ولی سنگین‌ترن. سفیده سبک‌ترن.",
@@ -74,8 +74,8 @@
       "announcements",
       "cancelling",
       "anything",
-      "can't",
-      "noise"
+      "dad's",
+      "can't"
      ],
      "suggestion": "True. And the white ones have noise cancelling. On the bus, you can't hear anything. Dad's announcements — gone!",
      "suggestionFa": "درسته. و سفیده حذف نویز داره. تو اتوبوس هیچی نمی‌شنوی. اعلام‌های بابا — رفت!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "quieter",
-      "outside",
       "seventy",
+      "outside",
+      "quieter",
       "blocks",
-      "black"
+      "sixty"
      ],
      "suggestion": "It blocks outside noise. Quieter world. Yeah, the white ones are seventy-five. The black are sixty.",
      "suggestionFa": "صدای بیرون را می‌بنده. دنیای آروم‌تر. آره، سفیده هفتاد و پنجه. مشکیه شصت.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "trying",
+      "point",
       "black",
       "can't",
-      "point",
-      "white"
+      "comfy"
      ],
      "suggestion": "Black ones: four point one. Not as good. OK, trying them on… The white ones are so comfy. I can't hear you at all!",
      "suggestionFa": "مشکیه: چهار و یک دهم. نه به اون خوبی. باشه، دارم امتحانشون می‌کنم… سفیده خیلی راحته. اصلاً صدات را نمی‌شنوم!",
@@ -175,7 +175,7 @@
       "better",
       "right",
       "sorry",
-      "money"
+      "white"
      ],
      "suggestion": "Ha! Sorry. Right — white ones. More money, but much better. The more you pay, the better they are. Usually.",
      "suggestionFa": "ها! ببخشید. خب — سفیده. پول بیشتر، ولی خیلی بهتر. هر چی بیشتر پول بدی، بهترن. معمولاً.",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "cheapest",
-      "sausage",
       "helping",
+      "sausage",
       "perfect",
       "shopper"
      ],

@@ -21,8 +21,8 @@
      "keywords": [
       "ladder",
       "wrist",
-      "hurt",
-      "fell"
+      "fell",
+      "hurt"
      ],
      "suggestion": "I fell off a ladder and hurt my wrist.",
      "suggestionFa": "از نردبون افتادم و مچم آسیب دید.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "cooking",
-      "while",
       "badly",
+      "while",
       "hand"
      ],
      "suggestion": "I cut my hand badly while I was cooking.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "throbbing",
-      "about",
-      "seven"
+      "seven",
+      "about"
      ],
      "suggestion": "About a seven. It's throbbing.",
      "suggestionFa": "حدود هفت. ضربان داره.",
@@ -140,7 +140,7 @@
     {
      "keywords": [
       "still",
-      "nine",
+      "move",
       "five",
       "when"
      ],
@@ -193,8 +193,8 @@
      "keywords": [
       "numbness",
       "hurts",
-      "them",
-      "move"
+      "move",
+      "them"
      ],
      "suggestion": "I can move them, but it hurts. No numbness.",
      "suggestionFa": "می‌تونم تکونشون بدم، ولی درد داره. بی‌حسی نه.",
@@ -247,8 +247,8 @@
      "keywords": [
       "paracetamol",
       "allergies",
-      "took",
-      "half"
+      "half",
+      "took"
      ],
      "suggestion": "I took two paracetamol at half one. No allergies.",
      "suggestionFa": "ساعت یک و نیم دو تا پاراستامول خوردم. حساسیت ندارم.",
@@ -295,9 +295,9 @@
    "branches": [
     {
      "keywords": [
+      "wait",
       "long",
       "will",
-      "wait",
       "how"
      ],
      "suggestion": "How long will I have to wait?",
@@ -399,8 +399,8 @@
      "keywords": [
       "while",
       "drink",
-      "will",
-      "wait"
+      "wait",
+      "will"
      ],
      "suggestion": "I will. Can I eat or drink while I wait?",
      "suggestionFa": "حتماً. موقع انتظار می‌تونم بخورم یا بنوشم؟",

@@ -1,0 +1,371 @@
+{
+ "id": "l2_u58_3",
+ "characterId": "leslie",
+ "title": "Popcorn and seats",
+ "titleFa": "پاپ‌کورن و جا",
+ "setting": "Cinema and TV · Level 2",
+ "settingFa": "سینما و تلویزیون",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "It's raining, so cinema at home today! Pop the popcorn, I'll do the cushions. William's in charge of the remote. Help!",
+   "translations": {
+    "fa": "داره بارون میاد، پس امروز سینمای خونگی! پاپ‌کورن را درست کن، من کوسن‌ها را میارم. ویلیام مسئول کنترله. کمک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "popcorn",
+      "salted",
+      "sweet",
+      "ok"
+     ],
+     "suggestion": "OK! Sweet or salted popcorn?",
+     "suggestionFa": "باشه! پاپ‌کورن شیرین یا شور؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "remote",
+      "please",
+      "give"
+     ],
+     "suggestion": "William, give me the remote, please!",
+     "suggestionFa": "ویلیام، کنترل را بده به من، لطفاً!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pop",
+     "fa": "ترکاندن ؛ درست کردن"
+    },
+    {
+     "word": "cushions",
+     "fa": "کوسن‌ها"
+    },
+    {
+     "word": "in charge of",
+     "fa": "مسئول"
+    },
+    {
+     "word": "remote",
+     "fa": "کنترل تلویزیون"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "No! MY remote! I'm the boss!",
+   "translations": {
+    "fa": "نه! کنترل من! من رئیسم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "which",
+      "want",
+      "boss",
+      "film"
+     ],
+     "suggestion": "OK, boss. Which film do you want?",
+     "suggestionFa": "باشه رئیس. کدوم فیلم را می‌خوای؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "popcorn",
+      "after",
+      "have",
+      "can"
+     ],
+     "suggestion": "Can I have it after the popcorn?",
+     "suggestionFa": "بعد از پاپ‌کورن بدیش به من؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boss",
+     "fa": "رئیس"
+    },
+    {
+     "word": "after",
+     "fa": "بعد از"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "william",
+   "text": "Paddington! Paddington! Bear film!",
+   "translations": {
+    "fa": "پدینگتون! پدینگتون! فیلم خرس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "again",
+      "ok"
+     ],
+     "suggestion": "Paddington again? OK!",
+     "suggestionFa": "باز پدینگتون؟ باشه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "choice",
+      "good"
+     ],
+     "suggestion": "Good choice, William. Paddington it is.",
+     "suggestionFa": "انتخاب خوبیه ویلیام. پدینگتون پس.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "choice",
+     "fa": "انتخاب"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Sixth time this month! Right. Popcorn — sweet or salted? In this house, the answer is \"both, mixed together\".",
+   "translations": {
+    "fa": "ششمین بار این ماه! خب. پاپ‌کورن — شیرین یا شور؟ تو این خونه، جوابش «هر دو، قاطی» است."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "strange",
+      "that's",
+      "mixed"
+     ],
+     "suggestion": "Both, mixed together? That's strange.",
+     "suggestionFa": "هر دو قاطی؟ عجیبه.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "salted",
+      "sweet",
+      "like"
+     ],
+     "suggestion": "Sweet AND salted. I like it!",
+     "suggestionFa": "شیرین و شور. خوشم میاد!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sweet",
+     "fa": "شیرین"
+    },
+    {
+     "word": "salted",
+     "fa": "شور"
+    },
+    {
+     "word": "mixed together",
+     "fa": "قاطی شده"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK cinemas you're usually asked \"sweet or salted?\" for popcorn. Mixing both is very popular.",
+    "fa": "در سینماهای بریتانیا معمولاً می‌پرسند پاپ‌کورن شیرین یا شور؛ مخلوط هر دو هم محبوب است."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i like the sweet and salty both",
+      "sweet or salt both"
+     ],
+     "echo": "Sweet and salted? The best!",
+     "better": "I like it sweet and salted.",
+     "betterFa": "شیرین و شورش را دوست دارم."
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Don't knock it till you've tried it. Now, seats. Nicola wants the beanbag, William wants my lap, and Tom wants the big chair.",
+   "translations": {
+    "fa": "تا امتحان نکردی ایراد نگیر. حالا جاها. نیکولا پف را می‌خواد، ویلیام بغل من را، و تام صندلی بزرگه را."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "next",
+      "sofa",
+      "can"
+     ],
+     "suggestion": "Can I sit next to William on the sofa?",
+     "suggestionFa": "می‌تونم کنار ویلیام رو مبل بشینم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "where's",
+      "going",
+      "ryan"
+     ],
+     "suggestion": "Where's Ryan going to sit?",
+     "suggestionFa": "رایان کجا می‌شینه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "don't knock it",
+     "fa": "ایراد نگیر"
+    },
+    {
+     "word": "beanbag",
+     "fa": "پف (صندلی)"
+    },
+    {
+     "word": "lap",
+     "fa": "بغل ؛ روی پا"
+    },
+    {
+     "word": "sofa",
+     "fa": "مبل"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ryan? Upstairs, \"too old for Paddington\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
+   "translations": {
+    "fa": "رایان؟ طبقهٔ بالا، «برای پدینگتون زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "teenager",
+      "typical",
+      "ha"
+     ],
+     "suggestion": "Ha! Typical teenager.",
+     "suggestionFa": "ها! نوجوون معمولی.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "popcorn",
+      "save",
+      "some",
+      "i'll"
+     ],
+     "suggestion": "I'll save him some popcorn.",
+     "suggestionFa": "یه کم پاپ‌کورن براش نگه می‌دارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "Shh! It's starting! Shh, everyone!",
+   "translations": {
+    "fa": "هیس! داره شروع میشه! هیس، همه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "sorry",
+      "shh"
+     ],
+     "suggestion": "Shh! Sorry, William.",
+     "suggestionFa": "هیس! ببخشید ویلیام.",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "everyone",
+      "quiet",
+      "ok"
+     ],
+     "suggestion": "OK, OK. Quiet, everyone!",
+     "suggestionFa": "باشه باشه. همه ساکت!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "pretending",
+     "fa": "وانمود کردن"
+    },
+    {
+     "word": "starting",
+     "fa": "شروع شدن"
+    },
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ha — look. Footsteps on the stairs. \"I'm just getting some water.\" Sit down, Ryan. There's popcorn.",
+   "translations": {
+    "fa": "ها — ببین. صدای پا رو پله‌ها. «فقط دارم آب برمی‌دارم.» بشین رایان. پاپ‌کورن هست."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

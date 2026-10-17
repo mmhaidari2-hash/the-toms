@@ -22,7 +22,7 @@
       "three",
       "close",
       "eyes",
-      "one"
+      "two"
      ],
      "suggestion": "OK. Close my eyes… one, two, three…",
      "suggestionFa": "باشه. چشمامو می‌بندم… یک، دو، سه…",
@@ -69,8 +69,8 @@
     {
      "keywords": [
       "ready",
-      "here",
-      "come"
+      "come",
+      "here"
      ],
      "suggestion": "Ready or not, here I come!",
      "suggestionFa": "حاضر باشی یا نه، دارم میام!",
@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "table",
-      "under"
+      "under",
+      "table"
      ],
      "suggestion": "Is she under the table?",
      "suggestionFa": "زیر میزه؟",
@@ -216,9 +216,9 @@
     {
      "keywords": [
       "feet",
-      "can",
       "see",
-      "two"
+      "two",
+      "can"
      ],
      "suggestion": "I can see two feet!",
      "suggestionFa": "دو تا پا می‌بینم!",

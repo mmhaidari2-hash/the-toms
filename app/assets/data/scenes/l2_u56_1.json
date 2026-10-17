@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "which",
+      "don't",
       "know",
       "how"
      ],
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "black",
       "green",
+      "black",
       "last",
       "was"
      ],
@@ -76,7 +76,7 @@
       "tonight",
       "which",
       "then",
-      "out"
+      "bin"
      ],
      "suggestion": "Which bin goes out tonight, then?",
      "suggestionFa": "پس امشب کدوم سطل بیرون میره؟",
@@ -144,8 +144,8 @@
      "keywords": [
       "rubbish",
       "rinsed",
-      "have",
-      "wash"
+      "wash",
+      "have"
      ],
      "suggestion": "Rinsed? I have to wash the rubbish?",
      "suggestionFa": "شسته؟ باید زباله را بشورم؟",
@@ -201,9 +201,9 @@
     {
      "keywords": [
       "greasy",
-      "green",
+      "clean",
       "black",
-      "clean"
+      "green"
      ],
      "suggestion": "Greasy in black, clean in green. Got it.",
      "suggestionFa": "چرب تو مشکی، تمیز تو سبز. فهمیدم.",
@@ -256,8 +256,8 @@
    "branches": [
     {
      "keywords": [
-      "handle",
       "facing",
+      "handle",
       "road",
       "done"
      ],
@@ -272,7 +272,7 @@
       "khan's",
       "shall",
       "hers",
-      "out"
+      "put"
      ],
      "suggestion": "And Mrs Khan's bin? Shall I put hers out too?",
      "suggestionFa": "و سطل خانم خان؟ مال اون را هم بیرون بذارم؟",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "missed",
-      "us",
-      "we"
+      "we",
+      "us"
      ],
      "suggestion": "Missed us? What do we do?",
      "suggestionFa": "جا انداختن؟ چی کار کنیم؟",
@@ -329,7 +329,7 @@
       "khan's",
       "empty",
       "only",
-      "full"
+      "ours"
      ],
      "suggestion": "Mrs Khan's bin is empty. Only ours is full!",
      "suggestionFa": "سطل خانم خان خالیه. فقط مال ما پره!",
@@ -373,8 +373,8 @@
      "keywords": [
       "maggie",
       "month",
-      "know",
-      "last"
+      "last",
+      "nana"
      ],
      "suggestion": "I know! I did it for Nana Maggie last month.",
      "suggestionFa": "می‌دونم! ماه پیش برای نانا مگی انجامش دادم.",

@@ -20,8 +20,8 @@
     {
      "keywords": [
       "yoghurt",
-      "more",
       "have",
+      "more",
       "any"
      ],
      "suggestion": "Have you got any more of this yoghurt?",
@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "shelf",
       "empty",
+      "shelf",
       "sold",
       "out"
      ],
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "please",
-      "check",
-      "could"
+      "could",
+      "check"
      ],
      "suggestion": "Could you check in the back, please?",
      "suggestionFa": "میشه لطفاً تو انبار را نگاه کنید؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "stock",
-      "will",
       "when",
+      "will",
       "out"
      ],
      "suggestion": "Out of stock? When will it be back?",
@@ -152,8 +152,8 @@
      "keywords": [
       "lunchtime",
       "morning",
-      "i'll",
-      "come"
+      "come",
+      "i'll"
      ],
      "suggestion": "Six in the morning? I'll come at lunchtime.",
      "suggestionFa": "شش صبح؟ ظهر میام.",
@@ -351,8 +351,8 @@
     {
      "keywords": [
       "free",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "Three for two? So one is free?",
      "suggestionFa": "سه تا به قیمت دو تا؟ یعنی یکیش مجانیه؟",
@@ -362,8 +362,8 @@
     },
     {
      "keywords": [
-      "packs",
       "great",
+      "packs",
       "take",
       "i'll"
      ],

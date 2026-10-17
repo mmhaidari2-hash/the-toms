@@ -24,7 +24,7 @@
       "nicola's",
       "tummy",
       "she's",
-      "sofa",
+      "dear",
       "ache"
      ],
      "suggestion": "Oh dear. Nicola's got a tummy ache. She's on the sofa. Can you sit with her?",
@@ -150,8 +150,8 @@
    "branches": [
     {
      "keywords": [
-      "question",
       "somebody",
+      "question",
       "that's",
       "found",
       "party"
@@ -232,10 +232,10 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
       "sweets",
-      "small",
+      "you'll",
       "water",
+      "small",
       "today"
      ],
      "suggestion": "You'll be fine, pet. Small sips of water. And no more sweets today!",

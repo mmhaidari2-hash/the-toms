@@ -24,8 +24,8 @@
       "everyone",
       "minutes",
       "right",
-      "shoes",
-      "leave"
+      "leave",
+      "shoes"
      ],
      "suggestion": "Right, everyone! Shoes on! Coats on! We leave in five minutes!",
      "suggestionFa": "خب همه! کفش‌ها پا! کت‌ها تن! پنج دقیقه دیگه راه می‌افتیم!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "please",
-      "help",
+      "nicola",
+      "coat",
       "cold",
-      "coat"
+      "help"
      ],
      "suggestion": "Can you help Nicola? Put her coat on, please. Zip it up — it's cold.",
      "suggestionFa": "به نیکولا کمک می‌کنی؟ لطفاً کتش را تنش کن. زیپش را بکش — سرده.",
@@ -219,8 +219,8 @@
       "william",
       "don't",
       "down",
-      "got",
-      "put"
+      "put",
+      "has"
      ],
      "suggestion": "William, don't eat that! Put it down! What has he got?",
      "suggestionFa": "ویلیام، اونو نخور! بذارش زمین! چی دستشه؟",
@@ -242,10 +242,10 @@
     {
      "keywords": [
       "behind",
-      "let's",
       "check",
+      "let's",
       "close",
-      "phew"
+      "keys"
      ],
      "suggestion": "Phew. OK — bags? Check. Keys? Check. Let's go! Close the door behind you!",
      "suggestionFa": "آخیش. خب — کیف‌ها؟ هست. کلیدها؟ هست. بریم! در را پشت سرت ببند!",
@@ -270,7 +270,7 @@
       "morning",
       "thanks",
       "every",
-      "like"
+      "love"
      ],
      "suggestion": "Good thinking. Every morning is like this! Thanks for your help, love.",
      "suggestionFa": "فکر خوبیه. هر صبح همینطوره! ممنون از کمکت عزیزم.",

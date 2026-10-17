@@ -155,8 +155,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
-      "take"
+      "take",
+      "time"
      ],
      "suggestion": "Take your time.",
      "suggestionFa": "عجله نکن.",
@@ -296,8 +296,8 @@
     {
      "keywords": [
       "drinks",
-      "carry",
       "cakes",
+      "carry",
       "i'll"
      ],
      "suggestion": "I'll carry the drinks. You carry the cakes.",
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
-      "can",
       "try",
-      "bit"
+      "bit",
+      "can"
      ],
      "suggestion": "Can I try a bit?",
      "suggestionFa": "می‌تونم یه کم امتحان کنم؟",

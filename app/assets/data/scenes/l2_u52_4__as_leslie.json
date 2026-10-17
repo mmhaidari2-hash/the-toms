@@ -24,8 +24,8 @@
       "sophie's",
       "packing",
       "morning",
-      "check",
-      "tom's"
+      "tom's",
+      "check"
      ],
      "suggestion": "Last morning! Sad. Can you help me check out? Tom's packing the car — badly. Sophie's at the desk.",
      "suggestionFa": "آخرین صبح! غمگینه. کمکم می‌کنی تسویه کنیم؟ تام داره ماشین را می‌چینه — بد. سوفی پشت میزه.",
@@ -95,10 +95,10 @@
    "branches": [
     {
      "keywords": [
-      "hundred",
       "minibar",
-      "ninety",
+      "hundred",
       "pounds",
+      "ninety",
       "what's"
      ],
      "suggestion": "Let me look… Three hundred and ninety pounds. Ah — what's this? \"Minibar, eight pounds\"? We didn't use the minibar.",
@@ -121,8 +121,8 @@
     {
      "keywords": [
       "anything",
-      "little",
       "course",
+      "little",
       "fridge",
       "from"
      ],
@@ -208,8 +208,8 @@
    "branches": [
     {
      "keywords": [
-      "correct",
       "learned",
+      "correct",
       "lesson",
       "bill's",
       "leave"
@@ -301,8 +301,8 @@
       "definitely",
       "breakfast",
       "auntie's",
-      "lovely",
-      "review"
+      "review",
+      "sophie"
      ],
      "suggestion": "Sophie, it was lovely. Your auntie's breakfast — wow. We'll definitely come back. Can I leave a review?",
      "suggestionFa": "سوفی، عالی بود. صبحانهٔ خاله‌ات — وای. حتماً برمی‌گردیم. می‌تونم یه نظر بنویسم؟",
@@ -382,8 +382,8 @@
    "branches": [
     {
      "keywords": [
-      "special",
       "mention",
+      "special",
       "dinner",
       "sophie",
       "drive"

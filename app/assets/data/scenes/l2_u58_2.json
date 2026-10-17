@@ -1,0 +1,347 @@
+{
+ "id": "l2_u58_2",
+ "characterId": "leslie",
+ "title": "Buying tickets online",
+ "titleFa": "خرید بلیت آنلاین",
+ "setting": "Cinema and TV · Level 2",
+ "settingFa": "سینما و تلویزیون",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "The new Paddington film's out! The Hackney Picturehouse has it on Saturday. Can you help me book? The website hates me.",
+   "translations": {
+    "fa": "فیلم جدید پدینگتون اومده! سینمای هکنی پیکچرهاوس شنبه داره. کمکم می‌کنی رزرو کنم؟ سایتش ازم متنفره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "afternoon",
+      "showing",
+      "morning",
+      "which"
+     ],
+     "suggestion": "Sure. Which showing? Morning or afternoon?",
+     "suggestionFa": "حتماً. کدوم سانس؟ صبح یا عصر؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tickets",
+      "course",
+      "many",
+      "how"
+     ],
+     "suggestion": "Of course. How many tickets?",
+     "suggestionFa": "البته. چند تا بلیت؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "out",
+     "fa": "اکران شده ؛ آمده"
+    },
+    {
+     "word": "showing",
+     "fa": "سانس"
+    },
+    {
+     "word": "website",
+     "fa": "وب‌سایت"
+    },
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "The eleven a.m. Before William's nap — or he'll scream. Tickets: two adults and three children. Is Ryan a child? He's fifteen.",
+   "translations": {
+    "fa": "ساعت یازده صبح. قبل از خواب ویلیام — وگرنه جیغ می‌زنه. بلیت: دو بزرگسال و سه بچه. رایان بچه حساب میشه؟ پونزده سالشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "child",
+      "adult",
+      "under",
+      "ryan"
+     ],
+     "suggestion": "It says \"Child: under 15\". So Ryan is an adult.",
+     "suggestionFa": "نوشته «کودک: زیر ۱۵». پس رایان بزرگساله.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "discount",
+      "families",
+      "there"
+     ],
+     "suggestion": "Is there a discount for families?",
+     "suggestionFa": "برای خانواده‌ها تخفیف هست؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nap",
+     "fa": "چرت ؛ خواب کوتاه"
+    },
+    {
+     "word": "scream",
+     "fa": "جیغ زدن"
+    },
+    {
+     "word": "adults",
+     "fa": "بزرگسالان"
+    },
+    {
+     "word": "discount",
+     "fa": "تخفیف"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "An adult! He'll love that. Ooh — and is there a family ticket? Four people for one price? Have a look.",
+   "translations": {
+    "fa": "بزرگسال! خوشش میاد. اوه — و بلیت خانوادگی هست؟ چهار نفر با یه قیمت؟ یه نگاه بنداز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "family",
+      "ticket",
+      "adult",
+      "extra"
+     ],
+     "suggestion": "Yes, a family ticket for four. Plus one extra adult.",
+     "suggestionFa": "آره، یه بلیت خانوادگی برای چهار نفر. به‌اضافهٔ یه بزرگسال اضافه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "threes",
+      "under",
+      "free"
+     ],
+     "suggestion": "And William is free! Under threes go free.",
+     "suggestionFa": "و ویلیام مجانیه! زیر سه سال مجانیه.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "family ticket",
+     "fa": "بلیت خانوادگی"
+    },
+    {
+     "word": "price",
+     "fa": "قیمت"
+    },
+    {
+     "word": "extra",
+     "fa": "اضافه"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "is there discount to family",
+      "there is a family discount?"
+     ],
+     "echo": "Is there a family discount? Let's see!",
+     "better": "Is there a discount for families?",
+     "betterFa": "برای خانواده‌ها تخفیف هست؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "He turned three last month, so no! Family ticket plus one adult — Tom or me. Now, seats. Where would you like to sit?",
+   "translations": {
+    "fa": "ماه پیش سه سالش شد، پس نه! بلیت خانوادگی به‌اضافهٔ یه بزرگسال — تام یا من. حالا جاها. کجا می‌خوای بشینی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "front",
+      "hurts",
+      "neck"
+     ],
+     "suggestion": "Not at the front. It hurts my neck.",
+     "suggestionFa": "جلو نه. گردنم درد می‌گیره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "toilet",
+      "middle",
+      "aisle",
+      "near"
+     ],
+     "suggestion": "In the middle, near the aisle. For the toilet!",
+     "suggestionFa": "وسط، نزدیک راهرو. برای دستشویی!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "turned three",
+     "fa": "سه ساله شد"
+    },
+    {
+     "word": "seats",
+     "fa": "صندلی‌ها ؛ جاها"
+    },
+    {
+     "word": "front",
+     "fa": "جلو"
+    },
+    {
+     "word": "aisle",
+     "fa": "راهروی بین صندلی‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "In a UK cinema, the gaps between rows are \"aisles\". Families with small children often choose aisle seats for quick toilet trips.",
+    "fa": "فاصلهٔ بین ردیف‌ها «aisle» است؛ خانواده‌ها برای رفتن سریع به دستشویی صندلی کنار راهرو می‌گیرند."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "The aisle! You're learning. Nicola needs the toilet three times per film. Row G, seats eight to thirteen. Click!",
+   "translations": {
+    "fa": "راهرو! داری یاد می‌گیری. نیکولا هر فیلم سه بار دستشویی لازم داره. ردیف G، صندلی هشت تا سیزده. کلیک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "seats",
+      "five",
+      "only",
+      "need"
+     ],
+     "suggestion": "Six seats? We only need five.",
+     "suggestionFa": "شش تا صندلی؟ ما فقط پنج تا لازم داریم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "payment",
+      "asking",
+      "done",
+      "now"
+     ],
+     "suggestion": "Done. It's asking for payment now.",
+     "suggestionFa": "انجام شد. الان پرداخت می‌خواد.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "row",
+     "fa": "ردیف"
+    },
+    {
+     "word": "click",
+     "fa": "کلیک"
+    },
+    {
+     "word": "payment",
+     "fa": "پرداخت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Six — the sixth is for you! You're coming too, obviously. Paddington's your hero now. Pay with my card.",
+   "translations": {
+    "fa": "شش تا — ششمی برای توئه! معلومه که تو هم میای. پدینگتون الان قهرمانته. با کارت من پرداخت کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "popcorn",
+      "thank",
+      "i'll",
+      "buy"
+     ],
+     "suggestion": "Me too? Thank you! I'll buy the popcorn.",
+     "suggestionFa": "منم؟ ممنون! من پاپ‌کورن را می‌خرم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tickets",
+      "email",
+      "paid"
+     ],
+     "suggestion": "Paid! The tickets are in your email.",
+     "suggestionFa": "پرداخت شد! بلیت‌ها تو ایمیلته.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sixth",
+     "fa": "ششمی"
+    },
+    {
+     "word": "obviously",
+     "fa": "معلوم است"
+    },
+    {
+     "word": "hero",
+     "fa": "قهرمان"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Lovely. Saturday, eleven o'clock, Row G. Now I just need to stop Tom from doing his Paddington voice the whole way there.",
+   "translations": {
+    "fa": "عالی. شنبه، ساعت یازده، ردیف G. حالا فقط باید جلوی تام را بگیرم که کل مسیر صدای پدینگتون درنیاره."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

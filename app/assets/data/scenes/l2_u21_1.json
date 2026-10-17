@@ -22,7 +22,7 @@
       "museum",
       "don't",
       "why",
-      "we"
+      "go"
      ],
      "suggestion": "Why don't we go to a museum?",
      "suggestionFa": "چرا نریم موزه؟",
@@ -76,8 +76,8 @@
    "branches": [
     {
      "keywords": [
-      "them",
       "free",
+      "them",
       "all"
      ],
      "suggestion": "Free? All of them?",
@@ -88,8 +88,8 @@
     },
     {
      "keywords": [
-      "natural",
       "history",
+      "natural",
       "museum",
       "let's"
      ],
@@ -236,9 +236,9 @@
    "branches": [
     {
      "keywords": [
-      "clever",
       "tunnel",
-      "that's"
+      "that's",
+      "clever"
      ],
      "suggestion": "A tunnel? That's clever.",
      "suggestionFa": "تونل؟ هوشمندانه‌ست.",
@@ -299,8 +299,8 @@
     {
      "keywords": [
       "sounds",
-      "plan",
       "good",
+      "plan",
       "like"
      ],
      "suggestion": "That sounds like a good plan.",

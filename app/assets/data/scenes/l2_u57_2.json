@@ -1,0 +1,391 @@
+{
+ "id": "l2_u57_2",
+ "characterId": "leslie",
+ "title": "Ordering a starter",
+ "titleFa": "سفارش پیش‌غذا",
+ "setting": "Going out · Level 2",
+ "settingFa": "بیرون رفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "My turn to take you out! Thank you for all your help with Doris's party. Now, starters. Are you hungry? I'm starving.",
+   "translations": {
+    "fa": "نوبت منه تو را ببرم بیرون! ممنون بابت همهٔ کمکت برای مهمونی دوریس. حالا، پیش‌غذا. گرسنه‌ای؟ من دارم می‌میرم از گرسنگی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "starving",
+      "starter",
+      "exactly",
+      "what's"
+     ],
+     "suggestion": "I'm starving too. What's a starter, exactly?",
+     "suggestionFa": "منم خیلی گرسنه‌ام. پیش‌غذا دقیقاً چیه؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "menu",
+      "look"
+     ],
+     "suggestion": "Yes! Let's look at the menu.",
+     "suggestionFa": "آره! بیا منو را ببینیم.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "take you out",
+     "fa": "بیرون بردن (مهمان کردن)"
+    },
+    {
+     "word": "starters",
+     "fa": "پیش‌غذاها"
+    },
+    {
+     "word": "starving",
+     "fa": "خیلی گرسنه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "A small dish before the main course. Like soup, or garlic bread. In America they call it an \"appetiser\". Very fancy.",
+   "translations": {
+    "fa": "یه غذای کوچیک قبل از غذای اصلی. مثل سوپ یا نون سیر. تو آمریکا بهش میگن «اپتایزر». خیلی شیک."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "garlic",
+      "bread",
+      "looks",
+      "nice"
+     ],
+     "suggestion": "The garlic bread looks nice.",
+     "suggestionFa": "نون سیر خوب به نظر میاد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "yoghurt",
+      "before",
+      "salad",
+      "iran"
+     ],
+     "suggestion": "In Iran we have salad and yoghurt before the meal.",
+     "suggestionFa": "تو ایران قبل از غذا سالاد و ماست داریم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "dish",
+     "fa": "غذا ؛ ظرف"
+    },
+    {
+     "word": "main course",
+     "fa": "غذای اصلی"
+    },
+    {
+     "word": "garlic bread",
+     "fa": "نان سیر"
+    },
+    {
+     "word": "fancy",
+     "fa": "شیک"
+    }
+   ],
+   "cultureNote": {
+    "en": "A British meal out often has three parts: a starter, a main and a pudding (dessert). Many people just have two.",
+    "fa": "غذای بیرون در بریتانیا اغلب سه بخش دارد: پیش‌غذا، غذای اصلی و دسر."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ooh, mast-o-khiar! I love that. Shall we share the garlic bread? And the calamari? Tom will eat it all if we don't hurry.",
+   "translations": {
+    "fa": "اوه، ماست و خیار! عاشقشم. نون سیر را شریک بشیم؟ و کالاماری را؟ اگه عجله نکنیم تام همه‌اش را می‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "let's",
+      "share",
+      "idea",
+      "good"
+     ],
+     "suggestion": "Good idea. Let's share both.",
+     "suggestionFa": "فکر خوبیه. هر دو را شریک بشیم.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "calamari",
+      "what's"
+     ],
+     "suggestion": "What's calamari?",
+     "suggestionFa": "کالاماری چیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "share",
+     "fa": "شریک شدن ؛ با هم خوردن"
+    },
+    {
+     "word": "calamari",
+     "fa": "کالاماری (ماهی مرکب سوخاری)"
+    },
+    {
+     "word": "hurry",
+     "fa": "عجله کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "shall we sharing the bread",
+      "we share bread?"
+     ],
+     "echo": "Shall we share the bread? Yes, let's!",
+     "better": "Shall we share the garlic bread?",
+     "betterFa": "نان سیر را با هم بخوریم؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Fried squid rings. Crispy, with lemon. Here's Sophie. Sophie! Hello! What do you recommend?",
+   "translations": {
+    "fa": "حلقه‌های ماهی مرکب سرخ‌شده. ترد، با لیمو. سوفی اومد. سوفی! سلام! چی پیشنهاد می‌کنی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "hello",
+      "today",
+      "good"
+     ],
+     "suggestion": "Hello, Sophie! What's good today?",
+     "suggestionFa": "سلام سوفی! امروز چی خوبه؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "decide",
+      "can't",
+      "we",
+      "hi"
+     ],
+     "suggestion": "Hi Sophie! We can't decide.",
+     "suggestionFa": "سلام سوفی! نمی‌تونیم تصمیم بگیریم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "sophie",
+   "text": "Hi, Leslie! Honestly? The burrata. It's creamy, with tomatoes and basil. Everyone loves it.",
+   "translations": {
+    "fa": "سلام لزلی! راستش؟ بوراتا. خامه‌ایه، با گوجه و ریحون. همه عاشقشن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "burrata",
+      "please",
+      "start",
+      "have"
+     ],
+     "suggestion": "To start, I'll have the burrata, please.",
+     "suggestionFa": "برای شروع، بوراتا می‌خورم، لطفاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "calamari",
+      "garlic",
+      "bread",
+      "share"
+     ],
+     "suggestion": "We'd like the garlic bread and the calamari to share.",
+     "suggestionFa": "نون سیر و کالاماری را برای شریک شدن می‌خوایم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "fried",
+     "fa": "سرخ‌شده"
+    },
+    {
+     "word": "squid",
+     "fa": "ماهی مرکب"
+    },
+    {
+     "word": "crispy",
+     "fa": "ترد"
+    },
+    {
+     "word": "recommend",
+     "fa": "پیشنهاد کردن"
+    },
+    {
+     "word": "creamy",
+     "fa": "خامه‌ای"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "sophie",
+   "text": "Great choice. Any drinks? We've got a lovely elderflower lemonade. Or tap water — it's free!",
+   "translations": {
+    "fa": "انتخاب عالی. نوشیدنی؟ یه لیموناد گل آقطی خوشمزه داریم. یا آب لوله‌کشی — مجانیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "table",
+      "water",
+      "tap"
+     ],
+     "suggestion": "Tap water for the table, please.",
+     "suggestionFa": "آب لوله‌کشی برای میز، لطفاً.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "elderflower",
+      "lemonade",
+      "i'll",
+      "try"
+     ],
+     "suggestion": "I'll try the elderflower lemonade.",
+     "suggestionFa": "لیموناد گل آقطی را امتحان می‌کنم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "elderflower",
+     "fa": "گل آقطی"
+    },
+    {
+     "word": "tap water",
+     "fa": "آب لوله‌کشی"
+    },
+    {
+     "word": "free",
+     "fa": "مجانی"
+    }
+   ],
+   "cultureNote": {
+    "en": "In UK restaurants you can always ask for \"tap water\" for free. \"Still or sparkling?\" means bottled water, which you pay for.",
+    "fa": "در رستوران‌ها همیشه می‌توانید آب لوله‌کشی مجانی بخواهید."
+   }
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Perfect. Oh, look — the bread's here already. That smells amazing. Tom's going to be so jealous. He's driving the 38 all day.",
+   "translations": {
+    "fa": "عالی. اوه، ببین — نون همین الان رسید. چه بوی فوق‌العاده‌ای. تام خیلی حسودیش میشه. کل روز داره ۳۸ را می‌رونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "shall",
+      "take",
+      "poor",
+      "some"
+     ],
+     "suggestion": "Poor Tom! Shall we take him some home?",
+     "suggestionFa": "تام بیچاره! براش یه کم ببریم خونه؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "photo",
+      "send"
+     ],
+     "suggestion": "Let's send him a photo!",
+     "suggestionFa": "بیا براش عکس بفرستیم!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "smells",
+     "fa": "بو می‌دهد"
+    },
+    {
+     "word": "amazing",
+     "fa": "فوق‌العاده"
+    },
+    {
+     "word": "jealous",
+     "fa": "حسود"
+    },
+    {
+     "word": "all day",
+     "fa": "کل روز"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "A photo! He'll be furious. Cheers — to Doris, and to good friends. Now, pass the calamari before it disappears!",
+   "translations": {
+    "fa": "عکس! عصبانی میشه. به سلامتی — به دوریس، و دوستای خوب. حالا کالاماری را بده قبل از اینکه غیب بشه!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

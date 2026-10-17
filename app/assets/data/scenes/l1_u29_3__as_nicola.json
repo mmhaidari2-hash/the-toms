@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "choose",
       "should",
-      "mummy",
+      "choose",
+      "cakes",
       "which",
-      "cakes"
+      "mummy"
      ],
      "suggestion": "Look at all the cakes! Mummy said I can choose one. Which one should I have?",
      "suggestionFa": "این همه کیک را ببین! مامان گفت می‌تونم یکی انتخاب کنم. کدوم را بخورم؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "chocolate",
-      "both",
       "like",
       "pink",
+      "both",
       "one"
      ],
      "suggestion": "The chocolate one or the pink one? I like both!",
@@ -131,8 +131,8 @@
       "battenberg",
       "chocolate",
       "squares",
-      "wait",
-      "want"
+      "want",
+      "wait"
      ],
      "suggestion": "Squares! I want the Battenberg! No, wait… the chocolate! Hmm.",
      "suggestionFa": "مربع! بتنبرگ می‌خوام! نه، صبر کن… شکلاتی! هوم.",
@@ -157,7 +157,7 @@
       "chocolate",
       "halves",
       "share",
-      "then"
+      "swap"
      ],
      "suggestion": "Share? Yes! You have the chocolate, I have the Battenberg. Then we swap halves!",
      "suggestionFa": "شریک؟ آره! تو شکلاتی را بگیر، من بتنبرگ. بعد نصف‌ها را عوض می‌کنیم!",

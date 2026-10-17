@@ -73,10 +73,10 @@
    "branches": [
     {
      "keywords": [
-      "don't",
       "let's",
-      "now",
-      "use"
+      "don't",
+      "use",
+      "now"
      ],
      "suggestion": "Yes, let's go now. Don't use it!",
      "suggestionFa": "آره، بیا الان بریم. ازش استفاده نکن!",
@@ -130,8 +130,8 @@
     {
      "keywords": [
       "much",
-      "can",
-      "fix"
+      "fix",
+      "can"
      ],
      "suggestion": "Can you fix it? How much is it?",
      "suggestionFa": "می‌تونی درستش کنی؟ چقدر میشه؟",
@@ -141,9 +141,9 @@
     },
     {
      "keywords": [
-      "will",
+      "take",
       "long",
-      "take"
+      "will"
      ],
      "suggestion": "How long will it take?",
      "suggestionFa": "چقدر طول می‌کشه؟",
@@ -235,8 +235,8 @@
    "branches": [
     {
      "keywords": [
-      "must",
       "tell",
+      "must",
       "ryan",
       "dad"
      ],
@@ -248,9 +248,9 @@
     },
     {
      "keywords": [
-      "fine",
       "text",
       "i'll",
+      "fine",
       "tom"
      ],
      "suggestion": "Fine. I'll text Tom.",
@@ -302,8 +302,8 @@
     {
      "keywords": [
       "lucky",
-      "then",
       "much",
+      "then",
       "how"
      ],
      "suggestion": "Lucky! How much does he pay then?",
@@ -338,10 +338,10 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "twenty",
+      "pounds",
       "great",
-      "only"
+      "five"
      ],
      "suggestion": "Only twenty-five pounds? Great!",
      "suggestionFa": "فقط بیست و پنج پوند؟ عالیه!",

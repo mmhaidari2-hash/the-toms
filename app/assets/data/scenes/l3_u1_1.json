@@ -22,7 +22,7 @@
       "experience",
       "about",
       "tell",
-      "her"
+      "tom"
      ],
      "suggestion": "Tom, tell her about your experience.",
      "suggestionFa": "تام، از تجربه‌ات بگو.",
@@ -34,8 +34,8 @@
      "keywords": [
       "engineering",
       "years",
-      "been",
-      "he's"
+      "he's",
+      "been"
      ],
      "suggestion": "He's been in engineering for years.",
      "suggestionFa": "سال‌هاست تو مهندسیه.",
@@ -57,8 +57,8 @@
     {
      "keywords": [
       "experience",
-      "twenty",
       "that's",
+      "twenty",
       "years"
      ],
      "suggestion": "Twenty years! That's a lot of experience.",
@@ -71,8 +71,8 @@
      "keywords": [
       "working",
       "tom's",
-      "been",
-      "line"
+      "line",
+      "tram"
      ],
      "suggestion": "Tom's been working on the new tram line too.",
      "suggestionFa": "تام روی خط تراموای جدید هم کار کرده.",
@@ -123,8 +123,8 @@
     },
     {
      "keywords": [
-      "managing",
       "projects",
+      "managing",
       "since"
      ],
      "suggestion": "He's been managing projects since 2019.",
@@ -166,7 +166,7 @@
       "challenge",
       "looking",
       "while",
-      "been"
+      "i've"
      ],
      "suggestion": "I've been looking for a new challenge for a while.",
      "suggestionFa": "مدتیه دنبال یه چالش جدیدم.",
@@ -176,10 +176,10 @@
     },
     {
      "keywords": [
-      "closer",
       "family",
-      "like",
-      "home"
+      "closer",
+      "work",
+      "like"
      ],
      "suggestion": "I'd like to work closer to home and see my family more.",
      "suggestionFa": "دوست دارم نزدیک‌تر به خونه کار کنم و خانواده‌ام را بیشتر ببینم.",
@@ -223,8 +223,8 @@
      "keywords": [
       "sometimes",
       "extra",
-      "hard",
-      "work"
+      "find",
+      "hard"
      ],
      "suggestion": "I sometimes find it hard to say no to extra work.",
      "suggestionFa": "گاهی سخته که به کار اضافه نه بگم.",
@@ -237,7 +237,7 @@
       "presentation",
       "working",
       "skills",
-      "been"
+      "i've"
      ],
      "suggestion": "I've been working on my presentation skills.",
      "suggestionFa": "دارم روی مهارت‌های ارائه‌ام کار می‌کنم.",
@@ -289,9 +289,9 @@
     {
      "keywords": [
       "decision",
-      "will",
+      "when",
       "make",
-      "when"
+      "will"
      ],
      "suggestion": "When will you make a decision?",
      "suggestionFa": "کی تصمیم می‌گیرید؟",

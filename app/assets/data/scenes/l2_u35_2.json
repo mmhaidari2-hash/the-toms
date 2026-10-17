@@ -76,7 +76,7 @@
       "didn't",
       "refund",
       "know",
-      "can"
+      "get"
      ],
      "suggestion": "I didn't know that. Can I get a refund?",
      "suggestionFa": "نمی‌دونستم. می‌تونم پولم را پس بگیرم؟",
@@ -153,10 +153,10 @@
     },
     {
      "keywords": [
-      "don't",
       "think",
-      "much",
-      "cost"
+      "don't",
+      "cost",
+      "much"
      ],
      "suggestion": "I don't think so. How much does it cost?",
      "suggestionFa": "فکر نکنم. چقدر هزینه داره؟",
@@ -195,9 +195,9 @@
     {
      "keywords": [
       "railcard",
-      "third",
       "which",
-      "off"
+      "third",
+      "get"
      ],
      "suggestion": "A third off? Which railcard can I get?",
      "suggestionFa": "یک‌سوم تخفیف؟ کدوم کارت را می‌تونم بگیرم؟",
@@ -207,8 +207,8 @@
     },
     {
      "keywords": [
-      "pounds",
       "thirty",
+      "pounds",
       "worth",
       "five"
      ],
@@ -310,8 +310,8 @@
      "keywords": [
       "tonight",
       "thank",
-      "maya",
-      "i'll"
+      "i'll",
+      "maya"
      ],
      "suggestion": "I'll buy it tonight. Thank you, Maya!",
      "suggestionFa": "امشب می‌خرمش. ممنون مایا!",
@@ -350,8 +350,8 @@
     {
      "keywords": [
       "always",
-      "small",
-      "print"
+      "print",
+      "small"
      ],
      "suggestion": "The small print! Always the small print.",
      "suggestionFa": "ریزنوشته‌ها! همیشه ریزنوشته‌ها.",
@@ -362,8 +362,8 @@
     {
      "keywords": [
       "railcard",
-      "family",
       "leslie",
+      "family",
       "about"
      ],
      "suggestion": "I'll tell Leslie about the Family Railcard.",

@@ -22,9 +22,9 @@
     {
      "keywords": [
       "slippers",
-      "fluffy",
       "bother",
-      "have",
+      "fluffy",
+      "ones",
       "pink"
      ],
      "suggestion": "Oh, bother! Have you seen my slippers, dear? The pink fluffy ones.",
@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "remember",
       "terrible",
+      "remember",
       "memory",
       "under",
       "these"
@@ -174,10 +174,10 @@
     {
      "keywords": [
       "glasses",
-      "thank",
       "never",
-      "have",
-      "mind"
+      "thank",
+      "mind",
+      "seen"
      ],
      "suggestion": "Thank you, dear. A bit wet, but never mind. Have you seen my glasses too?",
      "suggestionFa": "ممنون عزیزم. یه کم خیسه، ولی عیب نداره. عینکم را هم دیدی؟",
@@ -198,8 +198,8 @@
    "branches": [
     {
      "keywords": [
-      "helpers",
       "without",
+      "helpers",
       "william",
       "little",
       "silly"

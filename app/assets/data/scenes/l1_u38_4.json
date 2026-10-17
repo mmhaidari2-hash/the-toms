@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "notes",
-      "thank"
+      "thank",
+      "notes"
      ],
      "suggestion": "What are thank-you notes?",
      "suggestionFa": "یادداشت تشکر چیه؟",
@@ -157,8 +157,8 @@
      "keywords": [
       "that's",
       "thing",
-      "good",
-      "nice"
+      "nice",
+      "good"
      ],
      "suggestion": "Good! That's a nice thing to say.",
      "suggestionFa": "خوبه! حرف قشنگیه.",
@@ -258,8 +258,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
-      "count"
+      "count",
+      "let's"
      ],
      "suggestion": "Let's count.",
      "suggestionFa": "بیا بشمریم.",
@@ -269,9 +269,9 @@
     },
     {
      "keywords": [
-      "more",
       "only",
-      "five"
+      "five",
+      "more"
      ],
      "suggestion": "Only five more!",
      "suggestionFa": "فقط پنج تای دیگه!",
@@ -312,10 +312,10 @@
     },
     {
      "keywords": [
-      "days",
       "five",
-      "one",
-      "day"
+      "days",
+      "day",
+      "one"
      ],
      "suggestion": "One a day. Five days!",
      "suggestionFa": "روزی یکی. پنج روز!",

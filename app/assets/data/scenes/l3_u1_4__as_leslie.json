@@ -24,7 +24,7 @@
       "everyone",
       "right",
       "tell",
-      "them",
+      "love",
       "some"
      ],
      "suggestion": "Right, everyone — Tom has some news. Go on, love, tell them.",
@@ -104,10 +104,10 @@
     {
      "keywords": [
       "trains",
-      "every",
-      "proud",
       "means",
-      "night"
+      "night",
+      "every",
+      "he'll"
      ],
      "suggestion": "We're so proud of him. It means he'll be home by six every night. No more late trains!",
      "suggestionFa": "خیلی بهش افتخار می‌کنیم. یعنی هر شب تا شش خونه‌ست. دیگه قطار دیروقت نداریم!",
@@ -128,8 +128,8 @@
    "branches": [
     {
      "keywords": [
-      "takeaway",
       "promised",
+      "takeaway",
       "friday",
       "garden",
       "tom's"
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
-      "obviously",
       "listening",
-      "curry",
+      "obviously",
+      "pizza",
       "think",
-      "pizza"
+      "curry"
      ],
      "suggestion": "A curry, I think. Ryan will want pizza, obviously. Ryan, are you listening?",
      "suggestionFa": "فکر کنم کاری. رایان معلومه پیتزا می‌خواد. رایان، داری گوش می‌دی؟",
@@ -239,9 +239,9 @@
      "keywords": [
       "weekend",
       "tom's",
-      "curry",
-      "visit",
-      "after"
+      "pizza",
+      "going",
+      "visit"
      ],
      "suggestion": "Curry and pizza it is. And this weekend we're going to visit Tom's mum. I'll ring her after tea.",
      "suggestionFa": "کاری و پیتزا. و این آخر هفته می‌ریم دیدن مامان تام. بعد از شام بهش زنگ می‌زنم.",
@@ -264,7 +264,7 @@
      "keywords": [
       "tonight",
       "lovely",
-      "would",
+      "going",
       "right",
       "who's"
      ],

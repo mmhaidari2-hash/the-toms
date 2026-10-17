@@ -22,10 +22,10 @@
     {
      "keywords": [
       "dinner's",
-      "watch",
       "telly",
+      "watch",
       "shall",
-      "done"
+      "time"
      ],
      "suggestion": "Dinner's done. Telly time! What shall we watch?",
      "suggestionFa": "شام تموم شد. وقت تلویزیونه! چی ببینیم؟",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
+      "baking",
       "people",
       "what's",
-      "baking",
-      "loves",
-      "cakes"
+      "cakes",
+      "loves"
      ],
      "suggestion": "A baking show. People make cakes in a tent and cry. Mum loves it. So what's the rule?",
      "suggestionFa": "یه برنامهٔ شیرینی‌پزی. آدم‌ها تو یه چادر کیک می‌پزن و گریه می‌کنن. مامان عاشقشه. خب قانون چیه؟",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "nicola's",
-      "minutes",
       "cartoon",
+      "minutes",
       "twenty",
       "match"
      ],
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "spoilers",
-      "snacks",
       "record",
+      "snacks",
       "score",
-      "shall"
+      "don't"
      ],
      "suggestion": "Record it! And no spoilers. If you see the score, don't tell me! Shall we get snacks?",
      "suggestionFa": "ضبطش کنیم! و لو ندی. اگه نتیجه را دیدی، بهم نگو! خوراکی بیاریم؟",
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "cartoons",
       "remote's",
+      "cartoons",
       "starting",
       "vinegar",
       "crisps"

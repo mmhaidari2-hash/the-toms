@@ -23,9 +23,9 @@
      "keywords": [
       "exciting",
       "monday",
-      "black",
       "night",
-      "green"
+      "green",
+      "black"
      ],
      "suggestion": "Monday night! Bin night! The most exciting night of the week. Is it black bin week or green bin week?",
      "suggestionFa": "دوشنبه شب! شب سطل زباله! هیجان‌انگیزترین شب هفته. هفتهٔ سطل مشکیه یا سطل سبز؟",
@@ -74,8 +74,8 @@
       "everything",
       "recycling",
       "cardboard",
-      "bottles",
-      "plastic"
+      "tonight",
+      "bottles"
      ],
      "suggestion": "Green tonight. Recycling: cans, bottles, paper, cardboard, plastic tubs. Rinsed! No food. Black is for everything else.",
      "suggestionFa": "امشب سبز. بازیافت: قوطی، بطری، کاغذ، مقوا، ظرف پلاستیکی. شسته! بدون غذا. مشکی برای بقیه چیزهاست.",
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "greasy",
-      "sounds",
       "checks",
-      "black",
-      "clean"
+      "sounds",
+      "rinse",
+      "pizza"
      ],
      "suggestion": "A quick rinse, yeah. Sounds mad, I know. And the pizza box — greasy bit in the black, clean lid in the green. Mrs Khan checks!",
      "suggestionFa": "یه آب‌کشیدن سریع، آره. می‌دونم دیوونگی به نظر میاد. و جعبهٔ پیتزا — قسمت چرب تو مشکی، درِ تمیز تو سبز. خانم خان چک می‌کنه!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "council",
       "website",
-      "missed",
+      "council",
+      "report",
       "within",
-      "ward's"
+      "missed"
      ],
      "suggestion": "Only ours? The cheek! You report it on the council website — \"missed bin\". Ms Ward's lot. Within two days, they come back.",
      "suggestionFa": "فقط مال ما؟ چه پررویی! تو سایت شهرداری گزارش میدی — «سطل جاافتاده». بچه‌های خانم وارد. ظرف دو روز برمی‌گردن.",
@@ -199,7 +199,7 @@
       "everything",
       "british",
       "council",
-      "kettle",
+      "expert",
       "report"
      ],
      "suggestion": "You're an expert! Bins, council, everything. Mate, you're more British than me. Report it, and I'll put the kettle on.",

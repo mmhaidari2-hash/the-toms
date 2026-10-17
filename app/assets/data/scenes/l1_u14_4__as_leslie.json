@@ -22,10 +22,10 @@
     {
      "keywords": [
       "nicola's",
-      "pyjamas",
       "they're",
       "bedroom",
-      "find"
+      "pyjamas",
+      "bath"
      ],
      "suggestion": "Nicola's out of the bath. Can you find her pyjamas? They're in the bedroom.",
      "suggestionFa": "نیکولا از حموم اومد بیرون. پیژامه‌اش را پیدا می‌کنی؟ تو اتاق خوابه.",
@@ -153,11 +153,11 @@
    "branches": [
     {
      "keywords": [
+      "behind",
       "mirror",
       "socket",
-      "behind",
       "next",
-      "plug"
+      "door"
      ],
      "suggestion": "Yes, it's next to the mirror. Can you plug it in? The socket is behind the door.",
      "suggestionFa": "آره، کنار آینه‌ست. می‌تونی بزنیش به برق؟ پریز پشت دره.",
@@ -316,9 +316,9 @@
     {
      "keywords": [
       "pyjamas",
-      "nicola",
       "choose",
-      "thank",
+      "nicola",
+      "clean",
       "story"
      ],
      "suggestion": "Clean, dry and in pyjamas! Thank you, love. Now, warm milk and a story. You choose the book, Nicola!",

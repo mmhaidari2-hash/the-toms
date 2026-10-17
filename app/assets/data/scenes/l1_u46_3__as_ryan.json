@@ -24,7 +24,7 @@
       "biscuit",
       "would",
       "like",
-      "told",
+      "good",
       "host"
      ],
      "suggestion": "Mum told me to be a good host. Would you like a biscuit?",
@@ -74,8 +74,8 @@
       "biscuits",
       "vanilla",
       "middle",
-      "would",
-      "cream"
+      "cream",
+      "would"
      ],
      "suggestion": "Two biscuits with vanilla cream in the middle. Would you like a cup of tea with it?",
      "suggestionFa": "دو تا بیسکویت با خامهٔ وانیلی وسطش. با چای میل دارید؟",
@@ -178,7 +178,7 @@
       "falls",
       "long",
       "dunk",
-      "try"
+      "tea"
      ],
      "suggestion": "You dunk your biscuit in your tea. But not too long, or it falls in! Try it.",
      "suggestionFa": "بیسکویتت را تو چایت فرو می‌کنی. ولی نه زیاد، وگرنه می‌افته! امتحان کن.",
@@ -199,11 +199,11 @@
    "branches": [
     {
      "keywords": [
-      "another",
-      "happens",
       "biscuit",
+      "happens",
+      "another",
       "would",
-      "like"
+      "soup"
      ],
      "suggestion": "Ha! Biscuit soup. Happens to the best of us. Would you like another one?",
      "suggestionFa": "ها! سوپ بیسکویت. برای بهترین‌ها هم پیش میاد. یکی دیگه میل دارید؟",
@@ -226,8 +226,8 @@
      "keywords": [
       "don't",
       "will",
-      "take",
       "them",
+      "good",
       "host"
      ],
      "suggestion": "Take two. Dad will eat them all if you don't! Mum, I was a good host — can I go now?",

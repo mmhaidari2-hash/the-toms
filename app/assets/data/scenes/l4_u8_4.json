@@ -33,9 +33,9 @@
     {
      "keywords": [
       "sounds",
+      "flag",
       "good",
-      "true",
-      "flag"
+      "true"
      ],
      "suggestion": "It sounds too good to be true, which is a red flag.",
      "suggestionFa": "خیلی خوب‌تر از اونه که واقعی باشه، که یه علامت هشداره.",
@@ -83,8 +83,8 @@
      "keywords": [
       "biased",
       "sample",
-      "tiny",
-      "size"
+      "size",
+      "tiny"
      ],
      "suggestion": "So it's biased and the sample size is tiny.",
      "suggestionFa": "پس مغرضانه‌ست و اندازهٔ نمونه خیلی کوچیکه.",
@@ -145,7 +145,7 @@
      "keywords": [
       "original",
       "source",
-      "clip",
+      "look",
       "just"
      ],
      "suggestion": "I'd look for the original source, not just a clip.",
@@ -206,9 +206,9 @@
     {
      "keywords": [
       "getting",
-      "harder",
       "what's",
-      "real"
+      "harder",
+      "tell"
      ],
      "suggestion": "It's getting harder and harder to tell what's real.",
      "suggestionFa": "تشخیص اینکه چی واقعیه داره سخت‌تر و سخت‌تر میشه.",
@@ -219,8 +219,8 @@
     {
      "keywords": [
       "before",
-      "share",
       "pause",
+      "share",
       "rule"
      ],
      "suggestion": "So the rule is: pause before you share.",

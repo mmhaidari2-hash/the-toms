@@ -24,8 +24,8 @@
       "children",
       "allowed",
       "should",
-      "until",
-      "agree"
+      "agree",
+      "think"
      ],
      "suggestion": "I think children should be allowed to stay up until ten. Don't you agree?",
      "suggestionFa": "به نظرم بچه‌ها باید اجازه داشته باشن تا ساعت ده بیدار بمونن. موافق نیستی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "that's",
       "stays",
-      "fair",
       "ryan",
-      "late"
+      "late",
+      "fair"
      ],
      "suggestion": "But Ryan stays up late! That's not fair.",
      "suggestionFa": "ولی رایان تا دیروقت بیدار می‌مونه! این عادلانه نیست.",
@@ -75,7 +75,7 @@
       "should",
       "reason",
       "telly",
-      "miss"
+      "give"
      ],
      "suggestion": "Miss Hart says we should give reasons. My reason is: the best telly is on late.",
      "suggestionFa": "خانم هارت می‌گه باید دلیل بیاریم. دلیل من اینه: بهترین برنامه‌ها دیروقته.",
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "reason",
-      "awake",
       "tired",
-      "okay",
+      "awake",
+      "look",
       "wide"
      ],
      "suggestion": "Hmm. Okay, reason two: I'm not even tired. Look — I'm wide awake!",
@@ -123,8 +123,8 @@
      "keywords": [
       "children",
       "country",
-      "wasn't",
       "breath",
+      "wasn't",
       "yawn"
      ],
      "suggestion": "That wasn't a yawn. It was a… big breath. What do children do in your country?",
@@ -175,7 +175,7 @@
       "lawyer",
       "what's",
       "think",
-      "fair"
+      "late"
      ],
      "suggestion": "A lawyer! Yes! Lawyers stay up late, I bet. So what do you think — what's fair?",
      "suggestionFa": "وکیل! آره! شرط می‌بندم وکیل‌ها دیر می‌خوابن. خب نظرت چیه — چی عادلانه‌ست؟",
@@ -197,8 +197,8 @@
     {
      "keywords": [
       "saturdays",
-      "fridays",
       "without",
+      "fridays",
       "moaning",
       "please"
      ],

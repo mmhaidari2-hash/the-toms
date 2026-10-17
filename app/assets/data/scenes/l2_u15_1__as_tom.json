@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "worried",
       "morning",
+      "worried",
       "what's",
       "look",
       "work"
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "everyone",
-      "happens",
       "station",
-      "means",
-      "money"
+      "happens",
+      "light",
+      "means"
      ],
      "suggestion": "Red light means no money on it. Happens to everyone. You can top up at the shop, the station, or on the app.",
      "suggestionFa": "چراغ قرمز یعنی پول روش نیست. واسه همه پیش میاد. می‌تونی تو مغازه، ایستگاه، یا با برنامه شارژش کنی.",
@@ -71,11 +71,11 @@
    "branches": [
     {
      "keywords": [
-      "corner",
       "london",
+      "corner",
       "buses",
-      "cash",
-      "come"
+      "come",
+      "cash"
      ],
      "suggestion": "Not on the bus, no. Buses are cash-free in London. The corner shop does it. Come on, I'll show you.",
      "suggestionFa": "تو اتوبوس نه. اتوبوس‌های لندن پول نقد قبول نمی‌کنن. مغازهٔ سر کوچه شارژ می‌کنه. بیا، نشونت میدم.",
@@ -125,7 +125,7 @@
       "exactly",
       "plenty",
       "second",
-      "change"
+      "hopper"
      ],
      "suggestion": "Exactly — twenty's plenty. And \"Hopper fare\": change buses in an hour, and the second one's free.",
      "suggestionFa": "دقیقاً — بیست تا کافیه. و «کرایهٔ هاپر»: تو یه ساعت اتوبوس عوض کنی، دومی مجانیه.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "morning",
-      "oyster",
       "friend",
+      "oyster",
       "wants",
       "here"
      ],
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "balance",
-      "reader",
       "yellow",
-      "twenty",
-      "pounds"
+      "pounds",
+      "reader",
+      "twenty"
      ],
      "suggestion": "Done. Now tap it on the yellow reader, and it says the balance. Twenty pounds! You're a rich man.",
      "suggestionFa": "تموم. حالا بزنش روی دستگاه زرد، موجودی را نشون میده. بیست پوند! مرد پولداری شدی.",

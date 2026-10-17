@@ -22,7 +22,7 @@
       "permission",
       "without",
       "account",
-      "think"
+      "money"
      ],
      "suggestion": "I think money was taken from my account without my permission.",
      "suggestionFa": "فکر کنم بدون اجازه‌ام از حسابم پول برداشته شده.",
@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
-      "pounds",
       "online",
       "ninety",
+      "pounds",
       "never"
      ],
      "suggestion": "This one — ninety-nine pounds to an online shop I've never used.",
@@ -90,8 +90,8 @@
     },
     {
      "keywords": [
-      "morning",
       "tuesday",
+      "morning",
       "paid",
       "was"
      ],
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "website",
-      "last",
       "week",
+      "last",
       "used"
      ],
      "suggestion": "No, but I used it on a website last week.",
@@ -142,8 +142,8 @@
      "keywords": [
       "wallet",
       "always",
-      "don't",
-      "think"
+      "think",
+      "don't"
      ],
      "suggestion": "I don't think so. It's always in my wallet.",
      "suggestionFa": "فکر نکنم. همیشه تو کیف پولمه.",
@@ -188,7 +188,7 @@
       "relief",
       "that's",
       "given",
-      "will"
+      "card"
      ],
      "suggestion": "That's a relief. Will I be given a new card?",
      "suggestionFa": "خیالم راحت شد. کارت جدید بهم داده میشه؟",
@@ -201,7 +201,7 @@
       "happening",
       "again",
       "stop",
-      "can"
+      "how"
      ],
      "suggestion": "How can I stop this happening again?",
      "suggestionFa": "چطوری جلوی تکرارش را بگیرم؟",

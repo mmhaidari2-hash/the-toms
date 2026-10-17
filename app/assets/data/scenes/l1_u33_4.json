@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "pounds",
+      "twelve",
       "says"
      ],
      "suggestion": "It says twelve pounds.",
@@ -120,9 +120,9 @@
     },
     {
      "keywords": [
+      "ask",
       "tom",
-      "box",
-      "ask"
+      "box"
      ],
      "suggestion": "Ask for a box, Tom.",
      "suggestionFa": "یه جعبه بخواه تام.",
@@ -165,10 +165,10 @@
     },
     {
      "keywords": [
-      "pounds",
       "that's",
-      "wrong",
-      "three"
+      "pounds",
+      "three",
+      "wrong"
      ],
      "suggestion": "Three pounds? That's wrong.",
      "suggestionFa": "سه پوند؟ اشتباهه.",
@@ -217,8 +217,8 @@
    "branches": [
     {
      "keywords": [
-      "twelve",
       "twenty",
+      "twelve",
       "minus"
      ],
      "suggestion": "Twenty minus twelve is eight.",
@@ -229,9 +229,9 @@
     },
     {
      "keywords": [
-      "pounds",
       "change",
-      "should"
+      "should",
+      "pounds"
      ],
      "suggestion": "It should be eight pounds change.",
      "suggestionFa": "بقیه‌ش باید هشت پوند باشه.",
@@ -261,8 +261,8 @@
    "branches": [
     {
      "keywords": [
-      "problem",
-      "happens"
+      "happens",
+      "problem"
      ],
      "suggestion": "No problem. It happens.",
      "suggestionFa": "مشکلی نیست. پیش میاد.",
@@ -273,8 +273,8 @@
     {
      "keywords": [
       "don't",
-      "about",
-      "worry"
+      "worry",
+      "about"
      ],
      "suggestion": "Don't worry about it.",
      "suggestionFa": "نگران نباش.",
@@ -315,10 +315,10 @@
     },
     {
      "keywords": [
-      "every",
       "fares",
+      "every",
       "count",
-      "bus"
+      "day"
      ],
      "suggestion": "You count bus fares every day!",
      "suggestionFa": "تو که هر روز کرایه می‌شمری!",
@@ -365,8 +365,8 @@
      "keywords": [
       "evening",
       "thank",
-      "have",
-      "good"
+      "good",
+      "have"
      ],
      "suggestion": "Thank you! Have a good evening.",
      "suggestionFa": "ممنون! عصر خوبی داشته باشید.",

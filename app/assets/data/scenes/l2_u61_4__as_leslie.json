@@ -1,0 +1,348 @@
+{
+ "id": "l2_u61_4__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) A nosebleed",
+ "titleFa": "(در نقش Leslie) خون‌دماغ",
+ "setting": "Accidents and injuries · Level 2",
+ "settingFa": "حادثه و آسیب",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u61_4",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "bleeding",
+      "tissues",
+      "picking",
+      "quick"
+     ],
+     "suggestion": "Oh! William's nose is bleeding! He was picking it again. Quick — tissues! On the side!",
+     "suggestionFa": "اوه! دماغ ویلیام داره خون میاد! باز داشت دماغش را می‌گرفت. زود — دستمال! رو کابینت!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Here, tissues! What happened?",
+   "translations": {
+    "fa": "بفرما، دستمال! چی شد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "william",
+   "text": "Blood! Mummy, blood! On my bus T-shirt!",
+   "translations": {
+    "fa": "خون! مامانی، خون! رو تی‌شرت اتوبوسیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nose",
+     "fa": "دماغ ؛ بینی"
+    },
+    {
+     "word": "bleeding",
+     "fa": "خونریزی کردن"
+    },
+    {
+     "word": "picking",
+     "fa": "گرفتن (دماغ)"
+    },
+    {
+     "word": "tissues",
+     "fa": "دستمال کاغذی"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Here are the tissues. It's OK, William!",
+   "translations": {
+    "fa": "اینم دستمال. اشکالی نداره ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "should",
+      "always",
+      "good",
+      "head"
+     ],
+     "suggestion": "Good. Now, William, sit up. Should he tip his head back? My mum always said head back.",
+     "suggestionFa": "خوبه. حالا ویلیام، صاف بشین. سرش را عقب ببره؟ مامانم همیشه می‌گفت سر عقب.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "No! Lean forward, not back.",
+   "translations": {
+    "fa": "نه! به جلو خم شه، نه عقب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "forward",
+      "doesn't",
+      "throat",
+      "pinch",
+      "right"
+     ],
+     "suggestion": "Forward. Right — so the blood doesn't go down his throat. Then I pinch the soft part of his nose. Here? Like this?",
+     "suggestionFa": "جلو. درسته — که خون تو گلوش نره. بعد قسمت نرم دماغش را فشار میدم. اینجا؟ اینجوری؟",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Yes, just below the hard bit.",
+   "translations": {
+    "fa": "آره، درست زیر قسمت سفت."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "william",
+   "text": "I sound funny! Like a duck!",
+   "translations": {
+    "fa": "صدام خنده‌دار شده! مثل اردک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "throat",
+     "fa": "گلو"
+    },
+    {
+     "word": "pinch",
+     "fa": "فشار دادن با دو انگشت"
+    },
+    {
+     "word": "soft part",
+     "fa": "قسمت نرم"
+    },
+    {
+     "word": "breathe",
+     "fa": "نفس کشیدن"
+    }
+   ]
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Yes, there. And breathe through your mouth, William.",
+   "translations": {
+    "fa": "آره، همون‌جا. و از دهنت نفس بکش ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "william",
+      "hundred",
+      "slowly",
+      "let's"
+     ],
+     "suggestion": "Ten minutes. William, can you count to a hundred? Slowly. Let's go. One… two…",
+     "suggestionFa": "ده دقیقه. ویلیام، می‌تونی تا صد بشمری؟ آروم. بریم. یک… دو…",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Come on, William. Let's count together!",
+   "translations": {
+    "fa": "یالا ویلیام. بیا با هم بشمریم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "william",
+   "text": "One, two, three… eleventeen… twenty!",
+   "translations": {
+    "fa": "یک، دو، سه… یازده‌ده… بیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    },
+    {
+     "word": "keep going",
+     "fa": "ادامه بده"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Eleventeen! Great counting, William!",
+   "translations": {
+    "fa": "یازده‌ده! شمردن عالی ویلیام!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "picking",
+      "minutes",
+      "stopped",
+      "slowly"
+     ],
+     "suggestion": "Ten minutes. Let's let go… slowly… It's stopped! Brilliant. No more blood. Now — no picking for a while, mister!",
+     "suggestionFa": "ده دقیقه. بیا ول کنیم… آروم… بند اومد! عالی. دیگه خون نیست. حالا — یه مدت دماغ‌گیری نه، آقا کوچولو!",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Well done, William. You were very brave.",
+   "translations": {
+    "fa": "آفرین ویلیام. خیلی شجاع بودی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r13",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r13": {
+   "id": "r13",
+   "speaker": "william",
+   "text": "I was brave! Can I have a biscuit?",
+   "translations": {
+    "fa": "من شجاع بودم! بیسکویت می‌خورم؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

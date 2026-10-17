@@ -47,8 +47,8 @@
     {
      "keywords": [
       "recycling",
-      "black",
       "green",
+      "black",
       "caddy",
       "brown"
      ],
@@ -74,8 +74,8 @@
       "cardboard",
       "bottles",
       "yogurt",
-      "paper",
-      "clean"
+      "rinse",
+      "paper"
      ],
      "suggestion": "Paper, cardboard, bottles and tins. Rinse them first! Is this yogurt pot clean?",
      "suggestionFa": "کاغذ، مقوا، بطری و قوطی. اول آبشون بکش! این ظرف ماست تمیزه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "eggshells",
-      "little",
       "banana",
+      "little",
       "skins",
       "caddy"
      ],
@@ -125,7 +125,7 @@
       "wrappers",
       "packets",
       "smelly",
-      "crisp"
+      "black"
      ],
      "suggestion": "Black is for everything else. Food wrappers, crisp packets. It's the smelly one!",
      "suggestionFa": "سیاه برای بقیهٔ چیزهاست. کاغذ غذا، پاکت چیپس. همونی که بو میده!",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "recycling",
-      "always",
       "forget",
+      "always",
       "black",
-      "next"
+      "they"
      ],
      "suggestion": "Recycling this week. Black bin next week. They swap! I always forget.",
      "suggestionFa": "این هفته بازیافت. هفتهٔ بعد سطل سیاه. نوبتی‌ان! من همیشه یادم میره.",

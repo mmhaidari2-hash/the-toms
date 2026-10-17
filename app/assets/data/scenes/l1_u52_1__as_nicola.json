@@ -23,8 +23,8 @@
      "keywords": [
       "everywhere",
       "spilled",
-      "juice",
       "sorry",
+      "juice",
       "oops"
      ],
      "suggestion": "Oops! I spilled my juice! It's everywhere! Sorry! Sorry!",
@@ -71,9 +71,9 @@
     {
      "keywords": [
       "kitchen",
+      "roll",
       "sink",
       "help",
-      "roll",
       "can"
      ],
      "suggestion": "The kitchen roll is by the sink. Can I help?",
@@ -170,11 +170,11 @@
    "branches": [
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "gentle",
       "dizzy",
-      "will"
+      "wash"
      ],
      "suggestion": "In the washing machine?! Will he be dizzy? OK… but a gentle wash!",
      "suggestionFa": "تو ماشین لباسشویی؟! سرش گیج نمیره؟ باشه… ولی شستشوی ملایم!",

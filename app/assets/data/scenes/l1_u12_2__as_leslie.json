@@ -24,7 +24,7 @@
       "these",
       "socks",
       "pairs",
-      "find",
+      "look",
       "need"
      ],
      "suggestion": "Look at all these socks! Can you help me? We need to find the pairs.",
@@ -50,7 +50,7 @@
       "stars",
       "sock",
       "blue",
-      "see"
+      "one"
      ],
      "suggestion": "This sock is blue with stars. Can you see another blue one?",
      "suggestionFa": "این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟",
@@ -100,7 +100,7 @@
       "aren't",
       "one's",
       "these",
-      "white"
+      "sweet"
      ],
      "suggestion": "That one's red. These tiny white ones are William's. Aren't they sweet?",
      "suggestionFa": "اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟",
@@ -150,7 +150,7 @@
       "other",
       "green",
       "sock",
-      "now"
+      "one"
      ],
      "suggestion": "Yes, in the bin! Now, one green sock. Where's the other green sock?",
      "suggestionFa": "آره، سطل آشغال! حالا، یه جوراب سبز. اون یکی جوراب سبز کجاست؟",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "disappear",
-      "washing",
       "machine",
+      "washing",
       "always",
       "socks"
      ],
@@ -200,7 +200,7 @@
       "knows",
       "count",
       "pairs",
-      "have"
+      "many"
      ],
      "suggestion": "Nobody knows! OK, how many pairs have we got? Can you count them?",
      "suggestionFa": "هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "drawers",
-      "thank",
       "eight",
       "let's",
-      "pairs"
+      "pairs",
+      "thank"
      ],
      "suggestion": "Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea!",
      "suggestionFa": "هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!",

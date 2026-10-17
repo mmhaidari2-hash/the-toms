@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "give",
       "iron",
+      "give",
       "can"
      ],
      "suggestion": "Yes, I can iron. Give it to me.",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "interview",
-      "good",
       "luck",
-      "job"
+      "good",
+      "tom"
      ],
      "suggestion": "A job interview? Good luck, Tom!",
      "suggestionFa": "مصاحبهٔ کاری؟ موفق باشی تام!",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "iron",
+      "got",
       "yet",
-      "hot",
-      "got"
+      "hot"
      ],
      "suggestion": "Got it. Is the iron hot yet?",
      "suggestionFa": "فهمیدم. اتو داغ شد؟",
@@ -182,8 +182,8 @@
    "branches": [
     {
      "keywords": [
-      "fill",
       "i'll",
+      "fill",
       "yet",
       "now"
      ],
@@ -264,8 +264,8 @@
     {
      "keywords": [
       "same",
-      "mum",
-      "way"
+      "way",
+      "mum"
      ],
      "suggestion": "My mum does it the same way!",
      "suggestionFa": "مامانم هم همین‌جوری می‌کنه!",
@@ -316,8 +316,8 @@
     {
      "keywords": [
       "stand",
-      "i'll",
       "when",
+      "i'll",
       "stop"
      ],
      "suggestion": "I'll stand it up when I stop.",
@@ -426,8 +426,8 @@
     },
     {
      "keywords": [
-      "questions",
-      "interview"
+      "interview",
+      "questions"
      ],
      "suggestion": "What are the interview questions?",
      "suggestionFa": "سؤال‌های مصاحبه چیه؟",

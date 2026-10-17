@@ -72,10 +72,10 @@
     {
      "keywords": [
       "downstairs",
-      "there's",
       "kitchen",
-      "garden",
-      "living"
+      "there's",
+      "living",
+      "garden"
      ],
      "suggestion": "Downstairs there's a kitchen and a living room. There's a small garden too.",
      "suggestionFa": "طبقهٔ پایین آشپزخونه و نشیمن هست. یه باغچهٔ کوچیک هم هست.",
@@ -98,8 +98,8 @@
      "keywords": [
       "downstairs",
       "bedrooms",
-      "upstairs",
       "bathroom",
+      "upstairs",
       "there's"
      ],
      "suggestion": "There's a toilet downstairs. The bathroom is upstairs, with the bedrooms.",
@@ -124,8 +124,8 @@
       "bedrooms",
       "there",
       "room",
-      "loft",
-      "four"
+      "four",
+      "loft"
      ],
      "suggestion": "There are four bedrooms. Your room is in the loft, at the top.",
      "suggestionFa": "چهار اتاق‌خواب هست. اتاق تو زیرشیروونیه، بالای بالا.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "window",
+      "lovely",
       "under",
       "let's",
       "room"
@@ -171,8 +171,8 @@
    "branches": [
     {
      "keywords": [
-      "wardrobe",
       "anything",
+      "wardrobe",
       "there's",
       "there",
       "desk"
@@ -198,9 +198,9 @@
      "keywords": [
       "yourself",
       "course",
-      "home",
       "love",
-      "make"
+      "make",
+      "home"
      ],
      "suggestion": "Of course, love. Make yourself at home!",
      "suggestionFa": "حتماً عزیزم. راحت باش، خونهٔ خودته!",

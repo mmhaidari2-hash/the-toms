@@ -20,8 +20,8 @@
     {
      "keywords": [
       "outside",
-      "cash",
-      "kept"
+      "kept",
+      "cash"
      ],
      "suggestion": "The cash machine outside kept my card!",
      "suggestionFa": "خودپرداز بیرون کارتم را نگه داشت!",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "entered",
-      "times",
       "wrong",
+      "times",
       "three"
      ],
      "suggestion": "Yes. I entered the wrong PIN three times.",
@@ -87,8 +87,8 @@
      "keywords": [
       "didn't",
       "come",
-      "out",
-      "put"
+      "put",
+      "out"
      ],
      "suggestion": "No! I put it in and it didn't come out.",
      "suggestionFa": "نه! گذاشتمش تو و بیرون نیومد.",
@@ -193,9 +193,9 @@
    "branches": [
     {
      "keywords": [
-      "will",
       "card",
       "when",
+      "will",
       "new"
      ],
      "suggestion": "When will I get the new card?",
@@ -207,8 +207,8 @@
     {
      "keywords": [
       "cancel",
-      "still",
       "phone",
+      "still",
       "use"
      ],
      "suggestion": "Cancel it? Can I still use my phone?",
@@ -260,10 +260,10 @@
     },
     {
      "keywords": [
-      "five",
       "days",
+      "five",
       "food",
-      "buy"
+      "how"
      ],
      "suggestion": "Five days? How do I buy food?",
      "suggestionFa": "پنج روز؟ چطوری غذا بخرم؟",
@@ -314,8 +314,8 @@
      "keywords": [
       "fifty",
       "take",
-      "can",
-      "out"
+      "out",
+      "can"
      ],
      "suggestion": "Can I take out fifty pounds?",
      "suggestionFa": "می‌تونم پنجاه پوند بردارم؟",
@@ -351,7 +351,7 @@
      "keywords": [
       "changed",
       "forgot",
-      "know",
+      "week",
       "last"
      ],
      "suggestion": "I know. I changed it last week and forgot!",

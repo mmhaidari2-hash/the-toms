@@ -30,8 +30,8 @@
     },
     {
      "keywords": [
-      "can't",
       "think",
+      "can't",
       "find"
      ],
      "suggestion": "I can't find my bag. I think I left it on the 38.",
@@ -138,8 +138,8 @@
     },
     {
      "keywords": [
-      "small",
       "front",
+      "small",
       "blue",
       "zip"
      ],
@@ -192,8 +192,8 @@
      "keywords": [
       "umbrella",
       "lunch",
-      "book",
-      "just"
+      "just",
+      "book"
      ],
      "suggestion": "Just a book and an umbrella. Oh, and my lunch.",
      "suggestionFa": "فقط یه کتاب و یه چتر. آهان، و ناهارم.",
@@ -282,8 +282,8 @@
    "branches": [
     {
      "keywords": [
-      "got",
       "has",
+      "got",
       "he"
      ],
      "suggestion": "Has he got it?",
@@ -322,8 +322,8 @@
     {
      "keywords": [
       "thank",
-      "much",
       "when",
+      "much",
       "tom"
      ],
      "suggestion": "Thank you so much, Tom! When can I get it?",
@@ -371,10 +371,10 @@
    "branches": [
     {
      "keywords": [
-      "just",
       "make",
+      "just",
       "did",
-      "ha"
+      "up"
      ],
      "suggestion": "Ha! Did you just make that up?",
      "suggestionFa": "ها! همین الان از خودت درآوردی؟",

@@ -23,9 +23,9 @@
      "keywords": [
       "o'clock",
       "already",
+      "phones",
       "that's",
-      "unfair",
-      "phones"
+      "unfair"
      ],
      "suggestion": "Is it ten o'clock already? Mum says phones off at ten. That's so unfair!",
      "suggestionFa": "ساعت ده شد؟ مامان می‌گه گوشی‌ها ساعت ده خاموش. خیلی ناعادلانه‌ست!",
@@ -49,8 +49,8 @@
       "finishing",
       "minutes",
       "just",
-      "game",
-      "late"
+      "late",
+      "game"
      ],
      "suggestion": "Ten minutes! OK. I'm just finishing this game. Do you go to bed late?",
      "suggestionFa": "ده دقیقه! باشه. دارم این بازی را تموم می‌کنم. تو دیر می‌خوابی؟",
@@ -75,7 +75,7 @@
       "school",
       "maths",
       "lucky",
-      "test"
+      "i've"
      ],
      "suggestion": "Lucky you. Have you got school tomorrow? I've got a maths test.",
      "suggestionFa": "خوش به حالت. فردا مدرسه داری؟ من امتحان ریاضی دارم.",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "o'clock",
-      "seven",
       "check",
+      "seven",
       "alarm",
       "know"
      ],
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "cheers",
       "still",
       "kit"
@@ -148,9 +148,9 @@
      "keywords": [
       "genius",
       "light",
-      "lamp",
       "i've",
-      "turn"
+      "turn",
+      "lamp"
      ],
      "suggestion": "Genius. Can you turn the big light off? I've got my lamp.",
      "suggestionFa": "نابغه. می‌شه چراغ اصلی را خاموش کنی؟ آباژورم را دارم.",
@@ -173,9 +173,9 @@
      "keywords": [
       "tomorrow",
       "phone's",
-      "time",
       "good",
-      "see"
+      "time",
+      "boy"
      ],
      "suggestion": "Phone's off. See? I'm a good boy. What time do you get up tomorrow?",
      "suggestionFa": "گوشی خاموشه. دیدی؟ پسر خوبیم. فردا ساعت چند بیدار می‌شی؟",
@@ -222,10 +222,10 @@
     {
      "keywords": [
       "radiator",
-      "thanks",
       "cheers",
-      "trick",
-      "night"
+      "thanks",
+      "night",
+      "trick"
      ],
      "suggestion": "Cheers, mate. And thanks for the radiator trick. Night!",
      "suggestionFa": "مرسی رفیق. و ممنون بابت ترفند شوفاژ. شب بخیر!",

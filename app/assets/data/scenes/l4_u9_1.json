@@ -123,10 +123,10 @@
    "branches": [
     {
      "keywords": [
-      "refund",
       "please",
-      "trust",
-      "don't"
+      "refund",
+      "don't",
+      "trust"
      ],
      "suggestion": "A full refund, please. I don't trust this model any more.",
      "suggestionFa": "بازپرداخت کامل لطفاً. دیگه به این مدل اعتماد ندارم.",
@@ -138,8 +138,8 @@
      "keywords": [
       "replacement",
       "different",
-      "fine",
-      "long"
+      "long",
+      "fine"
      ],
      "suggestion": "A replacement is fine, as long as it's a different model.",
      "suggestionFa": "تعویض خوبه، به شرطی که مدل دیگه‌ای باشه.",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "stopped",
-      "heating",
       "morning",
+      "heating",
       "just"
      ],
      "suggestion": "No, it just stopped heating one morning.",

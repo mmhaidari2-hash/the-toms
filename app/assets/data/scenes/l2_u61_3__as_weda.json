@@ -1,0 +1,200 @@
+{
+ "id": "l2_u61_3__as_weda",
+ "characterId": "weda",
+ "title": "(As Nana Maggie) A wasp sting",
+ "titleFa": "(در نقش Nana Maggie) نیش زنبور",
+ "setting": "Accidents and injuries · Level 2",
+ "settingFa": "حادثه و آسیب",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u61_3",
+ "playAs": "weda",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Nana Maggie!",
+   "translations": {
+    "fa": "سلام Nana Maggie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "cardigan",
+      "through",
+      "little",
+      "wasp's",
+      "devil"
+     ],
+     "suggestion": "Ooh! Ooh, you little devil! A wasp's stung me. On my arm. Right through my cardigan! Can you have a look, love?",
+     "suggestionFa": "اوه! اوه، ای شیطون کوچولو! یه زنبور نیشم زد. رو بازوم. درست از روی ژاکتم! می‌تونی یه نگاه بندازی عزیزم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Oh no! Let me see. Where exactly?",
+   "translations": {
+    "fa": "وای نه! بذار ببینم. دقیقاً کجا؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "business",
+      "nobody's",
+      "behind",
+      "stings",
+      "leave"
+     ],
+     "suggestion": "Just here. It's red and it stings like nobody's business. Wasps don't leave a sting behind, do they? Bees do.",
+     "suggestionFa": "همین‌جا. قرمزه و خیلی می‌سوزه. زنبورها نیششون را جا نمی‌ذارن، نه؟ زنبور عسل‌ها جا می‌ذارن.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "No sting in there. It was definitely a wasp.",
+   "translations": {
+    "fa": "نیشی اون تو نیست. قطعاً زنبور بود."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "bathroom",
+      "flannel",
+      "that's",
+      "please",
+      "always"
+     ],
+     "suggestion": "Good. Now, a cold flannel, please. In the bathroom. That's what my mum always did. And maybe a cup of tea. For the shock.",
+     "suggestionFa": "خوبه. حالا، یه دستمال سرد، لطفاً. تو حموم. مامانم همیشه این کار را می‌کرد. و شاید یه فنجون چای. برای شوک.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Here's a cold flannel. Hold it on your arm.",
+   "translations": {
+    "fa": "بفرما یه دستمال سرد. رو بازوت نگهش دار."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "allergic",
+      "breathe",
+      "seventy",
+      "stings",
+      "that's"
+     ],
+     "suggestion": "Allergic? No, love. Seventy-one years and lots of stings. But if your lips swell up, or you can't breathe — that's 999.",
+     "suggestionFa": "حساسیت؟ نه عزیزم. هفتاد و یک سال و کلی نیش. ولی اگه لبت ورم کنه یا نتونی نفس بکشی — اون ۹۹۹ه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "999 if you can't breathe. I'll remember that.",
+   "translations": {
+    "fa": "۹۹۹ اگه نتونی نفس بکشی. یادم می‌مونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pharmacist",
+      "swelling",
+      "dawson's",
+      "tomorrow",
+      "getting"
+     ],
+     "suggestion": "A bit bigger, yes. Normal swelling. If it's getting worse tomorrow, I'll ask the pharmacist. Mr Dawson's very good with stings.",
+     "suggestionFa": "یه کم بزرگ‌تر، آره. ورم عادیه. اگه فردا بدتر شد، از داروساز می‌پرسم. آقای داوسون با نیش خیلی واردِه.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "The pharmacist can give you a cream.",
+   "translations": {
+    "fa": "داروساز می‌تونه بهت کرم بده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "antihistamine",
+      "george's",
+      "george",
+      "better",
+      "lovely"
+     ],
+     "suggestion": "An antihistamine would be lovely. Top drawer, next to George's pills. Thank you, love. You're a better nurse than my George!",
+     "suggestionFa": "آنتی‌هیستامین عالیه. کشوی بالا، کنار قرص‌های جرج. ممنون عزیزم. تو از جرج من پرستار بهتری هستی!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ha! Don't tell George.",
+   "translations": {
+    "fa": "ها! به جرج نگو."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "where's",
+      "friends",
+      "course",
+      "before",
+      "window"
+     ],
+     "suggestion": "Lovely. Now, where's that wasp? Ah — by the jam. Of course. Shut the window, love, before he brings his friends.",
+     "suggestionFa": "عالی. حالا، اون زنبوره کجاست؟ آه — کنار مربا. معلومه. پنجره را ببند عزیزم، قبل از اینکه دوستاش را بیاره.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Nana Maggie! See you later.",
+   "translations": {
+    "fa": "ممنون Nana Maggie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

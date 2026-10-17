@@ -122,7 +122,7 @@
       "minutes",
       "small",
       "right",
-      "cold"
+      "knee"
      ],
      "suggestion": "\"Small red mark, right knee. Cold pack for five minutes.\"",
      "suggestionFa": "«علامت قرمز کوچک، زانوی راست. پنج دقیقه کیسهٔ سرد.»",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "call",
+      "his",
       "now",
-      "dad",
-      "his"
+      "dad"
      ],
      "suggestion": "Do we call his dad now?",
      "suggestionFa": "الان به باباش زنگ بزنیم؟",
@@ -272,9 +272,9 @@
    "branches": [
     {
      "keywords": [
-      "here",
       "just",
-      "date"
+      "date",
+      "here"
      ],
      "suggestion": "Just here, please, and the date.",
      "suggestionFa": "همین‌جا، لطفاً، و تاریخ.",
@@ -285,9 +285,9 @@
     {
      "keywords": [
       "bottom",
+      "sign",
       "have",
-      "copy",
-      "sign"
+      "copy"
      ],
      "suggestion": "Sign at the bottom, please. You can have a copy.",
      "suggestionFa": "لطفاً پایینش امضا کنید. یه نسخه هم می‌تونید داشته باشید.",

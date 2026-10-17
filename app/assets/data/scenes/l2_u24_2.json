@@ -21,8 +21,8 @@
      "keywords": [
       "looks",
       "warm",
-      "one",
-      "can"
+      "try",
+      "one"
      ],
      "suggestion": "This one looks warm. Can I try it on?",
      "suggestionFa": "این یکی گرم به نظر میاد. می‌تونم پروش کنم؟",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "coats",
-      "sell",
       "they",
-      "here"
+      "here",
+      "sell"
      ],
      "suggestion": "Do they sell coats here? It's so big!",
      "suggestionFa": "اینجا کت می‌فروشن؟ خیلی بزرگه!",
@@ -76,7 +76,7 @@
       "jumper",
       "items",
       "then",
-      "i'll"
+      "take"
      ],
      "suggestion": "Six items? Then I'll take a jumper too.",
      "suggestionFa": "شش تیکه؟ پس یه بلوز بافتنی هم می‌برم.",
@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "number",
       "what's",
+      "number",
       "tag"
      ],
      "suggestion": "What's the number tag for?",
@@ -145,7 +145,7 @@
       "tight",
       "here",
       "fits",
-      "but"
+      "bit"
      ],
      "suggestion": "It fits! But it's a bit tight here.",
      "suggestionFa": "اندازه‌ست! ولی اینجاش یه‌کم تنگه.",
@@ -195,9 +195,9 @@
     {
      "keywords": [
       "help",
+      "ask",
       "her",
-      "can",
-      "ask"
+      "can"
      ],
      "suggestion": "Can I help? I can ask her.",
      "suggestionFa": "کمک کنم؟ من ازش می‌پرسم.",
@@ -208,8 +208,8 @@
     {
      "keywords": [
       "possible",
-      "leslie",
       "thanks",
+      "leslie",
       "black"
      ],
      "suggestion": "Thanks, Leslie. In black, if possible.",
@@ -261,8 +261,8 @@
     },
     {
      "keywords": [
-      "suit",
-      "warm"
+      "warm",
+      "suit"
      ],
      "suggestion": "It does suit me! And it's warm.",
      "suggestionFa": "واقعاً بهم میاد! گرمم هست.",
@@ -304,9 +304,9 @@
    "branches": [
     {
      "keywords": [
-      "hood",
-      "i'll",
       "take",
+      "i'll",
+      "hood",
       "has"
      ],
      "suggestion": "Yes, it has a hood. I'll take it.",
@@ -318,8 +318,8 @@
     {
      "keywords": [
       "sideways",
-      "rain",
-      "real"
+      "real",
+      "rain"
      ],
      "suggestion": "Sideways rain? Is that real?",
      "suggestionFa": "بارون کج؟ واقعیه؟",

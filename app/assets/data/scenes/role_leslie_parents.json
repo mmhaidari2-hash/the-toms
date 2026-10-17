@@ -21,8 +21,8 @@
      "keywords": [
       "tonight",
       "didn't",
-      "sorry",
-      "speak"
+      "speak",
+      "sorry"
      ],
      "suggestion": "I'm sorry — I didn't know. I'll speak to him tonight.",
      "suggestionFa": "متأسفم — خبر نداشتم. امشب باهاش حرف می‌زنم.",
@@ -70,8 +70,8 @@
    "branches": [
     {
      "keywords": [
-      "chicken",
       "morning",
+      "chicken",
       "eight",
       "shop"
      ],
@@ -118,9 +118,9 @@
     {
      "keywords": [
       "idea",
-      "good",
+      "make",
       "sure",
-      "make"
+      "good"
      ],
      "suggestion": "Good idea. I'll make sure he does.",
      "suggestionFa": "فکر خوبیه. مطمئن میشم این کار را بکنه.",
@@ -133,7 +133,7 @@
       "drives",
       "check",
       "bus",
-      "ask"
+      "his"
      ],
      "suggestion": "His dad drives the bus — I'll ask Tom to check!",
      "suggestionFa": "باباش رانندهٔ اتوبوسه — از تام می‌خوام بررسی کنه!",
@@ -171,7 +171,7 @@
       "english",
       "that's",
       "about",
-      "good"
+      "hear"
      ],
      "suggestion": "That's good to hear. What about English?",
      "suggestionFa": "شنیدنش خوبه. انگلیسیش چی؟",
@@ -182,8 +182,8 @@
     {
      "keywords": [
       "grandad",
-      "gets",
       "from",
+      "gets",
       "his"
      ],
      "suggestion": "He gets that from his grandad.",
@@ -222,7 +222,7 @@
       "football",
       "reads",
       "count",
-      "only"
+      "news"
      ],
      "suggestion": "He only reads football news. Does that count?",
      "suggestionFa": "فقط اخبار فوتبال می‌خونه. حساب میشه؟",
@@ -371,8 +371,8 @@
    "branches": [
     {
      "keywords": [
-      "thank",
       "patel",
+      "thank",
       "will",
       "mrs"
      ],
@@ -385,9 +385,9 @@
     {
      "keywords": [
       "helpful",
-      "thanks",
       "really",
-      "much"
+      "thanks",
+      "been"
      ],
      "suggestion": "Thanks so much — this has been really helpful.",
      "suggestionFa": "خیلی ممنون — واقعاً مفید بود.",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "bleeding",
-      "nicola",
       "garden",
+      "nicola",
       "first",
-      "over"
+      "knee"
      ],
      "suggestion": "Oh no! Nicola fell over in the garden. Her knee is bleeding. Can you get the first aid kit?",
      "suggestionFa": "ای وای! نیکولا تو حیاط افتاد. زانوش داره خون میاد. می‌تونی جعبهٔ کمک‌های اولیه را بیاری؟",
@@ -50,7 +50,7 @@
       "sweetie",
       "nicola",
       "green",
-      "see"
+      "box"
      ],
      "suggestion": "In the top cupboard, the green box. Nicola, sweetie, let me see.",
      "suggestionFa": "تو کابینت بالایی، جعبهٔ سبز. نیکولا، عزیزم، بذار ببینم.",
@@ -128,11 +128,11 @@
    "branches": [
     {
      "keywords": [
-      "wipes",
       "water",
+      "wipes",
       "first",
-      "pass",
-      "wash"
+      "wash",
+      "pass"
      ],
      "suggestion": "First, we wash it with water. Can you pass me the wipes?",
      "suggestionFa": "اول با آب می‌شوریمش. دستمال‌های مرطوب را میدی؟",
@@ -157,7 +157,7 @@
       "nicola",
       "brave",
       "might",
-      "sting"
+      "three"
      ],
      "suggestion": "It might sting a little. Be brave, Nicola. One, two, three… done!",
      "suggestionFa": "شاید یه کم بسوزه. شجاع باش نیکولا. یک، دو، سه… تموم شد!",
@@ -235,8 +235,8 @@
      "keywords": [
       "better",
       "there",
-      "kiss",
       "make",
+      "kiss",
       "now"
      ],
      "suggestion": "There. Now a kiss to make it better. Better?",
@@ -309,8 +309,8 @@
      "keywords": [
       "running",
       "brave",
-      "don't",
       "being",
+      "don't",
       "patio"
      ],
      "suggestion": "Just one, for being so brave. And no more running on the patio, OK? Walk, don't run!",

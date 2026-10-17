@@ -31,8 +31,8 @@
     {
      "keywords": [
       "vitamin",
-      "that's",
       "should",
+      "that's",
       "relief"
      ],
      "suggestion": "That's a relief. What should I do about the vitamin D?",
@@ -127,8 +127,8 @@
     {
      "keywords": [
       "honest",
-      "great",
       "night",
+      "great",
       "wake"
      ],
      "suggestion": "Not great, to be honest. I wake up a lot at night.",
@@ -142,7 +142,7 @@
       "reasonable",
       "struggle",
       "mornings",
-      "get"
+      "but"
      ],
      "suggestion": "Reasonable, but I struggle to get up in the mornings.",
      "suggestionFa": "معقول، ولی صبح‌ها به‌زور بیدار می‌شم.",
@@ -182,9 +182,9 @@
     {
      "keywords": [
       "intense",
+      "family",
       "work's",
-      "abroad",
-      "family"
+      "abroad"
      ],
      "suggestion": "Work's been intense, and I worry about my family abroad.",
      "suggestionFa": "کار خیلی فشرده بوده، و نگران خانواده‌ام در خارجم.",
@@ -197,7 +197,7 @@
       "evenings",
       "really",
       "think",
-      "dark"
+      "just"
      ],
      "suggestion": "Not really — I think it's just the dark evenings.",
      "suggestionFa": "نه واقعاً — فکر کنم فقط عصرهای تاریکه.",
@@ -239,7 +239,7 @@
       "myself",
       "refer",
       "open",
-      "how"
+      "i'd"
      ],
      "suggestion": "I'd be open to that. How do I refer myself?",
      "suggestionFa": "حاضرم. چطوری خودم را ارجاع بدم؟",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "therapy",
-      "about",
       "think",
-      "sure"
+      "about",
+      "i'll"
      ],
      "suggestion": "I'm not sure therapy is for me, but I'll think about it.",
      "suggestionFa": "مطمئن نیستم درمان برای من باشه، ولی بهش فکر می‌کنم.",
@@ -295,9 +295,9 @@
     {
      "keywords": [
       "sitting",
+      "desk",
       "pain",
-      "from",
-      "back"
+      "from"
      ],
      "suggestion": "Only a bit of back pain from sitting at a desk all day.",
      "suggestionFa": "فقط یه کم کمردرد از نشستن پشت میز تمام روز.",
@@ -349,8 +349,8 @@
    "branches": [
     {
      "keywords": [
-      "birds",
       "stone",
+      "birds",
       "then",
       "one"
      ],
@@ -363,9 +363,9 @@
     {
      "keywords": [
       "outside",
-      "more",
       "i'll",
-      "get"
+      "more",
+      "try"
      ],
      "suggestion": "I'll try to get outside more.",
      "suggestionFa": "سعی می‌کنم بیشتر برم بیرون.",
@@ -396,8 +396,8 @@
    "branches": [
     {
      "keywords": [
-      "thanks",
       "okafor",
+      "thanks",
       "will",
       "dr"
      ],
@@ -410,8 +410,8 @@
     {
      "keywords": [
       "supplement",
-      "should",
       "before",
+      "should",
       "test"
      ],
      "suggestion": "Should I stop the supplement before the test?",

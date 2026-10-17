@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "calling",
       "absence",
+      "calling",
       "report",
       "won't"
      ],
@@ -117,8 +117,8 @@
      "keywords": [
       "temperature",
       "night",
-      "been",
-      "sick"
+      "sick",
+      "been"
      ],
      "suggestion": "She's been sick in the night and has a temperature.",
      "suggestionFa": "شب استفراغ کرده و تب داره.",
@@ -130,8 +130,8 @@
      "keywords": [
       "cough",
       "cold",
-      "bad",
-      "got"
+      "got",
+      "bad"
      ],
      "suggestion": "She's got a bad cold and a cough.",
      "suggestionFa": "سرماخوردگی و سرفهٔ بدی داره.",
@@ -338,8 +338,8 @@
     {
      "keywords": [
       "online",
-      "can",
-      "she"
+      "she",
+      "can"
      ],
      "suggestion": "Can she sign it online?",
      "suggestionFa": "می‌تونه آنلاین امضاش کنه؟",
@@ -369,9 +369,9 @@
    "branches": [
     {
      "keywords": [
-      "thank",
+      "would",
       "great",
-      "would"
+      "thank"
      ],
      "suggestion": "That would be great, thank you.",
      "suggestionFa": "عالی میشه، ممنون.",

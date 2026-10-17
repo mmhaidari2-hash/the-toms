@@ -72,8 +72,8 @@
      "keywords": [
       "happened",
       "think",
-      "know",
-      "next"
+      "next",
+      "know"
      ],
      "suggestion": "A lot of hope! I think I know what happened next.",
      "suggestionFa": "کلی امید! فکر کنم می‌دونم بعدش چی شد.",
@@ -85,8 +85,8 @@
      "keywords": [
       "easily",
       "tent",
-      "did",
-      "put"
+      "put",
+      "did"
      ],
      "suggestion": "Did you put up the tent easily?",
      "suggestionFa": "چادر را راحت برپا کردید؟",
@@ -137,8 +137,8 @@
     },
     {
      "keywords": [
-      "stay",
       "tent",
+      "stay",
       "dry"
      ],
      "suggestion": "Did the tent stay dry?",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "three",
-      "days",
       "home",
+      "days",
       "go"
      ],
      "suggestion": "Three days! Did you go home?",
@@ -248,7 +248,7 @@
       "clever",
       "that's",
       "dryer",
-      "heat"
+      "hand"
      ],
      "suggestion": "The hand dryer for heat! That's very clever.",
      "suggestionFa": "دست‌خشک‌کن برای گرما! خیلی زرنگی بود.",
@@ -302,10 +302,10 @@
    "branches": [
     {
      "keywords": [
+      "farm",
       "stay",
       "kind",
-      "farm",
-      "did"
+      "man"
      ],
      "suggestion": "What a kind man! Did you stay on the farm?",
      "suggestionFa": "چه مرد مهربونی! تو مزرعه موندید؟",
@@ -352,8 +352,8 @@
    "branches": [
     {
      "keywords": [
-      "lovely",
       "sounds",
+      "lovely",
       "better",
       "tent"
      ],
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "welsh",
-      "cakes"
+      "cakes",
+      "welsh"
      ],
      "suggestion": "What are Welsh cakes?",
      "suggestionFa": "کیک ولزی چیه؟",

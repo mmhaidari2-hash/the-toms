@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "street",
+      "office",
+      "high",
       "post",
-      "card",
-      "high"
+      "card"
      ],
      "suggestion": "It says it's at the post office on the high street. You need the card and ID.",
      "suggestionFa": "میگه تو ادارهٔ پست خیابون اصلیه. کارت و مدرک شناسایی لازمه.",
@@ -74,8 +74,8 @@
       "signed",
       "card",
       "nana",
-      "back",
-      "take"
+      "take",
+      "back"
      ],
      "suggestion": "Nana has signed the back of the card. So take your ID and her card.",
      "suggestionFa": "نانا پشت کارت را امضا کرده. پس مدرک خودت و کارتش را ببر.",
@@ -311,8 +311,8 @@
       "collecting",
       "together",
       "hackney",
-      "thanks",
-      "purple"
+      "purple",
+      "thanks"
      ],
      "suggestion": "Nana knits for half of Hackney! Ha! Thanks for collecting it. Let's open it together — I bet it's purple wool.",
      "suggestionFa": "نانا برای نصف هکنی بافتنی می‌بافه! ها! ممنون که تحویل گرفتی. بیا با هم بازش کنیم — شرط می‌بندم کاموای بنفشه.",

@@ -49,7 +49,7 @@
       "something",
       "british",
       "lunch",
-      "toast",
+      "beans",
       "quick"
      ],
      "suggestion": "Something quick… Beans on toast! The best British lunch. Have you tried it?",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "you'll",
-      "drawer",
       "opener",
+      "drawer",
+      "you'll",
       "love",
       "open"
      ],
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "please",
-      "don't",
       "beans",
+      "don't",
       "stir",
       "burn"
      ],
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "toast's",
-      "cheese",
       "butter",
-      "toast",
-      "yours"
+      "cheese",
+      "yours",
+      "beans"
      ],
      "suggestion": "Toast's ready! Butter on the toast, then beans on top. Do you want cheese on yours?",
      "suggestionFa": "تست آماده‌ست! کره رو تست، بعد لوبیا رو بالاش. رو مال تو پنیر بریزم؟",
@@ -173,9 +173,9 @@
      "keywords": [
       "cheese",
       "secret",
-      "brown",
       "sauce",
-      "now"
+      "brown",
+      "try"
      ],
      "suggestion": "Cheese on top. Now, the secret: a bit of brown sauce. Try it!",
      "suggestionFa": "پنیر رو بالاش. حالا، راز کار: یه کم سس قهوه‌ای. امتحانش کن!",
@@ -199,8 +199,8 @@
       "cooking",
       "minutes",
       "that's",
-      "only",
-      "wash"
+      "wash",
+      "five"
      ],
      "suggestion": "See? Five minutes and only one pan to wash. That's my kind of cooking!",
      "suggestionFa": "دیدی؟ پنج دقیقه و فقط یه تابه برای شستن. این آشپزی مورد علاقهٔ منه!",

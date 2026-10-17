@@ -31,9 +31,9 @@
     },
     {
      "keywords": [
-      "vida",
       "meet",
-      "nice"
+      "nice",
+      "vida"
      ],
      "suggestion": "Nice to meet you, Vida.",
      "suggestionFa": "از آشنایی‌ات خوشحالم، ویدا.",
@@ -122,8 +122,8 @@
    "branches": [
     {
      "keywords": [
-      "morning",
-      "william"
+      "william",
+      "morning"
      ],
      "suggestion": "Morning, William!",
      "suggestionFa": "صبح بخیر ویلیام!",
@@ -167,8 +167,8 @@
      "keywords": [
       "what's",
       "name",
-      "wow",
-      "his"
+      "his",
+      "wow"
      ],
      "suggestion": "Wow! What's his name?",
      "suggestionFa": "وای! اسمش چیه؟",
@@ -211,8 +211,8 @@
     {
      "keywords": [
       "william",
-      "coat",
       "hang",
+      "coat",
       "up"
      ],
      "suggestion": "Hang up your coat, William.",

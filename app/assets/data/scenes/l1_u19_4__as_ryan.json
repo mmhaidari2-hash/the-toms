@@ -23,9 +23,9 @@
      "keywords": [
       "o'clock",
       "already",
+      "school",
       "nights",
-      "lights",
-      "school"
+      "lights"
      ],
      "suggestion": "Is it ten o'clock already? Mum says lights out at ten on school nights.",
      "suggestionFa": "ساعت ده شده؟ مامان می‌گه شب‌های مدرسه ساعت ده چراغ خاموش.",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "minutes",
-      "middle",
       "please",
+      "middle",
       "don't",
       "tell"
      ],
@@ -97,9 +97,9 @@
     {
      "keywords": [
       "curtains",
-      "before",
       "shower",
       "please",
+      "before",
       "school"
      ],
      "suggestion": "I need to shower before school. Can you close the curtains, please?",
@@ -125,7 +125,7 @@
       "charger",
       "thanks",
       "phone",
-      "game"
+      "lost"
      ],
      "suggestion": "Thanks. OK, game over. I lost! Where's my phone charger?",
      "suggestionFa": "ممنون. خب، بازی تموم. باختم! شارژر گوشیم کجاست؟",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "classic",
-      "that's",
       "phones",
+      "that's",
       "pillow",
       "under"
      ],
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "phone",
       "light",
+      "phone",
+      "mums",
       "desk",
-      "same",
       "turn"
      ],
      "suggestion": "Mums are all the same! OK, phone on the desk. Can you turn the big light off?",
@@ -200,7 +200,7 @@
       "thanks",
       "about",
       "night",
-      "don't"
+      "extra"
      ],
      "suggestion": "Night! Thanks, mate. And don't tell Mum about the extra five minutes!",
      "suggestionFa": "شب بخیر! ممنون رفیق. و دربارهٔ اون پنج دقیقهٔ اضافه به مامان چیزی نگو!",

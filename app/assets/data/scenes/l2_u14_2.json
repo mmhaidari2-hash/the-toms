@@ -79,8 +79,8 @@
     {
      "keywords": [
       "librarian",
-      "time",
       "more",
+      "time",
       "ask"
      ],
      "suggestion": "Ask the librarian for more time.",
@@ -133,9 +133,9 @@
     {
      "keywords": [
       "bennett",
-      "he's",
       "kind",
-      "help"
+      "help",
+      "he's"
      ],
      "suggestion": "Mr Bennett can help you. He's very kind.",
      "suggestionFa": "آقای بنت می‌تونه کمکت کنه. خیلی مهربونه.",
@@ -191,8 +191,8 @@
     {
      "keywords": [
       "first",
-      "sure",
       "open",
+      "sure",
       "app"
      ],
      "suggestion": "Sure. First, open the library app.",
@@ -227,8 +227,8 @@
    "branches": [
     {
      "keywords": [
-      "still",
       "works",
+      "still",
       "here",
       "ha"
      ],
@@ -350,9 +350,9 @@
     },
     {
      "keywords": [
+      "just",
       "book",
-      "them",
-      "just"
+      "them"
      ],
      "suggestion": "Just this book, or all of them?",
      "suggestionFa": "فقط این کتاب، یا همه‌شون؟",

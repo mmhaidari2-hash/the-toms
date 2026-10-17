@@ -111,8 +111,8 @@
     {
      "keywords": [
       "clothes",
-      "book",
-      "some"
+      "some",
+      "book"
      ],
      "suggestion": "Some clothes and a book.",
      "suggestionFa": "چند تا لباس و یه کتاب.",
@@ -166,9 +166,9 @@
     },
     {
      "keywords": [
-      "there's",
-      "perfume",
       "problem",
+      "perfume",
+      "there's",
       "small"
      ],
      "suggestion": "There's a small perfume — is that a problem?",
@@ -211,9 +211,9 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "cost",
       "will",
+      "much",
       "how"
      ],
      "suggestion": "How much will that cost?",
@@ -224,8 +224,8 @@
     },
     {
      "keywords": [
-      "heavy",
-      "price"
+      "price",
+      "heavy"
      ],
      "suggestion": "Is that heavy for the price?",
      "suggestionFa": "برای قیمت سنگینه؟",
@@ -275,8 +275,8 @@
      "keywords": [
       "standard",
       "there's",
-      "fine",
-      "rush"
+      "rush",
+      "fine"
      ],
      "suggestion": "Standard is fine, there's no rush.",
      "suggestionFa": "معمولی خوبه، عجله‌ای نیست.",
@@ -312,8 +312,8 @@
     {
      "keywords": [
       "pounds",
-      "value",
-      "write"
+      "write",
+      "value"
      ],
      "suggestion": "Do I write the value in pounds?",
      "suggestionFa": "ارزش را به پوند بنویسم؟",
@@ -325,8 +325,8 @@
      "keywords": [
       "first",
       "could",
-      "help",
-      "time"
+      "time",
+      "help"
      ],
      "suggestion": "Could you help me with it? It's my first time.",
      "suggestionFa": "می‌تونید کمکم کنید؟ بار اولمه.",
@@ -371,9 +371,9 @@
     },
     {
      "keywords": [
-      "done",
       "else",
-      "need"
+      "need",
+      "done"
      ],
      "suggestion": "Done. What else do you need?",
      "suggestionFa": "تموم. دیگه چی لازم دارید؟",
@@ -409,8 +409,8 @@
     {
      "keywords": [
       "tracking",
-      "number",
-      "please"
+      "please",
+      "number"
      ],
      "suggestion": "Yes please, with the tracking number.",
      "suggestionFa": "آره لطفاً، با شمارهٔ ردیابی.",

@@ -1,0 +1,200 @@
+{
+ "id": "l2_u61_2__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) A burn in the kitchen",
+ "titleFa": "(در نقش Tom) سوختگی در آشپزخانه",
+ "setting": "Accidents and injuries · Level 2",
+ "settingFa": "حادثه و آسیب",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u61_2",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "roasting",
+      "without",
+      "where's",
+      "grabbed",
+      "butter"
+     ],
+     "suggestion": "ARGH! The roasting tin! I grabbed it without the oven glove! I've burnt my hand! Butter — where's the butter?!",
+     "suggestionFa": "آخ! سینی فر! بدون دستکش فر گرفتمش! دستم را سوزوندم! کره — کره کجاست؟!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "No, Tom! Don't put butter on it!",
+   "translations": {
+    "fa": "نه تام! روش کره نذار!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "that's",
+      "better",
+      "butter",
+      "always",
+      "used"
+     ],
+     "suggestion": "No butter? My nan always used butter! OK, OK — cold tap. Ooh. Ahh. That's better. How long do I keep it here?",
+     "suggestionFa": "کره نه؟ مادربزرگم همیشه کره می‌زد! باشه باشه — شیر آب سرد. اوه. آه. بهتر شد. چقدر اینجا نگهش دارم؟",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Twenty minutes. Under cool running water.",
+   "translations": {
+    "fa": "بیست دقیقه. زیر آب خنک روان."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "potatoes",
+      "mistake",
+      "minutes",
+      "twenty",
+      "learn"
+     ],
+     "suggestion": "Twenty minutes! The roast potatoes will burn too! Can you take them out? Use the glove. Learn from my mistake!",
+     "suggestionFa": "بیست دقیقه! سیب‌زمینی‌های تنوری هم می‌سوزن! می‌تونی درشون بیاری؟ از دستکش استفاده کن. از اشتباه من درس بگیر!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Glove on. Potatoes are out. Don't worry!",
+   "translations": {
+    "fa": "دستکش دستمه. سیب‌زمینی‌ها بیرونن. نگران نباش!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "potatoes",
+      "blister",
+      "minutes",
+      "there's",
+      "little"
+     ],
+     "suggestion": "Hero. The potatoes are saved. Right — twenty minutes. Let's look. Hmm. It's red, and there's a little blister. Is that bad?",
+     "suggestionFa": "قهرمان. سیب‌زمینی‌ها نجات پیدا کردن. خب — بیست دقیقه. بیا ببینیم. هوم. قرمزه، و یه تاول کوچیک داره. بده؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A small blister is normal. Don't pop it.",
+   "translations": {
+    "fa": "یه تاول کوچیک عادیه. نترکونش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "plasters",
+      "should",
+      "we've",
+      "again",
+      "don't"
+     ],
+     "suggestion": "Tiny. The size of a pea. Ha, peas again! OK, don't pop it. Should I cover it? We've got plasters.",
+     "suggestionFa": "کوچولو. اندازهٔ یه نخودفرنگی. ها، باز نخودفرنگی! باشه، نمی‌ترکونمش. بپوشونمش؟ چسب زخم داریم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Cover it loosely with cling film.",
+   "translations": {
+    "fa": "با سلفون شل بپوشونش."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sandwich",
+      "worse",
+      "human",
+      "cling",
+      "fine"
+     ],
+     "suggestion": "Cling film! Like a sandwich. I'm a human sandwich. Fine. And I'll keep an eye on it. If it gets worse, I'll ring 111.",
+     "suggestionFa": "سلفون! مثل ساندویچ. من یه ساندویچ آدمم. باشه. و حواسم بهش هست. اگه بدتر شد، به ۱۱۱ زنگ می‌زنم.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Good. And next time — oven glove!",
+   "translations": {
+    "fa": "خوبه. و دفعهٔ بعد — دستکش فر!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "minutes",
+      "nearly",
+      "leslie",
+      "butter",
+      "twenty"
+     ],
+     "suggestion": "Oven glove, no butter, twenty minutes, cling film. Got it. Don't tell my nan. And don't tell Leslie I nearly burnt the roast!",
+     "suggestionFa": "دستکش فر، کره نه، بیست دقیقه، سلفون. فهمیدم. به مادربزرگم نگو. و به لزلی نگو نزدیک بود کباب را بسوزونم!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

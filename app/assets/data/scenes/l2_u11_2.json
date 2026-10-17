@@ -71,10 +71,10 @@
    "branches": [
     {
      "keywords": [
+      "iran",
+      "came",
       "last",
-      "year",
-      "here",
-      "iran"
+      "here"
      ],
      "suggestion": "I'm from Iran. I came here last year.",
      "suggestionFa": "اهل ایرانم. پارسال اومدم.",
@@ -135,7 +135,7 @@
       "would",
       "like",
       "them",
-      "cup"
+      "tea"
      ],
      "suggestion": "Would you like a cup of tea with them?",
      "suggestionFa": "با اینا یه فنجون چای میل دارید؟",
@@ -170,9 +170,9 @@
     {
      "keywords": [
       "making",
-      "khan",
       "take",
-      "did"
+      "khan",
+      "how"
      ],
      "suggestion": "She did! I'm making tea. How do you take it, Mrs Khan?",
      "suggestionFa": "آره! دارم چای درست می‌کنم. خانم خان چای را چطوری می‌خورید؟",
@@ -219,8 +219,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
-      "going"
+      "going",
+      "where"
      ],
      "suggestion": "Where are you going?",
      "suggestionFa": "کجا می‌رید؟",
@@ -267,8 +267,8 @@
     {
      "keywords": [
       "happy",
-      "love",
-      "cats"
+      "cats",
+      "love"
      ],
      "suggestion": "Happy to. I love cats!",
      "suggestionFa": "با کمال میل. عاشق گربه‌ام!",
@@ -281,7 +281,7 @@
       "biscuit",
       "course",
       "often",
-      "eat"
+      "how"
      ],
      "suggestion": "Of course. How often does Biscuit eat?",
      "suggestionFa": "حتماً. بیسکویت چند وقت یه بار غذا می‌خوره؟",
@@ -321,8 +321,8 @@
      "keywords": [
       "problem",
       "lovely",
-      "have",
-      "trip"
+      "trip",
+      "have"
      ],
      "suggestion": "No problem at all. Have a lovely trip.",
      "suggestionFa": "اصلاً مشکلی نیست. سفر خوبی داشته باشید.",
@@ -332,10 +332,10 @@
     },
     {
      "keywords": [
-      "good",
-      "i'll",
+      "take",
       "care",
-      "take"
+      "good",
+      "i'll"
      ],
      "suggestion": "I'll take good care of her.",
      "suggestionFa": "خوب ازش مراقبت می‌کنم.",

@@ -21,8 +21,8 @@
      "keywords": [
       "course",
       "seeds",
-      "many",
-      "have"
+      "have",
+      "many"
      ],
      "suggestion": "Of course! How many seeds have you got?",
      "suggestionFa": "البته! چند تا دونه داری؟",
@@ -34,8 +34,8 @@
      "keywords": [
       "sunflowers",
       "they",
-      "tall",
-      "grow"
+      "grow",
+      "tall"
      ],
      "suggestion": "Sunflowers! They grow very tall.",
      "suggestionFa": "آفتابگردون! خیلی بلند میشن.",
@@ -91,8 +91,8 @@
     {
      "keywords": [
       "spade",
-      "pink",
-      "nice"
+      "nice",
+      "pink"
      ],
      "suggestion": "Your spade is pink! Very nice.",
      "suggestionFa": "بیلچه‌ات صورتیه! خیلی قشنگه.",
@@ -142,8 +142,8 @@
     {
      "keywords": [
       "worms",
-      "soil",
-      "good"
+      "good",
+      "soil"
      ],
      "suggestion": "Worms are good for the soil.",
      "suggestionFa": "کرم‌ها برای خاک خوبن.",
@@ -154,8 +154,8 @@
     {
      "keywords": [
       "gently",
-      "next",
       "worm",
+      "next",
       "hole"
      ],
      "suggestion": "Put the worm next to the hole. Gently!",
@@ -203,9 +203,9 @@
     {
      "keywords": [
       "pointy",
-      "down",
       "done",
-      "pat"
+      "down",
+      "end"
      ],
      "suggestion": "Pointy end down. Pat, pat. Done!",
      "suggestionFa": "سر نوک‌تیز پایین. آروم بزن. تموم شد!",
@@ -217,8 +217,8 @@
      "keywords": [
       "close",
       "next",
-      "one",
-      "now"
+      "now",
+      "one"
      ],
      "suggestion": "Now the next one. Not too close!",
      "suggestionFa": "حالا بعدی. نه خیلی نزدیک!",
@@ -270,8 +270,8 @@
      "keywords": [
       "every",
       "rains",
-      "even",
-      "when"
+      "when",
+      "even"
      ],
      "suggestion": "Every day? Even when it rains?",
      "suggestionFa": "هر روز؟ حتی وقتی بارون میاد؟",
@@ -322,8 +322,8 @@
     },
     {
      "keywords": [
-      "flowers",
       "patient",
+      "flowers",
       "months",
       "three"
      ],
@@ -366,7 +366,7 @@
       "sunflowers",
       "metres",
       "maybe",
-      "tall"
+      "grow"
      ],
      "suggestion": "Maybe! Some sunflowers grow two metres tall.",
      "suggestionFa": "شاید! بعضی آفتابگردون‌ها دو متر بلند میشن.",
@@ -377,8 +377,8 @@
     {
      "keywords": [
       "measure",
-      "every",
       "let's",
+      "every",
       "week"
      ],
      "suggestion": "Let's measure it every week.",

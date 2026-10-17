@@ -19,10 +19,10 @@
    "branches": [
     {
      "keywords": [
-      "current",
       "account",
-      "like",
-      "open"
+      "current",
+      "open",
+      "like"
      ],
      "suggestion": "Yes. I'd like to open a current account.",
      "suggestionFa": "بله. می‌خوام یه حساب جاری باز کنم.",
@@ -150,7 +150,7 @@
       "family",
       "aren't",
       "bills",
-      "name"
+      "live"
      ],
      "suggestion": "I live with a family. The bills aren't in my name.",
      "suggestionFa": "با یه خانواده زندگی می‌کنم. قبض‌ها به اسم من نیست.",
@@ -205,9 +205,9 @@
     },
     {
      "keywords": [
+      "open",
       "long",
       "take",
-      "open",
       "how"
      ],
      "suggestion": "Yes. How long does it take to open?",
@@ -256,9 +256,9 @@
     {
      "keywords": [
       "what's",
-      "small",
       "world",
-      "debit"
+      "debit",
+      "small"
      ],
      "suggestion": "Small world! What's a debit card?",
      "suggestionFa": "دنیا کوچیکه! کارت دبیت چیه؟",
@@ -309,9 +309,9 @@
     {
      "keywords": [
       "great",
+      "pin",
       "how",
-      "get",
-      "pin"
+      "get"
      ],
      "suggestion": "Great. And how do I get my PIN?",
      "suggestionFa": "عالیه. رمزم را چطوری می‌گیرم؟",

@@ -67,8 +67,8 @@
    "branches": [
     {
      "keywords": [
-      "weather",
       "driving",
+      "weather",
       "left",
       "food"
      ],
@@ -81,9 +81,9 @@
     {
      "keywords": [
       "everything",
+      "shops",
       "money",
-      "buses",
-      "shops"
+      "buses"
      ],
      "suggestion": "Everything. The buses, the shops, the money!",
      "suggestionFa": "همه چی. اتوبوس‌ها، مغازه‌ها، پول!",
@@ -131,7 +131,7 @@
       "first",
       "wrong",
       "took",
-      "bus"
+      "day"
      ],
      "suggestion": "Yes! I took the wrong bus on my first day.",
      "suggestionFa": "آره! روز اول اتوبوس اشتباه سوار شدم.",
@@ -181,8 +181,8 @@
    "branches": [
     {
      "keywords": [
-      "anyone",
       "didn't",
+      "anyone",
       "tell"
      ],
      "suggestion": "No! I didn't tell anyone.",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "chips",
       "great",
+      "chips",
       "fish",
-      "ate"
+      "was"
      ],
      "suggestion": "I ate fish and chips. It was great!",
      "suggestionFa": "ماهی و سیب‌زمینی خوردم. عالی بود!",
@@ -250,8 +250,8 @@
      "keywords": [
       "didn't",
       "cooked",
-      "every",
-      "shops"
+      "shops",
+      "every"
      ],
      "suggestion": "I cooked rice every day. I didn't know the shops.",
      "suggestionFa": "هر روز برنج پختم. مغازه‌ها را نمی‌شناختم.",
@@ -345,8 +345,8 @@
      "keywords": [
       "invited",
       "they",
-      "dad",
-      "mum"
+      "mum",
+      "tea"
      ],
      "suggestion": "Your mum and dad. They invited me for tea.",
      "suggestionFa": "مامان و بابات. منو برای عصرونه دعوت کردن.",
@@ -359,7 +359,7 @@
       "drawing",
       "nicola",
       "gave",
-      "cat"
+      "was"
      ],
      "suggestion": "Nicola gave me a drawing. It was a cat!",
      "suggestionFa": "نیکولا یه نقاشی بهم داد. یه گربه بود!",

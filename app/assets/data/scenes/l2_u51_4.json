@@ -22,7 +22,7 @@
       "course",
       "phone",
       "doris",
-      "see"
+      "let"
      ],
      "suggestion": "Of course, Doris. Let me see your phone.",
      "suggestionFa": "البته دوریس. گوشیتون را ببینم.",
@@ -74,8 +74,8 @@
      "keywords": [
       "street",
       "north",
-      "mare",
-      "head"
+      "head",
+      "mare"
      ],
      "suggestion": "It says, \"Head north on Mare Street.\"",
      "suggestionFa": "میگه «به سمت شمال خیابون مِیر برید.»",
@@ -126,8 +126,8 @@
     {
      "keywords": [
       "towards",
-      "shops",
       "arrow",
+      "shops",
       "shows"
      ],
      "suggestion": "The blue arrow shows us. This way — towards the shops.",
@@ -138,10 +138,10 @@
     },
     {
      "keywords": [
-      "moves",
       "let's",
+      "moves",
       "walk",
-      "see"
+      "dot"
      ],
      "suggestion": "Let's walk and see if the dot moves.",
      "suggestionFa": "بیاید راه بریم ببینیم نقطه تکون می‌خوره.",
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "after",
-      "bank",
       "sign",
+      "bank",
       "see"
      ],
      "suggestion": "Turn left after the bank. I can see the sign.",
@@ -254,7 +254,7 @@
      "keywords": [
       "let's",
       "we've",
-      "gone",
+      "turn",
       "back"
      ],
      "suggestion": "Yes, we've gone too far. Let's turn back.",
@@ -266,9 +266,9 @@
     {
      "keywords": [
       "second",
-      "just",
+      "wait",
       "slow",
-      "wait"
+      "just"
      ],
      "suggestion": "No, it's just slow. Wait one second.",
      "suggestionFa": "نه، فقط کنده. یه ثانیه صبر کنید.",
@@ -364,8 +364,8 @@
      "keywords": [
       "appointment",
       "luck",
-      "here",
-      "good"
+      "good",
+      "here"
      ],
      "suggestion": "Here it is! Good luck with your appointment.",
      "suggestionFa": "ایناهاش! برای وقتتون موفق باشید.",
@@ -375,8 +375,8 @@
     },
     {
      "keywords": [
-      "shall",
       "doris",
+      "shall",
       "wait"
      ],
      "suggestion": "Shall I wait for you, Doris?",

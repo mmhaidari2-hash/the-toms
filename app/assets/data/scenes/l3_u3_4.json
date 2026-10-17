@@ -21,8 +21,8 @@
      "keywords": [
       "exactly",
       "really",
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "Really? What exactly did he say?",
      "suggestionFa": "واقعاً؟ دقیقاً چی گفت؟",
@@ -68,8 +68,8 @@
     {
      "keywords": [
       "that's",
-      "quite",
       "doris",
+      "quite",
       "far"
      ],
      "suggestion": "That's quite far for you, Doris.",
@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "say",
-      "why",
       "did",
+      "why",
+      "say",
       "he"
      ],
      "suggestion": "Did he say why?",
@@ -240,8 +240,8 @@
     },
     {
      "keywords": [
-      "there",
       "drive",
+      "there",
       "he'd",
       "told"
      ],

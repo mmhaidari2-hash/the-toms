@@ -20,9 +20,9 @@
     {
      "keywords": [
       "where",
-      "huge",
       "rice",
-      "find"
+      "find",
+      "huge"
      ],
      "suggestion": "Yes, it's huge! Where can I find rice?",
      "suggestionFa": "آره، خیلی بزرگه! برنج را کجا پیدا کنم؟",
@@ -75,8 +75,8 @@
      "keywords": [
       "bread",
       "next",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "Yes, I can see it. Next to the bread?",
      "suggestionFa": "آره، می‌بینمش. کنار نون؟",
@@ -142,8 +142,8 @@
    "branches": [
     {
      "keywords": [
-      "aisle",
       "world",
+      "aisle",
       "there",
       "food"
      ],
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "saffron",
-      "from",
       "iran",
+      "from",
       "have"
      ],
      "suggestion": "I'm from Iran. Do you have saffron?",
@@ -315,8 +315,8 @@
     {
      "keywords": [
       "always",
-      "milk",
       "back",
+      "milk",
       "why"
      ],
      "suggestion": "Why is milk always at the back?",
@@ -355,8 +355,8 @@
    "branches": [
     {
      "keywords": [
-      "clever",
       "what's",
+      "clever",
       "only",
       "i'll"
      ],

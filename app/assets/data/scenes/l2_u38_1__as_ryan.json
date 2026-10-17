@@ -24,8 +24,8 @@
       "takes",
       "split",
       "he'll",
-      "help",
-      "ages"
+      "wash",
+      "want"
      ],
      "suggestion": "Dad says he'll pay me ten quid to wash the car. Ten quid! It takes ages. Want to help? We split it.",
      "suggestionFa": "بابا میگه ده پوند میده ماشین را بشورم. ده پوند! کلی طول می‌کشه. کمک می‌کنی؟ نصف‌نصف.",
@@ -48,9 +48,9 @@
      "keywords": [
       "sponges",
       "bucket",
-      "tight",
       "water",
-      "dad's"
+      "dad's",
+      "he'll"
      ],
      "suggestion": "Ha, he'll say no. Dad's tight. OK, I've got the bucket and the sponges. Can you fill the bucket with warm water? Add the soap.",
      "suggestionFa": "ها، میگه نه. بابا خسیسه. باشه، سطل و اسفنج‌ها را دارم. میشه سطل را با آب گرم پر کنی؟ صابون هم بریز.",
@@ -100,7 +100,7 @@
       "they're",
       "windows",
       "wheels",
-      "start"
+      "dirty"
      ],
      "suggestion": "Start at the top — roof first, then the windows, then the sides. Dirty water runs down. I'll do the wheels. They're disgusting.",
      "suggestionFa": "از بالا شروع کن — اول سقف، بعد شیشه‌ها، بعد بغل‌ها. آب کثیف میره پایین. من چرخ‌ها را می‌شورم. حال‌به‌هم‌زنن.",
@@ -149,8 +149,8 @@
       "there's",
       "careful",
       "always",
-      "every",
-      "rinse"
+      "rinse",
+      "every"
      ],
      "suggestion": "Ha, there's no bit. It's what Dad always says. Gets me every time. Now — the hose. Rinse it all off. Careful… CAREFUL!",
      "suggestionFa": "ها، هیچ جایی نیست. بابا همیشه همینو میگه. هر بار گولم می‌زنه. حالا — شلنگ. همه‌ش را آب بکش. مواظب… مواظب!",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "getting",
       "where's",
+      "getting",
       "that's",
-      "soaked",
-      "bucket"
+      "bucket",
+      "soaked"
      ],
      "suggestion": "I'm soaked! Right. That's war. Where's the other bucket? You're getting it now!",
      "suggestionFa": "خیس آب شدم! خب. جنگه. سطل دیگه کجاست؟ الان نوبت توئه!",
@@ -257,11 +257,11 @@
    "branches": [
     {
      "keywords": [
-      "worked",
-      "really",
       "mostly",
+      "really",
+      "worked",
       "clean",
-      "both"
+      "look"
      ],
      "suggestion": "It's clean, Dad, look! Well, mostly. So… ten quid each? We both worked really hard.",
      "suggestionFa": "تمیزه بابا، ببین! خب، بیشترش. پس… هر کدوم ده پوند؟ هر دومون خیلی زحمت کشیدیم.",

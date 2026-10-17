@@ -21,8 +21,8 @@
      "keywords": [
       "something",
       "hurts",
-      "tooth",
-      "drink"
+      "drink",
+      "tooth"
      ],
      "suggestion": "Yes, one tooth hurts when I drink something cold.",
      "suggestionFa": "آره، یه دندونم وقتی چیز سرد می‌خورم درد می‌گیره.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "everything's",
-      "fine",
-      "been"
+      "been",
+      "fine"
      ],
      "suggestion": "No, everything's been fine.",
      "suggestionFa": "نه، همه چی خوب بوده.",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "morning",
-      "night",
-      "twice"
+      "twice",
+      "night"
      ],
      "suggestion": "Twice a day, morning and night.",
      "suggestionFa": "روزی دو بار، صبح و شب.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "really",
       "should",
+      "really",
       "more"
      ],
      "suggestion": "Not really. I should do it more.",
@@ -163,8 +163,8 @@
     {
      "keywords": [
       "that's",
+      "book",
       "week",
-      "next",
       "fine"
      ],
      "suggestion": "That's fine. Can I book it for next week?",
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "nervous",
-      "will",
       "hurt",
+      "will",
       "bit"
      ],
      "suggestion": "Will it hurt? I'm a bit nervous.",
@@ -265,8 +265,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "band",
+      "much",
       "how"
      ],
      "suggestion": "How much is Band 2?",
@@ -316,8 +316,8 @@
      "keywords": [
       "appointment",
       "anything",
-      "should",
-      "before"
+      "before",
+      "should"
      ],
      "suggestion": "Should I avoid anything before the appointment?",
      "suggestionFa": "قبل از وقت باید از چیزی پرهیز کنم؟",
@@ -369,10 +369,10 @@
    "branches": [
     {
      "keywords": [
-      "cola",
-      "give",
+      "i'll",
       "hard",
-      "i'll"
+      "cola",
+      "give"
      ],
      "suggestion": "I'll try. It's hard to give up cola!",
      "suggestionFa": "سعی می‌کنم. ترک کولا سخته!",

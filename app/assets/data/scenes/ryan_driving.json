@@ -23,8 +23,8 @@
     {
      "keywords": [
       "mirrors",
-      "signal",
       "before",
+      "signal",
       "check"
      ],
      "suggestion": "Ryan, check your mirrors and signal before you pull out.",
@@ -36,8 +36,8 @@
     {
      "keywords": [
       "first",
-      "belt",
-      "seat"
+      "seat",
+      "belt"
      ],
      "suggestion": "Seat belt first, Ryan!",
      "suggestionFa": "اول کمربند، رایان!",
@@ -92,10 +92,10 @@
     },
     {
      "keywords": [
-      "slowly",
       "clutch",
+      "slowly",
       "doing",
-      "great"
+      "bring"
      ],
      "suggestion": "You're doing great. Just bring the clutch up slowly.",
      "suggestionFa": "خوب داری پیش میری. فقط کلاچ را آروم ول کن.",
@@ -134,8 +134,8 @@
     {
      "keywords": [
       "right",
-      "road",
       "side",
+      "road",
       "hand"
      ],
      "suggestion": "Yes, but on the right-hand side of the road!",
@@ -232,8 +232,8 @@
      "keywords": [
       "parallel",
       "parking",
-      "good",
-      "luck"
+      "luck",
+      "good"
      ],
      "suggestion": "Parallel parking? Good luck, Ryan!",
      "suggestionFa": "پارک دوبل؟ موفق باشی رایان!",
@@ -283,8 +283,8 @@
      "keywords": [
       "lesson",
       "first",
-      "bad",
-      "all"
+      "all",
+      "bad"
      ],
      "suggestion": "Not bad at all for a first lesson!",
      "suggestionFa": "برای جلسهٔ اول اصلاً بد نیست!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "theory",
-      "needs",
       "first",
+      "needs",
       "test"
      ],
      "suggestion": "He needs to pass the theory test first.",
@@ -396,9 +396,9 @@
     {
      "keywords": [
       "time",
-      "week",
-      "done",
-      "next"
+      "well",
+      "same",
+      "done"
      ],
      "suggestion": "Well done, Ryan. Same time next week?",
      "suggestionFa": "آفرین رایان. هفتهٔ بعد همین موقع؟",

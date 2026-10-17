@@ -1,0 +1,350 @@
+{
+ "id": "l2_u59_4",
+ "characterId": "al",
+ "title": "The final whistle",
+ "titleFa": "سوت پایان",
+ "setting": "Football fan · Level 2",
+ "settingFa": "طرفدار فوتبال",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "al",
+   "text": "Ninety minutes gone! Five minutes of added time. One-all. Tom can't watch — he's hiding behind a beer mat.",
+   "translations": {
+    "fa": "نود دقیقه گذشت! پنج دقیقه وقت اضافه. یک-یک. تام نمی‌تونه نگاه کنه — پشت زیرلیوانی قایم شده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arsenal",
+      "minutes",
+      "five",
+      "come"
+     ],
+     "suggestion": "Ha! Five more minutes. Come on, Arsenal!",
+     "suggestionFa": "ها! پنج دقیقهٔ دیگه. یالا آرسنال!",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's",
+      "added",
+      "time"
+     ],
+     "suggestion": "What's added time?",
+     "suggestionFa": "وقت اضافه چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "added time",
+     "fa": "وقت تلف‌شده ؛ وقت اضافه"
+    },
+    {
+     "word": "hiding",
+     "fa": "قایم شدن"
+    },
+    {
+     "word": "beer mat",
+     "fa": "زیرلیوانی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "al",
+   "text": "Extra minutes for injuries and time-wasting. I'm neutral — I'm Celtic! — but this is tense. Oh no. Spurs are attacking…",
+   "translations": {
+    "fa": "دقیقه‌های اضافه برای مصدومیت و وقت‌کشی. من بی‌طرفم — من سلتیکی‌ام! — ولی خیلی پرتنشه. وای نه. اسپرز داره حمله می‌کنه…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "save",
+      "oh"
+     ],
+     "suggestion": "Oh no! Save it, save it!",
+     "suggestionFa": "وای نه! بگیرش، بگیرش!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "don't",
+      "look",
+      "tom"
+     ],
+     "suggestion": "Tom, don't look!",
+     "suggestionFa": "تام، نگاه نکن!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "injuries",
+     "fa": "مصدومیت‌ها"
+    },
+    {
+     "word": "time-wasting",
+     "fa": "وقت‌کشی"
+    },
+    {
+     "word": "neutral",
+     "fa": "بی‌طرف"
+    },
+    {
+     "word": "tense",
+     "fa": "پرتنش"
+    },
+    {
+     "word": "attacking",
+     "fa": "حمله کردن"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "al",
+   "text": "SAVED! What a save! The keeper's a hero! And — that's it! The final whistle! It finished one-all!",
+   "translations": {
+    "fa": "گرفت! چه مهاری! دروازه‌بان قهرمانه! و — تموم شد! سوت پایان! یک-یک تموم شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "game"
+     ],
+     "suggestion": "What a game!",
+     "suggestionFa": "چه بازی‌ای!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "arsenal",
+      "result",
+      "good",
+      "one"
+     ],
+     "suggestion": "One-all. Is that a good result for Arsenal?",
+     "suggestionFa": "یک-یک. برای آرسنال نتیجهٔ خوبیه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "save",
+     "fa": "مهار توپ"
+    },
+    {
+     "word": "keeper",
+     "fa": "دروازه‌بان"
+    },
+    {
+     "word": "final whistle",
+     "fa": "سوت پایان"
+    },
+    {
+     "word": "finished",
+     "fa": "تمام شد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "what game",
+      "what a match was it"
+     ],
+     "echo": "What a game! Unbelievable!",
+     "better": "What a game!",
+     "betterFa": "چه بازی‌ای!"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "al",
+   "text": "Depends who you ask. Listen to Tom: \"We were robbed! That penalty was never a penalty!\" Every week.",
+   "translations": {
+    "fa": "بستگی داره از کی بپرسی. به تام گوش کن: «حقمون را خوردن! اون پنالتی اصلاً پنالتی نبود!» هر هفته."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "result",
+      "think",
+      "fair",
+      "was"
+     ],
+     "suggestion": "I think it was a fair result.",
+     "suggestionFa": "به نظرم نتیجهٔ منصفانه‌ای بود.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "robbed",
+      "agree",
+      "were",
+      "tom"
+     ],
+     "suggestion": "Tom, I agree. We were robbed!",
+     "suggestionFa": "تام، موافقم. حقمون را خوردن!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "depends",
+     "fa": "بستگی دارد"
+    },
+    {
+     "word": "robbed",
+     "fa": "حقمان را خوردند ؛ دزدیده شد"
+    },
+    {
+     "word": "penalty",
+     "fa": "پنالتی"
+    },
+    {
+     "word": "fair",
+     "fa": "منصفانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"We were robbed!\" is what fans say when they think their team deserved to win. \"A fair result\" means both teams deserved it.",
+    "fa": "«We were robbed!» یعنی تیم ما سزاوار برد بود؛ «a fair result» یعنی نتیجه منصفانه بود."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "al",
+   "text": "Diplomatic! You should work for the United Nations. Now, the post-match analysis. Translation: another pint and an argument.",
+   "translations": {
+    "fa": "دیپلماتیک! باید تو سازمان ملل کار کنی. حالا، تحلیل بعد از بازی. ترجمه: یه لیوان دیگه و یه بحث."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "moment",
+      "best",
+      "was"
+     ],
+     "suggestion": "What was the best moment for you?",
+     "suggestionFa": "بهترین لحظه برای تو چی بود؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "lemonade",
+      "drinks",
+      "i'll",
+      "get"
+     ],
+     "suggestion": "I'll get the drinks. Lemonade for me!",
+     "suggestionFa": "من نوشیدنی‌ها را می‌گیرم. لیموناد برای من!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "diplomatic",
+     "fa": "دیپلماتیک"
+    },
+    {
+     "word": "post-match",
+     "fa": "بعد از بازی"
+    },
+    {
+     "word": "analysis",
+     "fa": "تحلیل"
+    },
+    {
+     "word": "argument",
+     "fa": "بحث"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "al",
+   "text": "The save, easily. And Tom's face. Pure agony. And one day you're coming to Glasgow. Celtic Park. Sixty thousand people singing!",
+   "translations": {
+    "fa": "مهار، معلومه. و قیافهٔ تام. عذاب خالص. و یه روز میای گلاسکو. سلتیک پارک. شصت هزار نفر در حال آواز خوندن!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thousand",
+      "sixty",
+      "love",
+      "i'd"
+     ],
+     "suggestion": "Sixty thousand! I'd love that.",
+     "suggestionFa": "شصت هزار! خیلی دوست دارم.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "comes",
+      "only",
+      "tom",
+      "if"
+     ],
+     "suggestion": "Only if Tom comes too!",
+     "suggestionFa": "فقط اگه تام هم بیاد!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "easily",
+     "fa": "به‌راحتی ؛ بی‌شک"
+    },
+    {
+     "word": "agony",
+     "fa": "عذاب"
+    },
+    {
+     "word": "singing",
+     "fa": "آواز خواندن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "al",
+   "text": "Tom at Celtic Park? He'd cry. He cries at Paddington! Come on — Dave's ringing the bell. Last orders!",
+   "translations": {
+    "fa": "تام تو سلتیک پارک؟ گریه می‌کنه. اون سر پدینگتون گریه می‌کنه! بیا — دیو داره زنگ را می‌زنه. آخرین سفارش‌ها!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

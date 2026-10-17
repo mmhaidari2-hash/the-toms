@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "stuck",
       "can't",
+      "stuck",
       "coat",
       "zip",
       "up"
@@ -48,8 +48,8 @@
      "keywords": [
       "won't",
       "can",
-      "up",
-      "go"
+      "go",
+      "up"
      ],
      "suggestion": "It won't go up. Can you do it?",
      "suggestionFa": "بالا نمی‌ره. تو می‌تونی؟",
@@ -73,8 +73,8 @@
       "cardigan",
       "buttons",
       "thank",
-      "got",
-      "now"
+      "yay",
+      "big"
      ],
      "suggestion": "Yay! Thank you! Now my cardigan. It's got big buttons.",
      "suggestionFa": "هورا! ممنون! حالا ژاکت دکمه‌دارم. دکمه‌های بزرگ داره.",
@@ -95,10 +95,10 @@
    "branches": [
     {
      "keywords": [
-      "wrong",
       "three",
-      "two",
+      "wrong",
       "one",
+      "two",
       "oh"
      ],
      "suggestion": "One, two, three… oh no! It's wrong!",
@@ -120,11 +120,11 @@
    "branches": [
     {
      "keywords": [
-      "again",
       "three",
-      "done",
+      "again",
+      "five",
       "four",
-      "five"
+      "done"
      ],
      "suggestion": "Again… one, two, three, four, five! Done!",
      "suggestionFa": "دوباره… یک، دو، سه، چهار، پنج! تموم!",
@@ -146,10 +146,10 @@
     {
      "keywords": [
       "velcro",
-      "shoes",
       "stick",
+      "shoes",
       "have",
-      "can"
+      "rip"
      ],
      "suggestion": "My shoes have Velcro. I can do Velcro! Rip, stick!",
      "suggestionFa": "کفشام چسبی‌ان. چسبی را بلدم! ریپ، چسب!",
@@ -171,10 +171,10 @@
     {
      "keywords": [
       "bunny",
-      "show",
       "ryan",
       "ears",
-      "says"
+      "says",
+      "show"
      ],
      "suggestion": "Not yet. Ryan says \"bunny ears\". Can you show me?",
      "suggestionFa": "هنوز نه. رایان می‌گه «گوش خرگوشی». نشونم می‌دی؟",

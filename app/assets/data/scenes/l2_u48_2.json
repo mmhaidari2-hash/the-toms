@@ -74,9 +74,9 @@
     {
      "keywords": [
       "that's",
-      "lot",
+      "day",
       "six",
-      "day"
+      "lot"
      ],
      "suggestion": "Six a day? That's a lot!",
      "suggestionFa": "روزی شش تا؟ خیلیه!",
@@ -88,8 +88,8 @@
      "keywords": [
       "completely",
       "stop",
-      "did",
-      "say"
+      "say",
+      "did"
      ],
      "suggestion": "Did she say stop completely?",
      "suggestionFa": "گفت کاملاً قطع کنی؟",
@@ -146,10 +146,10 @@
    "branches": [
     {
      "keywords": [
-      "slowly",
       "doctor",
+      "slowly",
       "maybe",
-      "like"
+      "said"
      ],
      "suggestion": "Maybe go slowly. Two a day, like the doctor said.",
      "suggestionFa": "شاید آروم پیش برو. روزی دو تا، همونی که دکتر گفت.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "morning",
-      "enough",
       "that's",
+      "enough",
       "lunch"
      ],
      "suggestion": "One in the morning, one at lunch. That's enough.",
@@ -257,7 +257,7 @@
       "drink",
       "five",
       "used",
-      "now"
+      "ten"
      ],
      "suggestion": "I used to drink ten a day. Now five.",
      "suggestionFa": "قبلاً روزی ده تا می‌خوردم. الان پنج تا.",
@@ -268,8 +268,8 @@
     {
      "keywords": [
       "mum's",
-      "many",
       "best",
+      "many",
       "tea"
      ],
      "suggestion": "Too many! My mum's tea is the best.",
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "other",
       "check",
+      "other",
       "each",
       "deal"
      ],

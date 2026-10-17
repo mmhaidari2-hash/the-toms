@@ -20,9 +20,9 @@
     {
      "keywords": [
       "maths",
-      "fine",
       "i've",
-      "got"
+      "fine",
+      "was"
      ],
      "suggestion": "It was fine. I've got a bit of maths homework.",
      "suggestionFa": "خوب بود. یه کم تکلیف ریاضی دارم.",
@@ -68,10 +68,10 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "round",
-      "josh",
-      "come"
+      "after",
+      "come",
+      "josh"
      ],
      "suggestion": "Deal. Can Josh come round after?",
      "suggestionFa": "قبول. جاش می‌تونه بعدش بیاد؟",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "toast",
-      "some",
       "have",
-      "bit"
+      "some",
+      "can"
      ],
      "suggestion": "A bit. Can I have some toast?",
      "suggestionFa": "یه کم. می‌تونم نون تست بخورم؟",
@@ -166,8 +166,8 @@
     {
      "keywords": [
       "crisps",
-      "can't",
       "apple",
+      "can't",
       "have"
      ],
      "suggestion": "An apple? Can't I have crisps?",
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "quick",
-      "fine",
       "just",
+      "fine",
       "one"
      ],
      "suggestion": "Mum! Fine. Just a quick one.",

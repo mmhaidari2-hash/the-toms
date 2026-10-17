@@ -32,8 +32,8 @@
     {
      "keywords": [
       "water",
-      "hot",
-      "use"
+      "use",
+      "hot"
      ],
      "suggestion": "Can you use hot water on it?",
      "suggestionFa": "میشه آب داغ روش بریزی؟",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "didn't",
-      "crack",
       "glass",
+      "crack",
       "know"
      ],
      "suggestion": "The glass can crack? I didn't know that.",
@@ -140,8 +140,8 @@
     {
      "keywords": [
       "where's",
-      "button",
       "heater",
+      "button",
       "ok"
      ],
      "suggestion": "OK. Where's the button for the heater?",
@@ -202,8 +202,8 @@
      "keywords": [
       "windscreen",
       "cracked",
-      "her",
-      "has"
+      "has",
+      "her"
      ],
      "suggestion": "Has her windscreen cracked?",
      "suggestionFa": "شیشه‌اش ترک برداشته؟",
@@ -269,8 +269,8 @@
     },
     {
      "keywords": [
-      "gloves",
       "didn't",
+      "gloves",
       "think",
       "why"
      ],
@@ -328,8 +328,8 @@
     {
      "keywords": [
       "should",
-      "path",
       "salt",
+      "path",
       "put"
      ],
      "suggestion": "Should we put salt on the path?",
@@ -365,9 +365,9 @@
     {
      "keywords": [
       "path",
-      "i'll",
       "grit",
-      "now"
+      "i'll",
+      "got"
      ],
      "suggestion": "Grit. Got it. I'll do the path now.",
      "suggestionFa": "گریت. فهمیدم. الان پیاده‌رو را می‌ریزم.",

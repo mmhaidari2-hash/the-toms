@@ -24,8 +24,8 @@
       "william's",
       "asleep",
       "would",
-      "like",
-      "last"
+      "last",
+      "like"
      ],
      "suggestion": "William's asleep at last. Now it's time for us. Would you like a cup of tea, dear?",
      "suggestionFa": "بالاخره ویلیام خوابید. حالا وقت ماست. یه فنجون چای میل داری عزیزم؟",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "guest",
-      "like",
       "down",
-      "sit",
-      "tea"
+      "like",
+      "tea",
+      "sit"
      ],
      "suggestion": "No, no, sit down. You're my guest. How do you like your tea?",
      "suggestionFa": "نه، نه، بشین. مهمون منی. چای را چطوری دوست داری؟",
@@ -123,9 +123,9 @@
      "keywords": [
       "nonsense",
       "anybody",
+      "piece",
       "cream",
-      "small",
-      "piece"
+      "small"
      ],
      "suggestion": "Full? Nonsense! A small piece never hurt anybody. Here. With jam and cream.",
      "suggestionFa": "سیر؟ مزخرفه! یه تیکهٔ کوچیک به کسی آسیب نزده. بیا. با مربا و خامه.",
@@ -146,8 +146,8 @@
    "branches": [
     {
      "keywords": [
-      "there's",
       "charmer",
+      "there's",
       "plenty",
       "would",
       "like"
@@ -174,8 +174,8 @@
       "george",
       "fifty",
       "years",
-      "just",
-      "nice"
+      "nice",
+      "just"
      ],
      "suggestion": "This is nice. Just you, me and a pot of tea. George and I did this for fifty years!",
      "suggestionFa": "چه خوبه. فقط تو، من و یه قوری چای. من و جورج پنجاه سال این کار را می‌کردیم!",

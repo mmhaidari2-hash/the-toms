@@ -1,0 +1,225 @@
+{
+ "id": "l2_u57_1__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Booking a table",
+ "titleFa": "(در نقش Tom) رزرو میز",
+ "setting": "Going out · Level 2",
+ "settingFa": "بیرون رفتن",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u57_1",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "restaurants",
+      "leslie's",
+      "birthday",
+      "phoning",
+      "kettle"
+     ],
+     "suggestion": "Leslie's birthday dinner! I want to book the Copper Kettle. Will you ring them? I hate phoning restaurants. I always panic.",
+     "suggestionFa": "شام تولد لزلی! می‌خوام کاپر کتل را رزرو کنم. تو زنگ می‌زنی؟ از زنگ زدن به رستوران متنفرم. همیشه هول می‌کنم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. How many people, and what day?",
+   "translations": {
+    "fa": "حتماً. چند نفر، و چه روزی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "babysitting",
+      "somewhere",
+      "maggie's",
+      "romantic",
+      "toilets"
+     ],
+     "suggestion": "Friday, seven thirty. Just two of us — Nana Maggie's babysitting. A table for two. Somewhere romantic, not by the toilets!",
+     "suggestionFa": "جمعه، هفت و نیم. فقط دو نفر — نانا مگی بچه‌ها را نگه می‌داره. یه میز دو نفره. یه جای رمانتیک، نه کنار دستشویی!",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Hello. I'd like to book a table for two, please.",
+   "translations": {
+    "fa": "سلام. می‌خوام یه میز دو نفره رزرو کنم، لطفاً."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "thirty's",
+      "they've",
+      "earlier",
+      "asleep"
+     ],
+     "suggestion": "What are they saying? … Seven thirty's full? Ask if they've got anything earlier, or later. Not too late — I fall asleep at ten.",
+     "suggestionFa": "چی میگن؟ … هفت و نیم پره؟ بپرس زودتر یا دیرتر جا دارن. نه خیلی دیر — ساعت ده خوابم می‌بره.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Have you got anything at seven, or eight?",
+   "translations": {
+    "fa": "ساعت هفت یا هشت جا دارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "watching",
+      "perfect",
+      "eight's",
+      "stories",
+      "leslie"
+     ],
+     "suggestion": "Eight's perfect. Ask for a window table. Leslie loves watching people walk by. She makes up stories about them.",
+     "suggestionFa": "هشت عالیه. میز کنار پنجره بخواه. لزلی عاشق تماشای رهگذرهاست. دربارهٔ‌شون داستان می‌سازه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Could we have a table by the window, please?",
+   "translations": {
+    "fa": "میشه یه میز کنار پنجره داشته باشیم، لطفاً؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "everyone",
+      "forgets",
+      "enough",
+      "they"
+     ],
+     "suggestion": "Fair enough. Now they want a name. Say Thompson. With a P. Everyone forgets the P. \"Thom-P-son\"!",
+     "suggestionFa": "باشه. حالا اسم می‌خوان. بگو تامپسون. با پ. همه پ را یادشون میره. «تام-پ-سون»!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
+   "translations": {
+    "fa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "embarrassed",
+      "sometimes",
+      "birthday",
+      "pudding",
+      "perfect"
+     ],
+     "suggestion": "Mine. Oh — and tell them it's a birthday. Sometimes they bring a candle in the pudding. Leslie will be so embarrassed. Perfect!",
+     "suggestionFa": "مال من. اوه — و بگو تولده. گاهی یه شمع تو دسر میارن. لزلی خیلی خجالت می‌کشه. عالیه!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's a birthday. Could you put a candle in the dessert?",
+   "translations": {
+    "fa": "تولده. میشه یه شمع تو دسر بذارید؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "singing",
+      "waiters",
+      "friday",
+      "bright"
+     ],
+     "suggestion": "Singing waiters! She'll go bright red. Brilliant. Friday at eight, table for two, candle, singing. You're a star.",
+     "suggestionFa": "گارسون‌های آوازخون! حسابی قرمز میشه. عالی. جمعه ساعت هشت، میز دو نفره، شمع، آواز. تو ستاره‌ای.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Don't forget to tell Nana Maggie!",
+   "translations": {
+    "fa": "یادت نره به نانا مگی بگی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "something",
+      "forgotten",
+      "tomorrow",
+      "helping",
+      "perfume"
+     ],
+     "suggestion": "The present! I knew I'd forgotten something. Right — tomorrow, you're helping me buy perfume. Don't tell her!",
+     "suggestionFa": "هدیه! می‌دونستم یه چیزی یادم رفته. خب — فردا تو کمکم می‌کنی عطر بخرم. بهش نگو!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

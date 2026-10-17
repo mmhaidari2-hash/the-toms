@@ -159,8 +159,8 @@
    "branches": [
     {
      "keywords": [
-      "course",
       "cheese",
+      "course",
       "ham"
      ],
      "suggestion": "Of course. Cheese or ham?",
@@ -173,8 +173,8 @@
      "keywords": [
       "sandwich",
       "here's",
-      "him",
-      "jam"
+      "jam",
+      "him"
      ],
      "suggestion": "Here's a jam sandwich for him.",
      "suggestionFa": "این یه ساندویچ مربا براش.",
@@ -352,8 +352,8 @@
     },
     {
      "keywords": [
-      "ever",
       "best",
+      "ever",
       "tea"
      ],
      "suggestion": "It's the best tea party ever!",

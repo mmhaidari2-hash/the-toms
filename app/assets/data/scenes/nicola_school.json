@@ -25,7 +25,7 @@
       "everyone",
       "nervous",
       "normal",
-      "like"
+      "will"
      ],
      "suggestion": "It's normal to feel nervous. Everyone will like you!",
      "suggestionFa": "استرس داشتن طبیعیه. همه دوستت خواهند داشت!",
@@ -75,8 +75,8 @@
      "keywords": [
       "promise",
       "three",
-      "pick",
-      "half"
+      "i'll",
+      "pick"
      ],
      "suggestion": "Yes, I'll pick you up at half three. I promise.",
      "suggestionFa": "آره، سه و نیم میام دنبالت. قول می‌دم.",
@@ -87,9 +87,9 @@
     {
      "keywords": [
       "mummy",
-      "both",
+      "here",
       "will",
-      "here"
+      "both"
      ],
      "suggestion": "Mummy and I will both be here.",
      "suggestionFa": "من و مامان هر دومون اینجاییم.",
@@ -138,8 +138,8 @@
     {
      "keywords": [
       "window",
-      "from",
       "wave",
+      "from",
       "give"
      ],
      "suggestion": "Give me a big wave from the window!",
@@ -221,10 +221,10 @@
    "branches": [
     {
      "keywords": [
+      "well",
       "gold",
       "star",
-      "done",
-      "well"
+      "done"
      ],
      "suggestion": "A gold star? Well done you!",
      "suggestionFa": "ستارهٔ طلایی؟ آفرین به تو!",
@@ -234,8 +234,8 @@
     },
     {
      "keywords": [
-      "get",
-      "did"
+      "did",
+      "get"
      ],
      "suggestion": "What did you get it for?",
      "suggestionFa": "برای چی گرفتیش؟",
@@ -332,8 +332,8 @@
      "keywords": [
       "though",
       "listen",
-      "miss",
-      "hart"
+      "hart",
+      "miss"
      ],
      "suggestion": "Try to listen to Miss Hart, though.",
      "suggestionFa": "ولی سعی کن به خانم هارت گوش بدی.",
@@ -368,8 +368,8 @@
    "branches": [
     {
      "keywords": [
-      "golden",
       "what's",
+      "golden",
       "time"
      ],
      "suggestion": "What's golden time?",
@@ -382,8 +382,8 @@
      "keywords": [
       "shepherd's",
       "like",
-      "did",
-      "pie"
+      "pie",
+      "did"
      ],
      "suggestion": "Shepherd's pie! Did you like it?",
      "suggestionFa": "پای چوپان! دوستش داشتی؟",
@@ -430,8 +430,8 @@
     {
      "keywords": [
       "fingers",
-      "earned",
       "you've",
+      "earned",
       "fish"
      ],
      "suggestion": "Fish fingers it is — you've earned it!",

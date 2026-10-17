@@ -24,8 +24,8 @@
       "nineteen",
       "letters",
       "summer",
-      "don't",
-      "these"
+      "these",
+      "tom's"
      ],
      "suggestion": "These are Tom's letters from when we were nineteen. He wrote one every day for a summer. Don't tell him I kept them!",
      "suggestionFa": "اینا نامه‌های تامه از وقتی نوزده سالمون بود. یه تابستون هر روز یکی نوشت. بهش نگی نگهشون داشتم!",
@@ -48,9 +48,9 @@
      "keywords": [
       "saturdays",
       "skegness",
+      "driving",
       "holiday",
-      "working",
-      "driving"
+      "working"
      ],
      "suggestion": "I was working at a holiday camp in Skegness. He was stuck in London, driving his dad's bus routes on Saturdays.",
      "suggestionFa": "تو یه اردوگاه تعطیلات تو اسکگنس کار می‌کردم. اون تو لندن گیر بود، شنبه‌ها مسیرهای اتوبوس باباش را می‌روند.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "seafront",
-      "exactly",
       "letters",
       "mobiles",
+      "exactly",
       "enough"
      ],
      "suggestion": "Exactly. No mobiles then — just letters and the phone box on the seafront, if I had enough coins.",
@@ -99,8 +99,8 @@
       "islington",
       "thought",
       "listen",
-      "whole",
-      "broke"
+      "broke",
+      "whole"
      ],
      "suggestion": "Listen to this one: \"Dear Les, the 38 broke down in Islington. I thought of you the whole time.\" Ha!",
      "suggestionFa": "گوش کن به این یکی: «لزِ عزیز، ۳۸ تو ایزلینگتون خراب شد. تمام مدت به تو فکر کردم.» ها!",
@@ -122,8 +122,8 @@
     {
      "keywords": [
       "beautiful",
-      "different",
       "spellings",
+      "different",
       "spelling",
       "rubbish"
      ],
@@ -149,7 +149,7 @@
       "signed",
       "always",
       "maybe",
-      "more",
+      "love",
       "than"
      ],
      "suggestion": "Maybe! And he always signed off \"Love you more than tea\".",
@@ -173,9 +173,9 @@
      "keywords": [
       "anniversary",
       "letters",
-      "anyone",
       "thirty",
-      "every"
+      "anyone",
+      "write"
      ],
      "suggestion": "Every anniversary. Thirty years this June. Do you write letters to anyone back home?",
      "suggestionFa": "هر سالگرد. این ژوئن سی سال میشه. به کسی تو کشورت نامه می‌نویسی؟",
@@ -199,8 +199,8 @@
       "suppose",
       "letters",
       "you'll",
-      "notes",
-      "voice"
+      "voice",
+      "notes"
      ],
      "suggestion": "Voice notes are the new letters, I suppose. Keep them — one day you'll be glad you did.",
      "suggestionFa": "پیام صوتی همون نامهٔ جدیده، فکر کنم. نگهشون دار — یه روز خوشحال میشی که نگه داشتی.",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "attic",
-      "cuppa",
       "fancy",
-      "back"
+      "right",
+      "cuppa",
+      "than"
      ],
      "suggestion": "Right — box back in the attic, not a word to Tom. Fancy a cuppa? More than tea, eh?",
      "suggestionFa": "خب — جعبه برگرده تو انباری، یه کلمه به تام نه. یه چای می‌چسبه؟ بیشتر از چای، ها؟",

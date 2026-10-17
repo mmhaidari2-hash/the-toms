@@ -73,8 +73,8 @@
     {
      "keywords": [
       "running",
-      "both",
-      "nose"
+      "nose",
+      "both"
      ],
      "suggestion": "Both. My eyes are itchy and my nose is running.",
      "suggestionFa": "هر دو. چشمام می‌خاره و آب بینیم راه افتاده.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "drowsy",
-      "they",
+      "make",
       "work",
-      "make"
+      "they"
      ],
      "suggestion": "Do they make you drowsy? I work in the day.",
      "suggestionFa": "خواب‌آورند؟ من روزها کار می‌کنم.",
@@ -141,9 +141,9 @@
     {
      "keywords": [
       "tablets",
-      "many",
       "take",
-      "can"
+      "many",
+      "how"
      ],
      "suggestion": "How many tablets can I take a day?",
      "suggestionFa": "روزی چند تا قرص می‌تونم بخورم؟",
@@ -194,8 +194,8 @@
      "keywords": [
       "night",
       "take",
-      "one",
-      "can"
+      "day",
+      "one"
      ],
      "suggestion": "One a day. Can I take it at night?",
      "suggestionFa": "روزی یکی. می‌تونم شب بخورمش؟",
@@ -311,8 +311,8 @@
     {
      "keywords": [
       "paracetamol",
-      "sometimes",
       "headaches",
+      "sometimes",
       "just"
      ],
      "suggestion": "Just paracetamol sometimes, for headaches.",
@@ -353,8 +353,8 @@
      "keywords": [
       "windows",
       "closed",
-      "good",
-      "idea"
+      "idea",
+      "good"
      ],
      "suggestion": "Good idea. And keep the windows closed?",
      "suggestionFa": "فکر خوبیه. پنجره‌ها هم بسته باشه؟",

@@ -24,7 +24,7 @@
       "mobile's",
       "credit",
       "maggie",
-      "doris",
+      "phone",
       "wants"
      ],
      "suggestion": "Maggie just rang from a phone box! Her pay-as-you-go mobile's out of credit. She wants to call Doris. Can you help me top it up?",
@@ -48,9 +48,9 @@
      "keywords": [
       "defibrillators",
       "network",
+      "inside",
       "orange",
-      "number",
-      "inside"
+      "number"
      ],
      "suggestion": "Ha! There are still a few. Some have defibrillators inside now! Her network… it's the orange one. I've got her number.",
      "suggestionFa": "ها! هنوز چند تا هست. توی بعضی‌هاشون الان دستگاه شوک قلبی هست! اپراتورش… همون نارنجیه. شماره‌اش را دارم.",
@@ -74,8 +74,8 @@
       "online's",
       "quicker",
       "pounds",
-      "number",
-      "enough"
+      "enough",
+      "number"
      ],
      "suggestion": "Online's quicker. Here — \"Top up any number\". Put in her number. I'd like to top up ten pounds. Is that enough?",
      "suggestionFa": "آنلاین سریع‌تره. ببین — «شارژ هر شماره». شماره‌اش را بزن. می‌خوام ده پوند شارژ کنم. کافیه؟",
@@ -97,8 +97,8 @@
     {
      "keywords": [
       "unlimited",
-      "twenty's",
       "anything",
+      "twenty's",
       "bundle",
       "twenty"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "brilliant",
       "through",
-      "twenty",
       "pounds",
-      "doris"
+      "twenty",
+      "night"
      ],
      "suggestion": "No PIN, just my card. Pay… It's gone through! \"Twenty pounds added to 07…\" Brilliant. Now she can ring Doris all night.",
      "suggestionFa": "بدون رمز، فقط کارت من. پرداخت… انجام شد! «بیست پوند به ۰۷… اضافه شد.» عالی. حالا می‌تونه کل شب به دوریس زنگ بزنه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "instead",
-      "she'll",
-      "that's",
       "pounds",
-      "twenty"
+      "that's",
+      "twenty",
+      "maggie"
      ],
      "suggestion": "She can dial a short number. But she won't. She'll ring us instead! Oh — that's her. Hello, Maggie? Yes, it's done! Twenty pounds.",
      "suggestionFa": "می‌تونه یه شمارهٔ کوتاه بگیره. ولی نمی‌گیره. به‌جاش به ما زنگ می‌زنه! اوه — خودشه. الو، مگی؟ آره، انجام شد! بیست پوند.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
-      "monthly",
       "believe",
-      "thank",
+      "monthly",
+      "going",
       "don't",
-      "going"
+      "she's"
      ],
      "suggestion": "She says thank you, and you're \"a good boy\". And she's going to set up a monthly top-up. Ha! I don't believe it.",
      "suggestionFa": "میگه ممنون، و تو «پسر خوبی» هستی. و می‌خواد شارژ ماهانه راه بندازه. ها! باورم نمیشه.",
@@ -200,7 +200,7 @@
       "lessons",
       "trouble",
       "escape",
-      "you'll"
+      "sunday"
      ],
      "suggestion": "Sunday lunch at Maggie's, then phone lessons. She'll make you a cake for your trouble. You'll never escape!",
      "suggestionFa": "ناهار یکشنبه خونهٔ مگی، بعد آموزش تلفن. به‌خاطر زحمتت برات کیک می‌پزه. هیچ‌وقت راه فرار نداری!",

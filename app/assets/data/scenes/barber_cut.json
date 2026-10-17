@@ -34,7 +34,7 @@
       "little",
       "just",
       "off",
-      "bit"
+      "top"
      ],
      "suggestion": "Just a little bit off the top, please.",
      "suggestionFa": "فقط یه کم از بالا، لطفاً.",
@@ -79,8 +79,8 @@
     },
     {
      "keywords": [
-      "three",
-      "short"
+      "short",
+      "three"
      ],
      "suggestion": "A three, please — not too short.",
      "suggestionFa": "سه، لطفاً — نه خیلی کوتاه.",
@@ -113,8 +113,8 @@
      "keywords": [
       "started",
       "busy",
-      "job",
-      "new"
+      "new",
+      "job"
      ],
      "suggestion": "Yes, very busy. I started a new job.",
      "suggestionFa": "آره، خیلی شلوغ. یه کار جدید شروع کردم.",
@@ -170,8 +170,8 @@
     },
     {
      "keywords": [
-      "thanks",
       "fringe",
+      "thanks",
       "leave"
      ],
      "suggestion": "No, leave the fringe, thanks.",
@@ -251,8 +251,8 @@
     {
      "keywords": [
       "please",
-      "trim",
-      "just"
+      "just",
+      "trim"
      ],
      "suggestion": "Yes please, just a trim.",
      "suggestionFa": "آره لطفاً، فقط یه کم مرتب.",
@@ -263,8 +263,8 @@
     {
      "keywords": [
       "thanks",
-      "long",
-      "like"
+      "like",
+      "long"
      ],
      "suggestion": "No thanks, I like it long.",
      "suggestionFa": "نه ممنون، بلند دوستش دارم.",

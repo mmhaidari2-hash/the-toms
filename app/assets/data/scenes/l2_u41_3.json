@@ -34,8 +34,8 @@
      "keywords": [
       "cancel",
       "don't",
-      "want",
-      "rude"
+      "rude",
+      "want"
      ],
      "suggestion": "I don't want to be rude. How do I cancel?",
      "suggestionFa": "نمی‌خوام بی‌ادب باشم. چطوری لغوش کنم؟",
@@ -79,8 +79,8 @@
      "keywords": [
       "serious",
       "that's",
-      "list",
-      "take"
+      "take",
+      "list"
      ],
      "suggestion": "Take me off the list? That's serious!",
      "suggestionFa": "اسمم را خط بزنن؟ جدیه!",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "appointment",
-      "afraid",
       "monday",
-      "can't"
+      "afraid",
+      "hello"
      ],
      "suggestion": "Hello. I'm afraid I can't make my appointment on Monday.",
      "suggestionFa": "سلام. متأسفانه نمی‌تونم به وقتم تو دوشنبه برسم.",
@@ -195,8 +195,8 @@
    "branches": [
     {
      "keywords": [
-      "working",
       "started",
+      "working",
       "really",
       "sorry"
      ],
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "saturday",
-      "please",
       "rebook",
+      "please",
       "could"
      ],
      "suggestion": "Yes please. Could I rebook for a Saturday?",
@@ -262,8 +262,8 @@
     {
      "keywords": [
       "thank",
-      "next",
       "week",
+      "call",
       "back"
      ],
      "suggestion": "Not now, thank you. I'll call back next week.",
@@ -303,9 +303,9 @@
     {
      "keywords": [
       "o'clock",
-      "eight",
+      "great",
       "thank",
-      "great"
+      "eight"
      ],
      "suggestion": "Eight o'clock is great. Thank you so much.",
      "suggestionFa": "ساعت هشت عالیه. خیلی ممنون.",
@@ -315,8 +315,8 @@
     },
     {
      "keywords": [
-      "twenty",
       "eighth",
+      "twenty",
       "check",
       "rota"
      ],
@@ -356,8 +356,8 @@
    "branches": [
     {
      "keywords": [
-      "ringing",
-      "nervous"
+      "nervous",
+      "ringing"
      ],
      "suggestion": "OK. It's ringing. I'm nervous!",
      "suggestionFa": "باشه. داره زنگ می‌خوره. مضطربم!",
@@ -406,9 +406,9 @@
    "branches": [
     {
      "keywords": [
-      "afraid",
       "monday",
-      "mehdi",
+      "afraid",
+      "hello",
       "can't"
      ],
      "suggestion": "Hello, it's Mehdi. I'm afraid I can't make Monday at ten past four. Sorry!",

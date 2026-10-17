@@ -22,7 +22,7 @@
       "counting",
       "birds",
       "hour",
-      "one"
+      "fun"
      ],
      "suggestion": "One hour of counting birds? Fun!",
      "suggestionFa": "یه ساعت شمردن پرنده؟ جالبه!",
@@ -77,8 +77,8 @@
    "branches": [
     {
      "keywords": [
-      "robin",
-      "think"
+      "think",
+      "robin"
      ],
      "suggestion": "I think it's a robin!",
      "suggestionFa": "فکر کنم سینه‌سرخه!",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "chest",
-      "red",
-      "got"
+      "got",
+      "red"
      ],
      "suggestion": "It's got a red chest. What is it?",
      "suggestionFa": "سینه‌اش قرمزه. چیه؟",
@@ -150,9 +150,9 @@
     {
      "keywords": [
       "them",
-      "can",
       "see",
-      "two"
+      "two",
+      "can"
      ],
      "suggestion": "I can see two of them.",
      "suggestionFa": "دو تا ازشون می‌بینم.",
@@ -192,8 +192,8 @@
      "keywords": [
       "sorrow",
       "like",
-      "joy",
-      "two"
+      "two",
+      "joy"
      ],
      "suggestion": "One for sorrow, two for joy. I like that.",
      "suggestionFa": "یکی برای غم، دو تا برای شادی. دوستش دارم.",
@@ -253,8 +253,8 @@
      "keywords": [
       "yellow",
       "birds",
-      "tiny",
-      "blue"
+      "blue",
+      "tiny"
      ],
      "suggestion": "Tiny blue and yellow birds!",
      "suggestionFa": "پرنده‌های کوچولوی آبی و زرد!",
@@ -369,10 +369,10 @@
     },
     {
      "keywords": [
-      "bird",
-      "look",
       "pond",
-      "big"
+      "look",
+      "bird",
+      "shh"
      ],
      "suggestion": "Shh! Look — a big bird by the pond!",
      "suggestionFa": "هیس! ببین — یه پرندهٔ بزرگ کنار برکه!",

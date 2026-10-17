@@ -69,8 +69,8 @@
    "branches": [
     {
      "keywords": [
-      "park",
-      "went"
+      "went",
+      "park"
      ],
      "suggestion": "We went to the park.",
      "suggestionFa": "رفتیم پارک.",
@@ -187,8 +187,8 @@
     },
     {
      "keywords": [
-      "puddle",
       "jumped",
+      "puddle",
       "every"
      ],
      "suggestion": "She jumped in every puddle!",
@@ -261,9 +261,9 @@
    "branches": [
     {
      "keywords": [
-      "how",
+      "was",
       "day",
-      "was"
+      "how"
      ],
      "suggestion": "Yes, how was your day?",
      "suggestionFa": "آره، روزت چطور بود؟",

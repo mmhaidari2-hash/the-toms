@@ -20,9 +20,9 @@
     {
      "keywords": [
       "victoria",
+      "here",
       "park",
-      "from",
-      "here"
+      "from"
      ],
      "suggestion": "Victoria Park. Is it far from here?",
      "suggestionFa": "پارک ویکتوریا. از اینجا دوره؟",
@@ -74,9 +74,9 @@
     {
      "keywords": [
       "o'clock",
+      "ten",
       "now",
-      "two",
-      "ten"
+      "two"
      ],
      "suggestion": "Yes, at two o'clock. It's ten to two now!",
      "suggestionFa": "آره، ساعت دو. الان ده دقیقه به دوئه!",
@@ -244,8 +244,8 @@
     {
      "keywords": [
       "straight",
-      "right",
       "royal",
+      "right",
       "then"
      ],
      "suggestion": "Right at the Royal Inn, then straight on.",
@@ -257,8 +257,8 @@
     {
      "keywords": [
       "which",
-      "huge",
       "gate",
+      "huge",
       "park"
      ],
      "suggestion": "Which gate? The park is huge!",
@@ -347,10 +347,10 @@
    "branches": [
     {
      "keywords": [
-      "good",
       "idea",
-      "i'll",
-      "text"
+      "text",
+      "good",
+      "i'll"
      ],
      "suggestion": "Good idea. I'll text now.",
      "suggestionFa": "فکر خوبیه. الان پیام میدم.",
@@ -362,8 +362,8 @@
      "keywords": [
       "minutes",
       "britain",
-      "five",
-      "late"
+      "late",
+      "five"
      ],
      "suggestion": "Five minutes late is OK in Britain?",
      "suggestionFa": "پنج دقیقه دیر تو بریتانیا اشکالی نداره؟",

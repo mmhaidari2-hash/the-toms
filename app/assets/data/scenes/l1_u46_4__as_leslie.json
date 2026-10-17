@@ -110,8 +110,8 @@
       "samosas",
       "sweets",
       "coming",
-      "thank",
-      "again"
+      "again",
+      "thank"
      ],
      "suggestion": "Thank you for coming! And for the samosas and the sweets. You must come again.",
      "suggestionFa": "ممنون که اومدید! و بابت سمبوسه‌ها و شیرینی‌ها. باید دوباره بیاید.",
@@ -132,10 +132,10 @@
    "branches": [
     {
      "keywords": [
-      "cooking",
       "persian",
-      "home",
-      "take",
+      "cooking",
+      "want",
+      "wait",
       "some"
      ],
      "suggestion": "Yes! I want to try your Persian cooking. Wait — take some food home!",
@@ -160,8 +160,8 @@
       "there's",
       "here's",
       "amina",
-      "coats",
-      "loads"
+      "loads",
+      "coats"
      ],
      "suggestion": "There's loads! Here's a box for you, and one for Amina. Have you got your coats?",
      "suggestionFa": "کلی هست! اینم یه جعبه برای تو، یکی هم برای آمینا. کتاتون را برداشتید؟",
@@ -234,10 +234,10 @@
     {
      "keywords": [
       "night",
-      "home",
-      "both",
-      "next",
-      "live"
+      "safe",
+      "text",
+      "live",
+      "when"
      ],
      "suggestion": "Night night! Text me when you're home safe. Ha — you both live next door! Bye!",
      "suggestionFa": "شب بخیر! وقتی سالم رسیدید پیام بدید. ها — هر دوتون که بغل دستید! خداحافظ!",

@@ -34,8 +34,8 @@
      "keywords": [
       "carrots",
       "potato",
-      "one",
-      "hmm"
+      "two",
+      "one"
      ],
      "suggestion": "Hmm. Two carrots for one potato?",
      "suggestionFa": "هوم. دو تا هویج برای یه سیب‌زمینی؟",
@@ -70,8 +70,8 @@
     {
      "keywords": [
       "don't",
-      "fair",
-      "like"
+      "like",
+      "fair"
      ],
      "suggestion": "It's not fair. You don't like carrots!",
      "suggestionFa": "منصفانه نیست. تو که هویج دوست نداری!",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "idea",
-      "her",
-      "was"
+      "was",
+      "her"
      ],
      "suggestion": "It was her idea!",
      "suggestionFa": "فکر اون بود!",
@@ -262,9 +262,9 @@
     {
      "keywords": [
       "carrots",
+      "five",
       "good",
-      "girl",
-      "five"
+      "girl"
      ],
      "suggestion": "Five carrots! Good girl!",
      "suggestionFa": "پنج تا هویج! آفرین!",
@@ -310,8 +310,8 @@
     {
      "keywords": [
       "counting",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "I'm counting! One… two…",
      "suggestionFa": "دارم می‌شمرم! یک… دو…",

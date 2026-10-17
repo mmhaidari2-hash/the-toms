@@ -32,8 +32,8 @@
      "keywords": [
       "learnt",
       "letter",
-      "first",
-      "names"
+      "names",
+      "first"
      ],
      "suggestion": "I learnt letter names first.",
      "suggestionFa": "من اول اسم حروف را یاد گرفتم.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "d",
       "o",
+      "d",
       "g"
      ],
      "suggestion": "D-O-G. Dog!",
@@ -166,9 +166,9 @@
    "branches": [
     {
      "keywords": [
+      "c",
       "d",
-      "b",
-      "c"
+      "b"
      ],
      "suggestion": "Yes. A, B, C, D…",
      "suggestionFa": "آره. ای، بی، سی، دی…",
@@ -222,8 +222,8 @@
      "keywords": [
       "persian",
       "thirty",
-      "two",
-      "has"
+      "has",
+      "two"
      ],
      "suggestion": "Twenty-six. Persian has thirty-two!",
      "suggestionFa": "بیست و شش. فارسی سی و دو تا داره!",

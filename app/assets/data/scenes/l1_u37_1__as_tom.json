@@ -25,7 +25,7 @@
       "british",
       "typical",
       "summer",
-      "again"
+      "third"
      ],
      "suggestion": "Look at that! It's raining again. Third day this week! Typical British summer!",
      "suggestionFa": "اینو ببین! باز داره بارون میاد. سومین روز این هفته! تابستون معمولی بریتانیایی!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "afternoon",
       "sometimes",
+      "afternoon",
       "weather",
-      "always",
-      "tehran"
+      "tehran",
+      "always"
      ],
      "suggestion": "Not always. Sometimes it's sunny for a whole afternoon! Ha! What's the weather like in Tehran?",
      "suggestionFa": "نه همیشه. گاهی یه بعدازظهر کامل آفتابیه! ها! هوای تهران چطوره؟",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "going",
       "check",
       "phone",
-      "going",
       "lucky",
       "stop"
      ],
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "showers",
-      "heavy",
       "means",
-      "then",
-      "lots"
+      "heavy",
+      "rain",
+      "more"
      ],
      "suggestion": "It says \"heavy showers\". That means lots of rain, then a bit of sun, then more rain.",
      "suggestionFa": "میگه «رگبار شدید». یعنی کلی بارون، بعد یه کم آفتاب، بعد بارون بیشتر.",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "driving",
-      "shower",
       "steamy",
-      "from",
-      "gets"
+      "shower",
+      "gets",
+      "from"
      ],
      "suggestion": "Ha! Yes, a shower from the sky! I'm driving all day. The bus gets so wet and steamy.",
      "suggestionFa": "ها! آره، دوش از آسمون! من کل روز رانندگی می‌کنم. اتوبوس خیلی خیس و بخار گرفته میشه.",
@@ -175,7 +175,7 @@
       "leslie",
       "watch",
       "comes",
-      "face"
+      "when"
      ],
      "suggestion": "Exactly! Try it. Say it to Leslie when she comes in. Watch her face!",
      "suggestionFa": "دقیقاً! امتحانش کن. وقتی لزلی اومد تو بهش بگو. صورتش را ببین!",
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "umbrella",
-      "perfect",
       "where's",
       "british",
+      "perfect",
       "ryan's"
      ],
      "suggestion": "Perfect! You're more British every day. Right, I'm off. Where's my umbrella? Oh no, Ryan's got it again!",

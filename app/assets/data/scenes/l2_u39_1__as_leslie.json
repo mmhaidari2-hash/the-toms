@@ -22,10 +22,10 @@
     {
      "keywords": [
       "washing",
+      "before",
       "basket",
       "weighs",
-      "before",
-      "sun's"
+      "rains"
      ],
      "suggestion": "The sun's out! Quick — washing on the line before it rains. Can you give me a hand? This basket weighs a ton.",
      "suggestionFa": "آفتاب دراومد! سریع — لباس‌ها رو بند قبل از اینکه بارون بیاد. میشه کمکم کنی؟ این سبد یه تن وزن داره.",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "line's",
       "garden",
-      "knows",
+      "line's",
       "shirt",
-      "sunny"
+      "sunny",
+      "knows"
      ],
      "suggestion": "Sunny now. In an hour? Who knows. The line's in the garden, and the pegs are in the bag. Two pegs for each shirt.",
      "suggestionFa": "الان آفتابیه. یه ساعت دیگه؟ کی می‌دونه. بند تو باغچه‌ست، گیره‌ها تو کیسه. برای هر پیرهن دو تا گیره.",
@@ -99,8 +99,8 @@
       "bedsheets",
       "perfect",
       "every",
-      "then",
-      "half"
+      "fold",
+      "take"
      ],
      "suggestion": "A load a day, every day. Perfect. Now the bedsheets — you take that end. We fold them in half, then peg them.",
      "suggestionFa": "هر روز یه ماشین، هر روز. عالیه. حالا ملافه‌ها — تو اون سرش را بگیر. نصفش می‌کنیم، بعد گیره می‌زنیم.",
@@ -148,9 +148,9 @@
      "keywords": [
       "football",
       "already",
-      "passed",
       "ryan's",
-      "enough"
+      "enough",
+      "passed"
      ],
      "suggestion": "It passed! Phew. Right, let's leave it for two hours. Ryan's football kit is dry enough to iron already, look.",
      "suggestionFa": "رد شد! وای. خب، بذاریم دو ساعت بمونه. لباس فوتبال رایان همین الان به‌اندازهٔ کافی خشکه که اتو بشه، ببین.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "question",
-      "minutes",
       "morning",
+      "minutes",
       "before",
-      "monday"
+      "mostly"
      ],
      "suggestion": "Who irons? Good question. Nobody, mostly! Tom irons his work shirt on Monday morning, five minutes before his shift.",
      "suggestionFa": "کی اتو می‌کنه؟ سؤال خوبیه. بیشتر وقتا هیچ‌کس! تام صبح دوشنبه، پنج دقیقه قبل از شیفتش، پیرهن کارش را اتو می‌کنه.",
@@ -200,7 +200,7 @@
       "sheets",
       "bring",
       "drop",
-      "felt"
+      "grab"
      ],
      "suggestion": "Wait — I felt a drop. It's raining! Bring it in! Bring it all in! Grab the sheets!",
      "suggestionFa": "صبر کن — یه قطره حس کردم. داره بارون میاد! بیارشون تو! همه را بیار تو! ملافه‌ها را بگیر!",
@@ -222,9 +222,9 @@
     {
      "keywords": [
       "everything's",
-      "welcome",
-      "washing",
       "british",
+      "washing",
+      "welcome",
       "clothes"
      ],
      "suggestion": "Leave the socks! Ha! Ugh, everything's still damp. Clothes horse in the living room again. Welcome to British washing!",

@@ -21,8 +21,8 @@
      "keywords": [
       "piccadilly",
       "circus",
-      "going",
-      "there"
+      "there",
+      "going"
      ],
      "suggestion": "I'm going to Piccadilly Circus. Does this bus stop there?",
      "suggestionFa": "دارم میرم پیکادیلی سیرکس. این اتوبوس اونجا وایمیسه؟",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "that's",
-      "fine",
-      "rush"
+      "rush",
+      "fine"
      ],
      "suggestion": "That's fine, I'm not in a rush.",
      "suggestionFa": "اشکالی نداره، عجله ندارم.",
@@ -136,9 +136,9 @@
     {
      "keywords": [
       "that's",
+      "i'll",
       "chat",
-      "stay",
-      "i'll"
+      "here"
      ],
      "suggestion": "I'll stay down here and chat, if that's okay.",
      "suggestionFa": "اگه اشکالی نداره همین پایین می‌مونم و گپ می‌زنم.",
@@ -226,8 +226,8 @@
     {
      "keywords": [
       "sealed",
-      "lips",
-      "haha"
+      "haha",
+      "lips"
      ],
      "suggestion": "Haha, my lips are sealed!",
      "suggestionFa": "ها ها، لبام دوخته‌ست!",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "that's",
-      "sign",
       "good",
+      "sign",
       "ha"
      ],
      "suggestion": "Ha! That's not a good sign.",
@@ -328,8 +328,8 @@
      "keywords": [
       "leicester",
       "meeting",
-      "square",
-      "friend"
+      "really",
+      "square"
      ],
      "suggestion": "Not really. I'm meeting a friend near Leicester Square.",
      "suggestionFa": "راستش نه. نزدیک لستر اسکوئر با یه دوست قرار دارم.",
@@ -341,8 +341,8 @@
      "keywords": [
       "phone",
       "i'll",
-      "map",
-      "use"
+      "use",
+      "map"
      ],
      "suggestion": "I'll use the map on my phone.",
      "suggestionFa": "از نقشهٔ گوشیم استفاده می‌کنم.",
@@ -373,8 +373,8 @@
    "branches": [
     {
      "keywords": [
-      "better",
       "thanks",
+      "better",
       "than",
       "map"
      ],

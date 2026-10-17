@@ -20,8 +20,8 @@
     {
      "keywords": [
       "understand",
-      "notice",
       "didn't",
+      "notice",
       "why"
      ],
      "suggestion": "Oh no. I did notice, but I didn't understand why.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "mentioned",
-      "because",
       "thought",
+      "because",
       "first"
      ],
      "suggestion": "I thought it was fine because she mentioned it first.",
@@ -71,8 +71,8 @@
      "keywords": [
       "honestly",
       "didn't",
-      "fine",
-      "mean"
+      "mean",
+      "fine"
      ],
      "suggestion": "So \"honestly, it's fine\" didn't mean it was fine.",
      "suggestionFa": "پس «واقعاً، اشکالی نداره» یعنی اشکال داشت.",
@@ -125,7 +125,7 @@
       "exactly",
       "that's",
       "foot",
-      "did"
+      "put"
      ],
      "suggestion": "\"Put my foot in it\" — that's exactly what I did!",
      "suggestionFa": "«پام را تو اون کردم» — دقیقاً همون کاری بود که کردم!",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "earlier",
       "spotted",
-      "could",
-      "signs"
+      "earlier",
+      "signs",
+      "could"
      ],
      "suggestion": "How could I have spotted the signs earlier?",
      "suggestionFa": "چطوری می‌تونستم زودتر نشونه‌ها را ببینم؟",

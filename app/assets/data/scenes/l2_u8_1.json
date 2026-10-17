@@ -21,8 +21,8 @@
      "keywords": [
       "calling",
       "hello",
-      "bank",
-      "card"
+      "card",
+      "bank"
      ],
      "suggestion": "Hello. I'm calling about my new bank card.",
      "suggestionFa": "سلام. دربارهٔ کارت بانکی جدیدم زنگ می‌زنم.",
@@ -135,8 +135,8 @@
     },
     {
      "keywords": [
-      "machine",
       "doesn't",
+      "machine",
       "cash",
       "work"
      ],
@@ -173,9 +173,9 @@
     {
      "keywords": [
       "thank",
-      "will",
       "have",
-      "pin"
+      "will",
+      "new"
      ],
      "suggestion": "Thank you. Will it have a new PIN?",
      "suggestionFa": "ممنون. پین جدید داره؟",
@@ -239,8 +239,8 @@
     },
     {
      "keywords": [
-      "please",
       "repeat",
+      "please",
       "could",
       "line"
      ],

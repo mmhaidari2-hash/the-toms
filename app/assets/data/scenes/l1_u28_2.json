@@ -87,9 +87,9 @@
     {
      "keywords": [
       "thompson",
-      "william",
       "calling",
-      "about"
+      "william",
+      "hello"
      ],
      "suggestion": "Hello. I'm calling about William Thompson.",
      "suggestionFa": "سلام. دربارهٔ ویلیام تامپسون زنگ می‌زنم.",
@@ -143,8 +143,8 @@
     },
     {
      "keywords": [
-      "free",
       "when",
+      "free",
       "she"
      ],
      "suggestion": "When is she free?",
@@ -179,8 +179,8 @@
    "branches": [
     {
      "keywords": [
-      "let",
-      "ask"
+      "ask",
+      "let"
      ],
      "suggestion": "He's three. Let me ask his mum.",
      "suggestionFa": "سه سالشه. بذار از مامانش بپرسم.",
@@ -222,8 +222,8 @@
    "branches": [
     {
      "keywords": [
-      "years",
       "three",
+      "years",
       "ago"
      ],
      "suggestion": "The fifth of March, three years ago.",
@@ -323,8 +323,8 @@
     },
     {
      "keywords": [
-      "repeat",
       "please",
+      "repeat",
       "time",
       "can"
      ],
@@ -357,8 +357,8 @@
     {
      "keywords": [
       "that's",
-      "fine",
-      "much"
+      "much",
+      "fine"
      ],
      "suggestion": "That's fine. Thank you very much.",
      "suggestionFa": "خوبه. خیلی ممنون.",

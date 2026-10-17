@@ -1,0 +1,343 @@
+{
+ "id": "l2_u58_1",
+ "characterId": "leslie",
+ "title": "Choosing a film",
+ "titleFa": "انتخاب فیلم",
+ "setting": "Cinema and TV · Level 2",
+ "settingFa": "سینما و تلویزیون",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Friday film night! The kids are in bed — well, Ryan's \"in bed\" with his phone. What shall we watch? You choose.",
+   "translations": {
+    "fa": "شب فیلم جمعه! بچه‌ها خوابن — خب، رایان با گوشیش «خوابه». چی ببینیم؟ تو انتخاب کن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "films",
+      "like",
+      "kind"
+     ],
+     "suggestion": "What kind of films do you like?",
+     "suggestionFa": "چه نوع فیلمی دوست داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "funny",
+      "hmm"
+     ],
+     "suggestion": "Hmm. Something funny?",
+     "suggestionFa": "هوم. یه چیز خنده‌دار؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "film night",
+     "fa": "شب فیلم"
+    },
+    {
+     "word": "in bed",
+     "fa": "در رختخواب"
+    },
+    {
+     "word": "choose",
+     "fa": "انتخاب کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Comedies, romcoms, anything with Hugh Grant. Tom likes action — car chases. I'm not keen on horror. I can't sleep after.",
+   "translations": {
+    "fa": "کمدی، کمدی رمانتیک، هر چی هیو گرانت داشته باشه. تام اکشن دوست داره — تعقیب ماشین. از ترسناک خوشم نمیاد. بعدش خوابم نمی‌بره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "either",
+      "horror",
+      "keen"
+     ],
+     "suggestion": "I'm not keen on horror either.",
+     "suggestionFa": "منم از ترسناک خوشم نمیاد.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "british",
+      "comedy",
+      "about",
+      "how"
+     ],
+     "suggestion": "How about a British comedy?",
+     "suggestionFa": "یه کمدی بریتانیایی چطوره؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comedies",
+     "fa": "کمدی‌ها"
+    },
+    {
+     "word": "romcoms",
+     "fa": "کمدی‌های رمانتیک"
+    },
+    {
+     "word": "car chases",
+     "fa": "تعقیب ماشین"
+    },
+    {
+     "word": "not keen on",
+     "fa": "زیاد خوشم نمی‌آید"
+    },
+    {
+     "word": "horror",
+     "fa": "ترسناک"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i'm not keen of horror",
+      "i not keen on horror"
+     ],
+     "echo": "Not keen on horror? Me neither!",
+     "better": "I'm not keen on horror.",
+     "betterFa": "زیاد از فیلم ترسناک خوشم نمی‌آید."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Ooh, yes. Notting Hill? Paddington 2? Paddington 2 is officially one of the best films ever. I'm not even joking.",
+   "translations": {
+    "fa": "اوه، آره. ناتینگ هیل؟ پدینگتون ۲؟ پدینگتون ۲ رسماً یکی از بهترین فیلم‌های تاریخه. شوخی هم نمی‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "isn't"
+     ],
+     "suggestion": "Paddington? Isn't that for children?",
+     "suggestionFa": "پدینگتون؟ مگه برای بچه‌ها نیست؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "notting",
+      "let's",
+      "seen",
+      "i've"
+     ],
+     "suggestion": "I've seen Notting Hill. Let's try Paddington.",
+     "suggestionFa": "ناتینگ هیل را دیدم. بیا پدینگتون را امتحان کنیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "officially",
+     "fa": "رسماً"
+    },
+    {
+     "word": "ever",
+     "fa": "تا حالا ؛ تاریخ"
+    },
+    {
+     "word": "joking",
+     "fa": "شوخی کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Paddington is a bear from Peru who loves marmalade sandwiches. The films are loved by adults too — very British humour.",
+    "fa": "پدینگتون خرسی از پرو است که عاشق ساندویچ مارمالاد است؛ بزرگسالان هم عاشق این فیلم‌ها هستند."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "For children AND grown-ups. He's a polite bear from Peru who lives in London — like you, but furrier. You'll love him.",
+   "translations": {
+    "fa": "برای بچه‌ها و بزرگ‌ترها. یه خرس مؤدب از پرو که تو لندن زندگی می‌کنه — مثل تو، ولی پشمالوتر. عاشقش میشی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "immigrant",
+      "london",
+      "that's",
+      "polite"
+     ],
+     "suggestion": "A polite immigrant in London? That's me!",
+     "suggestionFa": "یه مهاجر مؤدب تو لندن؟ این منم!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "paddington",
+      "convinced",
+      "you've",
+      "ok"
+     ],
+     "suggestion": "OK, you've convinced me. Paddington 2.",
+     "suggestionFa": "باشه، قانعم کردی. پدینگتون ۲.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "grown-ups",
+     "fa": "بزرگ‌ترها"
+    },
+    {
+     "word": "polite",
+     "fa": "مؤدب"
+    },
+    {
+     "word": "furrier",
+     "fa": "پشمالوتر"
+    },
+    {
+     "word": "convinced",
+     "fa": "قانع کردی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Ha! Exactly. Now — is it on Netflix? Or iPlayer? We pay for three streaming services and can never find anything.",
+   "translations": {
+    "fa": "ها! دقیقاً. حالا — تو نتفلیکسه؟ یا آی‌پلیر؟ پول سه تا سرویس پخش آنلاین را میدیم و هیچ‌وقت چیزی پیدا نمی‌کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "search",
+      "let"
+     ],
+     "suggestion": "Let me search. It's on iPlayer!",
+     "suggestionFa": "بذار سرچ کنم. تو آی‌پلیره!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "what's"
+     ],
+     "suggestion": "What's iPlayer?",
+     "suggestionFa": "آی‌پلیر چیه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "streaming services",
+     "fa": "سرویس‌های پخش آنلاین"
+    },
+    {
+     "word": "search",
+     "fa": "جستجو کردن"
+    },
+    {
+     "word": "find",
+     "fa": "پیدا کردن"
+    }
+   ],
+   "cultureNote": {
+    "en": "BBC iPlayer is free to stream, but by law you need a TV licence (about £175 a year) to watch BBC programmes.",
+    "fa": "آی‌پلیر بی‌بی‌سی رایگان است، اما طبق قانون برای تماشای برنامه‌های BBC مجوز تلویزیون لازم است."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Brilliant. The BBC one. We pay the TV licence, so we might as well use it. Lights off, blanket on, tea in hand. Ready?",
+   "translations": {
+    "fa": "عالی. مال بی‌بی‌سی. پول مجوز تلویزیون را میدیم، پس بهتره ازش استفاده کنیم. چراغ خاموش، پتو رو پا، چای تو دست. آماده‌ای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "press",
+      "ready",
+      "play"
+     ],
+     "suggestion": "Ready! Press play.",
+     "suggestionFa": "آماده! پخش را بزن.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "biscuit",
+      "first",
+      "need",
+      "wait"
+     ],
+     "suggestion": "Wait — I need a biscuit first.",
+     "suggestionFa": "صبر کن — اول یه بیسکویت لازم دارم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "TV licence",
+     "fa": "مجوز تلویزیون"
+    },
+    {
+     "word": "might as well",
+     "fa": "بهتر است ؛ چه بهتر"
+    },
+    {
+     "word": "blanket",
+     "fa": "پتو"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "A biscuit for film night is the law. The tin's on the side. Bring two. Actually — bring the tin.",
+   "translations": {
+    "fa": "بیسکویت برای شب فیلم قانونه. قوطی رو کابینته. دو تا بیار. اصلاً — قوطی را بیار."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

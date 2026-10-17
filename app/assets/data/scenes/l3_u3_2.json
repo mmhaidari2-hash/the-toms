@@ -33,9 +33,9 @@
     {
      "keywords": [
       "again",
+      "take",
       "mine",
-      "here",
-      "take"
+      "here"
      ],
      "suggestion": "Yes. I have to take mine again here.",
      "suggestionFa": "آره. من هم اینجا باید دوباره امتحان بدم.",
@@ -87,8 +87,8 @@
     {
      "keywords": [
       "depends",
-      "doesn't",
       "country",
+      "doesn't",
       "count"
      ],
      "suggestion": "It depends on the country. Mine doesn't count.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "questions",
-      "hazard",
       "answer",
+      "hazard",
       "fifty"
      ],
      "suggestion": "You have to answer fifty questions and do a hazard test.",
@@ -237,7 +237,7 @@
       "remember",
       "you'll",
       "drive",
-      "left"
+      "have"
      ],
      "suggestion": "You'll have to remember to drive on the left!",
      "suggestionFa": "باید یادت باشه از سمت چپ برونی!",

@@ -32,9 +32,9 @@
     {
      "keywords": [
       "stick",
+      "sign",
       "stop",
-      "says",
-      "sign"
+      "says"
      ],
      "suggestion": "Her stick says \"STOP\". It's a sign!",
      "suggestionFa": "رو چوبش نوشته «ایست». تابلوئه!",
@@ -73,8 +73,8 @@
     {
      "keywords": [
       "important",
-      "she's",
       "let's",
+      "she's",
       "wait"
      ],
      "suggestion": "She's very important. Let's wait for her.",
@@ -139,8 +139,8 @@
     {
      "keywords": [
       "while",
-      "hold",
       "hand",
+      "hold",
       "we"
      ],
      "suggestion": "Hold my hand while we wait.",
@@ -190,8 +190,8 @@
    "branches": [
     {
      "keywords": [
-      "right",
       "cross",
+      "right",
       "left",
       "safe"
      ],
@@ -204,9 +204,9 @@
     {
      "keywords": [
       "other",
-      "side",
-      "come",
-      "cars"
+      "iran",
+      "cars",
+      "come"
      ],
      "suggestion": "In Iran, the cars come from the other side!",
      "suggestionFa": "تو ایران، ماشین‌ها از اون طرف میان!",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "cross",
-      "safe",
       "come",
+      "safe",
       "now"
      ],
      "suggestion": "Now it's safe to cross. Come on!",
@@ -346,8 +346,8 @@
     {
      "keywords": [
       "sticker",
-      "star",
       "give",
+      "star",
       "why"
      ],
      "suggestion": "A star sticker! Why did she give you that?",
@@ -358,8 +358,8 @@
     },
     {
      "keywords": [
-      "she's",
       "thank",
+      "she's",
       "kind",
       "say"
      ],
@@ -410,7 +410,7 @@
       "sticker",
       "waited",
       "nicely",
-      "can"
+      "get"
      ],
      "suggestion": "Can I get a sticker too? I waited nicely!",
      "suggestionFa": "منم برچسب می‌گیرم؟ خوب صبر کردم!",

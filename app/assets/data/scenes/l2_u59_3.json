@@ -1,0 +1,349 @@
+{
+ "id": "l2_u59_3",
+ "characterId": "tom",
+ "title": "Buying a ticket",
+ "titleFa": "خرید بلیت",
+ "setting": "Football fan · Level 2",
+ "settingFa": "طرفدار فوتبال",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Big news! Arsenal are at home on the twentieth. Ryan's begging to go. But tickets are like gold dust. Help me look?",
+   "translations": {
+    "fa": "خبر بزرگ! آرسنال بیستم بازی خونگی داره. رایان داره التماس می‌کنه بره. ولی بلیت‌ها کیمیاست. کمکم می‌کنی بگردم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arsenal",
+      "website",
+      "check",
+      "let's"
+     ],
+     "suggestion": "Sure. Let's check the Arsenal website.",
+     "suggestionFa": "حتماً. بیا سایت آرسنال را چک کنیم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "gold",
+      "dust",
+      "mean"
+     ],
+     "suggestion": "Gold dust? What do you mean?",
+     "suggestionFa": "کیمیا؟ منظورت چیه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "at home",
+     "fa": "در خانه (بازی خانگی)"
+    },
+    {
+     "word": "begging",
+     "fa": "التماس کردن"
+    },
+    {
+     "word": "gold dust",
+     "fa": "کیمیا ؛ خیلی کمیاب"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Very hard to find. Most tickets go to members. I'm not a member — eighty quid a year. OK, website. \"Sold out\". Typical.",
+   "translations": {
+    "fa": "خیلی سخت پیدا میشه. بیشتر بلیت‌ها به اعضا می‌رسه. من عضو نیستم — سالی هشتاد پوند. باشه، سایت. «تموم شد». معمول."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tickets",
+      "resale",
+      "there",
+      "left"
+     ],
+     "suggestion": "Are there any tickets left on resale?",
+     "suggestionFa": "تو بازفروش بلیتی مونده؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "someone",
+      "online",
+      "buying",
+      "about"
+     ],
+     "suggestion": "What about buying from someone online?",
+     "suggestionFa": "از یکی آنلاین بخریم چطور؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "members",
+     "fa": "اعضا"
+    },
+    {
+     "word": "sold out",
+     "fa": "تمام شده ؛ فروخته شده"
+    },
+    {
+     "word": "resale",
+     "fa": "بازفروش"
+    },
+    {
+     "word": "typical",
+     "fa": "معمول ؛ همیشگی"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "there is any tickets left",
+      "is there some ticket left"
+     ],
+     "echo": "Any tickets left? Let's check!",
+     "better": "Are there any tickets left?",
+     "betterFa": "بلیتی مانده؟"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "Never buy from strangers online — loads of fakes. Only the official resale. Ooh — two tickets on resale! Seventy-five pounds each.",
+   "translations": {
+    "fa": "هیچ‌وقت از غریبه‌ها آنلاین نخر — کلی تقلبی هست. فقط بازفروش رسمی. اوه — دو تا بلیت تو بازفروش! هر کدوم هفتاد و پنج پوند."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "expensive",
+      "seventy",
+      "that's",
+      "pounds"
+     ],
+     "suggestion": "Seventy-five pounds each! That's expensive.",
+     "suggestionFa": "هر کدوم هفتاد و پنج پوند! گرونه.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "under",
+      "much",
+      "how",
+      "s"
+     ],
+     "suggestion": "How much is it for under-18s?",
+     "suggestionFa": "برای زیر ۱۸ سال چقدره؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "strangers",
+     "fa": "غریبه‌ها"
+    },
+    {
+     "word": "fakes",
+     "fa": "تقلبی‌ها"
+    },
+    {
+     "word": "official",
+     "fa": "رسمی"
+    },
+    {
+     "word": "each",
+     "fa": "هر کدام"
+    }
+   ],
+   "cultureNote": {
+    "en": "Only buy football tickets from the club or its official resale site. Selling tickets without permission is illegal in the UK.",
+    "fa": "بلیت فوتبال را فقط از باشگاه یا سایت رسمی بازفروش بخرید؛ فروش بدون مجوز غیرقانونی است."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Good thinking. Juniors are cheaper. Hmm, only adult seats left. A hundred and fifty quid. For ninety minutes. Of stress.",
+   "translations": {
+    "fa": "فکر خوبیه. نوجوون‌ها ارزون‌ترن. هوم، فقط صندلی بزرگسال مونده. صد و پنجاه پوند. برای نود دقیقه. استرس."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tickets",
+      "orient",
+      "twenty",
+      "pounds"
+     ],
+     "suggestion": "Dave said Orient tickets are only twenty pounds.",
+     "suggestionFa": "دیو گفت بلیت اورینت فقط بیست پونده.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "remember",
+      "forever",
+      "will",
+      "ryan"
+     ],
+     "suggestion": "It's a lot, but Ryan will remember it forever.",
+     "suggestionFa": "زیاده، ولی رایان تا ابد یادش می‌مونه.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "juniors",
+     "fa": "نوجوانان ؛ زیر سن"
+    },
+    {
+     "word": "stress",
+     "fa": "استرس"
+    },
+    {
+     "word": "forever",
+     "fa": "تا ابد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "True. Hmm. His sixteenth birthday's coming… Right. I'll do it. Buy them. Seat numbers, Block 15. Done! I'm a hero. And broke.",
+   "translations": {
+    "fa": "درسته. هوم. تولد شونزده سالگیش نزدیکه… خب. انجامش میدم. بخرشون. شمارهٔ صندلی، بلوک ۱۵. تموم شد! قهرمانم. و بی‌پول."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "collect",
+      "where",
+      "can",
+      "we"
+     ],
+     "suggestion": "Where can we collect the tickets?",
+     "suggestionFa": "بلیت‌ها را کجا تحویل بگیریم؟",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "post",
+      "come",
+      "will",
+      "by"
+     ],
+     "suggestion": "Will the tickets come by post?",
+     "suggestionFa": "بلیت‌ها با پست میان؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sixteenth",
+     "fa": "شانزدهم"
+    },
+    {
+     "word": "block",
+     "fa": "بلوک"
+    },
+    {
+     "word": "broke",
+     "fa": "بی‌پول"
+    },
+    {
+     "word": "collect",
+     "fa": "تحویل گرفتن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Neither! They go on the app. Phone tickets. Just scan at the turnstile. Don't tell Ryan — it's a surprise. He'll lose his mind.",
+   "translations": {
+    "fa": "هیچ‌کدوم! میرن تو اپ. بلیت گوشی. فقط دم گیت اسکن کن. به رایان نگو — غافلگیریه. دیوونه میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sealed",
+      "lips"
+     ],
+     "suggestion": "My lips are sealed.",
+     "suggestionFa": "لبام دوخته‌ست.",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "promise",
+      "word"
+     ],
+     "suggestion": "I promise. Not a word!",
+     "suggestionFa": "قول میدم. یه کلمه هم نه!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "scan",
+     "fa": "اسکن کردن"
+    },
+    {
+     "word": "turnstile",
+     "fa": "گیت چرخان ورودی"
+    },
+    {
+     "word": "surprise",
+     "fa": "غافلگیری"
+    },
+    {
+     "word": "lose his mind",
+     "fa": "از خوشحالی دیوانه شود"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Good man. And Saturday week, you're at Orient with Dave. Look at you — two football grounds in one month. A proper Londoner!",
+   "translations": {
+    "fa": "آفرین. و شنبهٔ هفتهٔ بعد، تو با دیو اورینتی. ببین خودت را — دو تا ورزشگاه تو یه ماه. یه لندنی واقعی!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

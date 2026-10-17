@@ -21,7 +21,7 @@
      "keywords": [
       "that's",
       "great",
-      "news",
+      "wait",
       "long"
      ],
      "suggestion": "That's great news! How long do we wait?",
@@ -254,10 +254,10 @@
    "branches": [
     {
      "keywords": [
-      "persian",
       "without",
-      "tasty",
-      "herbs"
+      "persian",
+      "herbs",
+      "tasty"
      ],
      "suggestion": "Persian food uses lots of herbs. It's tasty without salt!",
      "suggestionFa": "غذای ایرانی پر از سبزیه. بی‌نمک هم خوشمزه‌ست!",
@@ -269,8 +269,8 @@
      "keywords": [
       "george",
       "still",
-      "less",
-      "fish"
+      "have",
+      "just"
      ],
      "suggestion": "You can still have fish, George. Just less salt.",
      "suggestionFa": "هنوز می‌تونی ماهی بخوری جورج. فقط نمک کمتر.",
@@ -305,8 +305,8 @@
     {
      "keywords": [
       "sunday",
-      "cook",
-      "deal"
+      "deal",
+      "cook"
      ],
      "suggestion": "Deal! I'll cook on Sunday.",
      "suggestionFa": "قبول! یکشنبه آشپزی می‌کنم.",

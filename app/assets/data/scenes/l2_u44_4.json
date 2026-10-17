@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "sunny",
       "lucky",
+      "sunny",
       "only",
       "hour"
      ],
@@ -206,8 +206,8 @@
     },
     {
      "keywords": [
-      "island",
-      "castle"
+      "castle",
+      "island"
      ],
      "suggestion": "This is a castle on an island.",
      "suggestionFa": "این یه قلعه رو یه جزیره‌ست.",
@@ -251,8 +251,8 @@
      "keywords": [
       "across",
       "walked",
-      "then",
-      "came"
+      "came",
+      "then"
      ],
      "suggestion": "Yes, we walked across. Then the tide came in!",
      "suggestionFa": "آره، پیاده رد شدیم. بعد آب بالا اومد!",
@@ -301,10 +301,10 @@
    "branches": [
     {
      "keywords": [
-      "back",
       "came",
+      "back",
       "boat",
-      "fun"
+      "was"
      ],
      "suggestion": "We came back by boat! It was fun.",
      "suggestionFa": "با قایق برگشتیم! جالب بود.",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "together",
-      "english",
       "friends",
+      "english",
       "class"
      ],
      "suggestion": "My friends from my English class. We went together.",

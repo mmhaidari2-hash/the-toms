@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "look",
       "list",
+      "look",
       "let"
      ],
      "suggestion": "Let me look at the list.",
@@ -231,10 +231,10 @@
     },
     {
      "keywords": [
-      "longer",
       "please",
+      "longer",
       "green",
-      "last"
+      "they"
      ],
      "suggestion": "The green ones, please. They last longer.",
      "suggestionFa": "سبزها، لطفاً. بیشتر می‌مونن.",
@@ -313,8 +313,8 @@
      "keywords": [
       "thanks",
       "i've",
-      "bag",
-      "got"
+      "got",
+      "bag"
      ],
      "suggestion": "No, thanks. I've got a bag.",
      "suggestionFa": "نه، ممنون. کیسه دارم.",
@@ -368,8 +368,8 @@
     {
      "keywords": [
       "card",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by card?",

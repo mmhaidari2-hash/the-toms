@@ -20,8 +20,8 @@
     {
      "keywords": [
       "chicken",
-      "soup",
-      "help"
+      "help",
+      "soup"
      ],
      "suggestion": "Chicken soup? Does it help?",
      "suggestionFa": "سوپ مرغ؟ کمک می‌کنه؟",
@@ -32,8 +32,8 @@
     {
      "keywords": [
       "terrible",
-      "cold",
       "i've",
+      "cold",
       "got"
      ],
      "suggestion": "Yes, I've got a terrible cold.",
@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "need",
       "work",
+      "need",
       "but",
       "go"
      ],
@@ -124,8 +124,8 @@
      "keywords": [
       "ginger",
       "drink",
-      "hot",
-      "tea"
+      "tea",
+      "hot"
      ],
      "suggestion": "We drink hot tea with ginger.",
      "suggestionFa": "چای داغ با زنجبیل می‌خوریم.",

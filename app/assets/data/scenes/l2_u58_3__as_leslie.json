@@ -1,0 +1,315 @@
+{
+ "id": "l2_u58_3__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Popcorn and seats",
+ "titleFa": "(در نقش Leslie) پاپ‌کورن و جا",
+ "setting": "Cinema and TV · Level 2",
+ "settingFa": "سینما و تلویزیون",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u58_3",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william's",
+      "cushions",
+      "popcorn",
+      "raining",
+      "cinema"
+     ],
+     "suggestion": "It's raining, so cinema at home today! Pop the popcorn, I'll do the cushions. William's in charge of the remote. Help!",
+     "suggestionFa": "داره بارون میاد، پس امروز سینمای خونگی! پاپ‌کورن را درست کن، من کوسن‌ها را میارم. ویلیام مسئول کنترله. کمک!",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "OK! Sweet or salted popcorn?",
+   "translations": {
+    "fa": "باشه! پاپ‌کورن شیرین یا شور؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "william",
+   "text": "No! MY remote! I'm the boss!",
+   "translations": {
+    "fa": "نه! کنترل من! من رئیسم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "boss",
+     "fa": "رئیس"
+    },
+    {
+     "word": "after",
+     "fa": "بعد از"
+    }
+   ]
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "OK, boss. Which film do you want?",
+   "translations": {
+    "fa": "باشه رئیس. کدوم فیلم را می‌خوای؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "william",
+   "text": "Paddington! Paddington! Bear film!",
+   "translations": {
+    "fa": "پدینگتون! پدینگتون! فیلم خرس!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "again",
+     "fa": "دوباره"
+    },
+    {
+     "word": "choice",
+     "fa": "انتخاب"
+    }
+   ]
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Paddington again? OK!",
+   "translations": {
+    "fa": "باز پدینگتون؟ باشه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "popcorn",
+      "answer",
+      "salted",
+      "house"
+     ],
+     "suggestion": "Sixth time this month! Right. Popcorn — sweet or salted? In this house, the answer is \"both, mixed together\".",
+     "suggestionFa": "ششمین بار این ماه! خب. پاپ‌کورن — شیرین یا شور؟ تو این خونه، جوابش «هر دو، قاطی» است.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Both, mixed together? That's strange.",
+   "translations": {
+    "fa": "هر دو قاطی؟ عجیبه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "beanbag",
+      "william",
+      "you've",
+      "nicola",
+      "seats"
+     ],
+     "suggestion": "Don't knock it till you've tried it. Now, seats. Nicola wants the beanbag, William wants my lap, and Tom wants the big chair.",
+     "suggestionFa": "تا امتحان نکردی ایراد نگیر. حالا جاها. نیکولا پف را می‌خواد، ویلیام بغل من را، و تام صندلی بزرگه را.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Can I sit next to William on the sofa?",
+   "translations": {
+    "fa": "می‌تونم کنار ویلیام رو مبل بشینم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pretending",
+      "paddington",
+      "upstairs",
+      "minutes",
+      "drink"
+     ],
+     "suggestion": "Ryan? Upstairs, \"too old for Paddington\". He'll come down in ten minutes, pretending he wants a drink. Every time.",
+     "suggestionFa": "رایان؟ طبقهٔ بالا، «برای پدینگتون زیادی بزرگه». ده دقیقه دیگه میاد پایین، وانمود می‌کنه نوشیدنی می‌خواد. هر بار.",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Ha! Typical teenager.",
+   "translations": {
+    "fa": "ها! نوجوون معمولی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "william",
+   "text": "Shh! It's starting! Shh, everyone!",
+   "translations": {
+    "fa": "هیس! داره شروع میشه! هیس، همه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r11",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "upstairs",
+     "fa": "طبقهٔ بالا"
+    },
+    {
+     "word": "pretending",
+     "fa": "وانمود کردن"
+    },
+    {
+     "word": "starting",
+     "fa": "شروع شدن"
+    },
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    }
+   ]
+  },
+  "r11": {
+   "id": "r11",
+   "speaker": "mehdi",
+   "text": "Shh! Sorry, William.",
+   "translations": {
+    "fa": "هیس! ببخشید ویلیام."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "footsteps",
+      "popcorn",
+      "there's",
+      "getting",
+      "stairs"
+     ],
+     "suggestion": "Ha — look. Footsteps on the stairs. \"I'm just getting some water.\" Sit down, Ryan. There's popcorn.",
+     "suggestionFa": "ها — ببین. صدای پا رو پله‌ها. «فقط دارم آب برمی‌دارم.» بشین رایان. پاپ‌کورن هست.",
+     "trustDelta": 5,
+     "next": "r12",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r12": {
+   "id": "r12",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

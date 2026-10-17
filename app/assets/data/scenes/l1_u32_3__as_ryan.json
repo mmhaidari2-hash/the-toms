@@ -24,8 +24,8 @@
       "nicola's",
       "sweets",
       "party",
-      "here",
-      "sent"
+      "pick",
+      "them"
      ],
      "suggestion": "Mum sent me for sweets for Nicola's party bags. You pick and mix them here!",
      "suggestionFa": "مامان فرستادم برای کیسه‌های جشن نیکولا آبنبات بخرم. اینجا خودت قاطی می‌کنی!",
@@ -47,8 +47,8 @@
     {
      "keywords": [
       "different",
-      "choose",
       "sweets",
+      "choose",
       "weigh",
       "they"
      ],
@@ -156,7 +156,7 @@
       "chocolate",
       "jelly",
       "melts",
-      "more",
+      "less",
       "bags"
      ],
      "suggestion": "Chocolate melts in the bags. Less chocolate, more jelly.",
@@ -230,9 +230,9 @@
     {
      "keywords": [
       "perfect",
-      "sound",
       "sixty",
       "grams",
+      "sound",
       "like"
      ],
      "suggestion": "Ha, you sound like Mum. It's perfect. Sixty grams each bag.",
@@ -304,9 +304,9 @@
     {
      "keywords": [
       "surprise",
-      "nicola",
-      "sorted",
       "snakes",
+      "sorted",
+      "nicola",
       "about"
      ],
      "suggestion": "Sorted. Don't tell Nicola about the snakes. It's a surprise. And don't eat them on the way home!",

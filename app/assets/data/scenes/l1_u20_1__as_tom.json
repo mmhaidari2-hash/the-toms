@@ -22,9 +22,9 @@
     {
      "keywords": [
       "morning",
-      "know",
-      "soon",
       "work",
+      "soon",
+      "know",
       "off"
      ],
      "suggestion": "Morning! Off to work soon. Do you know what I do?",
@@ -74,8 +74,8 @@
       "hundreds",
       "people",
       "crazy",
-      "days",
-      "rush"
+      "rush",
+      "love"
      ],
      "suggestion": "I love it, most days! Rush hour is crazy. Hundreds of people!",
      "suggestionFa": "بیشتر روزها عاشقشم! ساعت شلوغی دیوونه‌کننده‌ست. صدها نفر!",
@@ -98,9 +98,9 @@
      "keywords": [
       "sometimes",
       "finish",
-      "start",
       "about",
-      "three"
+      "three",
+      "start"
      ],
      "suggestion": "Sometimes. I start at six and finish at three. What about you? What do you do?",
      "suggestionFa": "گاهی. ساعت شش شروع می‌کنم و سه تموم می‌کنم. تو چی؟ چه کاره‌ای؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "country",
-      "find",
+      "good",
       "home",
-      "back",
-      "easy"
+      "easy",
+      "back"
      ],
      "suggestion": "Good for you. It's not easy to find a job in a new country. What did you do back home?",
      "suggestionFa": "آفرین بهت. پیدا کردن کار تو یه کشور جدید آسون نیست. تو کشورت چی کار می‌کردی؟",
@@ -149,7 +149,7 @@
       "something",
       "jobcentre",
       "worker",
-      "you'll",
+      "friend",
       "office"
      ],
      "suggestion": "An office worker! You'll find something here, I'm sure. My friend Mr Osei at the Jobcentre is great.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "government",
-      "office",
       "people",
-      "find",
-      "they"
+      "office",
+      "they",
+      "work"
      ],
      "suggestion": "It's a government office. They help people find work. Free!",
      "suggestionFa": "یه ادارهٔ دولتیه. به مردم کمک می‌کنن کار پیدا کنن. رایگان!",
@@ -199,8 +199,8 @@
       "teatime",
       "right",
       "where",
-      "here",
-      "i'll"
+      "text",
+      "keys"
      ],
      "suggestion": "I'll text it to you. Right, I'm off. Where are my keys? Ah, here! See you at teatime!",
      "suggestionFa": "برات پیامکش می‌کنم. خب، من رفتم. کلیدام کجان؟ آه، اینجان! سر شام می‌بینمت!",
@@ -222,8 +222,8 @@
     {
      "keywords": [
       "biscuits",
-      "nicola",
       "cheers",
+      "nicola",
       "don't",
       "all"
      ],

@@ -24,7 +24,7 @@
       "finished",
       "missing",
       "picture",
-      "nearly",
+      "jigsaw",
       "castle"
      ],
      "suggestion": "My jigsaw is nearly finished! It's a picture of a castle. But one piece is missing!",
@@ -47,10 +47,10 @@
     {
      "keywords": [
       "piece",
-      "have",
-      "blue",
+      "part",
       "seen",
-      "part"
+      "have",
+      "blue"
      ],
      "suggestion": "It's a blue piece. Part of the sky. Have you seen it?",
      "suggestionFa": "یه تیکهٔ آبیه. یه قسمت از آسمون. دیدیش؟",
@@ -74,7 +74,7 @@
       "under",
       "can't",
       "floor",
-      "find",
+      "look",
       "sofa"
      ],
      "suggestion": "I can't find it on the floor. Can you look under the sofa?",
@@ -98,7 +98,7 @@
      "keywords": [
       "crisps",
       "crisp",
-      "sofa",
+      "eats",
       "ryan",
       "yuck"
      ],
@@ -123,8 +123,8 @@
      "keywords": [
       "william",
       "things",
-      "maybe",
       "mouth",
+      "maybe",
       "puts"
      ],
      "suggestion": "Maybe William has got it. He puts things in his mouth!",
@@ -230,7 +230,7 @@
       "castle",
       "click",
       "photo",
-      "nana"
+      "look"
      ],
      "suggestion": "Click! Finished! Look at my castle! Can we take a photo for Nana?",
      "suggestionFa": "تق! تموم شد! قلعه‌ام را ببین! می‌شه یه عکس برای نانا بگیریم؟",
@@ -254,8 +254,8 @@
       "thousand",
       "another",
       "joking",
-      "pieces",
-      "jigsaw"
+      "jigsaw",
+      "pieces"
      ],
      "suggestion": "Send it to Nana! Now let's do another jigsaw. A thousand pieces! Just joking!",
      "suggestionFa": "برای نانا بفرستش! حالا یه پازل دیگه درست کنیم. هزار تیکه! شوخی کردم!",

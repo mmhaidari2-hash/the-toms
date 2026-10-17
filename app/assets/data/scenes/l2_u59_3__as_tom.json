@@ -1,0 +1,200 @@
+{
+ "id": "l2_u59_3__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Buying a ticket",
+ "titleFa": "(در نقش Tom) خرید بلیت",
+ "setting": "Football fan · Level 2",
+ "settingFa": "طرفدار فوتبال",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u59_3",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "twentieth",
+      "begging",
+      "arsenal",
+      "tickets",
+      "ryan's"
+     ],
+     "suggestion": "Big news! Arsenal are at home on the twentieth. Ryan's begging to go. But tickets are like gold dust. Help me look?",
+     "suggestionFa": "خبر بزرگ! آرسنال بیستم بازی خونگی داره. رایان داره التماس می‌کنه بره. ولی بلیت‌ها کیمیاست. کمکم می‌کنی بگردم؟",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "Sure. Let's check the Arsenal website.",
+   "translations": {
+    "fa": "حتماً. بیا سایت آرسنال را چک کنیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "website",
+      "tickets",
+      "members",
+      "typical",
+      "eighty"
+     ],
+     "suggestion": "Very hard to find. Most tickets go to members. I'm not a member — eighty quid a year. OK, website. \"Sold out\". Typical.",
+     "suggestionFa": "خیلی سخت پیدا میشه. بیشتر بلیت‌ها به اعضا می‌رسه. من عضو نیستم — سالی هشتاد پوند. باشه، سایت. «تموم شد». معمول.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "Are there any tickets left on resale?",
+   "translations": {
+    "fa": "تو بازفروش بلیتی مونده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "strangers",
+      "official",
+      "tickets",
+      "seventy",
+      "pounds"
+     ],
+     "suggestion": "Never buy from strangers online — loads of fakes. Only the official resale. Ooh — two tickets on resale! Seventy-five pounds each.",
+     "suggestionFa": "هیچ‌وقت از غریبه‌ها آنلاین نخر — کلی تقلبی هست. فقط بازفروش رسمی. اوه — دو تا بلیت تو بازفروش! هر کدوم هفتاد و پنج پوند.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Seventy-five pounds each! That's expensive.",
+   "translations": {
+    "fa": "هر کدوم هفتاد و پنج پوند! گرونه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thinking",
+      "cheaper",
+      "minutes",
+      "juniors",
+      "hundred"
+     ],
+     "suggestion": "Good thinking. Juniors are cheaper. Hmm, only adult seats left. A hundred and fifty quid. For ninety minutes. Of stress.",
+     "suggestionFa": "فکر خوبیه. نوجوون‌ها ارزون‌ترن. هوم، فقط صندلی بزرگسال مونده. صد و پنجاه پوند. برای نود دقیقه. استرس.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Dave said Orient tickets are only twenty pounds.",
+   "translations": {
+    "fa": "دیو گفت بلیت اورینت فقط بیست پونده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday's",
+      "sixteenth",
+      "numbers",
+      "coming",
+      "broke"
+     ],
+     "suggestion": "True. Hmm. His sixteenth birthday's coming… Right. I'll do it. Buy them. Seat numbers, Block 15. Done! I'm a hero. And broke.",
+     "suggestionFa": "درسته. هوم. تولد شونزده سالگیش نزدیکه… خب. انجامش میدم. بخرشون. شمارهٔ صندلی، بلوک ۱۵. تموم شد! قهرمانم. و بی‌پول.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Where can we collect the tickets?",
+   "translations": {
+    "fa": "بلیت‌ها را کجا تحویل بگیریم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "turnstile",
+      "surprise",
+      "neither",
+      "tickets",
+      "phone"
+     ],
+     "suggestion": "Neither! They go on the app. Phone tickets. Just scan at the turnstile. Don't tell Ryan — it's a surprise. He'll lose his mind.",
+     "suggestionFa": "هیچ‌کدوم! میرن تو اپ. بلیت گوشی. فقط دم گیت اسکن کن. به رایان نگو — غافلگیریه. دیوونه میشه.",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "My lips are sealed.",
+   "translations": {
+    "fa": "لبام دوخته‌ست."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "londoner",
+      "football",
+      "saturday",
+      "grounds",
+      "orient"
+     ],
+     "suggestion": "Good man. And Saturday week, you're at Orient with Dave. Look at you — two football grounds in one month. A proper Londoner!",
+     "suggestionFa": "آفرین. و شنبهٔ هفتهٔ بعد، تو با دیو اورینتی. ببین خودت را — دو تا ورزشگاه تو یه ماه. یه لندنی واقعی!",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

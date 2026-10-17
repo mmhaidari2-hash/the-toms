@@ -23,9 +23,9 @@
      "keywords": [
       "alright",
       "called",
-      "hello",
       "times",
-      "break"
+      "three",
+      "hello"
      ],
      "suggestion": "Hello? It's Tom. I'm on my break. You called me three times — are you alright?",
      "suggestionFa": "الو؟ تامم. تو استراحتمم. سه بار زنگ زدی — حالت خوبه؟",
@@ -100,7 +100,7 @@
       "before",
       "phone",
       "right",
-      "stop"
+      "time"
      ],
      "suggestion": "Next time, use the map on your phone. It buzzes before your stop. Right, are you off?",
      "suggestionFa": "دفعهٔ بعد، از نقشهٔ گوشیت استفاده کن. قبل از ایستگاهت ویبره می‌زنه. خب، پیاده شدی؟",
@@ -122,10 +122,10 @@
     {
      "keywords": [
       "letter",
+      "going",
       "other",
       "cross",
-      "going",
-      "find"
+      "look"
      ],
      "suggestion": "Cross the road and find the stop for the same bus going the other way. Look for the letter on the sign.",
      "suggestionFa": "از خیابون رد شو و ایستگاه همون اتوبوس در جهت مخالف را پیدا کن. دنبال حرف روی تابلو بگرد.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "perfect",
-      "within",
       "hopper",
+      "within",
       "stop",
-      "same"
+      "card"
      ],
      "suggestion": "Stop S, perfect. And no, with the Hopper fare it's free within an hour. Use the same card!",
      "suggestionFa": "ایستگاه S، عالیه. و نه، با کرایهٔ هاپر تو یه ساعت مجانیه. با همون کارت!",
@@ -173,9 +173,9 @@
      "keywords": [
       "driving",
       "minutes",
+      "fifty",
       "about",
-      "jokes",
-      "fifty"
+      "jokes"
      ],
      "suggestion": "About fifty minutes. Bad news: I'm not driving it. Good news: no jokes. Text me when you're on, OK?",
      "suggestionFa": "حدود پنجاه دقیقه. خبر بد: من رانندش نیستم. خبر خوب: جوکی در کار نیست. وقتی سوار شدی بهم پیام بده، باشه؟",
@@ -198,9 +198,9 @@
      "keywords": [
       "service",
       "persian",
-      "travel",
       "saving",
-      "seven"
+      "travel",
+      "tom's"
      ],
      "suggestion": "Saving you? All part of the service. Tom's Travel Help — open seven days a week. Fees: one Persian tea.",
      "suggestionFa": "نجاتت دادم؟ جزو خدماته. خدمات سفر تام — هفت روز هفته باز. هزینه: یه چای ایرانی.",

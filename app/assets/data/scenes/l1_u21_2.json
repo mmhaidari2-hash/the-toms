@@ -32,8 +32,8 @@
     {
      "keywords": [
       "which",
-      "bins",
-      "sure"
+      "sure",
+      "bins"
      ],
      "suggestion": "Sure. Which bins?",
      "suggestionFa": "حتماً. کدوم سطل‌ها؟",
@@ -160,8 +160,8 @@
    "branches": [
     {
      "keywords": [
-      "about",
       "pizza",
+      "about",
       "box"
      ],
      "suggestion": "What about this pizza box?",
@@ -312,9 +312,9 @@
    "branches": [
     {
      "keywords": [
+      "just",
       "phew",
-      "time",
-      "just"
+      "time"
      ],
      "suggestion": "Phew! Just in time!",
      "suggestionFa": "وای! درست به موقع!",
@@ -360,8 +360,8 @@
     {
      "keywords": [
       "thank",
-      "have",
       "good",
+      "have",
       "day"
      ],
      "suggestion": "Thank you! Have a good day!",

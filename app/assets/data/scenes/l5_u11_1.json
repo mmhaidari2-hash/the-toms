@@ -35,7 +35,7 @@
       "incorrect",
       "helping",
       "believe",
-      "maggie"
+      "that's"
      ],
      "suggestion": "That's right. I'm helping Maggie — we believe the bill is incorrect.",
      "suggestionFa": "درسته. دارم به مگی کمک می‌کنم — معتقدیم قبض اشتباهه.",
@@ -93,7 +93,7 @@
       "circumstances",
       "changed",
       "until",
-      "true"
+      "have"
      ],
      "suggestion": "That was true until March, but circumstances have changed.",
      "suggestionFa": "تا مارس درست بود، ولی شرایط عوض شده.",
@@ -146,8 +146,8 @@
      "keywords": [
       "processed",
       "whether",
-      "could",
-      "check"
+      "check",
+      "could"
      ],
      "suggestion": "Could you check whether the April form was processed?",
      "suggestionFa": "می‌تونید چک کنید فرم آوریل پردازش شده یا نه؟",
@@ -236,8 +236,8 @@
      "keywords": [
       "received",
       "reminder",
-      "cancel",
-      "notice"
+      "notice",
+      "cancel"
      ],
      "suggestion": "That's fair. Could you also cancel the reminder notice she received?",
      "suggestionFa": "منصفانه‌ست. می‌شه اخطاریه‌ای که دریافت کرده را هم لغو کنید؟",
@@ -301,8 +301,8 @@
      "keywords": [
       "george's",
       "support",
-      "maggie",
-      "carers"
+      "carers",
+      "maggie"
      ],
      "suggestion": "Maggie is George's main carer. Is there support for carers?",
      "suggestionFa": "مگی مراقب اصلی جورجه. برای مراقب‌ها حمایتی هست؟",
@@ -355,7 +355,7 @@
       "appreciate",
       "writing",
       "could",
-      "i'd"
+      "put"
      ],
      "suggestion": "I'd appreciate it if you could put that in writing, too.",
      "suggestionFa": "ممنون می‌شم اگه اونو کتبی هم بفرستید.",
@@ -365,10 +365,10 @@
     },
     {
      "keywords": [
-      "entitled",
       "anything",
+      "entitled",
       "helpful",
-      "really"
+      "didn't"
      ],
      "suggestion": "That's really helpful. She didn't know she was entitled to anything.",
      "suggestionFa": "خیلی کمک می‌کنه. نمی‌دونست حق چیزی داره.",
@@ -410,8 +410,8 @@
    "branches": [
     {
      "keywords": [
-      "resolved",
       "escalate",
+      "resolved",
       "isn't",
       "how"
      ],

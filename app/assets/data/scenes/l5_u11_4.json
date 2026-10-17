@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "speaker",
       "details",
+      "speaker",
       "don't",
       "give"
      ],
@@ -32,9 +32,9 @@
     },
     {
      "keywords": [
-      "they",
       "call",
       "wait",
+      "they",
       "did"
      ],
      "suggestion": "Wait — did they call you, or did you call them?",
@@ -76,7 +76,7 @@
       "classic",
       "that's",
       "scam",
-      "now"
+      "tom"
      ],
      "suggestion": "That's a classic scam, Tom. Hang up now.",
      "suggestionFa": "این یه کلاهبرداری کلاسیکه تام. همین الان قطع کن.",
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "pressure",
-      "panic",
       "fraud",
-      "signs"
+      "signs",
+      "panic"
      ],
      "suggestion": "Yes. Pressure and panic are signs of fraud.",
      "suggestionFa": "آره. فشار و هول دادن نشونهٔ کلاهبرداریه.",
@@ -142,7 +142,7 @@
      "keywords": [
       "comfortable",
       "directly",
-      "i'll",
+      "tell",
       "call"
      ],
      "suggestion": "Tell him: \"I'm not comfortable. I'll call my bank directly.\"",
@@ -195,7 +195,7 @@
       "another",
       "minutes",
       "phone",
-      "then"
+      "five"
      ],
      "suggestion": "Wait five minutes, or use another phone, then call 159.",
      "suggestionFa": "پنج دقیقه صبر کن، یا با یه گوشی دیگه، بعد به ۱۵۹ زنگ بزن.",
@@ -257,7 +257,7 @@
       "claiming",
       "barclays",
       "report",
-      "like"
+      "scam"
      ],
      "suggestion": "We'd like to report a scam call claiming to be from Barclays.",
      "suggestionFa": "می‌خوایم یه تماس کلاهبرداری به اسم بارکلیز گزارش بدیم.",
@@ -335,8 +335,8 @@
    "branches": [
     {
      "keywords": [
-      "action",
       "what's",
+      "action",
       "fraud"
      ],
      "suggestion": "What's Action Fraud?",
@@ -349,7 +349,7 @@
      "keywords": [
       "password",
       "banking",
-      "should",
+      "change",
       "online"
      ],
      "suggestion": "Should he change his online banking password?",
@@ -402,8 +402,8 @@
     {
      "keywords": [
       "targeted",
-      "people",
       "george",
+      "people",
       "maggie"
      ],
      "suggestion": "I'll warn George and Maggie too — older people are often targeted.",

@@ -75,7 +75,7 @@
       "minutes",
       "that's",
       "short",
-      "only"
+      "five"
      ],
      "suggestion": "Only five minutes? That's very short.",
      "suggestionFa": "فقط پنج دقیقه؟ خیلی کوتاهه.",
@@ -133,7 +133,7 @@
       "there's",
       "forty",
       "slot",
-      "one"
+      "ten"
      ],
      "suggestion": "There's a slot at six-ten and one at six-forty.",
      "suggestionFa": "یه وقت ساعت شش و ده هست و یکی شش و چهل.",
@@ -146,7 +146,7 @@
       "taken",
       "fifty",
       "seven",
-      "left"
+      "only"
      ],
      "suggestion": "Most are taken. Only seven-fifty is left.",
      "suggestionFa": "بیشترش گرفته شده. فقط هفت و پنجاه مونده.",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "change",
-      "patel",
       "later",
+      "patel",
       "time"
      ],
      "suggestion": "Can we change Mr Patel to a later time?",
@@ -303,7 +303,7 @@
      "keywords": [
       "william",
       "after",
-      "will",
+      "come",
       "look"
      ],
      "suggestion": "Will you come too? I can look after William.",
@@ -358,7 +358,7 @@
       "question",
       "first",
       "doing",
-      "good"
+      "idea"
      ],
      "suggestion": "Good idea. First question: \"How is he doing?\"",
      "suggestionFa": "فکر خوبیه. سؤال اول: «چطور پیش میره؟»",

@@ -23,9 +23,9 @@
      "keywords": [
       "voicemail",
       "answering",
-      "message",
       "plumber",
-      "isn't"
+      "message",
+      "leave"
      ],
      "suggestion": "The plumber isn't answering. It's the voicemail. Can you leave a message? I talk too fast!",
      "suggestionFa": "لوله‌کش جواب نمی‌ده. پیغام‌گیره. تو پیغام می‌ذاری؟ من خیلی تند حرف می‌زنم!",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
-      "problem",
       "kitchen",
       "leaking",
+      "problem",
       "good",
       "now"
      ],
@@ -98,8 +98,8 @@
      "keywords": [
       "double",
       "number",
-      "seven",
       "three",
+      "seven",
       "nine"
      ],
      "suggestion": "Now the number. Oh seven seven double oh, nine double oh, one two three.",
@@ -147,8 +147,8 @@
     {
      "keywords": [
       "goodbye",
-      "lovely",
       "button",
+      "lovely",
       "press",
       "then"
      ],
@@ -197,9 +197,9 @@
     {
      "keywords": [
       "phone's",
-      "ringing",
-      "message",
       "plumber",
+      "message",
+      "ringing",
       "already"
      ],
      "suggestion": "Oh! My phone's ringing already. It's him! The plumber. You see? A good message works!",

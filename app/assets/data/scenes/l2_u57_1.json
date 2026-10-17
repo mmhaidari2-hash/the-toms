@@ -1,0 +1,395 @@
+{
+ "id": "l2_u57_1",
+ "characterId": "tom",
+ "title": "Booking a table",
+ "titleFa": "رزرو میز",
+ "setting": "Going out · Level 2",
+ "settingFa": "بیرون رفتن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "Leslie's birthday dinner! I want to book the Copper Kettle. Will you ring them? I hate phoning restaurants. I always panic.",
+   "translations": {
+    "fa": "شام تولد لزلی! می‌خوام کاپر کتل را رزرو کنم. تو زنگ می‌زنی؟ از زنگ زدن به رستوران متنفرم. همیشه هول می‌کنم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "people",
+      "sure",
+      "many",
+      "day"
+     ],
+     "suggestion": "Sure. How many people, and what day?",
+     "suggestionFa": "حتماً. چند نفر، و چه روزی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "want",
+      "i'll",
+      "time",
+      "ring"
+     ],
+     "suggestion": "Ha! OK, I'll ring. What time do you want?",
+     "suggestionFa": "ها! باشه، زنگ می‌زنم. چه ساعتی می‌خوای؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "book",
+     "fa": "رزرو کردن"
+    },
+    {
+     "word": "ring",
+     "fa": "زنگ زدن"
+    },
+    {
+     "word": "panic",
+     "fa": "هول کردن"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Friday, seven thirty. Just two of us — Nana Maggie's babysitting. A table for two. Somewhere romantic, not by the toilets!",
+   "translations": {
+    "fa": "جمعه، هفت و نیم. فقط دو نفر — نانا مگی بچه‌ها را نگه می‌داره. یه میز دو نفره. یه جای رمانتیک، نه کنار دستشویی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "hello",
+      "table",
+      "like"
+     ],
+     "suggestion": "Hello. I'd like to book a table for two, please.",
+     "suggestionFa": "سلام. می‌خوام یه میز دو نفره رزرو کنم، لطفاً.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "ringing",
+      "friday",
+      "thirty",
+      "seven"
+     ],
+     "suggestion": "OK, it's ringing. Friday at seven thirty.",
+     "suggestionFa": "باشه، داره زنگ می‌خوره. جمعه ساعت هفت و نیم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "babysitting",
+     "fa": "نگهداری از بچه"
+    },
+    {
+     "word": "table for two",
+     "fa": "میز دو نفره"
+    },
+    {
+     "word": "romantic",
+     "fa": "رمانتیک"
+    },
+    {
+     "word": "toilets",
+     "fa": "دستشویی‌ها"
+    }
+   ],
+   "cultureNote": {
+    "en": "When you book, say the number of people, the day and the time. Restaurants often ask for a phone number too.",
+    "fa": "هنگام رزرو تعداد نفرات، روز و ساعت را بگویید؛ رستوران‌ها اغلب شماره تلفن هم می‌خواهند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "i want book a table for two",
+      "i like to book table"
+     ],
+     "echo": "You'd like to book a table for two? Lovely!",
+     "better": "I'd like to book a table for two, please.",
+     "betterFa": "می‌خواهم میزی دو نفره رزرو کنم."
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "What are they saying? … Seven thirty's full? Ask if they've got anything earlier, or later. Not too late — I fall asleep at ten.",
+   "translations": {
+    "fa": "چی میگن؟ … هفت و نیم پره؟ بپرس زودتر یا دیرتر جا دارن. نه خیلی دیر — ساعت ده خوابم می‌بره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "seven",
+      "have"
+     ],
+     "suggestion": "Have you got anything at seven, or eight?",
+     "suggestionFa": "ساعت هفت یا هشت جا دارید؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they've",
+      "o'clock",
+      "they",
+      "say"
+     ],
+     "suggestion": "They say they've got eight o'clock. Is that OK?",
+     "suggestionFa": "میگن ساعت هشت دارن. خوبه؟",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "full",
+     "fa": "پر"
+    },
+    {
+     "word": "earlier",
+     "fa": "زودتر"
+    },
+    {
+     "word": "later",
+     "fa": "دیرتر"
+    },
+    {
+     "word": "fall asleep",
+     "fa": "خوابم می‌برد"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Eight's perfect. Ask for a window table. Leslie loves watching people walk by. She makes up stories about them.",
+   "translations": {
+    "fa": "هشت عالیه. میز کنار پنجره بخواه. لزلی عاشق تماشای رهگذرهاست. دربارهٔ‌شون داستان می‌سازه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "please",
+      "could",
+      "table",
+      "have"
+     ],
+     "suggestion": "Could we have a table by the window, please?",
+     "suggestionFa": "میشه یه میز کنار پنجره داشته باشیم، لطفاً؟",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tables",
+      "booked",
+      "can't",
+      "sorry"
+     ],
+     "suggestion": "They say window tables can't be booked. Sorry!",
+     "suggestionFa": "میگن میزهای کنار پنجره رزرو نمیشن. ببخشید!",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "window table",
+     "fa": "میز کنار پنجره"
+    },
+    {
+     "word": "walk by",
+     "fa": "رد شدن"
+    },
+    {
+     "word": "makes up",
+     "fa": "از خودش می‌سازد"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "Fair enough. Now they want a name. Say Thompson. With a P. Everyone forgets the P. \"Thom-P-son\"!",
+   "translations": {
+    "fa": "باشه. حالا اسم می‌خوان. بگو تامپسون. با پ. همه پ را یادشون میره. «تام-پ-سون»!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "thompson",
+      "under",
+      "name",
+      "o"
+     ],
+     "suggestion": "It's under the name Thompson. T-H-O-M-P-S-O-N.",
+     "suggestionFa": "به اسم تامپسون. ت-ه-و-م-پ-س-و-ن.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "phone",
+      "yours",
+      "they"
+     ],
+     "suggestion": "They want a phone number too. Yours or mine?",
+     "suggestionFa": "شماره تلفن هم می‌خوان. مال تو یا مال من؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "under the name",
+     "fa": "به اسم"
+    },
+    {
+     "word": "forgets",
+     "fa": "فراموش می‌کند"
+    },
+    {
+     "word": "phone number",
+     "fa": "شماره تلفن"
+    }
+   ],
+   "cultureNote": {
+    "en": "Spell names letter by letter. British people often say \"double\" for two letters, for example \"double L\" for \"ll\".",
+    "fa": "اسم‌ها را حرف‌به‌حرف هجی کنید؛ برای دو حرف تکراری می‌گویند «double»."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Mine. Oh — and tell them it's a birthday. Sometimes they bring a candle in the pudding. Leslie will be so embarrassed. Perfect!",
+   "translations": {
+    "fa": "مال من. اوه — و بگو تولده. گاهی یه شمع تو دسر میارن. لزلی خیلی خجالت می‌کشه. عالیه!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "birthday",
+      "dessert",
+      "candle",
+      "could"
+     ],
+     "suggestion": "It's a birthday. Could you put a candle in the dessert?",
+     "suggestionFa": "تولده. میشه یه شمع تو دسر بذارید؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "they'll",
+      "said",
+      "they",
+      "sing"
+     ],
+     "suggestion": "They said yes! And they'll sing too.",
+     "suggestionFa": "گفتن آره! آواز هم می‌خونن.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "candle",
+     "fa": "شمع"
+    },
+    {
+     "word": "pudding",
+     "fa": "دسر (بریتانیایی)"
+    },
+    {
+     "word": "embarrassed",
+     "fa": "خجالت‌زده"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Singing waiters! She'll go bright red. Brilliant. Friday at eight, table for two, candle, singing. You're a star.",
+   "translations": {
+    "fa": "گارسون‌های آوازخون! حسابی قرمز میشه. عالی. جمعه ساعت هشت، میز دو نفره، شمع، آواز. تو ستاره‌ای."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "maggie",
+      "nana",
+      "tell"
+     ],
+     "suggestion": "Don't forget to tell Nana Maggie!",
+     "suggestionFa": "یادت نره به نانا مگی بگی!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "present"
+     ],
+     "suggestion": "And don't forget the present!",
+     "suggestionFa": "و هدیه را یادت نره!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "waiters",
+     "fa": "گارسون‌ها"
+    },
+    {
+     "word": "bright red",
+     "fa": "سرخِ سرخ"
+    },
+    {
+     "word": "star",
+     "fa": "ستاره"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "tom",
+   "text": "The present! I knew I'd forgotten something. Right — tomorrow, you're helping me buy perfume. Don't tell her!",
+   "translations": {
+    "fa": "هدیه! می‌دونستم یه چیزی یادم رفته. خب — فردا تو کمکم می‌کنی عطر بخرم. بهش نگو!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

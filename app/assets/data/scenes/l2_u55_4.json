@@ -70,9 +70,9 @@
     {
      "keywords": [
       "always",
-      "she's",
       "awake",
-      "waits"
+      "waits",
+      "she's"
      ],
      "suggestion": "She's awake. She always waits for my call.",
      "suggestionFa": "بیداره. همیشه منتظر تماسمه.",
@@ -136,8 +136,8 @@
     {
      "keywords": [
       "hello",
-      "hear",
       "says",
+      "hear",
       "she"
      ],
      "suggestion": "She says hello. She can hear you!",
@@ -205,8 +205,8 @@
     {
      "keywords": [
       "call",
-      "wait",
       "back",
+      "wait",
       "i'll"
      ],
      "suggestion": "Wait. I'll call you back, Mum.",
@@ -262,8 +262,8 @@
     },
     {
      "keywords": [
-      "here's",
       "little",
+      "here's",
       "one",
       "mum"
      ],
@@ -336,8 +336,8 @@
     {
      "keywords": [
       "laughing",
-      "she's",
       "loves",
+      "she's",
       "bus"
      ],
      "suggestion": "She's laughing! She loves your bus.",
@@ -446,7 +446,7 @@
       "william",
       "waving",
       "she's",
-      "back"
+      "wave"
      ],
      "suggestion": "She's waving. Wave back, William!",
      "suggestionFa": "داره دست تکون میده. براش دست تکون بده ویلیام!",

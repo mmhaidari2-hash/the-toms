@@ -24,8 +24,8 @@
       "alright",
       "bodied",
       "gonna",
-      "fifa",
-      "good"
+      "good",
+      "fifa"
      ],
      "suggestion": "Alright? You any good at FIFA, or are you gonna get bodied?",
      "suggestionFa": "چطوری؟ فیفا بلدی، یا قراره له بشی؟",
@@ -50,7 +50,7 @@
       "support",
       "d'you",
       "don't",
-      "then"
+      "talk"
      ],
      "suggestion": "Big talk! Who d'you support then? Don't say Chelsea.",
      "suggestionFa": "حرف گنده! خب طرفدار کدوم تیمی؟ نگی چلسی.",
@@ -71,8 +71,8 @@
    "branches": [
     {
      "keywords": [
-      "rematch",
       "calling",
+      "rematch",
       "dinner",
       "mum's",
       "later"
@@ -97,10 +97,10 @@
     {
      "keywords": [
       "actually",
+      "three",
       "again",
       "wanna",
-      "three",
-      "best"
+      "mate"
      ],
      "suggestion": "Mate, you're actually not bad. Wanna go again? Best of three.",
      "suggestionFa": "رفیق، واقعاً بد نیستی. یه دست دیگه؟ دو از سه.",
@@ -124,7 +124,7 @@
       "controller",
       "cheers",
       "footy",
-      "home",
+      "play",
       "pass"
      ],
      "suggestion": "Sick. Pass us the controller, cheers. Do you play footy back home?",
@@ -150,7 +150,7 @@
       "support",
       "united",
       "d'you",
-      "can't"
+      "don't"
      ],
      "suggestion": "Who d'you support, then? Don't say Man United or we can't be friends.",
      "suggestionFa": "خب، طرفدار کدوم تیمی؟ نگی منچستر یونایتد وگرنه نمی‌تونیم دوست باشیم.",
@@ -171,10 +171,10 @@
    "branches": [
     {
      "keywords": [
-      "obviously",
       "liverpool",
-      "tomorrow",
+      "obviously",
       "bricking",
+      "tomorrow",
       "anyway"
      ],
      "suggestion": "Liverpool, obviously. Dad's lot. Anyway — I've got a maths test tomorrow and I'm bricking it.",
@@ -198,8 +198,8 @@
      "keywords": [
       "algebra",
       "legend",
-      "would",
       "don't",
+      "would",
       "just"
      ],
      "suggestion": "Would you? Legend. It's algebra — I just don't get what x is for.",

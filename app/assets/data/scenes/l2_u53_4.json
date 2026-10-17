@@ -75,8 +75,8 @@
      "keywords": [
       "concert",
       "ticket",
-      "from",
-      "paid"
+      "paid",
+      "from"
      ],
      "suggestion": "Callum from the café. He paid for my concert ticket.",
      "suggestionFa": "کالوم از کافه. پول بلیت کنسرتم را داد.",
@@ -192,8 +192,8 @@
     {
      "keywords": [
       "matches",
-      "name",
-      "good"
+      "good",
+      "name"
      ],
      "suggestion": "It says, \"Name matches\". Good!",
      "suggestionFa": "میگه «نام مطابقت دارد». خوبه!",
@@ -249,8 +249,8 @@
     {
      "keywords": [
       "concert",
-      "thanks",
-      "ticket"
+      "ticket",
+      "thanks"
      ],
      "suggestion": "Reference: \"Concert ticket — thanks!\"",
      "suggestionFa": "شرح: «بلیت کنسرت — مرسی!»",
@@ -308,8 +308,8 @@
     },
     {
      "keywords": [
-      "long",
       "done",
+      "long",
       "take",
       "how"
      ],
@@ -353,9 +353,9 @@
    "branches": [
     {
      "keywords": [
-      "legend",
-      "cheers",
       "callum",
+      "cheers",
+      "legend",
       "got"
      ],
      "suggestion": "It's Callum: \"Got it, legend! Cheers!\"",

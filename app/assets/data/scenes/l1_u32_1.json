@@ -75,8 +75,8 @@
     {
      "keywords": [
       "big",
-      "how",
-      "one"
+      "one",
+      "how"
      ],
      "suggestion": "How big is the large one?",
      "suggestionFa": "بزرگه چقدره؟",
@@ -125,10 +125,10 @@
     },
     {
      "keywords": [
-      "family",
       "please",
-      "next",
-      "i've"
+      "family",
+      "i've",
+      "door"
      ],
      "suggestion": "The big one, please. I've got a big family next door!",
      "suggestionFa": "بزرگه، لطفاً. همسایه‌م خانوادهٔ بزرگی داره!",
@@ -272,8 +272,8 @@
     {
      "keywords": [
       "please",
-      "rolls",
       "small",
+      "rolls",
       "four"
      ],
      "suggestion": "Four small rolls, please.",
@@ -337,8 +337,8 @@
     {
      "keywords": [
       "card",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by card?",

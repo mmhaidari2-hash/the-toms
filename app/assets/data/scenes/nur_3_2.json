@@ -123,7 +123,7 @@
       "william",
       "oscar",
       "feel",
-      "now"
+      "how"
      ],
      "suggestion": "Oscar, how does William feel now?",
      "suggestionFa": "اسکار، ویلیام الان چه حسی داره؟",
@@ -134,8 +134,8 @@
     {
      "keywords": [
       "train",
-      "both",
       "play",
+      "both",
       "can"
      ],
      "suggestion": "Can you both play with the train?",
@@ -171,9 +171,9 @@
     {
      "keywords": [
       "saying",
+      "oscar",
       "sorry",
-      "thank",
-      "oscar"
+      "thank"
      ],
      "suggestion": "Thank you for saying sorry, Oscar.",
      "suggestionFa": "ممنون که عذرخواهی کردی اسکار.",
@@ -225,8 +225,8 @@
      "keywords": [
       "taking",
       "turns",
-      "good",
-      "idea"
+      "idea",
+      "fair"
      ],
      "suggestion": "Good idea. Taking turns is fair.",
      "suggestionFa": "فکر خوبیه. نوبتی بازی کردن منصفانه‌ست.",
@@ -236,10 +236,10 @@
     },
     {
      "keywords": [
-      "while",
       "oscar",
-      "want",
-      "wait"
+      "while",
+      "wait",
+      "want"
      ],
      "suggestion": "Oscar, do you want the bus while you wait?",
      "suggestionFa": "اسکار، تا صبر می‌کنی اتوبوس را می‌خوای؟",

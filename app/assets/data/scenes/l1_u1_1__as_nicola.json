@@ -23,8 +23,8 @@
      "keywords": [
       "what's",
       "nicola",
-      "name",
-      "hiya"
+      "hiya",
+      "name"
      ],
      "suggestion": "Hiya! I'm Nicola. What's your name?",
      "suggestionFa": "سلام! من نیکولا هستم. اسمت چیه؟",
@@ -46,8 +46,8 @@
     {
      "keywords": [
       "that's",
-      "name",
       "nice",
+      "name",
       "old",
       "how"
      ],
@@ -73,8 +73,8 @@
       "buttons",
       "name's",
       "teddy",
-      "half",
-      "five"
+      "five",
+      "half"
      ],
      "suggestion": "I'm five. Five and a half! This is my teddy. His name's Mr Buttons.",
      "suggestionFa": "من پنج سالمه. پنج و نیم! این عروسک خرسمه. اسمش آقای دکمه است.",
@@ -95,8 +95,8 @@
    "branches": [
     {
      "keywords": [
-      "friend",
       "london",
+      "friend",
       "from",
       "best",
       "he's"
@@ -123,8 +123,8 @@
       "always",
       "there",
       "mummy",
-      "here",
-      "cold"
+      "cold",
+      "here"
      ],
      "suggestion": "Wow! Is it hot there? Mummy says it's always cold here.",
      "suggestionFa": "وای! اونجا گرمه؟ مامان می‌گه اینجا همیشه سرده.",
@@ -146,9 +146,9 @@
     {
      "keywords": [
       "teacher",
-      "name's",
-      "leslie",
       "that's",
+      "leslie",
+      "name's",
       "she's"
      ],
      "suggestion": "Look, that's my mum. Her name's Leslie. She's a teacher.",

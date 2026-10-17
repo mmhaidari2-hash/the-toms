@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "scrambled",
       "breakfast",
+      "scrambled",
       "leslie's",
-      "having",
-      "making"
+      "making",
+      "having"
      ],
      "suggestion": "Leslie's having a lie-in. I'm making breakfast! Scrambled eggs. Want to help?",
      "suggestionFa": "لزلی داره دیر بیدار میشه. من صبحونه درست می‌کنم! تخم‌مرغ همزده. کمک می‌کنی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "family",
       "eight",
-      "crack",
       "first",
-      "bowl"
+      "crack",
+      "eggs"
      ],
      "suggestion": "First, crack the eggs into the bowl. Eight eggs. Big family!",
      "suggestionFa": "اول، تخم‌مرغ‌ها را تو کاسه بشکن. هشت تا. خانوادهٔ بزرگ!",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "problem",
-      "spoon",
       "whisk",
-      "fast",
-      "them"
+      "spoon",
+      "them",
+      "fast"
      ],
      "suggestion": "No problem. Get it out with a spoon. Now whisk them. Fast!",
      "suggestionFa": "مشکلی نیست. با قاشق درش بیار. حالا همشون بزن. سریع!",
@@ -99,8 +99,8 @@
       "pepper",
       "fine",
       "salt",
-      "milk",
-      "fork"
+      "some",
+      "milk"
      ],
      "suggestion": "With a fork is fine. Add a bit of milk and some salt and pepper.",
      "suggestionFa": "با چنگال هم خوبه. یه کم شیر و یه کم نمک و فلفل اضافه کن.",
@@ -124,8 +124,8 @@
       "medium",
       "butter",
       "pinch",
-      "high",
-      "heat"
+      "heat",
+      "high"
      ],
      "suggestion": "A pinch. Now put butter in the pan. Medium heat, not high.",
      "suggestionFa": "یه ذره. حالا کره را بذار تو تابه. حرارت متوسط، نه زیاد.",
@@ -150,7 +150,7 @@
       "slowly",
       "don't",
       "stop",
-      "pour"
+      "stir"
      ],
      "suggestion": "Yes, pour them in. Stir slowly. Don't stop! Keep stirring!",
      "suggestionFa": "آره، بریزشون. آروم هم بزن. وانسا! همینطور هم بزن!",
@@ -174,8 +174,8 @@
       "cooking",
       "they're",
       "toast",
-      "still",
-      "ready"
+      "ready",
+      "still"
      ],
      "suggestion": "Take them off when they're still a bit soft. They keep cooking. Toast ready?",
      "suggestionFa": "وقتی هنوز یه کم نرمن بردارشون. خودشون به پختن ادامه میدن. نون تست آماده‌ست؟",

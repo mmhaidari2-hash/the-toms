@@ -1,0 +1,291 @@
+{
+ "id": "l2_u60_3",
+ "characterId": "leslie",
+ "title": "Coffee next week?",
+ "titleFa": "قهوه هفتهٔ بعد؟",
+ "setting": "Making friends · Level 2",
+ "settingFa": "دوست پیدا کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "That was lovely. I never get time to just sit and chat. We should do this every week. Are you free next Wednesday?",
+   "translations": {
+    "fa": "خیلی خوب بود. هیچ‌وقت وقت نمی‌کنم فقط بشینم و گپ بزنم. باید هر هفته این کار را بکنیم. چهارشنبهٔ بعد وقتت آزاده؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wednesday",
+      "time"
+     ],
+     "suggestion": "Yes, I'm free on Wednesday. What time?",
+     "suggestionFa": "آره، چهارشنبه آزادم. چه ساعتی؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "wednesday's",
+      "thursday",
+      "busy"
+     ],
+     "suggestion": "Wednesday's busy. Are you free on Thursday?",
+     "suggestionFa": "چهارشنبه سرم شلوغه. پنجشنبه آزادی؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "chat",
+     "fa": "گپ زدن"
+    },
+    {
+     "word": "every week",
+     "fa": "هر هفته"
+    },
+    {
+     "word": "free",
+     "fa": "آزاد ؛ بی‌کار"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "are you free in wednesday",
+      "you are free wednesday"
+     ],
+     "echo": "Free on Wednesday? I think so!",
+     "better": "Are you free on Wednesday?",
+     "betterFa": "چهارشنبه وقتت آزاد است؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "After school. I finish at half three. Shall we say four o'clock? Here, at Callum's? It's quieter than the Kettle.",
+   "translations": {
+    "fa": "بعد از مدرسه. ساعت سه و نیم تموم می‌کنم. بگیم ساعت چهار؟ اینجا، پیش کالوم؟ از کتل ساکت‌تره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "o'clock",
+      "perfect"
+     ],
+     "suggestion": "Four o'clock is perfect.",
+     "suggestionFa": "ساعت چهار عالیه.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "quarter",
+      "let's",
+      "past",
+      "safe"
+     ],
+     "suggestion": "Let's say quarter past four, to be safe.",
+     "suggestionFa": "بگیم چهار و ربع، برای احتیاط.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "half three",
+     "fa": "سه و نیم"
+    },
+    {
+     "word": "shall we say",
+     "fa": "بگوییم ؛ قرار بگذاریم"
+    },
+    {
+     "word": "quieter",
+     "fa": "ساکت‌تر"
+    },
+    {
+     "word": "to be safe",
+     "fa": "برای احتیاط"
+    }
+   ],
+   "cultureNote": {
+    "en": "\"Half three\" means 3:30 in British English, not 2:30. You'll often hear \"half four\", \"half six\" and so on.",
+    "fa": "«Half three» یعنی ساعت سه و نیم."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Perfect. Let's pencil it in. I'll put it in my diary. Wait — Wednesday's parents' evening! No — that's the Wednesday after. Phew.",
+   "translations": {
+    "fa": "عالی. فعلاً یادداشتش کنیم. تو دفترم می‌نویسمش. صبر کن — چهارشنبه جلسهٔ اولیاست! نه — اون چهارشنبهٔ بعدیه. اوه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "pencil",
+      "why"
+     ],
+     "suggestion": "\"Pencil it in\"? Why a pencil?",
+     "suggestionFa": "«با مداد بنویسیم»؟ چرا مداد؟",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "phone",
+      "phew",
+      "ok"
+     ],
+     "suggestion": "Phew! OK, it's in my phone too.",
+     "suggestionFa": "اوه! باشه، تو گوشیم هم هست.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "pencil it in",
+     "fa": "موقتاً یادداشتش کنیم"
+    },
+    {
+     "word": "diary",
+     "fa": "دفتر برنامه"
+    },
+    {
+     "word": "parents' evening",
+     "fa": "جلسهٔ اولیا"
+    },
+    {
+     "word": "phew",
+     "fa": "اوه (نفس راحت)"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "A pencil can be rubbed out! It means \"probably, but it might change\". With three kids, everything's in pencil.",
+   "translations": {
+    "fa": "مداد را میشه پاک کرد! یعنی «احتمالاً، ولی شاید عوض بشه». با سه تا بچه، همه‌چی مدادیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "phrase",
+      "that's",
+      "useful"
+     ],
+     "suggestion": "That's a useful phrase!",
+     "suggestionFa": "عبارت به‌دردبخوریه!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "tuesday",
+      "check",
+      "then",
+      "text"
+     ],
+     "suggestion": "Then I'll text you on Tuesday to check.",
+     "suggestionFa": "پس سه‌شنبه بهت پیام میدم که چک کنم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rubbed out",
+     "fa": "پاک شد"
+    },
+    {
+     "word": "probably",
+     "fa": "احتمالاً"
+    },
+    {
+     "word": "might change",
+     "fa": "شاید تغییر کند"
+    },
+    {
+     "word": "useful",
+     "fa": "مفید"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Good plan. Oh — and if something comes up, just tell me. No stress. Next week, I'll buy. And I want to hear about the open mic!",
+   "translations": {
+    "fa": "نقشهٔ خوبیه. اوه — و اگه کاری پیش اومد، فقط بهم بگو. بدون استرس. هفتهٔ بعد مهمون من. و می‌خوام دربارهٔ اوپن میک بشنوم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "persian",
+      "sweets",
+      "bring",
+      "deal"
+     ],
+     "suggestion": "Deal. And I'll bring some Persian sweets.",
+     "suggestionFa": "قبول. و یه کم شیرینی ایرانی میارم.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "something",
+      "comes",
+      "text",
+      "up"
+     ],
+     "suggestion": "If something comes up, I'll text you.",
+     "suggestionFa": "اگه کاری پیش اومد، بهت پیام میدم.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "comes up",
+     "fa": "پیش آمدن"
+    },
+    {
+     "word": "no stress",
+     "fa": "بدون استرس"
+    },
+    {
+     "word": "I'll buy",
+     "fa": "مهمان من"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Persian sweets! Then it's definitely not in pencil anymore. It's in pen. Big black pen!",
+   "translations": {
+    "fa": "شیرینی ایرانی! پس دیگه قطعاً مدادی نیست. با خودکاره. خودکار مشکی بزرگ!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

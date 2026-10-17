@@ -21,8 +21,8 @@
      "keywords": [
       "minute",
       "here",
-      "ago",
-      "was"
+      "was",
+      "ago"
      ],
      "suggestion": "Yes! He was here a minute ago.",
      "suggestionFa": "آره! یه دقیقه پیش اینجا بود.",
@@ -33,8 +33,8 @@
     {
      "keywords": [
       "didn't",
-      "look",
-      "like"
+      "like",
+      "look"
      ],
      "suggestion": "No, I didn't. What does he look like?",
      "suggestionFa": "نه، ندیدم. چه شکلیه؟",
@@ -73,9 +73,9 @@
     {
      "keywords": [
       "short",
-      "white",
       "beard",
-      "hair"
+      "white",
+      "grey"
      ],
      "suggestion": "He's got grey hair and a short white beard.",
      "suggestionFa": "موهاش خاکستریه و یه ریش کوتاه سفید داره.",
@@ -86,9 +86,9 @@
     {
      "keywords": [
       "seventy",
+      "think",
       "about",
-      "quite",
-      "think"
+      "quite"
      ],
      "suggestion": "He's quite tall and thin. About seventy, I think.",
      "suggestionFa": "نسبتاً قدبلند و لاغره. فکر کنم حدود هفتاد.",
@@ -147,8 +147,8 @@
      "keywords": [
       "wearing",
       "green",
-      "coat",
-      "flat"
+      "flat",
+      "coat"
      ],
      "suggestion": "He was wearing a green coat and a flat cap.",
      "suggestionFa": "یه کت سبز و کلاه کپ پوشیده بود.",
@@ -160,8 +160,8 @@
      "keywords": [
       "brown",
       "small",
-      "one",
-      "him"
+      "dog",
+      "one"
      ],
      "suggestion": "He had a brown dog with him. A small one.",
      "suggestionFa": "یه سگ قهوه‌ای کوچیک همراهش بود.",
@@ -203,8 +203,8 @@
    "branches": [
     {
      "keywords": [
-      "smile",
       "round",
+      "smile",
       "big"
      ],
      "suggestion": "Yes, round glasses. And a big smile.",
@@ -215,8 +215,8 @@
     },
     {
      "keywords": [
-      "about",
       "sorry",
+      "about",
       "sure"
      ],
      "suggestion": "I'm not sure about glasses. Sorry.",
@@ -305,8 +305,8 @@
    "branches": [
     {
      "keywords": [
-      "stripes",
       "jenkins",
+      "stripes",
       "wonky",
       "man"
      ],
@@ -359,9 +359,9 @@
     {
      "keywords": [
       "lemon",
+      "week",
       "told",
-      "last",
-      "week"
+      "last"
      ],
      "suggestion": "He likes lemon cake. He told me last week.",
      "suggestionFa": "کیک لیمو دوست داره. هفتهٔ پیش بهم گفت.",
@@ -372,9 +372,9 @@
     {
      "keywords": [
       "think",
-      "more",
       "than",
-      "dog"
+      "more",
+      "his"
      ],
      "suggestion": "He likes his dog more than cake, I think!",
      "suggestionFa": "فکر کنم سگش را بیشتر از کیک دوست داره!",

@@ -1,0 +1,375 @@
+{
+ "id": "l2_u60_4",
+ "characterId": "leslie",
+ "title": "A playdate for the kids",
+ "titleFa": "قرار بازی بچه‌ها",
+ "setting": "Making friends · Level 2",
+ "settingFa": "دوست پیدا کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Nicola's begging for a playdate with Mia. Can you help me text Mia's mum, Jo? I always sound too formal. \"Dear Jo…\"",
+   "translations": {
+    "fa": "نیکولا برای قرار بازی با میا التماس می‌کنه. کمکم می‌کنی به مامان میا، جو، پیام بدم؟ همیشه زیادی رسمی می‌نویسم. «جو عزیز…»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "start",
+      "sure",
+      "hi"
+     ],
+     "suggestion": "Sure. Start with \"Hi Jo!\"",
+     "suggestionFa": "حتماً. با «سلام جو!» شروع کن.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "formal",
+      "text",
+      "dear"
+     ],
+     "suggestion": "\"Dear Jo\" is too formal for a text!",
+     "suggestionFa": "«جو عزیز» برای پیام زیادی رسمیه!",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "playdate",
+     "fa": "قرار بازی بچه‌ها"
+    },
+    {
+     "word": "begging",
+     "fa": "التماس کردن"
+    },
+    {
+     "word": "formal",
+     "fa": "رسمی"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "nicola",
+   "text": "Mia has to come on Saturday! We're doing a unicorn show! I'm the unicorn. She's the other unicorn.",
+   "translations": {
+    "fa": "میا باید شنبه بیاد! داریم نمایش تک‌شاخ اجرا می‌کنیم! من تک‌شاخم. اونم اون یکی تک‌شاخ."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "unicorns",
+      "saturday",
+      "two",
+      "ok"
+     ],
+     "suggestion": "Saturday! Two unicorns. OK!",
+     "suggestionFa": "شنبه! دو تا تک‌شاخ. باشه!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "audience",
+      "who's"
+     ],
+     "suggestion": "Who's the audience?",
+     "suggestionFa": "تماشاچی کیه؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "unicorn",
+     "fa": "تک‌شاخ"
+    },
+    {
+     "word": "show",
+     "fa": "نمایش"
+    },
+    {
+     "word": "audience",
+     "fa": "تماشاچی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "The audience is us, apparently. OK: \"Hi Jo! Would Mia like to come round on Saturday afternoon to play?\" Good?",
+   "translations": {
+    "fa": "تماشاچی ما هستیم، ظاهراً. باشه: «سلام جو! میا دوست داره شنبه بعدازظهر بیاد خونهٔ ما بازی کنه؟» خوبه؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "perfect",
+      "smiley",
+      "face",
+      "add"
+     ],
+     "suggestion": "Perfect. Add a smiley face.",
+     "suggestionFa": "عالی. یه صورتک خندون اضافه کن.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "good",
+      "time",
+      "say"
+     ],
+     "suggestion": "Good. And say what time.",
+     "suggestionFa": "خوبه. و ساعتش را هم بگو.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "apparently",
+     "fa": "ظاهراً"
+    },
+    {
+     "word": "come round",
+     "fa": "به خانهٔ کسی آمدن"
+    },
+    {
+     "word": "smiley face",
+     "fa": "صورتک خندان"
+    }
+   ],
+   "cultureNote": {
+    "en": "A \"playdate\" is when a child goes to a friend's house to play. Parents arrange the time, pick-up and food by text.",
+    "fa": "قرار بازی یعنی بچه برای بازی به خانهٔ دوستش می‌رود؛ والدین زمان و غذا را با پیام هماهنگ می‌کنند."
+   },
+   "recasts": [
+    {
+     "match": [
+      "would mia like to come to round",
+      "mia wants come round"
+     ],
+     "echo": "Would Mia like to come round? Yes!",
+     "better": "Would Mia like to come round?",
+     "betterFa": "میا دوست دارد بیاید خانهٔ ما؟"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "\"Two till five?\" Sent. Oh — she's typing already. \"Yes please!! Mia's so excited. Shall I drop her off at two?\"",
+   "translations": {
+    "fa": "«دو تا پنج؟» فرستادم. اوه — داره تایپ می‌کنه. «آره لطفاً!! میا خیلی هیجان‌زده‌ست. ساعت دو بیارمش؟»"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "allergies",
+      "great",
+      "has",
+      "any"
+     ],
+     "suggestion": "Great! Ask if Mia has any allergies.",
+     "suggestionFa": "عالی! بپرس میا حساسیت داره.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "she'll",
+      "pick",
+      "time",
+      "her"
+     ],
+     "suggestion": "Ask what time she'll pick her up.",
+     "suggestionFa": "بپرس کی میاد دنبالش.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "typing",
+     "fa": "تایپ کردن"
+    },
+    {
+     "word": "excited",
+     "fa": "هیجان‌زده"
+    },
+    {
+     "word": "drop her off",
+     "fa": "رساندنش"
+    },
+    {
+     "word": "pick her up",
+     "fa": "دنبالش آمدن"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Good thinking. \"Does Mia have any allergies? I'll do fish fingers for tea.\" … \"No allergies! But she hates peas.\" Noted!",
+   "translations": {
+    "fa": "فکر خوبیه. «میا حساسیت داره؟ برای شام فیش فینگر درست می‌کنم.» … «حساسیت نداره! ولی از نخودفرنگی متنفره.» یادداشت شد!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fingers",
+      "love",
+      "will",
+      "fish"
+     ],
+     "suggestion": "Fish fingers! Nicola will love that.",
+     "suggestionFa": "فیش فینگر! نیکولا عاشقشه.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "then",
+      "peas",
+      "hear",
+      "did"
+     ],
+     "suggestion": "No peas, then. Nicola, did you hear?",
+     "suggestionFa": "پس نخودفرنگی نه. نیکولا، شنیدی؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "nicola",
+   "text": "Mia hates peas. I hate peas too! So no peas for anyone.",
+   "translations": {
+    "fa": "میا از نخودفرنگی بدش میاد. منم بدم میاد! پس هیچ‌کس نخودفرنگی نمی‌خوره."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "nicola",
+      "nice",
+      "try"
+     ],
+     "suggestion": "Nice try, Nicola!",
+     "suggestionFa": "تلاش خوبی بود نیکولا!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "having",
+      "peas",
+      "mia",
+      "but"
+     ],
+     "suggestion": "No peas for Mia. But you're having peas!",
+     "suggestionFa": "برای میا نخودفرنگی نه. ولی تو نخودفرنگی می‌خوری!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "allergies",
+     "fa": "حساسیت‌ها"
+    },
+    {
+     "word": "fish fingers",
+     "fa": "فیش فینگر"
+    },
+    {
+     "word": "peas",
+     "fa": "نخودفرنگی"
+    },
+    {
+     "word": "noted",
+     "fa": "یادداشت شد"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Ha! Nice try indeed. \"Pick-up at five?\" … \"Perfect, see you Saturday! xx\" Two kisses. We're officially friends.",
+   "translations": {
+    "fa": "ها! واقعاً تلاش خوبی بود. «ساعت پنج میای دنبالش؟» … «عالی، شنبه می‌بینمت! xx» دو تا بوس. رسماً دوستیم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "mean",
+      "xx"
+     ],
+     "suggestion": "What does \"xx\" mean?",
+     "suggestionFa": "«xx» یعنی چی؟",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "unicorns",
+      "saturday",
+      "luck",
+      "good"
+     ],
+     "suggestion": "Two unicorns on Saturday. Good luck!",
+     "suggestionFa": "شنبه دو تا تک‌شاخ. موفق باشی!",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "indeed",
+     "fa": "واقعاً"
+    },
+    {
+     "word": "kisses",
+     "fa": "بوس‌ها"
+    },
+    {
+     "word": "officially",
+     "fa": "رسماً"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "nicola",
+   "text": "Kisses! Mummy, can I write kisses too? Lots of kisses! xxxxxxx!",
+   "translations": {
+    "fa": "بوس! مامانی، منم می‌تونم بوس بنویسم؟ کلی بوس! xxxxxxx!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

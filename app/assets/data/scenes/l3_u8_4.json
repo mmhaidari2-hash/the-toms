@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "night",
       "heard",
+      "night",
       "last"
      ],
      "suggestion": "Yes, I heard it last night too.",
@@ -88,10 +88,10 @@
     },
     {
      "keywords": [
-      "don't",
       "might",
       "break",
-      "hard"
+      "don't",
+      "push"
      ],
      "suggestion": "Don't push too hard — you might break it.",
      "suggestionFa": "زیاد فشار ندید — ممکنه بشکنه.",
@@ -184,9 +184,9 @@
     {
      "keywords": [
       "check",
-      "her",
       "toy",
-      "box"
+      "box",
+      "her"
      ],
      "suggestion": "Ha! I'll check her toy box.",
      "suggestionFa": "ها! جعبهٔ اسباب‌بازیش را نگاه می‌کنم.",

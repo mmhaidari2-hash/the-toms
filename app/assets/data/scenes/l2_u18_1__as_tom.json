@@ -24,8 +24,8 @@
       "welcome",
       "morning",
       "aboard",
-      "where",
-      "today"
+      "today",
+      "where"
      ],
      "suggestion": "Morning, sir! Welcome aboard the 38. Oh — it's you! Where are you off to today?",
      "suggestionFa": "صبح بخیر قربان! به ۳۸ خوش اومدی. اوه — تویی! امروز کجا می‌ری؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "islington",
       "victoria",
-      "reader",
       "yellow",
-      "please"
+      "please",
+      "reader"
      ],
      "suggestion": "It does! Angel, then Islington, then all the way to Victoria. Tap your card on the yellow reader, please.",
      "suggestionFa": "میره! اِینجل، بعد ایزلینگتون، بعد تا ته خط ویکتوریا. لطفاً کارتت را بزن روی دستگاه زرد.",
@@ -73,8 +73,8 @@
      "keywords": [
       "phone's",
       "phone",
-      "daily",
       "which",
+      "daily",
       "fine"
      ],
      "suggestion": "Phone's fine. Just use the same phone all day, so you get the daily cap. Which stop do you need?",
@@ -100,7 +100,7 @@
       "traffic's",
       "minutes",
       "twenty",
-      "about"
+      "there"
      ],
      "suggestion": "Islington Green. Get off there and walk two minutes. How long? About twenty-five minutes, if the traffic's kind.",
      "suggestionFa": "ایزلینگتون گرین. اونجا پیاده شو و دو دقیقه راه برو. چقدر طول می‌کشه؟ حدود بیست و پنج دقیقه، اگه ترافیک مهربون باشه.",
@@ -123,9 +123,9 @@
      "keywords": [
       "there's",
       "kidding",
-      "right",
       "front",
-      "jokes"
+      "forty",
+      "angel"
      ],
      "suggestion": "Then forty. And I tell more jokes. Right, there's a seat at the front. Can you tell me when we get to Angel? I'm kidding — I know.",
      "suggestionFa": "اون‌وقت چهل. و من جوک بیشتری میگم. خب، جلو یه صندلی هست. می‌تونی بهم بگی کی رسیدیم اِینجل؟ شوخی کردم — خودم می‌دونم.",
@@ -173,8 +173,8 @@
      "keywords": [
       "everyone",
       "driving",
-      "number",
       "coming",
+      "number",
       "other"
      ],
      "suggestion": "Coming back, cross the road. Same number, other side. Everyone gets that wrong once. I did, in my first week. Driving!",
@@ -198,8 +198,8 @@
      "keywords": [
       "roundabout",
       "leslie",
-      "drove",
       "wrong",
+      "drove",
       "round"
      ],
      "suggestion": "Well — I drove the wrong way round a roundabout. Don't tell Leslie. Hold on tight, we're off!",

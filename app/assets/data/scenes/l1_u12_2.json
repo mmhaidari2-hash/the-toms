@@ -79,8 +79,8 @@
     {
      "keywords": [
       "can't",
-      "one",
-      "see"
+      "see",
+      "one"
      ],
      "suggestion": "No, I can't see one.",
      "suggestionFa": "نه، نمی‌بینم.",
@@ -122,8 +122,8 @@
     },
     {
      "keywords": [
-      "one",
-      "red"
+      "red",
+      "one"
      ],
      "suggestion": "Pink? Is this one pink or red?",
      "suggestionFa": "صورتی؟ این صورتیه یا قرمز؟",
@@ -210,8 +210,8 @@
      "keywords": [
       "socks",
       "needs",
-      "new",
-      "tom"
+      "tom",
+      "new"
      ],
      "suggestion": "Ha! Tom needs new socks.",
      "suggestionFa": "ها! تام جوراب نو لازم داره.",
@@ -262,9 +262,9 @@
    "branches": [
     {
      "keywords": [
+      "under",
       "don't",
       "table",
-      "under",
       "know"
      ],
      "suggestion": "I don't know. Is it under the table?",
@@ -275,8 +275,8 @@
     },
     {
      "keywords": [
-      "washing",
       "machine",
+      "washing",
       "maybe"
      ],
      "suggestion": "Maybe it's in the washing machine.",
@@ -354,8 +354,8 @@
     {
      "keywords": [
       "three",
-      "one",
-      "two"
+      "two",
+      "one"
      ],
      "suggestion": "One, two, three… eight pairs!",
      "suggestionFa": "یک، دو، سه… هشت جفت!",
@@ -365,8 +365,8 @@
     },
     {
      "keywords": [
-      "we've",
       "think",
+      "we've",
       "got"
      ],
      "suggestion": "I think we've got eight pairs.",

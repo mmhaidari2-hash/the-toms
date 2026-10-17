@@ -31,8 +31,8 @@
     },
     {
      "keywords": [
-      "didn't",
       "tapped",
+      "didn't",
       "card",
       "work"
      ],
@@ -75,7 +75,7 @@
       "pounds",
       "twelve",
       "shop",
-      "big"
+      "was"
      ],
      "suggestion": "It was a big shop. A hundred and twelve pounds.",
      "suggestionFa": "خرید بزرگی بود. صد و دوازده پوند.",
@@ -151,8 +151,8 @@
      "keywords": [
       "instead",
       "phone",
-      "can",
-      "pay"
+      "pay",
+      "can"
      ],
      "suggestion": "Can I pay with my phone instead?",
      "suggestionFa": "می‌تونم به‌جاش با گوشیم پرداخت کنم؟",
@@ -198,9 +198,9 @@
    "branches": [
     {
      "keywords": [
-      "why",
+      "ask",
       "pin",
-      "ask"
+      "why"
      ],
      "suggestion": "Why does it ask for the PIN?",
      "suggestionFa": "چرا رمز می‌خواد؟",
@@ -212,8 +212,8 @@
      "keywords": [
       "different",
       "didn't",
-      "know",
-      "bank"
+      "iran",
+      "know"
      ],
      "suggestion": "I didn't know that. My bank in Iran is different.",
      "suggestionFa": "نمی‌دونستم. بانکم تو ایران فرق داره.",
@@ -269,8 +269,8 @@
     {
      "keywords": [
       "little",
-      "makes",
       "sense",
+      "makes",
       "test"
      ],
      "suggestion": "A little test. That makes sense.",

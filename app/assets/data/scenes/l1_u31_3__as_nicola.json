@@ -21,8 +21,8 @@
    "branches": [
     {
      "keywords": [
-      "today",
       "pizza",
+      "today",
       "love",
       "day",
       "was"
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
-      "fridays",
       "fingers",
       "mondays",
-      "dinner",
-      "school"
+      "fridays",
+      "school",
+      "dinner"
      ],
      "suggestion": "On Fridays we have pizza for dinner. At school! Mondays are fish fingers.",
      "suggestionFa": "جمعه‌ها ناهار پیتزا داریم. تو مدرسه! دوشنبه‌ها فیش فینگره.",
@@ -72,9 +72,9 @@
     {
      "keywords": [
       "favourite",
-      "dinner",
       "ladies",
       "school",
+      "dinner",
       "give"
      ],
      "suggestion": "Yes, school dinner! The dinner ladies give it to us. Mrs Pat is my favourite.",
@@ -121,8 +121,8 @@
    "branches": [
     {
      "keywords": [
-      "plate",
       "don't",
+      "plate",
       "they",
       "like",
       "roll"
@@ -149,8 +149,8 @@
       "neither",
       "strong",
       "mummy",
-      "true",
-      "peas"
+      "make",
+      "true"
      ],
      "suggestion": "Me neither! But Mummy says peas make you strong. Is that true?",
      "suggestionFa": "منم نه! ولی مامان میگه نخود فرنگی آدم را قوی می‌کنه. راسته؟",
@@ -173,8 +173,8 @@
      "keywords": [
       "custard",
       "brave",
-      "being",
       "three",
+      "being",
       "extra"
      ],
      "suggestion": "Three peas… OK. And I'll have extra custard for being brave! Deal?",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "friday",
       "though",
+      "friday",
+      "pizza",
       "sorry",
-      "can't",
-      "grown"
+      "can't"
      ],
      "suggestion": "Ha ha! Next Friday you can come for pizza day. Grown-ups can't though. Sorry!",
      "suggestionFa": "ها ها! جمعهٔ بعد بیا روز پیتزا. البته بزرگ‌ترها نمی‌تونن. ببخشید!",

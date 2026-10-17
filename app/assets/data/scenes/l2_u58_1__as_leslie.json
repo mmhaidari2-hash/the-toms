@@ -1,0 +1,200 @@
+{
+ "id": "l2_u58_1__as_leslie",
+ "characterId": "leslie",
+ "title": "(As Leslie) Choosing a film",
+ "titleFa": "(در نقش Leslie) انتخاب فیلم",
+ "setting": "Cinema and TV · Level 2",
+ "settingFa": "سینما و تلویزیون",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u58_1",
+ "playAs": "leslie",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Leslie!",
+   "translations": {
+    "fa": "سلام Leslie!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "choose",
+      "ryan's",
+      "friday",
+      "phone",
+      "watch"
+     ],
+     "suggestion": "Friday film night! The kids are in bed — well, Ryan's \"in bed\" with his phone. What shall we watch? You choose.",
+     "suggestionFa": "شب فیلم جمعه! بچه‌ها خوابن — خب، رایان با گوشیش «خوابه». چی ببینیم؟ تو انتخاب کن.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "What kind of films do you like?",
+   "translations": {
+    "fa": "چه نوع فیلمی دوست داری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "anything",
+      "comedies",
+      "romcoms",
+      "horror",
+      "chases"
+     ],
+     "suggestion": "Comedies, romcoms, anything with Hugh Grant. Tom likes action — car chases. I'm not keen on horror. I can't sleep after.",
+     "suggestionFa": "کمدی، کمدی رمانتیک، هر چی هیو گرانت داشته باشه. تام اکشن دوست داره — تعقیب ماشین. از ترسناک خوشم نمیاد. بعدش خوابم نمی‌بره.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "I'm not keen on horror either.",
+   "translations": {
+    "fa": "منم از ترسناک خوشم نمیاد."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "officially",
+      "paddington",
+      "notting",
+      "joking",
+      "films"
+     ],
+     "suggestion": "Ooh, yes. Notting Hill? Paddington 2? Paddington 2 is officially one of the best films ever. I'm not even joking.",
+     "suggestionFa": "اوه، آره. ناتینگ هیل؟ پدینگتون ۲؟ پدینگتون ۲ رسماً یکی از بهترین فیلم‌های تاریخه. شوخی هم نمی‌کنم.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "Paddington? Isn't that for children?",
+   "translations": {
+    "fa": "پدینگتون؟ مگه برای بچه‌ها نیست؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "children",
+      "furrier",
+      "london",
+      "polite",
+      "you'll"
+     ],
+     "suggestion": "For children AND grown-ups. He's a polite bear from Peru who lives in London — like you, but furrier. You'll love him.",
+     "suggestionFa": "برای بچه‌ها و بزرگ‌ترها. یه خرس مؤدب از پرو که تو لندن زندگی می‌کنه — مثل تو، ولی پشمالوتر. عاشقش میشی.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "A polite immigrant in London? That's me!",
+   "translations": {
+    "fa": "یه مهاجر مؤدب تو لندن؟ این منم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "streaming",
+      "anything",
+      "services",
+      "iplayer",
+      "netflix"
+     ],
+     "suggestion": "Ha! Exactly. Now — is it on Netflix? Or iPlayer? We pay for three streaming services and can never find anything.",
+     "suggestionFa": "ها! دقیقاً. حالا — تو نتفلیکسه؟ یا آی‌پلیر؟ پول سه تا سرویس پخش آنلاین را میدیم و هیچ‌وقت چیزی پیدا نمی‌کنیم.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "mehdi",
+   "text": "Let me search. It's on iPlayer!",
+   "translations": {
+    "fa": "بذار سرچ کنم. تو آی‌پلیره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "licence",
+      "blanket",
+      "lights",
+      "might"
+     ],
+     "suggestion": "Brilliant. The BBC one. We pay the TV licence, so we might as well use it. Lights off, blanket on, tea in hand. Ready?",
+     "suggestionFa": "عالی. مال بی‌بی‌سی. پول مجوز تلویزیون را میدیم، پس بهتره ازش استفاده کنیم. چراغ خاموش، پتو رو پا، چای تو دست. آماده‌ای؟",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "Ready! Press play.",
+   "translations": {
+    "fa": "آماده! پخش را بزن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "actually",
+      "biscuit",
+      "night",
+      "tin's",
+      "bring"
+     ],
+     "suggestion": "A biscuit for film night is the law. The tin's on the side. Bring two. Actually — bring the tin.",
+     "suggestionFa": "بیسکویت برای شب فیلم قانونه. قوطی رو کابینته. دو تا بیار. اصلاً — قوطی را بیار.",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "mehdi",
+   "text": "Thanks, Leslie! See you later.",
+   "translations": {
+    "fa": "ممنون Leslie! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

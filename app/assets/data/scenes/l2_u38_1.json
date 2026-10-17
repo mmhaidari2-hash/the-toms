@@ -21,8 +21,8 @@
      "keywords": [
       "fifty",
       "each",
-      "sure",
-      "five"
+      "five",
+      "sure"
      ],
      "suggestion": "Sure. Fifty-fifty? Five pounds each.",
      "suggestionFa": "حتماً. نصف‌نصف؟ هر کدوم پنج پوند.",
@@ -33,9 +33,9 @@
     {
      "keywords": [
       "fifteen",
-      "him",
       "ask",
-      "ten"
+      "ten",
+      "him"
      ],
      "suggestion": "Ten pounds? Ask him for fifteen!",
      "suggestionFa": "ده پوند؟ ازش پونزده بخواه!",
@@ -92,7 +92,7 @@
       "little",
       "soap",
       "much",
-      "lot"
+      "how"
      ],
      "suggestion": "How much soap? A little or a lot?",
      "suggestionFa": "چقدر صابون؟ کم یا زیاد؟",
@@ -138,8 +138,8 @@
    "branches": [
     {
      "keywords": [
-      "bucket",
       "filled",
+      "bucket",
       "where",
       "start"
      ],
@@ -332,8 +332,8 @@
     {
      "keywords": [
       "strong",
-      "hose",
-      "ryan"
+      "ryan",
+      "hose"
      ],
      "suggestion": "The hose is very strong! Sorry, Ryan!",
      "suggestionFa": "شلنگ خیلی قویه! ببخشید رایان!",
@@ -419,8 +419,8 @@
    "branches": [
     {
      "keywords": [
-      "accident",
       "honestly",
+      "accident",
       "tom",
       "was"
      ],
@@ -476,7 +476,7 @@
       "worked",
       "team",
       "tom",
-      "we"
+      "as"
      ],
      "suggestion": "Yes, Tom. We worked as a team!",
      "suggestionFa": "آره تام. تیمی کار کردیم!",
@@ -486,8 +486,8 @@
     },
     {
      "keywords": [
-      "don't",
       "money",
+      "don't",
       "need",
       "ryan"
      ],

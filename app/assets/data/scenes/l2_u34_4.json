@@ -55,8 +55,8 @@
    "branches": [
     {
      "keywords": [
-      "mostly",
       "wasn't",
+      "mostly",
       "good",
       "ryan"
      ],
@@ -68,8 +68,8 @@
     },
     {
      "keywords": [
-      "patel",
       "doing",
+      "patel",
       "well",
       "said"
      ],
@@ -110,8 +110,8 @@
     {
      "keywords": [
       "great",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "Well done, Ryan! A 7 is great.",
      "suggestionFa": "آفرین رایان! ۷ عالیه.",
@@ -145,9 +145,9 @@
     {
      "keywords": [
       "algebra",
-      "maths",
       "patel",
-      "need"
+      "maths",
+      "said"
      ],
      "suggestion": "Maths. Mr Patel said you need to work on algebra.",
      "suggestionFa": "ریاضی. آقای پاتل گفت باید روی جبر کار کنی.",
@@ -159,7 +159,7 @@
      "keywords": [
       "homework",
       "pieces",
-      "were",
+      "late",
       "five"
      ],
      "suggestion": "Five pieces of homework were late.",
@@ -214,8 +214,8 @@
     {
      "keywords": [
       "that's",
-      "eight",
       "seven",
+      "eight",
       "plan"
      ],
      "suggestion": "Seven to eight. That's a good plan.",
@@ -227,9 +227,9 @@
     {
      "keywords": [
       "homework",
-      "time",
       "only",
-      "ryan"
+      "ryan",
+      "time"
      ],
      "suggestion": "Ryan, it's only for homework time.",
      "suggestionFa": "رایان، فقط برای وقت تکلیفه.",
@@ -262,8 +262,8 @@
     },
     {
      "keywords": [
-      "they",
       "wait",
+      "they",
       "can",
       "ok"
      ],
@@ -303,8 +303,8 @@
    "branches": [
     {
      "keywords": [
-      "ryan",
       "help",
+      "ryan",
       "can"
      ],
      "suggestion": "Yes, I can help you, Ryan.",
@@ -358,8 +358,8 @@
     {
      "keywords": [
       "algebra",
-      "puzzle",
       "you'll",
+      "puzzle",
       "like"
      ],
      "suggestion": "Algebra is like a puzzle. You'll like it.",
@@ -399,9 +399,9 @@
     {
      "keywords": [
       "leslie",
-      "will",
       "find",
-      "out"
+      "will",
+      "tom"
      ],
      "suggestion": "Tom! Leslie will find out!",
      "suggestionFa": "تام! لزلی می‌فهمه!",
@@ -412,8 +412,8 @@
     {
      "keywords": [
       "that's",
-      "prize",
       "great",
+      "prize",
       "ryan"
      ],
      "suggestion": "That's a great prize, Ryan.",

@@ -23,8 +23,8 @@
     {
      "keywords": [
       "temperature",
-      "shall",
       "quite",
+      "shall",
       "take"
      ],
      "suggestion": "Yes, he feels quite hot. Shall we take his temperature?",
@@ -77,8 +77,8 @@
      "keywords": [
       "leave",
       "long",
-      "got",
-      "how"
+      "how",
+      "got"
      ],
      "suggestion": "Got it. How long do I leave it?",
      "suggestionFa": "باشه. چقدر نگهش دارم؟",
@@ -89,8 +89,8 @@
     {
      "keywords": [
       "wriggling",
-      "he's",
-      "like"
+      "like",
+      "he's"
      ],
      "suggestion": "Like this? He's wriggling!",
      "suggestionFa": "این‌طوری؟ داره وول می‌خوره!",
@@ -132,7 +132,7 @@
       "teatime",
       "toast",
       "only",
-      "bit"
+      "had"
      ],
      "suggestion": "He only had a bit of toast at teatime.",
      "suggestionFa": "سر شام فقط یه کم نون تست خورد.",
@@ -183,9 +183,9 @@
    "branches": [
     {
      "keywords": [
-      "here's",
       "calpol",
       "course",
+      "here's",
       "water"
      ],
      "suggestion": "Of course — here's the Calpol and some water.",
@@ -303,8 +303,8 @@
     },
     {
      "keywords": [
-      "jumper",
       "should",
+      "jumper",
       "take",
       "off"
      ],
@@ -345,8 +345,8 @@
    "branches": [
     {
      "keywords": [
-      "things",
       "change",
+      "things",
       "don't",
       "they"
      ],
@@ -415,8 +415,8 @@
     },
     {
      "keywords": [
-      "persian",
       "lullaby",
+      "persian",
       "sing"
      ],
      "suggestion": "Yes. I'll sing him a Persian lullaby.",

@@ -20,9 +20,9 @@
     {
      "keywords": [
       "let's",
+      "find",
       "ones",
-      "some",
-      "find"
+      "some"
      ],
      "suggestion": "Let's find some new ones.",
      "suggestionFa": "بیا یه جفت نو پیدا کنیم.",
@@ -159,8 +159,8 @@
     {
      "keywords": [
       "nicola",
-      "shoes",
       "black",
+      "shoes",
       "must"
      ],
      "suggestion": "School shoes must be black, Nicola.",
@@ -172,8 +172,8 @@
     {
      "keywords": [
       "lights",
-      "don't",
-      "think"
+      "think",
+      "don't"
      ],
      "suggestion": "Lights at school? I don't think so!",
      "suggestionFa": "چراغ تو مدرسه؟ فکر نکنم!",
@@ -215,10 +215,10 @@
     },
     {
      "keywords": [
-      "them",
       "walk",
-      "can",
-      "she"
+      "them",
+      "she",
+      "can"
      ],
      "suggestion": "Can she walk in them?",
      "suggestionFa": "می‌تونه باهاشون راه بره؟",
@@ -265,8 +265,8 @@
      "keywords": [
       "eleven",
       "half",
-      "can",
-      "she"
+      "she",
+      "can"
      ],
      "suggestion": "Can she try an eleven and a half?",
      "suggestionFa": "می‌شه یازده و نیم را امتحان کنه؟",
@@ -403,8 +403,8 @@
     {
      "keywords": [
       "card",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by card?",

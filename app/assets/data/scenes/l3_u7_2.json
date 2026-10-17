@@ -87,8 +87,8 @@
      "keywords": [
       "children",
       "each",
-      "many",
-      "race"
+      "race",
+      "many"
      ],
      "suggestion": "How many children are in each race?",
      "suggestionFa": "تو هر مسابقه چند تا بچه‌ست؟",
@@ -178,8 +178,8 @@
      "keywords": [
       "something",
       "everyone",
-      "love",
-      "gets"
+      "gets",
+      "love"
      ],
      "suggestion": "I love that everyone gets something.",
      "suggestionFa": "خوشم میاد که همه یه چیزی می‌گیرن.",
@@ -189,8 +189,8 @@
     },
     {
      "keywords": [
-      "children",
       "together",
+      "children",
       "finish",
       "two"
      ],
@@ -242,9 +242,9 @@
     },
     {
      "keywords": [
+      "fall",
       "best",
       "i'll",
-      "fall",
       "over"
      ],
      "suggestion": "I'll try my best not to fall over!",

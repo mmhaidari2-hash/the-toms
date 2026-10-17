@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "time",
       "ryan",
+      "time",
       "bed"
      ],
      "suggestion": "It's time for bed, Ryan.",
@@ -120,9 +120,9 @@
    "branches": [
     {
      "keywords": [
+      "nine",
       "have",
       "work",
-      "nine",
       "but"
      ],
      "suggestion": "No, but I have work at nine.",
@@ -174,8 +174,8 @@
    "branches": [
     {
      "keywords": [
-      "alarm",
-      "seven"
+      "seven",
+      "alarm"
      ],
      "suggestion": "Yes, your alarm is on for seven.",
      "suggestionFa": "آره، زنگت برای هفت روشنه.",
@@ -186,8 +186,8 @@
     {
      "keywords": [
       "i'll",
-      "off",
-      "set"
+      "set",
+      "off"
      ],
      "suggestion": "No, it's off. I'll set it for you.",
      "suggestionFa": "نه، خاموشه. برات تنظیمش می‌کنم.",
@@ -224,7 +224,7 @@
       "radiator",
       "morning",
       "it'll",
-      "dry"
+      "put"
      ],
      "suggestion": "Put it on the radiator. It'll be dry by morning.",
      "suggestionFa": "بذارش رو شوفاژ. تا صبح خشک میشه.",
@@ -280,8 +280,8 @@
     {
      "keywords": [
       "goodnight",
-      "sure",
-      "ryan"
+      "ryan",
+      "sure"
      ],
      "suggestion": "Sure. Goodnight, Ryan.",
      "suggestionFa": "حتماً. شب بخیر رایان.",
@@ -344,8 +344,8 @@
      "keywords": [
       "nearly",
       "seven",
-      "same",
-      "half"
+      "half",
+      "same"
      ],
      "suggestion": "At half seven. Same as you, nearly.",
      "suggestionFa": "هفت و نیم. تقریباً مثل تو.",
@@ -404,8 +404,8 @@
     },
     {
      "keywords": [
-      "test",
       "luck",
+      "test",
       "good",
       "ryan"
      ],

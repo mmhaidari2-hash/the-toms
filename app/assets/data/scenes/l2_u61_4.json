@@ -1,0 +1,414 @@
+{
+ "id": "l2_u61_4",
+ "characterId": "leslie",
+ "title": "A nosebleed",
+ "titleFa": "خون‌دماغ",
+ "setting": "Accidents and injuries · Level 2",
+ "settingFa": "حادثه و آسیب",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Oh! William's nose is bleeding! He was picking it again. Quick — tissues! On the side!",
+   "translations": {
+    "fa": "اوه! دماغ ویلیام داره خون میاد! باز داشت دماغش را می‌گرفت. زود — دستمال! رو کابینت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "happened",
+      "tissues",
+      "here"
+     ],
+     "suggestion": "Here, tissues! What happened?",
+     "suggestionFa": "بفرما، دستمال! چی شد؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "william",
+      "don't",
+      "worry",
+      "them"
+     ],
+     "suggestion": "Got them! William, don't worry.",
+     "suggestionFa": "آوردم! ویلیام، نگران نباش.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "william",
+   "text": "Blood! Mummy, blood! On my bus T-shirt!",
+   "translations": {
+    "fa": "خون! مامانی، خون! رو تی‌شرت اتوبوسیم!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tissues",
+      "here",
+      "ok"
+     ],
+     "suggestion": "Here are the tissues. It's OK, William!",
+     "suggestionFa": "اینم دستمال. اشکالی نداره ویلیام!",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "we'll",
+      "don't",
+      "shirt",
+      "worry"
+     ],
+     "suggestion": "Don't worry, William. We'll wash your T-shirt.",
+     "suggestionFa": "نگران نباش ویلیام. تی‌شرتت را می‌شوریم.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nose",
+     "fa": "دماغ ؛ بینی"
+    },
+    {
+     "word": "bleeding",
+     "fa": "خونریزی کردن"
+    },
+    {
+     "word": "picking",
+     "fa": "گرفتن (دماغ)"
+    },
+    {
+     "word": "tissues",
+     "fa": "دستمال کاغذی"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Good. Now, William, sit up. Should he tip his head back? My mum always said head back.",
+   "translations": {
+    "fa": "خوبه. حالا ویلیام، صاف بشین. سرش را عقب ببره؟ مامانم همیشه می‌گفت سر عقب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "lean",
+      "back"
+     ],
+     "suggestion": "No! Lean forward, not back.",
+     "suggestionFa": "نه! به جلو خم شه، نه عقب.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "think",
+      "right",
+      "head",
+      "now"
+     ],
+     "suggestion": "I think head forward is right now.",
+     "suggestionFa": "فکر کنم الان سر جلو درسته.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sit up",
+     "fa": "صاف نشستن"
+    },
+    {
+     "word": "tip",
+     "fa": "کج کردن"
+    },
+    {
+     "word": "head back",
+     "fa": "سر عقب"
+    },
+    {
+     "word": "lean forward",
+     "fa": "به جلو خم شدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "For a nosebleed, lean forward (not back) and pinch the soft part of the nose for 10–15 minutes. Breathe through your mouth.",
+    "fa": "برای خون‌دماغ به جلو خم شوید و قسمت نرم بینی را ۱۰ تا ۱۵ دقیقه فشار دهید."
+   },
+   "recasts": [
+    {
+     "match": [
+      "lean the forward",
+      "you lean to front"
+     ],
+     "echo": "Lean forward? Good, William!",
+     "better": "Lean forward, William.",
+     "betterFa": "به جلو خم شو ویلیام."
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Forward. Right — so the blood doesn't go down his throat. Then I pinch the soft part of his nose. Here? Like this?",
+   "translations": {
+    "fa": "جلو. درسته — که خون تو گلوش نره. بعد قسمت نرم دماغش را فشار میدم. اینجا؟ اینجوری؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "below",
+      "just",
+      "hard",
+      "bit"
+     ],
+     "suggestion": "Yes, just below the hard bit.",
+     "suggestionFa": "آره، درست زیر قسمت سفت.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "firmly",
+      "gently",
+      "like",
+      "but"
+     ],
+     "suggestion": "Like that. Gently, but firmly.",
+     "suggestionFa": "همین‌جوری. آروم ولی محکم.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "william",
+   "text": "I sound funny! Like a duck!",
+   "translations": {
+    "fa": "صدام خنده‌دار شده! مثل اردک!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "through",
+      "william",
+      "breathe",
+      "mouth"
+     ],
+     "suggestion": "Yes, there. And breathe through your mouth, William.",
+     "suggestionFa": "آره، همون‌جا. و از دهنت نفس بکش ویلیام.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "pinching",
+      "minutes",
+      "quack",
+      "keep"
+     ],
+     "suggestion": "Ha! Quack quack! Keep pinching for ten minutes.",
+     "suggestionFa": "ها! کواک کواک! ده دقیقه فشار بده.",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "throat",
+     "fa": "گلو"
+    },
+    {
+     "word": "pinch",
+     "fa": "فشار دادن با دو انگشت"
+    },
+    {
+     "word": "soft part",
+     "fa": "قسمت نرم"
+    },
+    {
+     "word": "breathe",
+     "fa": "نفس کشیدن"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Ten minutes. William, can you count to a hundred? Slowly. Let's go. One… two…",
+   "translations": {
+    "fa": "ده دقیقه. ویلیام، می‌تونی تا صد بشمری؟ آروم. بریم. یک… دو…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "together",
+      "count",
+      "let's",
+      "come"
+     ],
+     "suggestion": "Come on, William. Let's count together!",
+     "suggestionFa": "یالا ویلیام. بیا با هم بشمریم!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "turn",
+      "two",
+      "one"
+     ],
+     "suggestion": "One, two… your turn, William!",
+     "suggestionFa": "یک، دو… نوبت توئه ویلیام!",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "william",
+   "text": "One, two, three… eleventeen… twenty!",
+   "translations": {
+    "fa": "یک، دو، سه… یازده‌ده… بیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eleventeen",
+      "counting",
+      "william",
+      "great"
+     ],
+     "suggestion": "Eleventeen! Great counting, William!",
+     "suggestionFa": "یازده‌ده! شمردن عالی ویلیام!",
+     "trustDelta": 6,
+     "next": "n8",
+     "success": true
+    },
+    {
+     "keywords": [
+      "twenty",
+      "going",
+      "keep",
+      "two"
+     ],
+     "suggestion": "Keep going! Twenty-one, twenty-two…",
+     "suggestionFa": "ادامه بده! بیست و یک، بیست و دو…",
+     "trustDelta": 5,
+     "next": "n8",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "count",
+     "fa": "شمردن"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    },
+    {
+     "word": "keep going",
+     "fa": "ادامه بده"
+    }
+   ]
+  },
+  "n8": {
+   "id": "n8",
+   "speaker": "leslie",
+   "text": "Ten minutes. Let's let go… slowly… It's stopped! Brilliant. No more blood. Now — no picking for a while, mister!",
+   "translations": {
+    "fa": "ده دقیقه. بیا ول کنیم… آروم… بند اومد! عالی. دیگه خون نیست. حالا — یه مدت دماغ‌گیری نه، آقا کوچولو!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "william",
+      "brave",
+      "well",
+      "were"
+     ],
+     "suggestion": "Well done, William. You were very brave.",
+     "suggestionFa": "آفرین ویلیام. خیلی شجاع بودی.",
+     "trustDelta": 6,
+     "next": "n9",
+     "success": true
+    },
+    {
+     "keywords": [
+      "happens",
+      "lot",
+      "see",
+      "if"
+     ],
+     "suggestion": "And if it happens a lot, see the GP.",
+     "suggestionFa": "و اگه زیاد اتفاق بیفته، برو پیش دکتر عمومی.",
+     "trustDelta": 5,
+     "next": "n9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "let go",
+     "fa": "ول کردن"
+    },
+    {
+     "word": "stopped",
+     "fa": "بند آمد"
+    },
+    {
+     "word": "for a while",
+     "fa": "برای مدتی"
+    },
+    {
+     "word": "brave",
+     "fa": "شجاع"
+    },
+    {
+     "word": "GP",
+     "fa": "پزشک عمومی"
+    }
+   ]
+  },
+  "n9": {
+   "id": "n9",
+   "speaker": "william",
+   "text": "I was brave! Can I have a biscuit?",
+   "translations": {
+    "fa": "من شجاع بودم! بیسکویت می‌خورم؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

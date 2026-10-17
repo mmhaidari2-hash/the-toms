@@ -1,0 +1,336 @@
+{
+ "id": "l2_u60_2",
+ "characterId": "callum",
+ "title": "Swapping numbers",
+ "titleFa": "رد و بدل کردن شماره",
+ "setting": "Making friends · Level 2",
+ "settingFa": "دوست پیدا کردن",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "callum",
+   "text": "About Thursday. I'll send you the details. Can I get your number? Or are you an Instagram person?",
+   "translations": {
+    "fa": "دربارهٔ پنجشنبه. جزئیات را برات می‌فرستم. شماره‌ات را میدی؟ یا اهل اینستاگرامی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "whatsapp",
+      "sure"
+     ],
+     "suggestion": "Sure. Are you on WhatsApp?",
+     "suggestionFa": "حتماً. واتس‌اپ داری؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "number",
+      "seven",
+      "give",
+      "i'll"
+     ],
+     "suggestion": "I'll give you my number. It's oh-seven…",
+     "suggestionFa": "شماره‌ام را میدم. صفر هفت…",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "details",
+     "fa": "جزئیات"
+    },
+    {
+     "word": "get your number",
+     "fa": "شماره‌ات را بگیرم"
+    },
+    {
+     "word": "Instagram person",
+     "fa": "اهل اینستاگرام"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "can i have the number of you",
+      "give me number"
+     ],
+     "echo": "Can I get your number? Sure!",
+     "better": "Can I get your number?",
+     "betterFa": "شماره‌ات را می‌دهی؟"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "callum",
+   "text": "WhatsApp, yeah. Go on — read it out. Slowly. Last time I got a girl's number wrong. Never saw her again. Tragic.",
+   "translations": {
+    "fa": "واتس‌اپ، آره. یالا — بخونش. آروم. دفعهٔ پیش شمارهٔ یه دختر را اشتباه نوشتم. دیگه هیچ‌وقت ندیدمش. غم‌انگیز."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "double",
+      "seven",
+      "eight",
+      "three"
+     ],
+     "suggestion": "Oh-seven-nine-double-four, three-two-one, six-five-eight.",
+     "suggestionFa": "صفر هفت نه چهار چهار، سه دو یک، شش پنج هشت.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "easier",
+      "phone",
+      "into",
+      "type"
+     ],
+     "suggestion": "Let me type it into your phone. Easier!",
+     "suggestionFa": "بذار خودم تو گوشیت تایپش کنم. راحت‌تره!",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "read it out",
+     "fa": "بلند بخوان"
+    },
+    {
+     "word": "slowly",
+     "fa": "آرام"
+    },
+    {
+     "word": "tragic",
+     "fa": "غم‌انگیز"
+    }
+   ],
+   "cultureNote": {
+    "en": "British people read phone numbers in groups and say \"oh\" for 0 and \"double\" for two of the same digit: \"oh-seven-nine-double-four\".",
+    "fa": "شماره‌ها را دسته‌دسته می‌خوانند؛ صفر را «oh» و دو رقم تکراری را «double» می‌گویند."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "callum",
+   "text": "Got it. Let me ring you so you have mine. … There. That's me. Save me as \"Callum Coffee\". Everyone does.",
+   "translations": {
+    "fa": "گرفتم. بذار بهت زنگ بزنم تا مال منو داشته باشی. … ایناهاش. اون منم. منو با «کالوم قهوه» ذخیره کن. همه همین کار را می‌کنن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "coffee",
+      "saved"
+     ],
+     "suggestion": "Saved! \"Callum Coffee\".",
+     "suggestionFa": "ذخیره شد! «کالوم قهوه».",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "guitar",
+      "save",
+      "bass",
+      "i'll"
+     ],
+     "suggestion": "I'll save you as \"Callum Bass Guitar\".",
+     "suggestionFa": "با «کالوم گیتار باس» ذخیره‌ات می‌کنم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "ring you",
+     "fa": "بهت زنگ بزنم"
+    },
+    {
+     "word": "save",
+     "fa": "ذخیره کردن"
+    },
+    {
+     "word": "everyone does",
+     "fa": "همه این کار را می‌کنند"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "callum",
+   "text": "Ha! Better. More rock and roll. Right, I'll drop you a text later with the address. Doors at eight.",
+   "translations": {
+    "fa": "ها! بهتره. راک‌اند‌رول‌تره. خب، بعداً یه پیام با آدرس برات می‌ندازم. درها ساعت هشت باز میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "great",
+      "text",
+      "drop"
+     ],
+     "suggestion": "Great. Drop me a text.",
+     "suggestionFa": "عالی. یه پیام برام بنداز.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "eight",
+      "doors",
+      "mean"
+     ],
+     "suggestion": "What does \"doors at eight\" mean?",
+     "suggestionFa": "«درها ساعت هشت» یعنی چی؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "drop you a text",
+     "fa": "یک پیام برایت می‌فرستم"
+    },
+    {
+     "word": "address",
+     "fa": "آدرس"
+    },
+    {
+     "word": "doors",
+     "fa": "باز شدن درها"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "callum",
+   "text": "The venue opens at eight. Music starts at half past, ish. \"Ish\" means maybe. Musicians are never on time.",
+   "translations": {
+    "fa": "محل ساعت هشت باز میشه. موسیقی حدود هشت و نیم شروع میشه، «ایش». «ایش» یعنی شاید. موزیسین‌ها هیچ‌وقت سر وقت نیستن."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "eight",
+      "half",
+      "ish",
+      "got"
+     ],
+     "suggestion": "Half eight-ish. Got it!",
+     "suggestionFa": "هشت و نیم-ایش. فهمیدم!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "iranian",
+      "iran",
+      "time",
+      "say"
+     ],
+     "suggestion": "In Iran, we say \"Iranian time\"!",
+     "suggestionFa": "تو ایران میگیم «وقت ایرانی»!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "venue",
+     "fa": "محل برگزاری"
+    },
+    {
+     "word": "half past",
+     "fa": "و نیم"
+    },
+    {
+     "word": "-ish",
+     "fa": "حدوداً"
+    },
+    {
+     "word": "on time",
+     "fa": "سر وقت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "callum",
+   "text": "Iranian time! Brilliant. Manchester time's the same. Oh — your phone's buzzing. That's my text. Already!",
+   "translations": {
+    "fa": "وقت ایرانی! عالی. وقت منچستری هم همینه. اوه — گوشیت داره ویبره می‌زنه. پیام منه. همین الان!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brooksby's",
+      "palace",
+      "setar",
+      "chats"
+     ],
+     "suggestion": "\"Chats Palace, Brooksby's Walk. Bring the setar!\"",
+     "suggestionFa": "«چتس پالاس، بروکسبیز واک. سه‌تار را بیار!»",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "reply",
+      "quick",
+      "i'll",
+      "now"
+     ],
+     "suggestion": "You're very quick! I'll reply now.",
+     "suggestionFa": "خیلی سریعی! الان جواب میدم.",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "buzzing",
+     "fa": "ویبره زدن"
+    },
+    {
+     "word": "already",
+     "fa": "همین حالا ؛ از قبل"
+    },
+    {
+     "word": "reply",
+     "fa": "جواب دادن"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "callum",
+   "text": "Quick when it matters. Slow when I'm making coffee. That's the secret of a good barista. See you Thursday, mate!",
+   "translations": {
+    "fa": "وقتی مهمه سریع. وقتی قهوه درست می‌کنم آروم. این راز یه باریستای خوبه. پنجشنبه می‌بینمت رفیق!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

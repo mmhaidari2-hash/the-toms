@@ -23,9 +23,9 @@
      "keywords": [
       "mondays",
       "monday",
-      "hate",
+      "best",
       "like",
-      "best"
+      "hate"
      ],
      "suggestion": "Ugh, Monday. I hate Mondays. What day do you like best?",
      "suggestionFa": "اه، دوشنبه. از دوشنبه بدم میاد. کدوم روز را بیشتر دوست داری؟",
@@ -47,9 +47,9 @@
     {
      "keywords": [
       "wednesdays",
-      "football",
-      "swimming",
       "tuesdays",
+      "swimming",
+      "football",
       "nicola"
      ],
      "suggestion": "Same. On Tuesdays I've got football. On Wednesdays Nicola goes to swimming.",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "finishes",
       "hospital",
+      "finishes",
       "starts",
-      "works",
-      "eight"
+      "eight",
+      "works"
      ],
      "suggestion": "Mum works at the hospital. She starts at eight and finishes at four.",
      "suggestionFa": "مامان توی بیمارستان کار می‌کنه. ساعت هشت شروع می‌کنه و چهار تموم.",
@@ -121,11 +121,11 @@
    "branches": [
     {
      "keywords": [
-      "office",
       "drinks",
-      "works",
+      "office",
+      "about",
       "nurse",
-      "about"
+      "works"
      ],
      "suggestion": "Yeah, she's a nurse. Dad works in an office. He drinks about ten cups of tea a day.",
      "suggestionFa": "آره، پرستاره. بابا توی دفتر کار می‌کنه. روزی حدود ده لیوان چای می‌خوره.",
@@ -148,9 +148,9 @@
      "keywords": [
       "thursdays",
       "sundays",
-      "comes",
       "roast",
-      "have"
+      "comes",
+      "nana"
      ],
      "suggestion": "On Thursdays Nana comes for tea. On Sundays we have a roast. Best day!",
      "suggestionFa": "پنجشنبه‌ها نانا برای شام میاد. یکشنبه‌ها کباب یکشنبه داریم. بهترین روز!",
@@ -174,8 +174,8 @@
       "potatoes",
       "chicken",
       "sunday",
-      "gravy",
-      "won't"
+      "won't",
+      "roast"
      ],
      "suggestion": "Roast chicken, roast potatoes, gravy. Come this Sunday. Mum won't mind!",
      "suggestionFa": "مرغ کبابی، سیب‌زمینی تنوری، سس. این یکشنبه بیا. مامان ناراحت نمی‌شه!",

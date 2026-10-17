@@ -49,8 +49,8 @@
       "before",
       "window",
       "alarm",
-      "smoke",
-      "never"
+      "never",
+      "smoke"
      ],
      "suggestion": "Ha! Never mind. Open the window before the smoke alarm goes off.",
      "suggestionFa": "ها! عیب نداره. قبل از اینکه آژیر دود به صدا دربیاد پنجره را باز کن.",
@@ -74,8 +74,8 @@
       "towel",
       "there",
       "quiet",
-      "like",
-      "wave"
+      "wave",
+      "like"
      ],
      "suggestion": "Wave a tea towel at it! Like this! Wave, wave! There. Quiet!",
      "suggestionFa": "یه حوله آشپزخونه جلوش تکون بده! این‌جوری! تکون بده، تکون بده! ایناهاش. ساکت شد!",
@@ -96,11 +96,11 @@
    "branches": [
     {
      "keywords": [
-      "leslie",
       "burner",
+      "leslie",
       "about",
       "every",
-      "calls"
+      "don't"
      ],
      "suggestion": "Don't worry about it! No harm done. I do it every week. Leslie calls me \"the toast burner\".",
      "suggestionFa": "نگرانش نباش! ضرری نکردیم. من هر هفته این کار را می‌کنم. لزلی بهم میگه «سوزانندهٔ نون تست».",
@@ -124,8 +124,8 @@
       "toaster",
       "strong",
       "number",
-      "every",
-      "three"
+      "three",
+      "every"
      ],
      "suggestion": "Every week! The toaster is too strong. Put it on number three, not five.",
      "suggestionFa": "هر هفته! توستر زیادی قویه. بذارش رو سه، نه پنج.",

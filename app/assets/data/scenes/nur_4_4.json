@@ -22,7 +22,7 @@
       "medicine",
       "morning",
       "first",
-      "fill"
+      "form"
      ],
      "suggestion": "Morning! You have to fill in a medicine form first.",
      "suggestionFa": "صبح بخیر! اول باید فرم دارو را پر کنید.",
@@ -72,8 +72,8 @@
     {
      "keywords": [
       "medicine",
-      "time",
-      "dose"
+      "dose",
+      "time"
      ],
      "suggestion": "The medicine, the dose and the time.",
      "suggestionFa": "اسم دارو، مقدار و ساعت.",
@@ -84,8 +84,8 @@
     {
      "keywords": [
       "last",
-      "when",
       "have",
+      "when",
       "some"
      ],
      "suggestion": "When did he last have some?",
@@ -131,10 +131,10 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "thanks",
-      "here",
-      "sign"
+      "please",
+      "sign",
+      "here"
      ],
      "suggestion": "Thanks. Please sign here.",
      "suggestionFa": "ممنون. لطفاً اینجا امضا کنید.",
@@ -144,10 +144,10 @@
     },
     {
      "keywords": [
-      "we'll",
       "write",
-      "time",
-      "give"
+      "we'll",
+      "give",
+      "time"
      ],
      "suggestion": "OK. We'll write the time we give it.",
      "suggestionFa": "باشه. ساعتی که میدیم را می‌نویسیم.",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "after",
       "hours",
+      "after",
       "time",
       "last"
      ],
@@ -191,9 +191,9 @@
     {
      "keywords": [
       "better",
+      "seem",
       "they",
-      "even",
-      "seem"
+      "even"
      ],
      "suggestion": "Even if they seem better?",
      "suggestionFa": "حتی اگه بهتر به نظر برسن؟",
@@ -233,8 +233,8 @@
      "keywords": [
       "worse",
       "we'll",
-      "call",
-      "gets"
+      "gets",
+      "call"
      ],
      "suggestion": "We'll call you if he gets worse.",
      "suggestionFa": "اگه بدتر شد بهتون زنگ می‌زنیم.",
@@ -245,8 +245,8 @@
     {
      "keywords": [
       "number",
-      "still",
       "phone",
+      "still",
       "same"
      ],
      "suggestion": "Is your phone number still the same?",

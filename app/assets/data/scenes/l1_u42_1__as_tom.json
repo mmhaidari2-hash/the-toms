@@ -48,9 +48,9 @@
      "keywords": [
       "choice",
       "which",
+      "good",
       "take",
-      "best",
-      "good"
+      "best"
      ],
      "suggestion": "Good choice! The best way. Which bus do you take?",
      "suggestionFa": "انتخاب خوبیه! بهترین راه. سوار کدوم اتوبوس میشی؟",
@@ -73,8 +73,8 @@
      "keywords": [
       "long",
       "take",
-      "bus",
-      "how"
+      "how",
+      "bus"
      ],
      "suggestion": "The 38! My bus! How long does it take?",
      "suggestionFa": "۳۸! اتوبوس من! چقدر طول می‌کشه؟",
@@ -121,10 +121,10 @@
     {
      "keywords": [
       "perfect",
-      "change",
       "hopper",
+      "change",
       "buses",
-      "hour"
+      "free"
      ],
      "suggestion": "Perfect. And with the Hopper fare, you can change buses for free in an hour.",
      "suggestionFa": "عالی. و با کرایهٔ هاپر، تو یه ساعت می‌تونی مجانی اتوبوس عوض کنی.",
@@ -148,8 +148,8 @@
       "downstairs",
       "upstairs",
       "buses",
-      "fare",
-      "many"
+      "many",
+      "fare"
      ],
      "suggestion": "One fare, many buses, one hour. Do you go upstairs or downstairs?",
      "suggestionFa": "یه کرایه، چند تا اتوبوس، یه ساعت. طبقه بالا میری یا پایین؟",
@@ -172,9 +172,9 @@
      "keywords": [
       "upstairs",
       "london",
-      "great",
       "front",
-      "like"
+      "great",
+      "view"
      ],
      "suggestion": "Upstairs at the front! Like a kid. Best seat in London. Great view.",
      "suggestionFa": "بالا جلو! مثل بچه‌ها. بهترین صندلی لندن. منظرهٔ عالی.",
@@ -195,11 +195,11 @@
    "branches": [
     {
      "keywords": [
-      "always",
       "here's",
+      "always",
       "funny",
-      "class",
-      "faces"
+      "faces",
+      "class"
      ],
      "suggestion": "Always the 38! And yes, I can see you. So no funny faces! Here's your stop. Have a good class!",
      "suggestionFa": "همیشه ۳۸! و آره، می‌بینمت. پس شکلک درنیار! ایستگاهت رسید. کلاس خوبی داشته باشی!",

@@ -81,10 +81,10 @@
     },
     {
      "keywords": [
-      "let's",
       "great",
+      "let's",
       "idea",
-      "her"
+      "ask"
      ],
      "suggestion": "Great idea. Let's ask her.",
      "suggestionFa": "فکر خوبیه. بیا ازش بپرسیم.",
@@ -118,8 +118,8 @@
    "branches": [
     {
      "keywords": [
-      "peak",
       "mean",
+      "peak",
       "off"
      ],
      "suggestion": "What does off-peak mean?",
@@ -177,7 +177,7 @@
       "returns",
       "please",
       "peak",
-      "off"
+      "two"
      ],
      "suggestion": "Two off-peak returns, please.",
      "suggestionFa": "دوتا بلیت رفت‌وبرگشت غیرپیک لطفاً.",
@@ -275,8 +275,8 @@
      "keywords": [
       "today",
       "i'll",
-      "one",
-      "buy"
+      "buy",
+      "one"
      ],
      "suggestion": "I'll buy one today.",
      "suggestionFa": "امروز یکی می‌خرم.",

@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "how",
-      "log"
+      "log",
+      "how"
      ],
      "suggestion": "How do I log in?",
      "suggestionFa": "چطور وارد بشم؟",
@@ -123,8 +123,8 @@
      "keywords": [
       "wrong",
       "says",
-      "hmm",
-      "pin"
+      "pin",
+      "hmm"
      ],
      "suggestion": "It says \"wrong PIN\". Hmm.",
      "suggestionFa": "نوشته «رمز اشتباه». هوم.",
@@ -170,8 +170,8 @@
     {
      "keywords": [
       "logged",
-      "now",
-      "got"
+      "got",
+      "now"
      ],
      "suggestion": "Got it! I'm logged in now.",
      "suggestionFa": "گرفتم! الان وارد شدم.",
@@ -228,8 +228,8 @@
     {
      "keywords": [
       "printing",
-      "much",
       "cost",
+      "much",
       "how"
      ],
      "suggestion": "How much does printing cost?",
@@ -241,8 +241,8 @@
     {
      "keywords": [
       "colour",
-      "black",
-      "white"
+      "white",
+      "black"
      ],
      "suggestion": "Is it black and white or colour?",
      "suggestionFa": "سیاه‌سفیده یا رنگی؟",
@@ -280,9 +280,9 @@
    "branches": [
     {
      "keywords": [
-      "white",
-      "black",
       "pages",
+      "black",
+      "white",
       "just"
      ],
      "suggestion": "Just two pages, black and white.",
@@ -296,7 +296,7 @@
       "cheaper",
       "that's",
       "cheap",
-      "much"
+      "than"
      ],
      "suggestion": "That's cheap. Much cheaper than a shop.",
      "suggestionFa": "ارزونه. خیلی ارزون‌تر از مغازه.",
@@ -348,7 +348,7 @@
      "keywords": [
       "that's",
       "useful",
-      "book",
+      "come",
       "just"
      ],
      "suggestion": "That's useful. Can I just come, or do I book?",

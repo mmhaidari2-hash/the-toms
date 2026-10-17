@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "shall",
       "split",
+      "shall",
       "four",
       "ways"
      ],
@@ -85,8 +85,8 @@
     {
      "keywords": [
       "separately",
-      "can",
       "pay",
+      "can",
       "we"
      ],
      "suggestion": "Can we pay separately?",
@@ -210,8 +210,8 @@
     {
      "keywords": [
       "without",
-      "people",
       "charge",
+      "people",
       "much"
      ],
      "suggestion": "And without a service charge, how much do people tip?",
@@ -253,7 +253,7 @@
       "fifteen",
       "twenty",
       "little",
-      "pay"
+      "let"
      ],
      "suggestion": "Fifteen is too little. Let me pay twenty.",
      "suggestionFa": "پونزده خیلی کمه. بذار بیست بدم.",
@@ -304,8 +304,8 @@
    "branches": [
     {
      "keywords": [
-      "please",
       "twenty",
+      "please",
       "card"
      ],
      "suggestion": "Twenty on this card, please.",
@@ -317,8 +317,8 @@
     {
      "keywords": [
       "phone",
-      "can",
       "pay",
+      "can",
       "by"
      ],
      "suggestion": "Can I pay by phone?",
@@ -370,9 +370,9 @@
     },
     {
      "keywords": [
-      "while",
       "coats",
       "let's",
+      "while",
       "wait"
      ],
      "suggestion": "Let's get our coats while we wait.",

@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "we're",
       "going",
+      "we're",
       "hold"
      ],
      "suggestion": "Hold on, we're going!",
@@ -164,7 +164,7 @@
       "three",
       "four",
       "code",
-      "one"
+      "two"
      ],
      "suggestion": "A code? OK, one-two-three-four.",
      "suggestionFa": "رمز؟ باشه، یک-دو-سه-چهار.",
@@ -176,8 +176,8 @@
      "keywords": [
       "changing",
       "there",
-      "room",
-      "baby"
+      "baby",
+      "room"
      ],
      "suggestion": "Is there a baby-changing room too?",
      "suggestionFa": "اتاق تعویض بچه هم هست؟",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "there's",
-      "sink",
       "soap",
+      "sink",
       "by"
      ],
      "suggestion": "Yes, there's soap by the sink.",

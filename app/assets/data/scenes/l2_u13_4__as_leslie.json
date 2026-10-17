@@ -25,7 +25,7 @@
       "nominated",
       "pharmacy",
       "that's",
-      "where"
+      "thing"
      ],
      "suggestion": "One more thing — the form asks for your \"nominated pharmacy\". That's where your prescriptions go.",
      "suggestionFa": "یه چیز دیگه — فرم «داروخانهٔ انتخابی» را می‌پرسه. نسخه‌هات اونجا میره.",
@@ -50,7 +50,7 @@
       "computer",
       "choose",
       "doctor",
-      "paper"
+      "means"
      ],
      "suggestion": "It means the one you choose. The doctor sends your prescription there by computer. No paper!",
      "suggestionFa": "یعنی همونی که انتخاب می‌کنی. دکتر نسخه‌ات را با کامپیوتر می‌فرسته اونجا. بی‌کاغذ!",
@@ -122,9 +122,9 @@
     {
      "keywords": [
       "dawson's",
+      "advice",
       "maggie",
       "lovely",
-      "advice",
       "gives"
      ],
      "suggestion": "Nana Maggie uses Dawson's. Mr Dawson's lovely. He gives good advice — free!",
@@ -149,8 +149,8 @@
       "prescriptions",
       "quicker",
       "they're",
-      "coughs",
-      "rashes"
+      "rashes",
+      "coughs"
      ],
      "suggestion": "Yes! For coughs, colds, rashes. And they're much quicker than the GP. Do prescriptions cost money in Iran?",
      "suggestionFa": "آره! برای سرفه، سرماخوردگی، جوش. و خیلی سریع‌تر از پزشک عمومی‌ان. تو ایران نسخه پول داره؟",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "children",
-      "sixties",
       "england",
+      "sixties",
       "pounds",
-      "about"
+      "price"
      ],
      "suggestion": "Here in England it's a fixed price for each item — about ten pounds. Children and over-sixties are free.",
      "suggestionFa": "اینجا تو انگلیس برای هر قلم یه قیمت ثابته — حدود ده پوند. بچه‌ها و بالای شصت سال مجانیه.",
@@ -196,11 +196,11 @@
    "branches": [
     {
      "keywords": [
-      "dawson's",
       "maggie's",
+      "dawson's",
       "george",
       "about",
-      "right"
+      "thing"
      ],
      "suggestion": "No, Maggie's free. And George! He says it's the only good thing about being old. Right — write \"Dawson's\". Done!",
      "suggestionFa": "نه، مگی مجانیه. جورج هم! میگه این تنها چیز خوبِ پیری‌ه. خب — بنویس «داوسون». تموم!",

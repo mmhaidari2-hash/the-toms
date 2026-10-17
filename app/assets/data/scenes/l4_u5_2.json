@@ -32,8 +32,8 @@
     {
      "keywords": [
       "brutal",
-      "eight",
       "seven",
+      "eight",
       "ok"
      ],
      "suggestion": "OK… seven… eight… this is brutal!",
@@ -76,10 +76,10 @@
    "branches": [
     {
      "keywords": [
-      "barely",
       "remind",
-      "don't",
-      "could"
+      "barely",
+      "could",
+      "don't"
      ],
      "suggestion": "Don't remind me! I could barely walk the next day.",
      "suggestionFa": "یادم ننداز! فرداش به زور راه می‌رفتم.",
@@ -90,9 +90,9 @@
     {
      "keywords": [
       "difference",
-      "made",
       "real",
-      "mood"
+      "mood",
+      "made"
      ],
      "suggestion": "It's made a real difference to my mood, too.",
      "suggestionFa": "رو حالم هم واقعاً تأثیر گذاشته.",
@@ -132,8 +132,8 @@
      "keywords": [
       "nights",
       "light",
-      "like",
-      "much"
+      "most",
+      "like"
      ],
      "suggestion": "Much better. I'm out like a light most nights.",
      "suggestionFa": "خیلی بهتر. بیشتر شب‌ها فوراً خوابم می‌بره.",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "although",
+      "check",
       "still",
-      "phone",
-      "check"
+      "phone"
      ],
      "suggestion": "Better, although I still check my phone too late.",
      "suggestionFa": "بهتر، هرچند هنوز تا دیروقت گوشیم را چک می‌کنم.",
@@ -182,7 +182,7 @@
      "keywords": [
       "kilometres",
       "train",
-      "i'll",
+      "give",
       "long"
      ],
      "suggestion": "Ten kilometres? I'll give it a go, as long as you train me.",
@@ -194,9 +194,9 @@
     {
      "keywords": [
       "charity",
-      "could",
       "money",
-      "maybe"
+      "could",
+      "raise"
      ],
      "suggestion": "Maybe. Could I raise money for charity at the same time?",
      "suggestionFa": "شاید. می‌تونم همزمان برای خیریه پول جمع کنم؟",

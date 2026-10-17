@@ -21,11 +21,11 @@
    "branches": [
     {
      "keywords": [
-      "thursday",
       "birthday",
+      "thursday",
       "sister",
       "leeds",
-      "post"
+      "card"
      ],
      "suggestion": "I need to post this card to my sister in Leeds. It's her birthday on Thursday!",
      "suggestionFa": "باید این کارت را برای خواهرم تو لیدز پست کنم. پنجشنبه تولدشه!",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "there's",
-      "outside",
-      "postbox",
       "address",
+      "there's",
+      "postbox",
+      "outside",
       "write"
      ],
      "suggestion": "There's a postbox outside. The red one. Have you got a pen? I need to write the address.",
@@ -73,8 +73,8 @@
      "keywords": [
       "postcode",
       "envelope",
-      "street",
       "middle",
+      "street",
       "number"
      ],
      "suggestion": "In the middle of the envelope. Name, house number, street, town and postcode.",
@@ -98,9 +98,9 @@
      "keywords": [
       "collection",
       "comes",
-      "case",
-      "back",
-      "last"
+      "look",
+      "last",
+      "case"
      ],
      "suggestion": "Yes, on the back. In case it comes back. Ooh, look at the box. What time is the last collection?",
      "suggestionFa": "آره، پشتش. اگه برگشت. اوه، صندوق را ببین. آخرین جمع‌آوری کیه؟",
@@ -149,8 +149,8 @@
       "wednesday",
       "thursday",
       "quicker",
-      "second",
-      "arrive"
+      "should",
+      "second"
      ],
      "suggestion": "It should arrive on Wednesday or Thursday. First class is quicker, but this has a second-class stamp.",
      "suggestionFa": "باید چهارشنبه یا پنجشنبه برسه. درجه یک سریع‌تره، ولی این تمبر درجه دو داره.",
@@ -172,10 +172,10 @@
     {
      "keywords": [
       "fingers",
-      "case",
+      "mind",
       "just",
-      "idea",
-      "mind"
+      "good",
+      "idea"
      ],
      "suggestion": "Good idea — just in case. Can you pop it in the box? Mind your fingers!",
      "suggestionFa": "فکر خوبیه — محض احتیاط. می‌تونی بندازیش تو صندوق؟ مواظب انگشتات باش!",
@@ -196,9 +196,9 @@
    "branches": [
     {
      "keywords": [
-      "nicola",
       "potato",
       "she'll",
+      "nicola",
       "thank",
       "looks"
      ],

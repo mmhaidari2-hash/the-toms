@@ -22,9 +22,9 @@
     {
      "keywords": [
       "william's",
+      "ready",
       "check",
       "water",
-      "ready",
       "bath"
      ],
      "suggestion": "William's bath is ready. Can you check the water? Not too hot!",
@@ -46,11 +46,11 @@
    "branches": [
     {
      "keywords": [
+      "that's",
       "bubble",
       "little",
       "nicola",
-      "that's",
-      "much"
+      "just"
      ],
      "suggestion": "Good. Now the bubble bath. Just a little. Oh! Nicola! That's too much!",
      "suggestionFa": "خوبه. حالا کف حموم. فقط یه کم. آه! نیکولا! خیلی زیاده!",
@@ -147,8 +147,8 @@
      "keywords": [
       "yellow",
       "rubber",
-      "pass",
       "duck",
+      "pass",
       "can"
      ],
      "suggestion": "Can you pass me the duck? The yellow rubber duck.",
@@ -224,7 +224,7 @@
       "towel",
       "floor",
       "dear",
-      "can",
+      "wet",
       "get"
      ],
      "suggestion": "Oh dear, you're wet! And the floor is wet. Can you get a towel for the floor?",
@@ -249,8 +249,8 @@
       "doesn't",
       "gently",
       "water",
-      "hair",
-      "like"
+      "wash",
+      "hair"
      ],
      "suggestion": "Yes, the old blue one. Now wash his hair. Gently. He doesn't like water in his eyes.",
      "suggestionFa": "آره، آبی قدیمیه. حالا موهاش را بشور. آروم. دوست نداره آب بره تو چشماش.",
@@ -271,10 +271,10 @@
    "branches": [
     {
      "keywords": [
-      "little",
       "clever",
-      "clean",
+      "little",
       "isn't",
+      "clean",
       "come"
      ],
      "suggestion": "Clever! He's all clean now. Out you come, little man. Bath time is the best time, isn't it?",

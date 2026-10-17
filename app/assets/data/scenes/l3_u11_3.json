@@ -30,9 +30,9 @@
     {
      "keywords": [
       "course",
-      "i'll",
       "call",
-      "them"
+      "them",
+      "i'll"
      ],
      "suggestion": "Of course. I'll call them now.",
      "suggestionFa": "حتماً. الان زنگشون می‌زنم.",
@@ -255,7 +255,7 @@
       "bought",
       "second",
       "sorry",
-      "idea"
+      "hand"
      ],
      "suggestion": "No idea, sorry. He bought it second-hand.",
      "suggestionFa": "هیچ ایده‌ای ندارم، ببخشید. دست دوم خریدش.",
@@ -296,7 +296,7 @@
       "neighbour",
       "camera",
       "i'll",
-      "her"
+      "has"
      ],
      "suggestion": "The neighbour has a camera. I'll ask her.",
      "suggestionFa": "همسایه دوربین داره. ازش می‌پرسم.",
@@ -309,7 +309,7 @@
       "anything",
       "didn't",
       "dark",
-      "see"
+      "was"
      ],
      "suggestion": "We didn't see anything. It was dark.",
      "suggestionFa": "چیزی ندیدیم. تاریک بود.",
@@ -344,8 +344,8 @@
     {
      "keywords": [
       "i've",
-      "got",
-      "pen"
+      "pen",
+      "got"
      ],
      "suggestion": "Yes, I've got a pen.",
      "suggestionFa": "آره، خودکار دارم.",
@@ -396,8 +396,8 @@
     {
      "keywords": [
       "marketplaces",
-      "should",
       "online",
+      "should",
       "check"
      ],
      "suggestion": "Thank you. Should he check online marketplaces?",

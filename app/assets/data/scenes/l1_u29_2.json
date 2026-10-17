@@ -31,8 +31,8 @@
     {
      "keywords": [
       "today",
-      "pay",
-      "let"
+      "let",
+      "pay"
      ],
      "suggestion": "Let me pay today.",
      "suggestionFa": "بذار امروز من حساب کنم.",
@@ -74,8 +74,8 @@
     },
     {
      "keywords": [
-      "have",
       "mint",
+      "have",
       "they",
       "got"
      ],
@@ -169,8 +169,8 @@
      "keywords": [
       "please",
       "have",
-      "can",
-      "lid"
+      "lid",
+      "can"
      ],
      "suggestion": "Can I have a lid, please?",
      "suggestionFa": "می‌شه یه درپوش بدید، لطفاً؟",
@@ -310,8 +310,8 @@
     {
      "keywords": [
       "door",
-      "let",
-      "get"
+      "get",
+      "let"
      ],
      "suggestion": "Let me get the door for you.",
      "suggestionFa": "بذار در را برات باز کنم.",

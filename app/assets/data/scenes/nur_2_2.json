@@ -67,8 +67,8 @@
     {
      "keywords": [
       "about",
-      "talk",
       "nice",
+      "talk",
       "we"
      ],
      "suggestion": "Nice! What do we talk about?",
@@ -113,8 +113,8 @@
     {
      "keywords": [
       "that's",
-      "one",
       "pea",
+      "one",
       "can"
      ],
      "suggestion": "That's OK. Can you try one pea?",
@@ -166,8 +166,8 @@
    "branches": [
     {
      "keywords": [
-      "more",
       "want",
+      "more",
       "pie"
      ],
      "suggestion": "Yes! Do you want more pie?",
@@ -178,10 +178,10 @@
     },
     {
      "keywords": [
-      "plate",
       "clean",
-      "well",
-      "done"
+      "plate",
+      "done",
+      "well"
      ],
      "suggestion": "Well done, a clean plate!",
      "suggestionFa": "آفرین، بشقاب تمیز!",
@@ -215,8 +215,8 @@
    "branches": [
     {
      "keywords": [
-      "some",
       "most",
+      "some",
       "none",
       "all"
      ],

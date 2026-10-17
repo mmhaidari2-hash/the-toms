@@ -1,0 +1,262 @@
+{
+ "id": "l2_u57_4__as_tom",
+ "characterId": "tom",
+ "title": "(As Tom) Tipping",
+ "titleFa": "(در نقش Tom) انعام دادن",
+ "setting": "Going out · Level 2",
+ "settingFa": "بیرون رفتن",
+ "requires": null,
+ "level": "A2",
+ "baseId": "l2_u57_4",
+ "playAs": "tom",
+ "start": "r1",
+ "nodes": {
+  "r1": {
+   "id": "r1",
+   "speaker": "mehdi",
+   "text": "Hi, Tom!",
+   "translations": {
+    "fa": "سلام Tom!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "sophie's",
+      "stuffed",
+      "coming",
+      "lovely",
+      "right"
+     ],
+     "suggestion": "Lovely meal, that. I'm stuffed. Right — the bill. Sophie's coming. How much do we tip? I never know.",
+     "suggestionFa": "غذای خوبی بود. ترکیدم. خب — صورت‌حساب. سوفی داره میاد. چقدر انعام بدیم؟ من هیچ‌وقت نمی‌دونم.",
+     "trustDelta": 5,
+     "next": "r2",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r2": {
+   "id": "r2",
+   "speaker": "mehdi",
+   "text": "First, let's check if service is included.",
+   "translations": {
+    "fa": "اول ببینیم سرویس شامله یا نه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "restaurant",
+      "something",
+      "thinking",
+      "included",
+      "usually"
+     ],
+     "suggestion": "Good thinking. It says \"Service not included\". So we add something. Usually ten to fifteen percent in a restaurant.",
+     "suggestionFa": "فکر خوبیه. نوشته «سرویس شامل نیست». پس یه چیزی اضافه می‌کنیم. معمولاً ده تا پونزده درصد تو رستوران.",
+     "trustDelta": 5,
+     "next": "r3",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r3": {
+   "id": "r3",
+   "speaker": "mehdi",
+   "text": "The bill is fifty-two pounds. So about six pounds?",
+   "translations": {
+    "fa": "صورت‌حساب پنجاه و دو پونده. پس حدود شش پوند؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "yourself",
+      "that's",
+      "people",
+      "school",
+      "don't"
+     ],
+     "suggestion": "Spot on. And in pubs you don't tip at the bar. Some people say \"and one for yourself\", but that's old-school.",
+     "suggestionFa": "دقیقاً. و تو پاب سر پیشخون انعام نمیدی. بعضی‌ها میگن «یکی هم برای خودت»، ولی اون قدیمیه.",
+     "trustDelta": 5,
+     "next": "r4",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r4": {
+   "id": "r4",
+   "speaker": "mehdi",
+   "text": "\"One for yourself\"? What does that mean?",
+   "translations": {
+    "fa": "«یکی هم برای خودت»؟ یعنی چی؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "yourself",
+      "school",
+      "pounds",
+      "saving"
+     ],
+     "suggestion": "It means \"buy yourself a drink\". Six pounds is fine, but Sophie was brilliant. Let's make it ten. She's saving for drama school.",
+     "suggestionFa": "یعنی «برای خودت یه نوشیدنی بخر». شش پوند خوبه، ولی سوفی فوق‌العاده بود. بیا ده بدیم. داره برای مدرسهٔ بازیگری پس‌انداز می‌کنه.",
+     "trustDelta": 5,
+     "next": "r5",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r5": {
+   "id": "r5",
+   "speaker": "mehdi",
+   "text": "Ten pounds. Shall we pay by card?",
+   "translations": {
+    "fa": "ده پوند. با کارت بپردازیم؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "hm",
+      "mm"
+     ],
+     "suggestion": "Mm-hm.",
+     "suggestionFa": "آهان.",
+     "trustDelta": 5,
+     "next": "r6",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r6": {
+   "id": "r6",
+   "speaker": "sophie",
+   "text": "Here's the card machine. Oh, and — wait. Is that a tenner on the table? You don't have to!",
+   "translations": {
+    "fa": "اینم دستگاه کارت. اوه، و — صبر کنید. اون یه ده پوندی رو میزه؟ لازم نیست!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "right",
+      "oh"
+     ],
+     "suggestion": "Oh, right!",
+     "suggestionFa": "آهان، درسته!",
+     "trustDelta": 5,
+     "next": "r7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "card machine",
+     "fa": "دستگاه کارت‌خوان"
+    },
+    {
+     "word": "tenner",
+     "fa": "اسکناس ده پوندی"
+    },
+    {
+     "word": "keep the change",
+     "fa": "باقی‌اش مال خودت"
+    }
+   ]
+  },
+  "r7": {
+   "id": "r7",
+   "speaker": "mehdi",
+   "text": "It's for you, Sophie. Thank you for everything.",
+   "translations": {
+    "fa": "برای توئه سوفی. ممنون بابت همه‌چی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "really"
+     ],
+     "suggestion": "Really?",
+     "suggestionFa": "واقعاً؟",
+     "trustDelta": 5,
+     "next": "r8",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r8": {
+   "id": "r8",
+   "speaker": "sophie",
+   "text": "You're so kind. That's my train fare to my audition next week! Come back soon — I'll save you the window table.",
+   "translations": {
+    "fa": "خیلی مهربونید. این کرایهٔ قطارم برای تست بازیگری هفتهٔ بعده! زود برگردید — میز کنار پنجره را براتون نگه می‌دارم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "ok"
+     ],
+     "suggestion": "OK!",
+     "suggestionFa": "باشه!",
+     "trustDelta": 5,
+     "next": "r9",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "kind",
+     "fa": "مهربان"
+    },
+    {
+     "word": "train fare",
+     "fa": "کرایهٔ قطار"
+    },
+    {
+     "word": "audition",
+     "fa": "تست بازیگری"
+    }
+   ]
+  },
+  "r9": {
+   "id": "r9",
+   "speaker": "mehdi",
+   "text": "Good luck with the audition!",
+   "translations": {
+    "fa": "تو تست بازیگری موفق باشی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "investment",
+      "pounds",
+      "window",
+      "let's",
+      "train"
+     ],
+     "suggestion": "Ten pounds, a train fare and a window table. Best investment I've made all year. Come on — let's walk it off.",
+     "suggestionFa": "ده پوند، یه کرایهٔ قطار و یه میز کنار پنجره. بهترین سرمایه‌گذاری امسالم. بیا — بریم یه کم پیاده‌روی کنیم تا غذا هضم بشه.",
+     "trustDelta": 5,
+     "next": "r10",
+     "success": true
+    }
+   ],
+   "newWords": []
+  },
+  "r10": {
+   "id": "r10",
+   "speaker": "mehdi",
+   "text": "Thanks, Tom! See you later.",
+   "translations": {
+    "fa": "ممنون Tom! بعداً می‌بینمت."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

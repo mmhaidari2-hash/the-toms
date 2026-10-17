@@ -57,8 +57,8 @@
      "keywords": [
       "which",
       "song",
-      "one",
-      "bus"
+      "bus",
+      "one"
      ],
      "suggestion": "The bus song? Which one is that?",
      "suggestionFa": "آهنگ اتوبوس؟ کدوم یکی؟",
@@ -70,8 +70,8 @@
      "keywords": [
       "together",
       "william",
-      "shall",
-      "hello"
+      "hello",
+      "shall"
      ],
      "suggestion": "Hello, William! Shall we sing together?",
      "suggestionFa": "سلام ویلیام! با هم بخونیم؟",
@@ -111,8 +111,8 @@
      "keywords": [
       "drives",
       "now",
-      "his",
-      "dad"
+      "dad",
+      "his"
      ],
      "suggestion": "And his dad drives the 38 now!",
      "suggestionFa": "و باباش الان ۳۸ را می‌رونه!",
@@ -122,9 +122,9 @@
     },
     {
      "keywords": [
-      "words",
-      "don't",
       "teach",
+      "don't",
+      "words",
       "know"
      ],
      "suggestion": "I don't know the words. Can you teach me?",
@@ -302,8 +302,8 @@
     },
     {
      "keywords": [
-      "library",
       "william",
+      "library",
       "loud",
       "shh"
      ],
@@ -345,8 +345,8 @@
      "keywords": [
       "bennett",
       "poor",
-      "ha",
-      "mr"
+      "mr",
+      "ha"
      ],
      "suggestion": "Ha! Poor Mr Bennett.",
      "suggestionFa": "ها! بیچاره آقای بنت.",
@@ -378,10 +378,10 @@
    "branches": [
     {
      "keywords": [
-      "which",
       "would",
-      "book",
-      "like"
+      "which",
+      "like",
+      "book"
      ],
      "suggestion": "Which book would you like?",
      "suggestionFa": "کدوم کتاب را می‌خوای؟",
@@ -436,8 +436,8 @@
     },
     {
      "keywords": [
-      "choices",
       "william",
+      "choices",
       "good"
      ],
      "suggestion": "Good choices, William!",

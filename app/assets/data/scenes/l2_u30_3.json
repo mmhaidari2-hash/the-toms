@@ -21,8 +21,8 @@
      "keywords": [
       "please",
       "like",
-      "i'd",
-      "pay"
+      "pay",
+      "i'd"
      ],
      "suggestion": "I'd like to pay in this cheque, please.",
      "suggestionFa": "می‌خوام این چک را واریز کنم، لطفاً.",
@@ -125,8 +125,8 @@
     {
      "keywords": [
       "signed",
-      "wrong",
       "spelt",
+      "wrong",
       "name"
      ],
      "suggestion": "Yes, he signed it. But he spelt my name wrong!",
@@ -235,10 +235,10 @@
    "branches": [
     {
      "keywords": [
-      "today",
       "visit",
-      "i'll",
-      "well"
+      "today",
+      "well",
+      "i'll"
      ],
      "suggestion": "OK. He's not very well. I'll visit him today.",
      "suggestionFa": "باشه. حالش خیلی خوب نیست. امروز می‌رم دیدنش.",
@@ -249,9 +249,9 @@
     {
      "keywords": [
       "instead",
-      "can",
+      "app",
       "pay",
-      "app"
+      "can"
      ],
      "suggestion": "Can I pay it in with the app instead?",
      "suggestionFa": "به‌جاش می‌تونم با اپ واریزش کنم؟",

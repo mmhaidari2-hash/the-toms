@@ -32,8 +32,8 @@
     {
      "keywords": [
       "tell",
-      "us",
-      "go"
+      "go",
+      "us"
      ],
      "suggestion": "Go on, tell us!",
      "suggestionFa": "بگو دیگه!",
@@ -96,8 +96,8 @@
    "branches": [
     {
      "keywords": [
-      "where",
       "owner",
+      "where",
       "way"
      ],
      "suggestion": "No way! Where was the owner?",
@@ -151,8 +151,8 @@
    "branches": [
     {
      "keywords": [
-      "some",
       "give",
+      "some",
       "did"
      ],
      "suggestion": "Did you give it some?",
@@ -210,8 +210,8 @@
     {
      "keywords": [
       "stop",
-      "did",
-      "bus"
+      "bus",
+      "did"
      ],
      "suggestion": "Did the bus stop?",
      "suggestionFa": "اتوبوس وایساد؟",
@@ -260,8 +260,8 @@
     },
     {
      "keywords": [
-      "perfect",
       "biscuit",
+      "perfect",
       "name"
      ],
      "suggestion": "Biscuit is a perfect name.",

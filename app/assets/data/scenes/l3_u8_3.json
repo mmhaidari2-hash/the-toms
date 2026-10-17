@@ -22,7 +22,7 @@
       "looks",
       "like",
       "bomb",
-      "wow"
+      "hit"
      ],
      "suggestion": "Wow. It looks like a bomb hit it!",
      "suggestionFa": "وای. انگار بمب خورده!",
@@ -72,9 +72,9 @@
    "branches": [
     {
      "keywords": [
-      "dirty",
       "socks",
       "doing",
+      "dirty",
       "deal"
      ],
      "suggestion": "Deal. But you're doing the dirty socks!",
@@ -88,7 +88,7 @@
       "about",
       "also",
       "make",
-      "cup"
+      "how"
      ],
      "suggestion": "How about if you also make me a cup of tea?",
      "suggestionFa": "چطوره یه چای هم برام درست کنی؟",
@@ -132,8 +132,8 @@
      "keywords": [
       "clothes",
       "basket",
-      "dirty",
-      "first"
+      "first",
+      "dirty"
      ],
      "suggestion": "First, let's put the dirty clothes in the wash basket.",
      "suggestionFa": "اول، بیا لباس‌های کثیف را بذاریم تو سبد رخت‌چرک.",
@@ -143,9 +143,9 @@
     },
     {
      "keywords": [
-      "can't",
       "floor",
       "start",
+      "can't",
       "see"
      ],
      "suggestion": "Let's start with the floor. I can't see it!",
@@ -182,8 +182,8 @@
      "keywords": [
       "benefits",
       "tidying",
-      "see",
-      "has"
+      "has",
+      "see"
      ],
      "suggestion": "See? Tidying has benefits!",
      "suggestionFa": "دیدی؟ مرتب کردن فایده داره!",

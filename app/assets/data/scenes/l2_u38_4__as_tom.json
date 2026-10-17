@@ -24,8 +24,8 @@
       "overalls",
       "whisper",
       "leslie",
-      "colour",
-      "called"
+      "forest",
+      "colour"
      ],
      "suggestion": "Right, overalls on. Today we paint the fence. Leslie chose the colour. It's called \"Forest Whisper\". It's green.",
      "suggestionFa": "خب، لباس کار تن کن. امروز نرده را رنگ می‌کنیم. لزلی رنگ را انتخاب کرده. اسمش «زمزمهٔ جنگل»ـه. سبزه.",
@@ -46,10 +46,10 @@
    "branches": [
     {
      "keywords": [
-      "flakes",
       "plants",
-      "cover",
+      "flakes",
       "sheet",
+      "first",
       "brush"
      ],
      "suggestion": "First, you brush off the dirt and the old flakes. Then we put the dust sheet down. Make sure you cover the plants.",
@@ -71,9 +71,9 @@
    "branches": [
     {
      "keywords": [
+      "leslie's",
       "properly",
       "sleeping",
-      "leslie's",
       "because",
       "whisper"
      ],
@@ -98,7 +98,7 @@
      "keywords": [
       "careful",
       "bottom",
-      "along",
+      "paint",
       "thick",
       "brush"
      ],
@@ -123,9 +123,9 @@
      "keywords": [
       "fashionable",
       "remember",
-      "perfect",
       "whisper",
-      "forest"
+      "perfect",
+      "shoe's"
      ],
      "suggestion": "Like that, perfect. Your shoe's Forest Whisper now. Very fashionable. Two coats, remember. Then let it dry for four hours.",
      "suggestionFa": "همینجوری، عالیه. کفشت الان زمزمهٔ جنگله. خیلی مُد روز. دو لایه، یادت باشه. بعد چهار ساعت بذار خشک بشه.",
@@ -146,11 +146,11 @@
    "branches": [
     {
      "keywords": [
-      "admire",
       "that's",
+      "admire",
       "patchy",
-      "looks",
-      "twice"
+      "twice",
+      "looks"
      ],
      "suggestion": "Twice, mate. One coat looks patchy. Until then? Cup of tea, sit, admire our work. That's the best part of DIY.",
      "suggestionFa": "دو بار رفیق. یه لایه لکه‌دار به نظر میاد. تا اون موقع؟ یه فنجون چای، بشینیم، کارمون را تحسین کنیم. این بهترین قسمت «خودت انجامش بده»ـه.",
@@ -171,9 +171,9 @@
    "branches": [
     {
      "keywords": [
-      "building",
       "painting",
       "yourself",
+      "building",
       "without",
       "british"
      ],
@@ -198,9 +198,9 @@
      "keywords": [
       "bathroom",
       "william",
-      "leslie",
       "expert",
-      "touch"
+      "leslie",
+      "about"
      ],
      "suggestion": "Me? Expert? Ask Leslie about the shelf in the bathroom. It fell down twice. Hey — William! No! Don't touch the fence!",
      "suggestionFa": "من؟ متخصص؟ از لزلی دربارهٔ قفسهٔ حموم بپرس. دو بار افتاد. هی — ویلیام! نه! به نرده دست نزن!",
@@ -223,9 +223,9 @@
      "keywords": [
       "haven't",
       "leslie",
-      "wipes",
-      "shoes",
-      "hands"
+      "hands",
+      "green",
+      "shoes"
      ],
      "suggestion": "Green hands, green shoes, green dog — wait, we haven't got a dog. Good. Get the wipes. And not a word to Leslie.",
      "suggestionFa": "دست سبز، کفش سبز، سگ سبز — صبر کن، ما سگ نداریم. خوبه. دستمال مرطوب بیار. و یه کلمه هم به لزلی نگو.",

@@ -22,10 +22,10 @@
     {
      "keywords": [
       "interview",
-      "disaster",
       "training",
-      "looks",
-      "slept"
+      "disaster",
+      "shirt",
+      "looks"
      ],
      "suggestion": "Disaster! I've got a job interview for the training role in an hour, and my shirt looks like I slept in it. Can you iron?",
      "suggestionFa": "فاجعه! یه ساعت دیگه برای نقش آموزشی مصاحبهٔ کاری دارم، و پیرهنم انگار توش خوابیدم. اتو بلدی؟",
@@ -48,9 +48,9 @@
      "keywords": [
       "lifesaver",
       "cupboard",
-      "squeaks",
+      "kitchen",
       "ironing",
-      "kitchen"
+      "squeaks"
      ],
      "suggestion": "You're a lifesaver. The iron's in the cupboard, and the ironing board is behind the kitchen door. It squeaks.",
      "suggestionFa": "نجات‌دهنده‌ای. اتو تو کابینته، و میز اتو پشت در آشپزخونه‌ست. جیرجیر می‌کنه.",
@@ -72,10 +72,10 @@
     {
      "keywords": [
       "cotton",
-      "noisy",
-      "works",
       "check",
-      "needs"
+      "noisy",
+      "three",
+      "first"
      ],
      "suggestion": "It works, just noisy. Like me. Check the label first. Cotton? It needs a hot iron. Look for the three dots.",
      "suggestionFa": "کار می‌کنه، فقط پرسروصداست. مثل من. اول برچسب را ببین. نخیه؟ اتوی داغ لازم داره. دنبال سه تا نقطه بگرد.",
@@ -98,9 +98,9 @@
      "keywords": [
       "creases",
       "cotton",
-      "steam",
-      "water",
-      "helps"
+      "three",
+      "helps",
+      "water"
      ],
      "suggestion": "More dots, more heat. One dot for silk, three for cotton. Have you got any water in it? Steam helps with creases.",
      "suggestionFa": "نقطهٔ بیشتر، گرمای بیشتر. یه نقطه برای ابریشم، سه تا برای نخ. توش آب ریختی؟ بخار به چروک‌ها کمک می‌کنه.",
@@ -147,10 +147,10 @@
     {
      "keywords": [
       "fingers",
-      "burned",
       "jumper",
-      "school",
-      "secret"
+      "burned",
+      "secret",
+      "school"
      ],
      "suggestion": "All mums know the secret! Mind your fingers. And don't leave the iron face down. Ryan burned a hole in his school jumper.",
      "suggestionFa": "همهٔ مامان‌ها راز را می‌دونن! مواظب انگشتات باش. و اتو را رو به پایین ول نکن. رایان یه سوراخ تو بلوز مدرسه‌اش سوزوند.",
@@ -171,11 +171,11 @@
    "branches": [
     {
      "keywords": [
+      "manager",
       "shirt's",
       "already",
-      "manager",
       "that's",
-      "jumper"
+      "better"
      ],
      "suggestion": "Poor jumper, more like. Look at that — the shirt's nearly done. That's much better! I look like a manager already.",
      "suggestionFa": "بلوز بیچاره بهتره بگی. اینو ببین — پیرهن تقریباً تموم شد. خیلی بهتر شد! همین الان شبیه مدیرها شدم.",
@@ -221,11 +221,11 @@
    "branches": [
     {
      "keywords": [
-      "because",
       "drivers",
+      "because",
       "pigeon",
       "twenty",
-      "never"
+      "years"
      ],
      "suggestion": "\"Why do you want to train new drivers?\" Because I've done it for twenty years and I've never hit a pigeon!",
      "suggestionFa": "«چرا می‌خوای رانندهٔ جدید آموزش بدی؟» چون بیست ساله این کار را می‌کنم و هیچ‌وقت به یه کبوتر هم نزدم!",

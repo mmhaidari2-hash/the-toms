@@ -33,8 +33,8 @@
     {
      "keywords": [
       "painted",
-      "fence",
       "first",
+      "fence",
       "never"
      ],
      "suggestion": "I've never painted a fence. What do I do first?",
@@ -135,8 +135,8 @@
    "branches": [
     {
      "keywords": [
-      "minutes",
       "already",
+      "minutes",
       "tired",
       "arm"
      ],
@@ -201,8 +201,8 @@
     {
      "keywords": [
       "along",
-      "wood",
-      "like"
+      "like",
+      "wood"
      ],
      "suggestion": "Along the wood. Like this?",
      "suggestionFa": "در جهت چوب. اینجوری؟",
@@ -214,8 +214,8 @@
      "keywords": [
       "dripped",
       "shoe",
-      "oops",
-      "late"
+      "late",
+      "oops"
      ],
      "suggestion": "Oops. Too late. I dripped on my shoe.",
      "suggestionFa": "اوه. دیر شد. رو کفشم چکه کرد.",
@@ -261,10 +261,10 @@
    "branches": [
     {
      "keywords": [
-      "fence",
-      "coats",
       "twice",
-      "whole"
+      "whole",
+      "coats",
+      "fence"
      ],
      "suggestion": "Two coats? The whole fence twice?",
      "suggestionFa": "دو لایه؟ کل نرده را دو بار؟",
@@ -331,8 +331,8 @@
     {
      "keywords": [
       "admiring",
-      "part",
       "like",
+      "part",
       "tea"
      ],
      "suggestion": "I like this part. Tea and admiring!",
@@ -422,8 +422,8 @@
    "branches": [
     {
      "keywords": [
-      "green",
       "hands",
+      "green",
       "late",
       "his"
      ],

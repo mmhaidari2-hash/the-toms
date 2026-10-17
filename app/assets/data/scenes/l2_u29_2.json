@@ -61,9 +61,9 @@
     {
      "keywords": [
       "longer",
-      "sides",
+      "means",
       "short",
-      "means"
+      "sides"
      ],
      "suggestion": "He means short at the sides, longer on top.",
      "suggestionFa": "منظورش بغل‌ها کوتاه، بالا بلندتره.",
@@ -212,10 +212,10 @@
     },
     {
      "keywords": [
+      "take",
       "will",
       "much",
-      "take",
-      "off"
+      "how"
      ],
      "suggestion": "How much will you take off the top?",
      "suggestionFa": "از بالا چقدر کوتاه می‌کنی؟",
@@ -254,8 +254,8 @@
     {
      "keywords": [
       "that's",
-      "much",
       "inch",
+      "much",
       "one"
      ],
      "suggestion": "One inch. OK, that's not much.",
@@ -316,8 +316,8 @@
     },
     {
      "keywords": [
-      "think",
       "looks",
+      "think",
       "good"
      ],
      "suggestion": "It looks good. What do you think, Ryan?",
@@ -339,8 +339,8 @@
    "branches": [
     {
      "keywords": [
-      "great",
       "looks",
+      "great",
       "ryan"
      ],
      "suggestion": "It looks great, Ryan!",
@@ -404,8 +404,8 @@
      "keywords": [
       "please",
       "ryan",
-      "pay",
-      "sal"
+      "sal",
+      "pay"
      ],
      "suggestion": "Ryan, pay Sal, please.",
      "suggestionFa": "رایان، پول سال را بده، لطفاً.",

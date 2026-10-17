@@ -46,8 +46,8 @@
    "branches": [
     {
      "keywords": [
-      "bonjour",
       "english",
+      "bonjour",
       "french",
       "speak",
       "only"
@@ -73,9 +73,9 @@
      "keywords": [
       "persian",
       "school",
-      "hello",
       "learn",
-      "say"
+      "hello",
+      "how"
      ],
      "suggestion": "We learn it at school. How do you say \"hello\" in Persian?",
      "suggestionFa": "تو مدرسه یاد می‌گیریم. «سلام» را فارسی چی میگن؟",
@@ -98,9 +98,9 @@
      "keywords": [
       "persian",
       "salaam",
-      "thank",
       "about",
-      "speak"
+      "speak",
+      "thank"
      ],
      "suggestion": "Sa-laam! Salaam! I can speak Persian now! What about \"thank you\"?",
      "suggestionFa": "سَ-لام! سلام! حالا من فارسی بلدم! «ممنون» چی؟",
@@ -125,7 +125,7 @@
       "persian",
       "that's",
       "french",
-      "merci"
+      "peasy"
      ],
      "suggestion": "Merci?! That's French! Persian is easy-peasy! Do you speak English at home?",
      "suggestionFa": "مرسی؟! این فرانسویه! فارسی خیلی آسونه! تو خونه انگلیسی حرف می‌زنی؟",
@@ -147,9 +147,9 @@
     {
      "keywords": [
       "football",
-      "there's",
       "english",
-      "talks",
+      "there's",
+      "telly",
       "daddy"
      ],
      "suggestion": "Ha! Daddy talks to the telly too. When there's football. Is English hard?",
@@ -173,9 +173,9 @@
      "keywords": [
       "spelling",
       "nobody",
-      "ellis",
       "knows",
-      "knife"
+      "knife",
+      "ellis"
      ],
      "suggestion": "Spelling IS hard. \"Knife\" has a K! Why? Nobody knows. Not even Miss Ellis.",
      "suggestionFa": "املا واقعاً سخته. «نایف» یه K داره! چرا؟ هیچ‌کس نمی‌دونه. حتی خانم الیس.",
@@ -200,7 +200,7 @@
       "persian",
       "clever",
       "salaam",
-      "merci"
+      "teach"
      ],
      "suggestion": "Yes! I'll teach you English, and you teach me Persian. Every day! Salaam! Merci! I'm so clever.",
      "suggestionFa": "آره! من بهت انگلیسی یاد میدم، تو بهم فارسی. هر روز! سلام! مرسی! من خیلی باهوشم.",

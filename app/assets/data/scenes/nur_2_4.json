@@ -224,8 +224,8 @@
     {
      "keywords": [
       "children",
-      "twelve",
-      "adults"
+      "adults",
+      "twelve"
      ],
      "suggestion": "Twelve children and two adults.",
      "suggestionFa": "دوازده بچه و دو بزرگسال.",
@@ -235,10 +235,10 @@
     },
     {
      "keywords": [
-      "three",
       "count",
-      "one",
-      "let"
+      "three",
+      "let",
+      "one"
      ],
      "suggestion": "Let me count: one, two, three…",
      "suggestionFa": "بذار بشمرم: یک، دو، سه…",

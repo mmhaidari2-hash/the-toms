@@ -86,8 +86,8 @@
     },
     {
      "keywords": [
-      "museum",
       "school",
+      "museum",
       "going",
       "trip"
      ],
@@ -128,9 +128,9 @@
     {
      "keywords": [
       "finishes",
-      "better",
       "monday",
-      "thirty"
+      "thirty",
+      "better"
      ],
      "suggestion": "Would Monday be better? He finishes school at three-thirty.",
      "suggestionFa": "دوشنبه بهتره؟ مدرسه‌اش سه و نیم تموم میشه.",
@@ -194,8 +194,8 @@
      "keywords": [
       "nineteenth",
       "perfect",
-      "instead",
-      "tuesday"
+      "tuesday",
+      "instead"
      ],
      "suggestion": "Monday the nineteenth, instead of Tuesday. Perfect.",
      "suggestionFa": "دوشنبه نوزدهم، به‌جای سه‌شنبه. عالی.",
@@ -205,8 +205,8 @@
     },
     {
      "keywords": [
-      "o'clock",
       "exactly",
+      "o'clock",
       "check",
       "four"
      ],
@@ -352,8 +352,8 @@
     {
      "keywords": [
       "mornings",
-      "better",
       "before",
+      "better",
       "work"
      ],
      "suggestion": "Mornings are better. Before work.",
@@ -366,8 +366,8 @@
      "keywords": [
       "monday",
       "could",
-      "same",
-      "time"
+      "come",
+      "same"
      ],
      "suggestion": "Could I come with Ryan on Monday? Same time?",
      "suggestionFa": "میشه دوشنبه با رایان بیام؟ همون ساعت؟",
@@ -405,10 +405,10 @@
    "branches": [
     {
      "keywords": [
-      "birds",
       "stone",
+      "birds",
       "know",
-      "one"
+      "two"
      ],
      "suggestion": "Two birds, one stone. I know that one!",
      "suggestionFa": "با یه تیر دو نشون. اینو بلدم!",

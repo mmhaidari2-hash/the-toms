@@ -19,8 +19,8 @@
    "branches": [
     {
      "keywords": [
-      "history",
       "natural",
+      "history",
       "museum"
      ],
      "suggestion": "The Natural History Museum!",
@@ -32,9 +32,9 @@
     {
      "keywords": [
       "kensington",
-      "south",
       "right",
-      "train"
+      "train",
+      "south"
      ],
      "suggestion": "South Kensington. Are we on the right train?",
      "suggestionFa": "ساوت کنزینگتون. قطارمون درسته؟",
@@ -116,10 +116,10 @@
    "branches": [
     {
      "keywords": [
-      "listen",
       "change",
-      "here",
-      "i'll"
+      "listen",
+      "i'll",
+      "here"
      ],
      "suggestion": "\"Change here for…\" I'll listen for it.",
      "suggestionFa": "«برای… اینجا عوض کنید». گوش می‌دم.",
@@ -177,8 +177,8 @@
      "keywords": [
       "sandwich",
       "subway",
-      "shop",
-      "like"
+      "like",
+      "shop"
      ],
      "suggestion": "\"Subway\"? Like the sandwich shop?",
      "suggestionFa": "«ساب‌وی»؟ مثل ساندویچ‌فروشی؟",
@@ -278,8 +278,8 @@
     {
      "keywords": [
       "nicola",
-      "hold",
-      "hand"
+      "hand",
+      "hold"
      ],
      "suggestion": "Nicola, hold my hand!",
      "suggestionFa": "نیکولا، دستم را بگیر!",

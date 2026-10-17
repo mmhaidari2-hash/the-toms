@@ -67,9 +67,9 @@
    "branches": [
     {
      "keywords": [
-      "course",
+      "what's",
       "number",
-      "what's"
+      "course"
      ],
      "suggestion": "Of course. What's the order number?",
      "suggestionFa": "حتماً. شمارهٔ سفارش چنده؟",
@@ -129,8 +129,8 @@
     {
      "keywords": [
       "calling",
-      "about",
       "order",
+      "about",
       "late"
      ],
      "suggestion": "Hi. I'm calling about order 2479. It's very late.",
@@ -183,7 +183,7 @@
       "minutes",
       "driver",
       "five",
-      "he's"
+      "away"
      ],
      "suggestion": "They said the driver got lost. He's five minutes away.",
      "suggestionFa": "گفتن راننده گم شده. پنج دقیقه فاصله داره.",
@@ -230,8 +230,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "didn't",
+      "should",
       "call",
       "back"
      ],
@@ -347,8 +347,8 @@
      "keywords": [
       "cookies",
       "added",
-      "they",
-      "free"
+      "free",
+      "they"
      ],
      "suggestion": "It's hot! And they added free cookies.",
      "suggestionFa": "داغه! و کلوچهٔ مجانی هم گذاشتن.",

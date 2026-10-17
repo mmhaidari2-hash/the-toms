@@ -151,7 +151,7 @@
       "enough",
       "check",
       "text",
-      "six"
+      "mum"
      ],
      "suggestion": "Six is enough. Text your mum to check.",
      "suggestionFa": "شش تا کافیه. به مامانت پیام بده چک کن.",
@@ -313,8 +313,8 @@
     {
      "keywords": [
       "shall",
-      "many",
       "here",
+      "many",
       "how"
      ],
      "suggestion": "Yes, here. How many shall I get?",
@@ -360,8 +360,8 @@
    "branches": [
     {
      "keywords": [
-      "let's",
       "great",
+      "let's",
       "till",
       "go"
      ],
@@ -425,8 +425,8 @@
      "keywords": [
       "back",
       "ryan",
-      "put",
-      "way"
+      "way",
+      "put"
      ],
      "suggestion": "No way! Put it back, Ryan.",
      "suggestionFa": "به هیچ وجه! برش گردون رایان.",

@@ -1,0 +1,291 @@
+{
+ "id": "l2_u58_4",
+ "characterId": "leslie",
+ "title": "What did you think?",
+ "titleFa": "نظرت چه بود؟",
+ "setting": "Cinema and TV · Level 2",
+ "settingFa": "سینما و تلویزیون",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "So? Be honest. What did you think? You were very quiet at the end. Were you crying? I was crying.",
+   "translations": {
+    "fa": "خب؟ صادق باش. نظرت چی بود؟ آخرش خیلی ساکت بودی. گریه می‌کردی؟ من گریه می‌کردم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wonderful",
+      "thought",
+      "little",
+      "maybe"
+     ],
+     "suggestion": "I thought it was wonderful. And yes — maybe a little.",
+     "suggestionFa": "به نظرم فوق‌العاده بود. و آره — شاید یه کم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "funny",
+      "end",
+      "sad",
+      "bit"
+     ],
+     "suggestion": "It was funny, but a bit sad at the end.",
+     "suggestionFa": "خنده‌دار بود، ولی آخرش یه کم غم‌انگیز بود.",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "be honest",
+     "fa": "صادق باش"
+    },
+    {
+     "word": "quiet",
+     "fa": "ساکت"
+    },
+    {
+     "word": "crying",
+     "fa": "گریه کردن"
+    },
+    {
+     "word": "wonderful",
+     "fa": "فوق‌العاده"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i think it is wonderful film",
+      "i was thinking it wonderful"
+     ],
+     "echo": "You thought it was wonderful? Me too!",
+     "better": "I thought it was wonderful.",
+     "betterFa": "به نظرم فوق‌العاده بود."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Everyone cries at Paddington. It's the rules. What was the best bit for you? Mine's the prison scene. Pink uniforms!",
+   "translations": {
+    "fa": "همه سر پدینگتون گریه می‌کنن. قانونه. بهترین قسمتش برای تو چی بود؟ مال من صحنهٔ زندانه. لباس‌های صورتی!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "marmalade",
+      "prison"
+     ],
+     "suggestion": "The best bit was the marmalade in the prison.",
+     "suggestionFa": "بهترین قسمتش مارمالاد تو زندان بود.",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "family",
+      "helped",
+      "when",
+      "him"
+     ],
+     "suggestion": "The best bit was when the family helped him.",
+     "suggestionFa": "بهترین قسمتش وقتی بود که خانواده کمکش کردن.",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rules",
+     "fa": "قوانین"
+    },
+    {
+     "word": "best bit",
+     "fa": "بهترین قسمت"
+    },
+    {
+     "word": "prison",
+     "fa": "زندان"
+    },
+    {
+     "word": "uniforms",
+     "fa": "لباس‌های فرم"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "Oh, that's lovely. The family who takes in a stranger. A bit like us, really. Mrs Brown is basically me.",
+   "translations": {
+    "fa": "اوه، چه قشنگ. خانواده‌ای که یه غریبه را قبول می‌کنه. یه کم مثل ما، راستش. خانم براون عملاً منم."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "basically",
+      "brown",
+      "tom",
+      "mr"
+     ],
+     "suggestion": "And Mr Brown is basically Tom!",
+     "suggestionFa": "و آقای براون عملاً تامه!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "thompsons",
+      "browns",
+      "like"
+     ],
+     "suggestion": "The Browns are like the Thompsons!",
+     "suggestionFa": "خانوادهٔ براون مثل تامپسون‌هاست!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "takes in",
+     "fa": "پناه می‌دهد ؛ می‌پذیرد"
+    },
+    {
+     "word": "stranger",
+     "fa": "غریبه"
+    },
+    {
+     "word": "basically",
+     "fa": "عملاً"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Ha! Tom's sillier. Now, the big question: was it better than the first one? Tom says the first one's better. He's wrong.",
+   "translations": {
+    "fa": "ها! تام خل‌وضع‌تره. حالا سؤال بزرگ: از اولی بهتر بود؟ تام میگه اولی بهتره. اشتباه می‌کنه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "haven't",
+      "first",
+      "seen"
+     ],
+     "suggestion": "I haven't seen the first one.",
+     "suggestionFa": "اولی را ندیدم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "funnier",
+      "better",
+      "think",
+      "was"
+     ],
+     "suggestion": "I think this one was better. Funnier.",
+     "suggestionFa": "به نظرم این یکی بهتر بود. خنده‌دارتر.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "sillier",
+     "fa": "خل‌وضع‌تر ؛ بامزه‌تر"
+    },
+    {
+     "word": "better than",
+     "fa": "بهتر از"
+    },
+    {
+     "word": "wrong",
+     "fa": "اشتباه"
+    }
+   ],
+   "cultureNote": {
+    "en": "To compare films: \"It wasn't as good as the first one\" or \"It was even better than…\". British people often say \"It was all right\" when they mean \"quite good\".",
+    "fa": "برای مقایسه: «به خوبی اولی نبود» یا «حتی بهتر از … بود». «It was all right» یعنی نسبتاً خوب."
+   }
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "Then we must watch the first one next Friday. And Paddington 3. Would you give it stars? Out of five?",
+   "translations": {
+    "fa": "پس جمعهٔ بعد باید اولی را ببینیم. و پدینگتون ۳. بهش ستاره میدی؟ از پنج؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "definitely",
+      "stars",
+      "five"
+     ],
+     "suggestion": "Five stars! Definitely.",
+     "suggestionFa": "پنج ستاره! قطعاً.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "scene",
+      "half",
+      "four",
+      "long"
+     ],
+     "suggestion": "Four and a half. The bus scene was too long!",
+     "suggestionFa": "چهار و نیم. صحنهٔ اتوبوس زیادی طولانی بود!",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "stars",
+     "fa": "ستاره‌ها"
+    },
+    {
+     "word": "out of five",
+     "fa": "از پنج"
+    },
+    {
+     "word": "definitely",
+     "fa": "قطعاً"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Don't let Tom hear you criticise a bus scene. He'll be offended for a week. Right — same time next Friday?",
+   "translations": {
+    "fa": "نذار تام بشنوه از صحنهٔ اتوبوس ایراد می‌گیری. یه هفته دلخور میشه. خب — جمعهٔ بعد همین موقع؟"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

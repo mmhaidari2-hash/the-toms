@@ -23,8 +23,8 @@
      "keywords": [
       "welcome",
       "posters",
-      "sorry",
       "messy",
+      "sorry",
       "come"
      ],
      "suggestion": "Come in! Welcome to my room. Sorry, it's a bit messy. Do you like my posters?",
@@ -149,7 +149,7 @@
       "what's",
       "later",
       "games",
-      "desk"
+      "song"
      ],
      "suggestion": "Play me a song later! What's that on my desk? Oh, my old games console.",
      "suggestionFa": "بعداً یه آهنگ برام بذار! اون رو میزم چیه؟ آه، کنسول بازی قدیمیم.",
@@ -197,9 +197,9 @@
      "keywords": [
       "pigsty",
       "means",
-      "home",
-      "tidy",
-      "room"
+      "pigs",
+      "room",
+      "tidy"
      ],
      "suggestion": "Ha! She says my room is a \"pigsty\". That means a home for pigs. Is your room tidy?",
      "suggestionFa": "ها! می‌گه اتاقم «خوکدونیه». یعنی خونهٔ خوک‌ها. اتاق تو مرتبه؟",
@@ -220,11 +220,11 @@
    "branches": [
     {
      "keywords": [
-      "joking",
       "crisps",
+      "joking",
       "let's",
-      "then",
-      "tidy"
+      "come",
+      "just"
      ],
      "suggestion": "Good. Then you can tidy mine! Just joking. Come on, let's go and get some crisps.",
      "suggestionFa": "خوبه. پس می‌تونی مال منو مرتب کنی! شوخی کردم. بیا، بریم یه کم چیپس بگیریم.",

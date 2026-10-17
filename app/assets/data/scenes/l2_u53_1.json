@@ -21,8 +21,8 @@
      "keywords": [
       "anyone",
       "only",
-      "use",
-      "now"
+      "now",
+      "use"
      ],
      "suggestion": "Cash only? Does anyone use cash now?",
      "suggestionFa": "فقط نقد؟ الان کسی نقد استفاده می‌کنه؟",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "always",
-      "little",
       "should",
+      "little",
       "carry"
      ],
      "suggestion": "So I should always carry a little cash.",
@@ -133,7 +133,7 @@
       "cashpoint",
       "charges",
       "nearby",
-      "there"
+      "money"
      ],
      "suggestion": "It charges money? Is there a free cashpoint nearby?",
      "suggestionFa": "پول می‌گیره؟ این نزدیکی خودپرداز رایگان هست؟",
@@ -144,9 +144,9 @@
     {
      "keywords": [
       "ninety",
-      "nine",
       "just",
-      "cash"
+      "cash",
+      "nine"
      ],
      "suggestion": "One ninety-nine just to get cash?",
      "suggestionFa": "یک و نود و نه فقط برای گرفتن پول؟",
@@ -196,8 +196,8 @@
     {
      "keywords": [
       "coffee",
-      "there",
       "let's",
+      "there",
       "then"
      ],
      "suggestion": "OK. Then let's get a coffee. Can I pay by card there?",
@@ -209,8 +209,8 @@
     {
      "keywords": [
       "cashpoints",
-      "good",
       "free",
+      "good",
       "bank"
      ],
      "suggestion": "Good tip. Bank cashpoints are free.",
@@ -250,9 +250,9 @@
     {
      "keywords": [
       "taking",
-      "time",
+      "long",
       "need",
-      "long"
+      "help"
      ],
      "suggestion": "Do you need help? You're taking a long time!",
      "suggestionFa": "کمک لازم داری؟ خیلی طولش دادی!",
@@ -314,8 +314,8 @@
     },
     {
      "keywords": [
-      "thirty",
       "market",
+      "thirty",
       "take",
       "i'll"
      ],

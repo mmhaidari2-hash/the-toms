@@ -77,9 +77,9 @@
    "branches": [
     {
      "keywords": [
-      "slowly",
       "though",
-      "start",
+      "slowly",
+      "great",
       "speak"
      ],
      "suggestion": "Great start. Speak a bit more slowly, though.",
@@ -93,7 +93,7 @@
       "explain",
       "good",
       "made",
-      "now"
+      "why"
      ],
      "suggestion": "Good. Now explain why you made it.",
      "suggestionFa": "خوبه. حالا توضیح بده چرا ساختیش.",
@@ -133,8 +133,8 @@
      "keywords": [
       "works",
       "show",
-      "them",
-      "nice"
+      "nice",
+      "them"
      ],
      "suggestion": "Nice. Can you show them how it works?",
      "suggestionFa": "خوبه. می‌تونی نشونشون بدی چطور کار می‌کنه؟",
@@ -144,8 +144,8 @@
     },
     {
      "keywords": [
-      "charge",
       "number",
+      "charge",
       "maybe",
       "take"
      ],
@@ -190,9 +190,9 @@
     {
      "keywords": [
       "judges",
-      "love",
+      "joke",
       "will",
-      "joke"
+      "love"
      ],
      "suggestion": "Ha! The judges will love that joke.",
      "suggestionFa": "ها! داورها عاشق این شوخی میشن.",
@@ -204,8 +204,8 @@
      "keywords": [
       "finish",
       "going",
-      "how",
-      "now"
+      "now",
+      "how"
      ],
      "suggestion": "Now, how are you going to finish?",
      "suggestionFa": "حالا، چطوری می‌خوای تمومش کنی؟",
@@ -256,8 +256,8 @@
     },
     {
      "keywords": [
-      "you'll",
       "really",
+      "you'll",
       "great",
       "good"
      ],

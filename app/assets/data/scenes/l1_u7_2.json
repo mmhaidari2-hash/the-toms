@@ -73,8 +73,8 @@
      "keywords": [
       "pints",
       "milk",
-      "two",
-      "got"
+      "got",
+      "two"
      ],
      "suggestion": "Two pints of milk. Got it!",
      "suggestionFa": "دو پاینت شیر. فهمیدم!",
@@ -135,10 +135,10 @@
     },
     {
      "keywords": [
-      "washing",
       "where's",
-      "liquid",
-      "please"
+      "washing",
+      "please",
+      "liquid"
      ],
      "suggestion": "Yes, please. Where's the washing-up liquid?",
      "suggestionFa": "بله لطفاً. مایع ظرفشویی کجاست؟",
@@ -168,8 +168,8 @@
    "branches": [
     {
      "keywords": [
-      "normal",
       "that's",
+      "normal",
       "eggs",
       "fine"
      ],
@@ -278,8 +278,8 @@
      "keywords": [
       "crisps",
       "have",
-      "any",
-      "got"
+      "got",
+      "any"
      ],
      "suggestion": "Have you got any crisps?",
      "suggestionFa": "چیپس دارید؟",

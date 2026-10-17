@@ -72,8 +72,8 @@
    "branches": [
     {
      "keywords": [
-      "hours",
       "awake",
+      "hours",
       "get",
       "lie"
      ],
@@ -149,8 +149,8 @@
     },
     {
      "keywords": [
-      "family",
       "tehran",
+      "family",
       "later",
       "talk"
      ],
@@ -248,8 +248,8 @@
      "keywords": [
       "chamomile",
       "drinks",
-      "mum",
-      "tea"
+      "tea",
+      "mum"
      ],
      "suggestion": "Chamomile tea. My mum drinks that.",
      "suggestionFa": "چای بابونه. مامانم اینو می‌خوره.",
@@ -262,7 +262,7 @@
       "haven't",
       "months",
       "paper",
-      "book"
+      "read"
      ],
      "suggestion": "A paper book? I haven't read one for months!",
      "suggestionFa": "کتاب کاغذی؟ ماه‌هاست یکی نخوندم!",
@@ -302,8 +302,8 @@
      "keywords": [
       "weekends",
       "that's",
-      "hard",
-      "even"
+      "even",
+      "hard"
      ],
      "suggestion": "Even at weekends? That's hard too!",
      "suggestionFa": "حتی آخر هفته؟ اونم سخته!",
@@ -356,8 +356,8 @@
      "keywords": [
       "earlier",
       "family",
-      "i'll",
-      "call"
+      "call",
+      "i'll"
      ],
      "suggestion": "I hope so. I'll call my family earlier.",
      "suggestionFa": "امیدوارم. زودتر به خانواده‌ام زنگ می‌زنم.",
@@ -368,8 +368,8 @@
     {
      "keywords": [
       "promise",
-      "after",
       "phone",
+      "after",
       "ten"
      ],
      "suggestion": "OK. No phone after ten. I promise.",

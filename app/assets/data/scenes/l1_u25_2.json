@@ -218,8 +218,8 @@
    "branches": [
     {
      "keywords": [
-      "well",
       "done",
+      "well",
       "did"
      ],
      "suggestion": "Well done! You did it!",
@@ -274,8 +274,8 @@
     {
      "keywords": [
       "laces",
-      "can",
-      "tie"
+      "tie",
+      "can"
      ],
      "suggestion": "Can you tie laces?",
      "suggestionFa": "بند کفش را می‌تونی ببندی؟",
@@ -311,8 +311,8 @@
      "keywords": [
       "bunny",
       "loops",
-      "like",
-      "ears"
+      "make",
+      "like"
      ],
      "suggestion": "Make two loops, like bunny ears.",
      "suggestionFa": "دو تا حلقه درست کن، مثل گوش خرگوش.",
@@ -323,9 +323,9 @@
     {
      "keywords": [
       "cross",
+      "pull",
       "them",
-      "over",
-      "pull"
+      "over"
      ],
      "suggestion": "Cross them over and pull.",
      "suggestionFa": "ضربدری‌شون کن و بکش.",

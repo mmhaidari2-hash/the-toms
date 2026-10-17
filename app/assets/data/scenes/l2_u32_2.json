@@ -32,8 +32,8 @@
     },
     {
      "keywords": [
-      "unfit",
       "ready",
+      "unfit",
       "bit"
      ],
      "suggestion": "I'm ready. I'm a bit unfit!",
@@ -82,8 +82,8 @@
     },
     {
      "keywords": [
-      "sure",
       "make",
+      "sure",
       "ok"
      ],
      "suggestion": "Make sure I clip it. OK!",
@@ -135,8 +135,8 @@
      "keywords": [
       "walking",
       "easy",
-      "can",
-      "run"
+      "run",
+      "can"
      ],
      "suggestion": "Walking is easy. Can I run?",
      "suggestionFa": "راه رفتن آسونه. می‌تونم بدوم؟",
@@ -198,9 +198,9 @@
     {
      "keywords": [
       "every",
-      "time",
       "wipe",
-      "i'll"
+      "i'll",
+      "time"
      ],
      "suggestion": "I'll wipe it. Every time.",
      "suggestionFa": "تمیزش می‌کنم. هر بار.",
@@ -242,8 +242,8 @@
    "branches": [
     {
      "keywords": [
-      "should",
       "that's",
+      "should",
       "times",
       "lift"
      ],
@@ -255,8 +255,8 @@
     },
     {
      "keywords": [
-      "someone",
       "machine",
+      "someone",
       "share",
       "can"
      ],

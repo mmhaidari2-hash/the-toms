@@ -129,8 +129,8 @@
     {
      "keywords": [
       "please",
-      "lots",
-      "salt"
+      "salt",
+      "lots"
      ],
      "suggestion": "Yes, please. With lots of salt!",
      "suggestionFa": "آره، لطفاً. با کلی نمک!",
@@ -176,8 +176,8 @@
     {
      "keywords": [
       "please",
-      "just",
-      "salt"
+      "salt",
+      "just"
      ],
      "suggestion": "Just salt, please. No vinegar.",
      "suggestionFa": "فقط نمک، لطفاً. سرکه نه.",
@@ -222,10 +222,10 @@
    "branches": [
     {
      "keywords": [
-      "nice",
       "sour",
-      "but",
-      "mmm"
+      "nice",
+      "mmm",
+      "but"
      ],
      "suggestion": "Mmm! It's sour but nice!",
      "suggestionFa": "ممم! ترشه ولی خوبه!",
@@ -271,8 +271,8 @@
    "branches": [
     {
      "keywords": [
-      "ketchup",
       "bananas",
+      "ketchup",
       "yuck"
      ],
      "suggestion": "Bananas with ketchup? Yuck!",
@@ -319,8 +319,8 @@
     {
      "keywords": [
       "sometimes",
-      "them",
       "rice",
+      "them",
       "eat"
      ],
      "suggestion": "Yes, but we eat them with rice sometimes!",

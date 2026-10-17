@@ -1,0 +1,342 @@
+{
+ "id": "l2_u59_1",
+ "characterId": "tom",
+ "title": "Watching the match",
+ "titleFa": "تماشای مسابقه",
+ "setting": "Football fan · Level 2",
+ "settingFa": "طرفدار فوتبال",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "tom",
+   "text": "North London derby! Arsenal versus Spurs. The Red Lion's packed. I've saved you a stool. Pint of lemonade?",
+   "translations": {
+    "fa": "دربی شمال لندن! آرسنال مقابل اسپرز. رد لاین پره. یه چهارپایه برات نگه داشتم. یه لیوان لیموناد؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "what's",
+      "please",
+      "score"
+     ],
+     "suggestion": "Yes, please. What's the score?",
+     "suggestionFa": "آره، لطفاً. نتیجه چنده؟",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "winning",
+      "thanks",
+      "who's"
+     ],
+     "suggestion": "Thanks! Who's winning?",
+     "suggestionFa": "ممنون! کی داره می‌بره؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "derby",
+     "fa": "دربی (بازی دو تیم هم‌شهری)"
+    },
+    {
+     "word": "versus",
+     "fa": "مقابل"
+    },
+    {
+     "word": "packed",
+     "fa": "شلوغ ؛ پر"
+    },
+    {
+     "word": "stool",
+     "fa": "چهارپایه"
+    },
+    {
+     "word": "score",
+     "fa": "نتیجه"
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "tom",
+   "text": "Nil-nil. Twenty minutes gone. Arsenal in red — that's us. Spurs in white. Ryan's at his mate's, texting me every thirty seconds.",
+   "translations": {
+    "fa": "صفر صفر. بیست دقیقه گذشته. آرسنال قرمز — ما هستیم. اسپرز سفید. رایان خونهٔ دوستشه، هر سی ثانیه بهم پیام میده."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "moment",
+      "draw"
+     ],
+     "suggestion": "Nil-nil. So it's a draw at the moment?",
+     "suggestionFa": "صفر صفر. پس فعلاً مساویه؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "zero",
+      "why"
+     ],
+     "suggestion": "Why \"nil\" and not \"zero\"?",
+     "suggestionFa": "چرا «نیل» و نه «زیرو»؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "nil",
+     "fa": "صفر (در نتیجهٔ فوتبال)"
+    },
+    {
+     "word": "gone",
+     "fa": "گذشته"
+    },
+    {
+     "word": "mate's",
+     "fa": "خانهٔ دوست"
+    },
+    {
+     "word": "texting",
+     "fa": "پیام دادن"
+    }
+   ],
+   "cultureNote": {
+    "en": "In British football, \"0\" is \"nil\". 2–0 is \"two-nil\". A draw is when both teams have the same score, e.g. \"one-all\".",
+    "fa": "در فوتبال بریتانیا صفر را «nil» می‌گویند و مساوی مثل یک-یک را «one-all»."
+   }
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "tom",
+   "text": "That's just how we say it. Two-nil, three-nil… Oh! OH! That was a foul! Ref! Are you blind?!",
+   "translations": {
+    "fa": "همین‌جوری میگیم دیگه. دو-صفر، سه-صفر… اوه! اوه! خطا بود! داور! کوری؟!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "fell",
+      "just",
+      "over",
+      "he"
+     ],
+     "suggestion": "Was it a foul? He just fell over!",
+     "suggestionFa": "خطا بود؟ فقط افتاد!",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "definitely"
+     ],
+     "suggestion": "Yes! That was definitely a foul!",
+     "suggestionFa": "آره! قطعاً خطا بود!",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "foul",
+     "fa": "خطا"
+    },
+    {
+     "word": "ref",
+     "fa": "داور (عامیانه)"
+    },
+    {
+     "word": "blind",
+     "fa": "کور"
+    },
+    {
+     "word": "fell over",
+     "fa": "زمین خورد"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "it was foul",
+      "that is a foul"
+     ],
+     "echo": "That was a foul! Free kick!",
+     "better": "That was a foul!",
+     "betterFa": "خطا بود!"
+    }
+   ]
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "tom",
+   "text": "Free kick to Arsenal! Right on the edge of the box. Saka's taking it. Come on, Saka… come on…",
+   "translations": {
+    "fa": "ضربهٔ آزاد برای آرسنال! درست لب محوطه. ساکا می‌زنه. یالا ساکا… یالا…"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "arsenal",
+      "come"
+     ],
+     "suggestion": "Come on, Arsenal!",
+     "suggestionFa": "یالا آرسنال!",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "which",
+      "saka",
+      "one"
+     ],
+     "suggestion": "Which one is Saka?",
+     "suggestionFa": "ساکا کدومه؟",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "free kick",
+     "fa": "ضربهٔ آزاد"
+    },
+    {
+     "word": "edge",
+     "fa": "لبه"
+    },
+    {
+     "word": "the box",
+     "fa": "محوطهٔ جریمه"
+    },
+    {
+     "word": "come on",
+     "fa": "یالا"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "tom",
+   "text": "GOAAAL! Get IN! One-nil! Did you see that?! Top corner! The whole pub's jumping. Dave's spilled his pint!",
+   "translations": {
+    "fa": "گووول! آره! یک-صفر! دیدی؟! گوشهٔ بالا! کل پاب داره بالا پایین می‌پره. دیو لیوانش را ریخت!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "brilliant",
+      "goal"
+     ],
+     "suggestion": "What a goal! Brilliant!",
+     "suggestionFa": "چه گلی! فوق‌العاده!",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "dave",
+      "get",
+      "ok"
+     ],
+     "suggestion": "Get in! Is Dave OK?",
+     "suggestionFa": "آره! دیو حالش خوبه؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "get in",
+     "fa": "آره! (هیجان گل)"
+    },
+    {
+     "word": "top corner",
+     "fa": "گوشهٔ بالای دروازه"
+    },
+    {
+     "word": "jumping",
+     "fa": "پریدن"
+    },
+    {
+     "word": "spilled",
+     "fa": "ریخت"
+    }
+   ]
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "tom",
+   "text": "Dave? He's Orient, he doesn't care. He just likes a celebration. Oh — my phone. Ryan: \"GET IN!!!!\" Eight exclamation marks.",
+   "translations": {
+    "fa": "دیو؟ اون طرفدار اورینته، براش مهم نیست. فقط جشن دوست داره. اوه — گوشیم. رایان: «آره!!!!» هشت تا علامت تعجب."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "tell",
+      "said",
+      "get",
+      "him"
+     ],
+     "suggestion": "Ha! Tell him I said \"Get in\" too!",
+     "suggestionFa": "ها! بهش بگو منم گفتم آره!",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "left",
+      "long",
+      "how"
+     ],
+     "suggestion": "How long is left?",
+     "suggestionFa": "چقدر مونده؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "celebration",
+     "fa": "جشن ؛ شادی"
+    },
+    {
+     "word": "exclamation marks",
+     "fa": "علامت تعجب"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "tom",
+   "text": "Seventy minutes! Too long. My heart can't take it. Another lemonade? This could be a long afternoon.",
+   "translations": {
+    "fa": "هفتاد دقیقه! خیلی زیاده. قلبم طاقت نداره. یه لیموناد دیگه؟ این می‌تونه یه بعدازظهر طولانی بشه."
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

@@ -34,8 +34,8 @@
      "keywords": [
       "letter",
       "could",
-      "read",
-      "help"
+      "help",
+      "read"
      ],
      "suggestion": "Could you help me read this letter?",
      "suggestionFa": "می‌تونید کمکم کنید این نامه را بخونم؟",
@@ -73,8 +73,8 @@
    "branches": [
     {
      "keywords": [
-      "return",
       "what's",
+      "return",
       "tax"
      ],
      "suggestion": "What's a tax return?",
@@ -86,8 +86,8 @@
     {
      "keywords": [
       "order",
-      "here",
-      "mean"
+      "mean",
+      "here"
      ],
      "suggestion": "And what does \"in order to\" mean here?",
      "suggestionFa": "و اینجا «in order to» یعنی چی؟",
@@ -177,8 +177,8 @@
    "branches": [
     {
      "keywords": [
-      "fine",
       "much",
+      "fine",
       "how"
      ],
      "suggestion": "How much is the fine?",

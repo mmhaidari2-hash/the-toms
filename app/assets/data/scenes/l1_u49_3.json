@@ -80,9 +80,9 @@
     {
      "keywords": [
       "small",
-      "o",
       "c",
-      "l"
+      "l",
+      "o"
      ],
      "suggestion": "And small i, c, o, l, a.",
      "suggestionFa": "و i، c، o، l، a کوچیک.",
@@ -128,8 +128,8 @@
     {
      "keywords": [
       "write",
-      "copy",
-      "i'll"
+      "i'll",
+      "copy"
      ],
      "suggestion": "I'll write it, and you copy it.",
      "suggestionFa": "من می‌نویسمش، تو ازش رونویسی کن.",
@@ -160,8 +160,8 @@
     {
      "keywords": [
       "right",
-      "left",
       "goes",
+      "left",
       "from"
      ],
      "suggestion": "Sure. Persian goes from right to left.",

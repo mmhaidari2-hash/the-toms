@@ -87,8 +87,8 @@
     {
      "keywords": [
       "negotiable",
-      "that's",
       "budget",
+      "that's",
       "over"
      ],
      "suggestion": "That's a bit over my budget. Is it negotiable?",
@@ -185,8 +185,8 @@
     {
      "keywords": [
       "exactly",
-      "clause",
       "what's",
+      "clause",
       "break"
      ],
      "suggestion": "What's a break clause, exactly?",
@@ -295,8 +295,8 @@
      "keywords": [
       "mould",
       "there",
-      "flat",
-      "damp"
+      "damp",
+      "flat"
      ],
      "suggestion": "No. Is there any damp or mould in the flat?",
      "suggestionFa": "نه. تو آپارتمان رطوبت یا کپک هست؟",
@@ -347,8 +347,8 @@
      "keywords": [
       "bathroom",
       "ceiling",
-      "can",
-      "see"
+      "see",
+      "can"
      ],
      "suggestion": "Can I see the bathroom ceiling?",
      "suggestionFa": "می‌تونم سقف حموم را ببینم؟",
@@ -358,9 +358,9 @@
     },
     {
      "keywords": [
-      "energy",
-      "rating",
       "what's",
+      "rating",
+      "energy",
       "flat"
      ],
      "suggestion": "What's the energy rating of the flat?",
@@ -401,8 +401,8 @@
      "keywords": [
       "logistics",
       "company",
-      "time",
-      "full"
+      "full",
+      "work"
      ],
      "suggestion": "I work full-time at a logistics company.",
      "suggestionFa": "تمام‌وقت تو یه شرکت لجستیک کار می‌کنم.",
@@ -449,10 +449,10 @@
    "branches": [
     {
      "keywords": [
-      "that's",
       "strict",
       "thirty",
-      "quite"
+      "that's",
+      "times"
      ],
      "suggestion": "Thirty times? That's quite strict.",
      "suggestionFa": "سی برابر؟ نسبتاً سختگیرانه‌ست.",
@@ -464,8 +464,8 @@
      "keywords": [
       "guarantor",
       "need",
-      "one",
-      "can"
+      "tom",
+      "one"
      ],
      "suggestion": "Can Tom be a guarantor if I need one?",
      "suggestionFa": "اگه لازم شد تام می‌تونه ضامن بشه؟",

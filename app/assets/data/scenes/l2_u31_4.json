@@ -85,8 +85,8 @@
      "keywords": [
       "wrong",
       "freya",
-      "they",
-      "look"
+      "look",
+      "they"
      ],
      "suggestion": "Freya is wrong. They just look.",
      "suggestionFa": "فریا اشتباه می‌کنه. فقط نگاه می‌کنن.",
@@ -228,10 +228,10 @@
    "branches": [
     {
      "keywords": [
-      "count",
       "let's",
-      "four",
-      "five"
+      "count",
+      "five",
+      "four"
      ],
      "suggestion": "Let's count, Nicola! Four, five, six…",
      "suggestionFa": "بیا بشمریم نیکولا! چهار، پنج، شش…",
@@ -241,9 +241,9 @@
     },
     {
      "keywords": [
-      "roar",
       "lion",
       "like",
+      "roar",
       "big"
      ],
      "suggestion": "Roar, Nicola! Like a big lion.",
@@ -284,8 +284,8 @@
      "keywords": [
       "wobbly",
       "tooth",
-      "well",
-      "done"
+      "done",
+      "well"
      ],
      "suggestion": "A wobbly tooth! Well done, Nicola!",
      "suggestionFa": "دندون لق! آفرین نیکولا!",
@@ -322,10 +322,10 @@
    "branches": [
     {
      "keywords": [
+      "tooth",
       "fairy",
       "bring",
-      "tooth",
-      "will"
+      "coin"
      ],
      "suggestion": "Yes! The tooth fairy will bring a coin.",
      "suggestionFa": "آره! پری دندون یه سکه میاره.",
@@ -381,8 +381,8 @@
     {
      "keywords": [
       "nicola",
-      "sweets",
       "leslie",
+      "sweets",
       "eats"
      ],
      "suggestion": "Leslie, Nicola eats a lot of sweets!",
@@ -447,8 +447,8 @@
     {
      "keywords": [
       "choose",
-      "good",
       "girl",
+      "good",
       "one"
      ],
      "suggestion": "Good girl, Nicola. Choose one!",

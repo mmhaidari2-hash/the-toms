@@ -1,0 +1,367 @@
+{
+ "id": "l2_u61_1",
+ "characterId": "leslie",
+ "title": "A twisted ankle",
+ "titleFa": "پیچ خوردن مچ پا",
+ "setting": "Accidents and injuries · Level 2",
+ "settingFa": "حادثه و آسیب",
+ "requires": null,
+ "start": "n1",
+ "level": "A2",
+ "nodes": {
+  "n1": {
+   "id": "n1",
+   "speaker": "leslie",
+   "text": "Ow! Ow, ow, ow. I've twisted my ankle. Netball. I jumped for the ball and landed on someone's foot. Can you help me to the sofa?",
+   "translations": {
+    "fa": "آخ! آخ، آخ، آخ. مچ پام پیچ خورد. نت‌بال. برای توپ پریدم و رو پای یکی فرود اومدم. کمکم می‌کنی برم رو مبل؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "slowly",
+      "course",
+      "lean"
+     ],
+     "suggestion": "Of course. Lean on me. Slowly.",
+     "suggestionFa": "البته. به من تکیه کن. آروم.",
+     "trustDelta": 6,
+     "next": "n2",
+     "success": true
+    },
+    {
+     "keywords": [
+      "hurt",
+      "lot",
+      "oh"
+     ],
+     "suggestion": "Oh no! Does it hurt a lot?",
+     "suggestionFa": "وای نه! خیلی درد می‌کنه؟",
+     "trustDelta": 5,
+     "next": "n2",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "twisted",
+     "fa": "پیچ خورده"
+    },
+    {
+     "word": "ankle",
+     "fa": "مچ پا"
+    },
+    {
+     "word": "netball",
+     "fa": "نت‌بال"
+    },
+    {
+     "word": "landed",
+     "fa": "فرود آمدم"
+    },
+    {
+     "word": "lean on",
+     "fa": "تکیه کردن"
+    }
+   ],
+   "recasts": [
+    {
+     "match": [
+      "i twisted the my ankle",
+      "my ankle is twist"
+     ],
+     "echo": "You've twisted your ankle? Sit down!",
+     "better": "I've twisted my ankle.",
+     "betterFa": "مچ پایم پیچ خورده."
+    }
+   ]
+  },
+  "n2": {
+   "id": "n2",
+   "speaker": "leslie",
+   "text": "Thanks. It hurts, yes. Look — it's swollen already. Like a balloon. And it's going a funny purple colour.",
+   "translations": {
+    "fa": "ممنون. درد می‌کنه، آره. ببین — همین الان ورم کرده. مثل بادکنک. و داره یه رنگ بنفش عجیب میشه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "weight",
+      "put"
+     ],
+     "suggestion": "Can you put weight on it?",
+     "suggestionFa": "می‌تونی روش وزن بندازی؟",
+     "trustDelta": 6,
+     "next": "n3",
+     "success": true
+    },
+    {
+     "keywords": [
+      "move",
+      "toes"
+     ],
+     "suggestion": "Can you move your toes?",
+     "suggestionFa": "می‌تونی انگشت‌هات را تکون بدی؟",
+     "trustDelta": 5,
+     "next": "n3",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "swollen",
+     "fa": "ورم کرده"
+    },
+    {
+     "word": "balloon",
+     "fa": "بادکنک"
+    },
+    {
+     "word": "purple",
+     "fa": "بنفش"
+    },
+    {
+     "word": "weight",
+     "fa": "وزن"
+    },
+    {
+     "word": "toes",
+     "fa": "انگشتان پا"
+    }
+   ]
+  },
+  "n3": {
+   "id": "n3",
+   "speaker": "leslie",
+   "text": "I can move my toes. And I can stand on it — just. Hurts like mad, though. Is it broken? Should I go to A&E?",
+   "translations": {
+    "fa": "انگشت‌هام تکون می‌خورن. و می‌تونم روش وایسم — به‌زور. ولی دیوونه‌وار درد می‌کنه. شکسته؟ باید برم اورژانس؟"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "probably",
+      "sprain",
+      "walk",
+      "can"
+     ],
+     "suggestion": "If you can walk on it, it's probably a sprain.",
+     "suggestionFa": "اگه می‌تونی روش راه بری، احتمالاً رگ‌به‌رگ شده.",
+     "trustDelta": 6,
+     "next": "n4",
+     "success": true
+    },
+    {
+     "keywords": [
+      "let's",
+      "call",
+      "ask"
+     ],
+     "suggestion": "Let's call 111 and ask.",
+     "suggestionFa": "بیا به ۱۱۱ زنگ بزنیم و بپرسیم.",
+     "trustDelta": 5,
+     "next": "n4",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "just",
+     "fa": "به‌زور ؛ به سختی"
+    },
+    {
+     "word": "hurts like mad",
+     "fa": "خیلی درد می‌کند"
+    },
+    {
+     "word": "broken",
+     "fa": "شکسته"
+    },
+    {
+     "word": "A&E",
+     "fa": "اورژانس"
+    },
+    {
+     "word": "sprain",
+     "fa": "رگ‌به‌رگ شدن"
+    }
+   ],
+   "cultureNote": {
+    "en": "A&E (Accident and Emergency) is for serious injuries. For advice, call NHS 111. For a possible broken bone, a minor injuries unit can do an X-ray.",
+    "fa": "اورژانس برای آسیب‌های جدی است؛ برای مشاوره با ۱۱۱ تماس بگیرید."
+   }
+  },
+  "n4": {
+   "id": "n4",
+   "speaker": "leslie",
+   "text": "Good idea. … The nurse says it's probably a sprain. Rest, ice, and keep it up. If it's worse tomorrow, go to minor injuries.",
+   "translations": {
+    "fa": "فکر خوبیه. … پرستار میگه احتمالاً رگ‌به‌رگه. استراحت، یخ، و بالا نگهش دار. اگه فردا بدتر شد، برو واحد آسیب‌های جزئی."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "freezer",
+      "some",
+      "i'll",
+      "from"
+     ],
+     "suggestion": "I'll get some ice from the freezer.",
+     "suggestionFa": "از فریزر یه کم یخ میارم.",
+     "trustDelta": 6,
+     "next": "n5",
+     "success": true
+    },
+    {
+     "keywords": [
+      "cushion",
+      "foot",
+      "put",
+      "up"
+     ],
+     "suggestion": "Put your foot up on this cushion.",
+     "suggestionFa": "پات را بذار رو این کوسن.",
+     "trustDelta": 5,
+     "next": "n5",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "rest",
+     "fa": "استراحت"
+    },
+    {
+     "word": "ice",
+     "fa": "یخ"
+    },
+    {
+     "word": "keep it up",
+     "fa": "بالا نگهش دار"
+    },
+    {
+     "word": "worse",
+     "fa": "بدتر"
+    },
+    {
+     "word": "minor injuries unit",
+     "fa": "واحد آسیب‌های جزئی"
+    }
+   ]
+  },
+  "n5": {
+   "id": "n5",
+   "speaker": "leslie",
+   "text": "We've got no ice. Tom used it all for his \"sports drinks\". Is there a bag of frozen peas? Peas are perfect.",
+   "translations": {
+    "fa": "یخ نداریم. تام همه‌اش را برای «نوشیدنی ورزشیش» مصرف کرد. یه کیسه نخودفرنگی یخ‌زده هست؟ نخودفرنگی عالیه."
+   },
+   "branches": [
+    {
+     "keywords": [
+      "wrapped",
+      "towel",
+      "here",
+      "tea"
+     ],
+     "suggestion": "Here — frozen peas, wrapped in a tea towel.",
+     "suggestionFa": "بفرما — نخودفرنگی یخ‌زده، پیچیده تو حوله.",
+     "trustDelta": 6,
+     "next": "n6",
+     "success": true
+    },
+    {
+     "keywords": [
+      "really",
+      "foot"
+     ],
+     "suggestion": "Frozen peas? On your foot? Really?",
+     "suggestionFa": "نخودفرنگی یخ‌زده؟ رو پات؟ واقعاً؟",
+     "trustDelta": 5,
+     "next": "n6",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "frozen peas",
+     "fa": "نخودفرنگی یخ‌زده"
+    },
+    {
+     "word": "wrapped",
+     "fa": "پیچیده"
+    },
+    {
+     "word": "tea towel",
+     "fa": "حولهٔ آشپزخانه"
+    }
+   ],
+   "cultureNote": {
+    "en": "Never put ice straight on skin. Wrap it in a cloth and use it for about 20 minutes at a time.",
+    "fa": "یخ را مستقیم روی پوست نگذارید؛ در پارچه بپیچید و هر بار حدود ۲۰ دقیقه استفاده کنید."
+   }
+  },
+  "n6": {
+   "id": "n6",
+   "speaker": "leslie",
+   "text": "Oh, that's better. Cold, but better. The best use of peas in this house — Nicola won't eat them anyway!",
+   "translations": {
+    "fa": "اوه، بهتر شد. سرده، ولی بهتره. بهترین استفاده از نخودفرنگی تو این خونه — نیکولا که اصلاً نمی‌خوره!"
+   },
+   "branches": [
+    {
+     "keywords": [
+      "painkillers",
+      "need"
+     ],
+     "suggestion": "Do you need painkillers?",
+     "suggestionFa": "مسکن لازم داری؟",
+     "trustDelta": 6,
+     "next": "n7",
+     "success": true
+    },
+    {
+     "keywords": [
+      "netball",
+      "shall",
+      "team",
+      "tell"
+     ],
+     "suggestion": "Shall I tell your netball team?",
+     "suggestionFa": "به تیم نت‌بالت بگم؟",
+     "trustDelta": 5,
+     "next": "n7",
+     "success": true
+    }
+   ],
+   "newWords": [
+    {
+     "word": "better",
+     "fa": "بهتر"
+    },
+    {
+     "word": "cold",
+     "fa": "سرد"
+    },
+    {
+     "word": "painkillers",
+     "fa": "مسکن‌ها"
+    },
+    {
+     "word": "anyway",
+     "fa": "به هر حال"
+    }
+   ]
+  },
+  "n7": {
+   "id": "n7",
+   "speaker": "leslie",
+   "text": "Paracetamol, please — in the cupboard. And yes, text the team. Tell them I'm out for two weeks. And I want a rematch!",
+   "translations": {
+    "fa": "پاراستامول، لطفاً — تو کابینت. و آره، به تیم پیام بده. بگو دو هفته نیستم. و یه بازی برگشت می‌خوام!"
+   },
+   "branches": [],
+   "newWords": []
+  }
+ }
+}

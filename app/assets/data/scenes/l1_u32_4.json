@@ -68,8 +68,8 @@
    "branches": [
     {
      "keywords": [
-      "enough",
       "thirty",
+      "enough",
       "then"
      ],
      "suggestion": "Thirty is enough, then.",
@@ -80,9 +80,9 @@
     },
     {
      "keywords": [
-      "eats",
       "five",
-      "ryan"
+      "ryan",
+      "eats"
      ],
      "suggestion": "Ryan eats five!",
      "suggestionFa": "رایان پنج تا می‌خوره!",
@@ -175,8 +175,8 @@
     {
      "keywords": [
       "don't",
-      "eat",
-      "tom"
+      "tom",
+      "eat"
      ],
      "suggestion": "I don't eat pork, Tom.",
      "suggestionFa": "من گوشت خوک نمی‌خورم تام.",
@@ -355,8 +355,8 @@
     {
      "keywords": [
       "shopping",
-      "enough",
       "that's",
+      "enough",
       "today"
      ],
      "suggestion": "That's enough shopping for today!",

@@ -22,7 +22,7 @@
       "patients",
       "taking",
       "hello",
-      "new"
+      "nhs"
      ],
      "suggestion": "Hello. Are you taking on new NHS patients?",
      "suggestionFa": "سلام. بیمار جدید NHS می‌پذیرید؟",
@@ -86,8 +86,8 @@
      "keywords": [
       "waiting",
       "there",
-      "here",
-      "list"
+      "list",
+      "here"
      ],
      "suggestion": "Is there a waiting list here too?",
      "suggestionFa": "اینجا هم فهرست انتظار هست؟",
@@ -182,8 +182,8 @@
    "branches": [
     {
      "keywords": [
-      "much",
       "cost",
+      "much",
       "how"
      ],
      "suggestion": "No. How much does it cost?",
@@ -246,8 +246,8 @@
    "branches": [
     {
      "keywords": [
-      "private",
       "cheaper",
+      "private",
       "that's",
       "isn't"
      ],
@@ -300,8 +300,8 @@
      "keywords": [
       "william",
       "nicola",
-      "then",
-      "good"
+      "come",
+      "then"
      ],
      "suggestion": "Good. Nicola and William can come too, then.",
      "suggestionFa": "خوبه. پس نیکولا و ویلیام هم می‌تونن بیان.",

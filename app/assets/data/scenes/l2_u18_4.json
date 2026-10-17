@@ -20,8 +20,8 @@
     {
      "keywords": [
       "missed",
-      "where",
       "don't",
+      "where",
       "know"
      ],
      "suggestion": "Tom! I missed my stop. I don't know where I am!",
@@ -35,7 +35,7 @@
       "asleep",
       "lost",
       "fell",
-      "now"
+      "bus"
      ],
      "suggestion": "I fell asleep on the bus. Now I'm lost.",
      "suggestionFa": "تو اتوبوس خوابم برد. حالا گم شدم.",
@@ -75,8 +75,8 @@
      "keywords": [
       "screen",
       "oxford",
-      "stop",
-      "next"
+      "next",
+      "stop"
      ],
      "suggestion": "The 55. The screen says \"Next stop: Oxford Circus\".",
      "suggestionFa": "۵۵. صفحه نوشته «ایستگاه بعدی: آکسفورد سیرکس».",
@@ -185,8 +185,8 @@
    "branches": [
     {
      "keywords": [
-      "off",
-      "now"
+      "now",
+      "off"
      ],
      "suggestion": "Yes, I'm off. Now what?",
      "suggestionFa": "آره، پیاده شدم. حالا چی؟",
@@ -302,10 +302,10 @@
     },
     {
      "keywords": [
-      "will",
-      "home",
       "take",
-      "long"
+      "long",
+      "will",
+      "home"
      ],
      "suggestion": "How long will it take to get home?",
      "suggestionFa": "چقدر طول می‌کشه برسم خونه؟",
@@ -353,9 +353,9 @@
     {
      "keywords": [
       "awake",
-      "time",
       "stay",
-      "i'll"
+      "i'll",
+      "time"
      ],
      "suggestion": "OK. And I'll stay awake this time!",
      "suggestionFa": "باشه. و این دفعه بیدار می‌مونم!",
