@@ -1,0 +1,152 @@
+## U57 | Colours and shapes | رنگ‌ها و شکل‌ها | playdate | Name colours and shapes, and say what you like | رنگ‌ها و شکل‌ها را نام ببری و بگویی چه دوست داری
+
+# l1_u12_1 | mia | Painting with Mia | نقاشی با میا | What colour is it? It's red. | چه رنگیه؟ قرمزه. | playdate
+mia: Hello! I'm painting a house. Do you want to paint too? | سلام! دارم یه خونه نقاشی می‌کنم. تو هم می‌خوای نقاشی کنی؟
+> Yes, please! What can I paint? | آره، لطفاً! چی نقاشی کنم؟
+> Yes! Can I have a brush? | آره! می‌شه یه قلم‌مو داشته باشم؟
+W: painting=نقاشی کردن ; house=خانه ; brush=قلم‌مو
+mia: Here's a brush. Paint the sun! What colour is the sun? | بیا این قلم‌مو. خورشید را بکش! خورشید چه رنگیه؟
+> The sun is yellow. | خورشید زرده.
+> It's yellow, I think. | فکر کنم زرده.
+W: sun=خورشید ; yellow=زرد ; colour=رنگ
+C: British English writes "colour"; American English writes "color". | بریتانیایی colour، آمریکایی color.
+mia: Yes! Yellow. Now the door. My door is red. What colour is your door? | آره! زرد. حالا در. در من قرمزه. در تو چه رنگیه؟
+> My door is blue. | در من آبیه.
+> My door is green. | در من سبزه.
+W: door=در ; red=قرمز ; blue=آبی ; green=سبز
+X: my door blue ; door is a blue => Your door is blue? Lovely! | My door is blue. | در من آبیه.
+mia: Oh no! I've got red paint on my hands! | وای نه! رنگ قرمز روی دستامه!
+> Don't worry. Let's wash them. | نگران نباش. بیا بشوریمشون.
+> Ha ha! Your hands are red! | ها ها! دستات قرمزه!
+W: paint=رنگ ; hands=دست‌ها ; wash=شستن
+mia: Now we need a tree. Trees are green and brown. Can you paint the tree? | حالا یه درخت لازم داریم. درخت‌ها سبز و قهوه‌ای‌ان. می‌تونی درخت را بکشی؟
+> Yes, I can. Where's the brown paint? | آره، می‌تونم. رنگ قهوه‌ای کجاست؟
+> OK. A big tree or a small tree? | باشه. درخت بزرگ یا کوچیک؟
+W: tree=درخت ; brown=قهوه‌ای ; big=بزرگ ; small=کوچک
+mia: A big tree! Next to the house. That's lovely! | یه درخت بزرگ! کنار خونه. چه قشنگه!
+> Thank you! What's next? | ممنون! بعدش چی؟
+> Can we paint a cat? | می‌شه یه گربه بکشیم؟
+W: next to=کنار ; lovely=قشنگ
+C: "Lovely" is a very common British word for "nice" or "great". | lovely در بریتانیا خیلی رایج است.
+mia: A cat! My cat is black and white. His name is Biscuit. | یه گربه! گربهٔ من سیاه و سفیده. اسمش بیسکویته.
+> Biscuit! That's a funny name. | بیسکویت! اسم بامزه‌ایه.
+> I like cats. Let's paint Biscuit. | من گربه دوست دارم. بیا بیسکویت را بکشیم.
+W: black=سیاه ; white=سفید ; funny=بامزه
+mia: Look! The sky is blue, the sun is yellow, and Biscuit is in the garden. | ببین! آسمون آبیه، خورشید زرده، و بیسکویت تو باغه.
+> It's a beautiful picture! | عکس خیلی قشنگیه!
+> Can we put it on the fridge? | می‌شه بذاریمش روی یخچال؟
+W: sky=آسمان ; garden=باغ ; picture=تصویر
+mia: Yes! Mummy puts all my pictures on the fridge. Thank you for painting with me! | آره! مامان همهٔ نقاشی‌هامو روی یخچال می‌ذاره. ممنون که باهام نقاشی کردی!
+
+# l1_u12_2 | leslie | Sorting the socks | جفت کردن جوراب‌ها | Plurals and colours: two blue socks | جمع و رنگ‌ها | kitchen
+leslie: Look at all these socks! Can you help me? We need to find the pairs. | این همه جوراب را ببین! کمکم می‌کنی؟ باید جفت‌ها را پیدا کنیم.
+> Of course. I can help. | حتماً. می‌تونم کمک کنم.
+> Wow, that's a lot of socks! | وای، چه‌قدر جوراب!
+W: socks=جوراب‌ها ; pairs=جفت‌ها ; find=پیدا کردن
+leslie: This sock is blue with stars. Can you see another blue one? | این جوراب آبیه با ستاره. یه آبی دیگه می‌بینی؟
+> Yes, here it is. | آره، ایناهاش.
+> No, I can't see one. | نه، نمی‌بینم.
+W: stars=ستاره‌ها ; another=یکی دیگر
+leslie: Brilliant. Now, two pink socks. They're Nicola's. | عالی. حالا دو تا جوراب صورتی. مال نیکولان.
+> Here are two pink socks. | این دو تا جوراب صورتی.
+> Pink? Is this one pink or red? | صورتی؟ این صورتیه یا قرمز؟
+W: pink=صورتی ; two=دو
+X: two pink sock ; two socks pinks => Two pink socks? Yes, thanks. | two pink socks | دو تا جوراب صورتی
+C: "Brilliant" in Britain often just means "great" or "thanks", not "very clever". | brilliant یعنی عالی.
+leslie: That one's red. These tiny white ones are William's. Aren't they sweet? | اون قرمزه. این سفیدای کوچولو مال ویلیامه. ناز نیستن؟
+> They're so small! | خیلی کوچیکن!
+> Yes, they're very sweet. | آره، خیلی نازن.
+W: tiny=خیلی کوچک ; sweet=ناز
+leslie: And these big grey socks are Tom's. They've got a hole! | و این جوراب‌های طوسی بزرگ مال تامه. سوراخ دارن!
+> Ha! Tom needs new socks. | ها! تام جوراب نو لازم داره.
+> Shall I put them in the bin? | بندازمشون سطل آشغال؟
+W: grey=طوسی ; hole=سوراخ ; bin=سطل آشغال
+C: British "grey", American "gray". British "bin", American "trash can". | grey/gray و bin/trash can.
+leslie: Yes, in the bin! Now, one green sock. Where's the other green sock? | آره، سطل آشغال! حالا، یه جوراب سبز. اون یکی جوراب سبز کجاست؟
+> I don't know. Is it under the table? | نمی‌دونم. زیر میزه؟
+> Maybe it's in the washing machine. | شاید تو ماشین لباسشوییه.
+W: under=زیر ; washing machine=ماشین لباسشویی ; other=دیگری
+leslie: Good idea! Yes, here it is, in the washing machine. Socks always disappear! | فکر خوبیه! آره، ایناهاش، تو ماشین لباسشویی. جوراب‌ها همیشه غیب می‌شن!
+> In my country, too! | تو کشور منم همین‌طوره!
+> Where do they go? | کجا می‌رن؟
+W: always=همیشه ; disappear=ناپدید شدن
+leslie: Nobody knows! OK, how many pairs have we got? Can you count them? | هیچ‌کس نمی‌دونه! خب، چند جفت داریم؟ می‌تونی بشمری؟
+> One, two, three… eight pairs! | یک، دو، سه… هشت جفت!
+> I think we've got eight pairs. | فکر کنم هشت جفت داریم.
+W: how many=چند تا ; count=شمردن ; eight=هشت
+leslie: Eight pairs! Thank you, love. Let's put them in the drawers. Then a cup of tea! | هشت جفت! ممنون عزیزم. بذاریمشون تو کشوها. بعد یه فنجون چای!
+
+# l1_u12_3 | nicola | Shapes in the kitchen | شکل‌ها در آشپزخانه | It's a circle / square / triangle | دایره / مربع / مثلث | kitchen
+nicola: Let's play a game! Find a shape in the kitchen. I can see a circle! | بیا یه بازی کنیم! یه شکل تو آشپزخونه پیدا کن. من یه دایره می‌بینم!
+> Where? I can't see it. | کجا؟ نمی‌بینمش.
+> Is it the clock? | ساعته؟
+W: game=بازی ; shape=شکل ; circle=دایره
+nicola: Yes! The clock is a circle. Now you find one. | آره! ساعت دایره‌ست. حالا تو یکی پیدا کن.
+> The window is a square. | پنجره مربعه.
+> The plate is a circle, too. | بشقاب هم دایره‌ست.
+W: clock=ساعت ; window=پنجره ; square=مربع ; plate=بشقاب
+nicola: Well done! My turn. The sandwich is a triangle! | آفرین! نوبت من. ساندویچ مثلثه!
+> Yes! Two triangles. | آره! دو تا مثلث.
+> Can I eat the triangle? | می‌تونم مثلث را بخورم؟
+W: triangle=مثلث ; sandwich=ساندویچ ; my turn=نوبت من
+C: British children often have sandwiches cut into triangles — "posh" sandwiches! | ساندویچ مثلثی در بریتانیا رایج است.
+nicola: No! It's Ryan's sandwich. He gets cross. What shape is the table? | نه! ساندویچ رایانه. عصبانی می‌شه. میز چه شکلیه؟
+> The table is a rectangle. | میز مستطیله.
+> I think it's a rectangle. | فکر کنم مستطیله.
+W: cross=عصبانی ; table=میز ; rectangle=مستطیل
+X: table is rectangle ; is a rectangle table => It's a rectangle? Yes! | The table is a rectangle. | میز مستطیله.
+nicola: A rectangle! That's a hard word. What about the biscuits? | مستطیل! کلمهٔ سختیه. بیسکویت‌ها چی؟
+> They're circles. | دایره‌ان.
+> Some are squares. | بعضی‌هاشون مربعن.
+W: hard=سخت ; biscuits=بیسکویت‌ها ; some=بعضی
+C: British "biscuit" = American "cookie". An American "biscuit" is like a British scone. | biscuit/cookie.
+nicola: Can I have a biscuit? Just one? Please? | می‌تونم یه بیسکویت بخورم؟ فقط یکی؟ لطفاً؟
+> Ask your mum first. | اول از مامانت بپرس.
+> Just one, OK? | فقط یکی، باشه؟
+W: just one=فقط یکی ; ask=پرسیدن
+nicola: Mummy says yes! A round one. Now, a star! Can you see a star? | مامان می‌گه آره! یه گرد. حالا، یه ستاره! یه ستاره می‌بینی؟
+> No. Is there a star in the kitchen? | نه. تو آشپزخونه ستاره هست؟
+> Yes! On the fridge. | آره! روی یخچال.
+W: round=گرد ; star=ستاره ; fridge=یخچال
+nicola: Yes! My gold star from school is on the fridge. I got it for reading. | آره! ستارهٔ طلایی مدرسه‌ام روی یخچاله. برای کتاب خوندن گرفتمش.
+> Well done, Nicola! | آفرین نیکولا!
+> You're very clever! | خیلی باهوشی!
+W: gold=طلایی ; reading=خواندن ; clever=باهوش
+nicola: Thank you! You're good at this game. Let's play again after tea! | ممنون! تو این بازی خوبی. بیا بعد از شام دوباره بازی کنیم!
+
+# l1_u12_4 | nicola | My favourite colour | رنگ مورد علاقه‌ام | What's your favourite…? My favourite… is… | مورد علاقه‌ات چیه؟ | playdate
+nicola: Mia and I are making a poster. It's about favourite things! | من و میا داریم یه پوستر درست می‌کنیم. دربارهٔ چیزهای مورد علاقه‌ست!
+> That's a good idea! | فکر خوبیه!
+> Can I help you? | می‌تونم کمکتون کنم؟
+W: poster=پوستر ; favourite=مورد علاقه ; things=چیزها
+nicola: Yes! What's your favourite colour? | آره! رنگ مورد علاقه‌ات چیه؟
+> My favourite colour is green. | رنگ مورد علاقه‌ام سبزه.
+> I like blue. It's my favourite. | آبی دوست دارم. مورد علاقمه.
+W: like=دوست داشتن
+X: my favourite colour green ; favourite colour is a green => Your favourite colour is green? Nice! | My favourite colour is green. | رنگ مورد علاقه‌ام سبزه.
+C: British "favourite", American "favorite". | favourite/favorite.
+mia: My favourite colour is purple. Nicola's is pink. Everything is pink! | رنگ مورد علاقهٔ من بنفشه. مال نیکولا صورتیه. همه چی صورتیه!
+> Your bag is pink! | کیفت صورتیه!
+> And your shoes are pink, too. | کفش‌هات هم صورتیه.
+W: purple=بنفش ; everything=همه چیز ; shoes=کفش‌ها
+nicola: I love pink! Now, what's your favourite animal? | من عاشق صورتی‌ام! حالا، حیوون مورد علاقه‌ات چیه؟
+> I love horses. | عاشق اسبم.
+> My favourite animal is a cat. | حیوون مورد علاقه‌ام گربه‌ست.
+W: animal=حیوان ; horses=اسب‌ها
+nicola: Mine is a penguin! They're black and white and very funny. | مال من پنگوئنه! سیاه و سفیدن و خیلی بامزه‌ان.
+> Penguins are funny! | پنگوئن‌ها بامزه‌ان!
+> Have you seen a penguin? | تا حالا پنگوئن دیدی؟
+W: penguin=پنگوئن ; mine=مال من
+mia: We saw penguins at the zoo! Now, favourite food. Mine is pizza. | تو باغ‌وحش پنگوئن دیدیم! حالا، غذای مورد علاقه. مال من پیتزاست.
+> My favourite food is rice. | غذای مورد علاقه‌ام برنجه.
+> I love kebabs. | عاشق کبابم.
+W: zoo=باغ‌وحش ; food=غذا ; rice=برنج
+nicola: Rice! Nana makes rice on Sundays. Can you write it on the poster? | برنج! نانا یکشنبه‌ها برنج درست می‌کنه. می‌تونی روی پوستر بنویسیش؟
+> Yes. R-I-C-E. | آره. ر-ا-ی-س.
+> Can I write it in Persian, too? | می‌تونم فارسی‌اش را هم بنویسم؟
+W: write=نوشتن ; Sundays=یکشنبه‌ها
+nicola: Yes! Persian is so pretty. It goes from right to left! | آره! فارسی خیلی قشنگه. از راست به چپ می‌ره!
+> That's right. You're very clever. | درسته. خیلی باهوشی.
+> Do you want to learn a Persian word? | می‌خوای یه کلمهٔ فارسی یاد بگیری؟
+W: pretty=قشنگ ; right=راست ; left=چپ
+nicola: Our poster is finished! Pink, purple, green, penguins and pizza. It's the best poster ever! | پوسترمون تموم شد! صورتی، بنفش، سبز، پنگوئن و پیتزا. بهترین پوستر دنیاست!
